@@ -35,7 +35,7 @@ Yijie Shen, Nikitas Papasimakis, Nikolay I. Zheludev
 
 出版信息：Nature Communications, 2024, 15:4863, DOI: 10.1038/s41467-024-48927-5 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5uFfd5d6cN1UTjQ510oqG0m4x3mficUyR8AVuCfSaW9KmibhplkajQy6uw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_非衍射电磁超环脉冲_images\img_000_9eac227d3ef9.png)
 
 论文摘要
 
@@ -53,27 +53,27 @@ Yijie Shen, Nikitas Papasimakis, Nikolay I. Zheludev
 
 本文主要解决传统电磁飞环在传播过程中拓扑结构（如斯格明子、涡旋、能量回流等）无法保持稳定的问题，提出了一种具有非衍射传播特性的电磁超环脉冲。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5unG4IsW6MVyrhZicqZicxLjJOOZFGSV0Jcq7UoHCsldYFqGaIxUfZpJBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_非衍射电磁超环脉冲_images\img_001_7beab445f993.png)
 
 图 1 | 时空拓扑脉冲演化。(a) 基模电磁飞环与 (b) 非衍射电磁超环的传播演化：图中展示了在三个不同时刻下，脉冲的归一化横电模式电场在 x-z 平面上的分布。红色和蓝色的三维等值面分别表示电场振幅等于正0.15和负0.15（均归一化至相应最大值）的位置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5uNDyr89ouvoxp1K6buCGsPrJsZZf4Pt1zU7IKhbjNibbEBMk5ia0OsPpA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_非衍射电磁超环脉冲_images\img_002_71874fbe846f.png)
 
 图 2 | 非衍射传播特性。(a) 一个横向发散电磁飞环脉冲的传播演化：展示了 q₃/q₁ = 20 的脉冲在三个不同时刻下，其归一化电场在 x-z 平面上的分布。红色和蓝色的三维等值面分别表示电场振幅等于正0.15和负0.15的位置（均归一化至相应最大值）。所示案例介于基模电磁飞环 \[q₃ → ∞；见图1a\] 和非衍射电磁超环 \[q₃ = q₁；见图1b\] 之间。 (b) 不同 q₃ 值的脉冲在传播过程中其横向宽度的演变，图中标记了数值计算的发散度。(c)–(f) 分别为具有不同 q₃/q₁ 值（50, 20, 5, 1）的脉冲的时空演化。在每个子图中，紫色虚线标示了相应脉冲的半高全宽位置。所有情况下 q₁ 均设为 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5u635Lusia5w5ibqJIia7SJkvycV2wsw6PliaFxNMpU2KzNehDWA82IIXqTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_非衍射电磁超环脉冲_images\img_003_68a310314e22.png)
 
 图 3 | 传播鲁棒的奇点。展示了 (a) 一个聚焦的电磁飞环 (q₃ = ∞, α = 50) 和 (b) 一个非衍射电磁超环 (q₃ = 1, α = 1) 的电场奇点随传播时间演化的对比：每个子图展示了在给定时刻，脉冲在 x-z 平面上电场对数模值的等值线图。奇点由粗黑线突出标示。长度单位：q₁。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5uGUGIz06kP7HIWfNxeHVJJGWIiasLoo5ZZwl4IATod6AadsbMWFicVd5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_非衍射电磁超环脉冲_images\img_004_f89696f1f94c.png)
 
 图 4 | 拓扑电磁与能流结构。展示了在 t = 0 时刻，一个参数为 q₂ = 100 且 q₃ = 1 的非衍射电磁超环的磁场分布和坡印廷矢量分布。等值线表示相应矢量模的对数值。(a1) 磁场的放大图：箭头图显示了矢量分布，黑点指示奇点，周围红色箭头标示了矢量奇点的类型，作为示意。(a2) 箭头图显示了在 z = 10 处横向平面上的磁场斯格明子结构，插图中突出了斯格明子纹理中场矢量反转区域的深亚波长特征。(b1) 坡印廷矢量场的放大图：箭头图对应矢量分布，实线和圆点标示了坡印廷矢量的零点，红色和蓝色箭头分别指示能量前向流动和反向流动的区域。长度单位：q₁。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5ulklJOvR1VJ6KxatFXyLuIlo6FETCTvqq6eicaEEiaaT2CAdkFN6vIxeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_非衍射电磁超环脉冲_images\img_005_c42c41a6d23c.png)
 
 图 5 | 卡门涡街。一幅艺术构想图，展示了与非衍射电磁超环磁场结构类似的涡街，其中右旋和左旋的涡环分别用蓝色和红色突出显示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5u2SQAOkjueVIPH47sPHJgtqicUdlsOLhDGSRG0cyCP3V4gE0uvOMQXrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_非衍射电磁超环脉冲_images\img_006_d6a1dfa125a4.png)
 
 图 6 | 频谱分析。(a1)基模电磁飞环与(b1)非衍射电磁超环的平面波谱，以及它们相应在 kz-ω/c 平面上的投影 (a2, b2)。光锥由 (a1, b1) 中的蓝色曲面和 (a2, b2) 中的蓝色线条表示。电磁飞环和非衍射电磁超环的参数分别与图 3a 和 图 3b 中的相同。
 

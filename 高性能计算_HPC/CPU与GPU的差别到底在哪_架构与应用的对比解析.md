@@ -5,15 +5,15 @@
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/VIM0SmWQpWvsQIEAS5b228jQGB4FurcBibs2iaubicTaW5IkOa3r4XpLaPyzmen89DAcSJr1ObOucT9iceic0xehFcg/640?)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_000_c86aef6f3bea.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2MhiaCtgicxW6hVicfNzL5yE9b4tViaWuriaVsWhgzqbAxD0eIYhziaLtLI1uwLENGob23fQJEVe1M77eMPRP8yNHrKQ/640?)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_001_782af324a974.png)
 
 在计算机科学的世界里，CPU和GPU是两个至关重要的组件。它们在处理数据和执行任务时扮演着不同的角色。对于程序员新手来说，理解这两者之间的区别对于编写高效代码和选择合适的硬件至关重要。本文将从架构和应用的角度，深入探讨CPU与GPU的区别。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0TML8L0lRIQpGUWia6icq2tP5nu7pMOd4IQCH1MlYGKXCjUmA063rOnNSSyGsLKIGgkx1BVIEmko5g/640?wx_fmt=other&from=appmsg&random=0.08724691453189903)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_002_0f2a3ab0042e.jpg)
 
 ## CPU：中央处理器的多面手
 
@@ -32,7 +32,7 @@ CPU的设计注重通用性和灵活性。它由以下几个关键部分组成�
 
 CPU的每个核心都像是一位学识渊博的教授，能够处理各种复杂的任务，但面对大量简单重复的计算时，可能会显得力不从心。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm0TML8L0lRIQpGUWia6icq2tPpInq3tkXibuZCJyTkTPibR9eA0t6Q9e61px8bU1n1nCh4QEQSjdYJQPA/640?wx_fmt=png&from=appmsg&random=0.8250098078096362)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_003_8048cbd86a02.png)
 
 ## GPU：图形处理器的并行大师
 
@@ -51,9 +51,9 @@ GPU的设计注重并行处理能力，它的特点包括：
 
 将GPU的每个核心比作一个小学生，虽然每个小学生只能做简单的算数运算，但当有500个小学生同时工作时，他们可以轻松完成大量简单任务。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm0TML8L0lRIQpGUWia6icq2tPw10EWak68kKS20ibmoNVqdKgb7HFtZhvQTOxnP6RPliaC8kWwWZ7dFIg/640?wx_fmt=png&from=appmsg&random=0.2301492688955773)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_004_5dcd305b91d3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0TML8L0lRIQpGUWia6icq2tPeFAhGcEgLJzh4Rdu4PjMgRvSF4ocOibqBabRrYjLic62qF4dJOOqkbZA/640?wx_fmt=jpeg&from=appmsg&random=0.3338732405684073)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_005_f2f958269560.jpg)
 
 ## CPU与GPU的应用场景对比
 
@@ -83,7 +83,7 @@ GPU则在以下领域表现出色：
 
 GPU需要大量核心的原因与其设计目的密切相关。在图形渲染中，每个像素点都需要进行相同的计算过程，包括颜色、光照和纹理等。通过并行处理这些像素点，GPU可以快速完成整个图像的渲染。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0TML8L0lRIQpGUWia6icq2tPd8IXnia3QvgiaJ0rrTVbwOCXCUtDdzV5Ipjk3fVV2nDws226peIftuxg/640?wx_fmt=other&from=appmsg&random=0.2867545070970512)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_006_7193be167167.jpg)
 
 ### 图形渲染的并行性
 
@@ -103,4 +103,4 @@ CPU和GPU各有所长，它们在不同的应用场景下发挥着不同的作�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=jpeg&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406&random=0.828879449577405)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\CPU与GPU的差别到底在哪_架构与应用的对比解析_images\img_007_057d75721dca.jpg)

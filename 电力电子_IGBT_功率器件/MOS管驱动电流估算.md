@@ -6,7 +6,7 @@
 
 例：FDH45N50F如下参数：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJ5xhJh442ZiaKcrXTM0I1NDjv5GwQ4TurJBHt6RBvtkncJ4EpEfK3KFu8RvPJbqpCibyrpmRDseicOQ/640?wx_fmt=jpeg)
+![](MOS管驱动电流估算_images/img_000_b75c75dab1e5.jpg)
 
  有人可能会这样计算：
 
@@ -32,11 +32,11 @@ Ioff=Qg/Toff= Qg/Td(off)+tf，带入数据得Ioff=105nc/(215+245)ns=228mA。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJ5xhJh442ZiaKcrXTM0I1ND2bC8RhPJxNNzBvdHLYSSZ1RPOrvryZibmeQjsiaaunsqbQ0Ssibhca5kg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\MOS管驱动电流估算_images\img_000_c45ec8a0f111.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJ5xhJh442ZiaKcrXTM0I1ND92SnxQaTVGj7pljrmkX2wIiakMHo5pAbwqP1ewjrWwMMVSlvtPBSlTQ/640?wx_fmt=jpeg)
+![](MOS管驱动电流估算_images/img_002_b4b0919e45f8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJ5xhJh442ZiaKcrXTM0I1NDdib7TiclW94US26QGdcmpTqibS2zDh6XViaSZNqyiatsZiagZgcnRuCic7joA/640?wx_fmt=jpeg)
+![](MOS管驱动电流估算_images/img_003_23abaa9defe5.jpg)
 
 下面讲讲MOS管开通过程
 

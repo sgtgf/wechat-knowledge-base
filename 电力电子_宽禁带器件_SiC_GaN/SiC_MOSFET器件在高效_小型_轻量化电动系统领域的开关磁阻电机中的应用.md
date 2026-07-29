@@ -5,13 +5,13 @@
 
 近年来，开关磁阻电机逐渐走进了市场，因为该电机具有其他电机没有的优势，所以逐渐成为了市场未来发展的主要方向，目前已成功地应用于电动车驱动、通用工业、家用电器和纺织机械等各个领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVcnurPsiajOJCtgGJQtrhVDfZ3PuG6zl0QleEb3kNELPlEu66jdNLhUibw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_000_c57631d32e46.jpg)
 
 开关磁阻电机调速系统是以现代电力电子与微机控制技术为基础的机电一体化产品。它是由开关磁阻电动机和微机智能控制器两部分组成，其特点是效率高、节能效果好、调速范围广，无冲击起动电流，起动转矩大，控制灵活等特点。1998年，我国把发展电动机调速节能和电力电子节电技术纳入《中华人民共和国节能法》中，国家发改委“电动机节能计划”明确提出：提高电动机15-20%的效率，实现节电1000亿kWh/年。因此，该种电机被广泛用于运输车辆驱动、龙门刨、锻压设备等需要重载起动，频繁启动，正反转的场合。
 
 **‌SiC MOSFET器件在开关磁阻电机的应用中优势**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVcBb9m1SFCUic8wia4JpuLBicnjC3LgS8NYhdDnoxNBxyHXldvHIf5rib9EQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_001_e6516dafc00b.png)
 
 应用在磁阻电机中的SiC MOSFET模块
 
@@ -31,11 +31,11 @@ SiC MOSFET（碳化硅金属氧化物半导体场效应晶体管）作为一种�
 
 金彭集团7月份发布会的新产品:金鼎2.0-骏威Max系列三轮车。骏威Max搭载了行业首创的矢量磁阻智能动力系统，带领行业走向智能新时代；它的电机三大创新设计带来三大性能突破，让车速迎来65KM/H的时代，迄今为止，是三轮车史上最快的电动三轮车；采用的行业首创六维矢量控制技术，运算效率高，驾驶更平稳；双联齿结构全悬浮后桥，使用寿命长，运行噪音低，真正做到静享驾乘
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVcMMjTlQfLE0OZmaSuYXARvxiaWibjElFbaDYtLBO0lkwVV9h6OOcTUWmw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_002_5bb3b747cf28.png)
 
 该系统采用先进的矢量磁阻电机及控制技术，有效解决了行业普遍存在的烧机、退磁、户外损坏等问题，同时大幅提升了系统效率。搭载该系统的金鼎2.0-骏威Max三轮车最高系统效率可达93%，转速扩展至10000转，续航里程提升20%，整车稳定性提升了80%。系统采用了六维空间矢量控制技术、碳化硅MOSFET半导体功率模块以及Cortex-M4内核等先进技术，为三轮车提供了更强大的运算能力和更精准的控制策略，算力提升200%，使得三轮车在动力性能、稳定性以及智能化程度方面均达到行业领先水平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVc2icGryiaj48LiaHPIWrK3ggKaZKD5daktn6ibxml9Xq9KkFWrZbA0NzlLw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_003_9737df5dcd98.png)
 
 _矢量磁阻三轮车电机（高性能版）_
 
@@ -45,9 +45,9 @@ _矢量磁阻三轮车电机（高性能版）_
 
 除了应用于电动三轮车外，开关磁阻电机凭借其结构简单和成本效益，适配于电动汽车和混合动力汽车、工业自动化、航空和航天等需要高可靠性和高效率的应用场合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVlfYSvAWpMXyTPbdiaI9QWSsnL5pcuTfllrmn1PUHPnCSibQz0uP0rNkF8ItvNhbiaPibh1dzoqCTbf9A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_004_290263e15b6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVlfYSvAWpMXyTPbdiaI9QWSsGp9T7pnTwKbQkp8vTvppys7JibK8EvEH7rZH3z79HQraXhpA4THpcAg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)应用资料来源：行家说三代半
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_005_dffe49292acc.png)应用资料来源：行家说三代半
 
 **开关磁阻电机调速系统的特点：**  
 
@@ -119,10 +119,10 @@ _矢量磁阻三轮车电机（高性能版）_
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_006_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_007_3ade3c3d8599.jpg)![](SiC_MOSFET器件在高效_小型_轻量化电动系统领域的开关磁阻电机中的应用_images/img_008_84aa944feb13.jpg)

@@ -18,7 +18,7 @@
 
 而碳化硅 MOSFET 驱动电路核心为碳化硅MOSFET 驱动芯片 。 表 1 为国内 外碳化硅 MOSFET 驱动芯片对比情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaAConWG06NrBwgOOvICDEnPj1IWg59QbOGhXnl8mT5iadNt4Dj64eNDc0Dg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_000_a2c1b536b1cd.png)
 
 基于表 1 调研的驱动厂家与芯片来看，国外驱动芯片的 Sink/Source 电流 能 力集中在 10 A 左右 ，最大为 20 A，而国内驱动芯片也基本可达到10A；对于 碳化硅MOSFET驱动芯片，一般要求共模抗干扰度 CMTI≥100 V/ns，国外驱动芯片满足此要求 ，英飞凌的 1ED3321MC12N 可达 300 V/ns，而国内驱动芯片也可满足要求 ；在传播延时方面，国外芯片在 75~150 ns，国内驱动芯片在 50~70 ns，优于国外驱动 ；此外 ，国外 驱 动 芯 片 集 成 了 退 饱 和 保 护 、有源米勒钳位 、欠压锁 定 、上拉/下拉 独立可控等保护功能 ；而国内青 铜剑 、瞻芯 、华大半导体厂商的保护功能均不完善 ，纳芯微的 NSI6611 保护功能可满足要求。此外，对于芯 片的电压隔离 ，国外集中在2500V~5700 V，而国内集中在3700V~5700 V。
 
@@ -34,31 +34,31 @@
 
 大功 率 电 路 中 使 用 的 典 型 桥 式 电 路 拓 扑 中 ，半桥 结构是 基 本 的 拓 扑 单 元 。 当上 管 导 通 ，下管 关 闭 时 ，下管会有一 个 由 低 到 高 的 快速 dv/dt，节点电压通过米勒电容CGD，根据 I = C\* dV/dt ，将产生 流经 CGD 的米勒充电电流，该电流依次流过驱动器的输出电阻 Rg，在门极电平产生正瞬态电压，门极串扰电路模型如图 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoQ3t5dNiaNB7AiclnICiccUib9bf1NoAsricico2uozqTmH3jiaxnEGl4qCIdA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_001_8a779689713f.png)
 
 为解 决 门 极 串 扰 问 题 ，在采 用 负 压 VEE 关断 的 同 时 ，提供 了 一 种 碳化硅MSOFET 有源米勒钳位电路 ，当检测到门 级 电 压 低 于 Vclamp\_th（比 VEE 高 2 V）时 ，比较 器 翻 转 ，门极 引 脚 被 MOSFET 下拉 ，从而 提 供 低 阻 抗 路 径 以 避 免碳化硅 MOSFET 误导通。
 
 电路 原 理 图 如 图 2 所示 ，该电 路 主 要 由 电 源 模 块、主控器 、驱动集 成芯片 、驱动电阻（Rg）、碳化硅MOSFET（Q1）、比较 器（U1）、MOSFET（Q2）、串扰抑制逻辑模块组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACojic4CmkO9SW1U7wlRob5GXFsz8YAGPPJxO4Que8ng6NDjoPfpJibdlSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_002_35c8838f58d2.png)
 
 串扰 抑 制 逻 辑 模 块 框 图 如 图 3 所示 ，电路 主 要 有 光耦 、与门 U2、或非 门 U3 组成 。 光耦 用 于 隔 离 控 制 输 入信号 ，增加 系 统 鲁 棒 性 ；或非 门 、与门 组 成 逻 辑 模 块 ，用于控制 MOSFET(Q2)的开通与关闭。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACob3rHdOVLicomTyPwkqvvlOUicRD5k3JqThQzJCbHOicQumux6x726ib3Zw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_003_c52467bb43a9.png)
 
 其中 IN1 为控制输入信号 ，IN2 为比较器输出信号 ，G2 为控制 MOSFET 开关信号,真值表如表 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACostkrVqDsmRgibzmoXibibdz5HWSqIryylW830ejic1XuXsnoiaFF3icwibgrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_004_2181a12af95f.png)
 
 当控 制 信 号 IN1 由高 电 平 转 换 到 低 电 平 时 ，碳化 硅MOSFET 由开 通 状 态 转 换 为 关 闭 状 态 ，G1 信号 由 高 电平 VCC（18 V）下降 到 VEE（ -3 V），G1 信号 在 下 降 到Vclamp\_th 之前 ，比较 器 输 出 信 号 IN2 为高 电 平 ，G2 信号 为低电 平 ，MOSFET（Q2）关闭 ；当 G1 信号 下 降 并 低 于Vclamp\_th 时 ，比较 器 输 出 信 号 IN2 为低 电 平 ，G2 信号 为 高电平 ，MOSFET（Q2）导通 ，如图 4 所示 ，iMiller 将直 接 通 过Q2 流出 ，为碳 化 硅 MOSFET 门极 信 号 提 供 低 阻 抗 路 径 ，从而有效避免串扰问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoKlVRvmVOFiazkPV1OnFJHy0vvzs1tpZaCvXJ9vxb77OWOHSCJM1c0og/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_005_5b86ad6ec62b.png)
 
 1.2 退饱和保护原理分析
 
 对于碳 化 硅 MOSFET 来说 ，在正 常 导 通 情 况 下 ，其VDS 两端的电压可 能 为 2 V，芯片 内 部 的 上 拉 电 源 ICHG 电流从 DESAT 端口流 出 ，通过 RLIM 和 DHV 流入 MOSFET。此时 ，CBLK 即DESAT 端口两端压降为VDS压降加高 压 二极管正向导通压降加 RLIM 两端压降，如图 5（a）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoc79C36Iw0vBrZbibmelOyktf7SRiaTLJMp0llyoUkhKy6cAFQsE3lm1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_006_fc6194e56f7e.png)
 
 当短路 情 况 发 生 时 ，VDS 两端 的 压 降 会 迅 速 上 升 ，这时高 压 二 极 管 会 发 生 反 偏 ，内部 电 流 源 电 流 只 有 一 条 流向 ，即给 CBLK 电容 充 电 ，当 CBLK 电容 两 端 压 降 即 DESAT电压超过阈值电压，便会触发短路保护，如图 5（b）所示。
 
@@ -68,11 +68,11 @@
 
 桥臂 互 锁 逻 辑 模 块 如 图 6 所示 ，主要由或门、异或门组成 ，避免因误操作 或 算 法 错 误 使 得 PWM1、PWM2 同时给 高 电 平 ，造成 碳 化 硅 MOSFET 上下 桥 臂 同 时 导 通 ，导致半桥直通短路损坏的情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoYWfxgbNQXhOX03ae0uEPDerWcI9qzI1YIPEUAkqCWbKHWWUq3pBANQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_007_ed5b4e88ea94.png)
 
 其中 PWM1、PWM2 为脉 冲 信 号 ，IN1、IN2 为驱 动 芯片的 输 入 信 号 ，Q1、Q2 分别 为 上 、下桥 臂 的 碳 化 硅MOSFET 开关状态，其真值表如表 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACorohbiaWJxeKqibHajtthjFc6zfog3roNRQtpQsS1iaRufmkyZvbYJR5zg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_008_df5b9fb3a66a.png)
 
 从真 值 表 可 以 看 出 ，当 PWM1 信号 为 高 电 平 、PWM2 信号 为 高 电 平 时 ，IN1 与 IN2 为低 电 平 ，上 、下桥臂均处于关断状态 ，有效避免了 因 误 操 作 或 算 法 错 误 导致的桥臂直通情况。
 
@@ -80,7 +80,7 @@
 
 碳化 硅 MOSFET 半桥驱动及保护电路如图 7 所示 ，该电路主要由隔离电源模块 、隔离驱动芯片 、LDO、桥臂互锁逻辑模块、驱动电阻组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoKlspDZVLvCiaCQwwawdwTz3gVxoqWKIDzmpwdLUbeufOpAR6bcEjOjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_009_599fe80c0bb7.png)
 
 2.1 电源部分
 
@@ -90,7 +90,7 @@ LDO 选用 国 产 芯 片 CJ7805，其最 大 输 出 电 流 为1.5 A，可以
 
 其电路原理图如图 8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoyT4PN9cVEddjt6FOXEZjNvllcTCFdajBPwrbL6TYJTJX6Tuia3SJrtw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_010_ab564e6f446d.png)
 
 C1、C8 为电 解 电 容 ，作储 能 用 ；其余 作 为 旁 路 电 容 ，将电 路 中 的 高 频 成 分 滤 掉 ，提高 电 源 纯 净 度 。 电容 应 尽可能 靠 近 芯 片 引 脚 ，以提 高 电 源 稳 定 性 、减少 噪 声 、优化电路性能、降低 EMI。
 
@@ -98,7 +98,7 @@ C1、C8 为电 解 电 容 ，作储 能 用 ；其余 作 为 旁 路 电 容 �
 
 桥臂互锁逻辑模块主要由与门 SN74HC08N（U4）、异或门 SN74HC86DTR（U5）、电阻 、电容组成 ，其电路原理图如图 9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoMKzqkmelMrwNJeTFfefibvXQd7jVVrmaoVLzjS7epmRK7Eqsg6SibwQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_011_bb44336c2eab.png)
 
 在电 路 原 理 图 中 ，PWM 输入 信 号 经 过 与 门 、异或门后输 出 IN1、IN2，避免 因 误 操 作 或 算 法 错 误 使 得PWM1、PWM2 同时 给 高 电 平 ，造成 碳 化 硅 MOSFET 上 、下桥 臂 同 时 导 通 ，导致 碳 化 硅 MOSFET 短路 烧 毁 的 情况。逻辑信号真值表如表 2 所示。
 
@@ -110,7 +110,7 @@ C1、C8 为电 解 电 容 ，作储 能 用 ；其余 作 为 旁 路 电 容 �
 
 其电路原理图如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoTcVz4hhd7MTlpjBvXYjsDZO6Rq7U6kdXhQe9BPn5Cgtz9icTBggrjrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_012_0a605ef04178.png)
 
 在电路原理图中 ，PWM1、PWM2 信号经过桥臂互锁逻辑模块后输入到驱动 芯片 ，驱动 芯 片 NSI6611 在隔 离原边 、副边 的 同 时 ，将信 号 电 压 进 行 电 平 转 换 并 提 高 信号的驱动能力。
 
@@ -122,13 +122,13 @@ C1、C8 为电 解 电 容 ，作储 能 用 ；其余 作 为 旁 路 电 容 �
 
 为验证碳化硅MOSFET 半桥 驱 动 及 保 护 电 路 的 有效性 ，通过 电 源 SPD3303C、信号 发 生 器 DG1032 以及 示波器 HD06104B 搭建 了 实 验 平 台 ，并与 Wolf Speed 的碳化硅 MOSFET 半桥 驱 动 板 CGD1200HB2P-BM2 进行 了参数、功能测试对比。实验平台如图 11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACo8fE2ySc4bjAFKS90RytCPzc0WgwWXJURibxAEEDHC1VRq7XgLgZA2Bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_013_9a75079b3e6f.png)
 
 3.1 开关特性
 
 在驱 动 电 阻 Rgon 为 3 Ω，G、S 之间 的 电 容 Cgs 为 1 nF的条 件 下 测 试 本 驱 动 电 路 以 及 CGD1200HB2P-BM2 驱动电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoibn7XUPAXadov80vs5B2tDTAHZyWiaOfKMEObRfaICuvRE5hyTTaD5Fw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_014_a12f7fe37b79.png)
 
 开关 特 性 测 试 波 形 如 图 12 所示 ，图中 黄 色 为 输 入PWM 信号（2 V/格），红色 为 门 极 驱 动 信 号 Vgs（5 V/格），横轴时间轴为 50 ns 每格。
 
@@ -142,7 +142,7 @@ CGD1200HB2P-BM2 的 Tdon 为 106 ns、105.2 ns；Tdoff为 150 ns、148 ns；Tr �
 
 驱动 电 路 在 不 连 接 碳 化 硅 MOSFET 的情 况 下 ，DHV截止 ，电流 源 向 CBLK 充电 ，CBLK 的电 位 线 性 上 升 ，直到 达到门槛时比较器翻转，从而将门极信号拉低至 VEE。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACo2OtNEG9uGNAicOKNpdnPDX5wO09xEW5TK24cOhRTnsEPAZgDCmIia0zg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_015_2871d98fb207.png)
 
 测试 波 形 如 图 13 所示 ，图中 黄 色 波 形 为 输 入 PWM信号（2 V/格），红色 波 形 为 门 级 驱 动 信 号（5 V/格），蓝色为 电 容 CBLK 正端电压（5 V/格）Vblk，横坐标时间轴为500 ns/格。
 
@@ -154,7 +154,7 @@ CGD1200HB2P-BM2 的 Tdon 为 106 ns、105.2 ns；Tdoff为 150 ns、148 ns；Tr �
 
 桥臂 互 锁 测 试 波 形 如 图 14 所示 。 图中 ，黄色 为PWM1 信号（2 V/格），红色 为 PWM2 信号（5 V/格），蓝色为 上 桥 臂 门 极 驱 动 信 号 Vgs（2V/格），横坐 标 时 间 轴 为50 ns/格。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACov3RT7icfQfaeNnHcDicfsYY6J8cM7pZA600prsLADyClK5401cmXoQWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_016_6f447083ba87.png)
 
 从图 14 中可 以 看 出 ，在PWM1 为高 电 平 ，PWM2 为低电 平 时 ，上桥 臂门极信号为高电平 ，属于 上 桥 臂 开 通 ，下桥 臂 关 断 情 况 ；当 PWM2 从低 电 平 变 为 高 电 平 后 ，上桥臂经过短暂延时后被拉低，实现桥臂互锁功能。
 
@@ -166,7 +166,7 @@ CGD1200HB2P-BM2 的 Tdon 为 106 ns、105.2 ns；Tdoff为 150 ns、148 ns；Tr �
 
 测试原理图如图 15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoKicStU0C78icCIYicDtHMZA3svHHsuN0dljtl6aamphNQLHhZgl8nF0jw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_017_8bbd9e72ca39.png)
 
 测试步骤如下：
 
@@ -180,7 +180,7 @@ CGD1200HB2P-BM2 的 Tdon 为 106 ns、105.2 ns；Tdoff为 150 ns、148 ns；Tr �
 
 (5) 示波器测试 PWM、GATE 端、CLAMP 端信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoia3nU5tvWFib0CrDYETMIJlsvDwBYibeWJHRT8kLVeSo59arqgzLjHmBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_018_513d430b89e9.png)
 
 测试 波 形 见 图 16。 图（a）中 ，黄色 为 PWM 信号（2V/格），蓝色 为 GATE 端的 方 波 信 号（2 V/格），红色 为CLAMP 引脚 信 号（2 V/格）,横坐 标 时 间 轴 为 1 ms/格 ；图（b）中 ，黄色 为 PWM 信号（2 V/格），蓝色 为 gate 端的 方波信 号 Vgate（10 V/格），红色 为 CLAMP 引脚 信 号 Vclamp（2 V/格）, 横坐标时间轴为 1 ms/格。
 
@@ -194,12 +194,12 @@ CGD1200HB2P-BM2 的 Tdon 为 106 ns、105.2 ns；Tdoff为 150 ns、148 ns；Tr �
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_019_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_020_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅MOSFET半桥驱动及保护电路设计_images\img_021_9bbc7b9b15a2.png)

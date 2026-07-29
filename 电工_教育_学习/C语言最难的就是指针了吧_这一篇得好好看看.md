@@ -42,7 +42,7 @@ int main(int argc, char \*\*argv)
     return 0;  
 }  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEht4MPCseGPpD2K7boiaxtl4BefNXW22qrfv7K8dvlvnUDSIPhJmPfficQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_002_0210064bd8a3.png)
 
 运行后可以看到a的值被更改了，上面的例子可以清楚的明白指针实质上是一个放置变量地址的特殊变量，其本质仍然是变量。
 
@@ -60,27 +60,27 @@ int main(int argc, char \*\*argv)
 
 将计算机的内存可以想象为一个房子，房子里面居住着人，每一个房间对应着计算机的内存地址，内存中的数据就相当于房子里的人。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEh2icScr7NqBLAZekJPLVRaOm6f7ictIp1CkPNv5abQMldwFS6ibdVJI2KA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_003_57940db9754b.png)
 
 既然指针也是一个变量，那个指针也应该被存放在内存中，对于32位编译器来说，其寻址空间为2^32=4GB，为了能够都操作所有内存（实际上普通用户不可能操作所有内存），指针变量存放也要用32位数即4个字节。  
 
 这样就有指针的地址&p，指针和变量的关系可以用如下图表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhh7HCsFzdZjmrB1iamv2ibREv3PicQ8mHF3nLxNIxuHvLOSAoj4vnhItiaw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_004_9d327c381547.png)
 
 从上图可以看到`&p`是指针的地址，用来存放指针`p`，而指针`p`来存放变量`a`的地址，也就是`&a`，还有一个\*p在C语言中是解引，意思是告诉编译器取出该地址存放的内容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhYqEOFY9kujMGlYaBRic7tRnEn70w5LJ2Y9hTwUsNic50RibmJT8KXzBdg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_005_003892c8d8a8.png)
 
 上面提到过关于指针类型的问题，针对32位编译器而言，既然任何指针都只占用4个字节，那为何还需要引入指针类型呢？
 
 仅仅是为了约束相同类型的变量么？实际上这里不得不提到指针操作，先思考如下两个操作：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEh9ia6QjttOVaQOyIwuw9FXib2cRTdXONsYjKMb7mDLwibXVYLSIPxhRRpw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_006_75c748d526ea.png)
 
 上面两个操作的意思是不同的，先说下第一种：p+1操作，如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhRaVlHuV6z5mviabh9V6pk1t8qSezhoGt1axyF7U7I1UCHS7IYS3kjQQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_007_e6b395034e44.png)
 
 对于不同类型指针而言，其`p+1`所指向的地址不同，这个递增取决于指针类型所占的内存大小，而对于`((unsigned int)p)+1`。
 
@@ -131,7 +131,7 @@ _**03**_ 
 
 结构体指针和普通变量指针一样，结构体指针只占4个字节（32位编译器）,只不过**结构体指针可以很容易的访问结构体类型中的任何成员**，这就是指针的成员运算符->。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhlbW2dG8nWiaS83l77uz2TjUy5UWZLk0NPAW1z4icLdxVO7HSr3ZBGWgQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_008_61462884f546.png)
 
 上图中`p`是一个结构体指针，p指向的是一个结构体的首地址，而`p->a`可以用来访问结构体中的成员a，当然`p->a`和`*(p)`是相同的。
 
@@ -173,11 +173,11 @@ int main(int argc, char \*\*argv)
 
 上面的程序运行结果如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhuQy7t919kyFb8fuuvwNULaFsBicVnTrdPbjvgv2WIjkUjZxxCWSziaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_009_271d9b4a451d.png)
 
 可以看到a\[100\]被强制转换为stu结构体类型，当然不使用强制类型转换也是可以的，只是编译器会报警报。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhW8JFjiaIgQpqP6DcYrsHjnUYSsYTx7e1DSf2Wo57qwKQG5aSzaFQpzw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_010_573dcab69c47.png)
 
 上图为程序的示意图，图中数组`a[100]`的前12个字节被强制转换为了一个struct stu类型，上面仅对数组进行了说明，其它数据类型也是一样的，本质上都是一段内存空间。
 
@@ -216,7 +216,7 @@ int main(int argc, char \*\*argv)
 
 编译上面的程序会发现，编译器报错，无法正常编译。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEh5VibFGhwpCzogXEViaYwuNMlnAicnUMbQibwxbCsWx5zS7bWoJYrJHmBQg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_011_98584bcc5a08.png)
 
 这说明编译器确实是在解引时无法确定`*p`的大小，因此这里必须告诉编译器p的类型或者\*p的大小，如何告诉呢？很简单，用强制类型转换即可，如下：
 
@@ -237,11 +237,11 @@ int main(int argc, char \*\*argv)
 
 编译运行后：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEheRBJM2kc2ibny7WyiazEHfykcHDJNVkp6ibs1CtY9ibC6mBIQlY7LyjQVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_012_f6fec6b80b55.png)
 
 可以看到结果确实是正确的，也和预期的想法一致。由于void指针没有空间大小属性，因此void指针也没有++操作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhlibqlTyyj0H3djxbce5KkbmmCoqBhoibHUHmXzwwftuiaHlYIuPy0YZqQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_013_653f58aa947d.png)
 
   
 
@@ -278,11 +278,11 @@ int main(int argc, char \*\*argv)
 
 程序运行结果如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhpvNowQkRdPick0lqllhKqImX7fm8u3UxviaRapX1uLfZFTxqHXwIHfMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_014_52979b7f3865.png)
 
 可以看到，函数指针的申明为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEh9iaIutiavXgozu5h5G9pXURHic9a4XAeYulLZpETSUvLcxgSIEWBEVW2w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_015_cdc966c25260.png)
 
 函数指针的解引操作与普通的指针有点不一样。
 
@@ -290,11 +290,11 @@ int main(int argc, char \*\*argv)
 
 其实执行函数的过程本质上也是利用call指令来调用函数的地址，因此函数指针本质上就是保存函数执行过程的首地址。函数指针的调用如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhFYRfibIOI7W1WeB7krXmkz5PnHZVy1Huu3XOYicdWUyleyVTUDFLXpww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_016_b981ff6e8f69.png)
 
 为了确认函数指针本质上是传递给call指令一个函数的地址，下面用一个简单例子说明：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icSoIpMicmx9fFqvJWF5Dib8Xt0iaaiaibOBEhK81oWOAicExu86olxCXa4LpGPbhLcvUF4hBsRknD6C98vKH68tyVxFA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_017_306c9c290286.png)
 
 上面是编译后的汇编指令，可以看到，使用函数指针来调用函数时，其汇编指令多了如下：
 
@@ -403,9 +403,9 @@ int main(int argc, char \*\*argv)
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_018_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_019_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_020_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_021_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_022_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_023_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_024_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_025_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_026_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_027_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_028_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_029_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_030_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_031_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_032_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言最难的就是指针了吧_这一篇得好好看看_images\img_033_50889e54acde.gif)
 
 ## 
 

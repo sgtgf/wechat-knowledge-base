@@ -5,49 +5,49 @@
 
 **作者：**浙江大学-邵帅（副教授，博导）  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AQv3ianeTauNSbCzwfibhEdc05mRziacl2gEsyDq0g9leiaeEuAqQiaktwUQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_000_23fdf68b169f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AXNscWXiaXrsibQs0HAoj9vnjyfsxo21pM5afabhico70x325u25uwichvg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_001_bd6943ad4095.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9Aac2warQqrEmlYH9tsqMdicoHlL6e2DRjJibibzmkcfBbuOyjzVSSWMNEA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_002_04457818e83b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AUCCmWW4BibozyLnRDBaLmqvAOOH16HBuibn9yH8gEZgU6mZRZZEJ53mg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_003_b77200725f2e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AdTzNyQ4jHWnF2wmXH24mSlXftL7eK7JPBk6Vg2WxXrQJNoyJmyY16g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_004_ea6a3afcf53a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AXG0pXM3PZp7DllQTOaumtF8whmD2VfTAEY5sicKL44HMZt8kd2IzCCg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_005_1c4131abc91a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9Arq1BibRPMEav4VJblQs8lzKc4Tibiah1ZWROVUico84bLf9ElQM2XZ9QwQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_006_147118804f79.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9A0WpziaQazUqbGcfeHkQLGYuKHHNrL6YWDBvSSk1kFlvDCuwSVacN00g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_007_599edf18721a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AT27bI15cyBHU5HSwPMmJ1PZEpkSkclHVxNLSBAfxImEmtuPNnHqMmA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_008_0d4c13c0fd3b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AIECZhibZ5oTUBNicQUB1ia2jymQticCicyibQARDiaP2a5CqF4Vo5vRxwDk4g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_009_3052cd2bf91b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AcKicJV4A52BY0ibtODU3mYFxjIHbgUDNoBBdo3t6wvvTLBMG9liaNqSJg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_010_2482b7be6fba.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AhNPzwa4cOriaX19Y8od1FBEOic9oZsxyibvgRTOOpckvMRaDYe8wLSaiag/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_011_bcb100a3bb70.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AHmiaaRg3HsAGUYeY9PoIW1OjML2lv9OT1He1zkJ8SrIpUibdqdvPddXA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_012_a6c6e4561137.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AIQX4mXdVeJlf4yicwuPfXiakRnsMsNItwmEBPjRmLfcEHCEOJohN3LRg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_013_c29de749a1b2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AMaa480SzG6WdAIGRhOpFljZKawetBwwR3iaz6GOBticxk53BEzuppAUA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_014_0bcfd29bf9bc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9Aen3Uls61NCtCJ0KzpzwnJCCoocONaic9xlhw7PEJmaicUFic2N38HpuJg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_015_bedb96dfd1ba.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AYp9laynCIpGFFaJXAjoEdoevLAYicp7nr0z4Qx0FtS6icQfzIrqv9uHQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_016_6daf3d0e3f75.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9A2DJKz0AibKwehdzXg1Vrw4C87TxasEx3kFGCmnKZIGzkzuvbYcoNzUw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_017_bc1e7502a805.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9A54HS20pictic9sVU2bkuKx0WGwduQ8zkFDfibChMrb8fjxqpPXcWTDdLQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_018_52e12c6065ff.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AKic1aicJe4sHkveoNMCa2DSzfACDIQCxvToaLGJoibD1tUC7x0gLQmshg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_019_ff5c3bfce6f4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xdsvKWSgf7VDj7ZlFQDFiasquCib0APQ9AveS8QB9v2MJU2kAhFUdGYUEK4XMEZJR0ey7kUUOyKps70I9Pnepg8A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_020_5ff2f3f24e28.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAjOxTIU7RYylvTw6BOZuY2ciaibYDG7ic2KMpEWPLCQ0FM18EnSgIVq7DA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_021_eee62c3143af.jpg)
 
   
 
@@ -81,10 +81,10 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_022_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_023_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于碳化硅MOSFET串联的中压直流变压器_images\img_024_84aa944feb13.jpg)

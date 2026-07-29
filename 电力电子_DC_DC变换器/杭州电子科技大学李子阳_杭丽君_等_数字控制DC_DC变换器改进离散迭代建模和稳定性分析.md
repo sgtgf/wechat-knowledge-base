@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QWmGOSN0jyiandZn7eSGrmIqAmV5r4DHHQ3PbdCXI8uiaSpgdhc4KkGdncSDstkcWMr14u8PT0pMrA/640?wx_fmt=jpeg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](杭州电子科技大学李子阳_杭丽君_等_数字控制DC_DC变换器改进离散迭代建模和稳定性分析_images/img_000_fa8d0ca0a3e9.jpg)](https://www.acces.org.cn/)
+[![](杭州电子科技大学李子阳_杭丽君_等_数字控制DC_DC变换器改进离散迭代建模和稳定性分析_images/img_001_20dfdbaaa341.jpg)](http://www.eitrt.org/)
+[![](杭州电子科技大学李子阳_杭丽君_等_数字控制DC_DC变换器改进离散迭代建模和稳定性分析_images/img_002_eadffead456a.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约 2500 字
 > 离散迭代模型是一种能精确描述数字控制变换器特性的工具，然而传统的离散模型通常计算复杂而且不够直观，不利于控制器的设计。杭州电子科技大学可再生能源与微型电力网实验室团队通过对离散迭代模型进行合理近似，推导出数字控制 DC-DC 变换器在前沿和后沿调制下的二阶全局等效电路模型，解决了传统模型直观性和精确性之间的矛盾。
 **研究背景**

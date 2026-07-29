@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgsECIAtFByJ40E1zibSfCjZotDNtlMMzg8ah81VNUpFauvmrZXpU6F7Q/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解I2C总线_images\img_002_d6bd9ae26e46.png)
 
   
 
@@ -56,7 +56,7 @@ I2C协议规定，总线上数据的传输必须以一个起始信号作为开�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgmibS2987icyFVQ64DUia2g8dvGmeETuIXhGMj2icO3yNb3raB85Q0TJLkw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解I2C总线_images\img_003_1dd9d7342188.png)
 
   
 
@@ -68,7 +68,7 @@ I2C协议规定，总线上数据的传输必须以一个起始信号作为开�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/K9mVOHgVt7yKldTkJAhKuFYvhBmsHdTISDQ0gRBjbbL5SrXtcDK8WVGh1NibAn9P18qcibDpVmtbRGFWFHIz85jw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解I2C总线_images\img_004_4ea7f6089b1c.png)
 
   
 
@@ -83,13 +83,13 @@ I2C协议规定，总线上数据的传输必须以一个起始信号作为开�
 
 第一，主设备往从设备中写数据。数据传输格式如下：
 
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgzN6Diaosgbd2FhiaaCB64oteFTROE64lK3dB6UyMaHyWxZogBymicyuKw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解I2C总线_images\img_005_254435a66d8b.png)
 
   
 
 第二，主设备从从设备中读数据。数据传输格式如下：
 
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgyWeJK31etURoaYbXrW0WyRxYsmsXvQFO2MFBlQRkBR2WlUlFZgfZfQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解I2C总线_images\img_006_45a1c132efca.png)
 
   
 
@@ -97,7 +97,7 @@ I2C协议规定，总线上数据的传输必须以一个起始信号作为开�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgloZQAibmV9eQb9nN1TibLQ5zlNEsJxqGyy0pcDoD5Df1aJMoYKgFmX2Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解I2C总线_images\img_007_b70d9068347d.png)
 
   
 

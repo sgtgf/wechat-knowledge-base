@@ -9,7 +9,7 @@
 
 为了充分利用SiC MOSFET的优点，开关速度(dv/dt)和开关频率应该比目前基于IGBT的解决方案提高一个数量级或更多。尽管SiC MOSFET具有巨大的潜力，但其应用仍受到现有电机技术和驱动系统结构的限制。大多数电机绕组电感高，寄生电容大。三相电缆连接电机和逆变器基本上形成了LC电路，如下图所示。在逆变器输出端的高dv/dt电压可以激发LC电路振荡，而在电机末端的电压尖峰可高达逆变器输出电压的两倍。这会在电机绕组上增加不少的电压应力。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm0BIiaHq9duHfZVD8nRUuANZM1UC4eskyECLTbGJzrLXaxcHfm2mCuUyicQNRrmNyvrWIUabAmmZwg/640?wx_fmt=jpeg)
+![](SIC_碳化硅器件应用于电机驱动_images/img_000_30bbbf87cecb.jpg)
 
   
 
@@ -17,7 +17,7 @@
 
 当逆变器直接连接到电机，电缆电压振荡不再存在。然而，如图所示，高的dv/dt电压变化会直接施加到绕组上，导致绕组老化加速。此外，高dv/dt电压会诱发轴承电流，导致轴承腐蚀和早期失效。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm0BIiaHq9duHfZVD8nRUuANCpxaUECb4mo9UFLOsib4kuLVC5PlyFgRicXAosxXuCHAqbGdDHldIbAQ/640?wx_fmt=jpeg)
+![](SIC_碳化硅器件应用于电机驱动_images/img_001_9e44e1be9b11.jpg)
 
   
 
@@ -37,7 +37,7 @@
 
 除了驱动系统尺寸的减少，SiC MOSFET也使高速驱动成为可能。高速驱动器在汽车、航空航天、搅拌、泵和压缩机方面应用获得了越来越多的关注。高速驱动器已经成为一些上述应用的最新技术，而在一些小众应用中，高速驱动器的采用提高了产品的性能、质量和创新性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm0BIiaHq9duHfZVD8nRUuANEicA3CSEAKIQaN0gylBfLAmDzkzWJIs7UoRfp7H5WQBlv7TEibibHbtEQ/640?wx_fmt=jpeg)
+![](SIC_碳化硅器件应用于电机驱动_images/img_002_3e67e74fd185.jpg)
 
   
 

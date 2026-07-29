@@ -21,13 +21,13 @@
 
 **1.1 器件结构**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAAN0v83UF1UAribF6g34ebz526o66gGQGHKZMhib7aR6JJ6ibic0suuRUnWNw/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_000_51f7da5752ec.png)
 
 采用平面栅技术，基于中车时代电气半导体有限公司的工艺平台完成 3300V SiC MOSFET 芯片的制造，其元胞截面结构见图 1。其中，在外延层上通过离子注入工艺，依次形成 P 型基区与 N+重掺杂区， 然后完成栅极和源极的图形化。P 型基区中间的区域被称为“JFET 区”，该区域的尺寸对芯片的电流能力有直接影响。设计中对 JFET 区的宽度进行了分组， 分别设置了 2.5、3.5 和 4.5 μm 3 种结构。
 
 **1.2 参数性能**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANVy6WyKXhzeZOfRa079fuffPic39pASG7XXAicxPbib9NBETOpfq4RoGDQ/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_001_4031f56fcb2f.png)
 
 对完成制备的 3300V SiC MOSFET 器件，使用 Agilent B1505A 进行击穿特性、阈值特性和输出特性的测试，测试结果如图 2 所示。
 
@@ -37,13 +37,13 @@
 
 **2.1 试验过程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANjlnFjfWLWic30mSd2HVw0BDibGvcGiatQib3KrrhRBZjOIgCkqDHdYT1Ng/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_002_0b0f0b759d74.png)
 
 高温栅偏 HTGB（high temperature gate bias）试验主要是对器件栅氧可靠性的考核，用于表征栅氧的质量及寿命等。挑选 6 只不同结构的 3300V SiC MOSFET 按照如下条件进行试验：Ta\=150 ℃，VDS\=0 V，VGS\=20 V，t\=168 h。器件在 HTGB 试验过程中， 栅极漏电 IGSS 的监控结果如图 3 所示。从监控结果来看，考核过程中器件栅极漏电 IGSS 稳定，且小于 0.3 nA，未出现失效。
 
 **2.2 考核分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANgRSNzWeGZ4EnE4TL0sn2LvIGvSaQdbaFSEaUq3NxRPsosjNY5PhV6A/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_003_f1b2e61a4c97.png)
 
 对被考核的器件依次进行击穿特性、阈值特性和输出特性的测试， 并与考核前测试结果进行对比。考核前后的器件参数对比结果如图 4 所示。
 
@@ -55,7 +55,7 @@
 
 **3.1 试验原理**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANIzaKqhelqGTiaONv50WryauUIWgCOA2w2mrdm4ghMlibxoqMh6UxfAzA/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_004_ec65b790ea6c.png)
 
 在 MOSFET 击穿电压测试时， 漏极加高压，源极与栅极短接接地， 实际存在漏源和漏栅 2 个漏电通道。漏源之间的漏电流 IDS 实际是 PN 结漏电流；漏栅之间的漏电流 IDG 实际是 MOSFET 器件在承受反偏电压时栅氧的漏电流。图 5 为该试验的原理，通过 R1 和 R2 分别记录漏栅电流 IDG 与漏源电流 IDS。
 
@@ -75,11 +75,11 @@
 
 **3.3 试验结果**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANSdibJibWQAicPmW2St2lxbwtX2S8SvjiaDXRDAC39icxZlZBLkz1dtOxWWw/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_005_5f7a3b959ee7.png)
 
 图 6 为漏源之间漏电流 IDS 和漏栅之间漏电流IDG 的试验结果。不同设计器件的 IDS 和 IDG 漏电与考核中电热应力的关系如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANaWotAx7sLORiaAnxjjEiaVqn8iatKup5jke878pI0hj20GbA4JFNSWauA/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_006_f47c8b82aa89.png)
 
 从图 6 及表 1 可以看出， 对于 3 种不同 JFET宽度设计的 3300V SiC MOSFET。
 
@@ -89,11 +89,11 @@
 
 **3.4 仿真验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANyRN5DIORegVMvIH4M17mtCW9MLZtp7IYK71ENKib6J4tKnOp27Q0zibA/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_007_59b847899b54.png)
 
 SiC MOSFET 器件在承受漏源耐压时， 如图7所示， 正面的 P 型基区/N 型漂移层结扩展以承受电压。随着反向耐压的增大，耗尽层（图 7 中虚线）会继续往垂直方向扩展。与此同时在器件横向方面，同样会存在电场扩展，造成 A 点的电势升高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANQqR4hYyyicjA3puc4wCNl82CyG0eVDTACSWCibKWPQ0llUQrcwiaz7ISg/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_008_93ea029e506e.png)
 
 借助 TCAD Sentaurus 仿真软件，对漏源耐压为2 000 V 时， 不同 JFET 宽度中栅氧下 0.01 μm 处的电势进行仿真，结果如图 8 所示，其中 X 表示沿着沟道方向的横向距离，Y 表示栅氧下 0.01 μm 处。3 种JFET 宽度下，A 点（JFET 区中心点，栅氧下 0.01 μm处）的电势分别达到 17.5、22.1 和 25 V。JFET 越宽，该点的电势越高，这也能够证明图 6 中的试验结果。
 
@@ -101,10 +101,10 @@ SiC MOSFET 器件在承受漏源耐压时， 如图7所示， 正面的 P 型基
 
 通过对3300V SiC MOSFET 栅氧可靠性的试验研究，发现不同芯片设计中，栅氧在 MOSFET 器件承受反偏电压时所承受的应力不同。该电应力随着反偏电压的增大及温度的升高而增大。针对这种现象，在高压 SiC MOSFET 器件可靠性评估中应额外考虑；此外，需要在设计及应用中对该隐患加以重视。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANqe7XqqFAZGib30xZpptzvDibf18bM5CV8qTShZTraRvKa4Buedad20hA/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_009_536b2da552f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANs31tmLc8PlUGFsCiaIyVTKupllHwHf953bo24QesJqnghsNzjJcWAiag/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_010_1cd66a38db84.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslahiaia5y8mTYtb01n3WFAANqbUOqduNibdVrNGKsMcvqUjwTPZyt4zkJJRzOsEqkvwIaxA5ibZ1icoEg/640?wx_fmt=png&from=appmsg)
+![](3300V_SiC_MOSFET_栅氧可靠性研究_images/img_011_2c3146434fc4.png)

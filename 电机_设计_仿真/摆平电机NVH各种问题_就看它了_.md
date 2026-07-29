@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/oovTn0wZqv-m3zUbj1\_ASw](https://mp.weixin.qq.com/s/oovTn0wZqv-m3zUbj1_ASw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXiabprO7bP85PRtKicCzqRrib1GPmSyibF2XKlCe5UI5AZXeFvovOdcvWB5tjGA94YvynUasm0Q4iaAHg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638473&idx=1&sn=2b72dc63a97120ac209a2e4947a65209&chksm=88bc2386bfcbaa90c22e940304b94400b6f4164e363225be5fc51fa39b346a213b44b254838b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_001_0dc7fca87f8b.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638473&idx=1&sn=2b72dc63a97120ac209a2e4947a65209&chksm=88bc2386bfcbaa90c22e940304b94400b6f4164e363225be5fc51fa39b346a213b44b254838b&scene=21#wechat_redirect)
 
 自西莫第一期培训电机原理及设计通解研修班开始，每期培训都有一本对应的培训教材带给参加我们培训的学员，包括全彩印刷的全部的讲义内容，避免了大家上课拍照而无暇认真听课的窘境，更好地让学员真正的投入到课堂学习中，只需做好相应的笔记即可。每一本西莫培训的教材都凝聚了各位老师多年丰富的工作经验和科研成果，真正达到助力学员通过短期的培训也能收获满满，在相应的领域得到快速提高和进步，是推动学员学习和巩固所学内容以及帮助大家消化吸收培训重点知识技能的重要补充。
 
-作为西莫主办的电机设计“升级班”，电机NVH问题的机理和测试仿真研修班在本次培训的导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有Ansys电机电磁、结构以及声学领域高级应用专家联袂授课，将围绕电机NVH这个主题更加全面地介绍讲解从电机本体到电机系统的NVH理论分析方法及仿真应用实践。在之前两次培训中发放给参加研修班学员的由几位老师共同编著的培训教材《电机NVH问题的机理和测试仿真》其内容的精彩程度更是超越之前西莫出品的电机红宝书《电机原理及设计通解》！教材将由两部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真应用篇，详细介绍了基于Ansys软件平台的电机电磁振动噪声分析流程及其详细的实现过程。汇聚了众多专业文献书籍相关精华内容的融合与提炼，本次教材从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zeohqrRozzl62oZJgb80iaKDfBUPKvBr6tedxWNzObticVwEve1s8lLlQ/640?wx_fmt=jpeg)
+作为西莫主办的电机设计“升级班”，电机NVH问题的机理和测试仿真研修班在本次培训的导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有Ansys电机电磁、结构以及声学领域高级应用专家联袂授课，将围绕电机NVH这个主题更加全面地介绍讲解从电机本体到电机系统的NVH理论分析方法及仿真应用实践。在之前两次培训中发放给参加研修班学员的由几位老师共同编著的培训教材《电机NVH问题的机理和测试仿真》其内容的精彩程度更是超越之前西莫出品的电机红宝书《电机原理及设计通解》！教材将由两部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真应用篇，详细介绍了基于Ansys软件平台的电机电磁振动噪声分析流程及其详细的实现过程。汇聚了众多专业文献书籍相关精华内容的融合与提炼，本次教材从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_002_37cc07a93ec4.jpg)
 
 本教材是对NVH类书籍文献中关于电机NVH理论与电机设计相关影响因素产生的电机振动噪声问题机理的全新解读与设计经验总结，是电机设计工程师和电机NVH工程师必备的设计指导书。结合培训大纲的教材完整版目录如下：
 
@@ -379,7 +379,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWrQDkqiaYTuuck2CO2lSibfMJqyPhvQb4WGiaXFHAwL0AKTnowzLNe5G0icbEnCSVU7O7qAMiaeSdiaY9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_003_7918d13004f3.jpg)
 
   
 
@@ -417,12 +417,12 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUO6jutIzMPstCVWDbzolFBwJMJoHmxpLupfhyEppyzxhJO2tDsbOpLHwxQxkHMib6ePVc5sKsBylA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_004_08291f42acf5.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVr9yILoibwtiapdKNtbJax2dx4xkibAqMlichhQuiaByylnSOpUqZd3SxY5C8rL4SFcpGyJz3ibFfDrKlg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638421&idx=1&sn=8a0a69950a97e56ca676f4142058c0c7&chksm=88bc235abfcbaa4cd1ba2a184d8d2e9f5161d094c5a404ec5b6956f5504416196105adc663d7&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWmlpw4vUa1OuvHzvAKdaWOTZrSoPvd99FwwHy9RVFGr3EBgu2ILznhC1ibibWLRbVDyUib88MWd45Wg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638379&idx=1&sn=2607a9060e2098eeb0baa84471dc7bae&chksm=88bc2324bfcbaa326d9610754df3f1864c608a7c279b4ff413d5965aa42f3ea18509f3d918f5&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SjVGCooKxGROHpK5vr7vHtFK5urPw3ZjcibzH9ibXJ5ceytdKhPtiaibfiaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638401&idx=2&sn=48baef9a8624466efab935b9158d5e00&chksm=88bc234ebfcbaa58dd81aadcb47f35ee121348b929e11674ffe88c2c8a68a8d043ab03439c27&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_005_0cfebd1d514d.gif)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_006_7ea7f66f28bb.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638421&idx=1&sn=8a0a69950a97e56ca676f4142058c0c7&chksm=88bc235abfcbaa4cd1ba2a184d8d2e9f5161d094c5a404ec5b6956f5504416196105adc663d7&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_007_e5da65a9e669.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638379&idx=1&sn=2607a9060e2098eeb0baa84471dc7bae&chksm=88bc2324bfcbaa326d9610754df3f1864c608a7c279b4ff413d5965aa42f3ea18509f3d918f5&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_008_5dce360821c6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_009_18f5302d1f9a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638401&idx=2&sn=48baef9a8624466efab935b9158d5e00&chksm=88bc234ebfcbaa58dd81aadcb47f35ee121348b929e11674ffe88c2c8a68a8d043ab03439c27&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_010_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_011_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_012_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\摆平电机NVH各种问题_就看它了__images\img_013_d960d0948cf9.gif)

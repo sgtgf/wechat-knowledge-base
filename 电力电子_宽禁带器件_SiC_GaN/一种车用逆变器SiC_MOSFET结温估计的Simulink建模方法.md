@@ -21,7 +21,7 @@
 
 2.1 SiC MOSFET静态物理模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWatsC5V7rmic7MwF36h2rEJpFh0Ij8twEib2LN9cwgBexeKsqgiaKrHnlCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_000_4e2986f50486.png)
 
 如图1所示，SiC MOSFET模块由多层材料结构构成，不同材料的热膨胀系数存在差异，在长期的热循环冲击作用下材料问会发生疲劳与老化，随着温度冲击次数的增加，最终器件会因芯片间邦线断裂、材料间热阻增大导致芯片中心温度无法传导散热而失效。多层材料的热阻抗和膨胀系数直接影响到功率器件的结温，因此选择合适的热阻模型尤其重要。
 
@@ -29,7 +29,7 @@ SiC MOSFErll模块至上而下分别由芯片层、上焊料层、上铜层、�
 
 2.2 等效RC热阻网络模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWawzmho0tX8g8lkjdd5EbyeroeBO2Dapgtcp08zydwr9uEJQUyHpqNjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_001_b75db050f2d1.png)
 
 常用的热网络模型包括连续网络热路模型(Cauer模型)与局部网络热路模型(Foster模型)。如图2b所示，Cauer模型的结构可以反映出真实的热阻热容物理结构，如节点、热阻、热容，都有实际的物理意义。Cauer模型的参数决定于每一层结构的材料属性，可以比较精确地估算出功率器件的温度。对于Cauer模型而言，阶数越高，其估算精度越高。如图2a所示，Foster模型是将热流传输路径上的所有热阻热容等效成一个一阶的传递函数，模型中的Rc部分不再与各材料层一一对应，且各网络节点也没有任何物理意义。虽然Foster模型的RC参数不再与各材料层相对应，网络节点也没有任何物理意义，但是该模型中的RC参数可以从实际测量得到的瞬态热阻抗Zth曲线上拟合提取出来，因此该模型常用于各阶层的RC参数辨识，一般厂商的数据手册会给出相应的Foster模型热阻、热容参数。Cauer模型内的每一层(芯片、芯片的焊接层、绝缘衬底、衬底焊接层、底板)结构都有一对RC参数来对应，由于Foster模型币llCauer模型的RC参数是可以相互转换的，在确定其三阶的RC参数后，可使用Cauer模型进行SiC MOSFET结温估计。
 
@@ -43,11 +43,11 @@ SiC MOSFErll模块至上而下分别由芯片层、上焊料层、上铜层、�
 
 SiC MOSFET开关损耗包括开通损耗Eon和关断损耗Eoff之和。由于栅一漏极、栅一源极和漏一源极有寄生电容和寄生电感的存在，同时MOSFET在开通和关断的过程中栅极电流的流动路径不同，造成SiC MOSFET在开通和关断的过程中Vds，Id的波形不同，SiC MOSFET开通和断开的仿真波形如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaiaKlRvHy5mca7cHdk8Yia32GM0vHsOyzOznWcpWB5XfvwCicJLauqkicpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_002_07ad6bc6ca78.png)
 
 实际开发过程中，在确定SiC MOSFET型号和栅极电阻后，可通过示波器观察并记录Vds、Id波形。由于寄生电容和寄生电感的存在，可对MOSFET的开通、关断过程进行分阶段建模，并通过积分方式计算各个阶段的损耗，将各个阶段的损耗相加即为MOSFET一个开关周期的开关损耗，其计算公式如公式(1)、公式(2)所示。其中，Eon2、Eon3、Eon4为MOSFET开通的时间分段，Vdc为直流母线电压，Ld为栅、漏、源极的寄生电感，Io为MOSFET导通时的等效电流源，Rg为栅极电阻(包括外部和内部电阻)，Vcc为栅极驱动脉冲，Cgs、Cgd、Cds分别为MOS管栅源极、栅漏极和漏源极寄生电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaibmuib3F0y59hib6PqvrsXCic7Qd3XENNJN0cW8PMxmvbVITDjO5eGQayQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_003_adb43f112b45.png)
 
 3.2  SiC MOSFET导通损耗和SiC SBD导通损耗
 
@@ -55,17 +55,17 @@ SiC MOSFET存在开关损耗和导通损耗，而SiC SBD不存在开关损耗和
 
 根据文献\[16\]，可知流经SiC MOSFET和SiC SBD的电流如公式(3)、公式(4)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaOAMh5whptxGUYvzGicF7F50Hl0FZIj8ibNQWO0rjE0Ca4RXicQdvAZWcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_004_15cf680010e8.png)
 
 式中：Ia--逆变器A相相电流；Ix=-Vth-vd/Rs1；Rvd1(Tj,Ivd1)、Rs1(Tj,Ivd1)--SiC SBD与SiC MOSFET的导通电阻，阻值与芯片自身的结温及流过芯片的电流相关；Vth-vd(Tj)--SiC SBD的开通阈值电压。
 
 为了节省CPU的在线算力，可将损耗的计算周期设置为和PWM载波频率相等，单个开关周期的SiC MOSFET的导通损耗计算公式如公式(5)所示。同理，得到SiC SBD的导通损耗计算表达式，如公式(6)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaI0UicjJnz5zzDZ1PqiaPklCvUbTlbZR0mYtwFZXmEOYvz7eBgP9s8FCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_005_5ee2723c9b5a.png)
 
 式中：Is1(t)、Is1(t+Nts)--首、尾周期采样的流经SiC MOSFET的电流；Ts--PWM开关周期；D1、Dn--第一个和最后一个开关周期的占空比；Rs1(Tj，Is1)可由SiC器件数据手册插值计算得到。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaRrmib9faPdVB7eBtQHJQjvnEDzxLDIx7Nl2rLcK5uL0ialwBIAdzqF8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_006_224b6ebbf43d.png)
 
 式中：Rvd1(Tj,Ivd1)可由数据手册中的反并联二极管特性曲线构建的二维数组线性查表计算得到；Vth-vd可认为是一个固定值。
 
@@ -75,36 +75,36 @@ SiC MOSFET存在开关损耗和导通损耗，而SiC SBD不存在开关损耗和
 
 可将三阶RC热阻网络等效为三阶的RC滤波电路，三阶RC等效电路如图4所示。根据基尔霍夫第一定律，可得热阻的数学模型，如公式(7)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWajlbGSlA33IDCdggg3QmzFYZ9iaoawVu86fWJbfCGTuyEedaM81nnYAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_007_e127a5db8b3b.png)
 
 式中，Tc在实际应用中为已知量，在N时刻，对该模型进行时间离散可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaf7H87MgdibKKNNBfRHskbf6VsvYXW8W5PRNUSI3OdWVuMXcYPKGMRHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_008_23d7fce7844a.png)
 
   
 继续对方程进行推导，可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaMicEx1ZDicFWF9ib1nsUUhhicatWxmicpl1zIicEwiaC3ECjfqm8QpQhFqgTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_009_6b32607e5d5a.png)
 
 4.2 热阻网络Simulink模型搭建
 
 通过数学离散方程公式(10)进行迭代运算，可由基板温度Tc得到结温温度Tj，然后进行Simulink模型搭建，模型中，Ri1、Ri2、Ri3为三阶热阻网络的热阻参数，Ci1、Ci2、Ci3为三阶热阻网络的热容参数，tiPerd为PWM中断周期时间，lossMS为MOSFET的总损耗，PT1\_x模型为一阶滤波器，MSTc为SiC MOSFET模块的基板温度采样实际值，MSTj为SiC MOSFET功率模块的结温估计值。三阶热阻网络Simulink模型如图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaR6w6WtW4Rt8eZEY1AxU5f4eDNICVB0frbBibNv6hftRSP9MR5G7y3Xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_010_b163d6f53743.png)
 
 5.试验测试
 
 为了测试热阻网络模型设计的合理性，需搭建一个测试试验台，该试验台由800V／200AH的稳压电源、145kW对拖台架、75kW混合动力用内置式永磁同步电机和电机控制器组成，如图6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaefTSN3hqiaYBw9lnePxDKHgjVhCQRnevic7w5umwKL1sJuOGJBVQveEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_011_57d2203a0e7d.png)
 
 电机控制器内使用厂家定制的SiC MOSFET功率器件，可实时测量芯片的实际温度。首先利用Foster热阻模型测量出SiC MOSFET功率器件的三阶热阻热容参数，然后通过数学方程转换成Cauer热阻模型参数，其参数如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaRB8ZAZ8Jd5tkFVAnOfPob6zLq6uYdsbKUkdIZFS9smI176Y2qWBtGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_012_70d394824aa4.png)
 
 将SiC MOSFET功率器件直接采样的结温温度和电机控制器通过Simulink热阻网络模型估算的结温温度同步传输至上位机进行观察，从图7可以看出，SiC MOSFET实际结温与模型估算的结温基本吻合，满足精度要求。其中，相电流瞬变时误差最大，最大误差占最高结温的5.25％。随着功率器件温度的变化，其各层材料的Ri、Ci参数也随之变化，在结温到达稳态之前，其温度在上升或下降过程中会产生一定的延时误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaH8uKDjdvlLMiaia2zOKMA5pJeNh1jiaYicGnAjrFcLOdKriaW4BrkeQedMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_013_a967f2b793b8.png)
 
 6.结论
 
@@ -112,13 +112,13 @@ SiC MOSFET存在开关损耗和导通损耗，而SiC SBD不存在开关损耗和
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_014_98dde421a5f5.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_015_84b8b7bc4579.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种车用逆变器SiC_MOSFET结温估计的Simulink建模方法_images\img_016_05333b5cc08e.png)

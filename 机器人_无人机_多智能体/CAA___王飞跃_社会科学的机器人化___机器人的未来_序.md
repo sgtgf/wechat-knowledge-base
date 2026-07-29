@@ -8,7 +8,7 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/Ld2fwkRTYial6KJCLEhia7Cpy6qFqI6ibXDWohBvhFHZ8yPgCoCHiahWLQrWicrqTDVYeRU6N4kiaye4eos2NQftzqRA/640?wx_fmt=jpeg)
+![](CAA___王飞跃_社会科学的机器人化___机器人的未来_序_images/img_000_dc34ff51a9f2.jpg)
 
   
 
@@ -40,7 +40,7 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/Ld2fwkRTYial6KJCLEhia7Cpy6qFqI6ibXDQzclicX9JKWzBVoiaxGxCJnAvibkGM1sG0VJ3jgWOIJpCcXia1KeB0YBIQ/0?)
+![](CAA___王飞跃_社会科学的机器人化___机器人的未来_序_images/img_001_93e81c0b6212.png)
 
   
 
@@ -100,8 +100,8 @@
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUuBiau2pemgTNSoZb8micTvTgx1ZspGjWqq85ico990krvCmvr1CoparTQ/0?wx_fmt=jpeg)
+![](CAA___王飞跃_社会科学的机器人化___机器人的未来_序_images/img_002_2e06a5b83bf9.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUCtFIo366cRNI5CiaNNUuqlboEXMCFiazIjSY90sJKibWLiaUBvfbNhnnzw/0?wx_fmt=jpeg)
+![](CAA___王飞跃_社会科学的机器人化___机器人的未来_序_images/img_003_ed0bd8ad699d.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUPkdibS3JNyqpDzMlQxXXSmicR9IE4paJ2KdRkr3Km6ZqMy4b7k0gTXvA/0?wx_fmt=jpeg)
+![](CAA___王飞跃_社会科学的机器人化___机器人的未来_序_images/img_004_5501d49c0976.jpg)

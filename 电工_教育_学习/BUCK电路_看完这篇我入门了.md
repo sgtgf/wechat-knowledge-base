@@ -10,7 +10,7 @@
 
 Buck、Boost、Buck-Boost作为直流开关电源中应用广泛的拓扑结构，属于非隔离的直流变换器。本文将对其中的Buck电路展开详细介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeC0xKzczgLhzydV668Xpl8CrRtUH46LFBaYlgKnjC9zibYdBbHLuxbIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_002_50ff0c92710f.png)
 
 \*Buck基础拓扑电路
 
@@ -38,17 +38,17 @@ Buck、Boost、Buck-Boost作为直流开关电源中应用广泛的拓扑结构�
 
 **Part 1 开关整流器基本原理**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeVTqdibbzRAQGCEiaRd8BVib1eFdjWVE13Os32WGjicbaCbUmZGVKUSPXdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_003_44beaf85c74a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTejISGny5WLbC9l4sfich5iaZaUUPUugZfkXF5RTgMhUdYgpPlgQ8FEhBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_004_83addc520c82.png)
 
   
 
 导通时间
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTevkJ9zG37ibUERyCKiavjley1DU4CLKvbWeITqLQzo6hAoKZQPEdag3gw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_005_b8ceaedbad5e.png)
 
 关断时间
 
@@ -62,9 +62,9 @@ Buck、Boost、Buck-Boost作为直流开关电源中应用广泛的拓扑结构�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgczPQgzIiaiaflsz13iadq2bX0frJPy4YHjhCHBZaZ1SxZAdXIKsIb4wHdYgCg8rn8nuh6a7IRPYKicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_006_f043bf9795dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeXpicXRp10L2RxcXx30pHfrKzKAUp5l0F6RIteF2PxT3OicqSCUiaBTvVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_007_7c3bb055deb2.png)
 
 Buck电路特征
 
@@ -80,7 +80,7 @@ Buck电路特征
 
 **Part 2 传说中的“伏-秒平衡”**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeO84icmmKNm1ppDIoQxXOP5wzIMjr5zzPyzmnQlFXW49hOM8udJS1Gog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_008_e800bf0f6aaf.png)
 
   
 
@@ -94,7 +94,7 @@ Buck电路特征
 
 **Part 3 同步整流死区时间**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTe5g6MkFSzIQckQM1kbwvNKh0remd5kDzEbLFY595NxB6HVz7IHLFopg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_009_c872ba6fbed9.png)
 
 同步整流是采用极低导通电阻的的MOSFET来取代二极管以降低损耗的技术，大大提高了DCDC的效率。
 
@@ -102,13 +102,13 @@ Buck电路特征
 
 物理特性的极限使二极管的正向电压难以低于0.3V。对MOSFET来说，可以通过选取导通电阻更小的MOSFET来降低导通损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTelJYq6dCmyEdt64tMj52L2IfHehIhdeH9qDmvAZl4AR8D71iaFh7GjHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_010_29d41b07d381.png)
 
 在开关电源系统中，死区时间（Dead Time）是指为了避免两个晶体管开关同时导通而引入的屏蔽时间。
 
 连接的两个晶体管开关通过交互地闭合和关断来决定线圈中电流的增减。为避免两个晶体管同时导通造成不必要的电流浪涌，即需控制电路在开关动作引入死区特性。在死区时间内，需要完成对已导通晶体管的关断和另一晶体管的导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTecfef0s26DOia1zMxoujU6xXQgEpHzz54dSrFFc5j7Yw9wicVAkanEickQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BUCK电路_看完这篇我入门了_images\img_011_06392aa6bb9e.png)
 
 死区时间
 

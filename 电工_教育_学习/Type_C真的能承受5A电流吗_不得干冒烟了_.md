@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/4IWYETpUyE8A2cm4NTIC\_w](https://mp.weixin.qq.com/s/4IWYETpUyE8A2cm4NTIC_w)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_001_cfc30a4da041.gif)
 
 前几天发了一篇关于Type-C的文章，评论区最热闹的问题就是：“Type-C引脚真的能扛住5A电流吗？”
 
@@ -30,25 +30,25 @@
 
 咱们打开Type-C连接器的规格书，基本都会标注接口的额定电流，如下图，VBUS引脚的额定电流为5A，带PD功能一般都是这种。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafjH41855jRPlv7qJepaF6vGCibyEJPRGvmsE12TBgicKwQU9XRcKE4DAq4iaV59F16iaBWX7fiaKJwPjYjGxiaxVJHOJQY3GAJV8sFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_002_0126302b19ab.png)
 
 不过也得说一句，不是所有Type-C都是5A。有些6Pin的简易接口额定电流只有3A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadafyyqYCqVkcoqJ7s9hpXfibT9YN9GkcWTwuWibHicu3RXWlQz3exkZopooPmmrozbdKDXpSdytzibaodMbiaicIcQHJaCV6mgFZaLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_003_eeb133117bb4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafvWHOxZWt3Et3bzQZoRvlCvoOMBnJibDA0AOCblmT8qv21nRSYXamBuao5ThKC8HWPXnyvWMrU7zv9n7bESS4FpgNmfrbjSY38/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_004_b281a64fadae.png)
 
 而一些少数连接器，额定电流能做到7A甚至10A，当然那种价格也更贵。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacgGLHoJSlxA6FZ9ESvCh4DV0PlIALqjY6VRZRt9ADYvtyB0kqkMthib8JJwAax302rxeM7tjibiaYq2CicEKoJyfPRDP9vbwZoyeY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_005_1985bed22d57.png)
 
 电流越大，对材料和工艺的要求就越高。大电流版本用的端子导热率更高，因为电流流过端子会产生热量，导热率高的材料能更快把热量导走，避免局部过热。同时端子的形状、弹片的设计也会针对大电流做加强，保证长期插拔后接触电阻依然稳定。
 
 这里要提一个关键点：**接触电阻**。我查了几款连接器的规格书，接触电阻一般都在40mΩ左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacgtJjxRmVjfpTuYRmIlzZf4Qw7URMJPXppd0hInEcp2R9O25VSa0icnTPFSURPPp7LUFicETFKuIB4qKMGXuuULM8BOib55lCej4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_006_bcaf88f7c0ab.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaf87RcibU3HW0Cx0DHPjC1OgQsSUAwpicWEbUGLX3j7m8F0ibbfkYP8PwpLWalUT3HsjUuoAHC0eQwc8SflibdyGjNrtic5W49icZkAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_007_ffbab4f397e1.png)
 
 别小看这个数，如果端子之间接触不好，接触电阻哪怕只增加100mΩ，5A电流流过就会产生2.5W的局部发热功率（发热功率=电流²×接触电阻）。热量集中在针尖大的接触点上，温度很容易就超了。所以5A母座的核心任务就是**把接触电阻压到足够低**。
 
@@ -64,15 +64,15 @@
 
 6Pin的Type-C引脚定义
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaedicc0ch8VLNicF8DTBjBpStwlzSHN4yFD8ibyQBp6rAUnPluArjmTXSzD4g8SxO3ic4TBLFuq5qqBa9H2uEIhbUc22T4fb02MiaCs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_008_e5170bbf000a.png)
 
 16PinType-C引脚定义
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeVNbeY06g4hmiaLtGws7TniaWlR8Fuu3SUTzIXBADqZMXNDMaPD84blRgxSovbaibZpnHI4WwwmACicS58Bib6QraorTP6ics66liaJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_009_260bd0052b86.png)
 
 24Pin的Type-C引脚定义
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafNwQsdk9r2AN4Uf4aZQUCJb9fflXSiblDjzINeu8XFJcllvkxGFe0alIt2YoZftPFGIQMfWFjnc6ic01htBHqePmw5NibNBF9PpM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Type_C真的能承受5A电流吗_不得干冒烟了__images\img_010_c7c87d1d5b58.png)
 
 那5A电流具体怎么分配的呢？对于16Pin或24Pin的接口，5A电流是由4个VBUS引脚共同承担的，每个引脚大概分1.25A。GND那边也一样，电流通过4个地引脚流回。  
 

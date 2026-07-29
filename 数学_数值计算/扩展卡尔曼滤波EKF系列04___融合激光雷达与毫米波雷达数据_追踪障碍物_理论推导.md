@@ -5,19 +5,19 @@
 
 **一**、激光雷达****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziaFiaiaaawV8FichGyVf4rqwoPuV8zf8gL3ujO49cbHWtqryfTm0zs1QdoA/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_000_7546a5777504.png)
 
  **1、激光雷达原理**
 
 如下图所示，激光雷达的发射器发射出一束激光，激光光束遇到物体后，经过漫反射，返回至激光接收器，雷达模块根据发送和接收信号的时间间隔乘以光速，再除以2，即可计算出发射器与物体的距离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziavyyGIX5Jxfp0Ilb8qRRTbZPQ6JybK0MJV47rdZ0akR42mQT2v3CIyw/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_001_a34e2d63b79a.png)
 
 **2**、**单线激光雷达**
 
 单束激光发射器在激光雷达内部进行匀速的旋转，每旋转一个小角度即发射一次激光，轮巡一定的角度后，就生成了一帧完整的数据。因此，单线激光雷达的数据可以看做是**同一高度**的一排点阵
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHzia2gR8sypcQOdcbZhaztrTCvaVHaAc94dgGsjyDwd6o1fs1ZgtYmFADw/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_002_3b7a55373ff7.png)
 
 单线激光雷达的**数据缺少一个维度，只能描述线状信息，无法描述面**。如上图，可以知道激光雷达的面前有一块纸板，并且知道这块纸板相对激光雷达的距离，但是这块纸板的高度信息无从得知。
 
@@ -25,11 +25,11 @@
 
 四线激光雷达将四个激光发射器进行轮询，一个轮询周期后，得到一帧的激光点云数据，如下图所示，黄色、绿色、蓝色与红色分别代表四个激光发射器的数据，四条点云数据可以组成面状信息，这样就能够获取障碍物的高度信息**。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHzia10ibuFG59vDYn3O48Ok5nxrS6HU0RtsyRHfZ0G0Z5eqyWO0S6OFDBJA/640?wx_fmt=png&from=appmsg)**  
+**![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_003_cd74503e4bc8.png)**  
 
 下图中的每一个圆圈都是一个激光束产生的数据，激光雷达的线束越多，对物体的检测效果越好。比如64线的激光雷达产生的数据，将会更容易检测到路边的马路牙子。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG41lSC3gftBiceqibeF27UpHziaYJ5ZSfocs9wdT8sGj7hDLqkyLXwVuhkEYCo6glvmBw7XM2bl53ejdA/640?wx_fmt=jpeg&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_004_80acb924f06b.jpg)
 
 4**、激光雷达的数据**
 
@@ -37,25 +37,25 @@
 
 在实际的无人驾驶系统中，每一帧的数据都会有时间戳，根据时间戳进行后续和时间有关的计算（如距离信息的微分等）。因此N线激光雷达的点云数据结构如下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG41lSC3gftBiceqibeF27UpHziaD04eAGHCAsU4DBDwmBO75kWB0DuMiafS6JicevUNRrVunDKQiamtxEkTg/640?wx_fmt=other&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_005_0ff2df40ca4a.jpg)
 
 每一线点云的数据结构又是由点云的数量和每一个点云的数据结构组成。由于激光雷达的数据采集频率和单线的点云数量都是可以设置的，因此1线点云数据中需要包含点云数量这个信息。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG41lSC3gftBiceqibeF27UpHzia4lXwLGQt45z1ibSnZUUvlJErIbEg6kZpRXTZr1f28q06kSCryu7TtuA/640?wx_fmt=other&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_006_7e27dcb2850f.jpg)
 
 最底层的是单个点云的数据结构。点的表达既可以使用theta/r的极坐标表示，也可以使用x/y/z的3维坐标表示。每个点云除了坐标外，还有一个很重要的元素，那就是激光的反射强度。激光在不同材料上的反射强度是不一样的。以3维坐标的表示方法为例，单个点云的数据结构如下图。X/Y/Z方向的偏移量是以激光雷达的安装位置作为原点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHzia1yukfwKpm37F3kx8asb3Xc5dACniaCKE6viaoFcZIl9bEzDVJBXdut9w/640?wx_fmt=png&from=appmsg)****二、激光雷达****追踪****障碍物****
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_007_250403966184.png)****二、激光雷达****追踪****障碍物****
 
 **1、预测方程**
 
 px,py,vx,vy分别为车上一时刻的位置x,位置y,x方向的速度与y方向上的速度，下一个时刻，其状态为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziad8SvCqz7t0nsjMYR3XEsZRODcoETYrZ6cDuBFQeIrKlLyjia07xB4YA/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_008_d609b7f71a14.png)
 
 **2、观测方程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziaI7R8icfhTzMKiajicMBJqeGTKM0LRgZM89afMfzPMm0rqAwWzYzBYC6gQ/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_009_11fd9871ec12.png)
 
 ****三、毫米波雷达****
 
@@ -65,7 +65,7 @@ px,py,vx,vy分别为车上一时刻的位置x,位置y,x方向的速度与y方向
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG41lSC3gftBiceqibeF27UpHziapd2H2MgsNDIlpg7uOIpGfadmjP9PJa9mS31GRZj0pmB990xFZAJ4dQ/640?wx_fmt=jpeg&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_010_febbb1db90f2.jpg)
 
  **1、毫米波雷达的分类**
 
@@ -75,7 +75,7 @@ px,py,vx,vy分别为车上一时刻的位置x,位置y,x方向的速度与y方向
 
 以Audi A8的传感器布局为例，讲解不同频段毫米波雷达的功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziarhgS8g1Luqdm47aRHgXjTnxoHYvmALs8L2EXkvTU4CeVusvK7I1ktg/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_011_e5738cc3fa4b.png)
 
 短距离雷达：24GHz频段
 
@@ -101,7 +101,7 @@ px,py,vx,vy分别为车上一时刻的位置x,位置y,x方向的速度与y方向
 
 如下图所示，安装有毫米波雷达的自车前方有迎面驶来的蓝色小车和同向行驶的绿色小车。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG41lSC3gftBiceqibeF27UpHziahicUM19k2JpGVrSqt86ZOVyveRkIb4rVRTDbXVAyM9wPhXECNB7iccYw/640?wx_fmt=other&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_012_9bd029bd98c8.jpg)
 
 毫米波雷达发射的电磁会穿透汽车的前后保险杠，但是无法穿透汽车底盘的金属，因此在遇到金属这类毫米波雷达无法穿透的物体时，电磁波就会返回。
 
@@ -193,25 +193,25 @@ track\_width
 
 px,py,vx,vy分别为车上一时刻的位置x,位置y,x方向的速度与y方向上的速度，下一个时刻，其状态为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziad8SvCqz7t0nsjMYR3XEsZRODcoETYrZ6cDuBFQeIrKlLyjia07xB4YA/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_013_d609b7f71a14.png)
 
 **2、观测方程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziaLyNiaW0H613GY5U4n77mQWbb1Gaqf1Vu8TYia1hUYFOm2OMFk8flHjMA/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_014_95e2f30fc882.png)
 
   
 
 观测方程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziaKUgmArZYfxicYPj4sT3OvnIibDeLyibCZaMdwfSpf1AO1ByPDED6jiammQ/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_015_13df5e425a01.png)
 
 上式可看出h(x)为非线性函数，线性化可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHzialiatnf9V6ydrlwflSAp7Y9bfsX5ShokxFn2AzpJamTIQs5KUuJj4iaAw/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_016_20515fbdb53a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHzia9uPJ94A4QfYx4xEZvX59sD2IaFPvdU8IUXzN2btibAibsSWmiaXxZbiaiag/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_017_a2503afe9919.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHzia28BtXxnz10R6ersw8Gicicd7EHzuEZmy0JKJB4aXCNdwU3BouOF1jVzg/640?wx_fmt=png&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_018_0561366497a9.png)
 
 ****五、多传感器信息融合****
 
@@ -221,7 +221,7 @@ px,py,vx,vy分别为车上一时刻的位置x,位置y,x方向的速度与y方向
 
 由于激光雷达和毫米波雷达是交替触发检测的，因此系统收到的传感器数据也是交替的。这里的数据除了提供传感器的测量值外，还提供了障碍物位置、速度的真值，真值可用于评估融合算法的好坏。前十帧（行）数据如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG41lSC3gftBiceqibeF27UpHziajAs09jRVytm2HkflTfMgZ59hk5zs95SicU4U3v0vJKo7DrCQcDemhmw/640?wx_fmt=other&from=appmsg)
+![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_019_b2d33681c67e.jpg)
 
   
 
@@ -233,6 +233,6 @@ Radar能够测量径向距离、角度和速度，字母R之后的数据依次�
 
 **2、融合算法的逻辑**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHziaIyq3yapo5ysw7HvVLKibU0wXaiaVwLtfo2cq354wEhwIGXfdGKLmkYMw/640?wx_fmt=png&from=appmsg)**
+**![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_020_f3c43794e487.png)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41lSC3gftBiceqibeF27UpHzia78jgEhicpGVicJPTiapyeXianTALWL2GHe44cnalKCuffF405eT8B8W5DQ/640?wx_fmt=png&from=appmsg)**
+**![](扩展卡尔曼滤波EKF系列04___融合激光雷达与毫米波雷达数据_追踪障碍物_理论推导_images/img_021_cd0d10b1bb5e.png)**

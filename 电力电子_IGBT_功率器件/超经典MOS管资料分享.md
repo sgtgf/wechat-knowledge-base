@@ -12,61 +12,61 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8Zn550YHJwewrtaMQuH1w4JRjN2Gnjhic2ib3dRh99TuibrgY2Xy3LpWqPibg/640?wx_fmt=other&wxfrom=5&tp=webp&wx_lazy=1&wx_co=1)
+![](超经典MOS管资料分享_images/img_002_616af612092e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tMUcaNO1vCl5R9epjbeEp6BTh0DrXbRmMbDXqBK93HgbFibvz9iaHUAobZJjm3CJAmOwC9frAvOExOA/640?wx_fmt=other&wxfrom=5&tp=webp&wx_lazy=1&wx_co=1)
+![](超经典MOS管资料分享_images/img_003_aad2d3eb75b6.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tMUcaNO1vCl5R9epjbeEp6BEq2icCFfRQd2ONI7j8lpfbia580WkWSQNeONF5Ruew17yVTKhpqjHnKA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_004_d5ef91263d6d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tMUcaNO1vCl5R9epjbeEp6B5NKU6CmRFUGGIvNBr9I0PIUA1WYzibIVeW2dtHY6OiboA6oApBcTSZmA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\超经典MOS管资料分享_images\img_002_fc13a9ab00fc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tMUcaNO1vCl5R9epjbeEp6Bvonp9b2ewwAEktOWfbzYsrM57ZUZGmJK7pWSMHgR5qQOBx8O3oZjBQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_006_df2346d9d2aa.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tMUcaNO1vCl5R9epjbeEp6BBnfAvcVVg3yS8ZHMoFO5WjJQVxtj83ESCbkqkOS6kmyuO2Py20CGUw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_007_4a7612c3e004.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZndmtvZ7hWYveP4mCH1DCMxTObibh6FSS8anKsaqTL1f2FPGXaV1wpicIA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_008_942fe19fddc5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnoXXvgzAKw8QPflpQSOV5VnPU1m2zURwWuspeETaHZ2lo0CTBndPBoA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_009_8108b50ca83f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnxfKCEwmp7nAziaawejBj6HUiaT7lcQlOmfGU4y6E9TXsktUPTyrfubjQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_010_66bcad8c62ab.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnN3xpLm8E74HZyqribFfV88VoSrnltibNxZyUsXibWvZTyDbtRm4RG7uxA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_011_f4c4ba23d5a1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnEtD1arOhcT7FkiaOHn6KDgLl1r7QCyNibSyjzgVJmCqDcwwnVk9SXpSw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_012_713022bbec6e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZntUOS2OwrATuqvia6ngOITpe1V8mr6E9U4A0D3HlIJYAfbvguvHaJT5w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_013_5c00d80e90a6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnXU6rGXZrC2WGd5pkcMJS5wic122iagIia24ScRibRGkvOPlN0vRaE98XfQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_014_209d3d7b155a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8Znso5JaicboVDbUiaOj3DRI56TDv3gckGn0F7r6ULGUb3gZHhiaeGqo1VKw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_015_559b7391bfe6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnP72rEe3SZESpg8Dsfno8apjcNgwmAt2A7xwoCM99Etl59PicSZDwlnQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_016_fd4a059022f0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnI2z4JDb6lp4NGB4bDkzB4QveJvZIXZntuOyBQjnokS7UwWWspsUmjg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_017_28427db22f7d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8Zn15Ic2M5kp0qUK0zkibDpZFA692iaJGrlKaMibHibZLuFf6aM6ZicXqNanSA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_018_08af927f73c2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8Zn4ibPEwRJYeviaCvk7uT333KHtJq2ck7jmJlMnhHJfQtp1gVZxpwEMKTw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_019_1633d4cf4dc6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnVZXJyDDwjY0R2k3OM0ziazsnz7Tic9TyOV4NRqvUMicmPrTdMwqMZYPTw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_020_f0237c233524.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnYpcnhlUPzdzuWuLOplLoiaWPrIAtiaOSNu6YoiaYnXL0ibCboicIByOuOTA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_021_d5547ba89128.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8Zn6qqgWSv5GdWibomoZ9VaODLqfRVicpwDALKuSD8NXLNJZGsK3ibox6REw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_022_12fe86686d5c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8Zn5JaibBTrsspgULC37YYMGtmHKxJ1AdqC8x7PuRd64MU40Mn7nYAPmpw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_023_461e24656b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnV5Yu8ureB5miajmLNe9fhMU5rliat6pFlCpbdVoWnXm6RsyZW6iadEibEw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_024_00bc654b9292.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnaT14OvibOpLWQaXamfVicqGpXlbiaTJz2ibUC5a4laIOzQY3X03UtTP2cQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](超经典MOS管资料分享_images/img_025_3cc230901243.jpg)
 
 **后台回复****"关键词"**（“MOS管资料”），即可领取PDF文档。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](超经典MOS管资料分享_images/img_026_d5dcc7ecfdf3.jpg)
 
 ## 
 

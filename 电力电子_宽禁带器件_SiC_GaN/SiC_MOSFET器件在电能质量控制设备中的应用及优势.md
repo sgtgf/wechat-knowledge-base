@@ -5,11 +5,11 @@
 
 一@ 电能质量
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bTXp84KgqOVOxt7AUGQjzIm11CRQQRIY9frCBOic1bOtqdVT2Bdnlujw/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_000_2ccebfe035f3.jpg)
 
 电能质量(PowerQuality)，从严格意思上讲，衡量电能质量的主要指标有电压、频率和波形。从普遍意义上讲是指优质供电，包括电压质量、电流质量、供电质量和用电质量。电能质量问题可以定义为：导致用电设备故障或不能正常工作的电压、电流或频率的偏差，其内容包括频率偏差、电压偏差、电压波动与闪变、三相不平衡、瞬时或暂态过电压、波形畸变（谐波）、电压暂降、中断、暂升以及供电连续性等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/r16GVho4hH6AuEHl6iaqsOcZnhuQvkuvxpTr7UPAruFJXThUAGKRfXBvBuHg2PRn1lQmaHh3nscwBDpPiaRh4HfA/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_001_a6c544c73f59.jpg)
 
 二@ 电能质量控制设备  
 
@@ -21,31 +21,31 @@
 
 1.电能质量监测装置：这类装置用于测量和分析电网的电能质量参数，如频率偏差、电压偏差、电压波动和闪变、三相电压不平衡度、电网谐波等\[^0^\]。它们能够实时记录和存储电力参数的变化趋势，帮助用户了解电网的运行状态，及时发现和解决电能质量问题。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bDDVvI8jtblY9FGPxWOexmAmQKT2VUcOyWBkIzezwu8rl5VuscG6glQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_002_4e0cb1197577.jpg)
 
 2\. 电能质量监测系统：由监测终端和主站组成，能够对供配电系统和工厂用电设备的电能质量进行实时监测，为电网的安全性、稳定性和经济性提供保障。
 
 控制设备
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bPnr8U64plThMff8XhrTCfdTTy8qPZRVtHa0uZ4ZJib3I5CDESozy9jQ/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_003_d1622e77f128.png)
 
 1\. 有源电力滤波器（APF）：用于治理谐波电流，采用现代电力电子技术和数字信号处理技术。通过实时检测负载电流，计算分析得到负载电流的各次谐波电流数据，并产生与谐波电流幅值相等、极性相反的补偿电流注入电网，主动消除电力谐波‌  。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bTSH3tUuKYicIDEbyDqcZ25S78pxQoMiaTYTSqgMKkrBAu8UrZiaT0XvMg/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_004_1301b5b056cb.png)
 
 2\. 静止无功发生器（STATCOM）：用于动态调节无功功率和电压，提高电力系统的稳定性和效率。SVG通过实时检测电网电压和电流，计算无功功率需求，并快速响应进行补偿‌ 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bJibfMrhez8mA2JLRLiaAfU8Ip2FhibIU6u36BCxfUwgSl4VicMibSERQyjg/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_005_6f846d2501ab.png)
 
 3.动态电压恢复器（DVR）：通过实时检测电网电压的波动情况，并迅速提供额外的电压支持，从而维持电网电压的稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999b77BPp2gZfdXGG0uqcHHR4FxGTK3OTfBHzxNEiawyTibfwvdhibfia6qv6g/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_006_53ae7f7115ee.png)
 
 4\. 统一电能质量控制器（UPQC）：集成了多种电能质量控制功能，包括电压控制、有功无功调节、有源滤波、平衡化补偿、不间断供电和储能等。
 
 应用领域
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bicwz9P0oKb1dU098p02o3rMH9HDs7OdYf4tQU6F0rRgV2qp3MnnP18g/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_007_91163f0c6c49.png)
 
 1.公共配电网系统：主要解决电压暂升暂降、三相不平衡、损耗大等问题，主要客户包括电网公司和电力设计院。
 
@@ -57,11 +57,11 @@
 
 电能质量控制设备的性能指标不仅与控制系统的性能指标及控制算法密不可分，也与电力电子功率器件的性能指标密切相关。电力电子器件性能指标直接影响电能质量控制产品变流器的损耗、功率密度、响应时间、滤波次数、谐波滤除率等指标。一款开关频率高、损耗低、耐压高的电力电子器件，对于电能质量控制关键产品性能的提升、可靠性的提高至关重要。而SiC 器件的性能指标完全可以满足此要求。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnyicI0mALvRCfWwgzq999brNq9Bw5NO5Ez3QyG21mjF6hxuXOgcwWSMBGdmQAicbIU7MICvOaEDsw/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_008_a68e6ad3dfeb.jpg)
 
 碳化硅(SiC)作为近年来备受关注的一种宽禁带半导体材料，具有宽禁带、高临界击穿电场、高热导率以及高电子饱和漂移速度等良好的物理和电学特性。宽禁带半导体SiC电力电子器件，突破了传统硅基器件在耐压、工作频率以及转换效率等方面的性能极限，从而使电力系统功耗降低30%以上，在“大容量柔性直流输电”、“高效高体积功率密度电力电子变压器”等未来新一代智能电网领域具有非常广泛的应用前景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bKG1F4JjHDl4TczYbREm8svj1tvTJZ7oKxG6E8WibdFAVcjdFrFM8C4A/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_009_b1569a766839.png)
 
 SiC器件在电能质量控制设备中的应用及优势
 
@@ -137,13 +137,13 @@ SiC器件在电能质量控制设备中的选型要点
 
 • 封装类型：根据设备的安装空间和散热需求，选择合适的封装形式。常见的SiC器件封装形式有TO-247-3、TO-247-4等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bWEsmQe5wAweFHLic7hIVqqrbF6CicK5kyHo7icArCwa7N1wleCr0QvibqQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_010_5e11c196b889.jpg)
 
 • 模块集成度：选择集成度高的SiC模块，如半桥、六桥和全桥配置，以简化电路设计，提高系统的集成度和可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bZNXqyngPyWZ0ZaBUZia0KrIG1Z43stZuuia0rODa5ftROaVZial0s9c1g/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_011_c5b4a0991ef3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bGZLmm7ic6bUFhhPfrlvrYibUp0SibGrt2F74lTPSO8zcNib9icqz0zeKFMA/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_012_e4250e714406.png)
 
 1\. 采用先进的真空回流焊工艺，Al2O3绝缘陶瓷，最高工作结温150℃；
 
@@ -173,20 +173,20 @@ SiC器件在电能质量控制设备中的应用案例
 
 **盛弘电气：应用碳化硅功率模块，得益于SiC技术，盛弘 P5 系列有源滤波器 APF 和静止无功发生器 SVG 的整机峰值工作效率提升至 99%，与以前基于硅 IGBT 方案效率仅为 97% 的产品相比，大幅降低了同容量机型的能耗。此外，产品体积减小超 50%，重量下降超 40%，显著提升单柜容量并为客户节省占用的安装空间。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmH62cStOmT6dSaOc5PYoNTW7qGOsWzOStcJFzH8KOSyg8pwUU0KibjCxAIT8yLFShuYjmmibBEhcZQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_013_c24e16b46161.jpg)
 
 爱科赛博：SinPOWER品牌有源电力滤波器是爱科赛博根据现场负载特性设计的单模块大容量有源电力滤波器，模块容量覆盖10A（ibook SiC技术）、10A~40A（高精度）、50A、75A、100A、150A、200A等，单柜容量可达1500A。其应用领域包括装备制造业、石油化工业、冶金业、纺织业、建材业、轻工业等种类工业配电场所；大数据中心、医院、机场、大型场馆、高端建筑等各类民用建筑行业配电场所；城/乡智能电网、半导体行业、光伏行业、城市轨道交通行业等。其中高精度产品主要应用于工业空调等特殊行业。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bddFzIP4wbiavOU5TwlDVIWqK8vNya9IggprrEA9UqmWicZa376MCKoIQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_014_acc86d139605.png)
 
 五@总结   
 
 当前的SiC技术已经相当成熟，可以适用在从千瓦到兆瓦功率的工业应用范围中，影响了能源、工业和汽车等众多领域。由于SiC器件运作时的温度较低，及较小的磁性器件，因此在系统中所需的热管理和电源器件的尺寸更小、重量更轻、成本更低，从而降低了整体BOM成本，同时也实现了更小的占用空间。 随着SiC技术的快速发展，在电力传输系统也开始大量采用SiC解决方案，特别在ESS应用中，像是电动汽车充电系统，以及利用电池储存电能的太阳能系统。这些系统中的DC/DC升压转换器、双向逆变器（交流电和直流电互相转换）、电池充电电路，都可以采用SiC技术的器件，将可提升3%的系统效率，以及提高50%的功率密度，并减少无源器件的体积和成本。 典型的ESS架构将包含了电源（光伏）、DC/DC转换器、电池充电机，以便将能量输送到家庭端或输送回电网的逆变器，采用SiC技术，将可以提高效率，减少尺寸、重量和成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_015_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_016_a7ecee98ead9.png)![](SiC_MOSFET器件在电能质量控制设备中的应用及优势_images/img_017_9bbc7b9b15a2.png)

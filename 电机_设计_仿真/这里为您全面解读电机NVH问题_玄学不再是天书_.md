@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/mLowVIA5tA4bj0oBaXj5vA](https://mp.weixin.qq.com/s/mLowVIA5tA4bj0oBaXj5vA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883klJHIqiaDa2xYic0lB84Nia2XOk1j7764Ep7o9o6oXtAOl5h24pwU512A/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632364&idx=1&sn=09675f89000536cb60ead1f499b37004&chksm=88bcdba3bfcb52b528e1e67af2b5354a3317c1403d0744905a277613e6f510235503eb9914e3&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_001_82f0e4ee50e8.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632364&idx=1&sn=09675f89000536cb60ead1f499b37004&chksm=88bcdba3bfcb52b528e1e67af2b5354a3317c1403d0744905a277613e6f510235503eb9914e3&scene=21#wechat_redirect)
 
   
 
@@ -13,7 +13,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUaTU074LfmMicHbPc42quCGMpicgFKTQhMto0ghXYAFlRSvhKBml7JYBgBFKCibibbbpbkKXA81kibdiaw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_002_2282a5427e8d.jpg)
 
   
 
@@ -75,7 +75,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zniac2pV0ZrOOhEoFhDoDPalHTnImFicLt7sHzCf8QKtYtAjETCmc377w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_003_992038978436.jpg)
 
   
 
@@ -111,12 +111,12 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883M3QFV2pyyib8CJg1QQsiauKrfxe9GP7tVtU4euRs3CrrgiaCpYEYMqLYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_004_fd8973ff890f.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUaTU074LfmMicHbPc42quCGk7Iyq8Kg3nQgt34lEWCvJIWgndD50eH1GkcicyIzBXPhaic5dcEwTibLA/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632517&idx=1&sn=e317c1b22aa65793c339528e507a5783&chksm=88bcda4abfcb535c19308c1770f165d0f8367c39a21fa11214ecff4909dbdfe6b5a8a572e4dc&scene=21#wechat_redirect)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_005_0cfebd1d514d.gif)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_006_e92dd275deff.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632517&idx=1&sn=e317c1b22aa65793c339528e507a5783&chksm=88bcda4abfcb535c19308c1770f165d0f8367c39a21fa11214ecff4909dbdfe6b5a8a572e4dc&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVxcM89orZrBpwhlR3ON9ZnuPrmI8XtD5GyplqAH1lksBS4Gib6oq8FSlDJXmpadTJKSkac9VWvYTg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632430&idx=1&sn=250158fddc2455236b174033aa06d283&chksm=88bcdbe1bfcb52f7a35f34c02be7b07b39cdd1a5a9e6b9d69034e084add7853a5ef5cc5367e0&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZfZ5uT2ibRZcByL2xLy5BlhOt5RDB1bx8XFXbuWveJMu1A2cV46RqXkYORGpsGpajqmHIVoKp9NQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632412&idx=1&sn=c70929bc0f62c58a33bab50d8fa3de7c&chksm=88bcdbd3bfcb52c5cef394d2dbdab0eaa640fa9dbd7b6e6160bdae8bb16d57f658cdd450cb94&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_007_5a2ccdbaf6ee.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632430&idx=1&sn=250158fddc2455236b174033aa06d283&chksm=88bcdbe1bfcb52f7a35f34c02be7b07b39cdd1a5a9e6b9d69034e084add7853a5ef5cc5367e0&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_008_f7ef7569621d.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632412&idx=1&sn=c70929bc0f62c58a33bab50d8fa3de7c&chksm=88bcdbd3bfcb52c5cef394d2dbdab0eaa640fa9dbd7b6e6160bdae8bb16d57f658cdd450cb94&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_009_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_010_3f5511eb92d0.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\这里为您全面解读电机NVH问题_玄学不再是天书__images\img_011_96b548e7fe70.png)点击**阅读原文**，直接报名参加本次培训！
 
 ****觉得好看，请点这里↓****↓********↓********

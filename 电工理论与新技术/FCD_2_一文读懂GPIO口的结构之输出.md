@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/FGhPdw8Gpgr2uZqfOsxAdg](https://mp.weixin.qq.com/s/FGhPdw8Gpgr2uZqfOsxAdg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRCTxWUeibrP54IOCgxuJXUd18Upe7pe42oI5PZACYSM04eaG21wtLjhSbmC8PIfv2hZlI5ekvqpAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_2_一文读懂GPIO口的结构之输出_images\img_000_06130828b81a.png)
 
 ________**★★★**______________GPIO-2---GPIO的输出配置______________**★★★**________
 
 引言：GPIO，即General purpose input output，通用输入输出端口，是可以根据实际使用场景需求来用软件来配置的引脚。需要注意的是，一款芯片的引脚分为其实分为很多域，比如仅为芯片供电的引脚群称为电源域，还有类似复位，地址配置等等称为逻辑域，还有原生支持I2C，SPI等等通讯的称为通讯域，搭建小系统用的引脚称为系统域。本节我们主要讲述不具有特定功能的GPIO域。（本节和下节是所有的GPIO配置类型，但有的芯片GPIO不全都支持，这类GPIO叫裁剪型GPIO，使用芯片时需要查看其Pin List，不能默认都是全功能的GPIO）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuJCSfYrMu5uuFq5STiawFbhL40MraYZqFxSfNcbyR0fCPU5GzugVeBiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_2_一文读懂GPIO口的结构之输出_images\img_001_803803122b0b.png)
 
 **_图2-1：GPIO的一般结构_**
 
@@ -21,7 +21,7 @@ I2C就是利用引脚高阻态的特性，I2C总线上挂多个从机，当从�
 
 开漏输出模式时PMOS不工作，输出寄存器上的0会让NMOS导通，接地输出低电平，输出寄存器上的1会让NMOS关闭，此时引脚既不输出高电平也不输出低电平，为高阻态。所以输出数据寄存器可控制IO输出高阻态或者低电平。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtueiaOdeib7ZStCGQvibk0icr0fTqJ0MM76LhmTP8l9ey2iaP03ogwGbzCzmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_2_一文读懂GPIO口的结构之输出_images\img_002_be900a95825c.png)
 
 **_图2-2：开漏输出模式路径_**
 
@@ -31,7 +31,7 @@ ______€2.____推挽输出模式__
 
 推挽输出模式双MOS管会以轮流的方式工作，输出寄存器上的0会让NMOS导通，输出低电平，输出寄存器上的1会让PMOS导通，输出高电平。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuloFza4ZNMpTAVgGIib1HoNJgu4BktAcgzpIr78xAmaQAnq7BIkbF4Lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_2_一文读懂GPIO口的结构之输出_images\img_003_29e399fbd0ee.png)
 
 **_图2-3：推挽输出模式路径_**  
 
@@ -39,7 +39,7 @@ ______€3.____复用开漏输出__
 
 在复用开漏输出模式中，复用功能输出使能，输出寄存器无效，输出信号源来自片上外设，此时输出速度可配置，输入可用，通过输入数据寄存器可获取IO实际状态，但一般直接用外设的寄存器来获取该数据信号。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5Ptu525UXPBHq9sbdppWmibxphDqXALdXb6TWIOv9kL5KBb4kiavD0EnlVjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_2_一文读懂GPIO口的结构之输出_images\img_004_0ab3e80740d8.png)
 
 **_图2-4：复用开漏输出模式路径_**
 
@@ -47,7 +47,7 @@ ______€4.____复用推挽输出__
 
 在复用推挽输出模式中，复用功能输出使能，输出寄存器无效，输出信号源来自片上外设，此时输出速度可配置，输入可用，通过输入数据寄存器可获取IO实际状态，但一般直接用外设的寄存器来获取该数据信号。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuCic8GyuqQ6XCtibYAAyyZbx1EIgsg2DQib7ibdFodyfZL7ncIliagj8rfGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_2_一文读懂GPIO口的结构之输出_images\img_005_f8543c8471a9.png)
 
 **_图2-5：复用推挽输出模式路径_**  
 

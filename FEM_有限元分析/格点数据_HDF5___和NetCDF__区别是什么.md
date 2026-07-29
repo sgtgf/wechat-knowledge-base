@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/fgcZSNhim86jtIIag2Datg](https://mp.weixin.qq.com/s/fgcZSNhim86jtIIag2Datg)
 
-![图片](格点数据_HDF5___和NetCDF__区别是什么_images/img_000_837ceafdb864.other)
+![图片](格点数据_HDF5___和NetCDF__区别是什么_images/img_000_837ceafdb864.jpg)
 
   
 

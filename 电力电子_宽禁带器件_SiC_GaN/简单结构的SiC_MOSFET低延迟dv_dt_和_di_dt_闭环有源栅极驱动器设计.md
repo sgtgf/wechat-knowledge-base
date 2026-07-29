@@ -56,21 +56,21 @@ The simplified circuit structures of existing AGD are shownin Fig. 1. The existi
 
 现有有源栅极驱动器的简化电路结构如图 1 所示。根据电路结构，现有有源栅极驱动器可分为三类。如图 2 所示的开尔文源极（KS）节点，其内部与 MOSFET 的源极相连，以最大限度地减少源极电流对栅极驱动器的影响，被用作栅极驱动器的参考点。以开尔文源极节点为参考点，串联阻抗型有源栅极驱动器将 Za 串联在栅极驱动器中，并联阻抗型有源栅极驱动器将 Za 并联在栅极驱动器两端，而受控源型有源栅极驱动器则采用线性功率放大器作为栅极驱动器。这种分类方法明确了调制电路在有源栅极驱动器电路各部分的配置特性，有助于理解所提出的有源栅极驱动器的设计过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9PIgd5DZZRXfqgtahKBcYhaUYhsia35RbsyUbJ60PZIttQCXWKrl2uEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_000_09c8c12392c5.png)
 
 （a）串联阻抗型有源栅极驱动器 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9qABibJD4l3BGZ9PWdsmwWfYXibHXSv7LDOBhfjLibqbt5vmxHdkcnQJRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_001_dd5ca36e218a.png)
 
 （b）并联阻抗型有源栅极驱动器 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9Irx01tuiaG9WAypFTWzx0vpg9jhLnKOiaRicaegvGUbXiatL15oNvqeHbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_002_a2faaa6ab03d.png)
 
 （c）受控源型有源栅极驱动器 
 
 （图 1 现有有源栅极驱动器电路结构）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9bvVc1Ub0mQhI7Y7ibqJJzfIlsFuc0F7yamu84LOjLBtVBV2zKkyhbibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_003_f6cd16300a92.png)
 
 （图 2 TO-247 四引脚封装及电路图） 漏极（D）、开尔文源极（KS）、源极（S）、栅极（G） 
 
@@ -106,7 +106,7 @@ The operational amplifier in Fig. 1(c) works as a voltageadder or subtractor, wh
 
 图 1（c）中的运算放大器用作电压加法器或减法器，相当于在栅极驱动电路中串联一个受控电压源。若将图 1（a）中的受控阻抗 Za 调制为耗散型电压源（电流流向与电压极性相反），则也可实现电压加法器功能。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9x8t6T8ibNFMhfRJkYSEruo342iaEkA05qFcdzsiaKRHKAxRy2dbB8EdfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_004_d1e32256d333.png)
 
 （图 3 所提有源栅极驱动器的电路结构） 
 
@@ -114,7 +114,7 @@ Since all elements related to gate driver in Fig. 1(a) areconnected in series, t
 
 由于图 1（a）中所有与栅极驱动相关的元件均串联连接，其顺序可在不影响功能的前提下进行调整。如图 3 所示，受控阻抗在栅极驱动器和 MOSFET 的开尔文源极节点之间改变了位置。由于栅极驱动器的功率传输和信号传输是隔离的 \[25\]，这种位置调整是可行的。根据 Za 在电路中的位置，该配置被称为开尔文源极串联有源栅极驱动器（KSAGD）。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9YQdcf4My0jXm9ybeJatvSKSYVXGyMDaI0S6g7dIWtS54wxvtEFBqWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_005_8655528d942c.png)
 
 （图 4 开尔文源极串联有源栅极驱动器的电路结构） 
 
@@ -130,11 +130,11 @@ An implementation of the KSAGD is shown in Fig. 4. Thiscircuit includes two BJTs
 
 图 4 展示了开尔文源极串联有源栅极驱动器的一种实现方案。该电路包括两个作为电压跟随器的双极结型晶体管（Q1 和 Q2）、两个用于反向电流阻断的肖特基势垒二极管（D1 和 D2）、一个带栅极驱动电阻（Rg）的通用栅极驱动器以及一个信号调理电路。信号调理电路从源极电流（iS）和漏极电压（vD）中采集反馈信号。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9pxzNUrZWiaKaSgfwheIB9bltGiaSDJTlXBbPI1T36zmlVXBmeCUPAOkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_006_25cfc48f72e6.png)
 
 （a）导通过程 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9Rukslqic866ibba63Eg2jZG0YYFJWIgIRAFLMulUQBCQGK92RVyCIG3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_007_e59984dffd59.png)
 
 （b）关断过程 
 
@@ -156,13 +156,13 @@ During the turn-on process, the gate driver outputs apositive voltage vDr(on). T
 
 在导通过程中，栅极驱动器输出正电压 vDr (on)。栅极电容此前由栅极驱动器的负电压 vDr (off) 充电，va 有变为负的趋势，使得 D1 导通、D2 截止。栅极充电电流从栅极驱动器流向 MOSFET，再从开尔文源极返回。信号调理电路输出相对于参考点为负的电压 v1。根据电压条件，Q1 用作电压跟随器，发射极电压被调制为比基极电压（即 v1）低约 0.6V。加上 D1 和栅极驱动芯片的电压降，总压降 VDrop 约为 1.5V。在整个导通过程中，栅极电流方向固定，因此 v1 和 va 之间的电压差可视为恒定。晶体管的这种电压跟随器配置能获得最大带宽，对控制信号 v1 做出瞬时响应。有源栅极驱动器的输出电压 vo 可通过以下公式计算： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9jJBOBziaf8iasdoBVqRYa97RQPutrt65j4ZQh4h90FkTnHenC4EtaOeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_008_8065d9463920.png)
 
 During the turn-off process, the circuit works in the opposite way. In this situation, gate driver outputs vDr(off) whilethe gate capacitance was formerly charged by the gate driverwith vDr(on). The Q2 works as a follower, allowing the otheroutput from the signal conditioning circuit v2 to control theAGDs final output. The voltage at the gate driver’s output canbe calculated as below:
 
 在关断过程中，电路工作方式相反。此时，栅极驱动器输出 vDr (off)，而栅极电容此前由栅极驱动器的 vDr (on) 充电。Q2 用作跟随器，信号调理电路的另一个输出 v2 控制有源栅极驱动器的最终输出。栅极驱动器输出电压可通过以下公式计算： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz94mTaPTWAGeSprjmzQRyqibvFHia7iaBicYPyRDUnAHV1dIcnfHlGpibdmpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_009_0763ec8246c3.png)
 
 In follower configuration, the BJT works in unity gaincondition, which can get maximum bandwidth out of it. Thedelay of the driving strength modulation circuit can be as lowas 2-3ns estimated based on the gain-bandwidth product ofcommon BJTs.
 
@@ -180,7 +180,7 @@ A convenient and reliable method for the signal conditioningusing passive resist
 
 图 6 展示了一种采用无源阻容网络的便捷可靠的信号调理方法。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9Matpias8JzVOz4Nw9Mg32MT4AlZnLHxA95TJOWXA1cXhFqCTuSHsIBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_010_0ed421725279.png)
 
 （图 6 无源信号调理电路） 
 
@@ -196,7 +196,7 @@ The voltage component contributed by dv/dt feedback canbe represented as below:
 
  dv/dt 反馈产生的电压分量可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9bN86kTKAU2q2Jp9DicGjia56t3FNiaMUeGUbTgbtr0SXOP8Bia4jJHUXtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_011_a023247d5492.png)
 
 The power source pin of the 4-pin Kelvin-source MOSFET package has a nonnegligible parasitic inductance Ls. Theself-induced voltage of the parasitic inductance vifb is usedto derive di/dt information. Since the voltage signal on vDis significantly larger than vifb, Cfb is usually designed thatits impedance is significantly higher than Ra and Rb withinthe working frequency range of AGD. When considering theeffect of di/dt feedback, Cfb can be ignored.
 
@@ -206,13 +206,13 @@ The voltage component contributed by di/dt feedback canbe represented as below:
 
 di/dt 反馈产生的电压分量可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9SCV2clgwC5obMcLozGC30yYbKya4X0tJhrtE7gYYMbRPLC2B6kibJIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_012_82eb2482e6fc.png)
 
 And the control voltage signal vCtrl is a combination of thefeedback voltage components:
 
  控制电压信号 vCtrl 是反馈电压分量的组合：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9gYdlozVPcOCqxKMNZJicWNnz936zcP8Txd2gn4zjbsDyAaGzoPGNyKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_013_8359257486a4.png)
 
 To generate two distinct control signals for either turn-onand turn-off active control, two sets of resistor networks areused while sharing the same Cfb. Because the direction of ivfbneeded by two networks are opposite, two diodes in Fig. 6serve the purpose of signal sharing. By sharing the feedbackcapacitor, the effective capacitance added to MOSFET’s drainis reduced to half.
 
@@ -234,11 +234,11 @@ In a hard switching situation, the waveforms of the circuit during turn-on and t
 
 在硬开关情况下，导通和关断过程中的电路波形如图 7 所示。开关过程中，va 上会产生调节驱动强度的波形。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9ibk2iaYCas75sdqnFjGL7yV7fgbmdr2rH4f6CeJ569wqFjnicphZiczGEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_014_ec084985657e.png)
 
 （a）导通过程 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9Joc4R1Xkabmvh7IoIyYOwlnCTOD5I4PoAqzUzicfic4zGHXZPuqicm3Lw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_015_06acccb990e7.png)
 
 （b）关断过程 
 
@@ -272,7 +272,7 @@ The proposed AGD has a closed-loop control scheme asshown in Fig. 8. The signal 
 
 所提有源栅极驱动器的闭环控制方案如图 8 所示。信号调理电路实现负反馈，与栅极驱动器串联的双极结型晶体管跟随器电路构成加减法器级。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9etLNONruOkLbCbbmq6s0ks9v5esgqhd06W2exqdSib8ZhWyC9ElO0SQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_016_557e01026387.png)
 
 （图 8 闭环控制框图） 
 
@@ -280,7 +280,7 @@ The proposed AGD only responses to the dv/dt and di/dtsignal generated by the sw
 
 所提有源栅极驱动器仅对开关动作本身产生的 dv/dt 和 di/dt 信号做出响应。若负载条件发生变化，有源栅极驱动器的调制时间也会相应改变，如图 9 所示。有源栅极驱动器电路元件参数固定，电路可自动适应这些变化。对于采用固定时序方法的有源栅极驱动器，至少需要一个开关周期才能检测负载变化、计算并应用新的对应时序，导致当前开关动作并非最优。而所提有源栅极驱动器基于实时闭环反馈原理，可即时适应任何负载变化，每个开关动作均被视为独立事件。这一特性对于负载时变的应用（如直流 - 交流变换器）至关重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9yN1g4PGDglovVoJBqbiarITZkr6U9PUrb3bveib4qu9FCsC1SbhMC7pg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_017_3875d96c4077.png)
 
 （图 9 所提有源栅极驱动器对负载变化的实时响应）
 
@@ -290,31 +290,31 @@ The voltage transition procedure happens when the MOSFET goes through its miller
 
 MOSFET 经历密勒平台区时发生电压转换过程，流经反向传输电容 Crss 的栅极流出电流可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9nQaEMCArKI4DygNm9C0kiawM2dTD33qP0CO9fWs5kR2ffRxNmJib2ib8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_018_897793d462db.png)
 
 The current transition procedure happens after or before themiller plateau. The voltage slew rate of vGS is related to thecurrent slew rate. The current flows through input capacitanceCiss can be calculated using the transconductance gm of theMOSFET:
 
 电流转换过程发生在密勒平台区之前或之后。栅源电压 vGS 的变化率与电流变化率相关，流经输入电容 Ciss 的电流可利用 MOSFET 的跨导 gm 计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9LccYttV4mibbtg8icptvoyFLiaMoK4Xkicpia19pe88Q7UmW4ibjP6pgAagQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_019_243dfa3bbc22.png)
 
 The voltage difference across Rg determines the gate charging/discharging current iG. The average gate-source voltageduring miller plateau is represented as Vmil. Note that Vmil canbe different for turn-on or turn-off process. Also, Rg couldhave separate valve during turn-on and turn-off when dualresister CGD configuration was used, and the internal gateresistance of the MOSFET must be included.
 
 栅极电阻 Rg 两端的电压差决定了栅极充放电电流 iG。密勒平台区期间的平均栅源电压表示为 Vmil，需注意 Vmil 在导通和关断过程中可能不同。此外，当采用双电阻传统电阻式栅极驱动器配置时，Rg 在导通和关断过程中可具有不同阻值，且必须考虑 MOSFET 的内部栅极电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9r7cALXDX5iajSTaaiaO231jj6jwYervNwcrGxJGyJ3CZEpOpvGWVGMGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_020_9ba67906fc84.png)
 
 The direction of iCrss is opposite with iG and iCiss, and therelation of the three current components can be represented asbelow:
 
 iCrss 的方向与 iG 和 iCiss 相反，三个电流分量的关系可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz956wPTBEDlBpedNBsnnEx35Vfuz1NEtqrKAVNmZq70vxmsRC97Vsh7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_021_0b142cdd003d.png)
 
 According to (1), (2), (8), vo can be represented as:
 
 根据 (1)、(2)、(8) 式，VO表示为：v
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9b98Z3Y6p03giaQeMAB0NgOMHk51OJPiaScpZGQrPAIEiaib8lNiaO2hicfuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_022_4ad0efdd98aa.png)
 
 In which the component Rb/(Ra+Rb) is considered to be 1if Rb is left open.
 
@@ -324,13 +324,13 @@ A mixed dv/dt and di/dt control scheme of the proposedAGD is established as foll
 
 所提有源栅极驱动器的 dv/dt 和 di/dt 混合控制方案如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9GRWo2GiboiajE3KbicSnSQZ3mle4h1eJkbyxDXz8Fsqcric6fvd1dsB6hQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_023_9d018d320cd5.png)
 
 In a hard switching situation, the voltage and current swingoften exhibit a time sequential relationship. Which meansduring the most of switching procedure, dv/dt and di/dt controlare considered independent. The nominal dv/dt and di/dt forclosed-loop control can be derived:
 
 在硬开关情况下，电压和电流摆幅通常呈现时序关系，意味着在开关过程的大部分时间内，dv/dt 和 di/dt 控制可视为独立。闭环控制的标称 dv/dt 和 di/dt 可推导为： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9UlT2KycG9WAib5aKcFZyek2bsuV01e6RCXEUPz4icksfKkKAIbTfcLibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_024_ad0967f5bece.png)
 
 Based on the desired maximum dv/dt and di/dt, the valvesof passive components can be derived according to (12). Dueto a separate pair of resistor network is used, the resistorvalues (Ra and Rb) for turn-on and turn-off can be different.Note that a minimum di/dt value can be derived when Rb isopen, which resembles a 3-pin TO-247 package.
 
@@ -348,7 +348,7 @@ To analyze the stability of the AGD-MOSFET combinedsystem, the small signal mode
 
 为分析有源栅极驱动器 - 碳化硅 MOSFET 组合系统的稳定性，采用了带负载阻抗 ZLoad 的碳化硅 MOSFET 小信号模型，如图 10 所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9s0P5MLbonuygy7aiam1cVWHvvcbMK8PNKRicsDMZKGicy8ic3bcvQfMsKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_025_fc7b68d537d0.png)
 
 （图 10 碳化硅 MOSFET 的小信号模型） 
 
@@ -356,31 +356,31 @@ The relation between the gate driving voltage vo to vDSwould be derived from the
 
 栅极驱动电压 vo 与漏源电压 vDS 之间的关系可通过以下微分方程推导： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9taMuMTmdrhSEiayfbZibQshuVyibI91weC44wXgG9Bxicra8BXIG0jPNZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_026_9b664c88cddf.png)
 
 The voltage output transfer function for the SiC MOSFETwould be represented as:
 
  碳化硅 MOSFET 的电压输出传递函数可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9smvJAvxMFFfCVv7hibfOCcY7XImnsox6MOTNEHEnT6ic3T1lMI5azvEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_027_bee38b8dfb90.png)
 
 The transfer function of the RC network for dv/dt feedbackwould be given as:
 
 dv/dt 反馈 RC 网络的传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9ky02RjkvyjiaxS8ib0Z5sBJiagEicbHjoA02qYXAueXwic8iaSmSibpiaLMOibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_028_8ceb25bb0447.png)
 
 The BJT follower circuit copies the output of RC network,and the signal is presented back to the output of gate driver,forming a closed-loop system. The dv/dt control system is anegative feedback system, and its closed-loop transfer function would be given as:
 
 双极结型晶体管跟随器电路复制 RC 网络的输出，并将信号反馈至栅极驱动器的输出端，形成闭环系统。dv/dt 控制系统为负反馈系统，其闭环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9W25ZGRiaSRiaM5Gd8QcVAREEkSTZgnqese35MnR6Ap04gVzGz0X3H6LQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_029_acd2b80b87af.png)
 
 During the voltage transition stage of a switching transient,the other MOSFET would maintain off. ZLoad is the otherMOSFET connected in series with the loop inductance Lloop.The other MOSFET presents the characteristic of its outputcapacitor Coss. The root trajectories were plotted with parametric scan in Fig. 11. The key parameters concerning thestability of the AGD are gate resistor, feedback gain and loopinductance. Rg was chosen to have the value of 0, 1, 5,10 and 20. The feedback gain was altered by choosing thevalue for both Ra and Rb to be 47, 62, 91, 150 and250. The value for Lloop was 50nH, 100nH, 200nH, 500nHand 1000nH. Cfb was chosen to be 10pF. Other parameterswere referred to the MOSFET’s datasheet.
 
 在开关暂态的电压转换阶段，另一个 MOSFET 保持关断状态，ZLoad 为与环路电感 Lloop 串联的另一个 MOSFET，该 MOSFET 呈现输出电容 Coss 的特性。通过参数扫描绘制根轨迹图，如图 11 所示。影响有源栅极驱动器稳定性的关键参数包括栅极电阻、反馈增益和环路电感。Rg 的取值为 0Ω、1Ω、5Ω、10Ω 和 20Ω；通过选择 Ra 和 Rb 的取值（47Ω、62Ω、91Ω、150Ω 和 250Ω）改变反馈增益；Lloop 的取值为 50nH、100nH、200nH、500nH 和 1000nH；Cfb 选择 10pF。其他参数参考 MOSFET 的数据手册。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz96n3Z9J8iciajyTdRxZQjPSzEq0WiaPztwZE9BvwE1agHsc20lialf2ZWlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_030_0ec4454f4631.png)
 
 （图 11 电压转换阶段的根轨迹图） 
 
@@ -388,25 +388,25 @@ The output current transfer function for the SiC MOSFETwould be represented as:
 
 碳化硅 MOSFET 的电流输出传递函数可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz90gql15G2QFsw5Sg4DqPV84XxWL3Ft2ib6azJGIAJziaeavkJczatVgsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_031_58e09bd01663.png)
 
 The transfer function of the RC network for di/dt feedbackwould be given as:
 
 di/dt 反馈 RC 网络的传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9uZDKIGg4vkek6jU7ZUcRVQU9qTibcSe5TaiatQuY784ibic0pXErR21DBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_032_d2c638c9e603.png)
 
 The di/dt control system is also negative feedback system,and its closed-loop transfer function would be given as:
 
 di/dt 控制系统同样为负反馈系统，其闭环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz96jVeob0KJhs6hZF5bLBNGH4Azv6UgYnFypJCqhRrk4ogBxAt7olrDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_033_e950648dd37f.png)
 
 During the current transition stage of a switching transient,the other MOSFET’s body diode would be freewheeling. Theother MOSFET presents the characteristic of its parasiticinductance LD and LS. The key parameters concerning the stability of the AGD are gate resistor, feedback gain and loopinductance. Rg was chosen to have the value of 0, 1, 5,10 and 20. The feedback gain was altered by choosing thevalue for Rb to be 10, 47, 100, 330 and open whileRa was fixed 100. The value for Lloop was 50nH, 100nH,200nH, 500nH and 1000nH. The root trajectories were plottedin Fig. 12.
 
 在开关暂态的电流转换阶段，另一个 MOSFET 的体二极管续流，该 MOSFET 呈现寄生电感 LD 和 LS 的特性。影响有源栅极驱动器稳定性的关键参数包括栅极电阻、反馈增益和环路电感。Rg 的取值为 0Ω、1Ω、5Ω、10Ω 和 20Ω；Ra 固定为 100Ω，通过选择 Rb 的取值（10Ω、47Ω、100Ω、330Ω 和开路）改变反馈增益；Lloop 的取值为 50nH、100nH、200nH、500nH 和 1000nH。根轨迹图如图 12 所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9JB5Wn18wR0K9uSKQamYrhdibJialyI3nTYpbicARm248aharlXkZL2abw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_034_946fa6e96787.png)
 
 （图 12 电流转换阶段的根轨迹图） 
 
@@ -422,27 +422,27 @@ IV. SIMULATIONA 
 
 simulation was performed in LTSpice. The SiC MOSFETchosen for the simulation was C3M0075120K from Wolfspeed, and the parameters are shown in Table 1.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9icaW4y04LaIfJEIRhic1eUD3I9WmvsLpe77YdpEAyGBdoaCCrxeCDWSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_035_07edbc062ab9.png)
 
 四、仿真 
 
 在 LTSpice 中进行仿真，选用 Wolfspeed 公司的 C3M0075120K 型碳化硅 MOSFET，其参数如表 1 所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9WgrJ4RAMyGuCzAk83AxYHibz7JO7ksVQpeOU3pD4guzMme7zFmBzEfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_036_2508d0ddad84.png)
 
 A half bridge circuit was built in the simulation. Lloop was100nH in the simulation. Both CGD and the proposed AGDwere tested in the simulation. The main circuit parameters in the simulation are shown in Table 2. The simulation waveforms of the switching process are shown in Fig. 13.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9Ta9bTsia2cSWSl2rFnSgB2kvHNp7kPqwG09oQoqfZLTtyZa1ABqVIFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_037_ed0c0bc9f92f.png)
 
 搭建半桥电路进行仿真，环路电感 Lloop 为 100nH，分别测试传统电阻式栅极驱动器和所提有源栅极驱动器的性能。仿真中的主电路参数如表 2 所示，开关过程的仿真波形如图 13 所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz97Kic5DicMhOnFibTf9E8cfia4RXRXiaNswXRicycTvyfkX8187t4Y757Bia7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_038_398a2eb70f95.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9ia6tCPSmUkxgtZNVKlwCrzhqEgx1mKk1QKibnc3XDGhxTyvSxC6B5ogQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_039_9fbb4a06e267.png)
 
 （a）导通过程 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz95b9zFzFb5HjbicD2OGGH9xTJY36dbGRjSesfOI4aOb1EESCsgKytfgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_040_cdc75df3c369.png)
 
 （b）关断过程 
 
@@ -454,11 +454,11 @@ As shown in the waveforms, the waveform of va displaysactive modulation of by th
 
 The dv/dt and di/dt results are shown in Table 3, alongwith the numbers calculated by (12). The source inductanceLs was taken 10nH in the simulation, and Ciss, Crss and gm areobtained referring to the MOSFET’s datasheet.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9sibP2d38mxArGs1jfh4eNKtPsIC81KdES4IMTUpwLUTLbgum9nunfug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_041_898fc76dbde3.png)
 
  dv/dt 和 di/dt 的仿真结果与公式（12）的计算结果如表 3 所示。仿真中源极电感 Ls 取 10nH，Ciss、Crss 和 gm 参考 MOSFET 的数据手册。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz98iclkh1mYDGQwP8ojpBLN2ic7N9JG9x7fbZQpgwF3nIX7JvArpJKJAhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_042_a0ac13c21050.png)
 
 Overall, the simulation dv/dt and di/dt results confirm tothe calculation. Since the slew rates are close to MOSFET’sintrinsic performance, the results are lower than theoreticalestimation.
 
@@ -468,11 +468,11 @@ The proposed AGD was tested within a voltage range of500V∼800V and a current r
 
 所提有源栅极驱动器在 500V~800V 电压范围和 8A~20A 电流范围内进行了测试，结果如图 14 所示。在不改变有源栅极驱动器电路参数的情况下，所提有源栅极驱动器的电压和电流过冲性能在不同条件下保持稳定，而电压和电流上升时间有所不同，这证明了闭环控制的有效性，使所提有源栅极驱动器能够适应这些变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9XB0NuZYSeHcBicnzvGWQjuQGyrvkcw6fsib1iaYCj6JIKsRstB9hmOSaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_043_afcae9fffd11.png)
 
 （a）电压过冲 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9YlKxfnF3zHc5kFXwQ5th3ibgytzFyGKzqyy35FszHKUtqWK26ibWJ2PA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_044_591e4555393f.png)
 
 （b）电流过冲 
 
@@ -486,17 +486,17 @@ order to verify the proposed AGD, a double pulse test(DPT) platform was built. T
 
 为验证所提有源栅极驱动器，搭建了双脉冲测试（DPT）平台。实验选用的碳化硅 MOSFET 与仿真一致，为 C3M0075120K 型，并设计了如图 15 所示的半桥模块用于双脉冲测试。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9xUaMibqm0jgjTRdaOzzTLfac1woYdoTeT2BMYfBPtKH3e7oF1V9gZUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_045_9972551629cc.png)
 
 （图 15 半桥模块设计） 
 
 After tuning, the main circuit parameters of the test circuitare shown in Table 4.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9YkegX03sY99eu7McNYv7vgAicwFtiaE5qHZIQakAZExvWM22d0j58Q5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_046_698268d8a356.png)
 
 经过调试，测试电路的主电路参数如表 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9NQvznGWj0b9PUicxtYdyHnPeJxn5KOsvSC1NrFzvfo7QQfyCJ4CCuXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_047_d0562920dd7a.png)
 
 A. TEST WAVEFORMS
 
@@ -506,23 +506,23 @@ The waveforms of DPT using various gate drive configurationare shown in Fig. 16.
 
 不同栅极驱动配置的双脉冲测试波形如图 16 所示。图 16（a）为有源栅极驱动器被旁路时传统电阻式栅极驱动器的性能；图 16（b）为全功能有源栅极驱动器的性能；部分禁用反馈控制进行测试：断开 Cfb 以禁用 dv/dt 控制，结果如图 16（c）所示；移除 Ra 并将其与 Rb 并联以禁用 di/dt 控制，结果如图 16（d）所示；在传统电阻式栅极驱动器配置中，调整栅极驱动电阻以匹配有源栅极驱动器的电压和电流峰值，结果如图 16（e）所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9sXpib67ZE5ItNqhrwZqwgGl4zr7RH6LxJUDBSRcQ2jHy8fe7omVEONA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_048_c43c261d8d77.png)
 
 （a）传统电阻式栅极驱动器（有源栅极驱动器旁路） 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9wggrbA2zcnySicrvlHJppCcbEjDYN51bqQmr86R8A0UjnDePBlpUiacw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_049_f512c168c800.png)
 
 （b）带 dv/dt 和 di/dt 控制的有源栅极驱动器 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9VDREqibBe8ibFh32LLNqWaR2UXgjRED52efLclP1B0j2JkvHciazor0Bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_050_d26a55e672be.png)
 
 （c）仅带 di/dt 控制的有源栅极驱动器 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9ibormvmYKic1HdPe98FHZaaM5NH9HInMnGicAtX9Vmq4j1z3ia7YRicq2Nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_051_32f0e7869c5d.png)
 
 （d）仅带 dv/dt 控制的有源栅极驱动器 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz99540hicvJC8TD9V7lTVKw7HSyibeX8o6mTvJx0dyTwejQdJ9eYT7FjCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_052_5b0f50a3d5c9.png)
 
 （e）慢调传统电阻式栅极驱动器 
 
@@ -552,7 +552,7 @@ The on-line drive strength control of the proposed AGDwould be well demonstrated
 
 通过多脉冲测试（如图 17 所示）充分展示了所提有源栅极驱动器的在线驱动强度控制能力。所提有源栅极驱动器在不同负载电流的连续开关暂态中正常工作，闭环控制确保其能很好地适应负载变化，体现了其在灵活稳健运行中的重要性。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9I9VnkWdAoQopUm6Ab0GtElaP83C4qQaH7KnRUy6icL7CjwFlMM31EYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_053_73b3aeff2cbf.png)
 
 （图 17 所提有源栅极驱动器的多脉冲测试） 
 
@@ -560,13 +560,13 @@ The detailed test waveforms of the proposed AGD undervarious conditions are show
 
 所提有源栅极驱动器在不同条件下的详细测试波形如图 18 和图 19 所示。母线电压在 500V~800V 范围内变化，负载电流固定为 20A，关断 vDS 波形如图 18（a）所示；负载电流在 8A~20A 范围内变化，母线电压固定为 800V，导通 iD 波形如图 19（a）所示。图中还给出了传统电阻式栅极驱动器和慢调传统电阻式栅极驱动器的波形作为对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9wFfRY0pSsRgaspzFn1p2ARx7vg3oB46jciayu2yAplx5QEyDXl9xs9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_054_2bd032d4a56a.png)
 
  （图 18 不同母线电压下的关断 vDS 波形） 
 
 （a）有源栅极驱动器 （b）传统电阻式栅极驱动器 （c）慢调传统电阻式栅极驱动器 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9W0r9ibQfiapH4mtqPE5U0vc8P5ib8fHGuePyHia78QyPia3BkOwUX7C65Sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_055_b09a2e78887c.png)
 
 （图 19 不同负载电流下的导通 iD 波形） 
 
@@ -580,13 +580,13 @@ C. DELAY AND SWITCHING LOSS ANALYSIS
 
 Further analysis of the experiment results showed more advantage of the proposed AGD. The delay and switching losscomparison are shown in Table 5. Compared to normal CGD,the turn-on delay was increased by only 2 ns and the turn-offdelay was increased by only 7 ns, which is far less than the20 ns∼40 ns increase of CGD tuned slow. When comparedwith CGD tuned slow which had similar overshoot performance, the switching energy were decreased. And turn-on and turn-off energy was reduced by 16.1% and 27.9%, respectively.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9CWIkqcibUCuick8ErDUcvibYJG50sKlmchXFoYF9qicy3ia2xyVkt8CaEeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_056_eb24fe5722c5.png)
 
 （三）延迟和开关损耗分析 
 
 对实验结果的进一步分析显示了所提有源栅极驱动器的更多优势，延迟和开关损耗对比如表 5 所示。与常规传统电阻式栅极驱动器相比，导通延迟仅增加 2ns，关断延迟仅增加 7ns，远低于慢调传统电阻式栅极驱动器 20ns~40ns 的延迟增加量。与过冲性能相近的慢调传统电阻式栅极驱动器相比，所提有源栅极驱动器的开关能量更低，导通能量和关断能量分别降低了 16.1% 和 27.9%。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz902U1Ugib92J5ickYwNWGRObVXVHMF1GXRRAAZlMicNZfnDzTWQaickiaMJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_057_78eaeb325c06.png)
 
 D. COMPARATIVE ANALYSIS OF EMI
 
@@ -596,7 +596,7 @@ Frequency domain performance of the gate driver under800V/20A load condition was
 
 采用快速傅里叶变换（FFT）分析了 800V/20A 负载条件下栅极驱动器的频域性能。如图 20 所示，在谐振频率附近，电压和电流的峰值均被抑制了约 10dB，与慢调传统电阻式栅极驱动器相比略有下降。这一结果与时域波形一致，使用所提有源栅极驱动器时，电压和电流振荡更小、衰减更快，表明所提有源栅极驱动器在降低电压和电流振荡方面具有优异性能，有利于抑制电磁干扰。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9Wyze9m5qoBkVvTibYdz5C4ATIxlX2uib9yfNuCRWrEZ7PA9Pib8jKcllg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_058_64c059919d4d.png)
 
 （图 20 快速傅里叶变换分析与对比） 
 
@@ -606,7 +606,7 @@ VI. COMPARISON WITH EXISTING AGDS
 
 A comparison of existing AGDs is shown in Table 6. Theresearches verified the effectiveness of overshoot suppressionand EMI enhancement of AGD, and showed the diversity ofAGD implementation methods. However, they also revealedthe difficulty of satisfying real-time dv/dt and di/dt feedbackwith simple circuit structure.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz97CDeXMXIPmA3oufbg28CR5CxJichibzIt6SRjgzrgbnthiaMH4WLnxXKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_059_293340d08b08.png)
 
 六、与现有有源栅极驱动器的对比 
 
@@ -830,7 +830,7 @@ REFERENCES（参考文献）
 
 \[26\] L. Zhang, S. Guo, X. Li, Y. Lei, W. Yu, and A. Q. Huang, “IntegratedSiC MOSFET module with ultra low parasitic inductance for noise freeultra high speed switching,” in Proc. IEEE 3rd Workshop Wide BandgapPower Devices Appl., Blacksburg, VA, USA, Nov. 2015, pp. 224–229,doi: 10.1109/WiPDA.2015.7369296.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTPRicwxx9k10plokhLsicz9SZkqe2o1iaBPricUbTmSSHpDaC3hgRHniaulHiaqzV6ckGkMjjsZGaM6Fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_060_8a6d6f7ddaa7.png)
 
 注：英文版资料是原文档，中文版由翻译软件提供，请分别参考。
 
@@ -840,14 +840,14 @@ REFERENCES（参考文献）
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8kngRRYaYUKednxlUSgjPeRZPtE28FDdZrnQ1AHIvtoxYLcRknnSv8w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_061_cb1db5107b62.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8pGk6PqTXdKGuFcm5zR1AImEQuiaibc7xtaUvma35DJgq35GLAYwxbmAA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_062_10503fd37b7f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8PAlHwZdI5dJBKaBTYAJhZ88OMvwDW2TETSFMqXACG0DThiakzXEunpQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_063_66edae492128.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8raaWVakOs0fib8f6GY5QGpibDZNdgk8iaIObfEO369yfsojHhicVp94y5w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\简单结构的SiC_MOSFET低延迟dv_dt_和_di_dt_闭环有源栅极驱动器设计_images\img_064_17f5977e8c15.jpg)

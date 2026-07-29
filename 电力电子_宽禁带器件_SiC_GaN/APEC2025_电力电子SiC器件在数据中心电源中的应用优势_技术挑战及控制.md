@@ -8,51 +8,51 @@
 
 作者：Rolando Burgos, Dong Dong, and Qiang Li
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRUicdz4UKAogVg8FCG8u4QDwgqkJEPyz6S5tgwfrZR9ndLToftQ74WHw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_000_f490030a9011.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRKNjwjT14LPLTffcESaR7MqibqwoZ0tjQMyVic3I3zAs62cicFflrhU1xA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_001_c4fcbd3bd1c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRWbIpIHY0yUapd0w83eHmnNVuLkzpFZy90xibL8df2zcN7rnAAic2gicXQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_002_b2873608e240.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkReD45dI4icYC3iamBcPpoacaN2FTZd4gHl11rQtmjRk5cLZ2AichfrMXxQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_003_fd5f035109c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR21ozib5Jnup8r1WXSvHYjuic2icfE7lAJbCK1RCt3Dp9tT3O5p2XUM6Gg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_004_fd795ac111e1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR9jefb8ILZdYp0xY9bgV9tPvqA7dOicZVDyicbeB9zQhSibXIxjYfgsL6w/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_005_1f659af7ab99.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRJXxt4kXiaj4ow7Q5UpM6LibzZnsYbo81R67ibHkDCyQ2TxFwNajksjI7g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_006_3cddda477cc9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRf8tLhWs6jjPpBWe5iatg1awvfoyaZep5UOwTkOgibkicVaCG18LGqDpiag/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_007_bc6758a6078d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRpqKDefPMYDPT0OyrLiav2z2RUEqf30jAyQT1F2HBIsT1bGgDuuZEIibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images\img_000_a3d7b68125a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR5h1FGTjGASibI1EIib3f52aIbsKY2W25oC8Yoy8DggXFzV4Yv6E8GLPg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_009_6b8e814b836f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRufoZaOBKRHFAzEliarQmb8daJQdbTQab9adsa6QkVMCrIUPpiaqeSksQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_010_6655407af6fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRw4Xx952hhUibib9Sibj1LcfYImnVSXySDsZUpA2gic5P4WKwDxY2Dqsm7w/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_011_d36d5e825001.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkReQZapodtXwXuRiaqru6IjVn00CeObrL1pwtO5FPq1LGO6icOyxH9hSDg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_012_af8b80e501e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR8etHBtLwOHwYecO28YW8ibma9pozficP96cup2AXCGRMXPuabialIiaibHw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_013_ff93cbbd4c87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRIXZ40YwqmgolvlVpibI9SBLBY2fIHhofNpibhLFLGT8Spa0sBxDhArDg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_014_01014fa51af8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRzHJI0hcorgokldg2UDtl4lnveia0A9KuIImyZ8SxEU9bgaDUntiazkBw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_015_47bdeb305c7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRamfBehNnfX7ZywO4C2sb6aoqTW0Pp75NegeykaeTI6M5js3jBVgrkw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_016_fb191bed37e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR46tSfcGV8MjMibsPceJDyqnX7NzXwOFmISic5fAkrJetIFmrRLQ177jQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_017_1548461e269e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRXFWeqibQPwDMljWZTefpuS7MoXPDPf0yRu4IW0QKYYLEib7FgmtaDONA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_018_81ebbd0a868f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRMg3Q6vCXzW0jTKYPQL2SKMoQdRu1cS3ygibBfWIpbia8IVoS0IVbDzug/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_019_c68d6243494f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRHKGclo1kvy2xMmHOt9tcIpWBSyGM65BzBXcGic1ARroQcavhbX02GGQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_020_e7b5cc5fb655.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR5eOiccOOqgy4PePemObSVfJFroowfPBtms06jsXlL3Q6CajRgM9xrWA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_021_a4f5570a73e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR70dXVGPxibFhRPVZp7mBd3axQmQ9VDegaAYeRH8WaIGWBPb80EmZFlg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_022_4fbfbc5c4b43.png)
 
 注：文字与报告无关
 
@@ -144,13 +144,13 @@ SiC 器件正在重塑数据中心的电力电子架构，其价值不仅体现�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrU84ibicicicsicj2J9Fs51HDFMP2FRe5yEEyUsvZ3WeewjvrompQoiavAcng/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_023_8e4af0f56388.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrEx2bhlT70XicQQY90UlP2VkLtQ8jzeiaXRwgn9hW19P2GrRHvJrfAgWw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_024_eb2a92f816b1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrJDuYEwRky5LsqXfllSXfyxjZUPJ8tk3ibjAFEfyBfd9C87tFQyH8pXQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_电力电子SiC器件在数据中心电源中的应用优势_技术挑战及控制_images/img_025_3b19e3ac6027.png)

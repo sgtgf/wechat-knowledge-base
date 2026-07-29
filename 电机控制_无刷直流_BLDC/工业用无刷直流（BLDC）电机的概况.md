@@ -1,0 +1,52 @@
+# 工业用无刷直流（BLDC）电机的概况
+
+原创 电机新视界 2022-06-08 10:53 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/gUXNCa6ykhEGm40IebhISA](https://mp.weixin.qq.com/s/gUXNCa6ykhEGm40IebhISA)
+
+**点击蓝字**
+
+**关注我们**
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+
+**来源：网络**  
+
+  
+
+无刷直流（BLDC）电机，也称为无换向器直流电机，电子换向电机，交流同步电机或直流伺服电机。由于其高效，长寿命，平稳的转矩传递和高速运行而越来越多地取代有刷直流电机。由于操作这些电机所需的复杂电机控制器的额外成本，过去它们的应用受到了限制。近年来控制器成本一直呈下降趋势，因此无刷直流电机的应用正在增加并且有望增长。BLDC电机虽然已成功应用于汽车，HVAC，电子，计算机，半导体和医疗行业，但长期以来一直用于工业应用，例如执行器，CNC机器的进给驱动器，工业机器人，挤出机驱动器等。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/MVK3XX1g9Kw9taSEjOvkA4CVOoc1ocCpOXV9SanWKSib0jh3ZnLwGszYiclkeKxOW5goib2TaiaomutvSicH99GZ18A/640?wx_fmt=jpeg)
+
+     尽管需要复杂的电机控制器，但是BLDC电机的结构简单，在低能耗，高转矩和非常宽的转速范围方面，提供了BLDC电机无法提供的一些固有优势。BLDC电机采用由内而外的配置，转子由一系列永磁体和一个固定电枢组成，转子由电子换向控制器激励，与有刷直流电机相比，BLDC电机具有更好的散热，更高的效率和更高的功率密度。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/MVK3XX1g9Kw9taSEjOvkA4CVOoc1ocCpwAEF9x5PH5JEaD0XbicST0OqppM3TZYzV9sLNJhNXcwg4XWWYZ8qrQQ/640?wx_fmt=jpeg)
+
+  
+
+     由于没有电刷和机械换向器，其紧凑的尺寸，减轻的重量和较高的转速范围，为了提供工业伺服应用所需的位置反馈，BLDC电机具有一个编码器（光学或霍尔效应），用于测量转子的位置。编码器产生的反馈信号被电机控制器用来产生输入信号，以激励电枢电流并对其进行电子换向，从而使电枢的磁场与转子同步旋转。BLDC电机的优点包括：
+
+由于缺少电气和摩擦损失，使用寿命更长。由于缺少电刷和机械换向器，因此几乎无需维护。由于消除了电刷产生的电离尖峰，从而降低了EMI和噪声。
+
+  
+
+     由于它们可以完全密封，因此更适用于危险环境（污垢，油，油脂和其他异物），操作特性包括：
+
+（1）高速，短索引运动；
+
+（2）重负载，高扭矩控制；
+
+（3）短占空比运动和；
+
+（4）高加速/减速能力。
+
+  
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+
+  
+

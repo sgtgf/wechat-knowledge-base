@@ -16,7 +16,7 @@
 
 1、下图的电阻R2有什么用？我们之前在拆解其它产品的时候发现有的光耦输入端会并联一个电阻R2，而有的产品则没有此电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjeJib1NDZFEw8lRYkEIJZGOqfibwz08taEwfVWy8W3xwFX885CwZu0bJ0uxPfL9BE4kdaLZicnGDPPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_003_527271565788.png)
 
   
 
@@ -36,7 +36,7 @@
 
 再看此图，输入端电压VCC1供电，加到发光二极管和电阻R1上产生光耦的输入电流 if，然后使副边的光敏三极管导通，从而改变输出信号，达到传递信号的目地。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjeJib1NDZFEw8lRYkEIJZGOqfibwz08taEwfVWy8W3xwFX885CwZu0bJ0uxPfL9BE4kdaLZicnGDPPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_002_527271565788.png)
 
   
 
@@ -56,7 +56,7 @@
 
 怎么来理解呢？光耦的原理就是通过输入端的发光二极管导通后形成的微弱电流，传递给次级的。大家可能都有这样的经验，在没有接地的电烙铁焊LED灯时，灯会亮。所以发光二极管的灵敏度很高，一般几个mA的电流足以点亮。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjeJib1NDZFEw8lRYkEIJZGOdMxN5m63sj7lwNOTKgxvCaBz1KhrlODeZsHz22qMjpouxnKLDS2s6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_004_9cfc2f16c75c.png)
 
 在光耦的输入端，也有寄生电容的存在，这个电容可能会影响光耦信号的正常传递。因为电容内存储有电荷，如果此时并联一个电阻，就会将电荷迅速泄放，就达不到二极管两端的开启电压，从而可以正常通断。
 
@@ -76,7 +76,7 @@ CTR是英文current transfer ratio的缩写，译为电流传输比。
 
 令VCC1=3.3V，VCC2=12V，R1\=330R，R2=4.7K，求电阻R2的最小值？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjeJib1NDZFEw8lRYkEIJZGOmnSoiadcwTWWmI3HMUPvtxPeiaBVqagGibW8o2TYGXQlrvRz4LP1tRDSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_005_0efb725af12e.png)
 
   
 
@@ -88,7 +88,7 @@ CTR是英文current transfer ratio的缩写，译为电流传输比。
 
 3、Vce，副边三极管导通后的压降，我们取最大值0.2V。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjeJib1NDZFEw8lRYkEIJZGORltkycAy9sicP5PDFlRY06naXiaicuGGaeO9jdC1RjTrpDzic1IeOAh1Qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_006_3d6d5b6dad0b.png)
 
   
 
@@ -108,7 +108,7 @@ IR1=（VCC1-VF）/R1=（3.3-1.4）/330=5.76mA
 
 R2=UR2/IR2=1.4/（5.76-5.02）=1.89K
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjeJib1NDZFEw8lRYkEIJZGOmnSoiadcwTWWmI3HMUPvtxPeiaBVqagGibW8o2TYGXQlrvRz4LP1tRDSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_007_0efb725af12e.png)
 
 所以这个电阻R2的阻值一定要＞1.89K，可以取2K。
 
@@ -142,15 +142,15 @@ R2=UR2/IR2=1.4/（5.76-5.02）=1.89K
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=png&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_008_7093e84c7c34.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpQvHwjHHqyVg59KzponKUXpOg5ynXzOHs40lCXUaWtovFsNlZm4MgicA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_009_efb08e7745e6.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhqpIuJpq4LeBQlj8nWjX0G7FYEibJ5shBviacYG5PHUicTsicwrfpT7MZHB49cAApCeC3aMlNvZ3AnFA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_010_46eaf2d1371c.jpg)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_011_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么要在光耦输入端并一个电阻_怎么理解CTR__images\img_012_d5dcc7ecfdf3.jpg)
 
 ## 
 

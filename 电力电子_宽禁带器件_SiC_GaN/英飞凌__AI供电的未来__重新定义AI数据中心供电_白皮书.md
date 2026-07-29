@@ -7,15 +7,15 @@
 
 摘要：英飞凌发布的2025年《AI供电的未来：重新定义AI数据中心供电》白皮书，聚焦AI技术爆发式增长下的数据中心供电挑战，系统提出七大核心预测与解决方案，为“从电网到核心”的全链路供电架构变革提供了技术指引。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIhyTjbCb7zcFJhKoJo0mUSPo0JTXEIJNXl1iblXYXAZyp5N6SlaYcC8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_000_8a1b4a71c12e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIbPmzWdPO3Jtx50ce6SZBRibBRaYT2PKZpPh29xw7ypE4GX7QpvmUibug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_001_1e28f99a300e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RInUxaphib40iaq9euSD2HjuqQuWxyHpbjpW06I6WFf8BOmCjQhSIrUc1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_002_a11907a4a7b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIRcibszVsXFBZZgcIUbwrFhtaxbhNsk8iabibKucEGQxAsBu7LfUqaopcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_003_53cf03c99bd6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIiawFibytic6OTQHzjfpOegiaiblsgO04ibsmFEmPtmHib21GTpN2IKKb9TsDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_004_9a6b1bb4d05a.png)
 
 一、现代处理器的供电
 
@@ -27,13 +27,13 @@
 
 传统的横向供电方式采用分立功率级和独立电感，但在如此高的电流下，不仅占用空间庞大，还会在供电网络（PDN）中造成显著损耗。因此，未来电能将通过主板，以垂直供电的方式，传递至处理器背面。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIKEmdibIQdj0ukgTSwaKYy1bSWXF9ssjxsBgM0SmvLrmtZHXLqvEK5rA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_005_38e54431045c.png)
 
 背面垂直供电模块将多相降压电路所需的芯片组和电感集成于一体，是实现垂直供电的基本组成部分。
 
 英飞凌提供从分立功率级到双相、四相垂直功率模块的完整产品组合。图 2 展示了这些产品在电流密度这一关键性能指标方面的演进过程，其中第三代产品的电流密度已达到优异的 2 A/mm²。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIqzEFb8Reujic61EI1tfP86jib2aYBhicSEDzPDkYMRrGKOCOfJNrYW4zA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_006_55eb2f41bd75.png)
 
 英飞凌将其领先的低压硅基 MOSFET 技术（例如，OptiMOS™ 7 系列）与芯片嵌入封装技术及专利 3D 集成工艺相结合，在垂直供电方案中实现了前所未有的功率密度和能效表现。
 
@@ -47,7 +47,7 @@
 
 图 3 展示了基于 800 V DC 的集中发电和高压直流配电的示例。其中，图右为服务器主板。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIu3wakPBR1ksXT9pwIibsjypNVPfiaTyaTsDjJ7WvQ9U9jO1gwca0Ckww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_007_7e4da418a749.png)
 
 电子保险丝 / 热插拔功能
 
@@ -55,11 +55,11 @@
 
 图 4 展示了基于英飞凌 XDP ™ XDP70x 热插拔控制器与创新型 CoolSiC™ JFET 技术的解决方案。该组合能够在服务器主板热插入高压直流总线时，实现受控预充电，并实时监测电流，在监测到异常情况时，快速断开连接。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RI1Nr5kv87utkvg0sY1ibvTibg5P4pzGyIxvIZjB40OAAcKkACHFxss33Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_008_4787c4ae43ef.png)
 
 经实验验证，在输入电容为 300 µF 的条件下，可将服务器主板从 0 V 预充电至 800 V。凭借 CoolSiC ™ JFET 技术出色的热稳定性，可在安全工作区（SOA）内，实现较长时间范围（超过一秒）的线性工作。结果如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RI9GVgZmonX0z10iarUQLNtRokREXgu5IiaTRvicDOPdafiaQwicGXzBtjFXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_009_6292318a1149.png)
 
 此外，还需在服务器主板有限的空间内，将高压直流输入电压转换为低于 1V 的 GPU 供电电压。英飞凌正在研究两种关键的转换路径：800 V → 54 V 和 800 V → 12 V，作为连接当前服务器主板常用低压域的重要桥梁。在采用三级架构时，先将 800 V 降至 54 V，再经过中间总线转换器（IBC）和 VRM 功率级或背面垂直供电模块进一步降压，可以有效降低供电网络（PDN）的损耗，并支持夹层卡解决方案（IBC 和 VRM 级均位于夹层卡上）；在采用二级架构（800 V → 12 V）时，可以省去一个完整的功率转换级，节省了主板的宝贵空间。
 
@@ -69,11 +69,11 @@
 
 图 6 展示了该 800 V → 12 V 转换器的拓扑结构与布局。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIh41SPhEQ50UiciaFiagw23gcwo3iacw4ib0Q9Ksmf4hnZClyAanOxiaVuzsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_010_6af6bf4e5db1.png)
 
 在该设计中，磁芯被分成两个对称部分。所有初级和次级 MOSFET 均布置在板顶，以降低液冷热阻。测试结果显示，峰值效率高达 97.4%，满载效率为 96.6%，性能优异。图 7 展示了实测结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIhzHT5X66SKI9pcJVjCcHIhJ2Pb12VIibtNI5cLBNXYd9qAib1GDvHwgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_011_b1a6aee92ba9.png)
 
 800 V → 50 V → 6 V 功率转换
 
@@ -81,17 +81,17 @@
 
 由于 VRM 级的损耗与输入电压的平方成正比，因此，若以 6 V 而非 12 V 切换这些多相降压转换器，可提升效率，提高开关频率，从而改善瞬态负载响应，并减少靠近处理器的电容数量。在 800 V → 50 V 级和 VRM 级所获得的效率提升，可抵消中压 IBC 带来的额外损耗，使整体能效与前一种情景相当，同时提升供电灵活性与瞬态负载响应。图 8 显示了 800 V → 50 V 转换器的拓扑结构和布局。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIBib7SB4sRjMgRL7lKqdmLGJFROHYsX6BprsF6xB9icFz1n7aiaibJY6nvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_012_ad6efe5f9cd1.png)
 
 堆叠式 LLC 变换级在谐振频率下工作，峰值效率高达 98.5%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RILibOD3CIkfaDLNpBLPicGHEmhBpibwA4ECibESpTdENqIZyricicuC18OI1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_013_42910941a72c.png)
 
 随后，中压 IBC 将电压进一步降至 6 V。我们采用混合开关电容转换（HSC）拓扑结构，结合磁能与电容能量传递，实现高能效和高功率处理能力。英飞凌正在开发一款额定功率为 1 千瓦、固定 8:1 转换比的电源模块，用于将现有的 48 V/50 V 电压域转换至 6 V 的中间总线。图 10 显示了该模块及其实测效率曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RI2Wg4lu5dlLia4iccOefqWImYhs9FicwW0X0KibvPcjdnGKicXofLhLItvNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_014_fb96a021eeba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIdyWJib7ribKPywZtibfsPEDvr1PNAmVjCL6O5gquxRic5PVeeUZoMNBCbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_015_c094f22f5516.png)
 
 二、AI 服务器机架的供电
 
@@ -105,7 +105,7 @@
 
 图 11 展示了这种分离式 IT 机架架构的示例，其中电源模块（PSU）、电池备用单元（BBU）和峰值电流补偿模块（PCS）均置于侧机架内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIPK2aEC3K3M5Uj9kickGfXH6SMSqslC6tsQmJwH7LLW74smvmsARteeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_016_ae9d0b8ac171.png)
 
 预测四：AI 的能耗需求将推动电源架的功率等级突破 100 千瓦
 
@@ -117,23 +117,23 @@
 
 为了最大限度地提高功率密度和能效，英飞凌在 12 千瓦 PSU 演示板中采用了多电平架构。所有高压部分均使用新型 400 V CoolSiC™ MOSFET，而次级侧则采用额定电压为 80 V 的 CoolGaN™ HEMT。图 12 展示了该拓扑结构和演示板。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIhibIQkpXqARXhEwylh6iao4mY7rjXP5P5snyrhFmkN5iaTnwmhUhMcmQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_017_aeeccba6c222.png)
 
 当单个 IT 机架功率水平提升至 1 兆瓦时，不论是 48 V 电源轨，还是单相电源模块（PSU），都难以在扩展性和可持续性方面继续满足需求。因此，数据中心将逐步从单相 PSU 转向三相 PSU，在侧柜中直接生成高压直流电（如图 11 右所示）。
 
 这些交流电源模块直接接入 400 V AC 或 480 V AC 的三相交流电网。当每个电源架配 3 至 4 个 PSU 时，可提供超过100 千瓦的功率输出，当每个侧柜安装最多 10 个电源架时，IT 机架的供电能力即可达到 1 兆瓦。这一架构将成为迈向集中式发电与配电（详见下一章“预测六”）的重要过渡阶段。图 13 显示了对应的架构，其中三相 PSU 和电池备用单元（BBU）共同向高压直流总线（例，如 800V DC）供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RI65YPaxqJDNEu5gCIiadul2tdjxbKxibRSibmzvnrDcVDicADjKp4CA3rFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_018_d7b909c95606.png)
 
 英飞凌针对这一类应用提供了丰富的产品组合，涵盖额定电压分别为 1200 V 和 650 V 的 CoolSiC™ MOSFET 产品组合，以及适用于多种双电平和三电平拓扑结构的 CoolGaN™ HEMT，以实现更高的能效和功率密度（见图 14）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIfxV0OVt9lCCiagmicdnwFI7uDBgrNNucRg0DD1rxTibQCQYx4Z6UxBQjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_019_a5e1ccd8f7de.png)
 
 在这种架构下，备用电源通常由锂离子电池接入公共高压直流总线提供。如果数据中心对使用锂离子电池有限制，可采用集中式电池储能系统。同时，通过双转换不间断电源（UPS）（带或不带旁路功能），可以在三相交流配电架构中应对停电事件。
 
 此外，超级电容托盘可用于应对 GPU 负载的动态变化。另一种方案是在 AC-DC 电源模块内部集成功率脉动缓冲电路，以在 GPU 负载脉动时，对交流电网进行有效缓冲。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIxfZhIt16xw8F05TCJaWmqlrv6oAqfTtO3HRVw2xcktbeM25XOUehpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_020_b7fd58986731.png)
 
 三、数据中心的整体供电
 
@@ -157,7 +157,7 @@
 
 要在AI数据中心实现极致能效，必须对整个配电链——从发电到用电——进行全面优化。当功率需求逼近吉瓦级时，就必须建立一种全新的配电基础设施，以满足能效与运维成本需求。直流微电网被普遍认为是最有潜力塑造未来AI 数据中心格局的架构方案，它代表着对数据中心基础设施内部电能管理方式的根本性重构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIGfllTrC3mOrIAAaW1SNpSaRh5AuVBpHsdFn1qGstpALFzmoaz0SJicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_021_232921d9ace2.png)
 
 在这种情景中，电能将由中压交流电网（10-35 kV 交流电）直接集中生成，并以高压直流形式分配，从而在能量传输路径中消除传统架构中的 AC-DC 电源模块。因此，在服务器机架内部，只需执行 DC-DC 转换，即可实现更高效、更紧凑的功率转换，甚至可以如“预测二”中所述，将其直接集成到服务器主板级。直流微电网由此成为数据中心的核心基础设施，通过高压直流总线向服务器机架供电，形成一种可扩展、面向未来的供电架构。图 15 展示了该方案示例。
 
@@ -165,13 +165,13 @@
 
 通常，固态变压器采用输入串联 / 输出并联（ISOP）系统，中压电网的每一相都连接着一串由多个串联功率转换模块组成的模块链。中压交流电网的电压等级因国家与地区而异，一般在 10 kV AC-35 kV AC 范围内。固态变压器包括一个整流级和一个隔离式 DC-DC 转换级。所有输出均汇聚到一条直流总线（例如，800 V DC）。每个转换单元均可使用双电平或三电平拓扑结构。英飞凌为此类应用提供了广博的 CoolSiC™ MOSFET 和 IGBT 产品组合（电压范围覆盖 750V-3300 V），其中高压等级产品尤为关键，可通过减少所需子系统的数量，显著降低固态变压器系统的复杂性。图 16 展示了此类固态变压器系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIXic7cCa2yPyK6n5txmW81ew5Kk5wXROmIJ4LcMjds3gMWP4wEZN3Uww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_022_9f7d6424bee2.png)
 
 由于固态变压器本身具备电压调节能力，并可在发生故障时，与电网快速断开，我们预计其下游将采用固态断路器（SSCB），作为保障安全性和可靠性的关键组件。凭借快速关断能力，固态断路器能在相对较低的故障电流下，实现故障隔离。CoolSiC™ JFET 器件是执行此类任务的理想选择。将固态变压器、固态断路器以及后续 DC-DC 转换级相结合，即可构建出一条从电网到核心的全半导体功率转换链。
 
 直流微电网架构的另一大优势是，它可在高压直流层面直接连接分布式能源（DERs），无需再经过 DC-AC 和 AC-DC功率转换。此外，其他辅助系统（例如，暖通空调（HVAC）和用于液冷的冷水机组）也可适配直流输入，进一步减少因多级功率转换而带来的损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIkQA59cf7r24znvz5YDf0XC6GlGq1CCsh3EhUJWkCRprLjdBic58PKQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_023_fd510dd89313.png)
 
 直流微电网将成为 AI 平台的关键推动力，特别是在数据中心 AI 工作负载不断增加的背景下。该系统可显著提升能效与可靠性，同时优化数据中心的空间利用。此外，直流微电网将使数据中心能够应对更高的功率负载，并支持更高的电压等级，这两点对于满足先进 AI 计算在密度和能效方面的要求至关重要。
 
@@ -201,7 +201,7 @@
 
 不论未来采用何种能源形式，英飞凌都将凭借其完善的产品组合，确保电能以尽可能低的损耗，传输至 AI 数据中心。在最优架构下，将高效、可靠的功率半导体器件与低损耗拓扑结构相结合，将成为以清洁能源为 AI 数据中心供电的关键。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIof6gTay5H1PiamVyaj9MpopTwlggxkwxCEeps9nkkgJ4MschfGAQ1AA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_024_4aeab1eb2ede.png)
 
 结论
 
@@ -215,11 +215,11 @@
 
 本白皮书展示了英飞凌为 AI 数据中心开发的部分半导体解决方案。如需了解“从电网到核心”各功率转换级的更多先进系统解决方案，请联系您当地的英飞凌销售代表。“英”领 AI 供电未来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIPWVWvlIDxZ2EdY4E14ujqqWCARibY1woATVTb868hfR0AePJKE53FYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_025_03bbb57c2066.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIuDibjo1KGAXtqia3FJD4q1WP7jcsgNGkBjTpGuKwiaxCH4yIyMje74uQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_026_4f99eaa44c24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskPsulPltdlhEPSDdoRf5RIiaGmxoHlHEqFO8qUTUMbiaarPHLbA668c7YHSbyOqnaiaKMOxQvXgLKQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_027_802dd720fb96.png)
 
 注：以下文字与图片报告无关
 
@@ -337,14 +337,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrOOk8ZdZuLxW6skegErzNgiay5HKDEK9WcE7W3NamgmuvzI5VvRfcd9w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_028_775314dd656e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrPvm49T0q9ALP7ibEFqtD5YPWGrFqQG43Kyl8fX3tCibBcbh80PuSV9vQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_029_b66e99bb299e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrCFiamvHic3Wqs5VcA6YYZAoPYB8pFia2cc9kAxRzzhrdYWrSsN4rQzVyQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_030_3a39c50ac5c8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrQWvuAXsgdQw8NDgCXrIlTM8xLP00QTINGlFZ8vFqKJukEE52gnvYTQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌__AI供电的未来__重新定义AI数据中心供电_白皮书_images\img_031_e294911839e1.jpg)

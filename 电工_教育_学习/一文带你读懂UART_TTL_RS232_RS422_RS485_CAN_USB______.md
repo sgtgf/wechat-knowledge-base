@@ -20,7 +20,7 @@ UART口指的是一种物理接口形式(硬件)。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyoARLUku8oUDzA0dw7JBqo5dxTbSd4ORlI6bQm8JlIA3Kcj7s1JCgRg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_002_d88a8f5c4984.jpg)
 
   
 
@@ -32,7 +32,7 @@ UART的串行数据传输不需要使用时钟信号来同步传输，而是依�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJGSqzlOtJ40hezEIhqbjMCpibSGPCMgHhfjHmtejuw9QWRLn9R0dibTKQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_003_3dfa29c1acf6.jpg)
 
 起始位：表示数据传输的开始，电平逻辑为“0” 。
 
@@ -58,7 +58,7 @@ SDA线——负责在设备间传输串行数据。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJLz2UEwXJ1iarbwJjJL2ZEJ7xvqUq6MPzgFCCJx6ZQlU8UelTYbcrBXw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_004_22ad1aa30951.jpg)
 
   
 
@@ -80,7 +80,7 @@ SPI总线是**同步、全双工**双向的4线式串行接口总线。它是由
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJBIZGGjYUc9EbrLovbMC0TFa4WVk6Dv3kZZUX2tj7ZaczpTwyAsFGGw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_005_5c8ed8d749bd.jpg)
 
   
 
@@ -96,7 +96,7 @@ SPI 的工作时序模式由CPOL（Clock Polarity，时钟极性）和CPHA（Clo
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLnYxAS7BAgqRr7abJOFejM0VhADxN9v2wcXbsmN0mNq8aGoAmJQ7dFbicMrr9yxKN8W933OicmsibCw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_006_db3f2e6a6cc2.jpg)
 
   
 
@@ -114,7 +114,7 @@ SPI 的工作时序模式由CPOL（Clock Polarity，时钟极性）和CPHA（Clo
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJw28FSkwHUZibGAFmqW7ibBFiatnTZR0VsO5HcX8uekR36rkErlvLPquoQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_007_55a94fc7b8e1.jpg)
 
   
 
@@ -130,7 +130,7 @@ RS-232串口通信传输距离15米左右。可做到双向传输，全双工通
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialmeUicdJGZMTDupIpyCKMlechkcxUzvxx7GXtn1LNicFBbib003eW54gEw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_008_74f4035056e6.jpg)
 
   
 
@@ -140,7 +140,7 @@ TTL和RS-232互转
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialJFZxibRS98ibic1EeWQicFuNZj6icibl1kLVuUuprNuGkoccChlh0z0MtEyQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_009_38aa227e1f84.jpg)
 
   
 
@@ -150,7 +150,7 @@ RS-422有4根信号线：两根发送、两根接收和一根地线。全双工�
 
 它有一个主设备，其余为从设备，从设备之间不能通信，所以RS-422支持点对多的双向通信。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJBoeSlDodpCTLhibIvVY8MF9n1py9nuiaPQ0qw07T9JfZX3vetqPvkBmg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_010_5f1c939ee9eb.jpg)
 
   
 
@@ -164,7 +164,7 @@ RS-485采用平衡发送和差分接收，因此具有抑制共模干扰的能�
 
 TTL转成RS-485很常见，比如MAX485，参考电路如下
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIynicic4HbwTQyNjSZkzVVTft0iaKKW5eIyvxZDWtdEc1IoB90Soia9EpicOQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_011_7c905cbd911c.jpg)
 
 RE引脚：接收器输出使能（低电平有效）。
 
@@ -180,13 +180,13 @@ PC中的COM口即串行通讯端口，简称串口。9个Pin，用RS232电平。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyHicYP5gk6MCFtPpmqATJ11qlreIia0xcHK31dP2o6qlto1vJja01x7Mw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_012_8037be924698.jpg)
 
   
 
 串口、COM口是指的物理接口形式(硬件)。而TTL、RS-232、RS-485是指的电平标准(电信号)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyNLnX0k3qpfzZ7EF8gWqbfB0nWk5f848wlE7RlG93rT0h3tbHuNApUA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_013_37df5aed2347.jpg)
 
   
 
@@ -194,7 +194,7 @@ PC中的COM口即串行通讯端口，简称串口。9个Pin，用RS232电平。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyaBQkZwicoz8n4Q3dQickPkgBwXjDA5v4Xibkz232lasEsQ23nyp7aQTLw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_014_469ceec2227a.jpg)
 
   
 
@@ -206,7 +206,7 @@ CAN总线网络主要挂在CAN\_H和CAN\_L，各个节点通过这两条线实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyv1jvRrEpIhNteNFzVpE7wFNB4v23bIr95WDHORwXeqYJdhYbhDd5UA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_015_cb0152e4bb95.jpg)
 
   
 
@@ -214,7 +214,7 @@ CAN总线网络主要挂在CAN\_H和CAN\_L，各个节点通过这两条线实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJwwticpWS7h8pCib1c9G4I3eXFeEKEo5AxSIfafIGI48UhwZVGibZc0CDA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_016_90ccfd49e139.jpg)
 
   
 
@@ -226,7 +226,7 @@ CAN总线采用"线与"的规则进行总线冲裁，1&0为0，所以称0为显�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyI77v8GcepJeKibNceXZHVbGxVyKTDhiaMgjg4ZiacQvobzYpvggBzs9Pw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_017_0444eaa0d647.jpg)
 
   
 
@@ -238,7 +238,7 @@ USB接口最少有四根线，其中有两根是数据线，而所有的USB数�
 
 USB 规定，如果电压电平不变，代表逻辑1；如果电压电平变化，则代表逻辑0。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialldPnB8nQzEHicebecySjTDxIeYVHjqCanjXAcTWeCqm7BuN14Bic2Rww/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_018_642571832e1d.jpg)
 
 USB转TTL
 
@@ -246,7 +246,7 @@ USB转TTL
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIy1SmJVczicHoZkZ7Shybic9MFiayuPsibNmHYb4KPlvYzg2UgRNoAUq4NAg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_019_a0c4ba1052a4.jpg)
 
   
 
@@ -266,7 +266,7 @@ SD卡是一种存储卡，可用于手机作为内存卡使用。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyrhsy7lPAYRPhMe6r1IF5P8V5nYkpyeQY0K43CvTXZkbUzibKnJRHiaeg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_020_5334630a901b.jpg)
 
   
 
@@ -274,7 +274,7 @@ SD卡是一种存储卡，可用于手机作为内存卡使用。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJBibZnaNgiclGbHPcicaF0EnzZVZMrEl8nbqao6lrdtltBloxhfEmAkoYg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_021_e0e5e99b0f51.jpg)
 
   
 
@@ -284,7 +284,7 @@ SD卡是一种存储卡，可用于手机作为内存卡使用。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIycnXFjNCBT2RR3RALibLuDl1Qf4f3F56ywoY7TbJzAKvmtlD5mhn9PpQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_022_dc9c60f254ea.jpg)
 
   
 
@@ -302,7 +302,7 @@ DMA是STM32内的一个硬件模块，它独立于CPU，在外围设备和内存
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLnYxAS7BAgqRr7abJOFejML8DHoR4e75hFzmicXM7iabAH3iaaQZT9hw21pBtYN8h7CpsE1j26jMlDQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_023_ec5518cc1fbc.jpg)
 
   
 
@@ -326,7 +326,7 @@ DMA就相应于一条高速公路，专用、高速的特性。如果不使用DM
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLnYxAS7BAgqRr7abJOFejMjZzaLupFhfbtK33pn9fx5gMXJXicS89F8H7R6J5wibffJib7PjkMVSj2g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_024_7d52c6b77c34.jpg)
 
   
 
@@ -340,7 +340,7 @@ DMA就相应于一条高速公路，专用、高速的特性。如果不使用DM
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIygaEkDoRTicJQCcTapCV2ianBzxVfJmKqGSCWXiaWlI1nuEmL1EKHdwR3Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文带你读懂UART_TTL_RS232_RS422_RS485_CAN_USB_______images\img_025_258e4cab18b3.jpg)
 
 ## 
 

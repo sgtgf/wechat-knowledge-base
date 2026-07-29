@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/UYsjjN33t10\_\_ZfAP8YzAA](https://mp.weixin.qq.com/s/UYsjjN33t10__ZfAP8YzAA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQcFTDmXySWjgRxAzPLWUNtm6mf3e4bYTaECqJjhWAKLeP2SN8dfT4KwOpZ9ObOjUXAicz00aYB6BQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_5_充电协议_BC1_2_images\img_000_568c1960a243.png)
 
 ________**★★★**______________Charge-2---充电协议BC 1.2______________**★★★**________
 
@@ -15,27 +15,27 @@ ____________€1.BC1.2（Battery Charging V1.2）____________
 
 _DCP：专用充电器_，即专门的220V转充电器，这种端口不支持任何数据传输，但能够提供1.5A以上的电流。如**_图5-1_**，端口的D+和D-线之间短路（200Ωmax），这种类型的端口支持较高充电能力的墙上充电器和车载充电器，无需枚举。如图5-1为DCP类型设备的端口内部结构，注意Portable Device和Dedicated Charging Port是一个DCP设备的内部结构，只不过分为了两部分。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6ocDwfiaGGfxI8VOsYd0yfcyBNC41XFR6fDO4yicMDsPSUTia0sO07QHcTY1Yu1ibKiayuaBxytyTZFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_5_充电协议_BC1_2_images\img_001_dd54a88b7b00.png)
 
 **_图5-1：DCP类型设备握手结构_**
 
 _SDP：主机_，这种端口的D+和D-线上具有15kΩ下拉电阻（要关注IC是否内部集成此电阻）。限流值挂起时为2.5mA，连接时为100mA，连接并配置为较高功率时为500mA。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6ocDwfiaGGfxI8VOsYd0yfhibZEEv1qf0iadFgFPGPBWEm2BUib2bic7pXsratbemibaDJsUYviady0RTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_5_充电协议_BC1_2_images\img_002_64b2229d2c0e.png)
 
 **_图5-2：SDP类型设备握手结构_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBSiaDTpng4icBCV3ENvbgFWFtoPib40Up5LqvOB2qwu1wQt6dJUUbytic6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_5_充电协议_BC1_2_images\img_003_55d6734cd912.png)
 
 **_图5-3：DCP和SDP类型设备简图_**
 
 _CDP：大电流充电端口_，就是在PC或者HUB上的一个USB口，但是这个USB口比较特殊，可以提供1.5A~5A的大电流输出，给外部设备充电，一般都会有一个小闪电的标志在USB口旁边。这种端口既支持大电流向外充电，也支持完全兼容USB 2.0的数据传输。如**_图5-4_**所示端口具有D+和D-通信所必需的15kΩ下拉电阻（要关注IC是否内部集成此电阻），也具有充电器检测阶段切换的内部电路。内部电路允许便携设备将CDP与其它类型端口区分开来。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6ocDwfiaGGfxI8VOsYd0yfLKTia5w0sUffSJ3AHpJ2y4B34via6y8rdqXDK6eh1YPFtu2u7RlLMicgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_5_充电协议_BC1_2_images\img_004_58211b836dc1.png)
 
 **_图5-4：CDP类型器件握手结构_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBW0J4xj01klFjf6iba6Y5vRsMVnctvKRr38PpLuZxWdQRmdFYiaa66VcQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_5_充电协议_BC1_2_images\img_005_34e29aedaab6.png)
 
 **_图5-5：CDP类型器件简图_**
 

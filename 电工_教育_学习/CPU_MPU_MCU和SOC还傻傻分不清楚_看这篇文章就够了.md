@@ -16,7 +16,7 @@
 
 CPU是Central Processing Unit的缩写，计算机的运算控制核心就是CPU。CPU是由运算器、控制器和寄存器及相应的总线构成。众所周知的三级流水线：取址、译码、执行的对象就是CPU，CPU从存储器或高速缓冲存储器中取出指令，放入指令寄存器，并对指令译码，然后执行指令。而计算机的可编程性其实就是指对CPU的编程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSd4Dx2PbaiccqOF15XR5W0HL5Mvok4LuXjBwH9dQEDBb6w4NWicnURDzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPU_MPU_MCU和SOC还傻傻分不清楚_看这篇文章就够了_images\img_002_0abf5564f9b5.png)
 
 ### MPU
 
@@ -28,7 +28,7 @@ MPU是Micro Processor Unit的缩写，指微处理器（这里要注意不是微
 
 MCU是Micro Control Unit的缩写，指微控制器。随着大规模集成电路的出现及发展，把计算机的CPU、RAM、ROM、定时器和输入输出I/O引脚集成在一个芯片上，比如51，STC、Cortex-M这些芯片，它们的内部除了CPU外还包含了RAM和ROM，可直接添加简单的器件（电阻，电容）等构成最小系统就可以运行代码了。而像ARM（Cortex-A系列）直接放代码是运行不了的，因为它本质上只是增强版的CPU，必须添加相应的RAM和ROM。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSajj006DTookJ4vmKVVEfHJcZPHCT3KaaXHKS1aianuRL2TpOANcr6CA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPU_MPU_MCU和SOC还傻傻分不清楚_看这篇文章就够了_images\img_003_ce7ed788308b.png)
 
   
 
@@ -36,7 +36,7 @@ MCU是Micro Control Unit的缩写，指微控制器。随着大规模集成电�
 
 SOC是System on Chip的缩写，指的是片上系统。可以这样对比来看：MCU只是芯片级的芯片，而SOC是系统级的芯片，它集成了MCU和MPU的优点，即拥有内置RAM和ROM的同时又像MPU那样强大，它可以存放并运行系统级别的代码，也就是说可以运行操作系统（以Linux OS为主）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSicOwmUtXzjOmf4iarcfmHJrlicxlpEH52k4zALS6JTC9shuAviaoykFMfQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPU_MPU_MCU和SOC还傻傻分不清楚_看这篇文章就够了_images\img_004_4f41b2c0ef5c.jpg)
 
 另外，SOPC也是一个值得了解的概念，与上述几项概念相比，SOPC的出现频率并不是那么高，但这并不影响它的重要性。SOPC是System On a Programmable Chip的缩写，即 可编程片上系统，SOPC与MCU、MPU、SOC最明显的区别在于：可更改硬件配置，也就是说自己构造芯片。
 

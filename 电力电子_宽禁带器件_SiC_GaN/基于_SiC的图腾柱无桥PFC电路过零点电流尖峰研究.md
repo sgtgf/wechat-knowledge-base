@@ -12,7 +12,7 @@
 
 关键词: SiC; 图腾柱无桥 PFC; 电流尖峰; 电流畸变率
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksRQgBYJEicP735ibAnRCuxaibKfafQwejYJffibZarO8MnJj7ePReGmo8Iw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_000_af230dffa6fb.png)
 
 0 引 言
 
@@ -28,7 +28,7 @@
 
 对于图腾柱无桥PFC主电路,其中快切换桥臂开关管VT1、VT2采用SiCMOS管,以较高开关频率工作; 慢切换桥臂开关管VT3、 VT4采用SiMOS管,以输入交流工频工作。 在工频正半周期,VT4始终开通,VT3 始终关断,VT1、VT2高频互补交替开关,VT1工作在同步整流状态。 在工频负半周期,VT3、VT4工作相反,VT1、VT2高频交替工作,VT2 工作在同步整流状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ks8PjxfbY8Vd4f8ApS2icQ8102t8DAr0Y8pYFlxXuonjiagshmuQX7z9gQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_001_c3b3435586b7.png)
 
 工频负半周期到正半周期过零点后的等效电路如图1所示。
 
@@ -36,15 +36,15 @@
 
 对于慢切换桥臂开关管VT4的dS端瞬态电压uc(t),由图 1(b)得:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ks9olWMpiavVw1DlDquECyxZDQBicnZHp357wnfoyEiacPDaEEo7Z1hRAjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_002_a64cd9f9ebe6.png)
 
 实验样机参数: ubus\=400V、LB \=400μH、Coss(S4) \=2nF,代入式(3)。 过零后电感电流iL(t)波形如图 2 所示。 由图 2 可见,电感电流过零后约 2 μs达到峰值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksau0fy6aJplpzSBrVFP77cLibp3vX3iaHmUIW9TH5mibOHQ2W5rPwj2Pxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_003_27807e79b665.png)
 
 可求得电感电流峰值 ILpeak为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksClictKtibBhmwSWiabkDIbj7kfTicLArBk6HYUvA3Rs2a9cgjHMfxZWGDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_004_6ae4c33315bb.png)
 
 由上可见,过零点电流尖峰 ILpeak由慢切换桥臂开关管寄生输出电容 Coss(S4) (对应电压从负到正时的过零点电流尖峰) 或 Coss(S3) (对应电压从正到负时的过零点电流尖峰)与对应体二极管反向恢复引起。 ILpeak与母线电压成正比,母线电压越大,电流尖峰越大;慢切换桥臂开关管反向恢复电流越大,电流尖峰越大。 那么,增大电感或采用输出电容小的开关管可以减少过零点的电流尖峰。 但考虑功率密度要求,增大电感并不是妥善的解决方案,选用性能优输出电容小的开关管会带来额外成本。 因此,需要从控制策略角度研究高性能电流尖峰抑制策略。  
 
@@ -54,29 +54,29 @@
 
 电路工作于 LB连续电流模式,即连续导通模式(CCM) 。 采用电压外环、电流内环闭环控制。 电压外环控制将母线反馈电压 ubus与参考电压 ubus-ref差值经 PI控制器控制产生电流内环的参考电流幅值,与锁相 PLL信号 sinθ、单位正弦波 uac/Uac-max乘积得到参考电流 iref。 iref与电感电流 iac比较,经 PI控制器采用平均电流控制,产生互补的快切换桥臂开关管 VT1、VT2 的控制信号。 CCM模式图腾柱无桥 PFC电路数字控制系统如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksTLWshc25kGPbffbn2A9gualweSCK8PCePPK59Sqh2SOvldOia7YicGeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_005_d1aba202cb60.png)
 
 2.2 电流尖峰抑制策略
 
 负半周期到正半周期过渡期间 Tdead开关管控制信号和输入电压电流波形如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ks9LtNiaZIPjQeurLkPCShxGsa8DZUcqNTLX5dHBlyLNkgVtr6s0fkMOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_006_e9c81f001fa8.png)
 
 图 4(a)中,在过零点附近,增加一段慢切换桥臂开关管VT3、VT4均关断(ugs-s3 \=0、ugs-s4 \=0)的过渡区间 Tdead ,使慢切换桥臂开关管VT3 的体二极管反向恢复电荷消耗在快切换桥臂开关管VT1的导通电阻Rds-on上,从而减小过零点电流尖峰。但由于过零点附近输入电压很低,且过零点前 VT2工作为同步整流管,占空比很小接近于零。 当过零点后 VT2 作为主控开关管,接近满占空比运行。在过零点后瞬间电感承受母线电压,若此时开关管VT2 占空比从零突变为满占空比,电流会线性上升引起电流尖峰,就要引入过零点前软启动来使占空比过渡连续。而且传统电流尖峰抑制控制策略过零点处,只有 PFC电路电流内环 PI控制器,PI参数较小,导致过零点的占空比并非最优占空比,因此要引入新型控制策略来修正占空比。  
 
 根据上述分析,提出一种新型控制策略实现过零点附近电流无尖峰且平滑过渡。 新型电流尖峰抑制控制策略开关管控制信号及过零点电流波形如图 4 ( b), 即在过零点附近插入过渡区间Tdead ,包含两个控制时段,即过零点前插入实现快切换桥臂开关管软启动的控制,过零点后采用增强 PI控制器的控制。增强 PI控制器是指在已有的 PFC电路电流内环PI控制器基础上叠加一个参数更大的 PI控制器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0kszP1fmJ5q3tdwdEw06v7c1XNoODH3udpOBhBKLDXicYqVG5bSrDsfibQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_007_1f9391ec0128.png)
 
 新型控制策略流程如图5 所示。 在图 5 中,q表示一个电网周期里的总开关周期数,k表示过零点时所在的开关周期,0alue表示开关周期数。 软启动区间和增强 PI控制器的控制区间均设置为10 个开关周期。 当快切换桥臂开关频率设为100 kHz,即开关周期为 10 μs时,Tdead \=200 μs。除过零点附近过渡区间 Tdead采用上述插入的新型控制外,其他时段仍采用图 3 已有的 PFC电路电流内环 PI控制器运算控制。  
 
 已有的软启动控制一般是控制器事先设定一个固定递增控制信号。 如果采用这种固定递增的软启动控制信号插入,就使得插入的软启动信号与软启动前后的控制信号过渡不平滑,从而导致过零点电流不够平滑。 因此,提出基于电流实时反馈的新型软启动策略,先采用软启动前的一个周期(0alue\=k\-10)和软启动后的一个周期(0alue\=k+1)的占空比,计算出软启动区间递增的控制信号占空比G3 ,同时引入一个 PI参数比较大的 PI控制器对计算的软启动信号进行优化,使得过零点电流更平滑。 之所以引入新的 PI控制器是由于已有的电流内环 PI控制器在电流过零点时参数小,作用效果不好。 此外,由于软启动信号递增逻辑简单,因此不启用 PFC电流内环的 PI控制器,仅用新引入的 PI控制器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksgicrPpnlBnBFZichOic323XaTP50iboQ31Sqm4q81yzYGnGoLEdS4C2CBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_008_2d2a01ad1cd1.png)
 
 过零点时 PFC电路电流内环 PI控制器会计算出占空比 G1 ,实现电流跟踪电压。 为进一步加强过零点后电流的跟踪,引入增强 PI控制器。再叠加一个采用 PI参数比较大的 PI控制器得到的占空比 G2 ,即增强 PI控制器确定的开关管总占空比为Gtotal\=G1+G2 。 G2 具体实现流程:先将每个开关周期电流采样值存入Asinpre\[0alue\] ,然后对采样值 Asinpre\[0alue\]与电流内环参考值 Asin\[0alue\]差值采用新 PI控制器进行运算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksCULl3uGlMyF8sNcibuSZ2jygqK5UlTTUSxy3gM7nqgFNvA9fOKVEMsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_009_da723346c178.png)
 
 式中: Kp———比例系数;
 
@@ -86,29 +86,29 @@
 
 在第二个开关周期\[T,2T\]时,Asinpre\[0alue\] <Asin \[0alue\] 时,修正占空比 G2为正值o 通过上述修正,可看到电感电流 iL,会更好地跟随电流设定值,使过零点更平滑地过渡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksYVqibvbQKbjx16icqzVT6lS1aJ1EiaObokH4cUvml0jOoOjoqJOM4b68g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_010_fe2867363d18.png)
 
 3 实 验
 
 为验证所提出的电流尖峰抑制策略,搭建实验样机。 图腾柱无桥 PFC样机参数如表1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksWq26ld8icibpJnjjDCgZqdZDUDuLKQIS8CYUwROCQa6dARsmPeEic9UicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_011_df587b147244.png)
 
 样机采用图 4(a)的传统电流尖峰抑制控制策略。 满载时采用传统电流尖峰抑制控制策略的实验波形如图 7 所示。 由图 7 可见,在过零时会出现较大的过零点电流尖峰,峰值为 1.3 A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksI2SaARnL7hv7uDEyxsOOJ7tHF3gIWoNF9H3TzPmXIYToYjC2Fwm5Gg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_012_76f60e2885ca.png)
 
 样机主电路参数均不变,满载时采用提出的新控制策略实验波形如图 8 所示。 由图 8 可见,过零点电流没有尖峰且过渡平滑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ks8icEfZ9joyOBTpeXNe7WgIrPEjmiaG4oPtoiaD06Q877ebOkOzjKgXmXw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_013_5106789c07f4.png)
 
 过零点快切换桥臂开关管波形如图 9 所示。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksCTk47LRcBOUOxqzVajYUSt49spGtwoiaPFgeD505ueqBUfosAVia06kg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_014_e4b1f4a16f4a.png)
 
 两种不同抑制策略时样机的总电流谐波畸变率THdi和效率 η曲线如图10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksNsZAlTRdicnqUwx2t1wKMvr3LeibK73GforWDcMcZ80r4V831Mn8AAsA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_015_8ffcf2c7de67.png)
 
 由图 10 可见,传统电流尖峰抑制控制策略时,样机满载 THdi为 3.5%,峰值效率为 98.5%;新策略时,满载 THdi降低到2.5%,峰值效率提高到98.6%,而且效率最大提高0.4%。  
 
@@ -122,12 +122,12 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_016_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_017_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC的图腾柱无桥PFC电路过零点电流尖峰研究_images\img_018_9bbc7b9b15a2.png)

@@ -29,15 +29,15 @@
 
 在MOS 器件中，VTH 是常用的 TSEP，它被定义为使沟道反型所需的栅极电压。 VTH 的表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcudSZF4GIVlLa2LLlbdPEIUicDCuHVuAUj5xdwicScavmK5pzFSeibzVSrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_000_d5cb13d289e8.png)
 
 由于阈值电压的温度特性主要由本征载流子浓度的正温度系数（positive temperature coefficient，PTC）所主导，因此VTH 具有负温度依赖性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcu5SetRA9tN6qIoaCDwCwt3kjLFiblgH8tj3Wt793lFR3iaACIIQWia3kvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_001_3a2d7199a576.png)
 
 图 1 为使用吉时利（Keithley）大功率半导体器件测试系统（PCT\-2）在不同的结温下获取的SiC MOSFET 的转移特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuJWcntibB2FhRpFJljAP4KuKGy7clgEG0NP22zvKcuXJSxbKFWicPY4tw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_002_d3dbe33aadcc.png)
 
 图2为使用线性外推法所获得的VTH与 Tj 的关系，可看出VTH 随 Tj 的升高而减小，并具有良好的线性度。然而，氧化物和界面中的陷阱电荷是 Qox 中的一部分，由式（1）可知，陷阱捕获正电荷将导致VTH 减小，相反陷阱捕获负电荷将导致VTH 增大。故BTI会引起VTH 漂移，这使得结温的监测存在一定的挑战。
 
@@ -45,37 +45,37 @@
 
 在Si或SiC器 件 中 ，pn结 电 压 是 良 好的TSEP，如MOSFET的体二极管电压VSD。PiN二极管在导通状态下的正向电压VF由结电压（Vj(p+n)和Vj(nn+)与漂移区电压 VDrift之和组成，如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuCbTSZNEza7s2thKnpoRbdcolqbB5ZD5z4hvt5PoXPEicswmETUjg9BQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_003_2d6ac4c7831d.png)
 
 VF 的温度依赖性由式（2）右侧各电压的温度系数决定。漂移区电压 VDrift 由于声子散射增加导致载流子迁移率降低而具有PTC，而结电压Vj(p+n）和Vj(nn+）由于禁带变窄导致载流子 浓 度 增 加 而 具 有 负 温 度 系 数（negative temperature coefficient，NTC）。此外，结电压与电流无关，而漂移区电压随电流的增大而增大。因此，体二极管电压主要在小电流注入时被使用，在这种情况下，VF 主要由结电压决定，可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuXWGUPSSt0jMphT3dl8nFicoXU5Y96ptCVPxPgK7I6akOttQZsKVgLog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_004_a3ff3b1d82f2.png)
 
 根据式（3）可知，由于 ni 随结温的升高而增大，因此在小电流注入时 VF 随结温的升高而减小。SiC MOSFET的体二极管的特点之一是需要负栅极电压VGS来完全关闭沟道，从而产生依赖于VGS的第三象限特性。图 3 为在不同源\-漏极电流（ISD）下获得的SiC MOSFET ISD与VGS 的关系。从图 3 可清楚地观察到，一方面，当ISD不变时，ISD随负VGS的增大先增大后保持不变。当VGS\= 0 时，在反向电流传导期间，由于存在体效应，一部分电流会在沟道中传导，因此获得的 VSD 低于真实值。随着负VGS的逐渐增大，更多的电流流过体二极管，于是VSD 增大；另一方面，当ISD 增大时，pin 二极管的电流密度和沟道电流密度均增大，使 VSD \- VGS 曲线整体向右上方移动，进而电流增大导致体效应增强，关闭沟道所需的负VGS 增大。当VGS\=-4V (ISD\=50 mA) 和 VGS \= -5.4 V (ISD \= 0.5 A) 时，沟道完全关闭，此时电流仅流经体二极管。在这种情况下，测量的VSD\=VF ，对应VGS下的VSD分别约为1.4V 和 2.3V。值得注意的是，与Si相比，SiC具有更宽的禁带，故体效应在SiC MOSFET中比在Si MOSFET中更明显。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcud5sNWakDHBLkbXFqZG7pxjnHIvs0gzXicfZByvjaljJlvQc02yzbib2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_005_b8dbbca358c9.png)
 
 图4为SiC MOSFETVSD与VGS的关系。在VGS\=0V（体效应明显）和VGS \=-4V（无体效应）下获取VSD 。 VSD随结温的升高而减小，具有 NTC且在不同的VGS下校准的温度灵敏度分别为\-2.15 mV/℃(VGS\=-4 V)和\-1.77mV/℃(VGS\=0V) 。选用ISD\=50mA 作为测量电流，在该电流下，SiC MOSFET由于自热引起的结温变化小于0.1℃，可忽略不计。当VGS\= 0时，沟道传导会受到由BTI引起的VTH漂移的影响，这是由于沟道电阻受VTH的严重影响，因此评估BTI 对VSD的影响非常重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuAa4hLMBXdJficMGgUuoX7ro0JquxSfr3FLcHPTrwDj0RDjptCZlEVqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_006_e6dcacc133b2.png)
 
 1.3 漏\-源极通态电阻
 
 SiC MOSFET中漏\-源极通态电阻RDS \- ON 是器件导通时漏极和源极之间的电阻。在平面栅SiC MOSFET中，它主要由沟道电阻RCH 、JFET区电阻RJFET 、漂移区电阻RD和键合线电阻RBW 构成，其可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuxDcRXdRHuWCS1lXqaYEsj8rynwWUZ3lx2bzlCCpGgsvmtyIE5ibYXIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_007_badfa9844792.png)
 
 在沟槽栅SiC MOSFET 中，由于不存在 JFET 区电阻，故式（4）中的第二项可消除。在SiC MOSFET 中，由于高临界电场的作用，需要更薄的漂移区来阻断高电压，RCH 可描述为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcumcjs3vqibkXBUHutmia85j7naoubbbtK4aXkVBePJYw4aofhKDKpRIKw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_008_368936ac4dfc.png)
 
 一方面，在VGS一定时，由于SiC MOSFET具有NTC，所以RCH 随结温的升高而减小，这意味着它具有NTC。由于声子散射的增加，RD和RJFET随结温的升高而增大，其呈现PTC。同时，RBW也具有PTC。另一方面，RDS \- ON 的温度系数也与VGS 密切相关，当VGS与VTH相近时，RCH的NTC占主导地位，随着VTH的增大，RCH的NTC作用被削减，这时RJFET 、RD和 RBW的PTC 占主导地位。因此，RDS \- ON 的温度系数取决于式（4）中占主导地位的电阻。图 5为当VGS\=18V 时在不同结温下获得的 RDS \- ON 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuu8ALZ0UicC9d51q5kvQibaicwYRzj1NmpS18zgscme3JouCy6vgJRzJhg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_009_53a9cea2cbf9.png)
 
 从图 5 可得到，当 SiC MOSFET正常开通时，RDS \- ON 具有PTC。图 6 为在不同结温下获得的RDS - ON与VGS的 关 系 。 图6中 出 现 了 零 温 度 系 数 点（zero temperature coefficient，ZTC），这意味着该点不受结温的影响，定义交点所对应的VGS 轴交点为VGS \- int ，且在ZTC 点左侧具有NTC，这是由RCH的NTC主导的结果，在ZTC点右侧具有PTC，这是由于RJFET 、RD和RBW的PTC 所主导的结果。然而，由式（5）可知，VTH 的变化对RCH将产生严重影响，因此，评估BTI对RDS \- ON 的影响变得不可忽略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuEqQYzkM2r8rlpibEPic2ZaK4h4Bm5dzChM5iacuRbXL3Skhls2Zzbxj1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_010_350c793fb9b9.png)
 
 2\. BTI特性和实验设置
 
@@ -89,7 +89,7 @@ SiC MOSFET中漏\-源极通态电阻RDS \- ON 是器件导通时漏极和源�
 
 为了说明VTH漂移的概念和评估SiC MOSFET栅氧化层退化所引起的 BTI 对TSEPs 的影响，本文使用同一批次不同编号的 3 个平面栅 SiC MOSFET 作为被测器件（DUT）。其中器件 A 和 B 被用于实施高温栅极偏压（high\-temperature gatebias，HTGB）实验，器件 C 作为健康的器件被测试来提取健康的参数，实验测试方法如图 7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcujickY1qNtrlIp0MXJApDMcBKY8Id3ZwibfJrj1frTtaj868reWibicW2Bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_011_a68b00cce15f.png)
 
 使用 GWINSTEK 直流电源对器件 A 和 B 的栅氧化层分别施加正栅极电应力和负栅极电应力，使用 IKA 电热板提供热应力。实验所使用的应力电压、持续时间和温度如表1所示，对于正HTGB和负HTGB而言，都对器件施加 3 个阶段高于推荐栅极驱动电压的应力，每个阶段持续60min，施加的温度为 150℃，这充分考虑了复杂工况下器件所承受的结温且满足封装的限制。当每次施加的应力撤出后，需要给予6h的时间让器件恢复。最后使用PCT\-2 在不同结温下获取每次应力后的转移特性曲线。
 
@@ -99,21 +99,21 @@ SiC MOSFET中漏\-源极通态电阻RDS \- ON 是器件导通时漏极和源�
 
 栅氧化层退化主要影响两种类型的电荷：氧化物陷阱电荷（Qot）和界面陷阱电荷（Qit）。BTI 引起的 VTH 漂移可表示为正氧化物陷阱电荷和负界面陷阱电荷的漂移之和。模拟栅氧化层退化机制对 VTH 漂移和沟道载流子迁移率降低的影响的经验表达式分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuGj7NppUs9ic08apZ1zGOT692AKdNkA7P0J9A2bezWDvwhX3Ckuzm1mw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_012_c9cd5be2a6f5.png)
 
 式中：VTH0 和 μ0 ——阈值电压和迁移率的初始值；Not 和Nit ——压力引起的 Qot 和 Qit 的密度变化；αot 和 αit ——描述Qot 和 Qit 影响的系数。
 
 从式中可得到，当栅氧化层承受负栅极偏压时，SiC/SiO2界面陷阱捕获空穴，这时正氧化物陷阱电荷的增加引起 VTH负向漂移，称为 NBTI，而当栅氧化层承受正栅极偏压时，SiC/SiO2界面陷阱捕获电子，这时负界面陷阱电荷的增加引起 VTH正向漂移，称为 PBTI。值得注意得是这两种电荷的积累都会降低沟道载流子迁移率，但迁移率降低的主要原因是由于界面陷阱电荷的散射。进而将式（6）分别对 Not 和 Nit 求导可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuPnTgCRuU7bXrIRTbPeH7UURiaxW2ibTIgQtsH6UszMeXAwialOqa5UGow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_013_53d10f17d33a.png)
 
 经过理论的推导可发现，VTH 对 Not 的导数恒为正，而 VTH对 Nit 的导数恒为负，这证明了之前分析的正确性。图8为在同一结温（Tj \= 65 ℃）和不同 BTI 类型下所获得的转移特性曲线。结果显示VTH 随NBTI 和 PBTI 应力等级的提升，对应负向漂移和正向漂移的程度越来越大，可说明 BTI 对 VTH的作用非常明显，是不可忽略的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuftRvz4Ay9Bsg2hmAKRaqol6O9lerEqfLW3OSuJL5oKSOC1lBAupdZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_014_f2c74e95b68f.png)
 
 图 9 为在同一 BTI 应力和不同结温下获得的转移特性曲线，可观察到在同一 BTI 应力下，VTH 随结温的升高而减小，且同一结温下的 VTH 在 PBTI 作用下均比在 NBTI 作用下的大。考虑到结温和 BTI 耦合的影响，可能会出现两种相等的情况：1）高温下测量的 VTH 与受NBTI 作用下测量的 VTH 相等；2）低温下测量的 VTH 与受 PBTI作用下测量的 VTH 相等。因此，BTI 对 VTH 具有很大影响，而这会导致大部分的 TSEPs 受到间接的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuDUVxteNa7KM1noEAAdS3husjmCyrzmBQibCVCiafMXrPpltBunFF8v6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_015_19bef93d44c3.png)
 
 3.2 BTI对体二极管电压的影响
 
@@ -123,23 +123,23 @@ SiC MOSFET中漏\-源极通态电阻RDS \- ON 是器件导通时漏极和源�
 
 如第2节所述，在SiC MOSFET 中，RCH 对RDS\-ON有重要影响。因为 RCH 受 VTH 的影响，所以表征 BTI 对 SiC MOSFET输出特性的影响很重要。图 11 为使用 PCT\-2 获得的在不同BTI 类型和不同 VGS 下的 SiC MOSFET 输出特性曲线，可观察到 SiC MOSFET 的输出特性受 BTI 的影响。由图 11a 可看到，由于受到 NBTI 的影响，输出特性向左移动，这说明 RDS \- ON减小。当 VGS\= 18V 时，RDS\- ON由 28mΩ（健康）减小到25mΩ（NBTI），下降率为10.4%；当VGS\=14V时，RDS\- ON 由 37.8 mΩ（健康）减小到 31.9 mΩ（NBTI），下降率为 15.6%。另外，由于在低VGS下RCH的作用更明显，从而在 VGS\=14V 的RDS \- ON 比在 VGS \= 18 V 下的大。从图 11b 可观察到，由于受到 PBTI 的影响输出特性向右移动，这与受 NBTI 影响的结果相反，RDS - ON 增大。当 VGS \=18V 时，RDS\-ON由28mΩ（健康）增加到31.2mΩ（PBTI），增长率为11.4%；当VGS \=14V时，RDS\-ON由37.8mΩ（健康）增加到49mΩ（PBTI），增长率为29.6%。与之相同的是，在低栅VGS下的RDS \- ON比在高VGS下的大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuhTeSnxgIVoKIl9r6CSong15VQCQicxZKzBWFicGGqfsxY5ibtcNzwqXeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_016_492d32c5b5bb.png)
 
 图 12 为在不同结温和不同 BTI 类型下获得的RDS \- ON和VGS的关系。从图 12可看出，ZTC点受 NBTI 和 PBTI 的影响分别向左和向右移动，且与图 6 相比，在NBTI下VGS \- int 减小20%，而在PBTI 下VGS \- int 增大 20%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcunpuiaqahiaib9g8plAha9cohdxVibIja42MaQ4V7gSEcbRiajZLxS7QpS6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_017_d34e21e20143.png)
 
 图 13 为在固定结温和不同 BTI 类型下获得的RDS\-ON与VGS 的关系。显然，在 NBTI 和PBTI 下的结果呈相反的趋势。在 NBTI 下，由于VTH 减小，导致 c 减小，从而RDS\-ON减小；而在PBTI下，由于VTH增大，导致RCH 变大，从而RDS\-ON增大。
 
 上述分析足以说明 RDS \- ON 受 BTI 的影响。 RDS \- ON 经常在功率循环测试中被用来监测功率器件封装相关的退化，如果未考虑清楚 BTI 对 RDS \- ON 的影响，RDS \- ON 的变化会对评估结果产生相当大的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuibXkYYrvgk88uJVWVUnxQwZOHrJH2703S3aBA8ib4PG11oR1MGkVJwyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_018_e96966ec5bff.png)
 
 3.4 基于VSD监测SiC MOSFET阈值电压
 
 通过在第 2 节分析电参数的温度依赖性和在第 3 节分析 BTI 对 TSEPs 的影响可发现，VSD 具有良好的温度特性且受 BTI 的影响明显。从图 10 可清晰地观察到在不同的应力下 SiC MOSFET 体二极管电压与结温有近似线性的关系，并且在小电流下（50 mA）体二极管电压非易于获取。因此，本文提出在小电流注入时使用体效应下（VGS \= 0 V）的 VSD 监测SiC MOSFET 阈值电压。图 14 为在不同 BTI 类型和不同结温下根据本文实验所获取的数据绘制的 VSD 与 VTH 的关系图。从图 14 可清晰地观察到，以健康的数据点为参考，由于 VSD 和 VTH 都受 BTI 和结温的耦合影响，随着 NBTI 应力的增加和结温的升高，与之相关的数据点向左下角移动，相反随着 PBTI 应力的增加和结温的降低，与之相关的数据点向右上角移动。在不同结温下，综合健康和不同 BTI 应力下的数据点可得到 4 条具有相同斜率（k\=0.15）、不同截距的直线。将其截距与结温拟合可得到 VSD 关于 VTH 和 Tj 的表达式如式（10），进而整理式（10）可得到监测 VTH 的计算公式如式（11）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcurbzuCZuQYRc8rpzZh5f6dYjoNbQibjlCQvLMZxp8ruz9mjyibgsap0zw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_019_b100c68b60fb.png)
 
 需要注意的是，传统的基于TSEPs 估算结温的方法会由于栅氧化层退化而产生一定的误差。因此，光纤测量可作为一种替代方法来精确估计结温。这意味着在实际工作条件下，只要得到Tj 和VSD 就可计算出VTH ，为监测SiC MOSFET阈值电压提供了一种新方法。
 
@@ -151,10 +151,10 @@ SiC MOSFET 的 BTI 现 象 会 严 重 影 响 其 可 靠 性 。 在SiC MOS
 
 **说明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_020_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_021_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\计及热电耦合效应的SiC_MOSFET阈值电压精确监测方法_images\img_022_9bbc7b9b15a2.png)

@@ -18,7 +18,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2018.c170387_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0WuCXx9pn00Sr5388Roc2RbQib7WYhl2bwo5n7W1NicR7JJCqQF0OZzqg/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_000_f04088e13cef.png)
 
   
 
@@ -28,37 +28,37 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2018.c170387_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE04FljkMbI76qYrE9wev6Jk7ialdsRILddclaXqnNG41WQ0o90Y4QEbOw/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_001_f2ff12af496b.png)
 
 **_图1 航行体受力分析_**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0NcEBjzckF4hHxzCq3fKoBcicFvwCWnbYdR5kek7EgMZRhX5qzMd9nXw/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_002_263880ba1416.png)
 
 _**图2 非全包裹超空泡沾湿尾部受力**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0YvZ5w883caBPoecpibiagsPuBGL3o6RKK00Fy9sQHAFGyib9PIXW7g79g/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_003_5c20bc66f7c1.png)
 
 **_图3 深度 z 及俯仰角 θ 设定信号与实际跟踪响应_**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0wXhgM2K2ibm5NVvSicNvlXn5MiaZHErO1c5saG5307VsqjW4aCj7bibdYg/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_004_5267c75b6d30.png)
 
 _**图4 深度z 及俯仰角θ 设定轨迹与实际跟踪响应**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0JteMoTG1P3qk04K7nQibwic8HFsqbDicw0ibztIQHt6zeS8tXGCNhc9Dicg/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_005_c3117e662bf6.png)
 
 **_图5 f1, f2 与其估计值_**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE01KY4fuhpAMpPxxJ26BicWU88K8aEFtANHqAxXSqxwAsPYvAyx7eL7qw/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_006_35033c1bee67.png)
 
 _**图6 g1, g2 与其估计值**_
 
@@ -70,19 +70,19 @@ _**图6 g1, g2 与其估计值**_
 
 **_作者简介_**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0QkgYoPvZupvqj49mpuubmsqH5OrNTVAtNPfUJFOhWD21GOsuLqLG9Q/640?wx_fmt=jpeg)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_007_a48cfdc4acef.jpg)
 
 **李  洋**
 
 中国船舶集团海洋装备研究院研究员。2018年获得西北工业大学航海学院兵器科学与技术专业博士学位。主要研究方向为高速水下航行体姿轨控制，智能制造。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0acb2DibnMoJkDI3JiaLLM8Ybb8sPHqFFuXjm3yIfz3n086hvZBchnMaw/640?wx_fmt=jpeg)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_008_494df45cc1d8.jpg)
 
 **刘明雍**
 
 西北工业大学航海学院教授。主要研究方向为群集控制，地磁仿生导航，水下航行体导航，制导与控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0ZZUxTB0dgmcl0575zpPUvkXOzUFVWcnbLASW1776IEOiaa7rvhfMhng/640?wx_fmt=jpeg)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_009_5f6770a06519.jpg)
 
 **张小件**
 
@@ -176,21 +176,21 @@ _CJCR影响因子 2.793_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0BVZ9NmnX9e2sts9wCqfDYhkY79SePfKpH65oWV3nEGE4B6QTPtFNiag/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_010_32d334a708d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0yvVwibcALGrCt7CcibjuvrFymJyiaic6AMMCmQlSZ2nMLsHumA7sFiaYDcA/640?wx_fmt=jpeg)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_011_c454aa97f3aa.jpg)
 
 **JAS《自动化学报》（英文版**）   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0BVZ9NmnX9e2sts9wCqfDYhkY79SePfKpH65oWV3nEGE4B6QTPtFNiag/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_012_32d334a708d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0bBVBwlYUmqHtEs6AWEUyUEVrYIf3YKegrDa9xR7B9S3QfxXUNtjhbw/640?wx_fmt=jpeg)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_013_410c725782d1.jpg)
 
 **《自动化学报》服务号** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0BVZ9NmnX9e2sts9wCqfDYhkY79SePfKpH65oWV3nEGE4B6QTPtFNiag/640?wx_fmt=png)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_014_32d334a708d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Yh7HraMZVVVTPTo9CUtE0TxmpV0ibicZicrHoCOJnicDdbaymdF5GDiczpLH9ic51aRzGFtf3D0ZibsXdQ/640?wx_fmt=jpeg)
+![](基于自适应RBF神经网络的超空泡航行体反演控制_images/img_015_0841861364b5.jpg)
 
 **《自动化学报》订阅号** 
 

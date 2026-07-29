@@ -10,7 +10,7 @@
 
 与传统PWM（脉宽调节）变换器不同，LLC是一种通过控制开关频率（频率调节）来实现输出电压恒定的谐振电路。它的优点是：实现原边两个主MOS开关的零电压开通(ZVS)和副边整流二极管的零电流关断(ZCS)，通过软开关技术，可以降低电源的开关损耗，提高功率变换器的效率和功率密度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23UDBKGznDDbE1O2M0lAW09AVOh1l4ia73ibjTuPabWEHBTTDXVfFaagEw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](LLC原理讲解_images/img_002_cd0b5de546a7.jpg)
 
 学习并理解LLC，我们必须首先弄清楚以下两个基本问题：
 
@@ -20,7 +20,7 @@
 
 由于普通的拓扑电路的开关管是硬开关的，在导通和关断时MOS管的Vds电压和电流会产生交叠，电压与电流交叠的区域即MOS管的导通损耗和关断损耗。如图所示：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23gyyB5s7w9hribFMicPqFNtjTSfy7F2iaBxN2Ky8yOU9zDDcgAbx7lzBsw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](LLC原理讲解_images/img_003_cedc7c7d08c6.jpg)
 
 为了降低开关管的开关损耗，提高电源的效率，有零电压开关(ZVS) 和零电流开关（ZCS)两种软开关办法。 
 
@@ -44,13 +44,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23VCStichbhXrJwjicFAR7cH1LBuVzkCIpZbluDAGzQdOb5HJWSKPiaLCsg/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_004_685bc6c48f52.jpg)
 
 **由于开关损耗与流过开关管的电流和开关管上的电压的成绩（V\*I）有关，当采用零电压ZVS导通时，开关管上的电压几乎为零，所以导通损耗非常低。**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz235eVtnd5iaDDVc0nKOMq3Gd3ibFNY509Uk6NfNiabvNPjF1E7T1XRlza6w/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_005_6018ab61d8c5.jpg)
 
 ►Vin为直流母线电压，S1，S2为主开关MOS管（其中Sc1和Sc2分别为MOS管S1和S2的结电容，并联在Vds上的二极管分别为MOS管S1和S2的体二极管），一起受控产生方波电压；  
 
@@ -80,7 +80,7 @@
 
 LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）内流过，开关MOS管D-S之间电压被箝位在接近0V（二极管压降），此时让开关MOS管导通，可以实现零电压导通；在关断前，由于D-S 间的电容电压为0V而且不能突变，因此也近似于零电压关断（实际也为硬关断）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23jppkicNCzGSbibJH9kSmuEjb4uETqticicklG6rSguzvE1dl7vDGFFNcag/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_006_2d8c8e98fd99.jpg)
 
   
 
@@ -98,11 +98,11 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
 1、如下图RL电路，当输入源Vin的频率增加时，电感的感抗增大，输出电压减小，增益Gain=Vo/Vin随频率增加而减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23boMrrcyUczqP2RjkoTIZNIm96Mdo6Juyu83oXkh91KKkd3T952NicyQ/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_007_645568e3a9be.jpg)
 
 2、如下图RC电路，相反，当输入源Vin的频率增加时，电容的容抗减小，输出电压增大，增益Gain=Vo/Vin随频率增加而增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz236AiatiaEicIcgcyb3d07wIqanOc8zLgZz3rr6meGEFXIFa74oBibox963A/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_008_79a0fa01d141.jpg)
 
   
 
@@ -122,7 +122,7 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23XFWEWebj5jAuYz2ILwoticqyVnqbdfu5b3pqTPgVxChMuHHG3UWK5Og/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_009_67f42a5dbaad.jpg)
 
   
 
@@ -147,14 +147,14 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23ABxfJlosfvQpCDCicMhiaOSkV8syxpa1QhMFChuQEQdt9xicZDfo3AjWw/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_010_83c9af45d334.jpg)
 
   
 
 对LLC来说，有两个谐振频率，一个谐振频率fo是利用谐振电感Lr谐振电容Cr组成；  
 另一个一个谐振频率fr1是利用谐振电感Lr，励磁电感Lm，谐振电容Cr一起组成；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tN2efU0iaCjvLElwRaFORz23ec7Ksibb35ZibnjI1ctiaLv4qUxFKmYIYl3uPa28FdlJ7FxqkL3h6k8Og/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_011_9ab7225afd41.jpg)
 
   
 
@@ -164,7 +164,7 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrXq0oiadTRyHaclsRicwlNE7uHAlibXmO48WpoGAVBUp6l3VdGjokytlMg/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_012_1a629990ded1.jpg)
 
 开关网络：S1、S2及其内部寄生二极管Ds1\\Ds2、寄生电容Cds1\\Cds2;
 
@@ -180,11 +180,11 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrFibhh318GkyFXHItknLOSRE4NHIH4zDf0gxCmBg4GmPXxDDjXoAI31Q/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_013_3b4815c92fad.jpg)
 
 **对于LLC电路，存在两个谐振频率：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrR2IxBsgGfztR9sOmuNayCjOlKiboC7FunicF4F0ZS3RBzdUibqCTmQPxw/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_014_f167c7cc2fe8.jpg)
 
   
 
@@ -192,9 +192,9 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrQlBMqZzlVxcc6ibvzJqug7QfNvg4LLRWsXAzIKibBxcX1PIdZY9x7ib9Q/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_015_c99dab0d714f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsr2ZrRbcGDMWpMia3PrJg6wdcNG86c28KibQBibgsicHCxU6uNun4HUczxmw/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_016_6787808054cd.jpg)
 
   
 
@@ -202,23 +202,23 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrhLrXkBib72QqG7K8KeuzgPykGmKzNmHzhcAnfL41266brGcancj2XfA/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_017_4c3f5ee1291c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsr0Af23pbWIOALjkoeJQBo7YmiaWd57tCH9ibvUMwnibkewWkZrchtmywRw/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_018_9084b5d6ce4a.jpg)
 
 **1.1.3 工作区域2(fr2<f<fr1) 模态3**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsruImBsxUeryklQxsTAu3DM95IcDn7Dhgsp0eTXyic0ts70GODnIdTWIg/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_019_10ef812ba55f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrvk1OnJGQgNexbbO3yTb3bh5aVoU0D4icNPXZGKwbzyVUQnED4KU1G9w/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_020_8cde897f63a6.jpg)
 
 **1.1.4 工作区域2(fr2<f<fr1) 模态4**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsricKHCORqTsZoxI13qV5xwYJtXPjpqicp8TgbGmKia3HZiby4eNemutJpsg/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_021_ec02068c8e4e.jpg)
 
 **1.1.5 工作区域2(fr2<f<fr1) 模态5**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsr3U6nWptSQpgmKsE68IOxuAjxyE3qMOPtjPN5TYBHFybCmcVXBIicerg/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_022_3c90b4cd7db3.jpg)
 
   
 
@@ -226,7 +226,7 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsr8NlKPTy8Xrcdo6ZkKJiaE82UvL82yvDM5ichpA4iajCD7HnUqveuBOKhg/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_023_3d233e5290ab.jpg)
 
   
 
@@ -238,9 +238,9 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrgFuOoq6rZtfvoQGPw6Q6lt5ib6dcxUIPlyKuS6GXaAib8Eic47E4LJIvw/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_024_06a81d343d63.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrT37M97Nln7OR6fPiaYYrCWcd4k5yNIqjPJrVqfZT9axSbrc8eKx1SSQ/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_025_762becf5b7b5.jpg)
 
   
 
@@ -248,7 +248,7 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrIib93CQbibsnpYDYjgxfOia5w9yEuS8MNxmQ0KRhyXh8YMI7QwoFibWB8A/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_026_cfee21d23271.jpg)
 
   
 
@@ -256,7 +256,7 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsrWes6PhI8tDyibW5eO65b4pibOMmZXayRWRySBudwsuaKdicgVJlMRwTfA/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_027_45d304c5a737.jpg)
 
   
 
@@ -264,7 +264,7 @@ LLC 开关管在导通前，电流先从开关MOS管的体二极管（S到D）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdIiawibWgBA4KSWA1frricUsro2rW94a6bamh0Hw9bDEXcKeBa29fibP9rKrAwgfot55eyQBQyJUTibVA/640?wx_fmt=jpeg)
+![](LLC原理讲解_images/img_028_119bec7a7cfb.jpg)
 
   
 

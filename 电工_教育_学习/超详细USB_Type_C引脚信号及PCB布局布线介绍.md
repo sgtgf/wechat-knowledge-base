@@ -12,7 +12,7 @@ USB Type-C是USB连接器系统的规范，在智能手机和移动设备上越�
 
 与USB的早些产品不同，它也是可翻转的 - 所以你不需要尝试多次插入。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJfAksx9B7mXZATIduZZxuOicrl545Aj5px0aicPjEZZbYZaZApWHk0qIw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍_images\img_002_52a0cbb73f7a.png)
 
   
 
@@ -55,7 +55,7 @@ USB-C接口有三个主要功能：
 
 USB Type-C连接器有24个引脚。图1和图2分别显示了USB Type-C插座和插头的插针。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJx5xI3gwWVHZaPwkaic7VMPBsZpibOuZqlqh3OkUcXEJg4ZZQMP0YvO0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍_images\img_003_c321f65c13a0.png)
 
   
 
@@ -85,7 +85,7 @@ VBUS和GND引脚是电源和信号的返回路径。默认的VBUS电压为5 V，
   
 当为诸如笔记本电脑的大型设备充电时，大功率流可能是有用的。图3显示了RICHTEK的示例，其中降压 - 升压转换器用于生成笔记本电脑所请求的适当电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJiaL0z5uJXw2vWuYViceGvGkKAF7ykgF9iaqdCxrlo3cWibibTeJAAN3zOlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍_images\img_004_b0a28863e45d.png)
 
 请注意，电源传输技术使USB Type-C比旧标准更通用，因为它使功率水平适应负载的需要。您可以使用同一根电缆为智能手机和笔记本电脑充电。
 
@@ -121,7 +121,7 @@ CC1和CC2针脚
   
 下面的图4显示了CC1和CC2引脚如何显示插座/插头方向。在此图中，DFP代表下游面向端口，该端口充当数据传输中的主机或电源。UFP表示上游面向端口，它是连接到主机或电力消费者的设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJmGKib1Vspcq4gAIqAwzX6Pyy2CickJ7pk50d7vXIlewcNCRNMNICIPSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍_images\img_005_3e255375fd47.png)
 
 DFP通过Rp电阻上拉CC1和CC2引脚，但UFP通过Rd将它们拉低。如果没有连接电缆，则源在CC1和CC2引脚处看到逻辑高电平。连接USB Type-C电缆可创建从5V电源到地的电流路径。由于USB Type-C电缆内只有一根CC线，因此只形成一条电流路径。例如，在图4的上图中，DFP的CC1引脚连接到UFP的CC1引脚。因此，DFP CC1引脚的电压低于5 V，但DFP CC2引脚仍处于逻辑高电平。因此，监控DFP CC1和CC2引脚上的电压，我们可以确定电缆连接及其方向。
 
@@ -142,7 +142,7 @@ VCONN引脚
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJVxy27RVGhjwznvqoyXCbvSQHJXhfXrpGCtYqSyEymXN6FMaiavw5RJQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍_images\img_006_427ec252756e.png)
 
 如您所见，有源线缆使用Ra电阻来下拉CC2引脚。Ra的值与Rd不同，因此DFP仍然可以通过检查DFP CC1和CC2引脚上的电压来确定电缆方向。确定电缆方向后，与“有源电缆IC”对应的通道配置引脚将连接到5 V，1 W电源，为电缆内部的电路供电。例如，在图5中，有效的Rp-Rd路径对应于CC1引脚。因此，CC2引脚连接到VCONN表示的电源。
 
@@ -179,7 +179,7 @@ USB供电
 
 首先，要求提供9 V总线。在源稳定总线电压为9 V后，它会向接收器发送“电源就绪”消息。然后，接收器请求一个5V总线，并且源提供它并再次发送“电源就绪”消息。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJJJ4neBib7aAbd2q5x17PsmsoK27QwEDlkoSCRIoblVlzuu1FYFicDK5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍_images\img_007_752ff270bea6.png)
 
   
 
@@ -197,7 +197,7 @@ USB供电
 
 PCB设计布线要求
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJJ52EpWHDtKMXzBLVb4VuLPpRnrB5JvNe1ubEsHa8CsqIdzdwgZslug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍_images\img_008_038b2cc9240f.png)
 
 ## 
 

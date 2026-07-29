@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/grv3eaMNrSp6\_TkzXBYcTQ](https://mp.weixin.qq.com/s/grv3eaMNrSp6_TkzXBYcTQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVnJPTQicrDM6oBeppBm2ccMf0lyHQ6veZLoGHZYibtDfR5RqicX2cZMtr7Ugj5AkBz35MNVHH2aCMsow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_000_5efa1a2147b4.png)
 
 2021年，第三代半导体产业迎来了“高光时刻”，2022年，产业如何更好地“乘风破浪”？
 
@@ -13,7 +13,7 @@
 
 ****陈宇**，深圳爱仕特**科技有限公司创始合伙人&董事首席执行官
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9VCdd1A3np8GmLm7louWBLdn14K4VQeQytY8Kia0iaKdMedj0n0XNKHyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_001_10bdf3925b43.png)
 
 **国产SiC MOS迎来发展元年**
 
@@ -23,11 +23,11 @@
 
 **陈宇：**2021年是国产SiC MOS芯片产业发展的元点，由于国外新能源汽车产业的兴起，对SiC MOS芯片的需求大幅增加，造成国内的客户严重缺货，国外品牌的交期甚至**超过50周**，这个缺货情况估计还要持续**一到两年**，因此多家客户开始加速对**国产SiC MOS芯片**的验证和导入工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9Xhe6L97SK57ib0htLwHTODELI0eHw4muaZEibqgHLAElaK2jCXmyKrIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_002_fe8bbfcae038.jpg)
 
 **爱仕特的SiC MOS芯片**在2018年就已开始**量产**，但受制于国内客户对国产品牌的信任度问题，反而是先在欧洲客户和美国前三大之一的车厂**通过验证**，并在欧洲航空行业**批量使用**，至今出货已有3年多的历史。同时爱仕特已拿到IATF16949:2016汽车质量体系证书，产品的可靠性是经过实际验证的，有信心给车企客户提供高品质产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9PqhT5WRMG7k5wLjU1Qtb64Z2Xic7un8VKpFnweaol23b8zbnm9WnDicA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_003_b3af0af30e1e.jpg)
 
 爱仕特也是**台湾汉磊**的首选合作伙伴，双方的团队已有10余年的合作历史，有很深的信任度，我们熟知汉磊的设备制程能力，他们也熟知我们的设计习惯，汉磊**6英寸SiC MOS工艺**就是双方团队配合开发的，非常顺利，2019年已通过**1200H的HTGB/HTRB可靠性验证**。双方将签订为期三年的战略保供协议，优先保证爱仕特的交货需求，所以目前爱仕特的SiC MOS芯片不会存在交货瓶颈问题。
 
@@ -39,7 +39,7 @@
 
 第二，**美国前三大之一的车企**，2019年就开始合作，已经采用**爱仕特的SiC MOS单管和模块产品**，给我们带来非常多的应用要求，经常从美国底特律总部跟我们团队开电话会议，指导我们的工作，给团队带来很大的技术提升；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9mQzfdmHKRp9WFTNHcLsDsf4moAZGVN8Y63nwanr576ruuIWpwPV2pw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_004_ee7e9bf3e8ab.jpg)
 
 **********************加入碳化硅大佬群，请加VX：hangjiashuo666**********************
 
@@ -61,7 +61,7 @@
 
 第二、**应用方案**。爱仕特的团队以前长期工作于国内某**新能源汽车龙头车企**，非常熟悉新能源汽车的应用方案，公司成立之初，资金并不充裕，优先就建立了**系统应用实验室**，采购了测功机、对拖台架等设备，一直在专注于培养应用方案工程师，围绕着SiC MOS研究应用方案，协助客户调试和标定电机，同时也提前验证自己的产品性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9G2PRaxzYGhr0sgZfkN8tSIllEMoBvXuoHJfLQrbsrOg8Mt0fcicwzDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_005_61d98cf597b9.png)
 
 目前我司可为客户提供**基于SiC MOS功率模块**的**电机控制器**，效率高达**99.8%**，很多车企的工程师目前对SiC MOS的性能并不太了解，我们提供应用方案，甚至整机可以**直接测试**，亲身感受和看到SiC MOS给整机系统上带来的应用优势，远比PPT介绍效果更好。这样一方面解决客户使用过程中可能遇到的问题，另一方面加速客户的研发过程，打通从器件层面到上车使用的中间环节。我们作为**上游的芯片公司**，不能光讲PPT，坐等客户上门，必须想客户所想，急客户所急，做客户最需要的产品，真正为客户解决困难。
 
@@ -77,13 +77,13 @@
 
 第二，**充分验证**。技术团队早在2013年开始从事SiC MOS芯片的研发工作，2016年研发成功，当时工作于非常好的车企环境，很早就可以上车验证，积累了大量的应用经验。同时核心研发人员长期从事功率器件芯片的研发，近20年的一线研发经验，对各环节可能发生的问题也有丰富的经验。在**设计研发**层面上，我们每一次工程实验出来的样品都要按照AEC-Q101的标准进行可靠性验证，从研发开始就做到充分验证。在**量产生产**层面上，产品的生产过程管理完全遵照IATF16949:2016的要求：员工的定期培训，各环节的首检抽检，生产数据的记录与分析，异常报警机制，抽样老化筛选等等，已经形成非常成熟和完全的体系。在**客户应用**层面上，通过Tier1客户做进的**厦门金龙客车**，行驶里程已超过7万公里。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9MfDkLIHeCPPZePP73ickhjCfyDW1MxcG4ykkj1cIYXW09iaOb5IkrOAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_006_ae35d773f1ed.png)
 
 第三，**供应链保障**。晶圆加工来自于台湾汉磊，他们在功率器件行业是国际上非常知名的老牌代工厂，一直在为**欧美和日本**多家龙头功率芯片企业**代工**，几十年一直在专注于做功率器件这个领域，生产品质很高，经验非常丰富。我们团队从做Si基功率器件就开始一直在合作，双方配合是非常默契的。
 
 **易用性**方面，爱仕特的产品不仅在外型尺寸上做到与国际品牌兼容，而且在各项电性能参数方面尽量贴近，同时先在自己的实验室做好对比测试，在客户端做到直接切换使用，尽量少改动。我们也有自己的应用工程师团队，可以协助客户进行调试，甚至于长时间的**驻厂跟进**，直到量产顺利完成。如果客户有需求，我们可以提供应用方案开发，实现“交钥匙”服务，比如我们跟美国前三大之一的车企合作，从2019年开发合作到现在，我们一直在根据客户的要求不断优化，直到客户满意为止，目前进展还是比较顺利的，已开始上车做路试了，离量产阶段也不远了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic90uMvDTIHsb4JwGSyjvFNAjsyxv7HeUZM31ibctWIt2DOU19WviacOKYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_007_c2fc74ad1317.png)
 
 **导通电阻低至12毫欧**
 
@@ -105,7 +105,7 @@
 
 第三，爱仕特科技已量产兼容国外品牌的HP Driver外型的**全SiC MOS功率模块**，1200V2.2毫欧和1200V2.9毫欧的两款规格，三相全桥，在客户端使用反应非常好，**最高效率**可做到**99.8%**，与进口品牌不相上下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9WRRMDxia4wnfGlaEDWbRdzXh0oX5rjBrYI3Uuzn3aGRw1LQJJ9Zl2icw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_008_f1dade5c5554.png)
 
 爱仕特科技能取得如此快速的发展，归功于**团队**的坚持**自主研发**，技术是买不来的，尤其是**模拟芯片技术**，完全需要团队长时间的一线工作来积累经验，同时密切关注客户的需求进行改善。爱仕特团队已搭建起成熟的软件仿真平台，可用于芯片的结构模拟、工艺参数模拟、热仿真、寄生参数仿真等，极大地加快了研发周期。
 
@@ -123,7 +123,7 @@
 
 **陈宇：****近三年**来SiC其实一直在**大幅度的降价**，以1200V 80毫欧的SiC MOS为例，三年前国外品牌价格在60人民币左右，现在的价格已经腰斩，而且有可能继续腰斩下去。我们认为这是**正常**的产业发展趋势，只有再次腰斩，市场才会完全爆发出来，对于终端客户也是非常好的事情，对于环境的节能减排也是非常有利的，技术的进步一定要造福人类，不能永远高高在上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9yaUvFBbDde3qOtyrHxLm5QzBM88EH24Q19MSC699b4DWTzr0qicQs9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_009_75a0f3e5ee17.png)
 
 爱仕特团队是从企业走出来的，经历过市场的洗礼，我们有能力和信心面对挑战和竞争，一方面**加大**对**研发的投入**，跟进国外同行的技术发展，另一方面**积极**的**对接上下游**关系，建立良好的战略合作，同时爱仕特还有国内的龙头投资机构支持，比如**武岳峰资本、中芯聚源、深创投**等都给我们全方位的支持，后续还将会引入更多的产业资本，爱仕特有信心加速发展和壮大。
 
@@ -135,7 +135,7 @@
 
 很多新能源车企也看到未来这个状况，在**积极的布局上下游**协同发展，建立战略合作关系。爱仕特也在积极的对接，希望在行业能占据一席之地。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic98DqZF4icc5fQf0jYyia5BKg1P5Yyibp4jT47cgp8FFN3PfmX81khiaAEicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_010_e3e7bb94d8bf.png)
 
 **三代半风向：**您如何看待未来三到五年内碳化硅行业的发展变化？
 
@@ -143,7 +143,7 @@
 
 未来的三到五年将是SiC行业发展的黄金时期，可以用**日新月异**来形容，经过多年的发酵，客户应用也到了爆发点，我们作为上游的芯片企业一定要把握住客户的需求，用过硬的产品对得起客户的信任，尽快的完成前期的**认证和导入**，实现**批量交付**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVl0m2aMxnbGvJyvT2qRlpic9Oibw0I9rFvyk0nZvDRKOL9wWFVq7mQefia280ib3s7pHpqxyVuPB0e9Sg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_011_0f41f8361750.png)
 
 等两到三年以后，国外品牌完成扩产，解决了产能瓶颈问题，将开始对国产品牌的大肆绞杀，届时的市场将是异常血腥和残酷的。我们的主要竞争对手是**国外品牌**，国内芯片企业目前大都还比较弱小，必须趁这个黄金导入时期壮大自身，以应对数年后与国外品牌的对抗。
 
@@ -153,7 +153,7 @@
 
 ****插播：************更多全球SiC********************************产业布局，尽在《2021第三代半导体调研白皮书》，扫码可抢先阅读****************！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LvpTvIKCWVmCpMdUVl7yxGmo5Ly0HgE6MxicEQ9eDTMrAzj0iaDFuic9gm5CBCluTL0Fu4Jib8XnpRQG7w6oLUJrNQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特科技_SiC_MOS器件出口欧美车企__2022碳化硅器件国产化更进一大步__images\img_012_c1eb2e082ef5.gif)
 
 其他人都在看：  
 

@@ -8,297 +8,297 @@
 
 作者:J. W. Kolar, D. Neumayr, D. Bortis
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclyMGBB8M2CWtLYohvHHkXSjYaq7n3pgwcD3foYUTgIfna6D2jf542mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_000_6cdbfde192df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclMg0WICsROg9GTEyYpV7uaWZnO6VLLH09WwxR4DwEPibd7W1WYVImdwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_001_0ecef56ce8c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl2C1CaXJgUXFnP4ZupDOB6T7wh20Unfzyaxcwdc6opEKnOrVqJkj9rA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_002_c4f8fe7b4002.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcluGvkK50ib8N3wuo24Aytr0icuDZ2sYAib6qlQbVgicErp73bODOic9lucGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_003_13f10533a73b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclHSY1ZFBGlhricAoY6MORMicibob4JW8Onb3LUfJMibGnCWw73cySCleqBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_004_685a6b42ea3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclMEjYA1AGMtB2E1xKklQKicWrPrOnIHxaicobSMlzqqSckOGxHiaLRsxdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_005_225559cce4e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcla7AQ1cIicdrWTPiczelbCVPhj6n3oNjW3V9iaibFenPtmlc3FdhmrcRI9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_006_75e47f71a38a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclE5geHXPemR4yPB2icNqmXghLrF4g5ZjK4ZEY1ibOcFnXD2XwYqmBZPvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_007_1ff9b734b2d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclahwogibMh9hjzDBibhpRiamCNAbtfNgUMhW9bg8HHibL5ZickK3WXDhcfUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_008_d5b953c23806.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclwIK5EJb5w6ibq2BNFibkQKDYWC0szGxGM7C1nh7yzgzPgA4gPr6uV7Ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_009_76d5ab373858.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclRl8rbrgJn0ITicDrXuUQGICPoPDCRCpMZzozx7QI8icgjScNkGv4aFiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_010_524e36ac2c9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclfbgtag6TdFmcwq9yaqk4Sp59tcAB9wOnV5vB3ibmSFJq3auXIfibgRUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_011_0f346f92a06e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclkPZlgZUdaibZyGc88vpUuy2r2aBwtIE23LWtP6zBZBza47iaicUZmQ3iaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_012_054fbb6f099d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclfBkF1kaibYTv6gnX4niarctSvB10X8YfWTsF82ulGjtAJTngdnTcEXIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_013_3c7d7942d8b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclgzjJbduFL7BpSrm9I0seAibwtpYsDnzjDicWF7jwHdxQibSiayyWjj4Zhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_014_18ddf9a1b2cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclwhoXorFZc9icibX7Fmjvj8ETyIfibb07noflvJNyk8GUDQFEgyts2oTBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_015_530b1e874df2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl9uiaaiambXv4opW5WwANsV1IYYX0wMt4z8exL018by1zCEvIo3T6KDFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_016_0a90b7d94199.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcld7m51YXeylsGxmKZD8ehs9mOqibQVWEwIduROrEhOs7wdrJaib1wdV5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_017_d06224046b04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl7fZGuXh0ibwMbrYzvsruNicsuA5MQWjQ0w0hMG5xnEy9BFCybGC6BXFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_018_9d09ad84fc3d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclgrhDsvwY7udlYys7P94jnkvfZFwdhIBeYHSoBKSdiaBvVwUelfWhxOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_019_2539163189db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcljib6oocLTDy1CYhBN26gVwZpzNbEToiaBU3mODxE3YmcWbE0RloU8STw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_020_6cbaaa51af9d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclcuoNdibS7z2zH6lfwaLrg3nju9vwfNr5R6vUbAV7cnEhVQkiamXGyHicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_021_6b042b3c6859.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclEauMRia5HflLoFWZFhAmIk8Uic3HpibsPb0sR84ofmMrlq3Q7Ed5CI2iaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_022_ad5fcda0f406.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclRia3qicNGOQjhGFYcC56X00vRibBEy3qj4QZUURibS2bBdSRLibM1GyoXPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_023_3efa20058538.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclLFxltQQjqr7H7xQgcv7yzdy4rA0yPKUXxWd9gqfNJkm5icvYqLpKJBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_024_bf1883d92dd9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclrvsD9EZBqhDJOFJmvA7lfwSPGyGuvbRzr4NrQqrKUm9Wv5aictygDmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_025_afccd27972a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclFSZ7Ogsff2zSnLDHR0JdFibq9LkZTFdLcBCWAryvXsnKDlXlKTQBBrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_026_f9d886ce1518.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclickV7HqkPuTak3l4W6WvhgHsu5EtyH9uqw0NnFaGZ99Q7RZZZTWxhQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_027_6f5ad158f437.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl9cTNxiamuqz5Pdh8Hiclibu961Cb28FOsqlYLK0sA31rXzj4segicAiccpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_028_861ea8850ece.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl9bN6mvVC6q5yowPKXPLMODZeGPOzl9nMXFOibZMd29SPOKFdXmkKjfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_029_da8e1bf7afb6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclZaYadzktrS2ib13eJFsZ7fxgU4SanyRWC39qUPJXYSOEC68uJM8eRVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_030_e1009a80f82e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclZwPho4nfOsngMPEsB4OUIX3ZVM5b2zL9gZENqSbnfY4wviciareod7Xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_031_7ba6ffe0eeb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclY7qRyuG8DmSEfiagF0ibBicuUr78fYF466EDiccvlgHFupm4ARA9SNrAhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_032_44bba26a2098.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclZu17Dvps9IcT4bzzmd7JX68JDLkaSPHdbsT9nfK620n2u5Sso9oGVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_033_3430c981bf11.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclwa62Y071lKO4FDC0aN04qI75fua3rzQzPCQAo4CDqQiabwQYHcGicwvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_034_a56ec87d7209.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclxmwot2dBJxGUf4mTTwvcCBxeGlFx4ico2ia6qgRMe8Bqc4Thd35qRVxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_035_162fed765102.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcld6v9CV7GzvZTVvMvYcuNyPqSNGeXYNAtn3QDKxHZC4Awgt3cUia5Bvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_036_e970ef38782d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcllBGgFPxYnkJV05vgZr8Rl7LhNx3ByR1qnjSSF5bgWb4hOeNQlLxUSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_037_a7ffd6bdee91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclhQq5o4UTx9afBjiaQZlwj36eBNibx7yJXdOv0T6uOARtPibeP4ZCDEcWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_038_69803a38f207.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclsiaRVFNRljhXez3DVbQMj85lFKRIuzrc1LvTAJFsbtRS9p3cZod0cSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_039_a81dda8fe1fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclP2luVrqCtRMGdabNnMIXHY0Rurb3YibgmVcibHPAB87glb6EppyibG9Ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_040_d0675ac87fa4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclIibsKIQkuYP3exnsibicHY6vzibtgK10dhOUT2d3XhXETWKfiayJ1SY4HBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_041_8032cd6f3436.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclPodbXJY6nibHGYvfsvcuh7jKTrTV3IosGGaEnIcic65oum0enp3LianNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_042_23d5e827d8ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclz9Gs8AOTTGDicNCjEqGMnXAF2dx6bDYfhBYDalNZM6L7XxFMuWamMSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_043_314bbaf6486e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclOvMaJw8uFqQYeB21PibicOtS0fIpvon7J1EFGiawE2oKzNne38vXTjHibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_044_301fe44b94f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclg21OM0p0sp6DMYSicL07lqibcLtkLsk4pR37QEeXnn6CeEll1n9wueXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_045_75f92289e759.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclaicia7icRaQ5dEvsJvia02ZBYN9hhwuXcGUIz9OryfKO9fnodWsyLpTnGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_046_fd7b5c44b331.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclW5b3zhSuZnCg1ibR8ulfYKRp2MuqcmicKK4PppsR2ljtLMjpVUiaQ4E1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_047_1dce4d0fb5bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl8TTcgnzo9DRBsKX8fT9SMEZvicwPvOr7kCRtzWuWIC527LVsJnDFicxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_048_9c3e4c4cad9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclK9Rx80mRaLnicpFRsicf0mWxXicwHSVojEwYP4wVS330eWCyeBIicTw8Zg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_049_6f917045e0a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclYnWSNMcx1vhdoWEUhDk5BQsfnafJkavgCT2dFf6Tap7Mj1TMobjlfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_050_4324179675a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclAy8hR9zIXxIzWGyRt5HI61tlqTYnFmQKVBL9aWIxE3qTf6uxgP2bwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_051_1bf2f42538bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclKBHNdTfBkchJ08QicU3517WTKVHuwE5AzuicHCJaVZlRZC3Ns4qkSJjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_052_3f529d0f1502.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl9buNUT3VpiaQJYibEp0np2s8Mm4QWpPwkheTvcdLJPkTdCemtXYNCgMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_053_5309619c687a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclnLc95csicib4M33a2xvdCDiaoSBUBgmPVd1XUtxN4scyHXgRCTp6Joksg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_054_d3dbc3c3942b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl3kC2icia2uzAIXnsA3hoyj8aawL1YagaGRhVbtzIU4R3TwP7duvTKmqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_055_03ec4db9f94a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclOPwiaVdlic4HT5H03ePN5CIxVNeNWtCNnNNsHL3Cia7kExoapkYOjancA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_056_1a31ed61b503.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclicu2nLe7XA7VYaeb6NPlYv9nFudVEia6DF6mGR0EemFq00CdciblQzWQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_057_70991567fbc7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclMpWf4DnHl72CyVPKJyhBjFpgMnXgVyr1KMVhoJZBWTSYkfFUWaHmpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_058_5c4cc53f98d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcln7f2QDOibqFf8166T5ejSpIwZ1pejtSmGicUlDY8JPDdRHatoUgQJdeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_059_7dde5ee70870.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcloL6LXKnCu85icC1TLveK57EakiaWKrdzTESmU6oDlX1vtBzTxnUauCTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_060_db88c38b4ce0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclD8CQeM2Wh7u1pWXLW29UECJTSo0NA7LTwyibwNQev0aSLnsBQicmI1MQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_061_1c34a21abd67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl3XXvvmrByoXQh7cVGNmicnATfmzqxf8K4UibDQ4Kam8gx2E7Eq6Sjkfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_062_f728c2b34a12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclXdyZibJH1HXzpG7FiaR0OsEEPKQORMTYrtUAmaR5yretC2veRHlXZQPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_063_2e0110646ef3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclhiaQaLGOnVyTrgpTic3eicM9iaUcUULHfH9uZfpqMOINiaH2sic3SkjAkJWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_064_86be617e129d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclH8KNtUzU7P764aENWredvFpH9okGY0M6dnCeJno0aHbYY82vAROp8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_065_0b97c99e2395.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclaAjwmy2eqDSGPgj1CEiaibDrwsQ2iamia0SYKFCUy0Q6L9LWqw2d2DG8yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_066_5f9d241c8932.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclnbOicDHUDPanUict1yFmEYiaryFw6k5YHjpKVzzwibbKiaGJsZVTGSOBBbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_067_e3484d1202e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclxgaclXBQiaBTJW4LlI0LlnR7nQR8iczksluBaQIiahI9TRfguuKSormtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_068_4c7479fbaa6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclzqGFCRibx6x5QS0Q00D4cxE4WeeLcQ0wNnTdoYnj1Sib11YybKUGDm6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_069_8533b4a51d73.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclgXWc8icZKCsnoFkIiakhR5jUZeGLSGICpoDiauDRuEpgzJ0jWcMPqvqZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_070_8bed5cd25999.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclofXxDT7QaO8SKUeoic1HNYIkXpmLdVj4u6WduXjJWsjh3HI6myQ6dsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_071_b33792f362cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclyaY3H5KHfQk68paWDWnugLoFtCmXGx1VeQqLJRdg3lUTshX24SE8MA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_072_393020ccd348.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclJJc1DcJib2k2fleJGK9LncbrBjG5u6m25ku9x9iafiaYPdqicxRQPseUQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_073_943cbe221288.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclJ4VBFmPZnzynOKsojUJOIibutSNicRia3aDjGIgBqpDSNvAgVY1bP12Lw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_074_f91624490dd5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclFgtm0r7JrpL6lnkdyib1iaQz3cibMaicnjhVfVkTynNvqH7c13Wq0jsR5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_075_bef764c2ec1b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclbJyialtqOXmx5yufjU7KhLmyl7DnHBfArtzq38DLAp4Ne7J0fnZ0iaJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_076_60523d97a408.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclI9RpiaQ0cH3EFW1GwhNOmJicsSfic6AVvk6VLGLTj06gHm3WyqEkMUR5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_077_100cb4cae269.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclMmzMdnKWI1Ws0fMeXKAOMRkydgekIeFRNjvdxGXF4VT1icHoGau2o7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_078_47558946456b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclWfMrJRWCPU2QTLiawGibgD5rpMuudKliceicGspNstQ9plKNMVvBwYYic1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_079_4c041d8a6ac6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclxGTiavLXaolt8vyhuVE52HStWFuW2GfCOZ3hVxJia8Vick9p1Gzkj9icmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_080_94b3d966b238.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclnGUa57B70N89z3bBSsjqQbJJfyzjYNibnp24Btmibumu3QJXZsnw5amQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_081_5a282a614afa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl5rsX5xPibmewLxGuAC0dRdwahXROcqr02CHYxHcu4UuErCxLBFEtz0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_082_b2b0897d165c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclRtMQnXZB1pKwx6DQ82DHTicMxGQibA0B0oJPl2q0OdNnHia3bmR9S4QYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_083_153302fbf536.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclpJIhqLRUbOO8YA4MAJGyauic9MDYLab1lPQicgqWcLcbicuMltx2rzHibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_084_7d9285788375.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclLGlYPgBTkCUyEicjJRhJYFB3k2pVg8FIFicYbEXXBuN1tG7bdiaBjI23Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_085_e08e780d2a83.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl4yYSSrj66QxBp3NmzauCXAI7PicneDdzAfdVpFia1hrQ2KnF7fibPoRyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_086_44a3bed70545.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclKIVnspd6aJlSfm0Az8OHY7xhysA1AW3sheJ6mgLXibf8iaMibAtiar4S5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_087_f774f5aa2243.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclEHbqibhlPzmOAKYkq18P1r8Aicb9o36YicagxJlPaE1JGHmlw9paGL22Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_088_6b725b2847db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclyBwvSDUR2cjDLjia1Wsn3VR3IfFdCcGnfYXDia5EBCFOLbxIibHgRtmTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_089_7f255edb0e14.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclGGiaG9YsXwuxXJncvDwhTiaQCbmya69OpYRwPXqM7Es5EgjKrJYuCjpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_090_a2c1ce853558.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclaQHeSqaMJagHrxkXWOsYglTKDpmyReSGblBxx8gmzalyoSxNod3N3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_091_eab60354ea84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclia359XaaxxYGXYLSv0FxBIpxmdZ80Q2R8NsjXH0BekSCnd6t96TOBtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_092_3cef2400114f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclXmLAcUHH5iaBbbOs0sVWMtT61vkJk7gEJHYcOWUh7YAzvLfzZ5LFeoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_093_f62f323e7640.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclSteymWLVTdHVSJE1VO4dN1nWdVAcrMMJicdeZuF3I7PufjWEtFoskUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_094_3d66878350bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclNphfLIvxXReuMxGfGQ78wIryBUXZ5n6pFoNiamrg4TInLfThT8yibAMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_095_8d0014298d57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclqKm6vbIKTpSaG3IYfaPqtmiayFiclcH86icGoVO7BsRA4hibK8mgK5ackA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_096_bebeefb38a03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclYWYMKU48GRqtRLgk5rOhSbn9AOUYLFEp4QkmPRIlRcDBo8CC2WwynQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_097_f3f2722ba4b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclykGMPia0iaLpiaLMjibyWefrp0d5e7T3ZgiakYVq2h23R9hvBmeIX8t4vCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_098_1db7555df057.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclqUkxAkZr9NTLCpkU9vLOE0geuMgT4DUefYGBdyGk1N2f5BQnicNAKzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_099_42daff7f50a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcllnsMiaw7xN3FicBuYzt3GBDlA7pgeBHwZtkE9UiamHWcArXMyMpjTzyWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_100_d0b6a61b6fca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclWHvn0EMZKM3Od7DcsrcvK1W4kKwmg2ujicTjy8L2DuQK0Snab6iaaDdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_101_4c1a1bff10be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclwNFpk4MSVZDXb5s1y8GDURpq2zB9pOYwQl9OZrD7WIRSzLo4ZUHXOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_102_ae500a65b898.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclmY6iaGtAkticOjWk7NFlxlQFlKibeb5FnQOxe27Bo00PiciccAqf1H1ic32A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_103_cd73c7765360.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcliaiaZBk0IPK40dTzSUhbTvIg4dGfTPjibuv1zQD0Licd5iatiboibMYUnSLnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_104_99596e555cd7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclTiaO4S8wIs4fZ4RUj8xyv6u6fyAoR4ApEOmRza8nt1JMJ7vpib9Yia6Tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_105_e3aa7066e27c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclEg3nUHYeSgzYE7obK3Kf9GHeWS29O1RdsppTJBBEA4HVqGttzKibluA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_106_9febad660ddf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl9KfVpIWfjK5HgNR5RkVRcBC6HwDSuwuibmzDAcRQUlsJxalictg1ZlAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_107_c6f5b930fe02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclSwUsapwowPmMTIIcnHscgmMGbtu1vr8PXbMQrsqtoMqkUyprdticRWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_108_f4e6c1045b51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclkGbqGkTAK7DurSUNlFXzib28ERPFVuuf6nPh5L5PVJib7k1RzVemNU3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_109_5f3dd47907d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclgHX38s2vZCmlyL2SFjTRaepCl3WibRP1TwGSRwqwIsodpj7oRuZcVBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_110_3f4f6cdbdd07.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclXX2Gm5wFTVyUYFTgYDdMoAVFG5GtibStets8ceHr4DSw0B6hybyMWxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_111_f4f3e4b19aee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcllRvQ6bgOkHibeIrhyqZue53IWvicEzBqibrnhqnouhnwegGXP2WSV0nxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_112_edcdeea9c70b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclct7iaLD88ichJ1ibAGHQPR7t7FJEKpoQNdWic1oAFHv7OaTqtuhKSI1qOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_113_5d549a5715b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclPUKiaWCho4vgbo0zx1qKK8oKfZAjRloPam5cLFQufJiaWQpOwdeXBiarA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_114_30011cda2c9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclZ4zMEJ3SOX0Knhe1s9ia7yIEL5GHSYuPCKD64KcTvIIQ7xZ82oOZJUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_115_1cbc4a808a3a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclIPPRBVhRLzLDxB09gO5oez2wF0SvfibrXQ4SSL1JyXI246LOIYTibRXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_116_968f69f9975b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclrdKoERSOYhkV6DviconSqpbS6bebGctZjoyp8x8bFsFY1XyA0Yme5qQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_117_436bbb513b62.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclK2dGBmJsNqUB9Nn6QO7OyQAwMpowqnmbGDv70hb9CmLsYFdhR7Ufrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_118_48509fa9fd94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclglwwlYrLlV4rWu8dn0dpfXBggt9yyNoGIUe3hBJV2aiaGtqYZKq75xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_119_96a4566253fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclPAxx34Y2fLQeGEGLXYn8vw4AVwSYXSicmjIJR7bGqotBpVkK8vmFpGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_120_76bb79abf063.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclbXB71uPDG7Qf3xaAsRnj76AGTXtcm6ngaNNjAQFYl7GUicSpXn2JSpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_121_cde3d4bb9ebd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclQ78Scia4B4DrLIMiajqeiay9U4qMGO1XBia1dwXXRH8FQrDmL2fkthb0Hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_122_997acb3feb00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclruicfChHJYXM0fMgQdBTSaia6Fm9jv76lHtjMbg1bXqRdPUh8IVP0rLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_123_878b101b7c13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclb6fAjoYFFJe01fsicictDNc3jkzdydjz78LMkiakQsoIdrjuoeMhe2rFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_124_1736c682971f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclMibhkA6MicGOiaIblvu5HHlnR1DnibntfYQKg15PSoHpvUBorED4VESU4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_125_ccbe9cf2cef8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclIgwdRQ4IPcbOMo1hd9y9lC9WjwgGryH0uZC0Ejo000VRXT1R2scdEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_126_44a1af30d3e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclJYBqrhDKeTYSkCbjOdhA6IkGJcicn4CddMZYtbDvhANSG2GFLVbUUibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_127_d15be76c488b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclgK3fWbYRFFyTFSsGeSWic6W9RGibsuEoaricqx8thM4xkyB3rJ4cJCtwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_128_7f6791dfe1d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclTOdkhO6CLzJqEoG2SuTjzh71AhNZpHBpGHjwGaRHXKp5JfEl1icPBcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_129_e10a8338b33f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl285O14XEZOrtqYIN02NBaKxkn5DnJvbicCXLfPp15hXnJPBibNe0Ow6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_130_9a505b645aa2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclicSfhvgqfNrafscicvwTnwTu4S58v7a9wata8h8VYHtN1TLzfuWiaYibSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_131_a140971a3f6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclo3EUjlProxuQ7BHiaWLVEOX7p59BWUesgXia4JkIxxR9RM3hUkXd0fVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_132_2fbfa12ae18f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclbaib4GHuuOMOqyAvQOuaBknupLM6ib9tYYuCq2ia33dWX7wGmnL4gmxGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_133_aefc6e275354.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl65qlys3o1ogsbvqCRQXZial6Oq2RTSq0ibicZicRetlfzlxZhvw8vA2EAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_134_7faf89f8a2d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclTSLicPA43PV5em8EN6l4kdCYEhgKHLsziaWVniavcIqNZRxKnt4cjh6tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_135_3739ce66bd82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclwyLb5y65Y6WZSAn6MKMXbP1hgWt3yuamXaWH4jiaIbkNlbz1NnAIt1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_136_9bc74999d0e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclw48cXMvsFCtIOtcPuksmL3E1t6bguLpyTgqe3ibpcSibZRvFVCj1taxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_137_f7ea9d470435.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclTgrW2k1ficia4FF2D5eSFBOia7HfMc8JXg3eFVKwEpfUf3Y3qibZKfpIsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_138_11fd68dcb834.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclxvQibofAq6RibyvkfkTWZ0QlaVKKFeoB3F6Qu8GPUW2lUBCN3esqqYhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_139_7c786deba898.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclDWVfozm3VNTJRKUQ7drmFaEr8duSsicFfacMHkmfZaEjhMVvXm7tIOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_140_33afe0298f8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclHTs2mAl1bEXKwT1Igh1yIGHuX3j35k9l6mWhNFRqTcoicgOniac7MQBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_141_04d23a4b85c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl9SfYss2zmah16SdgNK0x4MYcF2YR0mDCEfmHwy2lnL8KuPxo0ibAzZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_142_63fb836a81b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclI6rFQqP3n3u4HDHiclmNjmiaqC2jLA0TtxKOiafRicndFYXlibFQxFat6RQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_143_717567e9f36b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWcl2IzrPQDaqssjl8cicRXudLYnc09GGOCibm5aINwNh5xAicNAV7zaAmHdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_144_0a2d8e964855.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclNTIc96t2TeWJiab90CcO3C0pYpFcwUUN2iciaStTwOUNyjrSQcHHSpm3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_145_a34f77c3f1a2.png)
 
 注：文字与图片报告无关
 
@@ -310,9 +310,9 @@
 
 传统的硅基功率器件（如MOSFET、IGBT）在开关速度、导通电阻和高温性能上已经接近其物理极限。而**宽禁带半导体**——**GaN器件**和**SiC器件**——带来了革命性的提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclnFtmxnDHj9t7sqIdgJk12VqKXusQyzCJDsrdgMDnxfOzzVLFmicLzicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_146_695892f182e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPrxeibAmHzVjvT0MpZgWclnoDc341nfibfmlgzB60tSPrXic8l7760u6hZ4YRLPqVUCfyX2Ek2piaqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_147_dee170def456.png)
 
 **这些物理特性带来的直接优势：**
 
@@ -453,10 +453,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerRX5HHAMnmhJHI1m2mbtsuesHI9MtJxYhsvhH7gsFQlYF3JQHZm7N5Q/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_148_b9e2e67ec7ea.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerKwmUcLrFXAl9fVZxaUicUia8iarHJm5QMXpO7bUN3NvhE0dy272SUPSXQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EersHkL48Q2WH5zEWDziavb8KzibXxDBiaicSf20jSWHpgUxmNxucUdf7KMeQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_149_7a33ffc8d7b3.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超紧凑型GaN器件或SiC器件单相DC_AC电源转换技术_images\img_150_546cc5740bd9.jpg)

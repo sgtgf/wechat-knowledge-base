@@ -4,17 +4,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/yXbV4PZdt0cakW1fQzSsbQ](https://mp.weixin.qq.com/s/yXbV4PZdt0cakW1fQzSsbQ)
 
-# ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+# ![图片](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_001_9011be9decf6.gif)
 
 # 我之前写过一篇共模半导体GM12051的文章，反响还不错。那芯片是超低噪声、超高PSRR的LDO，专门用在那些对噪声特别敏感的场合。
 
 # GM12051，对标ADI的LT3041，带电源良好和可编程限流功能。想了解GM12051详细参数的，可以翻翻我之前的文章。不过大家反馈比较多的是LT3045，说这颗正压LDO用得多但价格贵。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaf3P1NOSS2tvnArdBmYSHx49D5scVxmiburQadcrhrrR4G7GMRJPjaBgGot68icI3iaibxoaeXY5kYfAiaBYSNp5mbiajLjC8DUrL0iac/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_002_14f540495467.png)
 
 # 其实GM1205就是专门对标LT3045的版本，性能一样，价格只要一半，量大的话找代理商还能再压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaej7VQ9DzsHdrGr7XXSkrQbpibHHC8Gd8GKUDbfy7uVJJsHq6mFouBtvlpiaYRTiaoB7xib5icSvVKOyPdGXVWucTx3bfozZFwexiajk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_003_e03f1096ea2d.png)
 
 既然正压有GM1205，那负压这边呢？**共模半导体同样有一款对标LT3094的芯片，也**是咱们今天要聊的GM1300。
 
@@ -28,7 +28,7 @@
 
 LT3094就是ADI专门干这活的，性能没得说，但价格和供货嘛……懂的都懂。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeakFzXyibnnGwuaKHW0vpYBUaXcIgNzic48kRfFoGibg0g2lZwia5k5ZoudAQZ4RFz9DIwKicib9KNcZ4L6oxc5HBa5zWQ1ic1WuMTAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_004_d38726fd7247.png)
 
 那有没有一颗芯片，性能上差不多，价格上又能让你**随便用不心疼**？GM1300，就是冲着这个来的。
 
@@ -42,7 +42,7 @@ LT3094就是ADI专门干这活的，性能没得说，但价格和供货嘛…�
 
 封装都是**3mm×3mm DF****N-12**，引脚定义一模一样。这意味着你**现有用LT3094的板子，直接把GM1300焊上去，改都不用改**。对于想降成本、保供应的兄弟来说，这几乎就是零成本切换。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaekh9lqzLfI30O2O16CtQxo34dJ8VEQafbr3p5wXqwH2aBI2IgCJetiaJaiaq477NhtNcH4dHWDjiagvdNibGLqWOic7h1Nt5HmxTF0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_005_f95fc59191e2.png)
 
 **2、输入电压范围更宽**
 
@@ -50,11 +50,11 @@ LT3094是-2.3V到-20V，GM1300能从-1.8干到**\-30V**。别小看这多出来�
 
 如下是LT3094输入电压范围：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeJqgick30gAl5R4Q3caNjaicQjCtMXkcDEmCocsQn3OQerv3GZXVWZm04SibibddnxvcrNPJdN4xABPZsIiaTnehwYxKrHF8RtuoYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_006_6ce1bcfe97a0.png)
 
 如下是GM1300输入电压范围：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafcILURvqadW5M6pLFJD8SeiaYicAb8ly83DUtTHjlD12E4nARlhAYG4ZiayuvHpgnocMrdCQr1xng5Qtc8wvlibBtgKSeMr1qMn8k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_007_00dcea83d173.png)
 
 **3、压差更低，发热就少**
 
@@ -62,11 +62,11 @@ LT3094是-2.3V到-20V，GM1300能从-1.8干到**\-30V**。别小看这多出来�
 
 如下是LT3094压差范围：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacRRnJ7L2hxGSgfwnUicH9fic2IFYJpATskIe6txqJGYuNaQAyvWxLtxUwOX7ILBQZ4YicspkWrONmm6gn51u4kVppUeRNnUQsIBc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_008_c0dcb7534655.png)
 
 如下是GM1300输入电压范围：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadjVPap4NQuR0Dia0ia982cPP9a8UKJFArjrL8dcpAZm5h131fKSVKUsNeR3MOO3pccYwd0MEMI7XicwJfNVh7doQZcMOUfUdUDa8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_009_14b6ab62d351.png)
 
 **4、超低噪声和超高PSRR**
 
@@ -74,13 +74,13 @@ LT3094是-2.3V到-20V，GM1300能从-1.8干到**\-30V**。别小看这多出来�
 
 在10Hz到100kHz的带宽内，RMS噪声是1.95µVrms，10kHz处点噪声密度3.8nV/√Hz。这个水平算什么级别？跟LT3094典型值0.8µVrms相比，确实高了一点，但得看应用场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaecfBIPSFuyrR3oy4ZHvWB3svrmGACTXknDanm4ib5n3VUHv1hEB3hZxO9JuVmt6CsOfaIK1Tlw5bbljoyM0gGiaZicQ4mM3fFdIo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_010_5ad39205938a.png)
 
 给16位ADC供电、给音频Codec做电源，这个噪声级别完全够用。但如果你做的是生物电信号采集这类极端微弱信号测量，系统本底噪声要求到nV级别，那GM1300确实不是为这种场景设计的，可换用更专业的方案。
 
 PSRR方面，10kHz时能做到97dB，比LT3094的90dB高了7个dB。这意味着对前级DC-DC残留的高频开关纹波压制能力更强，用在开关电源后级做二次稳压，效果会很明显。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafvibkiaG1Nd73cUZqHnfOEnCBK0QMIxn7hZwPbteWTkrXiaFyac3mmZbjlLqMdGXBHQ7FICliaMlsHMSWsEkfpPMjcf9gBHbwATDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_011_6d7401d6f3a4.png)
 
 GM1300并不是全面碾压，而是在某些关键指标上有优势，在噪声这个核心指标上，虽然绝对值略高，但**在实际工程中已经完全够用，根本感觉不出差别**。
 
@@ -88,11 +88,11 @@ GM1300并不是全面碾压，而是在某些关键指标上有优势，在噪�
 
 **对了，还有个用法：如果觉得500mA电流不够，或者想让噪声更低，可以多个GM1300并联。** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafqV4QJgW1tAEUJFkxQArGPDuRHnfbRLoYhshnCs4f832Hju0YMQ8ES9Hzoh4z4eCechcafvXWrGQNAZMYqLjhianm203xyKNm8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_012_462dc0d9d007.png)
 
 把所有的SET引脚连在一起，所有的IN引脚也连在一起，OUT引脚之间串一小段PCB走线做镇流电阻连在一起，以使各个GM1300中的电流均衡。手册里给了参考值，1oz铜厚、20mil线宽大约27mΩ/in，输出电流直接叠加，噪声还能降低√N倍，N为并联的稳压器数量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacciclw23RdjWO0T7CicU2KIV8LxQpwrXicrc54cUD41997ADz4CgzSdcyjywwW6b1q0qwBNI6NXwPzkic2n2ibjpQoMXZu1AriaMOGo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_013_6eaaacb45d77.png)
 
 热量也能分摊到更大的PCB面积上，散热压力小很多。需要注意的是，OUTS引脚要直接连到输出电容上，不要经过镇流电阻。
 
@@ -108,19 +108,19 @@ GM1300并不是全面碾压，而是在某些关键指标上有优势，在噪�
 
 GM1300 内置了一个流入SET 引脚的精密100μA 电流源，用**SET引脚对地接电阻**来设定输出电压的，公式是VOUT = -100uA × RSET。比如你接个33.2kΩ电阻，输出就是-3.32V，约等于-3.3V。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeUg1vyuKZvcTI1EUO8vyqOXCD5ZSByV9LbDfw9aM7f6mcZib2SUUtzzJ7zhYUk72vNaRECqFY4KnNlWsnraCNBtyCPnydaOw6Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_014_b05f945cbc62.png)
 
 SET引脚是高阻抗节点，100nA的漏电流就会造成0.1%的输出电压误差。高湿环境、板子没洗干净、焊接残留，都可能导致漏电。所以电阻建议选1%精度的，电容用低泄漏的陶瓷电容。另外在SET引脚周围加一圈保护环，连到OUT电位，把泄漏电流导走，有条件的话双面都加，能有效减少漏电路径。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niad7ibPHENBU3HBlznzpgz848qxTmN4Ciccl1cCzxqG2Twacic09JyOrRT7D0oISncZzLibjYaoxNTI97PLOkKL9bmLP0zxegTe45sI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_015_2aa5fb1b0f8d.png)
 
 在SET引脚对地并个电容，能**降噪、改善PSRR、顺便软启动**，好处多多。用4.7uF时，噪声就能降到1.95µVrms。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeS46WQHTgNvBGIIP2ufYkVcuDIEDabrB9fEdibAtH1bXCl61yvs61ln9iaGSM8ul57lQicnFzO0rd06syXwBEOqpyKSZDDRCj1ibY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_016_113224f998c5.png)
 
 **但是！**启动时间会变长。公式大约就是RC时间常数乘以2.3。如果你电容用大了，比如22uF，启动可能得几百毫秒。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niac7RjgQlslZnLBicsbt1icaOKRDp7kCIgxvYHpderk9CSTfI5XmjCWpdicJxBXKvicBicVfiabpzcmSQibKzXJ10R4ZibrPYiaBOlIwgg2Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_017_0ee75fcf72ce.png)
 
 怎么办？GM1300有个**快速启动功能**，通过PGFB引脚控制，启动时能把SET引脚电流临时提高到3mA，大电容也能很快充起来。这个功能在需要**频繁开关机或者热插拔**的场合特别实用。不过要注意，如果芯片处于限流、dropout、热关断或者输入欠压状态，快速启动是不会工作的。
 
@@ -128,7 +128,7 @@ SET引脚是高阻抗节点，100nA的漏电流就会造成0.1%的输出电压�
 
 手册要求输出电容**ESR低于30mΩ，ESL低于1.5nH**。这基本就是**X7R或X5R的陶瓷电容**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadVJUUF4jCzE5V2sxku6H0PssPjRyutt5hzkjeXib8LzDlGzc93ic9ylE2BPh7wBnnaCkp8BOYicrmh4Ug554ZicccLduvuYS755fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_018_8f0faf6aaa7f.png)
 
 但要注意，**陶瓷电容有直流偏压效应**。你用一个16V耐压、10uF的电容，在输出-5V时，实际容量可能只剩下**5-6uF**了，这就可能不够了。
 
@@ -138,7 +138,7 @@ SET引脚是高阻抗节点，100nA的漏电流就会造成0.1%的输出电压�
 
 如果你的板子用**几十厘米长的导线**从电源取电，导线的寄生电感和输入端的陶瓷电容可能会形成LC谐振，导致输入电压出现振铃甚至振荡。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacKicrRwliaCqNDQbphH7AsePgAHf17jUMHzmzXvm5Lu7CqvcXPDIToxmUiclq3r5wibMEwLicKnn76TC08PMpZwPvibNXiaCEwQ4wkAU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_019_fa18330c3c7d.png)
 
 手册建议：**每6英寸导线，额外加1µF输入电容**，或者在输入端串个**0.1Ω~0.5Ω的小电阻**来阻尼。这是个很实在的工程建议，不是每个芯片手册都会写的。
 
@@ -146,11 +146,11 @@ SET引脚是高阻抗节点，100nA的漏电流就会造成0.1%的输出电压�
 
 ILIM引脚对地接个电阻就能设定限流值，公式是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niae2QlR7xMBZCEGlIpPUiaszMP4ypshB8KTrtwceDYoXBCmbib9Q2oM1nplehwIwhReTQriaEXuOXX2nypmugPcau6WR6qmibbf3OQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_020_66f7096a482c.png)
 
 比如接个3kΩ电阻，限流值就是290mA。为保证精度，电阻要用开尔文连接直接接到GM1300的GND引脚。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafvS8uoMOw3Z6BLWuGjCxnETdvVn8H4Hb5UqDhnY1USJYDUOpic60Mgjiciaa5O4pNUiasicgJgRAZUnZuicOEUPK1VdkP4nODvCXYmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\再来_这颗国产芯硬刚ADI_价格只要一半_跟之前那颗刚好凑一对_images\img_021_98af9d3f4227.png)
 
 内部限流通常设在750mA左右，对500mA负载来说偏大，短路时电流还是不小。用ILIM可以自己设个精准的限流值，比如传感器最大只能承受300mA，你就设个290mA，短路也烧不坏，比依赖内部固定的限流点靠谱得多。
 

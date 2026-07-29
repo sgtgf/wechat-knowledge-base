@@ -7,7 +7,7 @@
 
 碳化硅（SiC）MOSFET以其高耐压、低导通电阻、超快开关速度和优异的高温特性，正在为辅助电源（Auxiliary Power Supply, APS）设计带来革命性变化。它能够显著提升辅助电源的效率、功率密度和工作温度范围，同时降低系统体积、重量和热管理复杂度，尤其适用于对可靠性、效率和小型化要求极高的应用场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMXRLdQ65RLictQaoXTXqOchbADno1BY3LTF2PAHpnxuGqjs22X641LpQ/640?wx_fmt=jpeg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_000_d9518c9b6414.jpg)
 
 图片来源：罗姆半导体（ROHM）
 
@@ -17,7 +17,7 @@
 
 辅助电源，又称辅助电源模块（APM）或辅助功率单元（APU），是主功率变换系统中的“能源心脏”。它并非直接为负载提供主功率，而是为一个系统内的控制、监测、保护和通信电路提供稳定、隔离的低功率电能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMvX3T4ia7N0Gapy0AmX3UUZZejSib46YaWnibPRKjRIUD83t3hh8zpWaqQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_001_491ff318fb3a.png)
 
 图片来源：wolfspeed的1700v sic mos高效辅助电源方案设计
 
@@ -45,7 +45,7 @@
 
 新能源汽车：车载充电机（OBC）、直流变换器（DC-DC）、主驱逆变器、电池管理系统（BMS）内部的控制器和驱动供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMu35gs5VuuYsdyPDpDO4RS6Jib2q1wOicrjvd2x126HSib00fRicF3icgt4w/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_002_28beaa475faa.png)
 
 图片来源：网络
 
@@ -93,7 +93,7 @@
 
 下表概括了碳化硅MOSFET相较于传统硅基MOSFET在辅助电源中的核心优势：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMicHhF74ruibSLW3j2NI3NxrVb5shyE630yDskcTjia6oruhdonL6g5d5A/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_003_d9abd5c1a1ad.png)
 
 2\. 应用案例与拓扑选择
 
@@ -115,25 +115,25 @@
 
 三. 1700V碳化硅MOSFET的产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMctOnU7pcxhMTSwuASQibwDsHeShCicbqIMlyGrwDFyAeBTFJKojsqd4Q/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_004_008bcce5b2cf.png)
 
 1700V的SiC MOSFET的优异性能，不仅能够设计三相系统用或高DC输入电压用的简单辅助电源，而且还可以发挥出卓越的性能。利用基于SiC MOSFET的技术，设计人员可提高产品的效率、简洁性、可靠性并实现小型化。1700V SiC MOSFET在性能方面的优势可以与使用了Si MOSFET的解决方案系统的成本相匹敌，比如减小磁元器件（散热器、线圈）等昂贵部件的成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMrqgOVowW5toLZ4GWFwxqZOx6nTKJlRqA5slGcrhS3wC4mQEI9kWGQw/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_005_f33376476885.png)
 
 1700V产品规格参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMdPzgicHiaKl7nnrfKIIcsPzKyhlwXdOtqVpF4sguvJRAjBxiabzWO14OA/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_006_2f34e2deb1e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMemEIPVNxX4BKtIwNnP6ABOLmbxxtCIOBBK1OshzC5axOsNiaNWLrjYg/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_007_186b68583239.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMibl94JwIibxcBUVLX8NNchvwZnOkNqd0dQHZqJcQuUuThAs9oXX1IbMA/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_008_d4c2721d506e.png)
 
 1700V5A,内阻750毫欧，封装TO263-7和SOT247-3产品资料
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMKoGghKAOxpZUgwGdkjpxo9LL0y1EzsaV1ljVbj0aNIEArEJt1fic63A/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_009_dec68ecc2852.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMYG7LfsYVltnkwuiazIpURwXaKseJSuibxEgvynsC3cBWnvNfH4ACZytQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_010_8a98f4102df9.png)
 
 1700V1A,内阻1000毫欧，封装TO220F产品资料
 
@@ -161,24 +161,24 @@ EMI/EMC的早期考量：更快的开关速度可能带来EMI挑战。在设计�
 
 SiC MOSFET的封装大全
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMwLibRjbibKpicwiav36Z9xpuXFpJnn7nhCNzibUxT4l51QpUkQ80CKSMNfA/640?wx_fmt=jpeg&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_011_e05a2e97869c.jpg)
 
 SiC功率模块的封装大全
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMnBC0gRKkztu2libWmk1MpeiboEXlffqoa1xhQLjsuEoaibnxDrwFwhGXg/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_012_d7d3369862c7.png)
 
 SiC器件的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHTYDnz0Riak9soclXeDJicHOibcWiaH9ZZtPQoicLETmw162o3GsFVerpyDg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=19)
+![图片](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_013_882f4f2197b1.png)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXeTtY8ttSX7uutKLCqyek3RgU1haicZf4aZNz4u9iapFfI5mq8njf37fA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=19)
+![图片](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_014_a303cd50d0b7.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyIoBUkVX2GcXnExRaOs4kYgicOJB3rB16QN8FJqk5EaXrBSTJnmMHkAV1MKzicwAiaictDwjleY8UhA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=20)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyIoBUkVX2GcXnExRaOs4kpzZHGkWoZ4x4fvE0VWsKmo2IZYEibZNpmKmUSe5YYa6K39lOm0OOIwg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=21)
+![图片](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_015_9f03108d6fdb.png)![图片](1700V碳化硅MOSFET在辅助电源中的应用深度解析_images/img_016_2f09e5d22219.png)

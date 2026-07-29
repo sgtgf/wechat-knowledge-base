@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wNKMbJo9gPFf46hv04ah-w](https://mp.weixin.qq.com/s/wNKMbJo9gPFf46hv04ah-w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjoRKCEakWucsHr3J1YibF7oQeTmFZ7mZcoAsibSU8Jj6mOgbfuA5Nd8l1MZC4dp8tDdDSvNPPVrfQ/640?wx_fmt=png)
+![](DC_DC_22_如何选择DC_DC的开关频率_2_images/img_000_bf9b666cf6c8.png)
 
 ____**★★★**______DC-DC-22---开关频率的选择______**★★★**____
 
@@ -15,7 +15,7 @@ ___€1.关于开关损耗___
 
 还是以上节选择的500KHZ、1MHZ和2MHZ来进行分析，如**_图22-1_**所示，将同一款降压DC-DC，Vin=12V，Vout=6V，设定为三个工作频率，分别为f1=2MHZ，f2=1MHZ，f3=500KHZ。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTib9T3EPwTd2icLq7AxABib2dTJOuANE3ic2jicH8ZWA0N8xeOicPic2w9JeXx2nD2VcKnQZgK28Yj9dPrQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC_22_如何选择DC_DC的开关频率_2_images/img_001_ada1d1ff9d74.png)
 
 **_图22-1：同一器件不同工作频率_**
 
@@ -27,7 +27,7 @@ ___€2.开关频率和频段的关系___
 
 常见的开关频率的选择会在300KHZ以下，300KHZ到530KHZ或是1. 8MHZ以上这三个频率区间。如**_图22-2_**，从车载EMI CLSPR25 Class3 CE的限制标准可见，频段线并不是连续的，其具有分段断续的特点，所以便可以将开关频率设定在这些区域内。
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSZecfsXUcdONl3jb6uicdrIotCxXjs8qeibgHH6Pdibse7jtvtqRVDKoalL8LjpNNK21EsUMMxwcGdg/640?wx_fmt=png)_
+_![](DC_DC_22_如何选择DC_DC的开关频率_2_images/img_002_ae9231a12a7b.png)_
 
 **_图22-2：关键频段_**
 

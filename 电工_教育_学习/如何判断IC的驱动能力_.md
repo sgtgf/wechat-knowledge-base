@@ -18,7 +18,7 @@
 
 如图为MOS管的驱动波形，可以看出开启过程并不顺利。这是为什么呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJNFAwqWpNv2mWDOHfDBuDwjYItFfEpnWicpRf8eAFAHZ6oDNpbCjDhuOrpGVfvLp1FDMqFxIb2O3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何判断IC的驱动能力__images\img_000_75eed366e8d2.jpg)
 
   
 

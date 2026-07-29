@@ -8,49 +8,49 @@
 
 作者：Sam Abdel-RahmanInfineon Technologies
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIgGC1PfJvm3nnUJxTeyHJghe9top2RN72pmnxxvTDdXxCFJhWmk4ouA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_000_e715ba461f55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIj0wUTD0AMK2SxP8bwlmuaqWWUkqkTwuOmEnDpvJPg1xiaLuWzoxic7PA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_001_859e8fc35c2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snI6jYdC8VlZY69zeYyFmiaHxKV5Ej57SrB5ls8A7Fb7h1x2yLWodsBHVw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_002_8d9f7df1e0bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIyDkSPHvaaFTSHoR0DBVhsasFyLVZIwibF63W5cicRcgicv3Le3eVOAibog/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_003_511416ddb622.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIcAtMINQStwoyXDGSIVmOkL01eKIp1eczrhN6MzHXLick9Adp5jYw72A/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_004_ed7a4e4a4c89.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIRpqgaY31ia6O21ickNVS1lfbYCDkYc3bfDLZPs3FyCO4K3UwfXGiccHQA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_005_e17d7e754437.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIylRpnGOPoiaHkEfnLXzVLzfRNqSMbjj3Um9EjhMOozBzJTOibvVIiceMw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_006_745474694d9c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIyBW2S77qciasHIDnRKjParyxFeico6k1bzib0l3oiarIIo4KNjISiaJ1jGA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_007_af2b5f00ffc9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snINu5kD6qXKvSJV4xpb4vhicQ6yr0pKicELv3D5M3GEsibSpZxs6S61IEhA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_008_7c16f918c333.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIV6TLkjHpBD0H7JJIArib28cDPFzeobdv8PUDd49ShaUoaI8LicnzUib5g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_009_64d506fc1008.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIG39Unj4icQ4qlsFhqaRicZVOkk0y5mTOIbygJSvUicjXBiczbjNqJvH8pQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_010_98d365652afe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIC6tvC3qLIswtxdkCbslvpqgiafEBricDrcqAtbADRArJSZ8y6IcSLWJw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_011_76b4fed424d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIcH43fIw8y4QzaBjqsf1jRO4mWcdQE0R0gC3sptlZIRkJTjRMI0QoHw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_012_25db7b7e6370.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snI8s9lqIBmbJcGP2nWMAX0sLk9ev7oSCRiatQhTC0ekJl7tHsYdZmBupw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_013_ac6c75191b14.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIlaxryaI3vLEWhRKegiaHeRY5CicoWz446418t0DfF8NoGpcLRJkj3tbg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_014_0fe8db90ebbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIzCuoesZAN42NaIicpwWRGP7mfFbHylpNJibOG5c9djYKakYzQfDYet4Q/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_015_844d07cee0bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIK1vkEAaibfZHfZ1orXtcx36tRDjjmB5cg2I3v3telYT4faSLDiaPwPpw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_016_4abc58edffe0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snI77XXbNRibDibSxERBA8AjI4I5VEMeL6JSu35W5Gzbxx9t1DNovuxrctQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_017_571915190fe7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIUcmwklkdZg7JyGFRtqJgPZcltXyhib579EALSmZzibrlTmCX1ic4tbGrg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_018_357f07a1e184.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snICCzo8vicyKEXXz4r7k9E9oGETPr1XpEdqcGqo4RV8Iia3zro3LSD46Gw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_019_1d22e50a551a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIyhXkSBWQ5lqTfoSOh5xyBU6icBvH77NS8evCqr9RibUnzHhQlNFS3UVg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_020_a3766e4d0ede.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIkYPB7xmc2kzXBFpibRUgyrJrLVibibAB1jaLuzSkawEUE1ibcecCXw1tDQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_AI服务器的电源和机架架构的演变_images/img_021_66c7cfc952da.png)
 
 注：文字与报告无关
 
@@ -130,13 +130,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhuAtTicfucwXP8evLAH00bt8n7slJu3kkPACkRtzicauvs0jB73K9KPnA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_AI服务器的电源和机架架构的演变_images/img_022_e2f6dc3146fd.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhnxUNb7d43JkmicMichBEbpbtxibq5SxZeDVAyAx7icibKxsAwzmjp6dBZzg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_AI服务器的电源和机架架构的演变_images/img_023_66eb2d7219d9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhS4bIqQ8A8yj0UEGHrWXArn5BuZX6qRFUZKjh7Fm1eXEn7HgpC8DfSA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_AI服务器的电源和机架架构的演变_images/img_024_3dbac4b24cea.png)

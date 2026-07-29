@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Qiq2guI33dSWZLyA1X077g](https://mp.weixin.qq.com/s/Qiq2guI33dSWZLyA1X077g)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRGDTu6mzcLbdqAuphOySNJsFPYdhoTbPJ9tRC1pNolXNPE2FRUb4QMicx6LvVaIGibibA9J5XpgJSqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_000_0c5f87d164f1.png)
 
 __**_★★★_**_Cap-6---钽固体电解电容_**_★★★_**__
 
@@ -19,7 +19,7 @@ _________€1.___钽固体电解电容的结构和特点______
 
 电解质（阴极材料）：电解质中所使用的导电性高分子，具有非常高的电导率。( 是一般的钽电容器中所使用的二氧化锰的大约1000倍 ) 电导率越高，越可实现低 ESR。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4POYdpRHxB0Z43LzpoyCotTLQk37p3jvAlr3NQWtU2gv5It0mS3CrOPw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_001_fca9ae9e6208.png)
 
 **_图6-1：剖面结构图_**
 
@@ -39,7 +39,7 @@ ________________€2._________故障模式和特性_______
 
 **_图6-2右_**：对阻抗及ESR的频率特性进行了比较。其共振频率因低ESL特性而升高，减低了高频率区的阻抗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4Pp8rSjIuEQ7PbJMLzudtLje3sK728UxOibDT0qxCatrAMDMlumz09Fxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_002_1b348fd3ff29.png)
 
 **_图6-2：频率特性和阻抗/ESR比较_**
 
@@ -47,13 +47,13 @@ ________________€2._________故障模式和特性_______
 
 钽固体电解电容的高温及低温特性，其特点是ESR相对于温度变化少。ESR的温度特性稳定，意味着噪声除去能力高。噪声级从低温到高温变化少，也适合于需要温度特性的户外设备。**_图6-3左_**：ESR温度特性的比较，**_图6-3右_**：静电电容温度特性的比较。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4Pz7PR9tWdRicwic53QfNXAYfh3fsFyVwpKKJM48mNAoL61iapsshwZgVgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_003_6233e1d522b6.png)
 
 **_图6-3：温度特性比较_**
 
 如果对陶瓷电容器施加电压，则会显示静电电容减少的偏压特性。从**_图6-4_**可以获知，施加电压越高，静电电容的减少量越大。钽固体电解电容静电电容不会因电压施加(但在额定电压以内)而减少，因此设计时可以无需考虑电压施加造成的特性变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPzEYVELd6ttIqCZ5VOKhbVNicl5j2ebQOzfEUElWAIoup69IM3w1ibrDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_004_c1c86108333c.png)
 
 **_图6-4：偏压特性的比较POSCAPvs陶瓷电容器_**
 
@@ -69,7 +69,7 @@ ________________€2._________故障模式和特性_______
 
 **_图6-5左_**表示以往的聚合物电容器与27个MLCC组合下的瞬变响应特性。负荷变化时的电压变动为75mV。下面我们通过使用低ESL的电容器来确认对于瞬变响应特性具有哪些优点。首先，在**_图6-5_****_中_**列出以往的聚合物电容器上，在刚才所述的条件下将MLCC从27个减少至10个时的电压变动波形。从中可以获知，MLCC的数量减少，总体的ESL和ESR增大，静电电容减少，电压变动增大，为92mV。然后在**_图6-5右_**中列出以往的聚合物电容器与ESR同等 , 将ESL置换为大约削减了50％的低ESL聚合物电容器时的瞬变响应特性。对**_图6-5中_**和**_图6-5右_**进行比较就可获知，使用了低ESL聚合物电容器的一方，电压变动减小至75mV，与**_图6-5左_**所示的情况同等。这是由于低ESL聚合物电容器的ESL较小，因而可更为高速地覆盖电流的后备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4PVVZ7qcDx0qZdc3BHKLoZCib2TJU4e9gSbfKyYLEpmgOtcSFFtLZNMhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_005_bf4094a56fad.png)
 
 **_图6-5：左：以往的聚合物电容器 + MLCC(27p)，中：以往的聚合物电容器 + MLCC(10p)，右：低ESL聚合物电容器 + MLCC(10p)_**
 
@@ -83,10 +83,10 @@ _______________€3._________脉动除去能力：______
 
 **_图6-6左_**列出使用了D尺寸的聚合物电容器时的脉动电压波形。ΔVESL为基于ESL的值的脉动电压部分。然后在**_图6-7中_**列出D尺寸的聚合物电容器与小型聚合物电容器的阻抗和ESR的频率特性。从中可以获知，相比D尺寸的聚合物电容器，小型聚合物电容器在1MHz以上的高频率区域实现了低阻抗。因此在开关频率较高的情况下，如果使用小型聚合物电容器，虽然静电电容比D尺寸的聚合物电容器减小，ESR增大，但是可像**_图6-6右_**中所示那样，减低与**_图6-6左_**同等的脉动电压。可见，在较高的开关频率下使用小型聚合物电容器时，可获得优异的脉动除去能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4PkhYb5l1TBBV6iaAK4Cq8124wPLM3RpvwJLm2x2IVjROMcLibfOjKPftA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_006_2f6d796fd6a2.png)
 
 **_图6-6：左：C=330μF, ESR=15mΩ, ESL=2.5nH，D尺寸的聚合物电容器，右：C=120μF, ESR=26mΩ, ESL=1.3nH，小型聚合物电容器_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4PSt05J5ru5IsH3I5SHaTyxDQDTXe9t79nF63pia4Dfkc4m7MDQuhWEJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_6_高分子钽固体电解电容器_images\img_007_a29094b28bce.png)
 
 **_图6-7：D尺寸的聚合物电容器与小型聚合物电容器的阻抗和ESR的频率特性比较_**

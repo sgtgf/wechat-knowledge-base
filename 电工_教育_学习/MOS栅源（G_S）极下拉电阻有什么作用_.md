@@ -27,7 +27,7 @@ MOS是电压驱动元件，对电压很敏感，悬空的G很容易接受外部�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/onNTjQVjQcm2WdGc50JNETyibk1a9XuemG4vlvW5jciaOJGaHWJuKIByJ5IvW1zCHXLXCFsm9DzE4SDXSTkwmm9g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS栅源（G_S）极下拉电阻有什么作用__images\img_002_508a3d7638c3.jpg)
 
 ## 二、MOS管被击穿的原因及解决方法
 

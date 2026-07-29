@@ -5,17 +5,17 @@
 
 电能质量 (Power Quality)，从严格意思上讲，衡量电能质量的主要指标有电压、频率和波形。从普遍意义上讲是指优质供电，包括电压质量、电流质量、供电质量和用电质量。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC20V91HiaBZiaHhOVuPfdKg7WJA6ibRXh545mtoV8YM3wabrV2DpCHTsDwQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_000_5f1d4f6b2ab0.jpg)
 
 电能质量问题可以定义为：导致用电设备故障或不能正常工作的电压、电流或频率的偏差，其内容包括频率偏差、电压偏差、电压波动与闪变、三相不平衡、瞬时或暂态过电压、波形畸变（谐波）、电压暂降、中断、暂升以及供电连续性等。
 
 1\. 电能质量产品体系与应用领域
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2uMhiaUyiaxM8JY4PqycZHK95ITbbsJPZhcacBN8ibMQBhib1Ff0d7YRQfQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_001_1efe70d39fa3.jpg)
 
 电能质量控制产品是现代电力系统中保障供电品质、提升能源效率的核心设备，其性能直接影响敏感负载的运行安全与电网稳定性。这些产品的性能指标不仅与控制系统的性能指标及控制算法密不可分，也与电力电子功率器件的性能指标密切相关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2B4yUYS5AjF043133jx3KsWfX2lc3k2tf8KQKGHt7mkUHeGW19QAv4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_002_28426b570051.png)
 
 有源电力滤波器(APF)与静止无功发生器(SVG)：集谐波治理、无功补偿、三相不平衡校正于一体，是解决电网谐波污染的关键设备。工业变频器、数据中心服务器电源、电弧炉等非线性负载会产生丰富的谐波成分，导致变压器过热、继电保护误动作等问题。APF/SVG通过实时检测负载谐波电流，注入反相补偿电流实现谐波消除。
 
@@ -27,13 +27,13 @@
 
 表：电能质量产品的核心应用场景及需求特点
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2XKHGu4Y0ZNfgwXA9gNj9uQgpI3X5eIwWk7B1ia17pjm5jbgMof3L4lw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_003_d55ab6167767.png)
 
 电能质量产品的应用场景正从传统的工业制造领域，向数据中心、新能源电站、超充网络等新兴场景扩展。随着数字化转型推进，算力基础设施的电能质量需求激增，服务器电源对电压波动容忍度低至±5%；而新能源高比例并网带来的谐振风险，要求电能质量产品具备更宽的抑制带宽和更快的响应能力。
 
  2. SiC器件的革命性优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2l7ZZYoSpAOYFOHobIYTMu1iaqpKP04Vm3jxFicuUzSI7OciavlQg334xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_004_907cf5f8edb9.png)
 
 碳化硅(SiC)作为第三代半导体材料的代表，凭借其独特的物理特性，为电能质量产品带来了性能跃升。
 
@@ -43,7 +43,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2vbFskfiaTGFNicgGLpDA0ET5R4Jge7iadLO8kIfUG3ehLBjf7MWOib1cHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_005_8bc1159129a5.png)
 
 耐高压与低损耗：SiC材料击穿场强高达3MV/cm（硅仅为0.3MV/cm），使器件在1200V及以上电压等级具备显著优势。在相同耐压下，SiC器件的导通电阻（Rds(on)）显著降低，如1200V/40mΩ SiC MOSFET的导通电阻仅为同规格IGBT的1/5，导通损耗减少60%以上。这一特性使电能质量产品能在不增加散热需求的前提下提升输出容量，如盛弘股份采用SiC模块后，其APF整机峰值效率提升至99%，较IGBT方案提高2个百分点。
 
@@ -51,7 +51,7 @@
 
 表：SiC器件与传统硅器件在电能质量应用中的性能对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC24jA83qJYE7FGF7FrHIrCeo5kDmLXgrqrKD5YicaHKTibZ82jmohtY9fg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_006_e71c066a778e.png)
 
 系统级成本优化是SiC的另一核心优势。虽然SiC器件初始成本较高，但其带来的系统收益更为显著：辅助电源采用SiC单管反激替代双管反激拓扑，器件数量减少30%；驱动电路无需区分高/低边，布线简化；散热器体积减小40%。全生命周期成本分析表明，SiC电能质量产品的节能收益可在1-2年内抵消初始溢价，综合成本反而低于传统方案。
 
@@ -59,11 +59,11 @@
 
 3.1 APF/SVG领域的革新应用
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2W8ia4o074j9j4iboW4QADV3X101K6TMvOvPEpAuIYSbZehuw1HlXbWjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_007_b6160967a9e5.png)
 
 图片来源：盛弘股份（P5系列APF/SVG）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC23PIWoCoAWFSygoKXkrl1alIvxSbKOgJ68JtzUzoI9ibMk8e79ewiclaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_008_0a71b87be80e.png)
 
 图片来源：盛弘股份（Wolfspeed的SiC模块）
 
@@ -77,7 +77,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2W49LQYQNuDicctbDOdS4sPQ5ibKoGoK8hcy1e7HeT5Cm5icAn6sdexSVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_009_7679ab91cd70.png)
 
 图片来源：山东华天电气（有源电力滤波器）
 
@@ -91,7 +91,7 @@
 
 3.2 DVR与电能质量优化装置
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC23hmHT8zAT3ibF74ytrEA5qZnzBpOhfkF1XY8jJWwklrhNtPXv8j8TyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_010_54ceb66b3ae3.png)
 
 图片来源：山东华天电气（动态电压恢复器）
 
@@ -113,7 +113,7 @@
 
 3.3 光储充场景的集成化方案
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2ZWSdW3kroD6612qia93Qytk1X67JuDVvJr4KeA4mvvfbdDZPsFC8Pww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_011_14f40a7de928.png)
 
 图片来源：阳光电源（充电桩产品）
 
@@ -125,7 +125,7 @@
 
 内置电能质量调节功能，消除充电过程对电网的谐波污染。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2udbRcyudibo0ibOomlrnvwYjXVYI9C8SEBFXVcRCT7iadDvklWLdkuhOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_012_db62c126cf86.png)
 
 图片来源：欣锐科技（60kW超级充电模块）
 
@@ -137,7 +137,7 @@
 
 集成APF功能，确保充电过程不影响电网质量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC29M4bKKlaM5ribA9kWuFwriaWRcNzfV7gSPU2dPF3KDWyszKUYW0XPreA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_013_65b4f6482885.png)
 
 图片来源：易事特（**项目研究内容逻辑关系**）
 
@@ -151,7 +151,7 @@
 
 表：典型SiC电能质量产品的性能提升效果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2nHeS3uJlQPiaq4VvCWOJ2OSUCYKOBAY8uTicZicjwooX8enxMgMpBMugQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_014_cce73d1213a6.png)
 
 4\. SiC应用设计挑战与解决方案
 
@@ -229,21 +229,21 @@ SiC器件短路耐受时间仅2-5μs（IGBT为10μs以上），需增强保护�
 
 5.2 产业应用扩展
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2nwu6F5bZEJKqMDhFk9bZ5bmDN0c2P0gqSbBIdgRy75sdxxe1L0aSkQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_015_8ad78f68cc5f.jpg)
 
 航天电源领域：2024年我国首款高压抗辐射SiC功率器件通过天舟八号空间验证，400V器件在轨运行稳定，支撑千瓦级空间电源模块发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2mQFzsbf0nPQY46p9fIIFNJePSw6aqvQQENMQkhAiaHTbQMy80xVEOtQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_016_9fcbaf23ec7a.jpg)
 
 超充网络与V2G：SiC超充桩效率>96%，结合V2G技术实现充电站-电网双向电能质量调节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2gNJnpfdbt9QTiaicgImVOh4jYb2OjHWwteIrqQ9hicJWgibVWue6XAaGgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_017_4af07d3536ce.png)
 
 氢能制备：SiC基制氢电源效率>99%，适配MW级电解槽，能耗较硅方案降低1-3%。
 
 5.3 市场增长预测
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2ltlNV9UNibLD69oia4dibSvxK2g90IXUFnPTRRTzfMMo9SnOlYibrugttA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_018_555e48c897a0.jpg)
 
 Yole预测SiC功率器件市场将呈现爆发式增长：
 
@@ -289,13 +289,13 @@ SiC器件凭借其高频高效、耐高压高温的特性，正在重塑电能�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5HfPwyQV7FiawDnQBubGjncgSqo2RfI7TlU46wxkvLVJibViadXOQhxQcw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_019_f0eba6e49a59.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe57xRqPemxW5XwVs7FBlWicxNkMJhEhJJqsm8rCU8Kztl4NbFfHzHSFMw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_020_19a4fdb8cf3b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5WO9LS6XZB0V9sPH088xibJ4vJ6rMtrIlq1goXHWwazzntZjwvHpGXWg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在电能质量领域的革命性应用与发展趋势_images\img_021_f44e186a8bfa.png)

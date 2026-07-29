@@ -22,7 +22,7 @@
 
 下图显示了交流电源线上的电涌。   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgx6Tia7uyFqTVib2btCtGWLuF6Kc5VSydwWpBNHj1GxrSZM68dtYGP2T9A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_002_1171d26a8842.png)  
 
 交流线路瞬变电涌保护器通常安装在房屋，办公室和建筑物中，以防止损坏设备或装置。应该将其安装在所有设备或装置都可获取其源代码的部分。这样，所有设备将受到线路浪涌和尖峰的保护。这种方法称为通用电涌保护。如果所有设备或设备都具有本地电涌保护电路，则可能不需要通用电涌保护器。
 
@@ -40,7 +40,7 @@
 
 下图显示了建筑物中主要和次要电涌保护器的安装方式。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxvy2WRw77YZJLbD570Bbg7icq1e7UjHbpB8C8mqFrZZHHzgbMqgYicM1w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic) 
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_003_6833cc56af5d.png) 
 
 **二次电涌保护电路的常见类型**
 
@@ -57,7 +57,7 @@
 
 还有一种电涌保护器，它不提供电压关断功能，而只是钳制电压瞬变并吸收能量。这种电涌保护器通常用作内置电涌保护器，例如在开关模式电源中。此类保护在数千伏以下的电压下均有效。如下图所示，最好在电路中描述这种电涌保护。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxATBgVOMOero4UK6haFYln51icYerzFkVaWian7IUtIA4h98uSLlOS4Kw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_010_4c433489429b.png)  
 
 ACLINE 1和AC2上的电涌保护器1称为差模电涌抑制。而电涌保护器2和3均称为共模电涌抑制。差模浪涌抑制器可钳制ACLINE1和AC线2上的任何电压尖峰。之所以称为差模，是因为它安装在两条热线上。另一方面，共模是用于电涌保护器2和3的术语，因为两者都将相对于大地的单个热线上的电压瞬变钳位。在不太严格的电涌要求中，电涌保护器1已经足以通过标准。然而，对于更高的浪涌电压等非常严格的要求，增加了浪涌保护器2和3。
 
@@ -90,34 +90,34 @@ ACLINE 1和AC2上的电涌保护器1称为差模电涌抑制。而电涌保护�
 
 IEC61000-4-5定义了交流电源线浪涌的标准。下表提供了有关类别和电压电平的具体说明。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxKpzxVpDiaoXqzvJwOWHqfnPEvGtkohHYichwQzjg3jmWOXgIJusx96cQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_005_93de55c0c03f.png)  
 
 根据该标准，设备在等级4下应承受和通过的最大瞬态电压为4kV(尽管有等级5，但仍称为等级4)。  
 
 IEC61000-4-5定义的瞬态电压如下图所示。它具有1.2us的上升时间，而脉冲宽度为50us。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxsTb3x7hAKaKYkTib3c5D4PDwMkukUWeqXjticn9uUIO2kichKcGX4TJ0Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_006_87cfd296f54c.png)  
 
 IEC61000-4-5还定义了短路电流形状，如下图所示。它具有8us的上升沿和20us的脉冲宽度。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxMAMq0jCiaPPoBp0wzC9lWCuN4eOy1XXQU9XJL9sLS5WfGezj14P5xFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_007_50dc4e27d28d.png)  
 
 下表是每类对应的浪涌电流或短路电流水平。最差值是2000A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxFQlN8SjGuMicnhIM5V0qfxR8SDB0qibT3x1OthePIAnbnibCJrM2hNMOw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_008_317aa0bcdb45.png)  
 
 **IEC61000-4-5规定的短路电流是多少?  
 **
 
 为了回答这个问题，我首先要说，所有连接到电源线的设备都必须具有电涌保护功能。电涌保护通过将瞬态电压钳制到一个更安全的水平而起作用。一旦电涌保护电路钳位，从电源到保护装置再到电源地的短路路径将出现。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxbF0lVVqXqcEiarQm0XibiaISRcD8pulxz0iboMvoyYgFJ79vKjRTerxo4g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_009_06e41b8d9c04.png)  
 
 **如何设计电涌保护电路**
 
 设计电涌保护装置并不难。实际上，某些电子设备的内置电涌保护只能是一个设备。这可以是MOV或金属氧化物压敏电阻或瞬态电压抑制器TVS。在下图中，电涌保护器1至3可以是MOV或TVS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxATBgVOMOero4UK6haFYln51icYerzFkVaWian7IUtIA4h98uSLlOS4Kw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxQjvJZ2VibN44qzeWpxvMtwQPQiaNyV8m0FXqEvbmibQTzRqWP9vT51xrw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_004_4c433489429b.png)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_011_1fd709823f3b.jpg)  
 
 有时，交流线路之间的电涌保护设备足以通过IEC标准。在少数情况下，需要在线路和地之间跨接电涌保护电路。特别是在更高的浪涌电压要求(4kV及以上)时。  
 
@@ -138,7 +138,7 @@ MOV操作就像一个二极管，具有非线性和非欧姆电流和电压特�
 
 下面是MOV的电压-电流曲线。如您所见，它在象限1和3上具有几乎恒定的电压，这使其成为双向设备。ZnO和SiC分别代表氧化锌和碳化硅。这是MOV制成的两种常见材料。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgx8X1rWvtbI2WMauk2rdjV0fWuzmtQWwHwk1y5qaElMSOdSnPBNZEnLQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic) 
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_012_2cc91ae5b541.png) 
 
 **型号选择  
 **
@@ -147,40 +147,40 @@ MOV操作就像一个二极管，具有非线性和非欧姆电流和电压特�
 
 接下来要验证的是，MOV的浪涌电流额定值能够处理上面表2中指定的水平(考虑最大水平)。根据下面所选的MOV数据表，在2000A和20us脉冲持续时间下，MOV能够处理超过15次的撞击但少于100次的撞击。设备图上用虚线估计了2000A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxN0cTKuiaO8VibdiaG920esjtfSMKbX1ABmudk9vuKZKicDictibNRShfziavQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic) 
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_013_111c7018c21c.png) 
 
 尽管数据表中规定了钳位电压，但在2000A时可能不再有效。下图显示了使用所选MOV时在2000A处的相应钳位电压。黄线的交点是钳位电压。请注意，它已经超过1000V。确保设备中使用的所有设备都能承受此电压水平。否则，请考虑另一个钳位电压较低的MOV。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgx1icIUfmYsbevCloSETjrD4U2twSDXg1fpQVVqKBun0TvyBDWPxEp8Lw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_014_fda4edd0a108.png)  
 
 **MOV电力线电涌保护的理想位置  
 **
 
 如下图所示，必须将MOV用作电涌保护装置，并紧靠保险丝安装。通过这种布线，一旦浪涌电流太大，MOV无法处理，则保险丝将断开并断开电路，并避免可能的灾难性故障。  
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxcW8icnTHepiaR6ZVnb4TcvjJCYCUOQ8GLolXsdicNKfEic83hicvVJ4j8SQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_015_4bc9c0651d04.png)  
 
 **汽车中的浪涌抑制  
 **
 
 如上所述，浪涌不仅发生在交流电源线上。电压浪涌在汽车系统中也很常见。汽车系统仅使用铅酸电池，对于6个串联的电池，典型的完全充电电压约为12.9V，每个电池为2.15V。在计算中，通常使用最大14V的电池电压。此电平不是破坏性的，额定电压为30V的设备足以长期生存。但是，这种感觉仅在稳态下才是正确的，而在所谓的“甩负荷”期间则不正确。负载突降是一个术语，用于描述在发电机充电时突然断开电池连接的时间。对于12V系统，如果不考虑负载突降，可能会导致高达120V的尖峰电压，并且足以破坏设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgx7qYDZx1FIgAp57yWZGRXMpiauIo21r6NvTtDNeRtVZpnJPCSCvpTX0w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_016_1386781e2d49.png)  
 
 为了抵消这种负载突降的情况，经常使用电涌保护电路，如TVS和压敏电阻。
 
 在汽车中，甩负荷波形由ISO7637定义，如下图。峰值电压最大为125V。与IEC61000-4-5定义的标准相比，上升和脉冲宽度持续时间(T1和T)更长。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgx6d4nricuDSP7EMj5Cib9jJMtiaToSkiaYnFia66yPLFuXStBRnX4JubXeDA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_017_998fad5fa8fc.png)  
 
 **汽车电涌抑制器的理想位置**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfnp1R01jeibgiccwKW7SMbFgxwyNch1QJMlibfLZib6Rg07Abic3LdaupXm65q4pNMzxfibqQEFmjHSywGQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_018_8ef36ab5a0fe.png)
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_019_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_020_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_021_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_022_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_023_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_024_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_025_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_026_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_027_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_028_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_029_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_030_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_031_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_032_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_033_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何设计EMC浪涌保护电路_从原理到选型_images\img_034_3c93e54afedf.gif)
 
 ## 
 

@@ -5,19 +5,19 @@
 
 随着光伏、储能、充电行业迭代快速发展，整机厂商都在疯狂卷高压、大功率、高效率、小型化的方案产品。传统硅基（MOSFET/IGBT)器件的方案面临高损耗、发热大、体积笨重、高频工况性能差，跟不上新一代光储设备的升级节奏。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNPfMwVMXtgspa6X31sIQU6jLM9yFFufNKdEg3aLhS0iae3gg7lGNSh2eQEHW3TesjTrmd3GJLzjWqPCJNYwruQveOdszAd8ZcM/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_000_16d6b68fe453.jpg)
 
 图片来源：网络
 
 SiC器件具有宽的禁带宽度、高击穿电场、高热传导率和高电子饱和速率的物理性能，使其有耐高温、耐高压、高频、大功率、抗辐射等优点，可降低产品能耗、减小体积。碳化硅器件在高温、高压、高频领域逐步替代硅基器件，在光储充、 5G 通信、航空航天、新能源汽车、智能电网领域发挥重要作用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOLxFewNJFFpcDNuDtmYT9Rnt0OWxaZvL5IzdYWezicngdzJ9QspcOEibicK0sHJkWRibhyIfxFeMNx1kagtIhmdIVQTPYbqReDlIA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_001_55d9a4424cea.jpg)
 
 图片来源：网络
 
 一、光伏逆变器（组串 + 集中式）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOKXV2MIfn20h2UmjDeaLfhOe4LcibibhrVZJTleLqJTtehtPibHaNZcddC2IGxMWPYBTxtrG4iaHjjldK6xFog1uvfQiaPG8X2DziaI/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_002_4aedf81b612e.jpg)
 
 图片来源：网络
 
@@ -39,7 +39,7 @@ SiC器件具有宽的禁带宽度、高击穿电场、高热传导率和高电�
 
 2\. SiC 器件应用优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMYBplyIoAFjD2JseIybf3OEauIOQorSd5vriczL9LoymXYrXNKZ05ERdibXJq26DzFYVL2Zve0C00IqKvrEwxhtTMqynqFp2jZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_003_10ad7dd22826.png)
 
 图片来源：AST
 
@@ -95,17 +95,17 @@ SiC 模块驱动：开通 / 关断独立栅阻 + 负压关断 (-5~-7V)，抑制 
 
 EMC：高 dv/dt 提升共模干扰，加大共模电感、Y 电容，功率地与信号地分区隔离。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPSuhCAIIS5iaV7vzsK2tfrbCJ8Roia0TEWh7IzOm2gWYQ76f3AyibjW8mB2cbQRdlEdzDDVZNnCh8mPIEBpLL2VoBAfZ6fM2qfZk/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_004_2fa10a7be0bb.jpg)
 
 图片来源：AST
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPRkrjCJR6UZ0dpE67BmrNVSjPoLfOegXzyxOAPDTFSf0lnRV7LfpI0TQ8837zsmrCqySFf8lD4WNiaKic5kZrubJ9ptUibkWN1iao/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_005_d5049d4bb8c5.png)
 
 图片来源：AST
 
 二、储能变流器 PCS（双向 AC/DC，工商业 + 户储）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNzwFJawvh5YZtXKBZydA4YMicNsHexDZwtp0oGcqRiclk5F9HtLibHmZoGQrlF7MibMvqtYfA9ic6ffUWBUBJkgzicypY4zasOBDlBI/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_006_f9ef379a2bb8.jpg)
 
 图片来源：网络
 
@@ -163,15 +163,15 @@ Easy3B SiC 三电平模块
 
 1500V 高压储能（1200V SiC器件）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM57DV3icnB9yKMtI9MPpupuyTTZubyWBaibSV5COwtHvcwsZTLmw10ae8hKrQSLL5UMwVAly4ex0HDONld0UpjOjDmia7JARxnbo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_007_e76300dff462.png)
 
 图片来源：AST
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOibNS4EDECDibm4nAYo8Psiak6iaURh8sFCVbBicAk7mTLLSdWHmwmFgHUTv2WbxibFWfLL31ITonuUrfQfArSZJiae634DsEYVXMYAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_008_167ad5de659e.png)
 
 图片来源：AST
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNnxgicyaSFJ2Q0ic8vXOxunChQzicSsWryNE0GwYRGWjult7d6N3pH3Nqz3NpibefYdGPtG9EGWYunE8WHC7uyaibZt91xAeCkA9KA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_009_114ddb598d3f.png)
 
 图片来源：AST
 
@@ -191,7 +191,7 @@ ANPC 三电平 SiC 机型：中点电位闭环控制是核心难点，高频下�
 
 三、集装箱式储能系统（整舱系统级）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOXiaXWBVPGTbhmDbt9UkNaL2d6PzdFesCn9wKaicg07nic31lWiarr3Bm1JaJxkovxQ0JzsicvM1ZucTfzWfIMyb81W65X2ldgYJOw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_010_70fffd0ec910.jpg)
 
 图片来源：网络
 
@@ -211,7 +211,7 @@ ANPC 三电平 SiC 机型：中点电位闭环控制是核心难点，高频下�
 
 2\. SiC 器件应用优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNDicEcOCnzDm7lNYtP6dTOwRWVf1GmCEEXx6HqdH6w2mO7YGO8N5maMc5cAkD3icR6qzqRrBlelhXWnVU4z6RQE5P2iaQfVWLMR8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_011_14f9d1e747a8.png)
 
 图片来源：AST
 
@@ -239,7 +239,7 @@ BMS 与 PCS 保护联动，分级预充、过压、簇短路、三相不平衡�
 
 四、直流充电桩 / 充电模块
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNhFrTdDricicV3CdibnTopH7jhNyEDQwGo2aQxTGoT2veBamIgPIIloZcZJwn96yZXcYia2hF2GraFkVW4ey8B5hViambh2vibicSx5M/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_012_2240029de85f.jpg)
 
 图片来源：网络
 
@@ -261,7 +261,7 @@ BMS 与 PCS 保护联动，分级预充、过压、簇短路、三相不平衡�
 
 2\. SiC 应用优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNH2luKD6w8JUTqZ7TX9hcMx8r3Nzx2ryEyKz6n7Xq5SeQMB2qqaCT5yhGPlb7HYoBnHEQa3xYRDIE29gblDYSlmJk2IOtPspo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_013_52b23ca70258.png)
 
 图片来源：AST
 
@@ -327,37 +327,37 @@ EMC：SiC器件高 dv/dt→功率 / 信号分区布线、增加共模滤波、�
 
 附碳化硅产品资料
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOz4vCP1VFghhdiblRIibEqjm2lVBzRjMbfeVMqsRmLWavzbic4U6lqc0pmCkibKUNVGCwfe58MXiacqH19fEicNUqOn0eLSRjN4jgicM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_014_e954bb3e7126.png)
 
 SiC SBD产品拓扑图（电压650V~1700V,电流20A~100A)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP68oDsjdS3fRsfeKIs7sQKDewrBCrcroMegV9UKfQ40FEpT9VkP3vuhn5ib2faJ2cbyicbhIFDv4AMR0ku6G4mgsFSibBjgMFgtE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_015_ff6db03daa06.png)
 
 SiC MOSFET 247封装产品拓扑图（电压650V~1700V,电流30A~250A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPk7he7Ftr0pbZB1OJqnCsia4uWky8o14reNYxpOicy8QVk5ol7IrXp9zuIDla8zGbtVuSm6lDpUHp2JW25btIaILIia4bZ6eI5jQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_016_98169d752b32.png)
 
 Easy3B封装三电平产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO1AZT9VNYQ2aEzqiaedYyUtxibQV0gH37bia0wodgY9HKKNxibiajJYyMuoNzKqbvQQeticHW3NnQIiavn9l9SVP7yZPkrsTTnzI8PQM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_017_36ceef765c85.png)
 
 Easy2B封装三电平产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM9HSpNDR8libeJibjVWDSD0ntXttjvAdyFMkApTPjFuMFmnS9miao2snr0hJAicon7TibVBasmBsBMjcXczC1VSOezmFl9dRUf8bU4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_018_dd844aaa87c6.png)
 
 Easy2B封装半桥产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN5fcco4vWLH3WhS4Qo0kQFRaic3fVIFLuxKCAqJXGQ97aibBAG8S9nUBRCmM8JlkO7VCw9FrB0WtIJSyN9dHcnokAvODOcjpEIY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_019_e29fbe1c2ee4.png)
 
 Easy2B封装H桥产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNcYb6wpHcLoLYcQggTAiaELrk3Rbf7AIkuQKk7b3QWibLd1uE61LjcQWMEQHMa2pgQx9QaEA2ZPNMKQe7MsJGVm2sumwdoVfkaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_020_37142babb5ec.png)
 
 Easy2B封装三相全桥产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPCe84Z1Ffk9u4s13jPqPiaz5mC93qykEkicqG3TCdVVXUqxOfo8TpPXHCPLddU0lSa1u4Skia4aOQZg7MwNZbILpUO2jt8ic5lbo8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_021_7f11ebd66ed5.png)
 
   
 
@@ -371,7 +371,7 @@ MEK6封装三相全桥产品拓扑图
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNEOfuz4jUAPasuDmrp4hib4tgmic44fCgBibIodWntbrxDfa43ErbP2NPNIgNgzvohbiaZLIPxUN1cKc0MDdricicU5ISY5P49VSbpc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_022_632badb00ea6.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -379,7 +379,7 @@ MEK6封装三相全桥产品拓扑图
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOktxPKLBu21kW438XZ33rcRN0cOKBibQVq99JZjWJtEGBUia1cTNne6micgqbibggoBk54Qherr0wKBDYAWb42k7hamVDacgOIOUE/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_023_6027d555d31d.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -403,7 +403,7 @@ MEK6封装三相全桥产品拓扑图
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtgrYJvHRGQrHsMNThvJec43MetVPbtp0lZCbst3LNiaHibxfjtKrLvqsB7RARoIuQjxgMmdW1qHcT0AicXt152ozCQic4dnMBMCM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_024_755a0d6ebec5.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -451,12 +451,12 @@ MEK6封装三相全桥产品拓扑图
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOhtEbdjB0KicI72DCjbkfWAzWZ2FGsShSzO28wPxpMYxPThcVPJRriaib17nTDD0lzjk1UHnsCGxbuYxsjwa3VRIfvC9tb4K9kL4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_025_decd319135a9.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPuY3ylRicPwy3VQ5G35ic3lMWbIjaSuelS6XticaMqKMFn1Dibiba3YbyBREvLYmBMyNlBx6yEAeVUCuKrgA4GkzPaAOFs7L3stDKs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_026_bf92ee8e031e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPujPib2AfC01ZSMXL4OoPdRjETW2OtkcSjcHbhX3FdLju3kt0FUafxLlQXVSSROickxFQffuNYwlT3z8DzSfwTb3rhl4Oac4beI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在光伏_储能_充电桩领域的方案与应用_images\img_027_9685b4d66bd0.jpg)

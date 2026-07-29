@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5ZeajO6MEADnZIlBYXGAGw](https://mp.weixin.qq.com/s/5ZeajO6MEADnZIlBYXGAGw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgrzygWTIy9jbFCwEGufyLKGj5tBCXPsSk4dkCKLCpJ3VEruUCYSMOTRs3EY8rurr6vGTn1SicIUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_1_天线初识_images\img_000_c34a3a2e8b90.png)
 
 ____**★★★**______Antenna-1---天线初识______**★★★**____
 
@@ -17,7 +17,7 @@ ____€1.发射天线和接收天线____
 
 接收天线能从周围的空间中收集特定频率的电磁波，并将其转换为电信号或导波能量，传输给接收机。例如卫星电视接收天线接收来自卫星的微弱信号，经过放大、解调等处理后，在电视机上显示出图像和声音。汽车上的收音机天线接收广播信号，让驾驶者在行车过程中可以收听各种电台节目。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgrzygWTIy9jbFCwEGufyLIUOcZYs2OwngUZZD8utGmM2VyiaBmZEyPvUT1fmJlfNyyIaibKIWDXMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_1_天线初识_images\img_001_197768045d67.png)
 
 图1-1：发射天线和接收天线的虚拟链路
 
@@ -41,7 +41,7 @@ ____€2.____常见的天线基本单元
 
 缝隙天线是在金属板上开缝形成的天线，缝隙长度通常与波长有关。当在金属板上激励起电磁波时，缝隙处会产生电场和磁场，从而向外辐射电磁波。缝隙天线具有结构简单、隐蔽性好等特点，常用于飞机、船舶等载体上的天线设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgrzygWTIy9jbFCwEGufyLeGUbYUgp8dPUVSO2hZMqMSsgvQTzTVsyVseLL5GLqRyuQNogcFTJvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_1_天线初识_images\img_002_e64edb63e855.png)
 
 图1-2：PIFA天线的多种开槽方案实现双频/多频工作
 
@@ -67,6 +67,6 @@ ____€2.____常见的天线基本单元
 
 环形天线由金属导线围成环形构成，可分为小环形天线和大环形天线，环形天线具有较强的方向性和较高的增益，在中波、短波通信以及测向等领域有应用。小环形天线的周长远小于波长，其辐射特性与电偶极子相似，但磁场分布较为特殊，大环形天线的周长与波长可相比拟。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgrzygWTIy9jbFCwEGufyLYal8fIMXHxcogH0jwWfrsXIAiavZtClicOKxnoOR71INC3JjeB8S3khg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_1_天线初识_images\img_003_40d51b9c036c.png)
 
 图1-3：代表性天线类型

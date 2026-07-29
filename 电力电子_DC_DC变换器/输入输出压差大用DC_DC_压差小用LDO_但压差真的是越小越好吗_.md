@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/g-WJ8l-1r1Pg4NZrRdMD9w](https://mp.weixin.qq.com/s/g-WJ8l-1r1Pg4NZrRdMD9w)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_001_9011be9decf6.gif)
 
   
 
@@ -20,7 +20,7 @@
 
 咱们随意翻开任何一款LDO芯片的数据手册，你都会看到一个关键参数：Dropout Voltage。这个参数的定义很明确：**LDO能够维持目标输出电压Vout时，输入电压Vin和Vout之间的最小电压差**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaea9OQVDia1EXNteicmI1GicrJibLcGzVZm6mPPSlicS8CFtZWqfXYiaw2jFkicHMKtPg9iaZP17qCPLvMx2RQibqWTnbqmd4uZuPlsem1k/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_002_f3535a6864e2.png)
 
 用公式表示就是：
 
@@ -30,11 +30,11 @@
 
 为了让大家更清楚的了解它，咱们来看看手册。这个手册写的非常详细，不同的输出电压，对应Dropout Voltage范围是多少，这里都有很详细的备注说明，包括Dropout Voltage的典型值，最大值范围都给出来了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadMq0RoIhIFw4C7fODk7ShS9Lc7QPB63RsUMFhLLLEJL44vNfP7poWJDfs9E3c3pJUjWVTPpThUhP7X6MwYWvfkoYZV6Hxiaqzg/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_003_bcc1d5218ea1.png)
 
 我们再将这个图进行放大，如图红色圈出，当我们输出的电压范围在3.3V到5V之间，Dropout Voltage的电压范围典型值为300mV，最大值为425mV，当然我们在设计时，一般都会按照最大值去设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafHcfdP4Svufqh3hMrkr0JAdrjEZp0MGic1tic4NdAw3zf7WVJzoqSZicJG2C0CriaGCGKHk8ZbuxFXzXjVzlk6DMv5rU7Ca4Zlg5E/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_004_a0d208f2902f.png)
 
 通过这个表，咱们来举个更详细的例子，假如我们就用上面这款LDO，它的Dropout Voltage最大值为0.425V，假设输出电压设定为3.3V。那么：
 
@@ -59,7 +59,7 @@ LDO内部通常包含几个关键部分：误差放大器、基准电压源（Vr
 
 误差放大器会不停比较两个信号：一个是基准电压Vref，另一个是从输出电压Vout通过电阻采样回来的反馈电压。只要两者有细微差别，误差放大器就会调整输出给功率MOS管栅极的电压，从而改变这个MOS管打开的程度——导通电阻一变，流过它的电流就变，最终把输出电压Vout拉回到设定值。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafhcoGg8rksRzaRCgIuwperibLmlXZosPY8ibQEgdyDtGOYumBUzIUFBedRjpic9ZolazDnXqBO4UGMcOmu1DPkr6TdDCZIE7gokA/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_005_2061b06af93e.png)
 
 **这里有个关键区别：**
 
@@ -93,7 +93,7 @@ LDO内部通常包含几个关键部分：误差放大器、基准电压源（Vr
 
 咱们通常在LDO的前级使用DC/DC开关电源。所有开关电源都有纹波，这意味着LDO的输入电压不是稳定的直流，而是在一定范围内波动的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadPfFyEAkxjVlVKv7ObFS3q823lv0QtRiao3j9Xef0CianMn5CiaBogyXibe3fASSm0QTV9N6ADHjTCr0HIMWzhxyPft98IqU4okW4/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_006_e4fc15764937.png)
 
 假设DC/DC标称输出为5V，纹波为±50mV，那么LDO的实际输入电压在4.95V到5.05V之间波动。如果我们按照5V来计算压差，当输入跌到4.95V时，可能就无法满足Dropout电压要求了。
 
@@ -107,11 +107,11 @@ LDO内部通常包含几个关键部分：误差放大器、基准电压源（Vr
 
 LDO的Dropout电压会随着负载电流增加而变大。手册上标注的“0.7V@1A”只代表特定条件下的值，不代表所有情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaf0vZFRJtbRxkViao3oydD86B6FVr0X2cIaES8XvTncDBon0WMRAD3pYgPLMf2aHqdtsL8j9UNZHK9ybicn5L1gX3meQyibVbNquo/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_007_de54487b5c20.png)
 
 如果你的系统最大负载电流是1A，那就必须按照1A条件下的Dropout电压来设计。很多手册会提供这个曲线图，如果没有，就需要向原厂要数据，或者在实际测试中验证。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadTAUK6ibWerhvauPJADwBHaMVzqU57AculfR0UQesoRKiaiaycaobOAzxfOyuc8rNt6qfqd7KNycqXEbbWPSHCgWonZojD4ib142Y/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_008_a30d0e3a2008.png)
 
   
 
@@ -121,7 +121,7 @@ LDO的Dropout电压会随着负载电流增加而变大。手册上标注的“0
 
 半导体器件的特性会随温度变化，功率管的导通电阻通常随温度升高而增加。这意味着在高温环境下，Dropout Voltage会变大。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacBGz9HokqZiaSqwJib4tTtnN1PBsEXTfsCbXmtstqB6TMSEwztgpGcrf5xpciauwehnNYQnBxCPSxyGCtUcH1MqIZw36Or9G2icxk/640?wx_fmt=png&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_009_2441bc0ded0c.png)
 
 一般来说，设计时需要为高温情况留出余量，通常建议在室温计算值的基础上增加10%到20%。如果系统工作在极端高温环境，这个余量需要更大。
 
@@ -141,12 +141,12 @@ LDO的Dropout电压会随着负载电流增加而变大。手册上标注的“0
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiarY1QjAAXM4xYicMNcSBynZzRIkb0HcficMbJJkK7KF6WFiazic8l8XG8VaL4sribQqibM0h9tkibHh0f9w/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247566000&idx=1&sn=0988cf191ab52a936bbd1fb66b08302b&scene=21#wechat_redirect)
+[![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_010_6fbd5190cdd1.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247566000&idx=1&sn=0988cf191ab52a936bbd1fb66b08302b&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiarY1QjAAXM4xYicMNcSBynZtP6LBrWrZBWmDvwYic8Y7wllJeXV2hjCS8076vdUk90Pc2PTm4qIfug/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247565665&idx=1&sn=f4515c102713e72b80a0f3b62211e1c6&scene=21#wechat_redirect)
+[![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_011_31b04a15a485.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247565665&idx=1&sn=f4515c102713e72b80a0f3b62211e1c6&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiarY1QjAAXM4xYicMNcSBynZMEYJThQJcN4rPKC5HIWVqwOZkUDl9tOeHWGEyc6VrDiaa0Kvtz3nCJA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247565325&idx=1&sn=16b285f9d38d67db5b3c0deefcccb1f0&scene=21#wechat_redirect)
+[![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_012_c11e845b5507.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247565325&idx=1&sn=16b285f9d38d67db5b3c0deefcccb1f0&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niadicXL6M10cqB3iaIso20FveqvV7Mh1CIlKQEhTI6wsppDBMBicxSmyfMiaOwRvAtBHKnBDGapobBK9w4IvJhoke8znEJoODYFaYLI/640?wx_fmt=jpeg&from=appmsg)
+![](输入输出压差大用DC_DC_压差小用LDO_但压差真的是越小越好吗__images/img_013_dc202221ad1d.jpg)

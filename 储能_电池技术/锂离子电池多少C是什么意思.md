@@ -40,7 +40,7 @@ C：用来表示电池充放电电流大小的比率，即倍率。充放电倍�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiajFxCwvicb7Ju5Janqk9IFdJng5MZkEk49EZseWHWo1B9SkoYnuU3YEibf6MVXf8vIPWBtokWpgWDw/640?wx_fmt=png)
+![](锂离子电池多少C是什么意思_images/img_002_cab72857416f.png)
 
 在电池上所标的"S"代表串联，"P"代表的是并联，电池通过串联来提高电压，通过并联来提高放电电流。
 
@@ -60,7 +60,7 @@ C：用来表示电池充放电电流大小的比率，即倍率。充放电倍�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiajFxCwvicb7Ju5Janqk9IFdjrTfYgiaMBH9picBx1AybJEpjZUjtupKlxaFjH4YZVCq4XWOUcic9JZHg/640?wx_fmt=png)
+![](锂离子电池多少C是什么意思_images/img_003_86099f93f93c.png)
 
 还有最重要的一点就是，锂电池的最低放电电压一般是3.0V（也有厂家设置更低）左右，充电器一般标注最高充电限制电压4.2V左右。
 

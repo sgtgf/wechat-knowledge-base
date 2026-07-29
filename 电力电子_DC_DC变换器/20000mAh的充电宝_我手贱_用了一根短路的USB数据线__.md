@@ -16,7 +16,7 @@
 
 插上去的瞬间，一股淡淡的味道飘出，充电宝屏幕直接黑屏，再怎么按都没反应。完了，短路了！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsg3XcaWiaY6HhZgDPIRFjZtjX4gCasHpAtUWAD6yOwdDguIxtol26SKXw/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_002_c288fcc2c961.png)
 
 但作为一个硬核折腾党，我决定死马当活马医——拆了它！不仅要看看能不能修好，还要带大家探秘充电宝内部的精密构造：电路板长啥样？用了哪些芯片？电池有没有鼓包？
 
@@ -28,7 +28,7 @@
 
 首先20000mAh的充电宝是真的大，比我的手掌还大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgPm4asL3u6X6uRyFwmzGS1CwGczpMRhh6DxlSyOdiaxUdiaibRq0agBdaA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_003_7e2747cf9659.png)
 
   
 
@@ -44,7 +44,7 @@
 
 1xType-A USB2.0
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgBraPviaOYRrEQN9BELlThvD3ub840BrDiaNHibeOEutrMBUyaqbAVDzQw/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_004_42ebcbfcae94.png)
 
 可以明显看到外壳连接处有很多明显撬动的痕迹，这个确实有点不太好拆，都是我用平口螺丝刀，一点一点撬开的。
 
@@ -54,13 +54,13 @@
 
 1xlightning，可以用来对苹果手机进行充电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Eh37BSbicV0wUGR3gqBD3a3MCTWnDSXPRw0kYicYm3IYlRckaFJ52s4k6A/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_005_73b2bdf263ae.png)
 
   
 
 1xType-C USB，支持5V/3A，9V/2A，12V/1.5A，适用于现在大多数手机接口。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhkXn2icVMPXKHLFnNZOnxJLwaW1m3XwqBRYXxEd7sMTBVrsiaGrwmuCrQ/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_006_448be596f339.png)
 
   
 
@@ -68,101 +68,101 @@
 
 1xType-A USB2.0，支持5V/2.1A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Eh8RjzuiczDaQ99JgR3puT15e7RZkweLZ1kuQ6M3P8n1QDmLBY9THGxDw/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_007_c16d4b630ead.png)
 
   
 
 侧面还有一个按键开关机
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Eh0SsiaY4GELYaQ9Uo6CohWY0rYonJVgZc6ok7DI5QlmDO6zNkB6CXovA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_008_d8fb4d244b4e.png)
 
   
 
 后壳终于拆下来了，说真的，这个后壳是真的不太好拆，通过卡扣式设计，而且白色外壳跟锂电池之间也都是通过打胶固定，紧密的粘贴在一起了。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgxuglicVdkURwFfWqEoYXSI3MGG8YRiaYsYnC4nNl6oc39K9Gbg9kAhSA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_009_cc00fc77fcd9.png)
 
   
 
 凑近点，先看看电路板。锂电池是直接通过两条比较粗的线直接焊接在电路板上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgbDDpwhqqCkaJictsuddg0f4EJmibtoHGicsGibcEd2tG8uBKyppqcBpN5w/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_010_9c300b0c8635.png)
 
   
 
 把电池的两根线用烙铁加热取下来
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgbVz6Mxr1l5B5KGnF3IQAiarZdNCLdfx0NJzJFg1iaWzMw0wnicvxOBITw/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_011_6c5622112903.png)
 
   
 
 如下是电路板整体的图片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhP980LlzVT80hDJb7Vtf5YT6JbQnB0Kf1mA9ibkwbK7cMbmNIlFfqicmQ/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_012_d2aefc2d8702.png)
 
   
 
 侧面先来一张特写
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhwlzgjibzUibnAbAgvBciaR23KibktVrsuA7P4CT1HDqkRxmk7XPTwaItEg/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_013_4bb68aa6923b.png)
 
   
 
 背面再来一张特写
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhPKS7G5ibKOTicvQsQCugtBwCEeBh1E5rKp27atrZFnphVtpsbQ8KbNtA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_014_70b3b4d475b3.png)
 
   
 
 电路板背面整体图片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgUBXuaniaHnUgfPXCpTSvoyB7ibR3P3BUGarrwyvvkgQDUA5tPdAHjsRw/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_015_fc6d828045ea.png)
 
   
 
 整体立起来图片再来一张
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Ehr3YBrQ5ZMbUAhQLJlaoeMnlW9zkWA3sPV3l9K7d9FLHemReicRWTkFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images\img_002_c1801d5990f6.png)
 
   
 
 电路板上Type-C和 lightning接口来个特写，从板内向外看
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhVus5jEx6vQIvwyuEibhgDSo8FpDsVibmYG9OkKrNjPfBv7QoPpno7riaw/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_017_518763d472f5.png)
 
   
 
 从接口向内看
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhvRmVeY6mrGpz6hgLFNkMG667UV1UicYmaqcJ2oFY2kPnD936Kc9MISA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_018_afd229ecfa95.png)
 
   
 
 充电宝有个数码管，用于显示剩余电量的百分比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhQYjeAeeeASAJKCQUsX5dDdjHBoc4kJrhmNNibf0sgCP0sUeUTOdXDDg/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_019_b0a0b5480db2.png)
 
   
 
 侧面是电源开关机按键
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Eht8VqfwD80tB0hprGia1ibdGkr8M3XvScSrTQsI1t0e9icwibibSPnO1ibicQg/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_020_f9e9c60cad30.png)
 
   
 
 可以看到，电源输出滤波电感周围还打了白胶，有固定电感和散热的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhXPr2HicEnh3TBqro3A02tUSyiaiaPHp8AzoXicPfN9rntlzudWXUe1jboA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_021_0d924a514c58.png)
 
   
 
 这就是咱们充电宝的主控芯片了，采用智融科技SW6103S，进行升降压实现电池充放电，另外也控制LED数码管显示、温控等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Ehab6RAcJ5ibOTn7I5bjxJWuWZ7JgWN3k9HbeDcuIic52qnIzZwqAgoVkQ/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_022_8215748e4059.png)
 
 智融科技SW6103S参数与SW6106参数基本相同，这里使用SW6106的规格书代替。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhHicU5TyCrWceicxia1F0H8dOfEEf298VzREuiaf6nF1VEJCzEdxYr9fhKA/640?wx_fmt=jpeg&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_023_045c931260e5.jpg)
 
 此外SW6106还支持边充边放，在单口工作时支持快充输入输出，多口工作时支持 5V 输入输出。外围只需少量的器件，即可组成完整的高性能双向快充移动电源解决方案。  
 
@@ -172,55 +172,55 @@
 
 但是很明显，这颗20Pin芯片丝印已经被打磨了，完全看不到芯片的型号了，可能是个关键芯片，厂家不愿意透露芯片的信息。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Eh7icSsrs3RlTOFBcX0k18yh73qD2sgyrkiberdrlJZI40sEInlLC7PlGg/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_024_fc9aad391182.png)
 
   
 
 不知道大家注意到没有，左边有一个放电齿，这个**放电齿主要作用是吸收并引导静电，防止静电积累并释放，从而保护电路板上的电子元件免受静电损害**‌‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhDOxETZ65vLVjnXAE1Hiaa7vT256vjMGAhGkicEwqajZ3XNAZ1riaNiadpA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_025_47391924b164.png)
 
   
 
 这个还有一个NTC热敏电阻，拆解的时候它是直接紧贴着锂电池的，用于检测电池本身的温度，如果NTC检测到的温度超过设定的阈值温度，使充电宝处于一个异常的工作状态，将停止输出，进行温度保护。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhkzI7XDkKRHOgQYmHuLCV3329YoI1hY2S6ltDMPicdJxEGkng9DplpoQ/640?wx_fmt=jpeg&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_026_c25d5483a5c0.jpg)
 
   
 
 背面是NTC热敏电阻的丝印
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhrLIOvrVDl0ibxgSZibTdGhSv5FynJwTwkRq6mhNFG570ib7V01tkJAeicg/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_027_e1957d2159c8.png)
 
   
 
 电池背面来个特写，电池参数为10000mAh 3.7V
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhjY7PDdV3pXp3YaPV6DOfWpiczJnY6NsrvvPP0vf0mhPU9kSx7vicRGUA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_028_a7e972464b2e.png)
 
   
 
 把另一边外壳取下来
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhUeiaqRInCSibfI7gib4bica2bghyQKSeQtAoz22picPU9CeiadlzpbicCicLSQ/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_029_f95a50fedeb1.png)
 
   
 
 侧面是通过绝缘胶布粘住的
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0Eh8OerHCLTdqw4WEXmxd32gUOjLxNZRnJTV3JwVicu6UyC9mGSnSSjrEg/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_030_5af797cac196.png)
 
   
 
 把它撕开一看，原来是两个10000mAh的电池并连在了一起，两个电池都没有发现鼓包的现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhXpIhFiaYIVyL9UzAYWyP36h6caEAArias6PrdBrvmGpwZ4nIKsAQHZSA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_031_0f37e981588b.png)
 
   
 
 最后来张全家福
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhuWGxB4SSadPjJda4yC0EhwUd5zhVOXCk3MZwGoaarPc4ePQBqpdvCknO7o8aZmCWDVX5Mu90uIA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_032_fde1c31f4fb1.png)
 
   
 
@@ -230,19 +230,19 @@
 
 下一步通电测内部各芯片输出电压，输入接上TYPEC USB接口，未接负载电池时，数码管显示电量100%，万用表测试各芯片电压正常。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgHLwaG3mdAgbEwg5XqVOPq1jfQCXCRpcibiaeNmF8icNHqYpXIJfWibV7MQ/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_033_1c1c05d26deb.png)
 
   
 
 再接上电池负载，按下按键，显示电压4.5V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgPnfsz1VKhmRQSciam9s0a9IqXbrmicLtTSDgAoEorRZkxLD7AWqhAelA/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_034_cb99a6e73b1c.png)
 
   
 
 尝试再次给手机充电，显示正常充电，看来这个充电宝自带短路保护。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgoW7L9oLzutrKrI9f5j4IkkSu28Hrb5oU3WLtHibJ3UQJB1icIUAtKm4Q/640?wx_fmt=png&from=appmsg)
+![](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_035_a875502abeec.png)
 
 看来是虚惊一场，这个充电宝本身没有问题！不过既然拆都拆了，那就带大家看看里面的构造吧，毕竟**‘拆机一时爽，一直拆机一直爽’**嘛！
 
@@ -258,13 +258,13 @@
 
 推荐阅读（点击图片直接进入）
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![图片](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_036_e17b14222c20.png)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_037_63afd412b9f5.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_038_b0627b5999a5.jpg)![图片](20000mAh的充电宝_我手贱_用了一根短路的USB数据线___images/img_039_8b6ae0c08a91.jpg)
 
 ## 
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/bZRxCF2vph9aLWNchkBDLQ](https://mp.weixin.qq.com/s/bZRxCF2vph9aLWNchkBDLQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuEBL1C7ib4aOMyLQybqcEImibahGm4OHnq6icdbTbBfGjhcFtic1Xibce7vgP18FZiaRz6deZNUqgric8tWcibGposRBn5icJawgjNuziaY/640?wx_fmt=png&from=appmsg)
+![](数学光明_Jordan_标准形第_1_讲_images/img_000_3b8bc619bff1.png)
 
 我们把这张图整理成一版 **更清晰、更适合教学的中文讲义**。
 

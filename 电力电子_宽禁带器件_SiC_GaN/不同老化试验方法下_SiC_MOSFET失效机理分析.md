@@ -27,15 +27,15 @@
 
 相比 IGBT 正向导通的单一导通模式，MOSFET由于其元胞结构的特点，拥有正向 MOSFET 模式、反向 MOSFET 模式和体二极管模式三种不同的导通模式，三种模式下电流流通路径如图 1 所示。一般情况下，功率 MOSFET 器件工作在正向 MOSFET模式，此时正向电压加在漏极上，当栅极电压增加到超过阈值电压时，反型层逐渐形成，沟道开始流过电流，电流的流向从漏极到源极；在 DC-DC 的Buck 变换器中，功率 MOSFET 器件有时也会工作在反向 MOSFET 模式，此时正向电压加在源极上，电流的流向从源极到漏极；体二极管是功率MOSFET 器件的寄生结构，当 MOSFET 从导通状态切换到关断状态时，体二极管可以作为续流二极管使用，此时功率 MOSFET 器件处于体二极管导通模式。值得注意的是，当电流较小时，正向 MOSFET模式和反向 MOSFET 模式是完全对称和等效的，仅仅是电流流向不同，但是当电流较大时，负载电流有可能从源极经过 PN 结 J2 到漏极，如图 1b 中虚线所示，此时处于等效正向 MOSFET 模式和体二极管模式的混合模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GlbanZy3zwYAERicjnBceCsBZwOiaMkKSVXTVianruKsz7ibUhsCwuBl8bA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_000_49ccb7420ecd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GVOSKrQcb6yjcFqVRJc5snFqWNcqj9RuDibCBEOibej2tb2UBSkqcKHqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_001_29221091fe3b.png)
 
 本文选择 CREE 公司的 C3M0120090D SiC MOSFET 器件作为实验研究对象，其实物图和内部结构如图 2 所示。该器件为 TO−247 封装形式，额定电压 900V，导通电阻 120mΩ，额定电流 23A（@Tc=25℃）。采用 Agilent B1505A 测量器件在30℃和 150℃下的三种导通模式下 I-V 特性，正向MOSFET 模式和反向 MOSFET 模式下测量时的栅极电压均为 15V，体二极管模式下测量时的栅极电压为−5V，由于三种模式对应不同工作象限（第一象限和第三象限），为了直观对比绘制在同一象限，结果如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GicXYjAGVibyLuVxWsXWM7o6fmBHhopxWC8lYJP6onArib9gIKPKcj1EyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_002_ecc42346ed0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GAXhn4KwtXlZlUFmxcW0L2VWDuhNFfKXzNeKIibUQicWibmiaYDmq86xib6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_003_db94c27aa2cc.png)
 
 从图中可以看出，当电流较小时，反向 MOSFET 模式和正向 MOSFET 模式的 I-V 特性完全相同；当电流较大时，由于导通电压的上升，负载电流被体二极管分流，此时可以看作是等效正向 MOSFET 和体二极管的组合。由于 SiC MOSFET的体二极管通态压降较大，整体来看，反向 MOSFET模式下的 I-V 特性和正向 MOSFET 模式下的特性比较接近，呈现正温度特性，体二极管模式则呈现负温度特性。
 
@@ -47,43 +47,43 @@
 
 结温是影响功率循环试验结果最重要的一个参数，因此准确的结温测量对于功率循环试验尤为重要。芯片被封装在器件内部，使得结温难以直接测量，一般采用温敏电参数方法进行结温的间接测量，合适的温敏电参数应该不随器件老化而发生变化。在 Si MOSFET 功率循环试验中常使用三种温敏电参数进行结温测量，分别是通态电阻、阈值电压和小电流下体二极管压降。然而，由于 SiC MOSFET 的 SiC/SiO2 界面处存在着大量的界面陷阱，捕获沟道中的载流子，造成阈值电压漂移，进而导致通态电阻的变化。因此，目前适合 SiC MOSFET 功率循环试验中结温测量的温敏电参数只有小电流下体二极管压降，这种方法也被称为 VSD(T)法。如图 1c 所示，MOSFET 元胞结构中有一个寄生体二极管，当栅极沟道彻底关闭时，施加一个小的测量电流从源极（S）经过一个 PN 结 J2 后从漏极（D）流出，此时测量 SD 之间的通态压降即可利用校准关系得到器件的结温。对于 Si MOSFET，当栅极电压为 0V 时，沟道可以完全关断，而 SiC MOSFET 在 0V 的栅极电压下沟道并不能完全关断，这也是其有别于 Si MOSFET 的又一个重要特性之一。因此，需要在不同栅极电压下进行温度系数校准，以确定应用 VSD(T)法时选择合适的栅极电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GV878VrEF8qux4zt03esNwDfuweXXIfUDO9B9SkNG19O1NUnahykd4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_004_0f06ba4b6b70.png)
 
 温度校准实验的电路原理如图 4 所示，通过恒温装置将待测器件（Device Under Test, DUT）加热至指定温度后停止加热，待温度稳定后开始自然缓慢下降，此时可以认为整个器件的温度处处相同，芯片的结温和外部壳温相等，这时测量得到的壳温将被认为是器件的结温。在寄生体二极管上施加一个恒定的 50mA 测量电流，记录器件两端的通态压降 VSD和壳温 T 即可。实验得到的校准曲线如图 5 所示，可以看出，当栅极电压从−4～0V 之间变化时，温度校准曲线是不同的，相同的温度下，栅极电压越小，通态压降越大，当栅极电压从−4V 到−10V 变化时，温度校准曲线不发生变化。其根本原因在于当栅极电压处于−4～0V 之间时，SiC MOSFET 的沟道区并没有被彻底关断，一部分测量电流被反向 MOSFET分流，处于反向 MOSFET 模式和体二极管模式的混合态。因此，SiC MOSFET 应用 VSD(T)法进行结温测量时，栅极需要施加一定的负压来关断沟道区，对于本实验所用的器件，栅极电压至少需要−4V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GqHAnxYP7hApbpLSPlxiag773VIcXkbMynh9amPBtzVehotiby5Yicxj3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_005_c68174702792.png)
 
 **2.2 试验电路**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GKOp6NzHzBCquNXHGM0ZWiakXDmdoY615pFSeqwTWgtwgVThYrnhib0mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_006_53e60668a450.png)
 
 体二极管模式和正向 MOSFET 模式下的功率循环试验电路原理如图 6 所示。体二极管模式下，在 MOSFET 栅极一直施加负压，使得沟道区能彻底关闭，至少需要−4V 的栅极电压才符合要求，此时负载电流和测量电流同向，均通过体二极管，和常规 IGBT 以及二极管的功率循环试验方法类似，电路结构简单容易实现。正向 MOSFET 模式下，负载电流和测量电流反向，在加热阶段，MOSFET 的栅极需要施加 15V 使其开通，负载电流流经 MOSFET，在冷却阶段，MOSFET 的栅极施加至少−4V 的电压使其关断，测量电流流经体二极管用于测量结温。测试支路的开关 S1 和栅极驱动 S2 的信号的时序如图 7 所示，为了避免控制系统信号传输过程中的延迟造成逻辑冲突，S1 和 S2 之间设置 100μs 的延迟时间。同时，结温测量会在负载电流被关断后的 500μs后测量，避免载流子复合效应导致结温测量误差。因为负载电流和测量电流反向，在 MOSFET 导通时，负载电流可能会流经测量电流源，导致测量电流源的损坏。为了保护测量电流源，在测量电流和待测器件之间串联多个二极管，使得测量电流源支路的开启电压大于被测器件的通态压降，保证负载电流只从被测器件上流过。一般硅二极管的开启电压在 0.5V 左右，串联数量需要根据待测器件的通态压降的大小来决定。图 6 和图 7 是一条测试支路的电路原理，为了提高测试效率，同时也是避免负载电流源不断的启停而造成自身的老化，试验时设置了三条并联的测试支路。三条支路交替工作，当负载电流对某一条支路上的器件进行加热时，其他两条支路的器件处于冷却阶段，因此待测器件的冷却时间是加热时间的两倍。试验装置实物如图 8 所示，主要包括电源系统、测量系统、水冷系统和控制系统，其中，测量系统可完成试验中电流、电压和温度的数据采集，而控制系统则基于 Labview 编程的上位机完成数据处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GQicJP5QZic1nl1Arg4FdXKqGiah5wzX8uZkJdX5HKiaRUEs0lhBDnnafsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_007_9c3b5c5b4b91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4G65VIS3jj0r2GYpAZ5qAqZrX9VXtvFicdaxGUrA698ukuBtHawfUYBAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_008_4777c5c6bb95.png)
 
 **2.3 失效表征**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GOf0UJc50ciaLI9yuU7WcCMUib4AvCpf5JH0uOAViaIcw8KmVovFqxyYKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_009_487cdefd100b.png)
 
 器件在功率循环过程中，由于材料膨胀系数（Coefficient of Thermal Expansion, CTE）不匹配在材料之间产生热应力，进而导致材料疲劳和老化。SiC MOSFET 器件内部垂直结构如图 2 所示，自上而下分别是键合线、芯片、焊料层和铜底板，每层结构的材料及其 CTE 如图 9 所示。可以看出，键合线和芯片、芯片和焊料层之间的 CTE 不匹配最为严重，因此，键合线和焊料层成为最容易发生失效的部分。键合线是器件电流传导路径中最关键的一环，其老化会引起整体通态压降的增加，因此可以通过实时监测 SiC MOSFET 在最低结温处的通态压降VDS 作为键合线的失效表征。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4G9DK1X0MQqOAouaqp88lTlgK7eLfKPgF9dNtj7IiblqhEwvHp91Cia0bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_010_56e065b97c55.png)
 
 器件测得通态压降由两部分组成，如图 10 所示，其中，VDS\_chip 是芯片上的通态压降，VDS\_wire 是键合线上的通态压降。由于 SiC MOSFET 阈值电压的漂移效应，导致相同电流和相同温度下芯片的通态压降也会发生漂移，无法判断 VDS 的增加到底是由于阈值电压漂移造成的还是键合线老化造成的。为此，研究待测 SiC MOSFET 阈值电压漂移的影响因素和变化规律。对其在 25℃室温和 150℃高温下进行栅偏试验，每间隔一段时间（25℃时为 10min，150℃时为 5min）后，转而在对应温度下迅速测量其阈值电压，试验电路原理如图 11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4Gz8Rx1ia2eHzQ10HGdlY06sJqvvYbF5z3pgo0cUHC2kib0jj3LSpnVSrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_011_26ae0a9af60f.png)
 
 在两种不同温度下，对同一个器件重复进行三组不同栅压组合试验，每组试验中正向偏压均为 15V 且持续时间相同，反向偏压依次为 5V、7.5V 和 10V，每组反向偏压持续到使得阈值电压与初始值接近（偏差在 0.01V 以内），然后马上进行下一组组合试验，最后测得阈值电压结果如图 12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GNvo25zc8NicsrEVUItpibUJ4MbZemIvjk28NBpD6icZQb2z2QzwUCaJicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_012_182473e4f69c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GiaYBDPxlUXknicIuibIVNofgnovTyghrq2ibwLUomuB0jia6ou1xQUPspsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_013_e42d5e8efea2.png)
 
 可以看出，第三代 SiC 芯片在栅极氧化层的制造工艺方面已经得到了极大提升，在 VGS= 15V, Tc=25℃的条件下 60min，阈值电压漂移量（某时刻测量值−初始测量值）在 0.1V 以内，而在 VGS= 15V, Tc=150℃的条件下 30min，阈值电压漂移也仅约为 0.12V，如此小的阈值电压漂移对芯片通态压降的影响并不显著。另外，SiC MOSFET 的阈值电压在正向偏压下发生正向漂移，而在反向偏压下发生反向漂移，并且几乎随时间呈线性变化。最重要的是，线性变化率和施加的偏压成正比，即阈值电压随时间的漂移量与栅极偏压的大小成正比，在室温和高温下均表现出类似的规律。此结果和文献中的研究结果相似，表明阈值电压漂移和栅极电压应力的极性、强度和持续时间有关。因此，为了将阈值电压漂移最小化，基于试验结果，提出一种判断准则为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4Gy380ImkP0gTdx1BnPtD8gI2FFWsicjPNBurCfwx3Bsedy0HVjFYbkibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_014_f2884970954d.png)
 
 式中，VG+ 、VG− 分别为正向和反向栅极电压大小；Δt+ 、 Δt− 分别为正向偏压和反向偏压持续时间。
 
@@ -91,7 +91,7 @@
 
 焊料层是器件传热路径中非常关键的一环，其老化将会引起整体热阻的增加，因此可以实时监测SiC MOSFET 的结到壳热阻 Rjc 作为焊料层的失效表征。结到壳热阻 Rjc 的计算公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GtrB39yrv3MUjn79nro080z0HO0kOYUAKF8U1kjfOq96IQXMiaU7zTWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_015_4b9912c89567.png)
 
 式中，Tj 为通过 VSD(T)法测得的虚拟结温；Tc 为壳温，由热电偶测得；P 为功率损耗；VDS 为最高温度处的通态压降；I 为负载电流。
 
@@ -105,17 +105,17 @@
 
 由于试验中待测器件较多，且通过试验数据分析发现，每种模式下不同器件的退化规律大致相同，因此在本节试验结果分析中，每种模式下仅展示一个器件的试验结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GNJNgYnpfsUmCCjibpkqrWZYCgbeFSqXGj5gNdnhlqOa446vGAhLlKQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_016_2ef272e55005.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GW7QgDwQHU4WGpzOBgfiax88q0WibzYaDxXUNSqxdHapVGZ0NXHZAlMmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_017_33af3b6a42a8.png)
 
 SiC MOSFET 器件在正向 MOSFET 和体二极管模式下各参数在功率循环试验过程中的变化如图13 和图 14 所示，其中，通态压降（VDS、VSD）和热阻（Rth）均已相对初始值进行了归一化。从两图中可以看出，热阻在功率循环试验过程中整体较为稳定，说明焊料层没有老化，只是试验初期存在一定的缓慢下降，这是由于试验时，在器件和散热铜板之间添加了一层导热硅胶片用于绝缘，在功率循环试验中，器件、导热硅胶片和散热铜板之间的接触在变好，使得它们之间的接触热阻在减小。两种模式下的失效均表现为通态压降的上升，通态压降的上升引起结温的升高，从两图中也可以看出，结温和通态压降的变化趋势几乎吻合，可以判断是键合线老化导致。虽然通态压降还和温度相关，但最低结温一般不随器件老化而升高，在整个功率循环过程中几乎保持恒定，此通态压降在每个循环周期中结温最低时测得，因此通态压降值仅受键合线健康状态的影响，当键合线发生老化，通态压降会增加；反之亦然。在正向 MOSFET 模式下，通态压降在前期缓慢线性增长，在试验后期开始指数增长；而在体二极管模式下，通态压降在 16 000 次循环左右阶跃上升后，存在一个较为稳定的阶段，但是这个阶段内通态压降开始出现波动，然后在试验后期急剧升高。究其原因，与两种模式下通态压降的温度特性有关，导致了键合线老化后引起的电热反馈机制不同，如图 15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4G956vHGHMFr6g31hsVhicDfriaOuMZV2rzMD24dDteUdXh6CQp0QhGLIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_018_715242cd33d7.png)
 
 正向 MOSFET 模式下，通态压降具有正温度特性，当键合线老化引起通态压降上升时，导致结温升高，结温升高又会造成通态压降增加，进而功率损耗增加，导致结温进一步升高，键合线承受的热应力增大，如此正反馈的过程导致了试验后期通态压降呈指数上升，这也是标准认为当通态压降超过 5%即可认为失效的根本原因，因为在指数上升的变化规律中，通态压降升高5%时对应的寿命和键合线完全脱落导致通态压降急剧上升时对应的寿命相差甚微。体二极管模式下，通态压降具有负温度特性，在负温度特性下，通态压降和结温是负反馈调节，即当键合线老化造成通态压降上升，进而导致结温的升高，而结温升高会造成芯片通态压降下降，从而抑制结温的升高，这对于器件键合线老化起到一定的补偿作用。从图 13和图 14 中可以看出，当试验停止时，正向 MOSFET模式下通态压降上升约 20%，结温波动增加了约20K；而在体二极管模式下通态压降上升约 10%，结温波动只增加了 8K，充分说明了不同反馈机制对老化规律的影响不同。另外，从图 14 中还可以看出，试验在 12 000 次循环左右，通态压降 VSD 有微小的上升，但是结温波动却保持不变，这就是得益于负温度特性的结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4G8gouOlYcMSpiapesJEt9KyXia7qlBoT4nHY69NSegtq0UB3p0icOeze0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_019_9d15e38e149e.png)
 
 本次试验中所有待测 SiC MOSFET 器件在两种模式下最终的稳定的试验条件和功率循环寿命见表1，其中最终寿命根据标准定义为通态压降超过初始值 5%时对应的循环数。最高结温和最低结温以及结温波动以稳定后的数值为准。从表 1 可以看出，当最高结温为 135℃，结温波动为 93K 时，正向MOSFET 模式下的平均寿命为 15 806 次，体二极管模式平均寿命为 16 372 次，两者非常接近。实际上，体二极管模式下当通态压降超过初始值 5%，即达到失效标准后，并没有出现急剧升高的现象，而是在很长一段时间内保持稳定，这同样属于有效寿命。如果考虑这部分的循环寿命，体二极管模式下的寿命平均可以达到 31 170 次，大约是正向 MOSFET 模式下的两倍。体二极管模式下的寿命偏高，一方面是体二极管模式下的负载电流较小；另一方面则是因为通态压降的负温度特性对老化起到较强的补偿作用。
 
@@ -133,10 +133,10 @@ SiC MOSFET 器件在正向 MOSFET 和体二极管模式下各参数在功率循�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_020_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_021_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同老化试验方法下_SiC_MOSFET失效机理分析_images\img_022_84aa944feb13.jpg)

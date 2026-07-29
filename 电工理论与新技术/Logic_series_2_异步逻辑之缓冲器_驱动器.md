@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/DOwdqLdRtRj9G2IP1xfMMA](https://mp.weixin.qq.com/s/DOwdqLdRtRj9G2IP1xfMMA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRB8zPUIr3CxgqwxV1v4EZHocnerEgXCYxwSKmqAU6fL4rzyDiaTktTFuDomvvnO4zdwnIWiaXSK3Dg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_000_766c35d0f6b6.png)
 
 ____**★★★**______logic-2---缓冲器和收发器______**★★★**____
 
@@ -13,15 +13,15 @@ ___€1.反相器___
 
 反相器实质就是一个非门，单反相器就是一个单非门，正逻辑中执行布尔函数 Y=A。如**_图2-1右_**所示是CMOS结构的非门，芯片里面的最原始的构成就是如此。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQtslSSMxmrxUHXU5ibQXzGHb3ka9Q9ia9LmJ9eccyhZbSUibgQNicGGkV5SpIqukVbnzu3YSKxrFVoBA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_001_7a22da094aee.png)
 
 **_图2-1：CMOS结构的非门_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBaic3rD0jHfuYZCcNJjtcQgODTCrMSxiaJ5D38Hqmnucfo5Dpp6bZnvsg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_002_2d8ff4a045e2.png)
 
 **_图2-2：非门图例_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTTTluDPt0ic795zxa8SLhZc0nibx49V2jCR9FxbjK9kiauibPL2zLyrib6dOsqicuMo9Ve36YD3KFicmOrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_003_b3e215eded4e.png)
 
 **_图2-3：反相器输入输出波形_**
 
@@ -29,27 +29,27 @@ ___€1.反相器___
 
 ______€2.___缓冲器（驱动器）___  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBneuXC3yhXlibejsTCEW0TqhnxSGgKhAWouEHG7BiaZsUVIQjP4eTGyeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_004_f9b9f960974a.png)
 
 **_图2-4：缓冲器图例_**
 
 如**_图2-4_**是缓冲器的图例，注意这里是缓冲而不是缓存Buffer，缓冲器在结构上是由两个及以上反相器组成，如**_图2-5_**是偶数的同相缓冲器示例，**_图2-6_**是奇数反相缓冲器示例，**_图2-7_**是带控制的单通道同相缓冲器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhB7xGL8LnY168Sg6zy812pZQFvMVkdypcCsIvpuLU41Lae8D6oxhy8ZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_005_a1050c049ac4.png)
 
 **_图2-5：同相缓冲器_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBQ6gtYTm9ZZMOMQFbqOsDJRzVJNFNxpBMPN5ibucRvpvkuX0XE2M7m1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_006_e8f85f23577a.png)
 
 **_图2-6：反相缓冲器_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBWAu1MibV3JomcyIEHTkEUtvia3XpEKvJszVn1mexLMSnPRyJGTCKUfFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_007_5335517afe9e.png)
 
 **_图2-7：带控制单通道同相缓冲器_**
 
 从**_图2-1_**的结构可以看出缓冲器将开关变化映射到VDD的切换，所以缓冲器可以用于刷新微弱的数字信号，这些信号通常是由连接到相当大的电容性负载或许多并联输入端的低强度驱动输出产生的。缓冲器的输出能重建一个适当形状的数字波形并改善信号完整性，提供同相和反相两种功能，**_图2-8_**显示缓冲器的刷新效果。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBGKbxXgWicrjBRtTBKyibjWSZicQOCR29nM0GN3nCXxiaoAeNho2hfD9aicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_008_d27bc65b0424.png)
 
 **_图2-8：同相缓冲器改善波形_**
 
@@ -59,7 +59,7 @@ ___€3.收发器___
 
 独立的收发器元器件，从其缓冲器构成来看，也是做一个信号中继和增强，重建一个适当形状的数字波形并改善信号完整性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0ZhuL7jXkuHo6mN1JCV1Bic0rJcrgAsTeEUb6qMXZeibghyYgQvz5FMguLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_2_异步逻辑之缓冲器_驱动器_images\img_009_6224ab54955f.png)
 
 **_图2-9：收发器结构_**
 

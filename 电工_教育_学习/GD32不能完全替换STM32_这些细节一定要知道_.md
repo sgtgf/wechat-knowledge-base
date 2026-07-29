@@ -91,7 +91,7 @@ GD的产品在相同主频情况下，GD的运行功耗比STM32小，但是在�
 
 GD在连续发送数据的时候每两个字节之间会有一个Bit的Idle，而STM32没有，如下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh2rehEl2qeE7fNDNAUkicvSzPyAQhz45alVAVaiaD5LiacH38FibyvVNBA009Lv5wic0v2FyFIgt9cJEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\GD32不能完全替换STM32_这些细节一定要知道__images\img_000_ec67034c3c52.png)
 
   
 

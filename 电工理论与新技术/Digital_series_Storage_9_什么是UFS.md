@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/IsSItnQsWvMRWxHgEe1bIw](https://mp.weixin.qq.com/s/IsSItnQsWvMRWxHgEe1bIw)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMTA9lIeSJ8C2ON4zaYLzibRbI893wJK9Bbhp6aIBRr975rdB6kfic2Diag/640?wx_fmt=png)**____
+____**![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_9_什么是UFS_images\img_000_6af7b43a956f.png)**____
 
 ________★★★______Storage-9---UFS基础______★★★________
 
@@ -35,13 +35,13 @@ _传输速度_
 
 UFS一个关键性能优势是UFS规范支持串行接口速度，比嵌入式多媒体卡eMMC规范中支持的并行接口要快得多。当前的UFS v4.0规范支持高达每秒4.64Gb的接口速度，即传输速度高达4GB/s，比当前的eMMC v5.1规范的每秒400MB/s接口速度快11.5倍以上。连续（顺序）写入速度达到2800MB/s，随机读写速度可以达到400MB/s和500MB/s。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQsSXxA7ibkOicWdYR20uXT8ibSIZskhNs5HAuS8Eafkxon2GgnjUkEFmTTB4evZSyoYDg1NdkvecQ8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_9_什么是UFS_images\img_001_1feefb9de044.png)
 
 **_图9-1：eMMC和UFS速率对比（连续读取）_**  
 
 UFS体系结构使用独立的输入和输出数据通道，无论设备是配置为连续读写操作，还是在随机读写模式，读写操作都能够同时进行，而eMMC规范支持的数据总线被共享用于输入和输出，并且同一时刻只能启用读取或写入操作，不能同时启用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQsSXxA7ibkOicWdYR20uXT8ibqNibWB6byicslosRCcVKtqdEy8rsh2HCUFiamuh3YekBwed3PpY3icrJiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_9_什么是UFS_images\img_002_8dc88f2c0efe.png)
 
 **_图9-2：F**_ull duplex_** LVDS Serial Interface_**  
 
@@ -49,7 +49,7 @@ _启动时间_
 
 得益于其高速顺序读取性能，最新的UFS v4.0规范的快速闪存接口速度提供了超快的设备启动和初始化速度，使诸如工业扫描仪、POS系统、车辆唤醒等等能够从睡眠模式下做出快速响应。对于需要大量启动数据（在系统运行之前会先加载启动程序，启动程序运行完毕才能开始运行整个系统）输出的系统，UFS的启动时间比其他存储设备更快，而这是车载应用中使用UFS的一大动力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQsSXxA7ibkOicWdYR20uXT8ib80cXlYk2gNBKU6HySJ1Ttxteq7uYUISMibN1DEiamyNgGKAmEXeBagiaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_9_什么是UFS_images\img_003_6afd5f829c85.png)
 
 **_图9-3：几种介质启动时间对比_**  
 
@@ -63,7 +63,7 @@ _5G场景_
 
 如**_图9-4_**是5G互连场景，5G FWA（移动和固定无线接入）所需丰富的功能和高性能要求和UFS内存非常契合。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQsSXxA7ibkOicWdYR20uXT8ibRy5mSCCF13jqg6mZic4VVdFubBAtK3V1mqtMVdAocGbO7Ik7mibBg29w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_9_什么是UFS_images\img_004_a515a43d772d.png)
 
 **_图9-4：5G FWA普适场景家庭有线，无线_**
 
@@ -83,7 +83,7 @@ _安全摄像头_
 
 4#：功耗低，因为一些摄像头使用电池，需要延长电池寿命，在不关闭或进入低功耗模式的情况下连续记录数据
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQsSXxA7ibkOicWdYR20uXT8ibcvaicfVhE1F2NTehBLGjvXwATIDLu11DwAicEicLDXkB1EluFD2ibU3LXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_9_什么是UFS_images\img_005_784c0145ef00.png)
 
 **_图9-5：边缘计算示例---AI摄像头_**
 

@@ -18,13 +18,13 @@ NPN型IGBT和N沟道增强型MOS管外形看起来是差不多的，如下图：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIqX9Jib6Pxfk8HsKYPic8y0hqxdkKqcAdliblQWvxCPfoftFMJfmLNOAe6UDhwFjcgKnWsHbSuA4UwQ/640?wx_fmt=jpeg)
+![](MOS管和IGBT对比_images/img_000_abaf1996b900.jpg)
 
 3.体二极管
 
 体二极管是封装在管子内部的，也叫寄生二极管或续流二极管。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIqX9Jib6Pxfk8HsKYPic8y0hn1LtMJWyVVSTX03co5GS7RUmfibGa5lQXLg2G5PK0zw7NKKu3q6Sutw/640?wx_fmt=jpeg)
+![](MOS管和IGBT对比_images/img_001_4af63441ec45.jpg)
 
 MOS管和IGBT内部一般都有体二极管。具体需要查看规格书。
 

@@ -13,7 +13,7 @@ SiC MOSFET（碳化硅金属-氧化物-半导体场效应晶体管）相比传�
 
 综上所述，SiC MOSFET在短路情况下的保护不仅需要技术上的创新，还需要对器件特性有深入的理解和精确的控制，以确保其在实际应用中的安全性和可靠性‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl7gz39Aa134EBnxkYqLeU3X0liaRia6nG4X1NMIqIFjl4eajj93fpbxUEm0Jj9OqrmqYGZJO5kf9icQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET短路特性_短路保护分析_images/img_000_2ea3dd2c8895.png)
 
 **SiC MOSFET的短路保护**
 
@@ -51,7 +51,7 @@ SiC MOSFET独特的正温度系数跨导导致其开通时的dI/dt和dV/dt 随�
 
 两种常见的短路测试方法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl7gz39Aa134EBnxkYqLeU3AxsBl04C6W3IpbZ0ofmJ3IA08SqCwr9bkwpeEE8wsHw0HZsxxCU91w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET短路特性_短路保护分析_images/img_002_2f0d30674ec0.png)
 
   
 
@@ -79,7 +79,7 @@ SiC MOSFET独特的正温度系数跨导导致其开通时的dI/dt和dV/dt 随�
 
 目前，SiC MOSFET的短路失效模型主要有栅源级失效和热逃逸失效；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl7gz39Aa134EBnxkYqLeU3iaCxBRMibuowt8nGhODsBnqKfWeLTCPhXWk7qQ14vzDHRxyo2Mbuz5Hw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET短路特性_短路保护分析_images/img_005_7ab3b05572cd.png)
 
   
 
@@ -113,7 +113,7 @@ SiC MOSFET在短路情况下表现出独特的特性，需要特定的保护措�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET短路特性_短路保护分析_images/img_008_318ead5d55de.jpg)
 
   
 
@@ -123,4 +123,4 @@ SiC MOSFET在短路情况下表现出独特的特性，需要特定的保护措�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET短路特性_短路保护分析_images/img_009_3ade3c3d8599.jpg)![](SiC_MOSFET短路特性_短路保护分析_images/img_010_84aa944feb13.jpg)

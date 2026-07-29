@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/uNoJKkl4DY-7NsOw62Sd\_w](https://mp.weixin.qq.com/s/uNoJKkl4DY-7NsOw62Sd_w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLt3eH5iagW2xuPibkOgEK9OTK8XJ5hqoQic1xE2occZA4nttVqardpUL4Q/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_000_ee6f7c96dc18.png)
 
 ____**★★★**______DC-DC-17---FB分压电阻的设计______**★★★**____
 
@@ -19,7 +19,7 @@ ___________€1.功耗和效率___________
 
 待机功耗，DC-DC待机时EA也是在工作的，只是此时没有Rload，如果器件经常处于待机状态，那么就需要考虑如何减小待机功耗，如果器件工作时间居多，待机功耗可以忽略不计。在含电池或者对能效有要求的设备中，我们可以适当增大FB分压电阻阻值来减小设备待机功耗。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DptZibMrL6LFJM4uHYMAH8ajFvvwbv28JC4tJeDKl9QGZQNiadia3zL5ISQ/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_001_f2d99c69f3f6.png)
 
 **_图17-1：典型的电阻分压式反馈拓扑_**
 
@@ -27,41 +27,41 @@ __________€2.输出电压精度__________
 
 根据上面所说，R1+R2的取值应该越大越好，但实际情况是，选择的电阻过大会影响DC-DC的输出电压精度，因为存在进入DC-DC反馈引脚FB的漏电流。由**_图17-1_**所示电流分径有：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLxOClxsoacrYQ7mFdDPDZVmtUOaaw8SxOo8AUOO3dc8WRnPHqyju8xg/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_002_650133b04d93.png)
 
 再根据基尔霍夫电流定律有：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpkCYVI2l6cDDSscFib241vsHaonPwEQ8N9kicGJ3qye8ibPt4YNeHRNib2g/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_003_78b417bc357c.png)
 
 当反馈电流IFB固定不变时，IR1随着R1和R2的值增加而减小，因此分压器电阻增加也意味着进入反馈引脚的IR1漏电流百分比更大，并且IR2降低，从而产生低于预期的反馈引脚电压VFB。我们将VFB同内部基准电压Vref比较以此来输出电压，反馈电压的任何一点误差都会导致输出电压不精确。但是IFB在实际系统中并非固定不变，不同的器件均不相同，并且也随工作状态而变化。要想估算出漏电流引起的输出电压极端变化情况，需要在计算中使用IFB的最大规定值。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLOto7TdWreBBkxFJVHd98XhyYo1vCDMyvph4HVUsQfh6A2VFWCRW3Vw/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_004_5932a0d57cb2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBL6xehicsB7uHoMdMPglqIzqOruicHMCdHr31ZPXwq05m2Am1aTs33EdHQ/640?wx_fmt=png)  
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_005_25dd8f5a2821.png)  
 
 __________€3.补偿器增益__________
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLRsWs5tNPPxdkYqKlPScBXmLSR2FwMib17jU0jvIKSRD2NbVQRv0fzfg/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_006_c20ddc912ac7.png)
 
 **_图17-2：电流型运放_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLmQnjMNNe11TdbYJBjxPUdiatgIqPVicwXVWWS8rb5RgM3kHMibQkhHXRw/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_007_d75fa1c78730.png)
 
 如**_图17-2_**为电流型运放补偿网络，其中Gm为运放跨导系数，Zf(S)为RC补偿网络函数，电流型运放的Gea(S)与R1和R2的比值有关，但电流型运放补偿器增益与R1、R2取值并无直接关联。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLcNKq6J62QeSVBEvlSBc46UTBALThamOpP5186NUKMnp2dfu9ibBCaibg/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_008_c40c1daa446f.png)
 
 **_图17-3：电压型运放_**  
 
 如**_图17-3_**为电压型运放补偿网络，当反馈电阻只是单电阻的情况时，  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLMBwZH3yZSChXiazlSGzBn8IYT8xibUxkBKvic2lXiaXeQjtGI5gOia4oDGg/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_009_a5aabc613ad8.png)
 
 其中Zf(S)为RC补偿网络函数，当反馈网络只是单电阻情况时，电压型运放补偿器增益Gea(S)与上变压电阻R1有关。在动态负载对纹波有要求的场景，我们可以调整R1阻值做进一步优化，为了保证输出电压精度，FB分压电阻不能选择极大阻值，建议分压电压阻值满足：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLgA9iaGnpjs000xGJ9qwib8z6Y1dgiaEK5BAnYqFLEg70acmoATG5pI6PQ/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_010_f14ec7a1ca6e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLPHic9q2QbHuwjUjpKUM7wNVC3lAzMKoicjJGXtBsHqDyickXprXO2REjw/640?wx_fmt=png)
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_011_d56b4537d112.png)
 
 **_图17-4：常更改下分压电阻_**  
 
@@ -77,11 +77,11 @@ __________€5.布线注意点__________
 
 如**_图17-5_**，FB是误差放大器的负输入端，这是个高阻抗脚位，因此容易耦合一些噪声。在实际应用中，常常会遇见分压电阻R1和R2放在输出电容端，导致FB走线较长。这条走线充当了天线，更加容易符合非真实反馈，进而引起输出电压变化或者不稳。在电路布线中，我们需要短FB走线，分压电阻尽可能靠近DC-DC本体。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLJWX0ArJ8fqm5MIvw1SXicED29aCKE2Ska9fM18Bdx5scgHegMibatzrw/640?wx_fmt=png)**_图17-5：长FB走线带来的天线耦合效应_**
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_012_c24a59576e44.png)**_图17-5：长FB走线带来的天线耦合效应_**
 
 R1和R2应靠近IC的FB拐角布置，而Vout是直流电平，抗干扰能力强可以长走线。一般在输出电流只有几A时，R2的地可以选择在芯片的地附近连接。但是如果输出电流大于10A，Vout线上会损失电压（Vdrop），导致实际的输出电压会比预设电压低。这种情况我们建议如**_图17-6_**所示，近端接地，远端采样。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLiaA6WTlyeYrmkj9gliaydUWZOpxzgVDvGOdLpiarsa0uBgUuYeBB5A6yQ/640?wx_fmt=png)**_图17-6：大电流建议layout的样式_**
+![](DC_DC_17_DC_DC的分压电阻为什么不能随便取值_images/img_013_8f3cc89a7174.png)**_图17-6：大电流建议layout的样式_**
 
 建议FB走线要尽可能短，尽可能不分层，且周围不要有干扰源，比如开关、电感以及不干净的GND。
 

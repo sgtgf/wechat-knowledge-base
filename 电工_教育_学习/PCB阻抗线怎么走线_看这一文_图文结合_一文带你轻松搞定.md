@@ -28,7 +28,7 @@ USB协议中定义（D+、D-）、（TX+、TX-）、（Rx+、RX-）差分信号�
 
 **1、元件PAD尽量靠近排列，缩短PADS之间的距离，使差分线尽可能短，过孔尽可能少。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdJZXicDklvNQbYlwVibwkJuunVyQxhbl3k203x971CLnf6ZNTRv2eRwjUJFibYTI2RCgQy93ib1hHEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_002_f0162d376db1.png)
 
 元件PAD尽量靠近排列
 
@@ -36,25 +36,25 @@ USB协议中定义（D+、D-）、（TX+、TX-）、（Rx+、RX-）差分信号�
 
 **2、路线应平行，对称，不允许走90°角线，应走45°或圆弧走线。线间距控制在4mil以内。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdJZXicDklvNQbYlwVibwkJuOXsq87MibhqJz5smwPgAu6LIGvQAsuzNPIZec5TcHwOVibPoiaNCRJCUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_003_4c588b089e04.png)
 
 走45°或圆弧走线
 
 **3、串联电阻、电容时，应上下或左右对齐。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdJZXicDklvNQbYlwVibwkJuULawHNKufQibHSia8fat1jcFicy1eWgh8RGf4c3mKmRicz4jo3IC5yFJrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_004_4a4cd9cabe7b.png)
 
 上下或左右对齐
 
 **4、差分阻抗线尽量等距、等距，避免时序偏差和共模干扰。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdJZXicDklvNQbYlwVibwkJuSBRT3jTws4MB6J2SFEtYJjbOqeUq3tibobkDPvqUJZ1sgRTsLtkURpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_005_1619abc312a5.png)
 
 差分阻抗线尽量等距、等距
 
 5、由于引脚分布、过孔、走线空间等因素，差分阻抗线长容易不匹配。一旦线路长度不匹配，时序就会发生偏移，从而降低信号质量。因此，****需要对差分对的不匹配进行相应的补偿，使线路长度匹配。长度差通常控制在5MIL以内，补偿原则是对出现长度差的部位进行补偿。****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdJZXicDklvNQbYlwVibwkJuhurC2mjl47FeFt5FXG1TNc2z7XibJ5eN9iaxOUeFTtZWJwia49ttiambUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_006_bc56d22b35ba.png)
 
 对差分对的不匹配进行相应的补偿，使线路长度匹配
 
@@ -85,9 +85,9 @@ USB协议中定义（D+、D-）、（TX+、TX-）、（Rx+、RX-）差分信号�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_007_27e4e85ce630.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_008_26e7c42e5929.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_009_86e7b1720ef8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_010_607a9b5809f6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_011_c337f32f2ad2.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_012_845d28096f90.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_013_2e2b5ebc409a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_014_16e467ebcf07.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_015_ebed19ebd456.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_016_de9b387fc9a9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_017_fb5805018722.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_018_25764f7ff52f.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_019_f992681cd3b5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_020_d13d18656a84.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_021_fbbfff43554c.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB阻抗线怎么走线_看这一文_图文结合_一文带你轻松搞定_images\img_022_05704500a9db.gif)
 
 ## 
 

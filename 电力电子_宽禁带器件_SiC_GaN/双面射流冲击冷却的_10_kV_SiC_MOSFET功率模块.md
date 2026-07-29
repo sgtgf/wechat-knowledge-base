@@ -15,76 +15,76 @@
 
 这些应用案例展示了碳化硅MOSFET功率模块在实现高密度、‌高速应用方面的巨大潜力和价值。‌随着技术的进步和应用场景的不断拓展，‌碳化硅MOSFET的应用前景将更加广阔。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibvwqlLfWVIONFd4SbEW8Mgx9Jwyp2uCmHpjt0gfibULRyLzI05TBNsNg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_000_ce726cff0638.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibicM4MU1OiaWL5YiaY5NpNWrqYP98K0xIwhBo4tPaOcBPaFrrEeHZ8nZuw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_001_adb90ec8496f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibh5esHmOrnbvZoPQONBzhOrkNVJKWpJzt5CR8wL8DVoS4IibWnNtgxaA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_002_fae76be4a026.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibvQpqeXAicYhmpE0nrHhNKhZFnayaf1mfezicZC28ibLs5aNkMGIxOVejg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_003_c3e15f34b4c9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibXJbXjQdDRZ1SOcOFpAcKSxwCgEssQgEyFsRbOpM9TBHnwGzqVCI11A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_004_9baa21918820.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibgN5KCicBc4lECCXqibHxAx4HtEsjGiagCKQIMB1tibkmlcFT1QDIfia9acw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_005_d99318c773d9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibfcj6dPr2cG5tEpyADmTIGpQJYZd6qglDefUzk3AT6QsLysAlwhN8rA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_006_96a4486e78ee.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibRiclq3phQxgBMaeBAaXkgm8FMhtonHZibico8oBq278ibOxb9dXwRS54Mw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_007_e76443fd3e7a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibc6BnE8xn1iafkQtzHf5Y0wxwTCc4C3EOlg9lzIuwpk5f2kXHNcibKJ7g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_008_3851ee964e61.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibFjJWc62RibAiazXkLeXwSbhXwt2NAqSVq8hnRZHF8CKCka6TpdicXBAaw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_009_a946532e4b5d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibWaA46smWjPXQ9jRVY9qO506dpvSrTor2FCTVzBLuiakDNZVkvdEib7PA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_010_8e60ea326342.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibAiamAqZB74Xic5vbGHgjAJ3PWl5b5C9OWSxQneiabT3CBRf42kscYs3AA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_011_70f08b51c469.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibOTiavPw1vMXcJ04E4kaTBS1yehbnjVBehVdC92FmQyK846xVqBHCKWw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_012_b5ac3e895dd6.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibTw1JLcO2KyGXWMe6Ae72aibmKD8Q3nf1BUqnQE20I5CcstPRib7NniaVA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_013_6d6c03f3db13.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibFgthziag7OzcMcs92IoCibBRdU0Xia7Fh4Wvia7ZFGtBgnfib9XLRstXzRw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_014_44fd6922b40a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfiblvYFKVib7O8wQvsqqpqr2o5V2XiaMVHen9mEZ34uYqeqXksiblGjb5ctg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_015_e0366ecf668c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibD63Z79N7uAkyyODIKaHDFkDJpnKxTNV7ye9coOhqnnLUAdAzpMnNSg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_016_30d4f945c816.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibWFJdMJaoDmMURSH8NvkbDvORDPxKhianxxJoLkahKzpu5FskHjgHltw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_017_b52f0da5ec1f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibE9lWFiaC0Zl3vtZVJlexKMngrBeQDWibXTjyPQZA1guyLnXY9c4rCjvg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_018_be70662a0afb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibqfmCHhXcjatLtsHSYv1R2OXawh0FeLqxDK03v63PHFMFK5oMX5XaFg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_019_ee590fd2c836.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibgTe7gKe05tZlHxGj1gZeycBKolA1IhUDF2T91rCMXafuRndBb2LYMg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_020_58cc1968e5ba.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibfOyqAfxcvFVOH1d4LmP1mXyOeTFiaUKiazE1IOlvjyUF7Vagr6ZEianUw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_021_86c0e310dbc4.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibeOw4G1NbOuWLF0aFe9FN4ibV4gTibSVbNQ6DSYneWib60xnwcd9Z3o1eA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_022_1fa38f4cc20a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibY2gyUnE4316lpsOSh7dE45zLqvBp0srOS9K4noVo3Nmjs4jibju6eYw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_023_284c781404b5.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibkSe83icCibTPdzicwLHu1fYQKiaYOunfb4VChibvBPxxU7HS3wU5u6MQbLA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_024_d5d6b3aba793.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibdibCibBCkYttN4Dcu1oLL3gRS7ibI25lCx7XCxibziaRq9yyJ7kiaGib7Vwzg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_025_937e7737321b.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibeTQNWeeft9Hz7icI2obE4b52dltLMXyiau6RthYAWVtwxpB8CcXIxyhg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_026_3665cb0add64.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibKeURDLoJTT0ibCYtcGicbcJjkzXAicBWrBg0XWy5ZYOA80NMcdaibytgRw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_027_b2392cefceda.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibicAdn2NKVdkP6p70kt2C8J0m5NN2D3QjCFn7Tu2ibqfKEUS1R29m12Yw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_028_6c9abb9f0422.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibv9ibu2AhVLUswwvEAlc4BTI6OvUWaSjKQalJFyibgwZ5OYukViaXKFU9Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_029_864bef062bdf.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibUMlpcdLedKp3iaFYu2bjlnMe52GnQ3LjtYNmpFldPWDD1ZQ6icibXqSHQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_030_d277c62a2cb6.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibaRncVprsBicdAx0q5waNRicNoBgtXOWz3RTPFc1xf1Q6T6NoLqhPtrUQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_031_8578394b47f6.jpg)
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qo7HKGYbxCjhQqib4hdWcLKybY84EMwfibneBQxjmVSyFEhPF0UV8AnEoyXY8g5pgI17LIs1ufEpCLEppbQalZww/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_032_5f46e4b696ab.jpg)**
 
 文章来源：芯报告·技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_033_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_034_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面射流冲击冷却的_10_kV_SiC_MOSFET功率模块_images\img_035_84aa944feb13.jpg)

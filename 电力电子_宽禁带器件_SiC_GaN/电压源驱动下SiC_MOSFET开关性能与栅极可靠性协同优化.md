@@ -32,7 +32,7 @@
 
 考虑寄生参数的电感负载双脉冲测试电路如图 1所示。 其中:VDC为直流母线电压;Lload 为感性负载,其感值远大于各杂散电感,在开关瞬态过程中可以等效为恒定的电流源,为半桥电路提供负载电流IL;vdriver\_h及 vdriver\_l是栅极电压源驱动的输出电压,其通过在正压 VGG 和负压 VSS 间切换以控制功率器件的开通和关断。 RG\_h 和 RG 是栅极驱动电阻,可用于控制功率器件的整体开关速度。 图中的虚线方框内分别为 SiC MOSFET Qh和Ql,包括各自的理想 MOSFET 模型、体二极管 Dbody 和封装内部的其他寄生参数。 内部寄生参数则包括各自的漏极寄生电感 LD、共源极寄生电感 LS、栅-源极结电容 CGS、漏-源极结电容 CDS、漏 - 栅极结电容 CDG。 Lloop1 和 Lloop2 为功率回路 PCB 板 连接线之间互联寄生电感的集总参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh099YOyzicSIFtbu1765EzWKp7AfcVGWEkRVk8LrliaWrwdQ9HEMOA2bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_000_721d612cc26e.png)
 
 1\. 1 开通过程开关行为分析
 
@@ -40,37 +40,37 @@
 
 t0 时刻,驱动电压 vdriver\_l上升到驱动正压 VGG,进入开通延迟阶段。 随着驱动电压的上升,Ql 的栅极电流 iG\_l主要给其栅源极结电容 CGS\_l充电,栅源极电压 vGS\_l逐渐上升。 t1 时刻,栅源极电压 vGS\_l 达到阈值电压 VTH,该阶段结束。 在该阶段,器件 Ql 保持截止状态,器件沟道中几乎没有功率回路电流。 该阶段的持续时间可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhY2Sb6caNwbHfH1PDQHMusibr9JC9qVwrnhzXiboqDICCGhpgFrrGicBkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_001_f3ef478fd255.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhT8To0a4gsJJ26qh5YtlKSDyj273kib8NPtj0RHHBUkGibjMdQZCeIJuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_002_91ad906bcb3f.png)
 
 现有文献通常都是基于上述仅使用驱动电阻的栅极参数配置分析 SiC MOSFET 的开关性能, 如图 3( a) 所示,而在实际应用中,还可以采用驱动电阻 + 栅源极驱动电容的混合参数方案,其电路示意图如图 3( b) 所示。 为得到近似的开关性能,混合方案中的驱动电阻 R′G 须小于仅使用驱动电阻方案中的驱动电阻 RG,再附加额外的电容 CG,假设 R′G =kRG,且 0 < k < 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhDO9a1MpDc8DIlxWwy2edIag79HLaliamILMvuMMY489R89H0e42nBWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_003_8dd55d69f7d6.png)
 
 在混合方案中,附加的额外栅源极电容可以等效为与器件本身的栅源极电容 CGS\_l 并联,则其持续时间可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhffCWnI2H23NIHkXaPexJGM7aGgibZjLX03h7EbzeO1NvSsX3bZn9W4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_004_e513aaa1b319.png)
 
 可见,在混合方案结果中仅是将由驱动电阻和总栅源极电容乘积得到的驱动回路时间常数RGCGS\_l替换为新的驱动回路时间常数 R′G ( CGS\_l + CG ) ,考虑到混合方案中的栅极电阻 R′G 小于 RG,因此在附加了额外的电容 CG 之后仍可以得到与纯电阻方案近似的时间常数,使得最终该阶段的持续时间基本相等。
 
 从 t1 时刻开始,随着栅源极电压 vGS\_l 的持续升高,器件 Ql的沟道逐渐打开,负载电流开始从 Qh 的体二极管逐渐向 Ql 转移,Ql 漏源极电流 iDS\_l 同步上升。 受换流过程影响,功率环路寄生电感上会出现由电流变化率导致的压降,相应的,此时器件 Ql 的漏源极电压 vDS\_l 也会降低,其漏源极结电容 CDS\_l 和漏栅极结电容 CDG\_l 放电,流过其沟道,同时栅极电流 iG\_l中的一部分也会流入漏栅极结电容 CDG\_l。 t2时刻,iDS \_l 达到负载电流 IL,上管 Qh 体二极管截止,该阶段结束,此时 vGS\_l 所达到的电压值被称为米勒平台电压 Vmiller。 对于纯电阻方案,该阶段主动管 Ql漏源极电流 iDS\_l的平均电流变化率可以近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhbZxjiceNgBqAiaatwEyelgplEE0ibFrdcj489ibwNZdVhKibFGRpIFxPyKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_005_837b91e634fe.png)
 
 式中 gm为 SiC MOSFET 的跨导,主动管 Ql 的输入电容 Ciss\_l = CGS\_l + CDG\_l。 在动态过程的计算过程中,跨导 gm、非线性寄生电容 CDS 和 CDG 可以取其平均值。 相应的,混合方案的平均电流变化率可以近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhvZfj2mESliafKicgtmHQcdEGpvYUFyGibKJA7ZibJwFhn5G1Diafbl8ZoMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_006_82b1e8ebf67a.png)
 
 与开通延迟阶段类似,在混合方案中,纯电阻方案表达式中关于驱动回路时间常数的系数 RG Ciss\_l会被新的系数 R′G( Ciss\_l + CG) 代替,因此在两种方案的时间常数近似的情况下,两种方案在这一阶段的开关性能也是近似的。
 
 t2 时刻之后,下管 Ql 的漏源极电压 vDS\_l 开始快速下降,栅极电流 iG\_l中大部分电荷都用于漏栅极结电容 CDG\_l的放电过程,而流入栅源极电容 CGS\_l 的部分则非常少, 栅源极 电压 vGS\_l 保持在米勒电压Vmiller。 此外,该过程还伴随着上管 Qh 体二极管的漏源极电压 vDS\_h 上升过程, 因此下管 Ql 漏源极 电流iDS\_l需要同时承担负载电流 IL以及上管 Qh 漏源极结电容 CDS\_h的充电电流。 t3 时刻,当下管 Ql 漏源极电压 vDS\_l下降至导通压降 vDS\_on 时,该阶段结束。 纯电阻方案下该阶段的平均电压变化率可以近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh32ljXMmlib98acAW1ibRWCwaOfnwicJicPGMlMt4kicKlHnBcepPyVUpOcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_007_9a574529c710.png)
 
 在混合方案中, 平均电压变化率可以近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhow215ibF8icmSWne2jEicMumaoFxJcjC31PBDvKAjoAZWMpQzV6U1Qcpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_008_54247e91e679.png)
 
 与前两个阶段不同的是,由于在该阶段中主动管 Ql的栅源极电压 vGS\_l维持在米勒平台电压几乎不变,导致该阶段表达式中关于驱动回路时间常数的系数不再是RG CGS\_l, 而是RG CDG\_l, 因此栅极电阻R′G 更小的混合方案在该阶段具有更高的电压变化率,更快的开关速度以及更低的开关损耗。
 
@@ -82,7 +82,7 @@ t2 时刻之后,下管 Ql 的漏源极电压 vDS\_l 开始快速下降,栅极电
 
 SiC MOSFET 关断过程通常也被分为 4 个阶段,如图 4 所示,包括关断延迟阶段( t5 ~ t6 ) 、漏源极电压上升阶段( t6 ~ t7 ) 、漏源极电流下降阶段( t7 ~ t8 )和栅源极电压继续下降阶段( t8 ~ t9 ) 。 在 t5 时刻之前,下管 Ql的驱动电压 vdriver\_l 为正压VGG,器件处于导通状态,漏源极电流iDS\_l 为负载电流 IL,同时漏源极电压vDS\_l为导通压降 vDS\_on,母线电压 VDC 由上管Qh承担。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhoZJbexjMkK0b6mtIDSryVPAuibImnOicMt0icCaibk46rs6iappkmg0nwibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_009_53adc54ac6f6.png)
 
 t5 时刻,驱动电压 vdriver\_l 降低至驱动负压 VSS,开始关断。 随着栅源极电压 vGS\_l 下降,下管 Ql 的栅源极结电容 CGS\_l通过栅极电流 iG\_l 放电。 直至 t6 时刻降低至米勒电压 Vmiller,该阶段结束。 在该阶段,器件 Ql依然保持导通状态,器件沟道电流依然保持在负载电流 IL,且漏源极电压 vDS\_l为导通压降。
 
@@ -90,7 +90,7 @@ t6 时刻之后,开始漏源极电压上升阶段,下管 Ql的漏栅极电容 CD
 
 t7 时刻之后,随着下管 Ql 栅源极电压 vGS\_l 继续降低,器件 Ql的沟道逐渐关闭,漏源极电流 iDS\_l 开始快速下降,负载电流开始从下管 Ql向上管 Qh的体二极管转移。 由于该阶段功率环路中电流的快速变化,会在功率环路寄生电感上产生较大的负向压降,而这一压降会反向叠加到下管 Ql 漏源极电压 vDS\_l上,形成关断过电压尖峰。 在电压尖峰形成过程中,下管 Ql 漏源极结电容 CDS\_l 和漏栅极结电容 CDG\_l 充电,因此此时流入下管 Ql 的漏源极电流 iDS\_l 由结电容充电电流和沟道电流共同组成,其中漏栅极结电容 CDG\_l充电电流同样会汇入栅极电流 iG\_l 中。 t8 时刻,当下管 Ql 栅源极 电 压 vGS\_l 的降至其阈值电压VTH,下管 Ql沟道截止,负载电流 IL 完全换流至上管Qh的体二极管,该阶段结束。 该阶段的平均电流变化率可以参考式(3) 和式(4) 得到,当 2 种方案的时间常数相似时,他们在这一阶段的开关性能也几乎是相同的。 此外,在该阶段中产生的关断电压过冲的大小可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhDqbKk5IWibKtPxGcvicxRWO9Ea55SVltAAs0hXfZhIITruvBFpQWDqdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_010_f2901c9173f2.png)
 
 在 t8 时刻之后为栅源极电压继续下降,t9 时刻,下管 Ql栅源极电压 vGS\_l继续下降至驱动电源负电压VSS,该阶段结束。
 
@@ -102,7 +102,7 @@ t7 时刻之后,随着下管 Ql 栅源极电压 vGS\_l 继续降低,器件 Ql的
 
 在实际电路中,考虑到内部栅极电阻的影响,2种方案的栅极等效电路在开关延迟阶段和电流变化阶段的等效电路阶数并不相同,因此无法简单地通过 RGCiss\_l = R′G( Ciss\_l + CG ) 求解所需要补偿的外部栅极电容 CG,并同时保证纯电阻方案和混合方案在开关延迟阶段和电流变化阶段的栅源极电压变化速度保持一致。 本文以关断过电压作为参数设计时的考量因素,而关断过电压又主要与电流变化阶段的栅源极电压变化速度相关,因此这里以保证电流变化阶段的栅源极电压变化速度一致作为选择外部栅极电容 CG时的设计依据。 在纯电阻方案下的电流变化阶段,栅源极电压时域解可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhLrfLicarK00k8EB4BQY7kGWYibiasoJgWdMSOdBiaGIpDsLCoTfLYCMKuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_011_6ef44fd1cc68.png)
 
 结合式(8) 和式(9) ,可以在令 2 种方案所得到的栅源极电压上升时间近似的前提下,求得所需要补偿的外部栅极电容 CG 的数值解。 由于在产生关断过电压尖峰的时刻,器件已经处于完全导通状态,因此非线性参数 gm 可取其跨导特性曲线中沟道电流与 vGS呈线性关系区域的恒定值。
 
@@ -116,13 +116,13 @@ t7 时刻之后,随着下管 Ql 栅源极电压 vGS\_l 继续降低,器件 Ql的
 
 以开通过程为例,在电流变化阶段,主动管 Ql漏源极电流 iDS\_l剧烈上升,并与被动管 Qh 体二极管电流发生换流,此时被动管 Qh 栅极回路中共源极电感 LS\_h上会产生压降,该过程中被动管 Qh 电流方向为由源极 Sh 流向漏极 Dh,且电流急剧减小,因此共源极电感 LS\_h上压降为上正下负。 根据基尔霍夫电压定律,此时被动管 Qh的栅源极电容 CGS\_h需进行放电,这就会使原本维持在驱动负电压 VSS 的被动管Qh的栅源极电压 vGS\_h出现负向尖峰。 在这一阶段的串扰现象的微分方程可以表示为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhu7p6sc10DLXSfKs6HoiaOtV7Urk8MO3OELpQesJxKibyibnqGtdMAZKyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_012_97f1a480651a.png)
 
 式中栅源极电压变化量 ΔvGS\_h = vGS\_h - VSS,此时体二极管电流 iSD\_h 的电流变化率为负值,其大小与主动管 Ql的漏源极电流 iDS\_l的变化率基本相等。
 
 将被动管的电流变化率与其共源极电感的乘积得到的等效电压源 VK作为输入,将所引起的被动管Qh的栅源极电压的变化量 ΔvGS\_h 作为输出, 根据式(10) ~ 式(12) 得到传递函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhKf80b2iaJVPT8WTRojpP8Qvv84gEdzkxcjqnTDcSmAHNb277RfxGLyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_013_77e4dac3e5a5.png)
 
 电流变化过程可以近似等效为斜坡信号,则电流变化率可以等效为脉冲信号,因此可以通过求解上式的冲激响应近似得到串扰的时域解。
 
@@ -130,53 +130,53 @@ t7 时刻之后,随着下管 Ql 栅源极电压 vGS\_l 继续降低,器件 Ql的
 
 图 5( b) 为不同驱动栅极电容情况下由电流变化引起的串扰的冲击响应结果,其中总栅源极电容C′GS =CGS + CG,被动管 Qh 驱动电阻 RG 保持为 5 Ω。 由图可见,随着总栅源极电容 C′GS 增大,由功率回路电流变化所引起的被动管 Qh栅源极电压变化量 ΔvGS\_h 逐渐减小。 相比于纯电阻方案,具有相近电流变化速度的混合方案中的驱动电阻减小,总栅源极电容增大,因此由驱动电阻和栅源电容单一变化对由电流变化所引起串扰影响的对比结果无法轻易的确定两种参数配置的性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhEoHabgeic37T8G4F8VAg2zOS4Y774Cx9YKy9hUT4dAniaJDZHAkd3XEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_014_63b3f343a4f9.png)
 
 在电压变化阶段,主动管 Ql 漏源极电压 vDS\_l 剧烈下降,被动管 Qh 漏源极电压 vDS\_h 同步上升,其漏栅极结电容 CDG\_h和漏源极结电容 CDS\_h快速充电,漏栅极电容 CDG\_h 的充电电流流入被动管的驱动回路中,这部分电流中的一部分会流经驱动电阻后流入驱动电源,另一部分则会流入其栅源极电容 CGS\_h,使被动管Qh 的栅源极电压 vGS\_h 出现正向尖峰。 在这一阶段的串扰现象的微分方程可以表示为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh10totSbFUHy6taHiaUCd6acPlSu4ibYib5OIRhMqf7O0FpuvMNT0dVdxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_015_acea1a1567c8.png)
 
 式中,被动管 Qh的漏源极电压 vDS\_h 电压变化率为正值,其大小与主动管 Ql 的漏源极电压 vDS\_l 的变化率基本相等。
 
 将被动管的漏 - 栅极电压变化率与其漏 - 栅极结电容的乘积得到的等效电流源 IM 作为系统的输入,将所引起的被动管 Qh 的栅源极电压的变化量ΔvGS\_h作为输出,根据式(14) ~ 式(16) 得到传递函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhicYFCXiah9OSr1o7iaoOdUUTMMuicDb8DyPjDvecQTUAU3vJkv52Ls5icCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_016_0ff6b6de4f1f.png)
 
 电压变化过程也可以近似等效为斜坡信号,则电压变化率可以等效为脉冲信号,因此可以通过求解上式的冲激响应近似得到串扰的时域解。
 
 图 6( a) 为不同驱动电阻情况下由电压变化引起串扰的冲击响应结果,当驱动电阻 RG 增大时,由漏源极电压变化所引起的被动管 Qh 栅源极电压变化量ΔvGS\_h逐渐增大。 图 6( b) 为不同驱动栅极电容情况下由电压变化引起串扰的冲击响应结果,当总栅源极电容 C′GS增大时,由漏源极电压变化所引起的被动管 Qh栅源极电压变化量 ΔvGS\_h 逐渐减小。 因此,对于具有更小的驱动电阻和更大的总栅源极电容的混合栅极驱动参数方案而言,其在抑制由漏源极电压变化所引起的串扰方面具有更加优异的性能。主动管 Ql 关断过程的串扰与开通过 程类似。在主动管漏源极电压上升阶段,被动管 Qh 漏源极电压 vDS\_h下降,其漏栅极结电容 CDG\_h 和漏源极结电容CDS\_h快速放电,从驱动回路中抽取电荷,栅源极电容CGS\_ h强制放电,被动管 Qh的栅源极电压 vGS\_h 出现负向尖峰。 主动管漏源极电流下降阶段,剧烈变化的电流变化会在被动管 Qh 栅极回路中的共源极电感LS\_h上会产生压降,此时电流方向为由源极 Sh 流向漏极 Dh,电流值急剧增大,共源极电感 LS\_h上压降上负下正,被动管 Qh 的栅源极电容 CGS\_h 需进行充电,栅源极电压 vGS\_h出现正向尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhRgibVZMxE0MAzEWNIL2w8TliaqLq6pjece6ia5h7S5Qz4ZE23gIjvT1vw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_017_5afff1103552.png)
 
 2 栅极参数优化实验验证
 
 搭建感性负载双脉冲测试平台如图 7 所示。 测试的 SiC MOSFET是CREE公司1700 V/300 A 半桥模块 CAS300M17BM2。 将 2 个并联的空心电感作为感性负载,Lload = 40 μH。 实验直流母线电压为800 V,IL为 230 A,驱动正电压 VGG 为 20 V,驱动负电压 VSS 为 - 6 V。 使用 Tektronix MDO3034 示波器进行测量,分别使用带接地弹簧的无源探头 Tektro-nix TPP0500B、 高压差分探头Tektronix THDP0200和电流探头PEM CWT Mini 3B Rogowski Coil 测量vGS、vDS和 iDS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhibzuKricQWGTrMSgTTbtvJR3ulWvZAB0zTRutZae2v4t30QiaXWonwgCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_018_8a552e411a7f.png)
 
 2\. 1 主动管开关性能实验对比
 
 在主动管开关性能测试中, 下管 Ql 作 为 主 动管,上管 Qh作为反向二极管使用,其驱动电压保持负压。 图 8 所示为纯电阻方案参数固定,混合方案的驱动电阻比例 k 不同时的开关过程波形对比。 其中纯电阻方案 RGD 的驱动电阻 RG = 10 Ω,混合方案 RCGD1、RCGD2、RCGD3 的 k 值分别为 0. 75、0. 5和 0. 25,对应的驱动电阻 R′G分别为 7. 5、5 和2. 5 Ω,根据式(8) 和式(9) ,参考 CAS300M17BM2 模块的数据手册,代入 RGin = 3. 7 Ω、CGS = 20 nF、gm = 133,可得在保证电流变化过程速度相近的混合方案中,补偿电容值 CG 的近似值分别为 25、65、160 nF。 由图可见,纯电阻方案及不同驱动电阻比例下混合方案的关断过电压是相近的,约为 895 V,满足栅极补偿电容的参数选择条件,验证了理论的正确性。在开通过程中,相比于 RGD 方案,随着驱动电阻比例 k 的减小,RCGD 方案的开通延迟时间逐渐增大,栅源极电压在开通延迟阶段和电流上升阶段的幅值逐渐降低,漏源极电流上升变化率相近,而漏源极电压下降变化率随着驱动电阻比例 k 的减小逐渐加快,开通过程前三阶段的总持续时间大于 RGD方案, 且是逐渐增大的。 在关断过程中, 相比于RGD方案,随着驱动电阻比例 k 的减小,RCGD 方案的关断延迟时间逐渐缩短,栅源极电压在关断延迟阶段和电压上升阶段的幅值逐渐降低,下降速度加快,漏源极电压上升变化率随着驱动电阻比例 k 的减小逐渐加快,而漏源极电流下降速度和关断过电压是近似的,关断过程前三阶段的总持续时间略小于 RGD 方案,且逐渐减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhORLYHy0FOCSTN5WeRgtiatHnFCYLuiaJnLXzuoOvLetQYaF1iaiaK4uibVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_019_85f68779b918.png)
 
 统计上述不同栅极参数方案下的开关过程性能参数如图 9 所示。 RGD 方案与具有不同驱动电阻比例的 RCGD 方案在开关过程的电流变化率基本一致,RCGD 方案的电压变化率大于 RGD 方案,且随着驱动电阻比例 k 的减小而逐渐增大。 此 外,RCGD 方案的开关损耗始终小于 RGD 方案,且随着驱动电阻比例 k 的减小而逐渐减小,其中开通损耗减小的幅度较小, 关断损耗减小的幅度较 大, k =0. 25时总体损耗降低 30% 。 考虑到 RCGD 方案具有更大的栅极电容,其开关过程消耗的驱动损耗更大,在一个开关周期内额外消耗的驱动损耗 ΔEG 可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh9IKwSntyVaqH7xicmXEBCcjDw5tLpaibpNCBHRJTq58kRQgUQcuVG0Cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_020_2ac47d810ccc.png)
 
 分别代入补偿的额外栅极电容 25、 65 和160 nF,则一个开关周期内 RCGD 方案的额外驱动损耗约为 0. 015、0. 04 和 0. 1 mJ,相比于 RCGD 在开关损耗中的优势,这一牺牲是微弱的。 但考虑到减小驱动电阻比例 k 对开通延迟时间的影响及对栅极驱动功率设计的限制,在选择 k 的取值时需要根据实际情况进行权衡和取舍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhRhprVldXzZhFyd7fsRjFGicW3tiaW4jOzdzkAuc5pegOmdX0rCllGQag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_021_21d4c31cab7f.png)
 
 为进一步对比不同栅极参数方案下的开关性能,多组具有不同栅极电阻的 RGD 方案下主动管开关性能参数与对应 k = 0. 5 时的 RCGD 方案性能参数的实验结果如图 10 和图 11 所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhyDdsibvlS3NJKzJmDBibGrBccbjPr8atVfbjxTAuKWN5j7beddaC36zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_022_f890bd7001b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh4wMPr3iazwCxibzuP1Gfd6I6bSKxk105lRibMvE0w9tVxEkEicNPCgURWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_023_801c9138c05c.png)
 
 对照组 1 - 5中 RGD 方案和 RCGD 方案的详细参数如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhzRZQIc3J5MVyiaiax1bOCxeCYoibaXiaFRm28HDGzhSnr4ib5ndNxLs9LRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_024_454dd073e11d.png)
 
 在多组实验结果中,RCGD 方案在开关过程的电流变化率始终与 RGD 方案相近,电压变化率明显大于RGD 方案,RCGD 的开通损耗略小于 RGD,关断损耗则具有明显优势,RG = 10 Ω 对照组总体开关损耗降低比例最大, 约为17% 。 在多组结果中, 当 k =0. 5 时 的 RCGD 方案的补偿电容值 CG 均分布在65 nF附近,这里统一取 65 nF,则 RCGD 方案在一个开关周期内的额外驱动损耗均约为 0. 04 mJ,相比于 RCGD 在开关损耗中所具有的优势,这一牺牲是微弱的。
 
@@ -186,23 +186,23 @@ t7 时刻之后,随着下管 Ql 栅源极电压 vGS\_l 继续降低,器件 Ql的
 
 考虑到半桥桥臂上管 Qh 的源极不是稳定的参考地,对其栅源极电压 vGS\_h 的测量只能采用差分探头,如果直接测量其串扰情况,则测量精确度会大大降低 。 因此在本小节中采用针对上管 Qh 的电感负载双脉冲测试电路进行实验, 负载 电感与 Ql 并联,上管 Qh的驱动发出测试脉冲,将下管 Ql 作为被动管并观察其串扰情况,测试条件保持不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhekHI0ibeTyqg5vmT7oaZ615hCnmmcGwFmtvDV8HCXByZKTgxHnic1D1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_025_90f9fab2375e.png)
 
 图 12 所示为主动管 Qh栅极参数固定时被动管Ql 的串扰波形,此处主动管参数固定是为保证由主动管开关行为所引起的电压/电流变化率相同,主动管 Qh始终采用RG = 5 Ω 的纯电阻方案。 被动管则分别是RG = 10 Ω 的纯电阻方案 RGD 以及驱动电阻比例 k 分别为 0. 75、 0. 5 和 0. 25 的混合方案RCGD1、RCGD2、RCGD3,补偿的栅源电容 CG与前文相同。 由图可知,在主动管开通过程中,当驱动电阻比例 k 值较大时,由电流变化引起的负向串扰尖峰受驱动电阻减小的影响占主导地位,k = 0. 75 时的RCGD 方案的负向串扰尖峰要大于 RGD 方案,当 k值逐渐减小,RCGD 方案的负向串扰尖峰也会受到驱动电容增大的影响而逐渐减小。 对于由电压剧烈变化引起的正向串扰尖峰,具有更小栅极电阻和更大栅极电容的 RCGD 方案的电压尖峰要明显小于RGD 方案,且随着驱动电阻比例 k 的减小而不断减小。 同时,即使是在 k = 0. 75 时 RCGD 方案的负向串扰尖峰较大的情况下,整个开通串扰过程的峰峰值依然显著降低,具体的开通串扰峰峰值及变化趋势如图 14 中 vp - p\_on\_S 所示,k = 0. 25 时峰峰值降低76% 。 虽然负向串扰尖峰增大,但由于串扰峰峰值的大大降低,驱动的负电压幅值就可以减小,更小的驱动负压可以降低器件关断状态下的体二极管的导通压降,降低损耗,同时还可以减小长期的驱动负压对于导通电阻偏移的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhZy0DJ0MGd8Q1KuTPKibvcMGiaDPKAflZzrCtWDbuy3DI2l6UI2aHSMCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_026_89f408dd0835.png)
 
 在主动管关断过程中,相比于 RGD 方案,具有更小栅极电阻和更大栅极电容的 RCGD 方案的负向串扰尖峰( 由电压剧烈变化引起) 显著降低,且随着驱动电阻比例 k 的减小而不断减小,其具体的关断串扰峰值及变化趋势如图 14 中 vp - p\_off\_S 所示,k =0. 25 时峰值降低 74% 。 而正向串扰尖峰叠加在负向尖峰后则并不明显,整个关断串扰过程的峰峰值同样显著降低。 此外,由实验波形还可以看出,由电压剧烈变化引起的串扰尖峰明显占据主导地位,由电流剧烈变化引起的串扰尖峰幅值则相对较小。
 
 为进一步对比不同栅极参数配置下的串扰情况,主/被动管具有相同参数情况下 RGD 方案和不同驱动电阻比例 k 的 RCGD 方案的被动管串扰波形如图 13 所示,相应的实验结果数据对比如图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh3cw2ftgtgT7w6iasxwT5ibL7c7uFrCSWgiaCg7GDnuHeofj0NgqSR6FKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_027_57740fea16e1.png)
 
  由图可知,RGCD 方案在主动管开通过程中的串扰峰峰值( vp - p\_on\_D ) 始终明显小于 RCD 方案,且随着驱动电阻比例 k 的减小而不断减小,k = 0. 25时峰值降低 67% ;同时 RGCD 方案在主动管关断过程中的负向串扰峰值 ( vp\_off\_D ) 也要始终明显小于RCD 方案,同样随着驱动电阻比例 k 的减小而不断减小,k = 0. 25 时峰值降低73% 。
 
 类似的,主动管驱动参数相同时,多组具有不同栅极电阻的 RGD 方案下的被动管串扰情况与相应的驱动电阻比例 k = 0. 5 时 RCGD 方案串扰情况的实验数据结果如图 15( a) 所示。 在主动管开通过程中,相比于 RGD 方案,RCGD 方案开通串扰过程的峰峰值显著降低,RG = 5 Ω 对照组降低比例最大,约为 64% 。 在主动管关断过程中,RCGD 方案的负向串扰尖峰显著降低,RG = 12. 5 Ω 对照组降低比例可达 57% 。 此外,当主/被动管参数一致时,多组具有不同栅极电阻的 RGD 方案下的被动管串扰情况与相应的驱动电阻比例 k = 0. 5 时 RCGD 方案串扰情况的实验结果如图 15 ( b) 所示。 类似的,RGCD 方案在主动管开通过 程中的串扰峰峰值明显小于RCD 方案,RG = 10 Ω 对照组降低比例可达 58% 。在主动管关断过程中的负向串扰峰值也明显小于RCD 方案,RG = 10 Ω 对照组降低比例可达 59% 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhxeyWe4A0t0jKPvHYkN9lfn0uKk679CdzYddNnICc2icQ7jlLicFXh19w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_028_72a06bdcc86e.png)
 
 综上所述,相比于纯电阻方案,参数优化后的混合栅极参数可以在关断过电压近似前提下,大大降低作为被动管时的串扰威胁,提高了栅极可靠性。
 
@@ -218,13 +218,13 @@ t7 时刻之后,随着下管 Ql 栅源极电压 vGS\_l 继续降低,器件 Ql的
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbdVPE5Evia0Ipg3TFLGm9RwgGY0ju5IcLMJC7ia9S1lciatEngffm5osCQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_029_95dbabf71400.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbojSEKxFRelqZffmkrtnbBPfCTs1OWaibqkiaiaovSlHaj8gHZ6NibwvY0Q/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_030_a5e49e0d9911.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbgA2AIx2DkzH5SlrHSZvlErx9PxdkZia06dIlffGx8qjoLmVTbl9AQXQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电压源驱动下SiC_MOSFET开关性能与栅极可靠性协同优化_images\img_031_006e03d9decd.png)

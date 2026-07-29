@@ -19,25 +19,25 @@
 
 １.功率器件损耗分析比较
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeMJibTmK8LbQnDy6KnaJkwwpMA4KjqiaRqHXznjnFpM5pyN5qQfN0WMyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_000_7a61e66911ea.png)
 
 为便于对比，表１给出PMSM主要技术指标。图1给出三相桥式逆变器和用于对比研究的SiC MOSFET（型号为CMF10120 ）和Si IGBT（型号为IKW25T120），Si IGBT反并二极管为IDP15E120。SiC基和Si基PMSM驱动器均采用空间矢量脉宽调制（Space Vector Pulse Width Modulation,SVPWM）控制策略。功率器件损耗主要考虑导通损耗和开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neecXzETzajN7OaPlAl01icPhTkljURCfu4rI8cTtJlYuJYmIW3LuStBcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_001_bd136176160b.png)
 
 表２给出了对比器件的主要电气参数和基于双脉冲测试得到的开通、关断能量损耗值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeucBrdoJIJaextJz7cXiaDIoicfvGTNU43w30qOrCgml6yHNWiax9ND0yA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_002_1a5536f89377.png)
 
 1.1导通损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeAdDgkWJ246MVnPRuCOsEI3fav5X71JWDMd9lickBoPeoaWA4SCia0b6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_003_98ca6b8fcc53.png)
 
 IGBT和二极管的导通损耗可以通过器件电特性的分段线性估计获得，图２（ａ）给出IGBT的等效电路模型，图２（ｂ）给出二极管的等效电路模型。
 
 开关管和二极管的导通损耗可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeHeIGHicMHBJYL3biaYGP7m66UWQQnZe4UsU2ooz6TkpRkH1Slibviaibb7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_004_1d0a2330f3f1.png)
 
 式中，PQ（cond）、PD（cond）分别为功率管和二极管的导通损耗；IQ、ID分别为流过功率管和二极管的平均电流；UQ、UD分别为功率管和二极管上的 压降；IQRMS、IDRMS分别为流过功率管和二极管上的电流有效值；RQ、RD分别为功率管和二极管的导通电阻。
 
@@ -49,7 +49,7 @@ SiC MOSFET的导通损耗电路模型和计算过程与Si IGBT相似，这里不
 
 功率管的开关损耗为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeuD3b206YI9IHz5KDx7xdadFy11srGgI14nGuicFwSRoTGpkkQ9srQTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_005_ad7ee3f360ca.png)
 
 式中，Psw为功率管开关损耗；fsw为开关频率；Emax为每个开关周期的开关损耗最大值。
 
@@ -57,25 +57,25 @@ SiC MOSFET的导通损耗电路模型和计算过程与Si IGBT相似，这里不
 
 在开关频率一定的情况下，功率管的占空比可用相角θ表示为，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2nee7icOfh8UOAz8Y3TFw2MCibqX6icWvFpoghjyv3ibeLzJNfqRjR9vTC6ChA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_006_d9b7e2588ca2.png)
 
 一般情况下，由于电动机绕组阻抗呈阻感性，电动机的相电流滞后于相电压，假设滞后角度为Φ。以Ａ相为例，相电流和占空比分别表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neenArltrwwPeM4CYOr30Gz6YnPMuo4vCStzLCLBzuiaqcNessia2CHuibgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_007_9296bc8414c5.png)
 
 式中，Ipcak为相电流峰值。
 
 流过功率管的电流平均值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeyummK6ICd9oYddMuKaibfoTniaGZaZmOxXJ9W6mNRWwRmn54ubtUhcLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_008_4a59417aab61.png)
 
 流过二极管的电流平均值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2nee2Q2YCpseoI5icQpbVSYC1r6seGsmyImgOKBCdJenR3PRXEWicqhib6xlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_009_1fb93089c819.png)
 
 由上述计算可得两种电动机驱动器的功率损耗计算对比结果如表３所 示。 由 表可见，SiC MOSFET基PMSM较Si IGBT基PMSM驱动器的总损耗减少了1/2。在暂未考虑其他损耗，只计及功率部分损耗的情况下，初步效率计算表明，采用SiC功率器件将使整机效率增加约１％。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neepDtArqjSFQK0eFibXVK3VIjiaicBGqgGNT2h5SQVz2ZLlnVianicibjjIsNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_010_c788d8ca6dee.png)
 
 ２ 死区效应分析
 
@@ -85,23 +85,23 @@ SiC MOSFET的导通损耗电路模型和计算过程与Si IGBT相似，这里不
 
 图４为Ａ相桥臂驱动信号和输出电压波形，其中，（ａ）、（ｂ）为Ａ相桥臂理想的上、下管驱动信号，（ｃ）、（ｄ）为相桥臂加死区时间后的驱动信号，（ｅ）为实际输出Ａ相电压波形，阴影部分为死区时间内产生的误差电压，该阴影部分的误差电压极性取决于电动机相电流的方向；td为死区时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeHz1XrRETuM5Pcdh3jRMUWy5TfLMFYicwdkwGqiaHYicyYUoibFCly4YUEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_011_3e3f79093173.png)
 
 在死区时间内存在两种续流情况，它们分别是相电流从上管续流和从下管续流。图５给出了相电压的判断依据。如图５（ａ）所示，当Ａ相相电流为正方向时，其在死区时间内通过下管体二极管进行续流，则Ａ相电压为－Ｅ/2；如图５（ｂ）所示，当Ａ相电流为负方向时，其在死区时间内通过上管体二极管进行续流，则Ａ相电压为E/2。因此，由相电流的极性可知，当相电流为正向 时，死区时间会给PMSM驱动器带来E/2的误差电压；当电流方向为负向时，死区时间会给PMSM驱动器带来-E/2的误差电压，正是由于误差电压的存在，产生的磁通圆偏离了基准磁通圆。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeBztnibBBq428AFtTEWPatPhqKJn2ict0o6RBliaYkzTycAhUoIshHwm8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_012_253bab25c3fd.png)
 
 以第３扇区为 例，图６给出了第３扇区的驱动器输出电压波形，阴影部分的 误差电压极性根据电流方向判断，以iA、iB、iC极性“负、正、负”为例分析电压矢量的变化情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2nee7zsGZCUh9spXiaTLVMJibDkibNMt4aZibBtP6jcHpnmC6oN4oRx7cUF9vA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_013_a742e5c8e397.png)
 
 由图６可见，电压矢量V4作用时间增加了2td，V6作用时间减少了2td，零向量V0、V7一个增加了2td，一个减少了2td，相互抵消。用向量图表示成如图７所示，误差向量ΔV4和ΔV6两者合成的电压矢量为ΔV2，其作用时间也是2td，幅值为4Etd/（３ｔ），较V4滞后60°。同样地可以推导出其他情况下的误差电压矢量，如图８所示，可根据相电流方向确定误差电压在α、β轴上的分量，如表４所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2nee4wHK0TuARm9N84qSODF9hAFfbibHTZicSu52KollUj99U4at6pgVtPdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_014_e41e211b3202.png)
 
 从表４可见，死区产生的误差电压只与母线电压和死区时间有关，当死区时间越大，误差电压在α、β轴上 的 分 量 越 大，矢量控制产生的磁通圆磁场偏离基准磁通圆形磁场越严重，从而导致电机相电流畸变越大，故电动机的转矩脉动越大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeCL8uBjXXjFJDpT8iawGu4AU4x1zgqHnjxPSMHecX9ib76ibibvmxvA5fGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_015_03106e49ce33.png)
 
 2.2　仿真分析
 
@@ -109,7 +109,7 @@ SiC MOSFET的导通损耗电路模型和计算过程与Si IGBT相似，这里不
 
 由图９可见，td越小，电动机相电流波形畸变越小，转矩脉动就越小。因此，可以通过减小开关器件的死区时间来减小电动机的转矩脉动和电流畸变。由于 SiC MOSFET开关速度快，桥臂上、下管之间的死区时间可取得很小，从而使得SiC基PMSM驱动系统的简化补偿方法，提高电动机性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeHL8tL12OMj50n1DiaicKibwgkpMwx80FSHNBC3FF3ZibIxhwe6H5xyTUAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_016_9e2cee7cf6d9.png)
 
 ３　实验结果
 
@@ -117,23 +117,23 @@ SiC MOSFET的导通损耗电路模型和计算过程与Si IGBT相似，这里不
 
 3.1　死区效应对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2nee2ibjExQqjZia8rle4dXb1ZzIb3jNtI5SsicVDHauG9czLsic0VjibCibo6MQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_017_b2c2777469d7.png)
 
 SiC MOSFET较传统Si IGBT功率器件具有更快的开关速 度，这不仅能减小开关管电压电流交叠产生的损耗，而且能缩短桥臂死区时间。图10给出了驱动电阻为6.8Ω，电流为8Ａ 时的Si IGBT和SiC MOSFET的关断波形。由图可见，Si IGBT存在明显的电流拖尾，关断时间较长，为μｓ级；而SiC MOSFET的关断时间不超过100ns。因此，在开关频率选取10KHZ时，Si基PMSM驱动器死区时间一般预留在开关周期的５％左右，而SiC基PMSM驱动器死区时间可以预留在开关周期的１％以内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeo5jQwobw9JxjmEJibm4GM98FrfkvBJ2sXKhYtcQJwZ933AY36AflVNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_018_cd18565760bb.png)
 
 为对比验证不同类型器件在PMSM驱动 器在电动机低速时对死区效应的抑制效果，基于Si基PMSM驱动器开关频率取为10KHZ，死区时间为５μｓ；SiC基 PMSM驱动器开关频率取为10KHZ，死区时间为１μｓ。图11给出了两种情况下的电动机相电流的波形。由图可见，由于SiC MOSFET的快速开关能力，其死区时间可以设置得更小，其相电流正弦度更高，电动机性能更好。
 
 3.2　效率对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neegfFWCJqt8oerbY5owN97DNsRpMqibqwsqPPu87XBuYZeP6ZMgpymE9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_019_0b3e8522fa71.png)
 
 为了对比Si基PMSM驱动器和SiC基PMSM驱动器的效率，对两驱动器在相同的负载转矩（５Ｎ·ｍ）、不同转速下的效率进行了测试，结果如图12所示。由图可见，SiC基PMSM驱动器的效率较Si基PMSM驱动器的效率高了近 １％，这 是由于SiC MOSFET具有更快的开关速度且无电流拖尾，故其开关损耗更小，效率更高。
 
 3.3　散热器温升对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXY2wdHdf1CkG5cMCh2neeJGzFgu1WdV1PSlpOqI3CeibW3BSAwUIhHuiaM3KYGdz4FaicxJSnJicbeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_020_a86964b20f82.png)
 
 电动机驱动器中因电抗元件较少，散热器体积、质量占PMSM驱动器体积、质 量的比例较一般变换器高，因此，减小散热器体积和质量成为提升PMSM驱动器功率密度的重要手段之一。由于SiC器件较Si器件具有更高的结温，且SiC器件损耗更小，故SiC基PMSM驱动器可以使用更小体积的散热器，应用SiC功率 器件对驱动器效率的提高也可以转化为功率密度的提高。众所周知，散热器体积与功率器件温升有着直接关系，散热器体积越大，功率器件温升越小。为比较Si基PMSM驱动器和SiC基PMSM驱动器的功率密度，对相同的负载转矩、转速和散热器下的两种驱动器的温升进行了对比。
 
@@ -155,13 +155,13 @@ SiC MOSFET较传统Si IGBT功率器件具有更快的开关速 度，这不仅�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPQ3fibhMlS7hpJyNEF8EdTnk9gPyxJlIOREVbqYO5t7aib7pzAhIiap3UA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_021_19561adc2976.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPiaJA78B57SW5RF0tSkQLE3h1OpmJJSE1wTZ5SP9Uz08e5FLnoBicEnBw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_022_87889bbaab47.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtP1hel1z5jaHtjGoSyiaVgmr0CZg0R31ibkt9SmMb357xZKuEGoYfAtzEg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC基和Si基永磁同步电动机驱动器的比较_images\img_023_d6338c31a7f5.png)

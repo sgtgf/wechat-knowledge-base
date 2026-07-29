@@ -18,7 +18,7 @@
 
 上周公司同事调试一块主板ADC的温度采集时，怎么测都不准，折腾好久才发现问题出在电源上 ——电压纹波太大影响了采集精度。最后不得不单独做了个精准稳压源才解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXRmG6fZibH3iab5RoibyNibDiaP8sdvRsvSk38bzic5NAxcKNkAl3u7Z80ctbQOJkIJ3DrhJb2Cpc6ICQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\ADC选型避坑指南_教科书里找不到的干货_images\img_002_666372d68e70.png)
 
 这种坑咱们都踩过，对吧？
 
@@ -26,7 +26,7 @@
 
 （拍大腿）说到这个就后悔！原厂那么多干货直播，我居然一次都没看过，甚至连高清PPT都没拿到！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXRmG6fZibH3iab5RoibyNibDiaiaOia0F9ozibq5Jy0u5QMV5yxoOHC9D365ytQPsyujSxo8geQZxKevqcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\ADC选型避坑指南_教科书里找不到的干货_images\img_003_f37bf2d0e4f2.png)
 
   
 
@@ -72,7 +72,7 @@
 
 这里就不多啰嗦，看图就知道是实战派老司机 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh9Wyj4L1O2f4Yafvp4WVfgDKwfaRezKqZmDoSiaI2DcnL8k5Xibj0wBnwbTncOxMz13hrJaNpTCicaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\ADC选型避坑指南_教科书里找不到的干货_images\img_004_491f7a8e1c3a.png)
 
   
 
@@ -86,7 +86,7 @@
 
 MPS 定制10L小书包，MPS定制咖啡杯。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh9Wyj4L1O2f4Yafvp4WVfgb1KMj7XAwk47CCs70frZFC2IpIrTyIcnXHIJoaRe6prSnYA46ZcNKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\ADC选型避坑指南_教科书里找不到的干货_images\img_005_e000645cc4ac.png)
 
 不说了，我现在就要报名
 
@@ -94,6 +94,6 @@ MPS 定制10L小书包，MPS定制咖啡杯。
 
 直播间干货满满，惊喜不断!
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh9Wyj4L1O2f4Yafvp4WVfgSCfwvHoJwGcaeib7uHMPh8kTDs8ia2EkhYYwo3ySScIAKl2ibkDpxKyvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\ADC选型避坑指南_教科书里找不到的干货_images\img_006_c255ec6899ec.png)
 
 点击左下角阅读原文

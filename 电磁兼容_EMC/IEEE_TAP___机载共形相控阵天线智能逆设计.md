@@ -5,7 +5,7 @@
 
 近日，教研室在共形天线逆向设计领域取得新进展。相关成果以“Computationally Efficient Inverse Design Method for Conformal Apertures Based on EAM-PINN”为题发表在 IEEE Transactions on Antennas and Propagation。该研究提出了一种基于嵌入解析模型的物理信息神经网络（EAM-PINN）的共形孔径逆向设计方法，实现了无需训练数据、计算效率高、适用范围广的电磁结构设计，为复杂曲面天线系统设计提供了一种新的解决思路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/p5SKe5bvAsDsFIcRjpexvLbSRpSYRsoG5pI75vwatW9Cc9hBVKYuCuSNc5T4CkyflCrS2tyiaiam3eWlvvQhuSliatJtiaADs04wrx12PxBe2bc/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___机载共形相控阵天线智能逆设计_images\img_000_67aa1210a1c7.jpg)
 
 机载共形阵列示意图
 
@@ -65,7 +65,7 @@
 
 为此，团队引入了物理信息神经网络（PINN）思想。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsA2hY9m84rn1Y8KhmJV1rSyYnaJO2X1qiam4aXs8Q9hw0nyicJibjnRIvaxyQz2eMCTWMxo1gibssu6c9nvrUGfGhSZibyAL18nWOeY/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___机载共形相控阵天线智能逆设计_images\img_001_65a27fed1534.png)
 
 本文提出的共形阵列逆设计方法
 
@@ -110,7 +110,7 @@ EAM-PINN则使用：
 
 计算效率提升两个数量级。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDKoJvlA1RnRMNdKWlq4pzfr8xHpJ8Doo9Y3f7kqhjzaxLYlKqJ4Erwqq6cZGD4N25jdxqvRI9hO4uad5VGb4xsWq7WNdP6uCE/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___机载共形相控阵天线智能逆设计_images\img_002_fde8fe8b862c.png)
 
 共形天线阵逆设计案例 
 
@@ -130,9 +130,9 @@ EAM-PINN则使用：
 
 实验验证了该方法的工程可行性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBrib9fwbj52sa4Excq7wUZQoibzMpyLZ7kyLrzyZGfZppJicoCemHaNQ9WHbibhGQpm5IfdLYg1a5sSy7mvMKOibia7jmdFVXyS3NKY/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___机载共形相控阵天线智能逆设计_images\img_003_ba65daf35f7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDY1aRNSVlL5NEJusTgl9zUtbqRlPOeibBasUViawU9Vq7lAlSacbeIsiagshgDrnh0tibQAMiaA0Nic7XiarQciccLhm2Mg7martCbyXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___机载共形相控阵天线智能逆设计_images\img_004_32ae5fba012d.png)
 
   
 
@@ -155,7 +155,7 @@ EAM-PINN则使用：
 
 结果表明该方法具有强几何泛化能力、强频率泛化能力、支持多目标优化能力，适用于多种复杂天线系统设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBxJ9McJYhfQ6wY0VA1tA24Qx182e1xI6Y74IQs7J1sTxe7Nnc70Ahia7V5W7xc4SlwdRfiaERmqwg3qg96ez6XViciaY0sJtSBoKA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___机载共形相控阵天线智能逆设计_images\img_005_3ce46ac107ff.png)
 
 几种共形孔径设计方法比较
 

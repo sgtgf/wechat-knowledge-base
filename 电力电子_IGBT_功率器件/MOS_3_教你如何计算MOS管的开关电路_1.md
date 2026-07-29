@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BYsprG5A\_PB5Ox5KZLR96w](https://mp.weixin.qq.com/s/BYsprG5A_PB5Ox5KZLR96w)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26kjjFLLiaapyne5AzPPTTje2jfBKy7scz9stpzvw2qb8H5zNjGIwxh2A/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_000_0e5c15d180f1.png)
 
 __**★★★**___MOS-3---MOS管的开关电路___**★★★**__
 
@@ -13,7 +13,7 @@ __€1.源极接地型开关__
 
 如下是NMOS和PMOS的源极接地型开关，所谓源极接地型，即NMOS的源极直连GND，PMOS的源极直连VDD。其中Rg是栅极限流电阻，RP是偏置电阻，RD是主路径限流电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTMIgvDB0kBPVFe0FhicgbpfJObeBytKuWV10ibicfMF3pIy8teuTMKia8d0qDtjGiczNDo8ny80biagicqw/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_001_a7d8eb465f39.png)
 
 **_图3-1：NMOS和PMOS源极接地型开关_**
 
@@ -27,7 +27,7 @@ __€2.源极跟随型开关__
 
 如下是NMOS和PMOS的源极跟随型开关，所谓源极跟随型，即NMOS的漏极直连VDD，PMOS的漏极直连GND。其中Rg是栅极限流电阻，RP是偏置电阻，RD是主路径限流电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTMIgvDB0kBPVFe0FhicgbpfVN1OctjmIzrctiaNbx3ZagBBQiadoVUTbwHrIvibq8hR1fOkBHGXDawMA/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_002_02f8fe972344.png)
 
 **_图3-2：NMOS和PMOS源极跟随器型开关_**
 
@@ -43,11 +43,11 @@ _____设计背景：_____
 
 控制端为MCU的GPIO，高电平1.8V，VDD为5.0V，设计一个LED驱动电路，可以控制LED的亮灭。LED为ROHM的SMLZ24BN3TT86，相关参数如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfVLrN04W9qhVjBIHN8pwQSALmcwgM08wI343T9PBm6OvVL006j3ibKRaObIkcOSalhW52BA74uVQ/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_003_bf9e4429d436.png)
 
 **_图3-3：LED的最大额定参数_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfVLrN04W9qhVjBIHN8pwQ3EjP4ERPX1Gtrxp7rNVAXyPv2AgiaLrxD0LZ8NnUCt9ez1aVmfK8www/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_004_b3692a7093da.png)
 
 **_图3-4：LED的标准参数_**  
 
@@ -59,17 +59,17 @@ LED点亮时，VF=3.3V，那么导通路径上的电阻分压为5-3.3=1.7V，导
 
 此处选LRC的LSI1012LT1G，具体参数如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJr1ewP9Q5D9PSuFnA0MiamcDQHSWKI22WC7lHdicCef9oYGxCLSrzI4GpAq19KVONnnmNwHrhRgbA/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_005_3a004e46fb8b.png)
 
 **_图3-5：LSI1012LT1G最大额定参数_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJr1ewP9Q5D9PSuFnA0Miams78iaJcIZARPmjia2IdKqygJd0xu4dK3biabhvxooLafaML6dw2eILUmg/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_006_7d5515c62a64.png)
 
 **_图3-6：LSI1012LT1G静态参数_**
 
 VGSth=0.9Vmax，1.8V的VGS可以将MOS完全打开。设计如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJr1ewP9Q5D9PSuFnA0MiamYQwUeTtVhylX7UsCoBLxFzbBNibXZk1bMHVB4QUJkgIernafkJ1PUDA/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_007_da9169f24b2c.png)
 
 **_图3-7：NMOS源极接地型和源极跟随型开关_**
 
@@ -77,11 +77,11 @@ VGSth=0.9Vmax，1.8V的VGS可以将MOS完全打开。设计如下：
 
 **_图3-10_**是PNP型源极接地型和源极跟随型开关，分析方式和上面类似，选用PMOS型号为LRC的LSI1013LT1G设计源极接地型和源极跟随型开关：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJr1ewP9Q5D9PSuFnA0Miam0icXicic0jpdBlstwdDREq5JjR7ltS9Jedgec4ibUibhXoMO6qtpib4Eb6NA/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_008_70b702593127.png)
 
 **_图3-8：LSI1013LT1G最大额定参数_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJr1ewP9Q5D9PSuFnA0MiamJKDNb7jcUibMU36MPOsicHDW05Fh4NH7dRXtVJBL2TsU1S16PqGE6QRw/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_009_ac4848a7d55f.png)
 
 **_图3-9：LSI1013LT1G电气参数_**
 
@@ -89,6 +89,6 @@ VGSth=0.9Vmax，1.8V的VGS可以将MOS完全打开。设计如下：
 
 从上面计算可知使用PMOS设计驱动电路，没有NMOS简单，成本也比较高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJr1ewP9Q5D9PSuFnA0MiamQb3zhjP4e2syeGPxuFmeKgyqSj4dqyibXzEjXLNKOl9CZibhiaZ0tcsFw/640?wx_fmt=png)
+![](MOS_3_教你如何计算MOS管的开关电路_1_images/img_010_fb373d6e2242.png)
 
 **_图3-10：PMOS源极接地型和源极跟随型开关_**

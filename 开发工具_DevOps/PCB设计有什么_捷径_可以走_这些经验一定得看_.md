@@ -84,7 +84,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7Vic5PAo9ROoZ6taosiblEa8HgbKLMal1hl2cVanwDj71Xx9IYaNMhyaCQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_002_e47ff4dc2e0a.jpg)
 
   
 
@@ -144,7 +144,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VXvVz6yIzdv8O6B7b5XibYJV02GXGfa2am3sweF3aysWIgKG0AXfphwg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_003_37842b2e0543.jpg)
 
   
 
@@ -156,8 +156,8 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VWk2WiaNOUcW9t4tuGLYnrAzuRAP2reaaSws9ibEu2FUgOMjFzrjQxtsQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7Vk0zQyxKyvfGKQ4RmiafS5FCjPpXH4YFsbyV87IjDPtzof4xuJCQ86xA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_004_e898ac4dc798.jpg)  
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_005_14d0adf387c7.jpg)  
 
   
 
@@ -177,7 +177,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VFAL26on8k2vWQ14VUiaHfaLAVZDeqFYaAZGLF9r6hc24icjgaLDCwepQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_006_10365ec62f2b.jpg)
 
   
 
@@ -337,7 +337,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VSicRN0GcHxAS57jAAXzicNHXHSOHInTCq7z9dDAJOQjBO2UicG6dz9iccg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_007_c91dd5ce37b1.jpg)
 
   
 
@@ -357,7 +357,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VYqicjkb16sZGicXPJF4ib5NmrKjYblJynyEypHZf4LUorqozGo446rxAg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_008_5cd0b281ec36.jpg)
 
   
 
@@ -373,7 +373,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VdTiaAgLkO0Z5lqNeFlGkibTkwaGZDZx3tqRxadb5pLy6ME9ZUfib6XGzw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_009_037dc59b414b.jpg)
 
   
 
@@ -391,9 +391,9 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
 1）走线要求尽量最短，不走闭环，不走锐角直角，线的宽度一致，没有浮空线。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7V1vaqR27Zic2AeCIbGFKyTFhia4kdRmxbfjicfsNmBd1tDDTthKFA0k71g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_010_e6d40ea3d15f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7Vic9cO5xxltm1UTsB8Gia8n7wcmIBAia7nqwLr3yC0hltDWUyNuEKL41lg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_011_6ec8553a14c6.jpg)
 
   
 
@@ -457,7 +457,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VNiar5yjbkZMRiaqicBnzloGQfWsiaVpAasDq3HRfxHia2Nh1Hr2BhLanicLw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_012_b1eaaf3dcff9.jpg)
 
   
 
@@ -481,7 +481,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7V8muC5COZBAGupWMmvkrT8MNicFsWzoNyW8uHyIRftbkgGT4uD4ZmtqQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_013_090a93beed2a.jpg)
 
   
 
@@ -495,7 +495,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
 微带线至屏蔽壁距离应保持为3H以上。微带线不得跨第二层地平面的分割线。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VlAgSu2CCkPNZoAG7VINGasuGwtOQT5L1z9aOrUKX8JvYbmVbvj6MvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_014_fcc393af6cc3.jpg)
 
 微带线结构图
 
@@ -513,7 +513,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7VvAQ1GAmpQ8u1lMWibPyKNKQKkibq6iccNJAqX9QxvYIORl6D6LMxHaXKQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_015_8a794f306e9e.jpg)
 
   
 
@@ -529,7 +529,7 @@ PCB布线有单面布线、双面布线及多层布线。**布线的方式也有
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOxO5dL6AJiaZELTPa4CDD7Ver1HuEvJfqTVYTzKK2C4o1icc7ibSKL6BvicYEzTv4v2Hyc2Moq0Wicslw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB设计有什么_捷径_可以走_这些经验一定得看__images/img_016_3b2651f7930c.jpg)
 
   
 

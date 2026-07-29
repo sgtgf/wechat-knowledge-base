@@ -32,13 +32,13 @@ Buck-Boost矩阵变换器(Buck-Boost Matrix Converter, BBMC)是一种具有高�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXe3DwFvGgBicRAuCFVYFBxWNsewibjZV3HYQ161ueOn0XApl5jibXL69LZQ/640?wx_fmt=jpeg)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_000_2760f157c978.jpg)
 
 图1 BBMC主电路拓扑结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXe3HZ0rUPlWbhJAzduyXGn4ntSgT8WXdl4wWJwoTSTLP0n6Lb4ia5eCkg/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_001_1b92e36f734e.png)
 
 图2 BBMC调速系统实验装置实物图
 
@@ -52,31 +52,31 @@ Buck-Boost矩阵变换器(Buck-Boost Matrix Converter, BBMC)是一种具有高�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeOdDLGYQfQicG2p73AWzwhHQszSfPqpEJtVubwnecf5J7tdqq8Gibdeag/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_002_76b2455a511a.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeap5LqwLPQaGCUmU45s0ueficcS4DCGPdAXmKRLxFRib3U0GcTChxlEUQ/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_003_e9da7885e124.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXe2S1Qvny8WwBXtw14s6KmPQQFJ0ZrL8b63Dv8K7tZeSQSltwZ3IWSpg/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_004_0161d151a9ee.png)
 
 图3  三种给定转速对应的电机稳态转速波形
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXemc9LaumnMDuqibMBL8zia99LI29V9jMcPHrIpcKfblk3beI6EqSWuW0Q/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_005_61d9fb66d0bf.png)
 
 图4 给定转速突变时对应的实验波形
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeKJHChw88ljCjXhliazQLByEAma16yfGSh39lEn2nAWq5FSia2RsnI2MA/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_006_871b63122bbd.png)
 
 图5 负载发生突变时对应的实验波形
 
@@ -92,19 +92,19 @@ Buck-Boost矩阵变换器(Buck-Boost Matrix Converter, BBMC)是一种具有高�
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeJwCwqFLk6YJv2VzWrSu72erUa1ufdTxS8R8ZHF63oyYibQWicTET5KHA/640?wx_fmt=jpeg)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_007_cbfec8fd114c.jpg)
 
 刘 继,湖南科技大学信息与电气工程学院硕士研究生. 主要研究方向为电力电子系统及控制.
 
 E-mail: dlk101lj@163.com.
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeZExU2p9PmRck1iamsia6WbjMNvyQaq6DcROBQydn9LXIaIUd8btibZB0g/640?wx_fmt=jpeg)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_008_5b4fc2163b17.jpg)
 
 张小平, 湖南科技大学教授. 主要研究方向为电力电子与电力传动、智能控制等. 本文通信作者.
 
 E-mail: zxp836@163.com.
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXePT4IL8TibIBCuoDoCkLkqStGJl0nYsbsh0vLibC2sHzWibKPmAOKJFQDA/640?wx_fmt=jpeg)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_009_9a70138c5fd7.jpg)
 
 张瑞瑞,湖南科技大学信息与电气工程学院硕士研究生, 主要研究方向为电力电子与电力传动.
 
@@ -232,21 +232,21 @@ E-mail: zrr0001@126.com.
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeUuckLrNicCRZSicS5rw6ic7DyamM9Kmfbbx4HVuyxJ3rhQH5iaQa7c6bicw/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_010_0ecaba0403b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeysOLn2T94k8p5l7uaRSTuGOnicDITSQjkpedyU0I0Ml6W7mZdCiacabw/640?wx_fmt=jpeg)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_011_28cf12b32f0f.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeUuckLrNicCRZSicS5rw6ic7DyamM9Kmfbbx4HVuyxJ3rhQH5iaQa7c6bicw/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_012_0ecaba0403b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXe6DNmdU5x2eh8sMa8tc6I2rAR0gUicGMZXsYdzWkLGWwasjBzyHK9UCQ/640?wx_fmt=jpeg)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_013_d84ab79c302a.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXeUuckLrNicCRZSicS5rw6ic7DyamM9Kmfbbx4HVuyxJ3rhQH5iaQa7c6bicw/640?wx_fmt=png)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_014_0ecaba0403b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45kkDz5tdsgEPFqNUMXoRXerbG4NJoDtgHa2seLyX6JuSunyodjl3ET4ic8BicGb28Wa45hibU1EwbRA/640?wx_fmt=jpeg)
+![](基于FTC的BBMC调速控制策略及参数优化_images/img_015_6a20bf1e075f.jpg)
 
 自动化学报订阅号
 

@@ -25,11 +25,11 @@ SiC MOSFET 的短路类型主要分为两类：硬开关故障（Hard Switching 
 
 在研究故障情况下电压电流特征之前，需要搭建 SiC MOSFET 短路测试平台。文献\[24, 32\]给出短路测试平台原理，其主要电路结构如图 1 所示。电路中包括直流侧电源 VDC、母线电容 CDC、负载电感 L、上管 S1、下管 S2 以及开关管的驱动电路。通过控制上下管驱动脉冲的波形就可以模拟短路故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmmglHyvicQ3jzvG7PUuQLETV4lC9sZicTibUAH0l0EQIXhysT0awuDiaWtg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_000_5c7b27a86e8c.png)
 
 HSF 和 FUL 情况下的主要电压、电流波形如图2 和图 3 所示。从图中可以看出，在短路情况下，SiC MOSFET 的漏源极电压 VDS 迅速上升到母线电压 VDC，漏极电流 ID 也快速增加。在 FUL 状态下，门极电压 VGS 会增大，所以其短路电流峰值一般高于 HSF 的电流峰值。而在 HSF 状态下，功率器件的损耗很大，所以 HSF 的短路检测与保护时间一般小于 FUL 的短路检测与保护时间。FUL 和 HSF 都需要快速的短路检测与保护电路，以保证短路状态下功率器件不致损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmpqglibSassM13ejPJF5sO1CicyCCOx1yxyWicZQ3YSb1AXc6ANff8URrQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_001_359a8cc31c33.png)
 
 **2.  SiC MOSFET 短路保护原理概述**
 
@@ -43,19 +43,19 @@ SiC MOSFET 短路保护中最重要的环节就是短路故障检测，只有在
 
 去饱和检测法是短路检测中最常见也是用得最多的一种方法，它是根据 SiC MOSFET 漏源极电压VDS 与漏极电流 ID 的关系来实现电流检测，去饱和检测法的关键是检测漏源极电压 VDS。图 4 为文献\[26\]中的短路检测电路，它是通过二极管实现短路检测，当电路短路时，VDS 的值迅速上升到母线电压，此时驱动电源对电容 C1 充电，当电压达到参考值时，比较器输出短路信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmuIMicpRs4zgTjYZ0icD92R4TUDAruK4qqic0ibYe0zWCdubWjEvGyJALqw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_002_0c2f10d472a4.png)
 
 但是，去饱和检测法容易受到温度的影响，当温度升高时，SiC MOSFET 的输出特性曲线将会向下弯曲，如图 5 所示，导致检测电路不准确。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPm83V54GXFzLXlRxU428UyvT2c0VMBrdIacfzoIqsJ5W5IEChibbQ891A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_003_10134158f2bd.png)
 
 为了克服文献\[26\]的缺点，文献\[27\]提出了一种饱和压降差分检测电路，该差分电路能够有效地抑制温漂，从而实现精确的短路检测，而且它通过附加电路抵消检测二极管的导通压降，保证了检测的有效性，文献\[27\]提出的基于差分电路的饱和电压检测电路如图 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPm9CAHE9icuEchOicejc064g3UwhERMK1ETIdhPy4PCfncFNDRyGib0C9cw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_004_37ebaf6f3d00.png)
 
 文献\[28\]提出了一种适用于高压直流母线的去饱和检测电路，其电路结构如图 7 所示。该电路中，将 5 个耐压等级 3.3kV 肖特基二极管串联，这样不仅使得反向阻断电压等级达到 15kV 以上，而且减小了二极管结电容对于检测电路的影响。同时每个肖特基二极管两端都并联阻值相同的电阻，使得每个二极管两端电压保持一致。在去饱和检测电路中，前沿消隐时间的设置尤为关键，为了防止开通时刻的电压尖峰使得保护电路误动作，需要设置一段空白时间来躲过电压尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmgrbmgMKmljGfFJ7DbnSlTN60PPyF7w5ys8V56PDGGScdaKptOFGdhw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_005_868808f60391.png)
 
 文献\[26-28\]通过设置充电回路电容和电阻的值来确定前沿消隐时间。目前，像罗姆、安华高等公司的驱动芯片带有去饱和检测模块，且模块中都含有前沿消隐电路，为短路检测与保护提供了方便。文献\[30\]利用 ACPL−339J 实现了 T 形三电平逆变器中的短路保护，文献\[31\]利用 HCPL−316J 实现了电机驱动中的短路保护。
 
@@ -63,7 +63,7 @@ SiC MOSFET 短路保护中最重要的环节就是短路故障检测，只有在
 
 SiC MOSFET 漏极电流还可以通过在源极串联一个采样电阻或者寄生电感的方法来测量。由于采样电阻串联在主电路回路中，自身存在着一定的损耗，目前很少有文献讨论。对于利用杂散电感来测量漏极电流，文献\[32\]详细介绍了测量方法，并且给出了测量电路中辅助电感 LSS、辅助电容 Cf 和辅助电阻 Rf 的选型标准，具体电路如图 8 所示。图中漏极电流 Id 与输出电压 V0 的关系式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmhDykXsgogAia6NJAITfRZic4riaCaX68qj03icj1AQLXC1QrbF6JoqTMsw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_006_2dfc6dbea53a.png)
 
 从式（1）可以看出，随着 Id 的增大，V0 也会增大。当输出电压 V0 达到 Vref 值时，比较器翻转，输出过电流信号。文献\[33\]中的短路检测电路也与图 8 中类似。
 
@@ -73,19 +73,19 @@ SiC MOSFET 漏极电流还可以通过在源极串联一个采样电阻或者寄
 
 当 SiC MOSFET 发生短路时，门极驱动电压 VGS的波形也会发生改变。文献\[34-36\]讨论了 HSF 和FUL 情况下 VGS 的变化情况。VGS 在 HSF 情况下米勒平台将会消失，相同的驱动电压下，HSF 短路时的电荷量 Qg 比正常驱动下小。当电路处于 FUL 时，门极驱动电压初始时维持正常高电平，短路瞬间VGS 将会出现电压尖峰，不同工作状态下的栅极电压波形如图 9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmd8nZ4fm7skpjkLmYLQic5gIg15m3xfkBgcvicibBjGKXTdCQGdOkH34NA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_007_7a5c6e749130.png)
 
 当电路处于 FUL 情况下时，短路瞬间寄生电容CGD 上的电流流向如图 10 所示，漏极电流 ID 一部分会通过 CGD 流入驱动电源，驱动电阻 Rg 以及驱动回路杂散电感 Lg 上的电压与门极电压 VCC 叠加，从而使得驱动电压出现尖峰，此时 VGS 表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmTlbrtAUAbZe98rDLu1jmGxhWRxTmSIQjTS8wMVBBtsFOzSG9jIUSbA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_008_915a03a81764.png)
 
 针对以上门极所表现出的特征，文献\[35\]提出了一种检测门极电压和门极电荷相结合的方法实现短路检测电路，如图 11 所示。电路设置了电压参考值 Vref 和电荷参考值 Qref，当门极检测电压 Vdet 达到参考值 Vref 时，若门极电荷 Qg＜Qref，则电路处于短路状态；若门极电荷 Qg＞Qref，则开关管处于正常工作状态。但是这种检测方法只能检测出 HSF 类型，不能识别 FUL 类型的短路，而且当母线电压 VDC 较低时，检测精度也会相应降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmnqC1YnohCxYJfiaictyPQRltqFSVLau9qpueS0Y7RRfrhqSTnsqk00vw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_009_32159090ee35.png)
 
 为了能够区分开关管短路类型，文献\[36\]提出了一种可以同时检测 HSF 和 FUL 的电路，如图 12所示。图中比较器 1 和比较器 2 用来检测开关管导通时刻是否存在米勒平台，从而实现 HSF 检测；而比较器 3 用来检测门极电压是否出现电压尖峰，从而实现 FUL 检测。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmRNNaNE0picvurU3N1qwwphrEDXrUXJwBILzoZfNsktG2B66Nt0m3FnA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_010_fbca12af7a22.png)
 
 门极电压检测虽然能够快速地检测出短路故障，但是由于其电路结构复杂，控制算法繁琐以及可靠性差等缺点，目前还没有被广泛应用。
 
@@ -93,7 +93,7 @@ SiC MOSFET 漏极电流还可以通过在源极串联一个采样电阻或者寄
 
 罗氏线圈早在 20 世纪 90 年代被用来检测电机驱动上 IGBT 的电流，目前 SiC MOSFET 电流检测也开始使用罗氏线圈。文献\[37\]提出了一种基于罗氏线圈的电流检测电路，它测量电路的 dID/dt，然后通过积分电路计算出真实的电流值，当电流 ID 超过阈值，比较器翻转，实现过电流保护，检测原理如图 13 所示。图中，CCP/2 为一次线圈和二次线圈间等效出来的层间电容；M 为一次线圈和二次线圈的耦合系数。文献\[38-39\]提出的电流检测方法与文献\[37\]相似，但是它着重研究了检测电路中积分电路以及罗氏线圈的设计。文献\[40\]比较了去饱和检测法与基于罗氏线圈检测法的短路检测与保护速度，结果表明基于罗氏线圈检测法的速度要快于去饱和检测法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmibP8BedFmpxIza4kfOlCFcWfFNFXsoEZgYR03M8gicubF3e8a5glzawg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_011_f70e3cf8831d.png)
 
 利用罗氏线圈检测法虽然能够快速地检测过电流，但是需要设计比较器和罗氏线圈，电路结构复杂，目前也很少应用于工业领域。
 
@@ -101,7 +101,7 @@ SiC MOSFET 漏极电流还可以通过在源极串联一个采样电阻或者寄
 
 上述所讨论的四种短路检测各有各的优缺点，表 1 总结了各种方法的特点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmhbeEOPztNBdm0yBtky5ibK64py8lpoRJiaheicbHuXlpjcPTUgEJEFu7g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_012_7cbeb9bf3567.png)
 
 从表 1 中可以看出，四种检测方法都存在一定的缺陷，所以在选择方案的时候要根据实际需要与要求。如果要追求模块化驱动设计以及成本低廉，去饱和检测法是最合适的一种；如果追求短路检测的快速性，其他三种方法都是适用的。
 
@@ -113,7 +113,7 @@ SiC MOSFET 在检测到短路信号后，需要封锁驱动信号，排除故障
 
 **3.1 短路保护软关断**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPm46tRZ5Kv8QyC802ia8pcctWEJ2ibAxQFeuumE2NEx3cicicHyegBe77iaNA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_013_d173ff1e4a25.png)
 
 软关断就是在检测到短路信号后进行门极钳位抑制关断电压尖峰，然后在电路中串入软关断电阻Rsoft 来减缓关断速度。图 14 为文献\[32\]中所提出的软关断电路原理，当电路检测到短路信号后，锁存器存储故障。然后 M1 导通，实现门极钳位；M3 导通，关闭输出脉冲；M2 延迟一段时间后导通，实现电路的软关断。文献\[23,28,41\]所提出的软关断方式与文献\[32\]类似，只是在短路检测方面存在差异。两级关断就是先降低栅极电压，然后实现关断，有学者认为两级关断也属于软关断。文献\[30\]利用两级关断和软关断相结合的方法实现短路保护，在检测到短路信号后，先将门极电压钳位到 10V，然后进行软关断。
 
@@ -123,23 +123,23 @@ SiC MOSFET 在检测到短路信号后，需要封锁驱动信号，排除故障
 
 降栅压保护能够减小开关管关断时刻的 di/dt 和dv/dt，同时也可以避免短路保护误动作\[42-43\]。文献\[42\]采用定时器和单稳态触发器来锁存过电流信号，实现降栅压短路保护，但是其控制繁琐，而且增加了驱动电路的体积。文献\[43\]所提出的降栅压短路保护电路，其所需要的辅助元件较多，增加了驱动电路设计的复杂度。针对以上问题，本文所提出的降栅压短路保护电路如图 15 所示，它采用锁存器来存储过电流信号，减少了驱动电路的体积，同时锁存器的输入端可接一个复位按钮，有利于过电流信号撤除后进行手动复位，实现正常驱动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmT7wUKHXEZVCKictd3G2suVABeibvGicYfpFXicoJ6bjfro1RGO20ObJ1VQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_014_f25ee7d5f036.png)
 
 图 15 的短路检测方法属于去饱和检测，其关断方式属于两级关断。当 SiC MOSFET 正常工作时，VDS 很小，A 点的电位大于 D 点的电位，VGS 经过R1、VD1 和功率器件，由于 R1 值较大，VGS 所产生的电流相对于漏极电流而言很小，不会影响开关管正常工作。当 SiC MOSFET 发生短路时，VDS 迅速上升到母线电压，A 点的电位将会小于 D 点的电位，此时二极管 VD1 截止，门极电压值 VCC 通过 R1、R2和 R3 给 C1 充电，当电压达到 Vref 时，比较器 1 输出高电平，M1 导通，这时门极驱动电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmibkF5x3KiavB2ewRczfhr7qk2WaX8Kgk8qDePJd4dayB5W1mxXpWl5zA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_015_765d941eede7.png)
 
 式中，VEE 为 SiC MOSFET 关断时的门极电压；VCC为 SiC MOSFET 导通时的驱动电压。从式（3）可以看出，改变 Rg1 的数值就可以调节短路后的门极电压。门极电压降低运行，经过一定的延迟时间r\=R2C2 后，若电路仍处于短路状态，比较器 2 跳变输出高电平，驱动电路关闭输出脉冲，短路保护完成。降栅压短路保护电路的仿真结果如图 16 和图17 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPm3LtQe1yzhhljiaDnFw7TYicWbibCP9gh3uAQvMdTSUkiadicqKRt6aRSriaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_016_0071772a7a32.png)
 
 从图 16 和图 17 可以看出，当 SiC MOSFET 发生短路故障时，栅极电压下降到 8V 继续运行，经过一定时间延迟后进行关断，从而实现 SiC MOSFET短路故障下的快速保护，保证了开关管能够长时间稳定可靠的运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmCpKMCHjgZUajEYsgBIsShd3Hmr05BEN1y5s3bZHdcFJ538wdAmMMWg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_017_820c81fe063a.png)
 
 本文搭建了如图 18 所示的短路测试硬件平台，并进行了两种短路情况下的测试，所得实验结果如图 19 和图 20 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk6ZrOYX4apO8Wu5xNibuHPmEAZ9rP6rlTedrBtbVlnGMtcQFGF0Z7oX4uLLbWMut9OCFyOre3T5Bg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_018_4c29336798f5.png)
 
 从图 19 和图 20 可以看出，当 SiC MOSFET 发生短路故障时，栅极电压下降并维持开关管导通，经过一定的时间延迟后，栅极电压变为低电平，开关管关闭，从而实现短路保护。两种短路状态下，通过相应的电路参数设计，能使 SiC MOSFET 在 3μs内实现关断，保证开关管不致损坏。在第二级关断过程出现的振荡现象与电路寄生参数有关，通过优化电路设计可以消除此类振荡现象。
 
@@ -151,8 +151,8 @@ SiC MOSFET 在检测到短路信号后，需要封锁驱动信号，排除故障
 
 SiC MOSFET 短路保护是 SiC MOSFET 驱动电路中重要的环节，决定了器件能否稳定可靠的运行。本文概述了 SiC MOSFET 的两种短路类型，并且给出了两种短路类型下 VGS、VDS 和 ID 的主要波形。基于近年来一些文献对于 SiC MOSFET 短路保护的研究，并根据短路检测过程以及电路结构差异将SiC MOSFET 短路检测归结为四类：去饱和检测法、电感检测法、门极电压检测法及基于罗氏线圈的短路检测法。本文总结了 SiC MOSFET 短路情况下的关断方式，介绍了软关断的基本原理，并且提出了一种降栅压 SiC MOSFET 短路保护方案，通过仿真和实验验证了方案的可行性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_019_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_短路检测与保护研究综述_images/img_020_3ade3c3d8599.jpg)![](SiC_MOSFET_短路检测与保护研究综述_images/img_021_84aa944feb13.jpg)

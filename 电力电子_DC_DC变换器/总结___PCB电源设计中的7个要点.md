@@ -16,7 +16,7 @@
 
 电源还需要**电流限制来限制最大电流**。因此电源的重要参数是电压、最大电流、电压纹波和最大电流时的热损耗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYYGtMHIHNs6cEa81umsoqSn1uiaQpHETicmdicgD4Cgic2nG4eC7R5Q2P9w/640?wx_fmt=other&tp=webp&wxfrom=13&wx_lazy=1&wx_co=1&random=0.4187432852533841)电子电路中的典型功率流框图
+![](总结___PCB电源设计中的7个要点_images/img_002_662610702302.jpg)电子电路中的典型功率流框图
 
 电源电子电路的典型功率流如上图所示，电子电路需要1.8V至12V范围的电压。1.2V、1.8V、3.3V、5V和12V是最常用的电压。
 
@@ -38,7 +38,7 @@
 
 还搞不懂稳压电路？一定要看这一文，稳压电路工作原理+电路设计
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYcEq9VokTOTy3hHBGNkSFWuB5zrrCjWf9Fe1eym90kMKC9khIQiclWicQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.16698338772670418&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_003_747887fe0632.jpg)
 
 稳压器
 
@@ -51,7 +51,7 @@
 -   ****简单****、****便宜****，可以提供异常的****无噪声的电压输出。****
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYAGohAhZ40NXTAgUr72JP67hvMkdZ6YHZkns9NH4EvOTjAPC9fkMiaRQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.017368706874155482&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_004_a78c3a496298.jpg)
 
 线性稳压器
 
@@ -66,7 +66,7 @@
 -   ****价格较高****，需要连接****较多的无源器件****，但****不容易发热****。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYAGjpic5mOokFKHYynSX7hOiabHMrpOic1mK0qBmppm19NcROuedmIfl0A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1&random=0.8187395331148386&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_005_be53ca6df3cf.gif)
 
 开关稳压器
 
@@ -76,7 +76,7 @@
 
 ****电源的性能直接取决于散热****，大多数电子元件在电流通过时都会发热。发出的热量取决于组件的功率水平、特性和阻抗。如面所述，合适的稳压器可以减少电路中的散热。开关稳压器的效率很高，因为散发的热量较少。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYcY5WIuGOXTyeUTFYOBhwbwwNKZFv1ic82ft9ZRdJ6pnQ0aickibFhFA7w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.45839174124544213&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_006_212e4a48930c.jpg)
 
 PCB散热
 
@@ -84,7 +84,7 @@ PCB散热
 
 如果选择线性稳压器，建议使用****散热器****或者其他冷却方法，如果设备的散热量很高，可以考虑使用****风扇****。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYUe7icpEHlF4MjMAgQo00FCWKJoKMNsrFicPZQRSv6hZIAjQicaeMJslVg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.2764434674853433&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_007_6a9d698b2d1b.jpg)
 
 PCB散热
 
@@ -100,7 +100,7 @@ PCB散热
 
 PCB接地端怎么处理？PCB接地系统详细讲解，14种PCB接地方案总结
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYDmLUiboXapu3TqPWauM0y6ejRibOrqVglTZ00Hrf2fm6lj77xNPMibUGw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.8594632072345725&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_008_84fce36cda2e.jpg)
 
   
 
@@ -108,7 +108,7 @@ PCB接地端怎么处理？PCB接地系统详细讲解，14种PCB接地方案总
 
 当电源分配到整个板上的组件时，不同的有源组件将导致电源轨中的地弹和振铃。在这种情况下，工程师应该要****在电源引脚附近使用去耦和旁路电容****，满足设备电流需求的短尖峰。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYtl1FTJibBxfssFJSVVibmyc9PpicFUrJvLA2gDYibRBMaUz5qicdYSlDUSw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.06629151581920456&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_009_5cf7e0a82d17.jpg)
 
   
 
@@ -116,7 +116,7 @@ PCB接地端怎么处理？PCB接地系统详细讲解，14种PCB接地方案总
 
 **旁路电容******旁路噪声并减少电源总线的波动****，放置在靠近设备或者IC的位置。连接在电源和接地之间，****补偿许多IC同时开关电源和接地层电势的变化****。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYryXSxkKDic3evqEhhdqqYJWCvwXB7arNBM1WV1vV6G5CmxibiaF2WKQpQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.47521206240825964&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_010_6a188deeb86d.jpg)
 
 去耦电容和旁路电容
 
@@ -128,7 +128,7 @@ PCB接地端怎么处理？PCB接地系统详细讲解，14种PCB接地方案总
 
 如何抑制MEI电磁干扰传导？如何选择EMI滤波器？看这一文，秒懂
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYNxQlN11MxT6MQvYbibne4DFanFSxycicZaKWSZP5n8AQ4XvOFicJZ87tA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.872456039313815&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_011_356b5021b488.jpg)
 
 EMI滤波器
 
@@ -150,7 +150,7 @@ EMI滤波器
 
 噪声较小的电源可以确保更高的电源完整性。电源完整性设计只不过是管理电源噪声。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmeEXI9Cib8gAicf5rtflz5ybYibn9qIIicwU6zcxoWjBBqRKxZcSzol90jVWzia3vnP8zttfns7cN3wAtw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&random=0.5013238371623814&tp=webp)
+![](总结___PCB电源设计中的7个要点_images/img_012_ccbf36386b6a.jpg)
 
 电源完整性
 
@@ -166,9 +166,9 @@ https://www.toutiao.com/article/7254482891286561315/
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](总结___PCB电源设计中的7个要点_images/img_013_58147eba07eb.gif) ![](总结___PCB电源设计中的7个要点_images/img_014_9b53a964efd5.gif) ![](总结___PCB电源设计中的7个要点_images/img_015_75db8c1036fb.gif) ![](总结___PCB电源设计中的7个要点_images/img_016_0b6ae33611dc.gif) ![](总结___PCB电源设计中的7个要点_images/img_017_365c6cd9f8bb.gif) ![](总结___PCB电源设计中的7个要点_images/img_018_2da1ccbac0ae.gif) ![](总结___PCB电源设计中的7个要点_images/img_019_7446ffe5e3b8.gif) ![](总结___PCB电源设计中的7个要点_images/img_020_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](总结___PCB电源设计中的7个要点_images/img_021_3352ab08e99b.gif) ![](总结___PCB电源设计中的7个要点_images/img_022_0f89804cd7eb.gif) ![](总结___PCB电源设计中的7个要点_images/img_023_f506b795c6ac.gif) ![](总结___PCB电源设计中的7个要点_images/img_024_97df29bd0f50.gif) ![](总结___PCB电源设计中的7个要点_images/img_025_d7c6fe8cd645.gif) ![](总结___PCB电源设计中的7个要点_images/img_026_19e2f7b6262a.gif) ![](总结___PCB电源设计中的7个要点_images/img_027_08d092bef8a0.gif) ![](总结___PCB电源设计中的7个要点_images/img_028_50889e54acde.gif)
 
 ## 
 

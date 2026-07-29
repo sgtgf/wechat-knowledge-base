@@ -18,7 +18,7 @@
 
 **典型电路：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSrHWXjyupnfR5dV8P5icAE4AaORLNrEAZRWfXHDcPVvDFEiakdE6iaXhqg/640?wx_fmt=jpeg)
+![](MOS管为啥会损坏_只可能有以下几种原因__images/img_000_0bed5fba40dd.jpg)
 
   
 
@@ -56,7 +56,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSQjS0TOibWOmz9pCiaQ7nHm0HefGcVnj2ZoByWqdP82OJEEibazlTfqCibQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSBFKichIOuLdnYEXoIXspictJXfic6ibbuQ9TIUmWicZqEQyCyw9B01bOFFA/640?wx_fmt=jpeg)
+![](MOS管为啥会损坏_只可能有以下几种原因__images/img_001_d328f7ef838b.jpg)![](MOS管为啥会损坏_只可能有以下几种原因__images/img_002_f0c305571797.jpg)
 
 第三种：内置二极管破坏  
 
@@ -66,7 +66,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSIhE2EMQ7C5eGrCJomF3NdLK4IUmvhciakPyr7e1fQ9mxh2jeBVFIluQ/640?wx_fmt=jpeg)
+![](MOS管为啥会损坏_只可能有以下几种原因__images/img_003_4b56bfd8cb15.jpg)
 
 第四种：由寄生振荡导致的破坏
 
@@ -78,7 +78,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSEtFzKyYJqZgiaQyRicsI8T7GvldYPNpj7woL4ZuLqZ6YtkwiaqIP27ouQ/640?wx_fmt=jpeg)
+![](MOS管为啥会损坏_只可能有以下几种原因__images/img_004_f69e04d1e258.jpg)
 
   
 
@@ -90,7 +90,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSDichN0qfPRNUt4VTo2ia4SkyQEI8xbluKoyD3BOChjzzkSAoF4liaNxTw/640?wx_fmt=jpeg)
+![](MOS管为啥会损坏_只可能有以下几种原因__images/img_005_c5349f26a53f.jpg)
 
 声明：文章来源网络，侵删。
 
@@ -102,4 +102,4 @@
 
 加管理员微信，备注“加群”，拉你入技术交流群！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRu7futOLHvmr6ro3pXBOXvc1vkiaxGKhEdyoFUjEDlzGcJsefcJ9JO8w/640?wx_fmt=jpeg)
+![](MOS管为啥会损坏_只可能有以下几种原因__images/img_006_8ff46507e957.jpg)

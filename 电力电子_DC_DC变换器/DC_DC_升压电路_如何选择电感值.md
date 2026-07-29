@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbvJU4Lp62btVBXeCwydSW67YXTfYxvBgzbPHlILApRO53hOx3icrbzickICueksXReKKcOlEDpIvg/640?wx_fmt=png)
+![](DC_DC_升压电路_如何选择电感值_images/img_002_a40c81498f2f.png)
 
   
 
@@ -32,17 +32,17 @@
 
 升压转换器的导通模式由相对于直流输入电流 (IIN) 的电感纹波电流峰峰值 (ΔIL) 的大小决定。这个比率可定义为电感纹波系数 (KRF)。电感越高，纹波电流和 KRF 就越低。  
   
-![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZgm1UNzoVCfYS2MDjldJtY5rZ48rDVC70FeHyvzxxickxOlK1UWtHYhQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (1) ， 其中  ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZC7ZgxOLny2C9hwAc4NzGcEdSXJWrvAQ4yqdmw0iafc3CMeflbXtr7WA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (2)  
+![](DC_DC_升压电路_如何选择电感值_images/img_003_7f1514dd674c.png)  (1) ， 其中  ![](DC_DC_升压电路_如何选择电感值_images/img_004_bbab7fda0f7b.png)  (2)  
    
 在连续导通模式 (CCM) 中，正常开关周期内，瞬时电感电流不会达到零 (图1)。因此，当 ΔIL 小于 IIN 的2倍或 KRF <2时，CCM 维持不变。MOSFET 或二极管必须以 CCM 导通。这种模式通常适用于中等功率和高功率转换器，以最大限度地降低元件中电流的峰值和均方根值。当 KRF > 2 且每个开关周期内都允许电感电流衰减到零时，会出现非连续导通模式 (DCM) (图2)。直到下一个开关周期开始前，电感电流保持为零，二极管和 MOSFET 都不导通。这一非导通时间即称为 tidle。DCM 可提供更低的电感值，并避免输出二极管反向恢复损耗。 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbvJU4Lp62btVBXeCwydSWeicG63gRCkuf0NTWk2akmHy0RCYFdLPcy4XAUEb2j8zqOTgxWS9r2tQ/640?wx_fmt=jpeg)
+![](DC_DC_升压电路_如何选择电感值_images/img_005_bf7a314c6d21.jpg)
 
 图1 – CCM 运行  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbvJU4Lp62btVBXeCwydSWiaNUv0G2EoJ2WhQtibAD9JUNAic2vVMic9uy5QOILn9oPXsj5wK2boOVNA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\DC_DC_升压电路_如何选择电感值_images\img_002_47aadaad70f3.jpg)
 
 图2 – DCM 运行
 
@@ -68,18 +68,18 @@
 
 众所周知，当输入电压为输出电压 (VOUT) 的一半时，即占空比 (D) 为50％时 (图3)，在连续导通模式下以固定输出电压工作的 DC－DC 升压转换器的电感纹波电流最大值就会出现。这可以通过数学方式来表示，即设置纹波电流相对于 D 的导数 (切线的斜率) 等于零，并对 D 求解。简单起见，假定转换器能效为100％。  
    
-根据 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZ0pu9jXFFmCnSObRPJQOGPXastpmWXGoXFpyohuDMoneiaBasLicZhZZQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (3)、![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZx7siaBNBiblSXT6WkIH5SibKLzAkcDvQXeU6zJrMtWXH9ShIoFF9pJx9g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (4) 和 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZq8vwgaLllIa5ZEQCIiasnsM35yzDvDROynBZnF09ibjkftv7Y7JCt2qA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (5),  
+根据 ![](DC_DC_升压电路_如何选择电感值_images/img_007_3d27f03e76cb.png)  (3)、![](DC_DC_升压电路_如何选择电感值_images/img_008_a5cb2bf01005.png)  (4) 和 ![](DC_DC_升压电路_如何选择电感值_images/img_009_e18e2c55dab7.png)  (5),  
    
-并通过 CCM 或 CrCM 的电感伏秒平衡![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZDNSWguV1mfI0ib1jjOicibql22VKSVlsjBFER9VU6Ov1lgSmW6m9Rjs6A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (6),  
+并通过 CCM 或 CrCM 的电感伏秒平衡![](DC_DC_升压电路_如何选择电感值_images/img_010_b6a9b1c77427.png)  (6),  
    
-则 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZ5hWxyZFqUBCAWcgJ8hUdNiaOghnvIngziaAlKzyrTv2zEnXTY407oAoQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (7).  
+则 ![](DC_DC_升压电路_如何选择电感值_images/img_011_4837c70bdfb0.png)  (7).  
    
-将导数设置为零,   ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZLcnicjXmicibL30bcyK2HUMPiaEdWzWjf0QAoSY1xuSiaYoChXnAb4XH8nA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (8)  
-我们就能得出 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZUK7gH997P53sUjeVlyl4j7RDHibfh5WRYDbDrKIptdoicZoo3SVUib4bA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (9).   
+将导数设置为零,   ![](DC_DC_升压电路_如何选择电感值_images/img_012_a0dffdcca253.png)  (8)  
+我们就能得出 ![](DC_DC_升压电路_如何选择电感值_images/img_013_4b3e775155da.png)  (9).   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbvJU4Lp62btVBXeCwydSWSVgKp1Hw4M1rRyQKAuDRD3gsb89SDt4BjsDIFvMjYOibJp4XEXKWWrg/640?wx_fmt=jpeg)
+![](DC_DC_升压电路_如何选择电感值_images/img_014_70cf335389eb.jpg)
 
 图3 – CCM 中的电感纹波电流
 
@@ -101,23 +101,23 @@
 
 为了选择 CCM 升压转换器的电感值 (L)，需要选择最高 KRF 值，确保整个输入电压范围内都能够以 CCM 工作，并避免峰值电流受 MOSFET、二极管和输出电容影响。然后计算得出最小电感值。KRF 最高值通常选在0.3和0.6之间，但对于 CCM 可以高达2.0。如前所述，当 D = 0.5 时，出现纹波电流 ΔIL 最大值。那么，多少占空比的情况下会出现 KRF 最大值呢？我们可以通过派生方法来求得。  
   
-假设 η = 100%， 则 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZTeSXwWy1jbSlzcE0ib0hLu6TbDCLibcr5CJCusT8WqkSQYuEz17ibBiabA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (10),    
+假设 η = 100%， 则 ![](DC_DC_升压电路_如何选择电感值_images/img_015_24c847517957.png)  (10),    
    
-然后将(2)、(6)、(7) 和 (10) 代入(1) ，得出: ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZf5GS4TdWzyW1zavrSIHeVT5XSMNk3M3TpfAkfk205ukf4dqLZiblecQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) (11)                           ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZGtkZdg4VFdfuia89y08SiaSuAH30zH8ib3iao9icYpPt5ib4Vq7SRyrlvcVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (12).    
+然后将(2)、(6)、(7) 和 (10) 代入(1) ，得出: ![](DC_DC_升压电路_如何选择电感值_images/img_016_c38df35668c3.png) (11)                           ![](DC_DC_升压电路_如何选择电感值_images/img_017_6b6f4de22d17.png)  (12).    
    
-对 D 求解，可得![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZLA3xOzT2icQO8fWsqmbUT0Q2DLwkIhRhdZTgaPBMV5yXFkJAUxicfDpg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (13).  
+对 D 求解，可得![](DC_DC_升压电路_如何选择电感值_images/img_018_72fec0faf058.png)  (13).  
   
 D = 1 这一伪解可被忽略，因为它在稳态下实际上是不可能出现的 (对于升压转换器，占空比必须小于1.0)。因此，当 D =⅓ 或 VIN = ⅔VOUT 时的纹波因数 KRF 最高，如图4所示。使用同样的方法还能得出在同一点的最大值 LMIN、LCRIT 和 ICRIT。 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbvJU4Lp62btVBXeCwydSWdRB9k6lZBndF66FqbR9vxpLAyJ1c18vovXmQ6vtvAl7sR0euibr65Sw/640?wx_fmt=jpeg)
+![](DC_DC_升压电路_如何选择电感值_images/img_019_bf50e6542e68.jpg)
 
 图4 – 当 D =⅓ 时 CCM 纹波系数 KRF 最高值
 
- 对于 CCM 工作，最小电感值 (LMIN)应在最接近 ⅔ VOUT 的实际工作输入电压 (VIN(CCM)) 下进行计算。根据应用的具体输入电压范围，VIN(CCM) 可能出现在最小 VIN、最大 VIN、或其间的某个位置。解方程 (5) 求 L，并根据 VIN(CCM) 下的 KRF 重新计算，可得出![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZTyS6JtknGdSUbAkicRV3DTILGGyAwic0cVv1TFCe4pdkdiaefX1MyQvFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (14)，其中 VIN(CCM) 为最接近⅔VOUT 的实际工作 VIN。    
+ 对于 CCM 工作，最小电感值 (LMIN)应在最接近 ⅔ VOUT 的实际工作输入电压 (VIN(CCM)) 下进行计算。根据应用的具体输入电压范围，VIN(CCM) 可能出现在最小 VIN、最大 VIN、或其间的某个位置。解方程 (5) 求 L，并根据 VIN(CCM) 下的 KRF 重新计算，可得出![](DC_DC_升压电路_如何选择电感值_images/img_020_de508e374dd1.png)  (14)，其中 VIN(CCM) 为最接近⅔VOUT 的实际工作 VIN。    
      
-对于临界电感与 VIN 和 IOUT 的变化，KRF = 2，可得出 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZ2TicmiagSwLHEuMG9RC3NxzjDS4ibWiaM67XNIhAGOcXicVTsgaudMf5tIw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (15).  
+对于临界电感与 VIN 和 IOUT 的变化，KRF = 2，可得出 ![](DC_DC_升压电路_如何选择电感值_images/img_021_17e817001d40.png)  (15).  
    
-在给定 VIN 和 L 值的条件下，当 KRF = 2时，即出现临界负载 (ICRIT)： ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZ6ia67sc0E5ziam9wPBeiaAaicFJia5PTB4BJo9wd3lO4OSh9qDWqTSAxNCA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (16) 
+在给定 VIN 和 L 值的条件下，当 KRF = 2时，即出现临界负载 (ICRIT)： ![](DC_DC_升压电路_如何选择电感值_images/img_022_3ab357783306.png)  (16) 
 
   
 
@@ -137,19 +137,19 @@ D = 1 这一伪解可被忽略，因为它在稳态下实际上是不可能出�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbvJU4Lp62btVBXeCwydSWs0nRW13RnBRkxxy9ok2DTwBGTIfbC3EB8mtmVtPzo3L7s8SibQAJqnA/640?wx_fmt=jpeg)
+![](DC_DC_升压电路_如何选择电感值_images/img_023_4d1ac0379d48.jpg)
 
 图5 – LCRIT 与标准化 VIN 的变化
 
- 为计算所选最小空闲时间 (tidle(min)) 的 LMAX，首先使用 DCM 伏秒平衡方程求出 tON(max) (所允许的 MOSFET 导通时间最大值) 与 VIN 的函数，其中 tdis 为电感放电时间。 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZ4KlsMDiaQxgQEHlQcEYvt6iaxBgrNxcrjNy2ZtCPFvLJhYZgSoSdmCPg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (17)，其中
+ 为计算所选最小空闲时间 (tidle(min)) 的 LMAX，首先使用 DCM 伏秒平衡方程求出 tON(max) (所允许的 MOSFET 导通时间最大值) 与 VIN 的函数，其中 tdis 为电感放电时间。 ![](DC_DC_升压电路_如何选择电感值_images/img_024_fac2cab05450.png)  (17)，其中
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZbu15crwHbOTXmOiacB7dcaRlXd1AyJk2KoTXJ0KHKFE0786iaj453aXg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (18)  
+ ![](DC_DC_升压电路_如何选择电感值_images/img_025_438191d30251.png)  (18)  
    
-可得出 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZGe3RVFrgUnr6pmlU0gNQnUOCCpVTs32B7QvFWbqNMrIrdsJicthKUkQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (19).  
+可得出 ![](DC_DC_升压电路_如何选择电感值_images/img_026_0c08de999758.png)  (19).  
    
-平均 (直流) 电感电流等于转换器直流输入电流，通过重新排列 (17)，可得出 tdis 相对于 tON 的函数。简单起见，我们将再次假设 PIN = POUT。 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZibO9Eh8LBDeIv9PLD7de4t3OdsEaI7gfovCvNypfcFMkia8qPeuRICkg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (20) ，其中![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZZSeANoUvuopZL9vePlkhCVFSH5nsqIsQWkLYgG9gGxpk0YLJcTkFZg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (21).  
+平均 (直流) 电感电流等于转换器直流输入电流，通过重新排列 (17)，可得出 tdis 相对于 tON 的函数。简单起见，我们将再次假设 PIN = POUT。 ![](DC_DC_升压电路_如何选择电感值_images/img_027_ce7eb91674d1.png)  (20) ，其中![](DC_DC_升压电路_如何选择电感值_images/img_028_ea762ceab243.png)  (21).  
    
-将方程 (3)、(5)、(10)、(19) 和 (21) 代入 (20)，求得 VIN (DCM) 下的 L ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZhFZoibLF0xFtevTgMTsZiac72wxImHOfWPuZoS1T0F3gxeZke8GIbgLQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (22). LMAX 遵循类似于 LCRIT 的曲线，且同在 VIN = ⅔VOUT 时达到峰值。为确保最小 tidle，要计算与此工作点相反的实际工作输入电压 (VIN (DCM)) 下的最低 LMAX 值。根据应用的实际输入电压范围，VIN(DCM) 将等于最小或最大工作 VIN。若整体输入电压范围高于或低于 ⅔ VOUT（含⅔ VOUT），则 VIN(DCM) 是距 ⅔ VOUT 最远的输入电压。若输入电压范围覆盖到了 ⅔ VOUT，则在最小和最大 VIN 处计算电感，并选择较低 (最差情况下) 的电感值。或者，以图表方式对 VIN 进行评估，以确定最差情况。 
+将方程 (3)、(5)、(10)、(19) 和 (21) 代入 (20)，求得 VIN (DCM) 下的 L ![](DC_DC_升压电路_如何选择电感值_images/img_029_89c400f7637a.png)  (22). LMAX 遵循类似于 LCRIT 的曲线，且同在 VIN = ⅔VOUT 时达到峰值。为确保最小 tidle，要计算与此工作点相反的实际工作输入电压 (VIN (DCM)) 下的最低 LMAX 值。根据应用的实际输入电压范围，VIN(DCM) 将等于最小或最大工作 VIN。若整体输入电压范围高于或低于 ⅔ VOUT（含⅔ VOUT），则 VIN(DCM) 是距 ⅔ VOUT 最远的输入电压。若输入电压范围覆盖到了 ⅔ VOUT，则在最小和最大 VIN 处计算电感，并选择较低 (最差情况下) 的电感值。或者，以图表方式对 VIN 进行评估，以确定最差情况。 
 
   
 
@@ -169,23 +169,23 @@ D = 1 这一伪解可被忽略，因为它在稳态下实际上是不可能出�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbvJU4Lp62btVBXeCwydSWho3rypcCYesN53Oqn6B0a06Xg0gmibp9mZkwxdwy28KJq3hxEQluQMw/640?wx_fmt=jpeg)
+![](DC_DC_升压电路_如何选择电感值_images/img_030_de25d8a6827e.jpg)
 
 图6 – 输入电压模式边界
 
- 要想以代数方式呈现 VIN 的模式边界，首先将临界负载的表达式设置为等于相关输出电流，以查找交点： ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZuujcfrd2dMfwEtdGkZn18DDgKN1WH4evPblqfwaiadicSFEArFQAvymg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (23).  
+ 要想以代数方式呈现 VIN 的模式边界，首先将临界负载的表达式设置为等于相关输出电流，以查找交点： ![](DC_DC_升压电路_如何选择电感值_images/img_031_0c6ef24ee4be.png)  (23).  
    
-这可以重写为一个三次方程，KCM 可通过常数计算得出 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZojLndFaL6M8WkMgbOKLvWwexXN87nIeRSwpFNNBicU4ZwZZZ1KK8Jdw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (24)     其中
+这可以重写为一个三次方程，KCM 可通过常数计算得出 ![](DC_DC_升压电路_如何选择电感值_images/img_032_d52f24570c86.png)  (24)     其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZlCUWEIrmTMgfcuB45C5rkAdn8aeFrVPoHvCS74M26d71mrLrBBTQ1w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (25).  
+![](DC_DC_升压电路_如何选择电感值_images/img_033_481df0c46e04.png)  (25).  
    
 这里，三次方程通式 x3 + ax2 + bx + c = 0 的三个解可通过三次方程的三角函数解法得出 \[1\] \[2\]。在此情况下，x1 项的“b”系数为零。我们将解定义为矢量 VMB。  
    
-我们知道 ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZUHfdcwK5Ec77ia6dIN9eUGiaftFmBolFREmwLJicztH8mnQUYhRKPHZSQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (26)、  
+我们知道 ![](DC_DC_升压电路_如何选择电感值_images/img_034_4165f6853a5d.png)  (26)、  
 
-  ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZqhmickjXkJoFL5icb7cibx3XfGeJ3sskmzAyLrq4FJiaWaibBbJncdWL3OQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (27)、   以及
+  ![](DC_DC_升压电路_如何选择电感值_images/img_035_bea28286eb70.png)  (27)、   以及
 
-![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZ3bDHgGIuvzgMibnRPf2tGbibicQf7VczMBIoM1XssYdx4teCNExicS2vPA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (28), ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZ7hm8RBLAVMYU1aE1sYqiat3AJ2CJYW5xY26Sv6lrlq9NricAm5aIpKFw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZlV8ccP9WuDV6ibZiaPDcLAgxdt3awqOYPjicdgicaMZ2NNdGPIKWpTAibhA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  (29).  
+![](DC_DC_升压电路_如何选择电感值_images/img_036_27a2ebc37b4e.png)  (28), ![](DC_DC_升压电路_如何选择电感值_images/img_037_8bac38171a21.png)  ![](DC_DC_升压电路_如何选择电感值_images/img_038_0b98feb10b42.png)  (29).  
    
 由于升压转换器的物理限制，任何 VMB ≤ 0或VMB > VOUT 的解均可忽略。两个正解均为模式边界处 VIN 的有效值。 
 
@@ -210,14 +210,14 @@ IOUT  = 1 A
 L  = 6 μH  
 FSW  = 100 kHz  
    
-首先，通过 (25) 和 (28) 计算得出 KCM 和 θ： ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZk2azgiafh0I8ORDvGiaVTJWgWAiaKqTibC5wL2xWPZia3s2uumesD3YYZfQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
- ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZLRvYCb9RRbnUddFNQ2yuufjCg162OLgaI4hg5SJJvtYbfCG2CWFlgw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1).  
+首先，通过 (25) 和 (28) 计算得出 KCM 和 θ： ![](DC_DC_升压电路_如何选择电感值_images/img_039_fe754a493993.png)  
+ ![](DC_DC_升压电路_如何选择电感值_images/img_040_c6b8c28519ca.png).  
    
-将 VOUT 和计算所得的 θ 值代入 (29)，得出模式边界处的 VIN 值： ![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZc61Zw4wQ0b200Aa7X8Tj05le5CQykeicDXrGr4PgiaCxBuJ1EKCFRkIw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZiaWo56dAQLMib8zXl6PmssOC9aQAA8Zr1t1ibsZibiaAxibSoKiaCarYLE3icw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1).  
+将 VOUT 和计算所得的 θ 值代入 (29)，得出模式边界处的 VIN 值： ![](DC_DC_升压电路_如何选择电感值_images/img_041_6bfce76854c7.png)![](DC_DC_升压电路_如何选择电感值_images/img_042_876e8933d299.png).  
    
 忽略伪解 (-3.36 V)，我们在 4.95 V 和 10.40 V 得到两个输入电压模式边界。这些计算值与图7所示的交点相符。 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/HAdNd8ibDwCGIDMuRYdKbYx3XCoOVn1vZZacHXHtXNtT6P5mBC1WnxPobglovbPhsSI7ve5wBrWVHnAicH9ficIMQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC_升压电路_如何选择电感值_images/img_043_ce1cc58171c8.jpg)
 
 图7 – 计算得出的模式边界
 

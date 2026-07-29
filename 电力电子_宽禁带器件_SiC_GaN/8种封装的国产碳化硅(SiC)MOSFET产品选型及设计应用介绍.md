@@ -5,21 +5,21 @@
 
 在电力电子行业的发展过程中，半导体技术起到了决定性作用。其中，功率半导体器件一直被认为是电力电子设备的关键组成部分。随着电力电子技术在能源、工业、医疗、交通、消费等行业的广泛应用，功率半导体器件直接影响着这些电力电子设备的成本和效率。以硅(Si)材料为主的功率半导体器件就一直扮演着重要的角色。功率硅器件的应用已经相当成熟，但随着日益增长的行业需求，硅器件由于其本身物理特性的限制，已经开始不适用于一些高压、高温、高效率及高功率密度的应用场合。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMVvdnfbROia2ic7TJjFuGFX49rECF0uRl4icyh9v2jfyiaL3ISjJLdoIp8A/640?wx_fmt=jpeg&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_000_88e1515dcf32.jpg)
 
 20 世纪90 年代以来，碳化硅(silicon carbide，SiC)MOSFET 技术的迅速发展，引起人们对这种新一代功率器件的广泛关注。与Si 材料相比，碳化硅材料较高的热导率决定了其高电流密度的特性，较高的禁带宽度又决定了SiC 器件的高击穿场强和高工作温度。尤其在SiC MOSFET 的开发与应用方面，与相同功率等级的Si MOSFET 相比，SiC MOSFET 导通电阻、开关损耗大幅降低，适用于更高的工作频率，另由于其高温工作特性，大大提高了高温稳定性。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRM9xJZf4yE1erZdfoD77aU2Kyp49B9efsDqDTftuPGa0eaBa6opuql2A/640?wx_fmt=gif&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_001_a5404bf0f55b.gif)
 
 SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件具有更高的开关频率和使用温度，能够减小电感、电容、滤波器和变压器等组件的尺寸，提高系统电力转换效率，并且降低对热循环的散热要求。在电力电子系统中，应用碳化硅MOSFET器件替代传统硅IGBT器件，可以实现更低的开关和导通损耗，同时具有更高的阻断电压和雪崩能力，显著提升系统效率及功率密度，从而降低系统综合成本。
 
   SiC MOSFET产品简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMcKTHHNpRx0V7cDsF6yPzYxD22Xfl1kLJeQPmmdPtn50Q0kdicS3Y0oQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_002_14f30a9d041c.png)
 
 ****1\. SiC MOSFET特性及优点：****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMRenrUfgsOGfjOcRc2sxAp9IRuDTdtIvkCDjwLeeNRkKHnKKoYwdJJQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_003_d083344d85a4.png)
 
 @‌高温工作能力‌：SiC材料具有高度稳定的晶体结构，其能带宽度可达2.2eV至3.3eV，几乎是Si材料的两倍以上。因此，SiC器件能够承受更高的温度，一般而言，SiC器件的最大工作温度可达到600°C‌。
 
@@ -29,13 +29,13 @@ SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件�
 
 ‌@快速开关‌：由于SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍，因此SiC器件能在更高的频率下工作，适用于高频开关应用‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMLibyAXJc1NW4iaKJdXdeyqhacQrb8ZalpvTWP3ZVQ1xvQ0PP92G7eVxg/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_004_d725b326b5c6.png)
 
 ****2\. SiC MOSFET耐压等级 ：****   
 
 SiC MOSFET的耐压范围目前已经达到了650V到6500V。‌ 碳化硅半导体材料因其优异的物理性能，在新能源汽车等领域受到了广泛关注‌。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahe7TSETB8hWkMicvAskag9FfcEYoedYLtX0TXFnY5E28osot1KEE5GHdw/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_005_0932e6121e0a.png)
 
 具体来说，SiC MOS管的耐压范围涵盖了多个等级，包括650V、1200V、1700V、2000V和3300V等，最高耐压超过6500V‌。这种高耐压能力使得碳化硅MOS管适用于各种高电压应用场景‌。  
 
@@ -55,19 +55,19 @@ SiC MOSFET的耐压范围目前已经达到了650V到6500V。‌ 碳化硅半导
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheHRlTeCuteFCcdia9z13blNO1bHlUrlcBuoO32eDIiaugNMjFxd8W7W2A/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_006_8da20ad11471.png)
 
 TO247-4L和TO247-4封装图
 
- ![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahebv0yrYuTan9mTia7yHAXHF6qZ54o6cWRmOGmSxFfGybKLKbpoe90Hog/640?wx_fmt=png&from=appmsg)
+ ![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_007_5212e474bf5e.png)
 
 TO220F和TO247-3封装图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRM8eH7UcllhRsAQh1vRo4W1STfeWgrGs2vMrv3ZjNib7xRpgy6cB1sHbw/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_008_2519c38e7047.png)
 
 插件SiC MOSFET产品是市场通用器件，可用于各种PFC和桥式整流电路，应用市场主要包括：汽车OBC、DC-DC、充电桩、空调变频器、光伏逆变器、UPS、大功率LED电源、通信电源、各种工业设备电源等，功率从几百瓦到几百千瓦不等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMTJoOvE2tWFflia8RLbvtohmkCgUjdsbMcHAJE9YLlxHCPv9HnmGovGQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_009_9ddda5c6a34b.png)
 
 表面贴裝则是SiC MOSFET的管脚及散热法兰焊接在PCB板表面的焊盘上。  
 
@@ -77,11 +77,11 @@ TO220F和TO247-3封装图
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheqTUOraDGtergibxIYicCoXXEcAhwF10oJadZxia0DTdpCOx4ZrNmZq5JA/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_010_8840b0cf981d.png)
 
 PDFN5\*6和PDFN8\*8封装图
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheUslu0Y03K3wgHs1lW404TS7DNA3A51yUtE0kvlicm5eVNfUibbmtlhnQ/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_011_d1c41230a33b.png)
 
 TOLL和TO263-7封装图
 
@@ -93,7 +93,7 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheAySWeLWxWCNmdnRs2rxeexsyd4aYhxBYkRfoCxiaAAbXk4AS6Olica2Q/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_012_ade6d3d6fdc1.png)
 
 SOT-227封装图
 
@@ -101,25 +101,25 @@ SOT-227封装图
 
 **650V电压等级，内阻低至12毫欧**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRM27ajTZib2TiaTAN9yWxqLzVKzXte6eypGqTQbz32dOTBpBaNjC82OObQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_013_eba034fe96f9.png)
 
 **1200V电压等级，内阻低至13毫欧**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMxPZ5mEpq4wiazIzeGXyqNibva6bfbIOzO7RIkkWLibFib5dHoBUJlhwrLQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_014_b95640705d27.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMshMbydyCuJJwM9EGY5SjtAgMKuWgeLgclnf0fUCOMnskP8fxZK87ww/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_015_d3eff64f18fa.png)
 
 **1700V电压等级，内阻低至20毫欧**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMNiarEA7c7uqDiau9QbYrq2h1RLEuiaAIckSzibdNkRtVLw0odaYvr1Eib1Q/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_016_815e7e9f6232.png)
 
 **2000V和3300V电压等级，内阻低至40毫欧**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRM2zWSLia78MkddILnnda6xkIw6r7E6dARDyzgOll6MRZiaDSYwPc6q38A/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_017_88003f1eb9d6.png)
 
 **1200V60A和1700V100A内绝缘封装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRM0bwAED8yIib2DbibdjoqZbX49UsC0J5h0a7LrrZElGHsiaVlEapanUpOQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_018_9f5d9471bf87.png)
 
 **5.SiC MOSFET驱动电压（技术迭代）：**
 
@@ -139,7 +139,7 @@ SOT-227封装图
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahericHMEZ9S4s3hb4PxiaFicp4viaEewXE2dd8pn7AFINDkB0eEtNTYzSzbw/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_019_7da849ea58fb.png)
 
 **6.SiC MOSFET产品选型要点：**
 
@@ -183,35 +183,35 @@ SiC MOSFET的门极驱动设计并不复杂。和硅基IGBT、硅基超结MOSFET
 
 与硅基器件相比，SiC MOSFET的跨导（增益）更低，内部栅极电阻更高，其栅极导通阈值在高温下可能低于2 V。因此，在关断状态下，必须向SiC MOSFET 施加负栅源电压（建议为-3~-5V）。SiC器件的栅源电压通常要求在18V~20V，以降低导通状态下的导通电阻（RDS）。SiC MOSFET工作在低VGS下可能会导致热应力或由于高RDS 而可能导致故障。与低增益相关的其他影响会直接影响几个重要的动态开关特性，在设计适当的栅极驱动电路时必须考虑这些影响，包括驱动电压，外接栅级， 驱动能力（输出峰值电流、开关频率等），栅极电荷（米勒平台），传输延迟时间（一次侧-二次侧之间等），保护功能（Miller Clamp、DESAT、OCP、UVLO 等），共模瞬态抑制（CMTI：Common Mode Transient Immunity）等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRM9zicxCPjWQElp35OkjBEtdRu4Ou7yCrAX4f0DMJ1Sx3z3ibEpOc2CbXQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_020_5d4dc1a2cbfa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRM8icyW1fAID8937buMrjOWETY3wKxdUha9vyaltrEuHm3iaAG6VzEVcsw/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_021_8a3b474e8f1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMSuwg5GL4H1C17VbUqEQ1CYXnqjU3kamicKIPEdiaQQ75HaibbQ1hicZia0g/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_022_db4803f4d250.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMXEzgQue56mUvZc7r19yFGEoUjWq1icI7mMhMtOWxJGfvlibVqG4mw5fQ/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_023_426c7f6b60a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMZkDJ3ffto0OhO7wjpSbcHia0aaUVssHLWnyDMl8XySgTNo3kGOgIInw/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_024_3d2109562747.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMMIlGVOJhb3T7jUoB8O2872r83UDCPS8vO6qmErXn8AOVuiaCrHCLCPw/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_025_7a8f721198f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsljjQIJ1C1t2SUicgPRgvuRMMCcsbfzW88lrRLmI8RvB7RcunMLicI5WdewiciaRW3tcFp31SkibfnXjCw/640?wx_fmt=png&from=appmsg)
+![](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_026_3d8370a6b46c.png)
 
  8.SiC MOSFET产品应用：
 
 碳化硅MOSFET具有高频高效，高耐压，高可靠性。可以实现节能降耗，小体积，低重量，高功率密度等特性，在新能源汽车、轨道交通、智能电网、充电桩电源模块、光伏逆变器、光储一体机、工业电源及军工电源、电机驱动、白色家电等领域具有明显优势。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahexAvg88uATmaGqT7q69Z3oTgMmLHOSYmM1g2vPbvmxcARskBP9XYmHg/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_027_1109deaa9c62.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheXnldlGsjphMxVZ28qyCrQQPTptpoO7KlHxNP43dmr1J80BPLN8eDBg/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_028_2b47d54b8ec0.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahehqncNJRYMJcBQP3jFpZmD1LcnKrmWDbKwf8QUd4MicvqGJib5uXvIrDA/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_029_1c4b17a16cca.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahe3vAZRQzM0phBMIKMJSn6tTZZa67CPwwAckofaXGDc6glUJeibjP8UDg/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_030_b3c25302380c.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahe0n4VlyPggA19AWZje9sdMx7yJYEkHibLj70mQZrwlPicy0C48XB9ibZYQ/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_031_4522db94a590.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheSDX5hhVmqlP8DDTxkjpDZzk4jJiafRVre2NiaerAs91cico9ibhWV9x4jQ/640?wx_fmt=png&from=appmsg)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_032_1318ebbf648e.png)
 
 **总结**
 
@@ -219,10 +219,10 @@ SiC MOSFET的门极驱动设计并不复杂。和硅基IGBT、硅基超结MOSFET
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_033_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_034_3ade3c3d8599.jpg)![图片](8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍_images/img_035_84aa944feb13.jpg)

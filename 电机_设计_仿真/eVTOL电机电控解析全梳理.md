@@ -1,0 +1,88 @@
+# eVTOL电机电控解析全梳理
+
+原创 电机新视界 2025-07-23 13:45 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/jR\_w0FqRY2uFoVRVQgD0AA](https://mp.weixin.qq.com/s/jR_w0FqRY2uFoVRVQgD0AA)
+
+[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0suic3j0yP9NUhBMgibzkibDRE64T0hpovEibp9cYwo8Iw2sibQROwkibiaz4IIhmtPnFIuskfiaG28XRSmmw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+
+
+来源：eVTOL在线
+
+  
+
+中国政府高度重视低空经济的发展，低空经济已被纳入国家战略性新兴产业，2024年的政府工作报告中首次写入了“低空经济”，定调为新兴产业、未来产业和新增长引擎，并提出了到2030年形成万亿级市场规模的目标。
+
+  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/WY1jqy7f6l1nPIOLwrlo5PY52iahEnKHugkrQgiabAb47aSDib4yaSyaWMgGtBStWSVcBVXcGUJssgaVfHicSsOlbg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&randomid=5b4ucvxv&tp=wxpic)
+
+  
+
+其中，eVTOL是指采用电机驱动的具备垂直起降能力的飞行器。该类飞行器以电力为主要动力，可以避免传统直升机内燃机产生的污染，对减少碳排放和实现可持续发展目标具有重要意义，是低空经济时代主要发展方向之一。
+
+  
+
+eVTOL推进系统在成本结构中占比约30%-40%，电机本身约占10%。根据预测，到2030年全球eVTOL电机市场规模将达42亿元，到2050年增至1890亿元，未来空间巨大。
+
+  
+
+**eVTOL电机 VS 汽车电机，性能要求大幅提升**
+
+  
+
+1\. eVTOL飞行器主要用于城市空中交通、短途运输和空中出租车服务，可靠性和安全性至关重要，飞行器及核心部件需要满足航空级别的要求。相比之下，新能源汽车则主要用于地面交通，更注重高效的电能转换、较长的续航里程和快速充电能力，在可靠性和安全性方面的冗余要求相对较低。eVTOL通常配备多个电机(4个或更多)，以实现分布式电推进系统，这不仅提高了飞行器的稳定性，还增强了其安全性。新能源汽车的电机数量通常为1-2 个，多数乘用车采用单电机配置，而高性能或全驱车型可能采用双电机或四电机配置。
+
+2\. eVTOL 所需电机电控系统性能要求更高。eVTOL 需要具备高效的垂直起降能力、稳定的悬停性能以及高效的巡航能力，对电机提出高功率密度和高效率的要求，因此电机通常采用无刷直流电机或永磁同步电机，能够提供足够的推力。新能源汽车的电机技术已较为成熟，主要采用永磁同步电机或感应电机。
+
+3. 飞行电控系统精度要求更严格，以确保飞行安全。eVTOL的电控系统需要高度集成，以实现对多个电机的精确控制和协调。其飞行控制系统支持悬停、垂直起降和巡航等多种飞行模式，并且必须具有高冗余性，以确保任何单点故障不会导致飞行器失控。相比之下，新能源汽车的电控系统则主要用于控制电机输出、能量回收和电池管理。车辆控制系统相对简单，包含动力控制、稳定性控制和驾驶辅助系统，复杂性较低目前技术相对成熟。
+
+  
+
+**电机：寿命和可靠性是关键**
+
+  
+
+eVTOL电机一般采用多电机设计，这些电机分布在机翼或机身上，通过驱动多个螺旋桨或风扇构成推进系统，为飞机提供必要的推力。这种设计不仅要求电机具备高效的能量转换能力，还需要在转矩密度、安全性、环境适应性等方面达到严苛的标准。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/PIlL3uTVkKEjooU40avt7XeMVkHWNgqDMOeKrmgIQnxXVNiabmkZTknP3OQicGWX4icEtWib8XzViaQ9SjltDp75CCQ/640?wx_fmt=png&from=appmsg&randomid=m0367q8i&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1)
+
+  
+
+eVTOL电机面临着更为严格的性能要求，具体体现在：
+
+  
+
+1\. 安全性是电机的首要首要指标，eVTOL电机在紧急情况下必须能够冗余输出至少50%的功率，以确保飞行安全。
+
+2\. eVTOL电机必须具备良好的环境适应性，其对于不同环境如高低温、湿热、低温低气压、盐雾、臭氧、电磁兼容、振动等方面的要求较高，要求能够在海拔8000至12000米、温度范围从-90℃到70℃的极端环境下保持正常工作。
+
+3\. 由于eVTOL电机重量是电动飞机设计的重要指标，因此它还必须具有较高的功率密度，以减轻整体重量，提高飞行效率。而功率密度的提升来源于电机的电磁结构设计，或者材料改进，包括更高耐温极限的绝缘材料、更高磁能密度的永磁材料、更轻的结构材料，均存在较大挑战。
+
+4\. 考虑到eVTOL电机的使用寿命通常在15至20年之间，而电机作为其动力系统的核心部件，在此期间需要更换3至4次，这一频率相较于传统汽车而言也将更为频繁。
+
+  
+
+目前，永磁同步电机因其高功率密度、高效率、良好的动态响应和可控性等优势，成为了eVTOL电推进动力系统中极具前景的方案。多家知名eVTOL厂商，如Joby S4和Archer Midnight等，均已采用永磁同步电机作为其动力系统的核心部件。
+
+  
+
+**混合动力:低空飞行的另一种解决方案**
+
+  
+
+纯电动飞机要想达到传统飞机 25-50%的航程，其电池能量密度需要超过1000Wh/kg，现有电池无法达到。而混合动力是低空领域的另一种驱动方案，作为纯电方式的补充，其性能和前景类似于新能源汽车混合动力。全球多家飞机制造商，如波音、空客、巴西航空工业公司，以及罗罗、西门子、美国宇航局、代尔夫特理工大学和德国航空航天中心等企业和机构致力于开发混合动力飞机。国内政策也在鼓励以混合动力研究方向。工信部《通用航空装备创新应用实施方案(2024-2030 年)》中提到，以电动化为主攻方向，兼顾混合动力、动力可持续燃料动力等技术路线，并开展 400kW 以下混合推进系统研制。
+
+  
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)

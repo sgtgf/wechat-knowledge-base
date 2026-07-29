@@ -10,7 +10,7 @@
 
 今天给大家介绍一些PCB布局的思路和原则
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lcBGmqaGpVDiaRa06aU9w8h6ibNBA18KNP5libNkoR06riaM3AIbNO2dXmoA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lc1ic5buvGR0wtHc3KSuicg0nd0owVjt9IGUHTfQPx1l7IpXeVHiasHTOpw/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lc0maItYYWicE513kiavhfW8B6yGGEIGZ65qiblmsC7lh5ibjeuGH1VBaKDw/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lcibctlqwyClG5Hn9B6ibEJHBMtvCkC1CH0FCeER6UxIK3DrMZ8WqjxeOw/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lckkP7opc64Zq7K32R8cHiagClouibWpgfXz9MRdF98CPDBmkvavP2UuqA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lcstmqnzcV5yPicFTDqjTU1Y4d1bL9nx7NgKB1aqic09uiaCYjKpfczpu6w/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lcXgayfgst1QMTILcJUSDf3icxUSu6jNubgLxx7HNXreVGTlFicgmiaN4pg/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lct0sWnibwibqibTsm738Kf2lnAvqazY3S6q3CdWdDTwOQqstPSZ1r6e0RA/640?wx_fmt=jpeg)
+![](复杂PCB如何布局_images/img_002_21d580e9848f.jpg)![](复杂PCB如何布局_images/img_003_ab5c9caf925d.jpg)![](复杂PCB如何布局_images/img_004_6d9c4ae0693c.jpg)![](复杂PCB如何布局_images/img_005_1a50b0321bf7.jpg)![](复杂PCB如何布局_images/img_006_4dfab23bfe5a.jpg)![](复杂PCB如何布局_images/img_007_ef3a2e6702ab.jpg)![](复杂PCB如何布局_images/img_008_839197d5b5fd.jpg)![](复杂PCB如何布局_images/img_002_40234a7f0f40.jpg)
 
 ## 
 

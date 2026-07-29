@@ -29,29 +29,29 @@
 
 1.1 ANPC 换流回路分析
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOYILhJRszvcPMU0oXmvUVxjIia5yvk61J27CJk3EN2TxxicGdKAamMibCs7sRPmRvreYBBqo55SPgkYamknWqbv4Hny0ZtsOZ4HY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_000_d1b9807efb0e.png)
 
 ANPC 变换器因具有更小的电压应力、更灵活的控制策略、更小的谐波和EMI，得到了广泛应用。中点钳位型变换器的换流回路主要有 4 种，ANPC 将续流管替换为有源开关，根据器件的选择及调制策略的不同，可进一步分为 2SiC-ANPC 以 及 4SiC-ANPC，各 有 2 条 不 同 的 换 流 回 路 。4SiC-ANPC 的器件配置如图 1(a)、(b) 所示，其中，T1、T4、T5、T6 为 SiC MOSFET，T2、T3 为 Si IGBT。2SiC-ANPC 的器件配置与 4SiC-ANPC 相 反 ，如图 1(c)、(d) 所示。 
 
 根据动作开关管的不同，ANPC 共有6种开关状态 。当 开 关 状 态 由“+”转 为 状 态“0H2”时 ，ANPC 输出电流 iA 仍为正值，此时 T1 关断而 T5 开 通。流经 T1 的电流 iA1 逐渐减小至 0，此时流经T5 反并联二极管的电流 iA2 以相同速率逐渐上升直至接近 iA。因此在开关 T1、T2 及上半母线电容之间产生电流换流，不同配置 ANPC 的换流过程如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOFzneSXlMCFzRSTic7twdg9baW7iamvbtbMLJfXUksicibib3nCntu8K5Qaz0MsCxuiapRoFY1WJYPvV4OiaWJq90lXLUSQ6qD3exxYo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_001_a74d4ee279d6.png)
 
 其中，P、X、O、N、Y、AC 均为母排。 在此之间所有器件均会产生寄生参数，影响开关管性能。根据基尔霍夫电压定律（Kirchhoff voltage law, KVL），换流回路的电压关系可以表示为式（1）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPfLaibEDeSJAsRzJq8fc9062xq8AC0lmgHV6TRfgZMGOZUUicVjRtrkWaI8uU6sUnrLgib7ic0QrhRfia4ydAKNprHaXzAOgBEAWs8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_002_4c3749ab84a3.png)
 
 式中：VDS,T1 为 T1 管两端电压；VDC 为直流母线电压；LT1、LT5 分别为 器件T1、T5 的寄生电感 ；iT1、iT5 分别为流经 T1、T5 的电流；LC为直流母线电容的等效串联电感；LP、LX、LO 分别为 P、X、O 母排的寄生电感，忽略电感之间的互感以简化分析流程。    
 
 在导通暂态中，电流 iA 可以视为常量，因此有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPaRIHvksibtic8jogWapsX4ZVnzgdF0SHwphYfsyyB1BB5747vdj6BBPapoOK7yXiaqsVNEcurHHZW9uxXSoYmzCuWDz32snW5Ss/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_003_7f56fb4d0ccb.png)
 
 式中：gfs1 为跨导系数；vgs1 为 MOSFET 栅\-源电压；Vth1 为 MOSFET 阈值电压。 
 
 因此，式（1）可以简化为式（3），可以看到，在换流过程中，寄生电感将会在开关管 T1 两端感应出电压 过冲，短换流回路总寄生电感可以由式（4）表示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOicXblnPEVVDQ0C36YzbkhDrUxdlBK10VLlic9n5V4B3k18frVHxSiaOdic09RYGb24mM4U4hnoM8m9oJKA1qSJWpdS5YOMFfS8ibM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_004_ba0328387e5a.png)
 
 类似于短换流回路分析方法，可以得到 ANPC长换流回路的寄生电感表达式。长换流回路经过母排数量较多，因此在器件两端感应出的电压过冲也更大，而电容的等效串联电感和器件的寄生电感在出厂时便已确定，无法对其本身电感再作优化，因此母排的寄生电感优化至关重要。  
 
@@ -61,7 +61,7 @@ SiC MOSFET 拥有更小的通态电阻，更快的开关速度，更大的输�
 
 文献\[5\]给出两层母排的叠层电感计算公式。 母排中自感及互感的计算如式（5）所示，可以根据式（5）简单估计母排的寄生电感，但是实际母排存在挖孔、开槽等情况，并不是完整的矩形铜排，因此常采用有限元仿真获得较为准确的寄生参数值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOq2OgJYy6cZn8OtvF9EScR2BpDb635TspcuEKwuMZTo7Og2fFaRib3mOQmzECooM7oiaZtwvYOUgnuN3zg7wxZdNaLRjX0hJpro/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_005_22fa33520c67.png)
 
 式中：μ为磁导率；l为母排长度；w为母排宽度；t为母排厚度及其之间的间距；Lself、Lmutual、Ltotal 分别为母排自感、互感和总寄生电感。 
 
@@ -81,7 +81,7 @@ SiC MOSFET 拥有更小的通态电阻，更快的开关速度，更大的输�
 
 首先，明确母排布局原则，即主要换流回路寄生参数对称，并联器件的寄生参数对称以及最小化换流回路寄生参数。其次，注重电容分布，尽可能实现换流回路寄生电容的增大以及母排在开关管两侧寄生电容的减小，同时考虑电流密度以适应变换器对母排发热的要求。为在相对多的管子中找到最优布局，针对中压变换器的高压应用、多种器件混合使用的新需求，综合器件的对称需求、换流回路的低感特性及变换器的绝缘要求，提出新的布局策略，如图 3 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMNxacvH9wxOAMEJQb06zGibRVdnMllv1CTibsPBmeaSicRYXk84DCF9wiayzBue8yJDwyo2jlZu65xTbN06KFMTx69dwctqsFQjiaI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_006_c99738449a79.png)
 
 2.2 母排二维布局优化  
 
@@ -89,24 +89,24 @@ SiC MOSFET 拥有更小的通态电阻，更快的开关速度，更大的输�
 
 对两快管和四快管的配置分别进行仿真。综合考虑成本、EMI、损耗分布等问题，四快管方案在电压应力和损耗分布上的优势并不明显，但成本显著增加。15 kV SiC MOSFET 成本极高且尚不成熟，两快管方案在整体装置可靠性上也高于四快管方案，因此文中母排采用两快管方案进行设计。根据各器件位置的功率要求、电压要求、工作模式以 及现有功率器件的电压水平，SiC MOSFET 器件选用 15 kV SiC MOSFET，在 25 ℃ 时其额定电流为100 A。Si IGBT 模块目前电压最高达 6.5 kV，在使用时需要将 2 个 IGBT 串联，并设置适当的均压电路。续流管则采用 3 个分立器件串联以提高功率密度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOdN7BKAgPP1gBDHEqbpBJdVFTZg3tcyibicbibNFRYsVsibibWGeYyzgV1XOH8tnibjfX56qRdqTLsg73nmhicicO9kAJQK6pSkQjdj08/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_007_8fb0421f577b.png)
 
   
 图 4 为采用多种功率器件的 ANPC 变换器拓扑。其中，1A、1B 和 4A、4B 采用 6.5 kV Si 模块；2A、2B、3A、3B 采用 15 kV SiC 模块；5A、5B、5C 和 6A、6B、6C 采用 4.5 kV Si IGBT 分立器件。
 
 文中采用两快管方案，因此快管应用SiC MOSFET 的 2A、2B、3A 和 3B。2 个换流回路均流经这 4 个开关管，为平衡换流回路寄生参数及降低整体寄生电感，须对这 4 个开关管优先单独设计。 根据所选择的 SiC MOSFET 封装结构，这 4 个开关管可以纵向或横向串并联组合排列，如图 5 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNdE0y1NX4zeicqMMWpcEtA3B5QzkMMPceGPXLzeiakbC09Bb1xQkm7gCEGWoANJFStGgaCngvibgfh0Jf0WDXxPcdKDGrsbGIYlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_008_bd7ad2886ada.png)
 
  分立器件体积较小，且在换流回路中重要性较低，因此可以最后放置。根据上述分析，初步布局可以分为 4 种布局方案，以提出的 3 个设计原则依次进行筛选，最终筛选出 2 种方案，如图 6 所示。 其中，方案一为 MOSFET 纵向并联及IGBT纵向串联，方案二为MOSFET横向并联及IGBT 横向串联；5 和 6 分别为 IGBT 分立器件的串联组 5A、5B、5C 和 6A、6B、6C；红色表示电流由直流侧流向交流侧；蓝色表示电流由交流侧流向直流侧；实线表示 P/N 母排与 AC 母排间的换流路径；虚线表示O 母排与 AC 母排间的换流路径。可以看到 2 种方案均有对称的换流回路，满足设计原则。 
 
 直观上看，方案一换流路径长度较长，但宽度较大；方案二将开关管 1、6 置于同一侧，降低了换流路径的长度，但并联器件不对称度提升。为进一 步确定 2 种布局的优劣，将图 6 所示布局抽象成典型结构，并在宽度 300 mm、长度 466 mm、1oz 铜厚的两层铜排上进行仿真。通过 Q3D FEA 仿真，与方案一相比，方案二将换流回路寄生电感降低了约38％。此外，分立器件的尺寸较小，因此可以将其放置在模块之间，以进一步降低寄生电感。最终，如图 6（a）所示，2D 布局被确认为 MOSFET 模块纵向并联和 IGBT 模块纵向串联连接方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibuuBrKpqtvib8f60xX8fSllzMYa5rovbsymfrJpTW8qXJjdPVBVGRibWMOWOkNFH0Gw9icibe2ZfDgRNNbbE9C1jWcmib2SJsyYwU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_009_72f32136d3ad.png)
 
 分立器件的封装体积较小，布局更为灵活，因此将串联的分立器件组 5、6 置于模块之间，以进一步降低寄生参数。为和绝缘相配合，将 2A、2B，3A、3B 旋转 90°，最终母排水平布局如图 7 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKK8icvxIkbp7bsibpKLWaISEZg7P30iaibpsL2gH68E2KxHtyCzmjqyTyibGEDs8sAqaOZSCxNHa3s4ianjheTpOfWRITx32iaPk7Bk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_010_698bb12a98a1.png)
 
 2.3 母排三维布局优化  
 
@@ -116,7 +116,7 @@ SiC MOSFET 拥有更小的通态电阻，更快的开关速度，更大的输�
 
 母排设计中，每个母排的面积通常占据该层的30% 以上。为尽可能增大母排之间的重叠面积、增大互感相消，同时减小引入不必要的寄生电容，提出图 8 所示初步布局，层数由两层到四层不等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOYS1iboF6iaKEUwXsTFHQWhmzf8FQkvnhAcG7xrI5C9nggNuvhicN3Ht3dOia8xibaY2AMqQibwrQMLXEVHlBicfy89lJtXibC2cjicOy0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_011_a7cecaacdcdd.png)
 
 四层母排结构将 P 母排、N 母排集成于一层并放置到中性 O 母排下方，不仅降低了两直流母排的电流密度，还增大了直流母排与 O 母排之间的重叠面积，进一步增大了母排的寄生电容，相当于在换流回路两端增加了解耦电容。同时，将电位随开关管动作而变化的 X、AC、Y 母排置于同一层，减小其互相之间的寄生电容，进一步减小开关管之间的寄生电容，提高其高频性能。虽然中间层母排远离了返回路径，但因为中间层面积较小，本身磁耦合较弱，所以引起的寄生电感增大是可以接受的；并且因为中间层单独位于一层，在这一层内不受其他母排的影响，故其宽度可以更宽，从而减低自身的自感。为在各寄生参数及电流密度、制作需求中达到平衡，最终采用图 8（c）所示四层布局结构。 
 
@@ -124,7 +124,7 @@ SiC MOSFET 拥有更小的通态电阻，更快的开关速度，更大的输�
 
 母排的端子是连接母排内外、进行功率交换的途径。在设置端子的时候，要注意直流路径与交流路径分开，尽可能减小母排发热。为增强 PCB 内外层之间的载流能力，采用盘中孔策略。通过盘中孔大大增加焊盘的通流截面，同时过孔相当于与焊盘并联，过孔的寄生电感较小，大幅降低了端子引入的寄生电感。最终经绝缘优化后的母排爆炸图如图 9 所示。其中，IDC 为 ANPC 直流侧电流；IAC 为ANPC 交流侧电流；母排 CapN 和母排 CapP 分别用于连接 N-O 和 P-O 之间的电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO1d03Z9ILe6FCPAKxXd7w9Pr31PCvPtvzEhLZC0qiaOcZibD0WrEnaCEDzXBODerkZXYjqQWd3qD4ZGVmnNvw7iaVPPkYqBD9m0Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_012_bff089c3e30d.png)
 
 PCB 母排不同于叠层母排，在最外层没有类似于叠层母排的厚绝缘层，因此需要在与模块、空气接触的位置额外增加绝缘层。在直流母排下增加一层 O 母排，在中间层母排同样增加 O 母排以屏蔽 PCB 内部的电场；为满足在空气中没有局放的绝缘设计要求，在 PCB 母排两侧额外增加一层半固化 片，同时最上层铜层可以集成 IGBT 分立器件的驱动接口。综合考虑绝缘需求后，母排最终拥有七层结构。  
 
@@ -134,7 +134,7 @@ PCB 母排不同于叠层母排，在最外层没有类似于叠层母排的厚
 
 基于 HIOKI IM 3536 型 LCR 测量仪进行 CCL杂散电感测量实验，模块被替换为具有相同寄生参数的连接线，如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMdIg9xCpXLicXicuQPlNvNnU4Kl0KMPx7TdoLwqFP3QowwP9ILJpgBT8EuvaGyMghKunc6Lib6WkWpNibM1ia3ud3rowTYv5CRSvDk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_013_091a8017c500.png)
 
 消除连接线的寄生电感后，在2 MHz 下测量换流回路一的寄生电感，约为 61.74 nH，与仿真结果相差不大，验证了设计合理性。  
 
@@ -148,39 +148,39 @@ PCB 母排不同于叠层母排，在最外层没有类似于叠层母排的厚
 
 图 11 显示了母排在上桥臂导通时的不同电压水平。当上桥臂导通时，X 母排、P 母排和 AC 母排均为 7.5 kV 的电压，与 N 母排相差 15 kV。其余的中间电平根据电压划分承担相应的电压。因此，有必要对各母排之间的绝缘进行设计。虽然 PCB 可以有效减少内部缺陷，提高绝缘能力，但使用 1.6 mm厚 FR4 绝缘材料的 PCB 母排在 8 kV 中显示出显著的局放。因此，有必要针对母排的内部结构进行优化，从而降低母排的内部电场强度，实现无局放设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMzG6hxko2mibuujAqOTIHXygPIOTolPuaxmYq5MyFAmUXH5x7BlYsLWibA3nAzvzweVAZeAO5N5OD9wmia4zUd7c31SRopO9eZxY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_014_58c3de858cf3.png)
 
 图 12 为母排中部分通孔的横截面示意。其中，图 12（a）为连接于第三层的 X、AC、Y 母排通孔横截面示意，图 12（b）为连接于第五层的 P、N 母排通孔横截面示意。通孔截面左侧为空气，右侧为 PCB。 通孔左侧为同一电位，因此一般不会有绝缘问题，通孔右侧根据打孔位置及所属电位不同，承受电压 应力也有区别，有必要对其进行绝缘优化分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7JP0RwlMQr6sBFT2CMXasT4yibsic8lkB7iaFf0VsLicUgDnpFI72s59gNjuzRYEFRdZcB97JXYeiajfuR0oBj3hKHDPF8kibsPwng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_015_723349dbd01d.png)
 
 图 13 为 P 母排通孔附近的 Maxwell 仿真结果，在没有任何处理的情况下，初始的六层母排电场强度不能满足要求。为提高母排的绝缘能力，选择介电强度约为 70.9 kV/mm 的聚酰亚胺作为绝缘材料。 考虑到介质老化的影响，采取 60% 的裕量，所以 PCB内部的电场强度不应超过 42 kV/mm。为了满足空 气中无局放的目标，采用额外的 O 母排以将较高的场强限制在 PCB 内部，最终形成了七层 PCB 结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPxp8raibcLolfvdv9dEBiatOgI24nov00QyQ3KjiaYiaxYsLbZ4o1b28L1rbd1d3VXGCef7MLROurqXC9MCHt1qFKDpHh3DDUEyxE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_016_df647ac24fa0.png)
 
 3.2 基于有限元仿真软件的电场优化  
 
 虽然 PCB 母排内部大部分地方可以认为是类似于平行板电容器的均匀电场，但通孔与铜层接触处、PCB 边缘处等属于极不均匀场，PCB 母排较小的层间距离也对这些地方电场的优化提出了更高需求，可以通过调节铜层之间的相互距离改善电场分布。提出的基于有限元仿真软件的 PCB 母排电场优化策略流程如图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMfkpaqiaWtg1KO1CDDRpDqUNPaI690omyHtVsK9IndkpKf8AxpuXqSvdF8e5icjOL2J7AGk1V1o6ickeOX5OEGZPUyIZYE5zV3bQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_017_07f2178c20b2.png)
 
 用于仿真直流母排及可变电位母排的有限元仿真模型如图 15（a）所示。图中黄色为 PCB 铜层，绿色为绝缘材料，按照前文分析设定为聚酰亚胺。 所有部件均已在 Maxwell 中重新建模，可以灵活控制各量的值，研究与通孔相邻的铜层附近电场强度随相对距离的变化。 
 
 以 AC 母排通孔仿真为例，此时通孔电压根据不同开关状态在+8 kV、0 V 及−8 kV 之间变化，第 二层、第四层及第六层均为屏蔽用的 O 母排，电位始终保持在 0 V，第五层则根据通孔位置不同对应不同直流母排，电位在+8 kV 或−8 kV。可以看到，一个通孔的电平在不同开关状态下是不同的，因此需要仿真多种情况，综合考虑选取相对偏移值。当AC通孔工作在+8 kV，第五层母排对应 N 母排时，以 0.1 mm 的步长对第五层母排与通孔的距离 c1 进行扫描，各点电场强度变化如图 15（b）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMYL8kzmjN0HcyT17TiaQTJVEjibeQA7JfbpYRtrYsFz8RxUqK8DsdDrGzOqa2tExxq9mQ8Aj76vAqTmiaOiamhQT6K8C03xuj3SicU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_018_d5a30f8021c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPX3l3q8kJgz3sfz4tDWDZIJRpib771ARhjtrpSQhNibSzW2pHcCrPlmloBdcPKjdyoAibA75f33gxR7EVD1D7EPE5Xe6bQn6Wd2c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_019_81e2e3ac9e41.png)
 
 图 16 为优化后通孔电位在+8 kV 和第五层母 排电位−8 kV 的仿真结果，表明优化避让距离后PCB母线具有更好的绝缘性能。电场强度的最大值约为 25 kV/mm，远低于预定的 42 kV/mm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP79k1ukEIeToAdtoH3QkDAqMgkN56tuknopMgrQQrR3cLhNFqclc4VZe4CyChZXHiaQoMwqsjEIibugA9PX13HonXCBBpOvIhI0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_020_e843620ef6b8.png)
 
 为验证设计和仿真的准确性，进行局放测试和绝缘电阻测试。基于 MPD800 进行局放测试，如图 17所示。其中，A 为放大器；M 为测量装置。 
 
 在每半桥桥臂下外加 8 kV 的直流电压激励，未观察到明显的局部放电现象，实验证明母排基本满足无局放要求。为进一步研究绝缘性能，使用 CA 6555 绝缘测试仪进行额外测试。当 P 母排和 O 母排之间的电压差为 8 kV 时，绝缘电阻测量值为357.9 GΩ，表明母排拥有较好的绝缘性能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJL54x36XShl2HEwwW2KUfrHWCy4pHZQPvc3NUZrvGrL1JOhl4CwSB8u10ahFC9gib3kUWegGmFPUmTx9DYHDmh5wvktrKDficA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_021_eaf5cb1c73db.png)
 
 4. 结论  
 
@@ -192,14 +192,14 @@ PCB 母排不同于叠层母排，在最外层没有类似于叠层母排的厚
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPeMSn3gXlDt08RSl53sia42KL2vc1VwD2fialnhibFQmxgLJqAFib4PniaIkicyJ49j365MYEnbYicQ0kSgkO01z55uAChMFLIdoiaj2g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_022_bd3b1297416b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4ZawxmntsGGILYSTosxrj3WMQYHvJypYUuiaWwAEYBXOVaNbNstJ1RZVb3nZn0hTlNnXicGib9MibVhK9qEkYzP92L81nBGiaMQhM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_023_3e41e45dd451.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtgCibSEiaB0WEAHuBm2MCKCBibK5fT4ZsCEegyzTxpcDpk0ic2mbH4z3yVdEdES64VvkWWlNZoib8H4wibECHd2IKbl8IVskpa0eG0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_024_6039b7ee1c95.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOlVIsHHkHFicBicQeWEgLurD2ECwrzN2RILWbibqE0UzlNl5hYBUEfgqJYU1wrJZAODeyib0Gdkm1Efz8gqda4tHDIG1jRicExEtVo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于中压混合器件的_ANPC_母排绝缘与寄生参数优化设计_images\img_025_45caf66c91b0.jpg)

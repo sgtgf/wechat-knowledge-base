@@ -5,7 +5,7 @@
 
 # 中国作为全球主要制造基地，消费类电子产销规模均居世界第一。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMPMxSO6jbiaZOJojMlMsNgEY6djH3L7nXsZZibPYqJicjAzTN7of0KlYdSh33Ig6thhQ1sAvwlwQFjbMsA5LJJZaEeibeBejLGKos/640?wx_fmt=jpeg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_000_5fd3dd039917.jpg)
 
 # 图片来源：网络
 
@@ -17,7 +17,7 @@
 
 **大功率 PD 快充/适配器**：这是目前SiC MOSFET在消费市场最大的增长点之一。650V/750V SiC MOSFET被广泛用于生产65W至200W的USB-C快充充电器和电源适配器（例如笔记本电脑的适配器）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOtOm4FEUicYicqUibj1hFLulTH2wCVKmBo6lcHxDBelQPQiccSOvf39f8JlibYs3M3ZOLyNOGJ5QoUksVGMrc8EwicBgca5wZU5q0Qo/640?wx_fmt=jpeg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_001_57b8f2b208e5.jpg)
 
 图片来源：充电头网
 
@@ -27,7 +27,7 @@
 
 **PC/服务器与数据中心电源**：随着AI服务器需求的爆发，需要极高能效的电源供应。650V的SiC MOSFET是提升数据中心电源效率、降低散热成本的关键器件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJHOR45UldfgBZYYfhCDuWKKFJHYIIpYSAzYFXHTh9tXRv11FfMyWExOGSOYXpicTUom3A8Y1YbSUiaxh5GQODXu3QdboTrmppE/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_002_4c4f4c6d9c11.png)
 
 图片来源：网络（英飞凌12KW服务器电源）
 
@@ -37,7 +37,7 @@
 
 **家电变频驱动**：在空调、冰箱、洗衣机等家电的变频驱动（PFC和电机驱动）中应用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMWmUSaerBovm7ibmtMQTlEy0aOy3QPkHibpoDoQonric6BPpDnCu1BT8kibOYEz6pQelmZdGfxGMSeRyepeIw7q9Puts5h0waYgAY/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_003_8b8720ae8bea.png)
 
 优势：高频化、小型化、低噪音，有助于产品满足日益严苛的能效标准。
 
@@ -45,7 +45,7 @@
 
 **LED照明驱动与TV电源**：高功率LED驱动和大型电视的开关电源（SMPS）也是SiC MOSFET的理想应用场景，可以实现更紧凑的设计和更低的温升。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNNvAX2YZ98teVBd1mKiawyTf9bIe2o9LTmXOH7V9ZEILLEU1373Ym7qChLoeH0ej6Wsv9ksiaEA0o0fBK9JsyHyTm743WEwmI2k/640?wx_fmt=jpeg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_004_9948f97f32f7.jpg)
 
 图片来源：网络
 
@@ -53,25 +53,25 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOIsiaa75Ed7oEIrDx7HTz5sqk2T6XKfQx2icvRIWXKqaOuqP9cjdUz2WRGtW0ymGbElWyIiclT917C8bajGrbibUwTkNKZLiarCBgU/640?wx_fmt=jpeg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_005_33c64164b470.jpg)
 
 图片来源：网络
 
 光伏微型逆变器 / 阳台光伏：600W–1kW 级，高转换效率、耐高温、高可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNaUe52OxY8W62tB7FYIBKh0d8upNXET70sibgqYemcnQicbPPnibr1JZd7aBYjuamCbzYUm8UFIg5BjVNDM1lEMV2J0yyFAJUhcQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_006_3b4f7b68e46a.jpg)
 
 图片来源：网络
 
 电竞 / 医疗电源：高功率密度、低纹波、高稳定性场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOhlekuPDicnLCb91PfGkaaT0yDAOW8JMsRbhLmNKc2pEoAOyPE2npZib85O7bW7Ok7GTMULmalDlzs4b3PKLpSBYUmrz8wqH3icE/640?wx_fmt=jpeg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_007_2c6e1117df25.jpg)
 
 图片来源：网络
 
 其他应用：包括不间断电源（UPS）、电焊机电源等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOiaiaodgiaib2fK1Q0SMtYu4icUdmoYCNf2CQ0G9S1ek7GiaqLOXWjd5iaicvZvdLX7oCH0P3deiar2YwwsDlMNBJCmIzIutdbGibIGDtj8/640?wx_fmt=jpeg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_008_dcd3c1967378.jpg)
 
 图片来源：网络
 
@@ -239,7 +239,7 @@ SiC MOSFET在技术上支持0V关断，然而，在消费电子的高频工作�
 
   
 
-![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_77@2x.png)、TO-220F和TO-252封装的SiC MOSFET产品详解
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_009_81d44e60e2fe.png)、TO-220F和TO-252封装的SiC MOSFET产品详解
 
 1\. TO-220F 封装的产品介绍
 
@@ -247,7 +247,7 @@ SiC MOSFET在技术上支持0V关断，然而，在消费电子的高频工作�
 
 封装优势
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPCCEahptxMiaCTczlPjOiaVXF9yb2WpcJiava2rQzPDqoQ5kb1vCMurZlnLeeeeD8OH23kR0XibwxCufYS7LDuN4UrEVg7XqR6Viaw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_010_574667673968.png)
 
 封装局限性
 
@@ -255,19 +255,19 @@ TO-220F 的 Rthjc（结-壳热阻）比铁封（TO-220）热阻大一倍左右�
 
 650V产品介绍，驱动电压兼容12V/15V/18V,支持0V关断，可供应晶圆。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOiaOicBoqpIrKR7uzKQiacFU5dnYjYylby0t9tickhQdIHhIiadMeUJfsoouspqicjP2dUyaKjHh0fT77IOs5KQPctIzN4w6eDls7Ck/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_011_9530021e994f.png)
 
 TO-220F封装的拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNpOINcYfE4P085efBLuFwtmlGd9GvhRsrDOvrySKWkhpSibNrAeNhiaGGX0nYjphOicc3r8BBkNVupw0Gf3udWteuDibcREY035mY/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_012_4c998f80873b.png)
 
 650V8A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPicKHxe2KU2e1KbuCM8JCmnQ1mzASvsFWjjiaNgJklwkPUgYzmjNQRibMv3ibeox9BF8rRpc7srXiafoHqicKV5CO5EN5B96tHSrjMg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_013_113cbd18e425.png)
 
 650V15A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMynID5z4tlLWcJaQHsZmzcCPIZUQibdgMQ23uR4YDbYGMQfEoNQzOSbibzH2fcORXUGqjib6QQDicic342w9PYlMOUIWenDibfjuqiac/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_014_86b3bba3ab8a.png)
 
 650V20A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
@@ -277,7 +277,7 @@ TO-220F封装的拓扑图
 
 封装优势
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOte1eQQHUaAEQ6nHeBQKbpaGqHOCTwf9HxajdaWwUJvaZ2SXiafWOvs8icIkEIu898rGYtPIMZU1YQZlnreic9G0Rl3ibTOxIvwe0/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_015_283a13157d98.png)
 
 封装局限性
 
@@ -285,23 +285,23 @@ TO-252 的主要散热路径是通过器件底部金属焊盘传导到 PCB，因
 
 650V产品介绍，驱动电压兼容12V/15V/18V,支持0V关断，可供应晶圆。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOP48sgichhUfetUI7fbicYuOza34hMSPCXsiaAKw0b8PYXpwcObKRkGdlvpntystA3GJT6cMWHVZuPJPyianfTdVHibhG7Y2pjkA3s/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images\img_000_47361b0ada28.png)
 
        TO-252-3封装的拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOKgfjNhPGOMejqsyalqHbGTyh1ahYTCZXkhmYjDJM7f6t2faJzRONx7tOFiciagklajCCiaXUDciaNe7rTnFYPw7jFxEHRev8icPibo/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_017_d48adf9ce597.png)
 
      650V8A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPg97lq6UVWjKmGSTia0jhdjRYvsCdSUNibDITnqOibp3ta8eLrkmIcOt80uOQysmibMicEKe66uYc3hXftRuhxu3tEDDuwdlvhz7d8/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_018_4471f6718650.png)
 
  650V15A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO4GFgl3ykluPMLFpjhqqicR4UvibiaERxZxVL5LjezPFYwLVQMqwiclR1icBn6EKfEJ1ubsFFOuiaHMgbYWpcdPcUKWnhwu1sUnn3vQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_019_256c3bdb27e3.png)
 
   
 
@@ -315,7 +315,7 @@ TO-252 的主要散热路径是通过器件底部金属焊盘传导到 PCB，因
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP5g28huRYI7Yicqjib7JlqiaaO8RtzRlPqgQtpG8FKcpXXA5WI8f6iauucRJfutxPiafqAgiaG078L3jdMTibZ0pPIc0IgBHfLJsfZDE/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_020_cc818fd8963e.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -323,7 +323,7 @@ TO-252 的主要散热路径是通过器件底部金属焊盘传导到 PCB，因
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNxCNiaICPicdhtZAcICPSctRL402iarPzgDWwv4znaj1H6dsIUYicReK8HIXJ8f1tSNgicYiblY6UBiafIZjiatgPPE9KhH8ZovOfibF9w/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_021_ce952bddbc07.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -347,7 +347,7 @@ TO-252 的主要散热路径是通过器件底部金属焊盘传导到 PCB，因
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLVssaBa60zDQjI16nojJYjkZzr6WWJzPBde7UCsnIQDJjjWZHibHlcRK4UXWX0uWVga6QKXyvHIpWibxZf3D2icZnFs0V4foueI/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_022_a8d889a3bb8a.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -395,14 +395,14 @@ TO-252 的主要散热路径是通过器件底部金属焊盘传导到 PCB，因
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMnJhaTref4YdBeIkTRcC8arK8xkyTCIJQcgA8xWyfurH2icDiaIKmGeAAYuic0KJlKCIuHOLTFIeNz34vhZzrVsxHlY9eicmaIv3E/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_023_01b04be116c8.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpORTjSFHrMDXH1sq6W9t5Ro2ic3ZqlgZC5chslPTTeHH2EczibI9N7tHcQZD1F6zkraEoJejojZccyANVms2zRGo3SB40qctOonE/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_024_6cbcb2bddc4c.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNMPBCdwIIZ3nCnnWGaXxJKgFib4wzVJ8ianRia6c3ULmDRd3VNqrdLo3XtG6PRcFu7qXrdoXlyvrL0NQwCibicq1BQdfnsUlvyGOac/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](SiC_MOSFET在消费类电子中的应用解析_驱动电压兼容12V_15V_18V_支持0V关断_images/img_025_6d28e16fd9f4.jpg)

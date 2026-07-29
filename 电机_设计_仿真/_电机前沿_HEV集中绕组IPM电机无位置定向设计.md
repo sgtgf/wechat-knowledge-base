@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/517bLlDP9RE60B0rXXRrRA](https://mp.weixin.qq.com/s/517bLlDP9RE60B0rXXRrRA)
 
-![](http://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/0?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_000_6e6d80aceda4.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
   
 
@@ -13,71 +13,71 @@
 
 本文介绍一种为追求无位置控制下能可靠运行的电机的设计方法，定义了一个无位置安全运行区（SSOR）：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYqRufrGAw0Liadn0LQvr0Wj3RicM62Rb1N8xBQw951eaw1d5cLsRkviaOg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_001_4fc231d25e18.png)
 
 其中：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCY1rH4on8FGmTPhnCrQZOpQa5fDiabXENKwmgb7vdcGyQMhia8kJFkaXHw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_002_2b831b3ed949.png)
 
-其中![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYbzlSdJK8u7ePaJhicLGicteETBs6Hib5LNIzNUKQKpFX33xtpHEo1k6vw/0?wx_fmt=png)是位置误差信号，![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYglGUy4hv2QiaBiambIicp5gXK5WMkib1qiahoAaK5cicaGVGMSEMPa2THgXA/0?wx_fmt=png)为位置估算误差。
+其中![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_003_414dcf9e80e2.png)是位置误差信号，![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_004_661b504609c9.png)为位置估算误差。
 
-Fig.7 显示了Fig.6(a)下的![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYhqnqOEzAWwMFg6grSL6qibqpmu1XlWdOhodxGAgtQTibv0ln2NTdz0kw/0?wx_fmt=png)，![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYRNCkp27aWaBPwpUSADnazr9qqAEgLqe8VkSBr3kFNVN7VXU5CDu2Kw/0?wx_fmt=png)和![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYUN5ecdRGS8iaojx4Qic2Azicic7t4b7icILrBoJkrS763Z4oxax60zfk3Yg/0?wx_fmt=png)。
+Fig.7 显示了Fig.6(a)下的![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_005_a00e29ea89a7.png)，![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_006_526127dd79bb.png)和![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_007_e12ca4383cb1.png)。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCY8k7gwoVkpWdgkDlHgricXcwoSeSCBjchFDyrz3BEuQNHw1dD7ywugbg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_008_ccb13d26ac5f.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYZibMvxs8AnW8ta8Fw6b2MMz2OyYYReJsZ6GtNMPpS8erIcdickNfXzog/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_009_8433376dc750.png)
 
 * * *
 
 **1.无位置传感器为导向的IPMSM设计**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYoc0YGial2atb8CweMfubIag9LkVaHMEs2M6ia6uN3qbA2ialibu8EeYctw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_010_2adccf034590.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYXWlphBkfOyWFlVGwkIAXr15UNBaK4l7ibCzTpj9FoEtuIbC2nNvwmKQ/0?wx_fmt=png)
-
-  
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYmXocejFRK9kdKwevwBIOcKId9TfDmRGxCibLQGWOQEmEQiabXUbpqcLg/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYibAmziaDZK8U9ibsRiaMjpLicEXHAqMRRZ7khpOShgibwOhHzMKHCww0TxRQ/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYWxOyCTQ89NWiag533piaFSiaNRVGvdDLpYbajpWaibaoSZwd1rr0MGiabZg/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYayqnKibvrxFIZ6WMtqWHmc0Y6mA6ycXEibAcdC1Sk9OPicib3Zbl4I5TLA/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYVJiaP5Jvic2Sh8ObanFyQkUqtyLXVUrHwT9PdYWfHhWCc297trG08TqQ/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCY5v36HzbiaGv1gnKM3vCP8cvPoctJCicIQQ028lOGDqpYv40F1Qf6MDOw/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYAJrBMcGLy9QVAvuZgaWCpQC1u8jDuTP1bjE8NF23kvmlmToaJqNH5A/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYia69aKw8Hm5WRz7UXZepC7iba0k9UXVeLzTNps6qyQB5wB6vEiaf9ZRWw/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYyJibkRNxW8yMDbPiao83gbHkIddRH0o87RLUYht72Hnxxkwe3ZHKp7oA/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCY6EudK924h4QETiaUo3WTdf4xicjfZ5sHlW011OxRXticsNEIaMQQ4gnyg/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYPmTLN5SObcMaHmk2ibHZ44UXPvjszJuYnrbm2wBhTYvj4xF8NZCqOdQ/0?wx_fmt=png)
-
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYcpyLDEjg0lpyWLuib8LhIb1MQw1Miaw4W9oq9BhCrMAHnedVJuiaRkYOg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_011_c3c4751e6485.png)
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYEh2Hp2g5UvgzKQHXwHnUHibZ3iaL2XaAQTspPElmyG6OUjyb4CFqwGicg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_012_3affd37360d4.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_013_993006760d82.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_014_77494634ca91.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_015_0a21c7652fe7.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_016_c9f2c1fbe0b9.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_017_ed0f964843c3.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_018_e96f1e7c5294.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_019_3d2faa68c716.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_020_b189572f3657.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_021_0d7dfe7830b9.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_022_c7a76ca3e6b4.png)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_023_a1c03488d12f.png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_024_2d9d0ef669be.png)
 
 * * *
 
 **2.****设计方案性能总结**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYvykTwAeSpsE1pkeGbUXDx6Za6Accox9sBTXvqQCdC6v2h8ibg4JmkQw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_025_43ec755ed393.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYMF6p5zotVibjO5PaHNWH5XM8sGIRVspqg0Y1mrd62UiaibqKI46ncZgsQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_026_bbcec46e718a.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYslXIwldR0THUcIExpTgicEVvYHsliccDDoXvuUzx6OCCALUlqibHEqY2w/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_027_6ff5e7ab3faf.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCY6ZNicGJMzysrTpiahhBrsickwu5DACe9Lfe6gNtDtskkAMqZXgzdxVkWQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_028_0ad5651fae6e.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwGTuvXOevgLxIkhTKSCYCzJPsibIoick3jhlR0ydvicwDlP0iartt8p9LTymsiaYARibVqyvmQiaPfO0g/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_029_83e117f4c98f.png)
 
 * * *
 
@@ -117,4 +117,4 @@ Fig.7 显示了Fig.6(a)下的![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzJwG
 
 长按图片，识别二维码，关注我哟
 
-> ![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机前沿_HEV集中绕组IPM电机无位置定向设计_images\img_030_d7f135e99ea3.png)

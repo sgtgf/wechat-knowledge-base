@@ -25,21 +25,21 @@ SiC 半导体器件具有宽禁带（3.0 eV）、高热导率（3.3～4.9 W/（
 
 1.1.1 反向特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFSuPAsOowunT6yBtWyhhWQ9GZMsJDC4RBibT676O9YFPdKm8liaC7QLfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_000_e1bfc1113efc.png)
 
 尽管 Si 二极管可以达到比较高的开关频率、较低的正向压降，但在从正向切换到反向的瞬间会产生极大的瞬态电流，从而产生很大的损耗。SiC 二极管不使用少数载流子进行电传导，因此不会产生少数载流子集聚。 图 1 为不同温度下 SiC 二极管与Si 二极管的反向恢复特性，图 2 为相同温度不同正向电流情况下 SiC 二极管与 Si 二极管的反向恢复特性。通过对比可知，SiC 二极管的反向恢复速度与反向恢复电流不会因正向电流和温度的改变产生太大变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFMia5KZO1QZblUaTYSM7xK8d1PTH49J2r4mqfcQktY5PXRCjjlHfXNPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_001_5e69002aefeb.png)
 
 1.1.2 损耗对比
 
 为了进一步说明 SiC 器件的优势，对电路中的二极管进行理论计算，公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrF8dGtCmqMzKkT9ash3N1UqURibJfiaLE8O1oRhViaiayKuIPMJRfFVTBgFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_002_15282e7880eb.png)
 
 式中：Pon 为导通损耗；Poff 为阻态损耗；Prr 为开关损耗；D 为开关导通占空比；Uf 和 If 分别为正向导通压降和电流；Ur 和 Ir 分别为反向截止电压和电流；Qrr 为二极管结电荷；fs 为开关频率。 交错并联 Buck电路每路的输入电压为 700 V，输出电压为 220 V，开关频率为 40 kHz，占空比为 31.4%。 根据器件资料中 25 ℃条件下的相关数据， 器件参数以及损耗理论计算结果如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrF2SqiavXBHD1aOguW8gAh5FOYviaGcC5icnQxXoxWrrFibZyHKsGOG162Ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_003_2f513cbef8be.png)
 
 由理论计算结果可知，在相同工况下，SiC 二极管C4D40120D 的损耗要比 Si 二极管 APT60D120B小，而总的损耗为 Si 二极管的 1/2，在更高的频率上优势将会更加明显。
 
@@ -49,11 +49,11 @@ Si MOSFET 中，器件耐压越高，单位面积的导通电阻也越大 （�
 
 根据测试电路的相应参数， 选取型号为 C2M0160120D 的 SiC MOSFET 与型号 为 APT45GP120B2DQ2G 的 Si IGBT 做导通特性对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFYD0Ko55JYWoy4NR9ERQnMicWVYbQHoHvvGicnjV7IEB9dicm6x38OpJ2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_004_36add02675c7.png)
 
 图 3 为在合适栅电压的条件下，SiC MOSFET（1 200 V，Vgs \=18 V）、Si MOSFET （900 V，Vgs \=10V）、Si IGBT（1 200 V，Vgs\=15 V）不同温度下的导通特性曲线。根据对比，SiC MOSFET 从很小电流到大电流都能实现低损耗的导通； 而 IGBT 在低电流时损耗相对较大。 在 150 ℃条件下，Si MOSFET 的导通损耗上升到 25 ℃的 2 倍以上， 而 SiC MOSFET上升率不高，因此在热设计时更加方便，导通损耗也相对较低。 通过对比，进一步验证了在大功率条件下，Si MOSFET 并没有竞争优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFkNHRibvm2OGIWKhsbyQbS8UKbswwibwR8eDwbymzH9euvHibaEj9rse1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_005_6436a0842f44.png)
 
 图 4 为 Si MOSFET 与 Si IGBT 在相同温度、不同栅极电压情况下的导通特性，从图 4（a）可以看出，在栅极电压 VGS＞18 V 时，特性曲线斜率（导通电阻）变化很小。 图 4（b）所示，栅极电压 VGE 大于11 V 特性曲线斜率就基本稳定。 这是因为器件不同的跨导特性导致，SiC MOSFET 的导通沟道迁移率比较低，因而沟道内部阻抗相对 Si 器件要高，为了获取较低的导通阻抗，需要加大栅极电压，在测试电路中，SiC MOSFET 的驱动电压为 20 V。
 
@@ -61,7 +61,7 @@ Si MOSFET 中，器件耐压越高，单位面积的导通电阻也越大 （�
 
 2.1 交错并联 Buck 电路原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFs3hfpCYZgyIAmmE2eGTkOzDtCjr6CvacFCmcCtH646DOKDLjeInMTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_006_8ecad6e6b026.png)
 
 交错并联技术可以有效地减小输出纹波，其原理如图 5 所示，主电路采用两路 Buck 并联，通过控制电路使得 S1、S2 与 S3、S4 脉宽相同，导通时间相差半个周期，实现交错并联。
 
@@ -81,37 +81,37 @@ Si MOSFET 中，器件耐压越高，单位面积的导通电阻也越大 （�
 
 单个 Buck 变换器电感电流脉动为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFsxgWWic4tNCZCmnW2snicJJCmeEQDbv784v7gHPsicWibvobO3WVaE9jZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_007_6b2eb1e6817c.png)
 
 从图 5 可以看出，当开关管同时关断时，两电感电流同时下降，这段时间内电感电流下降量之和就是 io 的脉动量，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFBvOZbQOWIYBaa5OPE5YsW371Knu1OxoFSz0vw4d22yFgMibworFlDibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_008_0ee0d33fe679.png)
 
 由式（2）可知，交错并联 Buck 电路因其结构降低了输出电流的纹波。 综上，本文所用的交错并联拓扑在降低开关应力与电流纹波的方面有明显效果，还能够降低电路的损耗以及输出电容容量。
 
 3\. 实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFAefiao65UeJ7Eo0ZcOc41j7kAxWJ9xs2dh7Vos3jQKvFYUdswYuhtvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_009_12f2c3517640.png)
 
 根据上述理论分析，搭建了实验平台。 电路参数为：输入电压 700 V，输出电压 220 V，输出电流范围为 0～45 A，开关频率为 40 kHz。 样机满载运行时的波形如图 6～图 8 所示。 从图 6 可知，SiC 二极管反向恢复速度更快，实验结果验证了 SiC 二极管可减小反向恢复时间，降低了开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFaEBtZfsia6UB0MKMg6eYYs3QD1xDVjhUmzKENR1wDPH7eGPibnLrKXgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_010_68b4da07c0c0.png)
 
 从图 7 可知，SiC MOS 管的关断延迟时间为 20ns， 而 Si IGBT 为120 ns， 并且伴有严重的拖尾电流，所以 Si IGBT 关断损耗更大。 由于 SiC MOS 管的开关速度较快， 在关断时 Vds 会有 100 V 左右的振荡。 对比图 8 可知；IGBT 开通时间较长，电流波动较大，故开通损耗较 SiC MOS 管大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFCI9FJh5PkyGIc7Pu1wJvvdGeUetTodpkqpenNACP6DWYBgWVic98ibow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_011_0aa9f0dd604b.png)
 
 图 9 为 SiC MOSFET 与 Si IGBT 的损耗对比，可见，SiC MOSFET 导通损耗与开关损耗均低于 SiIGBT， 在同等条件下，SiC MOSFET 的温度要比 SiIGBT 低 15 ℃。 由于开关损耗会导致器件的结温上升， 而器件结温的上升反过来会增加开关损耗；因此 SiC 器件良好的热导率就会进一步降低损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFQ925OKBiafSg8nUAdRZUZPnOCuNf29ibQLCjDqU59FEQ15Gfbcy2ucww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_012_b59e62d1b9ae.png)
 
 图 10 为 2 种器件在不同电路中的效率对比，在开关频率 40 kHz 条件下，SiC 器件在交错并联电路中相对于 Si 器件满载效率有 1%的提升， 在普通Buck 电路中无论是 SiC 器件还是 Si 器件，其电路效率都有明显的降低。 这说明，在相同条件下，SiC 交错并联 Buck 电路有明显的效率优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFfoYNgias1LAQDVCibKRgBos4ITcia9vhEneXsQXDPiaEbOLgxWrQibiaX4zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_013_1731bd327a65.png)
 
 图 11 为交错并联 Buck 电路下的电感电流，由于两电感电流的交错作用，电路总电流的纹波得到了大幅度的降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFsic8x93PQuh3TaF566P6icTMuxGeF0SlTPAx61XqwKubOO4HQraz40tA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_014_d5e6b612f5ed.png)
 
 4\. 结语
 
@@ -119,10 +119,10 @@ Si MOSFET 中，器件耐压越高，单位面积的导通电阻也越大 （�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_015_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_016_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的大功率交错并联_Buck_电路_images\img_017_9bbc7b9b15a2.png)

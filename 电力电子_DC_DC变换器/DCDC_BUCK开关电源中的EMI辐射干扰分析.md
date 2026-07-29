@@ -12,25 +12,25 @@
 
 下面将示范在Buck转换器的EMI设计中的不同方法所导致的影响。示范所使用的IC是RT7297CHZSP，一款800kHz工作频率、3A输出能力的电流模式Buck转换器，采用PSOP-8封装。测试中的电路工作在12V输入下，输出为3.3V/3A，测试所用电路显示在图12中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIKVrWUqsKBEic4LXiaxWOkhtHV061r1WLlZyUiaYFh9AH4iaduibvHgUOcnQ/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_002_665a5c92a3a8.png)
 
   
 
 测试所用的板子有两个版本，一个具有完整的地铜箔层，一个没有。板上设置了多种可选配置，如LC输入滤波器，不同的输入电容放置位置，可选的Rboot、RC缓冲电路和输出端LC滤波器。具有这些不同选项的PCB设计显示在图13中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIyBtw5VBfwavqb84sSEp87sAMFgbtyxePxLVXpFExcVEjz14kvibqNAA/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_003_eaf8861e640b.png)
 
   
 
 测试设备的配置如图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIWAeAIgmh4DWWo268kfSX9z5Zapkf9BVlEG9c0aAHkgYrUtXqYPBQrg/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_004_ea90ac7d565b.png)
 
   
 
 当被测试对象被放在实验桌上时，其PCB上的电流回路和导线就会向周围环境辐射出高频能量，这些辐射信号又会自己找到路径返回到测试对象上，并以高频共模电流的形式出现在供电线上。这些供电线上的高频共模电流会和板上的电流结合在一起，可被用着辐射状况的指示信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLItJ1SgvzFgic0nTHzXgf6oouRjV8e0eUcYXHiayiboDBYVlunIe8iaqJuiaA/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_005_ad09c4e27088.png)
 
   
 
@@ -51,13 +51,13 @@
 图 16 中的 PCB 布局呈现了一种很差的输入电容放置方法，这将在切换回路中引入很大的寄生电感。（此  
 布局中还有额外的间隙以增加回路的面积。）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIDfcfkyibVKtmnag12r4ecWq0iaficxc1DgGn36CXZICVibG4aicy3rauuibA/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_006_1f4aef8fcb9e.png)
 
   
 
 我们首先通过测量输入线上的共模电流来对辐射噪声做一次常规的检查。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIGyabDnlILRIQroSLhBOvjCliabECDHWydo5u6JuZBK8RkglaSS9EzicQ/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_007_5be60c1929ec.png)
 
 从图 17 右侧显示的波形可以看到，共模电流是出奇地大，而且在很宽的整个频段上都可看到。
 
@@ -66,13 +66,13 @@
 
 我们可以用环形天线在PCB上方搜索辐射场以发现共模电流的源头所在。当环形天线移动到输入环路的上方时，示波器在低频至高达200MHz的频段上显示出巨大的辐射噪声，参见图18。我们也同时看到开关切换波形上出现很高的过冲和振铃信号，这些信号实际上已经超过了IC的耐压规格。这些状况说明错误的输入电容放置位置可以导致很高的辐射和巨大的振铃信号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIrb8l2RszoZ5g42auIibstgKLjAdOsrmxjelCx6pgnzWMNHkZE6bUHYg/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_008_b730a6432083.png)
 
   
 
 假如将同样的测试在背面为地线层的板子上进行，我们将看到这种拥有地线层的大型CIN回路带来的辐射要远低于单面板上的结果，开关切换所带来的振铃信号也要低一些。参见图19。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIHskv36onWBZ5ia1DdHq6Z4oBm4EnFZWLj6iaIZn4Hsz88ib9PQAGw6JCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\DCDC_BUCK开关电源中的EMI辐射干扰分析_images\img_002_60bbe3481c7d.png)
 
 大回路上的电流形成的高频磁场会在地线层里生成涡旋电流，由涡旋电流所形成的磁场与原磁场的方向是相反的，从而可以抵消一部分原磁场。地线层离回路越近，抵消的效果就越好。
 
@@ -82,13 +82,13 @@
 
 我们继续使用单面 PCB，并将 CIN 放置到靠近 IC 的地方，这样就形成了比较小的 CIN 回路。参见图 20。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIRxOjxRxDxULmWScuUEpydpwiav1M0vJEajBQVia7u0CTktCQPqf7sibFA/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_010_bd0075eabd48.png)
 
   
 
 开关切换过程中的过冲和振铃信号的幅度都降低了大约 50%，辐射的强度下降了大约 10dB，频带宽度扩展到了 300MHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIEoZhey8J6u945GoU3DmZK1M2AYAXgnibf6YzD5FF1Kb4rZjaibHNNYjg/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_011_fc60dbf9893e.png)
 
 上述实验最重要的结论是确认了更好地放置 CIN 可以改善开关切换波形上的过冲和振铃信号的幅度，还能降低高频辐射。  
 
@@ -96,7 +96,7 @@
 
 在RT7297CHZSP中，芯片底部的散热焊盘是没有和晶圆内核连接在一起的，所以在PCB布局中将铜箔和散热焊盘连接在一起并不能缩短CIN回路。它的上桥MOSFET和下桥MOSFET通过多根邦定线连接到VIN和GND端子，因而可以通过这两个端子形成最短的回路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIeb2tVtibHbZrSjV7yJUAjZPYOweG11L45YbFHNl5mm0TFgxMUT67zkg/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_012_3a5b57bd22fe.png)
 
   
 
@@ -104,25 +104,25 @@
 
 图 22 显示出了电容的放置方法，现在的 CIN 回路就通过 IC 的引脚、内部的邦定线和 0603 规格的电容形成了。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIs2qC3xpnrlcwoePY4dpQKvSxuGPdQA13JpezlK7kLluC1XRBCC5WgQ/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_013_9d14b0e01218.png)
 
   
 
 从实验结果来看，开关切换波形上的过冲实际上已经消失了，但还存在低频的振铃信号。为了看清信号，测试天线也不得不再靠近PCB一些，其结果显示高频噪声已经消失，但在大约25MHz的地方出现了一个大的低频尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIr5xJvmEicXvvnXIq0opTf8H9fYl8Hx022xDfS0f9PCEQwJ7ooLfBe7g/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_014_282d65da9fca.png)
 
   
 
 这种低频谐振常因不同谐振回路中的两只电容因并联而发生谐振所导致，这种问题常常发生在EMI问题解决过程中，其回路和谐振都需要被定位才能排除。在此案例中，谐振发生在10nF电容和4nH的寄生电感上（大约3mm的导体长度），它们形成了大约25MHz的谐振信号。此谐振回路由0603电容、IC引脚、邦定线和PCB铜箔路径构成，其长度大约为3mm。解决这个问题的办法是在10nF小电容的旁边并联一个具有稍高ESR的22µF1206电容。采用经过优化了的CIN放置方法的PCB布局设计如下图24所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIubibyKcboGVk6zSOYPUQhBiafontZApOK5Mcn5mFwSP32mI6g77oCwWg/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_015_3bf50c0b8411.png)
 
   
 
 采用了上述的方案以后，单面板上的开关切换波形上的过冲已经完全消失，经环形天线检测到的辐射噪声也很低，它在经过 FFT 运算后得到的波形几乎都在本底噪声水平上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghNfw5cgUb7maMB3m8kWLIuQ1zwruV5BRtLsicHkRayUrPqQZB2uHWaXdaNO8j0xOk2EqfhCauDGw/640?wx_fmt=png)
+![](DCDC_BUCK开关电源中的EMI辐射干扰分析_images/img_016_7082d8a0aa55.png)
 
 假如我们在这个时候再用高频电流探头对输入线上的共模电流进行测量，我们将可看到共模噪声已经下降很多。与第一次测量的结果相比，某些频率上的差异多于30dB，说明整个板子的辐射水平已经很低了。
 

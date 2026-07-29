@@ -30,7 +30,7 @@ SAR切换电容ADC的基本原理（10位ADC示例）
 
 带数字输出的ADC基本原理图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kGhsmWeejanUr5uuH5kK4TXbf4Ql5uBibRQj7TQDxAJLlkUsPNxlO9ysCCVJTziaGLzObjXNWwCDD2tp49oYusrw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\天天在用的ADC_内部原理你了解吗__images\img_002_d7d446e22704.png)
 
   
 
@@ -38,7 +38,7 @@ SAR切换电容ADC的基本原理（10位ADC示例）
 
 采样状态：电容充电至电压VIN。Sa切换至VIN，采样期间Sb开关闭合
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kGhsmWeejanUr5uuH5kK4TXbf4Ql5uBib2GM5hC48OkzYicjpMTL90EYxRf4hh9Ob1SFXZ0Oypd1OwEevXfZcPyw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\天天在用的ADC_内部原理你了解吗__images\img_003_9291cd29e0f5.png)
 
   
 
@@ -46,7 +46,7 @@ SAR切换电容ADC的基本原理（10位ADC示例）
 
 保持状态：输入断开，电容保持输入电压。Sb开关打开，然后S1-S11切换至接地且Sa切换至VREF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kGhsmWeejanUr5uuH5kK4TXbf4Ql5uBibTricLZ2Sa63EhuvXgQib1nicUYIkeG9pHcoGEp6WHmPu1FpKLv0uN1C1A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\天天在用的ADC_内部原理你了解吗__images\img_004_ea40720ef0d6.png)
 
   
 
@@ -54,19 +54,19 @@ SAR切换电容ADC的基本原理（10位ADC示例）
 
 1、第一个逼近步骤。S1切换至VREF。VIN与VREF/2比较
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kGhsmWeejanUr5uuH5kK4TXbf4Ql5uBibBDCRLN67vdGOv01gBeMeuGKCOhpy1v6KZfIYghnqs1oiacicMVJSpf4Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\天天在用的ADC_内部原理你了解吗__images\img_005_de9ca7889077.png)
 
   
 
 2、如果MSB = 0，则与¼VREF进行比较，S1切换回接地。S2切换至VREF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kGhsmWeejanUr5uuH5kK4TXbf4Ql5uBibjIWaQnw7icBEMcF9AKQ8yyEkzuaibVicZGicRKIXChD04gXoSVeLovs1UA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\天天在用的ADC_内部原理你了解吗__images\img_006_c19e9b237b4a.png)
 
   
 
 3、如果MSB = 1，则与¾VREF进行比较，S1保持接地。S2切换至VREF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kGhsmWeejanUr5uuH5kK4TXbf4Ql5uBib99492wZJn8Ekx1Ddhb78WjG4hr9S0Xa7e8dvLLVmOEyMnQYpEibt1Yw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\天天在用的ADC_内部原理你了解吗__images\img_007_c8cbe4167ba0.png)  
 
   
 

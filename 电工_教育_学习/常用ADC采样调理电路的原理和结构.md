@@ -16,13 +16,13 @@
 
 ADC（模数转换器）采样是将模拟信号按照一定的采样频率进行离散化然后转换为数字信号的过程，通常包括采样、保持、量化和编码四个步骤。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvt71cZL5J0ropuFYaNke6iaXTOQtMR7fVyOL5Xv1LaEJWgcQaQ9FDX2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_002_770a96025368.png)
 
 **1、采样**
 
 采样主要实现模拟信号的离散化处理，即将连续的模拟信号转换为一系列时间间隔相等的模拟信号。采样的间隔由采样频率决定，频率越高采样得到的信号越接近原始信号。但较高的采样频率会使得数据量增加，同时对系统的转换速度要求变高。一般选择采样频率为原始信号最高频率的3-5倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvPFFsRK74zzSEQRla5a3pEVIoCiapTOzcOogg86LhPIwPpdoGgnZGEjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_003_8342b1f1b8a0.png)
 
 **2、保持**
 
@@ -34,7 +34,7 @@ ADC（模数转换器）采样是将模拟信号按照一定的采样频率进�
 
 以参考电压3.3V的12位ADC采样模块为例，输入模拟电压与量化后产生的数值之间的关系如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzv1D6D3tqoI8OAY3OfAfpUCd8Lic6cmpeUCQ3jMB15XiaUibDhf5Vf9kA2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_004_0b20fc54d65c.png)
 
   
 
@@ -50,7 +50,7 @@ ADC采样的实现方式包括外接采样芯片和采用控制核心内部采�
 
 对于没有ADC采样模块的数字电源控制核心，如经典的51单片机以及MSP430单片机等，需要根据采样频率与精度的要求选择合适的ADC采样芯片。数字电源中常用的高精度ADC采样芯片有AD7915、AD7606和MAX1324等。采样精度（位数）越高量化误差越小，采样频率高则信号越接近原始信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvicfHanR8bibfeCGk0VrxAcQylO4XOWkROODp49ALbB87EvCIEo9y2dbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_005_fddea992719a.png)
 
 使用控制核心内嵌采样模块或外接ADC采样芯片时，需使用采样调理电路将待测信号转换为小电压信号，以满足ADC采样模块的输入电压范围。
 
@@ -72,7 +72,7 @@ ADC采样的实现方式包括外接采样芯片和采用控制核心内部采�
 
 电压分压采样电路是典型的非隔离型电压采样电路之一，因为其结构简单、可靠性高、成本低等特点，常被用于数字电源电压采样。其电路结构如图，输入电压Vin经过Rs1与Rs2分压后经过输入侧滤波（Ry11、Cy11）接入运算放大器U1，再经过输出端滤波（R21、C21）接入ADC采样模块，运算放大器U1起电压跟随作用。U1、U2运放需要选取低压轨至轨、低失调电压运放，建议与ADC采样模块同电源供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvt937cbPh6icAR72wU2qfkjq1NX4vOnHhlOJW2GOsGxmyZOOOPxSb5GQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_006_92a68ac8ffdf.png)
 
   
 
@@ -86,7 +86,7 @@ ADC采样的实现方式包括外接采样芯片和采用控制核心内部采�
 
 首先我们介绍一下霍尔元件的采样原理，霍尔传感器内部包含垂直于磁场方向放置的半导体薄片，根据霍尔效应，当有电流流过半导体薄片时会产生电动势，该电动势称为霍尔电势，可以通过测量电动势的大小得到流过电流的大小。以单电源闭环霍尔电压采样电路为例：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvJ8jdicuiaHgnibzHO84QQQ1wfSAZicJzlKibCCc5cUQiaZicrg0gUOVWPvYAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_007_efd6814b8a2d.png)
 
 待测电压通过采样电阻Rs3接入霍尔电压传感单元U1，得到一个幅值在0~V+的输出电压Vo。Vo经过分压电阻Rs1与Rs2后接入运算放大器U2，分压电阻的作用是调整霍尔电压传感器的输出电压幅值，以适应ADC采样模块的输入电压范围。运算放大器U2起到电压跟随的作用。U2的输出再经过低通滤波器（R1、C1）后接入ADC采样单元。
 
@@ -96,7 +96,7 @@ ADC采样的实现方式包括外接采样芯片和采用控制核心内部采�
 
 隔离运算放大器是一种特殊的测量放大电路，其输入电路和放大器输出之间有欧姆隔离的器件，信号在传输过程中没有公共的接地端。隔离运放电压采样的基本电路结构如图，输入电压经过Rs1与Rs2分压后接入隔离运算放大器，随后接入差分运放电路中，运放U1的输出电压经过滤波器（R1、C1）后接入ADC采样模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvFbUC6h4QOibHicVVWB6ibpAGNrJIhk2e1lnvUQevTSnqvLs2bd9EWZ4jQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_008_8497873bb25c.png)
 
   
 
@@ -106,7 +106,7 @@ ADC采样的实现方式包括外接采样芯片和采用控制核心内部采�
 
 电流分压电路是典型的非隔离型电流采样电路之一，其电路结构如图。在待测支路中串联采样电阻Rs3，并将电阻两端电压接入运算放大器U2中。电路中U2以及电阻Ry21-Ry24构成的差分电路。差分电路的输出经过滤波器（R11、C11）后接入ADC采样模块。U1、U2运放需要选取低压轨至轨、低失调电压运放，建议与ADC采样模块同电源供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvIXx1vaJ7v5sLXuImgKxQSGCJgicd2yVFr2l2Eg8XjlTtcZcia3P1rS7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_009_2c98c116aa4a.png)
 
   
 
@@ -116,7 +116,7 @@ ADC采样的实现方式包括外接采样芯片和采用控制核心内部采�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvYSLmKnqcKTvqIPgMLOEEF4xBgUDaQOfNQjxFv3pjPGSY2uklCDf5Sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_010_7569e3efa216.png)
 
   
 
@@ -125,7 +125,7 @@ ADC采样的实现方式包括外接采样芯片和采用控制核心内部采�
   
 本文介绍了大功率数字电源中不可或缺的采样调理电路和ADC采样模块，重点阐述了常用采样调理电路的原理和结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_011_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\常用ADC采样调理电路的原理和结构_images\img_012_d5dcc7ecfdf3.jpg)
 
 ## 
 

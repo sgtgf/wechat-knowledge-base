@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/3a2eSn7reTb1-0Z2xmxwqw](https://mp.weixin.qq.com/s/3a2eSn7reTb1-0Z2xmxwqw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -36,7 +36,7 @@ G. Kovács, "Harmonics in the Squirrel Cage Induction Motor Analytic Calculation
 
 The harmonics that appear in the squirrel cage asynchronous machine have been discussed in great detail in the literature for a long time. However, the systematization of the phenomenon is still pending, so we made an attempt to fill this gap in the previous parts of our study by elaborating formulas for calculation of parasitic torques. It was a general demand among those who work in this field towards the author to verify his formulas with measurements. In the literature, it seems, only one detailed, purposeful series of measurements has been published so far, the purpose of which was to investigate the effect of the number of rotor slots on the torque-speed characteristic curve of the machine. The main goal of this study is to verify the correctness of the formulas by comparing them with the referred series of measurements. Relying on this, the expected synchronous parasitic torques were developed for the frequently used rotor slot numbers - as a design guide for the engineer. Thus, together with our complete table for radial magnetic pull published in our previous work, the designer has all the principles, data and formulas available for the right number of rotor slots for his given machine and for the drive system. This brings this series of papers to an end.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ib7d7jYsX7ibsHt36AjAOfjFrg26Q4jkGgJqq4hPCmvb9VXYIYWkfNNAiaaylLnsOpian0vy6aoxwR0w/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_001_d7aa214efde0.gif)
 
   
 
@@ -46,7 +46,7 @@ The harmonics that appear in the squirrel cage asynchronous machine have been di
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ib7d7jYsX7ibsHt36AjAOfjF7OXF5C9kYrq13K2Zgps3SfMTLdyz1hG3JSh5z0fgeQA00aIDo73aLw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_002_29fb048a7ff9.gif)
 
 **G. Kovács** 1949年1月5日出生于匈牙利布达佩斯。于1972年在匈牙利布达佩斯的匈牙利技术大学获得工程硕士学位，主修电机领域的重电流工业。  毕业后，加入了匈牙利布达佩斯的甘茨电气工厂。在整个职业生涯中，曾在感应电机电磁计算部门担任过不同的职位，包括部门的负责人。目前，他是一名高级开发经理。  于1990年参加了ICEM 82和84、IEEE等学术会议，报告了所在公司生产的2极MW级“带启动盘的鼠笼式感应电动机”，以及其他关于大功率感应电动机电磁计算的主题。主要成就包括发明了变极绕组(特别是宽比绕组)。目前主要研究方向是感应电机的谐波处理，以及通过他提出的“寄生扭矩和径向磁力公式”实现解析分析(ICEM 2020, ICEM 2022)。
 
@@ -54,7 +54,7 @@ The harmonics that appear in the squirrel cage asynchronous machine have been di
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_003_654c2fde68d8.jpg)
 
   
 
@@ -68,15 +68,15 @@ The harmonics that appear in the squirrel cage asynchronous machine have been di
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_004_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_005_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_006_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -84,15 +84,15 @@ The harmonics that appear in the squirrel cage asynchronous machine have been di
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_007_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_008_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_009_644d85f1cc17.png)
 
 学会官方B站
 
@@ -100,15 +100,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_010_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_011_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_匈牙利甘茨电气工厂G__Kov_cs_鼠笼式异步电动机谐波分析计算第三部分_对转矩_转速特性的影响_images\img_012_c28b250481e7.jpg)
 
 学会科普微信
 

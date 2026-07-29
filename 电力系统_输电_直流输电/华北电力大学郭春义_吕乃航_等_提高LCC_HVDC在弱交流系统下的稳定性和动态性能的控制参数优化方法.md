@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QWmGOSN0jyiandZn7eSGrmIqAmV5r4DHHQ3PbdCXI8uiaSpgdhc4KkGdncSDstkcWMr14u8PT0pMrA/640?wx_fmt=jpeg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\华北电力大学郭春义_吕乃航_等_提高LCC_HVDC在弱交流系统下的稳定性和动态性能的控制参数优化方法_images\img_000_fa8d0ca0a3e9.jpg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\华北电力大学郭春义_吕乃航_等_提高LCC_HVDC在弱交流系统下的稳定性和动态性能的控制参数优化方法_images\img_001_20dfdbaaa341.jpg)](http://www.eitrt.org/)
+[![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\华北电力大学郭春义_吕乃航_等_提高LCC_HVDC在弱交流系统下的稳定性和动态性能的控制参数优化方法_images\img_002_eadffead456a.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约 2100 字
 > LCC-HVDC系统在逆变侧连接弱交流系统时可能出现小干扰失稳以及动态性能恶化的问题，需要同时关注系统的稳定性和动态性能。而现有的控制参数优化方法所用的目标函数往往仅描述系统的稳定性或动态性能，而不能同时兼顾。针对这一问题，本文利用能够同时衡量系统稳定性和动态性能的能量衰减指标作为目标函数对LCC-HVDC系统关键控制参数进行优化。通过不同功率运行点下的测试，证明经过参数优化的 LCC-HVDC在弱交流系统下的稳定性和动态性能有明显提升，证明了优化方法的有效性。
 **研究背景**

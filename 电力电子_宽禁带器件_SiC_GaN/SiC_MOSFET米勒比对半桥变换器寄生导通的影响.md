@@ -7,39 +7,39 @@
 
 作者:Antonia Lanzafame,Luciano Salvo, Mario Pulvirenti,Angelo G. Sciacca, Massimo Nania
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicYqUeaJ1T0GbnEapSCoEbjdyCOLBpz261o26bUG5w4ibzl94lglSP0oA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_000_8dad74895348.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic70EZEKAWWxQZwMnU7l3EbpiakNDKnYQhkw0oStMAFibw3vVSvKaIqbiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images\img_000_607e1926050a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicBjxDpN5BjVA7e1wXht3EDD6vWiabcD8yZ55N1KaxqwWnBHSJSqxBC2A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_002_ec7eb732e050.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicT2A8rgj6q1Boe9QgUuGgVgJCzO3hj0g2oq8BNyjpClXUNQzc25Ysdg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_003_6559abd6e394.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicAZJsTVJxOWs8QVxgbH8qzeR9gMo5Nyltreyo5ABOBTQkxNDlzYsdvA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_004_d273cf148f9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicLeQiao6BmRse0pwLPHxxAWJCTvf0AjNQYmHGWXSI7rhbJJQ2hmHwIZQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_005_104af6c4aaa1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicCYI8weuAtyarML7uX6EyicT7G5AYCNzcd7j8IAibrJhj5I0nCib0LPgiaQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_006_f419205692be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicGRHVSEXeAtdUtzA7ibQFEhsDRL1CpBrZoynlo6V4ia3KXicJslCTy17rA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_007_8b1652d26301.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicaibibmrNIicEuaaSSSRDfnP0YDMNrcdqcSmADb579OnCR35AoPDVufmzA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_008_ac7f8b190615.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicyWjoIpL29V4o6Lq8eKrnHUdfb1NjZMTfzXOjHbh65fKxc53eBZa7UQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_009_29b5c2d08bd3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicLYIUZBG8qT3PmsPJB61qM7tyJkEicO3w7tBdZ8vFljsGnhbJ2GlsQ1w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_010_3f707326c46b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicXW1lWXMsVeiaGhL3gQqQ9JPZVbWs9WTptoHMTyicX3ncyjbpIdIQHWww/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_011_ed6f1dca48c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic7JibiahAxfUibyUvMDgz74Gfnt7Zr1icqlOxuv2V2cJ3VAWUmwGU9iaZzBA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_012_74201a893a21.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic3ibhgQRjcvibvOibHtYib4e480icdYj25bA7EZmAwS7q7guSQYeAu38IjXA/640?wx_fmt=jpeg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_013_bc5ae0678e44.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicmuGHcKlHbIjiamDqgckicAs2SoibO7rZKiciaEQ7Y5rcBl8icQ6u5aAly0Cw/640?wx_fmt=jpeg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_014_e3945c091526.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicn2rq0wJibwEj4bib00kb4azyqWM9micVZPxCKWPibE4I11r17nXucEV20w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_015_8cef4f086f69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopiceZ89qGh4dM8ibL7HxNRKc3yLo873ovKVGezwEMcVHSUQTW8LetvDXaA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_016_13fa357d7104.png)
 
   
 
@@ -195,13 +195,13 @@ SiC MOSFET的 `Vth` 通常较低（2-4V），且具有负温度系数（温度
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aJ1MUTicI0GuiauhfoebWumUgU1Qu9ic5Xniaicbkyl3gyFlO0cbmDfmBLiaQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_017_fe069fcfb36e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a8crJ2L7M4OX17Szb34FK5JlibMciajPSibAJ2KVAIic8moa4vRiacc5rbCw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_018_bc2989d2aff2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a48flZW0nqjIpO5FVkvY9NUDp0sHzB0BgvVskic0uVzn30TaNKvXUsVw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](SiC_MOSFET米勒比对半桥变换器寄生导通的影响_images/img_019_3fde635b287d.png)

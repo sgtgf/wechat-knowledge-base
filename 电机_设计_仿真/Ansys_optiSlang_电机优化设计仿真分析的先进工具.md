@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/39rCsTq2U1Bkkt\_zpJYy7g](https://mp.weixin.qq.com/s/39rCsTq2U1Bkkt_zpJYy7g)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIX2rkIcxficfQ8wF3FmQLbwZkJuLYpgxOuIMBgubXr9TnQ3xb0Vc8K1RY0RMfBV53ic7bbObwzmayWg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627752&idx=1&sn=d54a8e9c894a079b825ab46d2e68ae37&chksm=88bcf5a7bfcb7cb1c0cc02b348b68127336f32e483ed9e9ce826aa9481ebfaaf291d072f774f&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_001_0ffabdd826d0.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627752&idx=1&sn=d54a8e9c894a079b825ab46d2e68ae37&chksm=88bcf5a7bfcb7cb1c0cc02b348b68127336f32e483ed9e9ce826aa9481ebfaaf291d072f774f&scene=21#wechat_redirect)
 
 仿真正在成为产品开发流程中不可或缺的一部分，在自动化仿真流程中集成用于评估设计的所有CAx工具是数字化过程中的重要一步。通过将不同的物理学结合到一个多学科的方法中，可以更全面地研究现象，并在更大程度上优化现象。此外，仿真流程可以跨团队进行标准化和共享（民主化），使仿真新手能够更直接地访问仿真。
 
@@ -13,7 +13,7 @@
 
 能够实现上述所有功能的流程集成和设计优化 (PIDO) 的解决方案是Ansys optiSLang。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVqFxrTRWAvibPCxh2Mek4I703I4xMObnFYMl7ufv287ZFicNGmz31ZdWibCQ2ekcAdcNgiaXwdY2ic1ibg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_002_ef12b0c4414a.jpg)
 
 Ansys optiSLang 由两个主要部分组成：
 
@@ -25,7 +25,7 @@ Ansys optiSLang 由两个主要部分组成：
 
 借助虚拟原型设计中使用的参数变化分析的强大功能，用户可以更低的成本和更少的时间（与试错方法相比）实现更优化和更可靠的产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVuJK42eM11Mb8nozTAPSXKb5DX3gQnSQqvv5wzTRRx0QbqVrEGv0B9pyfbicRldCRGnwnHSaG6icgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_003_15f73e0810c1.jpg)
 
 电机高效设计及性能优化仿真技术能为企业量身打造集成化设计解决方案，充分考量多个物理场对电机性能的影响，在满足技术需求的同时设计出最优方案！明年1月16-17日，西莫将再度联合上海安世亚太倾力打造新年第一期电机仿真专题进阶研修班，为大家提供实战操作Ansys optiSLang软件进行永磁电机优化设计仿真分析的学习机会，欢迎扫码上方二维码报名参加本次培训！关于培训的更多详情介绍如下：
 
@@ -113,7 +113,7 @@ Ansys optiSLang 由两个主要部分组成：
 
 电机高效设计及性能优化进阶培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXvB8icvs5q7Cic5H63cZiba0ibN50ZnooCTJyX0a7PvT1Kckibkflt9CfJ3znLicSGlQ1NoaQjbicn1j94Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_004_c32feaca3b1b.jpg)
 
   
 
@@ -149,15 +149,15 @@ Ansys optiSLang 由两个主要部分组成：
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUY8ic8lamc9GbibrhZuR7vuu6ibTtKrNgSPMYwnFB3maV8hjZafS4ooUWsgvEa4GicReZVicsPrCMsMxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_005_eaf4cc5d851c.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_006_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh5Zp3ic62eKbJZbzsM1G3Lbl48JiaKDBHGkAAVF1slauic732iaAic0NDrzw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627499&idx=1&sn=cf06492802ae229813dbe0412f4f4f71&chksm=88bcf6a4bfcb7fb27afb37adb3e3368942368bd335a6b76b03118c85f256b5217f3eb5235ebf&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_007_d1686dfd7cbd.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627499&idx=1&sn=cf06492802ae229813dbe0412f4f4f71&chksm=88bcf6a4bfcb7fb27afb37adb3e3368942368bd335a6b76b03118c85f256b5217f3eb5235ebf&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh9IkK2CJTaz4HHexibFEZibrCf6518psydQZ7Ud1gBV2znrrSSjeZ0Yog/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_optiSlang_电机优化设计仿真分析的先进工具_images\img_008_f48eeedfff63.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
 
 点击**阅读原文**，直接报名参加本次培训
 

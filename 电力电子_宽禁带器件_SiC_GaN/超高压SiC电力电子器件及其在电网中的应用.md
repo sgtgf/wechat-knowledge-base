@@ -31,23 +31,23 @@
 
 2001年日本关西电力研究中心和CREE共同报道了耐压达到12~19kV的MESA-JTE结构的SiC PiN二极管，成为世界上首个超过10kV的SiC功率整流器。器件通过结合MESA与单区JTE两种结终端技术，从而降低边缘电场集中效应，提高了器件击穿电压。   
 
-对于不同外延层浓度与厚度的SiCPiN二极管 (A：N-漂移区掺杂浓度![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkqQ6bSicZ411hssUDKdiceHyiagIgS4DKWNSjobKn7QxL6ZJzxYPbp6OHA/640?wx_fmt=png&from=appmsg)，厚度120μm； B：N-漂移区掺杂浓度![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQk9zXiaPic83LMjSw3vAfL1FuZgRBAXicTMCrLibprXbGoZjqUn2ldibrDLOg/640?wx_fmt=png&from=appmsg)，厚度200μm)， 击穿电压分别达到了14.9kV与19kV，100A/cm2 时导通压降UF分别为4.4 V与6.5 V，关断延迟仅为商业化400V耐压的Si基PiN二极管的1/4，动 态损耗大大降低，如图1所示。
+对于不同外延层浓度与厚度的SiCPiN二极管 (A：N-漂移区掺杂浓度![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_000_19bf3dd52009.png)，厚度120μm； B：N-漂移区掺杂浓度![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_001_37e1cdf5d69d.png)，厚度200μm)， 击穿电压分别达到了14.9kV与19kV，100A/cm2 时导通压降UF分别为4.4 V与6.5 V，关断延迟仅为商业化400V耐压的Si基PiN二极管的1/4，动 态损耗大大降低，如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkOcYrnWMCYlHRfSrVZIDTpcjr2yjZAoZd9hz9VDoxWhwqSsmtkRQI6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_002_a02031eb1774.png)
 
 2015年，Naoki Kaji等人通过结合间距调变 JTE(space-modulated JTE，SM-JTE)与双区JTE(double zone JTE)结构，研制出了一种击穿电压超过26.9kV的SiCPiN二极管，是目前报道的击穿电压最高的SiC电力电子器件，如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkev5eXR85FvOw5of7yicYOhlGKuFic9HR9icSJgcRkNQztqFdwqASDW2vQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_003_fd3591a76efd.png)
 
 新结构通过优化SM-JTE的宽度与间距，降低了单区JTE 边缘处的电场集中现象，从而克服了传统单区JTE 存在的优化掺杂浓度范围窄的缺点。同时，与传统 双区JTE结构相比，JTE区同样只需要2次离子注入，没有增加工艺步骤与难度。该结构器件特性如图3所示。一方面，相比传统单区JTE与双区JTE 结构，新结构JTE优化掺杂浓度范围显著扩宽；另 一方面，当N-区厚度分别为98 μm和268 μm时二 极管的击穿电压超过13kV和26.9kV，达到了理论平行平面结击穿电压的70%，同时差分导通电阻 分别为1.87mΩ·cm2及9.7mΩ·cm2，正向压降分别 为3.1V和4.72V，在保证优良正向导通特性的条 件下，大大提高了器件的击穿电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkE7p1cGmNuzXjOq8mGVjytuO3leQ1icniaNTBCtcFWlWaPjCNXb5v1fGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_004_289838371d20.png)
 
 **1.2  超高压SiC SBD二极管** 
 
 肖特基势垒二极管(schottky barrier diode，  SBD)是一种金半接触的整流器件，SiC SBD相较于SiCPiN二极管，其主要优势在于导通压降只有1V左右，仅为PiN二极管的1/3，大大降低了器件的导通损耗。但是，金半接触也导致其反向耐压较低， 泄漏电流较大，如今商业化的SiC SBD大多在千伏量级，对于10kV以上的超高压领域，目前国内外的研究均较少。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkVmpUxIicax5X5uKP3eAnSoY5CBre9FSze3LVab7lSUDUlcOM8MPv8AA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_005_8bb5dbb16f86.png)
 
 2003年，赵建华等人报道了首个10kV SiC  SBD二极管。该器件的终端利用刻蚀与外延生长形成多级JTE结构，如图4所示。二极管击穿电压为10.8 kV，电流密度48 A/cm2时正向导通压降为6V，比导通电阻187mΩ·cm2。器件的缺点显而易见，反 向泄漏电流较大。
 
@@ -55,17 +55,17 @@
 
 JBS与MPS二极管结构上类似，均是结合PiN 高耐压大电流与SBD低导通压降、高开关速度的优点，其区别在于：JBS二极管选用肖特基势垒较低的金属接触，漂移区较薄，导通时仅SBD部分参与导电，关断时PN结反偏形成耗尽层承受耐压， 多用于低压领域；而MPS选用肖特基势垒相对较高的金属接触，漂移区较厚，导通时SBD与PiN均参与导电，多用于高压领域。JBS与MPS的综合性能均高于单一PiN和SBD器件，且工艺难度不大，因此，在超高压应用领域，SiC JBS与MPS二极管扮演着重要角色。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkrqZxP8ibeWyvicBN4ibRYcuNtolH11f9rXruG9yicYxPP0SvzP1rJLvlkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_006_bfcb53743ec6.png)
 
 2008年Brett A. Hull等人报道了芯片面积0.88 cm2的10kV SiC JBS整流器，如图5所示。在室温下，SiC JBS二极管正向电流10A时导通压降低于3.5V，并且耐压10 kV时的反向泄漏电流小于10 μA。
 
 2017年Hiroki Niwa等人报道了一种超高压混合结构的SiC MPS二极管。如图6所示，该结构源区部分结合了PiN二极管与JBS二极管，在正向偏压较低时，JBS中的SBD部分导通，当正向偏压达到SiC PN结内建电势时，PiN区导通，终端部分结合了MESA、单区JTE以及SM-JTE结构。其中单区JTE负责优化PiN区边缘处PN结的电场集中， SM-JTE则优化JBS区边缘处电场集中，同时扩宽 JTE优化掺杂浓度的范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkLXK41yxGzJibNpEEbiaewPmEoaD2k4c0l49zWtZzJom16l5UnXLn8VuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_007_8e7035a45d96.png)
 
- 器件特性如图7所示，其中PiN与JBS区宽度 均为100μm，终端区为500μm，源区总面积为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkA8Im2fB1o5uXklxEundMSPPWAnpzGg2ureTDJiczUZx25Rd2Z9WhT3Q/640?wx_fmt=png&from=appmsg)。在正向导通电流密度50A/cm2时二极管导通压降为4V，反向阻断电压11.3kV。该研究表明MPS同样具有优良的正向导通以及反向阻断特性，在超高压领域具有巨大潜力。 
+ 器件特性如图7所示，其中PiN与JBS区宽度 均为100μm，终端区为500μm，源区总面积为![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_008_44c2c2b28a1e.png)。在正向导通电流密度50A/cm2时二极管导通压降为4V，反向阻断电压11.3kV。该研究表明MPS同样具有优良的正向导通以及反向阻断特性，在超高压领域具有巨大潜力。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkSWy9WLpTu1quSfJR8KjuhxOpKQ8ouhW9BYaeYo1leJcEf5x8bU3vpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_009_96376ef49908.png)
 
  **1.4  超高压SiC MOSFET与IGBT晶体管** 
 
@@ -73,31 +73,31 @@ JBS与MPS二极管结构上类似，均是结合PiN 高耐压大电流与SBD低�
 
 2015年Jeffrey B等人报道了新一代的10kV  SiC MOSFET，如图8所示，对于8.1 mm×8.1 mm的器件，通过优化改进，其室温下导通电阻从第一 代的160mΩ降低至100mΩ。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkqgq1lG5D5uwiayroroaqoBGJ9MIU4ZGgOMlw9SlRTyv3lj9xkqCaWww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_010_4782cafbd2d6.png)
 
 在7kV、15A开关条件及21.5 Ω栅电阻的半桥电路中，其开关损耗20mJ，如图9所示，仅为商业化的6.5 kV Si IGBT的1/10。在3.6kV，25A应用条件下Boost电路中的6.5kV Si IGBT开关损耗达到 265m J，而应用于6kV，15A条件下Boost电路的 10kV SiC MOSFET，开关损耗仅仅6.5mJ，约为前者的1/40。测试结果表明新一代10kV SiC MOSFET凭借其低开关损耗的优势，相比商业化6.5kV Si  IGBT，可以应用在高于其10倍频率的10 kHz领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkQvtAWBbDibtJVTQNicKRQQUicOXuUdaTSzbMPI6tg0GUO8KHSQnVt8gVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_011_5486ad552fe3.png)
 
 2010年Xiaokun Wang等人首次详细报道了 耐压达到20kV的SiC IGBT晶体管，如图10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQk5K2RzhESOJy1bPO1WulFEEGIDUjIEZLV9VzWdhfufjKgyMuYnCcoYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_012_6c473a5cc55c.png)
 
 在20V栅压、300W/cm2的功率密度下，器件正向导通电流密度高达27.3 A/cm2，体现了良好的正向导通大电流特性，如图11所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkBC41L9KErd6icqwcASNjGz9zj7CTuictNfib1WLYvXKULopg1BnibSDmzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_013_815a009e74bf.png)
 
 2016年，Sachin Madhusoodhanan等人对使用 15kV/40A SiC N-IGBT的三相变换器进行了研究， 如图12所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQk3HVmHVBqw45Ak8LHYC7iaquSZRn9JNtJVTsDDRIF5lWn2kr9OsduG9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_014_d15baa632de9.png)
 
  相比15kV/20A SiC MOSFET，SiC IGBT在大功率下其效率进一步提高，并且损耗大大降低，如 表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkc6CzWduqhFfBJK1jXdF5JpfLYQbdjAITm5tLWxLhmdn47iaiaFfiaoj7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_015_d1a3c8ed37c4.png)
 
 图13所示为5kV、5A、175 ℃条件下15kV/40A SiC N-IGBT开关特性，其开通、关断时间分别为800ns和1.6μs，开通与关断损耗分别为9.414mJ和19.03mJ。测试结果表明，15kV SiC  IGBT在安全工作结温、开关时间及损耗上均优于商业化6.5kV Si IGBT，对于高频高压领域具有巨大的应用前景。与15kV/20A SiC MOSFET相比， 在大功率应用下，损耗更低，性能优势更显著。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkpoNSMNBuIAhzpLsEc9pekTyxPiaTGKoJQkyyCKMPUNic0qKmp8BHkLicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_016_e01f5dd6d077.png)
 
 **2 . 超高压SiC电力电子器件在智能电网中的应用** 
 
@@ -109,25 +109,25 @@ JBS与MPS二极管结构上类似，均是结合PiN 高耐压大电流与SBD低�
 
 2009年WSung等人报道了15kV SiC  IGBT，打破了传统Si基功率开关器件的频率限 制，使固态变压器取代传统配电变压成为可能。如图14所示的FREEDM系统中，15 kV SiC  IGBT将被用于固态变压器技术中，取代系统中变压器和配电控制，实现可再生能源的发展，提高电能质量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkFia1GD35RkXl806j9pwZJtxQdcRsCNiaibibZyMTW6ehutia1Vx71yiaKfhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_017_08676def7ea6.png)
 
  2014年J. W. Palmour等人报道了15kV SiC  MOSFET，与商业化6.5 kV的Si IGBT比较，如表2所示，击穿电压高2倍多，且开关损耗仅为其1/30。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkkUnCSmbBNOcKDeBXRfhLYLBgAr1WOKkgBEibY4Ahv3Q5eIzh6Ffe5zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_018_651a1f2f3060.png)
 
 15kV的SiC MOSFET和JBS被应用在第二代电力电子变压器中，与第一代采用6.5 kV的硅基 IGBT电力电子变压器(如图15所示)相比较，不再使用复杂的器件或拓扑串联结构，开关频率由原来的1kHz提升至20kHz，开关损耗大大降低，并且可靠性大大提高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkZXc1vaW61suCe5MysrpKUAzqj2zjBvzuk2cZAJXnMlRmW9WNQhICEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_019_239d3ad66492.png)
 
 **2.2  超高压SiC器件在直流及交流断路器中的应用** 
 
 直流断路器凭借其高速的开关特性和方便的控制能力，以及瞬时、高频、低损耗和高安全性的特性得到了广泛的关注。15kV SiC ETO器件被应用于直流断路器，如图16所示，实现了9kV/50A下的可靠性工作。在大容量柔性直流输电技术发展的推动下，超高压大容量SiC器件在未来直流断路器的应用中必定具有光明的应用前景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkvtyGID5NdG5edHTVkeKjHnibEOpZhaRo9uFqC0WBSRibPqW8D9mWniccA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_020_1d5ef81bc0be.png)
 
 交流固态断路器的主要特点就是快速性和可靠性，对电网故障的快速检测系统起着十分重要的作用。目前已有研究者提出基于15kV SiC ETO 及15kV PiN二极管的混合交流断路器，如图17 所示，实现了中压领域超过100A的故障电流条件下，4ms内快速断路。相比传统机械断路器40~100ms，速度提升了一个数量级，大大提高了交流固态断路器的快速性和可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskD7vibZ4gJ0K5jc9Xu8ZYQkg0c3YetvSqxq6d64bJZdZAIU8DIWBBFcLLNfTz9eUAJQfRcGwYFxMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_021_7164b5eac382.png)
 
  **3.  结论** 
 
@@ -135,10 +135,10 @@ JBS与MPS二极管结构上类似，均是结合PiN 高耐压大电流与SBD低�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_022_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_023_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高压SiC电力电子器件及其在电网中的应用_images\img_024_84aa944feb13.jpg)

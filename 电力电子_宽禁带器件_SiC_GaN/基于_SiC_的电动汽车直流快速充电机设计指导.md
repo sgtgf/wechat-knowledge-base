@@ -11,7 +11,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfmhbfg1dHbBZzXqzrRxbZWxsja5SMUOvS3uPb0NbBbeAFb1DS5bQHpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_000_63d4e6818c78.png)
 
 **图 1. 直流快速充电机由一级 AC-DC 和一级 DC-DC 组成**  
 
@@ -33,7 +33,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfFtdsw537EzQABkiafux4sTldzepyM76ZtRCGUXyb2rial7pw41JiasQ5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_001_7bf404770eed.png)
 
 **图 2. 功率级别和系统的一般叠层方式**
 
@@ -82,9 +82,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfVdCnjW5m9Yake5QtdBNoqwMiaamJMFW16JIEogGeNMpELfpPucpSwPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_002_a7c8c1d0b4e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfgjibzzStExhkHD3sACyYSu3ZgpEAyNkDibDpGPx0K4FQk0XrenC0QR3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_003_95a22d516760.jpg)
 
 **图 3. 三相两电平双向 AFE（上）和 IGBT 对比 SiC（下）**
 
@@ -92,7 +92,7 @@
 
 表 1 描述与此配置相关的优势与挑战。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfhVHYO1jkkV8RAG2cRaCibncET8m81ujSMicqcrQZ3zdeRaPSY2FxGLRw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_004_69f269a631ef.jpg)
 
 **表 1. 三相两电平 AFE 的优势与挑战**
 
@@ -122,7 +122,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPf2476OHXquehrp66OVhOjGzLhGHic3bsibY696clcLbYibdNQSRScFsvEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_005_e95e484a0327.png)
 
 **图 4. T -Type  AC/DC 转换器**
 
@@ -130,7 +130,7 @@
 
 表 2 列出与此实施相关的其他优势和挑战。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfR6rGlicjKBnU4pj2ibBUaf4Tkc449lr9NFvd8n0mdN3Ue5SXvURPVESQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_006_e9fce828ae9a.jpg)
 
 **表 2. T -Type AC/DC 转换器的优势与挑战**
 
@@ -146,7 +146,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfCl31CxLZGHoNB98UJtzMPqVlnQbBuLosZNSQIXbynCP2AHZ2zAPufw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_007_758419571d6d.png)
 
 **图 5. NPC AC/DC 转换器拓扑**
 
@@ -154,7 +154,7 @@
 
 表 3 列出与此实施相关的其他优势和挑战。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfBkMZCvVfKnib8L6ia2w4vfUtlpbSMyEZVcCicyMoj83v6IzibHxw10p1jw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_008_dcf503b7c2d1.jpg)
 
 **表 3. NPC/ANPC AC/DC 转换器的优势与挑战**
 
@@ -166,7 +166,7 @@
 
 表 4 显示上述 AC/DC 拓扑的器件数量对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPf75OVlxD76dlibrucvHdIQZlsicwy11343X6GTsXV6m70svE8Rib3Y1FdQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_009_14a705f35121.jpg)
 
 **表 4. AC/DC 快速充电机拓扑总结**
 
@@ -182,7 +182,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfwdiaE8BxSqTgfZImutASfSLbPdwWUGOXztAJXFZBVC5N3LE8LPHbo5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_010_2bf887abd264.png)
 
 **图 6. 20 - 30 kW 两电平 LLC 双向 DC/DC 转换器**
 
@@ -190,7 +190,7 @@
 
 表 5 列出与此实施相关的其他优势和挑战。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPflnF3zI7KUcibdOvOHoYr7ApgIOtTMrrSQ1Im4smIoG9icLTQxpEhSASw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_011_9dc74e7f0856.jpg)
 
 **表 5. 两电平 LLC DC/DC 转换器的优势与挑战**
 
@@ -202,13 +202,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfYnFThEMZrOhWo1jfdaIJhyrGe2fcf9KzUicTR6B0xw0Vr38UktvMsRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_012_14b227039ea4.png)
 
 **图 7. 20 - 30 kW 两电平 LLC 级联双向 DC/DC 转换器**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfsCLpbOYuO2N6TJBibvfQF9Qib3cIEgtnXqJjWrAoic8axE89Jhpsqy3MQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_013_d24ee2d494dd.jpg)
 
 **表 6. 两电平 LLC 级联 DC/DC 转换器的优势与挑战**
 
@@ -235,13 +235,13 @@ CRD-22DD12N 是 Wolfspeed 的 22 kW 参考设计，这为利用 1200 V SiC MOSFE
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfxLb9BTciak0QV6bqZ4t70FV6VdZkDvMFHJlq7x8zX75YVEy70xskJ2A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_014_6fdaa3c1abec.png)
 
 **图 8. 20 - 30 kW DAB 双向 DC/DC 转换器**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfeXiccgTejUOTnmmSic5uavMd2RezSJku6mpnBZJ452IoAyLyyw6IP61Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_015_709e54013fc0.jpg)
 
 **表 7. DAB DC/DC 转换器的优势与挑战**
 
@@ -261,13 +261,13 @@ CRD-22DD12N 是 Wolfspeed 的 22 kW 参考设计，这为利用 1200 V SiC MOSFE
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPf17FAG731Z5ChBuUM4Jaf5gN9RweUWDhP2ic9srxHbp4vZzROm4Vb4yg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_016_9d443fdd9ea6.png)
 
 **图 9. 30 - 60 kW 三相 LLC 单向 DC/DC 变换器**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfoqiajyObtfm2ZA9vzHr2kLwNwlzFCdWwPwwcUEB68p4O9wB9vjZ22UQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_017_10288edb3d09.jpg)
 
 **表 8. 三相 LLC DC/DC 转换器的优势与挑战**
 
@@ -277,13 +277,13 @@ CRD-22DD12N 是 Wolfspeed 的 22 kW 参考设计，这为利用 1200 V SiC MOSFE
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfyHNMtNicWIWdyJibszd7RVpNpibf2nkFHyv7r0tX6qNtZqVAyn20WvezA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_018_424fb665bdc0.png)
 
 **图 10. 50 - 60kW 两电平 LLC 谐振转换器**  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfzQcPXmnMeAcwFjAGDG56oCdZtTyvsiaf5KfjiayCoVQ7f7zTE9MDn0sQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_019_77fbb8ae926f.jpg)
 
 **表 9. 两电平LLC 谐振转换器的优势与挑战**
 
@@ -291,13 +291,13 @@ CRD-22DD12N 是 Wolfspeed 的 22 kW 参考设计，这为利用 1200 V SiC MOSFE
 
 表 10 和表 11 显示了上述 DC/DC 拓扑的组件数量对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfMBUjy5ArhBO5KCkD5s0nssY2ib63thib0tBNkOlh2TIicibhzwZicV1ibssw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_020_94c7bd6ec265.jpg)
 
 **表 10. DC/DC 20 - 30 kW 快速充电机拓扑总结**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZld8yztzXIWZicD9icY57EGPfJUptcAnZKibbH7mmLWic2JwbgnMQQeVOrhJHvMiaGlcMFAia8KUkwO32LQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_021_452f22ff7631.jpg)
 
 **表 11. DC/DC 50 kW+ 快速充电机拓扑总结**
 
@@ -336,7 +336,7 @@ Wolfspeed SpeedFit 2.0 设计模拟器，敬请访问：
 -   [中等功率是 Wolfspeed WolfPACK 功率模块的理想应用场合](http://mp.weixin.qq.com/s?__biz=MzA4MDMwOTkyOA==&mid=2659602135&idx=1&sn=8df41d8cf208e43d7aa23a9a05051704&chksm=84d4d510b3a35c069ecab19c369be9c8d017101b1edfa54e2137740828cbc28cb10fe4289791&scene=21#wechat_redirect)
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlZCC8iaAr9Ajmgm492AQDJmKmZM8ntSibt9jYiakLLZ45dTDuztnp1qic2M5YiaZoufOMibqu0CHjLlRlQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_022_01141a4946ad.jpg)
 
   
 
@@ -346,8 +346,8 @@ Wolfspeed（美国纽约证券交易所上市代码: WOLF）引领碳化硅（Si
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZmgKibo4PI9POl0kGQicicZphB0psBenWOct9aYIbcSQTYvsDK17zYeyfwABZe8wMOpWmiaHqw3he0PNA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_023_f9c498887232.jpg)
 
 **▲ 扫描上方二维码，关注 Wolfspeed**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZmuXVUuSH7N6uCibAmMyTzM3WiaHTR796TTb90hhfgGBIwUVBldzk8uXrgvqDqoo5jpE3kPlsUyx2qQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的电动汽车直流快速充电机设计指导_images\img_024_b7a423710c26.jpg)

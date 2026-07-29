@@ -28,7 +28,7 @@
 
 然而需要大家注意的是，一些稳压电源的输出管脚可能相互不兼容，所以在布线之前需要确认芯片手册中相关的管脚定义。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7hC3l2wxQzUv2uACHHrR8Z5IZ4c6ynKCELB4BvF0hFI7rR7P6UlvGpiaoQy9wsP79FUcJhMNtTBw/640?wx_fmt=png)
+![](PCB设计_这些坑希望你不要踩_images/img_002_b23bfa800f7d.png)
 
 ▲ 图1.1 一种特殊管脚排列的线性稳压电源
 
@@ -40,7 +40,7 @@
 
 设计与布线之间的比较差异是造成 PCB 设计最后阶段的主要错误。所以需要对一些事情进行重复检查，比如器件尺寸，过孔质量，焊盘尺寸以及复查级别等。总之需要对照设计原理图进行重复确认检查。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7hC3l2wxQzUv2uACHHrR844deic3FAz92r7oHUiapNSAteP5OS4ybm4YKh6Y2YEevEIq1aAwUb9tg/640?wx_fmt=png)
+![](PCB设计_这些坑希望你不要踩_images/img_003_ede7e13f67b9.png)
 
 ▲ 图2.1 线路检查
 
@@ -54,7 +54,7 @@
 
 后期可能造成引线断裂，形成线路开路。在现代制作工艺由于使用了光感腐蚀溶液之后，这种腐蚀陷阱现象大大减少了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7hC3l2wxQzUv2uACHHrR8iaibnR7ock2KjgNXmKcQEYjTHZ3SeL5JDbsK3To1oa7EhCO0kcHBb6lA/640?wx_fmt=png)
+![](PCB设计_这些坑希望你不要踩_images/img_004_252ee15edba9.png)
 
 ▲ 图3.1 连接角度呈现锐角的连线
 
@@ -68,7 +68,7 @@
 
 这种现象通常会由不对称的布线模式所造成的，使得器件焊盘上热量扩散不均匀 。使用正确的 DFM 检查可以有效缓解立碑现象的产生。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7hC3l2wxQzUv2uACHHrR8wqGOHWYtHib8Mricbo2xRCIcLvpJLIycfQ9skLzR6ibzpkThMqruVLrWA/640?wx_fmt=png)
+![](PCB设计_这些坑希望你不要踩_images/img_005_06742adf8a77.png)
 
 ▲ 图4.1 电路板回流焊接中的立碑现象
 
@@ -82,7 +82,7 @@
 
 线路宽度也与所在层的铜箔厚度有关系。大多数 PCB 生产厂家允许你选择 0.5 oz/sq.ft 到 2.5 oz/sq.ft 不同厚度的铜箔。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7hC3l2wxQzUv2uACHHrR8Z8ibKRLvscJeqWmUFat1W59RJvibvT5o0maAHeajpv8lewI68RDxJgGA/640?wx_fmt=png)
+![](PCB设计_这些坑希望你不要踩_images/img_006_c3027e9539d2.png)
 
 ▲ 图5.1 PCB 引线宽度
 

@@ -29,7 +29,7 @@
 
 因此，输入滤波电容需要与输入连接器和驱动电路保持均匀的间距，必须始终使用较短的连接长度将输入部分与驱动器电路连接起来。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA659sxd6XPiaFadk4aFwejpCpMq5eoZfXFuGApn3CFXSzNEESfmspjtng/640?wx_fmt=jpeg)
+![](PCB开关电源设计技巧_images/img_002_674a90276367.jpg)
 
 上图中突出显示的部分表示滤波电容的紧密放置
 
@@ -47,7 +47,7 @@
 
 在下图中，突出显示的信号是高压直流线，信号以与其他信号分离的方式路由。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6iaMUEhNSzYq6vQoibtxbmscJoDIGHnoEtFyvPTUC11RZib0ZGBo6jXDZg/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_003_a188b46f6f16.png)
 
 突出显示的信号是高压直流线，信号以与其他信号分离的方式路由
 
@@ -59,7 +59,7 @@
 
 在下图中，显示了与光耦合器保持安全距离的隔离漏极引脚连接，并且 PCB 切口将消除来自其他路由或信号的任何干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6edVAITvN8Ne3Dvpq0poy14Xpy3rWBjmNW07T5VovtjJkicorQiajL5MA/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_004_f7b4b1f4d123.png)
 
 与光耦合器保持安全距离的隔离漏极引脚连接
 
@@ -69,7 +69,7 @@
 
 下图显示了从光耦合器到驱动器的单独反馈线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6syshePuLqtURNcGY4icXmYIjjWGuRTu2ibHehrvu3C8kxhrfadKaANVg/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_005_fb7df203561b.png)
 
 从光耦合器到驱动器的单独反馈线。
 
@@ -81,7 +81,7 @@
 
 开关电感是任何电源板中仅次于大容量电容的最大可用组件。一种糟糕的设计是在电感引线之间布线任何类型的连接。重要的是不要在电源或滤波器电感焊盘之间路由任何信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6IwtosH71hXxHDrot68ic0HXWgkeTz50PkgMQRaQ2mlSM6pmVoAmiadyA/640?wx_fmt=jpeg)
+![](PCB开关电源设计技巧_images/img_006_885f9e060816.jpg)
 
 电子元器件图片
 
@@ -89,7 +89,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6dCNdpv3xHJ98HG0ibB3mv0D1EIcJCLgBI07eIfELpNGXEF0Ta21gBMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\PCB开关电源设计技巧_images\img_002_11f1b50b1546.png)
 
 开关变压器之间的PCB 切断
 
@@ -109,7 +109,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
 下图是在底层创建的肖特基二极管的 PCB 散热器示例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6NX3MuRiaicNiaWvRbaDmmta12HUahsIVCDglja8hKOuVcIDhPiafPZibJ7Q/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_008_c70e455e2319.png)
 
 底层创建的肖特基二极管的 PCB 散热器示例
 
@@ -119,7 +119,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
 下图是从变压器输出到桥式二极管和滤波电容器的短回路示例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6dibLHFD0IibDq2CofjlNcJq6Oicw7GibRvjkhogHUickrRpHic4CM2T3ratQ/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_009_ac8d2333351b.png)
 
 从变压器输出到桥式二极管和滤波电容器的短回路示例
 
@@ -167,7 +167,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
 在某些开关转换器应用中，Y 级电容可用于桥接接地。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6TcPwqaEgCm9mrTANZdKLN9FqEzv0v6gybWaJSwsZaZ0vuKCbIvuICA/640?wx_fmt=jpeg)
+![](PCB开关电源设计技巧_images/img_010_caee9caf49b4.jpg)
 
 在某些开关转换器应用中，Y 级电容可用于桥接接地
 
@@ -190,7 +190,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 -   电源和接地层提供低阻抗连接，同时提供远离系统重要部分的散热路径。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA63GOib9Hebx20fnp1VibkBPu2hDHA4cXicws9t4wSKhGkouibx4pCiazymPA/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_011_deed5a9b46cf.png)
 
 电源和接地层提供低阻抗连接，同时提供远离系统重要部分的散热路径
 
@@ -208,7 +208,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
 另一方面，电源地承载高电流返回路径。电源组件噪声很大，如果直接连接到同一地线，可能会导致控制电路出现不确定的接地反弹问题。下图显示了模拟和控制电路如何在单层 PCB 中与 PCB 的其他电源线完全隔离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6M8YmQry1n00h3GWnoLJnt38tOqnsAgSexgaIbaLrc7Nh6Xbd9ib1O1Q/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_012_eb7683109e74.png)
 
 模拟电路和控制电路与其他电源线完全隔离
 
@@ -218,7 +218,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
 如果 PCB 是双层的，这很容易，就像顶层可以用作控制地，所有控制电路都应该连接在顶层的公共接地层中。另一方面，底层可以用作电源地，所有有噪声的组件都应该使用这个地平面。但是这两个接地是相同的连接并且在原理图中连接。现在，为了连接顶层和底层，可以使用通孔在一个地方连接两个接地层。例如，见下图——
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6HosESicuUib3VgOAaicQKQMKvjZko4xYUrGv9q0EyH8nSbDfSwmF9kKRA/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_013_7cd12c50ca46.png)
 
 使用通孔在一个地方连接两个接地层
 
@@ -248,7 +248,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
 降压和升压转换器布局可以承载需要大多边形来容纳热量并防止功率损耗的大电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6ibUibZwePpdy4pUuqoiayib6TE2MzFEIOnRm7LgiaJy7dBILGia3QAnTL98Q/640?wx_fmt=jpeg)
+![](PCB开关电源设计技巧_images/img_014_abb961df82ce.jpg)
 
 降压和升压转换器布局
 
@@ -277,7 +277,7 @@ ON 和 OFF 电源状态之间的转换会产生 EMI，如果电源布局中的�
 
 下图 PCB 布局中的组件紧密相连，并使用短而直接的走线进行布线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaIzm2YgUC0CSAyxBFd7GA6kqBsgJ17p3WVaZewZRsSC7404rrl7q82JDmeEAWy3qQbWz9nd7OZ0A/640?wx_fmt=png)
+![](PCB开关电源设计技巧_images/img_015_6835a2214b4f.png)
 
 PCB布局
 

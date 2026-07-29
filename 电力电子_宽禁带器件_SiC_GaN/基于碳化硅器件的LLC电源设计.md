@@ -27,7 +27,7 @@
 
 LLC谐振变换器的电路系统主要由电磁干扰（electromagnetic interference，EMI）滤波电路、功率因数校正（power factor correction，PFC）电路、LLC 谐振变换电路3个部分构成。其中，EMI 滤波电路用于抑制传导干扰与辐射干扰，确保系统满足电磁兼容性要求；PFC 电路用于实现输入电流的正弦化，进而提高功率因数。 LLC 谐振变换电路作为核心功率转换单元，主要用于实现高效的能量传输。LLC 谐振变换器电路系统组成如图1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMbSbChXyd2btRVX46fevsniaX2AIAwJ5oohKga7hrNVeB4p9uLV1Zf9icCeUGY3se234DNVriaqQrvribRUsNKkJZJ2qRSWq7BYQU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_000_46ff327c571d.png)
 
 NCP1654是一款专为连续导通模式（continuous  conduction mode，CCM）升压预转换器设计的高性能PFC控制器。该控制器具备跟随升压模式运行的能力，这一特性显著优化了预转换器的结构设计，在确保高性能的同时，有效减小了系统体积并降低了整体成本。NCP1654采用固定频率控制策略，通过合理设计电感元件参数，能够将正弦波顶部的峰间电流纹波严格控制在较低水平，从而提升系统的整体性能。NCP1654 还具备多项先进特性，如快速的瞬态响应能力能够确保系统在动态负载下保持稳定运行，低运行功耗能够显著提高系统的能源利用效率，精确的浪涌电流检测能力、可靠的过压保护能力和欠压检测能力进一步增强了系统的稳定性和安全性。这些特性使NCP1654 尤其适用于对PFC有严格要求的工业电源系统，如通信电源、服务器电源和工业变频器等。  
 
@@ -41,17 +41,17 @@ MP6922 是一款高性能的双通道快速关断智能控制器，用于LLC �
 
 本文设计的LLC 谐振变换器采用半桥式拓扑结构，其电路构成如图2 所示。该电路主要由直流输入模块、方波发生器模块、谐振网络模块、全桥式整流模块和滤波输出模块构成。其中，直流输入模块负责将交流电转换为稳定的直流电，并提供稳定的直流电源；方波发生器模块由半桥式开关器件构成，用于生成高频方波信号；谐振网络模块包含LLC 谐振腔，能够实现能量谐振传输；全桥式整流模块负责将高频交流电转换为脉动的直流电；滤波输出模块用于滤除输出电压纹波。这种模块化的结构设计大幅提高了系统的可靠性和可维护性，同时也提高了LLC 电源的效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOHibWRvOUicGt1Mh8eT2ZsH6nhKDARiaUqpWYU6mJIdDUjgCm8z6fUiaJo1KFBW46FqBrkIUzaNtduWpsR33ZLUctyB7foWpEUjfs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_001_486a6cad2de5.png)
 
 其中，Q1、Q2 为碳化硅MOSFET，D1、D2 为MOSFET的体二极管，C1、C2 为MOSFET 的寄生电容，Cr 为谐振电容，Lr 为谐振电感，Lm 为变压器励磁电感，RL 为负载。  
 
 LLC 谐振变换器的谐振网络由3 个谐振元件组成，根据电路运行状态的不同，形成了两个特殊的谐振频率。当原边、副边有能量传递时，副边二极管为导通状态，变压器励磁电感Lm 两端的电压始终被钳位到Vo。此时，电路中的谐振元件为Cr 和Lr，而励磁电感Lm 不参与谐振。此时，谐振频率fr1的计算如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM5kKp10Zia2xnuO30uj3TlWxL4xOia49PSHqDs0epZz7wLvtp0AXQHzHNj9FWLdHm5SYonQE8p8DcltQrIKgIplKx7JOxsoq1xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_002_c0136fd3e733.png)
 
 当高频变压器无能量传递时，副边二极管为截止状态，变压器励磁电感Lm 两端的电压不再被钳位。在此运行状态下，电路中的谐振元件为Cr、Lr和Lm。此时，谐振频率fr2 的计算如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPqt9U0f3iaekSkPJpu0TBFqvdWvePibxoPbwLekicb0Zia3ic6BSJhq9Ask68JCFcmtznEMrR98Tuw9b8QeoEmNy4kHBLhwBaGy2Sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_003_3aa4a54d92f0.png)
 
 LLC 谐振变换器处于不同的开关频率下，其等效输入阻抗的性质也不同。当开关频率为fr1 时，其等效输入阻抗呈感性；当开关频率为fr2 时，其等效输入阻抗呈阻性。阻抗特性与频率的关系直接影响变换器的软开关实现和功率传输能力。  
 
@@ -61,13 +61,13 @@ LLC 谐振变换器的谐振腔由谐振电感、谐振电容和变压器励磁
 
 谐振电容是LLC 谐振变换器中谐振腔的关键组成器件。当电源处于谐振频率时，谐振电容电压应力Vermax 的计算公式如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNKMjfGEeBPgc8aZLySt1zgqIGOMdLT3wr7p4nPpshPHLqfJ72DHl6ZeOVE5ggK8TqSyVq9s3qbkcvfSeFicicgOBrVOY83ptKhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_004_4acb748a1595.png)
 
 式中，Vmax 为最大输入电压（265 V），Imax 为最大谐振电流（12.5 A），fr 为谐振频率（90 kHz），Cr 为谐振电容（26.97 nF）。经计算，Vermax 为377.924 V。  
 
 谐振电感与谐振电容发生串联谐振，从而产生主谐振频率，这一过程对LLC 谐振变换器实现软开关和调整电压增益起着关键作用。谐振电感的电压应力Virmax 计算如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMqp920yIMlORNSeY0Dt97MsUanAAMwMe28iaYyMaM8gbl5DuaIp05Eq7YOib3d1XFmQC2cgNepaEuqvEic1jjLBbXJDcNibRqRkmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_005_6f9a17cbb88a.png)
 
 式中，Lr 为谐振电感（115.9 μH）。经计算，Virmax为175.424 V。  
 
@@ -75,13 +75,13 @@ LLC 谐振变换器的谐振腔由谐振电感、谐振电容和变压器励磁
 
 变压器原边匝数Np的计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOeqoAW888WtpAHXU0UrJ7eudzficdTVniczic6YTUeEy6XtIMTrStZvyWkGuQjUuZbOZtzUibS5vZMgEVjTfzwPYGe4o4aicNcm7xA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_006_04b30c40ec41.png)
 
 式中，Im\_max 为最大变压器电流（2.676 A），Bmax 为最大磁通密度（0.24 T）。经计算，Np为16.675 匝，实际应用中取值为17。  
 
 变压器副边匝数Ns的计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPiaJymPicpo2icSdibJibSQC21royJQ1TwAMHGP5a5bH5ibPNv84ChOVcia6pLRia4K24q6FwSiccbtHH1JTDo1luibqmR0HtPvI8GxBBmU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_007_ca5aad0e0b81.png)
 
 式中，n为变压器原边和副边的比值。经计算，Ns为2 匝。  
 
@@ -91,15 +91,15 @@ LLC 谐振变换器的谐振腔由谐振电感、谐振电容和变压器励磁
 
 通过上述计算得到谐振电容、谐振电感和变压器励磁电感等的关键参数。利用这些关键参数可以定制对应的谐振电感、高频变压器和谐振电容等关键元件。首先，使用PSIM 电力电子仿真软件，根据这些设计参数搭建对应的LLC 谐振变换器仿真模型，利用仿真结果对关键器件设计参数进行可行性分析，为后续的样机设计提供理论依据。其次，使用Cadence Allegro16.6 设计软件绘制硬件原理图，以确定各个功能模块在电路原理上的可行性；在对导入印制电路板（printed  circuit board，PCB）设计软件的原理图进行布局布线时，要重点考虑功率回路最小化、信号完整性，以及电磁兼容性、机械结构、板卡散热等关键因素。最后，搭建一台功率为300W、输入电压为交流85～265V 的LLC 电源样机。LLC 电源样机实物如图3 所示。由于电源纹波过大会对负载设备的正常工作造成影响，还需对电源满载纹波进行测试，分析电源在满载状态下输出电压上的高频噪声，以判定电源输出的稳定性和质量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOLrzPGykBurictE9xSEnV5I62n3Tia1UdA5FUcljyibcUMOniaibZe3LWtYL1OrkhmZClYEazgiaegHicZAwesDhmzrib4GZSgJhCauZs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_008_d1e1a5a625e2.png)
 
 3.2实验结果  
 
 通过测试LLC 电源样机的输出电压、输出电流等数据，进而计算出电源的效率。由图4 可知，LLC 电源的输出电压为24.01 V，输出电流为5.20 A，通过计算可得该电源的效率为94%。由图4c 可知，LLC 电源的纹波电压峰值为940 mV，满足5% 的电源纹波标准。输出纹波系数，即纹波电压与输出电压的比值降至3.92%。由此可知，本文提出的设计方案在实际应用中具备可行性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPBSSul8nJl6Cw5Y9WT0tUATtCVv3OKibhg3rOtbibVJtHfMliafnUvcmziaWYUKPpy3Q5VaJCC80XpSZXaWibHENeZh5ALVictpeUT4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_009_6ddda341a4d7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPnEZAhibm50VnJFD3KTIzia7gGaN4wc7ZCypWhnYmAZ5jCGRdxicwicdWNzYL4d4a1GNkcr4aqxhUoiaRI4NUyu20uoKCfpNqkGUGo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_010_dc69b635dc34.png)
 
 4.结论  
 
@@ -111,14 +111,14 @@ LLC 谐振变换器的谐振腔由谐振电感、谐振电容和变压器励磁
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMHxflAf2TpIEqbDFMGoXQbnxp78feibh61JRypr2Is9p0AZicHxia9ygVkRyicP59TfCzGVr129RAutMO8H87Ggian3ywt2f3HWDGo/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_011_71f063a99f57.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNlRGBr5micPQcGrILaFicaHvSCHMEMZoIwZic374rARoIUAJXBOmRb24FQ2SIvBz2Jmz9XV52k3NtXG5ntJ1xMMAgkPxUjRCA9Ak/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_012_27059ab674d5.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKZlrXxC7cnb9YPkOS3bWQUNT8OCJ8ibTdalv8yUGOApphoyQIiaeOHiaJZpTbMhYRcuib8Y1T2R5MdveBdICQuEU8t639btMqARQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_013_baa4a4927e3c.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMd3UFuL2FkCTN2kZheiaiceCFBTbAia9MZMDaoEADvf3WmqUS9NWBkf4lR47FX7j3pibnLTonQJtxMzepPopkQbibrr2rsD3Z8Ndwc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅器件的LLC电源设计_images\img_014_1ffbe399a9fe.jpg)

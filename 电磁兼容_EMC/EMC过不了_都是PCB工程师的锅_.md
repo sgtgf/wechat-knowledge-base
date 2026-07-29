@@ -28,7 +28,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9ic2ciaQmxL8Ce7tibCD4sKxuCA7ZUHKyua01vRdgTW0ZORNUt7BPpLGOw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_002_7239db3e25d5.jpg)
 
   
 
@@ -48,7 +48,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9vPsqGLXWqbWRBU77aVlbnaa8PTKD0kFj53qWx5ick21aict6BNvWKz4g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_003_76ddf5359801.jpg)
 
   
 
@@ -92,7 +92,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9CGaJ101YZPHCmZzVmIcDLpT4HuTxnNCLINAA4WuBLGWfG8lhOTp9yQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_004_3cb43d66763a.jpg)
 
   
 
@@ -236,7 +236,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9KAuuze59Iw0mfd4rcphewNaA8icc5GUZdz9y3m3PF2N62DvMQdzs3vw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_005_70a53a807211.jpg)
 
   
 
@@ -280,7 +280,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9fuuyjuedg83Z3RoUQrPxZCKCUtfvAeQyrjJTicrKchFYkNs2sJB7O4g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_006_19ae1ab689fa.jpg)
 
   
 
@@ -296,7 +296,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9xW3gQoTL0LUs0Lb2qianh99iapFctXgPelCJCibmiaicDrFvKzjek4iaOAyw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_007_44eecba3099e.jpg)
 
 补充一下，**吸收环路（RCD吸收以及MOS管的RC吸收，整流管的RC吸收）也很重要，也是产生高频辐射的环路。**
 
@@ -312,7 +312,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9KFRFOn7ujnIt1ice1wbcYlxcoPtEEhXTP0CUgo8p3vPiaGuiauACCsVicA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_008_031f9be92e72.jpg)
 
 注意事项：
 
@@ -420,13 +420,13 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9wPdmw3pns64MqnI47swZJx6SicOicVKGcodwticFQQTEmv0rJ3Vsp1cibQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_009_9f7b7ad58088.jpg)
 
 图二：为输出滤波电容走线，一定不要外挂（也就是被旁路掉），走的不好输出纹波很差。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9ZMbeia4U6ib6O6vVet15ffhrQLutVVfW4hpGF1ic7lJ6ib2aYPw6Ym2jKA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_010_c50fea3a79c3.jpg)
 
   
 
@@ -440,7 +440,7 @@ EMC的难点问题，PCB设计也算一个，虽不算太难，但如果设计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9Q8d2VfkPCaoNvIZ8TMScTbDIC6r9WxOOcm77jTFodFw2kzdObFlRIA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_011_40b2c624ec6d.jpg)
 
   
 
@@ -481,7 +481,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9Kw4ECys6OvSgRuHicPFXlRFpWsE3yk3ViajZlOq9h3lE5dwx0RttbKEQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_012_1c31f35ca280.jpg)
 
   
 
@@ -511,7 +511,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9o9TDCwpzn2VWNgorBo7iaOiaicHdo9RibhuywjB2ESsyjCofZibvffpVnJA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_013_802b23903d01.jpg)
 
   
 
@@ -529,7 +529,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9wLicjNI4cibuQuzQAXDEzvduaG1tqgYcpsOfibibvg290aRDrbibgkJmdPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_014_4e4ce6a41943.jpg)
 
   
 
@@ -562,7 +562,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9fWcNPia3wicba6c7FicnqkxBiadY46CH8BETBmgHY8RG9cqlPPEyEI9fEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_015_44c8adaeeb9f.jpg)
 
   
 
@@ -600,7 +600,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9jg1Y6yAiaRFk99qibiaPYyZ4NLTrd5dPKmIZYNdRo4sAtYCZtcOUkdqaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_016_c83c7559b063.png)
 
   
 
@@ -608,7 +608,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9RahQb9aDD3Z82JMEUsSSBekQlABsSZMyD5ic37VZYI0JiaibRicldqwopw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_017_8986a291dec2.png)
 
   
 
@@ -638,9 +638,9 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9RkLdoILPcqj4dDbicTibwCl2cmFDLPum3Fke1EsiaW9zEmAAtkAJt8vug/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_018_e75e0269ed62.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9tsALdjuTCLh20y5nvdHw3cIlk5fa99n97770QLwgicJYD5aficsYRhvg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_019_65871377b8df.jpg)
 
   
 
@@ -670,9 +670,9 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA962PUU5kiavp1g7ibzGWSPwfCfu40pIAAHDyicBM6HGk1FgALEkF283S5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_020_d5e5372f9eb2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9uznkzM9EfrLY3Mfib91HPYEKrpn9nOOKHJFIRTPlMcyWc2BXKta5hBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_021_c81290a4e4b4.png)
 
   
 
@@ -690,7 +690,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9fcic10x3vVhJTUWfiaWraf0xQSibGh06Xlyk1DGPn170DztjQ0UyFqKNw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_022_563dbc275423.jpg)
 
   
 
@@ -721,7 +721,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9uxQWVXnzEx5frNtCjNbkBWhxTCPPoyIzL1rtwetCUQkC35P7VBMWbA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_023_b6ae302f1aca.jpg)
 
   
 
@@ -739,7 +739,7 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9SZEktTAUNV6qUk9b7dH8ibOFvJ23k4Q679QrLE1wrEsqq1rsdbxSwmw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_024_c4c875001c1c.jpg)
 
   
 
@@ -757,9 +757,9 @@ LLC电路大家最熟悉不过了，虚线圆圈是驱动电路，在电路设�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9LbBX1nNHIbOphZ4eOBMRibHNuGoRTJGIMK7a7WRDmbibzyM6ZJru6unw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_025_be03295e89ac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9Magl81r5taqznmlMjzicQVo09XVPGcSveb38zEq1fbMAGG0ibx4UgzMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC过不了_都是PCB工程师的锅__images\img_026_a63153ea35b9.png)
 
   
 

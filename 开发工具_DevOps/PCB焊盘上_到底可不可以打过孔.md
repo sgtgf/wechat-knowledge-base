@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhFyTZgEbaR4Cjp2poy4TaXcue32FsXS5vODI5DBkpQGkoa8m6rb2mqnLYcDdLgSDWBrESsCdIs8g/640?wx_fmt=png)
+![](PCB焊盘上_到底可不可以打过孔_images/img_002_b553e5a7aa58.png)
 
 在设计电路板时，有时因为板子面积的限制，或者走线比较复杂，会考虑将过孔打在贴片元件的焊盘上。
 

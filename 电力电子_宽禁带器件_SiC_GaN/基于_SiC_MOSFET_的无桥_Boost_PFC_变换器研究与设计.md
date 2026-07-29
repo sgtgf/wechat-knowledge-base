@@ -28,7 +28,7 @@
 
 相比传统的 Si 器件,SiC 器件具有更高掺杂浓度的薄漂移层。高压器件的电阻主要取决于漂移区的宽度。 这意味着,SiC 器件具有更低的导通电阻。导通损耗Pds\_on与流过开关管的电流有效值和导通电阻有关。 其值可表示为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzVVtqk0SZ6aYCUcUHbtlXJIOqicdkibkA2wial9UH5U4tG9eFtKHFms8ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_000_9620c2106dc1.png)
 
 式中,Irms为电流有效值;Rds\_on为导通电阻。
 
@@ -40,7 +40,7 @@
 
 驱动损耗 Pdrv可表示为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzF8Lh4untsnibN5ricHXfV0Ds7s9KSIEQegic9HrHnHicsfA94nWm2icunkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_001_f8b69c60c2cb.png)
 
 式中,Vdrv为驱动电压;Qg 为栅极电荷;fsw为开关频率。
 
@@ -50,7 +50,7 @@
 
 开关损耗是由于 MOSFET 存在开关时间而产生的。 开关损耗 Psw的计算公式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHza41zxAbXTbwxVdtEAZfUZEq7zAxtWhFkPt2nA8lvM8NIYEJahAC5sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_002_c906c597ee6a.png)
 
 式中,Psw(on)为开通损耗;Psw(off) 为关断损耗;uds为漏 源极电压;id 为漏极电流;ton为开通时间;toff为关断 时间。
 
@@ -74,13 +74,13 @@
 
 本文设计的驱动方案如图 1所示。 UCC21520是TI公司推出的具有隔离功能的双通道栅极驱动芯片。 其只能提供 4A 的峰值驱动电流,为增强其驱动能力,两个输出信号共同驱动一个SiC MOSFET,满足了SiC MOSFET 驱动电路的要求。 此方案设计成本低,结构简单,可靠性高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHz7U4FTVZ90wfkGyPgNLSp7NtsBDWjj6uSqdZfv9fUgAia8aC8qKOPu6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_003_49df4abb3cef.png)
 
 4.　Dual-Boost 无桥 PFC 电路设计
 
 基于SiC MOSFET,在实验室研制一款 1\. 5kW的 Dual-Boost 无桥 PFC 原理样机。 原理样机具体设计指标见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzvOuRJm5NaxgR9r2qU7dYsOkPyrNZ5QlQb1IZPAwuQSESvCbAialIJ1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_004_f1715b1a416b.png)
 
 4\. 1　主电路参数设计
 
@@ -88,13 +88,13 @@
 
 在最低线电压输入、满载输出的条件下,变换器获得最大的输入电流 Iin\_rms(max)为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzQMiaE2VV3cf3OHibLsZ9rV731fb1LhfFgj52va9MgDDKv7rstUpGFSYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_005_9096b41fa2a8.png)
 
 式中,η 为效率;Po\_max为最大输出功率;vin\_min为最小输入线电压。 最大的输入电流峰值 Iin\_peak(max) 为有效值的 √2倍。
 
 考虑到 30% 的纹波电流,则 Lb 应满足:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzZicmw4G52zElVAoNCY2mI0UoFKia83QKnBk0ibLrmlkITAk3RyqpeOesw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_006_548cf41fb579.png)
 
 式中,fs 为开关频率;Vo为输出电压;1% 为纹波电流。 实际选取 Lb 为 200μH。
 
@@ -106,7 +106,7 @@
 
 SiC MOSFET 的最大有效电流值 IM(rms) 可由式(6)求得:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzF8wWm6cfBFLpAPibxC0icXj1DZEsUTStn7f2gc4lkzSwMbwFhN4eaTaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_007_e1ca5964213f.png)
 
 虑到每个SiC MOSFET 管都只工作半个线性周期,并且返回电流会流过 SiC MOSFET 的体二极管,故取实际电流为计算值的 0\. 75 倍。 实际选用CREE 公 司 生 产 的 型 号 为 C3M0065090D 的 SiC MOSFET。 
 
@@ -114,7 +114,7 @@ SiC MOSFET 的最大有效电流值 IM(rms) 可由式(6)求得:
 
 每个二极管都只工作半个线性周期,故流过二极管的平均电流为输出电流的一半。 最大均值电流ID\_avg为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzRFnKjpExHuvCnFK92U2sH9GDGzfvaRMibicQ2Q1ibw0LAicXibUicINXbKqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_008_252dbbd3ca3a.png)
 
 式中,Io 为输出电流。
 
@@ -126,19 +126,19 @@ Co 的设计必须满足维持时间和输出电压工频纹波的要求。
 
 在输入突然掉电的情况下,输出电压应在保持时间内维持在最小工作电压以上。 故输出电容最小电容值 Co\_min应满足:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzwmWNVNpPSib2kkDSOG6BQ4RoBg1rrQZFQ0mibibWHM2XEUnNLa4XE5icPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_009_869c568ffef6.png)
 
 式中,Vmin为最小工作电压;thold为保持时间。
 
 考虑到输出电压工频纹波,则有:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHziaHyHMSiafpof5klR7bggFmEaO4n5ZULibgTlib79LJw1FwrwtH9bqD0Kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_010_7b90bc21ae59.png)
 
 式中,ΔVo 为输出电压工频纹波。 取式(8)和式(9)的最大值作为输出电容的设计值。
 
 流过输出滤波电容的有效电流值 Icap\_rms为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzuNmAW252iaZlKSu58eB8ODm6sX0RicTBwJQHdhZPeraDPvdyZ2kWFc5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_011_e2be3f94bf54.png)
 
 实际选用 3 个 450V/ 680μF 的电解电容并联组成输出滤波电容。
 
@@ -148,23 +148,23 @@ Co 的设计必须满足维持时间和输出电压工频纹波的要求。
 
 开关频率可通过改变芯片FREQ 引脚到GND引脚间的电阻RFREQ设定。 RFREQ的值由芯片内部参数 fTYP \= 65kHz,RINT \= 1MΩ,RTYP \= 32. 7kΩ 及开关频率决定。 设置开关频率 fs 为 65kHz,则 RFREQ为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHz9aE0IHhJbR4oibS8w4wdgekjicWga3xemWdWPJMzCmN1OzDBUhk6PCPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_012_dc3ced316003.png)
 
 实际取 RFREQ \= 33kΩ。
 
 4\. 3　 电流采样的设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzkQq4WmkI1vTF3ZFGOibzZWfuTJpzmBoicB7Ic75KibzSicY4PdibFAQD4Ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_013_d3ded1668065.png)
 
 相较于传统的无桥 Boost PFC 变换器, DualBoost无桥PFC 变换器没有一条固定的电流回路返回交流输入源,故不能简单地通过设置采样电阻实现输入电流 的检测。 基于电流互感器 ( Current Transformer, CT)的电流采样示意图如图 2 所示,本文采用 3个匝数比为 1∶ 200 的 CT,分别采集开关管S1 、S2 及输出二极管的电流,然后求和,实现输入电流的采样。
 
 5.　实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzDSGn5W8PMQFHYyHfafNpUsGf8qXdcDicHibptwz6N6UEQFP6fud8kL7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_014_f484b91a0f76.png)
 
 基于 Dual-Boost 无桥 PFC 变换器拓扑研制了一 款 1\. 5kW 实验样机, 如图 3 所 示。 样 机 尺 寸 为164mm × 110mm × 85mm。 功率密度为 0\. 98W/ cm³。实验测得的最高效率为 98\. 8% ,功率因素值均大于0. 99。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzILYxabQYK4qMLozRMQkXMicstlsPgxDp1GN98eHJaMBPbeWCbTI4KTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_015_39fbfc708924.png)
 
 图 4、图 5 为样机满载输出时,输入电压、输入电流、开关管驱动信号及输出电压的波形。 从测试 的波形中可以看出:
 
@@ -174,15 +174,15 @@ Co 的设计必须满足维持时间和输出电压工频纹波的要求。
 
 ③输出电压 Vo 能准确地稳定在 400V,这与实验预期是一致的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzgNIgtiaibbicFPsj8oZZNXkuHUxDyaxdYDI37c3WSK04YqK0L5rkCEjmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_016_f1fd3479fbb7.png)
 
 图 6 为满载时输出电压工频纹波测试波形。从 通道 4 中的波形可以看出,最大的输出电压工频纹波 ΔVpp约为 8V,略高于设计值 5V,在实际操作中,可采取增大样机的输出滤波电容的方法进一步降低输出电压纹波。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzQvBo0HCURdItKWqFSDib5J7mP5wdHk6hnibhXI8qceB0Fcq1jPGHVJQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_017_89b8ab62dbe5.png)
 
 当负载从10% 突然跳变到100% 时输出电压波形如图 7 所示。 从波形中可看出,当出现负载突加时,输出电压Vo最大跌落值约为 40V,同时只需约350ms 的调节时间就能恢复到稳态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHz8r0MV2dCkl8m97IjOPMEsicT2ia33TiaYtWtz6S6sqz0MMkIC0kfWeexQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_018_d96a1a4c5503.png)
 
 原理样机在不同电压输入和负载输出条件下的效率测试曲线如图 8 所示,并将 IEEE IFEC-2016 效 率要求和 Si CoolMOS、SiC MOSFET 无桥 PFC 原理 样机测试效率进行了对比分析。 进行实验对比的 Si CoolMOS 是现阶段性能较优的 Si MOSFET 的代表(IPW65R019C7)。 从图8中可以看出, 基于 SiCMOSFET 的原理样机在各个测试点的效率均高于传 统 Si MOSFET 的原理样机。
 
@@ -190,7 +190,7 @@ Co 的设计必须满足维持时间和输出电压工频纹波的要求。
 
 从表 2中可以看出,样机在不同负载条件下均保持很高的 功率因数值,最低 PF 值大于 0\. 99,达到了设计要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskWz6fHAw2uw5HVGOYIlqHzsbnBfCQQGhAADbK6UZBk3UlAss5DGE9JlO7sic4ZetNcCY2uBGibmr4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_019_10a137f19baa.png)
 
 6.　结论
 
@@ -198,10 +198,10 @@ Co 的设计必须满足维持时间和输出电压工频纹波的要求。
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ILnqiaiabsaGgdiaUxSazXzMI3qcrW6Wy7U4cZ7ibKDkiccZ1fvUicDz2N9RQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_020_8c7e1ce5a1b0.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ItLId8zqpJos4IMia2PBDvUSvia2o4X0HYlvKdoyUoLCvK4VO8bsbB3cw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IbEgqKw0cRU4I17JSrkmjCMNDbeW4K5evEUknm4u1exbK2HqMs4KGnQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_021_204c2f1964ca.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的无桥_Boost_PFC_变换器研究与设计_images\img_022_2f1fc104157a.jpg)

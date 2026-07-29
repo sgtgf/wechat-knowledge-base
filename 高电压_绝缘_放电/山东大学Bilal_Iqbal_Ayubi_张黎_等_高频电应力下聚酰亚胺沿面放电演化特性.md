@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QWmGOSN0jyiandZn7eSGrmIqAmV5r4DHHQ3PbdCXI8uiaSpgdhc4KkGdncSDstkcWMr14u8PT0pMrA/640?wx_fmt=jpeg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\山东大学Bilal_Iqbal_Ayubi_张黎_等_高频电应力下聚酰亚胺沿面放电演化特性_images\img_000_fa8d0ca0a3e9.jpg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\山东大学Bilal_Iqbal_Ayubi_张黎_等_高频电应力下聚酰亚胺沿面放电演化特性_images\img_001_20dfdbaaa341.jpg)](http://www.eitrt.org/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\山东大学Bilal_Iqbal_Ayubi_张黎_等_高频电应力下聚酰亚胺沿面放电演化特性_images\img_002_eadffead456a.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约2200 字
 > 沿面放电是导致高频电力变压器中聚酰亚胺（PI）绝缘失效的重要原因之一。为研究高频电压下聚酰亚胺的沿面放电演化特性，山东大学电气工程学院先进电工材料与前沿技术团队使用 COMSOL Multiphysics软件为实验装置建立了二维自洽等离子体仿真模型，通过耦合等离子体化学反应、粒子输运方程和泊松方程分析了高频电应力下的沿面放电发展过程；同时建立了一个简化模型，可以使用简化模型获得空间电荷密度。通过仿真模拟得到了实验上无法获取的微观参数，揭示了沿面放电的演变过程。
 **研究背景**

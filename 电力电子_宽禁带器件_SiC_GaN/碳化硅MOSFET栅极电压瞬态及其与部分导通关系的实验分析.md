@@ -8,39 +8,39 @@
 
 作者：Urvi Ahluwalia, Adam Anders
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKkIxVau7Hwic0ibTIZjfLpKINCLAicRQEGdxXusVHZ2RemJ59UsvMTUgRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_000_6cd1af846636.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKphnVADg3OD64aeTxyMxOE51ljnzcVy0uNQo9ibuWfwbwd0lDJ8iaU56Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_001_ae7942547b68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKEOHArBl7g0eqYogWzXnxITtjWy74myibmjAHPr6YjKYhCWxib6omT2FQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_002_bd1019a0f92b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKFy18xumtz6krsoBxY1WtsVVgs4lAgcAicVjU381loenFchfAdttloqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_003_ee88157733c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHK1Vichy6rRlGkvhmCVHzXGdUsfk6ibQxoiayu5XaadDjUk9Mx0ly9bCiapg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_004_c7258c371946.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHK8yBt5fgSgwrt3bsOmCRecwJ27wSZT1CfgujIPvWyAK5HKQC6GlhorA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_005_e4572f293a56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKWxroXIvGPzMHGIQzZLiaoJwjxibib3icUowicoX36g2QFLmVDib0RPQMIfYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_006_23e7f10f77d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKh3uh5SnzgOacqlqduBqS3S1AiagNNJ86AaJtaC3Y0wKpFribRlMw0WKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_007_a9d48c9eb27c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKfp8nEyWW5sImENMoz3FxF0pKF5QvsEJlrXPtbibz3xPv26zDr82koDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_008_98b9ed35201c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKf15pf27Mw2n3sib2YRgN7tsMoyULPs4NqrmQUzmqq7DPZ3Ka1AriaHWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_009_4b6825cfa292.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKVdIVxGaZmR0kU8GUhAJAJFGuzpcBiaicOgjpDzT8CLohOMM5WDBibSRdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_010_0b58004ffadd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKXo6JcFSr4VpffFlEe3bP6AoicvUDAVwrTwDFUsEZT2Def3IqIpnSNTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_011_1d86f7c116f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKb2iart4qYLEdsPUiaEo9oOHcBsJsTpVAxS2IticvpXxrXSyNicicZAKIBiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_012_5b6a2fcd8c24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKCTrEsHBbANB3dU60H4DNpIq41UhgVUxzichmaMH9SsY7FBLLv70s6Og/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_013_2f0ccbcfb1f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKFI2pqbahuFYJmfguibr1QBFVKYbQAwHV7VV5DNRAiafib95okFwWxOtZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_014_cd08d5083db4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKV0ib29sJvdjtKdgibhVhuThzexcf9ZvNg7QqnFnicEn4wdzKic6rf43NLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_015_03dafc084119.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbHULQdn1GYJQ6YwFfJiaHKYoA7SW5Pia6dkGGWhJzyjnLOduzd6yrRFVhc7w0v5464zzAMoaAFCgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_016_1ef1af2f548f.png)
 
 注：文字与报告无关
 
@@ -50,13 +50,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_017_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_018_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极电压瞬态及其与部分导通关系的实验分析_images\img_019_573ddf34e793.png)

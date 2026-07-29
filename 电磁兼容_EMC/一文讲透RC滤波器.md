@@ -58,7 +58,7 @@
 
 然而，在频域中，正弦波和噪声是在一个信号中同时存在的单独的频率分量。正弦波和噪声占据了信号频域表示的不同部分（如图1所示），这意味着我们可以通过将信号引导通过低频并阻挡高频的电路来滤除噪声。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbtlh5uWd1T1UU9IsichHTR93GIRHaNkvOMV8vqyrA5BuU3U17IUdx5RA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_002_d1d267b21ce2.png)
 
 _图1：__正弦波和噪声信号频域的不同部分分布_
 
@@ -78,7 +78,7 @@ _图1：__正弦波和噪声信号频域的不同部分分布_
 
 滤波器可以放在与滤波器频率响应的一般特征相对应的广泛类别中。如果滤波器通过低频并阻止高频，则称为低通滤波器；如果它阻挡低频并通过高频，它就是一个高通滤波器。还有带通滤波器，其仅通过相对窄的频率范围，以及带阻滤波器，其仅阻挡相对窄的频率范围（图２）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbCfLZoMYQqVT3dM2SAicibEu8tW6ciaAw9B8oVOd1Rzwg703o65YxicAwYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_003_acbe7f2f8fde.png)
 
 _图２：__各滤波器频域表示_
 
@@ -86,7 +86,7 @@ _图２：__各滤波器频域表示_
 
 还可以根据用于实现电路的组件类型对滤波器进行分类。无源滤波器使用电阻器，电容器和电感器，这些组件不具备提供放大的能力，因此无源滤波器只能维持或减小输入信号的幅度。另一方面，有源滤波器既可以滤波信号又可以应用增益，因为它包括有源元件，如晶体管或运算放大器（图３）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbqPqicSA9icQZB5VmWE3yr8CibErktgAFHDIXVY3nMsIFgd0HYDk51j2cA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_004_cc8a920866cf.png)
 
 _图3_
 
@@ -110,7 +110,7 @@ RC低通滤波器
 
 为了创建无源低通滤波器，我们需要将电阻元件与电抗元件组合在一起。换句话说，我们需要一个由电阻器和电容器或电感器组成的电路。从理论上讲，电阻—电感（RL）低通拓扑在滤波能力方面与电阻—电容（RC）低通拓扑相当。但实际上，电阻—电容方案更为常见，因此本文的其余部分将重点介绍RC低通滤波器（图４）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbTRRabVL1Gc8cuQV0vUkP6sj5Od4E3jtNQib0y178ib2Sg3Gv1ughoAlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_005_c497415777bc.png)
 
 _图4：RC低通滤波器_
 
@@ -122,7 +122,7 @@ _图4：RC低通滤波器_
 
 如果我们认识到电阻器和电容器形成与频率相关的分压器，就可以直观地分析RC低通拓扑的滤波动作（图５）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbI7Jw0TQJUl2bWJ9whGAz9TIxhXicS3DkIoD6JbKArziayBDRkbUSkXMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_006_9408b3c872ae.png)
 
 _图5：重新绘制RC低通滤波器，使其看起来像分压器_
 
@@ -158,7 +158,7 @@ RC低通滤波器
 
 RC低通滤波器的截止频率实际上是输入信号幅度降低3dB的频率（选择该值是因为幅度降低3dB对应于功率降低50％）。因此，截止频率也称为-3dB频率，实际上该名称更准确且信息量更大。术语带宽是指滤波器通带的宽度，在低通滤波器的情况下，带宽等于-3dB频率（如图６所示）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbVoicN0Jd1VdMK5M9iagmesaSvvvlhibqtpvnxCPrUDfxc6vRjvpm2y0YA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_007_7b6814defb07.png)
 
 _图6_
 
@@ -168,7 +168,7 @@ _图6_
 
 如上所述，RC滤波器的低通行为是由电阻器的频率无关阻抗与电容器的频率相关阻抗之间的相互作用引起的。为了确定滤波器频率响应的细节，我们需要在数学上分析电阻（R）和电容（C）之间的关系，我们还可以操纵这些值，以设计满足精确规格的滤波器。RC低通滤波器的截止频率（fC）计算如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ric7NYAOlvUmY7uNIDmeKxfHO64LUfziaWnuJKlzhWTrf8jSUIEg9YiaehD3Os8QOiapbHoAEaTYcEjTQkd2QwEIjQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_008_4afd52b5785f.png)
 
 _图7_
 
@@ -176,7 +176,7 @@ _图7_
 
 我们来看一个简单的设计实例。电容值比电阻值更具限制性，因此我们将从常见的电容值（例如10nF）开始，然后我们将使用该公式来确定所需的电阻值。目标是设计一个滤波器，它将保留5kHz音频波形并抑制500kHz噪声波形。我们将尝试100kHz的截止频率，稍后在文章中我们将更仔细地分析此滤波器对两个频率分量的影响，公式如图8。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ric7NYAOlvUmY7uNIDmeKxfHO64LUfziaWQwXSHQ6Sm2jtH0aqt5bRSUWAUibqaf69cmyAhqraZyNOVeXIWZXUNBg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_009_738a2074f29f.png)
 
 _图8_
 
@@ -198,11 +198,11 @@ _图8_
 
 我们可以通过使用典型分压器计算的频率相关版本来计算低通滤波器的理论行为。电阻分压器的输出表示如图9：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbRJfnTS6w76Gia72QGqvLpOpgxnZiaXvxAU3tv9pkAAzGDtxlRDMNYQGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_010_5095c3f45d92.png)
 
 _图9_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ric7NYAOlvUmY7uNIDmeKxfHO64LUfziaWmQtHFhPCDbvRmicTrIvrpKvrzlEDEKkI0YV2b1G6F6YDvn4Xft4qc8Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_011_8f05ead905f8.png)
 
 _图10_
 
@@ -210,7 +210,7 @@ _图10_
 
 RC滤波器使用等效结构，但是我们有一个电容器代替R2（图10）。首先，我们用电容器的电抗（XC）代替R2（在分子中）。接下来，我们需要计算总阻抗的大小并将其放在分母中。因此，我们有（图11）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ric7NYAOlvUmY7uNIDmeKxfHO64LUfziaWb8JT7bBQicP2GWSicZPic3qbumUbksMoSuQUOnnMeUmiaxuXFIXdw8dFVQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_012_0a22ae1ea309.png)
 
 _图11_
 
@@ -218,7 +218,7 @@ _图11_
 
 电容器的电抗表示与电流的相反量，但与电阻不同，相反量取决于通过电容器的信号频率。因此，我们必须计算特定频率的电抗，计算公式如下（图12）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ric7NYAOlvUmY7uNIDmeKxfHO64LUfziaWKyPfsj0pOiaodL9rQ97acKCPbgbk4siaNpPvR7S0KNOsOOj5VZgibxqmQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_013_ab3284c67caa.png)
 
 _图12_
 
@@ -226,9 +226,9 @@ _图12_
 
 在上面的设计实例中，R≈160Ω且C=10nF。我们假设VIN的幅度是1V，这样我们就可以简单地从计算中去掉VIN。首先让我们以正弦波频率计算VOUT的幅度（图12）：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ric7NYAOlvUkl4IZ9iaEwKPccticVoXfTENxlGUZoWZ41H1E4vuF6G0GmbgicSGcjYyznbx28ItwE37liayE92F1t8A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_014_2fcad90f1031.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ric7NYAOlvUkl4IZ9iaEwKPccticVoXfTENdLpbo98WWVUWrAgmGgKsCKv3hVS0nIVlSkoYiazm9y7ngr9XLolNciaA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_015_0a5480c75778.jpg)
 
 _图13_
 
@@ -240,9 +240,9 @@ _图13_
 
 现在让我们看看滤波器如何成功衰减噪声分量（图14）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ric7NYAOlvUkl4IZ9iaEwKPccticVoXfTENbo432LYKJ1t9SF6vRO4mKy16JpK4OJbEfyqOqviazEOvVQowbH5h9dg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_016_7b74683b2425.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ric7NYAOlvUkl4IZ9iaEwKPccticVoXfTENjojAnEzMst3q8wicuYA1e4p5IfRYAdvcVgfEqo8IC5iaeWsTuRYyeZBw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_017_f9ea0f27cdfb.jpg)
 
 _图14_
 
@@ -264,7 +264,7 @@ _图14_
 
 评估滤波器对信号影响的最方便方法是检查滤波器频率响应的图。这些图形通常称为波德图，在垂直轴上具有幅度（以分贝为单位），在水平轴上具有频率；水平轴通常具有对数标度，使得1Hz和10Hz之间的物理距离与10Hz和100Hz之间，100Hz和1kHz之间的物理距离相同等等（图15）。这种配置使我们能够快速准确地评估滤波器在很大频率范围内的行为。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfb0fxmRgE9Kx3HUTAxbzYBTBEU6jCU9OsUCianMZ2YGiao5IFOcJwXbiaUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_018_3e99b5230f11.png)
 
 _图15：频率响应图的一个例子_
 
@@ -335,7 +335,7 @@ _图15：频率响应图的一个例子_
 -   随着相移逐渐接近90°，变化率变得非常小。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbbpZoYSS9UNCP7SwScSGVzemtXBcOout4Gdo6kSouMwFHpHiamQZrFpw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_019_86afd6e73891.png)
 
 _图16_
 
@@ -371,7 +371,7 @@ _图16_
 
 二阶滤波器通常围绕由电感器和电容器组成的谐振电路构建，这种拓扑结构称为RLC（Resistor-Inductor-Capacitor）。但是，也可以创建二阶RC滤波器。如下图所示，我们需要做的就是将两个一阶RC滤波器级联起来（图17）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfbicAoJUQZtonLjHKoFcnN5I6Gpwte2Bbdn5xCSNsRyk5iaAGYz7XibLOnQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_020_6f164430675e.png)
 
 _图17_
 
@@ -403,7 +403,7 @@ _图17_
 
 此外，即使我们在两级之间插入缓冲器，使得第一阶RC和第二阶RC可以用作独立滤波器，此时原始截止频率处的衰减将是6dB而不是3dB。这恰恰是因为两阶独立工作而导致的。第一个滤波器在截止频率处具有3dB的衰减，而第二个滤波器加上了另外3dB的衰减（图18）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhoibJkOqic2tf8zj4joUWwfb6DrSoa6Qjuct3Hm0HIAdqpUiaq4e12PVWI26HFz05UwT2BeGnxRePog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一文讲透RC滤波器_images\img_021_2d49a1bc945a.png)
 
 _图18_
 

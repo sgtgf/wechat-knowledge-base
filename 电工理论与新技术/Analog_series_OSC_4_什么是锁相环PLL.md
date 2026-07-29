@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/N-TebFCLRROWdosf0Ck62Q](https://mp.weixin.qq.com/s/N-TebFCLRROWdosf0Ck62Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQlAicbia9Z5QdfuDWwXeIbvVLjEv9mczddrVkchgVnXrEFOSXYutnprkImppdezicOvbIDAZ98ZbO2g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_4_什么是锁相环PLL_images\img_000_ccedac243f95.png)
 
 ____**★★★**______OSC-4---晶振和PLL______**★★★**____
 
@@ -15,7 +15,7 @@ ____**★★★**______OSC-4---晶振和PLL______**★★★**____
 
 尽管LC振荡器可以工作到较高的频率，但是稳定度不高，而晶体振荡器有较高的稳定度和准确度，只是基频较低。为了有稳定可靠的高频时钟，可以使用锁相环PLL（Phase Locked Loop）将低频晶振进行倍频到1GHz以上的标称频率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OYUWT8qV6DL50XSdkXmKN4CS45mvlLa4JQaGG4WySRDiaUtZbpeVsEvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_4_什么是锁相环PLL_images\img_001_5213f38e9eef.png)
 
 **_图4-1：锁相环_**
 
@@ -39,7 +39,7 @@ ____**★★★**______OSC-4---晶振和PLL______**★★★**____
 
 倍频 Multiplier：N倍频就是把频率变为N倍，周期变为1/N倍，20MHz基频的晶片，经过五次泛音就可达到100MHz，因此几十MHz基频的晶片就可以产生上百MHz的稳定振荡频率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMZRJLtvjomsEKSZH8MO5gLiaCPZv9tYu5C9Orb0pOtBZl8MHmAp7gpCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_4_什么是锁相环PLL_images\img_002_29ff8dd87c0d.png)
 
 **_图4-2：芯片内部倍频/分频路径示例_**
 

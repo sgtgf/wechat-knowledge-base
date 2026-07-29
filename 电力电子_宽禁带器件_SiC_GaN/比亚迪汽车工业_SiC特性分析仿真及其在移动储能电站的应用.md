@@ -13,24 +13,24 @@
 
 **关键词：**SiC，第三代半导体材料，移动储能电站，功率密度，效率，仿真
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9mexTeD9HGUIL5XBATGIZOU0u9UIcpGibxyVcY2Vz9ZeRSUY3WgURsNibw/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_000_d0e9f941643e.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9mMQJuib738CZDljd9GMyNR444BuVuFyDUMlSUVmCquXhOc11OyB5ds4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_001_cff992a7ee14.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9m0ywicJdc4xicP3WlRENK0eA44YW7cZty63iae2AOT9JgW77DvAXbcj4dQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_002_a17a5dcd6554.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9mf0kKxLPPfj0j4ibzTNic2BxxgrR2GN5MJs6oticOGXcHHjAq5g8yZsiceQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_003_0c7002a316c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9mzk8o7QBfppKqWPIaL14h7HyjNwAHr4QeqcWmMDrLRc3d1y5q6icXzsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_004_3e7e31b65917.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9m97CMY7Yccz7Y5icVJDOSWibXcFNN9XNfOEvxdcUkgVscXWN8s4RzR3qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_005_596994df8e0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9mv5SWWgzYic61a6erJkOWHJksMNghwne45jkXVlqj7SJxOib82vTXJBrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_006_3f11fb1aed05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluo1FRk5hTpTBoybGf2F9mtwOY2hNBicIFcMq5zTJD2mKbNicl1IT1W1aYqj6PNPwZricx9GfDlicA1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_007_7d35289560af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv5ysLdiaW96X2Gc8cElM2j0tVFNnhbkSPYIhDVYbzRz3k0cLT3PdHFWg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_008_6e0d5c49a49c.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv9ibtj9UXrU3X3QeRWc2zECfiaJzSLa0Jdovw5FbjI5QJ8icQcBDPYjFHQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车工业_SiC特性分析仿真及其在移动储能电站的应用_images\img_009_a070b6585631.png)

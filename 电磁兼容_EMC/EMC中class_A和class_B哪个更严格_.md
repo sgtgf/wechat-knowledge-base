@@ -20,7 +20,7 @@
 
 当今社会，电磁干扰造成的危害日益严重，已成为继大气污染、水质污染和噪音污染后的世界第四大环境污染，也是各国的强制要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIlDUnibbq2Imzo87re8rBpGpO9yPokvlWOEnQv5PFPlcXEy9I2Sv67AjcDzCfamgkEJxZLpEswpHw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中class_A和class_B哪个更严格__images\img_000_15f369c09d29.jpg)
 
   
 

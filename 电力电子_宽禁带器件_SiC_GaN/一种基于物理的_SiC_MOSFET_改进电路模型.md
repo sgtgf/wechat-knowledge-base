@@ -30,7 +30,7 @@
 
 1.1 静态模型问题分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dK2GAd0M5EpBXcrJNEyVxRHr7Z0OP0iaMFEu4ZgNicymvic0u6n0bt6bog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_000_c24a7689f52c.png)
 
 SiC MOSFET 传统模型中，其通态电流和电阻的计算采用的均是全扩散模型。传统的SiC MOSFET 静态模型如图1 所示，图中阴影部分表示载流子在基区的扩散，这类扩散在Si 器件中最为常见，这是由于Si 器件具有较宽的基区以及较高的载流子迁移率。然而SiC MOSFET 与Si 器件材料特性以及结构具有较大的不同：SiC 材料的临界电场要远远大于Si 器件，使得其采用较小的基区宽度就能够达到较高的击穿电压。而导通压降与基区宽度近似成正比，因此器件厂商在设计SiC MOSFET 器件时，为了实现低导通压降，一般采用较小的基区宽度以及较高的掺杂浓度。此外，SiC 材料的迁移率低于传统的Si 材料，导致正向导通过程中SiC MOSFET 载流子扩散方式与传统的Si 器件不再相同，因此采用传统Si 器件建模方法得到的SiC MOSFET 静态模型的导通压降相比实际器件的导通压降偏小。
 
@@ -48,55 +48,55 @@ SiC MOSFET 瞬态特性主要由3 个结电容CGS、CDS 和CGD 决定，这�
 
 图2 所示为完整的SiC MOSFET 物理模型组成。主要包括静态模型和开关瞬态模型。静态模型包括通态电流模型和通态电阻模型。传统建模文献\[6, 13\]中一般关注器件导通V\-I 特性曲线的电流模型，忽略了器件通态电阻的建模研究，通常采用等效电阻模型。实际上，通态电阻除了影响线性区电压对电流的变化率，其对于瞬态特性也具有较大影响，更直接影响开关瞬态特性中高频振荡衰减的幅度，因此需要针对通态电阻模型进行研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dJhMSlgnZ3z0uhc59XBRZzhaON5Yguz2kYy1XPOM9bhSxficJwz4TOkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_001_a2a16ac15810.png)
 
 2.1 通态电流模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dkYeTs0sLbMCYNzUibMDghoLs5qz2yr6ykyL2Oa2lsibpW5cC1wDbsPmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_002_27050a4efb34.png)
 
 图3 所示为SiC MOSFET 正向导通时等效电路，当栅源极电压VGS≤Vth（阈值电压）时，MOS结构的金属和 SiC 半导体之间存在能带差，电子不能够在沟道中聚集，即使漏源极电压VDS＞0，MOS沟道中没有输运电子流过，因此器件电流 iD\=0。
 
 随着栅极电压逐渐增加：当VGS＞Vth 时，栅极电压越界，根据金属和半导体接触特性，将会形成一条反型层沟道，沟道的垂直扩展只有几纳米，此时由源极注入的电子在反型层沟道传输。随着VDS增大，沟道电流进一步增加，但是沟道两侧的电压降 V(y)也将增加，这意味着远离源极的电压降将减少，将使得沟道变窄。单位长度的沟道电阻表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dKjNtooHfmdCiaZXiaJ4Qx2dbCib4QibwoFl82c1QP8n0GSSjb4JeT3Du7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_003_e2e593cc9e56.png)
 
 式中，WCH 为垂直于横截面的沟道宽度；μn 为SiC材料中电子迁移率；Qs 为沟道电荷。沿着沟道长度为y 的区域，存在电荷Q(y)=Qs。因此可以得到对于长度y 的沟道电阻和电荷关系表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dMvbBDhHqOicPXQlCdmVyJbgCr9o74ib7iaOPuicwYXlribJiaXSBjGtlj3Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_004_13e2f4212906.png)
 
 式中，Vth 为阈值电压；Cox 为栅氧层电容；V(y)为沿着沟道电压降。此时在单位电阻dR 上的电压降为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dgTrziaIMcRZiaM8HgMzFG0StUqeFTwrnC0VQHltQzm6o9sKrvn1crO2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_005_15f2555f6619.png)
 
 将式（2）代入式（3）并整理可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6djicicjbchK0QdVFwVbtfMeah0uiaic9cafOh5WPPibQsPK5gPyAO5jqc8dQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_006_368c34284e5d.png)
 
 沿沟道位置y \=0 到y \=LCH（LCH 为沟道长度）进行积分可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dZzVbxMquBylllek6uoXNYEAdDiahsLMvS7q48YnPOP7B9XhBsdBjZWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_007_0ad84dc93272.png)
 
 对于 VCH＜VGS−Vth 的情形，积分式（5）可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dKWQMzbXCyV1pqs3uTkJny54pNQUODVicJeBwF1Jkwgia2JDUXxGNzPsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_008_c8d8af10b407.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dZPo4I38fiaWvgKd70Paqbueq4vvicibbuDaoIRyXEu01xHdDhmQLfKN7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_009_78b28cf9c55c.png)
 
 式中，VCH 为沟道压降。SiC MOSFET 工作在线性区（欧姆区），电流随着VCH 的增加而逐渐增大，若此时 VCH 较小，式（6）可以化简为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dDzYrG31f57uZkYk4GgeVqibROSefRpv9GfAyDGVibLWPpDcFjSpXCS4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_010_e68d7ec693e4.png)
 
 此时沟道电阻可以近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dia2vCWJj6yMF2C464uj9kUmeduYKK2ckiaD7iakAO0mZc2LCTEQ9hQ5Og/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_011_57db8dc8769f.png)
 
 当VCH\=VGS−Vth 时，此时电流流过沟道产生的电压与VGS−Vth 相等，意味着MOS沟道其中一端开始关断，即此时为线性区与饱和区的分界点。
 
 随着 VCH 继续增加，VCH＞VGS−Vth，理论上沟道端点电压会继续增加，但是由于沟道电压是由电流决定的，此时沟道已经逐渐关断，电流也会逐渐趋于不变，两者达到一个平衡。因此，可以将VCH\=VGS−Vth 代入式（6）并化简可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dicVCgr30bcDYyUMKnXebO9p4rnXZQJ9KBNNyzyU2ryAr1yfdjy6VBKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_012_4c7dad04e75b.png)
 
 此外，考虑到SiC MOSFET 沟道长度调制效应，需在上述模型基础上添加1+λVCH 进行拟合，λ 为沟道长度调制系数。综上所述，即为SiC MOSFET通态电流模型。
 
@@ -106,7 +106,7 @@ SiC MOSFET 瞬态特性主要由3 个结电容CGS、CDS 和CGD 决定，这�
 
 SiC MOSFET 通态电阻由多个电阻共同组成，不同工况下其导通电阻分别由不同部分的电阻占主导。在栅极电压较大时，沟道电阻以及积累区域电阻较小，漂移区电阻占比较大。但是随着栅极电压的逐渐降低，沟道电阻以及积累区电阻相对总导通电阻的占比逐渐增加；当栅极电压降低至8V 时，沟道电阻以及积累区电阻相对总导通电阻占比相对较大，而漂移区电阻占比相对较小。也正是由于此原因，在栅压逐渐降低过程中，器件V\-I 曲线的非线性逐渐增加。因此，传统模型只采用一个沟道电阻进行拟合，通常情况下很难对不同工况的器件特性进行准确表征。如图3 所示，通态电阻Ron 主要由6 个电阻串联组成，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dgoibYwBpEOicF0HMxib0XrMxrHOBHqTcdxa09j86VnibBeQOVeI26B0Sxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_013_8995d9a4da25.png)
 
 式中，Repi 为漂移区电阻；RM 为源接触电阻；RN+为源区电阻；RCH 为沟道电阻；RJ 为积累区与JFET区总电阻；Rsub 为N+衬底电阻。
 
@@ -116,27 +116,27 @@ SiC MOSFET 通态电阻由多个电阻共同组成，不同工况下其导通�
 
 SiC MOSFET 正向导通N−区域电流扩散如图4所示。漂移区电阻 Repi 指的是电流由 JFET 区域扩展到漂移区这一部分的电阻，如图4 所示N−区域中的阴影部分。在传统的SiC MOSFET 模型中，阴影区域覆盖了整个N−区域，如图1 所示。由于器件导通电阻与电流扩散面积成反比，因此采用传统全扩散的方式计算得到的导通电阻要比实际更小。而在实际SiC MOSFET 导通过程中，该阴影区域是从宽度为a 的JFET 区域逐渐扩散至衬底区。这是由于SiC MOSFET 具有高掺杂及高击穿电场的优势，且SiC MOSFET 基区宽度相比传统Si 器件基区宽度更窄，使得电流扩散途径主要为梯形。N−基区的电阻包括两部分：第一部分为电流扩散面积随着扩散深度逐渐增加；第二部分为均匀的长方形电流横截面。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dmsG7IJs5prxLiaENbGibE5iaFqAxOUkHRSmTiaT0jVwhiaOVWLugWGmuEQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_014_5f188d7730e9.png)
 
 在图4 所示的电流模式中，假设第一部分电流的横截面为从JFET 区域以45°角向基区扩散，此时JFET 下方深度为y 处的电流横截面宽度为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dJ8ZItexNmHxbGZlcZNc8xGicejqO5wG4oW7NfnED0JBuzN2xzrhBhBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_015_33238bdf83ea.png)
 
 式中，a 为JEFT 区域的宽度；JFET 区域下方深度dy 的微分电阻为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dwclSlj6AtAbgErOIWSK9X8lCgAWhS4dMNhsolKPM0iahe2Ew7icwTEsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_016_235b7dde1a8f.png)
 
 式中，Z 为垂直于横截面区域的深度；ρepi 为漂移区的电阻率，可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dFIC1ibmJxhAWqvialGBgfLhuXOp37cU03sBt0UetRQa8YExnOWua00GA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_017_54e033ee6d87.png)
 
 式中，q 为元电荷量；NN−为基区掺杂浓度。对式（13）从y \=0 到y \=(Lcell−a)/2 进行积分可以得到漂移区第一部分的电阻表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6djewIzw8uCuZiccnLo36CIiaXicB0x3cCJkgUWTfNsTcTN5Wia5VNmD6mNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_018_cd9f6f94be97.png)
 
 式中，Lcell 为元胞长度。当电流扩散至全基区以后，将以长方形进行扩散，可认为电流流过的区域是一个均匀的横截面，该部分的电阻可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dHCb8zePVf0ccLlyEcOZibHa7K0DNxzGTzofZELpKY4hY14U9U8FI18w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_019_2ccb20df4294.png)
 
 式中，WN−为N−区域的宽度；A 为芯片面积；漂移区总电阻Repi 为RN−1 和RN−2 两个电阻之和。
 
@@ -144,7 +144,7 @@ SiC MOSFET 正向导通N−区域电流扩散如图4所示。漂移区电阻 R
 
 源接触电阻为源电极与N+源区之间的金属接触电阻，可以通过均分接触特征电阻ρC 除以接触面积得到。接触特征电阻由接触金属的功函数和源极N+区域掺杂浓度来确定，可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dZSSxWXSrgHeu9QRhZGsgAR6hK0REzJ0y6xyGL6tNud9tFOI43JxaRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_020_0aa22fd9e787.png)
 
 式中，AM 为源电极与N+源区之间的金属接触面积；WM 为源极接触区域的宽度。
 
@@ -152,39 +152,39 @@ SiC MOSFET 正向导通N−区域电流扩散如图4所示。漂移区电阻 R
 
 电流从接触点进入N+源区以后，在到达沟道之前必须从源区通过，该部分的电阻值可以由源极N+区域的宽度WN+\_S 及其长度LN+\_S 计算为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dUvbzRaQia7Je3P5rbklJViaSqCXiayPGyibPlUpGb8oR3V46iaItVicflP7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_021_511ead0bb90c.png)
 
 4）沟道电阻RCH
 
 由通态电流线性区模型可以近似得到沟道电阻表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6daAyrWfR1qzOc42BN2K6iccK1GibDdPj9iaUdibeQsWQ3JeuA4mN3IVlG4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_022_96ec9b93a363.png)
 
 5）积累区与JFET 区总电阻RJ
 
 在正向导通过程中，由于电场的作用，电子会在栅氧层下方形成积累层，该区域指的是电流通过反型层沟道后进一步到达JFET 区域之间的扩散区。积累层电阻为通过P 型区域边缘处到栅中心处的电流产生的电阻。此部分电流流动方式与沟道电流类似，因此电阻计算方式与沟道电阻相同，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dHvLc42iaKMISDCe3vB2YOh859oNjzHCAoQjfBJEhlcnMplN3eHZkwsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_023_8bc45b97b35b.png)
 
 式中，WA 为积累层的宽度；LA 为电流运输到积累层的距离。
 
 在SiC MOSFET 中，由于P 型区域是平面形状，因此可以假设JEFT 区域的宽度基本不变。如图4所示，假设电流在宽度为 a 的均匀横截面积内流动，流动距离为WJ，其电阻可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dibUHauOBod1kibOpJ8wLbvJTibyDweqhgp6vU2rAGUMIFnQQyfQOt0C8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_024_08475aefb1bd.png)
 
 式中，ω0 为零偏置条件下JFET 区域的耗尽层宽度，可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dW52pg4p7pxSaJBOtZLEEwHjROagEkelQ0xumkiaIOYVuQy9jN1yPj3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_025_494a107fd601.png)
 
 式中，εSiC 为SiC MOSFET 的介电常数；NA 为P+区域的掺杂浓度；Vbi 为PN 结阈值电压。因此，可以得到积累区和JFET 区总电阻表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dMpL5iccCxLicsAhAvHqsicYWEFKZQPD67UvgZsKibOyLRQdMklBTjrD7Sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_026_b0f038cb147a.png)
 
 6）N+衬底电阻Rsub
 
 当电流到达底部区域时，会非常迅速地扩散到整个重掺杂的N+衬底。因此，可以假设电流通过衬底为一个均匀的横截面区域，在此条件下，N+衬底的电阻可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dhwjbxLpcDlQ9PJjggpcolzaL6gqqe1bib7JAv2WicKtTRWLia1wZ2oFug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_027_64a44e8d000f.png)
 
 式中，Lsub 为N+型衬底x 轴方向的长度（见图 4）；Wsub 为N+型衬底y 轴方向的长度；NN+为N+区的掺杂浓度。
 
@@ -192,7 +192,7 @@ SiC MOSFET 正向导通N−区域电流扩散如图4所示。漂移区电阻 R
 
 3\. SiC MOSFET 瞬态改进模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6djlQ0MadiaVQjqqvqXRX3A01Clr85guEM5EHBT2lticN5qRd5j3tT9ibsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_028_50f6ac67261d.png)
 
 SiC MOSFET 高频特性主要体现在瞬态特性的表征上，器件动态响应主要由栅源极电容CGS、漏源极电容CDS 和栅漏极电容CGD 决定，这些电容具有非线性特性，它们对器件开关速度和损耗有很大影响。如图5 所示为SiC MOSFET 开关瞬态特性模型，图中分别表示了3 个结电容的形成位置。
 
@@ -202,59 +202,59 @@ SiC MOSFET 3个结电容对开关瞬态特性的影响由大到小排序为：CG
 
 栅漏极电容CGD 又称米勒电容，存在于栅极和漏极之间，作为负反馈阻碍SiC MOSFET栅极开关瞬态切换。因此，CGD为影响器件开关瞬态的关键电容。CGD 随栅漏极电压的变化而变化，由于其复杂的物理机制，目前诸多建模工作都集中在该电容上。针对栅漏极电容CGD，它是由Cox（氧化层电容）和CGDJ（MOS 分界面耗尽层电容）串联组成，因此CGD 可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dEukp7AMS4YTHdZoe7caia9y7Nxux96pKCW0iaHtKM6XxWc7sicljkBkPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_029_bb5987d27085.png)
 
 氧化层电容Cox 可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dhZiaQ07Wwyiavr6hYhJwMtGhAVW7tbBpCgrXC3GzBCZ2ojFuiapUAZaeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_030_c74dfc173b42.png)
 
 式中，AGD 为栅漏极交叠面积；εox 为氧化层介电常数；VDG为栅漏极电压；Wox 为氧化层厚度。上述模型与传统模型相同。
 
 MOS 分界面耗尽层电容对于栅漏极电压具有极强的依赖性，当电压VDG 上升时，CGDJ 将迅速下降，可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dwqe1A3xjc0rxUsdB7TB09gWdwOj0caQcXQlFiaWjxDFaGD4iccfkLnicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_031_f9b499c33e2e.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6duicSgPw7ATLHkaHq7QL6YaTF0RmsMyomXtd5M8Wz96c5EJ5icY6jCnicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_032_b28c0ff7c45f.png)
 
 式中，VthD 为栅漏极阈值电压。
 
 然而，为了获取较低的导通电阻Ron，SiC MOSFET 漂移区宽度相比Si 器件要薄得多（见图5），因此耗尽层随着外加电压的逐渐增加容易穿通进入N+区域。当耗尽层穿通以后，耗尽层宽度基本不再增加，即结电容基本保持不变。因此，可以推导得到耗尽层宽度如式（28）所示，进而可以由式（24）～式（26）计算得到CGD。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dQDoxymcpppiaso8bHwKZcxiabOt5cXFf45W3IKNBMxwsPFXTJnHiagYdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_033_7611cca2859e.png)
 
 式中，VPT 为穿通电压。如图6 所示为栅漏极电容CGD 改进模型、传统模型和数据表的对比。随着VDS的增加，电容 CGD 逐渐减小。当VDS 电压增加到600V左右时，结电容有个明显的转折点，而后即使电压继续升高，电容也基本保持不变。这是由于在电压达到 600V 时，此时耗尽层将穿通N−区，而后耗尽层变化很小，因此结电容基本保持不变。而传统模型由于没有考虑穿通条件，所以电容在600V 后会继续下降。因此，传统模型与数据表之间的误差会随着电压的增大而增大。通过比较，本文提出的CGD模型与数据表具有较好的一致性，验证了 CGD 模型的有效性和准确性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dI8JpSk20XZt8hVNzvJehEQuL6fqjlQkRAsxxZwMnibibN6DbZICHIjqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_034_0b9b907dc35f.png)
 
 3.2 漏源极电容CDS
 
 漏源极电容CDS 为SiC MOSFET 反向阻断以后在P+层与N−层之间形成的结电容，可以等效为一个PN 结电容。在反向偏置的PN 结中，每单位面积的电容被定义为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6d2hXfvlqLnMX9D9pSqNYIvWibX7HJbBegXkx1EqlAvz3hLoqZGwjWM0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_035_b68be96d4567.png)
 
 式中，dQ 为每单位面积电荷的变化量，它是由电压的增量dVr 引起；Vr 为PN 结两端的电压。
 
 由于SiC 器件的材料及生产工艺与Si 器件具有较大不同，其PN 结属于非常突变的结构，因此PN结处的掺杂浓度具有较大的变化。传统模型中使用dQ\=qNN−dW 来近似表征P+N−结处耗尽层电荷将会带来较大的误差，由此计算得到的漏源极电容相比实际数值偏大，在小电流条件下尤为明显，因此需要对其进行分析改进。突变结处空间电荷区中同一符号的电荷可通过对空间电荷密度ρ 进行积分得到，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dSPicY8pjat38pJ7FGEBVYN8zlurV0mHuG8o4diazsxwG0I7MUYicopDgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_036_b4a697fa914d.png)
 
 式中，Em 为空间电荷区最大电场强度，表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6deBJdib1fIqX35n9QwexI6wpgozCRGHkyW7Ql59qibus969ex7o1CSzibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_037_b3e7468607bb.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6d64M8sY24UsZ4Psbq9At0VTMpAbEbubyWxl1RzXtckicKY8X4yOEwSGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_038_251c4df611cf.png)
 
 式中，k 为玻耳兹曼常数；T 为热力学温度。由于NN−≪NA，且(Vbi+Vr)/(kT)≫1，将式（31）代入式（30），可化简得到单位面积电容为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dKGharpNf55lLEwwXGsEtdDj9tCRnQicARPxS6uNTNINBz2Bj2sxrDPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_039_ff18e9e3a3c3.png)
 
 图7 所示为源漏极电容CDS 随VDS 变化曲线。通过对比可以发现，本文模型与数据表结果具有较好的一致性，也验证了CDS 模型的有效性，为瞬态特性仿真提供了理论验证支撑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6du0ibIHROy4agSmQqiciaWVXjTHxYO4uXvV4iabsNG3RIkNuAicNoHtOdRMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_040_532b3a4dbc84.png)
 
 3.3 栅源极电容 CGS
 
@@ -262,7 +262,7 @@ MOS 分界面耗尽层电容对于栅漏极电压具有极强的依赖性，当
 
 SiC MOSFET 一般采用的是负电压关断。当栅源电压为负时，此时在源极N+区域将会形成耗尽层，这将导致栅源极电容增加，增加后的电容为CGS\_off，因此可得栅源极电容CGS 表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6d2RiaibibjTlt5Ml5SZpudfG5ENUe7J0MbAv44a8qbMOWPzsEWFsfOibGnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_041_858e9d4c9749.png)
 
 由于栅源极电容CGS 相比其他电容对于器件的瞬态特性影响偏小，且涉及许多工艺参数，通常情况下为了提升仿真收敛性，一般使用典型值代替。
 
@@ -276,39 +276,39 @@ SiC MOSFET 一般采用的是负电压关断。当栅源电压为负时，此�
 
 （2）利用文献\[21\]中提出的基于软件的模型参数优化工具，对（1）中提取的参数进行优化，进一步提高物理模型的精度。本文模型使用的主要模型参数见表1，其余参数如栅源极结电容等典型值由数据手册给出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6drZjiaH8wW9SZuaR53AY3UarcbSicITaNyeuRFXFxsSUSI9lXz5xM1tgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_042_a8d1e7ad246a.png)
 
 所建立的SiC MOSFET电路模型已在PSpice仿真软件中采用等效电路的形式进行了搭建，并通过用户定义的模型库进行了调用。图8 所示为SiC MOSFET 模型主要部分的等效电路，静态模型主要通过受控电流源以及等效电阻构成。瞬态模型部分主要针对非线性电容进行了搭建：通过固定电容与受控电流源并联实现了可变电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dxbb5rP8Kao76CTAjPrhknmIiaSqJECqDohd2wRPLwXMWYsF4FNagqug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_043_1cfc50c3f266.png)
 
 4.2 静态特性仿真与实验验证
 
 首先，利用PSpice 的DC 分析得到改进模型与传统模型在不同栅极电压下的静态特性。图9所示为CREE1200V/325A SiC MOSFET模块（CAS325M12HM2），将仿真得到的静态特性与模块数据手册中的静态特性曲线进行了对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dadRTkLtvstZnbcmJnXSEcOKqKfAZIVgCNmLIBibGeyuLolQws5SqjOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_044_95442e3f6cc7.png)
 
 SiC MOSFET 静态特性仿真与实验对比如图10 所示，在不同栅极电压下，相比传统模型，改进模型与实验的一致性更高。改进模型考虑了N−基区电流梯形的扩散方式，与器件实际工作机理相符；而传统模型采用的全扩散模型，其载流子流通的路径要大于改进模型，导致通态电阻更小，因此传统模型通态压降小于改进模型压降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6d17pHBubibSmUkW6fon2ToicMZBXw2b1hSfhoK59YbDY9UHZglN9yTbVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_045_b84d665a9981.png)
 
 图11 为改进模型与传统模型导通压降仿真误差对比，在栅压为16V 和12V 时，传统模型的误差总体在15%以内；在栅压为20V 和8V时，部分工况误差稍大，总体在20%左右。在工程应用中，20%的误差能够满足装置级以及系统级的仿真要求。本文的模型在传统模型的基础上考虑了载流子扩散呈梯形的特点，将传统模型的精度进一步提升至10%以内，使之能够满足器件级的电路仿真，为器件的动静态特性提供更加准确的表征，仿真和实验较好的一致性验证了改进模型的准确性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dsKuzAzYkDdAn5hAxl9KYicXvZ9YnhwKcATnnBXeO3LdyhYUSla3CMRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_046_fb3cb39d22c5.png)
 
 4.3 瞬态特性仿真与实验验证
 
 双脉冲测试平台如图12 所示，SiC MOSFET瞬态特性仿真与实验采用双脉冲测试电路。考虑到器件具有极快的开关速度，因此需要控制测试回路杂散电感，于是设计了双脉冲测试母排，并将测试模块靠近直流电容进行连接，直流电容采用低感薄膜电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6drg5hnKR2fM4XqueyL8aF1LSNib3O6o9DricA1sRRt9Gwicy0lKsuWw4ug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_047_5cebc9a00a6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dCNsy2Xr1W1OxTdic6Fw66sKBIablQJDDL1JQ7VMj6haVZ9WM370Ty1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_048_f8326af77e31.png)
 
 图13 所示为 SiC MOSFET 驱动控制连接，驱动与控制板之间通过差分转换器连接，目的是进一步高低压隔离，确保控制板的可靠性。测试设备需要满足 SiC MOSFET 极快开关速度的要求，表2 为实验平台所用的各型设备、元器件及测量工具参数及型号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dTcFboVm9qsy6R69upMl5rBQgeXA21a8WWQgN3IOlqFGToSMGyf9ISQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_049_dd5afdbcb37c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dAn0H2R6NbOviaNHicibqGOZlNhHSoosuHRrT8LqfQodgg3W81RbE8wIFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_050_a630a9c6fb53.png)
 
 SiC MOSFET 具有极快的开关速度，其瞬态特性对于杂散电感极为敏感，包括器件封装以及工作回路的寄生电感。SiC MOSFET 在开关瞬态过程中，其电容和回路电感很容易通过相互作用产生RLC高频振荡和电压峰值，振荡及产生的尖峰电压对于器件的损耗及可靠性评估较为重要。因此，为了对器件进行准确表征，需要对寄生电感进行提取。
 
@@ -316,11 +316,11 @@ SiC MOSFET 具有极快的开关速度，其瞬态特性对于杂散电感极�
 
 本文采取了实验方法对回路杂散电感进行提取，实验法通过双脉冲电路对器件电流和尖峰电压进行测量，其原理是电流变化率在杂散电感上会产生电压，根据Δv\=Ldi/dt 可以计算得到杂散电感。相比有限元提取方法以及阻抗分析仪测试方法，实验方法具有效率高以及便捷的优势。本文采用积分法\[23\]针对实验电路的杂散电感进行了提取，相比传统的微分法，积分法可以降低偶然性以及测量误差带来的影响。如图12 所示，将各个部分的杂散电感进行等效：Leq\=Lloop+Lm。表3 为不同工况下提取得到的杂散电感。最终计算得到杂散电感约为80nH，将提取得到的杂散电感代入仿真电路进行仿真。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dbe54Pibx9ViakSGdIKXqibunK1JicBVzwlGLibGUEDlK6cLyxWbB81vFH8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_051_6be8e5c488a9.png)
 
 为了验证所提出的SiC MOSFET 模型的准确性，对不同电压和电流下的仿真与实验进行了比较，如图14 所示。改进模型仿真与实验的电压vDS 波形以及电流iD 波形具有较好的一致性。在图14a中，SiC MOSFET 开通过程中主要为电流高频振荡，在电流上升斜率、电流振荡频率以及电流尖峰等关键特性中，模型仿真与实验结果均较为一致。传统模型只能够仿真第一个波形，而不能够准确仿真多个振荡波形。本文模型考虑了器件物理机理，对于器件的非线性结电容进行了准确的描述，因此能够准确地仿真包括高频振荡特性在内的开通瞬态特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6d0clT9rTibgpqZkvWGOhgFFmaQXOah8C8NT3yzsibnxcTW5eEZJOY7LCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_052_e19cdb17dc0f.png)
 
 针对SiC MOSFET 器件的关断瞬态：如图14b所示，由于高频振荡的发生，使得 vDS 波形有两个主要的斜率，第一段斜率是器件本身开关特性决定；当高频振荡发生以后，器件关断过程中的电压变化率dv/dt 受到高频振荡特性的影响而微降低。仿真波形中：第一段斜率dvDS/dt 约为1.7kV/μs，实验波形中第一段斜率dvDS/dt约为1.65kV/μs。第二段dvDS/dt 的仿真与实验波形斜率分别为1.5kV/μs 以及1.55kV/μs，可以看出，仿真与实验在dv/dt 表征上具有较好的一致性，误差保持在5%以内。针对SiC MOSFET 高频振荡特性，所提出的模型也能够较好地进行模拟，在600V/100A 以及500V/80A 工况下实验振荡频率分别为12.5MHz及12MHz，而模型仿真振荡频率分别为12.8MHz及12.4MHz，误差维持在5%以内，验证了杂散参数提取以及模型的准确性。
 
@@ -340,10 +340,10 @@ SiC MOSFET 所有的开关瞬态特性仿真与实验对比结果表明，本�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_053_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_054_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于物理的_SiC_MOSFET_改进电路模型_images\img_055_9bbc7b9b15a2.png)

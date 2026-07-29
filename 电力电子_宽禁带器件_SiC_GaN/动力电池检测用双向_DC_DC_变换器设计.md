@@ -12,7 +12,7 @@
 
 关键词：电池化成；双向DC/DC变换器；多模块并联；DSP
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksnXJSrKjJPMzD7NjlXdnJvzjMzxCNaTBHyOuOfusNWJZxTJbrfYRLwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_000_803c191ba2e6.png)
 
 0 引言
 
@@ -28,7 +28,7 @@
 
 1 系统设计方案
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0kskFU22AghibSp9RDQ0sdLz7icOBEebzLqMmm2mPiaRWibRPCiaQMG1rgOPkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_001_9de834dd36ba.png)
 
 如图 1 所示，动力电池检测系统主要由双向 AC/DC 变换器、双向 DC/DC 电路、驱动电路、DSP 控制电路、人机交互界面以及动力电池等部分组成。
 
@@ -38,7 +38,7 @@
 
 2.1 功率单元设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksD4hbYr1UudJN7sgicF8LQq9xIAewIib99yibgeEoVeNGSxcUGygjGztnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_002_ac949ca1834b.png)
 
 本文设计的双向 DC/DC 变换器以非隔离型的 Buck/Boost 拓扑为核心电路，采用四通道并联方式满足大功率需求，拓扑结构如图 2 所示。其中，Vdc 为变换器输入端电压，Vbat 为电池侧端电压；L 1~L 4 分别为变换器各支路储能电感；电阻R1、R2、R3、R4 分别为各通道电流采样电阻；Ci、Co1、Co2、Co3 和Co4 滤波电容。
 
@@ -50,17 +50,17 @@
 
 2.2.1 电压采样电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksnVTrgeDo2KUpuO7YaTnXlkr5jVSVEellphGbmXQ2BamynwlnjjB0lA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_003_44e0c18afbf2.png)
 
 如图 3 所示，电压采样电路选用四阶巴特沃斯低通滤波电路设计结构，利用精密运放和精密电阻的优势，实现了高精度信号采集和滤波处理，为系统提供了可靠的信号质量和稳定性。
 
 2.2.2 电流采样电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0kseVVss60G5yX0iaVuvWxsMXicIjrbf6cuYq0NzY6bybSibGgY7uQKpH2mA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_004_4ed35aabdd3a.png)
 
 检测系统对动力电池进行充放电时，其电流较大，若采用串联电阻进行电流采样，损耗过高。为了能够精确无损检测恒流工作时电流，如图 4 所示，本设计电流采样选择矩阵光电 CF300PC-VCT 霍尔电流传感器，满足样机在实际使用中检测电流范围为 -180A~180A 的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksnMn7vDY3uURecH4eIM58ibiaZwW4eGnNHPXbadTaMicSeeHvic1dXWCHHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_005_061e43ee7be1.png)
 
 如图 5 所示，电流采样电路类似于电压采样电路，将霍尔采样到的电流信号经过高精密电阻转化为电压信号，通过滤波电路输入到 ADC 模块中。
 
@@ -68,13 +68,13 @@
 
  3.1 控制系统框架
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksnAoUHp8j7tic9SPfAvzZAibTGlKVlYeB3ibwxwI1d1OtADUbyGCEGm1fg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_006_8292265c2c7e.png)
 
 本设计采用 TI 的 TMS320F28075 作为控制芯片，其运算能力强，处理速度快，具有 24 路 PWM 通道，其中 16路通道为高分辨率 PWM（HRPWM）。如图 6 所示，本设计采用电压外环、电流内环双闭环控制，且每条支路电流内环相互独立工作，以实现各模块电流均衡，均为 PI 调节。其中，Uref、Iref 分别为电压电流给定值，Uo、Io1~ Io4 分为采样值。在系统恒流运行模式下，电流环起到调节作用，通过监测输出电流并进行反馈控制，以确保电流稳定输出，此时，电压环起到了过压关断保护作用；在恒压工作模式下，电压环起到调节作用，通过监测输出电压进行反馈控制，此时电流环则承担过流关断作用。
 
 3.2 充放电控制策略
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0kshuPLmFISDGNYt3no4RYrjlJL1QXkHGMc3jOvamTef6q5hiaMfiaET3nA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_007_fec0038d2dac.png)
 
 动力电池检测过程主要包含充电和放电两个环节，常规充放电策略有恒流充电法、恒压充电法以及恒流放电法 ：
 
@@ -86,13 +86,13 @@
 
 4 实验测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0kseial6zOAaqwLnHpSX7oqdn7lZkCibUenECSQejoCAdR7BepZ35RlQgGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_008_e0eb5d4fb300.png)
 
 为验证所设计电源模块工作效率以及在不同工作模式下输出精度和稳定性，搭建了如图 8 所示平台。
 
 4.1 恒流充电模式系统效率测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksQbohSRXu0NdWJgFGDllnkOwhSqM8aM1IicAu1QD9U5tWyark5PcPluA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_009_f8e6dd3e0caa.png)
 
 将变换器输出通道输出连接至电子负载，负载设置为CV 模式，根据常规单体动力电池 2.5V~4.2V 工作电压需求，负载测试电压值分别设定为 3V、4V 和 4.5V，负载电流测试范围为 18~180A。变换器转换效率如图 9 所示，对比发现，负载电流为 72A 时峰值效率最高可达 88.5%。
 
@@ -100,11 +100,11 @@
 
 首先测试电源模块恒流模式状态下不同设定值的输出电流精度，在输出端和电池负载之间串入 1mΩ 高精密分流器，采用的德科技 34465A 六位半万用表检测分流器两端电压值获取对应恒流输出设定值的实际电流值。测试结果如表 1 所示，在恒流模式工作状态下，电源模块能保证在 0~±180A 之间高精度电流输出，其充放电精度可控制在0.005% F.S 以内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0ksGy5KG6szJ1w1q6a3qXRTJewCexQfzEbicwka8CJibl6sOcvQfGZ9rYzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_010_3e1c3302c040.png)
 
 此外，将模块输出端连接电子负载，下发恒压工作指令，用万用表直接检测负载端电压值，数据如表 2 所示，其精度满足行业 ±0.05% F.S 以内要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmP6DUD0icLI0XKzUPEcE0kstea2PdNbjoEhmOmVreR92Cd3ulHJ3wRspmicRrwU8A2x3fFD2a0sZHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_011_12a090e8b8e9.png)
 
 5 结语
 
@@ -112,12 +112,12 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_012_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_013_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\动力电池检测用双向_DC_DC_变换器设计_images\img_014_7038903c64cb.png)

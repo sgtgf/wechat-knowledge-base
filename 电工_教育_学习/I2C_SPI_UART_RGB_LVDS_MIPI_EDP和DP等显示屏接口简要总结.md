@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0jSsRVticobpfRMhyRWibES8UQ7HvT8Kl6iaWPTmJPvgdicu6U8TLfHKSqSqyeJgia7koz4UthNPdK0w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_SPI_UART_RGB_LVDS_MIPI_EDP和DP等显示屏接口简要总结_images\img_002_2b170d494a8b.jpg)
 
   
 
@@ -109,7 +109,7 @@ LVDS（Low Voltage Differential Signal）即低电压差分信号。1994年由�
 
 # 它是电流驱动的，通过在接收端放置一个负载而得到电压，当电流正向流动，接收端输出为1，反之为0。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNj3bVdykvYo9rRxnxcicRXEVj4L3X0sk7XW3Rxicm0O8dEH8siapFYicV5SA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_SPI_UART_RGB_LVDS_MIPI_EDP和DP等显示屏接口简要总结_images\img_003_1711b20b788d.png)
 
   
 
@@ -133,7 +133,7 @@ MIPI (Mobile Industry Processor Interface) 是2003年由ARM, Nokia, ST ,TI等公
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh7GFnYo6icU4htEI8HPOOeTic3WbrSthPD8iaibZ8mY4MwVpdcrbRyIQx65piajGDdaCK9piaWrCC5cumQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_SPI_UART_RGB_LVDS_MIPI_EDP和DP等显示屏接口简要总结_images\img_004_56f8ac287f49.png)
 
 MIPI联盟下面有不同的WorkGroup，分别定义了一系列的手机内部接口标准，比如
 
@@ -149,7 +149,7 @@ MIPI联盟下面有不同的WorkGroup，分别定义了一系列的手机内部�
 
 接口示意图  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjCwzF1oNOuC9csuMndWe49p3SJbzibdZHuqgDEj3dguehsWXVyG9ETGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_SPI_UART_RGB_LVDS_MIPI_EDP和DP等显示屏接口简要总结_images\img_005_84b365efab20.png)
 
   
 
@@ -169,7 +169,7 @@ MIPI联盟下面有不同的WorkGroup，分别定义了一系列的手机内部�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh7GFnYo6icU4htEI8HPOOeTS7jtYaZORXzvA1ubzwBBujib1Fr85bAfnUcOQiaujQ5NE8R7tQ95kWcw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_SPI_UART_RGB_LVDS_MIPI_EDP和DP等显示屏接口简要总结_images\img_006_feb620aa6311.png)
 
   
 
@@ -189,7 +189,7 @@ DisplayPort（简称DP）是第一个依赖数据包化数据传输技术的显�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjguIP3bfIVtvEo9oxVNzplCZQgW6iaFiaEp6BLaQbsibGTzIvJhNnVgoKtj0u4IyGSibiaicdacVyCvQE5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_SPI_UART_RGB_LVDS_MIPI_EDP和DP等显示屏接口简要总结_images\img_007_7aff89796e2a.png)
 
 **速度：**  
   

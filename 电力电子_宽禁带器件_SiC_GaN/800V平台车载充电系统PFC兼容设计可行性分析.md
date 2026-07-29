@@ -12,7 +12,7 @@
 
 关键词：电动汽车 ; 800V高压系统 ; 车载充电系统 ; 单相/三相PFC电路 ; 双向功率变换
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwPJ3Jgfnj63ov4KhgvNABNmbC2J5oS56VH5upLB7icaPCFHTguuiaia88g/640?wx_fmt=jpeg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_000_49b80b11dd47.jpg)
 
 0 引言
 
@@ -24,43 +24,43 @@
 
 本文以某车型项目中的车载充电机的指标为依据进行方案论证分析 ，该车载充电机的具体指标如表1所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsC3NaI4icL6aZtVELn4OV2bPy8W8APzwzuKQZ3IBwYWm8hvRRyiavFNyA/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_001_cb0b2b20041e.png)
 
 1.2 技术方案及原理
 
 交流车载充电机是电动车和电网进行电能交换的主要装置 。交流充电功率变换系统原理如图1所示 ，主要由双向PFC滤波器 、双向AC/DC变换拓扑 、双向DC/DC变换拓扑以及控制电路等模块串并联组成 。充电方向从电网到电动车 ，放电方向从电动车到电网流动 ，本文主要对其中的双向PFC电路进行分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsZuCbSu2icwibW9wxCjXf1YwIsHG6ORo3BHLR1a19sFfWU93zDuRNvicSA/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_002_920b147af6e4.png)
 
 有桥式PFC主要由4个开关管桥臂和 Boost电路构成 ，其功率器件数量少 ，结 构及控制简单 ，但是开关电流应力和损耗很大 ，畸变和谐波含量高 ，无法实现反向放电。如图 2所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsS7Ej3rbIlI5TnK083JUcfJoqo9q2IYyjDA5wIDMEuwnPkzOGSxolug/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_003_fcfbed0ce696.png)
 
 有桥交错并联PFC在有桥PFC电路基础上多一组Boost桥臂 ，可通过两路开关桥臂 ，实现交错工作和软启动 ，纹波低 ，效率高 ，但无放电功能 ，适合应用在中型功率场合 。如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGs1CMNibnria5biaibxt73Dj2vdVGcTJFXwFh7AcibA8wwdOQzniaOuN1YxN4A/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_004_ccb8f2556d35.png)
 
 无桥式 PFC由两组对称的传统 Boost电路组成 ，由于去掉了整流桥 ，减少了开关应力和损耗 。该形式电路效率较高 ，谐波较低 ，适合中高功率场合 。如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsvcEw5bpINIZpOyxvvic4mibnpXC3jKehCn3rkcIOpWQ8qCicogJXJ8TMw/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_005_651e4c43ee7f.png)
 
 无桥交错并联 PFC与无桥电路结构类似 ，在无桥型的基础上 ，在桥臂上多并 联一个开关管和一个升压电感 ，分担单路功率需求 ，增加功率等级 。通过两 路交错工作 ，纹波电流较少 ，效率高 ，但电路复杂 ，器件数量多 。因此 ，该拓扑在大功率场合比较合适 。如图 5所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsg5kIGNHNzh7Gf1wKxt2BloicCp00Kh9HJQSAB8PXhluAUScLjzWyjVw/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_006_aed2e3dccec3.png)
 
 结合以上分析 ，各三相双向PFC电路拓扑特点对比如表 2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsj9picI3pNXJUkOibUibpniaUfuy23fBem7cLkY62YMIy7KnoIVwhsKOyJQ/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_007_2952d4b8ed29.png)
 
 基于表2结果分析 ，为实现该车型指标要求 ，选定无桥交错并联PFC电路拓扑为基础较为合适 。因此 ，如图6所示 ，将拓扑中的二极管换成MOS，提高每 一路的MOS耐压耐流能力 ，即可实现11kW的三相PFC电路大功率交流充电和反向放电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsOggmU1Nm5ib3DJlyIKofbuoXbkI7uwqxIlQvCOjh0qmEF8lTZ3p6fDg/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_008_2fce00c7ad0c.png)
 
 2 PFC电路兼容性分析
 
 通过上文选定PFC电路拓扑后 ，考虑目前三相充电设施配置较少 ，单相充电设施占大多数 ，但现有三相方案在单相充电设施中无法使用 ，因此 ，需要考虑 一种在提升慢充功率的同时保证随时单相设施能兼容使用的方案 。对三相 PFC电路的分析 ，该电路在缺相时 ，会出现相位不平衡而无法工作。因此 ，本文提出一种方案 ，通过相位检测 ，提前识别单相和三相电 ，增加一路单相PFC桥臂组合 ，通过MOS的开关控制 ，实现单相/三相交流识别切换和兼容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsxJu3v1p4WqMUs82PBRlTQ58Vsup942u38RiaKOzFxpTPqicOK0okal9g/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_009_9030cc6f6f58.png)
 
 如图7所示 ，增加一组桥式MOS电路 ，通过8开关式的PFC电路 ，L-1至 L-4节点分别接人三相交流的A 、B、C、N相 ，通过三组MOS开关桥臂工作 ，将充电功率提升至11kW。当接人单相电时 ，前三组桥臂任意一组通电 ，和第四组桥臂组成单相PFC电路 ，实现单相PFC的功能 ，在单相充电时满足最大6.6kW充电功率交流输人 。
 
@@ -68,11 +68,11 @@ MOS控制方式采用空间矢量脉宽调制 (SVPWM)方式 ，通过对GAH PFC�
 
 3 PFC电路仿真测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGs1x6X888KWFWR352qvGJGdGSZaaoBcMpkurdhniax2oGaCqzccwtdpOg/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_010_953b96c06350.png)
 
 图8、图 9是基于单相 /三相交流输人充电模式下，通过MATLAB搭建电路仿真后的输人输出波形 。图中显示了该电路方案单相输出母线波形和交流线电压对应关系 ，可以看到 ，经过本文电路作用 ，实现了平滑的直流母线电压 ，且搭载方案的零件在整车正常工作，完成测试。仿真结果验证了本文提出的电路方案和控制策略的充电模式兼容的可行性 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsjS2Lvpr5JLForOOeBFsA2xHVgj3HjIvUpVnWicFgUV66xmNPdL07AVA/640?wx_fmt=png&from=appmsg)
+![](800V平台车载充电系统PFC兼容设计可行性分析_images/img_011_2a3807a3a85d.png)
 
 图10是基于单相/三相交流输人放电模式下 ，通过 MATALB软件搭建电路仿 真的输人输出波形 ，显示了母线直流输人与交流输出的对应关系 。可以看到，放电方向也可实现三相和单相的交流平滑输出，波形输出符合预期 ，且搭载方案的零件在整车正常工作 。以上仿真结果和样件搭载验证了本文提出的双向电路方案和控制策略的可行性 。
 
@@ -82,13 +82,13 @@ MOS控制方式采用空间矢量脉宽调制 (SVPWM)方式 ，通过对GAH PFC�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsygNw8Sm1iasicdib6ehOKWgpV9ic8c8PE8HvZaVXGnyRYOvCy1ichy4jxrw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](800V平台车载充电系统PFC兼容设计可行性分析_images/img_012_4be01a141237.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsqtYBIE39RAf1MlC6RZUmzsibfialllfHfWlc8Ox1sUmDj1z99PmPic16A/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](800V平台车载充电系统PFC兼容设计可行性分析_images/img_013_9a9da4a6f262.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsR4Vd6K3FBRfTV0p7fUpfghN4ialScfUyRJteTyZaMu9hFZuA5cX4QAA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](800V平台车载充电系统PFC兼容设计可行性分析_images/img_014_0da60ad9b2f2.png)

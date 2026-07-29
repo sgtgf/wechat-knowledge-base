@@ -28,7 +28,7 @@
 
 整机在打ESD静电的时候，出现通信异常。通过排查，最后定位在如下图左边的通信接口处，右边是咱们的主芯片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdC38G4IxdDblTloITkiaOlHu0liaXsTf8wU7Gnyk01Q6CMFE2FcOTqO5XQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_002_eae651151964.png)
 
 之所以产品会被打挂，主要原因是TVS布局未靠近接口处放置，TVS放置位置距离接口比较远，没有起到很好的抗静电作用。
 
@@ -38,7 +38,7 @@
 
 整机在做EFT抗干扰测试时，当干扰源从外界注入后，我们希望可以让干扰最大程度通过TVS3或TVS4回到源头，从而避免经过内部隔离芯片影响到我们产品的正常运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh7wDUv3rmIia6bMMCKRRHjzwgRZRlDRjMn22zR7icwg85cbWOEuYuNTibhP5ysJVyO4HGIGtWHaehhw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_003_bb0c12f904b4.jpg)
 
 实际使用时，TVS二极管的选型不合理，导致瞬态功率不够，普通的测试还扛得住，但是EFT就挂掉了，只得换用瞬态功率更高的TVS管。  
 
@@ -54,7 +54,7 @@
 
 老规矩，先来看看TVS的定义，简单来讲它是一种保护器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjh4W2xnjl99ZKTyzDnY8HZ4PyGZU8bFcjuN4c7TQB15yVEujUn4cy4icG2oHHibsU1t1KTSkttnkwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_004_ad74474a1cac.png)
 
 它是一种电压钳位型浪涌保护元件，设计用于在短时间内吸收大量能量，具有较低的动态电阻和高电流额定值的特点。
 
@@ -62,7 +62,7 @@
 
 当遇到异常情况，如ESD、雷击、浪涌等瞬态电压时，它会立即站出来，迅速导通到地，将过压钳位到安全值，从而保护咱们板子内部的元器件免受破坏。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdCsRDzJylMLxzBvT8oibNZOSDvCl9XnH04BQXdMvXEGHLcM8VRz5LTy3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_005_1e5f8d63b1e3.png)
 
 ####  **图源 | ROHM官网**
 
@@ -70,7 +70,7 @@
 
 **左图显示了正常工作状态下的情况。连接器位于左端，而待保护的IC位于右端。它们通过导线相连，并且在两者之间放置了一个TVS二极管。导线根据应用的不同，可以传输直流电压和模拟或数字信号。通常情况下，由于TVS二极管未发生击穿，因此处于关闭状态。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdCticYvFvXn92Dj2iaxIH5ZvE0be5sU64g9jTpQD0hwPzdUveNdtGRj5KA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_006_9f0f64b8cff2.png)
 
 右图显示了施加浪涌时的操作。如果浪涌电压超过TVS二极管的击穿电压，浪涌电流将通过TVS二极管，大部分电流流向地。随后，TVS二极管箱位电压，保护后续电路中的器件。
 
@@ -78,7 +78,7 @@
 
 TVS分为单向，双向两种极性，一般咱们交流信号选择双向TVS，直流信号选择单向TVS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdCTra4MhZs2xcsbO40icvicPa1ZqHnOYjibuqpbICVVZ731f0ibqB5frKO1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_007_93b99095813c.png)
 
  **图源 | ROHM官网**
 
@@ -86,7 +86,7 @@ TVS分为单向，双向两种极性，一般咱们交流信号选择双向TVS�
 
 TVS和ZD齐纳二极管的区别注意一下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdChOuRn7pBzl8icXKOKmaRPlLmia3W68auFiaA9AHWDOKwhBFb1OjwGO21g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_008_f7691ad1c2f9.png)
 
 **图源 | ROHM官网**
 
@@ -96,7 +96,7 @@ TVS和ZD齐纳二极管的区别注意一下
 
 封装分为贴片，插件两种，一般咱们贴片用的多，插件的功率会更大些，主要看实际应用场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJxEC1E2RwaBBjrrvGnHoiakjFRUf14cJFRfSjB73Nibq79aStW4pYFkOicWGSa1PUzgWlAF2o1NciaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_009_ee5a40e7b796.png)
 
   
 
@@ -112,7 +112,7 @@ TVS和ZD齐纳二极管的区别注意一下
 
 静电通过USB、HDMI和其它通常安装在电子设备上的连接器进入。下图为一个USB连接器的例子。由于人体会接触电缆和USB设备，因此容易受到静电的影响。TVS二极管被放置在连接器和集成电路之间，以防止静电放电的进入。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdCUU56YH2KibOScOxIFkA3Eib92voIj56mPx0x49q0noHiaj4bzuMicXsg7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_010_625e408ed37c.png)
 
 防止ESD通过电子设备的连接器进入
 
@@ -124,7 +124,7 @@ TVS和ZD齐纳二极管的区别注意一下
 
 安装在电子设备上的开关和按钮在操作时会接触到人体，静电放电(ESD)可能会损坏集成电路或导致故障。为了防止这种损坏和故障，在开关与待保护设备(此处为集成电路)之间放置TVS二极管，以防止静电放电进入。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdClKLsXXKfrGNYicrUDxk7ow929uQpSzPZicMZmowiblQEiaEPkibOj0lZXBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_011_d5cce4bc129f.png)
 
   
 
@@ -136,7 +136,7 @@ TVS和ZD齐纳二极管的区别注意一下
 
 如果连接设备的网线被带电的人体或物体接触，ESD就会通过网线进入电子设备。下图展示了一个汽车控制器局域网(CAN)的例子。TVS二极管安装在网络电缆与待连接设备的IC之间，以防止ESD进入。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdCEQpwstQHYoEtVhTmoRRiaC0uBosT2iaZBaGsiaAbPZ5BsVbibiamyAxofqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_012_6c72d09d7100.png)
 
 通信网络的ESD防护
 
@@ -159,7 +159,7 @@ TVS和ZD齐纳二极管的区别注意一下
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgIgMFibwcvh6Xy8WfHNgefeHKRK9hQEOhiacWEj5RAkjViciblbFrZlLG4PmEpUdWLibaesNqGPj5bM5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_013_1fffda4b6cdf.png)
 
   
 
@@ -178,7 +178,7 @@ TVS和ZD齐纳二极管的区别注意一下
 
 如果环境恶劣_或要求高可靠性，避免TVS在正常工作时误触发，可放宽至1.3-1.5倍，即6.5V-7.5V。_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdCg280icibhCVn8YApcj1hSvZCJ6C0IgcNXAibYznDNXVKyTfeFHmF92nng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_014_d07ee842f8d9.png)
 
 击穿电压（VBR）
 
@@ -205,7 +205,7 @@ TVS和ZD齐纳二极管的区别注意一下
     是指 TVS 按照 IEC61000-4-5:2014 或者 GB/T 17626.5-2019 标准，使其工作在规定的 8/20 微秒或 10/1000 微秒的脉冲波形下，此时 TVS 所允许通过的最大峰值电流。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgZtBO6iayaVvs6hL8pEHbdCtBj2QbfEnjs67SbkCWp65COW1wfUqvpd4ibJuMfPtGchW9ZjLBfBH9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_015_a0558adf8333.png)
 
   
 
@@ -267,9 +267,9 @@ ROHM官网指出，当信号波形电压值越接近 VRWM，反向电流 IR 越
 
 推荐阅读（点击图片直接进入）
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_016_8f872b8ba8ee.png)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\两起产品事故_让我对TVS产生了敬畏之心_images\img_017_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

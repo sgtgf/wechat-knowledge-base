@@ -23,7 +23,7 @@
 
 **1、书籍简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhAwpjBiajkRSN7xOoIfFLIicZaz9qbyAV5n1ILKFnG89LveW2mdCmz1VTKwAHVAficU71tZfkTttFXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\赠送书籍_硬件设计指南___STM32开发板_images\img_002_168733b0afe5.png)
 
   
 
@@ -31,7 +31,7 @@
 
 开发板是唐工自己设计的，同时也录制了相关学习视频，想把它送给有缘人。开发板如下图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhAwpjBiajkRSN7xOoIfFLIicQjfNAk4pwdMwTjmicLec1BJ4eWrwStebGp669exMxHQjXwxzp2OgKibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\赠送书籍_硬件设计指南___STM32开发板_images\img_003_538a9ccac6f4.png)
 
   
 
@@ -41,7 +41,7 @@
 
 这次准备了2种方式抽奖，**「公众号设置星标，并且留言评论」**，感谢亲爱的读者们，你们的支持也是我持续更文最大的动力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgDTrwzmU2CCfQBicny5rEM18OqTk4opoMQHWffY8zV3QiaCwPRYPHTrYxlwNbS9qTxaCoqDjM7KI5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\赠送书籍_硬件设计指南___STM32开发板_images\img_004_6ae40769c9fa.png)
 
 **1、书籍抽奖**
 
@@ -63,7 +63,7 @@
 
 为了避免中奖后失联，提前加我微信号：woniu26a 。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhAwpjBiajkRSN7xOoIfFLIicmLotDibl84B4S7dGdJoyz8WXibmzUStFjtxxEnZnMicmNxwibphcScYrdw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\赠送书籍_硬件设计指南___STM32开发板_images\img_005_0a1abaa30c0a.jpg)
 
 本次开奖时间为 2024.6.2 12:00
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/yBf6b9L5f9IKO0Wln-ajqw](https://mp.weixin.qq.com/s/yBf6b9L5f9IKO0Wln-ajqw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMTkAlm74IqAb8Pvw839zJ9dblhmeXj6QeibibzaygCbDcJsJYnkz7l7AA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_2_什么是串行Nor_Flash_2_images\img_000_83bca8efd365.png)
 
 ____**★★★**__________________Storage-2---串行Nor Flash__________________**★★★**____
 
@@ -17,11 +17,11 @@ _结构：_
 
 XSPI接口如**_图2-1_**，**_图2-2_**所示，XSPI向下还可以兼容SPI。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0T41PicyymTHlyL0RBGEZ2sjSYg1N5grWbU4rUibHCmXHqiab01XGwtnk8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_2_什么是串行Nor_Flash_2_images\img_001_547fabb8b4e2.png)
 
 **_图2-1：XSPI接口_**
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8ge7mm23RT5KCod11LOXkhG83OrK6oOF6hAG7pPLYBJD9PYRKVg10ibEA/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_2_什么是串行Nor_Flash_2_images\img_002_8e472e5d27d9.png)_
 
 **_图2-2：OctaBus Memory内部结构_**
 
@@ -53,7 +53,7 @@ _结构：_
 
 **_图2-3_**是HyperFlash结构图，与同样8位的OctaBus Memory相比，HyperFlash不与SPI兼容。
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8gG1f3KibHtRdUxbC8Yw4Osewz27Ist2yUaVzZXwTyBV7zaw6AEWiaMq7w/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_2_什么是串行Nor_Flash_2_images\img_003_e84dc844b0ac.png)_
 
 **_图2-3：HyperFlash内部结构_**
 

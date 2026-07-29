@@ -5,13 +5,13 @@
 
 62mm封装是工业中大功率电力电子通用标准化功率模块封装，行业统一底板宽度62mm，兼容全球主流散热器、叠层母排、驱动板；电压覆盖650V-1200V-1700V，电流 60A~600A，拓扑以半桥为主，有定制化共源极和斩波拓扑电路，是30kW~1MW设备从硅 IGBT 向全 SiC 升级的主力载体，批量落地于高频开关应用、DC/DC转换器、太阳能和风能逆变器、UPS和SMPS、电动车直流充电器、轨道交通变流器、固态变压器-SST、AI大功率电源等应用场景。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlfTw7Wu7AfyBP4tAS3jfyzx3icEWxwdTn7cn05sgeuTGKiaNzFIK8kicsvhXtxX5y2616uUIPVia3YKGPZPBlDPK2esnibFU2BUqE/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_000_67b4feb7c168.png)
 
 62mm模块应用场景图
 
 一、62mm 封装 SiC 模块基础结构与核心特性
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOKoZvdiaaNhjaE0h9awVlqUlD0j2eZYUXacPv1AibZ5E8K15EShmJLhpfia4oqCHOfc02P4AF4gkDvUpytM6n6ylib0jjbM1Idla4/640?wx_fmt=jpeg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_001_fef65d4a55b0.jpg)
 
 62mm封装产品图（1700V600A）
 
@@ -95,7 +95,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 1.模块特性参数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRKsTBptgycngxYiacrFngWk4EfS1nArsCxoAVo7OG4gicEJ8JQiclhLDMraic7Ck9vFGDgOp7DtmqO96ZNT4icVgrB4fibrcTlgkto/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_002_632064b3a20a.png)
 
 62mm封装产品实物图
 
@@ -113,25 +113,25 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
     **R****DS(on)** **：2~80mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNnlcoWhHefTbqH6m5QNgs4j2JjEjkZTWV0t3qCshPBIPC2fAIm69ibEcVjknxBM493Eq4ITY90qBSQgFQ6DSmNNLgdGAC2Mqtg/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_003_69d3e068e11f.png)
 
 1700V600A模块关键参数表
 
 **2.模块拓扑图**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNiarFNk3T1X0kp30Cmlg1iboLIlFXKCXibIPC9hgE1TFwuD5xpZQ4g02lpFUS4xSYfibUBQxibCzn7fib1LaNp41KA0HDibAqbVq8dI4/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_004_ecdf342211c7.jpg)
 
 62mm封装拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPL9KHaNXwQF0DTUxTlsemm5ZkPNzl8XKib2OjBxVPXK9MdvML72oiaxZl7bky87F9Na0Gu5MKzzibrcJzCI3XiahvuLZKrCWvGV0Q/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_005_df2639c357f4.jpg)
 
 62mm封装外并二极管拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNu2WsSV92cZibDwgE8EBQd1aKUTickQ8EZDouMouYZT1UFrThWLn2NcVDBVqib5VBHvOAkubQNibGTdkepF6RfJegRkM4Y9D4xiczM/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_006_9c553597eabe.jpg)
 
 62mm封装共源极拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNu6aS4Yu8metaGhxqZxRvp50wADUeWS5icTfvV4bNA2wIxMRgy4WBlPQiaJj8PmcJHz8Bhm6QhcTfnyzc9H0b2D6ChBl4LaLmib0/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_007_2eb73fbd574d.jpg)
 
 62mm封装斩波拓扑图
 
@@ -141,7 +141,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 大功率直流快充桩（60kW/120kW/240kW 模块）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMB0ptt4LWHM6XusibEkLJfg2C5Bu4vnRGVsFGoqT19tpK7Wv1EGQ3RtAicmN1PaIXjOPcX1xWXDzzeUyZ8J2pa6V89BA1v2KSrk/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_008_69392d78f3af.jpg)
 
 图片来源：网络
 
@@ -149,7 +149,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 组串式 / 集中式光伏逆变器（30kW~1MW）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMuvMjoDS7fFdYto8UmOMD2BwViaWt0EkTtKF07Vle5fVM2FEQ5883fF2BwxLnVP7eaAUg92YfDcHN2JWRBlHtlmoIFmUcoSaNk/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_009_bb7f02861515.jpg)
 
 图片来源：网络
 
@@ -157,7 +157,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 储能变流器 PCS、户用光储一体机、工商业 BESS
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNAuz59Ywo2lTWPboXJJTpQdlpFlZ9FWpAZn6mGticGFjW74f1u7ujQUCmgRlE9rZb3p8mITUNDkzlytJ6PlhMah8nzYER6ngOs/640?wx_fmt=jpeg)图片来源：网络
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_010_32d076b3e8c3.jpg)图片来源：网络
 
 双向 Boost + 全桥逆变、大功率 DAB 双向 DC-DC 拓扑；频繁充放电双向硬开关，62mm 内置多芯片并联动态均流优异；户外 - 30~50℃宽温运行，175℃耐温降低降额损耗，延长储能设备 20 年设计寿命。
 
@@ -165,7 +165,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 大功率车载 OBC（11kW/22kW 商用乘用车、重卡）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMJr9xlrDwpibaOGnUCB4dve2ia1Tpb3xgpIBMnVrvxNuXCtUuNvCkicHgXjeDKG32ibxZbteEoq8L2ia27odI7u1HvZ4hAKTZxsdrk/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_011_c319f16bc8bc.png)
 
 图片来源：网络
 
@@ -173,7 +173,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 重卡 / 工程机械辅助逆变器、电动空调压缩机驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMCx41AiarexOrMCMyice3tLx1VBiamgBgUjzYMCOyDPCS9ta2AuenDPzFW5PXkoInhAKW5wuuhcG6icTjAcQfUHwUDcBwKsazgOog/640?wx_fmt=jpeg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_012_c3b5245d785c.jpg)
 
 图片来源：网络
 
@@ -183,7 +183,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 地铁 / 动车辅助牵引变流器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOXaouVic48fXOVTGa5gicPrtHbI6JI2jsYpcjEoyHVAVhQ0VeusQ7pyu39JSibuGDqMvuLy3ibFwBxtvTtpWnZicXr54fjwLBu21dw/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_013_2ecd20bdaa68.jpg)
 
 图片来源：网络
 
@@ -191,7 +191,7 @@ SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底
 
 固态变压器 SST、直流微电网、有源电力滤波器 APF
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPibaIKhPUM26ickH4ry4KBgLWTYPEZv73wtaG0EjviauEbpU2LFicFhgOibiaZMPkibic3icFBmnt4fcv9fgUv5QKglOqY1jSU4libu6xfU/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_014_5aca3727e06e.jpg)
 
 图片来源：网络
 
@@ -199,7 +199,7 @@ SST 核心 DAB 双向变换，1200V/1700V 62mm 模块高频运行，取消工频
 
 大功率工业 UPS、AI 数据中心大功率整流
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpP3oYyGKj5aqVZntOqdjzCY8v8nSWAvlFWbZufNO2xbTyLV25XtSa1S4kXDhMjoFk35hBCCTJryQsbm8VMApNngxEPl1585cAA/640?wx_fmt=jpeg&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_015_d8ebfdcb2f35.jpg)
 
 图片来源：网络
 
@@ -227,7 +227,7 @@ PCB 面积缩减 65%，装配工序减少 70%，单模块生产成本下降 22%�
 
 痛点解决：分立器件并联不均流、整机体积过大、EMI 滤波器件多、量产装配复杂。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN3mfUYNINhHRDicU8G8O59s1we2o71tS6zFHc3LHVp0MrDB1xNnKBMoFBc7GkHNmpXnMmc6hS9CSjd6yTQlQgdWCw5a3XC5jJg/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_016_081148b1f783.png)
 
 1200V600A模块关键参数表
 
@@ -245,7 +245,7 @@ PCB 面积缩减 65%，装配工序减少 70%，单模块生产成本下降 22%�
 
 可靠性收益：SiC 无拖尾电流，关断无反向恢复尖峰，电网电压波动时无器件击穿故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZuzibQZfqG3NGzQQibnBWibhV5qRTRFByYIupPefX98icb87M56TAT3v05EJFG3kQ7TVRibuR5UGCm8DbPEsr1bVLa6iabLN9zKNZk/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_017_13fe756823ac.png)
 
 1200V400A模块关键参数表
 
@@ -261,7 +261,7 @@ PCB 面积缩减 65%，装配工序减少 70%，单模块生产成本下降 22%�
 
 低振荡、低噪声，降低车厢电磁干扰，不影响车载通讯设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZ6NGjm1xHhWbCibFJPVBepAiaCOJwqaLCAHJqXyUoNuTpSxLj3S3giaSaalD1icf29fLZd3Etoa9VUHal4gibrZpUj3zTrcXuB9jQ/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_018_55c6c5452b4b.png)
 
 1700V300A模块关键参数表
 
@@ -271,7 +271,7 @@ PCB 面积缩减 65%，装配工序减少 70%，单模块生产成本下降 22%�
 
 落地收益：单台逆变器元器件数量减少 60%，整机峰值效率 99.3%，电站发电量提升 0.7%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP8pvibcSGAhWfQ1mAibLwCWmDw3gnfPEUq163Gwg9KuhshvLicIica9d4CY7gBDTKB3rcDsvo8l93zEoibI74C4TynoLjhVvW52noc/640?wx_fmt=png&from=appmsg)
+![](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_019_dc3b94a9fbba.png)
 
 1700V400A模块关键参数表
 
@@ -405,12 +405,12 @@ EMI 优化：62mm 低寄生使开关波形干净，可减小共模电感、Y 电
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpN9a9iaHCogoRqtINDCK1JiaoKQ2rqhZgZCHeMO31YEN6QY5gWIgPEkEdhNbSLzEocCcz5EyhH5AKkA2UQZcTyiap5iaUN8NxgBrbE/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_020_fd1412c0ba19.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNFDOiaBpr5COISRmoemCwaPj9ddPcgFAfSxia4SwbUiat3TaazNX14eD2nQQfFZicj8bRn0CiacEeD7e0ytnsGCCeziaRJFe4DAlIrM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_021_a33cee021732.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtiaQ6eibYOJOfJmWHiaY7PucutP8E8sn83YejL3zgPEWx0Wr2ZzCTy73JibNCkhBVj0qTFdG9SFytMJdUKkJBjPNzxmqGGp8iaFjs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_022_b4d43ce2b896.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOHMTDIics9WhibibC6GuEAYdFOOjCiaccob8MxTTfqusy4CWmUN8gZDeoEicNm92ydTbz01ZBCw4v26Wd6BAgHnXqO6PaibhkxXticeQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](62mm_封装_SiC_MOSFET_模块特性_应用_选型与设计解析_images/img_023_8790fa7a1c2d.jpg)

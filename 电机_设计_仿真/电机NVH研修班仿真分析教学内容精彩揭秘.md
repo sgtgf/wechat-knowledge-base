@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/4s5UfAd59mEPWrHk-SGNig](https://mp.weixin.qq.com/s/4s5UfAd59mEPWrHk-SGNig)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_000_7aee9f5e0b9f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWwtiarOJrOwKLR2ib8ciaXzYIEGSrWrnpNPSvJSgb3K29K6YFibtYico8xdnqsia2z82S9luLkPWo8U1cA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_001_cc513b4e85a7.png)
 
-由于疫情防控的需要，根据大家的情况反馈，本次培训地点变更为**杭州**，培训日期不变。因为临时的调整给大家行程上造成的不便，敬请谅解！请已经报名和即将准备参加本次培训的朋友注意关注本公众号发布的最新通知。欢迎大家扫描下方海报中二维码报名参加本次培训！![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVFTChvr76KNol5Cp590mFrnkgRMOY6gFZnx1zz6MZrPEbeHGBEfmB4qh1X0KAKDEH52PbibsjPFnw/640?wx_fmt=jpeg)
+由于疫情防控的需要，根据大家的情况反馈，本次培训地点变更为**杭州**，培训日期不变。因为临时的调整给大家行程上造成的不便，敬请谅解！请已经报名和即将准备参加本次培训的朋友注意关注本公众号发布的最新通知。欢迎大家扫描下方海报中二维码报名参加本次培训！![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_002_a6e0044cddd9.jpg)
 
 在本次培训的仿真教学环节中，我们将研究永磁电机定子上的瞬变电磁力所产生的振动和噪声，并建立完整的工作流程，以通过Maxwell与Workbench (WB) 中 Harmonic Response 和Harmonic Acoustics 模块的耦合来仿真振动噪声。您将学会如何：
 
@@ -33,17 +33,17 @@ o电机多转速噪声瀑布图
 
 随着仿真分析部分教学内容的定稿，小编这里第一时间带大家预览一下培训中部分章节的精彩片段，希望通过本次培训能真正帮大家解决以上问题的处理方法并更好的应用软件工具完成工作上问题的解决：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrPL5nX8xBbHXVb8DBJia5VCbOpLEx5qc97qIoORmUbLqqNia7uT9TKv9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_003_d6ffa1f0db0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrnK0Pfg1JJicrnMHRkiaIvs9rJK2EG3m1KNCcrjUVYRD7IeU8Rn9FH4mg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_004_34fa5566caa7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrOjibSt63VezhPe6quJQPiaeVmYrQoHPlsbA2ukogib9MLyt8Tticsiac2iag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_005_624b590d43ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFr5nW1ZuId6m5ceJLmXVWPOXe0FhxibObdjqmicVj9VYTyiaLDZKQjnMmDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_006_fc5f6d1147fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFr6hZaKPwArxZUf4Ec5BFO3jb5LD6jxNIicJVI3rh30L4EnH5JibTL1ibOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_007_7a37e5438c41.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrtSqMasHnZ56J7OrFeQiaK0B5HSVWf8aMB657JodpvCqEMSBdEDCWXog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_008_07a1baad41a2.png)
 
 看到这里，相信您已经对本次培训相当的期待，关于培训的更多详细介绍，请看下文：  
 
@@ -101,7 +101,7 @@ o电机多转速噪声瀑布图
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWm6ZpNibbP7ic2uyZFBHZMn3L1RKeEicn04ic5lpsHwiboW6QltlicJSUt6VPd89rYFUvTJOQR2EduibkdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_009_569ce3f00fa1.jpg)
 
   
 
@@ -137,13 +137,13 @@ o电机多转速噪声瀑布图
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVoicc9VhjaOgDQMrwJReibIE927I4KvNjj7SPEjicUSDdxBGicVpuqDJ8dMqfa4mPGEejfE2aoGnVuDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_010_28eaed4a8701.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_011_0cfebd1d514d.gif)
 
-[**![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgDaqchhHECL6KHu7mev20VcEhWOHmm4VpRQkMnmoWL4PiaBZBaOoSDxe6WnqcHSfaicQkYIDOOglA/640?wx_fmt=jpeg)**](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627387&idx=1&sn=11e329ccb2509d744e4728b637caedbd&chksm=88bcf634bfcb7f2247af29c55c03094cbc365e052a990af71ac51df5886c9292e46eeda1242e&scene=21#wechat_redirect)
+[**![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH研修班仿真分析教学内容精彩揭秘_images\img_012_471bebf028e5.jpg)**](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627387&idx=1&sn=11e329ccb2509d744e4728b637caedbd&chksm=88bcf634bfcb7f2247af29c55c03094cbc365e052a990af71ac51df5886c9292e46eeda1242e&scene=21#wechat_redirect)
 
 点击**阅读原文**，直接报名参加本次培训！  
 

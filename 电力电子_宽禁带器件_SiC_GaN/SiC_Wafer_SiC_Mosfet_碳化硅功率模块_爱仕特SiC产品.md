@@ -5,10 +5,10 @@
 
 深圳爱仕特科技有限公司成立于2017年，是一家专注于第三代半导体碳化硅MOSFET芯片研发及功率模块生产的国家高新技术企业、深圳市专精特新企业，在深圳坪山建成占地2000㎡的车规级碳化硅功率模块生产基地，先后通过了IATF16949汽车行业质量管理体系、AEC-Q101产品可靠性和ISO9001/45001/14001三体系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPdRmV6fttay169l2IRlXPiaJfANOYW1q0elwscXZicyBUWCyVv7z0974Q/640?wx_fmt=png&from=appmsg)  
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPJXCoS2bvyzicGicmKo9KBPTCyujhibjOlZTtPJxicSoAF28637DjkeZGdQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPEVnbAZfVW1Dno3AdRJp8SQJmDF5tibnEjKpVSYia9WynTpnIxljUdiaeQ/640?wx_fmt=png&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_000_0cd282f8c487.png)  
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_001_b2a383577ed2.png)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_002_fca0c60adbb5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPcosIK8JCYyjbYMYAQicQyElibiaALS16pY12ibJHKufMOjZM82UQx3Iazg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPm4TGFbANZZ9hRtkNdxwWibqV1XWp5ia8hxKQYbUoPbP5wIAaRAlbPXFQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPrRIM4OZncuKIC0ppc0Y6JSMBPfjsjJXzbmhNERXwzgAcdzBI3xWOpw/640?wx_fmt=png&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_003_79353f2e10d6.png)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_004_e791478d07a6.png)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_005_0faff3cce1d6.png)
 
 **SiC Wafer**
 
@@ -22,7 +22,7 @@ SiC MOS芯片等级从650V到3300V全系量产，产品性能与国外主流品�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHrdt855KibQyr9QricYyLxVJhn7wNJQU7nIiaoh7PIUmjhYRzSYRibpshQxRGX9Ss3SDrGapH15Mic2yKpg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPmRRL2fXtyxMR1Fpvtq3flxuNibicOuMrzaSphewkkUuA0XQt8r6zWF6g/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPTQ6ibv3bF79FdiafhqUADmDMJ1wVCPNuzQibY8dH7Xz24iaAeuJBvzSltw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_006_789d3ebeb89c.jpg)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_007_72e1ecdceeb7.jpg)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_008_00980ed9c68e.jpg)
 
 **SiC MOSFET**
 
@@ -30,8 +30,8 @@ SiC MOS芯片等级从650V到3300V全系量产，产品性能与国外主流品�
 
 较早布局新能源汽车、光伏储能、工业电源等应用领域
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibP85smmg6nOra4jMF7CiciaCp9Alc7OMmL6pwicf9judmpGjIG73DUBfk9Q/640?wx_fmt=png&from=appmsg)  
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibP12WJ06om6icicutFMic2ZDMJ7SWI3ZfBFc0UNdU7Vqgaqz430EOiaDNibvQ/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPX8nxDxOeIvPaOFE7tdtyWqYKicaN1xkxpsc4Yx8iaG3d0U4ZB7wuxESw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPjxRyib1yA9RgkHF8LZHPvuugEY80FswNsyOhibibiaMGJiaXEnmuz7QlgKg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPCZbsR79MRmB76RqsLXUJ5csgHaWm6mvWojkxKFRHCrbsxthFTGd21g/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_009_2c2d183cf131.png)  
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_010_5b4ab4c096b2.jpg)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_011_53a0c5ed405b.jpg)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_012_74b78e900d2b.jpg)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_013_4eaeb92f6da2.jpg)
 
 **碳化硅功率模块**
 
@@ -39,15 +39,15 @@ SiC MOS芯片等级从650V到3300V全系量产，产品性能与国外主流品�
 
 较早布局新能源汽车、光伏储能、工业电源等应用领域
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHreIghtUkt8xpmrlW3bicjT2pUIKZUEThMibY3pbx8RmlbJWjhZrAlcJd5YAqdS70sfpIcmscic6wgRzA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_014_81216144562d.jpg)
 
 **1.车规级DCS12模块**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPWmVUPmw9daNogMvKKicvzdKTskqx7CIxoqOYkYR0IBzweLQOqUGwlCQ/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_015_f9e3f888118e.jpg)
 
 DCS12模块优化水道结构设计，在提升散热效率降低热阻的同时，提升系统可靠性。通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻。另外，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，可靠性进一步提升。DCS12的封装是一次铸造成型，其密封保护可以确保逆变器在机械冲击和潮湿环境下仍然可实现稳定可靠的性能，允许极限温度循环以及更高的结温来提升功率密度。其结构紧凑，利于降低模块的杂散电感，进而降低系统杂散电感，并充分利用SiC器件的高速开关特性，以降低电压过冲的影响。此外，银烧结与铜绑定技术的结合，解决了普通绑定工艺可靠性问题，在不降低电流的情况下实现更高结温下运行，功率循环能力得到提升。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G82XNUOiaHreG9Ilc3ArQFTscvNvNz4tPeslcy5cicv2tH6USUichyNCibTqGN4ibUNy8ep8rC4yfPia3Ot8AYnUiadJg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)DSC12作为爱仕特新一代汽车级功率模块，拥有良好的散热性能、优异的可靠性以及优化的杂散电感水平，同时采用半桥的结构设计也为驱动器的设计带来了比较大的灵活性，可以把驱动器与电机更好的集成在一起。
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_016_5cac8ce58764.gif)DSC12作为爱仕特新一代汽车级功率模块，拥有良好的散热性能、优异的可靠性以及优化的杂散电感水平，同时采用半桥的结构设计也为驱动器的设计带来了比较大的灵活性，可以把驱动器与电机更好的集成在一起。
 
 **2.车规级HPD模块**
 
@@ -63,15 +63,15 @@ HPD碳化硅模块，采用HybridPACKDrive封装。碳化硅HPD模块是一种�
 
 碳化硅HPD模块广泛应用于电动汽车的电驱系统中，随着电动汽车的普及，HPD车驱模块的市场需求也在不断增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPSicGqzVic4PXR9TbvV5l4OlfQp7Ctd93RhicMMFyWro5ESvZU1ccUDKNg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPWuZWXz3SHrhWy26z7M0703oeZurJ0m5R0CIPRHqf6qA9I7WdFL4vcw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_017_34ffe8c793f2.jpg)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_018_ce85413c24b5.jpg)
 
 **碳化硅器件的应用**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPicdIORoT5feSpW7dibT0vdUpOamLw5eUwysqzW9FhTCGmQykuGFUptGg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPTVuXNbfQw6BCQNoO9aORcIFIQ0ncvFyyH9slm8tYg3yiaR5ticEvic0Mw/640?wx_fmt=png&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_019_22c1038a6c05.png)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_020_1a5c4e3522f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPpK2PSgfDBa8av4G9fQxCfzX6zd3SLCsaRZGbia9FOEaKibhagqL8CZRw/640?wx_fmt=png&from=appmsg)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_021_1aee0ff3e236.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmVQY2JP7ayicuhknQwGchibPfNFoK32lddLo1PBqPpxAs953o0TyMlh4APZ0ETs3aDpuVdy6gcN7Hw/640?wx_fmt=png)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_022_0f9e28a7cd49.png)
 
 碳化硅器件因其独特的物理和化学性质，在多个领域中得到了广泛应用。以下是一些主要的应用领域：
 
@@ -89,7 +89,7 @@ HPD碳化硅模块，采用HybridPACKDrive封装。碳化硅HPD模块是一种�
 
 此外，碳化硅器件还应用于LED固体照明和高频率器件等领域。这些应用展示了碳化硅器件在提高效率、增强可靠性、减小体积和降低成本等方面的优势
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHrdt855KibQyr9QricYyLxVJhno2Jlic6GPrhK4LaPrB9RvwuskujnneJibe8B4lVu8Gfev1bPZxZ2FFfg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_023_691c349a2d51.jpg)
 
 随着电动汽车充电系统、5G基站、高铁等技术的出现以及应用，电力电子设备也逐渐向高压大功率方向发展，功率半导体的性能是支撑上述前沿技术的关键。SiC器件作为三代半材料的典型代表器件，具有开关损耗低、耐高压和耐高温等优良特性。
 
@@ -97,8 +97,8 @@ SiC基半导体器件的发展和应用，将有效促地进现代军事电子�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_024_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_025_3ade3c3d8599.jpg)![](SiC_Wafer_SiC_Mosfet_碳化硅功率模块_爱仕特SiC产品_images/img_026_84aa944feb13.jpg)

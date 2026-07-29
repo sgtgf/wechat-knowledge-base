@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75TQucE1e2exeAyj0Kf5iczpu4WmDwQuiaiaSnWwDVfG2iaIKnydvDpy9mBMJYS5GOqRErZUpNiaiaAsw36Q/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QcgRMqgxDJ4LsHHM4ulFQp6FSzyYUD6ibnLP5hmU8WJicXZK76zQ2Hc6FSNxxbMPQhC6jvsxRsBfibQ/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](华北电力大学刘思佳_文腾_等_高压大功率弹性压接型IGBT器件封装绝缘结构中的电场瞬态特性_images/img_000_10ce56f30dd7.png)](https://www.fafee.org.cn/)
+[![](华北电力大学刘思佳_文腾_等_高压大功率弹性压接型IGBT器件封装绝缘结构中的电场瞬态特性_images/img_001_159c1ef65249.png)](https://www.acces.org.cn/)
 阅读提示：本文约 2600 字
 > 弹性压接型IGBT在电网应用场景中前景广阔，其内部的绝缘问题是研制过程中面临的主要挑战之一。本文针对弹性压接型IGBT器件内部的复合绝缘结构，采用时域边界电场约束方程法，分别仿真计算了两种实际工况下器件子模组封装绝缘结构中的瞬态电场分布，获得器件封装绝缘结构中电场的瞬态特性，提出了器件内部电场调控的方法。
 **研究背景**

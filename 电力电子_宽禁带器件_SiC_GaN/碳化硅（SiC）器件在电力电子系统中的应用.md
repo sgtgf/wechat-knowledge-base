@@ -8,117 +8,117 @@
 
 作者：Johann W. Kolar
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOE2fHIt9A7cPN97zvYqKFAEUyRkYscqZ3mEsW84pItlhRHXPef2BZxS00KUwBpXpw4kGO7F5rIHIRIogM6icLZgBuZ0ibKjcckg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_000_b48940515b79.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOaTgCqibEEGtXNqC3wkvCQgJfdCzz6s6gCoq0hNK6KzxyE0iaYbmK6zrTfeibJ9pF5GbzUnj8gRTom4Gicnph9JfJKI1DvEzbyJr4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_001_0df998584543.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpObPyic38XUmWNStdVdTS9u7DvaX9Pur2QeI6OI6iayZzdta4362Y11iadO15EECfPMXHDaBM4epg1nCjlVBSSeeTbbkw6bbh3ib9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_002_8f0b3892d410.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNIy6iaBTNl2Sg5xfAxeJ5TLApp19tr4vXVIzVjTNYbM6Qic10gr2VqWYib8FEhWQ6HNMNep7ghoUQiaOnFmS0Lq5eKOkvj5EXR8bY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_003_48009aae56af.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOeTgC6AHpk377dKq8LNpD48vb2gONia1snB9vqzeUocX9mJ7BWwbynTxDj8ZZInZG90llna8HTeNbXr3sNluqmF0nUdT9oq9oU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_004_37cdea536035.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNDCpuJJQjdCx6486f53g8JMt46XFmHU42dwHnJia456uuficUvF5xic23IhPT4gOzj1lOwsIKh0efFZWAkoxqeTh4SOeoSBzzedA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_005_156f56733d60.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMueDIB0uv8IzsejibnMXsEyF7G2V8ia4Ev8rOL1QZuxhSzxIcNFRLicfrxNcDKAshcUN9jHYO4QpVTIh8pibwCaLQLWSwibYqXMRMk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_006_e36659eb22a0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPL1cXFN4mngZQCtjhUJxAWrN2k6F7gRey2A1oA1BWklkF48oWH2BA56ZNbibBiaEF54rxPG3lWn6XdVs1N9iazxnQqT3qgialTqcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_007_b0242f2906eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO81HQcCBsAW9DV9ia8bFiafqjPwOt7MPpxEeOU7E5eX241QjvBBlagbUd9TzhLclFu71fcqlgU13NlKWj6iaUs0YMky7KDlUTx7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_008_0ca855b591dc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNNUa26D2h4JXZZLBibSeSfP72KCVI7Q1GaBWE6dK77bODqQIv55gbsDK5HOiarHiaStNGkcakqwhWKRXusKf8RkkjTgdSrYr8rjs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_009_c797adfe0987.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNXvoe3D4lQeyD9GxCVjOx3PtCkxmibvBdZNto94EHXp76rPsaUEicvFf36CuRXjv78Ha1unCExdM5JpicFZUiaBOACbogiaczrRdR8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_010_f1a9fa1087ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPLMkrgMskSeUHgEAV8RicxCRMNpWP9YY0icZFT3dymDKgaplQpD9lI7M8JavSBGLibohKp9ibicO6Fk0XsSkG1EwYeppibwAgALKianM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_011_aceb254e3af0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNqsicapMJReDrNhUichPPdibURyVwwLUw36Z8xoicZvibxZgQYiavicUZe9BIoIhdJ4nUbu3jzlpVUIGuXQy9lE8Xur4hSsbuFqtc0VM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_012_7f1cac527d03.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNN6YxYQuUK6o8BoGwTrYb5zMXQyjJ2HBEMgOCPYVRHIVk2ASqXh5I6zdOXfibFicTicgvkw1R9rWcMX94sndiaTyuZQGiaL5wTbCCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_013_d38cac08e32c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNMAPlfnRw7AlSphLgXWAxicdKvh48MGuRQdQWDMWJkbH34WkfJlpYSpKmj5A2uQM9cMLxYlvS6LQYbVbqI2AkPN0V7MPR5bJxU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_014_fd1aef59d655.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPJ2AQs0Sz65mn8mfpZHKEhyuXCrgBicJribndh1oicksVEd09g8KkYRvicVOy7KWG1s4WcQ4WHp2OI5SnSGicFHyTzBIiaL3oRfzwlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_015_c6b497505762.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOrRRdsCDicWAiafYfMqnr6NERlhn99dVylmic550iagVeMP8UEzDZzIQxmFE3W2bsR0Xicvaib9hYMiawJO2TicC0ljtYg30EhdMawViaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_016_f5d3138cd00f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOK0MR3kK6ysibZBndwV9Oiak3LjKevamCibcY8NXK6WCd3kia5jichZy7jckiaOzo3TdYBb3QBOfa7ndfZ2sC4iabvovSgQMaI0GUKwY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_017_d7c7040fcbe2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMArQCSB0mibkQuNoIia2c0h3FMMljQtnibO5INl3rZvgw4ryDaWGiaP7icBeGFU3UMsuoLIwNYB0yPjcJZBprob21EiaflibcoxVBVJU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_018_c4100e0f6c6b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOhItibv1FonQ4vlwI5oic05zqvO0PCEAw71ZLxKrqUPkhIlE3zkibnagVia0j4UvUwZvH3W3s6MaJPoicKicGwKna2AUibhcD8RFWxZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_019_096158a488b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZgXhNYlfpNuT0bvlZQQFb1OADolyXib1dlhA4AUxJvCeBVy5UJdEbCW0xZeibXJ1d45l89VicS2cZkc7aiaiamZqQic6O4DqS07oLs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_020_4c66ed76f979.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMFpRxosyRDnsNmVGFooOkiaF13y3tSEZ678MGBL3SJgRrSN9X1cHFhxEFpD5BIlHLibZxSbRdga6L5DyfMNmC0jopWGEwjjzVV4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_021_c11dbce6c54d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNNqyXQ77hAQZwtcvRG3ichmMqibP5Yibn3I7y6r2y9BZM1ibia8eIevSUCs2rBOrmicd6B8woprSv2b6WLKNmCuPMia5bXqpTpOmP3G4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_022_560b688213aa.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNibtiadsiayeaCBpGCU8djIkLa9lnIkDX5mxan8oPwbgLsHPNExicnicJbm4j8ib2WdIFhv7cVMu4Xztz3NGZecsE1nT94gARCJRZ2c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_023_97a9bc6fe4b6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPpjNhCIbgA12goUfNfS9hN2ic1tfUJFELqYQ1N9ic6r7lTiciafH4H6KAk9EFSeMYE2iaSbz0cjv6iaQsb5CVdRNyGSk8xqxmn1ACjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_024_59eeef18fa3b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMU6Ze9PQ6iamttaNwWedbgKDzh3uPJGXXxQEU7s71l1kU28Qpwx5kuhwtDE4gHX0c4ic4ic5fSl9W3IQg0xt3AeDzMTSxmQaslTY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_025_4d49c192b8df.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOnogBMTibOSl5jpWmLibpcN9TvM38ial4xMiavF9oHvXdZnpd04owgUvKSMeiamXpWPMvZ5p6Kt2RUg9WPJZ3Vw3EykQdBfA7luib8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_026_4c1b58ff191b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNcVeaUHtvTicB2RQFic0pksjHswqxiaHdib9brBL53Wv4FLHMxNndJd5cBnoebsODFe6UWRpaRWUCjnVaurqQiaIqM4AvdtOFaxKicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_027_1d553cde7575.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOhwQVNZX73wZ1xvf4CiaGYc1eLvoxlserb7LicJyfLo8sP5t6Jo5JMNxAdSej1ib4lqVia0qFlAnicNKmA9Sw0R8GGhN3RDYs82JU8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_028_3d8eae2a4632.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZBfiauGZhNgJFKum5I148djASnmCIwprnY5cQI7gmfYgkVE7NtPkQesQ6zZ2F278Vk0o4T08Wm8FQuseiaAxdUDPrwhIGhClias/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_029_5ed214023ca7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMwgNHricAficGDfE3fGsCe2Fl3qQSG6HRQdX7y5dMzo9CXdnuv9lQwjxtLlscAVGrBRhfuUzreicA0h8923U69lW1IswTOZzfJpY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_030_99761984b5c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOR0gR9CwicqoqT6FiaMh9Elg2MTlm0jrD84RqLwa8xD0vKUaTJicmGVsYTic3iaHjfBImFfibczgH1mX0yhyVtEFIeTJFaSO8mDSTrU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_031_50f594c0e483.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPx8PRcYnjCmwCsgawXUv6T8tNhtdpAQnWbTJWfDvcCF6Fe2pQWUhXiaR81n1icQtTiaGx64pyWicicvOGsE1tujZP3FDibNEGGicxOvI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_032_a3e49a0917b2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOVk9wXrzCCKYbChn1FMaP8qNTEQuhSqsOhatEeia5w1zOC6T64GPjI39agzrO8a3pspbS0hWywbVBdcBfic4AcKBEJvJBWG44cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_033_62f1af5ccfe7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMI1nqO6n6FO6C2uCYPvaBEqHhEWCZGNia20MCMY01htF6juvF7m2iciafmpy1ymicXkClyYqzeD380QLYTLx2YrgDRqoeFDKTMUico/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_034_db6114ca72da.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOOibtibw3dTicKPhIDiaqHUafV4kTaeCgfDuazArkhU4aA4hMFViacqf2GSicEV27MAUsPbxOgIEeq9Aia9LOKn7BL9WVyka9PSBvC1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_035_ed9664c5cca3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjOclCYKEgW3iaOOMaibNP0DSG9LicOexI2YIhzAAw4J7QzvYl9gG6QGnmibiaD7h25WcicCswjiaWHgn0By78DKLia8GcBUSeIXcJQvY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_036_12e537439b07.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO7iabqeH2g1PTnicZ10C90vxn7Oia86T7pK1iaxHZoG0coSe0tIEwxGkyrDZcbj2cicKtianAZ5QxeM693XqYWiaM4uVibbemQZtMJMVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_037_28bfe2f9b227.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPZGtfyibOgCBIqCEJTTp5ddjwRMnbVPDy7W7tkazZoEUmnVyUB8sSa0Ng1nJNBlfMeibpMSdWcEibziceOFJnFbOLK97yIN3ib9qlM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_038_d2c743552462.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP4pxr1bJwFscuLib0UQ56sia2iaKkiccVPMXDueh9q1cgib92YUuXOyStWtbRbKAMbFdEndJmQZwJCWaFagZ2ughEEDLPfIL9gGyOM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_039_8a30d2970e1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPq3iaTCxickbF0H7FaplSKrWcYEbUYENTDfjaKWQz37KbbFicyBuicnXPwn8ZHyYeRDDevxP8eIL5JiaE3Ug1hu6WHdicRuGuKLJmyk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_040_ad29dba1cf4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtK1FFT5tiakZWk33GDSF0jMWia7O2yUnn6ggbs9GkaoRZVyWGcVm3vO55pfibZdwImIicgoXrhIwe7QQCMrbEp5gjvxDr2ibqNjQY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_041_2307bf4bf415.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMYt9lIeKhTkKr142FUCxtZtCHfGaicv4AULc1JZRXDwesKaAB5UNV2q2EVfjX5iaPc5be291kIDUgtSXXibzCcNbfiaORKBrWSLfY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_042_db2503311e12.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMUqZaAaCrA9JKzbGhWaLQR64nmlc56PGMibxtBvIVLwEibbgL6QLHkOvh2iaLAPchCTOVkm8icj2EavUa4kyfasN2Adpwp1ibgibg8I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_043_fa9b76dbf096.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOdIibG9FGK1u9pm1DSo7Ncts4J0PPHStMTA5YT8qRPuIgJ1ANm6VqMaeJic4obydPNMGzYZXzVBn9Nx7wkXcwicuKJ7TbReOXyqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_044_d368644d536e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOX4AycrnOCqXFBOgI13SyPQPQVWouH4IiaqFjqELetcvO19jMicX7CHtcuyBPdYnAbjrBVQibMC7q1vw1LT74iaMyJlMuZ5WEjOLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_045_c692c10c3584.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPAQnnaWrpHryTGwrQGF8LWiamdXlGbDm0tJ2HvaXDAmHp8fFt4ALLVw5QS3xQZIfh0DvFRxiaYZHpBswaFd32qb78xAWNfKbNeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_046_df75e8aa204e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN9CDTkqiazN1EIpSDmjdzle16AT2nXaX5ks9hjEicgSkh0oRQDQ3uUdZCAVqLD4NOQAV8yKzpmmhzzr57wYDtTZxkuPEh4Ye9CY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_047_80f4bed627c6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5qhlpXYYmHI7DUYBcsicbrlYR8T42xad25n8ZjrKx11hLcTl4ID6MWj19ib6tGSUiavgbOI8cRXvN7NEeaGehQ0P8BR4U3xgiaCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_048_b9094d2dc6a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNdrUNsOf9gVlSbiaIK5UzFKIVpekRQQyovNFicIx2cWn7DBVl9uxOtVnJkSRDDyhmrlzxJFxIIF37H7oWFsGlicJtBNMykibibaicno/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_049_a9efffc1c0e4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOUpFSVlvmMD8nT7k9PhnercJFWvsYeabia7RYiae5ibxnkUIY1ezRmaicoJpQvhnTMQibUFO4yIl72f5nKcrTibGViaSpfpe0VKSia4Bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_050_b912cde52f1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNGHgf2wG8lZLlkgSsKcqb3qnLpV7qLKFjNGn2icc3ZCP42b7fcOnKvwl8A03fQcrvXeQ0XCMz1lYhmSyrYH8RepIeKmSJQw6zE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_051_cfecebbf62fc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM0licFt8JHibgeYZr3JOXhUtuHd2QmTSTicbODrE162gmXpC5Yy17iczo1oTaqJ0jFZTZkQShlH8WYz5BpZShMEcpUAvdGbsLOIS0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_052_c42b02440c20.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNmMQBG3WblsLc9yHNeZt3zK0sylHBm7JS41q1bgic05dhyd6XqtulmQvjicLVj0xzMQraEpt9wDjIPYa4pjicntaLOJvPx8CNOJY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_053_abe609d5a43b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNIx8J7hqA19dJ8GfkVPdOs9gpYwEY4oWtX0iaDkXIicjnTAlT9NKMzPqOBGluvick8aO9sOFxK8g8lSBBq0ahoBDDrnXB0yUiagfM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_054_630a230ca9bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMjXLdbd7MdThBX9E6xgW1RibG1rTsm0Qib9ookAicMyXw4qNwzPA7xWZZuTUaecFL9uPkicIN7ADYny44vicUbsoZQf9GVSPjIZqhI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_055_11c143fde286.png)
 
 注：文字与图片报告无关
 
@@ -266,14 +266,14 @@ SiC功率器件已从“前沿研究”走向“产业应用核心”，其价�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPvr8ZqR5US9ViaVWlWX78Of3DNjBMXTsLjzOYQLqj8Ee6iaRtxaDdhjsuGs4LafYJich22TPYbnK7WCeZJcvmkaPHkg53fiaLEek8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_056_e212572a8e4b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMb6q4H7J29q8EEovx1ibOtU1vvLTFYqxlqP6vQjRSxnhP4VFdice16LRjOiadkMgRjrumu2ERiaqVYDOibdDAyHsSTp10icz3OFv84E/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_057_298d72e914c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM7a1E47HWDsNpbW1NHxWlvHTbMgSAYjicL4BnNJmyO82GjOeJhjK1cUDuSZCNuZwcPjcVGPglkkLiaY07oicibG9ckBLwCkIbMpCQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_058_c2efe71bc01a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOu6GBtA1iaq0SVlfe00undwLYn0GFID0TYasHVt4TXPe6qvg03m5DCUqbNwVqEYb5DWERNtqribE13weV1ZrpBHUydyVqTHuMSU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件在电力电子系统中的应用_images\img_059_c06735221757.jpg)

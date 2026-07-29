@@ -15,14 +15,14 @@
     
 -   **正交（Orthogonal）**
     
-    向量之间**完全垂直**。数学上，**点积（内积）=0**：![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7vaKfsG2a9ZSotMZARnEkR8I7ceUBLIic0zZXINwUFC2hm7ufc4YcKChbXo7K6EYm97XxZBbYpz7y4iaYBEASGr0OYQtka4MSQBlHlTlBPkaicQ/640?wx_fmt=svg&from=appmsg)（就像x轴和y轴成90°，一个方向移动完全不影响另一个）。
+    向量之间**完全垂直**。数学上，**点积（内积）=0**：![](什么是规范正交基_(orthonormal_basis)_images/img_000_852729ef7130.svg)（就像x轴和y轴成90°，一个方向移动完全不影响另一个）。
     
 -   **规范（Normal）**
     
-    每个向量**长度正好为1**（单位向量）。长度公式：![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM57Oiah5NXCFGSrgtoQCmAyKicbxFMGOfyI9t88oMYo1c9NqE6nlRyQUN6XQiaeicFNpHZicfRVjKM3QNM6rtpyc0PtcEOUjy1hYeI2pdWB41LyHyQ/640?wx_fmt=svg&from=appmsg)
+    每个向量**长度正好为1**（单位向量）。长度公式：![](什么是规范正交基_(orthonormal_basis)_images/img_001_6e38b4b68cf3.svg)
     
 
-**规范正交基** = 同时满足上面三点！ 数学上超级简洁：一组向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4BlDic3gnt2ZbRkZzjMgzLibRWMTcXS0zWF6NkO4u4ItXVGePaKxqicagibtDR0MEoa9OGveXABST2XvJWToD2k3E1XEJBn3vFCTVibYOLZzchW5Q/640?wx_fmt=svg&from=appmsg) 满足 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4TmTcibK7r4opILKVqbcXFX1jia6bO9mSfpFnl5TXuP60yqu6wg21AfHLNOCDYibxYibOsuGbErMTibYzVibtma9tPibnzX85FrIrQm0hvA6kBykfTw/640?wx_fmt=svg&from=appmsg) （![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5Fdd4051PScJTWznGmc2t4mhHDno071cic3xjlC1z8mv4W6wIaqqrqQEib9uPg3c7thHoRibaEV6oW1TiakU4MOH9kMIg18ltWAew6ticuzpibQrKw/640?wx_fmt=svg&from=appmsg)是Kronecker delta：i=j时=1，否则=0）。
+**规范正交基** = 同时满足上面三点！ 数学上超级简洁：一组向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_002_6d5f313be9c2.svg) 满足 ![](什么是规范正交基_(orthonormal_basis)_images/img_003_343a2419a97c.svg) （![](什么是规范正交基_(orthonormal_basis)_images/img_004_927f0fe30366.svg)是Kronecker delta：i=j时=1，否则=0）。
 
 ###   
 
@@ -30,27 +30,27 @@
 
 标准基向量：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4tTIGJps5OtTdWoUre0RPuGvf305pfe3JWc6koZeDegAf6GY4dK5hzrH2iaD9huicj7zw67aTHwGVnN5m1qk4ZLiaFOLHicEjOGSPyfb2smaTTLA/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_005_3bdc2c67d7c4.svg)
     
     （水平向右）
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6swia6Hxbp7dGCJ3kWbtnicYWGAIgVgmYSYL1gZB0oibJb3TQyBYtMJO7vE2K5d11WqclT5Cpr6AicENLL94RjyiaAPkaFyzoOia2QibuhG57rwJaKw/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_006_7b34172e2ffc.svg)
     
     （垂直向上）
     
 
 它们垂直、长度1、能表示任何平面点！
 
-**任意向量怎么表示？** 拿 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4LrbSGAyNks1XBxJ1T33KqUZy4ogjVmzRkFykQf4dnra13Ijr4CX3DVUnjibo6ic2iar2mIck1l6GV6xhHRIfKBwzOoC3Q3lGVth7msib24N85Rg/640?wx_fmt=svg&from=appmsg)，它就是： ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM79Oz4ygqKsEFf4IsdOcYbrqsMXHuibJvYOBb0xOTLQl3q0Xl4czlmYredyQQwoq2jmNMsPRIs23UjPLkrHPgupz5aG4rTFrzWtMhEFVRbVicGQ/640?wx_fmt=svg&from=appmsg) 坐标系数**直接就是点积**（投影长度）：
+**任意向量怎么表示？** 拿 ![](什么是规范正交基_(orthonormal_basis)_images/img_007_0cd10bdd0982.svg)，它就是： ![](什么是规范正交基_(orthonormal_basis)_images/img_008_8bc5d4fbb38b.svg) 坐标系数**直接就是点积**（投影长度）：
 
--   x坐标 = ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4SdW9smE0CoXjgbhzb6tMIiclAKRu1EqJ3SQdoK0oUstJFn0OYWBibOyibZYhmZxKg3dHApobuibnBiaKsPStcbalRkz1UqbsmIZMpIeIWFVUxcJQ/640?wx_fmt=svg&from=appmsg)
+-   x坐标 = ![](什么是规范正交基_(orthonormal_basis)_images/img_009_44b0dee23889.svg)
     
--   y坐标 = ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4avg0oPAfnf6bd4auHOIJcCAzOYAyiak7bjIzKzCg6licCicfyzDeMbabOymJ0XXribjbEJUaMxFgO85Yj6sm5pOnxOrTA2ic6CCJlib2WicwzlZMxg/640?wx_fmt=svg&from=appmsg)
+-   y坐标 = ![](什么是规范正交基_(orthonormal_basis)_images/img_010_72139071a552.svg)
     
 
 下面这张图完美展示标准规范正交基下向量的分解（水平和垂直投影）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctr09WJrkgu3qGVfx0x4o4rxpuefSuNeNOxZibuuBvxB3CMibtYcxq2icRV3lx8Uebicl83Ec7MCXCEdaQYvGGEEe7lD4345uI8MXk/640?wx_fmt=png&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_011_6f4207ddb639.png)
 
 图1
 
@@ -58,16 +58,16 @@
 
 -   **orthogonal**
     
-    彼此正交，夹角是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4bR9Sxf41Tib0pInkhporwNpYgtmE0fic7BKygBIec66d5YYZfGtfRSXibTYicqibzHXtV41MxE7xpOYribnSCS1z1mqbcffU8bjnCAy87E8jibryhg/640?wx_fmt=svg&from=appmsg)
+    彼此正交，夹角是 ![](什么是规范正交基_(orthonormal_basis)_images/img_012_dca451ea14c4.svg)
     
 -   **normal**
     
-    每个向量长度都是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ApdIhFTtcLP3nYKR5NMkKk9wDicFGUE6TDudMv7Zibbu5oHiaHwrKAkO8iarGHhh3Qvhv22V2Cmu10drgYI1iamYzdU5rkcQX2PNpUCx67MO2fJg/640?wx_fmt=svg&from=appmsg)
+    每个向量长度都是 ![](什么是规范正交基_(orthonormal_basis)_images/img_013_6d060f9552be.svg)
     
 
 所以，**规范正交基 = 一组“互相垂直、而且每根都被标准化为单位长度”的基向量**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooct5RnUHlw8A0ZlVzevFjX972aq11FVRaWbeqlDF8d7Uic6pZd2QfrSf4ic7lbkUSbz8lL1eJn4hXNl3zGnrv3FHGSPY4GcQYgPLo/640?wx_fmt=png&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_014_3e70a9b117b7.png)
 
 图2
 
@@ -82,17 +82,17 @@
 
 比如二维平面里，最常见的基是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM76zynp09iage4v3mjiaQgSOaTKOicZs0ZEed857SIMJb9Xjz7rJrLrAQfZllhnicNjNgMXOLqxK4AvurVJKxbpGe8Xib76obvTicfrye6Knw9RVBAA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_015_f39930b8d67b.svg)
 
-任何向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM76ycEIvIicxHzicic78ZEibrBhDuQkj9G80PBJcXmuqxGiaibXXYAkG4Ke6WNLFEpEsb4mZHhlP3GbWPWd2J4gdgBhTNmgvKcZXMN9uPgrBHCIlB9Q/640?wx_fmt=svg&from=appmsg) 都能写成
+任何向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_016_32d11f0d4392.svg) 都能写成
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM57lbqFsDyjddvxxNBeEj7JcgsqNSvmz253QibkicpwhkB1vDqe9uzqKcceysLia1f4HODDsJNHSdics6aTGicXibvrTVJ9qOsn9knIYaJKBhwvSmibg/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\数学_线性代数\什么是规范正交基_(orthonormal_basis)_images\img_000_56b3858a46b8.svg)
 
 三维空间里最经典的基是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6OtISk4IlbiagrjT1xQvYm2tQyDwNb7VLbs7p9hsNNztX26QnJ2mibAsvUV86bUTLbsVhHHViaHQ1LXx5iaRBTXV9hnQLllTBEKbVZoSbsTH025Q/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_018_58d71c2b17fd.svg)
 
-这就是我们熟悉的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6p4oXZAbdt0jLjlATXibtGibgZ00Zib8o9hscb2DNeNCZ9byUia117XkoC6Nd1F8h3mdSUb62DkLAfShGqZzIKU36n4213ZcbB8YwwHfVVkxKCng/640?wx_fmt=svg&from=appmsg) 三个坐标轴方向。
+这就是我们熟悉的 ![](什么是规范正交基_(orthonormal_basis)_images/img_019_1cf0e376cb9d.svg) 三个坐标轴方向。
 
   
 
@@ -102,12 +102,12 @@
 
 例如三维里：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4UvWRSZEvpoiaP6OrZcc0Sq9JJS2qqDjQoRSOYCh6xKibusoxlZkzsY1kjucJIBG3PtpyuSa08iaPiaZJWdyq39weS93SECkLO6TqD0iaFe24eGaQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_020_edf443a2382d.svg)
 
 它们彼此垂直，所以这是一个**正交基**。  
 但它**不是规范正交基**，因为它们的长度不是 1：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4d05bFrYWZMM9lRUJpt7TgjCwsHzGMibRIAsLbiag5K4beVbvEnnVkbf1FPjt1p0FfZayxXEZ6MeZufichQPQJtG4H4aDUCmiaazHiclKib1N38Kbg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_021_7e98af1fbc68.svg)
 
   
 
@@ -115,41 +115,41 @@
 
 如果除了彼此垂直以外，还满足每个向量都是单位向量：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM45RD4IziaHIPDH9DRv14VU9ibscast1CoHNEGqkEBap9rlBwhITG2CN3qUmu2vHEXwZ0hrhKMQ0azk8NPW2aA8EYJZtQteRE2tu1JG6G8ic8U3Q/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_022_f1e47278edf5.svg)
 
 那么这组基就叫**规范正交基**。
 
 数学上常写成：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6yNPvnkDDhR13d3fWf2gDGicERDOtQMy4we0Bqp9sVnhqwdJhmbT6YiaskDoa7yM8FY7us6EwZff7PIZ3UL0zdMHtv6aV1HxfgzZk5q7Rxgkmg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_023_4d2d0643f736.svg)
 
 也可以简写为
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7ic0wPoofj6SxBwFfhgDmwy6jBTIicxrddr5m3cYVDVicOpBIucc22k0ZPmHvX0Cwc4uqibdfMGq1de1vaiaA0kODZsSZYG8cUDHfJNly6EEb9HPA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_024_dd3c65483e01.svg)
 
-这里 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6iaibHaDIxDTXvqf4Sog3PM8ibv0jdUqia6icl6x0SbhNa1PSj4udUKn3WE0iaWrbujiaD4jtyCsA5O5LWBN9tsykBhmH7YVWfFl4fCwWOXjciaKHuIw/640?wx_fmt=svg&from=appmsg) 是 Kronecker delta：同一个下标时为 1，不同下标时为 0。
+这里 ![](什么是规范正交基_(orthonormal_basis)_images/img_025_1bb20cf09ca8.svg) 是 Kronecker delta：同一个下标时为 1，不同下标时为 0。
 
   
 
 ### 4\. 结合图2里的意思来理解
 
-图中蓝色的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6iblhNyfsNwBXX6mlibvohlWzCeR5u8MYUTBSMNFricDBictZSibE73tDkLO1eVWOMV8n3dU8V6DpsvJkWJ5FoC1ezfTsSgxgQkQxTqILmUCmicb5w/640?wx_fmt=svg&from=appmsg) 是互相正交的，绿色的
+图中蓝色的 ![](什么是规范正交基_(orthonormal_basis)_images/img_026_c99114ebd12b.svg) 是互相正交的，绿色的
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4Y559V5uMGT8r1FebJGaVWxjiaBE5FJYXEPzwJ6ICtfe6q36ToibOtFtgJpPofCMicejUZKfoZq7sdoXr7vKROoQtzgv8sY1iceNFfj3USwbic30A/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_027_6ef62131d5d2.svg)
 
-是向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4XDrBibU5qzqrwnOIcNXorBDLJFrLPLYeq67wBUTlibZ3zOVKJeHUcFCS17cwVCL2Fewhs63qVH6PxlXtsgKt1JeZ9dzCUKtXrBSPxP0GAibxwg/640?wx_fmt=svg&from=appmsg) 在平面 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5eQpfTjKyQSevib3y4gnjRPAMjtkcIfxSk7pbZwPkL7HGMKyuI9MQXFGsIXHWqheVBlmBN35q37kGrm9zWqTIGLojna7Mde1X8a5wHkFl000w/640?wx_fmt=svg&from=appmsg) 上的投影。
+是向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_028_9f368f4f1298.svg) 在平面 ![](什么是规范正交基_(orthonormal_basis)_images/img_029_c33295475dfe.svg) 上的投影。
 
-如果 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4r34Xgnpic4ohDupoTLG6A5CGOXvrmG5BdXsMppibrmwn7cM5iajzL9ZuUwJQmicdZY8BejjgKicnG4KIaucgvxjTCclTqo3upSSmfvHNWRdvLL8Q/640?wx_fmt=svg&from=appmsg) 不但正交，而且长度还都是 1，那么它们就是这个平面里的一组**规范正交基**。
+如果 ![](什么是规范正交基_(orthonormal_basis)_images/img_030_0c465bcddb3d.svg) 不但正交，而且长度还都是 1，那么它们就是这个平面里的一组**规范正交基**。
 
 这时有个特别漂亮的性质：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7AnGMqTW6XfWU521a8ODYkINVaWLNVVCa5cEmAhoRkKgps8IhCpjMF4hwXibVhMCgXia7mvN8gKCxUnzwtanYRTfW2e4TAu9KBySMicarm6dWFQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_031_fd96f63ff2c1.svg)
 
 于是投影可以直接写成
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6OtISk4Ilbias8dCN5iamPPwgkoZcbdU3sewtNq2ckG7n1bOcLpTzMWqMH5VpJ6ErHLqrfUYJ2ssrDHxHA3lhLltxoiblHoh235orjG7CXZPuaQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_032_4b3f8b60fc71.svg)
 
-这个公式之所以这么干净，就是因为 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4Pzgx5Znm20wgqibMdA1u1X2A7fHhsQIBV9UDnFhlMZd6HDeiam8ibuKgB3nyWvnib6j8CsXvSBgHczQPiaY26jgFByS4KPN4eVo6k3ibgB4jUXNnw/640?wx_fmt=svg&from=appmsg) 是**规范正交**的。
+这个公式之所以这么干净，就是因为 ![](什么是规范正交基_(orthonormal_basis)_images/img_033_d790523c78ad.svg) 是**规范正交**的。
 
   
 
@@ -160,23 +160,23 @@
 一般情况下，若一组基不是规范正交的，要把向量分解到这组基上，往往要解方程组。  
 但如果是规范正交基，坐标直接就是内积：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5G64ujpmNjicRE7MmicvopjCaYriaHRxMwg28Uf0SFOhjuP2F5qROkfsktTYTFjMRHxMs94pHOgNQoUqTboLrhDBrQe5vrX0picYj9URzZekxibLw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_034_db15510d5e2d.svg)
 
 这非常像“把影子投到每个轴上”。
 
 也就是说：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5CRUc9ZvGkApIuWkP2lXMKmOjMJzv1ctCGRic7FPTDicYxrFmGZDQ75g0UTbknHqv2l2HSvCwu873umHBm3c0mY3jUb18cEU2mTLbQURpbMlvQ/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_035_e0ad0ce8ee77.svg)
     
-    就是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5aNxXaSrGO5FgPmh9jvMtAOQoDwID8hxeax0ficFO0vCYsY1gibkkWf8ibDWeAUaMiabKBwu8Eib71hX7cnGpVtktbduRHT2t3Gd8JhH4Im2hnzEw/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ialnImyE3mpY7dEBIVjgWtFX1yvAtiaiae34Y6XyElWj0xibGIYa0VP33x7VGo2haARFqmYrshJlEzuovR0arwGhEicrS0dxfBhMM5BH51Ltsmgw/640?wx_fmt=svg&from=appmsg) 方向上的分量
+    就是 ![](什么是规范正交基_(orthonormal_basis)_images/img_036_37d5507d78e8.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_037_d8fa0940dfca.svg) 方向上的分量
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7diaUuFibYgaMIqoqgP4aaBmicJlo35C8PJlfXn7EepSD2ANJIanNK4n1UWgy2vr5iaicq47Q2MNhTicea4KH88cK2eqvegpAbm00SibNvUmCBKNO9w/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_038_41817c797a24.svg)
     
-    就是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7bC9qNz3FCQDSPFXHeyCcN3avrBdwnqWC6ToOWdUCNWqsRicUoplONibgKQz7TGNBjDfgibVIyKseks0SU4ibzqd2ysIPFeCeTOaW92iaibzRdZh2A/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6mfF2dEW7G1Bj35an1Wsy4Vu9b96on1hM0PmM6Y22HIz3RZ0ofynteLu4WJ7twFsxTVMZYWxwRSaogbAicx6Ol7ibc98tspb6tTBNJKibDZArjA/640?wx_fmt=svg&from=appmsg) 方向上的分量
+    就是 ![](什么是规范正交基_(orthonormal_basis)_images/img_039_4bf2ff412cfb.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_040_34f266fd9508.svg) 方向上的分量
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5MPibbZWhOZuECldZ3D71ymy0Va7pbCfEXicH8jzA1j9AWG50WQ5e0YzPCj5LzRkAlULmQkSq7L10UAPH4gv8eicGzdTialjP1l2BQOicw1lEUPjg/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_041_6fde83c01e10.svg)
     
-    就是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM76ycEIvIicxHicIyXNHkWFI8JL18QL6M7xIeRhDcgwlfon123IJogD3jCgnfpHL0PeyehPVKxIEx88ZVOk4rrQcFxVrqp7P9q62tqzCm6C9ibpg/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5MPibbZWhOZuCxa7yU64PTXYvjg1vcybrrS6j23pBIbwQ1sDPyAiavgISPBkhUb8q7sA0A3XY9eN126xHJgIGXbedd87UiayYTrlJmqgC5RhpBw/640?wx_fmt=svg&from=appmsg) 方向上的分量
+    就是 ![](什么是规范正交基_(orthonormal_basis)_images/img_042_ef72966dbe61.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_043_885090896072.svg) 方向上的分量
     
 
 这就是为什么在欧氏空间里，规范正交基几乎是“最舒服”的坐标系。
@@ -187,27 +187,27 @@
 
 标准基
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6iaibHaDIxDTXiaLXzjAy1x686KAdMH7aeEwfXqCcZDP9mskiaWibRhmCtSH8MmxxqaYH9g673oK5FlJ6AWkUiaYQs4Sc1PXkWcT2bFWyPKc42MFEg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_044_3b874c819930.svg)
 
 就是一组规范正交基，因为：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM68TIFib2hP6NXJQI3ibJr9x00l0ek29IyfPtyTfAf5J9JgfOGCe7PxAPr1GZVR0Pxd2RHSD277cEa8QjZqAImIJ0HeTsw8MpnC9GB4okFFyheA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_045_e3902cb10662.svg)
 
 给定向量
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4BpFyhoV7rJJemfhhPibXofqMsNo1Ibzwbj7OPxNkzJFLH5AZs4ApLrzpjzATiaria5iaLYHIX9yAKB94aI3Y98SgOgMnMOF6TfcTIkYOwdsZxDg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_046_674560eb8d80.svg)
 
 那么
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7tTO2tSibLsqWmg3BotgSNKDqumx3TCfMf8KqzDPnte9rMoI4YqkXBQ7pq53u8xKkGicEb8zPE5tgdlWYmknS3xDe5ysMmzJqkh4zicx3iaxheWw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_047_ed39e34eaaf5.svg)
 
 因为
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ZbTW8mQ9Qkux06kvu3teDvZl04eraELpUUnib1V9BM95xibXhCFAebhD0a9luZNlREkXNRicHmrFrZlK3b8Xn66yC92qoL58yaCnYibBVmmskhA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_048_bdf369b9ae23.svg)
 
 所以
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM539s653260mgHJnoknqAhiagb4ibtBr4jySE29u7R8NhPVypNBbFEQLKlHZPgCNfMhUCagMibYMichfNmPhb5J60nw1r0ibFBru8dp6VNOlJ2aOWQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_049_b640865884ae.svg)
 
 这其实就是最普通的横坐标、纵坐标。
 
@@ -217,39 +217,39 @@
 
 设
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM57d2W6B2MFGFDicx27VLb3CqgxAfnGo6vPFqpRprzyK2SiczNg6hUpaBgZvcQ5rXEp3qPTOSfSmDxJxJ5hGYn6b1qhAzWw6VuOviaBW1GFsYhHg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_050_736442255cae.svg)
 
 先看它们是不是规范正交：
 
 #### 长度
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6rEIkiaSbibsnjmibpQ7VWTsYTS2DbX3iaPTWfPicibjED9HakXQQIb7K812hBp0TsPbsLWKibicqRGmVibxQesja31gEx5PickUpd1UmIsSFlRVibic0S6g/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_051_60f937f97db3.svg)
 
 #### 两两点积
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5micWD1ibhr6GXewqpRjeX40eF6ibLImcflSehCdbSHZVc3SpeWQla7NfSzl5sM9R3ticHjVWgpjibzCNIKY4N1dH0ZGxBdTVxleB5EqBY5nAY0dA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_052_e50499327842.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6YibQB5EjqzQjDyZHKia4zmibNGSbWmWuHxMiaCsia3v741n1PZxybQiaUGmT80XVicRz53n0mCeKtun4SJFgjgUVIiaxm8BOpFdakia1C70ibhd34jlJg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_053_9591aa4fbbc6.svg)
 
 所以这三根向量构成一组**规范正交基**。
 
 现在给
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7diaUuFibYgaMGS25srbLgcAA6lsjVLsj1AJ6KqsgdmwIVubtvXNuacFboT3JZpOILCPf9YyP3sy0sWK8jCoXjBiastuX4PpVdicaUGXbrF2F1Mw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_054_f04e10912ad6.svg)
 
 则它在这组基下的坐标就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7A6DNtEtfJEribyKce1bp4OCDmG5JULia7q5picIvRfMM57u2BaQsMWOaBlW8cRKAyZph9rfWkHSdPYQgqicxb9SqVUuXQiaj4UzpHclkKgCmqO8A/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_055_9b931988626a.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM76zynp09iage9eyCWsMv0icKMWjvFjExT35RicZMGVQbApax32rfDm254crZylHzJK5kp87vs7dYDVDmQooDvVicwarzfvQZ0AICO6v7IGAJ1kcg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_056_b7cd015d8588.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ialnImyE3mpbjiceLYRiaUASbFh15LMC0gkVzicxahD1icNbicG3wYBficy71Bt00ziaR4kUeMJPIOLchrPV4gACevpj6TKGIaRFxYvRnKj6kWolcjg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_057_a2692e35fa48.svg)
 
 于是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7ibLIuYVJkVV8LqYxZJfhu11pwFS8vP8CRicpiaSuUkyR2W5a1me3otumrVvFNicbzMuia9GxxuA0LIB11gMEff4icIboK4J1ryKkxB5SsytOd7lWA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_058_8a119bc9e46e.svg)
 
-这说明：即使基不是标准的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM73fhc04sUsn2ASlSb1XQg3G0YFhvsvLHicYbxb29Amh4LeoCHfh0gIPtFj284L13bhYRS3ZpjQeXHbVY0crTAJWw0HhiafYEcSF0siaT6PUmdzw/640?wx_fmt=svg&from=appmsg) 方向，只要它是规范正交基，坐标照样很好算。
+这说明：即使基不是标准的 ![](什么是规范正交基_(orthonormal_basis)_images/img_059_ceafcbb3155c.svg) 方向，只要它是规范正交基，坐标照样很好算。
 
   
 
@@ -257,11 +257,11 @@
 
 如果把这组规范正交基向量作为列排成矩阵
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6P0X23UwXDHyAfSPX13BkzZMtbs5vibh6zEhM1R75ZvwwKxicdw1k4KPFNARiaUlY4TC3TYotkcU5Jqay8EJA3qqjMjicibaibIwyKcOe4Piad0DBag/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_060_3ce337216caf.svg)
 
 那么就有
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6rU6pFYYpZAPuQCRvXXkFN3ibexNqnoDyHzEEzjVYibnYRPqCZyGIkPdhYj0sDrFAfME4ykv6lZiarf8wibrEfC21TIxGNAPu7PD1lYicjOh9zrvg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_061_32ab98a76d86.svg)
 
 这样的矩阵叫**正交矩阵**（实数情形）。
 
@@ -276,7 +276,7 @@
 
 这时：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7tCJvLBB965VicHqmcIGHHSUiayLhAAk6dLzOeULPR3XEHgOAyL5QuJ1BAgbVQbgiaS4JNWY1kuLekAhdBdFasZp2SlvogbK2yqic9CJIxyeEkbQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_062_47f16b3cc315.svg)
 
 所以很多计算会变得特别简洁。
 
@@ -317,7 +317,7 @@
 
 而规范正交基把这些麻烦都消掉了：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6IISRfPib8zuAvZtqiaoZje38vBCOVIQvrsV2XaGlPEwGQIAN8Wb95DBHAUdqhYnuI1fUCOXel7AaiaL8Of9GbdrlUFcEwrLUmM8ibMaISCmiaWvw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_063_a833dd1eeaa3.svg)
 
 这是它最核心的美。
 
@@ -339,7 +339,7 @@
     
 
 图2本质上就在说明一件事：  
-当 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM42L4cxvkOMFd2BADmMWOMnhW6H16gTFPeSTHzXH7HvvMTbJAVjw9Vickf8r0cMjrkZ9B5T4amAVC50fqK9o3FcTeicYToXwdwaAic469tgXMtgQ/640?wx_fmt=svg&from=appmsg) 是一组规范正交向量时，向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6A2dX2kRILmd5q8QLquNX4qiaW64y8gbn4c7kbzjKNpcz9McgSxAVicZP3xQIoM0iciclK0A7hFbN7gljrsH1mIgVr48QcKRP647iato47P0IoPNA/640?wx_fmt=svg&from=appmsg) 在它们张成平面上的投影，可以非常自然地分解为沿 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM48sMtRc63pfT60p3Kb0UIgjibNUHe8RwyudUPSfl1PyGVibdQKc0ES3edd7GqVWUX6T1DKLvhd09hYXSBUJSamTgEbOY96lCLfD7oaAwiajx0HQ/640?wx_fmt=svg&from=appmsg)、![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7clbKDYmhrdVVSibH3IQ0MtG9qLSsUaVoNBuDO4zpXENWfulGJXUJnluAdkHl0icuKUibTuHUmCSdDE9DX7ia2LiaMdgRxlMcOibeheyPApkNgBa9g/640?wx_fmt=svg&from=appmsg) 两个方向的“独立分量”。
+当 ![](什么是规范正交基_(orthonormal_basis)_images/img_064_c52ed4894908.svg) 是一组规范正交向量时，向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_065_fb0d92e7fac8.svg) 在它们张成平面上的投影，可以非常自然地分解为沿 ![](什么是规范正交基_(orthonormal_basis)_images/img_066_9f20e1d09f98.svg)、![](什么是规范正交基_(orthonormal_basis)_images/img_067_77ec78b1c205.svg) 两个方向的“独立分量”。
 
 ##   
 
@@ -368,7 +368,7 @@
 
 假设你手里有一组线性无关向量
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ex43d9b0GibH9X3hibGxcLFcdFZ5QYCg0xpYsQZDN7HFDbMzhY74Jg04a4picE8WuVweXDxh34cfl98PfNXS03A8pQRon04iaHsZfcSwq6T0dTw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_068_7bc9513cbeed.svg)
 
 它们能张成某个空间，但往往有两个问题：
 
@@ -379,7 +379,7 @@
 
 Gram–Schmidt 会把它们变成
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6bx0mGtWFw0RjH3BfpibdribGhZMafjydf3QHLaWiahRJAOhLUcRnNnQGkKH77JFicCoYVbdoqeFqMD1zibLHnh76fMqMdBdCT6dQ3gMYPE7h7N0g/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_069_67fbe26980b4.svg)
 
 满足：
 
@@ -392,7 +392,7 @@ Gram–Schmidt 会把它们变成
 
 也就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5GhsssEMjRXIJg6GbibZdVOsPwleTg7AImLT92YcskOFWZdicbcn3BovXboqg9lbrITHkYzPB8QAxT9chcBbeZ0ia6aVfsibCfyiam2c5MCWaKQwg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_070_2357c46cacc4.svg)
 
 对每一步都成立。
 
@@ -400,7 +400,7 @@ Gram–Schmidt 会把它们变成
 
 ## 2\. 先讲最直观的二维版本
 
-假设平面里有两根不共线向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6p4oXZAbdt0tKXWRUYrewndmg1a7x374JuXb8qpl0icoGicrtTX8w6fvuooxVrF9iaia9iaEuTqOOQiaicREvKKsC6YSxpsygfuAiancKzJ8zwndRdIw/640?wx_fmt=svg&from=appmsg)。
+假设平面里有两根不共线向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_071_3f1b75f2c924.svg)。
 
 我们想把它们变成两根互相垂直、长度都为 1 的向量。
 
@@ -408,43 +408,43 @@ Gram–Schmidt 会把它们变成
 
 先把第一根变成单位长度：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7W32jqLPNGIhhO3JYyvycsQYOicTEYdaUA4H6VdW48rzxovQyw7qCAoRVgcZvulqb7kK8Cf3uXUp9PicXRHnGLGtO4LDGfGPIorANb648jk9hA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_072_4d7339d519da.svg)
 
 这很简单，就是保留方向，只把长度缩成 1。
 
 ### 第二步：处理第二根
 
-第二根 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6z6xWZ83QxpWlYuVnRmqmu08FHl423kTx6xpXaXdoLC2eC6GkqJ4mESe0up24eMqLPQ9ytxnVenEzG3rtRTtibV2uasTCsvdlficuT6gmow8jQ/640?wx_fmt=svg&from=appmsg) 往往不垂直于 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5cw51Isia5ChtibgsPsfyOXIuCRhMOWsAW37fwRWhLO1zojlfmDGYx5MopXrJ9xG7yibX2RheenaGYoanotWlJDfaicMDduXUrtMAe9axBPlibswg/640?wx_fmt=svg&from=appmsg)。  
-所以先把它在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7rlLBz6JOdg69eZTkk7KMrrbQeVqjz7ErUBYfL0BrqgyytuRjwwWvzbaXy61C2bCy10qF1EQI6JXChTZKIj65fEW6XkuTTWGw3CEUrnt0hqw/640?wx_fmt=svg&from=appmsg) 方向上的那部分去掉。
+第二根 ![](什么是规范正交基_(orthonormal_basis)_images/img_073_e12568216d7a.svg) 往往不垂直于 ![](什么是规范正交基_(orthonormal_basis)_images/img_074_4c88915760ce.svg)。  
+所以先把它在 ![](什么是规范正交基_(orthonormal_basis)_images/img_075_2625a24bf601.svg) 方向上的那部分去掉。
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7IZWvUDD9amcK0Ejo8KLhF8ibHY9l1RVosKZhocj8jlrxfib4GzKLxHUR6LczLbrO1ALHvOdhQIM81gn3mhpxsU2DicohhA7EqeIqqL2ic5f7G5g/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5kVRWP9RovviahDBbCrOz7nCtH3UpObFLXJu3SibsibKv9ogelA2mNMfKChORjPTNXmOZZz8uibR3orS4AdJJsUAle9xlkZIuk7oCCXLHVxDSyhw/640?wx_fmt=svg&from=appmsg) 上的投影是：
+![](什么是规范正交基_(orthonormal_basis)_images/img_076_bbea1db7db9f.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_077_7051d42239b3.svg) 上的投影是：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM42L4cxvkOMFUSrVQtFGkcMn2fpVs5Qd4Frxevia8AbFOibutCzCgVSicZ2RWRksWDUbvUAuBISYZxnyU7icibTHiaicwBPnlnnefX7HzYoLpoU0RQ8w/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_078_6a48d98b13cd.svg)
 
 于是定义
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ialnImyE3mpWFwKr3TLpic777ZHAuh5s6or5iatNQvOYf5mdk3gv0kEyooGDY8PFTL9U3y5UhgrOd9oSWvAkAICrcbJE864JuxEqE3y8oiczLJA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_079_374fcdbc3eef.svg)
 
 这一步的意思是：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM49UGeW1q7sCC4ibtdjVRC7o6RxMuqnaDQpKSuicSVOo98VHvB0LtpYicRQUuulbDualHpcHv9Dia5GJXa4zia0xyeMwwcjw02GusjvEZSd7zFI9NQ/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_080_ced47827c93a.svg)
     
      原来斜着
     
--   减去它沿 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4jHiclRic54lPvWDOiaL61Gk3d7YAkTCkvRdChuNzPsYUs12TNesSVKyVlbOHWjWWiaZvxmWiauib1MVUGic4q9iasP5VaONyVTO39LnG4eTrStmWAIA/640?wx_fmt=svg&from=appmsg) 的分量
+-   减去它沿 ![](什么是规范正交基_(orthonormal_basis)_images/img_081_56c73af4f0a0.svg) 的分量
     
--   剩下来的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4d05bFrYWZMMMQP7eDlD6VOEm5ZvB0T6Xp6n4rTYwNK9Rdfg9YLmmRicOOzu5EOxUOzMPiaEC2YedrqTThmPaeDhqwYsg0UciccqQZGBDvyEOog/640?wx_fmt=svg&from=appmsg) 就只保留“垂直于 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6rEIkiaSbibsnlttmBor5oFHOsuIUtaDA56KcjFP0St1J1HQWibicSW51Mc0nBWniaVIgZBJ8AdcwpmFlNUI2fuZ8X2e8fhQGic2zk6pnibMu12REkA/640?wx_fmt=svg&from=appmsg)”的部分
+-   剩下来的 ![](D:\电脑文件\公众号知识库\数学_线性代数\什么是规范正交基_(orthonormal_basis)_images\img_001_e685684dce67.svg) 就只保留“垂直于 ![](什么是规范正交基_(orthonormal_basis)_images/img_083_dfe160a78ee4.svg)”的部分
     
 
 所以此时
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6x9iaXQMpUXWjD5vtyrcUV76jzXEvO8UhKdRSE30htJg8a3CdXAe4iadxwz86U3P7N84RicIXFFBexmwkO8ibCVJHeiaDIJeCWTL5oRxuS8tzFriaw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_084_3e178e29b1f0.svg)
 
 最后再单位化：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4XDrBibU5qzqhKAjLapYjqRBkjf5KccL3UoibNoABokBLCOHLArv5RGNVc4niciblicJXvfIIQyPeBibJI9UzXL4dG51vCGnZvv5jbumQM4xEIZbicQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_085_cfe96f6cfb0c.svg)
 
-这样 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5MPibbZWhOZuOyzicGHnaRFiasiceDWscfXqDXT86v9lmZUOu66wkPrlYcCvlPrCMFjZELAPLP3t8cLOiaKEGciam0sPDjkjia8zF6vDenOlKcn3lVw/640?wx_fmt=svg&from=appmsg) 就是一组规范正交基了。
+这样 ![](什么是规范正交基_(orthonormal_basis)_images/img_086_ccc1ab06ed44.svg) 就是一组规范正交基了。
 
   
 
@@ -452,9 +452,9 @@ Gram–Schmidt 会把它们变成
 
 可以把 Gram–Schmidt 想成“做直角坐标系”：
 
--   第一根向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4I4Awoic9Cau74yMrx921drckicMsMHAebZWTgY4nNVHC7jGaaoCM2gia4IPicVjhFHHsEprjGseUBv9Ya8Mn9pejUmZiaJ0hWO10HiaKAAic5juoYQ/640?wx_fmt=svg&from=appmsg)，直接拿来当第一条轴，再缩成单位长度
+-   第一根向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_087_612b42b38393.svg)，直接拿来当第一条轴，再缩成单位长度
     
--   第二根向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4d05bFrYWZMJRpfnrXF0K1sbPTHzTJibD0BvXvKgp0v6ibqDWslSJ5ibglO3aianqQoV9OIIWT26Vqib5fGv60oPibPFfAiaDJRxoVibjr4sPNl36ibMA/640?wx_fmt=svg&from=appmsg)，不能直接用，因为它斜着掺了第一条轴的成分
+-   第二根向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_088_7c22746cd56a.svg)，不能直接用，因为它斜着掺了第一条轴的成分
     
 -   所以先把“沿第一条轴的影子”减掉
     
@@ -478,57 +478,57 @@ Gram–Schmidt 会把它们变成
 
 给定三根线性无关向量
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5dLqf0dvXVaAJmiaJdcAicrLjnibKVh3ssFzhMbIka9QgIxhJmXrw7E0j3tXw6SglicA8UiaO8AbTyUjoNTnVoWC75dbokAejJ7tm2BFrTVlNcqCg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_089_bc9fd6b3bc26.svg)
 
 我们构造：
 
 ### 第一步
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4QHFfbpJaMPT8uxwfdSHmd8RfuyXICj7hOtPUb9wLJ10Uy7sUm5c1IV7SCz3mGFJCAB9kHTKichwB29GKiamw1ZBSQn1wk8NcqiaLTdT7yhUN5Q/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_090_4ca8ff4d8fb7.svg)
 
 ### 第二步
 
-先去掉 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7DJf0Hzc3RfMUibewSBSKDWk460EIdRLbj2JKHIrNJMPmHIvUGHeBkRI7CVDE0w91oLYhUEAtDgsENBM44gZaXlqSSXPl38gQwZ4oYPUGkSgA/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4I4Awoic9Cau6D7iaSZcb4bRZJwo8NrcicubXxotv7REhvBG3w5Goqoq0froaOovOR0rptsIEicE138sbZSJyOUwWMZtAdicBMnJQl2yZ2hEVaz7A/640?wx_fmt=svg&from=appmsg) 方向上的分量：
+先去掉 ![](什么是规范正交基_(orthonormal_basis)_images/img_091_8384b681e80b.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_092_6069f9bfc0f5.svg) 方向上的分量：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM40mghhVnqppWgibJMpu1LRQvsTCmMns1ib6ibnDzHnO4HITelyicCOpVtQzc2Zz583ENX6Iib8HfQ2YRep56FRqKsSgn3ZHRX5J1Rk7J9VtJhoT4A/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_093_002bd81b3396.svg)
 
 再单位化：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM79Oz4ygqKsEDtNxg6Uf5KGH1n6N3oTC2WQWGhFDcvTk3n4rEia5wmpISz1fzLmQDdE2rfnl8jZGYxGaR1nt5SicK0x3pc6r4ohhMg2cBb0GV4Q/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_094_d3d42e01375b.svg)
 
 ### 第三步
 
-第三根要同时去掉在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7VlCeKUtqicPTCTBy9sKBkoTTCFXYROgrMf8Uman9CaW7hzSDTmIFlLGibW7iaIq1BnMlNf83icKwOyZiaJicicKC7DF8VCR5QtHj3HvhiciaPzzicMDjw/640?wx_fmt=svg&from=appmsg) 和 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6sAz5OWdbfR9ibd7pSPkWn8tqMpdcHtuTfUrc7Gwv4N4K9ibquNA4AQbGzGEz9WF62AKcO4dibQysa1ic8mIl1mYVobZrX36rA1tfIEEr1eiawGSw/640?wx_fmt=svg&from=appmsg) 方向上的分量：
+第三根要同时去掉在 ![](什么是规范正交基_(orthonormal_basis)_images/img_095_194eb12cd248.svg) 和 ![](什么是规范正交基_(orthonormal_basis)_images/img_096_169964dbf476.svg) 方向上的分量：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5aNxXaSrGO5DLRbYemK6tPyiajiadJS2kf48cCTjGoPONFghfiaiaTYhibQtKuerFC5QBeEr1jt3SJL0GU6liaH08r6TvhVn7aRzxcic1rIGmT7ibgyQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_097_42487ab73781.svg)
 
 再单位化：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4r34Xgnpic4ojDEJz3RAibI2fSkzFyUg3hl4nicAHwrzVzmJvg76bfOib7RiabWISCe8dEKnz4KUTlekweV50hrjrVWyJZibPtQdSA5Ek2akekGlew/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_098_c1beb2c840e1.svg)
 
 这样就得到规范正交基
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ZMQf2pTc8YJdKarggsrGWt8aG6p1x7le61VIKBKdHNMSTrLmbs32BVawHCtsctIDYjwicY5eE9RIDZRbxUNuzJCOs4HeYz1cp7icUTEgORicKQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_099_f7edec2b141d.svg)
 
 ## 5\. 一般公式
 
-对第 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ZMQf2pTc8YJMkha3eggZMlyjtUxcDjdiaqBCeibc1XEnGfq2obN11FAWiaSw6eJoDCHVuuJRDAucHrVZXOTfhZG3qLTicq5e2Fe65peNH7WJo3g/640?wx_fmt=svg&from=appmsg) 个向量：
+对第 ![](什么是规范正交基_(orthonormal_basis)_images/img_100_9ec2b2eebd22.svg) 个向量：
 
 先定义正交化后的向量
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ZCQiaR43Tnboq2PqUrgr6y28eQ3sXibAC7PcNcBz2yzj0lsuKbVbic268sjt9AUwq6xWzmpUFGT2icz73MxibHvBLEoGp49dt3MiaRY20wQkUzj6g/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_101_701f80f44aeb.svg)
 
 然后归一化：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6pHamCPY4RvrIJbg3icVwE3uQgOX0ibia9QZPPFfAeOrAq2VoCZeLyrmMgictGcgDetYtLTVXUpUfEkhTlBmKWf7ia4fJya7ohTsCb0oPgaWVhmfA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_102_32185ed49a6d.svg)
 
 这就是 Gram–Schmidt 的标准公式。
 
 含义非常明确：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM57Oiah5NXCFGfOWG18mDsmTG0OmpHKibqOxpDEHMNIIt0t4b5By0lGEpSJ12lTIw0WyzNrjqAd3A9X7kItxcOticZmPcMQZyY0dp1Vobtk3zBiaA/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_103_d7a7ee33800a.svg)
     
-     是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ZCQiaR43TnbjhgHaMOqwsXIeXHdkic7Fx7XtngUxr72KoicP0xrlDjq9ez8UTM9icflAaBmzu57N4GrKZWtLjB2ctLYOwRCDiaTiaY9coTtSY7RTQ/640?wx_fmt=svg&from=appmsg) 在第 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4icrM9uoutNScmem7Ho9X3XaebzSxbiaFKRkPAvyFnq0JRdLeSKefra9eeltLgMdZPAD8rKRglAFtr7eIRXobEjqIRS40AP10nA8H722pN3UDg/640?wx_fmt=svg&from=appmsg) 个已建好方向上的投影
+     是 ![](什么是规范正交基_(orthonormal_basis)_images/img_104_e203258ab103.svg) 在第 ![](什么是规范正交基_(orthonormal_basis)_images/img_105_7066067ef4ec.svg) 个已建好方向上的投影
     
 -   把所有旧方向的投影都减掉
     
@@ -543,103 +543,103 @@ Gram–Schmidt 会把它们变成
 
 我们用一组很适合手算的向量：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5P9zgzkzL90Gc2vLLNclBRDepWsxpxN5xT03U6PZjUSZSKYuF9PZnO0mORM14kQ44EhrvkNsO2Lt0iaQcvHEuBwYDrPscGwLLH6FibGib82LBUg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_106_ee44a996176b.svg)
 
 来做 Gram–Schmidt。
 
-### 第一步：构造 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6bx0mGtWFw0UjxEmpRHE4drNJpj9ncseUTe3ekGOIIjic1zStmAFay2CtB4Bc1Ja3EKiaPITqiaMuz41s3SUL43P4oq3Mn5GLQ5QWChBVGGh3Qg/640?wx_fmt=svg&from=appmsg)
+### 第一步：构造 ![](什么是规范正交基_(orthonormal_basis)_images/img_107_69ac08659266.svg)
 
 先取
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM69NBmOkOibGnPcUtd2EjfpMDmtjSVgf9vFla1uUM0obwicmcs1xbvKb8dCBkzuduIzRcmnUjnYc749vrd0h8RaqDqrZxI9MCQ0RYj2e16aoZ3g/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_108_4f1f43c4e983.svg)
 
 长度：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6m1Pnp5X9ib48m1KdGiaichnHfq0YdLT7v3PpCUqTBJOMNxdhc2Iqz1VictFTicwja6qriaDIJoAyds35ZicpicbeUvVCOEP9xR8Fxbrrw5kA4rvYcug/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_109_bb08fa4ccdec.svg)
 
 所以
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6SRPqic0qia2X1vGWGQOPygp8FXXKBLtKibbRO67XKk7dhU4g9icuzluL2uzG9jwfcxjP3dJLmG6I0ghBgUF6ZfbWJT7XKpEIVRc2cAxGg7AKWbg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_110_2ecde1e567da.svg)
 
-### 第二步：构造 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7ZBo5DU4FNRbOOC0HR52SQpubjXn5l0U66KQnLICUPPtKgPndqklvvgNdicSEJ7nXF3RHDMwbZeuHwKgyGEBM9pyEy7nskAJsDCmNGlQmDHGg/640?wx_fmt=svg&from=appmsg)
+### 第二步：构造 ![](什么是规范正交基_(orthonormal_basis)_images/img_111_d3adcec15532.svg)
 
-先算 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6IISRfPib8zuAqPAyUSwLPnt8PV8YRKGqQa6SvXLEmZDdh7nZHuLH1uick4hpmsumb4T3jwiaPEiajlJO7f0Qfmvz95g69aMmkRe9CC4kakgiaJPA/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM59uXhfsorpcq9vILicAv3WmfUs38aBvtNcIiaGMbClhCPFvT6TqnZU7dWf4tLd3F8ibRvK9n8fQgwBaWI7XXkmpeuKmbuQgp0lQCN41OicNyjOrg/640?wx_fmt=svg&from=appmsg) 上的投影系数：
+先算 ![](什么是规范正交基_(orthonormal_basis)_images/img_112_02edadf83397.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_113_174d01ff7f51.svg) 上的投影系数：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5Jp0wN3B2d6xzGOTic8MzS4K2XQuiaTrx0S9YjmQXCr7O8AD1QeRYgictB85ROy1PNNohxHpL5thEoWGxSY43FibcxliaTRpLcEfzQbyTBXKibu41A/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_114_ddb4850b96c7.svg)
 
 所以投影向量为：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4gpFy448ovguDhulebibeiaMnDvdgAKLprNGKrlBv4vr9O7Tj9onEYTckBZCB1El7JqQ6KGib2ckvJhZ2lMKQ3iaZV99EYNalM3e5YLB8lrykNGA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_115_4bf2f30a4d95.svg)
 
 于是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5c8icKuPZT0pRJcg7xyrQOzQWphfmAT2FeemT1AghLMXjj3UcibXjgakUOabS7E7iarpBiccvU9wKZ0vM6Lu3VAZhw2EfuHdbQvhPmX7g0jTNeCQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_116_d1113c6793f1.svg)
 
-现在它已经与 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7diaUuFibYgaMJvbj1hkFiauGoES0DmPv781TVgGIjasicBejbhwSyge1r52VYwjFdTIZGibib26WHicPfYhdA9Em7Ibp2gynhtzkSLH98rAiaseXQZA/640?wx_fmt=svg&from=appmsg) 正交。
+现在它已经与 ![](什么是规范正交基_(orthonormal_basis)_images/img_117_382bdcda4663.svg) 正交。
 
 检查一下：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6iaIuk5rGzV3OjDWQtRrzqYszRiaGgcs1pPcbibmr94OiaNCf8LPRospAYcp4k6Z5J3SxQ1ibwGjFOszaDkEAmU8PLxvSGeyM1amu48H1Ekux0KcA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_118_e5ad738deb99.svg)
 
 长度：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM57d2W6B2MFGP1wYCsukLS3UXE8mhjZVQPYHoXA0CsvnDFsicVmek1M6u2rzNrO4coOd7tmLkJr0yfQ2GnGRGQd8p2SgM8dRmfumcp7dOKWy0g/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_119_4a3b3a5fa2f2.svg)
 
 所以
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5gju16GXSGEAibrdWGvGb8HmxibyRQLdUkiaWL0aGaCstltuBR8eiamDG55lpjGz0MXK2S71wiawemNzBwVN6wQ22iawoC0h0hDGPA0DPh6bmwzkOA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_120_edc04e23f327.svg)
 
 更好看的形式是乘一下：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7IficYiciaibWZCmiccoekFjlupablfwB8GcRTq9nQAGBT2teEcSfWOic6X2soY33jIqsj89hvW9hR0Cnb2dbXsvgya7jbdVTTvgQbjGYO0830GdQg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_121_8c294e4f44ff.svg)
 
   
 
-### 第三步：构造 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7e0Nrdvf4JLyhydw6q5gmR92GUic9iaeEr8iagC6bPwCqI7bBAA0k4BkS6PAF6hXqM59LriaFD9bDLpgAGHJgSjvXQ7E0yYRJibRkK5bxKLvBCIZA/640?wx_fmt=svg&from=appmsg)
+### 第三步：构造 ![](什么是规范正交基_(orthonormal_basis)_images/img_122_f59216cbf398.svg)
 
-先算 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6sIjkibRfAAsgSCgPJmI7gibK5GRxkE561cibFibkW1PicujaHxbZuQIvcMQUibqH5D98cksD0X0OmrswhYHtGRH4Yib3icwiayicE8fZ4Ma7eKicjBFjqQ/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5wjtXSqaicgyD0SJr71wuwE8v0pOVY1WPnSWzQsgQq4ueHeiaYM6tkA5ibVRsyWP3TRtBOibD2xmlVPVRGHWefEPM5AUJFib3RAFiarqe6aapXReHw/640?wx_fmt=svg&from=appmsg) 上的投影系数：
+先算 ![](什么是规范正交基_(orthonormal_basis)_images/img_123_9449bc96ce36.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_124_936587dea290.svg) 上的投影系数：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6p4oXZAbdt0hsx64ZuffibyzBtIaPP4TUtX7MBlgvvrHgcYBEGI7Lb7IQGGzuKtN8P22RgnPSN5rv5uCQzpaCdb0ZmrT95l0TCfyXSpicL9C4w/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_125_2c2c9edbbe1c.svg)
 
 所以对应投影是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6qoneK2uIpTibddWXQaA5cPbxickhXZTBciaXNwTmia0OMUS9FJE6UM4KBsZ5x2nLEOvLVAxicw7YvbiamBfnZ8JO5oHUbYseAXCFVaQ85f5iaibJq8Q/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_126_66454cdaf3b8.svg)
 
-再算 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6lKq7OgTLib6icqKVlaRusic6hqBiahTSDpdnEynXctxPc1VjqnB3Pvq7uJyuEGpXAkCWhCG7icicz6jMKmU6uViaSYpEzlG99xJlDibZO14EZwibO2Yg/640?wx_fmt=svg&from=appmsg) 在 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5CRUc9ZvGkAseeK2mskSFxP7MXEuT0qqOREIsFVkmMpl0ao05hvUsWeBGicz08cdvcTAxqOGVSRwLPHRS3QAs4GspqAicm54Cfzk2c979X6guA/640?wx_fmt=svg&from=appmsg) 上的投影系数：
+再算 ![](什么是规范正交基_(orthonormal_basis)_images/img_127_9c62ced28597.svg) 在 ![](什么是规范正交基_(orthonormal_basis)_images/img_128_51526de7bb19.svg) 上的投影系数：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7jHWm6rIm47LYKRJWSMibUzjq7J0BUyujHxK6RnnUwpjpK5VibpTvSPHzbqibSSaSzW4MYibzRZaTCtDI1K4DDRMeEH20Fp5oI8E5r2FXxib0uSWA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_129_cf0df0404767.svg)
 
 对应投影是：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7rlLBz6JOdgibncU0reoVHz7HlfkSmtPJiaB4Rkdl2tc8GcfPF7RPsgXxA00qaTJka3bzTQeptBGNMMQ6YicGAtVdXVJHtVE9IeWfRDvNXNalEA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_130_3447303642b6.svg)
 
 于是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM76zynp09iage56mTcArueYcumviarFC15YUic9ibe10viaB8b7xicVO3SYDUavibmahRyLhhs99s7KeCgrwcrMnQticVYXPbsbujNztSpU8afP3xSqYA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_131_4868eb655625.svg)
 
 即
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4Asvuw3hPEXXHPpJ1sWU6Nc7wuwuF4nfFdPVBaE8Trp5rMbP89yUxX196JHucQBOo4Gic5wjQhdpo3jeeRPm8mJM3o45eOKjBGUwNia4r4ZuKw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_132_0a4dfc387569.svg)
 
 先减前两个：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ialnImyE3mpSuIee9GAYSQibtj26sgR6qcyiaO60ibchvmXz2XjYg3XFsGhppTwdwoQXpQy4DTwgkic0GxzFgm7DXEF8aic9N0bUTibRV2nBlUFLrA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_133_b2c95845c799.svg)
 
 再减第三个：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5EanPsXVBWLct4ZasUOJq704CLeDJya4AtX6icRWfTbkEBVJwXd7XdvYuvPJjAVN0bsXPSs31R8vYcMcqkIS1DsnC7sbic0Cerg7eQwib1GiceBw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_134_1a82281f6fdc.svg)
 
 可以提出来：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM57fichicXWqmlA5TvDPvl23bChkThWKibet3ZbJEkvpHqPjpUa7Hdp53QOgmOo0RGibUVEWSjXQcYsXJ0ZLztjwZJ25ib5icZ6G4uweXx5eiaw0zmGQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_135_7b51a3801f37.svg)
 
 长度：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4QHFfbpJaMPTBptz0oN3k1oMtO59ZggjJ4yoIa61hia4QGY05n4EHpzDzyFE2zgH9f1gCoYO5nnh1CSbcicgZksuEWUKCs1H5aZjuWsYkrhm7w/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_136_9d83651e71b8.svg)
 
 归一化后得到
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6mc3nYz7ILiaW8IhMLaK42wjOPTT3H0DePXRJibgYiadPsb2ZMmGmm1TZ6nSyV2zRInOtByZ0xoGQNGvxeVeZcibu630YMrY4hVFgFtH4to8iaAibA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_137_e956d5621c24.svg)
 
 ##   
 
@@ -647,19 +647,19 @@ Gram–Schmidt 会把它们变成
 
 所以由
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ZBVeyG33Eno5QiapfGvsbdGj3UxH8icPgh3qpF1nuPhTgyCVYkly6cPXeL4j1X526ziaaicVziat3k9y8icnAEXvtWLuyy4ldxicaxWM7O9BPcUIfQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_138_64a0a0b94655.svg)
 
 经过 Gram–Schmidt 得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4LrbSGAyNks9GxQWw1bZVYB6u7xJ1DeVX8cdToabSIATUgdKpBGd6xT2F9toYFicyhUbiaQ9Z5icYAdJHNyHicUjia3kHq0Ay9E31NASbQWnMISzA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_139_a8e0d61c2b0e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5aNxXaSrGO5OIialo9UIcIMwjKLdmyVwXoL5eku99LkUzAF3zy18FmQqjcSlCfFNgo6FFBIiaMqozWRJgh8jRNrnG7qw8tKKFU9VOFplicrRTZg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_140_a5f01b7a8683.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5qRjsKeuibb0Ndxwia5uxPm23CEF0Oxk4XOulXibzLezhEzDQ2WO6ticRURBxpicVqe00pqsTD5r3Ol9kicptCNO6BUOmr63b0IrjsOy3Qw98LcXbA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_141_8c65066672e0.svg)
 
 它们满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7CYibrv2aiaaoM8f8icZUwGPHqrJtib6FeX3ZbV0ctHcuxFeh8qWtlaOvsGxIiaTjKRIwBbyo1cs0Am2JHzBsrlpCmZP97wNsVBvQBsl5VeE802OQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_142_e185a22acb52.svg)
 
 所以这就是一组规范正交基。
 
@@ -669,24 +669,24 @@ Gram–Schmidt 会把它们变成
 
 前提是原向量组
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7n6Ln7cXbs1IhvrsGOD3OUbI57MGKGblHNPAAc8QtnwQhJabAecgNv5pQ4qxcPuWGOMcMicpTB8tdtEic3BAEmEHI3SibbV9mvoKms1Y4icNxiaCA/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_143_5317493eb69a.svg)
 
 必须**线性无关**。
 
 因为如果某一步得到的
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4LrbSGAyNks75ic6SuuEbBe2BHuxLRHg85qD4BwVgAq9uwaE3EGzX0etktJabVfaKjbia356wuz23pebOvuIPoFEJibl7WIII5ZPgPHbd6UWRNg/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\数学_线性代数\什么是规范正交基_(orthonormal_basis)_images\img_002_9cfbbe865f22.svg)
 
-说明 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5akIGuXt0smqiaRzjnm6ank59Sfu85JuT0gibmlljpHWtYqA98LjXIcRrGn3w59mdMTss59HMIZ8Z9YjcteeTxuY4AowNA6GY3e0fYOuPIVNEQ/640?wx_fmt=svg&from=appmsg) 完全落在前面那些向量张成的空间里，没有“新方向”了。  
+说明 ![](什么是规范正交基_(orthonormal_basis)_images/img_145_b31d6a33099d.svg) 完全落在前面那些向量张成的空间里，没有“新方向”了。  
 这就意味着原来的向量组线性相关。
 
 所以：
 
--   **线性无关**![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM53qZ9oGDHY7qmibGqJg6YgZibD37g12gTGURF6lOrVQl9NeMfqBXJJVtqZLkW4MHI4ia2yUQspeHO4bdEE7oxwzPHS7B0YHL5ibJHT6kiarAS2UUA/640?wx_fmt=svg&from=appmsg)
+-   **线性无关**![](什么是规范正交基_(orthonormal_basis)_images/img_146_4eaa857b38b2.svg)
     
      每一步都能提取出新的正交方向
     
--   **线性相关**![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM68dL51q5BqicY5ibfzH4icrkcpKZqWeO7vlZFGTTRzpvYxJOMibAZ4Ob0ECDZVDlNcGdfEJtdiclzPXLvt3QytTzYib3htBmSSwXfcWl3QPSH5oZZg/640?wx_fmt=svg&from=appmsg)
+-   **线性相关**![](什么是规范正交基_(orthonormal_basis)_images/img_147_be8386211bdb.svg)
     
      某一步会卡住
     
@@ -722,15 +722,15 @@ Gram–Schmidt 其实就是**投影思想的连续使用**。
 
 因为每一步都在做：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5aNxXaSrGO5EDSxTibn9wSw1WG0ImE6WVSHZfuwI5TbGmxY6VpXuZoUjquiaeV8uoreXYcRHoibYcbUTSgC84WUn26yo5yTkIO7zsrXDP3PNhsw/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_148_551bee9d3fa8.svg)
 
 例如第三步：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4I4Awoic9Cauxbpa0zQYEhN3On9C6WI2AGwON7NGn6DwqXZnTUrz34DekNkC3213GD9bbq3ZDxRrmt4RWuM22KhPA6mJsiamPv8Bsokm56STjg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_149_66433cb22b4b.svg)
 
 而
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5Pe75W7ynn13wBFx0CLsjGicOvua6ia68WgEJIr2Og2vrvGZq3gPL0Uk2xqAduwkLpNZ0ZYtvhaA1h5WR2fhuiaMMRGnmqp8SbHheoyNykka2jg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_150_5698a593e4f8.svg)
 
 所以 Gram–Schmidt 可以看成：
 
@@ -742,27 +742,27 @@ Gram–Schmidt 其实就是**投影思想的连续使用**。
 
 ## 11\. 和 QR 分解的关系
 
-如果把原向量组作为矩阵 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM69gdJ0ktiaJZu5TsiaI1mNr7X2CMoIqmyURt9PyGOXmtKgX9eF7WLiarJ4RHuyJw34iauoibtOVWbvh70ubpEfGWg5ibaCGWteaXfAKt54fmsHc59Q/640?wx_fmt=svg&from=appmsg) 的列：
+如果把原向量组作为矩阵 ![](什么是规范正交基_(orthonormal_basis)_images/img_151_c44f338a9eef.svg) 的列：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7CYibrv2aiaaoMqd8GfJw4wDhs9icbHAUG8gKXvicpcAkGc8pyibMq4jiaWTdInNicDTkM8dPJPxHiaMqsPoP2KQdA4Qmmj9C0F5gq7QXF7EqokkN7jg/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_152_d931cb1251f5.svg)
 
-Gram–Schmidt 最后得到一组规范正交列向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4PWqk8VfXjT0qqNUEZY5bCZW2L1nwIVVmicAjBlMoOpkjpianngNWszDhOwgaqDticClCL6nVZD7tyhykhGFG6VJPWB87R08qvLH6NxldoIubLw/640?wx_fmt=svg&from=appmsg)：
+Gram–Schmidt 最后得到一组规范正交列向量 ![](什么是规范正交基_(orthonormal_basis)_images/img_153_a2d6b2728a02.svg)：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6bx0mGtWFw0XiaHdXPQQ1CIQicD2yLK7YiaCKYwCwbvOnHqDxKoD6eKG7wnLcqfCtrjCcowyuTuhxicrd3Kc0BbN0j3VDVlYxqS4u4VaBoPW4VaQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_154_4d8c096b6ab2.svg)
 
-同时会出现一个上三角矩阵 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ceQCHhpYR1EzgzHDk6bedeg8yG1iaJiciaehiapC33TreicPlNP9vV6aqsayp9nT8SbHMiciawkkNxPN15XvdIq22cPiczhic1RGxT3F9dGvGTT2FFZg/640?wx_fmt=svg&from=appmsg)，使得
+同时会出现一个上三角矩阵 ![](什么是规范正交基_(orthonormal_basis)_images/img_155_f9767210e1e8.svg)，使得
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5Pe75W7ynn128GmiamMWiabibdK5bq8Dxiciaia4p8JjjHLTzkF2onOaGarZesgXNAdrJzAsG0XlYtBrTcvHzjNBMibd0WBFrPluIWjeflz7k5JybUQ/640?wx_fmt=svg&from=appmsg)
+![](什么是规范正交基_(orthonormal_basis)_images/img_156_974efcdf6468.svg)
 
 这就是 **QR 分解**。
 
 其中：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7g6O3ibDtVkISlQ6HyjdaqI3H0oQkPe5Ioj7TzAqBPFlbMCJlYldT85tsZvssGrGibUNiad2fYH51VDqfuAiciciae0wjCyBkekxWicSsGCicReTCSOg/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_157_dfa71ec8203b.svg)
     
      的列是规范正交基
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7FVBe1xZ7ZJ8ibe7iaSZFibRa5mR6MoL3PyHjcTqiagj8tAeMpOibJL5slLhXKJXaDxayNetaMHXuOlcFkCfkRwoe2UV7BSkALwib4LTa52IszaeyQ/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是规范正交基_(orthonormal_basis)_images/img_158_0ed91f245c22.svg)
     
      记录“原向量如何由这些正交方向组合而成”
     
@@ -775,7 +775,7 @@ Gram–Schmidt 最后得到一组规范正交列向量 ![](https://mmbiz.qpic.c
 
 Gram–Schmidt 的核心就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4aibzbYwowSgh0MT4YMlVaDsXeh7AeVe1KxcH1pLCJ8HlPMMPH0pKZkrj6FjNgtH2Fj0trXBkfscDllYLlNyXGibm5Oia4slQGYJF0KWicndRRdA/640?wx_fmt=svg&from=appmsg)**减投影，得正交；再归一，得规范**
+![](什么是规范正交基_(orthonormal_basis)_images/img_159_12dfe0d5a3f4.svg)**减投影，得正交；再归一，得规范**
 
 也就是：
 

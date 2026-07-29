@@ -15,10 +15,10 @@
 
 于是，趁人没注意，我悄悄把那本才借几天的雷达书还回了图书室，转而全身心投入到CEM机理的研究之中。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAARuHOAVSP87picVkhdF0yC4tWSvOFeGiadbHzUthuzIM9BejUPptVkUsnoo8ZM5lwibIPHP9AQYNWg/640?wx_fmt=jpeg&from=appmsg)
+![](从当红小生到瘫软在地_CEM带来的震撼_images/img_000_dd57f71ac49a.jpg)
 
 图1\. CEM小目标检测结果
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAARuHOAVSP87picVkhdF0yCdazU3mjXSMOMgMwEq05iba3FNLWib0uULS4odwSicLpgOzicHw0t0K42Pw/640?wx_fmt=jpeg&from=appmsg)
+![](从当红小生到瘫软在地_CEM带来的震撼_images/img_001_231057727f6d.jpg)
 
 图2. 混合像元分析小目标丰度图

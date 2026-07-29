@@ -6,91 +6,91 @@
 
 分享一篇来自湖南大学-王俊教授题为《浅析SiC功率器件的高效使用》的主题报告。分别介绍了SiC 器件的优势，在光伏逆变器-脉冲电源-双向充电机-UPS-矩阵变换器-新能源电机实用案例。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgRFfVnk3YH3xqnu8xCKYC1lyiaGksibIgwP8uTCFBxPGuiaaQSYu7hTY6g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_000_abf18872c532.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgWiaMoZibibAzMPTTo1jzqHTBo68dFegwQnlL4iaRcoJ0l6xaN02jpHH8iaA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_001_3c7a0418cad4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgEhpP67t6jlOXcicjNsYibicDiaZbnEuGdXYNohTStxGrEYx5dGyn6KGR5g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgbVs8NPKlKmB2lNO1Rh8anceqOp1tibRXkE3FPa8cp8v4vEldkoXBh8Q/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgTCfCEnn0a9WUqhZQTBC2zQDg4FoZ6icEKxCt5IrDibe8uJK7icibkjmuLw/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqguV8nwBjicvSYjPiczNL18vuVskB7z7zib1iaOuzevN4nTbibTCgEoC9JQnQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgC569yCrBddibh2NHoezfvlcrpPloclIFdOftQcyGNO1rw6AsWFoKRiaA/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgCXoIQUpWueiaOleJiazoU0gSw1NbiaYoPnf1SLOSCndkDO2Xia6q92PtPg/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgn2uyn9iba8hpSu6KOFTHxiaCjCZ27uFEz5q6DEggEvq8sC79H09iaNAUQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqg7vibFNxyw5ZjqCdb5vpA4zNQ7ialGBxMIGwyK1TeOE42p7Wpae3K6dnA/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqg1U3XrUogXSNAGMuicQB1AFun3XpIgWKWKtiaagXJdTo0UuucwcL5Hzng/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgOichJbkY4G89I891s1G4ENQA0Xw4jWHJwP3AribnfBwyRlPhS840yq2g/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqg4iao06UG2A9mK0EUYRIqsoHog2wFh98d3gD7aOzUIVTTqWib0GIiaqfDQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgVpia7QyS2VTt4XWcKkj4IvXPMlO8tQp6hnmib6q53GJqsvic05rk1unxQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgZV4L03XTJZtNR7vUyaINpKWynQsJ3AjIJ0ubomXoLTiaibicRicusRLcCQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgjNic6wicGOQ4dxyZUHADcLialbWN4EialnoShIGbsUMNeiamcoyiacClNzEw/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgwl66VqJKEHoG9Wu5u0ySj1hYUzEWUDiawlVDH1G8LcjZH4mLgtK6nuw/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgTWI6rjHNzbeoY87r4d1J5WNWBlxd3ib8RP1XEyhk96fC5YUbp5nzJ5Q/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgUPmjUkKpaq069yncnpib6pBUJ2oXCSDmgYITSicLwU9n1icPeA84ue4yA/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgo3sM7ytGMrEr3Sny7LRSgK56uBiaUFVcaMblWWKkIgGT95krbS3La0Q/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_002_353507e1e898.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgmIWxD9Cib8HqHAGANWHpntU5xeKNe8KNaPX7tRNdiaRoLPYGhfEYr55w/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_003_ee01e6a9f17f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgiaer4htic0TgU6ckgEFLu9lHKiaH0OnSSRzEEQCMjdXuBtq7XXpJ6vficw/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_004_05d77a6fc87b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgKia3njiaOU3ttzNXsjAP1zdtALNBsFg1jgicibRcmEtmVFs23Mf7HQlYQQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_005_4a48cd34ac6b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgLABF3UlYNSzIQibGzQzJFoVNWWUdoSwK2MFBD1kNffwp7a1BhIX9c1g/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_006_8bea62b3676e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgPXaCAQxzXiczpDtXHup5iaUUoFiaj8s8hAlAYdPSw4icouyv6GYibfYtuSA/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_007_460b3545c239.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgzFQ0asmT03yHrzgZbhUh73Gywnl2XvJdkOUvyE2wJEv4AGopSewoTg/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_008_8d61a52c4c7d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgQBtib2ICX0efNJ0reziavFcaNEwGtaJuX379vpPmow2bFAnwj3TUKiabw/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_009_495b69c4932f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgaGHgicGrZX4hWuFMKeRucod4icpMGGfw6JfP7IIrjj2auicc3xsfR9w8g/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_010_ebf3ca5b6e4f.jpg)
 
-  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_011_b4691aa8077e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgp5w7v5ibNWoXggfGa5qP0gRialJDkv1kt0F77meqzoZL8B8qrAqSlxpw/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_012_d5682b03463a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgubTsQZoPa7Yrbrib2MTricqiafYWyaFuibh5d1fdq38JQ1sp8hdAxyH2Fg/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_013_39519194ebe5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgr5VdUTIORF8wZjpnibho4ic1aAKpHloo6IgexnVCibg8EqIicQPgDysyIg/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_014_021116b2100f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgR7Z769icGSNPOqicycAqAykJalv2VB44DvG8icUv3OqAibOhBgxn8mpGRA/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_015_03a01d96f7e4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgu8icNGEYfLiaXmMJ6h8G98naF0TDUjmXPZIwWvRb3lsB90wyz9qDOibTQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_016_f376560e97af.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgbkKh6qEJ50XPJdupZHIBvtHpUgfIEiawicd1KYiaawEibkPZkCJsgLrcpA/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_017_5b0e7cf3a284.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqg8Hquz8m2nI8ES1zxsmfqEAC9iaIMn9YchEZJsYIbWhic5CC1FcWR2ycQ/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_018_57912558e75a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqguhlzFXjpNUp8CmRcldFBqoOHIRV5Y1MlCGM082evia175HbqicLBsszA/640?tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1Gjtqgv94icGNatId50HicYWP8EolpBO1BWtEd7qibJJL4rfVTXmbqJV8kslxvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgTE2t1NGdbANZ9s3wSlwZqLMZufgWOq7qmClCSxqDWawmRAnMXeIbOA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_019_90bc235855c1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2IIyqVZK2FtTIzBP14RxoW7hbX1GjtqgO9FuMg30Gf6UNKqz3wWABDialf1EYP4fPaVWPm4x9NtyOAtTHN3cx5w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_020_90f11945c094.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_021_e89a380907f9.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_022_4dc01c8fe40d.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_023_749e23e9893a.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_024_29686d29ee63.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_025_dedd2c1c46a8.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_026_993c3bfad0ba.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_027_0fc75283b4f6.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_028_4e153b052496.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_029_a95764fb66af.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_030_4c1429f2d988.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_031_ecd3d1423770.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_032_dfa55284dc59.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_033_daf6120447b7.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_034_0d8bf896283e.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_035_574e27c8701b.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_036_bd0edbc090ee.jpg)
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_037_5857ed959b81.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_038_d9ce8b7b1693.jpg)
 
 资料来源：2016年中国宽禁带功率半导体产业论坛
 
@@ -108,10 +108,10 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_039_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_040_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_浅析SiC功率器件的高效使用_images\img_041_84aa944feb13.jpg)

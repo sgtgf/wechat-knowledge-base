@@ -8,203 +8,203 @@
 
 作者：J.W.Kolar&J.E.Huber
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1eD7YAkwlA74ZPzQOw3xfcazmMNMT10GrnJYB75JR4WZBcuvZzFA2Atz496QTR2Cm35LjfwypwqynSfBNpZqPtfBKym4DXmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_000_f161f283e709.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMmXia2kImzTicCzYoo6ZwbVZGvic33Wscslzy0zpv4W4aIB3whnEqoicWeIGgHUPl4BJl3418mCexaLUz6fKicKOaVC34HnyU5e6hU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_001_fd2ad19dcb81.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOIR6dBW3cEf0k1IMVTbW1g05YU4898TRWyCqow76dabHLtSlrEy3ZwibSo1dbemsjDQgLrcgx4N1tItPsxhNpqzPSez2zhZxOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_002_2404006a5fbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOKOBqJ1ZwUfM7pYsqYsZvibvh2pEFHvljO7t8pziaWxHib9FzMvSFgxB0T28Yb12JUe3c5jD1vcMoiahMWS44NGiavcD0q4PdbTDOI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_003_b6422fb6b09c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPBsTbdibib8oMx9Kd5ALcHgyKdqLlN0FPuogicZGDgibCWjFHotfFibnxoo82YgVyAG55ibx5DBsnQPKKBILPL7bsRdmiaTUOZoYXBVs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_004_bba15eab693f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMSEiafgHJ4ibvibIAQnS59Y8yQgAkDoDPZTrzg5xyHR4sRPCkyNpvX6YicS7uGMInghHWfLiaDzuyFUx5gfISUCTWAB0K8oR7YzTIc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_005_059e8a18d339.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMCEvOtZbcOZjtTKDfylgTQTaEmFB2wJ9VX0iamMrK23qwuPuaAObfQ1RjvYicYic6iae4ldn2cibwuBhKhBAOZwxhoj4pnBZ24Ip3k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_006_dc9b167b1b90.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMGxZ5bgIWDibXBHfUqKTwtJN5biac01vbNjhwfJzQPonvMsT2E13DtS2tTB5kBoZGVjAiaVddvX7RFVPYzUxFaQtmstSbAv41zhI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_007_da7d894917dc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8IlWsriaqX71QyLZFYGnYuWC1BDBaIAwTJgZ7HkF6sCOPR9AGcORLI0epGCry9MUGkuPdRcAEC9zI6KQTOcyU3z2xGQ859VIs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_008_a463cb50f1d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPTenh4vYdY4GsX2tkY6jV4KeHq8CUJp6cJiaRQ38D9sSlgoKa7j7xVmLqfB7QH5c3W8F6P95b6M2camu7vIibWAZqLzfrJUjpCY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_009_f7cae2c8ecc2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOibZXXX9qQsviaSNh2CZficqCThw3WB84yZFwjUEWOIXsWO7vDrKNNyk7ayiciaf0LXGAmqTd5wHW6dibd6hJUY2MSB5f1EHD6LHjKU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_010_9b7821b7fa74.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOr2GohIup9ibwkHLB3ibvCeqORp34DBYvTiaJsWONfmMs6T7z67QSGuWic6oFibS9cYia3icCSicZHulBzfAxYpv6kEBiaI7sA4dL9Wicico/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_011_d8808aab87b6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPJozUMz6ENd9SYiaOv9sayn9o68veMeUH8ec1GsGzUpVefBtDNQZ7gFRvj4cwmUgNksgW0ib6EdL2iaD6cdbU5BhC5pezccH7CuE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_012_e8122cc8b6ab.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOzXxUho6hBnQOMmqW1LW7kTAsSrbzu0IQl2TAbt49vib5iaa9wbcnmxIcDAcdr744Yp6OBKUQR7AEvJFPlAL4329ZuIse1o2f0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_013_a4aaf56c0712.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPgRo4Yk1dSS9BfAicLcYOLUW9x4ibia3Aco8VREFdl2RqadffgsNL7KeCCJDTD2s5EfmDA9iaicoUtib4GqpLibficyklL3XZf1e5rFwY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_014_7a90c54ed6dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPib8znTDmicqJ0pE9evfY8kqnHSicyicxCbsiakEZcDuA3HVvsMWPFfdjgRaJsdK7YrBYJygNA5icgNQPicNialyiblicnJB4ED2b9vc0ZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_015_dfe590dc1440.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOCCZlHGoO48HfMQhk3ftvrzz0CxRicicFgIdRficcGvrlPWbM6TAwicCOT58WOoqMJJhm0dKxQGO8ezCtdVMiclUYnztUshzoOk1AU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_016_bb4ed8c8b6bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMm8J2ZfFnG4NSpHc9iaFjmb6ylstib3kkv4uGylHX8b64BeibRRMH3UbDN1ucJ7ibSEDztDPTCa1AM2pbLJNq6djSzNltmOegd4nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_017_d10f812c975e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMYDqtQm8ibFenZCzW6icqA38iaZxqQ6DozqDUAQsBuuTQqUestlgFC5kScq5M9ibxpTsqaMIia7qscB3s2KJFLrD9TXNPbPxuykKGI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_018_f88b3ae38ef4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNL5bQicREH0tYFsTr35v8bJPIbLG4qcm5fwmxdDfNqCaL8Zdjld0RN0icibAgNvNehicwhevQeMzANnqSW2OQoeUrFTpfWmicrzibxs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_019_29bf51a348de.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlEcBzib7TyB1z25ttj6RrcsUPp4UXN0BvS5aHcUkkqVHUW1oyRlkHHOA6bJfiaiabHSEeeLLvW4zOVB0jDqpJveKQRfdkFGdawg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_020_103b9b6d32d8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNic07ma5rpicjUfvDQMZQzhk4AOaia4h7We3NYI0acY2z2WPqyVCwNyqWrpdh2DMIlgrh07jBsjaKxWaeHXSx2zEulwAAibicn8pbM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_021_7cf7b3f3acfb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO8vIdYp5P0x3Ny0tb5QSzVy6ZovhuYqm7G5ibg1p5CzkAicFiaMhBlpcLaJmqicKrpSwoogicGicLRB8O2ibFHwwhv4UorMRGibwpf4Hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_022_053b832ec094.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNVKfNQNd5BSSliaIRsw5PkAialIPO48cib2RILRuf5kUzvLTHBP3zvINiaQT6QLvXLlDLRkRM3tuic5EYpCjLGwrvkeGFYbTPJDib9U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_023_8f38440fa1aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMsH9xsxWOSPUAE69NphzcwbP664uJiaHdYSQGoRlgbZMzkNibeqIibicMlqgyqxbxcsnwv49FTXiaNFiaJfJ9JJ3FHicjXA1BWg0O2f0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_024_8c660e74c24c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM97IFz0cgYvmxk7EQeL8Snna9vct6A74kAmibfzP7LibTP9HoXl6Y8R8QUDicC71aYAuY4wOZvdrwImLFAV5fkayqW0gQJPqNnX0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_025_39dc2af82ace.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOe7XruOEAAjIRnh8ia1ibnhHegml7e6Fl5kYrpARYmsMqtWbia7ib7bPYbQ7IibmlclG1k7iaWYG4t6gM5XpdnRyHRbccJaWZib1tibRk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_026_bc57f5a18ccd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPz5iaF4ssAfIMI7PicfibepKRkJ0wagqiczU4p2qMSI19Mq62UCXZEnxEcWnOVlJbJo7y2tgvcwPq5BpHPuOly4ujZ2ETg32hYxV0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_027_105fe53ed5e7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMob0STGPpvZnkR8MrntvlHK4icNzm1cPCibtywLkKszDZ9rVOdpoC2E1KC7y0WdLXshibnE6kkl7zsYNj2eG1MLocyoEUYFQIfsk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_028_7c67072b6bf3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO4nD7OcEU4pJGKheKIQYqJThMcJZaXrHyy1IHbMaf42BHE3JkK6RicLyiaXk47SJMWbXWqMZ7jzc1NukFoXXTVpTBdsYibFfb4q8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_029_556547a4dcbf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMUXzOLiaFpkWibiaCZZn08fOSOG3IcnqicbHfVzDUy6c8HETiaN9RXh4RZ4ibiafJPcibewyico8Nn1AcSHfO3qDW5x0ibcrNLv2oaTnwuY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_030_dbe604e51241.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNdERaaGfaj9UM8WnqicagjUDSpxUG6Eh4kYiaVVdlUbSWS3qD9cD2iaSICtKXibGarXicrolGSe6P3XZ9EVS7mKLI73dgA3Po1lsv8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_031_e93827c95881.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1wsl0fQNWc2laDIWSTicribFeqwIOhDW0CWSQWI7Vtcyz1FMFbibYvU0FsRo1IGvnBXy25Wq4fkicrhh4vfPL5MicKnQibqSIJ6ldo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_032_f2db656c7024.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPUF9dP05Qev0gard65vtjtodZpuIJXu7P5GPiaOtiazMS1EAplQ8k1g4pOZZYV9Gu71YxnkhbNTst8PKCdnfHib5Q5U5mwDDy41g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_033_cd8bda98798d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtTBg4j5VsfIvdU89nzXqDIHJBlSmaBdbCBYtaPThcjibFhwcIiaVYDl8tzic9ZQwaXEIkx9E7smv4kAQvBS4yj6MWd5bLMW09Jc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_034_676a254435b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP75CczXVcbRlvtmSMiaJIsSaj4zqyXLZdnsvgeBzZTlQDEpCqb6VIrYBTlBmZLItIxm80HgfwOTscxywibdMtr3Hfpl8s4EYZpo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_035_d37b955c902c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKZpKd9EiaSIZ7RADyTJltO3k5FdgXm88HQnuIPeGJxD6fQwushOevSeCpuyFSzSXGjuCF1a7WZCHXCNDE3YHMTw2xX8QRicd60/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_036_498a4bcec8f0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNbbfn1fb6eFz2icsKZcd0K50uOwHGia28Mfj0ichQc1j4jTT9LEFb5KXQoAedGkEPcGW1qt3NmlqvuZ9FnXx91WnpuTzC8YXbuHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_037_72d1ecd346f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMv4JazbHZvNnTtX0Mc3wprPugWPdpOVUXfskF0nP3TycM3wIBNSpzs0M2C5rBfwY4UsbbX8jtW52FVicicibpfiaBI3Df8f1BjPuk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_038_937a61d1176e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPyEuKfVfvXtUYrYQKibumfzKOEicN1iaLnRxdPmr2CCEe0hxefIqIAuqTia61dxfy1rvyopmDHEqMoJwnLGoibQaUuPbEyGsplia20w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_039_5a7eb148a887.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO0te611UgVgWr6OD0oC0piagWOWJHGehc5eLNCIVIIuGXUBicPAnBhL0NGU29ZHiaUg3gNu5fX1pXkeibs35lOxwoytcUiaJTdeUdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_040_43a102df63d7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNAqyQokNbjL6ITnyL2ibdLdM0JN3aiaQN1mgRRicajwGfCUfNdRteABA3R7ArTJUAGEm5IIzaIquC1MvJloQhf2fHKrr9GG3niaaY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_041_9a78bbe46d25.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNg2UTOPgW2ibVeQleUg8VRRnekpaAR9ymtasJrXFj6kicGDicSIdeGicPQUQ8q1Zeatpnfialdx5UB8Zf7rn4Odf2pmOibLI7YQl71s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_042_08d451b1cd67.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMt0Rpqxxdyt5BGkeyiafTNZfhSiaW4POAjBibOes4ZrZA5WIy7TZLPHLEBW7G6546OGF4nfNDa7rm6uRnlNSSUrtElVFm4yoFo6I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_043_6dfb5d0d5623.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkpaRFXw5udWqhUC5I0ib1kFCk8ibPXyjoMKbTLEghkOu2eWPOLQUC9m5IXYEbkKFUiaTfr8FYgM9Smr4s2EzHf0D8W4133HdKSI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_044_61f55d3ff2aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOzfZEW9Nqfwghgv6xS4K0xPPau9vN2z4UJwjBs2icWI2iaFA503LP0f9JPiaowQGibYJJafvNCEL0meic8icar2f6pmeGic9lXyQr8xc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_045_50bd124f9b30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPzQJvpgH4cwIV2nALs0JcxzCr3bInyoUEQIjfo8n8p9FP9w9iahKjia3IYShdibQozUzNqFOib9gkKymqWHs47C9byxWcgwEwXAhs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_046_b908f5abe2eb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN7GFiamPHN7hCic9aEp237XDM1VHlXpNmDUs3xt9mFic5xUrSTf9icLWF6UYdvAVINt6JUGibCUaxAibHHqQJAqP7OZVS9sDSkKJEXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_047_9eb393bc29db.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNbwyNqW5ibQFMeDY4wFWFp86ErTrpiciah7OuIQpkibdIrSibT1apsVsZPsFX9e4WtGkd2ribd89bSyo1q85j2dcNoBsZHlLLxzN3K8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_048_5f3a65588545.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPKrCdbRXqbXssgmMiaPdzxmURCEl25xoS6pPLuCEFCHDUaA1b718QI9dlnGx9zAwFcaiaEFTufHZLXVqxOU7RlqhWJsFy3acvo0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_049_d818ce203878.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNwF7BicZX4XXlluSlCtmw8hS0sY2EssdKGicficI2eoo59CicR01xeibZD46sxBXiaHmvmVuGnczDtBdsXpayoRnqPvTL4YGib9Q0nOU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_050_dee771356078.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMictMlIpn8S2daLwXiab1YUwla2n3rMBwf4L1g2qE7zVPK29rVSGaU3hiaMGkRe92oCf7yaLqBTSBibheNutuIWvvo5HZlR323Mps/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_051_15bd4183206f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPIOn1T6MpI0I8jCogRwSZs56rzhB677iaX8cibkIj16aq8UqdqA0laUUNDCbpfbicQUZj1RMOZ8lspoeQyialNUOBxuVl7c1y7IoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_052_1bdf28c6de6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQXzxgsHHhNYh1EFn8StupQmd9eqe6utB3VbshiatM0zFYMZNpwVkzv3z1XGbWJxgF8Ec9Y3KB59nmrQtIRrUglWkglJulLam8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_053_43bfb3c98306.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNHqJ08ep5vxglDRyceKryk5Cl9YOqqMg1XwhTHEpmGYT2VvesfZ2j5EaiczHugic01PGyqCiaXZtWmDIvM4YKDa4jzFcx6YIzz1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_054_1eee19796519.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN2xJJtiaOhzTjubZXgmODf3yb6hXRojCMBndUzuOCiavECiacicS2aUkbDAhs5F6qAIQmma1HWZ6RofAZArEbcMcUiaKlWsDwp2IHY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_055_8ba0247e4ac0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOdC468kicKxbKVZfpF8LAlLRGrgiaZ6XfDQO4iaasfPG6oWxBRPxoUlxhay9xCZeDea9XADbicia9YH0FKuxA7icm8ebgCDIlAOIkGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_056_e82f86c85f6e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPYvOoDQiaG0GVKnKJ4QoJgkgKAvrFMnsryv33SnvNuFHWQ4UFhBRD4pcPibSPf5Srrn03MgcickCJTVFXDicU1YXoiaR3WClSiaFMw4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_057_39137b81d4e1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMMA5mxicOxqEzm8YYHVvvBt8NibLxcVq2xHOibXcFgtqoLEUCj5Zn10iaLDgqvWhgD815ZLcCA4ria1c8gvZU3YUmWiapWngs5NZ0d0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_058_137655f7594d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpNNIbKv6I1rObATPvfFs4RhJYccTwyqXeN0uGTVCo2AZXV7Ng2oTGUtBmokkx9hPyMfS0R93Tny7FCIRFx2g97bMKicZK5xrE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_059_34d2d76fc4bd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLGAek3b7mr4F83MG1icmP9mswzCgucXSzIObvcZiazkf3wltZuwyV9zbfFlNHtKzRkAJ3dgb6SUpSdhEtuiaJjNuROEAU5xETaE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_060_f31cb0d7e69e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNISD7qbvRc3LcibRictibia1b7m51ictfSge2lhGTzib7q0LY7jUHVHUaJSsr7hMmXzWNXZceL2JISnDIptFeEoJ67Ph06eyG92g33o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_061_c18f7ed6d371.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMkLpWgfiaOZ9NPY1wryXeQECbdrMW1Q2GKN7ObrYUBTKGR2VECGxYEGzmXgicDzv8DAWX3FHnzs7NWHgRw4YOOWXoqicFdtiavFgY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_062_cd0a32285282.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNJfibl2Ub92Axb8pdcjp3fZQ2jBQq11MEn1h8icqhyFSxp2FfxBtHmefYes3MIvr4v1nO3JIloPwDmpoLx0ZDF30zDO3ibn5F7K4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_063_31d958ad9c68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPBqzZCo2r8LPEFyiaajAZyWO74iawh6SicwWOAeT3OiaeFYddRrIFlYXhsuXcfrgxVX9UQWxeER0gYfhUicg4zUTsDQkSW1joYdBnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_064_29f8f2fef5f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUbBTiaoSsB8QILNUDO6RuRNnicHZ7dXXrha13NbBUovJwficiaBT99Vt8lkXQmkMgnCQOLvial0Je2wT4hG5AB43SibCOrkUxgia7Nc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_065_90196a329a93.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpLvRCGg6QY9wiaYCqtaC2lyJ7foXAFp9T0cTgNtthxfibiagRd4w888wgw1UZeicJ6Xd3nZVCNmz07CRU7zujibUCEgibTqZDzxn74/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_066_b4175d55982f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP2x4icibMP0W1yXggptibiaR688hSd73mCviaZNtqxmhKbrdO4T5rI9L81wE6MeBUg43b5jb77F0DNPyMaYQ7DVzsJK3lUqvy8RJng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_067_73b331f02e1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNLbEI410nF5oCpdYgrGtYtIPd0E7LCLnibGZeuS4ZibgB9ZvzxlZ1mXARLI1blMWNIZjIeXWcJcOb354ibbHgEGPmzGXsicwG7ulo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_068_75b9fd46b59c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMVUVic8cV4EkBqiaZNQSTd2HPVYy5H21ZBcmrIDN2O38fPySLEEfdApRqlZj9wSibQ3icl4yKJFJgkM9aiaPibpc3WEOOPoaIXO19qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_069_dc84a9ba0330.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNbT9r9C1Qbrj8oSN4PG5iaCKgpve7GDDe9FYqtL842kmxaBcxRB7T5rGTuetBjdJuYU7Cic05ClGwyJTwhkIBiaNC8XNib61iaFcFc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_070_e56a230cedf7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMbwEseoCZiakibnVqCbghA0uxia49Igwgscst5YklHQM2dEOFeP0qXWPkOt8TiceexkZB5hA9wXYAEhCEOSYZY3ia3wFqnj5KCRhCI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_071_df472383b582.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMXV2RFz525KIWrAZIy950kUmXiap0G1zRMqiaogeVaUT5OOh5ibSMOdJK0SZPXeaoK4yX7ibMGYPDNT86YJgvcq9Gicp7ZicWBueTbI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_072_a40727323a16.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPw8MbXlfovglf1yF3iaCOhJlbyhckZiaTLGVNnb5epqbyYayGqjKO2UeuNYPOJPYtJpHicAMXMFUN9QSCtTu4N7azAia8Q8t6E9Cc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_073_19e3c44b3322.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOBaWhtkibZ9Lxu0yUicT5O2QGpOUJoF2SmkJaZOxOst7CjpmpV2hcs2pS67G0PO3IguibibZUEfThoVCYwtexib0GhLxC3ef3Hicn98/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_074_6a4a8a0fbe58.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXbxhKXnLXZRpCjrOibjJD7Q0JDWSIjhP2eYhIFNIvbdAMjLia47knz614Iic27F5DF9WMJyJkySuVloetJUZ8GkrPlr4o4dBLGc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_075_09375d1a6e73.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPdPCkpH7ibTItNGlYS1icanGHcBU7Rew5YuuXC2vSaCxH1SStz9kTwicZbgx1Jbwv0OqjgN9MnEib3DUIZXCNIoSice8d6aBzDzwMI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_076_87ff9b6da34b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNGXRCtiaClCykTsC2bEXKDMxvg0PrGx23tBR2B6S9renZEBFgIhEZY6MMfWyWtm0S83B61LXGan4QsMxt2Scficx10uwwFibX2xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_077_8bed81119e37.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPyYqp04LjXADicwlickVemBjY0T40S5uJKbedVSfD6AvcQrsAWBNoWB5AWS6tbfFJPWDUlRB9UmD3D7Su8FGvAzlic6oODSoNcJU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_078_97adf9835f0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNvLQtfOyCMTHiaXcYPqPWruic9ZsSUicVIibGIWjSmiaBNbv3qgNE45LOaJFPSNXC5mqcqaKdENA2yUYxHWiaImTkCMXKCd25ff3CDc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_079_8e06b10d5120.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNl79fVy6icqK0ib6vjJMAoMR4KIiaHsicwAJMbicaPF2Sib7tCcW6Wxo25EwUHdDxOoP7xFjYIKB5X4htJWhE4cv2VOApNiaJgj5A0C4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_080_a0c6f888104a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPic5W6zzxe7Wbp7xOlmxCZdg3JM2vcowGsPquiaW3heuIz0sXmAaoj7J1icia7hp9QWMibsu4tTZTcrxfAtNNT5YMfZicd5lUwMyMXs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_081_76fecf0206e7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkMibibd59Eh9FrqK5YevCXmHUTAQn5moibjBrGJF2k0ednaZzfAVcNTs3dkqEchUDQgyFgoJ7CiaexNH8knPufl39YVAdZCHGOtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_082_1c7594ea85d8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO98sSbpvcPMCCynjjmHQPsSbCXWVEzRLxS1bTtbVib5d98WwZxwZ3uIJ6aZsNF8stuY1ib0eeiavEjLlrI65q1ibvSQaWxRxNlngA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_083_44e9a5707114.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNLIxpWpZhIOXY11tmbnyrRiaKhvRxjGdWicFyrcicicP2tiaWooOGIBzaJ2xtpo2xGhlHEQbcq66v0mPMaqxLsSEqPbdTztiaoeLNzo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_084_de56c090a812.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMsxdxFEHGKfgR9FRZ79vFwjO09r6U6iaKZ8ibGUOx96YJh81gYlpgZqdAS4OxXfBpzrmxxkibraboksMokqlw5Huus2iaGmvL0hfo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_085_97b8d7c7fd73.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPeEjcL2OZu6402yE9k7duLiaGPc66wU5VGnO5ibhZP7GlNtyJObHjQjdib0ibqtvCH2xXBXMU9Bg5xAXNKma8Jcw9j4VWIxYZAn04/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_086_7ef732e76b62.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNHeNIXSKcYkVLbEwx1PJ8Te4lNefVw8e2uplT95KGWG6ibqv9gMhhvKXluiaza5ibyIqfoeslvQib8ialM4zIdNaoFAlOj7mIlX4xA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_087_95a77aa23a66.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNOldXjUibjSG53cqWvutOLsMfyicFv3NRtUukdLIeJQQU5sKwL597S2OEhdwQMXTzrjknPiapPOqpBAbxPGFOjNnia9iawib3Vp3GeE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_088_d4b8bf8352f0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOVlLG1chCXJEm2cfnqgNXLOBAmASaKPX9hMAZSnBWoPhnFplNJov5KibkFiaOtHtq3yn9QrMFyPJibchI7mu4NoPVW3NStfgtpib4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_089_f96cd97f24ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPctcsOqY6nU8HJ8zv2sLYbHmnBSo0btKWthwXBrU3ocd2gsh8976mtvMDIxovqz58sr3SOBpd559zgDGK5SWR6KOVJJiaeulx8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_090_de8242d739ad.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPE1EehNbJOkr08fpYB1aH4hgfNcWKTVrPx0Wf5lRsJvLwsSZiaZkiax1Bd60VGMoakbTQqVlNlmYMkAod9mQibY7FZOWnPJIysAY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_091_96f958851ba0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPRSvev6SOeUv45DUy72eTJ3Vibhr3icY9Ghyul0QQd81YlNLYFOibeM3slWg80iagfU4iaoUhsWgwmov0dmJ3CHRicqrMia4YB9TNvd4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_092_4dcbbd581334.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN0F8gqxhbvRSlNEcqmdtXicjtuKbpickkz3XwOtawZRX07dVsPhwxej86PSS54YqJFqIFdHyibe44zaYCl54TGfSwr8HA1gE5cLc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_093_8716f420f28b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPib8YzyHdKVBcVgcSEAlybicBXdIeTtQrRHaYDmFa53icA8L0RrV0FmMzq7maHp0av941r9u9ibj7Ejcyhh7N8ba4JINgRs66oGDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_094_34bba187c95e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpODZnuuzOcSb37geLmZecfjjKG1QomAuCOyEJIgzxeszWcic8o37GbY4WS5cic7ekBtGMV0zNksjNKSsfGAalYlPlBv4JISicPCMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_095_c97d7afc1f02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPlCy8Vr3ibIB1ssNW6flk19g8Bmsq00OtOV9RKvDp9DRol2BcWq548RVbLSps8vZdicl5H6QNNfvI3icx3ldWe7zuQtGrXwBjvow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_096_4760b74a3464.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPZgdw3YWVjZDf73hb5OxjOUx3ubC5DSWoTdQ4o6mohE4IPytdIthO6Z9cAVM1ptEeF0neUDchX3lnnOR3hPIfichYMgPjp1lzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_097_e341ff4cee77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO7Jm3Qiajg8JkImAib8zSL3gaWysSrZv0ZFV6lGjaIGwGNs8qCt0Iawcn1Z17iayrtJnqeTiaFWIQEzFhv9tJEPv6CjbRtic8bicuA0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_098_3fc108f8eae7.png)
 
 注：文字与图片报告无关
 
@@ -348,14 +348,14 @@ Si结温通常限制在150-175°C。
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuFDH0ILamxa7sOAb5zb4pBcd54hLd7tM7yBZp73C4TbDL0IcicD9WdsA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_099_bb72e652a094.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuYHVuib7N3pmpe2Y7Dwc8c09RauGRbKXiatpiaI5icYpOFjoUez9vaM0wug/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_100_9858b3b85685.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuIhFgnZMewhpBvsAFHndNL66EHzKn89Oia98qfLMNXKxJDBTPqOY3N8w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_101_6b89a244d03a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMudkphytibGPXaInfBRia5wqfPib5SOcCcGSIGj6jNFt0vy8jxYCjUxl3vQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST)的本质_images\img_102_ab827fe5b9ce.jpg)

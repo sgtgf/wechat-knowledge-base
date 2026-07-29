@@ -30,11 +30,11 @@ SiC MOSFET的过电压保护方法主要是在各开关管两端并联一个RCD�
 
 图1所示为常见的NPC三电平拓扑，常用于DC-DC变换器中，在增大电压等级的同时能够实现大功率变换。图中，_V_DC为直流母线电压，_C_d1_、C_d2为直流母线电容，S1～S4为SiC MOSFET，VD1～VD4为SiC MOSFET的体二极管，VDa、VDb为钳位二极管，_i_L为负载电流（设定从A点流出为正方向）。正常工作时，S1、S2驱动信号相同，S3、S4驱动信号相同，但为了避免桥臂直通的危险，内管（S2、S3）与外管（S1、S4）之间设有一定的死区时间，以满足“外管先于内管关断，内管先于外管导通”的原则。内管对（S2、S3）之间与外管对（S1、S4）之间也均设有死区。三电平拓扑的典型驱动波形如图2所示，图中，_t_1～_t_2、_t_3～_t_4、_t_5～_t_6、_t_7～_t_8为内外管死区时间，记为_T_d1；_t_0～_t_1、_t_4～_t_5为内管对死区时间，记为_T_d2；_t_3～_t_6为外管对死区时间，记为_T_d3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6heiaG5QUYLIaOibr2iaNFa9k7U6pr7ZowVUuXuQj1jiaxtxtjSudQaFbnBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_000_67ff7f4c4db3.png)
 
 表1为NPC三电平拓扑的四种正常工作模态，分别为P模态、O1模态、O2模态、N模态。结合图1、图2可知：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hdibCVqAjTtZhYDqxa6BxIO8wf3p5K1NllEWWURx0TddI1aDsnj8biaQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_001_4f516d8d2556.jpg)
 
 图2 三电平拓扑典型驱动波形
 
@@ -44,7 +44,7 @@ Fig.2 Typical driving waveforms of three-level topology
 
 Tab.1 Four working modes of NPC topology
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hACEEibTI1O0Ztibjju8IicLYSClSxxISjjVxYUUBUNNF8yCvxKV2sfuNA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_002_6c5bcee3068a.jpg)
 
 （1）当_i_L＞0时，如图1a有①②③三条电流回路。其中，P模态对应①回路，电流经S1、S2流向负载；O1模态对应②回路，电流经VDa、S2流向负载；O2模态、N模态对应③回路，电流经VD3、VD4（或S3、S4）流向负载。
 
@@ -58,7 +58,7 @@ Tab.1 Four working modes of NPC topology
 
 Tab.2 Six short circuit states of NPC topology
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hicHKSQvxElZAudD9OyqCFuS9l2YODbwBOFDOlVujNlZofIMt3YeC38g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_003_b343b3687e25.jpg)
 
 （1）短路状态1：S1、S2正常导通时，S3误导通，形成_C_d1\-S1\-S2\-S3_\-_VDb\-_C_d2的回路，S1～S3存在过电流风险。此时S4被钳位二极管VDb所钳位，无过电压风险。
 
@@ -70,7 +70,7 @@ Tab.2 Six short circuit states of NPC topology
 
 根据上述NPC三电平拓扑短路状态的分析可以发现，在短路状态2、4时，内管因无钳位措施将瞬间过电压损坏，这对于成本较高的SiC MOSFET而言是需要避免的。因此，为了保证SiC MOSFET在NPC三电平电路中发生短路故障时，不因过电压而损坏，本文在NPC拓扑中VDa的阴极与VDb的阳极之间并联一个大电容值飞跨电容，以形成图3所示的飞跨电容型NPC拓扑，对内管的电压起钳位作用，图中，_C_SS即为飞跨电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hdmH7FkdXJk1KfxkS7GZqH8TVk0LAnRA4ybia5AY74tiaFA6gTgnF9Ocw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_004_bc6db6437f5e.jpg)
 
 图3 飞跨电容型NPC拓扑
 
@@ -80,13 +80,13 @@ Fig.3 NPC topology with flying capacitor
 
 飞跨电容型NPC拓扑由F. Canales首次提出\[21\]，将飞跨电容_C_SS引入NPC拓扑，有助于通过移相控制方法实现DC-DC变换器所有开关管的零电压开通（Zero Voltage Switch, ZVS），以减小开关损耗。正常运行时，_C_SS预充电至_V_DC/2，并保持稳定，对内管进行钳位，防止内管过电压损坏。同时，飞跨电容_C_SS还起到了平衡母线电容（_C_d1、_C_d2）电压的作用\[22-24\]。发生短路故障时，短路电流流经飞跨电容_C_SS，对其进行充放电，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hb1z0N6YIo02JOI6g3bjv33ZcHtXFeI7YJicImS2T8oOQLE7lia1RDE7A/640?wx_fmt=png&from=appmsg) （1）
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_005_0cefd3966bac.png) （1）
 
 式中，D_VC_ss为飞跨电容电压的变化量；_IC_ss为飞跨电容在短路期间的平均电流；_t_为短路持续时间。可以看出，_C_SS电容值越小，其两端电压的变化量越大，即充放电速度越快。
 
 图4为飞跨电容型NPC拓扑短路故障时的短路电流回路，其中，_IC_ss为流过_C_SS的电流，箭头所指方向定义为正方向。图4中，①②③为短路状态1～3的短路电流回路，分别为_C_SS_\-_S2\-S3_\-C_SS_、C_d1\-S1_\- C_SS_\-_S4_\-C_d2和_C_d1_\-_S1\-S2\-S3\-S4_\-C_d2。①回路为短路状态1的短路回路，称为内管短路回路，飞跨电容_C_SS放电；②回路为短路状态2的短路回路，称为外管短路回路，飞跨电容_C_SS充电；③回路为短路状态3的短路回路，称为桥臂直通回路，飞跨电容_C_SS的充放电情况需通过实验考查。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hLriaQjhVFDmuD5c6Z1Bpm9z2Bc9ExibMyPSGraOxrlOC1vQickT984jvg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_006_8e126a373977.jpg)
 
 图4 飞跨电容型NPC拓扑短路电流回路
 
@@ -94,7 +94,7 @@ Fig.4 Short circuit current loop of NPC topology withflying capacitor
 
 可以发现，当电路为短路状态2时，飞跨电容_C_SS充电，D_VC_ss增加，则此时S3管两端电压_V_ds3为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hPyBXVRoEOgPMoekUSib17AFng7qTmSeWl6k5n3O5oaMHC6R50JQhQsg/640?wx_fmt=png&from=appmsg) （2）
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_007_fa17079788a7.png) （2）
 
 可知，在短路故障期间，只要保证_V_ds3不超过开关管的耐压值，就能避免其过电压损坏。因此选择合适电容值的飞跨电容，使得D_VC_ss在短路期间较小，以保证在发生外管短路故障时，其电压不超过内管的击穿电压，避免内管过电压损坏；在发生内管短路时，输入电压与其电压的差值不超过外管的击穿电压，避免外管过电压损坏。同时，由于寄生电感的存在，开关管在关断时承受的最大电压会超过飞跨电容电压（飞跨电容电压加上寄生电感产生的感应电动势），因此，_C_SS的最大电压值在设计时应留有一定的裕量。
 
@@ -102,13 +102,13 @@ Fig.4 Short circuit current loop of NPC topology withflying capacitor
 
 考虑到飞跨电容的引入可能会对电路的正常工作产生一定的影响，对此进行分析\[25\]，包括飞跨电容引入对开关器件的影响以及对整个电路的影响。以半桥三电平LLC谐振变换器为例，电路如图5所示，工作波形如图6所示，其中开关频率略小于谐振频率，忽略寄生电容充放电过程\[26\]。图5中，_L_r为谐振电感，_C_r为谐振电容，_L_m为励磁电感，T为变压器，VDR1～VDR4为二次侧整流二极管，_C_o为输出滤波电容，_R_L为负载电阻，_iL_r为谐振电流，_iL_m为励磁电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6h7NzMJA1rjHBrZhmT9dtOG6NyXPpicIevDePpr4OW969dzSLgr8iaEiaTQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_008_6e962d0174cf.jpg)
 
 图5 半桥三电平LLC谐振变换器
 
 Fig.5 Half bridge three level LLC resonant converter
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hW0SAcKF55h2WPvcVKAzAn1ibl7ibA70eozbldicb7Ff3tYzrS9YmoBic4Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_009_e088fa147698.jpg)
 
 图6 半桥三电平LLC谐振变换器工作波形
 
@@ -138,7 +138,7 @@ Fig.6 Working waveform of half bridge three level LLC resonant converter
 
 在保证各开关管在短路故障时不过电压损坏的基础上，需要考虑快速切除短路故障，以避免开关管过电流损坏。本文采用的短路保护方法为DESAT法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hnhubeYlZPmDNVF7BibvDpDia0yicXDxKmmLiccKMxQoVAP3hWwCohc4Zeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_010_ed1fd06df37e.png)
 
 图7 有无飞跨电容的半桥三电平LLC谐振变换器仿真结果
 
@@ -148,7 +148,7 @@ Fig.7 Simulation results of half bridge three level LLC resonant converter with 
 
 图8为DESAT法原理图，图中，_V_CC为辅助电源的电压，_I_S为恒流源（仅在SiC MOSFET导通时工作），_C_B、_R_B、VDB分别为DESAT电容、DESAT电阻、DESAT二极管，_V_TH为参考电压，GD为SiC MOSFET的驱动单元，SCP为SiC MOSFET的短路保护单元，U点对地电压称为DESAT电压。图8中，Fault为比较器输出信号，SiC MOSFET正常导通时，其输出为低电平，SCP单元不动作；短路故障时其输出高电平，SCP单元动作，SiC MOSFET保护关断。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6h7JyzfTtIcxfX4O2Ixs2TKahNebU96N6icnqkP2UxjXm1BvneY1jFpAg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_011_7b4e76a22342.jpg)
 
 图8 DESAT法原理图
 
@@ -156,7 +156,7 @@ Fig.8 Schematic diagram of DESAT method
 
 SiC MOSFET正常导通时，DESAT电压应满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6h2gvuLbogyH2ibgIAbz92uyGQrDyjhhp4K4LiaHEPaGQZKibeXBeY92LNQ/640?wx_fmt=png&from=appmsg) （3）
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_012_a98cae723cb2.png) （3）
 
 式中，_VC_B为DESAT电压；_VR_B为_R_B两端电压；_V_DB为VDB的导通压降；_V_ds.on为SiC MOSFET通态压降。此时比较器输出为低电平，SCP单元不动作。
 
@@ -168,7 +168,7 @@ SiC MOSFET正常导通时，DESAT电压应满足
 
 图9为本文所设计的部分驱动电路，图中，_V_CC和_V_EE分别为驱动正压、负压，_R_gh、_R_gl、_R_on、_R_off、VDoff为驱动电阻元件。ISO5852S的输出端（OUTH/ OUTL）串接电阻_R_X至DESAT端，以加快_C_B在短路故障时的充电速度，从而缩短短路保护时间。_R_S、_C_S用于调节SiC MOSFET的软关断速度，防止关断速度过快带来过大的电压过冲，损坏开关管\[28\]。NPN三极管与PNP三极管所组成的推挽电路用于增加驱动电路的驱动能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hVTDme8c44x7rYqR9VicBs3zIFrymRIhqAbNxmblUJ2ibaTvcveKDMohg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_013_bd233909b915.jpg)
 
 图9 SiC MOSFET的驱动电路
 
@@ -180,25 +180,25 @@ Fig.9 Driving circuit of SiC MOSFET
 
 图12为NPC三电平拓扑六种短路状态的短路测试脉冲设置，通过向开关管S1～S4发送如图12a～图12c所示脉冲信号，模拟短路故障，进行短路状态1～3的短路测试。其中，每种短路状态又可分两种短路情况（开通瞬间短路与导通期间短路），驱动波形如图13所示。本文短路状态1～3的短路测试中，开通瞬间短路是指上桥臂两个开关管开通瞬间，下桥臂有开关管同时误导通，即S1、S2开通瞬间，S3或S4或S3、S4同时误导通造成瞬间短路故障；导通期间短路是指上桥臂两个开关管处于导通状态时，下桥臂有开关管误导通，即S1、S2导通期间，S3或S4或S3、S4同时误导通所造成的短路故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hF0ic2txEQj7MByicwh9qxJShbib8eogQvQL8KHU22rnXia0VoF05nJjUoA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_014_cd7149ca92fe.jpg)
 
 图10 NPC三电平拓扑短路测试平台
 
 Fig.10 Short circuit test platform for NPC three-level topology
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hDfQribdrpZopBFzWHN1tUuGPjsmxqRU6zJCbibVjpaX2KtTiaDeciaXPXA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_015_54b21c60e04d.jpg)
 
 图11 短路测试电路
 
 Fig.11 Short circuit test circuit
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hfC7D5WjLBMG9fFY1Vz56D1ClZEWAhooalwKERlbbC3jlyXvCH5tjUg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_016_cb0e234832eb.jpg)
 
 图12 NPC拓扑的短路状态
 
 Fig.12 Short circuit state of NPC topology
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6h50lEKic3QWqszL1qiaDAd0SBIaouL9w0nw22PES0Siac42icqdAcDgsMSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_017_48b7b0781a93.png)
 
 图13 驱动脉冲设置
 
@@ -210,19 +210,19 @@ Fig.13 Drive pulse settings
 
 Tab.3 Short circuit test parameters drive circuit
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hkxaLduDLqzmpFN62okrgGW4Or10qEgQGF8acZG46icaL3QRIjFibZclA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_018_19e626710199.jpg)
 
 设定直流母线电压_V_DC\=1 500V，实验开始时，需对飞跨电容_C_SS进行预充电，使飞跨电容电压_VC_ss稳定于750V时再对母线电容进行充电，_V_DC\=1 500V时断开直流电压源，向SiC MOSFET发送脉冲信号，驱动脉冲设置如图13所示，内外管死区时间设置为100ns。由于所选SiC MOSFET模块的引脚短，难以用商用罗氏线圈测取其开关管电流，因而仅通过示波器观察其栅源极电压_V_GS波形以及漏源极电压_V_DS波形，同时观察飞跨电容_C_SS的充放电电流_IC_ss，测试结果如图14～图16所示。
 
 短路状态1～3中，SiC MOSFET保护关断时，其关断速度明显小于正常关断时的关断速度，例如图14c中，短路状态1导通期间短路情况下，_V_GS2的下降速度明显小于_V_GS3的下降速度，说明S2触发保护关断，芯片的软关断功能使能。因而可以通过观察SiC MOSFET的_V_GS波形来判断其是否触发保护。本次实验中，各个SiC MOSFET的电压过冲均小于250V，无过电压风险。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6hVMuw3XWILwQiaFdGXSHC4LPTYAzplibfb8avLXo8Mf1722w1VRmHJdbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_019_4a6ea930b8fa.png)
 
 图14 短路状态1测试波形
 
 Fig.14 Test waveform of short circuit state 1
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6h7ica589ksF70oazECljEtS3oIVaT99ZXZsYicjhDltlzsRL8qBlHeaRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_020_c61fbd2ba6c1.png)
 
 图15 短路状态2测试波形
 
@@ -230,7 +230,7 @@ Fig.15 Test waveform of short circuit state 2
 
 开关管保护关断，短路电流能够在短时间内下降为0。定义短路电流持续时间为短路保护时间，则短路状态1、2中飞跨电容_C_SS的放电电流、充电电流即为短路电流，而短路状态3中，由于飞跨电容_C_SS存在放电和充电两个过程，不能用其表示短路电流，仅记_C_SS开始放电至充电结束的时间为短路保护时间。短路保护时间与最大短路电流见表4，从图14～图16及表4可以发现，短路状态1～3的短路保护时间在2ms以内，且短路状态1、2的最大短路电流为1 500A，小于所选SiC MOSFET额定电流的10倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6h39BWLuV4Q3DwXibC5H7xqQYBIiaY2PehMdVnVicPonx46POfEk2qPzcDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_021_03adae66f291.png)
 
 图16 短路状态3测试波形
 
@@ -240,7 +240,7 @@ Fig.16 Test waveform of short circuit state 3
 
 Tab.4 Short circuit protection time and maximum short circuit current
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4mF2KzZZeXLHwNx5aIy6h2UfcNNWQERu6CQysELPPygbp9ueMtxzrLJrHlCsvLvnw4pGicXK9dGg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_022_a1ddf206eb9f.jpg)
 
 短路状态1的短路回路为图4所示的①，即为_C_SS\-S2\-S3\-_C_SS，实际处于短路状态的是S2、S3。图14为短路状态1测试波形，观察_V_GS2、_V_GS3波形可以发现，在开通瞬间短路情况下，S2、S3先后保护关断，避免了开关管损坏的风险。而在导通期间短路情况下，S3未导通前，S2的DESAT电容_C_B已经开始充电，因而在发生短路故障时，其DESAT电压相比S3更快到达阈值电压，S2率先保护关断，短路回路①被切除，S3 DESAT电压未到达其阈值，恢复正常导通状态，开关管无损坏风险。如图14b和图14d所示，S4被钳位二极管VDb所钳位，最大电压为880V，无过电压风险。
 
@@ -256,10 +256,10 @@ Tab.4 Short circuit protection time and maximum short circuit current
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_023_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_024_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\带飞跨电容的三电平拓扑中SiC_MOSFET过电压与过电流保护_images\img_025_84aa944feb13.jpg)

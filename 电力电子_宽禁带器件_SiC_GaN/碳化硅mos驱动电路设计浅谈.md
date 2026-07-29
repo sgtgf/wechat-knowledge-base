@@ -5,7 +5,7 @@
 
 碳化硅（SiC）MOS管作为一种新型功率器件---宽带隙（WBG）技术，在开发与应用中，相同功率等级的Si MOSFET与SiC MOSFET相比，SiC mosfet导通电阻，开关损耗低，工作频率更高，更适用高温工作，高温稳定性好。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1NBicEdrYMW1ymSpleC6wvlicibUEoztGHASqqZFaj63za3k81NWfJbwVhuSBGLhnIL5mtYL7cFvRg/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅mos驱动电路设计浅谈_images\img_000_6421ed7b75dd.jpg)  
 
 　　碳化硅MOSFET越来越多用于千瓦级功率水平应用，涵盖如通信电源，和服务器电源，和快速增长的电动汽车电池充电器市场等领域。碳化硅MOSFET之所以有如此的大吸引力，在于与它们具有比硅器件更出众的可靠性，在持续使用内部体二极管的连续导通模式（CCM）功率因数校正（PFC）设计，例如图腾功率因数校正器的硬开关拓扑中，碳化硅MOSFET可以得到充分利用。此外，碳化硅MOSFET也可应用更高的开关频率，因而可以实现体积更小，更加紧凑的电源转换器设计。
 
@@ -15,7 +15,7 @@
   
 图1：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1NBicEdrYMW1ymSpleC6wvjK9joOKia7iaNoLTSIrwnA8xAhtpwQqGWjAg0luiacpNrLZibaFCAbcbBQ/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅mos驱动电路设计浅谈_images\img_001_9bbb2c3c4a76.png)  
 
 二. SiC MOSFET驱动电压设置探讨  
   
@@ -60,8 +60,8 @@ SiC最大高温度200 ºC以上**
 
  六.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅mos驱动电路设计浅谈_images\img_002_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅mos驱动电路设计浅谈_images\img_003_770831a45f05.png)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/JiqkB6PhrWAFMA7YfsrSyA](https://mp.weixin.qq.com/s/JiqkB6PhrWAFMA7YfsrSyA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMptnGJmZZGl7dqtk3dic0Qp3NMmnqGibqicZrlRMgdiapf2XTvwhcpKuF7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_15_FDD_images\img_000_ea5e1ba5fa8a.png)
 
 ★★★__TCS-15---FDD____**★★★**__
 
@@ -11,7 +11,7 @@
 
 ___€1.FDD工作原理___
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSVG5bL7EEgjwmD4d5JG48325FJ0xwiaHEZ19mvgfpCv8jYYNTmOQ98NTglTr2zWjlzDQTUQFGcZjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_15_FDD_images\img_001_3a3acbe7f387.png)
 
 **_图15-1：FDD示意_**
 
@@ -31,7 +31,7 @@ ______€2.FDD___特点和应用___
 
 无线宽带接入：可用于提供固定无线宽带接入，满足家庭和企业用户对高速互联网的需求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSUhRSibfzRttrD36hxgcVPXNAjCCZfvvGZSsZpTy0ibWS9wthaHcruvjejlzdKWe27icSjiaIXfkxWicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_15_FDD_images\img_002_e9936dec9296.png)
 
 **_图15-2：一些FDD频段_**
 

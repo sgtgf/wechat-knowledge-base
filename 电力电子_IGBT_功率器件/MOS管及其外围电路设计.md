@@ -6,7 +6,7 @@
 
 全文框架
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9gxySgdfgpFv8MrTDbfePMeNu0muGs1W1IJxblDj7hquTAb3k4CXdQA/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_000_8feacc74b6c8.png)
 
   
 
@@ -27,7 +27,7 @@
 
 注2：Cgd，Cgs，Cds为mos管的三个寄生电容，在考虑mos管开关瞬态时，这三个电容的影响至关重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9XQvmu95RzSyWEmoD3Tm7GsN7XzoUzaLOe2S6DMbnf4OjJZd2e9kciaQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_001_de080563d1cc.png)
 
 图1 mos驱动电路结构
 
@@ -43,25 +43,25 @@
 
 当mos开通瞬间，Vcc通过驱动电阻给Cgs充电，如图2所示(忽略Rpd的影响)。根据图2，可以写出回路在s域内对应的方程:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9xXRYpCS6GRpX0VWIIo9uzWFa6uP4NjpFLRTnrb2LQEtNGh98vpzSOA/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_002_ccf4fc56eb9e.png)
 
   
 
 根据式(1)可以求解出ig，并将其化为典型二阶系统的形式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic937dsPStrSPb3ES60cFibG1kAj9xgzSv9vtSOJKutHSbcKfbdKSFf90Q/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_003_fdea5035c5ed.png)
 
   
 
 根据式(2)，可以求解出该二阶系统的阻尼比为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic91aoxKjGxBQibHib3jFIjnCzzIVpDrnqicJm5bI17DZoqdn6PZ5hX2R9vg/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_004_da9c65109056.png)
 
   
 
 为了保证驱动电流ig不发生震荡，该系统的阻尼比必须大于1，则根据(3)可以求解得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9iaM2f6VyA0OV9tok91iafNoCC0PZMZ26rxuTTHMTmic4aRUiayyPPmbarw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_005_2145fbcf5d7f.png)
 
   
 
@@ -73,7 +73,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9owUibUSdvdPhjU6dg5yIRXdV1GU5d1Lfq9tQNrwARgHPzkwiaicq8sc3Q/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_006_90ee108834f9.png)
 
 图2 mos开通时的驱动电流
 
@@ -93,7 +93,7 @@
 
 当mos管关断时，其DS之间的电压从0上升到Vds(off)，因此有很大的dV/dt，根据公式：i=CdV/dt，该dV/dt会在Cgd上产生较大的电流igd，如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9GHdMLqobX6ISo13oPNZxOUDlaMoxeg3yKH8x1dFe23b0chfIKo3K2Q/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_007_451f54a58639.png)
 
 图3 mos关断时的对应电流
 
@@ -103,7 +103,7 @@
 
 该电流igd会流过驱动电阻Rg，在mos管GS之间又引入一个电压，当该电压高于mos管的门槛电压Vth时，mos管会误开通，为了防止mos管误开通，应当满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9anUWzJu1GBom6OmHrvaGz3Vy1weaH7RxBZnqAThWlL5TianDgr2iaVvQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_008_3ee4914d2ada.png)
 
   
 
@@ -113,7 +113,7 @@
 
 从上面的分析可以看到，在mos管关断时，为了防止误开通，应当尽量减小关断时驱动回路的阻抗。基于这一思想，下面再给出两种很常用的改进型电路，可以有效地避免关断时mos的误开通问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9WibakTM0XjVc4QGUH4h50RklWVR59Nd2yKdFEKC04qgoH1vIXeoHkKQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_009_f2b1b923cf9f.png)
 
 图4 改进电路1
 
@@ -123,7 +123,7 @@
 
 图4给出的改进电路1是在驱动电阻上反并联了一个二极管，当mos关断时，关断电流就会流经二极管Doff，这样mos管gs的电压就为二极管的导通压降，一般为0.7V，远小于mos的门槛电压(一般为2.5V以上)，有效地避免了mos的误开通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic94Qljic5TSIgfAST818AjJbXJwYayOIbSQOIqf28Cw9FVprrMLU183yA/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_010_313b71642e02.png)
 
 图5 改进电路2
 
@@ -141,13 +141,13 @@
 
 根据1.1节和1.2节的分析，就可以求得mos管驱动电阻的上限值和下限值，一般来说，mos管驱动电阻的取值范围在5~100欧姆之间，那么在这个范围内如何进一步优化阻值的选取呢？这就要从损耗方面来考虑，当驱动电阻阻值越大时，mos管开通关断时间越长(如图6所示)，在开关时刻电压电流交叠时间久越大，造成的开关损耗就越大(如图7所示)。所以在保证驱动电阻能提供足够的阻尼，防止驱动电流震荡的前提下，驱动电阻应该越小越好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9QdM7dRT1xNvWax5pC7AqVBjKkPmA7AicZDcD7nI1VcFICnB51xSCVzQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_011_bb1eb347b43a.png)
 
 图6 mos开关时间随驱动电阻的变化
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9AClyDHUKk4N6A0ZPJgeHDF0SZJGumYAa3MvMSibf6RicVftPup30lq7w/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_012_3128ce78d711.png)
 
 比如通过式(4)和式(6)的计算得到驱动电阻的下限为5欧姆，上限为100欧姆。那么考虑一定的裕量，取驱动电阻为10欧姆时合适的，而将驱动电阻取得太大(比如50欧姆以上)，从损耗的角度来讲，肯定是不合适的。
 
@@ -167,7 +167,7 @@
 
 在mos管开通的时候，根据图2，可以得到mos开通瞬间的驱动电流ig为(忽略Lk的影响)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic995egChvBBPz5R1jlcJU6lH21O5XhziaOaMAwWQAmhbm0muzEdx4hhicQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_013_8f46d0cc37e5.png)
 
   
 
@@ -183,13 +183,13 @@
 
 驱动功率计算表达式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9AypRAE95AHqbNLezHPw0TgcDbdJsyJqdMT7WX18jxo37zX8e9uLKZw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_014_ef519339abc6.png)
 
   
 
 其中Qg为栅极充电电荷，可以在datasheet中查到，ΔVgs为驱动电压的摆幅，fs为mos的开关频率，在实际选择驱动芯片时，应选择驱动芯片所能提供的功率大于式(8)所计算出来的功率。同时还要考虑环境温度的影响，因为大多数驱动芯片所能提供的功率都是随着环温的升高而降额的，如图8所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9NQUM9MufDIruSOgqx7hUu4w86JqKUOIqgUERaLcZejw6zkHibGbich1g/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_015_570266d0cd1b.png)
 
 图8 驱动允许的损耗功率随着环温升高而降低
 
@@ -203,7 +203,7 @@
 
 所谓传输延迟，即驱动芯片的输出上升沿和下降沿都要比起输入信号延迟一段时间，其对应的波形如图9所示。对于传输延迟来说，我们一般希望有两点：1)传输延时的实际要尽量短。2)“开通”传输延时和“关断”传输延时的一致性要尽量好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic97HvoSSpwGF2arPB0Uk47Jp4xX5qz9k31a2ep4k5fRiapXN4TDVMF7hw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_016_1a14f36d14a2.png)
 
 图9 驱动芯片输入输出传输延时
 
@@ -211,7 +211,7 @@
 
 下面就针对第二点来说一说，如果开通和关断传输延时不一致会有什么影响呢？我们以常用的IGBT驱动，光耦M57962为例，给出其传输延时的数据，如图10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9ogDXIW0LWWUVShEyv67SwwfTic6BEoegC3ib3KUhZ76HiaQYcAIsRtDWw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_017_c168349905b4.png)
 
 图10 M57962的传输延时数据
 
@@ -238,7 +238,7 @@
 
 **外围保护电路**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9nNXNySKxV4ic0kYwCDtalZialosTohBgV4NOKDa08mibpD667Iy3k0Hzg/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_018_76f11702523b.png)
 
   
 
@@ -265,7 +265,7 @@ C11，R8和d5作用：MOS有分布电感，关断时会有反峰电压。Rc部�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9NNKQdiaRCLz2HWUuRcY0UrxEqJpp8vibrnE5sveMofAXwicKIb6lJlGTQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_019_24e3fa56aacb.png)
 
   
 
@@ -279,7 +279,7 @@ C11，R8和d5作用：MOS有分布电感，关断时会有反峰电压。Rc部�
 
 效果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic98lG2d5wxbiciaPHrXjNJbEeQPq9vXK0hNclqh07bS20s6z874aXPB69g/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_020_79a1d31444b5.png)
 
   
 
@@ -291,7 +291,7 @@ C11，R8和d5作用：MOS有分布电感，关断时会有反峰电压。Rc部�
 
 两电阻示意图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9YFbicKNMEibQPiaBkrFSICAjmvZJL56ZBpPPyvMBwZ2ibmYqa428iamACdA/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_021_920313733fb0.png)
 
   
 
@@ -301,7 +301,7 @@ C11，R8和d5作用：MOS有分布电感，关断时会有反峰电压。Rc部�
 
 下面是振铃的幅度以及能量的损耗示意图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9eTKElCAW7dhpWk0XF2OB2sP2keD0dSP5PJMibVbC00thpbXCjK4MUKg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9WR95SK6JNfIJWavoZd96iaY69oicvOyJ95f1PfpqLBydo7r2FrowrNdQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9icAojejy7O1kib95SqntTO5xdqBboV7Qb0bUvWp1xRkuAOd6mIGMPdQw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_022_9dabd70618e2.png)![](MOS管及其外围电路设计_images/img_023_a6fe5963bbcf.png)![](MOS管及其外围电路设计_images/img_024_d6a7ad0399f5.png)
 
   
 
@@ -313,7 +313,7 @@ C11，R8和d5作用：MOS有分布电感，关断时会有反峰电压。Rc部�
 
 示意图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9P7AhlDMoibowOKeccQ4LY6yAC2ZmBjQTxu3vvyqCUJwlibRGmY08iadjQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_025_36bbce2ebd8c.png)
 
   
 
@@ -323,7 +323,7 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9MYfYyvSJ7hb7SZSkTQEEo0RDz2T6IAiauI23L5jGqY9cD18ia9qKU1zQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_026_ba4683be7c9c.png)
 
   
 
@@ -331,7 +331,7 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic93PzibFG4UgLf89PtjzicicajkLKHDgtNxeoJMk8hzs2JkjjA1rJcteOSg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9WFEpCs371Ieic6xWAeyibPmy9tKO0JNfFVanUJwZU14mor1dBS7m1dicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\MOS管及其外围电路设计_images\img_000_1e948c5a75c2.png)![](MOS管及其外围电路设计_images/img_028_0d5f4d947b76.png)
 
   
 
@@ -345,7 +345,7 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9qc9EXufptgjqfib7BFniaj1qGWbcOZ3vWBAaS1WunbF4iahiazwQnqoSVQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9xFiawhoZ7gJHuSAQzP3Rg7czXd6iaibC3ha2MLIDGxjqlibEpTOQ3pvQVQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9Aq5TbCoJBkgaJmBMnIibLUaUQhSGpaKAHYm7g5bAlCA0YkgSibmqVCwg/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_029_0008776b1c91.png)![](MOS管及其外围电路设计_images/img_030_7d35be3254b2.png)![](MOS管及其外围电路设计_images/img_031_01a34a90af0a.png)
 
   
 
@@ -361,7 +361,7 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9QQLJt4QTnn8V2DbDPukH28MiaQDa1ASmO3Iffe5nA5mZLVMU64XVkSw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_032_1a548c44985d.png)
 
   
 
@@ -369,7 +369,7 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
 高频振铃严重
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9JlV17yM9Vpe2lIiaBDj3DnKVel5h8GPfibvHb3HBicCR6NzKBaZE3gbAw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_033_e7a27fde2ac8.png)
 
   
 
@@ -379,11 +379,11 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9DGEg3zR69OAlkpCAGYb1kXMTXedKAbBcWicrh4lBofGic7DqYGxOBAMg/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_034_3c8bb4c40bbe.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9kTpicykbdUWvhQqnKYwqDUicTOQ1TqwSfD7eZia3KxyfBfaicFBuhVOnxg/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_035_52c0520fbb17.png)
 
   
 
@@ -393,15 +393,15 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9JiaMrQhgQeHZbm0z0MrObpFcGxrD04b4SnXIs3nYvGRPOOicUiaibuE6Iw/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_036_1fabee2d535a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9EAiaUPwEFyyEBxfV33iaO64iay4Ioulee5jRdtUr6VEUEWDokYS6kwYLA/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_037_42df6e4a3d7c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9YSdnkjXke3fO7KYxaqgmVStcCmu8OBiaOhiaPJLs1WMtz6VpVzo5E9xQ/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_038_1df8de0eedba.png)
 
   
 
@@ -411,7 +411,7 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic95YSJoI20dZpKD7V8lfuJOhkXaSEu9lxQicgYTsAlDrloBnKS94ElBAA/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_039_d7535039f135.png)
 
   
 
@@ -421,7 +421,7 @@ RC的选择可以根据示波器上测出的振铃频率计算：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGaHuRNcia4PzMUnCKn1yic9tWb0aibqyDiczCtzJcjk7bFTo6DAbuPM2asxKsUqW6zJcAXX1OKcqic5w/640?wx_fmt=png)
+![](MOS管及其外围电路设计_images/img_040_3873f324862c.png)
 
   
 

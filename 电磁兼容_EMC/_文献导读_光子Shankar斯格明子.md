@@ -39,7 +39,7 @@ s：归一化光子自旋密度（垂直偏振椭圆平面）。
 
 三者两两正交，对应三维空间旋转坐标系，唯一匹配SO(3)群元素。因π\_3 (SO(3))=Z（整数拓扑电荷），该序参量可形成稳定三维拓扑构型——Shankar 斯格明子。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsA4S7Sm0VESuZ6icSc8cYtbZhJJ8OzfswwicHwHNGkJkZG7MyvavdJaLmic1ZN2mfxPOVQZNEXePTFhciayoS9ACjD0cLP07NlCQbE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_光子Shankar斯格明子_images\img_000_0a396f7d63d3.png)
 
 图1 单色光中的光子Shankar斯格明子。(a) 自旋密度指向(1,−1,0)方向的环（绿色）以及沿该环的三矢量组纹理。三矢量组沿环旋转4π。插图显示了该三矢量组的定义。(b) 自旋密度指向(1,−1,0)方向（绿色）和(−1,1,0)方向（紫色）的两个环。(c) 光子自旋密度的分布，形成霍普夫子纹理。
 
@@ -49,13 +49,13 @@ s：归一化光子自旋密度（垂直偏振椭圆平面）。
 
 研究团队通过多模式拉盖尔-高斯（LG）光束叠加，构造紧聚焦单色光场，满足麦克斯韦方程，成功生成拓扑电荷Q=-1的光子Shankar斯格明子，场分布公式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBAoyl5YPCoH14G64X0XTiahWXUqySgZzqmEB8ick75NLtQTuL9iaSScInUbSDcssUZQibYppfB5t1oEeQEGc15Rrt4mMQZELJicdmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_光子Shankar斯格明子_images\img_001_f9fea089aefe.png)
 
 其中LG(p,m)^(R/L)为右/左旋圆偏振LG模式，p为径向指数、m为角向指数。
 
 其有两个重要特征：1.三元组分量（如自旋密度s）的空间分布，天然形成霍普夫子纹理，对应霍普夫纤维化闭合链接环路；2.沿任意自旋取向固定环路，三元组完成4π旋转，形成Anderson-Toulouse涡旋，核心无场奇点（区别于传统光学涡旋）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsAgUM0bWhOTicaenP9nDXWYUNKkfXYtuISJ6b5lib501ibG3icuwPYBwLDrJEWiaZruE0XZFibFmTfTpwTOcM4YXyFZZgwur4BfleGEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_光子Shankar斯格明子_images\img_002_20499fc29d8e.png)
 
 图2 Shankar斯格明子的场分布。(a) 包含一个荷为2的涡旋环的RCP包络ur示意图。(b) 包含一个荷为2的涡旋线的LCP包络ul示意图。在(a)和(b)中，箭头表示相位增加的方向。(c)-(e)上述方程定义的场的ur, ul和uz的复振幅。在每个图中，最大振幅归一化为1。白色虚线表示∣ur∣=∣ul∣的位置。
 
@@ -65,7 +65,7 @@ s：归一化光子自旋密度（垂直偏振椭圆平面）。
 
 奇点线在三维空间坐标(x,y,z)+调控参数d构成的四维空间中，形成连续二维曲面，命名为L^T 曲面，突破传统光学奇点（零维奇点、一维奇点线）维度限制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAkQicMfVp5ibdHeicsCJIGW2ddlEKgm3FF6yc1HyficUGPrcQ9t5VgIEIMDicZXhNorNHWX038MKj69gdicQaGB6t79QLPEao3LzEzk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_光子Shankar斯格明子_images\img_003_e6753d95c3a6.png)
 
 图3 拓扑相变期间的光子自旋奇点。(a) 当d=1.0时三维空间中的奇异环。插图显示了在奇异线附近，即(x,y,z)=(1,0,0)λ附近的三矢量组纹理。(b) 由xyz和d张成的四维空间中的奇异曲面。d的值由颜色表示。
 
@@ -75,7 +75,7 @@ s：归一化光子自旋密度（垂直偏振椭圆平面）。
 
 引入时空关联条件：v\_g⋅(k\_z-k\_0)=ω'-ck\_0，精准控制传播群速度v\_g （实验演示v\_g=0.3c，c为真空光速）。对多色脉冲，推广SO (3)序参量定义（实电场 + 矢量势 + 自旋密度），保障传播稳定性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBIGOsJvoHHYLYz1eiaibrItEPzrDHGrkgsBmcOeWtbuMzKBDy9RgnqicMU93HQj9uBasyEgOLaTS3xuM9XIhPJib38S7nyaCo7nTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_光子Shankar斯格明子_images\img_004_da4ebe26409c.png)
 
 图4 飞行的拓扑准粒子。对于以速度vg=0.3c沿z轴移动的光子Shankar斯格明子，在时间t=(0,12,24)λ/c时xz平面上的光子自旋密度分别在(a)、(b)和(c)中显示。自旋方向用各种颜色表示，使用与图1相同的方案。
 

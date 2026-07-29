@@ -21,7 +21,7 @@ colorbar
 
 运行结果如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrrrU8mYswMKa9Z8g3sPs3BJmPsial8ribtMTx2MybeicDbtzuRp4aON1jKR0UYYCeXvkia8tvrl5Q4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\为矢量场_上色__MATLAB自定义彩色箭头图_images\img_000_3cf2ad107804.png)
 
 【customcolormap函数下载地址】
 
@@ -41,7 +41,7 @@ quiverC2D(zz,rr,,Ez./nE，Erho./nE,nE,1.5)%nE=sqrt(Erho.^2+Ez.^2)
 
 运行结果如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrrrU8mYswMKa9Z8g3sPs3Iia1UzmSKRibZr1MiaRyN6RL9XfM33EJ0SJmibjXzvNQ5U8xS8XdQ06JQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\为矢量场_上色__MATLAB自定义彩色箭头图_images\img_001_844c44581bd3.png)
 
 3、在三维空间中绘制斯格明子时，我们希望能将展示出某个面上的电场分布E(x,y,z),并将归一化的纵向电场Ez(x,y,z)值域与颜色相映射，我们可以使用quiver3CD这个函数，代码如下：
 
@@ -51,7 +51,7 @@ quiverC3D(xx,yy,zeros(size(zz)),Fx./F,Fy./F,Fz./F)
 
 运行结果如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrrrU8mYswMKa9Z8g3sPs3wn9IBxlEia4WIESzC0AIfVtrR1TfoKicqA4zd9ynUmYeAvTzpcEAcsoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\为矢量场_上色__MATLAB自定义彩色箭头图_images\img_002_9702148780fd.png)
 
 【quiverC2D/quiverC3D函数下载地址】https://ww2.mathworks.cn/matlabcentral/fileexchange/58527-quiver-magnitude-dependent-color-in-2d-and-3d
 

@@ -23,11 +23,11 @@ SiC 宽禁带半导体器件经过 20 多年的研究与发展已经开始逐渐
 
 SiC MOSFET 与 Si IGBT 都属于电压控制型器件，其开通特性也与 Si IGBT 类似，在开通和关断的过程中，驱动电路必须对寄生电容进行快速充放电。图 1 为 SiC MOSFET 开通和关断波形，图中 VDS为漏源电压，ID 为漏极电流，VTH为触发阈值电压，t 为开关时间。通过对 SiC MOSFET 开关波形的分析可知，若要使 SiC MOSFET 正常地开通和关断，驱动电路需要合适的驱动电压和足够的栅极驱动电流; 触发脉冲的上升、下降速度要快; 尽可能小的驱动回路阻抗，开通和关断时要能对栅极电容进行快速充放电; 尽可能小的驱动回路寄生电感; 关断时能提供负压，防止器件误导通［17］。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8A4ybgDicL1JG0kx1kmBzmdgmFtbfUS0EwpXvnloQTyKYE886BDCawkYg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_000_6976b4ce67d7.png)
 
 SiC MOSFET 驱动电路的设计要点是驱动电压和开关速度。一般 IGBT 的驱动电压在±20 V 以内。但 C2M0280120D 的 1 200 V SiC MOSFET，其开启电压虽然只有 2\. 5 V，但是只有当驱动电压到 16 V时，其才能完全开通，所以常规的 IGBT 驱动电路不能直接用来驱动 SiC MOSFET。另外，由于栅极电容的影响，在开关频率较高的场合下，必须充分考虑开关频率 ( fS ) 对栅极平均驱动功率 ( PAV) 的影响。PAV可以表示为［18］
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8Aibnfa5CgCVLudbPBbGtHKxicmJxrpA7SCdLfMKZBRibHrJEH5GfCyT4yw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_001_3b71966fb1ef.png)
 
 式中: QG 为栅极总电荷量; ΔVGS为栅极驱动电压变化量 ( 栅极驱动正、负电压的差值) 。
 
@@ -35,27 +35,27 @@ SiC MOSFET 驱动电路的设计要点是驱动电压和开关速度。一般 IG
 
 设计驱动电路时首先要考虑驱动电压和驱动功率。为了保证开关速度并防止 VGS被击穿，选择栅极开通电压为+20 V，关断电压为－4 V。采用金升阳公司的 QA2401C 电源模块获得所需电压，即方波电源经过整流后变为+24 V，再通过 QA2401C 得到所需的+20 V 和－4 V。QA2401C 的功率为 2 W，隔离 电 压 为 3 500 V，由 式 ( 1 ) 得 出 型 号 为C2M0280120D 的 SiC MOSFET 在 500 kHz 频率下工作时所需的栅极平均驱动功率约为 0\. 49 W，所以该电源模块满足需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AEC1b0DFlA9pWmYtHpBB1fDMEpV27JMVVpReEL0IGric62gzx0bic6V7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_002_9e39a536e2b5.png)
 
 采用 IXDN609 型驱动芯片，其输出电压范围较宽，为 4\. 5 ～ 35 V，驱动能力比较强，峰值驱动电流可以达到 9 A，输出电阻约为 0\. 6 Ω。为了实现控制信号与主功率回路的隔离，采用 Avago 公司的 HCNW2611 型光耦隔离芯片，电路如图 2 所示。根据以上分析设计得到的栅极驱动电路框图如图 3所示。为了防止驱动电压过高或过低给 SiCMOSFET 栅源极造成损坏，在输出端加了 2 个限幅二极管。同时为了防止栅极过压，添加了 2 个箝位二极管。在光耦芯片和驱动芯片间加入一个与非门，使栅极电压在未接收到触发信号时保持负压。
 
 **1\. 3 驱动实验及结果分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AxxU5fmYQ6legcTpOfDfibzg5pWpdrOrsmjdH6O9zFaOtj5dTj5WptYQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_003_65f99125a53d.png)
 
 图 4 为双脉冲测试平台原理图［19］，图中 U 为母线电压，L 为电感负载，t1 和 t3 分别为双脉冲第一、第二个脉冲的时间，t2 为间隔时间，ID 在实验中利用罗氏线圈测量。该平台用于测试所设计的驱动电路，选择 C2M0280120D 型 SiC MOSFET。二极管为 CＲEE 公司的 C4D02120 型 SiC 肖特基二极管，反向截止电 压 VＲ = 1 200 V，额定导通电流IF = 10 A，导通压降 VF = 1. 6 V。测试提供母线电压 600 V，t1 和 t3 分别为 32 和 10 μs，t2 = 10 μs，ID = 6. 5 A。
 
 栅极驱动电阻 ( ＲG ) 的大小直接影响着 SiC MOSFET 开关时间的长短，ＲG 小则开关时间短，ＲG 大则开关时间长。但是如果 ＲG 过小，开关速度过快，会造成驱动回路驱动电压和主回路电压、电流的振荡，对器件带来负面影响，情况严重时会损坏器件。因此选择合理的 SiC MOSFET 驱动电阻显得尤为重要。本次实验中为了避免开关速度过快，同时又能得出理想的实验结果，分别取 ＲG 为 10，15 和 27 Ω。为了使实验的其他量保持不变，设ID = 6. 5 A，可以得到脉冲宽度 T，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AibDpUU37ljEv7wFTHvbEee0z0U4N4Y2z7nFoOYCo8nsO0v4wLSAjOPg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_004_2f19946c609b.png)
 
 图 5 ( a) ～ ( c) 分别为不同栅极驱动电阻时SiC MOSFET 的开通波形图。从图中可以看出，随着ＲG 的增大，开通时间逐渐变长，电流振荡逐渐减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AtlO6votRYhwNicd7ZcRicv2ya5ffPrxJnXOMmWDnStYk1K4g7roZCWibQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_005_83189b5ee42a.png)
 
 图 6 ( a) ～ ( c) 分别为不同栅极驱动电阻时SiC MOSFET 的关断波形图。从图中可以看出，随着 ＲG 的增大，关断时间逐渐变长，关断电压和电流振荡逐渐减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AY3nf1Qp3Z1G99rdT2UVKB8BlU42kbuSZsmOm8AV2ia6aNDHAiamD5Mxw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_006_f455080d96f1.png)
 
 **2  SiC MOSFET 特性分析**
 
@@ -63,37 +63,37 @@ SiC MOSFET 驱动电路的设计要点是驱动电压和开关速度。一般 IG
 
 根据 Si IGBT 和 SiC MOSFET 额定电压和额定电 流 相 同 的 原 则， 选 取 了 C2M0280120D 和FGD5T120SH 两种模块。表 1 是采取这两种模块的器件参数，表中 VCE，sat为饱和压降，IC 为集电极电流，θC 为模块工作温度，ＲDS，on为导通内阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8Ag7edt28rfqaFwibKod7d9XTEL8RddialESBSqDyxgavssEOMzUWjUq5w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_007_08eac559fd6c.png)
 
 图 7 ( a) 和 ( b) 分 别 为 C2M0280120D 型SiC MOSFET 和 FGD5T120SH 型 Si IGBT 在栅极驱动电压变化时的 I-V 输出特性曲线，图中 θj 为模块结温，tp 为单脉冲宽度，VGE为 IGBT 的栅极驱动电压。C2M0280120D 型器件的 I-V 特性曲线斜率在VGS＞ 16 V 之后变化较小，如图 7 ( a) 所示。而FGD5T120SH 型器件的 I-V 特性曲线斜率在 VGE ＞11 V之后变化也很小，如图 7 ( b) 所示。对于跨导而言，C2M0280120D 型器件的跨导 系数 ( gfs )小，沟道迁移率最低，此时为了使导通电阻低，必须使其驱动电压高于 18 V。同时，由于两种器件的跨导不同，FGD5T120SH 型器件的可变电阻区与恒流区有明显的拐点，而 C2M0280120D 型器件则没有。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8A1vHNY47rtOb3HJmibBBMtqBVdEsiceOBzxpibFKdib3gwsJyrss3Od9hgQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_008_26b6a93e5b21.png)
 
 图 8 为 C2M0280120D 型器件的 Ciss、Coss和 Crss随 VDS的变化曲线 ( 图中 VAC为该器件的交流电压) 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8A6hAA5pQNicUxdhC03icPRoeUJcX0cyFvrUOZP6VPydj2hyicwaKlltG6Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_009_fffa2dbcc39d.png)
 
 图 9 为 FGD5T120SH 型器件的 Cies、Coes和 Cres随 VCE的变化曲线。图中 Ciss、Cies分别为 MOSFET 和 IGBT的输入电容，Coss、Coes分别为 MOSFET 和 IGBT 的输出电容，Crss和 Cres分别为 MOSFET 和 IGBT 的反向恢复电容。可以看出，Ciss ＞Cies，FGD5T120SH 型器件对 VGE的响应更快，开关速度更快，但驱动损耗小;Coss＞ Coes， Coes 储 能 更 小;Crss＞ Cres，FGD5T120SH 型器件的 VCE的米勒平台时间短，关断时电压随时间的变化率 ( dv/dt) 更大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AoUmKm7VWHBwat8ichghUqR0cibsADEzgGjDQbIicLfKZHVicNaMhUjCDWw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_010_c636a33b161c.png)
 
 **2\. 2 开关特性**
 
 开关特性的比较也是基于上文的双脉冲测试平台，FGD5T120SH 型器件的驱动方案采用与上文类似的电路，只需将驱动电压改为开通\+ 15 V 和关断－8 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8ASvfibOgxbAGlLolzT8sG9Sp4S4hia67u4zXfln6qLH6rAiaxvzkHKlDtQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_011_7bb005129b1f.png)
 
 图 10 ( a ) ～ ( d ) 分 别 为 FGD5T120SH 和C2M0280120D 型器件在栅极驱动电阻为 5 Ω、输出电流为 6\. 5 A 时的开通、关断波形图。通过与图5、图 6 的 C2M0280120D 型器件开关波形对比发现: FGD5T120SH 型器件的开通曲线平滑，对于VGE反应速度更快，存在拖尾电流。C2M0280120D型器件存在开通延时并且电压、电流抖动严重的问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8Aa7KKW2yFewvCbia4AupiatkxiapeIciaSXicibuHN5Q5iaibUWv77537icDl2yA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET_驱动电路设计及特性分析_images\img_000_8a86875f4c1e.png)
 
 图 11 ( a) 和 ( b) 分别为 C2M0280120D 和FGD5T120SH 型器件的开通、关断延迟时间 ( td，on和 td，off ) 随栅极驱动电阻的变化曲线。从图中可以看出，两个器件的开通、关断延迟时间均是随着ＲG 的增加而不断增加。C2M0280120D 型器件的开通和关断延迟时间比 FGD5T120SH 型器件的长。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8A9j6qLPuRLSuHoXc9z7BHMKSp6ALuryulxRCKLgD1KYbsapXJekos9w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_013_e6a873ba0ea8.png)
 
 图 12 ( a) 和 ( b) 分别为 C2M0280120D 和FGD5T120SH 型器件的开通、关断损耗时间 ( tl，on和 tl，off ) 随栅极驱动电阻的变化 曲 线。C2M0280120D 型器件由于开通时电压、电流振荡导致其开通损耗的时间更长。而 FGD5T120SH 型器件由于其拖尾现象更严重，导致其关断损耗时间更长。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8A5dhSiaGr0icFRBQ6tL3ROfjfaTqnQAvKuhEJMfQIbsqBve9YMattN65A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_014_a08f38258a42.png)
 
 图 13 为 C2M0280120D 和 FGD5T120SH 型器件在 ＲG = 27 Ω 时，开通时的 IC 和 ID 随时间变化率( di /dt) 的变化。在双脉冲实验中，通过调整第一个脉冲时间宽度来调整输出电流大小。从图中可以看出，开通时，C2M0280120D 型器件的电流变化率比 FGD5T120SH 型器件的大。
 
@@ -103,10 +103,10 @@ SiC MOSFET 驱动电路的设计要点是驱动电压和开关速度。一般 IG
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_015_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_驱动电路设计及特性分析_images/img_016_3ade3c3d8599.jpg)![](SiC_MOSFET_驱动电路设计及特性分析_images/img_017_84aa944feb13.jpg)

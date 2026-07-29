@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QcE7qS4UrANEBpsYZOia8bMELRQTBibhEXicCQWSRr3xxl5wVSAIdibxnH3TBxZQ7A1csWDrPZ3xHxiaA/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QcgRMqgxDJ4LsHHM4ulFQp6FSzyYUD6ibnLP5hmU8WJicXZK76zQ2Hc6FSNxxbMPQhC6jvsxRsBfibQ/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](上海交通大学江凌峰_龚邻骁_等_基于遗传算法的多模块IPOP双有源全桥DC_DC变换器总电流有效值优化策略_images/img_000_f4caa04a71ba.png)](https://www.fafee.org.cn/)
+[![](上海交通大学江凌峰_龚邻骁_等_基于遗传算法的多模块IPOP双有源全桥DC_DC变换器总电流有效值优化策略_images/img_001_159c1ef65249.png)](https://www.acces.org.cn/)
 阅读提示：本文约 2500 字
 > 近年来，随着电动汽车充电桩、储能系统功率的不断增加，采用单DC-DC变换器模块已经无法满足指定功率或电压输出。在实际应用中，通过将多个DAB变换器并联的方式，可以满足大功率输出的要求。然而由于生产工艺，以及产品的不断更新换代等原因，各个模块的参数，特别是辅助电感，会有一定的差异，从而导致运行特性的不同，而让电气参数不同的模块平均分配系统的功率并无法实现系统的效率最优。为此，上海交通大学新能源与汽车电子实验室团队通过研究多模块DAB变换器并联中辅助电感差异对电流有效值的影响，提出了一种基于遗传算法的多模块DAB变换器系统总电流有效值优化策略。并且搭建样机验证了策略的有效性。
 **研究背景**

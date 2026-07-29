@@ -29,7 +29,7 @@ USB-C3支持30W快充，USB-A口支持22.5W快充，使用USB-C1和C3接口时�
 
 需要科普的是，氮化镓和碳化硅虽同为第三代宽禁带半导体，但特性上有所区别。氮化镓具有较高的热导率和较低的电阻率，而碳化硅则具有较高的耐高温性能和硬度。 正因碳化硅高热导性、高击穿电场强度及高电流密度的特性，基于碳化硅材料的半导体器件可应用于汽车、充电设备、便携式电源、通信设备、机械臂、飞行器等多个工业领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbrskTHxXKVo73bMVxBx7ib0oZTAzDEnBkqDqib9DBzFnTpu2Q2qyeRHIg/640?wx_fmt=jpeg&from=appmsg)    机身正面中心印有PHILIPS品牌，右下角则印有SiC和200W标识。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_000_ccb4bf52274e.jpg)    机身正面中心印有PHILIPS品牌，右下角则印有SiC和200W标识。
 
 **充电器参数特写**
 
@@ -71,27 +71,27 @@ Type-C1+Type-C2+(Type-C3+USB-A)：100W+70W+15W（185W）
 
 充电器通过了CE认证，以及VI级能效认证。
 
-                        ![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmnu0jhGeBDCibW1BkKCPGIdzQG20WDHtkun2Mj0caOEDcDibIhb5qABVQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  输出端配置3C1A四个USB输出接口。
+                        ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_001_4877a8435621.jpg)  输出端配置3C1A四个USB输出接口。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmeY84OApfEAy8SDnNpyDKvJe73C5LGZmsl7XpU4rX8Kmz0YWmJU1ogQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_002_d1a2f81bdcf0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmib24THcObF4onOQubezoicD7tvuusxacl4Dw7jN7GnGPPjPnqg3w6WXw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_003_e0ba1a7a05c8.jpg)
 
 通过对这款充电器PCBA模块的观察发现，飞利浦200W快充充电器采用PFC+AHB非对称半桥架构，固定电压输出。输出采用三路独立的降压电路，由协议芯片实现各个接口的独立快充输出以及功率自动分配。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmR0rDosbxw0WjibSfXpia4oIhBeZuBNM1a5vmC0y0YtpbaPIYI5NsvMnA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)PFC开关管采用碳化硅MOS管，来自爱仕特科技，型号ASR80N1200MD02，耐压1200V，导阻80mΩ，具备快速开关能力，高阻断电压能力，具备低电容和低导阻，采用TOLL封装。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_004_ebb1e291bfc1.jpg)PFC开关管采用碳化硅MOS管，来自爱仕特科技，型号ASR80N1200MD02，耐压1200V，导阻80mΩ，具备快速开关能力，高阻断电压能力，具备低电容和低导阻，采用TOLL封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbbrVFib9KbibzphiaFfSMjtVnYdPgxIvtibWWe8CP3icwZspkpD4xmxvLicjA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_005_1f4ca0bb0b67.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKboajG1TVkKUIwbxNPUIficXiaWNIxQle5fra67dg9icy9BTjficrQNWibNGQ/640?wx_fmt=png&from=appmsg)爱仕特 ASR80N1200MD02 资料信息。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_006_602da1b51a5e.png)爱仕特 ASR80N1200MD02 资料信息。
 
 **全部拆解一览，来张全家福**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKb3GwcJyJSjJfFicZuxtMzXcHp5Ej1HiaGYZDFtY9zgV0koOQehicjATHHw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_007_c119d4de7d75.jpg)
 
 **充电头网拆解总结**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmlHs6xf4CywZ1bNSjht9thlClQRt7TicxUL69eHiaSaxWWx2P2S5FCw8w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_008_ad6031b14741.png)
 
 最后附上飞利浦200W快充充电器核心元器件清单，方便大家查阅。
 
@@ -111,36 +111,36 @@ Type-C1+Type-C2+(Type-C3+USB-A)：100W+70W+15W（185W）
 
 自主设计碳化硅MOS芯片，采用6吋芯片研发和生产碳化硅MOS单管和模块，耐压650V-1200V-1700V-3300V,电流：1A-150A,自建晶圆厂。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbQ4aB3tSURpZYKBYrD2NLmx7THfvWxH21zrckrxCcalL7cqCiayiaiaqow/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_009_2b4fb2a4123b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKb1cPgFUAEwQh3baJTwnnR9QSX5qtjZoCE2ShxclkgDl5SEKBSo2z0jQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_010_f9a3bf7cd73f.jpg)
 
 **2\. SiC MOSFTE**
 
 采用自主碳化硅MOS芯片，研发和生产碳化硅MOS单管，耐压650V-1200V-1700V-3300V,电流：1A-150A。产品封装全，可定制产品规格。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbzSNaChoo9ehnzOibTKejdnP5ib7aJ3CR9mcM9FW39DX3PQhR3zQIIWjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_011_74501823862e.png)
 
 **3.碳化硅功率模块**
 
 采用自主碳化硅MOS芯片，研发和生产碳化硅功率模块，耐压650V-1200V-1700V-,电流：30A-800A。产品封装全，可定制产品规格。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbm1fyRpUvYck2aSRs95CoGibVLbTyat8VgFDvcRibia807wcUHic4tzuWMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_012_3adb2a598de0.png)
 
 **4.碳化硅器件在PD快充中的应用**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbwGUhgRgVMp7PU9yKPsYRQ6kxiavZEExTicF7ljZgsyXAialibL0QHdGItg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_013_474762ec2bb9.png)
 
 **5.产品与优势**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbvkibh4tQVhebyZXHPDjib0C68Hebicj0kjEavL20PSVDmsZZnHnFPpicjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_014_f0b907154bfb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKb2QEfNKibGicJJ9UHrSPlqj5iaOa4Mw2wBVWrq9SHcBJR798pibjickyGaOg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_015_b43000266826.jpg)
 
 **碳化硅器件因其出色的耐高温、低损耗和高效率特性，被视为新一代功率器件的理想选择。随着快充、新能源以及电动汽车等领域的蓬勃发展，对高性能、高可靠性功率器件的需求不断增加。传统的硅基器件难以满足需求，因此对碳化硅的需求进一步增长。特别是在高功率应用场景中，碳化硅器件的渗透率正在逐步提高，早在2022年国内碳化硅市场规模便达到数亿美元，为此文中提到的多家功率器件企业紧抓市场需求，相继推出各种高性能、高可靠性碳化硅解决方案，助力厂商推出更多高效、高功率密度的快充产品。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_016_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_017_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\飞利浦200W充电器内置车规级碳化硅SiC_MOSFET_爱仕特科技_images\img_018_84aa944feb13.jpg)

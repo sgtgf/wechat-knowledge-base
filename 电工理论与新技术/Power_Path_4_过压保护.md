@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/r\_6-otiLPJF0DisW6Dg7lg](https://mp.weixin.qq.com/s/r_6-otiLPJF0DisW6Dg7lg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSF5p3B9CT37G6FoRib2Fnfiba5exmWwdjbK7R73MfKMfrpY9ZwrbP3bmgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_4_过压保护_images\img_000_83f0e2df0006.png)
 
 ____**★★★**______Power Path-4---过压保护______**____**★★★**____**____
 
@@ -39,7 +39,7 @@ _过电压锁定_
 
 过电压锁定（也称为输出电压截止）是两者中更简单和更常见的保护方案，具有过电压锁定功能的电源开关通常有一个OVLO引脚，通过一个可配置的电阻分压器监测输入电压轨。一旦OVLO引脚的电压超过一定阈值，内部比较器关闭通过MOSFET，**_图4-1_**是过电压锁定电路实现的典型简图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYUqo2xS1aGy34sDTFokyr5tG5E7P2oeCH1k108xXfxgkfribSLUfqm5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_4_过压保护_images\img_001_dfdc3a6540dc.png)
 
 **_图4-1：过电压锁定方框图_**
 
@@ -47,7 +47,7 @@ _过电压锁定_
 
 **_图4-2_**显示了eFuse的过电压锁定操作。过电压锁定设定点为17V，对12V标称工作电压施加18V的过电压。一旦输入电压上升到设定的阈值以上，内部场效应晶体管FET就会关闭，Vout缓慢下降，在FET关闭后，FLT会发出故障信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXwDI0WqZShHYczjCoHSWbvvjiavY5FVEvOiaicGk8UEicBibgOGbLOzDMhiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_4_过压保护_images\img_002_7d7952280539.png)
 
 **_图4-2：eFuse的过电压锁定响应_**
 
@@ -65,19 +65,19 @@ _过电压钳位_
 
 当输入电压超过某一阈值时，内部钳位激活并将输出电压限制在设定值，如**_图4-3_**所示，从而确保了电源在仍然为负载供电的同时，系统不会暴露在输入电源处存在的高电压下。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYNONCSbR9ibIHEWpmcHoCG5ld8ccM4cp1jsqpib67Biabticlbu8mbTFryg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_4_过压保护_images\img_003_7dbcf7d7ef27.png)
 
 **_图4-3：过压钳位方框图_**
 
 只要在输入上存在过电压，输出电压将被钳位到设定值，当输入下降到输出箝位阈值以下时，箝位将释放并继续正常工作。在输入过电压条件下，调节MOSFET的栅极以降低额外的电压并箝位输出电压。MOSFET中的功耗是通过它的电压降与流过的电流的乘积，如下式所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WI5IIjf4BwPuYaTxumeQicIUibXFznOx6J1X7j7V55BGgUDRPJ044X5Qg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_4_过压保护_images\img_004_a98f5f251d04.png)
 
 输入过电压和负载电流越高，为保持输出电压恒定，在MOSFET中耗散的功率就越高，因此内部MOSFET可能会有明显的发热和器件结温升高。如果过电压状态持续存在，可能会发生热关断，即器件停止工作并断开电源上的负载，此时器件将保持闭锁状态或启动自动重试循环直到温度降低。
 
 此外快速反应有可能降低或消除对外部TVS和齐纳二极管等器件保护的依赖，例如具有快速过压保护的eFuse的输出钳位响应时间为5us。**_图4-4_**显示了快速eFuse的过压钳位工作波形，该系统的过压钳值设置为5.7V，对5V标称工作电压施加8V的过电压，一旦输入电压超过5.7V阈值，则调节内部FET的栅极以锁定输出电压在5.7V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXYcSSEh93UwdRGBBBSUdiaBNXVaLA6lXzvSTzQJ5LQ8HhicZD4JjPEwYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_4_过压保护_images\img_005_ce833ba255a2.png)
 
 **_图4-4：具有快速过压保护的eFuse过压钳位响应_**
 

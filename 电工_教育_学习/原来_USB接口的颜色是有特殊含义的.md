@@ -23,15 +23,15 @@ USB口的颜色有没有什么特殊的含义？你知道不同颜色代表什�
   
 其它接口大家详见图片：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaZYvvib6zs3XywRRQORRIowWMdLf3AjiaNApHicGCn1DibLCVv5sSgHyP7vCxZpPrWO9cDM2Az1xJWug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\原来_USB接口的颜色是有特殊含义的_images\img_002_30fbae1c4809.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaZYvvib6zs3XywRRQORRIow2FP2A3ibz7NaiblnyddcBhMMlicXCfJPNia9XnvnZ3VGBYNI46gRUMsKyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\原来_USB接口的颜色是有特殊含义的_images\img_003_abc62300933d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaZYvvib6zs3XywRRQORRIowYKibnBVyjHhaOA8FexBbpBteTvvt2IxZtWHqwxP2WflphsV1ftH8CAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\原来_USB接口的颜色是有特殊含义的_images\img_004_4d3c7639c3a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaZYvvib6zs3XywRRQORRIowuwoQOA5iaibgziaSRQIkHvChicIsQZjEcghviaVCI4Lb5Ix5JDVicdp4rm0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\原来_USB接口的颜色是有特殊含义的_images\img_005_f572eb18ecda.png)
 
 ## 
 

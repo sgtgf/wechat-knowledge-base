@@ -7,7 +7,7 @@
 
 现代工程技术领域中，各类物理系统仍然服从牛顿经典物理的基本规律，如流场、温度场和固体力学场等模型的核心仍然是质量守恒定律、动量守恒定律和能量守恒定律等。然而，科学计算涉及的物理系统中的研究对象通常结构复杂，不能简化为质点，而且承受着在二维或三维几何空间中的分布载荷（非集中载荷）。由于研究对象物质和载荷的分布性质，人们无法建立显式的初等函数模型，而只能采用 PDE 系统描述经典物理的守恒定律。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVW22IDTH2KIQxUJibABgKC0DTWKicvojzw4XLqC6AR7kVE5yQPG789PLvM9xOIkhlVHibcjjF8ReTAwg/640?wx_fmt=png&random=0.20110115429315356&random=0.12114052386740437&random=0.04773525662198819&random=0.7962565064981075&random=0.5632233006766347)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_000_4ff95e879b72.png)
 
 一般来讲，PDE 系统无法采用分析数学方法求解其原函数，只能采用近似的数值计算方法。随着计算机硬件和软件技术的飞速发展，人们已经解决了工程技术领域的许多计算难题。但是，PDE 模型的高效求解仍然是一类非常有挑战性的任务。
 
@@ -29,7 +29,7 @@
 
 最后，研究者采用系统变量建立物理系统中质量守恒、动量守恒和能量守恒的 PDE。因为物理系统必须遵守这些守恒规律，所以 PDE 模型“管理”和“控制”这些物理系统的行为。因此，这些 PDE 被称为相关物理系统的**控制方程** ( governing equations )。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3ibAdGeBopjHkMPuLVrxgx5QHzVD8haeMHJs8dfDI1bHlOqFuQUMibLHA/640?wx_fmt=jpeg&from=appmsg&random=0.7150254946306922&random=0.30263772309283166&random=0.060805846024498456&random=0.8465837802097764&random=0.7086491522932172&random=0.09185192841316336)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_001_5045708603b9.jpg)
 
 ### 
 
@@ -45,7 +45,7 @@
 
 连续系统定义域离散化是科学计算的基础。在工程技术领域，人们通常将离散化的几何定义域的一个子域单元称为**网格** ( mesh ) , 并将域离散化过程称为网格划分或者网格生成 ( mesh generation ) 。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3U3YA0TQ7jicwebKQhpHCDW04Dia6ZfY4lUXBntj1jSzhGrmk1M8rZJ2g/640?wx_fmt=png&from=appmsg&random=0.7945478376992949&random=0.4701904088081996&random=0.5098860944054096&random=0.24697898874683144&random=0.9118113032622606&random=0.12547226608567819)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_002_402a77aa96db.png)
 
 ### 
 
@@ -59,11 +59,11 @@
 
 有限差分法 ( finite difference method, FDM) 、有限体积法 ( finite volume method, FVM ) 或者控制容积法 ( control volume method, CVM)、有限元法 ( finite element method, FEM) 是广泛应用于工程技术领域的 PDE 系统模型离散化方法。有限元法在 PDE 弱解形式的基础上，采用单元节点的变量值构造初等插值函数，在子域上逼近 PDE 的数值解；然后，通过变分或者加权余量等方法将连续空间的 PDE 计算问题转化为离散空间的线性代数方程组计算问题。其他有影响的 PDE 模型离散化方法包括有限分析方法 ( finite analytic method, FAM) 和边界元方法 ( boundary element method, BEM)  等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3ZhQzia3ibTWdClesbPBEaQsnHI0A058vSuJ3rcRWmLNAuffDNia1nzDYQ/640?wx_fmt=jpeg&from=appmsg&random=0.8601749690001756&random=0.15198636977449675&random=0.2952488393097412&random=0.1401954611649172&random=0.5708071953380724&random=0.8698214186332434)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_003_6ed78a3b0399.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3OqRdVbibMjPxkMBYSt5Q1zJuzXYLzUruzcMpLiah2oowxneAR9I6tclA/640?wx_fmt=jpeg&from=appmsg&random=0.8405662479276821&random=0.5078543260249315&random=0.7164649360216997&random=0.6805992959454368&random=0.6751011422007636&random=0.19147286550705478)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_004_72ca7ca42a88.jpg)
 
 ### 
 
@@ -79,7 +79,7 @@
 
 **间接迭代法**不求解系数矩阵的逆矩阵，而是选定变量的初始值，通过循环迭代计算获得变量的最终解。间接迭代法的优点是简单，易于计算机编程；但是，存在迭代是否收敛和收敛快慢的问题。典型的间接迭代法包括高斯－赛德尔迭代法和牛顿－拉弗森法等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo31hsQ6L7V0n7hva2BSKzUL5R5HnugR9uwE8ctFr7Jg59Ss5uOhZbtMg/640?wx_fmt=jpeg&from=appmsg&random=0.7058182655231349&random=0.9727323492671149&random=0.9840549263538716&random=0.7704605203557031&random=0.583623250763226&random=0.09208654995436216)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_005_36164d986ecb.jpg)
 
 ### 
 
@@ -91,17 +91,17 @@
 
 求解线性代数方程组会得到大量（甚至海量）的数据，研究者只能借助计算机工具分析这些数据，判断 PDE 系统的物理响应。计算可视化技术首先对数据进行预处理，进一步将数据映射为几何元素，最后绘制为计算机图形和动画。在科学技术领域，计算可视化技术主要包括标量场、矢量场和张量场的绘制，还包括曲线（曲面）拟合及图形渲染等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3JZrD6UrNiaMZibUCM5FzAtSfPfZ7jjMEFPAhK8TZ9c35x8Xg1ibuOuIng/640?wx_fmt=jpeg&from=appmsg&random=0.6327103089545616&random=0.8048998960504705&random=0.0559790445654047&random=0.04127042069672271&random=0.12867630705984956&random=0.22393240023864602)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_006_6be5212996b6.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXeMtyOan1yocJl2anxOmZemIVicXOsoZd8g7XGPhEiaCAa658dvV1zibjcOgsfG5GIBYQ1mxvv0kxFw/640?wx_fmt=gif&from=appmsg&random=0.22471953116147225&random=0.9808201858119239&random=0.9552705563268087&random=0.7253161725651844&random=0.7567144555383114)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_007_33beec4308c2.gif)
 
 综上所述，科学计算在PDE问题上的进展，不仅依赖于数学理论的深化，还受益于计算机技术的革新。两者相辅相成，共同推动着人类对自然现象理解的边界不断向外拓展。
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5750604178087972&random=0.47109240995481816&random=0.6724870621324803&random=0.5470378930167312&random=0.3354707717655372&random=0.09469126203925082)
+![](偏微分方程(PDEs)科学计算的核心步骤_images/img_008_9067c53d3d3d.png)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

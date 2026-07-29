@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/KZ4r\_coPZaFUDQf7idz5Jg](https://mp.weixin.qq.com/s/KZ4r_coPZaFUDQf7idz5Jg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScRicFDBt1vuxbMzrk0MsuoSokoRLQG8AChrDtEtXHUspIEDJw6rHo6HCLRiaqmibS7iaaNGyue9XlzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_000_6f98182e9634.png)
 
 ____**____**____★★★____**____**__________BMS-2---CSU__________**____**____★★★____**____**____
 
@@ -15,19 +15,19 @@ ____________€1.什么是CSU____________
 
 CSU通过检测每个电芯的电压和温度来收集所有电池电芯的参数信息，并将参数信息实时发送给BCU，同时CSU通过执行电芯均衡来帮助补偿电池电芯之间的不一致性。**_图2-1_**显示了简化版CSU，CSU在电池包的实际电芯内紧密运行，连接电芯监测器器件布线线束并确保将重要的电池包数据高效传回主机BCU。从上述的CSU系统框图来看，CSU主要由电池监控器、电池平衡器组成、均衡电阻组成。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRFmovH3qpScTp6p5Z9jzH7Sq7Ztcbg7LbLTczic07FOJia5N0dl8taS2c1d3DyNaf9Bn8uKlrVxibvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_001_9ef670105e88.png)
 
 **_图2-1：简化版CSU系统方框图_**
 
 **_图2-2_**演示了车载电池4并多串的电池CSU系统，其中与**_图2-1_**不同的是加挂了一枚UIR芯片，但此UIR芯片的功能严格来说不属于CSU，而是BDU，严格的CSU仅仅是电芯监测/均衡器这一部分。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia6ibePexXPv7WbIWlId4jMBhSn1XLUk1qY0JRA1zyXNqVaG5pZOmhNFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_002_8a9d7172c6b6.png)
 
 **_图2-2：4P多S的CSU系统方框图_**
 
 ________________________€2.无线CSU________________________
 
-_____________![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibqcHNJEBXu2dZtgoSd2BMCA0Dqja6lN9kQMicZVgwbFOhWxCicEwMP8wA/640?wx_fmt=png&from=appmsg)_____________
+_____________![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_003_5c4c61455b7e.png)_____________
 
 **_图2-3：无线CSU_**
 
@@ -51,7 +51,7 @@ ____________€3.CSU的功用____________
 
 随着LFP越来越受欢迎，与NMC相比（如**_图2-4_**所示）， LFP更加平稳放电曲线需要更精确的电芯电压测量数据，才能确定电动汽车的可用里程。高性能的CSU可提供精度为±1mV的电芯电压测量，以及具有300mA电流能力的被动电芯均衡功能，支持电压和电流同步测量，可实现更精确的运行状况和荷电状态计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR9QguNLib0GjbqyoOfuw0hSzWSm5lJF77bNm2HQf4mIIqgibCloACdFYqZzDZyxWLMtn73ZHOBCbdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_004_f7d0d29c63dd.png)
 
 **_图2-4：电池化学成分放电曲线（红色=NMC，蓝色=LFP）_**
 
@@ -73,15 +73,15 @@ CSU的性能参数评估主要体现在前端精度上，主要有以下几个�
 
 **_表2-1_**到**_表2-3_**列举了主流厂商的CSU芯片，但其实国产的CSU做的也不错，比如中颖电子的SH367309，不可堆叠，支持5-16串电芯，其消费级芯片很早就进入了HW的供应体系。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibAm6nQnf5YTicCZcK35Zq78Lico4TswsibYPLqjLJDfgVgGbicYI06be18A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_005_e22e63bb171e.png)
 
 **_表2-1：TI的电池监控平衡器_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibGqMiachSnhkeqM61mwzt2R2ibVK1o0C0UkL9kDu9PSeYj9l7yeOMlZFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_006_81a45f728b52.png)
 
 **_表2-2：ADI的电池监控平衡器_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibMj95KwD0tr6ibA2YbhwDyKrmPceU9gfDcDzicJlSzF4o4k0ZkbOSicUjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_2_电芯监测单元____CSU_images\img_007_5df0faefb2cd.png)
 
 **_表2-3：NXP的电池监控平衡器_**
 

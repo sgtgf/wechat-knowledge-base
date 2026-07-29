@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/tdbas1o\_T6X2fCYNGRxZ0Q](https://mp.weixin.qq.com/s/tdbas1o_T6X2fCYNGRxZ0Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT6Kv3TWYMkvkav33nWiaozOhaTrPDkZSXgrAUu7pdWu4Stfz5wUyNsicBmdnOyXlQhZR0PeBfArPjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_16_射频功率检测器_包络检测器_2（预祝大家五一快乐）_images\img_000_ebc6de9de919.png)
 
 ____**★★★**______Detector-2---功率检测器______**★★★**____
 
@@ -17,7 +17,7 @@ Log放大器检测器的传递函数具有线性的dB响应，这意味着输出
 
 如图16-1所示，Log检测器的核心是一个渐进压缩Log检测器，由（多个）四个增益级组成，每个增益级的饱和增益约为10dB，因此可实现约10dB的动态范围。五个二极管单元执行实际检测并将RF信号转换为直流电流，该直流电流随后提供给输出端的跨阻放大器，后者将其转换为输出电压，此外，放大器还提供缓冲并对检测器输出信号进行滤波。为了防止关机时OUT和GND之间的滤波电容器放电，在放大器输入端插入一个开关，该开关在关机时打开，以实现器件的高阻抗输出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTv3SibUOnF2elzoBEYywzSvh2QxvOCcg11WTzpwic6x3Cy5HcTWrJsDhwypJHVDOOAPDqX5mJSo6Kg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_16_射频功率检测器_包络检测器_2（预祝大家五一快乐）_images\img_001_78770d102a53.png)
 
 图16-1：对数检测器内部结构
 
@@ -31,15 +31,15 @@ _校准检测_
 
 对于使用Log检测器或者其他功率检测器的功率测量系统，影响功率测量精度的其他因素（例如读取检测器输出信号的ADC分辨率）将不在此处考虑，因为它们不是由功率检测器所引起。当Log检测器传递函数被建模为输入功率和输出电压之间的完美线性dB关系时，获得可以实现的最简单的功率测量系统：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTv3SibUOnF2elzoBEYywzSv2rT3ic1EggcBgZ85GveK0W87icW555AgVWv3YCCHVzL9evdBPJJwP9kg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_16_射频功率检测器_包络检测器_2（预祝大家五一快乐）_images\img_002_2d429fb023a7.png)
 
 其中Kslope表示对数斜率，Pintercept表示对数截距，基于此模型的估计量得到模型方程的逆，即：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTv3SibUOnF2elzoBEYywzSv0xRTsNatMSxW4icIHGECUsgFAZytoF4r8NiaFEeH4L1UNTLv5H32S0Rw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_16_射频功率检测器_包络检测器_2（预祝大家五一快乐）_images\img_003_a66ca0c62960.png)
 
 因此，产生的功率测量误差，即Log一致性误差等于：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTv3SibUOnF2elzoBEYywzSvqBhoCtzhXJ0qb5bBnutocia6zjhETFtBEV7yia3b117icf7SrANSDXHrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_16_射频功率检测器_包络检测器_2（预祝大家五一快乐）_images\img_004_eed197c4646b.png)
 
 Log一致性误差最重要的贡献因素通常是：
 
@@ -51,7 +51,7 @@ Log一致性误差最重要的贡献因素通常是：
 
 后一个分量可通过校准方便地去除，通过测量检测器输出电压（在室温下）来实现为每个单独的检测器设备（在室温下）确定Log斜率和Log截距。该电压在检测器传递函数的Log线性范围内具有一系列不同的功率水平，然后可以通过线性回归确定斜率和截距，图16-2中描述了此类误差及其与检测器传递函数的关系的示例：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQ0c9t6BlPdaxibiacI3Mtvtnvk95Io4pR1XRnrSG6Jsluf78tViaVO5oxlkRHVJksyjR0RYsOicUicm6g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_16_射频功率检测器_包络检测器_2（预祝大家五一快乐）_images\img_005_9ac0dda95edb.jpg)
 
 图16-2：误差---传递函数
 

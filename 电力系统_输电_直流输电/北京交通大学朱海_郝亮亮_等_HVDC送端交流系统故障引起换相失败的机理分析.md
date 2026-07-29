@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\北京交通大学朱海_郝亮亮_等_HVDC送端交流系统故障引起换相失败的机理分析_images\img_000_20dfdbaaa341.jpg)](http://www.eitrt.org/)
+[![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\北京交通大学朱海_郝亮亮_等_HVDC送端交流系统故障引起换相失败的机理分析_images\img_001_eadffead456a.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约 1900 字
 > 已有的研究大都认为高压直流输电系统中的换相失败问题是由受端交流系统或换流阀故障引起的，但在工程实践中发现送端交流故障也可能会导致换相失败。
 > 

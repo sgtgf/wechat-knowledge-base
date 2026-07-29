@@ -36,7 +36,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c180759_ 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrENN49wF7vRWnfpiaBxlgwnGsfHp2iaavAPeKofBlgkdFM8xTiaiaFxNgkVg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_000_f52f9a4f16c6.jpg)
 
 _图1_ _乳腺癌灶的MRF能量和后验概率_  
 
@@ -56,7 +56,7 @@ _图1_ _乳腺癌灶的MRF能量和后验概率_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEfI16IZf8wp4VFIzg0m2QD0sMvmVYyU1FFR2nRJcrPEokAX9ocyPMHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_001_872ce2a5ebb8.png)
 
 _图2_ _模糊速度函数_  
 
@@ -76,13 +76,13 @@ _图2_ _模糊速度函数_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEjgZ1COdZlR5xj3bWbe9Z59OM3xYrp5F2pzjc6TIPiaRibKg7kPsBHbBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_002_1c721df6e3df.png)
 
 _图3_ _肿块形乳腺癌分割结果_  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEdMgA58aYnkjicnlnI9p6Aw9OJsqZjfgI5y7YfIg4sXVWxvFkSOlia4Gg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_003_f1f80a23dca5.png)
 
 _图4_ _非肿块型乳腺癌分割结果_  
 
@@ -94,13 +94,13 @@ _图4_ _非肿块型乳腺癌分割结果_
 
 _表1_ _50个临床样本分割结果_
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrE6xveEBDLXkHgm9AYJViaLZAALbJjlLNzM4K2aqukQkyJmkZMibyzTfQw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_004_f6bb3808006f.jpg)
 
   
 
 **_作者简介_**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEYT3qVv41U1hq2GM1FcoYQBJlYJiasJQAEVGaYLjluiblDIXWTiaUFd1Pg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_005_ed807af5eb58.jpg)
 
 **冯  宝**
 
@@ -112,7 +112,7 @@ fengbao1986.love@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEeiaBlJqbj2ongGJiaicicMNWQrHK6GhfTibqxibKKaicN96R2zJQwhKtCoMpg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_006_23b1ead4fbf5.jpg)
 
 **陈业航**
 
@@ -122,7 +122,7 @@ E-mail: cyh93yl@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEdgGFicWa9owRmiaxr6woQN08Oa3PJ58ibUVXQXt85kW8CG3dym08wpPicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_007_06c045410a01.jpg)
 
 **刘壮盛**
 
@@ -132,7 +132,7 @@ E-mail: 
 
 zhuangshengliu@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEK33kc07U0YT5DSN8J4kicN9mL4K2alUj2XZPCl9SzbW1EXM9aYtFTwg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_008_1f466657c563.jpg)
 
 **李  智**
 
@@ -142,7 +142,7 @@ E-mail:
 
 cclizhi@guet.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEicgOT4b5sh3HQcgOdrj4Ev719Wq4O7xibF4l7pRHzbhzgyuk4o5fOsuA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_009_304e67ca4823.jpg)
 
 **宋  嵘**
 
@@ -150,7 +150,7 @@ cclizhi@guet.edu.cn
 
 songrong@mail.sysu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEBk3Vqtv5WibsQ6icGzk5n3v38bbWMOz9fgkaElR4hr30Bmg6whpXH1GA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_010_36df13c47d31.jpg)
 
 **龙晚生**
 
@@ -244,21 +244,21 @@ _CJCR影响因子 2.793_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEM2ePDIUXgASMFshrbL1LJzrjQHibktq1aM65TD66eM8kFL7JRxUn1Lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_013_c43b5aabf307.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrE2icYNCYPicdRR81zdyfxSTicZuibicnBYCRoKLQWCam2bRxTh7YCBENiaDQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_012_86a40d99d662.jpg)
 
 **JAS《自动化学报》（英文版**）   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEM2ePDIUXgASMFshrbL1LJzrjQHibktq1aM65TD66eM8kFL7JRxUn1Lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_011_c43b5aabf307.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEib423fib8ic9oKc4FQlQT8BBbMqSHNctbZTkTia3FFXWWOFDmNk0jrsddw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_014_0affa302d120.jpg)
 
 **《自动化学报》服务号** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEM2ePDIUXgASMFshrbL1LJzrjQHibktq1aM65TD66eM8kFL7JRxUn1Lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_015_c43b5aabf307.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH443P2Ybc1etAPgoN9pJplrEFQRvlribsB86lLxK8vzAKia3Ezl3jD5cvwXxLkHP41dRg0nxrBkCHTpg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\结合MRF能量和模糊速度的乳腺癌图像分割方法_images\img_016_af3f15c17969.jpg)
 
 **《自动化学报》订阅号** 
 

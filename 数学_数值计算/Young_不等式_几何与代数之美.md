@@ -48,7 +48,7 @@ Young 不等式的标准代数表述如下：
 2.  **蓝色区域（曲线左侧的面积）：** 从  到  对曲线  沿  轴积分。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsbFawZQqrPwIQuN2QrurrIQtfiaA0uqGBNh5hEhk076LoqTma79rmSX0bonaEuwQPiazPwf1mXkW2545jP0dddNiatANkQ2UDibJA/640?wx_fmt=png&from=appmsg)
+![](Young_不等式_几何与代数之美_images/img_000_094abe4ba85d.png)
 
 **见证奇迹的时刻：** 从图上可以清晰地看出，矩形  的面积，**一定被完全覆盖在橙**色区域（积分 ）和蓝色区域（积分 ）之中。
 
@@ -63,7 +63,7 @@ Young 不等式的标准代数表述如下：
 
 # II 图解Young 不等式
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRooctEAyS7iaTIRdd59e0lBUGP6NY1q9pUibJrn2gd8ctZuETKcyxhXWKGqlgicW9xUYZpbzTbkFsr9V6AcW44utKq19KnnaXuicDicicKs/640?wx_fmt=jpeg)
+![](Young_不等式_几何与代数之美_images/img_001_8d8cc801a826.jpg)
 
 这张图是在讲 **Young 不等式（Young’s Inequality）**，它想表达的核心其实很朴素：
 

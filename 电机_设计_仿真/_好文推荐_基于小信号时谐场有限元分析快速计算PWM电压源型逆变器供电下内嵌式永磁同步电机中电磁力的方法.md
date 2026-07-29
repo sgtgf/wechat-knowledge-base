@@ -12,11 +12,11 @@
 
 CES Conference
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqREvKIKkywCw4SCgUpXlrIBNqexbGIX07BcpoZtEz0AvJreicicQicVREQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=Mzg2ODYyNDUzNA==&mid=2247484320&idx=1&sn=317f97f4e638742ef39e665cfbc8acc6&chksm=cea83259f9dfbb4f3cae797b59494e351d9bf97293d8e202c46188472e83bc5bfbaf07d18f5e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_000_6d84699ae65f.jpg)](http://mp.weixin.qq.com/s?__biz=Mzg2ODYyNDUzNA==&mid=2247484320&idx=1&sn=317f97f4e638742ef39e665cfbc8acc6&chksm=cea83259f9dfbb4f3cae797b59494e351d9bf97293d8e202c46188472e83bc5bfbaf07d18f5e&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqEQoNuDibRgzn7w9iapRU2FNld3ZGpuObxxP8SesUBDCMZq6SMGAib6ibMA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzkyMTE3ODA1Mw==&mid=2247483955&idx=1&sn=25112f0609217c6d0d1e5cfba5d171e7&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_001_65df43700fc8.png)](https://mp.weixin.qq.com/s?__biz=MzkyMTE3ODA1Mw==&mid=2247483955&idx=1&sn=25112f0609217c6d0d1e5cfba5d171e7&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqLbED3g5mKEaB39dzQXAPXlRJiczqmE4BS9eicaeer1zymElB5g5ByhXQ/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651238356&idx=1&sn=42f1d57b0b697a0cb157b424f7642869&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_002_3d39cc15b67b.png)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651238356&idx=1&sn=42f1d57b0b697a0cb157b424f7642869&scene=21#wechat_redirect)
 
   
 
@@ -64,7 +64,7 @@ CES Conference
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhq7j4cs9p2DicFk5d9BOnk5lg3gjiatguHtOOt4Famc4rWA6LoLBTej2eA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_003_3d43a6fb1459.png)
 
 图1  PWM逆变器供电下IPMSM电磁力快速算法流程图\[6\]
 
@@ -94,20 +94,20 @@ CES Conference
 -   高频气隙磁密重构法。将IPMSM一个极下的气隙划分为分别属于+_A_相带、\-_C_相带和+_B_相带的三个区域。充分利用电机的电磁与结构对称性，借鉴CE-FEA中场重构的思想，只需进行转子转过1/6基波电周期时的THFEA，即可根据结果重构出转子转过一个完整电周期时的气隙高频磁密变化。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqeGKc6k3SVgTAnfwjktQvfGpSZoWwsLTIvzXb4JURQ05af5SfLuCe7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_004_70db5753b00d.png)
 
 图2.一个极下计算气隙磁密的采样点所属区域划分\[6\]
 
 -   建立谐波电压与谐波气隙磁密之间的线性映射关系。可用高频谐波磁密正比与谐波电压幅值，而反比于谐波电压频率的规律建立谐波磁密与谐波电压之间的映射关系：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqKaugtf1RWmHdicPy5A59CBnU3NIosP6xag4gtITFZjsLdOxpiafFibIyQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_005_b15eb33e9f09.jpg)
 
 其中各参数意义详见全文。在忽略端部漏感和高频涡流反应的情况下，映射矩阵 **_χsd0_** 和 **_χsq0_**中的元素为常数；在考虑涡流反应影响时，则需进一步研究其随频率的变化规律。
 
 -   复数高频磁密的2D FFT与时间阶次修正。当在一个基波电周期内采样点数为_Ns_时，进行2D FFT得到的高频磁密频谱的时间阶次，无论真实值多高，总是落在0到_Ns_\-1之间。因此，直接从 2D FFT 获得的磁密频谱虚进行修正后再叠加到总的磁密频谱。图3中给出了频率为 3_fc\-_2_fo_的高频谐波电压分量引起的磁密频谱修正过程，其中的技术细节参见原文。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhq88YicSphrnjg7X1qtwYSUOXwUSiaWN31d1AG7tPu9ibib4cShFFrozAbicA/640?wx_fmt=png)
+    ![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_006_cc239c25f531.png)
     
 
 图3\. 由频率为3_fc_\-2_fo_的高频谐波电压分量产生的谐波磁密频谱时间阶次修正示意图
@@ -120,11 +120,11 @@ CES Conference
 
 本方法已经申请中国发明专利的保护\[6\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhqx1BYkcSzXYZfiaBTcCibr1gdmzjZUs9w9sjjYjeYh9gszyLOu7z2MJGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_007_d42628e1571a.png)
 
 (a) 传统TSFEA         
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhq3csTOtEMX0gaU62APr4lSAfW6ccHErduoHBBHPdwnb9U8VrTz7hXiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_008_3a056e7d3ab9.png)
 
 (b) 所提小信号THFEA
 
@@ -132,11 +132,11 @@ CES Conference
 
 表1\. 两种不同方法计算电磁力频谱定量对比  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhq90zA0sbK5ra7jlqibJ1TricXHRkhXfHjlk4oPcNsfZscaAkWw4iaiaSwbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_009_778a3cc06cf5.png)
 
 表2. 两种不同方法计算时间对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqMXAcibibQJVEQY9bgpictFuKxUJMn7XiaUlgyuN0k5EUBib6SpahYx0MLJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_010_e3f52860881f.png)
 
   
 
@@ -214,7 +214,7 @@ S. Zhu, J. Lu and F. Zeng, "Fast Calculation of Electromagnetic Forces in IPMSMs
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqjbV1x9tCws6mLg9wqEG9rQP6iapMKnXE7cvansjoMW8yVtgZLFYxYYQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_011_75f4765314b0.jpg)
 
   **Sa Zhu** (Member, IEEE) received the B.Sc. and Ph.D. degrees in electrical engineeringfrom the School of ElectricalEngineering, Southeast University, Nanjing, China, in 2011 and 2017,respectively.
 
@@ -224,7 +224,7 @@ From 2013 to 2014, he went to Politecnicodi Torino for a one-year visiting study
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqhRbL7nn0X4jOlu4uwuCYrAib5JTPIsAJQGhOiazMUSAMxicB0HFRVR8nA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_012_ba097f9abfe5.png)
 
  **JianboLu** received the B.E. degree in electricalengineering and automation from the School of Energy and ElectricalEngineering, Hohai University, Nanjing, China, in 2021. He is currently workingtoward the M.E. degree in electrical engineering with the College of Energy andElectrical Engineering, Hohai University.
 
@@ -232,7 +232,7 @@ His current research interests includepermanent magnet machines and finite eleme
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhqu3dpIIa3njBP6bOxvc8C4TVdCzhRaVXBc7c03gtzvI3WnXFCjps1vA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_013_6730156ba264.jpg)
 
   **Feng Zeng** received theB.E. degree in electrical engineering and automation from the School of Energyand Electrical Engineering, Hohai University, Nanjing, China, in 2020. He iscurrently working toward the M.E. degree in electrical engineering with theCollege of Energy and Electrical Engineering, Hohai University, Nanjing, China.
 
@@ -272,15 +272,15 @@ His current research interests includepermanent magnet machines and finite eleme
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqVicVgtZvgxqK8fgqKuxpmdTj9x5axcH32gBibL3LAaUAoPIv8AjAxibiaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_014_c4e0f7babf19.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqeKmmvSKpXAwBfKtQJkr5tY9A9jqc6HcVgW2QFKx49L0aLxhTuq03sg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_015_1414d56e4960.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhq80oWNVAN9U3awMP0kQxnEwVxt9ZGGgckEhia6XSE87KPsDsricCtLWfQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_016_661b94941027.jpg)
 
 学会官方微信
 
@@ -288,15 +288,15 @@ His current research interests includepermanent magnet machines and finite eleme
 
 CES电气
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqncDnEWe3CCLSmia7ZXkVuPujjRoVTibcmSLBibu61WJcqjyxFtjXtQwVg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_017_8d727616b307.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqsXzSwzC6SUGIMgRLscyYYU8JjJcjDtSzHLvDiawxz9LebMqSDfz3zaw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_018_c6f9c894f5d0.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhqw8NBoMhs0jYibpzEmOhFgNgv9hOfI7py4ErqUcF3hnlOSeY62FJiceRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_019_1982ba2c461b.png)
 
 学会官方B站
 
@@ -304,15 +304,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqfJYib3pmj32Qajx9LMJef1bcQffCQuX6XwRS3aQZASibNniarLeia3gD6w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_020_1103327feb12.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqbMkB9gVLbNwE09bm9Jq7TaVtS1POUxicMPkHGWNqI0UH5VPvjtfgWYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_021_fbed6a07ac37.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2Pkhq1V9iaHvjbqOxCkicF0ZicaFhgdDiajpe86W9xdc0QYh5YstYGEgxgOpaicw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_022_0af89169cb72.jpg)
 
 学会科普微信
 

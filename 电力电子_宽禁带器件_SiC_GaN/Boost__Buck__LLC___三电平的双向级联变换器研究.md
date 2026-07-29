@@ -25,13 +25,13 @@
 
 系统设计如图 1 所 示, 包 括 双 向 DC/DC 模 块 和 双 向DC/AC 模块。双向 DC/DC 模块用于满足电动车侧直流高压需求;双向 DC/AC 模块用于电网侧并网,同时实现单、三相制式的兼容。图 1 中,箭头向右 代 表 放 电 方 向,箭 头向左代表充电方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQ4AibVdfrQ3tHZDQWzSOXdJWRDK9POicTsh8huvPxBicic9gUQQe2DltFGA/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_000_448f3aac27cf.png)
 
 2\. 双向 DC/DC 模块设计原理
 
 双向 DC/DC 模块设计如图 2 所示,包括双向 Boost+Buck 模 块 和 双 向 LLC 模 块。 双 向 Boost+ Buck 模 块 由 4路双向 Boost+Buck 组成,双向 LLC 模块由 2 路双向 LLC组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQlvnZjrCoNWTZEbawGk1JIdV5woqwruTe894vmrbIch5zINoHRicswJA/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_001_dea7d188fee6.png)
 
 放电方向的工作 原 理:双 向 Boost+Buck 模 块 输 入 侧采用 4 路双向 Boost+Buck 电 路 交 错 并 联 闭 环 控 制, 各 支路开关频率相同且各支路主开关管导通时刻的 相 位 依 次 相差 9 0°,用于 降 低 电 动 车 侧 直 流 电 压 纹 波; 双 向 Boost +Buck 模块输出侧两两 并 联,各 生 成 1 组 中 点 母 线 电 压(图2 中的中点母线电压 1 、中 点 母 线 电 压 2 ), 供 给 双 向 LLC模块。双向 Boost+Buck 模块作为双向 DC/DC 模块的第 1级变换器,用于直流电压的升压、降压。
 
@@ -55,7 +55,7 @@
 
 当系统 直 流 侧 直 流 电 压 大 于 450 V 时, 机 器 开 机,RLY1 闭合,短接图 4 中的 L1 和 Q1-2 ,通过图 4 框内的双向 Buck/Boost 模 块 降 压, 放电电流大 小由双向 Buck/Boost 模块控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQMmaaMF1gnxtnDT2BulfaQcKtDXQnfNtZVY6b06fzwC5eZwSx77b80Q/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_002_145ea32fc81f.png)
 
 (1 )开 机 前, 控 制 Q1-1 的 驱 动 封 波, 即 Q1-1 处 于 断 开状态。
 
@@ -71,7 +71,7 @@
 
 当系统直流侧直流电压放电低至450 V 后,RLY2 闭合,短接图 5 中的 Q2-1 、L2 , 直 流 电 压 直 连 至 中 点 母 线 电压 (UBAT =UBUSM1 ),放电电流大小 由后级双向 DC/AC 模块控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQCeLvtHFh7TAARo08MSrib1Y4VqLPR9bmh53Zj9DKV6J0AhFyoewKicoQ/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_003_56a119647ce9.png)
 
 (1 )前 一 个 模 式 为 降 压 模 式,UBAT =UC1=450 V,UBUSM1 =395 V。此时,RLY2 两端存在较大压降。控 制 双向 Buck/Boost 继续降压 工 作, 将 环 路 中 降 压 目 标 值 U 调至 450 V,缓慢调制 Q2-1 占 空 比,使 UBAT =UC1 =UBUSM1 =450 V。
 
@@ -87,7 +87,7 @@
 
 当系统直流侧直流 电 压 放 电 低 至 330 V 后,RLY1 断开,通过图 6框内的双向 Boost/Buck 模块升压, 放电电流大小由双向 Boost/Buck 模块控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQwAtmSXtfoibDZHswibuH7z7H22gszJPs6Mzj8LohicWKjrYMG9n7ibj9PA/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_004_272e0932ae03.png)
 
 (1 )前一个模式为直连模式,UBAT =UC1 =UBUSM1 = 330V,RLY1 两端电压一致,断开 RLY1 。
 
@@ -95,7 +95,7 @@
 
 (3 )图 6 框内 的 双 向 Boost/Buck 模 块 升 压 工 作,调 制Q1-1 占空比 升 压, 升 压 目 标 值 为 3 9 5 V。 单 路 双 向 Buck/Boost 模块输入输出稳态关系为 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQhVqQsJJ6ArKOiab1RaV79nmFaMXSX4AxYbOb4ruOxCnic6KxtTKowd7Q/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_005_7f275c5ce905.png)
 
 其中 DQ1-1 为开关管 Q1-1 升压占空比。如上,模式切换装置中的 RLY1 断 开、 RLY2 闭 合, 系 统 中 双 向 Boost + Buck模块工作在升压模式。
 
@@ -105,7 +105,7 @@
 
 由图 2 可知,双向 LLC 模 块 由 2 路 双 向 LLC 电 路 组成,输入侧并联、 输出 侧串联。 单路双向LLC 模块原理图如图 7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQMrS29q6RUAAJVPNkMvBianRGfXBia25YJ7ls2OhvclefRbMiaysVBok5g/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_006_65d790d47719.png)
 
 设计 LLC 变 换 器, 定 频 工 作 在 谐 振 点 附 近, 并 处 于开环状态,起着 直 流 变 换 器 的 作 用。 由 于 采 用 开 环 控 制,因此 LLC 变 换 器 在 谐 振 频 率 点 不 受 负 载 大 小 变 化 影 响,效率高、控制简单,可靠性更高。
 
@@ -121,7 +121,7 @@ LLC 电路增益 M=1 ,即 LLC 中点母线电压与母线电压相等,UBUS+ =UBU
 
 制式切换装置用于单相和三相制式切换,交流切换装置用于电网的投入和切出,设计中这 2 个切换装置均采用继电器实现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQ1bIjQenBstj4uh00rzlUb8pWFZ5JnFHHnZuIQZC76XKgiczkJib2hsdw/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_007_a1d2df98d758.png)
 
 3 路 T 型三电平电路用于 接 收 正、负 母 线 电 压 后 进 行直流和交流的能量双向变换。3 路 相 同 的 双 向 T 型 三 电 平电路独立闭环工作。设计中 3 路 T 型三电平电路采用传统T 型三电平电路,具有器 件 少、 效 率 高、 控 制 简 单、 可靠性高的优点。双 向 DC/AC 模 块 整 流 及 逆 变 并 网 控 制 策略简单,在此不再赘述。
 
@@ -145,23 +145,23 @@ LLC 电路增益 M=1 ,即 LLC 中点母线电压与母线电压相等,UBUS+ =UBU
 
 为进一步 验 证 设 计 的 正 确 性, 研 制 了 一 台 30 kW 样机,如图 9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQNIP9TH1G9fkoIMJMAlRMskzNklMoosw8kQ6JMHwwXRVphdRlrT8ic2Q/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_008_41b245827afe.png)
 
 样机主控芯片采用 TMS320F28335 ;LLC 功率管采用SiC 低压管,开关频率为 135 kHz;Boost、Buck、T 型 三电平功率管考虑成本后采用 IGBT, 开关频率为 19.2kHz。具体参数见表 1 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQ6LgibssgVnEDyJSUcww9f6tuBI8By2hTuyLbpFHYXBSibKJmsJPBJNaA/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_009_e42737399968.png)
 
 4.2 直流侧高压 1000V 实验
 
 设计创新点 1 :满足 充 电 桩 直 流 侧 高 压 1000 V 需 求。在直流侧加 入 1 000 V 直流高压(以 放 电 为 例), 观 测 双 向DC/DC 变换器在不同负载下的运行波形。由图 1 0 (a)波形可知,直流侧 电 压 UBAT = 1000 V,单 路 双 向 LLC 谐 振 腔电流 iLr =6 A,中 点 母 线 电 压 UBUSM1 =UBUS+ = 395 V。 可见系统直流侧高压 为 1000 V 时, 中 点 母 线 与 正 母 线 均 为395 V,双向 Boost/Buck 工作于降压模式,双向 LLC 增益M=1 。由图 1 0(b)波形可知,直流 侧 电 压 UBAT = 1 000 V,单路双向 LLC 谐振 腔 电 流 iLr = 40.8 A, LLC SiC 功率管反峰电压 VQ1 =395 V,DRQ1 为低电平-2 V、高电平+ 1 6V。可见系 统 直 流 侧 高 压 为 1000 V 时, LLC 电 路 实 现 了软开关,且系统满 载 稳 定 运 行。图 1 0 验 证 了 双 向 DC/DC模块的设计 正 确 性, 且 能 满 足 充 电 桩 直 流 侧 高 压 1000 V的需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQBmwUWPQm33ebjaZrQjFqtibB9aD0gen9N7nZvdweKRP8icbZI16zAB0w/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_010_dfbbd0f9b5c3.png)
 
 4.3 电网侧兼容单相、三相制式实验
 
 设计创新点 2 :满 足 电 网 侧 兼 容 单 相、 三 相 制 式 的 需求,其关键在于检测电网制式后的驱动 控 制 实 现。在 电 网侧分别加入单相、三相电压,观测 3 路 T 型三电平上臂管驱动情况。由图 1 1 (a)波 形 可 知, 当 检 测 到 电 网 为 单 相 制式时,3 路 T 型三电平的上臂管驱动 DRT1 、DRT2 、DRT1相位一致。由图 1 1 (b)波 形 可 知,当 检 测 到 电 网 为 三 相 制式时,3 路 T 型三电平的上臂管驱动 DRT1 、DRT2 、DRT1相差 1 20°(20 ms 为 一 个 周 期)。图 1 1 验 证 了 双 向 DC/AC模块设计的正确性:检测到电网侧单相 或 三 相 制 式 后,控制 3 路双向 T 型三电平 的 驱 动, 使 双 向 DC/AC 模 块 成 为单相 或 三 相 电 路, 从 而 实 现 电 网 侧 单 相、 三 相 制 式 的兼容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQygvx43KZfsxafxHlDTuJyicO6eKNFWk3icR9zKveGS9fboMZe39Awm3Q/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_011_09d409075326.png)
 
 4.4 整机双向充放电功能验证
 
@@ -169,7 +169,7 @@ LLC 电路增益 M=1 ,即 LLC 中点母线电压与母线电压相等,UBUS+ =UBU
 
 由图 1 2(a)波形可知,样机直流侧电压UBAT =1000 V,放电电流 IBAT = 2 9.1 A, 电网侧A相相电压 u a = 232.8V,电网侧 A 相 电 流 ia = 39.4 A, 样机满载 放电波形正常,实现了直流高压 1000 V 时的放电功能。由图 12(b)波形可知, 样机直流侧电压 UBAT = 1000 V, 电网侧A相电流 ia =39.2 A,B 相电流 ib = 39.2 A,C 相 电 流 ic = 39.4A,样机满载充电运行正常,实现了直流高压 1000 V 时的充电功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmy0uXUicTcaEYb3YbyjOqzQd8btBkFvnaapibuhdkAOd3d9GMo8Za1LxaQGFlUPQicrUibqG4ffFvMyA/640?wx_fmt=png&from=appmsg)
+![](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_012_ccbb5eed7e1d.png)
 
 5\. 结语
 
@@ -177,13 +177,13 @@ LLC 电路增益 M=1 ,即 LLC 中点母线电压与母线电压相等,UBUS+ =UBU
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5HfPwyQV7FiawDnQBubGjncgSqo2RfI7TlU46wxkvLVJibViadXOQhxQcw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_013_f0eba6e49a59.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe57xRqPemxW5XwVs7FBlWicxNkMJhEhJJqsm8rCU8Kztl4NbFfHzHSFMw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_014_19a4fdb8cf3b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5WO9LS6XZB0V9sPH088xibJ4vJ6rMtrIlq1goXHWwazzntZjwvHpGXWg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](Boost__Buck__LLC___三电平的双向级联变换器研究_images/img_015_f44e186a8bfa.png)

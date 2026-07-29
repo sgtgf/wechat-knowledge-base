@@ -33,7 +33,7 @@
 
 首先固定指向角为30°，分别令信号频率为0.9GHz、1GHz和1.2GHz，计算对应方向图，如图1所示。
 
-![图1 固定角度不同入射频率下的方向图](https://mmbiz.qpic.cn/sz_mmbiz_png/sztj3YzJ1Wic19KcU8cr492ibFv4elzeOVGh1hLEDCFnGQB3CyvfECLoxP2ich8jgGXibBib9Iic8ricibSQjsSmBzmalA/640?wx_fmt=png&from=appmsg)
+![图1 固定角度不同入射频率下的方向图](D:\电脑文件\公众号知识库\电磁兼容_EMC\为什么相控阵会_指歪__空间色散的原理与MATLAB仿真分析__images\img_000_50b3d7cfbb90.png)
 
 图1 固定角度不同入射频率下的方向图
 
@@ -43,7 +43,7 @@
 
 进一步固定信号频率为0.9GHz，分别设置相控阵期望指向角为20°、40°和60°，计算对应方向图，如图2所示。
 
-![图2 固定入射频率不同角度下的方向图](https://mmbiz.qpic.cn/sz_mmbiz_png/sztj3YzJ1Wic19KcU8cr492ibFv4elzeOVcj2Wcoy3dTgXVFcBwiaUuSqS84VS6GQM15zkjjWlGrWhyNqkVR9VicrA/640?wx_fmt=png&from=appmsg)
+![图2 固定入射频率不同角度下的方向图](D:\电脑文件\公众号知识库\电磁兼容_EMC\为什么相控阵会_指歪__空间色散的原理与MATLAB仿真分析__images\img_001_de0f1de15aac.png)
 
 图2 固定入射频率不同角度下的方向图
 

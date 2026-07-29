@@ -28,7 +28,7 @@ SiC MOSFET 的桥臂串扰源于其高速开关过程中寄生参数的影响�
 
 在SiC MOSFET 逆变器的驱动电路中，以桥臂上管动作、下管保持关断为例，来研究桥臂串扰的原理。如图1 所示，令桥臂上管、下管分别为Qh、Ql，上、下桥臂的栅源极电压ugsh、ugsl，上、下桥臂的漏源极电压udsh、udsl，米勒电容Cgdh、Cgdl，寄生二极管Dh、Dl，上、下桥臂的漏源极电流idh、idl，负载电流iL，上、下桥臂的驱动电阻Rgh、Rgl。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpONaVR2o51NHbPL0YQ7uGDMib1QIWwBt0aPB0HYc0LemEOfdbQI1ibqOxbqzcJ7pwg8mGq3uic7nTPkLczntziapoqz5mHWUvuvG0s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_000_c65f57fbb655.png)
 
 开通过程中上管Qh开通可分为四个阶段，具体阶段如下： 
 
@@ -40,7 +40,7 @@ SiC MOSFET 的桥臂串扰源于其高速开关过程中寄生参数的影响�
 
 （4）上管的漏源极电压udsh下降到导通电压，由于线路寄生参数的存在，下管漏极与源极之间的电势差会产生波动和超调现象，而栅极与源极之间的干扰电压则呈现递减趋势。而当Qh饱和导通时，栅源极电压最终降低到关闭电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOeLDBGAZmKSeLx8uKtnxibZnplPbyjDWFSnYibXMvfqJ8ib1zbz8HyuwnhsawB0srfFnm5lgbG0lmsQicwmS3EhaKSicUaMKSoSL1s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_001_33789b00156a.png)
 
 如图2 所示，Qh 关断过程中，一个桥臂的开启与关闭会产生相反的影响，这个过程也可以分为四 个阶段：  
 
@@ -56,15 +56,15 @@ SiC MOSFET 的桥臂串扰源于其高速开关过程中寄生参数的影响�
 
 依据上述分析，串扰电压与寄生电容、电感、电阻以及电压变化率紧密相关。以上桥臂器件的开通与关断对下桥臂器件产生的串扰效应为例进行分析。图1 显示，当高侧上管Qh导通时，会在低侧下管Ql上产生正向干扰：在上桥臂PWM（Pulse Width Modulation ）信号的正向脉冲到来时，上桥臂MOSFET 的驱动电压超过开启阈值，Qh开始导通， 此时低侧二极管与Qh进行电流转换，idh逐渐增加到与负载电流iL 相等，完成换流过程。在此过程中， 高侧漏源极电压udsh呈线性下降趋势，而下桥臂器件Ql 的漏源极电压udsl 则呈现线性上升特性。由于udsl的快速变化，寄生电容Cgdl会产生igdl\=Cgdldugdl/dt 的位移电流，该电流分别流向驱动电阻Rgl和低侧栅源电容Cgsl，造成栅源电压ugsl 被拉高，当udsl 超过开启阈值时，就会导致Ql出现意外导通现象。电流为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOOaqK8Tp68fDlAGict2oFKBibZhdNyw5I6nTNWr8MKR6ic5vIicrXY2E6ia42XiaiaMDGsChhhfRUNa2zk7Q8hgc0hRVQMyhRFibY9icqU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_002_7b0b228650ef.png)
 
 联立式(1)和式(2)得式(3)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNj9m0jmf5KO6j2jZ4QM5T7rZvTVJ8clrlNgMvGTHia6YCzcXZN8ickk7mj9OqxibggIJ0n5XKPZQKaOxnlwUnexibIcDIxGt31UqE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_003_aac47e9c495a.png)
 
 由式(3)可知，串扰电压与漏源极电压的波动速率存在直接关联，在功率器件开启和关闭的过渡阶段，漏源极电压呈现近似线性的变化趋势。基于这一特性，可以引入电压变化速率参数k\=dugdl/dt进行量化分析。当漏源极电压完成线性变化阶段，幅值上升至直流母线电压Udc时，串扰电压将达到峰值状态。此时对应的时间参数可通过t\=Udc/k公式计算得出。若k值趋向于无限增大，则最大正向串扰电压的表达式可简化为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRqduwoiazZcVJKWiaxdQwYf4kaKKEemeh4nFhdMnicNmhoKxibibWXiaNtSiblGP2hjuzKHiaAluSGOT6jy28X01wTCic82XicdAUYf8Yo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_004_5b96422015c5.png)
 
 通过基尔霍夫电流定律（KCL）和基尔霍夫电压定律（KVL）推导得出：串扰电压与漏源极电压变化率成正比，且在漏源极电压变化时间结束时达到最大值；负向串扰电压的计算原理与之类似，其最大值与正向串扰电压大小相等、方向相反。
 
@@ -76,7 +76,7 @@ SiC MOSFET 的桥臂串扰源于其高速开关过程中寄生参数的影响�
 
 新型串扰抑制电路在传统电路基础上创新，使用了一种高效的辅助MOSFET 来降低串扰。如图3所示，当上桥臂的SiC MOSFET 被启动时，下桥臂的辅助MOS 管被激活。根据桥臂串扰原理，当Qh被激活时，Ql 的栅极之间就会出现正向的串扰，而这时，辅助MOS 管M2 的作用就变成了降低SiC MOSFET 的栅源极电压，避免下管Ql 误导通。当Qh 被关断时，Ql 栅源电容Cgsl会放电，而此时，辅助MOS 管仍然在导通，从而使栅源之间的电流被抑制，形成一个较为稳定的电流回路，从而有效地抑制栅源之间的电流，且栅极电位保持在一个安全的电位水平，从而避免出现负向串扰。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8wprmfrWJE2bxV96XhCuBF6tJ8RrmgaesLzPKiaNaCIsiao2WSTX2lJteKbdCb7bTtLdhvv7pGiaa8ot2CEqlJ7D2kyGu3Ivk0E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_005_8f8742da2c99.png)
 
 2.2 工作原理 
 
@@ -88,35 +88,35 @@ SiC MOSFET 的桥臂串扰源于其高速开关过程中寄生参数的影响�
 
 3.1 仿真分析 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM5ZR9ia9sicPYqibSNoica0PyThQf7GaDOJ1m7lOk74fnOF8fmJZM8Z3YumJBNOPqXAwQXfghGezqkCXbODFdsMx3kv2EK6EQU3vI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_006_21b8ea5d8777.png)
 
 利用LTspice 仿真软件对新型串扰抑制电路进行仿真。仿真模型中SiC MOSFET 器件采用Cree 公司网站所提供的C3M0065090D 模型，设置直流电压为100 V/600 V，电流为5~30A，驱动电压为–4 V/+20 V。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKseGMaV3ffKY0tlOTibrWSQcYXzFmq0G87jfycWq5IloJpsMVds1U6hGtwE4v3NiaNMUEZVcA5xTibG5aEPbdcFGaXI0xYjASF4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_007_69ec9cf8afc8.png)
 
 如图4 至图6 仿真结果表明，该创新性串扰抑制方案能够在多种直流工作电压条件下运行，既能有效维持开关器件的动态响应特性，又可将正向串扰和负向串扰的峰值电压严格限制在预设的安全范围之内。相比无源抑制电路和有源抑制电路，新型电路的抑制效果更为显著，验证了其理论设计的有效性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNbia2I6RBmkpn4MN0azGpFGpPzbrkgKKdIyJ0icdVesNxSxKpcddjj5icxoCbhicYh38vynCsJ2Vv3XE1HTTqGgL8iaibjgmAmZchAI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_008_22383f69404a.png)
 
  根据图4 至图6 的仿真结果整理出表1 的数据。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMOaty6U4gCcpecDiaiaMqbRcfp42cr1Wpnao2ic7Rzzrr0FsN5A6ZVskJEde6D06CHHK7123hqsJor71RKGHCxqvOST9P1z7biboQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_009_939068a0e98c.png)
 
 根据表1 可以发现，无源抑制电路对正向串扰电压的抑制较大，而对负向串扰电压的抑制效果不太明显，但是无源抑制会导致电路的开关频率降低，从而增加开关损耗。相反，有源抑制电路对负向串扰抑制效果较好，而对正向串扰不太好。新型抑制电路，虽然增加了辅助的MOS 管，但抑制正负向串扰的效果都非常明显。
 
 3.2 实验验证 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5eYd7XBlDibfRSd8kLaCNCXFSYJHIdTOdLVohYUylkDyGJxpJBqqg0agQ2g8wWq7ym5BTo4KM8JAYyia4gOJhTeF5ia6ktTiaZQM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_010_b55e57439e61.png)
 
 为了验证改进抑制串扰驱动电路的有效性，本文搭建基于GDsicsemi 公司SiC MOSFET 器件C3M0032120K 的桥式电路实验平台，对SiC MOSFET 在两电平变换器样机上进行双脉冲试验，平台见图7。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPEiafnibrHsfNfeQHJsYpRdA1cWTGRaYAZuAvE1cocHdBOBIFkWhZ1tRf5MweibmqRWRXDib6G3iaUtPLcDpBm55icpdS6EiaU06dSb4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_011_0238368bb83c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMzJMMuDgd1mRibOkCbXhRXJ1Z0sVnjIZribpnzrouibsQlZsPqb4teYfWiciclrQJ13kIV41Ydh7jCSc6Afoe7MIZW63ambUayn4ro/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_012_09d2b6e6133d.png)
 
 实验选取直流母线电压值200 V 及开关频率值20 kHz 这一典型的运行工况下，将常规负压关断型串扰抑制系统、并联电容型串扰抑制系统及本文提出的串扰抑制系统进行对比，在相同条件下对各系统串扰抑制效果进行测试记录，测试结果如图8 至图10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpML1OIJj8C8QDxAQJN1OTAlkc7uB46DsyzCib40RNeqz5IQbibXNr1baMwPMyGUEBHMaDDqhCfxuzfDESqMAqsFBR6p4icu7tpGiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_013_c3d7089d9cae.png)
 
 从表2 实验数据比较可以看出：新型抑制电路可以在不增加开关损耗的同时，呈现出良好的串扰抑制效果。相比传统抑制串扰驱动设计，新型串扰抑制电路可减小10%~61.2%的串扰电压，有效降低了开关延时与损耗，且随着驱动电阻、输入电压、负载电流增大，降低SiC MOSFET 开关损耗的效果更明显，进一步说明所提方法在抑制串扰和提高开关特性方面更具优势。
 
@@ -130,14 +130,14 @@ SiC MOSFET 逆变器在电动汽车永磁同步电机控制系统中具有广�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNLib13MQibOzrbjwyGK0q1spGlKibPeyLZxE0sqo4ku1bOISbFrysgBMyoNwCL1Yic0FxCpk6maiakJflJxeQdsbtqymHKaiax7SvZg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_014_d65fd5a71824.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSQDpCdBm0PI4icrR77QJTG0WZSdaziajTpjYiaia7icOtK138seuyPkbc4icT4ibEfTo43QGjOGgBeMTpiba64C8lCPoQ4kCcUicpIO5U/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_015_d4a470c5eda2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPnO5Yd0flwhBRLjZKLc9oY6mqohltvEYo4DDveibEx1AYNjkLiciazPicYkicAlcZlrWzoYCLhIp31lOOKKkHibYHjKCDlx1DFrxTzk/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_016_c1a7154d0067.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP1Kl5KbJkibiangUN1W1niaGtylmkxvw0CVibeFh8JDjdNMnxxknFIJQJT7cRUI6kWfsYGXZeFCOEKrevjNXgxS1k8Dlef1WHVOmM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_逆变器电动汽车永磁同步电机新型串扰抑制研究_images\img_017_4473dae8d5b9.jpg)

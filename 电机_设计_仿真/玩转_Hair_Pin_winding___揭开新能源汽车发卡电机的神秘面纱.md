@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8wn9WgNfcbM2erMfhvwTJw](https://mp.weixin.qq.com/s/8wn9WgNfcbM2erMfhvwTJw)
 
-![](http://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/0?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_000_6e6d80aceda4.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknaOwto1F6qFh0MkiaYnOBUmh8mibTMMdlMxcJMQLIh14jEhO3PhvbUjqA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_001_290475ed889f.jpg)
 
         发卡电机是个什么鬼？
 
@@ -15,7 +15,7 @@
 
         再看一张图片：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknrho0AAPp1eq9jcx9aNF7LTTUDq8bgUOq86butVKCfDhASrmDprarQA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_002_e68602faac2b.png)
 
         有没有找到一点感觉？
 
@@ -23,11 +23,11 @@
 
         单个发卡线圈：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrkn6GOJVjJiaqRicyy4UwSUZNKe8FSCbYzgdcrfns3YeWiaBSbic6x21ASbUw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_003_9a47bce7fbeb.png)
 
         多个发卡线圈：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknHU7loeUsNgEPkbph6siaesmx29s91JmnoMCxQH7G3hibwwbgRnuF6x8g/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_004_0a88f5e5f100.png)
 
   
 
@@ -35,25 +35,25 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrkny7NmKukf5rhoXBhC1tYG5yoDMAdTCN9eGE10iaWqbPQp8cVr2bCeskQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_005_925b51f3cb7e.jpg)
 
         目前做得最火热、成熟、出名的就是电装和雷米了。
 
         日本电装为丰田第四代普锐斯制造的电机：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknHc7HCOaUskrUGBPj3Nb47HdvpeI9MRMYD1bktMsCJ1PVgzphK8zNNg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_006_1ec9dd2b020a.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrkngN7SLunpHuO6tibX2iaKZPbjkPEfBk8F59SDSESa1XiaZPaSgmFA640iaQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_007_5a78e7cd9bef.png)
 
         雷米的HVH250系列电机（High Voltage Hartpin定子绕组技术）典型应用于通用雪佛兰的VOLT。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknYH8kufRSpv1wWLiaaTCWpTc7y8lgP7N6qia5iaPW5ZtCHTMTMADpvshoA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_008_076e4a87cea5.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknVjJdE029StlYwFE190Q122zDmxk9WUCibKsJlTZOcEoCUPSBa1dQOEw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_009_2fa30ad093ff.png)
 
         这两家公司都为自家的电机申请了专利（彩蛋：需要这两份专利的朋友在留言区或者公众号留下邮箱）。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrkniaqwW6pcsvKtVZaic6j1nslD7hAKSVWqC51a1g34ibTE7Fr1ibiajKseIeA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_010_5ccbf676668f.png)
 
   
 
@@ -61,11 +61,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknT1cQK6Uor44hh9kvX3qZc7GOZdNG5xmic94Sxy2gvK2S15LJDYtjoWQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_011_d17c4e6324ce.jpg)
 
         发卡电机也是扁铜线电机，扁铜线电机很多行业都有应用，比如：大功率异步电机、矿山电机、直流电机、风力发电机、火力发电机、大功率的牵引机电机、8000磅以上的绞盘电机、机车电机等等，国内也做了很多年了，说起来也挺成熟的。但是为什么发卡电机又这么火热？并且国内能做的、在批量生产的还没有呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknhoNp5gyQF9DyeMiauWHn1a0lpoqxwbuvbISVsibos5ibRWK5Fodo0V6xQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_012_1b03b8a22c63.jpg)
 
 **设计不同：**  
 
@@ -95,19 +95,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknlJnhZvWwHCuM2Pcx3Gw8xsbqibJDN1u4WFtKMfUOJBMyXsukJfiaum7g/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_013_4d705579d0b0.jpg)
 
         电机是新能源汽车驱动系统的关键，它的性能直接关系到新能源汽车整车动力性能。新能源汽车电机追求高功率、小体积、高转矩、高转速（高功率密度、高转矩密度）。新能源车用电机经过多年的发展，并伴随电机工艺及设备的成熟，电机绕组由之前的圆铜线设计逐渐向扁铜线绕组设计发展。为什么有这样的发展趋势？主要是因为发卡电机的以下优点：
 
 **槽满率高（最关键）：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknkpNyX03HQea1ph13czyibnoW215gtibPqhnHe9qxCGOCckibAo8EibeT1Q/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_014_fba5505b0daf.png)
 
 发卡电机有效铜的面积可以提高20%以上，传统电机有效铜槽满率只有45%左右，发卡电机能做到70%左右。
 
 永磁电机损耗由绕组铜耗、铁耗、风磨杂散、磁钢涡流损耗，其中绕组铜耗占比50%以上，铜耗大小又和绕组电阻成正比，减小绕组电阻能直接降低铜耗、提升电机效率和功率密度。  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknQaLAk7sialfb15yQTjnMmeJ8jtT9gXd6BPw6n1A1GH3Cib3DydUia5hibQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_015_7129f2e946ab.png)
 
 减小绕组电阻只能通过减小绕组长度或者加大绕组截面积。发卡电机提升槽满率能放进更多铜，增加了单匝绕组的截面积，减小电阻。
 
@@ -124,19 +124,19 @@
 
 通过温度场仿真，相同设计的扁铜线电机绕组温升比圆铜线电机低10%。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknad7libdToBvDx3jib0uSDGLUHpYyl77bzO4bPrElpZjVbuwPzIHY5Mag/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_016_aace483ec002.png)
 
 **绕组端部短：**
 
 线圈端部结构更紧凑。相比散嵌绕组，端部高度低很多。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknaLYUuOpRvia6Ca6q5lBgWjWZ03wV3nJoPtEeoOIYQ2wqSCEFdribDrEA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_017_0bbdef0e3131.png)
 
 **体积小：**
 
 根据电装公司的宣传资料，电机直径减小10%，轴向长度（高度）减小15%。功率密度明显提升
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknJmoiasDtqhzNia1TTjrtXAicwrZYB4AbSD4hYFemP0icMCgp60Ho1AIWRA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_018_a2ce199959cb.png)
 
 **性价比高：**
 
@@ -148,7 +148,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrkn56tRpwASicS49N6HGw5mpEIO9UcnOOtLhrxYAkIGmQkIjWhojG8ia3Rw/0?wx_fmt=jpeg)        事物都具有两面性，我们再看看发卡电机有没有缺点？
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_019_1e3cf296cf38.jpg)        事物都具有两面性，我们再看看发卡电机有没有缺点？
 
 **工艺复杂：**
 
@@ -176,7 +176,7 @@
 
 日立金属为普锐斯电机专门开发了铜线。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwaM4aBpSlOywmicrIq2lrknJMZg6ibibYIURJ8aZzdibCfpbW4iaB0wiag2GIpaBQHUA8lRnamBIOCWJCQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_020_f33c13f7e86b.png)
 
 **设备要求高：**
 
@@ -196,4 +196,4 @@
 
 长按图片，识别二维码，关注我哟
 
-> ![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转_Hair_Pin_winding___揭开新能源汽车发卡电机的神秘面纱_images\img_021_d7f135e99ea3.png)

@@ -5,7 +5,7 @@
 
 # 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/cKMPJZcQE7icnWf3f3trPnpme7kic4MCaibNa5yodw6MvNQITk9TIOW2gemibgaZI4eOdibDfMKSiclGy7bVGiaWiaibI4A/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_011_e57e0626d01d.png)
 
 # **基于无相位非冗余近场平面-极坐标数据的反射率重建研究**
 
@@ -40,7 +40,7 @@ Bevilacqua F, Capozzoli A, Curcio C, et al. Reflectivity Reconstruction from Pha
 
 * * *
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icnWf3f3trPnpme7kic4MCaibY4ict83DgcZYfWB3r1RN34oNdZDYj9qr88X10bV2PLqdFEYYllicCAMQ/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_001_70e6737c9aae.png)
 
 **当家有话说**
 
@@ -152,7 +152,7 @@ FFT正演+并行梯度计算
 
 **散射场模型（单站配置）：**
 
-![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2P3OUaBGicGWupKaPTPlIM2cZfr4GpsZW1GGdqFv95ocOxOl0oiaPBiblSQ/640?from=appmsg)
+![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_002_9e16bfab8d58.png)
 
 考虑平面目标位于平面，采用方向电偶极子激励。观测点与目标表面点之间的距离为：
 
@@ -174,7 +174,7 @@ FFT正演+并行梯度计算
 
 **扁球面模型（Oblate Spheroidal Model）：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2PjRGfYumu7MzXah0RMAnhNibia92auVX7nce7n0X2uDxlr1INz31k0Onw/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_003_fbc53fddfb81.png)**
 
 将目标和源等效为扁球体，主半轴，副半轴，焦距，偏心率：
 
@@ -312,7 +312,7 @@ FFT正演+并行梯度计算
 
 **仿真配置：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2PuDqibMmfedw7rx6qXLwqUIUgq4neEVhxPicEEsicxAE1ym62SrYbW2mTw/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_004_02cb22baa6f4.png)**
 
 **参数**
 
@@ -422,9 +422,9 @@ SNR = 30 dB
 
 **反射率重建质量（图8-14）：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2PRUpRYN7iciaZniaW6Wtt9PseSHczgRZBSYQ5iaSAYibhLKV0vzrFOSYaib4A/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_005_ecf14d20a7c3.png)**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2PO66bUg1NHp58uGbX472bO1DoN9e0yAsRDCE0ibFPQDCPQpvvdkHwSOg/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_006_2bbd8e64ee89.png)**
 
        • **目标A（剪切圆孔）**：
 
@@ -464,15 +464,15 @@ SNR = 30 dB
 
 • 证明反演模型的物理正确性
 
-![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2PhAuNBTuGiaSZfVJq71UbzjRLUpZk61tagTzspeMIMx09ofribibDepb9w/640?from=appmsg)
+![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_007_016ce72ea82e.png)
 
 ### **2\. 实验测量验证**
 
 **实验配置：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2PGclQoXP072WMZic1oKaCOFFeJlvHiaFQ4e5ce5lqEoCzG9UBZSrhQicJQ/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_008_3fc53e457c17.png)**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2PlTiccPaMYcXTE0eZ2c0tM4jgHo6Nr8EcdhLkNibAwvMuncmPfwA2bNLA/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_009_b7a3cee285b2.png)**
 
 **参数**
 
@@ -512,7 +512,7 @@ MI Technologies平面扫描系统
 
 **采样数据（图18-20）：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79ODdbVBsLXibAWJMTtibvO2Phia0tx9rlX0T2uqYxDQJeTTfA5ro0Q2xQ5v5VBVTW3VbNgxgYaGJEcA/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_010_41fab76f914f.png)**
 
 **方案**
 
@@ -669,7 +669,7 @@ GPU加速、在线优化算法
 
 **如果您有理论-仿真-实验 验证的优质好文，可以私信分享给小当家~**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/cKMPJZcQE7icnWf3f3trPnpme7kic4MCaibNa5yodw6MvNQITk9TIOW2gemibgaZI4eOdibDfMKSiclGy7bVGiaWiaibI4A/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\稀缺的硬核好文_IEEE_TAP发表无相位成像新方法_不用测相位_采样省94___当家带你读新文__images\img_000_e57e0626d01d.png)
 
   
 

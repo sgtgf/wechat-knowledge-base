@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiavx726I6XDTficSMVUT7GDJRXS56W2cVNeuiaMwfcHYIMfxOKicGy472G4w72IicuCSvcJogtxU0ibqVw/640?wx_fmt=png)
+![](为了防止BUCK电源对传导测试的影响_我加了_型滤波_但电感又开始了啸叫____images/img_002_8663bae2a34a.png)
 
 图1，电路示意图
 
@@ -66,7 +66,7 @@ BUCK电路的作用是将+12V转化为+5V或+3.3V以供电给其他芯片。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiavx726I6XDTficSMVUT7GDJGx0e3QpWT2wGpxKjOnKmPS0Liaa6cT191qIXliaMAHcPbz7e15DJZl9w/640?wx_fmt=png)
+![](为了防止BUCK电源对传导测试的影响_我加了_型滤波_但电感又开始了啸叫____images/img_003_b3a524a5b47e.png)
 
 图2，BUCK芯片走线示意图
 

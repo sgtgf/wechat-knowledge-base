@@ -10,9 +10,9 @@
 
 电路现象：PMOS断开后，输出端Vout电压先降低，后上升，再下降，随即下电波形出现回沟。（由以下电路展开）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icJYnPKZib5l7CIDpVs3xLrxE5vEzeFTIR4rmxian5svQbicweWQMoeQyWFdBsV7wKrwk4eZ0H9rvvKZw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_002_91d3ef3543a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icJYnPKZib5l7CIDpVs3xLrxETXuVm2bBNdEwM3byIvSPWoF8GF0MNC9QIKHLJZ093h4fibhw80fXjHw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_003_d173102405df.png)
 
 以上为PMOS开关仿真电路，其将负载换成了一个开关电路，在改变负载以后，Vout的下电波形就不正常了，这是为什么呢？
 
@@ -22,17 +22,17 @@ PMOS从导通到关断时，PMOS的阻抗会从接近0（导通），再到电�
 
 即其等效电阻突然变大，导致它获得的分压变大，这时就会出现以上的情况，Vout电压就涨上去了。也就是说，Vout的电压等于Vin在PMOS和负载上面的分压，如果负载RL突然变大，那么就有可能出现Vout突然上涨的情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icJYnPKZib5l7CIDpVs3xLrxE3lkVo88PGibmahgOMcPt2aFBPNDDb7BbMA3cicyibreYa2HTAyFPxsMNA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_004_5bae549d3c1d.png)
 
 因此，当PMOS从导通到关断切换期间，PMOS的Vgs电压等于其Vgsth，就出现了回沟。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icJYnPKZib5l7CIDpVs3xLrxEENiaJZEwugiaCYz2AfFx9sLzQUiasqiaiamunMUUPAgQcia8RcpUAPgs6Nrw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_005_66bd8d6c8116.png)
 
 那要如何解决这个问题呢？有两个选择。
 
 1、可以让PMOS更快的关闭，例如将PMOS的g和s跨接的电容从100nF调整到10nF，回沟就基本没有了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icJYnPKZib5l7CIDpVs3xLrxE8bibAJTCviaibhdvYQ4jowLtf7xic90HZLAMy7lciaS5vtNY9ERKfyyOnsA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_006_75e6d9568897.png)
 
   
 
@@ -44,9 +44,9 @@ PMOS关断的瞬间，过程是比较短暂的，信号可以当作交流，因�
 
 只要电容值合理，基本是可以解决电容回沟问题的。（如下图）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icJYnPKZib5l7CIDpVs3xLrxEVqqxKnnNbh1MW7xmBJYRAiaOq8jpklnKEA0bGjUlUTAdfCia4CZ5kXBA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_007_ca13a5b4af07.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_008_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\在PMOS断开的时候_输出电压Vout出现回沟现象_images\img_009_d5dcc7ecfdf3.jpg)
 
 ## 
 

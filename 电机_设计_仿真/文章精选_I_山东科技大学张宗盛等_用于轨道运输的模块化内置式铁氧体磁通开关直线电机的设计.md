@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/GJNsxirR4s-Q5DSeMG\_VGg](https://mp.weixin.qq.com/s/GJNsxirR4s-Q5DSeMG_VGg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -38,7 +38,7 @@ Z. Zhang, H. Wang and H. Chen, "A Design of Modular Interior Ferrite Magnet Flux
 
 A novel topology of modular ferrite magnet flux-switching linear motor (FMFSLM) use for track transport is presented in this paper, which enables more ferrite magnets to be inserted into the primary iron core. The motor has a significant low-cost advantage in long-distance linear drive. The proposed FMFSLM's structure and working principle were introduced. Further, the thrust force expression of the motor was established. The thrust force components triggering thrust force ripple were investigated, and their expressions can be obtained according to the inductances' Fourier series expressions. Resultantly, the relationship between the harmonics of thrust force and that of self- and mutual inductances was revealed clearly. Based on the relationship, a skewed secondary should be practical to reduce the thrust force ripple. Thus, the effect of employing a skewed secondary to the proposed FMFSLM was investigated, and an optimized skewing span distance was determined. Finite element analysis (FEA) was conducted to validate the exactness of the theoretical analysis. The simulation results indicate that the strategy of suppressing thrust force ripple has a significant effect. Meanwhile, the motor maintains a good efficiency characteristic. The results of the prototype experiment are in good agreement with FEAs, which further verifies the proposed modular interior FMFSLM's practicability.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178alCaPJfcYuyUpSAC4gat9kH6tpEDtqwOWTlwRsJicvvibgcXX5pSfv2A5T9EsXQibEoOzhzSroEOXQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_001_26b3b47af4aa.gif)
 
   
 
@@ -48,15 +48,15 @@ A novel topology of modular ferrite magnet flux-switching linear motor (FMFSLM) 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibFVS61jXW9YsZLZIVvOo6cLvY9nmvft1TOricRg1weNoXPYyED1hmpbym1NJBLRSZpLib5BcG0HicDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_002_4a231699537c.png)
 
 **张宗盛**，1984年7月生，2008年于河北工程大学获学士学位，2011年于太原理工大学获硕士学位，2015年于山东大学获博士学位；现为山东科技大学电气与自动化工程学院讲师，其研究兴趣包括永磁电机和特种电机，并发表相关研究论文10余篇。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178alCaPJfcYuyUpSAC4gat9N63kiceslOH8p5DqNx0mBRBAdDNviaADEnIPCTPXiarG4lOhK6ZnerjxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_003_6dd87db27de3.png)
 
 **王昊**，1986年1月生，2008年于沈阳理工大学获学士学位，2011年于沈阳工业大学获硕士学位，2017年于哈尔滨工业大学获博士学位，其主要研究兴趣包括永磁电机及旋转变压器的设计、分析和优化等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178alCaPJfcYuyUpSAC4gat9lKEt4WRvmgPjFbGnpO4zAXBpxq9BeG2LwDxQEiaDqicPtm6q4PdM5wqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_004_6ba656875013.png)
 
 **陈红**，1988年9月生，2010年于武汉科技大学获学士学位，2015年于华中科技大学获博士学位，现为山东科技大学电气与自动化工程学院讲师，其研究兴趣包括永磁电机及特种特种电机设计等。
 
@@ -64,7 +64,7 @@ A novel topology of modular ferrite magnet flux-switching linear motor (FMFSLM) 
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_005_654c2fde68d8.jpg)
 
   
 
@@ -78,15 +78,15 @@ A novel topology of modular ferrite magnet flux-switching linear motor (FMFSLM) 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_006_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_007_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_008_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -94,15 +94,15 @@ A novel topology of modular ferrite magnet flux-switching linear motor (FMFSLM) 
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_009_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_010_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_011_644d85f1cc17.png)
 
 学会官方B站
 
@@ -110,15 +110,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_012_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_013_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东科技大学张宗盛等_用于轨道运输的模块化内置式铁氧体磁通开关直线电机的设计_images\img_014_c28b250481e7.jpg)
 
 学会科普微信
 

@@ -23,7 +23,7 @@
 
 ● 满足车规级要求：按照AEC-Q101标准测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSjwTicTFTpAZkyVMqQfvFfg8IT6icp1OS6wmavQX8iaUibloVfZZBEBeknicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国内首家量产六英寸SiC_MOS厂家_深圳爱仕特科技_images\img_000_84e94408d38c.png)
 
   
 
@@ -41,7 +41,7 @@
 
 ● 2.5KV绝缘电压
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSj6WYKhJ8ZgChdWMBnnutPhdGsO5XyicsMjOZZIuUt34ngUV09Lf8vYRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国内首家量产六英寸SiC_MOS厂家_深圳爱仕特科技_images\img_001_187e0ace5936.png)
 
   
 
@@ -49,8 +49,8 @@
 
 消费电子，手机快充，家用电器，医疗设备，环保节能，国防军工，新能源发电，新能源汽车，轨道交通，5G通信，智能电网，OBC充电桩等
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSj6DWz9oB9oicze6dF5LvM8NrAKFelwicax0CuibdHuTibVcQD0ZGnvcHk6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国内首家量产六英寸SiC_MOS厂家_深圳爱仕特科技_images\img_002_fbf077b6d8c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSjUZDrZoacVv9ib9yhbicgpxOiceEXQMA3LK4MlibC5PwYvw2licTruGY115Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国内首家量产六英寸SiC_MOS厂家_深圳爱仕特科技_images\img_003_a7621d486f5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSjBib3AlNqzh7c6NIlicwD7Z7fKiby5Hibrty7UQFnHicbna1DicoGmkuic4Y9Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国内首家量产六英寸SiC_MOS厂家_深圳爱仕特科技_images\img_004_cb46b64c525c.png)

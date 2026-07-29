@@ -109,16 +109,16 @@ Fortran开发环境极简配置教程
 
   
 
-![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_005_a43309e53088.other)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_005_a43309e53088.jpg)
 
   
 
 我们目前正和专业SCI论文英文润色机构**艾德思**开展全方位合作。如果您需要**论文和基金标书辅导服务**，欢迎扫描下方二维码，获取您的专属学术顾问，**锁定直减活动优惠**👇  
 
-![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_006_0cc72b672a55.other)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_006_0cc72b672a55.jpg)
 
-![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_007_e9181a395fa1.other)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_007_e9181a395fa1.jpg)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 
-****![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_008_257d3c543e63.other)****
+****![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_008_257d3c543e63.jpg)****

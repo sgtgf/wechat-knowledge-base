@@ -19,19 +19,19 @@
 
 SiC MOSFET 开关动作造成的脉冲电压干扰和脉冲电流干扰，通过米勒电容耦合到栅极，干扰栅源电压，形成串扰。根据这一特点，构造基于跨导增益的负反馈调节机制， 如图 1 所示。采用普通 SiCMOSFET 的驱动芯片，在被控 SiC 功率 MOSFET QN栅极附近增加 1 个辅助 MOSFET QP。为了实现负反馈， 辅助 MOSFET QP 的沟道特性应当与被控 SiC MOSFET QN 互补。一般情况下， 功率 MOSFET QN为 N 沟道，因此，辅助 MOSFET QP 应当为 P 沟道。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fLqtd4FrSJf0M83CibrPMRqMxs7MwF0oFP2jvRweA7WkjKohZ6EEniasQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_000_a0d2c1a68262.png)
 
 除辅助 MOSFET 之外，普通 SiC MOSFET 驱动芯片输出信号， 经过驱动电阻 R 和辅助电容 C 构成的无源网络后，得到 v\* GS作为栅源极的参考信号。驱 动 电 阻 R 和 辅 助 电 容 C 用 于 调 节 被 控 SiC MOSFET 的开关速度。在功能上，辅助电容 C 可缩小驱动芯片、辅助 MOSFET 和被控 SiC MOSFET 栅源极三者构成的回路面积，实现驱动回路的高频解耦；驱动电阻 R 可限制驱动芯片对辅助电容 C 的充、放电电流大小，起限流和保护的作用。需要指出的是，基于跨导增益负反馈的栅极驱动电路不依赖额外的电路，仅采用普通 SiC MOSFET 的驱动芯片和驱动电阻 R，外加辅助 MOSFET 和辅助电容 C 即可实现。
 
 以图 1 所示电路为例，闭环负反馈控制器栅极电压的跨导增益负反馈机理如图 2 所示。记被控SiC MOSFET 的栅极电压为 vGS，驱动电压为v\* GS。驱动电压 v\* GS作为栅源极的参考信号， 输入栅极负反馈控制回路。参考信号与被控 SiC MOSFET 的栅源电压 vGS 之差，通过辅助 MOSFET 的跨导增益gm，控制被控 SiC MOSFET 输入电容 Ciss 和栅极内电阻 Rg共同构成的被控对象。外界脉冲电压和脉冲电流的干扰 n（s），通过米勒电容产生位移电流，对被控SiC MOSFET 的 Ciss 充、 放电， 对栅源电压形成干扰。因此，图 2 中栅源电压干扰的传导特点可以归纳为：SiC MOSFET 开关动作造成的脉冲电压干扰和脉冲电流干扰，通过米勒电容耦合到栅极，干扰栅源电压，形成串扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fGlLupbrMr5QxRKwyiaEmA0vMCOfwyWusFb6jMfVFa6LWV7TtO4x7Taw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_001_7531cde45685.png)
 
 根据栅源电压干扰的传导特点，构造基于跨导增益的负反馈调节机制。图 2 中，在引入负反馈控制后，若 vGS 增大（或减小），则其与参考值 v\* GS之差增大，经过驱动管跨导增益的调节，对输入电容 Ciss放电（或充电），vGS 恢复稳定。栅极负反馈控制的目标是让被控 SiC MOSFET 的栅源电压 vGS 跟踪驱动信号 v\* GS的变化， 并屏蔽脉冲电压和脉冲电流的干扰 n（s）。
 
 图 3 展示了用于桥臂结构的基于跨导增益负反馈的驱动电路。图中，R1 和 R2 分别为上管和下管的驱动电阻，C1 和 C2 分别为上管和下管的辅助电容，QP1 和 QP2 分别为上管和下管的辅助 MOSFET。桥臂上管 QH 作为主动管，在脉冲控制信号 S1 的控制下开通、关断；桥臂下管 QL 作为被动管，其控制信号 S2 一直处于低电平，QL 沟道关断，仅用其寄生体二极管续流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fOVXsibs7ibLgK8SIg2tE74uKAsVglblcDYrs0LM61ScpGDaWj06Sntvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_002_53d55f0303dc.png)
 
 SiC MOSFET 的米勒电容 CgdH 和 CgdL 随着漏源电压的增大而降低。为了方便揭示基于跨导增益负反馈的栅极驱动电路的工作原理，本文引入分段线性化的近似曲线，拟合实际曲线。当漏源电压大于栅源电压时，CgdH 和 CgdL 的值为 Cgd1；当漏源电压小于栅源电压时，CgdH 和 CgdL 的值为 Cgd2。桥臂中点输出电流，在 1 个开关周期中，近似恒定，因此以恒流源表示为 IL，记桥臂上的直流电压为 VDC。图 4（a）和（b）分别展示了图 3 所示电路中 QH 开通和关断的动态过程的理论波形。分别以 S1 从低电平变为高电平的时刻和 S1 从高电平变为低电平的时刻为初始时刻，2 个动态过程分别有以下 4 个主要模态。
 
@@ -41,7 +41,7 @@ SiC MOSFET 的米勒电容 CgdH 和 CgdL 随着漏源电压的增大而降低。
 
 开通模态 3：电压下降阶段 tfv1。普通驱动电路情况下，将进入米勒平台，栅源电压维持在VGS，IL 不变。但采用栅极负反馈驱动的 SiC MOSFET，由于图2 所示负反馈机制的存在，QH 的栅源电压 vGS1 仍然跟随 v\* GS1一起升高，不会维持在 VGS，IL 不变。在该模态中，vDS1 从 VDC 开始下降，由于漏源电压仍然大于栅源电压，CgdH 依旧相对较小（Cgd1），该阶段 vDS1 下降速度相对较快。QL 的漏源电压 vDS2 迅速上升，因而 QL 的栅源电压 vGS2 受到干扰继续上升；由于图 2所示负反馈机制的存在，当 QP2 的源极 SP2 的电位高于 QP2 的漏极 DP2 的电位， 且电位差超过阈值电压Vth 时，QP2 沟道导通， 驱动芯片通过 QP2 沟道为 QL输入电容 CissL 放电，QL 的栅源电压 vGS2 减小， 干扰得到抑制，vGS2 又回到 VEE2。当 vDS1 下降到与 vGS1 相等时，该模态结束。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fgvt46S0HoWzBD7jZO1WBjDjeH1iaGVGEqmJQzxIKGfsCtZic133BywNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_003_29b1bbf7f754.png)
 
 开通模态 4：电压下降阶段 tfv2。由于图 2 所示负反馈机制的存在，QH 的栅源电压 vGS1 仍然跟随 v\* GS1一起升高，不会维持在 VGS,IL 不变。vDS1 继续下降，由于漏源电压小于栅源电压，CgdH 相对较大（Cgd2），该阶段 vDS1 下降速度相对较慢。当 vDS1 下降到 VDS（on）时，该模态结束。
 
@@ -53,15 +53,15 @@ SiC MOSFET 的米勒电容 CgdH 和 CgdL 随着漏源电压的增大而降低。
 
 由图 2 可知，图 1 所示基于跨导增益负反馈的栅极驱动电路的闭环传递函数 Gd（s）和干扰信号 n（s）对栅源电压 vGS 干扰的传递函数 Gn（s）分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fBXdvmFb6V58Qtuuial240ZhHiansLvHicBlP7bYTrzSoysp2GfPticVBsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_004_5030cf852354.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fSaiac4QBAURu9pJeIScrPVWE6hOQfyk6Uib3Mf2TrEDBHqUWibzSM0mZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_005_7ece1a7134cc.png)
 
 **3  短路保护设计**
 
 本文基于退饱和检测原理，研究所提驱动的短路保护。在所提驱动的短路保护电路中，退饱和检测电路由检测二极管和限流电阻等元器件构成，如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fj45Be1IERY9dUmMrTPOPTyWjIiaPXUicibHc4QI2hiaDbqiaz8icReiaBQjQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_006_9f1d769595e5.png)
 
 图 5（a）是短路保护电路的电路。为防止保护电路在 SiC MOSFET 开通过程中， 出现漏源电压没有降低到保护阈值电压之下，便引发误动作的情况，驱动芯片内置恒流源 IDESAT 与电容 CDESAT 构成消隐电路。图 5（b）是短路保护电路的原理波形。以硬开关短路为例，介绍短路保护电路的工作原理。
 
@@ -77,9 +77,9 @@ SiC MOSFET 的米勒电容 CgdH 和 CgdL 随着漏源电压的增大而降低。
 
 本文搭建图 6 所示桥臂电路实验平台，验证所提驱动在栅极电压稳定性改善中的作用和短路保护功能。 桥臂电路实验台主要参数如表 1 所示。 电压波形测量采用 100 MHz 的差分电压探头 Yoko\-gawa 700924，电流波形测量采用 30 MHz 罗氏线圈PEM CWT1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fXAlhOegYtV8I5YgPWibwKpExAPicic13ciaKIF1LmoicbV46kYUgFEzODMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_007_cebb4eeb460e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fkF4SgLe84bjLBEaOZPIsfDqO1tfzuATyYdvtUSUrogurvzvEiazNQRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_008_71cfc056de12.png)
 
 **4.1 工作原理验证**
 
@@ -93,7 +93,7 @@ SiC MOSFET 的米勒电容 CgdH 和 CgdL 随着漏源电压的增大而降低。
 
 在同一个桥臂电路中，保证输入电压和输出电流等外部条件不变，对比研究采用固定电阻的传统驱动与本文所提驱动，在相近漏极电压变化率下的双脉冲实验波形，如图 8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fxibjXHv042t2evs8umeTMYT37Xyx0DqbHxoYnFeNPgj5LsGtEdBZgqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_009_2a4b163963f1.png)
 
 图 8（a）展示了主动管 QH 以及被动管 QL 在传统驱动电路控制下的波形，主动管和被动管的驱动电阻均为 10 Ω。 被动管 QL 的漏源电压 vDS2 的上升斜率约为 43.7 V/ns， 下降斜率约为 51.25 V/ns；被动管 QL 栅源极电压 vGS2 受到干扰出现振荡， 正向尖峰达 7.9 V，负向尖峰约 7 V。 图 8（b）展示了主动管 QH 以及被动管 QL 在本文所提驱动电路控制下的波形，根据前文设计，主动管和被动管的辅助电容取 C1=C2=20 nF，驱动电阻 R1=R2=2.5 Ω。 上升斜率约为 50 V/ns，下降斜率约为 50 V/ns；被动管 QL栅源极电压 vGS2 受到干扰出现振荡， 偏离关断电压，正向尖峰约 3 V，负向尖峰约 3 V。
 
@@ -103,13 +103,13 @@ SiC MOSFET 的米勒电容 CgdH 和 CgdL 随着漏源电压的增大而降低。
 
 将实验平台的桥臂中点短路，保证其他外部条件不变，仅改变驱动策略，对比研究采用固定电阻的传统驱动与本文所提驱动的短路保护性能。考虑电能损耗， 芯片内置恒流源 IDESAT 的输出电流一般在 250~500 μA，1ED020I12鄄F2 等驱动芯片推荐的CDESAT 不小于 100 pF， 这样可以保证保护电路具有足够的抗干扰能力，取 CDESAT=100 pF，IDESAT=500 μA，保护阈值电压 VREF=9 V，消隐时间约为 1.8 μs。 为确保对比分析时的单一变量原则，保证两种不同的驱动策略在参数选取时具有相似的开关速率。两种驱动电路的参数取值如第 4.2 节所述，在此不再赘述。 同理，两种不同驱动策略的短路保护电路均基于退饱和检测原理， 并具有相同的电路参数配置，如第 3 节所述。 不同直流电压 VDC 下的短路保护波形如图 9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fiaOzCGNnVOVD67s1BhlcH8EE6q6PKnmrUA8TtklR8Fib7OH7vsFwCUnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_010_42aeeec32095.png)
 
 图 9 所示实验结果， 经示波器采集存储后，导入 Matlab 进行波形复现整合， 将不同直流电压下的 SiC MOSFET 漏极电流合并到一起。 短路故障出现之前，被测 SiC MOSFET 工作于断开状态，零时刻出现短路故障，被测 SiC MOSFET 漏极电流快速上升，到达短路电流峰值。 两种驱动策略下，短路电流表现出类似的趋势，并均在 3 μs 内关断，完成短路保护。 随着直流电压 VDC 的升高，到达短路电流峰值的时间缩短，并且短路电流峰值增大。 在短路电流下降阶段，较高 VDC 下的短路电流下降速度明显较快，其在关断时刻的短路电流值比较低 VDC 的更低。
 
 图 9（a）和（b）所示短路电流的峰值对比，如表2 所示。 在直流电压 VDC 从 100 V 上升到 400 V 时，采用传统驱动，实验中的短路电流峰值从 196 A 上升到 236 A；而采用本文所提驱动，实验中的短路电流峰值从 188 A 上升到 228 A。 二者具有相同的变化趋势，随着 VDC 的升高，短路电流峰值增大。 用本文所提驱动下的短路电流峰值除以传统驱动下的短路电流峰值，得到短路电流峰值比。 由表 2 可知，直流电压 VDC 从 100 V 上升到 400 V 时，在相同 VDC 下对比两种不同驱动下的短路电流峰值，本文所提驱动下短路电流峰值约为传统驱动下短路电流峰值的 96%。 因而，在相同直流电压下，采用本文所提驱动，短路电流峰值较传统驱动的更低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9flTibMGQyESZO55fM9fIjbicsedUiaLicbdX8SVViaM5LgKiahHFAWz9B3FzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_011_6b21ca5a377e.png)
 
 **5 结论**  
 
@@ -119,8 +119,8 @@ SiC MOSFET 开关动作造成的脉冲电压干扰和脉冲电流干扰，通过
 
 本 文 的 研 究 结 果 将 有 利 于 进 一 步 提 高 SiC MOSFET 在高开关速率下的运行可靠性，更充分地发挥碳化硅器件的性能优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_012_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_013_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种提高_SiC_MOSFET_在高开关速率下栅极电压稳定性的驱动电路_images\img_014_84aa944feb13.jpg)

@@ -153,7 +153,7 @@ Fortran开发环境极简配置教程
 
 # 推荐阅读
 
-![](Fortran调试技巧___借用C语言中的FILE和LINE宏_images/img_002_4c000353cb8b.other)
+![](Fortran调试技巧___借用C语言中的FILE和LINE宏_images/img_002_4c000353cb8b.jpg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

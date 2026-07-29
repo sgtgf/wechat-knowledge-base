@@ -48,7 +48,7 @@
 **  
 模型：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915RKmxsH7M5TBAkUbJibQmPtd0lGu2XwXQgyTwl8qsMVUJ3jLPVorpKJA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_002_98ac0b8a57e6.jpg)
 
   
 
@@ -76,7 +76,7 @@ VN1＝I2ZG为电源I2流经地平面阻抗ZG而在1号电路感应的噪声电�
 5、一个重要思想是：PCB上的EMC主要取决于直流电源线的Z  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915ibZ6pRDA5O6w8ywHJ0BrGCxzIBFtDA7wX0nICJRBbRUlE66ibJoPxQHQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_003_70cdbd6e5271.jpg)
 
   
 
@@ -88,7 +88,7 @@ VN1＝I2ZG为电源I2流经地平面阻抗ZG而在1号电路感应的噪声电�
 
 下面是电路板布局准则：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915DcuOTic9kSlP4QvPCqvS3QC4GHe7ssZagHY3R3kWF3sicOqLOibjz8Xeg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_004_b9c0a34ffe39.jpg)
 
   
 1、 晶振尽可能靠近处理器
@@ -133,7 +133,7 @@ VN1＝I2ZG为电源I2流经地平面阻抗ZG而在1号电路感应的噪声电�
 
 **1屏蔽 > 模型：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915UrMCNXRnqZeYEXj2ZVibuwjVVQzKjyOKP17KDtsA8qazy5iczHs1RFVA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_005_fbb8d53155d9.jpg)
 
 屏蔽效能SE(dB)＝反射损耗R(dB)＋吸收损耗A(dB)
 
@@ -170,12 +170,12 @@ VN1＝I2ZG为电源I2流经地平面阻抗ZG而在1号电路感应的噪声电�
   
 2、好的接地方式：树形接地
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915LCyjoWLPH2cxyoOhbheuhicyHiabgZRYAp93AQ8I4R7jkib318V9leq2Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_006_ccea33c90c56.jpg)
 
   
 3、信号电路屏蔽罩的接地。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915NHT7k7PlPn7LMEKmY37ibV5p1E6BJ0LEtL9sSdM9pmY42KG2LNJaoXg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_007_a2f13bc1af9c.jpg)
 
   
 接地点选在放大器等输出端的地线上。
@@ -206,9 +206,9 @@ VN1＝I2ZG为电源I2流经地平面阻抗ZG而在1号电路感应的噪声电�
 一个典型信号的频谱：  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915dIuyNF4mNMhsqnwykkzFq7BQdDzicxnnKqg6UG9EROSiclTOox1RAV4Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_008_c691fad90777.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915xlqC5C3UpJWrb2EDhCg0QvLCW9JVf8OiczG1njFoAibMsjb9ckzLxibDw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_009_e4ddb855c018.jpg)
 
   
 2、选择交直流电源滤波器抑制内外电源线上的传导和辐射干扰，既防止EMI进入电网，危害其它电路，又保护设备自身。它不衰减工频功率。DM(差摸)干扰在频率 < 1MHz时占主导地位。CM在 > 1MHz时，占主导地位。
@@ -219,7 +219,7 @@ VN1＝I2ZG为电源I2流经地平面阻抗ZG而在1号电路感应的噪声电�
   
 4、尽可能对芯片的电源去耦(1-100nF)，对进入板极的直流电源及稳压器和DC/DC转换器的输出进行滤波(uF)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaL7Jgxumtj7dUeDO4QY915pppSGET3dX6icn2TtLibuCaEIBrmwEZUM7ggQoB2z6FD8ypZoITPE6YA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC主要从哪些方面来考虑_images\img_010_2b3d529258d9.jpg)
 
 Cmin≈△I△t/△Vmax    △Vmax一般取2％的干扰电平。
 

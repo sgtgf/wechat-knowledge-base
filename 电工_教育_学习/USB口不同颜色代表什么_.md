@@ -13,14 +13,14 @@
 色代表快充，最大电流6A  
 紫色代表快充，最大电流5A
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhbTqkG3SHKdPibwrppq9bXgLKicnAktOicLCcaWjltsPTwBcPiacNNbfCQ4PV64yIKJEnMLtoSbFsuTA/0?wx_fmt=png&from=appmsg)
+![图1](D:\电脑文件\公众号知识库\电工_教育_学习\USB口不同颜色代表什么__images\img_000_be3897b30fa3.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhbTqkG3SHKdPibwrppq9bXg8gmhwJUF2sjIw75ibZSTK1QlfJk7r81l3cYETe1dBuhGD237MoicHHOg/0?wx_fmt=png&from=appmsg)
+![图2](D:\电脑文件\公众号知识库\电工_教育_学习\USB口不同颜色代表什么__images\img_001_905b61cf62eb.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhbTqkG3SHKdPibwrppq9bXgRqrd2u6rHgWBZ5UdOffABofhqZTedJ03S4HwUcOGhtLLaQfQJhBiccA/0?wx_fmt=png&from=appmsg)
+![图3](D:\电脑文件\公众号知识库\电工_教育_学习\USB口不同颜色代表什么__images\img_002_e69361791681.png)
 
 图3

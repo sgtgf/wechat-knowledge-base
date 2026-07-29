@@ -31,85 +31,85 @@
 
 反激变换器因其元器件少、结构简单等优点，常应用于驱动隔离电源场合。但反激变压器漏感能量释放使开关管承受较大的关断电压尖峰，传统无源吸收电路损耗又较大，而有源钳位反激变换器不仅可有效降低开关管电压应力，还能实现零电压开通（zero voltage switching，ZVS），提高变换器效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBR8Hhczl1sHNvHL8NlNd4yYycibLw3OHRqz3hAxUEGdNvjIlL6C6oPYhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_000_31af3e2f7c58.png)
 
 低边有源钳位反激变换器结构框图如图 1 所示［17］，图 1中 Vin 为输入电压，Vout 为输出电压，Lm 为励磁电感，Lr 为漏感，Np 和 Ns 分别为一二次侧绕组匝数，Qm为主开关管，Qr为钳位开关管，Coss1 为 Qm输出电容，Coss2 为 Qr输出电容，Cr 为钳位电容，D1为二次侧整流二极管。为提高一二次侧隔离电压，变压器二次侧不做反馈，直接开环输出，并在二次侧输出增加宽输入范围的开关电源模块获得稳定的驱动电压。
 
 本文以驱动 3.3 kV/750 A 的高压大电流 SiC MOSFET 为目标，设计一款输出功率 Pout = 6 W 的低耦合电容驱动隔离电源，其目标参数如表 1 所示，表 1 中驱动变压器的一二次侧隔离电压 Viso 可查阅 IEC 61800\-5\-1 标准。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRhMSGr3IPTHcoyXTzBQlpQByNlJaHFgI4yjjMcrqFWVU2IT0nLLEXqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_001_527471ead835.png)
 
 虽然 E 型磁芯开气隙有利于减小变压器体积，但 E 型磁芯一二次侧重叠绕制方式大大增加了耦合电容。因此，本文选择一二次侧分开绕制的环形磁芯，磁芯材料选择高频损耗特性更优的铁氧体。基于文献［19］所述设计方法，有 源 钳 位反激变 换 器 关 键 参 数 设 计 如 表 2 所 示。一 二 次侧 绕 组 选 择 三 重 绝 缘 利 兹 线 ，绝 缘 层 材 料 为 聚 氟 乙 烯（ethylene tetra fluoro ethylene，ETFE），单 重 绝 缘 层 厚 度0.0508 mm，三重绝缘层耐压达 9 kV（rms/50 Hz/min），单股线芯直径 0.1 mm，共 40 股。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRNxRetVTygjx7RaptYdt1MgibEmJkcUTWb3oYUSTiaIUDVgia4yv2NgicJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_002_4ce6a0414076.png)
 
 **2.　隔离电源耦合电容等效简化解析****模型**
 
 本文借鉴平板电容器思想，将驱动隔离变压器耦合电容等效为如图 2a 所示的三电容体系。图 2a 中 rc,o 为磁环外径，rc,i 为磁环内径，h 为磁环高度，Cp,c 为一二次侧绕组与磁芯间电容，Cs,c为二次侧绕组与磁芯间电容，Cp,s 为一二次侧绕组间电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRGs3GtcPhcL3Oic1yegpXpYedv6D2C9HNrVTvAHAzJURO9RLhbdaZW6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_003_7cc39ba20c04.png)
 
 一次侧绕组纵截面如图 2b 所示，rw,i 为三重绝缘线内导体直径，rw,o 为三重绝缘线外径，借鉴平板电容器思想，将一次侧绕组沿磁芯横截面展开构成平板电容器的一个极板，磁芯构成另一极板，则一次侧绕组与磁芯间电容 Cp,c 可近似简化为如图 2b 所示的平板电容器。图 2b 中 dcu 为圆形绕线导体等效为正方形导体时的边长：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRbsEf2GuIdE1ZzwexXuNCuNdUPJjWF8MOyWrR3yPV67R0dF6ic3QkYjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_004_735a3096c9f7.png)
 
 图 2b 中 dtr 为三重绝缘层厚度，dair 为一次侧绕组与磁芯间的空气间隙，dtr 和 dair 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRdBEqR6UuFjzqZnbr08NQicMcEaat2omA1Gj59eHzcS1Fj0Fkrhzwcqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_005_be2b70a757b3.png)
 
 式中：k——修正系数，用来修正实际绕制过程中，绕组与磁芯间的空气间隙误差。
 
 图 2b 中 lp,c 为一次侧绕组等效极板长度：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRyOz87FIulZm03f3L0oyxicicFRXCgxep0JLXx1fb47mqxwibBobVc2E9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_006_806f150f4087.png)
 
 图 2b 中 wp,c 为一次侧绕组等效极板宽度，可等效为磁芯横截面周长：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRG3GT5lGnj0WwFurc3CVvBOylZLcvaYL912hUXhKRQdU4ng3nTia9WwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_007_351cfe518adf.png)
 
 基于理想无穷大平板电容器表达式，可得不考虑边缘效应时 Cp,c 的理想值 Cp,c(ideal) 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRHib9ZVynRnm1GiatXMLRBDkfSSUf497bI4DdMkKPJtxDLMWNkhFjU5nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_008_02322b5dd6f9.png)
 
 式中：ε0——真空介电常数，F/m；εr,air——空气相对介电常数；εr,tr——三重绝缘层材料相对介电常数。
 
 实际 Cp,c 并非无穷大平行板，需对其边缘效应进行补偿，考虑边缘效应时 Cp,c 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBR8vqX3XBFryXqyoFVW8c9dT6tEicEg4fdY9aZSg3kVKR0J95bZD7VeicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_009_67c63660bfe5.png)
 
 式中：Ccmp1——考虑边缘效应时 Cp,c 的补偿值，pF。
 
 一 二 次 侧 绕 组 间 电 容 Cp,s 主 要 考 虑 磁 芯 内 侧 绕 组 影响，可 简 化 为 如 图 2c 的 等 效 平 板 电 容 器。鉴 于 三 重 绝 缘层 厚 度 dtr 远 小 于 磁 芯 内 径 rc,i，因 此 近 似 认 为 一 二 次 侧 介质 只 有 空 气 。当 不 考 虑 边 缘 效 应 时 Cp,s 的 理 想值 Cp,s(ideal) 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRupT8fJiboiaTohPaZMr2Q2LwByyIPh7oOrsCskWzBqPsrAetBhHKWVCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_010_0ca8164f7734.png)
 
 实 际 Cp,s 也 需 对 其 边 缘 效 应 进 行 补 偿，考 虑 边 缘 效 应时 Cp,s 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRh1lIyyBpXJic5Hb0PQiaU0BNfQ2hicy62ncxNBvMSiarwIia9aHOicjiaVicpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_011_ccac1ec1b69e.png)
 
 式中：Ccmp2——考虑边缘效应时 Cp,s 的补偿值，pF。
 
 图 3 给出了耦合电容 Cio 三电容体系的等效电路，Cio 可等效为 Cp,c 串联 Cs,c 后，再与 Cp,s 并联的结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRPhcTbzedwSUZvcVXw6ibxj0YJX6EruiaVJZZcb0NicOWm9F84Atc6Bx4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_012_78358bb91b90.png)
 
 由于 Np∶Ns=1，则 Cp,c = Cs,c，Cio 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBR5RPMasMwociaCoVfYFbIvS7qlLibmWvRsmgZ90LBY7qhzcaAkMPnUskg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_013_20cc7c548462.png)
 
 将 参 数 rc,o = 25.30 mm，rc,i = 14.80 mm，h \= 10 mm，rw,o\= 0.95 mm，rw,i = 0.65 mm，dtr = 0.15 mm，ε0≈8.85×10\-12F/m，εr,air = 1，εr,tr = 2.60，k \= 1.10，代入式（1）~式（8）中，可得 Cp，c=4.86 pF、Cp，s=0.10 pF，再将 Cp，c和 Cp，s代入式（9）可得 Cio=2.53 pF。从等效简化解析模型计算结果可知，一二次侧绕组与磁芯间电容占变压器耦合电容的绝大部分，而一二次侧绕组间电容占比要小很多。
 
 为验证所提耦合电容等效简化解析模型可行性，建立如图4a所示的驱动隔离变压器三维模型，Cio 静电场仿真结果如图4b 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRtvHgNdOgjZTDPzbVia45aIdw2Wt7iaySKd3AFdvMWghAAKpuGyFK4Rcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_014_2b95b74c9a61.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRmERv5nibPX9zbDHcQ3BxW56BdMC9mk5XgDYiaKicvXYYiaDz5rWx0odgHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_015_7683f3b88504.png)
 
 由图 4 可知 Cio 仿真结果为 2.60 pF，与等效解析模型计算结果接近，且静电场强度也主要集中在一二次侧绕组与磁芯之间，而一二次侧绕组间电场强度则弱得多，说明 Cp，c 和Cs，c占 Cio主要部分，与解析模型分析一致。
 
 为进一步验证该文所提等效简化解析模型的可行性，使用 E4990A 阻抗分析仪对实际绕制的变压器耦合电容进行测试，驱动变压器实物图及耦合电容测试结果如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBREQEmKC4VKJ9InKD7v25vvNXzKXQkhY4ibS47d16kX7jJjLCGK6dTqmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_016_b904006d5678.png)
 
 从测试结果可知，变压器耦合电容在 450 kHz 频率下测试值约 2.60 pF，与模型解析值及仿真结果基本吻合，验证了所提耦合电容等效简化解析模型的可行性。
 
@@ -123,11 +123,11 @@
 
 以不同磁芯尺寸为例，在保持励磁电感 Lm 不变情况下，增大磁芯尺寸至 rc,o = 29.50 mm，rc，i=19.00 mm，h\=14.90 mm，一二次侧绕组从 5 匝减小到 4 匝，将参数带入等效简化解析模型，可得 Cio = 2.72 pF。其静电场仿真及实测结果如图 6 所示，Cio 静电场仿真结果为 2.92 pF，实测结果在 450 kHz 频率下 Cio 约 2.95 pF，都与模型解析值接近。增大磁芯尺寸后，虽然一二次侧绕组间距离增加，但 Cio 反而增大，这是由于磁芯尺寸增大，磁芯横截面积也随之增加，导致一二次侧绕组与磁芯的交叠面积增加，Cp,c 和 Cs,c 都增大，Cio 增加。因此，简单的增大磁芯尺寸未必能减小 Cio，甚至可能增大 Cio。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRXoy8ElR4zG5m5XTBAPPO3kyzZj4SoMqUibpiagteYUETficmewZbJAgqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_017_a5d7b9d32e6c.png)
 
 为进一步分析一二次侧绕组与磁芯交叠面积影响，表 3给出相同磁芯尺寸，不同绕组线径、绕组匝数和绕组绕制疏密程度下 Cio 的解析值、仿真值及实测值。由表 3 对比结果可知，相同绕组匝数与疏密程度下，绕组线径越粗，绕组与磁芯交叠面积越大，Cio 越大；相同绕组线径与疏密程度下，匝数越多，绕组与磁芯交叠面积越大，Cio 越大；相同绕组线径和匝数下，疏绕方式使绕组与磁芯交叠的有效长度增加，对应简化模型的 wpc 增大，导致绕组与磁芯交叠面积增加，Cio 增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRC0fS04FbQvXtfULib0sd6kzZNvD4WjqQXsLsedjjkZXRhScdnvAswXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_018_ace6647a8d70.png)
 
 **3.2　增大一二次侧绕组与磁芯间距**  
 
@@ -135,17 +135,17 @@
 
 加入骨架后，一二次侧绕组与磁芯间电容 Cpc,b 和 Csc,b，仍然 满 足 Cpc,b = Csc,b，不 考 虑 边 缘 效 应 时 Cpc,b 的 理 想值 Cpc,b(ideal) 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRAib8icGazcJGdibWqciaaJ5libqSzqCzTDy2PEgg3M4DjR3DqH967y0JFyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_019_8f4b7f46ac46.png)
 
 式中：Cb,cmp1——考虑边缘效应时 Cpc,b 的补偿值，pF。
 
 加入骨架后，一二次侧绕组间电容为 Cps,b，不考虑边缘效应时 Cps,b 的理想值 Cps,b(ideal) 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRrCRO4MA9zoZ63hGOeSunPUT1eVsqZcHoBlgC1TEl4cPRrg6T0VUictQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_020_cb62ab5d93c5.png)
 
 考虑边缘效应时 Cps,b 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBROzibtHRQFTZDMMHsnlzgWZ3Iceq2ibLDXyUwicxrAbUXZ0ArpB5ATIhTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_021_951c8258d1b4.png)
 
 式中：Cb,cmp2——考虑边缘效应时 Cps,b 的补偿值，pF。加入骨架后的耦合电容 Cio,b = Cpc,b /2 + Cps,b。
 
@@ -153,7 +153,7 @@
 
 带骨架隔离变压器的耦合电容静电场仿真及实测结果分别如图 7b 和图 7c 所示。Cio,b 静电场仿真结果为 1.29 pF，实 测 结 果 在 450 kHz 频 率 下 为 1.32 pF，与 模 型 解 析 结 果相近。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRNUZxnCvdv24FOUvHsfibaVHwCAvLdYH6e5gmUDp5PgCaicicHtZfTFiaDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_022_79fca3cffe6a.png)
 
 骨架的加入，增大了一二次侧绕组与磁芯的间距，有效减小了变压器耦合电容；但同时变压器漏感也会有所增加，需评估反激变换器有源钳位电路设计是否仍然满足要求。此外，本文变压器骨架现阶段仅是围绕减小耦合电容进行初步设计，在骨架材料选型、结构强度、骨架固定、绕组限位等方面仍可进一步改善，在实际工程应用中，通常根据需与变压器厂家开模定制骨架，提升隔离变压器性能。
 
@@ -161,21 +161,21 @@
 
 结合表 1 和表 2，经优化后的驱动隔离变压器如图 7a 所示，其耦合电容小于 2 pF 的目标值，基于该隔离变压器，设计了 3.3 kV/750 A 高压 SiC MOSFET 的驱动样机如图 8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRjaMRoSTZLP8K6GB4OJsSgMG7kHPyFG70EticmEGt3nic3sfqtLhTI3QA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_023_46711fbf72b9.png)
 
 图 9 给出了 Vin = 15 V，Pout = 6 W 时，驱动隔离电源相关实验波形。图 9 中 vgs,Qm 和 vgs,Qr 分别为主开关管 Qm和钳位管 Qr的栅源极电压，vds,Qm 为 Qm漏源极电压。从实验结果可知，驱动隔离电源二次侧输出电压 Vout=35.7 V；由于变压器漏感能量被钳位电容 Cr 吸收，Qm关断电压未发生过冲振荡，尖峰被有效抑制；在 vgs,Qm 开通 Qm前，vds,Qm 已下降至导通压降，Qm实现了 ZVS 开通，从而提高了驱动隔离电源的转换效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBR7e4jo8GBhMydExHOF8yxicUVHSJAibDvuURmXIxBWAhB2UicCJknVcRow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_024_c047a86ac956.png)
 
 图 10a 给出了 Vin = 15 V，不同输出功率 Pout 下，驱动隔离电源的转换效率。100% 额定输出功率时，转换效率约 80%；当输出功率减小时，转换效率也随之降低，但即使在 25% 输出功率下，转换效率仍有 63.5%。
 
 图 10b 给出了 Vin = 15 V，Pout = 6 W 时，隔离变压器热成像图。环境温度 26.8 ℃下，磁芯最高温度 64.5 ℃，小于磁芯材料 100 ℃的允许工作温度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRhy0N3Qgr87YDibaEib5XVGJFHMN8hibOjpibVbVhaCuk7kn0Rutd7hu7wg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_025_d2d11866deb7.png)
 
 为评估所设计低耦合驱动隔离变压器一二次侧绝缘性能，基于 YDTW\-400 kVA/100 kV 工频试验变压器成套设备，搭建如图 11 所示的耐压测试系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRNfMCq5Do4hCwwK9oMldYDC3EdTRdJF3C0eWyjWd1D4Rh5EWuK2B5hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_026_356ae2d89ed1.png)
 
 图 11 所示测试系统主要包括调压器、试验变压器、保护电阻和电容分压器。调压器调节试验变压器一次侧输入电压，试验变压器二次侧输出电压通过电容分压器测量，保护电阻用于限制电流防止试验变压器损坏。被测隔离变压器的一次侧绕组短接、二次侧绕组也短接后，在一二次侧两端 进 行 耐 压 测 试。当 隔 离 变 压 器 一 二 次 侧 两 端 电 压 加 到18 kVrms 时，保持 1 min，隔离变压器一二次侧漏电流小于1 mA，未发生绝缘击穿现象。
 
@@ -183,21 +183,21 @@ CMTI 是驱动隔离电源关键参数，通常以工作允许电压变 化 率 
 
 图 12 中由高压直流电源提供直流母线电压 Vdc，Cdc 为直流母线电容，负载电感 Lload=50 µH，上管 QH为被测器件，下管QL为辅助器件，Rgon，H、Rgoff，H 为 QH驱动开通、关断电阻，Rgon，L、Rgoff，L为 QL驱动开通、关断电阻，SH 为控制板给 QH的双脉冲驱动信号，SL 为控制板给 QL的常关驱动信号。测试过程中同时测量 QH的栅源极电压 vgs、漏源极电压 vds、漏极电流 id。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRFnGugf3hGD27I3KJjmRI0G2tauvUficQewrhUuBJQaRa3E6HibqQg4DA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_027_dae30fdb7823.png)
 
 图 13 给出驱动正电压 17 V，驱动负电压-5 V，Vdc=2 kV，id=750 A 下的开关过程波形。为加快 SiC MOSFET 开关速度，取 Rgon，H=0.9 Ω、Rgoff，H=2 Ω。由图 13 可知，开通过程 dv/dt最 大 约 11.6 kV/µs，关 断 过 程 dv/dt 最 大 约 38.2 kV/µs，SiC MOSFET 开关过程正常，本文所提驱动隔离电源 CMTI 能力至少满足 38.2 kV/µs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRPEACDZEmmSSIxYGCNuCpTpib4GVVd0R62xhlics4ibC9ibJkibxtvqweBibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_028_aa3d07ebd9af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRgvD6RfUK54QL6OlFico9N1E4fBSficwuOYChYxLcu2sCia6AQkDz26ia2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_029_bf757b27f3fb.png)
 
 双有源桥（dual active bridge，DAB）变换器因其具有能量双向流动、易于模块化等特点，在光伏直流汇聚与消纳领域有着广泛的应用前景。高压 SiC MOSFET 运用于 DAB变换器，能有效减少模块级联数量，提高变换器效率和功率密度。本文基于如图 14a 所示 DAB 功率模块单元，进一步评估所设计低耦合电容驱动隔离电源在高压 SiC MOSFET 连续开关下的工作可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRIX45g16yJIOWkSwyK1WPzxzcjAjoCEmgtCic1hsnGJvD3lxNP5su5FA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_030_076315109c9a.png)
 
 图 14 中，Q1和 Q2为 3.3 kV/750 A 高压 SiC MOSFET，Q3、Q4、Q5和 Q6为 1.2 kV/400 A 低压 SiC MOSFET，Ls 为变压器漏感，V1 为一次侧直流母线电压，C1，H 和 C1，L 为一次侧直流母线电容，V2 为二次侧直流母线电压，C2 为二次侧直流母线电容。在测试过程中同时测量 Q2的栅源极电压 vgs，Q2、变压器一次侧电流 ip、一次侧桥臂电压 vAB、二次侧桥臂电压 vCD。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRLiaLURol3vJtKiacESyDm6xRDPZ8NPITWiaYpZzXxhuiaoWYww588QXAEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_031_b6ea1118953e.png)
 
 当 V1=2 kV，V2=750 V，一、二次侧 SiC MOSFET 开关频率为 10 kHz 时，DAB 功率单元连续运行的测试波形如图 14b所示。从测试结果可知，本文设计的低耦合电容驱动隔离电源能持续可靠驱动 3.3 kV/750 A 高压 SiC MOSFET。
 
@@ -217,10 +217,10 @@ CMTI 是驱动隔离电源关键参数，通常以工作允许电压变 化 率 
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_032_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_033_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种低耦合电容的高压_SiC_MOSFET驱动隔离电源设计_images\img_034_84aa944feb13.jpg)

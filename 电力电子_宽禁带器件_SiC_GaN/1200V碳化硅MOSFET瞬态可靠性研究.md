@@ -15,7 +15,7 @@
 
 经过不断研究探索，SiC MOSFET在制造技术方面取得了重大进步。SiC功率器件正在进入大型市场应用，例如汽车.高铁.飞机电机和能源分配网络，推动了与应用相关的性能与可靠性研究。在绝大多数电力电子应用中，功率器件主要用于导通和截止状态之间的切换，为了获得最佳效率!需要降低开关损耗，并且减少过冲情况。针对安全工作区（SOA)的功率器件的工作状态示意图如图1所示。导通和截止状态之间的转换可以遵循各种轨迹进行，目的是根据需要来调整开关性能，例如软开关技术和谐振变换。但在实际应用中，器件还需要安全地承受许多在SOA以外的瞬时情况，例如非箝位感性负载开关（UIS).短路(SC)以及固态状态电流调节和限制，即在足够长的时间间隔内短路，以实现保护电路的干预，以及过流关断能力至少是标称额定电流的两倍等。在UIS 中，雪崩耐受性和寄生参数的功耗也是重要的影响因素。针对所述问题，已有文献对Si 器件进行了深入研究，但是SiC的物理特性仍需专门研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaz7UUTl479EsMX2nfzgibsfWZIiax8vpXGnJiaHGpgGOU3hw3ic8yuFFUUQ/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_000_5b291a1b14a0.png)
 
 本文搭建了短路与UIS 的测试平台，选取两种商用的1200V SiC MOSFET 器件进行测试，研究重复性瞬态测试对器件性能退化的影响。
 
@@ -25,11 +25,11 @@
 
 与以前的Si基IGBT相比，SiC MOSFET拥有更低的导通电阻.更高的阻断电压和工作结温，并且在关断过程中SiC MOSFET几乎没有拖尾电流，这可以降低开关损耗，提高开关速度，而更快的开关速度意味着更大的du/dt 电压变化率。 当器件导通时，同一桥臂中施加在互补器件上的du/dt将会非常高，Miller电容放电会在栅电阻上产生压降。如果电压超过了阈值电压，原本关断的互补器件将产生误导通，从而导致上下桥臂发生直通。功率器件的短路故障模式可分为两种，分别是硬开关短路和带负载短路。HSF是指在负载已经短路的情况下，开关管开启时引发的故障。FUL是指在开关管完全导通时，负载突然短路而引发的故障。在硬开关短路模式下SiC MOSFET短路特性测试原理图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLacwYTzicUTSPqRoZic8I0f2XadBjk98YfNeW8Cm65VCh1icjkHvQ8HX4QQ/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_001_ba0b2d8da142.png)
 
 SiC MOSFET短路过程示意图如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaxnibcNYnEUicRSpKQN7LI9cTyYBRKSaRPJcRg6dIMvRRB4USw7jHPS4g/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_002_c5350fd01932.png)
 
 1）时间段1（t1-t2)时刻，SiC MOSFET导通，母线电压经短路电感直接施加在DUT两端，测试电路的主回路上只存在很小的阻抗，致使SiC MOSFET电流迅速上升。尽管DUT漏源极两端电压会因寄生电感出现略微降低，但由于大电流，DUT将由截止区进入到饱和区。该状态下，器件的沟道载流子迁移率与温度呈正相关，致使短路电流持续增大。
 
@@ -41,29 +41,29 @@ SiC MOSFET短路过程示意图如图3所示。
 
 实验过程中，在t4时刻，如果器件仍然正常关断，则继续增加脉冲持续时间tp直至器件发生短路失效。设定从时刻t1到t4的驱动信号持续时间为短路耐受时间tsc:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaRxMUlMxmwxsjCicWdLtAoaXFfdqyD6I4zyHEkcBZ9NebCicxDDjdM2Xg/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_003_75ee56a3e50f.png)
 
 如果器件在t4时刻关断以后发生失效，则定义在t1-t4时间内器件产生的能量为最大短路耐受能量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaWG5Bibn8iaCjiam1mesKv6eF7xtvaYmK7RcSAggp4oXXQe3QhmONial9bg/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_004_3c62b517987b.png)
 
 **1.2  UIS失效的基本原理**
 
 与短路一样，UIS失效也是功率MOSFET主要的安全问题之一。UIS失效往往可以看作是MOSFET中的寄生体二极管发生了雪崩击穿，从而导致反向泄露电流迅速增加，致使器件的结温超过热击穿的临界温度。功率MOSFET的UIS测试根据美军标MIL-STD-750C/3470的标准实施，UIS测试原理图如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaDDSGkvCI8fRkZqVsuEhJYHmM4rm4uQZ3thkaGbh2qUcdC8WkiakwmRQ/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_005_b58d71bca34c.png)
 
 单次UIS测试典型波形图如图5所示，Ugs是栅极电压，Ids是漏源电流，Uds是DUT 的漏源电压。宽度为tp的脉冲信号输入到DUT的栅极，使该DUT导通，此时高压电源在电源电压的作用下为电感线圈充电。当导通电流升高至器件的峰值电流时，DUT将被关断。电感电流不能突然改变，电感电流在开关瞬间将保持原来的大小和方向，导通回路将通过续流二极管继续导通。此时，电感器线圈中快速变化的电流将线圈两端产生的所有感应电动势施加在DUT上，迫使DUT短暂地进入雪崩击穿状态。如果脉冲时间短，DUT的工作状态是可以恢复的，如图5中实线表示。当增加脉冲时间的宽度，电流大于一定值时，SiC MOSFET 会被完全损坏，如图5中虚线表示。一般来说，SiC MOSFET单脉冲UIS压力极限能力的衡量指标用最大雪崩击穿耐受能量来代替，即使用手册中常用的Eas参数。从电路的工作过程中，可知Eas是电感器存储的能量。选取需要的电感量后，Eas 的大小将由流过器件的峰值电流确定:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaGKHrxgeibFNOwNX1esWNmTLhR5gnrvy8Jq5D5kdqFicsickn3SWHjgoSA/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_006_3795c2c6794d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaxThGRcpcMMxNIQ0icdwnEibDyKJBJS7WibibHagWHSw3DibOaicNzSuJ98rg/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_007_d10b36744d45.png)
 
 **2.实验平台**
 
 搭建的SiC MOSFET可靠性测试平台如图6所示，使用的直流母排电容为1000uF/400V 。1MHZ时PCB 电路板的杂散电感为200nH，寄生电感电阻为200nH 和10m欧。 测试过程中，FPGA或函数发生器产生宽度为tp的可控单脉冲信号，通过驱动板直接驱动DUT。在短路和UIS测试过程中，给UG施加正向电压为20V 的短路脉冲，脉冲持续时间为tp， 驱动电阻为Rg。 在测试过程中，同时测量待测器件的栅源电压Vgs ，漏源电压Vds和漏源电流Ids。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaUeL5cr9IoP5q7iaSncxW3qDiaoEvdOm8k5uxXSq7eUbAibjePnCKe2icbw/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_008_2d37578b6d84.png)
 
 测试采用型号为62EM1的驱动板以及单片机控制电路，可控制栅电压的开启和关断。栅极的开启电压为20V，关断电压为-5V， 函数发生器采用泰克AFG3000， 示波器采用力科HDO6034A。由于电压需求不同，高压探头采用两种型号，分别是力科APD305和HVD3026A。 电流测试采用高精度分流电阻SDN-414-01。
 
@@ -75,35 +75,35 @@ SiC MOSFET短路过程示意图如图3所示。
 
 进行5次短路测试后，将初始的测试曲线与5次测试后的曲线进行对比。漏源电流Ids 和栅源电压Ugs对比图如图7. 图8所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaCiaeQXuJhUTnbBDp394hPTDYQVVCgZolbcSpYhU5P6XWKpIRs8LqSbw/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_009_8f8b206de1aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaEAXndBhsWRH6v2oC44E5wKM8m1j1pcNeMTHiaF8szr5a7ajjSx1PKBw/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_010_bbdf044f6d9c.png)
 
 可以看出，经过5次重复性的实验之后，短路峰值电流下降了4A， 但栅源电压没有明显退化。为了进一步探究重复性实验对器件的影响，对器件测试前后的静态性能进行对比。静态测试对比结果如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLa1JtJf7pvqWa5MZod1Siap1kbygem777oORIDkfczibbl18kWlibVo5NlA/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_011_6c996678ff9a.png)
 
 经过重复性测试后的器件静态参数中，阈值电压Vth 和漏极泄漏电流Idss有较明显的变化。经过重复性测试后器件的阈值电压升高0.2V， 漏极泄漏电流增加了一倍以上。原因是在重复性的短路测试后，沟道和JFET 区会产生大量的热量，使器件在栅氧化层发生电子注入，最终导致阈值电压升高。
 
 为了研究退化的发生机理，进行了TCAD仿真，仿真所用元胞结构与待测器件一致。所示元胞在I-V.BV 特性上均与待测器件一致，故使用该元胞进行了有关短路测试的电热仿真。电热仿真条件与测试条件基本相同，测试的母线电压为400V，栅开启电压为20V，关断电压设为0V，由于仿真是理想情况，无需调整关断栅压至-5V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLadOnRicpcdLqzLVbyJysLGfC8CngJTz0X70evlOqbASeeCmdzQmN4mLA/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_012_312e316f0694.png)
 
 图9所示为7us关断时短路电流与晶格温度的曲线，可以看出，在7us 时芯片的晶格温度达到1000K以上。图10所示为7us 处器件晶格温度分布,可以看出，温度集中的位置在沟道以及JFET区处，导致了阈值电压的退化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaJbC0y0xNSvWia7vmUyMuuzqianiaePmp9x7z7TaISZXsOA5iakEAO5Rw7A/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_013_c596e45e60bc.png)
 
 **3.2  UIS测试结果** 
 
 选用的测试芯片为瀚薪H1M120F060 1200V/41A器件。导通电阻为60毫欧。 测试条件为：母线电压50V， 脉冲宽度为500us，峰值电流为3.3A，电感为10mH， 重复3000次UIS实验，实验间隔为2s。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLa8tUqoWC4QePqoOmsCdHVeeFm6R5JAltfRicFxBFQ2OLMqibWas10n38Q/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_014_21ecad6899ee.png)
 
 通过对比测试之后的静态参数，可以看到，3000次UIS之后，器件的阈值电压Vth 增加了0.1V，反向泄露电流Idss增加了五倍。静态参数变化与重复性短路测试的结果相似，但3000次UIS测试之后的漏极泄漏电流明显增加，阈值电压的退化与5次短路测试之后的结果一致。发生退化的原因是材料本身的缺陷。SiC材料的外延层最常见的缺陷是基底平面脱位引发的堆叠层错。BPD 缺陷会在SiC材料的禁带中引入一种距离导带0.2-0.3eV 的陷阱能级，从而极大地降低载流子的寿命。
 
 对芯片的特征电容进行测试，栅源电压Vgs设置为0V， 漏源电压Vds设置为800V， 频率为1MHZ。测试结果如表3所示。结果表明，在3000次UIS测试之后，器件的电容特性无明显退化，说明3000次UIS对器件的电容没有造成影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIPvAN4oZ0LsxXdYRwSlLaF1VODZQiaWWh8eCD5oYCfeW9uNyamoKp6IsANwMDaVlwiazRb8kDtsEA/640?wx_fmt=png&from=appmsg)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_015_7bb95c85c99c.png)
 
 **4\. 结论**
 
@@ -111,10 +111,10 @@ SiC MOSFET短路过程示意图如图3所示。
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_016_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_017_3ade3c3d8599.jpg)![](1200V碳化硅MOSFET瞬态可靠性研究_images/img_018_84aa944feb13.jpg)

@@ -32,24 +32,24 @@ LIN 输入通道高电平有效，控制低端 LO 输出
 逻辑信号输入端高电平阀值为 2.5V 以上，低电平阀值为 1.0V 以下，要求逻辑信号的输出电流小，可以使 MCU 输出逻辑信号直接连接到 EG3112 的输入通道上。
 
 专用于FOC控制，移动电源高压快充开关电源，变频水泵控制器，600V 降压型开关电源，电动车控制器 ，高压 Class-D 类功放  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyybtmC8IFoVMpcJDT1795dIkMLEAFS7ibERHjfr8HbicjuQ5PZyxWqkLn9MOsh5M7u3bvefvfsNhXZIRmlZLPq92TjPnZONFkNww/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_000_021b71e6383f.png)  
 在CMOS结构中，NMOS和PMOS成对使用，形成反相器、与非门等基本逻辑单元。例如，NMOS负责下拉网络（导通时接地），PMOS负责上拉网络（导通时接电源），实现低静态功耗。这个原理图看不太懂，不应该是自举升压吗？？？  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuywzZykMGDxBGGSCrq1iaTlww4qrOu7zsSAzBNjDADshW40WdbI4yWnj0QOAPiasYyZZRuVGlm7pWN2UHibpqPPlCw4QAiaGDWabDUc/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_001_45f1c519c924.png)
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyyOhAk2h5ZuCT9ic6asYpZT7hnUI8MVcVsTmRpBIebTz8XWBcibkJE9XAYS9sJKg9ZC1RsckZpibHvzKVNmtiaE96wBBk7Mvu7XE60/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_002_4def2b3fb71b.png)  
 参数顺序是最小-典型-最大  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyzQibscFvQJiaa1wXNwGbibA8lu9MtJUrWicicU1P52kSk0ib9olk4vc9YJesdJv1XVXiakkEgq7dHGATYib3NGojOibqbDEIpNmB7HR5fs/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_003_26d50da6ae8e.png)
 
 开关延时应该可以忽略，但是如果这俩个值不一样会影响占空比吧？百ns，MHz级别的影响，应该能忽略  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyyClyxT9ujlehGWFDubgOFibqk8owDwIY8Y1XCeNYZWYXiakgDh6dic0CFwBSRm4XvlLianmN8WU1LUnrxRalOGwm3VqoQ3PuS7viaI/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_004_89a0bc200483.png)  
 有保护，不会同时导通，都为1的时候会都关闭，具有相互闭锁功能。  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyzo4FT6CQaOw7vp2syGDBuGYc9O8EFkCdR3OUchOZD6xqfmY168IRdmcFWtBeXKC93n8cz8A1e8e3ocatib1pghxrtpSJ60PMIk/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_005_3598660bd23c.png)  
 自举电路要自己外接自举二极管和自举电容，在自举电路中，当低侧开关导通时，电源（VCC）通过自举二极管向自举电容充电，形成高端驱动的悬浮电压源。二极管在此阶段正向导通，确保电容快速充电。  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuywBX8FBibNAQQofpNBbmPCyYlG1R5RxEBMjRYVEzRMVlIL6wlRDwZvibzKPeIlI40azNLNsRlGaxIXa6uYIz2BK5jn2M0FyJEes8/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_006_bb044b5e7053.png)  
 应用电路：这里的600V接在外部MOS管上，没有接在自举电容上  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyybVhYva6G8br3RaZMqAwTXnwew38OoMxDL7PlOWkcPry9oEMf8qtibO6U2E3PcZf6YsNUvqKwz0Al6jyaibZicTL1ia7xhdqsw0HE/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_007_9803a5e1252a.png)  
 应用：这个电压应该不用12V也行  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyyF5Nicv3SIdFc8giaricYO4lZZ6Ria6iaubO45ITWOgvqNibL47Ac7q7FKVJf4EucPVqMuaCE6rwm9fiamt7zKOwokbiaHov2m4jbA15k/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_008_8e7a6c441018.png)
 
 #### 2EDF7275K隔离式MOS栅极驱动器
 
@@ -60,10 +60,10 @@ LIN 输入通道高电平有效，控制低端 LO 输出
 高达10 MHz PWM开关频率  
 PWM信号传播延迟典型值为37 ns  
 电阻可编程死区时间控制（DTC）范围为15 ns至250 ns  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyxnFAIJNsryWYCa9wycZic8Bb83e5hYS393kzCyTrXn0zspjR57hZZlYhPBAw5M22wafpLSrnqs0FJ9G5RbJBwkx71qBPFiblSiaQ/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_009_6b49ba6cfd64.png)  
 手册里面这个两个都接了自举电容，那应该可以驱动两个高侧的，隔离后一模一样  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyxMexztv4AErJOv4vMB3sQL1N8P6rX8DSarMVhLuWHzAFxa6zlCtN55v7xvaJjyxDS01awPwExhQHxkQfD0ntWKOPPojh6fY2A/640?wx_fmt=png&from=appmsg)  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuywPRyTrEibxBxMOKBljEP8OBFNdmEM5pLJ6nFzsib7xm4O42WVua6Ud7SDc5ibcnbdiaibaEG5GtOXbBBEQ2jMTbrBpxx5Ve5NTgur8/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_010_ad6872c279bc.png)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_011_157b528fdb73.png)
 
 输入侧电源输入侧通过标称3.3 V的VDDI供电。若要使用电源电压> 3.5 V的器件，必须激活片内开关低压差稳压器（SLDO），并将外部分流电阻RVDDI连接到VDDI。
 
@@ -75,18 +75,18 @@ PWM信号传播延迟典型值为37 ns
 
 这是别人的应用，这里的两个电源是VPS8703产生的两个隔离12V  
 这里为啥没有加自举电容，反而低侧加了个电源滤波的电容？芯片内部好像没有集成吧。这个芯片比较高端，又隔离，两个输出感觉都能接高侧，具体的暂时先不看，应用的时候选EG3112吧，500kHz应该够用了  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuywrZkZVibjMSTJ5z9gw0xsic9tvL2STE8icqQVQiawhcPN4bo7pwNhqLoOLibEZThceEU163iauZQUnOMY2nDo0WWvB1eaxliaIaZMQww/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_012_2100775bc953.png)
 
 一般电源都给12V，要确保导通内阻低，这样频率高也能正常使用，否则MOS烧，所以给的电压一般比较大，不是5V这些
 
 \==关于10欧姆电阻，是为了消除走线的电容电感，防止栅极出现振铃效应，所以这个电阻要靠近MOS的G，而且一般要上下拉，防止干扰使其导通  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyzTQCPTPzc0swab2HvwVjNHHr9NKlGic2HHUy0zb2vMcU1VXyJD4dlqV0SgGeficnGRBeOBq9ongewfwibfrYBLHQXiaBWrxqGQpiaQ/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_013_b53705734367.png)  
 除此之外，还有米勒效应，在实测的时候，发现MOS管会有由MOS管的米勒电容引发的米勒效应，在MOS管开通过程中，GS电压上升到某一电压值后GS间电压会经过一段不变值的过程，过后GS间电压又开始上升直至完全导通。  
 由于米勒电容阻止了Vgs的上升，从而也就阻止了Vds的下降，这样就会使损耗的时间加长,从而增加了损耗
 
-![请添加图片描述](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6Luyy8r0ia2Mfa2CPEL62BicabTH2hp1BAibx8SWicZD7gwdWh7EBqV08O9eAzV6kXKB0YYCK4z0sNW4Gh6ynpnEXPpQGuElIghTsRDcM/640?wx_fmt=jpeg&from=appmsg)  
+![请添加图片描述](STM32同步整流Buck_Boost数字电源_images/img_014_0ab412bcf780.jpg)  
 措施1：减小驱动电阻和提高驱动电压，本质上就是提高驱动电流，加快电容的充电时间。措施2：优化PCB布线，尽量缩短驱动信号线的长度，加大宽度，以减少寄生电感。措施3：选择Cdg较小的MOS管。措施4：使用零电压开关技术  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyziar7VSaIicnckBPLc7a94TibVJaUEmH5ibeu7dfoAnwM2uPINy1ANgia2bfnscvP9ErRiciapic5ia9jOzg9dvS0yGFicpibP4QjVhY6nWo/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_015_e69bfa472de7.png)
 
 ### 运放检测电流
 
@@ -98,12 +98,12 @@ PWM信号传播延迟典型值为37 ns
 传统运放的输入级通常由单对NMOS或PMOS差分对构成，输入共模电压范围受限于晶体管的阈值电压和饱和区特性。例如，PMOS输入级仅能在共模电压接近负电源轨时工作，NMOS则只能在接近正电源轨时有效，导致输入范围受限（如±15V供电时输入仅±13V）。
 
 GS8558有两个通道  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyxN59MqBz8IxTwp8ia8HJiaW8YngeceMm026SnayiaVFxaFibLqf8liaKSNKyL7ibyvUkDkVegnXgOpc9C3yJxHPxq6zg3j2Czgyk7ico/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_016_8d3469a5456d.png)
 
 采用2.5V至5.5V单电源或±1.25V至±2.75V双电源供电。  
 为获得最佳性能，在单电源供电时，应在VDD引脚附近放置一个0.1μF陶瓷电容。  
 对于双电源供电，应使用单独的0.1 μ F陶瓷电容将VDD和VSS电源旁路至地。  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyzD59pgBz5pUicicr5KkkbI0yNWpWysic9QC73Tm2UVjzEy5KzUy2UFbwzbzmiciaXickmTEEQ1gNVnXicABplAoLs9EpbAFwSUcmdcOc/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_017_87cbf9127e49.png)  
 容性负载容限：输出电容将在放大器的反馈路径中产生极点，导致过度的峰值和潜在振荡。  
 （1）使用与放大器的输出和负载电容串联的小电阻  
 （2）通过增加总噪声增益来减小放大器反馈环路的带宽。
@@ -117,18 +117,18 @@ GS8558有两个通道
 
 差分运放电路
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyzcicc88591dA7sD0icicMNWoBHNYib3B6qVR8nX3zYeWczWq7pgEqr5IuSaibrAhIAFOUIia4goJM3cLUd39RKMkT0YiaNgjsLI020ec/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_018_b9f04a1e32ff.png)
 
 这里就是典型的差分运放，而且电阻的关系可以化解复杂的等式  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyx8IKzgnmI6pfticqRIGztTPiaVONZsMgPcQLdbeNcwjSD9NJJs8lw2qpic1BOw4AJBXwcqtJibqTORmgsDn4ndvwegx9FKhg0Kagc/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_019_7aa1fdf4a891.png)  
 对于电流采样的这个运放输入端有些疑惑，其实是他前面画的时候，GND和VIN-这样画的，这样是不是有点问题，其他的以GND为基础的电路岂不都要流过R13才能流回负极
 
 解答：这是下采样，这样才能串在回路里面，而且由于一端是GND，比起上采样，对运放更加安全  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyx4ibOpWOfzNKpmOBf9sic8ibiaTH6Cw8KDibKCaFUJOglbf77b5XAeCWz5Ue4uwMGHb6UCRAbaKOzDmvuwCoPa45ibia8EVM7RlfumOo/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_020_18c5ec87711e.png)  
 我采用了这样的采样方法，但是存在问题，就是MOS管关闭的时候，没有输入电流，采集的就是10m欧姆两端的电压差了  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyxEvwETMZ36g87eaSmSXXsdPrRt6312T8Bq5ibm2dQ1ibhxib04JEw7FHria0Q2RrNZNgHiaZ946OZqLib3SuDII9BK6doDy0y4P7icibY/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_021_d32635ea3925.png)  
 输出侧，MOS管关闭的时候，电容放电，但是没有放到电容后侧，测不到电流，其实可以通过软件校正，就是MOS管开启的时候测电流，关闭的时候不测，但是较为复杂  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuywRuAOx2TiaLucxooUcXg6CiaBiccCvhPfPnX7G8PicXnbj6gdWK74Y9FdHTXV0C6LHL8khXmrKEPiafoqee75QQqbaDxz7TlJCibV4E/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_022_d13478e0a615.png)
 
 #### MCP6022
 
@@ -149,21 +149,21 @@ GS8558有两个通道
 ### 硬件设计
 
 原理图基本是参考开源链接里面的，我去掉了一部分功能后，重新画板子测试的  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyyZsFYRiaM3dNyxslFHW8IHm1APeAFMogibvNastSvXrNRnSg6qjkoenZcG1phC1cYnibQxQTHZAl04DDadrGSzZMsgbOxlSCiaGwE/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_023_9cf9fb96843f.png)
 
 ### PID测试
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyxAMTLicRy5icCojFuvkMaicgRSwXJeDj4OdydWTXxv2drodCHClibdwlBSK3YyicXqcINehTbtAhfTibB93b4c32B5InibuXiahgLFaMA/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_024_d69a6872ded5.png)
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyy1hm9aicMicl2WkTGQeXYSybOibhRTauhyoEqtNHYd12aialGI8RappvnwZYYQiaaFHW4gzd6e2papWFdnugpfABPicveqOYRcWyQAc/640?wx_fmt=png&from=appmsg)  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyyW6MDdHXZOorZicgB5JkVIUrNxIt14f9NUzyu9jCPAWd0ME7ThOVgkdqWcHQ5iaoB1LeK5XhLmf37BYZ31V178zt7cnCiay7HLxI/640?wx_fmt=png&from=appmsg)  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuywzjKQibeL3uYjLz9kIldHIyooLlDeHoqtIksEh0zPAhMDOLyUWD0FNWdhcIMljJ8IdNpwd14m1dYRCjmDP7tgQIT0X1v9bvmsE/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_025_bd1afab55a66.png)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_026_144352b51c66.png)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_027_1ee50bc59a5f.png)  
 做不到太稳定，ADC采集就不是特别准 ，PID只大概调试了一下，这里的ADC采集需要注意，要用HRTIM触发，而且要根据占空比更改触发时间，根据MOS管的关断情况来设置在PWM的哪一段采集。  
 这里ADC采集不准是因为我随便设置的采样触发，导致其可能测的是任意时刻的电压，纹波也加入了，或者用 滤波器 滤波
 
 ### 存在的问题
 
-![请添加图片描述](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyxB64vABu853Gb7d3fzqsY2KRq7MrbuDWKsz7r0tV6lQ93DS157uyiaf8Pcg1qZjPuawoXQEg6kmAYicfNd6exHynmbg6yz643Tc/640?wx_fmt=jpeg&from=appmsg)  
+![请添加图片描述](STM32同步整流Buck_Boost数字电源_images/img_028_35f2b0655e19.jpg)  
 控制部分基本完成，简单的菜单界面控制，Buck和Boost分别增量式PID调整，增加了两者切换时的保护。
 
 还差软启动及输出空载的时候，该如何控制？暂时EG3112的上管控制有些问题，怀疑芯片坏了
@@ -171,32 +171,32 @@ GS8558有两个通道
 采样电阻无法测量输入输出电流，原因上面说过了
 
 关于MOS管，实测振铃现象很小，但是存在着米勒效应，可以看到MOS管开启的时候，有一个中间的平台期，这里还需要后面放大看看，上升沿和下降沿具体的情况，下管没有米勒效应。只有上管出现了，而且只有上升沿比较明显？？？？，后面还要学习=了解一下为什么？  
-![请添加图片描述](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuyzXt7kUpTu8M9focVIbReW9L00gy9wZxclZ0XRsiaGQeogsGRUy0ibqy2Y681Fiar17iaNpJDBJoP801blAYplUmlmrIVASYQTNPpc/640?wx_fmt=jpeg&from=appmsg)
+![请添加图片描述](STM32同步整流Buck_Boost数字电源_images/img_029_5f88d3c46e5e.jpg)
 
 还有GS的偏置电阻，防止其误导通，10K电阻还是必要的，该加上
 
 ## 米勒效应
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyxZzcp4bgpMCkxOD94o0vZ9ZHzLmowiayqwMaU2zLqy99sB4PRoPzlyNhlKiaubljTURICD0gz2bwowl8YhnRUialggbxzDo37nsA/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\STM32同步整流Buck_Boost数字电源_images\img_000_b1dde9d0ea83.png)  
 Cgs影响上升沿缓慢和振铃  
 Cds影响功率回路  
 Cgd影响米勒效应  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6Luyzmlg3KHvxQXXtUiaKEWIHwicc4unm6JZ3gKJdAciaRuSib3seyibZ68NYvxOVxUaykLD3QPRFAicZHha9QAggPwGDzZnSk35Ej4G7TQ/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_031_16f383606770.png)  
 Cgd会使得输出端信号耦合到输入端，会导致误导通等情况  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuywwY58vJr64GTkcaM8LMVibqhtH5icvFykq6jnJuC3PSnB2J5Cicjw1J4vwgPBwR1TcHSdjXaQUiaibicAWpGZtowb6t4icpjPiagrcGuM/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_032_3765fffca7ee.png)
 
 原理很好理解，刚开始，MOS管上面接7v,那么Cgd上就会有一个上正下负的电压，此刻给栅极充电时，正电荷既Cgd也给Cgs充电，但都在上升。之后当栅极到一定电压，MOS逐渐关闭中，由于D端电平与GND联通，电平急剧下降，会使得Vgd快速放电，这时就会把给栅极的正电荷全部吸收，导致表现出平台期。
 
 有时候米勒电容甚至能使得栅极电压下降，把Cgs的正电荷都能吸走  
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuywiaTAT3kYiatXkutG6ffxn3kysiaQ9sL3FpaKT2aUlrsiaUPFnsKtn2MMSXfW3s2PNGJcavHRZsopfO87r0Dd8MacibdFKrFT3vcYQ/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_033_d7036f20ed60.png)
 
 下降沿的时候，同样会出现米勒效应  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuywOS7zBbnicG5ppZME6McIw6FTLE4uzOVzVYc9hwicB8JuwiaUTicOI7dNA7nuAiaLZIQG8t7ZYW1fJ5GgQ48bHL8grxnqOtPiaPxHjE/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_034_bc97eaefdae7.png)  
   
 
 解决方法：  
 1.增大MOS的驱动功率，或者使用图腾柱驱动  
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyyfuNCC5CH9yicypr7PK4pj6A0YgcSoDCyIfyER4jzPcO0QNUic80OvNDdGQ6t2HTOJuXfkb9vic2sUta1lBJ4H8ZBIj30knFkcK8/640?wx_fmt=png&from=appmsg)  
+![在这里插入图片描述](STM32同步整流Buck_Boost数字电源_images/img_035_d33d6d04a519.png)  
 2.GS并联一个10nf的电容，有人说是为了保护MOS管，防止击穿，但是10nf太大了，这样上升时间会变得很长，而且对米勒好像也没有什么帮助，这里持怀疑态度，有人说gs加电容是用来吸收MOS管关断时产生的尖峰电压，防止Mos管误开启，尤其是在桥式 驱动电路 中
 
 3.ZVS零电压控制，针对逆变器和开关电源  

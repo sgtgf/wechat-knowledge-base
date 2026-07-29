@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9DuS9G1XT6WmCgu1Z-4uow](https://mp.weixin.qq.com/s/9DuS9G1XT6WmCgu1Z-4uow)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCLbMnWt0ic50eAVqlY3h6kwzeNbY8kX9u0PMYkQmS8TAlrOUWbvWZjgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_000_5c3b44d245da.png)
 
 ____**____**____**____**★★★**____**____**____**______________PPS-9---电流监控__________**____**____**____**★★★**____**____**____**
 
@@ -45,13 +45,13 @@ _外部检测元件_
 
 热插拔控制器使用电源路径中的外部Rsense来感测负载电流，Rsense两端的电压降由内部高侧电流感测放大器放大，然后作为模拟电流输出被驱动到外部模数转换器ADC，或者被馈送到内部ADC，**_图9-1_**显示了使用外部感测元件的电流监测。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLl0hvIxv4xQzJRV6YB7nUo7yY7IKtCXTfsSPklx6U79Oyb7K9sGsatgOfaXR3hibdteCAykFjIJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_001_ab195b2cd8b0.png)
 
 **_图9-1：使用外部检测元件的电流监测方框图_**
 
 需要根据热插拔控制器数据表中指定的最大系统负载电流Imax和最大感测电压Vsensemax来选择Rsense值，公式1基于以上计算Rsense：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WCWNoib2RdjpbDZicGe1BmMsrx6TJk6PkLuhtKEqysFs9IVBEXLibiaiaeOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_002_b77a64afd718.png)
 
 电流感测精度是Rsense容限和电流感测放大器增益/偏移误差及其相关温度系数的函数，通过使用精确的负载电流参考进行系统级校准，可以将误差降至最低，但不可能消除温度漂移。选择温度系数较低的感测电阻器，如薄膜或大块金属，其他误差源主要源于电流感测路径周围的PCB布局不当，为了获得最佳结果，使用开尔文感应连接。（传送门：[Resistor-16：焊盘布局优化检流精度](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247488631&idx=1&sn=ba940fd13858fed0371479e489f12a8b&chksm=c3355ee8f442d7fe4eadb01148fdadb9b99c3e98535e26e8eb61b5b118ef2f2634badc02699c&scene=21#wechat_redirect)）
 
@@ -61,7 +61,7 @@ _内部检测元件_
 
 eFuse和智能高端开关使用内部电流感应电路，不需要电源路径中的外部组件进行电流感应。电流感测通常使用某种形式的电流镜电路来实现，该电路驱动电流监测器输出引脚上的一部分主FET电流**_。图9-2_**显示了eFuse的框图，它使用集成电流感测电路在专用引脚（IMON）上提供模拟电流监测信号输出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLl0hvIxv4xQzJRV6YB7nUC9wAToLbbJzlJMkF8GknY2sUXaDGqASATBWiaicb3ZFHHnuVIJ6icLwEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_003_e3dbb63d8201.png)
 
 **_图9-2：eFuse电流监测内部方框图_**
 
@@ -69,7 +69,7 @@ eFuse和智能高端开关使用内部电流感应电路，不需要电源路径
 
 集成电流感测解决方案的精度由与内部电路相关的失配和其他误差决定，内部电路在出厂时进行了微调，以在负载电流和工作温度范围内提供高精度。部分eFuse还采用了像放大器这样的电路技术，以最大限度地减少偏移误差和随时间、温度的漂移。工厂微调和其他电路技术的使用最大限度地减少了对最终系统中任何额外校准的需要，以实现高度准确的电流测量。与基于外部感测电阻器的解决方案相比，内部电流感测方案通过消除与感测电阻器相关的额外成本、尺寸、电压降和加热而提供显著优势。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLl0hvIxv4xQzJRV6YB7nULLr0aC1icEJMqCDSZic76ia0iaaickxCsMImdpAzhMHH3ibXhZPA0zicOxZXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_004_884d77d92539.png)
 
 **_图9-3：采用放大器技术提高精度的eFuse内部方框图_**
 
@@ -77,17 +77,17 @@ ____________€3._______模拟输出类型_____
 
 输出是与负载电流成比例的模拟电流信号，方程2和方程3表示输出负载电流Iload和电流监测信号IMON之间的关系：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WZGu23zsic9z6VMg703MY0f4icQR1T5hZiaKWyGsqxz9dlSKJzZ18Qzarg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_005_5bc72b6b2939.png)
 
 其中，GMON为电流监测增益，或者：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WV1aFMoic0dpibrmiafhIP8Sgce5WRvl0tCoicU46DnHp8d8V1RAwHjetbw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_006_313a351a1cbf.png)
 
 其中，KMON为电流感比值。
 
 将电阻器（RMON）从电流输出引脚（IMON）连接到GND将感测电流转换为电压，如等式4所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0W1gokYeYMcegm201N2VeujSrq4dLGGszeib2CZc59xe0icojlOsfiaLwcQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_007_e6fcbb5a5016.png)
 
 为了确保最大限度地利用测量的动态范围，选择RMON的应该使满刻度负载电流下的VMON与ADC或其输入的任何其他下游电路的满刻度电压输入相匹配。通过使用更大的RMON可以提高低电流下的灵敏度/分辨率，因为它相对于噪声增加了可用的信号电压。但是较大的RMON也会增加较高电流下的电压摆动，并且由于IMON引脚驱动器电路上的净空限制，可能导致接近满刻度的削波/饱和。
 
@@ -97,7 +97,7 @@ ____________€4._______高/低电流数字指示器_____
 
 此外，有的eFuse的集成模拟电流监测器输出（IMON）可以与集成比较器（PG、PGTH）一起重新调整用途，以提供开路或轻负载检测功能，如**_图9-4_**所示。通过添加外部比较器，也可以使用具有模拟电流监测器输出的其他设备实现开路或轻负载检测。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLl0hvIxv4xQzJRV6YB7nUn6ugSJIk0qRGfmsmxqroialFctKaQBTIEDP8wwFicXBib5hS31lxrBNsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_008_eb00a5afb714.png)
 
 **_图9-4：使用IMON、PGTH和PG进行开路或轻负荷检测/使用外部比较器进行开路或轻负载检测_**
 
@@ -105,7 +105,7 @@ ____________€5._______数字遥测输出类型_____
 
 数字电流监测的另一种方法是遥测，这种电流监测的数字方法包括感测模拟电流，并通过集成ADC将其转换为数字信号，然后将其存储在内部数字寄存器中。然后使用诸如I2C或串行外围接口总线之类的数字总线将数据报告回中央处理单元。**_图9-5_**方框图中突出显示的部分展示了电流的感测和模数转换。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSRg2Ne8l25VKXUqwA6WjWcEWqjdNekAibXh4wsjwsxredQ228xGAkoxcibyv4aibEdK4boqfnp7Q6OQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_009_fe916ff0e833.png)
 
 **_图9-5：LM5066I的内部方框图_**
 
@@ -119,7 +119,7 @@ _动态范围_
 
 动态范围是指电流监测器电路能够准确感知和报告的负载电流范围，如**_图9-6_**所示，在所支持的动态范围之外的信号将具有显著更高的测量误差，或者可能根本没有被感测到。动态范围通常在上端受到电流监控放大器电路的净空的限制，而在下端受到噪声和偏移误差的限制，通常在范围的低端或高端的精度之间存在权衡。在电路中使用更高的增益或更大的感测电阻器通过增加相对于偏移和噪声的信号来改善接近零标度的性能，但是会导致接近满标度的输出的削波和/或饱和。相反，使用较低的增益或较小的感测电阻器可以确保接近满标度时更好的线性度和精度，但在接近零标度时会导致较差的测量精度。因为测量由偏移和噪声主导，一些电流监测设备使用斩波稳定放大器、自动调零放大器和多点微调等技术，以最大限度地减少偏移误差，并提高低端范围的性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRHHof2sG4S5UNTjpHXIic1oic3ml8WtD6y24YOHd1Q8gM1r29Lm01iaU8jzybk8uwGUcBbmV3eiavrOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_010_6056ef1f3663.png)
 
 **_图9-6：电流监控性能规范_**
 
@@ -135,7 +135,7 @@ _带宽_
 
 带宽是监控电路能够感应到的电流最快变化的度量，电路带宽内的任何信号都将被准确地再现，而带宽外的信号将被显著衰减，从而导致错误的测量，带宽还决定了电路检测电流瞬时变化（如负载瞬态）的能力，如**_图9-7_**所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRHHof2sG4S5UNTjpHXIic1odxJss6aXDVCxCEKYdujibW2EMoiaF6mwnY6DwNKqBFRk4FLGRadBjUxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_011_048c60b3ee32.png)
 
 **_图9-7：电流监测性能不足带来的系统影响_**
 
@@ -147,6 +147,6 @@ ____________€7._______结论_____
 
 **_表9-8_**列出了一些具有当前监控能力的各种电源开关解决方案（仅作参考），除了提供电源路径控制和保护外，热插拔控制器、eFuse和智能高端开关等电源开关还可以通过执行电流监测来提供附加功能。虽然市场上有许多电源开关，但在某些情况下，可以根据其集成的电流监测功能缩小选择范围。（传送门：[Power Path-2：电源开关-1](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247492927&idx=1&sn=6ca4f8c0e7b3a999497dac711b13481a&chksm=c336afa0f44126b6eed42c9a8bfd8f36ea869de5270935bc46743d3362386e46b4942e5ecf7a&scene=21#wechat_redirect)/[Power Path-3：电源开关-2](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247493025&idx=1&sn=6367fb99e0b02b6fdfc87f9b535e06fc&chksm=c336af3ef4412628951af58d475453a1da3166b5f948e116feb7212f7051ce313fb650965393&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSRg2Ne8l25VKXUqwA6WjWcgQVbaWajq2OddQy3rKl2yqRZFeKu12CHbjFkh4rficzJVu2lzpOtb7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_9_电流监控_images\img_012_1eefd966deee.png)
 
 **_表9-8：具有电流监测功能的电源开关_**

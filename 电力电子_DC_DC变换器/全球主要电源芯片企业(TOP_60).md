@@ -6,9 +6,9 @@
 
 ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjQMv9GVBXOFicbFarhNk9XqxXCZ7Bl22AbKSWEuyKjTMbGZIBMLliaN1m8ia3buZ8D4RonJPewHy0kA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](全球主要电源芯片企业(TOP_60)_images/img_002_6a92b9ca32f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjQMv9GVBXOFicbFarhNk9XqU9ubQ7ia7QfxqSGEhMD2p0WJ59bsPWUNlW69E4vsFyur0yCoyvVwOKA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](全球主要电源芯片企业(TOP_60)_images/img_003_80c54c606217.png)
 
   
 

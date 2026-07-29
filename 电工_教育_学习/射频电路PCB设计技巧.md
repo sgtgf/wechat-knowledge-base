@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/7QRTvkK2qC60S9ic5EibVVeaAh4u6qKcUgLHfWxKpweayAic8F5ibSk0LgKeibicMG3BznVzYfILEIA1H8DEE9iawibjibA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_002_4c370c917006.gif)
 
 **一**
 
@@ -44,17 +44,17 @@ RF主信号的元器件尽可能采用一字形布局，如图1所示。
 
 但是由于PCB板和腔体空间的限制，很多时候不能布成一字形，这时候可采用L形，最好不要采用U字形布局(如图2所示)，有时候实在避免不了的情况下，尽可能拉大输入和输出之间的距离，至少1.5cm以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicxmiaDE6sU3YLAmFHSNMntXvtR9OSU9icCPwlM6eEDVVEibVFEaB4WhrQw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_003_c4675f76d8d3.jpg)
 
 图1 一字形布局
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicaSyUBWAZAic9BPY7QlMRQhvYOYPBUaXdbmCCIicmKjic1Dxe4vfYPLiayQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_004_3e6ce89d304c.jpg)
 
 图2 L形和U字形布局
 
 另外在采用L形或U字形布局时，转折点最好不要刚进入接口就转，如图3左所示，而是在稍微有段直线以后再转，如图3右图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicxzbZtcHSzbLq7IEgdJVMmQZ4RECmsWvwAGcZUk1iao1vvvqOHxhv75Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_005_affd6598408c.jpg)
 
 图3 两种方案
 
@@ -66,11 +66,11 @@ RF主信号的元器件尽可能采用一字形布局，如图1所示。
 
 相同的模块尽可能做成相同的布局或对称的布局，如图4、图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicqHzfia9pqRatBTT7NqOwu37lyMFau8DqvZ8jHB5dwlccmJpOO2kP2ZQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_006_4c35e7746fec.jpg)
 
 图4 相同布局
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6Ricwoib1bmNXraLibP5P0iaENrKfewfK9EATQn716TDShxS63WOkiaP4uNUzg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_007_a789772cabc1.jpg)
 
 图5 对称布局
 
@@ -82,7 +82,7 @@ RF主信号的元器件尽可能采用一字形布局，如图1所示。
 
 偏置电路的馈电电感与RF通道垂直放置，如图6所示，主要是为了避免感性器件之间的互感。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicVdbDv4qFJlhUuSQxZQXW1TkAZezUB8Yd7WPHXEmlzWn1icL4z0GSLYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_008_62a173ba7b34.jpg)
 
 图6 十字形布局
 
@@ -94,7 +94,7 @@ RF主信号的元器件尽可能采用一字形布局，如图1所示。
 
 为合理的利用空间，可以将器件45度方向布局，使射频线尽可能短，如图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6Ric0EGiaIoq6AKykCGnqsOibfKzibpK4t0rHUdsjUBfKl5iccoibUKNADpIkKg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_009_65f79054ce45.jpg)
 
 图7 45度布局
 
@@ -122,7 +122,7 @@ RF主信号的元器件尽可能采用一字形布局，如图1所示。
 
 在射频线宽比IC器件管脚的宽度大比较多的情况下，接触芯片的线宽采用渐变方式，如图8所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicxEnwdgddeicvhEicf9HUfibSb2f1ibjsjOql0DuN2DvicoAClq6qhX6icHRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_010_25343ec7ec8c.jpg)
 
 图8 渐变线
 
@@ -134,7 +134,7 @@ RF主信号的元器件尽可能采用一字形布局，如图1所示。
 
 射频线不能直的情况下，作圆弧线处理，这样可以减少RF信号对外的辐射和相互问的耦合。有实验证明，传输线的拐角采用变曲的直角，能最大限度的降低回损。如图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicD57z0ozdgLTiaKeTmtLOoib6NLKia3QNWZsbricwHv6n5jZsyPnh5F0Ezw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_011_350073cda41f.jpg)
 
 图9 圆弧线
 
@@ -168,7 +168,7 @@ RF信号与其他信号走线交叉时，尽量在它们之间沿着RF走线布�
 
 对射频信号、干扰源、敏感信号及其他重要信号进行包地处理，这样既可以提高该信号的抗干扰能力，也可以减少该信号对其他信号的干扰。如图10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6Ric0PmujFhN1ybFQjEPic4ia0loBzP8MwPeiaPwtDMK5xaFNyQoHj6BgINqg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_012_c15e0d81fe82.jpg)
 
 图10 包地处理
 
@@ -188,7 +188,7 @@ RF信号与其他信号走线交叉时，尽量在它们之间沿着RF走线布�
 
 射频线离相邻地平面边缘至少要有3W的宽度，且3W范围内不得有非接地过孔。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6Ric8UwKczC7RDQOupwGacSRcnricrKbhcbQDvib7px5J7O1XjxxPg6uibstg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_013_082f1abd82c4.jpg)
 
 图11 间距
 
@@ -214,7 +214,7 @@ RF信号与其他信号走线交叉时，尽量在它们之间沿着RF走线布�
 
 屏蔽腔的转角采用弧形，屏蔽金属腔体一般采用铸造成型，弧形的拐角便于铸造成型时候拔模。如图12所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/lxnWgeXsBcQF1BC7yicEdAvU91PibjX6RicLUqiaryibIxf5CicX4xzwiaCZwsRwD2kIx6NhQLxBCX3SdnqrNz3FibTygQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_014_b117a3e7cb3f.jpg)
 
 图12 腔体
 
@@ -226,7 +226,7 @@ RF信号与其他信号走线交叉时，尽量在它们之间沿着RF走线布�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/7QRTvkK2qC60S9ic5EibVVeaAh4u6qKcUgLHfWxKpweayAic8F5ibSk0LgKeibicMG3BznVzYfILEIA1H8DEE9iawibjibA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\射频电路PCB设计技巧_images\img_015_4c370c917006.gif)
 
 **四**
 

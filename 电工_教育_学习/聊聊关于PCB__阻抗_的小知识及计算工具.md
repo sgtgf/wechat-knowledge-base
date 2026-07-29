@@ -24,9 +24,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNrxDInWkNWHjWiaHAqvUBx0qADib7w84RzKibwJuCvZlHiaoWPbRa40RNcwJfibIBFxNia1eJYDqPYqCrw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_002_f3f5ca0317ac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNrxDInWkNWHjWiaHAqvUBx0YQlKibH6BbibaD5QyyGiaCk70E1icL9BUdsI5uV9UE68icSPPKgWic44VOqA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_003_5051853020da.jpg)  
 
 带状线（stripline）
 
@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNrxDInWkNWHjWiaHAqvUBx0vicZD22uoqhIuCicDqIq8pn0abvxEtS2YWH5cdOgkib6Ch2QZHZa5vQqA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_004_f28ef6ddbc3b.jpg)  
 
   
 
@@ -66,7 +66,7 @@
 
   
 
-　　![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNrxDInWkNWHjWiaHAqvUBx0JMhsjk6J8BpFsycYaAcyTeLNSvfb1sOib1AdN6t0EHmn6xKVBH4PHuA/640?wx_fmt=jpeg)  
+　　![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_005_2a8461966e60.jpg)  
 
 PCB的参数
 
@@ -98,7 +98,7 @@ PCB的参数
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNrxDInWkNWHjWiaHAqvUBx0xl5UGqbNjzcgVoGOtcEbJsugswe7MiaCsYMWzm5oggjxmw4cY4BWgFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_006_a6a02a7c4243.png)
 
   
 
@@ -106,7 +106,7 @@ PCB的参数
 
   
 
-　　![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNrxDInWkNWHjWiaHAqvUBx0vwBBajJR7ibickZ5H3iba4Sa5oeVicqymV0opUYn9JXNhAS8qaq1z0ehKA/640?wx_fmt=png)
+　　![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_007_3272f0aab3b4.png)
 
   
 
@@ -130,7 +130,7 @@ PCB的参数
 
   
 
-　　![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNrxDInWkNWHjWiaHAqvUBx05ezKNEV7calwAOj0dLicuYuJQmyiaHD7ok8Xc4qKq2Uga0N3YoG4mBSw/640?wx_fmt=jpeg)
+　　![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_008_d6e0ffec9506.jpg)
 
   
 
@@ -142,7 +142,7 @@ PCB的参数
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjeAGaeNiayUhdJHGpLNYia6D9uaGic64NiaXCSNwicYK6iav2VXkhBAXicoxxQGuyf5Za3uag0fsibclibL6g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊关于PCB__阻抗_的小知识及计算工具_images\img_009_3bfd9bd8b063.png)
 
   
 

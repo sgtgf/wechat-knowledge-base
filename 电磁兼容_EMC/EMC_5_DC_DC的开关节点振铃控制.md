@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/0pr\_ZFEnon6XmWp7H4qkyg](https://mp.weixin.qq.com/s/0pr_ZFEnon6XmWp7H4qkyg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvdzAGOL2blNEHR5XkBdhSlT3WdFCdncdC1geHnsnNWRYJcwmmEicCRUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_000_7ea3aac9ed51.png)
 
 ____**★★★**______EMC-5---开关节点振铃控制______**★★★**____
 
@@ -15,7 +15,7 @@ ____**★★★**______EMC-5---开关节点振铃控制______**★★★**____
 
 **_图5-1_**显示的是一个同步降压DC-DC的功率级组件模型，该模块中包含一些寄生电感和电容，其中红色部分是寄生元件，它们是产生开关节点振铃的原因。假设该转换器状态稳定，在低侧FET开启时的部分开关周期，负载功率仅通过输出电感和电容提供，这样能量存储于寄生电感，E=1/2L×I²。在开关周期末尾，转换器将会把低侧FET关闭，并将高侧FET重新开启，目的是为输出L重新提供功率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSmAsTTlykRvjrYr73b43xsJQLM7VXh1FibhJbT0UaHiaKWWWLHa9tln4SZHhEqSE3RDFLjfV2S2BsQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_001_eb85feca981f.png)
 
 **_图5-1：降压DC-DC的寄生模型_**
 
@@ -27,29 +27,29 @@ ____**★★★**______EMC-5---开关节点振铃控制______**★★★**____
 
 使用一个1.1V-20A降压DC-DC测试电路用于表明开关节点振铃的影响，该电路使用驱动器+高速开关FET电源模块，工作频率输600KHz，输入电压范围8-16V，**_图5-2_**是没有连接自举电阻器，高侧栅极电阻器或者缓冲器的开关节点波形，从波形图中可以看到12V输入时，峰值振铃为23.4V，最大负载的效率为87.2%。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjVRfDS0HTmQoPzgzRibM2oEew7icWdU4RHMRhNY8bxbJ7cWciaQN3icDX3HvIMYicuqGwBbEYXMf24Iw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_002_e85f27c17c23.png)
 
 **_图5-2：时间-50ns/div；原始振铃波形-5V/div_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjVRfDS0HTmQoPzgzRibM2oMR2MR11bfCQ3QmXStvo99VSQ2YVK6NTw9bHS6VqNEKj0TTj7onH05g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_003_0e2f69f0099d.png)
 
 **_图5-3：时间-50ns/div；增加自举电阻振铃波形-5V/div_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjVRfDS0HTmQoPzgzRibM2oAyvozw4GgH1rcxclJ8icicYia3libw1D6OQib0XnH3UFG2MztAqeBfGGUWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_004_f4377ecef615.png)
 
 **_图5-4：时间-50ns/div；增加高侧栅极电阻振铃波形-5V/div_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjVRfDS0HTmQoPzgzRibM2oicegDMhy7sQU2Pzkg2LVdIIq6PaWskJEsgic7ocI1ibrT9oF79T21aoQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_005_217be7d9c8c5.png)
 
 **_图5-5：时间-50ns/div；增加缓冲器振铃波形-5V/div_**
 
 对自举电阻器、高侧栅极电阻器和缓冲器进行了优化，以将这种电压过冲降低至20V以下，这种电压过冲控制方法为FET保护提供了一定的裕量，而FET的最大额定电压为30V。**_图5-2_**至**_图5-5_**显示了初始电路的过冲和使用自举电阻器、栅极电阻器和缓冲器降低后的振铃过冲。栅极电阻器的波形与自举电阻器非常类似，需要注意的是，仅振铃的量级受到了自举电阻器和栅极电阻器方法的影响，缓冲器方法还改变了振铃频率，并渐次减弱振铃波形，**_图5-6_**显示了每种状态的测得效率。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjVRfDS0HTmQoPzgzRibM2onhFsvBf7lctXewPlrbCpeE5owxibNwd7P3DQXCJr6Iu7zibk3ZibrP99Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_006_5237583de9c2.png)
 
 **_图5-6：效率与负载电流的关系_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjVRfDS0HTmQoPzgzRibM2oJbJq3fDzLibj59ZmegdfwVcPfK07BzEBvVUI8h7qOpEkm9Z8Zia46cWg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_007_f164406d64ae.png)
 
 **_表5-1：三种振铃降低方法测试_**
 
@@ -69,11 +69,11 @@ ____**★★★**______EMC-5---开关节点振铃控制______**★★★**____
 
 选择电容和电阻器件组件时，首先应测量原始电路的振铃频率。一旦确定了频率，便可将一个电容放同低侧FET并联放置，将振铃频率改变为原始值的一半，当频率为原始值的一半时，该并联电容值便等于原始电路寄生电容的三倍。知道电容和频率以后，我们便可以通过公式：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRGVXXdBMXNzCFVSIfibDrvrHJV3uI6YsgNsBoic4YrAJXUwbkoKjtsy7xaJ2tuJJXDFq7ZSmEu2FFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_008_75448c087a99.png)
 
 计算出寄生电容，其中f为原始振铃频率，而C为寄生电容，电路阻尼电阻器的值可以通过方程式
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSmAsTTlykRvjrYr73b43xsl44HCgwuYbA4iazeXcnPicYibgKR8YFdW1kAOo0LcUsFPQS3D1RKB2GMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_5_DC_DC的开关节点振铃控制_images\img_009_fbb0dbce665e.png)
 
 计算得到，该电阻器可能会也可能不会提供必要的振铃控制。增加电阻值会产生一个弱阻尼系统，其有更多振铃存在，但却可以降低功耗。增加电容可以降低振铃，但会增加功耗，就本例而言，使用一个2200pF电容和一个1Ω电阻以后，振铃降低至19.1V。
 

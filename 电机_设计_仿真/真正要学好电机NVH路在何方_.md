@@ -3,19 +3,19 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/DynZk\_0lBs1CTr9WBRYSgg](https://mp.weixin.qq.com/s/DynZk_0lBs1CTr9WBRYSgg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXiabprO7bP85PRtKicCzqRrib1GPmSyibF2XKlCe5UI5AZXeFvovOdcvWB5tjGA94YvynUasm0Q4iaAHg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638087&idx=1&sn=10488fd3d06d8530a24d18518ad8c454&chksm=88bc2c08bfcba51eec02dfbc80a9d8dca77f71533c01491de7e188be5ba108ea3a5a82c90c32&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_001_0dc7fca87f8b.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638087&idx=1&sn=10488fd3d06d8530a24d18518ad8c454&chksm=88bc2c08bfcba51eec02dfbc80a9d8dca77f71533c01491de7e188be5ba108ea3a5a82c90c32&scene=21#wechat_redirect)
 
-“电机NVH问题的机理及测试仿真”研修班是西莫近两年以来推出的最受欢迎的线下电机设计进阶培训课程，自本次开始招生以来再次得到了广大西莫会员朋友的热烈响应和积极参与；过去两年培训学员近200人，并得到大家的一致好评和口碑赞誉！来看看前两年参加过培训的学员们都怎么说![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUVEWncpfJFMPFvkrtlJNKut2SEYR4jYuPwSic8tl5tsrOsOtyicWEFoHgy0N4YyjAnqTMxtyWq2hCg/640?wx_fmt=png)
+“电机NVH问题的机理及测试仿真”研修班是西莫近两年以来推出的最受欢迎的线下电机设计进阶培训课程，自本次开始招生以来再次得到了广大西莫会员朋友的热烈响应和积极参与；过去两年培训学员近200人，并得到大家的一致好评和口碑赞誉！来看看前两年参加过培训的学员们都怎么说![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_002_2f4b93de4765.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIU1IYZEVicgXHFjPNXzVJj6GbOVYkwvejppglH5iaBeQXpEpSlUexqIysv02xibWicybxGxetRH1MHRJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_003_5b171546124e.png)
 
 还有好多学员的积极反馈留言这里就不一一列出了，感谢大家对我们培训的认可和参与！你们的支持和鼓励是推动我们做好后续培训服务的前进的动力！
 
 基于年前的论坛调研结果，应广大会员的强烈要求，西莫电机NVH研修班将在苏州开启第三次教书育人之旅，这也是继浙江、上海之后，培训第一次在江苏举办。资深名师，强强联合，作为电机设计的进阶培训，本课程从原理学习到方法讲解再到应用实践，不仅为您深入解读电机NVH相关领域的理论知识，同时详细讲述如何利用有限元分析的方法更好地解决电机和动力总成以及复杂电机系统中的NVH问题；西莫首席技术专家领衔授课，多位不同领域的Ansys专家倾力加盟，打造行业顶级师资阵容，帮您突破电机NVH学习的瓶颈，扎牢理论知识，并在结合具体案例仿真应用的学习过程中全面提升个人能力。我们的培训着眼于解决电机设计在振动噪声等方面需要注意的问题，同时对先进仿真工具的高阶应用和解决方案进行详细讲解，助力电机设计人员能力的进一步提高，对已有相关基础和经验的朋友来说，通过学习也会巩固自己的知识体系，加深对设计方法的理解。欢迎扫描下方二维码报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIU1IYZEVicgXHFjPNXzVJj6GYZQic6BURClxWUbSG2ZcEJenfrJb61OwSibu2ibLWPaGD8GFTkyic1BJXQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_004_a6a5c0253201.jpg)
 
 关于本次培训的详细介绍如下：
 
@@ -77,7 +77,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWrQDkqiaYTuuck2CO2lSibfMJqyPhvQb4WGiaXFHAwL0AKTnowzLNe5G0icbEnCSVU7O7qAMiaeSdiaY9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_005_7918d13004f3.jpg)
 
   
 
@@ -115,12 +115,12 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUO6jutIzMPstCVWDbzolFBwJMJoHmxpLupfhyEppyzxhJO2tDsbOpLHwxQxkHMib6ePVc5sKsBylA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_006_08291f42acf5.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVr9yILoibwtiapdKNtbJax2dx4xkibAqMlichhQuiaByylnSOpUqZd3SxY5C8rL4SFcpGyJz3ibFfDrKlg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638202&idx=1&sn=056e91a7ddd940e8f0347b9fb4799c3a&chksm=88bc2c75bfcba5637db8cd81b5ca41e6aa9a345fbec2a8245bb8aa091f2c54a679b6eabf0cca&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWmlpw4vUa1OuvHzvAKdaWOTZrSoPvd99FwwHy9RVFGr3EBgu2ILznhC1ibibWLRbVDyUib88MWd45Wg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638379&idx=1&sn=2607a9060e2098eeb0baa84471dc7bae&chksm=88bc2324bfcbaa326d9610754df3f1864c608a7c279b4ff413d5965aa42f3ea18509f3d918f5&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SjVGCooKxGROHpK5vr7vHtFK5urPw3ZjcibzH9ibXJ5ceytdKhPtiaibfiaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638401&idx=2&sn=48baef9a8624466efab935b9158d5e00&chksm=88bc234ebfcbaa58dd81aadcb47f35ee121348b929e11674ffe88c2c8a68a8d043ab03439c27&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_007_0cfebd1d514d.gif)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_008_7ea7f66f28bb.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638202&idx=1&sn=056e91a7ddd940e8f0347b9fb4799c3a&chksm=88bc2c75bfcba5637db8cd81b5ca41e6aa9a345fbec2a8245bb8aa091f2c54a679b6eabf0cca&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_009_e5da65a9e669.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638379&idx=1&sn=2607a9060e2098eeb0baa84471dc7bae&chksm=88bc2324bfcbaa326d9610754df3f1864c608a7c279b4ff413d5965aa42f3ea18509f3d918f5&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_010_5dce360821c6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_011_18f5302d1f9a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638401&idx=2&sn=48baef9a8624466efab935b9158d5e00&chksm=88bc234ebfcbaa58dd81aadcb47f35ee121348b929e11674ffe88c2c8a68a8d043ab03439c27&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_012_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_013_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_014_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正要学好电机NVH路在何方__images\img_015_d960d0948cf9.gif)

@@ -36,7 +36,7 @@ Q1
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImdXeiah6jDyTrEh9xbibVsrWeLnqThoXNhoJ15zWnzVKECaa4uXqia9aeQ/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_000_d081ef0d6237.png)
 
 Fig. 1 The size of sliding windows is 10 000 without repeat
 
@@ -46,7 +46,7 @@ Fig. 1 The size of sliding windows is 10 000 without repeat
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9Im66EErscvdmTJHLlAVyx37qwPHZYWlKbvPN7HergicxykQ8xLtVhl5DA/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_001_26c3159dc194.png)
 
 Fig. 2 The size of sliding windows is 5 000 without repeat
 
@@ -56,7 +56,7 @@ Fig. 2 The size of sliding windows is 5 000 without repeat
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImQNGzmx7zSTxyHRylK1nhyyyVk5bic9hNwlUJjyLrvCicIQrVEiaw82oCA/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_002_1c8483dbf572.png)
 
 Fig. 3 The size of sliding windows is 5 000 with 10% repeat
 
@@ -66,31 +66,31 @@ Fig. 3 The size of sliding windows is 5 000 with 10% repeat
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9Imyj7CsGhicuU5reJdDEuwtgqlJJbEYLaonZOstdJErIS4MV5Ydw2Oqxw/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_003_ac32f5defc55.png)
 
 Fig. 4 The size of sliding windows is 10 000 with 10% repeat
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImTNrV4vEMwJoH6JWQ26BfUHRLJO3DtCoIlHnjICX5ANaTQWsFicM4Pjg/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_004_fad2982c65f0.png)
 
 作者简介
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImN2dwb5KfLxa2OJkZFP6RxBa5yWiaXxLuvQtk3icqNwKu2ECz6icymSU3g/640?wx_fmt=jpeg)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_005_b312a1e7839c.jpg)
 
 邓大勇，浙江师范大学行知学院副教授.  2007年获得北京交通大学计算机应用技术专业博士学位. 主要研究方向为粗糙集理论及应用. 本文通讯作者. 
 
 E-mail: dayongd@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImMKz7flUCKWwVafCr4IEe6SqGaILuGBMe9nZIJIABSOL6iajtByJ7nrg/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_006_3746c8a22c28.png)
 
 李亚楠，浙江师范大学数理与信息工程学院硕士研究生. 主要研究方向为数据挖掘. 
 
 E-mail: ynli15@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImgELRZVKkVRniaUZOd4RfsGnFo0cCeF5lYtSgMibrbDmwHy6AkXagGW5g/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_007_2513787d5d29.png)
 
 黄厚宽，北京交通大学教授. 主要研究数据挖掘和智能计算. 
 
@@ -132,21 +132,21 @@ E-mail: hkhuang@bjtu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImuwvONkLtchMwfiatIVM0o9G7SWuibZMxbicDRFicMwWBYvL3AwntUZFVdg/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_008_cce9d1e65c8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImDKB456Sz6FS3XhPTXBOjB9pA89cta71ICDg6eL7KiaUKibyBVaeGibeNg/640?wx_fmt=jpeg)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_009_e6d2abd8e6c5.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImuwvONkLtchMwfiatIVM0o9G7SWuibZMxbicDRFicMwWBYvL3AwntUZFVdg/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_010_cce9d1e65c8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImYjlf7V7Oy96SRtQEwSLQibR4gua0enX5bA2YNljN0FsEVDeNgwChKEw/640?wx_fmt=jpeg)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_011_ce40f510672f.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImuwvONkLtchMwfiatIVM0o9G7SWuibZMxbicDRFicMwWBYvL3AwntUZFVdg/640?wx_fmt=png)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_012_cce9d1e65c8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47wY7VMadCXlbxBAmIvC9ImdfyoMvicPtMuiaUUexY2K52tCJlKNWwPACtmplsjfF7jPBoiakJXXniaVw/640?wx_fmt=jpeg)
+![](F_粗糙集视角的概念漂移与属性约简_images/img_013_3cedabf57744.jpg)
 
 自动化学报订阅号
 

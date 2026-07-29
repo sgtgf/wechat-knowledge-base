@@ -23,11 +23,11 @@ SiC 材料在场强、能隙、热导率等方面有着数倍于传统的 Si 材
 
 图 1 为一个典型的带有电感负载的半桥电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139pBdSPSjz1sbKuoydictb24kLiabEfl0LAvnmPRzyLAOhial5DKOqwAUIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_000_6410c21f2424.png)
 
 图中：Cgs、Cds 和 Cgd为 MOSFET 的栅–源、漏–源和栅–漏极电容；Lg、Ld 和 Ls 为 MOSFET 的三端寄生电感；Lld 和 Lls 分别为漏极和源极线路上的寄生电感；Rg 为栅极内部的电阻；L 为加在下管两端的电感负载；CDC 为直流侧电容；UDC 为直流源。以图 1 为例进行分析，假设下管 Q2 保持关断，上管Q1 进行开通关断，假设流经负载电感 L 的电流保持不变，得到典型的开关波形如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139giaBzym6HOibKsGIyWiahMPYRsuxYtjJCwUfOsxLrV4SE5Mjic9wZDcImg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_001_3b46cdc6ed16.png)
 
 根据文献\[17\]，0—t1 期间，上管 Q1 门极电压上升至阈值电压 Vth。t1 时刻，上管开始导通，id\_h上升，下管续流 id\_l 下降。t2 时刻，上管进入米勒平台，母线电压加在下管两端，较高的 dvds\_l/dt 作用在下管 Q2 的栅–漏电容 Cgd\_l 和 di/dt 作用在共源电感 Ls\_l 和 Lls\_l上，两者共同导致了下管 Q2 的栅源极电压 vgs\_l 的上升，若此时 vgs\_l 上升至阈值电压Vth 将导致下管的误导通。t3 时刻米勒平台结束。t3到 t4 区间，vgs\_h 上升至 Vg，上管 Q1 进入稳定导通阶段。关断过程与开通过程近似，其中 t6 到 t8 期间，较高的 dvds\_l/dt 和 di/dt 分别作用在 Cgd\_l和共源电感上降低了 vgs\_l，此时若 vgs\_l 超过器件的反向阈值将导致器件的损坏。
 
@@ -35,7 +35,7 @@ SiC 材料在场强、能隙、热导率等方面有着数倍于传统的 Si 材
 
 2\. 具有可调门极电压的驱动回路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1395NkUibgzibTR9dEeWJ0PbwfB8kibFF9N3873YHG1CiccrS8dYUuiaZOAQpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_002_394c0c7ba701.png)
 
 综合上述要求本文提出了一种具有可调门极电压的驱动回路。在器件导通时，提供高电压加速导通，在器件关断时，提负压加速关断并抵抗扰动。以下管驱动为例，具体电路如图 3 所示，该电路由两个电容 C1 和 C2，一个稳压管 D1，两个快恢复二极管 D2、D3 和 3 个电阻 R1—R3构成。其中，图腾柱电路 T1 和 T2 用来放大驱动电流，Vcc为驱动电源输出电压。详细的工作原理如下。
 
@@ -43,85 +43,85 @@ SiC 材料在场强、能隙、热导率等方面有着数倍于传统的 Si 材
 
 导通稳态时，下管的等效导通电路如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1394pzxiamHGFKiacwwRG9RxL9Psic8ZAfiaFekKy9ibjp9XxqLUW2weUuQduw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_003_e09a514aad74.png)
 
 下管导通期间，驱动信号输出高电平，图腾柱上管T1 导通。二极管 D2 导通，电容 C1 充电，电压为稳压管 D1 反向电压 vd1。因此，在忽略 T1 导通压降的条件下，下管 Q2 的门极驱动电压 vgs为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139PBxCW8cJLSdntibtXAA2WJ0w6soic1X5xvIZZ3ibQUmqCUQlJWYrrkFnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_004_5a64dceec58b.png)
 
 下管 Q2 的详细导通过程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1392NgDyY4HVEaQogz4aV1ibiae6JT0icQgibOXzW0oj8bB2pgxC5rCLQX7GA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_005_8b16b97e47a9.png)
 
 在导通瞬态，Vcc 同时为 C1、C2 和 Cgs 充电。假设 Vcc为理想电源且忽略 T1 导通压降，T1 导通时的等效电路如图 5 所示。该过程可由下式表述为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139aiaq9NpnXwjCoP7aADvsjvuCpLlfwY2RREGEickr2pGykWGia679a8Xpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_006_3f3bf9a39de6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139FlE5nWricltA0qILx5NOBJ8wZwHmUdmRe4CNwVuzqjzO6CK0TkLUFuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_007_69dc31d25097.png)
 
 利用拉普拉斯变换及其反变换可求解出 vc1(t)为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139eI1IFOZreia6iaH6iaecUs1CXLA9zeTOT4Upmicp3j2eiaR8TYR9icbsBnmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_008_76acb4656a1e.png)
 
 由等式(5)可知 vc1(t)初值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139rAaxzSJmLK4ibbmSHteO4ahPEcRvWjMfQTztKYiasUqGlBRbN1XvJVwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_009_6fd09bfe142d.png)
 
 随后，在稳压管 D1 的作用下，vc1(t)终值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Qoj0GerSU7h63JibFcedeE3iaNBm1AMJibLMZPW5q7xcCLGvAxbqKmyQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_010_c14fdf0b5391.png)
 
 由于 C1、C2容值远大于结电容 Cgs，在忽略结电容 Cgs 的条件下，若 C1、C2、D1 和 Vcc满足式(8)，则驱动回路导通的启动过程至稳态过程的过渡将大大缩短。因此可以通过合理配置 C1、C2、D1 和Vcc的参数来加速导通过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139OlR9WpQwuO5MQ8L6qyC3qs2qg0iaMCO4INbJEibHqTv21ib7j1EHkOCqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_011_3a9ebb8ac687.png)
 
 最后，为了求解 vgs，联立式(2)—(4)与式(9)，假设 C1 和 C2 两端电压初值分别为关断稳态的电压Vc1off和 Vc2off。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139BFstfSaQicFsBOYtor9aHIxWhcRUnuUAYf5PCuE7tbnxSYlXv4Uia0lQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_012_a89e112aafab.png)
 
 利用拉氏变换及其反变换可求解出 vgs(t)为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139eWBC9NJf7xDswsP6wib9ls643vLd1CHNI1iamHjPXdKLRAHrqmkQSy7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_013_b6290d8473b8.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139QDrOfcDyR6PGeJYEXSicNFmcG6ljFiavb0PcvYjbsma3uOyHHI7CPDOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_014_3bdd4c18fefe.png)
 
 式(1)中已给出 vgs 的终值，因此电容 C1、C2 两端稳态导通电压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139T0jnhrh2ib0WXs0l4JLwGmDaawGepUYfwlmOu2wHawhju1SeuBdUrbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_015_b3b5da535b08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139icLToIWEMKWKDicJv6KVxT9HtqygW0FrLSGY5ticWxmlZBcBdciazoLB6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_016_ff4220b93fdd.png)
 
 2.2 关断过程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139q9cuhTDicSIEp1YLsENTxMhGv8SSviaiaoaKic469AtW9JmX5WgHa665qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_017_1892dc254a2a.png)
 
 图 6 为关断阶段的等效回路。当驱动信号置低时，图腾柱上管 T1 关断，下管 T2 导通。此时，二极管 D2 反向关断，D2、C2 和 R1 构成的 RCD 回路从驱动回路断开。由于 Cgs 远小于 C1，结电容 Cgs可视为并联于 C1 两端。假设 C1 和 C2两端电压初始条件为稳态导通电压 Vc1on 和 Vc2on。则关断过程等效方程为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139pnaJS70vibHeP4TnzPEE9P3mGYdLFBDiaWZ7SaPibCtMiaJRUxlh9oR41g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_018_9db5ad3afabb.png)
 
 利用拉氏变换即可求解 vgs。终值定理表明 vgs终值为 0。然而，若开关频率足够大，时间常数足够长，则可忽略 C1 的放电，解出 vgs为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139P9hlcAxNMEBUJWhIdoC8WG7FwHdwC2jyExdvntMypbich8hWD3ygetg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_019_5a0818c91065.png)
 
 因为 C1 容值远大于 Q2 的结电容 Cgs，因此忽略 Cgs 的条件下代入终值定理可得 vgs的终值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1391QkSbONFbZjJe2fQMZjtFvgSSGTicVB3qGdTqOLSePgGXxdKDJR8vTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_020_86ef2cff08b1.png)
 
 通过电平移位器的门极电压 vgs 如图 7 所示，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Z5AwqSS4eeRH60IHCZeQByob7kUjgQjRUibNZLgd3Vqblq9mygNRicsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_021_8b0154517b6d.png)
 
 导通和关断电压分别降低了 vd1。因此可以通过选择不同反向电压的稳压管 D1来获得所需的关断负压，根据式(1)，通过调整电源 Vcc和稳压管 D1 来获得所需的导通电压。
 
 在器件关断期间，二极管 D2 关断，D2、C2 和R1 构成的 RCD 回路从驱动回路断开，此时，高阻值电阻 R1 被用于轻微泄放电容 C2 存储的电荷：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139rBHafbf8KVxg6Omr7Sg1m1sHkBYnrx84sgSibL2r6nIAopbl1Qs5NZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_022_f8ab806e2608.png)
 
 在关断期间结束时，vc2的电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Vxrh6ic7RpRf2YGp8LP2tXwo3RuPJSLOSQpARcZZQf6Nk23cgjYhc9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_023_bb9a2a740787.png)
 
 式中：D 为导通占空比；Ts 为开关周期。若该支路没有 R1，则不断累积在 C2 上的电荷会导致 vc2 上的电压升高，进而影响到 vgs 的电压。
 
@@ -133,11 +133,11 @@ SiC 材料在场强、能隙、热导率等方面有着数倍于传统的 Si 材
 
 对于抑制串扰电流 igd 方面，本文在图 3 电路结构的基础上增加了由 2 个低压 N 沟道 MOS 管 T3和 T4 构成米勒钳位辅助回路，其工作原理如图 9所示。假设下管处于关断稳态，此时 T3、T4 源极电压被钳位至 -vd1，由于栅源极的电势差 -vd1 驱动T3、T4 导通。在上管 Q1 导通时刻，高速的 dv/dt 作用在下管 Q2 的结电容 Cgd 上产生串扰电流 igd，而由于 T3、T4 的导通电阻极小，因此 T3、T4 导通形成的低阻抗回路将原本的 R2、R3 关断支路旁路使得原本流入结电容 Cgs 的电流大部分转而流经此处。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139gRR83bSfwWyhllkNDvfibzqSVJCuysKW5Rpao0kleVgCX8R8TMMqkcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_024_d8b5d7f8194b.png)
 
 因此，有效抑制了因串扰电流 igd 引起的 vgs 的电压尖峰。当上管关断时，原理与导通类似，此处不再赘述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139NL9EVJsAsia4ZZ9UiaKnY3ia3B0HCKRY24KoZrs3pYPscT7qrkteEBGiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_025_09a36b29437b.png)
 
 4\. 实验结果
 
@@ -149,39 +149,39 @@ SiC 材料在场强、能隙、热导率等方面有着数倍于传统的 Si 材
 
 首先，为了验证第 4 节提出的被动式米勒钳位支路不会对驱动的开关性能造成影响，本文进行了加入钳位支路前后的对比验证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139cEYbzEuyYKuucf54cxTtHQ8c3cH60MpHGKDs878fKluDEzz2icYExLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_026_18f982ce63f6.png)
 
 图 10 为 Udc = 500V，Id = 20A，Vgs+ = 15V，Vgs- =-5V 时，使用 5Ω 的驱动电阻得到的开关波形。观察上图可以看出，加入米勒钳位回路后导通时间延长了 5.2ns，关断时间延长了 2.4ns，均略有延长。此外，加入米勒钳位回路后电压 Vds及 Vgs 震荡及过冲无变化，电流过冲有所降低。为进一步确认米勒钳位支路对驱动的影响，本文进行了 Udc = 500V，不同漏极电流条件下的工况验证，验证结果如图 11所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Y0TjJrNex3aojKLAic3qdyjGJ1ianr1rIjvFRx4giatYpX0AhxbwoZmkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_027_6ce17ba781c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139sIP1axAvcIhGdY5UsTlQzPsgBEX28RMvibX54zHEhVelZInrAYQ6rQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_028_66c7fbd101f5.png)
 
 图 11 说明，加入米勒钳位支路后，虽然导通/关断延迟时间略微增加，但开关损耗反而低于加入钳位支路之前。在不影响损耗的前提下，导通/关断延迟时间的增加相对于 SiC MOSFET 在实际应用的开关频率可忽略不计。综上所述，加入米勒钳位后对开关性能的影响很小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139jg5R0yc8k7hrT3V20vicN0YyEGc71xE9ib3JuJjXv1IhOneGYPOibvTjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_029_a12285ce4c33.png)
 
 图 12 给出了 Udc = 500V，Id = 25A，Vgs+ = 15V，Vgs- = -5V 时，使用不同阻值驱动电阻 Rg(Rg = R1= R2)条件下的导通波形。由图可知，随着驱动电阻的增大，导通速度逐渐下降，导通损耗增加，但增大了驱动回路的阻尼，抑制了电流的震荡和过冲。
 
 图 13 为不同驱动电阻下的关断波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139yGicNyOCibOUwFm4m9d9dHX7EdJk03bwIDJZf3t56hD7nicpxlzGGarVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_030_e4b5d70c26fd.png)
 
 为了验证本文所提出的串扰抑制方法的有效性，进行了相应的实验。测试中，保持下管 Q2 关断，开通和关断上管 Q1，测量下管端电压和电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139CibmrVf5oeTHcbbM0Erljic6V5pBVItjj9YiciatUj4VYdeldKfJDrLvaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_031_b12aebd84b08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139T03cpL3m2KSU5hVLB31ydicyIEQ5M0mqZKfF0vT2EvUdNibibeibmk6gjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_032_f622a00d7e0e.png)
 
 首先对比了 5Ω 驱动电阻时加入钳位电路前后的串扰波形如图 14、15 所示(Udc = 500V，Id = 20A)，可见加入米勒钳位回路后效果显著。在 5W 的驱动电阻条件下，dv/dt 高达 50V/ns 时，上管导通时作用在下管门极电压的正向尖峰从 -0.2V 降低到 -1.6V，上管关断时下管门极电压的负向尖峰从 -9.4V 降低到 -6.6V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139rZ0icYhD6uxjvFIeJzXs00Nt7klT1oBWOTkMM8bEUwUu6NJyVzBJrQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_033_40f2a38f92b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139OXUGbvTzbV67kj34d5pBwDVZGbxsU6icFRSHZUfkNMTm4awQ89kwiaIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_034_7d781de1b27d.png)
 
 图 16、17 为不同驱动电阻下的米勒钳位驱动Crosstalk 测量波形。结合图 18 的串扰电压变化趋势表明随着驱动电阻的增大，串扰电压得到进一步抑制，但同时伴随着开关损耗的增加。因此，实际应用时应折衷考虑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139CeC7Gr0qkrE6ZR2mziaY7KpcKrEsAs7nPb6csJow9mh0FQbqLjk8IsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_035_94b746bebdef.png)
 
 5\. 结论
 
@@ -193,10 +193,10 @@ SiC 材料在场强、能隙、热导率等方面有着数倍于传统的 Si 材
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_036_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_037_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\串扰有源抑制型_SiC_MOSFET_驱动方法_images\img_038_84aa944feb13.jpg)

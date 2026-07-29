@@ -1,0 +1,77 @@
+# 年底IPO“太嗨了”！一汽车发电机制造企业冲刺IPO
+
+原创 电机新视界 2024-12-27 13:40 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/y8cEYQCXbLbsShY9GYFINg](https://mp.weixin.qq.com/s/y8cEYQCXbLbsShY9GYFINg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tbEIibqxeWZ5oftfXb9IjNR1DictRq6DGSosJdxEe9NRDDib0mfG2aaRfcfiajDpj7P3JkzC43xeFJzQ/640?wx_fmt=jpeg&from=appmsg)
+
+
+来源：SMM电机资讯
+
+  
+
+宁国金鑫电机股份有限公司董事会于12月26日发布公告，公告称，该公司于 2024 年 12 月 26 日与国元证券股份有限公司（简称“国元证券”）签订了《宁国金鑫电机股份有限公司与国元证券股份有限公司之向不特定合格投资者公开发行股票并在北京证券交易所上市辅导协议》。
+
+  
+
+**2024 年 12 月 26 日，公司向中国证券监督管理委员会安徽监管局（简称“安徽证监局”）报送了辅导备案申请材料，辅导机构为国元证券。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GL6AQIJGGibc9QKjzeM6dibibIcgmE96sHgNkPcaclMV8f92aD8libCRBtWH3JfIULKNnzmSIqoRkLJ04RIx8xYRfQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=13&wx_lazy=1&wx_co=1)
+
+  
+
+了解到，公司是一家**专注于汽车发电机、定子、转子、车用电子真空泵的研发、生产及销售的高新技术企业**，并已入选安徽省“2022年度专精特新冠军企业”。
+
+  
+
+经过20多年的发展和市场培育，公司拥有汽车发电机领域的先进生产工艺与技术。同时，公司具备完善的质量管理体系。公司产品主要为各类乘用车交流发电机和商用车交流发电机，以及作为发电机重要组成部分的定子和转子。公司的发电机产品曾先后被安徽省科学技术厅认定为安徽省高新技术产品、安徽省重点新产品，且已进入奇瑞、上汽通用五菱、赛力斯等汽车品牌的供应链体系，并远销欧美地区等海外市场。
+
+  
+
+汽车零部件行业是汽车工业发展的基础。随着汽车制造全球化趋势深入发展、汽车产业整车与零部件分工明细化，《中国制造 2025》指出汽车零部件制造是政府大力推动突破的重点领域之一。
+
+  
+
+中国乘用车保有量持续增加。据灼识咨询，2022 年中国乘用车保有量为 2.74 亿辆，已成为全球汽车保有量第一大市场，未来有望继续保持增长态势，灼识咨询预测 2027 年将达到 3.74 亿辆。一般而言，汽车服务开支在车龄超过 6 年的临界点后开始显著增加，中国乘用车平均车龄突破临界点后，日益增长的汽车服务开支将驱动汽车服务市场规模持续增长。
+
+  
+
+业绩方面，根据公司已披露的2024中报，公司实现营业收入2.555亿元，同比增长29.70%，净利润3607万元，同比增长50.22%。
+
+  
+
+  
+
+  
+
+  
+
+**知识回顾**
+
+**电机政策：**
+
+[电机市场的IE5时代，真的要来了吗？  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247550130&idx=1&sn=42a14a5382b68a0bbd4ba48093155097&chksm=cede4576f9a9cc600786ab2908e4c3ef2cf3dbbfdb71a9265508f92e2dbda25384b66424bfde&scene=21#wechat_redirect)
+
+  
+
+# [高压电机 能效标准GB 30254-2024已发布 9月1日正式实施](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247574347&idx=1&sn=324e60a45f9ce388894db215c8ad9534&scene=21#wechat_redirect)
+
+  
+
+**精选文章：**
+
+[清华大学的电机系毕业生都去哪儿了？](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247548328&idx=1&sn=8bbb58f38491f58600b87c85f9a2a864&chksm=cede7c6cf9a9f57ac80d409cbc6b9ced57c5d4df799227673198488eb6ac427f40098e09d145&scene=21#wechat_redirect)
+
+  
+
+# [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)

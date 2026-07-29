@@ -26,7 +26,7 @@
 
 由于MOS管的制作工艺，决定了本身GS之间有结电容以及GD之间有弥勒电容，DS也有寄生电容，这使得MOS管的驱动变得不那么简单。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgCxIiaLUpzygtnNMGpvbrPiaFWFaxMWp7FxmK3ZUwdFRnasrBBGvPqMia7ru4kib9nmXS4Eky7PdiaEug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动好不好_波形一看就知道_images\img_002_b68c792b4e9c.png)
 
   
 
@@ -42,7 +42,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOzKQweXSnZJLE9xgRiapqGA1CAOibJUaunET1SF04KwOloibiagSgkwqFP7QgnnVELVNkrGPjBDO1Sg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动好不好_波形一看就知道_images\img_003_c73056cc294c.png)
 
   
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOzKQweXSnZJLE9xgRiapqGFpictEwXrbiaxdYhib5ibvZic6mMsQia7qTGKicp64we6svXY3wwjncOgGHaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动好不好_波形一看就知道_images\img_004_348dc257bf02.png)
 
   
 
@@ -76,11 +76,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOzKQweXSnZJLE9xgRiapqGAibE4JuBxictTAt657WKftnudF7GZC1icDiaHYbTxXAd3PyI9fIolUuhog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动好不好_波形一看就知道_images\img_005_9689a78dbdcf.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOzKQweXSnZJLE9xgRiapqGUvzWFWpdPIz7g8pUP5U7RRUw4MUPyzNyBazhNZ6BSEiaiaOmtkbA9kIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动好不好_波形一看就知道_images\img_006_abd0f2f85e99.png)
 
   
 
@@ -98,11 +98,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOzKQweXSnZJLE9xgRiapqGLlt1Awt2riaMJfnbO1XVicySPyiaTMwfWAowbWqkbaWnoMlkR5CfRcM4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动好不好_波形一看就知道_images\img_007_74c748124df9.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOzKQweXSnZJLE9xgRiapqGlRHATucypXGt4RTRshibpDLUjeVUmVuXV2iaktQO8nj5QLsxwEbSngtg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动好不好_波形一看就知道_images\img_008_19799cb7bd79.png)
 
 以上就是今天的分享，希望对你有帮助。
 

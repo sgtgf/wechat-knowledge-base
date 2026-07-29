@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_002_01bcc6400979.png)
 
 **1**
 
@@ -32,7 +32,7 @@ DC-DC转换器的使用有利于简化电源电路设计，缩短研制周期，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_001_01bcc6400979.png)
 
 **2**
 
@@ -80,7 +80,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_000_01bcc6400979.png)
 
 **1**
 
@@ -94,7 +94,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BG1fB6Mjbtd9456ZXTr723y7SNGEf7G3CFAefhA0MiaPDYB0EPkyHUyQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_003_8f6c9277b33b.jpg)
 
 图1
 
@@ -104,7 +104,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BxKktqLbNIvua4xm2KT0Y5nR0M7fCx7g6icAAFexuXRYBAeYoJy6EHqg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_004_7df8eca14e82.jpg)
 
 图2
 
@@ -114,7 +114,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BKMa1cZpIVaQ45icMQYpib8APvibYN6TRrLeQxe74SZwvjpqwFGM77RVYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_005_2e59e8b2034c.jpg)
 
 图3
 
@@ -124,7 +124,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_006_01bcc6400979.png)
 
 **2**
 
@@ -134,7 +134,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BvJZUwh5AwsNHHdZPthjLRURCAVsyIfKvMvfy9vYYDH0J6EjIABHwfQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_007_3e5bb4961ba5.jpg)
 
 图4
 
@@ -144,7 +144,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BvA888EQrG0oDqpmGdoNqqlTQXuicibm4Sk9OFTRKxb5m3XiawAcQCrFZA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BndWKAcjlTtW0zPNBgNeia8f3WvibmOicHEwNUMfFtmib9UCLRMiaad8zweA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_008_62f19a50269d.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_009_96a09b418691.jpg)
 
 图5
 
@@ -154,7 +154,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BVibtsibsCLEV1tr78gnib4pgMDogoAqSwocjBUNeLCUuOhhtMlXPZRznA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_010_500475041eb3.jpg)
 
 图6
 
@@ -164,7 +164,7 @@ PWM的频率，PFM的占空比的选择方法。PWM/PFM转换型小负载时实�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BIUeuicb1aqnZaKnIahckeEJavcfAr1cQiaAGSU6xe7328H3SkNDa7e5w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_011_16b40207f8fe.jpg)
 
 图7
 
@@ -196,7 +196,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_013_01bcc6400979.png)
 
 **1**
 
@@ -210,7 +210,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_015_01bcc6400979.png)
 
 **2**
 
@@ -232,7 +232,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_012_01bcc6400979.png)
 
 **3**
 
@@ -250,7 +250,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_016_01bcc6400979.png)
 
 **4**
 
@@ -268,7 +268,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_014_01bcc6400979.png)
 
 **5**
 
@@ -286,7 +286,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BUgZmjL33EdI1TSAibWO5r48fXZDrcjo0H7WuX7DZj51pOibnRdQT6kVA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_017_810b1f50e293.jpg)
 
 图9
 
@@ -296,7 +296,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_019_01bcc6400979.png)
 
 **6**
 
@@ -314,7 +314,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_018_01bcc6400979.png)
 
 **7**
 
@@ -340,7 +340,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_023_01bcc6400979.png)
 
 **8**
 
@@ -358,7 +358,7 @@ DC-DC电路设计至少要考虑以下条件：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_020_01bcc6400979.png)
 
 **9**
 
@@ -380,7 +380,7 @@ EN高低电平要满足器件规格要求，有些IC不能超出特定电压范�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_021_01bcc6400979.png)
 
 **10**
 
@@ -398,7 +398,7 @@ EN高低电平要满足器件规格要求，有些IC不能超出特定电压范�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmeHJOJIzwaUTBIzBoKoIo0f3rsdY4Zkw94tVKtNBJEWB5vHy6UMnVkSPaVlZoS8zg7gViaPDqFRzHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_022_01bcc6400979.png)
 
 **11**
 
@@ -462,7 +462,7 @@ EN高低电平要满足器件规格要求，有些IC不能超出特定电压范�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BgvL84gdOfia4RIPvlKS2esVvdqMg4A8PJqSK9RlicvMavNAQfg0zE2hQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_024_97ad6571d21c.png)
 
 **3.BST电容**:按照规格书推荐值。一般0.1uF-1uF。耐压一般要高于输入电压。
 
@@ -472,7 +472,7 @@ EN高低电平要满足器件规格要求，有些IC不能超出特定电压范�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdQiaiab4GSXOrvoZj0AfhP4BzWZdJSj2THT2sGqsQouCSmX6SflN7KYiauiaiaic7VWRNFIptBwP47KK7g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DC_DC电路设计技巧及器件选型原则_images\img_025_6d3a2b83cf5c.jpg)
 
 **5\. VCC电容**：按规格书 要求取值，不能减小，也不要太大，注意耐压。
 

@@ -6,53 +6,53 @@
 
 ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOM6xgyglMMmv2NzUOMdexgmbN8tUutWTNenx0MaxDibZrGIaapnvlorOQ/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](华为PCBA检验规范_images/img_002_d97977721a8a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMcjPjxVlq4LNnJicaibmBNmibed8He00L4yoeUw5kiakGdjmwq3mXWgRasw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_003_ea172867bd05.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOM8LD5ickC3MAKCgfYHHjvrDn950WOzC63DNueaaHib7JwiciaCyqiafuSGEQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_004_ab472d7f37ca.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMlzMYMxWlt5fNtibicuSAau8mLNttcejuibJzF7tXiaFicKMvIoP3MGyf4icw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_005_0001da64e576.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMic0kATW5Jx5GSZgSS2wPAcV8JUgfAich9IficEyDq143g0N1oLRZLwGeQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_006_cbeb9a75be54.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMJiaMK3yn7fyRGGUWZyEBaqE9CzqejTMkJZ7U4N6I3Fpfw74z5rEvnQg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_007_ddf3e169586f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMibHYAXtWUnkeXeGO3HiafCTpfpJkZXlvKwW0uc8atoQbu3NPZicDvZdDg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_008_ecbefb08d87e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOM7HyMTiaj4sEe650npBVNQgwmvNfU3ZqC1raaInGJKsFZySsttxRbrpQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_009_c035c6a3b10d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMwh6GicdGBTMGRr0utZDYanZaFHWR9BduK4lR9Mb0sjlBRbeUwjbktDg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_010_dc23ce795b91.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOM5fNzUty593BdtbTWjB624ib5HX1dBwFLJZJ7iaYs9jC6OLJGNKVfdhicg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_011_4a1f7165e7a3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMsqSdddZysHia47RkaoTiabXU5gCGX0tAymwUoL3BpfGXM3SrQu8bvfibw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_012_b02fa2271333.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMQtPhkYp8yJ9nUEqibZtgtudib9JicmCCmyaHEwtFmJmtegzlibhiar3Uz8Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_013_aba60d1bbe69.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMYO4diaKvnEFRKBiat1sTlLUADQw0bic7gkD810DYCut3ia6iads3cNKBthA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_014_24ab25a99da9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMTwmxYmIjHMXwknDKHYa1xo1bAHibHicno5PHNCM3ibtaCibK8ib381URITA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_015_bc07ca29d015.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMFH1bPcpW1FfRR1pgicDenlc22XXGJOjTb6t5reQaKSF30fqqWibMBUIw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_016_71d4cc1d23a6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMOfQnKZuial1qhagvmsBBFmCcyokhicxxutdaVvzl2L7tMF7HTJTYLdvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_017_065cecb97ea9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMkQUcRMqtRicuMLMJWmakC9m1YjY49gaJdkWWt0PbneicdQxibCBoDMLNQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_018_7814ad6f1ada.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMn9BtlxmzV63EeNTkCokJ2CqphpjsSc6o9NNrdkZgoftLqyoZCc1NOw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_019_8d884262a1e6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMmZCVUYPTAJg7npibFAibySRSTG8RLV2zric6eU4ibSiaFhPHkrUCSnCn0lA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_020_1737af2cc28c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMLt8aTEBKicI35gae91MPDwRKrSRyiaAR9cu15WAZOBVHRBYicmco0B2UA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_021_b4980a13a9d9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMUZp2Uu6xAt992KWa0qICPEZF5c79Tc6JMWYbAuCOVibWGpic6SeQkDlg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_022_73737af205f9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOMJfyPG9zTa2yAuqibzdO5oDN0tCLvVV2g4ZpudicGqZduFqBicZ4VEqdfA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_023_e96f3f022cbb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6ISVKNXLsEbtNDRBEppfOM0cbSEdAcdmRibZE3RKyu1vy2Auk5llDrEMeibJBnH23j6q8vALPcS3ibg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](华为PCBA检验规范_images/img_024_6e321bb55c60.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](华为PCBA检验规范_images/img_025_8f8c22b4fa63.jpg)![](华为PCBA检验规范_images/img_026_d5dcc7ecfdf3.jpg)
 
 ## 
 

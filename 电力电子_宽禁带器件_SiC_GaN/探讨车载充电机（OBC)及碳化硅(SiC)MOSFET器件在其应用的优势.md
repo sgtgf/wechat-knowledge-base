@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/XDAAbWFykQFMGVscRAv4dQ](https://mp.weixin.qq.com/s/XDAAbWFykQFMGVscRAv4dQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfqshxuRDEiawibniajH0DicC9Txn2onmITxGPra8g3WdcVnxwvbLKPI3OUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_000_178c2eccdff7.png)
 
   
 
@@ -23,7 +23,7 @@
 
 本文将深入探讨车载充电机的基本原理和技术发展趋势，并聚焦碳化硅功率器件在OBC中的应用，揭示其如何推动电动汽车行业的革新。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreg1tUPxo52b2IhtXE8lbYLeAYbwK46C9Fkibh1tFra2RezlWQJOPZRticLauYWcQiafGC7l9hZ4aX5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_001_436be3e2f0c5.png)
 
   
 
@@ -111,7 +111,7 @@
 
 ****·** 智能化：**与电池管理、热管理深度集成，实现智能充电和能量优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfzmUz7WgOWrRia3QzaGNAKJN9GjicvuoyFGxKCeLz8VE1aaxmjcewBdzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_002_91e4d0afdbc3.png)
 
 ▲OBC功率发展趋势
 
@@ -137,7 +137,7 @@
 
 ****·** 优异的散热性能：**碳化硅的热导率为4.9 W/cmK，能够有效散热，减少器件过热风险。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMficoVvnN1vNOqVnkgP70asNNy7FXLiaic7mwJLLd6STzuAGnlPscnYjntA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_003_24d572ca16a8.png)
 
 ▲碳化硅的物理优势
 
@@ -149,7 +149,7 @@
 
 ****·** IGBT的局限性：**IGBT的开关频率较低，导致磁性元件和无源组件的体积和重量增加。碳化硅功率器件的高开关频率则能大幅减少这些组件的尺寸和重量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfbojL2cRib2ib4VKGCZmg4al2S1ux9PyvX2ib5FxAFV3QcCWW86adV76rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_004_7f9be120619e.png)
 
 ▲碳化硅功率器件的优势
 
@@ -195,7 +195,7 @@
 
 ****·** 双向充电功能优化：**碳化硅器件能够高效实现电能的双向流动，支持车辆到电网（V2G）等新型充电模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfhR3gZauiaHLpicLb8H0qlnpjCG0h868ibeU8W7ZgeSv0r0vKrPVHDWRJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_005_ebb0b59b4901.png)
 
 ▲双向OBC支持新型车联网的案例
 
@@ -217,7 +217,7 @@
 
 通过调节输出电压，双向OBC能够适应不同的充电场景，确保充电安全。例如，在电网充电模式下，OBC将交流电转换成直流电为电池充电；在车辆到电网（V2G）模式下，OBC将电池的直流电逆变成交流电反馈到电网。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMffO2aMnzmh8ZzrshApViaBFCPoRPYicRbC6bnibBuGC3SkQwUEttdAw6mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_006_760bb821a60f.png)
 
 ▲双向OBC前后两级架构
 
@@ -247,7 +247,7 @@
 
 碳化硅的低功耗特性简化了热管理设计，降低了系统复杂性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfaXzYIsKQMKpLxBOcLnwMBon3g73rZZk9oGiaia5lqCP2IUH6iaQy34p1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_007_32f0e15e4801.png)
 
 ▲碳化硅的物理优势
 
@@ -259,7 +259,7 @@
 
 作为碳化硅功率器件及应用方案引领者，爱仕特推出了适用于大功率双向OBC的MT4系列和MT7系列碳化硅MOSFET。这些产品不仅具备卓越的性能，还在双向充电技术上实现了重大突破。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfmfEibdOlWSFIT8nbxvbdmTTFQjb7EZx7ictgLDfShm8KMseR0cK0c2JQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_008_ec1734af3a05.png)
 
 ▲爱仕特碳化硅功率转换解决方案
 
@@ -271,7 +271,7 @@
 
 ****·** 高可靠性：**在高温、高湿度等复杂环境下仍能保持稳定性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfGaZUfVicD7Q1EdzEJzxALEJXm3o6EDBZ0ZucxMJjfYpe8OCrJQZgHQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_009_46a1d6f7264d.png)
 
 ▲爱仕特MT4系列碳化硅MOSFET介绍
 
@@ -283,7 +283,7 @@
 
 ****·** 优化散热：**良好的热导率确保器件在高负荷下稳定运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfIfqlCwpRuLOob8mYyLCcGib6hk6KqOY92OP6dRjWamqzOtPkibOdym6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_010_0d8d4c510921.png)
 
 ▲爱仕特MT7系列碳化硅MOSFET介绍
 
@@ -295,9 +295,9 @@
 
 碳化硅功率器件凭借其卓越的性能，正在推动车载充电机技术的革新。随着电动汽车向高压平台和双向充电方向发展，碳化硅基OBC将成为未来电动汽车充电系统的核心。爱仕特作为碳化硅技术的引领者，将继续致力于为行业提供高效、可靠的解决方案，助力电动汽车产业的快速发展。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreg1tUPxo52b2IhtXE8lbYLDCtwbibL7siaaFa5BPRYbHoNEpLJb5lHqeiajj75nUgcmvUeZfMdkSoicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_011_5804877687b1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreg1tUPxo52b2IhtXE8lbYLU6WVfibAJWGQOYgtaicsaxvQl4CVO2zAxvR84fsKBrP60VQRwTHtuU0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_012_fde59c472e30.png)
 
 **说明：**此文来源网络，是出于传递更多信息之目的，****
 
@@ -311,7 +311,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_013_24def2a8f5ae.jpg)
 
 专注碳化硅器件的研发与应用。分享碳
 
@@ -326,14 +326,14 @@
 
 6115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_014_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_015_9bbc7b9b15a2.png)
 
 **说明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_016_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_017_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\探讨车载充电机（OBC)及碳化硅(SiC)MOSFET器件在其应用的优势_images\img_018_9bbc7b9b15a2.png)

@@ -24,7 +24,7 @@
 
 基于SiC MOSFET充电器的主电路框图如图1所示，由三相交流输入电源、输入电抗器、可控整流、SiC MOSFET 的Ｈ桥逆变、高频变压器、快恢复整流以及输出滤波电路等；控制电路由DSP控制系统、SiC MOSFET 驱动电路、各种检测电路等组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP3qhnjxLxaRqhjicbkBYsgNq0cia4le3viaJG70r52AC90nUNuTMZOUL0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_000_a89de332ab3f.png)
 
 1.2 SiC MOSFET驱动电路的设计要求
 
@@ -38,7 +38,7 @@
 
 （４） 要有足够快速高效的故障保护功能，用 来与SiC MOSFET高速开关特性相对应，同时能将这些故障信号反馈给控制系统。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPrUicClyKXlwibfyKicwotgIP9cLxvicc9eDxia4dichqcq3gWMDJyC7OAULg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_001_fa710f351483.png)
 
 针对上述要求，设计出驱动电路的方案框图如图 ２ 所示，其工作原理为：DSP控制板生成的PWM信号发送到 驱动核，经过外围驱动放大电路信号将PWM信号放大后， 将稳定的PWM信号送给SiC MOSFET，使SiC MOSFET可靠有效的开通和关断。 当SiC MOSFET发生故障时，故障信号返回到DSP控制器，DSP控制器根据相对应的故障信号做出动作处理。
 
@@ -48,7 +48,7 @@
 
 本文中针对矿用充电器所选用的SiC MOSFET为C3M0016120K，其栅极驱动电压为-4V/+15V ，漏源电压为1200V；所选用的驱动核为APD202，其供电电压为12V，此驱动核会自激 产生+15V/-3V 的电压，可满足SiC MOSFET的 栅极电压要求。 因此，驱动供电电路，选用金升阳 的PV40-27B12电源模 块， 宽电压范围输入DC300-1200V，适应AC380V/AC660 的供电电源，电源模块输出稳定的12V供给驱动核，电路 原理图如图 ３ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPZKhNLWEqbJSnnWQ4BKvHhG8oMj1xuWl39r9nSYoeTEObzn24tnA6aQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_002_ee55d820c00e.png)
 
 2.2 驱动电路设计
 
@@ -58,13 +58,13 @@
 
 由图4可知，电源模块输出稳定的12V供给驱动核供电，但是为了进一步保证输入电压的可靠性，需在电源输入与地之间接一个大于68μＦ的低等效电感、低等效电阻的电容，设计时同时并联了一个支撑电容100μＦ，如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP1VekR0jL5Qa8NsoeUfGBWmFqnTFALicSDJcSF2fSsd2lVDvgeticAQIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_003_1790b50b2ee7.png)
 
 2.2.2  复位电路设计
 
 驱动核的3脚是复位引脚，低电平复位，４脚是故障引脚，低电平故障信号输出。 当驱动核检测到故障信号后，锁存驱动核的栅极脉冲输出并产生一个稳定的-4V的电平信号关断碳化硅器件；同时， 4脚输出的低电平故障信号经过非门74HC14电平转换后，通过配置电阻 Ｒ１ 和电容 Ｃ１的值，让复位脚接收到一个大于 1ｍｓ 的脉冲信号后，实现自复位，如图 ５ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPboSiaRtvhgcaXFVznwdTicaEBVPvO8YPAD6vKkZYLic1Sv16ECIP4N26A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_004_b071da802d00.png)
 
 利用ＲＣ 时间常数计算出1ｍｓ 时间所需要的电阻 Ｒ１ 和电容 Ｃ１ ，得出电阻 Ｒ１ 为 1ｋΩ，电容 Ｃ１为１μＦ。
 
@@ -72,7 +72,7 @@
 
 此驱动核逻辑高输入电压范围是4～5.5V，且为电流型驱动，输入信号电流为10～100μＡ，故 以最大电流100μＡ、最大电压5V设计串联输入电阻，根据欧姆定律可确定为输入电阻 Ｒ２ 为50ＫΩ，考虑到驱动核内部电阻等，设计时取10ＫΩ，如图 ６。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPNzEibpPvIk3V1Gst3icg6Ote8NXdej0DnUpmMsPaia52reYw5LubNy2GA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_005_52fefe5f518e.png)
 
 2.2.4 保护电路设计
 
@@ -82,29 +82,29 @@
 
 栅极驱动电阻 ＲＧ的大小影响SiC MOSFET的开关时间、开关损耗、反向偏压安全工作区、短 路安全工作区等，栅极驱动电阻ＲＧ的选择是驱动 电路设计的重要部分。 栅极驱动电阻 ＲＧ计算式 如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP46n8wicvlp4ibOiaraO2NgicLkjuo4yXYj2wMGcF9h7sganKpdoJlIiayTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_006_b5b2de106889.png)
 
 式中，IGM是栅极峰值电流；VG（ｏｎ）是正偏电源电压；VG（ｏｆｆ） 是负偏电源电压； ＲＧ（ｉｎｔ） 是模块内部驱动电阻。
 
 依据器件参数，ＩＧＭ为6A；ＶＧ（ｏｎ）为15V；ＶＧ（ｏｆｆ）为 3.3V；ＲＧ（ｉｎｔ） 开通为500ｍΩ，关断为350ｍΩ。根据参数计算出 ＲＧｏｎ为1.45Ω；ＲＧｏｆｆ为1.6Ω；而 栅极驱动电阻越大，开关损耗和驱动脉冲上升下降时间就越少，设计中开通驱动电阻为2.5Ω，关 断驱动电阻为5Ω，其次为了保证SiC MOSFET栅极可靠有效的开通关断，在驱动电路中将SiC MOSFET的栅极与发射极用平衡电阻和钳位二极 管进行并联，平衡电阻的值为10K，钳位二极管采用18V的齐纳二极管，这样连接可以防止SiC MOSFET 栅极电压超过所允许的最大值，保证SiC MOSFET高效安全的工作，如图 ７ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPFxicuF2dZyxY6AlJicLDrpuLYGrFaTkPdWyGsTOCwwXLvV1VWrnYCrGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_007_995375ad5c7f.png)
 
 根据以上对驱动电路各个部分的介绍与分 析，设计出碳化硅的驱动电路外围整体电路如 图 ８ 所示。 本文给出一组碳化硅上桥和下桥两 部分的驱动电路，驱动核均为APD202，由CPU给出PWM1+和PWM1- 输入脉冲，上下桥导通之间有一个死区时间，防止因上下桥同时导通 而短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPZJEzEKhtt7LUiapOicvne1szeIL0yLPmofic12IMLfATnO7LIPx32UOUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_008_37147c0bc28b.png)
 
 ３.　实验结果与分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPnyPPDnibOzquhrIqqnlBYgWcnA7sxF8Zw4D0wljsZn5dcictOK2GO5Tg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_009_32735261a072.png)
 
 对设计的碳化硅驱动电路进行了实验研究，图9所示搭建的实验平台，主要由控制板、碳化硅驱动电路及主回路、示波器、供电调压器等仪器设备组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPXI8pP1KFd6dIPbbTHcBlnyyBDcmy8NFcxbdgsmngVxzW70G9uf75Vg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_010_4f44607a73b7.png)
 
 图10是主控制板输出的控制充电器的一路 移相脉冲波形，从波形图中可以看出，周期为10μｓ，峰值为5V，满足驱动核输入信号电压；图11是设计的驱动板栅极驱动波形，从波形图中可以看出，两路信号互补，且存在一定的死区时间，周期为10μｓ，频率为100ｋＨｚ，峰值为16V，低电平为-3V，高电平为+15V，上升和下降都有一定的平缓度，降低了SiC MOSFET得开关损耗，使得转换效率更高，能可靠驱动SiC MOSFET。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPRplZURibH6skxIXhIcVqRmibW1GXIUoic6Kzicsk69ibkmAMPVKgog2ibReg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_011_ad091e13a627.png)
 
 ４.　结论
 
@@ -114,12 +114,12 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_012_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_013_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\矿用SiC_MOSFET充电器驱动电路的设计_images\img_014_9bbc7b9b15a2.png)

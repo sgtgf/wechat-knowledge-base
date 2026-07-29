@@ -1,0 +1,228 @@
+# 单片机应用——BLDC电机控制
+
+原创 电机新视界 2024-07-22 17:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/KZqxdWYwdVjwx8xNFh5gBg](https://mp.weixin.qq.com/s/KZqxdWYwdVjwx8xNFh5gBg)
+
+[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s1u4ztdWjDoyDhYIW9MOhDMGrAzeDVuvZ2dfZib765WVhdyXHexcxMPBNzR0QYNDlLNEbmuUSibq4w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vvEGxj2u6j2wRGLcZfDcOVdKstRpeevsIKJBu4SUqbXiaGtG7AAwEicibg5KmWmibEiaoyP3Bjnd5tq6A/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
+
+
+来源：亮眼智控
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCrGE3SKQowCiaVAMHic4Od2TqxPIGmzOfIrWpHffMdMrIJbGqqDIemIdA/640?wx_fmt=gif&from=appmsg&wxfrom=13)
+
+我们按电源种类和转动原理对电机进行了分类（图2）。让我们来简单看看各类电机的特点和用途吧。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCK3McM4lONEJzA6DRddj34g2kvYyupQ0rh67CI4HV6eBqAGLk009Iuw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图2：电机的主要类型
+
+构造简单而又容易操控的DC电机（有刷电机）通常被用在家电产品的“光盘托盘的开闭”等用途上。或用在汽车的“电动后视镜的开闭、方向控制”等用途上。虽然它既廉价又能用在多个领域上，但它也有缺陷。由于换向器会和电刷接触，它的寿命很短，必须定期更换电刷或保修。
+
+步进电机会随着向其发出的电脉冲数旋转。它的运动量取决于向其发出的电脉冲数，因此适用于位置调整。在家庭中通常被用于“传真机和打印机的送纸”等。由于传真机的送纸步骤取决于规格（刻纹、细致度），因此随着电脉冲数旋转的步进电机非常便于使用。很容易解决信号一旦停止机器就会暂时停止的问题。
+
+旋转数随电源频率变化的同步电机被用于“微波炉的旋转桌”等用途上。电机组里有齿轮减速器，可以得到适合加热食品的旋转数。感应电机也受电源频率的影响，但频率和旋转数不一致。以前这类AC电机被用在风扇或洗衣机上。
+
+由此可见，各式各样的电机活跃于多个领域。其中，BLDC电机（无刷电机）具有怎样的特点才会用途如此之广呢？
+
+## **BLDC电机是如何旋转的**
+
+BLDC电机中的“BL”意为“无刷”，就是DC电机（有刷电机）中的“电刷”没有了。电刷在DC电机（有刷电机）里扮演的角色是通过换向器向转子里的线圈通电。那么没有电刷的BLDC电机是如何向转子里的线圈通电的呢？原来BLDC电动机电机采用永磁体来做转子，转子里是没有线圈的。由于转子里没有线圈，所以不需要用于通电的换向器和电刷。取而代之的是作为定子的线圈（图3）。
+
+DC电机（有刷电机）中被固定的永磁体所制造出的磁场是不会动的，通过控制线圈（转子）在其内部产生的磁场来旋转。要通过改变电压来改变旋转数。BLDC电机的转子是永磁体，通过改变周围的线圈所产生的磁场的方向使转子旋转。通过控制通向线圈的电流方向和大小来控制转子的旋转。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTC5emuASy3KOLwSInW3cN3egibYtzCUg9yWKszHyM47bGDgRLP5MZXCTQ/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图3：BLDC电机的运转示意图。
+
+BLDC电机将永磁体作为转子。由于无需向转子通电，因此不需要电刷和换向器。从外部对通向线圈的电进行控制。
+
+1.  有刷电机中的电刷换向器存在火花、无线电干扰、噪声，因磨损而寿命短等问题。而无刷直流电机（BLDC）不用电刷换相，使用电子开关换相。
+    
+2.  硬件上，无刷电机主要采用三相逆变电路驱动
+    
+    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCVvqm2RlOESyyF8AV2ibprp2mesFupp0rXxB3g2RtWa1RmXn7Zic8cgiaw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+    
+3.  无刷直流电机，是靠定子磁场和转子磁场间的作用力拉动转子转动的。每一个线圈按照右手定则可以判断出单个线圈的磁场方向，两个线圈就通过矢量合成判断出合磁场方向，这样，三个线圈绕组由电子开关元件按规律接通直流电源，形成旋转磁场，从而牵引着转子旋转，整个过程就像毛驴上吊一根胡萝卜一样。
+    
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCOp9RialYw1zKg4dgpuZMel0ZbFNticL7eibULvhwARsaqc7t5oGXUAicpA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+4.  可以看到，转子在磁场中只有6个稳定状态，而且BLDC一般采用方波驱动，所以BLDC的转动实际上并不\*滑，为了解决这个问题，就出现了多极（磁极对数）和多电机槽，比如两极BLDC，就从原本的360°里面“抖”6下，变成360°里面“抖”12下，极数越多越接\*\*滑，类似于微积分思想。
+    
+
+**直流无刷电机内部结构**
+
+直流无刷电机的结构图如下图所示(有槽、外转子、无传感器电机为例)：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCic5kia6z0n64TGNjt9Rol1XFBBVTqia3g2UGlI1toABW3L4m61icF1Sf3A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+上图无刷电机由前盖、中盖、磁铁、硅钢片、漆包线、轴承、转轴以及后盖组成。其中，磁铁、轴承、转轴组成电机的转子；硅钢片、漆包线组成电机的定子；前盖、中盖、后盖组成电机的外壳。重要组成说明如下表所示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCXeJGU6lraIBq19YibC3UL50KVblbyyoQ24zxCaC47GCHQg5e2hnW03g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+-   #### 转子描述
+    
+
+直流无刷电机(BLDC)的转子由永磁体制成，多对磁极按照N极和S极交替排列(涉及极对数参数)。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCAUKlzO462wv01BLMLJB5kYnf8ibSQIbtFrSicL5J7icFDCmOdshQRTolQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+-   #### 定子描述
+    
+
+直流无刷电机(BLDC)的定子由硅钢片组成(如下图)，定子绕组置于沿内部轴轴向开凿的槽中(涉及铁芯极数(槽数N)参数)。每个定子绕组由许多线圈相互连接而成。常见的绕组分布呈三连接星型的方式。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCPzty0D0hPEbsricu9n1OG4LoIM0jRiaibbbhoWDib7usuHpiavzQnkS2HZw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCv3DtsZQU0jJXU32Ry18qoRLCCy0hRFC9a743PBr8pXwGiahv0zsic5mw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+三连接星型绕组线圈，按照线圈连接的方式，可将定子绕组分为梯形、正弦波绕组。两者的区别主要是产生的反电动势的波形。顾名思义：梯形定子绕组产生梯形的反电动势，正弦波绕组产生正弦波的反电动势。如下图所示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCgDS4lwibnAHAcwAsibuica1fpBKISmcNNFWp1Bq1EicwiceQszNUqVfmKAw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PS：电机无负载供电时，通过示波器可测出波形。
+
+## **直流无刷电机分类描述**
+
+直流无刷电机(BLDC)按照转子分布可分为内转子电机、外转子电机；按照驱动相可分为单相电机、两相电机、三相电机(使用最普遍)；按照是否装有传感器分为有感电机和无感电机等等；对于电机的分类有很多，篇幅原因，这里不作过来描述，感兴趣的兄弟可自行了解。
+
+-   #### 内、外转子电机描述
+    
+
+无刷电机根据转子和定子的排位结构，可分为外转子电机和内转子电机两种（如下图）。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCUA7058qtb6CDfCp5oGtms7Rpw1LdNRZSt52IvRiadCJiabjtLichkaVOQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCdx2iaWamHpLaGEicKcwmXkWvdRAKuk9q2503JKg34d50060ic40oxXPwA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCkqAmGkwOPse0gqU7gLOFxq7OWpib58aDKNvCDNxEhZuoHjf6Ejicf9hw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+### 无刷电机参数
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCReC6OAPOsIb8L6KicyCoFE3evgrMaAaxhIozQibSYiclrFUV1rgjzLw9g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+## **BLDC和PMSM区别#**
+
+无刷电机，主要分为BLDC和PMSM两种。
+
+我们称前者为直流无刷电机（Brushless Direct Current Motor），后者为永磁同步电机（permanent magnet synchronous motor）。
+
+她们的结构类似，都是永磁转子和绕组定子，BLDC也是同步电机，但由于定子绕组的互联方式不同，会产生不同的反电动势。绕组两端的压降，可以通过从供电电压减去反电动势算出。
+
+1.  BLDC具有梯形的反电动势
+    
+    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTChAhHBRia4Va8sQR4fLVaxAA01GuHmvqmAiaWo2Ohh1Ia2nIZibHR81vCQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+    
+2.  PMSM具有正弦形式的反电动势
+    
+    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCxtyjo1xVMyScgANickXrGa3Y9fE7yvKUNsP3YTHSptrNSQQRooUF7WA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+    
+
+由此我们可以对这两种电机进行区分。
+
+软件控制上来说，一般而言，
+
+1.  BLDC采用6节拍的方波驱动，但一些BLDC也可以使用FOC驱动，这里参考https://www.zhihu.com/question/50312245，以后玩到再详细解析
+    
+2.  PMSM采用FOC（矢量控制）驱动
+    
+
+两种电机各有优势。
+
+1.  BLDC相较PMSM在功率密度、转矩惯量比上多15%
+    
+2.  齿槽转矩、谐波分量等方面PMSM更具有优势
+    
+3.  PMSM的定子制作工艺更复杂，成本更高
+    
+
+PMSM以后再详细解析。
+
+## **霍尔传感器#**
+
+BLDC通过电子开关管的顺序导通让定子绕组顺序通电，形成旋转磁场，牵引永磁体转子运动。那么，什么时候导通哪一对开关管呢？什么时候导通哪一对绕组？这个问题，我们首先需要知道转子此时转到了6个状态中的哪一个，这就需要通过转子位置检测装置，目前主要采用光电器件和霍尔器件。由于手头上是霍尔传感器，所以实验以霍尔传感器为主。
+
+**霍尔传感器原理：**
+
+其实就是根据霍尔效应：在半导体上外加与电流方向垂直的磁场，会使得半导体中的电子与空穴受到不同方向的洛伦兹力（左手定则）而在不同方向上聚集，在聚集起来的电子与空穴之间会产生电场，电场力与洛伦兹力产生\*衡之后，不再聚集，此时电场将会使后来的电子和空穴受到电场力的作用而\*衡掉磁场对其产生的洛伦兹力，使得后来的电子和空穴能顺利通过不会偏移，这个现象称为霍尔效应。而产生的内建电压称为霍尔电压。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCL7L6krVrAcqY8GBl21iczUIicibdcz8H77Wu8wm1hhe0mel3XOIONuT6w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+电流方向不变，磁场方向改变，霍尔电压随之改变。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCzrAxD34ZjPBZHwmncBVjv4sj5yPpHrtMUbOuQcl7vRaFdPf6zcfaCw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+BLDC有的会在定子嵌入三个霍尔传感器（工艺复杂成本高），有的则将霍尔传感器安装在另外的PCB板上，并且在转子上安装霍尔传感器磁体（成本低）。每当转子磁极经过霍尔传感器附\*时，霍尔传感器她们便会发出高电\*和低电\*，根据三个霍尔信号的组合，我们就能知道转子的位置。
+
+  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCvDLNIJZbfQCjLRTpnDicJVsHem1Sq3XLC4aG9QWM7pPLWK7McrOL5Kg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)根据霍尔传感器的安装位置，输出信号之间的相移可以是60°或者120°。  
+
+需要注意的是，60°安装的霍尔会产生000和111，但是120°安装则没有，利用这个点就可以区分60°或120°安装。
+
+一般而言，电机厂商会根据霍尔安装定义应遵循的换相时序。例如
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTC7Fc3hmwctBict9ib1ZUibQE4wj5X3ibXUvoTemfXwNFuyGFby1icNPSfmDw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCdIpYZA5xqCmSE45h58V8jUGhkkUV9Nbzdt3nY7hkEPByWFT7YNoM5w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+如果电机厂商没有时序表，则只能自己通过实验得出（太坑爹了有木有）。
+
+## **硬件驱动方案#**
+
+硬件驱动方案我这里选择的是IR2101驱动PSMN011-80YS，MCU选择的是ST的f103。6路PWM由f103的高级定时器TIM1提供，这部分按逻辑要求连接即可。
+
+驱动部分以其中一路为例，f103与IR2101之间加了光耦隔离，当然也可以不加直接驱动，IR2101是支持3.3V的逻辑电\*输入的，加入的目的主要是即使后续电路损坏也不会影响主控部分。  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTC7aemxfne3RzGs6ic2BaXdoDQDu6L9fBqbrct7315tGszR03oibmqcqsA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)  
+IR2101内部做了高边驱动处理，只要在外面加上一个电容和一个二极管就能组成boost升压驱动电路，所以省去了很多麻烦，当然选择其他IR系列直接驱动6个mos管也可以，而且也有很多集成方案（太贵了）。
+
+原理分析：
+
+1.  根据我们之前的分析，一个时间会有两个mos管同时导通，让两个绕组通电。
+    
+2.  下桥臂的N-MOS导通由于S极接地，所以只要 Ugs\>Uth𝑈𝑔𝑠\>𝑈𝑡ℎ ,就能导通，关键是上桥。
+    
+3.  我们让对应的下桥臂先导通，给上桥的N-MOS施加PWM波，高电\*导通，但导通后S极会变为24V，那么我们此时需要 24+Uth24+𝑈𝑡ℎ 这么大的电压才能让N-mos导通，boost电路就发挥了作用，由于我们G极输入的是PWM波，根据电容两端电压不能突变的原理，N-MOS在PWM来的瞬间导通后在S极的24V会经过C17电容到达 VB𝑉𝐵 ,与C17电容上原本的电压 15V15𝑉叠加产生一个理想情况下大约 15+24\=39V15+24\=39𝑉 左右的电压（实际上由于管子压降会变小），这个39V电压会通过IR2101内部开关管驱动 H0𝐻0 ，保证在高电\*一段时间内都能正常导通。D2二极管主要起到单向导通作用。
+    
+
+  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCWlAfu7s6A6wQNKs2aZvZw5nvyyic6mWF12jsdW6eJsFicGRRqbaApibbQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)  
+需要注意的是，霍尔传感器内部假设厂家没有处理，可能是OC/OD输出，需要加上拉电阻才能输出高电\*，并且如果MCU的GPIO口不是兼容5V的，可以加肖特基二极管上拉至3.3V钳位保护。
+
+## **BLDC电机的优点**
+
+BLDC电机的定子上有三个线圈，每个线圈有两根电线，电机中共有六根引出线。实际上，由于是内部接线，通常只需要三根线，但还是比先前所说的DC电机（有刷电机）要多出一根。纯靠连接电池的正负极是不会动的。至于如何运行BLDC电机将在本系列的第二回中进行说明。此次我们要关注的是BLDC电机的优点。
+
+BLDC电机的第一个特点是“高效率”。可以控制它的回旋力（扭矩）始终保持最大值。DC电机(有刷电机)的话，旋转过程中最大扭矩只能保持一个瞬间，无法始终保持最大值。若DC电机（有刷电机）想要得到和BLDC电机一样大的扭矩，只能加大它的磁铁。这就是为什么小型BLDC电机也能发出强大力量的原因。
+
+第二个特点是“良好的控制性”，与第一个有所关联。BLDC电机可以丝毫不差的得到你所想要的扭矩、旋转数等。BLDC电机可以精确地反馈目标旋转数、扭矩等。通过精确的控制可以抑制电机的发热和电力的消耗。若是电池驱动，则能通过周密的控制，延长驱动时间。
+
+除此之外还有耐用，电气噪音小等特点。上述两点是无电刷所带来的优势。而DC电机（有刷电机）由于电刷和换向器之间的接触，长时间使用会有损耗。接触的部分还会产生火花。尤其是换向器的缝隙碰到电刷时会出现巨大的火花和噪音。若不希望使用过程中产生噪音，会考虑采用BLDC电机。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTCFkv9vzWVjuu5YtAv7NIwJCjribXhPR0Qgt8Xdgse8m50GQBVDicleUBA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Foh5Da8cYPjbbN4ibf3UPE8LnrapxkqTChKg1DK9j1LwwDOOjoTMKavYqQMBz0SOGkpxRWGemj0iaGzH2nibuqtzA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+## **BLDC电机适用于这些方面**
+
+高效率、多样操控、寿命长的BLDC电机一般会用在哪些地方呢？往往被用于能够发挥其高效率、寿命长的特点，被连续使用的产品中。例如：家电。人们很早就开始使用洗衣机和空调了。最近电风扇中也开始采用BLDC电机，并成功促使消耗电力大幅度下降。正是因为效率高才让消耗电力下降的。
+
+吸尘机中也采用了BLDC电机。在某个事例中，通过变更控制系统，实现了旋转数的大幅度上升。这个事例体现了BLDC电机的良好控制性。
+
+作为重要存储介质的硬盘，其旋转部分也采用了BLDC电机。由于它是需要长时间运转的电机，因此耐用性很重要。当然，它还有极力抑制电力消耗的用途。这里的高效率也和电力的低消耗有关。
+
+## **BLDC电机的用途还有很多**
+
+BLDC电机有望被应用在更广泛的领域中。BLDC电机将会在小型机器人，尤其是在制造以外的领域提供服务的“服务机器人”中得到广泛应用。“定位对于机器人很重要，不是应该使用随电脉冲数运行的步进电机吗？”或许会有人这么想。但是在力量控制方面，BLDC电机更合适。另外，若采用步进电机，像机器人手腕这样的构造要固定在某个位置需要提供相当大的电流。若是BLDC电机，则能配合外力只提供所需的电力，从而抑制电力的消耗。
+
+还可用于运输方面。一直以来，老年人电动车或高尔夫球车中大多采用简单的DC电机，但最近都开始采用具有良好控制性的高效率BLDC电机了。可以通过细微的控制，延长电池的持续时间。BLDC电机还适用于无人机中。尤其是多轴机架的无人机，由于它是通过改变螺旋桨的旋转数来控制飞行姿态的，因此能够精密控制旋转的BLDC电机很有优势。
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)

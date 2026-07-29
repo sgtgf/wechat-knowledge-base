@@ -3,17 +3,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/X0Mat2zAxksw24PavBeYTQ](https://mp.weixin.qq.com/s/X0Mat2zAxksw24PavBeYTQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zLm8uoRjGuHh5cqXg6CMia08JN5PSPahkHh0zkbicuPpxKITbmtBgSic874mhXDZSicxV7rE3eB5T6IJSQuMuk48baYvbEUjcxpsuZNGfBQoQQk/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_000_63780c853d69.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icrlIsZGPBvxJkIzbDKrJibSCic2nwxEtZFczPvfWl38s60eiaAXCUFPLz2jdDcPRwQagic9n27v3ByAJral7WDNukA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_001_60578ea864a0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_002_ff1b5ac71683.gif)
 
   
 
 7月20日，大洋电机（002249.SZ）发布公告，公司董事会决定终止发行H股股票并在香港联交所主板上市。公司表示，该决定是基于多方面因素的全面权衡作出的审慎决策，不会对生产经营造成重大不利影响。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/auQRiaeZkMWVnCemCJF0pWCGPuhqxBiaPibH7nfYp7KxFll1Z5GEApXa75TFW5ibjfWhL8n0fvOoA3GZlcev7KnMfX7vUuRk3y4WVIJfPIm3Ne0/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic#imgIndex=2)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_003_66cfde6a1c85.jpg)
 
 大洋电机的H股上市申请始于2025年9月22日，公司当日向香港联交所递交了发行境外上市股份（H股）并在主板挂牌上市的申请，并同步在港交所网站刊登了申请材料。
 
@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvzCicwE6E7yzMGz3DibTwSbibFwhicFUQzaTJGhoyVEdiabCKbCSLKUvdZr2zU4YiaPY0gak7jUP7LSUPMg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_004_59d8d7cfeff1.gif)
 
   
 
@@ -41,7 +41,7 @@
 
 **会议推荐**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zLm8uoRjGuHJaGlBWRZGatBjop7EXJjYZxDWgInucO2PMXUpfglFPpEFfu7TXNxQtaEpyUasdofqJDSGnmtGylpDmksPHfoWYN3JspnlR24/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_005_2437f26f39f4.jpg)
 
   
 
@@ -55,7 +55,7 @@
 
 **分布图领取**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvz9xUDIf01f64D7ctTCN6WiaiammhnnN0EtAo1GKYdPAnE51T0b62MEAKw6Vqia8ia0EW9zREUGTjabVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_006_70840a1d148e.png)
 
   
 
@@ -65,4 +65,4 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvzuyialExZBEap3PXnoorHtawsGgxJuz4W5zKMFNdOpfb6GhtyAvn0fKw8DOibzvDibqOjDCjAuNXsRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\百亿电机龙头_A_H_布局生变_港股IPO终止背后发生了什么__images\img_007_e77875993583.png)

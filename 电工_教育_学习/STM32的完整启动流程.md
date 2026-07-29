@@ -12,7 +12,7 @@
 
 ### 1\. 根据boot引脚决定三种启动模式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2QtrkFDv81qwiaJk8GzSZ7IRoialSWZVME3uUXF45zwIzicDSnKnXqLic5oSr5ByWhRbqibibu1mbMdhX3Yg/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_002_d688659d0d3e.png)
 
 复位后，在 SYSCLK 的第四个上升沿锁存 BOOT 引脚的值。BOOT0 为专用引脚，而 BOOT1 则与 GPIO 引脚共用。一旦完成对 BOOT1 的采样，相应 GPIO 引脚即进入空闲状态，可用于其它用途。BOOT0与BOOT1引脚的不同值指向了三种启动方式：
 
@@ -25,7 +25,7 @@
 
 **总结：上面的每一种启动方式我都描述了“xxx的起始地址被重映射到了0x00000000地址，从而代码从xxx开始启动”，如下图是STM32F4xx中文参考手册中的图，可以看到类似的表述。同时，在下图中也展示了STM32F4xx中统一编址下，各内存的地址分配，注意一点，即使相应的内存被映射到了0x00000000起始的地址，通过其原来地址依然是可以访问的。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2QtrkFDv81qwiaJk8GzSZ7IRoFKIomicicoibbWBe1TSmXHPHPmuN9elwa0n6Yaic0NtQbefMbicBicBh4R5w/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_003_a61a7b51b039.png)
 
   
 
@@ -36,13 +36,13 @@ bootloader，也可以叫启动文件，无论性能高下，结构简繁，价�
 网上有很多资料分析了STM32的启动文件的内容，在此我只进行简单的表述。启动文件中首先会定义堆栈，定义中断/异常向量表，而其中只实现了复位的异常处理函数Reset\_Handler，该函数内容如下(STM32F4XX，IAR编译器)，可以看到其主要执行了SystemInit和\_\_iar\_program\_start两个函数，其主要功能除了初始化时钟，FPU等，**还会执行一个重要功能，那就是内存的搬移、初始化操作。** 这是我想重点介绍的内容，同时也会回答一个疑问，就是如果从Flash启动的话，代码究竟是运行在哪儿的？在我之前接触ARM9、CortexA系列的时候，一般都是把代码搬到内部的SRAM或者外部DDR中执行的，STM32是如何呢？答案下一小节揭晓。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2QtrkFDv81qwiaJk8GzSZ7IRoJKhicORnpDaKFy2RsypUj9JtsZbtkdn1vy415snIsjA4nicSJsqcGvQQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_004_80420b348ef4.png)
 
 ### 3\. bootloader中对内存的搬移和初始化
 
 本节针对程序在内置Flash中启动的情况进行分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2QtrkFDv81qwiaJk8GzSZ7IRowpPBQzia64IgUzaOcLDc2fjAc07r326Q6XTTWkdkSQEkeDaTuc8FqJw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_005_c6e8ecf1e7ea.png)
 
   
 我们知道烧录的镜像文件中包含只读代码段.text，已初始化数据段.data和未初始化的或者初始化为0的数据段.bss。代码段由于是只读的，所以是可以一直放在Flash中，CPU通过总线去读取代码执行就OK，但是.data段和.bss段由于会涉及读写为了，为了更高的读写效率是要一定搬到RAM中执行的，因此bootloader会执行很重要的一步，就是会在RAM中初始化.data和.bss段，搬移或清空相应内存区域。
@@ -76,9 +76,9 @@ bootloader，也可以叫启动文件，无论性能高下，结构简繁，价�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_006_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_007_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_008_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_009_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_010_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_011_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_012_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_013_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_014_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_015_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_016_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_017_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_018_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_019_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_020_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32的完整启动流程_images\img_021_50889e54acde.gif)
 
 ## 
 

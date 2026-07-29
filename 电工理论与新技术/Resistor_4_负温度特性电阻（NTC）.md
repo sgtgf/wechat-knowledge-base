@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/54Z9r1aKjMA8hrD2f8U7lw](https://mp.weixin.qq.com/s/54Z9r1aKjMA8hrD2f8U7lw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0fxXmaI3RTO3YNXH7RbFcdRvwsvoPJr76AsYnbnod1iaNXX80chibsraQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_000_0e2d199e78c0.png)
 
 _**_★★★_**_Resistor-4---NTC的R-T曲线_**_★★★_**_
 
@@ -15,7 +15,7 @@ NTC热敏电阻(Negative Temperature Coefficient Thermistor)是一种由锰(Mn)�
 
 NTC热敏电阻的阻值(RT)与热力学温度(T)的典型关系曲线如下图所示，可见随着温度的升高，RT迅速减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiauQjo5iaWF7oHHG6iaxiaow2hvcpibyQmpzfibIACClVQBGnr3cLicFw1hKIlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_001_183fc6dfccb2.png)
 
 **_图4-1：电阻-温度特性，取自Murata官网_**
 
@@ -25,13 +25,13 @@ NTC的测温范围可以从-55℃--125℃，在一个温度下精度高，在整
 
 _B值指数法：_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiau6yM0whN1nyIwfELliaxXDdSsoUlstNO7ibr5oG7PeuZTWjztyGpSQZJQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_002_28a9118995a7.png)
 
 **_图4-2：NTC温度传感器的典型电阻作为温度的函数_**
 
 相对较大的负斜率意味着即使是很小的温度变化也会导致电阻的显著变化，这使得NTC传感器成为精确的温度测量和控制的理想选择。NTC陶瓷温度传感器的主要电气特性由三个重要参数及其公差表示，**_表4-1_**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiaunvVtsxSPw5zehGeQDfGbxsic65ibKPqYKc6gF7nEMOngic49PbPiaRC38Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_003_647394292645.png)
 
 **_表4-1：关键参数_**  
 
@@ -39,9 +39,9 @@ R25为在25°C（华氏温度为298.15k）时的电阻值（基本上是在室�
 
 B值指数法在T℃下的电阻值R由下式近似给出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQtQQNicBRNGQqCicceWQwcuNgtZVs6g5ImVNfzHA1jObSibmynZiazF5l9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_004_deecb1780edd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQJtAcsUyrOV8iaEphf4CV4XSQ9FQMOPc7H4MMkoicvw45ul3udMQ3yQwg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_005_f1cc9e5348a0.png)
 
 其中：
 
@@ -53,7 +53,7 @@ B ：常数B，单位为 (K)
 
 B是一个控制RT特性斜率的材料常数（见**_图4-2_**），在实践中，B随温度而有所变化，因此在25°C和85°C两个温度之间由公式定义：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQsMeNSX5xlSHMDCz1iaiblds48A9FPk4p11YtPBqZryxrLKWmrBdjjLKA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_006_8e94417037a2.png)
 
 B25/85（以K表示）通常用于表征和比较不同的陶瓷参数，B（或B25/85)的公差主要由材料成分公差和烧结条件引起，最新的材料对某些特定的B25/85值的公差低至±0.3 %。
 
@@ -61,17 +61,17 @@ _Steinhart-Har多项式法：_
 
 在大多数情况下，需要比纯指数曲线（公式1）更好的拟合曲线来准确地测量温度。这就是为什么每个NTC材料曲线都被定义为一个三阶多项式，如下式所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQ8NRBjZAY3HIqkx0rQKsB2qx9ZUhWS9hLcoGaA1cYnEnkIpjq5MR8dA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_007_7367a4853b18.png)
 
 或者将T做成反比表示为RT的函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQyrWjCKfUscbmHuLNFeCL4WAN4CASHw11TlZ4lTqDMJOVHM5tUvJPiaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_008_d5c8c9d71174.png)
 
 公式4和公式5代表了在任何给定的温度下，误差小于0.1 %的真实材料曲线。系数A、B、C、D、A1、B1、C1和D1的值在一些数据表中或者R-T计算表中给出。
 
 通常式5会继续简化为Steinhart-Hart方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHiciaAGY2uWMzBVTZnsc7d6nsBkldYhY9LwOIrNSGPKzLo8ucydOCZmKkw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_009_4dad10bece0f.png)
 
 其中：
 
@@ -83,11 +83,11 @@ R=电阻（单位：欧姆）
 
 将热敏电阻的温度转换为电阻：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHictiaLIgcvtMTubfricffGAicx8aOWQVPtf90NFP7WY1stGgfGdicBJqOyzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_010_fd39f177f91a.png)
 
 其中：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHiciboXiaAlwNiasmXUXoh9utvsGXOuDMibY9jRDiagC4IVSrZkLwkBXZic96Gw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_011_7d5248d6d856.png)
 
 X，Y是温度-电阻方程中使用的Steinhart-Hart系数。
 
@@ -95,16 +95,16 @@ _€3.NTC的公差_
 
 NTC传感器在其工作温度范围内的总公差是R25和B值上的公差的组合：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQL12eFazohbtaibbu86GD9u7HDm0C7Fn4VgPSNyo3WzrKRj7siaHwsQCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_012_4d9797b31807.png)
 
 公差在25°C时具有最小值，因为这是传感器被校准时的温度。在这个温度以上和以下，由于B值公差的增加，25℃两侧温度公差都会增加，ΔR/R误差曲线呈现一个V字形。B值精度越高，ΔR/R公差越小，曲线越平缓，V字角度越大，可以获取更高精度的温度测量。
 
 电阻温度系数：电阻的温度系数α表示传感器对温度变化的灵敏度。定义为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQqbLnVraPSibRBnLjrN8QcwYzNtC2XG1LPwmmGlt5KJV7icEFpv4fsynQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_013_27a462bc3610.png)
 
 使用ΔR/R公式来消除R，电阻温度系数可以重新表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQoTDsVuAb1Fdc0kuNtNvBbWYia36sq4icibIOLkibLBYfldeYUtvRguBjKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_4_负温度特性电阻（NTC）_images\img_014_a5771e1fcd7f.png)
 
 这意味着α的相对公差等于b值的相对公差。

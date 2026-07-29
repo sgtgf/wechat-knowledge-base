@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bfm4IUL1egDfLgVTJLCfWrHEsKR9CIHwmbAAL7cVu9u9oorHuaJ0IWaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_002_6f3f26f42e2d.png)
 
 ## 一、常规防反接电路的设计
 
@@ -36,7 +36,7 @@
 
 ①串联二极管
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bfSTCVurH19rz05WVq0PJUvxo4ncNlg3UzytKKeVUtxeb4z8icZa4qXRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_003_aade17e2bbb4.png)
 
 优点：简单
 
@@ -48,7 +48,7 @@
 
 ②输入端加整流桥
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bfpsNexxXTZtZR89D7EqKZYB1DphPOf9Amayiafb5FlXLnnjJW53emIYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_004_05f70fd2275a.png)
 
 优点：不论什么极性都可以正常工作
 
@@ -62,7 +62,7 @@
 
 我们在最开始学习MOS管的时候，大多都是从NMOS开始的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf3ZUWvnpb8MAxfOvZwA8zKruG9Nia8ObxtOOr5vTtdCP5ibjpTXNU9coQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_005_fc7634f08a13.png)
 
 常规NMOS导通后电流流向
 
@@ -74,7 +74,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bfiblrTAjLiaqiabw4u580lian45RuosGe9b7IDrMzec3KDsbTcXvYTGdfiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_006_3334931afd3f.png)
 
 常规PMOS导通后电流流向
 
@@ -94,7 +94,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bfaVzFMFolpfpLlo6XwibKfujrmcEa14jqcJOfpKuWUg0jOhKEyqUiaL1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_007_5c703e9fc9cb.png)
 
 咱们一起来分析一下。
 
@@ -104,7 +104,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_008_c2a5b152c2dd.png)
 
   
 
@@ -128,7 +128,7 @@ G极的电压为电阻R4，R5分压后得到，可根据MOS管的导通电压调
 
 **①当电源反向插入时**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bfHmZFbzzBbykI0ILRkk68CZMJ0dY1f0hZmyzlOKZw2iccGqkJtEoMacQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_009_bf1f9044b88d.png)
 
   
 
@@ -152,7 +152,7 @@ G极的电压为电阻R4，R5分压后得到，可根据MOS管的导通电压调
 
 体二极管能过多大的电流？不会烧坏吗？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bffic5WgXhicxtiaUTibNicAd7lTibLlOXxsxbUJiaUdcBEW9e0Gs8w4bgss4bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_010_253f130b4396.png)
 
   
 
@@ -162,7 +162,7 @@ G极的电压为电阻R4，R5分压后得到，可根据MOS管的导通电压调
 
 带着这个问题，我们去看一下某型号MOS管的规格书。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf9BMDK5Jv2beLvFCDoFzZIOzAXzxswd069lTwic1NsUcoPPN5xDNsXww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS体二极管的妙用_images\img_011_c428b5750fa2.png)
 
 从上表可以看出，体二极管的持续电流是可以到11A，脉冲电流是可以到33A的，二极管的导通电压是1.4V。
 

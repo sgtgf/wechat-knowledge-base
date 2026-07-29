@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/r1YtlPQoZRd\_-HDvm2v\_UQ](https://mp.weixin.qq.com/s/r1YtlPQoZRd_-HDvm2v_UQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXG0g3m6IKiaSROBlKNJexqrvhicBTpiaMue5DSSt0I4bKsgctYcObkjSfNibiam8zZ7rIUiboLsxjvTJzQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650910&idx=1&sn=54c62146410ad6882e0b22c5227f754a&chksm=88bc1211bfcb9b07dbd18ac26b8a602b14bcbf758380662d5b45cd46fb2b0db95546133e62fb&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_001_24fc5a022f08.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650910&idx=1&sn=54c62146410ad6882e0b22c5227f754a&chksm=88bc1211bfcb9b07dbd18ac26b8a602b14bcbf758380662d5b45cd46fb2b0db95546133e62fb&scene=21#wechat_redirect)
 
-由西莫主办的“电机NVH问题的机理和测试仿真”研修班将在下周末的常州如期举办，会员优惠付款活动也进入了倒计时阶段，新老学员的优惠付款活动将在下周截止，想要参加的朋友记得抓紧时间扫码报名哦！![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVHiboeooyEMKSSGvIgHUBmpj0gibs4hHUaEibTfsKXjuOiasy7wHiabe9wXdmdcX6WYibkk4EHEnSZy2zg/640?wx_fmt=jpeg&from=appmsg)
+由西莫主办的“电机NVH问题的机理和测试仿真”研修班将在下周末的常州如期举办，会员优惠付款活动也进入了倒计时阶段，新老学员的优惠付款活动将在下周截止，想要参加的朋友记得抓紧时间扫码报名哦！![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_002_ed0f9ebe0ea7.jpg)
 
 电机NVH问题的机理和测试仿真加强研修班在培训导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有Ansys电机电磁、结构以及声学领域的多位高级应用专家联袂主讲，倾力打造线下精品研修班与线上长期答疑相结合，辅以专业培训教材和案例模型练习作为课后复习巩固的得力工具，免除您担心学习无法达到效果的顾虑。培训主要由两大部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真设计篇，详细介绍了基于Ansys软件平台的电机电磁振动噪声分析流程及其详细的实现过程，系统讲解电机动力总成NVH仿真流程以及复杂电机系统中NVH分析与声音设计应用。汇聚了众多专业文献书籍相关精华部分的融合与提炼，以及包含详尽的关键仿真操作步骤指导讲解与演示，西莫电机NVH研修班从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！那么系统学习电机NVH都需要get到哪些点呢？看一下本次培训的详细内容就清楚啦：
 
@@ -415,7 +415,7 @@
 
 以上就是这次培训的全部内容，几乎已经涵盖了电机NVH领域的各个方面，并升级至电机动力总成及复杂电机系统的NVH仿真分析与设计应用，这确实是一次不可多得的学习入门和能力提升的宝贵机会以及与更多业内知名公司的技术人员结识交流的绝佳平台。每一位参加研修班的学员将继续拿到两本教材作为培训学习复习的有力补充，欢迎各位在电机NVH相关领域有迫切学习和提高需求的朋友扫码报名：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWmjavR8ADb8rjtQqL7c8QGiaxvZz6F9Peor23kPzT6vPnwj8aN80Yfhsv1LVuaU6xgpQDibD28VmFg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_003_6901fd323043.jpg)
 
 关于本次培训的更多详细介绍，请看下文：
 
@@ -479,7 +479,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW6PpWW42kTYxP0GIodibpChHeg7BD1nVGATCDxLAbb9DEWB7U8GnQZvv1zqXHyTib1U1ED6BfibN9ibQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_004_dc3f4ba7e55a.jpg)
 
   
 
@@ -515,18 +515,18 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUriadqTicbt6ITqt5yZVJY3Ud56Cy7e2rpW4CibmU5VQ7dahotlpKX8iaEC0UUUFwVas47PGW9Xicx7Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_005_692b10cc2841.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIU9juhwts62UsqmFbpLickVowW6Qx381PB7aMIPAFBEhSMOyMpfbkhCEF7PIDUbACJ6TVsfhiaXf31Q/640?wx_fmt=gif)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_006_5979b8ecf8e4.gif)  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_007_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXvpdV6KYvqwQdlWUoicX5A8ozjM5oluqYoyNkbtuuQukUwEiaFRibpo2YP3snaqfg56icGD6olDaghKw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650449&idx=1&sn=4cc6cd15157b794d298fd2dfc553b1d4&chksm=88bc1c5ebfcb9548af471e21b8ba71bd18459558d450149bce649ed4267b2d04bfd79c6d2e06&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_008_b94b191813f1.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650449&idx=1&sn=4cc6cd15157b794d298fd2dfc553b1d4&chksm=88bc1c5ebfcb9548af471e21b8ba71bd18459558d450149bce649ed4267b2d04bfd79c6d2e06&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVT9JE1kBAHN4O1wUmQ9yS4v11xdl2iaBRuicib3GTQAV1RHDTpsicgjibu9hzkos5yJAVhEe0g3KpTlhg/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650932&idx=1&sn=0b52a05b2db3ec866a366ca0e47db558&chksm=88bc123bbfcb9b2dbfa43ffedde8fa22ce55ee9d2b5323eb90145abb25c9a1577895ccaf920c&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_009_7e4ab77a0723.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650932&idx=1&sn=0b52a05b2db3ec866a366ca0e47db558&chksm=88bc123bbfcb9b2dbfa43ffedde8fa22ce55ee9d2b5323eb90145abb25c9a1577895ccaf920c&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVgiaN1pqRWKWeqPN6hcBQhr4cic3WRJQbiboOnhlkkLF6NLliaDlvib6mNZxlicePWHYiac0F9un3I4DlMA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650757&idx=1&sn=29f9a5a26c849268d7d87298416bae47&chksm=88bc138abfcb9a9cdd89d8dd1307d5a88e93f1509a621ac6e00280c61549ff5397d3e0d3fc11&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_010_9d615f864b21.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650757&idx=1&sn=29f9a5a26c849268d7d87298416bae47&chksm=88bc138abfcb9a9cdd89d8dd1307d5a88e93f1509a621ac6e00280c61549ff5397d3e0d3fc11&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_011_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_012_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH学习要点_images\img_013_3f5511eb92d0.png)点击**阅读原文**，直接报名参加本次培训！
 
 ****觉得好看，请点这里****↓********↓****↓********↓************

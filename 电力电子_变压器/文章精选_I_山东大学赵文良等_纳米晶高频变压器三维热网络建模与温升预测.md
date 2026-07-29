@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/j6tuh1h\_XXZvVs6i1IaGAg](https://mp.weixin.qq.com/s/j6tuh1h_XXZvVs6i1IaGAg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_000_4fecbf19a39d.gif)
 
   
 
@@ -40,7 +40,7 @@ The internal hotspot temperature rise prediction in nanocrystalline high-frequen
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178zPrMB4r5Qb2icdXIztzQiaJibCQRHCrB29QyRyAdZtKglj2aljxTltpH8sXGiaznuAy5uu89KU9eCYA/640?wx_fmt=gif&from=appmsg)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_001_2094502985ad.gif)
 
 纳米HFT的拓扑结构（a）U形纳米晶铁芯纳米HFT的拓扑结构（b）纳米HFT的铁芯结构。
 
@@ -52,19 +52,19 @@ The internal hotspot temperature rise prediction in nanocrystalline high-frequen
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178zPrMB4r5Qb2icdXIztzQiaJicVhJk2UtpAq5f3IgdpDaXkX1O5BXnTGmZzBic31LStibu1Omnp5tysYg/640?wx_fmt=gif&from=appmsg)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_002_dd3b87f63f72.gif)
 
 **魏保禄**，于2023年在山东大学获得电气工程及其自动化专业的理学学士学位。他目前正在山东大学电气工程学院攻读工程硕士学位。他目前的研究兴趣包括高频变压器的设计与分析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178zPrMB4r5Qb2icdXIztzQiaJGhLcnyyjPjmIrmuk6uQ09GbsqEMNxQlugMqvpkAnRW0uEB95kROmfg/640?wx_fmt=gif&from=appmsg)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_003_6be4fc456b46.gif)
 
 **赵文良(Senior Member, IEEE)**，于2011年在哈尔滨工业大学获得控制科学与工程学士学位，并于2015年在韩国汉阳大学获得电子系统工程博士学位。2015年至2016年，他在韩国汉阳大学担任博士后研究员。2016年，他加入山东大学电气工程学院，担任研究教授。自2020年起，他成为山东大学的正教授。他独立或合作撰写了100多篇关于其研究兴趣主题的论文。他的研究兴趣包括电机和电力变压器的设计、分析和控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178zPrMB4r5Qb2icdXIztzQiaJICRlha3SPKZQjfaZZXUurqq12cEJvOq69kq8SvFVnVxxpxa2giaBFdA/640?wx_fmt=gif&from=appmsg)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_004_194f0c7cc9e2.gif)
 
 **丁海波**，于2016年在山东农业大学获得机械电子工程学士学位。目前，他正在山东大学电气工程学院攻读博士学位。他目前的研究兴趣包括高频变压器的精细化设计和多物理场耦合分析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178zPrMB4r5Qb2icdXIztzQiaJvlRUviaQ8IOWfib0dN4cQldGDGDpW4hC0JOe1XZYriaUAXJuzibRU1ds5w/640?wx_fmt=gif&from=appmsg)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_005_91bfebb3161a.gif)
 
 **赵海森 (Senior Member, IEEE)**，于2004 年在河北农业大学获得农业电气化与自动化专业工学学士学位，2007年和2011年分别在华北电力大学获得电机与电器专业工学硕士和博士学位。他目前是华北电力大学电气与电子工程学院的教授。他还是英国工程技术学会会士。他在同行评审期刊和重要国际会议上发表了100多篇论文。他的研究兴趣包括电机设计、诊断、能量分析、电机与驱动系统的节能技术以及无线电力传输。
 
@@ -72,7 +72,7 @@ The internal hotspot temperature rise prediction in nanocrystalline high-frequen
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_006_654c2fde68d8.jpg)
 
   
 
@@ -86,15 +86,15 @@ The internal hotspot temperature rise prediction in nanocrystalline high-frequen
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_007_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_008_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_009_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -102,15 +102,15 @@ The internal hotspot temperature rise prediction in nanocrystalline high-frequen
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_010_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_011_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_012_644d85f1cc17.png)
 
 学会官方B站
 
@@ -118,15 +118,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_013_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_014_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](文章精选_I_山东大学赵文良等_纳米晶高频变压器三维热网络建模与温升预测_images/img_015_c28b250481e7.jpg)
 
 学会科普微信
 

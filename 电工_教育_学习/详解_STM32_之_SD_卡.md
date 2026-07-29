@@ -144,11 +144,11 @@ exFAT
 
 **3、SD卡框图**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vK40cjdhUq5SfVCOsIdVXJPCeyXYfcpQgOiaq28RGGtibrKC7aN85pE4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_002_c56ebe1333d3.png)
 
  引脚说明：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7v4FmAbyRLqicBqibB0bKIdgE7LGm2hytY7tkicVSbw17jvbUrxrneDHfCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_003_57f80ab2fef8.png)
 
 **4、SD卡与TF卡的区别**
 
@@ -170,11 +170,11 @@ exFAT
 
 　　　由SD卡控制器和存储阵列组成，SD卡与外界的通讯接口是SD Bus或者SPI Bus。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vdaZibpc9Y2gvFzP6b4IcGhTQ8anwMBf2u31d8KfSdOIYicy8ZLvqs5icA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_004_46a387fba20d.png)
 
 **2、 存储阵列结构图**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vZTcQBJTwJT7zuQ3hnOqTO5p0Cw8w3n7Oxx5g0rjC0vibFnuicgcTliazw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_005_c4ca5f5615c1.png)
 
 Block:　　　　  
 
@@ -190,7 +190,7 @@ WP Group: 　　
 
 **3、Buffer**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vjN7dibwVEXamDxP77u593iaX29ZEicBpLhDcxv0WUDET5yU6mOP3oxcmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_006_ef3f45fa69c3.png)
 
 　　SD Card的Buffer最大容量定义在CSD寄存器的READ\_BL\_LEN和WRITE\_BL\_LEN。它们的值是一样的，而且有可能超过512字节，尽管这样Block还是要设置成512字节，因为512字节是数据边界（这句话不是太理解）。也就是SD卡上有数据传输缓冲器Buffer，不同的产品可能不一样，但是在使用时要将Buffer设置成512字节。
 
@@ -223,7 +223,7 @@ WP Group: 　　
 
 **三、SDIO接口**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vFP0741yRmFeH15awoNx3g6ke4NKiaaXjnxIiatfRHxbHZrrIgE5ITgIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_007_eedfa9a4cceb.png)
 
 **四、SD卡协议之数据读、写、擦除**
 
@@ -251,11 +251,11 @@ WP Group: 　　
 
 　　当ERASE\_BLK\_EN等于0的时候，主机擦除的最小单位是扇区。比如一个Sector包含32个Block，擦除时的起始地址是5，而结束地址是40，那么实际擦除的块是从0到63。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vamPQdVvuBbIBMadHLgyeavWMzosUpfWibgUeXeb43W2ia7BVUqNVODMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_008_f1f148d33fe4.png)
 
 　　当ERASE\_BLK\_EN等于1的时候，主机擦除的最小单位是512 Byetes。比如擦除时的起始地址是5，而结束地址是40，那么实际擦除的块就是从5到40。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vTr7UbrpqmHzJDvwugiaPlD7VGXgY1VdM6RTfonPXBUKByo7C6BjGUyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_009_e95abbee44b3.png)
 
 **五、SD卡物理层协议**
 
@@ -267,7 +267,7 @@ WP Group: 　　
 
 　　参考《Simplified\_SDIO\_Card\_Spec.pdf》
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7veNLFJpomg5yiaFArt75qtcCtyRQFOwrObibmekCSHwgbrECjEgLyiarjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_010_fa72f2103947.png)
 
 <1> CLK 时钟同步线
 
@@ -277,21 +277,21 @@ WP Group: 　　
 
 **② SPI接口**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vDLIbp4ia0FtsU5BPczZytyAiciaytVHicOJ3Ud8GFstmBWRq36jv4fJOVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_011_7cf3789432b1.png)
 
 **2、命令格式**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vqIoXV10YmHhO5aRRwV2XDJk0nNia3op3H3QHGrcRZBSelGHKWCRQabQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_012_c70164a733ff.png)
 
 **3、响应格式**
 
 　　以R1为例
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vm5kVFdYhZpkFqBJsa7hhnOwUm2yPfGTQBiaH6ZshB76JfvT1Vybia1tg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_013_d6c93b71ca84.png)
 
 **4、SD卡的工作状态**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vyPtR9KeohyMzTwoTDLfoBE0jZicbsTviagwsP6UOJL23vhVkDEfRTDfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_014_c1351d0c42e3.png)
 
 **5、SD卡的两种状态信息**
 
@@ -307,19 +307,19 @@ WP Group: 　　
 
  **1、SDIO adapter 结构图**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vicmUqjvdicWmsgJJjRLmAQnIVbFvdgZA9T3gjlAQoZlfhqicvEyHeoaDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_015_2855b9e7a8ce.png)
 
 **2、命令状态机（CPSM)**
 
 　　当发送命令和接收响应时，启动CPSM状态机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vbprK5yvNJJ9I1a1dnIlJCOQibDVftQ4lW3YCuW4ibJll87jd3Xsz3Jag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_016_af42e46769d4.png)
 
 **3、数据通道状态机**
 
 　　当传输数据时，启动数据通道状态机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vForJ7e8H5b8gEKTcT9ibrHOa8xmsQjjOofmqRbcERF7p5voAHiaQFMiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_017_07b2234c6def.png)
 
 **4、FIFO**
 
@@ -388,7 +388,7 @@ WP Group: 　　
 
 **② SD卡上电初始化**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vYFGpDDfv0cmibH6qdBuIE3OCKqPmbY4rGw3LZENYwibR0pexctKp4TYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_018_7f9f2f00ef7b.png)
 
 　　上电初始化流程如上图所示，笔者认为官方库提供的例程没有完全按照这个流程图的指示去做。事实上，官方库的程序只做了如上图红色方框内的流程，之外的没涉及。
 
@@ -482,7 +482,7 @@ WP Group: 　　
 
 　　使用野火开发板配套例程做测试，笔者测试用的SD卡是金士顿的2G内存块，打印SD卡的参数信息如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/fpA42W9rbq5bB2yROnP0xHxiaRibvOWGXlnAVQt9ib6uMsnEF3FN6Y3675HhQOaiaTvp6MribnJdtTOjm8SlXBwaLyQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_019_b7e6139fc43c.png)
 
 Card Type is ：1  
 ManufacturerID is ：2  
@@ -500,7 +500,7 @@ erase sector size is ：127
 write protect group size is ：0  
 RCA is ：4660 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/fpA42W9rbq5bB2yROnP0xHxiaRibvOWGXlnAVQt9ib6uMsnEF3FN6Y3675HhQOaiaTvp6MribnJdtTOjm8SlXBwaLyQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解_STM32_之_SD_卡_images\img_020_b7e6139fc43c.png)
 
 Card Type：1         SDSC卡版本2.0
 

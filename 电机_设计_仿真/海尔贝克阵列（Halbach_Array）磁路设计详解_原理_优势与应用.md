@@ -26,11 +26,11 @@
    
 海尔贝克阵列得名于美国物理学家克劳斯·海尔贝克（Klaus Halbach），他在20世纪80年代研究粒子加速器时，意外发现了这种独特的磁铁排列方式。简单来说，海尔贝克阵列是将多块永磁体按照特定角度排列，使得磁场在阵列的一侧得到增强，而另一侧的磁场被削弱甚至接近于零。  
 与常规磁体按“N-S-N-S”磁极交替简单排列不同，海尔贝克阵列将每块磁钢的磁化方向按等角度逐步旋转，形成近似“正弦分布”的等效磁化。结果是阵列一侧磁场显著增强（工作侧），另一侧被抑制（背侧）。理想情况与阵列近似无限长条件下，工作侧场强可接近常规排布的2倍，而背侧趋近零场。  
- ![bj.96weixin.com](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cLvMkex5ibt101JdEib77tI0J4QfNvAefuyt0NBLSOiaNlcDbvCiaAQZa8qwK4CCTQcqx8011Gdo9168UW48CE4Alw/640?from=appmsg) 
+ ![bj.96weixin.com](D:\电脑文件\公众号知识库\电机_设计_仿真\海尔贝克阵列（Halbach_Array）磁路设计详解_原理_优势与应用_images\img_000_dee1bd55edca.png) 
 
 直线形海尔贝克阵列（磁化方向按90°旋转排列）
 
- ![bj.96weixin.com](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cLvMkex5ibt101JdEib77tI0J4QfNvAefuumOnUiadNSNWpjRjZ2LzAkY8MaquYSJpdvLqFAf7zTI160XxJzV0IVA/640?from=appmsg)
+ ![bj.96weixin.com](D:\电脑文件\公众号知识库\电机_设计_仿真\海尔贝克阵列（Halbach_Array）磁路设计详解_原理_优势与应用_images\img_001_2e43c6e3552f.png)
 
 直线形海尔贝克阵列（磁化方向按45°旋转排列）
 
@@ -38,7 +38,7 @@
   
 海尔贝克阵列既可以做成直线形阵列，也可做成圆环、圆柱、球形阵列，满足电机、磁滚筒、环形磁路等不同场景应用。
 
-![bj.96weixin.com](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cLvMkex5ibt101JdEib77tI0J4QfNvAefuca5dQ41zKmDxIv7HqTaozjCic6NdVHIq0kfmI1w7aicWLmOVOhDZGSZQ/640?from=appmsg)  
+![bj.96weixin.com](D:\电脑文件\公众号知识库\电机_设计_仿真\海尔贝克阵列（Halbach_Array）磁路设计详解_原理_优势与应用_images\img_002_794430c5cb8a.png)  
 直线形、环形、球形海尔贝克阵列
 
   
@@ -80,7 +80,7 @@
 
   
 
-![bj.96weixin.com](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cLvMkex5ibt101JdEib77tI0J4QfNvAefupFbY2SKb3cGgqLC8bDuf1potqL4t6libJGvjKjqUFJAt7kgPfZNqCJA/640?from=appmsg)  
+![bj.96weixin.com](D:\电脑文件\公众号知识库\电机_设计_仿真\海尔贝克阵列（Halbach_Array）磁路设计详解_原理_优势与应用_images\img_003_8d2d808169ab.png)  
 
   
 
@@ -92,7 +92,7 @@
 **一是制造工艺复杂。** 海尔贝克阵列对制造、加工、充磁、装配精度要求极高。想象一下，你要将几块甚至几十块不同充磁方向、磁力极强的高性能磁钢，按照规定的角度，使用专门的工装夹具，克服巨大的相互排斥力（或吸引力），紧密精确的组装在一起，并采用高强度胶粘剂进行粘接固定。装配时还要严格注意操作安全，稍有不慎就可能导致磁体崩裂。  
    
 **二是成本相对较高。** 相较于使用整体单一磁铁，海尔贝克阵列需要使用多块小磁铁，并增加了复杂的装配工序，这无疑会推高制造成本，延长加工周期。因此，它往往被用在那些对磁场有极高要求的高端应用场景中。在选择是否采用海尔贝克阵列时，工程师需要在性能、重量、体积和成本、交期之间做出全面的权衡。  
- ![bj.96weixin.com](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cLvMkex5ibt101JdEib77tI0J4QfNvAefuxYY9cGGUeibF7ocUfT43edq3mhUB1K22Dhqegjv3uTEAhR4IbYctnXA/640?from=appmsg) 
+ ![bj.96weixin.com](D:\电脑文件\公众号知识库\电机_设计_仿真\海尔贝克阵列（Halbach_Array）磁路设计详解_原理_优势与应用_images\img_004_e7c9cc332b94.png) 
 
 使用磁显片观察海尔贝克磁钢阵列实际磁场形态
 
@@ -104,7 +104,7 @@
 
    
 各种形态的海尔贝克阵列磁环磁钢排列示意图海尔贝克阵列并非一种新材料，而是一种通过巧妙排列来驾驭磁场的顶尖磁路设计。它以一定的制造复杂性和成本为代价，换来了无与伦比的单面强磁场、高磁能利用率和轻量化潜力，是现代永磁技术追求极致性能的典范。  
- ![bj.96weixin.com](https://mmbiz.qpic.cn/sz_mmbiz_png/cLvMkex5ibt101JdEib77tI0J4QfNvAefuiaib3iablcfL116CCQYUMQB1OBTSyfsBjSNaibJXvoiafSsQzgbpTGib5vaA/640?from=appmsg) 
+ ![bj.96weixin.com](D:\电脑文件\公众号知识库\电机_设计_仿真\海尔贝克阵列（Halbach_Array）磁路设计详解_原理_优势与应用_images\img_005_b326eda6cbf9.png) 
 
 各种形态的海尔贝克阵列磁环磁钢排列示意图
 
@@ -124,7 +124,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cLvMkex5ibt101JdEib77tI0J4QfNvAefuZb4jxmmIViaNeHibcMgIjwBc8y1aBrZGbeZIoFaxibP3Ukuqr1Tymyiaow/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\海尔贝克阵列（Halbach_Array）磁路设计详解_原理_优势与应用_images\img_006_085c0ac46438.png)
 
 **扫码** **了解更多...**
 

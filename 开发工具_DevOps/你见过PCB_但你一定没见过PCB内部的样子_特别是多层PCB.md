@@ -12,7 +12,7 @@
 
 今天画了几张多层PCB电路板内部结构图，用立体图形展示各种叠层结构的PCB图内部架构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aJHgFsGZV3Pdx8XgB2nnqibWicrAjibAqIDuAmeLkWQyr6wOjgX0eIM7iaA/640?wx_fmt=png&from=appmsg)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_002_47c636f0a878.png)
 
   
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138akzyibMzaFjO3icNXEphzvuKQSicvpBNhaqYzib2hXibb8lPKToiaH5hwKH7g/640?wx_fmt=png&from=appmsg)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_003_228058c34191.png)
 
 8层2阶叠孔，高通骁龙624
 
@@ -60,7 +60,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aEr88vHIUJaf6bagHjIq1VOSuOFDX9XiabpBawOhvunzWHyU4xibTbvicw/640?wx_fmt=png&from=appmsg)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_004_71b5f9b35667.png)
 
 **通孔板和层数没关系**，平时大家用的2层的都是通孔板，而很多交换机和军工电路板，做20层，还是通孔的。
 
@@ -84,7 +84,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138atVNDrrpFrBYZBLhxiaxib2SQCdGahZ7iakcCib5dmD5na2BqUbJQ5yniabg/640?wx_fmt=png&from=appmsg)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_005_56f0dd6e9193.png)
 
 这张图是6层1阶HDI板的叠层结构图，表面两层都是激光孔，0.1mm内径。内层是机械孔，**相当于一个4层通孔板，外面再覆盖2层**。
 
@@ -108,7 +108,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aEFiaFl3c7pAMhJuZqDox9l5jSTibWMtTYgQk7SyWq9mhn9oUdyFnlDuA/640?wx_fmt=png&from=appmsg)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_002_46e9b11d5c76.png)
 
 这张图是一个6层2阶错孔HDI板。平时大家用6层2阶的少，大多是8层2阶起。这里更多层数，跟6层是一样的道理。
 
@@ -144,7 +144,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138axOOyib4PDRlzunRDDkFibibQ0aicpgHnZKeibuhzf2baB1u5DovmRib12jmA/640?wx_fmt=png&from=appmsg)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_007_b181e91f6647.png)
 
 错孔板的两层激光孔重叠在一起。**线路会更紧凑。**
 
@@ -184,7 +184,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aorJGfWT5urr2iaEibTI5sRaqkDSO5cKh6RboKj53xXrGSsgBmTiatenhw/640?wx_fmt=png&from=appmsg)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_008_5349425b4ad1.png)
 
 最后放张图，再仔细对比一下吧。
 
@@ -192,7 +192,7 @@
 
 请注意观察孔的大小，以及孔的焊盘是封闭的还是开放的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](你见过PCB_但你一定没见过PCB内部的样子_特别是多层PCB_images/img_009_4700b023e565.jpg)
 
 ## 
 

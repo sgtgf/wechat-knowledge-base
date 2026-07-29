@@ -9,107 +9,107 @@
 
  王议锋 -- 教授 / 博士生导师  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPucdMyXWgY9SukgAVE98uotw0vpPE6L3S3cpqUBnyk3Lk466TMaIrgIg/640?wx_fmt=jpeg)　
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_000_20ff93d6073c.jpg)　
 
 先进电能变换与系统控制中心主任，CASA第三代半导体产业技术创新战略联盟卓越创新青年。本硕博毕业于哈尔滨工业大学电力电子与电力传动专业，美国国家电力电子系统中心（CPES）高级访问学者。2014年至今，形成了30余人的科研团队，围绕半导体功率集成与封装、磁集成、高频软开关与电路拓扑、智能控制四个层面开展系列创新工作。坚持产-学-研-用相结合，主持省部级项目以及中国航天科工集团、中国航空工业集团、中国电科集团和国家电网等企业项目30余项，涵盖了以宽禁带半导体变流技术为基础的特种电源、新能源发电、电气化交通及交直流微电网相关技术、装备与系统，带领团队在民用、工业、军工和能源领域持续攻坚克难，实现了宽禁带电力电子装备高原、高寒、高机动和高性能应用；发表论文150余篇，授权发明专利18项、国际专利2项，获天津市科学技术进步一等奖、中国电源学会技术发明二等奖等科技奖励9项；IEEE senior Member, 中国电源学会理事，天津市电源学会副理事长，分布式发电及智能配电专委会委员等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuJn2cEIOj2Kk7siaPKlrKV1VSjSjAdK6tgG88J1iaicVQ5ibia5MibVLckewA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_001_56ebe647a233.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuyk92ErXpB3FcZQB1l8iazJAAABKFVicYia1IghyM90uCmOAkYibLqibVzLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_002_f9f57a78fc45.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuBr1wIQrDul5ZpVads0vRpTcEcmLIYg4FqP1vSP4K8WaJk40Fp0JUQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_003_f1a01fa5f852.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu2nkxc9ic46ZN3cJKnClm9GvlVPkSKYzCTZrRH974KjJ89ia3KFUhzxzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_004_7933ffacef5b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuGoDYxIelQ9DCwH4tCnWppIgZibFG8rko981r58ZFBEGNzNnsbspXDYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_005_7e38733deca7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPufeNicmJrCLav6ib8zfxOsWEnx3kwMbbd0iaurb3uMDmUw9HcdJBvkHVaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_006_1227ef316c2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPunS9rAm5aBicGMLdNkVIq3ib3RByRgCzTYZ7MbwqHK6c1uLjAEOhZF1WA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_007_91d730e98e6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuJ7mx5Bu2sFp4ucPGz132SmImvWic2dmutgS2jZl4qyc02qYicR3ZicLBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_008_b5109b86e96d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu5U0nkIOackRsdzLk2rUDZCZgCicD44yvWVsELVQCsQnnWAQ5519BsAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_009_cdf2430cc595.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuqickqF5diaQKTtuJficrgsZoqLUfmD78d2uly6ZLdWPNV2Zuy9wsROT7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_010_e5af4027f10b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuazyRrgdcMU2AefU2d7O6LyuMGzhlibyY0zICNZMUuSicPLgqNstEbmtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_011_f71e6ddb226c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuUkibIwUxqx9LTtCcRfqXkUajv6AI5iccjCkS5DYXsicrgqCU2oQb0ia5MQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_012_f7095967876b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPukTvYcCpYsUdGibSFn23QZicW1sq3wKMMbBmg3TokJiclI3j7xg1mwnENA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_013_68b41125d250.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu5B2uz8f5XXn5Z8PLOutwryeqgBpSvwlNkIaduQ6x81Qz3at35Z57qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_014_34740b94c8e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuIHZmkc2dldx7h7ZAW9X9wwZWhqqb1Xa7SXwLJQbdXw0B2UQISQErOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_015_dcfe3dd6db2c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuYegQtQD5u5xrnES5IYs8LWz5syYNQKgcj1pjPDRU6XzZnicr6ehpXXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_016_8a27d3a7577c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuVtMicLy78YtlPTyY4QrsjBreIaibJctzASujjlJdSjibCGy7iadSCEcDIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_017_b2a4b9b6e8f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPugXrnSib48M7h2MZfVzHcSlOCX4nllIdKAoyVZwjRsInxcnkYFm5NfZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_018_0501f3e7a188.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuGTv3tlF0ykLkYoic8bFDWXI0ic1hj42DT3WNt4msGctHh5GGojpju4NQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_019_5f658c4f0bbd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuwd5u5x1uSzv7V4zuNXxKLeIIdiaFSgd1ruFT6ic3ComGmy88Fzqbyy8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_020_aceb043778df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPugaDLRNcfKg4lCaz939UnAfu9ZXzk0NxqMJCpoAibHjALLGLEWTYjLbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_021_2b4116dce98f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuOPFftfdSqtneM55QE97AOMID1YBjRKfTPukLXI7OSA94dcYCc2tRxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_022_faeabeb5f4da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuGCezgnKloL9oCg7ialpAzchuBDWzrN7mQoKo8seyajcGu8fNWWH1c9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_023_1c0c69456ea9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu4yicxX6VxpY3qVKHUT63VOYBdwibMNscmbHkuxktIDUIxnPL2lHshJug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_024_9702c2102a1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuDqAQY5debFib009LNjWicicpDQWFN8icD3X4gzoCmXEBaXyZY7vGGxAXMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_025_36f8d249f814.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuA78vx23YkHp2yf5bW2CXjmvTFwPLmW2PnTNvcIticeyH5wt6RBEG3Ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_026_0391b6ee9a52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuBYFiajt58FTkVibG4oj2SQVXzcIYdHW8icEajhoszrnJbiaGpGp2QVE1vA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_027_42304f6439d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu6Kgic4nXQiaSu9KnQ1j7LNZSnprRV9zM91fIuiaCSOiaaeEVVB7Zwjch5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_028_4bc494965b4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuB26X17Nian8zzficXbvZK4Z6sicemBnl0VEmF0VpdSx5l5r2JOk2HjFQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_029_0c420e90af5e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPulQT8iaico6iaUs0aMA6QCm0wnv2uEOmKnR5MONKpGzzCDLChbMpEiclgHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_030_e6d47a62c879.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuImf0894xLAH1TqkmsNQVEkmyGBNpuyYWvKyiaAyyPaZj57L6ClPClfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_031_8c8fd9876794.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu6XsBmg0noND3XlxbgoN9TrjSnJY3yFuGmWhOprZZYnMtHwE6cwUErw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_032_f2eef3d0377d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuPX1Qib9mpTNw9AmznCsAAfeLGLMcS2JZAPcN7qoKLp5eCpibBL6k4UWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_033_804ccbb133ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuvevwS6enRGz6xuurQ4qSft97W3mZ4VPm2iaORHUtBgtic8wHaibyu7Czg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_034_b4243f14d567.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuOncEP1qYiaNQEjicuPGnJBYVaKeiage5jD6JsO5MY0aHbfaUS85EDD1Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_035_8c6b774b967e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuxUDXSrdqHsHiaT4RjrQug4nLT3ppU64Sq4uqZaECX0SmHtsBAJHEhqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_036_a4d80b0206ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuTO9k7vntNAXRcTOY0kxgJZp45gzjibG4EiaEgngxhkicTXb0tJRFSGSeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_037_d60a21d720f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu4u7qRghddAT6LicTjjbs4e3Q5MnCA54D4icX2Jqd0ibJTwZAjX0qpmeaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_038_d998c6054885.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuBbGTOWo0DOlAMaLetXytS9vicUuqs6IDR64FdRaxf0jHpxia00ld3N6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_039_298a54447baa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPupDIoqg99icmOBITxUXRFWYXkM6bbZ7Mrlzficoh0IpHl8oYnMIBpSR3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_040_d0c5aa94d86a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu1qFaibpFtWREYiaQaJFdZIKWE0S2sxPQ5iakWpPyzib9CX9UOWBPMYuQTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_041_6aec2dba5853.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuRvwia9iaiapQZRLr6RoCGskVhToTXyRI1nWwmsIwRAAsIHKoM9beLZHrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_042_e91cbb1c3c84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu8l8FiaZic84BhduzVibgq9UjTrLLZtGBkVbpUxXLH5jsVz4g27xF8xtbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_043_36ddbe516af1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuQoxecTYL8pUrU7Qc2cD8icsZcksY51bzLhicIpU58t5Y1WNPW1ogiaEPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_044_7ceb966ac9b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPugefrOTyFL0GiaJia0bFT6LITawNhWiaCmibB3n6Ih1dx1r8iaOWZR4SKFsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_045_e61fd2c9200a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu6XyTnvWd5ic66HQ1WAA3mJVfkibrM5iaQDKib0avG0PjkOrbO8iaiaMOrkibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_046_ecd2c3888b7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuGyMrPh5WNAXRC3ib3qSgGUyR3fibGJTKspKISu6fv27dmbGPrqDlWWSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_047_9a8fa147158f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuRZuEmg3Y7ahoicFnwhEEIXE9MclQt4btqDvehjFLRHfBfiambYxpu8WA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_048_fcd58455323a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuibvBpeIUT0KRnchNU0kskc0DeunChIkE92ImAQuQqIvQmDsJCkbjibIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_049_1db99b81415a.png)
 
 随着技术的进步，‌碳化硅（‌SiC）‌和氮化镓（‌GaN）‌器件在电动汽车中的应用预计将进一步增加。‌SiC在电动汽车逆变器、‌车载充电器（‌OBC）‌和DC-DC转换器中的应用，‌特别是在800V高电压平台的电动汽车中，‌预计将进一步增加。‌GaN以其超快的开关速度、‌高效率和小巧的尺寸，‌在电动汽车的高频率应用中展现出独特的优势，‌适用于无线充电、‌激光雷达（‌LiDAR）‌和音频放大器等应用，‌能在车载充电器（‌OBC）‌中实现更快的充电速度和更高的功率密度，‌从而减小OBC的尺寸和重量。‌此外，‌GaN技术在牵引逆变器中的应用有助于提高车辆的整体性能和续航里程，‌同时降低系统成本。‌随着GaN技术的成熟，‌其在电动汽车领域的应用正在逐步扩展，‌与SiC形成竞争的高性能应用。‌  
 
@@ -123,10 +123,10 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_050_d6e80acf9f19.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_051_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津大学_SiC及GaN器件及其在电气化交通系统中的应用_images\img_052_84aa944feb13.jpg)

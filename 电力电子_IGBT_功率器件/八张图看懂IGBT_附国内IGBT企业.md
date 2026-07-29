@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMKf14Fswb1ycbmkfVfic9vZSiaibkuZwCOZ4qXMC6leYWnibOdsNzjgEkPg/640?wx_fmt=other&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_002_42d53da7d131.jpg)
 
   
 
@@ -22,17 +22,17 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMHSDBw6ZHz2ZjDhfXOibQZaj7zadKJ97BP4HG9awSOI1fyKj0u2PCiarA/640?wx_fmt=other&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_003_6c8c8f9acc63.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMQvwwPOD8BSoJtCNjVwxK0huBuibylmUJHT9HSia2IOBEJibYepsp0N52Q/640?wx_fmt=other&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_004_efc6e06dce38.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUM0Q2zxHficQHmFJRRpB6LQQPLJc1QsiaHscR6289RP0bmS8lt264JWRgw/640?wx_fmt=other&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_005_42f638e94c2f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMAoOJHEWtTIDzrT98Yp9QsXXp292wWs6WljorfutUXSWibic14wrJgAUQ/640?wx_fmt=other&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_006_c79811a50021.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMzrraAcKxnU3wRXaaTGCiahApnicj6zzo7icdxF3B75Nd6SxurYDJjAtzA/640?wx_fmt=other&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_007_57117ef83a46.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMfNjtevuRelVP08SGONPPMJGhPVf4RNaRedH10NTJBdhGLnWfELOe4w/640?wx_fmt=other&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_008_6e07828def7f.jpg)
 
   
 
@@ -82,7 +82,7 @@ IGBT 门槛较高，长期以来主要由英飞凌、富士电机等垄断，市
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZxSIlWfvolfPkBprsRiaKtx1NrJYU2qrlyt5EqMVcFZYr0tRrvMmuoZw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_009_faf4c3220304.jpg)
 
   
 
@@ -110,7 +110,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6Z5uFbrpneAGicoFvgfjAsI9qvjUJ6fL9lDOktcuVpK9PC7Xf7WLjlaAg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_010_cc0c20c95477.jpg)
 
   
 
@@ -130,7 +130,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMG9ISUbjl4Vgr9PXNBCiaczgSNBcia4CGBlTzKnjzRTiacQwq947M4g8Kg/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_011_c779e843c0ac.png)
 
   
 
@@ -140,7 +140,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZqYuFa3xNtDplBmJWJ28hyqcrutdMdIqNGl11sQMiaWnurqNGpuzPeTg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_012_dec70b4040fb.jpg)
 
   
 
@@ -174,7 +174,7 @@ _（复制到浏览器查看）_
 
 _（复制到浏览器查看）_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMwuicrwVsjm2dJ7BmBfjLskAQMEQlPlhWkKyp6jAPMNTNdn88jJp5DNQ/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_013_466c247f983c.png)
 
   
 
@@ -184,7 +184,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6Zn6YuNglJHPg6LZibibEwD4jmt5URj6MdiaicauOz3T2B68k4IpNmBIz7ow/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_014_ea10de46ff50.jpg)
 
   
 
@@ -194,7 +194,7 @@ _（复制到浏览器查看）_
 
 **简介：**公司产品聚焦于功率半导体、智能传感器领域，为客户提供系列化的半导体产品与服务。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMvf37FSoVJyt9De7abSf9JsNnsB4zoOpmfbFV9tLIXNGYwDrFTwqnXQ/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_015_a67a0a9bcc8d.png)
 
 **官网&产品分类：**
 
@@ -226,7 +226,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMrKrGO4nEcAohP05WvUtFjUgoK8iaBSa5jFicTgnkXmC4ILpon8WSdJtw/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_016_34ff27dda321.png)
 
   
 
@@ -236,7 +236,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZAfICLahIcY81ZSKQ9ibuwpIib6ck0tTlJ5kdFrO3IMZsa8OVD7RI3MRQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_017_91e664aadb32.jpg)
 
   
 
@@ -286,7 +286,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMdgX5TUIk48h0un3KqiavFHrdcMb6WBPXho6v0eMk5HeWh2aZn1P8JJA/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_018_9d33cdc7b582.png)
 
   
 
@@ -296,7 +296,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZCTDb3POudUGbDuV2mwv2HXmf3sUc3yib6nT5RiaZujqcvgsmWV4iaaaHA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_019_5fb4a5a34810.jpg)
 
   
 
@@ -352,7 +352,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZicIXm7TeRXDDJqYutcWibEiatZXCIwFp86evzNClhM6t0QcJMq8Ibzjrw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_020_8da54734c341.jpg)
 
 **成立时间：2006年**  
 
@@ -410,7 +410,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZibibsWaUW1EkpAjVJ2YWGX2LFOttia3kDsYZoegzxLE1rVeocfUq1BvAA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_021_1ef0ba21c3c1.jpg)
 
   
 
@@ -484,7 +484,7 @@ _（复制到浏览器查看）_
 
 _（复制到浏览器查看）_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMPLIq6ttMNUCFibVd9zlELOlGYWXpcTcwicT2oHFYOqbUVl8JYfj1CR1A/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_022_ea7c19e516f9.png)
 
   
 
@@ -516,7 +516,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZiapBYPoAVw4oPwCHPa2ThfhwYWWV11LD1F3eIYyEuHweiarzs7GMddGA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_023_0dca5967d0df.jpg)
 
   
 
@@ -532,7 +532,7 @@ _（复制到浏览器查看）_
 
 _（复制到浏览器查看）_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMbZP1JNXib4BTtjNJiczVClmxF0jRLwvxc3wHZUsn0yGcozUOgpp06R8A/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_024_360b412b57e6.png)
 
   
 
@@ -542,7 +542,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZoWMldEjxE9G98arlzGziceOhVIkuCfbzs1g9iaQTBe59ZfTI6BXk9sSQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_025_dec3246be733.jpg)
 
   
 
@@ -594,7 +594,7 @@ http://www.lu-semi.com/
 
 _（复制到浏览器查看）_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMcSqH6wJQWrfic8zXEZXO1N07Sbq2jQm0ENRWvatKEZrULZKNjMDcewA/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_026_8bf64c8d602c.png)
 
   
 
@@ -604,7 +604,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZjmgbMC3KtLwZoyKtn0XvuCZGMIVY1yLDAgsUPZwrQx8YEI1DAFMUyw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_027_57edff5777a8.jpg)
 
 **成立时间：2011年**  
 
@@ -628,7 +628,7 @@ http://www.cas-junshine.com/index.htm
 
 _（复制到浏览器查看）_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMBzspoy8bFYxlcj6VwZwMohpWQs4JuUfnu9Wd3eDELkE8VF8vpBtJpA/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_028_a79f1559e1aa.png)
 
 **20.无锡新洁能** 
 
@@ -674,7 +674,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6Z4szicGHia6gmMvPLtB832dIaLb0IkDa6FVNYxypcAoKrJxOkOOyoZ2FA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_029_1aff6d026445.jpg)
 
 **成立时间：2008年**  
 
@@ -692,7 +692,7 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMd2sNJ15rxZUYajq1j8iadnbhdF5ygyVXf36bCJoFfaiaqtiaVCozJZdxg/640?wx_fmt=png&from=appmsg)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_030_7582b1f8b0cf.png)
 
   
 
@@ -720,4 +720,4 @@ _（复制到浏览器查看）_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DVk7VUQZ3qHyFCriaOTVMJhicno6cWXw6ZpgoXzWJQQ1xoUB3Q4tHZwfnV5xtFcaQrlGPCzAHwFEyO6LkKf4iaQtw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](八张图看懂IGBT_附国内IGBT企业_images/img_031_ff63992d02aa.jpg)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/1cjqgeSHUSmjWIAdP\_mdqA](https://mp.weixin.qq.com/s/1cjqgeSHUSmjWIAdP_mdqA)
 
-![](http://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/0?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_000_6e6d80aceda4.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
   
 
@@ -28,21 +28,21 @@
 
 电动汽车电机的理想机械特性：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGuu8fM6noiczv3ToU9WzXaM2MiaLaeoCicKgzX8qeVX2VBFCwO5zS0VSlA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_001_9528b03a74d4.png)
 
 作为比较的PMSM和BLDCM：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGKsaFKz1H1HR54ibUuShvibxvSwIgvmcRPfk1ic737Wz59h2TDUUa0ibLPA/0?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_002_ebe2e8627bbf.png)  
 
 功率和转矩特性测试结果：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGRuHAshpsXa8dqJqp3XTsWoX0TmtpUrCVEnvYqg8Yravx3NpyvDXKXQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_003_5c22fbb932e2.png)
 
 两个电机在低速和中速区有相似的功率特征，但是BLDCM转速超过3000rpm时功率下降。  
 
 系统效率MAP比较：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGO3lLr4hwRgVIjhMCWfzMAhApTpHry97ojbW6arKDkYBxSARW2DAIaw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_004_b38d784ff5cb.png)
 
 高效率区都分布在中高速区，低速区效率下降明细。考虑一般的运行条件，PMSM续航里程更远。
 
@@ -52,25 +52,25 @@
 
 电机模型：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGFjI3Y6Df9qDEoh2kGeROicxwiblM7BAx9Cc1kXnIBiamvf9P1xqQBAT8A/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_005_2901ec63dce0.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGEOjicibWeYzia1F14LrI8BI2r2Tngwtw8kPN2y1kSzRW7MfyJMwrABSwA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_006_ce642b40ca92.png)
 
 1000rpm磁场云图：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGHdA5X7KcYxn3ia5eIKfekd1uNiaajabekCKZblMosicow7QtK7ecWUPyg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_007_6cc958da0d1e.png)
 
 PMSM的转子軛部和定子齿部磁密都比BLDCM低。
 
 齿槽转矩：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGt2rLPbib0qrF3qjYHjIMsP5Pq14olXLHZFqsA1LFhibF2FuGbPbD7nJA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_008_5ca129492047.png)
 
 BLDCM的齿槽转矩比PMSM大。  
 
 反电势波形：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyt1CxkBXxa0HibXXFtdiczfGymWvc5Bnt5ECc2ibnUjribZVUcbY8GbJeQ8ooiaa1NU9RMgDxGmZv4Jgw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_009_c7cec1292659.png)
 
 BLDCM的反电势大于PMSM。
 
@@ -98,4 +98,4 @@ BLDCM的反电势大于PMSM。
 
 长按图片，识别二维码，关注我哟
 
-> ![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\BLDC和PMSM在低速电动车应用的性能比较_images\img_010_d7f135e99ea3.png)

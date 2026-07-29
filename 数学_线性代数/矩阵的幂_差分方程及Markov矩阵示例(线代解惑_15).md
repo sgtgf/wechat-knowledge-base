@@ -7,23 +7,23 @@
 
 一般来说，求A的多次幂非常繁琐，但如果能找到n阶矩阵n个线性无关的特征向量，则可以将A进行相似对角化，这时求取A的多次幂就非常简单了。其本质是标准正交基下的A的多次幂求解比较困难，可以转成在其特征向量坐标系下计算，会简便很多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG426nn7YnbjkUatM2eW5eA1NLPOgzvxwtrlKv2jSoctBGdPcKs0ibTTKg9ibptbExaABwL0FaJzEicicAQ/640?wx_fmt=png&from=appmsg)
+![](矩阵的幂_差分方程及Markov矩阵示例(线代解惑_15)_images/img_000_98cf613c88b2.png)
 
 对于差分方程，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42Df8ABxLackNWbsSlxCIo7ky52ibDRHf9j02yl2O2BbwGLBO8WEoUkYjzzuiaU69uaL6LPl7JMpKEw/640?wx_fmt=png&from=appmsg)
+![](矩阵的幂_差分方程及Markov矩阵示例(线代解惑_15)_images/img_001_038b7e485df3.png)
 
 二、Markov矩阵
 
 Markov矩阵A一般会涉及概率的问题，所以它有2个性质：一是A的各元素值非负；二是列中元素值相加为1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42Df8ABxLackNWbsSlxCIo7EmyYASBvdCvCXGXmXTXW2nUaniaYjic8lbVOOwLwnducC1vowxxibQDaw/640?wx_fmt=png&from=appmsg)
+![](矩阵的幂_差分方程及Markov矩阵示例(线代解惑_15)_images/img_002_b8af94992558.png)
 
 事实上，A的其他特征值都是小于1的正数。
 
 下面举1个实例，假设
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG426nn7YnbjkUatM2eW5eA1NDLnHGU2SZy4DTF2obibIRzSCwDh3X9AiaQhg2LdC3LPpR1Vic1Xe7l8Hg/640?wx_fmt=png&from=appmsg)
+![](矩阵的幂_差分方程及Markov矩阵示例(线代解惑_15)_images/img_003_5c94827faad8.png)
 
   
 
@@ -59,10 +59,10 @@ Markov矩阵A一般会涉及概率的问题，所以它有2个性质：一是A�
 
 则剩下的80%的人会继续留在苏州；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42Df8ABxLackNWbsSlxCIo7Yvibz1ykw2Qu36G5h3W3wKLDugfnmTKfXBEiatT6zmeBiaOHqNoocc3SQ/640?wx_fmt=png&from=appmsg)
+![](矩阵的幂_差分方程及Markov矩阵示例(线代解惑_15)_images/img_004_0b9ce8b6ae40.png)
 
 很容易知道，A中各元素值非负，且各列中的元素相加为1, 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42Df8ABxLackNWbsSlxCIo7xHLicvxiaEYRSAibvicjw9I39sfyPGBermIrJ41ZiaaWUDzx74HnzCNV8eA/640?wx_fmt=png&from=appmsg)
+![](矩阵的幂_差分方程及Markov矩阵示例(线代解惑_15)_images/img_005_99138dd4b906.png)
 
 故可基于3城2024年的人口数量，可准确预测2124年3城市的人口数量。当然此模型是一个非常简化的模型，实际情况会复杂的多，但可作为一个实例来了解Markov矩阵

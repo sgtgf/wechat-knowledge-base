@@ -10,17 +10,17 @@
 
 传统的风扇驱动电路采用三极管直接降压方式，将电压差直接损耗在三极管上，这种方式具有直流驱动、电压波动小等优点，但是效率低。如输出风扇电压为9V，输入VCC\_FAN为14.5V，则效率为9V/14.5V=62%，而Buck电路能够将效率提高到90%以上，FAN损耗大大降低，有助于提高模块的整机效率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jwW4UHic87lcSrc6cDGyHp5Fl06AsRMa03ib7AWlnKtpBRwKBZLmEIxRZIscyeBjEBHKmaRJqhamlUiappKUbjWnA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck风扇驱动电路_images\img_002_ae9ddb604223.jpg)
 
 图1 主电路原理图
 
 很多人对上图中的Buck circuit电路很疑惑，为什么是这种形式呢？跟传统的Buck电路不一样啊？传统的Buck电路及两种模态的工作过程如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jwW4UHic87lcSrc6cDGyHp5Fl06AsRMa0u7icMB97pngnMLL2sKD1PAck1rIGicoTWA6JZrjTclaDpK0VVWicMwqFw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck风扇驱动电路_images\img_003_911ba5f9df81.jpg)
 
 传统的Buck电路
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jwW4UHic87lcSrc6cDGyHp5Fl06AsRMa0TQF2iasL07diaHJSByvMa9F0ouUZA65SzQYyjmqEnsk2g0cCEARxhXQQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck风扇驱动电路_images\img_004_c86ef75ae843.jpg)
 
 传统的Buck电路两种模态的工作过程
 
@@ -46,11 +46,11 @@
 
 ③ 而且，其两种工作模态跟老Buck电路一样，电路功能一样，两种工作模态如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jwW4UHic87lcSrc6cDGyHp5Fl06AsRMa0CC0zmt2oXsXuQm97bRcErwxwkMlXZIPnBYELAKxu8iaD6iaIW1icouQtw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck风扇驱动电路_images\img_005_64c067173d63.jpg)
 
 由于输出风扇电压是浮地的，因此，采样电路需要浮采或差分采样。在我们的电路里，我们采用了对地差分采样，即电容两端的电压分别对AGND采样，然后再作差分，即可得电容电压。由于电容正电压为VCC\_FAN，而我们的VCC\_FAN作为辅助电源的被控电压，稳定的保持在14.5V，因此，不需要对该电压进行采样，只需要对电容负电压FANGND进行采样即可，最终通过后台软件计算出风扇电压Vfan=14.5V-FANGND即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck风扇驱动电路_images\img_006_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck风扇驱动电路_images\img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

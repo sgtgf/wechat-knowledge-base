@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hsyCedwKZugiv3-Xk\_PaRA](https://mp.weixin.qq.com/s/hsyCedwKZugiv3-Xk_PaRA)
 
-![](https://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/640?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_总结_电机竞品分析(Benchmark)1_0_images\img_000_0458cc1e8746.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
 * * *
 
@@ -14,15 +14,15 @@
 
 **竞品分析的目标：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxmDBsHkpFzq2EyEJW62sswPLEanMLhIphNPKIls76OfUEqITBycQne1ianAia3G7WwnXLh73jVwww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_总结_电机竞品分析(Benchmark)1_0_images\img_001_509fb27f76c4.png)
 
 **竞品来源：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxmDBsHkpFzq2EyEJW62ssChOvkHn0wbxJSFXaXuYwXQHeokucXHx3neTNBCVjZn33eZjwWVMia3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_总结_电机竞品分析(Benchmark)1_0_images\img_002_066b34b20ccb.png)
 
 **竞品分析的内容/流程：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxmDBsHkpFzq2EyEJW62ssfSVTe54jAGeJeo6KnnqULqNuWDcK0qdT7TQQekGdicY5h9hkEibWja3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_总结_电机竞品分析(Benchmark)1_0_images\img_003_82efef60cb8b.png)
 
 **1)性能测试：**
 
@@ -92,4 +92,4 @@
 
 长按图片，识别二维码，关注我哟
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电机_设计_仿真\_总结_电机竞品分析(Benchmark)1_0_images\img_004_6cc15fcc9407.jpg)

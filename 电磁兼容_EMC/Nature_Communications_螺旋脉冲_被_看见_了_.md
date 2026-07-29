@@ -7,7 +7,7 @@
 
 如果你拿起一只海边捡来的海螺，会发现它几乎总是向同一个方向旋转。无论在赤道的沙滩，还是北方的礁石边，海螺那一圈圈优雅的弧线几乎遵循着同一种手性（chirality）——自然偏爱的方向性。你可能不会想到，光——那个看似笔直传播的东西——竟然也能像海螺一样，拥有自己的“手性”，而且具有一种比海螺更加极端的结构：它在时间和空间里同时扭转，像一颗只在一瞬间闪现、却拥有三维螺旋的“电磁海螺”。这种奇特的电磁波，被物理学家称为——“螺旋脉冲（helical pulse）”。自2004年理论提出以来，螺旋脉冲的产生一直是电磁学界的难题。近日，电子科技大学王任教授带领的团队在 Nature Communications发表了最新成果：Observation of Helical Pulses, DOI：https://doi.org/10.1038/s41467-025-65916-4。该成果首次在实验中成功观测到螺旋脉冲——覆盖光学与微波两大频段。这一突破不仅验证了经典电磁理论中一个长期未被观察的解，也为超高速通信、精密成像、超快物理与拓扑电磁场调控打开了全新方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVl9IiaCBWZSOXhY7jgxJqWDSBlTtAcXcATyoon5aUoMrAicrjEibxIGCYmfxezIZ0YCetjEcb5YmbVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_螺旋脉冲_被_看见_了__images\img_000_2a1820030d59.png)
 
 图1 海螺
 
@@ -17,7 +17,7 @@
 
 理论上，麦克斯韦方程组的空时不可分离解早在 1989 年就由 Ziolkowski 提出，2004 年 Lekner给出具有螺旋性质的解，但由于实验难度极高——尤其是需要产生极宽带、完美时空耦合的结构——螺旋脉冲从未被真正生成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVl9IiaCBWZSOXhY7jgxJqWD2qIf1wnhmCp6NW8mtfrnz0OTyTGIh8VZ6S5Wvia58za0pZxmy5ogz3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_螺旋脉冲_被_看见_了__images\img_001_3ff08d62d122.png)
 
 图2 螺旋脉冲示意图
 
@@ -29,13 +29,13 @@
 
 研究者利用之前发现的“环形脉冲”（toroidal pulse），将其视为“母体”，再通过偏振分解将其中的螺旋结构“抽取”出来。环形脉冲本身就是一个时空不可分离的拓扑波包。利用其内部的左/右旋成分，经过圆偏振片 + 线偏振片的两步转换，就能“拆出”一个准线偏振的光学螺旋脉冲。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVl9IiaCBWZSOXhY7jgxJqWDtDs67lMJmmPEbDdo7icWg6GIYqUzhicGE2BTXZBosZ7J0k3Y8GVEbnzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_螺旋脉冲_被_看见_了__images\img_002_9403d68397f5.png)
 
 图3 光学螺旋脉冲产生方案
 
 实验中使用了 10 fs 超短激光、超表面、偏振器等器件组成系统，并通过边缘衍射确认其拓扑特性。基于上述方案，该工作实验获得了强时空非分离度，观测到了螺旋形场分布，产生了少周期光学螺旋脉冲。这是首次在光学频段“看见”空时不可分离的螺旋脉冲。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVl9IiaCBWZSOXhY7jgxJqWDBMoaModG1jcvhfQpkCkX2xiaJJzhWic1QN4WgNkia4UVJsDAibOlrUPVCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_螺旋脉冲_被_看见_了__images\img_003_a6f23b328f9b.png)
 
 图4 光学螺旋脉冲观测结果：（a）实验系统；（b,c）衍射场图；（d1-d3）空时场；（e,f）空时不可分离性
 
@@ -43,13 +43,13 @@
 
 更令人惊讶的是，在微波频段，研究者发展了另一种完全不同的生成机制：利用超宽带双臂螺旋天线直接辐射出单周期螺旋脉冲。这相当于让天线本身成为一个“拓扑波包发生器”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVl9IiaCBWZSOXhY7jgxJqWDcIQK3ibAOZ530AeSH0vYufU3PNicn5SiayzuoXuyUF6PLtaLnicn8M2ibPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_螺旋脉冲_被_看见_了__images\img_004_3157f86dab6b.png)
 
 图5 微波螺旋脉冲产生方案
 
 基于微波方案，该团队生成了真正意义上的单周期螺旋脉冲，其场分布展现出双瓣横向极化螺旋 + 四瓣纵向极化螺旋的三维结构，在传播中时空非分离性不断增强，实验、仿真与理论高度一致。因为传统螺旋天线有金属背板，会破坏拓扑结构，所以研究者重新设计了无背板结构并精确馈入特定时域信号，使其能产生 Lekner 理论中的场形状。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVl9IiaCBWZSOXhY7jgxJqWDdTmWvgmvrVdLTFvGGyyib16ZYib4Hy8LSGYCqe30v5BK0QHrFSFXVRPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_螺旋脉冲_被_看见_了__images\img_005_52f91c84a707.png)
 
 图6 微波螺旋脉冲观测结果：（a1-a3）频谱分布；（b1-c3）空时场；（d1-d2）空时不可分离性
 

@@ -7,107 +7,107 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAzUnpf5ZeKcfMaP2Fddxm4czrKiaawROpOATt9kThzTVyctU9RwVEkTA/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_000_1eabdea632d2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAG2um6rAolJX5ezlQKG4Hsms5A5vgE1uae7OtXnocopAibKyT9MyyVgA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_001_5ad5d6e18f5f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAZjU0fvkExe4WDfoo5wYzDumibWRgnEaibiaj56zmdVGLgPicEUqJvgdwjA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_002_816e2d71f14c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAkib9icJXORYCnlKTk6eRAgibeMEP0B2iakd9wpWUPS1RW0lBhic9fOXhyiaw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_003_2b2ff0c4e9d4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAmicDzVadjGqMf2JnrYv8ibLJLqCM5jrkseIWk44HejVjkaWqq7fKl0rA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_004_8a9f6bcfda97.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA1CPiboLFQKRPWqRlj1vJdzlia3L15xiazicjtOZ8lpEZgFOf8rnlQbHcgw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_005_4ba5b79f9be7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA5IEMCbl5iaenRm3eJo4Aeg3arLv00Dmt39CFiaTxS5FPkPuic3RhebicbQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_006_6fd4be1e8f16.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAYDsuHVdos4TTHlJJkqicWNlebELyDyqamIsceic9wF5LjbCARpGGcamA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_007_ab2bf2da8ebc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAWDqwicexQLMuuLKqHJKbBOhQhzHFF4a6XiaFLiaTmxfk7pjnIwy0PIWrQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_008_dcaf0f275a2e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHALxRKMtSR3bicJvuicEorTiazu9rfl8eDoU7EqdruHVxnHTibzlNQ21ILAA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_009_aae14f35c171.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAJIzd162ZWUNE5Dbzjw4eC0jAwEYh6TrpWMMJROYnwMRicP6ZrRSyqQA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_010_166bfb8e5bba.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAWXSOjrRmwZEGKKjQNMvebMEuzAZM3wIcRh9eDC96FN1UUtFce7h6fQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_011_eaf543406f6d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHApqPUdN48zVaa6CQ9KKqCDCQqNRvr72wickws4ZqiaFzfet3CQs9s8ibNQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_012_1abd21ddd80c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAh3y4jT5mBRv3xI2mCXrKaorGy8J6P9CqNPnZYovcvKqqMeoNb3ShOg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_013_6ad8c05547eb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAKd5ibZjbZtn7qFO8ffkHGshH2zbjic2K7CMiaMZYpvTCjwSoUpmN7qkeA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_014_dcbd91a79fbf.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA0ppsxLKdcwWo7Ocj7ahbuZ0C2mk8rRYPYX5PBXAURiboTIU7aAbkI6Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_015_f1f5dcdbd7d5.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAcwfu2ETvnerwhBmmh6XavTYclvSXrjiasfpY2xrt8cpcKAJZMaicNJzw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_016_7bed3129d9be.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA0e6fDxGcEBJicDTamCdPfiacrcVic1dHrjxjsicr5RzUGFv94mJL4ibGFPg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_017_becec6ca69da.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHALSxXKLZiaFob0PLjLmIvhwyEYw8UM1forqEmmTPwX8rVFpKcwb9fS7w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_018_1b213d94652c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAeJ9ZE0gldbALD0QKlp25GYadD2RBCg0gD02dgfPySdtkHYib32mHtEg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_019_00cf1b2c4a6e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAOSJqsGKAhHaLIxZwFrLEQFiaTapK5N9A26d7grqL9HL8FG8A9mZ94QQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_020_54189a982e3f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAOOPR6BhWBeQzYHgEHlBzH5R4DiccFVqDAos1gFqiaQXQBuqp5kX9Zeuw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_021_061892d461d2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAlkz0qK2B463EbgkkicxGbb9kTPQKNlaCJKuUkmiaR4SyVSvs007zPY8w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_022_e8a5430bb3a3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAkhc5E8ickI181Bia5GWSUyCicQ2tQXqUtTcpFAHpQk8T4qoCicrQIdNlRQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_023_51d69c4648f6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA1HSuv347uGlUBicXoq8b6UsNyKqvFDa0zBia7yxvDXib32wialPtfib7AjQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_024_f0b602c6d869.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAentSNjAleShVjh0zS9OtGeUtLaC4leqMlz0gyNCFRBZJSetTUrRPhA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_025_50222dbcf7a5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAkAl6vIicOujvfnQPCe1QjTDLKKPyQ3lBGfuQzTUnpsqo1ickRXxo5Ddg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_026_e65925de5ba3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHArX8Z0nVhRMw6AHCokicacrXpt85MqgUaXbEf18lCvB9qyMxOyjic2a9A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_027_977c7b9b83ce.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAkSAPSa2kpnX7bibrdFCmMTLnabiaBpk6ClicTbzVpXTGYcFFpa6eV955w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_028_4c824468a65b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAujibqoJ7odqrB5xmmh4ictAPibEqnbAE6EqCw69tkenQITsffkLucW2pA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_029_82ba92c6dd64.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAZlQiaFicSEm4H6xaShms9V9wdpY6kZuJye7FnoLLUzMwaHOgsmjNMboQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_030_3859af963c1e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAammHhCHbSy7NSZUMgjQ1AZ1pibkXyWkUIc6L69HrHICV7AvGzAvxb5w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_031_fdf656c72c47.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA9uzicUowIFEfniaiblG63W0k0PDUqibzLvffcZf4ibUg1NxoEC9O5FIErDw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_032_93275504e909.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAicHZFQPFdwE2QthqtGPn2MwWPrqCY8lbpvg6SM6mFfYWoticCSaVWPQA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_033_6612424db338.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA1GyB1656Lm4ukGScslYbQQgM3JI1x7DVtHFO6K6IM8PYvPt0XN3Rrg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_034_c0876cf1a2a5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA5BcIqrteaCMXKGdtYAJYXiblspCvy888mJDSjiafWZAgiaD0IOLpWPFQg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_035_ce4dc779dc6b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA3GrlEiaZzeVBicP3iboCiahRluEBmZOdGql0Ndia2JTZF1s47dSLad6aWsA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_036_44b3cb8901b3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAFCtYrHcMdHHgbzAiauwWM6AjiaCAdVVlicn1deTbPwXXqGXm3YXic2YCLg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_037_04e05b8e8a6c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAmZHicQWibXwt83Vam3VibDpWyGHuo40obsyAhMuvwibkHicicEJJyOibJibkCQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_038_f61a0a83ccf7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAOxcRGTkT4yxpnKoxvodyeaGWcmJvibpfSLiajo5DEVicNCTTMcibjgaVWQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_039_d491a77c3ca9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAiaG6BibQ8LhwiaIDtxksBW55R0DjNkQMX7H2mJTBTiazsP1R329ezB2NHA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_040_0ee25391ccf2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAYpNw0JiaibG8ibVUFDojqjkMzx0aO7siaJ9E6hV1bt7uyXL3CNLxwiaeAKw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_041_20b82606de80.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA6UJf3sKbPiaJ5MUia4OQgCcQCu5xMXwrtmTSuQyBJ2qia3c6JpflquJBw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_042_b7c16dc93efa.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHASqv3c7uW6fbZL9llyib5nP12uicKs6xbMxGSEicfNzPcWo8f4QUgPvzjA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_043_3c4fbf6319c2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAT9voLBFlAyLZm3OD5sIiaQ5aJ7rK9AxDPIBuEpIPh4gOyxkOHEbWv7w/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_044_fd4e7f4c781c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHArFwh3BH5gat9EAmr0oy3NbUk5D2FESbO1SrtZmAmiaJI9aUHvnPNTRQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_045_07ae5a563b6b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA8o9p1L2AOe9BuhNBMt8FcnfgSpEeiba3IanKx4DiaMceM2PhBoZeMLoA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_046_4e51d1e37cf8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAwT8t1hftv1rC2YJJe8ID9kjQ203CjgXyyVGAp8Vsx4JzvH0U9ku7WQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_047_f722b1c6fc89.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA0YyQNq8mxWdk070O4VRdDmyapZKkr5ibicMlnnbGPofYG6HyRyERYPcQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_048_eb8835dc7cf2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHAbZ1wFlVxyib5AVibpgNyvgN73Mxv41Gbhf9sW7VYVumjqa4KgnTTlvpA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_049_01bc940217ca.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDg3IAzLCXTvdBqYdTjRlQHA2ucfhQibMhooWRUx9wASUemYmnTzbAibzCdOeoQsJRYXqwUYM6s8zC0g/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_050_faa5cccb36c6.png)
 
 资料来源：NE电气  
 
@@ -141,10 +141,10 @@ SiC MOSFET器件的优势
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_051_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_052_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_单级隔离双向AC_DC变换器研究_images\img_053_84aa944feb13.jpg)

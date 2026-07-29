@@ -92,7 +92,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsUlBf29LmxoQl0XBMJr3qiaJuKAa5nkiaR0Dja73U26KicfDNAX40a5se21kuRqdYdNNxxtPWl7nxZxETVjQVl7L4KNic0QBCHYzo/640?wx_fmt=png&from=appmsg)
+![](狄利克雷边界条件（Dirichlet_boundary_condition）__边界的死锁_images/img_000_ec65b2dc7586.png)
 
 这张图想表达的核心是：
 
@@ -147,7 +147,7 @@
 
 # 二、图片第1部分：为什么需要“锁定”边界
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocujzc0cys2ibYjLdSoFPSxicGI6brzf9msN5p0CT3DBk4dquV7uxXbBiaT5hgSnC02TpvdJPDFIWVkGcOWzMsuGHuYDa043g3mT14/640?wx_fmt=png&from=appmsg)
+![](狄利克雷边界条件（Dirichlet_boundary_condition）__边界的死锁_images/img_001_9bfb01ec1a5e.png)
 
 左上角画了很多条不同的曲线，表示：
 
@@ -189,7 +189,7 @@
 
 # 三、第2部分：狄利克雷条件直接规定“值”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvUQLuGic65zHBsxfbj1agsl5Im9Zfu2azPgGMETcGhoib1QaAhbDSMhMHotALTPrDicTyEYWriaoG7ovKlXsGDAbj4EJM01CZnmyg/640?wx_fmt=png&from=appmsg)
+![](狄利克雷边界条件（Dirichlet_boundary_condition）__边界的死锁_images/img_002_50c5fe13353c.png)
 
 曲线两端被锚固定，分别标着：
 
@@ -213,7 +213,7 @@
 
 # 四、第3部分：冰水——沸水，金属棒比喻
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvaicn8M0HPdAHfUQzus56sdEhpESzv1FJRmwohA8SJn8hhiaI0j4OzibETDEu1kpSIyPg6ATDYwWfuzSRh6TQzJvSXV6bZ6a4bl0/640?wx_fmt=png&from=appmsg)
+![](狄利克雷边界条件（Dirichlet_boundary_condition）__边界的死锁_images/img_003_8f9ca85116e5.png)
 
 图片中最直观的是金属棒例子：
 
@@ -274,7 +274,7 @@
 
 # 五、第4部分：静电学中的狄利克雷条件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvdx49eVe11MFvLibiajfzzIJfIev7Bpa0zoxQe1TkzAmY3Jib2BiclVpDFJiaQLJBkhL3qUc9D5icWGCv3GnoaMb6W0JXkvJ9tLOX4Q/640?wx_fmt=png&from=appmsg)
+![](狄利克雷边界条件（Dirichlet_boundary_condition）__边界的死锁_images/img_004_10a98a16f3e5.png)
 
 图中画了接地导体：
 
@@ -340,7 +340,7 @@
 
 # 七、第5部分：Dirichlet、Neumann 和 Robin 的区别
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocucjCajdtgv1qugNY6HmKiayMacUsag6cNwq4kd3WEIXGNNsePWGXddIH1LVfdV9rIh8DpXPqyG8QWV2tt8OrWtbMF9ibzgOSjK0/640?wx_fmt=png&from=appmsg)
+![](狄利克雷边界条件（Dirichlet_boundary_condition）__边界的死锁_images/img_005_d2b2ebe4215f.png)
 
 图片最后把三种常见边界条件进行了对比。
 

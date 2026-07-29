@@ -16,7 +16,7 @@
 
 一位群里小伙伴提问：DC–DC芯片的BOOT引脚功能是什么？其实这个问题不难，可能给你一说你就懂了，只是很多刚接触到这块的小伙伴都会有这样的疑问。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgxzf4BVd19S62W7oQFzU6U1hoa2IrBUt5rMNmtt73zy6AqAkogia9xOgooYPG5shY8AiaQEomiaM6RQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_002_2d00cd80d9ce.jpg)
 
   
 
@@ -40,7 +40,7 @@
 
 **好吧，下面咱们挨个来捋捋，以GBI1630为例：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgxzf4BVd19S62W7oQFzU6UoyGR4UlXtHNW9rPoONRh9XRo7DDPOGve1qHxTmcOdXQW7cFtfsETPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_003_651d3051af5b.png)
 
 ## 1、规格书引脚定义
 
@@ -48,13 +48,13 @@
 
 该引脚是INPUT输入引脚，在 BOOT 和 SW 引脚之间需要一个 0.1μF 自举电容，用于上管MOS驱动。电容上必须为0.1uF或者容值更大的陶瓷电容，否则上管 MOS将被强制关断，直到电容的刷新。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgxzf4BVd19S62W7oQFzU6U94HEU7VMRbDMicb450IKN0KO5Dd0QjsnXd8WZvbPIdYPf3HWIOKvVWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_004_9f8927ea7ec1.png)
 
 看完这句话，你好像也不太懂啥意思，**反正你就记住BOOT 和 SW 引脚之间需要外接一个不小于0.1uF的电容就好了。**
 
 然后这个管脚，记得有电压输入范围，不要超过38V就好了，其实在电路设计时，每个引脚都要注意其电压输入范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgxzf4BVd19S62W7oQFzU6UZnJgcodmPZ4E2S2Uwyv4Bq23ibiazc6bYRx2MLEUTxXFrCmp5ukrMAtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_005_d2db16918707.png)
 
   
 
@@ -66,7 +66,7 @@
 
 先记住电容的位置和名字吧。然后，我们首先要理解BUCK芯片的大概工作原理，然后再来进一步理解自举电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgxzf4BVd19S62W7oQFzU6UrWcGOFf3IrbcO6jYibfVVed87sLFpfLdzCK85OEPZahTryDOYe2Etcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_006_440e018d75f8.png)
 
 **DC-DC BUCK基本工作原理**
 
@@ -96,7 +96,7 @@
 
 有时候自举电容的回路也会串联一颗电阻，这颗电阻和电容串联就构成了RC充电电路。这个电阻的大小决定了上管MOS的开关速度。电阻越大，上管MOS开通的就越慢，这个时候SW上的尖峰就越小，EMI特性更好。电阻越小，MOS管开的越快，SW上的尖峰就越大。**所以不管推荐电路有没有这颗电阻，我们在电路设计时都可以预留，在实际调试时，可以根据实际情况适当调整电阻阻值，一般在0~10Ω。**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgxzf4BVd19S62W7oQFzU6Umrg5ibwyMBXdA7RvWocyrcJ8rjdfcjb6jBhjCsibGNvmpGPNcfa9ABUA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_007_162737216bcb.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 ## 3、CBOOT取值
 
@@ -110,7 +110,7 @@
 
 有一个公式如下（至于怎么推导的，感兴趣可以尝试一下，这里不细说了）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgxzf4BVd19S62W7oQFzU6U40fZ7cfQJyWS8D1WxllNcdRHIenGzkGwyOJEYuK5bE7m8ianJSAJiaSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_008_45595e5105d0.png)
 
 从公式可以看出：**电容上的电流和电压的变化量是呈正比的，或者说电容上电压的变化量和电流是呈正比的。**
 
@@ -148,15 +148,15 @@
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_009_c270758cd48d.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpQvHwjHHqyVg59KzponKUXpOg5ynXzOHs40lCXUaWtovFsNlZm4MgicA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_010_a43ff79f2147.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
 
 \-END-
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_011_854de1eb795d.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\群友提问__DC_DC芯片的BOOT引脚是用来干什么的_怎么理解自举电容__images\img_012_17c99fedbed1.jpg)
 
 ## 
 

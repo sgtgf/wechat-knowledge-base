@@ -8,337 +8,337 @@
 
 作者：J.W. Kolar, G.I. Ortiz
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMxu8LibZrGxDmpXoL3r9G0tsibIUoRhelXgDawVOjfThJyQicSBFSGx5xcSu44ibL1wbjog83Dfs7G5ickOQzY7XzUeqG0N1Fic5AVE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_000_d04c9434eefb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO65tNnZNG3wM3ibrbR31D0p0pjsJeFM4mKVjLNdnUPaexPdHgyZUWKNicISfzN67LupLfBhTicFvSRZVATcWFQeR3f24UdF3XZnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_001_f7e7f5401ff6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO28wgtmQQibib9iaCGPhXLSYxSUZ4On5u5GL2d4IGLNydaFlTID1Rh9ibNHcOONUFE7xzKKhS4x5FdcUsLzwGPqjLIffl8j7U9fF0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_002_7cb0e8a34b15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOVPOyH2eUR0ECcvHURTRz2UbcZVfLdRicp0G0NFTRvibErSh9y1VicStYD97Z9CHIcGJr4gFn6za7tkapMFNMtBEYNXjHDYh1KibI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_003_5146a708f0e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNEJBJicZicJTGRia8k8JpBDRwvAFCHv7MiccuNAOOlhmHCRerWZ4opXJpnUEIgPhyDzAkCVeSP1rXnBXs1qAsicwsBDRGUPe7FExYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_004_ab6f781e4901.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNXshJ24aSTNEOmssny73ggZrw3ib5J8HOS45icvugGWrglK4luMNeKmHTfrIXhoDKia8Od5NIpYgulOesfPclq5h2EpZibrGSneUY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_005_82b8d60f459f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMs1kDPdh3F7dL739HT7KcDUJOk8jmerC3eFZaR2N0TicYGoDgYpa5jqFbW64Kg9DvicGEhF9LWEOIvUvQopuOKNly9gq0gGYRcE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_006_01b048ebe34d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOAVMn90eQwSjPkV5icmRUCkicSC7T7ickNUySSVQ0TvrqER3OiaynwAHDwWcFquhh18fSSR3lk6jqQmQq8yEciaMOvNWAmic95uHRdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_007_503954b40443.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMDor0dfea4ibLicatHrShV0E9W8BRqByNVI77icdVCiam4MFCRic1gAOOubUuDqa0RRgXaK0Y13icFwRxJ9zDKSgoHFkgSSAxkVkwVs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_008_7c1d970b45b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMBKAhFQ8Lm5HRV9JDaJXRAQ5nTYm3RFeAYicY3HqXoDJxR3VD9Cap7rt796D2fDMpiaQHECPj7WgfZ83Kmj8tmOWARgPcycZqok/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_009_d2933193f5a2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPBsjKpbyUI6fDRvbHPtLU78bj4ox5x7ic3hIiczsI8J9WaABBN4hfQp7IdlnL2yZWwIWq4x4vRItwhAiaDWrfib6Qaxq6sH8iceNKM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_010_d54b7d669952.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMfGQricwq2QJhuCtMWV4KPgmBJhSibjlKxSjCdDFOsWe6rqw8Rb1KdibxFqIQuC6nJgrgjpM4aPhVmAWTzpOJ5JERNEgDzmzaDBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_011_887907d4c973.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP4ib07UA13iaM9zzMWiasgNGvVVRtCbmDPXxkvn1iaf3r9TjYGWQfktAJNWMYqYCOZWCJY4InEETs1z4oTM98aGicZP4Hvz4z2RmaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_012_c197231440e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPtsbTibembKsYaJ9icartYCs1NRo1kzVRI6jHI3wAQegGOv6FrOh57wAkMHzRnZCHSYkKLDXR6E3oQAIZzJIicJIGHRYibIWh0QkI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_013_90563feadd08.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM5KacQmxTpG3NnlnugoENNeU73vrZcF77Vl5qZkJJibhibElVX4opmgTCFENeTLK46W31wEGg1RLRhJPQsp4aoNuiaPOq2G5KrAU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_014_d0cadeef44fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMQQZ8iapNzeQ67mE2zH9VvMwicJZUiaSdibvF4z4hdibI13W8ScvBV1ibFIg0zPhZeXEaqqAF3DlEFUiby7BUlkAWFHymcCyfYNYuqRk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_015_c316b4e33a80.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNico2zMCmlic2rMNs6LeTr7iakVz5FiayornDibLl4kHcEIeCQaJbmMgbnUl8VP98ygVKlQZk89zkcFVO1lDJT7oVn1whiaUHEgPzias/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_016_006d065e8e34.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMKPVp8Hk4NuDicKQcbKibvTSdXgicx1wfibMKK3PmlQ7ibDlTpP1hznrbs0EXbNqTick0JjGA44ZbyRCfJwc7QdicgD722Tu0D6DlO9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_017_b2c18cfcb94d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOuButRmia0mTGRbfaJ8ibT94FibWaLm8WjzGvKUy3FFUM45PEzNbAVKficYkwGibwK4RKB9pghDiaticaV00QiciauAsDDJE3u2zG6aErw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_018_2bfa59b2fcf7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOiadT6VhIjPGcM2hlLxOf8voTTcpD0EILfqLU57cXNPtbSV7ZtT98S7aBYxN8kBoicooPvDiaK1Cc8X6AYicf3LicRIPUOicDcKVQ8s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_019_10265918eec1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8Y32sv9bG8mibd362uUbMIZhSy1BsRsq6icdLNSpMKiaPcMRUv6ia2bphWMMAczZCTK6LjggS8xRKmmMszHk7mOeeOXHgDvLPLMo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_020_e259609cf14f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOiaIY8ibX9zszJWs8QQAWnzUsqtbRggf3WexKt18P9RTNnUqYTgv5DTCR4uPuBkaj8jJqbmQHI5F1xN4WsLFVXd4L1m8GuWwFmc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_021_c94c6fb8a4e9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOcVUmv5O1YlmCgrMwWdrZnDdotFezfFJlzX7X3sO3qibibY6rpyEMkib8dCBJIFrgGqAZhgE3bc0XMbdsdB34icaaTJPYjTagDUYM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_022_b59540a43367.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPAUcrl9ojJy92Fsat0NicV5V0hK70tRR2NXSmJ51kOf9LBH6ANlUicciaRgg7LL0pkOSOuia7PbKf0sawomtMazWPW91VoCmbqk88/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_023_f9fd22fce5e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOs7N454VNy0ibxelwsGmg8DYL4wsFYRYcbpicgVHRwVN8L54I2ujtwxu7fYYWmJiaVNDVf0icfG8Zc4pBibdwSgKYAkicibJoXl3ujDs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_024_48595d87d153.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP4S8jqhumOUgPNOHnp1ASHZ8pjIh6ASNHNHTiauR7knT5LA04unlIeEYvz9S65WsXCiatQkCjgFSZZpOBqgkXoFKHL5fOAJywIU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_025_f9d4ccc91285.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjTGE2SVWj7mNZ8ej6a9NiaALibt4PDUSrYwd0dy0gra8JVhw0vBUq3VgckzeibQgnIo2K33qId6UOeGicBmKpOtgXdWrVemqnMUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_026_27dfd7b06caf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPtibNU1XcDdgNHeYXRSy4Ay650kJVnaNCzs0Rc0v8kficDLTkVeRK1XsjmFBCa7rAIC94X98GpsAXS8m7ZVSEQXnqib00lQdCLj0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_027_afb763c51394.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOazQpziaFibKufKWOQumqnTSrsj59jAcic8baNUbmb5UcdqDrKgOR6nrWXGk1iaibYkN58nToo6HZgfJHOsJiaC757uoKIILC59KaEc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_028_2b40a0f956bf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNj5gyqczAsAAIy445BaUbnh1VCfib2dLlgpA18nZZRSltpLQ6icXibzhwgNYKXJtDARdopLvryqjwlem8ArwstJ8fnj5ib85EcKx8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_029_3f6e4242c63c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO89LUJqdXFNWT9kiaVibXhVQyNAiaxTkT5OTKeNhicoAznOJhXhpad20Y3MFlkB5P8TdHXmlugJtLucR52Vpm8bHRsn3lgPxicia1so/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_030_be18d90cd120.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPLicAI8LwlRbKXywmu7iakRmNmX7tdpVVMrVLBicsJewcefuAvHFtW8iawQNbSgiajfc3kGXR7Yd4yInqic55iaw4v1W8GdkV6iaZAEf0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_031_c527d71c9b44.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN7iaHONo2508qo9Z0Q3LicKxb3Zguc1xNBSopcE9N9eP4U7ufxrvIyadPQRZIISaMcNylP0djBCiaHnJLiazd6CYbYf5MMSdBuPics/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_032_667f3c9908e1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPmrcGsdVFY6UX7az6PV5UHxcBfKkVibYH8Lp85j9ze8teWnib7iadkFUFKxRABGf7icTjbLAdYU5icB5zHOxtPz5jLnIAts5oHBemY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_033_eb2e946a3236.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOp1W2icMEsr92kpbpbic5hVAETx93HDyF2rt7MXlPC3Oiae2SxYRfUbwicFj9pSjqpEMLjVZqwwe1QMBCS4mPjAanNia2Iw8UbFj1I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_034_5609935775f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPCcRVjuVArtFzk897f9a4KPxThvicxMx9N4LepQ7tuz7Wy1vicFuml33DlTjnc4XW9fJiaxhzia48gia7df2iaoAkNgFX6mQoRNx33E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_035_feab726197b2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO5rbekBMn5ShjaM1cJIHAPftibrIcWMFAau4fYm6mEzvBTIVwv9sB0sLJqHB3BSUxibHxQLWac9odq2gknica6mJwwCG1GGlWptA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_036_0419d1c42dff.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPLI0mIXQYOlKJf5T1mSv0Zp96EfyBXhKnCmk70shU4iaQ2dRAYoJJgXBia95hfZHWzdkAQWic489kHbv3mSaFHibkbw9xDFLl6LaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_037_5882041b487c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPcHibyxEOjwficPliasSHldJicwLUlN3rbC9A8BqJibSfDykGVgMibiaXia52TCfx60bntqsd4r9tZH1GmkNibC6ZHcicDSSwMesoElNB4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_038_8891be4bcc59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPo3cOt3Krm6wGkRKCOSfAjZvkSjf6wrGiaQiaibKNFbZOCmoBIrvhEibt6Ex9RDHRMWPMAIaE3LgUNia4SB1KTicIEWXGncdzXUvh7E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_039_389b8d296041.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMmEEpJdhsuOGFAGzibjT0iaQtGB5NkicvltAOOiamiceFhwPHkxPF3mOicPEkf1GkLpdHNoCcia97a2VlIuCksVjPib0zq0x2F6wMN9Oc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_040_2836e797faaf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPJpjXnbic8hp7upq29Es4GG3iaB5LLx7BMUEw5s6K8TQvzk7DU4oMsemPTbgmbyZpZBgQ0uAthAibuO2LH9ufzXLWN6WPlbHTrNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_041_d7826fb2e042.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNnbpziaW8E1n0Jsia2tMvtSt5gzdyNuVXFcusUuohFJNcIqamxaxyYUxI97A3QyTS9mibSZhgoSwBXr0hkcBiaelksZucm1qBWoOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_042_0701de556b6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOibMBa6XGVZWcUbrAGgZbEvzZRqTH1leXULibRLnNZbfHbsu28g62ic8cT7IrkRyUBeOIliaicjouPSfUYUibpHYGqJXIkiaiabN7pTNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_043_a218ad5b433b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8KniappV1rx6Cd5N1M4Xo8XW0oqodCM0oYVHx5SxKF7zeibYicCTFMviajdMrTqswu7uazQ4CKcWgUJQ0krhcshhl7IdRIk8e7lU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_044_df20d5bc056c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO3wfzurdjkOYibIjpPL6HSIsIbxtmkKWeiazDmVMJ64HRKia4EhBT9qAGyDXoS0tia9AJofQkibHIJ747qibYwpGwsKiabKx1lNLmwIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_045_f57a39fa0608.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMlnwxlYkJalc72ic44OvG4maZu8hjxqiapicIFDR517KKPvlU3EZia0mt8qhFdpjxPfYfuKpuKSkflichsARVXsibUCfMH1LWepSkics/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_046_828f30574e92.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNiczzia5U9qcibgVViaY2rcSlnSK9ROrCK22spnJeepm2icia1XX12ocicXr068ichRP9TicoLw7qicWT7MCI2NjRgCbpbI20w69BTJ0Lec/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_047_5a06f12ec126.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPjDYlR7mET6lnQMsN9ITKzahsic7WibMPw2vlyXWLHszN6hjxiaibfFAhKZu0AKiaiacPmv8ZymVpsaiaETKAB4ibUPRsPHUOwTGt95CM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_048_e26dc66aca70.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOmY4vzH8n7vtdg63mD4UW3jCZWDicnIAyOHb7ggiayJb8jkaBh1Al4dGJO5DibiaKQcrVhqCO8u2FYEwU8EbchomSWwibBLagZhPmo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_049_12954794d4ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPBL3ic4QA9I33jhvt8anghWy0bEhQdhDSOXYPxLqibDkuOibwfA45MChcqdopOs8X5mQ5oqibDFCkibFzvq1HTusgTknrblF4LWxoE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_050_cdc548900f46.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNy3nqyxiac22dmeWMOEYQsoAAMDicRtlFvJhHialgKp91LHcrJ1oPl144TQgYGobgYJSXAfiau6n5dfPc3ibHobjQxHMkSTldypsics/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_051_fb4b4576fae9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMegiaicDrJlIqIEmqBOzev7T2WaAow0riacm1ry0VZdd9ObIPncTCjE6fM5giaNYiahnUHl4xR2LU5zvCibsDbNzRterZjfkIhiaIicIY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_052_8190c26de525.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNcQicxCYCdxAV1tjRQwEQcvC5UicNUat8Bjer35RksxXsE3SQsibublib9lqRZhK5VPEYzPkn9FNFTc5zKzmCibbyIhtrKGKUs5abY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_053_36334c9a7f43.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOzoSvMzQ2vwN3t0WmoUicdbZiabqCTCia4YUEszYHLwbxJJb8AJkB32HE3legfQB2HaUNocyXneEN3sZVdicqzLqqW10mZdxQCdzk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_054_c6bcc78ec89c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMsMsnjhzr6KfqhkpicDwIGZZ6pgAA4WLhHlI9XGntomtuzwT2FsI5fVjjWcibgVU6mFjTCpsp6UrkuIIwTibbTbol50ibicx5SX0MU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_055_c0c416c7457d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPe1jzrctLB3NbGuqKCp040ibcD8uk6JHsmZwRjd8axkfkwlfvSst27KhViaLcGpHtokTdvWgaB3wDwfW8I5KJ8wWicaj7S9BeyNE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_056_2ed9afc3bbb1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPicH1mmMlwqjpU9rL3LpWNNR6O3vRyKWu8M5xdtJGxN5mC5bXcyibPxQrjo1AkKibjCtibnVr6jojc66TsWSsYCy5ullOibfEysLXU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_057_0ee89fc084ed.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO9YkEGTp2bSQNTe31BXglED9Y8x2MAlGcU1AbNPGIWaFzehbibia2VWPqIyc24InbQwKE3X5ZIZhAsOp4ialJUBIy0ut1oiaibe0hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_058_b1d53e63e4bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZj9nStWCbABDErRcBSdpGxc3hCtGdIFBB4r6mlcRhtxxswNDvBdbBHKlwGO18kc6OxVR2Lhoyh0SV9OPo5fQ9B0nrlGqMgHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_059_1c95f4348a4d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMib4aUibaelCBss1FAhGicWL4BlmPBjdgOvwoJlTjb8oUUbpEoibcXq4TbrPJTrEMcOcNq27SOsxPyc3XOTMJfllNmCYnU0xJ8A1M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_060_db14c15b3532.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMqQib330yj3zneCfm4JH1icu8nWOpgGxsXxoYzbzO6a01S8ibiaDtrXtRx6Ik2R25m67ZkxyqaF5jKibzLr1DKB1ficLoZSa5OfYTzM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_061_1939fb122b22.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOO9aasrByDVusKWPjTZf8kuLKoqkLPQl81tibaPicFVWScOGuNnnzDv62fxrtPb5S6Bh1EUESporI5iasa0QqwSgbH1U7WTl5jQY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_062_4346caaea054.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMdLHJMQMibDiclu2p2EFOhOuKPqpJMId25pI2dFbJEWOQ2INho99pEGz9OESjj4FysibvMKMabOSEXNT05UeuYNnAFNZhuxLT5dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_063_e58515906c9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMzvicymprgP6Vu64icdBoTkiaLRqBpGiayXlf9Cw7PqR1bLkyV2RKRZza5GUH85JGZW5DVELtSibFyxKGEHsJPCcdccByr8eplP9dY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_064_11f83305003f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFh8FvpuaMkUK4GSDKcfG1v9UZQqx7DApUGzYLYsBS4C9LAUtGyhwIYRL6nKA306uZRDYEjMuslOXJia7cQfWdrRauWzicLxJ5Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_065_7b2683d1ed76.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOrWg1nK3zCS6FL1W66DWvzY089kfA0Bu3dmMJzYf4H19I9hNp7yDyf4GbYy7hdQ2PFMB479BaAlEVh3ycQ8Wsv78RFRBd95iao/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_066_2bd96553dd08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPH2IqeicqYvAWQYlG1B30Jyicpicve8hMC13nOUxPwSQzOfF203k8Esiao2P6cKjJO1Gf1wlprpUegEapvT5hu54bLDfARiazFCoyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_067_eff1d5409002.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOa6m7mVkNYSib3ibG2PdwdB54YRwVpCD6DwGODMFvGC1TvtAPUq7Hxwg716VPO1yib8icJrSFpZ3LELZgoicd9HmjEaXBgsPAJfFI0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_068_81dad655291a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMDedMBe3rKBa9z4a3AdVjffI0YNONjTcobng6ORtnlvIqnsbtA1ZVTQNmfwUPCMicVl8D0vQE80uDFv2vGkoyaQS8ib5apiacGEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_069_dc4cde0114d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPOTMxlHn3aBmBkDjlmwLVsuibKMQWUTydpPRcZubh9tSrd0OcWcdxNZUCMibNVPfRTEqPAp5KwEuQ3AVibGWpwvGoCOchg7wTcXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_070_37773d445205.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO9kSh8aRteFo6WzpCPKZaiaTzwX0KGmorHg2iaPX0YYDibPDjJJJL2b7KjJfSq4snwiaPLa39S3DfomEw6odsmkD1ETfKNnHce8B0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_071_cc362c0aa39c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNJNCWPyLsyibsTQpKqDCicyFcxpy9cAm24990EYsXP9re9kibGf6gu7FDbb8T28ZlyBGHRUP0fvj6CaQGahTfF6pUnHicxItY6ZEc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_072_8f7eaf494ed1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPLyKvk0kUtWDPmNmYEX1S8BQhnfVnXqgyDkU5hQBcmk179vA5RicXmq3ibFJypMxO25zaJQqNb8Pzaux6GjSVvMpaMfUdvrBiaIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_073_52f3229bf176.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP5HUeaPKEicpPIM1NmibbrlWPNHT8Na5zbUSRx4nLN9tXmiadg0uH3lIKF6D4KoibW7JwZKYribz6JuI77aehGJh5iaSbU3StyLv8Lc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_074_e5d8f3799acb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOkTIApsv1CuicK3OiaCicPYwPic1HsNkDxtCXCgt0dedttT9NVOMgyabYibKKC0N9BqXPibsdY9fkM8OHVosrAjBKm7aI4k9xZS4tQc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_075_cff42b4a406b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMgNVaCvpVnRl4TFoH5sMd92cefzeH4Chbz4cibib3Rp3ib4GKDYqHQ3UO1dTZE7QvgibFLPPic7HGLvlOwcpAUk9AaqweNgk3hGEhU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_076_a0e57356b901.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMG0lblEEET5MDrakJl43mAVlyickjDJ0TX1Nt3ibtmqWdiaEMm9LEkj2cbTcBIu4klXpI9xP4SiaRsQt388zdnQ35PFPtD6iaQYXS8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_077_9000bd32cdb9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMv7ZU4IIkAQ9YIzicczY4NKBuO1CMYsVex7xdBOxibrtzwbmcu6hUROONeibQeZX1KyOTnAnbGSVWxIibNWCOjQqEb9SjZ2HNcMlM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_078_0603b3bcbe83.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPHPFWsQVqsSs5nRqPicibvl3Hf6YALZkictmicuXEicstcOvrdpDqYUH47rP5XSZOiclSMsrZRWjusmmVJk7aTLtD67lB1lmhnqiaBC0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_079_886ad7a56172.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP5Yn4luw0UMod8EODiavt10nsRwuicUGYfvh0sD6SRdiaPeD47ERIoDskXvkPNplq1mbxOfMmHeyewo1uf6H9FXQlneJ995bnNrU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_080_f572031abea9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPElDUMvU46ReJ8s29KHibrTDNz1PyOUv5Rh67icvwjm5dJuwGyIeJP6KEGuiaYCVIFJwylXo0Xy2WmjSxOCjmFtQogS3TIbpeFAY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_081_6a6bffdfb325.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNKVcWlsERYn75TH2s94XOtlCbmtribSU8oHlJyck3La1qiaBwHrZZHb8hWBJWx7g9gkLXibtVkH6QKyvLYQ1x1vATXUiaqibSGLcUk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_082_80e5dc57c515.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPBMmkpssGlobiblNKMgKBoadADO8Tk1XhzicPQJBYDdTsBicZoHYBtWP5JMoXvvKEh293Qia72Wd1rmap3W8aibV2KY7Znb0rKBhe0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_083_56b8d38bc4be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOsplWSajFicrd6nEAD8wRlPDcGKuA62QNYlBjibl2kN1WFNjRiaIEVI4XYFwXLlqlsRMy1wrBCyAC68EpAxgk3TTgTF080WXWQicI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_084_692c54773cb6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMxtHV2ViabngNJfAe0Gia3aoiafYKQVhNgZh3NhLzdrXTDEZ2GRcyLeU7NmNiazaXC9fTrj71ibxveJWZjWAd8GSWSuHqL7qVT9Ah4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_085_4eec5fa904b8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOFxmr0E9AyMoN6HPZbKPC4R39OfZZpuic2XXZ3G8VI6smeOyILqhHS12wK4xM8uu9Rtn4qLj62eibJewic6e67938S7ib8VRvUL4E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_086_63ec7eedab09.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNQWNtHicqDeLDII59eOvCtHY5iaud3iabJ7N805mwXmka4Wr9z6fUhl2zbfWG5kyzVfOvSibo4icTdl2ZNWcS0ibl3oqMQcXRJxwCfk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_087_0f9969e63524.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOkVAN9EFN5vzXemjcAfzn5MK7BYj4hPafcOJicrL59fv2LonY6p5gpsCcqeK3Ep7TxaZQyibk0B4F0BBoriaricSh3BfZ2hiaibk5L4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_088_56d6ae77e79a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN4ic0Zv9OYk3J6NaiawV4BD1MiaFCcfTeeJtWMFPrRe63FwYJOZia3FWO3ZoJeqjjKKicUUJQt4jGWic1cEQItpnqgqNHLbH0TiaUEj8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_089_3d3073f8f919.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPfdy0SicN69ibUxbnkw42ruQOLOBgicrPCmuTicsuXWmr90qQsZCQRX1ctXU3mVRZ7oGRCO1zKtDJvEFWx8BNq0IGfSYBhA1ELbBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_090_7e268792a216.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOl8m5CLhtQv0Rn8EEpDTWq8ibYv04Kmqv5DXhEYn3zC5fvjPmewzyqc06RegxuCIy5dX9Vx0EhULg3dLvTRUhOkOEvsfnmuSib8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_091_922e4db067da.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOEIDWkw7rKwr7OHGGicF81cRsH88AqlEhq4Ponb5GYibicOaZC5GTOYsnsalBDAmAAbKXz1ghMJHen76HiafJZVKyxye1uK2ZUbEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_092_66ae6815fda7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNJCrpaAWQBJTBiaW8zOy8KAg6FUeEdzxpr19ncficjz3riaUBIP8bwnLEA24BhLqJfmhCBT56QiaA62eWT8nnc7yDiavuR2ScHqAIs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_093_c98d1e4ce2e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7yUbbxCicKibsI3xLWO6r2v7SZu9dJYnSOHqDhzY0F5zZ2ibjnCSkia4DafZDKUXLzUbribtaibsDZNftxNxJDYul1UtNU3s884O38/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_094_4e1b73cbc366.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOmoibQ73cQMoujGn4oeLurYSrv6uqF24PHt5uNojFMNYhE5ljwRItIntTgsqddZ67ojQCEHS9l0Dw0eEyAUogENDkWOZsMbTHs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_095_dc3b1374377e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMOCjB4uHt37RQULWOdAF2fYMM4iaLNlA4zxicDibp5N5Cvs6odURHGbaZRYISwribmqw2iaR8agVPfzwUViad2rRBDCabJicHlYjff4U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_096_86bb1cfa6b01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOVdPFRtmfFdWzIz6VOhRkbwTHbya2XibMo5PZshenJwU2x1sErtGq1mMz8icEibibLlUTtlsufe7B4tfCmswp8eIo0FT1ok2mrGN0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_097_d5bcc254a687.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPB3BaAgmFUsEbsxx1nptkOrx4as5fGLzncFq36icEcKuMadMoCJnzTDze3ZlwB918k5entOv5icnfnnCjHFdFn2u0FTWy9bFdd4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_098_fa07c6ad60e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO80BgianibO1uXZYCjlET81sGzYkCDqlnHuPQ2XkLg7fOlBjG5Othz2bYdwz4YFrKDTEW0v5Hqd2Nib4GnkehiaDd5vNSxEhdP0hE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_099_dd791a282ffa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPNjQMYjhuXMwWlANxo5K60tOCfibbLfGCXzaW52xJ46EM0icmd7oFdLInX7SbOAtYAl6jz42GObKjriallpT3ttC914VzfaYH7Yc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_100_5d6986872b89.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMFIHbnuGgiblC6fUl6LHp9zAJDjq6ylIjzeYSicM0ibdBeJIXiaria1VfpBGW6X20icia0MRuk5gEo7xYAs26REm6PT708LwVa2XNxps/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_101_1cf6fb942d27.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPS9tGa4rgDdxADnEicjzxmmwG1EayK85vYgEX4ADHTC64Gg8OacVuHFibJKXR4xzLBzw2U59Kefiak4TuKB6BAU3eOhsVTIzc0aY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_102_83b3fdb52cf7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOLLiaDjWKTOica9CDdr4NibWntUFNGXp89TOQZicZibY6QxibxUqKwS8BgTMJxjZhl5r9IyXklrib5aQvyr4yFiaCN6bRb0X9jopJibcdY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_103_9e2bff419dd8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNyZNK7oibmbJKJbMWqZ1d0sCQn6GE0RCYKwVPd0hjecBfjrRGI9PUtXZpsCqZcpFloHUQEJrEy4JAcXQMhxAKGBucichyjWDibuM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_104_08ef005526d1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZ0UicrPtCOvjxdEicVPCPibDa0uichgrRfdQXNVugdyiaJ84RIl02fVBjt8AAbVcG4Co7Yev4S3JRV86KrD32I6KPobQWJskm2eyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_105_90dd3b289e0a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMictDqnAYTnSu5CGyGgxQicX5NibYZA1b0Qz5pIELczjYic87KsNatoQzsC0mDzkb3vX9FvibqZx1sXjL0AkaLaKS8AtW2mdqVR4w8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_106_1cbbeac198b5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOC5uvNeic0f41YJ7xkr0mGuWsQy37Wr4fQIyg9qicBdXAxxqf6hAZ46UEJayS2Z1YkiavTYsibZNtK2MKykSG0vobtLvKyvDcjAhY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_107_a27fcdcf53bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOnkg9UfpGuaxBNicavWbjra5ibhPcPFw6gfS7g635tzV6tdLdj1P5HibDrfhvj2SoEDfFhrG4GoNRHUxepGXiak2FszOsfQkYPg2E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_108_afa5deca72cd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOCK8bLsbHr6zlkoQX4awEHjlibgkEhTT3NaULj7Fe5tvshCBL5epK4YTLgibYz9eEao3qFO7TzZsbLnC4IO3B0esvIjXmXaNIicE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_109_c50bdc3d6dcb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM92v5ibAatLSWkN3Yc7MjkdQiaqJCQpdmk36QYo6xN14ZLUn4ZG4pFwZGBHmrxhVMqfL6GQZpjYG5vUheTxTCYbTlE9p3DTXQOo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_110_86dbe66249bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOQVUJgwGPwbmHO9xk9RAlsBAveYNOz5loEF7mm0LBR2YzvZzkiaRUrV78SaPsHTFNZGBKp3lH6OVUMr5T7vQJsRODZ2PBOXpYk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_111_672620505cae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP1rTZxsnLCesUODFWkoWrylDHJOopC1wUZT7B5X0icrsyACC6esTUbekMibnad62bJgBbMb7YgSh7Da3B7OJUOBtnyNIrFsuauQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_112_3335ac795120.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOyRFp0YyibuJ2NRDx1ZUjBNg6PSWsqUl5iak1LXPnia84gPhbgIo5HdhQXxZjOzck9AujmwG2S0ozrrHy8D7vZ3uSyxR7EU0KTYI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_113_26369294f344.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOOibLiaDz5ibHjhWS4DOagk8gOdaKlBfhZJArRbXxhZvnoNPXzohYJGrwRTibrJ3pnUkdibJJFMZyl0Dv7XjCKodYnc28S3eT2BR3M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_114_d16e20911c9b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOVvMee0jtd1A3ibIvCTfPxibBqv0VwRCicEyEJzDImxpqicNicSyogXnjXd5V1XmiblYPQobTWN5ToY8tDEgUPpt5nicgib7NNMPgT3icE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_115_a85eb7e3581a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4YGoMXBVXiaCvMSZ3ric9PZjvLl4HzAYUrbRia44HVvChvhy31u3jgic8Ef2YZ5WHvgJbSLXKB1w23vSHpSunBtq95T4JXHQ5bDE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_116_f8aa70d67bfc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMAfLQicH8JgicPCDddelpdPWSXicw2D2GcLicY4wtNeZWEWkGxIGwD3Ard921q1LU9VAPGlgklIC7rThqA8Xx4Wib5KQp6pKeV5Xnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_117_c881199bed6f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO1FreiaWDQnsr3z5ibwWaCtFsOibjaRqZRsy5YKF7fEPotrmjSDcHC7ZscxOYJsvSdVMYmKymJPBKt3ianc08E5w19pZ209ySByDE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_118_8477a77a26cc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNHjWu0xr0iaM7icyDQACvkXGw8sbHiahL7nFwIDdtrY6LYhE55xtibQN8ibhGZp1SCicRzhjKW9dtIMk3OR0mowJjh5H8l3iaJtXbj3Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_119_d90c10b1c4c6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNTaGykdgvAZXWhhz45lKZLibAYI8awzWYs0iahERLnicg9prGWsfXkelV3icNLWQzuv3RJkCyO3XDfGZTXKQ24Deg8LI1WIQsGsIM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_120_7c1ef78c14ee.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNPGCKMMWdcxosZTCwcuzhJ4NGugPAOHFhdWS4XVPTGwhblkJxOyLCNVXR5krJIQCKCibEI8eumicibQJhPYMRLvGpL14Vaqfj7v4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_121_16fae2ed5736.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOBOzZtXr8gZPlEUcibqqzMFRuTeiaBL5VdPGicuQRsdNUT1c9MlUm4kKBmdfnSjEibGeOMoat2D2nhsU32Ip3U38TXJWvzfCp9ibdY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_122_e5f21d711abb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN0VDOBU0HakVTmlIu4tgibHicIdJxVTX2plo4PBB0YjibLPLkJDIdRhYrYWLp2nufmYUtdqstflLbmN5tsRnCITo2vd2bmFh7Sqo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_123_3ce99f3256cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNAwghAFRqhXptZibOickg4TwvqURZicdVMAvfLtRbfORWO8ftkIw5BovKfGqBRKlJEqQuOHhDww67drWXjT5ksFS2z0nlKLHSTcI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_124_ef39e6cfda76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNtVXbYLmoYzgibPlibicdK0s5udjIicytuGbWxJ5ry9nL284vZic2AtOIPl3q3XKRaceX8vDtUicQ3wHlbUp9ocCVLwjOhAqKIIAcVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_125_6b2e5be13e67.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNjP0rQsC0bR2DBhQRGCpryGzn3ibNQqcZYGtypZ7m3BOsO9RpF9FO4VhUfj3RDUAUAwFYOEpjyvYa0ebcoDwNpxU8gMUxFasY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_126_e1bc7b003afd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO3j9IPTpyuw6nackjiatZosmz5iaTnfQb7ZPnbTkFGcYfXQ0InKy9U2YEAMvqcnh4RywDxrPdiaDH4sI70HqdWlzRxVH3mb6JlbY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_127_1441de1b6c44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNXBLQful7TniccJxjwpMwYdxeSgZ6Cvxa9MKO1vfe6MVeVgC2qQzqQ3LlicV3iauO6YKMyRhzXbAsabEqSw3uTHrNA19gL4ojndE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_128_876c6dced6c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRiaHLL50PjXMZiaz2xMm8S5nMxToXVGzxYyxO8DQx7CkApgvGwaias3ic6M6bz3S4tEOWa1eQRL3tu6YLc6RtG82C4eyGQNoRnSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_129_d3beb929fef1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN8V8qsjaoEYZ4n7NibQmialichhqTrtQpdb4Vx6pFPYH4tO9pLBSpwUibVDAMia1gToRsbSenGQS7Vrdcwr0ThiauMm6lxfI5qDPj1k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_130_372a1f2bef70.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPbI60TvVeqE8MtCiaEcpaOyfRrl3yU9xiaupX5ltNatmrybQAqTu2kXVvEQKG1PGmX86bFfSe8gmv1yPac2a4l0jIqWs1JFdCia4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_131_6d5106fa3037.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOwQ5cmPl8fv58eSSanK5Flia0E2t3FToCtkTfvk3Hk6HgH8Ns8kCYtshARHvUxIEPe1JpOqFnVcI55PrXaAHBA7AI8ZuyQDyxk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_132_04ef6080fe19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOib0Xjdvia1a7nBnXRFzxbiaqqJFDqaeKM9Fvae0TlWeomb8fwuspgSDhF7iaOcWhVI7NPqzChNfVXxhUib8txHethohgKUKO37vr8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_133_fb99859d03f5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN6fX2ZtcROmUK2FSDCzXW3LkDwy5M5lj4tItpyoJ247Wnha2zSGa51VmwH6yKzS5Hzxp90aWtSEQTLZUb5WInXE2AhYrcrCmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_134_0dac0535ce54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicWRODutEdn2DOWX7FwxHzIP8NxC6ke0VicsxC4z5FqMApJK4pN7q5Hz33l8rz0ichEMcxScIFomXHQX60aTe5VGOyKo7RO6aCM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_135_97b758011c59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMnudotW2zajb6FRqKhDylQzvX1bTLaml4wGEMbklTibp6ByH1hwuHqdUEQS2MZYtzNxOmldpwkf1gWecIc1D5KlpcYqgvlPf3U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_136_19ff013e96ce.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP8qI2LK2LfBUVRyeLUoVp7dnViaEYg6Ubf0iaKX89M0WG52WdjjaSaFboGIjU1Y4JtooFvYKRG6CbMjeRwlHwwDUWSQrwkfGrwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_137_e818a9904bd3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNps9YqjZ15UzmbUQXILvo6rqJcRFNrKsqxuVicd4wqNmZwfdodaN9NwbS3PUPpBBY6dxHjJZfdicflmuftTwthjU1u9vtH9eRVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_138_81e7af041e51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSmTcLaoapFgtcYFVjJCmHUQR0n0ZR5IxFmR8QBag4cyb0ibXHvK8Ggn7ebxbpd5vTCZvhZdkjVlkue8FicyVYjcKys1paWXEjI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_139_9e123f81371d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOtbrDIy3Znyo3qpLPO7oeHu9FhjwpuEhDRz8bL9aVYIIHsBzCcUicodRDKIHKGMsodwEP5xDH4RCRVI5icM3QYrQmqvHEQicNR74/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_140_9257e38a4a34.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibvgGj68njqCRqt5icd4fsp3QWibqtmJ2uXkQoNrMe5QZ83V64FEG9zAMkhGL8j4DL1yxIibmic0IORiadQu3ibNibIPvrtLicEt60OMs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_141_605894903183.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMYp6l0ber2Bayic4dIxUy7sdBNs2XNAk8AwJamD1pwicqsTEXL4zmPkjnM9HB69XHzelVztAnf5tAShGlwl1WtWf5TsY1szialKM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_142_9e6ecba9d505.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP0xklh7Q3t8h7Fh7A6slADIyNNbOIpIEcu2s2fBnmqTC5dmiatLM1jjfib40I8p8jcgrBcIHenPesnNic0poTibwEHQcLdjHPpa5M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_143_085a41782d5a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7Ypc9q0l8lruXWy6mbXG9QFE4cwF7hmEAfMGAPc6skiciaAFQk7IxzyMWwRPrc0AZyKy5EbMyrVE88wwr5IqZEQcoOXjZMgEAs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_144_71ef9fc09048.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMSwucGSfxiaQHImIVmdlrcros9AoRGsODCQ0iaZT5AbVk3Pmo79ia9GhFyqtSH4VbWeVEr5TS9XM5uxcol9WKicot3PStD7PUsQ3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_145_48029f56b6d5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLN7nE38eHwZ6e9kIJqzXg8aT5R8A8gArXGey3Mz0dNUibLoKqyZrrSbAH0vTrRgRcGLh5f4IyiaXhDyevFjT6qtLwicibofFC8NY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_146_624d9bae521f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOYwYPJfzxNiaO7e7oUICkXjRHiagGC53X9eIn7rF9j9YfEibmD8gYmxqYkUar0kkcc8aJdjexI0v4JkRVMRCeufe6oD1o9TLlcpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_147_77cee4e55cc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO0xzyia8nc5DQSunjjPHSbzH8QrJkfBpfBlXGCKt1ibgE4ItC0NicpB0RNsmk8ErBz6pZVy3mGfJU3QHbP2CicJRuRoHuyW8fnx14/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_148_cc0477c2f45b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOIBZgcKzOcotxLCNnzWjT0anuqAyxHXoqEzszllTehz3sEIfukMHPqSu7icewYOOzib0CXlQibxJz4xlTxl2yPtXR64icib3rRexd8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_149_b3283be3febe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdV2jNlyZFSEMB8yvHib0prBGFUhcGFSicckd1x6rM8qLjpibqMcP1VXb5ic3yoUrvVibwIHRhgynI1KrO7ahqugpLNrTrYBCZQYHU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_150_b0892b4fa5d8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9pmZiaibj55OicllVgPshB2mBgk8a7BsO455FVMEINVlO4tvtNwMs5lSYF2AaCpHgV2qF2emXD5T2PD7o6LHrwyE19ofYicWLSs4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_151_3e552c1e0006.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOLod8pKelxVicsTW1Lo0zNdnkp2CfiavsUBiciaVAaqcdYfmT4kMgZ9HFkFgcxyQv7viavHscbyAtXP9EIF6z8h4vXrmNT56vnOXaM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_152_340eb7932de7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPKkjWCc5Oxx8AXJpzmqciahSxdMvA1xGGVMmNEqEDsgIPK1esNVRTWkpiaic5onEGbdHIibBusErRxGvWGI4NNdhYNZuu2c9icX23Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_153_7ca78b4f3592.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN1VWsklHywyY03ia83CzScOAOU008gEiaAVk0MV0VWmnLoB4odmXLtwQ58BOGFrTapelLsmf0BQDxyjLrOun41ndmzZnsiafVI1E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_154_cd23bc7e96ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNqmrhQ7KKfFZVQxCkc0yibPLDTECjoiclJOr7libJSxj0k0qzQ4bJCiaFVicuAF4W2uafNeMDz2lPeVe2OgWovy2WHaicjcL8FpB7Zg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_155_c5d5b9a927ab.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO0bBGDaoHkyNicZm4EeeS5xic1D6UzrNvuTkWFfHLSsUNNKHuRw2G2ak3s01IKVNzLlcnial0bV3x58cUqLvF5rlPAoXf98iayokQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_156_9d91203eddb5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM1OaRCdv0Uf1d6Ry6P5guXUVoO63PxIz9ibhQXxA2ibKm5Mic5b8d0mlXXNIAibttFT65KLfl7OnILacGOhyCLPEGcyT7O0Btu1L0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_157_65e36f1d6b35.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOrgRgPse6mTEbJuTfpc8wZq6ZcKRam4ibCfJTv2GBdubq6OFncyKRGu2ic8kEIwJ9KEE6xia5jyGgagoXdKCBRJgA62f7UMXstl0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_158_721953159eed.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOECJM01y9pB98vvk6raT9U6sKzC6sCdibDibwFqulGX51OiaJfPnATrOiaK669PDicbDb5piawR6dtnfqYibUXudcxOhg73xP7ia6YpvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_159_e0035c08bb4a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOdYP9qhg1LWV6SbiahnUesyb7IJ4o4IaLZQEVibzC8w6EwOyg0xfQdJ5wNias6bfQN5ss48iacQnDK1LSzSrJwjFRQOnTd6gz4Q6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_160_eeb799670375.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN3gRYG8FU2qAdz9ib2McKWqwFCRBXUGBN7GSrWiarW0LdvOzfEicFGibSIJFJYfJns5cHk3o7zIURDjs55AKcR5E6OIloqPxLyOOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_161_dc2deb34155d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNFX0icEhOY1ePvJ6AITIM8g6NSFRtZXz8dlP9gS0NNls1Z3UibI5ZFuPlEb7ol5UGQMPUmAIfCYALelQdaU3GJ00d0foCeOL7uI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_162_9c3533a37278.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMzFdNiaKBRfVQw4hOqLxS7cYzEbEFaiaYYtXY0uia2FJcCwOsJWqtZiagad5upLicIviaj2UYuRRTx40VuAlqdKpZXjvuvEkutWxcJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_163_6cca7ce0682f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOkk054a39HeO6Lt0ic5omTib9kRIib3ELhDaUj8jialx7awlTSefj9icaX4ohOztS9066aq09EFGIpibyQFdNuuDiaHQsZUpUVQxquZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_164_37d7c181d51f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPJkeicOlsme3n6pDdzyOcarDwGQicuzuem4tdy6raB89yXDW5LYnicYNzqhibTYtd9YkzYVHsDziaFCZ7Dx1niaAGJjVURDEB6E3lz4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_165_5ca57b39ba32.png)
 
 注：文字与图片报告无关
 
@@ -538,14 +538,14 @@ SST 要**高频、高效、高温度、高电压**，硅 IGBT 做不到：
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMhaeiaZctAYl6HhRp0vRZjzHjMkKiaibV54C8WFicDia6kMY7aBjheQfxaXIk8bId2aKHxINYbOC0BKDW40uHrv5YibY2v3wfSibj2K4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_166_c2f6f7ffca48.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMMmlmtKSfxG46rOCZJQwhSESBHWCcY1nulAqfgr8UQJRog4RnbDheRzz5gnyJE0pjrdOsrrJkibFibA9w49DIB2zQ0qs23Crq3g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_167_c996820ccd6c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOibbSOVbZkK3DCH35UBQftibrTXnLHNcGo1MoOpg6iay77kibhxPnm79Wm6XbScyTWbPoG6nSWDUPQHJVeRN6CDlVFiakDFWFuvq9s/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_168_7800818398da.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMZHCqLhpblAlEBhUOwFLnm7ba9J8KdDyVicBrY4Vg7ADVsSgOLOLSHI5bQlZVC8TcCfIRbRbM25iahlaK6N3h4JlK9czbrlyIK4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\牵引变流器和智能电网应用中的固态变压器(SST)概念_images\img_169_4768779b391c.jpg)

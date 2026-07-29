@@ -8,13 +8,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyKwia5aDfUiaACQ06yKJVVSwsC1vckxHGlV83X01RjQjU64MenC3636FA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线防护电路_images\img_002_c047b0406449.png)
 
 正向工作通路
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyNLTtLl4AX1WGnK9Qia7QGUEntXbQqjvvQW7pYxARHqdnljaZkwAh5aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线防护电路_images\img_003_8221b70ca996.png)
 
 负向工作通路
 
@@ -22,7 +22,7 @@
 
 差模浪涌防护电路工作通路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyJZO1jfXVVI8UOFMH5tp74RZoqSB596FWX1HMncWKfzOsiblC5sGLN7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线防护电路_images\img_004_914d703e052f.png)
 
 正向共模工作通路（负向与此类似）
 
@@ -52,7 +52,7 @@ CAN总线的辐射问题实际上是数字电路问题（它的差分信号传�
 
 当然靠近通信线端口的走线串入磁珠也是业界解决数据线辐射的一个成熟做法，这在后续的模块开发中也值得进行相关的尝试。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线防护电路_images\img_005_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线防护电路_images\img_006_d5dcc7ecfdf3.jpg)
 
 ## 
 

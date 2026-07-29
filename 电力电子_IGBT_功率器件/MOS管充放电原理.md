@@ -8,7 +8,7 @@
 
 MOS管本身有Cgs，Cgd，Cds寄生电容，这是由制作工艺决定的。MOS管的开通和关断其实就是对Cgs充放电的过程。开启时通过栅极R1电阻对Cgs充电，充电时间常数=R1\*Cgs。所以R1较大的话，时间常数就大了。这样如果开关频率很高的话，在脉宽的时间内管子很可能无法正常导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0IbpkQ13uS1f1xPB0d71x5zDSBwUZXUcWib9sh0HjoRPK82GibCaP045GqU7w/640?wx_fmt=jpeg)
+![](MOS管充放电原理_images/img_000_75e5e1405be0.jpg)
 
 一般用方波来驱动MOS管，由于Cgs的电容效应，驱动波形发生畸变，如上图。所以gs波形的上升沿和下降沿会变缓，有时会产生振荡，所以在布板的时候，驱动环路一定要短，驱动芯片周围尽可能敷铜用地包起来，防止产生不必要的干扰。
 
@@ -18,7 +18,7 @@ MOS管本身有Cgs，Cgd，Cds寄生电容，这是由制作工艺决定的。MO
 
 为了快速开通和关断，提供以下两种电路作为参考:
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0IbpkjibAOIURVIXBbgwibEXYvA7TDnE4IKJuMxma2sWAepIeb4OYePVV980g/640?wx_fmt=jpeg)
+![](MOS管充放电原理_images/img_001_3f89c72f3d55.jpg)
 
 当OUT为高，由于D2反相，只能通过R1向MOS管充电，
 
@@ -32,7 +32,7 @@ R1，R2的值一般在10R左右，可根据测试的驱动波形适当调整参�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0Ibpko4fXeyPfh6TU3FI36HuOLc8IGWq3QXyIjPfPbDEa18DkD4icsCjAmTg/640?wx_fmt=jpeg)
+![](MOS管充放电原理_images/img_002_1a4d2595799c.jpg)
 
   
 
@@ -40,7 +40,7 @@ R1，R2的值一般在10R左右，可根据测试的驱动波形适当调整参�
 
 MOS管gs间必须加一个5-10KΩ的放电电阻，这一点非常重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0IbpkwETuG0j6HsFTialGCcfz4LTxV5j6ZIzHEca1J0BKicBbicia0ybVkNXjsg/640?wx_fmt=jpeg)
+![](MOS管充放电原理_images/img_003_50fb47b27a2d.jpg)
 
 理由有二:
 

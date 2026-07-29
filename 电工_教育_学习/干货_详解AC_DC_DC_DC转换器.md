@@ -20,7 +20,7 @@ AC是大小和极性（方向）随时间呈周期性变化的电流。
 
 电流极性在1秒内的变化次数被称为频率，以Hz为单位表示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiac4U1n0DHYiaBTeSes7BpGibjbv6yCylyJFNAXGcW1qba8h5icxKPzKYfg/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_002_feff1b857f86.png)
 
 **何谓DC**
 
@@ -31,12 +31,12 @@ DC是极性（方向）不随时间变化的电流。
 -   流动极性（方向）和大小皆不随时间变化的电流通常被称为DC。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaPNBsMHPrCPw9uYlx8JiaUFP8FdVxSVJAeVZqdAfIHzN6qOV0q9wcqicQ/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_003_ced38ab169e5.png)
 
 -   流动极性不随时间变化，但大小随时间变化的电流也是DC，通常被称为纹波电流 (Ripple current)。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUia3COBXPTdMGyQ4o9LFvCuYrA80n6m2ghYvXYErNz0xJs1iaZezic9geTA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_004_1a2e154101f6.png)
 
   
 
@@ -62,7 +62,7 @@ AC/DC转换器是指将AC（交流电压）转换成DC（直流电压）的元�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaicORqAWn8V4jxy0RnPt23n8CXwSzWK0W1PAyKwfVlJU2lRuv9Rg3W7Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_005_124a4c4a2626.png)
 
   
 
@@ -86,7 +86,7 @@ AC/DC转换器是指将AC（交流电压）转换成DC（直流电压）的元�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaqBHvyuoKXFlavXCaFpy6iasjvJBdeHWDic8xfwDojJjrhs2hTrpiaCwRg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_006_646fe0aac836.png)
 
   
 
@@ -109,7 +109,7 @@ AC/DC转换有变压器方式和开关方式。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaZHsaxAT7RtXwH8vde2xBBKfeqfbK7e3lyUEySvVZEKt28icZLQyesiag/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_007_1e404d420a1d.png)
 
   
 
@@ -119,7 +119,7 @@ AC/DC转换有变压器方式和开关方式。
 
 下图显示了变压器方式电压波形的变化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUia8EZGgjIJ11kJHRM9MWfWfclGVCHpLz5nXxET4XhjrhKLTpzS0lNgiaw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_008_2ebac785a60b.png)
 
   
 
@@ -130,7 +130,7 @@ AC/DC转换有变压器方式和开关方式。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaAwekSHfzjxVgCpicvbt1JT16AQgYN6NQlRCekEeQ9spV3qBGQU54eaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_009_865037523f45.png)
 
   
 
@@ -144,7 +144,7 @@ AC/DC转换有变压器方式和开关方式。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUia2bYx4LmueCcicu6qV41WffZGJqc4RAX3TMnytDicSiahj2nEM23xNrvNg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_010_6191422c1503.png)
 
   
 
@@ -162,7 +162,7 @@ AC/DC转换有变压器方式和开关方式。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUia9m5c5qGMvTBm2NEB5vZWIibtrspMAulshSJblia7Y9gIkMvehAFRMMVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_011_0f7224d002df.png)
 
   
 
@@ -172,7 +172,7 @@ FB控制电路检测实际输出的该电压值是否达到规定的目标电压
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaYRFX1MNr8L12ibcnbUmWsqoRicialicC6o0YXfu0cTzZDq9LEML2aKRIwg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_012_e7b9ff7387d6.png)
 
   
 
@@ -192,7 +192,7 @@ FB控制电路检测实际输出的该电压值是否达到规定的目标电压
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaWFic98uZHAgrVDS441rWBIyWhNaAAXHNy6LKoCy4tec1icr94nO4Jvew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_013_7ad74020ef83.png)
 
   
 
@@ -237,7 +237,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiasWrRAeVqojKDLYO19JLQb1icnM0PShfY5utnicXxmqRLfWgibqzVEoQfw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_014_6ce4389b2941.png)
 
   
 
@@ -247,7 +247,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiahvicmDK5JvmdgC0hicGlzkzZeiccffTXrb6tnoIr77SwXNR0ic4OVwBOtw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_015_f0d27acdbebb.png)
 
   
 
@@ -276,7 +276,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
 而且，开关稳压器的整流方式有同步整流和非同步整流（二极管整流）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaJcFWhAeTR8zicN00An2EV5Jj2qW207WhRhcK7oHYVibDJKQoeicIVVttQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_016_4772f04060f6.png)
 
   
 
@@ -295,7 +295,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaA3EkqXWodFYoE4oBT6oOpsDA7OPj7xNWxTYtO2Mic128yvqCX1Wq2uA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_017_603f3724316d.png)
 
   
 
@@ -330,9 +330,9 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaSIUG5K74Kj3C5lUxzulZcecBoZqHxW2dIe43EH3ZP0euUp0jcgp4lw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_018_fcafe838cc84.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaIGrs45ib8wGFj9wJnBX60icxs2TQb4xyRMybBQPPEUjX1ZNjibdBfB9Zg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_019_c2fe5bf1d312.png)
 
   
 
@@ -366,7 +366,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiadm9jTDqSkaUm1LLicVImy4F3XQM31WCOZwG0XR1McFjtYMPhiaegGzBw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_020_c260e0b2d64a.png)
 
   
 
@@ -380,7 +380,7 @@ VO=\[ (R1+R2) / R2 \] x VREF
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaxdrCViaOCUI6N13lVzSuXNHsNK2yvLiaqROktqqgwFa8jM1qP0tTY3xQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_021_b9ddcc25cc71.png)
 
   
 
@@ -399,7 +399,7 @@ VO=\[ (R1+R2) / R2 \] x VREF
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaKQYskNUdTZj6IoWD8t8GiacShmw7UVXT7ELjnISRyjaqzhiastn1Qq3g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_022_54c08904a4bc.png)
 
   
 
@@ -409,7 +409,7 @@ VO=\[ (R1+R2) / R2 \] x VREF
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiaQHd1uuAno6bV9pq7xOmtREkulK7C590KTSYYsrQ3PWlaicpCUpUdPAw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_023_5140de85b8e4.png)
 
   
 
@@ -443,7 +443,7 @@ LDO是Low Dropout的缩写，是即使较低的输入输出间电位差也可进
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcdz7lk9D3icAadrd2o38BUiapwpPttow3Xrw4PRPb5R14X7SQYD6IgzeW7tdiakInzqmTxMn67iax2mg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货_详解AC_DC_DC_DC转换器_images\img_024_367c686eaa6d.png)
 
   
 

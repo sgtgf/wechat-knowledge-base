@@ -6,11 +6,11 @@
 
 石油开采是我国重点能源行业，实现安全稳定开采有利于国家建设与社会稳定。随着新一代信息技术的发展，推动了数字油田的建设，未来智慧油田将成为提升油田开发效率、降低成本、提升竞争力的重要发展方向。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89icT6638XCeibMI3paTganKPCA8lBrEfntCEx1zianb8vvAiaPoKz1We2mA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_000_930191259e74.jpg)
 
 大量工业物联网终端以及大数据平台在油田的部署，对物联网数据事件的实时处理与分析优化成为提升成为油田开发效率的重要手段。鉴于产生式推理引擎对人类经验融入的接口比较友好，但是在大量规则集和外部事件时匹配效率低下的问题，本文以提升事件与规则的匹配效率为出发点，通过对事件和规则进行基于Bitmap的编码，提升大数据事件与规则的匹配效率，并针对规则匹配过程中无效数据事件对推理引擎资源的占用问题提出了无效时间分组与处理机制。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89ibU5KgPoS3KdvaUtpOiajTo49AryXDeFMFcWN2fn81ZBqjrf8GnOVx1g/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_001_bd28553e04fc.png)
 
 图1 实时推理引擎架构
 
@@ -22,37 +22,37 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89PlrsldfKgK6QQWD8iaocicsjDRB0JczgiaN38ic6b3onTNFS5ZUMVGdWCw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_002_1cf0bee82010.png)
 
 刘阳 中国科学院沈阳自动化研究所副研究员。主要研究方向为工业物联网数据处理、语义数据处理及智能制造。
 
 E-mail: liuy@sia.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89Woq5nuAFQYYic4Lhb47uN4DmCFIibQzh7wpM4VnU6soOAA1gMbAZFBhQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_003_ca59007959d2.jpg)
 
 张天石 中国科学院沈阳自动化研究所助理研究员. 2013 年获得北京邮电大学自动化学院硕士学位. 主要研究方向为智能优化算法以及工业物联网本体设计.
 
 E-mail: zhangtianshi@sia.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic893duCSB2hTgSRNBIia5c1YcGalvWyjWIuKpquZibjC02d3IMH1b5Pp9tw/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_004_3b3fbe59159e.jpg)
 
 李世超 中国科学院沈阳自动化研究所助理研究员. 2014 年获得东北大学信息学院硕士学位. 主要研究方向为油田优化开采以及智慧油田应用.
 
 E-mail: lishichao@sia.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89cp68ibXdeJcoBJiaIz8nmR1R0syibMiaW66S2ZbYIvNibdwQGumwyC5v53Q/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_005_2916c1a14315.jpg)
 
 佟星 中国科学院沈阳自动化研究所助理研究员. 2012 年获得哈尔滨工业大学计算机学院硕士学位. 主要研究方向为自然语言处理以及工业物联网本体设计. 
 
 E-mail: tongxing@sia.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89dT8Av6Lpc9hjUJdYn3rvGKzicJwMuALyLlk6CQ0Rp67Jl7hIIG1IaGw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_006_7dd5b55a56e1.png)
 
 曾鹏 中国科学院沈阳自动化研究所研究员。主要研究方向为工业无线网络、智能电网及需求响应、工业信息处理。本文通信作者。 
 
 E-mail: zp@sia.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89aYEDGhsPdDnGMrkwtPRTelCvPalyrXeBmj6bwxMoqcVFE99q6KvwIg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_007_24ba42e63850.jpg)
 
 于海斌 中国科学院沈阳自动化研究所研究员. 1997 年获得东北大学控制理论与控制工程专业博士学位. 主要研究方向为自动化控制系统, 先进制造技术和智能电网的基础与应用研究.
 
@@ -74,21 +74,21 @@ E-mail: yhb@sia.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89OpfhMbY6RZVibic25Rr48ZRaBiaT5O968JP91JDfNUFqrLM9iaGsVicuYmQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_008_888777795077.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89JKdBXk57UypibwGg1H5XuQ8FWrQYicRNHfQiaG4ic1nAx61OvPVxl2YjSA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_009_5d50aa86c7f7.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89OpfhMbY6RZVibic25Rr48ZRaBiaT5O968JP91JDfNUFqrLM9iaGsVicuYmQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_012_888777795077.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89L1H9iao2OibXeDUXwC8s9OKiaes3j2BBAdCzJeWfPVrXM1y6f84u6IgWg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_011_e26d79dcb7b7.jpg)
 
 自动化学报服务号
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89OpfhMbY6RZVibic25Rr48ZRaBiaT5O968JP91JDfNUFqrLM9iaGsVicuYmQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_010_888777795077.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89elA8cLlYc673B8l2SJLcr7icfXCI78Q759ZM6owvkkMTftePib2rSnaQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_013_ba3409ddf356.jpg)
 
 自动化学报订阅号
 
@@ -108,6 +108,6 @@ Email: aas@ia.ac.cn（日常咨询和稿件处理）
 
 http://www.aas.net.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44wMARdjJQVEHbb8nDBmic89EEg9RUEByakQVXsB7SpicHw5JDBZicianGCJLRwyIzu8fS0libtibhqGdZw/0?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\_过控30专刊_沈自所于海斌研究员等_基于Bitmap的油水井采注优化实时推理引擎_images\img_014_7fa9b5abbd41.gif)
 
 **▼点击阅读原文**

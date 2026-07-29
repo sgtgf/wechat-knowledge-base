@@ -14,7 +14,7 @@
 
 从硬件的角度看，以太网接口电路主要由MAC（Media Access Control）控制器和物理层接口PHY（Physical Layer，PHY）两大部分构成。如下图所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlfLonTPc8DveUTUNiav5kVGBIPKxmPCSAO0iaOT2dYLSRsFB7QCD4nAXg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_002_5d999a6ff0d1.png)
 
   
 
@@ -27,27 +27,27 @@ DMA控制器通常属于CPU的一部分，用虚线放在这里是为了表示DM
 -   CPU集成MAC与PHY。目前来说并不多见
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlO1033yXLHibdtiaRkXexDDRwndbpkicia3JDTWGzgIPbj74HcVbnheCD2g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_003_e649ed7ce673.png)
 
   
 
 -   CPU集成MAC，PHY采用独立芯片。比较常见
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlVY2ZJNLCopPRzQjianRfiagiaZe3DaowXleJicNl9qoqsxA2JhpJPnKrGg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_004_7182ffa40516.png)
 
   
 
 -   CPU不集成MAC与PHY，MAC与PHY采用集成芯片。比较常见
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUl4ia2se9p2QGpohK9BpwB0WJPApKfJCn5Dd5EuKLLfnzPibQ64nYg1hUA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_005_79e7d259c0a8.png)
 
   
 
 MAC及PHY工作在OSI七层模型的数据链路层和物理层。具体如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUljdhFibIfRTdOjclZhtiau6P19O3aMZ51Ddr1h4Z5ZpJLEHepBI9ibvLAg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_006_f6044da2fe83.png)
 
   
 
@@ -57,7 +57,7 @@ MAC（Media Access Control）即媒体访问控制子层协议。
 
 该部分有两个概念：MAC可以是一个硬件控制器 及 MAC通信以协议。该协议位于OSI七层协议中数据链路层的下半部分，主要负责控制与连接物理层的物理介质。MAC硬件大约就是下面的样子了：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUluN3M2EiaPL4JDSrZO7c8QUic8FryWicZD5X3Is7UP31sGRbPw79hWYJew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_007_0721aa22c1a3.png)
 
   
 
@@ -83,7 +83,7 @@ IP地址和MAC地址之间的关联关系保存在主机系统里面，叫做ARP
 
 以太网MAC芯片的一端接计算机PCI总线，另外一端就接到PHY芯片上，它们之间是通过MII接口链接的。一个MAC的结构图如下图所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlJLW3CbP5wa2QHggIJRh1cPRick5NcLTiawZCwGYrpXtuRicb8k00yvstg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_008_530242219727.png)
 
   
 
@@ -91,7 +91,7 @@ IP地址和MAC地址之间的关联关系保存在主机系统里面，叫做ARP
 
 PHY（（Physical Layer，PHY））是IEEE802.3中定义的一个标准模块，STA（station management entity，管理实体，一般为MAC或CPU）通过SMI（Serial Manage Interface）对PHY的行为、状态进行管理和控制，而具体管理和控制动作是通过读写PHY内部的寄存器实现的。一个PHY的基本结构如下图：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlZOicbQrH0RK2LzU9S8L8FcvARR9iaZxKUxbrJvdOia8FBOACWgMOUskHQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_009_820ae34255da.png)
 
   
 
@@ -105,13 +105,13 @@ IEEE-802.3标准定义了以太网PHY。包括MII/GMII(介质独立接口)子层
 
 MII（Media Independent Interface）即媒体独立接口，MII 接口是 MAC 与 PHY 连接的标准接口。它是 IEEE-802.3 定义的以太网行业标准。MII 接口提供了 MAC 与 PHY 之间、PHY 与 STA（Station Management）之间的互联技术，该接口支持 10Mb/s 与 100Mb/s 的数据传输速率，数据传输的位宽为 4 位。MII 接口如下图所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlKRXREQe0FaYw70P3PD1GKFM5vKHbCI08aRdUzdn4ozK30eJicGXr8Yw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_010_0d0a31be6095.png)
 
   
 
 MII接口主要包括四个部分。一是从MAC层到PHY层的发送数据接口，二是从PHY层到MAC层的接收数据接口，三是从PHY层到MAC层的状态指示信号，四是MAC层和PHY层之间传送控制和状态信息的MDIO接口。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlvfwM6brEvd458Ktk7iasIRRAdySfljvo0ry41tgqD9icchAk4f3EwYMg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_011_e44c98585669.png)
 
   
 
@@ -170,7 +170,7 @@ GMII是千兆网的MII接口，这个也有相应的RGMII接口，表示简化�
 
 同时兼容 MII 所规定的10/100 Mbps工作方式。GMII 接口数据结构符合IEEE以太网标准，该接口定义见 IEEE 802.3-2000。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUl0DD5P3Cx9vj7Ey79YNZObp25riatVYOR2pxZ3SrF53wgdFeTP1ez1FQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_012_ade54594e3b6.png)
 
   
 
@@ -193,13 +193,13 @@ RGMII(Reduced Gigabit Media Independant Interface),精简GMII接口。相对于G
 
 信号定义如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUldqqh34AIlPensuib6SLha50bdMekS42vDJx8dYMJHSXM3cgUhOibia5MQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_013_c02978a4bb21.png)
 
   
 
 虽然RGMII信号线减半，但TXC/RXC时钟仍为125Mhz，为了达到1000Mbit的传输速率，TXD/RXD信号线在时钟上升沿发送接收GMII接口中的TXD\[3:0\]/RXD\[3:0\]，在时钟下降沿发送接收TXD\[7:4\]/RXD\[7:4\],并且信号TX\_CTL反应了TX\_EN和TX\_ER状态，即在TXC上升沿发送TX\_EN,下降沿发送TX\_ER，同样的道理试用于RX\_CTL，下图为发送接收的时序：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlD7oeFI4tZX7xWj6PRnAvibKe7mnB9bfmNt8ZZ9miaPKyPe2uPB9kbATA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_014_86a3447e6e0a.png)
 
   
 
@@ -215,7 +215,7 @@ MDIO接口包括两条线，MDIO和MDC，其中MDIO是双向数据线，而MDC�
 
 MDIO接口只是会在MDC时钟的上升沿进行采样，而并不在意MDC时钟的频率（类似于I2C接口）。如下图所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9sNwsXcN68pyb2yChmKGC8NwWjrjKHUlKhZHj2PqTA9vsDIQnT0CGKsU4FJJT1U6SXvKMaw58pnafMCm51OLQg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_015_eb78994b0458.png)
 
   
 
@@ -253,9 +253,9 @@ http://blog.chinaaet.com/justlxy/p/5100064094
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_016_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_017_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_018_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_019_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_020_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_021_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_022_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_023_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_024_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_025_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_026_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_027_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_028_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_029_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_030_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\以太网PHY_MAC及其通信接口入门_images\img_031_3c93e54afedf.gif)
 
 ## 
 

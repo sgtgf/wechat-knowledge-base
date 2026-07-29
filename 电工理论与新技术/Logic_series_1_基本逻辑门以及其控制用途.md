@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2A-kGCAr1uf-oUIxagoXDA](https://mp.weixin.qq.com/s/2A-kGCAr1uf-oUIxagoXDA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0Zhb8HSrDfXN4zgCkY0icic5frXZHXN9hibL6SZO02XibqkP0EPn8E0AjK6fQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_000_823774792796.png)
 
 ____**★★★**______Logic-1---基本逻辑门______**★★★**____
 
@@ -13,7 +13,7 @@ ___€1.非门___
 
 非门也叫反相器，输入输出互为对立，反映到电平上即输入低电平，输出为高电平，输入高电平，输出则为低电平。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBaic3rD0jHfuYZCcNJjtcQgODTCrMSxiaJ5D38Hqmnucfo5Dpp6bZnvsg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_001_2c754e3eb2a8.png)
 
 **_图1-1：非门_**
 
@@ -25,11 +25,11 @@ ___€2.与门___
 
 2#：如果将其中一个输入保持为高电平，则输出将与另一输入的状态相同。因此，可以将一个输入用作高有效使能，实现对另一输入上的数据流进行门控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBMSWTZJct4Fmum5NV39xuTCpeRicdSsmR9jzMqHemWWhGPpm8yhB4RAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_002_54cfd5f26b62.png)
 
 **_图1-2：与门_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhB56ia5TK6TlZCzcoSckITib3Syr3khQJDeY0m6NsyOOWKpRUj2fYBAFzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_003_9e92d0524102.png)
 
 **_图1-3：与门真值表_**
 
@@ -41,11 +41,11 @@ ___€3.或门___
 
 2#：如果将其中一个输入保持为低电平，则输出将与另一输入的状态相同。因此，可以将一个输入用作低电平有效使能，实现对另一输入上的数据流进行门控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBHq34HGJoa4v69wPPibSXGS6NC0gaJicEM1YsCCJb0TIGYe4p1KbHa4PA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_004_2b45d43830f3.png)
 
 **_图1-4：或门_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBA9IAESYhIgHqV3lB7gbnOnuUasI5gWlf43GlzBEYUCG7UlEA5rPYEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_005_79f952ebf217.png)
 
 **_图1-5：或门真值表_**
 
@@ -57,11 +57,11 @@ ______€4.___与非门___
 
 2#：如果将其中一个输入保持为高电平，则输出将与另一输入的状态反相。这提供了一个低电平有效的门控反相器功能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0ZhiaLKLLyZZ46xQBITVE2W7P5289L0dCRtqwutFjrgpge0tnzAPRE9z7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_006_6cf3283d347a.png)
 
 **_图1-6：与非门_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0Zhj0nibTlaYrqdpdp6ptmVBqqAPVBo1PrlFOmiaaia6pXWFoygxF5KKyDjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_007_a92d7240b8e4.png)
 
 **_图1-7：与非门真值表_**
 
@@ -73,11 +73,11 @@ ___€5.或非门___
 
 2#：如果将其中一个输入保持为低电平，则输出将与另一输入的状态反相。这提供了一个低电平有效的门控反相器功能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBFp5IjDlN3JIPCQYlQfQxouXtqTest8t813o56wujfD7glV9xmwtp1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_008_8ab23302fc67.png)
 
 **_图1-8：或非门_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBF9UVYVG9PPp6Tm8k4UpSr3pRgN2qtBqPBshwqJmfZicnLZKot2fvIPg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_009_b8df638da5f7.png)
 
 **_图1-9：或非门真值表_**
 
@@ -89,11 +89,11 @@ ___€6.异或（XOR)）门___
 
 2#：如果将其中一个输入保持为低电平，则输出将与另一输入的状态相同。如果将其中一个输入保持为高电平，则输出将与另一输入的状态反相。这将提供一个动态控制器件，可使数据流过或对其进行反相。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhB9zkicwv7XDGCI6Oso9elBLgnkmlOfRMt3GD0PeyxAibH6mAED73giavuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_010_01efb69bd9b9.png)
 
 **_图1-10：异或门_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBOTwAYdlOFiaGxib5LJG7yA7G69eplcxZCEVY8D92cMqKdbdyNb13PAibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_011_d87d5f58e917.png)
 
 **_图1-11：异或门真值表_**  
 
@@ -105,11 +105,11 @@ ___€7.异或非(XNOR)门___
 
 2#：如果将其中一个输入保持为高电平，则输出将与另一输入的状态相同。如果将其中一个输入保持为低电平，则输出将与另一输入的状态反相。这将提供一个动态控制器件，可使数据流过或对其进行反相。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBjYwTvaKqj01I51EFke2xlnEibNdBibpbPT5kbAuGDnqhPN78vfiaVhiaNA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_012_47be9c64a77b.png)
 
 **_图1-12：异或非门_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBibkLXpiagic6gZzZ3J7289GuF7faCSkOZfcap57LR4fhotdhC2rUKKgtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Logic_series_1_基本逻辑门以及其控制用途_images\img_013_269f57521b8f.png)
 
 **_图1-13：异或非门真值表_**
 

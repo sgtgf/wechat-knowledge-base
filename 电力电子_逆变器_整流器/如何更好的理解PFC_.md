@@ -26,7 +26,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepjfuhOGOYyIp10W8D1IzZ7VQJfzSwYBPqWh9tV05QMrMknnAfrToPAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_002_ebd6e090f28b.png)
 
 图1
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepgHdhqt0iaVBXryjpsyOevQViaiajkHwuRw4AMsEXwwuhb5VJSZC6yaibgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_003_f13b780467d3.png)
 
 图2
 
@@ -72,7 +72,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepyeia7LuEUPiafx20aiaSc4z8dp7uQ5XMrbVYqgSGaYEfOXibgic8CawBLTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_004_df5b1fe435fc.png)
 
 图3
 
@@ -94,7 +94,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozep51NgJMbCPPCJo7Zo6WoL7I7ibXfujZNvslM0mcVicuzAud1ViaOzeo1fg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_005_cb77c41eaeeb.png)
 
 图4
 
@@ -118,7 +118,7 @@ A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepybryu4pjtl1W0Oicnd8B8VwicrnGeCQSFH8RMaSrC37uVRxQXuOGetVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_006_dbc6ffe7e523.png)
 
 图5
 
@@ -162,7 +162,7 @@ A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepnaCIgdHVFib4TIGrYUJEVYX4iazRatNAWV5Zlr36ibdsUfoEiaRpFUFlfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_007_616ed0f82d9e.png)
 
 图6A                                            B
 
@@ -176,7 +176,7 @@ A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozep0v5TpPDhgh7pe4VhxNHLXibWNAaP8axB6OKCSmmVNUWGpvDJPOqsWIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_008_81dcf5a2a9a4.png)
 
 图7
 
@@ -202,7 +202,7 @@ A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepibsElnibf3siaVmTiaSfyQlpc9nnN3hibjEOpgNqnw3D7m8w6LgFZKQ35EQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_009_d3e1cfa2404d.png)
 
 **图8**
 
@@ -230,7 +230,7 @@ A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepGQiao4kzN5icFWUQmLuHnca7NruNicOxunQIC7wdLicm5zsNX1gzqN33WA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_010_001d4f10d74f.png)
 
 图9
 
@@ -242,7 +242,7 @@ A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepibqJTCTZCLWCIQB7UpfV1Og8CxmsmLUw17SmdVDL6VBtl2HrdXePibpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_011_890e19e12ca6.png)
 
 图10
 
@@ -252,7 +252,7 @@ A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepqsPzaqQ5GHRJFEEadeXM2pfrc1hghS9AVeZYu8yX4slqmGbhhoOPug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\如何更好的理解PFC__images\img_012_60e056f54039.png)
 
 图11
 

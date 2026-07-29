@@ -12,7 +12,7 @@ I²C总线在嵌入式系统中很常见，但最近在一个群（可能是初�
 
 相信很多电子工程师，都是从 EEPROM 通信了解到的I²C总线。其实，I²C总线远不止于 EEPROM 存储器，它也有类似485、SPI等应用场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfcicRjLUhELzkh5icFpHnmibAB02eCiafDOLKm7Flo5DCCsjzJTsicKCNTN92pgguyTia2DvzIuZxm3lULLg/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_002_089d049cced0.png)
 
 EEPROM存储器系统架构图
 
@@ -22,7 +22,7 @@ I²C总线是由飞利浦（Philips）公司开发的一种双向二线制同步
 
 I²C总线在传输数据都是按照bit来传送。SCL为时钟线，SDA为数据线；在SCL时钟线为高电平时，SDA数据线上的电平不允许被修改，SCL时钟线为低电平时，SDA数据线上的电平可为高/低。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfcicRjLUhELzkh5icFpHnmibAB0iaN9ict9Hzic7qia8Y7BkLOuln5LapVKg3ibZRia2Du8E1xNjEJyMyynTbibA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_003_8ba344b79ba3.jpg)
 
 I2C总线的位传输
 
@@ -32,7 +32,7 @@ I2C总线的位传输
 
 **空闲条件：**I²C总线的SDA和SCL两条信号线同时处于高电平时；表示空闲状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfcicRjLUhELzkh5icFpHnmibAB0HuiaZscCtOZJVUQBAQcXS9oDIPJMKf1R0PUPTPt3RV8eBCl1CPUe64A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_004_33ff97a6a51d.png)
 
 ‍起始和停止条件‍
 
@@ -44,7 +44,7 @@ I2C总线的位传输
 
 发送完成后，主机将SDA信号切换为输入模式，等待丛机回应ACK或NAK；再发下一笔数据。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfcicRjLUhELzkh5icFpHnmibAB0QqEap6hb3g7NRKC6nAFKpjMA4y3l5Yic6MEwrcX343Rib1EIpic8tRPng/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_005_3db88d86c251.png)
 
 I2C总线数据传输
 
@@ -54,7 +54,7 @@ I2C总线数据传输
 
 器件地址的D7-D4一般都是被厂家固定了为1111，余下的D3，D2和D1连接到芯片的A2，A1和A0决定；D0为0x00表示写，D0为0x01表示读。大家看例程都是些0xA0和0xA1就是这个原因。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfcicRjLUhELzkh5icFpHnmibAB0rtniamOBuiciaQPTFrfL9zow55OLr9PcI0TmbSoqOTkW2DXeRM3IwQ5rw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_006_94738b3914b8.png)
 
 EEPROM的器件地址
 
@@ -88,7 +88,7 @@ EEPROM的器件地址
 
 6）主机接收到ACK的应答信号后，发送I²C总线停止信号，确保总线处于空闲状态
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfcicRjLUhELzkh5icFpHnmibAB0yqmTibiajXSpibx6GnH2UZqZiatDgnLtOwEIJXjicLeNltX5FrCGLn6kmDQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_007_4e666ef49520.jpg)
 
 主机读/写数据过程
 
@@ -98,7 +98,7 @@ I²C总线在嵌入式应用中非常广泛，基本上所有的电力电子设�
 
 笔者根据自身多年的工作经验，记录下了我对它的理解，如果有写的不对，希望大家能多多指出，今天的I²C总线就先写到这里，希望对大家有帮助。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_008_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\我来捋捋I_C_让小白也能看懂_images\img_009_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/W2zvfzoft843tImvAw4RyA](https://mp.weixin.qq.com/s/W2zvfzoft843tImvAw4RyA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiaurQc4aJ1vJECmV9qwDCOjWeueO8IEXEgIibQeVlG2cEzp4Lq3hiaH7I2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_11_如何选择合适的保险丝_images\img_000_6775822f9b78.png)
 
 _**_★★★_**_Resistor-11---保险丝_**_★★★_**_
 
@@ -13,15 +13,15 @@ __€1._电流保险丝的功率降额/温度降额_
 
 保险丝由于通过的电流和元件电阻所产生的焦耳热而发生熔断。假设电流为I(A)，元件的电阻为R(Ω)，时间为t(s)，则产生的热量Q(J)为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTOj0H682CslWSuBEEPZmoGsE5Fn2TE3QiaFegfXrnXKsDYb4ibu4Mg1ia9Y44uC1IiaWMVMgJWAdtJmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_11_如何选择合适的保险丝_images\img_001_d15643cb841d.png)
 
 这里的关键在于元件的电阻，元件使用金属，金属的电阻温度系数为3000～6000×10-6/K，随着温度升高，电阻值也逐渐增大。也就是说，温度升高后只需更短的时间或更小的电流，即可达到熔断热量。因此，如果使用温度范围高，在使用时需要根据减轻特性曲线（**_图11-1_**）对额定电流进行限制。 另外，根据脉冲、浪涌、冲击电流等电流波形的能量选择最适用的电流保险丝时，经常会使用焦耳热积分值(I2t)。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTOj0H682CslWSuBEEPZmoGvtcoExGYN2Wm5ibwNDOtXYIbOa3TOVDSic8CeJ4TH2ibj3Wrxlv3kJOWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_11_如何选择合适的保险丝_images\img_002_d3ea46096bba.png)
 
 **_图11-1：额定功率-环境温度减轻曲线_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTOj0H682CslWSuBEEPZmoGk8c0BHq8c1TbURg3FaX1DuQCeaWx1oYeCFSvOK0iao3pTkgBo3QkKxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_11_如何选择合适的保险丝_images\img_003_7c634f49b785.png)
 
 **_图11-2：降额曲线_**
 
@@ -41,11 +41,11 @@ _€3.如何选择合适的保险丝_
 
 选择保险丝的步骤有如下两个（**_图11-3_**和**_图11-4_**）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTOj0H682CslWSuBEEPZmoG7iaJVBc7NIhP47VURfvpClwlOcIXsVS1OA3WWsImWwCTT3t6O1ic16hg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_11_如何选择合适的保险丝_images\img_004_96c1f14e0452.png)
 
 **_图11-3：选型步骤1_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTOj0H682CslWSuBEEPZmoGZQ0yukFALNP76jv9Ed1OV8rtCH2Kl02A9shjsueaibfTMhXtAs2ficlg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_11_如何选择合适的保险丝_images\img_005_6ed859801bba.png)
 
 **_图11-4：选型步骤2_**  
 
@@ -85,7 +85,7 @@ _4.参考下面的温度降额_**_表11-1_**_，选择最接近工作温度的�
 
 因此，Ihold(50℃)=Ihold×对应于50℃的倍数=1×0.80=0.8A  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQDKebDXjoPhT7ODM4YxcID6QIIGh6KvFOxzUPZv532yYibhfPG6AKYVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_11_如何选择合适的保险丝_images\img_006_da793b2b6391.png)
 
 **_表11-1：参考环境温度和对应升额/降额倍数表_**
 

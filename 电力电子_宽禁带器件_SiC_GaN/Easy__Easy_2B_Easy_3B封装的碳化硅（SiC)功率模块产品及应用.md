@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMdQ6T5UYbBIeNGe9lnI0ibB1JmxbytLBU0svn32EPgVgcrkHRasYXGysndd9u1wyZmia4AZCMibpzg1rxFaCRWViaqhRcZMl1PxCk/640?wx_fmt=png&from=appmsg)
+![](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_000_e87130ae6a65.png)
 
 Easy 1B模块半桥拓扑图
 
@@ -137,15 +137,15 @@ Easy 1B模块半桥拓扑图
 
 ## 2\. 产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7uQPbcEESCxdq8R6nuTw23Kmh6392NyhdfPj5ibd7YT9HnkicXDzVGzEdIUQZPj6I7qtAk0EyTVntUXMmvQz5BapotOJgftQeg/640?wx_fmt=png&from=appmsg)Easy 2B模块半桥拓扑图
+![](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_001_28504e8866e2.png)Easy 2B模块半桥拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtTQzBC0Mdn34TAmWHOaGIXPSZM5bxicT3ZFfmFtbl2BgDmic1n5BicLnnLGicyewPxR9JFUQU4lz5f0GoLWsic0lueqQBVacYxoFg/640?wx_fmt=png&from=appmsg)Easy 2B模块H桥拓扑图
+![](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_002_26dd3a3a860a.png)Easy 2B模块H桥拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkZicHyK5HkBnnWZ4xhQGTIa833Q5LAUxmRicLNMsKtR17amr6ZCbFpVNgLDmNaORZ4mPhsjrxic7zXfAaMyfSuSicpy6R5zQahtI/640?wx_fmt=png&from=appmsg)Easy 2B模块三相全桥拓扑图
+![](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_003_939282321870.png)Easy 2B模块三相全桥拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM2V6QvvGJhDwG2cExpK3wbJQVoybyPQIJLnCHPxMqiatIsgFYibklSoSjmCEstF5SYiaicAgian1r9xfgl3SJQyibljDGSEL6PtTxIA/640?wx_fmt=png&from=appmsg)Easy 2B模块三电平拓扑图
+![](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_004_41ffac73d0fe.png)Easy 2B模块三电平拓扑图
 
 ##   
 
@@ -244,7 +244,7 @@ Pin-to-Pin 兼容，升级零改板：同封装硅 IGBT 与 SiC MOSFET 可直接
 
 ## 2\. 产品介绍
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMb3sXWSzgwoNKicPSZhYGicqfb4exzEBz8LAsmKgPqbnDeeJYHNcJeRNaWHpJw4GkbVpgjcQTY6nuiafecRPRSz7NlrTJKKiaBicf0/640?wx_fmt=png&from=appmsg)Easy 3B模块I型三电平拓扑图（1200V380A)
+![](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_005_9a826fd49190.png)Easy 3B模块I型三电平拓扑图（1200V380A)
 
   
 
@@ -428,7 +428,7 @@ SiC 器件通用原则：三款模块用 SiC 时，栅极驱动、dv/dt、杂散
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNjYicVic4zS7jm5rmFJIg5UsZiaoic4k6JkiaP5FFbJsVQoWpQdUiayerdMRVPDYob9hmTTppQ0VOibgia5ia81NaQWL2IU1icY7JQNhFe4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_006_c0d24a8cf7e1.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -436,7 +436,7 @@ SiC 器件通用原则：三款模块用 SiC 时，栅极驱动、dv/dt、杂散
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN7m8CcgCiamsibATW0mbC738QvcToL0KyRh8drziajS9KaQmaDEuLb998KZBAzWLq1iansRoc2QjbQO1Qia6ffamJBy9PJcAicaptZU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_007_8f75dc222ca9.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -460,7 +460,7 @@ SiC 器件通用原则：三款模块用 SiC 时，栅极驱动、dv/dt、杂散
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNvZwTwhlo0eNKJHSkViaD38aS0MaUxzJ7xBgUcC0JiboT0PFkrz27XVhcJqiaetxxmteeB0Vp8eVfQgEIhBEnEXicsLZiba6zAAY7w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_008_434e2a336b22.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -508,14 +508,14 @@ SiC 器件通用原则：三款模块用 SiC 时，栅极驱动、dv/dt、杂散
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOcpIszBmPPmK4MZecglrN9iawZWxVvd77X3QJZhvau6XOG5c9XJqR9zZo5JtFEoC6tsvUBaJBTGlibXnsF2icRlaibyqdaY4r02hU/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_009_506b9b73bb32.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNG33x5vzM44yhSSLiaibKja9diaia7OYw6EKc8tbbeHFD56ea4fJsEkPoF5721f9N6OSXu2jzJ3H6ibloeNejkXOuSuXwxYoJZuyMI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_010_f632fcc94266.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPlk37jIhmiaqmhVDcbaE0CiaCQyzKicWOVnPlpgicwqMnMD3Jhibh0F3lfld9zaEgfAQuYqDntxFCdaXOibc2nibwEsPuzMsTvoCgDy0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](Easy__Easy_2B_Easy_3B封装的碳化硅（SiC)功率模块产品及应用_images/img_011_50fa0db90dd1.jpg)

@@ -35,7 +35,7 @@
 
 宽禁带半导体材料是继以Si和GaAs为代表的第一代第二代半导体材料之后,迅速发展起来的第三代新型半导体材料｡SiC作为第三代宽禁带半导体典型代表之一,具备高禁带宽度､高击穿场强､高电子饱和漂移速度､高热导率等优势,可有效突破传统Si基半导体材料的物理极限｡表1选取了典型的三代半导体材料并对比了其材料特性｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAdD7mdZWVlibIwf3xUH4NuM6yfbhMxlDj2JO0uoeTI5npFnqq1QYNf6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_000_bb6616df5c0c.png)
 
  从表1可以看出SiC的禁带宽度是Si的3倍,击穿电场是Si的10倍,电子饱和漂移速度是Si的2倍,热导率是Si的3倍｡车用电力电子功率器件应用SiC材料,可以带来更高的器件耐电压更低的导通电阻､更高的开关频率､更低的的结壳热阻,非常契合车用电驱动单元高功率密度和高效率的技术要求｡
 
@@ -49,7 +49,7 @@
 
 SiC MOSFET可有效降低损耗,但也存在栅极阙值电压小､耐负压能力弱､栅极寄生内阻大的缺点,高频应用存在电磁干扰(EMI)问题,这些都是目前行业面临的技术难点和挑战｡此外,SiC晶锭生长速度慢,衬底技术门槛高,供应商较少,造成了原材料价格高｡由千SiC材料硬度高,芯片外延､栅氧切割和检测难度大,导致芯片良率较低｡高昂的原材料价格和较低的芯片良率也是目前市场无法大规模应用的主要瓶颈｡  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAtzdZbU6ib11aQDPr6KTjyq6icpffqG1SzPo1eKw0N4V76lJY9Rqwjmicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_001_284394a07723.png)
 
   
 
@@ -63,11 +63,11 @@ SiC MOSFET可有效降低损耗,但也存在栅极阙值电压小､耐负压能
 
 本文所述电驱动单元由电机控制器､驱动电机及减速器三部分组成,为“三合一“集成设计｡其爆炸示意图如图2所示｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAbJyvEn5yHE2dEbg6lbdutgfypGNKBDkIOhHGKlhicd5vzXrBP3oOlAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_002_4079be5ad5ed.png)
 
 该方案齿轴采用平行轴同轴布置,结构紧凑,驱动电机绕组采用发卡扁线设计,提升功率密度,电机控制器采用800V高电压平台设计,同时在相同外包络条件下,兼容SiC化基与Si基功率模块｡800V高电压平台的设计不仅能够充分发挥SiC自身材料的耐高压特性,同时也适配超级快充的需求｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAhwjGicriav1N9DdwZlUyWaUXcaSXFb1OhgfNQ57hPrG2xvibEdKAO3JsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_003_2b66b12623f1.png)
 
 SiC基电驱动单元主要参数如表2所示｡
 
@@ -81,13 +81,13 @@ SiC基电驱动单元主要参数如表2所示｡
 
 功率模块作为电机控制器的最关键器件,直接决定整体系统方案｡其器件的选型主要考虑技术参数与封装形式｡其中技术参数与母线电压平台､峰值电流输出能力､反电动势等相关;封装形式主要考虑电驱动单元的尺寸要求及冷却需求｡经分析并考虑与Si基功率模块的可互换性,选用英飞凌SiC MOSFET FS03MR12A6MAlB,该模块集成三相全桥拓扑,耐压值1200V,电流输出可达400A(有效值),自带散热针翅,损耗低,频率高,易千平台化设计｡功率模块封装示意图如图3所示｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAY1icwjRXOVPibeYF26PNQDVJibo9m377RXTib0KrYGCLkzhDmiaV3bgnNyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_004_f07004995fab.png)
 
 2-2-2.  SiC基电机控制器结构设计
 
 电机控制器的结构爆炸图如图4所示,主要包括电路板､SiC功率模块､冷却结构､母线电容､电流传感器､滤波组件及壳体等｡其中控制板与驱动板一体化设计,提高体积利用率并节省接插件和线束,冷却结构可兼容SiC基和Si基功率模块,整体倒扣的方案可充分利用空间,提升电驱动单元的体积利用率｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAulc0oib8Sric8ibcWQCz5CPkicf2kUCxAMSKclNaxYDDqBQPe4ibo57dSkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_005_c0bc15e8c73a.png)
 
   
 
@@ -95,7 +95,7 @@ SiC基电驱动单元主要参数如表2所示｡
 
 SiC MOSFET与Si IGBT应用最显著的差异为其驱动电路不同,SiC MOSFET短路保护响应的要求更快,电压平台从400V提升到800V也对系统提出了更高的电气间隙和爬电距离要求｡本文SiC驱动电路设计系统架构图如图5所示,包括驱动板接口､驱动芯片配置电路､驱动芯片保护电路､驱动电源供电电路以及模拟信号采集电路｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAic7LctO10FhL0m58Hqbk1Z4dGz8AWRVmTufmVwEgKia2gW7Z3pTLQFRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_006_ae620f8257be.png)
 
 驱动板接口部分包含驱动信号输入､故障信号输出､驱动相关数据输入､驱动相关数据输出､使能和复位信号､供电､功率模块温度采样信号输入毋线电压信号输入､绝缘信号输入等｡  
 
@@ -113,7 +113,7 @@ SiC MOSFET与Si IGBT应用最显著的差异为其驱动电路不同,SiC MOSFET�
 
 本文以270kW永磁同步电机(PMSM)进行电磁方案分析｡极槽配合方案为8极72槽,定子槽内6层绕组,硅钢片厚度为0.25mm,以降低电机铁损､提升效率｡转子结构采用“双V"结构,并考虑凸极比来提升磁阻转矩输出,同时转子进行辅助槽设计来降低转矩波动｡驱动电机结构爆炸图及电磁方案设计分别如图6和图7所示｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAyib0qH2VhMOY4QcpZCLZNGYQVeFpjzJnCCaQ83Rw30aeLovNYvLoqMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_007_1d63638654f1.png)
 
 考虑到电压平台升级到800V,设计中采用高耐压漆包线及绝缘纸,结合SiC MOSFET产生的过冲电压,利用局部放电起始电压(PDIV)作为电机绝缘系统的校核参数,选用常温下漆包线和绝缘纸PDIV::::=:1500V的设计来保证电机整体方案的耐压性能｡
 
@@ -125,13 +125,13 @@ SiC MOSFET与Si IGBT应用最显著的差异为其驱动电路不同,SiC MOSFET�
 
 根据所设计的电驱动单元进行台架测试,驱动电机的峰值功率为270kW,峰值扭矩为315N·m｡搭载的台架实物图如图8所示｡减速器作为机械传动机构其效率基本为稳定值,因此本文台架测试重点关注电机控制器及驱动电机二合一(即驱动电机系统)的结果,暂不考虑减速器的影响｡后文中的外特性及效率测试均为驱动电机系统的测试｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaArzKxibKwrfP7MRzUo3Gwz3E5BqjLH99da6KnHibGn5DrZfIVeYb1OULA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_008_c6cc56dbba76.png)
 
 3\-1.  外特性测试
 
 为验证所设计系统的峰值扭矩和峰值功率输出能力,分别在500､600､700､800V下进行台架外特性测试,其中台架设置电机控制器为液冷,驱动电机为油冷,试验时给定电机控制器的冷却水温为65"C,水流扯为10I/min,驱动电机的冷却回油温度为85"C｡图9给出了Si基和SiC基驱动电机系统的外特性曲线｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaA8pnulXhZibWhlwbxiazCUJpFjHLtDTSB2aE0RY4XVcC482yzAic4T0VtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_009_db13bf5862a4.png)
 
 从测试结果可知,SiC基驱动电机系统的峰值输出功率比Si基驱动电机系统的峰值输出功率最大可提升70%｡
 
@@ -141,13 +141,13 @@ SiC MOSFET与Si IGBT应用最显著的差异为其驱动电路不同,SiC MOSFET�
 
 为验证所设计电驱系统的效率,在800V下进行台架效率测试,测试边界条件与上述外特性测试条件保持一致｡图10为Si基和SiC基驱动电机系统效率,其中Si基系统峰值效率达95.8%,SiC基系统峰值效率达96.8%｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaALpYJamNecGUWq5xvP52J4p4CPXuiaiaCshXGiaE0shltcrVXO1SlD0DzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_010_78afa01062b4.png)
 
 3-3.  SiC基与Si基驱动电机系统效率测试对比
 
 为验证SiC与Si对测试的差异影响,本文在保持驱动电机和减速器设计不变的情况下,单独更换SiC电机控制器与Si电机控制器,分别进行台架效率测试｡图11为两者效率差值的MAP｡从图11可知,SiC基驱动电机系统效率高于Si基驱动电机系统,平均效率可提升2%~3%｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskbj3DpQSDzvxHSDCZFsXaAwiceTTFyPadg8KBErur0DIWaXeGvQiaGgfKpWuZ02pZuibfkwicBzpbdcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_011_dbb52eb01072.png)
 
 4\. 结语
 
@@ -155,8 +155,8 @@ SiC MOSFET与Si IGBT应用最显著的差异为其驱动电路不同,SiC MOSFET�
 
 本文通过分析SiC的材料特性的优势,开发了一种基千SiC的车用纯电驱动单元,分别从整休方案､电机控制器方案､驱动电机方案阐述了各子系统设计,最终进行了台架对比测试｡测试结果表明SiC基电驱动单元效率比Si基电驱动单元效率平均可提升2%~3%,且在尺寸不变的情况下,SiC基电驱动单元的输出功率可大幅提升｡SiC基电驱动单元是未来高性能电动汽车的重要应用和发展方向｡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv5ysLdiaW96X2Gc8cElM2j0tVFNnhbkSPYIhDVYbzRz3k0cLT3PdHFWg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_012_6e0d5c49a49c.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv9ibtj9UXrU3X3QeRWc2zECfiaJzSLa0Jdovw5FbjI5QJ8icQcBDPYjFHQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的电动汽车用纯电驱动单元研究_images\img_013_a070b6585631.png)

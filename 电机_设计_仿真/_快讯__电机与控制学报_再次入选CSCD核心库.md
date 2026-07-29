@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/n\_2Mh6i3ZmAuO28A1twJXg](https://mp.weixin.qq.com/s/n_2Mh6i3ZmAuO28A1twJXg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5DgWz9Y59w2Cn8CDiaBLZJzK5mdzRHVicsTUXK0FufWKM8L5sX0rmZiaj1zRHjhKmlavLPsQcrJnSH5iaZG2NdFNyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_快讯__电机与控制学报_再次入选CSCD核心库_images\img_000_fadde1562477.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ufOYOiacXQIAHADiczDMD6Nt2Pp8ZRHsG7eon6mb4pgjRX6vFDwHxANQNichqFFiajQiaAsplA4JQkLRfUymE6BdlrQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_快讯__电机与控制学报_再次入选CSCD核心库_images\img_001_5c3e4426164b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ia93H8OlCZO9Bz6ibo1lbEjsATCB62eN11IJ3icy6n4vXGBZQluYvGt8KRe66ECGHCbRnk1jaiaQSWLWT3rFtza1CQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_快讯__电机与控制学报_再次入选CSCD核心库_images\img_002_8d0b8d543019.gif)
 
 点击上方“电机与控制学报”关注本刊～
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xymIRJpOZo8xXibnicwcFdHSKmDSTEGGFiaLQHAyVibLRxDvIicuvIhn67fqxg6UOKROpLBbDapc8R53f9ZOribxKYtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_快讯__电机与控制学报_再次入选CSCD核心库_images\img_003_4b7629cb2457.png)
 
 近日，中国科学引文数据库（CSCD）2019-2020年来源期刊遴选已完成，《电机与控制学报》再次入选CSCD核心库。
 
@@ -27,11 +27,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ibs5fSPvvx10P79KCwic5HlVcUdNGpc2mhmejoZRr1ibJ0rL5fxUbwjnV3T1fac12iabjdpoKh9tiagNXkJfbvDbOQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_快讯__电机与控制学报_再次入选CSCD核心库_images\img_004_10334bbf4308.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/N5wVPuCjmJSPvNQrVRJozN4h3ZzTtGUp27d4lUG9zicVOpKSTztVHRxstqxVhWjkYcagV1BvVAgs36ib3C1hib9tQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_快讯__电机与控制学报_再次入选CSCD核心库_images\img_005_8bd05e64109c.gif)
 
 **电机与控制学报**
 
@@ -41,4 +41,4 @@ EI Compendex收录期刊
 
 关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKuia7raDTrI9UYib0xeiacbaQLia19kkbanR0ULMcRWeKOeRYAzbjfKDSib8xuMjH9uIFzQZKFXAx5FYw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_快讯__电机与控制学报_再次入选CSCD核心库_images\img_006_0411b24de4b9.jpg)

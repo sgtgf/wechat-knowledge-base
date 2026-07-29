@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/W8jZ97zVBXhCL9KdFMWdXQ](https://mp.weixin.qq.com/s/W8jZ97zVBXhCL9KdFMWdXQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUkMQOnGgS8ib1NiaajYgPZib6Rydwicw5KjJv8MXSicIYHjz8HT71nVwJqrbK4qZ1VMFqxMQXIKvl75Lg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639201&idx=1&sn=c2a0b0235057b8cacf6e35628229a541&chksm=88bc206ebfcba978bd9ca614e5ca40db23c0a168ea336cb9d05c94195f519b7fea151abf65c1&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_001_842d8ae57ba9.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639201&idx=1&sn=c2a0b0235057b8cacf6e35628229a541&chksm=88bc206ebfcba978bd9ca614e5ca40db23c0a168ea336cb9d05c94195f519b7fea151abf65c1&scene=21#wechat_redirect)
 
 **直播时间**：8月24日20:00
 
@@ -17,7 +17,7 @@
 
 研讨会将在微信群开展，采用主讲人视频直播授课的形式，并有互动答疑环节，欢迎大家踊跃报名参加！扫描（长按识别）下方二维码添加西莫会务为微信好友并主动联系说明参会需求，直播开始前一小时截止报名，请大家务必抓紧时间行动哦！以免错过宝贵的学习交流的机会！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWeiahNVw8qVG3Ma4CWuAQ0YebdEnPtKctewIYVe5KyLC4angQEm7RzlBc32VP7CNIWiane75tD5O5A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_002_694c7887ad17.jpg)
 
 如果您想深入学习更多新能源汽车驱动电机仿真方法的专题内容，欢迎参加下月底在上海举办的由谭洪涛老师参与主讲的电机仿真研修班！关于培训内容的详细介绍如下：
 
@@ -127,7 +127,7 @@
 
 新能源汽车驱动电机高级仿真技术培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVsLLo3tNs6An7kLTGJMuYuZxgMf4dxA5EvicGO3HMWHmiaDQsltM8BUL5E4GmLFuCRnHBfyUj3R1Bw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_003_ac192617d8f2.jpg)
 
   
 
@@ -173,14 +173,14 @@
 
 4\. 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVsLLo3tNs6An7kLTGJMuYuG4AuZ2ulRbSTNkOicdpveZW683qmmibcM7Uguia4Njdmia533C4xxtSf9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_004_c2ce7dd61b8a.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_005_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWmlpw4vUa1OuvHzvAKdaWOTZrSoPvd99FwwHy9RVFGr3EBgu2ILznhC1ibibWLRbVDyUib88MWd45Wg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639269&idx=1&sn=6cb7538d69484077023e20576f70b1e4&chksm=88bc20aabfcba9bc62f62fa453c38f78e60bf0b3ae8c55c4c22d60aa0942536e549b3383c572&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWKlSFc9beX1r9vyofdwhw6Kd0eTnOLh1UrXFHWYwuiaUcyueg4DfgLGSwIGCDg5dR0CrP5ibtue3Eg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639504&idx=1&sn=24ea4eea22006f2a6ac99f3841eaac5a&chksm=88bc279fbfcbae89c2d39f9abfc5c12c9240c061796b49a8f4980d32dcba7a9e5367f9bb7ca3&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SjVGCooKxGROHpK5vr7vHtFK5urPw3ZjcibzH9ibXJ5ceytdKhPtiaibfiaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUh5r79PtibQ3e18zHmnWYSqTwFNZvgBibRVl7RJqhaZHb1GwNxUXeR3JYloPZsicEANUqZdEdbhJ9Vw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638555&idx=1&sn=5bb05da205ac86ec3cd0fe98d78f90a7&chksm=88bc23d4bfcbaac26ee0b2bcea4040013bc7c8d1d9d7a7dc55fd79696a5c1b369c56b45550ad&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639508&idx=4&sn=22e8ab2c284e7b8fe2bf343be1d67e37&chksm=88bc279bbfcbae8d473f764a96e045456caf54fb1934eff9fc4558b87c5b605e4e25c65e21e0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_006_e5da65a9e669.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639269&idx=1&sn=6cb7538d69484077023e20576f70b1e4&chksm=88bc20aabfcba9bc62f62fa453c38f78e60bf0b3ae8c55c4c22d60aa0942536e549b3383c572&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_007_59f4a1149aa8.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639504&idx=1&sn=24ea4eea22006f2a6ac99f3841eaac5a&chksm=88bc279fbfcbae89c2d39f9abfc5c12c9240c061796b49a8f4980d32dcba7a9e5367f9bb7ca3&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_008_5dce360821c6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_009_56b575fc7901.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638555&idx=1&sn=5bb05da205ac86ec3cd0fe98d78f90a7&chksm=88bc23d4bfcbaac26ee0b2bcea4040013bc7c8d1d9d7a7dc55fd79696a5c1b369c56b45550ad&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_010_18f5302d1f9a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650639508&idx=4&sn=22e8ab2c284e7b8fe2bf343be1d67e37&chksm=88bc279bbfcbae8d473f764a96e045456caf54fb1934eff9fc4558b87c5b605e4e25c65e21e0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_011_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_012_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_013_3f5511eb92d0.png)
 
 点击**阅读原文**，直达论坛活动贴！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2022R2_功能更新__主讲专家_谭洪涛_images\img_014_d960d0948cf9.gif)

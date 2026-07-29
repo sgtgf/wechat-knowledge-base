@@ -19,11 +19,11 @@
 
 1\.  均温方案设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOlqib7uBg2s8e1tZq1dqTxH0480R1qNJshg2vxw5UdAWT1OzuRH1laDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_000_b2d623fdb569.png)
 
 采用SiC MOSFET双管并联的电机驱动器主回路原理图，如图1所示。采用的是典型的两电平三相逆变桥的拓扑，每一相桥臂的上管和下管均采用2个TO247封装的分立式SiC MOSFET并联，其散热面和SiC MOSFET的漏极高压是等电位的，因此SiC MOSFET与散热器之间须做好绝缘处理。本文采用在SiC MOSFET和散热器之间加陶瓷基片进行绝缘处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapO2yf9WyPyeicmd0C2hiaYUhQdYt15G08oHpQgOq3BYWq2ibPUonCH3RdUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_001_e214d0523a23.png)
 
 常规的均温散热方案是将SiC MOSFET安装在陶瓷基板上，或者安装在导热系数较高的绝缘材料上，一般这种材料的价格非常高，会导致产品市场竞争力不足。而本文采取的散热方案如图2所示，主要由水冷散热器、氧化铝陶瓷基板、均温板和SiC MOSFET组成，其中SiC MOSFET均匀布置在散热器的两侧，且2个并联的SiC MOSFET共用1块均温板。通过采取增加均温板的方案，来减小并联SiC MOSFET的温差，其中均温板的材质为T2Y2紫铜。
 
@@ -31,19 +31,19 @@
 
 在其它条件不变的情况下，仅通过改变均温板的厚度来研究并联SiC MOSFET的温差情况。共采取了五种方案进行对比，均温方案内容及对应的方案编号，如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapO1ZSe4dUDGZ7dhxQk5riaqo9MNicD6MxOJA7FQjQhLaFCn3majF3W2CZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_002_6d45330e922f.png)
 
 根据控制器实际工况，对各均温方案进行散热仿真，其中环境温度为10℃，入水口温度为20℃,冷却液流量为9L/min，单个SiC MOSFET的功耗为37.52W。对各方案进行仿真，其中方案C的仿真温度云图，如图3所示，其热源最高温度为44.24℃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOQyw2k0tTKECHu00jumDTmC1TXTEMzrRExVNBTFZofKrcwbxkVd6SgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_003_6519020c5462.png)
 
 不同均温方案的SiC MOSFET最高温度，如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOSFxUHp6ia55icm0kAG1oaibmypVy6kDicDQ2nJ2EJBNvsGdg5Qoc547zibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_004_679a7d4fb8ee.png)
 
 由图4可知，采用均温板时，随着均温板厚度的增加，SiC MOSFET的最高温度也在增加，但是增加的幅度很小。均温方案B相较均温方案E，最高温度仅增加了0.98℃，其原因是随着均温板厚度的增加，SiC MOSFET到散热器之间的热阻逐渐增大，但因均温板自身的导热率很高，热阻变化也很小,所以温差较小。热阻计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOxIy2y126J4jbibkNa5fDWskibYFS62DcstkdpbvLJnuU2pdYRUz204jQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_005_71a20e391bd4.png)
 
 其中：Rt一热阻；
 
@@ -55,7 +55,7 @@
 
 相比无均温板，有均温板的最高温度增加了约4.9℃，其原因也是导热路径的热阻增大；而导致热阻增大的主要原因是加在均温板和氧化铝陶瓷基板间的导热硅脂的导热率较低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOI3SlZj7E2lFv10YkPcNNp9V259t6wYazksmxhXAFCaMlX1aic1ztq4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_006_5498a59a8603.png)
 
 采用不同均温方案时，仿真得出的驱动器不同桥臂并联SiC MOSFET的最大温差，如图5所示。由图5可知，加入均温板后，并联SiC MOSFET的温差在逐步减小，均温板厚度为2mm时，温差减小了约2K。其原因是均温板的导热率是陶瓷基板的15倍左右，即在图2中X和Y方向的热阻会更小，故增加均温板后，并联器件的温差会更小；且随着均温板厚度的增大，X和Y方向的均温板热阻将进一步减小，所以随着均温板厚度的增加，并联器件的温差也会逐步减小。
 
@@ -63,7 +63,7 @@
 
 根据仿真结果，同时考虑工艺和成本等因素，样机选择方案C。在环境温度为10℃、入水口温度为20℃、流量为9L/min的情况下,对样机进行温升试验，最高温度为42.79℃。其中，并联SiC MOSFET的温差试验结果，如表2所示，最大温差1.83K，均与仿真结果相近，满足要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOSsR0ylC8TOicAf8crITaiaia7dUkibH76vq6lQgUdE7ffhicRMBLNfFCrzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_007_345a4568c7d3.png)
 
 4．结语
 
@@ -71,10 +71,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_008_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_009_a7ecee98ead9.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET的均温设计_images\img_010_9bbc7b9b15a2.png)

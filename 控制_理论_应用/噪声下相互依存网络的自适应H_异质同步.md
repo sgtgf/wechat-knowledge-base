@@ -22,19 +22,19 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c180075_ 
 
 相互依存网络是网络的网络，是近年来复杂网络研究的一个重要内容。不同系统之间的相互依存关系对当今世界经济、政治、文化的发展都产生了极大的影响，同时也极大地影响着人类的生产生活。下面给出了一些常见的相互依存网络系统：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvb9mN5oWNh8TcHqMIjPrUshgcAKGNUU80vSKRNA54JHJW9efxllobew/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_000_e8ac6b0922d0.jpg)
 
 _图1. 互联网-实体行业网_
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRv0FNgzxD4kJtnKdBxkOFtkPx12qNdG9y4ZApOG1qUeWia4QZxJetVFRw/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_001_8c211dfd34d6.jpg)
 
 _图2. 全球政治-经济-贸易网_
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvD5sURSjcXk8ZtQdPfwrWkSISBSH4yDAa0gPjY8hILJbr9CBbj5P3eQ/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_002_52cce6b1af3a.jpg)
 
 _图3. 电力-计算机网_
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvwfiaUia15mdqUrmicicGyERsZEewM3qicnW89M2bzfBRTrNXbM4hF35bQwg/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_003_ceed28ee3a31.jpg)
 
 _图4. 社交关系网_
 
@@ -44,7 +44,7 @@ _图4. 社交关系网_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRv6VrGdEq4nLZCyPo9GORJ7NW9b70IA9Bxd6gddmdlxK6S84NU7GHBfQ/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_004_0d17e5f9eb1b.jpg)
 
 _图5. 交通运输网_
 
@@ -74,7 +74,7 @@ _**采用什么样的控制方法才能使噪声干扰下的网络达到同步�
 
 **_作者简介_**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRv6v7fxCARInePxicAGia88I6v2iajicr47HZzl8PJ3zp1QFLtrR7AWsamag/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_005_8ee9ace5b178.jpg)
 
 **郭天姣**
 
@@ -82,7 +82,7 @@ _**采用什么样的控制方法才能使噪声干扰下的网络达到同步�
 
 E-mail: guotianjiao@wust.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvceDpe1Am5iaezkZgIf06q48AyZBYpfDdV8d1Bw2ibXciaicHKObkmZerYg/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_006_993f2b843c91.jpg)
 
 **涂俐兰**
 
@@ -176,21 +176,21 @@ _CJCR影响因子 2.793_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvd0HNSxYdlA6tCGWpzeiaLF3j1ylWqOUjHs3GcViaDxNlGyfqhdbkTicXw/640?wx_fmt=png)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_007_8dd7b484481a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvKO39qx5XJfhtAibje7ibuelEeYQsrydkUdwq3DffozHd35UjyTdrDuTQ/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_008_e933e230e91b.jpg)
 
 **JAS《自动化学报》（英文版**）   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvd0HNSxYdlA6tCGWpzeiaLF3j1ylWqOUjHs3GcViaDxNlGyfqhdbkTicXw/640?wx_fmt=png)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_009_8dd7b484481a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvXEKlOMPnYKlHDibWVVibVsh4jVmt087jZje38VSMhzGonBP3fibnW8jgA/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_010_7d84402a8133.jpg)
 
 **《自动化学报》服务号** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvd0HNSxYdlA6tCGWpzeiaLF3j1ylWqOUjHs3GcViaDxNlGyfqhdbkTicXw/640?wx_fmt=png)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_011_8dd7b484481a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46Dg623F5mAGdL5gJgLawRvmdffcA1kDcP4u29B9iaJuDQLWdfibZfialWGmjnDr9JqDcRXnlfGYlv8A/640?wx_fmt=jpeg)
+![](噪声下相互依存网络的自适应H_异质同步_images/img_012_66d1be4e2843.jpg)
 
 **《自动化学报》订阅号** 
 

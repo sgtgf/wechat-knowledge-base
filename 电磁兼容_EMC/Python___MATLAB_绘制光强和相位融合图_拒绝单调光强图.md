@@ -11,7 +11,7 @@
 
 * * *
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpVAiabSo0oODlm1qcQZayiamySbiby5IFbgEaj58XdV09baNcvuiciatjUEAR15xLg918iaHlISib9nia6oEw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制光强和相位融合图_拒绝单调光强图_images\img_000_d1302df092ce.jpg)
 
 图 1  放张大家可能比较熟悉的图
 
@@ -38,9 +38,9 @@
 function plot_vortex_phase_intensity()
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpVAiabSo0oODlm1qcQZayiamyp7D1VShDqvQ4SiaBjDM43rKhS6ZBGiaLVmuaugwGqH2uunseapH6Pbyw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制光强和相位融合图_拒绝单调光强图_images\img_001_c99c409bcf8a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpVAiabSo0oODlm1qcQZayiamyR2n8x8pz61BFTaNMEnzZbgUq7gJ2XGRHxq9MiaE9Xia1PEtrniaZDVWXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制光强和相位融合图_拒绝单调光强图_images\img_002_a9a9c6638346.jpg)
 
 * * *
 
@@ -50,6 +50,6 @@ function plot_vortex_phase_intensity()
 import numpy as np
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpVAiabSo0oODlm1qcQZayiamyEJ2HKhsic9sibDuMbc7ZEgyNNZe4wcBC5ww94xbXLY4OD9ysgKnW9xXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制光强和相位融合图_拒绝单调光强图_images\img_003_07715dd83608.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpVAiabSo0oODlm1qcQZayiamy5LrxeO8P2u3t6AgTwk1ROaXQBC60AFUNFTribwvFVIx5TESf5Qgr50A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制光强和相位融合图_拒绝单调光强图_images\img_004_d0f92a9ab9e0.jpg)

@@ -46,11 +46,11 @@ _(注：具体的常数系数，如是否带有 ，取决于你所采用的傅�
 
 为了更直观地感受这种不变性，下方的图片演示了调整时域信号的参数时，积分变化的结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocusBSFO4icYPn30E16Rz85UVRabUY8fcDxgSxydD4xFeTwYqlMq5PXMn4TPnMdpjWCY1icq25n69wSu2OFibQpCzSBwC6bPCztGm4/640?wx_fmt=png&from=appmsg)
+![](普朗歇尔定理_(Plancherel_Theorem)__数学世界中的_能量守恒__images/img_000_666d6e228b3d.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocs5GDMsZya97LIpSXicv7tbhECLPtv1OxDicJDU0Q2sBAia043wRp6G9LgASTtfJM7P75D7IASbksLDZiaiayPpHoKMJaiaY6ScN36CI/640?wx_fmt=png&from=appmsg)
+![](普朗歇尔定理_(Plancherel_Theorem)__数学世界中的_能量守恒__images/img_001_70ffbd684c0b.png)
 
 * * *
 
@@ -64,7 +64,7 @@ _(注：具体的常数系数，如是否带有 ，取决于你所采用的傅�
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvqajFCMayUpib4MicueeEnMeO2ox95YquljtibCr2mJBC0XiadDweu2NMKyxK10Sqj2ZXVmtk0pdDaanfGxvH1W3Q8XEwY4x3KfQI/640?wx_fmt=png&from=appmsg)
+![](普朗歇尔定理_(Plancherel_Theorem)__数学世界中的_能量守恒__images/img_002_addb51ca06e7.png)
 
 这张图其实是在讲一个非常重要、但也很优美的结论：
 
@@ -114,7 +114,7 @@ _(注：具体的常数系数，如是否带有 ，取决于你所采用的傅�
 
 # 二、第 1 部分：最直观的意思——能量没有丢
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctRkA4qRs06g1kLODu1Zb5TbuicGjHmRlCz4wOmBRLjIqzHvaWJpvicJNcpfz2vW2kxZ331h3k58kNA48D0JMTZakibjiaxf4BMKZo/640?wx_fmt=png&from=appmsg)
+![](普朗歇尔定理_(Plancherel_Theorem)__数学世界中的_能量守恒__images/img_003_a8e120760270.png)
 
 图左上写的是：
 
@@ -220,7 +220,7 @@ _(注：具体的常数系数，如是否带有 ，取决于你所采用的傅�
 
 如果对范数不熟，请先阅读：[p-范数——衡量向量“长度”的标尺。](https://mp.weixin.qq.com/s?__biz=MzkzODgwODczMw==&mid=2247537905&idx=1&sn=29124400fc5b343ef905bd118d2fad4b&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctyOqCFq7ABHL2qfKDicHbCbX8R2ukFj6qOx5VkjYRc8KQMnwrhr28WohcuonxkXaSPItzvjDqMo8PXiaUyuibhvibD0I6b64auibh8/640?wx_fmt=png&from=appmsg)
+![](普朗歇尔定理_(Plancherel_Theorem)__数学世界中的_能量守恒__images/img_004_c2c5157b62ad.png)
 
 图右上给出的是正式版本：
 
@@ -282,7 +282,7 @@ _(注：具体的常数系数，如是否带有 ，取决于你所采用的傅�
 
 # 四、第 3 部分：泛函分析视角——傅里叶变换像“完美旋转”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocs8eouxSbc6eFibRPbSeH1txP9ic3N6OnNgLYR7N1ib4NKBaJ9s3fEbMQ1jjAwEp2iavf1tBLCozBqch0Tfz61dVurlofX9XuH5tq4/640?wx_fmt=png&from=appmsg)
+![](普朗歇尔定理_(Plancherel_Theorem)__数学世界中的_能量守恒__images/img_005_59c2967a4465.png)
 
 图左下最关键的一句话是：
 
@@ -379,7 +379,7 @@ _(注：具体的常数系数，如是否带有 ，取决于你所采用的傅�
 
 # 五、第 4 部分：证明逻辑——为什么数学上能严格成立？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocutJ4B9tl5gmY4YhYzA8PiaRIoLLSic8S7K2dNg4ZQoxFbDdQItsoiaVeibOn4Fpcrx5nbqcp6tswvB1yAaOib22AOLW2z74h3OH0K8/640?wx_fmt=png&from=appmsg)
+![](普朗歇尔定理_(Plancherel_Theorem)__数学世界中的_能量守恒__images/img_006_dc8b815f6038.png)
 
 图右下讲的是证明的标准套路。
 

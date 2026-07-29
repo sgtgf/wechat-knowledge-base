@@ -7,7 +7,7 @@
 
 以eVTOL（电动垂直起降飞行器）为代表的新型航空器成为全球低空经济角逐的焦点，有望成为万亿级产业新赛道。未来，随着eVTOL的制造和运营成本规模化后，花5分钟、60元“打飞的”的跨城交通新模式，将逐步走进人们的日常生活。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmA5GKic43x14kQ2bJvpujEicn3njDs6kZyHxkjXCLOiclRUbrlVyL8TCibM5jibBTlkvL8kPKzExcNjicw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_000_49d6e1bc618e.png)
 
 一‌. eVTOL飞行器发展趋势
 
@@ -15,19 +15,19 @@
 
 技术创新
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmA5GKic43x14kQ2bJvpujEic9JoJoZb7vV7erssC9pYEMicdhlmmLmLrWzFm9yXiaBxaUrUOCXZqod3A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_001_e673a6359bdf.png)
 
 eVTOL飞行器的核心技术在于其动力系统，主要包括电机和电控系统。由于eVTOL飞行器需要在紧凑的空间内提供强大的动力输出，因此对电机的功率密度要求极高。为了满足这些要求，研发高性能磁性与导电材料、优化电机设计和制造工艺、借助先进仿真技术进行精细化设计以及创新散热技术成为关键。此外，高功率密度电机技术的应用有助于提升飞行器的飞行速度、爬升能力和续航里程等性能指标‌。
 
 市场需求和政策支持
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmA5GKic43x14kQ2bJvpujEicL7kLdLO0GtdPtEQicNyEoeXH4cr8c0f5ibwokIM5j01FQicezlaZRd9Cw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_002_cce690641d3c.jpg)
 
 eVTOL飞行器的市场需求巨大，特别是在城市空中交通（UAM）领域。随着城市交通拥堵问题的加剧，eVTOL飞行器作为一种新型交通工具，能够提供高效、便捷的出行方式。政策方面，2023年12月中央经济工作会议首次将“低空经济”列为战略性新兴产业，随后国家发改委成立了低空经济司，进一步推动了低空经济的发展。各地政府也纷纷出台相关政策，支持eVTOL飞行器的研发和应用，预计到2026年，中国低空经济规模有望突破万亿元‌。
 
 商业化应用和产业链发展
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmA5GKic43x14kQ2bJvpujEicfdkck0K6LyfarnlAfvbmgPPZxCgFWmmMsgQfOhca7RvULiapzeFib8ag/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_003_c5bddc7b4ec1.jpg)
 
 eVTOL飞行器的商业化应用正在加速推进。全球首款具备无人驾驶载人eVTOL完整商业运营资质的公司已经出现，标志着eVTOL飞行器正式迈向商业化运营阶段‌。此外，多家企业如沃飞长空等在技术突破、生态共建和场景落地等方面取得了显著进展，推动了城市空中交通网络的建设‌。产业链方面，低空经济供应链已形成“上游自主突破、中游协同攻关、下游标准引领”的全链条发展格局，以eVTOL和无人机整机制造为核心，产业链呈现技术快速迭代与订单落地的产能扩张态势‌。
 
@@ -112,7 +112,7 @@ DC-DC架构：48V/12V 隔离型转换器，效率 > 96%。
 
 需通过AEC-Q101（器件级）和DO-160（航空级）认证，支持HTRB（高温反偏）测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmA5GKic43x14kQ2bJvpujEicYzRbp4CMfsvklvlxlPYtkIUvH5cC2BX6EcHL7Gg5OlvPGmxMWBaYqw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_004_bd5a832d5b99.png)
 
 四、SiC MOSFET器件产品介绍
 
@@ -120,13 +120,13 @@ DC-DC架构：48V/12V 隔离型转换器，效率 > 96%。
 
 SiC MOSFET的电压：650V-1200V-1700V,电流：5A-150A，封装多样化，插件和贴片封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmA5GKic43x14kQ2bJvpujEicia8czKA8icdQj25H3icOfKMjKXZJnsq5QqvxYtCqm6XcQPmHVofpbskFQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_005_ef07ad884ad6.png)
 
 2.SiC MOSFET模块
 
 SiC MOSFET的电压：650V-1200V-1700V,电流：5A-150A，封装多样化，半桥和三相全桥。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmA5GKic43x14kQ2bJvpujEicJyLiczexagKmueI5OxfkBqfeHFWC7GpyyiaffHrPTEeKekRCRuJBhEyg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_006_5b46beaa07d3.png)
 
 五、总结与建议
 
@@ -134,16 +134,16 @@ SiC MOSFET器件通过效率跃升与轻量化革新，正推动eVTOL从实验�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_007_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_008_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET器件在_eVTOL飞行器的应用及发展趋势_images/img_009_7038903c64cb.png)
 
   
 

@@ -7,13 +7,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNJc46moiaRbNiaNX7UXXF8XpH4YrkLhKn73EQAQEWXrBNGLbskicG5ExzA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_000_bec3a7ee10e6.jpg)
 
   
 
 1\. 瑞萨电子退出碳化硅市场的背景分析
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicN7ERAUSL9Hp7bwVWSUc9mKHRddMmoqTZDApfDVHEZKiadLr7OmQIcqxg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_001_144d91ee8e31.jpg)
 
 2025年5月底，日本半导体巨头瑞萨电子宣布终止其碳化硅(SiC)功率半导体生产计划，解散了位于群马县高崎工厂的SiC芯片生产团队，标志着原定于2025年初投产的项目彻底搁浅。这一决策背后，折射出全球碳化硅产业正在经历的结构性调整与激烈竞争，主要受到三大关键因素的驱动：
 
@@ -31,7 +31,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNbmklaEib8eC7Gjh03sKy58luOaTPe29iah6BllSk5YwrrR9ZleFL4zicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_002_88746405830f.png)
 
 全球碳化硅产业已形成以美欧日为技术引领者、中国为快速追赶者的竞争版图。根据2025年全球碳化硅行业最具发展潜力企业排名，头部企业正通过差异化定位和技术路线构建各自的护城河。
 
@@ -39,7 +39,7 @@
 
 表：全球主要碳化硅厂商竞争布局分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicN9YvGCkcx1knXgUAzObwibUOWgEWc3ecmKcJggGC48EBjUnEDRK2Ir9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_003_f89882fd2a26.png)
 
 美国技术引领路线：以Wolfspeed为核心，其8英寸衬底量产技术可使成本降低30%，在特斯拉供应链中占据核心地位。尽管面临财务压力，公司仍积极推进德国萨尔州200mm器件工厂建设，该工厂作为“欧洲共同利益重大项目”(IPCEI)组成部分，采用创新性可持续发展措施，全面运行后将雇佣超过600名员工。安森美则专注光伏领域，凭借低于同行20%的成本优势占据全球最大光伏SiC供应商地位。
 
@@ -51,7 +51,7 @@
 
 2.2 中国厂商的崛起与全球影响
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNIkKRiboxOHiaeDqOUradT5aEHVAUjc4khP3zicd2CRhvLF5PNXxmKo8QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_004_0dbb0cfbb93f.png)
 
 中国碳化硅企业凭借政策支持和市场优势实现快速突破，正重塑全球供应链格局：
 
@@ -65,13 +65,13 @@
 
 3\. 生产技术难点与挑战
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNq0Tia67ZAuLMMY8gu4iavwC6oTw0b0xb1b46o13LGhRJy8P6upNU4ZcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_005_16d858b65b91.png)
 
 碳化硅器件制造面临从材料特性到工艺技术的多维挑战，这些难点构成了行业的高门槛，也是影响产业化进程的关键因素。
 
 3.1 材料特性带来的基础限制
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNIL7oDVsjetS1ibiaqWxPbmbAEueAGBx3pAcFOFp9P2l3o1vf0bY1REuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_006_8406274d2526.png)
 
 晶体生长瓶颈：SiC晶体需要在2000℃以上高温密闭环境中生长，对温控精度要求极高。硅材料长晶平均仅需3天即可完成，而碳化硅晶棒生长周期长达7天，且产出效率低下——硅晶棒可长至200厘米，而SiC晶棒仅能生长约2厘米。更复杂的是，SiC存在200多种晶体结构，但仅有少数几种(如4H-SiC)适用于半导体材料，需精确控制硅碳比、温度梯度和生长速率等多重参数。
 
@@ -81,7 +81,7 @@
 
 3.2 工艺制造成本与产业化挑战  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNOjwYltZk140BWDZolbbRwEP7Iq2LS8on65xHvmLP81zeteBibhJYPHw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_007_11eaaf130830.jpg)
 
 特殊工艺需求：由于SiC材料特性，传统硅基工艺无法直接迁移：
 
@@ -101,7 +101,7 @@
 
 面对技术和产业化挑战，全球碳化硅行业正从技术路径创新、产业链模式重构、政策协同等多维度寻求突破。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNWAbLurAQRPEkEqfUg8MzeJ8st8wTQ4kBIeicqso05x9ojxVQvpqgUaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_008_7733706e4a08.png)
 
 4.1 技术演进路径  
 
@@ -153,13 +153,13 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkzM4nJZfIC5QgFfribRYKyjbkqtsIt2eIPXkibANybG66UoupfWrOwVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_009_5148264e0d9d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsBrKtVqic7bg0L03u2LcaOD95aUegJVoYxOwib1bEuX4eESgvK7RMrMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_010_b4862f61cfaf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqECTcGj3ia0RmTNR8afGnIARTia9BmzdfiadGhabibhxVeBEaUFZX5aHdCew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球碳化硅产业变局_瑞萨电子放弃碳化硅（SiC）功率半导体背景下的国际竞争格局与技术突破路径_images\img_011_ed358d59c69e.png)

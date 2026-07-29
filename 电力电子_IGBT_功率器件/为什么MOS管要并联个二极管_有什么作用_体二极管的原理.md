@@ -17,15 +17,15 @@ MOS管，是MOSFET的缩写，全拼是Metal-Oxide-Semiconductor Field-Effect Tr
 
 下图是NMOS的示意图，从图中红色框内可以看到，MOS在D、S极之间并联了一个二极管，有人说这个二极管是寄生二极管，有人说是体二极管，究竟哪个说法准确呢？很多同学也非常好奇：为什么要并联这个二极管？是否可以删除呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t7V9cabCogJOKnjehCn7psJNXjYfSzIAHNHABsibfHuy8DhAtsYdGMibK7yPtGuMwdWjibM0vhz4lxYw/640?wx_fmt=png)
+![](为什么MOS管要并联个二极管_有什么作用_体二极管的原理_images/img_000_343bcffcda11.png)
 
 这要从MOS的工艺和结构说起，不管是MOS还是二极管，都是由半导体材料构成，我们都知道二极管是由一对PN结构成，见下图，P型区对应二极管的阳极，N型区对应二极管的负极。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t7V9cabCogJOKnjehCn7psJuicXxLax5vtW0GrEUzxUMzG9TpbEHcHQ0YpaPDX4oFDC2qjeZaicmuEg/640?wx_fmt=png)
+![](为什么MOS管要并联个二极管_有什么作用_体二极管的原理_images/img_001_a457380b1a18.png)
 
 我们回过头看下MOS结构，从下图(1)可以看出，MOS中的氧化物O指的是二氧化硅SiO2，SiO2不导电，所以驱动极G基本不走电流，因此MOS功耗比较低，是电压型驱动器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t7V9cabCogJOKnjehCn7psJjIzvpFKLfZNWliaGBkIHHtSkhBVq8zOZaRqtmlIpjmQWqVLSCCrnZfA/640?wx_fmt=png)
+![](为什么MOS管要并联个二极管_有什么作用_体二极管的原理_images/img_002_182ea259c4c4.png)
 
 从(1)也可以看出，MOS除了D、G、S三个极之外，还有一个Sub极，Sub和S极有连接关系，因此(2)MOS的电路符号中，会将MOS内部指向沟道N沟道的箭头和S极连接在一起（**世界上没有无缘无故的爱也没有无缘无故的恨**）。
 
@@ -37,11 +37,11 @@ MOS管，是MOSFET的缩写，全拼是Metal-Oxide-Semiconductor Field-Effect Tr
 
 那么这个体二极管，有什么用呢？在一些场景下，是不希望有这个二极管的存在，这会使得S极和D极之间有漏电的可能性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t7V9cabCogJOKnjehCn7psJibuKkN7DSUFsQSmz3pTmdlRN5aezadXOSAEKSt3ibibC9iaFPXuheBqibLA/640?wx_fmt=png)
+![](为什么MOS管要并联个二极管_有什么作用_体二极管的原理_images/img_003_fc8b7198f347.png)
 
 **有爱必有恨**，在另一些场景下就是利用这个二极管导电的特性，让系统正常工作。比如以前写过一篇文章：《电池保护1：锂电池过放保护原理UVP》，就有介绍，有的电池保护板，在锂电池过放后，会开启保护功能：关闭放电MOS。当插上充电器后，就利用MOS体二极管，使得电路导通，系统正常工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t7V9cabCogJOKnjehCn7psJ2QowWlgxHYSO8PGNL7DvV2PJxytomy0flPlQItKgcAoV5icEEXys6lw/640?wx_fmt=png)
+![](为什么MOS管要并联个二极管_有什么作用_体二极管的原理_images/img_004_4dcd919951ef.png)
 
 以上就是MOS符号并联二极管的原因，以及使用介绍。
 

@@ -16,7 +16,7 @@
 
 电磁干扰(Electromagnetic Interference)，简称EMI，有传导干扰和辐射干扰两种。传导干扰主要是电子设备产生的干扰信号通过导电介质或公共电源线互相产生干扰；辐射干扰是指电子设备产生的干扰信号通过空间耦合把干扰信号传给另一个电网络或电子设备。为了防止一些电子产品产生的电磁干扰影响或破坏其它电子设备的正常工作，各国政府或一些国际组织都相继提出或制定了一些对电子产品产生电磁干扰有关规章或标准，符合这些规章或标准的产品就可称为具有电磁兼容性EMC(Electromagnetic Compatibility)。电磁兼容性EMC 标准不是恒定不变的，而是天天都在改变，这也是各国政府或经济组织，保护自己利益经常采取的手段。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAYv7k5yFBw0eO3OuvN7ta2moucaicqpVl0FCE4mavtgvJ5wk25KPZaAw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_002_6db9a27cb72e.png)
 
   
 
@@ -89,35 +89,35 @@ EMC基础理论
 
 －电磁干扰的时域与频域描述 :时域特性
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAJR2sMBG680NIowfwA6aGGqnm0X6Lrcaou0jcdZOB0E9AFpCamJEBFg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_003_3756f11df823.jpg)
 
   
 
   
 －电磁干扰的时域与频域描述 :频域特性
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DArGGqCZVoSeic46QyXZ1QPBtBB6bWFtIxALG2WJ4Olhh3cnatawNvWdw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_004_318b5a53c05b.jpg)
 
   
 
   
 －电磁干扰的时域与频域描述 :周期梯形波的
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA8gen5V5r1fzia2yYTu92lg47ibomo9icdbiaoiaUzqoXvMB60K49ic0WrgTA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_005_f68077ae6596.png)
 
   
 
   
 －电磁干扰的时域与频域描述:宽带噪声
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DADlYzoBc1NYTxjX6N6hiaOu9yBoS3DictLSyiaNbkcDMwu8BgLTicoXCzIQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_006_23c2526ec4c3.png)
 
   
 
   
 －电磁干扰的时域与频域描述:时钟与数据噪声
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAbMzkzZSTQu30icN4CbcuPfHiaKrcu9H8fX5B1oYW1ibPAgDtTibhcmMfOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_007_a36080a5547a.png)
 
   
 
@@ -127,7 +127,7 @@ EMC基础理论
 
 定义为两个功率的比：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAnhXbPeOLg0VbWwEgOWdWSLTZIekaNiczpbAwSJsUcQTvbkHTlRm7MNg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_008_d18d7eb12fbf.png)
 
   
 
@@ -157,7 +157,7 @@ EMC基础理论
 
 －电场与磁场
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAz9zCnJFjsIIgkwkW7wCADRmXRiaURSv7tkt9SyticypG4uasDeibR0wMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_009_ab531b88e4e5.png)
 
   
 
@@ -168,7 +168,7 @@ EMC基础理论
 
 \-磁场强度单位：A/m
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA4djBhviae3Vxlzjib9JMlQUckibAzMfyt2qlePTsNFJibmoKHWnNlwFeHQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_010_de6c1cdcbae6.jpg)
 
   
 
@@ -176,14 +176,14 @@ EMC基础理论
 波阻抗：Zo=E/H  
 **1、差模辐射：电流在信号环路中流动产生**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA16RppAd31PbOtSvPj4mcicyQicXYIfnDW4Fw8ADUESJMwkfzsL4oM0NQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_011_1ffb5114b104.png)
 
   
 
   
 **2、共模辐射：由于导体的电位高于参考电位产生**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAkkzLPKORwicCQJ9q1OBTsTVHAOzKGNqSf19sIaayAt0VA5phcKDic81w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_012_db22c104eaad.png)
 
   
 
@@ -191,21 +191,21 @@ EMC基础理论
 
 **3、PCB主要产生差模辐射**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAtwNwal7sTgZrsOueoJCzzRAafpmtvdTn3I3DlBhsksibdjuArJxEnOg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_013_0618ca21d93f.png)
 
   
 
   
 **4、线缆主要产生共模辐射**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAUVnkRaK1Rmmc27iaaMv4frbhXK7Tvxu61aC1JOib6NicsYgBFvV4MleCg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_014_730741088898.png)
 
   
 
   
 **5、差模辐射电场的计算**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA6vFKDNe97EIJ1Y5YPnapibqG4bDaY3UgHmpRuvVlWjOic9TqUvYtLcqg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_015_1578c0e68077.png)
 
   
 
@@ -221,7 +221,7 @@ r :测试点到电流环路的距离(m)
 
 **6、共模辐射电场的计算**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAxQdr8HjQCIG5V5HBB94yTze0oXHSoKjiaEpdPbcSD3rTEjrpMpvBwXw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_016_8fcbfe8274a1.png)
 
 其中 ：
 
@@ -236,7 +236,7 @@ r :测试点到电流环路的距离(m)
 
 **7、屏蔽的基本理论和设计要点**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DABldSbNP8gltB1g7iadwTLNzVjKw363SXTAiaMSMMbGHVYSNA8vMaMXVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_017_7541bf8564a2.jpg)
 
   
 
@@ -265,14 +265,14 @@ EMC设计
 
 **1、通风孔及开口设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DATB4wbeaaw8HZs3YljRb54yf0d11ia00jJCw8fm1RPzNe4udq8yFSN7w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_018_55d469c217d0.jpg)
 
   
 
   
 **2、结构搭接缝屏蔽设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAOG1kk3MErwSq9N4aaSbOlO1Aws4abSBIH7L7f6aY7IoooVPWuK5CxQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_019_3a8a93d2da80.png)
 
   
 
@@ -281,7 +281,7 @@ EMC设计
 
 如果导体从屏蔽体中穿出去，将对屏蔽体的屏蔽效能产生显著的劣化作用。这种穿透比较典型的是电缆从屏蔽体中穿出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAtE5fBNC805ELexqt71uia3Slb8uPZfXLOX2icclICJOcPYnNWnlnfODA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_020_bb7504272ca2.png)
 
   
 
@@ -299,7 +299,7 @@ f、采用光纤出线。由于光纤本身没有金属体，也就不存在电�
 
 **5、不良接地**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAvQJKCH1xTzrCgyGZUphKo4DFQ76ZQxPhibvV9icTjjQPX0UNup9RQ2NA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_021_e36dea979aeb.jpg)
 
   
 
@@ -307,18 +307,18 @@ f、采用光纤出线。由于光纤本身没有金属体，也就不存在电�
 
 **6、屏蔽材料及应用（导电布、簧片、导电橡胶）**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA7yXopoB8RO6nIZickZ4hnkHY9uExL2JIodJ1rBxgZT621Hk6ricUgibWQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_022_41c410f1a25a.jpg)
 
   
 
   
 **7、截止波导通风板**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA1C8RZ5ht3InEibODgGnJVqm7paBiaMKBVzTnZEHVNJj5t7zEXOskVkjw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_023_9682d784ffb5.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAaApQwFQfYNLFqcwFg3ymgRmXlBMDd3giaPVGL6VcQ2UlsoGTsvxMDog/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_024_b697159c2f6b.jpg)
 
   
 
@@ -326,7 +326,7 @@ f、采用光纤出线。由于光纤本身没有金属体，也就不存在电�
 
 **8、良好接地**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DATRiadf8zQwSlSia18tmIRY1EQFckzNQCs19uibjCGU02I1o5x2G5VHGKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_025_5029fa26ac49.png)
 
   
 
@@ -350,7 +350,7 @@ c、防雷接地，为雷击提供电流泄放。
 
 **2、接地提供信号回流**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAAR1QMC2hN4ISuFsBuGmQrKQiaaFhdHY7cqlxwzvW1iarBHITlLFVUNfA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_026_8c36d652fb0d.png)
 
   
 
@@ -360,9 +360,9 @@ c、防雷接地，为雷击提供电流泄放。
 
 适用于工作频率1MHz以下系统
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAK1zVOHiaFAfrB9FCIaiaqqpsdMvYibCSaicNNiay7wO5r5EibDiczgy5RVP4A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_027_6589cd6c95ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA7a697wdzw2ibWtQzJw2EmZwhTI91fZ4PJq0taZyh1ianHmzCPXnHaGibA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_028_c04e1e314c98.png)
 
   
 
@@ -370,7 +370,7 @@ c、防雷接地，为雷击提供电流泄放。
 
 **4、多点接地及混合接地**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAmPgMsicBHhB53ibCF5RVM9gLYqPASIrYdNyMyj3SlOXx5HGFLbticRW2Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_029_a67923aeece9.png)
 
   
 
@@ -398,14 +398,14 @@ c、电阻
 
 **3、基本的滤波形式**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAjJGibmyhoQD8frDCWwvGKxQRpEAPXFLw8LksQUN2FbqzfNyEMCm5gFw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_030_4f1c7bdeb412.png)
 
   
 
   
 **4、差模滤波与共模滤波设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DA9pUy3pvtsibqXXtcHXMiadN01DPkRjFdmjxUlKFtLuibpV46STRT3rDCg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_031_9a9099a08826.png)
 
   
 
@@ -413,9 +413,9 @@ c、电阻
 
 **5、电容和三端电容特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAX6EWYgGibPjejQsBrUleJ9xwRpxUD1LPQCib9Jqr2Tp0v80HrV5Jibp6w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_032_95a464a10676.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAD6ydB4iaOn1f9lZgg9E8OiajmglOFjClvbbrAzIwyUTufOl6sTibzkByg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_033_7eac60435cb8.png)
 
   
 
@@ -423,18 +423,18 @@ c、电阻
 
 **6、共模扼流圈**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAvWXk3BJOCfXjN8wRicCaGPEicTnicWHejSk9XQCpqJS8ft17xeDfVr3TA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_034_e715c8172405.png)
 
   
 
   
 **7、铁氧体磁珠**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAxafE9Q2T3cWN8hvABh4NWC4UFVJtEaV06ZzAdZVezjnibjPagSKGezw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_035_d4f3f288a2f7.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics5SwJ4rbd0ZDn7svSPCP9DAetgEosjlmIpia6ib5TddnMKycL001LTen3TLwvV3nem32YMk7nJcENkA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC基础_images\img_036_3526cc6d6eae.png)
 
   
 

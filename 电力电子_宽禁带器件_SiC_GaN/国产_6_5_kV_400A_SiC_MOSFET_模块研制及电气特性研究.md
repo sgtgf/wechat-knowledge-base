@@ -44,13 +44,13 @@ SiC 芯片的尺寸相比 Si 芯片更为紧凑，带来更高的功率密度的
 
 6.5 kV/400 A SiC MOSFET 功率模块采用自主设计的封装结构和自主研发的 SiC MOSFET 及 SiC SBD 芯片，模块整体由 20 颗 6.5 kV/25 A SiC MOSFET、4 颗 105 V/100 A Si SBD、16 颗 6.5 kV/25 A SiC SBD 并联封装组成。考虑 SiC MOSFET 芯片的工艺成熟度以及尺寸大小与封装特点，本文所研制模块留有一定 SiC MOSFET 芯片电流裕度，从而使得 SiC MOSFET 芯片数量达到 20 颗。本模块使用 Si SBD 与 SiC SBD 两种二极管芯片，其中 Si SBD 与 SiC MOSFET 串联，用以抑制 SiC MOSFET体二极管反向恢复电流过大以及双极退化，SiC SBD 用以模块工作于第三象限的续流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gwSUkpqTvclaUsl0FxkPuxkCkbInAvRIyFice8cO17yN1eHlpdk1IhGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_000_67eaa60ffd9b.png)
 
 模块实物外观如图 1 所示，模块整体尺寸为130 mm × 140 mm × 48 mm，模块外壳为具有高绝缘隔离的塑胶壳体，并在内部灌注有保护和绝缘功能的硅凝胶，端子至端子间的爬电距离为 56 mm，端子至散热底板的爬电距离为 64 mm。
 
 根据电极端子及内部电气连接，可将模块等效为两个 6.5 kV/200 A SiC MOSFET 器件并行布置，左右部分记为 MOSFET1 与 MOSFET2，两部分共用栅极端子 G 与开尔文源极端子 KS。MOSFET1与 MOSFET2 均由 10 颗 SiC MOSFET、2 颗 Si SBD及 8 颗 SiC SBD 构成，其等效电路拓扑如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gU4JTHibic7bu9UsIg1hRWIwwgDPXRQho2vBTBXebU8AKm3S933PFq7bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_001_58f988f86294.png)
 
 MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式，但此方式无法充分发挥 SiC 器件的性能，当模块工作于第三象限时，SiC MOSFET 体二极管与反并联的 SiC SBD 均导通并承载反向电流。由于 SiC MOSFET 存在体二极管双极退化效应，导致器件在第三象限工作时的损耗增大，同时使得 SiC SBD 极低的反向恢复电流优势未得到充分发挥，因此有必要抑制 SiC MOSFET 体二极管的导通。对此，本文设计了如图 2 所示的模块方案。通过将 SiC MOSFET 与 Si SBD 进行串联，以达到抑制 SiC MOSFET 体二极管反向恢复电流过大和双极退化的效果。Si SBD 对 SiC MOSFET第一象限的导通特性影响微小，但其可有效阻断体二极管的导通与反向恢复，提升模块整体性能。
 
@@ -58,7 +58,7 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 模块内部自下到上，依次为散热底板、直接覆铜陶瓷基板(direct bonding copper，DBC)、芯片、键合线、电极、硅凝胶以及外壳。散热底板采用碳化硅铝(AlSiC)材料制成，可提供更高的温度循环能力。模块内部布局如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9geJ9PvRZ642rDsPTzKfibt7k1uIH9CyVvYhhZZcMpaJqYq4HUBgicqXibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_002_55eeb60ec477.png)
 
 模块由 4 块规格完全相同的 DBC 衬板和 2 块辅助 DBC 衬板组成，DBC 衬板采用单层 AlN 陶瓷衬板，根据电极引出需求，正面金属层被划分为多个区域，为方便在驱动回路中引入栅极电阻，栅极引出位置附近设置了多个电阻焊接区，DBC 衬板近似左右对称，如图 3(a)所示。
 
@@ -66,13 +66,13 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 模块电极分为功率回路电极与驱动回路电极两大类，其中功率回路电极分为漏极电极与源极电极，驱动回路电极分为栅极电极及开尔文源电极，具体如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9glgfWCGYV5OXN48swsVicdAxBOJkOae17pnvICGC0ic7JFlw6kC6RPltQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_003_c8b8432baa52.png)
 
 功率回路电极采用宽铜母排设计，提供足够的载流量的同时可降低杂散电感，其结构如图 4(a)所示。功率回路电极具有“S”形结构，可起到缓和、吸收应力的效果。驱动回路电极结构如图 4(b)所示。栅极电极与开尔文源电极按电流反向叠层布置，以降低回路寄生电感。
 
 本模块采用开尔文源结构，实现了功率回路与驱动回路的解耦，保证流经驱动回路的电流微小，同时采用电极按电流反方向叠层布置、多键合线并联等措施减小寄生电感，因此可有效减小开关过程中 di/dt 对驱动电压的干扰，提升器件驱动回路可靠性。各电极均通过超声波键合的方式焊接在衬板上。模块电极端子焊接完成后，其内部结构如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gpk0F2ZdluyQPXaEZbfapeLuM1YFBNGg8SdNIS6Qiby0eaPcQzmT99Yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_004_d8604c677b66.png)
 
 **2. 模块热仿真及寄生电感提取**
 
@@ -80,17 +80,17 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 模块热特性是器件长期可靠工作的关键因素，其与芯片布局、封装材料类型、尺寸等参数密切相关。器件结温随 DBC 衬板、AlN 陶瓷层及 AlSiC散热底板厚度的增大而增大，因此对于实际封装选型，在满足电气绝缘和强度等方面要求的前提下，较薄的陶瓷层与散热底板有助于模块散热。根据模块电气绝缘、强度及散热需求，设计模块封装材料各参数及尺寸如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gRaURicE7XaajxTXkMicT1SyOVBLUVzWQylOolqLibB85Ymf91Ciaiceia9Rg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_005_56df5a335f0e.png)
 
 为校验器件在高速开关运行工况下的热可靠性和散热能力，对 6.5 kV/400 A SiC MOSFET 模块开展热仿真分析，在 ANSYS 软件中构建 6.5 kV/400 A SiC MOSFET 三维稳态热仿真有限元模型。
 
 电力电子变换器中，模块通常配置为桥式结构，当某一桥臂模块 SiC MOSFET 芯片及其串联的Si SBD 芯片导通时，互补桥臂模块的 SiC SBD 导通，处于续流状态，由于电力电子变换器装置中模块处于高速开关状态，SiC MOSFET 芯片、Si SBD芯片与 SiC SBD 芯片高速交替导通，因此可在热仿真中设置所有芯片均为热源激励，各热源芯片参数如表 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gibKZjBAPyQia6twzOd64FCS9M2927cn1PpHBFhoHYriaibwMogTBIVjkZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_006_f90a5f250b86.png)
 
 关于热仿真散热条件设置，假设材料的热物性参数为不随温度变化的常数。考虑模块在连续运行工况实验及实际装备中采用金属水冷板散热，可认为模块散热底板下方温度维持恒定，在本文热仿真中采用第一类边界条件进行分析，给定模块散热底板下方温度恒定为 40℃，其余方向上由于导热介质为静止空气或硅凝胶，材料热导率远低于内部其他材料，因此在仿真中将其他方向设定为绝热。根据上述仿真条件，得出模块热仿真结果如图 6、7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gB10LxCJD4wNibWBNicJUXibfGvibIrT1yWZxuFbsSvHCUy4WnKia2KM36xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_007_d642b82388de.png)
 
 由仿真中模块温度分布可知，现有封装材料与结构满足芯片最高耐受结温要求。结温最高处位于SiC MOSFET 芯片，最高结温为 96.6℃，SiC MOSFET 芯片是模块高温运行下的薄弱环节。
 
@@ -100,15 +100,15 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 本文使用基于有限元方法与矩量法的参数提取软件 ANSYS Q3D Extractor 对本模块功率回路寄生电感进行提取。本 SiC MOSFET 模块的开关速度为数百 ns 至数 μs，因此选取的提取频率为 10 MHz。由于模块左右部分结构对称，因此仅对左半部分功率回路寄生电感进行提取，仿真的磁场强度分布如图 8 所示，仿真提取的功率回路寄生电感参数 LDS \=26.5 nH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gBgGX2F6giaBT7JYErmm4nFia9lpwjns43Pp2BZY4DcmwqPmMEec1KJBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_008_5b4e77ffaf5d.png)
 
 采用如图 9 所示阻抗测量系统对本模块功率回路电感 LD1S1及 LD2S2 进行实际测量提取。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gFwTQUkyg6ySn4jKS7d88b0OqpGb6hd4dRLKibv9dKHgmv6kk8lZ7wuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_009_149630d2cf3e.png)
 
 测量仪器为 AGLIENT 4294A 型阻抗分析仪，测量前首先使用标准件对仪器进行短路、开路及负载校准。测量时，使用测量系统依次对模块 D1-S1端口、D2-S2 端口进行测量，阻抗测量结果如图 10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gPBtLpDpRrfechICXicGrMkZoLRx54trJrCN1x2voNedR35iaaRGt1A0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_010_98b4c557ab4e.png)
 
 由图 10 所示模块功率回路阻抗测量图可知，提取模块功率回路寄生电感为 LD1S1 \= 31 nH、LD2S2 \=28.4 nH。考虑仿真未体现芯片内部的寄生电感及实际封装工艺的差异与测量误差，可认为仿真与实测误差在合理范围内，仿真结果与实际测量结果相符。本文所研制模块功率回路寄生电感微小，可有效减小电压过冲，且 LD1S1 与 LD2S2 实测结果仅相差 2.6 nH，模块左右部分封装寄生电感基本一致，有利于并联均流及发挥 SiC MOSFET 器件的快速开关特性。
 
@@ -120,7 +120,7 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 阻断特性可有效表征器件处于关断状态下在第一象限的高电压耐受能力，阻断测量下，栅极与源极短接，漏极逐步施加正偏压。图 11 为本模块所用 SiC MOSFET 芯片在温度 Tj \= 25~175℃，ΔTj \=25℃，Vbr从 0 V 到 6.5 kV 的阻断特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gRItdeibicRMc0IvgIyuaLuTcNMS4XMkR8guKJ8vcujkJv5K0ZGnow8gA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_011_dd99a3542d09.png)
 
 由图 11 可知，芯片在 25℃，阻断电压 Vbr \=6.5 kV 下对应的漏电流 IDSS为 0.394 μA；150℃下，IDSS为 13.4 μA；175℃下，IDSS为 36.6 μA。芯片漏电流与温度呈强相关性，所研制的 6.5 kV/25 A SiC MOSFET 芯片在高温下仍可保持较低的漏电流，因此适用于高温场景，同时模块在实际工况下的使用电压可进一步提高。
 
@@ -128,7 +128,7 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 图 12、13 分别为所研制模块在温度为 25℃、150℃下，栅源电压 VGS \= 10~20 V，ΔVGS \= 2 V 的输出特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9goCqMkB27A8dEguial994GuLfVxvVvOqqFO0tEeSo2gWQaVZhMh87TqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_012_78a2ffb29b61.png)
 
 由图 12 可知，在 25℃、VGS \= 20 V、VDS \= 3.74 V时，器件正向导通电流 IDS 可达 400 A 以上，对应的导通电阻 RDS(on)为 9.3 mΩ。由图 13 可知，在150℃、VGS \= 20 V、VDS \= 8.93 V 时，器件正向导通电流 IDS 达 400 A，对应的模块导通电阻为 RDS(on)为 22.3 mΩ，在同等导通电流下，与室温相比，模块导通电阻增大为 2.4 倍。
 
@@ -140,13 +140,13 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 依据 IEC60747-8 场效应晶体管测量标准，栅源漏电流的测量电路如图 14 所示。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gU0ibyYj58EibpJy62iackNC3x0vY3M8ZlyfN4bfazicKvs2fGibzS93IpFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_013_a14437c713e9.png)
 
 测量过程中将 DS 端子短接，逐步增加驱动电压 VGG\+ 或 VGG−，测量对应驱动电压下的栅源漏电流 IGSS。由于 SiC MOSFET 模块的正反向特性不对称的特点，设置正向驱动电压 VGG\+ = 5~20 V，反向驱动电压 VGG− = 0~−5 V，测量标准规定 IGSS测量值应小于 1%VGS。正向栅源漏电流测量结果如图 15 所示，反向栅源漏电流测量结果如图 16 所示。
 
 由图 15 可知，VGG\+ 从 5~20 V，栅源漏电流均保持在 nA 级别，VGG\+ = 20 V 时，IGSS \= 2 nA。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9geYMeGYYX1ic22Kj66aaYWyXEo5RObLmicQH5IVicHiaRuGTKGJPmwb6eyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_014_7382889121b4.png)
 
 由图 16 可知，VGG− 从 0~−5 V，IGSS均未发生明显变化，当 VGG− = −5 V 时，IGSS \= 1 nA。正反栅源漏电流测量过程中，IGSS均远小于 1%VGS。
 
@@ -154,7 +154,7 @@ MOSFET 模块常规设计方案中采取 MOSFET芯片与 SBD 反并联的方式�
 
 MOSFET 的跨导 gms 定义为漏极电流对栅压的变化率。跨导与器件结构、阈值电压、载流子迁移率等参数密切相关。同时跨导还表征 MOSFET器件的开关速度，器件开关速度与跨导呈正相关性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gUxAfLEb1TFXvQKFwYiayRrEmOMe6ZmuTelResKLKtCCLyYSpPspzUtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_015_e6a94aa7896f.png)
 
 图 17 为 25℃下，漏源电压 VDS \= 20 V，VGS \=0~13.8 V 时，模块的转移特性与跨导曲线。由图可知，模块阈值电压 VGS(th)为 2.9 V 左右，当模块漏源电流 IDS \= 400 A 时，跨导 gms \= 138.77 S。由图中跨导曲线可知，VDS \= 20 V 条件下，VGS \= 2.9~9 V 区间内，器件工作在非饱和区；VGS \> 9 V 时，器件工作在饱和区，此时跨导随 VGS线性变化，与 VDS无关。
 
@@ -162,7 +162,7 @@ MOSFET 的跨导 gms 定义为漏极电流对栅压的变化率。跨导与器�
 
 本文所研制的 SiC 模块整体静态参数测量结果汇总如表 3 所示。为进一步分析模块各静态特性参数水平，本文选取两款 6.5 kV/400 A Si IGBT 模块：三菱电机(Mitsubishi Electric)公司CM400E2G-130H型与英飞凌(Infineon)公司 FZ400R65KE3 型，将其数据手册中的静态特性参数同本模块进行对比，对比结果同在表 3 中呈现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gQ1hRwBAjCZcibKnRXRLZ4aYgdicfdFZxq1vrSiaib7rEnRU8QIKz3mbL4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_016_0727654186d3.png)
 
 由表 3 可知，本文所研制模块在栅极漏电流、截止电流参数上均远小于同电压电流规格的 Si IGBT 模块，具有显著优势。
 
@@ -172,13 +172,13 @@ MOSFET 的跨导 gms 定义为漏极电流对栅压的变化率。跨导与器�
 
 当前，电感钳位双脉冲测量是一种常用且有效的 SiC MOSFET 器件开关特性研究手段，通过此方法可以测得器件开通关断波形，获取开通关断时间、损耗等关键动态参数，并可验证驱动器的相关性能，其参照标准为 IEC60747-8。测量电路图如图 18 所示，下管器件 S2 作为待测器件，上管器件S1 充当续流二极管。测量电路时序及动态参数示意图如图 19 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gt4n8ngq9Ju87r4vjCM6jBribh0SicXPBmmxgdbOd3XBVET5gy40DIFzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_017_e717f01f6531.png)
 
 第一个脉冲 T1 触发一段时间后，下管器件 S2的栅源极电压 VGS2 上升至阈值电压 VGS(th)，器件漏源极电压 VDS下降至通态电压 VDS(on)。
 
 第一脉冲 T1 期间，直流母线电容器中储存的能量通过 S2 给负载电感充电，以建立待测器件所需的测量电流，负载电感电流 IL和器件漏极电流 ID呈线性上升，在第一脉冲结束时刻可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9g9ibo90lCe3ZssIcWEOlmLXAyuQRzE9gWgdiasDaibRLhLic7ptIuiaL53Dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_018_3311a3f43ebc.png)
 
 式中：VDC 为直流母线电压；L 为负载电感值，T1为第一脉冲时长。
 
@@ -190,23 +190,23 @@ T2 时间内，IL 通过 S1 的反并联二极管续流，随后第二脉冲 T3 
 
 由图 20 可知，常温下的开通过程参数在稳态电压电流分别为 3 690 V、418 A 下获取，关断过程参数在稳态电压电流分别为 3 735 V、398 A 下获取。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gSI5hh9J882SZ0ZQu1y1I3aIMOroODnAhG5xibT6dVULd7h8KpbBIArw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_019_029d3e936688.png)
 
 由图 21 可知，高温下的开通过程参数在稳态电压电流分别为 3 682 V、416 A 下获取，关断过程参数在稳态电压电流分别为 3 664 V、407 A 下获取。
 
 动态特性参数汇总如表 4 所示，由表可知，本模块在常温和高温下的上升、下降时间均为百 ns级别，高温下的开关速度较常温略有下降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9glrib5A9IIIsFAaGT2ddlhcRGqXsicbmBiaHFZULrD48XBXadauwkVyRLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_020_1a07c0522cce.png)
 
 模块开通关断损耗 E 如式(2)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gwZs8ev11MkwFsnH4KbkLyzapUicLckQ0Y6aSKCTDqrhmzInjvC5AUcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_021_022b59a87984.png)
 
 式中：对于开通损耗 Eon，t0 为 10%稳态电流时刻，t1 为 10%母线电压时刻；对于关断损耗 Eoff，t0为 10%母线电压时刻，t1为 10%稳态电流时刻损耗。
 
 为进一步说明本模块在开关损耗方面的性能，选取三菱电机 CM400E2G-130H 型及英飞凌FZ400R65KE3 型两款 6.5 kV/400 A Si IGBT 模块与本模块在常温及高温、3 600 V/400 A 条件下进行开关损耗对比，对比结果如图 22 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gjpI8VDhGT4Qnoy3pLPohx96yhJtLK2LQR2wyL6NXIvsJubDD4T8vCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_022_c222d82d9be1.png)
 
 由图可知，在常温下，本模块开通损耗 Eon 较英飞凌公司 Si IGBT 模块减小 64.7%；关断损耗 Eoff较英飞凌公司Si IGBT 模块减小 79.8%。高温下，本模块 Eon 较三菱电机公司 Si IGBT 模块减小 76.2%，较英飞凌公司 Si IGBT 模块减小 79.3%；Eoff 较三菱电机公司Si IGBT 模块减小 83.4%，较英飞凌公司 Si IGBT模块减小 80.1%。
 
@@ -224,13 +224,13 @@ T2 时间内，IL 通过 S1 的反并联二极管续流，随后第二脉冲 T3 
 
 高压 SiC MOSFET 模块连续运行工况实验平台的系统结构图如图 23 所示，实验平台整体由功率回路、测量控制系统及辅助系统 3 部分组成。功率回路包括直流电源、主电路回路；测量控制系统包括示波器、电压电流探头、驱动器、主控板以及上位机；辅助系统包括水冷散热系统、辅助电源等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gH7LuibgBYTE6tvyFxh7yUqNOdIRxwzOTjvd6zMTTw8ObHp6JtE3JwaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_023_550175ad9617.png)
 
 实验平台中，直流电源与主电路间采用叠层母排进行连接，保证连接的可靠性以及满足载流量需求。主控板与上位机和驱动板之间采用光纤进行信号传递，从上位机处即可实现在线更改程序参数。SiC MOSFET 模块与水冷板之间采用螺栓固定，接触面涂抹导热硅脂，确保紧密贴合。水冷系统流速及进出水温度可实时监控。实验平台实物图如图 24所示，平台所用测量设备如表 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gW2MRCW5F9tThnMIMlgkzL4hTB6TvzGu0y0dHkCGW4P2oZ30qn1Iy0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_024_32b33a0245f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9ggaJtS0peAAcXE6W9WiclVUa6niaydxZKkn2M5licUL9sbAbm0xyX8QwgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_025_beab32f50885.png)
 
 **5.2 半桥 SPWM 逆变实验与分析**  
 
@@ -238,15 +238,15 @@ T2 时间内，IL 通过 S1 的反并联二极管续流，随后第二脉冲 T3 
 
 半桥 SPWM 逆变实验可有效模拟器件在实际换流装备下的运行状态，通过连续运行实验，可获取器件在连续开关状态下的波形数据，同时验证控制系统与驱动器的有效性，并检验模块的工程应用能力，半桥 SPWM 逆变实验电路图如图 25 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gfFNgy285pognjHpazuxNDpAvYQ28rnRxMpLz31EWxDJXdFpicClFbeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_026_42a5fc61b652.png)
 
 实验过程中上下模块 S1、S2 分别施加互补的SPWM 驱动信号，上下模块交替导通，同时为防止上下桥臂直通短路，驱动信号设置了死区时间。SPWM 调制原理及上下模块驱动信号图如图 26所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gTRzEE3dZC5Tr2xvHCyyOaxK5dJGbHNgXssLBbWpibxNKTzW4ibKvCmoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_027_2ad22fdab4de.png)
 
 负载电压 vload 的基波计算公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gKjHYHiaSXAeVGuquLcRkeVcJWVgk03WN8B0mGX3RFZu7ojh0CRBe0HQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_028_a28397c25234.png)
 
 式中：vload(1)为负载电压基波分量；mc 为调制比(mc \= Urm/Ucm，Urm为调制波幅值，Ucm为载波幅值)；VDC为直流母线电压。调节调制比 mc即可实现输出电压与电流的调节。
 
@@ -254,7 +254,7 @@ T2 时间内，IL 通过 S1 的反并联二极管续流，随后第二脉冲 T3 
 
 半桥 SPWM 逆变实验运行波形如图 27 所示，负载电压 Vload 为近似等幅的双极性 SPWM 波，波形峰\-峰值为 4 400 V，波形等效为频率 50 Hz 的正弦波。负载电流 Iload 为频率 50 Hz 的正弦波，电流有效值为 180 A，电流峰值为 260 A，总谐波畸变率为 1.78%。由于负载为电感负载，因此负载电压超前电流相位 90°。下管模块 S2 的漏源电压 VDS2 波形为等幅的单极性 SPWM 波，电压幅值为 3 680 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gS7wEAADNODOxvkRkEicqU6jt7N23PYzV6wWstr1D4KpPLxHJGdiavhow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_029_d4ba7f497f95.png)
 
 下管模块的漏极电流 IDS2 波形为半波正弦，电流有效值为 140 A，电流峰值为 280 A。
 
@@ -262,7 +262,7 @@ T2 时间内，IL 通过 S1 的反并联二极管续流，随后第二脉冲 T3 
 
 为判断模块经连续运行工况实验后是否出现器件失效等异常情况，对工况实验后的模块在 25℃下的静态特性进行复测并与工况实验前进行对比，结果如表 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslhhaIYMUQM9px9ClW54y9gIJO7qLPXBIgXriaQmb19tKUTtWYshic8EfQBQ5mUktcj4fKKbGMicbVkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_030_3c5cf78fdf81.png)
 
 由连续运行工况实验前后的静态参数对比可知，工况实验后，所研制的 SiC MOSFET 模块各静态特性参数均维持在合理范围内，器件未出现失效情况。
 
@@ -280,10 +280,10 @@ T2 时间内，IL 通过 S1 的反并联二极管续流，随后第二脉冲 T3 
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_031_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_032_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产_6_5_kV_400A_SiC_MOSFET_模块研制及电气特性研究_images\img_033_84aa944feb13.jpg)

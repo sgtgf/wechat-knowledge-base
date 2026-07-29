@@ -8,103 +8,103 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTrjiaQwpxceeHDB5Y9nlUtE87tyW2KouIMSSRqwZsI1V8CfoNQOfic4lsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_002_2a9e9d3fc95e.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTr1icBtpoz8jwVoGnuiaWrqyuFkfqDfVMxDCIYnx1XUO2icyrLiaGwGvPH2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_003_abc7e5ee19bc.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibQ9HWibUE8iadf6EtTjOHygPkCQVPhOWicXbUGH9YJekAKIzQNY7EweRXg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_004_5d03dc6d19d6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTrQSTEC1oibXrB24ItB4nrSSXbbe1vRDuQ7SQO4S6ITQ1UrB8kJK7icH8g/640?wx_fmt=png&from=appmsg)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTr93weapQCkRK2UmST8R45p8OSKcbiaWjHV9V71uMUeNDFnewYJIMwerg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_005_100fb5cd451a.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibesp86vJy0UdmrPqJZPADchc0n8zj9cwFLic9onz2TZSQ6HU31T6jYiag/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_006_6ac15530b34c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTr8e36a2x2bbKaLkibfCoABcl3A1AP8AwskWH1xDndGBibsDVqoPibqPTdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_007_c9ec8377c94d.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibEXjxbFQ78BticcK5XDluj6rhUR9twcFxGhyVKuEazmpaapPwnsox1YA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_008_4644d68bbaef.png)
 
   
 
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTrUo9wicCyQ1K8adYU71ruG0s1ABic513ibL3OTPpcmSAkicApRWE0oa6ibeg/640?wx_fmt=png&from=appmsg)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTrAV3y2zAhNqB91lIw9IFP9iaLhfBByZerdsicrP4nicfJQyIgLLol6NKxw/640?wx_fmt=png&from=appmsg)
-
-  
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibQ8B4TvWdTgILXicubvVn8k3QOw5u9QZb4ESF1EJRu1hKZa0Z5jPJ7WA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibsHyWphgZzRCLfTBBAq5Ezc8WwicngYrNY5wRiclt30yMXiaicbVx9aAfCg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibC9LPVYlq1TtIQ0rqiaibLkR8hUFpS1LHBxNWRQdiaMiaMzO7yFcvKZ6lbQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTrZXrhFdSia0yicMIBPjbIRlA2R2jhxM01QszuMnsOjxfINzs2PUXEbicmw/640?wx_fmt=png&from=appmsg)
-
-  
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibPAEAL1UFTfqFqNjb2DdJfgMic7XichXwEtlLJomhaLUsQ8KmbnwmklsQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibtiaDD8ibwx16S8bDsmT0UVCR7vtnbNOZGA0wsSbOpj2d7JrorE6iaby1g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTria07eR5XqZt5ayBb6BUavzUIPyW1DzHetT6osxDxibEcuxgSbUMxTXkg/640?wx_fmt=png&from=appmsg)
-
-  
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibQprkmibFqTK8LQEUKg50aTQrPyPW88C3FSsiaKbLTR3icZK3nBSYaNDOA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibkpCOkIcBNj9evFk6ViaVpEMK4C4XibxNz8b57pxxds5gxfnKmelCRL9A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibfRZMreShr3Qib0KIBMVm3HSsVqgZRicypvxLuUKwHuRcsYT3947w3ibuA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibBoibd7vR2lZh7Dz5hrSVdawPYgWKacZiaRr9AHUI54nJWAZuS0nAWGCQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAib6Gj4YA4BfTGt1b10ic1NWibj57CBfhib7HckNLCtoroLE5SMkQHbEfsvA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibuDVewV992O6EA2RNe4PIZ2jDsvoy23nvich0yicBwrianUibcCr060Czww/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAib8MQ4s9UsmSKRqnVL477ujyNQdwq4rKw1LbvsMtfNDHKrUau7UjP9ug/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibXdhx07iattSBWnF0ckAaNce8YjBSOIH6DhicN8nWIomWVXNbJicEfrsxA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTrBniczeGPAfUwmMo4Nb9kOtF5yNxxUiaJAwickDbmJlz6lDo67IqzGdLWw/640?wx_fmt=png&from=appmsg)
-
-  
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAibs3YHXqDU3rc19gQb5RicvCMV54Tn4cVmYkxibItxCXxLOGcJWMjEAQsQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/87GtaTF2DXtSA70l0bYcULex9zcE7QAib2lMzvMFPsDwKAic0ghfIRiamdHV5hhQR9aBpJVLT6RhqiaVBvDwSQ5rQw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_009_d86ea5a5f3cb.jpg)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg7icUTmLhYp7ibtJrqnSqdTrBpqPP2MkzGqh00IouNxIb4iauup4bc7dutvzQjWxmCiaSDLAy0hZU14A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_010_fe3731e2b2f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_011_2c47f6721af5.png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_012_2350d9ce0d21.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_013_990288e0610b.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_014_0228e1f6f7bf.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_015_f54c03d3d3b5.png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_016_56d7198d09a1.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_017_3f374b8e8907.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_018_be36354eb18d.png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_019_07535ff7b332.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_020_bc7f2e994d4f.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_021_e60c275e7471.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_022_08d5b2ae7b7a.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_023_2a668dc12b24.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_024_615f5fb0a7de.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_025_298f0eaa528a.jpg)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_026_ff6782d9edaa.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_027_83a977fdb74b.png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_028_865fd654adf8.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_029_3f79fb787c79.jpg)
+
+  
+
+  
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_030_5aa2c2ea8139.png)
+
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_031_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁性元器件EMI_images\img_032_d5dcc7ecfdf3.jpg)
 
 ## 
 

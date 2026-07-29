@@ -6,7 +6,7 @@
   
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmBicmd4ib9mZQgbic8vylZWWDwOlJA8kc6aw2yeupx8THUXV2rWwmeibsTDaTorG6ibMoWbxs6aeVsNpA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_000_3fbce906ce22.jpg)
 
       **随着新能源汽车销量暴涨的东风，采用碳化硅功率器件可助力新能源汽车提升加速度、降低系统成本、增加续航里程以及实现轻量化等。碳化硅的优越性能使其在更多尖端领域有着迫切的需求。随着航天技术的快速发展，作为航天器的重要组成部分——供配电系统和二次电源的发展面临两方面的挑战，一方面是小型化和轻量化，另一方面是大功率和超大功率航天器的需求。在超大功率方面，目前硅基功率器件的功率容量和工作频率已不能满足设计要求，限制了宇航电源技术的发展，因此SiC功率器件的替代应用已势在必行。**  
 
@@ -35,7 +35,7 @@ SiC功率器件的优势
 
 **由此可以看出，SiC 材料器件能够用于高压、大功率场合，具有 Si 材料器件无可比拟的性能优势，可以满足宇航电源轻质量，小体积，高效率的需求。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Szy06iayVUAzfVDmKExr9jSiaKLwc09eUfExpRt2c2ukwNcev9S2FwwJlkHPaFv9tmXddtxHP8VpIbxyG7Q9HoxA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_001_c7c592f9a66c.png)
 
                                 SiC相比Si的巨大优势
 
@@ -56,7 +56,7 @@ SiC功率器件的优势
 
 **美国针对深空探测的超大功率电推进系统进行了适用于300 V高压母线的PPU功率变换器设计，该功率变换器由两个采用SiC功率器件的7.5 kW全桥变换器并联构成，经测试效率可达98%。未来的超大功率电推进采用耐高压的SiC功率器件进行PPU设计是必然发展趋势，可以大大提高转换效率，减小PPU体积。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Szy06iayVUAzfVDmKExr9jSiaKLwc09eUfed5mCth2TunxQZMkvicfQmPWpibu8PoO561mnSwrSDLZve9R178IwFAw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_002_89334e72b09a.jpg)
 
                                        电推进系统
 
@@ -77,7 +77,7 @@ SiC功率器件的优势
 
 **当将SiC功率器件应用于航天电机驱动器时，由于与Si二极管相比具有较小的反向恢复电流，因此SiC二极管可以降低开关损耗。除此之外，从功耗的观点出发，可以使用额定电流小的装置来代替额定电流大的装置。例如，将额定电流为200~400 A的Si IGBT模块替换为电流为120 A的SiC模块。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Szy06iayVUAzfVDmKExr9jSiaKLwc09eUfnVhj7veTPIsSNcbbHjp1QSqIyAwZjYbffCrLZ6W2okbpianM6NJFzyg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_003_5376aff89e82.jpg)
 
                                   永磁同步电动机
 
@@ -97,7 +97,7 @@ SiC功率器件的优势
 
 **要用Si基器件来实现如此高的电压输出需要非常复杂的拓扑结构，而这需要很多数量的开关器件和额外的二极管来钳位电压。但是，当使用SiC功率器件时，可以简化变换器设计，减小谐振单元的体积，同时提高效率。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Szy06iayVUAzfVDmKExr9jSiaKLwc09eUfZialcuPoMvuvFJqODGmGrh4eZ7zGIgzI8ticDcNdN6eAwUSdibZpCgtgw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_004_5d7e18ac561b.jpg)
 
                              卫星行波管功率放大器
 
@@ -111,13 +111,13 @@ SiC功率器件的优势
 
 **SiC不仅在汽车、光储充领域备受青睐，其在电动飞机领域也不断获得新突破，应用案例层出不穷。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBicmd4ib9mZQgbic8vylZWWDCINyU1EytibOTbCj8gSs2YJBibDTx31RkSkKo1iaibXibT3AKEqWpd9ddtw/640?wx_fmt=png)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_005_3cb3d1587056.png)**
 
 **案例：搭载碳化硅，空客电动飞机实现突破  
   
 ****6月20日，空客官网宣布，他们已与意法半导体签署了一项电力电子研发合作协议，将共同研发飞机电气化的颠覆性功率半导体。****空客公司与意法半导体达成合作协议，将共同开发SiC/GaN器件，应用场景包括动飞机的电机电控、DC-DC转换器和无线充电等。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmXtBYAN32OGBRwJCANdxKISHz7U1udu31XRZQ525GHTibAECh5FURxKEbgUru0oCGMw5ibvLnic311g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_006_22d8c96a5c0b.jpg)
 
 **  
 实际上，空客很早就开始了对SiC/GaN等半导体的研发和应用。早在2022年11月，空客的电动飞机就已经采用了碳化硅逆变器，并且接近商用。他们正在持续测试自己的电动飞行平台FlightLab，其EBS 系统中搭载了SiC逆变器，并在H130机型上通过搭载小电池进行了测试。H130机型的飞行测试已经非常稳定，如果市场有利，空客将通过美国和欧洲航空监管机构FAA和EASA认证后投入运营。  
@@ -130,7 +130,7 @@ SiC功率器件的优势
 
 **碳化硅器件应用**航空航天领域**前景广阔**    
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmXtBYAN32OGBRwJCANdxKIwL1IGCjX1ppCFdKSetHFsiaW6OBX3txf9RcNbqFBvzcgorET3Th79DA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_007_c9a0e705a261.jpg)
 
 **由于碳化硅MOSFET产品具有高温性能和高电压能力，因此可以在航空航天电子系统中的高温、高压和高频率环境下使用，SIC MOSFET产品在航空航天领域中的应用潜力巨大，在高温发动机舱内，碳化硅MOS可以用于控制电动风扇和气压控制系统。**
 
@@ -138,8 +138,8 @@ SiC功率器件的优势
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_008_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)功率器件在航空航天产品中的应用及前景展望_images\img_009_770831a45f05.png)

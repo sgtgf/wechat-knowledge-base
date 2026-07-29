@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2rKZvU7xT1vPgyzmjufxsg](https://mp.weixin.qq.com/s/2rKZvU7xT1vPgyzmjufxsg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_000_4fecbf19a39d.gif)
 
 ****A Step-Up 25-Level Inverter Topology for Photovoltaic Systems****
 
@@ -38,7 +38,7 @@ Integration of renewable energy sources into power systems requires efficient mu
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja0OyzjdTbqnO3PicmZLQ9UEF9TaEPWA4pBEmbEuHLib4NQcWvCLz2v2YPB0NbhcRiawJtPLnCibicnJlVLIXMmKOLYdDuVuGGhVA84I/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_001_670143a39c15.gif)
 
 25-电平逆变器的电路图
 
@@ -52,17 +52,17 @@ Integration of renewable energy sources into power systems requires efficient mu
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/LO7v6QoDja3FNdFBGCwVn43mHm0qfxmicNGKUzzd63UhLGbWbBNkTGtLHLDHkNwfMPtSGzOZW2zia1UyPpBjfWeJckngdyUiaiaO13PZtbHQynk/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_002_e8690a925791.jpg)
 
 **Fatemeh Esmaeili**，2020年获得伊朗大不里士科技大学电气工程学士学位，2022年获得伊朗伊斯法罕伊斯法罕大学硕士学位，目前正在攻读电气工程博士学位。自2025年5月以来，她一直是丹麦奥尔堡大学能源技术系的访问研究员。她的研究兴趣包括电力电子、多电平电压源逆变器、开关电容器转换器、电力电子转换器的鲁棒和非线性控制器以及可再生能源系统。2020年，她获得了伊朗电力电子学会颁发的最佳理学士学位论文奖。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja0GzozRCrqcUQa821IBWNsYqTSdRxdVh9X49fDra0hXCNYgMcnebUNZE9kiaANMM4foDQ1J2w8AwdQ1yGTGZibwicKXqAIu9GrYDk/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_003_894d918da424.gif)
 
 **Hamid Reza Koofigar**，分别于2003年、2005年和2009年获得伊朗伊斯法罕理工大学电子工程学士学位、控制工程硕士学位和电气工程博士学位。自2010年2月以来，他一直在伊斯法罕大学工作，目前担任电气工程系副教授。他于2018年5月至2018年10月和2019年7月至2019年9月在德国慕尼黑工业大学（TUM）电气与计算机工程系担任访问研究员。此外，他于2025年2月至2025年9月担任东京工业大学系统与控制工程系的访问研究员。他目前的研究兴趣包括鲁棒控制、大规模系统和可再生能源系统。他于2012年获得日本SICE国际奖学金，并于2019年获得德国巴伐利亚州科学、研究和艺术部的研究奖学金。他也是TUM高级研究所的荣誉院士。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja0hUdxddZmjkYZ0Iv6N8oQ4YBNngmUrxOkfGh17nyOoWicVkTpmXq0ibBCcKMDtlBMdD97Ab8khOW245sXbsR8h6mEvNHsPJhJug/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_004_ec5b7fdd05e4.gif)
 
 **Frede Blaabjerg**，1987年至1988年，在丹麦兰德斯的ABB Scandia工作。1988年至1992年，他于1995年获得奥尔堡大学电气工程博士学位。他于1992年成为AAU Energy的助理教授，1996年成为副教授，1998年成为电力电子和驱动器的正教授。从2017年开始，他成为Villum研究员。他于2017年在罗马尼亚蒂米什瓦拉理工大学（UPT）、2018年在爱沙尼亚塔林技术大学（TTU）获得荣誉学士学位，并于2025年在意大利帕尔马大学获得荣誉教授学位。他目前的研究兴趣包括电力电子及其在风力涡轮机、光伏系统、可靠性、power-2-X、电能质量和可调速驱动器等领域的应用。他获得了49项IEEE奖论文奖（其中一项在IEEE电力电子翻译中被确认为时间论文-doi:10.1109/TPEL.2004.833453），2009年IEEE PELS杰出服务奖，2010年EPE-PEMC委员会奖，2014年IEEE William E.Newell电力电子奖，2014年度Villum Kann Rasmussen研究奖，2019年全球能源奖和2020年IEEE爱迪生奖章。2023年，他获得了日立能源奖，2021年获得了EAWE科学奖，2020年获得了EPE杰出成就奖。他曾担任丹麦技术科学院副院长。从2020年起，他一直是丹麦皇家科学与文学学院的成员。自2020年以来，他一直担任丹麦研究与创新政策委员会主席。
 
@@ -70,7 +70,7 @@ Integration of renewable energy sources into power systems requires efficient mu
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_005_654c2fde68d8.jpg)
 
   
 
@@ -84,15 +84,15 @@ Integration of renewable energy sources into power systems requires efficient mu
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_006_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_007_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_008_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -100,15 +100,15 @@ Integration of renewable energy sources into power systems requires efficient mu
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_009_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_010_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_011_644d85f1cc17.png)
 
 学会官方B站
 
@@ -116,15 +116,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_012_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_013_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\文章精选_I_丹麦Frede_Blaabjerg等_一种用于光伏系统的25电平升压逆变器拓扑_images\img_014_c28b250481e7.jpg)
 
 学会科普微信
 

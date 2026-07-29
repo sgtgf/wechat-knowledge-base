@@ -18,7 +18,7 @@
 
 详细理解设计需求，从需求中整理出电路功能模块和性能指标要求等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EEm4C0Lg6s1icA6Gicvhbp38ekeh4LSh3ulFiaQE8j2ia6GLCoicDDDZcibln7xPIFJVZQEeY6Wo2OJR76JibHTQ7dfMw/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\但凡硬件有一点点问题都对不起这份SCH检查单_images\img_002_d1300cbf289d.png)
 
 **2、确定核心CPU：**
 
@@ -30,7 +30,7 @@
     
     可扩展性好。
     
-      ![](https://mmbiz.qpic.cn/mmbiz_png/EEm4C0Lg6s1icA6Gicvhbp38ekeh4LSh3u1jU8UZWFiaVvfAf2Upzub3vfNicNzvBlyXh6jB8lxqeRSVwaR1290qbw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+      ![](D:\电脑文件\公众号知识库\电工_教育_学习\但凡硬件有一点点问题都对不起这份SCH检查单_images\img_003_8b0b151b7a99.png)
     
 
 **3、参考成功案例：**　　
@@ -39,7 +39,7 @@
 
 另外在设计之前，最好我们能外借或者购买一块选定的参考板进行软件验证，如果没问题那么硬件参考设计也是可以信赖的，但要注意一点，现在很多CPU都有若干种启动模式，我们要选一种最适合的启动模式，或者做成兼容设计。 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YwH8QpbOicAicmcqtRZMeE4PrP8MFqS8vRnuiaLgsX7Nic3JKiaYicTnyVdRtX6dnhS9tho04FAPzK8QF1WPQRzo48cA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\但凡硬件有一点点问题都对不起这份SCH检查单_images\img_004_5cc25cd68767.jpg)
 
 **4、对外围器件选型：**
 
@@ -127,7 +127,7 @@
 -   对于重点设计的相关模拟电路产品，没有主用芯片、外围芯片以及芯片与芯片之间的连接方面的问题。所以，元器件的选项尤为重要，对于硬件设计的一些基本原则一定要注意。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YwH8QpbOicAicmcqtRZMeE4PrP8MFqS8vRia1lDNuNJjCzTXCjdKURlGh5lVORu7AzZI9iawvEHXUiaiaVtTxzlYBxjg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\但凡硬件有一点点问题都对不起这份SCH检查单_images\img_005_609a60c37dd5.png)
 
 **9、原理图设计规范Checklist**
 
@@ -941,7 +941,7 @@ PCI-E2.0   slot的clock  signal 建议与控制芯片同源。
 
 CPU的晶振应尽量排布在晶振输入引脚附近。无源晶振要加几十皮法的电容；有源晶振可直接将信号引至CPU的晶振输入脚。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\但凡硬件有一点点问题都对不起这份SCH检查单_images\img_006_89d116843652.jpg)
 
 ## 
 

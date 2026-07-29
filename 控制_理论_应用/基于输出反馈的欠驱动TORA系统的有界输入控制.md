@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8Ywv44JkF5xGVqGj5sM6K2qBG3kPzROa9RGIwRWicOc0Ad3WHcIVfmicLvLvsfLDbU5vicAuA4S9wTRSUqXZyibibuOjs/640?wx_fmt=svg)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_000_0477c9fbeb5a.svg)
 
 具有旋转激励的平移振荡器（Translational oscillations with a rotational actuator, TORA）最初是作为双自旋航天器的简化模型用于研究自振现象，现常被作为一种非线性基准系统主要用于非线性控制器设计、验证非线性控制算法的控制性能或教学研究。
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTgZjq2ShiaicMlhzD7ONaticibfiayBTLwX40awC4xaroIT7hWeJTsfvNJ6w/640?wx_fmt=png)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_001_52393fb96baa.png)
 
   
 
@@ -32,7 +32,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8Ywv44JkF5xGVqGj5sM6K2qBG3kPzROa9RGIwRWicOc0Ad3WHcIVfmicLvLvsfLDbU5vicAuA4S9wTRSUqXZyibibuOjs/640?wx_fmt=svg)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_002_0477c9fbeb5a.svg)
 
   
 
@@ -44,21 +44,21 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8Ywv44JkF5xGVqGj5sM6K2qBG3kPzROa9RGIwRWicOc0Ad3WHcIVfmicLvLvsfLDbU5vicAuA4S9wTRSUqXZyibibuOjs/640?wx_fmt=svg)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_003_0477c9fbeb5a.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTW8gOu1JrgkiapGvjBPWkRtJibbjqxLj0Hzsjn0eSj4icgIEWiaU8UcQ2kQ/640?wx_fmt=png)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_004_0c9f2fa347a2.png)
 
 武宪青, 浙江理工大学机械与自动控制学院讲师. 主要研究方向为桥式吊车, TORA/RTAC等欠驱动系统控制. 本文通信作. 
 
 E-mail: wxq@zstu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTiaZWEHT6uSRgefuibYW77Iia0GhkcjpgSZ4J5LAJWv0yQyMn6UFrVAYLQ/640?wx_fmt=png)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_005_e04b0bf5931c.png)
 
 徐可心, 浙江理工大学机械与自动控制学院硕士研究生. 主要研究方向为桥式吊车, TORA/RTAC等欠驱动系统控制. 
 
 E-mail: xukexinskkk@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHT8cjR3YgGXuEFAgicwSzL5ROXGccVwdnF3qgxfqMoWsCMibibQbAVXfKXw/640?wx_fmt=png)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_006_1c0d03b9dab1.png)
 
 张益波, 浙江理工大学机械与自动控制学院副教授. 主要研究方向为滑模控制, 自适应控制. 
 
@@ -186,21 +186,21 @@ E-mail: zhangy41@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTo9tKNXoBRsSuvHBTDTJ6TBaHick79CmyUrQtbnAFeRcJHZzibmv1080g/640?wx_fmt=png)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_007_338f76fa3815.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTRDmpuBHG5DSFCNgAhudjl6aYQFcic9o0M0iaE7GADob8Na0dlD0TB0pA/640?wx_fmt=jpeg)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_008_9ff6ea1d8f16.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTo9tKNXoBRsSuvHBTDTJ6TBaHick79CmyUrQtbnAFeRcJHZzibmv1080g/640?wx_fmt=png)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_009_338f76fa3815.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTjyOZrEK5dAibjHnoiaN2xwNEBejZjzQSAjmNDRic72U6WVQicY6JhMtj8Q/640?wx_fmt=jpeg)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_010_6bda00b9fb7a.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTo9tKNXoBRsSuvHBTDTJ6TBaHick79CmyUrQtbnAFeRcJHZzibmv1080g/640?wx_fmt=png)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_011_338f76fa3815.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46JgrZbSq8rnvOpTlmpSsHTzZbPAU3yN78fCKyukDWMS2JibZIDClO0p1nZibf1EjGrjPiawA7fxD8MA/640?wx_fmt=jpeg)
+![](基于输出反馈的欠驱动TORA系统的有界输入控制_images/img_012_978f7791f59c.jpg)
 
 自动化学报订阅号
 

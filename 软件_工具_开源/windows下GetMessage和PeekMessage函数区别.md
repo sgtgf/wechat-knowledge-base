@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hHJ1PcwxKTbd1clVtE9OLg](https://mp.weixin.qq.com/s/hHJ1PcwxKTbd1clVtE9OLg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0trSIaNZK3Nibfxf94JCuJImDLREy6b7KhaaaHLJKYzIrU6bADricF55eq4AOlQEfPSNXC6qomk2xlKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\windows下GetMessage和PeekMessage函数区别_images\img_000_852bd39ae2b3.png)
 
   
 

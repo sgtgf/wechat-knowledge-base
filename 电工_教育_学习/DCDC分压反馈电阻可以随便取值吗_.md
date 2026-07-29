@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nv9MCgs0WtmfFkAa0Eokiap4iau2jJrFmyFU5fNvlOmvYSe4FeaVyDbNA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_002_bed14ee15c5f.png)
 
   
 
@@ -72,7 +72,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956ntunKm1U1n22MF3f5ibyrkictz2vFviaHZHTM7nvnTbklKlcPoX9ZJ3ZnQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_003_944e7e03a60f.png)
 
   
 
@@ -84,7 +84,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956n8C7CnZN2p3yWeWOMzJ7Iee1icqKSeJOyIPLqdMBKDuVFBXDiapNuGkfg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_004_94199dd4cf52.png)
 
   
 
@@ -92,7 +92,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nKbiaC3Sgcn4NNkgibULss91kyTOo2RtcVRjCyic4ImF8NJAkYxRAUu1eg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_005_654a5c4f3d70.png)
 
   
 
@@ -108,7 +108,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956n9UmRuY1vnwe1EqHALTcuJhDLgkJq7jecoiagscOrWNHUibJq3icdrOfDQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_006_55b8203f4f64.png)
 
   
 
@@ -144,21 +144,21 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nqicaROEdGad4cvQUMnbC07WnViayCZThEf5KN7eWMzaWOiajJttycAUPg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_007_db6e5716d9c9.png)
 
   
 
 由图4所示电路传输函数，分别利用方程式2和3计算出零点fz和极点fp：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nf784fePLMI2uxibF7sxJJZiaRsl9yuGXBHVQHWZPh6hySUt3jg55zicDQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_008_07b598e4e6d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nPS8gfamzNJTs8AwcaNkOlTnjwBZC2x3GW2arqTAic3PEKn5beCcSS3A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_009_47d873d49ffa.png)
 
   
 
 很明显，零点和极点都与电阻分压器和前馈电容所使用的值有关。因此，增加或降低电阻值来优化效率、电压精度或者噪声，会改变系统的整体环路。要想保住稳定性，需要根据前面的零点或者是产品说明书建议的零点（哪个值可用，就用哪个值），用方程式4计算一个新的CFF值：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nfnkQBZOYfzs01aLWmdcicqfrOmvJvFC8YHzDpgqRulibSRSicyU4YPxMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_010_0c1bc2840951.png)
 
   
 
@@ -168,9 +168,9 @@
 
 通过使用一个降压转换器，我们看到了电阻式分压器对转化器稳定性的影响。本例中，我们使用了TI TPS62240降压转换器，并且Vin=3.6V，Vout=1.8V，Lout=2.2uH，Cout=10uF，Iload=300mA。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nndMdWmCehibzv2T9gwiaPtPagGzyhWm0xpcFuEdwYD6WIJ0kwfnhX3fw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_011_4e1176097432.png)
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nW4V9Vz9MAIA8ujl12YGbJRHOcWMicbOyM73vkuSPDOExn5L8BCuxQrA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_012_86afa7f8d252.png)
 
 图5和图6分别显示了三种不同电阻式分压器网络的闭环响应及其相应瞬态响应。每个网络都使用一个前馈电容，以描述分压器网络组件如何改变降压转换器稳定性。当使用分压器网络组件的产品说明书建议值时（R1=365 kΩ,，R2=182 kΩ和CFF =22pF)，转换器稳定，并且相位裕量为59°。它的瞬态响应对此进行了验证，其输出电压稍许下降，并且没有振荡。
 
@@ -194,7 +194,7 @@
 
 如果设计人员必须使用前馈电容来提高稳定性，且一些转换器的内部补偿要求特定的CFF值。这种情况下，不应使用方程式4。设计人员应使用产品说明书的建议设计方程式。例如，TITPS61070便有高侧反馈电阻器（R1）的内部补偿。它的产品说明书建议使用下列设计方程式，用于添加一个与R1并联的电容：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPJUh7aZXiaPibWN8ZN5yN956nicceFSWl59pQn1uJ1Zko71K25rVcIAVpwqoleJ1ICRk3R1FIBb64zEw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_013_67a02c6491c1.png)
 
   
 
@@ -206,9 +206,9 @@
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_014_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_015_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_016_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_017_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_018_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_019_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_020_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_021_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_022_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_023_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_024_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_025_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_026_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_027_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_028_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\DCDC分压反馈电阻可以随便取值吗__images\img_029_3c93e54afedf.gif)
 
 ## 
 

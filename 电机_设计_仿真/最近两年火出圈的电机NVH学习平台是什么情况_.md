@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ZRG9vi4TeBT3MsS6JUs\_BA](https://mp.weixin.qq.com/s/ZRG9vi4TeBT3MsS6JUs_BA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV7dice1KyVRcaiaXW9zXxognEIKMXsIlZbgdO3fibtmQSJ9gu1ISuHFPicPITRrRsodnr9pfz6cwgmHA/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637434&idx=1&sn=2db3d39a9088de22dd65acc32788ae89&chksm=88bc2f75bfcba6633b20f7d81c86edefb1dfaba4249e91bc4dfc9eac89b051c5d8b48acdda16&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_001_1cea51b0191a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637434&idx=1&sn=2db3d39a9088de22dd65acc32788ae89&chksm=88bc2f75bfcba6633b20f7d81c86edefb1dfaba4249e91bc4dfc9eac89b051c5d8b48acdda16&scene=21#wechat_redirect)
 
 您知道西莫最近两年有一个年年“出勤率”上百人的线下活动吗？与现在各种形形色色的会议不一样，这是一个真正传授电机NVH干货知识的学习平台，不忽悠，不讲大概念大道理，专抠细节问题，扫清各种疑点，帮助每位热爱从事电机NVH行业的人员打通任督二脉，跨过入门壁垒，着眼于解决电机设计在振动噪声等方面需要注意的问题，同时对先进仿真工具的高阶应用和解决方案进行详细讲解，因此好评如潮，口碑相传；没错！这就是西莫主办的电机NVH问题的机理和测试仿真研修班！今年的课程除了继续有西莫首席技术专家以及之前Ansys公司电机专家和声学专家坐镇之外，更有Ansys公司电驱动系统动力总成NVH仿真专家新晋加盟导师团队！而且为了弥补大家对更多学习内容的渴望，培训也同步升级为三天课程，升级后的加强版研修班必将是又一次电机NVH领域的知识盛宴和技术盛会！希望通过我们倾力打造的真材实料干货满满的研修班来回馈大家长期以来对西莫的认可和肯定！过去的一期活动，又有近70家公司及科研院校与我们建立了合作关系，新的一年，我们还将推出更多更优质的服务回馈我们的长期合作伙伴！特别感谢以下公司、企事业单位及科研院所对往期“电机NVH问题的机理和测试仿真”研修班培训的支持！（排名不分先后）
 
@@ -199,7 +199,7 @@ ABB高压电机有限公司
 
 参加西莫培训，除了课堂讲授之外，您在课后建立的学员群里也将获得老师对授课过程中相关问题的答疑和指导，同时有机会跟往期学员对日常工作中遇到的问题进行交流探讨，结识更多业内相关技术人员。期待更多公司、企事业单位及科研院所参加学习，在未来与我们开展更多合作，欢迎扫描二维码报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVh6xfO2SzD5VIxRGxpOc2oUTtXicZZt9sWQicpjskzqEcG4icWy883W5K4CibEk5062llvQPL2EfGS6w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_002_afcb35f38fd5.jpg)
 
 关于本次培训的更多详细介绍，请看下文：
 
@@ -607,14 +607,14 @@ ABB高压电机有限公司
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUO6jutIzMPstCVWDbzolFBwJMJoHmxpLupfhyEppyzxhJO2tDsbOpLHwxQxkHMib6ePVc5sKsBylA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_003_08291f42acf5.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_004_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVr9yILoibwtiapdKNtbJax2dx4xkibAqMlichhQuiaByylnSOpUqZd3SxY5C8rL4SFcpGyJz3ibFfDrKlg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637503&idx=1&sn=4e824330609ec5a15772a444811920d5&chksm=88bc2fb0bfcba6a6c4449052dd2c508dc29971d8d9037ac76f981b099630330bbd7e9aa35941&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SjVGCooKxGROHpK5vr7vHtFK5urPw3ZjcibzH9ibXJ5ceytdKhPtiaibfiaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637464&idx=1&sn=31515349caedc7bcc950730e7606a02e&chksm=88bc2f97bfcba681d254d3614b7019344866b7f10aface265a04f5bc9de42aaf11e18b03e2d1&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_005_7ea7f66f28bb.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637503&idx=1&sn=4e824330609ec5a15772a444811920d5&chksm=88bc2fb0bfcba6a6c4449052dd2c508dc29971d8d9037ac76f981b099630330bbd7e9aa35941&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_006_5dce360821c6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_007_18f5302d1f9a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637464&idx=1&sn=31515349caedc7bcc950730e7606a02e&chksm=88bc2f97bfcba681d254d3614b7019344866b7f10aface265a04f5bc9de42aaf11e18b03e2d1&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_008_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_009_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_010_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近两年火出圈的电机NVH学习平台是什么情况__images\img_011_d960d0948cf9.gif)

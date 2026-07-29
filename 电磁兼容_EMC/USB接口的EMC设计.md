@@ -10,7 +10,7 @@
 
 在提到干扰对USB的影响时，差分数据传输与简单的同轴电缆相比具有很大的优势。在感性干扰效应(磁场)情况下，导线的绞合可以弥补干扰效应。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6cd5r5OWA3VhAl13NgjFbePKxuZzXG8aEeBN3UHm8oWj2oNUXDNzOc1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\USB接口的EMC设计_images\img_002_c0565d4be5f8.png)
 
 ●USB控制器的输入/输出不是完全对称的，因此USB信号显示出共模干扰。
 
@@ -36,7 +36,7 @@
 
 对于一个端到端的EMC兼容设计而言，对电源(VBUS)进行滤波也很重要。许多开发人员忽视了这一点，却不知道他们的产品为何通不过EMC实验室的测试。这里介绍了针对一个或两个USB端口的两种优化设计。两条USB线可以用TVS二极管加以保护。所有4条信号线以及公共电源都得到了很好的静电放电保护。进一步的优化可以通过用一个电流补偿式数据线扼流圈和电容，搭建一个LC滤波器滤除输入端的共模和差模干扰来实现。在电源端使用WE-CBF系列贴片磁珠可以实现卓越的抑制性能(图1)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6clzK7mgyMcQH7Cria4CnAWESdjlz2NB6tWYy9EOgYNHjvzuXUAzEvaqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\USB接口的EMC设计_images\img_003_56483e037640.png)
 
 图1  具有静电放电保护功能的双端口USB端口
 
@@ -44,7 +44,7 @@
 
 单通道保护元件(如WE-VE系列静电放电抑制器)必须始终连接在信号线与地之间。不必使用小电容的静电放电抑制器来保护电源，普通的SMD变阻器就足够了。它可以吸收较高的能量和较高的电流，因此是设计的第一选择(图2)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6cuTibqFeB3C4SzRwBYytsZ3bbMKORwXc6rPUl0bia3ywuCfR62ce5GtVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\USB接口的EMC设计_images\img_004_49990b15d16c.png)
 
 　图2  与屏蔽数据线不同，电源端不必使用小电容的静电放电抑制
 
@@ -54,7 +54,7 @@
 
 从图3可以明显看出，有两条差分信号线(D+和D-)从插头连接器连接到TVS二极管，再通过电流补偿式数据线扼流圈连接到USB控制器。这样能够得到出色的静电放电保护功能，并能良好的抑制数据线对。VBUS通过TVS二极管路由到贴片磁珠。在贴片磁珠之后，可以插入额外的电容和另一个贴片磁珠来实现最大可能的PI滤波器衰减。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6cWOOcBePTk6feCYwEJEpxDW86d6Mic7zt7rW6TibD4HeFuVHwewVKkVEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\USB接口的EMC设计_images\img_005_ad73858c89dc.png)
 
 图3  USB端口保护
 
@@ -62,7 +62,7 @@
 
 在非常敏感的IC和/或高可靠性开发案例中，通过两次连接TVS二极管引脚可以实现最优的静电放电保护效果(图4)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6cEGwCv865MepaNvy8RLqfS5eP09ErEXicLfYaABg3JmSgjWyicsISaia0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\USB接口的EMC设计_images\img_006_ab2d6dac4759.png)
 
 图4  USB端口的双重保护
 
@@ -70,7 +70,7 @@
 
 希望采用单通道保护元件的开发人员可以使用WE-VE系列静电放电抑制器。这些抑制器总是必须从D+/D-连接到地。还要连接其它一些元件，如图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6cGOS9QS4ckJXpchhJEhfbmO6Sq8QGSjYItHgUEzX0TmnRxH8OZJOLxg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\USB接口的EMC设计_images\img_007_7914af8d8e90.png)
 
 　图5  采用单通道元件的保护机制
 

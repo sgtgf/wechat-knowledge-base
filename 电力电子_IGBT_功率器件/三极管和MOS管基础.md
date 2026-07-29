@@ -32,13 +32,13 @@ MOS管的导通，以NMOS管举例，需要提供一定的Vgs电压，这个参�
 
 1、从半导体结构上看，三极管分为NPN型和PNP型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vR9JRiaUOc1kibeANnXg8NPyGXno1RfNrT7nqBYw3IZ5gw71VlBRkZSr8MLia19PZfMwzwJR0rgQ700w/640?wx_fmt=png)
+![](三极管和MOS管基础_images/img_000_de995a5092cd.png)
 
   
 
 2、按沟道分类，MOS管分为PMOS和NMOS
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vR9JRiaUOc1kibeANnXg8NPyGkdibDmh8XtPEKV9micSzv5RjrGibf7D2aHRTYTPicLZ1MuW3HhWLSHJw0w/640?wx_fmt=png)
+![](三极管和MOS管基础_images/img_001_57a1491708d9.png)
 
   
 
@@ -54,13 +54,13 @@ NPN：c→e
 
 PNP：e→c
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vR9JRiaUOc1kibeANnXg8NPyGvuuUWJUTXCURJial5n14d5ibuUpTrfu94v5XI3K16VYKLJiaEvyyytzfw/640?wx_fmt=png)
+![](三极管和MOS管基础_images/img_002_607cae05cab1.png)
 
   
 
 2、MOS管导通方向
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vR9JRiaUOc1kibeANnXg8NPyGric8mTaXoquAZeibuqlv1H215AHd5vedhIIy3SCgRp1pOqGiaicC47gKxg/640?wx_fmt=png)
+![](三极管和MOS管基础_images/img_003_74a9bbd39505.png)
 
   
 
@@ -74,11 +74,11 @@ PNP：e→c
 
 1、NPN三极管 VS NMOS管
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgkQs1l55icxdD4ia0XWC4ltibTiblNAcL2c9nialjiaC89BNGSVfRnpx4s2VgwLNraE8N9GB0WHydhNgLg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](三极管和MOS管基础_images/img_004_cd60c8c9aeb7.png)
 
 2、PNP三极管 VS PMOS管
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgkQs1l55icxdD4ia0XWC4ltiba3DNBdzOIYIQV28g1pCcTFByLXPWlsCqt9Ea3uOGOCUqvB78V04xjw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](三极管和MOS管基础_images/img_005_380153a83eb8.png)
 
 ## 
 

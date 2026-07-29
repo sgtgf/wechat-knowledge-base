@@ -11,15 +11,15 @@ FastICA是盲信号分离领域的经典标杆算法，凭借优异的性能在�
 
 在FastICA中，每一个独立成分方向的迭代公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0TNZSuibgKiaV18fmne0ziadvFLvb5xPmEQpfuhXviazpaYM71D4LsnibGDnA/640?wx_fmt=png&from=appmsg)
+![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_000_108339eed52b.png)
 
-其中X为原始数据，1为所有元素均为1的列向量，![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0TfGXcMeDg8KbAX929iackcPEX2bnfH9t5icb393626ia2dqGD0sbLoH4Hg/640?wx_fmt=png&from=appmsg)（此时，FastICA的目标函数正好为偏度），![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0TqQUJHyLETh3C5LcKNZ3zW2ViaoAic9ypXlqmDM6nRBQwKHXicxPwHCx1Q/640?wx_fmt=png&from=appmsg)和![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0T05xr8VKkAph4DULCLo4Ar6G7RulS79v0ONgcib8Wzic8TY8ewpYMlFgg/640?wx_fmt=png&from=appmsg)分别为![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0T0Aibib8ThDLG9zw8rWiaV0JsptrCwC9syxFxSBqLsrI6l7F3z0KW6CYkA/640?wx_fmt=png&from=appmsg)的一阶导数和二阶导数。
+其中X为原始数据，1为所有元素均为1的列向量，![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_001_2084ab8446df.png)（此时，FastICA的目标函数正好为偏度），![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_002_3b7a57da036a.png)和![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_003_e54318574f44.png)分别为![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_004_ccabd06b60f5.png)的一阶导数和二阶导数。
 
 而在PSA中，每一个极值偏度方向的迭代公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0TZJMlS08gxhKnHh5UAovkibicY8fIFdiaTicHshuhKhiceqptyzQM3nU8qWQ/640?wx_fmt=png&from=appmsg)
+![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_005_b9f4fba82ba5.png)
 
-其中![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0Tibu0iadwib7SibVRSBTzQDIrc0fl0KnjbyytD9saI7eFianicMXj84c3eFcQ/640?wx_fmt=png&from=appmsg)为数据的协偏度张量。
+其中![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_006_e1f4795d5000.png)为数据的协偏度张量。
 
 可以看出，FastICA在迭代求解每个独立成分方向时，每次计算都需要调用全部原始数据参与运算。这意味着数据规模越大，单次迭代的计算成本越高，整体效率会受原始数据体量的显著制约。
 
@@ -35,7 +35,7 @@ FastICA是盲信号分离领域的经典标杆算法，凭借优异的性能在�
 
 FastICA的时间消耗随提取成分数量增加呈明显上升趋势，原始数据的大规模特性让每一次迭代都伴随高额计算成本；而PSA的时间消耗几乎与提取成分数量无关，其主要耗时集中在前期协偏度张量的计算，后续基于张量的特征分析耗时占比极低。无论提取多少个成分，PSA的整体耗时都远低于FastICA，展现出压倒性的效率优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4N9S6CLYsUMr0Ez9siccT0TFlyj3DUlqiakVILiaLnkez2pRJ1BZMSADdD5ibfKekNmZ9bKWvErrmfmA/640?wx_fmt=png&from=appmsg)
+![](这一次_我们完胜经典_主偏度分析（PSA）超越FastICA的底层逻辑_images/img_007_11087a90f3cd.png)
 
 图1\. PSA与FastICA的时间对比（针对Cuprite高光谱数据）
 

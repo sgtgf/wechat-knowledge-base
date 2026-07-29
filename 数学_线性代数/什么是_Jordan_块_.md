@@ -9,17 +9,17 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 #### Jordan 块的结构
 
-一个 Jordan 块是一个方阵，通常记作 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6p4oXZAbdt0pvpfczuGQZ34B2Ufa9RgbQXZYBWcKBUMpLZPeXJ8Xn4M3ZvYNk0tk1uUc8WjH1Fl6CNv8NSC5Z7DeLbhJpJwgwPPI7uPHWvbg/640?wx_fmt=svg&from=appmsg)，其中：
+一个 Jordan 块是一个方阵，通常记作 ![](D:\电脑文件\公众号知识库\数学_线性代数\什么是_Jordan_块__images\img_000_3c9a829326b5.svg)，其中：
 
 -   λ 是特征值（对角线上的数字）。
     
 -   k 是块的大小（矩阵的阶数）。
 
-它的样子是：对角线上全是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5oz0auhIhNH3nl4KxibnGiaH5IsWibbYgfAHjv6libRlHnbOGtxgoptcrQZ8ibRLiaRXcTEAEjuQVnHN9aibfOHV6ibbYECZh9ttmoP5yKwPd2hahRHw/640?wx_fmt=svg&from=appmsg)，对角线正上方（超对角线）全是 1，其他地方全是 0。
+它的样子是：对角线上全是 ![](什么是_Jordan_块__images/img_001_822387741ea9.svg)，对角线正上方（超对角线）全是 1，其他地方全是 0。
 
-比如，一个 3x3 的 Jordan 块 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5lVme00hgZUKUaoLlsV1aO8XpZiboeWtZN3HAf3FSMV1NeiaERtFBHEEyLNgpjmGh9mSOlaPqiccAq0bN92wGWEibVKegBP3IKWfgrJyKKssYS8Q/640?wx_fmt=svg&from=appmsg) 长这样：
+比如，一个 3x3 的 Jordan 块 ![](什么是_Jordan_块__images/img_002_d391580288f0.svg) 长这样：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4fUibIjZURvicINl46QtcsXmI7374DXYLbA6K4AFmDfwTn1QxYBObGaibAhNV11MR8lsEehydLDDWeaybfn2kDIbkRoPWP4jw3le9SucfZJdKfw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_003_3c20d69b1315.svg)
 
 这就像一个“链条”：每个元素“连接”到下一个。
 
@@ -29,13 +29,13 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 举个例子：假如一个矩阵有特征值 3，重数 2，但只有一个特征向量。那么它的 Jordan 形式就是一个 2x2 的 Jordan 块：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7w5fehvkhDib3ZA4H9OPLkj59tzcgVZ0HfqaJj4uhYSbW1EPVmVwwFOoL1n9Mbq8Px9iaapv9ibss0DGSuk0SY9xU4JnfI8Oh2HRic2cwMuyGPIw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_004_091842f8af87.svg)
 
 如果重数是 4，但有两个独立的链，一个长 3，一个长 1，那么 Jordan 形式是两个块拼起来：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4avg0oPAfnfyTGVorWLaRCqLxNg738wPiaeCiaada4XUic5jiaIBZp9JDWr1Rfwnn6FHngTKyP4vJ22BHVYhcALkiboBre84c3Ofic2uL7cneiab80w/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_005_f5aaad6fc236.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvd3icqFnwabIyYSfwc3wrznyO4MCrmtXQgaMHARaM74iaMXATiaM3n6D0H0TFbldaeSk6dNksl8zroCnf9jaLxjudLnOfapIrAcg/640?wx_fmt=png&from=appmsg)
+![](什么是_Jordan_块__images/img_006_367f27a73728.png)
 
 图里展示的是 **Jordan Normal Form（Jordan 标准形）**：一个大矩阵被拆成若干个“虚线框住的小方块”，每个小方块就是一个 **Jordan 块（Jordan block）**。这个名字来自 Camille Jordan。
 
@@ -43,13 +43,13 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 ## 1) Jordan 块到底长什么样？
 
-对某个特征值 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6OtISk4IlbiavzZceCkwR79ib7aL12lmEzDHIk7EWy8I06assKDhRjNJ1GbLngshEzy5gWiccnK1P5OguNO7XqmPHkrBMbicgwS0SaiaTB9EKdzNw/640?wx_fmt=svg&from=appmsg)，一个大小为 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7clbKDYmhrdQNqYwpAqvStbIPe7wJ7rTccmlCY9lfibBibgnGSGzx4fSxJhziagiaLr1AwnBhwUNA4QWT4Xclua8rwzoE8Kib3Pxc3pGXK8j4rPNw/640?wx_fmt=svg&from=appmsg) 的 Jordan 块写作 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5tkN8KKOqt9SYfV1aE9eic4q1uu85Y4P9KV5P6m0A775lAf8h1SKy0j6pdaeiciaxsTFFcV6OicBUHxM63aD1hX3ByN7IuAmvrXZfM3eXrepl1Ow/640?wx_fmt=svg&from=appmsg)，形状固定：
+对某个特征值 ![](什么是_Jordan_块__images/img_007_630f42eec51a.svg)，一个大小为 ![](什么是_Jordan_块__images/img_008_df9ad59e11b3.svg) 的 Jordan 块写作 ![](什么是_Jordan_块__images/img_009_a75be2e8bc64.svg)，形状固定：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4gpFy448ovgqTJaVhia2C7F31R42ic7bupaTcbVFSuwo4YhaxHAUibJaU7JZ8LobL5BWuy9YRr6iaUVP9DbTZicRUWQLgDDPRZnJcMUkNX45hUyQw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_010_1d48916525c5.svg)
 
 **记住三点：**
 
--   主对角线全是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5qvGJ1SlLHtlQdbZlUBZ2Lncd1AE8MOJyOibn7KIqYqZSgttnOzQpibDYVkKuSUticrE9vDyibT4EgmA6bFsv1ibHWLyMmC6ric03V2oXvl8xGbIyQ/640?wx_fmt=svg&from=appmsg)
+-   主对角线全是 ![](什么是_Jordan_块__images/img_011_9fe6204e5e14.svg)
     
 -   紧贴主对角线上方（超对角线）是 1
     
@@ -66,17 +66,17 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 它对应
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6OtISk4Ilbiaody8aqxQ4NwMxAzd5rWVicmTZqFeuD6YTwzib6dDyV2lN2YiaPqIWxRsWtDCaA7ueeGgUnFHMfKJeq9XRWlo8wlAxvNnUnicvZ1EQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_012_b0f48847d0a2.svg)
 
 ### (b) 右下角蓝绿色框：一个 3x3 的 Jordan 块（特征值 3）
 
 它对应
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4TmTcibK7r4ogicFPXI3AsmgicyXysNNnt90icucdSLWl00oa1Etd91FjmaRXWHpgfnB1BOUcnLUuiblGVCRD4USmicjrH1IFlwA9tU0CP4ymFmzWw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_013_c6b8ba2d233f.svg)
 
 所以整张图表达的是一个 **分块对角矩阵**（Jordan 标准形就是把这些块放在对角线上）：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM546VXGcOXMyI58wmGwLsorM0fA9sBhCh7aTKNwbx5853XW7IkxSaCMN98ckOQrxeKFuqv8jovD9PU3hQasX1eQdCBKQM2DxbqMzhkPC7UcjA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_014_630af636ce35.svg)
 
 也就是说：这个矩阵的特征值有 **2（代数重数 2）** 和 **3（代数重数 3）**，并且分别以块的形式出现。
 
@@ -86,15 +86,15 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 如果一个矩阵 A [可对角化](https://mp.weixin.qq.com/s?__biz=MzkzODgwODczMw==&mid=2247490870&idx=1&sn=395519ec4ebb0f458a5268dbd042f704&scene=21#wechat_redirect)，那它在某个基底下就是纯对角阵：对角线上是特征值，其他全 0。
 
-但很多矩阵 **不可对角化**：某个特征值 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5CRUc9ZvGkAiaPYoG4kSvQUicoq5788jVuGq1AyQaicWQsAaELPfHCPL6fk0VXlVImbHApokoWXYicX07k9pM8AViagr2IMWndIFDJHzD6ug78X5A/640?wx_fmt=svg&from=appmsg) 的“特征向量数量不够”（几何重数 < 代数重数）。这时你没法把它变成纯对角阵，只能变成“几乎是对角阵”的样子——**对角线上仍是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7e0Nrdvf4JL86kk3eBJRZkic186tsyp7SLOVGL3DGCbuUbcRyejIJhPViafEGVsCJV2GXNsODZ4WeJfEgfVk85NzsrlFj0Jiaf2qvrW6v79bFLA/640?wx_fmt=svg&from=appmsg)，但不得不在超对角线留下 1**。这些 1 就是“缺的那部分结构”。
+但很多矩阵 **不可对角化**：某个特征值 ![](什么是_Jordan_块__images/img_015_28489fabbd52.svg) 的“特征向量数量不够”（几何重数 < 代数重数）。这时你没法把它变成纯对角阵，只能变成“几乎是对角阵”的样子——**对角线上仍是 ![](什么是_Jordan_块__images/img_016_4242d15dce06.svg)，但不得不在超对角线留下 1**。这些 1 就是“缺的那部分结构”。
 
 更直观一点：Jordan 块等于
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM73fhc04sUsn1VHBiavUgeIQbhlCXzJxuDhJKBbS55C2kCibCQPpn47vstfIarjjJn3xjMRXnTfwiaRJ5500XMs2Chib4Qh0N2vKiavfJjNQUrmKjQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_017_8f488c19a77b.svg)
 
-其中 N 只有超对角线是 1，其余 0，并且 N 是**幂零矩阵**（例如 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6oYNiciaY4f0faYVSY5LAAhcSpYEMxGuiaMfOeB1ZNwpyiagvkhia5MuMqjohtia4984VVVK9SMBpLddgVyx5pLNIujrd8ria0z7Oia2iafokJfOAUwTw/640?wx_fmt=svg&from=appmsg)）。
+其中 N 只有超对角线是 1，其余 0，并且 N 是**幂零矩阵**（例如 ![](什么是_Jordan_块__images/img_018_4d797ef4f335.svg)）。
 
--   λI：表示“按 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4SLteL05jHE8cm3YlS6bG8osEOCiaFdjKBphWKPEJm6TcbdCoN2Zs8wfXFvfzOY8wmicY0UuF0nQUCMa75hiagILu2m4zWKF4feQeBNsUsGVHKg/640?wx_fmt=svg&from=appmsg) 缩放/旋转（复数情形）”
+-   λI：表示“按 ![](什么是_Jordan_块__images/img_019_800ca7acd674.svg) 缩放/旋转（复数情形）”
     
 -   N：表示“在缩放的同时，沿着链条方向被**推一把**”（有点像剪切/串联传递）
 
@@ -102,48 +102,48 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 ## 4) 用最小的例子感受 Jordan 块的“那一个 1”在干嘛
 
-看图里那个 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7dWqySs8wJN9qaa3mzXZ4SfktMNtYkvgRN0jeUDuzTGJ1DkTulHdnSET0s4mjiaVcluicgGB055hm7KLZIx8UQ5nyJ9QtE2RAx6QnL5Lj2RLSg/640?wx_fmt=svg&from=appmsg)：
+看图里那个 ![](什么是_Jordan_块__images/img_020_dfd878a3f74e.svg)：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4bduqVAd0HyTyT9xsMIt1FJG4l43iaR7sZn8UwicIAdjgkhaR7CETibcAX3icSm7QM14FakVWpeGj1yeStFpwVn4jhFkNFQb6M0DiabhFOsRm8WvQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_021_db15c1cd518d.svg)
 
-让 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7g6O3ibDtVkISwkQqnCcPa1eNZGbib5ezGNxmOftH9icia1OB6F1EgwlXA906IWDqnQoHq76ibuwibL8H9ZwZBbEdsw2yrgic5MUFSnnKe1g98CzHBg/640?wx_fmt=svg&from=appmsg)。计算一下它对基向量的作用：
+让 ![](什么是_Jordan_块__images/img_022_ca87daca4731.svg)。计算一下它对基向量的作用：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5P9zgzkzL90Cx1U4icgDmH0r6RG0AVxcvTnN8X8kl8bFKuJjvRVsL0icmRV6lu52v3cfTSiahmFZk44sZawCy2EAW0V5p3cULZeCFcTTxormSicA/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_023_694155471ecb.svg)
     
     （很“特征向量”：只做倍增）
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7CYibrv2aiaaoP8bcsQAd5R4oKBMaqeedyUo35MRamuRoWAdPdhDDfPG8zHphTZOjp7icp7jTjuYFavTlkf4TvQkIB68bFuxl9tu4APL1392lRQ/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_024_574c61402b6d.svg)
 
   
 
-关键就在第二句： **![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6A2dX2kRILmRTAs46Whialq1agicmVvs6ocKliaWvjn6GofMTFzuu8UKe3DEYibOD3EySInvo1DLKII9gibnGlA2hLt6P7IhbNCrQppK5W3lIadZw/640?wx_fmt=svg&from=appmsg) 不仅被乘 2，还会额外“漏出”一份到 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5MNhGOibicRKNSNxBdLBGyq0awK44k8Bd2dntYNOSNsUwkAicVC2wsibwCgQ5LlA6A1tEvtXldkbZJ0px5NOVX7pKr5mSGnaS5mMhHs4LhTbruzQ/640?wx_fmt=svg&from=appmsg) 方向**。  
+关键就在第二句： **![](什么是_Jordan_块__images/img_025_546930a11e8d.svg) 不仅被乘 2，还会额外“漏出”一份到 ![](什么是_Jordan_块__images/img_026_6a7419384823.svg) 方向**。  
 这份“漏出/推一把”，正是超对角线那个 **1** 的含义——它记录了“不可对角化时，向量之间必须串起来”的结构（广义特征向量链）。
 
-我们就把 **Jordan 块 = “广义特征向量链（chain）”** 这件事讲透，并直接对应到图里的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6swia6Hxbp7dEBLk6oh9hDPjGdfUNmOdibib80wm9f9OduicxdZk2cLpcbgXaFfas0NL5hjoKduicBSzdWB8xg0aerbLtGyiadHzoWWWu9yEqFOg1w/640?wx_fmt=svg&from=appmsg) 和 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7vaKfsG2a9Zf4XMzjj2FfXgZCW6JVNzdg7x5mhlHJt3QVyzsppL9OUAdGEsqrykBicLX2K9VjicaTQ1qPy9iazdNcN0sfpEuKwvkkCn0mg3PFlw/640?wx_fmt=svg&from=appmsg)。
+我们就把 **Jordan 块 = “广义特征向量链（chain）”** 这件事讲透，并直接对应到图里的 ![](什么是_Jordan_块__images/img_027_492398756f58.svg) 和 ![](什么是_Jordan_块__images/img_028_d879761390ae.svg)。
 
 * * *
 
 ## 5) 先记住一句话：Jordan 块就是“链条的矩阵版”
 
-对特征值 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7WJgMpaXp6JkfRwaRSzG4K0IayHHqcuX04ZOSbMnHo3DxTWVPHiaBFXoD6gJBuJr0QmOd9FDpEuASFXyk7aWNgdmXzNhSZZJNxsKdR8I4pDRg/640?wx_fmt=svg&from=appmsg)，大小为 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4HXksicFTXqWNXxHVqyHnnkgsphHbz5m3uSTfq0ASOuVz1wn91OXAClHOuiacicMMNXeg0QPq6JgaTqWrAZCHtMpBZ7mwRYKaohibsK6Zt4aqGZg/640?wx_fmt=svg&from=appmsg) 的 Jordan 块 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6sIjkibRfAAstEUWQ6ypVSCo3ngBvt43OuUib9ZOTQGv0s9bdvee5n01D4zEyMEUzQjjtDQe0NwRIVVOayibyjntrEd1viczpbEFblVkAnTZ8Ebg/640?wx_fmt=svg&from=appmsg) 对应一条长度为 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4BKSsfG1hiabyDIMI5SfiaOSlaiag2Bm6mwPlL7gricTBDvVRqZr5O8nCMbjrRhViadUWsju2BUMHgnlntPP75EcYlPQ8USRco3VwUCIphD9261zA/640?wx_fmt=svg&from=appmsg) 的向量链：
+对特征值 ![](什么是_Jordan_块__images/img_029_7bf60bfcf145.svg)，大小为 ![](什么是_Jordan_块__images/img_030_80b064d04f51.svg) 的 Jordan 块 ![](什么是_Jordan_块__images/img_031_3cb257a1bf94.svg) 对应一条长度为 ![](什么是_Jordan_块__images/img_032_89dfa8cbc61d.svg) 的向量链：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6tEB0iaEZqLtVFssKuITGjdEOmIrh4nWZMv3tFHwmqmgMiaTFmxia7MMNFLaG0KMBZySliaEiaDviaH7Mxo4FZJGJ1POTPiae34KcSG1v9VWVia1Mhhw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_033_0354b864e873.svg)
 
 满足下面这个“递推关系”：
 
 -   第一个是普通特征向量：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM79uP4ncW83Fy0Xt1whe0VK4NQt0zLZDKcI4IlpvuW5XfTRQBQRPksJKaziboT2eLibFxBX2vh2heqXoE47xwFqabFW1faiauhbdetmSpnR2NVpw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_034_5562e2f0fefe.svg)
 
 -   后面都是广义特征向量（一个推一个）：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6sIjkibRfAAsl7eM9BFia5emliaWrMJc2FlRmvStic29Qj892SuqWFnu8AN78ntRgV80XuotVmZhXks9iauiaNGuga4X4mbVm18YIETsBGTAialyqIA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_035_0533f64b151d.svg)
 
 把它写成“箭头图”最直观：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5QUQFrXvtqPyOwZP0PzxZYvQGiabhp0u6BwriaDHyatAc80lara30ic5St16wibAZrfAqPcpqic4z4IbAObXGl90KwiaMoQ1mc5yBOx6rTyzG9UCDg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_036_29e458d48570.svg)
 
 这条链的存在，就是“不可对角化时缺的那部分结构”。
 
@@ -153,7 +153,7 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 先看最典型的 3x3 块：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4BwoGShe7pL12LYE02W40A12gm4cfU0afHIFIBfyY8gVXPBSDT9aJaH4rMCxMJcISjQDw5d7BibGib6hIuYm6S8wrlByJzYfgklzKEYNGBDbXQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_037_15289f15dc7d.svg)
 
 这个 N 只负责“把右边一格推到左边一格”（也就是链条传递），而 λI 负责“每个分量都乘 λ”。
 
@@ -161,7 +161,7 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 下面我只讲那个最关键的“推”的矩阵 N（Jordan 块里超对角线的 1 对应的部分）：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6yNPvnkDDhR1PmMAWFNKb3ia7aJWTFdrBVXWjvMaibu3Wz5saLqdqZ5crnW0GywmyGzMibU5yYX9X0yqT2MLoich78TC0T2SkWyNjc9hUIOhyA5A/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_038_5ccf109f449e.svg)
 
 * * *
 
@@ -169,24 +169,24 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 把一个向量写成
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6gjYBbn6Uh4AGPCoprsGeP8WdFZoZAia68ESADkNrKlljs5m6jYeLvg5lmehicFLtTkIr3HIFXIg03buGtgwgEcZnRnaS4EHd21vsCcQGXtAoA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_039_8fe40185712c.svg)
 
-做矩阵乘法 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5SA0hYANqGic09ptaUj901HpVw2XARzpV0jRiaVQmDJ4e8DBDPc37laiaO6OstPaxUQvMcsIicy6EGGibgvNuwvL05onMwviaJsB6nnbhViaL9nMZwg/640?wx_fmt=svg&from=appmsg)：
+做矩阵乘法 ![](什么是_Jordan_块__images/img_040_41abb96d5515.svg)：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM546VXGcOXMyPjlYRwbmicdVYvgAxSLaAU99dpjKoTAl77eOkfgqDNEUfKK7ibs7zUoL5KC2qvLvFnMOrhtotToaFGU2sZNO2UobpML7fgZ711g/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_041_e433ff0fd446.svg)
 
 **这就是“推一格”的最具象版本：**
 
--   原来在第二格的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ZMQf2pTc8YMQiaf1sgzLRGCQcrgBmkJxQ9WuxpLmbq01uzE9pv1nWSmAVsZbWjvsvqyG7ia7aDtoqvjIXbamWrSL4K04bm7IR8F5OzWybT6Vw/640?wx_fmt=svg&from=appmsg)，被推到第一格
+-   原来在第二格的 ![](什么是_Jordan_块__images/img_042_c284736e0012.svg)，被推到第一格
     
--   原来在第三格的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4JXQSAEUXprP84KvJTZFFwTcfUGVOcqr4gq9Zv4nG2d206cW8JIOicGXSIKh7xxuhkXibLk7NyydVyW2LibtuwmrxdbgebAHaIvhQZvy433Os3Q/640?wx_fmt=svg&from=appmsg)，被推到第二格
+-   原来在第三格的 ![](什么是_Jordan_块__images/img_043_0855e0851e7c.svg)，被推到第二格
     
 -   第三格变成 0（因为没有更右的东西可以推过来）
     
 
 用一句更直白的话：
 
-> ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7dWqySs8wJNicjM3DC6GKQj2eLoENCzsRHicfjHrjiclQ7GEX0T2R3YkRuGian0OMJGaat2YbZSmlDydFZFsGbsTHAxCHLxlzRiaU3VlpW1h4uahg/640?wx_fmt=svg&from=appmsg) 把 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5PdRxpWCNEArmO3ia7lwuJm2kcfdicw8E19v6lHtCT0dmydxHcBtnlgicJ7VcDIw2by2csNyV2iaZANWA1lB0Z4VNoEGxYg78PGXoO2k7SrGQDBQ/640?wx_fmt=svg&from=appmsg) 变成 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM72OIXwzXkPudjz3icPSTRicdracib3rlGPZMOrRzA332bLCZTGQtqxxSw3JNibEuqUFemEp7SmMg05mWA5gNX0gZGBB349y6stMYFvLCKVqbWIibg/640?wx_fmt=svg&from=appmsg)。
+> ![](什么是_Jordan_块__images/img_044_e68e4e18f91b.svg) 把 ![](什么是_Jordan_块__images/img_045_410d7c8a212b.svg) 变成 ![](什么是_Jordan_块__images/img_046_a4dddaa3f1fc.svg)。
 
 * * *
 
@@ -194,11 +194,11 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 取
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4JXQSAEUXprFSskztY1vCYN2CxcEpPQIkDUwRRVbicKAsjA1tjUxLr1qmLLeJdzMcXqD7dEP3G6dArFQWYdnCcmtssaxDbusJjc9zVa8lowDQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_047_dce33a22b027.svg)
 
 那么
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4SO9KJxTN5atQRicMPeiak9UQ34VMnk2Oux4pbELLnIlP0wUjwAIJqa7yMzcaCwthPsr5Ixl4icUuMibicTrrmV6M12zRum6f8wibqXn8a4SWGrURA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_048_a1da01e9306c.svg)
 
 你看：**20 从“第二格”跑到“第一格”，30 从“第三格”跑到“第二格”。**
 
@@ -210,129 +210,129 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 标准基：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7jHWm6rIm47AVydqsEYwP7U9sEjc3CRiaa0fmDclgHCguyOia0ShsB6j36q898S5lhKnBHJkCKicXoWeyLMCsQZs2KPEUwmjHfMaO8OTUJ5ashA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_049_7c50408acbe8.svg)
 
 分别乘 N：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4c47kfCmDgBhd0ugCvKicNmjvGIK5lN8xKhzhnmBdkibWx76qon8L7HBh7kIykQt1Rr8ia7JyDYXFib7IhjpQIGXWtrccFXqNPwtAx6SZQnf1W3g/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_050_9d35f3f48912.svg)
     
     （第一格左边没地方可推）
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6xQGuEfqhe1WHqjtTuPvjBa1TzpKRw4VGEkNYol1iaKQxFQOJkbZXs6eIthJXzsv9D6aylMAx2fnGRs7EPP8PgSJ6LXe5263mznvzTJLIQotA/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_051_0098276aede5.svg)
     
     （第二格的“1”被推到第一格）
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM72OIXwzXkPufbFNzZjWC16QU8nE8te7nAA4RO96L3amv56QHxSz5icibIcCxQlzfYGdlN1SJgq8jaS6CHe6DWVicor6oQxntxhib2hlT8CyNBvOA/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_052_2edca20b7883.svg)
     
     （第三格的“1”被推到第二格）
     
 
 所以它就是一个“搬运工”：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6R2UQuTP2oGEY1hHagnjh31I4NHZxNF4qKGvAZ8hV7tf7oC1S0mFLorqicvHhYsicaicQc6ibdJWySFVc7xHiaDucMKcoMhVYGs6TlQ8mWHm2V43g/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_053_15a49bf941e8.svg)
 
 这条“搬运链”就是 Jordan 链的矩阵影子。
 
 * * *
 
-## (6.4) 图里的 Jordan 块其实是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5LbPL8icKNxbkyff8uT0MNsxIsE3LwIOtdxEv3vKibowyj5ibIDSyHumribxicw9Yld2DzRfVqO9vlatUQt7jnnqdIqe5VxKmRO0USAThX2m1exxg/640?wx_fmt=svg&from=appmsg)：推 + 乘 λ
+## (6.4) 图里的 Jordan 块其实是 ![](什么是_Jordan_块__images/img_054_25e4a2dda323.svg)：推 + 乘 λ
 
-以图里的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ZbTW8mQ9QkiapjPKOGy3tDyFR353H9D2OkIQeE3ZM21URkrcu8eia69icfrbuZjKC4OSxf0jgwiaUoQdJ30IVIPVHRawtcafGKqAHITUVpmrF0A/640?wx_fmt=svg&from=appmsg) 为例：
+以图里的 ![](什么是_Jordan_块__images/img_055_6acea0fc53e2.svg) 为例：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6sAz5OWdbfR6wHwTa4yAcwGSxpyll18nEeL7lO9hdvQvq9LXQ53HE9kC5K7ibsdvOibXHa55dK2ITibHSkAf8iat1yLhndj4poW92LM6TVAnlkrA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_056_1e3b10e8fbcb.svg)
 
-对任意 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM68TIFib2hP6NZJM4uZAksdMlzlj4ib84iaQpibicxfV9SYCS7rvL0q1bH9UrdUUudu1H3EaRasaGA8fyzVmeDXEfAEBksxLmJa0YVst1C53fe9Jkw/640?wx_fmt=svg&from=appmsg)：
+对任意 ![](什么是_Jordan_块__images/img_057_9e7cbbacb559.svg)：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6KE8NpdD3rc1q2vbCVwq4Wlt257Xjp6qwDVH63MBKBqjqygSMaCIkxhpUekU6mFtib2rgibcIfN13k7eVgqz9g8kX0LEjaP1Lk80nrWdovg5Zw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_058_0754681b1b25.svg)
 
 **非常具象：**
 
 -   每一格先“自己乘 3”
     
 -   然后再“从右边借一点过来”：  
-    第一格额外加上第二格的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7W32jqLPNGIpPfSYaHTPgZtDcgD6YI4fsQWPcuZToytNQ4zXCMMqHYDiapAejcODy3fmeYLUwQT492bB1s7QurH5ll7RlP1a2rqexwprk1X0g/640?wx_fmt=svg&from=appmsg)，第二格额外加上第三格的 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5CRUc9ZvGkAvLIYFhJeHzjicjicA6BPSBMLgEw0BgGVxN8u2FRwwqn1Ag7z8YHfa4HibtQnJesmg8icz5dIpPh7KSDC5Ajicnb4E2hff9Tq95DI4Q/640?wx_fmt=svg&from=appmsg)
+    第一格额外加上第二格的 ![](什么是_Jordan_块__images/img_059_8c9c7c2fc813.svg)，第二格额外加上第三格的 ![](D:\电脑文件\公众号知识库\数学_线性代数\什么是_Jordan_块__images\img_001_1734ae15c6ab.svg)
     
 
 再用数字走一遍：
 
-取 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM72OIXwzXkPuaiaNVO6ViaqlcmxX4TyU3fAaGbW17NO5N49eRllOjhblibFtUaQXNbyRpic5hiasiae8htFGjVHtniawWTDM0wZ5Fp1h1oensrTeyQjg/640?wx_fmt=svg&from=appmsg)：
+取 ![](什么是_Jordan_块__images/img_061_6e3ae86f80f7.svg)：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM42L4cxvkOMFW2SQaChpb8v5gWXliaZs9M5ed4yrv8p3ia74XQEGo6XAgT4WS62ERyFY6NjlqOaWW55hR3TmbQFfich7SEY4OAyovfHunLshT5gg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_062_4c90e22252f8.svg)
 
 你可以把它想成：
 
--   先变成 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5wvbVCY4iaHybkdKvFzCCEAdmJlW5RCfkOsIHD0gLDPAn4dXJFDPia7S7r8rJW0iaeeP3uVrhM65O3Ifuf89b2SlyW8lnzqEX0h41ocvw9jlPDA/640?wx_fmt=svg&from=appmsg)
+-   先变成 ![](什么是_Jordan_块__images/img_063_b0ab43bf84f7.svg)
     
--   再把右边推过来的部分 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7TLc9ke2ibYmWP3smg2C9UMsREmRdyUECAEA5wBkfVmvTzTU3nb43p97oKBSlLeOoXJ3TpFctFjkuibE3yib7GCQLhOAqRcBbJZjfAgldsHEDOQ/640?wx_fmt=svg&from=appmsg) 加上
+-   再把右边推过来的部分 ![](什么是_Jordan_块__images/img_064_ebaf7d3bed7e.svg) 加上
     
--   得到 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7icLwbuCKDhmbB0a53WkqPPkLIH6JNou8A6uQtjZ9n8sdZnJjR0xOR34rjaN4qhw0lyZnjPtSmRJN96tEiafgw5kv5E3sBkaFQtyTpeGgGvbfA/640?wx_fmt=svg&from=appmsg)
+-   得到 ![](什么是_Jordan_块__images/img_065_317db1a34c0c.svg)
     
 
 * * *
 
 ## (6.5) 一个更形象的类比：传送带/接力棒
 
-把三格 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4hCAAOiarqIzwBJgVoRJv6G6co4OnyCU9bykQmQ1icRhia3Bgy74rQTxfbdyDQiaUiaA7UqWL4pDbQOajauWLp6YdxRDgiaf3n5I6NVCqAdGT2rdlA/640?wx_fmt=svg&from=appmsg) 当成三个人手里的“数值接力棒”：
+把三格 ![](什么是_Jordan_块__images/img_066_12802516915f.svg) 当成三个人手里的“数值接力棒”：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7A6DNtEtfJEt0d0wZfPe5X0zaDia3WL2zstDVCkkf4QezjSc60VoAh27FltWLIfUnqibSRkdy37vHRibTtdnQgHSXOsAX2Yn6WAPQOjg1YoeB4g/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_067_515f70c1e2be.svg)
     
      的动作：右边的人把棒子递给左边的人  
     （第二给第一、第三给第二）
     
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4SdW9smE0CodyKEmZEuHSicwDos3OIibUsQpV0jHEb4wUllVFDML0NxomSN0ib3und09X0HP1IM9xNyzWYeySq8talFl5yZiciaQxiaBbN74mP67yg/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_068_ea517038a366.svg)
     
-     的动作：每个人先把自己手里的棒子复制 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7ibLIuYVJkVVicxDwds7Zs9pf4lXQ8oYLdYbrzteResHbH5sv0XrR7WkKGzFVZb1sBKUR5dB168v2I87B58dialYUMGr8lE4LhMKfapMvIGmDPg/640?wx_fmt=svg&from=appmsg) 倍，然后还会收到右边递来的一份
+     的动作：每个人先把自己手里的棒子复制 ![](什么是_Jordan_块__images/img_069_9600ae583366.svg) 倍，然后还会收到右边递来的一份
     
 
 这就解释了为什么 Jordan 形式会带来“链式影响”：右端的信息会一步步往左传。
 
-如前所述，取标准基向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7Tbia0AiaILx9qgOoB0dCED9r49bK5zWLZhKZQWV5KecKrbuEp06L8r7HRoMtUlU2hnYhc8WwibBH0leibWsUf0d4J3Nnft2gdWqmZFuyYFzPXEA/640?wx_fmt=svg&from=appmsg)，你会看到“推”的效果非常明确：
+如前所述，取标准基向量 ![](什么是_Jordan_块__images/img_070_f698da2bf817.svg)，你会看到“推”的效果非常明确：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7w5fehvkhDib7WV7d5RMSWI8onWufjuXgibiblp8iamcSuHeu9cjia7o7IiavRstYn1tGUFz0wbX9BaNImejgVkDyl35IgL8vHfWWcye7fzDiaDIBOQ/640?wx_fmt=svg&from=appmsg)
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5dLqf0dvXVaJuLGwnUWxWJ1rOcicqd0Zt6K7JsCAtQu2QBZ1cKknzPiaibXxAbxpGhN4ZicDL8keicwq25Lr4fibG2zeWIlVmiaoticaXcyCIrr2ibezA/640?wx_fmt=svg&from=appmsg)
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5FXwpk7oiajqOcRpM8tHWYK9gzvibzludEQUyEY2hUuwtYzZd6E6yQzls6DYuAwxvVe23YtwlPbWY0gWDXulzCnJHRUeZ2ahn5CtnxoGsEzEWQ/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_071_7263209dd979.svg)
+-   ![](什么是_Jordan_块__images/img_072_1dba6e397a26.svg)
+-   ![](什么是_Jordan_块__images/img_073_71760195c12d.svg)
 
   
 
-所以 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7w5fehvkhDib6MCI7QtFkNSFqjsYHWrTqHkDqFvKMrdLbVKvr59E3VuARciaia8hrMxPtKEgYWWESEoOa7aqRHTvqBzmESWUSLBAv7YwM0P7JYg/640?wx_fmt=svg&from=appmsg) 就是“链条传递器”。而 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6tEB0iaEZqLtfuibicNqY7MktUALkGOBcHoyqsOicicBD1jnoWzrvToOQTaKdzxmaIr4bArmEUh9u1ibJoj7wic6VF8buNqGZyAJPcGy5ElCmGJxfag/640?wx_fmt=svg&from=appmsg) 就是“先乘 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM53qZ9oGDHY7kUibVsvrTSnnMcKGFPUdLdl5jD0tDQRgFwuFGCqyvdyGDtDRoPKV5Ficzhu0CWicYETPSNd0hpB34otU9HAuRFCVVIntKr9kEWhw/640?wx_fmt=svg&from=appmsg)，再额外传递一点点到前一节”。
+所以 ![](什么是_Jordan_块__images/img_074_dc3b645056b3.svg) 就是“链条传递器”。而 ![](什么是_Jordan_块__images/img_075_76a983a13f91.svg) 就是“先乘 ![](什么是_Jordan_块__images/img_076_26ccf76e3222.svg)，再额外传递一点点到前一节”。
 
 * * *
 
 ## 7) 直接对应图里的两块：分别是什么链？
 
-### (a) ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5wvbVCY4iaHyZGd4PcOib1jGfkGj6bO9DAwnewsu2iaUUTEmX9icMNLkJYmUqmjPnIsic9f2AdoWEtTd7jEGAqW3pxic2O75OLxVvib9HU1eLlYiaia9g/640?wx_fmt=svg&from=appmsg)：长度 2 的链（特征值 2）
+### (a) ![](什么是_Jordan_块__images/img_077_01775da7b010.svg)：长度 2 的链（特征值 2）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM48WVuMCVpKKV7GrjMo7ibqE1oqicEwiax6LmI9lichiaPicgibYxQ9vGWAAyseSQle6eodeRkHb5l2LoOh30mXHABibkZ02W2SQVgmP5AaElEtWJqkPA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_078_25acc57e4ab1.svg)
 
-对应链：![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4I4Awoic9Cau3af9tlurM6ibib7ZL0oXKVtLwGfBvzqelUpiacx7XZKeIkkMJfCMaQcSIS8QrsS4ibtYFre9GK5OMRVfn5Y5bqkxKlL0j5ltL5zvA/640?wx_fmt=svg&from=appmsg) 满足
+对应链：![](什么是_Jordan_块__images/img_079_4e9013110031.svg) 满足
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5lVme00hgZUBJsOqhWK6hibNgiasXOBdjBtrlgzzyNibam9oMicggJGicyrvRKTQtfJ1PB9fjbvhCsqQupOibP3BF5VhbqOBCbLS47fpyLOvRMcVTw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_080_510fd9f4d7b8.svg)
 
 箭头图：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7k2Dibrt3MPIZxaB3xoyVEiaVUrUAk8iaW74lNvLdnEWhQnBhA1iathgia1URI8GQKBRpPvicnraqFjaDSTE9qSzw800KW6Jm3n2SIicicCkPdj0p4sg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_081_486a751d16c6.svg)
 
-直观含义：**只有 1 个真正的特征向量 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6rU6pFYYpZAHoKiay7cc29E3iaf7H862FicQadpMjcX0e788LYMuB0VYgZASzkjUdSRs3bJwcJqSRwkCQoicia0oHZOVibn0Mrrzuy4NEdYLiablkUQ/640?wx_fmt=svg&from=appmsg)，但代数重数是 2，于是必须再补一个 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ex43d9b0GibEvnx4ian7ZHED5C128u6PEtT7cAkcEwwAZheicHd49hurdPibwYkvMH003H3kic6IuzDQsNibo6Beur5qT9gDUpRx7gAoch6IFlz9Q/640?wx_fmt=svg&from=appmsg) 来“串链”。**
+直观含义：**只有 1 个真正的特征向量 ![](什么是_Jordan_块__images/img_082_4975ad3db458.svg)，但代数重数是 2，于是必须再补一个 ![](什么是_Jordan_块__images/img_083_57add7ccaa3a.svg) 来“串链”。**
 
 * * *
 
-### (b) ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6Gz5c5dV8Q7OT4cGM5icTPntEn10xAfMRXiaDjkybcE7LnkKkOiac2pBJ3wiagrW3DeLSyQDv0YSzIr3UJ3s6RIBw5TPXgh0DAjy2u01Q7RF2vug/640?wx_fmt=svg&from=appmsg)：长度 3 的链（特征值 3）
+### (b) ![](什么是_Jordan_块__images/img_084_e05d958c4849.svg)：长度 3 的链（特征值 3）
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6PqIkrgdIQ4tdRia3dviaeWsEz3picEQQsdFgpxS8IwaekYwe4MbEgHfKCUmQsfqq4fCrRlulOb3iarkRibbuQUGk4BhwGkZJNafprfjrYib9ibmPSg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_085_22293149c27c.svg)
 
-对应链：![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7jHWm6rIm47JAZhyibTgmgmicBr2icicN9DO3okZh68DDbdLeJFu8rNbScFJ8KvzpLIqP4jgF0gPIgufTAwk4vjekpQblwYEA2bDFAkGQ6QRibKibQ/640?wx_fmt=svg&from=appmsg) 满足
+对应链：![](什么是_Jordan_块__images/img_086_c62e022e982b.svg) 满足
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6swia6Hxbp7dO42NtHodVIicY6vLIBd34Ivh46Vdh7qNqiaELUzxs2tWiancDJjgbjgaO4D8XErEW8ib0DgpIraSHLu4oV2tw6MWyjt70rFytVUdg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_087_a8483304c2de.svg)
 
 箭头图：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7xPFcRccicr2m0DPxRNsBDZCUdaeGOEeyJwDlchwz8dcBNljo1r8kQr8PU3nh4v0hNo1h36zZ4oHZWjjD0T4pmbmlnuNkoRdhO4OuTZDXDkRQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_088_1151bda308f6.svg)
 
 直观含义：**特征值 3 的代数重数是 3，但只凑不齐 3 个线性无关的特征向量，于是需要一条（或多条）链补齐维度。**
 
-> 顺便：如果是“凑不齐”的另一种情况，也可能出现两个块，比如 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7g6O3ibDtVkIVXPWJtN514yQMcGicXVhtz5oeqPYgjDBLNXkOM6Qzuyq1esnoBJu2vt8LEN3wYyymiaTM5nsam6UkuIf66ExXcfQicDFLyz2yGug/640?wx_fmt=svg&from=appmsg)，那就表示有两条链：一条长度 2，一条长度 1（这时特征向量就有 2 个）。
+> 顺便：如果是“凑不齐”的另一种情况，也可能出现两个块，比如 ![](什么是_Jordan_块__images/img_089_9f04a883ebb3.svg)，那就表示有两条链：一条长度 2，一条长度 1（这时特征向量就有 2 个）。
 
 * * *
 
@@ -340,46 +340,46 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 -   **[可对角化](https://mp.weixin.qq.com/s?__biz=MzkzODgwODczMw==&mid=2247490870&idx=1&sn=395519ec4ebb0f458a5268dbd042f704&scene=21#wechat_redirect)**
     
-     ⇔ 每个特征值 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7pO7QxSCXKafsfHg99lm1yx1CTuCB2jseibXWt8CIqfsncwYfSE6ZAseocMwKy4nItsQkia0UQC75DZeekDk1QQOgWQ1LzS0rv5NaRlStbUNYg/640?wx_fmt=svg&from=appmsg) 的 Jordan 块全是 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5EsjF1J9mGjcJx594yicped7bXwTrQXgANpN7hhENj4g7V3sxK8PB0uRhm2gQLDH4IPLVnwrDmDTQOFMmebtiaHCQXrspMAxrbtI2cbzoRaibfg/640?wx_fmt=svg&from=appmsg)（没有任何超对角线的 1）
+     ⇔ 每个特征值 ![](什么是_Jordan_块__images/img_090_d28f95730c32.svg) 的 Jordan 块全是 ![](什么是_Jordan_块__images/img_091_239e84439095.svg)（没有任何超对角线的 1）
     
 -   **不可对角化**
     
-     ⇔ 至少有一个 Jordan 块大小 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4Das6GQSAfltgvicOtpmRTCnCA5woknGib7xzj9m6icE9jjPuARsPUGu6Cia1DAU44t072ZibSqsr9Qic7eC7ZkuNXh95ibVUAZiaYM42f2ovr6xA23g/640?wx_fmt=svg&from=appmsg)（出现了那条超对角线的 1）
+     ⇔ 至少有一个 Jordan 块大小 ![](什么是_Jordan_块__images/img_092_6a49ef6e700e.svg)（出现了那条超对角线的 1）
     
 
   
 
-图里明显有 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5gju16GXSGEPT34wRuxN5DLqf2jQbFkWbbLnux0SP7ShTenqp1bTLo1ia7JcEibe37OTg5MwRhLZOFuTib7OXzG4Ej13GyHiaSZzMrvFBg4yVJww/640?wx_fmt=svg&from=appmsg) 和 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM591GhHibmdp16LibziaEYicDW0XUB3AFo78XxqnCc5RFfvHia6ollk5GIoOo6fiaicC54uOhULSFJncSnjiavqlCXO5Ky7a1oLUH4LJQNFhWCIG7pH6w/640?wx_fmt=svg&from=appmsg) 块，所以对应的原矩阵 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7zmBEpRjw3xlRUkqO18H4veS0urkCqID4DibIXEia2JdEZ5NaKq21ibTKYiaXTJl5wFmdzEJCfcL2b2xrUt48OwHaFUbsZyVia1pBeL3m5oy0COcw/640?wx_fmt=svg&from=appmsg)（满足 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6ueMzutJ1OFzG4XZtZDBogZrjwEyjyZ3YFZWLiajLRZqOaLHLIicPxxxVsxLG8vB1dOr7icHaUfGYtVHd0gZoicJWxlKxiaTySf4g7dWicUSloM2BQ/640?wx_fmt=svg&from=appmsg)）一定 **不可对角化**。
+图里明显有 ![](什么是_Jordan_块__images/img_093_ca7408617051.svg) 和 ![](什么是_Jordan_块__images/img_094_eafc500f80a9.svg) 块，所以对应的原矩阵 ![](什么是_Jordan_块__images/img_095_d82e3141d502.svg)（满足 ![](什么是_Jordan_块__images/img_096_eca7e1fa746b.svg)）一定 **不可对角化**。
 
 * * *
 
 ## 9) Jordan 块最实用的计算意义：算幂、算指数特别爽
 
-因为 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7e55iasTgibFvfr5Wkicib2Wp5EMibuibol8FZBDA729gIxFgFbpDUrD7b6a6aBOUGuIP700rNEygMSqlGibIa2DiaATbISdaibPS24H03pjpN5UgIuBw/640?wx_fmt=svg&from=appmsg)，且 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5EanPsXVBWLQib6rm3TtRQc9Vbbl5vZHoIkAdib6xrZwgQXsMmzYuCd7Kj2tSbjDibGDImyck6PtATO6fHXlW2qAXV7gspe0dGEVbErggyBSdsQ/640?wx_fmt=svg&from=appmsg)，所以：
+因为 ![](什么是_Jordan_块__images/img_097_7f120949341a.svg)，且 ![](什么是_Jordan_块__images/img_098_1b6cc9a7c284.svg)，所以：
 
 ### (a) 幂次
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4UvWRSZEvpogntTEbSLXRdZJG3ETAOUr0px5ToyQTn33Mu2v32TibPyVz1PwS1hyxiaDHmSY1d63xkJI1uUGKAayGVQspuicm2TJIL1iccdYt9jw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_099_953f9474339b.svg)
 
-只会到 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5oz0auhIhNH7UhmTzb3eMOKtXdj8hoB5hF1tYSVMojjd7ibHuYibfgXniaJo2PV4zU4wxbDmfkTOOug60xon12WIXickzwXa3pC6dTJic1nJeTia5Q/640?wx_fmt=svg&from=appmsg) 为止（更高次全为 0），所以公式是“有限项”。
+只会到 ![](什么是_Jordan_块__images/img_100_fb8d039a8a28.svg) 为止（更高次全为 0），所以公式是“有限项”。
 
-举个超直观的：对 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4r34Xgnpic4oj1xTBJtkNX9zbZialaF12nHuFvhkZdmHOvf5E8jWjxnf9fKqNlC3bq6vxqZk268snrqGn9CSO4rFwy4RdWibqTO0wFEtiaXLkoKQ/640?wx_fmt=svg&from=appmsg)，因为 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6m1Pnp5X9ib48ibmv1UxVvlkNicBHR6G8JEKy123ZqXlNAT3xrfNUfWC1aBRWgyGhdWWEKbG0P2r8hLMXJXFphf7QkDiaVMHyV68hHb9oJDj7icuw/640?wx_fmt=svg&from=appmsg)：
+举个超直观的：对 ![](什么是_Jordan_块__images/img_101_954d33c09bda.svg)，因为 ![](什么是_Jordan_块__images/img_102_cc38a4d339e7.svg)：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7ibLIuYVJkVV8icd9xzRK8buE99ZnHznK8ghFTsFKLJ5DV5BMVicoN9rlQdRwiarXmxGpvp7aYicric7hSRQUQaB0tat3nUC0eajIKicPT8Su7j7JvQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_103_8af9c132cca7.svg)
 
-那条“1”带来的影响，会线性地乘上 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7SxMowpq8WneL659IqqmBEwF7ORNkliciayG8Y6MFfnRHI7GcWFUyNpYEIBcRJ39Mk74ibAMcn4AjazYUSQmKWQcXQKYgs8QhqtuBT9Z2ibbgzLw/640?wx_fmt=svg&from=appmsg)。
+那条“1”带来的影响，会线性地乘上 ![](什么是_Jordan_块__images/img_104_20c3c9333e51.svg)。
 
-### (b) 指数 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4yaIzUv8Wic1RdqHj8MXiaaDUXKMDfzbxg0BQ91yeMwsKG4y655doASp7yVS9v6Qh1PsS2Vs04nNpCaR7eib624rREAyKk2MH5KibWclwOaEPFvA/640?wx_fmt=svg&from=appmsg)（比如解微分方程）
+### (b) 指数 ![](什么是_Jordan_块__images/img_105_5ecd070cf471.svg)（比如解微分方程）
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5VfxQjjBdmYPmgpibv7unAaicEc16G0HJaxOGWSUvt43TLalVBTyPv9YtkEY4fRjhibIibAqZbAGjpibted4H0d2slF0XMGCwAP0RiccHm2nNxEafw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_106_829497010f77.svg)
 
 而
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7ic0wPoofj6S5NeKgL0N4yCRZaJbFNVtKJTlexP0pt91djhiaE7icbaHrzVrSPSPwUQ1BxFJ9necJtS8jSRdaZaxF3pZAPNyIXTs5PFiaKqhdaLA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_107_c1d91b87a049.svg)
 
 仍然是有限项。
 
-这就是 Jordan 形式在微分方程、线性动力系统里特别关键的原因：**除了指数 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5Im49yZyGFyYSqV4qewiaYIy3icBmB0ycaypeCgbrfrZkJJDVPqMcKI6kgdh238kGjUbKSiaHFszbF1R6ZKsPSn0occkqXuObhLEXGV4e8iajDjA/640?wx_fmt=svg&from=appmsg)，还会出现多项式因子 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7Mc3BhicicgISd8DoIoZsE1C3oZ7CBvXDrtGZo8KibxQwKcaxdsWhrbA8DNiccibIljm6RE1BQUmvb5VjDc8L0Fj3ANWoNEm4I2mhHfHtWkGTaibPg/640?wx_fmt=svg&from=appmsg)** （正是“链条效应”）。
+这就是 Jordan 形式在微分方程、线性动力系统里特别关键的原因：**除了指数 ![](什么是_Jordan_块__images/img_108_91f9260027e0.svg)，还会出现多项式因子 ![](什么是_Jordan_块__images/img_109_354c17458968.svg)** （正是“链条效应”）。
 
 我们做一个**完整的 3×3 Jordan 块算例**：从给出矩阵 A，一路算到它的 Jordan 标准形 J，并把“链条”（广义特征向量）构造出来。
 
@@ -389,48 +389,48 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 取
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM42L4cxvkOMFUYpvc6ldHjUQD3juemcBPYZjDmREPykmbBAlPq8pqQicOfLTbl4LMLcoUHVL2FGJnGsgIDPkX6LBolUKtbj0yOBicoicicLzoxgCw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_110_9f7af9ba38d8.svg)
 
-目标：找到 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5SA0hYANqGic3mqpYkJOlBdofmVMxfLeog4ibYgY4931JEqQjuyIr6YIFbwktmNZCUJSOJ8UTwwtWOhMUU2hSLA6rjpSzku8dn5P5zNOiacPV5Q/640?wx_fmt=svg&from=appmsg)，使得
+目标：找到 ![](什么是_Jordan_块__images/img_111_f035743ed79e.svg)，使得
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4SdW9smE0CoSiavRYdr8fTCOfJGvEFq73pfb6v3fbvUonIwdCWnZ9yQL58HVAE837ATUMibTW2dibhIpmW0a4sBUxicuwmlh1xd41SD1ZmfHnqDQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_112_002fe03a0e2a.svg)
 
-其中 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4dYjcUt4bVpGcibXicnXHfv6lOWTD2zpfjDQicrmG7as9wqWy4rpAqScZib8eAIFibZOWr7up863hWyyBn2lKk22dpbsW5QIA4ktVUVkrlPxHmyBA/640?wx_fmt=svg&from=appmsg) 会是一个 **单个 3×3 的 Jordan 块**。
+其中 ![](什么是_Jordan_块__images/img_113_5e573095b0c1.svg) 会是一个 **单个 3×3 的 Jordan 块**。
 
 * * *
 
 ## 10）先求特征多项式（确定特征值与代数重数）
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5ACSVSTxskVbnDPwuq3G4dkiaNibFL3TQmo20mD7EkScvvTibLLTibCB5lxvrsUzp798oTNG3ne6FFZmqiaicNW3vQN0QiagogOsOlHmmqs26DzRncA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_114_e4fadc681e32.svg)
 
 按第一行展开行列式：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6DNmFI0o2D7McY1t09qvm2ObuZFpsY8ibq9DibYYVoA8t0Aek4gHmagIciaZJAOVCovQAAuFvfrYZwoib6rklzeNXP6cB24HN6yxrozsKELrWrbA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_115_812971a747d9.svg)
 
 计算两个 2×2 行列式：
 
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7l1DtiapIyeBJ6nJqpia3XmgoXOTZPVlBg4dhKLibibd7JoHS87SSgyqbRpEuzS4c9HTGP22IlQMLjVHQeyQCL88x5wOrBrHqtQob1PjfEUNgS9A/640?wx_fmt=svg&from=appmsg)
--   ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5CRUc9ZvGkAiaH0uUJ6ibI8rddaWryg9L7YTNicL06xVoqUdXsl4r0CCYAK8YhqGxXBIxgibphSlIzglyjNVyXj34aSBf41MfPKFia6rJ47993ofQ/640?wx_fmt=svg&from=appmsg)
+-   ![](什么是_Jordan_块__images/img_116_016eb4e33912.svg)
+-   ![](什么是_Jordan_块__images/img_117_33502e440dbe.svg)
 
 代回去：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7IficYiciaibWZCtwrI2GWc4F9lmYTqiaaItS4iby0o0y61g8EibXdAx8YicErEGYwngUt95iaBo19C4X4anZ7pJfAsaoYECORd3ZxGFK0dvLHibunI3MQ/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\数学_线性代数\什么是_Jordan_块__images\img_002_bcecdc505b22.svg)
 
-把 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM57lbqFsDyjdU7l6Yt5pv8XJThUXXLucKFVyVFJUcfic1feucyOKDYmWSqcn6iaUic0JwRTEqBvf4riaWgc8rjWtxLs8mTtBCB6F2oBNibOcCQ5mbQ/640?wx_fmt=svg&from=appmsg)，再加 1 得 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5O0wvqtIOSblbc25lgMrzNpO6a281JcQk9dhuNnCwRNgJY2IsnvnRcB6MbCSpRJTtAcorQeLroyhtMQpYicGY4Fh2tnH7dzic4qxcXh1SmhAyw/640?wx_fmt=svg&from=appmsg)，于是
+把 ![](什么是_Jordan_块__images/img_119_1067dcfdf7f2.svg)，再加 1 得 ![](什么是_Jordan_块__images/img_120_5747ea865f45.svg)，于是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5wvbVCY4iaHySIPFfkfEq8OgiclVaT1nlcckKygm5vDZDHWbVbvl6biaD03uQ0bsQR9BXGjN2B0APEzc83dpg680HGzgGmokqRBJ5NcHbJ94FEA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_121_0aeb6c0cf370.svg)
 
 展开：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7W32jqLPNGIvYwLh8GYNfRavqIicKXLibpQtgZYshbtplsjsJdysD5QOXKcl5jOBaBSXkP3Nfdjfo0YOn0WpibCXMxpO4OUMhempl1h4GicWP1PA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_122_d6ef059e2461.svg)
 
 再加 1：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM44Udt4fPk2ZPibG1fUbEWKN0aOIaXXxdDS1rtEnPz19k37Kmtexh7iaGb14dJoMdPBqZhyT60b0GJz7cAC3iceib4GVdtPovFVEQibSiaClSlmtmwg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_123_204614cd08fe.svg)
 
 所以唯一特征值是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6A2dX2kRILmfC139Q1KOgwU09fs50VFryKWIfSNrMsIiaIexgJGAbX8vViaibxibiccibd6D4bHVpm5CU7XLLMsjmCQ38H6rB88ia2zb8osibzhMucpQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_124_75a8a3fbb8ce.svg)
 
 * * *
 
@@ -438,90 +438,90 @@ Jordan 块（Jordan block）是线性代数中一个重要的概念，它是用�
 
 算
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5Jp0wN3B2d6ibj1F70WDuRwAFodHCTT0n3LymKk9K8jn90ic6gGJhs92KbcVicyftSDL6zOSolICX3YDJ6s0SM5Kicqe8micHiaibhGNB30PuNXxPOw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_125_40c581b80a75.svg)
 
-解 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6tg6EdJofI6TSQ1cY5rqtqiab39ErKM5lf7icT9tjHCIdsGjIb5YZIaw0piaus0rQ3Cx2eFtda1InosWaeM2JSeTmRaCtad1SpL4dC5VvKImx2w/640?wx_fmt=svg&from=appmsg)。设 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM73fhc04sUsn20lUKcMPchPWN0JjMapPIYyBWksV79qs8aqd16du54SQcqfDIK4ssCHG7PqoiclqDXmN1Jb4ZOSauaT7IoEnBanMmXABjRjdUQ/640?wx_fmt=svg&from=appmsg)，方程组是：
+解 ![](什么是_Jordan_块__images/img_126_36e7f30b8486.svg)。设 ![](什么是_Jordan_块__images/img_127_de6ad2b6b842.svg)，方程组是：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6PqIkrgdIQ4goTIaTEEsiasVeSZYd6htRjn6ODJsmpmAPVfQV8OIRM5V6guAsiaSNibhDCUYZgtAhC1kQE84dUvnTBiaQE4oVmlEXN1QWGM1aCLQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_128_a257be521fe7.svg)
 
-由第二式 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6p4oXZAbdt0jKCoiaFavdW10DBmDoibgaqyRzILwCWgtZt2ibaRxaKpLFl0burkJNpNt2mhd8LJbNibwMcSNdlDN9EibZPWNsvfRp53ZEJadFoSibA/640?wx_fmt=svg&from=appmsg)，第一式得 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4bR9Sxf41TibzZr4Bd6sJialcUlJGawofgN1yprxWVaqficm2FibDIXATv1C1GmKlk09CIs31L3bQT5YV7aetvXQG49N3ulBQPxyu78SWibYdic5cg/640?wx_fmt=svg&from=appmsg)，第三式自动满足。
+由第二式 ![](什么是_Jordan_块__images/img_129_7d828d42fc5e.svg)，第一式得 ![](什么是_Jordan_块__images/img_130_602790f7ff8c.svg)，第三式自动满足。
 
 所以特征向量空间是一维：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5aNxXaSrGO5AsCD3nxExgjkib19ZrZ5R6iawrSce5Ctfb66l2FEwaXJpX1R46dpD8MavFuCHhHqAciaFQ0XiblXey2ADsvssUCFrRcRicesP90IwA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_131_927202574df6.svg)
 
-**几何重数 = 1 < 代数重数 = 3**，因此 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7wjVicC5B5hrzJEVrQHiaJYdPQgEQPb0C5eBzCRgDepicgkWrufHI7PyQtPpYQkxicwgssiaFPrbLricx0NF1lT4QELUX8xiaBJ6C1EhUibycygf98gQ/640?wx_fmt=svg&from=appmsg)**不可对角化**，必须出现 Jordan 块大小 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4WJN4xKBxQibMJCKQdbzyhblv1emc1Rw8zibRejiaCJJ4lG2QmicZdvZ7T82I04iaTVERrqDtRGBF6zeXUPAribJwTIBHYlsiabR0w8STdQasmqZ7Xw/640?wx_fmt=svg&from=appmsg)。而这里只有一个特征值 3，最终会是一个 **3×3 的 Jordan 块**。
+**几何重数 = 1 < 代数重数 = 3**，因此 ![](什么是_Jordan_块__images/img_132_9de2a64d81aa.svg)**不可对角化**，必须出现 Jordan 块大小 ![](什么是_Jordan_块__images/img_133_d848748e2491.svg)。而这里只有一个特征值 3，最终会是一个 **3×3 的 Jordan 块**。
 
 * * *
 
 ## 12）构造“广义特征向量链”（Jordan 块的核心）
 
-我们要找一条长度 3 的链 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7CYibrv2aiaaoJ8iaFTIXhicJmwfrGb972Xia5jxqmFHIMbnmzje7lIceAWambgOn7ibicz00eGbRkfia0syatbR6oDLYsoKpwPlmAr8xfLfPa8JXdGQ/640?wx_fmt=svg&from=appmsg) 满足：
+我们要找一条长度 3 的链 ![](什么是_Jordan_块__images/img_134_9a5d6d5c0f33.svg) 满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4Pzgx5Znm200FHUuicU2KMW5gPtZNTSyAI0RnLF8fY4Epr9TRNdwz8aiaHpoyekMSpaeg8lzyqicUwpr36jymqEUEB9ROfI3JXRB1ARlcTSGqNw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_135_9aa430c1f869.svg)
 
-### (a) 已有 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4aibzbYwowSgu0GiaTsE6p8z3Djha8WhyYao6h2eSQQbbaib8SpYx1uLHjgXdeXMgFDaibrpEI19Ah36thEXzcgnTwJqaLwXtibgvWEy9lT0uw9GQ/640?wx_fmt=svg&from=appmsg)
+### (a) 已有 ![](什么是_Jordan_块__images/img_136_de33c3a7c57e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM63o99F99ufSHSw077F3ldfnYHYzWP6WaGmBWUFY8lh6ueQlBkaIpiaPu3p1dkVpx1jlFuHJW1CZLV7tPnL5ia8Dia799r38ia2Jv13LjuIwmoewg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_137_4768325d434a.svg)
 
-### (b) 解 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5P9zgzkzL90JUKHic1ZLvDsVndicxBQmAmVuKoPY0tWE3DtpnMQxMbGKUlsicd52HvlNW2PMtuFCsjm7lVhyExvK8w8eUvByLMRy4ibjjPFa7jog/640?wx_fmt=svg&from=appmsg)
+### (b) 解 ![](什么是_Jordan_块__images/img_138_ba5c18b4b741.svg)
 
-令 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7jejxu9p2v5qa4K0Igkt3zY0Iqt5nLwSSeoF2pficgUdMzJY2BMl9bMiaukcicp3ljGlftc0loibgq1On69MHoEcWLxZRmpRAv2Jv7ovgs3wHIBw/640?wx_fmt=svg&from=appmsg)，则
+令 ![](什么是_Jordan_块__images/img_139_ce94604f664c.svg)，则
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6yUIXZdPicMfCD9FQ6pVlS497nZdcfhqolIO10ZfTkACxFbe2icbgbhnicdK5pUAWazBgZ153A2cAWAcJEV6pD8ey0icVJsbMJHgRT0gFxibQKlbQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_140_2d5d9dc8da9c.svg)
 
 得到方程组：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6pHamCPY4RvpzuDe4tk4VoSnMFynImPwH38N1s9ibtiagbaw5tf1Necics8uEUZ1giaj29miabsYEM9G5XhWcD354XRzUMFH4LcBPrTR5W6vN8HFw/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_141_2b5deb44c26f.svg)
 
-由 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6yNPvnkDDhR50kvWhDlzl3XSpFekuyEkQkb4PLCmREjSAlWQyDNA4ckHTfFTKAjpowRk8Ijo0AUc1VlPCp9tqRZcFale3Y1KmKCIqvJg2ydg/640?wx_fmt=svg&from=appmsg)，第三式给 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6YibQB5EjqzQkEq00b1gh3KwZuXa632E3FUHqVibzv9cbxJeicxJUs4vzDYLky96beJt7OvXEyB2VDRjiaFbULCzpajY1ta7lXlXEUia66ou5LhNg/640?wx_fmt=svg&from=appmsg)，代入第一式 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4yjwNFmzI2TicsSsl0FVfyO4f2KXuDj9yVHSZZe7DbGcYVMOp4ibwWN1aAHz9V49RE4UD0xXy33tlViaceNop1WnNe2Fpf7bI4YpzRt6wmfTkSA/640?wx_fmt=svg&from=appmsg) 成立（恒等式），所以有无穷多解。
+由 ![](什么是_Jordan_块__images/img_142_433b20c0d8c2.svg)，第三式给 ![](什么是_Jordan_块__images/img_143_a63e3712dada.svg)，代入第一式 ![](什么是_Jordan_块__images/img_144_cbeda4d72cce.svg) 成立（恒等式），所以有无穷多解。
 
-选一个最简单的：取 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7FVBe1xZ7ZJ6hukkEIOvZic1s2SPRBBuU7fu8RibTBpMkhFNNBta4ibDf0VQtD2RlOyAQtpGuuKzrjC5nEDiame8QAYfnWg2EHSIGaxLUXBdmfRg/640?wx_fmt=svg&from=appmsg)，则 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7vaKfsG2a9ZbOZWyjiaVwicxicFfkjKfkgbgxh7NY9jrC38Q5BBbRZ9UrwollStasicFeRHiarYQibZ4h5cdSFI3ZuALxeVia7sicjqYolMwtAuAj2cg/640?wx_fmt=svg&from=appmsg)，得到
+选一个最简单的：取 ![](什么是_Jordan_块__images/img_145_c2f94932419a.svg)，则 ![](什么是_Jordan_块__images/img_146_c1b2c5b7d4f3.svg)，得到
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6WSGmARPjx1opKia4MPvhNRBoFRFWnuwrm7AsqUEe3WAbuIic5eImekP2xUk93YoTwglp5azSsemFR7OABbPbp7POOXSAhnTOo3N8A5JTAPZuA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_147_83ef44d586b5.svg)
 
-### (c) 解 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7yDwToTs9uK4Hd4nRuichYWmHRrIhOwZ8yUd0u9XwGnUmJ7tXEDFAwp6592a4qEibjcX7EztqksJbhC4aDbiclic6PSycUkrMicKKNoEj932jAFlQ/640?wx_fmt=svg&from=appmsg)
+### (c) 解 ![](什么是_Jordan_块__images/img_148_0fb1f19a4b2f.svg)
 
-令 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4vf4O3sdIf7osJARrmFQ57aPbvHR5HIsTDicWWeutNeRLJw6W3DrNKrUYPgDfUbPhc7Hnd6Ml499CWPNOlfXyouC3s595ibmbgXuxlojf6hmibA/640?wx_fmt=svg&from=appmsg)，则
+令 ![](什么是_Jordan_块__images/img_149_7d2219a06b64.svg)，则
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7e0Nrdvf4JLxycPibFice5jQwY3ibiaX1xCyl9MRUibvqsmibiawC9zHAEYicJCmH0feWL9YicvV9eeugEbza6A2vicb43nhxIHZPOaph7etLfAMW4NXhQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_150_454318810e19.svg)
 
 方程组：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6SUCiamBy4miclQq2iashLEuJL5msTHsFe1xcuRakVYDJHibWBCtd9bjhuy4nEEyjyGUzW9sXR1OYlQiby0W04nibtva54pLYtD3YXUmcABaHsoAmg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_151_cbe512caf121.svg)
 
-由 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4aibzbYwowSgjoz3pJVoiclakbLXMN4k5ysvOoJpicUmALNXibuCqrSV2fPzkKD3gyLoXMRGD5l7ELzawCVnq2LBP2lhdhP0s8NElmbNG16xU5vw/640?wx_fmt=svg&from=appmsg)，第三式变成 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4TmTcibK7r4oq5b9RRg9eyZbZvnwz9QYMZLeice3v6oPqbx4UOVPPRIHvSD13jFrjnlsQfWOp8AxdbSQKy1XzgtGDfuTHmweibkq6nwqlKL4Ddg/640?wx_fmt=svg&from=appmsg)，与第一式等价（同一条约束）。
+由 ![](什么是_Jordan_块__images/img_152_257213a8ff11.svg)，第三式变成 ![](什么是_Jordan_块__images/img_153_97d5b8fadeea.svg)，与第一式等价（同一条约束）。
 
-取最简单：![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7e55iasTgibFvcvKgShXVWIiaia0sicEbYNk0nsKoGJtUmr2ksHF8ibN4GQIBDQUrJRuSuXLWQuQMzfqcA9ic3iaeQs4PK0h51zwyzUdh9oTuw2mnmjA/640?wx_fmt=svg&from=appmsg)，得
+取最简单：![](什么是_Jordan_块__images/img_154_3f6df3fe2531.svg)，得
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6rU6pFYYpZAPwvLG3T8QaFA8NJbrLLDIfBHiaZqokDaxz2Jpr0TR20A164fEicSHBPAlkWP5ojdhoJ5Z4D80eCfJtbtGWdtQAV4rjhehMRS30w/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_155_54db87a68150.svg)
 
 * * *
 
-## 13）组装 P 与 J，验证 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5PdRxpWCNEAiaOR2kickGCkd5pOm4almhvTR7WBqkf2qyzvwQiaOBbZmav3APoYBtSFMicM1IiaeLXfFLzQUo71eRF7U0aK7xia3ZvYNTv47mxAM6Q/640?wx_fmt=svg&from=appmsg)
+## 13）组装 P 与 J，验证 ![](什么是_Jordan_块__images/img_156_f67c486360a4.svg)
 
 把链向量按顺序作为列拼成
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM546VXGcOXMyAyibicTjibEQmDLmXdKajO4EYJy1xRJrbMl4fpMicvfAfaxWjuja1Svryx4OVI0ic1NeeV0ttpHAvaeeLNVyGLuuEw24Cic1GNwyQicQ/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_157_404cfc08c836.svg)
 
 对应的 Jordan 块（长度 3，特征值 3）是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6sAz5OWdbfR58Od9K9ricNCbNf8CToBoXM9KbaXibNRhhQVRB9DwYn1Is1dWtggAxU09KYOCZMFOeVvspuIFrshojkmNnOQYVBeuOdAsiasmvPA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_158_699f7946c700.svg)
 
 为什么这就对了？关键等式是链条关系等价于：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5micWD1ibhr6GTFx2XpjbVqj16PBT5HWwHDYPQ142QyEAkSflzG9xd2gQpX0EJBJOpcbJRibPpoIarzAvj5fTK0XSZfIRic0N2LBpsVMfvOV986g/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_159_514a5dd7885c.svg)
 
 把这三条并在一起就是矩阵形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4oziczO8UCThhia0rAeJP4ia5jH3IeiaVS7TWvMU9Jib5MEk0Qqyb07Mw8icKdnolGmrNN5pyAzQHvqFac9iaQtFAdicnT8Cibhj73CY6JZK0iaRZwiaTQg/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_160_994789e41727.svg)
 
 也就是
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5jJ9QdfEibgUiazibst0urNayM6F7ctfwOibQYZYvAJhBvvC7p4gVPibBRUtDsBb3VPGBad4KtTgV4eum9R9VkbTibTiaTm1qzU69vWfbOOUef02urA/640?wx_fmt=svg&from=appmsg)
+![](什么是_Jordan_块__images/img_161_f340ffdc1b9b.svg)
 
-到这里，Jordan 分解完成：这个 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM7WJgMpaXp6JlRRywQMxIpiaicrz2GVHNuVVgQUxAdaYjWsly4vlwlo88BXT7a3q5VSUWcE93ch0Niaqvc1gcH8PrY3oo3qtXM6jzYtC02B2wg6A/640?wx_fmt=svg&from=appmsg) 在基底 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM6BjQPJiaZ1WHYJkrbCjz2fh3unE2z2rB5icdKen0GR8aVIENFZZ3xKibo7tk304tqZE7DZ7iaF14hQ8ykWnoyHMOgmKKsicnJiaOo8jAHP9QkUOoCw/640?wx_fmt=svg&from=appmsg) 下就是一个 **3×3 Jordan 块**。
+到这里，Jordan 分解完成：这个 ![](什么是_Jordan_块__images/img_162_2a9f752de057.svg) 在基底 ![](什么是_Jordan_块__images/img_163_5b4264cecb85.svg) 下就是一个 **3×3 Jordan 块**。
 
 #### 通俗比喻
 
-把 Jordan 块想象成一个“滑梯链”：特征值 ![](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM4UBN1VlVGkHAwfoNiahh9gRe9RZc04aSqKEYQ7dJreJ9GkkianqmSBTbs5BF7eEfPLKA0JPq7OACQZTckVjxAfS8O06jFOLLv9l6Gd1v4tBdBA/640?wx_fmt=svg&from=appmsg) 是滑梯的“高度”，1 是连接的“台阶”。向量在变换时，会沿着这个链“滑”下去，直到碰到零空间。这有助于理解动态系统，比如在微分方程中，矩阵的指数函数会变得简单。
+把 Jordan 块想象成一个“滑梯链”：特征值 ![](什么是_Jordan_块__images/img_164_71e60be0a649.svg) 是滑梯的“高度”，1 是连接的“台阶”。向量在变换时，会沿着这个链“滑”下去，直到碰到零空间。这有助于理解动态系统，比如在微分方程中，矩阵的指数函数会变得简单。

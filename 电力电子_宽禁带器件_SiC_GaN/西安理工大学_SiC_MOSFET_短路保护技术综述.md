@@ -31,21 +31,21 @@
 
 按短路回路电感值的大小和短路位置可将短路故障分为一类短路和二类短路，短路的类型与特征见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIostoDxZIzpyQExLpG4zNyrnEic7tNV26xYsrlDJ3qR3sMJF9gGBWiamw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_000_9fc1911c4312.png)
 
 由于短路回路电感较小，一类短路故障电流上升快，对功率器件危害大，保护难度较高。按照短路发生时刻，一类短路又可以分为硬开关故障（Hard Switching Fault, HSF）与负载故障（Fault Under Load,FUL）两类。图 1 所示为 SiC MOSFET 短路故障典型波形。可以看出，HSF 发生时刻在 SiC MOSFET开通瞬间，如图 1a 所示。当 HSF 发生时，漏极电流 ID 快速上升到最大值，然后回落至稳定的短路电流值。由于回路电感极小，漏\-源极电压 VDS 小幅下降后又稳定在母线电压；FUL 发生在 SiC MOSFET完全导通之后，如图 1b 所示。当 FUL 发生时，短路电流从负载电流迅速上升，SiC MOSFET 两端电压也随之上升至母线电压。不论是 HSF 还是 FUL 发生时，SiC MOSFET 都承受着巨大的短路能量。由于 SiC MOSFET 芯片面积较小、电流密度较大，巨大的能量可能会在短时间内烧毁 SiC MOSFET\[20\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIicft5YsL9QWQvEOECopSuXTkfD7cePPRCgE9m7ncaEfZ3Pc6UIicY60g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_001_557d6bcadd7e.png)
 
 **1.2短路测试方法**
 
 短路测试是研究功率器件短路特性、测试短路保护电路性能的重要方法。目前常见的 SiC MOSFET短路测试方法有两种，各自优缺点和适用场合见表 2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkItsAa8KocfpgJKyicMogYW0jVDIFtPb6H2sadibbEuBrZXygocDbjD4OA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_002_504d4a182109.png)
 
 （1）基于双脉冲测试的短路测试方法。该方法使用“粗短铜排”代替双脉冲测试电路中的负载电感来模拟短路，如图 2a 所示。当脉冲发生器向驱动器 1 发送高电平信号时，打开上桥臂 SiC MOSFET，再向驱动器 2 发送高电平信号，就可以实现 HSF；当脉冲发生器向驱动器 2 发送一个信号使待测 SiC MOSFET 正常开启时，再向短路控制开关 S1 发送闭合信号使故障电感 LFault 接入功率回路，就可以实现FUL。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIYXa2Dqa1bFdMttACrMKrwM9l4O5JI5mDX6I4S9eVmVYrvfiaNVA0MicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_003_cd55c9f7f975.png)
 
 （2）基于非线性元件的无损短路测试方法。不同的 SiC MOSFET 短路测试方法如图 2 所示。该方法是在被测 SiC MOSFET 的短路回路中串入非线性元件\[21-22\]，如图 2b 所示。非线性元件在额定电流时内阻较低，与 SiC MOSFET 相比饱和电流更小。当脉冲发生器通过驱动器 1 开启该非线性元件时，再通过驱动器 2 开启待测器件就可以模拟 HSF。当短路电流达到该元件的饱和电流时，短路电流就会被限制。当短路电流持续增大时，该元件就会“熔断”。
 
@@ -57,21 +57,21 @@
 
 目前，SiC MOSFET 的短路失效模式主要有栅\-源极失效和热逃逸失效\[23-33\]，两者的失效条件、原因及特征详见表 3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIjLCg1N3o2VuTx6awI6SxTXfwJYXDxzAqOCjMEicKw3OnrP8kicZ0AMFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_004_dc1e7bacc7e5.png)
 
 **2.1栅\-源极失效**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkI2fTuIx4aJ84Ef5DmMsbo7DD7BIJyXtxZrXz4hnB4yw58HgYxNKlNpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_005_e6b7d5758d9d.png)
 
 图 3 为 SiC MOSFET（DF23MR12W1M1）在母线电压 Vdc=400V、栅\-源极电压 Vgs=20V 时的短路测试波形。在短路持续 16μs 后关断 SiC MOSFET，关断后的 SiC MOSFET 出现了栅\-源极失效现象。在栅\-源极失效前，随着短路时间增加，栅\-源极电压明显下降，短路电流出现拖尾。在栅\-源极失效后，栅\-源极短路但漏\-源极完好，观察 SiC MOSFET 芯片表面上没有明显可见损伤，但是在电子显微镜下，可以观察到栅极多晶硅和源极铝之间的栅极层间电介质中出现了裂纹。利用能量色散谱仪对裂纹处元素进行分析，可以观测到裂纹上方的源区大量铝迁移到了裂纹中\[23\]，SiC MOSFET 栅\-源极失效后的芯片如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIhqucqnqrm1Dibw7agqOzqibjEXNxba3qSorZmrl9dPC3AkFQ8cGHe4Ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_006_0f9700fd851b.png)
 
 研究表明，较大的短路电流导致器件结温迅速升高，而 SiC MOSFET 栅极氧化层较薄且内部材料的热膨胀系数不一致导致栅极氧化层在高温时出现裂纹\[24-26\]。当器件结温超过源极金属铝的熔点时，被高温熔化的源极铝金属将散入裂纹中导致 SiC MOSFET 栅极与源极短路，使其呈现低阻特性\[27-28\]。因此，SiC MOSFET 栅\-源极失效是高温和热应力的共同作用结果。由于 Si MOSFET 热逃逸温度阈值较低，栅\-源极失效现象只会出现在高温半导体器件中，如 SiC、GaN 器件。
 
 **2.2 热逃逸失效**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIiaj5ichyQibtNO3PgCkAibMjx5pCN0q7UnCJX7LicL7mqOmHnEJjYxmFJnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_007_29c24cef518d.png)
 
 热逃逸又称热失控，是器件内部温度升高到一定程度后引起器件劣化使温度进一步升高，最终导致某一种破坏性的结果\[29\]。图5为SiC MOSFET（DF23MR12W1M1）在母线电压 800V、栅\-源极电压 20V 时的短路测试波形。可以看到，在短路出现不到 5μs 时发生了热逃逸失效，短路电流失去控制持续上升，直至 SiC MOSFET 烧毁。热逃逸发生前，SiC MOSFET 栅\-源极电压出现了下降，说明栅\-源极阻抗已经下降。
 
@@ -87,19 +87,19 @@ SiC MOSFET 较弱的短路承受能力需要短路保护电路快速动作，但
 
 目前，针对 SiC MOSFET 的短路检测技术主要有退饱和检测、寄生电感电压检测、电流传感器法、分流器检测、镜像电流检测和栅极电荷检测六种，SiC MOSFET 短路检测方法见表 4。下面将对上述方法的工作原理、优势及存在的问题进行详细介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIdOIpUynlAkQNpz2M7zoeLyooqPibbNUiaq83lCVfNxJDN4RwogEUwDqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_008_06b51313fe6f.png)
 
 1）退饱和检测
 
 退饱和检测原理简单、成本低，广泛应用于绝缘栅双极型晶体管（Insulated Gate Bipolar Transistor,IGBT）短路保护中，但在 SiC MOSFET 的短路保护中采用该方法存在巨大挑战\[7, 36-41\]，二极管式退饱和检测如图 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkI0CqxvnA9LEicib7yqFE3MVZqzRrgU5D3RmAlA9oyAbP2icdl9ibKuHJMcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_009_8ca74bd3c083.png)
 
 图 6a 为二极管式退饱和检测电路。在 SiC MOSFET 导通时，当 A 点电压 VA 上升超过阈值 Vth1时，比较器翻转发出故障信号关断器件。在 SiC MOSFET 关断时，晶体管 VT1 导通将 A 点电压下拉至低电平，检测电路被屏蔽。该检测电路工作原理如图 6b 所示，PWM 为高时，SiC MOSFET 开始导通，在完全导通前，由于 SiC MOSFET 漏极电压值较高，二极管（VDS1, …）反向截止，VCC 通过 Rblk对 Cblk 充电，A 点电压升高。在 SiC MOSFET 完全导通之前，需要预留足够的盲区时间 Tbl 防止检测电路误触发。当 SiC MOSFET 发生短路退出“饱和”状态时，VA 将上升超过阈值 Vth1 导致比较器翻转。
 
 **在 SiC MOSFET 完全开通后，A 点电压 VA 的大小可以表示为：**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkID2luEeaB2s9LwjJKZXuZbFY3JTqNoq3hRest4rof8HJqRunibhQWjyA/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_010_033c769d8008.png)**
 
 **式中，VD 为二极管正向导通压降。**
 
@@ -111,39 +111,39 @@ SiC MOSFET 较弱的短路承受能力需要短路保护电路快速动作，但
 
 **SiC MOSFET 模块功率源极和辅助源极之间存****在寄生电感，电流的变化会在寄生电感上感应出一****个电压值\[43-44\]。由于短路时 SiC MOSFET 电流变化****率 dID/dt 较大，因此可以通过检测感应电压值来检****测短路故障，最典型的方法就是 dI/dt 检测，如图****7a 所示。图 7b 为 dI/dt 检测技术的工作原理，在正****常开通过程中，快速上升的电流在 LSS 上感应出一****个负向电压 VSS，该电压值与电流变化率成正比。****当发生短路故障时，ID 迅速上升，负向 VSS 触发保****护阈值 Vth3，短路器件被关断。dI/dt 检测时间短、****易于集成在驱动芯片中，但对寄生电感引起的噪声****特别敏感。此外，由于 SiC MOSFET 开通时较高的****dID/dt 会感应出较大的负向 VSS，也可能触发阈值****Vth3 导致保护电路误触发。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIwHg9CernVq1EYapGk8cjlUFDDpzSNCzwcaLbiaqj0dTf9fAPLNiaZmEQ/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_011_0b1b0d0bf76f.png)**
 
 **鉴于此，华中科技大学 Wang Zhiqiang 等提出****了基于电流评估的短路检测电路，将寄生电感上感****应的电压利用 RC 积分电路得到对应电流值来实现****短路检测\[45\]，电流评估短路保护如图 8 所示，SiC** **MOSFET 漏极电流 ID 与输出电压 VO 的关系为：**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIXehnqqJktvlPTxsdxtq5X9hThhyS4ibpAfW4vnPscLoO4Q38TEhCF8g/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_012_e29d0db0e3e8.png)**
 
 **可以看出，输出电压 VO 随着 ID 的增大而增加，****当 VO 达到阈值 Vth 时触发比较器。将 SiC MOSFET****寄生电感上的感应电压转换成电流进行短路保护，****可以有效地避免开通电流上升斜率过大引起的误触****发问题，但也存在一定缺陷。图 8b 中，t1 时刻，SiC** **MOSFET 正常开通，−VO 随 ID 增大而呈比例上升，****RC 积分器可以正常“记录”电流上升。但 t2 时刻****后，ID 增大上升至负载电流水平，dID/dt 趋近于零，****Cf 通过 LSS 和 Rf 放电，−VO 逐渐减小。到 t3 时刻，****VO 趋近于零。当 t4 时刻出现短路故障时，短路电流****将在负载电流的基础上快速上升，但−VO 却是从零****上升，由于 HSF 和 FUL 使用的是同一阈值，因此****FUL 电流峰值将远大于 HSF。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIibUmbC3yGHfw4iasr6nSPibwFPQN81Ruqp8qiazuNmX7CS9mIBjOgGGTQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_013_7342930d4d04.png)
 
 **为此，美国弗吉尼亚理工大学 Wang Jun 团队提****出了两级 RC 型短路保护电路对 HSF 和 FUL 进行单****独检测\[46\]，改进的电流评估短路保护电路如图 9 所****示。通过加入电感 Lo 来减缓 FUL 时 Co 放电现象。****电感 Lo 越大、Co 放电越慢，但当 FUL 发生时刻大****于一定值时，Co 电位下降至零。此外，较大的电感****值也会减缓 Co 充电过程，导致 FUL 保护响应时间****变慢。为此，河北工业大学 Xin Zhen****等则进一步对****上述方案进行了改进，如图****9b 所示\[47\]****。利用二极****管 VDblo 的单向导电性来防止电容 Cs 放电，很好地****解决了 FUL 发生时刻的不确定性所导致的 Cs 放电****现象，但是电阻 Rblo 过大会同样导致 HSF 和 FUL****保护响应时间变慢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIuia4HzicUrIwNzICkB8bQThTOTbBKLbxdssVBlvFxsn5U899uCPFzTPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_014_29ccbf9a315f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkINbLSDSsNY0Fvk1nn4CnWsoZeP65V5O9cHqVjS91DwOKjHtf1qSTmfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_015_0090b64e93c8.png)
 
 **3）电流传感器**
 
 **电流传感器广泛应用在电力设备电流测量中，****如霍尔器件、罗氏线圈等，其原理简单且可靠性高，****功率回路和测量回路具备电气隔离，但带宽较低、****体积较大，不适用于高频、高功率密度的 SiC MOSFET****短路保护应用。为此，Wang Jun 等设计了一种适用于****SiC MOSFET 模块短路保护的 PCB 型罗氏线圈\[48-50\]，****如图 10 所示。不仅方便安装，高达 200MHz 的带宽****可以对 SiC MOSFET 模块漏极电流进行准确的采****集，为 SiC MOSFET 模块短路保护提供可靠保障。****然而，为了提高测量宽带获得更加精确的漏极电流，****在 PCB 型罗氏线圈设计中需要增加线圈匝数。但是****由于 SiC MOSFET 应用在高频开关工况，增加 PCB****线圈匝数会严重影响其抗扰动性能，可能导致短路****保护电路误触发。此外，PCB 型罗氏线圈的信号还****原电路实现较为复杂，严重阻碍了该方法的应用。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIqribDokGNicIZGUuLAq6HOjibzia9VwTJgic6EZRx2fQHv00O8d0PEgC2fg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_016_d724740fb162.png)
 
 **4）分流器检测**
 
 **分流器检测通常在功率回路串入电阻、同轴分****流器等线性元件来进行短路保护 \[43\] 。 在 SiC** **MOSFET 的短路保护中通常采用精度更高、响应速****度更快且可靠性较高的同轴分流器。但是随着功率****回路电流的增加，同轴分流器所带来的功耗以及高****昂的成本不容忽视。为了解决该缺陷，北卡罗来纳****州立大学 B. J. Baliga 教授团队将 Si MOSFET 串入****SiC MOSFET 回路作为“分流器”\[21\]，基于 Si** **MOSFET 非线性特性的短路保护电路如图 11 所示，****利用 Si MOSFET 漏极电压和漏极电流成正比的特****性，将漏极电压作为 SiC MOSFET 短路检测的依据。****此外，通过给 Si MOSFET 栅\-源极施加不同的偏置****电压，可以灵活调整其饱和电流来限制短路电流，****防止 SiC MOSFET 短路损坏，但是 Si MOSFET 选****型十分关键，在大电流应用场合，较高的损耗与成****本使得该方法应用受到限制。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIQ2tKW1iacPwUwftsQvwmY0eic0vV6Ck0icDNxicEdN42dkNWM2GRSOA5zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_017_c590088a1786.png)
 
 **5）栅极电压检测**
 
 **由于 HSF 发生时，SiC MOSFET 的栅极电荷值****QG 远小于正常开通过程中栅极电荷值，导致 HSF****发生时栅极电压 VGS 大于正常开通过程\[50\]，栅极电****压检测原理如图 12 所示，因此通过检测 SiC MOSFET****开通过程中栅极电压可以间接检测 HSF\[43, 51\]。该方****法优点是无检测盲区。然而，SiC MOSFET 的密勒****电容较小，HSF 发生时栅极电压特征差异不明显，****采用该方法容易造成保护电路误触发。其次，FUL****时 SiC MOSFET 栅极电压已经为最大正向电压，因****此该方法不能对 FUL 进行检测。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIRQ3cdktI5yU42m1jwrnpoWia90ehAWtDqc2gujVdMuoGhgLGYcF4NrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_018_3b4b766a8b4f.png)
 
 **3.2短路关断策略**
 
@@ -163,8 +163,8 @@ SiC MOSFET 较弱的短路承受能力需要短路保护电路快速动作，但
 
 **3）SiC MOSFET 短路关断策略。SiC MOSFET****短路承受能力弱，短路时需要快速关断短路电流，****而较快的电流变化很可能导致 SiC MOSFET 因过电****压击穿而损坏。传统短路软关断策略不能权衡关断****损耗和关断过电压之间关系，很可能造成SiC MOSFET****在软关断过程中发生热逃逸或栅极失效。因此，权****衡关断损耗和过电压的 SiC MOSFET 短路关断策略****也将是未来研究课题之一。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_019_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_020_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安理工大学_SiC_MOSFET_短路保护技术综述_images\img_021_84aa944feb13.jpg)

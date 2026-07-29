@@ -10,7 +10,7 @@
 
 X86架构和ARM架构是主流的两种CPU架构，X86架构的CPU是PC服务器行业的老大，ARM架构的CPU则是移动端的老大。X86架构和arm架构实际上就是CISC与RISC之间的区别，很多用户不理解它们两个之间到底有哪些区别，实际就是它们的领域不太相同，然后追求也不相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6c9XIu89cRiaMlKn9gt14CqoDUJs0tbKXGrickkN6UZMHuTKib2RiaDLqQPw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\X86架构与Arm架构区别_images\img_002_090bc68bc15b.png)
 
 -   **X86架构和Arm架构区别**
     
@@ -39,7 +39,7 @@ CISC是复杂指令集CPU，指令较多，因此使得CPU电路设计复杂，�
 
 RISC的精简指令集CPU，指令较少，功耗比较小，但编译器设计很复杂，它的关键在与流水线操作能在一个时钟周期完成多条指令。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6c8us4sP7cN7ftTicVwVvkA3w5xdRwzqJfAdceLVOlqibC6re6iccMLwKkA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\X86架构与Arm架构区别_images\img_003_9c49b7df8c24.png)
 
   
 
@@ -60,7 +60,7 @@ X86的32位架构一般又被称作IA-32，全名为“Intel Architecture, 32-bi
 
 值得注意的是，Intel也推出过IA-64架构，虽然名字上与“IA-32”相似，但两者完全不兼容，并不属于x86指令集架构家族。广义的x86架构, 泛指支持x86和x64架构的intel, amd的cpu, 但不包含ia64(安腾）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjTFNbkia9TVUWfSeBYsqN6cYmGH5Cnb3pDa2DgQKgMtZ1R3ribzuEKEH98bvUWpZ3x2FEiaMDpYVtfQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\X86架构与Arm架构区别_images\img_004_fba484779da1.png)
 
   
 

@@ -12,7 +12,7 @@
 
 USB Type-C是一种相对较新的标准，旨在提供高达10Gb / s的高速数据传输以及高达100W的功率流。这些功能可以使USB Type-C成为现代设备的真正通用连接标准。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXLksgDoLwb3mh9zfSXZLMGpvKVrViapVXmB7sZMbmD8wjMIKNnD5F7CM1g5PibeYRWlBMzNXfaVicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_002_fa59ac2aa4f9.png)
 
 图1 三种USB接口
 
@@ -36,7 +36,7 @@ VBUS和GND引脚是电源和信号的返回路径。默认的VBUS电压为5 V，
 
 当为诸如笔记本电脑的大型设备充电时，高功率流可能是有用的。图3显示了RICHTEK的示例，其中降压 - 升压转换器用于生成笔记本电脑所请求的适当电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiamw2B1ibCnR2PYI4PCsmSoxgH9ib52PBicBv7Bjtltcq3jbXSkzr7hZLrkR3CgV0iaQW9gmYxIxOyIBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_003_8f3dbaf87573.png)
 
 RICHTEK示例
 
@@ -44,11 +44,11 @@ RICHTEK示例
 
 当然，在实际产品设计中，工程师会根据产品定义适当缩减Pin脚数量以节约成本。例如，对于只提供充电的产品，如电源适配器，这类产品不需要USB3.0的高速数据通信，因此只保留CC、VBUS、GND和D+/D-引脚（感谢关注公众号：硬件笔记本）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXLksgDoLwb3mh9zfSXZLMtEaicndg0ibxAZTdVS4VG5kJPVsVPNo1CmPav3RYfAeibbgPy2KllFDog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_004_c91afba216c9.png)
 
 （a）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXLksgDoLwb3mh9zfSXZLMrxCYhGib8GwjvyXL3cWM4yJjIM7wkM0mWIRmaFKX5bY5ibNQ2Ox6vpKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_005_496dc081d0c6.png)
 
 （b）
 
@@ -70,7 +70,7 @@ CC1和CC2针脚
 
 下面的图4显示了CC1和CC2引脚如何显示插座/插头方向。在此图中，DFP代表下游面向端口，该端口充当数据传输中的主机或电源。UFP表示上游面向端口，它是连接到主机或电力消费者的设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiamw2B1ibCnR2PYI4PCsmSoxzibUgIFcmDzmHeaVDhICL9ALYyFTiaDG4BzryjHibic9ypzd7qibxWJSnyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_006_805926d1f282.png)
 
 图4.CC1和CC2引脚
 
@@ -90,7 +90,7 @@ VCONN引脚
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiamw2B1ibCnR2PYI4PCsmSoxicGoYGcygZoy5eUX9oRG1Atlfic8TfnWXmVKbOoHwNvAL5okkNnib2x2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_007_89597c853c23.png)
 
 图5.VCONN引脚
 
@@ -122,7 +122,7 @@ SBU1和SBU2针脚
 
 **Type-C****接口规范通过CC引脚的一系列“上拉”和“下拉”的机制来区分Source、Sink以及DRP。****对于Source设备，要求CC引脚配置上拉****电阻****Rp;****对于Sink设备，要求CC引脚配置下拉电阻Rd; 而对于DRP设备，要求通过切换开关，交替性地切换上拉和下拉。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXLksgDoLwb3mh9zfSXZLMEck5SppiapqJ2cxFBRafnoicicjolACUibNCQvJaSaokLiaWyaoz3fCsGiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_008_49a531a03900.png)
 
 图3 CC引脚的“上拉”和“下拉”
 
@@ -144,7 +144,7 @@ SBU1和SBU2针脚
 
 当两个设备连接完成后，Sink通过检测Rp和Rd的分压值vRd获取Source的供电能力。如下为Rp值，vRd电压范围与Source供电能力的对应关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXLksgDoLwb3mh9zfSXZLMaiaxAGdibyZ978xENUsck3naOJl3vdicibJ76vyf6LmmPNhbXzWO8V1rEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_009_e792c1f5cd8f.png)
 
 图4 Rp值，vRd电压范围与Source供电能力的对应关系
 
@@ -154,9 +154,9 @@ SBU1和SBU2针脚
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_010_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_011_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_012_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_013_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_014_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_015_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_016_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_017_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_018_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_019_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_020_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_021_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_022_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_023_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_024_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超全超详细_USB_Type_C_接口设计教程_images\img_025_50889e54acde.gif)
 
 ## 
 

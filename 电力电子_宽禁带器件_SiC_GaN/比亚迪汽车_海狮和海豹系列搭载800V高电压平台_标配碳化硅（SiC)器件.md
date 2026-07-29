@@ -21,11 +21,11 @@
 
 2025款比亚迪海豹部分配置曝光。据悉，2025款比亚迪海豹将于8月8日正式上市。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/SewZP7fce33ZwXYunnLE8naYI3yytmtZpRGa4IMlic3BxSct1veib42GPWHy25rficrIrBlqh2a3zOh8jEoHl1XqA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_000_61e16a328258.jpg)
 
 新车基于比亚迪e平台3.0 Evo技术全新打造，全系标配SiC碳化硅、800V高电压平台和十二合一电动力总成，并搭载多项比亚迪自主研发的全球首创技术，在动力性能、用电效率、充电补能等方面将有大幅提升。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/SewZP7fce33ZwXYunnLE8naYI3yytmtZ8GHJSL4CzFibRv8P3pT45S5GUhbkOuufLNeqDjwoPOfCERVR5rKR0nA/640?&wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)外观方面，2025款海豹在细节上有所调整，并新增了紫色外观配色供选择。内饰方面虽然目前未曝光官图，但在设计上也会进行一定调整，并将配备全景天幕电动遮阳帘、方向盘加热、车载香氛等配置，高级感会得到显著提升。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_001_56856b82bc86.png)外观方面，2025款海豹在细节上有所调整，并新增了紫色外观配色供选择。内饰方面虽然目前未曝光官图，但在设计上也会进行一定调整，并将配备全景天幕电动遮阳帘、方向盘加热、车载香氛等配置，高级感会得到显著提升。
 
 智能驾驶方面，2025款海豹将成为比亚迪品牌首款搭载激光雷达的轿车，同时配备比亚迪自研的先进辅助驾驶系统，达到L2+级别驾驶辅助水平。
 
@@ -37,11 +37,11 @@
 
 5月10日，标志着新能源汽车技术新纪元的比亚迪全新一代e平台3.0 Evo及其首款车型——海狮07EV，在全球范围内同步亮相。这款“中型都市智电SUV”不仅代表着比亚迪的技术跃进，更预示着都市出行方式的深刻变革。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/5cldnoUxUib5qS3T4yfWj5UIjibswWwNaN39SpeeyW36pJSrQYrDTrhMjX1pCeHa3RjG3mbWrxVMoGce7icLUxNMA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_002_0322180b620d.jpg)
 
 先说动力系统，这款海狮07EV来源于比亚迪e平台3.0 evo的架构系统，也是这款全新平台下的首款车型。动力性能出色，有着1200V的碳化硅电控架构，从30%充电到100%只需要18分钟。至于纯电续航能力，CLTC工况下海狮07EV的纯电续航里程为550km-610km，这是非常主流的纯电续航。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WepibJHFSzcfPPGPeWEibmzEA0ueSFf2tmCTzkgQic6zLAB1GpvTtbRX9EicsIiazib40knpHfAH2lauYtqQzjnEeucA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_003_58deaf1bd8d1.jpg)
 
 海狮07EV进一步夯实了智能化设计，全系标配DiPilot智能驾驶辅助系统，匹配了自动泊车入位，而且官方宣称成功率高达99%。随着这款海狮07EV的智能辅助驾驶系统的升级，这款新车确实让比亚迪补全了智驾这方面的短板。内饰设计采用的我们很熟悉的比亚迪家族式风格，匹配了双大屏设计，中控部分匹配了15.6英寸的悬浮式中控，可进行自适应旋转，内置的也是DiLink网联系统。值得一提的是，这款海狮07EV还搭了比亚迪自主研发以及量产的D100芯片，未来新能源汽车的芯片终于不用再被掐脖子。此外，通讯能力也变得更强，因为搭载的是5G网络。
 
@@ -51,7 +51,7 @@
 
 简单来说，e3.0 Evo是比亚迪五大技术集群的结合，技术内容覆盖了三电、车身、底盘、电子电气架构和软硬件等多个领域相比e3.0，e3.0 Evo更安全、更智能和更高效。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm9qp7XORic6k02AQHicWicQFV8rDrQFE3p5p0oiaMVo54gQJF3xd0wdOGJASbeUlomaSJy2dmfibFWsDA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_004_a60d30d2c0d6.jpg)
 
 比亚迪最新研发的e平台3.0 Evo，融合了五大全球首创技术：CTB整车安全架构、集成的十二合一智能电驱、智能宽温域高效热泵、全域智能快充及智能运动控制。这些尖端技术的结合，显著提升了海狮07EV在安全性、能效及智能化方面的表现。
 
@@ -73,21 +73,21 @@ Evo平台最大的亮点是搭载了全球首创的12合1智能电驱系统（�
 
 **电驱动控制系统**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9qp7XORic6k02AQHicWicQFV7euUBIOJiaxDl7P6aSSqQgBac1zkdK7gQUPOr2iaqprQlKJuMxHD4ZDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_005_fc42257e378a.png)
 
 比亚迪12合1电驱，这款电驱的能效非常突出——系统的综合工况效率最高达92%，“行业第一”。在日常城市驾驶工况下，出行效率提升7%，续航里程可提升50km。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVkWc3iaVXVgTXUIVqAcObvmAL0yzIe1oOO9kXHkcZH4E7gVYdE5HIeWPuM7JbsNe02ZuVsib8V2DyOQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_006_9796ba361808.png)
 
 这款12合1的电驱全系搭载1200V碳化硅电控，并且升级了全新一代SiC功率模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVkWc3iaVXVgTXUIVqAcObvmAibSYzmby5dfgKKB6VaNvrUflwH7H0nBdk5jbM1Akrpb57zb8ARgqmVg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVkWc3iaVXVgTXUIVqAcObvmA8icLJ6RGKfv5iaZSeOtkQMpw4SVxpm82Ma6s1GT6oQib47GwicjaY9MwGw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_007_b31191141294.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_008_5ee97d07fa59.png)
 
 比亚迪的全新一代SiC功率模块还采用了“全球首创”的叠层激光焊技术。
 
 比亚迪的SiC功率模块采用了叠层母排激光焊技术，取代了传统的螺栓连接工艺，从而使得他们HPD模块的杂散电感大幅降低75%，电控最高效率达99.86%，过流能力提高了10% ，实现碳化硅功率模块性能全面跃升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVkWc3iaVXVgTXUIVqAcObvmAEv10vjzgS51wI0CTdAI0ap7btMeZJfkicPp93nmUsWJrQZofA7jsCxg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_009_12652e95f41d.png)
 
 叠层母排激光焊技术研发，是因为SiC MOSFET的开关频率非常快，而且由于母线寄生电感和SiC功率模块自身电感的影响，电路会产生很高的尖峰电压，因为尖峰电压V=杂散电感L×开关速度di/dt。  
 
@@ -97,7 +97,7 @@ Evo平台最大的亮点是搭载了全球首创的12合1智能电驱系统（�
 
 在SiC模块中的杂散电感来源有很多，包括母线电容的杂感；母线电容—模块之间的杂感；模块内部杂感（端子间杂感、键合线及DCB覆铜层杂感等）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVkWc3iaVXVgTXUIVqAcObvmAY0icJOFngrYwoqcsAeCD4liaUVUznkeDSPWnY2mKuTA8UzvAY8AVFFbw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_010_83fb842d0989.png)
 
 以前，模块制造商通常使用螺丝接头来连接SiC模块的外部铜触点与汇流排，但螺丝接头对逆变器的电感值、大小和电阻都有负面影响。为了减少SiC模块的杂散电感，越来越多企业将DC输入端的叠层母排与薄膜电容，通过激光焊接进行连接。
 
@@ -107,7 +107,7 @@ Evo平台最大的亮点是搭载了全球首创的12合1智能电驱系统（�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WepibJHFSzcfPPGPeWEibmzEA0ueSFf2tm9UFoNnuZseOngos67CWkH4XlcWQJmTVZnvicaZbNJRl6dZSvu0GhQow/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_011_979538bf5948.jpg)
 
   
 
@@ -115,13 +115,13 @@ Evo平台最大的亮点是搭载了全球首创的12合1智能电驱系统（�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/WepibJHFSzcfPPGPeWEibmzEA0ueSFf2tmarxx2nSxI9Be9qzzdbvZTXMAj5yXRia01CTfticouH6Echib5HxNLOLXQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_012_fd5aa5972d81.jpg)
 
   
 
 尤其是在北方冬季条件下，海狮07EV电池温升速率可提升230%，低温充电时间相比常规加热方案可缩短40%。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ymrvyYG9TXhzOqsO92QUh8Jlr698sQ2TGcI5Vd3OVrO7VNHVOQ8kYtXUMOXzZxAkuibUwJRtdWmZOYZqPoKkAnA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_013_8a73fec717e6.jpg)
 
   
 
@@ -131,18 +131,18 @@ Evo平台最大的亮点是搭载了全球首创的12合1智能电驱系统（�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WepibJHFSzcfPPGPeWEibmzEA0ueSFf2tme5ZmFKTvQzElnt5CfuzJmo7vscibGfqwqGdt51Kuc6RlqY00lRgJtlA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_014_ba77918cecbd.jpg)
 
 另外，放电能力和电池方面的热管理也有很大的关系，海狮07EV全系使用了16合1高效热管理集成模块，全球集成度最高，大幅减少了管路，可以让系统损耗显著降低，换热性能提升20%，电池热管理能耗降低25%。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WepibJHFSzcfPPGPeWEibmzEA0ueSFf2tmRicInSTYjRA4YxFNkM4kSGMecOvX5HWYbOw0cmMyLvibjA5tuticBASGw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_015_43519a9db861.jpg)
 
 资料来源：行家说，智能汽车点评...
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_016_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_017_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪汽车_海狮和海豹系列搭载800V高电压平台_标配碳化硅（SiC)器件_images\img_018_84aa944feb13.jpg)

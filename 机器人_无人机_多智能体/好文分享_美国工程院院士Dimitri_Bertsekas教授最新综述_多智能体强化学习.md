@@ -4,15 +4,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9KLx\_550Zqgyf4gp\_tuINA](https://mp.weixin.qq.com/s/9KLx_550Zqgyf4gp_tuINA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/cHanbNh4sr8zTqPUFofK3eHaL7wLbrteiaxPXp2DqNplLicIvBsdTj8sZlibeZ5TNpyibuVgDaWfSvFhmzOnqmiciavA/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_000_b9c857644fec.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cHanbNh4sribKej19kicQGq4zRML4w9uwqTibCGoPRgbp0hSuA720yY9T4bUz4JWfuTia76MRibGhnLWJJXNPaUic1zQ/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_001_9d9bcdc4cb54.png)
 
 文章导读
 
-![](https://mmbiz.qpic.cn/mmbiz_png/rPotUmOtaictEVlvEWwxHjRwosicM8e2MuMZqpicCapeAkOKWricibWlIWP2aHqfWibcf0fxPrGpxugzr9UJ9z8SZvhA/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_002_21b417589d92.png)
 
   
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cHanbNh4sricXNLWHbu4S8ialFCElXEaib1hFFROk5G58Ric0vmDqhKPe1LnQMiaibJSsicEhTyiaDqZsVTd8WJOeI431w/640?wx_fmt=png)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_003_aa6b33dec020.png)
 
 Conceptual struture of a multiagent system
 
@@ -70,35 +70,35 @@ Conceptual struture of a multiagent system
 
 [美国工程院院士Dimitri P. Bertsekas: 基于特征的聚合与深度强化学习](https://mp.weixin.qq.com/s?__biz=MzIxMjA5Njg2Nw==&mid=2649059710&idx=1&sn=838f6267d853bd50f8a3c949549c6a92&chksm=8f5a9372b82d1a646a9c070782840d1ebb3e903b4cb27d86eb3a8f78329b530d5fda5035ef2d&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cHanbNh4sribKej19kicQGq4zRML4w9uwqicUoatRrFzVIgZrDjibxiaDpia6O6WcUIY3lqruJmb40GhTgBCu8bOWu9Q/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_004_5223753d48c0.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cHanbNh4sribKej19kicQGq4zRML4w9uwqTibCGoPRgbp0hSuA720yY9T4bUz4JWfuTia76MRibGhnLWJJXNPaUic1zQ/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_005_9d9bcdc4cb54.png)
 
 文章信息
 
 **Dimitri Bertsekas, ["Multiagent Reinforcement Learning:Rollout and Policy Iteration,"](http://www.ieee-jas.net/article/doi/10.1109/JAS.2021.1003814?pageType=en) _IEEE/CAA J. Autom. Sinica_, vol. 8, no. 2, pp. 249-272, Feb. 2021.**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cHanbNh4sribKej19kicQGq4zRML4w9uwqTibCGoPRgbp0hSuA720yY9T4bUz4JWfuTia76MRibGhnLWJJXNPaUic1zQ/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_006_9d9bcdc4cb54.png)
 
 全文获取
 
 1\. 点击文题或识别下方二维码在线阅读~
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cHanbNh4sribKej19kicQGq4zRML4w9uwqTOsndE3ASQUosXNSq5sBbWC9kN0ibHicaY7hmfvlQ8fYFN4mCpXhOx5g/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_007_c548f6d7e266.png)
 
 2\. 邀您加入“JAS&自动化学报读者服务交流”微信群，获取更多资源资讯！添加小编微信“zss912483428”拉您入群~
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cHanbNh4sribaF1EP6FBdYtHPrQsz9mnibQ5WnHZ0uVTib3yD5oCKHI0e883wfyCCzdIQ90ia8M7e6zS1fHcgeEerA/640?)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_008_caca89fd481a.png)
 
 3.后台留言留下您的邮箱，小编发给您~
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/cHanbNh4sribKej19kicQGq4zRML4w9uwqn4YAHJbMgNn1KibdekTm9F3sicmNVY9RhjRn2ibUJnVWHTHO72yUzuH7Q/640)
+![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_009_b7362135fe4a.png)
 
 **分享 点赞 在看！**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/cHanbNh4sribKej19kicQGq4zRML4w9uwqMDTE3njhHccVEnMiczQYxUiaNHxUOuuDZnR4MwXODmAz3zplqSsib29CQ/640)**
+**![](好文分享_美国工程院院士Dimitri_Bertsekas教授最新综述_多智能体强化学习_images/img_010_77753215f861.png)**
 
   
 

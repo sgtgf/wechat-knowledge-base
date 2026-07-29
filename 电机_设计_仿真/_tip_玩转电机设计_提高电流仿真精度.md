@@ -12,7 +12,7 @@
 
 今天给大家介绍一个容易被忽略的，但是又对仿真电流值有直接影响的小tip。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzo1mmDbw83zUHTtlm9CIrO5rEg4uNe3boYianIYQuyfUJb7xKNY0zF0J1O1icGgJ4X73KicPoTNQVFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_玩转电机设计_提高电流仿真精度_images\img_000_d0439742111e.png)
 
 _图1 实际电机的功率流_
 
@@ -52,4 +52,4 @@ _图1 实际电机的功率流_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzo1mmDbw83zUHTtlm9CIrOynvN72f8Zsn5sA8JVibjyXXSknqRnSneLVG7OcwzxczZMElJFg280NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_玩转电机设计_提高电流仿真精度_images\img_001_70dd03f8281a.png)

@@ -32,7 +32,7 @@ FPGA 正是一种硬件可重构的体系结构。它的英文全称是Field Pro
 
 FPGA常年来被用作专用芯片（ASIC）的小批量替代品，然而近年来在微软、百度等公司的数据中心大规模部署，以**同时提供强大的计算能力和足够的灵活性**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JY5aq7yL6xcqY3m5JffK0EicpyvqQZ3NpVLlatBF7sgyMzKVITdJ1eRg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_002_ed0a0cdd9937.jpg)
 
 不同体系结构性能和灵活性的比较
 
@@ -74,13 +74,13 @@ FPGA 为什么快？「都是同行衬托得好」。
   
 **计算密集型任务**的例子包括矩阵运算、图像处理、机器学习、压缩、非对称加密、Bing 搜索的排序等。这类任务一般是 CPU 把任务卸载（offload）给 FPGA 去执行。对这类任务，目前我们正在用的 Altera（似乎应该叫 Intel 了，我还是习惯叫 Altera……）Stratix V FPGA 的整数乘法运算性能与 20 核的 CPU 基本相当，浮点乘法运算性能与 8 核的 CPU 基本相当，而比 GPU 低一个数量级。我们即将用上的下一代 FPGA，Stratix 10，将配备更多的乘法器和硬件浮点运算部件，从而理论上可达到与现在的顶级 GPU 计算卡旗鼓相当的计算能力。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JaGHZQOCddjQficcfZpglsfHPj5RRWDSY3VhZQd0ZfSXc9KNNIGsHEdg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_003_c65dde73155f.jpg)
 
 FPGA 的整数乘法运算能力（估计值，不使用 DSP，根据逻辑资源占用量估计）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JoYFN9NUxko89CHWKN07wdKniaqxOAcH5q7ZRTyv8hbwzxRLk2ahKTpw/640?wxfrom=5&wx_fmt=png&tp=wxpic&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_004_6d8ad968c966.png)
 
 FPGA 的浮点乘法运算能力（估计值，float16 用软核，float 32 用硬核）
 
@@ -128,7 +128,7 @@ FPGA 为什么比 GPU 的延迟低这么多？
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JVdvO7Y57polgPeB6rh0PxUBQyUkjwd43OZ1MItruFCicM8VdUALGt3w/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_005_13fe3d5f653c.jpg)
 
 计算密集型任务，CPU、GPU、FPGA、ASIC 的数量级比较（以 16 位整数乘法为例，数字仅为数量级的估计
 
@@ -151,7 +151,7 @@ ASIC 专用芯片在吞吐量、延迟和功耗三方面都无可指摘，但微
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JSwBzllELv4hJe9Zv9Xibia8Ct5RicZmoDfZDobOPGiboOK2rZrvJsRdj7w/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_006_4dc1126f6305.jpg)
 
 通信密集型任务，CPU、GPU、FPGA、ASIC 的数量级比较（以 64 字节网络数据包处理为例，数字仅为数量级的估计）
 
@@ -167,7 +167,7 @@ ASIC 专用芯片在吞吐量、延迟和功耗三方面都无可指摘，但微
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JSz4rfbPjiaonqIhLSoRZYe5ccT8bsfNINFcmH4lxGib4ZsdcJY6xHqlg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_007_72f947e247c9.jpg)
 
 ClickNP（FPGA）与 Dell S6000 交换机（商用交换机芯片）、Click+DPDK（CPU）和 Linux（CPU）的转发延迟比较，error bar 表示 5% 和 95%。来源：\[5\]
 
@@ -197,7 +197,7 @@ ClickNP（FPGA）与 Dell S6000 交换机（商用交换机芯片）、Click+DPD
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4J5CXGP5YJYeVsvXTDS70Xb9WD2DuicbthHdPic7NYEMp6fZcMWibWNm4yw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_008_e8227ef686e1.jpg)
 
 Ignite 2016 上的演示：每秒 1 Exa-op (10^18) 的机器翻译运算能力
 
@@ -212,7 +212,7 @@ Ignite 2016 上的演示：每秒 1 Exa-op (10^18) 的机器翻译运算能力
 > -   每台机器一块 FPGA，放在网卡和交换机之间，共享服务器网络
 >     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JzYvibYo6q5TPwF00wicgZvCwgObIlHofxa7uTYI5DJny9ypjmwb7icsibg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_009_d746b6729136.jpg)
 
 微软 FPGA 部署方式的三个阶段，来源：\[3\]
 
@@ -226,7 +226,7 @@ Ignite 2016 上的演示：每秒 1 Exa-op (10^18) 的机器翻译运算能力
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JGzjBcZ12R4uCZtRib2lytDg9OxbRheBx7rGTdEHQn80hkHajZS8TvTw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_010_35a22b7ed92d.jpg)
 
 最早的 BFB 实验板，上面放了 6 块 FPGA。来源：\[1\]
 
@@ -238,7 +238,7 @@ Ignite 2016 上的演示：每秒 1 Exa-op (10^18) 的机器翻译运算能力
 
 当然现在数据中心领域用两家公司 FPGA 的都有。**只要规模足够大，对 FPGA 价格过高的担心将是不必要的。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eXc5BkaCdM3Z01fsgibRKYAibicoNNd4SJHrekTbuU5evlDxg1OfJiatvqmaTuegvyGbkoVgShtyaxswLicicFl0Q5sg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_011_44dc03348d78.jpg)
 
 最早的 BFB 实验板，1U 服务器上插了 4 块 FPGA 卡。来源：\[1\]  
 
@@ -261,7 +261,7 @@ Ignite 2016 上的演示：每秒 1 Exa-op (10^18) 的机器翻译运算能力
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JxA5dv46Kn7jKSiccTY5t0M4GNuwL3pt3mibibbW1gzOO27oq4Iic3vzGYw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_012_ec185052d294.jpg)
 
 部署 FPGA 的三种方式，从中心化到分布式。来源：\[1\]
 
@@ -274,25 +274,25 @@ Ignite 2016 上的演示：每秒 1 Exa-op (10^18) 的机器翻译运算能力
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JOSbJ2lLSVJcST0FCSl6oeI7JkOv3LRiaVbEFV4POP2I4kSPItZ6Dumw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_013_c3660024798e.jpg)
 
 Open Compute Server 在机架中。来源：\[1\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JSSUM4RsJftt70RVwyFcgHcHicrKcrejhn486uKZ3DmxCdyF4bFWeT8w/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_014_f56ed138065d.jpg)
 
 Open Compute Server 内景。红框是放 FPGA 的位置。来源：\[1\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eXc5BkaCdM3Z01fsgibRKYAibicoNNd4SJH03BQlzyC7f0jbooU3vLibOseVzmGrLTt9PFSZEykdrPk4cedQmg9mgw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_015_f69ab6faa6e2.jpg)
 
 插入 FPGA 后的 Open Compute Server。来源：\[1\]  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JvJK4mYhYgkBarI6VJwduh1btFpSxUTic6qqo0YYTXhSn58FgLAnuIuw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_016_cb907d3088f3.jpg)
 
 FPGA 与 Open Compute Server 之间的连接与固定。来源：\[1\]
 
@@ -300,7 +300,7 @@ FPGA 采用 Stratix V D5，有 172K 个 ALM，2014 个 M20K 片上内存，1590 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4J3ice2Derf3iaLguYCUpO8RR962X3Dnjfh4pMfCHF93AshjaxBN3LmWKw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_017_e0af14e50283.jpg)
 
 机柜中 FPGA 之间的网络连接方式。来源：\[1\]
 
@@ -312,19 +312,19 @@ FPGA 采用 Stratix V D5，有 172K 个 ALM，2014 个 M20K 片上内存，1590 
 
 如下图所示，每 8 块 FPGA 穿成一条链，中间用前面提到的 10 Gbps 专用网线来通信。这 8 块 FPGA 各司其职，有的负责从文档中提取特征（黄色），有的负责计算特征表达式（绿色），有的负责计算文档的得分（红色）。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JplDZoD3vM7ENyVKwXymmnK4bkZqc1hdueYEuiaaNdaRHBhXfpWvnCQA/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_018_0cc8f8dc4f2e.jpg)
 
 FPGA 加速 Bing 的搜索排序过程。来源：\[1\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JtCiajOjLa5wGW4XuUM1RjrDmRQJCVTSuicXcwbocEPicP9WW8jQyn1jCQ/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_019_a2946d61f151.jpg)
 
 FPGA 不仅降低了 Bing 搜索的延迟，还显著提高了延迟的稳定性。来源：\[4\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JPJW75GIOomEnVGibv4RWYOEYFbhXbiaFWFYicqib5bSDdeicIBgDY79C9tg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_020_f44c9139f508.jpg)
 
 本地和远程的 FPGA 均可以降低搜索延迟，远程 FPGA 的通信延迟相比搜索延迟可忽略。来源：\[4\]
 
@@ -349,7 +349,7 @@ Azure 部门急需解决的问题是网络和存储虚拟化带来的开销。Az
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4J1q7ibFGelAPoGI5ytsFgJJqYWjjKcPUqe4FUQOwibha4ozM9pvRFDyjw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_021_378f64788841.jpg)
 
 网络隧道协议、防火墙处理 40 Gbps 需要的 CPU 核数。来源：\[5\]
 
@@ -363,7 +363,7 @@ Azure 部门急需解决的问题是网络和存储虚拟化带来的开销。Az
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JQaxToOZwRiaI6RbK86Z2I2BIdSc25BBeeCxq6TVUqajH4icGoibFOqJibg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=png&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_022_4b351545ded9.png)
 
 Azure 服务器部署 FPGA 的架构。来源：\[6\]
 
@@ -373,7 +373,7 @@ FPGA（SmartNIC）对每个虚拟机虚拟出一块网卡，虚拟机通过 SR-I
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JTnGLfuzrAhicsZmDJWNFib8QrkZXT9ibibyUiaSsJicM2J8IJ0modupDYsEg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_023_0c416c14d52a.jpg)
 
 网络虚拟化的加速架构。来源：\[6\]
 
@@ -394,19 +394,19 @@ FPGA（SmartNIC）对每个虚拟机虚拟出一块网卡，虚拟机通过 SR-I
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JUUibPo5F0WqjogicOyHCBj91PYLxa7RnqXs6QbRadsDxS8jRSbtlVmJw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_024_3d2645bb8f6c.jpg)
 
 纵轴：LTL 的延迟，横轴：可达的 FPGA 数量。来源：\[4\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JpjibcdBFLvljONpAXkiaKGiaxfEPqVe9LMkpFYf3mmjqzhjnAwbAm0Fpg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_025_6a77da174cd8.jpg)
 
 FPGA 内的逻辑模块关系，其中每个 Role 是用户逻辑（如 DNN 加速、网络功能加速、加密），外面的部分负责各个 Role 之间的通信及 Role 与外设之间的通信。来源：\[4\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JT7QAV8tAcmCu4JZHh534YwCiaxMVkggzcZBKx657o2oFYNQSYcRlfgA/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_026_ba0902fd02c7.jpg)
 
 FPGA 构成的数据中心加速平面，介于网络交换层（TOR、L1、L2）和传统服务器软件（CPU 上运行的软件）之间。来源：\[4\]
 
@@ -431,7 +431,7 @@ FPGA 构成的数据中心加速平面，介于网络交换层（TOR、L1、L2�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JJ9zI7ZQ52sUQvVQhARV8K5ldvxoHjQGK43waOzzGexiaqkxXvwRmibPQ/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=png&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_027_e477c9aa8901.png)
 
 从神经网络模型到 HaaS 上的 FPGA。利用模型内的并行性，模型的不同层、不同特征映射到不同 FPGA。来源：\[4\]
 
@@ -439,7 +439,7 @@ FPGA 构成的数据中心加速平面，介于网络交换层（TOR、L1、L2�
 
 在 MICRO'16 会议上，微软提出了 Hardware as a Service (HaaS) 的概念，即把硬件作为一种可调度的云服务，使得 FPGA 服务的集中调度、管理和大规模部署成为可能。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JiaGnfaqcEuRrestucR6E1AfXq8mOHxnNjfJRD59dkQFEICf1Gk1FjSA/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_028_16ec645217d3.jpg)
 
 Hardware as a Service (HaaS)。来源：\[4\]
 
@@ -481,7 +481,7 @@ Hardware as a Service (HaaS)。来源：\[4\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JEOK4xJpzt59bnYFK7kjAZ798jr1q0ls5Dq2QZtKJHqDeM5Driaq4mhw/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_029_8f309d81b7ca.jpg)
 
 PCIe I/O channel 与 OpenCL 的性能比较。纵坐标为对数坐标。来源：\[5\]
 
@@ -502,13 +502,13 @@ OpenCL 里面多个 kernel 之间的通信就更夸张了，默认的方式也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4Jc1gOlxRibUowicsgXF3SCJWtWlTkqJicDrSic8LRicKFVQ01ugicCFlEibXFQ/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=jpeg&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_030_60d4d53bee35.jpg)
 
 ClickNP 使用 channel 在 elements 间通信，来源：\[5\]
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgwwKBIlpAlWTs6elCfyg4JN6tn1CR0l3o5OOYIXZLAtWZSL0iaMwiaRiaWocrR154aHonU6V7Onxqbg/640?wxfrom=5&wx_lazy=1&wx_co=1&wx_fmt=png&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_031_dab4a4177fc5.png)
 
 ClickNP 使用 channel 在 FPGA 和 CPU 间通信，来源：\[5\]
 
@@ -568,9 +568,9 @@ ClickNP 使用 channel 在 FPGA 和 CPU 间通信，来源：\[5\]
 
 硬件工程师都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_032_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_033_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_034_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_035_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_036_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_037_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_038_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_039_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_040_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_041_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_042_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_043_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_044_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_045_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_046_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA技术为什么越来越牛_这是有原因的_images\img_047_3c93e54afedf.gif)
 
 ## 
 

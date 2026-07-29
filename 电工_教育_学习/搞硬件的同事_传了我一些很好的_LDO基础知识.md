@@ -46,7 +46,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZEXqfD6HOSSUQfBjOZ7rOaaDSBASrriaB2eCTkp5CwRhOoGiaCwT1T3XA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_002_dd16759f0972.png)
 
   
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZQW2worxRztHxcHR7n9lwF029eAKyDAGiacMZB9gcex7f8YoCrvAbLFA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_003_788550d327eb.png)
 
   
 
@@ -62,7 +62,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbSGoG2yD8ZrQibqOx7r02naB4epOUia3nIOSDy5GGOsgUs7AKlN3NJ6bg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_004_d696243fa84c.png)
 
   
 
@@ -78,7 +78,7 @@ PMOS LDO
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbnUInGuia4xKHkSiaueuGmicfXBRiaUria2Q1iawCQ2hgIP4Jp2yXvaz5ASjQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_005_acbafc5a6b0e.png)
 
 但是，在特定的点，误差放大器输出将在接地端达到饱和状态，无法驱动 VGS 进一步负向增大。RDS 已达到其最小值。将此 RDS 值与输出电流 IOUT 相乘，将得到压降电压。
 
@@ -86,7 +86,7 @@ PMOS LDO
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbACfZ2VyesAeWllMSGazDG8wojMhwp1peiahB803ibIGkLMcvEIuYBoxA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_006_c8c5244d6b01.png)
 
 如图 3 所示，TPS799 的压降电压随输入电压（也适用于输出电压）增大而降低。这是因为随着输入电压升高 VGS会负向增大。
 
@@ -96,7 +96,7 @@ NMOS 架构如图 4 所示，反馈回路仍然控制 RDS。但是，随着VIN �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbKic6SJPicfqic0MicSgwMpmiauY8sEK4z5pjGNRacN8BZibibhepvk1WeIKaA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_007_0b294553e99d.png)
 
 在特定的点，VGS 无法再升高，因为误差放大器输出在电源电压 VIN 下将达到饱和状态。达到此状态时，RDS处于最小值。将此值与输出电流 IOUT 相乘，会获得压降电压。
 
@@ -108,13 +108,13 @@ NMOS 架构如图 4 所示，反馈回路仍然控制 RDS。但是，随着VIN �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbRHqyefCiaz58jrHkvClCtw0XEcIKlic92c8QQEOJ0Wfaf6aqJ6rkeGyw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_008_318b1de2a8ff.png)
 
 此电压轨用作误差放大器的正电源轨，并支持其输出一直摆动到高于 VIN 的 VBIAS。这种配置能够使 LDO 保持较高 VGS，从而在低输出电压下达到超低压降。有时并未提供辅助电压轨，但仍然需要在较低的输出电压下达到低压降。在这种情况下，可以用内部电荷泵代替 VBIAS，如图 6 所示。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbchTTsnKgL2falXBx1FPBw4G7USDsoyp5qNx3CeCfyDwia0ePtCZnkvw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_009_15607c4e1b29.png)
 
 电荷泵将提升 VIN，以便误差放大器在缺少外部 VBIAS 电压轨的情况下仍可以生成更大的 VGS 值。
 
@@ -122,7 +122,7 @@ NMOS 架构如图 4 所示，反馈回路仍然控制 RDS。但是，随着VIN �
 
 除了架构之外，压降还会受到其他一些因素的影响，如表 1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbsybU2soPc4bn2efo7beufeoqqGmz8ibPZgDdznEqq4b3Jic8FA8tqsBA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_010_62a7a805ee3d.png)
 
   
 
@@ -138,7 +138,7 @@ LDO电容的选择
 
 陶瓷电容器通常是理想的选择，因为其电容变化最小，而且成本较低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbHlp7jQvCMV0bntcENicqgvWW0tNTHBav4qJfw7CvRbJRKIE7yXjhe7g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_011_1e648f21b378.png)
 
 什么是电容？
 
@@ -152,13 +152,13 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbmgq1vmkibSmpZhvPQgq4QPdtE7lIByAMd7iapnYOn1tKJGe1ic6ic43lJg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_012_488ed6adfd01.png)
 
 图2显示了对电容器施加电压所产生的影响以及产生的电容。请注意，外壳尺寸较大时损失的电容较小；这是因为外壳尺寸越大，导体之间存在的电介质越多，而这会降低电场强度并减少锁定的偶极子数。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbWssCI7fCGe0POxeFH2RicVpTiaALbQYRc3LBjvibo8bfD4BT5TFEQgFrQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_013_f639ca0ed4b1.png)
 
 温度降额
 
@@ -166,7 +166,7 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbyv1a7oYclN9ucdkhdicTdZMGubzN2BJHhuHW1XC64c9b1lJYDpl1FlQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_014_e4383997da2a.png)
 
   
 
@@ -176,7 +176,7 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbMNbYibibeomMicZzFI0LtHy3nSXJlAIoVNyGBsh2zP0UkZ5gLy2vcWvFA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_015_7e584392c573.png)
 
 实际应用
 
@@ -206,7 +206,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbFWKsIujLr5aJvAhsnJ6icrJw9bBzXn7PUekVz4VXQce4OXWKsKPk9wQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_016_4acf61e3188c.png)
 
 是否选择了适合的封装？
 
@@ -214,13 +214,13 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbHM22jsaXrt4Ndr567UznMYVEzGtxdLZrGOuQuG9pmwjv87tbal3PRw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_017_7cdca51eb8d9.png)
 
 这些建议的温度表示器件将按数据表中“电气特性”表所述工作。可以使用公式 1 确定哪种封装将在适当的温度下工作。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZfibNIKYxibCc4njxm6a7ksj7nDxeic06JiaxzKZKX7B9BWicN1ibzyq2W1WA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_018_9dbc16a5e117.png)
 
   
 
@@ -230,7 +230,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZ1nZfDWgo6nkRrIMQUAUulYX1Mib6iaeIE7gFzADpkoejEzD05xaw3Hmw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_019_fe1b2e32f5c6.png)
 
   
 
@@ -252,7 +252,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbjlUzrA0FS5q1t3UjE9xYFl5C5xrbgggdGsvLnibdVoiaZPqS9DjfgHZA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_020_261d0d7307d6.png)
 
 串联电阻分担功耗
 
@@ -260,13 +260,13 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbftg3TPha3ibfJAIGUYIric6WG32939A3nWufj6ib1OgxF5XEibnbWdUHCQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_021_48c82aaf8649.png)
 
 由于 LDO 需要处于饱和状态以进行适当调节，可以通过将所需的输出电压和压降相加来获得最低输入电压。公式 2 表示了LDO 的这两种属性的计算方式：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZQ619z4nJ84AkyibNeB0Ul0F81ibTgDC49XMrZ4WaLn3y57XFrxr77uqw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_022_cd4b8950ce24.png)
 
   
 
@@ -274,7 +274,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZNpcuQ6SzcibMZHOUUe0NYhZk3NHfdE0oGicUVSP7pUicnvmpFg2EtvLyQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_023_c4ea33ff075c.png)
 
   
 
@@ -282,7 +282,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZqibdaBLjz7RsbR1F4p8B4cCdYUSTKRMe419iaRAQnNhQrCunmQGDpcWw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_024_413b3ab06946.png)
 
   
 
@@ -298,7 +298,7 @@ LDO 中的电流限制定义为，建立所施加电流的上限。与恒流源�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbEJF6yibjib7K1luxAIUgHcDicYwkOycEzgicGw1TDmLec1JLViax2UIKkzw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_025_f750208ad256.png)  
 
 砖墙电流限制
 
@@ -306,7 +306,7 @@ LDO 中的电流限制定义为，建立所施加电流的上限。与恒流源�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZnJ9WWsv4tBFiboll1qibia1oxauB8f86j7mkUtOYW4XyPovJfibWKkblLA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_026_4195e1aef588.png)
 
   
 
@@ -316,7 +316,7 @@ LDO 中的电流限制定义为，建立所施加电流的上限。与恒流源�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbdiaicaftoyguMCeuuSn0667uLlBxWr0yzibGo3J7sbFWJicyVmFr5KkjYQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_027_5bfd15e41f58.png)
 
 该限流功能有助于对镍镉和镍氢单单元电池充电，因为这两种电池都需要恒定的电流供应。电池电压在电池充电时会发生变化，TPS7A16 等 LDO 有助于将恒定电流保持在限值 (I)。
 
@@ -328,7 +328,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcba2JJmY4lHMNRoXrTJmkrfoy4eicqcmC7NKDtX5s1RtwY9W2b2puAorA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_028_4099f08a45a7.png)
 
 将块体与源极相连有一个缺点，即会在FET 中形成寄生体二极管，如图 2 所示。此寄生二极管被称为体二极管。在这种配置中，当输出超过输入电压与寄生二极管的 VFB 之和时，体二极管将导通。流经该二极管的反向电流可能会使器件温度升高、出现电迁移或闩锁效应，从而导致器件损坏。
 
@@ -336,7 +336,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbVNWaHhelMNKE8WT2ib2gliaQ8xy6M1QibPnyonDcPeZqGdYluBCKy3kWQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_029_ce13d669d12e.png)
 
 使用肖特基二极管
 
@@ -346,7 +346,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbHiapggZoo1JJJiaDhnOXTQYIbewicxtibicAXo7BYoTDhzyeyOFjnQz1rGQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_030_9a084df3c79c.png)
 
 在 LDO 之前使用二极管
 
@@ -354,7 +354,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbS7kQh4LzvUn2kdffkwdplsqhdicCP20Zicwc9XHrzibfHAwMBr54asictA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_031_faa33d9c41c9.png)
 
 额外增加一个 FET
 
@@ -364,7 +364,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbPYWbWl62NrZ3yCQ9eUpV4YavDkFXNzGsRXlbTdI00Go0lmJd1qWpMA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_032_ad48f0feb8e2.png)
 
 此方法最大的缺点之一是使用此架构时压降电压基本上会翻倍。为降低压降电压，需要增大金属氧化物半导体场效应晶体管 (MOSFET) 的尺寸，因此将增大解决方案的整体尺寸。应用于汽车中的 LDO（如 TI 的 TPS7B7702-Q1）使用此方法防止出现反向电流。
 
@@ -378,7 +378,7 @@ PSRR 是一个常见技术参数，在许多 LDO 数据表中都会列出。它�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZc2HnttF3wxSyehEFbUqZh4wJPbAw71rMsOPVy2Yqfrmcog1sUhCWPg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_033_f3e820f3354d.png)
 
   
 
@@ -392,13 +392,13 @@ PSRR 是一个常见技术参数，在许多 LDO 数据表中都会列出。它�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbpibYZdCWhsDIhJs7IvrCEv7l3Bq7Sh4l26hJoF4UOawsVLKcRLbRRAw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_034_6a5cc51cc31f.png)  
 
 为确定衰减程度，首先必须了解出现纹波的频率。假设此示例中对应的频率为 1MHz，因为此值正好处于常见开关频率范围的中间。可以看到，在 120Hz 或 1kHz 下指定的 PSRR 值对此分析没有任何帮助。相反，您必须参考图 2 中的 PSRR 图。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbBEnRg5D69eRoo8ATUYTV56icMjEsLaEjfY6GuAq11U4nAz1rCJibOiaxw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_035_5e34be782473.png)
 
 在以下条件下，1MHz 时的 PSRR 指定为 45dB。
 
@@ -416,7 +416,7 @@ COUT = 1μF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbYcjVPSYU33fMqYg0iaBU8qkibyialBZbP3cIqSOV3rTnGqEQibYY7Z181w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_036_3935ffaedb76.png)
 
 可以看到，如果保持所有其他条件不变，1MHz时的 PSRR 减小到 23dB，即衰减系数为 14。这是因为互补金属氧化物半导体 (CMOS) 导通元件进入三极管（或线性）区，即，随着 VIN -VOUT 的值接近压降电压，PSRR 开始降低。（请记住，压降电压是输出电流及其他因素的函数。因此，较低的输出电流会降低压降电压，有助于提高 PSRR。）
 
@@ -424,7 +424,7 @@ COUT = 1μF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbiaVnQdWrpXAdqWc3ibBrjdDP5Dm4OrGcGiaTK4WgCbB76w1v1J2ZRLZdw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_037_9101c4d113dd.png)
 
   
 
@@ -436,9 +436,9 @@ COUT = 1μF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbuorFJVWOog6JCXD97HquKKNKOUUtEErNBveTXD7zJMVZMhicGiaeD9ww/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_038_142622e2b29f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_039_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些很好的_LDO基础知识_images\img_040_d5dcc7ecfdf3.jpg)
 
 ## 
 

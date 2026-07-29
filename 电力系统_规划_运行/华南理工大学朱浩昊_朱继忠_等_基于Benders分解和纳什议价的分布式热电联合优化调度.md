@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QDD0TaR9KOzgenibxGNFvFLYYOeHiaHDg8EoRu4xruJjKam4lw9ibo4rvY66IA8kUlWJh1WUj8djdibw/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力系统_规划_运行\华南理工大学朱浩昊_朱继忠_等_基于Benders分解和纳什议价的分布式热电联合优化调度_images\img_000_1dbd9583dbce.png)](https://www.fafee.org.cn/)
 阅读提示：本文约 1700 字
 > 考虑供热管网储能特性的热电联合优化调度可以有效地提高电力系统的灵活性，并促进可再生能源高比例消纳。电力系统和热力系统隶属于不同的运营主体，需要保护各自隐私。此外，热电联合优化调度在最大化总体效用时，不应该损害个体利益。
 **研究背景**

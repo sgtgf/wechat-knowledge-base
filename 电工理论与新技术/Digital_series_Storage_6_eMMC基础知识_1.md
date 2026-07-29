@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/tyK09jyuIkECjXcPuERcuQ](https://mp.weixin.qq.com/s/tyK09jyuIkECjXcPuERcuQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMu97XrhUmJKfytfhQe2FW2SYBRhiablFjQUVMQiav7J9Buia9JsB4plqvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_000_c53de48738fb.png)
 
 ____**★★★**______Storage-6---eMMC基础______**★★★**____
 
@@ -15,13 +15,13 @@ _____€1.____eMMC的结构和接口_
 
 eMMC是一个以BGA软件包形式设计的嵌入式MMC解决方案，eMMC操作与MMC设备相同，因此是使用MMC协议v5.1一个简单的读写内存，eMMC将TLC模式Nand和eMMC控制器封装在内部，作为一个JEDEC标准封装，为主机提供标准接口。eMMC控制器（三星称为FTL：过渡层）直接管理Nand Flash，包括ECC、损耗均衡、IOPS优化和读取感应、CMD/区块管理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNh2g4pHvUyOjSMltdRAaCWx42nyZ60K3dT3RDBOk67gUWJSxgzX6dZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_001_1f60eb4432e6.png)
 
 **_图6-1：eMMC结构_**  
 
 从**_图6-1_**可以看到，整个eMMC包括控制器，Nand管理程序，Nand接口和Nand闪存单元。VDD（VCCQ）用于控制器电源（接口电源），VDDF（VCC）用于闪存电源。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQW3YIeagibUhHZzofAnF65tZuUEOCxt05M2ibXeQv2AcmrIHFO4cpicevkmHfFibHKrNJSOoTuDgdkXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_002_fed052882de8.png)
 
 **_图6-2：eMMC的接口和寄存器定义_**
 
@@ -61,13 +61,13 @@ ______€2._____eMMC的电源_
 
 **_图6-3_**是eMMC的电源配置，Nand区域（VDDF或VCC）需要3V电压，而MMC控制器支持1.8V或3V双电压（VDD或VCCQ）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSxJfFedLhApgv8APULzaM9Xuz1QzmC7wtyvWEcRZXCz7OibcSbDfhzxZ1uCjAPhyvj2ckxLbGgPow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_003_e8fe8c591e7e.png)
 
 **_图6-3：eMMC的电源配置_**
 
 通电时电源电压必须单调上升，无下降，断电时电源电压必须单调下降，无颠簸内部电压检测器在VCC和VCCQ下降时保证EMMC各项功能正常，其中VCC=2.7V-3.6V；VCCQ=1.70V-1.95V或者2.7V-3.6V，VCC和VCCQ在每个工作电压范围内达到稳定状态之前，主机不得发出任何命令。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQW3YIeagibUhHZzofAnF65tLb6icluibwNcOorXTwu7l2da9qfGO94VEKgf4jo4V0pDl6XEu7F4owvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_004_61a5e63d5bd6.png)
 
 **_图6-4：eMMC理想上下电_**
 
@@ -77,7 +77,7 @@ ______€3._____Nand布局_
 
 内部控制器将主机访问重定向至NAND物理块。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSxJfFedLhApgv8APULzaM9h05mOHzUeYt5S5nSAgrIGlYEyND0ho1to6OFzdAog4kb21aqygZyeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_005_9d0838f6e784.png)
 
 **_图6-5：eMMC的内部Nand布局_**  
 
@@ -89,7 +89,7 @@ ______€3._____Nand布局_
 
 注意：由主机执行分区配置时，设备将重新计算SEC\_COUNT值，可用于表示分区后用户数据区的大小。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSxJfFedLhApgv8APULzaM9k4iaicicI0rvNQFicVRRseJvhkicwjeXeVJX5EZV4vHHbXBtExichEt2oOtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_006_90df48b6218f.png)
 
 **_图6-6：eMMC的容量预留比例_**
 
@@ -101,7 +101,7 @@ eMMC最初由两个引导分区、RPMB分区和用户数据区组成，用户数
 
 增强分区（区域）：eMMC采用增强型用户数据区作为SLC模式，因此，当主服务器在用户数据区域中采用某些部分作为增强的用户数据区域时，该区域占用的大小是原始设置大小的两倍。(例如，如果主设置1MB为增强模式，则总共需要2MB用户数据区域才能生成1MB增强区域)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSxJfFedLhApgv8APULzaM9hdpS8eibBl5ZvIOCU2y3OcSM04GjkIUFc0KpEmsCxHoNEXlQiaO0LPtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_6_eMMC基础知识_1_images\img_007_60da0adfb63a.png)
 
 **_图6-7：eMMC的分区示意图_**
 

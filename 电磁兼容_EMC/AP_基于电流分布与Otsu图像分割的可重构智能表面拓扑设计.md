@@ -27,7 +27,7 @@ Zhen Zhang, Jun Wei Zhang, Hui Dong Li, Junhui Qiu, Lijie Wu, Wan Wan Cao, Ren W
 
 出版信息：IEEE Transactions on Antennas and Propagation, 2025; DOI: 10.1109/TAP.2025.3620902. 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX4yXBvRWUFr52e98Jm9EtetcOu65R3yXhOUicJSZ1ehmdz0TS4YkTlslWaWgAcaSyluZM9dpImEQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AP_基于电流分布与Otsu图像分割的可重构智能表面拓扑设计_images\img_000_9a967f2ec642.png)
 
 论文摘要
 
@@ -55,15 +55,15 @@ Zhen Zhang, Jun Wei Zhang, Hui Dong Li, Junhui Qiu, Lijie Wu, Wan Wan Cao, Ren W
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX4yXBvRWUFr52e98Jm9EteiceQozEfr8N3HplIkqRXLic9YjIsdH56mvLeBBLMOJbDicoxmE6hia24uw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AP_基于电流分布与Otsu图像分割的可重构智能表面拓扑设计_images\img_001_3e5d2fb68e9d.png)
 
 RIS示意图：(a) 阵列，(b) 单元。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX4yXBvRWUFr52e98Jm9EtejBOHhw0G8hA69uIkYBZOiaQLSq1Pm6v7Ss6XticdtkmPg2RC7FSV8AYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AP_基于电流分布与Otsu图像分割的可重构智能表面拓扑设计_images\img_002_01ba881537a8.png)
 
 基于RIS电流分布的拓扑设计流程图：(a) 初始结构, (b) 电流分布, (c) 灰度图像, (d) 分割后的图像, (e) 稀疏化图像, (f) 去噪并细化馈电结构后的图像, (g) RIS单元, (h) RIS系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX4yXBvRWUFr52e98Jm9EterA6XZkTgnZWGTmPd3bPGptojezxppZQDqVTKkibRMDlcBU830ibiaNibdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AP_基于电流分布与Otsu图像分割的可重构智能表面拓扑设计_images\img_003_f803775ef705.png)
 
 RIS的实测反射系数：(a) 幅度, (b) 相位。
 

@@ -22,7 +22,7 @@
 
 １.电路拓扑及移相控制
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa9Ubicoc6d1fmMBIxbdxR9EXKROMkldze2DnDK3510meFBNicmstLEMFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_000_97f18ae1ec6f.png)
 
 双向隔离三电平 ＤＣ⁃ＤＣ 变换器的一种拓扑是如图 １（ａ）所示的双边半桥三电平结构，变压器原、副边均采用三电平半桥结构，这种结构能够使开关器件的耐压等级提高一倍。 在移相控制方式下，ＤＣ⁃ＤＣ 变换器的驱动信号波形和电压、电流波形如图 １（ｂ）所示。 图中，Ｖ１ 、Ｖ２ 分别为变换器的输入与输出电压；Ｃ１ 、Ｃ２ 与 Ｃ３ 、Ｃ４ 分别为变换器输入与输出端的上、下支撑电容；ＭＦＴ 表示中频隔离变压器；ｖａｂ为变压器高压侧桥臂端口电压；ｖｃｄ为变压器低压侧桥臂端口电压；Ｌ 为变压器漏感；ｉＬ为流过变压器高压侧的电流；Ｓｉｊ为开关管 Ｓｉｊ的驱动信号；Ｔｓ 为开关周期。 如图 １（ ｂ）所示，ｖａｂ与 ｖｃｄ均为 ５０％占空比的方波电压，并且 ｖａｂ与 ｖｃｄ存在相位差 φ，该相位差称为移相角，通过控制移相角 φ 的正负和大小实现对变换器功率流动的方向和大小的控制。  
 
@@ -32,17 +32,17 @@
 
 ２．１ 工作原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaN0NxcZiahyuFjibMUuBZvbLiaNksIv3e0KKRTiaf4KCSpC79I33DkphYaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_001_b9bda13371d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaMibKbXA2iapBN9zmnIKbrRBeU3sygNlt6ZTgcAicPHQkeHS8SEb7vPSeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_002_1537252a93a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaaMJLMdccJa7Ch0q2OibhR1cfTaB0vZo23385bvN5xhuib951lK0JJ6Tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_003_1b41fa8d7b0f.png)
 
 图 ２ 给出了电流有效值最小控制方法的工作原理。 为便于分析，将移相角归一化表示，记为移相比Ｄφ（Ｄφ＝ φ／ π），ｖａｂ是占空比为 Ｄ１ 的三电平电压，ｖｃｄ是占空比为 ５０％的方波电压；通过控制 ｖａｂ与 ｖｃｄ之间移相比 Ｄφ 的大小来控制传输功率的大小，根据移相比 Ｄφ 计算出高压侧占空比 Ｄ１ ，从而控制变压器漏感电流有效值的大小。
 
 为便于完整分析变换器出现的各种工况，以 ｖａｂ超前于 ｖｃｄ 的相位 Ｄα π 的大小来分析，其中 Ｄα 定义为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSamvUr8decAa2w75Pqz7kqXSdJs1Z1icBOZEW0fcTR5raJ0DibhZpM9Jtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_004_aa82a2e2a4be.png)
 
 在图 ２ 中，随着 Ｄα在［０，１］范围内逐渐增大，变换器将出现 ３ 种工作情况：① ｖｃｄ的上升沿超前于 ｖａｂ的上升沿，此时 Ｄα满足 －（１－Ｄ１ ） ／ ２≤Ｄα ＜０，对应图２（ａ）；② ｖｃｄ的上升沿滞后于 ｖａｂ的上升沿，同时超前于 ｖａｂ 的下降沿，此时 Ｄα 满足 ０≤Ｄα ＜Ｄ１ ，对应图２（ｂ）；③ ｖｃｄ的上升沿滞后于 ｖａｂ的下降沿，此时 Ｄα满足 Ｄ１≤Ｄα≤（１＋Ｄ１ ） ／ ２，对应图 ２（ｃ）。
 
@@ -50,7 +50,7 @@
 
 开关状态 １（ ｔ０— ｔ１ ）：高压侧桥臂中电流经 Ｓ１２和箝位二极管 Ｄ１ 流通，ｖａｂ输出零电平；低压侧桥臂中电流经 Ｓ２１和 Ｓ２２流通，在这个阶段电感向电容 Ｃ３充电，电感电流的斜率如式（２）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSag49KtVXfIpbGf4ktTEGdewpmTArUUoFg1yw3ricQUTuNpIhj904KSgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_005_708738baf62d.png)
 
 其中，Ｎ 为变压器高压侧对低压侧的变比。
 
@@ -58,7 +58,7 @@
 
 开关状态 ３（ ｔ２—ｔ３ ） ：高压侧桥臂中开关管 Ｓ１３关断，Ｓ１１导通，电感电流经 Ｄ１１和 Ｄ１２向输入侧电容 Ｃ１ 充电；低压侧桥臂中电流仍然经 Ｓ２１和 Ｓ２２流通，电容 Ｃ３ 放电。 由于低压侧直流电压低于高压侧直流电压，电感电流会越来越小，其变化的斜率为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaVvFfXwaibclwUAqA6X3H0cpkEfiaPbqYKnRvBKhohic2ZWgpX1dzz8tog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_006_063047f80d9f.png)
 
 开关状态 ４（ｔ３—ｔ４ ）：在 ｔ３ 时刻电感电流过零点并由反向变为正向流动，高压侧桥臂中开关管 Ｓ１１和Ｓ１２实现零电压、零电流导通；低压侧桥臂中电流经Ｄ２１和 Ｄ２４流通，该阶段电容 Ｃ１ 和电感向 Ｃ３ 充电；电感电流的斜率仍然是式（３）。 ｔ４— ｔ５ 、ｔ５— ｔ６ 分别与ｔ０—ｔ１ 、ｔ１—ｔ２ 的开关状态相同。
 
@@ -66,38 +66,38 @@
 
 当 －（１－Ｄ１ ） ／ ２≤Ｄα ＜０ 时，根据图 ２（ ａ）中 ｖａｂ 、ｖｃｄ和 ｉＬ 的波形，可以推导出半个周期内 ｉＬ 的表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa8AtLbK9klG8P9BBSZOCJom7kDT666YO1oeYdrMQAAX8MUVmalxJ3RQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_007_1e298cdfea94.png)
 
 当 ０≤Ｄα ＜Ｄ１ 时，根据图 ２（ ｂ）中 ｖａｂ 、ｖｃｄ和 ｉＬ的波形，可以写出半个周期内 ｉＬ的表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSatgljujxY4RicR2HgJ0QsDEAeSood8yjtG0AejsoXRygPku0G0F4CibVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_008_50a05936c08d.png)
 
 由式（８）可得变换器在工况③下的传输功率为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaAlMAKibsBVUAcHq1MSrZhL6MTybx2eVdoj74sW4tXEKzIrWzqx2sP1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_009_0e7f18fa224e.png)
 
 ２．３ 软开关特性
 
 开关器件若要实现零电压开关（ ＺＶＳ），则需要满足：开关器件导通前电流由自身反并联的二极管流通，直到电流降为 ０ 并反向增大时才由开关管自身流通；开关器件关断前电流应当经开关器件自身流通。 因此可以得出工况 ① 和工况 ② 下所有开关管实现 ＺＶＳ 的条件分别如表 １ 和表 ２ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaqNkQOkPTh4ZM51ygIzMXbazHe0qck9mGFh7yfWeFXmVmkYrCvLqOeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_010_e60957b9013f.png)
 
   
 根据表 １ 可得工况①下实现 ＺＶＳ 的条件为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSawlPpKw2cNBiaus8eHU24dBYianFCAhaaElrwkXcxIckP6RicibScLsYZJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_011_4fd1bee02499.png)
 
 根据式（５）和式（１０）可得工况①下满足 ＺＶＳ 的功率传输范围为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa6ZnXas97eaI4zia8xzoCurq6ibtUwmRyOAF3AjtXjQhaUAZUkntgfSuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_012_1092d08ea148.png)
 
 根据表 ２ 可得工况②下实现 ＺＶＳ 的条件为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa2od82sc9amm76b9syw4iaOcnBIMhUr4gVOqrUfc1oF4urQVgjUVMd9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_013_adc8a94a01dd.png)
 
 根据式（７）和式（１２）可得工况②下满足 ＺＶＳ 的功率传输范围为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaN9M1jwN6NoDoml0I0MElPTeFjCWt1HA6mb9lxeK9jsfDaEA7H63t6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_014_917cd3d3a02f.png)
 
 根据式（１０）和式（１２）可绘出上述 ２ 种工况下变换器中所有开关管满足 ＺＶＳ 条件的 Ｄ１ 与 Ｄφ 的区域，如附录中图 Ａ１（ ａ） 所示。 根据式（ １１） 和式（１３）可绘出上述 ２ 种工况下，变换器在满足 ＺＶＳ 条件下的传输功率范围，如附录中图 Ａ１（ ｂ）所示。 图Ａ１（ｂ）中蓝色曲线为移相控制的功率曲线，其中实线部分为能够实现 ＺＶＳ 的功率范围，虚线部分为不能够实现 ＺＶＳ 的功率范围，在轻载时采用移相控制方式下的开关器件不能实现 ＺＶＳ。 由图 Ａ１（ ｂ） 可知，采用电流有效值最小控制时，变换器在整个传输功率范围内都能够实现 ＺＶＳ。 因此，电流有效值控制扩大了开关管实现 ＺＶＳ 的范围。
 
@@ -107,13 +107,13 @@
 
 在工况①下，根据漏感电流的表达式（４） 可以计算出电流有效值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaBApiaV9uz7FF2A1tRcAk2LyQuVUsoW3AyfF78SicAcLGL9gHuu3yk67Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_015_4ea91d13c633.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaQjN4eOnr94DiaB0zqic6mA526ghU7uL74kM4bu5aMPRnSg5lXoGmhw5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_016_47584fc1260f.png)
 
 由图 Ａ２（ａ）可知，采用电流有效值最小控制，变换器传输一定功率时，总存在一组使漏感电流有效值最小的 Ｄ１ 与 Ｄφ 的参数。 对式（１６）与式（１８）中的Ｄ１ 与 Ｄφ 求偏导，并令偏导为 ０，可得如下关系式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaMDsPibgDicoHUBsydISMxszNBul5NyR000cA5e3ENdurozpX6XuJr87w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_017_1c5a18224fb1.png)
 
 图 Ａ２（ａ）中蓝色与紫色曲线为 ｋ ＝ ０．７ 时，电流有效值最小控制下的控制曲线 Ｄ１＝ ｆ１ （Ｄφ ）。 由式（５）、（７）、（２０）—（２２）得在电流有效值最小控制下的功率曲线 Ｐ∗ ＝ ｆ２（Ｄφ ），见附录图 Ａ２（ｂ）中蓝色与紫色曲线。 由图 Ａ２（ｂ）知，在整个传输功率范围内，使电感电流有效值最小的 Ｄ１ 与 Ｄφ 控制参数能使所有开关管实现 ＺＶＳ；变换器传输功率随 Ｄφ 单调增大。
 
@@ -123,15 +123,15 @@
 
 为验证控制方法的有效性，根据图 １ 所示的双向隔离三电平 ＤＣ⁃ＤＣ 变换器拓扑建立实验平台。选用 Ａｌｔｅｒａ 公司第三代 ＦＰＧＡ 芯片，用 Ｖｅｒｉｌｏｇ 硬件电路设计语言设计本文提出的电流有效值最小控制核心，实验控制核心框图如图 ３ 所示，图中 Ｕｏ与 Ｕ∗ｏ分别为变换器输出电压与输出电压参考值。 实验系统参数如下：输入电压为 ３００ Ｖ，输出电压为 ２００ Ｖ，隔离变压器工作频率为 ３ ｋＨｚ，开关频率为 ３ ｋＨｚ，ＦＰＧＡ芯片型号为 ＥＰ３Ｃ５５Ｆ４８４Ｉ７，开关器件型号为 ＲＯＨＭＳＣＨ２０８０ＫＥ，箝位二极管型号为 ＡＰＴ１０ＳＣＤ１２０Ｂ，支撑电容容值／ 耐压为 ４７０ μＦ ／ ６００ Ｖ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaX5ny6iaU6GFBYia69OicMIyU4CrSQmGnZDgv4h2s5PmWoWvtibHVl78RXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_018_8db1fb8a8b46.png)
 
 图 ４— ６ 分别位变换器在空载、２００ Ｗ 负载和５００ Ｗ 负载时，移相控制与电流有效值最小控制方式下变压器电感电流有效值的实验结果。 由图 ４ 可知：空载时，移相控制方式下变压器漏感电流有效值为 ３．６６ Ａ；电流有效值最小控制方式下漏感电流有效值为 １．８９ Ａ，仅为移相控制方式下的一半左右。由图 ５ 可知：２００ Ｗ 负载时，移相控制方式下漏感电流有效值为 ３．６９ Ａ，电流有效值最小控制方式下漏感电流有效值为 ２．６０ Ａ。 由图 ６ 可知：５００ Ｗ 负载时，移相控制方式下漏感电流有效值为 ４．６２ Ａ，电流有效值最小控制方式下漏感电流有效值为 ４．３３ Ａ。实验结果均验证了电流有效值最小控制方式下漏感电流有效值小于传统移相控制下的值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaxEFPrfQIe7E1cRXBzEeNsDX5icjmibhytGnXtTpdjqyZ2UW6LUOt4gbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_019_d358b362d867.png)
 
 图 ７（ ａ）为根据实验数据绘制的 ２ 种控制方式下，漏感电流有效值与传输功率 Ｐ 的关系曲线。 由图 ７（ａ）可知：在全功率范围内，电流有效值最小控制方式下，变压器漏感电流有效值均小于传统移相控制方式下的值；尤其在轻载时，电流有效值最小控制方法下漏感电流有效值较传统移相控制方式显著降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaUSNbgibA6xopwElyHnmyUNliakjFkIkqp3KhxnqjTPNWL2gQfNSCHuVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_020_23e4b7eb9af7.png)
 
 图 ７（ｂ）为根据实验数据绘制的 ２ 种控制方式下，变换器传输效率 η 与传输功率 Ｐ 的关系曲线。由图 ７（ｂ）可知：在全功率范围内，电流有效值最小控制方式下，变换器的传输效率均高于传统移相控制方式下的传输效率；尤其是在轻载时，电流有效值最小控制方式显著提高了变换器的能量传输效率，这与图 ７（ａ）中轻载时该控制方法显著降低漏感电流有效值相对应。 这说明，本文提出的通过降低漏感电流有效值来提高变换器的传输效率的思路是可行的。  
 
@@ -139,19 +139,19 @@
 
 本文提出了一种“双边三电平半桥结构＋电流有效值最小控制策略”的方案。 该方案将传统隔离ＤＣ⁃ＤＣ 变换器中的两电平 Ｈ 桥结构替换为三电平半桥结构，通过分析变换器的工作原理、功率特性和ＺＶＳ 条件并以变压器漏感电流有效值最小为控制目标进行控制，使得变压器和开关器件的损耗得到显著降低，解决了传统双向隔离两电平 ＤＣ⁃ＤＣ 变换器开关器件电压应力大、变换器传输效率低等问题。此外，该方案具有更大的 ＺＶＳ 范围，变换器传输效率较传统方案得到了显著提高，验证了该方案良好的应用价值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaQlbxCU3V1YicYuaSIQbJN6Cz7Bx6O1FiaiasY1FVYGQvcKhicwcibCyNYiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_021_2ca36450c204.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaYofcSUjib3dgAnPOfSeR74m9G97CTicxniaj3syaJMJCOAbq73uib9whAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_022_d45aad786530.png)
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_023_80a84da559fb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_024_b6e0b6fba87c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种双向隔离三电平DC_DC变换器电流有效值最小控制方法_images\img_025_018eedab2a70.png)

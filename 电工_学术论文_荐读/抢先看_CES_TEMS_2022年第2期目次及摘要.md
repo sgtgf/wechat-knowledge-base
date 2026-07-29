@@ -12,15 +12,15 @@
 
 CES Conference
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RzTPcoUXXNK56Piah1L6ibKPC9alwumic3pwwmFnvuodXf8mib8uFiacyMX9g/640?wx_fmt=jpeg)](http://acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_000_fbf9a7d70de1.jpg)](http://acces.org.cn/)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178MLX1q8p168b4axIwW34RzwSiby3T2hVfPqMSPiczFmnxOGM51RsmtMu0qZ0mNMbvq72rIMdUhJiczw/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_001_4977654aae5f.png)](https://www.icwpt-conf.com/)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34Rz21ANTcnKt5DTTKdS1njW5DblHfvryPloM7yWm7ibyIfAd8w6sJaIgWQ/640?wx_fmt=jpeg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_002_0c7edd0cf2c8.jpg)](https://www.fafee.org.cn/)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RzP2os6dn0kKCicTVKpQeZHQHDiaFACzms5bzpJthCxdSdyVIFZe6Lia0qQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_003_d8434ce73b4d.jpg)
 
 **CES TEMS**
 
@@ -146,7 +146,7 @@ Xiping Liu, Dabin Liu, SitingZhu, and Jianwei Liang
 
 ****下载论文PDF版**，请点击左下角“阅读原文”，访问期刊网站。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RzdwCsQnGaLfYmWRsJVicmTAarkcxOFZMon8LZd6e3dNWxGzmCLnM2ZyA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_004_3c58d73d5415.jpg)
 
 **扫码参会  ACCES 2022**
 
@@ -156,9 +156,9 @@ Xiping Liu, Dabin Liu, SitingZhu, and Jianwei Liang
 
 2022年9月16-18日  重庆市
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178MLX1q8p168b4axIwW34RzFmhHc42j8W1j8G5ddH1Jw4dU2B9apmDeOFOjwurplciaKBGf8Xc5SSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_005_e48ccff74da1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178UicwpsPNZZpSEHj9K1Sh3PlavibMO3uN8ia6aIcFfZF0CFtWNrVwDMoNB7VnOJKw7iaBTUOrqB3M84A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_006_247747b0a431.jpg)
 
 **扫码参会  FAFEE 2022**
 
@@ -168,7 +168,7 @@ Xiping Liu, Dabin Liu, SitingZhu, and Jianwei Liang
 
 2022年11月上旬  武汉市
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178UicwpsPNZZpSEHj9K1Sh3PnL00BPASfYmibMJPr9TnxKQ9DyiaVGNRibI5tDFVfqnbfQtp0ic5vIgsuw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_007_eeeac7b863d2.png)
 
   
 
@@ -207,15 +207,15 @@ Xiping Liu, Dabin Liu, SitingZhu, and Jianwei Liang
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34Rzv6Dia82kLJCGZhjtuZdZ6pUSSZsQ3Rymaibibgx5QAj6QF9yLwY7MxFFw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_008_23caa5f0649f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RzL6QIGrJfYm30TNsl0PBJcwZeubEfeXv9RocgXH5RttkEfqfDgJAiaoQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_009_73ac116d84db.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RzIwVbgBrouMxkzVibniccOsgFOBpCnPWK4mTfVIibpot0NiaL7HPuQA3HYQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_010_b1d96c41d3de.jpg)
 
 学会官方微信
 
@@ -223,15 +223,15 @@ Xiping Liu, Dabin Liu, SitingZhu, and Jianwei Liang
 
 CES电气
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34Rz5X8AmkzAVfSBx2kMyV8BnavOOhrHV9cmwQE20UsJI1wPIzR9r3lnpA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_011_2b6fabf183e9.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RznR0PribY84cVz33L5QWQqzfZNYTWibg9OSCVEA2zHsGbxvaRsgOMHaGQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_012_0bf9ee8d01a2.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178MLX1q8p168b4axIwW34RzdLr2vx0yMbUIyBOKqpibzWMDY3icFcwd5fF0LqbmaWePmNc5oBRS5iaiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_013_b4c50ddcb25f.png)
 
 学会官方B站
 
@@ -239,15 +239,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RzOVTQuJuicfso2B198k7hCysqQvK7rV5WE8FOvET0g5lWEZZ2k49nc8A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_014_0bfdea5b784f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178MLX1q8p168b4axIwW34Rz4HrVGa2PhKPVuxxMIJhcKkOEUn1goAa0r3ibLUBy0eRqNqg9FtUxVOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_015_cb4b3d3b918b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178MLX1q8p168b4axIwW34RzaWMjLIEJKMpIrbpHrrSRswdzIMyITUibajCedLEqF5VQ9qtyYFFZSKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第2期目次及摘要_images\img_016_61fa73fe1ae6.jpg)
 
 学会科普微信
 

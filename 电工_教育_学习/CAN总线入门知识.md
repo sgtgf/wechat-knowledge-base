@@ -34,7 +34,7 @@ CAN通讯协议ISO-11898：2003标准介绍网络上的设备间信息是如何�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8cC43akYfRH3G7NiarZsnfOGQGyWFN0uicBuC1HNOt82mIPc1oHdHy7XghWWnmGBibSHTpvT6UYyLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_002_c454a9bddfe5.png)
 
 图2-1：ISO 11898标准架构分层
 
@@ -64,7 +64,7 @@ ISO-11898:2003标准，带有11位标识符，提供的最高信号速率从125K
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgTAAwmmBCZ5mtFy61gXARv2qoTuzwbp4iaicYuaAF3xXlZgsHjYDyu6U1bnNgBZicmz68dibRA7lJzOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_003_63db0a335b40.png)
 
   
 
@@ -116,7 +116,7 @@ ISO-11898:2003标准，带有11位标识符，提供的最高信号速率从125K
 
 扩展CAN具有29位标识符，每帧数据长度为71+（0~64）=（71~135）位。注：不计位填充（位填充将在本文第5节描述）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIgCvGaIVyiaExaTuIRZgJibLPaaPJILRA9uGTKzicGRWwj8G1CA7TVPEtw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_004_c43dde2a47a6.png)
 
 图3-2：扩展CAN---29位标识符
 
@@ -146,7 +146,7 @@ ISO-11898:2003标准，带有11位标识符，提供的最高信号速率从125K
 
 典型CAN的基本原理见图4-1所示，从图中可以看出，总线逻辑状态与驱动器输入和接收器输出逻辑是相反的。正常情况下，逻辑高电平为1，逻辑低电平为0，但是CAN总线却是逻辑高电平为0，称为显性，逻辑低电平为1，称为隐性。所以很多收发器的驱动器输入端都会内置上拉电阻，在没有任何输入时，CAN总线就会表现为隐性（逻辑低电平）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RII8RBEdEmvYVrdZCFWAE3VmxkYlYRfibOMKF1okle1yCszDTGnUanIR9A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_005_4ccde1dbd9af.png)
 
 图4-1：反转的CAN总线逻辑
 
@@ -234,7 +234,7 @@ CAN使用差分信号，需要一对信号线，推荐使用双绞线，网络�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8cC43akYfRH3G7NiarZsnfZB2xm4VbQa8ms5EY9FDmZHbxmaicj4NBbJTa3RSAyGuLpTEBNapcJHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_006_8607252f1499.png)
 
  图7-1：CAN总线网络拓扑结构图
 
@@ -272,7 +272,7 @@ CAN总线采用差分信号传输，如果使用带屏蔽双绞线，屏蔽层�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIWVEMu8oQyc6VEGDwXyyDWMd0w0crMm9Ir9ianmO19lLLXzAcdmlPXqQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_007_c10a9ade7952.jpg)
 
  图9-1：电缆信号分配、接地和终端匹配
 
@@ -286,7 +286,7 @@ CAN总线采用差分信号传输，如果使用带屏蔽双绞线，屏蔽层�
 
 图9-2所示的曲线显示了24-AWG电缆衰减和频率的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIqboRphdwNd2EIs5nJlB7SOadfQ5fYyJYib2LJiadjmvS6BmpC2R8jqhQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_008_64269c7a4740.jpg)
 
  图9-2：信号衰减
 
@@ -302,7 +302,7 @@ CAN总线采用差分信号传输，如果使用带屏蔽双绞线，屏蔽层�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8cC43akYfRH3G7NiarZsnf2YX5x9Lg8Lcgjel3JrIJQp7G3dtYTAuNGragic06gzwdlv3WtricRM3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_009_a534bcbf0aa1.png)
 
  图10-1：CAN电平幅值
 
@@ -314,7 +314,7 @@ CAN标准规定，CAN总线上的差分电压>0.9V才能被识别成显性电平
 
 表10-1：差分电压幅值与电平极性关系
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIImNjOlYzl8qRulqzCV2wXkcJE2y2w1TE38lKY5TIEZw8gdXCRdET2Qg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_010_bb9bc3001f05.png)
 
 在实际项目布线时，容易漏加或者多加终端匹配电阻。我们可以通过测量CAN差分电压幅值来评估是否漏加或多加终端匹配电阻。如果不计导线电阻，终端电阻固定为120欧姆，单节点CAN总线差分电压如表10-2所示。
 
@@ -322,7 +322,7 @@ CAN标准规定，CAN总线上的差分电压>0.9V才能被识别成显性电平
 
 表10-2：终端匹配电阻数目与差分电压幅值关系
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIZay4GUUtZkiaTp3UVJBs1rTwxzT8CmGb82JRGTPlCpiaicKOj4158NIBg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_011_9b6cd4c2d727.png)
 
   
 
@@ -348,7 +348,7 @@ CAN标准规定，CAN总线上的差分电压>0.9V才能被识别成显性电平
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIrms9cIwnvOKC3zSdH2RZXyVVeOtXUAYqKLPc7DcibicXb3F5VW0Lqk1g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_012_321cdde6d99d.jpg)
 
  图11-1：传输电缆直流电阻分压示意图
 
@@ -360,7 +360,7 @@ CAN标准规定，CAN总线上的差分电压>0.9V才能被识别成显性电平
 
 表11-1：截面积与最大通讯距离关系
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIQpoqmTPE45YsjycicRsSKhIia6xQHvml5P1GLr7DyiaHibOYiaGjNommaOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_013_80716c3ba04f.png)
 
   
 
@@ -378,7 +378,7 @@ CAN标准规定，CAN总线上的差分电压>0.9V才能被识别成显性电平
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIaZ8VXtMe5Od7QxzCEl23y1Ah7pb8DztVic2icjvlpx1ujg9aw85585Aw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_014_57a91c4405ed.jpg)
 
  图12-1：波特率、终端匹配电阻和通讯距离关系图
 
@@ -400,7 +400,7 @@ CAN标准规定，CAN总线上的差分电压>0.9V才能被识别成显性电平
 
 通常，传输电缆延时为5ns/m、高速光耦延时可达25ns、磁耦合隔离器件延迟3~5ns。在CAN通讯系统中，一个优良的延迟标准是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RII3OutptCJiclibkyNdmicibxBicwkQfmqB7UTxW8zvialn6DMkV5sXqsydnMg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_015_5045ba372bf0.png)
 
   
 
@@ -421,7 +421,7 @@ tBIT：位时间
 
 表13-1：最大延迟参考标准
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIDZ5f3XUO7d50JsXuQKibeXxuKLPUGWCbZO5gfvxOPUHoemHyreNGA4g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_016_5d0d80863f02.png)
 
   
 
@@ -439,7 +439,7 @@ CAN总线是分布式参数电路，其电气特性和响应主要由沿物理�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RII7cNjVspbxS9gRfxc6cGADmtlRcLc03Oz0p4bd2uMftpkxVRmRB5XkQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_017_1dfce985d094.png)
 
  图14-1：负载不均衡的CAN总线原理示意图
 
@@ -451,7 +451,7 @@ CAN总线阻抗不匹配会产生信号反射，雪上加霜的是CAN的仲裁�
 
 负载与负载之间的最小安全距离d是设备集总负载电容CL和电缆的单位长度分布电容C的函数，定义如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIICkwvF5fohBGic685g7knXbjoGlw7cwMZmqkV4KpOL6cXt2gVCQ1icUYw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_018_f4b0410ce922.png)
 
   
 
@@ -464,7 +464,7 @@ CAN总线阻抗不匹配会产生信号反射，雪上加霜的是CAN的仲裁�
   
 图14-2给出了更明了的图表显示.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIiceReViczJpMGicibGxabjFFPtQ6pXBZpWkdIwVTK0HtSlEJbFzWia2LQsg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_019_407a52796905.jpg)
 
  图14-2：最小CAN设备间距
 
@@ -480,7 +480,7 @@ CAN总线阻抗不匹配会产生信号反射，雪上加霜的是CAN的仲裁�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIDdBT3ibQHkJckKMsTqUhaRQUYJEIlJHJljX1qqg35hDxvU4C9IUTHNA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_020_3b5516ace345.png)
 
  图15-1：每一个数据位的分段示意图
 
@@ -526,7 +526,7 @@ CAN标准对节点容抗有严格定义，容抗影响上升沿下降沿斜率�
 
 表17-1：单节点电容最大值
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIgXZKa1bVzibSZpA6Ynwts0FXlAIoswzwXojMcAZIFRk76fg4nZZJEDQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_021_68f3a483dfe3.png)
 
   
 
@@ -538,7 +538,7 @@ CAN标准对节点容抗有严格定义，容抗影响上升沿下降沿斜率�
 
 可以连接到网络上的节点数量由收发器可以驱动的最小负载阻抗来决定。最大节点数量由下面的公式给出（考虑最坏情况）：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIG1zq5vhSICz0fKkQlDzzun3xlAtibNibgwCBPwl7ZkW1EFk0pPZ6HPXQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_022_f9969b5bb825.png)
 
 其中：  
 Rdiff\_min：收发器差动输入阻抗最小值  
@@ -600,7 +600,7 @@ RT\_min：终端匹配电阻最小值
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MLfSTncC3tMjSC7fuwD1Yxfibw6uf5RIIGrVC6QbqtUib19xQXhDu9MtMvAEIxlK7ObSqibYC0u8kYgBXFUkm1GdQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线入门知识_images\img_023_45a4bed0731e.jpg)
 
  图21-1：远距离通讯电流隔离电路示意图
 

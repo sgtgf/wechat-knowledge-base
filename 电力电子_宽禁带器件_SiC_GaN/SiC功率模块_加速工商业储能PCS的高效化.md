@@ -7,7 +7,7 @@
 
 工商业储能作为用户侧储能的核心组成部分，在能源转型背景下迎来爆发式增长，其核心驱动力来自企业用电成本优化和电网稳定性需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicFfMNGQSiaEkuEicL5jmUVIZ9ktDVm5RoPGXA9thHeWkBpGReVQWEU5sQ/640?wx_fmt=jpeg&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_000_4e00a8b08458.jpg)
 
 光储充产业
 
@@ -37,13 +37,13 @@
 
 工商业储能应用场景多元，不同场景对储能系统的需求呈现差异化特点：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicZGaop7x4W2GKssx1NFjqKLq1URIhdYEkuiaia9UibFiax00H98UkyLoTow/640?wx_fmt=jpeg&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_001_24a2ff94d329.jpg)
 
 工商业储能应用场景
 
 下表总结了工商业储能的主要应用场景及技术需求：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicNW4xPVbN0hf4zdkZoN7l4ygOgmAoUYWU2UzsjUHhx4vLBT4aL5oCww/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_002_ebba8dd73278.png)
 
 1\. 工业生产场景
 
@@ -69,7 +69,7 @@
 
 农业灌溉：结合智能灌溉系统，在谷电时段储电供高峰使用，实现节能节水。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdBhkNHcobtH6qxH5nRAl6938KoSB2rGgew5Qvoa1ISGqLf1iaDhnNib1d37QNA3xOGG7B6f5ALg41g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC功率模块_加速工商业储能PCS的高效化_images/img_003_49e8620e832c.png)
 
 储能系统工作模式
 
@@ -77,13 +77,13 @@
 
 传统IGBT因开关损耗高、高温性能差，难以满足储能高频化需求。SiC器件凭借宽禁带特性实现全面突破：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicJXEicyXojvfmM2LBibnhGTkrEUDksoEwSbA9AnuNTJnTZ88GVAhmib5qQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_004_8d2913f71b1c.png)
 
 SiC的物理优势
 
 下表对比了SiC器件与传统IGBT的关键性能指标：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicPlFSsQQxRAIickPqEkzfXUuWVKoZrcPUWo2mST1yUydObQR2j6VDfYA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_005_ba84e6807197.png)
 
 1\. 效率与性能突破  
 
@@ -109,17 +109,17 @@ SiC的物理优势
 
 全生命周期优势：效率提升+维护减少，使回本周期缩短2-4个月。以海外钢厂项目为例，年节电1200万度，减排CO₂ 8000吨，叠加欧美碳关税豁免政策，IRR提升20%。
 
- ![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_78@2x.png)四、工商业储能PCS主流拓扑及爱仕特的SiC方案
+ ![](SiC功率模块_加速工商业储能PCS的高效化_images/img_006_59acf0b1ec68.png)四、工商业储能PCS主流拓扑及爱仕特的SiC方案
 
 1\. T型三电平拓扑
 
 适用场景：中高功率工商业储能（100KW-1MW),需兼顾效率与电能质量的项目。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicpibaYu0wf8MpdmIxDTicOZLBYX45bxWFlOGIoK9amNKZb4Wh3ePXyLIA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_007_d050fb02ce2d.png)
 
 **T型三电平拓扑结构**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGic4ic8dFRibKMNOLgialquhLVeHYPKJJo66BXKFb7Ikiaa8YcjY9ZIHyd5zA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_008_3b4c02065b43.png)
 
 T型三电平SiC功率模块产品
 
@@ -127,11 +127,11 @@ T型三电平SiC功率模块产品
 
 **适用场景：大功率场景（如125KW工商业储能）**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicV3FcLgapBGjruOXENXvbv73jooTH1QSQiauJPdD5Ugu8YkT2XicqWeyQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_009_948146764d48.png)
 
 I型三电平拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicL2gMLgQyK3uN1fn0GkC6sN3iaeuaQ6kibmJkUfDUZiaia0D2RAWJSXv3Sw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_010_1aa89555faf8.png)
 
 I型三电平SiC功率模块产品
 
@@ -139,15 +139,15 @@ I型三电平SiC功率模块产品
 
 适用场景：中低压领域具有较高的转换效率和可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicAcQh5vujbzqicGQBMpLn7WV7ojd1Ammx11ymiciaa591jkplJcjptUXcQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_011_79602f83586f.png)
 
 两电平拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicAPK92H9b2prUE1YzjqaccGjFiaHGG0Fn06ezn8Rxwxg0VqBKXMDjzvw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_012_5e18be08b3f3.png)
 
 半桥两电平SiC模块产品
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicTINucVEzibZKDZ2psQaFGnn8xDLlicyDibxTE9yaPH7OzpfWHiaIlqFLsw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块_加速工商业储能PCS的高效化_images/img_013_02b30c209a41.png)
 
 全桥两电平SiC模块产品
 
@@ -213,13 +213,13 @@ I型三电平SiC功率模块产品
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLctSOgkLp0wYGRh6ogEtprlrykhP7ZPaic178FjTRjurqZwUUI2516Pw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC功率模块_加速工商业储能PCS的高效化_images/img_014_75b099debfaf.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKL1eCUWavTWkiaTBkTTMouZ2nYhgwYRfXD6HR9pIqED10dtKyCLokSYwA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC功率模块_加速工商业储能PCS的高效化_images/img_015_a62f6ff0f9c2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLBsdvAKfrlibOa3IymdDueNAdKnsdtKkAqp5tNib1XLEDc8PIvG4XgVSQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC功率模块_加速工商业储能PCS的高效化_images/img_016_95040d3b4223.png)

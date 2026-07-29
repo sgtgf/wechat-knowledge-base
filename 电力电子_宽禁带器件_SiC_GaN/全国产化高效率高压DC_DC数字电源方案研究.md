@@ -30,7 +30,7 @@
 
 电源的核心主功率部分采用全分立器件进行设计， 辅助功率部分采用成熟的商品化标准电源模块设计。因为电源输入范围较小，经过对比选择 LLC 拓扑进行实现。LLC 拓扑的优点是几乎全负载范围可实现开关管的零电压开通，使得电源的开关损耗大幅降低，电源的转换效率更高，体积更小；近似于正弦的谐振电流波形使其开关频率的高次谐波分量较小，而且谐振电路的PFM 调频控制方式属于抖频设计，能使 EMI相关频谱变得低而宽，从而造成对系统 EMI的干扰较小；由于拓扑采用固定占空比0.5设计，电源可以不用体积较大的输出电感进行储能滤波，节省了体积和成本，更加容易实现小型化设计；并且副边整流管电压的应力相应降低，器件耐压等级可以降低，有利于提升效率。LLC 拓扑的缺点是由于 LLC 电源采用调频控制模式，仅有开关频率的一小段区间适合调整其电压变比，其输入输出范围不能变化太大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6pjWLq9GQWRJpnjEKFR58BEW3HgrcbxYg2VoLEJecErZ3JFJ89tsGicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_000_9f82bf79ffeb.png)
 
 本设计电源采用半桥LLC拓扑实现，如图 1 所示。 电路原边由半桥变换SiC开关管 Q1、Q2、谐振电感 L1、 谐振电容 C1、C2组成，直流电压 DC710V 通过谐振网络斩波为交流电压通过变压器T1电气隔离至副边输出；副边由自驱同步整流开关管 Q3、Q4 和输出电容 C3组成， 电源副边选择采用变压器中心抽头加全波同步整流方式提升效率，相较于全桥整流方式可减少整流管导通损耗， 变压器副边交流电压通过整流变换为DC28 V输出。
 
@@ -48,25 +48,25 @@
 
 原副边开关管的选择需要同时考虑电压尖峰应力和降额裕量。原边输入电压为710V电压，选择瞻芯公司的IV1Q12030T4G 1200V SiC MOS 作为原边开关管使用。 副边输出电压为28V，平台电压应力为56V，选择平伟公司的PWDC025N10ES 100V MOS 作为副边开关管使用。 其性能参数如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6H5v6YK4x1NiaoLuSicQDibGG9WktelDQFuRAnibJRDjc0WW6KhxFZyicKlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_001_fb926196c1f6.png)
 
 综合考虑电源体积和开关损耗、效率的关系，选择开关频率范围为80~150 kHz， 最大负载点开关频率工作在80 kHz附近。 
 
 计算确定变压器匝比，如式 （1） 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w683icyGeL2E43UECtjUWNMx2S0TYJmlgqFSxmQ2Us0MKYDclqgVaXr4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_002_899f433223d3.png)
 
 变压器匝比N取值为12，取Qe值为0.3，电感比Ln为6.66，计算交流等效阻抗Re值：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6CLzaQPiaiaebSLXn5jib1wJovI90BNaFhshw7ibVSAHHVricibgHaFZyl3EQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_003_aef9902e3982.png)
 
 计算谐振电容大小：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w61HZ1yEsibg8MicLruSicxB5bE4lHBsib3SjfNWsvMmohOLKVUoSUDTck1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_004_5e1d64153e54.png)
 
 谐振电容采用 1210-630V-33nF 陶瓷电容进行设计，考虑谐振电流大小和器件耐压降额的因素，采用32颗33nF电容，以8颗为一组进行串并联设计，最终的谐振电容的容量取值为264 nF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6MBAibicUH3L58iasfJQZa8Q3E6ic4P5Z7efJL4jydl9H2AP0NuXaALDxLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_005_82c90f5c4a1b.png)
 
 最终确定的谐振电感Lr，励磁电感Lm和谐振电容 Cr的取值分别为15μH、100μH和264nF。 
 
@@ -78,7 +78,7 @@
 
 辅助电源采用常规反激拓扑实现，控制简单，体积小，能提供多路电压输出， 辅助电源的主要器件选择如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6qnT6JFuW8ZEIROp1ZGQBguZjWuibvKEWdyV7cjjJePd2ARxicnENB1wA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_006_3f246edbdcdd.png)
 
 2.4 隔离通信电路
 
@@ -92,7 +92,7 @@ DC-DC数字电源的输入输出是完全隔离的，原边和副边控制芯片
 
 3.1 软件主架构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6dYf9cvmpORsK6pIISB4ZVD0cqMEFGP5ohRPXhOtDKBZC8cYzr9ux1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_007_1aafa1c7d193.png)
 
 DC-DC数字电源采用前后台型软件架构，包括一个主程序和两个中断程序。其程序流程如图2所示。 
 
@@ -104,7 +104,7 @@ DC-DC数字电源采用前后台型软件架构，包括一个主程序和两个
 
 由于传统模拟电源只能实现单环路控制，无法兼顾稳态和动态控制，从而实现动态负载响应的最优化。本文采用了一种智能化动态负载响应的策略，利用数字控制的控制灵活的优点，可设置多套反馈环路 PID 参数， 并且根据系统不同负载特性分段进行配置，并进行智能化自适应平滑快速切换，达到对负载动态突变快速响应的目的。智能化动态负载响应策略软件流程如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6kcDDA2djLswvffwGuhEDiatiamQjGTQ5J15aUQ3KTbeibKlDDc63GjRicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_008_3a1245ac283c.png)
 
 （1） 电源进入工作状态后，实时采样其输出电压， 设定输出电压基准与采样值减法运算得到输出电压误差 作为电压环输入量参与迭代方程运算，最终得到输入电 流幅值特征信号。  
 
@@ -120,29 +120,29 @@ DC-DC数字电源采用前后台型软件架构，包括一个主程序和两个
 
 DC-DC数字电源的外形尺寸为350 mm×190mm×24mm，外形尺寸如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6a8tDic8Bia4XhhjrSc2sMl6uibh4lsFPCscUV5fmaibWoDjx029Q8JXeKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_009_3c17a7812bca.png)
 
 DC-DC数字电源PCB图和实物图如图5、6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6qYocWgH0icFJ0QE5vmWRI4v8Oa3VjiaurReLxBJBzGFD9nQFLQgXEWwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_010_4aaf5aa7bc2d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6cJCpkHSm3iartRlVkPJOxoZNWJYDLK8DBxfNIvafkon8CWFhAtOXuXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_011_478d46ec58a5.png)
 
 4.2 DC-DC数字电源软开关实现情况验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6XZdYIoKq6oN8nQKdvQoTlVeGJLHjqXWDmCXq9UTGCo3Ttial0iapelvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_012_8ef4a53a3689.png)
 
 DC-DC 数字电源测试波形如图 7 所示，示波器 1 通道为原边开关管的栅极驱动波形，2 通道为原边开关管的漏源极电压波形，3通道为谐振腔电流波形。由测试波形可以看出，开关管的漏源极电压谐振至零后，栅极驱动才使开关管开通。实现了零电压开关ZVS，降低了开关损耗，提升了转换效率，转换效率测试结果如表3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6p5NgzpoCAGCbJqHO0aicTPg2CicLFWyKpfV1uoYkHvulZb2tNSsp6QLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_013_fd0eb19832ee.png)
 
 4.3 智能化动态负载响应策略验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6OaNf4icibjzziarOjuq9N2fGsUNQS3njXrFUq6qzpS6UfGS1Cw9zkmELQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_014_b23fb11a88e3.png)
 
 对比采用智能化动态负载响应负载策略前后的动态负载测试波形，测试条件为25%~100%动态负载跳变， 频率200Hz，占空比10%。测试结果如图8所示， 从表 4 的负载动态响应测试结果对可以看出，采用智能化自适应动态负载策略后，脉冲负载条件下输出电压的过冲和跌落分别减小了17.10%和23.86%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6ibSrDTW9v3VUbZ9OuR1jnUggxMB43IicS8Tbn5a5KQgFVicrUVgT6v3yA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_015_27576a8a331f.png)
 
 5. 结束语
 
@@ -160,14 +160,14 @@ DC-DC 数字电源测试波形如图 7 所示，示波器 1 通道为原边
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_016_365055d613b2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_017_c4e5e00016ec.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_018_dfa6175ee311.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化高效率高压DC_DC数字电源方案研究_images\img_019_2ff68eaf3d63.jpg)

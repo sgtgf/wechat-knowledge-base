@@ -25,7 +25,7 @@
 
 SiC 器件凭借其更高的开关速度、低导通电阻及更高的工作温度等特性，在高开关频率下的中频逆变电源中展现出多方面的优势，为中频逆变电源的发展提供了新的技术支持和更广阔的应用前景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylnLylLm2eichRQGoY7DheJnHXLbH8GvD9haez8lb2iaRhicKzib3S5K1ZibA/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_000_47acda1fb924.png)
 
 本文采用单相全桥逆变拓扑结构，如图1 所示。其中，Udc为直流母线电压，S1~S4为SiC 管，Cdc为直流稳压电容。为实现更好的对称结构并减小电流纹波，输出滤波电感分为上下两个相同的电感L1和L2，其大小都为输出电感的1/2，二者与滤波电容C共同组成LC 滤波器，r 为线路及滤波电感的等效电阻。
 
@@ -33,7 +33,7 @@ SiC 器件凭借其更高的开关速度、低导通电阻及更高的工作温
 
 传统调制策略有单极性调制和双极性调制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylbgO3EdJtkdtCp81zL3XDdL1NBGRtRPrIpK7r26BVvj0HzOXLTPo5Ww/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_001_e99c97d41482.png)
 
 单极性调制示意图如图 2（a）所示，其中，uc为载波信号，ur为调制波信号。由于单极性调制需要在过零点处进行换向，会出现SPWM 占空比突变的情况，而占空比突变必然致使输出正弦信号在过零点处产生振荡。
 
@@ -45,7 +45,7 @@ SiC 器件凭借其更高的开关速度、低导通电阻及更高的工作温
 
 效率方面，单极性调制方式优于双极性调制方式；输出电压总谐波畸变率（THD）方面，双极性调制方式优于单极性调制方式。而单极性调制方式存在的问题主要集中于电压过零点附近区域。结合两种调制方式的优势，提出在400Hz中频周期内分段混合调制策略，即在电压过零点附近区域内采用双极性调制方式，其余区域采用单极性调制方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylxJqia72zHGTlhl026XLJLicSugQq4TjBZ7XgrhABFGnbS2ib4iaJjnLL2w/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_002_ea150b911481.png)
 
 混合调制方式示意图如图3 所示，其中，ugS1为高频管驱动信号，ugS4为低频管驱动信号。
 
@@ -55,17 +55,17 @@ SiC 器件凭借其更高的开关速度、低导通电阻及更高的工作温
 
 采用闭环控制提高系统的动稳态响应能力，并考虑数字控制的延时作用对控制性能的影响，系统控制框图如图 4 所示。其中，uref为给定电压参考信号，Gu（s）为电压控制器，Ts 为采样周期，CPK为载波峰值，L 为滤波电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92byl52FxPHXjhGDfmjMnbGZAjBgqVPibmmI1xklZpDQhhJanTxvjWUHmqeg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_003_f3e63b39ab24.png)
 
 PI 控制器对于交流信号的控制有一定局限性，对直流信号的控制性能好。而PR控制器可以无静差跟踪交流正弦指令信号，通常被用来跟踪工频交流信号，即使电网频率出现偏移，QPR控制策略仍能输出质量良好的电压波形。考虑中频逆变电源对输出波形质量有着严苛要求，本文采用 QPR 控制器对400Hz 交流输出进行控制，并在100kHz 的高开关频率下考虑数字控制的延时作用设计与之适配的控制器参数，旨在进一步提升中频逆变电源的性能表现。图5 为QPR和 PI 控制器波特图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylvsrtxqD76HwMPrCOLaT6GJt6qFhCedCv24j3IsicXibEyWmlQY38syRA/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_004_81a916519b3c.png)
 
 根据QPR 控制器传递函数的幅频响应，在谐振频率ω\=ω0处频率点的增益无穷大，且没有相位滞后，可设计谐振频率等于输出角频率2πf\=800π rad·s−¹，使400Hz 基波信号增益无穷大而其 他频段增益小，从而更好地控制输出电压波形。
 
 QPR 控制器的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylmd872uiaBQicYAPYhla7PI0ia1hpBA5y2bUQ2DHvOUGduibOIVSNOh1nuQ/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_005_79e5dfb28d50.png)
 
 式中：Kp 为比例增益系数；Kr 为谐振增益系数；ωc为截止频率；ω0 为基波角频率。
 
@@ -77,21 +77,21 @@ QPR 控制器的表达式为
 
 利用Simulink 软件搭建单相逆变主电路，其中，Udc\=200V，开关频率为100 kHz，输出功率Po\=300W，滤波电感L1\=L2\=0.25 mH，C\=1μF，模拟混合调制策略及QPR 控制下的仿真输出结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylBaYjU8Y4IlibXf0HMk0lXKqpPOJYI1NHNOvEibDVDKxPyVF8rPQsnc8w/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_006_586074fb5124.png)
 
 图6 为单双极性混合调制策略及QPR 控制下的中频逆变电源在输出功率为300 W 下的仿真波形。 单极性调制下，系统输出电压THD\=1.32%，存在过零点附近电感电流振荡，导致输出电压和电流波形畸变，电能质量下降。当采用混合调制策略后，在过零点附近区域切换成双极性调制，振荡情况得到了明显改善，输出电压THD\=0.89%。过零点处采用双极性调制，使得电流变 化更加平滑，有效避免了单极性调制方式在过零 点区域附近带来的振荡和畸变问题，输出电压波 形质量良好，这对于提升逆变电源整体性能具有 重要的实际意义。
 
 4.2　实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylrvtSlHEK6unCOPoiaMSpx2nuo1xF2fXlm9xpVL8EBXa94jDUlviaPl9A/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_007_5bd024dd4f8b.png)
 
 为验证SiC 器件在高开关频率下的性能及混合调制方式的效果，本文采用IMZA65R057M1H开关管搭建了一台单相全桥逆变实验平台，该实验平台如图7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylx5MlicbZibjykvzvCYKzvRgCnx8bQssONEUoEL9EMwHjOKcm9FOEibiaug/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_008_7af153665672.png)
 
 图8 为逆变电源实验波形，其中，Udc\=200V，开关频率为100kHz，输出功率Po\=300W，基于混合调制的单相全桥逆变电源输出电压实验波形。根据实验结果，输出电压交流有效值115.26V，最大电平165V，波形质量良好。300 W 逆变电源输出电压的THD分析结果显示，此时THD\=1.84%，在单双极性混合调制策略及 QPR 控制下，能够在较长时间内保持电压的稳定输出，减少波动和误差，输出电压波形质量良好，稳态精度高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylXegiby5CtdLicuLxDgaOntblNhgqhaIe0zxoAgfvQdm7hQ1NibWic6jUCA/640?wx_fmt=png&from=appmsg)
+![](SiC_器件分段混合调制的中频电源设计_images/img_009_ce8b6fa53e7b.png)
 
 根据图9 对比不同调制方式下的输出效率及THD，相较于传统调制方式，混合调制方式具有一定优势，其能够保持在一定THD 的基础上，有效提高系统效率，为中频逆变电源的优化运行提供了有力保障。
 
@@ -101,13 +101,13 @@ QPR 控制器的表达式为
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslU2YLeGmDglNssatWcicvqJVCKrPwx4RTnfoyMa21FXCCtnLbuKQiao1uSFArZv7Y8msice6uf7rxRQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp#imgIndex=6)
+![图片](SiC_器件分段混合调制的中频电源设计_images/img_010_9d7d24103e32.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslU2YLeGmDglNssatWcicvqJyJWnYrRnYsZJm1iaMrZ2GsfB6565Zl4UXqNibCqPMVbdIPar5KRfhKjw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp#imgIndex=7)
+![图片](SiC_器件分段混合调制的中频电源设计_images/img_011_202e501c4a4a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJQvqRN30S9IDqQRfLLHC6lSUuT2yIzJWkrfM6IUAeIeLtMt7qlMxBpg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp#imgIndex=8)
+![图片](SiC_器件分段混合调制的中频电源设计_images/img_012_410e30cc0c23.png)

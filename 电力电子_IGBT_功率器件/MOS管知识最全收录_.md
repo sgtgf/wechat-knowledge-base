@@ -18,7 +18,7 @@ MOS管是FET的一种（另一种为JFET结型场效应管），主要有两种�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaHnPRH89aEoznzMfpP0GMBg6CjecJIK6ZyPZItOXeFQ63om0iaDveMXQ/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_002_be7cf18beb63.jpg)
 
 图表1  MOS管的4种类型
 
@@ -28,7 +28,7 @@ MOS管是FET的一种（另一种为JFET结型场效应管），主要有两种�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaIy3BS5pOVUQAl3ff9GTQP0oL9X4NNt8oYAdNdDYOuDeNXTyDVmMKNQ/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_003_d02895bd28e2.jpg)
 
 图表2  MOS管内部结构图
 
@@ -48,7 +48,7 @@ N沟道增强型MOS管在P型半导体上生成一层SiO2薄膜绝缘层，然�
 
 当栅极G和源极S之间不加任何电压，即VGS=0时，由于漏极和源极两个N+型区之间隔有P型衬底，相当于两个背靠背连接的PN结，它们之间的电阻高达1012Ω，即D、S之间不具备导电的沟道，所以无论在漏、源极之间加何种极性的电压，都不会产生漏极电流ID。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaGELiaZ7TYHpRUbFzq17zRRicRHoCQISEm8zibfoG6uqWQmW0RKwhRtQhQ/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_004_cd3fe55f53ba.jpg)
 
 图表3  N沟道增强型MOS管结构示意图
 
@@ -60,7 +60,7 @@ N沟道增强型MOS管在P型半导体上生成一层SiO2薄膜绝缘层，然�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaxfx4eU0WkZfNNvia4ncIbRJEQyR7h7odVtVU9h3EM3YgAOZRsVVd4lg/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_005_18e2a1cba135.jpg)
 
 图表4  耗尽层与反型层产生的结构示意图
 
@@ -72,7 +72,7 @@ N沟道增强型MOS管在P型半导体上生成一层SiO2薄膜绝缘层，然�
 
 尽管夹断点在移动，但沟道区（源极S到夹断点）的电压降保持不变，仍等于VGS－VGS（th）。因此，VDS多余部分电压\[VDS－（VGS－VGS（th））\]全部降到夹断区上，在夹断区内形成较强的电场。这时电子沿沟道从源极流向夹断区，当电子到达夹断区边缘时，受夹断区强电场的作用，会很快的漂移到漏极。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaxcO2lPVfOJT9vJfWHmt37Q7mHicQorxaB7ZGOrWOwgRgMBmq93Y3hMw/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_006_9ffbc97d42c9.jpg)
 
 图表5  预夹断及夹断区形成示意图
 
@@ -82,7 +82,7 @@ P沟道增强型MOS管因在N型衬底中生成P型反型层而得名，其通�
 
 在正常工作时，P沟道增强型MOS管的衬底必须与源极相连，而漏极对源极的电压VDS应为负值，以保证两个P区与衬底之间的PN结均为反偏，同时为了在衬底顶表面附近形成导电沟道，栅极对源极的电压也应为负。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaj7IfAUJc78aWxlFSpSjY1G7W882Yc8XzCMDslaXDBMsS6oVdDhqcRA/640?wx_fmt=png)
+![](MOS管知识最全收录__images/img_007_18719885febb.png)
 
 图表6  P沟道增强型MOS管的结构示意图
 
@@ -92,7 +92,7 @@ P沟道增强型MOS管因在N型衬底中生成P型反型层而得名，其通�
 
 这个反型层就构成漏源之间的导电沟道，这时的VGS称为开启电压VGS（th），达到VGS（th）后再增加，衬底表面感应的空穴越多，反型层加宽，而耗尽层的宽度却不再变化，这样我们可以用VGS的大小控制导电沟道的宽度。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FF7uptPHjznOHCrHIv5FibdFibnuJ7CicO8xcJdbpDBjV57uknibBH4jQTpQ/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_008_5cc00c4bfea1.jpg)
 
 图表7  P沟道增强型MOS管耗尽层及反型层形成示意图
 
@@ -100,7 +100,7 @@ P沟道增强型MOS管因在N型衬底中生成P型反型层而得名，其通�
 
 当VDS增大到使VGD=VGS（即VDS=VGS-VGS（TH）），沟道在漏极附近出现预夹断，如图表7（2）所示。再继续增大VDS，夹断区只是稍有加长，而沟道电流基本上保持预夹断时的数值，其原因是当出现预夹断时再继续增大VDS，VDS的多余部分就全部加在漏极附近的夹断区上，故形成的漏极电流ID近似与VDS无关。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFsp2oPNCX0IT8e7mWMQqcpe8z2VVAdJZBtYWJ5YgIwGps1mlAlRZ8icg/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_009_9d95b246af2a.jpg)
 
 图表8  P沟道增强型MOS管预夹断及夹断区形成示意图
 
@@ -114,7 +114,7 @@ N沟道耗尽型MOS管的结构与增强型MOS管结构类似，只有一点不�
 
 如果在栅极加负电压（即VGS＜0），就会在相对应的衬底表面感应出正电荷，这些正电荷抵消N沟道中的电子，从而在衬底表面产生一个耗尽层，使沟道变窄，沟道电导减小。当负栅压增大到某一电压VGS（off）时，耗尽区扩展到整个沟道，沟道完全被夹断（耗尽），这时即使VDS仍存在，也不会产生漏极电流，即ID=0。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FF2JhC2LYNDgtD00viclqbK3Cy2cebmdaAXhxkfHRlsWYJlqk6QAExpVA/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_010_aa3d409f4479.jpg)
 
 图表9  N沟道耗尽型MOS管结构（左）及转移特性（右）示意图
 
@@ -158,7 +158,7 @@ MOS管在进行导通和截止时，两端的电压有一个降落过程，流�
 
 而高端驱动的MOS管导通时源极电压与漏极电压（VCC）相同，所以这时栅极导通电压要比VCC高4V或10V，而且电压越高，导通速度越快，导通电阻也越小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFiavibIMUpgGZaY81icQAmtFHEuAZcoIoYk1pUHlUicmEsUiasb6SqnntRqA/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_011_9dcb17fa1fa9.jpg)
 
 图表10  4种MOS管特性比较示意图
 
@@ -168,7 +168,7 @@ MOS管在进行导通和截止时，两端的电压有一个降落过程，流�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaxgMCOH5EDfBFBu3UQXeOKA9icpZkK7wdYZs501aAfQ6JBQ2JP1OPb3w/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_012_f75553e12b95.jpg)
 
 图表11  寄生二极管位置示意图
 
@@ -178,7 +178,7 @@ MOS管在进行导通和截止时，两端的电压有一个降落过程，流�
 
 不同耐压MOS管的区别主要在于，耐高压的MOS管其反应速度比耐低压的MOS管要慢，因此，它们的特性在实际应用中也表现出了不一样之处，如耐中低压MOS管只需要极低的栅极电荷就可以满足强大电流和大功率处理能力，除开关速度快之外，还具有开关损耗低的特点，特别适应PWM输出模式应用；而耐高压MOS管具有输入阻抗高的特性，在电子镇流器、电子变压器、开关电源方面应用较多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jpgzUxz3iccB4b1EftaVDAcYoicpd0jWo1bm3EYPbyFE2gdu1c3gZZwGzoryXDxzDEtSoex24795xGC0Bl90xzSA/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_013_71fdfa4ba6f5.jpg)
 
 图表12  不同耐压MOS管特点一览表
 
@@ -208,7 +208,7 @@ MOS管与三极管、IBGT的差别
 
 当然，在使用成本上，MOS管要高于三极管，因此根据两种元件的特性，MOS管常用于高频高速电路、大电流场所，以及对基极或漏极控制电流比较敏感的中央区域；而三极管则用于低成本场所，达不到效果时才会考虑替换选用MOS管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jpgzUxz3iccB4b1EftaVDAcYoicpd0jWo1Bfnw7NOSM4JbYuo6CK6pcU6pyicLuBZLhL93ofXa2l866003ic7meSaw/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_014_b2304385fbd2.jpg)
 
 表13  MOS管与三极管主要差异比较一览
 
@@ -248,7 +248,7 @@ MOS管主要参数
 
 最大额定参数，要求所有数值取得条件为Ta=25℃。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFdJiap4LMVgRcgz6j6mibTfwniaEuibamMkTNYGBBSMAtGnNQMbNUBKbUPA/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_015_cb15180ed1c1.jpg)
 
 图表14  MOS管的绝对最大额定值示例
 
@@ -264,7 +264,7 @@ VGS\[或写作V(BR)GSS\]额定电压是栅源两极间可以施加的最大电�
 
 ID定义为芯片在最大额定结温TJ(max)下，管表面温度在25℃或者更高温度下，可允许的最大连续直流电流。该参数为结与管壳之间额定热阻RθJC和管壳温度的函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFbicu1O2d7zaKibIc8bOGw82YibIvicJT48nJ8KT3AdzNddeAzXwHVPJhHg/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_016_ede7b5f2a772.jpg)
 
 ID中并不包含开关损耗，并且实际使用时保持管表面温度在25℃（Tcase）也很难。因此，硬开关应用中实际开关电流通常小于ID 额定值@ TC=25℃的一半，通常在1/3～1/4。
 
@@ -274,7 +274,7 @@ ID中并不包含开关损耗，并且实际使用时保持管表面温度在25�
 
 该参数反映了器件可以处理的脉冲电流的高低，脉冲电流要远高于连续的直流电流。定义IDM的目的在于：线的欧姆区。对于一定的栅-源电压，MOSFET导通后，存在最大的漏极电流，如图表15所示，对于给定的一个栅-源电压，如果工作点位于线性区域内，漏极电流的增大会提高漏-源电压，由此增大导通损耗。长时间工作在大功率之下，将导致器件失效。因此，在典型栅极驱动电压下，需要将额定IDM设定在区域之下，区域的分界点在VGS和曲线相交点。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFEVYicNEMOAq95SCnLjRPRn4HGCRnbT4ke8bOAUxmLJVCQKxwsIFXEEQ/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_017_b82b586790f4.jpg)
 
 图表15  MOSFET导通后，存在最大的漏极电流
 
@@ -310,7 +310,7 @@ MOSFET并联后，不同器件之间的击穿电压很难完全相同。通常�
 
 对于某些器件，雪崩击穿过程中芯片上电流集边的倾向要求对雪崩电流IAR进行限制。这样，雪崩电流变成雪崩击穿能量规格的“精细阐述”；其揭示了器件真正的能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaDXgJxnTmyIjbckhiadiaZSUJyUbTqBGxa7K6yhhZzzUtCqG4ngTPWlZA/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_018_edef36011fb5.jpg)
 
 图表16  雪崩破坏耐量测定电路和波形
 
@@ -320,7 +320,7 @@ MOSFET并联后，不同器件之间的击穿电压很难完全相同。通常�
 
 **2****静态电特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFEibF8v4h4VcA9tB6VAcLal8Lq3zxL8KK0z1YtJ3quxTED2s5WPG6Bew/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_019_9a7d928215cf.jpg)
 
 图表17  静态电特性及参数一览表
 
@@ -360,7 +360,7 @@ V(BR)DSS是正温度系数，其漏源电压的最大额定值随着温度的下
 
 **3****动态电特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFwO6HyX9LGemicYx6m60RpeWQgicVJ7dibCsGGr67pPicmliaDuYDsk9aDEg/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_020_9c8ca4f57397.jpg)
 
 图表18  动态电特性及参数一览表
 
@@ -384,7 +384,7 @@ V(BR)DSS是正温度系数，其漏源电压的最大额定值随着温度的下
 
 该参数反应了MOSFET体二极管的反向恢复特性。因为二极管是双极型器件，受到电荷存储的影响，当二极管反向偏置时，PN结储存的电荷必须清除，上述参数正反映了这一特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFXvhaIqDMlGtS0ysAmQ1TcQu8yA3aoN4uwGyiaIqKic4AnMDzNuib91ibiaw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\MOS管知识最全收录__images\img_002_b1590c43ef50.jpg)
 
 图表19  寄生电容结构和电路示意图
 
@@ -394,13 +394,13 @@ Qg栅极电荷值，也叫栅极总充电电量，反应存储在端子间电容
 
 Qgs为从0电荷开始到第一个拐点处，Qgd是从第一个拐点到第二个拐点之间部分（也叫做“米勒”电荷），Qg是从0点到VGS等于一个特定的驱动电压的部分。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iacUN8LicjAKWx4sNI4kgicr6ULIXDKrDVHpUgicG2kPorkhafRtBBppKGQ/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_022_2a4a30e7ccf1.jpg)
 
 图表20  Qgs、Qgd和Qg参数含义示意图
 
 漏电流和漏源电压的变化对栅电荷值影响比较小，而且栅电荷不随温度的变化。测试条件是规定好的。栅电荷的曲线图体现在数据表中，包括固定漏电流和变化漏源电压情况下所对应的栅电荷变化曲线。在上图中，平台电压VGS(pl)随着电流的增大增加的比较小（随着电流的降低也会降低）。平台电压也正比于阈值电压，所以不同的阈值电压将会产生不同的平台电压。详解见下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccBk66CQbPErKhnytjF2L7FFZ5G97P0lWvyhE0j4UQiaYjoHqmfy56U3lOa4VLogVq3Lrt70AibxKwJw/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_023_509bbf2f60d5.jpg)
 
 图表21  Qgs、Qgd和Qg参数含义分解
 
@@ -432,7 +432,7 @@ Qgs为从0电荷开始到第一个拐点处，Qgd是从第一个拐点到第二�
 
 除以上介绍的参数之外，MOS管还有很多重要的参数，明细如下。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jpgzUxz3iccB4b1EftaVDAcYoicpd0jWo1ptjIubVdmv0xcupaIYhVxKgzDQKbU33vP6kUxNibn49wwFiaoqhftQlg/640?wx_fmt=jpeg)
+![](MOS管知识最全收录__images/img_024_7981585c6ac3.jpg)
 
 表22  MOS管其他重要参数列表
 

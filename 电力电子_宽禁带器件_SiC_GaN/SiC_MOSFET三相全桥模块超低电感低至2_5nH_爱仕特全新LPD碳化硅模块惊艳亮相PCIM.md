@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ySd5wP-0\_v6xjJcsHaR52A](https://mp.weixin.qq.com/s/ySd5wP-0_v6xjJcsHaR52A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuuyZxibKvWMMjuSsoskzS4ppnzVY8uia51vl2E6ucoWcgVzZTFDQJJKxA/640?wx_fmt=gif&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_000_c3ae9ccc828a.gif)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneu3QWrjb8cYib1QrSo6iaWban5VKlaWC6hHkJvvc5icicvxVshDnMuBJotQw/640?wx_fmt=jpeg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_001_f827e671d245.jpg)
 
 “
 
@@ -17,11 +17,11 @@
 
 **该模块采用创新封装和三相全桥设计，内置1200V碳化硅MOSFET和热敏电阻，杂散电感低至2.5nH，工作安全稳定。工作电源电压可达900V-1000V。LPD模块具有耐久、安全的性能优势，性价比超国外产品，****适用于电动汽车、氢能源汽车、高速电机驱动、光伏风能发电等领域。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneujKbza3NEJYr4Q8ywPCYk5XtAvJ6MTeYZTcwTL8JNsgHet9JvSe7pJA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_002_e40e4646bfba.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneu8ibCDNb4YuN3QLLauXMB3TNTWqjw5pocM5iaz3FbtmP3b0cbdeMoBRhw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_003_a2a3dc498a4d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuTwj287P6Ok4uO0mJlSic0zQh145F8UP3fu8nASDUiavqLWRxry30FdUQ/640?wx_fmt=gif&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_004_4382d6b52b1c.gif)
 
 ▲爱仕特超低电感碳化硅功率模块
 
@@ -33,21 +33,21 @@
 
 此次展会，爱仕特与行业人士及客户就新一代超低电感碳化硅功率模块展开密切交流，传递爱仕特在碳化硅功率器件领域的技术研究和探索，**依托自主研发设计的核心优势，助推国产碳化硅产业高质量发展**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneu8hfTC1qib44AR0HFbSVQ4xWw0b4ILaKDcx6BokdwxSK6Pa7MBwnctPw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_005_1c989fa32b60.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuhGXJx2fmKxibaknvF4M5bjiar0faCGSp4IzpCWw5lMbTmyWFK5cMHQ6A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_006_3dd9267876e7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneurk5TmM74Uxb8S2tiark4lWibqxcmtHFLGvicghZlKQkdgeTzW3bOwibuEQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_007_bd7316af467c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuPKOZekZrMMCnOPx7j9FAvID7TbWoakMOj4XYfjqbh7On4jhxtS0POg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images\img_000_60a97922f9e4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuFSazeKpEkiaToUYvXjUXSNZvH0C45NRJN6J2HL10eDv1pypvWibugnxw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_009_7bfcfa992115.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuqEKbMr2hiaEGaZhFDk1DqNPcibC9dH9tFLfiakO0BKLTq35oFh2lfk83g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_010_e709c0de5ffd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuOibibnE3ZHEiaNSxSK2vSjaGr1wZmMsrf4qowRGt5mOPJjUztUSKicEwXg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_011_2166f10b4f8a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuFSazeKpEkiaToUYvXjUXSNZvH0C45NRJN6J2HL10eDv1pypvWibugnxw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_012_7bfcfa992115.png)
 
   
 
@@ -59,7 +59,7 @@
 
 **最新3300V大电流碳化硅MOSFET**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneu4ukXAboSDYYHGAY3EOu3h0zickhwUb5l0oK7IYrn6dk1XWYYdeZeW1g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_013_4d09b9b390bd.png)
 
   
 
@@ -67,7 +67,7 @@
 
 **最新1700V内绝缘碳化硅MOSFET**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuZFxpUWXO6YdougbHXT6GRNqJicpicM8Yj9qEDk4rqTzDVlpjDkUNVrKA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_014_8af8666479c9.png)
 
   
 
@@ -75,7 +75,7 @@
 
 **最新1200V三相桥碳化硅功率模块**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuKtUGPKvSjqWaa8ZpLiab9HHKjanD1SZUY8ftL271DRo6XwbSNMoXQzw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_015_8df6d3179a20.png)
 
   
 
@@ -83,25 +83,25 @@
 
 **650V～3300V全品类碳化硅功率器件**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneu5TJ6z5GcQergOphmZibTuH8ShiciaMbBXUkno4oVia8WbrrDqadFL87r6Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_016_a6f84ebc914c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuGVE1UkJYTCudOVUMiah9dIYxiavOAic2eAXAPcGPibEQICucBDEtquzcyw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_017_9691dd2eec13.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuH1eMrRJEsClRY0QOUqBNe79loBSNicsrevk37wfG5khaOUUfsHKpia3g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_018_22c7ffc1405c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneu7CLGZOGKqEDFZQ4Gl7gkQD64cpc0joWVSxVnlNq6nKIXrbibk2r7qVQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_019_655fa423a60a.png)
 
 ▲现场展品展示
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuO1VGfc25ZrA0nbpVFcJibJnYhQNfE8G0IgKgaDahBzLAaprOw1VxW5g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_020_a5c16163a565.png)
 
 ▲爱仕特碳化硅MOSFET
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneuO0Gg1dMqA9GicSiba77mvSibTiaXSRicibR6J9jHCV1Icm5iaVTjoc9sPemWA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_021_c5220b45d497.png)
 
 ▲爱仕特碳化硅功率模块
 
@@ -139,10 +139,10 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_022_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_023_3ade3c3d8599.jpg)![](SiC_MOSFET三相全桥模块超低电感低至2_5nH_爱仕特全新LPD碳化硅模块惊艳亮相PCIM_images/img_024_84aa944feb13.jpg)

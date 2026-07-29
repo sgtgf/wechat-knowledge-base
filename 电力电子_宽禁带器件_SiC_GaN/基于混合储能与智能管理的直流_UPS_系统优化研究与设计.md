@@ -17,7 +17,7 @@
 
 随着对高质量电力持续供应需求的日益增长,系统摩尔定律与能效优化需求正推动数据中心向更高效的直流供电模式转型 。在此背景下,直流不间断电源（DC-UPS）逐渐成为数据中心、通信基站、医疗设备等高可靠性应用场景的关键基础设施。为满足严苛的运行要求,DC-UPS 需同时实现三大核心性能指标：超高效率、长寿命与毫秒级动态响应。然而,这三大目标在系统设计中存在根本性冲突, 构成了“效率－寿命－动态响应不可能三角“。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNcBwB34QQ29Gc40fp4vTl9mqTTVWGQMdkibKNEHBC3uJiaSRMyN0cmx6JQ13pvwow8aAFA1B2s6RnBPjkQAjic0JTyfIOAYku6SM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_000_d386ee9628ac.png)
 
 目前,DC-UPS 系统在实现上述目标时面临多重技术瓶颈。在功率器件层面,传统硅基器件受限于反向恢复损耗与饱和压降特性,系统效率难以突破 92%;为提升动态响应而提高开关频率,反而导致开关损耗显著上升,效率进一步下降至 89% 以下 。在电池管理层面,现有系统普遍采用等效电路模型（ECM）,其在动态工况下的建模误差较大, 无法准确反映电池老化机制,导致实际循环寿命低于预测值 20% 以上。在滤波与稳定性方面,传统 LC 滤波器引入相位滞后,影响动态响应性能;为抑制谐振而减小电感参数, 又会导致纹波增大,难以兼顾低纹波与快响应的需求 。现有优化策略多聚焦于单一维度,缺乏对三重矛盾的协同化解机制。 
 
@@ -31,13 +31,13 @@
 
 为突破动态响应与寿命之间的制约关系,本研究引入了超级电容与锂电池构成的混合储能系统,并基于双时间尺度控制原则,将能量管理系统优化为两个协同工作的控制层级：超级电容主导的毫秒级瞬态响应层与锂电池组主导的秒级稳态调节层。该系统采用自适应控制策略,通过实时采集的负载功率及其变化趋势,动态决定两个层级的主次关系, 并生成调节指令,在确保锂电池组限幅保护与超级电容荷电状态校正的前提下,输出最终控制信号。整体优化流程如图 2 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNhFfCX2ZmSpT3ZED224vLg1ibDBwuBHqpc9xcBqLwXkyk2XPXcO2RCSXZibtFVwYkkl740QjCZGvwMaeWoQUOgkQQpPjh2h9Kkc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_001_de0a7d768593.png)
 
 1.1.1 动态响应优化主层级—毫秒级瞬态响应层  
 
 为提高系统的动态响应性能,本层级充分利用超级电容的高功率密度和超快响应特性,将其作为处理负载突变引起的浪涌电流冲击的核心元件。为达成毫秒级瞬态响应目标, 本设计辅以主动式电压前馈补偿电路（如图 3 所示）,该电路由电压微分电路、负载斜率检测电路及模拟乘法器电路组成。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPxn2oFBiafbXnHuOsicw0rVysDlcj3vAH2UHic6GOfQ3wYLPvdXqib2vP0I0eEJkVjicb0QvzSd7mqo4ZCqmX087bgoqX2p0Top5X4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_002_2410c1f48b88.png)
 
 具体实现过程如下： 
 
@@ -45,15 +45,15 @@
 
 微分电路由电容 C1 和电阻 R1 串联,然后接到运放的反相输入端,运放的同相端接地。反馈回路中并联电阻 R2 和电容 C2。其传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPXrE8wCs2S66d19ksQlGlCYoPX6Fqemg56P9y0y361xwcDK1euib1C3LqtMoMMLBMjj0iaQfzZYT6zNiaNW2ZG69rcyQjokibl0Ao/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_003_020e375ee4d1.png)
 
 Vout1通过一个增益为 -1 的反向比例放大器得到Vdiff：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMfoCAssJjRYpO4Aw3IVOm0YqPkM42qY43MRictxTWPGsH9rufNNOpjogicgotcLUovFEPQ09iaTPoicfZFCrTibicJTiaE2E01ibLlnmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_004_1172775be258.png)
 
 Vdiff是经过滤波的微分信号,即：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMckjqKhXFUzibRDGh8ElBApfXst5ZEDIH3nUgAHduandEYtWgkoK9r5icQ72xsvntX3BaWrJFr3LGoP0n0R2F2sLyeTV6PqzDVM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_005_e3844f9ac854.png)
 
 由于在实际电路中,无法直接得到负载电压的变化率, 因此本研究在此处以可检测地母线电压的变化率作为近似值。 
 
@@ -61,21 +61,21 @@ Vdiff是经过滤波的微分信号,即：
 
 接着,将Vbus和Vdiff输入模拟乘法器 OPA549S,然后乘以系数Cbus/K得到前馈补偿项：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPLYofLyUk21mz85NInIqcFLV2g7riaW8EgMrbeMnoVQSia9V23zyBE2NKl4bCsabribI19h9PxBNguZKgMwC4OMVWbHAZz3Z07go/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_006_578ca77d4a3f.png)
 
 其中 k\=R2⋅C1 。 
 
 最后,计算反馈微分项,通过差动放大器计算：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOlvHMtPScPQiaW4IhKPr8zN3dPM9Vnncj4ibQ4C2UA4qNgllsHfkWibpwKIYSn830y7Q2kiba7RhWYqaP87t9URpqGUgdMxvZ9v2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_007_96d47a67f329.png)
 
 再通过上述不完全微分电路得到微分信号,再乘以系数Kd。如此得到反馈微分项：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlZ1f3YXK2jeXaC6IkicDbx7UyN6NZ53NlvTJRP5JVXTMbSQJjd4whH2zOAEZgV6noytYdsPRkI85NPtsvEjAznWh1WyADGfEo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_008_59e732656d94.png)
 
 将前馈项Vff和反馈项Vfb相加,求得总的超级电容功 率指令的补偿部分。进而可得超级电容组的输出功率：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOQxqiaiaaakF2hibvib9aJuGWCsUdlk6F1J2UunY9vhwCHAakyNka9K4WfsKYuRPbicG2iaOfyVUoGCFzbaPxedaN83Monygicy1w1s4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_009_38b0cbac2346.png)
 
 当检测到母线电压变化率 ︱dvbus/dt︱\> 100V/ms 时,超级电容优先响应,有效抑制电压波动控制周期为 100μs,通过 FPGA 硬件实现。  
 
@@ -85,19 +85,19 @@ Vdiff是经过滤波的微分信号,即：
 
 本研究采用指数平滑算法：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPUErSJHHTu21ZopTDxzCB0NTWnUfVicB1BCofylYV1zFvC8JDSV0XkcAISAkwMn4QpiadsYbeVLhv70JC2jOXbicZBtlgVt5vxH4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_010_440e7618a9bc.png)
 
 上式引入一个自适应时间常数τ,τ的定义为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOwF8vHicpSh1aQILCWSSjZousWaRTIAauyFBgqhibfRPpaibyeoF6NKyibHpibfcHogNA02fBvfRiaF8fQGhbhZhYwUmibktll5jteX4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_011_c2d27fe1060e.png)
 
 这里默认τ0\=5s,α是斜率敏感系数, α\=0.02s² / kW 。 当负载剧烈变化时,τ将缩短到 0.1,大幅度提高了响应速度。 控制周期为 1s,通过主控制器实现。图 4 是锂电池稳态调节 的核心算法。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMT7FL9iaT5No2TVJiaxoKdWkRHRkam01YqFTwK7LV5dyTggjGcH7Z614k7S95dgCCfRAh0TnOlnmMakNDiczXTvYPqvkibRqtu3BA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_012_63f4022627b2.png)
 
 图 4 代码基于应对实际离散情况,采用递推公式来模拟指数平滑,即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPEApKN5aMppSaRDd8Grz6CgoAUS0BrNmLbvcMDib9LgicEkPZ3oShU15UwiasqSZpNIJaQNo1LLhk6dibT6GzklESDIzgGD5JjSSI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_013_30745fd00068.png)
 
 在系统启动时,设定初始化上一时刻的负载功率和电池功率。本研究将初始时刻的电池功率设置为初始负载功率。  
 
@@ -113,37 +113,37 @@ Vdiff是经过滤波的微分信号,即：
 
 首先,对负载斜率实时检测：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPWAMtnAYiaM8icdcAtbk8Ro7UNqasO3Mqgm9dgYHKUX43brEnK98EL6KU2qibbKXGguEfYH6YcHePxJ0LQKJ76hpNkE2r1c1rdak/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_014_01cfd561e45f.png)
 
 式中的采样周期 ∆t取 10ms,确保及时捕获负载动态。Sload为负载斜率。 
 
 然后,分配比例自适应调整。定义分配系数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMiceTgsmH8ZYelE9WjN9YyiaN41XxwT3Z5pDiaVmRbJNKqL66DWpf7IVYB1Pd9OYth03mfXeTKgz1opAtSeG4DIvuZ1hH6Sh2XCo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_015_90aa71cd7f1c.png)
 
 式中 Ks是斜率增益,取值0.05, S0是切换阈值,取值1kW/s。当 Sload\>S0时, β快速趋近 1,此时超级电容主导功率分配。当 Sload<S0时, β快速趋近 0,此时锂电池主导功率分配。 
 
 最后功率指令生成,锂电池功率：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPqERpRsVB7Qhv62S84DNA757mHJUQCk3PC0ej9jHjHPFZmwJMMdibFk40VjOQxx2oY8mSlb0wpuS1YZVLe8PvdhyIX2nDCu7ro/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_016_67616bdf1849.png)
 
 超级电容功率：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMcIl7xd15SxZ0Xf7oZFgvQdX4flMkQewzNLqkrKeT1cQtliapcfPEhjUbLrU8c7QpEL0Z0mfwF6hYO5QUpkg3jmkJm9AStOMwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_017_90fce56c644b.png)
 
 式中 Ptransient为瞬态补偿功率,由电压前馈控制生成即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOWS20KAmibicMJGf20WMmwzDFgiaXDC9ccibj3ZBX6VobYyyEdswx2oBHFxpJbia9icYicy8PcF7EibiacvOgLncMZO9TkNSzYCOBhlg1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_018_97c6d4b60ab2.png)
 
 用以应对负载端突变引起的电压波动。 
 
 对于锂电池的功率保护方案,本研究采用以下功率限幅公式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMC8fjKfpt8ONPDCrjYdEmhE3mLENBCxEUEvt1BEpPKI2N8qnhlerc6aj0eonD3Oibrc124NU625fW4QPsg1ZtNjiaNbalL5BSVM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_019_a87d2429b1e2.png)
 
 式中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMFibT7C2PCPW7DLFubOpySFq4jl4Hb4j1HGkqO5Yp4vbcAoxV3MMBKhr8B1M5YzMTrI74wRHHrUAvljb1Y2jwBXhxjbiba5hatk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_020_b22e83b609a0.png)
 
 是锂电池最终允许输出的功率, Pbat为控制器计算的期望功率, SOC是电池当前荷电状态, Prated是电池额定功率。 
 
@@ -153,7 +153,7 @@ Vdiff是经过滤波的微分信号,即：
 
 为进一步提升系统动态响应性能,并实现高效率、高功率密度的电源系统,本研究创新性地采用了基于第三代半导体碳化硅器件的高频功率变换器。基于对动态响应和效率的协同考量,本设计选用了三相交错并联 Buck-Boost 拓扑, 以下从拓扑选型依据与 SiC 器件优势两方面展开阐述。具体电路如图 5 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM5FFAwBdxmS6TIU1JY5hXMUwjF8Uk2iciaQkR4FeXon6z2JxWm7UuGmq0ABZNBHgqndlTGKPb001g2hvnXzcRSJc7WlaRNgFFcI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_021_c3869fbf88aa.png)
 
 1.2.1 拓扑选型依据  
 
@@ -167,7 +167,7 @@ Vdiff是经过滤波的微分信号,即：
 
 从效率的角度说,以总功率消耗为关键指标进行对比。 功率器件的总损耗 Ptotal主要包括导通损耗 Pcond和开关损耗Psw。对于一个三项单元,其总损耗可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMYsficwDBiclzQtdKo2cYArSxIBPIzZUyPfr2Vwblk8S7ER0E4GMic3SmoDFvOY93diahSyoKtPW2t9KSDDvGl67cY5auj1SCsXMk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_022_d5dba48732d5.png)
 
 式中, Irms是单路开关管的电流有效值, Rds(on ) 是 SiC  MOSFET 的导通电阻,Vds是关断时的漏源电压, Id是开关过程中的电流, fsw是开关频率, tr和 tf是开关管的开通时间和关断时间。 
 
@@ -177,7 +177,7 @@ Vdiff是经过滤波的微分信号,即：
 
 一方面效率优势,从开关损耗层面,对比 SiC MOSFET 与 Si IGBT。 本研究采用SiC MOSFET,Si IGBT 与 SiC  MOSFET开关能量随漏源电压变化曲线如图 6 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPWslAlDM5Nur4VibZibxIVRicia2A8kXYIYPiaSLTNrCEOOW86yibAtdF1tQSib811Ir9Bj8HUBuibptnHXPD6Ou7pPkqXn6ng9Mnc9WM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_023_0b2d3d6c820c.png)
 
 提升开关频率是减小无源器件体积、提升功率密度的关 键,但传统硅基 IGBT 受限于其拖尾电流和关断特性,在高频下的开关损耗会急剧增加,导致效率严重下降。 
 
@@ -185,7 +185,7 @@ Vdiff是经过滤波的微分信号,即：
 
 从另一方面,从对磁性元件体积层面。提高开关频率fsw对磁元件体积的减小效果是立竿见影的。磁元件设计经典公式如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMPial2xjDDyjxuvu7m30AwiaY593U4NKr20uHKsvcSVbxiaiaiae80UYNmwOEMTeHqpgDRtJbpyYV6aROib1uia32IOYFyZzEiaaibRjwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_024_4ef6cf0643ee.png)
 
 式中, Ae是磁芯有效截面积,是决定磁元件体积的关键参数。 Pout是输出功率, k是波形系数, Bm是磁通密度变化量, J是电流密度。 
 
@@ -193,7 +193,7 @@ Vdiff是经过滤波的微分信号,即：
 
 为充分利用 SiC MOSFET 的低开关损耗特性,本研究将变换器的开关频率从基于硅器件的典型 20kHz 提升至 100kHz。代入公式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOAII6IgfibovNlw8ejhibNZiaK2rteE4p7sNlBH7YaOkpFicVkx8ox7yLR2e4O1oemHibOLuM7TChtKTZTXoK8mY5LLaO2aw9KicvFU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_025_711f227de8b1.png)
 
 理论计算表明,磁元件体积可减小至原来的 20%。
 
@@ -205,7 +205,7 @@ Vdiff是经过滤波的微分信号,即：
 
 所提方案的核心流程如下：第一步,数据预处理,对原始数据进行清洗、对齐与标准化;第二步,特征工程,构建直接反映电池老化状态的关键特征集;第三步,网络结构, 设计一种结合一维卷积神经网络（1D-CNN）与门控循环单元（GRU）的混合深度学习模型,用于特征提取与时序依赖关系建模;第四步,损失函数与训练策略,采用结合 L2 正则化的均方误差损失函数对模型进行优化,以提升效率与鲁 棒性。系统框图如图 7 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPkaYC2VQiaKVTicbz3BkiaibUmBDlmRXQic9487Rdcozxia82hLUAqXZ8sbudtrp9icRBTynDbsqndPHAcFwxeibveiaaoF8XU2JhkLF0M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_026_b65ac4ec59e3.png)
 
   
 1.3.1 数据预处理  
@@ -226,7 +226,7 @@ Vdiff是经过滤波的微分信号,即：
 
 动态内阻是用来描述充放电脉冲瞬间的电压变化与电流变化的比值的特征,计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNialOJbhicrKSEUVe0gyibwokfj58p1ASVgCSPiaoicxetxRCRlvIp7Hy5pq4bnbAa5poSGcBibiaMCcAFoqfUmQIviafagotmx5plv98/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_027_a0357d17200f.png)
 
 其中 t1 和 t2 分别为脉冲开始和结束的时刻。动态内阻Rd直接表征了电池内部离子传输的阻力,其值会随着电池老化（如 SEI 膜增厚、活性材料失效）而呈现单调递增的趋势,是反映电池健康状态的敏感指标。 
 
@@ -248,7 +248,7 @@ Vdiff是经过滤波的微分信号,即：
 
 为优化模型参数并防止过拟合,本研究采用以下损失函数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMaUDNR26d6Zfib8hsF9ZKUXCnf7ZDian0Owco4qGv7zFMib5ENMFZeDfYgGSg3kMF5to84iamTMbkg65rVo7eKHXYlLEAFicJrJtUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_028_c92d50e1d8c6.png)
 
 其中,N为批次大小, yi为第 i个样本的真实 SOH 值,ˆyi为模型的预测值。该损失函数由两部分组成：（1）均方误差（MSE）,用于最小化预测值与真实值之间的平均平方差,是回归任务的核心指标;（2）L2 正则化项,其中 λ为正则化系数, | θ|2为模型所有权重参数的 L2 范数。
 
@@ -260,25 +260,25 @@ Vdiff是经过滤波的微分信号,即：
 
 本文 DC-UPS 系统通过设计混合储能、SiC 高频变换器、负载输出端等模块,采用数字控制器模块负责对系统进行数字化的多工作模式控制,实现对系统控制与驱动电路、电池管理控制以及电压电流采样控制。总体设计如图 8 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPNSzudLAKn281TckicWpLqIgI5vz6dG67XEqjc2DibNYMTgMZVbGibJUdYlkF6lMDDrGg09eyhiaMkze0ibSickum0Yb8viblG8ZicBPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_029_01b855bb5fe0.png)
 
 基于上述硬件架构,系统的核心智能体现在其能量管理策略上。数字控制器实时监测输入源状态、负载需求以及混合储能的荷电状态（SOC）,并据此在三种典型工况间进行动态、平滑的模式切换。这三种预设的工作模式全面覆盖了系统正常运行、应急供电与能量回收等关键场景,其具体控制策略与功率流分析如下。 
 
 （1）工作模式 1：正常供电（电网 / 光伏输入可用）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPAKEdLVaXALZT0xzliclkcszRIiaOxQYt02m3b66vn4ibqR7cROE2yzzCyWGickYJA2aQZqwdz0INLXSWlHUaloP54wfDFND0ibjY8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_030_973de875eb72.png)
 
 式 中, Pin是输入源功率, Pload是负载功率, ηdc是DC-DC转换效率（SiC 器件 >97%）, Pbat\_charge 是电池输出功率, Psc\_charge 是超级电容输出功率。 
 
 该模式下输出功率的控制策略为负载功率优先由输入源供给,剩余功率按 SOC 权重分配充电至储能,即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMHypG4pwAATpqCQicjKpaNhsv9hnt1ZzZc8ewDN75lb5IIaUAqxXtqrJfOgS1BMn3UChXpTTgXr9O225xHEzlJV0ib4QlffdsxE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_031_3148f6a295d0.png)
 
 式中, Kbat是 SOC 权重系数,其大小取决于电池荷电状态SOCbat和超级电容荷电状态SOCsc。 
 
 （2）工作模式 2：断电模式（输入源失效）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN0HYlqsuOz0x0qMibEEhfuVk5y3sZFYpibtLzAuMnaENU2kYaCkhG3wn9PPJUUCffxEhsGWAzVyNTLO9h9vjREvakib9A3YNOcF8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_032_6cd665bf6cce.png)
 
 式中,ηbat 是锂电池的效率,ηsc 是超级电容的效率。 
 
@@ -286,7 +286,7 @@ Vdiff是经过滤波的微分信号,即：
 
 （3）工作模式 3：能量回收利用（负载反馈能量）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPWKcia39tlttv07jhvzyk8u5ITjfc564LleW5mZBE028gVFKW5Q7FOicH9UrbOlmG6aF9QQZyt9IUxsyDM8ItUKZwhzQBuFFia1s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_033_20ad9b2c6576.png)
 
 式中, Pregen是回收的功率, Ploss 是超级电容在吸收脉冲能量时损耗的功率。 
 
@@ -298,7 +298,7 @@ Vdiff是经过滤波的微分信号,即：
 
 2.1 实验平台
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNV5EEUDLdVnJAIpvYwWib9jPQibn4EvictR6mgHvlsy713d2w2JpmP5bandH8WWClS1d8icD98tEnmzNLCMuU1ibicSDAEWOPtugwP8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_034_d38bd5410f2c.png)
 
 本研究利用 Matlab 进行仿真测试,包括阶跃负载测试和循环寿命测试。 
 
@@ -314,7 +314,7 @@ Vdiff是经过滤波的微分信号,即：
 
 本文SiC 方案采用Cree C3M0075120K SiC MOSFET, 开关频率设置为 100kHz。采用三相交错并联加自适应预测控制的控制策略。对照组传统Si 方 案采用工业级 Si MOSFET（Inﬁneon IPA60R360P7S）, 开关频率设置为20kHz。采用常规电压－电流双环 PID 控制的控制策略。两组假设的PCB寄生条件一致。结果如图 9 所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTh6eSZnktqw4sC8ApjhsiaGSH6fiaPwHyDyK43SG31R0ukzeYAlwJWQxgn8tCFw9xTM1NONmK3PvgbUne5H3eN4LZF2rxGZZJ0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_035_caa0af8c2ada.png)
 
 传统 Si 方案,效率随负载升高先增后降,峰值效率约 92.5%（70%负载）,满载效率为90.8%。相比之下,本研究的 SiC 方案,效率曲线更为平坦。在 50% 负载处效率高达 97.6%,峰值效率达到 98.2%（60%负载）,显著高于传统方案。图中的理论极限,基于器件理想模型的估算值作为参考基准。 
 
@@ -324,7 +324,7 @@ Vdiff是经过滤波的微分信号,即：
 
 阶跃负载下的直流母线电压响应波形是衡量系统动态性能的关键指标。本研究的阶跃负载是10A → 50A 工况下直流母线电压动态响应波形测试结果如图 10 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOic7afAKg5gqdF3jjhgqSw4HnCthHAx6aMJnpibAOW7vWlDa1DpmsSJkcic6pPC7pV6vRFllVQERxwLTMrgoNpNW5373mHIvxbek/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_036_7b9b5550cd18.png)
 
 传统方案（无超级电容）中电压急剧跌落,最低点至42.0V,较额定48V跌落 12.5%。电压恢复时间较长, 约 20ms。本研究方案（混合储能）超级电容瞬间提供绝大部分阶跃功率,有效支撑母线电压。电压最低点仅跌至 45.6V,跌落幅度为 5%,较传统方案改善了 61.6%。电压在 3ms 内快速恢复稳定,响应速度达到毫秒级。  
 
@@ -332,7 +332,7 @@ Vdiff是经过滤波的微分信号,即：
 
 在电池循环老化测试中,我们对电池进行了300 次完整的充放电循环测试,并每隔 20 次循环对电池进行一次容量标定,获得实际容量衰减数据。同时,将循环过程中的电压、电流、温度数据输入到训练好的 CNN-LSTM 模型中进行在线 SOH 预测。关键节点的对比如表 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMHNMBpoGmVCgicHmHjxny2Sk8IqaiakwKSavJUkjQ5sNibZibhSd5Gl0BHIXt5W3o5CJupQyJiaW1icG1CszIJbgYbrp92cetfIwffI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_037_c406a11fcab2.png)
 
 表 2 仅展示了部分关键节点的预测结果,完整的测试包含 15 个数据点（每 20 次循环一个测量点）。基于全部 15 个测试点的统计分析,所提出的 CNN-LSTM 模型在整个测试周期内表现出较高的预测精度,平均绝对误差（MAE） 为 0.83%,最大绝对误差为1.6%（出现在300次循环处）。 这一精度显著高于传统基于安时积分与内阻测量方法的误差（通常 >5%）,验证了该模型在精准电池管理中的应用潜力。  
 
@@ -354,14 +354,14 @@ Vdiff是经过滤波的微分信号,即：
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOIicpBqjib3QQNavwGW7fKy1XI09M25QurGqiaTViaE7SILfXiabUCDejohGeH6N4xicAftCkrcR0H1ReY3DlyNZ2vuKKOxJLnynAI4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_038_2d2ea9ad5adb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNI6plb3j7858xjxUshmPvhXnQFohadxN5ibAmJeCFOBvwl8qx40ibVEiaROFwTWygKLbibss2XTI4gCvz7uPx9c0u4e0FJy32ias20/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_039_a9726bd0a9ca.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOShlumlLl4R9KfdOnic06pmbpoCjRjBIlTTaLicSiaz89R4PVqIpY4Z7NicA0vrQdxMic4tciaQv6oWGPAudibic5iacIyBGqTVFlESh8A/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_040_31e4ad71cb50.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLK1SFXsPqeicysPYbPPTzoiaGWZHsZz5WhV9icm1WwXibphB2E7cpWdcrBHAmyiagNB6G72JiaRp8cSZaupiboS0ozc1XUIgh4onDf8/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于混合储能与智能管理的直流_UPS_系统优化研究与设计_images\img_041_56d5e0a1cc40.jpg)

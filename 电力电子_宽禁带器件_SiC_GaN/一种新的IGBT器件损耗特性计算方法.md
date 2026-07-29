@@ -22,7 +22,7 @@
 
 1.IGBT基本结构和工作状态
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskOicsNgWjRQrqtn2UJunQcLLcmmO73OUJVEKNrwuuHmQgRyav0rlBtKLc4erichzUPE7QYHn2A1byg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_000_4f7f3198ae64.png)
 
 基本结构由栅极G、集电极C和发射极E组成，其中栅极通过绝缘层与衬底隔开，控制IGBT的导通和关断;发射极E连接到输出负载的电源端，集电极C则是电流流向负载的出口.此外，IGBT的N型衬底和P型区域形成PN结，实现电流的流动，使得IGBT在导通时能够承受髙电压，并具有较快的开关速度.工作特点包括低导通损耗和高效的开关能力，适用于各种电力电子应用，特别是在要求高效率和可靠性的场合.  
 
@@ -36,53 +36,53 @@ IGBT工作状态分为以下三个阶段.
 
 IGBT的损耗可以分为开关损耗和导通损耗，其中开关损耗又分为开通和关断两部分，工作波形如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskOicsNgWjRQrqtn2UJunQcLTE2SgNZX5HicHuHuUD2AOq1bM6VcFQCOwbeeq2E8XKZM3SBL9GvREfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_001_99b5857e3627.png)
 
 2.IGBT损耗计算  
 
 2.1 IGBT开通部分开关损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskOicsNgWjRQrqtn2UJunQcLhkiaTUEpyy1dfordd2Uh1u7OWG8WOSOxqn2yiaJlWTjmInDTPZ5YzPtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_002_0bb50bf0e777.png)
 
 理想状态下，单个IGBT开通部分波形如图3所示.针对开通部分，电压电流波形为线性.
 
 分别找到电流开关波形中的两个坐标(0,0)和(△t\_on，Ic)，那么电流线性方程为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOS0A3H6B1lTGrSRAicXRMeGaCP68em8Xg2WEPmNYtYmNxblYUr1RIlkPvicQGjEPiaxPfKWhBM6v1ZQl0VImichyiaZpOdjibhvec7Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_003_d54e06dbff46.png)
 
 同祥找到电压波形中的两个坐标(0,VCE),（△t\_on,0),那么电压线性方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPzCfVIjfqJNw50WrmichxoMgNvicbmXFUWhdXI7zjxuvgrB4HO0z0Xl1GSNASYVngvB9bqMq10xwcHwOyO0OdTibQpgoDgpW7Bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_004_245e0073446d.png)
 
 根据损耗定义进行开通损耗Eon计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPsfgNmzqAu6UCia0dFGicxInQfxR9A9T7AFaGaOQZaqlkjmzyuX6AVKAS1YBFknUOyfrd65Mc24M9kRHtw5R0jDOsVoZibQwyNNE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_005_883dbe9b43f9.png)
 
 将式(1)和式(2)代人式(3)中，推导过程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM1Fgu7KTk2I6QicmkTqMd7IajHNvuKZtFqqTLU9tzwZhI0rZxbfPj45ST8T4icP9cmkrOkPyK5Hicm1QwDky8Yqo9CibEBHS10ZrU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_006_8cfe30eda991.png)
 
 被积函数的积分变量为t，其余为常数，故t²的原函数为1/3t³，t的原函数为1/2t².
 
 实际情况下，IGBT的开通波形并不是完全线性的，下面以实际储能系统为例，将波形分区间进行处理，把整个波形VCE的斜率分成几个部分来近似计算,对应时间分别是△t1,△t2,△t3,如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskOicsNgWjRQrqtn2UJunQcLWrL0o0ktXRrzzIQnWgphvuRYUOPbM13Z3iciaiax61T5ic7qQ9Jia9ltufQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_007_921dcedf1417.png)
 
 针对△t1区间，找到电压和电流波形与△t1时间标注线的四个交点，以C点为原点建立坐标系，如图5所示，可得A(0,VCE1),B(△t1,VCE2),C(0,0)（△t1,Ic1）.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskOicsNgWjRQrqtn2UJunQcL0xA3P5jDqjM8qJDtj4Bano7Xm7t6ZgRk6ic3CAWV0dL3eptkHJK8FIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_008_b79f08a96529.png)
 
 △t1内的VCE表达式为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJJ0eg7hU9sZCvkTq2KTy6bzN3g6MvFyzojsx9mNaelv87rS7ydS5ibG4WibKzLzPveqCEnUBT1icGXw2GS78w1WhHRaIdh5PXrs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_009_a934786993bf.png)
 
 △t1内的Ic表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdKiaqrGOKWQ7z9RS3tTPsu0YsRqCSiasQhzfZibQ1SL1z8PM0ViaepdHMibgcJHlpOw7NkYNt17Qgx99icsaia6BkBahmllfaicDqVgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_010_1472b226f3dc.png)
 
 △t1内的损耗表达式及推导式为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkPbewMFibtxEloHsInZascRu75K2PicLiaFY0oQNmUGNdlgmicjS4icW0icQRO5sgzfLkMxRbT81brBmlepQmSCMRiaJUyI0W9IYsUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_011_2c7e0cf72058.png)
 
 被积函数的积分变量为t,其余为常数，故t²的原函数的原函数为1/3t³,t的原函数为1/2t².  
 
@@ -90,63 +90,63 @@ IGBT的损耗可以分为开关损耗和导通损耗，其中开关损耗又分�
 
 针对△t2区间，找到电压和电流波形与△t2时间标注线的四个交点，以EG两点连接所在直线为y轴建立坐标系，如图6所示，可得E(0,VCE2),F(△t1,VCE3),G(0,Ic1),H(△t2,Ic2).
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMqiaczpodP4EFOGI9BYv0lUheibOQxldq0CcH4rvM8DN2YibHuuPNicia5m1oaIwiaVfJ6l9xricEuyT2Wyye6xdkBl5BMC3Eq7Dcic7I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_012_cdb0e9938fdf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP3MFHia29lL6bNRH2qtnP9243bU4M3P59jfOrAevnXoI98h2auarGTMGlZu5Y0WMIFMYgsvhicGfKkKHtia4PYEbcHYzkx90IicfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_013_6b2b8418e652.png)
 
 由示波器可知:VCE3\=50V,VCE2\=220V,Ic1\=20.3A,IC2\=29.3A,△t2\=40ns,代人式(10)可以得到E△t2\=0.129mJ.  
 
 针对△t3区间，找到电压和电流波形与△t3时间标注线的四个交点，以KI两点连接所在直线为y轴建立坐标系，如图7所示，可得I(0,VCE3),J(△t3,vce3),k(0,Ic2),L(△t3,Ic3).
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP5UATP4ENoJ6MapCJwzg9iazZ1CCdYpFkdptfHk9lNNxyCX6nj2IhNb6nicWO3fvmmVJu2K0vEicPoGHUsoic5zVw3rxJqIc4usUc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_014_47106f5f9251.png)
 
 △t3内的VCE可取常数（IJ连线可近似看为一条非坐标轴上的水平线，斜率为0），表达式如式（11）所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPxniaKFAG4VxwLmg3cdDoCicaicJWV3GSJBNBMljbvlw0cbZHyexR8zfkfBXKGG5QFaEEE6QoTvLcoBuGuibemWIfyG8noDj5QyYo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_015_65d2dd7dffe3.png)
 
 从示波器中可以读出：VCE3\=40V,IC2\=29.3A,IC3\=19A,△t3\=30ns,代人式（13）可以得到E△t3\=0.029mJ.  
 
 故实际情况下，单个IGBT开通的总损耗如式（14）所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPTPxo9Ff8hOXGLpImmHqAHgruvMnzxk9Y7u5EsTnvW7PDecgoowxHfqhyjKjhHSVsSOj4NgYiagWk6H3oQskmd15xch1BFM81o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_016_aea0d9b62d8f.png)
 
 2.2 IGBT导通部分损耗计算  
 
 IGBT导通状态下处于饱和状态，故只需要对导通状态下的饱和电压VCE和电流IC乘积积分即可，损耗计算如式（15）所示:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMogg31hdcxqXAbZibZ6HiaCQkL3TLuD1KY03RUIJ24cgFS3P03gCzvHviapGLxm0tWe9mXmNwxU7J8ZqDMxz4kwvNWI6RdXuwJqs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_017_9810d360dafb.png)
 
 实际情况下，IGBT导通状态下的VCE和IC相关联，VCE随IC的变化而变化.  
 
 实际波形如图8所示.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMxTeOtxgibPMicMggCjaoEFyLOXNWTTacS6cDTsrZdZc75B64wWAGzm6ktmqvwcUaibOia7cBOiaHp9ntr2YWIOjJWrAmqFmDickXsM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_018_61d668efbdb3.png)
 
 从波形上看,IC在IGBT导通状态下线性上升,对应的VCE应该也是线性增加的，但是因为实际测试中VCE有高压状态，会选择高压差分探头测试.当IGBT导通时VCE只有1~2V，这时差分探头对低压部分的测试精度就成了问题，可以参考规格书中的VCE\-IC曲线，如图9所示.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMIhfVR2GACBO34yZ0ibTtFjBTLKsGLjHzY7I6gQAz17C5yWtSXPJMMSeTHtSFcCRv7lsibMCHzG4oKCudz6X1jASna9JVEeyF5I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_019_9e5dc28922df.png)
 
 实际测试波形电流在20A左右，把20A左右的曲线单独放大取出来，如图10所示.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOIW79BEKDRlDRxAAQPZZ6v1BmuBcNKFiaK1OUDQk5boibL23ic4MHzt3licwZlcHmp1gWZHglhpjKa4GzILK2guVcyMULibpf778e8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_020_dc6788f98742.png)
 
 导通部分VCE表达式如式（16）所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNeUPYibSKvc3KYkTuRIFY8J458giciaeAY1jjeFEib3nxbvo4wEtkGYr5a3GZO8BVsMYUa9ZpNmkUAStxIafDbmjWTqCRCiaC7HEnU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_021_5693bcd51ea9.png)
 
 VCE曲线选取与测试波形电流有关，故VCE表达式会根据测试电流的大小有所改变.  
 
 针对导通部分电流，首先在波形上取A（0,IC1）,B（△t,IC2）,导通时间△t,如图11所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNf4I42XBlPlnOCEZkTRr4ZEXe85UoljKqlNZxkORHJibTdJ84dtMHPc0QicfrS8kzUw85PEP9nSRRibjd24tfjpcFO1EELAFLKics/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_022_5b9587bdeddc.png)
 
 △t内的IC表达式如式（17）所示:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNz2OJqYyiaBtwofI4Y4O1cyLDlhpic851fHCIaFShWuzjCbsrNRSfF1Q8rhuHUgUqFAnwbFftASTNrP6jiaYs1WBNv5sibc17sw3Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_023_84f6e3906db6.png)
 
 △t内的导通损耗表达式及推导如式（18）所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNuHj0v3cSV1qhOiaiaEg5xh1gm5a1v6hutvQ5RzkAZ5PMILbto4JrvT6GFjNayuKp5FJWpVsVfhzxTBBre3eS49zcFzaJWuA5FY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_024_563e8c4e5670.png)
 
 被积函数的积分变量为t，其余为常数，故t²的原函数为1/3t³，t的原函数为1/2t²，1的原函数为t.  
 
@@ -158,19 +158,19 @@ VCE曲线选取与测试波形电流有关，故VCE表达式会根据测试电�
 
 理想状态下，单个IGBT关断部分波形如图12所示.针对关断部分，电压电流波形为线性.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPSdzfamtJXtmhuQShhnsb3zOhFo1MgqkDxyGF6PIZjyRy8rdsHoPH1SnFZteVgEz4XQ8ib2VsibJFcxzqC0V5HNpVPHNmX4picPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_025_006fa033f916.png)
 
 分别找到电流开关波形中的两个坐标（0，Ic）和（△t\_off，0），那么电流线性方程如式（19）所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOnwAWMOcqibu00yZufoKuHIqlcMxvtQAicMuGaXFbegDLA3DXvdaJ1VI5Nicf9tUaNGWXGXrXlof9CR5NDzpk7Fic8rDh4IwVZh2Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_026_0c604499c8fd.png)
 
 同样找到电压波形中的两个坐标（0,0），（△t\_off,VCE）,那么电压线性方程如式（20）所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicZnOOxBT3uEHWOTrFOibdXicub173qOD5aGPEUwtbkBIFQEMMK3TXiaGZArGWJxULZrBLYdFAmXDEcXBF7h9BbUr6offkz7jEOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_027_f078cfcd60fe.png)
 
 根据损耗计算的定义可得关断部分损耗如式（21）所示:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO8pxlVOkGZIe6TxreB6kFcia6MzOjMBSdrBYpaTIREuibMWP6cVj4jY1sHyrNMicvwBPNQnBMWWeUD33YHsdXiaI0g8ehbeXBsmXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_028_3330cce4cd16.png)
 
 被积函数的积分变量为t，其余为常数，故t²的原函数为1/3t³,t的原函数为1/2t².
 
@@ -192,14 +192,14 @@ VCE曲线选取与测试波形电流有关，故VCE表达式会根据测试电�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOvBtnjxuS2cPQYnRO6TT0jj2LLFiceamPticZVUDqVZQ6LZibQXJicYVveh4hUicyauS79S4YVYKOGnhKKq8hZhjviajpcEWiburgMJI/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_029_df7e275ab79f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOicH5fOibAOcMdpj2Xl5l6ylOcZNp4XnVzJdtTF4IIgO0e8frP8WbAibXZft9VX6WFMbvRGoiabV3P90aytZ4Ayyl9jibWhZ703D6s/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_030_2f267f9108fc.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPNqcxicibQIxoHLPgddFP7vl8rLIfAVVAhRKSLicHk1kwybTeqQ5SWMYf1mtyqUhSrxW0aGD6JvjvBV1TuZHfeYLrHmqiaFOmMR00/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_031_912ea247d1cd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMRXiaC4Xsk2zpXSNc7VluAo0twAiaNXWjVF4POu84VpzIic5x6ibt1nz1p0CVU4IvX4wb1bV3U7FrxZcPDnn25kjYHxPWXkY7DUoY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新的IGBT器件损耗特性计算方法_images\img_032_14459f34400f.jpg)

@@ -27,41 +27,41 @@
 
 高压纳秒脉冲发生器的输出参数受开关耐受能力限制，通过功率叠加、开关串并联方式可实现较高的电压输出，但级数叠加会增加系统复杂程度和不稳定性。为了尽可能利用单级开关能力，往往将器件应用于极限参数或接近极限参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJotic1nn9n1NxiaKnwxWia6jNBwX2jxgFuCtKDwQ1WQfyw9AD65ReAFjnkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_000_8625dbcf2f36.png)
 
 以典型单级电容储能结构的脉冲形成电路作为测试电路，并以其为例进行分析(参见图1)。图1中：Udc为直流供电电压；Rcharge为大阻值充电电阻；LLine 为导线寄生电感；Ld、Ls 为漏极和源极线路寄生电感；初级储能部分为脉冲形成单元提供能量，Csave为储能电容，脉冲负载为低电感厚膜电阻Rload，但由于纳秒脉冲丰富的高频分量，在纳秒脉冲作用下仍将表现出较大的寄生电感 Lload。驱动部分用于给被测器件(device under test，DUT)提供驱动能量，Ug.on、Ug.off分别为驱动正压和驱动负压；Rg.ext为栅极驱动电阻；Doff 为关断二极管；Cgd、Cgs、Cds 分别为 DUT 的栅–漏、栅–源、漏–源电容；Lg.int、Ld.int、Ls.int 分别表示 DUT 内部由封装引起的栅极、源极、漏极电感；Rg.int 为内部栅极电阻。
 
 由文献\[22-24\] 可知，RF-Si 基MOSFET DE475-102N21A 常作为纳秒脉冲源的主开关。本文选取的漏源极峰值电压与DE475-102N21A 相同，选择1000V 且动态参数相近的CREE C3 系列 SiC MOSFET C3M0065100J 为对比对象。具体参数如表1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoBTqmx0b3K5K1QicvjQXbpD8mTfMnlzWexMwxsnHBTI6G2bXZPEvvTqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_001_823eb7e8c002.png)
 
 1.1 开通过程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoIvUn96TZHZl1jYblV9fhHz93iceTEcr62DvxJ2gKk4vfqEs1pjLhbBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_002_355c51bf7ca7.png)
 
 1）阶段1(t0—t1)。
 
 栅极电源Ugs给DUT 栅级充电，如图2 所示，Ugs 未超过门限电压Uth 时，MOSFET 始终处于截止状态，可得Ugs 的表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoAe2ls5O2oUD8WfpY4P2COgtHQrKj0Pme8xCicGAzLiavoxBBSRHmuqPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_003_24e4a8e0df22.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoX8LJbfNibUUJNEB1qtkeUvARSBEVu3uibiar7kQKMtCoKZkpZElkFDbSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_004_7a8fe4a3b286.png)
 
 式中：Rg.ext、Rg.int 分别为栅极外部和内部电阻；Cgs为栅源电容；Cgd 为米勒电容。
 
 t1 时刻，Ugs 达到门限电压Uth，因此开通延迟时间td.on 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoSVWAxckTWgya6vbyx5WG60icafLHKqNEbZlrXPwhCZht9SAdk9M7ia8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_005_1ed39f30f3ce.png)
 
 考虑寄生参数作用，此过程会发生振荡，其振荡角频率由Lg.int、Ls.int、Ls、Cgs、Cgd和 Rg.ext、Rg.int决定，如式(4)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoxoHUVYI3zTsNtdXTBibpYNYC40k75bMkB2h3KibCZnicvT1uel7ua9YvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_006_e6b51714a964.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoxn2GDYZrgtnyKt3zdWNlQ0npefP5SSyDGZ8dnibh1EHrEuM2Arbmq5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_007_8967cce3defb.png)
 
 2）阶段2(t1—t2)。
 
@@ -69,19 +69,19 @@ Ugs 达到Uth后，流经MOSFET 电流逐渐增大。
 
 此时，漏极电流iD为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo03Xooia98lHckPjAPica1wzuO7anr9LbkXgjANTvJdNIxKl8dZljxx9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_008_dbcfe3af1918.png)
 
 式中n.channel、Wchannel、Lchannel、Cox 分别为沟道漂移率、沟道宽度、沟道长度及氧化物单位面积的电容，以上均为器件制造参数。
 
 此时，开关漏极电流剧烈变化，由于系统元器件寄生电感和主回路杂散电感之和L 的存在(其中L LLoad  LLine  Ld  Ls  Ld.int  Ls.int)，导致漏–源电压Uds 存在一定的跌落：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo1MSvSLcGrUInbhxHkB9uzr1GuPWKqSttf3dHwibOp5aaqYC1uSHG3Rg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_009_3c268b5eea30.png)
 
 由于本文所提2 种MOSFET 在器件封装上不同于传统封装，寄生电感值比传统封装减小很多，因此主要由电流变化率起主导作用。
 
 最后，在t2 时刻，Ugs 达到米勒平台电压。由于存在电压与电流共存状态，此时将产生能量损耗，结合式(5)、(6)，能量损耗为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoWO9r60uic0A6JjvUMDkicX1joicHMFyHcKk3N4Mwzag2XUhstI6hR4dyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_010_553682de100a.png)
 
 式中UDC为漏源两极直流电压。
 
@@ -89,15 +89,15 @@ Ugs 达到Uth后，流经MOSFET 电流逐渐增大。
 
 此时，电流达到iLoad，栅–源电流全部用于米勒电容充电，且Ugs 维持在米勒平台电压，具体为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoiavpoEicQX6fYoibmr1qJ9VGV4qOoN9icwwSESeYrbiajEV6zicGBsNiavXEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_011_26423ad98f11.png)
 
 t3 时刻以后，MOSFET 完全导通，开关上升时间tr为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoFUqe98ibJeaX0Dc2an4aVHgycI3MaNLTQPDKibB2gIaKxxia0AwNwP01Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_012_960549b8c18f.png)
 
 此时，由于米勒平台存在，开通损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJob2AAfxwUXu78tejhlIu6UAxxGZZfeZiamibhA92ias4IC5OXSia9aPwfBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_013_43f2ea7604ad.png)
 
 t3 时刻，漏–源电压达到导通压降，由于回路寄生电感以及开关输出电容Coss 作用，依然会存在一定的振荡，且此时振荡频率由L 与Coss 决定，同时振荡阻尼取决于负载电阻RLoad 与导通电阻Rds.on。可见，SiC MOSFET 由于其极低的导通电阻而具有更低的阻尼，因此在振荡幅值上SiC MOSFET 显著高于RF-Si 基MOSFET。
 
@@ -107,13 +107,13 @@ t3 时刻，漏–源电压达到导通压降，由于回路寄生电感以及�
 
 1.2 关断过程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJomB4iaKyWDxspy5ckdwyYlXPibE8RxITHrUMLA5zrYiaDkwspw4icmichRBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_014_8d66374e7c80.png)
 
 1）阶段1(t5—t6)。
 
 与开通过程类似，但电容充电变换为电容放电。此时，栅源电容放电，UDoff为关断二极管正向导通压降，外部驱动电阻Rg.ext 不影响该过程，电压Ugs 随时间变化为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJodh07KB87ZcWMAPiaJ968hxS7S6HOI3SQh3WScTaCic6p93XHib3jopG3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_015_669485a5c09b.png)
 
 虽然式(2)、(15)形式相同，但由于Cgd 的电压依赖性，关断时刻不同于开通时刻，其两端电压为很小的导通压降Uds.on，导致Cgd 的值很大。此过程表现为Ugs 的缓慢下降。而且，阶段1 为关断延时过程。
 
@@ -121,31 +121,31 @@ t3 时刻，漏–源电压达到导通压降，由于回路寄生电感以及�
 
 t6时刻，MOSFET 进入线性状态，即ids(sat)  iLoad。如图3 所示，Uds 未达到UDC 前，漏极电流将一直维持在iLoad，在此过程中，Ugs 将保持恒定值Ugs.iLoad。此时，漏–源两端电压 Uds的增长速度为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoLGhLO2fc57shqrNufSDha0W5QOXkTYOGFpx0Ru8Pl2RoGtCH3l5uUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_016_c591869117c3.png)
 
 式中Cgd 随着电压的增长而下降。
 
 阶段3 的关断损耗为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoA58p70tE5fU2sHd2T7hfuAibHsiaxLJI9rsdlVlBxkkMx6mlFN3XCjqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_017_285a44f3abb0.png)
 
 3）阶段3(t7—t8)。
 
 t7 时刻，栅极平台结束，Uds 达到UDC。由于Ugs 下降，漏极电流也在t7 时刻开始下降，此过程Ugs 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJovbIfMPicrN0lXV1zXMibgnmDg6X0LqhhhQHWNzxV5rM5ibicx7cwBb0ygA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_018_57e9039bc2eb.png)
 
 由于此时UdsUDC，因此时间常数 3 1。由于系统杂散电感存在，电流出现反向过冲，使得Uds在关断时刻存在过电压，过电压峰值出现在 diD/dt最高时刻，具体为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo6UaZBoaia0XXCpibEYLMk2Hqzco5s2xKvMOvLuYmh2TUdnRWPmPLFFng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_019_0d9e1cd2ca6b.png)
 
 同理，式(18)也可变换为关断过程高速 di/dt 在寄生电感上引起的压降，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo8hBvUwxAlicvmvFBct8qia9iaJibBGZbnzuktyEibdGJo3s3SQicfZ2R5rNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_020_3ef942338f13.png)
 
 同时，由于脉冲形成电路的特殊性，系统寄生电感直接存在于放电回路，导通过程电感充电，开关断开后LC 振荡以及开关寄生电容间耦合作用，会引起Ugs、Uds、iD 在关断时刻剧烈振荡，振荡频率如式(22)所示，并且将表现出较大的负向关断损耗。此时关断损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo0PDcR8vACTicZz0rQEoSmibSPGfY6lLkSEx1ZbkmWshlPFiaCkJmRiarPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_021_197c4e2945af.png)
 
 4）阶段4(t8—t9)。
 
@@ -153,21 +153,21 @@ t8 时刻，Ugs电压下降到门限电压Uth以下，漏极电流下降为0。
 
 2. 高压瞬态强流下开关特性对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoJXj0Qz9F6ZxlwicMwEgvPGxUiboNKR2bia27pgNyTWNibuCfDCA1lhGWZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_022_cae90fed514f.png)
 
 实验电路如图4 所示，被测器件为IXYS 公司的RF-Si 基MOSFET DE475-102N21A 和CREE 公司的SiC MOSFET C3M0065100J，电流探头为Pearson公司的6600，带宽120MHz。低压部分测量探头为Lecroy PP026 400V，带宽500MHz。高压部分测量探头为Lecroy PPE6kV，带宽400MHz。控制信号发生装置为美国Stanford ResearchSystems 超低抖动数字延时触发器DG645。波形记录示波器为Lecroy WavePro 760Zi-A，带宽6GHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoLOVgLM4aJriaNRptrH4vLYlVpSZBCVDjpqjcoXvXIiaFhBuYiaZm5Db9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_023_329228e38711.png)
 
 实验参数及驱动参数如表2 所示。由于高压脉冲幅值达到1kV，实验过程专门设计信号光纤隔离电路和隔离电源转换电路以隔离高压脉冲，从而避免对实验设备的干扰和损坏。
 
 由表1 可知，2 种MOSFET 的直流通流能力分别为24 A 和35A，由于器件手册给出脉冲电流极限值受到漏–源电压以及脉冲宽度限制，为控制扰动变量，本文以200ns 脉冲宽度为实验脉宽。同时，使用漏–源电压1000V、负载电流100A、脉冲宽度200ns，重复频率1Hz 的瞬态高压强场强流条件以对比2 种MOSFET 的开关特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoW2he6HRlF8aFfbdwibfns9QeiblVK3NTkPWC4gKA2X81fPxuE6fhEJBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_024_aaca6366d122.png)
 
 图5 给出2 种开关在未施加漏源电压时的Ugs电压波形。由表 1 可知，RF-Si 基MOSFET 的Ciss值远大于 SiC MOSFET，因此RF-Si 基MOSFET的米勒平台持续时间比 SiC MOSFET 更久。同时，由于SiC MOSFET 具有更小的输入电容和米勒电容，因此SiC MOSFET 具有更快的Ugs上升和下降时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoiaxHTfyGQEJrHtgbXM51HWjhul5NGEES2VhSXTib32doD0OeIGYSiaVFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_025_008c9f7f9427.png)
 
 随着直流充电电压的上升，图6 给出2 种MOSFET 在瞬态高压强流条件下的动作波形，可见流经漏–源两极的电流iD 上升率基本保持一致，但SiC MOSFET略快于RF-Si 基MOSFET。而由于SiC器件导通电阻远小于 RF-Si 器件，且负载电阻阻值仅为10，导致两者导通状态下电流存在差异。
 
@@ -181,11 +181,11 @@ MOSFET 是当前纳秒脉冲发生器的主流开关，本节使用表2 中的
 
 控制触发信号维持200ns 脉宽，通过改变负载阻值实现100~1000V 漏–源电压下恒定脉冲电流10A，并控制其余参数相同。图7、8 展示不同充电电压对2 种瞬态开关特性的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJosKicN2kmhQbjbotqvUJOuBnEo0943QkUiaCbibYRYFWxaF3asibKQK9xag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_026_86a15a301426.png)
 
 如图7 所示，开关开通过程的Uds变化与2 节分析结果一致，SiC 开通时间优于RF-Si 基MOSFET，并且SiC MOSFET 导通时间随电压升高呈下降趋势，而RF-Si基MOSFET则呈现上升趋势。但由于SiC MOSFET 存在较大的寄生电感，使其在导通后引起的振荡幅值也增大。从电流iD的变化情况可知，在100V 充电电压时，RF-Si 基MOSFET的电流上升时间明显比 SiC MOSFET 短。而随着充电电压上升，达到1000V 充电电压时，SiC MOSFET的电流上升时间显著短于 RF-Si 基MOSFET。Ugs在较高充电电压下相较于RF-Si基MOSFET存在更大的振荡幅值，由于Ugs 尖峰大，使得可靠驱动存在隐患。此外，Uds 在较高充电电压下相较于RF-Si基 MOSFET 存在更大的过冲。通过将漏–源极电压、电流时域相乘得到的瞬时功率变化发现，由于开关开通过程Uds 存在负向振荡电压过冲，此时会引起不同于开通损耗的负向瞬时功率。也正是Uds 的振荡过冲导致SiC 器件的瞬态开通损耗在瞬态高压下大于RF-Si 基MOSFET。这也要求SiC 器件在纳秒脉冲发生器中应用时，需要进一步设计驱动电路抑制过冲。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJotDXXbCLeIjiaicpFWrx4FXNv9yqZCwjhnsOHZXH42aulgDotBMkiazibKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_027_c9e1854315d4.png)
 
 从图8 所示，SiC MOSFET 随着充电电压上升，Ugs 在开关关断后的振荡和过冲异常严重，部分振荡过冲已经超过了开关的门限电压，这对于纳秒脉冲发生器的动作会产生极为严重的后果，而RF-Si基 MOSFET 由于其较小的寄生电感以及较大的Ciss，虽然在关断速度方面逊色于SiC MOSFET，但由于振荡和过冲引起的系统弹地较小，关断失败的几率也极大降低。此外，关断过程最高振荡电压如式(20)，此时振荡频率由回路寄生电感以及续流回路寄生电容决定，振荡幅值由电流变化率决定，由于SiC MOSFET 关断比RF-Si 基MOSFET 快，且寄生电感大，导致了更高的电流变化率，也增加了振荡和过冲。
 
@@ -195,17 +195,17 @@ MOSFET 是当前纳秒脉冲发生器的主流开关，本节使用表2 中的
 
 纳秒脉冲发生器由于应用场所不同，其脉冲电流也跟随负载条件改变而变化\[5-12\]。因此本文控制充电电压恒定1000V，脉冲宽度200ns，探究10~90A电流条件下的开关动态特性变化规律。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJof3slKRz9RNN4slvWzYuoupdHRghc7ofT9FkuCaFibF5icUWCRYUam8Eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_028_196b010762b3.png)
 
 由图9 可知，2 种开关在较低电流时，均保持良好的开通性能。随着漏–源电流的增加，RF-Si 基MOSFET表现出开通时间变缓、导通压降明显上升的特点。然而，SiC MOSFET 随着电流增大依然在开通时间和导通压降上显示出优势。但由于其寄生电感始终大于RF-Si 基MOSFET，SiC MOSFET 引起的关断振荡依旧较为明显。
 
 开通损耗方面，漏–源电流较小(额定通流能力内)时，由于RF-Si 基MOSFET 封装上的特殊设计使得其开通损耗略低于SiC MOSFET。漏–源电流增大后，由于RF-Si 基MOSFET 在导通压降以及开通特性等方面变差，其开通损耗剧烈上升，而SiC MOSFET 在其90A 极限值附近依旧保持良好的开通损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJovkryibaYax320ibuSuiaiaS0bMpT6pxRwb0Aus2aIWpiaIwLEDN6YXl2VYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_029_7f449f944cde.png)
 
 图10 所示的关断过程表明，漏–源电流增加改善了开关关断时间，此时SiC MOSFET 的低导通电阻优势也得到体现。但较大的电流变化率引起了更加剧烈的关断振荡，这也导致脉冲输出波形存在一定的拖尾，影响脉冲输出。此外，由于较大的电压、电流变化率，Ugs 也呈现剧烈的振荡；且由于脉冲形成电路与负载电阻同一回路，导致其振荡阻尼小，这也加剧了SiC MOSFET 关断失败的风险。而且SiC MOSFET 在瞬态强流条件下，其关断损耗峰值明显大于RF-Si 基MOSFET，因此RF-Si 基MOSFET虽然在关断时间上有所上升，但它的关断失败风险以及关断损耗一直小于SiC MOSFET。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoSCx08uYiaOCrVhpAgp3kXM4aupFtGrSduO8DBFU31KH8ktgyVqDm3xA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_030_bc130ce9d01d.png)
 
 综上所述，图11 对2 种MOSFET 的完整动作行为进行了对比。由于RF-Si 基MOSFET 在大电流时刻，导通压降增大，进而引起开通损耗升高。因此，在较低负载电阻条件下，会引起脉冲形成电路内阻增大，不利于脉冲输出，同时也导致脉冲发生器效率降低。此外，在漏–源电流大于额定值数倍时，2种MOSFET均发生不同程度的导通压降变化，进而使电压、电流波形在大电流时刻发生突变。另外，大电流也加剧开关关断过程振荡，使得开关关断过程的第3 阶段延迟。由式(21)可知，尾部抬起引起的关断时间延长，将直接引起关断损耗增加。
 
@@ -215,11 +215,11 @@ MOSFET 是当前纳秒脉冲发生器的主流开关，本节使用表2 中的
 
 同时，由2 节可知，漏–源电流变化对脉冲电路中开关器件的影响尤为剧烈。为了避免电流过大而导致误差增大。结合上文实验数据结论，恒定控制漏–源电流为20A，并且控制充电电压为1000V，重复频率1Hz，通过调整信号发生器实现70~1000ns的脉冲宽度变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJos0eDF1jbJdayA7IsHDD6g9eEeNuRGD6UUG24NBKGIfoU7XRYHVek0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_031_daeb4bb3636d.png)
 
 图12 为不同脉冲宽度条件下漏–源电压Uds、栅–源电压Ugs，以及开通与关断损耗的波形。随着脉冲宽度的增加，RF-Si 基MOSFET 与SiC MOSFET 均呈现良好的一致性。可见，脉冲宽度变化对开关开通过程与关断过程并没有明显影响。同时，由栅–压Ugs 变化波形可以发现，在较低电流时SiC MOSFET 关断时间以及寄生参数振荡引起的关断过冲均小于RF-Si 基MOSFET。上述现象表明，开关关断时刻的振荡幅值主要是电压电流变化率起主要作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJobib29nMeeQ6kickdf7r6qmtReFjAMasPFRGcX3b0jYWdreQ1mxH3mBfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_032_5e4fe702a19b.png)
 
 通过以上分析可知，漏–源电流较低时，2 种开关在动态性能上均表现出较好的一致性，基本不受脉冲宽度影响。图13 对比了在脉冲上升阶段，50%脉冲幅值(500V)时刻，不同脉宽条件下的Uds 波形。通过对比几种波形在 500V 对应时刻的最大时间差异，来对比2 种MOSFET 在导通阶段的时间抖动。结果表明：Uds 达到500V 时刻，RF-Si 基MOSFET的最大时间抖动仅为140ps，但SiC MOSFET 的最大时间抖动达到380ps。因此，虽然SiC MOSFET具有较优异的开通特性，但其开通时间抖动相较于RF-Si 基MOSFET 略显不足。通过式(6)可知，在开关导通阶段，由于电流变化以及寄生电感引起的SiC MOSFET 振荡会直接影响输出波形的时间抖动。
 
@@ -239,10 +239,10 @@ MOSFET 是当前纳秒脉冲发生器的主流开关，本节使用表2 中的
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_033_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_034_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于模块化高压纳秒脉冲源的_SiC_与射频_Si_基MOSFET_瞬态开关特性对比研究_images\img_035_9bbc7b9b15a2.png)

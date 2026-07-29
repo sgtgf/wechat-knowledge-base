@@ -12,7 +12,7 @@
 
 为了解决交通高峰时段城市区域路网过大的交通需求引起的路网通行效率下降，以及区域内部交通流分布的异质性产生的道路资源浪费等问题。本文提出了基于区域路网固有属性MFD(Macroscopic Fundamental Diagram)的过饱和区域控制优化模型，建立了边界控制信号和内部控制信号目标函数的双层规划优化，进一步设计了基于BP神经网络的ADP(Adaptive Dynamic Programming)模型对所建立的双层规划区域交通信号进行求解，实例仿真结果验证了本文方法的有效性。通过本文的研究分析，对城市区域交通的需求管控、拥堵政策制定等城市区域交通管理具有一定的指导意义。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKEVFICYdauVXjeA1rVgUabDmFRddDGMQvq5tJBWJW3V5usFAib1OeqAQ/0?wx_fmt=png)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_000_6e0912a56881.png)
 
 图1 过饱和区域信号控制优化模型框架
 
@@ -26,49 +26,49 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKj3xjZVB3aEibnOydFdBgzKOG9GTTFnm8Mg5WPDKicgskfICQSJjVEVTQ/0?wx_fmt=jpeg)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_001_a9e7e443bd03.jpg)
 
 刘小明 北方工业大学电气与控制工程学院教授. 主要研究方向为交通流理论和智能交通控制. 
 
 E-mail: tslxm@sina.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKq9JkZGnnCsyXjNM6v5oFESicsXhK7ZPxIw0AeP8pQDriaCZicdOYibfX2Q/0?wx_fmt=jpeg)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_002_e3baa864f999.jpg)
 
 唐少虎 北京城市系统工程研究中心助理研究员. 主要研究方向为城市韧性, 交通控制, 智能算法. 本文通信作者.
 
 E-mail: tshaohu@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKg6w7v2M9AlV789Vz1E10hsktpTKWEuKaJPmulbswQib0d5cJj8eqtxg/0?wx_fmt=jpeg)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_003_6a9fac577bb3.jpg)
 
 朱凤华 中国科学院自动化研究所副研究员. 主要研究方向为平行交通系统, 交通信号控制, 社会交通.
 
 E-mail: fenghua.zhu@ia.ac.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRK902IbwOiayDCz7mM2QKcn1wrvJgMeUjCNIbnCSmlrzUMWlC4YjqYoUA/0?wx_fmt=jpeg)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_004_444ad9e25632.jpg)
 
 陈兆盟 北方工业大学电气与控制工程学院助理研究员. 主要研究方向为交通信号控制, 智能交通信号控制器.
 
 E-mail: chenzhaomeng@126.com
 
-![](http://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKZLCafkb5oyFl7Kd840UicBMXN8IpDJW6dmmIpkWFRXWGVZAVCCNAMlg/0?wx_fmt=gif)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_005_34e601927de1.gif)
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKE73pFTCIHR6cFgGFyyyg7bcnnjFtkzbYzecvT6qqicnnox8Zy9Bpw6Q/0?wx_fmt=png)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_006_40b7a5cf3fb6.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKX8XR5FV0BTFlx0UDePt0oR49vPDYDiaEeO3q9EJDuzxvXgIMXqzdGvA/0?wx_fmt=jpeg)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_007_f9b1aa3a3a15.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKE73pFTCIHR6cFgGFyyyg7bcnnjFtkzbYzecvT6qqicnnox8Zy9Bpw6Q/0?wx_fmt=png)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_008_40b7a5cf3fb6.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKI3nqbibGtvtcPIocqxnHPs4TwSV8wGJUTGGegqnlytDiawVN5r4VQGYw/0?wx_fmt=jpeg)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_009_7fdfa576cd84.jpg)
 
 自动化学报服务号
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKE73pFTCIHR6cFgGFyyyg7bcnnjFtkzbYzecvT6qqicnnox8Zy9Bpw6Q/0?wx_fmt=png)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_010_40b7a5cf3fb6.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46awFEOvDMAzBzwgfyh9FRKYtkzPzzwfRbWG50tDvxoOrxbAqefVKdgZZ04nKn4N18D1HeeLMicxOw/0?wx_fmt=jpeg)
+![](基于MFD的城市区域过饱和交通信号优化控制_images/img_011_f97daa5f3034.jpg)
 
 自动化学报订阅号
 

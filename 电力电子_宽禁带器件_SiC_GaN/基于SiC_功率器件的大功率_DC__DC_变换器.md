@@ -31,17 +31,17 @@
 
 为了满足燃料电池汽车动力系统的发展趋势，利用交错式 Boost 电路拓扑结构，不仅提高了输入输出端的电流和电压的变化频率，减小了电流和电压纹波，降低了对电感和输出电容的要求，还可以加大输出功率等级，降低单体电感的体积，减小变换器的体积和成本．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2k0OACUGgwjprd1UO96PSLxdtwLiac9uXLVOMnFrcVyia5hWynUtiaWXsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_000_4734d4c34cc7.png)
 
 本文选取两相交错式 Boost 变换器对应用 SiC 功率器件时变换器的效率进行研究，如图 1 所示，它由两个完全 相 同 的 Boost 单元并联组成，电路中的两个MOSFET 管 S1 和 S2 ( 采用的是 Cree 公司生产的，型号为 CAS120M12BM2 的 1200V 和 120 A 的 SiC MOSFET( 含二极管) ) 的驱动信号相位相差 180°，Cin、Cout 和 Ｒ分表表示为输入电容，输出电容和负载电阻． 当电路工作在占空比为 0. 5，并且输入电流为连续模式( con-tinuous conduction mode，CCM) 时，开关管 S1 和 S2 的驱动波形，其中 ton和 toff分别表示一个周期内的开通和关断时间，电感 L1 和 L2 ，二极管 D1 和 D2 ，输入电流和输出电容 Cout的电流波形 IL1、IL2、ID1、ID2、Iin和 ICout 如图 2 所示．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2ajGfksNXTFD0yOz6wicIn6NugQKGibSGztsgic6bwjPkZymDG6764Qm9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_001_01ac530e9778.png)
 
  可以看出，由于开关管 S1 和 S2 的交错导通，两路电感电流的变化趋势相反，使得输入电流纹波幅值大幅降低． 所以与单路 Boost 电路相比，在相同的滤波效果下，输入电磁干扰滤波器和输出电容的体积将大幅度减少． 两相交错式 Boost 变换器工作在连续模式下的总电流纹波计算如下．
 
 对每一路 Boost 电路都遵循
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2Qxk6M1urhYsD6icNm72KXrTCg9Qs1HLQfR9Bxj3wiaVZIACEGWtbmAicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_002_65564739088a.png)
 
 式中，Vin为输入电压，Vout为输出电压，d 为占空比．
 
@@ -49,94 +49,94 @@
 
 (1) 当 d≥0. 5 时，在每个开关周期 T 内，输入电流 Iin的频率为每路电感电流的 2 倍，等效占空比 di 可计算为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC23AlZBGNriczUEjCbc2MR5bibUXGXsS1nznb2N0qU50737ialR4ahpZj6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_003_266f66f40bd7.png)
 
 在等效占空比开通阶段，即对应输入电流纹波上升阶段，两路电感 L1 和 L2 的电流纹波分别为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2ibZibStE8l3nGSyaadYkibNnv5J7lDRgXj3rvzj2xabhybBiaxTVicjCf2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_004_8db5da273e6b.png)
 
   
 输入电流纹波大小由式(3) 和式(4) 相加，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2xgtibVuuCapGWcM3nSJle3diaYiaoYIPHgcFS91GLP9zRehfmR2g5qIYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_005_0fb603806c28.png)
 
 当 L1 = L2 = L 时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2rSc4fsLcmAttBjrtsVZ7ygIaTDvIN2K343nJpfbNoCrGhCfZfl1WPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_006_9ea9bf580b80.png)
 
 2) 当 d ＜0. 5 时，电路的等效占空比为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2gK4hZ2MwXEYsVqmo6ibj6w5KzPZnpXzbNQJ2ffZcicJYsjPp4oGWVevA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_007_9f66a298eb93.png)
 
 在等效占空比对应的导通阶段，两支路的电感电流 IL1和 IL2的变换趋势不一致，假设 IL1上升、IL2下降，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2oULq86HNZGm1glOne7RGPkWk57lvNNZuAP62TSOg1ia4dZdrFPicrHlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_008_cde0ab20b322.png)
 
 两路电感电流纹波相加后，输入电流纹波为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2jI9z2C9CQMialNv626kyBjTmMFNJayBviaBictsfodicaXQrzd8NmUNh8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_009_afb2485372ed.png)
 
 1\. 2 驱动电路
 
 由于 SiC 功率器件的击穿电场强度与禁带宽度远大于 Si 器件，使得在相同的额定电压下，SiC 器件的寄生电容更小，对驱动电路的寄生参数更加敏感． 目前，SiC MOSFET 的建议驱动电压的为 －5 ～ + 20 V，与 Si IGBT 建议的驱动电压为 －15 ～ + 15 V 有较大区别．因此，SiC MOSFET 的安全阀值较小，驱动电压的突变可能会击穿栅极和源极间的氧化层． 所以，SiC MOSFET 驱动 需要在 Si IGBT 驱动基础上加以改进，SiC MOSFET 的门极驱动框图如图 3 所示． 一个 2W 型号为 MGJ2D152005SC 的 DC--DC 变换器为栅极驱动提供隔离的 －5 V 和 +20 V 输出电压，以及使用可直接提供9A 峰值电流的驱动芯片 IXDN609．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2BRCThQUaa0BXeUichwsIzQiaWfzep7U7icIzfEeoVHDFok6cicwOibpIjQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_010_fb10d677e896.png)
 
 2\. 变换器损耗分析
 
 为了分析 SiC MOSFET 的 DC--DC 变换器的效率，需对变换器的功率损耗的过程进行分析． 两相交错式Boost 电路的设计技术参数见表 1．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2xQficbDFeOsQf0pLfJibIjicWmXeJ5ZcdIkiadkVf6e1l70cer6h7iatPMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_011_e2c78e2bc550.png)
 
 实际变换器的损耗主要由五个部分组成: MOSFET 损耗、功率二极管损耗、电感损耗、电容损耗和驱动损耗．MOSFET 损耗 主 要 包 括 导 通 损 耗 和 开 关 损耗; 功率二极管损耗主要包括导通损耗和反向恢复损耗; 电感损耗包括由电感内阻造成的铜损与由磁滞和涡流造成的铁损; 电容损耗主要体现在电容的等效串联电阻上．
 
 MOSFET 的导通损耗由下式计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2t4wicBCBKOorqusJgcML0gp1kP7ykJezeExy0wMd63sHqDWWFNOVooQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_012_ef443ea36de8.png)
 
 其中，ＲDSon为 MOSFET 漏--源导通电阻，VDS，con 为导通压降，IL 表示电感稳态电流，ΔIL 表示电感电流纹波，d 为占空比． 此外导通压降随 MOSFET 漏极电流的增大而增大．
 
 MOSFET 的开关损耗是由开关过程引起的，在开通和关断过程中，漏--源两端电压 VDS和漏极电流 ID 存在重叠部分，每个周期的开关损耗由两者乘积的积分获得． 若 MOSFET 的开关频率为 fsw，则开关损耗的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2k1avJwehva2icOt2QFlP7zDc3zdOpY4pX0R827ic9DvjeZSQFklBzHJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_013_b5d0d74f54dc.png)
 
 由于厂家通常仅提供在额定电流和额定电压下的几个 EMsw，on 和 EMsw，off 曲线图，此外 EMsw，on 和 EMsw，off 的值与电流关系又是非线性的，因此很难通过解析表达式获得． 在工程计算中开关损耗可通过线性转换而获得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC23JFuG5r7Eo6TfdtQufQ4vhflYc7tWic4rlLR0EHUFIO9GiaMnHLd5ECw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_014_07f7da1671ff.png)
 
 式中，EMsw，on和 EMsw，off分别为数据手册中测试条件一次开关过程的开通和关断损耗能量，分别与开通延迟时间 td，on、上升时间 tr 和关断延迟时间 td，off、下降时间 tf有关． 以上四段时间受 MOSFET 结电容和驱动电阻 Ｒg的影响，可根据具体数值由数据手册查得．ID 和 VDS 分别等于对应的实际工作条件下的漏极电流和漏--源极电压，I\*D 和 V\*DS 分别表示测试条件下的漏极电流和漏--源极电压．
 
 功率二极管的导通损耗的计算与 MOSFET 的导通损耗类似，如式( 15) 所示． 式中，ＲD 为功率二极管的导通电阻，VD 为导通压降，可以从二极管的电流 IF 和电压 VF，即 IF --VF 曲线图中获得．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC21R27AmQ4cicOiaURQGWlKSvfTHXT0QqxShjHEtk8ABzRnMqBmfz3zusA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_015_faf856ed4d9f.png)
 
 功率二极管的反向恢复损耗由下式计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2uSaiaUBibaB5cIgFQhricrTdykaGibRLwOJclWKlia70WoTlUOOTia38FJuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_016_e35c45e434a1.png)
 
 其中，EDrr，off和 trr分别为数据手册中测试条件下的反向恢复损耗和反向恢复时间，IF 和 VＲ 分别为对应的实际工作条件下的正向电流和反向电压，I\*F 和 V\*Ｒ 分别表示测试条件下的正向电流和反向电压．
 
 电感的铜损与铁损的相对大小由电流变化的频率决定． 在频率小于约 100 kHz 时，铜损起主要作用，反之，铁损起主要作用，两者分别如式 ( 17 ) 和式 ( 18 )所示．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2B9u84RiaTQARTjV5kXTCtx2EPiaA5FPQPuz6AfyiaicrQefSg0O9f3D6DQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_017_a1f6f984e578.png)
 
 其中，ＲL 为电感的等效串联电阻; Kh、a 和 b 是由铁心材料决定的常数，m 是铁心质量，Bm 为电感的最大磁通密度．
 
 电容的等效串联电阻造成的损耗如式( 19) 所示．其中 IC 为电容的稳态电流，ＲC 为电容的等效串联电阻．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2KFZ2eeia6siadd4vCEkHgNA1uhy6HeVlPaiaXdRjI73u7Q2HcgcjnBZlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_018_923f58a699e0.png)
 
 MOSFET 的门极驱动损耗可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2vUaptcfTIDuO8jUzLz6OkjAiaETgp6ZwynzAXzKGLG9WSQ1zNe3wtbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_019_780480a28f4e.png)
 
 其中，Vdrv和 Qg 分别表示驱动电压和门极总电荷．变换器的损耗为以上各部分损耗之和，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2JnqZK2kNE4diarmaEx9sUCSbXPw00yZaI5D1zdnicHKPt3uGa2bF5nNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_020_a333a6eef5ac.png)
 
 结合表 1 中两相交错式 Boost 变换器的电路参数，在变换器运行在 50% 负载、75% 负载和满载( 15 kW)条件下，对变换器的各部分损耗进行比较和分析． 图 4展示了依据损耗模型估算出的变换器工作在 20、60 和100 kHz 时各部分功率损耗值．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2NlKhXPibpwhAyg7kiaibhFd1a4QqrsdWhvzNohV6OAvRQ53POOdZyibmHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_021_f8bada9dc008.png)
 
 从图 4 中可以看出，在大功率低频条件下，SiC 器件变换器主要的损耗是传导损耗，开关损耗和电感电容驱动损耗仅占总损耗的小部分． 随着频率的升高，开关损耗成比例的增加，电感电容损耗和传导损耗几乎不变． 而传导损耗随着功率的升高增加幅度较大，这是由于和电流成平方比的关系．
 
@@ -146,35 +146,35 @@ MOSFET 的门极驱动损耗可以表示为
 
 根据表 1 中的技术参数和厂家提供的CAS120M12BM2 的数据，使用 PLECS 搭建 15 kW 两相交错 Boost 电路损耗仿真模型，如图 5 所示．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2nyvmicmED416xPQApibLRqKrOlm7hRshtDjbGWRDhSIedVZFPfyxibZ9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_022_56132ec00d9b.png)
 
 开关器件整体的功率损耗是每个开关脉冲损耗的总和． 图 6 表示了 SiC MOSFET 变换器工作在输出功率为 15 kW，开关频率为 20 kHz 时的每个脉冲下的开通、关断和传导损耗． 由图可知 SiC MOSFET 的主要损耗是导通损耗，其开关损耗非常小．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2WJHTA3SgVU9DtKB9pUtVt9XAkjIGHBParoGNQmvKWWPnOMk2JdaQcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_023_89a583c7b005.png)
 
 通过计算与仿真得出变换器的效率如图 7 所示．可以看出，变换器的效率随着输出功率和工作频率的增加而减小，计算效率与仿真效率展现出了很好的一致性，相对的误差均低于 0. 5% ．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2tIIDGstph7o4WcaT03TYMdtiahwaVibcRSuM0m4M8ZWoDAMD2UxO6oAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_024_864c5521075b.png)
 
 4\. 实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2M6SONmQiaCLFLFEibue8dJWUpxGkiclkm33kLbR9eGBVkqrXP0MMvhAeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_025_7ea2141e0657.png)
 
 为验证上述分析结果，根据表 1 中的实验参数设计了 15 kW 的两相交错式 Boost 电路原理样机，如图 8所示，其元器件参数如表 2 所示．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC21CIeSjmocuf4M1RwYSrOOyFN0dY7nXSXvfgIicJYPno7RIpK5u76WPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_026_dbc73af46fc5.png)
 
 图 9 为 SiC 器件变换器运行在输入电压为 96 V、开关频率为 60 kHz、占空比为 0. 68 条件 下 的 输 入 电流、输出电压、输入电压和驱动电压波形图． 可以看到输出电压和电感电流的纹波非常小( 除了开关振荡部分) ，平均输出电压为 290 V，平均输入电流为 158 A，电流纹波约 3. 2 A．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2kEVtBG9oG4dZwlfNovEOTf8VJt68wRcwWWFOJJD5Gqib4xibjUwltFLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_027_2e401c126bee.png)
 
 图 10 为变换器分别工作在开关频率为 20、60 和100 kHz时不同负载下的实 验效率 ． 对比 图 7 和图 10可知，由于在效率的理论计算和仿真时，未考虑开关电压电流尖峰以及温升导致导通电阻增加引起的损耗和未考虑电路导线电阻、SiC MOSFET 输出电容等损耗，以及测量误差等原因，使得变换器实验效率略低于计算和仿真效率，但实验、计算和仿真效率变化趋势一致． 从实验结果可以看出，SiC 器件变换器的运行效率高，当负载增加时，变换器效率减小，由于输出功率越大则通过开关管的电流也就越大，导致了更大的开关损耗，并且通过开关管的均方根电流也会变大导致更大的导通损耗． 此外，在输出功率为满载条件下，由于SiC MOSFET 的开关能量损耗低，且导通电阻较低仅为13 mΩ，以及 SiC 二极管几乎为零的反向恢复损耗，使变换器在100 kHz 高频工作条件下，具有 94. 5% 的效率，并且从图 11 中可知与 20 kHz 开关频率相比输入电流纹波由 8A 减小至 1. 9 A，降低约 76% ．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2tRS6IB5W0C8ibiacsJeQuo1NI1R4Pds9DOe8huPq7AvJvkVx5H4WbRkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_028_d2f6adb7a079.png)
 
  应用于燃料电池汽车用大功率 DC--DC 变换器领域，不仅可高效利用燃料节约能源和成本，而且较小的电流纹波还可以提高燃料电池使用寿命． 此外，在保持电感电流纹波不变的情况下，由电感电流纹波公式可知，随着开关频率的增加，所需电感值减小，同时降低其电阻，可减小电感尺寸和损耗． 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslu2OQRX0WXWhFaeBgpKNC2ECYHxHyibcdkBqQYFC2FthcRNtwRwcAcRQSUf5TDehH872Mbibm09Yicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_029_adfa87c5d2e6.png)
 
 如图12 所示为开关频率在20 kHz和100 kHz 条件下的两个电感比较，当开关频率由 20kHz 增到 100 kHz 时，每路的电感体积由 1. 306 L 减小为 0. 78 L，降低了 40. 3% ; 电感电阻由 5. 02 mΩ 降为1. 72 mΩ，降低了 65. 7% ; 电感质量由 5. 55 kg 减小为3. 5 kg，减小了 36. 9% ，可降低整个变 换器的体积和质量．
 
@@ -184,13 +184,13 @@ MOSFET 的门极驱动损耗可以表示为
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5HfPwyQV7FiawDnQBubGjncgSqo2RfI7TlU46wxkvLVJibViadXOQhxQcw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_030_f0eba6e49a59.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe57xRqPemxW5XwVs7FBlWicxNkMJhEhJJqsm8rCU8Kztl4NbFfHzHSFMw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_031_19a4fdb8cf3b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5WO9LS6XZB0V9sPH088xibJ4vJ6rMtrIlq1goXHWwazzntZjwvHpGXWg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_功率器件的大功率_DC__DC_变换器_images\img_032_f44e186a8bfa.png)

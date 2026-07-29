@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/CLUlESZLtnJJRmW5A69TlQ](https://mp.weixin.qq.com/s/CLUlESZLtnJJRmW5A69TlQ)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRXMZPa0EXyzJrQqfDy6SLJ2srTIlr98rRXeHicWq7gTiclbPOXTCTUjz4k5MUqD245cNwUJXIbZvkQ/640?wx_fmt=png)**____
+____**![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_3_LIN接口的ESD防护_images\img_000_ac153ae7c40e.png)**____
 
 ____**★★★**______EOS-3---LIN______**★★★**____
 
@@ -15,13 +15,13 @@ ____€1.ESD防护导论____
 
 在ESD冲击的情况下，ESD二极管将被击穿并产生低阻抗路径通过将电流转移到地来限制峰值电压和电流，从而保护IC。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSCLXKFwSoEsNInghaO1sCDkdib8ibYUPlnoYXuY5FBCW4LoUa51YFTI91BB01xf9lnibUNqnr2PjpVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_3_LIN接口的ESD防护_images\img_001_34fe06951335.png)
 
 **_图3-1：ESD/TVS管作用路径_**
 
 **_图3-2_**将典型的无保护ESD冲击（红色）的峰值电压与具有ESD二极管保护的信号线上的相同ESD冲击（青色）进行比较。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0WyibXMicliauv72hzUpbLDU8RCibpdu0UicZNzrjJLp5YtGZAj0KOk6Tiaib0jfA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_3_LIN接口的ESD防护_images\img_002_2b750e9c2b5f.png)
 
 **_图3-2：静电前后波形_**
 
@@ -51,7 +51,7 @@ LIN总线使用单端传输，在EMC测试期间，电容耦合射频信号等�
 
 如**_图3-3_**所示，D1保护一条汽车局域互联网络（LIN）总线免受ESD和其他瞬态造成的损坏，其不对称的内部二极管配置确保了受保护的LIN ECU的电磁抗干扰性得到优化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSCLXKFwSoEsNInghaO1sCDzKEOSAugcicVg22DOafPsmvQJALgxViaOtXpJ5CfSXgo92Sdia4c9Kn4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_3_LIN接口的ESD防护_images\img_003_def8c9c4a7ab.png)
 
 **_图3-3：具有单个设备的LIN系统架构，用于保护LIN节点_**
 
@@ -59,6 +59,6 @@ ____€4.小结____
 
 在更常见的12V电池汽车系统中，由于LIN总线的工作电压达到电池电压，因此需要具有24V工作电压二极管的ESD二极管。这是因为如果在电池充电情况下存在接线错误，则可能会产生双倍的电池电压。由于单通道类型在布局上具有灵活性，因此通常优选单通道类型，此外，最小化电容有助于增加总线信号完整性的鲁棒性。对于LIN总线，推荐**_表3-1_**的参数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSCLXKFwSoEsNInghaO1sCDJTqOgFR5BwVlXBxFs8rR2CL7NcccD2P7xlhe75bVAjDRAIw3YHvBPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_3_LIN接口的ESD防护_images\img_004_1812c2752ee7.png)
 
 **_表3-1：LIN总线ESD/TVS diode选型参数参考_**

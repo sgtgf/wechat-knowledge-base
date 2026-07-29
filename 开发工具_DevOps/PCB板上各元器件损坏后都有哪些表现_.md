@@ -10,7 +10,7 @@
 
 电子元件是有寿命的，除了与它本身的结构、性质有关，也和它的使用环境和在电路中所起作用密切相关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtBnO9TerLSzwxgQYbGIL79KThxyQwvibY2oRZAzKNASbU78ZekZl9EIw/640?wx_fmt=png)
+![](PCB板上各元器件损坏后都有哪些表现__images/img_002_b61190ffcef2.png)
 
 在电路中电子元件有强弱之分，电子元器件抵抗能力排行榜如下：
 
@@ -26,7 +26,7 @@
 
 过压损坏的元件外观看不出明显的变化，只是参数全变了。过流损坏的元件表面温度很高，有裂纹、变色、小坑等明显变化。严重时元件周围的线路板变黄、变黑。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtWRohzDzN1ibXbL1am3SLNh87jX7GGphnibk0lN6kiabGm8fjuFbvSET7w/640?wx_fmt=png)
+![](PCB板上各元器件损坏后都有哪些表现__images/img_003_9ad48388c76a.png)
 
 常用电子元器件在外表看上去无异常时可以用数字万用表做一些简单的测试。
 
@@ -38,7 +38,7 @@
 
 场效应管：测试场效应管的体内二极管的PN结是否正常，测试GD,GS是否有短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtuMdic9IanvQJKW8PNPCRAaDNQTibwSWuWc9IvB5WhlvCcbtFzXvj0JGg/640?wx_fmt=png)
+![](PCB板上各元器件损坏后都有哪些表现__images/img_004_af55cb86d6fa.png)
 
 电容：无极性电容，击穿短路或脱焊，漏电严重或电阻效应。
 

@@ -17,7 +17,7 @@
 
 OpenMP程序的一个显著特点是内存空间的共享，这意味着多个线程能够直接访问共享空间中的变量，从而实现线程间的数据通信。在此框架下，`private`和`shared`变量成为并行计算的基石，它们分别代表线程独有的私有副本和所有线程共用的共享资源。此外，`default`子句作为补充，为并行区域内的数据访问权限提供了默认配置。
 
-![](Fortran与OpenMP___Private与Shared子句解析_images/img_002_03b8e94b64a7.other)
+![](Fortran与OpenMP___Private与Shared子句解析_images/img_002_03b8e94b64a7.jpg)
 
 ## Private子句：线程间的隔离
 

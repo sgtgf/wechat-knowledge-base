@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xzvnMemefK1nphDN\_BJ27Q](https://mp.weixin.qq.com/s/xzvnMemefK1nphDN_BJ27Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQPdxhcjD3mib18EmqC0k6fIr07iaia9Oiaj9LtfBEcnIORxGclajDhZXNcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_12_天线的极化_2_images\img_000_3ec71014424f.png)
 
 ___**★★★**_____Antenna-12---Polarization_____**★★★**___
 
@@ -11,17 +11,17 @@ ___**★★★**_____Antenna-12---Polarization_____**★★★**___
 
 # ___€1.从欧拉公式到电磁波___  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQODfoRaOXwBulC9bU6NAqlIPnvCpr8zoXGpa8yiaNoZ3JKHYQCmsVtAwQZrpKbkqvLWWjKkflNiaVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_12_天线的极化_2_images\img_001_f28dc0daa983.png)
 
 以上为欧拉公式，我们可以这样理解，e^ix表示复平面的一个点，如图12-1所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRlISTSLKeEiaTEz02yfcJydZqAS1ibLVhB89kPDO24s17ibNt9tkjf9qicuiaibr8ibC0xPMRtbkWCNfUuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_12_天线的极化_2_images\img_002_59375b53f662.png)
 
 图12-1：欧拉公式的几何表示
 
 这个公式关键的作用，是将正弦波统一成了简单的指数形式，在图像上的涵义变成了一个螺旋线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRlISTSLKeEiaTEz02yfcJydkVTryA4iaEP2ribRanTq887CVPUZNeEjX6OOpz8w8ReNTN64q4IkLsog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_12_天线的极化_2_images\img_003_6c83b05bd026.png)
 
 图12-2：欧拉公式和螺旋线
 
@@ -43,15 +43,15 @@ ___€2.___Cross Polarization 交叉极化和极化纯度
 
 **交叉极化鉴别率（Cross-Polarization Discrimination, XPD） 是衡量天线极化纯度的核心指标，用于量化****主极化分量**与**交叉极化分量**的功率差异，直接反映天线抑制非目标极化信号的能力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiabF6ILsgxCnpChOq8efmETR6ee6kWnRXWcsUFjE6CvWbCk5UpPI0rbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_12_天线的极化_2_images\img_004_930584e47289.png)
 
 其中Pp：主极化方向接收/辐射的功率；Pc：交叉极化方向接收/辐射的功率。XPD数值越大，说明交叉极化分量越小，天线极化纯度越高，天线对主极化的聚焦能力越强，交叉极化干扰越小。理想天线的XPD为无穷大（无交叉极化分量），实际通信天线（如基站天线）要求XPD≥20dB，高要求场景（卫星通信）需≥30dB。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTTiabpLGrEVicSvyQG3sMnhz07hicxdccTOALSRQedpVIbOC1XKHcQMsbq36KLffQwibibzJ35tQJDFKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_12_天线的极化_2_images\img_005_7da7e4691694.png)
 
 表12-2：XPD评估指标
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTTiabpLGrEVicSvyQG3sMnhziaxFuecPuibWVylAye7k4icy2n68mNEiav21ib5mMwVNpt0S8k9fVOR5VEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_12_天线的极化_2_images\img_006_cad8007ad556.png)
 
 表12-3：典型天线的XPD参考值
 

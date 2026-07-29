@@ -89,7 +89,7 @@ SiC 功率器件作为新型半导体器件研究中最为活跃的领域，因
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHLBuwLJoQnNeZibF7LAEjheHOKLhu9xp13B4kIlcFKqrmdOlKyciavHzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_000_db9e79e4afb4.png)
 
   
 
@@ -133,11 +133,11 @@ SST 的一般电路拓扑为三级功率电路级联结构，即由整流模块�
 
 在高频隔离的功率转换系统中，一般采用隔离双向 DC-DC 变换器为其核心拓扑。本文基于开关管数量提出 IBDC（Isolated Bidirectional DC-DC Converter）拓扑结构的一种分类方法，如表 1.1 所示。最简单的拓扑是双管结构，如：双反激式；三管结构如：正反激式；四管结构如：双推挽式、推挽正激式、推挽反激式和双半桥式；五管结构如：全桥正激式；六管结构：半桥全桥式；八管结构指 DAB。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFcjGFEQgNVvEh0BYssCJucKbyhCOW5GWGLwT9wYXVNqFoKL4IuGQicAOMKhxH9xudMmW3eMkRXR9A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_001_8e9cee5e50c8.png)
 
 虽然 IBDC 的电路拓扑众多，但概括起来就是对于开关管具有一定等级的电压和电流的 IBDC，开关管的数目成正比地影响着其能量传输能力，例如四管 IBDC的能量传输能力是八管 IBDC 的二分之一，而双管 IBDC 又为四管的二分之一，综上所述，DAB 的能量传输能力最好。除了优秀的功率传输能力外，DAB 不仅拥有双向功率传输能力，且动态响应快，同时拥有对称的模块化结构，其软开关也容易实现，在中大型功率场合具有很强的适应性。随着功率转换系统迅速发展，DAB在最近几年吸引了越来越多研究者的关注。如图 1.2 为DAB 拓扑结构，包含 2 个全桥变换器 H1、H2和直流电容 C1、C2，1 个辅助电感 Ls以及高频隔离变压器 T等。其中 Ls用以存储瞬时能量，变压器 T 负责实现电气隔离，同时完成电压匹配。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFcjGFEQgNVvEh0BYssCJucuwDIXpYU6BC3lB7mOQlVoMG6RMJLK4fU1iaKrNF7b3dnV95Dsv51tMw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_002_fda0bdf4c799.png)
 
 德国亚琛工业大学的 Rik W. De Doncker 教授等人于1991年首次提出了DAB的概念，但由于当时的磁性材料限制以及功率器件发展水平的不足，DAB 高频特性的表现较差，其电路效率低、损耗大，不能满足实际应用，因而其发展相对较滞后，类似文献的讨论也不多。近年来，伴随新型大功率器件的问世、磁性材料的突破（尤其是 SiC 器件的突破），DAB 再次引起了众研究者的关注。目前，除了基本特性的研究，DAB 的电路拓扑分析、控制方法以及软开关等方面，为国内外相关研究的主要集中点，例如：有文献研究了 DAB 的基本特性，包括死区效应、动态模型等；文献以优化软开关特性和降低元件损耗等为目标，采用各种DAB 软开关方案和改进拓扑结构并进行分析对比；文献将混合移相控制算法用于 DAB，来增进变换器特性、传输效率等；文献对 DAB-IBDC 在稳态状况下的基本工作原理、设计和控制方法进行了系统介绍；文献提出了一种采用自然开关曲面的边界控制方案；文献对暂态状况下的基本特性进行了讨论并提出了改进变换器鲁棒性的方法。Hirofumi A.和 Shigenori I.于 2007 年提出在新一代的高频隔离 PCS 中，核心电路为 DAB 的观点，为众多研究者所接受。
 
@@ -233,7 +233,7 @@ SST 的一般电路拓扑为三级功率电路级联结构，即由整流模块�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHdKUicRSDzxhRbGaic5NHV8licD9m7PFSovoQxGCAevgmTBOc2T7Cl855Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_003_7e537d54ba82.png)
 
   
 
@@ -243,7 +243,7 @@ SST 的一般电路拓扑为三级功率电路级联结构，即由整流模块�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHSRiaDGic7CJqia9CSibsoIX5NDF1lo7bMMkPs4VkicZs2CVOHNvaHkR6jlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_004_4b1ee00b4975.png)
 
 为分析DAB 拓扑的各个工作状态，图2.2 给出了各个驱动信号、辅助电感左端电压Vh1，辅助电感右端电压nVh2，施加在辅助电感上的电压值VL \= Vh1 – nVh2，以及流经辅助电感的电流iL。
 
@@ -253,7 +253,7 @@ SST 的一般电路拓扑为三级功率电路级联结构，即由整流模块�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHpLpW00ZE0NY7U6NBZKLiaPHyjAichtQ4W42BV49qQuNicZfC3wuzDsUCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_005_b9c0dd8be43b.png)
 
   
 
@@ -265,7 +265,7 @@ SST 的一般电路拓扑为三级功率电路级联结构，即由整流模块�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHQMCXEHqlia0t1ymAibib0PDERB9Ya5Kvb0Zm3ZMZGanJWYeXCQhgXNlGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_006_159c05e176ab.png)
 
   
 
@@ -277,7 +277,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHibGico6zEkNQrq8ZTN5D5GFgUktdyHUjsEZcml6ZKEeY9b1n6WjalZmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_007_64be97edc88d.png)
 
   
 
@@ -287,7 +287,7 @@ t3 时刻的电流始终可以表示为
 
 工作状态5，（t4, t5）期间保持所有开关管的触发信号不变，由于电感电流变 为负，电流转为从开关管S2、S3、Q1、Q4中流过。此时电感两侧电压VL\= – (V1+nV2)<0，电感电流iL保持线性下降。同样地若不考虑器件的换流，工作状态4、5 的等效电路相同，即在时间t3~t5区间，电感两端电压VL\= – (V1+nV2)<0，电感电流iL始终线性减小，得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH4o8dXJbl6TscicibpMWYCPSCDXibYhLdhF6S3XoCdRyt0cmzRtq2wd1kg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_008_6ce06e92dae8.png)
 
   
 
@@ -295,7 +295,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHqxLXeXwHwribSwwuicfy9j9onRgLibv4LQ04g6wqFeCpib3vS7T1y4XRyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_009_9adbd7a270bf.png)
 
   
 
@@ -303,7 +303,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHQJlGLnSYEJ2SdewdBnUwJelsoSCFnqks0BnyeJPjiaB3k1jCz1K4JsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_010_4a9bd4abe508.png)
 
   
 
@@ -315,7 +315,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHCT2thJxia486mQ4F1meFyaM44bibUCHdlBoKsMOo7Mfe4eGfcIQhLTjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_011_c4a7f63a918a.png)
 
   
 
@@ -327,7 +327,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHCdNxZ5hK5tfgH4kBlPNR9icmjh0PQCDviaucksJ7tLKsMVrWSpJNDHrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_012_b8df7f506b27.png)
 
   
 
@@ -335,7 +335,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH1xOeBgqibqRqibGTib9ongiccphwkUoHZZb1vdrayk6AedMmh9dgG4TYOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_013_00e62110e300.png)
 
   
 
@@ -345,7 +345,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHbb4wdQVqtLsV69mwzS88MA9GKTaVoFjiafh8czK3ybnv5fBjSGUheAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_014_a93d5b11d00f.png)
 
   
 
@@ -355,7 +355,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH0eqPKBQH09GKus3BvZpzSDXam7dBF7s51ErPX1EkdPichM8wPE06Ocw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_015_28a2e2dd2a28.png)
 
   
 
@@ -365,7 +365,7 @@ t3 时刻的电流始终可以表示为
 
 对于电路状态1，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHBQaqKjuiaia4G62d0y3ZQF2g3eYDiaQlLde7wGDzg7ibM0qibmwAAkZSTyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_016_3452a9a54ceb.png)
 
   
 
@@ -373,7 +373,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH5EB34VrAEAZMTMVxptgIg4PgWT2yU6yyRUmxteRb4hMqRSse6Gjpjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_017_b50ca5f5bf01.png)
 
   
 
@@ -381,7 +381,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHwTvuPaWUSKbJZX6DkUd70tFGsDx9oMb5KHYc6XomXwDAF0wtxQnZ1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_018_942d708ee73c.png)
 
   
 
@@ -389,7 +389,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHJMQvgR7Kibm9ibEHb5YuM2IKiclEbIZh51ScUXYT8H7oribKq1jvpgu1jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_019_fd492ca4e3ea.png)
 
   
 
@@ -397,7 +397,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHPTyo4LRcgBI4wkiczzXicVgxKXJyMML9PaNxMCibMJOQsLsfyqSzB5gkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_020_183f562cd230.png)
 
   
 
@@ -405,7 +405,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHjIJ4MhpUlvPYVPaNuGLibudrNQeLrkkXf3Sicge8Yiab34w4gbGnicQY4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_021_cb061320c734.png)
 
   
 
@@ -413,7 +413,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHiblc7eYo55fl7Zf5n7Px8ZibAgFEaFqqsd8ImPYJia69QBqpNeEBwvxyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_022_aa940eff3ab4.png)
 
   
 
@@ -421,7 +421,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHhZ18koprgnjov030HaSRgjV4XWgux4naVQveDvBEDIX6ODjWgC56hA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_023_625fdb45a1c1.png)
 
   
 
@@ -429,7 +429,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHa2F6P2rt55hAuuDbDF30MmCZia8icA4g5gia4UeuKoZngibIU9OMTAjAYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_024_d90ddbff25ef.png)
 
   
 
@@ -439,7 +439,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHb5hsO0LfMH8n40mCgMsEEGEHJsPOibHbXr9xwsyw4ibYZQoVBe3S0WHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_025_5f45cf670712.png)
 
   
 
@@ -447,7 +447,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH6CtOFIbibzPgFAxZgVG8pKuhACplVdZ483t8pIqyI6J5nye6fjHAccg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_026_8962df34d4f9.png)
 
   
 
@@ -455,7 +455,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHvywF9mGNiavDrJjUICfhEA3zfYkK28C2fTxvqPrFw4Zk9rrdCCnaXKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_027_fe4e12739d29.png)
 
   
 
@@ -475,7 +475,7 @@ t3 时刻的电流始终可以表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHHBBv6mvKsH8E2BLNeAIfInmk6ypJETEb9huAjXBfbztAzpNMWSdRhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_028_facbb776b069.png)
 
   
 
@@ -483,7 +483,7 @@ DAB 的输出电压受三个因素影响：控制信号d(s)、输入电压vg(s)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHZlrfGWX4TSn5I19aHVPZCyIKZlicNTvPq6rP10Ilj1dpJK9PL1fwsWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_029_8a9afacedf90.png)
 
   
 
@@ -491,7 +491,7 @@ DAB 的输出电压受三个因素影响：控制信号d(s)、输入电压vg(s)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHVW6SYdeskHHjhVmZvktA5iac68u2Cz2IJNGcqibMrA1ibMRJAt9QjWgSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_030_156b59d00308.png)
 
   
 
@@ -501,7 +501,7 @@ DAB 的输出电压受三个因素影响：控制信号d(s)、输入电压vg(s)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHfJfRn4ZjaiaswoXPia8gR9tF6QiaiaJNHqLtN4HxfGtD15wT7eJRBAiaopw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_031_fe21d7a86464.png)
 
   
 
@@ -519,7 +519,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHY7iasicfuEVIsqAwGkoIWJicahMh2Kl6zGDiaXpSElTRn1pgq9Dveyicqew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_032_5282c54366f1.png)
 
   
 
@@ -527,7 +527,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHs8Q52LZgSeXrVcgCyVxLTYFqOnNC9NPIEymkE59zAkdgFh0FUCaxMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_033_2eddcc6d91be.png)
 
   
 
@@ -535,13 +535,13 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH51cUomq4LdcNeDGOJa7sAxprQicoVFDH6eMV4xq6mJ4TvjicWq3rXSJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_034_87e26002a1cf.png)
 
   
 
 未补偿的环路增益的 Bode 图如2.6 图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH474McgRL9Dic2ssAjT17DuP4VFgm6Menh71WrPQw8cSEDmIBTwNYJyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_035_5b8b5b9cf232.png)
 
   
 
@@ -549,7 +549,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHQIrPKDYkia0Rc7QvCjQibwtUmmo1QMJY0NLDL9p5ib0pYLRNrFiavcBRicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_036_de2bb26b2cd3.png)
 
   
 
@@ -557,7 +557,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHTPwib2uV3CmItlaxQxDDjt7VczZygKz2bpO8ziaslhxASt4gkxANWiasA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_037_8a616ab2f8b1.png)
 
   
 
@@ -565,7 +565,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHxH2o2SbWDGq9n32LnDoD6b4nzIkETNuHUZpGVZPfMHBuEUibKa6Matw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_038_dbb2bb59bb74.png)
 
   
 
@@ -573,7 +573,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHN6tvuMlZeFK0nJiaOJKOmrjjnRB7jjscOickz4ftO4pibRsibaapAStdUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_039_44bf720ac54e.png)
 
   
 
@@ -585,11 +585,11 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHOKnro8m2LoKSsuU4KxHlbowYskGaoCJa43MINAibxRZUnbzUWMchMUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_040_1519ffa5e16d.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHbfGib7aXqcVfwVQtt2bdcXsmkt3yWUA5y9nOAVT6JbqgjVy1GicuW1NA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_041_b5ac2bb213a8.png)
 
   
 
@@ -601,7 +601,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHE2V68ETWRa6wicWKicl1XsVukH8zlgDpKAm9iabmAtexNZib2ekia5qTAzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_042_99a828a2ca14.png)
 
   
 
@@ -609,7 +609,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHySt2yBVYphhIjT40lHuky5WlibYzr0flY8icySrQW2hNevVBKQRiaK2RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_043_c4f13dad7211.png)
 
   
 
@@ -625,7 +625,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH5Fzu3yczsY9Ckic6CVMTEDNOh20uFdk01r8icRw4wsyibjlx7MM65p2Kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_044_0e1e8328fb62.png)
 
   
 
@@ -645,7 +645,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHBicqnOt4AVg4O8ZrKBp9nZtaVgzlP4xVwmcQdZxKKyeBlRng6pbfXsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_045_334c82f5201b.png)
 
   
 
@@ -657,11 +657,11 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHcTHhRGyg0Qq9Kygxky2RtapnNYseSQLJibdoCtuW0VBXshots66yObA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_046_889b900ce030.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHS3UcSmvNag6ZiaiaicLWMPmiblel6XP4ib4lgj8PERqqicpjcVoXchdibvduw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_047_6e0035bf786f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHDgn2hTeHS5bMuJPlG8cTqiaDD55YdVY6s4K69U76pXgGexhIzguZUow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_048_fdde6b043273.png)
 
   
 
@@ -689,7 +689,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHjt2dRwFeCV8bAMxzLQzcwwBsXvn4fxQ2GxhxkJic5nsuhedDfd55kug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_049_9759691083a6.png)
 
   
 
@@ -707,7 +707,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHeIp1bCoFIjhyskv9mMoiaSsDkiahhlEkndYg50wQFbVicGJkxjfDcVTiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_050_67933106712e.png)
 
   
 
@@ -737,7 +737,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
 本节利用AP 法设计磁芯尺寸。根据法拉利电磁感应定律，变压器端电压U与磁通密度的关系式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHHibHs2rAFvKpQfY8rbFvvDOzhK3M6AN5vttJ9Jc4fbNSyd4ibSzQF1gA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_051_0243fac29bda.png)
 
   
 
@@ -745,7 +745,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHJB0U1LjAHVFuFic4kOxotq2VgdKGldlhTZMAtGHLTGPG8grXA5ctBZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_052_aa5064aa6d26.png)
 
   
 
@@ -753,7 +753,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHYakmwVkcd3NEiavD4bX4icNfKjOKNJfEkfvbn2ibUAIEsxWKrP9AXzP1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_053_474981b68fff.png)
 
   
 
@@ -761,7 +761,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH4xctQYGhEFpEp0O6I0tYaBbSjHJWthQOhIL88acibCE1mFk2SExvo8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_054_b280f30be3bb.png)
 
   
 
@@ -769,7 +769,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHPxY3vBQdbzBselN4KuzdRkiaQrR5eYJ5jMEtIE9HJzIDTpwT7dhsfiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_055_006ccd08dbb3.png)
 
   
 
@@ -781,7 +781,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH0O9anu8A82paK9R87icQk7CP2cicRVgUGoVqPZ4AceYdGgpdIexFRGHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_056_906e273255b6.png)
 
   
 
@@ -797,7 +797,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHOPFOpuiaJA1oXepRIaBvRk4Y05BX8iaaHXQPoLDDpoJPcgJBsnIG8PjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_057_355b0284e7a1.png)
 
   
 
@@ -809,7 +809,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHcibPHrBeg84pgzT4OoTRG98k5K6zghjnIdkG5uA1GQH6JtQmll89TGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_058_b2fc95afa766.png)
 
   
 
@@ -817,7 +817,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHad1RggLHau2dialvnSibPrtng8kYP7VicJa1w16PvuZ0yOZ0NCbN1hwhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_059_af3a9b3c7c0a.png)
 
   
 
@@ -825,7 +825,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHwgQMh3yofPq4T3Np4rgLYbHdbdWDOepyXvq1JUkIAhFUI1hR33DzUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_060_d251bdfa3b22.png)
 
   
 
@@ -837,7 +837,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHQYkEkWYiac3nuYZvXv8plEYdrQxhDfjicDwtvYJiayxus1K2J1g8Psm6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_061_bcd65e1dfc24.png)
 
   
 
@@ -845,7 +845,7 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHEROGJ26eDOXrWh0HGlU5w4a7ib1wmRJzUuWgn1OvjHwAkyBFalkvibpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_062_6712409b6f31.png)
 
   
 
@@ -853,11 +853,11 @@ DAB 的静态工作点选为额定工作点参数，输入电压V1\=400V，输�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHz8Q5J80VWR8wo2bacnOzAh5oLD4EicYa9gnByfwysibsgO5RyVImNN5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_063_d7ae94f0558b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH4SeD1JhALCibbUP0SBasu4nxrs3vFgPTxtNTlYBwLAhDYvQAS5xsIxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_064_66c62d4bfe61.png)
 
   
 
@@ -881,7 +881,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHJO6ch96gU0BibhpXhEdj2tatcjSxUP5juvG8NQqj3oyOFF8ZIDiaibRvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_065_ec74af197403.png)
 
   
 
@@ -889,7 +889,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHXz9ibW0B5pYuSDYapJD62ptoBVkia12vHaZ6zdJoloCibo5f0oIibHicsibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_066_40991e597e1b.png)
 
   
 
@@ -897,11 +897,11 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHOADyO1icrqIPWASRInOHfbcM5CcEPsraibtN3YZVs0dP0SVGkgz9nKaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_067_9d643e6d2328.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHHP73XCjoBthLuicyHSuabNP4Hn3ibuQ6j9Oh4aOF0icZTAbOz2lToEvkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_068_12449f7a59a5.png)
 
   
 
@@ -919,7 +919,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHaq4C8af8iacGFUmC2t4o48XiaeN8TOo4hIibvRo1icMoaxMFibUjNBG2KRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_069_a6e45c42262b.png)
 
   
 
@@ -929,7 +929,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHeEhLlyahqv3WgL6BicUcKqBVbIBNpRKEOfO3iamjzFFdLe3ic4bdcyqzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_070_db7775130f85.png)
 
   
 
@@ -937,7 +937,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHQtvbuodfd7SkEF9o9szpgEYqwvHaRjS0LCyIMyYYPxQnOlOU82cL0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_071_76d9ac4ab7e4.png)
 
   
 
@@ -945,7 +945,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHgcgTDGwuZ7HXNdtd5iar2cCYxQRtfe6t1hux0t0kaib5TibAQBaiacmPtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_072_0c68214976c2.png)
 
   
 
@@ -955,7 +955,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHiaaBMJqF5dqicw5LslOrlf2nM2CmR1RFI0vicGJUPKq5ibezbrQyaQnSfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_073_d0abd4a104c8.png)
 
   
 
@@ -963,7 +963,7 @@ DAB 拓扑结构中的辅助电感值是最为关键的一个参数，直接影
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHH419cTc0RPj4NnU2Q8rMI8ic6SEm8cpiaShyHLicToLORNVv9ph0K2k8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_074_b3086a81fdcc.png)
 
   
 
@@ -975,7 +975,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHzHwWD2LWCrx3mXKHDqPMUoyWLOdj83zKIrFlJ6Df74dVeqADpOXCew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_075_13274441c5b1.png)
 
   
 
@@ -993,7 +993,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHqxpuveDuBHF7SWndxpYxbONe7HTiaKjcrpB89GO5fqadV2r7m5agtgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_076_28c44bd4d087.png)
 
   
 
@@ -1001,7 +1001,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHzDzRVChiblCSofbHNMTJGZJ08UCzUicKOBW5icRlcUq95yKICibEiagWJFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_077_3994bb01336f.png)
 
   
 
@@ -1011,7 +1011,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHnBb6oUlB9k2tFqROfy3Da7Jd4PJB1aec7nicNlUMvkask0nr2H9dpAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_078_a5d7649a34c9.png)
 
   
 
@@ -1019,7 +1019,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH2rfjpE1udTftFBjzmazDYJ7Mho0Aicoqq3icGpiaLMMLf3wHSksLYIj5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_079_624c9d4e5bb3.png)
 
   
 
@@ -1027,7 +1027,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHTmzdMsHONqCIqMUojRJazHUxdjJ7jXl7dVGeRn0K5c5XaSXn9VUlRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_080_60ee1a6ea5ce.png)
 
   
 
@@ -1035,7 +1035,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHYmBeMwMfjtib0Fib5cibAQ1gy9fv93ZEsDc6ZSU1p7zPbqEOseeSrr6kQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_081_9cab89931178.png)
 
   
 
@@ -1051,7 +1051,7 @@ SiC MOSFET 的参数表，得到栅极驱动信号20kHz方波时，ISiC\_max\=3
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHJYdrU2qrSHdKb0BjuMALic4NkNHuQv9ibJIBXKcWFicicUf0Wn0IQqucWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_082_abf6201a968e.png)
 
   
 
@@ -1083,7 +1083,7 @@ Si IGBT  (IHW20N120R3/1200V/40A)作为实验被测器件(Device under test, DUT
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHPeXlia6n9pkzBMQnmVq68YklDPicQBn8f0kq5sx5GunaFibEQWJS5JicDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_083_4fab7ba743a4.png)
 
   
 
@@ -1095,9 +1095,9 @@ Si IGBT  (IHW20N120R3/1200V/40A)作为实验被测器件(Device under test, DUT
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH0ibNiaB1iaveXXJic4CoEOgzbYYrq3Yd97q5xlzMXJ0nzx71hdEic8ZoXgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_084_567d2de1230d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHFMwtKMibCS5H0uyl8wph8OY8WicOzia9KiakicuTI0vOhhz0pJicmpgmAPrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_085_888d7971b530.png)
 
   
 
@@ -1113,7 +1113,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHzJpTJRpLlD9BuUbFjCOfx7UqyOul6HX4RSvlFBHvicckCXwqtNpJ0gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_086_dd1a007cf955.png)
 
   
 
@@ -1121,7 +1121,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHUX2zZxzAxtibqrUyhTqoRExy0AicFBg4Jc1ib4vfxsNUGuZtEkcvxVFzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_087_2ff3fbfe4f74.png)
 
   
 
@@ -1131,9 +1131,9 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
 在脉冲模式下测试SiC MOSFET 和Si IGBT 输出特性。在低驱动电压Vg\=8V 下，输出电流随温度上升而增加，但当驱动电压增加，给SiC MOSFET驱动电压Vg\=24V，给Si IGBT 驱动电压Vg\=15V，正常工作状态，将产生一个 高温衰减效应，输出电流随温度上升而大幅下降，如图3.21(a)、(c)所示。另 外，SiC MOSFET 在低导通电流下，正向导通电压与结温成二次关系；在较低 导通电压下，导通电流在小范围内与结温成一次线性相关，如图3.21(b)所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHOncic6CZwY7eeXLlOse17Uibf0UtVcpOCqMjeRWKfD1bHHkUOtA3ibKhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_088_f48bb1e6a305.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHmq3uHdSgRhTicPWIRv2tnIK9GW04yjrzynZ8REoic9StcnVZyJPE2U7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_089_71b7fced1c65.png)
 
   
 
@@ -1149,7 +1149,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHM8b0C6I4Hadlk5tiauzqJSuY0Ps77M5dq1hYFB07LSTl64KwU80dGLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_090_2470e1fb87d9.png)
 
   
 
@@ -1157,11 +1157,11 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHFs3JUUdf3piczaELaRJNIFuq6iauj1eq1rf1jfJACX92frnZshhqETgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_091_f3e07f766740.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHSKyRwTicBMPOSqO3NkOqJV2IL1gq2OW3WNazP5iagPXpp7mkBWl8quyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_092_38b5345aeb47.png)
 
   
 
@@ -1169,7 +1169,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHZLd91ROfvQQQfuKQvBSKtzOCjYX4dQL6H5EXhKmBjl8m71ESfQGwEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_093_cffcd1777706.png)
 
   
 
@@ -1193,7 +1193,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHKtVZu3v8VGMNXZlengYuxWu2fo3iaKZ2icMAxJ9HPtuTpjFiaZoTg0Uag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_094_8edd22a4c7dd.png)
 
   
 
@@ -1205,11 +1205,11 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH0iaM4xx3oc3wXNaYHQNS42wltleLlWOkUEPtj8pA4kUicHOwVfjwCeIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_095_a6df2a39b75d.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHZ7ibfEw9QfUGvgFAq3zVwkleSj3bqE47oyh1kIS2uRWTebzdGfU3tkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_096_7d332f694476.png)
 
   
 
@@ -1217,7 +1217,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHhkhXArRxru4mbxlpXIk10FYTFUT6cVBwJ9sTyYlforR5kA66pwJryw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_097_07e50fb6cdab.png)
 
   
 
@@ -1225,7 +1225,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHnOd2GFGb4oiaay5aOI46C8xvRsLNOy7KgP74kNUs6AZdXyCNYuecHtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_098_c7365bc83bec.png)
 
   
 
@@ -1233,7 +1233,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHGiao7W362AdMwcQ9BetHL0ia68dko3AeXbUWG3rvsHo2ExfXEZ483ejA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_099_680478319a8f.png)
 
   
 
@@ -1245,7 +1245,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHJCO6mlHfEnPKiaXhdQUeQbiay7vHg3YxQ5GGFdnFmCkkR6W7UCmO8wXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_100_6a33bcbfb9bd.png)
 
   
 
@@ -1253,7 +1253,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH7K12EepeH0YczRfR0yjohAuPVuWLITj1pu00Lc4T0KgcJl8iase7DNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_101_02dfe1605acc.png)
 
   
 
@@ -1261,7 +1261,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHmbiatv2F8wKsbZ5zibug1u10BCg4dUpW1Ey7xXVNSiavFBuueBgk9B01Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_102_58272d887ebc.png)
 
   
 
@@ -1269,7 +1269,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH5oWCSMlSRjLhckHE8jJwaFnibszOUibJWEcp4EVgP5FW4wicdhrZpEv4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_103_9712b2bc1810.png)
 
   
 
@@ -1281,7 +1281,7 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHgUtt7ibsicaQgu2Iht3GcB6Z0IxOrWJXpFMusk9RiaGgZTQArCgr7faFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_104_3b753acea7bd.png)
 
   
 
@@ -1289,7 +1289,7 @@ Rau 和Rtr 分别表示电感和高频变压器的绕线电阻；Irms 表示�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHkhTTjuxiaXOlibJdeticxemQVtUWscfgbfQ46R3x96uLM2Vks5auKytpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_105_09786286e4ec.png)
 
   
 
@@ -1299,7 +1299,7 @@ Steinmetz 系数分别见表3.4。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHnhhpeqzWG1njoOer0QDxaJia2Uic3wn1pcF37KLiaRaQicnB1C6Fq0icKPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_106_0dbff21e4fdf.png)
 
   
 
@@ -1311,7 +1311,7 @@ Steinmetz 系数分别见表3.4。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHbiciaauReTjarUkxmKSq41wx64eNbJNOW0hm9jTjWRfmyrbPWtOyuvbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_107_e883af0cb83a.png)
 
   
 
@@ -1323,7 +1323,7 @@ Steinmetz 系数分别见表3.4。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHAVCJfAaVCKNQ0kJ4rchl1jkGx7U6lZkPEHszibOESdlxspd1JiamB06A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_108_4fd56f60b95f.png)
 
   
 
@@ -1335,9 +1335,9 @@ DC-SST 样机，各工作频率下输入电压V1、输出电压V2、辅助电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH1z2CuZLgjLgwoc1hGia9zw0zMskK2VNnLIhia8icW4rBPV1PwjiaBgVzRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_109_f2d2cf670677.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHPZtmgYOd9PJLnzleWPWrewGI1oLWnnxYeichmMbvTuEcepBcWWtjguQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_110_87ef2f31dbe3.png)
 
   
 
@@ -1345,7 +1345,7 @@ DC-SST 样机，各工作频率下输入电压V1、输出电压V2、辅助电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHh6evbYibMAB185h5ZJ4eIlfzYqDd7BlzVXMFgRBqVljlxozBXzSvczQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_111_299987e54830.png)
 
   
 
@@ -1353,7 +1353,7 @@ DC-SST 样机，各工作频率下输入电压V1、输出电压V2、辅助电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHibztOEWsBXD8wv4vxqhmoQAdfGrsSLGXLg2RVkDLJDgVF7vibpDhnU1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_112_2a634dfbda85.png)
 
   
 
@@ -1385,7 +1385,7 @@ DC-SST 样机，各工作频率下输入电压V1、输出电压V2、辅助电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHVgkwD5ibd10X3Bia93tPicKf2X0nmrtvvClFuQJU29DHMYbgqGPliafiavw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_113_39e4e4918204.png)
 
   
 
@@ -1407,7 +1407,7 @@ Si 和SiC 芯片的不同热机械性质使其对应器件具有不同功率�
 
 由于难以直接测量焊接层中的应力或应变，本文采用有限元模型在Comsol 软 件中评估焊接层中的应力。 测试芯片附着的铜层框架长宽尺寸为11mm×11mm，在芯片与铜层之间，由厚度为120μm 的SnAg3Cu0.5（SAC305）焊料层将裸片附接到框架。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHVgiap9jnfa4NXjicMlr7bO76SRkrdE6ACDks1xSkhWkbGb2nj5HBw6VA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_114_cb20c694d096.png)
 
   
 
@@ -1417,7 +1417,7 @@ Si 和SiC 芯片的不同热机械性质使其对应器件具有不同功率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH7iaS4xTa6SJdHGwpYZRw5RQ7EtzTicE3kc0OuFGQiaibSaxpqYMmawHacA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_115_80f39687bead.png)
 
   
 
@@ -1429,7 +1429,7 @@ Anand 粘塑性模型参数示于表4.2 中，其中s0是初始应变抗力，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHrIm9gyPOxGd7yoDGEfPazk4NQ3YdTzav8kdxctLA6PuTYtd0U7tMIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_116_947246edbb3b.png)
 
   
 
@@ -1437,7 +1437,7 @@ Anand 粘塑性模型参数示于表4.2 中，其中s0是初始应变抗力，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHeJqxsqia3UNUtYFlpUmetcj6VibmGhhv9ANSYEQMVElvN4JJ1naSia1lg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_117_8c11efde0814.png)
 
   
 
@@ -1457,13 +1457,13 @@ Anand 粘塑性模型参数示于表4.2 中，其中s0是初始应变抗力，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHEDXyOontDRp0ib8PSWUA9SeywLrh871KHSnXx8HTJ552ibghwNW4TH5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_118_cde6bf0ae93d.png)
 
   
 
 仿真初始温度从室温开始，经过10 秒的模拟时间达到稳定，最大结温峰值点 为Tj,MAX\=420K，模型的温度分布示于图4.5。芯片、芯片附着焊接层以及芯片下方铜层的温度比模型的其他部分高得多。这些部件在整个模型中具有较高的温度， 并且承受较大的温度偏移量。温度偏移量直接导致由热膨胀系数失配引起的疲劳应力，并且高温可以导致在芯片焊接层承受更多的应力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHXMQQktJjGbHHStsWfhFicO636IdpSDug9lTglqC0ResYGjbATMwwxvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_119_83ce725b8e2d.png)
 
   
 
@@ -1471,13 +1471,13 @@ Anand 粘塑性模型参数示于表4.2 中，其中s0是初始应变抗力，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHB593sIrvgHsEURrpQngaRkwF3OtgUSKlgu48HDJ5dVM3VCnPzGO1zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_120_d2f98c317b56.png)
 
   
 
 Morrow 模型提出了疲劳寿命和蠕变能量之间的指数关系，使得焊接层寿命预估取决于蠕变能量。当给定一个循环的累积蠕变能量，失效循环的次数可以从下式获得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHWXHHUTnPPo2Kq7yWBCryIfwPIK7oqUttY1uQxiabTGyWA0a0abKhYBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_121_0974e7cf692c.png)
 
   
 
@@ -1485,7 +1485,7 @@ Morrow 模型提出了疲劳寿命和蠕变能量之间的指数关系，使得
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHegUMx3u5tNYicj0IE7O4HKMwGe7Fmobh8iaIGRicSZB1eY8wf4icYLjMgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_122_56cf906dff66.png)
 
   
 
@@ -1495,9 +1495,9 @@ Morrow 模型提出了疲劳寿命和蠕变能量之间的指数关系，使得
 
 基于Morrow 模型，使用有限元模型计算焊料层部分的寿命分布，如图4.7 所 示。蠕变能量密度分布表明，SiC 器件的焊料层顶角具有更显著的疲劳效应，寿命计算结果中焊料层的上角寿命最短，这是由于实际焊料层形变过程中，应力积累是由焊层中心向边缘集中的，在顶角处达到最大值，该现象在仿真与实验中的结果是一致的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHrFqf34MPzzIQ2Rz7GQmicoGKOpEf78nh4R9EQswvnic0BH4fE9xMkPNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_123_7c2b41c9d466.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHibZ8vIKylOmiaXc7libx70OEcPfaib8xotPoMWCVUKeQ53VAu5Wl0m3Tkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_124_db57994e66f7.png)
 
   
 
@@ -1505,7 +1505,7 @@ Morrow 模型提出了疲劳寿命和蠕变能量之间的指数关系，使得
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHaNRb9AqlRPqatsnFos2TC1MFs5kc22oMkfuiczZsKI8kSFUGdXSiaFrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_125_43127f6ac5e9.png)
 
   
 
@@ -1513,21 +1513,21 @@ Morrow 模型提出了疲劳寿命和蠕变能量之间的指数关系，使得
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHFJibOhESzWv4xoEsHxfK7UYo1g6iaibXt2mkia4BcAjzy2Xia98rA7bicmIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_126_9f50439ff34d.png)
 
   
 
 为验证仿真结果，本文引用了现有的Si IGBT 功率器件的功率循环测试结果进 行分析。在文献\[73\]中，实验对硅IGBT 功率器件进行了功率循环测试，并且获得了不同结温偏移和平均结温下的焊料层寿命。实验电路如图4.8 所示。IGBT 器件始终保持导通，加热电流由辅助开关控制用于加热器件。当加热电流关闭时，器件进入冷却阶段，在每个周期中通过结温、外壳温度和功率损耗计算用作焊料层退化指标的热阻。结温测量方法为，在主控制开关关闭后，使用低电流（Isense\=100mA）下的正向电压作为温度敏感电气参数（TSEP）来换算结温。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHWHh2gmKDnaoY0N0GYic2iacRsnCdtkM6gaOZiciczGlpw9mT6puZq5S9jA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_127_4ff6e4216cad.png)
 
 在功率循环测试实验中，平均结温均设置为Tj,mean\=90℃ ，测试器件为具有相同焊料材料SnAg3Cu0.5的IGBT 器件，其中9 个经受结温波动在∆Tj\=90 ℃附近， 另外15 个相同模块经受结温波动在∆Tj =120℃附近。在功率循环测试期间监测每个模块的热阻，并且当热阻增加20％时认为器件失效。所有IGBT 模块在功率循环测试下的循环次数如表4.5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHIcKkEAoN4BqqZpK5b9ud07K8r3n0zrxibnN0bhZrDMreBXia3tVxdSJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_128_2e5ce2e5da63.png)
 
 实验结果表明，焊料层的寿命随着ΔTj 的增加而减小，与Coffin-Manson 模型所预测的一致。焊料的寿命测试设置平均结温Tj,mean\=90℃，结温波动范围ΔTj 从90℃到140℃。老化实验的失效标准为热阻增加20％，对应于有限元模型中焊料层23％的裂纹长度。实验和Coffin-Manson 模型预测结果如图4.9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHIfDdk83IPTNGxC2e20yHFSClSNBTanxUYvQr0MBzyvvYsNQz9QNFxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_129_29bc26964582.png)
 
 基于有限元的Coffin-Manson 预测结果与实验结果吻合，因此有限元可用于功率循环期间Si 器件焊料层的寿命和疲劳评估。由此可以推断，该模型也可以用于评估SiC 器件的热机械性能和老化过程。图4.10 还绘制了对于每个ΔTj 对应的SiC和 Si 器件的预测寿命的比率。可见SiC 焊层寿命在相同的温度条件下与Si 焊层寿命成二次相关。当ΔTj\=90℃，SiC 器件的寿命仅为Si 器件的寿命的60％；但随着温度波动ΔTj 增加，SiC 和Si 的寿命最终变得相似，比率接近1。该模型的仿真结果为SiC 器件可靠性评估和寿命预测奠定了基础，为本文下一节SiC 器件应用于DAB样机后的寿命评估提供了理论支持。
 
@@ -1535,21 +1535,21 @@ Morrow 模型提出了疲劳寿命和蠕变能量之间的指数关系，使得
 
 4.2.1 DAB 有限元热模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHBKEQXViasJ4y5zqkA3z09D5C7JcPNiaGa6sJNwicsOcF9OsOKVMWwibkMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_130_9ad779e52fbc.png)
 
 为了分析DAB样机器件内部芯片间可能的热耦合作用，本节利用Comsol构建 八个功率器件及散热器1:1尺寸三维有限元模型，仿真分析芯片在热耦合作用下的结温变化，进而根据结温变化提取耦合热阻参数。为使仿真模型最大程度接近样机实物，仿真设置1:1尺寸三维有限元热传导仿真，仿真模型结构及剖分如图4.11(a)所示，DAB一次侧器件分别标记为P1、P2、P3、P4，二次侧器件分别标记为S1、S2、S3、S4，其距离位置如图4.11(c)所示。功率器件、焊层及散热器剖面图中各层材料的参数如表4.6所示，假设各层材料结合完好，无相对滑移。芯片与焊层尺寸与4.1节的模型完全一致，铜层尺寸参考TO-247封装，散热器尺寸与样机一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHgUWY7EXrPv1rrqlQmCwUhX9L9eIblLeg8oicSkhy2r4xYpQ0a6pmoqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_131_3a8215b04605.png)
 
 根据上述表4.6所示的各层材料尺寸和特性参数，本节建立了DAB的三维热仿 真。由于铝键合线对功率器件温度分布的影响很小，因此模型忽略其影响。考虑DAB变压器原边全桥器件和副边全桥器件的功率损耗不同，根据3.4.1节的计算结果，当DAB传输功率为3kW时，由于副边电流有效值大于原边，Si IGBT原边芯片上施加功率损耗大于副边芯片功率损耗，环境温度为25℃，此时IGBT各层材料及散热器的热分布情况如图4.11(b)和4.11(c)所示。由于器件各个位置的温度分布是不均匀的，以芯片层中心点温度作为器件结温，DAB副边内侧Si IGBT器件Q2结温最高，为81.94℃。对于同侧的相邻器件，放大器件温度分布后可以观察到，位于中心位置的器件结温高于位于边缘位置的器件芯片结温，这是由于热耦合对器件结温产生了温度累积。并且副边器件结温高于原边器件结温。同样对SiC MOSFET的电热模型施加对应的热损耗功率，得到不同功率器件的DAB中，器件结温、壳温上升曲线，如图4.12所示。仿真模型中取铜层与散热器接触点侧面位置作为壳温测量点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHb6J6s69hBibqjnKhNJqthibvOea8vIe2eH33A7j3Nc6tazFYxbVZlTyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_132_890fbf92d1c1.png)
 
 为了验证DAB功率器件有限元分析模型的有效性，本文以DAB样机为例，在上述工况下，带相同阻性负载，待样机进入稳定工作状态后，采用红外仪捕捉样 机功率器件侧面壳温，并与相同工况下有限元模型得到的测试点温度进行对比， 图4.13为红外热成像结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHjqExKHxwcKqNbm9DiaIsklRwtcYFpOdVrfiaqmc1Qkeib2iah0RHibQ6ORA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_133_96e1ae5d27bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHWCdY5EYjnJgzfHbtKST4vAWVSgPTSmsw6GTMria68JuUXicwibIZ48eQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_134_b6d45b86e4de.png)
 
 对比图4.13 (b)和4.13 (c)，相同负载功率下，Si器件的壳温偏高，并始终高于SiC器件，这是由于Si器件较大的开关损耗决定的。图中捕捉到的器件为编号S1和Q1两个器件，对比图4.12中的器件温升稳定值，红外热成像结果与仿真结果的数据十分吻合，Si模型壳温最高温度偏差仅为2.85℃，SiC模型壳温最高温度偏差仅为1.10℃，说明了本文DAB有限元仿真模型的有效性。另外，红外热成像图中的驱动模块仅有28℃左右，证明驱动模块工作效率非常高。
 
@@ -1559,51 +1559,51 @@ Morrow 模型提出了疲劳寿命和蠕变能量之间的指数关系，使得
 
 针对功率器件层状结构，基于芯片独立发热和传热的常规热网络模型见 图4.14。对Q1、Q2、Q3、Q4、P1、P2、P3、P4 芯片依次编号为芯片1、芯片2 至 芯片8。图中，Tj1 为芯片1 的结温，Zth\_jck 为芯片1 的结壳热阻抗，Zth\_ch1 为芯片1对应的管壳\-散热器之间的硅脂热阻抗，Ploss\_1 为芯片1 的功率损耗，其余依此类 推；Zth\_ha 为散热器热阻抗；Ta 为环境温度；Th为散热器温度；Tc 为壳温。由图4.14(a)所示功率器件及其散热器的热网络模型，可以得到芯片 k 的结壳热阻抗表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHZDqvNl1nodCco4MI95wl29jCTR8yQ6CfyurcqSDSTK2kamdRw3m1Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_135_72b4e91ad842.png)
 
 在上述公式中代入结温Tjk 随时间变化的数据，可以得到结壳热阻随时间变化 的曲线，对该曲线按照热阻Foster 模型进行拟合，即根据图4.14(b)所示器件结 壳热阻抗的热网络模型，功率器件中某个芯片k 的结壳热阻抗Foster 四阶计算式可表示为: 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHsC7qZvicCEEmujaVrjyfmBjyBNWLO3DYic5Hk09cPiaqdBvicbrM87GFmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_136_7688bc5dd29a.png)
 
 其中，τki、Rki、Cki分别为芯片k的热时间常数、热阻和热容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHYNz2cxESsImCC0IMGQjq8XmR32doibDQJicup5D4nibwEicHXhetDQJWFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_137_754bc7290f31.png)
 
 从图4.14及式(3.35)可知，目前常规热网络模型没有涉及多芯片间的热耦合影 响，而在三维有限元热传递仿真中发现，对单个芯片施加上述功率损耗，周边未被施加功率损耗的芯片具有明显的温升，最高达5℃。因此各个芯片间的热耦合不应被忽略，本文采用等效耦合热阻抗，代表某个芯片施加功率损耗时，周边的目标芯片稳态最高结温的增量，最高结温从Ta升至Tjn耦合热阻计算方法为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHGGnjreVsEVlRtL2047NcoP7njBc08ZHzbHk7G3F8QmkhkNGG9VzxqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_138_4dd452078a1e.png)
 
 对于多个芯片，考虑多热源的耦合影响，类推单芯片时的定义，可得各个芯片的 等效耦合热阻抗矩阵 Zcouple 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHoQlicZmnibVmnSNC4OJ8GfCaicG6Ho8w5yXIpudAUT5t6voz2QqaegwCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_139_d89163c728b0.png)
 
 其中，Zth（i,j）表示芯片 j 对芯片 i 的耦合热阻抗，Zth（i,i）表示器件的结壳自热阻抗，
 
 Zself 可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHRhzbX9Rhh4kTn6otd16tibsJTBWjcAuOLMH2BumfIKaibJUhKqibPnCgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_140_7894420cfd31.png)
 
 在图4.14 (a)的基础上，考虑芯片之间的热阻耦合，则应在上述热网络模型中添加耦合热阻部分，添加后的拓扑结构如图4.15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHIMS3gricmgl7Ztib7jI2N4ygIU8cd5Ee0SL52icfueUrO7zdmlKIGDMAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_141_5fa0b33376e3.png)
 
 本文提出的改进热网络模型包括了目标芯片周边各个芯片热源对其产生的热耦合影响，同时模型结温参数均采用有限元方法获取，其结温探测点可灵活控制，可实现多功率器件的DAB 热阻更为有效的评估。为准确得到改进热网络模型中的自热阻抗及耦合热阻抗参数，采用有限元法分析其功率芯片间的损耗和结温关系。即通过在某芯片上施加恒定损耗，监测该芯片及周边芯片的稳态结温最大值，具体流程如图4.16 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH1a4LeImoPhiaRgTQPjgk5e28X6Te4yf8btTehvrVWNNwPhLBKrZ0k6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_142_d8c38c68701a.png)
 
 为提取功率器件自热阻抗参数，单次仿真仅对一个器件施加功率损耗，并对芯片结温及器件壳温进行采样，结壳之间的温差用于计算器件的自热阻抗参数， 两芯片间的结温温差用于计算互热阻抗参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHiahiahPz560OexKZUTPBjXl6OFxdrX8Td3brXZn83ibDnGzH3gNzbYkhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_143_09c361daef5c.png)
 
 根据公式(4.8)及热阻Foster 模型可得表4.7 Si IGBT 器件自热阻Rth(j-s) 包括芯片到外壳热阻Rth(j-c)和外壳到散热器热阻Rth(c-s)）。由于计算所用温升数据均由有限元热模型得到，为确保仿真模型的准确性，本文对照了样机所用器件自热阻抗，取样机中器件数据手册作为标准值，Rth(j-c)\_Si\=0.48℃/W，Rth(j-c)\_SiC\=0.65℃/W，仿真过程中始终保持单芯片加功率损耗时，器件结壳热阻保持与数据手册同步，从而 确保器件耦合热阻计算的准确性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHbWeuXCNpic73s2GBgj7kfkWrOhzzXbwcIXxnZSkHLyzz5HaIm0ZVUhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_144_ee0e027fed47.png)
 
 为合理简化计算量，本文采用器件的稳态热阻，即Foster 多阶热阻中各阶热阻之和，代表器件稳态自热阻和互热阻。在此基础上，通过采样不同芯片结温参数，根据公式(3.37)可以得到DAB 中八个Si IGBT 器件稳态耦合热阻参数，如表4.7、表4.8 所示。表格对角线位置即器件自热阻，包括芯片到外壳及外壳到散热器热阻，各个器件参数值没有明显差异，并与器件在散热器上的位置无关，Si 稳 态 自 热 阻 值 为Rth(j-s)\_Si\=(0.75~0.78) ℃/W ，SiC 的稳态自热阻为Rth(j-s)\_SiC\=(0.88~0.92)℃/W，器件结壳热阻严格符合数据手册标准，可以认为仿真模型的参数与样机实际的热阻参数基本一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH4icEq5nP8q1icDznmO3pPic0J7BDKrgvKOsmogovmkm4abmeGyryYrqJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_145_9596781e5727.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHOkDlOCuVbGQlbS51wwDWoicFeK6k7sYIWcOlhcdcibp1FbmyiaFUrg8oQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_146_6b2ffcaf5eb7.png)
 
 对表4.7 数据进行拟合，得到图4.17 耦合热阻三维关系图，由图4.17 可见， 耦合热阻幅值随器件相对位置距离增大而明显减小，成二次下降，位于异侧位置的器件（\>6cm）耦合热阻几乎为零，可以忽略不计。而同侧器件，尤其是相邻位置的器件，耦合热阻至少占器件自热阻的14.5%，其热耦合不可忽略。SiC 的耦合热阻分布与Si 的分布趋势类似，值得注意的是，本文选用的SiC 器件热阻较Si 器件大，相同功率损耗条件下，较大的热阻会带来更高的结温温升，但由于两种器件的功率损耗条件相差一个数量级，因此有必要进一步验证相同带载条件下两种器件的温升情况，从而客观评估器件实际运行中的可靠性。
 
@@ -1617,17 +1617,17 @@ Zself 可表示为：
 
 由于DAB 固态变压器应用场合为低压配网，因此本文采用某地区低压配网的居民用电日负荷作为载荷，日负荷曲线如图4.18 所示，曲线包括全年数据，采样时间间隔为15 分钟。为体现全年日负荷曲线的走势，并保留负荷的波动特性， 取每个采样时刻的众数，进行差值拟合，得到众数日负荷曲线，如黑色曲线所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHWPUPf9QWldkQcuMNZPvjFIm1ibJJLzj8yokgSAV59ZYx5Xia5pDGviatA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_147_04f86818411f.png)
 
 本文搭建了MATLAB 与PLECS 的联合动态仿真。在MATLAB 中嵌入PLECS后，利用 PLECS 对器件结温的在线监测功能，可准确获得带载Pload（t）情况下的器件结温参数。MATLAB 主要实现的功能为单移相电压闭环控制，产生PWM 调制信号，控制DAB 主电路器件。PLECS 主要实现的功能是，搭建主电路，根据有限元仿真参数提取结果添加每个器件的Foster 热阻热容参数以及耦合热阻热容参数， 并通过探针实时监测器件结温变化，获得准确结温数据。电路拓扑见图4.19。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHeDNpggMX3wSSbb77Y0d4wcQSGPOMT1PLVBV4icdu6bIz6A9MTO381xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_148_9a4629f886d5.png)
 
 各个器件结温采样结果如图4.20 所示，由于器件分布的对称性，图中只绘制 了DAB 原边全桥器件S1、S2 和副边全桥器件Q1、Q2 的结温波动曲线。为最大程 度接近DAB 变换器应用于配网时承受日负荷波动的真实工况，联合仿真将日负荷曲线标幺值，以1.2 倍 DAB 额定传输功率为基准值进行归算，模拟设备承受的实际负荷工况。由于日负荷曲线的波动性相比于风电等应用场合更为平缓，图4.20中结温波动集中在负荷峰值附近，需要说明的是，结温存在 1~5℃的高频扰动，幅值较小从而图中并不明显，但为确保寿命预估精度在下文的分析中小幅值波动仍然被计及。对比4.20(a) Si IGBT 结温波动情况，4.20(b) SiC MOSFET 的结温波动较为平缓，结温幅值较低，这是由于相同负荷条件下，SiC 器件的功率损耗远小于Si器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHibfanBHKDnledXiamWcOSAIiblhpshjk3YgBudoSK4CD3XvXDNudcJGfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_149_621a6e7f43ba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH5VyYZqXuVribNG36KGd2GgBH2VxfrwGuGU3eom1t1pIG4oCcVd1r7Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_150_e97146db9018.png)
 
 4.3.2 功率器件可靠性评估
 
@@ -1653,27 +1653,27 @@ Zself 可表示为：
 
 每一雨流的水平长度是作为该结温幅值即ΔTj的半次循环计数的，在长时间温 度波动中，半周期将会遇到与之匹配的另半个周期形成一个完整全周期。根据上述流程即可编写雨流计数算法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHqneEtu3eKx4VCKMqicIZYibzJvSCvwUm1xqI8WbqoY2ffGZ8vu0mYwDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_151_730e9d34e0be.png)
 
 对图4.20 的结温波动数据进行上述的雨流计数，可以得到如图4.22 所示的雨流计数结果。图4.22 仅显示了4 个器件，这是由于DAB 样机布局的8 个器件位置 是完全对称的，原边互补导通的的器件S1 和S4 恰好均位于靠近散热器外侧，因此认为他们的结温波动情况是一致的。同理，位于原边内侧的S2 和S3、副边外侧的Q1 和Q4 及副边内侧的Q2 和Q3 均具有相同的实时结温。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHDJZib9Jbh6JEG9CcM2hMSkQMalHGiaicnRSLWC85uJggVrWByYk1ylD7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_152_f95729db21aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHPrpSXTkaqWib1Y9Ro2VibDiapeTawECKLbrZh0meGUDQPiaMWPSN1iauuEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_153_888f8b7a8083.png)
 
 ②损伤计算
 
 由图4.23 可见，结温波动集中在0℃~10℃，少数分布在10℃~30℃，极少数分布在30℃~50℃。但经过器件寿命模型计算Nfi，再通过式(4.10)计算结温波动对 器件产生的损伤Di 时，极少数分布在30℃~50℃的结温波动占有极大权值。结温波动频次如图4.23 所示，及其对应结温波动产生的损伤如图4.24 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHDWVWlzXBJM0vibrcdUjgqdOc5ya2Zl2kxOa5nnto7SNOqgY2A7Emxpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_154_bea34ae464c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXH54JD0FGRWYv4PU2Uw1A3ZRCLH1z0lj9RSgkhv0RnZQvXGXwOiapL64Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_155_5cc61936d6ac.png)
 
 ⑤寿命计算
 
 根据仿真时间内各个器件的损伤累积D，和仿真时间Ttest\=24h，可得到器件预估寿命A=Ttest/D，各器件寿命对比如表4.9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl20uqhsFgicM9uMU8Sn6LXHGib8wJ7Ew1ficXUiahF4Iz9UicmiczknPxxjH5YBiah1NlUqmcguPNMSnz8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_156_dc545ed58350.png)
 
 根据表4.9 中的寿命计算结果对比，分析可发现DAB 原边的SiC 器件比Si器件寿命高 1.99 倍，DAB 的副边SiC 器件比Si 器件寿命高4.47 倍，首先直接说明了SiC 器件的应用对DAB 拓扑DC-SST 可靠性的显著提升，同时也可合理推测在更高负载水平下，ΔTj 波动范围更大的工况中，SiC 器件的优越性将更加明显。
 
@@ -1717,14 +1717,14 @@ Zself 可表示为：
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_157_365055d613b2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_158_c4e5e00016ec.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_159_dfa6175ee311.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的直流固态变压器优化设计与可靠性评估_images\img_160_2ff68eaf3d63.jpg)

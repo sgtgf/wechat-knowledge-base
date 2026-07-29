@@ -30,9 +30,9 @@ MPC控制系统
 
 针对上述问题,本文提出一种基于偏最小二乘交叉积矩阵非相似度分析的性能监控与诊断方法,用于多变量MPC控制系统. 下图显示了MPC控制系统性能监控与诊断流程.首先,考虑MPC控制系统的控制结构,构造包含预测误差的增广过程变量与输出变量相关性的PLS交叉积矩阵,通过非相似度分析方法将交叉积矩阵的非相似度比较转化为转换矩阵特征值的比较.然后提取转换矩阵中表征最大非相似度的l个特征值构造实时性能指标,对MPC系统进行性能监控.检测到性能下降后,进一步利用转换矩阵的特征值诊断性能恶化源.Wood-Berry二元精馏塔上的仿真结果表明,所提方法能够有效地提高监控性能,并准确地定位性能恶化源.
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6GatBXNia1qnXpJB2JMibjD1UHemuyXFBOQ684CJ4OZAia4r1OWHYfMxCNwg/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_000_c658ba372c53.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6GadZyPQQXpiaoiart2sL4lWdwxxPgBUD6biccvr6Sn5M4K6Eyia7tZ7G0duA/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_001_2bfaa749e624.png)
 
 引用格式
 
@@ -40,7 +40,7 @@ MPC控制系统
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45lib5T4m8AgId68Kmpom6GaicwOyrNkibR1aNIQoWYlkSwhUmVLpuLcujbTkVF1Xdf5I3e2z87r4Tmg/0?wx_fmt=jpeg)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_002_eea77aabdfdf.jpg)
 
 尚林源 中国石油大学 (华东) 信息与控制工程学院博士研究生. 主要研究方向为控制系统性能评价.
 
@@ -48,41 +48,41 @@ E-mail:
 
  shang ly2007@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45lib5T4m8AgId68Kmpom6GaciaVPK1vjkicusbialypNH0D3RgCjvfTgFOwpGpPGR3zvliaiaoEzJXGy4w/0?wx_fmt=jpeg)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_003_5919530ba4e6.jpg)
 
 田学民 中国石油大学 (华东) 信息与控制工程学院教授. 主要研究方向为过程建模, 先进控制与优化技术, 智能监控与故障诊断. 本文通信作者.
 
 E-mail: tianxm@upc.edu.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45lib5T4m8AgId68Kmpom6GajZxEUO5VjltUaYB5RCJkW2VFa3zEOM3aazGT9IrTAQwgkHSHLSlnxg/0?wx_fmt=jpeg)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_004_3f313ff9cae3.jpg)
 
 曹玉苹 中国石油大学 (华东) 信息与控制工程学院讲师, 博士. 主要研究方向为过程故障诊断与预报.
 
 E-mail: caoyp@upc.edu.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45lib5T4m8AgId68Kmpom6GaoibPBylScfTxoDtknC9ojJU3UVxEuokw95qy2cdtQewSbiaW9vQnnG2A/0?wx_fmt=jpeg)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_005_61b0638970ac.jpg)
 
 蔡连芳 中国石油大学 (华东) 信息与控制工程学院博士. 主要研究方向为工业过程故障检测与诊断.
 
 E-mail: cailianfang@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6Ga8F3pMamdD15ibVGbV7jcJnXtXLzODaGcSEoKPMnByhmkryfmiaWRGNBg/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_006_44a3dd7e0df7.png)
 
 微信服务号：自动化学报
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6Ga8F3pMamdD15ibVGbV7jcJnXtXLzODaGcSEoKPMnByhmkryfmiaWRGNBg/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_007_44a3dd7e0df7.png)
 
 微信订阅号：aas1963
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6Gad5MtqRX0JyRfVOJV24azQlRiag04k3Pa6bjJG0anvibmGeOelxlbBGiaA/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_008_a3972fb1a222.png)
 
 新浪微博：自动化学报
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6Gad5MtqRX0JyRfVOJV24azQlRiag04k3Pa6bjJG0anvibmGeOelxlbBGiaA/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_009_a3972fb1a222.png)
 
 新浪博客：Automation\_2011
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6Ga6FunWAT9bh8DFRkyBt197vESQebuxibCSNLIGKJp0eH0PfGgzhxW8Ng/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_010_fbed65cae9c3.png)
 
 联系我们：
 
@@ -98,4 +98,4 @@ Email: aas@ia.ac.cn（日常咨询和稿件处理）
 
 http://www.aas.net.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45lib5T4m8AgId68Kmpom6Ga4yJqqCF9lwkXjsGmOICQdMiaKo4tGBeAibTMG9To4Udiauet9bygjJ5tg/0?wx_fmt=png)
+![](基于PLS交叉积矩阵非相似度分析的MPC性能监控与诊断_images/img_011_8ce1ced51739.png)

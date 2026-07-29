@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ZuLtDtv4kMXFKjFyVj2wuw](https://mp.weixin.qq.com/s/ZuLtDtv4kMXFKjFyVj2wuw)
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyTmzp1LwfMXOcHvNT17oTcp8uRhHHCopGmV3tgSFemFMHj1YrWwEQfg/640?wx_fmt=png&from=appmsg)  
+ ![](SVD的几何方式解释_images/img_000_e4ae7244064f.png)  
 编辑
 
 **这张图非常漂亮，它用几何的方式把 SVD（奇异值分解）的本质讲得很清楚。**
@@ -16,7 +16,7 @@
 
 也就是经典分解：
 
-![$A = U\Sigma V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyUNJEicBbJicYa2ibQFZ8MicGPw4u6uqniarFGOlKFswdtO2dgY1h68k5YdQ/640?wx_fmt=png&from=appmsg)
+![$A = U\Sigma V^T$](SVD的几何方式解释_images/img_001_5c520f140799.png)
 
 图里把这个过程拆成了 3 段动作（从左到右）：
 
@@ -25,7 +25,7 @@
 ## 0）从“圆”开始：输入空间的单位圆
 
 最左边那个蓝色圆表示：  
-在原始坐标系里取所有满足 ![$\|x\|=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyfaAWkDPwt7Jk5nxcc1dLDFmKuy34LaJ5riccrBNpehcibQmtcVvfXKBg/640?wx_fmt=png&from=appmsg) 的点，也就是单位圆。
+在原始坐标系里取所有满足 ![$\|x\|=1$](SVD的几何方式解释_images/img_002_c693d54c3c0b.png) 的点，也就是单位圆。
 
 同时图中标了两条特殊方向：
 
@@ -41,18 +41,18 @@
 
 ##   
 
-## 1）第一步：![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg)——把 v1,v2 转成标准轴 e1,e2
+## 1）第一步：![$V^T$](SVD的几何方式解释_images/img_003_4e110acfa19b.png)——把 v1,v2 转成标准轴 e1,e2
 
 图中第二个圆还是圆，但方向变了：  
-箭头写着 ![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg)（蓝色）。
+箭头写着 ![$V^T$](SVD的几何方式解释_images/img_004_4e110acfa19b.png)（蓝色）。
 
 这一段做的是：
 
-![$x \xrightarrow{V^T} x$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyyYibSHeibAbR0icVCAAAHM2rrCn6LTeySMic18NL8VynahVia8rAldmzPSg/640?wx_fmt=png&from=appmsg)
+![$x \xrightarrow{V^T} x$](SVD的几何方式解释_images/img_005_b163050ad29d.png)
 
 几何意义：
 
--    ![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg) 是**正交矩阵**（旋转/翻转）
+-    ![$V^T$](SVD的几何方式解释_images/img_006_4e110acfa19b.png) 是**正交矩阵**（旋转/翻转）
     
 -   它不会改变长度，也不会把圆变形
     
@@ -61,11 +61,11 @@
 
 更具体点：
 
-![$V^T v_1 = e_1,\quad V^T v_2 = e_2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy0awvN0EzyfSTL2QiaNQb0GCurpQNUA4J6Qbl2Sgic2G6ATFicB4Hh9hcQ/640?wx_fmt=png&from=appmsg)
+![$V^T v_1 = e_1,\quad V^T v_2 = e_2$](SVD的几何方式解释_images/img_007_1bcea1ede15b.png)
 
 也就是说：
 
->  **![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg) 把“输入的最佳方向” v1,v2 旋转到标准坐标轴上**  
+>  **![$V^T$](SVD的几何方式解释_images/img_008_4e110acfa19b.png) 把“输入的最佳方向” v1,v2 旋转到标准坐标轴上**  
 > 让后面的拉伸变得特别简单：只需要沿 x 轴、y 轴拉就行。
 
 所以你看到：圆还是圆，但现在方向变成了 e1,e2。
@@ -79,11 +79,11 @@
 第三幅图出现了椭圆（最关键！）。  
 箭头写着 **Δ**（通常就是 Σ，对角矩阵）：
 
-![$x' \xrightarrow{\Sigma} x$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyPXlvmMvlSBDShLdmGevHgaNPNwqZF8DyGeX1IsLfsbBbk2JglCYibLw/640?wx_fmt=png&from=appmsg)
+![$x' \xrightarrow{\Sigma} x$](SVD的几何方式解释_images/img_009_82dcce5c3264.png)
 
 其中
 
-![$\begin{array}{c} \Sigma = \begin{bmatrix} \sigma_1 & 0\\ 0 & \sigma_2 \end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyDHQFWErsH1YjdbhM50UC49yS8f70Pibb9B5Zn8wkqDTGtFZHHmMl9QA/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} \Sigma = \begin{bmatrix} \sigma_1 & 0\\ 0 & \sigma_2 \end{bmatrix} \end{array}$](SVD的几何方式解释_images/img_010_a21ddc355f4f.png)
 
 几何意义超级直观：
 
@@ -99,12 +99,12 @@
 -   短半轴：σ2
     
 
-图里写成了 ![$\delta_1 e_1,\ \delta_2 e_2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzymZU745PMmJ5d3aUm4vyEsQhfuE1X5bWPPlmFkeq9iaIAOW6mCu0IdWQ/640?wx_fmt=png&from=appmsg)（δ \\delta 就是奇异值的意思）。
+图里写成了 ![$\delta_1 e_1,\ \delta_2 e_2$](SVD的几何方式解释_images/img_011_8a4205e43bfd.png)（δ \\delta 就是奇异值的意思）。
 
 **图里为什么看起来是“沿纵轴 y 拉伸”？**  
 答案是：**不一定非得是 y 轴**——图里画成纵轴拉伸，只是为了表达清楚“有一个方向被拉得更长”。真正的规则是：
 
-> **在 ![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg) 把方向对齐到 (e1,e2) 之后，Σ 会沿着 e1 和 e2 两个轴分别拉伸 σ1,σ2。  
+> **在 ![$V^T$](SVD的几何方式解释_images/img_012_4e110acfa19b.png) 把方向对齐到 (e1,e2) 之后，Σ 会沿着 e1 和 e2 两个轴分别拉伸 σ1,σ2。  
 > 哪个轴更长，取决于哪个奇异值更大。**
 
 * * *
@@ -113,11 +113,11 @@
 
 # (2.1）Σ 的拉伸规则：只沿坐标轴拉
 
-![$\begin{array}{c} \Sigma= \begin{bmatrix} \sigma_1 & 0\\ 0 & \sigma_2 \end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyDHQFWErsH1YjdbhM50UC49yS8f70Pibb9B5Zn8wkqDTGtFZHHmMl9QA/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} \Sigma= \begin{bmatrix} \sigma_1 & 0\\ 0 & \sigma_2 \end{bmatrix} \end{array}$](SVD的几何方式解释_images/img_013_a21ddc355f4f.png)
 
 对任意点 (x,y)：
 
-![$\begin{array}{c} \Sigma \begin{bmatrix}x\\y\end{bmatrix} = \begin{bmatrix} \sigma_1 x\\ \sigma_2 y \end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzynjqjSODkAyiciaib99hxtDdsH0LSgrabGGhp6pRULexIia3LcNzr4lKruQ/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} \Sigma \begin{bmatrix}x\\y\end{bmatrix} = \begin{bmatrix} \sigma_1 x\\ \sigma_2 y \end{bmatrix} \end{array}$](SVD的几何方式解释_images/img_014_c9fc9d3ef314.png)
 
 所以它做的事情是：
 
@@ -163,7 +163,7 @@
 
 而且还有个更深的点：
 
-✅ **SVD 里奇异向量的顺序本来就可以交换（只要你同步交换 ![$\sigma_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzycVrPGnxZnXW0QoKhBSSwS7WBGyOP1y9FAypmmfxekgVsQic0WRPkOHg/640?wx_fmt=png&from=appmsg),![$u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyGRAiakFOl436zibAPo7Q627mqib6MoKNBNbm5hgDDSBZL2CpRgwria95WQ/640?wx_fmt=png&from=appmsg),![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyt2ibjJQ2amaVAib7ib5ycfQ9G9fRhz92SLibyUAXAhAbCZHk1UaNAk1tPg/640?wx_fmt=png&from=appmsg)）。**  
+✅ **SVD 里奇异向量的顺序本来就可以交换（只要你同步交换 ![$\sigma_i$](SVD的几何方式解释_images/img_015_03498e46ff14.png),![$u_i$](SVD的几何方式解释_images/img_016_b293e307dbb1.png),![$v_i$](SVD的几何方式解释_images/img_017_b5ff2fd90d2d.png)）。**  
 这不会改变矩阵 A 本身。
 
   
@@ -174,7 +174,7 @@
 
 你看到“纵轴 y 被拉长”，真实含义是：
 
-> **在 ![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg) 对齐后的坐标系里，某个轴（这里画成 y）对应的奇异值更大，所以椭圆在那个方向更长。**  
+> **在 ![$V^T$](SVD的几何方式解释_images/img_018_4e110acfa19b.png) 对齐后的坐标系里，某个轴（这里画成 y）对应的奇异值更大，所以椭圆在那个方向更长。**  
 > 这不是 “y天生特殊”，只是作者把“更大奇异值”画到了竖直方向。
 
 一句话总结这一步：
@@ -190,7 +190,7 @@
 最后一幅图：椭圆又“转”到了某个斜着的方向。  
 箭头写着 **U**：
 
-![$x'' \xrightarrow{U} Ax$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzywA7VgxgI5oaJ5LeO3kBicvHejia7tDutSjSqvicLX9ChxBvQup6B7vSjw/640?wx_fmt=png&from=appmsg)
+![$x'' \xrightarrow{U} Ax$](SVD的几何方式解释_images/img_019_31f8569125ad.png)
 
 几何意义：
 
@@ -201,7 +201,7 @@
 
 并且
 
-![$Ue_1 = u_1,\quad Ue_2 = u_2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzygCibreG1DoPDGuT4av9NdrggRrPIUXg82CoZ948BemfOmibW2RsH911A/640?wx_fmt=png&from=appmsg)
+![$Ue_1 = u_1,\quad Ue_2 = u_2$](SVD的几何方式解释_images/img_020_4ffd83bb8654.png)
 
 所以图里标：
 
@@ -224,7 +224,7 @@
 
 ### ✅ 第一段：对齐输入方向（不变形）
 
-### ![V^T](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg): 把输入最关键方向 v1,v2旋到标准轴 e1,e2
+### ![V^T](SVD的几何方式解释_images/img_021_4e110acfa19b.png): 把输入最关键方向 v1,v2旋到标准轴 e1,e2
 
 ### ✅ 第二段：只做纯拉伸（发生变形）
 
@@ -240,7 +240,7 @@
 
 因为它告诉你：矩阵 A 做的事情，本质只有两类：
 
-1.  旋转/翻转（不改变长度）：![$U,V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyDgxv17CibhA1QQFxMxtuxX6V53Z90dYFHLLtsib0ctgVYv29OVb6PicXA/640?wx_fmt=png&from=appmsg)
+1.  旋转/翻转（不改变长度）：![$U,V^T$](SVD的几何方式解释_images/img_022_6bdb66c27ac6.png)
     
 2.  拉伸/压缩（改变长度）：Σ
     
@@ -260,7 +260,7 @@
 
 想象你手里拿着一个橡皮做的圆片（单位圆）：
 
-1.  先把圆片转一下，让它的“纹理方向”对齐（![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg)）
+1.  先把圆片转一下，让它的“纹理方向”对齐（![$V^T$](SVD的几何方式解释_images/img_023_4e110acfa19b.png)）
     
 2.  再用两只手沿水平/竖直方向把它拉成椭圆（Σ）
     
@@ -286,7 +286,7 @@
 
 所以：
 
-![$\|Ax\|$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzye5UyhU3FGckfZKRKjWz9ceOoKQxrJxx4BZ5m4fBDsY4WZNuNBu8mXw/640?wx_fmt=png&from=appmsg)
+![$\|Ax\|$](SVD的几何方式解释_images/img_024_4df71a1ba9bd.png)
 
 表示“单位长度向量 x”被矩阵 A 变换后变成多长。
 
@@ -298,7 +298,7 @@
 
 也就是图里那根最长的主轴：
 
-![$\max_{\|x\|=1}\|Ax\| = \sigma_1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyycu0ASylWsPNn9ibxWodOAfiaQ4ibPFCLfsWL9q427bicmBlbZ2cqicTmBg/640?wx_fmt=png&from=appmsg)
+![$\max_{\|x\|=1}\|Ax\| = \sigma_1$](SVD的几何方式解释_images/img_025_4a5bbcd6726e.png)
 
 几何解释超级直观：
 
@@ -328,7 +328,7 @@
 
 用数学写出来就是：
 
-![$v_1 = \arg\max_{\|x\|=1}\|Ax\|$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyGeC2NqYCOVLHuEc7oHNzL4Qx7fl8TYH6zJ692U1JiarYl7qu1MsSKOg/640?wx_fmt=png&from=appmsg)
+![$v_1 = \arg\max_{\|x\|=1}\|Ax\|$](SVD的几何方式解释_images/img_026_6e3669f5ac44.png)
 
 而这个最大值就是 σ1。
 
@@ -338,52 +338,52 @@
 
 因为：
 
-![$A = U\Sigma V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyUNJEicBbJicYa2ibQFZ8MicGPw4u6uqniarFGOlKFswdtO2dgY1h68k5YdQ/640?wx_fmt=png&from=appmsg)
+![$A = U\Sigma V^T$](SVD的几何方式解释_images/img_027_5c520f140799.png)
 
-我们把单位向量 x 先用 ![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg) 旋转一下：
+我们把单位向量 x 先用 ![$V^T$](SVD的几何方式解释_images/img_028_4e110acfa19b.png) 旋转一下：
 
-![$x' = V^T x$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyeq98LXTDUcTFoILrXECcauFWrWU9sbUpwibtImPpJTOib06g82ZU0pAA/640?wx_fmt=png&from=appmsg)
+![$x' = V^T x$](SVD的几何方式解释_images/img_029_c01e7cc636c1.png)
 
-由于 ![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg) 是正交矩阵（纯旋转/翻转）：
+由于 ![$V^T$](SVD的几何方式解释_images/img_030_4e110acfa19b.png) 是正交矩阵（纯旋转/翻转）：
 
-![$\|x'\| = \|x\| = 1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyOORhzshqibpJ7QTiaXeEg6diaBicykor0eVhtykJIib5KMwdD1q4XQBGoGQ/640?wx_fmt=png&from=appmsg)
+![$\|x'\| = \|x\| = 1$](SVD的几何方式解释_images/img_031_a67988d5e93b.png)
 
 也就是说：**单位圆还是单位圆**。
 
 然后进入真正变形的核心步骤：
 
-![$\begin{array}{c} \Sigma x' = \begin{bmatrix} \sigma_1 & 0\\ 0 & \sigma_2 \end{bmatrix} \begin{bmatrix} x'_1\\ x'_2 \end{bmatrix} = \begin{bmatrix} \sigma_1 x'_1\\ \sigma_2 x'_2 \end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyPjla5h85zNNavibQ3euOEm5yc97ibrLhaicrwA5rV5yiau5YlgMrtz2QLg/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} \Sigma x' = \begin{bmatrix} \sigma_1 & 0\\ 0 & \sigma_2 \end{bmatrix} \begin{bmatrix} x'_1\\ x'_2 \end{bmatrix} = \begin{bmatrix} \sigma_1 x'_1\\ \sigma_2 x'_2 \end{bmatrix} \end{array}$](SVD的几何方式解释_images/img_032_ba754e245f46.png)
 
 它的长度平方是：
 
-![$\|\Sigma x'\|^2 = (\sigma_1 x'_1)^2 + (\sigma_2 x'_2)^2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzytg8L3DW53icQsZLblTic3NfZC9iakSiaaR3X9ucx1x8RH3g7P7jh6K9qLg/640?wx_fmt=png&from=appmsg)
+![$\|\Sigma x'\|^2 = (\sigma_1 x'_1)^2 + (\sigma_2 x'_2)^2$](SVD的几何方式解释_images/img_033_f37772d69627.png)
 
 因为 x′ 在单位圆上：
 
-![$(x'_1)^2+(x'_2)^2=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyv3XeyFuw94ichvakdugjmvbKNAnajS68UN0zCM2hibkDqrjw5Vp94wZQ/640?wx_fmt=png&from=appmsg)
+![$(x'_1)^2+(x'_2)^2=1$](SVD的几何方式解释_images/img_034_aa24940274ea.png)
 
-现在你想让 ![$x' = e_1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyicHkXwNRFWXyW3UHYiafo2F0PyRGsC8JcrqBohnwAFPRzAz6aWpmCaCg/640?wx_fmt=png&from=appmsg) 最大，应该怎么选 x′？
+现在你想让 ![$x' = e_1$](SVD的几何方式解释_images/img_035_ef34ded9e983.png) 最大，应该怎么选 x′？
 
 ### ✅ 最聪明的策略：把全部“能量”压在 σ1 那个方向上
 
 也就是令：
 
-![$\begin{array}{c} x' = e_1 = \begin{bmatrix}1\\0\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy9Zx4Qw8xBNB6ib2mr5aOjFqzMWenpb5YqACTK0HEWY2nYJmeeV8h1Zw/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} x' = e_1 = \begin{bmatrix}1\\0\end{bmatrix} \end{array}$](SVD的几何方式解释_images/img_036_dc117a912486.png)
 
 那么：
 
-![$\begin{array}{c} \Sigma e_1 = \begin{bmatrix}\sigma_1\\0\end{bmatrix} \Rightarrow \|\Sigma e_1\|=\sigma_1 \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyg2nFFICFfxsJ1IncJ4DjBBexwRV35WByib3BZd8YTn3RVjzp5JVYNfA/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} \Sigma e_1 = \begin{bmatrix}\sigma_1\\0\end{bmatrix} \Rightarrow \|\Sigma e_1\|=\sigma_1 \end{array}$](SVD的几何方式解释_images/img_037_383c0f029461.png)
 
 这就是最大值。
 
 而 x′=e1 对应原始空间的向量是什么？
 
-![$x = V e_1 = v_1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyibhaVNX0TBkwXXdHwDe4yAxO8LOL7qcOdSLVwohzkriblvOicubaQIXlg/640?wx_fmt=png&from=appmsg)
+![$x = V e_1 = v_1$](SVD的几何方式解释_images/img_038_867c2df773b7.png)
 
 所以：
 
 > **原空间里让 ∥Ax∥ 最大的方向，就是 v1**  
-> 因为它被 ![$V^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy1r5CKPsojn6NpZoEC7LFfkonG2Vu3bqanAkO9b79MJtCOyJb5608bA/640?wx_fmt=png&from=appmsg) 旋到 e1，然后被 Σ 用 σ1 狠狠拉伸。
+> 因为它被 ![$V^T$](SVD的几何方式解释_images/img_039_4e110acfa19b.png) 旋到 e1，然后被 Σ 用 σ1 狠狠拉伸。
 
 * * *
 
@@ -395,11 +395,11 @@
 
 那输出是什么？
 
-![$Av_1 = U\Sigma V^T v_1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyVnKbWHbGuBtzsnkejqFIbh9atqGOumCU17483eHu7NeOoPUiaVmJlyg/640?wx_fmt=png&from=appmsg)
+![$Av_1 = U\Sigma V^T v_1$](SVD的几何方式解释_images/img_040_13a3b5cf45c9.png)
 
-但 ![$V^T v_1 = e_1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyDtzUufoELia0cRwvKXAEoj3RibBXMjFYwpCic7NtND1vq0RGYmkIdWtOA/640?wx_fmt=png&from=appmsg)，所以：
+但 ![$V^T v_1 = e_1$](SVD的几何方式解释_images/img_041_e59b674eea30.png)，所以：
 
-![$\begin{array}{c} Av_1 = U\Sigma e_1 = U \begin{bmatrix}\sigma_1\\0\end{bmatrix} = \sigma_1 Ue_1 = \sigma_1 u_1 \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyhj7grOa8I8jVS3axs4u82Su8zmL2umSCl4szk2ud4W7vFxs1dlHtpw/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} Av_1 = U\Sigma e_1 = U \begin{bmatrix}\sigma_1\\0\end{bmatrix} = \sigma_1 Ue_1 = \sigma_1 u_1 \end{array}$](SVD的几何方式解释_images/img_042_403a3948ea06.png)
 
 这句话非常关键，它直接对应图里的标注：
 
@@ -416,7 +416,7 @@
 
 同理：
 
-![$Av_2 = \sigma_2 u_2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyicp2DL3eoul7Us26q9V8yOia5VwQicvoKzOEFCtDwohDgibcc8FqPbGx0w/640?wx_fmt=png&from=appmsg)
+![$Av_2 = \sigma_2 u_2$](SVD的几何方式解释_images/img_043_dfbd1f3fe549.png)
 
 * * *
 
@@ -424,13 +424,13 @@
 
 把最关键的两条箭头用一句话说完：
 
-![$A v_i = \sigma_i u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyvB1Z6lMCPsDyxn1LAGWdJ9cK5fvq09M7mEiaoOt0RnTzYTBhChLnaUA/640?wx_fmt=png&from=appmsg)
+![$A v_i = \sigma_i u_i$](SVD的几何方式解释_images/img_044_847d32cfb71a.png)
 
 这就是 SVD 最核心的几何意义：
 
-> **矩阵 A 会把某些特殊输入方向 ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyt2ibjJQ2amaVAib7ib5ycfQ9G9fRhz92SLibyUAXAhAbCZHk1UaNAk1tPg/640?wx_fmt=png&from=appmsg)（右奇异向量）  
-> 变换到某些特殊输出方向 ![$u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzyGRAiakFOl436zibAPo7Q627mqib6MoKNBNbm5hgDDSBZL2CpRgwria95WQ/640?wx_fmt=png&from=appmsg)（左奇异向量），  
-> 并且缩放比例是 ![$\sigma_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzycVrPGnxZnXW0QoKhBSSwS7WBGyOP1y9FAypmmfxekgVsQic0WRPkOHg/640?wx_fmt=png&from=appmsg)（奇异值）。**
+> **矩阵 A 会把某些特殊输入方向 ![$v_i$](SVD的几何方式解释_images/img_045_b5ff2fd90d2d.png)（右奇异向量）  
+> 变换到某些特殊输出方向 ![$u_i$](SVD的几何方式解释_images/img_046_b293e307dbb1.png)（左奇异向量），  
+> 并且缩放比例是 ![$\sigma_i$](SVD的几何方式解释_images/img_047_03498e46ff14.png)（奇异值）。**
 
 * * *
 
@@ -445,7 +445,7 @@
 
 这时矩阵的秩就是 1：
 
-![$\text{rank}(A)=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tricYYqbJbRulzXHEicI7LIzy8XOgzHpJIJb9QLkGIJJDoqh32r40UnsrKdibdGV8tmKqCGqIozOcib2Q/640?wx_fmt=png&from=appmsg)
+![$\text{rank}(A)=1$](SVD的几何方式解释_images/img_048_22ea260181f1.png)
 
 如果只有一个奇异值非零，说明：
 

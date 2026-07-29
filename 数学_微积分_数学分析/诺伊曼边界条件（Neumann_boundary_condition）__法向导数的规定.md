@@ -85,7 +85,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocs8bAdPZtDpuYkHKdyw3hoYN7d9ibCcBhrwIOvVVsNA8w48Rom0w6K5LtdvUYxdbO1epw36opBnM6lLNASS6ZriasU1CDv8odBibg/640?wx_fmt=png&from=appmsg)
+![](诺伊曼边界条件（Neumann_boundary_condition）__法向导数的规定_images/img_000_7d06f610fec3.png)
 
 这张图用“冰块、保温层、加热器和山地地图”来解释 **诺伊曼边界条件（Neumann boundary condition）**。它想表达的核心思想可以浓缩成一句话：
 
@@ -120,7 +120,7 @@
 
 # 二、第1格：固定数值与控制流量
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocszpnuZJOhoUcOAsFqDqrHP4ciaFzWHoHp5FZzibG3Hz0JnzphGX8g2WPo7FtjmDuPpib0S1wyLqAJTiaEH0YTbaJ6ncLAsibSYiagibE/640?wx_fmt=png&from=appmsg)
+![](诺伊曼边界条件（Neumann_boundary_condition）__法向导数的规定_images/img_001_6d7da3ed6166.png)
 
 图片左半边是冰块和温度计，右半边是保温材料与流量计。
 
@@ -193,7 +193,7 @@
 
 # 三、第2格：完全保温——齐次诺伊曼条件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctt8fT6sPiciasAhn7MQASzEEPOG9aEdfib5R2m8pibCMP4iahKk5XqoVugS1WSOMjPEYTXbOZ6dDuqIc2xlE5PAovY8jXAux6yulvo/640?wx_fmt=png&from=appmsg)
+![](诺伊曼边界条件（Neumann_boundary_condition）__法向导数的规定_images/img_002_bd55375aa028.png)
 
 图片用一层厚厚的保温材料包住容器，并写出
 
@@ -256,7 +256,7 @@
 
 # 四、第3格：恒定加热——非齐次诺伊曼条件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvruqBTLancjnX7w3mT9JcL02QLzjdd4uNdYt5tPsAZpzycHm3Xy0xMIbV9pPS8MsuibsaY66K6ibIVkYib4AYrhc0odR0GF6kJib0/640?wx_fmt=png&from=appmsg)
+![](诺伊曼边界条件（Neumann_boundary_condition）__法向导数的规定_images/img_003_f2c1d4e47042.png)
 
 图片画了一个加热器，热量持续穿过容器壁，并写出
 
@@ -315,7 +315,7 @@
 
 # 五、第4格：法向导数公式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocu2ockhlKgaH1UaGDZqwf5rhiabUH7gCrCAiaInicyyt8sCL2BWuFdT4hyWM1TOkRTcJhbrvsgkedu73uKXrZjViclibMnsdRbezzj0/640?wx_fmt=png&from=appmsg)
+![](诺伊曼边界条件（Neumann_boundary_condition）__法向导数的规定_images/img_004_744208101343.png)
 
 图片给出核心公式：
 
@@ -373,7 +373,7 @@
 
 # 六、第5格：为什么解可以整体上下平移？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvL8q0asOmbzTLwfXRVtDAgnE8tuSuzWxSFFOrAnjB0gibHE81HmfOF3nutFPzb9YkT3VQyl7ngz2f13Jd76LA5wZ0YaWsaBiaJM/640?wx_fmt=png&from=appmsg)
+![](诺伊曼边界条件（Neumann_boundary_condition）__法向导数的规定_images/img_005_e45eaacd3590.png)
 
 这是诺伊曼边界条件最重要的数学特征。
 
@@ -432,7 +432,7 @@
 
 # 七、第6格：山地地图类比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctNMW4lItafUPsJ6IxG8QrSxmC1vCE3HF9G10Z6DtSR16CrFNqYZB55lZ3QZtSapPDrO2E2U6myae2RoDMwBEVRibVIauAhk8j8/640?wx_fmt=png&from=appmsg)
+![](诺伊曼边界条件（Neumann_boundary_condition）__法向导数的规定_images/img_006_72cc26d5375f.png)
 
 图片用地形来解释“知道斜率，却不知道绝对高度”。
 

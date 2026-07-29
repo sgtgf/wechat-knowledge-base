@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/b9wSk3E9TvJxIfXOfZQvWQ](https://mp.weixin.qq.com/s/b9wSk3E9TvJxIfXOfZQvWQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQULfdZ7R11TgWJrYQ90cXzPrzLgswPVhyHRRMokhqE37hiaXG3DfzkK7biaVgkkRusfaEB83WahoVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_6_天线的基参_images\img_000_60eda550e820.png)
 
 ____**★★★**______Antenna-6---天线的基参______**★★★**____
 
@@ -15,19 +15,19 @@ ___€1.天线的输入阻抗___
 
 天线的输入阻抗取决于天线的结构、工作频率和周围环境的影响，仅在极少数情况下可以用理论严格计算，工程中均采用近似计算或者用实验方法测量。天线输入端信号电压与信号电流之比，称为天线的输入阻抗Zin。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyhUuJgZrS9uLOGez2bIA7cvofwvf2aae1ZVo8XNOTDd0oKK5ThPVv2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_6_天线的基参_images\img_001_beb7c0d7d5c2.png)
 
 天线的实际阻抗含有电抗分量，输入阻抗具有电阻分量Rin和电抗分量Xin ，即：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyNEat5O0MoR0k6WJU63WicTFZ3gD2briaXHGlfqjeausrD7ltDsycvX7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_6_天线的基参_images\img_002_80e533ab399e.png)
 
 电抗分量的存在会减少天线从馈线对信号功率的提取，因此，必须使电抗分量尽可能为零，也就是应尽可能使天线的输入阻抗为纯电阻。事实上，即使是设计、调试得很好的天线，其输入阻抗中总还含有一个小的电抗分量值。输入阻抗与天线的结构、尺寸以及工作波长有关，半波对称振子是最重要的基本天线，其输入阻抗为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyGiaRyjWVLobblJF0OjfV6CMwiaXicbzepUCHfUM5ft41sswMo3GokGELw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_6_天线的基参_images\img_003_565b18247d28.png)
 
 当把其长度缩短（3～５）％时，就可以消除其中的电抗分量，使天线的输入阻抗为纯电阻，此时的输入阻抗为Zin=73.1Ω,（标称75Ω） 。严格的说，纯电阻性的天线输入阻抗只是对点频而言的，半波折合振子的输入阻抗为半波对称振子的四倍，即Zin=280Ω，（标称300Ω）。对于任一天线，总可通过天线阻抗调试，在要求的工作频率范围内，使输入阻抗的虚部很小且实部相当接近50Ω，从而使得天线的输入阻抗为Zin=Rin=50Ω，这是天线能与馈线处于良好的阻抗匹配所必须的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQkKeQHuGsCpCaTf9YIicoT99TSfR907tCia0ObdG2m7ibGZ5goQ6qrxzsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_6_天线的基参_images\img_004_c2e9f57a6c95.png)
 
 图6-1：阻抗不匹配的损耗
 
@@ -43,12 +43,12 @@ ___€2.___天线的频带宽度
 
 在移动通信系统中，通常是按前一种来定义，具体的说，天线的频带宽度就是天线的驻波比SWR不超过1.5时，天线的工作频率范围。以半波举例，在820MHz，1/2波长为180mm，在890MHz，1/2波长为170mm，175mm对应的850MHz是最佳频点，该天线的频带宽度=890-820=70MHz
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScu9CkMJxCJCxZ6tIXicvEkQcvsjmzghuQtUFhFGbc57xjtoFZhtPicwNU78PJiau8vu6dZ2DSpfhdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_6_天线的基参_images\img_005_864bec0c771a.png)
 
 图6-2：半波振子天线带宽示意
 
 分数带宽 （FBW）：天线的分数带宽是衡量天线宽带程度的指标，如果天线在低频f1和高频f2之间的中心频率fc下工作（其中fc=（f1+f2）/2），则分数带宽FBW由下式给出：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQl4mib6g9CicSJK66C8sia3jDIniax723fhMdEOofxtpZJv8m9OxXyv5kXur2s368MD6WIQ0fb7uR0IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_6_天线的基参_images\img_006_07ed48d82fdc.png)
 
 分数带宽在0到2之间变化，通常以百分比（0%到200%之间）表示，百分比越高，带宽越宽。宽带天线的分数带宽通常为20%或更高，而FBW大于50%的天线称为超宽带天线。

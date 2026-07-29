@@ -35,7 +35,7 @@
 
 我们先看一张很基础的图，电流从电池的正极出发，流向负载RL，再通过负载的另一端返回电池的负极，整个过程形成一个闭环，电流只能在这个环路中流动，这是电源的回流路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaNk7Sld7BQOU1iaTSxBB2AUJC2PUyUgUu8n0jkst8VC1dhhgSOEufPBp806IgHibwqxdFnvcK0W80A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_002_2c3609283366.png)
 
 信号的回流路径也差不多，信号从某个芯片的驱动引脚流出，经过传输线输送到终端，被另一芯片或其它电路元件接收。然后在信号驱动电压的驱使下，电流通过连接收发两个芯片地引脚的地线，流回驱动电压源的负极。
 
@@ -53,7 +53,7 @@
 
 3、电磁干扰EMI，不恰当的回流路径可能导致电磁干扰（EMI），影响系统的稳定运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaicggZpoibEEuYLQnOr54m06ZH6TjYups102QNB9UYenKRVpCodBqT6RRy7FAke5U6AYr0WYqia5xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_003_6e6c36d5dfc9.png)
 
   
 
@@ -65,7 +65,7 @@
 
 对于低频信号来说，信号会沿着阻抗最低的路径返回，这句话毋庸置疑。但是高频信号这么说就不一定对，随着信号频率的提高，导线的感抗逐渐加大，所以返回路径为感抗最低的回路，且集中在信号走线的下方，沿着PCB走线方向流动，大家可以看看下面这张图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaicggZpoibEEuYLQnOr54m0Dfsno2nGC8ibAlf251ibTs3KX0ppJorDwGtCcRc74595IXHn88rLQuvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_004_a1f47593622e.png)
 
 这张图来源群聊，好像是JT大佬视频来的
 
@@ -77,7 +77,7 @@
 
 我们先来看第一点，寄生电感怎么来的？先来百度什么是电感，从最基础的开始抓起
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzFlZFRiayicLl2uVl3eLyXFXC8w9uiarT34zvjibB7DE2ucuqsLAjibp6dsqw9gwaS41hfQgOOHosekg/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_005_f2dc033f096f.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&scene=21#wechat_redirect)
 
 从定义可以总结出两点：1、闭合回路；2、感应电流。也就是说只要在闭合回路中，导线上的电流发生变化，就会产生变化的磁场，而变化磁场又会产生反向电场来阻止电流变化，这种属性就是电感，所以我们的电路中都会存在寄生电感。关注公众号硬件笔记本  
 
@@ -91,7 +91,7 @@
 
 再回到JT大佬的书，最上面是高速信号的一个回流路径示意图，信号走顶层，然后通过底层地平面返回。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaNk7Sld7BQOU1iaTSxBB2AUDYIPOGh2Q4vTWJdxu5QhXWfsicnWOT8QM2iaMvluEbPibgQnqM2COZGAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_006_f1f9c0181bdb.png)
 
 再通过一个公式和电流分布图，可得出：返回电流主要分布在走线中心的正下方，而且电流板层越薄，也就是信号跟地平面越靠近，电流分布就越集中。  
 
@@ -133,19 +133,19 @@
 
 以下两个电路，是之前技术交流群群友发的，王工做了一个简单的分析，旨在帮助入门或转行的同学理解学习（点击图片直接进入）
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_007_b0d1466d16df.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_008_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjp9yy0z2QDvC7iaeHMB8Plb72fjzFv31icQfEKicFLricceMych76njNhNG0hjLDic7xB2vBr1mf0hTBA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=MzkwMzI4MTA4NA==&mid=2247498828&idx=1&sn=e91fc5514f5fb14ed26a6ba65a0dd795&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_009_b55be6bc4312.jpg)](https://mp.weixin.qq.com/s?__biz=MzkwMzI4MTA4NA==&mid=2247498828&idx=1&sn=e91fc5514f5fb14ed26a6ba65a0dd795&scene=21#wechat_redirect)
 
   
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_010_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\你说得对_____不懂信号的回流路径_画不好高速PCB_images\img_011_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -60,7 +60,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuAVBq37M9YETyccnwJRGAXPorqb5skpoYBEJ5q6ZPX9v9wWwh0hlw2SKNT2f8ggz4VVymvic4R6u9bUETOre4GeibWTmHjpZxLU/640?wx_fmt=png&from=appmsg)
+![](克莱罗定理（Clairaut_s_theorem）_变化的顺序无关紧要_images/img_000_3884a292a424.png)
 
 这张图在讲一个很重要、但名字听起来有点“吓人”的数学结论：
 

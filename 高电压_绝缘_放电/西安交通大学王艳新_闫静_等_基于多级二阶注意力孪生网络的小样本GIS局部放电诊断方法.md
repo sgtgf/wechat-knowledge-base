@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QWmGOSN0jyiandZn7eSGrmIqAmV5r4DHHQ3PbdCXI8uiaSpgdhc4KkGdncSDstkcWMr14u8PT0pMrA/640?wx_fmt=jpeg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\西安交通大学王艳新_闫静_等_基于多级二阶注意力孪生网络的小样本GIS局部放电诊断方法_images\img_000_fa8d0ca0a3e9.jpg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\西安交通大学王艳新_闫静_等_基于多级二阶注意力孪生网络的小样本GIS局部放电诊断方法_images\img_001_20dfdbaaa341.jpg)](http://www.eitrt.org/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\西安交通大学王艳新_闫静_等_基于多级二阶注意力孪生网络的小样本GIS局部放电诊断方法_images\img_002_eadffead456a.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约 1600 字
 > 以数据驱动的智能故障诊断方法近年来取得了突飞猛进的发展，然而受现场复杂工况和小样本条件的制约，训练高精度、高鲁棒的GIS局部放电诊断模型仍然是一个挑战。为将现阶段开发的模型部署泛化到现场，西安交通大学王建华教授智能电器团队提出了一种新颖的孪生网络，以实现现场小样本GIS局部放电高精度、高鲁棒诊断。
 **研究背景**

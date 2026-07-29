@@ -24,11 +24,11 @@
 
 以 SiC MOSFET 功率模块为例，考虑电路寄生参数的双脉冲测试电路原 理图如图 1 所示。UDRV 为驱动电压，RG 和 CG 分别为驱动电路中的电阻和电容；V1，V2，VD1，VD2 为功率模块中的开关器件和肖特基二极管（SBD）；L 为电感负载，CBUS 和UBUS 分别为母线电容和母线电压；CGD1，CGS1 和 CDS1为上桥臂 V1 的栅漏极电容、栅源极电容和漏源极电容，LD1 和 LS1 为其漏极寄生电感和源极寄生电感；CGD2，CGS2，CDS2，LD2 和 LS2 为下桥臂 V2 的相应寄生电容和寄生电感；LSS 为外部线路杂散电感，ID2为漏极电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQkgPRO7PXyzdTYarwxPXybUYeN2ySJ8SZLJ4LXicqtnzxicwZPJUlAJwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_000_1b285a4ced28.png)
 
 为便于分析，V1 通过外部线路将栅源极短接，对 V2 施加脉冲电压 UDRV，其开关过程如图 2 所示。在 t0 时刻，UDRV 由负压 UGN 变为正压 UGP，开始对CG，CGD2 和 CGS2 充电，UGS2 开始上升，经过导通延迟时间后，在 t1 时刻达到开通阈值电压 UGSth。此时，UDS2 开始下降，ID2 开始快速上升。在 t2 时刻，UGS2达到米勒平台电压 UM，UDS2 进一步下降。在 t3 时刻，UGS2 从 UM 上升至 UGP，ID2 达到峰值后，稳定在稳态值 IL，V2 被激活并进入导通状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQYNB7IaERjuy469I1TricFDvLcVC3YPd7fWLgqmK3q4LMK8oY3BbATCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_001_08b15216ba04.png)
 
 同理，V2 的关断过程与导通过程类似。在 t5时刻，驱动侧施加 UGN，UGS2 迅速下降至 UM，经过断延迟时间后到达 t6 时刻，UDS2 迅速上升，达到关断电压峰值 UDSmax。同时，在 t8 时刻，ID2 降为零，V2 进入关断状态。
 
@@ -36,13 +36,13 @@
 
 由图 2 可见，V2 在开通和关断过程中，UDS2 和ID2 存在不为零的交叠，在该时间段内，会存在功率损耗，对其在时间上进行积分，可得开关过程中的能量损耗，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQMQCfRz4O9hH21q85iacenyz5ZezqviceCMDgKfgOwhGM2AKJx5FiadJrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_002_706089a2fd86.png)
 
 可见，V2 的开关损耗主要由 UDS2，ID2 及其重叠时间 t1-t3 和 t6-t8 决定。在实际应用中，以开通过程为例，通常取10%IL 作为 ID2 和 10%UBUS 作为 UDS2来计算开通损耗。因此，开通损耗只受时间 t1-t3 影响，该时间越短，开通损耗越小。同理，时间 t6-t8越短，关断损耗越小。综上所述，减小时间 t1-t3 和t6-t8 可以减小开关损耗 Eswitch。
 
 然而，由于 UDS2 受 ID2 的影响，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQeysDnMDLGzQCnCvyOSTykHC6x7GhyjwCwKSYCRL2wicy5VqqoP9JY8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_003_5dc0582cfdbc.png)
 
 式中：Lloop 为回路电感。
 
@@ -54,7 +54,7 @@
 
 本文通过改变 RG 和 CG 的大小，进行一系列的双脉冲测试实验，分析SiC MOSFET 的开关特性，进而获得Eswitch和 UDSmax，综合考虑开关损耗和电压应力来设计驱动电路参数。图 3 为驱动参数选择和优化的流程图。首先，根据经验对 RG 和 CG进行初始化，然后在该组参数下进行双脉冲测试，采集开关特性曲线。判断电压应力 UDSmax 是否在可接受阈值U之内，若满足电压应力条件，则判断损耗是否在可接受阈值E之内。如果满足损耗条件，则在被测参数中求解使得开关损耗和电压应力均最小的最优驱动参数。否则根据相应的条件选择增大或减小 RG 和 CG，并重复以上过程直至找到满足开关损耗和电压应力条件的最优 RG 和 CG。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQVNhTpJ5GoxrnwZ6c7DGKzu9Bl8mSZD9rw6iczzWY0lPeCLs7ZmgGxRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_004_6ff79cf01c79.png)
 
 3\. 实验验证
 
@@ -70,7 +70,7 @@
 
 在保证 20 nF 驱动电容 CG 和 300 μH 电感负载不变的情况，分别采用 5 Ω，10 Ω，20 Ω的 RG 对SiC MOSFET 模块的下桥臂进行双脉冲测试，其开通和关断过程波形如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQsGgxA7AuibmDkoV5AS6WcGibmWJDwMpTzIH47icS4nWeBdF3vp0Oza0Og/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_005_c46bba949333.png)
 
 在开通过程中，如图 4a 所示，随着 RG 的增加，ID2 振荡明显减轻，但开通时间相应延长。同理，在关断过程中，如图 4b 所示，随着 RG 的增加，ID2 振荡明显减轻，漏源极电压尖峰逐渐减小。
 
@@ -78,19 +78,19 @@
 
 在保证 10 Ω的 RG 和 300μH 电感负载不变的情况，分别采用10 nF，20 nF，40 nF 的 CG 对 SiC模块进行双脉冲测试，其开通和关断过程波形如图 5 所示。在开通过程中，如图 5a 所示，随着 CG的增加，ID2 波形振荡明显减轻，波形趋于光滑平顺。同理，在如图5b 所示的关断过程中，随着 CG的增加，由于 ID2 波形振荡明显减轻，漏源极电压尖峰也明显减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQkdgpDMkZBeU2ibXzhQ4vS4U3icSvibJxmib5u3uECibxrV3NqKqEicBQl2uQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_006_54645e5f14c4.png)
 
 3.3 驱动参数设计与优化
 
 根据图 4，5 可得，V2 开关损耗和漏源极电压尖峰值随驱动电阻和驱动电容变化的趋势如图 6a所示。由前 3 组 RG 和 CG 组合可见，RG 由 5 Ω 增加至 20 Ω，Eswitch 由 6.47 mJ 增加至 17.58 mJ，增加了 171.7% ，而 UDSmax 由 775V 减小 至 724V，减小了 6.6%。这是由于 RG 的增加限制了 MOSFET 栅极电容充放电电流，减缓了栅极开关速度，从而使得开关时间延长，开关损耗增加。相反，栅极关断速度降低，关断时间延长，漏极电流变化率显著下降，由式（2）和 UDSmax=max（UDS2）可得，UDSmax 降低，从而 SiC MOSFET 承受的电压应力降低。对比第 2 组和最后两组 RG 和 CG 的组合可见，随着 CG 由 10 nF增加至 40 nF，Eswitch 由 8.39 mJ 增 加至 16.5 mJ，增加了 96.7%，而 UDSmax 由 781V 减小至 734V，减小了 6%。这是由于 CG 的增加减缓了栅极开关速度，从而使得开关时间延长，开关损耗增加。相反，栅极关断速度降低，关断时间延长，UDSmax 降低，从而降低了 SiC MOSFET 承受的电压应力。综上所述，增加 RG 或 CG 对开关损耗和漏源极电压尖峰影响效果相似。但在保证电压尖峰减小趋势相似的情况下，建议增加 CG 以获得最小的开关损耗增加。为求解最优驱动参数，将上述 Eswitch 和 UDSmax 表示于二维坐标系下，可获得如图 6b 所示的散点图。因此，求解最优驱动参数的问题可转化为寻找该平面中距离原点最近的点对应的驱动参数。显然，第 2 组驱动参数对应的实心五角星距离原点最近，即在该组驱动参数下，开关损耗和漏源极电压应力均最小。 因此，作为该模块的制造者，综合以上设计和优化策略，本文推荐第 2 组参数供驱动电路设计者参考。图 6a 中，①代表（5 Ω袁20 nF）；②代表（10 Ω，20 nF）；③代表（20 Ω，20 nF）；④代表（10 Ω，10 nF）；⑤代表（10 Ω40 nF）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQc3QM4TD013ibVSicticSofhXrN1x84bEiaU61dQicazcicSx6VU8Pic3icL2eQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_007_11599f3432f3.png)
 
 3.4 电感负载对驱动性能的影响
 
 为进一步验证所选驱动电路参数在不同电感负载条件下 SiC MOSFET 的开关损耗和漏源极电压应力，在保证 10Ω驱动电阻、20 nF 驱动电容不变的情况下，分别在 36 μH，147 μH 和 300 μH 的电感负载下，对 SiC 模块进行双脉冲测试，其开关损耗和漏源极电压尖峰随电感负载的变化如表 1所示。由表 1 可见，当电感由 36 μH 增加至 300μH时，UDSmax 呈现减小趋势，但是变化不大。具体而言，UDSmax 由 771V 减小至 754V，相当于增加了 28.5%-25.7%的直流母线电压（600V），该电压变化量均在可接受阈值以内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQzLiad8hD2sUlRHZzZr755ibEkQtHjygzEicjTrsW2Mf5Jv47uzlZDia8icQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_008_19023e7f2d22.png)
 
 此外，开关损耗呈现先减小后增加的趋势，但是开关损耗值均在 10-12 mJ 之间。综上所述，本文所选的最优驱动电阻和驱动电容在不同电感负载条件下，漏源极电压尖峰和开关损耗均在可接受范围内。
 
@@ -100,13 +100,13 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_009_80a84da559fb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_010_b6e0b6fba87c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑损耗与应力下_SiC_模块的电路参数设计_images\img_011_018eedab2a70.png)

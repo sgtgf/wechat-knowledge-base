@@ -25,19 +25,19 @@ SiC MOSFET 和 IGBT 的输出特性也不同。在正常导 通状态期间，IG
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHwkkVZpZ0NE6g7waKgukaUnVCkuVHicqF2Jy6AftYczGq1ZYsJhXjJhszMSD6WOHsRyby9GQU2mQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解用于碳化硅_MOSFET_的短路保护方法_images\img_000_46733cb79a54.png)
 
 该电路由一个电阻器、一个消隐电容器和一个二极管组 成。当器件导通时，电流源为消隐电容器充电并且二极 管导通。在正常工作期间，电容器电压被钳位在器件的 正向电压。发生短路时，电容器电压会快速充电至阈值 电压，从而触发器件关断。电容器充电时间称为消隐时间，计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHwkkVZpZ0NE6g7waKgukap8HFEuVhibpvSyZdmdfsqXXXoTDMicVPicn5oclOBsIIicPqUyA7YYpH9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解用于碳化硅_MOSFET_的短路保护方法_images\img_001_b648a8341c4a.png)
 
 对于 IGBT，去饱和阈值电压通常设置在转换电压附近，因为之后电流几乎可以受到限制，以便 IGBT 能够承受更长的时间。设计 SiC MOSFET 的去饱和电路时需要更多注意。为 IGBT 设计的消隐时间过长，无法保护 SiC MOSFET。一方面，SiC MOSFET 的转换电压通常非常高，因此无法限制电流。当推荐的短路关断时间小于2μs 时，去饱和阈值电压需要设置为较低的值。另一方面，SiC MOSFET 的快速开关速度会在导 通转换期间产生噪声。短路检测时间应设计得足够长， 以避免误触发，这使得 SiC MOSFET 的去饱和电路设计颇具挑战性。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHwkkVZpZ0NE6g7waKgukafKh9lWDA2IibMA85D1ibEHTXEgfkbaSx7QLf6HVj6XYdzPdW5z1EKWWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解用于碳化硅_MOSFET_的短路保护方法_images\img_002_e3b1bf833d0c.png)
 
 图 2 展示了分流电阻检测方案。电源环路中串联了一 个小电阻器来检测电流。该方案简单明了，可在任何系 统中灵活采用。为了保证信号精度和检测时间，需要使用高精度电阻器和快速 ADC。该方法的缺点在于功率损耗。在大功率系统中，大电流会在分流电阻器上产生较大的功率损耗。在小功率系统中，需要更大的电阻来 确保检测信号的准确性，这也会在小功率应用中产生损耗并降低效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHwkkVZpZ0NE6g7waKguka0FSf3siadMHuz4OupicxZfA8qicnQvdTFovLzfXHansjcagUvWc8ibggxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解用于碳化硅_MOSFET_的短路保护方法_images\img_003_195780c706f3.png)
 
   
 
@@ -49,8 +49,8 @@ SiC MOSFET 有望取代 IGBT，从而实现更紧凑、更高效的系统。SiC 
 
 UCC217XX 系列具有出色的过流和短路保护功能。凭借较短的检测时间和故障报告时间，栅极驱动器可以在故障发生后立即关断 IGBT 和 SiC MOSFET 模块，并向隔离式输入侧报告故障。UCC217XX 系列支持上述所有三种检测方案，这使得该驱动器适用于各种系统设计。该驱动器可以针对过流和短路故障提供可靠的保护，并提高系统的稳健性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解用于碳化硅_MOSFET_的短路保护方法_images\img_004_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解用于碳化硅_MOSFET_的短路保护方法_images\img_005_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解用于碳化硅_MOSFET_的短路保护方法_images\img_006_84aa944feb13.jpg)

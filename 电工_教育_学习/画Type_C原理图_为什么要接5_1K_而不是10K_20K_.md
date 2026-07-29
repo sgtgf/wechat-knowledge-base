@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/pU8yvh6p8pReDLMV1pKXHQ](https://mp.weixin.qq.com/s/pU8yvh6p8pReDLMV1pKXHQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_001_9011be9decf6.gif)
 
 前段时间，咱们聊Type-C原理图设计时，提到了CC引脚上的那颗5.1k下拉电阻。[画Type-C原理图？先把这个5.1K电阻圈起来](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247567305&idx=1&sn=1c2945746cf70b8033992dc536a45bf2&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacG1UOz7gBdXEMHG7Z7gcDhJLx4wDVcjxs7taZdf2jEics1jyshxUicTNTTTD9fLNKQyyiaDiaE0HXfszjBn8Bse3nwJWwexaGyvGI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_002_bf538a9c5269.png)
 
 当时只是简单交代了它的作用——配合内部上拉电阻实现设备角色识别、正反插检测和供电控制。文章发出来后，有朋友问：为什么非得是5.1k？换成10k或者20k行不行？  
 
@@ -26,7 +26,7 @@
 
 受电方（比如你的设备）的CC引脚上，则需要一个下拉电阻Rd到地。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niafPiahdiafrI976w2GpDHqYpItnNQApibCnCWUOdwPCOTPeAAsX2rXhRiaHCQAm8blk5jwjgicDLFNWsCO1VBZZia0RX65s2semRHmaI/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_003_a741610aa24b.jpg)
 
 当Type-C线缆把供电方和受电方的CC引脚连在一起后，Rp和Rd就构成了一个分压电路。供电方通过检测CC引脚上的电压值，从而知道受电方是什么类型的设备。
 
@@ -50,7 +50,7 @@
 
 通过手册可以查到，不同输出模式下，上拉电阻或电流源的规格。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacgnRerqAw0VYWK8o9YV5icKAPszB4dFC9I1zetA3xIsJjdS0dH675L6GFQNqkN0OLTwia4MmZibY7vibvTXgMHJfAiaSnwCRvLeUnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_004_8608fe46b7d8.png)
 
 你可能在网上见过类似的说法："5.1k代表3A，10k代表1.5A，22k代表500mA"。**这个说法在早期的Type-C规范草案中出现过，但在正式规范中被PD协议取代了。**
 
@@ -80,7 +80,7 @@ PD协议通信用的是BMC编码，通过CC引脚上的高低电平变化来传�
 
 在这个过程中，5.1k电阻依然起着作用，它给CC引脚提供了一个确定的直流偏置，让通信能够在一个稳定的电平基础上进行。如果没有这颗电阻，通信信号就没有参考地，根本传不起来。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacO4HRDPHciahBLLWia0y6U6zL9MMQOoXibGibdumkmoveBeZAXGK0z2408easEibmXUmw7ZnE8hNlTSD3nPQshTf9ribIIqhL8m2icJo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_005_fdb6832ab56f.png)
 
 所以，5.1kΩ的真正含义是：**"我是一个支持Type-C规范的设备，准备就绪，可以开始PD通信了。"**
 
@@ -90,7 +90,7 @@ Type-C规范里还有一种电阻叫Ra，阻值范围800~1200Ω。它不是给�
 
 主动式线缆是什么？就是那些内部带了芯片的线缆，比如长距离高速数据线里面可能有信号放大器、支持5A大电流的线缆里面可能有E-Marker芯片识别电流。这些线缆内部的芯片需要供电才能工作，Ra就是触发供电的开关。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacOjFjcicUzlXJiaV9uqmCNEInyTx8ibYdrcQvFaPbRZOWhm3B5y0wGKG5D2m55MWbNMiaRNL3pBEGnz5Ef8HYw8WSy1YicAiapCdA4I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_006_544e00283f5f.png)
 
 当DFP检测到某个CC引脚接的是Ra而不是Rd时，就知道这根线缆内部有芯片需要供电，于是把这个CC引脚切换成VCONN模式，输出4.75~5.5V、最大1W的功率给线缆供电。
 
@@ -102,12 +102,12 @@ Type-C规范里还有一种电阻叫Ra，阻值范围800~1200Ω。它不是给�
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgrpFGD2SeQkEs0NdmabDyNzF4TElQUMZelbcZVLsYOVXvVGd0oicACnXV3WxMJ0sEephsfnwQcRcg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=6)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561335&idx=1&sn=0ef48120c22a90b202dbeb26e94eddfa&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_007_91dc7a57fa3d.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561335&idx=1&sn=0ef48120c22a90b202dbeb26e94eddfa&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgrpFGD2SeQkEs0NdmabDyN5zL5KOE8e7TKAGSXgwkhOQMRfMMCWnvNSqAOhibqiaibPWPU1SUOYcYBA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=7)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561229&idx=1&sn=af2ba5b6c8ec328a7f2399de00d965c4&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_008_6a3eed478ff5.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561229&idx=1&sn=af2ba5b6c8ec328a7f2399de00d965c4&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgrpFGD2SeQkEs0NdmabDyNL9Hlx1UkOaiaN6rzDJoMf9txkSeU7ReJaGZgJ6nPOgK0XYEeGu7eafw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=8)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561890&idx=1&sn=4fd14261f9dcadcedf7fc2454707818e&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_009_4a8d08a5875a.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561890&idx=1&sn=4fd14261f9dcadcedf7fc2454707818e&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niadicXL6M10cqB3iaIso20FveqvV7Mh1CIlKQEhTI6wsppDBMBicxSmyfMiaOwRvAtBHKnBDGapobBK9w4IvJhoke8znEJoODYFaYLI/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_为什么要接5_1K_而不是10K_20K__images\img_010_dc202221ad1d.jpg)

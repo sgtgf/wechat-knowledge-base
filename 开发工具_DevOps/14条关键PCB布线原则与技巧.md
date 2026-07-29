@@ -23,7 +23,7 @@ PCB（印制电路板）布线是电子产品设计中的一个重要环节，�
 -   当你不知道怎么开始布线或者遇到困难，可以使用自动布线作为灵感来源。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzv1yTnOBCVgUjuYdEolrV1rkktpKvibAw3RzEmGDqhztT7xJkoxu1UJ4Q/640?wx_fmt=jpeg&from=appmsg)
+![](14条关键PCB布线原则与技巧_images/img_002_9ceec96ff983.jpg)
 
 **二、了解制造商的规格**
 
@@ -60,7 +60,7 @@ PCB Layout 工程师 必须确定每条走线的最小宽度，以避免电路�
 -   如果组件已经采购，那么建议按照尺寸在纸上打印布局，并查看组件是否合适。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvt2fANRrWDtibUeiaSrO5EDiaGns9ICXOOfy63mvvNONZ8IPID3szK94AQ/640?wx_fmt=other&from=appmsg)
+![](14条关键PCB布线原则与技巧_images/img_003_dc7221f8e4be.jpg)
 
 **六、保持模拟和数字走线分开**
 
@@ -85,7 +85,7 @@ PCB Layout 工程师 必须确定每条走线的最小宽度，以避免电路�
 
 在传输信号的走线下放置一个接地层有助于降低其阻抗并提高抗噪能力，建议是将电源和接地层放置在电路板的最内层，使它们保持对称和居中，这样可以防止PCB 弯曲。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzv831iaSySlWjyC3DmxQxubhSv6BeTelrKibfibEIElgIiaq3zrvmlzHO2xQ/640?wx_fmt=other&from=appmsg)
+![](14条关键PCB布线原则与技巧_images/img_004_5db55b77e00d.jpg)
 
 **八、走线和安装孔留有足够的空间**
 
@@ -95,7 +95,7 @@ PCB Layout 工程师 必须确定每条走线的最小宽度，以避免电路�
 
 在使用插件时，要记住在安装孔的物理尺寸之外留出一圈空间，以保护它免受附近其他组件和走线的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvdFEPXyg7L44oPt8hp5ictMVJgxoWOL812icric33CTQ2ibZibqnfy3icBN8w/640?wx_fmt=other&from=appmsg)
+![](14条关键PCB布线原则与技巧_images/img_005_59d4324392ee.jpg)
 
 **九、交替走线方向**
 
@@ -121,7 +121,7 @@ PCB Layout 工程师 必须确定每条走线的最小宽度，以避免电路�
 
 放置焊盘可以提高PCB板的可靠性。在焊盘的设计中，需要考虑到焊接工艺和焊接质量，以及元件与PCB板之间的机械强度和稳定性。通过优化焊盘的设计和布局，可以提高焊接质量，减少焊接缺陷，从而提高PCB板的可靠性和性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvlYrbz6lemz9f39dJxKTrVTGFEAA3dPbcjvkxwCXSFsMno1ISibGu89A/640?wx_fmt=other&from=appmsg)
+![](14条关键PCB布线原则与技巧_images/img_006_31d7a9dbe049.jpg)
 
 **十二、接地和电源走线**
 
@@ -133,7 +133,7 @@ PCB Layout 工程师 必须确定每条走线的最小宽度，以避免电路�
 
 与连接到集成电路的所有信号走线相比，你可以看到 +5V 电源走线的宽度更大。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjkOf1ALX5TicXatQcmiaWIzvFIIEp82A1icbA5Z48DZrFVBzkskIwibUHnVFe9M4a7MLgWaUMLJyC6wA/640?wx_fmt=other&from=appmsg)
+![](14条关键PCB布线原则与技巧_images/img_007_993c8d7dc53a.jpg)
 
 **十三、利用丝印层**
 
@@ -156,7 +156,7 @@ PCB Layout 工程师 必须确定每条走线的最小宽度，以避免电路�
 
 走线贯穿整个PCB 和组件周围，最佳角度是45°。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](14条关键PCB布线原则与技巧_images/img_008_8f8c22b4fa63.jpg)![](14条关键PCB布线原则与技巧_images/img_009_d5dcc7ecfdf3.jpg)
 
 ## 
 

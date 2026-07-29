@@ -12,7 +12,7 @@
 
 MOS管这颗元器件，说简单也简单，说难也难！虽然几年前就给大家分享过这份资料，但最近发现还是有不少同学在基础问题上踩坑——N沟道和P沟道傻傻分不清，寄生二极管方向搞反，开关接法有误。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdalcwH17Ae7cCbwLrnPtyoQ7RVj1Ja2r1yU34R6sUSgQujxgrwM9pDg/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_002_48039ec5854d.png)
 
 今天，咱们就**再盘一盘这份经典MOS管详解PDF**，内容基础、实用，特别适合**刚入行的硬件工程师**，或者**想巩固基础的老鸟**！别嫌它简单——往往越是基础的东西，越容易在关键时刻坑你一把！
 
@@ -21,65 +21,65 @@ MOS管这颗元器件，说简单也简单，说难也难！虽然几年前就�
 -   三极识别：G、D、S极怎么快速判断？记住口诀：“两根线相交是S极，单独引线是D极”！  
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdHMbwEU5gw2uCVCrUA30EsjSdBfNBxkCBCZZpicWkUib7WIRib0Jqf9uew/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_003_d4b826af42a8.png)
 
 -   **沟道类型**：箭头指向G是N沟道，背向G是P沟道，寄生二极管方向跟着走，别搞反！  
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdYgwZr8Hze0vgyGUg3ENZI50VlydZH79o6OOicOMkuriakbLktUnA6xkg/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_004_414825e102d8.png)
 
   
 
 -   实战接法：NMOS的D接输入，PMOS的S接输入——接错了？MOS管直接变“导线”，开关功能报废！  
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdWxtlsTqm5HZuwoianFvj1I2RdJuzNc8TLaA9x0h4DicQia1fHp6PyGDeA/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_005_5184391fe7a2.png)
 
   
 
 -   **万用表测量**：用二极管档测DS，红黑表笔怎么搭？0.7V和1.2V背后藏着什么秘密？  
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdibjn0UrMsU7BKmxhXnQkhIX39pQ26AeEbuTKtJkd5pJpw6pr5CZ0UBw/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_006_e41e0ded825e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdapnCwHFe9PCwgeySASL5PXeEZpUibjaDTTHSrvXFVvpbUI6Pc1ZHZIw/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_007_54188a250ceb.png)
 
   
 
 -   避坑指南：我们主板电路上的MOS管一般有哪些作用？
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdgsTY1vOCYibUXNyovyXrooFwatJCu7TlXqDelE7sgw9ZfpLBtOOia1IA/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_008_ae51ad78e036.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdhUhTh8iaXrbcFKYPLCGX1Cs0ia63tyErchgvFNXaHPg7DDibKNBSO4ZDA/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_009_1afa763a2e20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdsPBIibrFqd7YJuAibFz5k03eEzHKTMmiazaGkuxgwMCqNhmniaUmv0WeGA/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_010_e3e10967a451.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdVIPNkibsP27jp39dxTy71ianoOhshkbEmFZ0udalS2C5IkbXYg1PYnjQ/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_011_d62d4b70bc1b.png)
 
   
 
 -   MOS管是怎么实现隔离的？
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdjErSicqQvt9G6FIBia2iafL1hSZUkJxApj37gwbCTIxkeLx3ZkLxnI33A/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_012_5c3f3b6afe38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjd362v8KlvOPEribRdzN6Dpm2Yyk4C6t90yFHUPLeAkAnoVvOLmYShmkw/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_013_cea98c6d0419.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdMtyXAC6ict4MrqbHW3lRibwLZbav8e2wg9q1uDAHIDibVeSntg3j9k9Ew/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_014_3d86e8e9627d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdkfiahSQsfvyEic1xCEDDcRk3nCggvicuyIbodwqWvPyiaKPEDcwQ6xzvFw/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_015_178ef04e98f2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdtRRNSvk9zhlbrzypnxC0lXclaCJbbp8j16ibibObKG0KPlXAwsHLZcyw/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_016_a94e75f875c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdowzUC7I4ibYgb1vzWAmMDRoY2KpPHqaSDqDddCmoNLuldAkYt1hLX2g/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_017_f93152d5e904.png)
 
   
 
 -   文档最后还有“大家来找茬”环节，测测你的眼力！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdsEqVzvqlRJMCVyMZsl2eu60mOiaxY1cicqic1RCp3X5UetFbPFmlxUlLA/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_018_2fb341ed142b.png)
 
 **为什么今天又推它？**  
 
@@ -88,7 +88,7 @@ MOS管这颗元器件，说简单也简单，说难也难！虽然几年前就�
 **获取方式：**  
 在微信公众号硬件笔记本，后台回复 **【****MOS****管资料****】** ，即可获取55页PDF文档下载链接。也可以在评论区聊聊你曾经因为MOS管踩过哪些坑？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9KKROducOMTGUvUOVEWjdiayOBquNFVYODD8icpgE8jVKAGtU54NsszfouvCXRPicRfUAaJWfvot2w/640?wx_fmt=png&from=appmsg)
+![](这份MOS管基础资料_我当年要是早点看到就好了__images/img_019_0b42b6f5d754.png)
 
   
 
@@ -102,13 +102,13 @@ MOS管这颗元器件，说简单也简单，说难也难！虽然几年前就�
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](这份MOS管基础资料_我当年要是早点看到就好了__images/img_020_e284c1e1665f.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](这份MOS管基础资料_我当年要是早点看到就好了__images/img_021_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjlXjk6N5523uiag35OccaBaVvlib66Dxrz14E0HYrXUmQBiaouaibwgD3WrYod7djF56YrTj2cefy8Kw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjlXjk6N5523uiag35OccaBaxcfLwwFdbScDSCa65DSvlTMHBdhYkyV2TibBibZ3KETWiaGLa8Wmiaa9FQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)
+![图片](这份MOS管基础资料_我当年要是早点看到就好了__images/img_022_109c46074483.jpg)![图片](这份MOS管基础资料_我当年要是早点看到就好了__images/img_023_39274a035385.jpg)
 
 ## 
 

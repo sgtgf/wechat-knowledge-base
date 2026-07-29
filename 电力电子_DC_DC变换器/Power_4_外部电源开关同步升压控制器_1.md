@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ejwMF7wjDKjokg5RlHLw7A](https://mp.weixin.qq.com/s/ejwMF7wjDKjokg5RlHLw7A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtItL4H2AGJTGzb8qKBJP5Dd0tN449DdvkRiaoEtuckibSqIVsrrIQIIGnA/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_000_15090248e80b.png)
 
 ____**★★★**______Power-4---同步升压控制器______**★★★**____
 
@@ -15,11 +15,11 @@ ____€1.__使用结构__
 
 如**_图4-1_**所示是一个单相单输出的外部电源开关同步升压器的使用图，顶部栅极驱动器和底部栅极驱动器分别驱动同步MOS和开关MOS。这样的结构带来的好处就是输出电流可以做到很大，外置MOS使得散热非常好，控制器基本不发热，当选用MOS的Rdson越小，整个电源效率越高，热耗越小，散热也只需要对MOS进行处理，缺点就是整个供电模块体积会变大，Layout要求也比较高。（传送门：[DC-DC-3：升压型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485610&idx=1&sn=1b5c384bbbc1191f9d32d5320e72a5a9&chksm=c3354235f442cb236b741c581cf7ad613115cfd919af3760d1d01a13520c07d8590dc57223f7&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSB9287JJvoTD2tHh7KDYKNVv5wFDqMoqFrf7kQLKV3c3K970uFZFSvUkzUEZ1mYx54rTWgGZkrkg/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_001_087ab8a13ddd.png)
 
 **_图4-1：单相单输出_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSB9287JJvoTD2tHh7KDYKN9CdH6UkaHlx1VTEgRTfk7WmHVOGyGMxjYLb5JlrhqhF0AenIYlFjmw/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_002_6beaa811b41f.png)
 
 **_**_图4-2：分支电流波形_**_**
 
@@ -55,21 +55,21 @@ ___€3.设计考虑项___
 
 功率MOSFET的选择标准包括Rdson、米勒电容、输入电压和最大输出电流，米勒电容可以从MOSFET制造商的数据表上通常提供的栅极电荷曲线近似。当控制器在连续模式下运行时，顶部（Main Switch duty cycle）和底部（Synchronous Switch duty cycle）MOSFET的占空比为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GbQ0ia4Gsv79PYBucqic0hnZ4uym3aq4EBF00SicSwE5EMShYM5SzWDeWg/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_003_ce18f1a7d10e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GwkLKgqWianmibjSqxZald1XBkROHhUydhdDJoZAUibpLDLoRrf0Hw4lRA/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_004_e73e29448075.png)
 
 如果最大输出电流为Ioutmax，则最大输出电流下的MOSFET功耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2G9uXKl7B9Bahv3ibENPBCERCVPmaXxWfF4r4eUrmzcC2lvWwh58LkibUQ/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_005_5781b732f0b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GLiazicIMATr4KKvZUyIs90lfrm4Hj4bFpJA6Xu82ZoN2vhHpqob06xCA/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_006_a42bd455ec2a.png)
 
 如果是双相输出，则每相占总输出电流的一半，则在最大输出电流下，每个通道的MOSFET功率耗散情况为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GqqpJJvTNQg7fpDhhv6aVgdzhCZHATHBcrIfInraIiaqkN9n6shjlSgg/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_007_e5c9be63f109.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GQENPWaibiaojcdCzIbYWaqemca80r08Px6EuqIS1qOPEbmfBoH7TZsFg/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_008_5230ef0e7d0f.png)
 
 其中，d为RDS（ON）的温度依赖性（约为1Ω）。常数k是由反向恢复电流造成的损失，它与栅极驱动电流成反比，其经验值为1.7。
 
@@ -101,7 +101,7 @@ _____€5.___电感选型__
 
 工作频率和电感器的选择是相互关联的，因为较高的工作频率允许使用较小的电感器和电容值，但是频率也会影响效率。由于MOSFET门电荷和开关损耗，较高的频率通常会导致较低的效率，此外在较高的频率时，体二极管传导的占空比较高，这导致效率较低。除了这些基本的考虑之外，还必须考虑电感器值对纹波电流和低电流运行的影响，电感器的值对纹波电流有直接的影响。电感纹波电流ΔIL随着电感或频率的增大而减小，并随着Vin的增大而增大：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GnKxTbzickqbiblenZVicNfoTYOy1C2GmZ56ey4ZBn56ibicGyVcQsjtP2fQ/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_009_d5ccd384ea16.png)
 
 能接受较大的ΔIL值则允许使用较低感值电感，但会导致更高的输出电压纹波和更大的铁芯损耗。设置纹波电流的合理起点是ΔIL=0.3（Imax），最大的ΔIL发生在Vin=1/2Vout处。
 
@@ -115,13 +115,13 @@ Cin值是源阻抗的函数，一般来说，源阻抗越高，所需的输入�
 
 在升压转换器中，输出具有不连续电流，因此Cout必须能够降低输出电压纹波，在为给定的输出纹波电压选择合适的电容器时，必须考虑其ESR和容值的影响。单相升压转换器中体容量充放电引起的稳定纹波电压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2G5LTnfdMG6DInokIyNW8TM9ZuMtBY3PxZtuJ3D9LHkf4cWhS33hjMTg/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_010_8b2637eea120.png)
 
 其中Cout为输出滤波器电容器，Iom=Iout max。
 
 通过ESR的电压降引起的稳定纹波：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GG7OxIuUgtJluRl7P33Z9tXUicpqZ30BEb6XKMCxwqrGZcdRIfdOEXjg/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_011_9f38608213a7.png)
 
 一般需要并联多个电容器，以满足ESR和RMS的要求，固体钽电容，特殊聚合物，铝电解质和陶瓷电容器都可以使用。陶瓷电容器具有优良的低ESR特性，而OS-CON和POSCAP电容器现在可提供低ESR和高波纹电流额定值。（传送门：[Capacitor-8：聚合物铝固体电解电容-2](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247488992&idx=1&sn=caa9e20fbc3568e586769a5cf8e5db40&chksm=c3355f7ff442d6692403773b268282f7e1688b7406c1ef48087a7625e12fea7d6680d5e531de&scene=21#wechat_redirect)）
 
@@ -129,12 +129,12 @@ _____€7.___灵活使用__
 
 部分升压控制器还支持更多元的拓扑使用，如**_图4-3_**所示，将同步MOS用肖特基二极管替代，降低了成本，但通常不建议这样使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GZoYTBb4S4x7GP9lYpLFycD798VzcFicxVQicpcLrKgBqsmicMkThGw5vA/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_012_c33c0d30def7.png)
 
 **_**_图4-3：非同步24V-2A升压转换器_**_**
 
 升压控制器还可以扩展成SEPIC拓扑，实现升降压使用，如**_图4-4_**范例所示，采用耦合的电感L1，交流耦合电容器为4个并联的4.7uF超低ESR电容器，在18V＜32V时，可以稳定输出24V。（传送门：[DC-DC-12：什么是SEPIC升降压DC-DC？](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490402&idx=2&sn=0752d6492e864ae6ba4712b3d722a028&chksm=c33551fdf442d8ebc14e0131d5c4a4dff054c38b28f0a50766ba153820ae2987ad7afea6f891&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEoeah0Fxg8iawDUtdgHw2GmzEA9ibuBORibibPib5ORicvqm3xfWLQPDJPzmPy3kz4ocMoxB4cAAnwCVg/640?wx_fmt=png)
+![](Power_4_外部电源开关同步升压控制器_1_images/img_013_2898dc7a1d90.png)
 
 **_**_图4-4：24Vout-SEPIC转换器_**_**

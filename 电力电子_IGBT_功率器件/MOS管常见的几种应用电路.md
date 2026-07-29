@@ -24,7 +24,7 @@ MOS管最常见的电路可能就是开关和放大器。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia6SWxO2URrIiaM3wNZZCMAibH1BaKJ8ZsffdqPkv7qvagzIOWpicVA2IYEicHCcjGh9lKQADYoD0ic8Jg/640?wx_fmt=png)
+![](MOS管常见的几种应用电路_images/img_002_309587177b66.png)
 
 G极作为普通开关控制MOS管。
 
@@ -36,7 +36,7 @@ G极作为普通开关控制MOS管。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia6SWxO2URrIiaM3wNZZCMAibLyjkVdQaLu1EzR3cQE0LpUA0QXRJQEXZkOUqU2ol96RaELSmYucsZA/640?wx_fmt=png)
+![](MOS管常见的几种应用电路_images/img_003_3f32ecc5a508.png)
 
 让MOS管工作在放大区，具体仿真结果可在上节文章看到。
 
@@ -55,7 +55,7 @@ G极作为普通开关控制MOS管。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia6SWxO2URrIiaM3wNZZCMAibQm5hLkrQfll8XnRfbyAaqm0vDcpWxLAKiaEPXFtfhvp5vwjZ0z3uDdg/640?wx_fmt=png)
+![](MOS管常见的几种应用电路_images/img_004_eef4469982c5.png)
 
 这时MOS管起到的就是反相的作用。
 
@@ -77,7 +77,7 @@ G极作为普通开关控制MOS管。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia6SWxO2URrIiaM3wNZZCMAibHoy56Ricn8PicOaYwDKzWKHicursNt1gFiaGTXpnicRbCPOCVdt9sCMnk3w/640?wx_fmt=png)
+![](MOS管常见的几种应用电路_images/img_005_72478f113aff.png)
 
 # 2\. 工作状态分析
 
@@ -122,7 +122,7 @@ G极作为普通开关控制MOS管。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia6SWxO2URrIiaM3wNZZCMAib3XGglZTG8sDEnYAwK3uC5rgviajgSNgUgddHvw467hQMwZtFMhaG7ag/640?wx_fmt=png)
+![](MOS管常见的几种应用电路_images/img_006_b4378fabaf79.png)
 
 # 2\. 工作状态分析
 
@@ -155,7 +155,7 @@ MOS管在这里实现的仍是开关的功能，但是避免IC1和IC2的端口�
 
 常见的简单电源切换电路如图1所示，但这个电路应用条件是有限制和缺陷的，比如电池电压VBAT不能大于外部电压VIN，常见的电池电压为3.7~4.2V，外部电压为USB的5V时没有问题，但是电池电压为7.2V就不能使用了；(关注公众号：硬件笔记本）肖特基二极管的压降虽然已经较小，但是依旧有零点几伏左右，损失的功耗较多，5V外部电压进来就只变成4V多了；外部电压供电时，会通过P型MOS管的体二极管给电池进行非正规充电，当然这点可以通过将Q4 MOS管左右翻转一下解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia6SWxO2URrIiaM3wNZZCMAibAhYRlCNnLibehElpNAfRLdBH48IYqx8rLHqQJVGhicdBfP1Mx7hj2CdQ/640?wx_fmt=png)
+![](MOS管常见的几种应用电路_images/img_007_fc2ce687edc0.png)
 
   
 
@@ -167,7 +167,7 @@ MOS管在这里实现的仍是开关的功能，但是避免IC1和IC2的端口�
 
 当没有外部电源VIN时，三极管Q7截止，三极管Q6导通，Q3 MOSFET的栅极电压为低电平，栅源电压小于0且达到导通阈值电平，Q3导通，然后通过Q5的寄生二极管达到输出端VCC，而Q5的栅极此时为低电平，因此栅源电压也小于0，Q5导通，其寄生二极管截止，电池电压到达输出端VCC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia6SWxO2URrIiaM3wNZZCMAibjNKl2FKQJ2tk6XNQ5p4ibVx6SRxD1p8LyZ5z6zmtbqicwecA6BGzCdJA/640?wx_fmt=png)
+![](MOS管常见的几种应用电路_images/img_008_43b87c0e7aa2.png)
 
 图2
 

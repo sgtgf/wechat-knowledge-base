@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5DG6-ru4V8bZ9iWUld59cw](https://mp.weixin.qq.com/s/5DG6-ru4V8bZ9iWUld59cw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvErah8Bvt32Db8OFGN7ApDibFOXlm3OjVoibf5fia2CB5qc4gQMrB0aaDg/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_000_916049a44c76.png)  
 
 ____**★★★**______EMC-3---噪声的传输和放大______**★★★**____
 
@@ -13,7 +13,7 @@ ___€1.差模/共模噪声___
 
 EMC-1（传送门：[EMC-1：噪声的本质和信号的频谱](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247491902&idx=1&sn=611f16e5db6e54a95f7d0498c63f3386&chksm=c336aba1f44122b77ea924b964fd3612d79ff25b462c0e2b93614e19f8fd91b6d1bfc1874dfe&scene=21#wechat_redirect)）中将电磁干扰EMI分为“传导噪声”和“辐射噪声”两种。其中，传导噪声根据传导方式可分为“差模噪声”和“共模噪声”两种。这里将差模噪声和共模噪声不视作噪声类型，而是定义为传导噪声的流转方式，如**_图3-1_**是差模噪声和共模噪声的噪声电流流向。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjwP5RiajvrH3uaWwWAA2Biby3Bo4R7KWpMW00oZo0QGzbh3niarPgxyr8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_001_aa2b1610514a.png)
 
 _**图3-1：左--->差模噪声传导路径；右--->共模噪声传导路径**_
 
@@ -23,13 +23,13 @@ _**图3-1：左--->差模噪声传导路径；右--->共模噪声传导路径**_
 
 如前所述，这些噪声就是传导噪声，由于电源线中流动着噪声电流，因此会发出噪声。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjwuJC8ibBdg8TatmnIg0ibsnBXkWNFfRIJWWD1ibyTKRy6Zo8e5zvoliaEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_002_fd9a9860e719.png)
 
 _**图3-2：差模噪声辐射三维视角**_
 
 由差模噪声引起的辐射的电场强度Ed可通过**_图3-2_**中的公式来表示。Id为差模中的噪声电流，r为到观测点的距离，f为噪声频率。差模噪声会产生噪声电流环，因此水平环路面积S是非常重要的因素。如图和公式所示，假设其他因素固定，环路面积越大则电场强度越高。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjnWJnjjdMbnBIGy6njicnBOOAFzANjwJTrYCeoUo3mlorvVzX1t5OTXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_003_a2758cfc90ab.png)
 
 _**图3-3：共模噪声辐射三维视角**_
 
@@ -39,7 +39,7 @@ ___€2.差模/共模噪声计算___
 
 为了更好地认识每种噪声引发的辐射特点，接下来代入实际数值来计算一下电场强度，电场强度的观测点用蓝色圆点来表示，其中探测距离1m，线路长20cm，宽1cm。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjbNOstVj0b6tnhTH29icPZVSU0RficNL75T24hPJ5MqwRctpolBIltzsQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_004_4919b701b960.png)
 
 _**图3-4：计算参数**_
 
@@ -47,17 +47,17 @@ _**图3-4：计算参数**_
 
 设100MHz频率的差模噪声电流1uA，流过20cm²环路面积，距离1m处（90°）的电场强度值为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZPQibkyeHg9utYsMg46tJrXuCMiaAr71wtDFTmnzOicyLib1xYeQcvicskXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_005_99539915582c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZ1YqYBCiaBacTO7OEBnvfmibwwKbGP4icxuFhttVym2qRHVuz0jpFRtodw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_006_87b53f907e2d.png)
 
 共模噪声：
 
 设100MHz频率的共模噪声电流1uA，流过20cm的线缆，距离1m处（90°）的电场强度值为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZJHWx2dTKw4Ogt3IoqM8vic5bM2fKdckctfIjnmjtCHHxYwKvChXrybg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_007_61aa0a79890f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZ5I8wtBANib1IP620pcLdpPdWf3lclFYnU8zicoCdZJDHskk71wToiaE2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_008_753b78de97f2.png)
 
 即使噪声电流值相同，受共模噪声的影响也很大，上面计算结果共模噪声是差模噪声的96倍，如果线束采用绞合线则面积S减小，差模噪声减少，面积S对共模噪声无影响。
 
@@ -77,21 +77,21 @@ ___€3.串扰___
 
 串扰是由于线路之间的耦合引发的信号和噪声等的传播，两根线（包括PCB的布线）独立的情况下，相互间应该不会有电气信号和噪声等的影响，但是两根线平行的情况下，会因存在于线间的杂散（寄生）电容和电感而耦合引发干扰，所以串扰也可以理解为感应噪声。**_图3-5_**和**_图3-6_**为每种耦合的示意图以及最简化的等效电路。R为电阻，C为电容，M为互感系数，Vs为噪声源电压，Is为噪声源电流，Vs=V-Signal为信号源（噪声源），如下给出了从噪声源的line1到附近的line2所产生的噪声电压Vn。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjuBtbylWfrDkk9TV1c6ml9RscXLI9Ke7UZjCzuq47F6xG0vXksbS99g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_009_392221a92bde.png)
 
 _**图3-5：容性串扰**_
 
 通过line间的杂散电容导致电容耦合，line1产生的噪声通过电容耦合在GND间产生噪声电压Vn：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZBgT7bXuwOg0UI5IEd8hD8Wj231PPjEAB0ObpLFHQpyA8iaqBSbp545w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_010_dea95cf001e0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjfMNtPpbcCrRzQG14hTsibORpWBaHLl3VZzCdbia2EbjrpVFuibyyFl8dg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_011_058995bca40d.png)
 
 _**图3-6：感性串扰**_
 
 通过line间互感的电感耦合，line端产生的噪声通过电感耦合在GND之间产生的Vn：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZnicFUAJIEtvoibc733ibyLV08Yl46x99bMcyFSvBHRdjDaUvsOkicFviaYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_3_噪声的传输和放大_images\img_012_f97519a60744.png)
 
 在高频、line间的距离足够近、接收端高阻抗的条件下，串扰的效果将增加。  
 

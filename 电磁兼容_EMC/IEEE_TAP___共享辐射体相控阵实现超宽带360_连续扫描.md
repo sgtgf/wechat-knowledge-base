@@ -8,7 +8,7 @@
 论文提出了一种 共享辐射体相控阵天线新架构，实现了360°方位连续扫描、超宽带工作、紧凑低剖面结构，为宽带扫描阵列设计提供了一种新的技术路线。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_gif/p5SKe5bvAsDNfaBTuTRXtmOB0iauPNr4aJAlh9vrXgetpgm1AjA8tJJ8G99IjIvuZicnkibkjGK121U8fH5RKp8faRHcicib56OgicJ4MleZH9RKE/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___共享辐射体相控阵实现超宽带360_连续扫描_images\img_000_95cadd7d20f0.gif)
 
 共享辐射体相控阵天线360°扫描示意图
 
@@ -33,7 +33,7 @@
 这些应用都要求天线能够在 360°方位范围内灵活扫描。
 
   
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAOAIm1I1Aqt1xqL1hU2VEicJYc72y32IIkk5MpjjoyGhARfZ2vVib9I70PtDAFH7A7AhJMOMHHW74jdboNUQpjZmSf7ibeMmTg0s/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___共享辐射体相控阵实现超宽带360_连续扫描_images\img_001_1fbabf068efe.png)
 
 应用场景示意（AI图片）
 
@@ -61,7 +61,7 @@
 
 **多个馈电端口共享一个辐射体，通过阵列耦合实现宽带匹配。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDYcRNVbrz6Cr5icYfXB7HKpK7CzcKn71gXbNicnFtficNanucH3SU2rEIad1eiaHPCEBgicdTlMfKE9UgdAz16GnoykTice6OtJia5HA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___共享辐射体相控阵实现超宽带360_连续扫描_images\img_002_29d87c6cb03e.png)
 
 本文提出的共享辐射体相控阵
 
@@ -88,7 +88,7 @@
 为了验证设计，研究团队制作了 **六端口阵列样机** 并进行了实验测试。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDORMIppH7cDHLq7V9ZNbaBauZQgZGialJBRqEe4CUmy0pc40owwgicR4nKaOvy4MAqD7SUSSvXaVojMPRBenKiccj49ibfkUZj1M4/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___共享辐射体相控阵实现超宽带360_连续扫描_images\img_003_59d10cbaf22e.png)
 
 天线样机与测试场景 
 
@@ -112,7 +112,7 @@
 
 这些结果表明该阵列具有 **良好的扫描稳定性和宽带特性**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCnsSFlqMdqUiaaz0sH9jqLAWXqiaalmu4WFuyMPJVLGogztAyqggFiaia1b9Aiauibt2IeHfDLZyKkJr8K3p0jktib8ticxCaIzn1Iv9Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP___共享辐射体相控阵实现超宽带360_连续扫描_images\img_004_e66cea028d59.png)
 
 一些360°扫描阵列比较
 

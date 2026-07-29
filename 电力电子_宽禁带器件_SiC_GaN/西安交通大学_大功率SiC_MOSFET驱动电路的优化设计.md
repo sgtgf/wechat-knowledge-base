@@ -50,7 +50,7 @@ SiC器件的导通电阻很小，且受温度的影响不大，导通电阻不�
 
 在SiC MOSFET组成过的桥臂结构中，一个开关器件在开关瞬态过大的dv/dt将会影响互补器件的工作特性。两个开关器件之间的相互影响叫做串扰\[5\]。本文的重点是研究一个开关器件关断瞬间对互补器件驱动电压的影响，将DAB的一个桥臂单独拿出来分析，原理如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1qwInwiaGt3a0752JicBI01WyiaibVGEvh8b2hekCtyoX08twlnpkFX8qkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_000_d5d8fe38c2b4.png)
 
 理想的桥臂结构的电路中，上下两个开关管180度互补导通。但是在实际应用过程中，由于开关管的栅极电压不可能跳变，其开通过程和关断过程都有一定的时间。一般来说，关断时间要长于开通时间。因此，如果上下管180度互补导通，那么上管还未关断，下管可能就已经导通了，这样就会出现电路故障。因此上下管开通和关断之间必须有一个延时的时间，称为死区。
 
@@ -60,11 +60,11 @@ SiC器件的导通电阻很小，且受温度的影响不大，导通电阻不�
 
 图2为优化前的驱动电路原理图，对串扰问题进行分析，首先要对驱动电路进行简化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv15ag2yR5uWr3YajFl0K8pPBqib5RkrdGdrN5ibF0Jb1Sv2gF8Qor3oWcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_001_c6e977561641.png)
 
 R6阻值很大，可以看做开路。D2和D3是稳压管，不在分析范畴，可以忽略。上管突然关断下管栅极产生负压尖峰时，驱动芯片输出为低电平\-4V。因此等效电路如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1xN9UQwj9BN7kZwmsqNybVSiaib2XJB4RldNKj79xhwsRZYKWkiaichd1rA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_002_141f06c2bfae.png)
 
 C4容值很大，因此可以把C4看成一个稳压源。因此电流流过的路径有三条：
 
@@ -76,11 +76,11 @@ C4容值很大，因此可以把C4看成一个稳压源。因此电流流过的�
 
 这三条支路相当于并联。当Cgs两端的电压Ugs大于\-4V时，Cgs放电将能量流回电源。电流的流通路径只有一条，如i1所示，此时D1和D4均不导通。当Cgs两端的电压Ugs小于\-4V时，电流可能的流通路径有以上三条，但是只有D4这条路径的电阻最小，看以等效为短路，因此可以视为所有电流均流过D4对Ugs充电，如图3中i2所示。可以发现，在栅极负压尖峰之后的振荡过程中，D1和R5这条路径始终没有电流流过，因此可以视为开路。将线路中的寄生电感加入，等效后的电路如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1icA1B4h3tianpUw9kcdY8nZRp0oFFyEicUUudoTUa0e5AiaicUSItU38ic3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_003_5f198ff323c2.png)
 
 首先分析i\>0的情况，即对Cgs充电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1LsUETA3gpqOYVTS3nKHWugec5eeycYCVkopfyRqYfF8EnpzL6hRZVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_004_285d17af4f2e.png)
 
 式中：UL\----电感两端电压；
 
@@ -94,73 +94,73 @@ C4容值很大，因此可以把C4看成一个稳压源。因此电流流过的�
 
 因此，可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1cPQvMSrBrRKpqGjCLylhxtdPgQiaBKgPVYf9OI01O3fOKbWyc7L02wQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_005_7e0c68373507.png)
 
 根据基尔霍夫电压定律（KVL），
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1yQ3Z5cqfabuZNhUTeOCgOOq9Xia2Qf69v7ksActP5DicUfkFSluHseBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_006_1b9d6ba376fd.png)
 
 利用变量代换，简化分析，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1c0jtlibst0X3NP1ZEX8Dshj5CoibCDt7oN33qo4PI36lhP95QoKhQsXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_007_6d1002ce73b6.png)
 
 可以得到，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1GY01sMSGyuVhGIqZJfUcBUibicfNUZ4MMFicMDib0ATreLFmDnVHxPxRzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_008_284ba7b9efdc.png)
 
 初始条件为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1ZTjaptRAqW5R06E804Zeg1w21ENdDGianswcgouSF5UoWu82I9GKurg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_009_0b46ea009841.png)
 
 因此，求解微分方程得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1gFiaZviaa79ZC9Hk0ZyZbLlweibLvHd0qw0p7VZbvo5m0fVsWde5TB6kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_010_1acb2d16fd9c.png)
 
 于是
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv14TqNGibzLzp26T7D9FUUCY1hyGNCPqQTJtLWpop15Hmv4OS35brg4Bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_011_fd409a8b0d5a.png)
 
 假定U0=-2.5V，所以栅极电压达到最低点\-6.5V时，电压开始增大，其电压变化轨迹遵循式(9)。
 
 接下来分析i<0的情况，此过程Cgs放电Ugs下降。根据基尔霍夫电压定律，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1CQGumr4uw4AWfUtXHz8wP5iaJXz4HF3vjFQqibSwiaqpWXEnJia8ficJEgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_012_a078e4a78e85.png)
 
 进行变量代换，简化分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1nqmXNnPPBxZicnUR5RxwV7pf4sbMnv7iaKibCFHJqKlwCRpdo3ibRkLzDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_013_1a1474067f80.png)
 
 可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1wealn1mDFh7NuYGtQFeWSwTic2BzbtzqLE9jaZoODicnFJ9MQwNOhQ2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_014_88cb75ead5f4.png)
 
 初始条件如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aHQC68MibEvVGicy3XUia6QiaMujQibqRwBbiaQ0gdUmvgfzN4WAc01gldnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_015_c66d0faabfc4.png)
 
 求解微分方程，可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1uHMWMTDlCkXgFiaIhLxoKPQZ99TvJZJxtcFnydIbpLpF4jicDjcMJyFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_016_248499906365.png)
 
 式中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1HAgzUYRG9Pdr6NEQhuVu8k1YibG96uB8nxMuDBkNianibooazIW82ryrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_017_a87d1001e341.png)
 
 因此，在栅极电压达到第一个波峰的时候，其下降的轨迹遵循式(15)。
 
 式中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1VxbpK1e65eyVbSlic0ECy3ibQaGhYDJ2SQogyV4ib9iaUdqQ7kVM9Sj11w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_018_39d40cbdf559.png)
 
 因此这是一个非振荡放电过程。
 
 从栅极电压最小值点到第一个波峰所需要的时间为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1ZwQ21KoLj2yr2N2FEe52b4LNG4pnbVmKNibgyTWFPMRCEJKaCLz4MVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_019_979ffb5b0b74.png)
 
 以上是对栅极负压尖峰及之后振荡的理论分析。通过SIMetrix对该过程进行仿真，如图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1MO3mibgQGsloWrCLNpvISXt70ACUCVBCT6WJPGxqhnZxSu91K1PvzWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_020_232ef5f043a7.png)
 
 3．SiC MOSFET驱动电路的优化设计
 
@@ -170,7 +170,7 @@ C4容值很大，因此可以把C4看成一个稳压源。因此电流流过的�
 
 本文设计的驱动电路如图6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1icXtnTHpRvoYXe19beItkLiaBjYYQOeFzQrlEDibaFBdlwsjfibbfstLgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_021_7ca9751cca85.png)
 
 光耦隔离芯片ACPL\_W347的VCC与VEE之间应该并一个1μF的电容C1，驱动芯片IXDN609的VCC和GND之间加了电容C2和C3。这三个电容是去耦电容，作用是稳定电源电压，降低元件耦合到电源的噪声，电流突变时也可提供瞬时电流。
 
@@ -188,29 +188,29 @@ T1、R7、R8、C5、C6构成缓冲电路。
 
 如图7所示，当另一管关断时，Cgs和C6都会放电以维持主回路电感电流不变，此时电流流经R8产生下正上负的电压，使三极管T1的发射结正偏。因为三极管的集电结处于反偏状态，因此，三极管工作在放大状态，电流的流向如图7所示，大电容C5迅速对Cgs充电，使负压尖峰不至于过大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1LbSpibGgicQFxznibIXA9cqVCBMOH0zEW5xx3fmNagFliclNugpydic6nLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_022_19719ec00142.png)
 
 当MOSFET开通时，原理如图8所示。驱动电压上跳沿到来时，C5两端电压高于\-4V，C6两端电压等于\-4V，三极管的集电结反偏。电流流过R8产生上负下正的电压，发射结反偏。因此，三级管工作在截止状态。Cgs迅速充电，由于电阻R8和C6串联，因此C6充电速度明显比Cgs慢。随着C6的充电，当其电压高于C5两端电压时，集电结变成正偏状态，此时发射结仍然处于反偏状态，因此三极管工作在倒置状态，电流流向如图8中所示，相比于放大状态，倒置状态的电流增益β很小。因此开通时虽然对C5缓慢充电，但是对开关速度的影响很小。C6并在Cgs两端，在开通过程中一直充电，但由于容值很小，对开关速度的影响很小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1vvOzMXplebyN4wdssp3at5nGAStbOyFqHPnLtRXxI79unGaO7EV0MA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_023_5ca81c87f8e0.png)
 
 当MOSFET关断时，原理如图9所示。此时，工作状态和负向电压尖峰出现时类似，三极管工作在放大状态，C5、C6和Cgs同时放电。当C6的放电电流越来越小，R8两端电压越来越小，当低于0.7V时，三极管变为截止状态，C5将不再放电。最后C6和Cgs的电压都是\-4V，而C5的电压会稳定在高于\-4V的某个值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1ibibetL5LelhHOn9VcGdRmcRvkS5Kc9yUBYVOqlWTQHaPo57omZquERA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_024_1511636651f8.png)
 
 3.3 仿真分析与实验验证
 
 搭建SIMetrix仿真模型，SiC MOSFET栅极负压波形如图10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv13xp4mXdSq4egiaR8icM6ib06fYQOyDoeZpgjk9Giad4c0Qk3qeib8e66eHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_025_e08b6c9c0057.png)
 
 搭建DAB实验平台，包括高压板、低压板、控制板、变压器和电源模块，如图11所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1x6ibibbhybYDRk1URc62SFibHXFCXmMxzlksJiblWVuic1jOZEibBxLvwnibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_026_ee658e50cd3d.png)
 
 低压侧和高压侧短接，因此能量只在内部环流。测试电压400V，开关频率20kHz，死区时间800ns。优化前后的波形如图12和图13所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1nsiaOFuVFPYib6iclCqU21byACTCSocWibcG9yHBr8HARCaVPoZwgHsxcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_027_4bd385032ff4.png)
 
 比较发现，优化前最小栅极电压\-6.52V，优化后最小栅极电压\-6.3V，电压尖峰减小了0.22V。与实测关断电压\-4.5V相比，电压尖峰减小了11%。优化前开通时间（驱动电压从\-4V上升到16V）为144ns，优化后开通时间为154ns，变化不大。优化前关断时间（驱动电压从20V下降到2.5V）为116ns，优化后关断时间为142ns，关断时间有所降低，关断时较低的dv/dt将更有利于负压尖峰的减小。
 
@@ -220,10 +220,10 @@ T1、R7、R8、C5、C6构成缓冲电路。
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_028_318ead5d55de.jpg)
 
    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_029_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_大功率SiC_MOSFET驱动电路的优化设计_images\img_030_84aa944feb13.jpg)

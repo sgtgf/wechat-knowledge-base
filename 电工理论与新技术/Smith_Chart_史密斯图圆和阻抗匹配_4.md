@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/n65W5BpdkzjruOONk9sGbw](https://mp.weixin.qq.com/s/n65W5BpdkzjruOONk9sGbw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSrfKib8AibPT9IcfgAInIag1pkGyvibjIPCmQkOYK7rUvOmesvibucZ8XBGFwyQbNPI8q6wnQ8n4WLiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_000_9fde65c8e8dd.png)
 
 _★★★__SMC-4---Series____**★★★**___
 
@@ -17,7 +17,7 @@ ___€1.与Tx线路、L和C串联的阻抗匹配___
 
 在之前的示例2中，设ZL=0.3+i，假设我们不使用组件，而是使用传输线部分来移动阻抗，从阻抗变换章节中可知，传输线部分将使负载阻抗绕史密斯圆图中心绕圈移动，也就是说，给定负载阻抗ZL，传输线部分可以将阻抗重新定位到图4-1中绿色圆环中的任何位置：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfr014us4qycZjyMyCHgr0kSGKNdsfl0vnBOJTHI05NFV8EPrVX6O6cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_001_c68fab2514df.png)
 
 图4-1：史密斯圆图上的阻抗zL及其恒定的VSWR圆
 
@@ -25,33 +25,33 @@ ___€1.与Tx线路、L和C串联的阻抗匹配___
 
 要计算出所需的旋转，可以从史密斯圆图的中心到ZL画一条线，然后从史密斯圆图的中心画另一条线到恒定的SWR圆与Re\[Z\]=1圆相交的位置，最后找到两条线之间的夹角，如图4-2所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfsms41XFd0AedrNGXicQ0DT6dicV4w43l4hlkSar9xPfDBbzdzibDIFQibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_002_2d16237247da.png)
 
 图4-2：确定到达Re\[Z\]=1圆的Tx线长度
 
 在图4-2中，使用量角器确定角度，或使用史密斯圆图外缘上的度数刻度读取角度差，发现两条线之间的角度为45.5°。由于一个波长对应于围绕史密斯圆图的两次完整旋转，因此我们有：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRLH62pJueiaZibawbbZ71g2Phbj7JnQdibzrTwFYfQ3icRD5WhJJGuNgQ8PnAu8ic221teW4KzYEvCGRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_003_5025ed86342e.png)
 
 可以计算出对应45.5°的传输线所需的长度：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRLH62pJueiaZibawbbZ71g2P4OTX6fc1wUWD5X3NUWm2P6MRQiauSib72cjsDhbbFtUK9eC7OOveKgZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_004_b9d604780ea4.png)
 
 因此，我们可以使用长度为0.0632λ的传输线将阻抗ZL旋转到Re\[zL\]=1圆，如图4-3中的棕色曲线所示，恒定电抗曲线Im\[Z\]=2.228，这正是恒定VSWR圆与Re\[z\]=1恒定电阻圆相交的地方。
 
 图4-3所得阻抗为TP2，该值可以直接从史密斯圆图中读取，得出Z1=1+i\*2.228，因此我们可以使用串联电容将该阻抗精确匹配到史密斯圆图的中心，使得Z\_cap=-i\*2.228，阻抗TP3将为1.0。由此产生的阻抗匹配网络如图4-3中所示，结果是TP3=1，因此TP3处没有功率被反射，ZL到达史密斯圆图中心所采取的路径通过图4-3中的黑色曲线显示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfibwNZbxBb5xaDvncwg8eCCWt8Z5wz9lZhBYMgZp0ibVBcKpheibicKXazw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_005_5e64f5446e88.png)
 
 图4-3：使用tx线和串联电容器将ZL移动到TP2，然后移动到TP3  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR5xTo5NJXJt1icqgCG0fr9EBw0PLZJpMVE0qj7f5OtUJx39rLvQPhdfibxvfzmtdbGn5sABfibodWZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_006_7de25236386c.png)
 
 图4-4：区域特性
 
 ___€2.___阻抗
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQk7AfNamUPgqVdzf1nDZaNsZod7ic5NkK1ib5Kv9l3RBjQ9zcXqaicxqTFv5ohdGZhdpMCD0lb6DMrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_007_708c04c3db1f.png)
 
 其中R为电阻，ωL为感抗，1/（ωC）为容抗。
 
@@ -67,7 +67,7 @@ ___€2.___阻抗
 
 3#：用史斯密斯图进行阻抗匹配计算的基本原则是：是感要补容，是容要加感，是高阻要想办法往低走，是低阻要想办法抬高， 无论在任何位置，均要向50Ω（中点）靠拢。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQk7AfNamUPgqVdzf1nDZaNzhy9nclibgBeG1wP9icicg6JZXeziaIyE4Mng1dbIbMsHTOx6z6389qpsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_4_images\img_008_54fdba5ec279.png)
 
 图4-5：器件旋转
 

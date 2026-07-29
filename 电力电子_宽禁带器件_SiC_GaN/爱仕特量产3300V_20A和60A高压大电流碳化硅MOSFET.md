@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8OZ2ua3AaML2l-7DVmHeTg](https://mp.weixin.qq.com/s/8OZ2ua3AaML2l-7DVmHeTg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRlqe5F3LqKKiaOxMbzWOCBOOOwYgrPA1IhNPOPdNKVe4KVPjdYp1SjDw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_000_b66e1e4aea6c.gif)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRZrU9Fpt0QeNjeS9zhbXRWOMX6eWCqDouxqouokictNfrKjVMcK9PXYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_001_96e9ff2d816d.jpg)
 
 “
 
@@ -19,15 +19,15 @@
 
 为满足市场对碳化硅功率器件的更高电压、更高效率、更高功率密度的发展需求，爱仕特成功研制出**耐压为3300V、导通电阻为58mΩ、可支持60A电流**的碳化硅MOSFET。更高的输出功率，使得基于爱仕特3300V/60A碳化硅MOSFET开发的应用系统具备更高的可靠性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRpserqiaqpDbiallJgHHicxUliczAHBErYN8heV2NDRs7bsicqYoVoEiaIvlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_002_073c817231be.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRCfyxGJwm5NBCDDlfibuJK8acl3iaX1tgyUvT8NicxEf36aRy0vJpAZVoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_003_8b89dccfb39d.png)
 
 ▲爱仕特3300V/60A碳化硅MOSFET参数
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl67VhMq6eZGpOb9wiaJXzWVCMUic6R4AOrhzKhIviaZE6KYZvF115GI0z1Op1qCx03j6xwMroLSXfRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_004_0a2fccd53647.png)
 
 ▲爱仕特3300V/20A碳化硅MOSFET参数
 
@@ -35,7 +35,7 @@
 
 目前，成功研制出3300V碳化硅MOSFET的国内碳化硅器件厂商仍是寥寥无几，据全网最新公开数据，**爱仕特是国内首家实现量产**3300V/60A碳化硅MOSFET**的厂商**。早在2018年，爱仕特已成功研制3300V的碳化硅MOSFET样品，而此次3300V/60A碳化硅MOSFET的单管量产化，充分体现了爱仕特在碳化硅功率器件领域过硬的正向研发实力，有助于打破国外碳化硅厂商的垄断，在高压大功率电力电子器件领域占领一席之地。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRrDhXjoYEgXqTgOscSzOwCtmO7mWwJRmgtaXe7EibibiceASSken5LPvlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_005_5adeb624ed65.png)
 
 ▲爱仕特3300V系列碳化硅MOSFET
 
@@ -47,13 +47,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/k8mFfEmdQe1nUTUUAzcoIcjDDgebNf6aQ7NQPp7cQbTic0wM73cbmdUb7b5Zjm2Cictia6ibzeiaHo88XAcIwXS0bunZVJvFJkRzic/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_012_82b85a01149a.svg)
 
 **产品特点**
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/k8mFfEmdQe1nUTUUAzcoIcjDDgebNf6asNljYajAGmtcANOTp9sdgEicvMcJiaXloic3ib64esy0ZVNR48K6iaiaXZRNW9lKiahz0M5/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_007_0ec81c7489d0.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/k8mFfEmdQe1nUTUUAzcoIcjDDgebNf6alV2M6nBBYsPviaWFL0ZISgH8Q64C1jqx1KopgrSQS2qfTSrw8icVG1Djw1VljXaPfJ/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_008_4a450b62bae2.svg)
 
   
 
@@ -82,7 +82,7 @@
 -   器件能够在-55°C至175°C的宽温度范围内稳定运行，适用于各种环境条件，提高了应用的灵活性
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRniaZyTiaA1icMFmCKUwOkibWJXO8ic7hfibuIoeWXFYIKrpyib9DGVAu1pT0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_009_995bda9475a2.png)
 
 ▲器件在不同结温下的稳定性
 
@@ -108,7 +108,7 @@
 -   新型TO-247-4L封装设计，能够满足器件在现代电力电子系统中日益增长的高功率密度需求，使系统设计更为紧凑和高效
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkR7zP4KBiao8QzGicLdEhwKGIrGib7OpX7YN85icsIxGf5bSaNp3QrUPnEnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_010_a7e49ce81d77.png)
 
 ▲自主研发的碳化硅MOSFET芯片
 
@@ -125,7 +125,7 @@
 -   一流的散热性与防潮性能够保证器件在高负载高频率开关条件、潮湿环境下的稳定运行，延长了使用寿命
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRNlZwuN4ALicic9sOuQJJvoIwTrQC3sTCf97BNfcn8blvyDW22CjvFIUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_011_0c4301cfb429.png)
 
 ▲新型TO-247-4L封装尺寸图
 
@@ -133,13 +133,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/k8mFfEmdQe1nUTUUAzcoIcjDDgebNf6aQ7NQPp7cQbTic0wM73cbmdUb7b5Zjm2Cictia6ibzeiaHo88XAcIwXS0bunZVJvFJkRzic/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_006_82b85a01149a.svg)
 
 **产品优势**
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/k8mFfEmdQe1nUTUUAzcoIcjDDgebNf6asNljYajAGmtcANOTp9sdgEicvMcJiaXloic3ib64esy0ZVNR48K6iaiaXZRNW9lKiahz0M5/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_013_0ec81c7489d0.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/k8mFfEmdQe1nUTUUAzcoIcjDDgebNf6alV2M6nBBYsPviaWFL0ZISgH8Q64C1jqx1KopgrSQS2qfTSrw8icVG1Djw1VljXaPfJ/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_014_4a450b62bae2.svg)
 
   
 
@@ -206,12 +206,12 @@
 
 爱仕特掌握国内领先的碳化硅核心技术，新一代的碳化硅工艺可**降低芯片成本近15%，同等规格下的芯片面积比国内同行小15%—20%**，能够为客户创造更大的经济效益。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRDYBxj032Lawup96LAMuSk12kPe02RRqeaIL6cpFxYDQPibj1JFHBcwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_015_69ba215bae29.png)
 
 ▲爱仕特“三位一体”模式
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_016_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_017_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产3300V_20A和60A高压大电流碳化硅MOSFET_images\img_018_84aa944feb13.jpg)

@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/X3xze-z8LOKmDFsK6P2ChQ](https://mp.weixin.qq.com/s/X3xze-z8LOKmDFsK6P2ChQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsqckBzOS8xMn9A2YXdNnslTOD4To00r71X2VsphULSod1ZlnIRPVRw7p6gibqd6wzh8YZ7a7rkUuOd9qzyYyXzuBmbnwxmFK50/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_000_61e52bd170db.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctkg6g31u4Gtv5UU6QqN3VHFjYQnHcJ5zfYdM09lqYzQ5vaXByUP4U6icdEg7d3Ay83ibic75NNfPT2qLuFs9lz9WrpDp3wWszeLo/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_001_f62999bca491.png)
 
 我把这部分内容用“先讲概念，再讲 Example，再讲 Figure 在帮你看什么”的方式讲一遍。本节核心主题有两个：**标准基向量** 和 **参数方程**；后半部分再把参数方程用到直线、交点，以及更复杂的曲线上。
 
@@ -28,7 +28,7 @@
 
 ### Figure 1.18 和 Figure 1.19
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvwNl3f254J6yia1QGDpU5UAthL6p24cuiarCrG6mia4koC01IE8n3iafd3oqSn3zZW57ibqHWapVrNVXQzMf8dGbX7oTcDuoJBoKww/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_002_767bb2b0ac71.png)
 
 这两张图非常重要，因为它们把“拆分向量”画出来了。
 
@@ -46,7 +46,7 @@
 
 ### Figure 1.20 和 Figure 1.21
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuiaHyrgu7gFNtBPUvkD1YsPkM0QkMNeVkyDic0KGhGMic9TNP0WMGibZypewNLntLkJgbYverFg29ZjHpXUu5wHDUd69xdBDMLJUE/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_003_bee9085a9c04.png)
 
 -   **Figure 1.20**：在二维中，是一条水平线。
     
@@ -79,7 +79,7 @@
 
 ### Figure 1.22
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctFKVicN3H9tZiaam6ic3XIMwvRRZIYBiaRokw4icd5BUoOqQAAiaDicMcFpy5raibZaUiaX6qPWiaRS5zROHJviahYNWnzzt0foXrDbexskk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\数学_线性代数\向量微积分读书笔记_1_2_More_About_Vectors_images\img_000_1beb88538064.png)
 
 这张图把圆上的几个关键时刻标出来：
 
@@ -120,7 +120,7 @@
 
 ### Figure 1.23 和 Figure 1.24
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuAFPib9EWPHicMAzy5NWRoqnDRicIGVNLRpqCvggQ9e4ABebDJrV34eEkmU0dkAcYMP9NmNzaY4O4dWyZrTU6I6Micm860QL3Jqm4/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_005_09645b3dc198.png)
 
 -   **Figure 1.23**：强调“过点，并且方向和平行”的那条唯一直线。
     
@@ -156,7 +156,7 @@
 
 ### Figure 1.25
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsINS8x2kXlx8YnodCDVHc2uic9lxPic4ycuoge8Yc4ts74HoGpW3ZywnXCvTMsIRBh7Ikiaa1BkBPeOljsjJ7ejCiaF8hh7tcoFVU/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_006_7f62a87ce50d.png)
 
 这张图的作用就是帮助你看到：  
 从一个点指向另一个点的向量，本身就天然是这条直线的方向向量。  
@@ -222,7 +222,7 @@
 
 ### Figure 1.26、1.27、1.28
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsR11aOviaKhYw8XtBLOwYlT61tPOuNU4qKQXRRB3w49E0Vko2KC1icDzQ5M4VM7RKlGa8BF4XxqSwSVDtRaibC13mR2LMMBC2sg8/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_007_6c12b75546e9.png)
 
 这三张图是在一步一步拆这个运动：
 
@@ -248,7 +248,7 @@
 
 ### Figure 1.29、1.30、1.31
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocs6lcgUZzSq1EM2WltAv2T3JalVdmEfEILEzs9viayWWFDcB2iaQ8Cian0JxfuSoBRGPJd0AsYmqPeP4KYE6UX9mqyica6D6xfcNWs/640?wx_fmt=png&from=appmsg)
+![](向量微积分读书笔记_1_2_More_About_Vectors_images/img_008_a2fada5a019f.png)
 
 -   **Figure 1.29**：整个物理情景——胶带从圆上被拉开
     

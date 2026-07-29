@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9p8hVuGbtKC4U3K5KT-l8A](https://mp.weixin.qq.com/s/9p8hVuGbtKC4U3K5KT-l8A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXQRmxibPia3BQpyribbB0qGsgXKrSS5JXGkFQwF6kW4fIDCDqrr3rEa8ibaEXAmUrWlLTNkmRnKLwaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_10_聚合物铝电解电容_images\img_000_75d0bc9d3437.png)
 
 _**_★★★_**_Cap-10---聚合物铝电解电容_**_★★★_**_
 
@@ -13,11 +13,11 @@ ___€1.聚合物铝电解电容的结构___
 
 聚合物铝电解电容是在电解质中使用导电性聚合物的电容器。使用导电性聚合物可以降低等价串联电阻（ESR）。如_**图10-1**_所示，产品为3端子构造，具有卓越的高频特性，产品的叠层构造实现了低外形，有利于电子产品的小型化、降低成本。
 
-___![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSUdLFNicLClj2pvojsIVY3DJia9JYF7aRLZWouXgmhGWrG1PSibRgiajK9glorloawZZxMrTxXFSjeKQ/640?wx_fmt=png)___
+___![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_10_聚合物铝电解电容_images\img_001_bf65c1169775.png)___
 
 **_图10-1：聚合物铝电解电容样式_**
 
-___![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPWUd3fpGNhrKDrWbSh0PTBpKuwfGFRjLKJL1eb23QDTrqtJAkXYH8uQ/640?wx_fmt=png)___
+___![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_10_聚合物铝电解电容_images\img_002_4cb252926423.png)___
 
 **_图10-2：基本结构/剖视图_**
 
@@ -29,7 +29,7 @@ _____€2.聚合物铝电解电容的性能_____
 
 _优越的噪音降低性能_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSUdLFNicLClj2pvojsIVY3DfdWquagLgichmk7uurzlvq8tfmlVuU6DtHkeNxrYiaBWqse0PUN7DicpQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_10_聚合物铝电解电容_images\img_003_0e39f4c728ef.png)
 
 **_图10-3：比较噪音降低性能_**  
 
@@ -39,7 +39,7 @@ _优越的纹波抑制性能_
 
 **_图10-4_**与其他电容器比较在开关电源输出端的电压平滑性能：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSUdLFNicLClj2pvojsIVY3DXfQP8ZI8WWCCx2h9RC5bZmd6OsicmricbMZQO3CBXSmJ7quxfChVRDFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_10_聚合物铝电解电容_images\img_004_60e25ce028fc.png)
 
 **_图10-4：比较纹波抑制性能_**
 
@@ -47,7 +47,7 @@ _优越的纹波抑制性能_
 
 _优越的瞬时响应性能_
 
-**_图10-5_**与其他电容器比较高速负荷变化时的瞬时响应性能：![](https://mmbiz.qpic.cn/mmbiz_jpg/JGbdHe4j0TSUdLFNicLClj2pvojsIVY3DZT4JCe1EcNx8ay8BPeiaUyjYpovsc9Y542Q4S9stkAZWCmFMwgribgAw/640?wx_fmt=jpeg)
+**_图10-5_**与其他电容器比较高速负荷变化时的瞬时响应性能：![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_10_聚合物铝电解电容_images\img_005_15bd28a9986f.jpg)
 
 **_图10-5：比较瞬时响应性能_**  
 
@@ -61,7 +61,7 @@ _____€3.聚合物铝电解电容的使用场景_____
 
 用于个人电脑等的CPU，为了能够快速处理大量信息，CPU的负荷电流增加，为了降低能源消耗，导入CPU的Stop Clock动作和CPU驱动电压的低电压化。通过CPU的Stop Clock动作频繁重复On/OFF动作会导致在CPU驱动电源线内发生较大电压变动。CPU动作（ON）时负荷电流增大，驱动CPU的电源需要可以供给超过现有负荷电流的瞬间大电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRIVUhfmWz5ruAL1rwXTDibPrN8YW8pLZxPjqKKICl0c0rekFicBiaxuqfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_10_聚合物铝电解电容_images\img_006_28a53276872d.png)
 
 **_图10-6：CPU负荷电流快速增大_**  
 

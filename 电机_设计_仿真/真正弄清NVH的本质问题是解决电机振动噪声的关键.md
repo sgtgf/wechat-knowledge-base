@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/AqLVMw7gXD8ZlIYrN87jsQ](https://mp.weixin.qq.com/s/AqLVMw7gXD8ZlIYrN87jsQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVSxQKv9fv5DX0yndEv5nwjySjAo76biaScM1O4pKCh3TCYD9EchSsnvypBqKicUia1AGlVBxRMp2g3w/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657579&idx=1&sn=f3dade0ea9eb20aa1b613329bb2c4eee&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_001_1d7425cc54fd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657579&idx=1&sn=f3dade0ea9eb20aa1b613329bb2c4eee&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_002_e532dba355d8.gif)
 
   
 
@@ -17,25 +17,25 @@
 
 2024年6月15日在常州丽亭酒店，西莫第33期培训“电机NVH问题的机理和测试仿真”研修班再次火爆开启：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhR9OHAcEwIHuicmXDiaMhSNeibz0ta8SLIeMPiciaX97Zd85ica8vcicxURhqCA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_003_06b9bfcc02c4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhRZjPvMyTWNvucn9WNZuUB9ictZo3nsYywvUQFwlcuK8Mahfj1MQRZUQg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_004_70fd29422c8f.jpg)
 
 来自全国各地的30余家公司企业及科研院所、近五十名学员参加了本次课程的学习，延续了之前往期的火热气氛：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhRplPumlBFNIvQTu1ViaR9tyC41MvjpLvkNLlLztdibm1rLE3kFRD872lQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_005_b6a18bad71ff.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhRLX36flice3rF3m4pibDpcrO6nZGrtC8twwiaJ4enr5Q6YwpgS45Nu4chA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_006_76924508ca7b.jpg)
 
 四位来自不同领域的顶级专家组成的金牌导师团队联袂奉献了为期三天的精彩教学内容，课上的技术答疑和互动交流环节，大家热情高涨，在紧张和热烈的气氛中度过了一个充实而又有意义的周末：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhRiauxuGqPIVM0lvokickRMQjw7iaeE1NLsxiaJsRoeGgibbOiareNuD4wqN8Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_007_74f5abccf174.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhR5IhOd3t8eia5uF9u6e1cNuic1iahjU8SsyWfsCiakFTyOSx4NmY4SUz6EA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_008_593101f8e1e8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhR0Y3TibIXYDynhq8ms0CWc1PRItaaMtewMfPJ0YIe1NxE2qBZcHkGvNQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_009_50f473083197.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUFmYxuXEfw9nSeh4ZuKHhRr3U47lAiaLGp4lS36KNshxTthhntdY17NM2aIkGiaNbdVYjIcJLZRctw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_010_9fd39670f527.jpg)
 
 时隔已经有快一年的时间，我们将在青岛再次安排电机NVH的基础培训课程——“电机NVH问题的机理和测试仿真”研修加强班。今年的课程继续保留西莫首席技术专家李保来老师以及Ansys电磁专家王杨老师、结构专家周英杰老师和声学李彦昊老师的金牌培训团队阵容，更有青岛艾普智能仪器有限公司副总经理薛胜鑫老师和Ansys机电产品专家杨利辉老师倾力加盟，培训升级为四天，加量加料不加价！本次加强版研修班将增加电机振动噪声现场测试试验演示，让大家深度了解电机NVH测试的方方面面；同时在电机NVH仿真部分增加了基于Ansys产品考虑电机控制系统的NVH仿真分析的教学内容，让大家真正掌握电机NVH涉及的全领域仿真技术。相信这必将是又一次NVH领域的知识盛宴和技术盛会！希望通过我们倾力打造的真材实料干货满满的研修班来回馈大家长期以来对西莫的认可和支持！过去的一期活动，又有30余家公司及科研院校与我们建立了合作关系，新的一年，我们还将推出更多更优质的服务回馈我们的长期合作伙伴！特别感谢以下公司、企事业单位及科研院所对往期“电机NVH问题的机理和测试仿真”研修班培训的支持！（排名不分先后）
 
@@ -447,7 +447,7 @@ ABB高压电机有限公司
 
 参加西莫培训，除了课堂讲授之外，您在课后建立的学员群里也将获得老师对授课过程中相关问题的答疑和指导，同时有机会跟往期学员对日常工作中遇到的问题进行交流探讨，结识更多业内相关技术人员。期待更多公司、企事业单位及科研院所参加学习，在未来与我们开展更多合作，欢迎扫描二维码报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXxtfj2eaSiay6woP1BKSOfBovO9pOI6BdiaVsk1aC1p14uN0dxL8QFiaNk2CYL7nMG14Rn9soicrJk6g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_011_d7793a624aac.jpg)
 
 关于本次培训的更多详细介绍，请看下文：
 
@@ -513,7 +513,7 @@ ABB高压电机有限公司
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtwVkQziadctVRiamc5TiczVblGIqDEdPjZTjiaSrkmqnaq83mR5yLVP23UyreibsC7vOJ1FYlHhvWt3QQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_012_081ceea1900c.jpg)
 
   
 
@@ -549,18 +549,18 @@ ABB高压电机有限公司
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXanAyERb7zyHibKcjicmGsQiaICBc3BhWejWhpBTvf6t35fBkicBSMFK2J8SAxuLRTYjM5gAMpUibQ7tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_013_0f67562a7c04.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_014_0cfebd1d514d.gif)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKt2TMnBvcpkZ8b39MN10Ys2dkDQTviaS9fUzgOqvICVPFjibia3Sxp9tSH8EVJoLnh1CamP8BQTUluUA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657744&idx=1&sn=ee4ed40bb7ccb8634249d1752b6d325b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_015_568f7da69f59.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657744&idx=1&sn=ee4ed40bb7ccb8634249d1752b6d325b&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVNcIUT6GuypbB19OZCfibVWWHoXkAW5f6Q8agluTycI4TlDprAeHan5xqC8tV1ibVwYZuY7Z2ZiafibQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=1&sn=36bd3ec536248fff36a5277183599dcc&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_016_6852f02e9cfd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=1&sn=36bd3ec536248fff36a5277183599dcc&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_017_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=2&sn=bf2275569ee7a1fb1e26d0baf4d01a71&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_018_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=2&sn=bf2275569ee7a1fb1e26d0baf4d01a71&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_019_cb8185f2cf41.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\真正弄清NVH的本质问题是解决电机振动噪声的关键_images\img_020_64bd90de404b.png)点击**阅读原文**，直接报名参加本次培训！
 
 ****觉得好看，请点这里****↓********↓****↓********↓************

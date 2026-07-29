@@ -12,7 +12,7 @@ Test Coupon，是用来以 TDR (Time Domain Reflectometer 时域反射计) 来�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgWJGytT7CpTsSdiaibhUwnBSCIqyEpkase8UGW7To9vBdt2MXLE88yicpQmS7ibCiapPvEEo81w1SEwpQ/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_002_1cb1b27b0b20.png)
 
 为了减少接地引线(ground lead) 的电感值，TDR 探棒(probe)接地的地方通常非常接近量信号的地方(probe tip),所以 test coupon 上量测信号的点跟接地点的距离和方式要符合所用的探棒的规格。
 
@@ -24,7 +24,7 @@ Test Coupon，是用来以 TDR (Time Domain Reflectometer 时域反射计) 来�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgWJGytT7CpTsSdiaibhUwnBS81ialajLHrzs48X0b8U5SurNKLibqzicd2olibNgAlOy7Om4PcHcVSF0RQ/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_003_b4a8cccab77a.png)
 
 这里的金手指当然不是指加藤鹰啦，金手指(Gold Finger,或称Edge Connector)设计的目的,是用来与连接器(Connector)弹片之间的连接进行压迫接触而导电互连.之所以选择金是因为它优越的导电性及抗氧化性.你电脑里头的内存条或者显卡版本那一排金灿灿的东西就是金手指了。
 
@@ -64,7 +64,7 @@ Test Coupon，是用来以 TDR (Time Domain Reflectometer 时域反射计) 来�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745Rb3P4szc8ljJPQ9vFMqp0fjTIqBWEpiaAxpJ6XrUUYrZbdjV2x1lIbag/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_004_f60541c194ea.png)
 
 电路板不同层中导电图形之间的铜箔线路就是用这种孔导通或连接起来的，但却不能插装组件引腿或者其他增强材料的镀铜孔。印制电路板(PCB)是由许多的铜箔层堆叠累积形成的。铜箔层彼此之间不能互通是因为每层铜箔之间都铺上了一层绝缘层，所以他们之间需要靠导通孔（via）来进行讯号链接，因此就有了中文导通孔的称号。
 
@@ -120,7 +120,7 @@ Test Coupon，是用来以 TDR (Time Domain Reflectometer 时域反射计) 来�
 
 对比不同的PCB表面处理工艺，他们的成本不同，当然所用的场合也不同，只选对的不选贵的，目前还没有最完美的PCB表面处理工艺能够适合所有应用场景（这里讲的是性价比，即以最低的价格就能满足所有的PCB应用场景），所以才会有这么多的工艺来让我们选择，当然每一种工艺都各有千秋，存在的既是合理的，关键是我们要认识他们用好他们。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745RVkFKDVvTXOrrbzZqDRPXayfEQK4ZaO4P6pfWpVgcoGSozzLThegBQA/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_005_e6cef8ee02b1.png)
 
 下边来对比一下不同的PCB表面处理工艺的优缺点和适用场景。
 
@@ -132,7 +132,7 @@ Test Coupon，是用来以 TDR (Time Domain Reflectometer 时域反射计) 来�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745RXKTD5x7tARF8dtpt82ASBZqwgeekic8P0OMoEfXQAibh31ztvO6AVMLg/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_006_40bf0379ce71.png)
 
   
 
@@ -147,7 +147,7 @@ Test Coupon，是用来以 TDR (Time Domain Reflectometer 时域反射计) 来�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745R9aTKvbxkIEqodnUdsNAAMPic8ibfSibx2GOxYwU53evOmGCrDzAciatxAA/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_007_58c3f7dc07d5.png)
 
 -   优点：价格较低，焊接性能佳。
     
@@ -170,7 +170,7 @@ Test Coupon，是用来以 TDR (Time Domain Reflectometer 时域反射计) 来�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745RrEX6tPjZrAre2DicUwMT0HHlFHVIyEictBTE7KdLIyRvtvhjKhNLcTow/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_008_1435396beb7d.png)
 
   
 
@@ -191,7 +191,7 @@ OSP工艺可以用在低技术含量的PCB，也可以用在高技术含量的PC
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745RuYLWezecj6uSYUc9dggW56NxuvXiaxTS1HLNWSV6p5ggrGBvO1PsNYw/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_009_0b5946c56ce5.png)
 
   
 
@@ -226,7 +226,7 @@ OSP工艺可以用在低技术含量的PCB，也可以用在高技术含量的PC
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745RiatCN3hZAXpfSibYoU1jXNnoWcALW9PLKtcmqGmVV91zFuks2BRKv6bg/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_010_4d6c07f03215.png)
 
   
 
@@ -236,7 +236,7 @@ OSP工艺可以用在低技术含量的PCB，也可以用在高技术含量的PC
 
 老wu经常发现小伙伴们会对沉金和镀金工艺傻傻搞不清楚，下边来对比下沉金工艺和镀金工艺的区别和适用场景
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjialh39SkNDnnpn7iaDfd745RKJiaAPx9qTUX4K8HRTSCZILvQzXj7oTnXkncD3tEibZs5mx835sUkrVQ/640?wx_fmt=png)
+![](行内人才懂的PCB常用术语_images/img_011_c7bf728f8ff2.png)
 
 -   沉金与镀金形成的晶体结构不一样，沉金板较镀金板更容易焊接，不会造成焊接不良；
     

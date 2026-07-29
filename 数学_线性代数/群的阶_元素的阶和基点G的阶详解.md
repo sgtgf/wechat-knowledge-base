@@ -34,7 +34,7 @@
 
 这个图展示了一个椭圆曲线群的点集，总点数就是群的阶：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tqibzoNAibSbRgdVlzITNVa5mGSiaJJBen4gRry6e35ibOjg8cjd1FTgNib0k70orQT19KA10Brje3yztw/640?wx_fmt=png&from=appmsg)
+![](群的阶_元素的阶和基点G的阶详解_images/img_000_e986d34e9680.png)
 
   
 
@@ -71,7 +71,7 @@
 
 这里是一个点P的倍加过程，展示直到回到O的阶：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tqibzoNAibSbRgdVlzITNVa5mGt7sKQuuYRmhIeCVE6uqfjBySAs9jnicsu5tklYW5uxvIreJBxdtic3g/640?wx_fmt=png&from=appmsg)  
+![](群的阶_元素的阶和基点G的阶详解_images/img_001_5c5ac450693a.png)  
 编辑
 
 #### 3. **基点G的阶（Order of the Base Point G）**
@@ -103,7 +103,7 @@
 
 这个图说明从G开始倍加，找到阶的过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tqibzoNAibSbRgdVlzITNVa5mTWwFzcBd0woXfTFKcCnK6AD072iaGnMSWAIT56xkxA1acDa3Kh6XL8A/640?wx_fmt=png&from=appmsg)  
+![](群的阶_元素的阶和基点G的阶详解_images/img_002_df69b8d3b88f.png)  
 编辑
 
 #### 总结关系
@@ -144,12 +144,12 @@
 
 这里是一个椭圆曲线点阶计算的图解示例：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tqibzoNAibSbRgdVlzITNVa5mbnSksonQOF9Fltibh9PrdmhticNcb8kw2JH7Tv9C5VOhkmQICgUUh3Sg/640?wx_fmt=png&from=appmsg)  
+![](群的阶_元素的阶和基点G的阶详解_images/img_003_58132d35a1a4.png)  
 编辑
 
 另一个展示点序计算的手写例子：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tqibzoNAibSbRgdVlzITNVa5mibjcyAYs6UjJvAoZ3bjcCFnbskpgvrSdQD8RuwGxh4uEhY39iada2ojA/640?wx_fmt=png&from=appmsg)  
+![](群的阶_元素的阶和基点G的阶详解_images/img_004_cfad4c77dfcc.png)  
 编辑
 
 ### 基点G的倍点坐标详细列表

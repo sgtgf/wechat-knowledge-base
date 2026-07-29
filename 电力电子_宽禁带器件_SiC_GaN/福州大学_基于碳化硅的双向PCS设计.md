@@ -11,7 +11,7 @@
 
 **关键词**：双向储能变流器；T型三电平逆变电路；碳化硅；控制策略
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCX8epGnVXZbGFWVY6s98jzoMibJEG9zf3VEC1ZqedYa48zRJ6ZDh7u8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_000_6d8613eaff99.png)
 
 **0 引言**
 
@@ -27,13 +27,13 @@
 
 基于SiC 的双向 PCS 系统框图如图1 所示。系统包括DSP主控单元、三相相电流采样、三相线电压采样、母线电压采样、驱动电路以及通信模块部分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCgfEy5YtpgZeps2VnhHdfxjH3OqWZbn4VMST7iay5nyZRgJAxRJwp8gQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_001_258ef431b0c3.png)
 
 主电路拓扑采用T型三电平逆变电路,母线侧电容采用上下母线电容Cdcl、Cdc2串联的结构，且Cdcl\=Cdc2。上下母线电容电压理想情况下相等，表示为Udcl=Udc2=Udc/2,母线电压正极、负极以及中点电位分别表示为P、N、O点。T型三电平逆变电路每相包含4个开关管，以下以A相为例简要分析其工作原理。A相开关管由竖管（VTal、VTa4）和横管（VTa2、VTa3）组成，其中VTal与VTa4串联后中点为A;VTa2与VTa3串联后连接A、O两点。A点经逆变器侧滤波电感度Lia、网侧滤波电感Lga连接电网，ua表示A相相电压。
 
 通过组合控制VTal、VTa2、VTa3、VTa4, 可控制A点分别与母线的P、O、N三点相连，从而控制A点相对于0点的电位UAo有Udc/2、0、-Udc/2三种电位状态。若分别以P、O、N表示这三种电位状态，并以“1”表示开关管导通，以“0”表示开关管关断，则可得A点三种电位与开关管通断的关系。电位状态与开关管通断关系如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCZqklOzBiayxjPH8YBC4Eestgj5Kq85kzCTCDJ94p4HTAcZRJ3iccZRVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_002_3b0144e89a18.png)
 
 **2  双向PCS调制方法**
 
@@ -43,17 +43,17 @@
 
 T型三电平逆变电路中A、B、C三点均存在三种电位,因此三相组合后总共存在27种空间电压矢量。这些空间电压矢量可分为6个大扇区，每个大扇区又可细分为6个小扇区。T型三电平空间电压矢量图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCyJv6ecZ8xiakm5yVB560bmw9wGbbbibBQ6Cqf4pJdOWxsPfiazOgACMYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_003_97ec87398895.png)
 
 按照矢量幅值大小分类，可将图2的空间电压矢量分为6个大矢量，6个中矢量、12个正负小矢量以及3个零矢量。以空间参考电压Urer分布在第I扇区中的1小扇区对七段式SVPWM生成脉冲宽度调制波的过程进行分析。第I扇区空间电压矢量图如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSC4GJic22Bus8aKtWbVPLicAjBsnYM5oHRJaY7PX6ZueickqVvHMndYGm0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_004_a0e99e523f0f.png)
 
 对于七段式SVPWM,电压矢量作用顺序以负小矢量作为起始点，且作用顺序关于中心对称。上一电压矢量到下一电压矢量中仅有一相电位发生变化,但电压矢量作用顺序不能存在P电位状态与N电位状态之间的突变,需经过O电位状态过渡。则根据最近三矢量原则，空间参考电压Uref位于第I扇区中的1小扇区时,实际参与合成的电压矢量由零矢量000、正小矢量P00以及负小矢量ONN、OON组成。
 
 综上分析，设开关周期为Ts，当未进行中点电位控制时允余正负小矢量POO、ONN作用时间均为T1/2,负小矢量O0ON作用时间为T2,零矢量000作用时间为T3。七段式SVPWM电压矢量动作过程如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCT5pb46xd585mGlvDtjKKBlJJHwkZcBZrdTmRicmnanAg77qlQ8DgmRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_005_8f7a42964240.png)
 
 **2.2  基于线电压采样的锁相环设计**
 
@@ -61,41 +61,41 @@ T型三电平逆变电路中A、B、C三点均存在三种电位,因此三相组
 
 三相相电压与两相静止坐标系下α轴、β轴分量的关系式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCFxicXbCoxRXib6PGqW81ictyfoxvvtfqqTOjRVeqkBVeJKeneVFN4mrpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_006_3958d70fed05.png)
 
 根据式（3），构造可逆矩阵进行反变换，可得到基于线电压的三相静止-两相静止（3s/2s）变换关系式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCjvE4NggpMicK3bqL5Via4dBkbGXSdyHrLro1Z0UkibN3FqkqMy0CicW2Pg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_007_bf848e32f388.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCIXLrU5XGRx7SyM5GQdqOHRzAL63ebciaLKV7NSG7HUD8Q50FSfOWTpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_008_4175fd5b13d5.png)
 
 利用式(4)所提的基于线电压的3s/2s变换对线电压进行解耦,转化为两相静止坐标系下的分量。而DSOGI-PLL锁相环带有滤波作用,在三相电网电压不平衡的情况下，可以先对两相静止坐标系下α轴β轴分量进行正负序分离，获取该坐标系下的正序分量，然后将该正序分量通过式(5)的2s/2r变换转化为两相旋转坐标系下q轴的正序分量，并利用该分量进行锁相环控制。因此，可将线电压的3s/2s变换与DSOGI-PLL相结合，进而完成基于线电压采样的锁相环设计。
 
 基于二阶广义积分器DSOGI的正交信号发生器如图5所示。图5中，虚线部分表示二阶广义积分器,输人交流电压为Ui，输出交流电压为u。,qu。, 两者相位相差90°。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCPKkEcz2YSeKTQMP45RhNdLa9d03vXL18MO9ysad9Y8KMnmJsCRQfZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_009_6f8bc213a51c.png)
 
 该正交信号发生器的同相信号传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCagw2we9uguQEeyVvZywENibHCHEiaRnQ1C2JpFZrdrV3bqtyAFHEFSSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_010_392305f038f4.png)
 
 三相电网电压不平衡时，根据瞬时对称分量法先对三相电压正负相序矢量进行分析：三相电压正相序矢量所对应的两相静止坐标系中Uβ超前Ua，三相电压负相序矢量所对应的两相静止坐标系中Ua超前Uβ，则两相静止坐标系下正负序分量可以用以下两个式子表示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCwEicfcMBKRoq4GYtyeAFt6ib9DjGIuFSvQ2XBGyuIHfheSoDy9HOurCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_011_df0ef3fef11b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCkEZ7MkFVyemZjhQzNWhQyu4NEsdOViaLPCBh6XqjRfrPxIfKZVJsXWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_012_500052a2093b.png)
 
 由式（9）、式（10)可得,两相静止坐标系下正负序分量可以分别由同相信号与正交信号叠加运算而成。
 
 根据基于二阶广义积分器DSOGI的正交信号发生器原理，结合线电压的3s/2s变换，可进行如下的锁相环控制设计。线电压先经过变换转化为两相静止坐标系下Ua、Uβ分量，利用双二阶广义积分器的正交信号发生器（DSOGI-QSG)对Ua、Uβ进行正负序分离,再利用PI控制器对两相旋转坐标系下q轴的正序分量进行锁相调节。基于线电压采样的锁相环控制框图如图6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCFibuhHbH5ticbHHcicJCZCtP8tIrQHzRfN02qACiabgFnCRnNPOZbHkwmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_013_7491861a21de.png)
 
 **2.3 并网电流正负序分离控制设计**
 
 当电网电压不平衡时，需要对并网电流进行正负序分离控制，以平衡三相电流。由于需要及时跟踪并网电流，因此电流正负序分离的软件带宽需要越宽越好，则采用高带宽的全通滤波器，构造出同相信号与正交信号，其正交信号的传递函数为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCbFw9UT8Iy4a6cs37eZib132ZGfG1iatJBVgicl8cJibKgoBuP69bx3VsIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_014_5837de981b26.png)
 
 图7中，输人交流电流信号为Ii，输出交流电流信号为i。qi。，两者相位相差90°。
 
@@ -103,17 +103,17 @@ T型三电平逆变电路中A、B、C三点均存在三种电位,因此三相组
 
 综合上述分析，对并网电流进行正负序分离：先将三相相电流进行3s/2s变换，得到两相静止坐标系下的ia以及iβ分量,再利用式(11)输出同相与正交信号,最后通过式（9）和式（10）计算输出两相静止坐标系下的电流正负序分量。两相静止坐标系下的电流正负序分离如图8所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCDe82EUbmiavaUb1RkBQTuuh2rcMe9mIHiazfpz7DsVcC5E021ukEyD7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_015_026f76df6bf0.png)
 
 通过图8可以获得两相静止坐标系下电流正负序分量,再经过2s/2r变换后即可得到两相旋转坐标系下的电流正负序分量，并对其进行分离控制。并网电流正负序分离控制策略如图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCwD1yDg24pfwicibqKjr4B5tyKZ1BOgZkdiayIkeYwmia2fcib8tPAR6RNiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_016_d9c6a9683c21.png)
 
 上述控制策略先获取电网电压、电流在两相静止坐标系下的正负序分量，随后进行2s/2r变换，将其转化为在两相旋转坐标系下电网电压、电流正负序分量。然后，利用前馈解耦控制，分别对两相旋转坐标系下的正序、负序分量进行控制。最后,进行2r/2s变换,将两相旋转坐标系下控制结果转换回两相静止坐标系下的控制结果，并将其叠加后反馈给SVPWM。
 
 **2.4 控制程序流程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSC4XuWkPd4FRXC1ZG9Bmd4gQGAesMjNFlYDtibg4s97JQR4I5My13eLdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_017_ea9fff0bf4a3.png)
 
 系统控制程序流程图如图10所示。左侧虚线方框为线电压锁相环程序流程：对三相线电压采样后先进行线电压的3s/2s变换，再结合图6进行离散化计算，后提取两相旋转坐标系下q轴的正序分量进行锁相控制。右侧虚线方框为并网电流正负序分离控制程序流程：锁相完成后等待并网条件满足,DSP判断并网条件满足后闭合继电器，采样三相相电流，结合图8进行离散化计算,后提取两相旋转坐标系下正负分量分别对其进行计算,并将结果赋值更新,DSP输出SVPWM。
 
@@ -121,38 +121,38 @@ T型三电平逆变电路中A、B、C三点均存在三种电位,因此三相组
 
 设计采用线电压锁相环的T型三电平双向PCS实验样机。T型三电平双向PCS关键参数如表2所示。功率开关管采用United SiC公司的SiCMOSFET，主控制芯片采用TI公司的TMS320F28377。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCtAUu6gT9tenQVPibHJJjUSPgrPicI2xjmsxlkEZMybbqDYD33n9KaWXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_018_343617a2a573.png)
 
 采用所提线电压采样的锁相环，锁相环输出信号如图11所示。图11中，A相电压以及相角的控制器DSP的DAC输出波形，线电压经过3s/2s变换后再进行锁相环控制，可以很好地锁定相电压的相位和频率,验证了线电压3s/2s变换的正确性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCJibM8UbCRyFGIRIaDROAWPh7RQAOQMQ6oe8eSibrrVVL4afDNSe7jR5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_019_9d0a623c6e6a.png)
 
 采用设计的并网电流正负序分离控制,在双向PCS样机上进行了逆变并网、整流以及双向切换实验。额定功率10kW逆变并网条件下三相电流以及U线电压波形如图12所示。此时相电流总谐波失真率(THD)为2.43%,功率因数为0.999。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSC62atbJgIrxYjsZRVqUtfoK5UFT172H12sBuXkwPgF64cRmzufM7bQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_020_c41d3c8b3f15.png)
 
 10kW整流实验条件下三相电流以及Ua线电压波形如图13所示。此时相电流THD为2.38%,功率因数为0.998。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCdXAsRXjJibZjF5t8RPQMAOC3mtcATbqY8sgCviaek5t9kibtCncNTMUQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_021_7fd6c18cc82d.png)
 
 10kW功率下逆变向整流、整流向逆变切换时三相电流和Uab线电压波形分别如图14、图15所示。由图14、图15可见，实验样机在双向切换过程中实现了无缝切换，并且切换时间为100 ms。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCD6wr3aibqaQ89kgq0QicUp1lFm99EZZEBWckmSqXnvEgGkHLjL5U3uJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_022_b5a5accce14b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSC8bouYPnFaYtiaSo3OricsmrmTbSfgbX9IzjGvlCgyuUtsvNn97t7LI5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_023_71cb12a07829.png)
 
 实验样机效率曲线如图16所示。由图16可见,在逆变并网满载时效率为98.47%，整流满载时效率为98.56%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSC5KuDmLicTK8VSric9mDyk0DeQWsNmBUA8eDSkUNM3UGb6e0WjvXzNj3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_024_c0670950724a.png)
 
 **4 结语**
 
 本文设计了采用SiC器件的双向PCS,主电路采用效率高、并网电流谐波含量低的T型三电平逆变电路。针对SiC器件的开关频率高、开关速度快,采用相电压锁相控制容易受干扰以及不平衡电网电压下容易影响系统稳定性问题，提出了基于线电压采样的锁相环和并网电流正负序分离控制策略,分析了线电压的3 s/2 s变换以及并网电流正负序分离的方法。最后搭建了1台基于SiC的10kW双向PCS实验样机，样机性能良好，运行稳定可靠，实验验证了所设计方案和控制策略正确有效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_025_ea8f01f5441e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_026_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_基于碳化硅的双向PCS设计_images\img_027_1241954b1b67.png)

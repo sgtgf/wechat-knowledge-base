@@ -16,7 +16,7 @@
 
 过孔是 PCB 中各层之间的电气连接，用于连接输入和输出、电源和接地轨道。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot89cia9lOPYDnZ2UndoBsLhl6fibQsQVsaoSzibGdjxx6UveqL0TjxWCBAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_002_f9cea0cda7f2.png)
 
 BGA扇出
 
@@ -24,7 +24,7 @@ BGA扇出
 
 通常，每个焊盘有一个过孔。PCB 焊盘是设备焊球放置并焊接到的地方。**使用细间距 BGA 进行 PCB 设计的重要和困难方面之一是 BGA 焊盘和扇出的布局。关注公众号：硬件笔记本**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8lG3vrSd96QiaA9BL80BtsP4iaCicVDsHm9P0LiarD3VXQ1F789nc8DsGFQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_003_b23b90c78edc.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 BGA焊盘
 
@@ -38,7 +38,7 @@ BGA焊盘
 
 下面为：**典型BGA 封装的内部结构**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8kY2YIkxPqTBwPopmQN0fYeicWOz9hYZtFC9sgia7FxpAVQUHDOHR9tuw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_004_1b6eab7e096d.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 典型 BGA 封装的内部结构（侧视图）
 
@@ -46,7 +46,7 @@ BGA焊盘
 
 不同 BGA 类型封装的营销名称种类繁多，基本上没有标准化。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot84TNicd9hKe2WS7L628tEK27uMd3QPPj1JhsUpCwGCQhVYnZ7kJDnPHQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_005_2062c35d2521.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 BGA封装
 
@@ -54,7 +54,7 @@ BGA封装
 
 这里举一个例子：CP161 绘制正确的占位面积的。可以在datasheet上找到，有推荐的焊盘图案，指定**NSMD型焊盘的焊盘直径为0.15 毫米。关注公众号：硬件笔记本**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot878EoxkLTzHicrKG7dtibRxVEJ4Wc0XJHPL9icmnFSbpTrJM1Ptp7hFc3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_006_309f60267477.png)
 
 NCP161 的 PCB 封装，如数据表中所建议
 
@@ -66,11 +66,11 @@ NCP161 的 PCB 封装，如数据表中所建议
 
 下面为：**阻焊层定义（左）和非阻焊层定义的 BGA 焊盘（右）的区别**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8ahQicbZuMK8QAYSAUu91DLGlGIqzRsibOuzwJQWzCiabuSJg7JerpmNHw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_007_4ee7f3dd5db4.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 阻焊层定义（左）和非阻焊层定义的 BGA 焊盘（右）的区别
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot81y8WSR0T6rfWbPUUiaBTF8L7Wwf3ic272aibaFOwMick6Ndd9kl9Rl59AQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_008_e22be02e7b00.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 带有阻焊层定义焊盘（左）和非阻焊层定义焊盘（右）的四引脚 BGA 封装
 
@@ -88,7 +88,7 @@ NCP161 的 PCB 封装，如数据表中所建议
 
 下面为：四引脚 BGA 封装的完整 PCB 封装。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8zzsrEOdibvYqa3MYnewjQmZcGSxJRzP4YJia1oFj9n9oAWZV3PrPo6mA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_009_6f31362db7ed.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 四引脚 BGA 封装的完整 PCB 封装
 
@@ -96,7 +96,7 @@ NCP161 的 PCB 封装，如数据表中所建议
 
 其原因是可焊性，当焊球熔化时，就可能会黏附到铜上，也就是说焊盘与之相连接的走线。因此，芯片在焊接过程中会在走线方向受到轻微拉力。使连接径向对称应该抵消每个焊球施加的力并确保更可预测的焊接过程。关注公众号：硬件笔记本
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8WOrG7ibYXSNtINTiadIVQCsVjoSKUdiaialpbOHv3BzFPl300LrUUKdMQA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_010_6b0c610f008c.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 DO 的完整布局，以及周围的组件
 
@@ -106,7 +106,7 @@ DO 的完整布局，以及周围的组件
 
 ## **四、BGA间距及其对扇出的影响**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8W1Cm0cfaTUOzXHuF5fIW2btONOfxZXdXSYrx1AaLdZAvIq3cXnlqgA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_011_20b1664eb2a7.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 BGA间距
 
@@ -118,7 +118,7 @@ BGA间距
 
 下面为：**通过BGA引脚布线图**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8RbrtnPH6mmASzPEa6iayk8yUZv8h6v4ib1VzEyvia47sb6iaVAkkia1Lb0w/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_012_dd1a04d036e1.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 通过BGA引脚布线
 
@@ -128,7 +128,7 @@ BGA间距
 
 当我们**放置带有 7×7 焊接网格的微控制器**时，就更加困难了。将走线布线到所有 49 个焊盘并不是那么简单，先从最简单的部分开始：**外部引脚**，可以使用水平和垂直走线简单地将它们向外布线。关注公众号：硬件笔记本
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8outWt7ibz6IYYLhRezRgfssJ3H14EP5mgpKdia1psGkH2Yc6Jy9VtHAw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_013_cd030c758bd8.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 BGA布线：狗骨式布局
 
@@ -138,7 +138,7 @@ BGA布线：狗骨式布局
 
 对于此示例，间距为 0.65 毫米，直径为 0.35 毫米，最小间隙和轨道宽度降至 0.1 毫米，比较紧凑，有一些制造商是这样的。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8TZEkianbYUybkLByc6Yz962WI76B0OiaJIWONib74jXOhv5S51ic8UqNfg/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_014_878556558f59.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 BGA布线：狗骨式布局
 
@@ -146,7 +146,7 @@ BGA布线：狗骨式布局
 
 这里要**确保有足够的空间来放置过孔**。如果焊盘间距为p，那么两个焊盘中心点之间的对角线距离为p√2。焊盘内边缘之间的距离为 p√2 – d，其中 d 是焊盘直径。关注公众号：硬件笔记本
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8Q1WHxeZcYOXziaX1iayKiaoiasatOsxNJHBJQ82yeIZqN1RKdGibZ1pGQZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_015_e55a60a6ca5a.png)
 
 焊盘间距
 
@@ -154,7 +154,7 @@ BGA布线：狗骨式布局
 
 放置过孔后，我们最终得到如下所示的布局。这是**dog-bone 布局样式**有点像卡通骨头。在这个简单的例子中，我们只有九个狗骨和足够的空间来路由底层的信号。如果我们有一个 8×8 的球包，那么我们就会有 16 个狗骨头，底层会和顶层一样拥挤。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8cMJx165Xm6El5AV3olNVuL0zJP8R9nA32ice0w1lVNuicTuK7DYPPuxw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_016_aecb3520f2af.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 BGA布线：狗骨式布局
 
@@ -178,7 +178,7 @@ BGA 布线的另一种布局方式是**盘中孔**。这通常用于无法在四
 
 下面是一个示例布局，显示了**应用于 TDC7201 的焊盘内通孔技术**，虽然我们通常不需要在这样一个简单的 25 引脚设备上使用这个技术，不过这只是一个案例。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8str70cWsskrZyiar3B3jvYlV5Ly71mW1KwSXtDNiaNSeCJAq6Hf4cajQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_017_3ca8a74a257b.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 应用于 TDC7201 的焊盘内通孔技术
 
@@ -188,7 +188,7 @@ BGA 布线的另一种布局方式是**盘中孔**。这通常用于无法在四
 
 ### **1、BGA布线中盘中孔**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8WLY26hXsQvyeAS8Bkf5fQRALVK6n20d03jQ4ok7PymUdGv1GyjFm8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_018_df2e6a49be82.png)
 
 盘中孔
 
@@ -200,7 +200,7 @@ BGA 布线的另一种布局方式是**盘中孔**。这通常用于无法在四
 
 下面是放置在焊盘边界附近的盘中孔。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8cn9PibqPq2FChfFJ78qfoVvcKtMDatBREPWI6akVygGZ9ku6ic8RLBAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_019_b260781a9989.png)
 
 BGA布线使用偏置焊盘
 
@@ -208,13 +208,13 @@ BGA布线使用偏置焊盘
 
 ### **3、位于中心的焊盘**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia1Nat4NXAudHWKxFe7dot8klialSsGZDj8AJt98PMicbbMrX5ZuqsUeRVqkbAAAibJGfnTjqUicCvjyA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_020_3cd3f8684c64.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 位于中心的焊盘
 
 与焊盘中心的微孔相比，使用偏移孔增加了可用于布线的空间，如上图所示引脚之间的路由走线可以不同方式通过紧密间隔的引脚进行布线。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_021_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\带BGA的高速板_还真是有难度_images\img_022_d5dcc7ecfdf3.jpg)
 
 ## 
 

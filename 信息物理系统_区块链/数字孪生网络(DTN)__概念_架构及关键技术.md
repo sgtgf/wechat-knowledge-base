@@ -24,7 +24,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210097?viewType=HTML_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zy6TiaZaPE21XfTwgywNI5pOxuT7C3ib4Vg1HxrJUnXhhzFxibHosibePeGQ/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_000_897a2fd5ff83.jpg)
 
   
 
@@ -32,7 +32,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210097?viewType=HTML_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyMhUYlpW5dAMqIQnFklVFSIO6n8cuMNFY0gkqYtaTDnAu97zzfLdcsA/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_001_b75c01b97aaa.jpg)
 
   
 
@@ -50,171 +50,171 @@ DTN的相关研究目前还处于初级阶段. 将服务于包括网络规划、
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_002_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyjNn72hVibzU7TutN0VNvyqlic2O93lWHRyvq5k9FWNj16wqfrsVaHJvA/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_003_9e11e73ef31c.jpg)
 
 **孙  滔**
 
 中国移动研究院主任研究员, 网络创新实验室技术经理. 
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_004_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_005_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zy6ic1NQibvhJmxRnMW46p339vvibicNiardNPMa07HzS0JCdNDXK5WX1T9gQ/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_006_bca9d0f762ad.jpg)
 
 **周  铖**
 
 中国移动研究院网络与IT技术研究所项目经理.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_007_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_008_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZymAfyiaNOHm2icVnU5oA1KrtD41969hxwEnMCQnRP9qVPFcpibPUaQYzCQ/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_009_549814554af7.jpg)
 
 **段晓东**
 
 中国移动研究院副院长, IMT-2030 (6G) 推进组网络技术组组长.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_010_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_011_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyuljXHEQ93c0Xria1ypxibiaCteibOngl1VGZGjQ3SkF3bGXekDRic4oHPww/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_012_7954868dc810.jpg)
 
 **陆  璐**
 
 中国移动研究院网络与IT技术研究所副所长, CCSA TC5核心网组组长.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_013_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_014_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyIG1ohxbwmjez3jrg85qAiaPSITp1GdXEJK2NADdYW3uiaYVo8faia7ffw/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_015_bb2587b878ee.jpg)
 
 **陈丹阳**
 
 中国移动研究院网络与IT技术研究所项目经理. 研究方向为数字孪生网络和意图网络.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_016_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_017_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyvY7su9YVJUbOBWdkGvib1YCKKdBnBCPfnrwKgMKtVtFRasyy8CJicrXQ/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_018_8043b2e4fc84.jpg)
 
 **杨红伟**
 
 中国移动研究院网络与IT技术研究所项目经理. 主要研究方向网络智能化、网络性能测量. 
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_019_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_020_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyLllesJo5rZNvred82IWuU5hLOKw7vHsK7YKEuLicmh3KrY3eaeYWEhg/640?wx_fmt=png)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_021_9af6d8342198.png)
 
 **朱艳宏**
 
 中国移动研究院网络与IT技术研究所项目经理. 
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_022_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_023_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyy7fwZtpW6QylVsrmibRXGibtGEQibibp9m6mUI7PSj38PxhAfzja9oom4w/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_024_172f4977d325.jpg)
 
 **刘  超**
 
 中国移动研究院网络与IT技术研究所项目经理.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_025_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_026_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyRb85HahTn5rgtKcgSz4QvDMTpibQuwdr4ibmgA1sy8BtZibxR7fa3In0A/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_027_bf9d639c76a4.jpg)
 
 **李 琴**
 
 中国移动研究院网络与IT技术研究所项目经理.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_028_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_029_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZymickZlibtayPrCkPEVMREQhaCEBiavVKCRIwtDExbDHEmwTKvzicDtOb8g/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_030_a3335693f4bd.jpg)
 
 **王  晓**
 
 中科院自动化所复杂系统管理与控制国家重点实验室副研究员.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_031_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_032_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyxMDUeMNRzDRPcmEgghhOlYBSjqernDsmcLxBALufx3kTCrJBBrK0Nw/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_033_84341d459cd3.jpg)
 
 **沈  震**
 
 中科院自动化所副研究员.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_034_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_035_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyyVFrVZgxM2ibpB9pQ9BIke1gaEMEoJIKF7YNb2iacfO4OGYM3gkJu7eg/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_036_da420d86a502.jpg)
 
 **瞿逢重**
 
 浙江大学海洋学院教授, 海洋传感与网络研究所所长.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_037_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_038_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zy9NdJn85tfxwWaWo8s9rp1MVtEChrsIicgxbia0YunKvuibZyeJIG3vl2g/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_039_28b1da5d199c.jpg)
 
 **蒋怀光**
 
 美国国家可再生能源实验室研究员.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_040_ec22f0594f90.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2hLCVoicYpflG7UXs4kBasInNjhjOvMuyyINfHDCQibmAQEp4sB6riaKxCr1JHygiazBf/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_041_3c44dc1c502e.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyziawSZPQrYT4ockicykan7K9eibkACDDPOQcbNqC76heS4ZOavxZxKjJg/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_042_d50272bfae53.jpg)
 
 **王飞跃**
 
 中科院自动化所复杂系统管理与控制国家重点实验室主任, 中国科学院大学中国经济与社会安全研究中心主任, 青岛智能产业技术研究院院长. 
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIcoFmCZTpMN2Ao7NV6vVe8yj5wM0IR1icvy41N4lRfNPJlJ4tp1njqrUeP5m2RQWasr8lWPptuWQa/640?wx_fmt=svg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_043_ec22f0594f90.svg)
 
   
 
@@ -290,49 +290,49 @@ DTN的相关研究目前还处于初级阶段. 将服务于包括网络规划、
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyk9VKeLAcasUAusOBeSbEmuCGOdlumaBYK7qW5OjIyqaTECFcP7ZwiaQ/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_044_66fab844452c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZycHq4PKlNk8GGRkBSc178Eiaf2g5rjo4iaQqTPZdicRwj0T2GmgdQIDZYA/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_045_e21d2b111527.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_046_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_047_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zy4ficIEmpfC1ZTE8fNjyIu3G4w4HSMCUX0tibVDHfYO8AtrqG145rhGfw/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_048_2c1514ba3550.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_049_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_050_82b2ba7d6ede.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_051_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_052_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyRRHF2v2lgmQ9CZYhV8eic1icL7icWbQUJIS6O5HVm8TGfJadz3iausH8bQ/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_053_6390144d2968.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_054_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_055_82b2ba7d6ede.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_056_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_057_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47oeSdrUSRfWhg5wLjG31ZyjRic72PXve2ODoy533tzQcAga23YkNak1zKEKkOGL1ePe1NWvL5Lrdg/640?wx_fmt=jpeg)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_058_44e9054417ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_059_82b2ba7d6ede.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47oeSdrUSRfWhg5wLjG31Zyag9RG8WmeJicDlk5gRFTLYvDhPZtibcicE4M6yicRPRY6K96e0lCmic6zCw/640?wx_fmt=gif)
+![](数字孪生网络(DTN)__概念_架构及关键技术_images/img_060_82b2ba7d6ede.gif)
 
 **长按二维码｜关注我们**
 

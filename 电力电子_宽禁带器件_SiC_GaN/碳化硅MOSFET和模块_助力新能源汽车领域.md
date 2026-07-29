@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/3a9t2phhbRlbRx\_82MkYqg](https://mp.weixin.qq.com/s/3a9t2phhbRlbRx_82MkYqg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4agncMq0K8ESbCuAzN650W4CMc2upd3tTCGSgc70seoBOwmia2qaicecg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_000_a7c8d9989f77.jpg)
 
 如果说特斯拉在2018年正式打响了碳化硅上车的“发令枪”，现在新能源汽车市场应该比以往任何时候都更加逼近规模化上车。  
 
@@ -19,7 +19,7 @@
 
 为解决里程焦虑，当电池能量密度提升的边际效用减少后，尝试高压快充系统成为车企不约而同的选择。在2021年，越来越多车企陆续发布了搭载800V高电压平台的车型，碳化硅功率器件的阵营也日益壮大。在去年11月广州车展上，新能源汽车造车新势力之一小鹏汽车发布小鹏G9，推出的800V 平台采用 SiC 器件，可实现充电5分钟，续航200公里；蔚来ET7也将搭载SiC电驱系统，并将在今年第一季度开始交付。另外，广汽埃安也正在进行质量验证，预计在2-3年内将有搭载SiC器件的车型投向市场。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4NK9Dgpl2LqgKEkUFQGPJCqVekia1WJ5MeKgjkztpVKNwHYdiaJibMhHlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_001_790ca63995ce.png)
 
 电压平台的升高，将意味着核心三电系统以及空调压缩机、DCDC（直流变压器）、OBC（车载充电机）等部件以及充电桩都要能在 800V甚至 1000V的电压下正常工作。因此，功率器件作为电动汽车逆变器的核心能量转换单元，半导体材料选择变得尤为重要。功率半导体产品按衬底材料可分为硅和碳化硅两大类，而碳化硅具有高耐压特性，在 1200V的耐压下阻抗远低于硅，对应的导通损耗会相应降低，同时由于碳化硅可以在1200V耐压下选择MOSFET封装，可以大幅降低开关损耗。  
 
@@ -51,7 +51,7 @@
 
 此外，供应链安全也是车企愿意尝鲜的因素之一。投资人士称，目前车企还是更倾向于国外厂商，英飞凌等国际巨头短时间内难以超越，出于安全考虑可能会把一部分供应链放在国内，“不能把鸡蛋放在同一个篮子里”，这对国内厂商是个机会，但是也要徐徐而图之。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4pkExvr17ib1CtZC6p3y0oEia1zMREU9BhOgnTgaZt73oWplMIibFsWJ9Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_002_a3b023264b9c.png)
 
   
 
@@ -63,16 +63,16 @@
 
 集邦咨询预测，随着汽车平台高压化趋势愈演愈烈，预估2025年电动车市场对6英寸SiC晶圆需求将达169万片。全球SiC功率器件市场规模将从2020年的6.8亿美元增长至2025年的33.9亿美元，年复合增长率将达38%，其中新能源汽车的主逆变器、OBC（车载充电器）、DC-DC（电源模块）将成为主要驱动力，或在2025年占据62%的市场份额。（以上资料转载网络，仅供参考)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4UO9oclj7cfkSoTmEAeoBbJCG4NQ5IYgeE8RA3xiaCOC0UwUlFwcMxVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_003_c8aee85434a6.png)
 
       **深圳爱仕特科技有限公司专注于第三代半导体碳化硅（SiC） MOS 芯片设计、功率模块的生产制造及其基于 SiC 器件在新能源领域 的应用系统开发方案，由武岳峰资本及国内多家知名投资机构投资数 亿元，中国科学院及清华大学博士领军，数十位半导体行业资深人士 共同组建的高科技技术创新性企业。公司拥有全自主知识产权，已申请 25 项专利技术，采用 6 英寸技 术已量产 20 余款 650V~3300V 全系列 SiC MOSFET 产品，并建立起 车规级的 SiC MOS 模块工厂，可为客户提供整套应用解决方案。产品 已大量出口欧洲和美国客户。**
 
       **深圳爱仕特科技，产品已通过IATF16949和ISO9001质量体系双重认证。产品已得到：美国通用 ，厦门金龙， 吉利，长安，BYD等车企的认可和支持，国产碳化硅MOSFET和模块的国产化，迈向新的征程。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4HvfsjglK8EHDp02iaXibUiabYdZ2qicIFRzpocppypRIp7j4sf13yBdtWA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_004_e095c5c08b22.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4qAohKyDCy4TnOUI6icQib6cYnic5BvkwkYbvQaboHiaWjDpW4WiaBASbTyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_005_f699454fb572.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4DK1fqWXpED1WhMDicwNviab32fDsQzFq8l0EhrLAhIAMDJWqhryHWduw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_006_f6d03b5bca4d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4EEqfbFCSiaq91m05nPdYvSpBSXkAzduFia0LzCdxJ8W0ND8LUNGFoQzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET和模块_助力新能源汽车领域_images\img_007_b6389f4badf7.png)

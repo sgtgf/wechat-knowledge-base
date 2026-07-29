@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/DOhCvpWwI27GpB5JRgWfsg](https://mp.weixin.qq.com/s/DOhCvpWwI27GpB5JRgWfsg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_000_ec559f3ff72e.gif)点击上方名片关注了解更多![图片](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_001_909e8086e918.gif)
 
   
 
@@ -12,7 +12,7 @@
 
 这份《开关电源基础知识》电子版共**39页**，内容非常系统，**为防止大家"收藏＝学会"**，下面我就带大家快速过一遍重点内容，文末还附有**完整PDF获取方式**哦！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksTs0lRa0IliaXplqy0dYNIbjBsV4RTav78OnH1h2qDxNjzqWCVEicXVIw/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_002_c8a024d159c0.png)
 
   
 
@@ -26,7 +26,7 @@
 
 实现稳压需要一个控制系统（负反馈）。从自动控制理论我们知道，当电压上升时通过负反馈把它降低，当电压下降时把它升上去，这样就形成了一个控制环路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksENY0a6vSdfFdosQUlVuRKH21huY04xI5UM7CaiaJfQtVjsr2zaKXRUQ/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_003_87e20b29d851.png)
 
   
 
@@ -36,7 +36,7 @@
     
 -   **开关电源**：体积小，效率高（可达90%以上），支持升压/降压/反压，但噪声大，设计复杂。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksQqaiamlMCCewSNk1aT1ibCcE8KuVtDK4FOIqh6ZTOGepybzEnHujL5eQ/640?wx_fmt=png&from=appmsg)
+    ![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_004_2277b57e8f03.png)
     
       
     
@@ -50,7 +50,7 @@
     工作原理：开关导通时，能量从输入向输出传递，电感储存能量；开关关断时，电感通过续流二极管维持电流。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksbynPM5OECKdRMoibqNhzeRvWgDJibR2WK9gG4VkHpuTdCAzt27osDUag/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_005_2408a17cdbc6.png)
 
   
 
@@ -60,7 +60,7 @@
 输出电压关系式为：Vo = Vin / (1-D)  
 工作原理：开关导通时，电感储存能量；开关关断时，电感能量与输入能量叠加向输出供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksibo0rsMtLDcQAfxcv8uD1HXmqdm14myzIStADTSEgUnTgEOyIBMR9tQ/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_006_171d09cc5d76.png)
 
   
 
@@ -70,7 +70,7 @@
 输出电压关系式为：|Vo| = Vin × D/(1-D)  
 当D=0.5时，Vo=Vin；当D<0.5时，Vo<Vin；当D>0.5时，Vo>Vin
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksqICE6UM8PW1HyLK1xtP8W3TyiabFMGB3GVM9wD7q7f9e12N1BE14dGQ/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_007_87851c912fb3.png)
 
 小贴士：有时候我们会在开关电源后面再加一个LDO，既能高效降压，又能获得干净稳定的电压！
 
@@ -91,7 +91,7 @@
 
 电源的效率公式：η = Pout / (Pout + Pd)，其中Pout为输出功率，Pd为耗散功率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCkskkuPFYFns4hcGwsUm7yibGvahQ3FhH4H3F7jtlQmzaREfl0cFX3j1gw/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_008_31d8b472fab6.png)
 
 通过实际计算可以发现：  
 假设输入5V，输出1A
@@ -111,7 +111,7 @@
 
 在应用中，只有一个上管开关的就是非同步的，上下管都有场效应管的就是同步的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCkstj7q8UVhOlPhvMyicyZNcZXpibCLPheicTEMC1eI0tkfO9XDM5VstQ2ow/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_009_4f18534ffda4.png)
 
 #### 非同步特点：
 
@@ -164,7 +164,7 @@
 -   **输入输出不隔离**，有触电风险，抗干扰差
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksarCRZopUoJwu0meOOqNq4kbkzZEwZ4V6qPYsaiaTsqkHcJzaX23chsg/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_010_c12e627b0cca.png)
 
   
 
@@ -177,7 +177,7 @@
 -   体积大、成本高、设计复杂
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCkstwHkSmjhZ60PFN2nzH0uk3ZdpbMsZjh25riatw2nJgDzkLzUFscf4Ng/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_011_a8f2df46d5e1.png)
 
 **应用场景**：  
 隔离电源常用在家电、工业设备、医疗设备等对安全要求高的场合。
@@ -190,7 +190,7 @@
 
 PWM和PFM是两大类DC-DC转换器架构，每种类型的性能特征不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksicR7DBSgapa5xg28KwBETAk3aHHN0zz9R0pfm3w9ZcfbcXXu0BjsPKQ/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_012_1fa2a530af11.png)
 
 ### PWM：
 
@@ -234,10 +234,10 @@ PWM和PFM是两大类DC-DC转换器架构，每种类型的性能特征不同。
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCksUqO3xYFcq8j010zlYtaPXOyn2C09oJIibY1ibDvIYa5WyrjGIriaiayNzw/640?wx_fmt=png&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_013_b5976340bbce.png)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgiaiaBC3Ffr0dVbNC6a9FCks77Q9BT3WJvI9xkhiaiaVl2xVpBCcvehNBbQUP1Kb9jserQN3xooDwOuw/640?wx_fmt=jpeg&from=appmsg)
+![](码住_这可能是最适合新手的TI开关电源_内参__好懂到上头_images/img_014_106c40a6b47b.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

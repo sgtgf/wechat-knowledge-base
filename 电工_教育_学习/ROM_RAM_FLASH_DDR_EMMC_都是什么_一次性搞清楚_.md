@@ -6,7 +6,7 @@
 
 ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcm0XB5XglyLk8EDA56X8gUbGu91A7XoNBEKSuXU1mVJevflovFTG9fj8ySK7ib8AticUyFyib7hWNNSA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\ROM_RAM_FLASH_DDR_EMMC_都是什么_一次性搞清楚__images\img_002_7abbae87445c.png)
 
   
 

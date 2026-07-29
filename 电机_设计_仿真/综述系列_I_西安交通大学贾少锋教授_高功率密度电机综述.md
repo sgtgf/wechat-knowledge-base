@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/lwcocg1YUMB4Wusa\_5zCcw](https://mp.weixin.qq.com/s/lwcocg1YUMB4Wusa_5zCcw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_000_4fecbf19a39d.gif)
 
 **高功率密度电机综述**
 
@@ -34,7 +34,7 @@ S. Jia, Y. Xu, J. Lin, D. Liang, R. Qu and J. Liu, "Overview of High Power Densi
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphqTyA1WRvibhXnCo9RiaiaynKvhZldaPxib0sGTrfwBvycyibCOS0ibkqULGsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_001_bd6c5bb7bf42.png)
 
   
 
@@ -98,7 +98,7 @@ S. Jia, Y. Xu, J. Lin, D. Liang, R. Qu and J. Liu, "Overview of High Power Densi
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphqdrnDhjVgOcHpKMyNlyNib7yYkgfGpmf5e99WZXpMGE0CibTJfypFia8Qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_002_e11a67fd3e47.png)
 
 团队成员贾少锋教授及所指导的研究生
 
@@ -106,29 +106,29 @@ S. Jia, Y. Xu, J. Lin, D. Liang, R. Qu and J. Liu, "Overview of High Power Densi
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphq8D7R8h3xQhrw0oS1LVX70eROm3nXuXmgANk8RYMwHysD0y1EZsyWDw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_003_781de7fb4035.gif)
 
 **贾少锋（IEEE Senior Member）**，出生于陕西省。他于2012年获得西安交通大学电气工程学士学位，并于2017年获得华中科技大学电气工程博士学位。 他目前是西安交通大学电气工程学院教授。担任IEEE JESTPE期刊副编辑。他已发表或合作发表约100篇IEEE技术论文。他的研究兴趣包括新型与特种电机系统的设计与控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphqBXRUprlWVbmQ7ajGfxkX5oIicZI02c4WmgxKPcADGRqUUVGycrmmXSQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_004_48824dbc8648.gif)
 
 **徐宇晨**，出生于福建省。他于2024年获得华北电力大学新能源科学与工程学士学位。目前，他正在西安交通大学攻读电气工程硕士学位。 他的研究兴趣集中在永磁电机设计领域。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphqUdhgRKDCXGJh7kDFuKBdZnPt2vGPfjzFlyOdeWFhYc5EQvvYZjzNNg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_005_fe7f13773eba.gif)
 
 **林俊**，出生于湖北省。他于2023年获得西安交通大学工学学士学位。目前，他正在西安交通大学攻读电气工程博士学位。 他的研究兴趣包括双馈感应发电机和永磁电机的设计。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphqzthxed5MVx6eiauWRk7JQhB3k6Vq5rSMPck8cuc5lIk0nCiafiakNiaeGA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_006_88b80a88e818.gif)
 
 **梁得亮（IEEE Senior Member）**，分别于1989年、1992年和1996年获得西安交通大学电气工程学士、硕士和博士学位。自1999年以来，他一直在西安交通大学电气工程学院任教，目前是该学院的二级教授。2001年至2002年，他曾在日本东京的Science Solution International Laboratory担任访问学者。 他的研究领域包括电机优化设计、控制和仿真以及可再生能源领域的电机技术。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphqKyUibdvhiaASpibRs5DUZDVevjQzWhfoDJeHz8rqhiapof0LhpzfbXh57A/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_007_0306cfb4ce8f.gif)
 
 **曲荣海（IEEE Fellow）**，分别于1993年和1996年获得清华大学电机工程学士和硕士学位，并于2002年获得美国威斯康星大学麦迪逊分校电机工程博士学位。他目前担任新型电机国家与地方联合工程研究中心主任，以及中国武汉华中科技大学先进电机与驱动中心（CAEMD）主任。2003年至2010年，他曾在美国纽约州尼斯卡尤纳的通用电气（GE）全球研究中心电机与驱动实验室担任高级电气工程师。2010年，他加入华中科技大学。2012年至2016年，他担任华中科技大学电气与电子工程学院副院长。他的研究方向包括电机设计和驱动。他已发表400多篇技术论文，其中包括14篇IEEE获奖论文，并拥有170多项专利。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibhSTEibQ8hibpRR3rLHeIphqUh7fEQJfeAO013sqJWEl6AXntraicF54U0WBycicDjGFuBougCkAtRNQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_008_81ac59bb4232.gif)
 
 **刘进军（IEEE Fellow）**，于1992年和1997年分别获得西安交通大学电气工程学士学位和博士学位。 他任职于西安交通大学电气工程学院。1999年底至2002年初，他在美国弗吉尼亚州布莱克斯堡的弗吉尼亚理工学院暨州立大学电力电子系统中心担任访问学者。2002年底，他晋升为教授，并担任西安交通大学电力电子与可再生能源中心主任。该中心目前拥有30多名教职员工和约300名研究生，是中国领先的电力电子研究机构之一。2005年至2010年初，他担任西安交通大学电气工程学院副院长；2009年至2015年初，担任西安交通大学本科生院院长。他目前是西安交通大学教授。他合著了三本专著（包括一本教材），在同行评审期刊和会议论文集上发表了500多篇技术论文，并拥有包括90多项发明专利（中国/美国/欧盟）。他的研究兴趣包括电力转换器和电力系统的建模、控制、设计方法以及可靠性评估和监测，电力电子的电能质量控制和应用，以及用于可持续能源和分布式发电的微电网技术。
 
@@ -138,7 +138,7 @@ S. Jia, Y. Xu, J. Lin, D. Liang, R. Qu and J. Liu, "Overview of High Power Densi
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_009_654c2fde68d8.jpg)
 
   
 
@@ -152,15 +152,15 @@ S. Jia, Y. Xu, J. Lin, D. Liang, R. Qu and J. Liu, "Overview of High Power Densi
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_010_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_011_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_012_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -168,15 +168,15 @@ S. Jia, Y. Xu, J. Lin, D. Liang, R. Qu and J. Liu, "Overview of High Power Densi
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_013_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_014_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_015_644d85f1cc17.png)
 
 学会官方B站
 
@@ -184,15 +184,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_016_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_017_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_西安交通大学贾少锋教授_高功率密度电机综述_images\img_018_c28b250481e7.jpg)
 
 学会科普微信
 

@@ -1,0 +1,103 @@
+# 基于SEPIC变换器的无刷直流电机转矩脉动抑制方法
+
+原创 电机新视界 2023-01-13 11:13 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/EojT2-q3Pcwu7DWK-YardQ](https://mp.weixin.qq.com/s/EojT2-q3Pcwu7DWK-YardQ)
+
+**点击下方**
+
+**关注我们**
+
+**
+
+**来源：电机技术及应用**
+
+**PART** **0****1**
+
+**研究介绍**
+
+  
+
+无刷直流电机（BLDCM）具有良好的调速和控制性能，同时又具有功率密度高、功率因数高、结构简单、可靠性高等一列优点，非常适合在农业电动车辆上作为驱动电机使用。但是，无刷直流电机在车辆驱动系统中应用时存在换相转矩脉动较大、无位置传感器控制、制动能量回馈制动困难等一些问题，这也是无刷直流电机没有在电动车辆驱动系统中得以广泛应用的主要原因。为提高无刷直流电动机的性能，研究提出了一种使用单端初级电感变换器（SEPIC）调节无传感器无刷直流（BLDC）电机的组合方法，以改善无刷直流电机速度环和转矩环的控制策略。其中，研究以减小无刷直流电机转矩脉动为目的，基于金鹰优化（GEO）算法和径向基函数神经网络（RBFNN）算法结合，实现了对无数直流电机转速和转矩的控制。研究所提出的改进的无桥单端初级电感变换器，可用于调节比例积分微分（PID）控制器的参数，从而提高无刷直流电机转矩控制中转速闭环（PID）控制器的性能，为无刷直流电机的控制提供了新思路。
+
+  
+
+  
+
+**PART** **0****2**
+
+**研究内容**
+
+  
+
+为了控制无刷直流电动机的转矩和转速以减小转矩脉动，研究提出了基于GEO-RBFNN的PID控制器。所提出的无刷直流电机无传感器控制结构如图所示。研究中，PID控制器作为建议的控制器来整定控制参数。该PID控制器产生PWM信号进行控制参数的最优整定，为改进的无桥SEPIC变换器提供PWM信号，实现无传感器无刷直流电动机的最优速度控制和转矩脉动抑制。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq69coKhRcYFp0SoIeJCgOicLyoV2jZdaKpcSHLtgic94XyMCWFqf2Zx7Uw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+如图所示，研究采用GEO - RBFNN算法实现了转速、转矩控制和转矩脉动最小化，通过在MATLAB/Simulink平台上建立了GEO-RBFNN模型，结果表明，采用该方法计算的定子电流、功率因数和转矩脉动分别为1.26%、0.9951和7.4，与现有的FA和PSO方法相比，该方法的有效性提高了计算效率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq63XxdKxfT8r0QDRSXADGKJ89m1zVdEffr6j2O1G75fdEgCfRb3TGRIQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6yicZuMovNVz6HQVQTXAHT3mmD27IWTtQ6eD5yk2xoiaYVMxSmp7ibJyicw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6CHUY27eYz2ia07T2tDWMu94z18AapcNxRTNshqicDufiahl8n1ZSicxd8w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6W90GaYiaC5EI0tI5y11SKe8XmYVAJa3a6cYDYc3wJTI6wJJQYiaWFJNg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+     如图所示，研究在没有控制器的情况下，分析了基于转子转速、转矩变化、定子电流、定子电动势的对转矩脉动抑制的效果以及转矩脉动抑制的实现方法。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq68rXgy1ic7xsLmfh2ia9ECIGIBjSYjia7fvYRtvjQiaiarXsaKwxqrZf9fvA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6ZSTnKwFZJXD5kLc08NG5ytSTAhCdGK1YkDficvdDVWX9f8qy1zjWuibg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+研究采用的GEO-RBFNN方法以较少的迭代次数提供可靠的结果，GEO-RBFNN支持简单的计算，并提供了较低的难度，但研究所建立的控制算法对于高转速的大功率系统，其控制模型的性能有限，与此同时，该研究未实现控制器参数的自适应整定，因此无法保证系统在复杂工作阶段下的稳定性。
+
+  
+
+**PART** **0****3**
+
+**研究结论**
+
+  
+
+      研究提出了一种控制无刷直流电动机转速和转矩脉动的新方法。在MATLAB/Simulink平台上建立GEO-RBFNN模型;并与现有的FA和PSO方法进行了性能比较。该系统比现有方法具有更好的效果，在实现转矩脉动抑制上(现有方法)抑制效率为75%。FA、PSO和研究所提出方法的效率分别为82.136%、77.26588%和97.99038%。研究所提出的方法有效性提高了计算效率，与此同时，研究通过改进无桥单端初级电感变换器，可实现对比例积分微分（PID）控制器的参数的调节，从而提高无刷直流电机转矩控制中转速闭环（PID）控制器的性能，为无刷直流电机的控制提供了新思路。
+
+  
+
+  
+
+**知识回顾**
+
+**电机政策：**
+
+[电机行业“未来出路”及2023市场发展趋势展望！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247534719&idx=1&sn=c8e3e2ccf96af9a6164a1a8b95636a4c&chksm=cede09bbf9a980ad79c8d5f74254a5ab6a3e1ba793592b572264d9841d9c104c96eb698e4ad3&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
+
+  
+
+[政策加力电机出口全年增速有望超10%！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247532467&idx=1&sn=44465227804341d3c41aa56853f48f1c&chksm=cede3e77f9a9b7613728fb6fc8f003900c958a1e67be817f613dda6e4d7e7f858ff2f45d8f66&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
+
+  
+
+# [工信部22年将电机列为重点用能专项监察对象，高效电机市场迎来爆发期](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247531789&idx=1&sn=1f19abf4671ee606cde5a6e3edf832ea&chksm=cede3cc9f9a9b5df405a345ead88b9c09118334a2f609e16aa29780eb9f5056b71d2150e19fc&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
+
+  
+
+电机标准：
+
+  
+
+[重磅：节能标准将再度升级，高效电机或将成爆款！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247536603&idx=1&sn=8fdb27613e85b06a5da9912ec460defc&chksm=cede0e1ff9a98709fe2e8aa9e4f6e040df309f9d7d2390f9a315d5dea5e47ee19ff2bf143026&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
+
+  
+
+[【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+

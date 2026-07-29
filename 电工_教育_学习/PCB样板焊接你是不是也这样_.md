@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0ZoDrw0HmcmzbSnj3RlicHRBUoN2br4gIpxWgKHeocfnlYrB8mBahfeHGW0NJibhUPVJIokkADic0A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB样板焊接你是不是也这样__images\img_002_78d297ef716c.jpg)
 
   
 
@@ -36,7 +36,7 @@
 
 2、先焊QFN封装的IC
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0ZoDrw0HmcmzbSnj3RlicHyIITtBumLOMF8JOSA9vicfsMXfgtkhvhWVlfaYHSSGX4gibibzIeImrPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB样板焊接你是不是也这样__images\img_003_ab85dc4b90e8.jpg)
 
   
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhnseIN5LOd4YsHx7kY5qpHub6AnMC2uh3gk1ib31u0KRrHMic4K3byUF9YcDU0ibHoFaOAf3rGL0I3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB样板焊接你是不是也这样__images\img_004_896a8257c895.png)
 
   
 
@@ -121,4 +121,4 @@
 
 加管理员微信，备注“加群”，拉你入技术交流群。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJDSBpWRvEDwE1Bd6rXodg2vicEF05xzaGLgtocwmSRKbGGibQldHXL7ZIfzsQHv7SXJ2HbdaG20qEw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB样板焊接你是不是也这样__images\img_005_2410a2a4c982.jpg)

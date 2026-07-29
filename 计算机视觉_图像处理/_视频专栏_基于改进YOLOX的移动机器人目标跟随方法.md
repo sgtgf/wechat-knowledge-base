@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/sz4L0S8YmliPg40XH0M7Fg](https://mp.weixin.qq.com/s/sz4L0S8YmliPg40XH0M7Fg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH2D35J4LUGZKibQ6Kkg5JxDkI3zOp1DhWJClEvEGMLJXTETVSJYjXcxktqnztKtociaAvqqiaN5VLGvg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_000_f76a7fe84cb4.png)
 
 点击上方**蓝字**关注我们
 
@@ -194,7 +194,7 @@ Jiang Hong-Yi, Wang Yong-Juan, Kang Jin-Yu. A survey of object detection models 
 
 \[22\] Wojke N, Bewley A, Paulus D. Simple online and realtime tracking with a deep association metric. In: Proceedings of the 2017 IEEE International Conference on Image Processing (ICIP). Beijing, China: IEEE, 2017. 3645−3649
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/hNWCQ9bibbzHiaCJb9KfdpL2BoibejlGR8z5V62T1Td8xhibKGsLzbLmiaZHLdOAalnlmU5lpibU5w1tGaXBhwmPT4ib7PwYibx4xfx3/640?wx_fmt=svg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_002_51820040135e.svg)
 
   
 
@@ -226,7 +226,7 @@ Jiang Hong-Yi, Wang Yong-Juan, Kang Jin-Yu. A survey of object detection models 
 
 **吴迪**，湖南工程学院电气与信息工程学院副教授. 2014年获得兰州理工大学博士学位.主要研究方向为多模态融合行人再识别, 目标检测. 
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/hNWCQ9bibbzHiaCJb9KfdpL2BoibejlGR8z5V62T1Td8xhibKGsLzbLmiaZHLdOAalnlmU5lpibU5w1tGaXBhwmPT4ib7PwYibx4xfx3/640?wx_fmt=svg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_001_51820040135e.svg)
 
   
 
@@ -398,37 +398,37 @@ Jiang Hong-Yi, Wang Yong-Juan, Kang Jin-Yu. A survey of object detection models 
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CzoicpOdEZDe9e6H6OibyicujrTsBVpnHMU4aW3njtoic75ddYyv9vdpSg1ygL1laLNECPl0qtLkc8g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)](http://www.aas.net.cn/)
+[![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_003_e43767cc2af0.jpg)](http://www.aas.net.cn/)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH2zFGrCiawRfzfCWgtPia9znau4jtGibvvumicJIRVbqQoHQrgf8ESldb5MB3fyauP08D0AAf6iagloYAA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)](http://www.ieee-jas.net/)
-
-  
+[![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_004_a4a0f559228e.jpg)](http://www.ieee-jas.net/)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_005_8f4bfd69493c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafsMvwDwQz1iak89KiaU6O5427u8P9nkmC6hSC31GbzoJ9UicUAxfobgZMQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_008_8f4bfd69493c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_007_29b9dc2aa864.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_009_8f4bfd69493c.gif)
+
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_006_8f4bfd69493c.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_010_8f4bfd69493c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_011_8f4bfd69493c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafXj5OHBUy7QPVp2aHenUdtEzbIP3uxk1ZQKCv6EkiaibIgpsosdF2WUWg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_012_6f0875e12d16.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_013_8f4bfd69493c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_视频专栏_基于改进YOLOX的移动机器人目标跟随方法_images\img_014_8f4bfd69493c.gif)
 
 **长按二维码｜关注我们**
 

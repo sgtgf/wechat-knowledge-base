@@ -5,19 +5,19 @@
 
 固态变压器（SST）是当前电力电子领域最具变革性的技术方向之一，被业界视为新型电力系统的"能量路由器"。下面将从定义原理、拓扑架构、产品优势、应用场景、第三代半导体应用、国内产业进展及发展趋势七个方面系统展开。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMYIVRTVhiaqke5hD391dkQ78icvicsqYbL8ycm7W3icxbCglG5MTJjfyJbOe3Idhtsc7kibCMW6JQb8Tib9hKImdDntUrjFlYGf1uDE/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_000_dde4beddb95d.jpg)
 
 一、SST的定义与技术原理
 
 固态变压器（Solid State Transformer，SST），又称电力电子变压器（PET），是一种基于电力电子技术和数字控制算法的智能变压器，其核心是用高频开关器件（如IGBT、SiC MOSFET）替代传统变压器的铁芯绕组电磁感应结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMgJHqn40y9jP8iavRPg0oGLBO6EcpPV6ozYBjCYQic1wMHtfN6bbTXeCMsRj19orFSStQ5lYNibmxjqVjib9eQhU2SKuUbvjwO4Wc/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_001_90b5dfb4eb15.jpg)
 
 图片来源：网络
 
 核心逻辑在于：通过电力电子变换器与高频变压器的组合架构，将工频（50/60Hz）能量变换提升至数十kHz甚至数百kHz，从而大幅缩小磁性元件体积，并实现传统变压器无法具备的智能调控能力。SST的典型工作频率可达10-100kHz，变压器体积可缩小至传统方案的1/5以下。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNxwKA9r7TLkNDk1U7FxGnvoNWIXATaQQxpKMz3V4Qxyh6NL1QhqnPSgq6KpWttuiamTzbkKw6DPMPgBp0L93IZh4zrEGibPprGE/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_002_26abd28d9683.jpg)
 
 与传统变压器相比，SST的差异不仅体现在原理层面，更体现在功能层面。传统变压器仅能完成单一功能——基于电磁感应的被动式电压变换；而SST集电压变换、电气隔离、双向功率控制、电能质量治理、智能调度于一体，可实时监测电网状态、毫秒级响应负载波动、主动抑制谐波并补偿无功功率。
 
@@ -41,7 +41,7 @@ SST的拓扑架构经过数十年演进，已形成多元化的技术体系。�
 
 与传统工频变压器及传统供配电架构相比，SST在以下维度展现出明显优势：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOQUMpNwIqu5X7TGKEeIt5yPfeR5xRGnfF5SJSV7mDcC5U9J7vEDtb90ib0T55ETTknJk8nC4bAj7TvSpSDTjGxv1C7udiaBZr38/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_003_51c12139f260.png)
 
 以一个100MW数据中心为例，SST方案较传统UPS供电方案效率提升约3ph，年度节电可达数千万度，节能效益极为显著。
 
@@ -75,7 +75,7 @@ SiC和GaN是SST从实验室走向商业化落地的关键技术底座。两者�
 
 第三代半导体在SST中的应用优势体现在多个维度：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNHH20TKQgy3Zk4Y4l80TYAAVcViaz4hsl0ayjCMQo8ZLXCxr75H2KuVofUlnviab1YicMpqyvG621cSeGzsygYiauibd0z5kOib3nRA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_004_3b84f914ba6a.jpg)
 
 图片来源：网络
 
@@ -91,7 +91,7 @@ SiC和GaN是SST从实验室走向商业化落地的关键技术底座。两者�
 
 案例①：Navitas与EPFL 250kW单级SST方案
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPiaLkMxMy5B6ibiakic5nhYh9H2ZDLOVnRVmJfRREIYfAlKj4ic3jcc26J61hF19NkPWOszsJMZrgO4G9eibldwEWwxzgFLWHeOJE1o/640?wx_fmt=jpeg&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_005_440b3f7a75b5.jpg)  
 
 图片来源：网络
 
@@ -99,7 +99,7 @@ SiC和GaN是SST从实验室走向商业化落地的关键技术底座。两者�
 
 案例②：新风光2500kW 10kV/800V SST产品
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOCs1CljAWZIibz4cr9xDc0vFaDia0cBc46zcuCHcqfMk30SBTvOCHAlrB6ibua0NOibibKkcIy89Q7b6V5K4py7qxfYnV1m4Q5Fvd4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_006_a7382d53a9f0.png)
 
 图片来源：网络
 
@@ -107,7 +107,7 @@ SiC和GaN是SST从实验室走向商业化落地的关键技术底座。两者�
 
 案例③：四方股份SST1.0量产产品
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOmJgOGljA8yL37pFXQNmP2BCXU7sd5xRwUchO2NY1G8whdbUCHnibseP5a8YYa4lGXPva74905HuuQssW9N0nYyerhKfmBtozI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_007_73de8e9d47ae.png)
 
 图片来源：网络
 
@@ -119,7 +119,7 @@ SiC和GaN是SST从实验室走向商业化落地的关键技术底座。两者�
 
 案例④：Enphase Energy IQ SST分布式固态变压器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMCBdxclIqYeuibT6ia95uRuiaYAqd68EQ0ib2QHeg1O3KQr91BbTNXVEoE8TVspTR9Q5bsibEJHxojicgibbhd89Q13aicCODViayaJsXY/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_008_681a60824c8f.jpg)
 
 图片来源：网络
 
@@ -267,14 +267,14 @@ SiC在中高压大功率SST中已经形成清晰的主导体位，3300V及以上
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOw0BLHjvNZGBt8AKvP7R4IHsCnAsMOqvibaaLZlWQvfw3POLINVW2VltSTmHzmUibKVMiblt6F6Z30uVWYZ16ibc2feiafqI8vfq5Q/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_009_64b8d083dfaa.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP869WAP6dfYBsbZbJABpKtz86l8hURvbdn1O1wAJKhoU4pz2EU4UvqJnCkfxGbx3Ka3FkqBHGDkPtfhVvnadTwyO9o92zbhsg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_010_57b802164c31.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMbAUBnCl1H7SOQ5Nae4qAvUicv3G8pu9t3mgclDtsHh0gooazJD8Y4mTlt3dwiakfqra3rBTDkmM80iacqHCHxA5eXqQO0vPiajN4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_011_0953f92401c3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOCtl72ss3viaJ1ZVU8I0iciaRjbZiaLO6fvNwCDNcK4RwgvX972Fzx5dGDMdbklicVOkY86IByRAzx2sibckZWMdyHC8k1veHMvFyQ4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）专题_第三代半导体驱动下的性能优势与典型案例_国内产业格局及未来演进路径_images\img_012_14d83684f471.jpg)

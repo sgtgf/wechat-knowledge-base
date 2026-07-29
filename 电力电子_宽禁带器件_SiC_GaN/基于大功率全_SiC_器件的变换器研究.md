@@ -11,7 +11,7 @@
 
 **关键词**：SiC器件；SiC MOSFET；杂散电感；桥臂串扰；振荡抑制；高频化 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxbVzsPj8p3oNu8gng4POWjJCWyqnBn0emyMKf5VAUobuSicwq8ibS6ia9A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_000_2f3cc77e86a0.jpg)
 
 **0 引言**
 
@@ -23,7 +23,7 @@
 
 SiC器件的快速开关特性，一方面，为变换器高频化提供有力支持；另一方面，也使得在低频下不太明显的寄生参数效应趋于恶化，使得功率器件在开关动作时产生过高的电压和电流应力，降低了变换器可靠性。在变换器中，寄生电感对功率器件的影响是一个普遍问题。但在SiC应用中，由于SiC MOSFET的动作电压普遍较低，抗电压振荡能力更弱\[3\]。典型的MOSFET寄生电感示意图如图1所示。图1中Lg是栅极电感，其与驱动线长度有关；Ld和Ls分别是源、漏极引线杂散电感；Lz1和Lz2是连接到MOSFET的外部杂散电感，一般是变换器母排电感；Rg是驱动电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxF95ZZZyHVweDV4eTiaDDTpkm5AHiarkjk1KP6sK2twShJEJz1hWt46XQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_001_95f7040d19d9.png)
 
 开关管动作时，由于Lg的存在会阻止栅极电流变化，使得栅极电容充、放电时间延长，影响开关速度，同时，会在G极和S极之间产生电压振荡，不利于开关管安全工作；Ld，Ls，Lz1，Lz2则会造成功率回路产生过电压尖峰，增加开关损耗，降低产品可靠性。
 
@@ -31,7 +31,7 @@ SiC器件的快速开关特性，一方面，为变换器高频化提供有力�
 
 **1.2 桥臂串扰问题**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxs2jLeSAoWWgo8HwO05zo4VEdR4osW7VGe9bdAeEg7JWgyPxFHgsuZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_002_ac02bdb8e7a5.png)
 
 在图2所示的桥式拓扑结构中，同一桥臂上的一个开关动作会对另外一个器件产生不利影响，尤其是在开关过程存在较大dv/dt时，SiC器件的快速性和较低的开启电压放大了这一问题。在上管开通瞬间，下管的Vds突然升高，较大的dv/dt使得电流流过下管的Cgd，此电流会使Cgs充电，抬升了栅源电压。如果此电压超过了开启电压，下管会产生误导通，造成系统短路。同样地，下管开通时也存在上管误导通的可能\[4\]。
 
@@ -43,35 +43,35 @@ SiC器件的快速开关特性，一方面，为变换器高频化提供有力�
 
 为了研究SiC器件在大功率DC/DC变换器上的应用，搭建了交错串联Boost变换器。该变换器是高频隔离系统的一部分，这里仅给出主要部分，如图3所示。两路Boost电路串联，控制脉冲交错180°，共同分担输入电压DC 1 500 V，两 路Boost分别输入DC 1 200 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx20Bp0x1IQ5eHTWMXzTxEGp8WJjowOwmrAYgVUraTBe0xzuWF7q8D3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_003_bf602e414131.png)
 
 其中，VQ1和VQ2为两个全SiC斩波管，型号为ZGS300M17BM2，主要参数如表1。
 
 典型的测试开关管动态特性的电路是双脉冲电路，其原理如图4所示。下管VQ2开通时，电感LLd的电流上升；当下管关断时，此电感通过VD1续流，电感电流保持不变。在第二个脉冲的上升沿和下降沿，分别可以测量出被测器件在一定电压和负载下的开通或关断波形。双脉冲测试的理论波形如图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxzCh8BKJVcaoDiaRIGeERA9ibu29iaQRU5SHibkC6aHbibBdAiaCFXbraiaaPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_004_dddefa7f50b3.png)
 
 **2.2 测试结果**
 
 由于本测试不存在桥式拓扑，所以主要考核杂散电感及驱动参数对开关器件的影响。为了测试的有效性，采用实际产品的母排，根据以上的测试方法进行双脉冲试验并根据测试结果对产品进行了优化。试验波形如图6。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxfRwN8AMnibNFDficoGL2jQibR3Pxd3WjglOTE3AtSURTpcey8tbHVic4uQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_005_1ad18a73b453.png)
 
 如图6可见，开关管的Vds和Vgs均存在较大的尖峰和振荡，在实际应用中会降低产品的可靠性。其原因正如1.1节中所分析的那样，原因来自于系统存在杂散电感和SiC器件的高开关速度。由于系统的结构和母排设计已经决定了杂散电感，因此优化方向主要是增加尖峰电压吸收能力和调整开关速度。同时，为了提高器件工作的安全性，应尽量降低驱动电压的峰值。具体优化方案如表2所示。优化后波形测试结果如图7。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxlySDYU8DHsBhHG05FsaldIvwZ9yiaE7LiaxJGpR1JqquJXl1s9edVia6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_006_3d279ad314c3.png)
 
 由图7（a）和图7（b）可知，在驱动电阻一定时，吸收电容越大，Vds尖峰电压越小，但对Vgs无作用；由图7（b）到图7（d）可见，驱动电阻越大，开关管的Vds和Vgs尖峰电压改善越明显，特别是当驱动电阻达到5.6 Ω时，Vgs振荡消失。对于驱动电压范围较窄的SiC器件而言，增大门极电阻能够有效地提高可靠性。但是，增大驱动电阻后，必然降低开关速度，导致开关损耗增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxbHEnCEhFtbBMYcjlCNVZNreDyEGTDiazibSu9ovqbQiaF7GUhQibdMdMuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_007_c47ad9515107.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx74o15dZAutU3CCLbicovTTM8INlV3nxHnd7CgAbK4VW2gzvQ04hESxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_008_cb011fdfb76b.png)
 
 **3 样机测试**
 
 结合以上分析，研制了一台2×60 kW高频DC/DC变换器，其前级电路即为图3所示的交错串联大功率Boost变换器。基本参数如表3。电路原理图3。其工作时的波形如图8~图10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxkCY6982qCFJzywK5ibQiaErdmdRjxxJxTn0vEy1gaAmAM8L5YzNk07XA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_009_1bc4c0031385.png)
 
 从图8~图10可以看出：
 
@@ -85,11 +85,11 @@ SiC器件的快速开关特性，一方面，为变换器高频化提供有力�
 
 SiC MOSFET和硅基IGBT主要参数对比如表4。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxIGiaCgJ1QjqVKmos6qcGgwuauQdjMORBMGgzMYYqicyx1KZA45k1FIAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_010_1348ef1e230b.jpg)
 
 SiC MOSFET和硅基IGBT两种器件工作情况对比如表5。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx8ia27ic4c0bknbQhibFH4rP5PSfNgbPmSPqUTrZH0jJ0EFoBibs5Igrzhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_011_9b61a120ee9b.png)
 
 对比可知，采用SiC器件替代Si器件能带来轻量化、工作频率、效率的全方位提升。与Si器件相比SiC MOSFET具有明显的优势。
 
@@ -97,8 +97,8 @@ SiC MOSFET和硅基IGBT两种器件工作情况对比如表5。
 
 本文主要讨论了SiC器件应用中所面临的杂散电感问题和桥臂串扰问题，结合实际产品进行了SiC器件的双脉冲试验，并在原理样机上验证了全SiC交错串联Boost变换器的有效性。试验证明，采用SiC器件能带来轻量化、工作频率、效率的全方位提升。由于SiC功率器件开关频率大幅提升恶化了产品的电磁兼容环境，因此加强电磁防护将是全SiC器件工程化应用的又一挑战。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_012_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_013_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大功率全_SiC_器件的变换器研究_images\img_014_84aa944feb13.jpg)

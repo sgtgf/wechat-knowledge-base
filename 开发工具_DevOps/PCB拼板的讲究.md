@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLbDUG60eTRWfAuvpCOrUicYMu0GrmmCR76fAdjTVfEdJRxuBTCtUN4VeRB3BN19VRx7vT4q2WZMvQ/640?wx_fmt=png)
+![](PCB拼板的讲究_images/img_000_3cc8cea57375.png)
 
   
 
@@ -50,7 +50,7 @@ V-CUT一般都是直线，不会有弯曲圆弧等复杂的走线，在拼板时
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLbDUG60eTRWfAuvpCOrUicYMGrBAHotyj8vAiaD4PWzYLe48cs9OJ8Zzibeqe7tohO9kOEUNBEy71Ow/640?wx_fmt=jpeg)
+![](PCB拼板的讲究_images/img_001_30b22d3cf4a8.jpg)
 
   
 
@@ -66,7 +66,7 @@ V-CUT一般都是直线，不会有弯曲圆弧等复杂的走线，在拼板时
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLbDUG60eTRWfAuvpCOrUicYibkzqNBD6M3kphMjU4S1oVhS1ib2csFVFTViba5JMTib9icuejxsWs70sUQ/640?wx_fmt=jpeg)
+![](PCB拼板的讲究_images/img_002_9c99129a12ae.jpg)
 
   
 
@@ -103,7 +103,7 @@ V-CUT一般都是直线，不会有弯曲圆弧等复杂的走线，在拼板时
 
 2.元器件与V—CUT之间应预留＞0.5mm的空间，以保证刀具正常运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLbDUG60eTRWfAuvpCOrUicYenMwZdPr1CW2qgFnX9kmribjz1y7iahcYl6NY3KrmVv6Qdxic5njbC8Sg/640?wx_fmt=png)
+![](PCB拼板的讲究_images/img_003_6251f0cdd484.png)
 
   
 
@@ -117,4 +117,4 @@ V-CUT一般都是直线，不会有弯曲圆弧等复杂的走线，在拼板时
 
 加管理员微信，备注“加群”，拉你入技术交流群。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJDSBpWRvEDwE1Bd6rXodg2vicEF05xzaGLgtocwmSRKbGGibQldHXL7ZIfzsQHv7SXJ2HbdaG20qEw/640?wx_fmt=jpeg)
+![](PCB拼板的讲究_images/img_004_2410a2a4c982.jpg)

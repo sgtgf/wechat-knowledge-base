@@ -9,7 +9,7 @@
 
 **摘 要：**电动汽车的发展对电机控制器的小型化、轻量化和高能效提出了更高的要求。以 SiC MOSFET 为代表的宽禁带器件超越了传统硅基功率器件在电压等级、开关频率与工作温度上的极限，可降低电机控制器的体积、重量和成本，提高系统效率，在电动汽车应用中具有明显优势。驱动电路影响着电机控制器的性能与可靠性，驱动技术研究对 SiC MOSFET 在电动汽车中的应用有着重要意义。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmVKN2y13WhzklDnSicaaEJ8ONLSnV5QFQ2GibpAKIGemlU79hoRNlHJmVwK2ChArgRNlkJJLonS7Ug/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_000_b6d85744f903.jpg)
 
 本文分析了 SiC MOSFET 的器件特性，研究了 SiC MOSFET 在高频应用中的主回路振荡与驱动回路振荡产生机理。针对 CREE 1200V/300A 半桥模块，搭建了包含寄生参数 LTSPICE 仿真电路，并通过理论分析和仿真研究了驱动参数对 SiC MOSFET 开关瞬态的影响。
 
@@ -33,15 +33,15 @@
 
 以碳化硅(Silicon Carbide，SiC)为代表的第 3 代半导体材料具有宽禁带、高饱和速率、高导热率和高击穿场强等特性，表 1.1 给出了 Si 和三种 SiC 半导体材料的物理参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMKYx0xz1WNdkT2APiaLCPJdlaBDk2PGn91jSPdpFnicBe8IRqPwgwywJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_001_5dccad20d9ca.png)
 
 SiC 功率半导体器件打破了已有硅基半导体器件在电压等级、开关频率与工作温度上的极限，可降低电机控制器的体积、重量和成本，提高系统的性能。研究 SiC 功率器件在电机控制器中的应用，是推动电动汽车行业发展的重要路径之一。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM6ms0ZKmL8zEIZibftDWSqZegSF4pQggiaSm1FtF27SV6gNUqd8Cev1nA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_002_585e8f1a05cb.png)
 
 根据 IHS 在 APEC2016 会议关于 SiC 发展历程的报告\[7\]，2001 年英飞凌（Infineon）公司首先推出了 SiC SBD（Silicon Carbide Schottky Barrier Diode，碳化硅肖特基二极管），相对于硅基肖特基二极管，其拥有更高的耐压和更快的反向恢复速度；2006 年首款 SiC JFET（Silicon Carbide Junction Effect Transistor，碳化硅结型场效应晶体管）上市；2010 年，罗姆（ROHM）开始生产 SiC MOSFET（Silicon Carbide Metal-Oxide-Semiconductor Field-Effect Transistor，碳化硅金属氧化物场效应晶体管）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX9P3vkau858X9wxWxibVmNzUYMpPiayfBuSeIYKSjlbLJqOAA4tYyWMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_003_43412f417826.png)
 
 2012 年科瑞（CREE）公司量产 6 英寸碳化硅晶圆，标志着碳化硅功率器件走向市场化。2017 年 2 月，科瑞公司发布了第三代 1200V SiC MOSFET 器件，美国环境保护局（EPA）对其进行了续航标准测试，相较于传统硅基逆变器，SiC 器件使 EV 电机驱动器的损耗降低了 78%。
 
@@ -61,7 +61,7 @@ SiC MOSFET 极快的开通与关断速度对因封装、布线及应用电路引
 
 近几年，随着 SiC 功率器件的商业化和成本的降低，SiC MOSFET 驱动电路成为了研究热点之一。表 1.2 中给出了 6 种 1200V 功率管的参数，相对于硅基IGBT 和硅基 MOSFET，碳化硅 MOSFET 的寄生电容较小，更容易受到驱动电路的寄生参数影响；此外，其栅极耐压与阈值电压更低，驱动电路产生的震荡或串扰可能造成栅源极氧化层的击穿或器件的误导通，影响系统的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMS4b3wic9ebJCibecELiaKicJS3wViaMyXpkyJx8cwTqHiaNP17lI8hBtIucQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_004_5d46d2557078.png)
 
 根据 SiC MOSFET 的特点，驱动电路的设计应该满足以下要求：
 
@@ -73,7 +73,7 @@ SiC MOSFET 极快的开通与关断速度对因封装、布线及应用电路引
 
 目前，各大 SiC MOSFET 生产公司都提供了参考驱动电路。CREE 公司为其第二代 1200V SiC MOSFET 半桥模块设计了 CGD15HB62P1 驱动板，其供电电源使用+20V/-5V 隔离电源模块，可提供最大 9A 峰值驱动电流，信号隔离使用英飞凌 1ED020I12-F2 磁隔离驱动芯片，最大开关频率可达 64kHz，并具有退饱和检测功能。ROHM 公司为其分立 SiC MOSFET 功率器件提供 BM6104FV-C 芯片，其最小延迟为 150ns，最小脉冲宽度为 90ns，内置米勒钳位功能、故障信号输出功能、低电压时误动作防止功能、短路保护功能和栅极状态监视功能。比利时高温半导体供应商 CISSOID 公司为其 1200V/100A SiC MOSFET 智能功率模块设计了高温驱动电路，如图 1.3 所示。其使用绝缘体上硅(Silicon OnInsulator, SOI)工艺，可在200°C 以上的环境下稳定工作，每个半桥使用 3 个 HADES2 驱动芯片，使用分立变压器隔离，二次侧驱动芯片 CHT-HADES2P 具有电源驱动和信号调制功能，一次侧驱动芯片 CHT-HADES2S 具有信号解调，缓冲放大，低电压检测和退饱和检测功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMws6MvGx00K0EP0LAtMyuXriakf2xDAlFdceyZypMoHy6qzJl6PCXCMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_005_409e58596125.png)
 
 在 SiC MOSFET 驱动电路设计方面，文献\[24-26\]使用传统 Si 器件驱动芯片设计了驱动电路，使用正负双电源供电，三种方案均采用磁隔离方式，并利用驱动芯片集成的保护功能。文献设计了基于分立器件的驱动电路，使用脉冲变压器将控制电路与栅极驱动隔离，并在一次侧与二次侧对 PWM 信号进行调制与解调；驱动电路使用并联 BJT 提供栅极电流，选用耐高温被动元件，可在 150°C以上的环境温度下工作。为了发挥出碳化硅 MOSFET 优异的高温性能，文献。
 
@@ -119,7 +119,7 @@ SiC MOSFET 的特性与传统硅基器件具有差异，在设计驱动电路前
 
 SiC MOSFET 与 Si MOSFET 的结构类似，通常分为平面栅双注入型（DMOSFET）和沟槽型（UMOSFET）结构\[59\]，如图 2.1 所示。两种结构的衬底层与外延层均为 SiC 材料，栅极设计有所不同。DMOSFET 使用平面自对准扩散工艺在外延层上产生横向沟道，UMOSFET 采用等离子蚀刻技术形成 U 型沟道，使导电沟道变为纵向。相对于 DMOSFET，UMOSFET 具有更强的导通能力，但是栅极稳定性较差、导通电阻较高且制备工艺复杂。本文使用 CREE 公司第二代1.2kV SiC MOSFET，采用 DMOSFET 结构，下面对其工作原理进行分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMic4iaRCmDT1mEia5RG1sibVptJ3FnUturEHcpDrNjias1lbVTuhNeeJcLVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_006_45fbc931fea3.png)
 
 当栅源极电压 Vgs 为零时，P 基区与 N-漂移区间的 PN 结反偏，栅源极无电流通过，器件工作在截止状态；当给栅源极加入正电压时，栅极电压会将 P 基区的空穴推开，并将电子吸引至栅极下方的 P 区表面，当 Vgs 达到导通阈值 Vth 时，栅极下方 P 基区的电子浓度大于空穴浓度，反转为 N 型导电沟道，将漏源极用一条完整的 N 型沟道连接起来，器件导通；SiC MOSFET 导通后，当漏源极电压 Vds较小时，器件工作在恒定电阻状态，Vds 随 Id 线性上升；当漏极电流 Id 达到所需电流时，Vds 不再增加，载流子速度饱和；当 Vds 增大到 Vgs\-Vth 时，即漏极与栅氧化层压降小于 Vth 时，P 基区漏端反型层电荷密度降为 0，导电沟道夹断漏电流保持 Idsat 不变，SiC MOSFET 处在恒定电流区。
 
@@ -127,31 +127,31 @@ SiC MOSFET 与 Si MOSFET 的结构类似，通常分为平面栅双注入型（D
 
 SiC MOSFET 的静态特性包含输出特性与转移特性，其与 Si 器件相比有较大差异。图 2.2 是 SiC 与 Si MOSFET 的输出特性曲线，功率器件选用 C2M0080120D和 APT12057B2。通过对比可以看出 Si MOSFET 在驱动电压 Vgs 大于 8V 以后的输出特性基本不变，而 SiC MOSFET 的输出特性变化明显，驱动电压越高导通能力越强。这是因为 SiC 器件的饱和电子迁移率高、跨导系数小，所以相比 Si 器件需要更高的驱动电压，一般为 18~20V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM1n3GD61fylw5YIM9vKA9PgFlIAxA3bMeNa1eQyVtWiaomVjsCWCc7icQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_007_6ba97c2ceadd.png)
 
 相对于 Si MOSFET，SiC MOSFET 最大的优点是在具有更低的导通电阻。在高耐压器件中，漂移层阻抗是导通电阻的主要部分，使用 Si 材料制作高压MOSFET 会引起导通电阻增大。为了解决导通电阻增大问题，1200V 以上的 Si 功率器件通常制作成少数载流子器件，例如 IGBT，但由于电导调制效应，IGBT 的关断电流存在拖尾现象，关断损耗大，限制其高频应用。在相同的耐压下，SiC 的漂移层阻抗仅有 Si 的 1/300，所以使用 SiC 材料制作 MOSFET 可以同时满足高耐压、低导通电阻和高频的特性。此外，SiC MOSFET 的宽带隙特点使得其高温性能更强，图 2.3 是 SiC 与 Si MOSFET 导通电阻随温度变化曲线，结温由 25°C 上升至 150°C 时，Si 器件的导通电阻增加了 1.5 倍，而 SiC 器件仅增加了 0.6 倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMAZIsFGJqsC4akP0TRlxVojV98tqk1Un4QnXiafjGncyjpgyhGUXG8Pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_008_534bbf479815.png)
 
 SiC 与 Si MOSFET 的转移特性曲线如图 2.4 所示，可以通过转移特性曲线分析阈值电压与跨导的差异。SiC MOSFET 的阈值电压较低，常温下为 4V，150°C结温时阈值电压降低到 2.5V，而 Si 器件的 Vth 为 3~5V 左右。因此，SiC MOSFET的栅极电压振荡更容易产生误导通。跨导 gm 代表了 MOSFET 的栅源极电压 Vgs 对漏极电流 Ids 的控制能力，其对应于转移特性曲线中的斜率，即：gm\=ΔId/ΔVgs。由图 2.4 中的曲线可以看出 SiC 的跨导小于 Si MOSFET，其 Vgs 对 Id 的控制能力弱，在流过相同电流时需要更高的驱动电压摆幅。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMia7SFdQmzEByE7sYgFFEf94PIU50YMOxsnPMdBz5s7b56TZ5WxKhlAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_009_5a720df9f336.png)
 
 **2.1.3 SiC MOSFET 动态特性**
 
 SiC MOSFET 的动态特性主要指其开关特性，主要受器件工艺和封装工艺产生的寄生参数影响，图 2.5 是包含寄生参数的 SiC MOSFET 等效电路模型。其中，MOSFET 的主体由压控电流源表示；Rds,on 为导通电阻，代表了器件的导通损耗；Cgd 为栅漏极寄生电容，Cgs 为栅源极寄生电容，其由器件工艺产生；BD 是 MOSFET内部寄生的体二极管，Cds 为其结电容；Ls 和 Lg 为源极和栅极的引线电感，由封装工艺产生；Rg 为栅极内部寄生电阻，其与外部电阻共同抑制栅极振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMKicEibLveeEM4mlF1Dic2xXHDena7hMNibs8tYc5iaSgNboIicpQBOphO7gA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_010_f2a463b454b2.png)
 
 SiC MOSFET 的寄生电容 Cgd、Cgs 和 Cds 是非线性电容，主要受到漏源极电压 Vds 影响。在数据手册中，寄生电容通常由输入电容 Ciss\=Cgs+Cgd、输出电容Coss\=Cds+Cgd 和反向偏置电容 Crss\=Cgd 表示，图 2.6 为 SiC 与 Si MOSFET 的寄生电容变化趋势。输入电容 Ciss 受 Vds 影响较小，仅在较低 Vds 下略有增加；输出电容 Coss 与反向偏置电容 Crss 受 Vds 影响较大，在 Vds 从 0 变为 15V 时剧烈下降，之后缓慢减少直到 Vds\=200V 时趋于不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMqrbLdQxIQ2iavgK1XpjUvUiaVvl52MX54Z2oxgPldTeRdDPMA9Z8dnbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_011_afe8131ef127.png)
 
 在相同功率等级下，SiC 的寄生电容远小于 Si 器件，较小的 Ciss 减小了驱动损耗；Coss 在器件关断时存储能量，并在器件开通时通过沟道释放，较小的 Coss 可以降低开通损耗；较小的 Crss 减小了 SiC MOSFET 的米勒平台时间，加快了开关速度。碳化硅器件的寄生电容特性使得其更适合高频应用，但是较小的寄生电容容易与驱动回路中的寄生电感产生振荡，在驱动电路设计时应尽量降低布线电感。
 
 碳化硅 MOSFET 的体二极管是 PN 二极管，但其少数载流子寿命较短，拥有与肖特基势垒二极管（SBD）同样超快恢复的性能，其恢复损耗通常只有快恢复二极管（FRD）的几分之一。图 2.7 为碳化硅 MOSFET 体二极管的伏安曲线，其导通压降为 2.5V 左右，产生的导通损耗较大，所以大电流场合一般需要反并联低压降的 SiC SBD 以减小续流损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMKIXiaEOwxm911MQ2JYxftjAdLNtEfeBN8jNSBad9e2S1Wbbicv41HzYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_012_ecc0ccb8c37a.png)
 
 **2.2 SiC MOSFET 开关动态特性分析**  
 
@@ -159,35 +159,35 @@ SiC MOSFET 的寄生电容 Cgd、Cgs 和 Cds 是非线性电容，主要受到�
 
 SiC MOSFET 的开通波形如图 2.8 所示，其主要分为四个阶段，包括开通延时阶段、电流上升阶段、电压下降阶段和饱和导通阶段。下面对开通过程进行具体分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMcOCRlnVRJqsD47lZNNVS3OcFjqWgZVcF4YEYZvXNVPib7z6zcRKyUIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_013_6915f3c64d97.png)
 
 开通延时阶段（t0-t1）：驱动电路收到开通信号后，输出正电压 Vg+，向 Cgs 与Cgd 充电，SiC MOSFET 的 Vgs 开始上升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMZahudXcw1icB2LKcAJ4pI2g9HluQEQqRU3ewx7G7ME6QyNS7iaGcdiaBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_014_aca1d9b3e736.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhv4zfAZUe7KLQAFZDJlgtVJUmxicunxfMyUyUPAFHpdTJCsXcwFxsia74w/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_015_b144d9281eab.png)  
 
 电流上升阶段（t1-t2）：Vgs 到达导通阈值 Vth 后，漏极电流 Id 开始上升，续流二极管中的电流不断下降。续流二极管仍正向导通，SiC MOSFET 的漏极电压被钳位至直流母线电压 Vdc 附近，此时不断上升的漏极电流在主回路的寄生电感上产生了感应电压，其方向与母线电压相反，器件的漏极电压略有下降。当 Id 上升至额定值后，续流二极管进行反向恢复，漏极电流与反向恢复电流叠加产生电流尖峰。反向恢复电流消失后，Id 保持额定不变，电流上升阶段结束。
 
 电流上升阶段漏极电流为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvjyu39OPOC8IxHBkuricfWmvhyTLicV9qibiaD47a3ZA5FK5vNqO7lO2iaBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_016_01a0d73c6862.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvdp6AWZQM80A17XKyAFYkHDZGhD5sqK1vIg1ncNVOdrKNUc27kX17Dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_017_a084ba7e534b.png)
 
 饱和导通阶段（t3-t4）：Id 保持额定电流 IL 不变，漏极电压保持导通压降 Vds,on不变，驱动电压为栅源极电容 Cgs 与栅漏极电容 Cgd 充电，直到栅源极电压上升至Vg+。
 
 SiC MOSFET 的关断过程也分为四个阶段：关断延时阶段、电压上升阶段、电流下降阶段和关断结束阶段，如图 2.10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMm2f0L5ic1Tp7ZyA8IxvianVQqPqLNoTBkeujtqXW9qJOczBMoCU5oOtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_018_d114d6f74418.png)
 
 关断延时阶段（t5-t6），驱动电路收到关断信号后，输出低电平电压 Vg-，栅源极电容 Cgs 与栅漏极电容 Cgd 通过驱动电阻 Rg 放电。栅源极电压下降，在其达到米勒平台电压 Vmiller 前，Id 与 Vds 保持不变。关断延时阶段栅源极电压 Vgs 的表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvyVxNyprXdktKXl0dxtUibyQ4jc1PhuPviabxPbBJ9XzMgxa4iaVkSkgUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_019_fffe2aa37ce1.png)
 
 电流下降阶段（t7-t8）：当 Vds 到达直流母线电压 Vdc 后，续流二极管导通，IL向续流二极管转移。栅源极电压米勒平台消失，Cgs 与 Cgd 放电，直到栅源极电压Vgs 到达阈值电压 Vth，漏极电流 Id 下降为 0。栅源极电压 Vgs 的表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvQ1vW4qicVjZq0IVF55o4PIRGETjzHdician4jibEicUAn0btdAFldAHibxpg/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_020_1fb75ea165a3.png)  
 
 **2.2.2 SiC MOSFET 的开关轨迹**
 
@@ -197,7 +197,7 @@ SiC MOSFET 的开通轨迹：开通延时阶段，Vgs 未达到导通阈值 Vth�
 
 SiC MOSFET 的关断轨迹：关断延时阶段，器件仍处于导通状态，栅源极电压 Vgs 下降，Vds 略有上升，由工作点 5 变为工作点 6；电压上升阶段，Vgs 下降至米勒平台电压 Vmiller，栅极电流为栅漏极电容 Cgd 放电，Vds 持续上升至直流母线电压 Vdc，位于工作点 7，在此阶段 Id 受续流二极管寄生电容放电电流影响略有下降；电流下降阶段，续流二极管导通，漏极电流 Id 向续流二极管转移直至降低为零，栅源极电压 Vgs 降低至 Vth，如图中工作点 8，在此阶段漏源极电压受到主回路寄生电感影响产生过冲与振荡；关断结束阶段，Vds 与 Id 保持在工作点 8 不变，Vgs 下降至驱动负电压 Vg-。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM2Sick7nA4EhAE99NGMUxLGtl4Le0h3x7fSSUv0HG5NDSNInxluNClCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_021_9196dc5882ca.png)
 
 **2.3 SiC MOSFET 应用中面临的问题**  
 
@@ -209,11 +209,11 @@ SiC MOSFET 的关断轨迹：关断延时阶段，器件仍处于导通状态，
 
 在 SiC MOSFET 应用电路中，应确保电压超调不超过器件的最大额定值。电压超调通常是器件输出电容和模块与直流母线电容间杂散电感 Lp 谐振产生的，图2.12 为 SiC MOSFET 开关瞬态桥臂等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMGia0oczDWdnWletibh8CiaCcprcLCiaeLkF98oJG9a6fWOZG3HZM9mZTdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_022_6856a70d847b.png)
 
 SiC MOSFET 关断阶段，下管漏极电流 Id 下降时，上管续流二极管维持导通压降 Vdiode，下管的 di/dt 在主回路电感上产生感应电压 Vov，其与母线电压叠加产生关断过电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhv7okiazEx3caM1QMT6DibuZEicaxSrBkNnjBDDDHMjE2etFX5nG2sNrCHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_023_efdd86c977ae.png)
 
 等效电路中的电感与电容一般为同一数量级，电感 L 为 nH 级别，等效电容C 为 nF 级别，而 SiC MOSFET 的开通电阻 Rds,on 仅有几毫欧，所以主回路的阻尼系数很小，器件的开关振荡难以避免。增大门极电阻 Rg 可以减缓 SiC MOSFET 的开关速度，降低器件电压与电流过冲，但会增加额外的损耗，所以在设计驱动电路时需要在电压电流超调和开关损耗之间做出权衡。此外，使用主动门极驱动电路对开关过程的 di/dt 和 dv/dt 进行控制，可以在保证安全电压电流超调的情况下，加快开关速度，本文第四章将对主动门极驱动电路进行深入研究。
 
@@ -223,17 +223,17 @@ SiC MOSFET 关断阶段，下管漏极电流 Id 下降时，上管续流二极�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvR95OzEKibth8ptloSaoN4GPT3wo8jxlNCAvf55EQjXDHLEAap13f6PA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_024_8f8e6d708e7e.png)
 
 因为 SiC MOSFET 的 Ciss 比 Si MOSFET 小很多，所以其对驱动回路的寄生电感更加敏感。此外，驱动回路的寄生电感还会影响 SiC MOSFET 栅极充放电速度。为了避免驱动回路振荡产生的弊端，在驱动电路布线时应尽量缩短距离，以减小分布电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMuLU7jc8OcbvN0L6QjnkE9mdGgC6ibbfknhluqMFC74rvqQtHvb6IxGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_025_fe718eb970aa.png)
 
 在上下管互补导通的桥臂应用中，以上管开通为例，如图 2.13 所示。在上管处于开通电压下降阶段时，下管漏源极电压 Vds 会随着上管漏源极电压的下降而上升。此时下管栅漏极电容 Cgd 产生位移电流：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvdsNXxiaVWJL7pP6a9P5tHpzmRhlCAwjC2MsV5Kz7prIstrByvcw34Fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_026_6729ff016b3d.png)
 
 感应电流 iCgd流进栅极后，会流经栅极驱动电阻 Rg 或为栅源极电容 Cgs充电，在 下 管 栅 极 产 生 正 串 扰 电 压 ， 如 果 串 扰 电 压 大 于 开 通 阈 值 电 压 就 会 使 SiC MOSFET 误导通，造成桥臂短路。为了防止误导通，SiC MOSFET 的驱动电路通常使用负压关断或增加低阻抗回路减小串扰影响。
 
@@ -247,15 +247,15 @@ SiC MOSFET 关断阶段，下管漏极电流 Id 下降时，上管续流二极�
 
 由图 2.14 所示，驱动电路中的关键参数包含栅极电阻 Rg，栅极电感 Lg，源级电感 Ls，栅源极电容 Cgs 和栅漏极电容 Cgd。驱动回路中的寄生电感 Lg 与 Ls 一方面会降低开关速度，另一方面可能引起 Vgs 振荡，易造成器件误动作。因此在驱动电路 PCB 布置上，要将驱动电路在功率模块的栅极和辅助源极附近布置，以尽量减小 Lg 与 Ls；并在缓冲电路电源两端并联解耦电容，减小驱动电流路径。本文主要分析 Rg、Cgs 和 Cgd 对器件开关瞬态的影响，并忽略 Lg 和 Ls，以及驱动回路参数的非线性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMzTrKf6LzAG92HiaZKOjunlCUaUw95WoORq1ocl5a3Ria1XnHydp48GJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_027_5aedd1214479.png)
 
 开通过程的 di/dt 在电流上升阶段产生，当 Vgs 达到 Vth 后，ig 对 Cgs 充电，此时漏电流 id 近似为：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvzUGy5HonibATWeeKjSMZ9x0WavXOjIc9XHs7xZiaD6LnKaWnwH3ju3hA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_028_d3b7fbc72ce6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvJNgkSoTsPBRYaq7U1QXBbznzJSdO121UtyKcktrduWl2aSXroE7BfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_029_11c16e0de64e.png)
 
 从以上分析可以看出，驱动回路参数中驱动电阻 Rg 同时影响 SiC MOSFET 的电压变化率与电流变化率，Cgs 主要影响开关过程的 di/dt，Cgd 主要影响开关过程的 dv/dt。然而，上述分析是建立在忽略驱动回路寄生电感与非线性的条件下，与系统实际工作条件有差异，所以下面将使用 LTSpice 软件分析驱动参数对器件开关瞬态的影响。
 
@@ -267,21 +267,21 @@ SPICE 模型使用网表格式描述了器件内部实际的电气连接，使�
 
 根据 CAS300M12BM2 数据手册中的描述，其导通电阻 Rds,on 为 4.2mΩ，反并联二极管电流 If 为 300A，可以推算出 SiC MOSFET 芯片为导通电阻 25 mΩ 的 CPM2-1200-0025B 裸片，SiC SBD 芯片为额定电流 50A 的 CPW5-1200-Z050B 裸片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM6B3M3TxRzB2XTzNZsdtUcvK7L3wqXuZaguWrXFDLcqmrNVCyQ228yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_030_123c5a3916cc.png)
 
 为了更准确地模拟功率模块的行为，需要对封装中的杂散电感进行提取。文献\[63\]使用 Ansys Q3D 有限元仿真软件提取了 CAS300M12BM2 模块的寄生电感，但未给出功率模块完整模型及各部分电感值。本文使用模块提供的数据手册和内部构造图，根据寄生电感 10nH/cm 的经验值推导封装中各部分杂散电感。
 
 CAS300M12BM2 模块内部由芯片、DBC 衬板、键合线和接线端子四部分构成，其中芯片中的寄生电感很小，模块的杂散电感主要分布在接线端子、导电铜层和键合线上。半桥模块一般工作在互补导通状态，其工作电流回路如图 2.16所示，所以在计算与测量功率模块寄生电感时，主要考虑一个桥臂 MOSFET 通路和另一桥臂二极管通路的杂散电感\[64\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMfcm1hicy5O7VyDicWaOTTAwOEHI8EOK0upcVWr9TmvBvNNGB2RIV3hdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_031_86dc70fa17ce.png)
 
 CAS300M12BM2 模块数据手册中给出的直流母排端子间的寄生电感 Lstray 测量值为 15nH，根据模块内部构造图设置各部分寄生电感，建立仿真电路如图2.17 所示。其中，直流端子电感 La1、La2，输出端子电感 La3 为 4nH；DBC 衬板电感 Lb1~Lb24 为 3nH；键合线电感 Lc1~Lc4 为 1nH；栅极电感 Lg1、Lg2，开尔文源极电感 Lss1、Lss2 取最长回路的电感值 10nH。寄生电感设置未考虑模块中各芯片的位置差异，设置后电流回路总电感为 15nH，与模块数据手册中一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMEhVt3nwkwHE6oUCDzeoGPNEY7NEMSt4lNQzkKtGq7ibPw5InS88AiaTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_032_f51c78a5423f.png)
 
 CPM2-1200-0025B 裸片仿真模型未包含模块封装的热阻信息，为了模拟 SiC MOSFET 工作过程中的结温变化，需要对模块的热阻网络进行建模。在对功率模块热阻进行建模时，通常忽略各芯片间的温度耦合，只考虑垂直方向的热传导，常用的一维热阻网络有 Cauer 网络与 Foster 网络，如图 2.18 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMO5JVwjM19Z0iako0PwyWEiaX5n5oqBo65vXRxJX9bz95w4gSJvG3dTicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_033_ef9e064c5b67.png)
 
 Cauer 热网络结构可以反应模块内部各物理层的传热过程，RC 代表了各层的热阻与热容。Foster 热网络与 Cauer 热网络互相等效，但其中的 RC 没有具体的物理意义，无法准确模拟模块各层温度分布\[65\]。建立 Cauer 热网络通常需要模块各层封装材料与尺寸信息，通过公式计算或有限元仿真获得各层 RC，而Foster 热网络可以利用模块数据手册中的瞬态热阻曲线，进行多阶指数拟合得到RC。本文未能获得 SiC 模块的详细封装结构，所以采用瞬态热阻曲线建立Foster 热网络。
 
@@ -289,19 +289,19 @@ Cauer 热网络结构可以反应模块内部各物理层的传热过程，RC �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm0C9GQb86Qibu0HiaDVQGZhvpZibRr2lIjyW850hQE9ribxR3xwzD2a5VPIq7ahg9N2wAk0BOj1gmqrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_034_9418f8a45d02.png)
 
 其中 Ri 为热阻参数，单位为 K/W；τi 为时间常数，τi\= Ri∙Ci，单位为 s；Ci为热容参数，单位为 J/K。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM2UlK6s9oAW5tHkxoRMjDDrAxtu6XtZFm9J9xVIvibJnFLSdE69LTQMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_035_ef286d1bb92f.png)
 
 根据文献\[67\]，使用 4 阶 RC 热网络已经可以精确描述功率模块的热特性。因此，本文使用 getdata 软件对 CAS300M12BM2 模块的瞬态热阻曲线进行提取，并使用 MATLAB 的曲线拟合工具箱 cftool 对公式(2.30)表示的四阶热网络参数进行拟合，其参数见表 2.1，在仿真中使用拟合参数搭建 Foster 热阻网络如图2.20 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMk7VlicM4dhianFwDkfJlKT6jE1LewvsH3WdhhwOwnw5eZmsKPRmnmNZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_036_2af4f1c64d36.png)
 
 图 2.21 将热阻网络拟合结果与数据手册中热阻曲线提取点进行对比，可以看出本文建立的 4 阶 Foster 热网络模型与模块热阻基本吻合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM59CGQVU36lb0c1VibB80qaMvvEHMGj7WiclObIxUudyb46icG1wqtic7vw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_037_60d381d7642c.png)
 
 **2.4.3 驱动回路参数仿真及优化**  
 
@@ -311,31 +311,31 @@ a.驱动电阻
 
 图 2.22 与图 2.23 给出了不同驱动电阻 Rg 下 SiC MOSFET 开关瞬态的仿真结果，当 Rg 由 2.5Ω 增加至 10Ω 时，开关过程的 dv/dt 分别降低了 28.2%与 54.6%，开关过程的 di/dt 分别降低了 47.5%和 55.2%，电压超调与电流超调分别降低了47.2%与 29.3%。结果表明驱动电阻 Rg 增加时，SiC MOSFET 开关瞬态的电压变化率与电流变化率均都有明显下降，且对关断过电压的抑制能力更强。但是通过增大 Rg 来降低 SiC MOSFET 电压电流应力是以开关损耗增加为代价的，开通关断总损耗由 2.5Ω 时的 8.19mJ 上升至 10Ω 时的 13.37mJ，增加了 63%。Rg 为 5Ω时，器件的过电压降低了 18%，总损耗为 9.62mJ；Rg 大于 5Ω 时，增大驱动电阻对电压超调的抑制能力降低，且开关损耗会大幅增加，所以本文拟选择 5Ω 驱动电阻，并在后续仿真中固定不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMNTdxXDtgibvbGrBXZaEegAEsvgPcztgDo7TSqia4wpib8UcOLJaUuG6sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_038_a5a20bdb9692.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM0bSFk1TQAJBCOHT60YjBThWQ88sACgZoSfLs1eibB9MJiaCsYxOdiar0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_039_884f2f61595b.png)
 
 b.栅源极电容
 
 图 2.24 与图 2.25 为栅源极电容 Cgs 对 SiC MOSFET 开关瞬态影响的仿真结果。结果表明栅源极电容对开通关断 dv/dt 的影响较小，当 Cgs 从 0 增加至 20nF时，开通中的 dv/dt 降低了 19.5%，关断中的 dv/dt 降低了 16.8%。栅源极电容对开通关断过程 di/dt 的影响显著，Cgs 增加过程中，开关过程的 di/dt 分别降低了32.9%与 42.3%。增加栅源极电容可以同时降低 SiC MOSFET 的电压和电流应力，电压与电流超调分别降低了 24.3%与 23.7%，总损耗上升了 30.3%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMFHfadLJicpnu7XP9CU6N2ibBPr3Licgu8WlwIKt5nCrYX40mfvq4EH4cA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_040_7fb6e1366bbd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM5S7T6DkVuVKicCTkcYzibCFAMJvAHgSODbffjo2xkaXCFLVB9p8icaSuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_041_9836803e9724.png)
 
 c.栅漏极电容  
 
 图 2.26 与图 2.27 为栅漏极电容 Cgd 由 0pF 增加至 200pF 时的开关瞬态仿真结果，同样使用 5Ω 驱动电阻。与理论分析一致，增加栅漏极电容会使电压变化率明显降低，开通关断 dv/dt 分别下降了 30.1%与 34.8%，而开通关断的 di/dt 仅下降了 15.6%与 13.8%。同时，相对于开通过电流，增加 Cgd 对降低关断过电压的效果更显著，但会大幅增加关断损耗。根据仿真结果，关断过电压降低 15%时关断损耗增加了 40%，开通过电流降低 9%时开通损耗增加了 14%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMgpOCNVnJbriaTvmRZ2TiaH7R9ia91YeibXc0q9ibZWGCR84uR7CJzJSj8wA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_042_bb30055cf161.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMJvOFTOYIjzic5vMDchatKtzS771GVPeZqibfoDG9HBtFupB3lbXIC55Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_043_431427a91d9e.png)
 
 d.驱动参数选择  
 
 驱动回路参数对 SiC MOSFET 开关瞬态中的电压电流变化率、过电压过电流以及损耗呈现不同的影响关系，在实际电路中需要进行选择。根据 Rg、Cgs 与 Cgd的仿真结果可以看出，Rg 对开关过程中的 dv/dt 与 di/dt 均有较强的可控性，而 Cgs对 di/dt 的可控性较强，Cgd 对 dv/dt 有更高的可控性。此外，增加 Rg 和 Cgs，可以同时降低器件的电压尖峰与电流尖峰，增加 Cgd 对电流尖峰影响较小，且在增加相同开关损耗时对电压尖峰的抑制能力比增加 Rg 与 Cgs 要弱，如图 2.28 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMZ1VuibRBTe6WzVcvKWOtBwrIM2uz4cgGUNGLqSXUTGnCQ5oIJg6giarw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_044_a954110f4449.png)
 
 本文在选择驱动回路参数时，主要对驱动电阻 Rg 与栅源极电容 Cgs 进行调节，而不使用外部并联栅漏极电容。一方面 Cgd 对抑制 SiC MOSFET 开通过电流及关断过电压的能力较差；另一方面并联 Cgd 需要使用高压电容且无法靠近模块驱动引脚布置，可能会引入额外的杂散电感。根据仿真结果，本文拟采用 5Ω 驱动电阻且在栅源极并联 5nF 电容，将峰值电压及峰值电流限制在 500V 与 400A 以内。相较于模块数据手册中 Rg 的 2.5Ω 推荐值，开关损耗升高了 24%，但明显降低了器件的电压应力。
 
@@ -359,7 +359,7 @@ d.驱动参数选择
 
 电动汽车系统的电磁环境复杂，逆变器需要做好防护，保证设备可以抵抗环境电磁干扰，同时也要保证自身的电磁干扰不会进入到其他设备中。根据 GB/T36282-2018《电动汽车用驱动电机系统电磁兼容性要求和试验方法》 和 GB/T18387-2017《电动车辆的电磁场发射强度的限值和测量方法》中的规定，电动汽车逆变器需要满足 150kHz~30M 电场强度与磁场强度的发射限值，并需要完成30MHz~100MHz 电磁辐射发射试验与 20MHz~2000MHz 电磁辐射抗扰度试验。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMGdpHufOnpybsjglmMTL8qyibPwQpcmPPyEKTCcjkP8It6XKFD4rWH5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_045_b8bdc1612d29.png)
 
 电动汽车驱动系统中，电池组、逆变器与电机之间通过母线连接，并且通常都会有金属外壳，导致各元件与大地形成耦合路径，如图 3.1 所示。在 SiC MOSFET的开关瞬间产生的 dv/dt 可达 50kV/μs 以上，快速变化的电压在各部件的寄生电容上形成共模电流 Icm，导致系统中产生共模干扰。
 
@@ -381,13 +381,13 @@ CAS300M12BM2 模块数据手册中制造商给出的驱动电压安全工作范�
 
 在 SiC MOSFET 开关过程中，栅极电容的充放电电流会在驱动电阻和驱动芯片上产生能量损耗，供电电源应供给足够的功率才能保证模块的正常开关。当驱动功率不足时，供电电源的输出电压下降，导致开关速度变慢，导通电阻增大。SiC MOSFET 开关所需的驱动功率为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMiaSkMTXSibV7Iwj9KQfsSDueeYzGG0ndn6icN3iahCVdYHCAHGbOjtuB4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_046_035d6ef84fdb.png)
 
 其中 ΔVGS 是正负驱动电压差，QG 为总栅极充电电荷，fsw 为开关频率。由CAS300M12BM2 模块数据手册中的栅极充电电荷为 1025nC，则开关频率 30kHz下的单管驱动功率为 0.769W，考虑到驱动芯片及驱动回路中的其他损耗，并为提高开关频率留下裕量，驱动电源总功率应不小于 2W。
 
 在驱动电源的设计中，还需要考虑隔离电压和对共模噪声的抑制。为了保证低压侧与高压侧的电气隔离，驱动电源的隔离电压通常为开关器件耐压的两倍以上，对于 1200V SiC MOSFET，需要 2500V 以上的隔离电压。另外，如图 3.2 所示，隔离电源的低压侧与高压侧之间存在分布电容，在桥臂开通关断的过程中，上桥臂驱动电路参考地的电压在零到母线电压之间摆动，产生的 dv/dt 通过隔离电源的寄生电容传导至低压侧，产生共模噪声。由隔离电源引入的共模噪声会增加电源的输出纹波，并且可能干扰 PWM 信号，影响功率器件的开关安全。对于SiC MOSFET，驱动电源的共模抑制比要求在 50kV/μs 以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMfJRoJWNvII1FDcJAepRTibEDfCndOZzQPHF7qEej4ZUe1JxE4ODthNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_047_ae69dd3cbce8.png)
 
 本文选用了 Murata 公司的 MGJ2D122005SC 模块作为驱动电源，其体积小、效率高，输出电压为+20V/-5V，总输出功率 2W。此外，MGJ2D122005SC 电源模块具有 5200VDC 的隔离电压和 80kV/μs 的 dv/dt 免疫能力，且工作温度范围可达\-55°C~125°C，适合大功率电动汽车电机控制器应用。
 
@@ -399,7 +399,7 @@ SiC MOSFET 驱动电路需要对开通、关断信号和错误反馈信号进行
 
 本文选取了博通、英飞凌、罗姆和德州仪器公司的几款汽车级驱动芯片进行对比，其主要参数如表 3.1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM5mEcANrIphVOAwPV4H6qS6GeVibD1JicH7849BXfMcQkGhk8C2BwAuUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_048_256dec16896e.png)
 
 根据表格中的对比，TI 公司的 ISO5451-Q1 芯片拥有最优异的传输延时、最大脉宽失真、隔离电压和共模抑制性能，且供电电压范围较宽，可采用+20V/-5V双电源，满足 SiC MOSFET 驱动电路的需求，所以本文使用 ISO5451-Q1 芯片作为信号隔离。
 
@@ -407,23 +407,23 @@ SiC MOSFET 驱动电路需要对开通、关断信号和错误反馈信号进行
 
 SiC MOSFET 常用的栅极驱动结构有两种，分别为互补 BJT 射极跟随器结构与 MOSFET 反向推挽结构，如图 3.3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMAp1VcEE51uhR1Ye2TqkgsQBkzPCBa0MYbc1PJQcXZ4TGNJDyjRBs5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_049_02bbcf169f9a.png)
 
 互补 BJT 射极跟随器结构简单，由两个 PNP 与 NPN 双极结型晶体管组成，上桥臂 NPN 管接驱动正电源，下桥臂 PNP 管接驱动负电源，两管的基极相连由电阻 Rb 提供开通电流，共射极接驱动电阻 Rg，提供栅极驱动电流。当需要更大的驱动电流时，可以并联 BJT 提高驱动能力。MOSFET 反向推挽结构与 BJT 射极跟随器类似，主要的不同是输入输出电平相反，需要在控制程序中对 PWM 的极性进行改变。使用 MOSFET 作为栅极驱动器的优点是其输出不受栅极电流控制，输出电流大且开关速度快、损耗低。
 
 在 SiC MOSFET 开关过程中，可以使用不同的驱动电阻优化开关性能，即非对称栅极输出级电路。如图 3.4 所示，设置不同开通电阻 Rg,on 与关断电阻 Rg,off 的方式主要有两种。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM1xg56iarZzNKyw0Jp8L0kZM6yZnFnhNYCny2btPUKuavpALghNoIzmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_050_c71b416e686f.png)
 
 第一种是使用二极管的单向导电性设置 Rg,on 与 Rg,off，当器件开通时，驱动电流流向栅极，二极管截止，驱动电流仅流过电阻 Rg1；当器件关断时，驱动电流反向，二极管正向导通，电阻 Rg1 与 Rg2 并联。另一种方法是将栅极驱动器的输出分离，为开通关断电流提供不同的路径，SiC MOSFET 开通时上管 PMOS 提供驱动电流，关断时下管 NMOS 提供放电电流，这样就可以对开通电阻与关断电阻进行独立设置。
 
 当选择栅极驱动器时，首先要确定驱动 SiC MOSFET 所需的最大峰值电流Ipeak，可由器件上升时间与栅极电容估算如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMBplEUVXWCJ9jEIWqp6kvw1m23P1vHGbriclibsTASjKdFhLecVOGwkibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_051_242cfa042684.png)
 
 其中 QG 是总栅极充电电荷，td,on 与 tr 为导通延时与电流上升时间，td,off 与 tf为关断延时与电流下降时间。由 CAS300M12BM2 模块数据手册，计算的开通电流峰值为 7.12A，关断电流峰值为 4.86A。为了简化驱动电路，本文选取 IXYS 公司的 IXDN614 芯片作为栅极驱动器，其可在\-40°C~+125°C 工作环境下提供 14A的峰值输入输出电流，最大延时为 90ns，工作电压范围为 4.5V~35V 并可提供轨至轨输出。图 3.5 为栅极驱动部分电路图，输出级使用二极管设置开通与关断电阻，SiC MOSFET 的驱动电流均由 IXDN614 芯片提供，在其电源侧并联 4.7μF 电容与 0.1μF 去耦电容，可以将驱动电源至栅极驱动器前的杂散电感解耦，增加环路稳定性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMr0SpTwrqdUic1yk6cAqVPeHkDsdVsXZFYWxQeT2ZXKDWk6QrV4dgibKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_052_69d53ce4dc64.png)
 
 **3.2.3 保护电路设计**
 
@@ -431,7 +431,7 @@ a.安全工作区
 
 CAS300M12BM2 模块安全工作区（Safe Operating Area,SOA）如图 3.6 所示，SOA 曲线可以分为四部分，模块正常工作时处于曲线 1，即饱和导通状态，此时工作区受导通电阻 Rds,on 限制；当电流达到 1500A 后，SiC MOSFET 受器件最大脉冲电流 Id,pluse 限制，即曲线 2；曲线 3 分为几条，分别对应不同的脉冲时间 tp，此处主要是受到器件所能承受的最大损耗限制；曲线 4 是器件的反向击穿电压限制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMEaGYx3GfY0SoNeQB16PjpFLiaw03v9vyVtgI04KKDIdLnFXuQTE4vsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_053_26cb212d1886.png)
 
 b.过流保护电路
 
@@ -439,7 +439,7 @@ b.过流保护电路
 
 针对 SiC MOSFET 的过流检测，较常用的方式有采样电阻检测、感应式电流检测和退饱和检测，如图 3.7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMbeYPaRES15aOS5M6KHgCVPxG27xYKPicDGqaI99rZrUYbbpicBbwxmew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_054_ebaf9f4b35e4.png)
 
 采样电阻检测法是在 SiC MOSFET 的源极串联一个低阻值的无感电阻，并经过放大电路采样分流电阻两端的电压获得漏极电流 Id。采样电阻检测法电路结构简单、响应速度快，但是测量信号没有电位隔离，且在主回路中产生额外损耗。
 
@@ -453,15 +453,15 @@ b.过流保护电路
 
 本文使用 LEM 公司的汽车级霍尔传感器 HC5FW500S 采样输出电流，其额定电流为 500A，在电流传感器后加入了分压网络、电压跟随以及二阶有源滤波器，如图 3.8 所示。电流采样电路灵敏度为 2.4mV/A，总延时为 3μs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMdiarbkZtNciaOuyUfveg0SDEllLzmibeXBZjOhzOVecLvm9qrfe6OMKCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_055_ab38c583dfd3.png)
 
 过流保护电路使用 LMV393-Q1 比较器对三相电流 IU,IV,IW 进行比较，6 个比较器的输出进行“线或”得到短路信号 FAULT，并接入数据缓冲器 SN74HC244-Q1 的使能引脚，如图 3.9 所示。过流保护电路使用 4 个分压电阻分别设置比较电流的最大值 IVERH 与最小值 IVERL，当任意一相采样电流大于 IVERH 或小于IVERL 时，比较器输出低电平，FAULT 信号拉低将 PWM 信号锁存。过流保护电路的动作时间小于 5μs，总响应时间为 8μs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMaLoRj2cTlbob9ibib0icl2QM9RiaBmavBhYibbPibxU6sXKMtZ7hgxNrlEIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_056_47ab2bb8e8de.png)
 
 本文使用信号隔离芯片 ISO5451-Q1 的 DESAT 功能实现功率模块的短路保护，如图 3.10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMqqibiaeoLARqWnd7DHrAABpHW585HNud29cORYawKMWAMnIgah4qBatw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_057_d86eb9d5c3f9.png)
 
 ISO5451-Q1 芯片内部提供了一个 500uA 电流源为 DESAT 检测电容充电；一个比较器检测 Vdesat 电压是否超过 9V 预设值，如果超过则将输出 PWM 锁存并发出故障信号；此外还有一个由 PWM 控制的 MOSFET，在功率器件关断时为 DESAT检测电容提供放电通道。ISO5451-Q1 芯片外仅需一个二极管 Ddst、一个限流电阻Rblk 与一个充电电容 Cblk 即可实现保护功能。其中二极管 Ddst 必须满足高耐压与快恢复速度的要求，本文选用 1000V/1A 汽车级快恢复二极管 US1MFA，其恢复时间为 75ns；感性负载开关时，SiC MOSFET 反并联二极管两端会产生很大的负电压瞬变，向 DESAT 引脚抽取大量电流，限流电阻 Rblk 可以降低负电压尖峰的影响，通常取值 100Ω~1kΩ；充电电容 Cblk 可以减小 Vds 开通电压振荡对 DESAT保护电路的影响，此外可以通过 Rblk 与 Cblk 设置 DESAT 保护电路的消隐时间(blanking time)。
 
@@ -469,17 +469,17 @@ ISO5451-Q1 芯片内部提供了一个 500uA 电流源为 DESAT 检测电容充�
 
 DESAT 电路可以通过将多个 DESAT 二极管或齐纳二极管串联设定漏源极电压 Vds 的动作阈值，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM1Ff33NKA5xbGO0j0Wd6KgsZia4PzVsCgdt2iaApQ54RgFDQfJiajdy10Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_058_e534b9c3ad73.png)
 
 式中 VF 为 DESAT 二极管导通压降，VZ 为齐纳二极管击穿电压。
 
 图 3.11 是 CAS300M12BM2 模块的输出特性图，可以看出其没有明显的饱和区，其导通压降可以由电流与导通电阻的乘积表示，即 Vds\=Id∙Rds,on。本文仅使用一个快恢复二极管进行 DESAT 检测，US1MFA 的导通压降为 0.6V，Vds 的动作值为 8.4V，对应 SiC MOSFET 的电流为 1090A，小于 CAS300M12BM2 模块的最大脉冲电流 Id,pluse。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMbOPcSXMYvau3ib22jGdicAPvYU5nwJSdicC6xHlnLOFDkmBtXia4qDxY9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_059_94b9e3167665.png)
 
 为了提高去饱和检测电路对噪声抗干扰性能，且在短路时及时动作关断功率器件，需要对其消隐时间𝑡𝑏𝑙𝑘进行设置，本文设计的去饱和检测电路消隐时间为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMu3PflEHAXLARGyxdLIPboA8x0z1M1L3Zic2m9lick5PkibdgN0YVMI9aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_060_f3bd8643c615.png)
 
 CAS300M12BM2 模块的开通电流在 200ns 内达到稳定值，为了留有裕量，选择 400ns 消隐时间，计算得到 Cblk 的值为 22.2pF。根据数据手册，ISO5451-Q1 芯片 DESAT 检测到短路故障到输出拉低的最大延时为 500ns，总动作时间 tact\=tdio+tblk+tdly\=975ns，可以满足 CAS300M12BM2 模块对短路保护时间的要求。
 
@@ -487,13 +487,13 @@ c.有源钳位电路
 
 SiC MOSFET 受主回路寄生电感影响，在关断过程中会产生很高的关断过电压。且在器件短路时，过流保护电路动作关闭输出，会导致更高的 di/dt 和电压过冲，可能超出 SiC MOSFET 的击穿电压损坏功率器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM1a8OG1a4GbksPdI0ib030iauXlrOCYxOB1icgibgHMorJGibzbpRpgeOMzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_061_354c59074075.png)
 
 保护功率模块免受过压损坏的方法是使用有源钳位，图 3.12 为常用的有源钳位电路，其由一个快恢复二极管与瞬态电压抑制（TVS）二极管或齐纳二极管串联，接入栅极与漏极之间。
 
 有源钳位电路的工作原理是当漏源极电压 Vds 超过某一特定电压临界值后，TVS 二极管会导通将漏源极电压钳位，同时电流从 TVS 二极管流入 SiC MOSFET栅极，为栅极电容充电并提高栅极电压，降低漏极电流 di/dt 以抑制电压尖峰。图3.13 为使用有源钳位电路后的 SiC MOSFET 关断过程波形图，其可分为五个阶段。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMaHAX0RzsKhJJibYG59jibiatBzU0JRNJcKL9vpRyWXEWhtuxPgMrd7iaSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_062_ccfb281cf003.png)
 
 t0~ t1 阶段，栅极电压由驱动正电压下降至米勒电平，SiC MOSFET 保持导通状态。
 
@@ -515,7 +515,7 @@ d.串扰抑制及栅极保护电路
 
 通常串扰导致的寄生开通状态持续时间很短，大概在 10ns~100ns 之间\[70\]，不会造成 SiC MOSFET 短路，但会产生很高的额外损耗与 EMI，影响其他元件工作。为了预防器件的寄生开通，必须确保栅极电压小于导通阈值电压，较为常用的方法是使用有源米勒钳位(Active Miller Clamp,AMP)。其原理是在器件关断时，在栅极与源极之间提供一条低阻抗通路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMRNW5enJ94LuSSgb5O5oEvY9bjyuX0ibRRPdaE2Fw9ugNYEahjyodHrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_063_c0ed40930f11.png)
 
 ISO5451-Q1 芯片具有有源米勒钳位功能，其在内部提供了一个比较器与一个额定电流 2A 的 NMOS，由 CLAMP 脚引出。由 ISO5451-Q1 构成的米勒钳位电路如图 3.14 所示，其原理是当器件处于关断状态时，CLAMP 脚检测器件的栅极电压并于 2V 预设值比较，如果栅极电压超过预设值则认为发生了串扰，比较器控制 NMOS 导通，将外部驱动电阻旁路，为栅极位移电流提供一条低阻抗路径。
 
@@ -523,7 +523,7 @@ ISO5451-Q1 芯片具有有源米勒钳位功能，其在内部提供了一个比
 
 为了抑制栅极电压振荡或有源钳位电路在 SiC MOSFET 栅极产生的电压尖峰，提高栅极可靠性，需要在驱动电路中加入栅极电压钳位功能。图 3.15 为两种不同的栅极电压钳位电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM7JtDIQjkclfx54ZtUw8uTOv9ictzosbtia35ToIevCLgM1ibQrh2w9w2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_064_f7ce36153438.png)
 
 TVS 二极管钳位电路可以将栅极电压限制在 TVS 二极管的击穿电压范围内，在应用时需考虑其最高及最低击穿电压范围和温度变化对击穿电压的影响，选型时应确保最高击穿电压在功率模块的安全栅极电压范围内且最低击穿电压不应超过驱动电源电压。
 
@@ -535,11 +535,11 @@ TVS 二极管钳位电路可以将栅极电压限制在 TVS 二极管的击穿�
 
 a.信号隔离布置
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMK9fnqGX0Kl0pffH4icrX6K3V6ic4lU66ic1492abB39nfOKJia8CclAwdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_065_863ebe769799.png)
 
 如图 3.16 所示，在 PCB 布置时，信号隔离芯片的布局会影响其原边与副边之间的共模电容 CIO，PCB 布局产生的寄生电容大小为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMWAI6mlMhhDuzK3lL4hyOia1Jjb6iaXw3UYGesyRBMer4xic3Rjtqsagzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_066_dce8c4009b2d.png)
 
 式中 W 为 PCB 布线铜厚，L 为 PCB 布线长度，e0 为空气的介电常数，er 为PCB 板相对介电常数，d 为两条 PCB 布线间的距离。
 
@@ -551,7 +551,7 @@ b.PCB 叠层选择及布线
 
 PCB 设计时，使用多层板可以有效降低电路的 EMI\[71\]。以四层板为例，其叠层自上而下按照高速信号层、地平面、电源平面、低频信号层顺序配置，如图 3.17所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMxiaI7XUFR0fv0kvxGMC5ZiaT76PYZwC6Ja8t9eEGgNr83W6g7HiacOQxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_067_6a1f4b9cfc82.png)
 
 通常驱动芯片以及主要元器件放置在顶层，在顶层布置高速信号线可以避免过孔引入的电感；将地平面紧邻高速信号层放置可以为信号传输线提供可控阻抗，为驱动回路电流提供最优的低电感路径；电源平面放置在地平面下方，可以为驱动电源提供一个额外的大约 15pF/cm2 的高频旁路电容，减小电源高频噪声；将较慢的控制信号对寄生参数要求不高，可使用过孔将这些信号引入 PCB 的最底层以提高布线的灵活性。
 
@@ -569,25 +569,25 @@ PCB 设计时，使用多层板可以有效降低电路的 EMI\[71\]。以四层
 
 5\. 使用过孔连接地平面时，需使用多过孔多点接地。PCB 中过孔的寄生电感Lvia 可由过孔长度 h 和过孔直径 d 估算：Lvia\=2h\[ln(4h/d)+1\]，增加过孔直径无法有效降低寄生电感，使用多点接地可以降低过孔连接处的等效电感与等效电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMVY8rJ7k5FVrybCnyMqibAqEAPfOTJrpgT6pLEO8CIickTITpFXrxnkUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_068_409f7d4dbee1.png)
 
 c.驱动电路整体结构及寄生参数提取
 
 本文使用 Altium Designer16 软件绘制了驱动电路板，其布局图与 3D 图如图3.19 所示。PCB 布局满足 380V 三相逆变器安规距离要求，强电间距离 4mm、强弱电距离 5.5mm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMuHeWWxh9iaCG5ib59SGgHjULvsoGG7OGW02ANnNlVV53EPSC5fB1BicaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_069_f7ab8d15669f.png)
 
 为了减小驱动回路电感，将 IXDN614 缓冲芯片与驱动电阻放置在模块驱动引脚附近，并在其两端并联 2 个 4.7μF 电容提供驱动电流以减小回路长度。本文使用 Ansys Q3D 软件对驱动回路寄生参数进行提取，对驱动回路的每一部分设置激励电流源的 source 与 sink，如图 3.20(a)所示。驱动回路电流由栅极缓冲芯片流入驱动电阻，再从驱动电阻流入功率模块的栅极，之后返回电流从模块的开尔文源极出发，流入栅极缓冲芯片的参考地。
 
 Ansys Q3D 的仿真结果如图 3.20(b)所示，将电流回路自感与互感叠加后，驱动回路总寄生电感为 3.6nH，加上 2512 封装驱动电阻的寄生电感估算值 1nH，本文设计的驱动电路总寄生电感为 4.6nH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMjqoLxTsiaztZ2JgtnTUF2N2DgYiaFdibJQPc7xp9QxwVgQ8n7fTcmrBPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_070_59e25a735c8b.png)
 
 **3.3 实验与结果分析**
 
 根据驱动电路的硬件设计，本文制作了驱动板并搭建了 60kW 逆变器实验样机，如图 3.21 所示。驱动板结构紧凑，对功率模块间空闲体积进行了有效利用，且高度仅为 3mm。其一端由螺柱固定在水冷散热器上，另一端直接焊接在功率模块的驱动引脚上，直流母排及电容可直接搭接在功率模块上，实现了逆变器结构优化设计。逆变器整机尺寸为 230mm×186mm×90mm，峰值功率为 120kW，相对于文献\[72\]中的 110kW SiC 逆变器样机，功率密度由 23 kW/L 提高到了 32kW/L。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMUYClY9S9MGTSuAyicCGAbJBwvkia64fTXcuF7BzpricRjx1p80c57Jnhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_071_5dd2c1568d75.png)
 
 为了验证实际工作条件下驱动电路的性能和可靠性，本文使用双脉冲测试平台与电机对拖台架进行实验验证。
 
@@ -595,51 +595,51 @@ Ansys Q3D 的仿真结果如图 3.20(b)所示，将电流回路自感与互感�
 
 双脉冲测试是功率器件与驱动电路性能测试的常用方法，通过此方法可以获取功率器件实际的开关延时、上升下降时间、电压电流尖峰、开关损耗与导通损耗等参数，用于评估驱动回路参数选择是否合适，以及检验保护电路的动作情况。双脉冲测试电路及波形如图 3.22 所示，其原理在此不再赘述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMiaHf3DINFRxPdHHTUv2cHnvyX5ZtY4axVM7sxqDJG5OsQAbAmuKRDOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_072_c975b2945f31.png)
 
 图 3.23 为本文搭建的双脉冲实验平台，包括待测电路、续流电感、控制板、直流电源、驱动电源及测量设备等。其中待测逆变器包括三个 CAS300M12BM2 模块与驱动板，使用母排与直流支撑电容连接，直流支撑电容容量为 350μF 耐压800V；续流电感使用飞仕得多抽头空心电感，其峰值电流可达 20kA，可以通过不同的连接方式获得最小 6μH 最大 520μH 的 13 个不同电感值；控制板用于发出双脉冲信号，并通过一个外部按键触发；直流电源使用自耦变压器与不控整流提供直流电压，12V 驱动电源为控制板和驱动板供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMOC9jWGY1jiaYicWlibJBibOksm6nER0lKjangppNrGVhkbb3p5KPHsrM2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_073_a3b0bb3847ec.png)
 
 测量设备包含示波器、高压隔离探头与电流探头。示波器为Keysight DSOX3014T 四通道数字示波器；高压隔离探头为 Tektronix P5200A 有源差分探头，其带宽为 50M，最大测量范围为±1300V；电流探头使用 PEM CWTMiniHF15B罗氏线圈，其带宽为 30M，最大测量范围为 3000A。实验中电压与电流震荡频率小于 20Mhz，所选测量设备带宽均满足 SiC MOSFET 双脉冲测试要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMj26g9oiaXGNuTnibVHHwJmR9LB8iarYA0iae7FkNibvcA7xpDOdTia4rw4NA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_074_5caa6f3e54bd.png)
 
 图 3.24 为双脉冲测试实验整体波形图，实验中选取 20μH 续流电感，设置两个脉冲宽度为 16.5μs 与 7μs，脉冲间隔为 7μs，直流母线电压为 340V，脉冲电流分别为 310A 与 480A。
 
 从双脉冲测试波形可以看出 SiC MOSFET 带载开通关断时，漏源极电压与漏极电流均产生了振荡现象。为了匹配最优的驱动回路参数，下面通过改变驱动电阻 Rg 与栅源极电容 Cgs，测量 SiC MOSFET 的电压电流尖峰与开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMlmWV4XgygAXHknxkcAsnhBMDib9JqNfE5PmRAAvReU5qP7htIjibzXBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_075_d562ba64512d.png)
 
 图 3.25 是 Rg 在 2.5Ω~10Ω 变化时 SiC MOSFET 的关断波形。当 Rg\=2.5Ω 时，关断电压振荡明显，电压尖峰达到了 505V。当 Rg 增加到 5Ω 以上时，驱动电压振荡减弱，漏源极电压尖峰随着 Rg 的增加而减小。Rg\=5Ω 时的电压超调相对于Rg\=2.5Ω 时降低了 12%，关断损耗增加了 13%，关断延时为 250ns。Rg 为 7.5Ω 或10Ω 时，虽然电压尖峰与振荡进一步降低，但其开关延迟与损耗显著增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMzATdrIyibTTad7TfzhtJS7ic4M7afofibxcOlHHiaTOm3icic7Nq1u3JLniaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_076_16f15adcf898.png)
 
 图 3.26 是 Rg 变化时 SiC MOSFET 的开通波形，可以看出 SiC SBD 的反向恢复电流较小，Rg\=5Ω 时的电流尖峰为 402A，超调仅为 28%。Rg 增加对电流尖峰的影响较小，且器件开通损耗会大幅增加。对 SiC MOSFET 的关断过程与开通过程综合考虑后，本文选择 5Ω 驱动电阻，其电压振荡、开关速度与开关损耗较为均衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMwKRpKRDRuXiaxdHe1vkGsPFbicNAu64bWQ51C7xBQxjhj3TeFjZq1E6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_077_f8e1180cd4b0.png)
 
 图 3.27 与图 3.28 是 Cgs 在 5nF~20nF 变化时 SiC MOSFET 的关断波形与开通波形，Rg 保持 5Ω 不变。相较于不使用栅源极电容，Cgs\=20nF 时电流超调降低了16%，而电压超调仅降低了 6%，开关损耗由 11.4mJ 增加至 19.7mJ。由实验波形可知，栅源极电容可以有效抑制过电流而对关断过电压几乎没有抑制作用，而 SiC MOSFET 开通过电流很小，无需使用 Cgs 进行抑制。另一方面，并联 Cgs 对驱动回路中的杂散电感具有解耦效果，可以改善栅极电压振荡现象，经综合考虑后本文使用 5nF 栅源极电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMVzD4HiblYya6fs18EI11UERzGMLCicOPhsficdbp1T7ljp4wziaWeETYQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_078_8e5dbe0de212.png)
 
 双脉冲实验还可以测试驱动电路的过流保护功能，图 3.29 是过流保护实验波形图，实验中电路参数不变，将两个脉冲时间和脉冲间隔都设置为 30μs。由实验结果可以看出当电流上升至 1139A 时，退饱和检测电路动作关断功率管，并在1.6μs 后发出故障信号。上文中退饱和检测电路动作点的计算值为 1090A，实验结果与计算值接近。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMr0OhcrF2btUicjzFHjEf3ZoGyLAeGlqZmKoj10aLUhVTYnAoMxDPYtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_079_71939ab0837a.png)
 
 **3.3.2 电机台架实验**
 
 电机台架实验可以对电动汽车的实际工况进行模拟，测试逆变器的稳态性能、动态性能、效率与可靠性。电机台架实验平台如图 3.30 所示，其中测试电机额定电压 220V，额定转速 4000r/min，额定功率为 45kW，峰值功率 120kW；待测逆变器与陪试电机控制器采用共母线连接并由直流电源提供 330V 母线电压，实验时陪试机处于发电状态，将电能回馈至直流母线，直流电源仅提供小部分损耗电能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMc9p5UdvF9EWwBqXOuMm5ba51yX8bTkoXrG18AEOgYe1Hdp5PpwkgDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_080_ba62ff68fc29.png)
 
 本文通过电机台架实验对逆变器实验样机进行了高速区、低速区实验，并通过转矩分析仪与功率分析仪测试了逆变器效率，使用示波器采集了逆变器输出波形。图 3.31 是测试电机工作在 5500r/min，转矩 105.65N∙m 工况下的逆变器输出波形图，此时逆变器输出功率为 63.47kW，效率为 98.4%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMuIFc6AlaB18Xjias6wWqz6gLQnOGYXzOO27AtA14TTV7S3d0apCOjXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_081_a7a89ebb5d07.png)
 
 为了验证驱动电路的栅极可靠性与抗串扰能力，本文测试了上下桥臂的栅极电压波形，如图 3.32 所示。实验时待测电机保持 60kW 额定功率运行，开关频率为 30kHz。由实验波形可以看出上桥臂开通瞬间对下桥臂的栅极电压产生了串扰，且其他桥臂的开关也会在本桥臂产生串扰现象。本文设计的驱动电路采用\-5V 关断电压，串扰尖峰均未超过 0V，不会产生寄生导通现象。另外，驱动电路使用了TVS 管对 SiC MOSFET 进行栅极保护，使得串扰电压正尖峰与负尖峰均在安全范围内，保证了栅极可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMl9tAurL58bEDbpnn07OtSmTI5Gn7TNbnDZrIbTEX8GRor01Qy9emZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_082_e0e07cd00347.png)
 
 **3.4 本章小结**
 
@@ -663,7 +663,7 @@ Ansys Q3D 的仿真结果如图 3.20(b)所示，将电流回路自感与互感�
 
 多电平控制法使用多个隔离电源或驱动器，在开关过程的不同阶段进行串联以调节驱动电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMogcPbuVV87iaC5VRYic5vPtvhaHDPcONcHmznt7FoEpwfUzYQhZK463A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_083_20f5274f9765.png)
 
 文献\[55\]提出了三级驱动电压对 SiC MOSFET 的开关过程进行控制的方法，如图 4.1 所示。其中第一个驱动器为 SiC MOSFET 提供\-4V 负压，并在器件开始导通时将电压抬升至 3V 附近，使其刚好低于栅极电压导通阈值 Vth；第二个驱动器的输出电压 0~5V 可调，可在导通阈值与米勒电平之间对驱动电压精确控制；第三个驱动器在开关完成后提升栅极电压以降低导通电阻 Rds,on。
 
@@ -671,7 +671,7 @@ Ansys Q3D 的仿真结果如图 3.20(b)所示，将电流回路自感与互感�
 
 源极升压法通过对 SiC MOSFET 源极电压抬升，来改变驱动电路的等效电压\[48\]。典型源极升压电路如图 4.2 所示，其通过+20V 主驱动电源与+5V 源极升压电源组合成+20V/+15V/0V/-5V 四种驱动电压，对器件的开通关断过程进行调节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMecrGkuWVOo79jbiatFCrfUtW4GSCrpFIhber3yGHFKnISh0mmd6sA7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_084_ec0796d35764.png)
 
 **4.1.2 驱动电阻调节**
 
@@ -679,13 +679,13 @@ Ansys Q3D 的仿真结果如图 3.20(b)所示，将电流回路自感与互感�
 
 短路电阻法在 SiC MOSFET 栅极串联多个驱动电阻，使用开关对电阻进行投切，如图 4.3 所示。由于 SiC MOSFET 开关时的电流方向不同，使用短路电阻法调节驱动电阻时需要使用两个 MOS 反向串联组成的双向开关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM9R2ibbEnTKibrzCwroHCibuDTdall7fgXV3aicp97XgsicNgCgx2M55eURg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_085_9f5c61d77e25.png)
 
 (2)多电阻切换法
 
 当驱动电路使用输出分离式栅极驱动器时，可以使用多条开通与关断支路对驱动电阻进行调节，如图 4.4 所示。选择驱动电阻时，可以使用 74 系列多路选择器将 PWM 信号分配给任意开关，或使用 FPGA 对各个开关信号进行独立控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMWJdej3CNPCJjicOyYmPHL9Zg0NxfSNNNokjEgALmZRA7cMv2KEU1ibuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_086_018a2784fd95.png)
 
 **4.1.3 驱动电流调节**
 
@@ -693,29 +693,29 @@ Ansys Q3D 的仿真结果如图 3.20(b)所示，将电流回路自感与互感�
 
 栅极电流分流是最简单的调节驱动电流的方法，通常选择在外部驱动电阻与SiC MOSFET 栅极之间加入一条分流路径，通过开关管控制分流支路工作并通过改变电阻设置分流电流大小，如图 4.5 所示。栅极电流分流法通常用于减慢功率器件的开关速度，此外还可以将分流支路与驱动正负电源连接，对 SiC MOSFET栅极注入电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMpQUWOAd4XIYhsoHGLCeic93n5icJcJKJe7GCDQlqefxXZicniaHnzzw6mA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_087_0c59676574ff.png)
 
 (2)三极管控制法
 
 三极管控制法是在驱动回路中串联 BJT，使 BJT 工作在放大区控制栅极电流\[73\]。由于 BJT 只能单向导通，所以需要使用 PNP 与 NPN 分别构成充电回路与放电回路，其原理图如图 4.6 所示。改变电压 Vb1 与 Vb2 可以栅极的开通关断电流进行控制，其公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMAfqXYMZcMXSCMuvHWRvyicMPorD24ibicXysWcBFBEibfzkHzm96HcViarg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_088_a24ddc8bfe9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMgaybSTbib7azWkkplDI1mPqY8WUsUFQpBeAYo5ficMNMibV2Qtf3iccztg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_089_d5cfb461c404.png)
 
 其中 β 为三极管电流放大倍数，Vbe 为 PN 结压降，Vg+与 Vg-为驱动正电压与负电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMD1arqmwpYS0EmPbiaiagKgUaL5udicFeOsug7V2D0dbSn9rOOaLQaYOTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_090_3dc7eec36e49.png)
 
 (3)镜像电流源法
 
 镜像电流源是集成芯片中的常用电路，可为各个放大级提供恒定电流，其电路原理如图 4.7 所示。镜像电流源使用两根特性相同的 BJT 构成，它们的射级相互连接，基极共同连接至一根管子的集电极。镜像电流源工作时 T1、T2 的基极电流与集电极相等，且当电流放大倍数 β\>>2 时，T1 管及 T2 管集电极电流大小为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMJicqGEenHmn5jHC6ypAsbOwicL4V5pKOyRVkwos12UOVoblEbds9qpLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_091_0b3d349c29e4.png)
 
 其中 Vbe 为 BJT 的 PN 结压降。使用镜像电流源可通过改变电压 Vc 控制 T2从栅极抽取电流，同理可使用 PNP 管组成的镜像电流源对栅极注入电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMepgpscdMnAmcLUAMzZsUvrJLpx2xtMqF7oNVe5EXJ8gFwXoEKEsSSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_092_e5adc2721bba.png)
 
 **4.2 主动门极驱动开关过程控制**
 
@@ -731,7 +731,7 @@ SiC MOSFET 理想的开关过程是在导通或关断延时阶段有较大的栅
 
 在整个开关过程中，SiC MOSFET 的 Vgs 随着开关阶段改变。使用栅极电压判断开关过程需要对阈值电压 Vth 和米勒电平 Vmiller 两个电压进行比较。然而，阈值电压与米勒电平并不是保持不变的，Vth 会随着结温的升高而减小；米勒电平 Vmiller受到漏极电流 Id 的控制，在检测时需要对 Id 进行补偿，且受到寄生输出电容 Coss的影响，导通时的 Vmiller 电压往往高于关断时的 Vmiller 电压\[74\]。所以在使用比较器判断开关过程时，往往需要为开通或关断阶段分别设置比较电压，如图 4.8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM7NGQgswzWfVYUqNXaODmfwv7rA5dcKB0MVl0mmz1AvyVUVsfp1hmaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_093_d8dd91ba4553.png)
 
 (2)di/dt 检测
 
@@ -739,7 +739,7 @@ SiC MOSFET 理想的开关过程是在导通或关断延时阶段有较大的栅
 
 然而在非理想开关过程中，漏极电流并不是单调变化的。在开通过程电流上升阶段后，续流二极管产生反向恢复电流，造成漏极电流的过冲与振荡；在关断过程电压上升阶段后，受续流二极管寄生电容影响，漏极电流会略微下降。非理想开关过程中漏电流的变化与振荡影响了 Ls上的感应电压 VLs，所以实际应用中，不能仅凭 VLs 的正负判断 SiC MOSFET 开关过程所处的阶段，合理设置比较器的动作范围，可有效降低漏电流非理想变化造成的误判。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM1gWLcL8czra5b71lLWLjianXOb85jWZuXbWnoXkVeLWfpicgvP2icSggg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_094_bacb4338ec37.png)
 
 (3)dv/dt 检测
 
@@ -751,7 +751,7 @@ SiC MOSFET 理想的开关过程是在导通或关断延时阶段有较大的栅
 
 本文提出了一种新型主动驱动电路，其原理图如 4.10 所示。该电路在现有传统 SiC MOSFET 驱动电路基础上加入了 di/dt 检测电路与分流电路，辅助电路无需额外电源及驱动，结构简单易于实现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMnx1X0rVzmCqt9N19O2hvrsnnbHibc22ExYWLRsQoiatibOkMfX8hTQj8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_095_d62b2f21891a.png)
 
 di/dt 检测电路通过检测 SiC MOSFET 功率模块源极电感的感应电压，判断其是否处于电流上升阶段或电流下降阶段。分流电路接收 di/dt 检测电路的控制信号，在电流上升或电流下降阶段减缓 SiC MOSFET 栅极充放电电流，降低漏极电流变化率。下面对其工作过程进行分析：
 
@@ -763,39 +763,39 @@ di/dt 检测电路通过检测 SiC MOSFET 功率模块源极电感的感应电�
 
 为了避免寄生电容与电流振荡对 di/dt 检测电路的影响，需根据实际工况设置比较器 U1 与 U2 的比较电压值，通常使用电阻分压得到 Vc,high 与 Vc,low。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMSLOLeC93QiciaFwTmADRRZ6WvjibXJsFpUMErJgOiaXpwjibqHZ5yHU9DCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_096_32a9c234cad2.png)
 
 SiC MOSFET 开环主动驱动电路可以通过设置 Rg,ext、Rpull、Rpush 对开关 di/dt进行精确控制，驱动电路开通过程的等效电路如图 4.12(a)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMfLXZiaKNic7wV56gYRBhEe8sb5r9v45iaanEwefZQ1WyDj8XymKeGA6uQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_097_ef7a558a46a7.png)
 
 开通过程电流上升时间 tri 计算步骤如下：
 
 电流上升阶段开始时，Ciss 电压为阈值电压 Vth。开关 S1、S2 闭合，将简化电路进行 Y-Δ 变换，如图 4.12(b)所示。其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMzjEdTCorRDmhrMZ0L8ufywoA4dUADLUFib4rOXhHqoAvMg70yVV8qfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_098_7c0f19a6e2bf.png)
 
 驱动电路关断过程的等效电路如图 4.13 所示，同理可以计算关断过程的 di/dt
 
 与电流下降时间 tf。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM871XgtYJNm8Wj7SFCpDx6qehOUFuMf9ZVCu0K77ibrXq2M26QnPrdvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_099_74dcae6409a8.png)
 
 **4.2.3 仿真分析**
 
 为了验证开环主动驱动电路工作原理，本文在第二章搭建的 CAS300M12BM2模块驱动回路参数的仿真模型上，加入了 di/dt 检测电路与分流电路，如图 4.14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMUooJ40icNr4StUEggN5V129hTx8rFEgchgicdRDrl5YIukNYIb4xgfaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_100_2e038fe7be7e.png)
 
 di/dt 检测电路使用两个电压比较器 LTC6752 采集功率模块源极电感 Ls 上的感应电压，并与预设电压 VCMP1 与 VCMP2 比较。VCMP1 为关断过程感应电压比较值，设置为 15V 抑制输出电容造成的电流下降，VCMP2 为开通过程感应电压比较值，设置为\-30V 抑制开通电流振荡。为了简化仿真电路，在分流电路中使用两个理想开关代替上下桥臂 PMOS 与 NMOS，di/dt 检测电路的两个比较器控制S1 与 S2 的开关。开通与关断分流电阻均为 15Ω，根据公式(4.10)与公式(4.13)可以计算出开通中点电压 Vmid,on 为 13.75V，关断中点电压 Vmid,off 为 1.25V，可保证器件可靠开通与关断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMGsBxDO0x7pWUUB1IxcPofNowL6phiadxY75icjcOGjHSicEbJQLl4ic9QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_101_e6b2155ba9cc.png)
 
 使用本文提出的主动门极驱动（AGD）以及传统驱动方法（CGD）Rg 分别为5Ω 与 10Ω 时的开关波形如图 4.15 所示。SiC MOFET 开通过程中，AGD 减缓了漏极电流的上升速度，但与此同时主回路寄生电感产生的压降减小，增大了开通损耗。使用 AGD 时，电流过冲较 Rg\=5Ω 时的 CGD 降低了 22%与 Rg\=10Ω 时持平，开通损耗较 Rg\=5Ω 时增加了 25%，较 Rg\=10Ω 时降低 14%。SiC MOFET 关断过程中，使用 AGD 不会影响 Vds 的上升过程，在电流下降阶段减小了 di/dt 对关断过电压与振荡有明显的抑制作用。使用 AGD 较 Rg\=5Ω 时的电压过冲降低了30%，且由于电压超调与振荡的减小，关断损耗由 5.77mJ 降低至 5.7mJ，较 Rg\=10Ω时降低了 26%。
 
 另一方面，使用 AGD 可以显著减少开通与关断延时，在电压超调与电流超调相当的情况下，相对于 Rg\=10Ω 时开通延时降低了 40ns，关断延时降低了 132ns。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMNBhECYiakx0b3Ky6JWPsOG1YykhSk6T7l4nSHzqyuBccuv7xsCWjsZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_102_a01ed34ee097.png)
 
 图 4.16 是 AGD 中 di/dt 检测电路以及分流电路波形，从图中可以看出当比较器 U2 检测到源极电感的感应电压小于 VCMP2 时，输出低电平控制下桥臂分流电路导通，驱动电流通过 Rpush 分流，流入 SiC MOSFET 栅极电流减小，值得注意的是此阶段电流振荡在 Ls 上产生的干扰较大，主动驱动电路可能发生误动作；在关断阶段，比较器 U1 检测到 VLs 大于预设电压 VCMP1 时，输出高电平控制上桥臂分流电路导通，驱动正电源通过 Rpull 为栅极注入电流，减小栅极放电电流，仿真结果与上文中的理论分析一致。
 
@@ -807,11 +807,11 @@ di/dt 检测电路使用两个电压比较器 LTC6752 采集功率模块源极�
 
 由于 SiC MOSFET 各层材料特性和制造工艺不同，当功率加载到器件上时，各层材料热膨胀程度不一致产生热应力。而长时间的功率循环也将导致材料疲劳和老化，最终过高的机械过应力使得器件键合引线及键合失效\[75\]。衡量器件可靠性的重要指标是功率循环总次数 Nf，其 Coffin-Manson-Arrhenius 模型为\[76-77\]：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMmpdnibrXX8gQOZmO7Gic4nBWo1UbDMEq8jwnFh3rGmfmiaZACtys4Okeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_103_b6e9baf1ae01.png)
 
 其中 Tm 为器件平均结温，ΔT 为结温波动，A 与 α 是器件相关常数，通常由实验测得，Ea 为激活能量常数，取 7.8×104J/mol，kB 为玻尔兹曼常量，其值为8.314J/(mol•K)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMAgo1mvXR9uGzFSRz3vPpllGARhlZdMo7fBkZXAUr5wp9ibkqrEEkhdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_104_cdf18749b9c7.png)
 
 图 4.17 是根据 Coffin-Manson-Arrhenius 模型绘制的平均温度和温度波动对功率循环次数的影响曲线，可以看出平均结温和结温波动影响器件运行寿命，且结温波动对器件运行寿命影响更大。
 
@@ -823,15 +823,15 @@ SiC MOSFET 的损耗主要由导通损耗 Pcond、开关损耗 Psw 与驱动损�
 
 SiC MOSFET 的导通损耗由漏极电流 Id 在器件的导通电阻 Rds,on 上产生，而Rds,on 会随着 Id 的增加而增加，且受到栅极电压影响，Vgs 越大 Rds,on 就越小。本文利用 CAS300M12BM2 模块数据手册中的输出特性曲线，使用 getdata 软件取得漏极电流 Id 与漏源极电压 Vds 组成的数据点，两者相乘可以得到 SiC MOSFET 的导通损耗 Pcond。将漏极电流 Id 与导通损耗 Pcond 的数据点导入 MATLAB 中使用CFTOOL 工具进行二次拟合，其拟合公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMa6NagfafgKhqcN8hSvXryh7ibSYa1JcmNnP2nRxhF7tic0BSLq32z9Bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_105_17ccc92d952d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM9ibwV0vmplTVBiccpic51YIYOXhWhV1JPS1GmJIymjR7j8JKaF9Fpg8tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_106_998da8dccf5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMqku3HxtDtdUKickPNSxfzx5clFhO9d7hficmH2yUQolppoAFnXgFoGsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_107_c48ff9a84654.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMWX1z35aDaa1eHhIoCRemUGicFlFf2ZqNs1drAiclibmcZTcUPgLm8fYBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_108_951be9f8c326.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMJJ79C2BdVDWOg1bSuxfsdVQy3HIbY5nMlfVvlNQBfZvca6HqTXStEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_109_eec5741743f2.png)
 
 由公式(4.27)可以看出电压电流上升时间与下降时间均与 Rg 成正比，改变驱动电阻可以同时影响开通损耗与关断损耗。在开通阶段，可以通过改变驱动电压改变开通速度，驱动电压越高开通损耗越低。在关断阶段，改变驱动正电压只会影响的关断延时，无法改变关断损耗。
 
@@ -841,25 +841,25 @@ SiC MOSFET 的导通损耗由漏极电流 Id 在器件的导通电阻 Rds,on 上
 
 电动汽车逆变器作为非稳定工况变流器，在大范围功率波动工况下承受很大的热应力冲击，根据主动驱动电路可以控制器件损耗的特点，可以平滑功率器件的结温波动，其控制框图如图 4.19 所示。其中工况判断模块根据负载电流计算功率器件所需损耗，在大电流负载时降低损耗并在负载降低时增加损耗，之后由公式(4.19)与公式(4.27)计算主动驱动电路电压与电阻设置值，并由主动驱动电路动作切换 Vg 与 Rg。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMNScSfl5wibGiaEgDeyDxicxoD0mr7bgMA28VLVe4ADk9ibhRSKNh2Q6jIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_110_a9bf82bc0de9.png)
 
 本文在第二章搭建的 CAS300M12BM2 模块的 LTSpice 模型的基础上，加入了驱动电压调节与驱动电阻切换电路，对主动驱动电路的结温平滑控制进行了仿真，如图 4.20 所示。其中，驱动电压调节使用源极升压法，驱动电阻调节使用短路电阻法。为了模拟逆变器大功率低频波动工况，在仿真中使用一个开关切换负载，使负载电流峰值在 300A 与 150A 之间以周期 0.8s 变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMz40sY5Priaeu4J7JLj1FqaVicH03xNf3Knslias6cyVakZVMsOAFj2Q7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_111_dc4d164741d9.png)
 
 未添加结温平滑控制时驱动电阻 Rg 设置为 5Ω 并保持驱动电压为 20V 不变，使用结温平滑控制时 SiC MOSFET 升温阶段使用 2.5Ω 驱动电阻与 20V 驱动电压，降温阶段 Rg 与 Vg 设置为 15Ω 和 14V。根据公式(4.19)与公式(4.27)计算，未使用结温平滑控制时升温阶段的导通损耗 Pcond 与开关损耗 Psw 分别为 386.7W 和204.3W，降温阶段 Pcond 与 Psw 分别为 93.5W 和 83.9W；使用结温平滑控制时升温阶段的 Pcond 不变，Psw 降低为 140.5W，降温阶段 Pcond 升高为 116.2W，Psw 升高为 236.5W。使用结温平滑控制主要作用于 SiC MOSFET 轻载时提高结温，升温阶段总损耗降低了 63.8W，降温阶段总损耗增加了 175.3W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMwBrNcgFqicsw1YxMAzspF2ZibThoBQcb2OnI6KJfWw2Tdva6XlZpGCsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_112_abb6b18f0255.png)
 
 图 4.21 是使用结温平滑控制前后 SiC MOSFET 的栅极电流波形，未加控制时驱动电阻与驱动电压不变，栅极电流峰值始终维持在 3.1A；加入控制后在重载阶段使用更小的驱动电阻，栅极电流峰值为 4.4A，轻载时驱动电压降低驱动电阻增加，使栅极电流降低为 1.1A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMhiacpIAs1a9MiarcN03o2IgbO4koldlCicguzya8WRjibiadFbgHMicmqbuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_113_d06f7b175b79.png)
 
 图 4.22 为栅极电流局部放大图，可以看出改变 Rg 与 Vg 可以控制 SiC MOSFET的开通时间，Rg 为 5Ω 时开通时间为 1.7μs，Rg 为 2.5Ω 时开通时间为 1.5μs，Rg 为15Ω 且 Vg 为 14V 时开通时间为 2.7μs。
 
 结温平滑控制前后 SiC MOSFET 的结温变化如图 4.23 所示。从图中可以看出温度控制前器件最高结温为 141°C，最低结温为 78°C，低频结温波动为 43°C；使用结温平滑控制后器件最高结温为 133°C，最低结温为 91°C，低频结温波动为20°C。在相同功率循环条件下，使用主动驱动电路对 SiC MOSFET 进行结温平滑控制，降低了 23°C 的结温波动，且将器件最高温度降低了 8°C，显著减小了器件的热应力冲击。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMwMged9SzzCO06ibXE67uicIMxECEmrLDoiaxqswgNaZOibUQ4Q4sEKImEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_114_07b10dab67f8.png)
 
 结温平滑控制虽然可以有效降低结温波动，但是其提高轻载时器件结温主要是通过增加导通损耗与开关损耗实现的，会降低轻载时逆变器的系统效率。此外，由于在降温阶段提升了结温，采用结温平滑控制时 SiC MOSFET 的平均结温较未加控制时提升了 5.4°C，但因显著减小了结温波动，器件的功率循环周期数增加了了 2 倍以上。
 
@@ -1045,8 +1045,8 @@ SiC MOSFET 的导通损耗由漏极电流 Id 在器件的导通电阻 Rds,on 上
 
 \[78\] Power Loss Calculation With Common Source Inductance Consideration for Synchronous Buck Converters\[EB/OL\]. \[2011-08-01\]. http://www.ti.com/lit/an/slpa009a/slpa009a.pdf.
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_115_e30334ffaa92.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_116_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_电动汽车逆变器_SiC_MOSFET_驱动技术研究_images\img_117_84aa944feb13.jpg)

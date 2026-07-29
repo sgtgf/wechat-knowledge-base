@@ -11,7 +11,7 @@
 
 关键词：碳化硅金属氧化物半导体场效应晶体管；栅氧可靠性；评估方法；极端工况
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3KleSRuoH1K9WhDicEzTVMvOcopRWDP07rUeLygVvHeS5b5pRatjkFcw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_000_d6500340549f.png)
 
 0\. 引言
 
@@ -21,7 +21,7 @@
 
 1. 栅氧可靠性问题形成的原因
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3eYSOHcjnhibYJ118he67Gk0B0usiaUc5dswCpPuflOcgzVSFq0OdiaMXg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_001_4d27d96aa32c.png)
 
 由于SiC MOSFET热氧化过程中碳簇等缺陷的形成，导致SiC/SiO2界面存在大量缺陷电荷，图1显示了SiC/SiO2界面处的主要缺陷类型，界面缺陷电荷分为可移动电荷、固定氧化层电荷、氧化层陷阱电荷、近界面氧化层陷阱电荷和界面电荷。其中SiC MOSFET栅氧化层中的可移动电荷通常是由氧化工艺阶段的碱金属污染所造成，在栅氧中的主要存在形式为K+和Na+离子，它们会在高温、高电场下发生迁移，影响阈值电压(Vth)的漂移。固定氧化层电荷的产生是由热氧化过程中未形成完整晶格的深能级悬挂键、碳团簇和低价氧化物等缺陷引起的，并且它无法与衬底进行电荷交换，只有进行低温退火可有效降低固定电荷密度。氧化层陷阱电荷的形成是由于SiO2生长过程中自身氧化缺陷及CO残留所引起的缺陷陷阱，可通过粒子辐射、热载流子注入和F-N隧穿捕获电荷。氧化层陷阱电荷位于栅氧化层体内，具有较大的捕获和释放时间常数，主要影响SiC MOSFET阈值电压的长期稳定性及栅氧可靠性。近界面陷阱电荷相比氧化层陷阱电荷更靠近SiC/SiO2界面，分布在SiC和SiO2之间几纳米厚度的过渡层区域。这类陷阱主要来源界面附近的氧空位缺陷，这些氧空位的形成是过渡层中Si和O元素的比例失衡所导致的。近界面陷阱相比氧化层陷阱电荷具有更短的捕获和释放时间常数，表现为更容易捕获和释放电荷。界面态陷阱电荷的形成源于界面处悬挂键、晶格失配等结构缺陷，主要分为施主型缺陷和受主型缺陷：施主型缺陷的分布靠近价带，在未捕获电子的状态下显正电，在捕获电子后不带电；受主型缺陷的分布靠近导带，在未捕获电子时显中性，在捕获电子后带负电。器件正常工作时，界面电荷和近界面陷阱电荷会捕获电子和空穴，造成阈值电压漂移，氧化层陷阱电荷在高温、高电场下捕获电子和空穴，造成器件栅氧泄漏电流的增大和阈值电压永久性漂移。另一方面，由高斯定理可知，SiO2介电常数比SiC低2.5倍，由于功率SiC MOSFET工作时栅压较大，导致栅氧层容易承受超过3 MV/cm以上的电场强度，这会造成严重的可靠性问题。最后，作为宽带隙材料，SiC和SiO2之间的能带偏移量远低于Si和SiO2之间的能带偏移量，SiC/SiO2界面的隧穿势垒降低至2.7 eV，使得电子更容易发生隧穿。因此，在相同电场下，SiC MOSFET器件的栅极隧穿电流要远远高于硅基器件。
 
@@ -33,11 +33,11 @@
 
 自20世纪90年代起，TDDB测试已被广泛用于功率MOSFET栅极氧化物的质量评估，根据器件外加电场的方式，TDDB寿命预测可分为恒定电压(电流)TDDB和斜坡电压(电流)TDDB。其中，恒定电压法常通过施加1个低于氧化物击穿电压的恒定电压来预测器件的栅氧寿命，而斜坡电压法常用于获得栅极泄漏电流的变化趋势和提取栅氧化物击穿电场。恒定电压法可以获得不同栅压和温度条件下SiC MOSFET的失效时间，并通过威布尔分布统计来评估器件的栅氧质量，并进一步推测出栅氧化层的使用寿命。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3hl1MnXbm5bYHNSHbgvw1NMJBjl9IKMVFAd6X9V4fQBiaShQ5hPJYsRg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_002_d7bbc46e1f40.png)
 
 图2为平面型SiC MOSFET在150℃下恒定电压法TDDB测试的栅氧寿命威布尔分布，可以看出：随着施加栅压的增大，器件的失效时间逐渐缩短，其中β为威布尔分布斜率参数，失效时间的变化越小，β越大，表明栅极氧化物均一性越好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3IicQmLNvSpwAUzMJmN2ib14bXicYTzjyPXeXFH5GNJzlb5hA7063WHvLw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_003_32411390ece9.png)
 
 图3为室温下SiC MOSFET的斜坡电压法TDDB测试的Igss\-Vgs特性曲线，可以看到：栅极泄漏电流在氧化物击穿前呈指数增长，其中F-N隧穿是主要导电机制。在高温、高电场应力下，由于栅氧电场增大和界面有效势垒高度降低，栅漏电流急剧增大，导致SiC MOSFET过早击穿。
 
@@ -45,7 +45,7 @@
 
 2.2 高温栅偏HTGB
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3BPBIlSVZzQOSSxMf88NMTgYMjzHAnpaiaUrByEwVB0QicfqTmGNkJXaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_004_66183ba5d551.png)
 
 HTGB常被用于评估SiC MOSFET栅氧化层的静态特性退化特性，主要包括阈值电压(Vth)、导通电阻(Ron)和栅泄漏电流(Igss)。由于SiC/SiO2界面较高的缺陷密度，HTGB测试会导致器件发生Vth漂移，这被称为阈值电压不稳定性BTI( bias temperature instability )。图4为不同栅偏置条件下SiC/SiO2结构的能带：负栅压下，能带向上弯曲，栅氧化层中空穴被捕获，Vth负漂，称为负偏置温度不稳定性NBTI( negative BTI )；正栅压下，能带向下弯曲，栅氧化层中电子被捕获，Vth正漂，称为正偏置温度不稳定性PBTI( positive BTI )。Vth漂移与施加栅应力时间成幂律关系，随着应力时间延长，栅氧缺陷捕获电荷越多，Vth漂移更显著。除栅压外，温度的变化也影响Vth的退化量，ChenZheng等研究了BTI与温度变化的关系，当温度为175℃和200℃时，Vth漂移量分别增加0.17 V和0.30 V。除此之外，由于Vth的变化会影响器件的导通电阻，Vth正漂会引起Ron增大，从而增强导通损耗；Vth负漂会使Ron降低，导致关断状态下漏极电流增大，并造成器件的误导通。在长期HTGB测试中，Igss会随着应力时间的延长和栅压的增大而增大，最终达到mA量级导致栅氧击穿；而在较低栅压下Igss的增大在可接受范围内，并不会造成器件失效，只会发生Vth和Ron的退化。
 
@@ -61,17 +61,17 @@ SiC MOSFET在工作中常受到极端应力的冲击，包括短路、非钳位�
 
 3.1重复短路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia31ia3CPWYygbGJaDB6Zf8faLianIibqWbPPtncQ1c7INZ6aibe02Xz2efIg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_005_f5c02b9166b5.png)
 
 重复短路应力下SiC MOSFET会受到高压大电流的冲击，造成器件栅氧可靠性降低，且栅氧界面陷阱电荷增多导致的Vth漂移是重复短路应力下栅氧退化的主要机制。Li Yuan等通过仿真验证了平面型和沟槽型器件在受到不同栅压短路应力时栅氧电场的变化，如图5所示：当开态栅压为10 V时，栅氧化层倾向于对空穴的捕获，高漏压会使JFET和部分沟道区发生碰撞电离并产生电子\-空穴对，栅氧在漏压施加的电场下捕获空穴，使得Vth负漂；当开态栅压为20 V时，沟道区的电子捕获成为Vth正漂的主要原因，这表明在不同开态栅压下栅氧承受的电场方向不同。除栅压大小对Vth漂移的影响外，重复短路的持续时间也会造成Vth漂移趋势的不同，图6显示：当短路时间仅为0.8 μs时，Vth发生负漂，源于大电场引起的碰撞电离产生空穴注入；当短路时间变长，增强了沟道区电子注入栅氧化层，Vth正漂。Yu Renze等研究了平面、双沟槽和非对称沟槽器件在重复短路下的退化分析，实验结果表明平面型器件在25℃和175℃下静态特性退化较小，双沟槽和非对称沟槽器件在经受一定短路应力次数后发生栅氧化层破裂，Igss急剧上升。除此之外，重复短路过程产生的巨大热应力会引起顶部源极金属局部过热发生重构，使得Ron增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3ceVlZgHBZIDVT6aNr7WMpR0AtPQqDm8ggWobUNpcHQK0oXM6Nj0Icw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_006_e4a7fa7d9445.png)
 
 3.2 重复非钳位感性负载开关
 
 在SiC MOSFET受到重复UIS应力下，电流主要从SiC MOSFET体二极管流出，TCAD数值模拟表明UIS过程中JFET区域碰撞电离率和垂直电场达到峰值，在较大漏极电压下JFET区由于高电场发生碰撞电离而产生空穴被注入上方栅氧化层中，这是导致重复UIS下栅极氧化层退化的主要机制。Wei Jiaxing等研究了平面型SiC MOSFET经受重复UIS应力后栅氧在不同区域的退化趋势，如图7所示，Cg\-Vg曲线结果显示在Ⅱ区域曲线无显著变化，而在Ⅲ和Ⅳ区域Cg\-Vg曲线负漂，进一步验证了JFET区上方栅氧化层对空穴的捕获。而有的报道指出，经过一定次数的UIS后，部分沟道区域上方的栅氧化层也会捕获空穴，使得Vth负漂。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3Oe4jpvEa0z5c3pxfCfbHcNcS4qowVf0uBHJPnPPmY5aiaWOO8p0fs0Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_007_9fe0d108a1ed.png)
 
 Deng Xiaochuan
 
@@ -119,13 +119,13 @@ gd增大导致器件的米勒平台持续时间增长，从而延长了器件的
 
 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3DVy7nkxpqoWd8gospzcKu15lhZF2VyukkIappnrgoecZWMFicaqHp5w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_008_d4a55b7fd5e7.png)
 
 3.3 重复浪涌
 
 SiC MOSFET体二极管成为电路中反并联二极管的研究被逐步报道，目前工艺技术的发展使得商用SiC MOSFET体二极管导通状态下的双极退化问题逐步得到改善，因此重复浪涌电流应力下栅氧化层退化成为其主要的失效机制。研究表明，当体二极管导通且Vgs\=0 V时，大部分电流流经SiC MOSFET体二极管，小部分电流流经沟道，静态测试显示Vth正漂，说明有电子被注入栅氧化层中。这源于当Vsd\>0且Vgs\=0时，栅极和SiCMOSFET表面沟道处存在电位差导致沟道被开启，流经沟道的电子因电场作用被注入栅氧化层中。图9 TCAD的仿真结果表明沟道区有大量电子流过，当关态栅压从0降至\-10 V时，沟道区和JFET区电场方向发生变化，栅氧化层在电场作用下从捕获电子变为捕获空穴，使得Vth在栅压为0 V时正漂，栅压为\-5 V和\-10 V时负漂；当关态栅压为\-3 V时，沟道处电场较弱，栅氧化层的电荷隧穿效应被减弱，因此Vth无显著漂移。Ron随着重复浪涌电流应力而持续增大，这是由重复热应力的封装退化引起的。除此之外，有研究表明非对称沟槽型器件受到重复浪涌应力后，即使Vgs为0 V，Vth也发生了负漂，但当栅压为负数时，Ron和Vth等其他电性能的退化趋势与平面型器件相似。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3y06lRWa5RNiboutqq5DEicdAAlCRaSDGZs44B4znIbavaGB8wLXdm8wA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_009_4e7dc4d8069a.png)
 
 4. 栅氧可靠性的提升方法
 
@@ -133,22 +133,22 @@ SiC MOSFET体二极管成为电路中反并联二极管的研究被逐步报道�
 
 4.1氮退火
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3OiacjYzshOCxotW2anv0sibyEBSEGlJsZzg0giay3iaWibOib9yh7VBxXM5w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_010_a95d92fbe413.png)
 
 氮( N )元素退火可显著降低SiC MOSFET的界面态密度，提升栅氧化层质量。图10显示N与SiC/SiO2界面处的悬挂键、C缺陷形成Si-N键和C-N键，减少了界面缺陷电荷，使得界面态密度显著降低。近年来，氮等离子体钝化技术因其较大的钝化覆盖范围而被用于降低SiC/SiO2界面态密度，Yang Chao等使用电子回旋共振ECR( electroncyclotron resonance )微波混合N和O等离子体后氧化退火SiC MOSFET，降低界面态密度至
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3OoaEHsVOCqiaxNEvtSThUjVgNEHIpiciczhNAqPicWbPKRS6ib7jUUdGj4Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_011_3f03ac36143a.png)
 
 ，但PBTS和NBTS显示迟滞效应仍大于N、O退火，并且近界面氧化层电荷仍然存在。此外，N退火在1 000~1 500℃高温中会引起界面缺陷的再生成，使得N元素对界面态密度的降低有一定的限制。Wang Menghua等使用超临界N2O流体( SCN2O )改善SiC/SiO2界面缺陷，经过SCN2O后氧化退火，界面态密度显著降低，栅氧化层临界电场相比N2O退火增加了18.19%，并且此工艺在120℃低温下进行，减少了因高温氧化退火中SiC/SiO2界面不稳定而产生的新缺陷。综上所述，N退火技术有效地提升了栅氧界面质量，提高了沟道迁移率和沟道电阻，然而近界面陷阱电荷的存在导致退火后SiC MOSFET的BTI效应依旧未得到显著改善，这对于提升SiC MOSFET栅氧长期可靠性仍具有一定的限制。除N元素退火提升SiC MOSFET的栅氧界面缺陷技术外，磷和硼元素掺杂也可显著降低器件界面态密度。Okamoto D等和Yano H等将器件置于POCI3环境中高温退火，使得导带边缘附近的界面态密度降至  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3jibMh6ODicpmyy7CgIWCbmiaUPMVPILJb6pX2SjN5hiblGVW67UfT5S6Cw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_012_2b242c3cb7f9.png)
 
   
 ，并且近界面陷阱密度对比N、O退火技术更低，但在高温、高栅压下的Vth漂移量更大，这源于更多的氧化层陷阱电荷的生成。而具有更小原子质量的硼元素，在通过钝化工艺降低SiC MOSFET栅氧界面陷阱密度的同时，能够降低与氧原子结合的强度，促进氧化物中的应力松弛，以增强栅氧质量。
 
 4.2 高k材料
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3rsTRMboemPGAWK075UMhVUHoH56V22F1tz4kpfzKE4svF0ubiaRaB2g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_013_e828442d094c.png)
 
 高k材料的使用可显著提升SiC MOSFET的栅氧可靠性。目前，改善SiC MOSFET栅氧化层常见的高k材料有Al2O3、HfO2和ZrO2等，图11表明这些常见的高k材料具有较大的禁带宽度，能与SiC带隙形成合适的能带排列，避免栅极泄漏电流的产生；较高的介电常数可显著降低栅氧化层电场，使得栅氧被击穿的风险大大降低，同时栅氧电场的降低可减小栅氧化层的厚度，减少成本，提升栅开关的速度。目前，使用高k材料的方法是将较薄的SiO2夹在高k材料和SiC之间形成复合栅氧化层，可将SiO2厚度减小至约10 nm；SiO2层也可作为界面屏障，可以减少高k材料与SiC因物理性质差异而形成的界面缺陷，同时能够减轻高k材料与SiC之间产生的泄漏电流，避免在高k/SiC界面发生化学反应。HfO2具有20~25的介电常数，尽管可以降低栅氧电场，但其能带带隙与SiC之间的势垒高度偏差较低，容易发生栅漏电流，造成栅氧化层退化，因此常用来与其他高k材料复合以减少栅漏电流效应。大多数高k材料的局限性在于400~700℃的制造过程中亚氧化物的形成，这种中间副产物被证明对SiC MOSFET栅氧可靠性是有害的，表现为栅泄漏电流增大。
 
@@ -164,10 +164,10 @@ SiC MOSFET体二极管成为电路中反并联二极管的研究被逐步报道�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_014_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_015_3ade3c3d8599.jpg)![](SiC_MOSFET_器件栅氧可靠性研究综述_images/img_016_84aa944feb13.jpg)

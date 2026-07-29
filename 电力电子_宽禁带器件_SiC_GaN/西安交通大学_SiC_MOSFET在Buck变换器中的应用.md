@@ -19,50 +19,50 @@ SiC MOSFET因其材料的特殊性对驱动电路的要求较高,通常应具备
 
 SiC MOSFET选取型号为SCT2080KE的功率器件，额定电压1200 V,额定电流40 A,通态等效电阻80毫欧,可在175 °C的高温下稳定运行。阈值电压低至2.8 V,且该器件具有负温度系数，即随着工作温度的升高阈值电压会随之下降。栅源极电压-6  ~ +22 V,只有电压高达18-20 V时开关才能完全导通。图1为SiC MOSFET的驱动电路图,ACPL-336J为SiC MOSFET专用的驱动隔离芯片，IX-DD609SI对驱动信号进行功率放大,控制功率器件的开通和关断。Vgs为正向导通电压,Vss为负向关断电压，Vg为栅极驱动电阻。为了给驱动电路的芯片ACPL-336J和IXDD609SI以及产生驱动信号的单片机供电，设计如图2所示的辅助电源电路,  220 V/50 Hz市电转换成电压等级较低的交流电，交流电正半波经过二极管D1整流,再通过三端稳  压管7818稳压滤波后得到+18 V直流电，给芯片IXDD609SI供电。+18 V的直流电再经过7805稳  压滤波后得到+5 V的直流电，给单片机和光耦隔离芯片ACPL-336J供电。交流电负半周经过二极管D2整流，再通过三端稳压管7905稳压滤波后得到-5 V直流电，提供功率器件的负压关断电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0T2ZhaHQPBeoOXn7FjkEOIqpUc6Do7m3AERuz6bGCa00QY6Ts0gey4Xw/640?wx_fmt=png&from=appmsg)驱动电路实质上就是对功率器件的输入电容充放电的过程，需要足够大的驱动电流满足输入电容的快速充放电，保证功率器件的快速开通和关断.光耦驱动芯片ACPL-336J实现控制弱电电路和主电路强电电路的隔离。如图3所示ACPL-336J的外围电路，供电+5 V,驱动信号经电阻R从2引脚VIN+输入,经过内部缓冲电路从4引脚输出，与7引脚相连接入光耦的输入端,1引脚和8引脚为驱动信号的数字地。该芯片双电源供电时,VCC2接+18V， VEE2接-5V,VE为正负电源的公共地,11引脚为该芯片的信号输出端,14引脚DE­SAT实现保护功能，通过电容和稳压二极管接地，经限流电阻接功率器件的漏极，二极管防止电流从主电路倒流入控制电路而毁坏驱动电路。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_000_7e938c42c720.png)驱动电路实质上就是对功率器件的输入电容充放电的过程，需要足够大的驱动电流满足输入电容的快速充放电，保证功率器件的快速开通和关断.光耦驱动芯片ACPL-336J实现控制弱电电路和主电路强电电路的隔离。如图3所示ACPL-336J的外围电路，供电+5 V,驱动信号经电阻R从2引脚VIN+输入,经过内部缓冲电路从4引脚输出，与7引脚相连接入光耦的输入端,1引脚和8引脚为驱动信号的数字地。该芯片双电源供电时,VCC2接+18V， VEE2接-5V,VE为正负电源的公共地,11引脚为该芯片的信号输出端,14引脚DE­SAT实现保护功能，通过电容和稳压二极管接地，经限流电阻接功率器件的漏极，二极管防止电流从主电路倒流入控制电路而毁坏驱动电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TiaibYnmmQeqibic1WW9I8YjA5GyibcacI3Je8Dg3GdFzJ1mlRhQnJ0AOsLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_001_dfde154c5241.png)
 
 芯片IXDD609SI实现对驱动信号的功率放大功能,外围电路如图4所示,1引脚和8引脚VCC接 + 18 V电源，通过电容C1和C2接地。驱动信号通过限流电阻从2引脚IN输入,4引脚和5引脚GND  接地,6弓I脚和7弓|脚输出栅极驱动PWM信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TpW7ydcW5g4zdHwkCQnp2DuRfk8UyHXTIfXic78iciaibcWyVviabnhzRaTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_002_2c72f794eb09.png)
 
 SiC MOSFET在实际工作中频率高，漏极电压变化率大,栅极会产生串扰电压，串扰尖峰超过栅极阈值电压，导致开关误导通,增加系统损耗降低工作效率，甚至烧毁功率器件。如图5所示栅极驱动采取开通和关断回路置于不同回路中,导通时栅极驱动电阻为Rg,关断时漏极电流通过结电容Cgd使得二极管VD2导通,此时驱动电阻减小为Rg/3,  从而减小了关断损耗。D1和D2为栅极钳位保护电路，防止栅极驱动电压超过SiC MOSFET的阈值电压，引起误导通而导致器件损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TRzkPn2TgCch5pvJnxSqHna9uS2yNDGoZibScbCVJ3fKDJFd7IiaNkxZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_003_f485897092cf.png)
 
 **2开关特性**
 
 利用如图6 (a)所示的双脉冲电路测试SiC  MOSFE开关特性，图中VI和V2为SiC MOSFE SCT2080KE.V1处于常闭状态,Rg为驱动电阻,  Udc取开关器件耐压值的一半。图6(b)所示的双脉冲驱动波形，宽脉冲时电感和V2构成回路,漏源极电流快速上升如图6 (c)所示。宽脉冲结束后V2关断，电感通过VI的体二极管续流。窄脉冲时V2再次开通,VI的体二极管恢复反向截止状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TvHVZ7EuIXBwnGDCTVXZTUeeekYg0Lj5uh9FPJic9hflyV3ohPQBSloA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_004_3ac12fabdb82.png)
 
 **3驱动电阻**
 
 驱动电阻Rg的大小影响开关速度及开关损耗。功率器件栅极驱动电阻由两部分组成,一部分是内部栅极电阻,另外一部分是外部栅极电阻，驱动电阻的大小即要满足器件的快速性，又要满足电流/  电压震荡小。功率器件开关过程其实就是对栅极输入电容的充放电过程。驱动电阻小充放电时间常数RC小，开关速度快,但驱动电阻太小就会产生较大的电流/电压变化率，导致器件误导通或损坏。驱动电阻大充放电时间常数大,降低开关速度，增加开关  损耗，减少电压/电流震荡。为了使系统在稳定的情况下具有较好的开关特性，因此选择合适的栅极驱动电阻非常重要期。图7为不同的Rg对应的开关波形，从图中可知驱动电阻越小，开关时间越短，开关速度越快，开关损耗越小,但震荡越大。因此选择5欧的栅极驱动电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TFIjL1LzytOPkRRmAgiap0h7hNmQZ1R7caTlyOJ91WfkYQepQebrB1yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_005_ac4662b7b40e.png)
 
 **4实验验证**
 
 搭建如图8(a)所示的Buck电路,VI和V2为SiC MOSFET SCT2080KE 或 Si IGBT IKW08T120，电压Udc为100 V,电感L为4mH,电容C为30 uF,负载R为1k欧。功率器件V2处于常闭状态，驱动信号由单片STM32F407ZG产生频率为100 kHz,占空比为0.5的PWM。经驱动电路得到-5 ~ +18 V的  栅极驱动信号如图8(b)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TFRicIIsTadbjFNic4fsbfX58Tr9Tubd1YoRZ26PrzIm8p1N7nepICGIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_006_0793c4cb8200.png)
 
 表1开关频率为100 kHz,输入电压为100 V,  负载电阻为1k欧,不同占空比SCT2080KE和IKW08T120对应的负载电压,从实验结果可知占空比为0.5左右时，负载电压误差最小,SCT2080KE比IKW08T120控制的Buck电路负载电压误差更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TWh3crPSbcmzbS4xljNJzJItFzoeD56ibHiaLHZx4JjQWETMX6CDDt3gA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_007_de617702fa84.png)
 
 功率器件的结温影响开关器件的寿命与可靠性。表2所示开关频率为100 kHz时测量不同输入电压功率器件的壳温，表3所示输入电压为100 V时测量不同开关频率功率器件的壳温。从结果可知SCT2080KE的壳温低于IKW08T120的壳温，表明SCT2080KE比IKW08T120的开关损耗小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TwhpsbYeMZ2G1A6icfGibX9nS6dXNf0N39V1YbTsonrr0u6Fr3bh8bCcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_008_0d01cf81fa3f.png)
 
 **5结论**
 
 该文设计了一种适合SCT2080KE的驱动电路,  利用仿真软件测试功率器件的开关特性以及驱动电阻对开关特性的影响。最后搭建了 Buck实验电路,  分别用SCT2080KE和IKW08T120对电路的性能进行测试，对比不同占空比的负载电压大小，以及不同  输入电压和开关频率SCT2080KE和IKW08T120的壳温。实验结果表明SCT2080KE比IKW08T120输出负载电压更接近理想值，壳温更低，开关损耗更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0TuHGYvRfw8icPlCBiadLvAjp75PyLepKozibcrb2P8u4WbpgRoxcuEA0rw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_009_50c793d5ff92.png)
 
 **声明：**此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyRaeD6IzU8icHA9w1Ogd0Tc1NgYW5F4d7ZBkKMhoHsEEbm6yzNr06sorLRiahUiaJw9jDX41ccmyBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOSFET在Buck变换器中的应用_images\img_010_b3d5208eb450.png)

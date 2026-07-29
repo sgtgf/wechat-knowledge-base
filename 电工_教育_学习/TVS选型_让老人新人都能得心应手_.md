@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/tGxRKz6VNHXCI6jQXG1icglfLdiaVX62icnvdsTm6LsXzh40YB6f0W40u79eS1ljGmUtq8whzHlRibT1WicgATBqIBw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS选型_让老人新人都能得心应手__images\img_002_b0babab40a1a.jpg)
 
   
 
@@ -34,7 +34,7 @@ TVS（Transient Voltage Suppressors），即瞬态电压抑制器，又称雪崩
 
   
 
-   ![](https://mmbiz.qpic.cn/mmbiz_png/gdO36QrJjujhJiaknZAjcfqyZu0aMKXd7IYsvbCcUYq3S0E6x27uYRZQclkcrSurwTV69qShpic2UI1ZmibmNVPSQ/640?wx_fmt=png)  
+   ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS选型_让老人新人都能得心应手__images\img_003_898fc1cc71d1.png)  
 
 图1 ：TVS工作原理
 
@@ -66,11 +66,11 @@ TVS 的最高工作电压，**可连续施加而不引起 TVS 劣化或损坏的
 
 结电容是TVS中的寄生电容，在高速IO端口保护需要重点关注，**过大的结电容可能会影响信号的质量。**漏电流主要带来了功率的损耗，**或者是在模拟信号中，会影响AD信号的采样值。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/gdO36QrJjujhJiaknZAjcfqyZu0aMKXd79kdGDyzc1EAyLjXr0vWkTINo7TUtHspm3cNlnw3JDuZUz0KRIM1mDA/640?wx_fmt=jpeg)**
+**![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS选型_让老人新人都能得心应手__images\img_004_900f2337e0e4.jpg)**
 
 **图2 ：厂家一般都是提供10/1000μs的测试波形**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/gdO36QrJjujhJiaknZAjcfqyZu0aMKXd7jFJyNHV7PESgJFFWKibROnwOM7icpJ42RQkT9nOkicIkAv5Ga4iceZO72w/640?wx_fmt=jpeg)**
+**![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS选型_让老人新人都能得心应手__images\img_005_840f43185232.jpg)**
 
 ****图3 ：TVS的关键参数****
 
@@ -148,7 +148,7 @@ TVS 要通过测试，故实际电路中要求 10/1000μs 波形下 TVS 的最�
 
 电路的正常工作电压VCC是24V，最高工作电压Vmax是26V,后级电路可承受的最高瞬态电压为50V，实验的测试波形为 8/20μs波形，测试电压500V，测试电源内阻及PPTC的静态电阻合计为2Ω。根据上述信息选择合适的TVS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gdO36QrJjujhJiaknZAjcfqyZu0aMKXd74LA5p907Sv4oHVyKU9gibEPicRicBYwKKFjC2dK6z6TwxD2TFia4mLHCiaw/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS选型_让老人新人都能得心应手__images\img_006_154f90de0086.jpg)  
 
 ****图4：设计举例****
 
@@ -174,7 +174,7 @@ Pact=50\*（500/2）\*1/3=4166W
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gdO36QrJjujhJiaknZAjcfqyZu0aMKXd7dLbuAXFt3NaIsczEZZWwDBibYsYjcZMQPysAwIAe0ibnTrIFicxXmGmsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS选型_让老人新人都能得心应手__images\img_007_5fc13e35fed2.png)
 
 **图5 ：****5.0SMDJ26A TVS关键参数**
 

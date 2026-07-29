@@ -46,7 +46,7 @@
 
 以下两个表可以参考：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOl1mO3HHDgib1EibDmXkadFWgIlxDw6PywLrUwnmfa1aJYYDicy7EaIcPichucvXj1bXJNDmYukzibhViaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB上走100A电流的方法_images/img_002_ff3864a592b4.png)
 
   
 
@@ -100,7 +100,7 @@
 
 附铜排载流能力表：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOl1mO3HHDgib1EibDmXkadFWgFz3lZP1A1kkxvrlP1E251pX9VaIahXxJJsQhcMTEiaVFR5aafsBEF1g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB上走100A电流的方法_images/img_003_b1dd385fd53d.png)
 
   
 

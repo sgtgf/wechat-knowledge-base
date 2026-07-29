@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2ejRZEjvyVMYOwJTjQxVTQ](https://mp.weixin.qq.com/s/2ejRZEjvyVMYOwJTjQxVTQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScRicFDBt1vuxbMzrk0Msuo3Kx5aicZdibBc2k2CTcN2zjEU6ygqXwDsJDM7JVWNmmL9alncCQIN0Vw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_000_25309aa4a60f.png)
 
 ____**____**____**____**★★★**____**____**____**__________________BMS-1---系统组成__________________**____**____**____**★★★**____**____**____**____
 
@@ -19,19 +19,19 @@ ____________€2.BMS的组成____________
 
 BMS需要实现3个不同的功能：电池SOC/SOH监测，电芯状态监测和均衡，电池功率路径管理，所以无论是分布式BMS还是集中式BMS，如**_图1-1_**所示。都包含三个子模块：多个电芯监控单元（Cell Supervis7ion unit---CSU，从控），一个电池管理控制单元（BCU主控），也叫电池监控控制器，一个电池开关单元（BDU），也叫电池接线盒，这三个模块用来实现上述三个功能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaibGoyunNfHOBo9ZKicXHtrIRHlVXltSpZJnEO0DGO4HXicWVUgaq8JGLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_001_a00df5412c43.png)
 
 **_图1-1：典型的BMS架构_**
 
 **_图1-2_**给出了一种环形菊花链拓扑结构的高压电池包BMS示例，其中BJB部分区别于**_图1-1_**，采用了智能接线盒设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaeZwZwR1yUGEaMs8d9YTzzsTdLAksBxURHptKazLVDmLEMMb5EicBiaUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_002_e45e21c59db4.png)
 
 **_图1-2：环形菊花链拓扑的高压电池包BMS_**
 
 这些子系统具有不同的行业名称，如**_表1-1_**中所列：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScRicFDBt1vuxbMzrk0Msuo0GsG5fardA72RFLp0xZ4n4zKDgYiad5J9ntPTTy8icKjhN4KHzQicrfjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_003_a5a2d543e025.png)
 
 **_表1-1：BMS 子系统在业内的常见首字母缩写词_**
 
@@ -45,7 +45,7 @@ _集中式_
 
 集中式就是将整个BMS设计在一个PCBA内，引出导线连接接到各个电芯上，如**_图1-3_**所示，如果是36串电池，就需要两枚支持18串的电池管理芯片，串数越多，所需芯片也越多，由于功能集成在一起，接线会更加复杂和冗长。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiare1JA91OVSsibrlxN8BSrpYRjuibzJXdxFjoKlBRzZgTOcbDn3J8vQOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_004_d48aa6ea85e2.png)
 
 **_图1-3：集中式BMS_**
 
@@ -53,7 +53,7 @@ _集中式_
 
 _半集中式（_模块式_）_
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaNYJOoQlcMBkLQHJcZ5KljJ8YlsVP61m7xLXRUn7UcfYFkxz1micxMDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_005_724c74c88460.png)
 
 **_图1-4：半集中--->模块式BMS_**
 
@@ -71,7 +71,7 @@ _半集中式（主从式）_
 
 如**_图1-5_**所示，主从式BMS把模块按照主从功能不同分开，将从模块用不到的功能去掉，减少成本。主BMS负责的功能相对较多，有计算，预测，决策，通信等，从单元基本上就是只负责测量。这样可以说是继承了大部分模块式结构的优点，同时还减少了扩展的成本。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaMbib2v7qPmIGYkxib6pq7XswWH2JzLjlqbcf3KaicUstg0GdLMLOqwjbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_006_aa2f45950ba0.png)
 
 **_图1-5：半集中--->主从式BMS_**
 
@@ -79,11 +79,11 @@ _分布式_
 
 在集中式和半集中式拓扑结构中，各种电子器件都不会安装在单体电芯上，基本上都是通过引线过去测量。但在分布式系统中，如**_图1-6_**所示，CSU测量单元和其他的电子设备直接安装到和单体电芯一体的电路板中，这样的好处是，与前边几个相比，BMS与单体电芯之间基本没有引线，然后和主从式相似的是它也会有一个控制器来负责运算，预测，决策等工作。模块之间基于总线进行通讯，在汽车上一般用CAN总线。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaAzP5GL9lT5iaiaXcgn2dDabASFcibtkas4nLU2aYOTLZdIWBFRr9RVEHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_007_0a816f929938.png)
 
 **_图1-6：分布式BMS_**
 
-分布式的优势有很多：首先就是拥有极高的扩展性，可以精细到单体电芯的扩展。其次是连接可靠性高，基本没有什么过长的线缆，电芯和测量电路结合紧密，也减小了干扰和误差，安全性也很高，同时也易于维护，局部损坏只需要更换一个很小的单元。**_表1-2_**总结了三种结构的优缺点。![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia6KKbpPA4ZVb7pd7fuYwu5IR1kUv6wJb4O41I8zAibcBUN6jQXicVSXGQ/640?wx_fmt=png&from=appmsg)
+分布式的优势有很多：首先就是拥有极高的扩展性，可以精细到单体电芯的扩展。其次是连接可靠性高，基本没有什么过长的线缆，电芯和测量电路结合紧密，也减小了干扰和误差，安全性也很高，同时也易于维护，局部损坏只需要更换一个很小的单元。**_表1-2_**总结了三种结构的优缺点。![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_1_基本系统组成_images\img_008_64fee1729850.png)
 
 **_表1-2：三种BMS样式对比_**
 

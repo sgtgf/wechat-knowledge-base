@@ -10,13 +10,13 @@
 
 1、AC24V接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25DHqynMOZDDaiagjpas3bvQCMajzqe3uBPhwv2UKFjPNZy2hQNKIK7Qw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_002_88b5041a1fbb.jpg)
 
   
 
 2、AC110V-220VEMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25K6BGJib1knVngD4MEMK3icbLIiaOHibZAKicumlBqx99UROOibpthdDRT1kA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_003_fcee6d52c19f.jpg)
 
   
 
@@ -24,49 +24,49 @@
 
 3、AC380V接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25Bh2pQyaYYpteSdeON21GPA957DXT3CJ4lXn2Y6pXpEZRGDwZGvoSicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_004_7bafa385e799.jpg)
 
   
 
 4、AV接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25tXwcAA1mGqtMfoZ6AHfIGhYtYvbTVvP7zA5yF7daXWVAUFkRHAQ5fQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_005_b83e22e44029.jpg)
 
   
 
 5、CAN接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25gCUttlOQlPic3kwjRpf1fzvIDRBP2VKrjWEBOBK6CN2pGBibutibduyTg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_006_c58df25ff468.jpg)
 
   
 
 6、DC12V接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25y0EGicczBZMB6AP3uZ6RLP8zYYbIpussG649B2NF2rPRweb9GsAicicXw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_007_51359a50b3a2.jpg)
 
   
 
 7、DC24V接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25DPDicDlwj94sl6POicSI2SicN1rdPaoEe66AcZqhxIJle1CSPMTdCZ8YA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_008_abfd06e38a85.jpg)
 
   
 
 8、DC48接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25iag35RjGNdO1CiaqxDU2DVSBlYYUp6palIf5OOWZ8S1Xyxz4PkxOs5ew/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_009_d43e39ec37eb.jpg)
 
   
 
 9、DC110V接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy2584gc733t5bPsmrgicVXYnRz6O7qBEXu0HUrpFiaXG5Eh8Y7jXAPMQOmw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_010_f76f17e17477.jpg)
 
   
 
 10、DVI EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25CxO90XHLj29Vea2icPiaugTFCmZILUZmUjqKn526cqVqkZrYTPrawfkQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_011_bd7c11f9bc5b.jpg)
 
   
 
@@ -74,19 +74,19 @@
 
 11、HDMI接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25438aqf1icdwzU7lOPueJFkjkEwkZficywtjQ8CqVBwhBhrpA86U10JBw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_012_4db77cb862bb.jpg)
 
   
 
 12、LVDS接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25hNAlbdKbyckP3o7yMwYagRWD1nFQ97OsBGyicib4ywZtJaEghU6PqMtw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_013_adff5d3e0dab.jpg)
 
   
 
 13、PS2接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25dicyvxoB5nJiaia3sUhRtnfqIFeqg7sNEkial2FMhSIjwxfdyXpJ6NPfIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_014_4253e0e3dfe5.jpg)
 
   
 
@@ -94,7 +94,7 @@
 
 14、RJ11EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25yqhFXkkdWdO2Mz0CXC3TcXEmiaVsQgrHAGJQ3diaXUFibAzQsc45jcicnA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_015_c0b4c90731ac.jpg)
 
   
 
@@ -102,25 +102,25 @@
 
 15、RS232 EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25NVK4Q51vX0vowhcSyic2t4wb3iayrS3GouO1VE45Cm6l8gd0sptKU16g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_016_da72e82c6e3e.jpg)
 
   
 
 16、RS485EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25VUkPxWCvfXEiaFuKZzSOYRJ2DfjLSFj9yVNAB6PbKibzFMgYHyAAic8IQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_017_8fdb09b3d504.jpg)
 
   
 
 17、SCART接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25rcaM4sVNRUcNCvj0ibwBFA3QNogRchawZkzt9ARIIjFW9ag5Xrb9a8A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_018_46fc996a18b1.jpg)
 
   
 
 18、s-video接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25bFulaHF2H6XmcQibufhRvcJ6bqjj6tQ930lzMwZYMvsMIF55GLWcA4A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_019_3764393366c6.jpg)
 
   
 
@@ -128,85 +128,85 @@
 
 19、USB DEVICE EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25NjeunEm7zHOICo8JCGm90n6K1H4qS0rfTZu3uxfibwoSXMibmExyiaiaaQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_020_a6ec69ac54f9.jpg)
 
   
 
 20、USB2.0接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25D8KVsHKEIFlDOzNJMCIbI9HU98hOQiccdhajHH3rXCtZcbuOO5r9SPg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_021_a7d58785d11b.jpg)
 
   
 
 21、USB3.0接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25GdBTKpXfFib7ZSKKVnkKV8fuSMYg0o6ics7MB3mLuNKq4IqZRlw4jnUA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_022_c33cb37c9526.jpg)
 
   
 
 22、VGA接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy253zUUEibdtM9Fwsm105nH4MNO7zNBkApB0ggp6x4IIl8tYQdZ7GMczhQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_023_b4f161de2bf8.jpg)
 
   
 
 23、差分时钟EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25An7icsrghib7pJxUDu0tQwcdH24icwbK8xULDFPf8KxPbpAbblv8GCPvw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_024_e6a2299d9d10.jpg)
 
   
 
 24、耳机接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25YvDglzGhCDSSVnQUjM9lSjyicILhmCsjg4LEbVmu6My6bjj5nhkb5sw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_025_f6c77b00b8a4.jpg)
 
   
 
 25、复合视频接口EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25l84HwibbbiburDzjzmdjnpOfUP7Co2jTI7hcWUD0Af9822CicmunTWWGA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_026_707f716f0729.jpg)
 
   
 
 26、汽车零部件电源口EMC标准设计电路  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25HPBiaEA3rcupdlAaQt4ic2mF3lib3IQwmVhCIJ1w3EPUYfwfDKKaklSjg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_027_db9b32f4accf.jpg)
 
   
 
 27、室内外天馈浪涌设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25RgP8ESticVDW12heS6ibVe8tKXOet8MbvgEoa3Cxo9M759jrv0ZdL7Zg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_028_3d08261eeb1a.jpg)
 
   
 
 28、无源晶振EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25NXcFnsEDDnroWbz10OiaqMg5PISasxZEGkE7B8xrPibnylWzJdYNYMUQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_029_11b08333b4ba.jpg)
 
   
 
 29、有源晶振EMC设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25ZJR5w9ohibZicQRnCzsWwYCrQK2nR3FrdDKkNbDDKOPJ2bv8GVGS13Mw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_030_559fc2ba2b24.jpg)
 
   
 
 30、以太网EMC(EMI)设计标准电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy250d7BibrHBPzmJaicVHKZcf3UvU3J5d6lJcPhYws3ib28pic4icetC4vCUyw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_031_052a4163dedf.jpg)
 
   
 
 31、以太网EMC（浪涌）设计标准电路(差模要求较高方案）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25ibkTkQzNFq2pEEH8wRtzd8bGo3WXOtBqr2C7HTDwb4lTiba54jfJLP8g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_032_a29ce94b84c1.jpg)
 
   
 
 32、以太网EMC(浪涌）中心抽头方案（节约空间）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia8XXwdAW6eVhPdCQjjsy25Y6znkn9vPdFUhgpGa4nWKmEsc2lkK06oSeCJ8Ll4hjqaJsRjv68u7w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_干货_32个EMC标准电路分享__images\img_033_719cb6e34565.jpg)
 
   
 

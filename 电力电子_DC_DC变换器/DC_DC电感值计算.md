@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygnMfribBQ3qBHVP9220xtBReaWBfVOIYfY7x8MiceiaB8FUiaKUBMHOzLdA/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](DC_DC电感值计算_images/img_002_75b58def6d4c.png)
 
 图15-1：Q1导通时的电流环路
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygUBhibyibvpNT6RaD4MLibBoYmRqoEhysBeVq0u42Z1nyWRvvib8hwTPpnw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](DC_DC电感值计算_images/img_003_9f26bd414c44.png)
 
 图15-2：Q2关断时的电流环路
 
@@ -54,13 +54,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJyg5nZ9fbzjJoUlZwRpMsiap1ttlpDqR0IGjQcOnBcpCaYhS0iaLUu8RV6Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_004_f60ed9fcd0e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygfuwDib2JzoyRKfkV0qFpbrww6S4n6EhkBHAMoKGvo1fJy7jokkBZFQA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_005_ef699b9682c6.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygvTKRd4XkoJvIPvg6gAtHZPtQHxVsWiapujIz7Q4EscrrBwHaDO4qbRw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_006_b67fed633a85.png)
 
 图15-3：流经电感L的电流波形
 
@@ -70,7 +70,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJyg2lzUZ3NRJfHrXUcB3RB05k7NYiaHfvVdNgVED3zqyFMiamL1jVNU9YLA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_007_aa248512f7ad.png)
 
   
 
@@ -82,7 +82,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygEXMUXJGV0icqgl6KnRddZstooHpB7Z6GV4fzEq94iav4ertWHjmn3pCg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_008_2c432a5fabf4.png)
 
   
 
@@ -90,7 +90,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJyg7hicYTm9lBNKDGW6ATLKBT2y4NpgDCSkG3pQ3gfSMHyv4X51yjTuZsA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_009_58cdffea3cc4.png)
 
   
 
@@ -98,7 +98,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygwyxstGyXZaJpQGjSZSxk0AD4eoMI8MLaD56EaeupYUfwMRFcichaV1w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_010_59b694d7525f.png)
 
   
 
@@ -110,7 +110,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygFpb7w8Vl4javp1YIdOZaTC2ibB0nwGz5t9sNgG2n07Yibvrl76YPZoNQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_011_f853701d1795.png)
 
   
 
@@ -118,7 +118,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygPZukjy4LS4uVvM2y0pViaEcZl3DZa04CZXckocWrP52r2bVFJmFMhWg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\DC_DC电感值计算_images\img_002_65f5eadf9946.png)
 
   
 
@@ -126,7 +126,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygMesicibZpLXw9HoCs4qWFfdic2kxnAbJSEqtWYzklTmZy8WOnlAYh2gKA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_013_755c920720db.png)
 
   
 
@@ -134,7 +134,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygf3HnU4533dXMDkBPYEdz4VSUGjlYuXDtGdjH3pGg4tgOKWYksLjTtw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_014_4e3a4a83695a.png)
 
   
 
@@ -152,7 +152,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygib0iatd79O7TDABwQ8jJjh7ibTc5dNFVrmRQyIdBP6ZORiap7j1dS5RJEw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_015_ff8854ba0988.png)
 
   
 
@@ -160,7 +160,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygpxsrs8nN7RGtZz8L4ZMMl7DhFnCByQjic5SWVvQLoqI2nhOWric163Fg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_016_efb3f589c0ca.png)
 
   
 
@@ -168,7 +168,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEd82ZEnBDiaKVIy73icpqJygtcnP17Mja606riaqGibdxnneAqaMwoGFiawP9pUyoERLzT0PEjOMXwy5w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_017_a860e65a4594.png)
 
   
 
@@ -186,7 +186,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4nAMTnILzCWVsZSFT2lp36L8qcxV994Hp4mmhDfzG5ynI9icWBstGiblQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_018_259b4f45eb80.png)
 
   
 
@@ -194,7 +194,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4tefHdtlzf7Yjuxco7n3LZCHDcR5iaByU0u5VacqqXkOTicOFuv33earw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_019_10ca4fa84791.png)
 
   
 
@@ -202,7 +202,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4JaV9YXt2esjb1EnIxEbCTkEQ0ct4JRgmm60rx2HcwdnXOwLkerXdbg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_020_b7ade0ad0149.png)
 
   
 
@@ -210,7 +210,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI45QUiayVomCSmYmKRdI4T4p9lFKr9YpgHXad3pPCQEPeoWl2sIxG6qfQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_021_caf2520acc5b.png)
 
   
 
@@ -232,7 +232,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4QkslvokNGia8usIAseET4M9xDmticJ8EciagGFE1PzH1cAhehH8lZBVhg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_022_c141e22c64da.png)
 
   
 
@@ -240,7 +240,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI44s1x0O79E5Y7dq125tJJ4UaWqMdicK7Nicx9uWwZuIKTiaKiaBEthj3Jpg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_023_36583342b98f.png)
 
   
 
@@ -248,7 +248,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4MSutF5sYE9LEMEo14TqgiaPMznPwrUu8ZQSFzkyrNUdG1GXjMKNxKZA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_024_b591a2ce291e.png)
 
   
 
@@ -256,7 +256,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI49IicytXtcdd2mm9N2rqpyibtzu0l6xV9YJRl7Yibv84TEOQNCZyDbibrlQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_025_9e90db2ce1d5.png)
 
   
 
@@ -278,7 +278,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4eKsWp4l5BSl9sul9dSgicrb6s9ibicsT3iaISGiccicSNFrpuh5OMCTN8ibIw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_026_e9c45bc69214.png)
 
   
 
@@ -300,7 +300,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4JCSAUUJTPQgldzat4UI6jMI6uYospt1jgibbfhwPgapD1OaQenE28yw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_027_237434c377d4.png)
 
   
 
@@ -308,7 +308,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4q9rwEskhHwvmNmNVl2nNGALWIXd2LHKFf3fXicoL2icTQfwSHT41ictKw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_028_dd3e41045085.png)
 
   
 
@@ -346,7 +346,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4icvaYzQKUzFfXSnfSyTxiaMkv0VZbGfuO3WG1b6iakA6uIGHYh0wc2HVw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_029_27197ae89e0a.png)
 
   
 
@@ -354,7 +354,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4FiafibN6ficto6xx3nFZMiaWWrfFMjL8eq7iaeZlokF0Lib9YicAhaxAzodtA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_030_97d8c1f7e02e.png)
 
   
 
@@ -362,7 +362,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4xQUEkr4PNdqAaxviadwet6oDfU0RXLnCYPPpryd1rytdeicrqyATEAWA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_031_a766352eaf55.png)
 
   
 
@@ -370,7 +370,7 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4LTuRUkXzwXmJtUWl0SPz6uicLqI1I56CTk3YytxjXicZNicQfAHMzaVtQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_032_caf9b68197ee.png)
 
   
 
@@ -378,19 +378,19 @@ On Duty是相对于开关振荡周期Tsw，开关器件的导通时间的比率�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4AK1ZvCObalqs4QtCcGpKBjBQ0EJe9KxQ7n8pof2MBSG5CEHZxvf1wg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_033_4831428bae4b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHzP6EiamoVgHKGWCOmzmhI4WXb39F809jAyB06snEd0gLRnJzSbJSkssUVdn6eUic8n6HQ3icKIO46A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电感值计算_images/img_034_e7d7ad97384b.png)
 
   
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](DC_DC电感值计算_images/img_035_2e84b7ba26c6.gif) ![](DC_DC电感值计算_images/img_036_51d069a6484e.gif) ![](DC_DC电感值计算_images/img_037_5fb296583be4.gif) ![](DC_DC电感值计算_images/img_038_1f30148044c0.gif) ![](DC_DC电感值计算_images/img_039_c5bc86d0867d.gif) ![](DC_DC电感值计算_images/img_040_b38438d4de46.gif) ![](DC_DC电感值计算_images/img_041_1d54e9fe0aef.gif) ![](DC_DC电感值计算_images/img_042_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](DC_DC电感值计算_images/img_043_de88c48250d0.gif) ![](DC_DC电感值计算_images/img_044_3b83df2d253b.gif) ![](DC_DC电感值计算_images/img_045_db521919e8d9.gif) ![](DC_DC电感值计算_images/img_046_aea384ea417e.gif) ![](DC_DC电感值计算_images/img_047_f4924e7a240a.gif) ![](DC_DC电感值计算_images/img_048_a58db91dbb3b.gif) ![](DC_DC电感值计算_images/img_049_f0edc68b0c53.gif) ![](DC_DC电感值计算_images/img_050_3c93e54afedf.gif)
 
 ## 
 

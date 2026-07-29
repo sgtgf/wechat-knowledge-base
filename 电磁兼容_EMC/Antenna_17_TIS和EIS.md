@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ID\_fA2AaUntQ6X4BrIWN\_Q](https://mp.weixin.qq.com/s/ID_fA2AaUntQ6X4BrIWN_Q)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FnSCBqnzmjKwcUbUBFoA80kxYs0N1ONj63CxSF1XlKzGIFJrjgiaib33XN7B6BibrsdDdxKONshp21aJhnUbvhZfL5X6H87yYnWkJPaEY7z0tc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_17_TIS和EIS_images\img_000_eaba6f4d16a5.png)
 
 _
 
@@ -27,15 +27,15 @@ _总各向同性灵敏度_
 
 _总各向同性灵敏度TIS衡量的是接收机-天线系统在整个三维球面上的平均灵敏度，该结果与天线的辐射方向图密切相关。为了确定TIS，将被测系统（接收机/天线组件）放置在电波暗室中，_利用暗室天线向待测系统发射信号。逐渐降低发射功率，直至误码率BER达到阈值。假设我们对固定角度θ（θ1，ф1）和固定极化方式（例如φθ）进行此操作，我们得到的是该特定角度和极化方式下的_有效各向同性灵敏度_EIS，可表示为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTmnDTKWaBswMndXLxa5JUw5bn9TiaDibNEuDTBvOVo0icGkibf4RstSdWIEWXJDcwODz7EsvFS58ojBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_17_TIS和EIS_images\img_001_413923b40180.png)
 
 EIS的单位与灵敏度的单位相同（以dBm为单位），为了确定总各向同性灵敏度，我们还需要测量极化的phi分量，对于该特定角度，其表达式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTmnDTKWaBswMndXLxa5JUwqW5l0CeY4TKdQpo70uic7KCKqDHmQKiaCQQ1LEicria2pmyePkL2zQSNGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_17_TIS和EIS_images\img_002_679cdb90a1ab.png)
 
 总各向同性灵敏度是EIS分量在整个角度范围内的平均值：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTmnDTKWaBswMndXLxa5JUwbAOAFRHtphFibtAUWCYR1kS6RlmzS8uVnOWJzr2XnPibRwtueKIFFkGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_17_TIS和EIS_images\img_003_512b6247ee28.png)
 
 公式中的平均值可能看起来有点奇怪，仔细思考一下就能明白。由于EIS值必须非常小才能对积分产生贡献，我们需要像1/EIS这样的项来参与积分。如果我们直接在球面上积分而不取倒数，那么灵敏度很差（值很高）的角度将主导积分结果。因此，需要对公式进行反转，以便对较小的数值（灵敏度高）赋予正确的权重。
 
@@ -49,7 +49,7 @@ EIS是有效各向同性灵敏度的缩写，在天线测量中，在单一方�
 
 如果已知天线的最小EIS和方向性D，则有以下公式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTmnDTKWaBswMndXLxa5JUwzUVAKdhkwlaKibCzexXFsxBfH9FKq4yGyLxY7tjGDbyLYsZAygId9ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_17_TIS和EIS_images\img_004_c0acc1499c5a.png)
 
 这样，如果预先知道天线的方向性和峰值角度，则可以利用上述公式大幅缩短测量时间，这对于灵敏度测量尤为重要，因为灵敏度测量耗时远大于功率测量。
 

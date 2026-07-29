@@ -15,9 +15,9 @@
 
 **关键词：**碳化硅，MOSFET，非钳位感性负载开关，深槽 P+源极，栅氧可靠性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAGzOibSr2XIj241gHryr1ey7k7BIfZHUaolx8W1rtyD1NkAZchW1bOHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_000_73d4fa5a3389.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMARM7wYibM7rPGFb02ur6KmQKyialaaFvbrpukhPE6H9SJEJoiaMYz1BLLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_001_a647b5fe7729.png)
 
 **第一章 绪论**
 
@@ -29,11 +29,11 @@
 
 碳化硅作为一种宽带隙半导体，意味着价带和导带之间的能隙比其他半导体材料（如，硅或砷化镓）更宽。4H-SiC 的带隙约为 3.26eV，几乎是硅的 3 倍。本征载流子浓度可根据温度 T、能带间隙 EG和价带导带的态密度表达为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAtODCn3RuZ7UHqnEF46YD6M7f2RN9ibpBlSsxbSDGPdnnKxZeziciaFv6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_002_6b0fed185d2d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMACkd8XneRsqGDJAzgGZ11icx5sa8H98sV0wGviahnNjBMsyYEOyThjZCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_003_9ae68ae32f6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMARUFcLFO7e9bYgKxtb6znAOYrjvc1uZ41Du0XribuBrekvFbsVjfvOSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_004_9782d8d34e5a.png)
 
 **1.2 国内外 SiC MOSFET 器件的研究现状**
 
@@ -41,7 +41,7 @@
 
 1997 年，美国普渡大学的 J.N. Shenoy 研究团队报道了首例平面型 6H-SiC MOSFET，平面型 MOSFET 器件元胞横截面结构如图 1-1 所示\[13\]。由于 SiC 材料的低扩散系数，SiC MOSFET 舍弃了 Si MOSFET 器件制备中常用的垂直双扩散技术，采用了高能离子注入法依次形成 P-Body 区和源极接触，器件的击穿电压为760V，比导通电阻为 66mΩ·cm2。器件为垂直结构，该结构具有垂直于器件表面的导电路径，漏极位于背面衬底，表面只有源极和栅极，漏极与栅源极分别处于两端的结构有效地减小了表面布线扰乱的风险。SiC MOSFET 器件的击穿电压与漂移区浓度和厚度相关，当低掺杂漂移区比较厚时，器件能够承受较高耐压。由于MOSFET 器件为多数载流子导电，SiC MOSFET 的导通电阻随温度增加而增加，故一般不考虑存在二次击穿的情况。正向导通时，为了获得合理的阈值电压，P-Body 区的掺杂浓度应该很低。然而，较低的基区掺杂会致使器件 P-Body 区穿通而不能承受高反向耐压值。因此，需要合理设计 P-Body 区域的掺杂浓度和剂量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAMIt74vu3ibxGXVxR0BdPjDNebPxBcEBDenGYQuGGLEqQZyHpjn1Yia1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_005_2f9556e221c3.png)
 
 然而，功率 SiC MOSFET 也存在一些问题，其中最为关键的是氧化物/半导体界面质量非常差，SiC/SiO2的界面电荷比 Si/SiO2大约高两个数量级，这导致低沟道迁移率和器件的栅氧化层可靠性等问题。此外，栅极氧化物受到的高电场也是 SiC MOSFET 结构面临的一个重要问题，由于碳化硅的介电常数约为二氧化硅的三倍，因此氧化物的电场强度接近器件稳定工作的临界极限（～106 V/cm），一旦超过氧化物击穿强度，将会导致器件失效，难以实现高耐压\[16\]。为了提高 SiC器件的栅氧化层可靠性，可以从两方面考虑：一是采用可替代的介电材料改善界面态质量，二是利用新结构以缓解栅氧化层的电场强度。
 
@@ -49,13 +49,13 @@
 
 1996 年，Baliga B.J 改善了平面型 MOSFET 器件结构，在 N+源区和 Pbase 区下方进行 P+注入，形成了 P+埋层作为电场的屏蔽结构，可以降低栅氧化层的电场强度。通过合理地设计屏蔽层的宽度可以保持对栅氧化层电场较高的屏蔽能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA43IH01t0Y7Ccfu8ZZ7ok3N7Cbt2jxfibU5KoXEkjOVrk0XGjM5xwYrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_006_40d3d5b0131d.png)
 
 1994 年，J. W. Palmour 等人首次报道并且制备了 SiC UMOSFET，器件消除了JFET 区的寄生电阻，如图 1-2（a）所示，但是由于栅氧底部尖峰电场较大，器件的阻断电压仅为 330V。2002 年，I. A. Khan, J. A. Cooper 等人提出了有 P+ Shield结构的 UMOSFET 结构，如图 1-2（b）所示，该结构采用了完全包裹栅槽底部的 P+屏蔽层，降低了栅氧底部电场强度，使器件具备较好的阻断特性，阻断电压高达 5050V。正向导通时，在电流密度为 100A/cm2 的条件下，比导通电阻为105mΩ·cm2。2011 年，罗姆半导体集团的 T. Nakamura 等人提出了 Double TrenchMOSFET 器件，如图 1-2（c）所示，在沟槽栅结构基础上，该结构对器件的源区进行了刻蚀，随后进行离子注入以形成高浓度的 P+屏蔽层，有效缓解了栅氧化层底部的尖峰电场，提高了阻断电压，最终得到的耐压值为 1700V，比导通电阻Ron.sp为 1.41mΩ·cm2。
 
 近年来，我国也加大了宽禁带半导体电力电子器件的发展力度，开启了多项SiC 单晶、外延材料和器件以及装置的探索工作。天科合达公司已经向市面提供 6英寸衬底，开启了 SiC 单晶方面的制备工作。东莞天域和瀚科天成形成了 4~6 英寸外延片的生产线，不仅提供国内企业，也向国外企业提供。而在 SiC 器件商业化领域，泰科天润推出了 SiC 二极管产品，包括 1200V/1700V/3300V 器件。然而SiC MOSFET 器件的生产制备，目前国内的发展不够理想，仍处于研究阶段。其中株洲电力机车研究所与电子科技大学等高校展开了 SiC MOSFET 的研制工作，取得了一定的成果。目前，国内在 SiC MOSFET 领域与国际依旧存在着明显的差距，需要进一步研究和制备以缩短差距。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6of10Ump7k09ZhnKy0P9zmf9ftrULWXRm9oNPtjA5MlhD4cOYHWoO6Wgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_007_7e3113b7b8db.png)
 
 **1.3 UIS 特性研究意义**
 
@@ -65,17 +65,17 @@
 
 目前已经报道了几种抑制寄生双极型晶体管开启的方法：一种是使用高能离子注入或者采用侧壁工艺来降低 N+源下方的 P-Base 的电阻。然而，在不改变阈值电压的情况下控制掺杂浓度和侧壁的几何形状是相当困难的。另一种方法是将电流的方向从 P-Base 的弯曲区域转移到 P-Base 的底部，从而减小 N+源区下面的电流，Rb两端的压降也减小了，从而减小了寄生双极型晶体管开启的可能。相比于第一种从工艺角度减小 P-Base 寄生电阻的方法，设计能够转移电流路径的新结构可以大大降低器件制备的难度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAZJ0vWERWZdJv2BasibPN3wgFpaW4XSfbH6mZd3XZvia4std76YxiaicEEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_008_819c1f5e314d.png)
 
 2008 年，韩国电气工程学院的 In-Hwan Ji 等人提出了采用分段沟槽 P-body 接触的新型功率 MOSFET 以改善雪崩能量，如图 1-4（b）所示。P-body 的深沟槽结构改变了击穿点，转移了电流路径，有效地提高了雪崩能量，采用的分段沟槽P-body 接触在不牺牲器件其他特性、不增加额外成本的基础上提高了 UIS 性能。然而，分段的沟槽 P-body 接触会降低沟槽的连续性和 n+源极接触的自对准程度，导致器件具备不均匀的阻断特性和导通特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAfNd5FxU70XTGaHyDNPCMS9OiaF5ZOBrvF3O6HUGIEU7Ficb1ZxWRA53Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_009_2eaf0fef8123.png)
 
 除此之外，相较于 Si 基器件，SiC 材料的禁带宽度更大，因此 SiC MOSFET器件单次抗雪崩击穿的能力比较强。然而，对于 SiC 器件来说，当临界击穿电场达到 3MV/cm 时，由高斯定理可知，氧化层中的电场强度是 SiC 中电场的 3 倍，如此高的电场强度使得栅氧化层面临严峻的可靠性挑战。此外，当器件长时间工作在 UIS 应力情况下时，氧化层中的陷阱俘获热载流子的能力增强，SiC/SiO2界面态密度增加。这些因素使得器件在雪崩击穿过程中，容易造成栅氧化层击穿，器件失效，因此 SiC MOSFET 的关键问题之一在于栅氧化层的可靠性问题。
 
 2016 年，Siyang Liu 团队为了提高栅氧化层的动态可靠性，减小热载流子的注入效率，提出了三种改进的 SiC MOSFET 结构，如图 1-5 所示。结构 A 是在 JFET区上方采用阶梯栅氧化层结构；结构 B 采用阶跃 P-body 结构，位于 JFET 区的P-body 区掺杂浓度更低；结构 C 在栅氧化层的下方中部添加了低掺杂的浅 p-well结构。提出的改进结构可以降低界面表面的电场强度和碰撞电离率，从而提高了器件的雪崩鲁棒性，减少了重复应力作用下 SiC MOSFET 的退化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAy2j6nxWockoTnDMSCM6agFBXiatpXqQrnrib2f633M7CWX07PZjm7QUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_010_8dd6b02186de.png)
 
 近年来，功率碳化硅器件（主要是功率二极管和 MOSFET）已经实现商业化，并开始在许多应用领域取代硅基器件。尽管在器件制备技术方面高速发展，器件的工艺制备能力有所提高，但在可靠性和成本方面仍有提高的余地。实际上，如果要实现功率碳化硅器件的广泛应用，就必须对其动态可靠性进行深入的研究分析。通常，功率器件的一个关键特性是能够承受超过其标准额定值的电流、电压和温度条件。为了确定其在苛刻条件下的工作极限，通常需要在临界压力条件下对器件进行研究。在这一背景下，通过物理模拟和实验表征，进行 UIS 特性研究，这对提高 SiC 功率 MOSFET 器件的动态可靠性至关重要。
 
@@ -101,7 +101,7 @@
 
 MOSFET 使用 MOS 结构来控制场效应晶体管的开关\[30\]。MOSFET 的示意图如图 2-1 所示。当在栅极施加的电压大于阈值电压（VTH）时，半导体/氧化物界面下方的 Pbase 区域中形成了反型沟道，提供电流路径。在低 VDS下，MOSFET 工作在线性区，随着 VDS的增大，漏电流 IDS也随之增长；如果 VDS大于 VGS\-VTH，MOSFET沟道夹断，器件随后进入饱和模式，以下将以 N 沟道 MOSFET 器件为例，对 SiCMOSFET 器件的电学特性进行描述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA5dj4oHtptt10SMCt41iaDn6icvnlpRHylO1WMYIydSo2mAFCiaCQicaADg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_011_8473aac87307.png)
 
 **2.1.1 转移特性**
 
@@ -109,75 +109,75 @@ SiC MOSFET 的转移特性体现了栅源电压对输出电流的控制能力。
 
 阈值电压 VTH的表达式如式（2-1）所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAslKd7dyHywPLKafE449m3KFTjsWs312FvM2gvxWDjia0UJhibGToNBdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_012_1dd1101be327.png)
 
 由于在实际测试中难以准确地判断沟道导通这一状态，因此针对不同情况引入了不同定义的阈值电压。其中，从实验测试方面，阈值电压（VTH）的定义为：当漏极电流 IDS达到某一固定的小值所施加的栅极电压。
 
 转移特性曲线为饱和漏极电流（IDsat）与栅极电压（VGS）之间的关系曲线。因此，转移特性曲线的测试条件主要采用栅极与漏极短接，然后在栅极上施加电压并逐步增大，最后测量记录的漏极电流与栅极电压的关系曲线即为转移特性曲线，如图 2-2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMADc6ZiajY31jNKMlEz2QIqvpE4yQS4HObTTQfWucujFXGW8SH6t7rHwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_013_b3b2106f608e.png)
 
 **2.1.2 输出特性**
 
 对于 N 沟道 MOSFET，当施加正的栅极电压时，在半导体/氧化物界面下方的Pbase 区域反型，提供电流通路。通常，对于功率 MOSFET，阈值电压通常为 2-4V。当对漏源电极施加正电压时，电子可以自由流动。I-V 特性由沟道层的反型情况决定，它是与栅漏电压相关的函数。当 VGS<VTH时，尚未形成沟道，因此结构中不存在电流。当 VDS施加电压时，器件产生漏电流，与 VGS成指数关系。当 VGS\>VTH时，且漏极偏压较小时：VDS<VGS–VTH，漏极和源极之间形成电子电流通道，沟道类似于一个电阻，器件进入线性区，漏极电流可以表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAicXKXzIfrYB2w9d42NNDbS6PHJVQ5bY9zCvBU7g5nSDySUlOUVazuBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_014_fc7e166972e0.png)
 
 当 VGS\>VTH时，且漏极偏压较大时：VDS\>VGS-VTH，漏极附近电子反型层逐渐减薄至沟道夹断，此时漏极电流达到饱和值 IDsat。当漏极电压继续增大，夹断点从漏极向源极移动，夹断区即为耗尽区，增加的电压均降落在耗尽区，载流子以漂移的方式通过该区，漏极电流 IDS维持饱和电流值，器件进入饱和区，电流表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAe4Q3rdu9cEckI7ULINybp2iaLicbylic2nq3OAc7tH3ulaYPXYnSLhedg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_015_d732c7f0cb67.png)
 
 SiC MOSFET 输出特性曲线示意图如下图 2-3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAFH7RtgUnlsqO1yO0g9gB35SF6rGT9rNRibaw1C0uGU6iccMNMKcYvricA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_016_1ef6bc93a90b.png)
 
 根据从源极到漏极的电子路径，电阻分布如下图 2-4 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAC1ENjxT0ibGGj21ECBfCyv8yZCV13QdDWqWjMf3ibUfns5dwAWL1gQzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_017_dd32a4e3acc1.png)
 
 RCH是电子在沟道中流动所产生的电阻。从沟道注入的电子在 JFET 区扩散，这一过程与两个电阻相关：RJFET和 RA。其中，RJFET与 JFET 区掺杂浓度和漂移区耗尽宽度相关；RA与栅极氧化层下方的积累层相关，该积累层由栅极加正压形成。随后电子流经漂移区，RDRIFT与漂移区掺杂浓度相关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAHibia0cWzD3MFeJR1DkPFSfMmFETw5me3XvymYUpE7fv4vase62IheRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_018_07027cc72bd8.png)
 
 比导通电阻的引入是为了能有效对比不同有源区面积的器件的导通阻值，其计算方式为器件导通电阻与器件面积的乘积，表达式如式 2-8 所示。目前器件的导通电阻的计算方法有两种：在一定栅源电压 VGS 下，（1）求解 IDS-VDS输出曲线的最大斜率的倒数；（2）在线性区内确定一个固定的漏极电流 IDS，计算对应的漏源电压 VDS和漏极电流 IDS的比值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAprDO3zJqNEhqLsVS3F6S9ZHPibHbM0qp20OjeW0Og6MJN4j2BRocRpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_019_2f99969996dd.png)
 
 **2.1.3 阻断特性**
 
 阻断特性是指当栅源短接且所接电位为零时，漏极漏电流 IDS 随漏极电压 VDS的变化趋势。图 2-5 所示为 SiC MOSFET 的阻断状态下载流子流向示意图。当施加的漏极电压为正，N-Drift/Pbase 区形成的 PN 结反偏，器件耐压由该 PN 结耗尽区承受，随着漏极电压 VDS的增大，耗尽区不断扩展。当漏极电压 VDS大于击穿电压 BV 时，N-Drift/Pbase 结上的电场强度达到临界击穿电场，此时器件发生雪崩击穿，器件的漏极漏电流 IDS急剧增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAUUibibVJoibgMjAZMetXhrGW8siaVuMGcBObTxEz1JiaEhTSJJia5V7N9cuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_020_5695829e8569.png)
 
 考虑以一维突变结为例，最大电场强度 EMAX 和耗尽区的宽度 WD（一般取漂移区的耗尽宽度）的计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMApdVib3I4ppZH0uOJLGXBKB0GmbO6FG80dPvsic4W02m1qciaU0lRcW3cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_021_fa7623d08867.png)
 
 其中，ND为漂移区的掺杂浓度，EC为临界击穿电场强度。需要注意的是，EC与杂质浓度关系不大，其大小主要由禁带宽度 EG决定。
 
 当外加电压增加时，EMAX达到发生碰撞电离的临界值，器件击穿，此时漏源两端的电压 VDS即为击穿电压 BV，如图 2-6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAK3cWzAO1s46dzeAvJtdY80AXibwHO6PGBA24icicNJrZBSGWct1N1TFzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_022_de2d84014fdb.png)
 
 **2.2 动态雪崩特性**
 
 非钳位感性负载下的开关过程（Unclamped Inductive Switching, UIS）可用于模拟功率 MOSFET 在系统应用中所能遭遇的最极端的电应力情况。这是由于在关断瞬间，外接或寄生的电感存储的能量通过功率器件释放，施加在功率器件上的高电压和大电流极有可能造成器件失效。UIS 测试主要用于评估器件的抗雪崩能力和可靠性。UIS 测试电路如图 2-7 所示，施加在栅上的脉冲，其高电平时间记作ts，通过改变 ts值以得到器件所能承受的最大雪崩能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAu9nrOWEG341pGqmibAfDYicicwasNxqpyBgpJ7a52k5HNWLmGb2w2kplA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_023_7650438e56f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA6Y9JicYpYficVzXGMsR8sGM8GWQBv7nibVeGCrPccCVA45HwRorUUJJ1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_024_223ac34c41f7.png)
 
 典型的 UIS 测试波形如图 2-8 所示。在 0-t1期间，MOSFET 器件关断，漏极电压等于外加电压源 Vdd。在 t1时刻，SiC MOSFET 的栅极开启，器件导通，电压源向负载电感 L 充电，电流缓慢增长，电流增长速率表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAic3LOsSBXXMmsYxKX2bGd77kDvhib8BCJt2Fq0dtq9UVk7MecTibnqnJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_025_3123047e9269.png)
 
 在 t2时刻，SiC MOSET 的栅极关断，沟道断开，电流值达到峰值雪崩电流 Iav，但是因为电感的存在，回路中电流不会发生突变，电感电流保持原路径继续向下流经 SiC MOSFET 器件，并以恒定速率减小。此时由于 MOSFET 器件关断，电流流经器件的 Pbase/N-Drift/N-Substrate 形成的 PiN 体二极管，形成雪崩电流。此时器件的 VDS达到器件的雪崩击穿电压值 VB，该值远远高于母线电压 Vdd。器件的雪崩击穿时间 tav是指从器件关断的时刻开始到 IDS减小到 0 的时刻，即为 t2\-t3这一时间段，在此期间放电速率表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMANpjXAfcwq5uicbCOVs7KVOZLRDibh3MRXCosEWxPux3jrKKOxrRz9k7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_026_7937e488accd.png)
 
 在动态雪崩期间，器件工作在高电压大电流的环境下，存储在电感中的电磁能以热能的形式发散，器件内部的晶格温度也随之迅速上升。Eav定义为器件在指定负载下能承受的最大单次雪崩能量，Eav的表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA6qlufNRClyJAQxw4tXUmOp9KibsaYO374ZVbsymkWaan6OnszLQYj1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_027_10aac1180604.png)
 
 当 t3 时刻结束时，可能会出现两种情况。一是 SiC MOSFET 安全关断，器件可恢复，如图中实线所示。二是 SiC MOSFET 发生 UIS 失效，这是器件晶格温度到达临界值或寄生 BJT 开启等原因，如图中虚线所示，在 IDS未下降至零值时，此时器件对外的端特性表现为电阻，IDS继续线性上升。
 
@@ -189,13 +189,13 @@ RCH是电子在沟道中流动所产生的电阻。从沟道注入的电子在 J
 
 在平面工艺中，杂质通过二氧化硅掩模形成的窗口扩散，从而形成平面结，如图 2-9 所示，将位于 N 型衬底上方的二氧化硅掩蔽层中蚀刻形成矩形窗口，以便通过气相或离子注入对暴露在窗口的碳化硅表面进行掺杂。通常在高温下，杂质在衬底中会产生合适的结深。在这个过程中，杂质除了在注入窗口内垂直向下移动，形成一个平行的平面结；同时在窗口的边缘，位于在二氧化硅的下方的杂质产生横向运动。假设横向扩散长度与结深一致，则该过程在窗口边缘产生柱面结，这种曲面效应的存在降低了平面结的击穿电压。此外，在矩形扩散窗口的拐角处形成四个尖点，这些尖角分别为一个 1/8 球面结，对应的电场强度更大。因此，拐角处球面结的击穿电压将低于在窗口边缘的柱面结的击穿电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAnEOlxoefd4m5OiarpXQGicot9zVH3droBU4PEpN9KmAiaGvZjnnKV48EA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_028_68e899bb729b.png)
 
 柱面结的横截面如图 2-10 所示，其中结深设为 rJ。假设 PN 结为突变结，P+掺杂的浓度远远高于 N 型衬底的掺杂浓度，则耗尽层更多地向 N 型衬底扩展，P+掺杂的耗尽层可忽略不计。假设耗尽层的深度为 rD，利用泊松方程解析，则柱面结的击穿电压表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMACzicSmice163XSSuIQXJsbhuJBrh9lYS3XoJy6CByy3mnvxBr3wpic8HQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_029_5884553d06f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAuRia163ibGWwLfibLEia36CDIFtoVrYIJRr7fJazAFQPHaeRhV1Qic5lmuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_030_05c6b38a2eb4.png)
 
 由式（2-23）可以得知，对于曲率半径较小的浅结，其柱面结的最大电场明显大于平行平面结的最大电场。当结深为 1μm 且耗尽区的深度为 30μm 时，则柱面结处的最大电场将比平行平面结处的最大电场大 15 倍。由于碰撞电离率会随着电场强度的增大而增高，因此相较于掺杂浓度相同的平行平面结，柱面结承担的电场强度更大，会在更低的电压下发生雪崩击穿，即柱面结的击穿电压更低。
 
@@ -207,7 +207,7 @@ RCH是电子在沟道中流动所产生的电阻。从沟道注入的电子在 J
 
 场板（Field Plate）的基本结构如图 2-11 所示，在平面结的场氧化物的边缘放置金属场板，通过对金属施加偏压可调制平面结边缘电场。在没有偏压作用于场板的情况下，耗尽区边界如图 2-11 中曲线 A 所示。当正偏压作用于 N 型衬底的场板时，耗尽线如曲线 B 所示，正偏压将电子吸引到表面，缩小了耗尽层沿表面的延伸，增强了 PN 结边缘处的电场，从而降低了击穿电压。当负偏压作用于 N型衬底的场板时，耗尽线如曲线 C 所示，负偏压会使电子远离表面，扩展了耗尽区表面的延伸，减小了 PN 结边缘处的电场，从而导致击穿电压的增加。然而，场板的引入在场板的末端下方引入了一个新的电场峰值点，击穿电压的提升效果不太明显，因此在实际应用中，通常将场板结构与场限环结构结合使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAwf7dRI38t5ia0fQ2grFzdDdjMkMxrOEgh3cmUvkRpSvacxxQR9RgiaqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_031_5a49f091950d.png)
 
 **2.3.2.2 场限环**
 
@@ -217,7 +217,7 @@ RCH是电子在沟道中流动所产生的电阻。从沟道注入的电子在 J
 
 在功率 SiC 器件中，通常采用多个场限环结构承担主结处的电场。这是因为远离主结处的场限环分别承担前一个场限环的电场，缓解了电场集中效应，有效扩展了耗尽层的宽度。通过合理优化场限环的环间距和宽度，能够有效地改善曲率效应，提高击穿电压。虽然场限环工艺简单且击穿电压改善效果明显，然而它往往需要较多的场限环以得到理想的击穿电压，这将占用芯片过大的面积。但是在目前功率 SiC 器件的设计中，场限环仍是常用的结终端技术之一。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAW5icqZNdviaLr7c5T0I6R67sVfewLRDMHcugkLej7scS0ibqbo5Tcl66Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_032_e854230f21b2.png)
 
 **2.3.2.3 结终端扩展**
 
@@ -227,7 +227,7 @@ JTE 的击穿电压与离子注入 JTE 区的电荷密切相关，为了保证�
 
 通常利用在主结边缘使用多个 JTE 区域来提高击穿电压，改善 JTE 性能。从靠近主结处的 JTE 区域到边缘区域，每个 JTE 区电荷量均匀地下降 2 倍，在工艺制备中，为了简化工艺步骤，采用了不同大小的掩膜窗口以得到不同电荷量的JTE 区域。相较于理想平行平面结的击穿电压，采用多个 JTE 区的终端结构的终端效率可以达到 90%。在功率 SiC 器件中，结终端扩展技术（JTE）是另一种常用的终端技术。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAU255pl617J7wUCt9ZqeuuV0L3S1Vgz86oe6d0F3McLVQPKa8nRib6dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_033_cf15c71bb587.png)
 
 **2.4 仿真软件**
 
@@ -255,21 +255,21 @@ JTE 的击穿电压与离子注入 JTE 区的电荷密切相关，为了保证�
 
 1700V SiC MOSFET 器件结构如图 3-1 所示。主要研究器件的结构参数对静态电学特性的影响，包括漂移区（N-Drift）掺杂浓度和厚度、N+源极、P+源极和Pbase 区的注入工艺参数、JFET 区域的掺杂浓度和宽度。下面将会对这些影响器件静态电学特性的基本参数进行仿真和优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAzSdtViaObc0JNIjVlj7gdVdp60Aiaq8xichsAE9W6tfQgUP6a8eO91JjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_034_096d12ef61d4.png)
 
 **3.1.1 N-Drift 区**
 
 本文设计的 SiC MOSFET 器件耐压需求为 1700V，对于功率 SiC 器件来说，漂移区掺杂浓度与厚度对击穿电压的影响很大，击穿电压可根据式（3-1）、（3-2）计算得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAmoSicLGRSSUXdXdJVutCmnUyhdQTkjlSX033zPBibaqvprMvhq8SBtHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_035_8e34db53af3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAGCH6QUcoQp7hjiaia2IpZed2SzaUHMJ50X8MAkQknOQiaXJ68CQhGn8DA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_036_9f7fc58928ec.png)
 
 在流片实验中，主要有两个因素会影响器件实际的耐压值，一是由于曲率效应的存在使终端效率无法达到 100%，二是可能存在工艺偏差的问题。综合考虑到终端效率、仿真误差以及工艺误差等因素后，在设计时考虑了 10%的耐压值余量。根据式（3-1）和（3-2），可以粗略计算出漂移区掺杂浓度范围为 6e15 cm-3~8e15cm-3，厚度范围为 12μm~15μm。为更好的研究漂移区掺杂浓度和厚度对器件性能的影响，在上述的范围内，研究了击穿电压和导通电阻分别随漂移区参数的变化，如表 3-1 和 3-2 所示。其中，JFET 区初始宽度设为 5μm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAiaCr8nF2QpFqBOJWFM6GDDqakuByU3iaen0StHC5MibEv9Yae5Beic5icNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_037_2e4f3bee3016.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAg9hOvuctDNuAhdd15d9wu3gIgYgSf6EwPAt6rCdGdVuF8qCmt4BJvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_038_785e4426efe2.png)
 
 **3.1.2 Pbase 区**
 
@@ -281,27 +281,27 @@ Pbase 区掺杂浓度的定义是设计 MOSFET 的关键问题之一。这是因
 
 如图 3-2（c）所示，Pbase 区掺杂浓度在表面处约为 1e16 数量级，体内的掺杂浓度有所提高，最大掺杂浓度可达到 1e18 数量级，掺杂深度约为 1.0μm，在此掺杂分布下，可较好的满足阈值电压和击穿电压的需求。综上，在此后的仿真设计中，P+源区、N+源区以及 Pbase 区域的掺杂分布均采用以上方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAVDqe4aGKVTYHLUs6wlw1ic2Z0VypU1HtzxhO9hk9Ch5qUibaUIdPjuag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_039_177fc40462b0.png)
 
 **3.1.3 JFET 区**
 
 平面型 MOSFET 器件存在寄生 JFET 效应，它对于器件的正向特性和阻断特性均有影响。其中的影响参数主要是 JFET 区域的宽度以及掺杂浓度，接下来将对于 JFET 区域有无注入以及宽度进行对比和优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMADt8FibcAU3ygVctUK1oMuRrsjEO85sXqhUO9pibMLiaC1mHjFDINqLjRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_040_c85553cc90d5.png)
 
 JFET 区注入的目的是通过增加该区域的 N 型杂质浓度，减弱 JFET 区的等效导通电阻值来提高器件的正向电流导通能力。首先需要对 JFET 区域离子注入的剂量和能量进行确定，由于选取的漂移区掺杂浓度为 6e15cm-3，所需的 JFET 区域掺杂浓度需要高于该值，综合考虑正向特性和阻断特性，将其值设置为 1e16cm-3数量级。同时也应合理设计 JFET 掺杂的深度，如果深度不够，则电流的提升效果不明显，如果深度过深，超过了 Pbase 区，则会降低击穿电压、增加栅氧化层电场强度，从而降低 SiC MOSFET 的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAB7zGhsPDtjT7icsibqW6vZqN1GdpB0WiaD8jgbdDV4bic5XgDwm0sxyedQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_041_665f24268fdd.png)
 
 通过多次离子注入，JFET 区杂质分布如图 3-3 所示，得到的 JFET 区有效深度约为 0.8μm，掺杂浓度约为 1e16cm-3，掺杂分布较为均匀。
 
 为了研究 JFET 区的掺杂和宽度对器件静态特性的影响，分析了 JFET 宽度为1.8μm、2.0μm、2.2μm 情况下，有无 JFET 掺杂的六种不同 JFET 情况。阻断特性曲线如图 3-4（a）所示，可知 JFET 区域的宽度和掺杂浓度对击穿电压影响不大，最大差值仅为 100V。随着 JFET 宽度的增加，Pbase 区对于栅氧化层的屏蔽作用下降，致使其栅氧场强也有所增加，因此对应的击穿电压下降，如图 3-4（b）所示。当 JFET 宽度大于 2μm 时，Pbase 区对栅氧化层的保护作用近似消失，击穿电压不再下降。如图 3-5 所示为 JFET 区域注入对 Pbase 边缘电场强度的影响，根据仿真结果，存在 JFET 注入的器件，发生雪崩击穿时，由于 Pbase 区中的耗尽区展宽，Pbase 区边缘临界电场强度增加，栅氧电场强度也更高，可承担的击穿电压值更低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAJ984c8Tw8nwAfJA4qqzLpRkPMx2fiammLxvicGiblDTzE5JyFvTyqSy7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_042_5adf7c4b7d0d.png)
 
 如图 3-6 所示，器件采用 JFET 注入时的正向电流能力比未采用 JFET 注入的器件更强，这是由于 JEFT 区域注入提供了更高的 N 型掺杂浓度，使得 JFET 区的导通电阻更低。随着 JFET 宽度增加，电流路径更宽，故 MOSFET 的正向导通能力也有所增加。但是当 JFET 宽度达到一定时，电子的电流能力不再有明显的提升，这是由于此时器件电流路径已足够宽，器件的导通电阻值也保持一定，不再继续降低。值得注意的是，当 JFET 宽度为 1.8μm 时，输出特性曲线呈现了夹断特征，这是由于当 JFET 区过窄时，Pbase/N-Drift 形成的 PN 结耗尽区相连接，JFET 区夹断，电子无法从沟道经 JFET 区到达漏极，器件无法导通。随着 VDS施加的电压增加，JFET 区中的电子增加，等效于 N 型掺杂浓度提高，因此等效的 PN 结耗尽区变窄，电流通路形成，器件导通。如图 3-7 可知，在 VDS较小时，JFET 宽度分别为 1.8μm 和 2.0μm 的耗尽线分布，图 3-7（a）中存在明显的夹断特征，图 3-7（b）中 N-drift 侧的耗尽线独立未相接，电流路径导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMApyYXBF9J30hMpbmykiaLlhVwqccyL0qveDcRqvAZnWiaIwZLktVsZEBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_043_2b5d05c590d0.png)
 
 由图 3-8 可以看出，JFET 区域的注入与否对阈值电压的影响较小，阈值电压均为 3V，此时，即使漏源电压 VDS很小（为 0.1V），采用 JFET 区域注入的器件正向电流能力仍强于无 JFET 注入的器件。综合考虑阻断特性和正向电流特性，JFET 区宽度设为 2μm，采用离子注入形成 JFET 区，此时击穿电压为 2208V，比导通电阻为 4.8 mΩ·cm2，阈值电压为 3V。
 
@@ -313,13 +313,13 @@ JFET 区注入的目的是通过增加该区域的 N 型杂质浓度，减弱 JF
 
 针对常规的平面型 MOSFET 的耐压等级，仿真设计的场限环结构如图 3-9 所示。其中，环数设为 n，第一个环间距设为 S1，第一个环宽设为 W1，第 n 个环的环间距设为 Sn，第 n 个环环宽设为 Wn。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAhywHMvYMRGZ6pI76F1Dc3icIK11kYQ0FadAbxTWalQcRjLJiazJGHP0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_044_ecd0a5661424.png)
 
 **3.2.1 均匀间距场限环**
 
 在本小节中，场限环结构是均匀环间距结构。设置的初始环宽 W 为 3μm，环数 n 为 25 个，环间距 S 从 1.0μm，以 0.1μm 的增量线性增至 2.0μm。如图 3-10（a）所示，随着环间距的增长，击穿电压呈现先增加后下降的趋势。当环间距为 1.6μm时，击穿电压值达到最高，为 2167V。不同环间距的场限环电场强度分布图如图3-10（b）所示，外侧场限环的电场强度随着环间距增加而降低。这是因为当环间距过小时，场限环对于主结的场强分压能力较强，在环数一定的情况下，此时最外侧的场限环电场强度较强，击穿易发生在外侧场限环拐角处，击穿电压较低。当环间距过大时，内侧的场限环对于主结的场强分压能力不够，反向耐压能力下降。当环间距为 1.5μm-2.0μm，击穿电压均高于 1700V。选取合适的环间距，既要达到更高的终端效率，也要同时满足较小的终端长度，节省器件面积。在均匀场限环终端结构仿真设计中，可选择的环间距为 1.5μm 和 1.6μm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAibNibibJgy1r9ng1gohASDNE0Ayph1ibVf99P9QpYiciboa8kPkyQKLnwDNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_045_29e1a9424040.png)
 
 接下来研究环宽 W 对击穿电压的影响，选取的环间距为 1.5μm，通过图 3-11可以看出，当场限环宽度过小时，场限环宽度对提高器件的击穿电压有一定的作用；当场限环宽度达到一定时，击穿电压维持在一定值（2010V），再次增加环宽对阻断电压值影响较小。因此在击穿电压值能达到最高的情况下，选取较小的环宽值可得到较小的终端长度。
 
@@ -329,7 +329,7 @@ JFET 区注入的目的是通过增加该区域的 N 型杂质浓度，减弱 JF
 
 多区缓变间距场限环是指将场限环分为多个组（N），同一组内的环间距一致，相邻组之间的场限环环间距以δ为增量缓变增长，即第 i 组场限环环间距表示为式（3-4）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA5J6ibtGj8L7fQ32mOytZGMZy2HhEzscrPcUjicH7hMibsMs75yqgqiae5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_046_d8ab54f20432.png)
 
 根据均匀间距场限环优化参数，选取的环宽为 3μm。初始环间距 S1分别选取1.4μm、1.5μm、1.6μm。初始环间距 S1 的选取包括 1.4μm 是因为：虽然均匀环间距为 1.4μm 时器件耐压值较低，但这是由于终端边缘场强较高，而采用缓变间距场限环会在一定程度上提高终端长度，故也将环间距为 1.4μm 作为考虑对象之一。为了保证电场分布的平缓，尽量避免场强在终端方向的突变，因此考虑分组为以下两种情况：一种是每组环数为 5 个，共有 5 组，表示为 5×5；还有一种是每组环数为 4 个，共有 6 组，表示为 4×6。接下来将对两种情况进行仿真与分析。
 
@@ -339,23 +339,23 @@ JFET 区注入的目的是通过增加该区域的 N 型杂质浓度，减弱 JF
 
 由图 3-13 可以看出，当 S1为 1.4μm、1.5μm 时，随着环间距增量δ变大，击穿电压也增大。其中当 S1为 1.4μm，缓变环间距终端结构的击穿电压显著提高：主结处的电场强度更高，外侧电场强度更低，电场强度分布更平缓。根据击穿电压值和场强分布图，选取的终端参数为（1）S1=1.4μm /δ=0.2μm；（2）S1=1.5μm /δ=0.1μm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAgM6RKxs8pEZj0oAiav9lRFLnByB4486WE0iaggbEYn4TvCjicHdYE6duA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_047_3adc4c8b0fbf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMATuN9GQTYp8q7TYRpWnRGEG8icxmZ3IDIdeASBquLJ8oYp46sc1f4Klw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_048_30695e064c3a.png)
 
 **3.2.2.2 每组环数×组数：4×6**
 
 参考前两节，初始环间距 S1分别选取 1.4μm、1.5μm，环间距增量δ分别为 0.1μm、0.2μm，得到击穿电压如表 3-5 所示，可以看出当环宽和初始环间距一致的情况下，随着环间距增量δ变大，击穿电压增加。同样当 S1为 1.4μm，与环间距相同的均匀环间距终端结构相比，缓变环间距终端结构的击穿电压明显提高。电场强度分布图如图 3-14 所示，当环间距增量δ相同，S1 越大，对主结的电场承担减小，主结处的电场强度更高，外侧电场强度更低；当初始环间距 S1相同，δ越大，则电场分布越平缓，最外侧更不容易产生尖峰电场，电场强度分布更平缓。根据击穿电压值和场强分布图，选取的终端参数为（1）S1=1.4μm /δ=0.2μm；（2）S1=1.5μm /δ=0.2μm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAROBwqyiaYXq5nDEY54GmsrNHWC58D1FXrNa4yuBqMQrJMowGGCk4sag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_049_38e6627f9143.png)
 
 在终端设计中，还需考虑终端长度，这是由于如果终端面积较大，在同一芯片面积下，有源区面积将会下降，从而器件的性能下降。多区缓变场限环设计的终端长度如式（3-5）所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAmqYP625Hq2xeFpaAWdH0KZ0YME7opZGCGvdziaJIrgQ8ibTphDl222CA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_050_2b36886e6e2d.png)
 
 其中，终端总长度设为LTermination，场限环个数设为 n，场限环组数设为 N。最终各个终端结构所得的终端长度如表 3-6 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAQO1AHcWhPDHD7kbCqMQ81jIvTbD5bzXouG6Sc5hNE10ax1NibMrducQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_051_e7871063419a.png)
 
 两种终端设计方案中的器件击穿电压值相差不大，且均满足器件耐压需求，因此在确认场限环参数时，主要从电场强度分布曲线图和场限环长度进行分析。从电场强度来看，为了得到电场分布更为平缓的结构，5×5 组选取了（1）S1=1.4μm/δ=0.2μm；（2）S1=1.5μm /δ=0.1μm，4×6 组选取了（1）S1=1.4μm /δ=0.2μm；（2）S1=1.5μm /δ=0.2μm。从场限环长度来看，4×6 组的场限环长度更短。综上，选取的终端结构为，场限环分为 6 个组，每个组有 4 个场限环，环宽均为 3μm，初始环间距 S1为 1.4μm，随后环间距以 0.2μm 的增长速度缓慢增长，得到击穿电压为2180V。相同掺杂浓度和厚度条件下，理想的平行平面结击穿电压为 2210V。因此，与理想平行平面结相比，终端效率高达 98%。
 
@@ -363,29 +363,29 @@ JFET 区注入的目的是通过增加该区域的 N 型杂质浓度，减弱 JF
 
 研究表明雪崩击穿时，碰撞电离产生的热空穴会在电场的作用下注入到 JFET区域上方的栅极氧化物中，引起器件性能的退化，降低了 SiC MOSFET 的可靠性和寿命。为了提高器件的抗雪崩能力，本文提出了深槽 P+源极 MOSFET 结构，新结构与常规的平面栅 MOSFET 的漂移区掺杂浓度和厚度一致，但增加了其 P+ 源区的注入深度（Dtrench），形成深槽的 P+源极结构。首先由于离子在 SiC 中扩散系数较低，无法采用硅基器件常用的扩散法，再者缺乏高能（MeV）离子注入机，故 P+源极直接实现深注入不现实，因此选择在 P+源区上方先刻蚀槽再进行离子注入，深槽 P+源极器件结构如图 3-15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAgg5ZyeP2M9Y3yM5ZYcbm3DGSpAjRMsmbCZ4nU9qrIusnrdJWSfJBiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_052_e1e6cd20b838.png)
 
 相比于平面型 MOSFET，深槽 P+源极型发生雪崩击穿时，击穿点除了在Pbase/N-Drift拐角处，还可能出现在 P+源极下方，击穿点的位置和沟槽深度（Dtrench）有关。当 Dtrench增加到一定时，击穿电压由位于 P+源区下方的 Pbase 区和 N-漂移区形成的 PN 结承担，由于 P+源区存在刻蚀沟槽的缘故，Pbase 相对平面型结构更窄，甚至在反向耐压时完全耗尽，因此击穿点位于 P+源区下方时的击穿电压小于Pbase/N-Drift 的击穿电压，击穿首先发生在 P+源区下方的 PN 结处，雪崩击穿位置将从 Pbase/N-drift 拐角处转移至 P+源区下方，雪崩电流从漏极通过最短路径从P+源极流出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAEWBvYXP113LB7CN4n0EbltYZudCrfQdQCKiawiaBgupg6DCjVzcVaAZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_053_bd44616b2779.png)
 
 对于深槽 P+源极 MOSFET，除 P+源极深度外，其他参数和上一节确定的平面型参数一致，针对 P+源极的刻蚀深度进行设计优化。随着 P+源区深度 Dtrench增加，器件的击穿电压呈现下降趋势，其中当 Dtrench为 0.6μm 时，深槽 P+源极 MOSFET的耐压值和平面型 MOSFET 的耐压值几乎一致，为 2208V。当 Dtrench继续下降时，击穿电压值小于平面型结构，且呈现逐步降低的趋势。其中 Dtrench为 0.8μm 时约为 2000V，Dtrench为 1.0μm 时约为 1800V，均满足 SiC MOSFET 设计耐压需求，如图 3-16 所示。
 
 当耐压值分别为 2000V/1800V 时，由击穿电压计算表达式（2-11），发现击穿电压值与漂移区参数不符合。根据 PN 结的工作原理可知，空间电荷区为中性区，即正电荷量与负电荷量相等，如表达式（3-6）所示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMALibdXbptacZX6PiamkNF2FcdveWWHgDDG9V9zdDJwdCIdEI8c4TJIBsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_054_6a2f631416ff.png)
 
 其中 Q 为电荷量值，A 为电流垂直经过的面积，xp/xn分别为 p 型/n 型杂质的耗尽区宽度，NA/ND 分别为 p 型/n 型杂质的掺杂浓度。根据掺杂浓度和击穿电压值，计算可知 Dtrench从 0.8μm 下降至 1.0μm 时，击穿电压下降了 200V，由式（2-9），则漂移区的耗尽区厚度减小了 2μm，根据式（3-6）计算可知 Pbase 区的耗尽区宽度差约为 0.2μm。由于 P+源极的槽深的差值为 0.2μm，则位于 P+源极下方的 Pbase区的厚度也减小了 0.2μm，与耗尽区宽度差值一致，验证可知与预期的击穿时发生了 Pbase 区穿通情况相符。因此，采用深槽 P+源区结构，且当深度大于等于 0.8μm时，漂移区未完全耗尽，此时发生了 Pbase 区穿通现象。
 
 根据图 3-17 可知，随着 P+源区深度 Dtrench增加，电场强度和电流路径发生了转移。当 Dtrench为 0.6μm 时,电场强度最大值处于 Pbase 区拐角处，电流路径也流经此拐角处，因此击穿点处于 Pbase/N-Drift 拐角处，与平面型的一致。当 Dtrench继续增加时，击穿电压值小于平面型的，这是由于当 P+源区深度达到一定时，P+源区下方形成的 PN 结由于 Pbase 区较窄造成了 PN 结穿通，峰值电场部分转移至P+源区的拐角处，电流从 Pbase/N-Drift 拐角处转移至 P+下方，相较于平面型MOSFET，深槽 P+源极结构的耗尽区更窄，因此器件更易击穿，击穿电压下降。当 Dtrench为 1μm 时，击穿电压继续下降，根据曲率效应可知，当 Dtrench值较大时，Pbase 区对 P+源区的保护作用减弱，迫使 P+源区拐角处的电场强度最大，电流路径转移到了 P+源区的拐角处，耐压值进一步降低。因此在下文对比研究 UIS 特性时，选取的深槽 P+源极结构的沟槽深度为 0.8μm，其他参数和平面型结构一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMADsiaFt2iboPHNdTwBfhOKXmqQXhHgrphONtqWeSX0n6IcIvHibj76sddw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_055_4b96eb5bf8ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAjmlPdPiaibqdKElrVWzp9jQ7rchRlvvwRM7oicPiaBAMW1eEDswFXDL7Wg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_056_c674fe19f630.png)
 
 **3.4 动态雪崩失效机理**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMACeu54dpAicwHl0WnbXIialbcDR7w2Wv0EFp3Oc6BSYA07nbc9ZDicdJCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_057_2187c93e909e.png)
 
   
 
@@ -395,7 +395,7 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 本文利用 Silvaco 软件进行器件的仿真优化，除了常规的迁移率模型、复合模型以及不完全电离模型外，还需要考虑相关热模型的选取。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAbV1bLZ18cnicYdS9D4SR2SNbnWKOUKSE6ANRjfGBJgq5oICZCx76dVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_058_e14ff85923a3.png)
 
 其中，TL为晶格温度，N.ANISOHW 和 P.ANISOHW 值的设置可参考用户手册，需要注意的是，N.ANISOHW 和 P.ANISOHW 值越大，与温度关联性越低。
 
@@ -407,31 +407,31 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 当 SiC MOSFET 的栅极开启且施加的栅极高压的时间（ts）相同时，器件导通，电压源向负载电感 L 充电，电流缓慢增长。不同的电感下，电流增长速度不同，电感值越高，电流增长速度越慢，其峰值雪崩电流越低，如图 3-19（a）所示。根据式（2-12）可知，峰值电流与电感为线性负相关。因此，当电感值分别为 0.5mH、1mH、2mH 时，得到的峰值电流密度分别为 1190A/cm2、603A/cm2和 309A/cm2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAr72XiaicqfcdE1sTfAOVu4uJ3Dc4ibr4TR76qv4yDLfLJkicfublRbwa0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_059_ca0fe231e1b3.png)
 
 在栅极关断的同时，漏源电压 VDS迅速增长，其雪崩电压值 VB均为 2350V。其中，当电感值为 1mH 和 2mH 时，器件正常关断，漏源电流下降为零，根据式（2-14）可知，电流下降时间（tav）一致。当电感值为 0.5mH 时，器件发生 UIS失效，电流下降一段时间后再次上升，故其雪崩电压值维持时间较另外两种情况更短。器件的晶格温度也随着电感值的降低而增高，未发生 UIS 失效的情况下，器件的温度在漏源电流下降为零后呈现下降趋势，而发生 UIS 失效的器件的晶格温度在一定时间内维持 1750K，且随着温度的增加，漏源电压在雪崩失效期间的上升更为明显，如图 3-19（b）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMATXbaR5gOOgibdhSYjicgW4e09rZpGlhqldCewPPlfhAcy7ibNo6QzSTqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_060_4a02a0b26296.png)
 
 为了进一步研究电感负载对 UIS 特性的影响，设定了额定的单脉冲雪崩能量（Eav=3.7J/cm2）。在不同电感负载情况下，通过逐渐增大栅极驱动脉冲宽度，直至器件达到指定的雪崩能量值，以得到不同电感负载的 UIS 曲线。当电感负载值改变时，可以得到不同瞬态雪崩电流波形，如图 3-20（a）所示。在同样的雪崩能量情况下，电感负载较小时（L=0.2mH），器件已发生 UIS 失效，而其余情况器件均正常关断。这是由于较小的电感负载会产生大电流，温度迅速上升导致热量集中，器件单位面积产生的功耗也更大，从而器件更易发生失效，如图 3-20（b）所示。
 
 图 3-21 展示了不同电感值的测试电路对峰值雪崩电流和器件抗雪崩能力的影响。随着电感增大，器件的单次雪崩能量基本维持一定值（4.0 J/cm2），而峰值雪崩电流值则随之下降。根据式（2.14）和式（2.17）得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAzS1UMX1hWXtr9QPpoNYLlIAb9S8iaFNtzYQ8vKyfia3icgLAfia6plS47Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_061_0d4514a9d3f2.png)
 
 由式（3-13）可知，当电感 L 变小时，由于器件雪崩能量不变，故其雪崩峰值电流上升。此外，在 Si 基 MOSFET 的 UIS 测试中，如若测试电感值较低时，漏源电流值较大，因此 Pbase 区电阻产生的压降也较高，从而由 N-Drift/Pbase/N+ 源区形成的寄生双极型晶体管（BJT）导通，器件失效。此失效模式通常先于热失效，因此能承受的单次雪崩能量更低。在本小节中，当 L 为 0.2 mH 时，电流密度高达 1467A/cm2，虽然雪崩能量略低于大电感负载情况，然而电流路径经过 Pbase区从 P+源极流出，未经过 N+源极，表明寄生 BJT 发射极与基极间的 PN 结并未导通，故排除了 SiC MOSFET 中寄生晶体管开启这一失效模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAgFla0ZYBfnotObSe3wiauCSuoAFO785NgQySWriaGH88orygsG7CnJ6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_062_2b96c4fdb082.png)
 
 **3.4.2.2 栅极电压 VGS**
 
 在本小节中主要探究器件关断阶段，栅极施加的低电平对 UIS 特性的影响。图 3-22 所示为栅极高电平时间为 60μs 时，不同栅极低电平对于漏源电流、漏源电压的影响。可以看出当 VGS=0V 时，峰值雪崩电流密度达到 646A/cm2，栅极关断后电流先下降随后上升，发生了 UIS 失效。在相同的测试条件下，将栅极低电平变为 VGS=-5V，由于栅极高电平时间一致，故峰值雪崩电流一致。此时，漏源电流下降至零，雪崩过程结束，器件顺利关断，未发生 UIS 失效。因此，在 VGS=-5V条件下器件要发生 UIS 失效，则需要更高的峰值雪崩电流，即需要更大的雪崩能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA8092BUlhp72KXVia2pqic2psibia6u1SDP12Hgd6CbTicoXzbewT88A2iagw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_063_eae0644aa313.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA82tLTKBdX7rL6cicPny8ibIeCWy8vsLQF1wqOciaLr27MHyTQkdhIBbWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_064_2d5d6bbbc05f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAg9Z3ibGbXl9VdibOJMK6KJt77xLrkQkAG6DzczmLBlU15WktoZwt8PfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_065_e926371fdbdf.png)
 
 图 3-22 当 ts为 60μs 时，不同 VGS对漏源电流（左轴）和漏源电压（右轴）的影响图 3-23 显示了当 VGS=-5V 时，待测器件发生 UIS 失效时的曲线。此时栅极维持高电平时间为 63μs，达到的峰值雪崩电流密度更高（679 A/cm2）。根据式（2-16）可得，VGS 为 0V 和-5V 的雪崩能量分别为 4.2 J/cm2和 4.4 J/cm2，可以看出，负关断栅极电压 VGS使器件的雪崩耐受能力略有提高。
 
@@ -439,7 +439,7 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 **3.4.2.3 栅极电阻 RG**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAF22xg0O4GpEsjpdRZfZU0byqA49xTEKibcgpjDjMEPkR0XzYj5ugSlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_066_bd25ac3dd29f.png)
 
 研究不同栅极电阻的测试电路对峰值雪崩电流、器件抗雪崩能力以及晶格温度的影响，可以看出，所有曲线完全重合，如图 3-26 所示。故栅极电阻值较小时（小于 30Ω），对于 UIS 仿真结果完全没有影响，其功能为保护电路。
 
@@ -451,7 +451,7 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 为了研究常规的平面型 SiC MOSFET 器件的 UIS 特性，主要从两个方面入手，一个方面是研究器件在 UIS 过程中的曲线规律，如漏源电流、漏源电压和晶格温度随时间的变化。另一个方面是研究平面型 MOSFET 在雪崩过程中的各项物理参数分布图，为后续分析提供基础。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMApO3NXhUia6mUQiazAHlqI2qICWL8PYFaCYwanYDMvXSdLt3X57r1g8mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_067_0a74b7107336.png)
 
 图 3-27 平面型 MOSFET 分别在 ts=55μs、58μs、60μs 时，（a）漏源电流 IDS与时
 
@@ -461,7 +461,7 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 当设定的 ts 值大于 58μs 时，SiC MOSFET 发生 UIS 雪崩失效，IDS 在器件关断后线性下降，然后在某一时刻，器件失效，栅极失去了控制器件开启或关断的能力，IDS以一定的速率再次增长。由于器件失效，逐渐增加的电流流经器件，源漏两端的电势差也逐渐下降，因此 VDS经过一段时间下降至 0V。随着 ts的增大，峰值电流也随之增大，最高晶格温度达到 1600K。取 ts为 58μs 作为 UIS 失效的临界点，单次雪崩能量为 4.29 J/cm2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAOibcaqPkR1wXyYxzGUuPNCqP6tMrhZWTrV9ugGbkhZOfqDQvkUuiaylg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_068_9cb2bc434090.png)
 
 当栅压加压时间为 58μs 时，在电流下降过程中的电场强度分布、电流密度分布、碰撞电离率以及晶格温度分布如图 3-28 所示。可以看出在发生雪崩击穿时，最大电场强度处于 Pbase 拐角处，电流主要从漏端通过 N-漂移区经过 Pbase 拐角，最后从 P+源区流出。最大碰撞电离率集中在 Pbase 拐角处，电离碰撞产热，与器件的晶格温度相关，因此可看到最高晶格温度也主要集中在漂移区中央。
 
@@ -469,11 +469,11 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 针对 SiC MOSFET 器件的 UIS 特性，考虑现有 SiC MOSFET 制造工艺技术以及 UIS 对器件可靠性的影响，基于转移雪崩电流路径的思想，通过减少雪崩过程中栅氧化层中热载流子的注入来减小 SiC/SiO2的界面态密度，本文提出了一种深槽 P+源极 MOSFET 结构作为改进结构，通过研究改进型 MOSFET 的结构特点，获得不同物理结构和电路参数对其 UIS 特性的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAjcKXs5RQQaqOgdbOt3iaG890Gj57iaZMicKHBicGWH7jQN15wicV0CzuWsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_069_d464f53f463e.png)
 
 在栅压关断时，深槽 P+源极型 MOSFET 的漏源电压 VDS瞬间迅速上升至器件雪崩击穿电压值 2150V。当设定的 ts 值不大于 60μs 时，漏源电流 IDS线性减小至零，器件的雪崩击穿结束。VDS迅速下降，经过一定的振荡后逐渐恢复到 Vdd，器件安全关断。当设定的 ts 值大于 60μs 时，SiC MOSFET 发生 UIS 雪崩失效：IDS在器件关断后下降，产生的雪崩能量超过器件的承受范围，器件失效，栅极失去了控制器件的能力，IDS以一定的速率再次增长。由于器件失效，逐渐增加的电流流经器件，源漏两端的电势差也逐渐下降，因此 VDS经过一段时间下降至 0V，如图 3-29（a）（b）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA5pMZG1WtYywib3xiayDJuPmQUS8SqIQTvvA3H8Zr39icibrSz7ThvWP4aA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_070_42743eafa558.png)
 
 当栅极加压时间为 60μs，器件临界 UIS 失效，在电流下降过程中的电场强度分布、电流密度分布、碰撞电离率以及晶格温度分布，如图 3-30 所示。可以看出发生雪崩击穿时，相较于平面型 MOSFET，峰值电场主要集中在 Pbase 拐角处和深槽 P+源极拐角处，这是由于该突出的部分存在曲率效应。电流从 Pbase 拐角处转移至深槽 P+源极源区下方，避免了横向流经 Pbase 区后经 P+源区流出的电流路径。最大碰撞电离率集中在两端 P+源区，电离碰撞产热，晶格温度上升，因此最高晶格温度也主要集中在两端 P+源区。如图 3-29（c）所示，随着 ts 增大，Iav 增大，晶格温度 T 也随之增大，当达到 UIS 失效情况时温度可达 1520K。综合分析可知，当栅极加高压时间为 60μs 时，改进结构处于临界 UIS 失效情况，单次雪崩能量为 4.50 J/cm2。
 
@@ -487,25 +487,25 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 改进型 MOSFET 结构通过转移雪崩击穿点转移了电流路径，从而有效地减小了雪崩击穿过程中的热载流子注入，降低了 SiC/SiO2的界面态密度。由于难以对动态过程中的陷阱俘获与释放进行仿真，因此参考了国内外学者的处理方法，在仿真中采用添加界面态密度的方法\[63\]。根据两种结构的氧化层陷阱对热载流子的俘获作用不同，在对比实验中，深槽 P+源极结构的界面态密度值为 5e11cm-2，平面型结构的界面态密度值为 1e12 cm-2。当选取的栅极施加高压的时间为 60μs 时，两种结构均发生 UIS 失效，分别研究两种结构在有界面态和没有界面态情况下的UIS 特性。由图 3-31 可以看出，电流曲线均呈现失效特性，在同一结构中，添加界面态的电流抬起值更高，可以推断出器件失效时刻更早，雪崩能量更低，抗雪崩能力更弱。在晶格温度曲线中可以看出，平面型的温度约为 1600K，高于深槽P+源极型的晶格温度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA47VUQ3R9zf9sEibmOHCNM2Gmriba4nxxhOrE9ZUR8ZqxhBgEVHtJ0eww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_071_107a2a5dd042.png)
 
 为了研究深槽 P+源极结构的抗雪崩能力和栅氧可靠性问题，接下来研究不同结构分别在不同界面态时的 UIS 特性。图 3-32（a）为器件均未添加界面态时，临界 UIS 失效情况下的漏源电流和漏源电压随时间变化的曲线，在上一小节中已经详细讨论，平面型的和深槽 P+源极型选取的 ts分别为 58μs 和 60μs。图 3-32（b）为器件有界面态时，在 UIS 临界失效情况下的漏源电流和漏源电压随时间变化的曲线，界面态情况与前面设定一致。具有界面态的平面型和深槽 P+源极型结构施加的栅极高电压分别为 55μs 和 58μs 时，SiC MOSFET 器件达到临界 UIS 失效。
 
 图 3-33 为两种结构具有不同界面态的晶格温度曲线，可以看出，未添加界面态的晶格温度略高于添加了界面态的晶格温度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMADxIuCVsY0iaE04kukokwbXAHly6secG5fvcBL6RAkSOsFVWicFc7cOvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_072_93577a15d332.png)
 
 为了更准确地对比器件的抗雪崩能力，通过式（2-17）分别计算出单次雪崩能量，结果如表 3-7 所示。同一种结构，存在界面态的 SiC MOSFET 器件的单次雪崩能量更低，峰值雪崩电流更低；同一种界面态状态，深槽 P+源极型结构抗雪崩能力更强，峰值雪崩电流更高，如图 3-34 所示。需要注意的是，临界 UIS 失效时，无界面态的平面型和有界面态的深槽 P+源极型的 ts 均为 58μs，因此峰值雪崩电流密度一样，然而由于结构特点，深槽 P+源极型雪崩击穿电压（VB）略低于平面型的 VB，因此雪崩能量也略低于平面型的雪崩能量。
 
 多次重复 UIS 测试时，器件 SiC/SiO2界面陷阱容易俘获热载流子，本文提出的深槽 P+源极型 MOSFET 结构能够有效地转移雪崩击穿点，减小雪崩击穿过程中的热载流子注入，降低了 SiC/SiO2 的界面态密度，因此接下来研究了改进型MOSFET 对提高器件栅氧可靠性的能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAPSVacqGBjW8qZkJZ4nDtCicuoNScSibJ3ANoPxDIEKyU2icuwriaEJ7Z8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_073_84ba8c4ad4f9.png)
 
 图 3-35 展示了平面型和深槽 P+源极型 SiC MOSFET 分别为无界面态、界面态密度分别为 5e11cm-2和 1e12 cm-2的碰撞电离系数，取值点分别距离 SiO2/SiC 界面0.9μm 和 1.9μm，位于器件的最大碰撞电离率处。可以看出，同一结构中，界面电荷密度越高，电离碰撞越集中，主要发生在 Pbase 拐角处。相同界面电荷密度时，深槽 P+源极结构的碰撞电离分布曲线集中在 P+源区下方，且碰撞电离率明显低于平面型，故其发生 UIS 失效时晶格温度也更低。
 
 平面型和深槽 P+源极型 SiC MOSFET 具有不同界面态密度时的栅极氧化层电场强度如图 3-36 所示，图中所示为距离 SiO2/SiC 界面 0.01μm 处的栅氧电场强度。可以看出，同一结构中，界面电荷密度越高，栅氧化层承受的电场强度越高，栅氧化层更容易受破坏，器件更容易发生 UIS 失效。相同界面电荷密度时，深槽 P+ 源极结构的栅氧化层电场强度明显低于平面型。在多次重复 UIS 测试情况下，即平面型和深槽 P+源极结构的界面态分别为 1e12 cm-2和 5e11cm-2时，平面型的栅氧化层电场强度远大于深槽 P+源极型，证明了改进结构对栅氧化层的保护作用，为器件的雪崩鲁棒性研究提供了基础。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAsSric5XDL7dpGYwcUf1XcSu8blvGgK10Wntze6xiawjkxRuq3vaoaLRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_074_8854533d5ae7.png)
 
 **3.5 本章小结**
 
@@ -527,7 +527,7 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 本章节在第三章对平面型 SiC MOSFET 和深槽 P+源极型 SiC MOSFET 两种器件结构的静态特性和动态特性进行仿真分析的基础上，对制备工艺流程进行了设计。流片采用了厚度 14μm，掺杂浓度 6e15cm-3 的 4H-SiC 外延片。由于平面型和深槽 P+源极型的工艺流程相差不大，只是针对深槽 P+源极型还需额外考虑沟槽刻蚀的问题。因此根据目前的工艺条件，制定了深槽 P+源极型 SiC MOSFET 器件的主要工艺流程，如图 4-1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAcopibDg48jUbZbsvN3UJiaGw8SCLFDmbJOv9GpO8ibQia2zhRF4giaEWVGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_075_a7e9f4e913c1.png)
 
 其中器件工艺流程简要分为以下几个步骤：
 
@@ -551,37 +551,37 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 器件结构参数的设计与工艺流程已经确定，使用 Ledit 软件进行了 1700V SiCMOSFET 器件版图的绘制，如图 4-2 所示。芯片尺寸为 3×4mm2。版图元胞为条形元胞，终端采用场限环结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAwZT3jJQUnd3ZkZWHxJJChC9s250DoDDUWyxiaejOkOl0XFuqZr6EbCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_076_565ee0ba8a82.png)
 
 **4.2 SiC MOSFET 的电学特性测试**
 
 图 4-3 为 MOSFET 芯片的光学显微照片和 TO-247 封装样管。图 4-3（a）上方部分为 SiC MOSFET 的 Gate 极，两边为 Source 极，背面为 Drain 极。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMA9b0icQqJmRtl6lkbUcgia3klSU756bNwtYic5XRlbIXYJ3KB82hNE2MIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_077_bf2a6a8098be.png)
 
 图 4-3 为 MOSFET 芯片的光学显微照片和 TO-247 封装样管。图 4-3（a）上方部分为 SiC MOSFET 的 Gate 极，两边为 Source 极，背面为 Drain 极。
 
 **4.2.1 阻断特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMARkFlaAichuZTGErlcaten0qeQ9mwBbHZnTVjDeYiaGqSWrUsl98ibibm2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_078_65e19c383d34.png)
 
 图 4-4 所示为器件的阻断特性曲线，SiC MOSFET 器件的击穿电压为 1850V，此时的漏极泄漏电流小于 1μA，满足器件 1700V 的设计要求。相较于理想平行平面结的击穿电压，结终端效率为 84%。实际测试的器件耐压值略低于仿真值，这是由工艺条件的偏差引起的，场限环未完整地发挥分担主结电场强度的作用。
 
 **4.2.2 转移特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAc4kWqiaWicO50FyFq7iadyGuribKSx6cgeT3K4EJzY14GS3Aw6z1xUEtuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_079_7cafb388a093.png)
 
 图 4-5 所示为器件的转移特性曲线，测试条件为 VGS=VDS。漏极电流为 100μA时，阈值电压为 3V。根据 2.1 节可知，测试所得的阈值电压值是较为理想的值。在保证了阈值电压不会因为过高而使沟道难以开启的同时，也避免了当阈值电压过低时而发生误开启的情况。
 
 **4.2.3 输出特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAuNtXhiaiajU2WTay853cK61njkZ6Egvylxib9hoQ4Iqm8ZC0iakpwKW7Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_080_d5c288f02077.png)
 
 如图 4-6 所示为器件的输出特性。栅极电压从 0V 扫描到 22V，漏极电压从 0V扫描到 10V。当 VGS=22V，VDS=2.5V 时，漏源电流 IDS为 15A，此时的比导通电阻为 16.7mΩ•cm2。
 
 **4.2.4 栅极泄漏电流**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAq8csibjYrticwc97RaUKGiaqalMdpdofwJcwoHFEwFwAK3kx5xXHDKIzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_081_7874a1001819.png)
 
 图 4-7 为 1700V/15A SiC MOSFET 器件的栅极泄漏电流测试曲线。测试条件为VDS=0V，将栅源电压VGS从0V逐渐增加至20V，栅极漏电流Igss最大值仅为0.5nA，表明器件栅极具有良好击穿特性。
 
@@ -589,7 +589,7 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 图 4-8 为功率 MOSFET 的寄生电容示意图，主要分为栅源之间电容 CGS，栅漏之间电容 CGD，漏源之间电容 CGS。其中，CGD 也称为反向传输电容、米勒电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAqYUibQIIIbRf4v6FUrgc1vdY2wpIhw5uTduR30WCB9V05vRcTc4Rib5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_082_b411951b6e80.png)
 
 若利用功率 MOSFET 的寄生电容参数进行定义，将器件电容分为输入电容 Ciss、输出电容 Coss、反向传输电容 Crss，相应的关系是：
 
@@ -599,7 +599,7 @@ UIS 测试电路如图 3-18 所示，被测试器件（DUT）为前两节设计�
 
 反向传输电容：Crss= CGD
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnoicFtqBicgDIVH9Z6H9XibMAkLWPMnKEfbGjqVnAiczaN9SFwmJR8ABy00dHGD4781extC1PZicHAYbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_083_903773cfad55.png)
 
 图 4-9 给出了 SiC MOSFET 器件的寄生电容测试曲线，测试条件为 VGS=0，f=1MHz，VDS 从 0V 逐渐增加到 800V，MOSFET 的电容随着漏源直流偏置电压非线性变化。当漏源电压 VDS 为 800V 时，Ciss 为 1.5 nF，Coss 为 71.5 pF，Crss 为 17.9 pF。寄生电容随着漏源电压 VDS 的增加而减小，其中，输出电容Coss 和反向传输电容 Crss 下降速率明显快于输入电容 Ciss。这是由于 MOSFET的寄生电容主要由两部分组成：一是氧化物相关电容，其值与漏源偏置电压无关，为 CGS；二是衬底耗尽层相关电容，其值与漏源偏置电压相关，为 CDS和 CGD。当电压增加时，耗尽层扩展，耗尽层电容减小，因此与耗尽层相关的电容 CDS 和 CGD 会随外加电压的增加而减小。因此输出电容 Coss 和反向传输电容 Crss 随着栅漏电压增加而减小，而输入电容 Ciss 中 CGS 比重更大，因此随栅漏电压变化很小。
 
@@ -625,4 +625,4 @@ CGD 是功率器件设计中需要考虑的关键电容。当栅极电流给 CGS
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_084_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电子科技大学_1700V碳化硅MOSFET器件和_UIS_特性研究_images\img_085_84aa944feb13.jpg)

@@ -12,7 +12,7 @@
 
 **关键词：**CLLC谐振变换器；自抗扰控制；SiC器件；软开关
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjQQ3uVxgCXibauEVqhfVVEMCU1NKgQEFT6yCvShpiaylLVIHBWbric8bQA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_000_738325b20a5e.jpg)
 
 **0. 引言**
 
@@ -26,7 +26,7 @@
 
 **1.1 拓扑结构**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjZBia4FEwRxrcNDrFU6tx5lnspVicBjFEBJ7iabv1DXdlibibD9HrXGScB6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_001_4d8c9a7f6ba6.png)
 
 双向全桥CLLC谐振变换器的拓扑结构如图1所示，包含充电模式和放电模式.双向CLLC谐振变换器由两个全桥电路和谐振网络组成，其中 S1—S4 和 S5—S8 构成两个全桥电路，Lr1 、Lr2、Lm、Cr1 与 Cr2 构成谐振网络，且 Cr1 和 Cr2 起隔直作用，变压器起电气隔离作用 . 充电模式时，S1、S4 与S2、S3 加占空比不超过 50% 的互补的驱动信号，S5—S8 充当二极管进行整流；放电模式时，S5、S8与 S6、S7加占空比不超过50%的互补的驱动信号，S1—S4进行整流.
 
@@ -36,23 +36,23 @@
 
 CLLC谐振变换器的正向电压增益表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vj2Sq7uJv3Zthn9TLv25QMwEGwgEwsDFGY8UI0k4tZSUhM5PAp6mGQtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_002_5583e1b876af.png)
 
-其中：谐振电路品质因数![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjs7iaWSKBsa8In7Bviao64BNDia98v1YxBWW3RAbCL9qge8zTDHgibS4OJw/640?wx_fmt=png&from=appmsg)，Req为一次侧交流等效负载；励磁电感与谐振电感的比值k \= Lm /Lr；副边谐振电感与原边谐振电感的比值g \= L′r2/Lr1；副边谐振电容与原边谐振电容的比值h \= C'r2 /Cr1；谐振频率![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjFJJricbwICsSV6ibkns6BzG3GKN8XC4ObW2U2g4sWkktZPHwV6vX6ZNQ/640?wx_fmt=png&from=appmsg)；归一化频率fn \= fs/fr，fs为实际频率。
+其中：谐振电路品质因数![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_003_7b76f27b583e.png)，Req为一次侧交流等效负载；励磁电感与谐振电感的比值k \= Lm /Lr；副边谐振电感与原边谐振电感的比值g \= L′r2/Lr1；副边谐振电容与原边谐振电容的比值h \= C'r2 /Cr1；谐振频率![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_004_95a82726534f.png)；归一化频率fn \= fs/fr，fs为实际频率。
 
 CLLC谐振变换器在谐振频率点电压增益表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjibRn39iaiaqR1z9j8q4e7e9CnqotuIznJj3yrhVF6AEo85dxwQ0t6KVbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_005_3739cc83ad7f.png)
 
 谐振点电压增益与g、h关系图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjxd4UExhxAG7zW2SicwEZnqzGtg0Fiaicf0FGibu9qpwooh2qWSLMaRUdFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_006_c7714bc04199.png)
 
 由图2与式（2）可知，若要保证CLLC变换器谐振点电压增益始终为1，则电感比值g和电容比值h需要满足 gh \= 1. 除了考虑正向电压增益，还需考虑反向电压增益.为了简化设计步骤，设置变换器正反向运行的增益一致，取 g \= h \= 1。
 
 则正向电压增益表达可简化为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjia7xicboqeLPXanicLc0CEJCxeUYZCJ4CzeUmjnR0RnmCDvUgXjTcEByg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_007_8c862ee1cb80.png)
 
 **1.3 软开关设计**
 
@@ -60,15 +60,15 @@ CLLC谐振变换器在谐振频率点电压增益表达式为：
 
 CLLC谐振变换器工作在感性区域时，能够实现原边开关管的零电压开通（ZVS）.在ZVS过程中，寄生电容需在死区时间进行完全充放电，才能确保谐振变换器原边开关实现ZVS.因此，需要分析这些参数的影响.在死区时间内，谐振电流等于励磁电流的峰值，而励磁电流的峰值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjHRGUWyg2HBYibPNk6WyuKMQxcH9p7Qg1EeGgwEP5uiaF2ZaoV6SvxbeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_008_6b26da9a5a0b.png)
 
 死区时间内，励磁电流峰值需满足对输出电容完全充放电，则可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjj8TeSS1lTLdooSYvPbuPJRfXvicUDJSAFwCZtguIqKEokZ7eT9qKtFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_009_7d42112c9061.png)
 
 因此，将式（4）代入式（5）可得满足 ZVS 的励磁电感的最大值，故Lm的取值范围为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjFf0LmFC9jicCaD6nnOfa6qVUt7Y5reyuY7gaklCxicSOwbSt9oNbQCiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_010_ce424dcebe1a.png)
 
 其中：n为变压器原副边匝比；Vin为输入电压；VO为输出电压；tdead 为死区时间；COSS 为开关管的输出电容；fs\_max为开关频率最大值。
 
@@ -78,7 +78,7 @@ k 值、Q 值范围的选取对于 CLLC 谐振变换器的设计至关重要，�
 
 若使变换器在全负载范围内都满足最小电压增益，则处于空载时的最大频率点电压增益需满足工作时所需的最小电压增益.当Q \=0时变换器空载，将Q \=0代入正向电压增益表达式，可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vj8ruwpxUNQSb81Goelsa8ZJ14EkDB216hmJ93KWScGoicOm4oGboCefg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_011_f94ddc1e7ad6.png)
 
 其中：kmax 为 k 的最大值；Mmin 为电压增益的最小值；fn\_max为归一化频率最大值.可求出k值的范围，再根据变换器要求选取合适的k值。
 
@@ -86,11 +86,11 @@ k 值、Q 值范围的选取对于 CLLC 谐振变换器的设计至关重要，�
 
 在设计Q值时需要保证在满载的情况下变换器的最小电压增益满足工作时所需的最大电压增益，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjicYAhWa9NyrufB0QMicBBxhm5eumG4ORx3seiaMt5AQMAHAF921ZfMkXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_012_fd72c597854b.png)
 
 谐振变换器在该谐振频率处的电压增益要大于变换器所需的最大增益值，将式（8）代入式（3）得增益表达式的最大品质因数Qmax为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjxWAcmogGcajUvibNzNF03kANNicsdJbiczHrEMKXccJLTqXtINvaIKdgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_013_c95665b8d117.png)
 
 其中：Mmax 为电压增益的最大值 . 得出 Q 值范围，再根据变换器要求选取合适的Q值。
 
@@ -102,39 +102,39 @@ k 值、Q 值范围的选取对于 CLLC 谐振变换器的设计至关重要，�
 
 全桥CLLC谐振变换器的设计参数如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vja0VZfo9Vt4gMM6miaaObibCqqEnuXxLpf2ODgxQsTCXd1O9nIac4nCIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_014_fa8e787785f6.png)
 
 2）参数设计
 
 变压器匝比：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjVTkWOe7vwocjur2IJuQPrPEZztdia0XsCYMPu4ZpopWKLWR5nG1BUkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_015_c491d6e69dcc.png)
 
 其中：Vin为变换器额定输入电压；Vout为变换器额定输出电压。
 
 变换器最大最小增益：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjwGtA3qKvvDp3Mxiap9BNrlYOwpE0UZuX6SVlqkeQg8UxmibvgWpLKVMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_016_1a732fd00a73.png)
 
 其中：Vout\_min为变换器输出电压最小值；Vin\_min为变换器输入电压最小值；Vout\_max为变换器输出电压最大值；Vin\_max为变换器输入电压最大值。
 
 励磁电感设计：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjwMe7kjO5ch2SpwVicxGuxJQ6AiadLA9OdUJql3hvbmeRWG46d0af2NNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_017_f784723e328a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjiadtOEacab7AJpibXspicg2QoXH09o8WIA9CrsD8RAGdC5cssT6ZticbZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_018_02568ee92b23.png)
 
 其中：po为输出功率.根据以上的参数设计可画出电压增益曲线，如图3所示.通过该增益曲线验证了设计的谐振参数满足 Mmax\=1.249、 Mmin\=0.874 的增益范围，空载和满载情况都工作于感性区，满足软开关要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjXKZBk8kqWgU2OHDywGGEUqn7spzuAMn3bnyNxkoWyczrUDKFC4XOCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_019_35e60e52e7e6.png)
 
 **1.5 基于SiC mosfet有源同步整流桥设计**
 
 Mosfet 在无驱动时，反向导通压降比较大，SiC mosfet 其无源导通损耗也较大 . 以罗姆公司sct3060al-e SiC mosfet 为例，其二极管导通压降达到 3.2 V. 当有驱动时反向导通与正向导通相似 . 为了实现 DC/DC 变换器的能量双向流动，其副边需进行整流设计 . 有源整流、无源整流电压波形如图4—图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjCBic4Cp3hjSSALOtII8ZYplREzR3KvibyLIdmKYYeNAuQcomfzQ3cCVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_020_569ab41184e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjLmy9ibPBicdXAdeNvJAibpuJ7W3Yq4XWqiaWSfPjnYQlFAG7kjmpqkdIBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_021_c32d7f08f508.png)
 
 由图 4、图 5 可知：采用 SiC mosfet 的无源整流，由于它存在着二极管导通压降，整流桥部分电压降低至296 V，器件功率损耗较大；相反有源整流桥没有二极管导通压降这一环节，其整流部分电压为299 V，器件功率损耗较低.通过对SiC mosfet副边进行有源整流桥的设计，达成了对整流桥电压输出的优化。
 
@@ -158,11 +158,11 @@ Mosfet 在无驱动时，反向导通压降比较大，SiC mosfet 其无源导�
 
 自抗扰控制器由扰动补偿、比例微分控制器、线性扩张状态观测器3部分组成.其基本结构如图6所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjpwwPGa5wLrbmp4Et0MYEAhAb4icgj5sUfrk9KAHiaCm0FxMm8Dgm9ImQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_022_94e9f040d63f.png)
 
 由图 6 可知，线性扩张状态观测器（LESO）利用系统的输入输出来估计扩张后的系统状态，是控制器的核心部分.对于n阶系统LESO状态方程为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjZ7ZictwSlsFab5z59X4xmMF1gBteWWzia8F6ZG6YZ1l7edYRXK2SfWDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_023_6b7638d186be.png)
 
 式中：u0为PD控制器的输出。
 
@@ -170,45 +170,45 @@ Mosfet 在无驱动时，反向导通压降比较大，SiC mosfet 其无源导�
 
 对于n阶系统：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjmHvMpkclzianOIBCRut8glVRVkF6wWzahyY9jSUXUmGyuhltb4Xsz1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_024_4fc8d40a6355.png)
 
 v 为给定信号；Kp、Kd 为控制器增益 . 这里CLLC 谐振变换器的 PD 控制器区别于一般采用v \- z1 的形式，因为 CLLC 谐振变换器区别于一般变占空比的控制方式.CLLC谐振变换器随着频率升高其输出反而降低.根据式（31）—式（33）得系统闭环传递函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vj0r0weGmAV1lMSDjc3HeR20vWw7qCJthiaGO2jTCgvJiaSgbnoeeB1iaJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_025_488d75faea69.png)
 
 综上所述，在simulink中搭建的CLLC谐振变换器的自抗扰控制器如图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjEEuNDXhELpBLAEABhe26iavNjhV7vqpNVDn7xuIS8OUZExp8JZ8WxWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_026_425b286068a4.png)
 
 **3. 仿真及分析**
 
 根据前面的分析设计，对系统正向和反向运行进行仿真 . 开关管采用罗姆公司 sct3060al-e SiC mosfet 的具体参数进行仿真，通态电阻为 0.6 Ω，寄生二极管压降为3.2 V.分别对变换器在正向和反向运行时不同工作情况下进行仿真.正向仿真波形如图 8—图 11 所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjajGticGRwHeicib1SicSXZ3qlbMlsyp9mJDPYLD1zPZUC5lKPvT2TkWLlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_027_ebe03624995c.png)
 
 图 8 中，原边开关管的漏源极电压下降为0时，开关管才开始导通，满足ZVS开通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjDVAJWAVQSmtyNHJG7dd5M4wWM4dbZlry4mE1jn7tl0uJrgbc3jTLrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_028_5a2bf9eb3cfa.png)
 
 图9中，变换器工作在谐振频率处，由于工作在谐振点，该谐振电流的波形近似为正弦波 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjzncauPeiaPibml15B2oHV05KPbWpoJTkQOoC8Kia9TcBPO7d82BuM1FVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_029_5cc6fc42bb89.png)
 
  由图 10 可知副边整流二极管恰好实现零电流关断（ZCS）.由图11可知，此时输出电压稳定在300 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjjRsKnONJGibyF2JVA70KW904GPG0ibVrPxhCCfMBkRjS62Y4FzPrV5LA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_030_7d0b395afa5d.png)
 
 反向仿真波形如图12—图13所示.同正向分析方法类似，可以看出全桥CLLC谐振变换器参数设计合理，能够实现 ZVS 和 ZCS，并且输出电压电流稳定，设计可行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjQLJEjhCeiaMplC3b5aQtXINcZgqZjiaLtdibrH4beMKrtD2FECWfvxJibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_031_256a2ad093d4.png)
 
 CLLC 谐振变换器的自抗扰控制（ADRC）框图及参数设计如图14—图15所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjG64u5jvE7hWW4XFuYWHPnYSgxpdO82x0YBMJBf9xImwib8gDzjnsWpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_032_ecc62e4b2913.png)
 
 根据设计的模型和参数运用simulink进行仿真对比验证.图16为模拟汽车运行时由半载切换到满载时电压动态响应图，其中虚线为传统的PID控制策略动态响应曲线，实线为自抗扰控制动态响应曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllHQvWOZiaI6PfESLoNO4vjwMmqibZ4D0ibLSFkwth6IB1SkVVjtSCLhpRpTqvG8pJn3SX86M5d6d9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_033_e353c546025f.png)
 
 通过对比仿真可知，相较于PID控制策略，采用自抗扰控制策略的超调量从 3.3% 降低至 1.6%，且超调时间更短，系统谐波含量更少.验证了对于新能源车CLLC谐振变换器采用自抗扰控制相比于传统的PID控制策略具有超调量小、调节时间短、抗扰性能强、输出电能质量好的优点。
 
@@ -218,10 +218,10 @@ CLLC 谐振变换器的自抗扰控制（ADRC）框图及参数设计如图14—
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_034_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_035_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件车载双向全桥CLLC谐振变换器设计及其控制方法研究_images\img_036_84aa944feb13.jpg)

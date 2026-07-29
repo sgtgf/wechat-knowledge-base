@@ -17,30 +17,30 @@
 
 随着碳化硅(silicon carbide，SiC)器件制造技术的突破，传统的基于硅(silicon，Si)器件的逆变器正在经历重大的变革。由于 SiC 器件具有更快的开关速度、更大的耐压等级以及更高的工作温度，它可以突破传统 Si 器件的性能极限，大幅度改善逆变器输出波形质量以及提高逆变器的功率密度，逐渐成为目前高性能逆变器的主流功率器件。然而，在SiC 逆变器高频工作时，更快的开关速度将会导致更大的共模(common mode，CM)电磁干扰(electromagnetic interference，EMI)，影响采样和逻辑控制电路，对系统的安全性和可靠性造成威胁。另一方面，尽管 SiC MOSFET 的单次硬开关损耗较小，但是，在开关频率很高时，这部分损耗会在系统损耗分布中占较大的比例，从而影响效率。因此，针对 SiC 逆变器的性能优化是近年来的热点课题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLItT80o6w5v1B0cFgdps8x9hqEGF85zq80sXweTib5DdgYm1IRSSrTPiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_000_e2602cedc655.png)
 
 文献\[10\]提出了一种高频双 Buck 逆变拓扑结构，避免了 SiC 逆变器桥臂直通现象的发生，消除了死区时间对输出电流的影响，提升电流质量。文献\[11\]通过同步整流的控制策略，在 7kW、40kHz开关频率的三相 SiC 逆变器样机上实现了 98.8%的效率。文献\[12\]使用了软开关控制策略，在 300kHz开关频率的实验条件下，使得 20kW 三相 SiC 逆变器的效率达到了 98.74%。文献\[13\]优化了驱动电路设计，使得桥臂的死区时间降低到 0.1s，并且显著提升了逆变器的效率。文献\[14\]分析了驱动过程中的暂态波形，选取了最优的驱动电阻，使得 50kW的 SiC 逆变器功率密度达到 26 kW/kg，并且在开关频率为 100kHz 下达到了 97.91%的效率。文献\[15\]提出了一种抗 EMI 噪音的数字滤波器，减缓了高频
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIKEicouQ00LcTwXqkKcu03LX6rXSSJMteRDRssf6X2ZQ77HKx2t1RjyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_001_dfca5f25ea3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIR2BfMqApZIiaGhybqibKRXY6TOya4xicUFichWaNX4dvhiaPpBAEzNNfahQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_002_721527a495f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIRBCPAQTLA5XTfiamZO0yep3pBBWL8lLxEztvJBhmkic64GGeJ2Rv25Cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_003_7872d8dce071.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIIHMb2mmbKAlmuniaXZIA8Mwu8w11icLZzIib61GxpqCtrTSzgOaGN10Hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_004_1491854a46fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIN2sbHCgmT1Ric3MBvE432tkbros8J3l2NcCfPvhTNGMNTl5FgUAHKsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_005_934c6fba680b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIribcqJYeV68aqvPnwItXuLhcCorFUsu10aibTB69OBAotZ94t1LmUQ2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_006_141fcf526bfe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIphvdxclvqLTkCHuZevulMOKIPoYU2xj6mCN327iazQwiaxiaUyMDAejew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_007_05d03c4e7c4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNA15EGAUJHxiaDsFSvCeLIZKVxiba553cKZPEtpt3pQVbOWU58LLlQSr1DYzWNq2vTPxg1cdDkeBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_008_3032a718f0c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_009_7c22e3b9a287.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_010_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于三相碳化硅逆变器的新型_PWM_策略_images\img_011_1241954b1b67.png)

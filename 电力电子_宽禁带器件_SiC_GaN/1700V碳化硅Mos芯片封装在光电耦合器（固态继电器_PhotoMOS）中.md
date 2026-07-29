@@ -11,13 +11,13 @@
 
 产品分九大类，消费级、工控级、车规级、航天级四个等级 400多个光耦品种，在通讯、电力、家电、 汽车、新能源等各个行业中应用。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmnY0snp6xiaCicPHktA3yrWbFIUV0pZhbgxGv8GLicYVdPDKWcw2v4yc78Q21moGPJtPDPY8EHRicdsA/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_000_ab86f059ff81.png)
 
 固态继电器（SSR) 是一种全部由固态电子元件组成的新型无触点开关器件，它利用电子元件的开关特性，可达到无触点无火花地接通和断开电路的目的，因此又被称为 “无触电开关”。既有放大驱动作用，又有隔离作用，很适合驱动大功率开关式执行机构，较之电磁继电器可靠性更高，且无触点、寿命长、速度快，对外界的干扰也小，已经广泛应用于家电产品及工业自动化产品上面。  
 
 **1-2.MOS输出（Photo Mos）继电器**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4eACaeWdlCoD2biaHby5IVnBjwZVqZoYV9BKV4qOBWwGrzlbSPNdg1CA/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_001_e8356cc4b990.png)
 
 PhotoMOS是一款由MOSFET光耦合LED组成的固态光耦继电器，固态光耦继电器它具有体积小、寿命长、稳定性好，抗干扰能力强等优点，在电路中起到了重要作用。目前已经广泛应用于各大领域，比如新能源电池BMS、测量测试仪器、工业控制设备、安全设备、医疗设备等。
 
@@ -47,7 +47,7 @@ PhotoMOS继电器的结构如上图所示。输入引脚连接到发光二极管
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4ZF3ic4XJ2s3VaiciatTgeAJGZKaV6ONLEzibFcfXu3hoCrdQgEtPupsCsQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_002_f9cd8ac3b401.png)
 
 以新能源汽车动力电电池为例，随着新能源汽车行业的不断发展，为了缓解续航里程.充电焦虑等问题，动力电池的电压不断升高，从最初的200-400V平台，提高到700-800V平台，部分产品需要高压900-1500V平台。在60V以上的高电压下，如果漏电，就很有可能危害人生安全，因此在BMS系统绝缘检测电路的设计中，需要用到一种高压隔离开关，用来确认高低压之间的完好隔离。高压隔离开关只有用Photo Mos固态继电器这一种选择。  
 
@@ -57,17 +57,17 @@ PhotoMOS继电器的结构如上图所示。输入引脚连接到发光二极管
 
 两种高压碳化硅MOS芯片资料：1700V5A（内阻1欧）和1700V1A（内阻15欧)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4TZibib6jGH6ClzicuZ6S82vUiblknrvibkJm2kTJicoQpteUEqLoGQhJdUtA/640?wx_fmt=png&from=appmsg)  
+![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_003_f10d58093196.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4M9icxUBoM0SHBjoH3RYot9EYqpLxhL77hW9TS3cgmEPMsOJLfia1cg2A/640?wx_fmt=png&from=appmsg)**1700V5A碳化硅MOS芯片资料**
+![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_004_34ec8fb8842e.png)**1700V5A碳化硅MOS芯片资料**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4LIgjKjLFV8q57UicCn9ibeGfgQLUt9BMc5Ria3KKjHlibUEYNAuFIjsNNQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4zYKrFOjiaYqJpibKsYUDiaB7GooqicHymVrHB9QQ9obUq2ucUHmibVxgtyA/640?wx_fmt=png&from=appmsg)**1700V1A碳化硅MOS芯片资料**
+![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_005_72461f97a7cc.png)![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_006_7e3bb4ee52f0.png)**1700V1A碳化硅MOS芯片资料**
 
 **三.国产PhotoMOS继电器产品**
 
 **3-1.产品外框**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM47FYFlb5wWEtKmuQEQQKDaQyQRNawrgfQIHibkDJ1D2mdmkQ7zfsMEVQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅Mos芯片封装在光电耦合器（固态继电器_PhotoMOS）中_images/img_007_e6cdd32546fc.png)
 
 **3-2.产品特性**  
 

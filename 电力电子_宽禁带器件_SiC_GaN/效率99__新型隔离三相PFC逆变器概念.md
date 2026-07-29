@@ -8,49 +8,49 @@
 
 作者:J. W. Kolar\* / D. Zhang+/ P. Sbabo◊/ D. Biadene ◊/P. Mattavelli ◊/ S. Weihe \* / J. Huber\* / M. Kasper#/ G. Deboy#\*ETH Zurich / +Univ. of Toronto / ◊Univ. of Padova /#Infineon Technologies Austria AG
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bHtBaroDRg8jHBibTI2n3xibm1Q4l5ts6iciakUemJpo9BT1nelr2L8CdOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_000_e462a6010980.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bIlb99goH4j3FDanzCDss3CKibicqWJOI5Ly0qehNVicibTKULRgYWLc92Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_001_ea004b934574.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bWicsquIuDa5vKoHtBkpPC9RwibYS7icibuxYIyg94Coj1DZAvlhDlUqRBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_002_b4709f0c4d37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bZadHx5PK2ML2dQeRtF0TGRuNzbgIuF2Z6zbWEYADODIbIbrEXgJSCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_003_9070a677a2bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bESe0xvvcVLC8cBAcLYiaR9NR48jIT3LoKyyRZaROiaQnrdIhzkcmoEUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_004_c29227caf3cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5blynE50gjaHxR1HIPRzvIGuEibYzsQ03Bmc4370sXKUtibNZ5L7icJnhTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_005_9e83f6a9a93a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bs6Pdc8bFV6HXC0Ga09Yqtwicdg4ZfJOibUB3q1UUMzASOLR2a9TSc9wQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_006_affc74400afb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bcOc3xusH06icyP0hxkOf1nOoPr19n6D3sGkHsbOBXM0oJ5POT4dMTibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_007_e58dee8a8762.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5blBD6XZ7qiaPGdEEGj1WtUVexIyCQslUAhlwiaUdWeSVIczFzpTktzTKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_008_960635a65cdf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bfzviaAZrtEOKwN7Ny8NPvThoZsrc26QPI6x4XbzOXKMgtsfOSuA1tqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_009_317cf63e9c3c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bwr0dFibicn9DdTCXK8yrzsgeBkV2ewBqTPH4b0GNUdfsq68xLrQtDSTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_010_f7cb011c7cee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5b2sIO3lb0jzM9e0MDzAsIstgfJfk1mmfD1AJ48yA4iaevibV8u7nMJjCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_011_83350178b75c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bAVW0H9afkfOM51PMHXCZtUtNVRia7fL71QEfJGL5JqF4IFMyHwqOZFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_012_77f77f816d38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bicuRcKF0VcPunAToOHgIic8rBmgmuQhjXuxy1UUFPnhoodNm8GGclMibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_013_a3ed217c0f79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bNODvUACCnibkzIen0vb0C3wzuUQ2uwP41POtq79oY4xjoUZ2lwkALFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_014_aa0507f23805.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bGL1UCiaoiajCicjcIZ53RjBEJfD37Dlnb8gWysjSq9XjCxibe55IcBeFew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_015_349aa4284add.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bBoLKRONSPJ4VUdBwBENvYib37ZDcARXKg8wMml6ia0PZEk9s8K66CZibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_016_fb97256de1c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bjlQw3FPzt53ViaSqpMrsTyFFHscibI648drQWicnzIGFal1mibQiamupptg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_017_51f116dbe105.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bBoRqKsAn4U5rF9RIpX4XiaMe9D3x84c97c2eax7D6T6jjNXcgXXArKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_018_eb24a217e938.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5btYjswTCwSmz59XnAZQdibBfxlUUD3DEw2L2eZjeDkSa2EJSARg54AQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_019_ec3fed8ce2b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bdaOrckCd6IBchgmDe3xm1MgicFuE1LKE0ia2kJniaV0yqcdblEkNWDDYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_020_6325db9b2f9c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1hZrzOvwR796R0rBBpy5bp1L3T0fXq0yFcolPDwgg9Z26jvC63hTXmhKfRdOBcsEaIuCiaK2EHVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_021_a29f72eaf889.png)
 
 注：文字与图片报告无关
 
@@ -183,10 +183,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn2AHntMbvQIYNQiaEdrNo5eRVUSvCibnydyDWABfM6icpNAPvfOC5pjZlVtU3JBQ8KACQ6YiczF5KUicA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_022_bb6ccd09cdd7.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2AHntMbvQIYNQiaEdrNo5eac5vt7KnahBkRU565un8seWHPWQfp4XKuMOXk5YXHShlmlcZNx62qg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2AHntMbvQIYNQiaEdrNo5e7MxicUUJKOxW4pbHX2FApSGFIxk9z8IlOzt0CvPmvSHODQwLZcdVveQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_023_4032297e1b94.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99__新型隔离三相PFC逆变器概念_images\img_024_532ddf75e653.jpg)

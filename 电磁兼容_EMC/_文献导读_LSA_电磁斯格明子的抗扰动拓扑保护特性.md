@@ -25,7 +25,7 @@ An Aloysius Wang, Zimo Zhao, Yifei Ma, Yuxi Cai, Runchen Zhang, Xiaoyi Shang, Yu
 
 出版信息：Light: Science & Applications (2024) 13:314, DOI: 10.1038/s41377-024-01659-z 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUrdRSLZLOnvOy8oZgbjZIn93zGYn7clxZmU4M0mribcGqnmwvM1KMGIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_LSA_电磁斯格明子的抗扰动拓扑保护特性_images\img_000_45074e73419f.png)
 
 论文摘要
 
@@ -55,27 +55,27 @@ An Aloysius Wang, Zimo Zhao, Yifei Ma, Yuxi Cai, Runchen Zhang, Xiaoyi Shang, Yu
 
 本文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUgWLGHP9j1l3ApINwsepvGb1K1ksibbGAzqmiaVtEiaUicqEkQ1wGsCqJgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_LSA_电磁斯格明子的抗扰动拓扑保护特性_images\img_001_6cfea30cdd29.png)
 
 图 1 | 斯格明子的定义及其与各种偏振像差的相互作用。a. 场在其边界上允许紧化的各种对称性特性及对应的紧化流形。对称性特性通过多边形展示，箭头表示沿箭头方向对不同边进行成对识别。请注意，某些对称性允许场被铺砌，这为周期性结构场赋予了拓扑特性。如正文所述，由于紧化的拓扑性质，可以自由变形此多边形，并且在无界场的情况下，可以考虑无穷远处的边界。图中还展示了满足相关对称性的可能斯托克斯场。值得注意的是，在边界上为常数值的场同时满足所有对称性，然而，也存在在其边界上非均匀但仍可紧化的场，如图所示。b. 示意图描绘了复杂的空间变化介质对入射光学斯格明子场的影响。本文仔细研究了表现出空间变化的延迟、二向色性、退偏振以及上述组合的系统。请注意，入射场的边界及相应的像差对于保证拓扑保护至关重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qU3mSFryl6EEPoyAQ9HzR5N0UnicxNOo9J95y7VXnswCd3FfmabttQpAA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_LSA_电磁斯格明子的抗扰动拓扑保护特性_images\img_002_15209d522182.png)
 
 图 2 | 实验装置和测量的斯托克斯场。a. 测试中使用的各种干扰元件及其所属的介质类别。b. 测试中使用的组件顺序和SLM相位图案。c. 不同实验配置和输入斯格明子数下测量的斯托克斯场。配置A的模拟斯托克斯场也一并显示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qU6cUib4SJB86v208dFh5QD95dapBePDVeUBfGia5M6FIxBqoaXOwhTmYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_LSA_电磁斯格明子的抗扰动拓扑保护特性_images\img_003_3602933cc85a.png)
 
 图 3 | 计算得到的斯格明子数及相关误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUaIcFeCch3KuenOBZZykiaQ2VaeW6hneCgQicvELNs75o5oDsib7tP5oDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_LSA_电磁斯格明子的抗扰动拓扑保护特性_images\img_004_38c150211f03.png)
 
 图 4 | 斯格明子通过空间变化延迟器的情况。一个一阶奈尔型斯格明子通过具有空间变化轴和延迟量的延迟器后的输出斯托克斯场。Δ的分布由最内环的等高线图表示，轴分布由第二内环的椭圆表示。输出斯托克斯场显示在第二外环，输出误差显示在最外环。【电磁甜甜圈注：空间变化延迟器的核心功能是：引入一个与空间位置相关的相对相位延迟，改变光的偏振态（例如，将线偏振光变为椭圆或圆偏振光）。】
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUbb4CkJbMdruXHuuk2ebwFibeSYvmDK2xnpGdkR2K6T5QVDj7biccAaibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_LSA_电磁斯格明子的抗扰动拓扑保护特性_images\img_005_e2f0f71543fd.png)
 
 图 5 | 斯格明子通过空间变化二向色性器件的情况。具有空间变化偏振度的的一阶奈尔型斯格明子通过具有空间变化二向色性的水平线性二向色性器件后的输出斯托克斯场。空间变化参数P和κ的分布由两个最内环的等高线图表示。【电磁甜甜圈注：空间变化二向色性器件的核心功能是：对光的不同偏振分量进行与空间位置相关的选择性吸收。】
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUeicqLibiabjxUsL6AkQkq2ugDpYZfPia2wMRofJN8DGG1tCkaH2QY5DvQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_LSA_电磁斯格明子的抗扰动拓扑保护特性_images\img_006_c3e2e327e4d4.png)
 
 图 6 | 斯格明子通过空间变化退偏振介质的情况。一个一阶奈尔型斯格明子通过具有空间变化参数d₁, d₂, d₃ 且 ε = 1 的I型退偏振介质后的输出斯托克斯场。输出斯托克斯场与入射偏振度无关。【电磁甜甜圈注：空间变化退偏振介质的核心功能是：降低光的偏振度，引入偏振随机性，是三种介质中破坏性最强的一种。】
 

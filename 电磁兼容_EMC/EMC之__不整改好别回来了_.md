@@ -18,11 +18,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnNMTqkaSSaicibjYeUWfLyk5ibLtmgUSKvmv8WC4q0B4wicULNyJ796hPMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_000_d12accc12e2b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnu62VYb9FOmTpJNvLzA0ObicFBVZasrUJ5SwXUNMeuoLjiaJT0wUv9svA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_001_63cb2c16591f.png)
 
   
 
@@ -30,7 +30,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnhIcqU1edPCKGib07QNiazRcAoQgBaWDGKqt375ewpT4DibI3BSreZnI1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_002_6fb99d00008c.png)
 
   
 
@@ -42,7 +42,7 @@
 
   
 
-开玩笑![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatn7aLnCOibLvBCOBNZtCnQhW2EibTUSty9qGg5kkrdtQqqd1sjLatN8ySA/640?wx_fmt=png)，高工（高级工程师简称高工）那句“不整改好不要回来了”怕不是虚的，这不离晚上10点还有几个小时，我先了解一下概念呗（老手们没看错，我就是要先了解一下EN 55032和辐射的概念![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnkacTp0tVib1XW7ibfCwLkYw1pp9pZMMicORfgEf33x4DIkJA8R4w7RKJQ/640?wx_fmt=png)，此前我没去过实验室，这是第一次接触EMC整改，如果说明天下午要上战场，那么现在我就是个才加入军队的小兵![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnkacTp0tVib1XW7ibfCwLkYw1pp9pZMMicORfgEf33x4DIkJA8R4w7RKJQ/640?wx_fmt=png)）。当然基本概念某度一下就知道了，重头戏是整改方案，这可不是某度就能找到答案的。于是第二步——准备解决方案便启动了。在技术修炼这条路上，谁还没有几个同道中人和论道的圈子，虽然我是刚出栏的小牛，但圈子里的大牛多呀！……此处忽略一万个字，请教的过程先略过，后面致敬！
+开玩笑![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_003_8cda9cfe3211.png)，高工（高级工程师简称高工）那句“不整改好不要回来了”怕不是虚的，这不离晚上10点还有几个小时，我先了解一下概念呗（老手们没看错，我就是要先了解一下EN 55032和辐射的概念![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_005_2b57f8d6134c.png)，此前我没去过实验室，这是第一次接触EMC整改，如果说明天下午要上战场，那么现在我就是个才加入军队的小兵![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_004_2b57f8d6134c.png)）。当然基本概念某度一下就知道了，重头戏是整改方案，这可不是某度就能找到答案的。于是第二步——准备解决方案便启动了。在技术修炼这条路上，谁还没有几个同道中人和论道的圈子，虽然我是刚出栏的小牛，但圈子里的大牛多呀！……此处忽略一万个字，请教的过程先略过，后面致敬！
 
   
 
@@ -50,7 +50,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnGwiclmpE6LPeSpmO2Aic0iaW5VOcozTVeRcAkr4xm9SPqicdZlicAWbaDyQ/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_006_eeb2ac3d3e49.jpg)  
 
   
 
@@ -62,7 +62,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnNoCXNxOAOeW7ibpdtYMibqlbicXs1S75tFDeZ8LVTGPgpCZhvXpQdPZrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_007_27bfd2a422ba.png)
 
 （现场忘拍照片了，这是某度找来的）  
 
@@ -84,9 +84,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatnicyFx5pslmHuaF6GB4zzedrYiafr7D3iavN2sEIGzVGGawtuwSyibNakog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_008_24c7abc0e757.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV7vh4pUctIEnWqpIPMTYatn1vJJVynkhxZuGgsp62alwlk5k3nozJYiaFW8CJ4Degm8JDsibW4r85KQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_009_80e2dc4074bd.png)
 
   
 
@@ -106,7 +106,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhT00nQicnsl7dzN3M3kRSJQh7lN8XpQha7J5Sf0Yjd6K5Mia8kIo6dHbTt27VdiaPmm8lpHvxvQVfzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_010_1c3d9534b586.png)
 
 接着继续测试...
 
@@ -116,11 +116,11 @@
 
 **先看一下全功能运行时的数据：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibUVaYAv9Lk2YLuFuL3f4X84icAC5o9qK9ZjkpM2QWzVGPxZGsLnauIEmg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_011_72a5f4bc4942.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibUC2yMadCE9PIOibuavEoG1Wa2ibXTKWknaiaic4ibWjibdnEfn32iaH8l48iceQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_012_fc25f08813f1.png)
 
   
 
@@ -142,7 +142,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibUu3PZY5zNL8V4Ahkg6NQUnDicFBmPlMURhbibTcxDdtrX1lGeTHXzRQVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_013_73ae6d19f3c4.png)
 
   
 
@@ -158,11 +158,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibUhhicgiatsjKOm7qA4RfH0gQMJWydHfP0eqeXcvx0icA4nnSGhoyiab5Aaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_014_af6ae1daf163.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibUwY1H4I4urelR6sMh9yNqLPeN9xlPvbBg3siaX7TrwvmDo0iabnyV6veA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_015_798b994504d3.png)
 
   
 
@@ -178,7 +178,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibUaPQZScFOjXwc85A0T975NVtiaRgfZTYgwrLVrtezcicUoqhc7qabJialQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_016_dd584da68ed8.png)
 
 换料当然是很快的啦，就三步：拆机、换料、装机，搞定，再次测试~  
 
@@ -188,11 +188,11 @@
 
 **串磁环加绕线、ESD换成33pF测得的数据：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibU9ZLWFnW8Q6jQ5ib4CaApleOpAXqxBPvJ25Z7hbMt10dPek4Aqky2eTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_017_0b3dc1f75629.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibU2ibeqdZaVVicXs5eUXgsrian9mbiahsZb5Vic9x9HyfpAXRCccfmltdicTzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_018_4c4b280f1cc1.png)
 
   
 
@@ -200,7 +200,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV54lcDQ8gVoMcpia0Ubg6wibUM9hUg57umia94KYmD3gKdwXv3TuoOdtxUNOwPHfCvy4rg33MygrRIlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_019_5e4cbefd8a43.png)
 
   
 
@@ -232,7 +232,7 @@
 
   
 
-PS：这次的改动是把所有的招数都用上了，要是测试还没通过，我也没辙了![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Caog9bCZgvtH3jjojsp4MKgJsfycibBD1myicm4Kc3uovtJDMEvGCsKfefw/640?wx_fmt=png)
+PS：这次的改动是把所有的招数都用上了，要是测试还没通过，我也没辙了![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_020_56a36de0973b.png)
 
   
 
@@ -244,11 +244,11 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
 ****串磁环加绕线、**USB处的ESD管NC、机器内USB线加屏蔽、部分DCDC区域加屏蔽、触摸按键板排线加屏蔽、MIPI摄像头排线加屏蔽测得的数据：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Caot3yCZEx6ma6INQ0edPJVAcDsS8jG1zFnYTsTJ5BbNR4nGNajhZlsVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_021_a8b48a4e1d23.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoOqKmuO8BYyTfIlibB3jicg5WhF2357zuWdvEhiavETGlApSLgVUw7IJTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_022_357eec3dc2eb.png)
 
   
 
@@ -256,11 +256,11 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoIWAXFoIVlX4FVzL9dCwdp48OiagZ6q5AhicpRDzlrzzjicONRO7gWqYiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_023_a005f0e5b48d.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Cao82iaC40I8BFYicR9WRoGEQAoxzdrSWVLaKajy4hpHZvvHQZI2g7NelNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_024_286c2b954f69.png)
 
   
 
@@ -274,7 +274,7 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoB28PgMFWUDiayX3mFW5dbjmnN3cEuYpH1oia2mETfTzLalmZGk0hUy6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_025_56ab429308b2.png)
 
   
 
@@ -288,15 +288,15 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoXoh6Ml8SqSjX42Y7TbV67KvcWczibogJeicQNZKfcKofic0lkFG8iaKs5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_026_7941023232a7.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaolyiasLLUwpxFyUmu38c99s9vxjhlmicaLPmJ91FEMqScMJ3qG2T4Od0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_027_900f14a1a9bb.png)
 
   
 
-去掉绕了线的磁环后，测试图简直是杂草丛生![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Cao73fic1dgkUwz1iaLVJstibicZB4AwZDHn34k70yCuFwT7jKrpQRtApAlzQ/640?wx_fmt=png)，显然，磁环加绕线的做法在抑制辐射中起了极大的作用且不能被替代。
+去掉绕了线的磁环后，测试图简直是杂草丛生![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_028_a56d1d9b9618.png)，显然，磁环加绕线的做法在抑制辐射中起了极大的作用且不能被替代。
 
   
 
@@ -308,11 +308,11 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoOZtyibicqt8jJU1dtDwO1WfqGVW4ibzZHdb0lGoiapebibroBniaQbOzdfXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_029_02f55a9d78f2.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaocFUseaicCFzRIeMsx0CCtyBClJda0gJreEBh8K9YplBfdUnh0Wt1s2A/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_030_eb517fc32ca5.png)  
 
   
 
@@ -326,40 +326,40 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
 3、在2的基础上，去除DCDC区域的屏蔽，辐射当然是更大了，并且水平方向和垂直方向的辐射强度发生了翻转，即整体辐射更大，但水平方向较垂直方向增强的辐射更大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Cao7yhe3ZIEboTQQicUylvzpp8EliaOsANU5ee0oN4FJquicKE7ibHvWSMsVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_031_c69f0f1158f2.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoWEB4bMYjgftwUibcK3nTWuF5rKppicBv3GeesdqXFxFUic7AlyUiaxvo4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_032_93fda108811f.png)
 
 （垂直方向辐射测试数据）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaocqGtophIA8zVjNdMNJVQsyYiaKPDiciaeHF2PicTDfMjTnptzWx23lR54A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_033_2c6da5589a17.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Cao6xNjsn1jTAicTb7Xs3qEog6rAfANtFoNwa3RYA9wtCAtUjGrM1KDHBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_034_8f8c8c2c1acf.png)
 
 （水平方向辐射测试数据）
 
 **最后附上高频辐射测试图：  
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Cao7bicyelH8jGMlQlZhb4zQ7uTDECq1C7J5micrV7LcQfHjBJiaFu4FuEZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_035_52b20bd1c2ec.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Cao2m9ZibgPYdGz19EUHJickayyT9ETUAJxeF5VOWmJKiatylSKXwYfUrBng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_036_f78e4d349faf.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoFUhlyrl5xQyibEO1b60fhlDLltOeOxywOEWCGrROE7gicLajZic2frfJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_037_8d4ea47091d2.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2Caojgk82YbicwliaKvIxibpWDBAibnfhFCO9jgS3znK1Eficyg2yWWE1nXYqJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_038_1ef09298e80c.png)
 
   
 
@@ -402,7 +402,7 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoKlMG19OmC0M0pzAvjHPiaq3KrazrejNYHxzqibZic5Gs830UcvPbBhyEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_039_36290fb7da6e.png)
 
 ——出自拥有二十几年经验的谢大侠  
 
@@ -410,13 +410,13 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoiafibQu5YKzXGDohnfoCy2x2EHdt1fcw0v3U9ElXNRanCHY1sVxlLCXA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_040_7a9b3e713e5d.png)
 
 ——出自大牛N（科学家）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoEgRwfP30gvqOfU1FYaia3oILtgWnAIYbQTSSHPwQS1BW0mgZoqhIAuQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_041_f9934e7f06cf.png)
 
 ——出自经验丰富的xl大侠
 
@@ -424,7 +424,7 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaovFJKHbCiceGzg2xH4ic0leEQJ72XmNhSp9wYiaQgFkCXTRJVlQ5sHuycA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_042_049ec68f8387.png)
 
 ——出自热心的肉刀大侠
 
@@ -432,7 +432,7 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fgzCXQ1TLV5aibWqSGXkbQLicgaSew2CaoKBLmqA8QoibkfwcjiaBdVfDnkia3uov5PRX1YEibF9EPSR86JM2XRkPutQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_043_0424e6cfdb27.png)
 
 ——出自强劲的某打水大侠
 
@@ -448,4 +448,4 @@ PS：这次的改动是把所有的招数都用上了，要是测试还没通过
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhT00nQicnsl7dzN3M3kRSJQibjkxQqeEI7ZCV6bU2XukIf4Qar32ugUlUlaRC1dH8yjIiav0har5Z3w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之__不整改好别回来了__images\img_044_46eeb838223e.png)

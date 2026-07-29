@@ -12,15 +12,15 @@
 
 CES Conference
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAbwgqoRwJNrbvnQHeiaoibuJias5kic3yzjYGJoyYCsHjXan9ibb5T3h9pUA/640?wx_fmt=png)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_000_afeba5078a79.png)](https://www.fafee.org.cn/)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAZjvvJevUPumtXauAcia1nfPsMqzZkt8ISZyd3kt2jibibGMtTOicGYJxDQ/640?wx_fmt=jpeg)](https://www.eml-foru.com/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_001_2830cffbb6e1.jpg)](https://www.eml-foru.com/)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAK4ecYZBsgn1JFJQ4ib7BcXwfAfNp9iaXoHBfPTjicNwFAwT9icYPZgl6qw/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_002_b4072c3350ca.png)](https://www.icwpt-conf.com/)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAICQ69CrVPhUTTOF9gUPfpfz706Iurs3oBEo5nj9WVMXfzrQQkDibkYA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_003_3015a4567b4e.jpg)
 
 **CES TEMS**
 
@@ -148,7 +148,7 @@ Basharat Ullah, Hikmat Ullah, and Sumeet Khalid
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAUPhojUEXlF5Yl9Onmw8fUvWJ6VBljyb9icMOvMiaTs5ugzDHFBeyHW8Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_004_c4070cfda8ad.jpg)
 
 **扫码参会  FAFEE 2022**
 
@@ -158,7 +158,7 @@ Basharat Ullah, Hikmat Ullah, and Sumeet Khalid
 
 2022年11月3日-5日  武汉
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAzCrjwPMficNGHrdk9M9lIyzriaesHRf91sTyjpdwT7cqhhILTR2xFMOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_005_118e9f699879.png)
 
   
 
@@ -194,15 +194,15 @@ Basharat Ullah, Hikmat Ullah, and Sumeet Khalid
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAJcJcwH3teRVibCQua6M4ZY1mC0rT3gGic5VekG6Da08f0S5oicusUoCIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_006_25bfa145597e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAyHUmedCNwloZGuvNZb0owh1nkfKACbngefHrQoXScJQErkYeaEfSnA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_007_18fd4a30f935.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdA5nkdGmqh92ht0rr4F0ykYOflSXjpv1Gr832IFkcdUKl9FRw1mg8QHg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_008_c89492bad652.jpg)
 
 学会官方微信
 
@@ -210,15 +210,15 @@ Basharat Ullah, Hikmat Ullah, and Sumeet Khalid
 
 CES电气
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAj69PuaMcVt0Hxtib6bSVEK5xNRGOsEBO8NpHZT09ODpBS6ewS5gHP4w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_009_612ce369b57e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAj1hYoicnI6k0EIpVlrq3xFRwCzQLYyleQeCEIxqrsWFCNkUUkyAW4Qg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_010_24ee3ae0ae7d.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAPvVtUeOqu2K5AS8MLNtfyQPiaLGCtArF20gia5bHVcbwC6iaIT4edjKiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_011_3e3edffd42f3.png)
 
 学会官方B站
 
@@ -226,15 +226,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdAO8wMFEtVaPs8kbbH3TMRJu87veXC9XGeLibBLoXBlBAwZUvhLdwtu1w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_012_e5dd219fc839.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdA3ckcVG8ru1MuVRHJTlftsxSV5bDTUnFl9c8BI8wb4Ah84NdsGuJutw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_013_bc4345fd08fd.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17icoJQTyEbSdG4JkfLsfeCdACGQbCbrwGBIQu8icPSiakAtplHvHN9549VEvsWrFicp3gfbAliawm53qww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看_CES_TEMS_2022年第3期目次及摘要_images\img_014_3d85afc5e96c.jpg)
 
 学会科普微信
 

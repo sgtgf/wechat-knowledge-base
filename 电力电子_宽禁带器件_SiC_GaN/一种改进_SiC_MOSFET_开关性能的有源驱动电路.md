@@ -29,33 +29,33 @@
 
 **1\. SiC MOSFET 开关过程分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgS5e9qnmxiaB2GyEUHMk6h3W6kE6suuWqvutiaFlc25NyycgamibKPe6rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_000_d432a554ca9d.png)
 
 采用图 1 所示的双脉冲测试电路，对 SiC MOSFET 的开关过程进行详细分析，得出器件开关过程中电流、电压过冲和振荡的产生机理。图 1 中：Vdc为直流母线电压；C 为滤波电容；L 为负载电感；Df为续流二极管；Rf、Lf和 Cf分别为续流二极管的寄生电阻、寄生电感和寄生电容；Cgd、Cgs 和 Cds分别为 SiC MOSFET 的栅漏极、栅源极和漏源极寄生电容；Lg、Ld 和 Ls 分别为 SiC MOSFET 的栅极、漏极和源极寄生电感；Lloop 和 Rstray分别为电路中的寄生电感和杂散电阻；Rg为 SiC MOSFET 的栅极驱动电阻。为简化分析，定义 SiC MOSFET 的输入电容 Ciss Cgd Cgs，输出电容 Coss Cgd Cds。
 
 **1.1 SiC MOSFET 开通过程分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgLJXv3e9wR4XcugD2dgUarQQIE6MicBUAREFRamekcqaOiblhut3eOSiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_001_6280d1611425.png)
 
 图 2 为 SiC MOSFET 开通过程中驱动电压 VG、栅源极电压 Vgs、漏极电流 id 和漏源极电压 Vds 的典型波形，由图 2 可知，SiC MOSFET 的开通过程可以分成 4 个阶段。
 
 1）阶段 1\[t0—t1\]：t0时刻，驱动电压 VG从 Vee阶跃至 Vcc，栅源极电压 Vgs 逐渐上升并通过驱动电阻 Rg 为输入电容 Ciss 充电，该阶段内，Vgs 始终小于阈值电压 Vth，器件处于关断状态，Vgs 可由式(1)表示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslBBZHLvtHzVgZgrAFHFviaKcpIVwDBtVNoESwg7mH6NlaibxUvrA5OQUU3qrk5sLYLYFZxey4LC3Ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_002_cb496c6d5897.png)
 
 2）阶段 2\[t1—t2\]：t1 时刻，Vgs 上升至 Vth，器件开始导通，负载电流由续流二极管流向 SiC MOSFET，漏极电流 id 由 0 迅速上升，可由式(2)表示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgbeSyJ5AWHsgiabNFBPKRKcoumyzVA25DqtTNNuU0zAlV1emaXzCRf3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_003_e6ed99a9ee47.png)
 
 式中 gfs为 SiC MOSFET 的跨导。
 
 由于续流二极管中存储电荷的存在，当 id 上升至负载电流 iL时，其会进入反向恢复过程并产生反向恢复电流，反向恢复电流的最大值如式(3)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgySrsvEaPve3lJYrftYVJGvFchqJfxkDzGUiaic9axqUHLYX38qKj211w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_004_efa24d33037c.png)
 
 由于反向恢复电流的存在，id 会继续上升至d-peak，且 id 快速变化产生的大 di/dt 会在寄生电感上产生压降，导致器件漏源极电压 Vds 下降，如式(5)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGg1eHacm7xACt3JUkeC2uSHhCAFoHv5VmgPOxyibWpCmYjkMZbINIRWaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_005_4b2259ddb5a6.png)
 
 3）阶段 3\[t2—t3\]：器件进入米勒平台，Vgs 保持为米勒电压 VMiller不变，id 由 id-peak下降至 iL并保持不变，续流二极管开始阻断电压，Vds 迅速下降至零并保持不变。
 
@@ -65,7 +65,7 @@
 
 图 3 为 SiC MOSFET 关断过程中驱动电压 VG、栅源极电压 Vgs、漏极电流 id 和漏源极电压 Vds 的典型波形，由图 3 可以得出，SiC MOSFET 的关断过程可以分成 4 个阶段。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGg1M5ffAGWh5Rdbl6bnQvp1agzc2mtHfCPjNJyj3uqu2rKhhWADKBFOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_006_8a22d0c423f6.png)
 
 1）阶段 5\[t5—t6\]：t5 时刻，VG由 Vcc阶跃至 Vee，Vgs 缓慢下降并通过 Rg 为 Ciss 放电，该阶段内，SiC MOSFET 仍处于导通状态。
 
@@ -73,13 +73,13 @@
 
 3）阶段 7\[t7—t8\]：t7 时刻，续流二极管停止阻断电压，负载电流开始由 SiC MOSFET 转移至续流二极管，id 迅速下降，电流的快速变化会在寄生电感两端产生压降，并会在 SiC MOSFET 上产生额外应力，导致 Vds 发生过冲，由式(5)可知，过冲电压Vos 可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgfIRNsX7g3BY6jnFcAQPicMRPmD5DzENZNJxl36CjMom0gVy1KEfxdJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_007_264c78cfc5fe.png)
 
 当 Vgs 下降至 Vth 时，该阶段结束。
 
 4）阶段 8\[t8—t9\]：Vgs 由 Vth 下降至 Vee，SiC MOSFET 于 t8 时刻完全关断，由于电路中杂散电阻 Rstray的存在，电压过冲 Vos 会发生衰减振荡，如式(7)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgt4icIsRiaDBM4icHU6uzoM3KnCKeVUgWUcK1qHrWXCmF60lHKibtaGZ3Yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_008_e70a62bcc309.png)
 
 **2. 有源驱动电路**
 
@@ -89,27 +89,27 @@
 
 基于上述分析，本文设计一款有源驱动电路，能够在 SiC MOSFET 开关过程的特定阶段内增加驱动电阻 Rg和减小栅极电流 ig，其他开关阶段内表现为传统驱动电路，实现在增加一定开关损耗的基础上，有效抑制器件开关过程中的电流、电压过冲和振荡。图 4 为设计的有源驱动电路原理图，该有源驱动电路共包括 4 个部分：检测电路、脉冲产生电路、电流注入电路和驱动电阻电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgicaiaylOqkoLX9pvPGrAz95uPqlsjyT8AhWgnQY9ArzAiagcia8bl6AeibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_009_c52520050976.png)
 
 1）检测电路：为了保证有源驱动电路动作时间的准确性，所设计的检测电路包括栅源极电压 Vgs检测电路和漏极电流 id 检测电路。其中，Vgs 检测电路由 2 个分压电阻和一个电容组成，分别和器件的栅、源极相连。id 检测电路通过在器件源极串联一个电阻 R6 将电流信号转为电压信号，并通过 2个分压电阻和一个电容进行测量。为了尽可能减小对 SiC MOSFET 开关特性的影响，选用低值电阻R6 检测电流 id。当仅采用 Vgs 检测电路时，器件开关过程中的信号抖动可能会造成电路误动作，从而影响有源驱动电路动作时间的准确性，引入 id检测电路可有效避免该现象的发生。取 R4  15k，R5 5k，R6  0.5，R7  10k，R8 的取值随负载电流的改变而改变，C1 C2  10pF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgqzq5fnvBYMibF1eBRGVehVMKt2vWsZlCTXeYHrxXTv0t20b6svLiaknA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_010_67668f6ed419.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgyPibMsm3Z6qd3fKYaibAJwKmwjIaxbgvw6kv9kezM2y5dGG6TMuAWIrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_011_31d9e4a4cb52.png)
 
 2）脉冲产生电路：脉冲产生电路由 3 个电压比较器、2 个逻辑门和 2 个比例放大电路组成。将检测电路检测到的 Vgs 和 id 信号分别与参考电压Vref1、Vref2 和 Vref3 进行比较，能够在器件各开关阶段内产生不同的脉冲信号以控制后级电路。图 5 为电压比较器、逻辑门的输出脉冲和 SiC MOSFET 的开关波形，由图 5 可知，电压比较器的参考电压Vref1—Vref3 决定了脉冲信号的作用时间和持续时间，如果参考电压值选取过大，则脉冲信号持续时间过短，电路无法达到预期效果，如果参考电压值选取过小，则脉冲信号持续时间过长，会增加器件的开关时间和开关损耗，甚至造成误触发。同时由于电路中电压比较器、逻辑门等器件引起的延时，Vref1—Vref3值的选取需要留有一定裕度。通过式(8)—(10)可以计算得出 Vref1—Vref3 的取值，表 1 给出了脉冲产生电路中各元器件的选型及引起的延时。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgPLFBaicJvFqQZCuImPSFqwxK1J2NoV2WJKmxTicnY8PKu9NCG265pDjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_012_eac4e70a3b7e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgotR8rewX9iawCqdD0l0IUnUXWibzVicDWpPlnjM1B3YtkZQlUFQT56y1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_013_6ac715514bd0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgMnX11zYuz8dK55QgtPQEiaZN3SuTiaO5wQfxbk05tGVY4VBHPJOEuICg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_014_58e29d203c42.png)
 
 式中：Vyd 为留取的电压裕度，取值为 1V；tdelay为脉冲产生电路中器件引起的总延时。
 
 由于逻辑门的输出电压较小，无法直接驱动开关管，因此采用比例放大电路，将逻辑门的输出信号进行放大以控制开关管的通断。取 R11  R13 5k，R12  R14  20k，比例放大电路的输入输出关系由式(11)、(12)表示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgy31wxoQCjmjiaSfxluTzz06YUPcnfxOtKOqOl44GuCkNCjDibGqfrxuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_015_01891c7bd6a5.png)
 
 式中 VAND、VNAND 分别为“与”逻辑门和“与非”逻辑门的输出电压。
 
@@ -119,25 +119,25 @@
 
 **3. 实验验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgVENy2WpCy1tw01vCbohN2CzsR7SIPUn7XecVaSBg8HWmzQgYZpcJ5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_016_d9e5729f6f61.png)
 
 根据图 4 所示的有源驱动电路原理图，搭建图 6 所示的硬件电路，对其进行实验验证，表 2 给出了所用的实验设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGg9IyR6tTmC4bx8HSd6vWrsPmNiaD2yPZEnYgRQc3VtcvvJiaJ7f70juEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_017_735074bdead0.png)
 
 为了验证所提 AGD 与传统驱动电路(conventional gate driver，CGD)相比在改善器件电流、电压过冲和振荡方面的优势，分别在不同驱动电阻、负载电流和 SiC MOSFET 条件下进行多组对比实验，详细实验内容如下：
 
 **3.1 不同驱动电阻实验**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgicRbyibhiboguhrrpLK2DpIMfOG1gnBiaDNaeCso9fouydrMj1vH4JXyTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_018_6638e73c99c5.png)
 
 通过改变驱动电阻阻值，对不同驱动电阻条件下 CGD 和 AGD 之间的 SiC MOSFET 开关特性进行对比，实验结果如图 7 所示，其中，直流母线电压为 400V，负载电流为 20A，驱动电阻阻值分别为 20、50 和 100，R8  20k，根据式(1)、(4)和式(8)—(10)可以计算得出不同驱动电阻阻值条件下，AGD 电路中电压比较器参考电压 Vref1—Vref3的取值，如表 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgvTRlVcHTJhmg11IDFgy9glxHN3icl1aymcRLGiaBv8QGic4u7mic0AZlgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_019_ce236f4005c1.png)
 
 图8为不同驱动电阻阻值条件下，CGD和AGD之间的 SiC MOSFET 开关损耗对比，表 4 对不同驱动条件下，器件的电流、电压过冲、振荡和总开关损耗进行了对比汇总。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGguVKSUTZsReVDKTM9LOONjw61ZQltOvNicicSpffUwcKQ8Bd6z1FC0icPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_020_55dd96866deb.png)
 
 从表 4 可知，在相同驱动电阻阻值条件下，AGD 条件下电流、电压过冲和振荡要明显小于CGD，其中，电流过冲幅值平均下降 10.8%，振荡时间平均缩短 43.7%，电压过冲幅值平均下降6.8%，振荡时间平均缩短 38.6%，但同时，AGD 的总开关损耗比 CGD 平均增加 29.2%。当驱动电阻从 20增加至 100时，AGD 分别比 CGD 多37.4%、29.2%和 21.0%的开关损耗，可以得出，随着驱动电阻阻值的增加，AGD 比 CGD 增加的开关损耗比值逐渐减小。
 
@@ -147,17 +147,17 @@
 
 **3.2 不同负载电流实验**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgjppPVvpiacqFoRsCkDA2xC2UDkEM1h1XpzxGdRts8xJRo7ibJAAwABsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_021_69b12f2bb8f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgdlaqBicXjx5wkdHUm1CUgh4CMkV3GTsJlK3tb8xUPIlWuGgynbWeQDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_022_5907225c667e.png)
 
 通过改变负载电感大小，对不同负载电流条件下，CGD 和 AGD 的 SiC MOSFET 开关特性进行对比，实验结果如图 9、10 所示，其中直流母线电压为 400V，负载电流分别为 20、30 和 40A，驱动电阻阻值为 20，负载电流 20A 时，R8  20k，负载电流为 30 和 40A 时，R8  5k，根据式(1)、(4)和式(8)—(10)可计算得出不同负载电流条件下，电压比较器参考电压 Vref1—Vref3 的取值，如表 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgvtDTPNs19S65CAAm61suxC8H5ywib1WnAKPuU622Kfic8byZ1NIdr20g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_023_481d341e343f.png)
 
 图 11 为不同负载电流条件下，CGD 和 AGD之间的 SiC MOSFET 开关损耗对比，表 6 对不同驱动条件下，器件的电流、电压过冲和总开关损耗进行了对比汇总。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGggxibntvnVmmSww7ybJicau2RfMCpn4Ehx2OZ1K8szPC5pZOgbamwwLUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_024_e7374af36f17.png)
 
 从表 6 可知，在相同负载电流条件下，AGD条件下的电流、电压过冲和振荡要明显小于 CGD，随着负载电流的增加，CGD 条件下器件的开通电流平均过冲幅度为 31.35%，关断电压平均过冲幅度为33.75%，相应的，AGD 条件下器件的开通电流平均过冲幅度为 23.0%，关断电压平均过冲幅度为17.5%，但同时，AGD 的总开关损耗比 CGD 平均增加 28.8%。，当负载电流从 20A 上升至 40A 时，AGD 分别比 CGD 多 37.4%，27.4%和 21.6%的开关损耗，可以得出，随着负载电流的上升，AGD 比CGD 增加的开关损耗逐渐减小。
 
@@ -165,7 +165,7 @@
 
 为了进一步验证所提AGD 的通用性，采用ROHM公司的 SiC MOSFET(SCT2080KE)进行实验验证，实验结果如图 12 所示。图 12 中直流母线电压为 400V，负载电流 20A，驱动电阻 20，R8 20k，根据式(1)、(4)和式(8)—(10)可计算得出电压比较器参考电压 Vref1—Vref3 的取值，如表 7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgx5QsMfobjM3HNdff4fWViayzQXuHwFC8YhkK3VJKOMV1ygydGibEdcsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_025_38f8302e3305.png)
 
 从图 12 可知，当采用另一款 SiC MOSFET 时，相比于 CGD，所设计 AGD 仍然可以有效抑制器件开关过程中的电流、电压过冲和振荡，验证了所设计有源驱动电路的适用性。
 
@@ -183,10 +183,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_026_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_027_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种改进_SiC_MOSFET_开关性能的有源驱动电路_images\img_028_84aa944feb13.jpg)

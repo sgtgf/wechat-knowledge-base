@@ -14,7 +14,7 @@
 
 [RS485](http://mp.weixin.qq.com/s?__biz=MjM5OTQ3NjQ1MQ==&mid=2647663764&idx=2&sn=5243f78beb8873d0769e095e83ff9b94&chksm=bf1e69188869e00e2df0affc59a029289b826037397aba0aa1a0d63ff9df5a113ad46070c66f&scene=21#wechat_redirect)是半双工通信，**半双工通信**指的是通道在一个时刻只能处于接收或者是发送。RS485的特点是支持多节点传输、传输距离远、抗干扰能力强，RS485可以连接多个485设备，信号的速率可达到10Mbps。通过AB两线之间的压差来判断是逻辑电平1或者逻辑电平0，当AB间的电压差大于200mV时为高电平1，小于200mV时为逻辑电平0。一般会在首末两端接120Ω电阻，其作用是进行阻抗匹配，消除信号反射。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfO6KN2oKz2YIeZByrNfjAWrpvdCY0FticjibhdnBM1x9qibyd5prj0NWkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485基本原理_电路_防雷_layout及设计要点_images\img_002_83e765d3640b.png)
 
   
 
@@ -24,7 +24,7 @@
 
 RS485电路设计可以分为**隔离型**和**非隔离型**，下图是非隔离型电路，B端接到GND下拉，A端通过上拉电阻为高电平，是为了保证A和B之间的压差大于200mV。DE和RE引脚是发送和接收使能，RE为低时，为接收使能；DE为高时，是发送使能。应用中一般是两者连接在一起，通过IO口（RS485\_EN）控制，因为芯片要么是处于接收，要么处于发送，因此在发送数据前，给RS485\_EN信号为高电平，接收数据就给低电平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfzxyCq8jNnlyKAN06zTh8hLwhw78sX4NkqTP2dJVK2yAgJVjXDGckng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485基本原理_电路_防雷_layout及设计要点_images\img_003_ee1686d633eb.png)
 
 **RS485自动收发电路硬件设计**
 
@@ -32,7 +32,7 @@ RS485电路设计可以分为**隔离型**和**非隔离型**，下图是非隔�
 
 自动收发电路相比较普通的485电路，区别在于多一个晶体管控制485的使能引脚。R9限流电阻一般是4.7K，R8上拉电阻一般也是4.7K，使能引脚在晶体管没有导通时被上拉。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfuZAajzk8CicQTm7orfLU41MYbHNXKxic9Tn3OpEMptLC3e9uXC4QJYrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485基本原理_电路_防雷_layout及设计要点_images\img_004_c75c5f3ef13e.png)
 
   
 
@@ -54,7 +54,7 @@ RS485\_TX 发送1，VGS高电平，NPN三极管导通，使能引脚是低电平
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfo4AlOVFltaEgWMKicz9Jat3CULCCNMtnUoiaMJgwe5icZ8Akr2gW4ueRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485基本原理_电路_防雷_layout及设计要点_images\img_005_3431b3a80e04.png)
 
 接口防护电路  
 
@@ -68,7 +68,7 @@ L1是共模电感，共模电感衰减共模噪声，增强抗干扰能力，一
 
 虚线处的防护器件要尽量靠近接口，摆放紧凑整齐，先放防护器件再放滤波器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlf8NZhyJEkiaLyffCJMIOOYPagPsdcdDcNybSIHlRaibPVKZs0YK1AAibtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485基本原理_电路_防雷_layout及设计要点_images\img_006_6f1efe5f0a37.png)
 
 RS485接口电路设计通常涉及到几个关键要素，包括信号传输、电气隔离、噪声抑制、保护措施以及电源和控制逻辑设计等。  
 
@@ -124,7 +124,7 @@ RS485接口电路设计通常涉及到几个关键要素，包括信号传输、
 
 RS485接口设计不仅关注电气特性，还需要综合考虑EMC、可靠性、安全性等因素，确保在复杂工业环境中的稳定通信。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485基本原理_电路_防雷_layout及设计要点_images\img_007_e119ccb9e5f3.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485基本原理_电路_防雷_layout及设计要点_images\img_008_4700b023e565.jpg)
 
 ## 
 

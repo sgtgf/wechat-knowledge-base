@@ -36,7 +36,7 @@ I2C总线是一种十分流行并且强大的总线，其多用于一个主机�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibd48RfuAugk2sx8NMgh10KgqeYe3ic8dpick1HZ01YRJdV3l0BbCntxNgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_002_05ea17b2a9cd.png)
 
   
 
@@ -64,7 +64,7 @@ I2C总线使用开漏输出控制器，在同一线路上带有一个输入缓�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibduyTfeZE4I3OSvialUYOav3IOwN5Qjl7ic64JyDfjNIUKsfZNZKXibh5iag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_003_ca5a94a71218.png)
 
 D
 
@@ -78,7 +78,7 @@ D
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibdzdpibOPrqyZ6ovkKBLcDwubqz3XylOBOwT4NwIKoq9OLbeh4lUDZJSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_004_0e03e40a7526.png)
 
   
 
@@ -86,7 +86,7 @@ D
 
 当从机或主机想要传输一个逻辑电平高，它只能通过使能场效应管的方式释放总线。这将会使得总线处于浮空状态，同时上拉电阻将会将总线电平拉高到供电轨，此电平被当作高电平看待。图4展示了电流如何流过用于拉高总线的上拉电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibdOQ3icicRyicUxgYdbUkicVLjyjpf5UQGPuTKu9L0mNeHdkDGz8HsiarfGDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_005_400c041c31af.png)
 
   
 
@@ -134,7 +134,7 @@ START与STOP标志
 
 主机可以通过发送START标志初始化与设备的I2C通讯，或者发送STOP标志结束通讯。当SCL处于高电平时，SDA上的下降沿意味着一个START标志，而SDA上的上升沿意味着一个STOP标志。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibdnGDrDbSav6vFibFqiblXZpv9c8m310ThuyI45ovT0b6WoMIeN8Lq1icmg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_006_21e42c1c974d.png)
 
   
 
@@ -148,7 +148,7 @@ START与STOP标志
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibdAt0jFWicvT7OaDne8Jjm3AcicpR6ia03GapBRouICnsWEvfvzCzohLOQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_007_313ba2812929.png)
 
   
 
@@ -170,7 +170,7 @@ START与STOP标志
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibdywGE5n1ag1q939WGMlbRR0231rBkP1bSUibqaicBF138mWEmiamNibvXYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_008_4f21858a6b42.png)
 
   
 
@@ -190,7 +190,7 @@ I2C总线数据
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibdyNSavOLfDw9WG9icwiaV4LQ8qO1mNp6ufrCrBCO7An58cUDU9gqakygQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_009_8184654888b5.png)
 
   
 
@@ -206,7 +206,7 @@ I2C总线数据
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibd9NsGRbycVjjiawwSjooJvU1IfvA3hIGnCCicZP9VIFLiaiaaWs7zEqsQFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C通讯不了_是不是硬件有问题__images\img_010_e600d2c7e628.png)
 
 ## 
 

@@ -29,11 +29,11 @@
 
 **纯同步磁阻电机SynRM**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zHGy1D0BCQo9x6X1TibzHHsTUPAZULY2Oa8Ao5OS2ANVJGwrGX7icaibZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_000_2f4b12edd18e.png)
 
 转子没有永磁体、没有鼠笼条，定子为常规定子，只利用磁阻转矩。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1z48AJWashFZNl9eZo551PR4Sdrc9U5vetJex3yowpIKZMbcJXTmffkA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_001_0f4b10488dce.png)
 
 纯同步磁阻电机转子结构比较复杂，参数比较多。作者重点研究了5个参数：
 
@@ -50,15 +50,15 @@
 
 作者分别研究了每个参数对电机性能的印象，每个设计参数都会影响其他设计参数，因此需要同时考虑所有设计参数，以寻找所设计的SynRM的最佳几何形状。作者基于一款空调鼓风机电机做了对比设计，获得最佳的设计方案：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zVGD2QT0KHOWrJ5Ns5utlicbBpXeXH260PWqqrN1FZwNDmbXficL70KHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_002_bbac7dc446fb.png)
 
 其中几个重要参数如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zryGdYiaA2AiaAicKSjkbTeE23eHkmzzdFxhlxA6iaAYSzxpYO0EpavI9Yw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_003_04686ef81209.png)
 
 设计的纯同步磁阻电机和BLDC性能对比：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zRFfibdlvDewV6pibM4EALJ5oJa2YwgZNw9K6E0c8krq3YjMMNUKg5mGA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_004_d85fecadb0ec.png)
 
 * * *
 
@@ -66,35 +66,35 @@
 
 由于作者在文中列出了比较详细的模型数据，参照作者的数据在EasiMotor在线版online.easimotor.com中建立了模型进行计算。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zrzC3CW7cpZ42fzViayXIxyugrCvlRLbeicrqbtAg6kiabdPacdZHKwnWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_005_7d02a3ca390d.png)
 
 额定工况磁密场图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1z4ObZYh3ye3cxcwDia9XNjpWTGZtMHRLPIxWwM7h2nyEWttGaslzBBng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_006_4ddce47fab79.png)
 
 电压源仿真的转矩：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zYe0KVaWhrzMn9pEsStrQxfqZyF9ticnRbGRZ013oR13JdF5AFU3WY9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_007_e851d3fe1007.png)
 
 电压源仿真的电流：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zNvp3srnggNDLgtvqO5xnj0QypvyUFV74sf7ut7PL4ftZKCG0nvdUzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_008_1f945c66d0d5.png)
 
 电流源仿真的铁损：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zSVVoA7s7Jbeibyhs7yDGy2773XGbnKDkLWrTlUv5kIgquEcQ1y547Sg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_009_dfd8d141720b.png)
 
 电流源仿真的转矩：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zkdibBicicX1jOzmUicAj1Pic2Jiaauuf0qiaINtcScu9NibJosm2RpFBmfvnRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_010_9d58e981688e.png)
 
 效率MAP：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zd7xP2gqQxwYKWHFu8gITrfvBg1e93CsTJgO51FwN1UH5sbSmic7HKQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_011_827793a980ed.png)
 
 电流MAP：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zfTV9aVa68n2iacficY7UDtiaSiaaGrDnQjIRTEpoX3Jt6YMxVvAe7c7srQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_012_6f5532a8d764.png)
 
 仿真结果（电流、效率、铜重、槽满率等）与作者的设计数据非常吻合。
 
@@ -111,7 +111,7 @@
 
 **你就可以在你的online.easimotor账号里查看这个案例模型了。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzDAN6pBGWPWz6yd9FibEz1zVnib7O5ibjV4qYsaicg5eAsvlwsLrianG6tuhPSorCryn05wVOQ0yGW93g/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_013_6e40d5d2073a.png)  
 
 * * *
 
@@ -133,4 +133,4 @@ __"___Design of Synchronous Reluctance Motors with IE4_ _Energy Efficiency Stan
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\一款IE4纯同步磁阻电机设计_案例分享_images\img_014_15ce4c0e67b3.png)

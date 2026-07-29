@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/pXpCepOXx1KltgILAFHI8w](https://mp.weixin.qq.com/s/pXpCepOXx1KltgILAFHI8w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjoRKCEakWucsHr3J1YibF7KThbfUJcfiaxibumpPRiav8j4a28T2n2xI0ZniaD73I1Mt4vzsBCyzukmA/640?wx_fmt=png)
+![](SCD_16_MOS的减速加速电路设计_images/img_000_8811cbf81076.png)
 
 ____**★★★**______SCD-16---MOS的加速与减速______**★★★**____
 
@@ -21,13 +21,13 @@ ____€1.__栅极电阻__
 
 不同的栅极电阻可以用于MOSFET的不同的开启/关闭速度要求，**_图16-1是_**如何使用不同的栅极电阻来开启和关闭的一个示例。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTP3KF9YEOs0uhIKaUOKz80ib5K8IDyfZnNk5k4QbqFYHzic6UntQ9dRVHEqxrcndWFQEUOZ51OJGYQ/640?wx_fmt=png)
+![](SCD_16_MOS的减速加速电路设计_images/img_001_b8ed1dc74730.png)
 
 **_图16-1：驱动和关闭NMOS的不同路径_**
 
 开启NMOS时，电流经过R1从控制端流向G极，关闭NMOS时，电流经过R2从G极流向控制端，此时调整R1和R2的值就可以实现开启和关闭的某一个要求的速度差。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTP3KF9YEOs0uhIKaUOKz80OApJjHFiaTw1aLSXJdQc8sh5iaTibchROFNIVicUf4a2KRILXuOh2lRvjQ/640?wx_fmt=png)
+![](SCD_16_MOS的减速加速电路设计_images/img_002_3cb7b362f884.png)
 
 **_图16-2：栅极电阻的更多配置_**
 
@@ -37,7 +37,7 @@ ____€2.加速关断二极管____
 
 对于NMOS，关断电流比较大时，能使MOSFET输入电容放电速度更快，从而降低关断损耗。大的放电电流可以通过选择的低输出阻抗的MOSFET或电压器件来实现，最常用的就是如**_图16-3_**的加速二极管。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTP3KF9YEOs0uhIKaUOKz80TeluBicmVfeCO905gPVVJlsehzhlZmpj4zcQuc1iam9YXl13Ztn3h0HA/640?wx_fmt=png)
+![](SCD_16_MOS的减速加速电路设计_images/img_003_05593bb587b7.png)
 
 **_图16-3：加速二极管的使用示例_**  
 
@@ -47,13 +47,13 @@ ______€3.__PNP加速关断驱动电路____
 
 上面两节相对于无栅极电阻的开关速度还是偏慢，更快的关断方式则是主动“汲取”或者“灌入”电流。如**_图16-4_**使用PNP加速NMOS关断，开启时电流通过二极管D，关断时则利用PNP三极管主动从G极汲取电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTyUibItyyWTFBnpewKzWo2vkxpicmYx1xLHDoGN1LtHYRqQCAU83icq7K9dP1mxNdp590VW5ECYRo7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\SCD_16_MOS的减速加速电路设计_images\img_000_d11385c2c106.png)
 
 **_图16-4：PNP加速NMOS关断_**  
 
 **_图16-5_**展示了PNP加速NMOS关断的动态过程电流流向。**_左图_**在控制端从低电平往高电平切换时，Vbe＞0，Q2关断，充电电流从二极管D流入，Q1开启；**_右图_**在控制端从高电平往低电平切换时，G极电平不会瞬间变化，此时Vbe＜-0.7V，Q2导通，Q2快速将电荷从G极汲取走，使G极电平快速下降，达到Q1快速关断的目的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTyUibItyyWTFBnpewKzWo2vGhGJS0gCDl1x19Tu5hDk0k1b1BjtG6dUw0RicbnFzFJJneDZmzATzzg/640?wx_fmt=png)
+![](SCD_16_MOS的减速加速电路设计_images/img_005_d4d6cc8ef40a.png)
 
 **_图16-5：PNP加速NMOS关断的动态过程_**  
 
@@ -65,13 +65,13 @@ ______€4.NPN加速关断驱动电路______
 
 **_图16-6_**是使用NPN加速PMOS关断的电路，关断时电流通过二极管D，导通时则利用NPN三极管主动往G极灌入电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQDjgysYsZA1gtl4EogDqmWHm568y7icVk0qiaZ5iaMKBniaQD37dcj4atMvUsPfsnd104eynAvvX34Zw/640?wx_fmt=png)
+![](SCD_16_MOS的减速加速电路设计_images/img_006_802beed282bb.png)
 
 **_图16-6：NPN加速PMOS关断_**  
 
 **_图16-7_**展示了NPN加速PMOS关断的动态过程电流流向。**_左图_**在控制端从高电平往低电平切换时，Vbe＜0，Q1关断，放电电流从二极管D流出，Q2开启；**_右图_**在控制端从低电平往高电平切换时，G极电平不会瞬间变化，此时Vbe＞0.7V，Q1导通，Q1快速将电荷从G极灌入，使G极电平快速上升，达到Q2快速关断的目的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQDjgysYsZA1gtl4EogDqmWXkobk4bB1RAL7VFIKZmjuU6f6CN8XZyPB5ddkcFwPFzUA462fxYykA/640?wx_fmt=png)
+![](SCD_16_MOS的减速加速电路设计_images/img_007_f839fc27caa8.png)
 
 **_图16-7：NPN加速PMOS关断的动态过程_**
 

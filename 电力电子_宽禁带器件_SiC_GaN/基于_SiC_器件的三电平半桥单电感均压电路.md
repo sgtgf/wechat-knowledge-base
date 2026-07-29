@@ -21,13 +21,13 @@
 
 1\. 单电感均压电路原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFkOBuor4iaNzDxicJLKxoYMm8UzUW6Iag97icIrhYBq0nbjYXnvrRofW0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_000_3f9c1373e4ee.png)
 
 基于 SiC MOSFET 器件的单电感均压电路拓扑结构如图 1（a）所示，单电感均压电路由开关管SA1、SA2 及高频电感 LA 组成。 机车辅助变流器中充电机所采用的拓扑结构如图 1（b）所示，为了满足充电机输入端电压等级高，输入电流小，输出端电压等级低，输出电流大的要求。 充电机原边侧采用三电平半桥结构， 副边侧采用两电平全桥结构，中间采用中高频隔离变压器。
 
 1.1 单电感均压电路工作模态分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFiaT9bowPOGZhw2PXFjuoPsTA0paiaJ9EqycSZicialjuzIrqgkvkT0HECA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_001_c4e8fe73513a.png)
 
 1.1.1 工作模态 1
 
@@ -47,7 +47,7 @@
 
 1.2 单电感均压控制策略
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFfYbfzaOLzgFSDGVpyHq7EDV3rOC2gqYicbT2Re8NSpmv18AwUAxgYEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_002_bd52e39648eb.png)
 
 单电感均压电路控制策略如图 3 所示，利用固定开关频率三角载波的峰值产生使能信号，在使能信号作用下对支撑电容电压的幅值进行比较，并将电容电压比较结果与相同的三角载波比较产生单电感均压电路的驱动信号。 利用固定开关频率三角载波产生的使能信号限制开关管工作在固定开关频率，防止单电感均压电路在电压均衡状态下支撑电容电压微小扰动导致开关管工作频率的升高而损坏开关管。 开关管在一个开关周期内最大导通时间为半个开关周期，且一个开关周期内仅一个开关管导通以防止输入侧电源短路。
 
@@ -55,7 +55,7 @@
 
 单电感均压电路正常运行过程中，将遵循以下原则：①两开关管不能同时导通，只能互补导通；②均压电感不能出现短路状态；③单电感均压电路的开关频率足够高，电感电流的增加或减少可近似为线性变化。 单电感均压电路存在 3 种典型的开关状态类型，如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFZCgKp8fdnr2TuiaGLCos243EJK8ib3ryb5MFhuLE1tpdMBeXHIlMtoSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_003_64f0f1df4223.png)
 
 1.3.1 开关状态类型 1
 
@@ -77,71 +77,71 @@
 
 当支撑电容电压极度不均衡时，单电感均压电路工作于开关状态类型 1， 经过 n 个开关周期，电感电流达到峰值，电感 LA 所储存的能量为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFGWSnbMbr9DkLvSlfo96Dnh7U6KxLQiarRrtl3ibEeGGf7TWs6v1D78KA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_004_a19dbf481dd7.png)
 
 考虑开关管及电感 LA 的耐压、耐流特性，设计电感 LA 正常工作最大瞬态电流为 imax，则电感 LA 所储存的能量为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFez06ZvLppm6q5biaE7utdNic6KWCKG9iaroageUjWVyAGadyjbTiaBsNPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_005_6400aa108964.png)
 
 在 t0\-t1 阶段，单电感均压电路工作模态如图 2（a）所示。 令 C1\=C2\=C，当 t\=t0 时，单电感均压电路投入运行，此时电感电流 iLA 将从“0”开始线性增加，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFo53icq7XcIW9TkSdYqO0ibXQXCNL6K4uNiajKEtAY3D8OeLFUn3Tpliaug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_006_dbe23d56ceff.png)
 
 单电感均压电路正常工作状态下，为了满足均压的动态性能以及电感和开关管的电流承受能力，防止因电感电流超过开关管的承受能力而过流炸毁，均压电感应满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrF4WVKVEgeFUm8bUclD9icBzouqtQbHbqREjPRntwnVPxUBlibCKjj3teg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_007_59eb4d2c2658.png)
 
 由式（1）~式（4）可知，电感 LA 应满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFDfiblvg5ay5zC2iapuBz9LnVDialbw7oe6Ljpqlf5ArviaDgUK8gmbDRNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_008_3045bde63204.png)
 
 当单电感均压电路工作于开关状态类型 3 时，在一个开关周期内，电容对电感的充电和电感对电容的充电能够达到平衡。 此时，单电感均压电路一个开关周期内将在工作模态 1 和工作模态 2（工作模态 3 和工作模态 4）之间切换。 考虑到电感 LA 稳态时最大峰值电流为 imax\_stab，可得电感 LA 的电压与电流之间的关系为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFLZOoB3w7tibSlu9SlPaqMOibUwiaNmeBmBG3lk5cRL7ia6PgHtB2Yia3FDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_009_dcb48b1fa625.png)
 
 因此，稳态时所需的最大电感为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFVsw2ichAMjpMbhOpibicOsMOllOhzd7T839PpKKeCxBj7KU5VqXIYrWKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_010_a6079b5388c4.png)
 
 由式（5）和式（7）可得，电感 LA 的取值范围为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrF9JZzicLIj4TvV0PRiabIakFz5ZPo6DQCZPzeRibKdJCj2AdntQgPlEpibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_011_991693dc7762.png)
 
 3\. 仿真与实验
 
 为了验证单电感均压电路的可行性与有效性，基于 Matlab/Simulink 仿真平台搭建模型进行仿真验证。 基于充电机的小功率实验平台加入单电感均压模块化电路，对其均压能力进行实验验证。 仿真和实验参数见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrF5giaVc1XWvRmUuTznl0eFFaxrMwKqTbuAIKZ8xib0FmDQBB6tkUpMGJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_012_11706780256b.png)
 
 3.1 仿真验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFy04O2cRElx5mqtkNiar07GdtLQV1Rd2IB4KVBsyDPQRiblPqIbPQibH8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_013_9eb46b619e18.png)
 
 图 5 为充电机正常运行状态时，变压器原边电压 VP、副边电压 VS 以及变压器原边电流 iP 波形。原边输出三电平电压，副边输出两电平电压，原边电压相位超前于副边电压相位，功率实现正向传输。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFUCvk6AYMmPaKIxcZX8EH0bagZLQFs5icaOGUNv1ZarCMAibYS3tkAJFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_014_737f7ae6132d.png)
 
 图 6 为充电机启动到支撑电容电压出现不均衡状态再到单电感均压电路投入运行的动态波形。阶段Ⅰ为充电机启动过程， 系统响应速度较快，阶段Ⅱ为支撑电容电压出现不均衡状态，阶段Ⅲ为单电感均压电路投入，支撑电容电压恢复均衡状态过程。 当支撑电容电压出现不均衡状态时，变压器电流将会出现直流偏移，若长时间运行将导致变压器因铁芯饱和而过热损坏。 当单电感均压电路投入运行时，变压器电流将会恢复正常状态，无直流偏移。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrF9fGv3RyBEyWKiaq14Npu9xrwhtQVYkmhMcbwwyROd7kTWOA36avrsjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_015_c0c63b66f1d6.png)
 
 图 7（a）为单电感均压电路开关管驱动信号的波形，当单电感均压电路投入运行时，支撑电容电压极度不均衡。 因此，开始阶段，单电感均压电路工作于开关状态类型 1， 只在工作模态 1 和工作模态 2之间切换，上支撑电容对电感 LA 充电，电感 LA 再为下支撑电容充电。当支撑电容电压均衡时，均压电路在 4 种工作模态间不断切换。 图 7（b）为支撑电容电压仿真波形，0.2 s 之前支撑电容电压处于极度不均衡状态；在 0.2 s 时投入单电感均压电路，通过电感LA 将能量从电压高的支撑电容传递给电压低的支撑电容， 以保证支撑电容电压能够在短时间内恢复均衡。 图 7（c）为单电感均压电路的电感电流波形，均压开始阶段，支撑电容电压极度不均衡。一个开关周期内， 电感 LA 存储的能量大于其释放的能量，电感电流不断增加。电感电流的峰值与电感值、支撑电容值、单电感均压电路投入时电容电压差值相关，因此， 单电感均压电路在满足均压电感设计条件范围时， 通过增大电感值和减小单电感均压电路投入时电容电压差值以减小电感电流峰值避免开关管因过流炸毁。当支撑电容电压均衡时，电感在支撑电容之间进行能量交换的电流较小。
 
 3.2 实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFwCK3mMNwxKVqiabNflyNXxkxKxM3lgO1wsHqEObd1ibUOIaGT9uj4UrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_016_d4f71c5b475f.png)
 
 基于 SiC MOSFET 器件的单电感均压实验平台如图 8 所示，由电压传感器、FPGA 主控制器、SiC MOSFET 驱动电路，及支撑电容放电电路构成均压系统模块。 为保证充电机在停机检修状态下支撑电容无剩余电荷，利用放电电路为支撑电容放电。 采用 FPGA 为主控制器，型号为EP3C55F484I7，单电感均压电路开关管采用科锐公司的 SiC MOSFET器件，型号为 C2M0045170D。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFSJPicfloKuSeBcsjYbg6nlahmGDfNssybOjutcIUUliaaRGljUUghDZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_017_7694d7dabfd1.png)
 
 图 9 为单边三电平控制下充电机工作电压、电流波形。 变压器原边输出三电平，副边输出两电平。原边电压相位超前于副边电压，功率实现正向传输。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFjcZ4iap3YThPXD5NltklX5MNTVicXRZFCibWHaUSNwWQSricCH3xqmh87g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_018_543864f60cae.png)
 
 图 10 为单电感均压电路开关管电压应力和电感 LA 电流实验波形。 支撑电容电压均衡时，电感 LA电流较小，在一个开关周期内单电感均压电路在两种工作模态中依次切换。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldUQWuVs0UdibB92a6QMzrFoFUnHL6Y4fn8DfU4uPwcm3F0bTVem19lW8GhaAGaT5cGtAJbm971DQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_019_bb084596e1fa.png)
 
 图 11 为支撑电容电压动态实验波形， 阶段Ⅰ为支撑电容电压处于均衡状态，阶段Ⅱ为支撑电容电压不均衡状态， 阶段Ⅲ为单电感均压电路投入。可见, 支撑电容电压能够快速恢复到均衡状态，且电压均衡状态下两支撑电容电压的差值较小。
 
@@ -151,10 +151,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_020_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_021_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的三电平半桥单电感均压电路_images\img_022_9bbc7b9b15a2.png)

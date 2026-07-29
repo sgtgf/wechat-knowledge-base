@@ -32,13 +32,13 @@
 
 模块化结构的级联 H 桥拓扑，能够通过调整模块数量，在不过多增加功率器件承受电压的基础上，满足不同高电压等级的要求，其最基本的结构为两个全桥子模块级联而成的五电平 H 桥逆变器 . 因此，本文以图1 所示单相五电平 Si/SiC 级联 H 桥逆变器为例，分析 Si/SiC 级联 H 桥逆变电路的电路拓扑、开关原理及数学模型 .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEjUrNj8TzdyyicEN6glEQtLqH39UVHFeGeE3TCBmAxtGe4jITjibYUfuw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_000_35524c4799f7.png)
 
 图 1 所示电路拓扑由一个 Si IGBT 全桥子模块和一个 SiC MOSFET 全桥子模块级联而成，其中 Udci为第 i 个子模块直流侧电压（i=1，2，Udc1= Udc2= Udc），R、L 为滤波电感与负载电阻，I为输出电流 .
 
 在第 i 个子模块中，可定义四个开关管 Sai、Sbi、Sci、Sdi开通时为 1，关断时为 0，由于同一桥臂上下开关管状态互补，因此可以用 Sai和 Sci表示第 i 个子模块的开关状态
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqE6DJzx4vtPzZ0IaI8gUyA0vV79Jeh9koBpMOsHpMYO4hzpojShZYsAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_001_90ab5abc8220.png)
 
 影响 Si/SiC 级联 H 桥多电平逆变器效率的主要因素为器件的开关功率损耗 Psw 及导通功率损耗Pcon. 器件开关次数越多，开关功率损耗 Psw 越高；在逆变器应用中，限制器件的开关次数虽然能够降低开关功率损耗，但会增大输出电流谐波畸变率. 导通功率损耗 Pcon 与器件开关次数无关而仅随输出电流变化而改变 .
 
@@ -48,13 +48,13 @@
 
 逆变器开关功率损耗 Psw 可通过一个基波周期 T0内逆变器的总开关损耗 Esw求得，Esw为 T0内所有 m 次 Si器件的开关损耗 Eloss（Si）和 n 次 SiC 器件 的开关损耗Eloss（SiC）相加：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkw6eYJMFO3uicAt9Gwj9BaAnNibiagJgpWwOSSB6APCFaDOibAYnGvo8fw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_002_0b6be027e0eb.png)
 
 忽略二极管的开通损耗，Si 或 SiC 器件的开关损耗Eloss 主要由开关管的开通损耗 Eon、开关管的关断损耗Eoff及二极管的关断损耗 Ed\_off组成.对 Si （IHW20N120R5， 1200V/20 A） 和 SiC（C2M0160120D，1200V/12 A）器件采用 LTspice 软件进行双脉冲测试，测试温度为 50 ℃，测试电路中直流电源 Vdc=120V、驱动电阻 Rg=10 Ω，电流根据器件规格在1~8 A 中取值 . 当电流变化时可测试得到 SiC MOSFET的开关管开通损耗 Eon（SiC）、开关管关断损耗 Eoff（SiC）、二极管关断损耗 Ed\_off（SiC）、开关损耗 Eloss（SiC）及 Si IGBT 的开关管开通损耗 Eon（Si）、开关管关断损耗 Eoff（Si）、二极管关断损耗 Ed\_off（Si）、开关损耗 Eloss（Si） 对应的值，根据文献［27，31］，对双脉冲测试的结果可以利用电流的二次函数进行拟合，可得拟合结果表示为图 2 和图 3 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEcibgIAMbibuDeIdvQSDATDjec1jfyObddM27BlhcZTot3RfgDtibq749Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_003_f98d100f7079.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEX2tUwX10ibm0eOlK7tH5EkKmiasePOz9I73P8opwHSxeUYicPngwzeQeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_004_0c65a0b5f432.png)
 
 从图 2、3 可以看出，在测试电流范围内，Eloss（Si）在Eloss（SiC）的 1 至 2.5 倍之间 ，且随电流的增加 ，Eloss（Si）和Eloss（SiC）的差距越来越大 .
 
@@ -70,17 +70,17 @@
 
 图 1 所示的多电平逆变器拓扑中输出电压电流关系为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEQKKN5ryjx600tgQDx9RITXPsciajrenBMRQTrL5ibjZYD9E0jKXka50Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_005_af4b1f79484c.png)
 
 取系统的采样周期为 Ts，对式（3）进行离散化，可得单相多电平级联 H 桥的预测模型为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEuMialBnA58Ll02U52RTr81oQia4MKXUTsPPkbqWfRHupk3OBNe4T5Aicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_006_faa76d5879c1.png)
 
 其中，I（k）为 k 时刻的实际电流，I（k+1）为预测电流 .
 
 由于开关损耗与器件的开关密切相关，通过控制总开关状态变化量即可控制开关损耗 . 综合考虑电流输出波形和效率因素，本文所提代价函数在对电流跟踪精度进行约束的基础上，加入总开关状态变化量的约束，能够考虑电流输出波形和效率，代价函数 g 表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEYkQ2GBvQ82AmzwQmxun7qgtWLI1ibibLFUibjK9efrlEneX5fmFONlXhw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_007_a78da541d5cf.png)
 
 其中，Iref 为参考电流值，So（k+1）为预测总开关状态，So 为当前开关状态，α 为总开关状态变化量的权重，在传统的 MPC 中为定值 . 该代价函数能够平衡相互矛盾的电流谐波畸变率和开关损耗之间的关系，能够保证低电流谐波畸变率与高效率 .
 
@@ -88,15 +88,15 @@
 
 因相同的总开关状态对应的子模块开关状态可能有多种，不同的子模块开关状态选取也带来了开关损耗上的差异，因此，本文在子模块器件开关组合的选取中，对 SiC MOSFET 子模块分配开关权重 α1，对 Si IGBT子模块分配开关权重 α2，并将子模块分配代价函数 g1取为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEib2d5F9icTKm0Ns5SPU08NvPaWuzKhXd23OppD0uC3rh5Ba5wY01ELZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_008_128caa636ade.png)
 
 其中 ，Sa1（k+1），Sb1（k+1），Sc1（k+1），Sd1（k+1）代表 Si IGBT 开关功率器件的预测开关状态，Sa2（k+1），Sb2（k+1），Sc2（ k+1），Sd2（k+1）代表 SiC MOSFET 开关功率器件的预测开关状态，Sa1，Sb1，Sc1，Sd1为当前 Si 开关器件的开关状态，Sa2，Sb2，Sc2，Sd2 为当前 SiC 开关器件的开关状态 . 由于同一桥臂上下开关器件状态互补，因此可将 g1简化重写为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEYJ5G9BnZrvDJcUHUEzWVnSF6cp5PBMXCn2JoOyyPlsHic1pjTOvbiclQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_009_41311abaa786.png)
 
 通过对不同预测结果进行评估，在最优总开关状态下选择使得 g1最小的最优子模块器件开关组合 .由上述分析，可得到多电平级联 H 桥逆变器模型预测控制算法的流程框图如图 4 所示 .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEfdlMxx6CZAnk8Zpo3bdEI4UesibAq65QWJ17uEgibhxzqxCR2peg6Z1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_010_dff0dcefeb1b.png)
 
 首先，将式（4）离散化数学模型应用于模型预测控制，通过当前时刻 I（k），计算不同电压 Uo（k）下的预测电流值 I（k+1）；其次，将该输出电压对应的 I（k+1）和 So（k+1）代入变权重代价函数 g 计算 ，选取最优So（k+1）来更新总开关状态；最后，应用最优总开关状态，结合 Si 与 SiC 器件在不同电流下开关损耗情况，遍历该总开关状态下的所有开关组合，根据子模块分配代价函数 g1 选取最优子模块开关组合 . 传统的模型预测控制中，代价函数的约束量采用的是固定权重，固定权重在整个基波周期内对约束量施加固定的影响，在式（5）中，若 α 取值较小则因一个周期内过多的器件开关，从而影响效率，较大则因减少了一个周期内器件的开关次数，从而增大了输出电流谐波畸变率 . 在式（7）中，传统模型预测控制仅对 α1 和 α2 进行相同的分配或简单地根据平均开关损耗进行定值分配，其没有考虑电流对器件开关损耗的影响，仅仅进行了简单的性能折衷，难以进一步优化效率和输出电流谐波畸变率，难以更加合理配置 Si 与 SiC 器件的开关任务 . 因此，在模型预测控制算法的设计中，存在对权重 α、α1 和 α2 进行设计的可能性和必要性 . 考虑到电流与开关损耗的关系，可将式（5）和式（7）中权重设计为变化值 .
 
@@ -106,7 +106,7 @@
 
 当逆变器输出周期为 T0 的正弦波时，开关损耗随电流增大而增大，并在电流|I|=0 和|I|=Imax（Imax 为电流峰值）时分别取到最小值和最大值，且差距悬殊 . 因此，可以考虑根据开关损耗的变化对开关状态变化进行控制，以避免高开关损耗下频繁开关造成效率的下降，并通过适当增加低开关损耗下的开关次数以降低输出电流谐波畸变率 . 基于此，本文根据损耗拟合曲线提出一种变权重系数的代价函数，开关状态变化量的权重 α 随实时开关损耗变化，α 的取值与开关损耗成正比 . 由于SiC 模块开关速度快开关损耗小故拟由其承担主要的开关任务，则可根据 Eloss（SiC）的拟合曲线（见图 2）拟定变权重 ，针对 式（5）代价 函 数 g，可将 权 重 α 的取 值 αp设为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqElOEib0btNbY3lZLQq0nZfANNUCKqQibRbTs3o7AEqmSPraXDvFk6BuTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_011_1f84d8d05b32.png)
 
 其中，αmax为最大权重值 .
 
@@ -118,59 +118,59 @@
 
 子模块开关组合的选取是根据 Si/SiC 的开关损耗曲线进行选取的 . 考虑到 SiC MOSFET 的低开关损耗优势，α2 的取值通过 Eloss（Si）与 Eloss（SiC）的比值获取 . 当较高输出电流、SiC 器件和 Si 器件的开关损耗差距较大时，α2>α1，将更多的开关任务交由低开关损耗的 SiC 子模块完成，能够保证装置效率 . 同时，在较低输出电流、SiC 与 Si 器件 的 开 关 损 耗 差 距 不 大 时 ，α2<α1，采用 SiIGBT 进行动作，避免过多 SiC MOSFET 的开关动作造成Si 与 SiC 器件老化程度不均的问题 . 考虑到双脉冲测试下 Eloss（Si）与 Eloss（SiC）之间关系为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkyvRCAic1WrMMw9sQbZHzP1YUOd6rcAQxC7aMrjE7MpGmKicP7RAkclg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_012_d1b656bcc281.png)
 
 且上式比值随电流增加而增大，结合图 2 和图 3 的拟合结果则可取权重 α1、α2为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEFzVnl5ib4uenc780LHxnaBvakmAvE46Fia1FugicY9kQ4q1F8CUeJricibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_013_836faeec6764.png)
 
 其中，round 函数是对计算结果进行四舍五入，保证输出电流较大时，α2>α1，SiC MOSFET 承担主要开关任务；输出电流较小时，α2<α1，Si IGBT 承担主要开关任务 .
 
 4.　仿真及实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEAYYFdtjK68RsV9JY04rwxYUTVYmSKkVa735iaiavnU8IfiahYBVhrtNmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_014_eebe37cbabd6.png)
 
 仿真与实验参数设置如表 1 所示，仿真采用 Matlab/Simulink 实现， SiC MOSFET 和 Si IGBT 的开关频率设置为 100 kHz 和 50 kHz，αmax根据实际电流电压等级选取 .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEKVVU1TUM5TMZUgJZtjGzKuoypVuicrXIDR438w3Vnnw791wBYmMzlxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_015_416f5d72aaa2.png)
 
 图 5 为硬件平台组成部分的示意图，硬件平台的DSP 采用 TMS320F28335.
 
 4\. 1　仿真分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEAf6WpFk4eSDXdNo5lpMWnK6Gf34e5JNuG4ImcwDdia9M55X3LKiaNDQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_016_a092dc0ea35a.png)
 
 图 6 为总开关状态权重 α 取值为 0（不对开关动作进行抑制）、取值为变化权重 αp、取值为 αmax（取 0.24），子模块权重采用 α1=α1p，α2=α2p 时输出的多电平电压 Vo及输出负载电流波形 I. 可以看出，采用变权重的输出电流波形在 I 接近峰值时与 α=αmax 时较为相似，在 I 接近 0 的时候与 α=0 时较为相似，能够看出权重的改变在一个 周 期 内 对 输 出 电 流 波 形 的 影 响 . 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEMjUW2YticKaLgYB8FfpuVKVycMIoib8eqicmUWhHWibAR0DtgZU3MfoiaHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_017_b0fd5346ad96.png)
 
 图 7 为 SiC MOSFET 权重 α1 与 Si IGBT 权重 α2 在固定权重（α1=α2、α1> α2、α1< α2）及变 权 重 α1p、α2p 时 ，任选 的 一 个 SiC MOSFET 和一个 Si IGBT 开关管的驱动信号波形图，放大图为 α 分别为 0、αp、αmax 时取 α1=α1p，α2=α2p 的驱动波形图 . α1= α1p，α2= α2p 时 ，将较 多 的 开 关 任 务 交 由 SiC MOSFET 实现，能够保证较低的输出电流谐波畸变率，相比于 α1<α2 时尽可能采用 SiC MOSFET 开关，能够避免 SiC MOSFET 和 Si IGBT 老化、发热程度不均的问题 .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEUcLoc9AjIP9pdpI4ia9mkouAUuNz6XsLGVmQ1YDTlfd6FPaowjTGF1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_018_7b95eeb5c672.png)
 
 图 8 为总开关状态权重 α 取值为变化权重 αp、子模块权重采用 α1=α1p，α2=α2p 时输出负载电流波形 I 的动态响应仿真波形图，其波形在负载突变的情况下，达到稳定状态所需时间为 0.000 5 s，由此可见，所提控制方法对静态与动态变化均有效 .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqERI1FlnhaVPafmvTYBXcgDbEaJcic8zJozgExwb2YAUI3xTrqIMjfEhQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_019_aaaf726d6d73.png)
 
 图 9、图 10 分别为不同条件下输出电流谐波畸变率THD、效率的仿真折线图 . 横坐标代表不同的开关状态权重 α 取值 . 从图中可以看出，随着 α 的增加，效率和THD 均上升，当 α=αp，α1=α1p，α2=α2p 时，THD 和效率分别为 1.94% 和 97.500 4%，可以实现较低的 THD 和较高的效率，相比于固定权重在整个电流基波周期内对开关状态施加相同的影响，变权重系数主要降低高电流条件下的开关次数以优化效率（此时 αp值接近于 αmax），保证低电流条件下的开关次数以保证输出电流波形的平滑（此时 αp值接近于 0），有助于效率和输出电流 THD的折衷 .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEqsVej0WIYrseFcWErU9uT7VrhFFJNd8te1fXibVFOgeFiauSbbXDFpNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_020_6da6db7b9adc.png)
 
 4\. 2　实验分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEVBkcrvXmfOBlpZzaPJfXIxOqodPBoyDiasBalu6eic1RWV430fqtib9oQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_021_db38136a4a72.png)
 
 利用图 5 所示的实验平台对所提方法进行验证 .图 11 为 α=0、α=αp、α=αmax 时实验输出的多电平电压Vo 及负载电流 I 的波形图，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEq4VslSXjoCia80p1wbxiaVI294KLcsoXI1doyL0qm3bG7icGbWIsibrJUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_022_e80b88cab375.png)
 
 图 12 为通过实验平台测量到的一个 SiC MOSFET 开关管的栅极 -源极电压 vgs 和一个 Si IGBT 开关管的门极-发射极电压 vge 在不同子模块 权 重 α1 与 α2 时的 波 形 图 ，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEPbM1BkxKPrrkiaydqLy80gdwEbPeiarLMGwFadSD1hroGV31KOldGYGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_023_bc779274fdb3.png)
 
 图 13 为输 出 电 流 I 的动态响应波形图 . 可以由图中看出，实验波形图与前述仿 真 波 形 图 较 为 一 致 ，显然 实 验 验 证 了 控 制 方 法的有效性 .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsGZ67S7LYqkwqBQgt5B4Wz8BliaFpibjS9JZb7W5HXVthJWc2tu7R1ug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_024_a7488758673b.png)
 
 图 14~图 16 分别为 THD、装置损耗、效率的实验结果，效率根据测量输出功率与输入功率的比值获得 . 在α1=α2 情况下，考虑 THD、装置损耗和效率：α 为 0 时，分别为 3.00%、53.126 W、93.765 4%，α 为 0.24 时，分别为5.21%、51.450 W、93.957 6%. 由此可见，采用固定权重取值过小则损耗较高、效率较低，取值过大则谐波畸变率较高 . 要实现高效率和低谐波畸变率，采用变权重的αp， THD、装置 损 耗 和 效 率 分 别 为 3.23%、52.350 W、93.867 6%. 从图中可以得到以下结果：
 
@@ -178,7 +178,7 @@
 
 当采用 α1=α1p，α2=α2p 分配子模块权重，在电流较高时采用开关损耗较低的 SiC MOSFET 开关，保证效率 ，在电 流 较 低 时 切 换 Si IGBT 进行 开 关 ，分担 SiC MOSFET 的开关任务 . 采用 αp、α1p 及 α2p，相比于采用固定的 α、α1 和 α2 取值 ，THD 最多 能从 5.24% 下降 至3.19%，损耗最多能从 53.922 W 下降至 51.478 W，效率最多能从 93.646 2% 上升至 93.920 0%.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsgj6k5F0Jic1GT87RYCwHqcV0KBpzSjy1XHASneVmJa8yt4QEyMEoicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_025_70e43d5064e4.png)
 
 在同样的实验条件下，将本文所提方法与 SiC 模块采用三角波调制、Si 模块采用阶梯波调制的混合调制方法进行性能对比，其实验波形如图 17 所示，分析得到混合调制的 THD 和装置效率分别为 3.68%、92.386 5%，由此可见，采用本文所提方法能够对装置效率和输出电流的质量实现进一步提升 .
 
@@ -190,13 +190,13 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicyicxicuM4qxG124K0ltlHRriaObjvIwuCp9iayLs5kFibYtLxjHcSEsp19w/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_026_d15c4819cca0.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicJ5nElg8SWWJyFvLwLPUUAnfDSN5icYu30QXGz5piadEuqEZpMiaiaw8Ficg/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_027_4ae671b42e05.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicfibibCs4iaKqxxnOxtE3pVibxwH5SOIzKRVesLFs49xuOFPAvicv5jceEcA/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于_Si_SiC_级联_H_桥逆变器的高性能模型预测控制方法_images\img_028_a825cd863f6d.png)

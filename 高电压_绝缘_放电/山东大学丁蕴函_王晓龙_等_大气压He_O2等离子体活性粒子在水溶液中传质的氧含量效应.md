@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75SvnPz8T3YLNlWjfqPQXTgDhyQL73EgmvJVCwElwkFUHncNtdibicibvydIq55hwt54ibMia22zm2MM15A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\山东大学丁蕴函_王晓龙_等_大气压He_O2等离子体活性粒子在水溶液中传质的氧含量效应_images\img_000_9e01d3d1bf01.png)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\山东大学丁蕴函_王晓龙_等_大气压He_O2等离子体活性粒子在水溶液中传质的氧含量效应_images\img_001_b2c984718465.jpg)](http://www.eitrt.org/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\山东大学丁蕴函_王晓龙_等_大气压He_O2等离子体活性粒子在水溶液中传质的氧含量效应_images\img_002_ddcf26cb7810.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约2100 字
 > 大气压低温等离子体作用于生物组织涉及活性粒子在水溶液中的传质，活性粒子产生与工作气体的氧含量密切相关。山东大学放电等离子体及其生物医学应用团队基于一维流体模型，考虑活性粒子在水溶液中的各类反应，研究了不同氧含量下大气压He/O2等离子体与水溶液相互作用后的五种主要活性粒子H2O2、O2–、HO2、O3及OH在水溶液中的渗透深度分布，并揭示相关机理。
 **研究背景**

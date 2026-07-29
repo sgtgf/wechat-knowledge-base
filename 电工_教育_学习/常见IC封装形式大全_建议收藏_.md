@@ -10,13 +10,13 @@
 
 **常见IC封装形式大全**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaNJdpqS1VseFS05jbqyeyRIXk1TG35Qz4jpEAficSvftIa4YHV7jXvbib2xPMEo0yCPjd2HzEic31XA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常见IC封装形式大全_建议收藏__images\img_002_ae2a741a837e.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaNJdpqS1VseFS05jbqyeyRia9HlqFTc31GbAsbwZe5YrtjoBAuSCLuU13SgpezVeXjezebunQFH0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常见IC封装形式大全_建议收藏__images\img_003_73517aafee06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaNJdpqS1VseFS05jbqyeyRaiaB0fZBzPAdIodc2c2g0av8kKRec1fBYf1YbvzmZsffJbmw0gA1icicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常见IC封装形式大全_建议收藏__images\img_004_4b7521475c98.png)
 
   
 

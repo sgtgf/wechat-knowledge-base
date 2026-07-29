@@ -15,7 +15,7 @@
 
 整个半导体材料的发展经历了以Si和Ｇe为第１代半导体材料，以ＧaAS，ＡIAs等为第２代半导体材料,SiC作为第３代宽禁带半导体材料，具有禁带宽度大、热导率高、相对介电常数大、电子饱和漂移速度快、击穿场强大、熔点高、莫氏硬度大等特点，得到越来越多的应用。SiC功率器件具有反向漏电流小、开关频率高、阻断电压高、导通电阻小和工作温度高等特点，适用领域多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gGabRRrfd7f4UL3qB0mMM33ibpjFov9KyicUs7H4u32gkxrqscDBpg2wQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_000_f71dddab0b12.png)
 
 在此针对SiC功率模块，利用双脉冲实验，对其开关特性、损耗与IGBT模块进行对比，同时提出针对SiC功率器件驱动涌浪电压的抑制方法。
 
@@ -23,11 +23,11 @@
 
 双脉冲实验是对功率器件及驱动电路性能评估的重要手段，通过双脉冲测试对SiC功率器件进行测试。同时，对一款车用IGBT模块进行测试，从而对这两款基于不同材料的功率器件的性能进行分析比较。在测试中检验下述要求和功能：①对比SC功率模块和IGBT模块的性能特点（开关特性及二极管反向恢复特性）；②对比并评估SiC功率模块和IGBT模块在开关过程中的损耗；③评价SiC模块工作时（换流）电压尖峰、二极管反向恢复行为等是否得当，以及整个系统杂散电感的情况。双脉冲测试电路如图１所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gmmHxkibRiaaH5OLbN79YPptDJCTfPlvfKAW0fn6ibvasjd2xTY9RLw0VA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_001_9a42eefc07d5.png)
 
 系统的工作过程如下：将上管进行负压关断，并对下管的栅源极施加两个脉冲信号。在第一次开通时间T1内，被测的SiC功率模块饱和导通，母线电压加在与上管并联的电感Lpluse上，电感上的电流线性增大，表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723geVdF9kBME9fHyQdsarB1w0BYnEPUvk63HQuEtW1WDJPypF6nKPJ3Dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_002_bed789452e1c.png)
 
 式中：Udc为母线电压。
 
@@ -35,7 +35,7 @@
 
 图１上标记出示波器测量点的位置，在双脉冲实验中，测试者关注的是下管栅极驱动电压、下管漏源极电压以及下管漏极电流的波形图。同样，通过双脉冲实验可以对二极管的安全工作风险点进行判断，对二极管的反向恢复行为进行测试，将电流探头移到图２所示的位置即可测得。通过图２测试方法研究SiC器件并联的SiC-SBD与硅基快恢复二极管的特性差异，对二次开通时上管SiC-SBD反向恢复行为波形进行测试，并与IGBT的硅基快恢复二极管测试结果进行对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723g8JE4UrPfxHgkznCB0u8sFWHuhjQvETJ6e7MF0M8TLKrWUic5zdLwo4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_003_fbb3c5657436.png)
 
   
 
@@ -43,7 +43,7 @@
 
 基于双脉冲测试对SiC驱动板的极限驱动能力进行测试，波形如图３所示（探头比例原因实际电流为图中５倍）。此时二次开启电流为250A，二次关断时模块电流约530Ａ，关断电流为SiC功率器件额定最大工作电流的２倍左右，设计的驱动电路是安全可靠的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gtuibPUgD1LyohzjAM6kux8qllOia1V8QLwHkNKbtI7a1I9RoPJmUzwog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_004_87807f8e2046.png)
 
 ３. SiC功率器件与IGBT开关特性对比研究
 
@@ -53,23 +53,23 @@
 
 首先分析二次开启时栅极驱动电压波形的影响因素，图４为SiC功率器件在1R和2.7R栅极开启电阻，170A二次开启电流的栅极电压波形图。可见，由于开启电阻越小开启速度越快，开启时栅极的du/dt及di/dt更大，1R栅极电阻开启时栅极驱动电压振荡比2.7R更大。在器件打开瞬间，栅极电压会产生一个凹坑（图中圈出来的位置），这主要是二次开通时上管并联的二极管换流产生的电流突变，由于栅极电容路径对栅极电压造成的影响，需要在驱动板上加入电阻释放能量以避免对系统工作的干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gniauia9gAXBR7D7tnnhGPHicziajT1nryZmtCR9ksMibHGMYOEP30uQQvRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_005_da979b2e38f1.png)
 
  图５为2.7R栅极开启电阻，SiC功率器件和IGBT器件二次开启栅极电压波形图，可见，SiC功率器件开启速度比IGBT模块快很多，在2.7R漏极电流170Ａ情况下开启，SiC功率器件仅用1.2us，而同等情况下IGBT器件需要4-5us，这主要是由于SiC功率器件的等效开启电荷量比IGBT器件小很多，IGBT器件开启时在米勒平台对米勒电容充电需要较长时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gw1FWrBsQ5QWEh68fcRx7xNmOvTanTaVrkODyHIiciaUibVNN64AaiciawTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_006_693362657557.png)
 
   
 
 对SiC功率器件及IGBT器件在二次开启时的漏极电流特性进行研究。图6a为两种器件在2.7R栅极开启电阻下，以第２次脉冲开启时刻为起始点，在Id＝170A电流下开启的电流波形图。可知，相同起始时刻下，SiC功率器件在相同电流下完全导通的时间会比JGBT器件缩短近300ns。同时，SiC功率器件开启时的电流尖峰更小，可间接得出SiC器件二极管的反向恢复特性比IGBT模块上硅基快恢复二极管特性更好。对二次开启时的SiC模块电压特性进行研究。在2.7R开启电阻，Id=170A开启电流下，SiC功率器件二次开启的电压波形如图6ｂ所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gFsKKxHYsuiaWpdJQEhR7V9kPyWrB3OIr1LN2wnkaULIKTawC2UCRZug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_007_1770e3d846df.png)
 
 可知，在二次开启时，下管的Uds可测得一个电压缺口（图中ΔUds），这是由于在下管电流开始增长时，主路杂散电感上感应的电压方向与母线电压方向相反，可抵消一部分母线电压。
 
 通过这个缺口电压以及图6b电流变化率，可知，ΔUds表不为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gj21XTBQg2IJmrVsqeDbzVdoEn0cQoz9wwNibPRicfUjbXjibeMzSdAib4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_008_ca92a07bd24f.png)
 
 式中：ΔUds为漏源极下降的电压值；Ls为主路上的杂散电感值；id为漏源极电流瞬时值。
 
@@ -79,15 +79,15 @@
 
 图７为SiC功率器件及IGBT器件在300V关断电压、335A关断电流下采用1R关断电阻的栅极、门极波形，可见，IGBT器件关断速度比SiC器件慢很多，主要原因是SiC器件关断时等效米勒电容比IGBT器件小很多，米勒平台时间更短，但更快的关断速度使寄生参数造成栅极驱动的振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gSTgzEdUl4DxiccYbStntLYbSxCnpOjVjjypVjSsm8pSgTIIbliaoQyaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_009_0ef78ab50490.png)
 
 图８为SiC功率器件及IGBT器件在300V关断电压335A关断电流2.7R关断电阻下漏源极、集射极电压波形。可知，相同关断电阻下SiC功率器件关断速度快会快很多，但电压的涌浪也会更高，SiC功率器件下在关断时漏源极电压会产生高频振荡（关断已经结束），这是漏源极电压在上升到最大值后，开关回路中寄生电感与寄生电容产生谐振引发的振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723grJsBgCOdtzapDZvkMqkOFrzIUZzDx7YsMLZHjBuKDicVjURLGnDkE6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_010_92ed7c115ce1.png)
 
 图9为SiC功率器件及IGBT器件在300V关断电压、335A关断电流、2.7R关断电阻下关断的漏极电流波形图。可以发现，SiC功率器件关断速度比IGBT器件快，335A电流在100ns左右就可完全关断，而IGBT器件需要500ns左右，这是由于IGBT模块关断的di/dt比SiC器件大，同时IGBT器件关断时具有拖尾电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gwfS1b4fHGnibSJr68Dlia4QRjoGf4iaiaBQW7JUicAktBdMTPXJmphvUD9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_011_595b8c2d0d32.png)
 
 3.3 功率器件损耗对比研究
 
@@ -95,7 +95,7 @@
 
 开关损耗主要与器件本身以及栅极驱动电阻相关，开关损耗分为开通时的导通损耗以及关断时的截止损耗，可以通过双脉冲测试从示波器中计算得出，表示为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723g9qzjPtlVYL4Oj19MZ2UfuB4JNSnwzPXIYyk5IseZ5ictQF8GbFQFdow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_012_65a9c22ed842.png)
 
 式中：Loss为开关损耗，单位为J;\[t1,t2\]为模块开通或者关断的区间。
 
@@ -111,19 +111,19 @@ SiC功率器件及IGBT器件在不同栅极关断电阻下的关断损耗（300V
 
 SiC涌浪电压幅值表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gV185qHDDTU1bm3VRhXpl5oQIiaINYwotemZ1P4g2wDibqEezZUwaAhCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_013_ac342b450e11.png)
 
 通过减小系统主路上的杂散电感值Ls可以降低涌浪电压，由于SiC器件及支撑电容一旦选定，其自身的杂散电感也会固定，降低主路上的杂散电感则只能通过降低直流母线上的杂散电感的方法实现。此外，增加外部缓冲电路（吸收电路）是另外一种可行的方法，如图１０所示。常见无源缓冲电路基本类型有纯Ｃ吸收电路、RC吸收电路、RCD吸收电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gYCT73nT0Ya8Mc7tSmIXStAUtvcNeZXF1lUqKGiaDW1m97dDotYC5Micg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_014_7d91309be30c.png)
 
 外部缓冲电路主要吸收母排上杂散电感能量叠加而成的涌浪电压，以RCD吸收电路为例，工作过程如图１１所示。当V1和V4关断时，主路上Ls的能量通过RCD吸收电路进行旁路，Ls通过二极管VDs给电容Cs充电，然后Cs上的能量通过Rs消耗掉，从而避免V1和V4关断时电流突变加在开关管上的电压尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gZxSGlZMoEbw5kZZ49bs5adaLy7hk4hucS8e0v4H29L1LBcMmic8y00g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_015_102baaeb1e24.png)
 
 纯C吸收电路一般采用高频特性较好的聚丙烯电容或其他寄生电感较小的电容器，以提高其对主路上寄生电感引起的电压涌浪的吸收效果。RCD吸收电路上采用高耐压的快恢复二极管（反向恢复快），通过二极管特性抑制电压涌浪。在双脉冲测试平台上分别采用纯Ｃ吸收电路和RCD吸收电路对缓冲电路抑制效果进行测试，测试条件参数如下：主路为300V母线电压，栅极关断电阻为１Ｒ，未加吸收电路；主路为300V母线电压，栅极关断电阻为１Ｒ，外部吸收电路为1.2uF，纯Ｃ吸收电路；主路为300V母线电压，栅极关断电阻为１Ｒ，外部吸收电路为10R，1.2uF的RCD吸收电路。测试结果如图１２所示，将加入缓冲电路前后的测试结果进行对比，可以发现，未加入吸收电路时以１Ｒ栅极电阻关断，涌浪电压为600V，纯Ｃ吸收电路可抑制59Ｖ涌浪电压，RCD吸收电路可抑制42V涌浪电压。综上所述，加入缓冲电路能有效地抑制电压涌浪，改善关断时的电压谐振，纯Ｃ吸收电路的效果更好（寄生参数最小）。通过计算，1R栅极电阻下，外加纯Ｃ吸收电路可降低SiC功率器件的关断损耗0.3ｍｊ，但增加器件的开启损耗0.1ｍｊ，总体上降低了系统的开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723g7GIibP9N9BSUc3kM0ynOhciajI6fd6qDAMnMRMBMKibaV4uBJYavMmgtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_016_4275274d4eb4.png)
 
   
 
@@ -133,10 +133,10 @@ SiC涌浪电压幅值表示为：
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_017_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_018_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于双脉冲实验的SiC与IGBT特性对比研究_images\img_019_84aa944feb13.jpg)

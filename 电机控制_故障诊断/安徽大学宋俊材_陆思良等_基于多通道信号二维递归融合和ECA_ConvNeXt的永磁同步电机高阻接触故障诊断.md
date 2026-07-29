@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电机控制_故障诊断\安徽大学宋俊材_陆思良等_基于多通道信号二维递归融合和ECA_ConvNeXt的永磁同步电机高阻接触故障诊断_images\img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2800 字** 
 > 近年来，永磁同步电机在新能源汽车、机器人等领域得到了广泛的关注。本研究提出了一种基于多通道信号二维递归融合与ECA-ConvNeXt深度学习框架相结合的方法，以实现永磁同步电机高阻故障位置类型和严重程度的精确诊断分类。
 **研究背景**

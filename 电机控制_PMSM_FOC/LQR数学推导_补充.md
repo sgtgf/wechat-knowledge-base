@@ -11,6 +11,6 @@
 
 # 第三、最终的迭代公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40DtvPtCS1s9VwxrwlloYILtibJMicFTKdmk3EZrbANkicEgmFVib5VONLXoc3I3t66YZS0fLdibRw1KoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_补充_images\img_000_19a6556dcb5b.png)
 
 上述P的更新公式就是大名鼎鼎的离散时间代数黎卡提方程 （Discrete time Algebraic Riccati Equation - DARE）。

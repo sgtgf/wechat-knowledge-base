@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/vcXIZ7IaLx8p0DovfqD2ow](https://mp.weixin.qq.com/s/vcXIZ7IaLx8p0DovfqD2ow)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCeCmBAhdeusB4B9uVDN9eM9LfgqzWWOzQaSqNNZqXwUx3JUZVMWJeszw/640?wx_fmt=png)
+![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_000_8376429ac41a.png)
 
 ____**★★★**_______SCD-3---分立式PMOS负载开关_______**★★★**____
 
@@ -11,7 +11,7 @@ ____**★★★**_______SCD-3---分立式PMOS负载开关_______**★★★**___
 
 _____€1.负载开关的类型_____
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicuaVicic7jkBCicLfzzJL1SCfbcGWGX79pz4580OwiaJc53ia4VjVIwWibJibw/640?wx_fmt=png)_
+_![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_001_6ba31140221e.png)_
 
 **_图3-1：**_NMOS和PMOS寄生模型_**_**
 
@@ -23,7 +23,7 @@ ________€2.P沟道高侧负载开关________
 
 使用P沟道MOSFET，通过将输入电压连接到MOSFET源极，将负载连接到MOSFET漏极（传送门：[MOS-5：MOS的电流方向是唯一的吗？](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490121&idx=1&sn=ccc489fe8ec9739bb2dfffb51c1c44ee&chksm=c33550d6f442d9c090bb23440d7e3e823036642a4dab9096be72247d90f77bcf7b93e8d64563&scene=21#wechat_redirect)），可以实现高侧负载开关，见**_图3-2，_**将栅极拉低将使电流流入负载Rload。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubFNMNphH2iaatAAWYwtpoKeDZtmLsU5oDnSicCe2x3XLfU7NdqTyaBmhw/640?wx_fmt=png)**_图3-2：增强型P-ch MOS高边负载开关_**
+![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_002_ebe878eb98d8.png)**_图3-2：增强型P-ch MOS高边负载开关_**
 
 _______________€3.P沟道高侧负载开关_______________
 
@@ -35,9 +35,9 @@ _____€4.关键参数_____
 
 虽然RDSon、IDmax和VDSmax是MOSFET的参数，但负载开关的最大压降和最大功耗可以通过以下公式计算，给定电流I：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTrrmuxa44Mz0R3RR6uNRpFXdjRAPxysZPZBaR6N4wU4AoMg1z1O5jRzClMHqeamo7qmmg8sRpQkA/640?wx_fmt=png)
+![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_003_07abe798e096.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTrrmuxa44Mz0R3RR6uNRpFhibuW4E0xCd9Rqg6zOG1eH1Y7G9B5r60iclVJ3eOLvoLtNmHC3XibNOUQ/640?wx_fmt=png)
+![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_004_e287fde5477f.png)
 
 现在的MOSFET通常具有几十mΩ的导通电阻值，因此如果负载开关具有50mΩ的接通电阻并控制200mA的负载，MOSFET在接通时仅消耗2mW，并且具有10mV的输入到输出电压降。即使峰值电流为1A，也只会导致50mV的电压降和50mW的峰值功耗。
 
@@ -51,11 +51,11 @@ _设计分析：_VGSTH以Vin为参照，G极需要施加接近或等于或高于
 
 _设计选型：_所选NMOS需要满足VDSS＞24V，IDSS＞10A，Rdson和漏电流尽量小，驱动电平阈值VGSTH＜3.3V。这里我们选择LRC的LP73035DT1WG，相关参数如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTrrmuxa44Mz0R3RR6uNRpFuOwEz6nWr6LXa3Cn0tV840Rz8TktIKL0nJpBvh0ibAQogMFe7UYwk8A/640?wx_fmt=png)
+![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_005_31639de4712f.png)
 
 **_图3-3：LP73035DT1WG最大额定参数_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTrrmuxa44Mz0R3RR6uNRpFdeWuo4Q4rGUbAf1yBszS1BicgtWyybudNTRhN4y28mQFC4IbjzpFJUg/640?wx_fmt=png)
+![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_006_c2005e98151f.png)
 
 **_图3-4：LP73035DT1WG正常工作参数_**
 
@@ -63,7 +63,7 @@ _设计选型：_所选NMOS需要满足VDSS＞24V，IDSS＞10A，Rdson和漏电�
 
 _设计结果：_**_图3-5_**是设计的结果，当三极管导通时，24V经过R1和R2分压，R2一般特别小甚至没有，那么24V就全落在R1上，此时G极电平就近似等于Vin=24V，VGS=0V＞-1V，PMOS关闭，当三极管不导通时，PMOS的S极和G极之间电位差近似等于Vin，VGS=-24V＜-2.5V，PMOS打开。需要注意的是规格书中VGS的极限值是±25V，-24V其实比较接近，有一定风险，可以选VGS更大一些的PMOS型号。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTrrmuxa44Mz0R3RR6uNRpFp7Uc0UFOwYTMGGZMx0M9qeWDJ33KrZCgwT5LkmkhiaQia4nQ94WRjgYA/640?wx_fmt=png)
+![](SCD_3_如何用单PMOS设计分立式负载开关__images/img_007_e412cbd0db0a.png)
 
 _**图3-5：PMOS高边开关驱动设计**_
 

@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/OK5pJf5fvdgk5FUOG\_7Rhw](https://mp.weixin.qq.com/s/OK5pJf5fvdgk5FUOG_7Rhw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TAGgXbnFvWs8aiaKWlMoJib0iam2hhkM3drl1K8H7XfgV1MQXIWFCHAqLnt18CbibcceCeF2pUDEAJiaUhyE7ic3TVUl4YzXKn8tVKWg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665304&idx=1&sn=f7b83789dc8919e9a21ce41e216cf0cf&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_001_39600fd8a7c3.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665304&idx=1&sn=f7b83789dc8919e9a21ce41e216cf0cf&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_002_e532dba355d8.gif)
 
   
 
@@ -15,51 +15,51 @@
 
 由于电机NVH问题的相关理论复杂，同时涉及电磁/结构/声学多学科，是典型的多物理场耦合问题，其仿真分析具有一定难度。Ansys软件目前已经可以很好地实现电机NVH仿真计算：利用Maxwell2D/3D快速仿真电机在多转速下定、转子表面的频域电磁力并无缝链接到Workbench平台Harmonic Response模块进行多转速谐响应分析，得到电机的ERP Level Waterfall图，用于分析电机在各转速下的谐振情况；同时多转速谐响应分析结果也可传递到Harmonic Acoustics模块进行Sound Power Level Waterfall的分析，用于进一步对电机噪声水平进行评估。流程如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TC4A8FtmOxW2Piakohia0GFQiarlXZTJtee5dcvLJS4Libvm7lO2ldsLs8spA0YDCic49oMCoqF20ticUyibYMHfxEyNz2Dcgqet44auo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_003_6ec6a7ac7a0c.png)
 
 Magnetic Field Solution
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TAiaynKUUWtBfhAClXPAYaOQyKt1Biaee5SsRPbs9kF6zFicJ334SEsbCn3AD49o5zpgfiaqF5HJEWdSiblJ4Fva4veGPkiasd7kD9tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_004_ca8ee1feab2f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TD29kJmczkTxLkt43Vm49o4LsOcnrDFCF7WKw1BbkjDMBmSSYM2wsqIcznWyja7aJRsOAQPbyLNbDDQXuJHhlVRicfKGJTGXt0s/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_005_1091c9f897f6.jpg)
 
 Modal and Vibration
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TA3rv7JtQl44Qaoxu1fLickLP2M4kCsicCXJc0shgzbwES6yrQq8Gy1FmjBZpmoM0PNibLU1iczhbSN4oMysxYFB9GjgrjZm9rjqh8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_006_a3338eb17e7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TAby6ibD1o9n5tMjgBnXOW2vNQs6bcaCKmrAB9LmYYx1FtvYRhfE0iclPEzUMvoTszWZraM8MCXHicXtAssib1EMCSJSvnlONdaM5I/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_007_4c52aedfb40e.jpg)
 
 Acoustic
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAdPPIT6RhgUMVib4XVJlhSichxKjw8f7192Y8c6wsEUI4G3dMJVWDljkJ0qn42DIu37KAuded7BaLEEhmwjgBClZZgX9bYZf0LU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_008_3e54c7bad856.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAX3nrqDbj6mAkrTZA3Bn11xECAvsFDQ2Z7PG8r4SHsGJ1orsz7O5sCcgocTiaUmE19TGq3cfQydPBVqsFc0OlN3o4dibUBOcTgM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_009_4bb5349eb50a.png)
 
 同时，通过Ansys Motion结合Maxwell、Acoustic等软件还可以完成整个电驱动系统的NVH分析：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAM6icmY4OxibaBZINOJ8LGB8ia7ibia1Mxiaz8jhdzIxQPAETm3ncv8s08Xt5CskUhhF1dGoibLSOXKVlmoI2Eia2vuyk9VOTBgkTA0ibM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_010_1664cfbbe62c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TCy5PC66sUNGbqW14fzrk5hawYiadRwUWYucaAA9DjuRpctvulKq2Qib7bWcuy5Gg8kSnxiaFupxL5HiaRfom7IhTDshMMV8WaHicmU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_011_c4dc1f320acd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TAlaxmRZkkpnBnvNCoxrMROVeIQcSdSUNLwFBiapER6U8FQzJcqIhohdnAia2S9BSdgmHhpicpEToJFnpFeOkBbJmL2YU6qg8t3JQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_012_ca7f7fdbb868.png)
 
 另外，借助于多目标优化模块可对包括电机NVH在内的各项性能指标进行参数化寻优，快速实现产品迭代创新；同时还可以借助Ansys Sound仿真平台完成电机噪声仿真数据后处理与声音设计以及在整车上预测研究电机声品质：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TCPWTWic3icEx02lpTF70GZrrompLlP8sGUz4VksGFo73VGhu4iaCpVKuVtZ98wlq5H7iaffnjAuR6C7k73RaFF8ChspmISDMIz1aE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_013_13332c6599f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TDibD5DulsXnuybgmFE6QQzdYxZgYXkeEysog3cRIy4qx5DJ1ynan3tFZnuobo7ZZQCBeib9oVib0htfkwyswFvUEDjHgtzaEiaVhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_014_317733e40176.png)
 
 **随着大家对考虑电机控制系统的NVH仿真分析需求日益增多，采用Ansys Maxwell、Mechanical、 Twin Builder、 Sound等软件的基于系统模型电机时域NVH仿真方案还可以进行电机变转速过程中真实的SVPWM电压供电下的电机NVH仿真计算，在Twin Builder中建立包括电机控制电路和软件算法的系统模型，加入电机ECE，电磁力ECE，结构SPM模型用于计算任意工况下的时域表面振动，并将时域表面振动声压数据导入Sound生成频域瀑布图：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TDHicISiaDtFr7UnvX8ibP7fv5pxCusR6jiaW2r7wELDZxpesOiczNKqOl0iaPVllibQ89TMUeUIX6d3BLWjGnbLBdX6738yHrKxL67EY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_015_656488e87020.png)
 
 在电机NVH计算时，一般既要考虑电机相关激励，也要考虑变频器相关激励。可以直接在Maxwell中考虑电机控制开关频率引起的NVH问题，同时考虑电机本体和逆变器引起的NVH相关激励：对变时间步长进行瞬态电磁力插值，在载波频率及器整数倍频率附近进行谐波电磁力插值，在Ansys Mechanical中加载不同转速点下频率不均匀的谐波电磁力，以考虑由逆变器激励引起的电机高频NVH噪声。Maxwell2025R2增加了可以考虑SVPWM电压激励的新功能，通过新功能可以输出考虑SVPWM的电流波形，并以此为输入进行电磁力的计算，将考虑SVPWM的电磁力映射到Mechanical中进行谐响应分析，变时间步长仿真可以减少仿真时间，加速考虑电机控制系统及电机控制器开关频率引起的NVH分析计算：
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/BQ6VJtWIxxDQmTRhNUiaXHppd8BRZjiaBRH75wiapgrGg9iaIEWGicBVOHuRibB9tL0nrXquRLA9ruhlmWibriagNDKeicres3gECIEbCugyqzSPBKvo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_016_b8af08f390c6.png)
 
 6月12-15日，西莫在南京**举办的**“电机NVH问题的机理和测试仿真”研修班将力邀Ansys电机应用专家、Ansys机电产品专家、Ansys结构分析专家和Ansys声学专家共同为您详细讲解和全面展示电机及考虑控制系统的NVH仿真方法、电机动力总成NVH分析流程以及整车等复杂电机系统的声音设计应用和实现过程，欢迎大家扫描下方海报中二维码报名参加本次培训：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TAmTexPa5VRf0aN3EOUch4QQeOIKtbIsh9oOajx0Z7pApViaJQyBYRhSujl8Sg4HLpe5qd71ZSNYhCcp5qI1O24yJN9ZMdKxegw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_017_218a6dda522c.jpg)
 
 作为电机设计进阶研修班，本课程将带来具体哪些方面的提高和帮助呢？下面将进一步给大家介绍培训的内容和安排：
 
@@ -125,7 +125,7 @@ Acoustic
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TA30xICApAiafOzzlRMaznaHRvV0jsGSErna9P45V4YNM9ZGw5SQLsp4NJMI8LSghT6ibKzyjYonRBhKicic5p5sdjS81QWJypu5oo/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_018_745db66bb914.jpg)
 
   
 
@@ -161,11 +161,11 @@ Acoustic
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAkg7kKtfWOiaK3jVYCnGl9uvWRj7XTg1neoLX3ZpUiaToz9bYJNaoFcBFpuSVrFez0a9T7O7pd31VGYh4qBY7hbibRx7xBuByQBU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_019_210aad8e2d2d.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_020_0cfebd1d514d.gif)
 
   
 
@@ -173,17 +173,17 @@ Acoustic
 
   
 
-[![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/BQ6VJtWIxxAPicqbeV0XBW2NSLPXHqVcbGPqTNTusAEsrChQjrmsAmCpmCxacwiaa92chGk7LXLnaDjnlWpG8sFMEN2qKyjrhXN1icSlHDZzics/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665136&idx=1&sn=e5d67c26818732a435ffa4813537694b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_021_a857fbfde58a.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665136&idx=1&sn=e5d67c26818732a435ffa4813537694b&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/BQ6VJtWIxxBeMcTRLDMCuyMwoAP2PaLwhP5icLg37LlnDEHxtwPjbKm8LdKicaM3K4rj9oytbeuK8gqTFKAGneTk9d8L867l2wIT9SOBbj6hA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665333&idx=1&sn=07a3c7a2792fae915cba092e00656b95&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_022_eb2132832838.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665333&idx=1&sn=07a3c7a2792fae915cba092e00656b95&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVHpuIlP1V0YxafMPVegZyoMVlYicMsJHiawaq6ZBOiaicbSTXHkN9al4lLl0ibfPS8ubZmZCAwdSoyOVA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665253&idx=3&sn=e550d17c28807f77c3e277fc9e3844b5&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_023_f50ea9ed665f.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665253&idx=3&sn=e550d17c28807f77c3e277fc9e3844b5&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_024_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665253&idx=4&sn=b8ef0835252882cfc59c37cd91da0a77&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_025_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665253&idx=4&sn=b8ef0835252882cfc59c37cd91da0a77&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUciadY9CdGPVQ6cVu2Mc9Xibk41P66RUZDibRV0MjmYSLAribv7zMKCDojkLWfWXOGVD0MdYxB4xotgw/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665253&idx=5&sn=d66d78b5445af0f9f4a3479a5eaca0fe&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_026_e7d2744bc501.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650665253&idx=5&sn=d66d78b5445af0f9f4a3479a5eaca0fe&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\解锁电机NVH全领域仿真（本体_控制_动力总成_整车系统）正确方式_images\img_027_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

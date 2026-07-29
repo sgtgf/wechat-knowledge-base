@@ -8,43 +8,43 @@
 
 作者：Yifei Zheng,Yalcin Haksoz,Deepak Veereddy Infineon Technologies
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrXNBky7tMaLoib0ZDOqlPLeeLc0CuKUU9yDUQ1C7339V1m93472pTQAA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_000_b05172d7853e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgr5sEGqxWJoFa8v0uJiakeOb2vlCLpVib2NTDfKWsz86RZa4ZOQDseDuhw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_001_6112f8b1d049.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrYhJ5cMQOAiaTrSDFG2iarGQUWCcvqxAjh25dibmK0GZ9RW0ZVJibh8HFKA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_002_fec4e1b81628.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrzpsEvpOHtFsPiaFEBAqRNySxyViaEVZzL3efkuUjWhtzXXSoibmuAH3yw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_003_126f7f76e12a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrxajUXvkHqXNwCia0ULuCjQNaeKctTNDU2N9LlXmHDb1CiaOfzyXUdEgw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_004_9a2bed282764.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrialEI6U7ng40DaP4TlyeNckLzuQRe0nd4sDiak3Dgq98BVeKIM59pLTQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_005_4b7cfe92477a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgr3A7SGWQGEGfzZVEqsR5mfZOkwQdvvD2K6LxEhn8tZud2x3icnAtIN5g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_006_9953b78acec6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrXJbfP9TtDAysxLQmn6jHFeEQZfRaQkVoicFiaznYLFia148yLukx6mfoQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_007_c5043ea15a98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrXc0fuACRsXyRjcBhckicgq8178DLrTCycmiay2H2BCZf7SFLZN7vcQ9g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_008_1ae5d4380478.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrHGUwHq0Cj3K3kKsN21I4O0c0HOUXnYYAFwgf1gqKNLq1iamB2glfGLQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_009_dcbac932d170.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgr3NqOFkZhjWnhbqfAJbTTSgmffnialR49BTxiaHficGCyRMUEopnRbzl3Q/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_010_02689f5f5fc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgra1npdFe7ibQGnR6hZrreIGBMZGlyiaibPNgRzyzl7ldqBWRp5yWbCcCww/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_011_13fff59e52f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrKN29vWEDg0mVeS7UxfhdDNEu5MZsperqb66XIx4wrsPWu6ELicRjzkg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_012_194f3982453d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrXohaasmdr3mILXW9y88TiaYjibmG5jnL61R1JkbJmJJ7uEWncs13sspg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_013_f991fc5c9537.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrxgYwyu2c2zicYkxEW36XKicBFgChvZyyvxY27SicsT5TMfYhqSbQP4kqQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_014_6562aa3c3aa9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgr4uznmXJ4UtAB6c1DTXMb4pvXyU6ZQ7N8Y0Y610fkKtR2qC5jqic0YfQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_015_c51e224e0a97.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrmA1dnicX8vXPa7EwicibiadeuF5z09X11h1h0opvWIK8BiciaTCWjbsurxNg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_016_abd42614233f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrMypsvOMNWIv63biaia7nMhEzPXAI9DvFhCMdRbI6OKM1icRDXic1zaD8rg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_017_4dd19eb1db1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrHhbnxc0iaxBkyHgyvTBvY90Ticl5kwwm8ok6ccyWz375gEr8phMI5nVg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_018_1904c39b32f1.png)
 
 注：文字与报告无关
 
@@ -90,13 +90,13 @@ SiC MOSFET 的抗雪崩能力（EAS）比硅基器件高 2-3 倍，可承受 100
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslT4geP2TshiamhXaDLztV0yqTgGiae8YFwXCklISRahBFjj1RUWJlaEBCa2huhibH8HjLI3TQq6Mg1g/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_019_a52e117dd7c7.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslT4geP2TshiamhXaDLztV0yquARMiciaU0M0ymP2kKP4FU9d2qBsZLrTficf1kWfMQcvTQT7uOkL52ibA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_020_ed32ef927de2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslT4geP2TshiamhXaDLztV0yVaOms0LnDicIKa9hpwaxmwSDDDbuWuHOnRk37PDOX54yXibCygw0WVjg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC_MOSFET应用于AI服务器的5_5kW三相LLC变换器的设计_images/img_021_fbb43a70fc19.png)

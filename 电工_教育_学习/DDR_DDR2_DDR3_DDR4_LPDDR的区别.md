@@ -26,7 +26,7 @@ DDR的核心要义是在一个时钟周期内，上升沿和下降沿都做一�
 
 **每一代DDR的基本区别**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPZZLE40fPyoPhcTkpKU2ArZCcRIMOlias743DYjLjY2Af9oibAibptk94A/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_002_fdbc0c6cb3d9.png)
 
 （可点击图片放大查看）
 
@@ -56,7 +56,7 @@ DDR的接收器是一个比较器，其中一端是VREF，另一端是信号，�
 
 Prefetch字面意思就是预存取，每一代的DDR预存取大小不同，详见第2章中表格。以DDR3为例，它的Prefetch=8n，相当于DDR的每一个IO都有一个宽度为8的buffer，从IO进来8个数据后，在第8个数据进来后，才把这8个数据一次性的写入DDR内部的存储单元。下图是一个形象的解释，同时我们关注一下几个速率。DDR3的时钟是800MHz，Data Rate是1600Mbps，由于这个Buffer的存在，DDR内部的时钟只需要200MHz就可以了（注意DDR内部不是双比特翻转采样）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPGVYSNXxpG6vMicoI4JOfRDTxqChXNiaEjmSwwbHPHLdIicfY01YYsvUTg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_003_dd011565b151.png)
 
   
 
@@ -64,7 +64,7 @@ Prefetch字面意思就是预存取，每一代的DDR预存取大小不同，详
 
 我们来做一个频率对照表，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPficEzlzwpx2icETNia0RKhQCeeemUIT2jNicT8MNvtZdPnTNvmFicSNMfyQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_004_fbb6840fc71c.png)
 
 DDR内部的最小存储单元（1bit）是一个晶体管+一个电容，电容会放电，需要不断的“刷新”（充电）才能保持正常的工作状态，由于电容充放电需要时间，DDR内部的频率受限于此，很难提高，目前技术一般在100~200MHz。因此需要用Prefetch技术来提内部数据高吞吐率（其实就是串并转换原理）。Prefetch位宽的提高，是DDR2,3,4非常显著的变化。
 
@@ -90,7 +90,7 @@ SSTL标准规定了IC供电，IO的DC和AC输入输出门限，差分信号门�
 
 SSTL最大的特点是需要终端匹配电阻，也叫终端终结电阻，上拉到VTT（1/2VDDQ）。这个短接电阻最大的作用是为了信号完整性，特别是在1拖多的Fly-by走线拓扑下，还能增强驱动能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPqWY7J8nia1nicAZqJScLujfwCCLx1xpXfhSDMQPXrCeLm0V0H5Mx8hlw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_005_60cd4a0704cc.png)
 
   
 
@@ -100,7 +100,7 @@ SSTL最大的特点是需要终端匹配电阻，也叫终端终结电阻，上�
 
 以下图为例，一个Bank中包含若干个Array，Array相当于一个表单，选中“行地址”和“列地址”后，表单中的一个单元格就被选中，这个单元格就是一个bit。Bank中的所有Array的行地址是连在一起的，列地址也是。那么选中“行地址”和“列地址”后，将一起选中所有Array的bit。有多少个array，就有多少个bit被选中。以DDR3为例，Data线宽度是32，prefetch是8，那么Array就有32x8=256.内部一次操作会选中256bit的数据。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcP5ukib1HFLR6ru2bWbr33OJU0tWWYr8v3fib8XuSfh2yHvrLc8Yo1UNcQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_006_1ec2906fd135.png)
 
   
 
@@ -118,11 +118,11 @@ Bank数量越多，需要的Bank选择线越多，DDR3有8个bank，需要3个BA
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPeOKLhwngZEFxV3cjTsXMaiaVw5lIUicoBia7WkpA3vDx2pKyLqQlaXsUA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_007_d9c1d418973e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPpfVrF6byUTOOREzrMw7VoU4yVMMmVGklJ5hKRrVicrw3ExIcBiaqKmQw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_008_19a34ce3db04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPsx3ficar0nTC091ygc13ZoIrkibcSamUXojUQ5jfUffuY19aPicibpOTicA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_009_ddeb8859f372.png)
 
   
 
@@ -158,7 +158,7 @@ Burst：突发的顺序。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPtYOrtYEgEFw84oIpFS09T8GOw071VvAz7UQnrWDy7fxW53K2mqeohw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_010_31ab68ef7c74.png)
 
   
 
@@ -222,9 +222,9 @@ DQU, DQL, DQSU, DQSU#, DQSL, DQSL#, DMU and DML for X16 configuration
 
 当一个CPU挂了很多个DDR芯片的时候，他们是共用控制线，地址线的，走线肯定要分叉，如果没有中端匹配电阻，肯定会产生信号完整性问题。那么如果只有一个DDR芯片的时候，需不需要呢？正常情况下，走线很短，有符合规则，是不需要的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPDC5HJt8Y0oYuYNnEKnibk28w7zibdibVoJKxp4eic6wHDTEXsIsiaIqVLiaQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_011_c09f5b56c3e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPb0ZZMiam7EwZ3Iq43sztOf77sIadQNmdSN8w5ibQzJPVp1QY2ibAQQfIQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_012_bd14fbb35fd5.png)
 
   
 
@@ -234,19 +234,19 @@ DQU, DQL, DQSU, DQSU#, DQSL, DQSL#, DMU and DML for X16 configuration
 
 下图是RON的调节，注意这不是ODT的任务，调节是通过寄存器实现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPo68Vye8mJ2Z4pHFRmfs7t5gBeycRnE3qIxic9icibtYKJ48SicF1Q1EHCA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_013_6e45de25139d.png)
 
   
 
 下图是RTT的调节，是ODT要做的事情，而且RTT的档位要多，也是通过寄存器调节的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPuibmNJiacHuUFfG5jwsyNUTUUVAGTdAjc1mD719ZMaaEVTjYqZQhNnhg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_014_6b52dd9a65c1.png)
 
   
 
 注意，DDR3的PIN定义上有一个引脚是ODT，如果ODT=0，DRAM Termination State功能关闭；ODT=1，DRAM Termination State的功能参考寄存器设置。如下是一个真值表。因为DRAM Termination State非常耗电，所以不用的时候最好不要打开。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPk2d5NT2Ytn9NdNYicNx4BaykRdoblF0VUO1hTybRfrW5U2tjKrg213w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_015_8e11ae6ec4d5.png)
 
   
 
@@ -274,19 +274,19 @@ OCD 是在 DDR-II 开始加入的新功能，而且这个功能是可选的，�
 
 如果不满足要求，则通过设定突发长度的地址线来传送上拉 / 下拉电阻等级（加一档或减一档），直到测试合格才退出OCD操作，通过OCD操作来减少 DQ 、 DQS的倾斜从而提高信号的完整性及控制电压来提高信号品质。由于在一般情况下对应用环境稳定程度要求并不太高，只要存在差分DQS时就基本可以保证同步的准确性， 而且OCD的调整对其他操作也有一定影响， 因此OCD功能在普通台式机上并没有什么作用，其优点主要体现在对数据完整性非常敏感的服务器等高端产品领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPQMQmNwEsDnBp5ux7pU01PE6n6uL13fxmv3QnhEBJMU06JJm5iaaQ9qw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_016_ece92ee8c023.png)
 
 **DDR3的PIN定义**
 
 下面是三星K4B4G0446Q/K4B4G0846Q的PIN定义，每一个都有很详细的解释。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPgIOZhu67hY6pjWnI1WR09cQia08CVuL1lInK8yDY7BZiaAZicMIBhBnPA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_017_37cc11eaae07.png)
 
   
 
 以x8的配置为例，如下是其Ball Map。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOTZq7bfnRZPCWRt7DMiaZcPtIr46ic8AKyPYicQHyOSaBPNiaKLibicFkEKbBtgJRJ3z7knkrURj9ZAu4Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR_DDR2_DDR3_DDR4_LPDDR的区别_images\img_018_f71cd32caeda.png)
 
 -   一对时钟线CK和CKn
     

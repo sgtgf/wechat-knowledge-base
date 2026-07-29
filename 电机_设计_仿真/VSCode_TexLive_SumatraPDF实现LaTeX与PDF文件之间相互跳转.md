@@ -43,13 +43,13 @@ LaTeX Workshop原有的编译引擎的配置太多太杂，并且不满足我的
 
 `//   "latex-workshop.view.pdf.viewer": "external",   "latex-workshop.view.pdf.external.viewer.command": "C:/Program Files/SumatraPDF/SumatraPDF.exe",   "latex-workshop.view.pdf.external.viewer.args": [       "%PDF%",   ],   //设置正向跳转   "latex-workshop.view.pdf.external.synctex.command": "C:/Program Files/SumatraPDF/SumatraPDF.exe",   "latex-workshop.view.pdf.external.synctex.args": [       "-forward-search",       "%TEX%",       "%LINE%",       "-reuse-instance",       "-inverse-search",       "\"D:/Program Files/Microsoft VS Code/Code.exe\" \"D:\\Program Files\\Microsoft VS Code\\resources\\app\\out\\cli.js\" --ms-enable-electron-run-as-node -r -g \"%f:%l\"",       "%PDF%"   ],   `
 
-LaTeX Workshop默认快捷键为"Ctrl+Alt+J"，将鼠标光标停放在LaTeX代码某一位置，按下该快捷键，即可跳转到PDF对应位置。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSQ4zKphJticghmptxUD60NZp975BOxVfo4uE6JMHzp5Sf5ymKyicwDf3m97XvJlnNOmYN4Pqz0ckjg/640?wx_fmt=png)可以看到，成功跳转后，相应位置会有一段高亮的提醒。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSQ4zKphJticghmptxUD60NZ401eEGIxD5nGF2zq9yhJe67s2sfFm8hcV5vxibNlicWcBuruiajYpvA2A/640?wx_fmt=png)同样双击PDF文件中的内容，可以实现PDF跳转到`LaTeX`代码。
+LaTeX Workshop默认快捷键为"Ctrl+Alt+J"，将鼠标光标停放在LaTeX代码某一位置，按下该快捷键，即可跳转到PDF对应位置。![](D:\电脑文件\公众号知识库\电机_设计_仿真\VSCode_TexLive_SumatraPDF实现LaTeX与PDF文件之间相互跳转_images\img_000_2f09f81760bd.png)可以看到，成功跳转后，相应位置会有一段高亮的提醒。![](D:\电脑文件\公众号知识库\电机_设计_仿真\VSCode_TexLive_SumatraPDF实现LaTeX与PDF文件之间相互跳转_images\img_001_f5903e4dae69.png)同样双击PDF文件中的内容，可以实现PDF跳转到`LaTeX`代码。
 
-除了配置好`settings.json`外，可选择配置SumatraPDF，打开SumatraPDF->设置->选项。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSQ4zKphJticghmptxUD60NZicuTPiauNzu3x4bGL2dcz5GWQrGMchzF0NOHckUZGmk2mjPvIRLrxjWQ/640?wx_fmt=png)在选项里面找到“设置反向搜索命令行”，设置：
+除了配置好`settings.json`外，可选择配置SumatraPDF，打开SumatraPDF->设置->选项。![](D:\电脑文件\公众号知识库\电机_设计_仿真\VSCode_TexLive_SumatraPDF实现LaTeX与PDF文件之间相互跳转_images\img_002_c7a9e9de1f17.png)在选项里面找到“设置反向搜索命令行”，设置：
 
 `"D:/Program Files/Microsoft VS Code/Code.exe" "D:\Program Files\Microsoft VS Code\resources\app\out\cli.js" --ms-enable-electron-run-as-node -r -g "%f:%l"   `
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSQ4zKphJticghmptxUD60NZfazJ7yUbSXYmHSfiaHQI7sB3YAdib04SSTKEDyrUnJvtibIChuaxHUBHQ/640?wx_fmt=png)之所以说是可选择配置，因为在第一次从`LaTeX`跳转到PDF时，上述信息会自动填入SumatraPDF。
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\VSCode_TexLive_SumatraPDF实现LaTeX与PDF文件之间相互跳转_images\img_003_8284907614c2.png)之所以说是可选择配置，因为在第一次从`LaTeX`跳转到PDF时，上述信息会自动填入SumatraPDF。
 
 配置好工具，终于又可以继续Happy LaTeX！
 

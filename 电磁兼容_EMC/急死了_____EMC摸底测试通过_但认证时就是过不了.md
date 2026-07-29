@@ -24,7 +24,7 @@ EMC摸底测试通过，但认证时就是过不了，这是群里的兄弟最�
 
 如果产品没有问题，直接寄到实验室也会放心一些。若是有问题，也可以就近解决。（顺便提一下，我们一般RE做的比较多，也最复杂，我这里所说的摸底指的是RE摸底）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaicggZpoibEEuYLQnOr54m0k85gkM24rTiausjDLHvNQ4s2STAfUePPC94YZraaB9o6IPCicNficH1hQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\急死了_____EMC摸底测试通过_但认证时就是过不了_images\img_002_282e6ea5c130.png)
 
 当我们RE摸底整改没有问题后，就会直接把样机寄到认证机构，以为认证机构也能一把过，但很多时候都被打脸了，这时候怎么办呢？
 
@@ -36,7 +36,7 @@ EMC摸底测试通过，但认证时就是过不了，这是群里的兄弟最�
 
 2.1、RE不过可能跟陪测品有关，比如我们想测试某个主板，这个主板有HDMI、DP、RJ45、以太网、USB，WIFI，蓝牙等接口或信号，那么在测试时就需要其它陪测品配合进行测试。**这些陪测品都有可能是干扰源，包括连接线****。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaicggZpoibEEuYLQnOr54m0LqVDr1yUw7ghibiabqSfGTERzib359LBBMU7TYOAMXdYxNp6ibIibTPlNoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\急死了_____EMC摸底测试通过_但认证时就是过不了_images\img_003_440b7cda6f66.png)
 
 记得有两次这样的情况，明明我们自己摸底OK，但实验室始终不对，最后发现是实验室提供的**适配器**和**HDMI线**有问题。
 
@@ -62,19 +62,19 @@ EMC摸底测试通过，但认证时就是过不了，这是群里的兄弟最�
 
 以下两个电路，是之前技术交流群群友发的，王工做了一个简单的分析，旨在帮助入门或转行的同学理解学习（点击图片直接进入）
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电磁兼容_EMC\急死了_____EMC摸底测试通过_但认证时就是过不了_images\img_004_b0d1466d16df.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电磁兼容_EMC\急死了_____EMC摸底测试通过_但认证时就是过不了_images\img_005_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjp9yy0z2QDvC7iaeHMB8Plb72fjzFv31icQfEKicFLricceMych76njNhNG0hjLDic7xB2vBr1mf0hTBA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=MzkwMzI4MTA4NA==&mid=2247498828&idx=1&sn=e91fc5514f5fb14ed26a6ba65a0dd795&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电磁兼容_EMC\急死了_____EMC摸底测试通过_但认证时就是过不了_images\img_006_b55be6bc4312.jpg)](https://mp.weixin.qq.com/s?__biz=MzkwMzI4MTA4NA==&mid=2247498828&idx=1&sn=e91fc5514f5fb14ed26a6ba65a0dd795&scene=21#wechat_redirect)
 
   
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\急死了_____EMC摸底测试通过_但认证时就是过不了_images\img_007_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\急死了_____EMC摸底测试通过_但认证时就是过不了_images\img_008_d5dcc7ecfdf3.jpg)
 
 ## 
 

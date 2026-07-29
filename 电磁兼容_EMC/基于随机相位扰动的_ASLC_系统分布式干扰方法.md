@@ -29,37 +29,37 @@ doi： https://doi.org/10.3390/s26123857
 
 ASLC 的本质可以理解为一个自适应减法器。设主通道输出为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDaob8fq5ibvRzwvWunH5JPibzfBf0t9svJkYRUbrTbwCzAmTnBhM9LhSQ2EpdXgYpfE3jlAe7c4OVV0pY5R2f2w8ocIIq4DaRjE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_000_0cc82d1afd3f.png)
 
 辅助通道接收向量为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDEyzF5iaiaAxj8UHcguAJDNaxd2hw1EGU5GLArOs53dQ8owbTmcZz4w0NImWlzIpXFsHnaCFSOReKCibodalzr5clsermibho1DPY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_001_06d77c937bc6.png)
 
 辅助通道权值为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDlSPBuO7fVZuvwU1NsM0I3p3o1qoyRvtLujx1G45P1yylML8BTaVibLmwoZ43nkQialzGJn25qgwibm6j5rmjwicraRJPBlTeBVsE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_002_918b9408fc10.png)
 
 则 ASLC 输出为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsC6lQ7hlKRmCvZciapPbxAReIunx9DpS74nqM1tRSU2vIfU9QVd2UIstoIzVMxgEKeXOy6YDIjWM4De4OUTpTLUYicQLibUnO5eHI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_003_bf7168815d86.png)
 
 其中，W^H X(t)是由辅助通道加权合成出的干扰估计量。如果该估计量能够准确逼近主通道中的干扰分量，那么相减后输出中的干扰就会被压低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsB8d6LRFic7TwbehRaricYmSALj6vz4zjq8CrXk1rBLcDHHd6nJ0kqj4aPibjy0OyW6H50CEGc844lzl7kxyx5ibgvScB2abGQ6QN4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_004_50a2bb9a20e1.png)
 
 图1 ASLC 系统框图与自适应权值更新流程。图中给出了主通道、辅助通道、训练窗、协方差估计、权值计算和相消输出之间的关系
 
 从最小均方误差角度，ASLC 需要选择最优权值，使输出平均功率最小：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCt9kWtSDNiamyvIMvxERvrY328JUJ6ibHNSIaSj4o6KqUq19eYSxwH9LoDnTFUSCv7v6gtNh84jRnDuZjAibWPj3eN4lS1icl9jvo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_005_041ac7f50c2d.png)
 
 由 Wiener-Hopf 方程可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsD6N798TkciaGKnC2W7d0c4hsAHO4yPCMMN7cf80Yzib2ZP9Fv0YR9JtiaibyKZytAA6oYO5BGiajxk1foJWoMiaQzWp4EDw1Pfohhos/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_006_597bd106dc50.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBO9hRiazVwpOMnXoDvByb7tGA4TNdXkba3mVVunc8pHd90xTtWAsYILpzr1icPzWjYjrmsfT9IPS18I14mEp0ibXjGtvV6PSIuXE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_007_d653a5109ee0.png)
 
 Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。这个求解过程说明：ASLC 的权值并不是预先固定的，而是根据接收数据统计特性自适应估计得到的。
 
@@ -67,23 +67,23 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 若干扰从固定方向 θj入射，干扰信号为 j(t)，干扰功率为 Pj\=E\[|j(t)|^2 \]。辅助通道和主通道接收模型可写为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDvmHl6StNT4hkia0cPXaPnsjr86Byx0J0GwoppCEatPx9GEXKVch5DxRQUUdQCSmkBibIH4ersfstOgBS1F0JF317cVDGa4A8ek/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_008_3230bb63f7f7.png)
 
 其中，gaux(θj) 是辅助通道对干扰方向的空间响应向量，Gmain(θj) 是主通道对该方向的响应。若干扰与噪声互不相关，则有：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAREZiaU0TKQ9PG6qjGhZ2Xsg4FmR2emZCVvPABI6OQPT1AjtaWFVrp0q1iakQnrLvchm7iapJcYPf77pNyhZyq3IFFY4DFzLE6pA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_009_9297f3d95876.png)
 
 代入 Wiener-Hopf 方程，可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCr8QBkYgyWdsImb5e3vziaJAhDPtOWqNqhJIV2AgVwrpRvFMrKA4BoattibPgO8jRryiajSKXey6J7qrPmVQrMgu2OyecWx8NRps/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_010_1788a37e7b60.png)
 
 在强干扰条件下，如果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCqf4ASlWLmXQjibdOF7SZF3cBBDE3111PPoAb7rxsojjkmp5g2sWTLKFhmGFeY9CZSFDcKBnXib5NpqkDcgM5XXGuXFhZXed8qs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_011_104e0ef0cdf1.png)
 
 则可以近似为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBNU8oG90LWl4bZAOSDRatjVmXxXicttVuw1MrGCUqwjICPolj8RB144zicxEBtAWFUtSC8KC2OVmYkicaic8uLCPiaE5RsAY2uDzIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_012_87cf7e1d3fb0.png)
 
 这个近似式揭示了 ASLC 的核心能力：当干扰方向稳定时，最优权值主要由干扰方向对应的空间响应决定，而不取决于干扰波形本身。因此，只要干扰的空间统计特性稳定，ASLC 就可以形成稳定零陷。
 
@@ -91,11 +91,11 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 实际 ASLC 通常采用有限训练窗估计统计量：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDEyTzZaSBwwBKFgkXfFgEZicD1DicLric3yx3aEUmWszWX0ial5EqrLPcJnW1A69nXYCvqWqE3O2DfDYudqqhjt9TRqsHVBibkQ0aU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_013_a126b0a71205.png)
 
 因此
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDr09fQQ2jsyMCp2oDavfNh00kbyl3Ql5gFOzDnqNSVCana5quTfCibNOWicXU8jLcbAfbOprwprGqknxT2P3stdGDzliaEA8yRgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_014_cfd095dfba7c.png)
 
 若训练窗内干扰方向、功率或主辅通道相关性保持稳定，估计权值就能够有效用于后续相消。但如果干扰在训练窗或训练窗与相消窗之间快速变化，则 W ̂ 可能不再匹配实际干扰状态，导致输出残余增大。
 
@@ -105,33 +105,33 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 设两个相干干扰源分别位于 θ1 和 θ2 方向，发射相同基带信号 s(t)。第一个干扰源发射：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDkKvn3uwicEX3Q9BAAda7xtUQtbfMyRR9lWGobBbF6VZ2QHkCn8CTIjRqbA51TibeIhDDyUAEqxXISZ0J34zUO1zC5GNnKYX0LI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_015_589bb8ddbf05.png)
 
 第二个干扰源叠加主动随机相位扰动：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsD3J5XvxMvmHEmFDVQs2feUjJ5uvXkic06AA2ZiaoLU7AoibloZUjbkJfQAYxxe1iawZibSeOfx2DzQLafGffdvCBMVCFDaE5bXcfLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_016_15efbf707575.png)
 
 对于阵元间距为 d 的均匀线阵，第 n 个阵元的接收信号为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDqbD757icsFr9ekTDSzM5ic4xgekJCyzfm5RBOwntfhGt9JIsDpx3yJayYygQAbs6nzSdfiadkrtw8S2lNibxbUkbCxnHeyC1HybQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_017_af1e9468b517.png)
 
 其中，k=2π/λ为波数。该式表明：两个干扰源的物理方向虽然不变，但相对相位变化会改变二者在阵列上的相干叠加关系，进而改变合成空间相位分布。
 
 为了与 ASLC 向量模型统一，定义：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsB9C8YHKe2iazMgbACNtzymq2zf0pBGbzYIUjmdeYXqjvkrnZS3zQyguaPuuTwV5lfDj00Kia1ZFaIac5Q1jC8KV13MDQGbtakss/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_018_623f623e519b.png)
 
 令 ϕ(t)=ΔΦactive(t)，则辅助通道和主通道分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCFhZu4HOjxckURLL6hcckdWFJZx5kOkZn6jN6B4BJtZnSVvQwFfKQrS4KbZ7OjTeTWgibhsib5G4QLGH0XNn45Nkic9yEg5Ne14A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_019_c1fa9cbe25dc.png)
 
 定义瞬时合成空间响应：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsAQDIia37nKqdJNAGT3fEYuPhu5VGxRudaGicr5HYapMMene2pktCV7KwMZwyGnrtS6niaSvGibxH4wEC27cyiaLMEITY0wfxMhwHLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_020_c7c9834e81b8.png)
 
 则模型变为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsAibbo4o0gWSg4lwibQndTstbA4HpaxcXuS9NrNMuuia8SB628dK2bicQDNmnqz4q9hBYBUE3B6FhXtibvHibyyCarXSS058ibj8NBpiao/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_021_bc5713764621.png)
 
 当 ϕ(t) 为常数时，u(t) 和 v(t) 固定，ASLC 可以学习这个稳定合成响应；当 ϕ(t) 随机跳变时，u(t) 和 v(t) 快速变化，训练窗估计的权值难以始终匹配相消窗中的瞬时状态。
 
@@ -139,29 +139,29 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 对于单个平面波，相邻阵元相位差满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsC4mPSSVX0jyrUdOR5Z68zWXtIrXrffic0U49p3QuWVuay5rXThqSjwNCM0v3Nm7dahXV48NlXbORyLEgyiclmHnR5nZzBnG3vKU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_022_d656ae236efa.png)
 
 因此可以由相邻阵元相位差反推等效方向：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsB8D1ymcWofbLPCBLFBgFticCdG2WhUlVfiakCSZsLR4iaLibqGbQlYU4TmMnAJ0CKPBgb8nUtfHQGSe0EKjicBKpzQ1Qicszvo1FANA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_023_ec1eeb8d8aba.png)
 
 对两个干扰源的合成信号，文献定义：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsADsdZ80yITfeHwnicoUSayA8qleZibPWx3bV7Z3PTb74wz3GP71o7Kgaib1oBNTiayVMwErWvOETq73nBfqcrf7xAVrBxWUpPPAJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_024_d2e2130a9099.png)
 
 于是等效波前方向为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsApFxozywuhtLtEnrGOk3lKpsEoiaQGXemII0J2WIr3Z5S39FjHB7BQKB5g0JIL1SG3AHMZiaSpuy05QV8XoBP8G53jWMGq1Y1ib0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_025_595dffde8552.png)
 
 随机相位扰动会使 Δψ(t) 快速变化，因此 θeq (t) 也随时间变化。需要注意的是，两个不同方向平面波的叠加并不严格等价为单一平面波，θeq (t) 更适合理解为合成场空间相位梯度的工程等效描述。
 
 工程实现中还要考虑同步误差。文献将总相位写为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsB4kGveBict6fZkSJIibW8rm5bamic9qLLBYxpKr0WLNvwQriaw71delq3A22r2UQH8rZhkQ6gDzDqobYmhPq8zI5QiaGc0niaHYibGJk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_026_ccfa9d334377.png)
 
 其中，时间同步误差引起的载波相位偏移为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAicxcr0jSIjsCicHu8rcYxa9ndJIXxr06sOqaMldazFaN5tIqbicfdNFDTeh6hq7FQa3rK05nibfaceXKFia0BVZ0eF6vKOh0kXFmU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_027_a7e081253129.png)
 
 固定偏置和慢漂移在一个 ASLC 处理窗口内近似为常数，往往可被权值吸收；真正造成非平稳性的，是主动施加的快速随机相位跳变。
 
@@ -169,13 +169,13 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 文献使用相消比（Cancellation Ratio, CR）衡量 ASLC 抑制能力：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsALXlCtq3rBM692tPAnlsskaxEiczSD3pOUqGFnNOWbYQoXicXDVic4I9x0wr4sdrdzfw1YsMk6GJoqFpsibHSRP6shKHibDYorPva0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_028_8e8f062a3ff1.png)
 
 其中，Pbefore 为相消前干扰功率，Pafter 为相消后残余干扰功率。CR 越大，说明 ASLC 抑制越强；CR 越小，说明干扰方法越有效。
 
 在自适应滤波理论中，CR 与主辅通道相关系数 ρ 之间有关系：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAGtCOkGHIr88Z1qocGIyV2Fw0bgZiaBAIlXicsEHDspMz324uuEFe5LEVQgOCsl5ibD0aptglDlLLtjzbZZiaSKew53icACPvKpaE8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_029_637be69c7d33.png)
 
 因此，随机相位扰动即使只让 |ρ| 小幅下降，也会通过 1-|ρ|^2 显著放大残余干扰功率，最终表现为 CR 下降。
 
@@ -187,13 +187,13 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 表1 主动随机相位跳变对 ASLC 性能的影响
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsASfgUnhGacGicsBCwticyNqLT5pKxFnvHZshWicbbticsvXaoAb1DUuicS97lKdjKZReJIocwfqUW9eibdciajrsKaMrPYhk7QawQRzA/640?wx_fmt=png&from=appmsg)无相位跳变时，平均 CR 为 26.80 dB；加入主动随机相位跳变后，平均 CR 降至 20.29 dB，下降 6.51 dB。同时，平均相关系数由 0.9987 降至 0.9933。相关系数只小幅下降，却带来明显 CR 降低，说明 ASLC 对主辅通道相关性的变化非常敏感。
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_030_ec345dbc567a.png)无相位跳变时，平均 CR 为 26.80 dB；加入主动随机相位跳变后，平均 CR 降至 20.29 dB，下降 6.51 dB。同时，平均相关系数由 0.9987 降至 0.9933。相关系数只小幅下降，却带来明显 CR 降低，说明 ASLC 对主辅通道相关性的变化非常敏感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDWMuO4hYwlg1hQKOhz3ebgAxYKpPlJD3HstESgDpibdfc2T4VT3v4IFTeIcfSldpibHPaMwbn5iaT3VJGL23icygMRzp2NOS6oluI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_031_bcca3f18d2f9.png)
 
 图2 无相位跳变时的 ASLC 方向图。ASLC 能够在两个干扰方向形成较深零陷
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDJ2EQY6myoYgJTdAUj2JN1znuCSPOIBw5JVziaXkiasa6pPsqcJicPib0ZfhKDYFb7WBHhHb9mpKMpmQkCmb8HWNXvgTE3zNoWibXY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_032_091b9daae5bf.png)
 
 图3 加入随机相位跳变后的 ASLC 方向图。两个干扰方向处零陷明显变浅，相消能力下降
 
@@ -205,7 +205,7 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 表2 不同时间同步误差下的 CR
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCT9ofKHrRFvea0oL2q8LsJdLttGjgcEEP0icKCHaxaMtiavPvSjz5R2IVkvL4j1icHHKHhyqgicPKOzTwXdXDkUlyOVgvYghlIIJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_033_c85610d8a6d6.png)
 
 当时间同步误差从 0.1 ns 变化到 10 ns，平均 CR 仅在 20.13 dB 至 20.41 dB 之间波动，变化小于 0.3 dB。文献解释为：时间同步误差在一个 ASLC 处理窗口内近似表现为固定相位偏置，而固定或慢变偏置可以被 ASLC 权值吸收。
 
@@ -213,7 +213,7 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 表3 不同相位同步误差下的 CR
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBfkzdr7HficckjC83uqicgxqEz6oFpz9ua4l2d9GIcNpsklyTGwmrTDbUibWcdsvypfv7yHtaJjdNnoYGAqQF04IBjhy38nWJicP8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_034_d02a53da9df4.png)
 
 相位同步误差变化时，平均 CR 仍基本保持在 20.14 dB 至 20.41 dB 之间。也就是说，在文献设定的残余随机误差模型下，该方法对时间同步和相位同步精度要求相对宽松。
 
@@ -223,7 +223,7 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 表4 不同干扰方法的 CR 对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBkMZCtxKQYk9jseqxqf2Rub2rlSibTicentHRRUv4F8eFvJ90O2yxZplOMNvVk4HW0l5libibOhfZibzhq08jlRazpwPyDWmKr3vBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_035_e28a89c34fce.png)
 
 随机相位扰动方法的平均 CR 为 20.29 dB，略高于异步闪烁干扰和多源饱和干扰对应的约 19 dB 与约 18 dB。但该方法仅需要两个干扰源，且对时序匹配不敏感。因此，它并不是单纯追求最低 CR，而是在干扰效果、干扰源数量和同步要求之间提供一种更均衡的方案。
 
@@ -233,19 +233,19 @@ Rxx表示辅助通道协方差矩阵，rxy表示主辅通道互相关向量。�
 
 表5 CR 随相位跳变间隔的变化
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDMLMQHHFmVrEFbJzkjVpxEj5oyl0CuicmlcH8cI9xOkdQRiba7Y0RHic7ZdFPfAXk5AC2wkhMZEmngNM2YgvfgEuMwFGKeQ4ZZNE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_036_5736712c82f5.png)
 
 结果显示，相位跳变并不是越快越好。当跳变间隔为 10 到 30 个采样点时，CR 仍然较高；当跳变间隔接近或略超过训练窗长度时，CR 明显降低。其原因在于，只有当训练窗与相消窗之间的统计状态产生明显失配时，随机相位扰动才能充分破坏 ASLC 的权值匹配。
 
 表7 CR 随 JNR 的变化
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsCGx6AcIJsaMSCNIjrxHuYc8tZb3zMxpx2iabTEF4qvWaU8blQUJvBHcr9ahCpVMX5pdHEicibPhuticBr6AkhIukp6SQSY7CaWOWc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_037_f4a3593d5168.png)
 
 JNR 越高，ASLC 在无相位跳变条件下本来能够获得更高 CR；但随机相位扰动造成的 CR 降低量也随之增大。例如 JNR 为 40 dB 时，降幅达到 6.51 dB。这说明该方法在强干扰条件下对 ASLC 的破坏更明显。
 
 表8 CR 随辅助通道数量的变化
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsCrd37JCNZ1H8DmibTupfibT1skyqINGhJmk1av3DtKOBG1jWVKB9icj2Oprr9CBAYflCibvJLJGEamos3bgaicrQVCOUNQKU6n5188/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\基于随机相位扰动的_ASLC_系统分布式干扰方法_images\img_038_060d1de60a30.png)
 
 结果显示，辅助通道数从 2 增至 10 时，随机相位扰动带来的 CR 降低大致保持在 5.87 dB 到 6.51 dB 之间，说明该方法对辅助通道数量并不十分敏感。
 

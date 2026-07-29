@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/-H0KwXZkKpESD68yBxVZcA](https://mp.weixin.qq.com/s/-H0KwXZkKpESD68yBxVZcA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxwfYJLc7hK9Q3DKj71ia05ibicZPajUIBd45KJyibwqNS1QqTnJ9C7ohRgQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658149&idx=1&sn=0d8c7248e301b1d37c7321d9b0e03948&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_001_14151717c2c4.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658149&idx=1&sn=0d8c7248e301b1d37c7321d9b0e03948&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_002_e532dba355d8.gif)
 
   
 
@@ -35,9 +35,9 @@
 
 可以等效到电压空间矢量的作用，如下图所示，根据电压合成平均值等效原理有下式成立：
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEozQ4VwBQG7k8qicpwIiayyuIT8sC8WicSKibffeWN4ZsuJRshviciacuLhGicg/640?wx_fmt=png&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_003_85ab0e90ba6d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rSY0vrmHCQIBTgS3VgkqYlT35rHtXW0SyXzKicRSuEdYe8oPfibWgwCaA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_004_da8e44bf7d67.png)
 
 **一个计算周期Ts的电压合成图**
 
@@ -45,15 +45,15 @@
 
 其中T0为零矢量的作用时间，把零矢量作用时间等分为2个零矢量。由电压矢量合成原理可得：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rx8JuRiciaQ9xVEZJBic1yQnqClruA6Y1tZLHnEx6e5WWZZ08IUabTpgrg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_005_ff39f829b499.png)
 
 设参考电压矢量的空间位置与图示空间电压矢量U4夹角为θ，则参考电压矢量可表示为:
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rKfo9vXHBYhteBpGSvuwibIFvTtGhiaTbxQEWrUDkFAnELploStjNhtDQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_006_ad325a862bf0.png)
 
 Vref为参考电压矢量的幅值。代入可以得到U4和U6的作用时间：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rz6VkgU8JrjrLzGMh27zXotUzaO0Btgbgzb1tlkR350w4qRibg9bblPA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_007_447240e9804d.png)
 
 对于问题（3），各电压矢量的作用次序要遵守以下的原则：任意一次电压矢量的变化只能有一个桥臂的开关动作，表现在二进制矢量中意味着一次变化只能有一位变化。其原因在于如果允许有2个或3个桥臂同时动作，则在线电压的半周期内会出现反极性的电压脉冲，产生反向转矩，引起转矩脉动和电磁噪声。
 
@@ -61,7 +61,7 @@ Vref为参考电压矢量的幅值。代入可以得到U4和U6的作用时间：
 
 典型的七段式空间电压矢量调制的产生结果如下图所示：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rsGKakLIHtdrhYpypYmzTMseBtS7YjjJBKTFpezsXHOzE0q7OcPeMuA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_008_278d1638f831.png)
 
 **SVPWM一个周期调制信号**
 
@@ -81,19 +81,19 @@ Vref为参考电压矢量的幅值。代入可以得到U4和U6的作用时间：
 
 在此选择基于载波的PWM实现方法，因为1/4三次谐波注入PWM与SVPWM几乎是一致的，因此其Simulink模型如下：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rBMSVghc4Cps7ibPqNwcdRhecZXozA33Dg36Yeic9uG3ROL9Gd1HNo0gw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_009_365f388df6cd.png)
 
 **1/4三次谐波注入PWM的Simulink模型**
 
 仿真波形如下：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rwlIK1VGqJapNI37d9HvJlPPmXRwpA8T83OZFVlfpU8orxpR4EJrFYw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_010_93564de6b132.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rUb0ghiaRcCUcgamZtETutDoiaEYo3OBzNlvqhpibJibcp5pZXs4h8ibafDw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_011_873829aafb1b.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rojHGo3deSwqbrjTzzpGfQ5wJg4PqTErCuPiaCwImnykwicOM6HPB4hibg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_012_e9c504ec2e2e.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotp5P0UshWq2E3wgqk8Gx88rCziaJuDyjrkuclTrU0wPic4C1Fdx7BuuXrU87XCibyViaR0YFpxibvQtPaQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_013_962b2b75c8e4.png)
 
 **1/4三次谐波注入PWM仿真波形**
 
@@ -111,17 +111,17 @@ FOC（Field Oriented Control）磁场定向控制，也称是Vector Control矢�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqPNMconScic6gzOIQTfSMvicDic2ZUBP6Ofic08Zs1ibrDTRucSORt2ewfPwIhxvicM0jw2E8ibh3Lic1Dvw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_014_9011f0b33894.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqPNMconScic6gzOIQTfSMvicFsQUTykz57QUMz4PG6TCoXF2Vkcg2yIv7UtIgmU8zUZ0G2ibksYDmBw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_015_e49277580ef7.png)
 
 式中：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqPNMconScic6gzOIQTfSMviciaic5wSycKRSKGaW62Jhe3bicoLlDtmab6UmKa1SJ2fEscvDLHX3nKYQA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_016_8017e0e723c7.png)
 
 通过控制PMSM的d轴电流和q轴电流来控制电机的转矩。通过控制逆变器的输出电压来控制电机的d轴电流和q轴电流。控制框图如下，给定d轴电流和q轴电流，通过电流控制器控制电机实际的d轴电流和q轴电流跟随给定值变化。电流控制器的设计方法很多，在此不再累述。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqPNMconScic6gzOIQTfSMvicVgrBicAtbJibg2gs5EiaibABAicwBLGW9qeTSrbxbhoYO06RA1ticD6rLqGA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_017_26f3904c13f4.png)
 
 **FOC控制框图**
 
@@ -129,7 +129,7 @@ FOC（Field Oriented Control）磁场定向控制，也称是Vector Control矢�
 
 对于各个环节的信号的波形可以参考下图，
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqPNMconScic6gzOIQTfSMvicp90JMib3US53K0OVjERBFbKyJR5JZr8QZIrOIxMpnxz0kzvwNYoAzHw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_018_84c5a6ae0faf.png)
 
 **FOC控制信号示意图**
 
@@ -155,11 +155,11 @@ FOC（Field Oriented Control）磁场定向控制，也称是Vector Control矢�
 
 Simulink模型如下：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqPNMconScic6gzOIQTfSMvic1DZyZ3IDOd594JwzqyiauueDyj5tnMQQpbfcWFibPZbxSf32r0htvzEg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_019_fb2779fd1f7d.png)
 
 **FOC算法的Simulink模型**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqPNMconScic6gzOIQTfSMvic5fIb94RvGPibN758ZZwhuGXa38K0VW7ic4ia9GQJ81HsMC99T4fyJeCXg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_020_f6005980cff1.png)
 
 **Current Controller的Simulink模型**
 
@@ -167,7 +167,7 @@ Simulink模型如下：
 
 为了帮助大家深入理解永磁电机数学建模的原理和掌握永磁电机控制器模型的Simulink实现方法并完成相应的算法开发，西莫特邀上海熠速信息技术有限公司高级工程师许为老师全新打造了永磁电机数学建模及控制算法开发研修班课程，培训共分12部分，力求完整覆盖到永磁同步电机及永磁无刷直流电机控制系统相关建模仿真及算法开发等方方面面内容，为学员在实际工作中电控领域的学习和提高需求以及各种相关应用问题的解决提供更好的帮助。相对于西莫之前的电机控制研修班课程，本次培训更加聚焦于以电机控制系统建模仿真为依托深入解读和实现电机控制算法开发的过程，从基本电机控制的基本原理入手，进一步详细全面系统地帮助大家深入理解和完成永磁电机控制系统数学模型的建立，并结合典型的控制算法实例讲授来提高大家对永磁电机控制的认知，了解更多关于永磁电机控制的应用和未来发展趋势：
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEohg4Ucqg7pFaKlK082RvuibjTJSpNbJh6a0Dn6QTdK0fFFSD36icFR8mw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_021_456d15dab7d3.jpg)
 
 欢迎对永磁电机控制仿真及算法开发有迫切学习需求的朋友扫码报名，关于本次培训的详细情况介绍如下：
 
@@ -238,7 +238,7 @@ Simulink模型如下：
 
 可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEo5ZDficM7twjeYFZwTgnvLCaplfz9QsTTNOWNdHyjbwINftDWxmk3OPA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_022_42c0a76bd665.jpg)
 
 **增值服务**
 
@@ -273,26 +273,26 @@ Simulink模型如下：
     
 -   报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVAgHHz8bTt6xsRmjb3cyQZbUIdK7iaBvZllT5DsmVKjpQlibVASfRmoBEnSAxmicWxap2SXFtt69icXQ/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_023_f9ce906c696c.png)
     
 
 其他事宜咨询，请联系会务组负责人张老师，电话：18516258619欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_024_0cfebd1d514d.gif)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxF4IDicN6icoibHub2UQVcjDuMO0ZtSVR1YVvdnics5dP5YZx7ibvpwyDczw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658142&idx=1&sn=93029bb3b34e8cd30537d6f779f99ac1&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_025_d3c397500f0e.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658142&idx=1&sn=93029bb3b34e8cd30537d6f779f99ac1&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxTkELSPpD63HeTZcBQ1mEnpFNwJEBJib2zyLERNO0drj5ziab4McIHLXQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658158&idx=1&sn=fa15de06656ee76cba40038ecdf9126f&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_026_4ab183148154.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658158&idx=1&sn=fa15de06656ee76cba40038ecdf9126f&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxsEXTlwtGfsHKkpZERsJAxbx188AR3icY3e5k8aaCmSzyYh2akibC1JSw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658121&idx=1&sn=7cf6e4b756408d14b94b862588414780&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_027_b6e6efeb71b1.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658121&idx=1&sn=7cf6e4b756408d14b94b862588414780&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxRTOClqfnNrwg1eqAnnB9P6tQ2abVrwy6rAFRve80csEJYeG5wR0bTw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=1&sn=7e9b903c177a4d7b6873a0b57537c2cb&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_028_93c494ca100c.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=1&sn=7e9b903c177a4d7b6873a0b57537c2cb&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_029_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=2&sn=71d533c66e7a95dd3937c318920f34d8&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_030_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=2&sn=71d533c66e7a95dd3937c318920f34d8&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_031_cb8185f2cf41.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁电机FOC控制算法开发及Simulink实现_images\img_032_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

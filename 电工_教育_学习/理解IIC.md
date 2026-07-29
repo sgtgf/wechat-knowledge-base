@@ -17,7 +17,7 @@ I2C总线是一种十分流行并且强大的总线，其多用于一个（或�
 这篇应用笔记的目标是帮助大家理解I2C总线是如何工作的。  
 图1展示了一个典型的用于嵌入式系统中的I2C总线，其上挂载了多种从设备。作为I2C主机的从微控制器控制着IO拓展、不同传感器、EEPROM、多个ADC/多个DAC、等等。所有这些设备只需要通过来自主机的两根引脚来控制。
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYSh0J3dqyaA0vsYwlScvl1nXtIJ5ibX3uTA0p1ghMWENumz97UyXohOw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_002_2abc62cd1c50.png)  
 > 引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 
   
@@ -32,7 +32,7 @@ I2C总线使用开漏输出控制器，在同一线路上带有一个输入缓�
 
 开漏输出极允许将总线上的电压拉低（大多数情况下是到地），或释放总线以允许其被上拉电阻拉高。当总线被主机或从机释放，线上的上拉电阻负责将线上电压上拉到电源轨。由于并没有设备可以在总线上输出高电平，这也就意味着总线在通讯中，将不会碰到一个设备输出高，而另一个设备试图输出低所导致的短路问题（电源轨到地）。I2C总线要求处于多主机环境下的单个主机在输出高而读回的实际总线电平为低时（这意味着另一个设备拉低了它）中止通讯，因为另一个设备正在使用总线。采用推挽输出方式的接口就没有这么自由了，这也正是I2C总线的一个优先。
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYicgQsrkF4cqSGdctRbRA86BQS6lBnEXeKukMmlicGN1IxoZBJ53KMqVA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_003_0885e620db01.png)  
 > 引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 
 图2展示了位于SDA/SCL线上的主从设备的内部简化结构，其由一个用于读取数据的缓冲器，以及一个用于发送数据的下拉场效应管组成。一个设备只被允许拉低总线（规定为短路到地）或释放总线（对地呈现高阻态）以允许上拉电阻拉升总线电平。当处理I2C设备时，有一个重要的概念需要阐明：没有设备可以保持总线为高。这个特性使得双向通讯得以实现。
@@ -43,7 +43,7 @@ I2C总线使用开漏输出控制器，在同一线路上带有一个输入缓�
 
 正如前面章节所述，开漏输出只能将总线拉低，或者释放总线然后依靠上拉电阻拉高总线。图3展示了总线拉低时的电流流向。当逻辑电路想要发送一个低电平时，其会使能下拉场效应管，场效应管会通过短路到地的方式拉低线路。
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYwyn6IK8icuibLwfctYfnOq1VXfbC9XEm1IrIhOZWjaa9oeZKImx0JVvQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_004_1339ca2e4344.png)  
 > 引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 > 
 >   
@@ -54,7 +54,7 @@ I2C总线使用开漏输出控制器，在同一线路上带有一个输入缓�
 
 当从机或主机想要传输一个逻辑电平高，它只能通过使能场效应管的方式释放总线。这将会使得总线处于浮空状态，同时上拉电阻将会将总线电平拉高到供电轨，此电平被当作高电平看待。图4展示了电流如何流过用于拉高总线的上拉电阻。
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYfrlQ2uSmictxHTsY2IrKH1FKaurnp6OCldDWTdMRylw232NuZJBGZGA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_005_fdd4a188a06d.png)  
 > 引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 > 
 >   
@@ -99,7 +99,7 @@ I2C总线的物理接口由串行时钟线（SCL）和串行数据线（SDA）�
 
 主机可以通过发送START标志初始化与设备的I2C通讯，或者发送STOP标志结束通讯。当SCL处于高电平时，SDA上的下降沿意味着一个START标志，而SDA上的上升沿意味着一个STOP标志。
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYAKEPzqVa4fl1dCibmLibvqApnUDzJ6PHv8pATtsWbaibdJRphtLgEznAA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_006_df5cb81c1740.png)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 
 ### 
 
@@ -113,7 +113,7 @@ I2C总线的物理接口由串行时钟线（SCL）和串行数据线（SDA）�
 
 数据位伴随着SCL上的每一个时钟脉冲被传输。单个字节由SDA线上的8位数据组成，其可以是设备地址、寄存器地址或者读自/写入设备的数据。数据以大端在前（MSB）的方式传输。在START标志与STOP标志之间可以传输任意数量的数据字节。SDA线上的数据必须在时钟电平为高时保持稳定，因为SCL线为高时，SDA线上的变动将会被当作控制指令（START或STOP）。
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYZEKnHItwSNvSicAXdBrNVVUKSF1vn0gTZMcjpAeiaFLBiaib1pSnY0r53g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_007_a55af8bac2ea.png)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 
 ## 
 
@@ -132,7 +132,7 @@ I2C总线的物理接口由串行时钟线（SCL）和串行数据线（SDA）�
 4.  作为接收方的主机完成了数据读取，因此通过发送一个NACK通知从机。
     
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYRWZlszmpAUFMeAibkeVILcJD0q8MUCbLEceZzFic2IX34nLtxAu8zBfQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_008_2fa5c149819f.png)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 > 
 >   
 
@@ -151,7 +151,7 @@ I2C总线的物理接口由串行时钟线（SCL）和串行数据线（SDA）�
 要在I2C总线上执行写操作，主机会发送一个START标志以及从机地址到总线上，并且将最后1位（读写位）设为0以表明这是写操作。当从机发送应答位之后，主机便发送希望写入的寄存器地址。从机再一次应答，通知主机从机已准备好。这之后，主机开始发送寄存器数据到从机。当主机发送完所有需要发送的数据（有时只是一个字节），其将会通过发送STOP标志结束通讯。  
 图8展示了一个写入单个字节到从机寄存器的例子。
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAYmRiczC7J5sRRDQmfZ9vOQe9svBXFSUrObH5RAHp32ZVG5W9wia52472g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
+> ![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_009_dac89cca4fc3.png)引用自文档：https://www.ti.com/lit/an/slva704/slva704.pdf
 > 
 >   
 > 
@@ -166,7 +166,7 @@ I2C总线的物理接口由串行时钟线（SCL）和串行数据线（SDA）�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnXRmicWdkEYrq9KGW0QZ9IAY8asLzAvh5uYIoBAWXCStdc61Wkr5IH9tSoicPn5jFqr1XfFNiatcJ9vw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\理解IIC_images\img_010_a6410821f622.png)
 
   
 

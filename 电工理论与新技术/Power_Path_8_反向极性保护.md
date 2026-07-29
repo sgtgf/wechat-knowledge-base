@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hF82sXPaAK2Tug2pBSY0vA](https://mp.weixin.qq.com/s/hF82sXPaAK2Tug2pBSY0vA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCLPBpeAss1sVHibZEfBoCtYPYgia5LZfqReOYLQ36ibbAsqibOUFHsrrGDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_000_51921f015623.png)
 
 ____**★★★**______P____ower Path-8--____\-反向极性保护______**★★★**____
 
@@ -19,11 +19,11 @@ ____€2.__反向输入极性保护__
 
 **_图8-1_**显示了反向连接的电池输入路径，当这种情况发生时，巨大的电流流经微控制器（MCU）、DC/DC转换器或其它电路的静电放电（ESD）二极管，对连接电池的子系统造成严重损坏。反向连接的电池还可能会损坏极化器件，如电解电容器，如**_图8-2_**所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFiabqjwiblEbKhOqStIy9ZwZu0FyP5UNKwrIZBExia03mJekcBSjEh5qjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_001_d3cbdc94d377.png)
 
 **_图8-1：反向接电池，短路电流流经MCU等等器件_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFPbYS5qibWFjSKXzAYGjJPgtngYgTP0depyrJViaEcVibzH49lwus1U4VQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_002_67f6af96a196.png)
 
 **_图8-2：反向接电池，电流流经极化元件_**
 
@@ -31,7 +31,7 @@ ______€3.使用肖特基二极管的反向极性保护______
 
 防止输入极性反向的常用方法采用肖特基二极管或具有分立元件的P-MOSFET，反向电池保护的最简单方法是在系统电源路径的输入端添加一个串联二极管。**_图8-3_**显示了使用肖特基二极管的反向电池保护方案（传送门：[Diode-3：二极管的应用-1](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247493331&idx=1&sn=6876b9275165225f614de5c879ab836c&chksm=c336ac4cf441255a121740df676137f9f4dc3eca5228c8bffde44d4b1f2ad56f1f75147aa307&scene=21#wechat_redirect)），负载电流沿二极管的正向流动。如果电池安装的极性错误，二极管会反向偏置并阻断反向电流，从而保护负载免受负电压的影响。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0Klu32bmmDkianVPzMuiaIIKTtuiclwWcXeuibW6qjK06SYhRRqfBO4uMOyRLQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_003_0c991ca0da4a.png)
 
 **_图8-3：使用肖特基二极管的反向输入保护_**
 
@@ -49,13 +49,13 @@ ____________€4.______使用离散模块集集的反向极性保护______
 
 如**_图8-4_**所示，通过用P-MOSFET代替肖特基二极管，其体二极管朝向与与肖特基二极管相同，可以减少二极管的正向压降。在电池正常工作期间，MOSFET的体二极管正向偏置并导通很短的时间，直到当栅极电压拉到源极以下时MOSFET主沟道导通。当电池极性反转时，栅极-源极电压为正，此时MOSFET截止，保护下游电路免受负电压的影响。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFfCsUhMhUlnOwbdQdO234zBygYmt1I0PeKL5MKwdRv6j6l6rrXCVg4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_004_9024837d7f0a.png)
 
 **_图8-4：使用P-MOSFET进行反向输入保护_**
 
 反向电池保护的另一种方法是在低侧使用N-MOSFET，例如在接地回路上，其工作原理类似于**_图8-4_**中的P-MOSFET。在正常工作期间，MOSFET的体二极管正向偏置并导通，直到MOSFET主沟道导通。当电池输入通过限流电阻对栅极充电时，MOSFET快速导通，当栅极-源极电压开始低于MOSFET阈值电压（Vth）并偏置为负时，在静态反向电池或动态反向电池连接条件下，在电池输入开始偏置为负之后，MOSFET关断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSF3M7yRq45ceF50A90lGtOgs87qvEjia2xbyH38iczSib29HEOhwibEaAcJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_005_2066d331c717.png)
 
 **_图8-5：使用N-MOSFET的反向输入保护_**
 
@@ -67,7 +67,7 @@ ___________€5.反向极性保护vs反向电流阻断___________
 
 **_图8-4_**或**_图8-5_**所示的反向输入保护不会阻止反向电流（这个反向电流不是电池反接产生的反向电流，而是电池正常接入，MOS开启时其余原因涌入的反向电流）流回电池，因为MOSFET是导通的。在**_图8-6_**中，输入功率从正值变为负值，P-MOSFET在短时间内保持导通，因为其VGS仍需要时间从负值转变为正值，这会导致输出端出现暂时的负电压尖峰。相反，肖特基二极管不断地阻挡反向电流流入电源，并固有地提供反向极性保护和反向电流阻挡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXVUQUicbcrRhcekpvQ4ZB6lGkqDt79T2WPRnHxMoNibF3dQ2lPohMGkEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_006_7f26334a04dd.png)
 
 **_图8-6：肖特基二极管vsP-MOSFET_**
 
@@ -89,13 +89,13 @@ _理想二极管控制器_
 
 理想二极管控制器驱动外部N-MOSFET作为理想的二极管工作，具有非常低的正向电压降和没有反向电流，**_图8-7_**显示了使用理想二极管控制器的反极性保护。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFhOL90h2gIna9P6w71J7SQiaACf8zvw6FZY9SD5uq5SoEFgn28ruRpmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_007_0943a5e26342.png)
 
 当MOSFET关断时，其体二极管会阻挡反向电流，当MOSFET在正向导通期间导通时，正向电压降和功耗会显著降低。理想二极管控制器可以感应流经MOSFET的反向电流，并很快将其关闭，从而使体二极管阻断反向电流。理想二极管控制器提供低调节正向电压、真正的反向电流阻断、快速反向电流响应以及非常低的关断电流和工作静态电流。
 
 这些特性使理想二极管控制器能够在反极性保护应用中模拟理想的二极管，**_图8-7_**显示了理想二极管控制器对反向连接输入电源的响应。当输入电源线以相反极性连接时，控制器通过关断MOSFET完全阻断反向电流，输出不降为负，而是保持在0V。负载与反向输入电源连接隔离，并受到保护，免受反向电流造成的损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXMdQ9j8aROJvj8r1cOXSJpPjBbdOsTMEXIpAFgCr8ibSsxbXQeZlvpcQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_008_b8b0678750ff.png)
 
 **_图8-8：理想二极管控制器对反向输入极性的响应_**
 
@@ -105,7 +105,7 @@ _动态反向极性响应_
 
 **_图8-9_**显示了控制器对其输入端施加的动态反向极性的响应，在施加测试脉冲之前，MOSFET导通并允许负载电流通过。当在电池输入端施加ISO-7637-2测试脉冲1时，负载电流开始快速反向，并试图将输出电压拉至负值。控制器检测反向电流，并在0.75μs内关闭MOSFET，以阻断反向电流并防止输出变为负，它还可以防止大容量电容放电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwX8vbfYeiaDXjNibqPyibgncqibicWHk5LzCaKfemukoIKxOvmys7KvicXqbKw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_009_14f71741644e.png)
 
 **_图8-9：理想二极管控制器对ISO-7637-2脉冲1的响应_**
 
@@ -113,13 +113,13 @@ _使用eFuse进行反向极性保护_
 
 eFuse设备具有完全集成的反向输入电源保护功能，无需额外组件，这些设备可以承受-60V的反向电压而不会损坏。**_图8-10_**将eFuse的反向输入极性保护功能与外部肖特基二极管进行了比较，集成MOSFET取代了外部阻断二极管，提供了完全集成的反向电流阻断和反向极性解决方案。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSF3KRow6Jv0kibm0zaKo2KwrJAFs7gNEQEHtOLBNlibTP8ZmUh558FZ9mg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_010_1434796a013a.png)
 
 **_图8-10：eFuse的集成反向极性保护_**
 
 **_图8-11_**显示了eFuse对–57V反向输入电源的响应，eFuse通过在反向输入电源的情况下关闭MOSFET来完全阻断反向电流，并防止损坏下游电路和组件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXh8rejmhFzzctwHPOtGnI0kWQk4nS74TPKvQlcyTe01eauv6LEtzibjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_011_29a75f87a9e2.png)
 
 **_图8-11：eFuse对反向输入电源的响应_**
 
@@ -127,7 +127,7 @@ _动态反向极性响应_
 
 通过外部电源供电的工业子系统在其电源线上会受到各种电气瞬态的影响，而其功能不会中断，在输入端施加由国际电工委员会IEC-61000-4-5规定的正浪涌和负浪涌，其中施加低至–500V的负瞬态电压20us。**_图8-12_**显示了电子保险丝对输入端–500V负浪涌的响应，输出保护持续生效，并且在浪涌事件结束后可以快速恢复输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXYpI4WKdbB8KnE1YrthicRtzDvrQmlRvCEv0nUtwfKCky8ESic7JN3kHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_8_反向极性保护_images\img_012_abf819e3f812.png)
 
 **_图8-12：eFuse对输入时-500V浪涌的响应_**
 

@@ -15,15 +15,15 @@ SiC能够提升电控系统中低负载的效率，整车续航里程增长5~10%
 
 **SiC 电机控制器产品**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaarGS0fm9HzUoiauad6q3nP0huiaUFP23FC3OvJGtRuB9w9nnicBz6aaX0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_000_b21d42a174c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaatX8RUt07c8mFfHExClmhx8fiaGPuWueTbYicBT1gDw2Mvl8iawx1AOEnA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_001_73e7148bd6c0.png)
 
 **1. 性能参数**
 
 电机控制器基本参数见表1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaaMuiaIvAicLTlu8BWwpVYURaic9pldVlBcxAWLKR1DzHWsT0rQAT7iajlfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_002_29c92fa45e3b.png)
 
 **2. 总体尺寸和外观**
 
@@ -31,13 +31,13 @@ SiC能够提升电控系统中低负载的效率，整车续航里程增长5~10%
 
 电机控制器主要尺寸见图1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaarPqGORaFiaROmkQGficwXlGj7F6zBOdPhJTI2KECBfSeKv4IEbf9tZyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_003_807e903982b2.png)
 
 **2.2 外观**
 
 电机控制器外观见图2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaaZMz5NkhQzmRo56Gb5wa1T8qR7FuK6hjPvPUqfxbVOc2rOY784fm8fg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_004_688767bf8f0a.png)
 
 **3. 接口**
 
@@ -45,51 +45,51 @@ SiC能够提升电控系统中低负载的效率，整车续航里程增长5~10%
 
 a）水嘴接口尺寸见图3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaamAjpYxoqtJLicSjgmfmxLDpKC3tfgyB6N6z5icGibOTJDXbhdL6OeF77A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_005_d0250bf43e4c.png)
 
 **3.2 电气接口**
 
 电机控制器信号需求系统框图见图4。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaa8lVGx8uUanI5ZZ3DJALN0zo7fDrZ3HuH91sPywkmicCrDsQbwBZfuvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_006_f2c10119824d.png)
 
 a) 动力接口
 
 电机控制器动力接口见表 2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaa7YLX9icuSdeicrt1xKNaImDNYcKhibK8icUoW2VTWa5Vtly8tzj3wiamICg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_007_69ef6909bab6.png)
 
 b) 对外控制信号接口
 
 控制器与整车通讯接口采用14pin的弯角端子，引脚定义见表3，端子外形图见图5。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaaWZJJcrgHeOmpytqfwQ0icRIEubFNLxokB1B5s2ulGwOAI6kzLEicgX6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_008_7a5bf86e8677.png)
 
 c) 电机信号接口
 
 控制器与电机的信号接口主要是接收来自电机旋变和温度传感器的信号，采用12pin的低压端子，端子信号定义见表4，外形图见图6。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaax7zTBm6IPP3vEKO21YQicDOLNkGOADGAzPpRMDRp6SMhqh9ibOb44Fwg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_009_7f6d046f35b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaacQvIcOBDJnmedngo2xWZib7iaQrsJ8lo8tA3AwNprcL09vctSLPcspRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_010_41e10cef6043.png)
 
 **4. 功率模块**
 
 功率模块选型为爱仕特ASC800N1200HPD，主要性能参数见表5。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaafhAhrHoia2oxKyiaYHnErw2VNr74qNwfMHmMGKBQPhjOPR693RCYVJUw/640?wx_fmt=jpeg)产品选型图：电压650V-1700V,电流400A-800A
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_011_160de0099673.jpg)产品选型图：电压650V-1700V,电流400A-800A
 
 ASC800N1200HPD产品，是HPD封装三相全桥碳化硅MOSFET模块，是目前国产替代对标国外头部企业的最大电流碳化硅MOSFET模块，电流超过800A，耐压超过1200V，可广泛用于重卡及各种大功率新能源车的电机驱动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaayXsMVY7g7U3INs6cBc8x7XNLGGWz3ibx7DeJuSpLc04whcWfdXUfVGg/640?wx_fmt=png)1200V800A模块参数表
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_012_54a301ddfacf.png)1200V800A模块参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaaKcUhfanQEmgGybtW4vPCib58ekADNc7jwia1ibyFeSDpXzbyjleZWgTng/640?wx_fmt=jpeg)HPD模块拓扑图
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_013_32357aff0a91.jpg)HPD模块拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaaGGmaSPnUQ5XoNIkXAMfzsgVWs6S5ykbLEpks3nfs85oIe4hvQcLQOQ/640?wx_fmt=jpeg)HPD模块外框尺寸图
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_014_63ec50c83c10.jpg)HPD模块外框尺寸图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaamLzwhrMIE6G3W7NOpqZgicH5RPXgvcxdBgo6cSWhibfkK8UnkcRiaShpg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_015_51fe09eda186.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaamf5icibyUBgfWvfvG4Xg8Feh2UdWQON3WyYQ6gywHISKWn62PbeJvrPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_016_0cde9bbd4089.jpg)
 
 模块+驱动板实物图
 
@@ -101,7 +101,7 @@ ASC800N1200HPD产品，是HPD封装三相全桥碳化硅MOSFET模块，是目前
 
 **6.爱仕特产品线**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaaKWgQW3WWUq5HxS1vDVdKeC7OpWZx8lBTHvicNIYXHic8YteDVr5BBYkA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_017_75d71d4178d1.jpg)
 
 .生产+销售：碳化硅MOS芯片设计，自建晶圆厂，产品可定制开发
 
@@ -109,10 +109,10 @@ ASC800N1200HPD产品，是HPD封装三相全桥碳化硅MOSFET模块，是目前
 
 .生产+销售：SiC MOS功率模块,产品耐压650V-1700V，电流100A-800A
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxSlrB3zD6HEXUianwlzicaayOsD1jgnnpYicCIf08bX8iahlJibujlHLT9Mt9edFiaOZSOLnY0LHWVTNQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_018_07b3be287861.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_019_ea0192bed0ec.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_020_a7ecee98ead9.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET（SiC_）电机控制器_images\img_021_9bbc7b9b15a2.png)

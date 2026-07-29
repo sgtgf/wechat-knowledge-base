@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/HkNAeZ7\_mTXJiZAtL5a7oA](https://mp.weixin.qq.com/s/HkNAeZ7_mTXJiZAtL5a7oA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1LyYzxJZc2ArAhHvrSic3BP86XAgZ5yDWH4jxgG696Aj5stgPjKg8UrA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_000_d7202de4d6a9.png)
 
 视频人脸识别是计算机视觉、模式识别、视频分析与理解等领域的重要研究课题。视频人脸识别的研究不仅在理论上具有重大意义，同时在生物特征鉴别、视频监控、信息安全等领域具有广泛的应用前景，已经成为人脸识别领域的研究热点和难点问题。
 
@@ -12,7 +12,7 @@
 
 引用格式：王玉, 申铉京, 陈海鹏. 基于改进的Fisher准则的多示例学习视频人脸识别算法. 自动化学报, 2018, 44(12): 2179-2187
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1ickXo7N38iajDdViaaAibibCt0HdYKyCicaZtEe3Bia1qsEciaJVJTicjN60org/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_001_223d743a0911.jpg)
 
   
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1qh2ADkowlAlEdfpT2fMIKWQ3s6fttZYu4UW835pMPI4v5NHhPSb4Ww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_002_419bf0b046ce.png)
 
   
 
@@ -32,7 +32,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1s7ya1ZWp3l2tIBPyPxbGIdj46wzxEEnTt2cLBnHPILwemHrvGg6IOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_003_01f06b1e07f2.png)
 
   
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1nu1UZ7t2OgcSDR6x4DWiaA5gCNTQNAFBA2O7Mf6vO2ibCRAsaMiaPs22A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_004_5caa031a1e43.png)
 
   
 
@@ -50,23 +50,23 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1VZxEoynbUUj1j4Jaoq4jXC490bsULOXNeH7VhcKNf4AHYlicyzoSib4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_005_6f89e9762bfd.png)
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1a8rjhznhbTUib1rz7rcIrMZox6HobktyXBf2Fhib0Qh3HBiaciakPYt5gg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_006_70f6573d02b2.jpg)
 
 王玉，吉林大学应用技术学院副教授. 主要研究方向为图像处理与机器学习. 
 
 E-mail: wangyu001@jlu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1FMnoqfY672aW7VQXhoCKzQXaJCRwjIqAjia3UubnasOXRu7kkI4l9XA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_007_9af3f6fb11c6.jpg)
 
 申铉京，吉林大学计算机科学与技术学院教授，博士生导师.主要研究方向为图像处理与模式识别. 
 
 E-mail:xjshen@jlu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1hqETMSOY5SiaicPOwwcibiay0jyDUbuJ8CgDktUDkbA0CHh9tE1YON0DuA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_008_63d3165041e7.jpg)
 
 陈海鹏，吉林大学计算机科学与技术学院教授，博士生导师.主要研究方向为图像处理与模式识别. 本文通信作者.
 
@@ -128,21 +128,21 @@ E-mail: chenhp@jlu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1VbLdKSogibsYa4grAW6TsjnBCib0XtBGffd0Kxt7ebIea51H1zRBGXibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_009_537870f506d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1HGWHfF8kwe5tHzgukVz1WiaTKZX6gcBRsYnsvDES7ALZ3m1MmSGT4QA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_010_d3c3a83d54ea.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1VbLdKSogibsYa4grAW6TsjnBCib0XtBGffd0Kxt7ebIea51H1zRBGXibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_011_537870f506d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY16YV4O9VibNpZVicj9JQGMEqk4SAvkNDaUGL9ht7uDOVyXOtfWElmT7jg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_012_b314699188dd.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1VbLdKSogibsYa4grAW6TsjnBCib0XtBGffd0Kxt7ebIea51H1zRBGXibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_013_537870f506d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ZbZhYnS05ngWicNpCDpnY1swM0Pu8HGTpCShFvdKgibkWiaZHINl0Rbz2ic0rYKAljFtY8eZsTmwI5w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于改进的Fisher准则的多示例学习视频人脸识别算法_images\img_014_5e0dab771140.jpg)
 
 自动化学报订阅号
 

@@ -12,7 +12,7 @@ MOS管数据手册上的相关参数有很多，以MOS管VBZM7N60为例，下面
 
 极限参数也叫绝对最大额定参数，MOS管在使用过程当中，**任何情况下都不能超过下图的这些极限参数，否则MOS管有可能损坏**。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JgXUicbXPpHk8TheVZeH9ia1bIT5vkxUZOPRJV2NSZZphC3RDQRic0zNEHDv8uxxq2HdBDIDiaggeVcQ/640?wx_fmt=png&wxfrom=13&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzg4MTYzMjUxOA==&mid=2247508784&idx=1&sn=55ab9f9925e6ff1b55e4f4f8414769e5&chksm=cf601759f8179e4f1ac42c0c7aedf6e3e74c27fd9d2faaf8f8ff5f685267afe40cf109d04157&scene=21#wechat_redirect)
+[![](做硬件_必须要看懂MOS管手册_images/img_002_dcf2acca127f.png)](http://mp.weixin.qq.com/s?__biz=Mzg4MTYzMjUxOA==&mid=2247508784&idx=1&sn=55ab9f9925e6ff1b55e4f4f8414769e5&chksm=cf601759f8179e4f1ac42c0c7aedf6e3e74c27fd9d2faaf8f8ff5f685267afe40cf109d04157&scene=21#wechat_redirect)
 
   
 
@@ -42,7 +42,7 @@ MOS管数据手册上的相关参数有很多，以MOS管VBZM7N60为例，下面
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYlBDJichhrJVykFTff823AhcBkibKbRGUsbicib6pULmjCicWib5qhy3cCJrQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_003_f86fac04a8ea.png)
 
   
 
@@ -50,7 +50,7 @@ MOS管数据手册上的相关参数有很多，以MOS管VBZM7N60为例，下面
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYX9mqSEWfmQ5ScaL2Y1n1iaCicT4vaV7HgjnJbib9oHT93luLAVZ1J6I7g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_004_fba66af41cd1.png)
 
   
 
@@ -76,7 +76,7 @@ MOS管数据手册上的相关参数有很多，以MOS管VBZM7N60为例，下面
 
 **gfs**表示正向跨导，反映的是栅极电压对漏源电流控制的能力，gfs过小会导致MOSFET关断速度降低，关断能力减弱，过大会导致关断过快，EMI特性差，同时伴随关断时漏源会产生更大的关断电压尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYBe9memSBxJ1c4j68ibv7vBlhUruxdaHZ2wIrFrYPySbDITa1AW0YX7g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_005_0c8da1cd29d7.png)
 
   
 
@@ -92,7 +92,7 @@ MOS管数据手册上的相关参数有很多，以MOS管VBZM7N60为例，下面
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsY7HFv8ics9yGnTsc6v8PEcjdDCxPuo9T1OKzibgMtwNLGicaDhticUSdcDw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_006_0419092255c2.png)
 
   
 
@@ -108,9 +108,9 @@ MOS管数据手册上的相关参数有很多，以MOS管VBZM7N60为例，下面
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYHxXnKnTZp8eQh2yKke0xvGz0ibicjNGJM14dlhr4aMSJtv2T0ialpIa0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_007_98007527d898.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYTicpejw80RKjpcwkgiaQjIFAzullMHicJ7iaU93ianNmkbqXFrfptuTvttA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_008_97087604ebba.png)
 
   
 
@@ -118,7 +118,7 @@ MOS管数据手册上的相关参数有很多，以MOS管VBZM7N60为例，下面
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYzJtwtVL1dQlfbnUias2Uo7TpRAuZNpFnFPACQ6Dml7AibavnmY1icfb6w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_009_2cc06c79ae32.png)
 
   
 
@@ -126,7 +126,7 @@ MOS的**导通电阻**跟结温是呈现正温度系数变化的，也就是结�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYnDjslD18Rq1ZA7H8xe1odfN4zGiaB747SeFafQDPO2u0wbgkqWKouSA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_010_30d25741f3a4.png)
 
   
 
@@ -134,11 +134,11 @@ MOS的**导通电阻**跟结温是呈现正温度系数变化的，也就是结�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYwfFgdhsgz3hkokpBsHicp66o0YJaflsS3s0KKLmoClnxgyDwGsjTR0g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_011_53d0158d2ad8.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYbvicUibBqKgYkGWITeMunBFmvCopLTTyYlPqjIufFQMfia8VHWrKV2zag/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_012_3f73c4bbf9cb.png)
 
   
 
@@ -146,25 +146,25 @@ MOS管一般会有一个寄生二极管，寄生二极管对MOS管有保护的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYncHH6a12RMIS14iaBp8qpwicBUv4BlYibV9ltibmiaXJib08NdScicQCqOUNA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_013_b40e3a1f7a38.png)
 
   
 
 最大安全工作区是由一系列(电压，电流)坐标点形成的一个二维区域，MOS管工作时的电压和电流都不能超过该区域，如果超过这个区域就存在危险。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYHRGtKX9wJEGmehxJpxTV9oWrwRXbOpq8B0hDbu0Viba4Z7sBvrpFiaVw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_014_7c7f8df935c0.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYfSwxOaLGYPWqTibZ0sqstiaW7diaqwJw7vJDA777g9WHvXaafMEFfwJpA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_015_2aa6ec041b94.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsYGxQ5QegBmBU7fFHhVKevaicwgRmbwKg0y6hyMT8SL436YrEFh7dt3kg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_016_8dfa0b3083ae.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1Kc1kun0WVNGm0siaMvqKMsY4SlAhwiaaZeVMcIgoX1chaXYDJnB4Tm32RwjuFLFHjtDbibiapTVtneJA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\做硬件_必须要看懂MOS管手册_images\img_002_d25679203d04.png)
 
   
 
@@ -192,15 +192,15 @@ MOS管一般会有一个寄生二极管，寄生二极管对MOS管有保护的�
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](做硬件_必须要看懂MOS管手册_images/img_018_b0d1466d16df.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpQvHwjHHqyVg59KzponKUXpOg5ynXzOHs40lCXUaWtovFsNlZm4MgicA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
+[![](做硬件_必须要看懂MOS管手册_images/img_019_efb08e7745e6.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
 
 \-END-
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](做硬件_必须要看懂MOS管手册_images/img_020_8f8c22b4fa63.jpg)![](做硬件_必须要看懂MOS管手册_images/img_021_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/4CB3pqZRtqUxZ2Owd1jcbg](https://mp.weixin.qq.com/s/4CB3pqZRtqUxZ2Owd1jcbg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQlAicbia9Z5QdfuDWwXeIbvVRyDB8Jk2gejicMJVv7QhLvYfk2ickTF99jMTflYYfAn9pibv9a1FyYjwA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_3_有源晶振基础_images\img_000_5bc861b145a1.png)
 
 _______**★★★**______OSC-3---有源晶振基础______**★★★**_______
 
@@ -31,7 +31,7 @@ TCXO：Temperature-CompensatedCrystal Oscillator，温度补偿晶体振荡器�
 
 有两种类型的温度补偿电路：一种是使用热敏电阻作为温度补偿电路中的温度敏感元件，并将其与电阻器和电容器相结合，另一种是将LSI中的元件用作温度敏感元件，在具有温度补偿电路的LSI的情况下，整个振荡器电路通常由单片LSI组成。**_图3-1_**显示了温度补偿晶体振荡器的频率-温度特性示例。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSficr0RTy0J1ztnXNk8Sc55G3jOgYhCTe5nVrrzKwYsmDribVTC7Wz6pP02krG7ibvNffYnicA9n8PDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_3_有源晶振基础_images\img_001_04cfda9c48ab.png)
 
 **_图3-1：温度补偿晶体振荡器的频率-温度特性示例_**
 

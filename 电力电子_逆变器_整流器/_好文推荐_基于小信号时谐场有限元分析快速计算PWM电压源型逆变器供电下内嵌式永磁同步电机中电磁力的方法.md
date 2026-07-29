@@ -1,8 +1,8 @@
 中国电工技术学会活动专区
 CES Conference
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqREvKIKkywCw4SCgUpXlrIBNqexbGIX07BcpoZtEz0AvJreicicQicVREQ/640?wx_fmt=jpeg)](http://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqEQoNuDibRgzn7w9iapRU2FNld3ZGpuObxxP8SesUBDCMZq6SMGAib6ibMA/640?wx_fmt=png)](http://www.cieec-conf.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibYgNoGb7RX5FYYpoz2PkhqLbED3g5mKEaB39dzQXAPXlRJiczqmE4BS9eicaeer1zymElB5g5ByhXQ/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_000_6d84699ae65f.jpg)](http://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_001_65df43700fc8.png)](http://www.cieec-conf.org/)
+[![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\_好文推荐_基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法_images\img_002_3d39cc15b67b.png)](https://www.icwpt-conf.com/)
 [**基于小信号时谐场有限元分析快速计算PWM电压源型逆变器供电下内嵌式永磁同步电机中电磁力的方法**](https://ieeexplore.ieee.org/document/9745852)
 （点击标题，可直接阅读原文）
 **Fast Calculation of Electromagnetic Forces in IPMSMs Under PWM VSI Supply Based on Small-Signal Time-Harmonic Finite Element Method**

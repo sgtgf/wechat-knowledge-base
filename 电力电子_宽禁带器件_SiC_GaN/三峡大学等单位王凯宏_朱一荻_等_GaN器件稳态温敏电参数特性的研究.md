@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三峡大学等单位王凯宏_朱一荻_等_GaN器件稳态温敏电参数特性的研究_images\img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2100 字** 
 > 随着GaN器件物理尺寸的减小和应用设备功率密度要求的提升，器件的热流密度显著增大，结温成为器件可靠性不容忽视的重要因素。但目前GaN器件结温监测技术尚处探索阶段，其温敏电参数特性并不明确。三峡大学智慧能源技术湖北省工程研究中心团队与其他高校合作，以小电流饱和压降、阈值电压和类体二极管压降为研究对象，实验探索了三种电参数的温敏特性，考虑了关联参数对三种温敏电参数特性的影响，提出了波动系数用以表征温敏电参数的稳定性。
 **研究背景**

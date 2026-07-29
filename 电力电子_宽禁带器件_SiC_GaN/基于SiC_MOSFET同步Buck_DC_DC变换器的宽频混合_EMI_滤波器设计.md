@@ -33,15 +33,15 @@ AEF 可以有效地抑制低频 EMI，而PEF 可以有效抑制高频EMI，为�
 
 由于SiC MOSFET 在导通和关断时产生较高的du/dt 和 di/dt，与变换器本身存在的寄生电感和寄生电容相互作用，从而在同步Buck DC-DC 变换器中产生了严重的电磁干扰。通过对同步Buck DC-DC变换器中噪声的路径进行分析和测量，得到同步Buck DC-DC 变换器的噪声源阻抗，可以分为CM噪声源阻抗和DM 噪声源阻抗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRvD7UN1IMiavdaUn1jMdJDsW5dRxwDuTOD3T7uDJwmy3GoTsUXFyoqsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_000_41bfc61e8026.png)
 
 同步Buck DC-DC 转换器的等效电路如图1 所示。CM 噪声通过寄生电容Cqg 和寄生电感Lqg 从同步Buck DC-DC 变换器半桥中点转移到地面，考虑到散热器和地之间的不完全连接，因此引入寄生电感 Lqg 的影响。同时分别考虑母线中L 线和N 线对地的寄生电容Cb1 和Cb2 的影响，以及印制电路板（Printed Circuit Board, PCB）布局寄生参数Lpl、Lpn、Rpl 和Rpn，可以得到同步Buck DC-DC 转换器中CM阻抗网络的等效电路和CM 阻抗特性曲线，如图2所示。VDC 为直流电压源，L1 和L2 分别为L 线和N线的直流隔离电感，Q1 和Q2 分别为同步Buck 控制管和续流管，Lout、Cout、Rout 分别为输出电感、输出电容和输出负载。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRKkRFXU3CuBibRCSyOPicIOMGf8iajRtGcEpP7ibYEFzoYJ7HkPpdibQRvGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_001_79344c981f2f.png)
 
 同理，DM 阻抗网络的等效电路和DM 阻抗特性曲线如图3 所示。由于直流母线支撑电容的低阻抗特性，变换器的差模噪声源阻抗ZDM1 可以被忽略，因此直流母线支撑电容Cin 决定了变换器的DM阻抗特性，ESR、ESL 分别为直流母线支撑电容Cin的寄生电阻和寄生电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRVLBNbSF7PJHOrjfxv4CiaDERvQsVT4DDP7HMv4ibLvQVjwYLmzrlicYbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_002_3f17a3f8dfc0.png)
 
 **1.2  同步Buck DC\-DC变换器的CM/DM噪声源分析**
 
@@ -49,17 +49,17 @@ Buck DC-DC 变换器传导EMI 的实验测试平台如图4 所示，由Buck D
 
 Buck DC-DC 变换器的两个输入端口分别接L线和N 线，测量设备LISN 被放置在直流电源和EMI滤波器之前。被测对象的传导电磁干扰由LISN测量，分别可以得到L线和N线上对地的电压Vlisn+和Vlisn−，然后经过差值和均值运算，分别得到变换器的CM 电压VCM 和DM 电压VDM。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRXucMlvbA9Oeb6sbwI07xiavKQG9fchXHOwOaicibiaQHo9u2PIZWGvoQBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_003_30cbacefecc3.png)
 
 基于实验测量结果，通过式（1）和式（2）对CM 和DM 电磁干扰噪声进行分离提取，得到同步Buck DC-DC 转换器中CM 和DM EMI 的频域波形（150 kHz～30 MHz），如图5 所示。同步Buck DC-DC 转换器的原始电磁干扰噪声，在150～200 kHz频段DM 噪声会对EMI 滤波器的设计产生重要影响。为了有效地设计混合EMI 滤波器，需要考虑低频段DM 噪声的抑制，在1～10 MHz 频段CM 噪声幅值高于DM 噪声幅值，可以考虑通过有源滤波器进行抑制，在高频段10～30 MHz，考虑设计合理的无源滤波器参数进行电磁干扰的抑制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRFVvickv3kPyoX7WibsEvqyQvCia3F60zy0no5FB0BtbYUHJerAv00xsIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_004_8bb72bdfd577.png)
 
 **2  混合EMI 滤波器设计**
 
 为了设计一个适合开关电源的混合EMI 滤波器，基于文献\[1-2\]中EMI 滤波器设计过程，本文提出了一个系统的EMI 设计流程，所提出的混合EMI滤波器设计流程如图6 所示。EMI 滤波器的最重要的特性是衰减电磁干扰源的发射能力，其衰减率定义为插入损耗（Insertion Loss, IL）。为了让EMI 滤波器获得最大插入损耗，在计算滤波器IL 时需要考虑滤波器输入输出端的阻抗参数，在选择EMI 滤波器的拓扑结构时需考虑噪声源和负载阻抗，包括LISN 的CM-DM 回路阻抗。在确定所需的插入损耗ILReq 后，可以得到EMI 滤波器组件的参数值。因此，必须利用LISN 对同步Buck DC-DC 变换器的原始噪声进行测量，即没有加入EMI 滤波器情况下的CM 和DM 电磁干扰噪声测量。根据CISPR 25 给定的峰值标准线，通过从测量的噪声Vmeasure 中减去指定的极限ALimit 可以计算出所需的插入损耗ILReq，并适当增加安全裕度值ILMargin，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRTtuwgZ7yI2oqbjzWoAdzpZULs7tEicnVcU08ibDDPHnkXxjzpstv0Mtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_005_f3a7816707a5.png)
 
 通过计算EMI 滤波器参数，使加入EMI 滤波器后同步Buck DC-DC 变换器符合EMC 标准要求。为了确定EMI 滤波器组件的参数值，需要将ILReq与所计算的插入损耗 ILcalc 进行比较，在符合EMC标准的要求情况下（包括CM 和DM 电磁干扰），计算EMI 滤波器组件参数，使ILReq 和ILcalc 的二次方均值在整个频率范围内最小。同时，整个过程的必要条件为ILcalc≥ILReq。
 
@@ -69,13 +69,13 @@ Buck DC-DC 变换器的两个输入端口分别接L线和N 线，测量设备L
 
 无源EMI 滤波器采用CL 结构和π 型结构来分别衰减CM 和DM 信号，如图7a 所示。无源EMI滤波器的CM 和DM 等效电路，如图7b 和图7c 所示。无源CM 滤波器由两个并联的Y 型电容器Cy和一个共模扼流圈Lc 组成（见图 7b）。同理，无源DM 滤波器由X 电容器Cx、共模扼流圈漏感Lc\_lk和两个Y 型电容器串联组成（见图 7c）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRDTUdiaXF0tc0PyrOic0dYpjWria4Y7MsYBBwWD4gHrAqiceJzc19icwtpOQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fR4cxEYbCu2903L5UFOltTGnMkUu85nw3CY4jxBN0ickiaG2ziczquW1Gdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_006_3608ec7ba8ad.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_007_0e5359eb45b8.png)
 
 由式（4）可计算无源EMI 滤波器插入损耗ILcalc，VZ′\_LISN 为未插入滤波器前ZLISN 两端的电压，ZLISN 为LISN 两端的阻抗，VZ\_LISN 为插入滤波器后ZLISN 两端的电压。根据图7 中CM 和DM 滤波器的拓扑，可分别计算得到无源EMI 滤波器的CM 插入损耗ILcalc\_CM 和DM 插入损耗ILcalc\_DM。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRLQ6DyqLZ2tXXInB8nDC9WCavEBxDtFnwrVqNKibbufMh8arkmkNaW1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_008_ed46338fd51d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRtk8lIn4I8thiaugMFQeicrCohySm1VugJjNN1AwAxC3KPNo15ZESvicbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_009_a3dc47e47822.png)
 
 式中，ZLISN\_CM、ZLISN\_DM 分别为 LISN 的共模阻抗、LISN 的差模阻抗；ZL\_c、ZL\_c\_lk 分别为共模扼流圈Lc 阻抗、共模扼流圈漏感 Lc\_lk 阻抗；ZC\_y、ZC\_x 分别为 Y 型电容器 Cy阻抗、X 型电容器 Cx阻抗；ZS\_CM、ZS\_DM 分别为噪声源共模阻抗以及噪声源差模阻抗。设定无源 EMI 滤波器各个组件的参数值，通过设计流程得到满足 EMC 标准的无源 EMI 滤波器，但由于单一的无源 EMI 滤波器通常体积较大，为了提高开关电源的功率密度，本文在基于无源 EMI 滤波器的基础上，加入模拟有源 EMI 滤波器设计，从而在宽频范围内增加系统的 EMI 抑制效果。
 
@@ -83,25 +83,25 @@ Buck DC-DC 变换器的两个输入端口分别接L线和N 线，测量设备L
 
 本文采用电流采样电流补偿 CSCC 模式模拟有源滤波器电路（基于式（11）和 Buck DC-DC 变换器中低频段 ZS\_CM≫ZLISN\_CM，抑制同步 Buck DC-DC变换器中共模回路的共模 EMI 噪声信号，其等效电路拓扑如图8 所示。图8a 展示了没有插入模拟有源滤波器的同步Buck DC-DC 变换器、LISN 和直流源的测试电路中共模回路等效拓扑，图中，iS\_CM 为同步 Buck DC-DC变换器中共模噪声的等效电流源，因此同步 Buck DC-DC 变换器共模回路中 LISN 两端的电压可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fR3O6CP8MYsHjTuPB79xicw0bqRxjAnyq0OJH1zfayhtpMqxjjRRoWPew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_010_7e219deccf8f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRp0IPdyFWJJfNToQJ0o0R24De3HWWqibib8qdWWs7ML0S02iayOLqz20gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_011_7fcf1c964d70.png)
 
 在LISN 和同步 Buck DC-DC 变换器之间插入CSCC 模式模拟有源滤波器电路后，其共模回路等效拓扑，如图8b 所示。共模回路中LISN 两端的电压可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRN5yDPX9j7OGeibsrl8JFTsPCgiaRhODcluu8HHzhfickcAh8iaeuhupjIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_012_4291fd32024f.png)
 
 主回路电流 iL 经过共模电感耦合感应电流，感应电流输入至运算放大器两端反向 G 倍放大得到注入电流 iCO。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fR738XM5vXPhBxfX8TJAp5dmias7jj7MJX96uiaicSibck8GRkiaTZPtTn8gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_013_42bf09a13f44.png)
 
 对图 8b 整个拓扑利用电压电流关系可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fR8X8Q6ERHRRtibvkvauXYiaMVuLFDONwXickzvvibviaeyYCHww2O5r2oNlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_014_c2d2d86a3ff7.png)
 
 联立式（7）～式（10）可得模拟有源EMI 滤波器插入损耗ILcalc\_CM 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRofzic5xyNQclAG3YOYOakn8dpVxtT1YibgGGhYgcoXJicpic6MKV77pGhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_015_3ea62871a97d.png)
 
 模拟有源 EMI 滤波器与无源EMI 滤波器类似，插入损耗与测试平台 LISN 阻抗和噪声源阻抗有关。当 Z Z S\_CM LISN\_CM≫时，模拟有源 EMI 滤波器插入损耗 ILcalc 满足最大插入损耗的条件，且 ZLISN\_CM ≈25 Ω，约为 28 dBΩ，由图 2 可知，在中低频情况下（ZS\_CM＞ ≈ 250 48 dB Ω Ω ）容易满足ZS\_CM ≫ZLISN\_CM 。
 
@@ -109,33 +109,33 @@ Buck DC-DC 变换器的两个输入端口分别接L线和N 线，测量设备L
 
 由于同步 Buck DC-DC 变换器的共模阻抗ZS\_CM在高频阶段通常会产生 RLC 谐振点（见图 2），阻抗不能总是满足 Z Z S\_CM LISN\_CM≫，因此为了减少高频信号对有源 EMI 滤波器的影响，基于模拟有源EMI 滤波器的拓扑结构，将无源 EMI 滤波器插入在模拟有源 EMI 滤波器与噪声源之间，从而得到混合模拟有源和无源 EMI 滤波器，如图 9 所示。插入混合 EMI 滤波器后，在电流注入节点可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRytnLxoOBfiaDLPvkWib8mqn0bT9OpT4f3z1n8QM4ic82cTYgtQt6nWZJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_016_d16e0a0aa37d.png)
 
 式中，iL\_c 为共模扼流圈 Lc 电流；VL\_c 为共模扼流圈两端电压。联立式（7）～式（9）和式（12）～式（14）可得，混合 EMI 滤波器插入损耗 ILcalc\_CM 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRvib1gua5Sb4FUAW9d2E2icT8MYsleCMsF5S570Rhnu301VKMvcbkFahQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_017_cf7c4af178d5.png)
 
 基于式（6）和式（15），将混合 EMI 滤波器插入损耗 ILcalc 代入图 6 设计流程，完成滤波组件参数计算，最终实现混合 EMI 滤波器的设计，所计算得到的混合EMI 滤波器组件的参数值见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRGxdoC1nzot1yKjbAic4gpUHNzvqKK8m1ujNX3sWG6rmAEPcq7bgUWYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_018_7573ed91c92e.png)
 
 将式（1）、式（2）所得到的结果，以及CISPR25 准峰值代入式（3），可得到 ILReq\_CM 和 ILReq\_DM所需 CM 和 DM 插入损耗，如图 10 所示。在无源EMI 滤波器设计部分，通过式（5）、式（6）代入表 1 参数值和噪声源阻抗（见图 2 和图 3），可计算得到 ILcalc\_CM 和 ILcalc\_DM，由于参数值选择以及电路谐振的影响，计算得到的无源 EMI 滤波器的共模插入损耗 ILcalc\_DM 并不满足 ILcalc≥ILReq 的条件，因此本文加入模拟有源 EMI 滤波器部分增加共模插入损耗。在增益为 8 倍的情况下，通过式（15）计算得到混合 EMI 滤波器的宽频共模插入损耗ILcalc\_hyb\_CM 均满足 ILcalc≥ILReq。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRLk42kW02qqm3jlDibPaaLNjS5DUAb48xRz3jb2CHgIccYlnsLKX3L0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_019_4f50636afdd9.png)
 
 **3 实验验证**
 
 为了验证第2 节中理论计算的准确性，在本节中进行基于同步Buck DC-DC 变换器的滤波器实验，如图 11 所示。在实验中，控制管 Q1 和同步管Q2均采用 CREE 公司的 SiC MOSFET C2M1000170D，由现场可编程逻辑门阵列（Field Programmable Gate Array, FPGA）产生驱动信号，运算放大器为德州仪器 LM7171，直流源电压设置为 400 V，水泥负载为20 Ω。双管 SiC MOSFET 的开关频率为交替互补的50 kHz，死区时间为0.05 μs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fR89Q5zk6FGHRchTibHqEheSkU5byNTCWBzbTUiaPiaygXkOCliayo8jT5Tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_020_aefaac9b4d7e.png)
 
 基于表1 中混合EMI 滤波器组件的参数，选取对应的元器件，搭建实验平台，分别通过LISN 测量同步 Buck DC-DC 变换器的原始 EMI 噪声和加入混合EMI 滤波器后的 EMI 噪声效果，对比如图 12所示。通过实验结果可知，加入混合EMI 滤波器后EMI 噪声抑制效果较好，整个频段内平均抑制近35 dB。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRDgyB03UZGmPSsZf8celN9H0Clcj0JSVV6zWiaHXSqTzD4dZPZqWkRibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_021_f3b2951e4869.png)
 
 在所提的混合滤波器设计方法下，本文研究了不同输入电压情况下滤波前后的系统效率对比，如图13 所示。由于增加了混合滤波器部分，会使得系统的效率有所下降，效率平均下降 1.24%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7ZBeX6yP500tHjkuTq2fRtFbB1CjQkic6c50DImraHibQzUgVBnDvmZxSaoQqkzQlyQyqNPmrF3fA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_022_df60df8fee67.png)
 
 **4 结论**
 
@@ -143,8 +143,8 @@ Buck DC-DC 变换器的两个输入端口分别接L线和N 线，测量设备L
 
 通过计算 EMI 滤波器的插入损耗，得到EMI滤波器的设计参数，但由于较小体积的无源EMI 滤波器组件不能满足插入损耗的要求，这将使得设计的EMI 滤波器不能满足EMC 标准的要求。为了增大 EMI 滤波器的插入损耗而不增加无源EMI 滤波器体积，给出了混合有源和无源 EMI 滤波器的设计流程，以满足 EMI 滤波器插入损耗的需求和EMC标准。最后，基于同步Buck DC-DC 变换器实验平台，制作了混合 EMI 滤波器的实验电路，验证了宽频混合EMI 滤波器的电磁干扰抑制效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_023_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_024_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET同步Buck_DC_DC变换器的宽频混合_EMI_滤波器设计_images\img_025_84aa944feb13.jpg)

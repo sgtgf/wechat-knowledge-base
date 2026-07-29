@@ -5,29 +5,29 @@
 
 请大家点击图片上方公众号  → 点击右上角“...” → 点选“**设为星标** ★ ”就不会错过每篇好文章啦！
 
-![](https://mmbiz.qpic.cn/mmbiz/Hk0NAXoSxTQYx6mhrVWzibSjwibCOiczNLEPWQPzttxic4H1Y8zL85VaCwgvDpiagvszYjSXvY31AlHaIAgnzYhTxxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_000_fcb7641c9f49.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_005_5ad9d8b8d7fb.png)
 
 **截图展示**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_006_62a6275dae10.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz71oYqCHu0Jo3ofOc4EqtwzDR4jejpRvPJzLS4SxlQRlMkFAOXybTxpwBDp0bZeu1zoIgLXXxJUNicw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_003_41266282cb93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz71oYqCHu0Jo3ofOc4EqtwzDJatjjHxPRPExZT0ueAvpXM5Okntqkeq6k55UW5mXSAficcRia8gHrVqQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_004_3780d1a7d8d5.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_001_5ad9d8b8d7fb.png)
 
 **如何获取资料**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_002_62a6275dae10.png)
 
 链接：https://pan.baidu.com/s/12KFOdXSmvNJkZq117RqSYQ  
 提取码获取方式：
@@ -78,4 +78,4 @@
 
 ****加入电子研发工程师群，领取海量技术资源，********请加小编微信（eeworm）****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz71VMAs2xib1mQicpt1KicR6ddgLHJibRmDXqB2NGPYic2HKs8D2t2zkzBeMeBUWMPxdvCPnJUdpl5vP13g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Cadence_Allegro中文教程_书籍_手册_共19册_260M_images\img_007_312c864488df.png)

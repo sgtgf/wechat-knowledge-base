@@ -57,7 +57,7 @@
 
 # II 图解 Minkowski 不等式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsBD3CX7QkNg9jTbicVb1K7M075FNFT1vUo4dF42BjQHEpW66wYFL9qTFWQ5cBBzk6TzSnjZAgoeNOqqibwxO9ts1HSQjEK3bUNQ/640?wx_fmt=png&from=appmsg)
+![](Minkowski_不等式_高维三角不等式_images/img_000_2b26fbdf8d96.png)
 
 这张图想讲的核心，其实可以压缩成一句很朴素的话：
 

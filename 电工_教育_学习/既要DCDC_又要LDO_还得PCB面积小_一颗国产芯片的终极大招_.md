@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9llENKxGt87NY6GI9QcP8w](https://mp.weixin.qq.com/s/9llENKxGt87NY6GI9QcP8w)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_001_cfc30a4da041.gif)
 
 大伙有没有碰到过这种场景？
 
@@ -15,7 +15,7 @@
 -   一路低电压，比如1.2V、1.8V或者2.5V，给核心、DDR或者IO，电流可能大一些（几百mA），对效率有要求。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacicN1zzzjicQ2WW3bUo1TIxiacLguLexroicmcSEuficjQM1IqWjU88AEsqu1EcGlw39Hl1gKBucosmibkEqe4UDicNwhmjv9zR7TXlM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_002_ce843519f36f.png)
 
 以前咋办？上一颗DCDC做低压那路，再上一颗LDO做3.3V。两颗芯片，加上各自的电感电容，板子面积蹭蹭涨。
 
@@ -23,7 +23,7 @@
 
 最近扒了扒沁恒家的小芯片，CH2003就是干这个的。人家直接把DCDC和LDO揉进了一颗SOT23-6里，还集成了过流、过温保护，外围只需要几个电容和一个电感，PCB占用面积大大减少。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafziaaj5Z1MzKia9Ps3TricxWmjXvs1TMicJ6OunOBoiamzocmnVgAc4c5ayZPElc5QjfErrqypXrBfs6TKDURiaWKeic7Qpn3icrryNgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_003_4660569b8e5a.png)
 
 说白了，原来两颗芯片干的活，现在一颗包圆了。
 
@@ -35,13 +35,13 @@
 
 供电电压从VIN5引脚进来，芯片内部集成了一个5V转3.3V的LDO，和一个同步降压DCDC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacmMRzNmjaZa0iaZu40oGd3qq6HrtGqfXjvGdsibrDHibx5dKKbFyv9vBfQEhZ1qvJc4wGclibOOicHJ8siarUjUiaU4zPRImKRKS1700/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_004_a8327e49cd63.png)
 
 CH2003K是可调版本，通过FB脚外接两个电阻，输出电压最低能到0.6V。CH2003V和CH2003W是固定版本，内置了分压电阻，输出分别是1.23V和1.13V。  
 
 这颗芯片内阻小、效率高，还自带过流、过温保护。适合给MCU、SoC供电，尤其是USB2.0、USB3.0和Type-C这类系统。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafibPmfEyIXFBdsaFoZIYoml39o1wCG2SGVeoB0Q6jyeB5pomVCaW7QFiaAbYQzS0IExU3QMLjVCuZLoBxMWaAiaLBu7uaOlib9ZtY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_005_58947fa9ae49.png)
 
 两路都从VIN5直接取电，LDO出3.3V，DCDC出你需要的低电压。各干各的，互不牵扯。这样一来，你既得了DCDC的高效率，又得了LDO的低纹波，还不用让LDO承受大压差发热。而且全塞进了一颗SOT23-6里面。
 
@@ -49,15 +49,15 @@ CH2003K是可调版本，通过FB脚外接两个电阻，输出电压最低能�
 
 如下是CH2003K参考电路，DCDC输出电压可调。同步 BUCK，节省外部肖特基二极管。外围仅需一个电感、输入输出电容和分压电阻。相比原来两颗芯片，再加两颗芯片本体和各自的外围走线空间，省下来的面积，保守估计30%以上。 Layout工程师看了直呼内行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacX0ZP9yicK4Lq5vffQ0UPkYZoH1MeO5POVHgv7xN1ztGH2fT5icx2RcemaH9bmpRSWkeABCA4atLhDPK6koAPAlAEQLTDS9IFzM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_006_7188ba7e2ee2.png)
 
 如下是CH2003V参考电路，DCDC输出电压固定为1.23V。相比以上电路，外围更精简。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niae7zPhkaOn14Hv7gs1fianJY2mlK2MJr6UgPukRMUxMDkh3GianG4Ja220UV3KyicS9Tq95bd1e3mxCLNqaSw0RAXicnOicQVb0Hc04/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_007_e60a3a86d97a.png)
 
 如下是CH2003W参考电路，DCDC输出电压固定为1.13V。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafdFNPvLzth6Mibh0wvUgSSibAmibtFksVIurn15EUNMhGNicIJxJ6Gt7NoNxmSyuxqTQNa7X9bozIz8Rus6XpJW0t2opnhu7OJ6zc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_008_cd53d98adb3c.png)
 
 ## 效率能达到多少？来看看规格书
 
@@ -65,15 +65,15 @@ CH2003K是可调版本，通过FB脚外接两个电阻，输出电压最低能�
 
 当输入 VIN5 = 4V 或 5V，输出 VOUT = 3.3V 时，效率在93%以上。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafrltl5ic2wdrSicyIM75hraRuKL0s0cPibATjGrntm1Cx7PJfLr0hkAejy4v7Jsu8MWNM2b7YJ4cAKmqRp2gKN6M1BxIpeBLhOTU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_009_5ad8af9085de.png)
 
 当输入 VIN5 = 3.3V 或 5V，输出 VOUT = 1.23V 时，效率在87%以上。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaebbqsLgCibpcjnp51hbmADbU5ph8KWAAWqocC4BxCOicIOjtGg9MwhnXpulxSAjhcvsZl1H4RCvxPIjxrWgGUfEXjTs23VMgQJc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_010_f655c3b96833.png)
 
 当输入 VIN5 = 3.3V 或 5V，输出 VOUT = 1.13V 时，效率在88%以上。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafPkzl1hGNUv2GJWFHaiaicLvG2MlL3uiaTpPGPVukWVkkhp33j3E6MTSy26nnyMFZ4fIxMqCiaic6IFdDDianCs8X8Jz0Jv0bk24usI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_011_24d438e3e1c5.png)
 
 芯片本身是给5V供电输入小系统用的，输出电流几百毫安是常态。在这个范围内，CH2003的效率完全能接受。而且那路LDO的效率其实取决于负载电流，本身不参与DCDC的变换损耗。
 
@@ -93,17 +93,17 @@ CH213内部集成了过流保护、短路保护、过温保护、电源极性保
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeJILmmTXmlbKYdczFbF1RN2NhUm4vttssCCsxcFF2EvYQRyFuc7ibRJ1ayCd4cdHZ5icSMyEHFy2lKsSqSTHLqf6UENkPS6ibUB4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_012_a667034f898f.png)
 
 你可以把它理解为：肖特基二极管加上自恢复保险丝，但导通压降比肖特基低得多，过流保护也比保险丝快得多。
 
 沁恒CH213就是专门干这活的。它把防倒灌、限流、防反接三件事打包进了一颗芯片里，包括SOT23-3、SOT23-6、DFN6等封装。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niaeHvmjK94rINVJu9EibDOEZ43vwy4NswZ7BM2LWeI37cLDQ5AIneWyiaYmS2LRueGEZdicoalbeg6wricVszDfBAAVj78z3YicO0sPU/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_013_9c7becd682d7.jpg)
 
 **这里重点聊聊防倒灌。**我之前也写过类似文章。有些设备会有两路电源输入，其中一路不能影响另一路，这时候防倒灌就很关键。以前遇到这种情况，要么串肖特基，压降大、发热厉害；要么用MOS管搭理想二极管电路，效果好但元件多、占面积。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacdbq0zMNe6NhhAJpHujfVWvFM6UTflxrncSn8QhWIT3BRF1m25qmAS5hOvHWorNHNy1h0UcuY3EwvYp9RKoAwqTp9aqorEOrU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\既要DCDC_又要LDO_还得PCB面积小_一颗国产芯片的终极大招__images\img_014_8c6726a5c27b.png)
 
 芯片内部是一个低导通电阻的MOS管，典型160mΩ。VIN高于VOUT时管子打开，电流通过；VIN低于VOUT时管子关断，防止倒灌。压降极小。5V、200mA时典型压降只有32mV，对比肖特基的300mV，差了将近10倍。电池供电设备里，这就是实打实省下来的续航。
 

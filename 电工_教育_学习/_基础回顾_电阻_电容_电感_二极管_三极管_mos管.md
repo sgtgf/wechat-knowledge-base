@@ -20,7 +20,7 @@
 
 1TΩ=1000GΩ；1GΩ=1000MΩ；1MΩ=1000KΩ；1KΩ=1000Ω（也就是一千进率）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtVTBIPmaWWXdB7DowtgSSN9ibFibw1pFCqLOs0fxw4pDQW0ibicIXYvOzBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_002_6efedc1546ce.png)
 
 串联： R=R1+R2+．．．+Rn
 
@@ -66,7 +66,7 @@ IOL和IOH表示输出为低、高电平时的电流值，同样-号表示从器�
 
 上拉是对器件输入电流，下拉是输出电流；强弱只是上拉电阻的阻值不同，没有什么严格区分；对于非集电极（或漏极）开路输出型电路（如普通门电路）提升电流和电压的能力是有限的，上拉电阻的功能主要是为集电极开路输出型电路输出电流通道。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOto8wOCSq2LE8vEloy2hhQH7YegeDib7zHjjUezTwTqgXdw09dtK2gicaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_003_1e9a8da68388.png)
 
 ►►3 为增强输出引脚的驱动能力，有的单片机管脚上也常使用上拉电阻。
 
@@ -112,7 +112,7 @@ IOL和IOH表示输出为低、高电平时的电流值，同样-号表示从器�
 
 一个电容器，如果带1库的电量时两级间的电势差是1伏，这个电容器的电容就是1法，即：C=Q/U 但电容的大小不是由Q（带电量）或U（电压）决定的，即：C=εS/4πkd 。其中，ε是一个常数，S为电容极板的正对面积，d为电容极板的距离，k则是静电力常量。常见的平行板电容器，电容为C=εS/d（ε为极板间介质的介电常数，S为极板面积，d为极板间的距离）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7QRTvkK2qC7QGcNBhpzIA0uu1pBCIRKrCbzgQa2ImhKMqiaEtqm7WbRKMtDmXbTIAqIuGHAROosmSaWWaPNVdEw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_004_ee3bfd7a17ae.png)
 
 定义式：C=Q/U
 
@@ -194,7 +194,7 @@ S校正电容：串接在偏转线圈回路中，用于校正显像管边缘的�
 
 在AD于DA电路上，我们需要把数字信号和模拟信号进行相互转换，为保障数字喜欢与模拟喜欢的互不干涉，我们往往需要在单片机的输入端或输出端串联一个电容，对电路进行耦合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtINCzIrnicmpLgCibs3iaDX3iae1lvhKyoV8JicMiaSANxbaIgFOuib1HaPZPw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_005_a49ff2e1baff.png)
 
 用于振荡回路中，与电感或电阻配合，决定振荡频率（时间）的电容称之为振荡电容。
 
@@ -206,11 +206,11 @@ Fx = F0(1+C1/(C0+CL))^(1/2);
 
 对于这电容来说，大家应该再熟悉不过了，基本上，没有一个带有微处理器的电路都至少有一个带有起振电容的电路。虽然，大多是情况下，我们都是按照经验选择这两个电容。实际上，这样不科学，有的时候晶振并不会工作。所以，选择合适是起振电容还是很有必要的。实际上，不同的晶振，起需要的起振电容是不同的，在购买晶振时应该选择合适的晶振，一般来说在晶振的数据手册上也提供了选择起振电容的依据。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtDyCv7sDeibd2fW3UOaSvVHUtVQwGe2I3Lfiaj0QwYfXdPcgx2NnMT9MQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_006_c3ee5d8929f2.png)
 
 **6复位电容**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtjibh0FC8MicXNfPcbr8KhdCZibvP27n6Wxeic3yERs4l8v07VWZgQcOtAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_007_7063bc8b70e6.png)
 
 着+5V直流电压的充电,Al的①脚上的电压达到了一定值,集成电路Al内部所有电路均可建立起初始状态,复位工作完成,CPU进入初始的正常工作状态。这一复位电路的目的:使集成电路Al的复位引脚①脚上直流电压的建立滞后于集成电路Al的+5V直流工作电压规定的时间,如图5-69所示的电压波形可以说明这一问题。
 
@@ -320,7 +320,7 @@ Fx = F0(1+C1/(C0+CL))^(1/2);
 
 发光二极管
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtfvibvMFiaVNpLmS6zGBkFjHmDFWMxZDDRxvGWlA5jiar9X9rlLdl4bAFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_008_d14d3889b0b3.png)
 
 有的网友可能已经使用过多种LED了吧，不过，不知道你是否知道LED的工作电压？不同颜色的LED，由于使用的材料不同，其工作电压是不同的。一般来说红色、黄色的LED，其工作电压在2V左右；而蓝色、绿色和白色的LED，其工作电压在3V左右。
 
@@ -344,9 +344,9 @@ Fx = F0(1+C1/(C0+CL))^(1/2);
 
 整流二极管一般应用在电源电路中，常见的有交流变直流时的电桥。防止电源接反时的，保护二极管等等。对于这类二极管，主要应用的是其单向导电性。在实际的应用中，比较常用的系列是1N系列。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtLz4NozlYBMaXrauqLQsV4PHv6y7tib4P7CYjw7eZC4CsdQtb1aBqUeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_009_60c93fa399ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtRLNkgU1jskWOMEV4vgtxsWxYpH2ZDsibBsId8eq63eUp06C1gh1MDicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_010_db984ab3fbe8.png)
 
 稳压二极管，英文名称Zener diode，又叫齐纳二极管。此二极管是一种直到临界反向击穿电压前都具有很高电阻的半导体器件.在这临界击穿点上，反向电阻降低到一个很小的数值，在这个低阻区中电流增加而电压则保持恒定，稳压二极管是根据击穿电压来分档的，因为这种特性，稳压管主要被作为稳压器或电压基准元件使用.其伏安特性见图1，稳压二极管可以串联起来以便在较高的电压上使用，通过串联就可获得更多的稳定电压。
 
@@ -372,7 +372,7 @@ Fx = F0(1+C1/(C0+CL))^(1/2);
 
 **工作原理**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtwNk1r9aKAaVBoprhlG7mZodsdZb9r81LlaBicanibd6chRshiaOibGJo6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_011_4d9358016064.png)
 
   
 
@@ -416,9 +416,9 @@ Fx = F0(1+C1/(C0+CL))^(1/2);
 
 **2.工作原理**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOt7hkeodNtaNxV08NrXhZ8pM1fn1JToKjZ5VdibIFMHPh6JauDpjNej5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_012_6c73cc41a67e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOt1stJVykoXEVvBsSxMY1rIpib44j5v3wEE8MPsLP8EgIoMzSZXicIPM7w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_基础回顾_电阻_电容_电感_二极管_三极管_mos管_images\img_013_a6d87c988db9.png)
 
 场效应管的开关电路和三极管的开关电路一样，都是可以从放大电路变化而得。这里不在说明其变化过程。同样把负载放置在Rd的位置。
 

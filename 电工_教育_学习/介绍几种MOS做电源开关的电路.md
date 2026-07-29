@@ -26,7 +26,7 @@ CONTROL电平为高时，Vgs>NMOS的Vgs导通阀值，MOS导通，负载工作�
 
 CONTROL电平为低时，Vgs=0，MOS关断，负载停机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdD21aNrmnVocpzlvHiadbEo59YBUsjic6ueaqQ1AXSyzkXvNto1D93al5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_002_b668d1fce031.png)
 
 **1.1、设计时注意事项**
 
@@ -46,9 +46,9 @@ SOT-23封装的MOS，其Vgs最大范围一般为± 12V。
 
 下图为 IRLR7843 - NMOS 数据手册的部分内容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdD9rAVsLydjgopOgbeFc8XwoV9kT1uvVQcDJia1Rzdl3p3Niap98FuB2OA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_003_5e403f7f1b98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDy07ebBEQhoDjJfB4wR65k5K20sapLic1UrmYGeQB87WpuBXGQ6BfCicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_004_6f9fbeb4666b.png)
 
 **1.1.3、寄生结电容 | 驱动电流 | 栅极驱动器**
 
@@ -56,13 +56,13 @@ SOT-23封装的MOS，其Vgs最大范围一般为± 12V。
 
 MOS的GS极间的寄生结电容大小，影响了开断速度。越小开断越快，响应越迅速。选型时，应尽量选择小的，可以有更快的开断速度，以降低开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDLfPMEnibkeuM7PWsTGsvclrxcnL11lDMgUQe2icxBhm7qicyxU02hIvYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_005_ecc3203c9e2f.png)
 
 **1.1.3.2、寄生结电容 和 驱动频率 对驱动电流的需求**
 
 MOS的GS极内阻非常大，对外主要体现为容性，低频时对电流的需求不明显，而随着频率升高，电容充放电频率的加快，电容的容抗与频率成反比，容抗变小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDZ3nZjk07gHXcJ2k5QQI4KtWjn5LW4Ng0XGF6zhUnNB0gS8LjHUZKHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_006_4c50535e5a46.png)
 
 这时在输入信号的频率相对较高的条件下，驱动MOS就需要比以前大得多的驱动电流。大到一定程度，MCU端口能提供的几mA电流就显然不够用了，继续使用MCU端口直驱，一方面会使MCU过载，另一方面会对输出信号的波形造成衰减，严重时会影响NMOS的正常开通。
 
@@ -80,11 +80,11 @@ NMOS的高侧栅极驱动，一般需要搭配额外的栅极驱动芯片，这�
 
 1、集成电荷泵的NMOS高侧驱动：一种是内部集成电荷泵的。可允许高侧NMOS的持续开通，即允许100%占空比输入。性能稳定，但栅极驱动器芯片的成本略高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDSFTZb6HJg5GsPNFsQ4NMrnPxia6D9hKn3icl6ZVaYtAx3uIXx0SLIAgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_007_67a7446b2285.png)
 
 2、电容浮栅自举：另一种是通过电容浮栅自举。需要输入信号为PWM，通常只允许99%占空比输入，以在空闲时间给自举电容充电。这种应用需要限制PWM信号的占空比，不能100%占空比输入，不能高侧持续导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdD1nc3LRrpaMExUO0K0k9esutn1ugK3PsicXMygwiazI4STsO8LzSpAcGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_008_c8b8a11ebb55.png)
 
 **电容浮栅自举电路原理**
 
@@ -102,9 +102,9 @@ NMOS的高侧栅极驱动，一般需要搭配额外的栅极驱动芯片，这�
 
 因 HIN、LIN 输入信号为PWM，且限制最大占空比为99%，上面过程随PWM周期重复。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDGqa2UAd8SQOyVqnM4AobOuONBf5RZ4hxUnkNELEtymibrFSkRZEYpLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_009_8bf2a539af29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDdcbEulzQjXPYMcahtZn2v3qOPqg1kDyiaicOGny8UaFt2MgY86uLWRxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_010_e7623c73fd97.png)
 
 NMOS电荷泵高侧驱动IC的一些型号
 
@@ -128,7 +128,7 @@ CONTROL为0V时，Vgs<导通阀值，PMOS开通，负载工作。
 
 CONTROL为VCC时，Vgs>导通阀值，PMOS关断，负载停机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdD734ZDGjQV61uzq16JdgmX53l9m2rYO17FMMVaNQW4DysTqZ0lxKaxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_011_cb28781a29f0.png)
 
 注意上图这里的输入信号 CONTROL，其低电平要保证Vgs能使PMOS开通；又要限制Vgs不能小于手册上的最小允许电压，以避免PMOS损坏。
 
@@ -142,7 +142,7 @@ CONTROL为VCC时，Vgs>导通阀值，PMOS关断，负载停机。
 
 当CONTROL 为1，Q3开通，Q2的G极电平被拉低为0，Q2 Vgs<导通阀值，PMOS开通，负载工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDMVZNlA2KmAGGciau4akVAQ5jS4ST359MbZhUDW3fNfUCyClMHYr1HUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_012_600dde42b0e5.png)
 
 随之而来新的问题：如果VCC电压很高，在PMOS开通时，导致Vgs超出了手册中的Vgs允许范围，也会造成PMOS的损坏。
 
@@ -150,7 +150,7 @@ CONTROL为VCC时，Vgs>导通阀值，PMOS关断，负载停机。
 
 特别注意：VCC电压较高时，需要重新计算各电阻的热功耗，来确定合适的封装，或者更改阻值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia57pC281pEBotqichwgVsdDzCKmtP4MzQTusnRpFlIvticIBJI81pac6bceKLt3ezp0Rgl2W5KEjWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_013_ffe7a609cc57.png)
 
 PMOS做低侧开关的实例实在是少之又少，并且PMOS做低侧开关确实没什么好处，电路复杂且参数较差，不如直接用NMOS，在此不做介绍。
 
@@ -160,9 +160,9 @@ PMOS做低侧开关的实例实在是少之又少，并且PMOS做低侧开关确
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_014_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_015_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_016_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_017_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_018_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_019_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_020_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_021_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_022_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_023_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_024_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_025_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_026_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_027_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_028_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\介绍几种MOS做电源开关的电路_images\img_029_50889e54acde.gif)
 
 ## 
 

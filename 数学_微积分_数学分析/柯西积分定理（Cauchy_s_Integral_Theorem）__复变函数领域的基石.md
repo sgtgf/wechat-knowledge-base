@@ -70,7 +70,7 @@
 
 下图直观展示了“奇点是否在圈内”对柯西积分定理的影响
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocssEFoOwRyRR4nYH8EvyCW72bibDITSmDdXvr0ZtBMQ50kDTbaHBcqQscxzicrMOONWCyPNsLtO98EDWMdfEPrxqknXaKGfibAXIs/640?wx_fmt=png&from=appmsg)
+![](柯西积分定理（Cauchy_s_Integral_Theorem）__复变函数领域的基石_images/img_000_72cc92443faa.png)
 
 ## 定理的威力：路径无关与“路径变形”
 
@@ -78,7 +78,7 @@
 
 既然在没有奇点的地方积分永远为 0，这就意味着：**只要在变形过程中不碰到任何奇点，你随便怎么捏、拉、拉伸或收缩那条积分路径，最终的积分结果都完全一样！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocu3E8ks6LH2hwzkg2exwkRr4CribytDxfVPlI7Yf2Tx1eXbc27d9yzicdLmtLdAAmx3lwz4ADx7e3Dlf16NszJ4X3w5VJPEia8S0k/640?wx_fmt=png&from=appmsg)
+![](柯西积分定理（Cauchy_s_Integral_Theorem）__复变函数领域的基石_images/img_001_3ee1e7831734.png)
 
 如上图所示，当闭合路径内部存在几个孤立的奇点（红色圆点 ）时，原本外围复杂的大圈 ，可以利用柯西积分定理连续“收缩”，等价变形为仅仅紧贴着这几个奇点的高密度小圈。
 
@@ -88,7 +88,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctSxXXlWXhMszrAgQFPXw5u9ydj4cWGF8FtiaPRhulXSg6dnpxu10Wtv3gwuzkHC4k2ibf3GVWemoMe4rACJX5I5P9nE3BT7kjw4/640?wx_fmt=png&from=appmsg)
+![](柯西积分定理（Cauchy_s_Integral_Theorem）__复变函数领域的基石_images/img_002_24e3854a9aff.png)
 
 # 一、这张图在讲什么？
 

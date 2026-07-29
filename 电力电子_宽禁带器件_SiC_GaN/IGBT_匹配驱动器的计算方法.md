@@ -20,7 +20,7 @@ IGBT(InsulatedGateBipolarTransistor)，绝缘栅双极型晶体管，是由BJT(�
 
 图1是电力电子技术中常用的三相桥式逆变系统原理图，其主电路中IGBT可靠的驱动与驱动器的可靠匹配密切相关。本文从工程应用的角度出发，着眼于为例如图1中的电力变换主电路功率开关器件IGBT匹配合适的驱动器。介绍了在电力电子技术中为功率开关器件IGBT匹配合 适驱动器相关参数的计算方法，通过为Infineon公司FF300R17ME4型号的IGBT的驱动器进行匹配计算选型，结果证明该方法可以为IGBT选择到合适的驱动器。该方法对工程应用的研发人员来说，为IGBT匹配驱动器具有非常好的指导意义。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMZiaWFBjzib3DmD0GnP0rDEEJ6yKqd2n5BdOnkADaYWW8vAXCTtXmxnbHFJiaUfehSmzWoEwPDXYMqrZzuKTNDXCA3KpyRQoycXk/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_000_54c13c109720.png)
 
 1.确定IGBT门极电荷与门极电容  
 
@@ -30,11 +30,11 @@ IGBT(InsulatedGateBipolarTransistor)，绝缘栅双极型晶体管，是由BJT(�
 
 通过在数据手册网站下载的IGBT数据手册中，可极电荷量QG，但是在实际应用中要考虑实际的电压摆幅。门极驱动器的输出电压摆幅在输出功率范围内会有轻微的变化，这是因为驱动器高压隔离DC/DC电源的外特性有些软所致。可以在预期使用的功率范围内依据驱动器的数据手册得出电压摆幅，或者是在电路中进行实测。不同的电压摆幅对应的不同的门极电荷量。比如数据手册只给定了0～+15V电压摆幅情况下门极电荷QG的值，但是-15V～+15V电压摆幅下的门极电荷量QG并没有给出。在设计时选用-15V～+15V电压摆幅，门极电荷量QG需要按照下述方法确定，即可以采用实测法对门极电荷量进行计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPKctVRZ60yYbmgUn6h7EEKepib6l5L3Y0RwwvB21Aiblm6AWNVhxhic4plWIIvH96WTiazXtictS6ZIDxDeCjicLXaRMgfgwyNm6lIE/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_001_9b3bf0c32450.png)
 
 图2显示的是一张典型的驱动器开通过程波形图，驱动器输出电流IOUT在开通过程中一直在对IGBT门极进行充电。图2中输出的电流IOUT与时间轴围成的面积就是总的充电电荷量。积分时间从驱动器开始输出电流到输出电流为零这段时间。门极电荷的计算公式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPkDhS7nxA7njuQZgwunIhnibroNjuweXibCu3N8JXKeX2ibM6gAXRuCx7yegqASRtpo2aicL7v7t9oSeu4Iicg1Q9mb1HicHOHUDQUE/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_002_24318cdd041d.png)
 
 (1) 式中:  
 
@@ -48,7 +48,7 @@ IOUT———驱动器输出电流。
 
 用这种方法进行测量时，一定要注意是在输出电流是在没有发生振荡的情况下测量的，这样测量的门极电荷量QG才会准确。通过公式(1) 的计算得出实测门极电荷量QG。ΔV是IGBT开通电压与关断电压的差值，开发人员可以根据自己设计的IGBT开通电压与关断电压的差值得知。也可以在驱动器开通过程的波形图中测出ΔV。IGBT门极实际的输入电容:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOliaVKSA3iatMbNwM7SHnuRZNXcoGicP98lm5iafgibI7R81Lw1WGjTmxZtwanLntdWrlHmicTXSf8vHdsTYOruA6k27sGibVyTYxHa8/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_003_4ad7ad3f35c0.png)
 
 (2)式中:  
 
@@ -62,7 +62,7 @@ QG———IGBT门极电荷量;
 
 对于开发人员来讲，用实测法对门极电荷量QG以及输入电容CIN进行计算比较繁琐，输入电容还有一种从工程应用经验中得到的计算方法。其输入电容公式:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOl0jW1yIx9b7D3OEe8V7x2IsJMqBeyTyWQ0uWUM7ibjCCWrCVIdZfxwbIcribZJlhV1icbYNA1mj8HrFxvSolKpG3DDwjtDk9mFw/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_004_7682b682d2d0.png)
 
 (3)式中:  
 
@@ -76,11 +76,11 @@ Cies———数据手册中给定的输入电容值。
 
 驱动器是用来驱动电力电子主回路IGBT开 关器件的通断的，其控制IGBT通断的本质是:对IGBT的门极进行充电使其电压达到导通电压从而使功率器件导通。对IGBT的门极进行放电到门极关断电压使开关器件关断。对IGBT门极的充放电没有损失能量，能量损失在所接的门极电阻与功率器件组成的外部电路上。在功率开关器件的导通与关断转换期间，在驱动器的门极电阻与功率器件组成回路中产生一定的损耗，这个损耗即为IGBT的驱动功率。要按照功率开关器件所需的驱动功率来设计驱动器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPyjVHicwm9iccHeQic3SSryar6m1oX3iaNgqpTx86PibclCSXZGJlCKd47PPGgruQUAn3YEDMt4sana3V7h79ZwWduiaLYqPyGhNQQU/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_005_cddca2ef2dfe.png)
 
 如图3所示在无外接辅助阻容情况下IGBT门极驱动示意图，在这种条件下，开关频率为f时，IGBT驱动功率PD的计算公式为:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO17vHSDGTE8MZmq3O5cM9LpOgH5LlJYwB1ssibBUTuicAich2srDeic6ODkMQkOFISAHh7M29O6MAhTkicoHzKhxxvFDt58JrnZeBY/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_006_b58340269d89.png)
 
 (4)式中:  
 
@@ -96,11 +96,11 @@ f———IGBT开关频率;
 
 2.2有外接阻容IGBT驱动功率的计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMu9FHYx71c87y0LpVxam80xPmI6llH4ibia7ZctjCxZd2icsW9EMY7NkE9BA3jZLTwxTBad6tjwu25C0DzsjUbtt48NDRTF8cejU/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_007_333cbc183b36.png)
 
 如图4所示为有外接辅助阻容IGBT门极驱动示意图。当IGBT门极外接辅助阻容时，驱动器也要对其外接电容进行充放电，这样外接电阻才不影响驱动功率。在门极驱动电流不发生谐振的情况下，在频率开关条件为f的情况下，驱动功 率计算公式为:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPibicTVgtCDDvw1CnEDBcgENaA2wicksiaBV755IbyaM7OmnRNicnLd6I7MjsA5JR8dJpCgBE6lKJddYtbIBTbSiamlwYUPFHkBFSmU/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_008_4929ec070c0a.png)
 
 (5)式中:  
 
@@ -116,7 +116,7 @@ CGE———外接电容。
 
 通常情况下，在实际应用中，第一种也就是不外接阻容RGE、CGE的门极驱动方式应用较多，由于QG\=CINΔV，所以本公式可以写成
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPovd42oexukhib4hhibsZNJRE2e5gGW69SGMj9ib2xagx6XVV47cDXXrvq6MYjPNibdUibbCLrmq6TayNibyaAdxlQWicClqWC7oTwq0/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_009_6e8350e8fa88.png)
 
 (6)式中:  
 
@@ -134,11 +134,11 @@ CIN———门极实际的输入电容。
 
 IGBT驱动电流是为IGBT匹配合适驱动器要考虑的重要参数，其大小由门极输入电压与门极输入电阻决定，门极电阻值是由IGBT模块内置与外置电阻组成。内置门极电阻Ｒinternal可以从IGBT的数据手册中进行查询，外置门极电阻Ｒexternal为用户自己选择的外接电阻，其电阻值不低于数据手册推荐的RGon，一般取模块资料推荐值RGon的2倍。门极驱动电流IOUT，max必须足够大以便在最大电压摆幅及最小门极电阻条件下提供足够的驱动电流。其一阶最大值可以简写成:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPEIS5GXKVLVuhCakG082tibTHdMF3d9icjTDC9vjUpQ0wia5KS1czPuOFNSFicOWsty83DgQPu9BRzgMxFbROYkpZ6Nibft26lOADI/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_010_13bd2fe30e5b.png)
 
 为保证驱动器在电流存在振荡与不存在振荡情况下都能输出符合要求的驱动电流，驱动器的输出电流应不小于门极电流，其计算公式为:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMicEYH34Kdxm3Ml2bkQ9pKB3z7WvEMpQYicNnOiaWAsfZ2DzEtXibZObFdwT260DVQB3A4ftMxAL7tLZk0RBNWIS73vFDCYrynkks/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_011_7f7c13b69042.png)
 
 (8)式中:  
 
@@ -148,7 +148,7 @@ IGmax———IGBT驱动的最小门极电流值;
 
 ＲGmin———电路中选择的最小驱动电阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOtDhzHsCbbycS6VqVia7WBsrLr8gVkrJQkyjHDn0hiaqg8GXfPxkSGeNtJTPgvLmicHiaSkZC3UxrEeocibb8CWJEDtOnCDVGvWJnU/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_012_1b79f90c74e2.png)
 
 (9)式中:  
 
@@ -162,7 +162,7 @@ IGmax———IGBT驱动的最小门极电流值;
 
 采用上述计算的方法，为FF300Ｒ17ME4型号的IGBT匹配驱动器进行相关参数的计算。工作频率f取10kHz，Von\=+15V，Voff\=-15V。通过查询IGBT数据手册得到ＲGon\=3.3Ω，则外接电阻Ｒexternal\=2·ＲGon\=2·3.3\=6.6Ω，门极电阻查表得Ｒinternal\=RGint\=2.5Ω，RGmin\=6.6+2.5\=9.1Ω。IGBT需要最小驱动电流:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOrsh4LVljyK5cMsUUEtQXGQf3lH9yn3ibR85ZpmnRROcvWibiaPQ7EhPp8Kzsd58k6nw8Tcoqlwqic14eNEhxPA2TsnibyU9dAW4bQ/640?wx_fmt=png&from=appmsg)
+![](IGBT_匹配驱动器的计算方法_images/img_013_b38afb013501.png)
 
 通过查询IGBT的数据手册，电压摆幅在-15V到+15V也就是ΔV\=30V时对应的门极电荷量QG是3.05μC，每个通道所需驱动功率PD\=f·QG·ΔV\=10×10³×3.05×10-⁶×30\=0.915W。为此选择了CONCEPT公司的2SP0115T2A0－17驱动板。这个驱动板是双通道输出的驱动板，每个通 道输出功率为1W，可以满足本例IGBT需要的驱动功率;驱动板输出的驱动电流为15A大于3.3A可以满足驱动电流要求。通过本实例说明本方法可以为IGBT匹配合适的驱动器。  
 
@@ -176,12 +176,12 @@ IGmax———IGBT驱动的最小门极电流值;
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPIFibOIiaiaiajBNHPAl8iaEib7FFHRGvtLRVtQI3Wz9ay29QwmIc0ibBIdlSib7eXMiaFqT4Ea8IeA8ztyAxUgGrrFJRX6hopic8Xh42q4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](IGBT_匹配驱动器的计算方法_images/img_014_e90c1fbfb7e1.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNp0wJ33jpDmwibNGTrGTia2Mricm7Nd6DAku8fI6TDkjvNATxNyJe9ibauYZmTnIhVE9Dqr1Hkja5nib9hg7u6Eku8bX5qUvFam9icg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](IGBT_匹配驱动器的计算方法_images/img_015_6def751b88af.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMXme6l4jfavz7auficicicgjU4WMNu2SIuOu423IgJskafiaHhiajDYdjNAicM5JyiaPvFWVtNSDgAFVVtKmHzUDk78XNEGWflW93TxQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](IGBT_匹配驱动器的计算方法_images/img_016_d229cd5fc7ac.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMj3ZhvMx6bUGpZ8Yfsvpvg4uQl9IGBdeSQR2KeQFa845TMe5YCxdFDLUgibmicF41TlKxUDZsgcV48wKtiaKia9NiaEoU4d2e5uowM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](IGBT_匹配驱动器的计算方法_images/img_017_cb71e52d5c21.jpg)

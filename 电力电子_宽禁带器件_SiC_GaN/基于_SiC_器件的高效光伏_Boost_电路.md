@@ -11,7 +11,7 @@
 
 关键词：SiC 器件；MPPT；驱动电路；高效率；光伏发电
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENicTnfrQH5xteejWgCSXE9BJgNtXu3qGNyRXuw0QeUib22icp8d7g8ZKJg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_000_f29e3a75b341.jpg)
 
 0. 引 言
 
@@ -19,11 +19,11 @@
 
 1. 光伏发电 MPPT 技术
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENMdO5UTUsgJkQK9AGhpMBEA8xnQia5HOBiatcWVAetlI57I3fDbfPiahGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_001_1f76c06b54c8.png)
 
 图1 为25 ℃时光伏电池在不同光照强度下的输出V-P 特性，从图1 中可以看出，相同温度条件下的不同光照强度，光伏电池有且只有一个最大功率点。光伏电池既不是恒流源也不是恒压源，其输出电压随负载、光照、温度等变化而变化，往往不工作在其最大功率点上。让光伏电池在不同的光照温度下接不同的负载都工作在其最大功率点上，这就是所谓的最大功率点跟踪（MPPT）。在当前的光伏发电系统中，光伏电池的成本仍然很高，实现MPPT 可以有效降低系统成本。然而，实现MPPT 的方法就是在太阳能电池和实际负载之间插入DC/DC 变换器，实际负载和DC/DC 变换器合在一起充当光伏电池的负载。根据光伏电池特性，采用相应的控制方式调节DC/DC 变换器的占空比，以使光伏电池外部总的负载阻抗与其内部阻抗相匹配，光伏电池输出最大功率，工作在其最大功率点上。DC/DC 变换器效率很高，实际负载获得最大功率。DC/DC 变换器输出可直接给直流负载供电，给蓄电池充电，也可经过逆变器后给交流负载供电或实现并网发电。有的逆变器带有MPPT 功能，直接由光伏电池供电，但这种逆变器的控制过于复杂，所以很少采用 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENTuKbbM7yzIqic2oHlUpQ5sYkyyY3kpxrY7k9gBa3zMATat40ebKX2yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_002_0a56572d85b4.png)
 
 DC/DC 变换器有很多拓扑结构，理论上来说都能用于实现光伏电池的MPPT。Boost 电路相较于其他DC/DC 变换电路有很多优点：（1）电路结构简单。只有一个可控的功率开关管且功率管接地，方便驱动电路设计；（2）升压拓扑作为输入的光伏电池串，连线路绝缘要求相对低；（3）输入电流连续。如果电感足够大就可以使直流输入电源的电流波动小，这对实现光伏电池的MPPT 很有利。因此，大都采用Boost 电路来实现光伏电池MPPT。Boost 电路如图2所示。根据光伏电池特性，实现其MPPT 的控制方法有：恒压法、扰动观察法、功率回授法、增量电导法、滞环比较法、最优梯度法、模糊逻辑控制法以及神经网络预测法等。扰动观察法的依据是光伏电池特性曲线最大功率点左侧输出功率随输出电压的增加而增加，右侧输出功率则随输出电压的增加而减小。测量光伏电池输出功率，改变占空比后测量其输出功率并和前次输出功率相比较，如果比前次大就在相同的方向改变占空比，使下次光伏电池输出电压和本次同样变化（同样增加或同样减小），反之就改变扰动方向。这样稳态时能工作在光伏电池最大功率点附近。恒压法易于控制（不考虑温度的影响），其他控制方法或多或少都有不足之处，控制复杂，不成熟。
 
@@ -43,23 +43,23 @@ Boost电路主功率开关管上的电压为输入电压和电感电压之和（
 
 设计的Boost 电路为光伏发电系统的中间环节，带有MPPT功能。光伏电池输出为Boost 电路的输入，Boost 电路输出接蓄电池或逆变器。Boost 电路不连续导电模式（DCM）一般适用于小功率场合，通常情况下连续导电模式（CCM）要比不连续导电模式（DCM）效率高。因此设计的Boost 电路工作于CCM 状态。MPPT 控制采用扰动观察法，硬件上以STM32F103C8T6 单片机为核心来实现：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENWU2hdCFw9gricJrBEeoGwicBsq825PBxfcBwpLOmdNfesANsa7iawScCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_003_b0b402b4a664.png)
 
 连续导电模式下可按照公式（1）计算所电感大小。其中Uin，Iin 分别为Boost 电路输入电压和输入电流，f 为Boost电路工作频率，D 为Boost 电路占空比。
 
 3.2 SiC MOSFET 驱动电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENhhI86oy9OzlfRb2XvWic0hibE4wk9rqTibaP3X208jNFx892QCzkFMYBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_004_61a858b0fe26.png)
 
 SiC MOS 管性能卓越，但必须要有与之配套的驱动电路，否则其优良的性能无法体现出来。图3 为所选型号SiCMOSFET 的输出特性曲线。从特性典线上可以看出，MOS管在可调电阻区间内驱动电压越高，MOS 导通电阻RDS（on）越小，驱动电压较低时，同样条件下RDS（on）会增加很多。驱动电压低时，SiC MOSFET 导通电阻小的优点体现不出来。驱动 SiC MOSFET 导通时，尽可能提高驱动电压以使MOS导通电阻尽可能小，从而减小导通损耗。SiC MOSFET开启电压不高，结电容较小，因此，为了防止误导通以及加快关断速度，通常在驱动其关断时采用负电压。IMW120R060M1的Datasheet显示，驱动电压最大范围为\-7V～+23V。本次设计的驱动电路高低电平分别取+18V和\-5V。
 
 场控型器件MOS 管栅源间的输入阻抗很高，在其导通和断开的稳定状态下所需驱动功率极小。但 MOS 管开通过程和关断过程是栅源间输入电容 Ciss 充电和放电的过程，需要一定的功率。驱动功率小就会增加 MOS 管开通和关断时间，增加 MOS 管的开关损耗。SiC MOSFET 所需的峰值驱动电流可按公式（2）计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENN1JP38QqEwmLMJibmfCjhqbOjabvB4Zd8F1DsiaScxmKFVfX1Upn2DoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_005_53fc41e977d5.png)
 
 公式中 QG 为总栅极电荷，td（on）为开通延迟时间，tr 为上升时间，具体数据都可以在器件Datasheet 中查出来。经计算，峰值驱动电流约为2.45 A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENFja8DzSlfNVb3YSaT8ezWzaymOvIRTOo7ZmuhFiaC66QiczV35KCVVGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_006_c22324d5af88.png)
 
 驱动信号由实现MPPT 的控制核心单片机STM32F--103C8T6 产生。驱动电路如图4所示。驱动电路以英飞凌公司专用芯片1EDC40I12AH 为核心。图中芯片左侧（包括VCC1、GND1、IN+、和IN\-）为输入部分，右侧为输出部分，芯片内部实现输入与输出的隔离。输入侧VCC1的供电电压范围为3V～15V，可与微处理器共用电源，IN+ 引脚接收来自单片机的PWM 信号。输出部分VCC2 和GND2 可以单电源供电，也可双电源供电。此处VCC2 接+18 V 电源，GND2 接\-5 V 电源，双电源供电。OUT+和OUT\-输出电压几乎分别等于VCC2和GND2外接电源，芯片具有功率放大功能，峰值电流都在4 A 以上。光伏电池经一单端反激式电路为控制和驱动部分供电。该芯片信号延迟和滤波时间短，开关频率在1MHz 以上。MOS 管栅级驱动电阻越小，驱动速度越快，但驱动电阻过小会引起振荡甚至损坏MOS管。本案中选取的驱动电阻如图4 所示。
 
@@ -67,7 +67,7 @@ SiC MOS 管性能卓越，但必须要有与之配套的驱动电路，否则�
 
 实验中采用可编程直流电源CHROMA62150H60\--0S来模拟太阳能电池，方便实验时输入功率调节和保证实验中输入的一致性。模拟的光伏电池最大功率点工作电压为200V，Boost电路输出接蓄电池。环境温度25 ℃。因Si 材料MOSFET耐压不高而未选用。这里选取型号为IKW40N120H3（1200V，40A）的Si IGBT和型号为IDB18E120（1200V，18A）的Si FRD 进行对比。Si IGBT 在50kHz 时效率偏低，所以设计的全SiC 器件Boost 电路和传统的全Si 器件Boost 电路对比时工作频率定为20kHz，对比的两电路的主电路除半导体器件不同外其他都相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskz4qeVkTZIOq8DOIBl5jENULBSmCOq5WOHZWyeqw4icrxg4lCsMWqyGs1yI97qrqsvPS9fL6iaibmlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_007_24bf2dcc307e.png)
 
 测试结果如图5所示，图5中纵坐标为Boost 电路效率，横坐标为 Boost 电路输出功率。图5 中（1）（3）两条曲线分别对应工作频率20kHz 时全Si 器件、全SiC 器件的功率效率曲线，曲线（2）是所设计的全SiC器件工作频率50kHz 时的功率效率曲线。从曲线中可以看出20kHz 时，全SiC器件效率比全Si 器件提高了大约2个百分点。IGBT通态时管压降随负载变化不大，而MOS管通态时呈电阻特性，其管压降随电流增加而增加，SiC MOSFET通态电阻RDS（on）很小，所以轻载时全 SiC 器件电路效率提高很多。随着频率增加开关损耗增加，效率下降，但工作频率50 kHz 时全SiC器件效率仍高于工作频率20 kHz 时的全Si 器件。实现MPPT的DC/DC 变换器效率越高，MPPT 的效果就越好，光伏发电系统的效率就越高。
 
@@ -77,10 +77,10 @@ SiC MOS 管性能卓越，但必须要有与之配套的驱动电路，否则�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_008_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_009_0fc2146c10d8.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_器件的高效光伏_Boost_电路_images\img_010_3a3df320c8e4.png)

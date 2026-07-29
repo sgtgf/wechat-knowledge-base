@@ -12,17 +12,17 @@
 
 CES Conference
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2IiaFJUhXkb9snkZHB6xENRNnAia5hnYLyGuhiaPe48m6pCMRvRHS2lRCibw/640?wx_fmt=jpeg)](http://acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_000_fbb0a053e9c7.jpg)](http://acces.org.cn/)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2I76Ub0zt3j8vavy7EkRyQlbhZd0NooOulSogTwcNXbkFgxViaWjExtQg/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_001_73510fde4208.png)](https://www.icwpt-conf.com/)
 
-‍[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2I1y5CjbhAqIQJhZ3PE2RJ4YcBWuIyox2Gsf02e3FxOuLiapPsSRicZeGQ/640?wx_fmt=jpeg)](https://www.fafee.org.cn/)‍
-
-  
+‍[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_002_48a1a0152566.jpg)](https://www.fafee.org.cn/)‍
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/v4vz52CcB12SKPI2RIf1ATGuibSDRzlva2DtvJrxVS7E5SV0ywJuOwT50pyjjyDtobcCVsIWGU5snM7OYg1tr9Q/640?&wx_fmt=png)
+  
+
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_003_dd8a85b3f665.png)
 
 **喜 讯！**
 
@@ -46,13 +46,13 @@ CES TEMS旨在搭建高端、国际化、便捷的现代电机与系统研发和
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2I2TOUPuqaKy2icPAgo9icro4vNpGT6mmYicbGOm1ic4Ma9AO4icNiaATlaABw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_004_e609c8ee80be.jpg)
 
   
 
 ****下载论文PDF版**，请点击左下角“阅读原文”，访问期刊网站。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2IHxiaI8syFOQJExZibqIFVwt4FZGeuhCbPBqcpgKQskjdl2oD5FYYUPbQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_005_a6521c9e8709.jpg)
 
 **扫码参会  ACCES 2022**
 
@@ -62,9 +62,9 @@ CES TEMS旨在搭建高端、国际化、便捷的现代电机与系统研发和
 
 2022年9月16-18日  重庆市
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2IXcOPSYzf6lc2MC6sGQ3zdNiarPhnD9JY1LJicDhGHD3uYtLLH6Xvbp1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_006_782d497671de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178UicwpsPNZZpSEHj9K1Sh3PlavibMO3uN8ia6aIcFfZF0CFtWNrVwDMoNB7VnOJKw7iaBTUOrqB3M84A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_007_29cd38833fd4.jpg)
 
 **扫码参会  FAFEE 2022**
 
@@ -74,7 +74,7 @@ CES TEMS旨在搭建高端、国际化、便捷的现代电机与系统研发和
 
 2022年11月3-5日， 武汉市
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178UicwpsPNZZpSEHj9K1Sh3PnL00BPASfYmibMJPr9TnxKQ9DyiaVGNRibI5tDFVfqnbfQtp0ic5vIgsuw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_008_4b6120d92c80.png)
 
   
 
@@ -107,15 +107,15 @@ CES TEMS旨在搭建高端、国际化、便捷的现代电机与系统研发和
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2IXG8PSicBsObYXnf17Mo74Qt30GlSxa7JoUCybexwKQGtgBnu2qdvqSw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_009_817fd0f16dfb.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2I07qz3icFycpVAmGDvN1mOrzDIYRE1PPvfyjpbS8l8BlqkpDwfYv150w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_010_02ebbcc56e87.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2I97GvKQGtF1V5bsaC7YPuyic7qre1fugJBSNHp6ib0LNDLtZ4w4IV6aqw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_011_88cbc5750690.jpg)
 
 学会官方微信
 
@@ -123,15 +123,15 @@ CES TEMS旨在搭建高端、国际化、便捷的现代电机与系统研发和
 
 CES电气
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2Ir9hiaVsk4mddFibpt9rZ6tZFVILRJVnUozXlatlzZAjt2AfmlO4MRibMw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_012_9a92a237d5e9.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2I1QsCl2X5IqnbsuWEibSHNLQYhFlxic0NV46Hh1cb5BvRgQn92tdbGrfQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_013_b4cb09b4b69c.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2IoCCbnm4zHE7aa1zVpHaCOwHIhq5DQZcFIBWMjlpNmkBuxVdUicIDPRQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_014_df7505658f1e.png)
 
 学会官方B站
 
@@ -139,15 +139,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2IialN0ia7Nia3GKicoNYbcPw8ZQ8SQMZ53UAZ84Rmm2aric5MpxXwCJZIRbA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_015_59e30fd27fed.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2IryvNucnmZI8EXSnrlpkAploCUfibMVYfNYjzoB9Kt28eGdRnsjA93uA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_016_d0a636a96183.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178JofHnmeYHtwXMiaO38sZ2I5PGv1qHM26IwgrSKFUicalsLibn2bXfUyw9RlicD4pFtgchBclJk1PMyA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_喜讯_CES_TEMS被INSPEC_数据库收录__images\img_017_ca84191d3a3d.jpg)
 
 学会科普微信
 

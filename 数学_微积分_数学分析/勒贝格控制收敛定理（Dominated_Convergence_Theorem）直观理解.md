@@ -53,7 +53,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocv57pjxL9iaORMibic8vTf64B3asGYia4brSwDtFKhdNuOibL53HjbrSP6c96fZLicJanoVMZJhwic1QvXibKajPUkhHrJpeqQaTomcA8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\数学_微积分_数学分析\勒贝格控制收敛定理（Dominated_Convergence_Theorem）直观理解_images\img_000_df83c238db16.png)
 
   
 
@@ -92,7 +92,7 @@ DCT 就是在告诉你：**满足哪些条件时，这种交换是合法的。**
 
 ## 二、图的第 2 部分：直觉 —— “看不见的天花板”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsxDcBsRNGLnN81X6fY2RE0DwSHPFgnUxzqLh7zVFGaicWJr1x5PQ41kicib20GNB393L0xViajEB8nQtsT7X90F4EUzhj3MJ0MNXU/640?wx_fmt=png&from=appmsg)
+![](勒贝格控制收敛定理（Dominated_Convergence_Theorem）直观理解_images/img_001_f2105517f0df.png)
 
   
 
@@ -152,7 +152,7 @@ DCT 就是在告诉你：**满足哪些条件时，这种交换是合法的。**
 
 ## 四、图的第 3 部分：三个关键条件
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsPqNxNkboLypS5PEvj1Ciajb8tFLJjML7bBbGb6RNWibVkVCFg0iaNXph8ZZ32nXaQwbw1jer09ibbPbcoHoFGhV6oLC2lR7vxmx8/640?wx_fmt=png&from=appmsg)
+![](勒贝格控制收敛定理（Dominated_Convergence_Theorem）直观理解_images/img_002_97f2ab94422a.png)
 
   
 
@@ -204,7 +204,7 @@ DCT 就是在告诉你：**满足哪些条件时，这种交换是合法的。**
 
 ## 五、图的第 4 部分：定理本身
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocucxlIribJEib2jAzFPNsSYF0CZJXbeLnCOGicLuEpYOLkwPrSSVlVxAGLD2mRQ0FdwLq4hbWnKRS7jJ5vIRrNIDwtyVUMj7f81IU/640?wx_fmt=png&from=appmsg)
+![](勒贝格控制收敛定理（Dominated_Convergence_Theorem）直观理解_images/img_003_4da24b13b7fe.png)
 
   
 
@@ -299,7 +299,7 @@ DCT 就是在告诉你：**满足哪些条件时，这种交换是合法的。**
 
 ## 十、图的第 5 部分：它为什么重要
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsuoZk8KkQMtnBImn2teYKCw380ibtXJQs0EggFSegIlcRMTkQg1XMouDxgfTiaHfqAt7ASgL4zPGDLsHZOzngfHhKv4vZnBLaDk/640?wx_fmt=png&from=appmsg)
+![](勒贝格控制收敛定理（Dominated_Convergence_Theorem）直观理解_images/img_004_99c97d86e75e.png)
 
   
 

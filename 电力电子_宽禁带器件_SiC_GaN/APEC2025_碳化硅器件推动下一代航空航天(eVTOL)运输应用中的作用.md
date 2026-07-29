@@ -7,35 +7,35 @@
 
 作者：Dereje Woldegiorgis, PhD
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQdc8Fp4jgibd0MUmGYWqe9K65ic9nMTDoC8tk0kgeXSEUulAGzO4MpjEw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_000_0d8556434577.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQtglASWMgA3bnjZicgCbgLHPGU468H7xicS5icY4FstqNkhZ8BfYicVIAlQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_001_7d6f45e4b89d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQRiavriaTIrDgxBVMLnsQ593JicECErU15mU6ric0X3UFwvicdHLsOEdxexQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_002_9e3b9a6f5944.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQ5LoRFSgaVkyk9mgUpvOSWmOl5t7jChqNJ1ZTZbsjicoWs1JicU1HcNicg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_003_3bdec6890cd2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQUXOicNIZhCSqml2TxMxSt9LySyByjibibXN4fJ8brciaNVSUU7fN1icwGQA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_004_da4d891c7f72.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQrdV13sH0JHAljdvQyec0uNQhicEMuQpDqyXwp7uHLmP1FpgCgeoaRqw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_005_ee56cc7fe4f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQ1mcC3z9zH5QqBb2HWP2qVziaCn2YZKuQebmFKAaTP1YOhiceg28iaDYmA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_006_1aea91a7fb49.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQpicWGibchPoczXXlAqBA7roTVSJofe6KefurYg7cAibKWOiasfOQuHW8QQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_007_2689c956f2db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQV3PT3dyQOtsO80GzuQ0qRsQejVGkP4JuMhPUictGod6uibJaRSjYMWbw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_008_a1166a007d93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQ2PibCj1xKMYhqMVmRmrnZn8d8RHoqCiaGPNCqqy9eECVjiabXEHDYTQnA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_009_f01ed0df62ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQRbE5zMpueveuYbpXZjknzCX4xe082DFjTRfn35L5Wawt0cRgBpcWOQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_010_1698f2bf8850.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQXKnEL8Vkm93Zvs0euo3dKWbrib2CSk5PKGBCbSIcOWM5kMjDUZMhIeA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_011_ece0a068f3d2.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQP0DhzE6ysSI37Tj3Jmlc4todsnzpFRJGITvoffh88fgPU2BibXicGjaQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_012_b94ef81f18d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQKjLJ28B0Trxu1LhI4vS5FTW0rnmMsvDD7zu8sLvjEByLxwTPHgtsCQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_013_c1d0f0815352.png)
 
 注：文字与报告无关
 
@@ -131,17 +131,17 @@ Joby S4：采用3D打印钛环SiC电机，续航达240公里，获美国国防�
 
 碳化硅器件通过高效能、轻量化、耐高温等特性，正在重塑 eVTOL 的技术体系。从动力系统到飞控单元，从材料创新到制造工艺，SiC 已从实验阶段迈向规模化商用。随着成本下降和政策支持，SiC 有望成为 eVTOL 产业爆发的 “催化剂”，推动城市空中交通进入全新时代。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQAaUJP5dwibwevKNLu9xJwibwIFcBqpsd1p6eYKHib1RJBib82FH4pgHScw/640?wx_fmt=jpeg&from=appmsg)
+![](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_014_ab679a92f99f.jpg)
 
 ### 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_015_c183cb963a26.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_016_8f591e696cb3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用_images/img_017_454d0867bee7.png)

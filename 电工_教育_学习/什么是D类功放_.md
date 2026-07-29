@@ -18,7 +18,7 @@
 
 什么是 D 类音频放大器?最简单的一个说法 D 类音频放大器是一个开关放大器。为了了解 D 类音频放大器的工作原理，我们需要了解 D 类音频放大器的功能以及开关信号是如何产生的。下面给出了框图帮助大家理解。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSv9LqT8hCiamiaup7YDCc17ZB180e0q6avBnaUNpQbuVrjShdjhswd3MQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_002_a79c0700b587.png)
 
 D 类音频放大器工作原理图
 
@@ -34,13 +34,13 @@ D 类放大器效率高。与 A 类、B 类和 AB 类放大器相比，D 类音�
 
 现在，回到 D 类音频放大器的功能简化框图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS7ZD8A7D6lkiaQibibUAL2GuBz7crjjwZaEBGoWoC1kKvuWRh2UC67b4hw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_003_28e9ddc2dde6.png)
 
   
 
 D 类放大器原理 你在同相端看到的，有音频输入;在反相端，有高频三角信号。此时，当输入音频信号的电压大于三角波的电压时，比较器的输出变为高电平，当信号为低电平时，输出为低电平。有了这个设置，我们只是用高频载波信号调制输入音频信号，然后连接到 MOSFET 栅极驱动 IC，顾名思义，驱动器用于驱动两个 MOSFET 的栅极侧和低侧一次。在输出端，得到一个强大的高频方波，我们通过一个低通滤波器来获得我们最终的音频信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jwW4UHic87lf98M2ZbFib1BhzYauJkibZjw95FmZLJIqSH9GeJVnajMI4ffTFicszLPCbycMMQQtsexhib1cfc7oeLA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_004_eed87d85f696.png)
 
 D 类放大器工作原理图
 
@@ -50,11 +50,11 @@ D 类放大器工作原理图
 
 了解了 D 类放大器的基础知识后，我们可以来 DIY D 类放大器。这是一个比较简单的测试项目，组件也比较通用，你直接在网上就可以买到大部分组件，下面给出了带图片的组件列表。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSAgU502Tyy0MpxTYAjPzHD6moDIKBPP2OZnzeib35oeOjcqPnPY61ia1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_005_f56e925f6bff.png)
 
 构建 D 类功率放大器的零件清单 构建 D 类功率放大器的零件清单：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS2ctey4JLv26lbvknJEBTM0ByIkibBcfZdwPJp3emH436ymOoU1Sbthw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_006_403dff384e11.png)
 
 构建 D 类功率放大器的零件清单图
 
@@ -64,7 +64,7 @@ D 类放大器工作原理图
 
 D 类放大器电路电路图如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSarNkjRqAOffo8PdPR97ZZnvNl5GW8tichBzj59N2fFmTuX9SRpIzBibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_007_3c6726633a34.png)
 
 D 类放大器电路电路图
 
@@ -78,7 +78,7 @@ D 类放大器电路电路图
 
 1、输入电压调节器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSMX0MpiasBxPiasGNYSo66IgU2kFUkXZFsMkPwCsRCW7UiceoCC8Znn5wQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_008_1504cbc9e973.png)
 
 输入电压调节器首先使用 5V 稳压器 LM7805 和 12 伏稳压器 LM7812 调节输入电压。这里非常重要，因为我们要用 13.5V 直流适配器为电路供电，而为 NE555 和 IR2110 IC 供电，需要 5V 和 12V 电源。
 
@@ -86,7 +86,7 @@ D 类放大器电路电路图
 
 2、带有 555 非稳态多谐振荡器的三角波发生器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSqwicqad6y0SJ3iaLvmicG4LQb53iaOibkhRfib8ZSQSZY060p5U0mfyKBujQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_009_d71e4f552581.png)
 
 带有 555 非稳态多谐振荡器的三角波发生器 从下图可以看出，我们使用了一个带有 2.2K 电阻的 555 定时器来产生一个 260KHz 的三角信号。
 
@@ -94,7 +94,7 @@ D 类放大器电路电路图
 
 3、调制电路：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSFM0tudTHniaUicF9FziaJNWVaBeV2OQ59CeIFNT6UMFpDaZEjE3pl0I1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_010_e52ec681d9e4.png)
 
   
 
@@ -104,7 +104,7 @@ D 类放大器电路电路图
 
 4、IR2110 MOSFET 栅极驱动器 IC：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSzDVuib2YpdTmZUK3KToyeAOpa0tNhdcicX5ALUr7W77HJjMfyGqhHWyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_011_9c70eea32cb0.png)
 
 IR2110 MOSFET 栅极驱动器 IC 我们使用了 MOSFET 栅极驱动器 IC 来正确驱动 MOSFET。所有必要的电路都按照IR2110 IC 数据表的建议放置。为了正常工作，该 IC 需要输入信号的反相信号，所以我们使用BF200高频晶体管来产生输入信号的反相方波。
 
@@ -112,7 +112,7 @@ IR2110 MOSFET 栅极驱动器 IC 我们使用了 MOSFET 栅极驱动器 IC 来�
 
 5、MOSFET 输出级：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS5tKeJvU4tfjnPahmEqnrm3nWwSmB2ic5LPMekltWEyXHyMpwibaP0ucw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_012_30a26a5e068b.png)
 
 MOSFET 输出级 从上图中可以看出，我们有 MOSFET 输出级，它也是主要的输出驱动器，因为我们正在处理高频和电感，所以总是涉及瞬态，所以我们使用一些 UF4007 作为反激防止 MOSFET 损坏的二极管。
 
@@ -120,7 +120,7 @@ MOSFET 输出级 从上图中可以看出，我们有 MOSFET 输出级，它也�
 
 6、LC 低通滤波器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSt6xz0GmzwJhAnAFX8gBMjrXTwicbfpF5ODUfjseOetrUyfUUNh8ibJow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_013_f1fd8a0bb1fb.png)
 
 LC 低通滤波器 MOSFET驱动级的输出是高频方波，这种信号绝对不适合驱动扬声器等负载。为了防止它，我们使用了一个 26uH 电感和一个 1uF 无极性电容来制作一个低通滤波器，记为 C11。这就是简单的电路功能。
 
@@ -130,7 +130,7 @@ LC 低通滤波器 MOSFET驱动级的输出是高频方波，这种信号绝对�
 
 **七、测试 D 类放大器电路**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSjb5ickm7VujHnbq6hK0SAeUMW0lKdQhEXhhSYzP6fQic8OJliaoNWrCyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\什么是D类功放__images\img_014_ebf7b6dcfcc1.png)
 
 测试 D 类放大器电路 从上图中可以看出，使用了一个 12V 电源适配器为电路供电，它发出的电压比 12V 略高，准确地说是 13.5V，非常适合我们的板载 LM7812 稳压器。负载使用的是 4 Ω、5 W 的扬声器。对于音频输入，我使用的是带有 3.5 毫米长音频插孔的笔记本电脑。当电路通电时，不会像其他类型的放大器那样发出明显的嗡嗡声，但是这个电路在较高的输入电平下会出现削波问题，所以这个电路有很大的改进空间。当驱动中等低负载时，MOSFET 根本没有变热，因此对于这些测试，它不需要任何散热器。
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/253mtHoFaC0SHw1qD5BuDg](https://mp.weixin.qq.com/s/253mtHoFaC0SHw1qD5BuDg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMV9ydcObicBw5wnKpCttYicmPp3KCLWJ6rxaYZjVsWMdDJJ5vo0ONvqxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_000_c33c9a6b2512.png)
 
 ____**★★★**______TCS-6---Ioss______**★★★**____
 
@@ -13,11 +13,11 @@ ____€1.插损的定义和来源____
 
 插损是插入损耗（Insertion Loss）的简称，它是指在传输系统（如射频、微波电路、光纤通信等）中，由于插入一个器件（如滤波器、放大器、耦合器、开关等）而导致的信号功率的损耗，单位为dB。从数学角度来说，插入损耗的计算公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMp51NxZia0jQ25IgmibZ8yv7sGR92skVaNIr6D2l99YoBjiarQH8O9ElIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_001_2137db4bfdd1.png)
 
 也可以用百分比来衡量：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYhDFWHEyD6GXj2IlxHuibLksGJpzwoPlNeTHZXpxdnbibMRSt5GcEvXtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_002_92d77df5a625.png)
 
 当信号功率100%传输时，即插损为0dB，当信号功率只传输1%时，即插损为-20dB，所以一般插损范围在-20dB到0dB之间。其中Pin插入器件前的输入功率，Pout插入器件后的输出功率，插损的来源有以下几个点：
 
@@ -41,11 +41,11 @@ ____€3.回损的定义和来源____
 
 回损即回波损耗（Return Loss），是指在传输系统中，由于阻抗不匹配，反射波功率与入射波功率之比，指的是信号输入到器件时反射的信号量，单位为dB。它也是衡量反射波大小的一个指标，其计算公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMy5Q9775wiaDNnukVyibXs6lmP3naHkINBebExaVliaKSAnTGTn1wz727g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_003_26132313007e.png)
 
 也可以用百分比来衡量：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWITfI5PPZK11E3pkcpFzabicibvibKdhoXvicx6m1vsricfVHTPQBKB3vuQaZ0RjzrXibmY8NHdPQllIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_004_1b0c1f627622.png)
 
 其中Pr反射波功率，Pi入射波功率，当信号功率传输99.99%时，插损为40dB，当信号功率传输99.9%时，即插损为30dB，当信号功率传输99%时，即插损为20dB，当信号功率传输90%时，即插损为10dB，当信号功率传输20.6%时，即回损约为1dB，当信号功率传输0%时，Pr=Pi，回损为0dB。所以一般回损范围在0dB-20dB之间，回损的值越大，表示反射越小，匹配越好。
 
@@ -67,15 +67,15 @@ ____€5.插损（Insertion Loss）与S参数的关系____
 
 插损衡量的是信号从输入端口传输到输出端口过程中，由于器件的吸收、散射等各种因素导致的功率减少程度。对于一个双端口网络，插损可以通过S参数中的传输系数S21（或者S12）来计算（[RF 术语与概念-5：S参数](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247495228&idx=1&sn=cb6459b67c43cf0e62fbe1b963492eb7&scene=21#wechat_redirect)），插损：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO982ib7IGsgT8WNvW7MQIic39fcKO24laSUUYXGQ4ZgCK77giaENcX83hFyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_005_a5b1cf8dfd56.png)
 
 （假设信号从端口 1 输入，端口 2 输出）。例如，若S21=0.5，则插损：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98n4ibGXiaiaJeLwUV02KUA2EPooicjAaLczCDKKsicLILdL9eDKzH2gPCdow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_006_79b0fd716f19.png)
 
 这意味着信号从端口1传输到端口2后，功率降低了约6dB。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98u1Lypyg1fTPhnmicE5W9ricib9XZFPGibpHxZ7aMWTMOfkQrS1tNMgqGiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_007_4d255ce273a6.png)
 
 **_图6-1：天线S11_**
 
@@ -83,11 +83,11 @@ ____€6.回损（Return Loss）与S参数的关系____
 
 回损是指反射波功率相对于入射波功率的损耗，主要用于衡量端口的反射特性，即信号在端口处反射回去的程度。回损越大，说明端口对信号的反射越小，匹配性越好。回损通过S参数中的反射系数S11（或S22）来计算，回损：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98j1NrxPNJcyCegUeCWw7PtabTWLicqAVOUBqttksIsAj251gQjN8Nb4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_008_0c547e22de7d.png)
 
 （对于单端口网络或考虑端口1的反射情况）。例如，当S11=0.1时，回损：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98RgzA8QmkMCj0EiaRrwOydb1prAyQqBaLtZhmtRLFicPT9uuTUyaiahqnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_009_51528298583e.png)
 
 表示反射波功率仅为入射波功率的1/10，大部分信号都进入了网络而不是被反射回来。
 
@@ -95,9 +95,9 @@ ____€7.测量示意____
 
 滤波器的降噪效果由插损来表示，如**_图6-2_**所示，将滤波器插入连接50Ω信号源与负载的电路中，然后测量负载侧（B至C）的电压变化，测量值通常以dB表示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMw6zDadChN2DYibJxHPxooRzcfa2jibAjwc8vQDq8icwVJwLWFgdPNhuD1GUXm9YZzGPxKzEaz5QWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_010_ce91117aa0b6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMw6zDadChN2DYibJxHPxooR63dRtqm27uGGZtEj43KXRgAORIic0EwciccWktYzVyNP2q6ClrglDoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_011_50a0fb5cd452.png)
 
 **_图6-2：插损测量电路_**
 
@@ -105,11 +105,11 @@ ____€8.VSWR与回波损耗互转____
 
 VSWR/SWR（Voltage Standing Wave Ratio）驻波比全称为电压驻波比，指传输线波腹电压与波谷电压幅度之比，又称为驻波系数，驻波比。驻波比=1时，表示馈线和天线的阻抗完全匹配，此时高频能量全部被天线辐射出去，没有能量的反射损耗；驻波比为无穷大时，表示全反射，能量完全没有辐射出去，计算公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMZ2X8wA5Fw9GwoPKSnvqufKhnJ50YoJKMcosACn9QXcRbZagYChWOuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_012_6b5f370ee76a.png)
 
 在理想情况下，天线与射频电路的阻抗完全匹配，完全没有反射功率，这时的回波损耗为无限大。但是在工程上阻抗不可能完全匹配，因此反射功率是一定存在的。最差的情况是输入功率完全被反射，此时回波损耗为0，计算公式为：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMadI7wvhOicTqia7icA0Rml0410zajV7yUwFOYWX0SgCxpFPkcHmbqUI1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_6_损耗_images\img_013_19cdca2b33c6.png)
 
 ____€9.小结____
 

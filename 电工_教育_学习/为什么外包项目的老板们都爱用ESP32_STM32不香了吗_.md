@@ -12,7 +12,7 @@
 
 最近遇到一些外包项目的老板，发现一个有趣的现象：大多数物联网项目需求里都明确要求使用ESP32。这让咱们这些STM32老玩家开始重新审视这两个平台的特点。经过一些项目实践和技术对比，我进行了一些简单的总结，希望对大家的技术选型有所帮助，同时免费赠送5本《从零开始学ESP32物联网应用开发》书籍。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllaJbpQicg4EQ4J7tbEBQibcWhnonAv0PialiaNYZpUI49sxOKZhHIUV8tPw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_002_b76c9135e56d.jpg)
 
 清华大学出版社2025年3月出版   合计:303页  
 
@@ -37,7 +37,7 @@
 -   很多学生用ESP32做毕设，接几个传感器，连上阿里云，一个物联网项目就成型了。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllTEwfvgOa9HhcXplNT0j8yJsPZkBdkMnXGI5gC5jcn4Acq8hoaCLdxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_003_08fdc675f8cf.png)
 
   
 
@@ -52,7 +52,7 @@
 -   面试时经常被问到的知识点大多来自STM32。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllM7f4YSCuYI5yOVx84Oib349xibibR0FBK9ZTUFkulV0ZBaSRMyygHDjrA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_004_9fc23fff8763.jpg)
 
   
 
@@ -76,7 +76,7 @@ STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
 -   部分型号带FPU，能做简单DSP运算。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjho0nf5fyk3jjHOkusV3AAVicWH43ibIBtLTBtic6cUQ1V27YQibpprk7ogpDnJo55m6o4SQGPIhY6BzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_005_04c9e003d3da.png)
 
 ###   
 
@@ -107,7 +107,7 @@ STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
 -   对稳定性要求高的产品。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6Cll5iaEABxQRNevF9vFVYPfoJ1DCxAnzJmQgLQQ7ibpmR7Szgk720ZZnSyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_006_54eeb04f3d17.png)
 
   
 
@@ -139,7 +139,7 @@ STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
 
 **3、配套资源超丰富**：100分钟视频教程+完整源码+开发工具包+教学PPT
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllD2kU8libUbEqZUhs0bCfItlAQmHGsjMtibQumqROEk0h9HMiaiaY76SIiag/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_007_c84c3a4d89fb.jpg)
 
 ###   
 
@@ -159,7 +159,7 @@ STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
 -   **第4篇 项目实战**：基于Wi-Fi技术的智能灯泡和基于蓝牙技术的指纹密码锁两个综合项目的实现。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllKianuMcGXIdLtQb9EGyh0kl0H41ag1ziabyuD6998sXOAsVXowFZxT4g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_008_a01c84c2aaeb.jpg)
 
 本书内容丰富，讲解循序渐进，操作步骤详细，源码解析透彻，适合ESP32物联网应用开发的入门与进阶读者阅读，也适合相关从业人员参考，还适合培训机构和高等院校的相关专业作为教材。
 
@@ -212,7 +212,7 @@ STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjho0nf5fyk3jjHOkusV3AAVtdaRuRqe2p640pEn5FEvTlfgYFBlLiaHXM46JFoEbkicK0m7Vd2eoAvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_009_5d14fbd6412b.png)
 
   
 
@@ -234,7 +234,7 @@ STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
 
 系统后台会自动弹出抽奖链接
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjglicI6178cCTrDp0oTnXedEX19F8Lrr0yX0BvoEiabPicCjeUIn1Xap3oHsx9bEmA3NdQb6oSMVh54g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_010_ed19c103d72d.jpg)
 
   
 
@@ -247,6 +247,6 @@ STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
 
 也欢迎关注我的视频号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjho0nf5fyk3jjHOkusV3AAVs3zT3AaOtcGZDOZKjlrl8eI7DwlwmnzAwmhyKqEYwa12E4H551UtLg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么外包项目的老板们都爱用ESP32_STM32不香了吗__images\img_011_93441fb60420.jpg)
 
 奖品有限，如果你喜欢这本书，但没有中奖，也可以通过下方链接购买哦

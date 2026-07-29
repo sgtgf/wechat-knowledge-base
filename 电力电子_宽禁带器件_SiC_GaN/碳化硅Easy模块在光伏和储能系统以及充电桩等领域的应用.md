@@ -27,7 +27,7 @@
 
 4\. 较低损耗：碳化硅模块的导通电阻较小，能够降低能耗。同时，碳化硅材料具有较高的能隙，使得碳化硅模块能够实现低反向导通损耗，提高整体能量转换效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAVuic4ic00fmciaLb2ZMcicKsHJba13mVpsN2rqgJTqGMib3Sj8934kv5tNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_000_8950ef0dce4e.png)
 
 为积极响应绿色新能源的目标，大功率电力电子系统对碳化硅功率模块的需求逐渐上升。碳化硅功率模块的封装也多样化。目前，SiC  MOSFET 模块已拥有丰富的拓扑结构选项，包括半桥、三相全桥、三电平以及boost等，充分满足了不同应用场景的需求。
 
@@ -41,7 +41,7 @@
 
 **EasyPIM模块特点**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauArFXiaTriaoiaA8552PsHJXA1zblVqSRpxzd8p5J7JKzWjdicZWFIIREvvA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_001_4c974889f1b3.jpg)
 
 1\. 采用先进的真空回流焊工艺，Al2O3绝缘陶瓷，最高工作结温150℃；  
 
@@ -51,13 +51,13 @@
 
 4\. 集成NTC温度传感器，易于系统集成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauATbTEAtQJDAlvN5ImViac3hjlOSianib8chU84xrLrEibOnnneaaUIHB2wQ/640?wx_fmt=png)半桥拓扑及封装尺寸图
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_002_394b5e34f1f0.png)半桥拓扑及封装尺寸图
 
 产品规格：电压650V~1200V，电流30A-200A
 
 **EasyPACK模块特点**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAcoyS8iaEX4WzllzpBh8JEx1u2JeunnxbjnqXHicWJUesaUs7abQibVlCA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_003_5093a15b6799.jpg)
 
 1\. 采用先进的真空回流焊工艺，Al2O3绝缘陶瓷，最高工作结温150℃；
 
@@ -67,11 +67,11 @@
 
 4\. 集成NTC温度传感器，易于系统集成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauA2Gtw4XQd74ZRlN3d5FNPqTnW71tqpZZL93OMbtNsyXHtaGohsgeZzw/640?wx_fmt=png)半桥拓扑及封装尺寸图
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_004_6770f0cd81a9.png)半桥拓扑及封装尺寸图
 
 产品规格：电压650V~1700V，电流30A-300A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauARJHK2E7N9tUS4nCFdk293fiaulxxYDDgfowdmcFAK9FTr7JVuvIVobw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_005_a94ba8bf4d09.png)
 
                   三相桥拓扑及封装尺寸图
 
@@ -81,15 +81,15 @@ EasyPACK模块采用 1200V 爱仕特新一代 MOSFET 技术，在简单易用的
 
 得益于改善引脚位置，该模块还可以确保短且无干扰的换流回路，以减少模块杂散电感。通过优化布局，EasyPACK封装内的SiC MOSFET芯片实现了卓越的热传导性能。此外，它还具有不同拓扑结构的灵活模块，便于轻松地进行系统设计，支持高度灵活自由的逆变器设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8puXdxzgicekSmIjfNKt9rhFw7FM287SXGuv4cH8icIFm8XIUFSdExLZkCs800AWticZXZJUOAx89w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_006_f1933b0919cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn8puXdxzgicekSmIjfNKt9rFSIGKaWkxIIs02ucn1iawL1ptibOYVzvd31jVbjJuFAlaZWHd5cJc9lQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_007_5b83925b07e3.jpg)
 
                              散热器
 
 随着全球从 Si 向 SiC 转型的持续加速，SiC产品功率密度的最大化和设计复杂度的最简化至关重要。爱仕特的EasyPACK模块简化了布局，帮助加快电动汽车快速充电和太阳能基础设施的生产。EasyPACK模块实现功率密度最大化，并在标准尺寸内简化设计，显著加快新一代技术的生产和推出，赋能包括非车载充电和太阳能解决方案在内的众多快速增长的工业市场。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn8puXdxzgicekSmIjfNKt9rTLzDibx7SIGkJQrUUaqTd4oFzSAAvmVGRrKIoLibrtwwypBEKAj9h09w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_008_d775d35827fb.jpg)
 
 Easy1B和2B模块量产以来，已广泛应用于多个领域。为了满足市场对更高功率系统的需求，后续会进一步研发Easy3B和4B模块。  
 
@@ -97,7 +97,7 @@ Easy1B和2B模块量产以来，已广泛应用于多个领域。为了满足市
 
 碳化硅Easy模块的应用主要包括光伏、‌电动汽车充电桩、‌储能系统(ESS)以及太阳能系统、‌快速开关应用等领域。‌
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8puXdxzgicekSmIjfNKt9rCtuia07km6b1mBlRYjm0iaWNsJwaEZWpxtEG6hic6UeKFQm7IbcibhRkEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_009_aac36ca6990a.png)
 
 光伏领域：‌Easy碳化硅模块在光伏领域的应用主要体现在提高光伏逆变器的性能和效率。‌通过使用碳化硅（‌SiC）‌功率器件，‌可以提升光伏逆变器的最大直流母线电压，‌进而提高光伏变电站的成本效益。‌这种技术的应用有助于面向大功率、‌高效率、‌小型化、‌低成本的光伏逆变器发展方向。‌例如，‌在1100V的直流系统中，‌功率级别一般在8kW—150kW之间，‌而100kW的低功率和中功率系统通常使用1200V和650V开关。‌随着光伏逆变器从1100V提升到1500V，‌功率器件的工作电压也随之提升，‌其中1700V的SiC MOSFET对应1500V直流母线的光伏逆变器产品。‌
 
@@ -105,7 +105,7 @@ Easy1B和2B模块量产以来，已广泛应用于多个领域。为了满足市
 
 太阳能系统‌：碳化硅Easy模块满足了对1500V DC-link太阳能系统与日俱增的需求，‌有助于提高太阳能系统的额定功率和能效。‌
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8puXdxzgicekSmIjfNKt9r2d3mLiabWAB1DcyiaEg0VXu3p39sDTBHm4L9hHJZrRReXOzLl3icOVrgA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_010_01ad1ec9e158.png)  
 
  电动汽车充电桩：‌Easy碳化硅模块在电动汽车充电桩中的应用也是其重要的应用领域之一。‌这种模块适用于高速开关应用，‌如电动汽车充电桩等，‌通过采用增强型技术提升性能，‌以满足市场对Easy模块的需求。‌英飞凌推出的1200VCoolSiC™ MOSFET M1HEasy模块系列就是一个例子，‌这些产品特别适用于光伏和电动汽车充电桩等高速开关应用2。‌
 
@@ -115,10 +115,10 @@ Easy1B和2B模块量产以来，已广泛应用于多个领域。为了满足市
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_011_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_012_a7ecee98ead9.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅Easy模块在光伏和储能系统以及充电桩等领域的应用_images\img_013_9bbc7b9b15a2.png)

@@ -16,9 +16,9 @@
 
 随着时间的推移，PCB 已经发展成为优化电子产品制造的工具。曾经很容易用手组装的东西很快就让位于需要机械精度和效率的微观组件。以下图所示的两块电路板为例。一个是 1960 年代制造的用于计算器的旧板。另一种是典型的高密度主板，您将在今天的计算机中看到。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDkvIPcIdqJ6yG6BtcZU0zjwhFSFGRGqZetH6eRqsPvuO3AvtEpADwFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_002_34fd764ab366.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDMIU43cI1fokS6dz6RXibglicO48SoChS80CgL1krfx9rBC8yoReBYehg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_003_17631b2ebb09.png)
 
 1968 年计算器与当今现代主板之间的 PCB 比较。（图 1 来源，图 2 来源）
 
@@ -33,7 +33,7 @@
 
 所有这些进步主要是由我们产品速度和功能的提高推动的。我们希望我们的设备能够立即响应，即使是几秒钟的延迟也会让我们陷入疯狂。对于功能，请考虑视频游戏。回到 80 年代，你很可能在街机玩吃豆人。现在我们正在看到现实的照片级真实表示。进步简直是疯了。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDmu1QGmy8icCMxSjxvdceVTz0MUpyCC7IFh1QAJ6QfsmtoWeTl3nEBmg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_004_2d45dcacf505.jpg)
 
 如今，视频游戏的视觉效果几乎是逼真的。
 
@@ -43,7 +43,7 @@
 
 我们在 60 年代结束了美国内战，现在美国的制造业正在蓬勃发展。在此期间，我们正在尽我们所能，从食物到衣服、家具和铁轨。运输业正在大举进攻，我们最伟大的工程师正在研究如何在 5 到 7 天而不是 5 到 7 个月内将某人从美国东海岸送到西海岸。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDTUkClW4QLo4xhaFjjzovzoFZ6WwFOBpQuEtfeKTv35tbrecsEV5Nlg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_005_c82b5278ab3c.jpg)
 
 铁路使从东海岸到西海岸的旅行只需几天而不是几个月。
 
@@ -51,7 +51,7 @@
 
 一个有趣的问题是，垄断石油市场的标准石油公司并没有为汽油供应石油。他们的市场是用于烹饪、煎炸和照明的油。随着电力的出现，标准石油公司需要为石油定义一个新的用途，这将随着汽车的推出而到来。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDp0UrrwOkLhso7K4qa1XOmlNibf2ShMaMhCAt7vjunFfecZ3H229VGfw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_006_660aaa4699fd.jpg)
 
 1878年5月标准石油公司发行股票，石油垄断开始。
 
@@ -72,13 +72,13 @@
 
 在这个激烈的创新时期，最大的争论之一是交流和直流之间的争论。特斯拉的交流电最终成为长距离电力传输的理想方法。然而，有趣的是，我们今天仍在处理 AC-DC 转换问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDRFoVAiaApKv2ZyVllT0kUWjxBAPdZRKweAO6p4ArC2zNu7Urrbf5gIw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_007_796a381d08c1.jpg)
 
 交流电可能赢得了这场战斗，但直流电仍然主导着电子产品。
 
 查看您插入墙上的任何电子设备，您需要将交流电转换为直流电。或者，如果您查看太阳能电池板所需的基础设施，它们以直流电产生电力，必须将其转换回交流电作为电源，然后再转换回直流电供我们的设备使用。你几乎可以说 AC-DC 的辩论从未结束，两个对立的想法之间刚刚达成了平衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDzDiavKztkJ3ku5vxVwVvk6Iy51A4NnicxoKrczq3mm4geRvpWhwyeLtw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_008_b27b3baac12c.jpg)
 
 太阳能电池板中的交流和直流之间有很多来回。
 
@@ -88,7 +88,7 @@
 
 进步时代的标志是社会改革时期，像《谢尔曼反托拉斯法》这样的立法打破了标准石油的垄断。这也是我们看到第一个PCB专利的时候。1903 年，德国发明家 Albert Hanson为一种装置申请了英国专利，该装置被描述为多层绝缘板上的扁平箔导体。听起来有点熟？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDQiag8eR1CCzYjJHhfqFAdMzB6nP9z6rxQXdibEsqIzfBPfrZSco04UvA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_009_b29285abd7a8.jpg)
 
 描绘了 Albert Hanson 获得的第一个 PCB 专利的图纸。
 
@@ -100,7 +100,7 @@
 
 我们要感谢Harvey Hubbel终于结束了这场混乱。1915 年，他为至今仍在使用的标准墙壁插座插头申请了专利。现在我们没有将烤面包机或加热板插入灯泡插座。这是行业标准化的巨大胜利。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDO0Y08VytYApYt39icic7cRPibOic4J9ZfoSAxhymudwXwMuv8MdGLpYdibg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_010_415a860153c4.jpg)
 
 多亏了 Harvey Hubbel，我们现在有了一个适用于所有电子设备的标准化壁装插座。
 
@@ -112,7 +112,7 @@
 
 这一时期最伟大的发明是亨利福特的汽车及其所需的基础设施。这种情况类似于 1990 年代，当时我们必须通过构建交换机、路由器和光缆来建立一个主要的基础设施来处理互联网和我们的信息时代。汽车也不例外。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtD5pDdgPnnLzG2Sjxqtwk6lkCc3TPQgW8WibrWH154jEK9kV5nV43YDJA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_011_283beb7f2399.jpg)
 
 亨利福特的第一辆车——四轮车。
 
@@ -122,7 +122,7 @@
 
 但是我们的多氯联苯在哪里？我们仍然没有看到它们用于在此期间推出的任何电器或汽车中。然而，在 1925 年，查尔斯·杜卡斯提交了一项专利，该专利描述了将导电油墨添加到绝缘材料中的过程。这将在后来产生印刷线路板 (PWB)。该专利是第一个类似于 PCB 的实际应用，但仅用作平面加热线圈。我们还没有得到电路板和组件之间的任何实际电气连接，但我们已经接近了。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDxytt7UQhfjXuZWMTbgdB3JwvNJI2zvpAWUj2oznpsEfh3AvicskCwxg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_012_753e1e66e5c1.jpg)
 
 PCB 不断发展，这次被用作 Charles Ducas 的加热线圈。
 
@@ -132,7 +132,7 @@ PCB 不断发展，这次被用作 Charles Ducas 的加热线圈。
 
 1929 年，股市暴跌，我们这个时代所有伟大的创新发明都一落千丈。在这里，我们看到失业率超过 25% 的时期，25,000 家银行倒闭，大量困难波及全球。对于整个人类来说，这是一段悲惨的时期，为希特勒、墨索里尼、斯大林的崛起以及我们未来的世界冲突铺平了道路。直到现在，多氯联苯可能一直保持沉默，但这一切都即将改变。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtD1hIiaaKVxY24Icm2yqAXsx5BuJ5TDTZYqSSnk3NAX9e2fyfOYUosSAA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_013_4ee4d327f96c.jpg)
 
 大萧条影响了每个人，从银行到普通工人。
 
@@ -142,7 +142,7 @@ PCB 不断发展，这次被用作 Charles Ducas 的加热线圈。
 
 第二次世界大战正在进行中，美国在 1942 年珍珠港爆炸事件后加入了战斗。珍珠港事件的有趣之处在于导致袭击的整个通信失败。美国有充分的证据表明危机迫在眉睫，但与他们在檀香山的军事基地的所有联系方式均未成功，因此该岛措手不及。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDwnQDmRn3jus8f1EK8YPibTE8qZZXUfPAD286SribvCk2ByaZ3Y17WwSg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_014_7ecac4b70acb.jpg)
 
 一艘在珍珠港袭击中失踪的战列舰。
 
@@ -150,13 +150,13 @@ PCB 不断发展，这次被用作 Charles Ducas 的加热线圈。
 
 也是在第二次世界大战期间，我们看到了我们今天在接近保险丝中首次使用 PCB。该装置用于高速炮弹，需要在天空或陆地上进行远距离精确射击。近距离引信最初是由英国人开发的，用于对抗希特勒军队的推进。后来与完善设计和制造的美国共享。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDSsCPXE6TOIjCFVzQBCzY0q3tqUxDpMLNqlsia0Ih1mIAXAKBdFxUWpw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_015_7f78bcfd2d75.jpg)
 
 最早使用 PCB 的军事应用之一——接近保险丝。
 
 在此期间，我们还有居住在英国的奥地利人Paul Eisler为非导电玻璃基底上的铜箔申请了专利。听起来有点熟？这是我们今天仍在使用的概念，用于制造顶部/底部带有绝缘层和铜的 PCB。艾斯勒在 1943 年用他的 PCB 制作了一台收音机，使这一想法更进一步，这将为未来的军事应用铺平道路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDDvdl2BTWMH0ACSU3pWI8mWnQTH1FRrhIkwX9tFQuWPPdDF9gEZS2Vw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_016_c7f09197b3b5.jpg)
 
 Paul Eisler 用第一块印刷电路板 (PCB) 制造的收音机。
 
@@ -166,13 +166,13 @@ Paul Eisler 用第一块印刷电路板 (PCB) 制造的收音机。
 
 我们仍然没有看到消费级 PCB。保罗·艾斯勒的作品在哪里？看看下面这台旧电视，你会看到所有的组件，但没有底层的 PCB 基础。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtD5UGY8icRf3libPqDiayc0zXa4Sy1f1NYHda1xEfb4Guh8VrU77EjicMTTg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_017_d910c91c53ac.jpg)
 
 一台 1948 年的旧摩托罗拉电视机，没有 PCB。
 
 尽管缺少 PCB，但我们确实在 1947 年看到了晶体管在贝尔实验室的到来。1953 年又过了六年，这个设备才最终用于产品，但为什么这么久呢？在那些日子里，信息是通过期刊、会议等传播的。在信息时代之前，信息的传播只是需要时间来传播。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtD9KfSicgibDUIHVyWuEIqpa44dpUyR1Tdemu1MRVenXAler3IvsMiaRguw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_018_e4e7f9b51eee.jpg)
 
 第一个晶体管，1947 年诞生于贝尔实验室。
 
@@ -191,7 +191,7 @@ Paul Eisler 用第一块印刷电路板 (PCB) 制造的收音机。
 -   1961 年派遣第一位宇航员尤里·加加林环绕地球  
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtD1icx3HYwvJu6j7icNs09AfhETQsqNwPw0TmFV572jb7gsbTKMzqaBUDA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_019_ebad87252971.jpg)
 
 俄罗斯于 1957 年发射的第一颗人造卫星 Sputnik。
 
@@ -201,13 +201,13 @@ Paul Eisler 用第一块印刷电路板 (PCB) 制造的收音机。
 
 所有这些都导致了历史上具有里程碑意义的时刻。1969年7月20日，美国第一人登上月球。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDXJGrnEWaFY9pke6ZibFEEG9BlibvicYNI7JfyeRz2kialBaJ6BOzsjokHw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_020_56857132a243.jpg)
 
 第一个登上月球的人，人类的历史性时刻。
 
 回到 PCB，1963 年，我们让Hazeltyne Corporation申请了第一个电镀通孔技术的专利。这将允许组件在 PCB 上紧密排列在一起，而无需担心交叉连接。我们还看到IBM 开发的表面贴装技术 (SMT)的引入。这些密集的组件在土星火箭助推器中首次得到实际应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDVibjuJ5MHzE1AvbQh7JUkyb6yz1biaJGaibP5H90GpyllKLfMDggSROuw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_021_b64fafb07989.jpg)
 
 1967年第一个通孔PCB技术专利。
 
@@ -215,7 +215,7 @@ Paul Eisler 用第一块印刷电路板 (PCB) 制造的收音机。
 
 70 年代为我们带来了第一个集成电路 (IC) 形式的微处理器。这最初是由德州仪器的 Jack Kilby 于 1958 年开发的。Kilby 是 TI 的新手，因此他对 IC 的创新想法在很大程度上是保密的。然而，当 TI 的高级工程师被派去参加为期一周的会议时，Kilby 留下来带着脑海中的想法奔跑。在这里，他在 TI 实验室开发了第一款 IC，而返回的工程师们都很喜欢它。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtD9gfVoUhCJmUa9boBEAU5an55B5YUdJw2iacvGsIhpaIXkvLSxPCIjmA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_022_fbd813510433.jpg)
 
 Jack Kilby 持有第一块集成电路。
 
@@ -225,13 +225,13 @@ Jack Kilby 持有第一块集成电路。
 
 数字时代带来了我们消费媒体的巨大变化，引入了个人设备，如光盘、VHS、相机、游戏机、随身听等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDDqSEBrz4N76csa1JUxCVicZcMu6rAC5RO2AXyROic5XrQ08nAcYRicGRw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_023_2d69cd562485.jpg)
 
 1980 年，Atari 视频游戏机让孩子的梦想成真。
 
 需要注意的是，PCB 仍然是用灯板和模板手工绘制的，但随后计算机和 EDA 出现了。在这里，我们看到像 Protel 和 EAGLE 这样的 EDA 软件彻底改变了我们设计和制造电子产品的方式。现在，我们可以将设计保存为 Gerber 文本文件，而不是 PCB 的照片，其坐标可以输入制造机械以生产 PCB。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDKy2Qx8A58BLomtG5JNUicDSr5znohJrg6ricrCaW4DWtQ76hW3kybkBQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_024_2291423c5be6.jpg)
 
 在 EDA 到来之前用胶带和聚酯薄膜绘制印刷电路板。
 
@@ -245,7 +245,7 @@ Jack Kilby 持有第一块集成电路。
 
 这也是一个像 0402 这样较小的组件封装使得电路板的手工焊接几乎不可能的时代。设计师现在住在他的 EDA 软件中，制造商负责物理生产和组装。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDMB6DyOUaqOXaXHCzP0dtDhZg8AIPqAP6KvRKLtwoZwqVkO0snP1FHxQicPrnpGdmEscjl6vhQ6pw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_是如何演变成今天的样子的__images/img_025_8dc74dbfc0d3.jpg)
 
 表面贴装元件从大到小。
 

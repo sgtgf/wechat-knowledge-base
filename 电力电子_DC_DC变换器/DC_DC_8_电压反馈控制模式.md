@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ouzGMUe0iZxi2Hw18-3EzQ](https://mp.weixin.qq.com/s/ouzGMUe0iZxi2Hw18-3EzQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8ZJ9bImHXUIVTxvarOicWlL3nNmdn4uibFK1m8ichKMcHBicyBrwwJ1pyZQ/640?wx_fmt=png)
+![](DC_DC_8_电压反馈控制模式_images/img_000_64e7204cafab.png)
 
 ___**_★★★_**______**_DC-DC-8---反馈控制模式_**______**_★★★_**___
 
@@ -11,7 +11,7 @@ _€1.电压模式VM_
 
 电压模式控制是最基本的控制方式，如_**图8-1**_通过反馈环路仅反馈输出电压，然后利用误差放大器将输出电压与基准电压比较后的电压差再与三角波进行比较（可以回看[DC-DC-2：降压型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485606&idx=1&sn=f725f35be77cc8999ac79e37bbe24b3f&chksm=c3354239f442cb2f0333a6b7caf7036d62f1b8091d16ed9b87161a61263f7a7fa0306f86cad0&scene=21#wechat_redirect)里的波形图），来确定PWM信号的脉冲宽度并控制输出电压。PWM通过将来自输出电压和参考电压的电压误差信号（VE）与恒定锯齿斜坡波形进行比较来产生。斜坡由来自振荡器的时钟信号启动。在固定斜坡幅度（VR）的情况下获得了良好的噪声容限性能，电压调节与输出电流无关。电压模式Err使用3型补偿，以支持外部补偿设备的各种输出滤波器组合。电压模式的使用需要固定、可预测的开关频率，当可能出现较大的输出负载变化时也很有用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJnaibbvK66gX5GJ9icsuZwTeN9WVejC8ib90MEDaN5MdSRbSSJ8ExRiay3pR0WnWoAp1fmG2PiajrkLQ/640?wx_fmt=png)
+![](DC_DC_8_电压反馈控制模式_images/img_001_d9bbced106b0.png)
 
 **_图8-1：电压控制拓扑_**
 
@@ -19,11 +19,11 @@ _€1.电压模式VM_
 
 虽然反馈控制环路简单仅仅监控输出的电压，但是只要输出电压不变动就无法响应，相位补偿复杂，需要增加超前补偿（RIN，CIN），内部滞后补偿（RFB，CFB）。负载变动太快会导致响应速度慢（输出电压发生变化，误差放大器的RC和时钟电路会把输出电压的变化延迟一段时间，再反馈到控制电路）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJnaibbvK66gX5GJ9icsuZwTMoQn1IS07xxYhPDpVtr1uk7L0rDBkPI7EIWVRRKOWNniczCqibMNGrKg/640?wx_fmt=png)
+![](DC_DC_8_电压反馈控制模式_images/img_002_facc9a8a5bb5.png)
 
 **_图8-2：电压模式控制环路_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJnaibbvK66gX5GJ9icsuZwTq2AvLpVlIF7xxHIMY6lEuoxLPjUtCTOLpav6vjstajmyfqFluKjNWQ/640?wx_fmt=png)
+![](DC_DC_8_电压反馈控制模式_images/img_003_38e8667fb232.png)
 
 **_图8-3：负载变动响应波形_**
 

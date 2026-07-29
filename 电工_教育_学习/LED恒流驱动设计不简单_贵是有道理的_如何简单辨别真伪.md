@@ -12,37 +12,37 @@
 
 LED恒流驱动电路的输入电源必须为**直流电**，**图1和图2**提供了两种交流转直流的方法。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W7HicvSL5mwKOzuHN8plbsWy6EKuaPge7P8J9yYUAUbf7d22n98yIhgOA/640?wx_fmt=png&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_002_c82366975a8b.png)
 
 图1：利用变压器+整流得到低压直流
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W7lJMxbNKhqQQjHUtfnFCMiashBr0mc29ZecOPou0tlZ5jDEZmicx1Gd5w/640?wx_fmt=png&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_003_663b9d30d137.png)
 
 图2：利用开关电源得到低压直流
 
 本期以LM3409芯片为例讲解LED恒流驱动的设计，在LM3409的数据手册里没有单灯珠的例子；因为产品需要，于是设计出如**图3**所示的**单灯珠（3A/10W）的恒流驱动电路**。MOS管采用的是P沟道的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W7fcKZhCp0zibCzjSpeEALeQ5SiaZT0LoXDYS6771Iqs9IN7O696XXpGibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_004_e3173c0b8640.png)
 
 图3：基于LM3409的LED恒流驱动电路
 
 **图4、图5、图6**为完整的计算过程。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W78JqhXlS6604wf96QmMZ9rfVnuJBm0KExFLskiaHoyBujmbpAKcvVqug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_005_8858dee20bf4.png)
 
 图4
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W7zBDKKySFAKxicYBMUdnZvtiaOf1YNT4A9CRRW7mic8t3v7pqJNd9HFzibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_006_bf0ade7c5ddc.png)
 
 图5
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W72grfd75bDd1fZk9icCjibHic8xX2vOhNCBzDDU95kc8Wo5ciaRa544qhiaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_007_6b9f43d91ac8.png)
 
 图6
 
 图7为实物调试，万用表显示的电流为1.9A。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W7W5EKKicXpexjnEo8dPnFq0o3dejCw5ZgTF1snKA35ytgZHp6jEh9Hbg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_008_cc2aebb08b2e.png)
 
 图7：实物调试
 
@@ -60,13 +60,13 @@ LED恒流驱动电路的输入电源必须为**直流电**，**图1和图2**提�
 
 ⑥COFF的输入内部是一个振荡器，振荡频率由COFF端的电阻电容充放电时间决定。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W7mssxOQkGISnXNnILqfDsgorKZRIqocpeiaib5U39rfQXFHPKAicYQ4YBw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_009_ba52f34021d7.png)
 
 图8：LM3409芯片框图
 
 **图9**是带铜基板的LED灯珠，铜基板必须安装在散热器上（涂上导热硅脂）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nJjpKuusmcuClQ3iaLVW4LesYWCUz5W7eU61ajOjKicketxf8Guiazicp7PDupYJveCL6ZxQIjRPPJZR0O9iaNaMCQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_010_cfe2e261c5fb.jpg)
 
 图9：3A/10W的LED灯珠
 
@@ -78,9 +78,9 @@ LED恒流驱动电路的输入电源必须为**直流电**，**图1和图2**提�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_011_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_012_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_013_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_014_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_015_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_016_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_017_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_018_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_019_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_020_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_021_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_022_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_023_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_024_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_025_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\LED恒流驱动设计不简单_贵是有道理的_如何简单辨别真伪_images\img_026_3c93e54afedf.gif)
 
 ## 
 

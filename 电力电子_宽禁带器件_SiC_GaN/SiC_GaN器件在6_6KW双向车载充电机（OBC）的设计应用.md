@@ -6,7 +6,7 @@
 
 前言：SiC（碳化硅）和 GaN（氮化镓）作为宽带隙半导体材料，凭借其优异的物理特性，在功率器件领域展现出显著优势，推动了多个行业的技术革新。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8ghEGXdbbj5I18H072SYEGyYgULUNMXpJh56IeTMIllOmeyAU6r6pcib0hh7rzNRvtlTZsvBAenA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_000_97108b161122.png)
 
 SiC在高压、高温和成熟技术方面表现出色，而GaN则在高频、低成本和快速研发方面具有优势。这些性能优势使得SiC和GaN功率器件在各种新兴应用市场中具有广阔的前景，包括新能源汽车、光伏、机车牵引、智能电网、节能家电和通信射频等领域。随着技术的不断进步，SiC和GaN功率器件将继续推动电力电子行业的创新和发展。
 
@@ -39,93 +39,93 @@ SiC在高压、高温和成熟技术方面表现出色，而GaN则在高频、�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBopT3LwGGEP9ohxjtOsrI2kved83nqA0OWfDIu8laajZicT4mspmTfzg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_001_f0ad3dcab7c8.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBOCWVv1pSBzO9EsogU2QSU7vPSau4ctDmYBPndWXsxUzvdbFnJnibg0Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_002_f3bca5964d12.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBIibOHSsRqL9ZUk2SFgx5Wia51clHhtYBoq4DQeRKG0QKS9pMa46TCfaQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_003_93d188886395.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBQh5kJjoxVUicKQyTwGsaicvVHfoWyt1GgrAHmYFpsfTkcYxz68xmx71Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_004_acbdd9f8d3f0.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBVK034kricyk3qjBqyYhKW7tnoeibMIlclN3wAm2Yao7iaY3DtRIkYwLjQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_005_2cfd16bdfae2.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oB84ygapOIkicicHyAeribAnlVfEkdjZaM6o5OjFiajfQaiaJEjQy3G2M9ySw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_006_8f83c31619fa.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBpZaDOrdxVFlpGyC7PuQCcz80N8jt4ajHgJXsXrYsz2vAp6icaTbryIA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_007_1de6264fd465.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBBVlzLwkQvYVL6eYp0u7FjVxqdARHTKHXDKQiaeUHF8CtNb3OdmLIZHg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_008_da17587ed2b0.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBEGCXYHbemq5pm1ibhwsva3InNxNGL7XUhU98gianra3AKgCnemJtOt3A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_009_85711c39a0d7.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBP2s04IIDxLhnTHFicsb9b1vQgClhIibYqmiaeBiaha7GFVE2JEbBNKvibWQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_010_8ff3b370ec7f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBr1ibZIl8k00ZSW6icrBLXJTap9FQKMobZhboIgkLGCl49Q9rKenkeib7Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_011_df690f4c402d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBibffic6VhxW4yKvolkgcmop3BdicQUfJhSJbVR6LcU19xOf7weTZAk8dQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_012_0b4507796ae5.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oB3ibCBsPp6iaK4QPBqribSAm2hNibMJKpOibgKib1QfVia2dDyU2mN4Fqb0cZw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_013_8484414e8afb.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBBuv3w9ovYbAJt6obbXFfyrFCw8YhpicJCzsicuQZzGPiauT22jC8reDvw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_014_32a5cab92db0.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBesE088RSOmQXewKJnJhsWj2Fibz1I28pJiccJTP8iajwPefIQu86rr84Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_015_3ed0b1279032.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBiaJNu23mLXJG8r2e1dicc712GFicqDk0uuTKWMib4sCoCE5ia2vtO3vbL5Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_016_fb1d298148c6.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBTscY3X5TIe9ticotG4XJRrpgRU5pEghibe5vOGuCQ4AMn6ibPQlibg7Uicw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_017_4031d7b33edf.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBBfpmv2MBg843pcECQ6SVjFxQsKDID7R0W8HymjtSRwDN3ylsiaCsKew/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_018_607301360ad3.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBUfF0nnRYPaQWKjswfDk6PxeQdFVOfBoxt9N4plWRml4z2239ZsZPPg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_019_14e7dca2b41d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBEL0ibyzG3WJmbgnYwkrc3X20IrichL5jjuVlLj7V4DnmcN2ADJBV6Ficw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_020_c148726b72f7.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBZQxGibWQLPcgibxElV1Y5CAF1uzfgAL8tjjd6DX91rq2yf0QNgYeBibicA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_021_18bbeead2a38.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBMq9giclsv67QlwKNXZyPsmeWeJqmrCXzBNiaKZ7XpBiaQf6ImtlR4jFRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_022_603d351b7c79.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBWibvfxKCUWD21uGPzxKO0Nm0QqgvqOwn1u7BpdWMjImmVic60oMMUYnw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_023_f4920b89cf22.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBy8wFLpwMkQicCmpVmQqcedsqQFRRYcrsLpmgaT04mfqiaSnNqHC0kYibg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_024_a84b3d77d4e2.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBGHrTMlxapS6U0S2DUESicUK53GBWBMpGG9UFolemqjmdRMWLjrzj3Gw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_025_edd7a0645d7c.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBzrORhAxdB9Fh3w4x7BBjZxWFTYurgFQ4gr6cu6EoXWslpvjWrJGHWg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_026_943be060eb2e.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBibeQCR1rFshvSo3z7ibddU1Zepx0BVFKQ783naCBib3JAUIwn7Pt3oYcQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_027_4953ca0c60ce.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBtblNiaxHDM0hfaFvKk5Txwen9A1M3R2Svs9yy7s5kc129VaLF0kurQg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_028_ebe23524328d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBibP140mlrwJP72BicRl7qX4KJ1QNcj6JbibWibMuxBqib6icaenJ2M0qicBMA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_029_2a5b813981ba.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oB9icIZMw2Ta8zFqHtibplSzAMbVTIp5WX5vrBs8CoC8N6zQGSkL5BBdNw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_030_0427ceae955b.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oB3bd7rdkEDV5cCBPKxyG2ygJXK9l6LU9BdJibhBj5wsnQGmia1jia7d4Qg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_031_5561727bf066.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBv4nO7hcOn877VfhSYlhtkiaeot5ZyxS7ic9A0cbDicE2yGcFr2chsSbMg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_032_1a0022ae3bac.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBZRuwngLMWIm3hYgNBg5owXqQeLvNEsRhur6vbnKY7JGb8GuYqCpbKQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_033_cd39b453da2c.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oB7xkAXtVtx9prJ0Cslcia6iahu97KMf4KblXErgDMa5n2xr1AwlLHQZLQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images\img_000_ba37c562be4f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBY0onGFiayictpZW13S0YWpdZcxBoRlUWJ1G781fR9pH96bOvterkbqKw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_035_bf0add4178f1.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBlunrqUoVfcU6VY4F3SzWLXosZvUlxyztTHiaKPViamk310ficuShrRsVg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_036_90eb72c99779.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBeI5b419aMV0U3SSDoXzjfLhnJGCaGAXvrQHZKe1vUrC5BKJ1OIuVNw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_037_063970bd4537.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBycnor7y1uxic6xj82YthseWtf1SfJKKEkBtk87hQh6GKte6odcyeOJA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_038_8ee724a31239.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oB8UP9wkMMtYj8OhTkaEiaXHW86UscCFxPv8BqHI8x5MdhG7eIib3gtndw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_039_8a9e97be9788.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBIhdghdyM7wotVTPic3w4zBpAmyGwxYZxKSMfia2l9uHXsRWvfLzR528A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_040_1d9882419210.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBQEF5fqWEdW98yYKRNZ8zZmic9rVQRRou3nQHBXmHqwAlSNzbKmiale1w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_041_8afb6ada34d0.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBW6JBjK5SSdy6myNPoVI8eTS0NbpzmIEYYHv8QsmCnfH474TfIb8QnQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_042_c0c05b2b6465.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBqphxpuQJcTEpU2YgN23Mib52UvDtR9BOKlPia0g8DXA1qh0cc1MQyZYw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_043_c5325ec1d0e5.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnVick0jy4wrib0K5tnibsq7oBxFj0eZ7z1olM0XicjRVkqyQxp2bpibE9X8HlFyN0K5Dc9KseaYFpnTvw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_044_df54d41f2a58.png)
 
 # SiC（碳化硅）和GaN（氮化镓）宽带隙功率器件的应用领域
 
@@ -219,13 +219,13 @@ SiC和GaN作为两种宽带隙半导体材料，各自具有独特的性能优�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbhtiaRmYHTp4bDWkMosreWEkStrP0Cg41Vm84LnHXyNzX5oT80mzweicA/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_045_1fefb9f77e8f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGboharT27juBiadHBOIA4TcgxwHsqNQeRHbBSFaTsnT8DZEsFVB7Mh71A/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_046_2eb3ebdc7460.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGby1ADIqA7dRFfffghDzG9l5QkG9EE78A5k4JxgWOoSER53hFAhCOpNw/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_GaN器件在6_6KW双向车载充电机（OBC）的设计应用_images/img_047_bac2258f72cc.png)

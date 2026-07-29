@@ -39,30 +39,30 @@
 [10种封装的国产碳化硅(SiC)功率模块产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506538&idx=1&sn=4a8539ec965684adb8780f52e80b723b&scene=142#wechat_redirect)  
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=142#wechat_redirect)
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqqqC4ibzLwBxFEb778kkACaR8oWkEDvhc8brAw0HTR0iaibcuk3Cf0v5vujzn61ho6brwkavFkicBkQ/0?wx_fmt=png&from=appmsg)
+![图1](10月上新合集_SiC_MOSFET_碳化硅模块_images/img_000_74432f1bd236.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqqqC4ibzLwBxFEb778kkACItG8MRTsEdqn43eO8fiaYLICWJlzuMKXlibcTb4hMkrhfspBzHXobMqg/0?wx_fmt=png&from=appmsg)
+![图2](10月上新合集_SiC_MOSFET_碳化硅模块_images/img_001_2c96b9604d74.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqqqC4ibzLwBxFEb778kkAC20CVKO8cs5E3Q4MXMppLMJicoclT2raj8qvC6U7nO9KbiclPoC4icXGCA/0?wx_fmt=png&from=appmsg)
+![图3](10月上新合集_SiC_MOSFET_碳化硅模块_images/img_002_355d3265853f.png)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqqqC4ibzLwBxFEb778kkACibiaNwq1ASvuYqSIiboGEqWPvTYic18XcoD3icCzAa8VXt0EKiaep2yQu0Mg/0?wx_fmt=png&from=appmsg)
+![图4](10月上新合集_SiC_MOSFET_碳化硅模块_images/img_003_536674f4caad.png)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqqqC4ibzLwBxFEb778kkACLNf0iaojYe4ykC0icXa6fWKtlVyCCFTJxmJhWGnV4gvibjpbrQicpsLhXQ/0?wx_fmt=png&from=appmsg)
+![图5](10月上新合集_SiC_MOSFET_碳化硅模块_images/img_004_6f97c1ce56dc.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqqqC4ibzLwBxFEb778kkACIM327V32KQERPz1rF6ibHVMCb0wwU0T94DE4vfvRn5hGpzficAicWsowA/0?wx_fmt=png&from=appmsg)
+![图6](10月上新合集_SiC_MOSFET_碳化硅模块_images/img_005_3875b6395bad.png)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqqqC4ibzLwBxFEb778kkACo9Mc0sQhLXUe2BfSKmMWuMg7ic2oVWib6mXcxgD1APTs6mkBZ1MmgmFw/0?wx_fmt=png&from=appmsg)
+![图7](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\10月上新合集_SiC_MOSFET_碳化硅模块_images\img_000_bff109534844.png)
 
 图7

@@ -16,9 +16,9 @@
 
 2、有硬件工程师已跑路，准备转行跑外卖，吃饭的家伙都不要了，在群里大甩卖示波器，万用表，电烙铁，热风枪等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgn9njKo6DL5RJic5gic6DQqhu1hHDybxOmDL6GPo81bCn22ib9evnZAaQBMcjdQDyWicJ1Kicmn3ialMWg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_002_7da97ddc6b98.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgn9njKo6DL5RJic5gic6DQqh7cZQDia6DuAxj1zJqnabZuNITqwsaUg7ibajyxkpp33yiafqdrGDXPbfw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_003_164026f7e426.jpg)
 
 AI很强大，咱们工程师会不会被AI取代？何以稳定军心？咱们行业的出路和方向在哪？王工结合自己的经历，谈谈个人的一些看法。
 
@@ -34,7 +34,7 @@ AI很强大，咱们工程师会不会被AI取代？何以稳定军心？咱们�
 
 最近，深圳的人形机器人辅助警察上街“巡逻”、基于DeepSeek开发的“AI数智员工”也开始辅助政务工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg6Yv85B0d5d61mfhSOo6ESDWh4a23nAATDbouYVObrHk6NWQ8IqBvAcRNK0LsGyicNx9bzRqKo3KQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_004_aa51eb9bee30.png)
 
 这是真正的AI机器人，已经走进我们的现实生活。
 
@@ -46,7 +46,7 @@ AI很强大，咱们工程师会不会被AI取代？何以稳定军心？咱们�
 
 近日，国际电工委员会（IEC）正式发布**由我国牵头制定的养老机器人国际标准（IEC 63310《互联家庭环境下使用的主动辅助生活机器人性能准则》）**。该项标准依据老年人生理和行为特点，为各类养老机器人的产品设计、制造、测试和认证等提供基准，将引领全球养老机器人产业健康发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg6Yv85B0d5d61mfhSOo6ES0BT4KawzOXTNI2xRK8ziciakjQTBHq9ib5tBA2q02RvfZzjCCqkmg9Qog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_005_dfea5a81d4e3.png)
 
 中国乃至全球，人口老龄化加重，如何让老年人更好的被照顾是一个社会课题。养老机器人能大大减轻社会和家庭对老人照顾的负担，让老年人有尊严的独立居家高质量生活。
 
@@ -56,7 +56,7 @@ AI很强大，咱们工程师会不会被AI取代？何以稳定军心？咱们�
 
 AI也能帮助我们搜集一些简单的素材，写工作汇报或者PPT，极大的提高了我们的工作效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg6Yv85B0d5d61mfhSOo6ESmv7WBN3KbF1Aw2icbibUhRic0Grz0342co2nWDtMX8iatibK6ibYXxej3V4Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_006_00d65025f4ba.jpg)
 
   
 
@@ -123,7 +123,7 @@ AI也能帮助我们搜集一些简单的素材，写工作汇报或者PPT，极
 
 你以为这就完了？硬件工程师还要对接采购，工艺，生产，售后。总之，产品从设计到出货，你的项目有问题就会找到你。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgTDcA3wvHBwrNgSBdtgsX3WK7e0ic5JdSQtD3iaDTAy2M5FednJq11WHU9wKsU92mqkupviaG128icHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_007_887f205c490e.png)
 
 大公司分的很细，就像我上面描述的，小公司可能一个人把硬件，PCB，软件，结构，认证，测试都给干完了。  
 
@@ -202,19 +202,19 @@ AI也能帮助我们搜集一些简单的素材，写工作汇报或者PPT，极
 
 以上只列举了部分公司，活动非常有意义，我建议大家有时间的话都尽量去现场看一看。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/MVPvEL7Qg0FeQibDn9PJLfBP6LLNIn2vLyp80ibn97V2HnZwb9UK9TKaOVPF4EDFvgG67qMrBWAbAO1kRnqcia3oQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_008_7d2fbd9b0e0e.png)
 
 **活动日程**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/MVPvEL7Qg0FeQibDn9PJLfBP6LLNIn2vLyp80ibn97V2HnZwb9UK9TKaOVPF4EDFvgG67qMrBWAbAO1kRnqcia3oQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_009_7d2fbd9b0e0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgTDcA3wvHBwrNgSBdtgsX3BSbumX2eI09AVMoLWMuE1gZvmYlXD81IGWQs6KLmw6M2p23dBPUQsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_010_da1196cf7193.png)
 
   
 
 我特意为**咱们公众号硬件笔记本的粉丝申请了100个名额**，可点击如下资料免费报名，里面详细说明了**会议时间**，**地****点及****主题**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhZLapyzmeCSUAVy27BvoeNKiawXvUdB7MmU7o2pmH0ib2bt3ZJTC3XYtcNSxjMOLibhyHJDA9Sh6gAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_011_195003f13029.png)
 
 扫码免费预登记
 
@@ -224,7 +224,7 @@ AI也能帮助我们搜集一些简单的素材，写工作汇报或者PPT，极
 
 **还有机会参与以下礼品的赠送**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbG148ibV6qF58ibutjzJw80fv3BkDXV3uWTMqW6WEuUQdPeSUfnY4ymvZg79PiaShxx8SCa5icftjcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_012_e548481d19da.png)
 
 -   小米智能摄像机
     
@@ -293,9 +293,9 @@ https://mp.weixin.qq.com/s/A0xUHgxmXEmQEog19-FAwQ
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_013_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_行业资讯\技术群里的小伙伴们忧心忡忡__AI技术飞速发展_真的会取代硬件工程师吗__images\img_014_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

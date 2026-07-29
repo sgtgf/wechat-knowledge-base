@@ -45,4 +45,4 @@
 
   推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1&random=0.37045841736508&random=0.7879705548228597&random=0.9882141539371987&random=0.04896917259863631)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\为何众多计算力学软件尚未拥抱GPU加速__images\img_000_c6bfc0688551.jpg)

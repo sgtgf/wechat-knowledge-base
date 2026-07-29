@@ -10,7 +10,7 @@
 
 HDMI一般指高清视频接口，目前应用于机顶盒、电视、笔记本电脑、游戏主机、综合扩大机、数字音响等设备。HDMI是一种数字化视频及音频接口技术，可以同时传送音频和影像信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjabSYhFt6MXicmzrDzd7kibdLibVY7rmAg2picgHE9YT518cBzMR55mvykOFicnaqXKAcDKNf2nWhwVtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\HDMI接口的EMC设计_images\img_002_7f65a6d42140.png)
 
   
 
@@ -72,7 +72,7 @@ EFT（快速瞬变脉冲群）
 
 典型的HDMI EMC设计电路（图1）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaiaLDlQlnyPeETPqD0vGCnluDZMKWorADbTyicyTnzqYXmA96kibKODKapt0M4M7iawm2Y1rgKpbAHog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\HDMI接口的EMC设计_images\img_003_ce06b137c773.png)
 
 图1
 

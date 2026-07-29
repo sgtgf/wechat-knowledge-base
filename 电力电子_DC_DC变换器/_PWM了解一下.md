@@ -32,7 +32,7 @@ T=1/f，T是周期，f是频率。
 
  一个周期的长度，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPHsXeSAuLW7Y1H22T6ia0iaYzib78avKOcAxu757N7lfLAaKxeMxwK8YCfLq6FBhLtF8GmJzwQE49w/640?wx_fmt=png) 
+![](_PWM了解一下_images/img_002_65b4f397b2c4.png) 
 
 其中，周期是一个脉冲信号的时间，1s内的周期T次数等于频率f，脉宽时间是指高电平时间。
 
@@ -66,7 +66,7 @@ PWM就是脉冲宽度调制，通过调节占空比就可以调节脉冲宽度�
 
 比方说，占空比为50%那就是高电平时间一半，低电平时间一半。在一定的频率下，就可以得到模拟的2.5V输出电压。那么75%的占空比，得到的电压就是3.75V，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPHsXeSAuLW7Y1H22T6ia0iawnEKS6lQNzVHagVsfQt7GZxGmMHVG80LMTXJ0LFLvQDLiaLaprCHpbg/640?wx_fmt=png)
+![](_PWM了解一下_images/img_003_def5aac8db7d.png)
 
   
 
@@ -130,7 +130,7 @@ PWM就是脉冲宽度调制，通过调节占空比就可以调节脉冲宽度�
 
 下图演示占空比从1ms变化到2ms时，转角的变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/K9mVOHgVt7yCyzO6FjkeldAnTaeDlAHO3tF9onyta4ZddGrHKWb7KxupqpCR0o1s33J63xtVtXKVM3X8OLgNsA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](_PWM了解一下_images/img_004_f3a4a35b5859.gif)
 
 ## 
 

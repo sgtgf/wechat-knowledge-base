@@ -12,7 +12,7 @@
 
 文末附PDF文档手册的下载方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPY0kuIVpRM2X1Up9RoECbtaKkOpIicI2Pib4wqzXhaud1TRMafQuKPF1iayS38IlI4ialFKbuRR5g2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_002_35eabfbe7acd.png)
 
 说到数据转换器，其实就是咱们经常打交道的ADC（模数转换器）和DAC（数模转换器）。这俩可是嵌入式软硬件设计里的"老熟人"了，从传感器测量到工业控制，再到音频处理，几乎所有的电子系统都离不开它们。这本手册最大的价值在于，它把复杂的电路设计拆解成了像"烹饪食谱"一样的步骤——每个电路都有明确的设计说明、详细的实现步骤，甚至连仿真波形都给你准备好了。  
 
@@ -24,7 +24,7 @@ ADC部分包含五大实战章节：
 
 1、低功耗/成本优化型电路：特别适合对功耗有要求的产品，应用场景包括PIR传感器，气体传感器，和血糖监测仪以及其它场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJibYKajnnESJROgl3NkG3vKJGs1FjibpzHtQLT5ibjCdh5pul7icP5Y9diaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_003_e2692a32d7d9.png)
 
   
 
@@ -32,7 +32,7 @@ ADC部分包含五大实战章节：
 
 比如文章举例高电压电池监控器电路，将±20V的双极性输入信号转换为 ±4.8V的全差分 ADC 差分输入量程，该量程值在放大器的输出线性运行范围内。咱们可以调整组件选择部分的值以允许不同的输入电压电平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJlIRY5RGScwOVvEhXbl8M6q66F7JicU6HyXBSr5cAoicicv3V0rjrEL7DQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_004_6baf3e260a89.png)
 
   
 
@@ -42,13 +42,13 @@ ADC部分包含五大实战章节：
 
 4、输入保护、滤波和隔离电路：工业环境必备的一些保护电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJlOIPI0HNosMk05pmWxDUCiabImY7iaX3es4ByoVia5YUtYV9HIn2NZAfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_005_e346d474a999.png)
 
   
 
 5、常用的辅助电路：那些不起眼但关键时刻能救场的实用技巧。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJbfsyMicoicew65icS6jfKsLVBOfKz12SBdFsTEKEvQMQwkE7nfryvx6nA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_006_0da0465ced0d.png)
 
   
 
@@ -64,7 +64,7 @@ DAC部分则聚焦四大应用场景：
 
 4、电压源：系统供电的优化方案
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJgO9CBAatvbUhdIicm2ZEgTsvHrwwqiaDgB9LD9PQ2D8eZj9hz6RwIaWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_007_81011aa5fd45.png)
 
   
 
@@ -74,19 +74,19 @@ DAC部分则聚焦四大应用场景：
 
 文中举例，比如说输入一个信号在-8mv到+22mv的信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJPDRn7hicEQoLIIO3YvEKSe1nY0ia6yMmiawU7CQxXAW3r1CS8PYoHeLIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_008_7474689e0dae.png)
 
 设计说明
 
 讲了仪表放大器针对低噪声、低失调电压、低漂移、高 CMRR 和高精度进行了优化，但这些仪表放大器可能无法驱动精密 ADC，以在 ADC 采集期间正确地使信号趋稳。然后提出了解决方案参考电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJng0WibjX2vCibwa9gjZ8DfMAhTtlPK7fxtFG6l1uax1Be6RNOcV3TRfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_009_c319ff862135.png)
 
   
 
 使用仪表放大器的共模输入范围计算器 确定 INA826 是否超出共模范围。下图中的共模计算器指示对于0V 共模输入，输出摆幅为 ±14.9V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJTIQmn55G3wjTJe6Lk6TID2bkrxjnguk4lX3T9N2TNicQtBbMia3PTUicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_010_2c0bbd16138c.png)
 
   
 
@@ -94,31 +94,31 @@ DAC部分则聚焦四大应用场景：
 
 直流输出特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJDdKnfSFuWDKLHbrPOYhLBLnSAbhUyqPI13pw8xya8yXNkpibKSFA1xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_011_54930bbac04b.png)
 
   
 
 交流传输特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJ9X3OP1z0Ajnm7vH0gVFZPSRP0LnkzKga1LMdMxXtibrhQiccEmNFj3WQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_012_0069098c3e31.png)
 
   
 
 瞬态 ADC 输入趋稳仿真 (510kSPS)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJIDSibG0oUF1iaVzdnj9Bu3fQPX5BHdLibAeW88kJCNYicpDSxGK9saskpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_013_54dfb2d336ae.png)
 
   
 
 噪声仿真
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJ6qwU0lt8LuqvNILndzl7GON9kxTSxxOLNhdzosW3b3VlEf6tENBoVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_014_b7ea2bee21a0.png)
 
   
 
 最后对增益误差和失调电压进行了估算，对器件特性进行了总结。并给出来电路的源文件地址。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJIqC1OEr9ADAAfQ4SgFFa3ZicL6RpDGIGia0vYJ1M8a0TbKPxtZ1jk5Bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_015_a46c06061249.png)
 
   
 
@@ -126,13 +126,13 @@ DAC部分则聚焦四大应用场景：
 
 再举个例子，当你需要设计一个热电偶采集电路时，可以直接翻到"具有内部温度传感器 CJC 的双通道 K 型热电偶测量电路"章节
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJAwopUsAibI8MibZKLu66E1lbq7IAJeaqVF3icBxfMBIrK1W3s2PBo0tBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_016_fa57d360c060.png)
 
   
 
 找到对应的电路模板
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJdTyH7eaYN8C1YAFhDdnNsl2DmVQERWzVadxV97OTk4jLoXVcicpu0NA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_017_2e238e0aa484.png)
 
   
 
@@ -144,7 +144,7 @@ DAC部分则聚焦四大应用场景：
 
 3、设置电阻器偏置以建立输入直流电平和烧毁检测。这里对各参数以及计算，讲的特别详细。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJHbDPP2makYiaDhKr2oC3KlI8KYATHicEgwTp8E5a6O22hwBoGvGruZjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_018_30a527235279.png)
 
 还有其它计算以及流程图，测量转换寄存器设置，伪代码示例，选用器件的介绍，链接详情都备注好了，非常非常详细。这种"开箱即用"的设计参考，能帮我们省下大量调试时间。
 
@@ -176,11 +176,11 @@ TI这份手册最大的价值，就是帮我们在这些矛盾中快速找到最
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgs4dtqrwYddKmibTZz6kSrJyh6y0yicWwd4ZaaocBjCRphlBLia3TGQEZd3PeVYjS7mPVM8AJwVjp8A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_019_c00162480e9b.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjPY0kuIVpRM2X1Up9RoECbq4WmQHCstMb7QrzibicM1XNsOniasicoicC9rM4E7UfjwfQpTgic1suqBP3g/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=xfjdw7c5&tp=webp)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjPY0kuIVpRM2X1Up9RoECbT5rdqHIzibF5GmkFXcJ016iauR6nVJLf37Vcg82WufXQ25OBFAwV3NGQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=ym6f90oc&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_020_49fa97859e41.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\TI电路设计指导手册_数据转换器_images\img_021_aad236590412.jpg)
 
 ## 
 

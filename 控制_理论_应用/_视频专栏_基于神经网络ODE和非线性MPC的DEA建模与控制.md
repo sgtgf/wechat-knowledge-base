@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/-i6VR4RM-MK7ES3JwyOZKw](https://mp.weixin.qq.com/s/-i6VR4RM-MK7ES3JwyOZKw)
 
-# ![图片](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH2D35J4LUGZKibQ6Kkg5JxDkI3zOp1DhWJClEvEGMLJXTETVSJYjXcxktqnztKtociaAvqqiaN5VLGvg/640?wx_fmt=png&wxfrom=10005&wx_lazy=1&wx_co=1&tp=webp#imgIndex=0)
+# ![图片](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_000_8948a0c91c44.png)
 
 点击上方**蓝字**关注我们
 
@@ -20,7 +20,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/vBfohmoVxVRzwe9J1PGQ1TicPKWia9NDialBLmlicXNtHibeibvp3XeNVWXP8ydrvCb7zPS3RsyS3JnRxp5ibbC8VjBsTDJib9gviaNtKINwqWpEEzia4/640?wx_fmt=png&from=appmsg)
+![](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_001_e59fae06eb49.png)
 
 **摘要**
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/vBfohmoVxVQice5Jb3FgmMnLZ1iaZnB1iakzUa7Y4Mb3Uuicz7n8WYtqTS61vzcibM1Z9V9g4icHibsHJy3MrTlPpkbeOAKLaJWJjzBtgoew2AEbBU/640?wx_fmt=png&from=appmsg)
+![](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_002_f0e92c6fa8da.png)
 
 **引言**
 
@@ -78,7 +78,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/mmecoa_png/vBfohmoVxVR09vDUhpjAYoSf2RWtlKoudcyMCMKfAXM2Jib3CVI1Lyze2jsiatGeI4GaQyTzRoeDPX4STX675LibM1qmtJQAUmhUXemMLf6Amg/640?wx_fmt=png&from=appmsg)
+![](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_003_a11b357fe345.png)
 
 **正文框架**
 
@@ -114,7 +114,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/mmecoa_png/vBfohmoVxVQaJyulzBDbgNZPDvibuvv0zvqkKr5aZwdicYQPpLibcHbAGxgfzssibsY92yM8GoKzOQ85q7b8KHiapd6ic8rF3iaXf9Q1pwwbibePRB8/640?wx_fmt=png&from=appmsg)
+![](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_004_de355551dd53.png)
 
 **参考文献（部分）**
 
@@ -182,7 +182,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/mmecoa_png/vBfohmoVxVSB8z290SXLicPMaRHXMZBKgX2XfZBv0B5IcHg1c7w7ricia7rbGF1JTYf4N6JuCcaiammbicU9rFtDVyXEXQhm4zSiaVo3zy2ETZw1A/640?wx_fmt=png&from=appmsg)
+![](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_005_5405fdcc8249.png)
 
 **作者简介**
 
@@ -358,15 +358,15 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp#imgIndex=10)
+![图片](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_006_39c59cfe04ef.gif)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp#imgIndex=11)
+![图片](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_007_7f5a0c3f7d79.gif)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafXj5OHBUy7QPVp2aHenUdtEzbIP3uxk1ZQKCv6EkiaibIgpsosdF2WUWg/640?wx_fmt=other&wxfrom=10005&wx_lazy=1&wx_co=1&tp=webp#imgIndex=12)
+![图片](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_008_90d2bbd78d0a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_009_961df520a0b4.gif)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](_视频专栏_基于神经网络ODE和非线性MPC的DEA建模与控制_images/img_010_0d99530280fc.gif)
 
 **长按二维码｜关注我们**
 

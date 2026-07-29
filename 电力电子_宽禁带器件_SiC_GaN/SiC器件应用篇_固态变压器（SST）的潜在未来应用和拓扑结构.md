@@ -8,163 +8,163 @@
 
 作者：J. W. Kolar & J. E. Huber（Swiss Federal Institute of Technology (ETH) Zurich Power Electronic Systems Laboratory）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuhnsEJhr4XE7Zn1ucSCUpPiaNicHxwfWgOGYqLib75xD7w53ia5Q04aP5Vg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_000_95eda1e7f026.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuxIFRTibPXsx4ZYngKQ9CribmiaPvVudJDjesM74IKtLd93Bib9PJLjMQ1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_001_062642c17285.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuEib4ccziclicgkK2uPCHGiczXB6zgp1h8OasiaYcHPk9ftnRLrW5hAUtW5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_002_f18c9e4b746b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuAOm1dSpfhZQ6oPeAWo1DkgSHwKIrP2aGmibNfxhDfsh78gDbG2nYvmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_003_639aab979850.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuibMYUxZiayHiagpjicYDEVgdvtIOUQH1tktRrZ25GbYqWfuL5Z39Azspug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_004_fc6e29de6291.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuSTsVRSuWibEy3xLxIaXiaNjOrUqdgBtffl1tibw7CkfGnx9Kic6bJQqEEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_005_49bec5c0ce17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu0bYDFubuKUKOG3YJNWFibmsst4mAlxNDXzC8AgBaLXvUkEAABNysSiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_006_6a6d75e9801e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuGSmGSB3CLxtTicmMRCmXb0AOyF2KotyKyfvMMWqrVEhY7UgPagyfibKA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_007_0964920c9e87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuAFz6ahmG4Un0rSMg9WNx6d2xtGCaqnHw1JPFKL6R3MyQ5FC0DGGYmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_008_a75e29ce97c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbupxCE8rCYe7fBzZNE6Bakdia16nmeWPEY4QrK8iasINyDvKhUQ1P7SreQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_009_027587bf3eb8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuQt2GavlmlVLzUQQws936EZfsJ1g3vTfl4h4rkibllyLqqcjPbyewsyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_010_77def812777d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu9Yw8gdJEnBgGwiat3icGqhC0mcKMM85Yqs5E7IOVf6Ba6A72l8eXg25g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_011_155f7969f837.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuKYv9ywbBOo2Seh67RMklfxlLgmKPeMnROucDwpIPmUUmKtaYhicsEuw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_012_0f0cd14af43c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuVBsoezE9UG5SCS1acQbjiajFUvqLgPIrOlaicyIwPy4bfySicTPnvib9ng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_013_3bfabb471b9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbutGov0BWRxIp2SHPGO9T8FsQKymM1knKL5Gp94iaa79XN8NDsY63XTDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_014_eb567c67179a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuRdP731Miaj822QYtLy31S2gvic0mbeFvZJHVQGNnTia6qk0IE4lu0S0cw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_015_e25e556e0de5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuR50TFWgtyzZufpYKolwj4ySdCLNpwBdZdYSVLVjNW8AF4ibFvP3TvEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_016_4d4ffa40561d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuMAlUDWBCxX92t9GNlz90q8pyM2NUeXh7voO8L1HKadEeBHicZ6g9aHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_017_c73d8d654ed3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuDN3at4dkfPgcm3UrqjQ3N5gnoWZAhf8XbPztSBloKCUmCxXibaCibHdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_018_3a9fae118ecb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbujd9jbejBgrBRhsfAjMdxNU4BgwIIjEjXHonxXq4AotslaZgjto90kg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_019_fd7904966f5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu8wXPAk3GLMn1ice7rLRtrbdppWKdzlkcLJuBmh7XHHpTotibiaVBZRibNA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_020_0179955f53dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbujF70NNjOJ61ibFfHfmphXlTibvTksupjUqibBHpibP7rRxtog2aAVCOzRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_021_4562d35512ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbucTsLsh9UIibRGCd5NheDpS0wrRLAXSSR76yXwYCtZyhaazSVK0TBKvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_022_de36db762cf5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbur8d7antCKANZbyGlXMvcjqYpUZWKic7nNzQAjbvYefpqal9NeV2mfGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_023_d50427459588.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuVaJajWjMsFalWMEaN9wwyYGbvnD7LuGibwwzDxrhuorgdxCHHOWFAOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_024_d36710d882a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbusTpuZ6F7xeg9WPbT0EQFrnBlg4zvcJVCCiceaHHydibjfjgtmVPdY0ww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_025_fa5c7d7de453.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuPRdYtjPJdppFz7qHnoulb9zTnyRdmzzKIYpjjtpPBX6BaIFp1OFKvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_026_3b8a01359395.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuWFqnKO3VXlvyvGL5d5iclwq9fyWdD9eMtlTsBxicncuscgxzfVKuUKMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_027_5813a291548f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbutY6Qed0GuWaibiajyd4m85c1yqD3OTDgBf7gd7mQuagTt4LkWm8mMdsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_028_77eba1c37091.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuqiaxrlgtXaiatGrAaNLk8zrl5fNYO37EmEZntBDMKK98ficS4JV35A3KQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_029_379a6092995d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbujqSTb5icwoN77icdQPBjxe1f4wIORWHYiaDLDpqBOGicE1CnLGqK3TrXLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_030_fb33fa0d743a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuciaZKxjZGic7TqpO1CTI9TBXqriaCSHB8CMUVgksvqvPMTuDAeuo6JxlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_031_18c0b9f44b55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuxwlTKVV6KAvOibTaICe2QpXiacDl6zNtHQJLRsFDhglz0SSNqD30YnFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_032_b014e4e1d180.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuPc0n7DDTU3M0MicNmRcAGD4THnMfPC8bAvArctz07K1AKtugx2l37Kg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_033_0ff066fea01f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuzwP0sa29NwJc1BEMxXR29xiaRicribmBY5Nkwria8eMEWJ97pVodTtU0DQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_034_c3b162666752.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuAmf5Y7qniatV00icHgaYLryHOgHH7wVfeMJkRgnCI5VRwQRHolLHzQEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_035_7f6f8ca6ff20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuG7UjXrwbrGQ3fmV5V7C8Xia7Igob4JWXV9JkyxdPTuz4auCnQJ6WwAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_036_0bb2eb9a63c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu8dETbOeC9miccKo3G5MaCdiaq2hibia75EbQkbRUVOoUk9FAcCjicQbtyrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_037_df99d3b09003.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuicV3WKJ4RUMUnA0QLSQyORviad4ttFKapxTKOpmH6h7WxeJbVd2tggHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_038_4db84f2daa94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuCOZHd2cFQibyp0QaMxPwBfRxSOT3od4wTukuTmnSGtkp6qNm5zQNn2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_039_3eee128d0f45.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuGwwmNXcS2mdCPjHEib2pawJRXpFYMQj99W1ic11uGtTq2kMv9KMOPEXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_040_343344153999.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbulbTvQhovjzjAyTqNePZSCQQH4govCsABODKqlmwyEY6vsj3t8qHNuQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_041_530aad9ffe34.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu2a9Ifnorxa61570OiaHkjjtlgsRLhsibr8cicNKich1EIBL6qvlQtCwiajA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_042_5c4c88acfc26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuU5CSqjus4tjJ7ia9iaxDsjO0AVuBYXDNNpxDwhcCUXkfFK7hb2vB9f9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_043_73b963b435c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuicOzEaaYYAiaW8Hrs5S5k0ZevZCk2PtV81sxPj8XwP5ibLzohrtTuvaFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_044_a6e0966a5576.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuGPOicpBY3DQHwj4unXCFb4gNbKScVjuYDib7xIQowbDL9ibWFE5QoJSiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_045_7fbab24b324d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuqOYuxsvX8ZXF24gRjs5VAG6x7GHaAr9iapJTibic5SrjzOfkgLbrTftgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_046_fb0f89b84c63.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuX0YNMXE4Fmic6zPPIvgDVic1P0Hpjrlb8wJDOBxGAfW2F3HJCicqvasVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_047_8f88c799066f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbugicYriaNKOpibCISdo99ll6icm9wKxlyNj3u9pkianibWdYzo8ibKibr0vvEEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_048_79b0a573d9cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuyHkjcMT9nt3djc2l8YXDnD4f8swGardiaBTwPWvJ0BliafVNrricg0XIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_049_38a99d66b8f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuYNpBcwfHj8Eadgu1xrCARTIkj0qZbCkz5pwT45zo2LPjrFJFNDSjBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_050_91af2b3c5e09.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbudUkPPMBYnACLdGDQGN3fEjpAvjQRosHhNT0PllFNAD3XTU1XLhrASg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_051_f2d4f7672180.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuNs0t0IUVe5WcxJcQJtYE8clUQhyvmu4oKiast003AJFJlCQZxRf59hQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_052_0975168bba5d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbul57ossiatKfD5DwMJMdKiaicf4Br2MO818qOemM5SSGYGTibyjXnw90wXw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_053_a153bdcf1e45.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuSHfnS0elAZT2831XsnP6wTG3vkfvaCsw7I1PQYibiaa5P1MTrddFmW7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_054_a51517b1a818.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbutd1RicFvYIBZYsMHeMx0Ne9fDXkGuxUkDmGqJLMRwcrZ3fhVPA3P4aA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_055_94f175a379c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu0dNEd5C0oByxnWq8a0Ufr3o7bz4yo2mroiclcsJeUXZadQ5hUAldsCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_056_a6f759b64c31.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuvdCbC0pFicIdA1GpgzEP6o3IAJFdF7FezXln5WToOtCU2E132Oib0EWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_057_cf4fd9672b79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuQrQcqRIcicGNHu6gKXbmfqj4Fj4Su8lOKW4xs62wEWTFnaDibKYkxcxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_058_ecf125b728c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbue6ibsMV7ytEiaKGwTH41ibgOkAarKBFP5XJdR3ia0ic1HmJVtjTfvd4UovA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_059_ac3701114449.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuPXdjOnXv45nYeyoQY013BPql5eHbpgNSaq7wHvbsC3HA4icubAe0exQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_060_dad78c99b790.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuuYMBWosOickGVqrkc7hZ0R0jvNA8BZzZfgPibtdic3v85pOYmT4q3dNQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_061_6ef04126a44c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuULT5ss6fkia85mVVUntZ6iayy4ByweibtGTllvOwetW1srWyf193wyibPg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_062_3ff957d20516.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbukqjWrfcDd25XnGscmv1K9l3PQPCKIzqJ2rLjuSt4klVjf5NTgbDicpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_063_661ae3c0922c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuMA7ibWru9TM8PSWNOPm62656DQWOsQ8HNjpUMibUUMTQtZC6IDcaew9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_064_5193b62b4cd2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbueorbx7RG8AW59z4NUqIOJxw1NQtQWsQws5SguUcibDlMBu4m406viavw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_065_cfa67035a463.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbufVj7ajjricbno9b31gKFdAzB4xznnMwTxo41XibCj2tL6icTcJ4WD6iaPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_066_5721357b6a5b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuialxMXXVB1f3zic4kdFqEnL9dhH7ZgPTAyEA0juSNU5Yvu9vwKsgDZJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_067_7428b2b93b9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuJhAxt6thEhBc3UBGj9dBKLaoP0JvSQaVqLLlapGib94PnFGb9W7ibs7w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_068_89a3e5168574.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbujwGo4x6nkIdmgEvxK0xGb749mTGh1z6EgSwibs3UQFyDicn74TF4Z5pg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_069_44339ee7abe0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuhad8fcCicYY7cyZTnpJrdbyicddiaJ9LvAiaricicxVk7Htiblj6ariahmxmdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_070_911c03eca786.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu2WOtlHFXygO8NeWy6McSnK5VxTCTFfoOP4PInn7np0MRSqLd1ptDOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_071_6f34810b4ca3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu15aib5syEjl3qo5CaXRKpkKYMWibdBIE5dTW4s0oKW12sP3cUiaNCbwFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_072_2424ae20648d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuAoOLp4PTib9pKLgYwatXsTuLLavTZMxBIicLic4SzxSXuLZSI7t7qp39A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_073_4735d181aac1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu5ibIWFzCoaSyPP3FZEMGibC6bIHCriboMIj1FzEOibbM4RzWyjFMQsKDiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_074_3e23e587a54f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbudGbqHEZwOupzXzxhibtVG9zVEZNuXqxl34icsGjtIVFIwfibNtSjkfKvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_075_5ad92698b136.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuwYtibBrxEVtBLWJkib33Scg1sd81UrHl44WOUtZ35iaqhew0Od8lWHqeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_076_bbcbf5975d2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbufjmguRL8kXzt2CEt4sjcKoTLfZGZ9tCtHI0YiallRq1oUKrjHUD6EXw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_077_54f7d06db08f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuf50csOOSVibV0xM6MoS3jAfw5uPgruemswbStbAMlRD7JAFLeiaicsukQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_078_d7a6bc76ea28.png)
 
 注：文字与图片报告无关
 
@@ -321,13 +321,13 @@ SiC（碳化硅）功率半导体器件（如SiC MOSFET和SiC二极管）是推�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskNjrBeSs608zd6UCWlxdGVNriafDR8nc0fg4I0WaOQbmwQKVqu1wiczIw8uskP9YE2el6OGvZr3ickA/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_079_498d20446c67.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskNjrBeSs608zd6UCWlxdGV22Tj4aPModAmQXHtbew4PUfhYjH60e0fogF7I9hYlutFWbDMx88yOw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_080_8f18f0ad616a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNjrBeSs608zd6UCWlxdGVFVxzQhs4hXvFCI4vlUEIyHV5icR3ocxlfpazaGuwjCFAEVcTrQI39Qw/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_固态变压器（SST）的潜在未来应用和拓扑结构_images\img_081_a1c461c5a3b6.png)

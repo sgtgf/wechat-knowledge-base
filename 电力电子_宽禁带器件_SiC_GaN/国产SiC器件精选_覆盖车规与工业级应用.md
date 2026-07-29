@@ -37,38 +37,38 @@
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=142#wechat_redirect)  
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=142#wechat_redirect)
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCpyJFqBfZP6whPS1vVN26nBt02lOqcutibhWUXEqs6bVaJrCDbZ6A8vicA/0?wx_fmt=png&from=appmsg)
+![图1](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_000_a53003cc2206.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCp9BB8q9FrpV0U6ic2MP3bDn6bEFibOkSTSfick7JuGwibkvgRoVsTYa9xRw/0?wx_fmt=png&from=appmsg)
+![图2](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_001_4b9e680b6b5b.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCpNiaSp3x4iaQXfbVdso8KQUXljhkRcBM67jQBLTGqlqSibQTzgzxZibqalA/0?wx_fmt=png&from=appmsg)
+![图3](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_002_fb1643c9d560.png)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCpVrfzAgqEELYLaW3xZRIPplbnLlsInQnweaz14bMPqAxY227hyteiaRA/0?wx_fmt=png&from=appmsg)
+![图4](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_003_e48fb01a1094.png)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCpqynHfhpjsrp9iaicarxxXVMLKicQYrOkYm6CeiaHHDXNG3epRZq3UbyYqw/0?wx_fmt=png&from=appmsg)
+![图5](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_004_e16850090183.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCpOxCR3t4Npnic3XUKqEZojVQEzI5ok7ibjRATYWPk4eRODE8QadzDH4PA/0?wx_fmt=png&from=appmsg)
+![图6](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_005_8e48c7146994.png)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCpRQ69GOGC4ciazKDjswBBGVl891TED1Lek3FUynnV8qc34JO2iazzPewQ/0?wx_fmt=png&from=appmsg)
+![图7](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_006_a8ec31798545.png)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCptrNwmksKia0Fibrv5ia4qcck9r4vFHVgriby8Ot5OSyEp4KNR0fElrX7aQ/0?wx_fmt=jpeg&from=appmsg)
+![图8](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_007_89871f6e5b8e.jpg)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskP6efqJlQrOVmSWzOGLaCpALNOuWSyB0KUkOH3Nk9icvzqEkzVeojuXnBIYPBqYW90ksFftlEmNGQ/0?wx_fmt=jpeg&from=appmsg)
+![图9](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产SiC器件精选_覆盖车规与工业级应用_images\img_008_c0516ad47be2.jpg)
 
 图9

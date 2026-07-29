@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/oEM9NiKQi22WmXxDgMyulw](https://mp.weixin.qq.com/s/oEM9NiKQi22WmXxDgMyulw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQULfdZ7R11TgWJrYQ90cXzwiaat0ahv3kibe1dOrgRnHvInLbkK9ths0JGXuyluV6oqn4HuibIUpuRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_000_06f6317277f6.png)
 
 ____**★★★**______Antenna-7---VSWR______**★★★**____
 
@@ -13,45 +13,45 @@ ___€1.___天线的VSWR
 
 当天线与接收器不匹配时，功率会被反射，这会产生“反射电压波”，馈线上同时存在入射波和反射波，在入射波和反射波相位相同的地方，电压振幅相加为最大电压振幅Vmax，形成波腹；而在入射波和反射波相位相反的地方电压振幅相减为最小电压振幅Vmin，形成波节，其它各点的振幅值则介于波腹与波节之间，这种合成波称为行驻波，结果是如图7-1所示的峰值和波谷，反射波电压和入射波电压幅度之比叫作反射系数记为R：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyQ8x7vAt2icJsxBcyNr96e8rOh60M6U0kwZ9sDEulkHFghmGxouQYhRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_001_85d40d4e84cb.png)
 
 VSWR是反射系数的函数，反射系数描述了从天线反射的功率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQqkuBoR9mpic9gEz9jGCsaoV7Y9dBAFdK2AX7icIyjcHlMwhzwibQ02icsWWib3cCDcluc8OjhXWoj3Pg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_002_61457e19d619.png)
 
 图7-1：沿传输线测量的电压
 
 VSWR是根据沿通向天线的传输线测量的电压确定的，波腹电压与波节电压幅度之比称电压驻波比(VSWR,VoltageStandingWaveRatio)，记为VSWR。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyDU63Ka8AsrLzvxicRFOVDMAylEJrxNsQo5YVniagf8RSRg2ym9rR98kA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_003_5eabc69ffe5a.png)
 
 终端负载阻抗ZL和特性阻抗Z0越接近，反射系数R越小，驻波比VSWR越接近于1，匹配也就越好，如果VSWR=1.0，则不会有反射功率，并且电压沿传输线具有恒定的幅度。如果反射系数由下式给出Γ，则VSWR由以下公式定义：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQl4mib6g9CicSJK66C8sia3jDR8FyhdksScP3855icSWkYnsWfo47StLt6oPLgcYrAmBy7mVqt2diaJ7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_004_5755719cdf1c.png)
 
 ___€2.Case___
 
 如图7-2，假设基站发射功率是10W，经天线后反射回0.5W，那么辐射出的功率是9.5W。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQqkuBoR9mpic9gEz9jGCsaoYuRibc9FBZuSEnMfYcvXd4SAz5SlM3gbxha44WsOxAyIRxQV6aWQXVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_005_fd2e7509cb50.png)
 
 图7-2：沿传输线测量的电压
 
 由此可算出回波损耗：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyEicZpicl5Y2HGleoWicPz0MaJr7EEymenebYibIkLGgaxFWdG7qKW5p5Lw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_006_253711cadc35.png)
 
 功率反射系数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXy3ia0XxBtRuuiaDI3XCSNicnGeYbbFes1waiaEiaxEXDVMWTKNBYMHvia4goQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_007_11b9e04fac81.png)
 
 电压反射系数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyQcva6r30nfXIp9lXm6H9srovu5GMHvVq5njcibqZicjG2d2zBUQXib4vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_008_8e3db4229ed8.png)
 
 驻波比为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyibtI7byfBEspCzlsx6en2uftCXEjHZtWyLuTI0QQcNx3WaiabSicnP48g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_009_a1987dc7912b.png)
 
 对于天线来说，VSWR始终是一个正数，VSWR越小，天线与传输线的匹配度越好，输送到天线的功率就越大。天线必须满足以VSWR给出的带宽要求，例如天线声称在100-200MHz范围内可以保持VSWR<3工作，这意味着VSWR在指定频率范围内小于3.0，该VSWR指标还意味着在引用的频率范围内反射系数小于0.5（即Γ<0.5）。
 
@@ -59,7 +59,7 @@ ___€3.___VSWR、反射功率和S11
 
 反射系数也称为S11或回波损耗，可以参阅表1-1的VSWR表，查看反射功率S11和VSWR之间的数值映射。也可以通过复杂的方程来了解VSWR、失配损耗、S11/Γ之间的关系。如何评估VSWR的优劣，没有硬性规定，表1-1显示了驻波比、总反射功率和Γ（也称为S11）和总反射功率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQqkuBoR9mpic9gEz9jGCsaoWRIgNYictG5EKjctGW3MlQQQdA6epvSwJ9OOvSMP9jCzSUL7Ns3iatWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_7_天线的VSWR_images\img_010_148ed9a90ab0.png)
 
 表1-1：VSWR、反射功率和Γ（S11）
 

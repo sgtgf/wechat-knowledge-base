@@ -17,35 +17,35 @@
 
 **1.  系统架构设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhkIgKtMIV93rc6ic5NgXv5Bia2PTGL7MPEqMlgvPLY8TEEpKGv3zfymfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_000_b80f09c77a16.png)
 
 电机控制器高压电路架构图如图1所示，高压电池将直流高压通过高压连接器输人到滤波器。直流母线电压信号通过滤波器滤除噪声和干扰信号后，输出到直流母线电容。直流母线电容将滤波的直流母线电压信号进行平滑和稳压处理后，输人给SiC功率模块使用。SiC功率模块将直流电压经过逆变后，转变成三相交流电，输入给电机的三相铜排，驱动电机旋转。为防止低压电中断，影响控制板工作，在整个高压回路中设计有备份电源。备份电源将滤波后的直流母线高压经过降压后，输人给主控板的供电电路使用。
 
 **2.  元器件选型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhsmVqkqmEQ37OoSmFdUMHFib5xtUVic6bIhr9zQ1mzm4xiatA06e9UyQkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_001_fd651e18f6f0.png)
 
 控制器组成元器件如图2所示。在控制器内部，高压元器件主要包括滤波器、直流母线电容、SiC模块、三相铜排及磁环组件和三相电流传感器；低压元器件主要包括控制板、低压接插件和壳体温度传感器；辅助元器件包括进出水管、观察窗盖、透气阀和各种密封圈等。这些元器件通过螺栓固定在控制器的主壳体上。控制器主要设计指标见表1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhBmpeu0tKQ05tzTa6KNkG6sPFGwOo3ue9Oo21YOiahWM7ZUzBibAPPDSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_002_063f9d621c9d.png)
 
 **2.1  功率模块选型**
 
 碳化硅（SiC）作为第3代半导体材料，具有耐高温、耐高压的特点，同时开关损耗小，是800V电压平台下功率器件的首选。根据表中的整车设计输人，本文的碳化硅功率模块选择基本半导体的BMF800R12FC4。SiC模块外观如图3所示，具有高电流密度，专为纯电动车主驱逆变器应用设计，采用先进的有压型银烧结工艺和高性能铜线键合技术，使用氮化硅陶瓷基板，以及直接水冷的Pin-Fin结构。该功率模块击穿电压为1200V；在工作结温25℃下，最大连续漏极电流为800A，导通电阻为1.3毫欧；通过DCM激光焊接后，在额定电压700V可以输出620A的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh8pm1DvHcSKJueu1UqP3KKOdvndaH0kWy6icicj2l2Q2aEtYE8MRiczfvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_003_a8b1f17093e9.png)
 
 **2.2  直流母线电容计算**
 
 电机控制器大扭矩工作时，从电池包得到峰值很高脉冲电流的同时，随之产生很高的脉冲电压。母线电容可以吸收高脉冲电流，防止逆变器受到DC-Link端的电压过冲和瞬时过压而出现损坏。母线电容的计算模型及流程如图4、图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhxADE18ibRKv0sfjE36Mqt8ugAhWFqE64CJwVobCUsdxYbzIDicLoEvmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_004_728e07d8689b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhX2rUJR0iaL2hewaiaKEjDP5lN1NuGynzx0nV0fcCeVeCWu3GFFfvkCng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_005_3b7fcff2bca0.png)
 
 母线电容的纹波电流、容值设计最小值计算公式如式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhwuHHNG43iaJe2hvrEicjoK0FlrLvQJjokfh7NKbfjfr7qz570l623Zkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_006_a8c521221bc0.png)
 
 式中：Ir—纹波电流；Io一控制器额定输出电流；M—调制比；cosg—功率因素；Cmin—母线电容的容值设计最小值；P—控制器额定功率；Un—控制器额定电压；Upp一纹波电压。
 
@@ -53,19 +53,19 @@
 
 **2.3滤波器设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhw1GLdlD4FfTtLp69OiabWZ0E9K7OtUJxMVbaBOQZYyibwP7QpG5te3Pg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_007_affb12d57b09.png)
 
 滤波器的设计输人参数见表2，滤波器的原理图和外观图如图6、图7所示。输入电感L1和输出电感L2采用纳米晶材料，磁导率为30000~50000，居里温度为570℃，其中L1电感值大于20μH，L2电感值大于40μH；安规电容Cx1为47nF，Cx2为0.47μF，Cy1为22nF，Cy2为150nF，Cy3为1nF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhyib323Hwhtuy85OneIFCgxviagGJt0LSSEK06xDRZIXvoSumaOFoeHWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_008_fbee7daac498.png)
 
 **3.  台架试验验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhZ9dleVIgic1hrupeUO2AZ1Y308QN2ukvibotiaXibKDL5KOjqNNrjwOVqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_009_715b63b8fb33.png)
 
 搭载永磁同步电机和系统测试台架示意如图8、图9所示。与控制器搭配台架的电机采用永磁同步电机，借助于测试台架，对控制器进行系统性能测试及系统效率测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhepWezUMzQfvMq476FhWibZ5ibT36EEPsRjQUpNCaaTHumPYmaYuXicD7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_010_8e8cf36beabc.png)
 
 **3.1 电流&电压标定**
 
@@ -73,25 +73,25 @@
 
 将三相电流的实测值与指令值进行比较（表3）可见，在旋转频率为20Hz时，三相电流的采样精度控制在1%以内；在旋转频率为40Hz时，三相电流的采样精度控制在2%以内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhTXxy8zH21bkFlenTVtCxIBEwQFFFcxZXBkujyc6yt9j6mbraBqKYow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_011_69dc29cec279.png)
 
 将直流母线电压的实测值与指令值进行比较（表4），发现直流母线电压的采样精度可控制在0.2%以内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh8w8EpP2Xcibt89BEa5Hbdd9CnkLpGia6y8v99okCPrwgdVEkQb6BCWhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_012_b42ca7c572c9.png)
 
 **3.2系统性能测试**
 
 在700V额定电压平台下，对电机控制器进行系统外特性测试。如图10、图11所示，在电动工况下，能够稳定输出411N·m的峰值扭矩和342kW的峰值功率；在发电工况下，能够稳定输出412N·m的峰值扭矩和260kW的峰值功率。在电动工况下，将700V电压平台下的仿真与实测值进行对比。从图11可以看出，系统峰值扭矩和峰值功率的实测值均高于仿真值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhgkRt5zeRPB9eOXbUhFcadtVxPQqe24ed36kQUyBab3a4JxfpdbCQPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_013_7321317c22c6.png)
 
 **3.3 控制器效率测试**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhOOdktBibySAnwOyvmZSMzgB3VwrA3KY0q3LTjrGnVvOOibguRhibAXy4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_014_fea34b5e9364.png)
 
 在700V额定电压平台下，对高性能电机控制器、二合一系统进行效率测试。400V控制器效率Map图如图12所示，400V系统效率Map图如图13所示。控制器单体的最高效率为99.3%，系统最高效率为95.98%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhCujgUH8mKotO1SBjZZhGbaxZcPFbVWIAVxHJgK0Uw7Y5rbY0gUuT4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_015_0a100d2503d0.png)
 
 **4.  结语**
 
@@ -99,10 +99,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_016_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_017_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的高电压平台电机控制器设计及研究_images\img_018_84aa944feb13.jpg)

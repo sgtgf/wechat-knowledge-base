@@ -18,11 +18,11 @@ _**01**_
 
 只要是接有220V的电路板，一般都会看见安规电容的存在，黄色的是X电容，蓝色的是Y电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDeo107Fibu2URRJsGRTp4b0eZZ04us4wZuTUAib1WEIaMqWThqekSjvfA/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_002_2eec2530f16d.png)
 
 X，Y电容一般在电路中用法如下  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2P0qE2tD7aN9ZeFMCyI8BkCRMowlVqibdqt5sqlu2FHTkRupqib0PBC8Eq5rzYpkT0gFyBt9TN2jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_003_1a4a47e75058.png)
 
   
 
@@ -36,21 +36,21 @@ _**02**_
 
 逐字理解‘安规电容’（无非就是符合安全规定的电容）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDWG88kxwCHrjv7kK8am0cMvhdC8gic81eKS8g1v6dK4GWT4DEltqX6gw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_004_64743d0b0d57.png)
 
 其中，安规电容可细分为X电容和Y电容
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDuP4rmwU1t8JMEJK92qmmBBWxkhdmI3UGLWqqMAZW0a7Fzae6CNPfkQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_005_eb6aa81ba154.png)
 
 电容有诸多种分类，X电容本质就是聚酯电容，Y电容本质就是瓷片电容
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDum3BxZpOB9Aib5TFvrEnguG5CCwbVAGv438lZicFYHbnEvLypDsjq7sA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_006_e3aa7509d93c.png)
 
 聚酯电容内部介质是聚酯
 
 瓷片电容内部介质是瓷片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFD2eLJKoKtkj0mgnYubKUibryOksTs6lJfrJgVIytic9gmaYk72q8Rbf8g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_007_d7f7ce1a8206.png)
 
   
 
@@ -64,19 +64,19 @@ _**03**_
 
 安规电容的作用是滤除高频干扰（这些干扰可能来自雷电产生的干扰或插拔产生的干扰）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDMWDDPbNzO9zEm6OXQmgxbk9Aadex9TkM8A6hOcnX9zdBq4zhIvfZeg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_008_82148ead8ef8.png)
 
 X电容是接在火线和零线之间
 
 Y电容分别是接在火线和地线之间，零线和地线之间
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDfxz6Cic944lcf1E3Sf21shC6VOokWyTzNsMeWbLUHuPBqpicSAarV40A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_009_b5117f309032.png)
 
 可以看出，X电容在电路中起到差模干扰的作用，而Y电容起到共模干扰的作用
 
 先来看X电容，假如现在火线上出现了高频的干扰信号，此时的流向如图所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDYrSEibibOVBhZgFP01DUaGPuhhkW2nfc1icIWUdMHWg5Rg3GtkiaGqUPBA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_010_22139f33f57d.png)
 
   
 
@@ -84,19 +84,19 @@ Y电容分别是接在火线和地线之间，零线和地线之间
 
 所谓‘差模’就是相位相差180度
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDFlrKoRJAYRudU1qs9qBvEuGFsaF36C468kKpjQGBw1fFPhgZmJOYEQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_011_372e466440ff.png)
 
 再看Y电容，火线和零线上的高频信号的幅度和相位都是一样的（也就是同步）
 
 所谓‘共模’就是幅度相位频率都一样
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDhibAeoadAccwVRWFdMdcfmYP9oEXetN1N3eEylTTOUibFDRzlW6f2ib0Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_012_29264f575242.png)
 
 由于火线和零线的干扰是一样的，此时X电容就不起作用
 
 因为可以把地线看成零电位，又由于电势差的存在，所以可以在火线和地线之间连接电容，这样就可以把高频信号滤除掉，零线也是同样的
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDflrkKib6Eciayc1yNMq0RuH9ibWEd6bxV6uO7YXkic9LG34vweIuetf1cQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_013_a643148f2d14.png)
 
   
 
@@ -112,7 +112,7 @@ _**04**_
 
 另外X电容不能替代Y电容，因为Y电容的耐压值比X电容大
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhxYrBwyYFIkaPibPHP6DnFDxoteswFAEeCwX0pQJGYETAtCiaxWgQ09n3lbFOhH9oHnX74pp5E2ylg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_014_bc1862935006.png)
 
   
 
@@ -128,7 +128,7 @@ Y电容用于滤除共模干扰
 
 X电容比Y电容容值大，但耐压值比Y电容小
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_015_e119ccb9e5f3.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\形影不离的好兄弟_X电容和Y电容_images\img_016_4700b023e565.jpg)
 
 ## 
 

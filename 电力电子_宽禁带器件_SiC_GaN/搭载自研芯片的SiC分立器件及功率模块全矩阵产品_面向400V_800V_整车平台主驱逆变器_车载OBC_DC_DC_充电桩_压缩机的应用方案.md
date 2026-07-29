@@ -9,26 +9,26 @@ SiC Diode系列：650-1700V / 8-100A。
 SiC Module系列：650-1700V / 30-1000A / 1.3-80mΩ。  
 #新能源汽车#充电桩#车载充电机#压缩机#DC\-DC变换器#电机驱动器
 
-![图1](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMib8yjpsgerVo3oZAkNYMSvFgaibSHXzdjB2GQp8HvUaklyxnH0HeNHhf7UoCqXFoUKNUJrpMEwy5AreRWaVyIEvvicljHFdn7Ao/0?wx_fmt=jpeg)
+![图1](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\搭载自研芯片的SiC分立器件及功率模块全矩阵产品_面向400V_800V_整车平台主驱逆变器_车载OBC_DC_DC_充电桩_压缩机的应用方案_images\img_000_8faa7c2535de.jpg)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOklTPxyWd6T8ib7l1WSVkCpdVZnFl7kx6IYB507f7kOia2SaYMX4WibMpbZk9wyM4ILvLgXJZ92OZorOiafTAPntiaPibwfJicpxd4Tc/0?wx_fmt=jpeg)
+![图2](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\搭载自研芯片的SiC分立器件及功率模块全矩阵产品_面向400V_800V_整车平台主驱逆变器_车载OBC_DC_DC_充电桩_压缩机的应用方案_images\img_001_cffc45a6a0b1.jpg)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNAam2QE8BoC3icQeCibOIqAQJokwtww6SE9Z286mqFYQPKr4icqRxqomn2Ba0oEFnNs9TDb9aR7MxTibzoxfiaOQZR0dgf18Tf7qT4/0?wx_fmt=jpeg)
+![图3](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\搭载自研芯片的SiC分立器件及功率模块全矩阵产品_面向400V_800V_整车平台主驱逆变器_车载OBC_DC_DC_充电桩_压缩机的应用方案_images\img_002_00173fa7e89f.jpg)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOXb3iaibm04JcLVC0qB1roRq3oH12CdHwQtIb9v6JuwnmcDk59zDCoDQ6E626rUHibUAmN1se3lbVqw113MbpkeRrpXHJicX3mTRE/0?wx_fmt=jpeg)
+![图4](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\搭载自研芯片的SiC分立器件及功率模块全矩阵产品_面向400V_800V_整车平台主驱逆变器_车载OBC_DC_DC_充电桩_压缩机的应用方案_images\img_003_919120b1878c.jpg)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNLUJyqYSykQMb8SIcVP9orPeJvqTNJPRJU3IcL8ZPen2MeiblUIVCtJAfJg4lH2A6GiciagTca20Ib78Krr2libKPTriaq9v5AicmWg/0?wx_fmt=jpeg)
+![图5](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\搭载自研芯片的SiC分立器件及功率模块全矩阵产品_面向400V_800V_整车平台主驱逆变器_车载OBC_DC_DC_充电桩_压缩机的应用方案_images\img_004_461dd0b1ad50.jpg)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMEM66icjkZP0CkfJJS9z4OVtxCjRrxHVfqQhzpBFluAAflI4WlcliagFibz1Y3qviaWKakWpibPn7AAa5BVy6CPdbrEC3GcrvGPlI4/0?wx_fmt=jpeg)
+![图6](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\搭载自研芯片的SiC分立器件及功率模块全矩阵产品_面向400V_800V_整车平台主驱逆变器_车载OBC_DC_DC_充电桩_压缩机的应用方案_images\img_005_84e1695487db.jpg)
 
 图6

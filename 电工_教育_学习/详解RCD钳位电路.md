@@ -12,7 +12,7 @@
 
 反激式开关电源的RCD钳位电路由电阻R1、电容C1和二极管D1组成，如下图，其中：Lk为变压器的漏感，Lp为变压器原边绕组电感、Cds为Q1的寄生电容、T1为变压器、Q1是开关管、D2是输出整流二极管，E1是输出滤波电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8qMxGcgPeBnXasuROW2gLT8DaBcxzAmKcpPrVVBliaaoy8JWfthVNS0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解RCD钳位电路_images\img_003_456b88924de9.png)
 
 变压器漏感Lk与原边电感Lp串联，原边电感Lp与变压器T1并联。原边电感Lp的能量可通过理想变压器T1耦合至副边，给后端负载提供能量。
 
@@ -26,7 +26,7 @@
 
 当绕组中的电流反向时，D1截止，C1充电结束，此时C1通过R1放电，C1吸收的漏感能量通过R1来消耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8qMxGcgPeBnXasuROW2gLT8DaBcxzAmKcpPrVVBliaaoy8JWfthVNS0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解RCD钳位电路_images\img_002_456b88924de9.png)
 
 **2、Uds关键波形分析**
 
@@ -52,7 +52,7 @@ Vor：变压器次级反射电压
 
 Vspike：变压器初级漏感造成的尖峰电压
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8My0icdfTab0k2njzRQLR7hzHHSPotB2P48JvKYQibhCFuMViaELAoXegw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解RCD钳位电路_images\img_004_5da3973b6dcc.png)
 
   
 
@@ -62,13 +62,13 @@ RCD钳位电路当中，选择合适的电阻电容对于能量吸收以及输�
 
 如下图是反激式开关电源局部电路，看看改变电阻R1阻值，Uds波形参数会有什么变化，取R1分别等于360K、180K、106K，市电输入190VAC、相同负载情况下测试的波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa86DicorOicLt83ToE2ibjiaHFr34LHfffyg17mYB7xURKI1OoaFw0rlu3fw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解RCD钳位电路_images\img_005_8431abe81cbb.png)
 
 1）R1=360K
 
 从下图可以看出来，在R1=360K时候，Vds=548.6V
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8nXA374MhAcDib4YeN1AOYj9DbsBwJRWagjDPZTPFjsdUJVx1Uk1Sthg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解RCD钳位电路_images\img_006_2e5359510681.png)
 
   
 
@@ -76,7 +76,7 @@ RCD钳位电路当中，选择合适的电阻电容对于能量吸收以及输�
 
 从下图可以看出来，在R1=180K时候，Vds=481.0V
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8iaTSkoqx4ULVibk54EvxfbichyLw1NcLhQGIibvEY85g6sn8m4Q3EQfnoA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解RCD钳位电路_images\img_007_73b5b780e5cd.png)
 
   
 
@@ -84,7 +84,7 @@ RCD钳位电路当中，选择合适的电阻电容对于能量吸收以及输�
 
 从下图可以看出来，在R1=106K时候，Vds=457.6V
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa88gqD2fvgwGLXsjRroIYjZP0Bf1VXVxP1UiaWaKiaA00dwg3QOjQKoLicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解RCD钳位电路_images\img_008_fc65e72c4cf2.png)
 
 **从以上三张图可以看出，电阻越小，Vds电压越小，这是由于放电电流越快，因为C1吸收的能量靠电阻来消耗，但是R1过小会增大变压器能量损耗；**
 

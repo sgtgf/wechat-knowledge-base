@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/yZgQymnia90rNv70iaEpGQ](https://mp.weixin.qq.com/s/yZgQymnia90rNv70iaEpGQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_001_9011be9decf6.gif)
 
   
 
@@ -14,7 +14,7 @@
 
 但放假完了，今天就要坐回工位了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacIHZJnVayFRAJjT9rSlSRequxStHdJpibYay6srYGDJOjAWo9giccsHMqCz6NzAWoibQiaujfuB4FAt7YZurS2LmqMz3KONBhic2EI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_002_437124eef7ff.png)
 
 咱们硬件工程师这行，有个特点：软件那边放假还能背着电脑，真出问题了远程连上去改几行代码。咱们不行，板子在那儿，仪器在那儿，烙铁在那儿，人不在就啥也干不了，也不用在微信群里处理产线的事儿，大家都回去过年了。所以过年这几天，应该是咱们一年里唯一能真正下线的时候。  
 
@@ -28,7 +28,7 @@
 
 咱们这行有个规律：放假回来第一天，最容易出低级错误。年前着急忙慌收尾的活，有些细节可能记不清了——比如上次调试到很晚，临时飞了一根线，当时想着年后回来再正式改板，结果今天一看，为啥飞这根线来着？想不起来了。放了一周的板子，测试条件可能有变化；年前刚到的料，还没来得及确认。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaevPQZJdn45VzgWecbqBXeTctaBBNXibso2AGwRX39moLasnqsZPn9HplCemXYjrRowo0CTrmBGqzfKMXh8TuOlPLz2N19mO550/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_003_d80e633232d7.png)
 
 我的建议是：上午先不碰烙铁，不碰仪器。泡杯茶，把年前的工作捋一遍。项目到哪了，还有哪些坑没填，这周必须要交的活儿是什么——心里大概有个数，再动手不迟。
 
@@ -40,7 +40,7 @@
 
 软件那边改需求敲敲键盘就行，咱们改需求要动板子、改layout、重新打样。所以开工第一天，如果你手上有年前未完成的正在进行中的项目，建议先找产品、找软件、找领导聊一圈——确认一下需求有没有变化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeO63zjw70RMfum7cZYiavHbWkz6Go36Vh3mibRMfRorFMm7AhXeJ09cboGAVUSB8s3Sz4FygG6ic8MnT80sHiaVG9bfriaau4FzQgM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_004_0be8d4bc4fcc.png)
 
 别觉得这是小题大做。我见过太多例子：过年期间产品经理看了某个竞品，回来就要加功能；或者销售那边接了个新客户，要改接口。你不问，按老版本干了两周，人家告诉你“忘说了，要改”——那时候骂娘都来不及。  
 
@@ -54,7 +54,7 @@
 
 不用强迫自己一上来就进入年前的节奏。先干点收尾的、简单的、不太容易出错的活儿，让手和脑子慢慢热起来。比如整理一下年前的调试记录，把BOM表再过一遍，或者把还没整理的测试报告写一写。真正难啃的骨头，等过两天状态回来了再说。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeUaIf2h1Qev4XcqIFLO9YVH9AqaB6GwLhayMtxf5EtD8hr62FG0w50icoqnTkic05h3jCSxrE0NIpDGNmfFcbMNiahXQGe7UicdXM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_005_2e3f1d1e6aeb.png)
 
 另外提醒一句：过年这几天，估计大伙儿都没闲着——年夜饭、同学局、走亲戚，大鱼大肉吃着，白酒红酒喝着，熬夜看剧打牌更是常态。身体根本没歇过来，只是换了个方式折腾。
 
@@ -84,12 +84,12 @@
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJBaqjbLAgOiaXg9FXoTdXsibPSiadDfdQOLJdhHyka1PU48JE5k5ib69ARBFLfQyJ9vVeeDT8bDBexQ/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=10)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563874&idx=1&sn=66f17e5f20e0bdd4fcf3b587e86fc8ac&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_006_a03e0d6f643f.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563874&idx=1&sn=66f17e5f20e0bdd4fcf3b587e86fc8ac&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJBaqjbLAgOiaXg9FXoTdXs5B1cHgk0AdicicquGyAXygnh3Yicr8icfBPvuW4r7YSjHzzcL3rhb4VIuQ/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=11)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563472&idx=1&sn=a1cb4ccfbd6d7f4441a418dd8aa3858e&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_007_12bb74be13b4.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563472&idx=1&sn=a1cb4ccfbd6d7f4441a418dd8aa3858e&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJBaqjbLAgOiaXg9FXoTdXsaCyokuGCvhVfuclpEmVWfHEFLmLRibxqPZfKVR2ENpYmP4QUmKstwdw/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=12)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562096&idx=1&sn=93c9f5326168fe09bd8030c06b808212&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_008_b0f04fda578c.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562096&idx=1&sn=93c9f5326168fe09bd8030c06b808212&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niae1NdiaF4mzzLVTSK6a5vGUkEoym9f0iaa1WQfPxeIjMtBGVR8FnaJLZRZ60xMYyFJFT00vibiaEO5P5EMPmqGF4OticJyQg8YMUnGY/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\今年不立Flag_只求画板少踩坑_打样少折腾_images\img_009_ee4be9206adb.jpg)

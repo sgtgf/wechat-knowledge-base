@@ -34,7 +34,7 @@ EMC又叫做电磁兼容，**指的是对电子产品在电磁场方面干扰大
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FPS3sSIZIGvmrvaVqZxJN1pbOXAyQ4DqcIOVFrdIgxSWU1MyVl0HqeyMCsnxlnUJpuCSvibHXicrzCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC也可以用示波器观察波形__images\img_000_be2384330cdd.png)
 
 图1
 
@@ -70,7 +70,7 @@ EMC又叫做电磁兼容，**指的是对电子产品在电磁场方面干扰大
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FPS3sSIZIGvmrvaVqZxJN1pr0O92KofF0FiawEaqSceZuy138t9gFwnFFXTe7HuoqCZyAJUiaHZ2wmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC也可以用示波器观察波形__images\img_001_2367fd035c44.png)
 
 图2
 
@@ -94,7 +94,7 @@ EMC又叫做电磁兼容，**指的是对电子产品在电磁场方面干扰大
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FPS3sSIZIGvmrvaVqZxJN1pY5PibIt0ic3FQ7CLAyjUqr0cU7yw8Cmu5Rl75dxvGRJ44XTJ5G6S2Xug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC也可以用示波器观察波形__images\img_002_3f51653defef.png)
 
 图3
 
@@ -140,7 +140,7 @@ EMC又叫做电磁兼容，**指的是对电子产品在电磁场方面干扰大
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FPS3sSIZIGvmrvaVqZxJN1p9Vas5A0JibMicZ5bUfA0hamjVBe2OGNZzpgOHzH6MIgFUl2avGGaiba0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC也可以用示波器观察波形__images\img_003_b82e38aba28e.png)
 
 图4
 
@@ -154,7 +154,7 @@ EMC又叫做电磁兼容，**指的是对电子产品在电磁场方面干扰大
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FPS3sSIZIGvmrvaVqZxJN1pN936yBfHvQQRlgZ6FHrXfiad8mJb0vXzHLpcLwDWHsFJNCI2YLXNIpw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC也可以用示波器观察波形__images\img_004_4b2f48d01ee5.gif)
 
 图5
 
@@ -184,7 +184,7 @@ EMC又叫做电磁兼容，**指的是对电子产品在电磁场方面干扰大
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FPS3sSIZIGvmrvaVqZxJN1pZ675cEUvQhMKeWyFuQL8bJWUp9rSe6Cw9PhhzicFk0E8Ppd11eGm9QA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC也可以用示波器观察波形__images\img_005_90698251c3b2.gif)
 
 图6
 
@@ -194,7 +194,7 @@ EMC又叫做电磁兼容，**指的是对电子产品在电磁场方面干扰大
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FPS3sSIZIGvmrvaVqZxJN1pa1O56icWEBJT9nibYlscfajfFrsiaHicZhnI0HUOONCAdLeYxNG9QtSMpg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC也可以用示波器观察波形__images\img_006_3d6de61d2f04.gif)
 
 图7
 

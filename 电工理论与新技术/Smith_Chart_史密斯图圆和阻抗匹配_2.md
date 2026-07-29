@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xi9jogasEMDJ25BSSiT6SQ](https://mp.weixin.qq.com/s/xi9jogasEMDJ25BSSiT6SQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSrfKib8AibPT9IcfgAInIag1cY13DiclicD4IFLf7H7j09hyPtJ2K2snDuickvprFkBuWyM59R1wvlL7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_000_d6ee300e201e.png)
 
 _★★★__SMC-2---变换____**★★★**___
 
@@ -13,31 +13,31 @@ ___€1.___阻抗变换
 
 假设在传输线的末端有一个阻抗ZL，其特性阻抗由Z0给出，如图2-1所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKffrf8AJyqJibtjibIqrqAuvauPeMFQ8DSwb1FlQPvF4c06ZCRBXMZsewA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_001_dde1a16aa547.png)
 
 图2-1：传输线末端的负载阻抗图
 
 在图2-1中，源端（源阻抗为ZS）通过长度为L和特性阻抗Z0的传输线连接到一个负载阻抗ZL（例如天线）。要找到距离负载ZL长度为L的输入阻抗Zin，我们可以使用传输线教程中的复杂方程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZrFr57eQ3PyIsrVI0lst4h3DWibXSJVaUSk2icibaBnY64jS7c0tWuXGSKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_002_c91ac6b11f63.png)
 
 现在的问题：如果有一个负载阻抗ZL，使用史密斯圆图，那么沿传输线L距离的输入阻抗Zin是多少？为了弄清楚这一点，让我们举个例子。设ZL=100Ω，因此归一化负载为ZL=100/50=2.0，在史密斯圆图上绘制Zin=Zin/Z0的几个值，这些值由下式给出：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZrjsz6M2YwJGvE7WcDLw1UFeOYzTaFpcxIcxmXichiblzKjb1WNT2HhBiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_003_d32777468103.png)
 
 计算出输入阻抗：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZrS1wg0UWBNlZa5q8eyibwxYoXCVrLrZBf8pUWEglngib4UIliaibFo5zyiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_004_70548b4d5e91.png)
 
 阻抗点如图2-2所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfJYCKbVjQeOczb4sPhlXYsY7Wdz0TodoOmibejEn3bvTh0VVWg5nJaYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_005_8133d8cb69c3.png)
 
 图2-2：上述方程的输入阻抗绘制在史密斯圆图上
 
 在图2-2中，每个点与史密斯圆图中心的距离相同，也就是说，复杂的输入阻抗方程在史密斯圆图上转化为简单的圆周运动，因此只需围绕史密斯圆图以圆周方式移动即可找到负载沿传输线距离L的阻抗。如上所述，再次设ZL=2.0，如果我们画一个以史密斯圆图中心为中心并穿过ZL的圆，那么我们得到图2-3中蓝色给出的圆圈：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfaB7Gyc8on8gAktAeERLvJsVdW6vbt8ybZmQnSUiaQw09qDUhEHo6c3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_006_ec908016b1f7.png)
 
 图2-3：恒定的VSWR圆
 
@@ -47,13 +47,13 @@ ___€2.恒定SWR圆___
 
 图2-3中穿过ZL的圆称为恒定VSWR或恒定SWR圆，由于这个圆圈以史密斯圆图的中心为中心，Γ沿这条曲线保持恒定，因此VSWR沿这条曲线在任何地方也都是恒定的。例如假设我们知道输入阻抗Z1=0.1（因此Z1=0.1\*50=5）位于图2-4中的位置1，假设Z0=50Ω，负载、ZL和Z2（源端阻抗）的输入阻抗是多少？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKftyzqQia9N2PNeI0Kl2anzPKNOdua9TwibpTvYktuUOqVA9EqbLayuxrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_007_c5b385ab07bc.png)
 
 图2-4：传输线问题图
 
 使用史密斯圆图，这个问题非常简单，首先绘制Z1的已知值以及恒定的VSWR曲线（史密斯圆图中穿过Z1的圆）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfQgfW0wiagscdsEOl1rvOcibWAclqPfyUOianrqNv7kTicpeJ0s3qdSYN4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_008_0d30fd6581b1.png)
 
 图2-5：绘制Z1和恒定的VSWR圆
 
@@ -73,13 +73,13 @@ Z2=0.198+i\*0.9802 ==>Z2=9.901+i\*49.0099
 
 相应的史密斯圆图显示仅包含所需的恒定电阻圆和恒定电抗曲线：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKftyY49bGUP5Gq5vsWA7jykzkvHJFSdSVhxrvzav1ATIGRUCGYAU8iaqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_009_6f71cd44e1e8.png)
 
 图2-6：使用常数驻波比圆得到ZL和Z2
 
 在图2-6中，圆对应的Γ为0.8182，只绘制了Im\[Z\]=0.9802和Im\[Z\]=-0.9802的电抗曲线，因为所有其他的都与这个分析无关。在真正的史密斯圆图上，只需在最接近的电抗曲线之间进行插值即可。同样，我只绘制了Re\[Z\]=0.1（对于Z1阻抗）和Re\[Z\]=0.198（对于ZL和Z2）给出的电阻圈，所有其他曲线在史密斯圆图上都与此问题无关。最后在复杂详细的史密斯圆图上，可以看到沿外周的刻度，如图2-7所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfG8zqhOTwYPS2iacmUsenqJhQ6339uz4fPiby0xyibOrkfTplCDQJAM3xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_2_images\img_010_93af1dcf311a.png)
 
 图2-7：完全体的Smith Chart外周刻度
 

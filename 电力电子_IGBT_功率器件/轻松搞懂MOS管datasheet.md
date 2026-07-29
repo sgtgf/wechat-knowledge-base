@@ -16,7 +16,7 @@
 
 极限参数也叫绝对最大额定参数，MOS管在使用过程当中，**任何情况下都不能超过下图的这些极限参数，否则MOS管有可能损坏。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciaQKylSv7YlU2zMlos8FoCfQjOngdReUTDV7TibcRM4q0tMLkn5EGvkhg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_002_c70df068d47e.jpg)
 
 **VDS** 表示漏极与源极之间所能施加的最大电压值。
 
@@ -50,7 +50,7 @@
 
 公众号：硬件笔记本
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciamQqW2DzRFweyNrWBt88e34x1d8ke2cxjAnmfpibAVCQTDMrmtsM0OGQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_003_9a3b48ccdf86.jpg)
 
 热阻表示热传导的难易程度，热阻分为沟道-环境之间的热阻、沟道-封装之间的热阻，热阻越小，表示散热性能越好。
 
@@ -72,7 +72,7 @@
 
 **☀静态参数**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciaNHtQcJpdhoPEIhcN0BvH5RQU8RzibIBsib04R2MOcT43aO6jQtp2qgPg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_004_6a41c7eda2ab.jpg)
 
 **△VDS/TJ** 表示的是漏源击穿电压的温度系数，正温度系数，其值越小，表明稳定性越好。
 
@@ -90,7 +90,7 @@
 
 **☀动态参数**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciaLbYrFEduq8lMl48FrwiaOmr5giak5lHgOhYOO5kEniblTKEiahvRq7BkRg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_005_8c401184248c.jpg)
 
 **Ciss** 表示输入电容，Ciss=Cgs+Cgd，该参数会影响MOS的开关时间，该值越大，同样驱动能力下，开通及关断时间就越慢，开关损耗也就越大。
 
@@ -102,7 +102,7 @@
 
 **☀**漏源体二极管特性****
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciaKznPpnuPkiaN7fvYYRktL1Kh8zMVSwg2Kdm8oA9qermLjXiaTnYthWPg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_006_68d8c21e4fab.jpg)
 
 **IS 、ISM** 这些参数如果过小，会有电流击穿风险。
 
@@ -122,7 +122,7 @@
 
 输出特性曲线是用来描述MOS管电流和电压之间关系的曲线，特性曲线会受结温的影响，一般数据手册上会列出两种温度下的特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciaicVnSD5ns1UGAYQhH4ianB4crhD1aJIRxhibMHKDvF7QChLxzu6FTFVgw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_007_014ef96922e7.png)
 
   
 
@@ -130,7 +130,7 @@
 
 根据MOS管的输出特性曲线，取Uds其中的一点，然后用作图的方法，可取得到相应的转移特性曲线。从转移特性曲线上可以看出当Uds为某值时，Id与Ugs之间的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8Ticiafym1vS89Lx7PWVUqtgBgDkW0Iv1ugJbHnWw39OnGwR5GjF8FSCFGFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_008_0f7cb4b39057.png)
 
   
 
@@ -138,33 +138,33 @@
 
 MOS的导通电阻跟结温是呈现正温度系数变化的，也就是结温越高，导通电阻越大。MOS数据手册上一般会画出当VGS=10V时的导通电阻随温度变化的曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciadowvBCk2tKkhibKvfvLBdCMJnibGBrNmtF39haXs45Z3pOFxM1G9pgRw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_009_a31053b43a6f.png)
 
 **☀******电容与源漏极电压曲线********
 
 电容容量值越小，栅极总充电电量QG越小，开关速度越快，开关损耗就越小，开关电源DC/DC变换器等应用，要求较小的QG值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciaFwXyGSStad3jbMicvcCQphtQUIpmQ9ic1tCMdiaAkSnicD7E49ko6Zd9wA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_010_bd3c52b27d43.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8Ticia3icdv6mEbGK1bTRNibibH24e0ru5CvCnv9k017pAucaSMO6SytQBvrddQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_011_3ce150e5800b.png)
 
 **☀********正向导通电压曲线（指的是寄生二极管导通，而不是DS压降）**********
 
 MOS管一般会有一个寄生二极管，寄生二极管对MOS管有保护的作用，它的特性跟普通的二极管是一样的，也具有正向导通的特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8Ticiayz6kgSxBMx8dRNFRGQFnibxFGiaSrmqQ4PhkPeReEjztpXov7LY077Jw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_012_00d409b4f64c.png)
 
 **☀**********最大安全工作区************
 
 最大安全工作区是由一系列(电压，电流)坐标点形成的一个二维区域，MOS管工作时的电压和电流都不能超过该区域，如果超过这个区域就存在危险。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlNx9gHbV5MLN8g4IA8TiciaTSlFD0EMm1Bv1ZghSI0DtOjhof3F8jKt0qko53JM0p6Hefeh9icEmSg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](轻松搞懂MOS管datasheet_images/img_013_931ebac138f4.png)
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](轻松搞懂MOS管datasheet_images/img_014_2e84b7ba26c6.gif) ![](轻松搞懂MOS管datasheet_images/img_015_51d069a6484e.gif) ![](轻松搞懂MOS管datasheet_images/img_016_5fb296583be4.gif) ![](轻松搞懂MOS管datasheet_images/img_017_1f30148044c0.gif) ![](轻松搞懂MOS管datasheet_images/img_018_c5bc86d0867d.gif) ![](轻松搞懂MOS管datasheet_images/img_019_b38438d4de46.gif) ![](轻松搞懂MOS管datasheet_images/img_020_1d54e9fe0aef.gif) ![](轻松搞懂MOS管datasheet_images/img_021_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](轻松搞懂MOS管datasheet_images/img_022_de88c48250d0.gif) ![](轻松搞懂MOS管datasheet_images/img_023_3b83df2d253b.gif) ![](轻松搞懂MOS管datasheet_images/img_024_db521919e8d9.gif) ![](轻松搞懂MOS管datasheet_images/img_025_aea384ea417e.gif) ![](轻松搞懂MOS管datasheet_images/img_026_f4924e7a240a.gif) ![](轻松搞懂MOS管datasheet_images/img_027_a58db91dbb3b.gif) ![](轻松搞懂MOS管datasheet_images/img_028_f0edc68b0c53.gif) ![](轻松搞懂MOS管datasheet_images/img_029_3c93e54afedf.gif)
 
   
 

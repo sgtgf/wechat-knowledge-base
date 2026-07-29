@@ -7,23 +7,23 @@
 
 带着这个问题，我开始重新审视CEM模型。不久之后，我发现，CEM优化模型实际上等价于如下广义瑞利商问题：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpBCpSMvqiaNmayQTWthicek0JSJUKx9pvkwNYEmoL9TxCUae7eoibNgkZg/640?wx_fmt=png&from=appmsg)
+![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_000_20ab6d9a97e1.png)
 
-下面对它们的等价性进行简要验证。根据瑞利商的相关理论，（1）的解可以归结为矩阵![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpCwL8gjmdRGzsFKznzYgTy6FNOrCiauQicbSKhxzhdm3ic6CzfRIQRL0pQ/640?wx_fmt=png&from=appmsg)的特征值特征向量问题：
+下面对它们的等价性进行简要验证。根据瑞利商的相关理论，（1）的解可以归结为矩阵![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_001_11428c9f345a.png)的特征值特征向量问题：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEprg0jEzicTxlbXVsEunuricbSndKibgxzFQGic0v5VyXBmVBgFpHF4tdl8Q/640?wx_fmt=png&from=appmsg)
+![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_002_fa47faf16b1e.png)
 
 CEM算子
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpmiaG56PLHW8AmHjBgE9WTRA8bZiajemUorSK0YQib3HdNzVSrg4TneOCg/640?wx_fmt=jpeg)
+![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_003_25d08205d44a.jpg)
 
-显然是![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpCwL8gjmdRGzsFKznzYgTy6FNOrCiauQicbSKhxzhdm3ic6CzfRIQRL0pQ/640?wx_fmt=png&from=appmsg)的非零特征值对应的特征向量（将CEM算子带入（2）验证一下即可）。而![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpCwL8gjmdRGzsFKznzYgTy6FNOrCiauQicbSKhxzhdm3ic6CzfRIQRL0pQ/640?wx_fmt=png&from=appmsg)的秩为1，其非零特征值只有一个。因此可以得出结论：CEM优化模型与模型（1）等价。
+显然是![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_004_11428c9f345a.png)的非零特征值对应的特征向量（将CEM算子带入（2）验证一下即可）。而![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_005_11428c9f345a.png)的秩为1，其非零特征值只有一个。因此可以得出结论：CEM优化模型与模型（1）等价。
 
-在得到了上述等价性之后，我们可以基于（1），从广义瑞利商的角度重新分析CEM算子。不难发现，（1）中目标函数_f_(**w**)的分子![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEp280HyjOic2ucKAkLO7nn0QGPeibkdcywp2LmfRMKG4hsxAZurPo4pWcg/640?wx_fmt=png&from=appmsg)相当于感兴趣目标的输出能量，而分母![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpTIddjc8RQQbSlJ7A5ow7lwWsvuJOMbfZfNUF6K2s1fEiboRwZibSHZxw/640?wx_fmt=png&from=appmsg)则对应于图像所有像元的平均输出能量。优化模型（1）旨在寻找一个最优的滤波向量**w**，使得目标的输出能量尽量大，而背景的输出能量尽量小，从而达到压制背景和突显目标的效果。
+在得到了上述等价性之后，我们可以基于（1），从广义瑞利商的角度重新分析CEM算子。不难发现，（1）中目标函数_f_(**w**)的分子![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_006_1f2961a1330e.png)相当于感兴趣目标的输出能量，而分母![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_007_d80d3f26104e.png)则对应于图像所有像元的平均输出能量。优化模型（1）旨在寻找一个最优的滤波向量**w**，使得目标的输出能量尽量大，而背景的输出能量尽量小，从而达到压制背景和突显目标的效果。
 
-需要注意的是，分母中的**R**为高光谱数据![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpWDoPoukgPMDMSSbibxzupdiagggCy0I4eGstesib3ibFbY2IIM2mpIqxng/640?wx_fmt=png&from=appmsg)的自相关矩阵，即
+需要注意的是，分母中的**R**为高光谱数据![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_008_40d3ff6338ee.png)的自相关矩阵，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpUOfGoLunMXiaqsbxibUmu9DXBDZVrT7fcxakhTGiaa9EId0Nicej2sdPhQ/640?wx_fmt=png&from=appmsg)
+![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_009_95b1f07d6229.png)
 
 可以发现，自相关矩阵**R**包含了目标像元在内的图像中所有像元的贡献。因此，优化模型（1）在压制背景的同时，必然也会压制目标本身。
 
@@ -31,11 +31,11 @@ CEM算子
 
 想到这里，我迫不及待地寻找合适的数据进行验证。恰好，西安数据中包含了大量植被（图1中的红色部分），而植被的光谱变化较大，正是理想的“实验对象”。于是，我手工从图像中找了一个明显是植被的像元，将其视为参考光谱**d**，并用CEM算法对其进行检测，结果如图2所示。
 
-![xian](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpppib1bicfzUeBudMSKBlFaBAylUcRBntibwdekYNBlLd1x74WKNvwyIUw/640?wx_fmt=jpeg&from=appmsg)
+![xian](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_010_2e3d65fb26ac.jpg)
 
 图1. 西安高光谱数据（假彩色合成图），其中红色区域为植被
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpef8xf8ibiaSwkUGXNysp3UX8LYLOYy3gr6kuXD1qZeM8ib5SQP8wdz81A/640?wx_fmt=jpeg&from=appmsg)
+![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_011_ffd120d1bc96.jpg)
 
 图2\. CEM植被检测结果
 
@@ -43,15 +43,15 @@ CEM算子
 
 面对图2的结果，脑海中立即浮现一个新的问题：如何改造CEM算子，使其不仅能有效应对小目标，还能适用于大目标呢？ 
 
-一个自然而然的想法就是，既然分母![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpTIddjc8RQQbSlJ7A5ow7lwWsvuJOMbfZfNUF6K2s1fEiboRwZibSHZxw/640?wx_fmt=png&from=appmsg)这项承担着被压制的角色，那么如果我们减小背景对自相关矩阵**R**的影响，是否就能有效缓解CEM在处理大目标时效果不佳的弊端呢？很自然地，加权自相关矩阵的思想就此诞生，即
+一个自然而然的想法就是，既然分母![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_012_d80d3f26104e.png)这项承担着被压制的角色，那么如果我们减小背景对自相关矩阵**R**的影响，是否就能有效缓解CEM在处理大目标时效果不佳的弊端呢？很自然地，加权自相关矩阵的思想就此诞生，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEpnibmXib5tkKPzGwrBXKYhsPGnY2I2DgrAhahCoZMYr5iczlJrLDgvWghg/640?wx_fmt=png&from=appmsg)
+![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_013_2d3ab54b9e9a.png)
 
 其中，_g_(**x**_i_,**d**)是一个衡量像元**x**_i_与参考光谱**d**相似程度的非负函数。当**x**_i_与**d****的相似性较强时，**_g_(**x**_i_,**d**)取值较小；而当**x**_i_与**d**的相似性较弱时，_g_(**x**_i_,**d**)取值较大；当**x**_i_与**d****相同时**，_g_(**x**_i_,**d**)=0_。这样的话，那些与植被的参考光__谱_**d****相似**性较强的像元**x**_i_，由于相应的权值_g_(**x**_i_,**d**)较小，其对**R**\*的影响就被大大削弱了。
 
 将加权自相关矩阵**R**\*取代（1）或者CEM算子中的**R**，即可得到一个新的CEM算子。将这个算子用于无锡数据的植被检测，得到了图3的检测结果。与图2相比，植被的整体检测率得到了明显的提升。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAMu5I9kicFQjxfiad1vY6eEp6tfZhcC1sQ8iaD6O5qQ7K422XSe8gZGhnuvJTiapj1CK7On09UeunZ8Q/640?wx_fmt=jpeg&from=appmsg)
+![](从被无情碾压到得意地笑_CEM算法的隐藏缺陷_images/img_014_5858d5e4531c.jpg)
 
 图3. 基于加权自相关矩阵的植被检测结果
 

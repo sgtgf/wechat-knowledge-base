@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/DwIjPlC82vzckwa\_JGdFXg](https://mp.weixin.qq.com/s/DwIjPlC82vzckwa_JGdFXg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRCTxWUeibrP54IOCgxuJXUdqnK9hl6hkoYiaIZo5RQDMhV2mKAbmt497oRwkc9RHzvh0zB3mHHxKRg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_1_一文读懂GPIO口的结构之输入_images\img_000_ea69b013d9f8.png)
 
 ________**★★★**______________GPIO-1---GPIO的输入配置______________**★★★**________
 
@@ -21,7 +21,7 @@ ____#2.施密特触发器____
 
 施密特触发器有两个阈值，高于上面的阈值就输出固定高电平，低于下面的阈值就输出固定低电平，有效去除输入信号的波动效应。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuJCSfYrMu5uuFq5STiawFbhL40MraYZqFxSfNcbyR0fCPU5GzugVeBiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_1_一文读懂GPIO口的结构之输入_images\img_001_803803122b0b.png)
 
 **_图1-1：GPIO的一般结构_**
 
@@ -29,7 +29,7 @@ _______€2.____浮空输入模式___
 
 浮空输入模式为数字输入模式，可读取引脚电平，如果引脚悬空，则电平不确定，在浮空输入模式时，施密特触发器会打开，此时输出驱动器被禁止。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuCoeqo3P0FYQHI488lFASttVGa1exzXSl6nSOciaeFYSxtEIoxbfx9tA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_1_一文读懂GPIO口的结构之输入_images\img_002_f5c344f7a920.png)
 
 **_图1-2：浮空输入模式路径_**
 
@@ -37,7 +37,7 @@ _____________€3._______上拉输入模式______
 
 上拉输入模式为数字输入模式，可读取引脚电平，此时内部上拉电阻使能激活，IO口被上拉电阻连接到VDD，当引脚悬空时默认高电平。在上拉输入模式时，施密特触发器会打开，此时输出驱动器被禁止。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5Ptuz8pw7zVsbHBtE5QeDdJlOXp1SmSoCHNTQZZx2BDlKKJemvP4xQj7gw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_1_一文读懂GPIO口的结构之输入_images\img_003_7bd9b7a6f469.png)
 
 **_图1-3：上拉输入模式路径_**
 
@@ -45,7 +45,7 @@ ____________€4._______下拉输入模式_____
 
 下拉输入模式为数字输入模式，可读取引脚电平，此时内部下拉电阻使能激活，IO口被下拉电阻连接到GND，当引脚悬空时默认低电平。在下拉输入模式时，施密特触发器会打开，此时输出驱动器被禁止。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuEdAXdZTK4t5bAicuI9vyWwl9FxcfOR8vPibC1QRR9poyibfovlC71E72g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_1_一文读懂GPIO口的结构之输入_images\img_004_d6b194f87b67.png)
 
 **_图1-4：下拉输入模式路径_**
 
@@ -53,7 +53,7 @@ ____________€5._______模拟输入模式_____
 
 当配置为模拟输入时，输出驱动器关闭，施密特触发器关闭，引脚的模拟电平直接输入到芯片内部，一般是输入到ADC模块进行采样，此时一定要注意引脚电平的大小，不然会损坏芯片。所以模拟输入模式主要为片上ADC配置的，注意模拟输入电平和ADC的量程是否匹配。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuF7Qhiafpyf5nYHcy5wtiaRhjXLB5ng4KaLNqQ0nEtI1oZNbibwF5BIxhw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_1_一文读懂GPIO口的结构之输入_images\img_005_8824caaa88cb.png)
 
 **_图1-5：模拟输入模式路径_**
 

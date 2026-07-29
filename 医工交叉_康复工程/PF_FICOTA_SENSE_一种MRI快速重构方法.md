@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47zGWImUfT8tjthHru8GEicnWqYTR8tltoMnR1DPYGic4XWicWicJwc05R8ibXmqnYEtdGaa4icPlJOsiaaA/640?wx_fmt=png)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_000_19fa5e1d463d.png)
 
 图1  K空间中心部分数据决定对比度（左）；外围数据决定解剖细节（右）
 
@@ -38,19 +38,19 @@
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47zGWImUfT8tjthHru8GEicnmjqibsdicg64vKW23SAibia8OLBasR7zuuIGQk3rcWQ6FzYic5XlulYDicrA/640?wx_fmt=png)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_001_b5a9a4322ce1.png)
 
 李建武 北京理工大学计算机学院副教授. 主要研究方向为计算机视觉, 图像处理, 超分辨率图像重建技术. 本文通信作者. 
 
 E-mail: ljw@bit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47zGWImUfT8tjthHru8GEicncs7A5boQxoDCwTCEBWOEe7xAtttztQqnInsL4ZzXOMKa2S1Nkfme3Q/640?wx_fmt=jpeg)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_002_620ce1c634bc.jpg)
 
 康杨 北京理工大学计算机学院硕士研 究生. 主要研究方向为医学图像处理与机器智能.
 
 E-mail: 1045352075@qq.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47zGWImUfT8tjthHru8GEicn6mvicCTK5ibtn7fLjRMV0EvR0mW39IzSibVwB0euw6op9GZOiaIuzRnibrQ/640?wx_fmt=jpeg)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_003_8225c725eead.jpg)
 
 周金鹏 北京理工大学计算机学院硕士研究生. 主要研究方向为医学图像处理与机器智能.
 
@@ -176,21 +176,21 @@ E-mail: 2120121177@bit.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47zGWImUfT8tjthHru8GEicnO8eYtFAdOic2yPuBicWEsAdHnGJwwe20yMw0cWyKxX2bPMQ3mvkWp27w/640?wx_fmt=png)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_004_85b48876f45f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47zGWImUfT8tjthHru8GEicn4aE0EjtquibzLaARBhzTk34gP8tIpa3of2gDzd8zBRZ9NEuO5peeVtw/640?wx_fmt=jpeg)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_005_fd8a07d5cde0.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47zGWImUfT8tjthHru8GEicnO8eYtFAdOic2yPuBicWEsAdHnGJwwe20yMw0cWyKxX2bPMQ3mvkWp27w/640?wx_fmt=png)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_006_85b48876f45f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47zGWImUfT8tjthHru8GEicnHrb371euomsRpjb4mdVuveSm7CfBbnsmibecvjmGGUIHibZUQ9dwVEGA/640?wx_fmt=jpeg)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_007_7117c313d0e2.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47zGWImUfT8tjthHru8GEicnO8eYtFAdOic2yPuBicWEsAdHnGJwwe20yMw0cWyKxX2bPMQ3mvkWp27w/640?wx_fmt=png)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_008_85b48876f45f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47zGWImUfT8tjthHru8GEicnHUrl3ja8N3dDlEEeYw5h3icOnZNwFoVlKzYbhBZ65gLtrejv6kK0UhA/640?wx_fmt=jpeg)
+![](PF_FICOTA_SENSE_一种MRI快速重构方法_images/img_009_23a1add265ae.jpg)
 
 自动化学报订阅号
 

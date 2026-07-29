@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/SGcs2rtUj0odRJcbMEQ5Zw](https://mp.weixin.qq.com/s/SGcs2rtUj0odRJcbMEQ5Zw)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_001_cfc30a4da041.gif)
 
 偶然翻到一份英飞凌官网公开的应用笔记，讲的是MOSFET栅极驱动器的PCB布局。说实话，这种官方文档平时看着枯燥，但真正吃过layout亏的老司机都知道，这里头每一句话都是拿钱换来的经验。喜欢的朋友可以在文末查看文档下载方式哦。  
 
@@ -14,7 +14,7 @@
 
 MOS管对硬件电路设计有多重要，我之前文章里已经念叨过好多回了。原理图搞得再漂亮，一版打回来废了，十有八九是layout埋的雷。特别是搞栅极驱动器这玩意儿，开关速度快、瞬间电流猛，layout要是没处理好，什么震荡、炸机、EMI超标全给你凑齐了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaejbP7cGDtuOxG1uwE1N81HVLd6iaRRBD4RwiapDiaJY2TW2Qp2VsicaJqv1ibibhH7cCJba1Voiclx6WialdPcH4v17iaMW3zrd9MuNTIE/640?wx_fmt=png&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_002_123005a5271e.png)
 
 英飞凌这份文档其实内容不多，但是图文并茂的把要点知识都给你整理出来了，拿一个真实的800W服务器电源做例子，以实际案例给你讲解。咱们今天一起来看看。
 
@@ -26,19 +26,19 @@ MOS管对硬件电路设计有多重要，我之前文章里已经念叨过好�
 
 先看这个800W服务器电源的框图，整个电源的架构一目了然。PFC级、LLC初级侧、同步整流、Oring电路，每个地方用到哪种驱动器，图上进行了标注。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadT1skobsssJayHMleoAtdm6lHibt1pCRop7aoSoMT7dFsdKeQb1eyX0oiaBkZR7P54XP3gAlURpAUADa37NnOtSvMxmzs33k1QE/640?wx_fmt=png&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_003_d80fe1d22e51.png)
 
 再看主板底视图，所有栅极驱动器的位置，包括SR和Oring的位置，都给你圈出，都能实地找到。这种3D特别友好，能直观看出人家是怎么摆件的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafwc514oic1DOyjQN9NY7y3KmSkIKVSZG5PC7QicGnWibnWVEI7uDMXOqhu2rJhjsgx0OyFzXIfejSibZibbEiagllIONdlzbtcIcrkA/640?wx_fmt=png&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_004_1e7cc6557e2d.png)
 
 中间这张原理图画了黄线，标出LLC初级侧和次级侧的隔离边界。驱动PFC和LLC低边MOSFET用的是2EDN7524F这颗芯片，图上走线怎么接、外围怎么配，都有现成的参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadZ0uMH1ic3zgZ4dGg0m6hsskCpmADP6ozepyvEpFhOWXOPRgxcU8bNbCfAFv1sibxyZNZ2g2aKJhWr5l5U0lXgQh10CMQyd5y4U/640?wx_fmt=png&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_005_52c50dcaa3be.png)
 
 到了PCB实际布局图，就能看到SOIC8封装的驱动器周围，电阻电容怎么摆、走线怎么拐、旁路电容搁哪儿，清清楚楚。这些实打实的例子比空谈理论有用得多。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafpyLA0RiaibxOnr0ngpd1TPe8j8zqlcLruhpv5hQ253whOOfHxThdBdqt1sbhSoBQa2CGWNznak5SR9UwX4YST6R6OYABVpuhGQ/640?wx_fmt=png&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_006_41e43387551a.png)
 
 这份文档虽然不长，但里面干货不少，配图也很丰富，这里就不一一截图罗列了。简单把文档里的核心内容和我的个人理解梳理一下，给感兴趣的朋友做个参考：
 
@@ -48,7 +48,7 @@ MOS管对硬件电路设计有多重要，我之前文章里已经念叨过好�
 
 **3、****如果PWM信号线比较长，必须在紧贴驱动器输入引脚的位置增加RC滤波器**，用来滤除长线引入的高频干扰。这东西放的位置很重要，放在别处基本没用，拦不住噪声进芯片。这个方法对于其它驱动芯片也有参考价值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaf8bmt52aUhBRVKhXB7oiamRYzqJz2lS5PFMoexDCY6mHD3uSibjLRia6xPnm2PyUjxTFpcqJsvc5CfArRIpEWWRDdvslrHCP27UY/640?wx_fmt=png&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_007_2972dcaaac85.png)
 
   
 
@@ -74,10 +74,10 @@ MOS管对硬件电路设计有多重要，我之前文章里已经念叨过好�
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafPSaENaqn0ohbagmnDofiaoMfTfLz1QNlMUzCJ68fQ5EoxoMkkrzSRpdLM49qouqklxP04Xj4mBwmVczEZFQSkNrCxnYeo7xzc/640?wx_fmt=png&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_008_ee84a5c1a6a6.png)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niaffic5EqmJibKrNlVgpmyNzguhXKT0XtVGkAIyYicIXHdkE5Sy0K0Zze3L425K0LKrARibbSWvrv1FxyhfUHMr8DsNoC5iaZLd1t5kk/640?wx_fmt=jpeg&from=appmsg)
+![](老实说_英飞凌这份MOS管笔记_比很多培训都管用_images/img_009_e13959895a80.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

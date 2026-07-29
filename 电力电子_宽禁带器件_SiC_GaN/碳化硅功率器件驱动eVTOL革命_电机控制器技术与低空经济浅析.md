@@ -5,15 +5,15 @@
 
 低空经济（Low-altitude Economy）是一种新型的综合性经济形态。它以低空飞行活动为核心，以有人或无人驾驶飞行、低空智联网等技术组成的新质生产力与空域、市场等要素相互作用，带动低空基础设施、低空飞行器制造、低空运营服务和低空飞行保障等发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqek5R0JjYfAR6gwqFKb90l2faqYaXibkqER3OQq3N0a78Qs8XpdPBHow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_000_b6531fc1be57.png)
 
 低空经济包括低空制造、低空飞行、低空保障以及综合服务四个方面，横跨第一、第二、第三产业 。其相关产品主要有无人机、电动垂直起降飞行器（eVTOL）、直升机、传统固定翼飞机等，涉及市政管理、居民消费和工业应用等多种应用场景。低空经济的应用场景包括交通出行、物流配送、农业植保等方面，具有空间多维性、产业整合性、技术经济性的特征。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqw6k5Qib8Lx8qht6dAbuHmibZIkfkj16XQ3ia9HMpPRGcofhXiaiaZjA8Qdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_001_864f62c3c4f7.png)
 
 低空经济已被纳入国家规划，相关政策频繁出台。2021年2月，低空经济概念首次被纳入国家规划。2023年中央经济工作会议强调要大力推动新型工业化，发展数字经济，加快人工智能的发展，并打造生物制造、商业航天、低空经济等战略性新兴产业。相应的规范性政策也陆续发布。在2024年全国两会上，低空经济首次出现在政府工作报告中，体现了中央发展低空经济的决心。地方政府响应中央号召，广东、上海、四川、湖南、海南等省市均提出了相应的行动计划。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqxsvcmAplEptDKs3KqhibW34WyjUOFEbvWs2a5x9gt8j4Tu1qoxezAicA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_002_ebd60df9eb22.jpg)
 
 在eVTOL领域，参与者包括传统航空巨头、汽车制造商以及新兴的eVTOL企业。
 
@@ -27,7 +27,7 @@
 
 低空经济作为全球新兴产业，正以年复合增长率62%的惊人速度重塑人类出行版图。在这一新兴经济形态中，电动垂直起降（eVTOL）飞行器凭借其融合直升机垂直起降能力与无人机智能操控的特性，成为低空经济的核心载体。与传统航空器相比，eVTOL在噪音控制、运营成本及环保性能上实现了质的飞跃，其动力系统、能源模块及航电设备占整机成本超过70%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqxXkcO9IGibgNdgW6RtYEjRrjU4NgqiaibTpUMFicu45oic040KicBNR0lSWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_003_2150dbe47f86.png)
 
 eVTOL产品图
 
@@ -37,11 +37,11 @@ eVTOL产品图
 
 二. 电机控制器的核心技术要求
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqP21dTrMN1ww6h5Pvzr4LrFOO6iaPNxUyyIN9YUbwZ78ut5XZYv1O0XA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_004_e18088d5bf39.png)
 
 eVTOL飞行器的电机控制器作为飞行控制系统的“心脏”，面临着比传统航空器更为严苛的技术要求。飞行器在起飞、悬停和降落时，需要高性能、轻量化和高效率的电机控制器来满足其性能要求，这些要求主要源于eVTOL独特的分布式推进架构和高安全可靠性需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBq0PEfGUxxTHjLAPGbruYVjwmX39wJWINynNNqrRDLnPFDroy8IlEPxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_005_5610d4479efc.png)
 
 天津松正产品线
 
@@ -71,7 +71,7 @@ eVTOL飞行器的电机控制器作为飞行控制系统的“心脏”，面临
 
 表：eVTOL电机控制器与汽车电驱系统技术要求对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqd1tUUux3nb43UYkvUHhKFFsQkHOjCjpyXIFvV83DODUIzNYHQKicI3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_006_ff4a2d90b655.png)
 
   
 
@@ -83,11 +83,11 @@ eVTOL飞行器的电机控制器作为飞行控制系统的“心脏”，面临
 
 电压等级：eVTOL普遍采用800V电气架构，部分机型正向1200V演进，要求功率器件耐压等级达1200V-1700V。高耐压可减少串联器件数量，简化电路结构，提高系统可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqEicIdy6fjUXPkv9U8fLdBm1ElevZAd70mg8d4JVwgbMmUeq5LUh1lPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_007_4eaf87e4fbfb.png)
 
 电流能力：分布式电机单元峰值电流达300A以上（如Joby S4机型）。需平衡单管并联与模块化方案的利弊——分立式SMD单管（如每控制器60颗SiC MOSFET）利于散热布局与冗余设计，而模块化方案可减少寄生参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqWxINgo4A7YibyMnHzpJb1b6bbf9leTUrVK5kPX1XQRZ9ewbcpgI1R8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_008_a2d5a1157df2.png)
 
 开关特性：开关损耗直接影响控制器效率与散热设计。SiC MOSFET较IGBT开关损耗降低70%以上（如1200V/300A SiC模块开关损耗仅IGBT的1/3）。低开关损耗允许更高频率工作，提升控制精度。
 
@@ -97,7 +97,7 @@ eVTOL飞行器的电机控制器作为飞行控制系统的“心脏”，面临
 
 碳化硅(SiC)功率器件凭借其宽禁带特性（3.3eV，3倍于硅），在eVTOL电机控制器中展现出革命性优势：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBq4rFvruLzkiag1PnGCIACcAwiaiaTJSEAPFUo4A8pV72iaRjvRIdrs0QIWA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_009_ca36c10d0f06.png)
 
 材料级性能突破：SiC具有3倍热导率（490 vs 150 W/m·K）、11.7倍临界击穿电场（3.5 vs 0.3 MV/cm）以及3倍禁带宽度（3.3 vs 1.1 eV）的材料优势。这些特性转化为系统级性能提升：效率从硅基92%提升至98%+，快充时间缩短至15分钟内，逆变器重量减轻40%。
 
@@ -109,7 +109,7 @@ eVTOL飞行器的电机控制器作为飞行控制系统的“心脏”，面临
 
 表：SiC与硅基器件关键参数对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBq5C8gngsQ3SYXrPe6GiavE0uUZVPyrpAMbCCvFz7STBSe4iclD0p58YIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_010_ae405f055205.png)
 
  3.3 驱动电路设计要点
 
@@ -133,19 +133,19 @@ EMI抑制技术：高dV/dt（>50V/ns）易引发电磁干扰，需采用：
 
 eVTOL凭借其垂直起降能力和灵活部署特性，正在多个领域开辟创新应用场景：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqqFcaayF25lOxBzfEQoeicSicg6D6LiaegoCeqm28TV3ribxpsPkU6wQcow/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_011_878a41a1f2dd.jpg)
 
 城市空中交通(UAM)：解决高密度城市群的交通拥堵问题，实现“点对点”空中通勤。在交通拥堵严重的城市地区，eVTOL将提供一种全新的出行方式，有效缓解地面交通压力。据预测，50-150公里城际通勤场景中，eVTOL较传统直升机运营成本降低40%，同时碳排放和准时率也将大幅优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqSCfp087rUN1j66aYE18k2kzFFP2IhSYJCuRcTMVarzh3Kia8h2FJMGA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_012_8233b7b52f0d.jpg)
 
 紧急医疗服务：医疗eVTOL可将应急响应时间缩短至传统模式的30%以下。在偏远地区医疗急救、器官移植运输等场景，eVTOL可突破地面交通限制，大幅提高救治成功率。医疗专用型号配备生命维持系统与快速装卸设计，实现“空中ICU”功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqzGxJpdXnOZ23IiaHFSLnULFWNvx4s6QG61j5ZY0Csx7qquM1CscaQHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_013_fe43ab6146fe.png)
 
 中短途城际通勤：eVTOL精准卡位150-400公里中短途运输市场，填补高铁与民航的服务间隙。垂直起降场与公交枢纽的无缝衔接，正在重构“15分钟城市生活圈”，实现多式联运的无缝出行体验。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqv5ypMuhicSxTFOnzXMx3JbK92u5dyWNBV99uMDdx8eibDCibLo0YhbaAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_014_c2fe769a8386.png)
 
 特色物流网络：在山区等复杂地形区域，低空物流网络有望实现3-7倍的配送时效提升。eVTOL在冷链物流、高值药品运输、紧急物资配送等领域具有独特优势。随着电商行业快速发展和消费者对配送时效性要求提高，eVTOL在“最后一公里”配送领域的应用也将增多。
 
@@ -161,13 +161,13 @@ eVTOL商业化将遵循阶段性发展路径，逐步从政府主导过渡到大
 
 表：eVTOL商业化三个阶段关键特征
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqoU9oibxaD5jzSrQeG3HgUQXw23qfZRMfPwmBRf8jJELSqDdb9f8pjSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_015_d51d708fc553.png)
 
   
 
 五. 技术挑战与未来发展趋势
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBqewpY8m0r3E2k7oxag88gryC19tkTDJt3V7rS5ovS4YeGKYqCEKCa4g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_016_274859d0f97d.jpg)
 
 5.1 核心技术瓶颈
 
@@ -201,19 +201,19 @@ eVTOL产业的爆发需器件厂商、整机企业与政策制定者三方协同
 
 随着低空经济进入2.0时代，eVTOL正从政府采购向大众消费跨越。这场静默的技术革命将重塑人类出行版图，催生万亿级市场。当25万台飞行器在2045年翱翔天际时，人类将真正迎来“低空经济”与“地面经济”双轮驱动的立体交通时代。而碳化硅功率器件作为这一变革的核心使能技术，将持续推动航空动力系统向更高效、更可靠、更环保的方向演进。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmj0JY4s7ZdRibeIf15aYjBq0jQVyjic2CB2P6Fic99SnwPSmmfh9L0u7HdP108JTO4fNo03QB6SoTCw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_017_d5bd8a48c410.jpg)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbdVPE5Evia0Ipg3TFLGm9RwgGY0ju5IcLMJC7ia9S1lciatEngffm5osCQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_018_e73d05ba9893.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbojSEKxFRelqZffmkrtnbBPfCTs1OWaibqkiaiaovSlHaj8gHZ6NibwvY0Q/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_019_8c06295d8cf4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbgA2AIx2DkzH5SlrHSZvlErx9PxdkZia06dIlffGx8qjoLmVTbl9AQXQ/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件驱动eVTOL革命_电机控制器技术与低空经济浅析_images\img_020_e44bc63af74e.png)

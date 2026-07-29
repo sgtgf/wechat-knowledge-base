@@ -93,7 +93,7 @@ SiC 材料以其优易的物理化学性能，非常适合对能源效率至关
 
 2.1.1 设计要求
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyFK7AeEwOdEHPR38awdPaIA9vOEgCM3nPe1XWK8NXxVploASlict5pDQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_000_acf1d26c8ca4.png)
 
 本文以SiC MOSFET 开关电源为应用背景，开关电源所采用的功率模块为德国英飞凌生产的SiC MOSFET，模块的型号为FF6MR12W2M1\_B11，也是后续工作中驱动电路需要驱动的目标SiC MOSFET，其技术参数如表2.1 所示。目 标SiC MOSFET 在最高工作结温为25°C 时，最大漏源极电压为1200V；在175°C最高工作结温、15V 栅源开通电压，且散热器温度恒定保持10°C 时，其最大直流漏极电流为200A。目标SiC MOSFET 具有低电感、低损耗、高电流密度、高功率密度等特点，模块封装带有PressFIT 压接管脚，可通过PCB 板进行直接压接，是能够满足功率模块无铅无焊接安装的一种便利的封装形式，且模块安装过程与PCB 的焊接过程可以分开进行。本章节针对目标SiC MOSFET 的需求设计驱动电路，为保证SiC MOSFET 安全可靠工作，驱动电路应具备如下功能：
 
@@ -131,26 +131,26 @@ SiC MOSFET 的器件结构、开关过程与Si MOSFET 类似，因使用材料
 
 驱动电流是MOSFET 匹配合适的驱动器的重要参数，其值由栅极输入电压摆幅与栅极输入电阻所决定，栅极输入电阻由外置电阻RG(ext)与MOSFET 模块内置电阻RG(int)组成。通过计算适合于目标SiC MOSFET 的最小驱动电流，以此分析驱动芯片选择的合理性。结合SiC MOSFET 技术手册中的参数，可以计算出在该驱动电路中，栅极电压摆幅ΔV 与栅极电阻RG分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyqjA5yiaPlFnspljXNpxm2b7KicvcYAOfPszZLhMUugiaJgNWDWL5Qal6w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_001_2de8d2e52bc0.png)
 
 因此目标SiC MOSFET 所需的最小驱动电流IG为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsygGkogSnzGvGtYqDNUcyETnnb0bhptpLUWkhoIdJ7EyzPxicFy7Lcysg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_002_e2739c97e828.png)
 
 2.2 驱动芯片 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyCQolibtft2tnYlicekLj2fy7ODoibNiaKuvlS3PCVmE99vMTqRxz7jWiaQQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_003_f385d31c1d7b.png)
 
 SIC1182K是美国Power Integration 旗下子公司Concept Technologie 生产的适用于SiC MOSFET 的单通道栅极驱动器，能够适应\-40~+125°C 的环境温度。 这款芯片采用eSOP-R16B 封装，外形紧凑高度集成。固体绝缘FluxLink 技术为芯片提供更强的电气隔离，具有9.5mm 的爬电距离和间隙，将控制与输出部分完全隔离。芯片峰值电流输出为±8A，能够驱动额定电流值高达600A 的功率器件，最高可达150 kHz 的开关频率能够满足SiC MOSFET 的高频工作需求。芯片引脚结构图如图2.1 所示，结构示意框图如图2.2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyejQpD6qDjLbXz7C14iaozkoFx5hcECSlUHRjvyu6JtOcichFRwArPXoA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_004_ce3ff43ffe01.png)
 
   
 图中各引脚的功能简要描述如表2.2 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyHDQ9scwLsk1zE5hPicn5cBdxVMx25w3l7BVibHKUs9Hk4wOJ2BneN8sg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_005_718eb7e53977.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyffw1kIWuzhibqgm8J0OJNr9RnSR1UFnF9hs8bt74hhR41xtsVlnbP0g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_006_fc3fa6c5ab8a.png)
 
 SIC1182K驱动芯片适合600V/650V/1200V SiC MOSFET功率开关，与目标SiC MOSFET电压等级相符；芯片能够实现高级有源钳位、欠压保护、过流故障关断、短路故障关断等功能满足SiC MOSFET的保护要求；其开关频率最高可达150 kHz，能够支持SiC MOSFET的高频工作；芯片的输出电压为+15V/-5V， 与目标SiC MOSFET 技术手册中的推荐开关电压+15V/-5V 一致，能够较好地驱动SiC MOSFET；其提供的±8A 峰值输出电流，大于SiC MOSFET 所需的4.9A峰值电流，能够满足设计需求。 
 
@@ -158,7 +158,7 @@ SIC1182K驱动芯片适合600V/650V/1200V SiC MOSFET功率开关，与目标SiC 
 
 2.3.1 SIC1182K 驱动电路 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy6JI4toFvRM1ia0RibbuVupia7Xrrlrp5ANiczc6U5icWRtmlibcGrxz50icjw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_007_70d576bf1bab.png)
 
 SIC1182K 驱动电路是为SiC MOSFET 所设计，用以保证SiC MOSFET 安全可靠工作。驱动电路原理图如图2.3 所示。针对SiC MOSFET 的需求，驱动电路 分压电阻R1、R2，将电源控制器输出的15V PWM（Pulse Width Modulation）电压信号转变成驱动芯片所能识别的5V 信号，用以输出+15V/-5V 电压控制SiC  MOSFET 工作。与SNS 引脚连接的RCE 电阻网络、稳压二极管链分别用以检测短路、过压故障，通过调整电阻值、二极管稳压值与电容值可设置故障检测值与盲区时间，达到保护SiC MOSFET 的目的。
 
@@ -166,7 +166,7 @@ SIC1182K 驱动电路是为SiC MOSFET 所设计，用以保证SiC MOSFET 安�
 
 2.3.2 驱动电路电源
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyyCVHFVicmE1O6NSZC1zZ81jv7qNFRQtiav7ibSAM8kuhfPh3iaa6CPAHkw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_008_e5bd26e29574.png)
 
 驱动电路需要两个电源供电，芯片引脚如图2.4 所示。其一为一次侧的5V供电电源 VCC，该电源以GND 引脚为参考电位，用以驱动芯片的逻辑判断处理以及与二次侧的通信；其二为二次侧的20V 单极性电源VTOT，该电源连接于VISO和COM之间。驱动电路对电源有欠压监控保护，当电源VCC 的电压值小于4.15V 或者电源VTOT 的电压值小于12.35V 时，驱动芯片会控制驱动电路停止工作，直到电源VCC 与电源VTOT 的电压值分别恢复到4.3V 与12.85V 以上， 驱动电路重新工作。
 
@@ -184,7 +184,7 @@ SIC1182K 驱动电路是为SiC MOSFET 所设计，用以保证SiC MOSFET 安�
 
 驱动电路中驱动芯片的SNS 传感引脚，通过高级有源钳位将短路保护和过压限制保护结合在一起，在检测到故障信号时快速自锁，屏蔽输入控制信号，保证器件的安全工作。SNS 引脚具有交替功能，在开启瞬态期间通过电阻网络进行短路检测以及关断瞬态期间通过TVS 稳压二极管链，如图2.5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy0mpLFgd8QicjoicQbdwuzx4wwAqIkdWktJIEqzC7iauqayKpVF8QnflGg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_009_8142826ad5bb.png)
 
 在短路检测过程中，驱动电路采用的是常用的去饱和检测，SNS 引脚通过RCE电阻网络与SiC MOSFET 漏极连接，用以监测SiC MOSFET 漏源极电压VDS。SNS 引脚在SiC MOSFET 导通瞬态期间用于短路检测，通过引脚处电压VSNS 来判断SiC MOSFET 是否正常工作，VSNS 以VEE 为参考电平，当VSNS 电压值大于预设检测电平值时，芯片即判断SiC MOSFET 发生短路故障，关断SiC  MOSFET 免受短路损坏。
 
@@ -198,19 +198,19 @@ SIC1182K 驱动电路是为SiC MOSFET 所设计，用以保证SiC MOSFET 安�
 
 对于驱动电路输入侧，如图2.6 所示，电源控制器所给出的15V PWM 控制信号，需要使用R1、R2 分压器，在IN 引脚获得5 V 信号，R1、R2 分别取3.3kΩ、1.2kΩ。上拉电阻RSO 连接于VCC 和SO，取值为1kΩ，以便在故障情况下为SO提供至少5 mA 的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyb95Yfn5Yibubkfl6BBnicImnWcq32tSONb5SA9uT1cuUNb5nwgVvQnUw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_010_d5af81f5929d.png)
 
 SiC MOSFET 栅极处需要一个22kΩ 电阻RDIS 连接到COM，避免驱动电路上电期间寄生导通。栅极还需一个肖特基二极管DSTO 连接到VISO，以确保短路期间的栅极电压稳定和漏极电流限制，具体如图2.7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyxD73SlGtLFBgxQbrxwG674aYS3BV6vuCZXvyWjcibJ1yGmtSiaAW5DUQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_011_9d5c497b6537.png)
 
 GH 和VGXX 间需要连接一个10 nF 的电容，保障高电平输出时的稳定。而对于每1μC 的SiC MOSFET 栅极电荷，至少需要3μF 的缓冲电容置于在VEE 和COM（CS1）以及VISO 和 VEE（CS2）之间，吸收充放电时的电流尖峰，目标SiC MOSFET的总栅极电荷为0.496μC，因此：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyGuvqU3sr5TOsiadbfbicgBeN6ahpIm8iaZvhEA9MyLVH77x4cgsLu3BZA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_012_1fa65d494196.png)
 
 驱动电阻RGON、RGOFF在驱动电路中是采用独立的两组贴片电阻，考虑到驱动芯片自带的0.74Ω 开通内阻与0.68Ω 的关断内阻，因此还需要阻值为3Ω左右的电阻作为驱动电阻。由于驱动电路需要驱动SiC MOSFET 在高开关频率下工作，SiC MOSFET 的栅极电容必然会高频率充放电，这将使驱动电路不断消耗在驱动电阻上，因此驱动电阻需要有足够的功率来保证自己的安全工作。由目标SiC MOSFET技术手册可知，在开关电压VGS\=-5V/15V的情况下，SiC MOSFET总的栅极电荷为QG\=0.496μC，在假定开关频率为50kHz 的情况下，可大致计算驱动电路中驱动电阻所需功率为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyQ00jHV838WTJUZDwOrOdTPjDR2IWxlaAPWfanBcUQSjyiaqNlZwg3mA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_013_02563e9bade6.png)
 
 考虑到60%的温度效应以及后续开关频率的测试且需要留下足够的裕量，驱动电路通过并联6 个16Ω、0.5W 的贴片电阻作为驱动电阻，可以满足高频开关的功率需求。  
 
@@ -220,7 +220,7 @@ SNS 引脚具有交替功能，在关断瞬态期间通过TVS 稳压二极管�
 
 当关断瞬态期间发生过压故障时，SNS 引脚与COM 引脚经由芯片内部相连， 以VEE 引脚即SiC MOSFET 的源极为参考零电位时，此时SNS 引脚与COM 引脚电位均为\-5V。由于此时稳压二极管链因过压被反向击穿，因此稳压二极管DACC1 的阳极处必有大于0V 的电压，考虑到二极管导通压降约为0.5V 以及SiC MOSFET 3.45V的栅极阈值电压，因此此处DACC1 阳极电位在理论计算时取为1V 介于0.5V 与3.45V 之间，保证SiC MOSFET 不因过电压而异常导通。 由于SNS 引脚与COM引脚经由芯片内部相连，此时RACC1、RACC2 与 CAAC1在电路结构上为并联关系，则可取 RACC1、RACC2 如下式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyia7pAbREetHTrHrwgQPa8uNw6BxSSVM9dD4YrAE75S5jojvPAQ2MVyg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_014_d3c50f7f7681.png)
 
 SiC MOSFET的关断延时tdoff = 66.0ns，下降时间tf = 30.5ns，因此关断时间toff = tdoff \+ tf = 66.0+30.5 = 96.5ns。过压故障的动作消隐时间应跳过SiC MOSFET的关断时间阶段，防止器件还未正常关断的情况下，驱动电路便误报故障。因此 取时间常数为 100ns 略大于器件的关断时间，因此CACC1 的容值取为 4.7pF。
 
@@ -230,7 +230,7 @@ SiC MOSFET的关断延时tdoff = 66.0ns，下降时间tf = 30.5ns，因此关�
 
 SiC MOSFET 具有比Si IGBT 小得多的短路安全工作区(SCSOA)。IGBT的典型短路耐受时间为10μs。相比之下，SiC MOSFET的典型短路耐受时间通常仅为2μs。驱动电路必须能够在2μs 的时间范围内完成短路检测并安全关闭器件。 且SiC MOSFET的开通延时tdon\=19.3ns，上升时间tr\=18.0ns，因此开通时间ton =  tdon + tr = 19.3+18.0 = 37.3ns。因此短路检测消隐时间必须大于SiC MOSFET 的开通时间，并远小于2μs 的短路耐受时间，取RCETH=330kΩ，CCOMPS=0.3pF 时， 能够满足下不等式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyEUo54wvLp3ibhsBDiaP4iacHCKicDlUloOxicWq3950vuInhXxic3cQHdiaOQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_015_6f948666180b.png)
 
 关断时，SNS 引脚与COM 引脚相连，母线电压将为CCOMPS 充电，因此RCE1电阻取为220kΩ 时，可使电容与SNS 引脚连接处电势最高为0V，便于导通瞬态的短路检测。 
 
@@ -246,17 +246,17 @@ Altium Designer 是澳大利亚Altium 公司（前身为Protel 国际有限�
 
 Altium Designer 的制造管理功能，能够很好地帮助工程师管理由设计到制造 的流程。由于从设计到实际生产的过程中，常常会伴随各个制造环节产生的大量 信息文件，这些文件来自于不同群体，有原理图、PCB 设计文件、元器件参数以 及设计流程报告等，诸多信息文件交汇时需要费时费力管理且容易产生错误。制 造管理功能在设计环境中能够创建并跟踪文件的更新记录，通过集中管理输出文 件的定义和生产过程，完成了对输出流程的优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy8DeXAX5qdbtTLcMdz6NyOCXDiaStKvB89c69YnD5lkzHaPxkyHEmvoQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_016_ef5a176894af.png)
 
   
 
 通过Altium Designer 所绘制的，适用于目标SiC MOSFET 功率器件的驱动 电路板、驱动电路示意图以及PCB 板绘图如图2.8-2.10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyBU81KGNSiakf8rZiasZ4K6T4QPZHN2vmKGdfYoFm9rUumo0hP06qVDvg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_017_b8941e7535b5.png)
 
 该PCB 电路板所占面积小且已涵盖了目标SiC MOSFET 正常工作时所需要的各项功能。栅极电阻由于需要走较大的驱动电流，设计时需要加宽栅极电阻所在回路的布线，同时多贴片电阻并联能够有效降低栅极电阻的发热情况。PCB 四个角落都放置了较大孔径的过孔，以便实际使用时能将其固定在电源上，防止电源工作时突然脱落而发生意外事故。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyYnT8qf3PcTxsMB9AP4MibEsooMpNuqQZzpr1TRZn545CMSCSKPKx3aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET_在加速器电源中的应用_images\img_000_faa4b6384396.png)
 
 2.6 驱动电路测试
 
@@ -264,29 +264,29 @@ Altium Designer 的制造管理功能，能够很好地帮助工程师管理由
 
 2.6.1 输出电压测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyBNm0G7dM1KgiadBH2X78FXggRBxwxtB154LKSjts7c2SgiaCsIKmcIuw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_019_debee7e94fcc.png)
 
 本文为 SiC MOSFET 所设置的驱动电压为+15V/-5V。测量驱动电路自身的 栅极输出波形，采得的空载波形如图 2.11 所示。图中是驱动电路空载条件下的电压输出波形，其开关频率为 50kHz，高电平为+15V，低电平为\-5V，高低电平 稳定无明显波动。图2.12 为驱动电路接上目标 SiC MOSFET 后采得的50kHz 开 关频率的带载波形图，图中输出波形的正压尖峰为+17V，负压尖峰为\-8V，均在目标SiC MOSFET 最大开关电压+20V/-10V 内，满足SiC MOSFET 所需的开关电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyKLxmB11IK8Z92Ql6aIib9v0WHhichxDHS5ojrSFqY2LMRicmHON6TibRww/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_020_0fa773e9c4c4.png)
 
 2.6.2 响应时间测试 
 
 SIC1182K 驱动电路的信号输入输出回路中电容较少，电路的响应时间主要由驱动芯片的固有延迟决定。为实现对驱动电路的准确控制，本文测试了驱动电路空载下的响应时间，测量结果如图 2.8 所示。其中通道 1 蓝色波形为 IN 引脚 接收的+5V PWM 控制信号（即驱动电路的输入信号），通道 3 紫红色波形为驱动 电路输出的+15V/-5V 栅极控制信号（即驱动电路的输出信号）。由图中输入输出 的时间差计算得到，驱动电路的响应时间约为 260ns。与驱动芯片技术手册中的265ns 延迟典型值相近，满足控制要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsypzricF0TdUcuTumLTtQN4dAGKcMbnaq09kMichgWm9Wib2bP6Dz7V2GNQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_021_dc3e0d0ab626.png)
 
 2.6.3 脉宽测试
 
 开关电源输出功率的控制，是通过控制其开关器件的驱动脉宽来实现的，这便要求驱动电路能够做到跟随输入脉宽的变动，控制其输出脉宽。因此本文分别测试了在 1μs、2μs、5μs、10μs 输入脉宽下驱动电路的空载输出波形，测量结果 如图 2.14 所示，验证了驱动电路输出脉宽的可调性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyTfYHESrEic8iaHF7dATksN3SygZT7I684SuHBWEiboV4eVZkDsVoMcELw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_022_1a3d969c4b91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyrg8K1YOibQa3TGxficnPu7ia6r0NCXhqwk4SVBsGyoTiaiarptzQ3Kiafp6w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_023_727c2e2d2460.png)
 
 2.6.4 稳定性测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy4z5RL3l8icw0CAwJgr45Tn8hjWqQXxbrlPKkz2AZ98QwMQB0w58SpwQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_024_42bb059ef105.png)
 
 为了验证驱动电路输出的稳定性，本文针对驱动电路的空载输出波形进行了为期一周的持续测量工作。通过测量驱动电路在 4 种不同输入脉宽下的输出波 形，计算出输出脉宽的平均值和标准差，具体数值如表2.3 所示，由表中测量数值计算出该驱动电路的输出脉宽稳定度好于0.2%，满足设计要求。
 
@@ -300,11 +300,11 @@ SIC1182K 驱动电路的信号输入输出回路中电容较少，电路的响�
 
 功率器件的驱动电阻由两部分组成，分别是功率器件内部的栅极电阻、与功率器件栅极相连的外置栅极电阻，前者由器件材料所决定不易改变，后者则可通过人为修改，从而改变总驱动电阻阻值。通过采集在不同驱动电阻下的SiC  MOSFET栅极电压波形，进而分析对比，挑选出适合目标SiC MOSFET的驱动电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyqSY4670eZMNID44KWaVLEnr6StrLBzyghKWSRFUVEtNIcOfIQqPK0w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_025_eea55b28fbb9.png)
 
 实验挑选了1.83Ω、2.20Ω、3.00Ω、3.60Ω、4.00Ω、4.50Ω、5.00Ω、6.00Ω 共8组栅极驱动电阻，在接上目SiC MOSFET后，对目标SiC MOSFET 栅极电压波形进行测量，实验采集到的电压波形如图2.15 与图2.16 所示。在导通阶段 采集所得电压波形图如图2.15 所示，由图可以看出，栅极电阻越小时，SiC  MOSFET的栅极电压波形越陡，达到阈值电压的时间越短，但电压尖峰也越大； 栅极电阻越大时，SiC MOSFET的栅极电压波形越缓，开通时间越长，同时电压 尖峰明显减小。在关断阶段采集所得电压波形图如图2.16 所示，由图可以看出， 栅极电阻越小时，SiC MOSFET的栅极电压波形越陡，达到关断阈值电压所需时间越短，但在下降沿底部的负栅极电压也越大，较易达到SiC MOSFET的最大承受负压；栅极电阻越大时，SiC MOSFET的栅极电压波形越缓，关断时间也越长，同时下降沿底部的负栅极电压变化平缓，并未超出预设输出负电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy6laZ0Hd6ANiccJdzgK1icUIOw89zFMGMFJ9dGW26QOFKLJOhfBMiaYIZA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_026_40890382107a.png)
 
 2.8 本章小结
 
@@ -326,43 +326,43 @@ Simplorer 备有一些特定专用库（航空航天网络专用库、电动车
 
 SiC MOSFET 电源样机前级输入为英杰电源模块输出的可调直流电压（稳定 度 0.1%），经叠母电容滤波后，电流经由 H 桥斩波以及LC 输出滤波后输出到磁铁负载(0.0375H、0.075Ω)。叠母电容的电容值选取按照如下公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy4PfDRV9zgHfkrVVKk69KwSPUtibceZLtVZcpCrSBcN1FQic2kGdp9ktQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_027_288402ed23e2.png)
 
 其中，Io\_max 为负载电流最大值，TS 为电容提供电流时间，ΔV 为允许的输 入纹波峰峰值的 1%。将理论计算数值结合仿真模拟的滤波效果后，最终叠母电 容选用5个160V/15000μF 的电解电容并联使用。输出滤波电容电感的选取按照 如下公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsycL8VMVcPk9WIaUrGZhVDBNR2fR7e47BI5uZaVD8VnjRap9ukicTaxuA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_028_b57ee466249e.png)
 
 其中 Vo 为输出电压，Po 为输出功率，f 为工作频率，D 为占空比，Io为输出电流，Vr 为输出电压纹波，结合仿真模拟的结果，最终输出电感选取为1 个0.2mH， 输出电容选取为1 个35μF。 
 
 3.1.3 仿真建模
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy58tQvJcUkjee6CKLOCmJtBlFL7iaXJE9iaLVvGSCEbFJwojeQxnsqFMg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_029_e5a4020de5ee.png)
 
 SiC MOSFET 电源样机仿真模型如图 3.1 所示，电源样机采用H 桥拓扑，仅对一桥臂的上管及另一桥臂的下管进行控制，剩下两管子常关，输出电流的回读数值由电流传感器测量所得，测得的电流数值反馈给电源控制器，用以调控开关电源的输出电流值。上位机给定电流为 0 时，受控的两开关管接收到周期相同、 相差180、占空比相同且小于50%的 PWM 信号，管子无导通重叠部分，电源系 统不输出功率。通过设置上位机给定电流数值，两开关管接受到周期相同、相差180、占空比相同且大于50%的 PWM，管子开始出现导通重叠区，开关电源输出功率。  
 
 仿真建模主要由电流闭环控制，通过采集电源样机的输出电流波形，并与给定电流波形进行比较，所得差值用以调节开关器件的重叠区，从而使输出电流波形向给定波形趋近，完成输出电流的控制。在设定好给定电流脉冲波形，采得电感负载上的输出电流波形如图 3.2 所示，仿真结果与预期一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyyK5QvADeOasFVZKeFibPNWLDhicmd1RYzAqrrCR8zrEkzOtuibgarkicSA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_030_d6847e4a0d4c.png)
 
 3.2 电源样机 
 
 3.2.1 功率器件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsytnMYDCw1qvCzIn61HeE4mDic3KeQaZKyVTH3ibUXqCX8V3C0NfPeenvw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_031_018ced59432b.png)
 
 电源样机所用的SiC MOSFET与Si IGBT功率器件主要技术参数如表3.1 所 示。两个功率器件均由德国英飞凌（Infineon）公司生产，额定工作参数同样是1200V、200A，并且两开关器件均能够在驱动电路输出的+15V/-5V的开关电压下良好工作。FF200R12KS4 采用平面栅结构，是英飞凌所生产的KS4 系列，具有高频工作、短拖尾电流的特点，理论上能够工作在50kHz开关频率下，但在实际使用时以5-20kHz 开关频率居多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyibgseIR9XzublzAWO4HpyeSclrSNI8iciaZ4eAg3QmZpxKRiaJwKicANqVA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_032_91bcfc7aabd9.png)
 
 SiC MOSFET与Si IGBT功率器件实物图如图3.3 所示，图中左侧器件SiC  MOSFET，右侧器件为Si IGBT，从图中可以看出，相同功率等级的功率器件，SiC MOSFET十分小巧，其体积仅有Si IGBT的四分之一左右大小，因此在未来SiC MOSFET 电源的设计过程中，能够在使用更小的水冷却装置情况下满足SiC  MOSFET的需求，这为电源的高功率密度化提供了极大的便利。
 
 3.2.2 PCB 转接板
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsymoy0TQiaiaK7hFD5SK0qrz5ZPJFDIOph5v7RTc6OQX4u68Xkeva2f1iaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_033_afb68da79b4d.png)
 
 目标SiC MOSFET 所采用的是Easy 2B 封装，与Si IGBT 的封装形式截然不 同。Si IGBT 模块内部封装了一个完整的桥臂，桥臂上管子的集电极、下管子的 发射极以及桥臂中点均以大孔径金属螺孔引出，在电源设计中，仅需使用螺丝便能让厚铜排与螺孔可靠连接，完成功率模块与主功率回路的连接。而目标 SiC  MOSFET 所采用的是 Easy 2B 封装并无该螺孔结构，取而代之的是众多的针状引 脚，因此在实际使用中，需要通过设计专用的 PCB 转接板，才能使其与铜排可 靠连接。为目标 SiC MOSFET 所设计的 PCB 转接板如图 3.4，四个角落为预采用 的螺母端子的PCB封装结构，目标SiC MOSFET将通过该螺母端子与铜排连接。 螺母端子的焊盘以敷铜形式的走线与SiC MOSFET各极连接，并且为了满足目标 SiC MOSFET 较大的额定电流，走线要尽可能的宽，同时必须保证走线之间 可靠的电气隔离。由于实际制造中 PCB 板的走线厚度很有限，而SiC MOSFET的功率又大，因此敷铜走线需要开窗露铜，并在露铜处焊上厚锡，才能在 PCB 板 上通过大电流。最终制造所得的实物如图 3.5 所示，为了方便对比观察，转接板 只放置一半的端子。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyAQlsdfpmlQ0Yoa7G46SQKkc0lWU1YND3cIuXG5Bia7LzKIafaUnnibLA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_034_0c58f57aebf9.png)
 
 3.2.3 电源样机测试平台
 
@@ -372,7 +372,7 @@ SiC MOSFET与Si IGBT功率器件实物图如图3.3 所示，图中左侧器件S
 
 实验测试过程中，电源样机平台所使用功率器件Si IGBT 与SiC MOSFET 的 功率等级相同，均为1200V、200A，且 Si IGBT 与 SiC MOSFET 共用同一套控 制回路与功率输出回路，既方便了试验对比测试，同时也保证了测试过程中两种功率器件的外围电路参数的一致性，保证实验单一变量，确保实验结果能够真实 可靠地反应出两种功率器件之间的性能差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsypAcNstQ1OQBtRlo9745ibHPPSicQwv8ufQyY9tbR6OoSwDcGoa9viaCDQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_035_549fbe960dd4.png)
 
 3.3 样机测试
 
@@ -390,13 +390,13 @@ SiC MOSFET与Si IGBT功率器件实物图如图3.3 所示，图中左侧器件S
 
 3.4.1 开关频率及工作效率测量
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyI5bsg9pIFIaHkxu0IjLhuoJ7NopOaibicMBBMQiczk6sUUEZLErz9ONlw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_036_043a7a9af1da.png)
 
 开关频率是对比测试中最基础的测量对比数据，也是后续对比测试中的重要参考量，开关频率的提升能够为开关电源带来诸多便利。工作效率是开关电源的 基本指标，对于能量转换系统而言功率损耗是必然存在的，开关电源的功率损耗 绝大多数是来自于开关器件，还有一部分功率损耗是由电感电容引起的。在不同的开关频率下，通过测量前级英杰电源的输入功率以及此时开关电源样机的输 出功率，即可通过计算得到此时的工作效率。在仅改变开关器件的情况下，保持 两种开关电源输出 100A 直流电流，测得的 Si IGBT 与 SiC MOSFET 在不同开关 频率下的实验数据如表 3.2、表 3.3 所示，工作效率对比如图 3.7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyeRnXHR3rkkapkRa3s9ibrV90z7iarb3T4mib9byc7F2MDotC0UzU1HDQA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_037_25312b10e956.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyI5yDHIOERQa46ad77eGUmDQP0NaxehwjFHsjptMwqUJicW4ibzMGRjgw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_038_15530923f5ba.png)
 
 由表中实验数据可知，Si IGBT的实验数据止步于20kHz的开关频率，原因是在20 kHz频率下，Si IGBT电源样机输出的 100A 直流电流仅维持约1个小 时，Si IGBT 便因过高的结温而损坏。相比之下，SiC MOSFET 电源样机在50kHz开关频率下仍表现良好，但考虑到后续实验测试，并且 50kHz 开关频率已能满足性能对比测试的需求，因此测量 SiC MOSFET 时的最大开关频率保守设置成50kHz。
 
@@ -404,13 +404,13 @@ SiC MOSFET与Si IGBT功率器件实物图如图3.3 所示，图中左侧器件S
 
 3.4.2 壳温测量
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy5PkqwkgFTIUJ9eibeW3Kf07H0asRbyge0aIOPWictia1trwqM1doquZNQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_039_877dffed986f.png)
 
 开关器件的温升来自于其内部的芯片结温，结温作为开关器件的主要参数之 一，影响着开关器件的寿命与可靠性。但由于开关器件的芯片无法直接触碰， 无法直接获取结温数值，因此本文用多路温度测量仪，通过测量开关器件水冷板 散热器的进出水温差以及表面壳温从侧面对比两种器件的结温。测试过程中水冷 板的进水水温为 26.9°C，水流量均为 4L/min，最终测得的壳温及出水温度实验 数据如表 3.4、表3.5 与对比图 3.8、对比图 3.9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyPIicpZA6Dfq5LJm3Bic5Q5FBWyTibIjCr61eZsXmYUKOia8ZzvT135e0Lw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_040_18b3c228221e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyGWUZEHEtbbDaHxPria25w920pww7T1ULAAMWbibA9iadbJOGmpzQM2pbw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_041_37d9c048a95d.png)
 
 由图中实验数据可知，在相同开关频率、相同进水温度下，SiC MOSFET 的壳温以及出水温度都要低于 Si IGBT。随着开关频率提升，开关损耗加大，壳温与出水温度也随之增长。但 SiC MOSFET 电源在 50kHz 开关频率下工作时的壳温、出水温度均低于 Si IGBT 电源在 20kHz 开关频率下的数值。验证了SiC  MOSFET 的低结温，也为后续 SiC MOSFET 开关电源设计的水冷板流量预警值提供参考。
 
@@ -418,31 +418,31 @@ SiC MOSFET与Si IGBT功率器件实物图如图3.3 所示，图中左侧器件S
 
 纹波是功率变换时无法避免的产物，纹波的存在影响到磁铁负载的磁场，进 而影响束流的质量。低电流纹波是磁铁负载对加速器电源的要求之一，加速器磁 铁负载对电源的电流纹波要求要高于1×10\-3(额定电流、1kHz 以下)。加速器电源的输出电流稳定度高，其纹波电流的量级为毫安级别，可检测的电流信号较小， 因此采用电流传感器直接测量电源的电流纹波这种常规的措施不易精确测量电源输出的电流纹波系数，因此，电源电流纹波的测量主要采用间接法测量。即在 确定磁铁的电感和电阻后，通过测量磁铁负载两端的电压纹波后，利用傅立叶分 析得出各频段的电压纹波峰峰值，然后根据磁铁负载参数，按下式计算出各频段的电流纹波。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsylODSicjM0ibr25ZaDibIciaFLxibbiboFicIXiaFQK70KMZaCcNWHQPHH5Wicdw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_042_4c4df10f4eb9.png)
 
 式中 Vr 为电压纹波峰峰值，Ia 为工作电流值，Lo、Ro 为磁铁负载电感、电阻值。通过 Tektronix MDO3024 示波器测量电源样机输出电压，并利用示波器上的快速傅里叶功能，将输出电压进行傅里叶分析，得到的各个频率的电压纹波幅值， 从大量采集波形中挑选出的各个开关频率下的实测图如图 3.10-3.14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyficN1U05jxdv1H6Bdhb5ibBZpyDqic5E0HtCIJTVScTcYnJmPkhXZXVKw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_043_78a6c38f9d3f.png)
 
 由图 3.10 可以看出，左图的 Si IGBT 与右图的 SiC MOSFET 电压纹波在1kHz内均只出现一点幅值最高的电压纹波系数，通过示波器测量并结合所采集 的多组测量数据取均值，最终得到 Si IGBT 与 SiC MOSFET 在该点处的电压幅值分别约为39.0mV、43.0mV，电压纹波频率均为 415Hz，将其代入公式 3.4 即可计算出该开关频率下的 Si IGBT 与 SiC MOSFET电源样机电流纹波系数分别 为 4.036ppm、4.450ppm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy89RQhxvPOeDS5foeicdp02Gqb3ruibvyzYdwq7wg52WhBat4Ra90jLeA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_044_907926c309f3.png)
 
 由图3.11 可以看出，左图的Si IGBT与右图的 SiC MOSFET 电压纹波在1kHz 内均只出现一点幅值最高的电压纹波系数，通过示波器测量并结合所采集的多组测量数据取均值，最终得到 Si IGBT 与 SiC MOSFET 在该点处的电压幅值分别约为12.9mV、13.8mV，电压纹波频率均为830Hz，将其代入公式3.4 即 可计算出该开关频率下的 Si IGBT 与SiC MOSFET电源样机电流纹波系数分别为1.731ppm、1.871ppm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyvP3WrbYbeq2uREjMwxaiaMuoodRiaEhPbNuLV0GLALALW2uQXnwbXzXw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_045_281924bec77c.png)
 
 由图 3.12 可以看出，左图的 Si IGBT 与右图的 SiC MOSFET 电压纹波在1kHz 内均只出现一点幅值最高的电压纹波系数，通过示波器测量并结合所采集 的多组测量数据取均值，最终得到 Si IGBT 与 SiC MOSFET 在该点处的电压幅值分别约为 5.7mV、5.4mV，电压纹波频率均为110Hz，将其代入公式 3.4 即可 计算出该开关频率下的Si IGBT 与 SiC MOSFET 电源样机电流纹波系数分别为2.194ppm、2.078ppm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyKcUNBHQtWJGbfsTK12TBaLOVVMEmFy1VaJlBaC2JxpWPMZ9OlLicJmw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_046_2117892293ec.png)
 
 由图 3.13 可以看出，左图的 Si IGBT 与右图的SiC MOSFET电压纹波在1kHz 内均只出现一点幅值最高的电压纹波系数，通过示波器测量并结合所采集 的多组测量数据取均值，最终得到 Si IGBT 与 SiC MOSFET 在该点处的电压幅值均约为 4.9mV，电压纹波频率均为 110Hz，将其代入公式 3.4 即可计算出该开 关频率下的Si IGBT与SiC MOSFET电源样机电流纹波系数均为 1.804ppm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy0e2RbpEvBiaev0icl6B4OYeGb6XVF4XNBsktKYtmNZudjsvZzMsIgugw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_047_51d3b17074a4.png)
 
 由图3.14 可以看出，在 30、40、50kHz的开关频率下，SiC MOSFET电压纹波在1kHz内均只出现一点幅值最高的电压纹波系数，通过示波器测量并结合所采集的多组测量数据取均值，最终得到SiC MOSFET在该点处的电压幅值分别约为3.5mV、3.1mV、2.4mV，电压纹波频率均为110Hz，将其代入公式 3.4 即 可计算出各开关频率下的SiC MOSFET电源样机电流纹波系数分别为1.289ppm、1.193ppm、0.924ppm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyMOEbaicuJZvo0T3DKesFmQibAJVJtCqibyb5eBDAMIu6F9tE34iaXLC35g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_048_18f4ba2fc38c.png)
 
 最终将Si IGBT 与SiC MOSFET 在各个开关频率下计算所的电流纹波系数汇整，得到纹波系数对比图如图 3.15 所示。
 
@@ -456,19 +456,19 @@ SiC MOSFET与Si IGBT功率器件实物图如图3.3 所示，图中左侧器件S
 
 HIRFL 运行时，除了需要电源供给低纹波的直流电流外，还需要长周期的脉 冲电流。在脉冲测试中，通过电流传感器（变比 600A：10V）采集到电源样机输出的100A 脉冲电流实测波形如图 3.16 所示。电源样机输出的脉冲电流为持续 1s的 2A 平底区，紧接着为3s的线性上升区达到100A，再者为 1s 的 100A 平顶区，最后为 3s 的线性下降区达到 0A，并等待着下一个 2A 平底区进入下一个周期。 图 3.17 为为电源样机实测输出电压波形以及跟踪误差波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy1SibBmI06sDwID3sDSHJeibjqibic1TOjh6MWKmnPeJWINic6q6YwTmzK8w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_049_eb49f87366d4.png)
 
 磁铁负载的电感值用常规措施不易测定，而在电源输出脉冲电流的情况下， 电源输出的电压电流波形能够很好地反映出磁铁负载参数情况，因此通过图 10的电压波形，可以准确计算出磁铁负载的电感电阻。磁铁负载的电压、电流的关系如下式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsymHIZBAL0ct8HkQEoRS4LMibwZhzR57ibqYYmHqFmBEk8icUDkiaicIemWicQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_050_24a7e3a3335c.png)
 
 由图可知，在脉冲电流 100A 平顶区时，输出电压为 7.5V，此时电流变化率di/dt 数值为 0，因此磁铁负载的电阻值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsy4GyYoZLYVqV1CHwt6kZZcVnKKosA1LWgiaE2PXshOziazOowEJv80uibA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_051_fb27a5afebac.png)
 
 在脉冲电流平稳上升区段中，di/dt为固定值，在脉冲电流上升到顶部的瞬间， 此时输出电压为8.75V，而在下一瞬间，电流到达平顶区时di/dt 值为 0，因此磁铁负载的电感值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyRXPlUeqHL50jTNicwLZ6H4vuTVrKVUxfnWTbwdkbusMZT2KM1kNc5cg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_052_90339e452b73.png)
 
 因此电源样机测试平台的负载参数为 0.075Ω、0.0375H。 
 
@@ -476,19 +476,19 @@ HIRFL 运行时，除了需要电源供给低纹波的直流电流外，还需�
 
 加速器电源在工作于脉冲模式时，判断其输出电源质量最主要的指标就是跟踪误差。电源跟踪误差是指电源输出跟随控制器给定变化的能力，其表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyN95ia0nVYMdicFgic23V4jZupjW2I1jexZyYOu6tXQu1SLiaSZJviaKNTQA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_053_499147930e91.png)
 
 式中 Ir 为控制器给定电流值，Io 为电源实际输出电流值。电源样机的两种开关器件在5kHz、10kHz开关频率下的跟踪误差如图 3.18、图 3.19 所示，通过对比可知SiC MOSFET 在低开关频率下的工作性能较差，平底区的输出波动较大， 跟踪误差要劣于Si IGBT。随着开关频率提高，电源瞬时响应速度提高，SiC  MOSFET的性能有着显著的提升，在10kHz开关频率下SiC MOSFET 在平直段区域的跟踪误差显著降低，整体跟踪误差好于Si IGBT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyR2XlbYae8fF46PtQXfv5YQX8JPuzOy3jZnyKibUjib2aAlrcC8RjKXAg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_054_323d7c3ec3f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyU7nXcicOVvSy5EM0ctj8w8MJKibJ5Jj8JtrnI4kua7XSlBuncsZ8UQ6Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_055_4f0b5095946e.png)
 
 在电源样机的工作频率提高后，其跟踪误差如图 3.20、图 3.21 与图 3.22 所 示，高开关频率下 SiC MOSFET 的跟踪误差均好于 Si IGBT。图中较大的跟踪误差均出现于给定波形拐角处，最大值则为给定波形下降沿底部，且随着频率提升， 在给定电流下降沿底部的跟踪误差有所增长，其他拐角处无明显变化，平直段则有所减小。给定电流下降沿底部的波形变化较大，斜率数值由负转正。由于开关频率的提升，使得电路滤波电感的等效电感值提升，限制电流变化速率，进而拉大了输出电流与给定电流间的误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsyZCHGr3TCHTttiaib8uhnDbA6hSeZPFSkYoXmY6EqoQpomtBrxEziaRErg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_056_a7a1df937412.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLWv5l40LW21HBkOWr2xsygF4YES1qXr01W5Tql5TNoSsHIZuKeaB2n9huXXUnW183yh59vicib3Kw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在加速器电源中的应用_images/img_057_de9e89c7edf6.png)
 
 通过对比相同开关频率下的跟踪误差可知，在开关频率一致时，SiC  MOSFET在拐角处的跟踪误差均要小于Si IGBT，而在平直段的跟踪误差两者相 近，且随着开关频率的提高，拐角处的跟踪误差有所增加。而SiC MOSFET 在50kHz开关频率下的跟踪误差均要略大于20kHz 开关频率下 Si IGBT 的跟踪误 差。在理论分析中，平直段的跟踪误差应随开关频率的提升而减小，但在实测时， 由于电流传感器的精度受限，10kHz以上的开关频率下，平直段的跟踪误差无明 显变化，未能较好的展示平直段的跟踪误差随开关频率提升而减小的趋势，还需要在接下来的工作中分析解决该问题。  
 
@@ -526,13 +526,13 @@ HIRFL 运行时，除了需要电源供给低纹波的直流电流外，还需�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET_在加速器电源中的应用_images/img_058_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET_在加速器电源中的应用_images/img_059_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET_在加速器电源中的应用_images/img_060_7038903c64cb.png)

@@ -8,47 +8,47 @@
 
 作者：Lizhong Zhou–Business Development Manager, Toshiba America Electronic Components ,Lingfei Zhang–Toshiba electronic devices & storage corporation
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDbINE5hIibhlxqv7XPUpXbBLqRdUR1PS2gFmkY7I74Row6MNVuRQJNjQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_000_ebccebb5a6c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDKJ8icDJIRQnibVl4AzVLakLVvPABUOUeYpmUEDmjOorR6QuQ5g6ry8qQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_001_fc56b4a0a03d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMD6Gy6UgD1ZrXdTIvpibaE0T5sGoicnsn6Y4MiaZy10fgnttRACAAHqticXg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_002_4470af573ca4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDcOjsXVHCYyL8UVn3CU5NB3ECicsFYWHAfOXYHffEq4gJWN33jzBVPbg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_003_c09b64bf31c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDib0SP5vQSYOotGTBRVvV3a0CiaLzTjR426vuWbmnYcFEXzyPglkBPhxA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_004_bc07961e0962.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDb5eYYktNkDbq1JBazAa8tSfJE8ibxicSEy3UmJSQUGL4qadyts0YlZ0g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_005_b6b336651d52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDibjFk4b2Sh15oiaRG3ibUjFhUUThVZlIDnQ4PWq8KGgjZG15AZePdXgVg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_006_273ec6712943.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDxAMia0OjIibjMSxkpJJqiasibpCJusy6YcHRTP4PomWdJZIVfXUs46HRIg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_007_7e06318a32dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDG8SC4Zkbjd2Fsb6icVicHLfa7U8oVGXyg1bQBCzLP2PUjWNdY0hg1e3A/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_008_8ae285305899.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMD28paF3rlv5M9BhQka314g9TZ3Px7MPAibphraDgOyD3CvEyicT7PaC5A/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_009_5c483e094bb8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDx5SAyEQ3gkc8ZSaStsJ5pSZJaOXkVNDnHs5iawlqvAc8M6WzZOc8QwQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_010_68dd75865c27.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDBRpvico8IQSTicQFwWlu2xiaT7wuwpiaXic4aWiaXFZflkov1vNGgTnmdhlg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_011_04fa439e8aa8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMD3fTUbvVBiasEqbvibLYicysVYIdhDibwicWvib5UYYSric075XubsFMdyCP6w/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_012_5d1d663047da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDs5TAQ8e94p8OreZvskmdTZRYIcvATpF6a9NbLkEwer6c3EYyblyNDA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_013_03bbd8970bbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDa4iaaD0YicZZo4QeEZIiaNX7QLibEPjjCXvKKh377lIFIeWL7qlfKg2ibZg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_014_784499580bbe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDquiczBREibvpJHv3YiaJVNUm2vBrfgz3icyb58dqJibUYBgeN7CoODOMXFA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_015_48ec37d7fc48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDh3hJ0IicDUNsnwibcibYaMsSJtplDJjIg9xHsb15nDZz0MOvoETDrACNg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_016_166638a6656a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDZ9geFgSiaupic6JRzzWLDOUz8toAyV012TyaiayxKDW4966ia3mGsXPyrQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_017_4ae9da8fa977.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDibgxRmYAIjNC8MA24xLiaavdnuxxDavGbtl9pNMTiadRpUibOrpNYMWiahA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_018_77cd25fb785a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDOyOyQia2FlyYevo0nm6rylB3nD5ib43JtjwCuTmyqEOBAbzBEn0SwdVw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_019_5f24054bfc6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDpPbOS7GHDaokeaAS0YFUYklnPIN5ZfrMrTE39x9M3Ax7lKRVIAYMPw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_020_4cc9cc548f7f.png)
 
 注：文字与报告无关
 
@@ -92,7 +92,7 @@ SiC MOSFET高频开关时，电路中的寄生电感(如栅极电感Lg、源极�
 
 栅极回路寄生电感(Lg)与输入电容(Ciss)的谐振：Lg与Ciss构成LC谐振回路，谐振频率
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnk8IHOchicJYnXBNlVia4dMDXHyk39hricYZTMzEq6lhanRPo0btOatpNz80QuNzjOzuiaOL6Ugia333g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_021_27f1ab5640f0.png)
 
 。若谐振频率接近开关频率或其谐波，会导致栅压振荡，进而引发漏极电流（Id）振荡。
 
@@ -174,13 +174,13 @@ SiC MOSFET高频开关时，电路中的寄生电感(如栅极电感Lg、源极�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_022_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_023_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_并联SiC_MOSFET_的振荡稳定性_images/img_024_573ddf34e793.png)

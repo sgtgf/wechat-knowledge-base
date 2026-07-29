@@ -42,7 +42,7 @@ PCB的载流能力取决与以下因素：线宽、线厚（铜箔厚度）、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/SFicDHLEyfDcPNq66TvNbiajkhrZE6YyeI2ldiaJcezicGaLPxPcYRm0nZiczp3ictL0UNej3dUhWz0xoP7ZUIHXb6vg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB线宽与电流关系_太有用了_images/img_002_bdf843e1bdaa.jpg)
 
 数据来源：MIL-STD-275 Printed Wiring for Electronic Equipment
 
@@ -164,15 +164,15 @@ ii. 在PCB设计加工中，常用OZ（盎司）作为铜皮厚度的单位，1O
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/SFicDHLEyfDcPNq66TvNbiajkhrZE6YyeId10wVZ9m0vOwptZf2fKwqUcJBOJAsV1o9uE4DyhTNw5ZfbPYp36Qicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB线宽与电流关系_太有用了_images/img_006_0270d983f480.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/SFicDHLEyfDcPNq66TvNbiajkhrZE6YyeIjwQK0yLEF2ZA7OyicD7GIhOjAzORFLJNyXQ7kWS2V0pwtsNUqwx2Mfg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](PCB线宽与电流关系_太有用了_images/img_007_713f37b24fc7.jpg)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/SFicDHLEyfDcPNq66TvNbiajkhrZE6YyeIJOIiaR1oCuGaqpvf7hgnSCwGPG0RRibXBI1kya2xz0IgNiaoDApVPPibxg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](PCB线宽与电流关系_太有用了_images/img_008_e84b8e47ed9e.jpg)  
 
 （b）导线厚度35μm （c）导线厚度70μm （d）导线厚度105μm
 
@@ -192,7 +192,7 @@ ii. 在PCB设计加工中，常用OZ（盎司）作为铜皮厚度的单位，1O
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/SFicDHLEyfDcPNq66TvNbiajkhrZE6YyeIpRflFX4U6aLJUt3ASQPoKbQwAaUp8GB984ZaQVK1rvD9VqDTJp0xWg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](PCB线宽与电流关系_太有用了_images/img_009_c1afcad25379.jpg)  
 
   
 

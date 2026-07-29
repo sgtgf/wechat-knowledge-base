@@ -16,7 +16,7 @@
 
 TVS（Transient Voltage Suppressors），即瞬态电压抑制器，也被称为雪崩击穿二极管，是一种二极管形式的高效能保护器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMJvrsibLGau5mfOzjicdELiaJEYPgh7o4NRx8PEAlibTRZqiaQusVkHeviaSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_002_b0d8afda9a43.png)
 
   
 
@@ -26,13 +26,13 @@ TVS管有单向与双向之分，单向TVS管一般应用于直流供电电路�
 
 例如，单向TVS管应用于直流电路时，如下图所示。当电路正常工作时，TVS 处于截止状态（高阻态），不影响电路正常工作。当电路出现异常过电压并达到TVS（雪崩）击穿电压时，TVS 迅速由高电阻状态突变为低电阻状态，泄放由异常过电压导致的瞬时过电流到地，同时把异常过电压钳制在较低的水平，从而保护后级电路免遭异常过电压的损坏。当异常过电压消失后，TVS 阻值又恢复为高阻态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMjVKrMUzjmicnzEPlbictFQv63hgKoUYF5BicLUs2uNzBAGoDYmz1ibWDIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_003_ad0d116c8fb9.png)
 
 TVS工作原理
 
 选用TVS管有以下几点重要参数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUM3O0hJmx5nXh6sVtuTM0IPMvMdQhTM7hibuT5WapGzw3lFYM3N0tmVibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_004_9f0a9d408446.png)
 
 选用TVS管关键指标
 
@@ -112,7 +112,7 @@ TVS 要通过测试，故实际电路中要求 10/1000μs 波形下 TVS 的最�
 
 例如：电路的正常工作电压VCC是24V，最高工作电压Vmax是26V，后级电路可承受的最高瞬态电压为50V，实验的测试波形为 8/20μs波形，测试电压500V，测试电源内阻及PPTC的静态电阻合计为2Ω。根据上述信息选择合适的TVS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMQEKXskhU2DoXxIn5C9MprJTwxqVhBTQQTP5sROaDOc7x0gXkfeWORA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_005_b0829ddff218.png)
 
 (1) 选择TVS最高工作电压
 
@@ -128,7 +128,7 @@ Pact=50\*（500/3）\*1/2=4166W
 
 根据计算结果，可以选用5.0SMDJ26A这个TVS，由于这个TVS用在电源端口，结电容和漏电流可根据具体实际电路选用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUM6cDxwPHzL96c7bnmjoq5avvrNptgYbuWJr2jmaUPic1HDicldwdAFRUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_006_a5921f29b5a7.png)
 
 5.0SMDJ26A TVS关键参数
 
@@ -136,17 +136,17 @@ Pact=50\*（500/3）\*1/2=4166W
 
 当设备的端口的工作电压超过了TVS的最高击穿电压（VBR MAX），TVS可以看成一个低阻抗的电阻，流过的电流非常大，电阻不断发热，如果没有其他措施，这个TVS很快就会挂掉，失效的TVS大概率变成了开路，后级的电路仍然处于没有保护之中。所以最好在TVS前面加一个保险管，在TVS挂掉前，保险管先失效断路，就可以保护TVS和后级电路，如果换成自恢复保险管，故障排除后就可以自行恢复正常工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMHpvwvUNFfNX7wwMHdqiaZRw5D7FBXs5Kfe25jNS3YkWiczput9mibqHpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_007_956c117423c7.png)
 
 TVS用于防止过压保护的工作原理
 
 如下图所示是RS485的过压保护电路，RS485芯片的工作电压一般是5V，能够承受的极限电压一般是12V。通常设备的工作电压一般是12V或者24V，如果误将24V电源电压接到RS485A-B线上且没有过压保护，大概率RS485芯片会物理损坏。TVS管专门用于瞬间过压保护，无法应付长时间的过压，不到0.5STVS就会因过热烧毁，后级电路就会失去保护。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMaEkC7pY0zfJx4Lib6QSl6R8gCpgySU0iaEW9B0icot9v1ceW44PWzzJhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_008_9358564ffc7b.png)
 
 如果在TVS的前面增加自恢复PTC，且PTC的跳闸时间足够短，并且TVS的钳位电压Vc＜电路最高工作电压VCC，在TVS烧毁之前PTC跳闸，就可以实现后级电路的保护。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUM8MicQ7AERVMcMUIvLo1z9yUzjyfUs6ZNa13GZcYp1wt37R81hOZ33gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_009_fd5a5ed6b7a6.png)
 
 TVS管和自恢复PPTC配合使用时的计算思路过程如下所示：
 
@@ -188,7 +188,7 @@ TVS的可承受热量实际选型Qtvs＞理论计算Qact；
 
 如下图所示，PTC和TVS配合用于RS485过压保护，设备的供电电压是24V，RS485芯片选用MAX488，正常工作电压5V，最高可承受12V，正常工作电流＜1mA，选择合适的PTC和TVS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMJWIvic8eeJOqhPibZ2AaTkEbqicibqGBagNJPANtfUWMbyMEkicV11YMibPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_010_59490977ab9a.png)
 
 PTC和TVS配合用于RS485保护
 
@@ -196,7 +196,7 @@ PTC和TVS配合用于RS485保护
 
 由于RS485的工作电流非常小，PTC电流选择最小的即可，关键参数是跳闸时间Trip，Trip越小越好，越小跳闸时间越短，对TVS的功率要求越低，封装越小，成本越低。经过选型，SMD1812B020TF电流和电压满足要求，跳闸时间Trip是最短的，为0.02S。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMu4QcyGHptZ5lJOFOrXe8AlKibRx1xKG1bKK8RRTibzEzVkicZ78iaMchEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_011_2cb5d98aceb4.png)
 
 (2) TVS选型：
 
@@ -204,7 +204,7 @@ TVS电压选型
 
 由于RS485的工作电压VCC为5V，极限电压为12V，因此TVS的工作电压Vrwm≥5V，钳位电压≤12V；可以预选SMBJ5.0A。Vrwm=5V，Vc=9.2V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMelXiav3OZlQjuBXbXiccA6vNyjB7zFiaRqI8Gy2dF4ibWMHq9kYbE6UiaiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_012_255f49217723.png)
 
 TVS的功率选型
 
@@ -224,7 +224,7 @@ Ptvs＞Qact/1us=1.472J/1us=1472W
 
 因此，最终TVS选择Vc=9.2V，Ipp=163的SMCJ5.0A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMbppPUldHn0jUYkVAKeVwtwBhU9xdHlicdmzIPJOWibwcOhZwkX1gXFHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_013_437eea791b64.png)
 
 有的朋友认为上述的计算过程没有降额，实际上上述的计算过程基本都是按照极端的情况，忽略了PTC随着温度升高的电阻指数型增加，PTC上的电阻会分担很大一部分电压，到后期PTC濒临断路，TVS的承受压降几乎为零。因此不但不用降额，甚至TVS的功率可以选择乘以实际计算的0.5~0.8系数。
 
@@ -254,7 +254,7 @@ TVS用于过压保护存在两个局限性：小信号和低速。
 
 所以最好的办法是设计一个智能电路了，如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMGP0StBsyrAWbpWaDoVe7FFkcmWDsIHic2AV6kuakic9rLDzIXdiaHDdDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_014_8264c61fe096.png)
 
 Vin正常输入电压时，稳压管没有反向击穿，R3，R4电流基本为0。PNP三极管的Vbe=0，即PNP三极管不导通。PMOS管Q4的Vgs由电阻R5，R6分压决定，PMOS管导通，即电源正常工作。
 
@@ -266,9 +266,9 @@ Vin正常输入电压时，稳压管没有反向击穿，R3，R4电流基本为0
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_015_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_016_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_017_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_018_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_019_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_020_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_021_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_022_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_023_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_024_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_025_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_026_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_027_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_028_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_029_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS过压保护电路_images\img_030_50889e54acde.gif)
 
 ## 
 

@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QcgRMqgxDJ4LsHHM4ulFQprYr5gWQfVvQQWeJ4V2H5rTjg5gB85jD5FHWPbRO4mtAVuK0LfiaScqA/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QcgRMqgxDJ4LsHHM4ulFQp6FSzyYUD6ibnLP5hmU8WJicXZK76zQ2Hc6FSNxxbMPQhC6jvsxRsBfibQ/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\浙江大学孟繁博_陈向荣_等_界面喷涂Mg(OH)2对直流电缆工厂接头绝缘交接层直流电气性能的影响_images\img_000_f7d2c23feabe.png)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\浙江大学孟繁博_陈向荣_等_界面喷涂Mg(OH)2对直流电缆工厂接头绝缘交接层直流电气性能的影响_images\img_001_159c1ef65249.png)](https://www.acces.org.cn/)
 阅读提示：本文约 2000 字
 > 工厂接头作为海缆连接的关键附件，受制备工艺的影响，本体绝缘与恢复绝缘之间存在性能差异，其交界面是绝缘的薄弱环节，易诱发绝缘击穿。为了改善工厂接头绝缘交界面的电气特性，浙江大学研究人员提出了工厂接头绝缘交界面喷涂Mg(OH)2的改性方法，通过实验测试与仿真分析的手段验证了该方法的有效性，为改善工厂接头界面绝缘特性提供了新的解决思路。
 **研究背景**

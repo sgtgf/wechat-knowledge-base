@@ -36,26 +36,26 @@
 
 1. 碳化硅MOSFET桥臂串扰电路模型
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMBX2MzGAZG827iceVk66NF50icuUnmNSWRw1JQiaTVXicMbeUNjE1xsdLcSDnm6sm0c5bG4D3kVPNr0BS20L89zSIdyZia0EIms55M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_000_a58d5969e141.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMgkv6pX0jCBpK4GVh1IV8YyibJ01HNYiaWIEZI35xiaFmB2kC1FX81HZooVO64zsdlecTWdl16f9kpWc3VZqth60tHwibPws669jQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_001_c5bf0c28d64a.png)
 
 半桥拓扑为构成诸多功率变换电路的基本结构，可用来研究桥臂串扰特性。图1 给出一种半桥拓扑电路模型，用来研究上侧主动管US 对下侧受扰管LS 的串扰。图中：VDC为直流母线电压；IL为负载电感；RG(ex)为栅极外电阻；LG(ex)、LP(ex)分别为驱动回路和功率回路中除去开关管端子电感外的寄生电感总和；下标后缀“U”和“L”分别为上管和下管相应参数。为便于暂态分析，图1 还规定电路工作时主要电流的正方向。  
 
 开关管模型按有无开尔文源极分为源极解耦和源极耦合2 种情况，分别如图1(a)、(b)所示(下文分别称这两者为源极解耦电路和源极耦合电路)。开关管模型考虑极间电容、体二极管和端子寄生参数等，以源极解耦开关管为例，LG(in)、LD(in)、LS1(in)、LS2(in)分别为由封装产生的各个端子寄生电感；Cgs、Cgd、Cds 分别为各极间寄生电容；RG(in)为栅极内电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOueNfUyfrOrFhlic8HGwxsLem0u9JlvOt9RnoFPbZn2EPraibgIoezpFhnNbYd12eIRkvqfiahm6trbItPa8lmaGDW2MFJv5JAQc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_002_40280682a2bf.png)
 
   
 表1 列出本文主要变量、常量及其简要说明， 部分变量和常量具体含义可由下列各式表示，其中m∈{U,L}(下同)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPKwO2oGs9UkQgdIh6rpicDTbDDxsbViba5P6b6oj2E2Tadl9ThFpzE9ymv9OMAp9h8rVvuTdfHNsZyhTrPWz4BILH4aRdIEBnyY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_003_59909e9fd9c0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtuN3qemJ4ec8xdwbTpW9urcm3rBicrSFzy1vnJl28DERf8FaUNemqsWFBUMG48aSVNMSR9ictzuKeOvxDicbJZ3dz3plqibJY70M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_004_81c9fbf43fb8.png)
 
 式中Cr、Ci 和Co 大小与漏–源电压有关，但Ci 受漏–源电压影响较小，一般将其视为常量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNDVutWxVQLh5c7UicJKvpiaNVntxfCQUUaNiaSr0keF9aVkvezTiajVgrj0DXtxEfA02OwVrpGDedfmxhOXvnWQyZUzkzcQAmblNE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_005_e770275151d9.png)
 
 图2 为某型号碳化硅MOSFET 反向传输电容、输入电容和输出电容，随漏–源电压变化特性。该开关管具有开尔文源极，如果不采用开尔文源极，也能使其以源极耦合连接方式工作，本文以该开关管官方Pspice 模型为核心进行仿真。
 
@@ -65,49 +65,49 @@
 
 对于源极解耦电路和源极耦合电路驱动回路，由基尔霍夫电压定律分别可得：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPO0PWG0p1Z7AGYMkO5KU5XWAF4a1ZVW0jTflOnOAkBMzibHZ5fibbDWeyibcu3RZ5BickicJ2HVKNvYMScicjhWDvKsynvOxQPV5A9I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_006_420167cae04f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOgvgAA33uY3kcIP6wWNyQSb80L6qBXSUzEFEXcIcfUdhwQBia9VrkppMSdLyRcicyZqx1AoY0ICMTkcASxp4CxNqg53C4CuLqbM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_007_759144ec964b.png)
 
 由基尔霍夫电流定律可得：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNmzJJOjMvCia7jfhodqWFTRcByspLsmrpqcmCAR6wsKzZMKIPxpjyWSDwk51d3BRrT16Kq3wib52DkLG2BRJWYBhM6g75ibYTXTs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_008_fe667e474d27.png)
 
 取m=L，由式(1)、(9)与(11)，可得源极解耦电路串扰电压解析式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNAKqkVll5fHUnMd4ias9eSxL0Ncl0ud1xNU6aIichL6MzeRqkvn5evw5OX05vquvL8iaVictTrd8jZlpicic8Kz1X1fciaHFVvCTPe48/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_009_a0a313274b2e.png)
 
 取m=L，结合式(1)、(10)与(11)，可得源极耦合电路串扰电压解析式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNqLfBSWuibVFzoOUhcpLXmyIwaLtzhxAS4QIFTgp4UvXB9yq435xUjQV9SZvD7Ch2ZicXz0mhJI5X1sWcg5ic0siaehwNnR6IPNdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_010_1fff3b4dac20.png)
 
 由此可知，源极解耦电路△vgs\_L由vds\_L唯一决定；而源极耦合电路△vgs\_L主要由vds\_L与vLS\_L共同决定。式(12)、(13)分别由图3(a)、(b)描述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPDCCYpPbQQxUmzic6U3cE7iblib0nht7O9M4xww6AAowF8BnftDaUql6dhAuIrTsW9yoNsqGkSBvN7Uy3dmVr7UuX4aCtQBufH3I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_011_bc8859a67d84.png)
 
 2.2 桥臂串扰电路暂态分析
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMdm2utOzXxsybc1mxkOegjwjx8ttrKp0Ky0GpTRcDbibmnhgIDic0svtUuCtia3VxVVahHdd7H4lrGyaJyKybk69awm6zWiaSibvrI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_012_8f857314f2d1.png)
 
 桥臂串扰电路在上管开关过程的主要暂态波形如图4 所示，依据源极解耦(耦合)时上管暂态波形变化特点，标示出重要时间节点tj(t'j)，j∈{0,…,9,  a,b,c}，表2说明这些时间节点具体含义。由于vgs\_U暂态过程时间较长，t4(t'4)和t9(t'9)未在图4 中标出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO6d5tXYyddbIfIcqgTncz4ppVUeicFSm7pic4TJsFIAL3hLgDJiackFricM6rrzvP6NqgLmQaklKn7oyC5eMZoOwj8SIDDeQYGicicM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_013_186cecf88718.png)
 
 由基尔霍夫定律得到半桥拓扑电路在暂态过程的恒等式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPo8hVD4uibssKYK6L9uFEA5IoZSJbib2ibIzmnvicnFQmNPVNm2JnwmQRico5roCkVrdAtLJdEnlRCAB2NeqNjibBqtWqjxKefnM3iag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_014_023a465a96da.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPgewVHmMa8tE88yQam7QaiaAuHWBdI11ojAXFmiaNs4uvVwQq2bqVCk80HQC4dv9HZbvryBsWLGgPHbVwecs0lib1BfpaCfbhxp0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_015_0df6ec355090.png)
 
 其中，由式(14)可知，diD\_U/dt=diD\_L/dt，即iD\_L始终完全跟随iD\_U变化；由式(15)可知，若忽略LP，vds\_L将完全跟随vds\_U反向变化。  
 
 此外，在式(11)中取m=U 可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNVkhl4zOwUvFT1Rt7YouFjMxGTkEE3zkx1Zj8CSwxUmwtaAyuMNtPOTTKGzWvrIZRGJAsgBdI8Ha8THlaBPIdRmISNIXKVhIU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_016_a6d1859fe324.png)
 
 取m\=U，结合式(14)、(15)与(17)可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNmZvJ1yNRLickZJdRkGB3OP0mJn4wfMZvibeIt7C9ibyr1ibsrUs3icDxtve7nicr7JsxcMILqw4Dgc2XJuhsf6AEWPtdPjaFR1H66w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_017_b764330d5040.png)
 
 下文以源极解耦电路为例分析主要暂态波形的变化。 
 
@@ -119,11 +119,11 @@
 
 随着vgs\_U减小与vds\_U增大，上管进入恒流区。 恒流区特性为沟道电流仅受栅–源电压控制，两者关系可由一个二次函数模型近似表示，具体应用到此上管为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP4ibUYvpDKziaBSUGYLh94k6QiaIjYBicHHuW1WhtKc4KPvJwmhkqcMhg22kicOcwhX0ibc20icUibVQeDp0p4pXHQdgzMlgqn847UYc4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_018_e09fef7218ad.png)
 
 式中β为取决于此开关管几何尺寸和结温的常量。 将式(16)代入(20)可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOl1Oic7kqB2iccaiaw2pWTCbfc2YMzAAnOARZKbf5A5jrEjJT1RnphwI8Rpgnt7CqZGMS1QaGnib2j1mARicKEiaSOwaxVic4YryQnJE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_019_03a4f47da737.png)
 
 当iG\_U 给定后，此阶段vgs\_U、vds\_U、iD\_U 的暂态波形由式(18)、(19)、(21)确定。在t1—ta 期间， 较小vds\_U对应很大Cr\_U，由式(18)可知，即使驱动回路电流iG\_U全部来自Cr\_U放电电流，vds\_U增速也相对较低；同时，较大vds\_L对应很小Co\_L，进而由式(19)、(21)可知，iD\_U和vgs\_U基本维持不变。在ta—t2期间，Cr\_U因vds\_U增大而迅速减小，由式(18)可知，这导致vds\_U增速升高，进而由式(19)、(21)可知，iD\_U和vgs\_U有所下降，图4(a)显示在此期间iD\_U和vgs\_U下降现象非常明显。
 
@@ -161,7 +161,7 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 源极解耦电路△vgs\_L由vds\_L唯一确定。如图4所示，vds\_L 在上管关断过程先钳制在VDC—VSAT， 再快速减小，后钳制在-VF，这导致△vgs\_L 先钳制 在0，再逐渐减小，后又逐渐增大至0，即△vgs\_L发生负极性扰动并产生一个极小值△vgs(min)\_L；反之，vds\_L 在上管开通过程先钳制在-VF，再快速增大，后钳制在VDC—VSAT，这导致△vgs\_L先钳制在0，再逐渐增大，后逐渐减小至0，△vgs\_L发生正极性扰动并产生一个极大值△vgs(max)\_L。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPc66BCZNBQ0Dw9pGFmrbemYUZdWiaeFNjmynjiaribw7ibDopHpZ2FGwVE5UfUYPowrEv3dlGo6eYBg2kg0pvOgvkLSM9OytvNZaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_020_d99a49a338fb.png)
 
 源极耦合电路△vgs\_L可分解为△vgs1\_L 与△vgs2\_L，如图5 所示。△vgs1\_L由变化的vds\_L产生，这与源极解耦电路△vgs\_L 相同，△vgs1\_L 在上管关断过程发生负极性扰动，在上管开通过程发生正极性扰动，△vgs1(min)\_L和△vgs1(max)\_L为相应极小值和极大值。△vgs2\_L由变化的vLS\_L 产生，下面分析△vgs2\_L变化趋势。  
 
@@ -179,7 +179,7 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 以t0 为初始时刻，在不考虑LG\_L的条件下，求解式(12)并代入相应初始条件可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN6rkHxzR1Bu61Y4nB8NN45l3THzBiaCqendochoTW68kBXQfxBlvxBmICnDXwZtzpkhNAqFWLugDibfGmZfecUaZHk7LCXXK08U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_021_e6d077846a9d.png)
 
 式中：RG\_L可通过式(3)计算得到；Ci\_L近似为常数，可由开关管的数据表直接读出；Cr\_L 可通过开关管电容特性曲线拟合得到；变量vds\_L(t)难以直接得到，一般需要建立开关管模型并借助电路仿真才能得到。因此，虽然该模型能够得到任意时刻串扰电压值，但求解过程复杂，且求解精度很大程度依赖所建开关管模型的准确性。 
 
@@ -187,29 +187,29 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 由于vds\_L 波形非线性部分主要发生在串扰过程始、末阶段，假设vds\_L波形在串扰过程线性下降或上升。在不考虑LP的条件下，vds\_L变化区间约为\[0,VDC\]，记λr 和λf 分别为vds\_L 波形在上升过程和下降过程平均变化率，将此约束条件代入式(22)，可解得△vgs\_L极大值和极小值分别为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpME1twhrC1icu9icQTLrk0ib8HOauBH0GlYLx7QrhibBV4iaMibEYlsJNPtIfSWC4lDRSiciawHHUxbNn4PYzqkAmCmRBDsvIicocrCGVKk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_022_dae4212db868.png)
 
 3）模型3。  
 
 在模型2 基础上，进一步取Cr\_L 为函数Cr\_L(vds\_L)在区间\[0,VDC\]上的平均值，即令：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOIbich3CGbJic56sWczvRbeicVXgc8ia2KtJsbguiccWibB3xxPrAMoUl94F2NzF4kLvprvalswQaWCFuL1AD2ZiavSv6uNGhp0FslyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_023_a95edcef5524.png)
 
 则：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUGOe5ycZmok82cUQicsRQA3kia9h1wzYQ8zaeia99fdzibFQK5UicmiawiaficVSXiaU4BtuibEia3UQR1roadib9tzZetF8vK4cljunQpP0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_024_5958b47ce7bd.png)
 
 4）模型4。  
 
 以t0 为初始时刻，在不考虑LG\_L的条件下，对式(12)两边关于时间求定积分可得：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNuhiaZOKVHOJ1OtKXZs4CPRqqu31KgupuK2qdG7bwQic9TlibprblOcAIzrvYVWWXibR8VYoSagLSVw83vv1X7GnDpPTASyc8EhlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_025_22dd07bd2368.png)
 
 假设△vgs\_L在串扰过程线性变化，在不考虑LP的条件下，可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPq7xsfVxicNm02TmLVia1cAUzcozmxXT4VU9EBnCgHDnubOAUgskcYTs1Xib6B4agoKVXuuey2ia82ibHrSuanyZ6djzxwdZbQMZvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_026_7ab8e630af17.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOUt091DF217ciakaxb9NLgFZgK1jyHZu4VTm2SGUZXzOQPnURrmvL3jvzTgib9MbXDPGLT6P1MWKibdEjdp3lTQ37OtRMf8mKOJY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_027_dd324afff4c6.png)
 
 图6 比较上述4 种模型求解结果。其中，RG\_U=RG\_L\=15.5Ω；IL=10A；LG\_U\=LG\_L\=LP\=0。由图可得，简化模型2—4串扰电压极值与电路仿真值符合程度较高，且各简化模型均能准确反映串扰电压极值随VDC变化趋势，这说明各简化模型的实用性。其中，模型2在总体上最符合模型1，这是因为模型2约束条件简化程度最小。  
 
@@ -219,31 +219,31 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 在不考虑式(13)中LG\_L\-2LS(in)\_L条件下，单独分析vLS\_L对△vgs\_L作用，可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMko2mPuvicBnzm8lOdkrwhcypy8jbnWrXgM54nibKP208t2IuZdmRkQgcDBjOfC5NS1iad3PB69lHJwZK9LP5TGFBDd5X2rOtXZ0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_028_cfb2e3d96a7a.png)
 
 以t0 为初始时刻，求解式(31)并代入相应初始条件可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOPjMUZQgfdicp2SrITmATFwmbSsG2QRVficJYwxaIkBlDejL95HbD9SmT7hbC3IAc9YJFkomzoufQzwZDx0IQYI93qHdmmd4nHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_029_98f635d89857.png)
 
 2）模型6。  
 
 变量iD\_L(t)需要借助电路仿真才能得到，为简化计算，可对其进行线性化处理。在不考虑LP的条件下，iD\_L在上管关断过程变化区间为\[-IL,0\]，记ξf为iD\_L 波形在下降过程的平均变化率；iD\_L 在上管开通过程变化区间为\[-IL,IR(max)\_L\]，记ξr为iD\_L波形在上升过程的平均变化率。IR(max)\_L为iD\_L 极大值，由体二极管D\_L反向恢复特性和电流iD\_L变化率决定，可近似为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN4LZa6AnWAdKwpD1xg6dMozvc0V4VHIhMhI0n7K8gJhG2FfV2BSPIJl4qKWhx9ichUdL6Xo4CgwK1ZNw0iamkjAODd1TD4dVLTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_030_ca0b63ea1568.png)
 
 式中：QR为体二极管D\_L反向恢复电荷；SR为体二极管D\_L软化系数。将上述iD\_L线性化约束条件代入式(32)，可得△vgs2\_L极大值和极小值分别为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNibCicOgIV7Z7v1W4F3UvNaP4wq392eK1o9Bgvw4YW6ThpoFJHulBP3BJjvUdOmPn1NcecgBBX3fLcsxr6yC1zxzUx2M5wLvq3Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_031_ad7eb6dca055.png)
 
 图7 显示模型6 在IL取值不同时的计算值。其中：RG\_U=RG\_L\=15.5Ω；VDC=500V；LG\_U\=LG\_L\=0；LS(in)\_L\=5nH。由图可见，△vgs2\_L极值(绝对值)随LG\_L增大而增大。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOPNl10BlymvuPoiblTDZlHicyF9YQJaQWM71Rx9wBgHMicXH9btmdvTqEguTniaK3ZImzXerpYS0E4VKic5t7ExqNMNKtdKwibRtAbc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_032_cecd5e10b463.png)
 
 图7 给出相应电路仿真结果，可见模型6 △vgs2(min)\_L 与电路仿真值符合较好，而模型6  △vgs2(max)\_L 与电路仿真值符合较差，原因为iD\_L 波形在下降过程线性度比在上升过程线性度更差。  
 
 △vgs\_L波形波动特点由△vgs1\_L波形和△vgs2\_L波形扰动幅度相对大小决定，由式(32)可知，△vgs2\_L与LS(in)\_L呈线性关系，LS(in)\_L增大将使△vgs2\_L波形扰动幅度增大，进而使△vgs\_L波形波动特点发生变化。图8 显示LS(in)\_L取值不同时△vgs\_L仿真波形。其中：RG\_U=RG\_L=15.5Ω；VDC=500V；IL\=10A。以上管关断过程为例，当LS(in)\_L较小(≤5nH)时，△vgs2\_L 正极性扰动也较小，△vgs\_L波形变化趋势主要由△vgs1\_L决定，△vgs\_L波形整体呈负极性扰动；与之相反，当LS(in)\_L较大(≥10nH)时，△vgs2\_L正极性扰动也较大，△vgs\_L波形变化趋势主要由△vgs2\_L决定，△vgs\_L波形整体呈正极性扰动。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5TjasjJvHwnt2Hp0V3o0EtdNOeEIUa1S2hw5q7MpVZ5iaHbAxNssHADlQEHqJZYoxTwlTUtia8462xcYjp7IYwouAA6WicQf5Y0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_033_d6e3653d2fed.png)
 
 3.3 电路寄生电感影响  
 
@@ -253,35 +253,35 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 先分析LG\_L 对串扰电压影响。设Cr\_L为定值Cr(aver)\_L，vds\_L在串扰过程线性变化。记vds\_L单调递增区间为\[tp,tq\]，vds\_L变化率为λr，对式(12)求解得 在vds\_L增大过程串扰电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMLRopIrI07Ek8crxnx7j6xKal9iasluLhn45ChZaW33GicPdY1D3O0f8BotrmAwHaoA8BscN1ribVoZ5bQbtnNDicxT2nl0DcLN1M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_034_506574b63328.png)
 
 函数f(t)定义为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpON5aCHBkic6X0WypG5fTqf69zia3ibwGfTkHJmwhz5IrcsIpa6UG0ribdZFfRX5S442pvngdnOT5oVZjCxmpViaXmaS9xuNDIxIpTk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_035_f8b2476521e0.png)
 
 图9 为LG\_L取值不同时串扰电压极值。其中：RG\_U=RG\_L\=15.5Ω；VDC\=500V；IL\=1A。由图可见，模型7 的串扰电压极值(绝对值)随LG\_L增大而增大，仿真结果也印证了这一变化趋势。同时可见，当LG\_L较小(＜2nH)时，串扰电压极值(绝对值)变化相对较小。通过改善电路设计，可充分减小驱动回路寄生电感，因此，通常可以不考虑其对串扰电压极值(绝对值)的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOL8zmfqQwOqYTPjJQ9tSKMSLIvpyro3cU3cIfHr9ZcEIuWLnHhAgZc0qAQR7hQ1slIStU9hVUt3uyWQxvuRMEpQl1n2FGlOVI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_036_c6f712cbe7b3.png)
 
 2）模型8。
 
 再分析LP对串扰电压的影响。vds\_L过冲现象发生在上管开通过程，过冲幅度可近似为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMXVgAiaokpFhc65LjxPqFe9f4KBbmvIibj9kbvR9t75VkzBaqKPCAZRRTmrWkh14Mn0G7txvGCuXP0gu2EOXibgwatPUDDTaL584/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_037_fc4eb9397113.png)
 
 在模型2 的基础上，考虑LP后，正极性串扰极值应修改为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZ35ibm8iciaduD6ibKA6VWzvAVee3oMhyGeiaQll8UssA7RLyHiadEMkRxpc9d3T93fkSTdZn1Gakrn5Q7D9lPibWnWhBA8VNicHl2p0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_038_23de0e0e1f1f.png)
 
 图10显示LP对串扰电压的影响。图10(a)—(c)依次是-(diD\_L/dt)|t=t'c、△vds(os)\_L和△vgs(max)\_L关于LP变化的曲线，可见随着LP增大，△vds(os)\_L和△vgs(max)\_L基本呈线性增大趋势。图10(c)比较式(41)的计算值和电路仿真值，可见两者变化趋势一致。图10(d)— (f)依次是部分LP 值下的iD\_L、vds\_L、△vgs\_L 仿真波 形，可见当LP足够大(>2nH)时，vds\_L波形出现明显 过冲和振荡，这进而导致△vgs\_L波形振荡。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNcdSpqMVBy1xohaLpiajx8jTGsM2wSpVlqyhK79G61OSdpozIFVoqhibnFkPFOjBOokxUVpeDZCSTmlZquC33gpL0RtAGxcSpwY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_039_eca8b8a5348d.png)
 
 3.4 λf、λr、ξf、ξr大小的影响因素  
 
 λf、λr和ξf、ξr分别为衡量vds\_L和iD\_L平均变化速度的参数。vds\_L和iD\_L的快速变化主要发生在t1—t3(t'1—t'3)和t6—t8(t'6—t'8)期间，在此期间，当iG\_U 给定后，结合式(18)、(19)、(21)可求解iD\_U。 由式(14)可知，iD\_L始终完全跟随iD\_U变化，于是可以确定iD\_L，又由式(17)可进一步确定vds\_L。因此，vds\_L 和iD\_L 的变化过程，即λf、λr、ξf、ξr 的大小由式(14)、(17)—(19)、(21)的参数决定。对于给定开关管的半桥拓扑电路，当其驱动电压vG\_U、驱动电阻RG\_U、功率回路电感LP、和开关管结温确定后，λf、λr、ξf、ξr仅与VDC、IL有关。图11 显示了-λf、λr、-ξf、ξr与VDC、IL的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9Wbehyib20bsThEyFXAcBD9AernibWXR1Ygtl7AZibEREQpmm2LcbkraUDdQGibhOpyD9IpZEPkPeiaWcDKBiacmRgewtI9H0o8SEo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_040_9181ff30933a.png)
 
 3.5 基于桥臂串扰的安全工作区  
 
@@ -289,7 +289,7 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 由本节前述分析结论可知，对于确定碳化硅MOSFET选型的半桥拓扑电路，影响串扰电压极值的主要因素为电路母线电压和负载电流、功率回路寄生电感、主动管驱动速度和受扰管驱动回路阻抗。电路板经过加工完成后，其功率回路寄生电感不会改变。此时，若上管和下管驱动条件也确定不变，则串扰电压仅与电路母线电压和负载电流有关。于是，对于源极解耦电路，综合考虑模型2 和8，则要求串扰电压极值满足式(42)。对于源极耦合电路，当LS(in)\_L较小时，可将△vgs(min)\_L缩小至△vgs1(min)\_L、△vgs(max)\_L放大至△vgs1(max)\_L，同样要求串扰电压极值满足式(42)；当LS(in)\_L 较大时，可将△vgs(min)\_L缩小至△vgs2(min)\_L 、 △vgs(max)\_L放大至△vgs2(max)\_L，由模型6 可得串扰电压极值需满足式(43)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOnKd0ZoN813RHFw4bPF0GfzUT3IMY25JXx7iaWyI9fM9fkcnpAukQ9AhPwljKC3GxLtFdr0IrKdhva7XHC5XS1qOAqibciaDmFQ4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_041_1c5724028dc3.png)
 
 对于以半桥单元为基本结构的功率变换电路，其单个桥臂上管和下管通常交替互为主动管和受扰管，但考虑到其各开关管及相应驱动电路参数基本一致，因此，式(42)、(43)确定了其基于桥臂串扰的安全工作区，即母线电压和负载电流的安全工作区间。该安全工作区衡量桥臂串扰对功率变换电路工作可靠性的影响程度，该安全工作区越大，桥臂串扰影响越小，因此，扩大该安全工作区与抑制桥臂串扰在本质上是一致的。  
 
@@ -301,7 +301,7 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 为克服传统四电平驱动电路和有源钳位驱动电路的不足，并结合它们的优点以增强桥臂串扰抑制能力，同时结合源极解耦开关管桥臂串扰抑制方案，本文提出如图12 所示的一种新型栅极驱动电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNClgwiavvkupCib32c0bp0Z0g3wdVDAOkoz3ZkK1s6uP9Lt8mDM6o7icregdESQKhWssBt1mKCFxzWsw9iaWdh4atNPywdKLnZBWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_042_b192f4521498.png)
 
 该电路具有三级驱动电平，分别为正偏驱动电平VGP、反偏驱动电平VGN和0电平，该电路还具有2个独立有源钳位支路。下文以下管为受扰管(对应模态6—8)对该电路做简要说明。  
 
@@ -321,21 +321,21 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 如图13，vgs\_L的测量主要存在2 个主要问题：一为实际测试点不能设在开关管封装内部，端子寄生电感和栅极内电阻的存在，导致所测信号vGS\_L与期望信号vgs\_L不一致；二为由电压探头和示波器组成的测量系统会产生测量误差，如探头前端寄生电感Lpi+、Lpi-和探头输入电容Cpi 的谐振导致测得结果v'GS\_L与所测信号vGS\_L相比振幅增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPPLBoxF4HSBuicqdkFUvqYAxbMuMuGibz6aB5ibjVGVMu7g2dnKjrTyic5sSDvriaXekTNA96ewicuCwhibCqzjMic1IPqiaQAbOfiaqxIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_043_5dfdaf6043a9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO78AAUiaN2wXoe9yvQcYJUP4mycL3Sbwl3cib5Bek4SawtqB8JF8iaX5ZEh70ovCOM4x9mPaFIoJ55yR0dqBd9N1NThyO0rwmAVc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_044_af7b1feb4937.png)
 
 若选择合适的测量设备，尽量减小测量误差，可以将v'GS\_L近似为vGS\_L。同时由图9 可知，若改进电路设计，尽量减小驱动回路寄生电感，当驱动回路电阻足够大时，则可以不考虑其对串扰电压的影响。设串扰发生前图13 所示电路处于稳态，记△v'GS\_L=v'GS\_L-VGN，易得各子图△vgs\_L和△v'GS\_L之间近似关系式为式(44)。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO1PPL0cEdicjp9iamMF6xDdPt1qStOh4IYTu0AMY1o6nPsgVeq73mhsmJ3djic9wOPiaYVCfvOdOUFP4AjulfyV3aTgm7slEc9Y9M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_045_1f15f27a2403.png)
 
 半桥拓扑电路实验平台如图14 所示，其中，采用碳化硅MOSFET为具有开尔文源极的C3M0075120K，RG(in)为10.5Ω；VTH为2.5V；VGS(min)为-8V；该电路负载电感值为1mH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOOAgAgkiaYWN3I0WYqrzFnZ0V46Skqc99rqibpicMnvibY3Dc0ANy7H7iboxuRBUlicdjH33U2Mv3KXZ7sR9zMibNphgzDkEJelicdSEo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_046_7df32aee72bc.png)
 
 表3 列出测量设备及其规格。此外，下文中示波器MATH 通道串扰电压信号均由式(44)间接得到。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPn1GfHcB4Hia49hS65Yn09X5FT689JfTLKtiac1iakS5W81dh40qYiazV0WIRNeXxIYsv0QDxibpLZEzUGcicWdYzIBOlVqyobcBbWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_047_7d9cde6f756a.png)
 
 5.2 实验结果分析  
 
@@ -343,9 +343,9 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 通过是、否短接开尔文源极和功率侧源极构成源极耦合、解耦工作方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMiaHUJRkNYIFrlqU8CaRhNicJ0p6WLrcHk9717pzTgSw1IhHOGiby3Ey6GQdpw7aKia5NAQvfygpqicqjph6hcTWGWl2J6tp3MZTia8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_048_e99f7761f84f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvfiaB01FbSlQDZBibeyFXicDguiaLDqckIR1QjOCKVARtvF5Vsbytal0ab1CxXdtQAh4YfgNHicZOc5WNagdeGvGAETibjPr5zCjX0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_049_8cddb80d4d80.png)
 
 图15 实验条件为RG(ex)\_U=RG(ex)\_L=22.3Ω，VDC=10V，IL=2.5A，共源极电感为8nH。可见，当受扰管源极解耦时，在主动管开通过程，串扰电压先增大后减小，极性为正；在主动管关断过程，串扰电压先减小后增大，极性为负。  
 
@@ -357,7 +357,7 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 按照图15 的实验条件进行仿真，以上管关断过程为例，对比源极解耦受扰管实验波形和仿真波形。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtoXeacrYNIPPHVMQzrYcPbljWd241IYsvOwSU3wAIT2dshqyVVYUrHl3KpicIbC3ibYM5GP3cZQ3olp7rAwvKXJjeUc0AK6Dy4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_050_75061b33dfe0.png)
 
 如图16 可见，实验波形与仿真波形走势相似，两者极值较为接近。实验测得串扰电压波形滞后于受扰管漏–源电压，是因为不同通道信号延迟时间不同。 
 
@@ -365,19 +365,19 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 图17—19 比较传统驱动电路和新型驱动电路桥臂串扰抑制效果，表4 给出相关参数对比结果。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPTyCoeJzW9OaMssQaGkY4QRjbrceKiakljDRIbywHZicPgy24g9Q4jiaM0OA3uZVqsZOINZtX5hw8dpX5H0718t8zKZM5bZQiaTVo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_051_c6dcb979766a.png)
 
 可见，相比于传统驱动电路，新型驱动电路既有效减小了串扰电压极值(绝对值)，又增大了串扰电压阈值(绝对值)，这使得基于桥臂串扰的安全工作区明显变大，即显著增强了桥臂串扰抑制能力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPne2Xnfd96P7ENpUXZP3JaGzgjwN2x24pyic0CrDsjSkMibWX9Qe1dTsJeJ8Yp7Dgwlnxk8zFOOe2UHgpIAiaiaX4hC2ibglnYAPbY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_052_5ff0e365ad15.png)
 
 值得注意的是，有源钳位支路有源器件存在约为2.5Ω的通态电阻，因此，在主动管开通过程，新型驱动电路外栅–源极间并非真正短路，这导致图19 的v'GS\_L存在波动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZPLeXBSfLwdIDjec1SEfl0FEJ1IRXRkMx7TcvPtN4GujjnUKTqGodREyOPkJ9MpbRXcLlTaDT74hXRbicTeicIibk54XTyPM0X0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_053_d1cf39134b5d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicxq9IoZGRTiazImyNkMhryuDHJhxia8s7ZKKlH35Ok32beRG24ndia6c8oesDicEJAF287HCyI6vBVKhY80KibKeQpBz61s6whvr8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_054_0f3141ad27aa.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOoMyOyicc9cnQibPsoAn8BY2fb2kzicvrSQFdlzDukBRxHCfdPL3ZLNe0SEqRKptdnbXFa3rdHuMgLWVcYPtZEG40G317haaopAM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_055_4df1446026af.png)
 
 此外，有源钳位支路的使用减小了驱动回路电阻，从而减小了驱动回路阻尼作用，使得驱动回路寄生电感和辅助电容谐振加剧了串扰电压波形振荡，因此，图18(a)和图19(a)的v'GS\_L有相对明显震荡现象。因此，若要进一步抑制桥臂串扰，就必须减小新型驱动回路寄生电感。  
 
@@ -405,14 +405,14 @@ t7—tc 为D\_L 反向恢复过程后期，iD\_U、iD\_L 同步减小，但�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPsg858tibXib82rJibcsXiaCicksobNZuDhkGNq5DVgMHN7kLRqt32vsTSHuLqQukbPDMg2ibjY3BV8X1eFftpBCcibkYjicW3kaqeHuU/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_056_e2a0ada8b166.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMpAmakQkbSgSnZlhMHhibibMnILtT4KtbADu1yib0NGrGYdhyibwvZAg6jxnrw86xbIlqyiaC7mF7ia6kd3Fg8lYElg7f41hPJxf3Hc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_057_531a8f8aa241.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOyEUgKGS2ZLECAcWGQZWO6EcnDPWwVYEsVykHicsW0fxjVdPDFEnZovf25gmEIOy9ibUlCdVedXu7UGVjYtoMR95KrE637cGzHI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_058_c215cd66c2d1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMb6k2nLBt1eemYOnsskiabmfnZgOWe7mgrJQwvvudjnrkxmeVEOjx4rAvGQibgeicsEdqV3seOzBbl0bYViaDsafuYWiaTibtahwuT4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET桥臂串扰机理分析与抑制策略_images\img_059_f64f20f9e15b.jpg)

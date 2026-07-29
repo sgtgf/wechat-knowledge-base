@@ -9,7 +9,7 @@
 
 电镀电源是为了电镀工艺提供电能的设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCrGjMqMOG0ekECGfEThvcLW3xcvakVvjKPjCbVb4m9Io9WxBq6MN0icmA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_000_100bf53d03c5.jpg)
 
 电镀电源‌是指在电解、电镀和电泳过程中用作电源的装置，主要用于将电能转换为化学能，以实现金属的沉积。电镀电源在电镀过程中起着至关重要的作用，能够提供稳定的电流和电压，确保电镀过程的顺利进行。
 
@@ -19,7 +19,7 @@
 
 1.金属表面处理
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCrTN4EmYDAicrjLAMX67vJmG2JLagzDcXxzsl5wq3JACIw6x45HN6EM3Q/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_001_c93edd00caea.jpg)
 
 装饰性电镀 ：在五金制品、汽车零件、珠宝饰品等表面镀铬、镍或金等，提高其美观性和耐腐蚀性，如电镀铬使工件表面具有高光泽度和抗腐蚀性能。
 
@@ -29,7 +29,7 @@
 
 2.电子元器件制造
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCrqDQOPb4syZOHsQmAe3BkG0XfLCTiauLLhk45EpGrbicibC6zqWaheORNQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_002_4fca6433a024.jpg)
 
 电路板电镀 ：在印制电路板生产中，用于通孔金属化等工艺，形成良好的导电路径，确保电路的连通性和稳定性。
 
@@ -37,7 +37,7 @@
 
 3.汽车制造与零部件加工
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCr633ibk2k9oLQGLBh4P53eL3tL7m4dGuUovQkjIrVDfod7gX8k9QeXgw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_003_fb22372bc277.png)
 
 零部件防护与装饰 ：对汽车车身、轮毂、保险杠等零部件进行电镀，既能防止其生锈腐蚀，又能提升外观品质和美观度。
 
@@ -45,7 +45,7 @@
 
 4.航空航天与军工行业
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCrVa8TgdGiaC1Sicl0lgJxrZDcNHXgR17oT4nicZV0vMLib9oTQ8RXUuiaP0w/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_004_95a68ed2c362.jpg)
 
 高精度零部件电镀 ：航空航天设备零部件对质量和可靠性要求极高，电镀电源可用于制造高强度、高耐性的腐蚀特殊涂层，确保零部件在极端环境下稳定工作。
 
@@ -53,13 +53,13 @@
 
 5.半导体制造
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCrxDicNFZH6yicJ0LwLSgrGKgPibOvvQ38FvwCWmyMsyV3uFPUyRONHOByw/640?wx_fmt=webp&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_005_eeee61146cbc.webp)
 
 在集成电路生产中，电镀电源被用来沉积金属互连层，如铜互连工艺，这是芯片制造的关键步骤之一，能够实现芯片内部各元件之间的电连接，提高芯片的性能和集成度。
 
 6.新能源领域
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCrYQfJuFeO2AbWJbQicuQtPEmruqDsLn51iafGqBBxxHPwXSRNdqTJeiaoQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_006_580cc5bdcec9.png)
 
 随着锂离子电池的发展，电镀技术被用于制造高性能电极材料，如通过电镀镍钴锰合金，提升电池的能量密度和循环寿命。
 
@@ -111,7 +111,7 @@ PFM（脉频调制）电源 ：通过改变脉冲频率调节输出，适用于�
 
 二、SiC MOSFET 器件在电镀电源中的应用优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk52w9xZ5Fcva1ziceWoHoCroiaDBXHjKljCbHQsR0iaeu50ak6brcCtLqO78psHQf9hcyQynIWp7Lrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET器件在电镀电源中的应用_images\img_000_258403d20915.png)
 
 #### 1. **高效节能特性**
 
@@ -179,11 +179,11 @@ EMI抑制：优化PCB布局，减小寄生电感（<10nH），并添加共模滤
 
 6. **器件选型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdticDBTofHuI1OkbaCXeZwfl35y6pCFia8tAlABzEgicPC5TeN9nOFD1dg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_008_c3c47aea09ec.png)
 
 **SiC MOSFET单管：电压等级1200V-1700V-3300V，内阻80mΩ-8mΩ,电流30A-200A。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibjbGBrqUTlAJ50zoibhvMXnrexUB7OA18dEkfPHmQKdL6eOcSYADvNug/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_009_94ad1d5fc6ad.jpg)
 
 ****SiC MOSFET模块：**电压等级1200V-1700V，内**阻5mΩ-15mΩ,电流100A-300A，封装34mm和62mm模块。********
 
@@ -195,13 +195,13 @@ SiC MOSFET 器件在电镀电源中的应用可显著提升效率、功率密度
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET器件在电镀电源中的应用_images/img_010_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJ68zeNY9JuXhIiahibOAxqveXC7SYSARTAagmmayB1ickfSgNGrHGd5Otw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在电镀电源中的应用_images/img_011_15b4a0cddecb.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](SiC_MOSFET器件在电镀电源中的应用_images/img_012_7038903c64cb.png)

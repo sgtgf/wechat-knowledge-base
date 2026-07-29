@@ -7,3 +7,4 @@
 *.webp
 *_images.zip
 *_images/
+__excluded/

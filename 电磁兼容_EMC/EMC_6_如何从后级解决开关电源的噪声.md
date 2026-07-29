@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/SoytbBCiypQuxg5XBUq3SQ](https://mp.weixin.qq.com/s/SoytbBCiypQuxg5XBUq3SQ)
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvwXE52kjgHgnVEnIzrh99N9iav1y6k5ylUSHE64IiaTAMewEgcVmkmnOA/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_6_如何从后级解决开关电源的噪声_images\img_000_11c8060ad5f5.png)_
 
 ____**★★★**______EMC-6---开关电源噪声的应对______**★★★**____
 
@@ -21,7 +21,7 @@ _____€1.后级解决噪声的步骤_____
 
 4#：考虑增加部件，例如分立滤波器来衰减，旁路电容进行旁路，片式磁珠来吸收等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OET0cpiaLHBa1Xgc62A4Ssialyeov6LJfwYqUT4J2xCjlZLjLVFsYxbYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_6_如何从后级解决开关电源的噪声_images\img_001_afb4a242ff83.png)
 
 **_图6-1：常见噪声来源和应对方式_**
 
@@ -41,7 +41,7 @@ _____€2.共模滤波器_____
 
 如**_图6-2_**所示，开关电源的输入滤波器是针对共模噪声和差模噪声，分别采用适合不同噪声特性的滤波器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1Oze6h4gqziaRxG3PdpsIj0jRkzjSFHlPoicsjeZ4Tbps4hsFeia8tfBYwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_6_如何从后级解决开关电源的噪声_images\img_002_ff15bc27e7da.png)
 
 **_图6-2：典型的电源输入滤波器_**
 

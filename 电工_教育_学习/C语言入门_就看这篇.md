@@ -28,7 +28,7 @@ C语言一经出现就以其功能丰富、表达能力强、灵活方便、应�
 
 简单来说，一个C程序就是由若干`头文件`和`函数`组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTib8S9Y3vmZia19QBWAgRZll1pOfbyfjHRiaaia00Iv4JrkckxUhVFFAB5Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_002_8ea8951e9858.png)
 
 `#include <stdio.h>`就是一条预处理命令, 它的作用是通知C语言编译系统在对C程序进行正式编译之前需做一些预处理工作。
 
@@ -39,7 +39,7 @@ C语言一经出现就以其功能丰富、表达能力强、灵活方便、应�
 
 一个C程序有且只有一个主函数，即`main`函数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTnVdOrmgXW71nOypsdPLNTgVgbs0Zp8J2ibdF0JYR5V9dLEibibsLyKibsQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_003_8e0bb34fb483.png)
 
 C程序就是执行主函数里的代码，也可以说这个**主函数**就是C语言中的**唯一入口**。
 
@@ -65,7 +65,7 @@ C程序就是执行主函数里的代码，也可以说这个**主函数**就是
 5.  代码中所有符号均为**英文半角符号**。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPT5Exzq8HvqcV0ZOTLhibZAdaDEnWibEIvMnO02g9icuE7e38COnlobSsIA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_004_dcfbaaacfc38.png)
 
 程序解释——注释
 
@@ -95,13 +95,13 @@ C语言规定，标识符可以是字母`(A～Z，a～z)`、数字`(0～9)`、�
 
 变量就是可以变化的量，而每个变量都会有一个名字（标识符）。变量占据内存中一定的存储单元。**使用变量之前必须先定义变量**，要区分**变量名**和**变量值**是两个不同的概念。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTA2Z91OHpYbVtpSwuHhxmsBXJxePBDhJ3icY4Nu3liaQkuGQ0WVJVnQvA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_005_36efcc35efed.png)
 
 > 变量定义的一般形式为：数据类型 变量名;
 
 > 多个类型相同的变量：数据类型 变量名, 变量名, 变量名...;
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTDVLYs1MBY0foTzKfoIPib6BPRPkda8q34ic3GeiaRofXmIFic7zcCqSQww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_006_ec1381a5e303.png)
 
 **注意:在定义中不允许连续赋值，如****`int a=b=c=5;`是不合法的。**  
 
@@ -125,15 +125,15 @@ C语言中，数据类型可分为：
 4.  空类型四大类
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTTzRUmSHQMibyCU4YXB124nhm3nZ8tBB6ZwbRIqf1oaAJXJoEGiaHh8FQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_007_40b22b2bf916.png)
 
 最常用的**整型, 实型与字符型**(char,int,float,double):
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTpicmODZavkO4bJODSTiaZn7vz9qpbuMTm7wohwOObqoD9qt3icmeNt45g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_008_67c42c52e89b.png)
 
 **整型数据**是指不带小数的数字(int,short int,long int, unsigned int, unsigned short int,unsigned long int):
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPT5aR5DiaicmvavKBnkWw2SuhSAYdsl8akAfMYsRrb0dTqrtfOBTa7ibibeg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_009_8324d415448d.png)
 
 **注：**
 
@@ -152,7 +152,7 @@ C语言中，数据类型可分为：
 
 因为精度的不同又分为3种(float,double,long double)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPThOg0AMdPNxrPOoza7KJnnvmjhJmibdaXgt3RPAjHicBaPib4YdBTOcQCw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_010_a1acd1e16340.png)
 
 注：**C语言中不存在字符串变量，字符串只能存在字符数组中,**这个后面会讲。
 
@@ -162,7 +162,7 @@ C语言中，数据类型可分为：
 
 其格式为：`printf("输出格式符"，输出项)`;
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPT1oW2ud9o7xpMEbibyERqdVYOfdLBoB5ia1DJQEwDqLMJ8NcuoKQy2sBw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_011_9d88e1185a48.png)
 
 当输出语句中包含普通字符时，可以采用一下格式：
 
@@ -170,7 +170,7 @@ C语言中，数据类型可分为：
 printf("普通字符输出格式符", 输出项);
 ```
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTKF40iaianIBxB73u5Pzqwja6ISqTwI194ibkeOj2YPickh1sC2W6sTCXIA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_012_7f9978c8dc55.png)
 
 注意：**格式符**的**个数**要与**变量、常量或者表达式的个数一**一对应
 
@@ -192,7 +192,7 @@ mtianyan: C语言的常量可以分为**直接常量和符号常量。**
 -   字符串常量：”I love imooc!”
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTjpwYKpPgWj9bSrUK2lZjFDb4rfibITwTsYicAlvDGlaCRWBlvmKuj45A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_013_20d1673142a9.png)
 
 在C语言中，可以**用一个标识符来表示一个常量，称之为符号常量。**符号常量在**使用之前必须先定义**，其一般形式为：
 
@@ -211,7 +211,7 @@ mtianyan: C语言的常量可以分为**直接常量和符号常量。**
 数据类型存在自动转换的情况.  
 自动转换发生在**不同数据类型**运算时，在编译的时候**自动完成**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTibU4UdpoWN5obJtQ51DTJSHjQMiaNZ7LQIGCqdW1Hv5jdF54cLRjEGpw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_014_74de7edddb8d.png)
 
 `char`类型数据转换为`int`类型数据遵循`ASCII`码中的对应值.
 
@@ -252,7 +252,7 @@ C语言中运算符:
 
 c语言**基本运算符:**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTR0pLGxZmhcjxTryuDZqY7cY67FoibW8qgUSIOX4IW0wxogvAiaK2NWkw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_015_7f9ae6380b79.png)
 
 **除法**运算中**注意**：
 
@@ -348,7 +348,7 @@ C语言中的三目运算符：`?:`，其格式为：
 
 各种运算符号的顺序:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTVdDbZP5b5k6IAqPaYIiaE8CuaooESmXTkcsFN6icgdEHgVRP2yOZvNbg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_016_0aca176d41df.png)
 
 **优先级别为1的优先级最高**，优先级别为10的优先级别最低。
 
@@ -370,7 +370,7 @@ if(表达式){执行代码块;}
 
 简单的`if-else`语句的基本结构:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTho9usb96poXNicVAx63uELa9O8GDHEzfDbH4JsAjIZUKZdwPONMKRDQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_017_62ef4536903e.png)
 
 语义是: 如果表达式的值为真，则执行代码块1，否则执行代码块2。
 
@@ -382,7 +382,7 @@ if(表达式){执行代码块;}
 
 C语言中多重`if-else`语句，其结构如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTGBMr6iaRuQD0ZcJShtAibegg3iadJXvd7Lxq2woL16FvVL40q3ahWUaag/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_018_b37cd6909685.png)
 
 语义是：依次判断表达式的值，当出现某个值为真时，则执行对应代码块，否则执行代码块n。
 
@@ -392,7 +392,7 @@ C语言中多重`if-else`语句，其结构如下：
 
 C语言中嵌套`if-else`语句。嵌套`if-else`语句的意思，就是在`if-else`语句中，再写`if-else`语句。其一般形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTb99sEiazaa7k48Uibz5G8OaMDAu8F8GFhqPtnsb7aZGS2NGCujg1cBBA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_019_8e2d2990fb79.png)
 
 ### 循环结构之while循环
 
@@ -400,7 +400,7 @@ C语言中嵌套`if-else`语句。嵌套`if-else`语句的意思，就是在`if-
 
 C语言中有**三种**循环结构,先看一下C语言while循环的结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTeQS8AWN8aiciaiciaYicWhh9jgZ8kicRy0KIxl0OATnFiasq766RjCHspfqEg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_020_92eb0fca8122.png)
 
 其中表达式表示**循环条件**，执行代码块为**循环体**。
 
@@ -417,7 +417,7 @@ C语言中有**三种**循环结构,先看一下C语言while循环的结构
 
 C语言中的`do-while`循环，一般形式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTVoaOhFNb56TCsa9VAZhZm8hEInWpz7rWAEPWG26fYY08e3nooRWKhA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_021_9ad7bd3f69aa.png)
 
 do-while循环语句的语义是:
 
@@ -429,7 +429,7 @@ do-while循环语句的语义是:
 
 c语言中**for循环**一般形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPT5WicOLB1NpeGs6argjhDtIA1BiaTgvG0mK7POJ0GQ1qQv8YJsPSsl0DQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_022_362aff7be1dc.png)
 
 它的执行过程如下：
 
@@ -472,7 +472,7 @@ c语言中**for循环**一般形式：
 5.  表达式1可以是设置循环变量的初值的赋值表达式，**也可以是其他表达式**。
     
 6.  表达式1和表达式3可以是一个简单表达式也可以是多个表达式以逗号分割。  
-    ![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTDS5icLNOzEz5QQanj2fic72LqMxZKoib2ic1qoZLYoBEgBv7cBQWoWQxibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_023_7c7c48639ddf.png)
     
 7.  表达式2一般是**关系表达式**或**逻辑表达式**，但也可是数值表达式或字符表达式，**只要其值非零**，就执行循环体。
     
@@ -517,7 +517,7 @@ while, do-while和for三种循环在具体的使用场合上是有区别的，�
 
 > **父循环一次，子循环需要全部执行完，直到跳出循环。**父循环再进入下一次，子循环继续执行...
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTo38TpA8xD4bmgagV5A01q4AibNxxZ7LIWEChiaUjOhTkqK24bmmq7ZFA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_024_8d7f82b157ea.png)
 
 mtianyan: 打印三角形星星堆
 
@@ -561,7 +561,7 @@ break语句与continue语句的区别是:
 
 switch语句结构如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTjfKOMSRYCCW7yEIarHngk8lb8ksOJe66wWzdsR42NgqrAF3d1gu1Ug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_025_5f3b99f4b528.png)
 
 mtianyan: `switch`语句时还应**注意**以下几点：
 
@@ -596,7 +596,7 @@ C语言中也有这样的语句，就是`goto`语句，goto语句是一种**无�
 goto 语句标号;
 ```
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTdc8eRxe3bjsj8ibYiappk1lpORXsnQAukHiaujmadDicr3wARJHEo3ft5w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_026_7489a693b24e.png)
 
 ### 自创函数
 
@@ -604,7 +604,7 @@ C语言提供了大量的库函数: 比如`stdio.h`提供输出函数
 
 自定义函数的一般形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTYkQGHzKpfInibH9aPibKnNvbyE0rA1st8iaHb2C1icib2gy7mtrq9LUqmbw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_027_2352bfdef170.png)
 
 **注意：**
 
@@ -724,7 +724,7 @@ return 表达式   或者为：return (表达式);
 
 5的阶乘这个例子进行一下剖析，看一看他的运算过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTQhsia4t3SSOG1Ax20UGU2pBgOnBgEdoicibzRLppLibPzZ4TqtoTwIzibwQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_028_2021a5e0f499.jpg)
 
 程序在计算5的阶乘的时候，先执行递推，当n=1或者n=0的时候返回1，再回推将计算并返回。由此可以看出递归函数必须有结束条件。
 
@@ -792,23 +792,23 @@ C语言中存储类别又分为四类：
 
 1、用关键字auto定义的变量为自动变量，auto可以省略，auto不写则隐含定为“自动存储类别”，属于动态存储方式。如：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTnaz3CsTd7I53LKpdggcoQOrcVGtbv3lz0pTMicYZZ9oOsb8Vendibzkg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_029_b6faf66016e9.png)
 
 2、用static修饰的为静态变量，如果定义在函数内部的，称之为静态局部变量；如果定义在函数外部，称之为静态外部变量。如下为静态局部变量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTu35BT7RkcMmMNWFr2ayc6kPCjWTnDJAc2ia7z490yFKGVz0Z4EAn2Vw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_030_6a2a6f3b8c47.png)
 
 注意：静态局部变量属于静态存储类别，在静态存储区内分配存储单元，在程序整个运行期间都不释放；静态局部变量在编译时赋初值，即只赋初值一次；如果在定义局部变量时不赋初值的话，则对静态局部变量来说，编译时自动赋初值0（对数值型变量）或空字符（对字符变量）。
 
 3、为了提高效率，C语言允许将局部变量得值放在CPU中的寄存器中，这种变量叫“寄存器变量”，用关键字register作声明。例如：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTUlwFhpZzedLQvKyN0DlwZOwAJGKxKjwCQ0ibxSLoV2Pa9E9Qxbskibibw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_031_7ee18d2fb16b.png)
 
 mtianyan: 注意：只有局部自动变量和形式参数可以作为寄存器变量；一个计算机系统中的寄存器数目有限，不能定义任意多个寄存器变量；**局部静态变量不能定义为寄存器变量。**
 
 4、用extern声明的的变量是外部变量，外部变量的意义是某函数可以调用在该函数之后定义的变量。如：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTJpvibr7yUsoQDXmJ9DoKEaOCo94PmRCeuKsSKWeJmf3icEtl5YLdVkiaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_032_62e5c8e3cf79.png)
 
 ### 内部函数与外部函数
 
@@ -906,7 +906,7 @@ test.c
 
 数组就可以采用循环的方式将每个元素遍历出来，而不用人为的每次获取指定某个位置上的元素，例如我们用for循环遍历一个数组：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTMTibVvicVGEmvmE1ue0utYwb2g8mRYxd3iboELLPghZAZ466lic6OX00Wg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_033_4c5f119b7d17.png)
 
 注意以下几点：
 
@@ -930,12 +930,12 @@ int length = sizeof(arr)/sizeof(arr[0]);
 1.  整个数组当作函数参数，即把**数组名称传入函数**中，例如：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPT2KvqibRdkLICPq80XemGo1F3TFMLh8jcOZwTI09QjKg6EF8WCSqC7kQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_034_642bf4131c32.png)
 
 1.  数组中的元素当作函数参数，即把数组中的参数传入函数中，例如：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTDDGGXVgRjqyRXR6Vc943B3u991nxn5Osdn7VJIGG1DosNNeWdX8oyw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_035_fee1ebda562f.png)
 
 数组作为函数参数时注意以下事项：
 
@@ -987,40 +987,40 @@ C语言中，是没有办法直接定义字符串数据类型的，但是我们�
 
 常用的字符串函数如下(strlen,strcmp,strcpy,strcat,atoi):
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPThnSibJGHWI7pOoyXh3v3Fvydjx2j9XdcZNxqPLhSqOqpwg9scmGyMpg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_036_d7ab79131904.png)
 
 使用字符串函数注意以下事项：
 
 1.  strlen()获取字符串的长度，在字符串长度中是不包括‘\\0’而且汉字和字母的长度是不一样的。比如：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPT1Gia5b56TEwRxNu8yqYT6pIzwUibIc5icU1jUEUwcETLNLdBS9ibkdE9CA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_037_59fea90a5643.png)
 
 1.  strcmp()在比较的时候会把字符串先转换成ASCII码再进行比较,返回的结果为0表示s1和s2的ASCII码相等,返回结果为1表示s1比s2的ASCII码大,返回结果为-1表示s1比s2的ASCII码小，例如：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTjic1Sx1WicGb9iaJJKVoON0OZVWSAdTR7yLFZpicECtYZRMOsxUlWVb3Ug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_038_ba57c04bf7b9.png)
 
 1.  strcpy()拷贝之后会覆盖原来字符串且不能对字符串常量进行拷贝，比如：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTyxQkqhZLstbyH2oW7CX8pqpiaDU8cMQUMIpZBKD8kPTFMKmJpciclL9A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_039_8cac77f64f41.png)
 
 1.  strcat在使用时s1与s2指的内存空间不能重叠，且s1要有足够的空间来容纳要复制的字符串，如：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTepvxo8THyiczXNCHOgSqSF626WhdFLwF8eia0Y3ncTOgZNfhSZGWD9Gw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_040_f4c78ba7e310.png)
 
 ### 多维数组
 
 多维数组的定义格式是：  
 数据类型 数组名称\[常量表达式1\]\[常量表达式2\]...\[常量表达式n\];
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTIQIvFGeKSEtzia3cm0yjLPtk0ZOkkticLKfQSo5jV6vGcXJgG1JaJzyQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_041_dc497e8c77bd.png)
 
 定义了一个名称为num，数据类型为int的二维数组。其中第一个\[3\]表示第一维下标的长度，就像购物时分类存放的购物；第二个\[3\]表示第二维下标的长度，就像每个购物袋中的元素。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/e2dWNvMTo3YIQ9AGHFs90GJWGibVPoGPTGbM2OnDndbSvlxIZgOHg44eNBV8RR8dONB85OZEojs953vnmFU4VqA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言入门_就看这篇_images\img_042_0242c5f9957b.png)
 
 多维数组的初始化与一维数组的初始化类似也是分两种：
 

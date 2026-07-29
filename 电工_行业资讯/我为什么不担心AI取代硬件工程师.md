@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/zc5Z1Wj0jgkgLyHzvHW4mA](https://mp.weixin.qq.com/s/zc5Z1Wj0jgkgLyHzvHW4mA)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_001_9011be9decf6.gif)
 
   
 
@@ -24,7 +24,7 @@ AI够不着的地方，还很多
 
 这个过程，你可能要拆机，要拿万用表、示波器、电烙铁，要靠经验去推测、去排除。这背后的主观能动性，和对整个系统的理解，目前来看AI还接不住。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafhflOdwI3ZqvKLcAwdP9qa2gZZC0dkmDV1NW3pFDJ0btWlDEZZgqjNs2tqmMOMUjpCH0Qo5SvVQy1x14VaOcCu7c6AOyLGTN4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_002_3a7bd0e4396e.png)
 
 当然，有人会说，万一以后机器人也会拿示波器了呢？那确实，如果AI和机器人发展到能替掉硬件工程师的程度，那生产、工艺、测试、采购、layout基本也都保不住。真到那一天，可能就不是咱们一个岗位的事儿了。但我个人觉得，如果AI的诞生是为了取代人类，而不是帮人类干得更轻松，那这个方向本身就有问题。  
 
@@ -40,7 +40,7 @@ AI能帮你干活，但替不了你决策
 
 我举个简单的例子。比如调一个电源，纹波总是超标，你不知道是什么原因，可以问AI，然后尝试换电容、换电感，调频率，改PCB布局。顺着这几个方向查下去，总能找到了优化空间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadU4VjnrtIBLiakfeuaCGnsXcykv90H0MS8lbpqeVTTWZH6CWHXU2cKRibSSqTalggDUHtEQItDwm56GFLRj8FHPCia5IFyDNWdia4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_003_64aa7b4230b6.png)
 
 这事儿AI替我们解决了吗？没有。示波器还是我们戳的，电容，电感还是我们换的。但它帮我们多提供了多个排查角度，让我们少走了一段弯路。
 
@@ -66,12 +66,12 @@ AI能帮你干活，但替不了你决策
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadgz5Uib0QM8D1t82lhNZexQwnCLicxHxn6XzEXnBQyrAQUXzlT3QAQ31MeVbzQgDBtxBTVEriaI8R2XuZMRDN3aHk3YKbHlHOmxc/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247564533&idx=1&sn=92850623dc5c3d8699c1e8e9353ac3f7&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_004_baf9146dd3c8.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247564533&idx=1&sn=92850623dc5c3d8699c1e8e9353ac3f7&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niac3icNvgrdIj7Jt6tujfrDaYaa08Cf76Sfc75kAlkUjWWv4zvDqInicWAIiaAw8d9GlEXfkzoUOSw8dvibc7dXQ2VdiaUkIVbKhS4u0/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563931&idx=1&sn=494fc25543fd98e80abbdcdc9c4d185c&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_005_fc91ed49a7f8.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563931&idx=1&sn=494fc25543fd98e80abbdcdc9c4d185c&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafGmDKD7N5kyjcXYaScicWgHlBhS2xh9FibtczSVC7eiaIeo85ORHiaxxuiaTJjXTOUZE3MP9vyiaMNa0ekzvBElnfm3OG6LXhCZ8DuI/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_006_707cf14cb3cb.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niactYpTtccxEI6K7Z5ibVx0unklic9MRgrbAniahvZCdKKdAzHMBib484wt8YLQ7k8wibc03DMUy53L5DGfrkvJRKPP18aPSxoSf647Y/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\我为什么不担心AI取代硬件工程师_images\img_007_d978f12bf9de.jpg)

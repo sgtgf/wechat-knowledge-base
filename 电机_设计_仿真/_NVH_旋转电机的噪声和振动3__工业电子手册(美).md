@@ -9,17 +9,17 @@
 原文摘自美国《工业电子手册 功率电子和电机驱动___》第二版__，第9章。_《The Industrial Electronics Handbook  POWER ELECTRONICS AND MOTOR DRIVES 》  
 __
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyjnicUyYV1ZSGqbLvWgNLM6qUXxCEgRgbpWg4M8kffX9xy7feltQoGjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_000_d8318d1494d7.png)
 
 本篇为原书9.4节的翻译，主要内容是电机的振动和声辐射。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFR8ibvEAbZ5Wc5sib97QSnKCRyTn2ynyveQEUBOsQpH6h0We2gW2c7JagA/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_001_a88a61a5ef9e.png)  
 
 ### **4 机械和声学建模**
 
 力分量 fmM的特性和定子设计可用于估算振动幅度及相应的噪声。首先计算静态变形幅度 Yms，其次考虑机械共振频率确定振动幅度 Ymd，最后估算声学噪声。大多数给定的力学表达式来自于梁理论 \[2,3\]。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRAbVYrGof83g4Lnhvuv4dAwW272RsbbO4gRI13L2S8md2PoOaImJPNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_002_a30141fbd488.png)
 
 图9.13 定子的符号
 
@@ -27,11 +27,11 @@ __
 
 #### **4.1.1 静态变形幅度**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRHFogF3sE80bdzyOLBgscP48CZtUKBiaf0XWsI61U20CPX4qT0SBvGcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_003_9cce169a1f3b.png)
 
 ### **4.1.2 极对数影响**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFR0ufmzgZ8NNGibzljfTkicnzxZy3etflf3ibJuOLPZ803Gicr3HqK71E3HA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_004_2e660be24772.png)
 
 ### **4.2 共振频率和振动幅度**
 
@@ -39,17 +39,17 @@ __
 
 **4.2.1 共振频率**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRlLdbN0dky6fib01yAEib9JdpIXYSGB1crbc8gL2YOCkRT8ZTSicBiaaODQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_005_cac99f9b9fc8.png)
 
 ### **4.2.2 振动幅度**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRuMIHfgHV1PGHysiaXQxe8SY82KZZQXEOfFJ7wNK8hc9VpYotSofoSEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_006_d446799f6b94.png)
 
 #### **4.3 电机的声辐射**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRMibdg6ERuvgOSws4ibaj50ClaP9WzZicQvPhlBeodHs4y9iaEtXjkBW2RQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_007_3dcedaa4ff8e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRo2VnREicuVzibo6jCujleOxyVIs4jSAAgNOUezVVFroNWT5e3Ueic8zbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_008_96e7fc6eb3b3.png)
 
   
 
@@ -74,4 +74,4 @@ _
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动3__工业电子手册(美)_images\img_009_ff45e776e079.jpg)

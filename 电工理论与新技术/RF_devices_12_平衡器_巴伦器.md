@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Jk94chdlARpH8Nl4DipAxg](https://mp.weixin.qq.com/s/Jk94chdlARpH8Nl4DipAxg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNBiarpl2FypHQFCJPgSNmLIwLucicLDiaQZHgyzryJxLVP2m4OoSD2ns2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_000_d4043c3c7729.png)
 
 ____**★★★**______Balun-1---巴伦______**★★★**____
 
@@ -15,13 +15,13 @@ ___€1.平衡与不平衡___
 
 平衡线路由电位幅度相等且相位相反的导体构成，如**_图12-1_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSPiaETvp6HUMng9ibSrxjicj2u89E1ktannrZlFDvFDmRpF5MWMsgSbRibFSP4xPpNLVO7YlyFCBbXKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_001_3741b3b46329.png)
 
 **_图12-1：平衡线路传输_**
 
 在_**图12-2**_同轴电缆内部，由于内导体与屏蔽层内侧的电流所产生的电场局限于此两者之间的空间内，因此该两电流幅度相等且相位相反。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSPiaETvp6HUMng9ibSrxjicj2yeL9ibIFHAWlicPH8lowZAjy6E3OxCXDQNRQTnVdDHqtENKJsnHpKQmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_002_f41c779c4f85.png)
 
 **_图12-2：不平衡线路传输_**
 
@@ -49,33 +49,33 @@ _LC Balun_
 
 使用了低温共烧陶瓷LTCC的巴伦器拥有多样频率种类、形状尺寸、端子结构、规格值等，针对大功率场景，还有分立式的LC巴伦，如**_图12-3_**所示传输线变压器式：采用传输线绕在磁芯上的结构，通过控制传输线的长度、匝数和磁芯的特性，来实现平衡---不平衡转换和阻抗变换功能，具有宽带、大功率处理能力的特点。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNgnTicGjNsjkfPcHbxL6UBt9qu8SM9HY2YN57yfpGTRC5FFic60qkmbJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_003_5f9546c2f7ff.png)
 
 **_图12-3：分立式SMT LC巴伦_**
 
 LC巴伦设计本质上是一个电桥，称为格子形式巴伦，电路中包含两个电容两个电感，分别产生±90°相移，下面**_图12-4_**中是LC巴伦的电路示意图：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFicGnle6nibwKUhIVicq9FXYfNoibDMSOMpy9Vo5lvdr4to76Sduslf1S5dQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_004_54b960078afc.png)
 
 **_图12-4：LC集总器件巴伦电路原理图_**
 
 在工作频率时，满足：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFic1RmIbObjEtDPzrdYX4VDa8JPn8xe5PJFSBo2bOKxlK7Up5BTyGJKOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_005_1dd143eb1881.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFicBc0t7dCmh9FRSPVCia6xmeRu4Rnb0vXSmpeE1G9pAFvhFfEWicD3vK7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_006_de25705e93f8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFic04YRCvUm56E2ARfCZ8LsC3v4Lk7mNGWz97VmDTAiaIzWicuZWc0emHKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_007_41651051c34d.png)
 
 设计LC巴伦时要确保工作频率远远低于电容电感的自身谐振频率，并考虑贴片电容。上述电路主要用在推挽放大器的输出端，推挽功放提供平衡信号我们希望变成不平衡的信号输出，通常还用到螺旋绕线形式的巴伦，在**_图12-5_**中给出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6Bn4QFD2gdgqPa6VrGJHxy5C05kx8cqTeuTnsICZxRExECYeFdUn55ibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_008_eeff5c35f26a.png)
 
 **_图12-5：用于推挽式输出端的绕线巴伦提供平衡不平衡转换_**
 
 然而，用之前表述的集总器件巴伦实现芯片级的绕线巴伦更为方便，如**_图12-6_**所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6BIhWZiauCHbJXa2Z5CJkyg4qSIiaMbu5d8sbdm3DOevBwnOBiaOzxia1IYg/640?wx_fmt=png&from=appmsg)**_图12-6：集总器件代替绕线变压器实现平衡不平衡转换_**
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_009_1f6722a17018.png)**_图12-6：集总器件代替绕线变压器实现平衡不平衡转换_**
 
 _传输线Balun_
 
@@ -83,13 +83,13 @@ _传输线Balun_
 
 1#：1:1同轴巴伦
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFicuHice0uT2oqpeJepulYqt9miahicsXGfInnLiaVA7v8ic3dRk6hQRw8b0vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_010_04173eef1c15.png)
 
 **_图12-7：四分之一波长同轴线实现的同轴巴伦，1:1阻抗传输_**
 
 如**_图12-8_**四分之一波长短路棒巴伦，A点振子的左臂与同轴电缆外导体(屏蔽层)连接，B点振子右臂与同轴电缆内导体(芯线)、λ/4波长短路棒上端连接，λ/4波长短路棒下端则通过金属短路环和同轴电缆外导体(屏蔽层)连接。从图中可以看出，从A点到B点的距离为两个1/4波长，即λ/4+λ/4=λ/2，所以，同轴电缆芯线的信号从B点传到到A点，正好走了1/2波程，相位正好相差180度，就把同轴电缆的不对称变成对称。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6B64QbKt55Uum3NItiaUlr6Ricr9ykdlMKDTbO4j4XBGBoFcHCAytdDRWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_011_91a70ae9d04c.png)
 
 **_图12-8：1/4波长金属短路棒巴伦实现巴伦效果_**
 
@@ -97,7 +97,7 @@ _传输线Balun_
 
 2#：1:4同轴巴伦
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFicYQtlEh4NbQfbk87GMOF4A1embt9fqRVo0BULiaIyy8x2BAibCbjHVD2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_012_a7a35da62935.png)
 
 **_图12-9：四分之一波长实现的同轴巴伦，实现1:4阻抗变换_**
 
@@ -109,35 +109,35 @@ _微带线Balun_
 
 微带印刷巴伦有很多种形式，优势是价格低廉，可以印刷在PCB上或者微波集成电路介质板上。一方面微带巴伦尺寸相当大，尤其是在低频RF频段，小的耦合线常用在微波频段带宽可以达到10-20%。最简单的印刷式巴伦是耦合线巴伦，也称作平行线巴伦，如**_图12-10_**所示。用中心频率的四分之一波长微带线构成，带宽可以达到一个倍频，提供足够高的微带线之间的耦合，但实际中，**_图12-10_**的单边耦合巴伦并不常用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6BDVic5JXmagzFSKpRic8QgvPHkCpbibicdwZUzGSia5CvSD56XQeb9ZpEuWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_013_3bc1b200ae07.png)
 
 **_图12-10：单一耦合线巴伦_**
 
 更实际的情况是用**_图12-11_**中的多耦合微带线，或者**_图12-12_**中多层介质板以得到宽带耦合拓扑结构，宽带巴伦通常涉及到平行的平面巴伦。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6B0OzOGMXCCJbz8BEMdbQ6pVDVja445V8TxmS5Quz58iaTt7VNw6nH1vQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_014_4b79ac6818fc.png)
 
 **_图12-11：多线耦合巴伦_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6Btc7IrNlzGXhJCB6ibFU710SjWOcrmsKAsjl3o6rQqRPjwIDX99mRhfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_015_30d8ea1198f1.png)
 
 **_图12-12：宽带耦合结构耦合线巴伦_**
 
 平行双线巴伦的一种改进版是印刷的“Marchand巴伦”，这种巴伦源于同轴巴伦，1944由Nathan Marchand提出，在**_图12-13_**中给出了印刷形式的Marchand巴伦最简单的形式。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6BJOmsxHAFBT96BG2eINQ5C0OJibw0mBAAkvIj1KPak4flI2pB5LlB0FQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_016_d04589e1280b.png)
 
 **_图12-13：印刷Marchand巴伦_**
 
 最后，还可以用微带线技术实现LC形式的巴伦，如**_图12-14_**所示，将电容电感量用微带线来表示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSy0Kx7UsT0kbUlhdwLBf6B9ZlGQzmQETmzEpQLUTxm001yFGicicYne5sC0GQeJqL18n0tqaHSnFzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_017_4deb84cb74ad.png)
 
 **_图12-14：用微带线等效电容电感的LC巴伦_**
 
 ___€4.Balun的性能评估___
 
-___![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNjJLBN3ia6TwBSrZpicQEdHy0qLvmn0F9PB2DV6EbW3sno6eEKibTQ1sXg/640?wx_fmt=png&from=appmsg)___
+___![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_12_平衡器_巴伦器_images\img_018_cab18c3bbcdc.png)___
 
 **_图12-15：LC巴伦的性能参数实例_**
 

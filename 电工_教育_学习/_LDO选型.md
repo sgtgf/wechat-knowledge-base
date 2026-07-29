@@ -34,7 +34,7 @@ LDO是Low Dropout Regulator的缩写，意思是低压差线性稳压器。
 
 **下图是一个简单的LDO原理框图：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgibbkbzNtSohoHtSianLsnD180oQJtaDGnoABvIN7H1w9b3cicOgLOFLDY999AiamOCO5ibgWUUIJd18Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_002_b0243b348d73.png)
 
   
 
@@ -64,7 +64,7 @@ LDO是一个负反馈系统，当VOUT增大，R2上电压增大，放大器输�
 
 压差是指保证VOUT输出电压、电流情况下，VIN与VOUT的最小电压差。这个压差可以理解为LDO输出电流在PMOS上的压降。PMOS有导通电阻，假设VIN=3.4V，VOUT=3.2V，输出电流300mA，则可以推算出PMOS的内阻是
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l21Gz4T5tSCsdx1QBRjm53u6wnkweWIbKe4tGkrBFQSaMialontSAZclg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_003_42d2f93a9b39.png)
 
   
 
@@ -72,7 +72,7 @@ LDO工作必须满足压差要求，但压差不是一个固定值，它与IOUT�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgibbkbzNtSohoHtSianLsnD1cOpgfDCC4kEqDqgKbfticMJu9HavfkWoE82KfvyzxdmkDaQweRicJVBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_004_5e9996964e62.png)
 
 **2.2效率**
 
@@ -80,7 +80,7 @@ LDO效率定义如下：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l2jeXN5cX2D4uEUicibOGCicCicw9QKcK9nZa1tWkQaysG92yyrOEDk3hRXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_005_cd0c42c281fe.png)
 
   
 
@@ -88,7 +88,7 @@ LDO效率定义如下：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l2Cr5P0lCiaq5cMjI4lIia9uLYmiaKBjGrrOTZvib7xJMfbKombcz4AGu85w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_006_8628b7e394d4.png)
 
   
 
@@ -102,7 +102,7 @@ LDO效率定义如下：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l2dCHKs1FJ9iaiaKwNR5gu5uicDBgic82HDZ6l2ZGApO0vf2xGfRlEsP7Aqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_007_de295ffd7973.png)
 
   
 
@@ -110,9 +110,9 @@ LDO效率定义如下：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgibbkbzNtSohoHtSianLsnD1CwxvGNfIj5iczjFX51TuQS1IHaMCWBrFqic35eERDBsDjCYTONZXyticg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_008_1dd9d1322cab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgibbkbzNtSohoHtSianLsnD1yL1Gdxy81Xxic1aciaaSdhdsTQ26wHibJFdBCjo69icD7Uw3RjtUEDlGCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_009_9e93be58d710.png)
 
   
 
@@ -120,7 +120,7 @@ LDO效率定义如下：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgibbkbzNtSohoHtSianLsnD1WaoJDr53APBHFdTfQdZ7Md4hISD0roh5E6xNJwscE6ZnJ4sicOFaoYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_010_41a7bdcc1566.png)
 
   
 
@@ -140,9 +140,9 @@ LDO的输出使能管脚ENn拉低后，VOUT=0V，此时VIN上消耗的电流就�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgibbkbzNtSohoHtSianLsnD1yJFIuuk0ocublBfbXX3tQ8wOGz5pqickOjBUv4hJUBXcSXOMI5KejwA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_011_9465165b7702.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l2fN1NHic7yH6eQWJfGtBEquBiagmHzDzfTsXlzuwicteLgMu62icokE1C6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_012_924c48cc3bb7.png)
 
   
 
@@ -164,7 +164,7 @@ LDO的输出使能管脚ENn拉低后，VOUT=0V，此时VIN上消耗的电流就�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgibbkbzNtSohoHtSianLsnD124ztCVHQRCR6PVDmQOuIBYn24sazRokHkD0tnh97vQWwMMzoKS57Xg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_013_06efd66b405f.png)
 
   
 
@@ -186,7 +186,7 @@ Line Transient Response 随负载电流增加而变差，因为LDO的总环路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l2gWcuZM0YTWy7ZJibTPdzjD9C4oG5tSQ6N4nZMQiaefBF4dg3IcQfrUqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_014_c04bc50a604f.png)
 
   
 
@@ -206,7 +206,7 @@ PSRR与频率有关，LDO的规格书一般会给出几个频点的PSRR值。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l2DPOvTJxbReCkMSPg4ou7tBJDxoswNKF2jg5z6GEpap5K7z9fqJQFSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_015_150cf1c4e74d.png)
 
   
 
@@ -220,7 +220,7 @@ PSRR与IOUT有关，通常情况下，轻载的PSRR高于重载。PSRR与LDO的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOxXvVvw58T733jJHaic96l2XYqo0vPNFULc26XvWeH9ib2cATEu5AKib5MPxx0GFNeDPu7Gj9F0sWSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_LDO选型_images\img_016_d538b9d498ac.png)
 
   
 

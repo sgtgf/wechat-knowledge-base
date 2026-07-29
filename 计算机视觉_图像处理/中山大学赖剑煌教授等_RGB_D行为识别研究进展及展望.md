@@ -16,15 +16,15 @@ RGB-D行为识别是指：通过聚合RGB,深度,和骨架三种模态的数据,
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsrrtgdmOwxkG1ErF8mMbRvCQmNzial90sT3icxibHYU9QUCIw3oe9syYKA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_000_868a819f11cc.png)
 
 RGB
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHscFvfl4zl64InwbQU5roaUt4fJ2cLhjmeibCKkyDP8wibUmzXsI1dia0Og/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_001_dc4035885d0a.png)
 
 骨架
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsmXtAXLKqoBx3MpculzSKwDWt1Cupmo3RMxDxAw28TfopMiawJP6H7Qw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_002_ca49f5fe3c35.png)
 
 深度
 
@@ -48,29 +48,29 @@ RGB
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsnmnk5ZwIfftU9JsZu6AjEMRgxicoY85f8puzySE7muS5xYuYn6rA2LA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_003_36eea584ba77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsvyosX3KLN2EibibhyibAbqLKXyRx7tRzBQAuflkexaicWg3KVVY83Besfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_004_7c143f533077.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsz68ftO5PiaBribKTiawLJcn40FzZ6c48icRuw3RElm6g6wOGahmTDQ1pMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_005_a01617ee7750.png)
 
 胡建芳，中山大学副研究员.2016年获中山大学数学系博士学位.主要研究方向为计算机视觉与模式识别,其中包括行为识别,行为意图预测等.目前在国际权威刊物ICCV, CVPR,ECCV, IEEE TPAMI和IEEE TCSVT上发表多篇论文。
 
 E-mail: hujf5@mail.sysu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHssJAn2cL9PZ4cXSQiaeLcoiceE6VMCtvTwnOrB6t5Ihf5q2ic0CpUnuncw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_006_b620a81c6a75.png)
 
 王熊辉，中山大学模式识别与智能系统专业在读硕士研究生,2015年获中山大学智能科学与技术学士学位,主要研究方向为图像处理, 计算机视觉与模式识别.
 
 E-mail: wxiongh@mail2.sysu.edu.cn 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsnb8wkF1CWgs1x5XC74tbFiaZdAcCyKUzGhBPJM67uIicibSGgz6K6Z3CQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_007_9b1ba2e0c26b.png)
 
 郑伟诗, 中山大学数据科学与计算机学院教授.他主要面向大规模智能视频监控,展开视频图像信息与信号的处理研究,并开展大规模机器学习的算法和理论研究.他目前的主要研究应用领域是:视频监控下的行人身份识别与行为信息理解.他已发表100余篇主要学术论文,其中70余篇发表在图像识别和模式分类领域IEEE TPAMI,IEEE TIP,IEEE TNNLS等国际主流权威期刊和ICCV,CVPR等计算机学会推荐A类国际学术会议.担任PatternRecognition等期刊的编委,担任AVSS2012,ICPR2018,BMVC2018AreaChair 等.获国家优秀青年科学基金,英国皇家学会牛顿高级学者基金等项目支持. 
 
 E-mail: zhwshi@mail.sysu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsiauIXTK0LK21kERJlibDgWt3iawG9Ivj2et0iak5dseQ1iaNYCYffBD2ClQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_008_60aaef732dca.png)
 
 赖剑煌, 中山大学教授.1999年获中山大学数学系博士学位.主要研究方向为图像处理,计算机视觉,模式识别. 目前在IEEE TPAMI,IEEE TNNLS, IEEE TIP, IEEE TSMC-B, PR, ICCV, CVPR, and ICDM  等国际权威刊物发表论文200多篇.本文通信作者.
 
@@ -170,21 +170,21 @@ E-mail: stsljh@mail.sysu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHst2wnUCurbXBN9ZiampfHrbBL3KHZyYxVcHNzoicQ3eKv1ZxWiciaxd9aSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_009_430b495697c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsY9J0h8f2PoKEiaY7lxxW3rV4QkwMlV8siaGhpKAKZ3JicdL0NqQAyynGw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_010_64f7f31f7389.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHst2wnUCurbXBN9ZiampfHrbBL3KHZyYxVcHNzoicQ3eKv1ZxWiciaxd9aSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_011_430b495697c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHsBT5sp2RxmyldNicevUK8SbhwhQRiamiamwXu2EWZRwmtcBpbsQIkicyx4A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_012_35d881565d10.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHst2wnUCurbXBN9ZiampfHrbBL3KHZyYxVcHNzoicQ3eKv1ZxWiciaxd9aSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_013_430b495697c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44VNbpDibnX6kEwviaAVofsHscpicY0U7IqR8ib1Shibuicj8rkrrXSwibK4A4qhPG5WFhr3Th1kYmAYHubw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\中山大学赖剑煌教授等_RGB_D行为识别研究进展及展望_images\img_014_e19967ba7b6c.jpg)
 
 自动化学报订阅号
 

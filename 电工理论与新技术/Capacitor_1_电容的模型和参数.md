@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8-8TQ5UgWWPWdqDwh1-6Kw](https://mp.weixin.qq.com/s/8-8TQ5UgWWPWdqDwh1-6Kw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0sLP4icib2Tb4Kblk2LjMEdKU6SnrTjT9A7GwnRvyuQKJKosNgfkq6eHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_000_34c93b941f66.png)
 
 **_★★★_**_Cap-1---电容的模型参数_**_★★★_**
 
@@ -15,11 +15,11 @@ _€1.电容的结构原理_
 
 这里列出电容器的结构示意**_图1-1_**。将绝缘体（电介质）平行地夹在金属板（电极）之间而构成的就是电容器。如果向该金属板（电极）间施加直流电压，就可将电荷蓄积起来。这就是电容器的蓄电原理。被蓄积起来的电荷量叫做静电电容，静电电容C是由绝缘体的介电常数ε、电极的表面积S、绝缘体的厚度d来决定的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSGjH0LKowPsLziajmly693wySTaR4OygoIvHQOqPriarjTqibH9lXQYIeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_001_66b0b68e51c9.png)
 
 **_图1-1：电容结构图_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSkJMgF33ib90MNbWicEKwYNWP9nCreIMmtic6aZLTxTAXsSbIq41vdDPQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_002_08a5679a9df4.png)
 
 其中：
 
@@ -37,13 +37,13 @@ _€2.电容的等效模型_
 
 理想的电容器只含有静电电容成分，但是实际的电容器则含有电阻成分和电感成分。这些寄生成分对电容器的性能产生较大的影响。电容器的简易等效电路如_**图1-2**_所示。实际的电容器的等效电路中包含有ESR（等效串联电阻）、ESL（等效串联电感）。此外，理想的电容器的电极间是绝缘的，但是实际上会存在若干的漏电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSKy6Iuh9nAnquWpS5frJnFVOl5WSmq1OibiaPIgReJu6dCEKueKK42coA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_003_3e0c8d478ddf.png)
 
 **_图1-2：电容理想模型和寄生模型_**
 
 _**表1-1**_对这些成分进行了归纳：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSr4NvqEsuXSwmQhg0QxzWgbWiaPaSl18E4mhfjTMNsoApic5rUg8OjgcQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_004_93328ee0423d.png)
 
 **_表1-1：寄生参数说明_**
 
@@ -89,31 +89,31 @@ ____€4.电容的特性____
 
 ESL部分会产生感抗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSQrOJJ7qG9QtG7WecjdQPfjBibG7NPPJNy5IVDsOztmbQ4eOrejbdyCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_005_9af25fef2407.png)
 
 静电电容会产生容抗：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSud48TYoNSI15zj9QlJwUK3aDUibQrc7r2XnXhHHosLf6Uibuu9Dhux1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_006_e75de16467e8.png)
 
 感抗和容抗相加：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSaI4TQwmCKLquGoXfDwUNFLmwCkDcgnWgKGQ3yByNM1r2D62110FibicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_007_4a6dedd56846.png)
 
 整理上式变为下式：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSGhbSxeiaGpsuckm2y5PcA2icjV4XQBe1bx3lEZnBXbQ23WGvJfDu4CCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_008_ed264ac84765.png)
 
 感容抗加上寄生电阻合并为阻抗Z：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSqA3u8KFFoaTLSFRchErFhDpYtwOIGvHibSTBzNJIxmuAp0iaKU8edq4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_009_e8903ff2f050.png)
 
 代入频率参数为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMS4oVdGHQDE3os6fNdhKXQBjqFxDTkM2L1KeC4yTklQesce1Sg0KWI0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_010_7e704d995d51.png)
 
 阻抗绝对值如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMS0iaNlnjtMEko5Fox161BtMg94cm3ic0L31fUV4yicZEGbIgzLl5YkvoyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_011_83d71203e9e5.png)
 
 其中：
 
@@ -139,7 +139,7 @@ C：静电电容（F）
 
 3) 在频率高的区域，阻抗几乎是由ESL来决定，如果用图形来表示这种情况，则如_**图1-3**_所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSLwuTJibEZQ5fMaTRDFUgkUpNRMzaWSsvLcicKmkJAdibjQotOzz2uI6iaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_1_电容的模型和参数_images\img_012_8800dc490105.png)
 
 **_图1-3：电容器的阻抗特性图_**
 

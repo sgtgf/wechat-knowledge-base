@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/NwmOe7O8dmLG3nYgFrOd0A](https://mp.weixin.qq.com/s/NwmOe7O8dmLG3nYgFrOd0A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz262Zo9EQSEDA5WcicDVq86h9YCnjf6BIBSDric1t5kgokWVOWLAjsUvDWA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_000_5219af58b087.png)
 
 __**★★★**___BJT-2---晶体管开关电路计算实例___**★★★**__
 
 引言：三极管是电流型元件，利用偏置电阻产生大于0.7V的Vbe电压，然后通过控制电流大小，使晶体管工作在不同的区。因此关于晶体管电路的设计相关计算，基本用电流起手，而不是用电压，这一点要与MOS的计算相区别开来。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRWIBialarrQIWWnTrXfVsR6pHtDbdv2RBKWDJEEu2e07fguhN9YUKNREdQ1T1oYgfYmvD9a8x5zdA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_001_b76d689efedb.png)
 
 **_图2-1：**三极管导通时电流流向**_**
 
@@ -17,7 +17,7 @@ ___€1.发射极接地型开关___
 
 发射极接地型开关即发射极直连GND，输出out连接集电极。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRGEvbz7cZGJYzeTyQDRbQpxczkenSiajLJTMK26xOiaHwicJIgdLzVOibjA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_002_35e4732cb39f.png)
 
 **_图2-2：NPN接地型开关_**  
 
@@ -25,7 +25,7 @@ ___€1.发射极接地型开关___
 
 为了确保没有输入时晶体管处于截止状态，需要加上使基极处于GND电位的偏置电阻R2，当输入信号超过0.6V时，晶体管的基极-发射极间的二极管（[BJT-1：三极管的三区含义](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247489199&idx=1&sn=cf4a3db0db0d8a4a26aa48c91e452c89&chksm=c3355c30f442d5266676ff8df5c3f6273c197f1c54f14f6e560932e910e43cd4df27e233d0e4&scene=21#wechat_redirect)）将处于导通状态，开始有基极电流流过，但这样的状态不能限制电流，基极电流会比较大，所以串入基极限流电阻R1。（限流电阻R1的值需要根据实际使用来计算得出）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKcbJkKghoNoibILCsbpdiav9FwPlXxiaY3dueuq8PHkXPTaRf9edAvWcKw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_003_846748d1a190.png)
 
 **_图2-3：PNP接地型开关_**
 
@@ -43,7 +43,7 @@ Vceo＞3.3V，Vcbo＞3.3V，Vbe＞1.8V，Ic＞5mA。
 
 依此可以选择通用的小信号晶体管，此处以LRC的型号L2SC4083NWT1G为例：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRun9Ub0vgF3NRaWDwwg5dBjIAN0LIdcNyCO41LGqKKM3ASh4vAgicl6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_004_f6103dd2edcb.png)
 
 **_图2-4：L2SC4083NWT1G最大额定参数_**
 
@@ -51,7 +51,7 @@ Vceo＞3.3V，Vcbo＞3.3V，Vbe＞1.8V，Ic＞5mA。
 
 _R1/R2的计算：_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKJurcG8HFSvjQCPVzS9fPUyfuyicYATRyoBbmrpVmlE1BBiaCPRjoG7tw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_005_70ad8db48a89.png)
 
 **_图2-5：L2SC4083NWT1G额定参数_**
 
@@ -63,13 +63,13 @@ ___€3.超β和达林顿连接___
 
 超β和达林顿连接是应对需要大负载电流时的设计方法，由于发射极接地型开关的负载电流就是Ic，所以基极必须提供大于1/hfe的基极电流，当Ic需求为几百mA时，驱动基极的电路（通常为GPIO）就可能无法提供足够的基极电流，此时要么采用超β晶体管，即hfe很大的晶体管，要么将两个晶体管达林顿连接，实现hfe1×hfe2，达到增大hfe的目的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKoBRvXJYsFQkmheUgn5ddVfbA2Mibvy8kKf1j3ZIuTso6bzsjicMQJiaNQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_006_5a4723d8d13c.png)
 
 **_图2-6：NPN型达林顿连接_**
 
 如**_图2-6_**是两只NPN型达林顿连接，导通时粉丝基极电流Ib1流入，驱动Q1和Q2导通，干路电流Ic分为两个蓝色支路到GND（这样每个晶体管只承担一半的Ic电流）。不导通时，out输出高电平。**_图2-7_**是两只PNP型达林顿连接，对于GPIO驱动in端，有效降低了对GPIO灌电流的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxK6feVic9kBE0pbKHz8HbFSBJM7o3gsM6PdaKDiaDIepSq5FVBtD0iblYBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_007_573ac9d7d0e9.png)
 
 **_图2-7：PNP型达林顿连接_**
 
@@ -79,13 +79,13 @@ ___€4.射极跟随器型开关___
 
 射极跟随器型开关即输出out连接发射极。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKYF1cWYPpQae6gictN3ROdcNuw3dIfAWMX52jVqunUib4KZkwU0GYGpbg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_008_42175c6e98ab.png)
 
 **_图2-8：NPN跟随器型开关_**
 
 如**_图2-8_**是NPN跟随器型开关，与发射极接地型开关不同的是，out端是发射极的电位，即in为高电平时，Q1导通，out端连接高电平VDD（忽略Vce）；当in为低电平时，Q1截止，out端被R3下拉至GND为低电平，所以射极跟随器型开关是一个同相开关，这也就是“跟随”的由来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKp1HdbRVpxIPZFQ1eBNMUiaJLuCU1ibkJN1qqtpxicNaD7iaWhqv6uKvhmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_2_如何计算晶体管开关电路_1_images\img_009_4562374cd253.png)
 
 **_图2-9：PNP跟随器型开关_**
 

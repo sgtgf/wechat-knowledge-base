@@ -32,7 +32,7 @@ MCU的产生与发展和微处理器的产生与发展大体同步，从时间�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ncKIicSATQ9oOr4HXiaWgKgITe3uTavOXcYK16SB6tm3zlawcjSsfx1ZYTVOoI1Ftp73zMrpE0633LTjBoez6NTQ/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\国产MCU能否_威胁_国外MCU__images\img_002_d204b07ed00a.png)
 
   
 
@@ -48,7 +48,7 @@ _**02**_ 
 
 国内MCU厂商多种，但各自都有各自的特点，这里罗列一些国内MCU厂商的信息供大家参考。（排名不分先后）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjFwDvZx9tgMFlhGdias7oULCL7LVS3707Uwxg64mrKFIVGujeiak8V1Sd90p8T5r10seXaDVfh8waQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\国产MCU能否_威胁_国外MCU__images\img_003_42fec88717cd.png)
 
 （来源：ittbank）
 

@@ -21,61 +21,61 @@
 
 2.系统拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRz585AVEFDZfQpLzrqwDXwVjqyzeHsbbl4buH8UWOSaZDQLYzeaEacyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_000_a7bd120af9a9.png)
 
 图1为三相H桥逆变器主电路拓扑结构。设逆变器输出a，b，c相对于n点输出电压为ua，ub，uc；经过LC滤波器后相对于n点输出电压为uan，ubn,ucn；iL为滤波电感电流；iC为电容电流；io为输出电流；电感L1=L2=L3=L；电容C1=C2=C3=C；电阻R1=R2=R3=R。根据基尔霍夫电压定律可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzSaibyEfjjSTyTQLlO1liaQ5DYSHf6b4wUIEgvY7hE4DJVGTicAIWeunCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_001_4f383ee30a4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRz3kTJHdMZAIr7dXuM3iaEkWJXWZybuxlF3MuAdfbNhDYIgZtuO2jUUZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_002_abb834832567.png)
 
 绘出其波特图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzticLVpvfddn6eRLlag4yOKibLnNes4HMXaLFk6vAamR5voIpJItUhrQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_003_c8dc96890276.png)
 
 可见。当谐振频率大于1kHz时，系统容易产生振荡，因此综合考虑滤波效果，选取L=10mH，则电容为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzsA129FOZvtKz0v1R2HaiaPpqyyIPaWQGiaHbEcy5N5RqMdSyqT2LeKWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_004_26bbf04c6db9.png)
 
 3\. 三相H桥逆变器控制策略
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzM8hYdY2ib1vDoQA5pWIxV0bF3UJLibq0lxvmHyYiaXKgvj7ib4wd3IlCKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_005_ea00cf1a4acc.png)
 
 采用基于电压外环和电流内环的双闭环控制策略。如图3所示。通过控制电压电流有功无功分量．实现对输出电压电流的快速跟踪及单位功率因数控制。将负载电压uan，ubn，ucn通过d-q分解为ud，uq，将电流iLa，iLb，iLc通过d-q分解为id，iq，得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzreTAxWoc20VnlyHvuJqb7vibNRKJR3fDnzAcgBsUFS3LpOYzibs4471Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_006_751aadf723c0.png)
 
 由电压外环控制可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzO1q4sTZTUtg6oQrpDvt7hlXm5ESZBrSLQaUHEdIcQBTvspuuaEVOpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_007_c6aeb0c8658d.png)
 
 由电流内环控制可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzbiaT42SbJo3CiaRBiaWcdgnpTHsiaZsHz4IMOB5RrOHbgic5fyWUs8DSU1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_008_f0ec28eb2e83.png)
 
 4\. 实验验证
 
 4.1 驱动电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzHkyE28fib4yh14sYibTt3N3RsGEkbpthBIvp7RV1hng1VwDzXYykYd8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_009_f2ede7087b09.png)
 
 图4为SiC MOSFET驱动电路图．在此采用C3M0120090D型SiC MOSFET芯片。其正向导通时，栅极电压为15V，关断时，栅极电压为-7V。
 
 采用FPGA作为控制器，输出电压为3.3V。光耦芯片选用ACPL-4800芯片，a1点与a2点工作电压为1.4V，光耦输入电流为5mA，由此可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzK8zANJoClXhAuEPn2ibTbmY0ceIFiagp4LLb2D6ptMALKCUUSrmNDmYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_010_e81032034744.png)
 
 4.2 实验验证
 
 在此设计C3M01200190D型SiC MOSFET芯片驱动电路。控制器选用FPGA。滤波电容、电感选用10μF和10mH。SiC材料三相逆变器系统相比于传统Si材料器件三相逆变器系统．体积和重量都减少了1/3左右。可得出SiC材料三相逆变器系统在功率密度方面有显著提升。实验参数：直流侧电压200V；输出侧电压给定100V；直流侧电容1000μF；输出侧滤波电感10mH；输出侧滤波电容10μF；负载50Ω；测试室温20℃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzUdZ2cBylWdicSkmbXSMGMkdiaT5J5JcXD5ribueblz6LiaYMjyUjfZctTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_011_30a99e8450bd.png)
 
 传统Si器件在室温20℃条件下．三相逆变器系统工作温度为66.6℃。新型SiC器件三相逆变器系统工作温度21℃。可见新型SiC器件能耗相比于传统Si器件能耗低。图5a为基于SiC MOSFET芯片三相H桥逆变实验交流侧输出电压．输出为峰值200V方波，ua，ub，uc为相位相差120度输出波形。图5b为经过LC滤波后输出电压电流波形，输出电压值为100V。负载50Ω，输出电流2A，因此系统功率P=3x100Vx2A=600W。
 
 SiC MOSFET芯片温度为21.1℃．此时室温为20℃。空载芯片温升为1.1℃。由基于SiC MOSFET芯片的三相H桥逆变器带载红外温度成像图可知．此时SiC MOSFET芯片温度为26.6℃，此时室温为20℃．带载芯片温升为6.6℃。通过效率测试．可得传统Si器件三相逆变器600W条件下效率为92％．而新型SiC器件为96％。可得新型SiC器件三相逆变器系统和Si器件三相逆变器系统在体积、质量、功耗及造价四方面的对比如图6。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRz3JVwsYKXkPpKAG4h9ntejBG8jmCmDMJSwCyTrFLd7Ycib7BYaBiaZMiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_012_671db6b3a5b0.png)
 
 基于SiC MOSFET芯片的三相H桥逆变系统与传统基于Si芯片的三相H桥逆变系统具有节省体积重量、功耗小等优点．但在造价上相比于传统si器件暂时没有优势。
 
@@ -85,10 +85,10 @@ SiC MOSFET芯片温度为21.1℃．此时室温为20℃。空载芯片温升为
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_013_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_014_0fc2146c10d8.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于新型碳化硅MOSFET三相逆变器研究_images\img_015_3a3df320c8e4.png)

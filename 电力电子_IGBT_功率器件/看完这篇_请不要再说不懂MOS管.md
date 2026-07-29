@@ -12,31 +12,31 @@
 
 功率半导体器件在工业 、消费 、军事等领域都有着广泛应用 ，具有很高的战略地位，下面我们从一张图看功率器件的全貌：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs1mv2hBG0zm4lBuvAjkBN2mY08Z95sLE56iaxmGMm2ojzEiaUDT6YRRwg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_002_05a43fe704cb.jpg)
 
   
 
 功率半导体器件又可根据对电路信号的控程度分为全型 、半控型及不可；或按驱动电路信号 性质分为电压驱动型 、电流驱动型等划分类别 电流驱动型等划分类别 电流驱动型等划分类别 。　　
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsjI8xWB0t6zwvjMWwU48UEsSSpzqtZghKQia4GR2a9jm0mczlibnWKsjw/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_003_8a410160a4fd.jpg)
 
   
 
 不同功率半导体器件 ，其承受电压 、电流容量 、阻抗能力 、体积大小等特性也会不同 ，实际使用中 ， 需要根据不同领域 、不同需求来选用合适的器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs8iazlU9iavbziclk2pPZbDlGBK5pOCTcQsqy0c1ZVsGMCTLVnn1Z5ibkvQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_004_910565d3ecdc.jpg)
 
   
 
 半导体行业从诞生至今 ，先后经历了三代材料的变更程 ，截至目前 ，功率半导体器件领域仍主要采 用以 Si 为代表的第一半导体材料 。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsibebQqJfgHTWgEUOIBBBw9aY3cdt0JaY3tuySYQLlU9eKicmzJYVXaaQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_005_584c0ca56142.jpg)
 
   
 
 汇总下半控型和全控型功率器件的特性　
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsOlMIcVqPt1YeLeK4WD4jsF5S8GPiaSSGLMJlMg5yjWY0wyL8yooicRbQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_006_175dd6668b33.jpg)
 
   
 
@@ -80,13 +80,13 @@ MOS管封装分类
 
 插入式就是MOSFET的管脚穿过PCB板的安装孔并焊接在PCB板上。常见的插入式封装有：双列直插式封装(DIP)、晶体管外形封装(TO)、插针网格阵列封装(PGA)三种样式。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsjoZcjEX5tJXDTPcJnfgVWibFYo3ubp3VepNVuHDQRjezyRXaAlUY31A/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_007_d9de8f81b35e.jpg)
 
 插入式封装　　
 
 表面贴裝则是MOSFET的管脚及散热法兰焊接在PCB板表面的焊盘上。典型表面贴装式封装有：晶体管外形(D-PAK)、小外形晶体管(SOT)、小外形封装(SOP)、方形扁平式封装(QFP)、塑封有引线芯片载体(PLCC)等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qst1fqnkccg5jlg7euToB6aADZIicg1ghytQaj4RDtp6N9BguyTfqIT9Q/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_008_2aa85871655c.jpg)
 
 表面贴装式封装　
 
@@ -114,7 +114,7 @@ TO-92：该封装只有低压MOS管(电流10A以下、耐压值60V以下)和高�
 
 近年来，由于插入式封装工艺焊接成本高、散热性能也不如贴片式产品，使得表面贴装市场需求量不断增大，也使得TO封装发展到表面贴装式封装。TO-252(又称之为D-PAK)和TO-263(D2PAK)就是表面贴装封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsRkszeic4RibLfES7ylZR39UsXhcaXT6cIyA8rIwB1WwA4kdMVJzgRVRg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_009_16f9ddc8d753.jpg)
 
 TO封装产品外观
 
@@ -124,7 +124,7 @@ TO252/D-PAK是一种塑封贴片封装，常用于功率晶体管、稳压芯片
 
 其中漏极(D)的引脚被剪断不用，而是使用背面的散热板作漏极(D)，直接焊接在PCB上，一方面用于输出大电流，一方面通过PCB散热;所以PCB的D-PAK焊盘有三处，漏极(D)焊盘较大。其封装规范如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsA8e7YouljKn3Q9PadSCrAgLmP1TibvU8IFqzH3lqasrDnchMXblSApQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_010_c0b7c308e63c.jpg)
 
 TO-252/D-PAK封装尺寸规格
 
@@ -132,7 +132,7 @@ TO-263是TO-220的一个变种，主要是为了提高生产效率和散热而�
 
 除了D2PAK(TO-263AB)之外，还包括TO263-2、TO263-3、TO263-5、TO263-7等样式，与TO-263为从属关系，主要是引出脚数量和距离不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsWVGfnB5F4CicI6OXibCHI2KSL9qjH00iafZuTrRR2IdLISCh8FeWW5B9Q/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_011_e66483d77f32.jpg)
 
 TO-263/D2PAK封装尺寸规格
 
@@ -140,7 +140,7 @@ TO-263/D2PAK封装尺寸规格
 
 PGA(Pin Grid Array Package)芯片内外有多个方阵形的插针，每个方阵形插针沿芯片的四周间隔一定距离排列，根据管脚数目的多少，可以围成2～5圈。安装时，将芯片插入专门的PGA插座即可，具有插拔方便且可靠性高的优势，能适应更高的频率。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qspakv2BteCaOtHpym6cJiceic42DRzxPmmWvz9gpAMNI5tSgSBAbgP4Ew/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_012_e2bc9ef078c2.jpg)
 
 PGA封装样式
 
@@ -152,7 +152,7 @@ PGA封装样式
 
 SOT(Small Out-Line Transistor)是贴片型小功率晶体管封装，主要有SOT23、SOT89、SOT143、SOT25(即SOT23-5)等，又衍生出SOT323、SOT363/SOT26(即SOT23-6)等类型，体积比TO封装小。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsEHTw8ySqb3rW9k2icB3WrjGbZFmWibrWRJUULd7y6UFuqZXjZpiaWNETg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_013_bbd60927fecb.jpg)
 
 SOT封装类型
 
@@ -164,7 +164,7 @@ SOT143具有4条翼形短引脚，从两侧引出，引脚中宽度偏大的一�
 
 SOT252属于大功率晶体管，3条引脚从一侧引出，中间一条引脚较短，为集电极，与另一端较大的引脚相连，该引脚为散热作用的铜片，外形如下图(d)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsLyyITcha2XxE4kZ8AyleSxh2wPrhIy3jAuQ7ZcvtctDcoTeegkn0jQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_014_5a6c67cee005.jpg)
 
 常见SOT封装外形比较
 
@@ -186,7 +186,7 @@ SO-8为PHILIP公司率先开发，采用塑料封装，没有散热底板，散�
 
 后逐渐派生出TSOP(薄小外形封装)、VSOP(甚小外形封装)、SSOP(缩小型SOP)、TSSOP(薄的缩小型SOP)等标准规格;其中TSOP和TSSOP常用于MOSFET封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QswxuQJImBBQiaEtmZfaiblGibIM2jGGGsiaibAfMttEUEpLqT7E6b8NriajwA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_015_1aed6e7bb452.jpg)
 
 常用于MOS管的SOP派生规格
 
@@ -218,7 +218,7 @@ QFN主要用于集成电路封装，MOSFET不会采用。不过因Intel提出整
 
 需要说明的是，QFN封装与超薄小外形封装(TSSOP)具有相同的外引线配置，而其尺寸却比TSSOP的小62%。根据QFN建模数据，其热性能比TSSOP封装提高了55%，电性能(电感和电容)比TSSOP封装分别提高了60%和30%。最大的缺点则是返修难度高。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsIpx9Y8AhXic6DOeVe9ny3LlRJB1EEuibjFD9YM3MRkY7g6hF1dBUgSAA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_016_4eeba748a0f4.jpg)
 
 采用QFN-56封装的DrMOS
 
@@ -226,7 +226,7 @@ QFN主要用于集成电路封装，MOSFET不会采用。不过因Intel提出整
 
 传统的分立式DC/DC降压开关电源无法满足对更高功耗密度的要求，也不能解决高开关频率下的寄生参数影响问题。随着技术的革新与进步，把驱动器和MOSFET整合在一起，构建多芯片模块已经成为了现实，这种整合方式同时可以节省相当可观的空间从而提升功耗密度，通过对驱动器和MOS管的优化提高电能效率和优质DC电流，这就是整合驱动IC的DrMOS。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs65cIuz7azvK0Kkic7qSy6J0RZoKrXl7b1OLr3ic4IxOiciacL0JG70nveA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_017_86f417015016.jpg)
 
 瑞萨第2代DrMOS
 
@@ -240,7 +240,7 @@ QFN主要用于集成电路封装，MOSFET不会采用。不过因Intel提出整
 
 PLCC(Plastic Quad Flat Package)外形呈正方形，尺寸比DIP封装小得多，有32个引脚，四周都有管脚，引脚从封装的四个侧面引出，呈丁字形，是塑料制品。其引脚中心距1.27mm，引脚数从18到84不等，J形引脚不易变形，比QFP容易操作，但焊接后的外观检查较为困难。PLCC封装适合用SMT表面安装技术在PCB上安装布线，具有外形尺寸小、可靠性高的优点。PLCC封装是比较常见，用于逻辑LSI、DLD(或程逻辑器件)等电路，主板BIOS常采用的这种封装形式，不过目前在MOS管中较少见。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs3iacqYMtibdqhfn3ricF4DiaJUZECMhAVmNiayRb1Md7RptbhOmGxzjYMXA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_018_fd50526e1140.jpg)
 
   
 
@@ -256,7 +256,7 @@ PLCC封装样式
 
 WPAK是瑞萨开发的一种高热辐射封装，通过仿D-PAK封装那样把芯片散热板焊接在主板上，通过主板散热，使小形封装的WPAK也可以达到D-PAK的输出电流。WPAK-D2封装了高/低2颗MOSFET，减小布线电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsekaThm6cKzzn9W6KibvCO5mSFCWwzK1Zggs7xfCsVic6P6HwLcwJXHGQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_019_d0516d14669a.jpg)
 
 瑞萨WPAK封装尺寸
 
@@ -264,7 +264,7 @@ WPAK是瑞萨开发的一种高热辐射封装，通过仿D-PAK封装那样把�
 
 LFPAK和LFPAK-I是瑞萨开发的另外2种与SO-8兼容的小形封装。LFPAK类似D-PAK，但比D-PAK体积小。LFPAK-i是将散热板向上，通过散热片散热。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs7GurnLhnvOz82ibp1QickicT26QvokT6AkqI50zhOPe7TOl7GFQX4Fngg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_020_3ddc3fd2c9d4.jpg)
 
 瑞萨LFPAK和LFPAK-I封装
 
@@ -274,13 +274,13 @@ LFPAK和LFPAK-I是瑞萨开发的另外2种与SO-8兼容的小形封装。LFPAK�
 
 Power-PAK是威世公司注册的MOSFET封装名称。Power-PAK包括有Power-PAK1212-8、Power-PAK SO-8两种规格。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs9vykpchjtOtwCtmRf3ogn1CJicgoJfm9maPOibUCMrIVCznVYOIFRXoQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_021_18ae05d48c4b.jpg)
 
 威世Power-PAK1212-8封装
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs6RLpoDkhNc5q2fQn9lRKDdR51Fm35xzqJqdKlRRMeLd99CUjryz1hQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_022_1e896e1bbe25.jpg)
 
 威世Power-PAK SO-8封装
 
@@ -288,7 +288,7 @@ Power-PAK是威世公司注册的MOSFET封装名称。Power-PAK包括有Power-PA
 
 Polar PAK是双面散热的小形封装，也是威世核心封装技术之一。Polar PAK与普通的so-8封装相同，其在封装的上、下两面均设计了散热点，封装内部不易蓄热，能够将工作电流的电流密度提高至SO-8的2倍。目前威世已向意法半导体公司提供Polar PAK技术授权。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsY7uBNUL1Qg0jhjo5ejLTfkxQ0xicSmBW7FjaQE2W1lrl5S5ELV1ZnrA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_023_b2f4125bda40.jpg)
 
 威世Polar PAK封装
 
@@ -298,13 +298,13 @@ Polar PAK是双面散热的小形封装，也是威世核心封装技术之一�
 
 安美森半导体开发了2种扁平引脚的MOSFET，其中SO-8兼容的扁平引脚被很多板卡采用。安森美新近推出的NVMx和NVTx功率MOSFET就采用了紧凑型DFN5(SO-8FL)和WDFN8封装，可最大限度地降低导通损耗，另外还具有低QG和电容，可将驱动器损耗降到最低的特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsoBdIIibokibkib4sib5lstJnsbeq4tuRkcstqtPacE6F11OveNV9iabQSXg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_024_6c566efc12c6.jpg)
 
 安森美SO-8扁平引脚封装
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qsk5EBIWbHI6nUsNzgPjonspdJqPE6DblO5ibTC5YC9ibvUHvu4L9Ut1NA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_025_12b869c55bb1.jpg)
 
 安森美WDFN8封装
 
@@ -314,13 +314,13 @@ Polar PAK是双面散热的小形封装，也是威世核心封装技术之一�
 
 恩智浦(原Philps)对SO-8封装技术改进为LFPAK和QLPAK。其中LFPAK被认为是世界上高度可靠的功率SO-8封装;而QLPAK具有体积小、散热效率更高的特点，与普通SO-8相比，QLPAK占用PCB板的面积为6\*5mm，同时热阻为1.5k/W。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs1roYc1eCxcOBVVk8kPxlzSdTaTBKNumAP7S7rc5bcSU5f8yIXk1eyQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_026_1c0068495956.jpg)
 
 恩智浦LFPAK封装
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsiahZ9RFZQNzsN4oZTmRrFMxfIicNyzRMicXved4F2UuMlhWibTmcx6nhicQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_027_eebea44ffb84.jpg)
 
 恩智浦QLPAK封装
 
@@ -330,7 +330,7 @@ Polar PAK是双面散热的小形封装，也是威世核心封装技术之一�
 
 意法半导体功率MOSFET芯片封装技术有SO-8、PowerSO-8、PowerFLAT、DirectFET、PolarPAK等，其中PowerSO-8正是SO-8的改进版，此外还有PowerSO-10、PowerSO-20、TO-220FP、H2PAK-2等封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qseq3TJd7khgpmw1q1iaJKxlakmAL8y5lug6UQicYGq0zVw0ZDUl82LIWA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_028_62b28d7d94bb.jpg)
 
 意法半导体Power SO-8封装
 
@@ -340,7 +340,7 @@ Polar PAK是双面散热的小形封装，也是威世核心封装技术之一�
 
 Power 56是Farichild的专用称呼，正式名称为DFN 5×6。其封装面积跟常用的TSOP-8不相上下，而薄型封装又节约元件净空高度，底部Thermal-Pad设计降低了热阻，因此很多功率器件厂商都部署了DFN 5×6。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsPXS9RNwX8UIG1avqA8tJN7UWwzyaS1f7qmIFkPgibblBU568DI5PaQw/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_029_9d28ff0e2f5e.jpg)
 
 Fairchild Power 56封装
 
@@ -352,11 +352,11 @@ Direct FET能在SO-8或更小占位面积上，提供高效的上部散热，适
 
 Direct FET封装属于反装型，漏极(D)的散热板朝上，并覆盖金属外壳，通过金属外壳散热。Direct FET封装极大地改善了散热，并且占用空间更小，散热良好。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QshEeT0DaNoiaKxLCxXmgjy5ibrngiaCB2LFymPTIDA9k7AiaCrM1ic6YumBg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_030_570f5eb89c1e.jpg)
 
 国际整流器Direct FET封装
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qshpd1bB6cicQQJpf9Xciclw0GQX82Mq9Z1SvNia0YftHWPYSsqKicmv8Jxw/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_031_2fc3d2ef0f13.jpg)
 
 IR Direct FET封装系列部分产品规格
 
@@ -370,7 +370,7 @@ IR Direct FET封装系列部分产品规格
 
 TO、D-PAK、SOT、SOP等采用焊线式的内部互连封装技术，当CPU或GPU供电发展到低电压、大电流时代，焊线式的SO-8封装就受到了封装电阻、封装电感、PN结到PCB和外壳热阻等因素的限制。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsHxN3NXweAxEGv4fC5N6qE60oOLmNz34W4XDNZKDV5Kkicf7GkEicDvMg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_032_2c789c442159.jpg)
 
 SO-8内部封装结构
 
@@ -378,7 +378,7 @@ SO-8内部封装结构
 
 这四种限制对其电学和热学性能有着极大的影响。随着电流密度的提高，MOSFET厂商在采用SO-8尺寸规格时，同步对焊线互连形式进行了改进，用金属带、或金属夹板代替焊线，以降低封装电阻、电感和热阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsYlQjqOcSEqbvSNr6LxjWDdXic0NNDicR7zRNVsx0QEr6TTdicTrAoMyicw/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_033_24096e07636a.jpg)
 
 标准型SO-8与无导线SO-8封装对比
 
@@ -386,15 +386,15 @@ SO-8内部封装结构
 
 国际整流器(IR)的改进技术称之为Copper Strap;威世(Vishay)称之为Power Connect技术;飞兆半导体则叫做Wireless Package。新技术采用铜带取代焊线后，热阻降低了10-20%，源极至封装的电阻降低了61%。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qsa8coicIc1rUHq4deeR8icR2Fb0K1qpawqovDEffusv2vG9Kf6RSRaNJg/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_034_68219dd2cd37.jpg)
 
 国际整流器的Copper Strap技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qsr9jVziaEz7CHwGNia02ObNoatpxUDIuqgJOVQdmsrQDJibvicVFE7iam4Fw/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_035_2529fdb47d84.jpg)
 
 威世的Power Connect技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QslVtiaZgzvzDM1rKr1fxNeoouhicbYHSVhhIx9SpY1k7PHtvzqZCcGPUw/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_036_7a99e0465a7a.jpg)
 
 飞兆半导体的Wirless Package技术
 
@@ -404,7 +404,7 @@ SO-8内部封装结构
 
 标准的SO-8封装采用塑料将芯片包围，低热阻的热传导通路只是芯片到PCB的引脚。而底部紧贴PCB的塑料外壳是热的不良导体，故而影响了漏极的散热。技术改进就是要除去引线框下方的塑封化合物，方法是让引线框金属结构直接或加一层金属板与PCB接触，并焊接到PCB焊盘上，这样就提供了更多的散热接触面积，把热量从芯片上带走;同时也可以制成更薄的器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsoMZ0Ooc7pntMy30jCIyeLUTSURFzicdmm4cwqRmkkOeC0gbLvhJJyaw/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_037_00465147917d.jpg)
 
 威世Power-PAK技术
 
@@ -416,7 +416,7 @@ SO-8内部封装结构
 
 Power-PAK的封装虽然显著减小了芯片到PCB的热阻，但当电流需求继续增大时，PCB同时会出现热饱和现象。所以散热技术的进一步改进就是改变散热方向，让芯片的热量传导到散热器而不是PCB。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsTXT4d73MJXPxM3GiaEdy062VqLcvZEHrziafqhyqXl1lpZs5bSOJotEA/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_038_2758cd021249.jpg)
 
 瑞萨LFPAK-i封装
 
@@ -464,7 +464,7 @@ Power-PAK的封装虽然显著减小了芯片到PCB的热阻，但当电流需�
 
 MOSFET的导通电阻总是在一个或多个栅源电压条件下确定的。最大RDS(on)限值可以比典型数值高20%～50%。RDS(on)最大限值通常指的25℃结温下的数值，而在更高的温度下，RDS(on)可以增加30%～150%，如图1所示。由于RDS(on)随温度而变，而且不能保证最小的电阻值，根据RDS(on)来检测电流不是很准确的方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsYy5ib5Fx4TynFYIjk9txRS0YnTy3rLY0IvpEqUibhKAiahfINXt1vtE0g/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_039_aa09c4c7ad8e.jpg)
 
 图1 RDS(on)在最高工作温度的30%～150%这个范围内随温度增加而增加
 
@@ -482,7 +482,7 @@ MOSFET的导通电阻总是在一个或多个栅源电压条件下确定的。�
 
 基于不同的测试条件，大多数MOSFET在数据表里都有一个或多个的连续漏极电流。你要仔细看看数据表，搞清楚这个额定值是在指定的外壳温度下(比如TC = 25℃)，或是环境温度(比如TA = 25℃)。这些数值当中哪些是最相关将取决于器件的特性和应用(见图2)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsPPCtvcqcQuDjFvFDiabpvKueU5ut74SGAE3nkay5x4ruMtMVDOYlFKQ/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_040_e9e0a9b97f34.jpg)
 
 图2 全部绝对最大电流和功率数值都是真实的数据
 
@@ -490,7 +490,7 @@ MOSFET的导通电阻总是在一个或多个栅源电压条件下确定的。�
 
 对于连续的功率耗散也要考虑类似的情况，功耗耗散不仅取决于温度，而且取决于导通时间。设想一个器件在TA= 70℃情况下，以PD=4W连续工作10秒钟。构成“连续”时间周期的因素会根据MOSFET封装而变化，所以你要使用数据表里的标准化热瞬态阻抗图，看经过10秒、100秒或10分钟后的功率耗散是什么样的。如图3所示，这个专用器件经过10秒脉冲后的热阻系数大约是0.33，这意味着经过大约10分钟后，一旦封装达到热饱和，器件的散热能力只有1.33W而不是4W，尽管在良好冷却的情况下器件的散热能力可以达到2W左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsZeutTDtkaA9Fe1ryMdR6BN7ttTNoh6Q2tFAMkaWt2MuDZ76qZtVa5w/640?wx_fmt=jpeg&from=appmsg)
+![](看完这篇_请不要再说不懂MOS管_images/img_041_15943150e327.jpg)
 
 图3 MOSFET在施加功率脉冲情况下的热阻
 
@@ -552,9 +552,9 @@ MOSFET的导通电阻总是在一个或多个栅源电压条件下确定的。�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\看完这篇_请不要再说不懂MOS管_images\img_002_27e4e85ce630.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_043_26e7c42e5929.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_044_86e7b1720ef8.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_045_607a9b5809f6.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_046_c337f32f2ad2.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_047_845d28096f90.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_048_2e2b5ebc409a.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_049_16e467ebcf07.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](看完这篇_请不要再说不懂MOS管_images/img_050_ebed19ebd456.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_051_de9b387fc9a9.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_052_fb5805018722.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_053_25764f7ff52f.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_054_f992681cd3b5.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_055_d13d18656a84.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_056_fbbfff43554c.gif) ![](看完这篇_请不要再说不懂MOS管_images/img_057_05704500a9db.gif)
 
 ## 
 

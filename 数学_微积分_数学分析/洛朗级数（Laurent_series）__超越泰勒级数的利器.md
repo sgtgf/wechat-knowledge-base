@@ -68,11 +68,11 @@
 
 你可以通过下面的3张图片直观观察奇点是如何界定不同圆环的，以及级数如何随着收敛区域的变化而改变：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsNaPO3RzPlHbSGny4pJUI4KDc49ravl6eLe2xxcleIghfcb4ZZuGllg4ugnSkYufyP24W56sdu4l6fpWLSsJkpic89fXf27fDE/640?wx_fmt=png&from=appmsg)
+![](洛朗级数（Laurent_series）__超越泰勒级数的利器_images/img_000_6febb32f71fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuTawWu7Yd3Wqh121Qm5sibdU9cugvnxm55MBypyvP22m9OETTfB1K9c7O0iauI8OZBMOZfJAibPCZd8aBpicJrXTuRCADu8I3Gt7w/640?wx_fmt=png&from=appmsg)
+![](洛朗级数（Laurent_series）__超越泰勒级数的利器_images/img_001_e0afac7f7746.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctPQkgytE9aotjNZqtVVTDHNavpCEO8XPMgmXB9Cab8bibJb2KDXSOibPWZ2NP3CDcTC9JwgucKkEia0QNWCG2B4MnT3hSzicrsGfE/640?wx_fmt=png&from=appmsg)
+![](洛朗级数（Laurent_series）__超越泰勒级数的利器_images/img_002_c54bad3f58be.png)
 
 > **核心结论：** 奇点是级数展开的“分界墙”。你站在哪两堵墙之间的圆环里看世界，函数就会呈现出对应那个圆环的专属洛朗展开式。
 
@@ -97,7 +97,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocumoia4g9cOILn9PsVfDINRrbSdm8Y4wHTyPCwZZeSV6oXvDlzeMZS1gh3bDC8j9hU6ic1hI3ItS4SKiaGKUMNOkWlaC4kkGiaVIVI/640?wx_fmt=png&from=appmsg)
+![](洛朗级数（Laurent_series）__超越泰勒级数的利器_images/img_003_74f9d31ab27f.png)
 
 # 一句话看懂这张图
 

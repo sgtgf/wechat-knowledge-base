@@ -8,55 +8,55 @@
 
 作者：Brian DeBoi
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicxzQwfHYAsuM8t0Wc8MrNfZiavHH3KSauDPGBkThTLXwGMhMOibXbEwpw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_000_c4cfbbac4258.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicCEHcf3MgXl57ltulFx5LnQs9iaiaADUsNia0c4dH18e5s1xXBTYuYPCsQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_001_9779b1c0ec65.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic2UcGzY1yiaUCcSxMziaacncLuqSU86fbOgVo4PiaoWpN0HSVBd0ibU7noQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_002_79b9e9112bf4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicbIuFIC4LT0xbPvoXeMmpXtBEkC2Dm2wJhhe6gE3jpVvQKkUBqxfpDw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_003_20b5853f4625.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicqwUsxCtK55x7quXBRjeQgIbL5dyaPsPdqV5gGLdcWq3yzticjeFv26A/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_004_c935b6f1f24a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopickxt4GmZufYXsSDCQeXtMrCiaH8ARAicWQ0zM6NqnmVlowYMkFNKU6iadA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_005_21be2d42ad02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicfvYYKfCMGYAwV9jocR858Q8AhCicLhcxpjorWKTbrZ8H3BVALyCZpEw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_006_9c96a3ecb3d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic77bfCAaBW2swsMtB0lHGKg7GGicqBIvf4KImDl3Ioma8n2NEImOCamw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_007_d35c87f84c21.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic5dST6ppTYmBnNcoLBkbia2kZyq8sc9wg9Aibs8kHRG22ico0z6CEOVkaA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_008_30f68f8fd941.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicqe9GMxfCmQNNm2UWNj9s7SXsYgpvKvFCzkltPg2dM2mo4t6a1Xkajw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC功率模块SPICE模型的实际应用_images\img_000_842eb0e4e1b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic599gwubLpaMia1rP1GAo1tZcMWmyhBO8Cdic3P9R0hEK3ZMT58pJ9nvA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_010_ec8efc312932.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicy3UnttqlPTJzUIySOAMUGOhoN3C9B3cey6vv9f0zsibAsdBjNwKozLQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_011_8de963573e30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicgczZRNS7C2aNggqNnD0Tiar8mciaKqEEGS1P7hpdCdubb02ibibemwDPaQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_012_e46381a21a1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicCILje5fFsYibIOiayY376bRyFvIkUU6rBpJlZA8MDAaeUvJRfZhE7I4w/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_013_6c8babf17c01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic2Pu0EibkGkY4F4emO55en9Js7ZMgf6q84QOsStcicInju1c82teSfEqg/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_014_9c59580bbe35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopictXyr9tKWVibfKgHseicuyfrMq22Vx3DIOzdncFInE1e46KZ1Neysia1icg/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_015_5193f7b57fb8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicUdWLobQCOtKFYum6BhWib3pI6uRwszJZdTqbsQiaMHTT1s2Cic14XOYtQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_016_345e41ca2aa5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicBJl75B646YIDnOLtyW1FGRxo95nkXAMe9EOUKTb72I4dPWtCOk4mYg/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_017_9761a9e83232.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicFGrXxSDvV9tBGC4gJV3ekoLSnBM2ZToLmlYXCDsiaf1X6TNvWc5VFkA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_018_2021dc935e4c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicKeiad6WibYPv0YxFtiaNqH7aGNyhylHFrgTu37GxYQ2XEO7APkcGbD6BA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_019_8be416820f81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicEOclkj8ODQSqfQsZAGj9elxibfUb4hjhSPIZW9icVa5HLnS9rUTmOvYA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_020_e86d347757dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic1h87Qj6YwDqiaVfEWR2sqyfRcqHxiaTxMt8MbYfFHYdVIicYuLPjial0TQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_021_7cb4c2207dc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicA256Y05xv0VRy6oicRCrCX4uPHTW9oKBU7UtghnuoCN1hqoDe6lmXCw/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_022_6f11e36ece05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicLIgz4W0vUGzz3zPU6eNrbQicvw1ricaQkegw3LUD5Pgxx9gibibjwkkwWA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_023_b92e77e6565e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicCMREMZ0bbIGLJcHDDuR9TF4cylSYNNucOeFicM8TAHhBK0681icC0MoA/640?wx_fmt=png&from=appmsg)
+![](SiC功率模块SPICE模型的实际应用_images/img_024_04241fcc99b1.png)
 
 注：图片报告与文字无关
 
@@ -198,13 +198,13 @@ SiC功率模块的SPICE模型是现代功率电子工程师的“数字沙盘”
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aJ1MUTicI0GuiauhfoebWumUgU1Qu9ic5Xniaicbkyl3gyFlO0cbmDfmBLiaQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](SiC功率模块SPICE模型的实际应用_images/img_025_fe069fcfb36e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a8crJ2L7M4OX17Szb34FK5JlibMciajPSibAJ2KVAIic8moa4vRiacc5rbCw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](SiC功率模块SPICE模型的实际应用_images/img_026_bc2989d2aff2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a48flZW0nqjIpO5FVkvY9NUDp0sHzB0BgvVskic0uVzn30TaNKvXUsVw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](SiC功率模块SPICE模型的实际应用_images/img_027_3fde635b287d.png)

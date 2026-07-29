@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QrHibLgalBZmeEtF7tYtwXS8EH0bG4lqjiardCo3Z4JdbmDyd2mwtj8jWHZd6DWib0Axqq5HRKelZ4g/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_gif/WRO0RgZZ75QJAkfmoBLHoWRP2TAwUaHB74ic6HGUYXvlbQ5WzKZ30UMqgXsQa5msvPbFjLU9GGpoT7QmriaTajPg/640?wx_fmt=gif&from=appmsg)](http://www.njyxdq.com/)
+[![](D:\电脑文件\公众号知识库\电力电子_软开关\西安科技大学等单位赵永秀_刘泽伟_等_变模态倍压型LLC谐振变换器多目标参数优化_images\img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力电子_软开关\西安科技大学等单位赵永秀_刘泽伟_等_变模态倍压型LLC谐振变换器多目标参数优化_images\img_001_8bdc8fbfbd45.png)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力电子_软开关\西安科技大学等单位赵永秀_刘泽伟_等_变模态倍压型LLC谐振变换器多目标参数优化_images\img_002_4cbe5da63430.gif)](http://www.njyxdq.com/)
 **阅读提示：本文约 2100 字** 
 > LLC变换器基波分析法忽略高次谐波，在宽输出电压场合下精度低，对此，本文深入分析变模态倍压型LLC谐振变换器工作模式，基于时域分析提出一种多目标参数优化设计方法，实现全范围内软开关，为宽范围LLC变换器参数设计提供了新思路。
 **研究背景**

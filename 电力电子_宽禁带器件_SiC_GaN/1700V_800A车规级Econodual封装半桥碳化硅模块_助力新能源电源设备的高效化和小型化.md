@@ -5,7 +5,7 @@
 
 在现代电子和电力系统中，半导体技术的进步不断推动着效率和性能的提升。其中，碳化硅(SiC)功率模块作为一种新兴的技术，正凭借其优越的性能在电动汽车、可再生能源、电力传输等领域中崭露头角。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF0l8sB8uM4AnichlEwXIlgBJibI481fKvOUGCbBehiblzaTxuGOdLdT0hkhKvyqFxcl2I2TicqEqvDQ/640?wx_fmt=png&from=appmsg)
+![](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_000_b513200c67c8.png)
 
   
 
@@ -17,7 +17,7 @@ Econodual半桥封装是IGBT模块封装常规类型，主要应用于商用车�
 
 Econodual半桥封装的设计使其特别适用于商用车的高功率需求。其高电压和大电流规格可以满足商用车在复杂和严苛的工作环境下对电力转换和控制的高要求。此外，Econodual半桥封装还具备其他优点，如高可靠性、高效率、良好的热管理性能等。这些优点使得Econodual半桥封装在商用车市场上得到广泛应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfn5dJX2kcNEwsSum9iabsVSSFFytoZMnB9iaEO70IV9khBSf8fPVsxdptw/640?wx_fmt=jpeg&from=appmsg)
+![](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_001_df008ccc897a.jpg)
 
   
 
@@ -44,20 +44,20 @@ Econodual（MED）半桥模块特点 ：
 
 1700V800A模块关键参数 ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslaww0tDplmyvYwnaN3foZYk1PJ4BERD6uq1iaEPL7GTbxzWI6ibVBkr7ia4fyggT6ZibZddIX4oC6slA/640?wx_fmt=png&from=appmsg)
+![](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_002_8acc7797619e.png)
 
 1700V800A模块外框及拓扑电路 ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslaww0tDplmyvYwnaN3foZY0twa4JISmaNxW3nW6z9WBKPTCtU1H6xiciaG89yMaWICeUibGicxicSx5wg/640?wx_fmt=png&from=appmsg)
+![](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_003_aaadeb838913.png)
 
   
 1700V800A模块尺寸图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslaww0tDplmyvYwnaN3foZYOtNGLaiaIDBGX3YNb1qDmbsZDkhXogCt3Kib9xnpdanJHGq8ZyEK6Dmg/640?wx_fmt=png&from=appmsg)
+![](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_004_ea05ec20fb40.png)
 
 1700V800A模块实物图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslaww0tDplmyvYwnaN3foZY7J9CMfEqXwF3k9m9x542vjdJGv19EnIREP5ssCzeHA2l1guqDU4PXA/640?wx_fmt=jpeg&from=appmsg)
+![](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_005_ad5fa73fad7f.jpg)
 
   
 
@@ -87,7 +87,7 @@ Econodual封装SiC模块应用领域
 
 由于其优越的性能，SiC功率模块在多个领域展现出极大的应用潜力：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslaww0tDplmyvYwnaN3foZYd9uvKibAttysO4ASttBnqouNgGykRSKWdOMcGIlVF2TZPm1qm8kNtPQ/640?wx_fmt=jpeg&from=appmsg)
+![](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_006_34fe9aa4fc10.jpg)
 
 电动汽车：
 
@@ -123,10 +123,10 @@ SiC功率模块对未来科技发展的影响
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_007_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_008_a7ecee98ead9.png)![图片](1700V_800A车规级Econodual封装半桥碳化硅模块_助力新能源电源设备的高效化和小型化_images/img_009_9bbc7b9b15a2.png)

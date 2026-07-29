@@ -27,15 +27,15 @@
 
 本模块为半桥电路模块，半桥电路的原理图如图1所示，图中由于SiCMOSFET自带反并联体二极管，故该电路只需两个SiCMOSFET芯片，无需额外的二极管即可构成，图中：G-H、S-H分别代表上桥臂门极与源极的电气引出；G-L、S-L分别代表下桥臂门极与源极的电气引出；P、O、N分别代表模块正极、输出、负极功率端子的引出。芯片选用美国科锐公司的C2M00251200A（1200V/81A）作为半桥电路的上、下桥臂。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0ERcC8dbXIRGTpVAGovfiamva6u0VGwfRqRYXica0hic9oG2d94mnuFYeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_000_83d9624242d2.png)
 
 图2展示了模块的横截面示意图，该模块采用三明治结构，上、下两层为直接覆铜（DBC）陶瓷基板，用来实现电气互连并提供机械支撑。芯片使用纳米银焊料分别烧结在上、下DBC基板上，这种交错的焊接方式有效减小了由于芯片之间热耦合效应导致的芯片结温升高。芯片表面的源极和门极焊接了金属垫块，取代了传统的键合引线，增大了电流通路面积，减小了寄生参数的同时还避免了由于热膨胀系数（CTE）不匹配导致的键合点脱落。热量可以通过芯片上、下两面散发出去，增加了散热通道，并且上、下DBC基板与散热器通过热界面材料直接互连，进一步减小了热阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0f8cPiaibf4p0ncn04mjicKnOWLTeO1VrvzKwmbTqrIic9MJyxgzk7ichUrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_001_2c1142969ca8.png)
 
 模块的整体尺寸为32mm×32mm×3.7mm,其3D布局模型如图3所示，功率端子和驱动端子分别布置在模块的两端，这是为了减少功率回路对驱动回路的电磁干扰。在驱动端子的布局中，源极表1本文设计模块与同类模块寄生电感对比和门极采用Kelvin连接，以减小共源极电感造成的驱动电压振荡。共设计了3种规格的垫块，面积最大的用于输出端子的引出，面积较小的两种用于实现芯片表面源极和门极的电气连接。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0Lgfy0kLkbw1ZDaYZWqFOvHoPhLUXBFViaJ4jw8CZUBniae5ZicibOfeLPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_002_9c8f38767064.png)
 
 **2.  仿真结果**
 
@@ -45,39 +45,39 @@ SiC MOSFET芯片能以极快的速度完成开关过程，这进一步放大了�
 
 使用ANSYSQ3DEXTRACTOR有限元分析软件可以较为准确地分析模块中的寄生参数。具体过程是将模块的三维模型以中间文件的格式导人Q3D，忽略芯片内部的影响，将其视为良导体，设置相关材料的电参数，设置6组输入和输出端口，频率设置为100MHz，由仿真结果提取出的寄生参数分布如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0fQpPxAwvYhj43hyFD0EHianzVyGvMpFic0h47icib8I9wEYzVb8HuukGIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_003_4db9b42d0a27.png)
 
 模块的寄生参数主要分布在功率回路和驱动回路，其中红色虚线框内为功率回路的寄生参数，功率回路的寄生电感是导致开关过程中电压过冲和振荡的主要原因。表1展示了该模块与市场上同类型功率模块的寄生电感对比。本文设计的双面散热模块的寄生电感仅为5.45nH，相比于同类型模块，内部寄生电感较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0EGtgN9Z5HnprZibicphtibfx0wzJqKzde92VHSlUQN7pHiaseBzicicZ1uwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_004_9888b190d1b3.png)
 
 **2.2 模块稳态热仿真**
 
  在进行稳态热仿真之前，先对模块的热阻进行评估，忽略芯片之间的热耦合效应，双面散热模块的热阻网络模型如图5所示。该热阻网络模型包括两部分，顶部热阻Rthu和底部热阻Rthl。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0nUENuibmaR1BNZibXHbkdlHnvcCa42ichicI3csSRNPWANG7m7DibOfCatQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_005_72ad2112160e.png)
 
 根据传热学原理，两部分热阻为并联结构，故模块的结-壳热阻 Rthjc可以表示:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0KxSB5rj367VBdKnIt0XKODBnUH8wGjHrviazY0hAncrJvLSqWmq5yWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_006_f95817beceef.png)
 
-本模块中二者分别为9![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0UGlsKQQ7nIN30lzTN0qzDPgoqnLialgF8Tpg24zBm15jZqmL8lsicARw/640?wx_fmt=png&from=appmsg)和24![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0UGlsKQQ7nIN30lzTN0qzDPgoqnLialgF8Tpg24zBm15jZqmL8lsicARw/640?wx_fmt=png&from=appmsg)。由于芯片产生的热量先通过垫片和焊料层，故只需要对DBC基板的等效传热面积进行修正。
+本模块中二者分别为9![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_008_7e86da201989.png)和24![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_007_7e86da201989.png)。由于芯片产生的热量先通过垫片和焊料层，故只需要对DBC基板的等效传热面积进行修正。
 
 表2给出了该热阻网络模型中每一层材料的热导率和厚度。联立式（1）～式（3）并将表2中数据代人，可以计算出双面散热模块顶部热阻和底部热阻分别为1.17K/W和0.262K/W，结-壳热阻为0.214K/W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0ONuv9cHic2s2YF8JBfZxRLc3MBvD96Bcyjkjx4wtZsgicxZMwmQcjE7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_009_52a1d9406e8c.png)
 
 为了验证模型的正确性，将模块导入多物理场软件COMSOL进行稳态热仿真。将芯片内部热损耗设置为100W，模块壳温设置为100℃，恒定壳温下模块温度分布的仿真结果如图6所示。芯片结温最大值为121.8℃。再根据结-壳热阻的定义，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0KJZXV7MOjj4MoibTcYFNXp3sId65yiclRn5fkJSFkbR8AQsqLGPYBoJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_010_a36346a117c8.png)
 
 式中：Tj和Tc。分别为芯片结温和模块壳温；P为芯片内部热损耗。得到模块结-壳热阻为0.218K/W，仿真与计算结果十分接近，说明该热阻网络模型十分精确。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0rQGjhwQXYZQoYh3qNibspMDLiaoJzADcx4M2Q3cRpywXss6zcaQ4PXWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_011_8943348004cf.png)
 
 为了进一步探明双面散热模块的散热效果，将模块上、下两面的对流换热系数设置为2500W/（m².℃），以模拟模块工作在有外接散热器的情况，环境温度为22℃。作为比较，同时模拟了单面散热的情况，仅在底部加上了对流条件，顶部为绝热。芯片内部热损耗从10W逐渐升高到100W，步进为10W，仿真得到模块的最大结温如图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0LArYqicsxoVVgJGFpA4WTRzNPCYcibUckesPUya0FRicUlqBia4FbRwAcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_012_da9d02853f7d.png)
 
 仿真结果表明，在芯片热损耗为100W的情况下，双面散热模块的最大结温为125.2℃，而单面散热情况下为175.1℃。通过增加散热通道，使芯片结温下降了近30%。仿真结果证实该双面散热模块具有良好的散热特性。
 
@@ -87,11 +87,11 @@ SiC MOSFET芯片能以极快的速度完成开关过程，这进一步放大了�
 
 本文采用磁控溅射的方法对芯片表面电极进行镀金处理。首先设计用于溅射工艺的掩模，掩模的作用是对需要做镀层的地方进行定位，确定镀层面积。图8（a）为芯片与掩模组合后送人磁控溅射设备前的照片。由于金与铝的附着性较差，故先在芯片表面溅射一层10nm的钛黏附层，再溅射100nm的金层，镀金后的效果如图8（b）所示，可以看试结果表明，封装后并没有改变芯片的静态特性。出在芯片表面电极上镀了一层金。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0m42icFRVXGj3DhdXqmTq5FBcwD2sP7iaTH8ia0CEoPcuv72zeq40VpZJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_013_60c8122cc00a.png)
 
 图9展示了双面散热模块的制作过程。首先，1.0F将纳米银焊料通过丝网印刷的方式涂覆在上、下0.8DBC基板表面，DBC基板表面有定位孔，方便对钢网进行定位。随后利用贴片机将芯片贴覆在焊料上，在共晶炉内完成烧结。本模块选用的纳米银焊料为LOCITE公司的ABT8068TA，可以在真空中进行无压烧结，烧结温度为220℃，时间为60min。下一步是在两块DBC基板上进行垫块和端子的布置，针对模块的封装设计了一款石墨模具，其作用是对焊接进行精确定位，采用的焊料是SAC305（Sn5Pb92.5Ag2.5)，熔点为296℃，回流焊温度为340℃，由于烧结后的纳米银焊料的熔点超过500℃，故对第一次烧结不会有影响。最后一步是将上、下DBC基板进行组合，石墨模具能实现上、下DBC基板的精准定位，这一步采用纳米银焊料烧结工艺，最终双面散热模块制备成功。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0XzIdUrjRwMlgK43VBib6NkNCndO4T8ibA6icMY3ebFP4t2mrSVI4I0OXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_014_bc2148664518.png)
 
 **4.  静态测试与动态测试**
 
@@ -99,23 +99,23 @@ SiC MOSFET芯片能以极快的速度完成开关过程，这进一步放大了�
 
 模块制备完成后，为了验证封装过程是否对芯片的静态特性造成影响，进行了静态测试。结果如图10所示，图中IDss、IDs、VDs分别为测试模块的门极零压漏电流、漏源电流、漏源电压。图10（a）为模块在门极电压VGs\=0V时的门极零压漏电流曲线，在额定击穿电压下，模块的漏电流不到0.4μA，说明模块的耐压没有受到影响。图10（b）为模块在不同门极电压下测试的输出特性曲线与芯片数据手册的对比，二者略有差异，在门极电压为20V时差距较大。可以看出，在额定测试条件下，封装引人了约3毫欧的导通电阻。静态测试结果表明，封装后并没有改变芯片的静态特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0ZLNl98tTsjt9B7bc8f3U8cOwLAH8GTkmcOtjJNX9U3YkRxnpGhNjHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_015_e22328cb7452.png)
 
 **4.2动态测试**
 
 采用搭建的双脉冲实验测试平台对模块的动态特性进行评估（图11）。该平台采用同轴式采样电阻和高压差分探头对电流和电压进行采样。测试条件为600V/50A，驱动电阻为5欧，负载电感为60μH，上桥臂施加-5V的驱动电压用作续流，双脉冲驱动电压作用于下桥臂。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0sxZt7ia2Aicm2ePibZ7ibiaJXatZC7kLvvF8hudleRfqd02FrmrcqOkhpqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_016_a7c37becc9b1.png)
 
-双脉冲实验测试结果如图12所示。图12（a）为模块关断过程的曲线，在关断过程中，有一个电压为82V的过冲（△VDs），此时采集的电流变化率di/dt为1.07×![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0yFUnVchMBkspjMC7LuXktW3ndIvNiacSOo3qbhR4kx2gHln0lGulbiaQ/640?wx_fmt=png&from=appmsg)，模块功率回路的寄生电感LlOOP可以通过式（5）利用变化电流在电感上的电压降计算出来，计算结果为7.66nH。计算公式为式中：
+双脉冲实验测试结果如图12所示。图12（a）为模块关断过程的曲线，在关断过程中，有一个电压为82V的过冲（△VDs），此时采集的电流变化率di/dt为1.07×![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_017_c310829f37a4.png)，模块功率回路的寄生电感LlOOP可以通过式（5）利用变化电流在电感上的电压降计算出来，计算结果为7.66nH。计算公式为式中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0cGwicibBKZMx4JqUVa5Qlv1gRtygZcpCchXvVqruuOWiaic6w6M5EHE4qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_018_0310082c958d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0SMjKYgzFiaQJpia8nkBkJ8ic6usWRFUB5sNFB0n3s8n8tqBtbz7RuJXdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_019_773ef8e46e71.png)
 
 F.T.Yang等人利用器件在开关过程中的小信号模型提供了另外一种计算寄生电感的方法，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0lHYhS7sGDsibB8lmzsrBp0NGBnm41naXrckxn79wYLNQQXowO2ibnicyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_020_cb2c1b5d0c9d.png)
 
 式中：Coss为MOSFET芯片的输出电容，本文所使用的C2M00251200A型芯片根据其数据手册查得Coss为215pF，并且在电压为600V时基本保持恒定；fo为电压振荡的频率，从图12（a）可知，电压振荡周期为8.13ns，计算得f。为123.06MHz。将二者代人式（6）计算得到模块的寄生电感为7.78nH。
 
@@ -129,10 +129,10 @@ F.T.Yang等人利用器件在开关过程中的小信号模型提供了另外一
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_021_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_022_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\太原理工大学_一种双面散热SiC_MOSFET功率模块的设计与测试_images\img_023_84aa944feb13.jpg)

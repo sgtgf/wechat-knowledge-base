@@ -5,7 +5,7 @@
 
 随着大模型、生成式AI、智算集群产业快速爆发，AI数据中心（AIDC）规模化建设提速，高算力、高功耗、高密度算力节点成为行业主流，传统IDC供电架构已无法适配AI算力的极端用电需求。AIDC专用电源作为算力基建的核心配套，凭借高压、高效、高密、高可靠的核心优势，逐步替代传统UPS供电方案，成为行业标准化方向。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMSPGkQpkKO3HGDicRA2iap9V76vCVbU8dQZf0YwcW505Zdtlnbu9F6DZuyECIxdDTUjguC1oeXsljxichMBhkOMNR4lrOzXgiaeicQ/640?wx_fmt=png&from=appmsg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_000_77560465c6c9.png)
 
 同时，第三代半导体技术持续成熟、规模化量产带动成本稳步下行，彻底解决了传统硅基电源损耗大、功率密度低、散热压力大的痛点，推动AIDC电源从技术试点走向大规模商业化落地。本文将系统拆解AIDC电源的核心属性、应用场景、第三代半导体赋能优势、落地案例及国内行业发展趋势，为电力电子方案开发提供参考。
 
@@ -17,7 +17,7 @@
 
 ###   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNG1icYhSLUyFLaiaHJoeKkoibomRuM8XgqHp2xD8ltdJpM8HzLQyViaBlIqUVqKee72gTibnWJ5YiaN9p0oVlKnVym6bMTQZsKZeb0g/640?wx_fmt=jpeg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_001_a913611aba6b.jpg)
 
 ### AIDC电源是**面向AI算力中心专属优化的高压直流供电系统**，区别于传统互联网数据中心（IDC）的低压交流UPS供电架构，主流采用800V高压直流（HVDC）架构（±400V直流架构），是适配AI服务器、GPU集群、高密度算力机柜的专用电力电子供电解决方案。其核心定位是解决AI算力设备单机功耗激增、机架功率密度翻倍、7×24小时不间断高负荷运行带来的供电难题，实现电能高效转换、低损耗传输、高可靠备份与轻量化部署，是支撑大规模智算中心稳定运行的核心基础设施。
 
@@ -27,7 +27,7 @@
 
 ###   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMWu8IfNRaAGovAhG0uscSLYPzUWfnZvqB4GSvxassEyqhQWTrhiapvP3icmVP2wp0j6KKOGpHtdXNZF64Zv2yYjG33qbaBMicJJw/640?wx_fmt=jpeg&from=appmsg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_002_01e6ce8bc432.jpg)
 
 ### 相较于传统IDC电源，AIDC电源针对AI算力场景做了全方位技术迭代，核心特点聚焦高效、高密、高压、高可靠、低成本五大维度，适配算力行业发展刚需：
 
@@ -47,13 +47,13 @@
 
 AIDC电源深度绑定AI算力基础设施，核心应用场景聚焦高功耗、高密度、高可靠需求的算力场景，全面覆盖公有云智算中心、超算中心、企业私有AI算力集群等核心领域：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpM3OuLVgRq3UZNbP7WKWmsgiaNAfLFa6QSAVjs49eAiaHLgn1kMobXaERUl2yJnprjuWD8Wb684xLU2aicHiaJlmj8tcQYiaMqvic0LY/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\AIDC电源行业发展_技术应用及未来趋势分析_images\img_000_9e159fec069b.jpg)
 
 ### 1.超大规模公有云智算中心
 
 ###   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNqUMlr8xQBQfdcugpAGU8NIXS8NWBDBic894XCLTm8PibWt8uJuYzKKuqLibg28rxgKedorrw9icHBnK8SU0AECMbDPRYk3NUKgib8/640?wx_fmt=png&from=appmsg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_004_dc3da9e3038b.png)
 
 图片来源：网络
 
@@ -63,7 +63,7 @@ AIDC电源深度绑定AI算力基础设施，核心应用场景聚焦高功耗�
 
 ###   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTXAhRu7AZCIVyAHOCY7I2bRy4zJaPZJ4hINWt1jQJpWrHKn5YCEHJveqxoKYGicvOTXzsuVPyyZVIo1icJ3A1GdGzeF93h6n8k/640?wx_fmt=png&from=appmsg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_005_98eea4015311.png)
 
 图片来源：网络
 
@@ -73,7 +73,7 @@ AIDC电源深度绑定AI算力基础设施，核心应用场景聚焦高功耗�
 
 ###   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOk6ejhz2S3xliaibqMOuo4ok29V2YDibgecxKLzElHPNO0AiaNf7N4Yp6zTNqBMa1va4tt3jU7yMmibxLXdbnHUleDEMb7ibSVRRpEU/640?wx_fmt=jpeg&from=appmsg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_006_33a6059892af.jpg)
 
 图片来源：网络
 
@@ -85,7 +85,7 @@ AIDC电源深度绑定AI算力基础设施，核心应用场景聚焦高功耗�
 
 ###   
 
-### ![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMaxPDmYrSXCg5xpr8au1xR5Pe267HhYssO52xOuzMeibQQOlbFh6znJCBsjxNHDXxgMw2rQnk0ia9Ys35p90vbk6UwyiayTIPjiac/640?wx_fmt=jpeg&from=appmsg)  
+### ![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_007_94f742d51499.jpg)  
 
 ###   
 
@@ -101,7 +101,7 @@ AIDC电源深度绑定AI算力基础设施，核心应用场景聚焦高功耗�
 
 以碳化硅（SiC）、氮化镓（GaN）为核心的第三代半导体，凭借宽禁带、高频、高效、耐高温的材料特性，彻底解决传统硅基器件的性能瓶颈。近年来国内8英寸SiC衬底量产、工艺迭代优化，带动第三代半导体器件成本每年下降15%-20%，性价比持续超越硅基器件，成为AIDC电源升级的核心技术支撑。其核心应用优势体现在四大维度：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOb5ThjM4zblvFUx7zrb3vpibbGcxvuZRgGicKkNHBEic2DGyccqR7RxBAibUdibTVhaoptCicial85dr5VtRyvNPHEoVzXicehQibBlAgI/640?wx_fmt=jpeg&from=appmsg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_008_72e4392e3e02.jpg)
 
 ### 1.极致降损，大幅提升电源转换效率
 
@@ -175,7 +175,7 @@ AI算力集群常年7×24小时满负荷运行，电源设备发热量大、工�
 
 ## 六、总结
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMgiaofCleCpuedJzWJP6TwBZibmABUec46AUYXB4DVQ8GhITSrMDCCcpl4oOZXRwJPHGic09Xu5KYmgbLQSQd4shkmf3vZPRPYFI/640?wx_fmt=jpeg)
+![](AIDC电源行业发展_技术应用及未来趋势分析_images/img_009_aaa1160ebee9.jpg)
 
 ## AIDC电源是AI算力时代供电体系的革命性产品，凭借高压、高效、高密、高可靠的核心优势，完美适配高密度、高功耗AI算力集群的供电需求，逐步重构数据中心供电格局。第三代半导体技术的成熟与成本下行，成为AIDC电源性能升级、规模化普及的核心驱动力，大幅提升电源效率、功率密度与稳定性，创造显著的经济与社会效益。当前国内AIDC电源行业处于需求爆发、技术迭代、国产替代的黄金周期，未来将持续向高压高频、绿色融合、智能集成、全链自主可控方向发展，成为支撑国内AI产业高质量发展的核心基建，也为电力电子方案开发领域带来广阔的技术创新与市场机遇。
 
@@ -187,17 +187,17 @@ AI算力集群常年7×24小时满负荷运行，电源设备发热量大、工�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpM3cU4g2qPA0TtarPpPbP6UvPKiardFsI28xQLICYY72BOqNKuSYMibT1Qybc8HkRKpI4lOPmnXGS9kXbfLdV66y5utnU5Roic9Pk/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](AIDC电源行业发展_技术应用及未来趋势分析_images/img_010_6a640c69c219.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNaPd9faibzTzmj3aKhVVicyBIaZhdZKicqIyR4kAXpH2nRx3MMnLj0raRuyXdPH7lZe9zibruWIoe6JQlPTO7VG8lGQ8K2o3iciaBuk/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](AIDC电源行业发展_技术应用及未来趋势分析_images/img_011_fc38228385e4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNOfb9K8k4SEbTgtOKzic1eCuLljsMVNoUH7CXm07vtwVLq99tsiaHRQMgSibLz2nfAIOMqg6pctkleEN6L07Zs7u5EqX1Lhan9Ww/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](AIDC电源行业发展_技术应用及未来趋势分析_images/img_012_5214beac3a83.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOopNCFicgfoXec7KanJNhkVcYiaLsiaun8TGxt3ITMs400kGic0p1Clb2aicdYkMoImehdUIZWFO9gB01jCrQiaAxQgg94ALl4c5t1Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](AIDC电源行业发展_技术应用及未来趋势分析_images/img_013_d147a48b0a48.jpg)
 
   
 

@@ -5,7 +5,7 @@
 
 **PhotoMoS是指在输入元件中采用LED，在输出元件中采用MOSFET的****光电耦合器****。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmvo99jGaZBUxuyGz7QMqd0xVuhaB7TzfcRGPUfVAj1QgRmRfNRohrHickXETylwn7nD9cDhuplWRw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压碳化硅（Sic）_Mosfe芯片应用在光电耦合器（PhotoMOS）_images\img_000_825d4e83e849.jpg)
 
 定义  
 
@@ -47,13 +47,13 @@ AC/DC兼用
 
 除1a外，还备有2a、4a、1b、2b、1a1b等丰富的触点构成
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmvo99jGaZBUxuyGz7QMqd0NlZuFe6ZkvBSj7HI0UX3XG9u9iahvibqyBRIq7YKKFIO7t2p0wbSFHCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压碳化硅（Sic）_Mosfe芯片应用在光电耦合器（PhotoMOS）_images\img_001_f3c055da97d5.png)
 
 PhotoMOS VL=1500V输出端击穿电压光耦
 
 极高隔离电压           低工作电流              低导通电阻
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmvo99jGaZBUxuyGz7QMqd0uz4BYpB3jGTBrXzgMpyuM3Lx8EzdyN5Shy6Eyu5iby9SHkA534D2vMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压碳化硅（Sic）_Mosfe芯片应用在光电耦合器（PhotoMOS）_images\img_002_01d13d9e5e6a.png)
 
 产品4.6脚采用封装碳化硅MOS芯片，高压1700V,内阻750毫欧~7欧，电流1A~5A。
 
@@ -63,16 +63,16 @@ PhotoMOS VL=1500V输出端击穿电压光耦
 
 6.交流设备    7.温度控制          8.工业控制     9.测量设备       10.家用电器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmvo99jGaZBUxuyGz7QMqd0Ktlv1crwZg4SL7aKYylNaJ3NY624WaJCZPg6I8OgWj9icq7EeypZetQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压碳化硅（Sic）_Mosfe芯片应用在光电耦合器（PhotoMOS）_images\img_003_f15d24172eb5.jpg)
 
 1700V1A碳化硅MOS管成品，封装TO220F
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmvo99jGaZBUxuyGz7QMqd0N5UP6x0rNaTz3LlfT5k9LJAQevBOMK2KwPU6c7WQOulqbQJecgdF6Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压碳化硅（Sic）_Mosfe芯片应用在光电耦合器（PhotoMOS）_images\img_004_20b1e81a5768.jpg)
 
 1700V5A碳化硅MOS管成品，封装TO247-3
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压碳化硅（Sic）_Mosfe芯片应用在光电耦合器（PhotoMOS）_images\img_005_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压碳化硅（Sic）_Mosfe芯片应用在光电耦合器（PhotoMOS）_images\img_006_770831a45f05.png)

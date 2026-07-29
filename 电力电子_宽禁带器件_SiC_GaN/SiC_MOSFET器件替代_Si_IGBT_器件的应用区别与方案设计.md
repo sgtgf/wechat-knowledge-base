@@ -7,7 +7,7 @@
 
 ‌随着技术进步，电力电子器件不仅提高了大功率应用的效率，还实现了尺寸的缩减。IGBT和SiC MOSFET便是其中的佼佼者，它们凭借高电压、高电流的额定值以及低损耗特性，在大功率领域大放异彩。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx2bAGrZFaIG9ZFQvRgkyNez3PBic5QbyNuJdtOEcClv0DAKHMwYHt1nQ/640?wx_fmt=png)
+![](SiC_MOSFET器件替代_Si_IGBT_器件的应用区别与方案设计_images/img_000_bb2bdd1d50fa.png)
 
 SiC MOSFET器件与Si IGBT器件的定义与工作原理  
 
@@ -17,7 +17,7 @@ SiC MOSFET器件的定义与工作原理
 
 SiC是一种由硅（Si）和碳（C）构成的化合物半导体材料。其绝缘击穿场强是硅的10倍，带隙是硅的3倍，这使得SiC器件能够在较高的杂质浓度和较薄的漂移层下实现高耐压。SiC MOSFET利用这些特性，实现了高耐压、低导通电阻和高开关频率的特点‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxRaKeheAGmYGrfD514mdrzURPiaRPYDibc5xvqSu6UysFRub4PiaqvibqKw/640?wx_fmt=png)
+![](SiC_MOSFET器件替代_Si_IGBT_器件的应用区别与方案设计_images/img_001_a7507832a654.png)
 
 Si IGBT器件的定义与工作原理
 
@@ -31,7 +31,7 @@ SiC MOSFET 器件与 Si IGBT 器件的应用与区别
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxIwDFeabZYg3I5r7tluu33zfu79BPZecoaR6tqiaXSUsUFdJs1MDVm5Q/640?wx_fmt=png)
+![](SiC_MOSFET器件替代_Si_IGBT_器件的应用区别与方案设计_images/img_002_e4b6ad3ac8fb.png)
 
 Si IGBT器件和SiC MOSFET器件在电机驱动应用中各有优缺点：
 
@@ -45,7 +45,7 @@ Si IGBT器件和SiC MOSFET器件在电机驱动应用中各有优缺点：
 
 #### 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxQoIiaY5lwfh5R4YD0ibhLFclVS0gmbEFPoTsmIVNMeyHY9bic6q295ySw/640?wx_fmt=png)
+![](SiC_MOSFET器件替代_Si_IGBT_器件的应用区别与方案设计_images/img_003_3ffeac27342f.png)
 
 **典型替代场景举例：**
 
@@ -178,16 +178,16 @@ SiC MOSFET 替代 IGBT 是 “高频化、高效化、小型化” 的技术升�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET器件替代_Si_IGBT_器件的应用区别与方案设计_images/img_004_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET器件替代_Si_IGBT_器件的应用区别与方案设计_images/img_005_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](SiC_MOSFET器件替代_Si_IGBT_器件的应用区别与方案设计_images/img_006_9bbc7b9b15a2.png)
 
   
 

@@ -21,7 +21,7 @@
 
 SiC MOSFET的开关过程主要受其动态特性参数的影响，而极间电容是动态特性参数中最主要的参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPeGOpU6kecyu2MFRklMADFt6OH76cpNBMEHuzS83aR2j93Zc2DLKlBEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_000_a0434ab2cf7b.png)
 
 如图1所示为SiC MOSFET的内部等效模型。采用输入电容Ciss、输出电容Coss和转移电容Crss来描述各极间电容的关系，以此来表征各极间电容对SiC MOSFET开关过程的影响。其中，输入电容Ciss决定电路的RC时间常数；转移电容Crss在SiC MOSFET工作过程中会影响开关时间。
 
@@ -29,7 +29,7 @@ Ciss=CGS+CGD, Coss=CGD+CDS, Crss=CGD  (1)
 
 对于驱动电路设计，管子高速导通与关断两个过程是设计关注的重点。图2所示为动作过程的漏极电压与漏极电流、栅源极电压与电荷之间的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPezWyK8DJPaqaQkO2gF5clpbX8Diaxd65hVJiag82SuKhGyHlHCEUjNrPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_001_c9fc491cf8cd.png)
 
 以图2中的(a)、(b)MOSFET从截止向导通转换过程为例进行分析，该过程可分为四个阶段。  
 
@@ -57,7 +57,7 @@ Ciss=CGS+CGD, Coss=CGD+CDS, Crss=CGD  (1)
 
 隔离驱动可分为电磁隔离与光电隔离。采用脉冲变压器实现电路的电磁隔离，是一种电路简单可靠，又具有电气隔离作用的电路，但其对脉冲的宽度有较大限制，若脉冲过宽，磁饱和效应可能使一次绕组的电流突然增大，甚至使其烧毁，而若脉冲过窄，为驱动栅极关断所存储的能量可能不够。光电隔离，是利用光耦合器将控制信号回路和驱动回路隔离开。该驱动电路输出阻抗较小，解决了栅极驱动源低阻抗的问题，但由于光耦合器响应速度较慢，因而其开关延迟时间较长，限制了适应频率。故本文采用如图3所示的改进光耦合器驱动电路，速度更快，性能更好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPeiah1YrrU6dDkDU4lvICiaQyMu3hRHmgwA4Lia1w3NRWRuJzLwdhA3rGYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_002_61e31f2395dd.png)
 
 **3 驱动电路详细设计**
 
@@ -67,7 +67,7 @@ Ciss=CGS+CGD, Coss=CGD+CDS, Crss=CGD  (1)
 
 根据电路功能要求，本文将驱动电路主要分为脉冲整形放大与故障检测两部分。电路功能框图如图4～图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPeicaJhTcTibKXVupENRab6aaAsiaTRk10A5LjmxJw95mgqPZqNYmibPJv4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_003_3c6f82addd89.png)
 
 整形放大部分：其主要功能为实现驱动脉冲的功率放大。本文采用专门用于MOSFET和IGBT的高速驱动芯片IXDD614双管并联实现，该芯片不仅可满足驱动电路高速、低传输延迟时间、低输出阻抗、低能耗等要求。并且该芯片具有使能控制端，当使能端为低电平时，输出为高阻状态。  
 
@@ -77,13 +77,13 @@ BM6104FV为开关频率高达1MHz的驱动芯片，内含短路检测、门极�
 
 由于外扩软关断电路及芯片内部短路检测电压较低的原因，本文对芯片外部配置的过流检测电路进行改进，使该检测电路输出控制外扩功率管输出高阻态，同时控制软关断电路进行软关断。软关断进行到一定电压, proout引脚进行相应电平的检测，下降到某一电压（芯片内部设定），6104芯片输出低电压，关断SiC MOSFET管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPe2mdnVsPn7WO1ULsYPrXXVicKK3wb4rQBo9ZWh0fsQlt9IFcnsuggh7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_004_fb29f193d24a.png)
 
 过流保护及软关断电路如图6所示，过流保护电路采用比较器LM339进行过流值比较，输出为SC，一路给定9013三极管对IXDD614进行控制，一路给定软关断电路进行软关断。考虑到10只并联管子软关断的一致性，采用门极电阻前端软关断。  
 
 综合故障锁存及复位电路如图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPeuSJsnGtz6XLUVmhxbkPI7R2L85ws47erBSicjyYJ1H1uJyGSYeChhZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_005_66184ed2a6ed.png)
 
 本电路对故障进行相应锁存、指示，汇总为1路光耦故障供外电路使用。其中板内故障共分五路，两种电位。丢脉冲故障、正电平故障、负电平故障、超温故障为高电位故障，驱动芯片提供的原副边欠压故障、短路故障为低电位故障。电路采用光耦进行隔离后进入锁存电路，并提供相应的led显示；其余四路故障通过比较器LM339和设置门槛进行比较然后进入锁存电路进行锁存，提供相应的led显示。复位电路外接+24VDC逻辑电平，对上述锁存电平进行复位。
 
@@ -93,25 +93,25 @@ BM6104FV为开关频率高达1MHz的驱动芯片，内含短路检测、门极�
 
 SiC MOSFET的开关快慢并不完全取决于器件本身，还与外电路参数有关。而驱动电路门极电阻_R_g的大小即可强烈地影响其在开关过程中是否振荡、关断时的电压尖峰是否太大以及二极管的反向恢复电流是否合适等问题，故本文采用双脉冲测试法，动态调节该参数的大小，以评估确定最佳的驱动电路_R_g数值大小及确定是否需要设置RC缓冲保护电路来吸收SiC MOSFET快速关断导致的浪涌电压，防止器件击穿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPe4sKKgUW34CrQGZ9QWhdEibg4iceor6qBDsLibEy0ZIejA60HL39zm0ibhQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPez1lPnHfgEpziaTzgouGXwxg61gvmz5wRdMzic11icYUVibIsWaaC5VJ5uQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_006_b309bc707227.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_007_9b0453f66a2c.png)
 
                                               表1 实验参数
 
 需要说明的是，图8中_V_g仅发出两个脉冲；M2的门极被短接，处于关断状态， M2仅在M1关断时起续流二极管的作用， M1才是我们要观测的对象；流经管子的电流_I_D\=_V_DD\*_t_/_L_，故实验时，流经管子电流的大小可通过调节其他参数大小来控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPeUAKP2ZIGibhV2NLW1NoaJj48Pf7dMtsMXIDGiadym3q8CDvCM1J7ib6Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_008_d23cb0e07c04.png)
 
 通过对图9（a）～图9（c）实验波形对比分析可知，过小数值的_R_g会使主电路中SiC MOSFET电压、电流产生严重振荡，给器件带来非常不利的影响，增大_R_g的数值可以有效抑制SiC MOSFET开通关断过程的振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPeD1MkjmbA1fDFzqZ0plF6c2dcrwL7DVk3emWV44eibiccBHO5ZLSvhjkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_009_5aec76c3c7a6.png)
 
 对比图10实验波形可知，增大_R_g的数值虽然会减小振荡，但SiC MOSFET的开关时间及开关损耗会增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPeGUftvrSdWuS1euTATzxXWFeqaBO8lOKn20xiaQmvy1gGbicdqmeWljYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_010_5ca751d940e9.png)
 
 感应加热电源设计中为保证开关器件安全快速的动作，常采用增加阻容吸收电路的方式来保证电路的可靠运行。阻容吸收电路不仅可以实现过电压保护，还可以抑制谐振和消除谐波。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEwI9ZpfjtCFMsOmDVPWPe0RjyiaBcof8oibibEGyUaWMmjTzLGbuwc7tJrMVeuz2ahJtMmhsuQ2icxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_011_c0e1823cc08b.png)
 
 本文采用如图11所示的过电压吸收效果好且电路结构简单的RCD缓冲电路，通过电容的充放电和电阻的能量消耗来吸收和消耗电路接通断开时感性负载产生的自感电动势，避免开关器件的过电压击穿；采用快速二极管VD来防止浪涌电压的振荡。
 
@@ -123,10 +123,10 @@ SiC MOSFET的开关快慢并不完全取决于器件本身，还与外电路参�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_012_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_013_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_大功率SiC_MOSFET驱动电路设计_images\img_014_84aa944feb13.jpg)

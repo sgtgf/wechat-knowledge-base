@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tGxRKz6VNHWBOkicSo7dv59KccSPmS7NdvmliclILQRp0rfbMnheWNibp2HUf0Qj8SEW6L67yVVwvFzPKNhEInr0A/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常见电路板GND与外壳GND之间接一个电阻一个电容_为什么__images\img_002_e989300b8d88.png)
 
 外壳是金属的，中间是一个螺丝孔，也就是跟大地连接起来了。这里通过一个1M的电阻跟一33个1nF的电容并联，跟电路板的地连接在一起，这样有什么好处呢？
 
@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tGxRKz6VNHUCNAVbDNOcf73YY3cAVoz93S9NXpaREvjGCkzuia5PB6NtUQmZL0YosPXxOdOaaztXeehJmeGm93g/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\常见电路板GND与外壳GND之间接一个电阻一个电容_为什么__images\img_003_02d3c0776657.png)
 
 ## 
 

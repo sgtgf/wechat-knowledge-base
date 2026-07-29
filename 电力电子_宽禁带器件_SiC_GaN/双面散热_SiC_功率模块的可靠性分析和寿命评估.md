@@ -24,13 +24,13 @@
 
 1.1 DSC 功率模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVx41JrtoFlH3ibc2WeQ10m6omxePNIfhuDlvQJluA2MiaGQnGSjwOF0J4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_000_9182a5f0e863.png)
 
 如图1(a)所示，传统SSC 封装的功率模块为典型的异质集成结构，芯片底面焊接到直接覆铜板(direct bonding copper，DBC)的上铜层，芯片顶面与上铜层的电气互连依靠键合线完成。芯片产生的热量通过多层结构传递到散热器，然后耗散到环 境中。
 
 如图1(b)所示，DSC 封装的功率模块由2 层DBC、垫高、3 层焊料和芯片组成。相对于SSC 功率模块，DSC 功率模块增加了顶面散热通道，极大地降低功率模块的结–壳热阻。芯片功率损耗产生的热量，同时通过顶部和底部的多层结构，进入散热器，最终耗散到环境中，提高散热效率。图2 进一步给出了650V 电压等级DSC 和SSC 功率模块的热阻对比。功率模块的热阻随着额定电流的增加，指数下降。DSC 功率模块的热阻比SSC 功率模块减小18%以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxdZI9PQhtq2GwXGnwSVDoxZtLzEHVODThQ59A5c1olvIDuJWXB5iaMGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_001_8ba1ef083bcf.png)
 
 此外，DSC 功率模块采用顶面的DBC 代替键合线互连，通过优化封装设计，可以有效降低功率模块的寄生参数。
 
@@ -40,7 +40,7 @@
 
 功率模块的疲劳失效直接决定于封装结构和封装工艺。在功率模块内，硅–铜–陶瓷异质层的热膨胀系数(thermal expansion coefficient，CTE)和杨氏模量不匹配，在功率循环和温度循环下，形成功率模块内的热–机械应力，在异质层的界面处形成疲劳失效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxeL3Jcic3fA7Z5IFZDJOEOySVGXwV6jMHId3jENv68kNWl7RAIz3wsow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_002_01faf16eda54.png)
 
 如图3 所示，SSC 功率模块的失效模式主要表现为键合线失效、焊料层失效等。由于DSC功率模块不存在键合线，其失效模式主要为焊料层失效。然而，DSC 功率模块的失效机理和失效模式还不明晰。尤其是，相对于SSC 功率模块的单层焊料，DSC 功率模块存在三层焊料，其焊层的薄弱环节、失效的先后顺序等，都有待进一步深入研究。
 
@@ -54,90 +54,90 @@ DSC功率模块仍然采用异质集成结构，可以视为两个SSC 功率模
 
 2.1 SSC 功率模块的有限元模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxW4oPetQx6VmaU1xUVxcSBXpH4MicXrvcoj5navEQsJaWZRRzZSv9NyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_003_01a2f1396ce6.png)
 
 建立功率模块的寿命模型需要大量的数值计算，在保证精度的前提下，降低模型维度，简化模型难度，有利于提升计算效率。以焊层疲劳的失效模式为研究对象，以功率模块的寿命评估为目标，在COMSOL 多物理场仿真软件中，建立SSC 功率模块的有限元模型。如图4 所示，多物理场分析理论表明，二维有限元模型在保证95%计算精度的前提下，可以提高10 倍以上的计算速度。因此，为了提高模型的可重复性，在保证足够计算精度的前提下，将SSC 功率模块的三维物理模型，降维为二维有限元模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxP6fGa36Ygf1MsFCHWykCTxtLicHzBMBywicH6AgDqMDXtF7Jibmvgm80g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_004_c26c367cecee.png)
 
 以典型的SSC Si 半桥功率模块SKM50GB123D 为例，采用50A/1200V 的Si IGBT芯片 SIGC41T120R3E，其内部结构如图5 所示。在功率模块内部，芯片之间距离较远，芯片之间的热耦合效应可以忽略不计。因此，可以抽取其中的单芯片基本封装单元，作为研究对象，各层的结构尺寸和材料属性如表1 所示。在此基础上，借助几何对称性，可以将SSC 功率模块的三维模型转换为二维模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxz8pgzhj4kcFgzsvEXopibrWGtgHhGwEaaiaOvNnHaO9v8VOSRoA1VoRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_005_d0927be6bf41.png)
 
 在二维有限元模型的基础上，需要配置材料的本构模型。从材料力学的角度来看，根据材料的工作温度和熔点，功率模块的封装材料主要分为线弹性材料和粘塑性材料。
 
 半导体、铜和陶瓷材料的工作温度远低于其熔点，可以视为线弹性材料。线弹性材料的应力应变规律满足胡克定律：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxu1KOFZHxRWt96IKsRlZAGrKfTnvWUjqsN5QUwzspPnIgq7qqibot2nQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_006_be4e46fffa5c.png)
 
 式中：σ、ε分别为材料的应力和应变；E 为材料杨氏模量。
 
 然而，焊料的工作温度约为其熔点的一半，应视为粘塑性材料。焊料内部的蠕变和应力松弛现象非常明显，应力和应变均为工作温度和持续时间的函数。粘塑性材料的塑性应变和蠕变规律，可以采用材料的本构方程来表征。对于常用的Anand 模型，等效应力σ 与形变阻抗s 成正比，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxjJ6icmYUNLicuzVhjk45oV8L8exiaFkIgtSBeV0zDKIU1fqfC4UaBF46w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_007_57b9e5cbc212.png)
 
 式中c 为与焊料有关的参数，可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxhDC4SUAKlB96C9mArVY7rV8ibBysc6GArKSWicqG38tjX4IMHCNPB0dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_008_6755d8de5e62.png)
 
 式中：_ξ_为应力乘子；A 为潜质指数；T 为温度；Q为活化能；m 为应变率敏感指数；R 为气体常数；_ε_p为非弹性应变率，可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxibCvBhKFYCAYicI0v1sJHLp9dtd7E0wnCljbBdPROKeZhibJGuaFbI4XA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_009_a03855661d33.png)
 
 形变阻抗演化后得到方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxYzQfb6Sa29vDria4zUIRBaF63epLKk1SXM3aDvxxL699mFYEQfTqM2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_010_6d09e534f472.png)
 
 式中h 定义了应变回复、硬化等焊料内部动态过程，且可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxTd0mrm0Ls5iaFQoyKTkYEjlxWDJmhRTxCfwNUBVyicyDuaTkYlK5xAnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_011_5d0e0d7e8f05.png)
 
 式中：h0 为软化/硬化常系数； 为敏感指数；s' 为s的饱和值，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxIESLB50gQZFiboP1mVwYDs12QkHEUn1JOLKDbkrB5Z4NSEqv14Bmnsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_012_4035772ebe99.png)
 
 式中；sˆ为变形阻力饱和值的系数；n 为指数幂。
 
 可见，材料的Anand 本构模型包含9 个变量，对于SAC305 焊料，其模型参数如表2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxIJBdv9hC6mBBic8F6TD7icXGEneUBp1DPs9kesTo2NGt2FnP1o3QiartQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_013_3e49faa57cb1.png)
 
 基于图5 所示的对称二维模型，边界条件设置如图6 所示。此外，功率芯片设置为特定体积功率密度的热源，DBC 的底面设置为辊支撑，且散热条件设置为强迫水冷。模型的左边界设为对称边界，以减小内存；模型的其余边界均设置为绝热，且自由移动。
 
 在有限元分析模型中，采用物理寿命模型，评估功率模块的寿命。在功率芯片上施加方波的功率密度，模拟功率模块的功率循环实验。改变方波的幅值和换热边界的环境温度，可以得到功率模块在不同结温循环下的温度、应力、应变规律。结合Anand模型，可以得到焊料的塑性应变和蠕变。为了获得焊料层应变和寿命之间的映射，可采用Morrow模型：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxpS3icviaJYEQF91NIYRkTicCSwpQKnQfxl0vrQ3bDn0IDCJeQoZUTAqhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_014_dad38384983d.png)
 
 式中：Nsf 为焊料层失效前的功率循环周次；Wsc为一次功率循环所累计的蠕变能量；Wsf、ms 分别为材料的疲劳能量系数和疲劳能量指数。对于SAC305 焊料合金，模型的取值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxS7mqCVw3STSxoFDVqCXXCMcGkeYqSnSXkZHIrP56Amic73icj3QiahUAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_015_5716c7695efc.png)
 
 、ms  0.69。在实际中，基于应变的Morrow 模型难于量测。
 
 因此，通常所说的寿命模型是指和结温波动相关的寿命特性。焊层的疲劳老化，引起热阻的增加，进而导致功率模块失效。根据焊层失效模型，基于Coffin-Manson模型，可得功率模块的寿命模型：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxiaDiadjVYxSVUVGibPsaHJMj8RXN7D9kNXI7HngW9JFP3EBBejpORBGBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_016_5836af892fd9.png)
 
 式中：Nf为功率模块的寿命，为功率循环结温；c1、c2 分别为功率循环寿命系数。
 
 此外，考虑功率循环过程中平均结温的影响，可以采用Coffin-Manson-Arrhenius 模型来描述功率模块的寿命，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxc7n2jCpia0uReiaiaMwRKmbuCiabweO5ibqnjyKWAzPQm9WcsVlD5UHpkug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_017_c7e994f3d4cd.png)
 
 式中：a、n 为与初始寿命和结温波动相关的常数；Ea为激活能；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxUHUXoLO6RaItceogNVibWFricYARiclrISpibbgOUr3IkXhnUHZSX1ic5UQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_018_b0765211ad5b.png)
 
   
  为玻尔兹曼常数；Tjm为平均结温。
 
 2.2 功率循环实验及有限元模型的验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxY5CP50NgR9rgFicUDdqhyKqPvTGJhRxJBT0ppe1pgJZc3VMV6DYJLAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_019_a97aca97c446.png)
 
 典型功率循环实验的电路原理如图7 所示，控制开关采用功率模块SKM75GB123D，为了提高测试速度和增强对比参照，将22 个被测功率模块串联测试。功率模块的失效判据定为20%的结壳热阻增加。在有限元模型中采用了芯片和封装一致性，因而可以利用该数据进行实验验证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxFa5Ec02GeQicHnLllQtibdhwpocibYPvwONkIicFG6QunpnKnozfI6FO5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_020_9d5ecee9d60d.png)
 
 当平均结温Tjm为90℃时，设置Tj分别为90、120℃，测试功率模块的功率循环寿命，实验结果如图8 所示。可以发现，实验结果与式(9)所示的理论模型吻合较好，辨识得到的功率模块寿命模型参数为c1  5.2  10¹²、c2  4.2。此外，不同温度下的有限元仿真结果也与理论的寿命模型相差不大，相对误差小于6%。
 
@@ -147,11 +147,11 @@ DSC功率模块仍然采用异质集成结构，可以视为两个SSC 功率模
 
 基于SSC 功率模块的有限元模型，采用实验结果校验了该模型对SSC 功率模块寿命预测的可行性。这里进一步探索DSC 功率模块的有限元模型，以分析DSC 功率模块的寿命模型及其影响规律。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVx9JGL3ibibnib7TtvrAeJLtE4wbqF0GJNO0FMwFjKYP9n3LOibsaTECKkXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_021_76796c9f9ccc.png)
 
 在DSC 功率模块的有限元模型中，采用相同尺寸的IGBT 芯片，进行对比分析，如图9 所示。芯片底面的封装材料和封装尺寸与SSC 功率模块完全相同。芯片顶面采用与底面相同的DBC，并在芯片和DBC 之间引入了钼片垫高层，其结构尺寸为6mm 5.7mm 2.5mm，其材料的热膨胀系数为4.8×
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxLj3AIPZPB4z5vhbY09ic6EOMDwbwGlZffslVhutwt4oqvdN1ZBVcwCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_022_e659dd75d664.png)
 
 、杨氏模量为329GPa、热导率为139W/(mK)。钼片与芯片的连接，仍采用 0.12mm 厚的 SAC305焊料。
 
@@ -161,11 +161,11 @@ DSC功率模块仍然采用异质集成结构，可以视为两个SSC 功率模
 
 在功率循环中，非弹性应变能容易在边角聚集，因而，焊料层边角处首先开裂失效，导致热阻增加，最终导致功率模块失效。对于SSC 功率模块，其失效判断标准通常选为热阻增加20%。但是，该失效判据并未指明所对应的焊层失效比例。对于DSC功率模块，其存在三层焊料，各层焊料失效的先后顺序，及对模块结壳热阻的影响，都还有待深入研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxv8FzNdGCr09u73KmxicicdKLZDoZlWEahdWiaOvmca0ypKY1brGBrk1Mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_023_39e2e4921239.png)
 
 基于图9 所示有限元模型，在结温波动为Tj120℃的功率循环测试条件下，图10 给出了DSC Si功率模块的多物理场分析结果。可以发现，钼片上层焊料、芯片顶层焊料失效约 5%之后，便不再明显退化，DSC 功率模块的焊层失效仍然以芯片底层焊料的失效为主。由于场限环的限制，芯片顶面的有效散热通道减小，且焊料层数更多，并含有垫高层，都会增加顶面封装结构的厚度和热阻。因此，芯片的损耗主要通过底面耗散到环境中，芯片底面的热通量更大，且温度梯度更高，寿命更短，是DSC功率模块的薄弱环节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxgLiaH5CsU6xI1yIGibjN5CLqCm8YqbCib5ib62ibd5bSBDlavFuMudeWYnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_024_3a8b57c75a46.png)
 
 基于图9 所示有限元模型，图11 进一步给出了各层焊料失效比例对DSC 功率模块结壳热阻的影响规律。可以发现，对于SSC 功率模块，当焊料层失效9%左右，模块的结壳热阻增加20%，即达到SSC 功率模块的失效判据。对于DSC 功率模块，各层焊料失效比例对结壳热阻的影响规律，与SSC功率模块基本一致。因此，可以沿用结壳热阻增加20%作为DSC 功率模块的失效判据。此外，结壳热阻对芯片底面焊料的失效最为敏感，当底层焊料失效8%时，可以判定DSC 功率模块失效。
 
@@ -173,21 +173,21 @@ DSC功率模块仍然采用异质集成结构，可以视为两个SSC 功率模
 
 功率模块的应力计算本质是对多层结构的应力分析，忽略了连接层厚度，进行一定的简化，求解微分方程组，得到异质层交界面的应力分布规律：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxVSnbFTSYHSv9IKnjicSickJGyLKDlRBwCaDicr03WaDzbelEs6j8b84qQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_025_3978dd21ff88.png)
 
 式中： 为连接面的剪应力；常数 k、 为与材料的杨氏模量、厚度等相关的系数； 为材料的热膨胀系数；x 为到对称中心的距离。由式(11)可知，越靠近芯片边缘，应力越大；材料的热膨胀系数相差越多，应力越大。相对于有限元方法，数学解析模型能得到一定的规律，并做出一定的物理解释，但是模型假设过于理想，准确性较差。此外，为了分析功率模块的蠕变耗散能，评估功率模块的寿命，有限元分析方法更为方便。因此，本文采用有限元模型来分析功率模块的热–力行为。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxd649zoj1oIJ93WicOoZnxnicWRZAydxhWxaQIAUEpiaSxAkLP9yY9XQicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_026_db2b21083ea1.png)
 
 焊料层边角处是裂纹萌芽地带，此处的应力和非弹性应变也较为集中。因此，分析焊料层边角处的应力应变聚集情况，能够较好地揭示焊料层的失效机理。针对SSC Si 和DSC Si 功率模块，图12对比了焊料层的蠕变耗散能分布情况。可以发现：对于 DSC Si 功率模块，焊料层边角处的应变聚集区域更小，有利于减缓裂纹的萌发，提升其功率循环寿命。
 
 在功率循环过程中，SSC 和DSC 功率模块受到的应力应变和蠕变行为有着明显的差异。以循环温度Tj  120℃时为例，焊料层的应力和蠕变特性，如图13。相对于SSC 功率模块，DSC 功率模块的芯片顶面结构兼具耗散功率和平衡应力的作用，减小芯片焊料层的5%应力、15%蠕变应变率和20%蠕变能密度。根据式(8)，单次功率循环所积累的蠕变能量决定是焊料层的疲劳寿命，进而影响功率模块的功率循环寿命。可见，相对于SSC 功率模块，DSC 功率模块能够明显降低焊料层的应力应变，显著提升其功率循环寿命。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxvp0iaW6A3ubvzENgIjDxEYa17NH3jSiaJCrJj64RibSw06pIxdjibGtlibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_027_8060ee00c295.png)
 
 最终，通过有限元分析得到的循环寿命分布如图14，与图12、13 所示的应力分析结果基本一致。模块从焊料层边角处开始失效，其中DSC 模块的失效以芯片底部的焊料层失效为主。顶部两层焊料在边角失效后，因为钼垫片的原因，向内发展得很慢。因此，双面散热模块对器件寿命的提升具有显著的效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxZHtUvrPJxyv6uwtal5hOFPqgRKQ7n1yICXd7o2OAoFyYUjJSbQ4n0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_028_122b4354e034.png)
 
 4\.  DSC SiC 功率模块的寿命模型及影响规律
 
@@ -197,27 +197,27 @@ DSC功率模块仍然采用异质集成结构，可以视为两个SSC 功率模
 
 如表1 所示，由于材料的性能差异，相对于Si芯片，SiC 芯片的杨氏模量更大、面积更小，在DSC功率模块的模型中，钼片的大小调整为 3mm\*2.9mm，其余参数不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxHw9uIcAaAOwbCQZL1KWgRxTWzOAfeiavTib6d4toSHribHicd4r2otzMuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_029_e2b5410bd73a.png)
 
 SSC SiC 功率模块的应力应变更加集中，约是SSC Si功率模块的1.5 倍。但是，采用DSC 封装结构，能够减小SiC 功率模块的应力，大幅提升其寿命。SSC SiC 和DSC SiC 功率模块的应力和蠕变特性，如图15。类似于Si 功率模块，相对于SSC封装，DSC 封装能显著降低von Mises 力、蠕变应变率和蠕变能密度，提升SiC 功率模块的寿命。对比图13 和15 可以发现：对于相同的封装技术，SiC功率模块的应力应变仍然大于 Si 功率模块。因此，相同封装条件下，SiC 功率模块的焊料层寿命少于Si功率模块，如图16 所示。与Si 功率模块类似，相对于SSC 封装，DSC 封装能显著提升SiC 功率模块的寿命。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxWiaVkkgVYCACibN2NotdOMJhmYIwE7q72sNmNJLVKO6ntnpXUibIPQS3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_030_52af2bdcbdcf.png)
 
 4.2 DSC SiC 功率模块的寿命模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxWAg6zEZmyR2f3aDlFjB2jyiaIvA3gicicYfnjQxX47vNoOOgE4eJCG3Yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_031_20da68fe8b57.png)
 
 基于前述有限元模型和分析方法，针对Tjm 90℃时的有限元分析结果。不同Tj 时，DSC SiC功率模块的功率循环寿命，如图 17 所示。采用式(9)所示的 Coffin-Manson 模型，可以得到 DSC SiC 功率模块的寿命模型。模型参数的拟合结果为：c1 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxqhUXtV1wgTf0EC3gNrNmrvj3oOyz1RHPDn19PLLzZV7pOpOUhv93yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_032_74ab8419d617.png)
 
 进一步考虑Tjm 的影响，基于式(10)所示的Coffin-Manson-Arrhenius模型，图18 给出了DSCSiC 功率模块的寿命分布规律。当Tj 相同时，Tjm越大，功率模块的寿命越短；当 Tjm 相同时，Tj越大，功率模块的寿命也越短。此外，有限元分析的结果与式(10)所示模型的预测结果基本一致。辨识得到的模型参数为：a  56.39，n  2.57，Ea  0.57eV。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxr93UWniadicyG14r1QKsiaUfaib6cVRfyUL3UiaaHKny3v01RFKoib3SxBoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_033_a76be73943fd.png)
 
 对于Si 和SiC 器件，采用SSC 和DSC 封装，当Tjm  90℃时，功率模块的寿命分布规律如图19所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxqxH7fsOv99E7Fq7YLvVfoea1U1SdO82icO48iciaBEjU1WJXFJQS7UTHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_034_d483b39e8ad4.png)
 
 不难发现，SSC SiC 功率模块的寿命约为SSC Si 功率模块寿命的30%。随着Tj增加，二者寿命的差异减小。此外，DSC SiC 功率模块的寿命是约为SSC SiC 功率模块寿命的2 倍。值得指出的是，相对于SSC Si 功率模块，当Tj较低时，DSC SiC功率模块的寿命提升效果并不明显。但是，当Tj较高时，DSC SiC 功率模块的寿命远大于SSC Si功率模块的寿命。从寿命指标的角度来看，DSC Si功率模块具有最佳的性能。但是，考虑到高温、高频、低损的优异性能，DSC SiC 功率模块在高功率密度车用电机控制器的应用，具有广泛的应用前景。可以预见，在更大的Tj情况下，DSC SiC 功率模块的优势会更加明显。
 
@@ -227,23 +227,23 @@ SSC SiC 功率模块的应力应变更加集中，约是SSC Si功率模块的1.
 
 先进的封装材料有利于降低封装热阻，缓解焊层应力，提高功率模块的寿命。计及DBC 陶瓷材料和垫高材料的影响，本节深入分析封装材料对DSC SiC功率模块寿命的影响规律，材料的基本属性如表3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxkibiblv7iaoibv2a7BsuFH18Yibg6RjiboSOUOMCbCmJiaoicKE2bcKw1JA8Ug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_035_da010fb11dd3.png)
 
 基于前述有限元模型和分析方法，不同DBC陶瓷层材料对 DSC SiC 功率模块寿命的影响，如 图20 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxMa3Azmc2RohhmicEzgHjJ9mtRuSGy4O8u3pibMvkkE465Bg7bezADBxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_036_bd069afaf9ca.png)
 
 相同Tj 条件下，Si3N4 功率模块的可靠性最高，AlN 次之，Al2O3 最差。如表3 所示，AlN 的热膨胀系数大于Si3N4，它与SiC 芯片的热失配更严重。然而，AlN 具有较高的热导率，有助于降低结–壳热阻。此外，AlN 的成本比Si3N4 更低，应用更为广泛。由于AlN 的热导率远大于Si3N4 和Al2O3，在相同功率条件下，功率模块的波动更小，有利于提升功率模块的寿命，如图21。也就是说在相同工作条件下，AlN 的热阻更小，结温波动更小，工作寿命将会是更加可观。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxdhEorvVcFqHBWc8IqkbN82Tf7p4JCKSqD1FNh0vibWURzHSPXsoa25w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_037_1bc89ac98988.png)
 
 相对于SSC 封装，DSC 封装的垫片覆盖芯片上表面，直接影响功率模块的寿命。选用合适的垫片材料，可以缓冲应力，增加DSC 功率模块的寿命。若垫片材料选为铜，DSC SiC 功率模块内的焊料层寿命分布，如图22 所示。对比图16 所示钼垫片的结果，可以发现：采用铜垫片后，DSC SiC 功率模块的焊料急剧失效，且垫片两侧焊料失效最快。虽然，相对于钼垫片，虽然铜垫片能够减小 结–壳热阻，但是其热膨胀系数与SiC 材料相差更大，热应力的失配效应更明显，导致焊层寿命显著降低。此外，铜垫片的热阻更小，芯片顶面的热通量更大，温度梯度更高，焊料层的温差更大，进一步加剧焊层失效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVx5yle5bnibNh9qU8lBebXhRiajTs0Et6TNTezy0QxB5oCI05XTdEpn4ibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_038_f87e12dff712.png)
 
 在不同Tj的功率循环条件下，不同封装的SiC功率模块的功率循环寿命，如图 23 所示。随着Tj的增加，DSC SiC 功率模块的减小，采用铜垫片后，功率模块寿命约为钼垫片的1/4，其寿命甚至低于SSC SiC功率模块。垫片材料的热膨胀系数，应该接近于SiC 材料，才能降低模块的应力，提升模块的寿命。虽然，铜垫片能够一定程度上减小DSC SiC的结壳热阻，但是其对功率模块的寿命损耗，远不如结温降低带来的寿命提升。因此，对于DSC SiC功率模块，相对于铜垫片，虽然金属钼的热导率稍低，但是钼垫片仍然是更优的选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVx3S5Pwxu1epia4o7bjedSPMuCcyHyf7qUsYDg31icKCibYLRiaTKNHTg0dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_039_9d0fc7d95c31.png)
 
 5. 结论
 
@@ -261,10 +261,10 @@ DSC SiC 功率模块的是未来功率模块的重要发展方向，然而现�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_040_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_041_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面散热_SiC_功率模块的可靠性分析和寿命评估_images\img_042_84aa944feb13.jpg)

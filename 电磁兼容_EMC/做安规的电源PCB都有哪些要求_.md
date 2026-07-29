@@ -125,9 +125,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FM9iaJa2xDLOu8IW6MwgP2IKx30ayBsRP1t5vqUTkib2XAjyAjpcdsnZuRt1CO1F0Y7CT6ia6s3ntnlA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\做安规的电源PCB都有哪些要求__images\img_000_68c2be4907e6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FM9iaJa2xDLOu8IW6MwgP2IK5Z4ywu9dX1zvIdhicfLymLyLKQ1fwjfZ1TadJGhBic2wPqc4ggGwFKQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\做安规的电源PCB都有哪些要求__images\img_001_cc4a9188ac23.jpg)
 
   
 
@@ -163,7 +163,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FM9iaJa2xDLOu8IW6MwgP2IKvh6yTGhmITDAbKzFk9LicegaQaTJwicVkIv7tON9yWficJeGpRPJPD6EA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\做安规的电源PCB都有哪些要求__images\img_002_422d5bca5f3a.png)
 
   
 
@@ -190,7 +190,7 @@
 
 **其中：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FM9iaJa2xDLOu8IW6MwgP2IKzQpkMfjRqDmicJRYTamnF1dj1BTjB28hh7FFavLaJ3TzlPhnhcF1U1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\做安规的电源PCB都有哪些要求__images\img_003_00b3791a7252.png)
 
   
 

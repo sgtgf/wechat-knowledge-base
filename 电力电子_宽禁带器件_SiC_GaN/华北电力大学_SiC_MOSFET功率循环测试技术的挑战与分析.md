@@ -7,74 +7,74 @@
 
 **摘要：**分享一篇来自华北电力大学-邓二平（博士）有关“SiC MOSFET功率循环测试技术的挑战与分析”文章。文章介绍了碳化硅器件的特性，重点介绍了功率循环测试原理-功率循环测试方法-功率循环寿命，这几方面的知识，大家参考和学习。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkreib2pRiaulic6PFpPUaNgIW58ZXGUlbxjr88QV10oaRwXcKoCdoNBvuwqTTyXpsLPKaPBAxskG1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_000_58cfc63a1c80.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FEAX6QWmHLLlE4UcDsKFj8EXa802xlgck8o7yibKSDVGHEibHibzicWMrVA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_001_6d7cbd447727.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FzO7mia0t6BtyJlTPQm4qYFSz8VIeBI1gnUWyN5L2JdnvUq2Klx2bd7A/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_002_4265d629b154.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FswUAJrMMFfHdIlbOLNnyALeeCApiamyDzozxUOAbn6iajAF65HEpgqgg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_003_392ec6a56f47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FOw3hyrLEWqrHjIBRibnayaFJgJHmEhQ2Go70kESqqzNLuY6hiax2k1uQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_004_064ec9d0d97f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FpYQfgMCNQ2t3n3gaMfpicOZan3aZvb9rrOUVjdv5d6w9Ts55uKssYuQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_005_02e2c24bfc31.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5Fy6P3c3qw3a2ccaNdN5nVk3hgSicTETibCs5rsOSE2qEvGtEXiaCJJY6FQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_006_2bdfc79a12c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5F2zusdynjxClCjEjvPcPrWB77xkib0ESJXcZGfIfklcSqDbSpyicVpktQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_007_76d2bc6d1cff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FjSfffC428OJYKf2G7kekgY49nlIQLAdPm8l9WLia9eYeRzwBg8WhnRA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_008_e74539102306.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FWDbyibeqR0jgGOFyHxzYSPQIkXneI3xI801gXIVk7TKic07ndpb1yIGw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_009_d32a0e635ac9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FSM2DGZ1Z2PR6tFDv9jswAjppwhQt84f6EBpCys2wGEddv48Kbe8p0A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_010_ddb676c3f11d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5Fr7roM0UMXic8g9Q8SSSloKylmz7DINZN3GkkYRXTLaUMvI4aibl5iaqGQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_011_aa915421d439.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FlhIicvrfjR7awAjWf4wyKj6ESuqTVBMLe1mqK0KaAwOUEBUxdUJtsPw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_012_fd396af02400.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FCCUIibBbdOkM0Q89LlQCkecDrdmoKfsoG2zUzmVNIiaMPr2DMBzQ0ENQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_013_d4e48d15c9ba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5Focn8FY1afeMSPys6GBiaPCFBalJHUAAicckaS8icrScWZwvhQfvU8WDww/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_014_f563bcd9da90.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FGPLFsTfAGjgqfvctwubrDomrAAr8ibFQxiauLMWyvXbT8HbQ5YUFN8TA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_015_7f35cce51640.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FicHUDZ3ZMGXY4xwXcicgSyGUx34IowLYvb7EhWicn2IIarSb05YugZIkQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_016_8fd083facd1b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FtjyyQKw1Vkia3sic1JSNpahVXLWYSMqt53a3nRdZ0SokbDgmY18HhIvQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_017_34824cdaaebb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FAibd1XFUnIHwLPNgGbUQbop8WMvgqoKe87ibl60jHqb3LUeXvicqO7MXA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_018_466538df1203.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FEfCI9EtJePv4YDibUwRnvD3vBpo0phmfb4VgF9ftgAaOJgIg8GusyKg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_019_c090f42f7897.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FPuR8OSFVhFDicXvkW8OEMkn9ljZ9Z5QkTlBGcz88tZicPzcVrbQyvuyw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_020_97c77b06c1f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FprCxrF0x8ibnhOGxnTiaicf644MUHDNM1OVL2U6q8jqmThxafV8lgiahSw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_021_3b8e3e180a5e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FPDTdGW7MFqubsYdOJXTAVfI54wKWia5F4TtN2DlnjiavZibGwD1ukWJKw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_022_457a8e705e00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FUxAKtAPQYADNddf3zqXVibmGfia7qice2SialgtAN9kQ3ThVwziaL25oa9g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_023_eb3d12cb4d54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FOq4W5XZKPPmMfhyeLmqUrPz8DUoBmVWIBuqETXXgYibahx8ClBlwaLg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_024_56349efbb6c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FEd57ytLWqCeXqIlZJqNc3MPtVrt8SmoORLCFw2xLYBuQWnNibwYNjDg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_025_3d0489608e00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FPibBZJAXsXzSvZ9PJhDjYst10RmGXfkuCXcny0T3LhGicq0dyCaIeEDQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_026_2964b9672614.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5Fs8NSjBswaicBa7ZUicibhRUxwjecHy8R5854NaHj8KkY34oAibc3ibiaG1oQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_027_771c4bc0a3b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FicDic4Yzp8ibZibIXY7iaxOpscibhMhHOH0P6hLhwE82vGWiaibMVd1JmGibicEg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_028_bdca391ed5e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FCTsFDJC2kymYcX0aWEicB7NahvlY0KzEOV9gxbmBu4lyySdibB0XQbFA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_029_19ba136d081d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FEzJSiapnvWmvn0biakr3Al7nPXY4svA40r9axibIHZMxLgFm2u0yNYPSw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_030_e6708e913893.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FfykfDLUysvDLaEAGgLtbfFfRAmOeMF7e7pzjtibF2lnHYJpia82YiagBA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_031_7f71c409323e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDgbrM3Tpap9Ll1MNTPicpn5FlwHO1acuYPSPub7tornXUn1VyNgdZiczPjFB2gQhAaCFgzv7KWcpyjQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_032_2b6dd116de7f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_033_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_034_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET功率循环测试技术的挑战与分析_images\img_035_84aa944feb13.jpg)

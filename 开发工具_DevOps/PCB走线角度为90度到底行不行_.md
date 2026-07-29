@@ -10,13 +10,13 @@
 
 现在但凡打开SoC原厂的pcb Layout Guide，都会提及到高速信号的走线的拐角角度问题，都会说高速信号不要以直角走线，要以45度角走线，并且会说走圆弧会比45度拐角更好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIX9dfwzOgBiacIiafpicjWGV8DuhNWKf6IjiagqXYHWYAB9BJzkRsV8JmkFJHgr5AOIMWyaLsQOlHdw/640?wx_fmt=png)
+![](PCB走线角度为90度到底行不行__images/img_002_5af238338b5b.png)
 
 事实是不是这样？PCB走线角度该怎样设置，**是走45度好还是走圆弧好？90度直角走线到底行不行？**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh50IwoC4t0xX6mbR0DXIHzOoBPTcb8806XvRpfUkjksjBgyRtMAPeX2sF08bLrIxIXVloGkdP6Ug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB走线角度为90度到底行不行__images/img_003_48fd032fbe8b.png)
 
   
 
@@ -39,7 +39,7 @@ HP3456A 没有泪滴，几乎是故意走的直角（某些地方本来一个斜
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIX9dfwzOgBiacIiafpicjWGVDUyM9ia33We7iaLCWCx1TJkz9CkYcjHBJD3XNEEqJxowXuDJHJrhH6QA/640?wx_fmt=png)
+![](PCB走线角度为90度到底行不行__images/img_004_2254c99f75bd.png)
 
   
 
@@ -47,7 +47,7 @@ HP3456A 没有泪滴，几乎是故意走的直角（某些地方本来一个斜
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIX9dfwzOgBiacIiafpicjWGVn5ic7HsjePs0viaHf6ZnRPOcyTK8s04duZaX0e6u77tza8y1zM5XlHow/640?wx_fmt=png)
+![](PCB走线角度为90度到底行不行__images/img_005_2281ee65a525.png)
 
   
 
@@ -55,7 +55,7 @@ HP3456A 没有泪滴，几乎是故意走的直角（某些地方本来一个斜
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIX9dfwzOgBiacIiafpicjWGV1cFJgq0ov1XwKPIibGu3dR6m0sIyUicVRxwPwzRcw8FsOcoAN5zX30sQ/640?wx_fmt=png)
+![](PCB走线角度为90度到底行不行__images/img_006_e81395ea1ac2.png)
 
   
 
@@ -63,7 +63,7 @@ HP3456A 没有泪滴，几乎是故意走的直角（某些地方本来一个斜
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIX9dfwzOgBiacIiafpicjWGV2y1Dt9ibY26tQF5uStnISBwbDToQtbZZLFyQGDZuiaaNzaziaMZX22f0w/640?wx_fmt=png)
+![](PCB走线角度为90度到底行不行__images/img_007_4201376530d0.png)
 
   
 
@@ -100,7 +100,7 @@ PCB能不能以锐角走线，答案是否定的，先不管以锐角走线会�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIX9dfwzOgBiacIiafpicjWGVZIUFhxBCZdzRia3AIR970Fb18Kajiaxj5OKyo5icHw1RJ1eibPANby3ekg/640?wx_fmt=png)
+![](PCB走线角度为90度到底行不行__images/img_008_91722ee81cb6.png)
 
   
 
@@ -108,7 +108,7 @@ PCB能不能以锐角走线，答案是否定的，先不管以锐角走线会�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FNYIcf4ibMQnxBpsxNmnAbb3QKMUf1zbYhrbdlREyxuUKbC6pHtZPALA1GCpjlKQhPD3emPxh1aQ5Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB走线角度为90度到底行不行__images/img_009_77529d4cdba3.jpg)
 
   
 
@@ -116,14 +116,14 @@ PCB能不能以锐角走线，答案是否定的，先不管以锐角走线会�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FNYIcf4ibMQnxBpsxNmnAbb3ia1DtHa1903OScPVMEiciauy8YZrgKibGD2YwMcFvoEV7xG6EIJ9fiaNMGw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB走线角度为90度到底行不行__images/img_010_642a5f3e7787.jpg)
 
   
 灵活应用 Cadence Allegro 布线时切换 ” toggle “ 选项，可以避免导线拉出T型分支时形成锐角夹角，避免造成“acid traps”DFM问题。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FNYIcf4ibMQnxBpsxNmnAbb3ZQW44ia2gXIvgy9aOrAXT76RpgxCD2YttJzOenbKlDaMX3QwBzK5Byw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB走线角度为90度到底行不行__images/img_011_39d18f23b016.jpg)
 
   
 
@@ -205,7 +205,7 @@ PCB能不能以锐角走线，答案是否定的，先不管以锐角走线会�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FNYIcf4ibMQnxBpsxNmnAbb3aOPONWyqnF1Z5WQfutibUqOnG51pzxw0P3XZCoL5obf8OhaHNPKKNibQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB走线角度为90度到底行不行__images/img_012_7c61911d7525.jpg)
 
   
 
@@ -228,7 +228,7 @@ PCB能不能以锐角走线，答案是否定的，先不管以锐角走线会�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIX9dfwzOgBiacIiafpicjWGVYscBmWwFYa5m8B2sI9W492vp2O4WvibumodBNcmNFyYHQZNXkMDyibhA/640?wx_fmt=png)
+![](PCB走线角度为90度到底行不行__images/img_013_fa56badb1658.png)
 
   
 当然，对于RF微波信号传输线，还是优先走圆弧线，甚至是要走“采用 45° 外斜切”线走线  
@@ -278,9 +278,9 @@ Cadence Allegro PCB Editor 16.6-2015 及后续版本带来了对zig-zag布线模
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](PCB走线角度为90度到底行不行__images/img_014_2e84b7ba26c6.gif) ![](PCB走线角度为90度到底行不行__images/img_015_51d069a6484e.gif) ![](PCB走线角度为90度到底行不行__images/img_016_5fb296583be4.gif) ![](PCB走线角度为90度到底行不行__images/img_017_1f30148044c0.gif) ![](PCB走线角度为90度到底行不行__images/img_018_c5bc86d0867d.gif) ![](PCB走线角度为90度到底行不行__images/img_019_b38438d4de46.gif) ![](PCB走线角度为90度到底行不行__images/img_020_1d54e9fe0aef.gif) ![](PCB走线角度为90度到底行不行__images/img_021_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](PCB走线角度为90度到底行不行__images/img_022_de88c48250d0.gif) ![](PCB走线角度为90度到底行不行__images/img_023_3b83df2d253b.gif) ![](PCB走线角度为90度到底行不行__images/img_024_db521919e8d9.gif) ![](PCB走线角度为90度到底行不行__images/img_025_aea384ea417e.gif) ![](PCB走线角度为90度到底行不行__images/img_026_f4924e7a240a.gif) ![](PCB走线角度为90度到底行不行__images/img_027_a58db91dbb3b.gif) ![](PCB走线角度为90度到底行不行__images/img_028_f0edc68b0c53.gif) ![](PCB走线角度为90度到底行不行__images/img_029_3c93e54afedf.gif)
 
 ## 
 

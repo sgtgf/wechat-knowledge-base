@@ -12,7 +12,7 @@
 
 物联网行业中，LCD显示屏的应用非常广泛，尤其是在智能家居、工业物联网、智能穿戴等领域。因为广泛应用，所以今天咱们来简要看看显示屏的接口，比如I2C、SPI、UART、RGB、LVDS、MIPI、EDP等，下面简要总结一下。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0jSsRVticobpfRMhyRWibES8UQ7HvT8Kl6iaWPTmJPvgdicu6U8TLfHKSqSqyeJgia7koz4UthNPdK0w/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\自从接触了物联网_才发现串口屏只是冰山一角_I2C_SPI_UART_RGB_LVDS_MIPI_EDP___谁才是未来的主流__images\img_002_de7a1a28cd57.jpg)
 
   
 
@@ -108,7 +108,7 @@ LVDS（Low Voltage Differential Signal）即低电压差分信号。1994年由�
 
 # 它是电流驱动的，通过在接收端放置一个负载而得到电压，当电流正向流动，接收端输出为1，反之为0。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNj3bVdykvYo9rRxnxcicRXEVj4L3X0sk7XW3Rxicm0O8dEH8siapFYicV5SA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\自从接触了物联网_才发现串口屏只是冰山一角_I2C_SPI_UART_RGB_LVDS_MIPI_EDP___谁才是未来的主流__images\img_003_3e3d2398a04f.jpg)
 
   
 
@@ -132,7 +132,7 @@ MIPI (Mobile Industry Processor Interface) 是2003年由ARM, Nokia, ST ,TI等公
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh7GFnYo6icU4htEI8HPOOeTic3WbrSthPD8iaibZ8mY4MwVpdcrbRyIQx65piajGDdaCK9piaWrCC5cumQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\自从接触了物联网_才发现串口屏只是冰山一角_I2C_SPI_UART_RGB_LVDS_MIPI_EDP___谁才是未来的主流__images\img_004_0e8d12817205.jpg)
 
   
 
@@ -150,7 +150,7 @@ MIPI联盟下面有不同的WorkGroup，分别定义了一系列的手机内部�
 
 接口示意图  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjCwzF1oNOuC9csuMndWe49p3SJbzibdZHuqgDEj3dguehsWXVyG9ETGQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\自从接触了物联网_才发现串口屏只是冰山一角_I2C_SPI_UART_RGB_LVDS_MIPI_EDP___谁才是未来的主流__images\img_005_015bf607c7ca.jpg)
 
   
 
@@ -170,7 +170,7 @@ MIPI联盟下面有不同的WorkGroup，分别定义了一系列的手机内部�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh7GFnYo6icU4htEI8HPOOeTS7jtYaZORXzvA1ubzwBBujib1Fr85bAfnUcOQiaujQ5NE8R7tQ95kWcw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\自从接触了物联网_才发现串口屏只是冰山一角_I2C_SPI_UART_RGB_LVDS_MIPI_EDP___谁才是未来的主流__images\img_006_48b5b5e4c99b.jpg)
 
   
 
@@ -202,9 +202,9 @@ MIPI联盟下面有不同的WorkGroup，分别定义了一系列的手机内部�
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\自从接触了物联网_才发现串口屏只是冰山一角_I2C_SPI_UART_RGB_LVDS_MIPI_EDP___谁才是未来的主流__images\img_007_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\自从接触了物联网_才发现串口屏只是冰山一角_I2C_SPI_UART_RGB_LVDS_MIPI_EDP___谁才是未来的主流__images\img_008_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

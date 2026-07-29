@@ -20,7 +20,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2018.c170726_
 
 面对这些问题，常用的方法已无法满足高精度导航定位的要求，因此亟需对导航定位算法进行改进。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFDTuOxxS1JhbTFvcBXg8HanNjEPMoIj24nQZIUHrw3XoViaibFEmtfp8A/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_000_da7a56404c18.gif)
 
   
 
@@ -34,57 +34,57 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2018.c170726_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_001_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_002_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFzFakyePrNnr0roTANg1TwSTriaQHibE66M8bnLkeTtRng9OIVCicmReXg/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_003_966b475a9fa4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_004_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_005_d32ac631770c.gif)
 
 **_空间尘埃探测_**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_006_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_007_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFUr0vFRHzvibBWF61o2DcJ9oTgEUnmkL5PMQWxINef2RZH0UN3kSLjIA/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_008_a7c0125dc035.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_009_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_010_d32ac631770c.gif)
 
 **_车辆协同导航定位_**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_011_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_012_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFzHygYto9vl4msHGblMuQ436axmGoNFzmiaPe8Qibnb9glOM5bbDr2ySg/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_013_ca2e440a52c8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_014_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_015_d32ac631770c.gif)
 
 **_潜航器协同导航定位_**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_016_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_017_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUF37jrXxKcww345zEjQFfEnx3S3iaqCQgMtn9qXHNtbzdNHhahWQDkxbA/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_018_affd9d87894d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_019_d32ac631770c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQwAFPduXwlYZNjjDTbVPtKluibE0Az05y2qM7rxTLvInLrIvS9at8PA/640?wx_fmt=gif)
+![](有限时间一致无迹Kalman滤波器_images/img_020_d32ac631770c.gif)
 
 **_飞行器协同导航定位_**
 
@@ -104,7 +104,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2018.c170726_
 
 **_作者简介_**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFOatkTs7aTqR3NicIfviazsgqyCHibFC20GASf82SL6HH92QNg6NZqq9nw/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_021_72dfac349640.jpg)
 
 **刘  鹏**
 
@@ -112,7 +112,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2018.c170726_
 
 E-mail: pengliu@nuc.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFbFd0TbpiaiaDv0aS4sNApA1fXJyEia8uicpoRG82vGtjphlfLp3tsPwicjA/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_022_7d4868422122.jpg)
 
 **田玉平**
 
@@ -120,7 +120,7 @@ E-mail: pengliu@nuc.edu.cn
 
 E-mail: yptian@hdu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFQpJ8A2jKm9uBTXiaB3XGbib6a7WqkTjq0ciaOyXOKAVbZSVtibiaePY11vA/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_023_672e40c6ec45.jpg)
 
 **张  亚**
 
@@ -214,21 +214,21 @@ _CJCR影响因子 2.793_
 
 《自动化学报》多年来多次获得 “百强报刊”， “精品科技期刊”、“百种杰出学术期刊”、“中国最具国际影响力学术期刊”等荣誉称号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFwibVfmicGZkGxTgV4SmiaiceFFS0TJY9y0fqEwqwwIP6aic5R3MZ1GDonGw/640?wx_fmt=png)
+![](有限时间一致无迹Kalman滤波器_images/img_024_3dc30d45a4dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFJtYFmOZfpJBAjHXicas9bPYsv7KkUYyMUkBMlQ5ohtmsJ4RCjD4w5Ng/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_025_ed5a58d429c3.jpg)
 
 **JAS《自动化学报》（英文版**）   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFwibVfmicGZkGxTgV4SmiaiceFFS0TJY9y0fqEwqwwIP6aic5R3MZ1GDonGw/640?wx_fmt=png)
+![](有限时间一致无迹Kalman滤波器_images/img_026_3dc30d45a4dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUF5ZGhAKPjF1Ivvg8aaAS6lwNO54sGrfdxIbCvmXEOicZbjs3BxK58xag/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_027_acb6ca5c3ee9.jpg)
 
 **《自动化学报》服务号** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFwibVfmicGZkGxTgV4SmiaiceFFS0TJY9y0fqEwqwwIP6aic5R3MZ1GDonGw/640?wx_fmt=png)
+![](有限时间一致无迹Kalman滤波器_images/img_028_3dc30d45a4dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH468tD3xRsTsoEaa0iaWY0ZUFV41atAJbnCpb4ibiaC7GCUo1w0v0uYicNvV52ia0gYw7nXdrRicGFhqehqA/640?wx_fmt=jpeg)
+![](有限时间一致无迹Kalman滤波器_images/img_029_41b7e27ab968.jpg)
 
 **《自动化学报》订阅号** 
 

@@ -48,7 +48,7 @@ _(前提是  且 )_。你可以看到，当  时， 必然也等于 ，�
 
 # II 不等式图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctiacvd2KPIYfcAMRQ0N3qJDrhOibBqiareTWHo2oCWgA74wl1DibxQ2s3vg5pxTlCV0IoeK6MmaoibHHicI3fiaVALJFCHqS3hRibuMZc/640?wx_fmt=png&from=appmsg)
+![](估界铁三角之H_lder_不等式_images/img_000_0cde3d5e293f.png)
 
 这张图想表达一句话：
 

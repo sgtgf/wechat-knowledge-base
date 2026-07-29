@@ -7,7 +7,7 @@ _引言：_
 
 在射频和微波工程领域，精确描述电路与系统的行为是必经之路，随着工作频率的升高，波长与电路尺寸可比拟，传统的基尔霍夫电压电流定律和阻抗参数（Z参数）、导纳参数（Y参数）不再适用，因为它们难以在分布参数环境下进行简便而准确的测量。由此，一种基于“散射”思想的分析方法应运而生——S参数。在使用CST仿真等场景中往往避免不了与S参数打交道。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAziasFqdaDZzMYl3vG9nMM3LB83RWRjiae6hoqpWOWdsVO1pIAIaLrYTYeJlc3cEQjRBX0wnvXAUAiaxiaorbmguuzQHCWuuxtiajs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一个初学者对S参数概念的理解与梳理_images\img_000_b4c065f52970.png)
 
 一、什么是S参数？
 
@@ -15,7 +15,7 @@ S参数，即散射参数，是表征线性时不变网络在射频微波频段�
 
 从直观类比来看，这如同高速水流在不同直径水管连接处的反射与通过。从严谨的数学描述来看，一个N端口网络可由包含N²个元素的S参数矩阵进行完整刻画。这些参数不仅包含了回波损耗和插入损耗等关键信息，在多端口网络中，还能通过特定的参数组合（如S13、S14）精确评估近端串扰与远端串扰，从而全面了解阻抗匹配、信号完整性分析等。以下将将对S参数的定义、矩阵构成及其背后的物理本质进行分享。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBib1ibKGibQEBTGnu2LxdFCbwAIIETG2R8XCohianqGibWn2UBIDpa9Rm5mmicjI8uEmLqaNyyictWuHum9sBCWXsYQyoTz3tarptD5s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一个初学者对S参数概念的理解与梳理_images\img_001_25ca596ade2e.png)
 
 二端口网络
 
@@ -27,7 +27,7 @@ S参数是在传输线两端有特定终端的条件下定义的，这个终端�
 
 二端口网络参数表达式如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBHb06NyNHazuSTXkzUHPbzMoC4gq7pTWhnRQBAicrAAKSGXb1rM5wiay1YibJEOKDNRXyCPKD72x7fXddiaHuCNibGw14NngJuibZHs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一个初学者对S参数概念的理解与梳理_images\img_002_58ccd0df3204.png)
 
 正向测量（端口1激励，端口2匹配）：
 
@@ -69,7 +69,7 @@ S参数的幅度值通常是0到1之间的数值。在实际工程中，我们�
 
 例如，S21 = 0.7 对应约 -3dB；S11 = 0.1 对应约 -20dB。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBPaSO6lK0B0uc7OjqwAOhWIfSg9Nhl5Bud9p2H7e1ZZSPrklXyic0ToI38ZV3kWQ5reNCh6wghBuw2iclhQxkfBDxEPAhSCHl4M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一个初学者对S参数概念的理解与梳理_images\img_003_690e1624847a.png)
 
 dB衰减对比表
 
@@ -89,7 +89,7 @@ dB衰减对比表
 
 四端口网络S参数模型如下图所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDCBYYWpf8Uyn1GiaOPFNNGQLVEhUz82cPoT085jlkB0cvOVGT0BtZJdULDZ6sU22UkwZQaYcTsmOsP74VThFwaSFfCoQOatlCs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\一个初学者对S参数概念的理解与梳理_images\img_004_3e7eab041a73.png)
 
 S11, S22, S33, S44：分别表示各端口的回波损耗/反射系数。
 

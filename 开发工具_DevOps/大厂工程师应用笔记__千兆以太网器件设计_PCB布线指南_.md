@@ -70,7 +70,7 @@ PCB装配上的每个高速半导体器件都需要去耦电容。每个电源�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxcLPrhFXnRJayozuf1De028gJrL0XUtpbtr1yXFf0pI164nuhhzLCmw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_002_155d39bfd99f.png)
 
 图1 PCB旁路技术示例
 
@@ -104,7 +104,7 @@ PCB层策略：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxRcRUJVZho6L5yPqkVIH2I8zSUH6u8OTRQGkv7kq1p5Bbyv7ArnNEicA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_003_f787ce2632fb.png)
 
 图2 信号穿过平面分割处的示例
 
@@ -182,7 +182,7 @@ PCB层策略：
 
 ➤ 在GND标志上打满过孔，以确保到地平面的热连接和电气连接良好。地平面应为1 oz或更高值，以确保器件具有固定的GND参考。这将有助于降低GND噪声并为器件提供理想的散热效果。图3给出了标志焊盘中的接地过孔区示例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9Rx0UHldCTf8msONJHpEiaRcmkRkcYLAIcdpeyviazkHapIj2zNfAoaUUoQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_004_e6f9f7a9c759.png)
 
 图3 标志焊盘中的接地过孔区示例
 
@@ -226,13 +226,13 @@ PCB层策略：
 
 ➤ 如果存在端口串扰问题，则可以使用上文所述的相同分离技术来分离不同的以太网端口。可以在以太网通道之间插 入地平面。应使该地平面与任何走线的间距保持为电解质距离的3至5倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxTINs9vpVf53bDLQmwDiclPCnOvqajI8sjEYLp5yNsUibyUYGhIwsluicw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_005_8a90ec13c34c.png)
 
 图4 芯片到磁件差分对布线示例
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9Rx5xgESdXIPaXQc3nu6GOa5WjO2AXib5cgkqbDUsICN10Qz4rC4xb6hfQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_006_d4bb21437f93.png)
 
 图5 磁件到RJ45差分对布线示例
 
@@ -392,15 +392,15 @@ ETHRBIAS/ISET电阻设置内部参考电流源。因此，ETHRBIAS/ISET引脚是
 
 ➤ 如果允许 ESD 进入数字地平面，则可能导致数字接地层发生“接地反弹”。这可能导致意外的系统行为和/ 或系统 故障。应尽一切努力确保不允许任何ESD源进入PCB上的任何数字地或电源平面。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxGuCQ1VE6uvV5q74Z3THexAn2viaX7WLJeAiaspVIuCjgIrIncDyBIUew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_007_429f33c64030.png)
 
 图6 高压势垒—— 延伸到磁件的中间位置
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_008_2e84b7ba26c6.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_009_51d069a6484e.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_010_5fb296583be4.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_011_1f30148044c0.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_012_c5bc86d0867d.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_013_b38438d4de46.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_014_1d54e9fe0aef.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_015_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_016_de88c48250d0.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_017_3b83df2d253b.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_018_db521919e8d9.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_019_aea384ea417e.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_020_f4924e7a240a.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_021_a58db91dbb3b.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_022_f0edc68b0c53.gif) ![](大厂工程师应用笔记__千兆以太网器件设计_PCB布线指南__images/img_023_3c93e54afedf.gif)
 
 ## 
 

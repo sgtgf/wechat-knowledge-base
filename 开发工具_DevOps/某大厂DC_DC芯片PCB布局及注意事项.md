@@ -14,9 +14,9 @@
 
 首先，以最简单的BUCK电路拓扑为例，下图（1-a）和（1-b）中分别标明了在上管开通和关断时刻电流的走向，即功率回路部分。这部分电路负责给用户负载供电，承受的功率较大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6ia1zGeS9WtpxqnoEsnLDfTLge10nib8A767Jgl1ibO8qL8SL9Hia9oAXzA/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_002_231edd83fa46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6FGv8zAv4fZUERiaibDf9Go26L7fLv3mD7huQeNdNgib5TWYsic7uibFXBicg/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_003_f6118ef5c383.png)
 
   
 
@@ -32,9 +32,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6VDvyRFsqdrf2AVEvlkiaLRX6qh30W3QYaNdkaibNNoEGibATlTd4rLd1w/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_004_281651e458c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6dq8BZKWD0ZWXI9cw2uy2hcVRLTQeRQ86mkcgYjfwpzaTbQX0C189icw/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_005_e640abb414a2.png)
 
   
 
@@ -48,7 +48,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6LDSo17Yhg7xmYzCiaXmf8SL6PKncKLu8UL3cVr25oAiaHvJmVp3PzGqA/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_006_93f585db66ea.png)
 
   
 
@@ -62,7 +62,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6ujs7fZud94vbkAcDibcQLJWpT5phnoMQsZ56LBVjib6sdg7iaMLtVyic6A/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_007_e06d96f68052.png)
 
   
 
@@ -72,7 +72,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6icG8za4eObfeDl1M7lFMAEgN1Q6trapSHHHReuoL8EbP7RSlRLcNDyg/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_008_494270401ff0.png)
 
   
 
@@ -82,7 +82,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6KB4cgsTY5FKyib6ypJ2EBsCF8MURv39iaTPz5qXkc2xYTvYWVKGEWxCQ/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_009_a6d20df01862.png)
 
   
 
@@ -96,7 +96,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd61heNcKhD2CPYLWdbtRoKqWHXuahRDdBnTXUwr5sE0QyibSfZgKqCH5w/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_010_b90be78ac2f4.png)
 
   
 
@@ -106,7 +106,7 @@ FB 电阻连接到FB 管脚尽可能短， 减少噪声的耦合。这是芯片
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6Jz80rJibrG1HpSvFKMuibUOk8PP2DQ2uokcsxBoMiaBHtaXrvjewNu4FQ/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_011_316d6c653c22.png)
 
   
 
@@ -116,7 +116,7 @@ VCC 电容应就近放置在芯片的VCC 管脚和芯片的信号地之间，尽
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6lh9cw7IPdputHzmWyTe4D2nBL836g7ydDcu1ooRfiarIm8ezK3hNqgw/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_012_9e8c4955a754.png)
 
   
 
@@ -124,7 +124,7 @@ AGND和PGND需要进行单点连接。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6FyXia1Qcwtm7JekyoZVV30nMD35uBvl7MA3xxBw5a44r7lEGPHKsYeA/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_013_e32cc8d0ae0b.png)
 
   
 
@@ -134,7 +134,7 @@ AGND和PGND需要进行单点连接。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6cKIcG2obSopA3C0vzIgiawqiak4NB1BiakJ6h2DZ0fmR4fljff8MaiaKmw/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_014_2ade188d747a.png)
 
   
 
@@ -144,7 +144,7 @@ AGND和PGND需要进行单点连接。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6w0iazQgCHpAGkIMj0ub9lZ8wFBWKOfTXTSQ94KicXXFG07Ct8VNYbxhA/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_015_806015c77678.png)
 
   
 
@@ -154,7 +154,7 @@ PCB layout 中走线和铺铜都尽量避免90 °直角 ，走45°或者圆弧
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6Jz9tLseicyRJ5DUTE2vEjVsqmwT2ZL3xHaxzTuJqq7ME3MHJf9bL4Qw/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_016_9bee757fc7f5.png)
 
   
 
@@ -166,11 +166,11 @@ PCB layout 中走线和铺铜都尽量避免90 °直角 ，走45°或者圆弧
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6DOqFBlaxSHBr6Ecb0gherDUqhic7T7gyLLNbZsuEuxjib1j0PtJ8ic63A/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_017_1fc1defbdb3f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVibNrMdwftzY5brJatQicd6C8FSuMFPYHXWbRZPc1NgQe3XybW6U0eshBCp1GsRTicyw3YTywyhgJQ/640?wx_fmt=png)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_018_fc96d8421ed2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/FJtasAibLFa4oib1tM7IDzzGyibTcYzk8YmCTAh1mjcnicafkHgKauhLMLeRebXvLryRtkSiaz3Dbia0WiavcahbVhsOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](某大厂DC_DC芯片PCB布局及注意事项_images/img_019_cfdb0d0e4f9b.png)
 
 以上表格适用于简单的buck、boost电路的PCB设计，多用单层或者双层板即可。仅供参考，欢迎补充。
 

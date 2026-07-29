@@ -4,17 +4,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ywzcbwAoQoU5NrM173cq7Q](https://mp.weixin.qq.com/s/ywzcbwAoQoU5NrM173cq7Q)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_001_cfc30a4da041.gif)
 
 DC/DC电感下方铺铜，你是不是也纠结过这个问题？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeib8tFeVaJtMEibTbJib7QRzWQVS7xibGk0PPQw9IibFdKD2icmHoDwct8MGJtuaibrC3fkViap9DAibvy8MXHoL29O1ZibvL8JRVVAzW0I/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_002_77e2d83c035e.png)
 
 反正我是见过不少人纠结。前段时间群里正好聊到这个话题，大家你一言我一语，有的说一定要铺，有的说铺了反而坏事，谁也说服不了谁。我翻了翻网上的讨论，发现这个争议还真不是一天两天了。  
 
 先说我个人的做法吧。我们平时做设计，大多数情况会按手册推荐的Layout来，这么多年下来，电源这块很少出问题。所以我的一个基本思路是：芯片厂商给的参考，大概率是不会错的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafmIJR8Ekkw6J79W2dXKFZ8iammibwia4krnibEX3iakYUibnBoLYp7y5xeGf4C4wbIAAtJYYaQ44pplSayoDVTAoqcaB3KokJlhDXsE/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_003_8fb632614a25.png)
 
 但这不代表所有情况都一刀切。下面咱们就具体聊聊，什么情况下铺铜是合理的，什么情况下可以不用铺，或者需要额外留意。
 
@@ -26,11 +26,11 @@ DC/DC电感下方铺铜，你是不是也纠结过这个问题？
 
 反对铺铜的人，最担心的是影响电感量。尤其是对于非屏蔽电感，比如工字型电感，它的磁力线是完全暴露在空气中的。如果在电感正下方铺上铜皮，高频磁场会在铜皮上感应出涡流，这个涡流产生的磁场方向刚好和原来的磁场相反，相当于削弱了电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niac2hEbUEiaPticTuHeZiacUYCkpiatQPeI2V8ib8vz4jGicDyggOicwVXoNndLaQ44aUjHFNlb3xchPmIGAtqnnOSx1W8IGmPsQm7bvBY/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_004_4bca4abf3ff3.png)
 
 根据MPS官网资料显示，这种影响可能让电感电流的峰值增加约8%左右，也就是说电感量会有所下降。另外也有人担心，这个涡流噪声会串到地平面上去，弄脏整块GND，影响其他电路工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafLldvZpQzbBwufto6ia0UmwKgl35EfLN6jdJmzSNK0IJwiaSlDlibUFwCPJdHl6zWq6kVaAtuNux4pibbHPiasZiaIRHXE8FbIkwoCc/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_005_393004720ce0.png)
 
 图源：MPS官网
 
@@ -49,20 +49,20 @@ DC/DC电感下方铺铜，你是不是也纠结过这个问题？
 
 典型代表就是工字型电感，前面已经讲过它的原理，这里不重复了。使用工字型电感时，铺铜可以压制EMI，但要接受感量下降，可能需要重新调整电感值来补偿；不铺铜的话感量准确，但EMI就得靠其他手段来处理，比如拉开距离或加屏蔽罩。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafmLibQWNAE8TjMxiar1zAOy2ngvUoB1f2jG1kFO7exK9MbbGNlRBicFQnvMta1sNqxwvGaY8pW1DJW5Q6VH5oo24azaHJBLM65BQ/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_006_ddf843a62d7f.png)
 
 **第二类是半屏蔽电感  
 **
 
 它是在非屏蔽电感外围包裹了磁性材料，把大部分磁力线锁在材料内部，只有少量从气隙中泄漏出来。这种电感底部铺铜对感量的影响已经很小了，几乎可以忽略，而铺铜带来的EMI抑制和散热好处却很实在。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadA7eExHthsDcKNInVvVApexNeXNOicmXszm6s5gRJwxuwG7y6WvnIFW9zNa9ysMqXajgMtZJZ0Xiay9IEFsAdLn4tA3xZrewaxs/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_007_d4f40bd8afbe.png)
 
 **第三类是一体成型电感**
 
 这是目前性能最好的一类，就像文章开头说的，咱们平时的项目几乎都是用这种，所以铺不铺铜这个问题关注得很少，也很少出问题。对于一体成型电感，铺铜纯粹就是为了散热和辅助屏蔽，没有任何负面影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaebfVq3ibe9dLFs5oTbu55QZxPr4TqsIrjvU4w6jiaNyoIpNviccib2TnB1lfIllyr3N8GtibBFZnVTxicXNInvjBTCXLibkZoDVqEfy8/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_008_9173269e4430.png)
 
 从实际应用来看，现在大多数DC/DC设计用的都是半屏蔽或一体成型电感，工字型电感已经用得越来越少了。所以你平时如果没特别留意这个问题，大概率也踩不到坑。
 
@@ -76,7 +76,7 @@ DC/DC电感下方铺铜，你是不是也纠结过这个问题？
 
 **只有一种情况需要你额外考虑。**如果你确实因为成本或其他原因，不得不用工字型非屏蔽电感，那就要有意识地做一下评估。铺铜的话注意电感值可能要微调，不铺铜的话EMI方面要留足余量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacpGviac2CnKMvvEibgQpj5JvbFc4ndyXRBM85F9kfMsx6tq9gzTia8YdZxhIgldgzn6mggCqDNdEpL2BeFjqBBsdlyFRDbbpYsAE/640?wx_fmt=png&from=appmsg)
+![](DC_DC电感下方铺铜_你是不是也纠结过这个问题__images/img_009_e2d73ffb771a.png)
 
 最后再说一句，无论铺不铺铜，**电源的布局才是真正的决定性因素**。高频开关环路的面积控制住了没有？输入输出电容放对位置了没有？驱动回路的走线合理吗？这些没做好，电感底下那块铜皮是铺还是不铺，根本改变不了大局。反过来，布局做得扎实，铺铜那点影响根本掀不起什么浪花。
 

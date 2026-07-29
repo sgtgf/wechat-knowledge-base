@@ -3,37 +3,37 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/XD8Qx0k8zhK1DJZaXDlpkA](https://mp.weixin.qq.com/s/XD8Qx0k8zhK1DJZaXDlpkA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmhbVsjXsGdAoJicAGStYZmdsqztbrgaZVefnwzbAfhw8icTFRXQj8g6xElu8W2urQhoXaVcTsL9oBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_000_fdcf77a87ee1.png)
 
 #       深圳爱仕特科技有限公司推出新款SiC MOSFET MT7产品，采用具有驱动器源极引脚的低电感表贴封装，具有显著的性能优势，使自主SiC MOSFET产品阵容更加丰富。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmhbVsjXsGdAoJicAGStYZmdZRWxiatwlbR691o469lgV1CgQPpib1Gqqec0HJXSyiaOFDEIySI2MoA6g/640?wx_fmt=png)耐压1200V30A，内阻80毫欧，ASC30N1200MT7规格书
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_001_fffdae9f1e3d.png)耐压1200V30A，内阻80毫欧，ASC30N1200MT7规格书
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmhbVsjXsGdAoJicAGStYZmdFDW8xcanjQxDs2yuo51KCOSWcYZwj5huO1ia98WVhc1grDKlpb2KGSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_002_d3be0ca4499d.png)
 
                     耐压1700V5A，内阻750毫欧，ASC5N1700MT7规格书
 
       目前爱仕特MT7已进入量产，可应用于电动汽车、消费类电源等领域。MT7采用TO263-7L封装可以实现SiC MOSFET源极引脚的开尔文连接，栅极驱动相关的部分和主电流路径不再共享主源极侧的电感LS。因此，可以使器件的导通速度更快，损耗更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmhbVsjXsGdAoJicAGStYZmdMhjz7lUha8TPQPUwiaZOAed9ibh7pW4OkGCWDib811jllOH2zG8zDTZQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_003_ba69d4c2aeba.png)
 
 TO-263-7L表贴封装及其寄生电感
 
        另外，漏极引脚和源极引脚的电感比TO-247-3\\4L封装小得多。由于漏极引脚的接合面积大，另外源极引脚可以由多根短引线并联连接组成，因此可以降低封装的电感（LD或LS）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmhbVsjXsGdAoJicAGStYZmd3D5FKsDVNeUP9jqn6rCheBXpXIllo7F76ADJ7Kh0jHIFUynXJRjayw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_004_375608aecef9.png)
 
 采用两种不同封装的相同SiC MOSFET的开关动作比较
 
        爱仕特SiC MOSFET采用具备驱动器源极引脚的低电感表贴封装所带来的性能优势，在大电流条件下，由于栅极环路不受dI/dt以及源极引脚电感导致的电压降的影响，因此采用表贴封装的产品导通损耗大大降低。封装电感的总体减小还使得SiC MOSFET的关断速度加快，显著降低了器件导通和关断时的开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmhbVsjXsGdAoJicAGStYZmd8RZc0dGS33Vo8QhIKicnlSdM7bscQFvicR5LibRyk2KLF0EW21ib0GmUNA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_005_3e3e56b9186f.png)
 
 采用TO247-3/4L封装和TO263-7L封装的爱仕特SiC MOSFET的开关损耗比较
 
        爱仕特产品阵容中有额定电压分别为1200V和1700V 的TO-263-7L 封装SiC MOSFET产品，更多符合汽车电子产品可靠性标准的车载级产品也在计划中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmhbVsjXsGdAoJicAGStYZmdFQpGYCH1ja4AqOTooibJbgIyrfhYylM8lvEUEvicWuVkIF4HH0fSuttw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_006_f408bb715015.png)
 
 TO-263-7L封装的爱仕特SiC MOSFET产品阵容
 
@@ -49,16 +49,16 @@ TO-263-7L封装的爱仕特SiC MOSFET产品阵容
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_007_cd2fc29ed793.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_008_35fc065fe60a.png)
 
        专注SiC MOS管和全碳化硅功率模块的研发和销售。MOS产品具有更快速开关响应、更低损耗的特性，完全满足车载充电机对高效率、高功率密度、高可靠性的要求，有利于加快光伏产业发展，助力双碳目标的实现。随着新能源替代加速，逆变器向高效率、高功率密度、高可靠性等方向发展，具备高功率、耐高压、 耐高温、高频和低能耗等优点的SiC功率器件将迎来发展新机遇 。
 
 公司自建晶圆厂，将推出更多优质产品和服务，携手上下游产业，加速能源结构转型和碳中和进程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_009_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特量产TO263_7L封装Sic_MOS管_碳化硅功率器件的导通速度更快_损耗更小_images\img_010_770831a45f05.png)

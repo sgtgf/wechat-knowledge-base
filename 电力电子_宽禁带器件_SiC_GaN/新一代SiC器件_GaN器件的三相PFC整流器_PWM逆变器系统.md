@@ -8,427 +8,427 @@
 
 作者:Johann W. Kolar et al.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6I7FfI1OpU9chE8toYfkc64QBzOfZlt93FJHbQNDrcJkFY6uGicez0VMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_000_bf13b486b2b7.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXC8DMIU4CZYyTM1An7LEzRXpCX7Me8pLpFpC4ZSNfz87ujmNKXic3Dw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_001_88c737978d71.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXykUMuOmlQKPUicCPDD0Ij6DVRXA3NdBvWAyonkvEu9GFoQRfddiccBg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_002_88f7327b2e0b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAeRgCL0mCqSxicWY82ViaY8h4iad7jfqLmuntMJW8icYl6vicmvuB8EUlvkg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_003_c7fde4803481.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0VEwiakqeKS6oe25SqvhI1xeTnZGlbRhVolKsZGUGBgWCd3HllXdCbw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_004_791748d1df80.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtf7sVBNHKdQPyBnUF6fAQgyiaGlvVicxO1ELwdUtN6X1L5nIsMj3Uicsw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_005_3f02bf08f606.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9S5YlHY0HTmKufNibyHibicmeqyMMURPYR8m7MVeuQD2cLKzfW7A8aBgQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_006_f142ae1c1952.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9ODw0XcnNtCylyDuy9Sic1AjGpANyKh8k27qBiacqNC9PxafeY138knQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_007_8a1ae379cfd1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA4ZRiaPXAicJXAMCMticHAR3fRBiapLuvnHgxic9vjtP9a0CqXbpz3iaRlW4g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_008_8f96e8dd6232.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9SqeFQzqbfoOuzhnQnoOS1jJOzOfokensIrEibhIRV6p4DDgIez6ib1Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_009_e2932e61203f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXWBaLRDsVB8T18NbibibgA5QqWv8ibBwumrIIryeLY8aDNYDg0zUicdpbA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_010_45475d58ddba.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdaSHpXTFPjNmpibHrk2OTDhBV3LLEpdwkg0KCz1XQ1qMpGZ7Zmn6BHQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_011_68ac7853bd6b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA3I3njn67nHMOAGDJb8iadeJ5L8CN2pqqS3fickicZ2yLI36IblrQIYhow/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_012_bfbb475ae472.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASKlou4PfqFB0QOGhNDTqwFt5QDKEzSGKCeibokVJG1pFh95gr28K1xQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_013_ac88d974b72b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAha3ftAehDwNE7sGAW0P6yDa4tCX4fj0ZyLV3KibhYu0HYLUh3TCVELw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_014_8a58ddf5fd4c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtvDyD6CEFIh3wzag2USCs1M2EvwYwBjptzQg8BOWAuibDjMicVibniaQ1w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_015_6056ad474060.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAPsFVKmefUa3cLLaQclKPRvicX7reb71GkJtVeaBcGpoFsZZkwfb13iaw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_016_1d1a4a787ac4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAFpQGdm61iaGTOQbTPnUbOoJd1ecw5aOFWW14NOdCJn1RfduW3Vww7vQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_017_01c175ca46b7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9GXhzIYM5RL5l4HFzbJb9QZpGDCjKnRNIww7hVLz8qqJYdHHjCH0iaQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_018_8b687916bc6f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAsblPwL5UCEicH5ZYl1o9C6Ux8p8nBmWlIVs9Qazn0p1Q2l6fpHfNrHg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_019_f7738c6339e4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicApB3850xfZCRmAYhBI0SWg1rXAYsEZXX2gLEticfCnk74ZC0QTmODqfA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_020_8a00ed34218b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWHsokibIUia2QdCobFnTt05Qk4XvJIQ91hKme5Uq3qu9Zo2iaNxdz15TQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=20)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_021_b7374914e6e5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9YFGQloSMwbjU90MwxiaWtoENA21NfC1RzIaOdELNKUPay9dqia8E3Ig/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_022_68f6fdd20bd3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQk3KQWOlySpLwqTy9JQj2WGFgUlDA7CCbBUB9IhugskFMicuSChSVwA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=22)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_023_412a23923020.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAHFaFZxgK2y8QcaPaF4kfSmtLDnHJop9SFaVOcxVZwq3mgbzZ7kFQew/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=23)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_024_d7e78953bb40.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAE36mSUibgjPEYBWUlTWicvVZhonoT9S1yRfjpibGJibiaKSPYfx0s4yjmow/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=24)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_025_98e7b9cbc8da.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicADp7ggaRg3YCEkIhnTYQU0OMNBxUGn3209eqlic6MvLMcD6QYibOg5mqA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=25)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_026_8d7eeb9ff526.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA3CXQpJtS7lbJmYicSH5eOI7wmvtnQ1u4jfN58ziclJcXrVt20kSSnJ3w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=26)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_027_a845fdf3c83b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWSf5ajrUf3nUxAicnlRNpqpNZUlTmPERvmcxb3oXYsfzFDICF9dnichQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=27)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_028_1e57779362bf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgoFllzb8gSN5UIaXTHDpicYZeknROrSZqbXxvkvSW3WLWxNZYYCsJjg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=28)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_029_41d4173c37f5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAibdk4THbxiaBgycyl5mM0gWia4wko6EoVVXE9s242OMt0NGwZHlibvIvpA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=29)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_030_87faa6f561f5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgmxrO2XWyBqq7a0wibhkcB7VbMwLVEwcJuxcd8hQRscFzfkmibWlSlwA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=30)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_031_9705a2c21059.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwtRSkl3enk71furV2iaa2yYOSltmicSgyXb3e28BsW0fJ1WibfwC2ibiaUg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_032_81c51bad999d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKTo6S7Qcel2WWIlhHNtvOrDekHIsLecPicSaoHmbZROkaoIvUxDLiaSQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_033_bc6528086e09.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAAL04yTY6GDdbsA1fmcwGc2MXkqYiaiaZQYTjemBExcVw5vk1MgpJNJdA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_034_a8b7ad356917.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVf45XaicqhZRtgjhfJiarjrmtxK6lEcqwKlID82L2r6RppbX259wibIicg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_035_fa4682931ca2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKrr2SsMYWG1qh1eK3ia0tu3hDP1gJ2chQ2K5rLOYRxMe79mUYMBeG2g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=35)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_036_d4a6b0ee610a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA6rhWN4rswcIysUax7WzjSqtXO7PibbYPjoweveFjibzRvJztUqHDTZsA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=36)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_037_af82798b9812.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAZ4h8fVOCV71ORqtPftYgSJYotreUh3L3OGhXguYySpwhwyXvm6ZJXA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=37)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_038_a1852ce08188.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAMvJ08w6GbcLGibXwicUvmcnTvDiajSN2qVoLVM9YLmYyxuueico7TtTuzw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=38)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_039_b254e1b57d31.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAknR54k2icECFYZ686TKZTYvHGd0gknjd162Lib5EbSIIRZOic3pzG02Dg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=39)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_040_913374826963.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAhNP6UovU1JVES8aWCiaaZDaycwWGPMAeicLMsbAk6HYbhQgctJwQtj5Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=40)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_041_d3267699d6e4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwEI9gvRbUpWpbKPPmsRzhZhNa7xKzO3pZRX1ZQRqnicEiajuicrm7FygQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=41)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_042_2834ffa781be.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaribHUym8D8C5ibfcDDrib8chcia6yypw8muf2OFfk2cQacbhFL6L4c2yw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=42)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_043_c3e7e960acdb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicARCIByqL3qcic6RgY1VXogReq3dLcVyjHG3KQZ5D00m327Sw8AE63zVg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=43)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_044_37c8ea07d115.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAbASOQEtzgUqhMtxhOibAQ8p9p6o9UDHO7KKITZGR8S4t4mD5s7ZcuHQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=44)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_045_9fa769046b16.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAcV0XAibsRfqnD9sIA3YpIicStMy0mY4aXW8FiacxicU6XaOota0yG5WZzw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=45)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_046_fab44d3d9c9c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAc3Dp88u3b7ic7S1TTcvYmT2jwAr0Cg5gbgw9cVwvm5OBibI478RHS9PA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=46)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_047_104fddb3c1b8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAEtUxMh4rboZbI5J7d9VJXGd5Cv2wMImGiaC9WrShXbicQAQfGWtHNsJw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=47)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_048_b254ab201992.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaSVry28BHdy46bZ2xpsoqIvr2DGyQj8y3R00fI1fdNcBn1YSn0X38w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=48)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_049_e46c59c4c55e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAib1MsicUxw4awC567PWAkp3L2UjzlualibdgGZK9ia4bAibIiasm5HLF270w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=49)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_050_46da0b60ef88.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAGJN8nSkaibV4abbLunHsRkkZpOR9CphgzLyb2evuBkwWGrJ2ZXBVc4Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=50)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_051_c2e8d78759b8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgB97vKxIT6YzV28rqgQiagsRYIAmvQa4TwM2T9eQ0WWcc1Oy4cbGbug/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=51)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_052_b9836ce6d96c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArQXkhtSbbaz38tiarznNN8WEdFvSdh8vSVZg3yiapF81C42OO9fM8A4g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=52)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_053_efa186dba1de.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAB0Picdtg8RW52miajXgGsbk6OoHA6ia3At69nJRK0yX33avAZSuvHZlQQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=53)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_054_490fcbce15d7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAr7zs02GNhZjNDdt2URSqd3WdBSJFtC1iawc7FSrnSYM3poqxqsTicB2Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=54)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_055_c90c4ef99262.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAP3XLxyoicy2RZPWKDTMBLHRQDBEnqsT24QJ3xibLQibH6ekqrOY3NfJzA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=55)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_056_9ece28374d1f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvOVYsRRkic87NgB0HZQicsEAEy3pfIzplKUwRRBv0nvbC8rlKHvvOdLw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=56)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_057_86bce50722dd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAP0ng9tq7XrsOPPf99MUPhGVXvPUl1bWkiamxk5VFOzeBKtoo2IKvhwA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=57)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_058_92ae3cd9b72f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtFGReH9ic8QZhhvTAqRjqtWKicN0VpCJto9Eo9ovgDPhguIiaGoTicVLCg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=58)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_059_2f7707a0eb1b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0SMcUyocAUC8ZibwwIRUwiciacnRPtILfFCrwBDFibEIhhkRuXiaynpFicuw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=59)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_060_be10b7c4f3c6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicATltr2I6nb6plO957qBEczXTicnibGMMHWo6p8akiaicd0xlm56l3O1RFPA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=60)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_061_261b3bfec61d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQLQSFb7Ic57smmzOPPbDq5nQj63apKgPtvemfpxhRN8cXF5hVP7jFQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_062_33e412fabbbf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAewL7fTgicuEF6QRia8ib8ic1POSOlSsxss7VxMwmUgzJqlj5jjhpib4dujQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=62)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_063_8f924ed6e2dc.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQ2fApTIuMypll51VWExiaapFw4OnHxhmicBia1oXiblrwdnAfVLcYWlXKA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=63)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_064_2e6beb0b75cf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA19YSLMFC9eryExjGiadMvexpFsFpbbOaaGXXwGGBGWGZHcmTQVWYdaw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=64)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_065_bf123f4f9cc8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAt9ibdrQnKWhupNtGOGsJKTgRJsH7YzzHOenjxSBBicc9YVtlo2fFWGBQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=65)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_066_a2a550eb3e10.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7YgwQrCFIgs1CLyjf2T8iciabZDn3uvnlvm1jhBVl7IHtGnfnqHxX6Ag/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=66)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_067_04fbcaa626fe.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAYyeYNg4ceKf6k2OabXZfB7SxXKr9ZM6M4RAe8EfPOGfjJoJA0qy7ew/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=67)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_068_4df4a995b403.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjiaT0b83hC0I9RFBTtA5kiaUkJZmiaD1aPPLA6IN4GpCs0Dkuhb3PuUNw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=68)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_069_5a6213af5af5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA08a4enOVDsWlB6Ee6a2XNp0sMfTo8tia0twbricqqPmdTNP8OQiadBMPw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=69)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_070_bc003bf7099d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAmibVrtsYKhrfuSPKFCFnJdgeWT7by2r5Cu6D3QZ1QGicicM8fGhURuib3A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=70)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_071_3fa4a9ed917c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2ne9xy7gylB0z9Nhvt4ZmthNWmm9RcXqKNnfHSoCrBnFmWKK38CWjw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=71)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_072_4a4b144196ce.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgatgHZS3ng1CA1U3lPmOBOeU1mvsXfdKUdDmlmCibtcPtN3WGnhCa3g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=72)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_073_ac8cab87d651.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdFNm2AEVdV7PppqNvia9kFSJzSfLHzxv2OIvezbtqwm3am3A8kMZDfw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=73)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_074_d262d6cd2a53.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAUS75OS9XfLruBGS7NMcONQpXS8luicICeOgBBO74ByI5XtIl4qwQLvQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=74)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_075_e6bd173caf36.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAR1JEf59E5tVqOk7Gvm8NpKrFHVticFmtXiakePK7RP7jAkWsoKNlD0cQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=75)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_076_81a618ba3d3c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAkAwoswHIygqtgLXkJcZJbTaFfYInpnNwmniaI7DbaMR35X7uv3hsyWQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=76)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_077_4be5bd9a7ae8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicACpmm0Gl5P2zZDRrzB6GS4wnVEHr7rwVQxkGEC66tdjgOswuSHNzGNg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=77)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_078_eb4f834adac5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArKL7BvHcmsBfx9QpbWCAAqFOw7z3KMMxjxDKibibuZQ4VI0ziab6Dqk6Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=78)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_079_c994d0fb4557.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAJibbOribQlANYdZJR2CdW9CxWNJ1b1POt9WTmdHBoaW8urib18uw10zJA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=79)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_080_504a93c693e8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicANhOmGMMODvyWkTBRVSmF4aTemCO12kbxcrUbk5XRWASqFiaCA9IbXIg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=80)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_081_57ea3d999cc6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAx6licXz8HJgLOdx9xEOyy7jn3Pt0NmvEgSibH6ZRomt623nVsSKcPMXQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=81)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_082_a300fd8efdc0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAibzibzlN4rdWMOOwUX9DdoH39dXt9y2eE3roXYjLre48XicUVgCtUkibYQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=82)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_083_a136d6bf4fb6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAlzBlne6wobst433PYOrLd6Fs7bgm0bgaDDVh6o8rfdbgp1XY0icEJOA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=83)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_084_741db9703a34.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAn8KGibyWD3Z5kuQJUtrb1CJodlnMw76kA3Grxy135QUn5k80XDRGEdQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=84)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_085_fe8e953f1604.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXYohuqbZJQpIiaqShotbcp6yNvbNttG6235JujkG5f7CBIpcvKhAPoQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=85)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_086_1830e8e99e8f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAH8tFHqCuM3mqeictgyVmNEv8YYjltyJRiaPhP5uZHRXpL1QPmfaur7cA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=86)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_087_745a7a8e39f4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAH3b5Zn9etK5ZmsZDblpa0vjIoG2Yysxzt1wcoIxyb6ibJN6afK4vnvQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=87)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_088_5213b0e761d9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAkoSIODfRkLIcZqG0ic220NbVbuWyib1obWAic7VlUWR6hemsDzTPnvWow/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=88)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_089_90b8fb5cbecd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgt0AeSaBHaaqFGHkCPblVu3V0U7wqzHYuUnGEmQ99d8ZWcaSia75ricQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=89)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_090_8dead0e12799.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAzBKLoV6fWtboEw8hNb5USTLVZxMAeq7HnB2dPWjyVC3hg9CQiaYVNLw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=90)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_091_59dfca223bf5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7W49ibXCsuJa2CP2qibrmMNGZicAJp7RHE6hWpDWibfUFDuond8XQzpYJA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=91)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_092_c91cea35b429.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAibcFXuc11joUOI3Iq7dpLPDm5twlOMBaDDjJFQnMBBJgBgSHaIdL2Bg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=92)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_093_c936f95a80e4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicANuquWe6xiayKSLYG0rH1QQAb8qOlhiaNNd5vGp9WJNicE0u7WialXibOZUA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=93)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_094_34bef972fc57.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2yBGgJll2JX63lFAgy5iaK0FzlicubWVcoJh8cfwP9mpXZjiajb2hA8pw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=94)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_095_9f015b5c3b15.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAqPzGegxpJMs2YMlVT10ica91RViciblMVw4dCJBrs6j64BicxPibSUojcGA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=95)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_096_f781220cf009.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAy12gm0Ar6qibjXNJHq5GXeKa89M4G1ntVYBJxOwzQJyeQOD6NRIjRoQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=96)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_097_0b587c2b6ccc.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAOgWJ85UuzsUY5B9qKG08G7uwibmbseqGBcrWmDdjVNlv2zSUlXE7TTw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=97)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_098_e5296f74f173.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAnz2giaVlajd0gNFVRib1icsgwdHIaWXM9vyadU8RuvFFLFhB66Owu0MWA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=98)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_099_131553c14ce1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAicY32kA7NicvhfLbpxZNCYH994VzTgvNtEibH7caMxP8QvK6SNaGBsSAA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=99)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_100_bfaa7620ac81.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAIagalxWtUBeL8jh0OtOkicNMlJKkdReTpQHoL0KGhuI6L8QbMpicgxCQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=100)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_101_d02188494ce7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAxiclNzRCaUzWFyXo35Uv2hsEAzC7YQJC0UNhrPxicMpwDcx8PyzAFyww/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=101)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_102_b038c12ba819.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicATodVibS1U0dHNjJNEKZpBCTVqGYv0nU08icJ4YIViaAicxbHzgVcIIC4oA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=102)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_103_6dd7254f774d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0mCxyibyfufHQZ7ApdH2DakabqbwBbQoBzicsrpFmFVzwJtB711EnmrA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=103)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_104_a4502f2dcf54.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAK8XGN8wmfQl87jqHmdXsOIA1krUAOnGBxaicwS4O9u1DPp641ibp2YnA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=104)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_105_7e02d439280e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAcXODUugHujN6S7GTXhEAauNf3GfA3YxuJ41CoyPSLhfRIsNBZywFGA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=105)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_106_9429005154d6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAstBmyJjNVXia7ibia24htXe9AtCpqjaLYVYtUibNIXVE7kIM8q815icgeUQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=106)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_107_11a2c7d024f8.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAAyH21QCmm3mia6Wtg4SREuYfbfjJaJt5vYDf2qhrqWVW1AfnOwVcTKA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=107)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_108_c6fdc94460f4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvKR81w5u3ZpCXBu5MrnHMcNtOdf3PY9fneWj8asapCI0s7Fia15AXzg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=108)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_109_f4d31af37fba.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAT6FYkv2Wl2vibHLeft7gMxYnBqicibJucqFe5zMf14qNYlPkSPudB0Eaw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=109)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_110_ea2899aacec3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVroQfBqgGo4AMBR0Wo1HAXpJnUfoickEYn3MdrHqs53Xjdk8VG1A4RQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=110)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_111_775b39b70628.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXvbFP6ngNKZCawxawNic8DPaibhbmt2j0tqnZ9eapjibfqyJEPYT5Ukfg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=111)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_112_010b3675f8b3.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaUeibBGrA1iaDFRibYJl5bJ80q4ianfWW8ocEiacNVyokVdkqJNx9DBtscQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=112)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_113_baa13a304807.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAHbBOSVwTnibG2YRrJCOIBpXkWHgBibJnHu6aasskk8EvveB8Ovf9pV7A/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=113)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_114_992098258a28.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjjzwEj76KqibtfWgzoWhkXFmibreNGdy07DB65UpKaTs2puTDfrxTdcQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=114)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_115_35e93dcd3d4d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdwS2aXAEOrynVXLPErVczdVenefJkutZ2OhFHzld8XmLDficg1IP6jg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=115)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_116_6f231d32823c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXFtOF0QbbFEDic7fIAnQRiaTyqTmAPIia4aiaibkFPTt4unXNbdKadUqEKA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=116)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_117_a96f003c00f9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA71oKzvqXiaVQzGHziaTZc7x4M3bTo7iaUcCIHibAwF6kPRxkRUVCibYaYbw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=117)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_118_140ce6efaab7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAM4HXP3UF55e2nC9QoiaAV2fpjeM9S8pK091GX0plYicrULCPJaiczo2rw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=118)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_119_48ef8f62b0a7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA57rRYssyH3pIXZM2VibINneRibGSUhBzD2Fvxr3pBYSI5gbb2ofz0VOg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=119)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_120_50626857fdd4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKZgSMyuz3Pv3EEjzERXtNZbW6icQ1wgL6zwAibNuBhm8DG7xzicy2zgCg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=120)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_121_d91dd899422f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAuOGGa59ygHciaiagiaonqAnbcaA8mTBf7gyr73mPhmWzdzDOkXxtJKHUw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=121)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_122_0058b1729d39.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWAhJfFPGkRV7l9MF5EdT6X43bibIXvRszFlAMoqVrc2U8v9nAY26ZTA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=122)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_123_f927f3ff0552.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAic6dHOBqsjgHibVRcVzdOm27MA5I0WfEcaOee7VdvjLjjsxBd0jY3FGA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=123)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_124_d3ad82e102ba.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAGlTqMQNgR1CibXWIutGOicNP2aJHpgAPzV0lEQJibFqut0dicHLgAnTiaHg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=124)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_125_5083fb1c757a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvq3w4fn4ickxwDZPZ6g0ichrH7dl9oXEfN907k6XGiajl9NbibhVhEC7AA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=125)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_126_8041765d8ae1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAq8USicfKD1OeaibN7w5xF7LGAIwqyoRLwPwo8egA0CYrV6JyKtILOhlA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=126)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_127_51a6e0952ff4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAA9KwGbzYKLQiau6qtx6dVvmIEianib0Yp4FohUlHbBpJqoRByG7fv1M5A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=127)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_128_4a1fbbddbc1c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwgcU8owibEAawbjs1HokFp8sLPqnFkIOv5maHbjWSLw4HtqtFll1tkw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=128)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_129_a81d7931414c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicARhEPSPciawnrk6FZuZfEzYOoHwDBg4T1VDzEe39cBHqLgaqKb6YFCKg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=129)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_130_944eca386531.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAghdglUOIUu2h3N5abwrTg2HicnQZDCdGVAJTrkVyQwceIFItdoDKfjg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=130)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_131_c212898ac544.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvpufkIHSn7bH9tKE4lJQPlO4ocS6tyRb2YohBh7yLYibhdDuoDnGkFw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=131)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_132_fdbe101ddd8a.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA5ApqkNAoibuTmo5bImDVuV4DVOHJCD77DDpWOqD7RFADkQLaEqIRlcw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=132)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_133_604b02da5555.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAszyeQusU5FibqsnrZnzHmcUFMEBGNn5QClZhB2zTQU46eUJh1LCx60Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=133)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_134_e9523e24adf8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9SU313PQsJlbXeJlw76nq3bLLOicVLRhxhtSDamlxOcGywhFibyia11qw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=134)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_135_9cd2b1dec9f9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWd9AleNc3CictkCjHyPd0d9gWUHj4hmaQibJfvXia6q5wib5NickJpNqicRA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=135)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_136_c2ce24a54dcc.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAGmZL6v4HGUxbMxFlxk2CVj2G35tlE3wGJDqkH5dxm5f2ZJtMWnP2PQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=136)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_137_593d2a21d597.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAhDPmiaA8N1BZoiaMgaNKjd0SdFIHT8LdcID3wc4ccA7uup2oe7RW1c1g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=137)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_138_572fcbdd044e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwUyAxrpJfJtpeicOLqQy7bjRn2UawUvOnccPxgl0PR9nUR1qlnZPsZw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=138)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_139_197d5ffa075c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAmic9sg5UDicmsAWmKiaN92C5tdBcYU0yT9L76KP4m7FkT3VagEXNRDZ7w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=139)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_140_213f84495b85.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAku8OnIfmRaMUmxXbKbS0UyibcSI5ibYoxIZeGa9icZto7q4w6LzF97kmA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=140)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_141_23b26edf3e7d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7jAZB9laK8FGLUq3NyG4nwYTX8ibMymXFIpkO3g4bkhBHoIibxpCjQwg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=141)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_142_34d31b21c576.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAr8jvm0HCKLxxEOhQZ6MFHwVXwJhdIIyj3OREIVoKWOSgH1H95SR3tg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=142)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_143_4de5c46c09c6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2gQ5CRs3E79K758eECrPJAo9icX9JaBibY6pzdFWuntVHibPVoIlRaRrg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=143)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_144_6302b348f4a7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAlfyrWFnaob496bPpoDibtxXupg0qnRFITiaiamhKuM0dBXvrEO7dYj5lw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=144)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_145_1f8eac1d0ce2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAfOFQ0kNfFy3ibOLEq99aul6J1BuRfiaj8QqibByjoxia35wer0sibMJfcJg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=145)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_146_18ad90bd3a00.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAsDyBlQ6hsuyawmvbnbiao3ibfUE422fglvRJhWf0LAAic6u8MDk5avmlw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=146)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_147_99bed8a6dc92.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA5dZsRiav9wIwB1nZKrzrk4L5O8X5CRowaoia0FaOOX7dp6ichjnr4Kx7g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=147)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_148_b2dae6442c64.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0zTDEIAesS4hWhURPiaIg1VtgLdWtfsyO0DNrgeZkGbF53qQhX3NDag/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=148)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_149_559c30ab77af.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVkKiaRGOhVKiawxME7bSTy1gnjgcOrwcV78OYibESEPEtichNWJE7q0XUQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=149)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_150_9a76ece2bcf3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicALVwWT1xerNjZ4TrudTNWCx4c8kRXe3WK6YibQN89zTDJt12nZcE3ogg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=150)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_151_158d1aefde86.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtpuuCm2hmib1uicjSic4YTh2EMzkTClMOQib3LV9qIv4icibIIsbguu0iaXiaA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=151)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_152_ad2e729dc51a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicALkvpc61iaAwQqmUicuUSJxCgsZ09sEcGUnqhiaVMvU6CNhGhOsLyRohbg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=152)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_153_e1e9426f756f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA48RVG8n2hfXVeCPyATWooJOZELWPXMJMhXhHXoqOgPH3BxobR7OWSw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=153)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_154_e093d33d50ea.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASpQ9mH7uibq1j0DGboeNJWPCw9cBbMCGgqhs86XJMKbkfXKRDSyNouA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=154)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_155_c9f6106079dd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAyDunBT2yicNEicfqwoePzQSbQvUuq9FLVRGzosxsWAX9jIhsZunyeJGw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=155)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_156_8f377ac20c99.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAaichfiacIQudSmBHucqIkgSy7norYJHmEb6ic3ZuR6gUm4IUoLUnGqb3Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=156)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_157_38de12f71886.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVX66r3ibgeiaXqiaiaPgUUzpAmnHbSDlVtib1ptsTFnNoBxRRHbibfDvLgDA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=157)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_158_248b31cb6add.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA1y0L776DOKgH1QJqoOwuwlJziaZC7ktCQicghVlp4Fh5LwHwbYmmNIhw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=158)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_159_f4b047e5017b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicARnXia8OBpoFBymHXRjeUXgNGeObw5CibvYdFMJB58PlpINv0MLdU0yDA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=159)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_160_3398ed9a62ae.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAS7qRbU7GsNl3dbPxjZKAhC1k8YqriavsyVXtWumwUA8KIVwNfxgiaZXQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=160)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_161_48851d149783.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAJXaFuzodSD1rlk4ib7K8X1osKwGG0a7Rl1pNx1S3iaH7miaWyicnWwul0g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=161)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_162_c33e1aef0744.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjJjJxxqABPXnU2ToGZ7Hscd3nH84iaRjX85BGHtLQAD3Z1ohI5L9icbA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=162)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_163_811a0a97089d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASOK5Mq8FtR5p0ZRjDahc72vOU5M9LsR7kO7qCtbKYhA31ia7EVyPVJA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=163)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_164_a3220b7bee8e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAfibgor5XuvmBk7NhuA0tOVXic3PclJxfYgcnamekice5LR0C32WL0C1Rw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=164)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_165_bc9860b30ecf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAia6DgnPqTsdpIicIC1NFASTQm0EfmDooiag4pxTvibnFybcMia3hUOiccF4g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=165)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_166_4169f3434758.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicABrF3LUXtbve33INJRR6JuJa7Twt3RuictxyymibcDrH0GIBoM1wjBQNQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=166)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_167_a596afe88e63.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAh81WpzXBbcic0ISAtMEer4YY8eNp1D9eWibbt1hUa8AffE3b6gUE4uOQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=167)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_168_c25e7c222eb9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgKzicGyvnj7m30nABz4TyFibNkVpNUd4BWtsewXBswXOdoh19N3je65A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=168)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_169_333042eef6ab.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA1yp0U7l6NAVYST2RhjweK6A83OfWl9bryqcAAILaTxbVU6hq75ayNw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=169)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_170_8a346cb9fcfb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAsHrZnHsLXLKQuXXUwZpgicUv5K9yYichnC0qcUU6suD6OpIbHbfofr3Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=170)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_171_59486cee88f0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9MqianrD9Yc6VVCr1DJhJWCz3gQ45PO88tFTON4lsm4F9jpuSwbV7Pw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=171)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_172_7b0d87050f8f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicApxXcY2icTIgHahkBIgzWAU3h18oE5iaj4Acq2RT4mvibpAfMPr6V9BnJw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=172)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_173_48a4df6b06f2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjbIAyEdOce4TKtcHZ1XibYJA2zh1tS5CSibI0cWmmnQrMkeQDIyyW1Rw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=173)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_174_d275e04bdfd0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAUEVghwfYMnOuv4pJAsHmCibPia1V3dx1KicOnga4fHmjLoebV1Hd5h51w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=174)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_175_55de9ce629b1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwPaiacg5Oh8ccfQrbj2uqIvBkiaIZRY0Zs6POGXiaCnyVfQpU4HC60nBQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=175)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_176_dc37a7c1b779.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA8Xsge24q9kUImWqTwLg2SBsdMa1UEibaZhMXjdCMfE5oorLK00th8AA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=176)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_177_2d192db17d5c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWkP47D5Sc7YK6Ew1TIomnJzXqM3f3JoaVT8P9bDP6seEHeibuibrsOIw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=177)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_178_fa7125711d36.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAnRqH1ficTF3zprXW30f0wibqRdiaTxJSYxQbUib7diae0cbqpFTAdxiaWE9w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=178)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_179_adb6039f49ef.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjicnUhetTU0J5icYPmzC3TuzSbybNUxLlXrZPyFAMMv2IkrugaOicKeRA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=179)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_180_d628baa17b34.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAV3YmiavRVRWDDibNwEDJbqlk68cvyrx4yaG1I5RC6yGNkepDFV5S8TZw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=180)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_181_d44ff3b0b0b3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAqQ3N5kqhOibzCR1Quibnh09ZMqOPDAnztXh3SibxjBpHmkPVJvPoPbpQg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=181)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_182_ef77fd4e80e9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaFAFzxic6Cd2dNdPAbwtcBSBkECOCDauVOWiaIBqohGQmdbIDCXQdBrA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=182)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_183_279b02652951.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAoEuCGR1TtzAJPpxeC8M5PIxfIIO2kVHElO4aCdaeX5icq0iaBfdqTdFA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=183)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_184_11291aede46c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAFf9cVmd3zR1CSboWDicgINHXhpxX3r1XwhvNbYf0xy4rgmAMwNmtlpw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=184)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_185_09f55a87d28b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAxw1F7S6ibgAbc4tK9lE5aicxcKTe2bz3l3JWFYMpbfZGIpmhxh9ibfWeA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=185)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_186_0b7652acc40b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAicxY6SB1l2YI89VS16bnF0oicUUs7yekw9Tiapgj0KBVqZKttZteINMow/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=186)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_187_9962ceb7b621.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAHBhoj4M5k9phbzvpoXzwHWakbibBPhia1W8pGIQh9lsXKcE1yhV31efg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=187)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_188_c76f78f04d80.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicADiauBow1lfxHs47cUXlZKMyvVgHl543Uib86T5UVIPocUhicJAwfP9PWQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=188)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_189_c459dce3e4f7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicADx92c307o2HBCd5CSlWCZZgEER6JKEY29e9RVCBrDkE1O6fDSkLNVQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=189)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_190_578c040729a3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQeaOvOfOiapcgNEarFvOiaa1hsoAdxREys5jL4nSF0U5LfR45w2uAyNw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=190)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_191_0fcc944dc227.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVZcg63BSgAgzmqgFSrpurH8L5Libd4N4xnySDy5rSlEByTceTgZGvwg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=191)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_192_9d36ff877052.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArLiapwHwZ2kCpqyniaoZGlbn7gE3qBxOQUdH9BQJq5D2Gfpjlrfyuhbw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=192)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_193_358c47116fe3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAJ2cm22XOOPrmTrVDQHKXmZXWTyKZxX3GlPiaph6SffPay7wV5xH3emw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=193)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_194_a905697c5bcc.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAYlDoR2kHzf66YXbp8NeGPZYDQQD4XsLnKMn6MErfkmLqD4IETY4jrw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=194)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_195_a23c5085efce.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVgibXgjIfdDA8uudMGywIyoxiaFwokAHAqAaSdxa9LaOz7PpceISfakQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=195)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_196_c29bb18260b7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7jxjAcdqDT81aMtPCIia5tshU2C5ZvnCsiaHzcwNiczGib8xtNOice3F26A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=196)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_197_16f8d936a2f3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAS2yMJsCVvqNqOOnJEThU4nOF3qwmXbxIfNzuGLVadtv5a9Zgez7t5w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=197)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_198_fc24447338fb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7AKicGEdDrWhB1rkicaUFbpXGFm4RNcQdtpBoC46g26HKYxUGdicqvgXw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=198)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_199_a30a2ceb814b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAAlrRBY3X9Tgwg7Hzpg2UsiboYBGErfW3ficicHRIHp63eiaKfdnpT1GwCA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=199)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_200_27fb27f96a5b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAbXKaKYFgXCnuhAKGzC31HPIN2xN8UV7ibWPhmMVth1enwYMbL7CKyqA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=200)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_201_eec7b73812c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicANDQBTskDm3PEfQLaZ625rPUGcamnw39WRfQYMvBp7PpBdej0yJLGDA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=201)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_202_d12607d0ae86.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArtLwjSpRWOUG1zRe9h0oTibHV6WxWyrY6Q9xGlwXX5zVmVf5dQQ8l9w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=202)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_203_3270121882d4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAh6kTSdb3C0ImciceO2ZU3OV50Da59GNxWIic9KgDpkia8N4SLiamXE4oyw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=203)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_204_74f9672580a5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA1pcK2taszUvdkaaicTic2FwPgmNxIlyt9dY8XUMCDvkMWfWIMq0vultw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=204)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_205_6871141c0a9b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASZWDPpJxFzKZqE84eFIwI4iam6riaKs6hwVN2ufg0s288qriaupjoAibFg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=205)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_206_1154662b7edb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKcRHb7EEEiaficWAaLdyXBustPkXicGZCjCW9fUMSKQSknaibiaJ9rETSWA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=206)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_207_60fdf700be5f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAyic1ucmClY3o1vt3BzTWGQsibjA40GSpX5iaCCicfzlsUvLib0W0iaTTQ7UQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=207)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_208_0756204b72b6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicABQPT69jVoXx3YHoAIsia2T1Jpibrh0lU0oGXvUDLHicBtWiaToG5C3iaBfQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=208)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_209_f32487ce3899.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA4tACGsEBZMsfddybJmeFaLtkLZupeezS9C0sc3iaeNnodlSJkeWKiccw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=209)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_210_fe4baf30a543.jpg)
 
 注：文字与图片报告无关
 
@@ -484,10 +484,10 @@ SiC器件和GaN器件在三相PFC整流器和PWM逆变器系统中具有显著�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=210)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_211_8dc82014033f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=211)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=212)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_212_0a4b34f7d4eb.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相PFC整流器_PWM逆变器系统_images\img_213_ebf0ac6e746c.jpg)

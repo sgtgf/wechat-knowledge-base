@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/gYAkX9BP21n67-YrsUp1Zw](https://mp.weixin.qq.com/s/gYAkX9BP21n67-YrsUp1Zw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53Gqjoib8FSODBJuptxE8FhyPNcIxX5h1Kh9iaRSvXUl4HbfN6BnibnQxibxXg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_001_2d5de795c262.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53Gqjoib8FSODBJuptxE8FhyPNcIxX5h1Kh9iaRSvXUl4HbfN6BnibnQxibxXg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_000_2d5de795c262.gif)
 
   
 
@@ -56,7 +56,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200543?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqztiaATe0ITt3jzS64upkGkPArtlax9iay5Eic1M8iaC7W5sq6G2HeavBMQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_002_37e18aa9c957.jpg)
 
 图 1  基于深度学习的单视图三维重建中三种表示形状
 
@@ -86,7 +86,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200543?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqjiaQa41VO88u6sLFRTD2gjm0WmRBztXa5Xjcp2CgvM97xDBLVN8c4gw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_003_56e18ae04837.jpg)
 
 图 2  本文方法和DISN方法在真实图像上的单视图重建结果
 
@@ -108,7 +108,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200543?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqKU6YSUvNKVN4AdmF20k20OClz6RkyLEfviciaQA4a5tjzH1AsMnyB54w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_004_78a5f4b61b04.jpg)
 
 图 13  单视图三维重建中具有挑战性案例  
 
@@ -120,7 +120,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200543?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqejITTcqZu5nicd3ShQ9CFD1aYOnGr7icNGu5cicOYiadB9P0DiaxbIyoZoQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_005_4159d372ef0b.jpg)
 
 **李   雷**
 
@@ -128,7 +128,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200543?viewType=HTML
 
 E-mail: lliicnxu@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqSawl2iaP301EBdSz6QxibAfeAdrqt106J7ZYveJvthtqSicvA48gRlaicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_006_b05c4e6c15fd.jpg)
 
 **徐   浩**
 
@@ -136,7 +136,7 @@ E-mail: lliicnxu@163.com
 
 E-mail: hao\_xu321@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqsIPib51T7yFh384yT2iahzFP7SV7PsYEWGxacalYfWkXgp0gBl4mzuAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_007_a0750c369e20.jpg)
 
 **吴素萍**
 
@@ -360,49 +360,49 @@ http://www.aas.net.cn/cn/article/id/17174?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47uiastnrg7W1DtXnSzj53Gqb8Y2qkF1TOrHrOhxWmkbOy5XLbIxcatwSLsLuYH6cV3ukeevsdCfaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_008_516394224c5b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqYuvXP4md2zJBv557yiaFKoyl47ibETmELkQkibOYnP1EBm9tu8QPLkpkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_009_cfeed9f4b8b3.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_015_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_014_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqpJTkya50vmZ9IYzrWLJnuMe5t3YltFUakmr956KovwHs16CsnFoOxg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_012_b77e1e92020a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_013_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_011_f3267784f507.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_016_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_010_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53Gq89rsOOXsJasiaJsPhUkj6zFeYZQzlLvj9sr5WUXM8MuMpxJRfia9cEIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_017_356e2f389e72.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_019_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_020_f3267784f507.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_021_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_023_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47uiastnrg7W1DtXnSzj53Gq15EFpx2iaHMicykr7lUQsRsjsuSYOGFTUSV3s9sMdgxOGMcUjsee4fTg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_022_4957609d8c7c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_018_f3267784f507.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47uiastnrg7W1DtXnSzj53GqLvJmWknkfyjm7Z5U3xOo6ba27AhNkL5c9ntLAuQoYOt1D0ErEhEPbA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于DDPG的三维重建模糊概率点推理_images\img_024_f3267784f507.gif)
 
 **长按二维码｜关注我们**
 

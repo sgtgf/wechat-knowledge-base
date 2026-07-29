@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/DfAsiZpFHW\_2ACnsVwgvzg](https://mp.weixin.qq.com/s/DfAsiZpFHW_2ACnsVwgvzg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTrXm2ZARR57P73sf3H94yAo7z142goPA0xDBxhHeeouSeYnAT4drXhOSjIXcPN1Z7CDJxc8O1ZlA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_000_5f5414fb98cd.png)  
 
 _____**★★★**______SCD-20---Snubber______**★★★**_____
 
@@ -17,7 +17,7 @@ __€1.MOS的振荡效应__
 
 功率MOSFET比双极晶体管更容易发生寄生振荡，因为MOSFET在高频域具有高增益的优点，从而导致寄生振荡。当栅漏耦合电容Crss和寄生线电容Cs引起输入端的负阻抗变化时，功率MOSFET进入寄生振荡，一般可采用几种措施防止寄生振荡：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMXSHIqZdxwmXxaia9LfQrUlibE7HGeFslxOoVTXLtjUCI8vRBbzFfick65Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_001_c9d31c3a7e47.png)
 
 **_图20-1：MOS的开关振荡_**
 
@@ -31,7 +31,7 @@ __€2.RC缓冲器__
 
 RC缓冲器或者叫RC抑制器，可用于抑制由降压DC-DC转换器开关产生的电压尖峰和高频振铃，这里再回顾一下降压转换器的运行及电压尖峰和振铃产生的机理。**_图20-2_**显示了一个基本的降压转换器电路，其工作流程如下（传送门：[DC-DC-2：降压型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485606&idx=1&sn=f725f35be77cc8999ac79e37bbe24b3f&chksm=c3354239f442cb2f0333a6b7caf7036d62f1b8091d16ed9b87161a61263f7a7fa0306f86cad0&scene=21#wechat_redirect)）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTm6UJ1tliaTZfpTRZjfRI425WqiaA1JSSLFmgoM1b2cOWeHicrZD01viaPbGXgeXFCmoXdYpLko9oIYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_002_7ea1a2b430ba.png)
 
 **_图20-2：降压DC-DC工作图_**
 
@@ -51,7 +51,7 @@ _电压峰值和铃声_
 
 在步骤5中，寄生电感和电容形成一个谐振电路，引起瞬态电压尖峰和振铃。当在步骤5中Q1过渡到打开状态，而Q2过渡到关闭状态时，Cin显示出非常大的电容，导致它们短路，而L也非常大，可以被认为是开路，此时**_图20-2_**中的降压转换器可以被建模为一个如**_图20-3_**所示的等效电路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTm6UJ1tliaTZfpTRZjfRI426lnDlKXCcbicVW7UesK9BbyDiaGUIyPt5o97m8dND7OI52icxpnQAjUEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_003_1b3b656dc2f7.png)
 
 **_图20-3：Q1开机后立即进行降压开关转换器的等效电路_**
 
@@ -63,11 +63,11 @@ ____€3.__使用RC缓冲器的电压峰值和振铃抑制__
 
 **_图20-4_**和**_图20-5_**是一个带有缓冲器的降压转换器的简化图，当RC缓冲器抑制由开关产生的电压尖峰和振铃时，缓冲器电阻RSNB在缓冲器电容CSNB的充放电期间将尖峰和振铃转变为功率消耗掉，因此有必要在选择RSNB和CSNB时，考虑到它们的电压峰值和振铃抑制效应以及RSNB的功率损失之间的权衡。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSpKsxicLZHDF9iamkibMSQVY50peu1clT6WWXkNDqjItX4DkiarFRNQM2icY7rdvp6wG0gYClKUzwOoibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_004_cf273666daa5.png)
 
 **_图20-4：RC Snubber的充能路径_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSpKsxicLZHDF9iamkibMSQVY5J2IEWSNcNgwHZANB0shHhUVEnj4heicLibFskGPKzMSWVYMHx36bq8kA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_005_8c85beead471.png)
 
 **_图20-5：RC Snubber的释能路径_**
 
@@ -89,13 +89,13 @@ _A.RC缓冲电路_
 
 缓冲电阻耗散的功率P计算如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1InqRbKBy6nicx1zAjaeHtibQBWwGtmVP1yup0ianh3wQJqDOaaLYylXUEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_006_de55eb6df698.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMXh3kib8PmwUU0qpqbETSBtuC56szhicp8DUJlYObpAmZcR04YG6Veq86Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_007_6373bdd6f8b3.png)
 
 **_图20-6：干路电源分立式开关使用RC缓冲器_**
 
-**_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTm6UJ1tliaTZfpTRZjfRI42YjqhyDRhwHMNKux26qKHcs0DNavtOINjNicyImT5LVQMBHChEdjtb2A/640?wx_fmt=png)_**
+**_![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_008_5ad304f40718.png)_**
 
 **_图20-7：实际设计案例_**
 
@@ -109,9 +109,9 @@ _B.RDC充放电缓冲器_
 
 缓冲电阻耗散的功率计算如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1Iy6IiaNJZz9s9ErCL0ibwhW24eDnicIc6VmcQW9N6G4w4a3veT5YfQv1kw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_009_4fe219afee88.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMXQfqTFz1XYS6kfB5OWYicU6cJQ7e6swCtsm76ys1Vw41nzQnpYQtuT4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_010_5211dcc13d8e.png)
 
 **_图20-8：RCD放电缓冲器_**
 
@@ -125,9 +125,9 @@ _C.放电抑制RCD缓冲器_
 
 缓冲电阻耗散的功率P计算如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1ISejDVuibPYu2mKMGNZEpPdErdtjSXPQIQswU1WmYWuSZ8V9CRHCp9OQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_011_e1b315ede8d4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMXvMxj4faH4CIbYTtSPx5GzW8iaJQ68rRibLv61BGQaGyeIB6P3D5ibam7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_012_fa948e9d7cd8.png)
 
 **_图20-9：放电-抑制RCD缓冲器_**
 
@@ -145,7 +145,7 @@ _RCD缓冲器_
 
 RCD缓冲器需要注意选择缓冲二极管，因为它可能会在反向恢复过程中导致高电压尖峰和电压振荡。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMXD2uNZz3RiblpyiclDCLOIibVA5XAqibFLXtib9MxX7XPkGsTWgrQdBtYribA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_013_95d33ce024a3.png)
 
 **_图20-10：左--->C型缓冲器；右--->RDC缓冲器_**
 
@@ -153,38 +153,38 @@ ________€6.__创建缓冲器设计（抑制放电的RCD缓冲器）______
 
 **_图20-11_**显示了一个缓冲器电路，**_图20-12_**显示了其波形。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMXZud756ZpSIBXg1vTGgy53dwDqDKR6icXNqH0zibq00PptKWwI0ZUkpCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_014_75bac1ea05cf.png)
 
 **_图20-11：缓冲器电路_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSpKsxicLZHDF9iamkibMSQVY5kia9gyqeecSeBBFj0jN5Cdqp2xQGRvlVHw9PvbJK7nnsibWefEjbbr7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_015_40da02576c06.png)
 
 **_图20-12：缓冲器波形_**
 
 在波形中所示的电压和电路常数可以计算如下，其中Vdsp1是由缓冲器的电感Ls产生的电压，其计算方法如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1I2HHZ4HxCMtLJgBdVJTcsia3dIYHrT1ucjwQ6R0yQaeFvfZNgRojeNEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_016_083bcca86e4d.png)
 
 尽量将二极管d的正向电压Vfr最小化，然后减少可能引起电压激增的Ls都可以有效降低Vdsp1。VCEP2是当主电路的杂散电感LM的能量过充时，缓冲电容Cs之间的峰值电压，由于存储在LM中的能量被转移到Cs中，所以它们的能量是相等的。因此以下公式成立：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTm6UJ1tliaTZfpTRZjfRI42syO1yJ0sjZNWfN22SVDGVeMAyt3Myglwk4UIjXJRIz1WP0AjuSSQHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_017_85bc958b70d5.png)
 
 根据这个公式，C的值的计算方法如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTm6UJ1tliaTZfpTRZjfRI426IsIbkuXMMicLh3wsK95bzkQuObQ9ERquuVspHXOsZ43ialjVBrcEs8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_018_08168ee53f55.png)
 
 考虑到MOSFET的耐受电压，有必要确定Vdsp2的值。缓冲电阻Rs值的选择，缓冲电阻Rs的作用是在MOSFET开始其下一次开启操作之前，放电存储在缓冲电容器中的电荷。设放电时间常数为τ，则：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1IgfQibib3NHxyXPBwq2Yw2emr4CIWshL4FkoV6II3gLlCe6kmVWGIOicmg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_019_d0e2ebfbf47c.png)
 
 其中，τ为电压降至存储电压的37%所需的时间（传送门：[SCD-19：RC时间常数的计算和使用要点](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247492540&idx=1&sn=f33cd6438b0b008800a3f28d0c77ab75&chksm=c336a923f4412035252c1fdaddc7ea541a82e8625e5e970c194a6acea158f72e808854292a42&scene=21#wechat_redirect)），电压下降至10%（即电容器放电存储的90%的电荷）所需的时间为2.3τ，如**_图20-13_**所示：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMX84CmCK9AfEU7OAjkO8tL6NsN8SiaDsfoZjCibqapibUrcPZAj9meYzeHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_020_55758d0743dd.png)
 
 **_图20-13：时间常量与放电量的对比关系_**
 
 电容器必须在下一次关闭操作之前放电，因此必须满足下面的方程式，由这个方程可知，Rs可以计算出如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1IVWeQCkH8BFSaITiaAibXXY253klZxRPLhFfTCDXq2erJoEqZLricZmgeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_20_如何设计和使用Snubber_images\img_021_b82968daa062.png)
 
 如果缓冲器电阻值过低，缓冲器可能会出现电流振荡，因此必须使用一个阻值在合理范围内尽可能高的电阻器。

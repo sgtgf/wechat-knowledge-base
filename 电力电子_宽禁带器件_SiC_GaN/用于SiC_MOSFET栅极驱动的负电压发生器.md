@@ -8,39 +8,39 @@
 
 作者：Jianlong Chen
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHmlpMCPicqhZrjKSgMT5ibyAuNGaghmndxofhffjNmyRib3EN0x6ALUxWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_000_557a897318db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHyoWvrJAWsUBW6WPA1vFnWhMsIbD8bGtzLYWS682P8Eg2eOz6XWqb4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_001_f4f708985613.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHcicwmZCIdZOJGLDyvibPEY1KndBXTsC1qXjPkQicwZ9E3RMjeJlwD8IVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_002_9c9128c44b6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHKsiadRHFjSVtFCibggibb8GTW8tXkGZI9pgVicdEWWVeSL1kKSPOgNNUvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_003_b22b6b983dfa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHo7CBaMxRBxN05MqLkySxDPyqZ6PX2CiclD1STU2xe7lFrt5z4YbpYow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_004_f9d3f1634c98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvH8h2E5FFDZJpwfogthVg1zzom8r5ibFA5lteCGC7TWVZdGCGpPjkqFJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_005_20a6a4ee9c17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHkIBzlpwhEVPic0vw8LQEhk6rXia3WQgGicJYHEticoGYjrd49RRKQX0ibOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_006_160ec3e78a88.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHtvRKMc0DqX6aDicRgYBPC5FWcpqic5hJ3y5bUz7QibpjFQA2oTVTkJNYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_007_fb60e59307d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHS1PQQEibLt7MXHQPFCbvxafgNfW4xal4ictsd2jXOqEEzwMuPaHWBj8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_008_6e44ede5dcb3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHZngB7icMEy1jt9955NDprSw2kCic1l5bvQ3BCTdSeHnSucl01yo5j39g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_009_d4588ff80d52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHjokWF3WRicNlqMX0t8t7l1pLA2qsu32VzO3JIlts2EL99E8cLD2QF2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_010_78cedad702ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHw8amSs7IT7vsnribWI7NNRiaMQBgNP992qEB5IRZTZePJO3PJEqHdEyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_011_66b27293a031.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHxySojfeMHUnEZuqhdEquunvtc6xYiabuwzLXscwuhbW8wSrI8CKiashg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_012_e1a5968a7270.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHmw0J04Eiab5Hhkwwgedgpt99Dxf5icVr36U4zJuw67SnzgicRhSs64cZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_013_bd3a019d95d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHXKInRSqdZP5mjiae3cAXibgXwRgCia3oxmibicSkq4VmFWWswARId70FQ1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_014_9345be762223.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHGbEK0p64Ly20BJaejAShgTDzSQWLib78uxHkUkDzs7jI1kF9XX9Fia2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_015_2818063c8077.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHOFHocL4K9ib6a83DngEgZJoNIOY9cjshpjzHQEgYic1AEibbd4s1Q43vA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_016_1f2e6da2f2f5.png)
 
 注：文字与报告无关
 
@@ -116,13 +116,13 @@ SiC MOSFET 栅极驱动负电压发生器的核心应用场景均具备**高电�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=prggfyhv&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_017_90defa0eba6e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=pp884d0k&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_018_defcb0f379b6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=78s9mwzf&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于SiC_MOSFET栅极驱动的负电压发生器_images\img_019_491f9234bacb.png)

@@ -7,7 +7,7 @@
 
 H桥是一种相当简单的电路。它包含四个独立控制的MOSFET，用作引导电流流过负载（通常是电感负载，例如电机）的开关元件。
 
-![H桥电路拓扑图](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6Luyw7bBtzDjwM7MKARbYDgV8E9MjQnk0DicEAkRHGFZia9MUZ0qTkP9UKyVFbKh7KmjiaOKrystRjuib8vZliaIFeknvqHZYIicmCibW8Mw/640?wx_fmt=png&from=appmsg)
+![H桥电路拓扑图](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_000_d3fad9445593.png)
 
 H桥电路拓扑图
 
@@ -32,7 +32,7 @@ H桥电路拓扑图
 
 MOSFET自带的寄生二极管在电路中确实可以在某些情况下起到续流二极管的作用，特别是在开关断开的瞬间，它可以为电感性负载提供电流续流的路径。然而，由于寄生二极管的特性不如专门设计的续流二极管（例如肖特基二极管），它的导通电压较高，反向恢复时间较长，所以在实际电路设计中，寄生二极管往往不能完全替代续流二极管。因此，如果对续流二极管有严格的要求，通常会在电路中另外并联一个性能更好的二极管。
 
-![一个H桥上臂MOSFET两端并联的续流二极管](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyyWa70oX2HrYjCuHDnIqXVUZOI6XCm17iaTD1ZvzRGxZM9LibctqLznHqOl2W1u2icD07iaqRCvRwKRhZjtgnwTge6gUkeApTJLEmE/640?wx_fmt=png&from=appmsg)
+![一个H桥上臂MOSFET两端并联的续流二极管](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_001_3a5b95a0b380.png)
 
 一个H桥上臂MOSFET两端并联的续流二极管
 
@@ -51,7 +51,7 @@ MOSFET自带的寄生二极管在电路中确实可以在某些情况下起到�
 
 _注意_：“衰减”指的是流过电机线圈（电感器）的电流，与电机的行为没有直接关系。不要认为快速衰减会使电机迅速停止。
 
-![不同衰减模式下的电流回路示意图](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyzD6u59z3QQDTNJKnibZPknAxMibPvhuiaxoXssUAlIPW98tvfiaP3VrzEicK3AkxziabOCVksq8H06Oe4a3DApeXYKZibS6Dte8kUBeU/640?wx_fmt=png&from=appmsg)
+![不同衰减模式下的电流回路示意图](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_002_66eaf757f6d0.png)
 
 不同衰减模式下的电流回路示意图
 
@@ -59,7 +59,7 @@ _注意_：“衰减”指的是流过电机线圈（电感器）的电流，与
 
 ### 快速衰减模式（Fast Decay Mode）
 
-![快速衰减模式](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyyoFPS9JjibGBSgaPsaHFK9CdCGoQV5pQicSWTzM3NCM4V9nwpIV53q5CXOAqLab3qcRlb0Z6SfBbIdWsWLy2icQq0ZrTKIz39n5Q/640?wx_fmt=png&from=appmsg)
+![快速衰减模式](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_003_c2d4c2ba8d2c.png)
 
 快速衰减模式
 
@@ -73,7 +73,7 @@ _注意_：“衰减”指的是流过电机线圈（电感器）的电流，与
 
 ### 慢衰减模式（Slow Decay Mode）
 
-![慢衰减模式](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6Luyzb8CcR29VibKuL0PEiaSTwHBrXmicsgC8pRXWFdhgnR17DmM1amjJLSaMicpYtsVSiay7JhTS4mAu9yNp0PSiadP8lVliaemrakoukes/640?wx_fmt=png&from=appmsg)
+![慢衰减模式](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_004_612fe7b77662.png)
 
 慢衰减模式
 
@@ -106,13 +106,13 @@ _注意_：虽然慢速衰减通常描述为两个低侧FET开关打开、两个
 
 VGS\>VGS(th)  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6Luywqps46XsficLX7ubrm0KeicwHOGb4ciaKIqTLicia0VJATszuzYK6WCxCnk8MTOnClic0oOKic7CSTxdALnX4jzgpOHXjXa9ibp5vAdNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_005_4ec2f569648a.png)
 
 自举电路是常用的一种解决方案，用于生成高端MOSFET所需的高电压驱动信号。它通常包括一个二极管和一个电容器（自举电容），配合驱动芯片工作。
 
 以半桥为例，当Q2导通时，Q1的源极被拉到地电位（低电平）。此时，自举电容C1通过二极管充电（此处所加电压V一般由LDO架构电源输出）。此时，自举电容的电压接近于电源电压V。
 
-![自举电容充电](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyxoY0wjCicXwy8c7tcubkuLXiaR3iczf2cD8cDbvyqBhx8ElBvoFcqbCxSN8ANn0XOvJQ0I25kvj6nrq2S9sLw2vbsYDk4gJSJcns/640?wx_fmt=png&from=appmsg)
+![自举电容充电](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_006_92b1c8f1353c.png)
 
 自举电容充电
 
@@ -120,7 +120,7 @@ VGS\>VGS(th)
 
 当Q2断开时，SW位置电位不再为地电位，而自举电容C1两端储存了大小为V的电压，A点电压变为VSW+VVSW+V，很容易就能够驱动高端MOSFET。此时由C1提供上管驱动阶段所需的所有电流。此时自举二极管（一般为肖特基二极管）处于反向截止状态，将自举压降限制在自举回路内，防止其回流至上一级从而损坏电路。
 
-![自举电容放电](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyyHa0L7prwlRE0sq1nFzab0hF3OnibzhXcTg4eoqw3nEVLiavhlWuo9qNvqffLCVbI3gjv50mwkdXOeQn89iaAicl42dY9P61sP4gM/640?wx_fmt=png&from=appmsg)
+![自举电容放电](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_007_5803d7c90a6a.png)
 
 自举电容放电
 
@@ -149,7 +149,7 @@ VGS\>VGS(th)
 
 单极模式引入互补PWM波（PWMN），其一般由MCU高级定时器生成，如STM32F429的TIM1、TIM8。
 
-![PWM单极模式](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuywHy1w8KXGzw4szMh2VAE4eiaDK1ePUs6Vlx4ibaPWNKDsDNACm0LVicjI5hT88AXAux85jzfO78Cx1sxDZcSylRz4Pk3G7kKOUH8/640?wx_fmt=png&from=appmsg)
+![PWM单极模式](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_008_2b007b2f5866.png)
 
 PWM单极模式
 
@@ -161,7 +161,7 @@ PWM单极模式
 
 双极模式下电枢电压极性是正负交替的。
 
-![PWM双极模式](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyybQoPo2cgdibOvC2jQZ4MpYqg5J3H0ibfYsLmSszkomY4tpTP58dkBDCDbHatVdLwBPFKoicicmLvNYhN0XzTNgJ5yFfKg4G0aEus/640?wx_fmt=png&from=appmsg)
+![PWM双极模式](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_009_2f905340afda.png)
 
 PWM双极模式
 
@@ -181,7 +181,7 @@ MOSFET的开关速度与栅极电荷（Qgs、Qgd）和栅极驱动电流有关�
 
 以IRS21867S方案为例：
 
-![IRS21867S硬件方案](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyxcPNZiawzZae7icQNV60Iib8BxiaTcwIF0oTExUJJCy3JRgADpEHcKzicv8gd5tOtd1dIgNMZAjibGuxkXVhbgjwKcyGvzwxvgJpicsY/640?wx_fmt=png&from=appmsg)
+![IRS21867S硬件方案](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_010_48cc410fabca.png)
 
 IRS21867S硬件方案
 
@@ -354,7 +354,7 @@ void MX\_TIM1\_Init(void)
     HAL\_TIMEx\_ConfigBreakDeadTime(&htim1, &sBreakDeadTimeConfig);  
 }
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6Luyzcowvjfx3zzYtaZPLkgjK7tc4ax05aIqwx4UnbYOwS2dfbRFOeibkEdBiaLeE8wXS3Pokg9N1iaBsaicCgFf5lTYqSqCTlqWyOfxs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\简单H桥电机驱动电路分析及其隔离设计_images\img_011_61f7428d3304.png)
 
 void set\_pwm(int speed)  
 {  

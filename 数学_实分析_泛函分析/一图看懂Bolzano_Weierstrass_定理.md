@@ -35,13 +35,13 @@ B-W 定理的经典证明过程，本质上非常类似于计算机科学中的*
 
 我们在每次选定的小区间中挑出一个原数列的点，最终挑出来的这些点就构成了一个收敛于  的子序列。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/sVzeakRoocsHvNibT3u8FOpfmHWoz8OsI40CDfUSMKIUlj4Hehpc0ULwlNZPBlUcDkvZvFvicZk6g9nGLMNGSzLf0ufiav77poTVMmLDfKRgTg/640?wx_fmt=gif&from=appmsg)
+![](一图看懂Bolzano_Weierstrass_定理_images/img_000_8de9325f5f03.gif)
 
 * * *
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctOufx6ib6JDKf9uhpysq0rZKsLxoL1v0wV1icBQluPyvXic4L9DUyUZibSJ6vmL6oqw0EefhxnMu56wykNmlTLvgibQwsRCfXWZOJc/640?wx_fmt=png&from=appmsg)
+![](一图看懂Bolzano_Weierstrass_定理_images/img_001_09cbe8ecbbdc.png)
 
 这张图在讲 **Bolzano–Weierstrass 定理（波尔扎诺–魏尔斯特拉斯定理）**，它是实分析里非常核心的一条定理。
 

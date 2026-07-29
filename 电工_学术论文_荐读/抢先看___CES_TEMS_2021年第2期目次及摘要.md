@@ -14,15 +14,15 @@
 
 CES Conference
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvODiawSLC7ra6wms9OVMRlerUeyCw8Kl3Rst3JyqmdibIDwOC6cf4iadK7g/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228950&idx=1&sn=fa8e263d8d5a3d3cfbe4be0ff922a4eb&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_000_0ba5ef89951e.jpg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228950&idx=1&sn=fa8e263d8d5a3d3cfbe4be0ff922a4eb&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvO6eVINte6TrPBhTwX0WJ7o5WcMo3zgZaibE7KVYAia0QSrY3eNptiaxTBg/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228018&idx=1&sn=ee7e1b5d99de2ff1f9be8b0d364cdb91&scene=21#wechat_redirect)
-
-  
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_001_6c8358295545.jpg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228018&idx=1&sn=ee7e1b5d99de2ff1f9be8b0d364cdb91&scene=21#wechat_redirect)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvOMUQP9iajRnlaeymO5vyZAVHMAVBMHFoNBvrjyDLribgjrnTlDHbib98Lg/640?wx_fmt=jpeg)
+  
+
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_002_b7e6f0205552.jpg)
 
 **CES TEMS**
 
@@ -124,7 +124,7 @@ CES Conference
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvOQYv6G9PsYlcd8gLn8YGLfL0UrLZ0QIPQmichlyqTR8zdAg7fuiaShYGg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_003_b63589413c39.png)
 
 **长按二维码注册参会**
 
@@ -134,7 +134,7 @@ CES Conference
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvORIm2P6FOMemvwah8ibNwZUUbzvFLFm5ITiccTMPlRZRFTCbPm8tJ6Oxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_004_d239b8a55d13.png)
 
 **长按二维码注册参会**
 
@@ -171,15 +171,15 @@ CES Conference
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvOlkdls56ZtK3zqcLaG8OY70sUfAZUqNR7wmrV0v2IHCjRHH6I6gRttA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_005_857b9d0694cf.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvObAG3lEIhRXEZjbHyVXA70KAXIIGribiawOTgHax2MTZa3IJnEw90ulKA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_006_0155dd8c4c41.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvOdqyyGBNic5Ly5E77r7TEiaczWFicVKT6TRV7UYRIZBtdUSv2tvY44Wqxw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_007_13e37384c313.jpg)
 
 学会官方微信
 
@@ -187,15 +187,15 @@ CES Conference
 
 电气技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvOhY55eptlic2yLhFzb17gJ8bxTyFlHeVAGQqsExicAEZt6GlpWWbDm7Ag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_008_be956a638cd4.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvOfIb6u62YRyJJu4XFibXLRuCE5k9DoaWGvzibCyY92wagtI0A7qEUerjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_009_2a18da81d2e6.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179wz3ibq0KxQTQwHOvb8LJvOg3YjU6lzcQXNglAz130aYXV95TpVzVm6kX1d0Lia90s5uLJuKicsUHiaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\抢先看___CES_TEMS_2021年第2期目次及摘要_images\img_010_1b716dd45514.png)
 
 学会官方B站
 

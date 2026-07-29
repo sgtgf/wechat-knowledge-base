@@ -11,9 +11,9 @@
 给大家带来一个系列译文，预计4篇。原文摘自美国《工业电子手册 功率电子和电机驱动___》第二版__，第9章。_《The Industrial Electronics Handbook  POWER ELECTRONICS AND MOTOR DRIVES 》  
 __
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyESGZcdD2NePs5zE3Mh9ib7R7RMuaunQN5USNvNicYquGQD5Y8SX8LTyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_000_140ad8a1d17b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyjnicUyYV1ZSGqbLvWgNLM6qUXxCEgRgbpWg4M8kffX9xy7feltQoGjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_001_d8318d1494d7.png)
 
 **1介绍**  
 
@@ -61,9 +61,9 @@ __
 
 这个笼式转子机器通常用于洗衣机。两种声谱显示，一种是通过电网正常供应的机器获得的，另一种是在切断电源后立即获得的
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyddDctVODsBZQYcwHxZcfyhOCu2picH0YDpMHMJ7JlHbqE8kOqZA6VkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_002_761a76aa2301.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyCP9vGweZvKcpJWl2abunjlQucOXutZPuqEdpNBHljIibEpdffciaRCoA/640?wx_fmt=png&from=appmsg)2.2.1.1 通电的频谱
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_003_5d13917b8993.png)2.2.1.1 通电的频谱
 
 图9.1和图9.2分别显示了单相50赫兹电源的声学和振动谱。在声学谱中，可以观察到噪声成分在336、2016、2160、3264、3920、7550、7650、和11490Hz处看到。总噪声为57 dB。在7550、7650、7750Hz的三条线，间隔在100Hz，是典型的磁噪声。  
 在振动谱上，仍然可以观察到2016、3264、33920、77550、7650、77750和11,90赫兹的线条。由于该谱仅包含磁性和机械噪声，因此可以得出结论：2160赫兹的成分是通风引起的。  
@@ -72,11 +72,11 @@ __
 
 图9.3显示了转子仍然旋转时的声谱。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavy13vg13EhMOc7JaicP1KSy6BCHSibQCKdLI9ekyr7n3YATc2HaQJG2sMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_004_59d96ca6b341.png)
 
 它只包括机械噪声和空气动力学噪声。在2016、3920、7550、7650、7750和11490Hz处的线路消失了。可以得出结论，它们具有磁源，而336、2160和3264Hz的部件具有机械或空气动力学源。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyFGYbm6nh58TxBFOb2icNMZxv7LrCopMKBG5AW5PB9K4qZ3FFFOoMQKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_005_c780659d2240.png)
 
 图9.4为对应的振动谱，仅为我们所关注的是机械影响。可以推断，3264Hz线有一个机械起源；而336和2160Hz可能是空气动力学的起源。因此，这台机器的机械噪音很低。  
 
@@ -84,7 +84,7 @@ __
 
 开关磁阻电机（SRM）和，尤其是双凸极SRM（BDSRM），可以在许多工业、航空航天、汽车和家用应用中使用。确实，这种机器易于制造且成本低，因为转子没有绕组，功率电子控制器具有很少的组件。除了其简单的坚固结构外，它还具有高效率。由于径向磁力引起的定子轭部变形，SRM可能会特别引起振动和噪声问题。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyKc02PDLFw56fvZOquuMaibZurpeQqWo098NFfFyVFor52KjA1wtX3SA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_006_fb735c8cb3d4.png)
 
 图9.5显示了带有8个齿的定子和6个齿的转子的BDSRM的声谱；它由矩形波供电，并以1466.6rpm的速度旋转。图9.6显示了定子框架的径向振动。这两个谱是由许多细线组成，这些线均匀分布。大量成分的原因是相电流和电压不是正弦波形。它们导致产生噪音和振动的谐波。在振动谱上清晰地出现一条主要的频率为2200Hz的线；模态分析解释了该频率的存在，即定子框架的自然共振约为2100Hz。
 
@@ -94,7 +94,7 @@ __
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavy5ictebgicRiaIC2btFlBzRibQBjKZN4oOWzSW3e8Xhatx112dBicicEkxeQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_007_b6172ed38c01.png)
 
 使用加速度计测量的振动谱（图9.7）显示了频率为开关频率fw(3kHz)的整数倍的线。因此，PWM开关频率具有对噪声和振动的明显影响。获得静音机器的最佳方法是选择高PWM频率，使人耳听不到噪音（超过15 kHz）；问题是逆变器的损耗随着频率的增加而增加。  
 
@@ -102,7 +102,7 @@ __
 
 磁饱和会产生噪声。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyJYROBTnVtzWCszaTkRkrodJ4Pkd2qU4sXfnNvhEB8vO2EjiaJrWxXiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_008_1750df9d192a.png)
 
 图9.8中显示的声谱涉及一个带有鼠笼转子的工业三速三相感应电机。低速（同步速度为375rpm，电网频率为50Hz）偶尔使用，例如用于提升，但产生很高的声级。由于该机器优先设计用于在两个高速（两极和四极）；定子磁路已经饱和，对噪声的影响显示在声谱上，声谱由频率倍数为300Hz的线组成，并具有特别高的电平。
 
@@ -129,4 +129,4 @@ _
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动1__工业电子手册(美)_images\img_009_ff45e776e079.jpg)

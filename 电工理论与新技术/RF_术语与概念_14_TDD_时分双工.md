@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/N3Jr2i0M4NVSeh22tTY9uw](https://mp.weixin.qq.com/s/N3Jr2i0M4NVSeh22tTY9uw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMOPRiagCRiacGytiaP9ib9lhn3wAOPkybIlaApadsvpLrX5XagUBHj8qcYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_14_TDD_时分双工_images\img_000_0093327a1c2a.png)
 
 ★★★__TCS-14---TDD____**★★★**__
 
@@ -13,7 +13,7 @@ _€1.TDD工作原理_
 
 在TDD模式下，发射和接收信号使用相同的频率资源，通过不同的时隙来区分。在某个时间段内，通信设备进行信号发送，而在另一个时间段内则进行信号接收。例如，在一个无线通信系统中，基站和移动终端可以在不同的时隙交替进行数据的发送和接收。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSVG5bL7EEgjwmD4d5JG483bUaKicorcyuFmsRTPuT22gzibR7jAZBOicPoPSpJp84I7uv9NH5cduuxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_14_TDD_时分双工_images\img_001_fd64603fa011.png)
 
 **_图14-1：TDD示意_**
 

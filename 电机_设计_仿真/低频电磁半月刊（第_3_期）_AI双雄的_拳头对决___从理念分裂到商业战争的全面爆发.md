@@ -11,7 +11,7 @@
 
 ## 封面图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cicZ6db39IjzLodjFCymaibIibvzBQ4HXEiaI38ndfngKLC4kUVNE5d7xdaDjgbwGibk63K0Rw8duPukwKZkxA4oqfY8D0Qz8gWGVn1asShGNOnY/640?wx_fmt=other&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第_3_期）_AI双雄的_拳头对决___从理念分裂到商业战争的全面爆发_images\img_000_f216ae1de587.jpg)
 
 2 月 19 日，印度AI峰会上 Sam Altman（OpenAI CEO）和 Dario Amodei（Anthropic CEO）拒绝握手。两人主要矛盾源于公司竞争和理念差异：Dario于2021年离开OpenAI创办Anthropic，主要因对AI安全和商业化路径的分歧。
 
@@ -38,7 +38,7 @@ Cursor 现在可以展示演示效果\[1\]，而不仅是代码差异\[2\]。智
 
 针对我国风电行业长期依赖国外整机仿真软件、本土工况适配不足、中小企业研发成本高的现实困境，中国电科院历经十年技术攻关，整合国内多区域风资源实测数据，成功研制出风研（WeMoLab）软件\[3\]。作为我国首款全行业通用的自主研发风电整机仿真设计软件，其采用模块化可扩展架构，**覆盖“外部条件建模-整机多场耦合建模-仿真求解-结果分析”全流程，具备适配陆、海多类型机组及超大型化机型的仿真能力，核心性能与国外同类软件持平，且更贴合国内不同区域风资源特性与产业发展实际**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cicZ6db39IjyUe90HRic5VZxaPTtb66D0ibIqCR8PWXIYowVibbdgyHQapXRJrunN8fKOK3Vhp7iazGO7EB9nbia8ibMMYXnfqlWBHqViaib90Yo7VrA/640?wx_fmt=other&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第_3_期）_AI双雄的_拳头对决___从理念分裂到商业战争的全面爆发_images\img_001_119a3a20506c.jpg)
 
 据公开报道，风研（WeMoLab）软件拥有完全自主知识产权\[4\]，机械模型仿真准确度提升30%，电气模型仿真准确度提升37%，整机刚柔耦合模型求解速度提升2倍，同时融入我国东南沿海、中西部山地等3类特有风况模型，更加贴合我国不同区域风资源特性，满足陆、海多类型风电机组及大型化机组的仿真设计需求，可为高校科研、产业升级、人才培养等差异化需求提供精准支撑。
 
@@ -59,7 +59,7 @@ Cursor 现在可以展示演示效果\[1\]，而不仅是代码差异\[2\]。智
 
 关于Ansys Maxwell更新内容可以参考我之前的文章\[8\]，也可以蹲后续Ansys中国的新功能系列直播\[9\]：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cicZ6db39IjyUAF3w05fcUWmcYIEKZHM19edBhUB48MAoKDibzG87RouTf38ZTjuFkA1zneic9mopQibwBIkbManNOLb0vPHG2ru5GS8BRH2TjA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第_3_期）_AI双雄的_拳头对决___从理念分裂到商业战争的全面爆发_images\img_002_9380a8e2c916.jpg)
 
 ## 开源软件/库
 
@@ -165,4 +165,4 @@ Anthropic 设计负责人 Jenny Wen 谈 AI 时代的设计变革: _https://x.co
 
 作者|斗沙片刻
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjyrJdQGW3FW3VqqJwM7gWRRccuibU6Iia6nic4jwWKWibI2WFRcQEs1iaSrtxxcKLZiahBW84FhFCwiaO4Mkcb0n7Jb0s5K19BHibpPsSE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第_3_期）_AI双雄的_拳头对决___从理念分裂到商业战争的全面爆发_images\img_003_fbd2e0604ff1.png)

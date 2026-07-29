@@ -98,13 +98,13 @@
 
 单层线路想不交叉太难了，双层或更多层线路，必须通过过孔来连接。通过孔壁上的铜，连通上下层的电路铜线。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cJDHtaDvrUTYhPo5RdRbVy4o8lTvIeicopUM0CPRXYotkGGAxQiaZTIt7bmAnibBPiarcwVfJqzf6ua1g/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](PCB密集打孔_规则排列还是随机排列__images/img_002_3e66ec276632.jpg)
 
 单层PCB，有些时候无法布线，必须通过过孔换层
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cJDHtaDvrUTYhPo5RdRbVy465VU1qhUlxmKmp97OicmamvISFVvIf7fXofrPBfUob1oUTLb6g5zAsA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB密集打孔_规则排列还是随机排列__images/img_003_e62299dfe4b1.jpg)
 
 大大小小的过孔，连接不同层的电路
 
@@ -196,7 +196,7 @@
 
 电路板上的过孔，主要有机械孔和激光孔两种。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cJDHtaDvrUTYhPo5RdRbVy4sSUSTvEEXArN5hiau3MoZiaebeQP8u6Mcick778MVbP0MBm2yVepWMoag/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB密集打孔_规则排列还是随机排列__images/img_004_cbf3a2de0d54.png)
 
   
 
@@ -314,7 +314,7 @@
 
 对于电源线、地线等需要通过大电流的PCB线路，需要打很多个过孔。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cJDHtaDvrUTYhPo5RdRbVy4SFzhnVNSF2aIbZ4hKhxa3PgRQ7iceR6WqogXCaVuAiazFA66kwU5icLOA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB密集打孔_规则排列还是随机排列__images/img_005_6c3845d6d9fa.jpg)
 
 随机打孔和规则打孔
 
@@ -326,7 +326,7 @@
 
 矩阵型规则排列的过孔，有可能在某些方向上对信号的阻挡能力更强，如果不刻意追求好看，随机打孔会更稳妥一些。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB密集打孔_规则排列还是随机排列__images/img_006_8f8c22b4fa63.jpg)![](PCB密集打孔_规则排列还是随机排列__images/img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

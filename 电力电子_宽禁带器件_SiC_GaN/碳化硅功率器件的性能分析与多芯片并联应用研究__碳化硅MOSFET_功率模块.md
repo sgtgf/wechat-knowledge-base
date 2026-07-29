@@ -13,7 +13,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSJCiaguziaffrEBexIFDeHqYmC18u2dGQQyEer35ymjfazJs1un5KW62g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_000_dccdef29a2eb.png)
 
   
 
@@ -33,7 +33,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSZTyw1MnbM0V5FOAAsDHJl1y6AaRSlGaiaUyxXk6GmibpD3WWZhfCmkvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_001_e4b5119f1956.png)
 
   
 
@@ -69,7 +69,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSRyEw3PcNbhfic3ub7ianoPJHVX2DGFUZwhVL6QLqdd221UciaM4L8fmVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_002_325c7b96daf1.png)
 
   
 
@@ -77,7 +77,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsST0n2ET4bWUZIuSrdPfmcudDwbYMjZSDJRJCNwBLeo2J94bCqGWoxpw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_003_841eb58e729a.png)
 
   
 
@@ -89,7 +89,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSkMb0cJAZU03DZCsfV15VgrUhDOfQekfO62v1xzjURmz0o3eT5N951Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_004_7961b67b85d9.png)
 
   
 
@@ -115,7 +115,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSFrK9ibFpQzFKkXFJYcpj8EZuqILfOSJFFyfcuzwDicldseBqGHknR5rQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_005_6d8f0b5e23a4.png)
 
   
 
@@ -137,13 +137,13 @@
 
 开关器件的关键在于栅压的控制，开关速度和输入电容Ciss相关。以开通过程为例，栅压从低电平升高到高电平并稳定，伴随着Cgd和Cgs的充电过程，Cgs的充电电荷为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSfgR5AdJj6JOXOMDlWdfSe79N2KbntKBL3I91YibVV5y480oetO4gtYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_006_272173622e4d.png)
 
 Cgd的充电电荷为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsScKUx4OLNibteU6HNOnleKMY9K73XLy8Hw6qojoBmdyfiaibbo03jFiathw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_007_c4b6f1582f85.png)
 
   
 
@@ -151,7 +151,7 @@ Cgd的充电电荷为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSZdP5cE5nXfqDAt7CkFhjNLV5CuyFfXhwMfcIRZCDz8X1fDP2icm5Yrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_008_fae916b53a0b.png)
 
   
 
@@ -171,11 +171,11 @@ SiC MOSFET的动态特性通过图3.2的双脉冲测试电路进行测试，测�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsSKEtaznicsdnrZKXLzceiaqau17Yje5VRISe2vTE1W8HAWv3kevicvLePw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_009_e09504792a98.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VFVqPU5Dj8Ubfxib1Ju8QcsShwNXBBBniabS8CEyPnbuicLSbTbKBH9vsBcDQ8X6aXia8PYSgCJOqGMLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_010_0fba638546f1.png)
 
   
 
@@ -241,7 +241,7 @@ SiC MOSFET目前依然价格偏高，尽管在大功率应用中可以通过冷�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VF3kxeZWYf4mqSX6wUw4fIwxTpoafIuagvg9lLtGbavmkZJyFiaiclHjxs9MkOZNEEaNmQBlNQ5661g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_011_b63399dcfe6a.png)
 
   
 
@@ -263,7 +263,7 @@ SiC MOSFET目前依然价格偏高，尽管在大功率应用中可以通过冷�
 
 半导体芯片正面引线键合所用的键合线有多种材料，常见的有铝（Al）、金（Au）、铜（Cu），本文中采用了ＡI键合线，由于商业芯片正表面基本为Al层，所以键合线和芯片之间键合程度高。此外，键合线的线径由材料和电流容量决定，根据经验公式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VF3kxeZWYf4mqSX6wUw4fIwIXxStVhZdnhCicWPOibo7snibAibVmWwhXP5WX2MdFX8eGgQPR5CrTqsPg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_012_8d4af48d3af1.png)
 
 可以得到键合线线径，其中Imax为键合线上最大安全导通电流值，k为材料相关系数，d为线径（英制单位），参看表5.2。比如每个芯片最大导通60A，每个芯片可以连接三根键合线，那么每根键合线20A，最大长度超过0.1cm，那么每根铝线的线径都要大于12mil。
 
@@ -281,27 +281,27 @@ SiC MOSFET目前依然价格偏高，尽管在大功率应用中可以通过冷�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VF3kxeZWYf4mqSX6wUw4fIwMVaia3kJvR9s82iae8aQ0cDvNib1ayvC9PRWyYjUbdIzj2TTf6jJwE3Kg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_013_62d285be910c.png)
 
 表5.1  CMF20120D双脉冲测试的电路参数
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VF3kxeZWYf4mqSX6wUw4fIw9eic2gLYPNGHU9nMiaUB4glBcI9n6nj9WuXpicWrFngRWD26uFLLzvjHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_014_cd72a4d0e684.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PRKzZoBY4VF3kxeZWYf4mqSX6wUw4fIw8uDjyT2wzaeicqOJ4yjich50tHIiaHVjyJShMe3bVMXqoOhSareLlq5XA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_015_9b63ace74dd1.png)
 
   
 
 文章来源：周伟成，碳化硅功率器件的性能分析与多芯片并联应用研究【D】，浙江大学，2019。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpbL0Yf1xks8picoSoLHuSjWEUaQcTNMFyvalVjWw4QYicz6GefozicIEaPkx2eMOlnibTIGzBC9d28Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_016_d5ace569c98f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpbL0Yf1xks8picoSoLHuSj59csI8JcrD8XDNe7laENib1h9PuKbGkKBsmIribGRz25mUohvJRkQ4Lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_017_d18d7a9d4b9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpbL0Yf1xks8picoSoLHuSjcjramLZ4qoh2ISCtWWUzX7slOpz1EH78ylIqGot9DYJ5szLrMRJIDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件的性能分析与多芯片并联应用研究__碳化硅MOSFET_功率模块_images\img_018_d1299a7e5658.png)
 
   
   

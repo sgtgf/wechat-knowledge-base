@@ -21,7 +21,7 @@
 
 1. 系统总体方案设计
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMBpGkOXBloqtDf1VTItWmnPPRcQIap6vwyO0Saeg1ZmaBCXXOYkO3p3YwxicuVT8S21qiaKficgyibHEe2De4ibXWHlXl3RWqERyPk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_000_5635b17d7772.png)
 
 系统的整体性能高度依赖于其拓扑结构，合理的拓扑不仅影响功率转换效率，还深刻影响后续模块的热管理与集成策略。开关电源具有多种拓扑结构，其中，反激式（Flyback）拓扑因具备固有的电气隔离能力、电路结构简单及控制策略成熟等特点，在AC-DC 变换场合得到广泛应用。尤其在本研究所涉及的高温、大功率密闭空间条件下，反激式拓扑通过高频变压器不仅实现了输入输出的电气隔离，还提供了宽范围电压调节，能够有效满足测井电源模块对安全性、可控性与高集成度的要求。因此，本文选用反激式拓扑作为主功率变换单元，为后续控制电路设计与热管理优化提供稳定的结构基础。  
 
@@ -41,11 +41,11 @@
 
 考虑到该开关电源设计需要在井下极端高温环境下使用，开关管选择耐高温的SiC 材质，高漏源击穿电压Vds,max为800V。在150V 裕量条件下所允许的最大反射电压Vf,max见式（1）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMWzT680k2HNAETTXhVKrN0drlw4HxNyqpZb6LRdE0btG6PicwYtoRQ19oWALvG2sgfmswlzdE6TKPFa8JMibNoVU9yiajBUNhdibo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_001_0936d0305ad1.png)
 
 由式（1）可得，在150V 裕量条件下所允许的最大反射电压Vf,max为312V。最大占空比Dmax的计算见式（2）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPKyLciaicNW5MsAHqxyRiaDxW8IAuerU9oVAMuIlVFNBk77kOI8MT5icWItfkyCicj023TKP4gaENicxLBrOUYKkcnJeOr1whVpLbek/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_002_038c814a4333.png)
 
 式中，Vf为实际设计反射电压，V。  
 
@@ -55,49 +55,49 @@
 
 在变压器设计中，需要计算出变压器原边电感量、磁芯有效截面积、变压器原副边匝数及气隙长度等关键参数。为求得变压器原边电感量，需先计算变压器原边的工作电流。根据能量守恒定律有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOxSH9Qke150U0VUndKicfhhsxqPIYRnhwHJUWmCsaeCPNjV2Ktq1ic7s3SiaSlke3hHv4jFX5hIjsICbichRawDdFopnVNyhnzdqU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_003_7e00e94e807c.png)
 
 式中，Ip,max 为变压器原边的最大工作电流，A；Ip,min为变压器原边的最小工作电流，A。变压器输入总功率Pin见式（4）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNV9EQXGNtutr2MFeS6zicfzmiadHoy0CAQPSQC47ibXdJSIpCiaZ9t4ibLu3nXibMam1t1znsXrQ6KgFP9QuU0gUGZoJndNf0nEia7Bo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_004_99c017499f58.png)
 
 变压器选择连续模式（Continuous Current Mode，CCM）设计，令Ip,max\=3Ip,min，可求得变压器原边电流。由式（3）和式（4）得：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNQ4TNLvOfVYdmn6LicvHpPricicBmeMKicMl6OrsYxy4hKuavbicb9Jp6xrl9qTV7u8NibUNoLL26ge1gLib28yc0H0icUvG1GAlQkia90/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_005_b34e243edbb2.png)
 
 由式（5）可知，Ip,min 约为0.6 A。由式（6）可求变压器原边电感量Lp。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMeQkSbzUuetT8hibVqQn3P2UoARDl5KcEoUHa5MuqwQjkvxqSRHvdIO5ibia20qeLXQibx4LNgL1I5ajEYo6reRmp2k4RKOpYsO2U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_006_1d7d632b2fbd.png)
 
 式中，Lp 为变压器原边电感量，mH；∆Ip 为原边电流变化量，A。  
 
 根据CCM 设计得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP96nERNDjdhToxHLdSbmK0Noa9ibB78hmmPzJ1iaXbJfcPFQ5WxEkia4ibEho4qB2o1ehicxGKh2YLB779klRhw7IDv0aXg61dgfmk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_007_ac1ad5cccfec.png)
 
 将式（7）带入式（6）中，可得Lp为0.98 mH。  
 
 本设计采用面积乘积法（AP 法）选取磁芯参数。Ap 为变压器磁芯的有效截面积与窗口面积的乘积值，Ap计算公式见式（8）。式（8）的各项变量均为高频变压器设计的核心约束参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNYkicZ6cu7iae4G9IQgsekySCM8ZKBcVxJI7TIZuwnlOFCyn0ksqq4vN3gloicVHVjpt8H05OeWCWpsxdtQdhNh2n5hhEkMwD8D4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_008_20a3dbd1056f.png)
 
 式中，Ae 为磁芯有效截面积，cm²；Aw 为磁芯窗口面积，cm²；Bw 为最大磁感应强度，T，一般取值为0.1～0.3 T，本设计Bw取0.2 T；Ok为窗口面积利用系数，根据安全标准的要求和输出路数确定，一般取值为0.2～0.4，本设计Ok取0.3；Kj为电流密度，其取值为200～600 A/cm²，本设计Kj取400 A/cm²。将已知数据带入式（8）中，得Ap 为1.379 cm⁴。为留有一定裕量，选用锰锌铁氧体磁芯EE3825，该磁芯的电感量系数为2600 nH/N²，磁芯有效截面积Ae为84.80 mm²。  
 
 变压器原副边匝比n 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPp4zEMHBnNo3SLoO6q7465MH6SibibwQhYUEkFTPXwGCaHl1OsW190NAdDaWwMV2qmsaRWQAib8IlpTbhX5sOoVmMjwIR02JBqc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_009_81b08ed69b2a.png)
 
 由式（9）计算可得，变压器原副边匝比n 为3.25。变压器原边绕组匝数Np见式（10）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPrRhI5icWxgqgRSlgNM2sxicGia0gicSQmLdTQOsAdmxDKuup2hOyT3AGOic2jIQgzyKnnKp0iaDXhtAxATEUBXuQ9XpbZ2Za3zOXzI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_010_e38cc422c332.png)
 
 由式（10）可知，Np约为104 匝。为避免变压器磁芯饱和，在磁回路中加入适当的气隙，变压器磁回路气隙lg计算见式（11）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNoWibsuTficyibxjzLgjnIwwZEB6LzFhEZVibEUXiaSg4kL0CuKcmg0D5bpJx7GTxiaWyHibKm990FX8QXqwltXQhtz5h0NrYdpPxvO0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_011_1c70b811dc5c.png)
 
 由式（11）可知，lg约为0.12 cm。通过输出直流电压Vo、变压器原边绕组匝数Np、变压器原副边匝比n 和变压器辅助绕组输出供电电压Va，可计算出变压器副边绕组匝数Ns和变压器辅助绕组匝数Na\[见式（12）\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO3gPibHJHUnuamO5mPYIauwGeGiahrY5pibA0CYSnRuG4freYoxWkprQQWQQPjBXtUkgtCQMf6vj6gvXWEnI5r3ibOlicc04VGvLdE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_012_0b62ab9d0a7e.png)
 
 将已知数据带入式（12）和式（13）中，可知变压器副边绕组匝数Ns为34 匝，变压器辅助绕组匝数Na为6 匝。  
 
@@ -107,7 +107,7 @@ EMI 滤波电路用于抑制共模与差模干扰，以提升系统的电磁兼
 
 滤波后的交流信号经整流桥转换为脉动直流，再由滤波电容C1平滑输出。C1选用固态液钽电容，其具备优异的高温稳定性与较低的等效串联电阻（Equivalent  Series Resistance，ESR），可有效降低输出电压纹波，提升直流输出的稳定性与噪声抑制能力。EMI 滤波及输入整流电路原理见图2，其中，ACL、ACN 分别为交流输入的相线与中性线；Vdc 为经过整流桥与电容C1滤波后的输出直流母线电压，V；L 与N 分别为直流输出的正极与负极。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPvUjrAgyCkicicxmxaMQqhQocVczhk95H5RcQvJHaHxa4WA2HlJc4FiavOaxlUfkj28RBL52ZPDNwqWuxfb1sl13y3nIYJqPIyVI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_013_d66409c0f3c9.png)
 
 2.3 PWM 控制电路设计  
 
@@ -115,11 +115,11 @@ EMI 滤波电路用于抑制共模与差模干扰，以提升系统的电磁兼
 
 PWM 控制电路由振荡器、误差放大器、电流检测比较器、输出驱动级及多重保护模块组成。其核心功能是根据输出电压的变化动态调节MOSFET的占空比，从而实现电源输出稳压。控制芯片UC1843 的内部结构见图3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPmllslF7HhlDaLpPOpCjw3GX2QEJClCeWjx4pF3F44VpcblVe3M6tfBTtciaUQ2KkM1MFYND3Ux0yskW4ey1lnTg3icUMzAdMN4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_014_dbd977b0a89f.png)
 
 PWM 控制电路的工作流程：当输入端经整流滤波后为控制电路提供直流供电，且芯片供电电压（VCC）超过欠压锁定阈值（典型值8.4 V）时，控制芯片UC1843 启动。芯片内部振荡器的工作频率由外部电阻（RT）与电容（CT）设定，本设计设定为100 kHz。通过连接在基准电压（Vref）与RT/CT端之间的电阻设置充电电流，而电容器经由RT/CT端接地实现放电，从而形成稳定的振荡周期，其频率fosc计算见式（14）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPJ1rOlX90DeI1qoMfRe3w9ib3PCc8OMCiaTAibupiasliaE2wmJ2x5iaibCxCRVibozYKv9cLTmSseFmeLyOKgkeBc8OpaCl5cibB3BNEI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_015_a6bf4c079255.png)
 
 式中，RRT 为定时电阻器的阻值，Ω；CCT 为定时电容器的电容，F。根据UC1843的芯片工作手册可知，RRT一般取值5～10kΩ，CCT 一般取值1～100nF。本设计CCT取值2.7nF，根据式（14）可得，RRT为6.2kΩ。  
 
@@ -127,7 +127,7 @@ PWM 控制电路的工作流程：当输入端经整流滤波后为控制电路
 
  2.4 输出整流与滤波电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNATggmzg8Nbh1iabxdkFic4AI6yeznzqIdKjhu3GQy6BufefD4FVqVk8yKs2KbDO6RcfDvQGWutPuE29xrpC5fK2Jju0WHraF4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_016_8eadc4dce4ba.png)
 
 输出整流与滤波电路用于将变压器次级感应电压转换为稳定的直流输出，并抑制开关噪声与高频纹波。输出整流与滤波电路原理图见图4，其中，Q1 为反激式变压器；GM3为共模扼流圈；LGND为输出侧参考地。  
 
@@ -137,7 +137,7 @@ PWM 控制电路的工作流程：当输入端经整流滤波后为控制电路
 
 反馈电路主要包括光耦隔离与磁隔离两种方案。光耦隔离电路结构简单、元件少，便于小型化和调试；磁隔离虽具有材料选型灵活、耐温范围大等优势，但电路复杂、调试难度大、散热性能较差，不利于高功率密度设计。综合考虑性能与实现难度，本设计选用日本东芝公司（TOSHIBA）的线性光耦TLX9300 与可控稳压精密源TL431 构建隔离反馈电路，该器件可在175 ℃环境下稳定工作，满足高温应用需求。反馈电路原理图见图5。反馈电路通过TL431输出误差电压控制光耦导通，实现输出电压与原边直流电压的隔离调节。设输出电压为72.0 V，TL431 的内部基准电压Vref 为2.5V，偏置采样电阻R35 与R36构成输出电压的采样分压网络，其中，偏置采样电阻R35 为68.00  kΩ，经分压计算得偏置采样电阻R36 约为2.43  kΩ。为确保TL431 在动态调节过程中始终满足最小静态工作电流要求，设置其工作电流为1.2 mA。由于偏置电阻R29与光耦原边发光二极管并联，其两端电压即为发光二极管的正向导通压降（约1.2 V），由此可得偏置电阻R29\=1.2V/1.2mA=1kΩ，此参数设计确保了反馈电路的稳定可靠。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOQpJkMiaibnhkpetXTia1rLQcNfSlpIluKfm72nEYqsoFzEZrAVIL5F1kyeh10DiaB704Wh3oKkfplQPMiafgEYwqWFUP7QQ180kYE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_017_5bae5d3e1e3f.png)
 
 2.6 启动电路设计  
 
@@ -147,23 +147,23 @@ PWM 控制电路的工作流程：当输入端经整流滤波后为控制电路
 
 系统进入稳定工作状态后，主变压器辅助绕组L1 输出的电压经快恢复二极管D10 整流、电容C10 滤波稳定后，作为控制器工作电压VCC。该电压同时触发稳压二极管D11（24 V）导通，使MOSFET Q4 开启，将Q4 栅极电位拉低，从而关断Q4，使启动电路退出工作。该电路实现了启动与关断的自动切换功能，既提升了系统启动可靠性，又减少了额外功耗，适用于耐高温场合下的开关电源启动需求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPQcFKbqCTY1TJ4d2bOkkOk5x4UiaTOhK9BzwrWwsdxkvNQKNQ6ZXkvn7cp3dE0zwvPLRrScx3tQbwlWlScxQmEaLa42vlz4yH0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_018_78ff66a2a350.png)
 
 2.7 保护电路设计  
 
 针对MOSFET 关断过程中产生的瞬态电压尖峰及高频变压器漏感能量回收问题，本文提出基于电阻、电容和二极管构成的无源钳位网络（ResistorCapacitor-Diode，RCD）优化设计方法。该电路通过吸收电容C2 与泄放电阻R2 的参数协同配置实现双重功能：①吸收电容的容值直接影响漏感能量存储特性与电压尖峰抑制效果；②泄放电阻的电阻值需满足功率器件电流极限约束，并与PWM 逆程周期内C2的放电时间常数相匹配。经计算R2为6.7 kΩ，C2为5 nF，D4 选择快恢复二极管以缩短反向恢复时间。RCD 钳位电路原理图见图7。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN98ZlQVXqWojibBAx7QJWUtDufN6ia2nSFIHsEiaYmKP9knLDOqzzUMyPXenxhWSYkCAUlJeam74kOUnFjicTocYVibCCcaez0rXek/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_019_08ae47cdb2b1.png)
 
 3\. PSIM 仿真测试
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMZibl8lhJ7DNPZhXXvykicDo0JE3D9UGQrgHzuFBQgMFZp8ic3KiaCicyK5iaVTtMBQUtTibZlsdn0xyHw7JexkgfSxCj9NPH4yPh2VM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_020_ea59a6bc4070.png)
 
 为验证所设计电路的可行性，本文采用电力电子仿真软件（Power Simulation，PSIM）搭建基于控制芯片UC1843的单端反激式开关电源仿真模型，输入交流电压220V。由于PSIM自带器件库中未包含UC1843芯片，仿真中选用功能相近的UC3843芯片作为替代器件进行分析。开关电源PSIM 仿真原理图见图8，其中，Vg 为PWM 控制芯片输出端测量电压；Ics为输入到IS引脚的电流采样信号。图8中整个电路由整流滤波、RCD 钳位电路、高频变压器、输出整流与滤波、辅助供电、PWM 控制电路以及反馈电路组成。为便于理解，将其分为主功率级电路、PWM控制电路、反馈电路这3 个子电路模块。主功率级电路输入交流电压220V，经整流滤波后转换为直流电压供给主功率级电路，次级输出端经整流与滤波后得到稳定的72V 直流电压；PWM控制电路以UC3843 芯片为核心实现PWM 调制与占空比控制，通过驱动功率MOSFET实现能量传递与稳压调节；反馈电路将输出端的电压信号进行采样，经隔离网络反馈至PWM控制芯片的对应引脚，从而闭合整个电压调节环路。  
 
 反激式开关电源PSIM 仿真结果见图9，图9 中采样频率为100kHz。由图9（a）可见，系统启动时输出电压快速建立，经约0.05 s 的动态调节后进入稳态，期间存在微小过冲。稳态输出电压平滑，稳定在72V，无明显低频纹波且稳态误差极小。由图9（b）可见，PWM驱动波形为规则方波，高电平幅值约为13V，足以保证功率MOSFET的可靠通断。根据波形测算，实际开关频率约为92kHz，与外围时序电路（RC）设定的理论值100kHz 略有偏差。该偏差主要由控制芯片内部比较器的传输延迟及振荡器充放电死区时间引起，属于工程上的合理误差范围，不影响系统的稳定运行。综合波形分析表明，该开关电源设计方案拓扑结构正确，控制环路参数配置合理，各项电气指标均满足设计要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMYzQ7OemfhXxUlMvnX5xoFibFhxOwfnKIOrqWndGTgfr8XtTueOsNhwVmXRj3CSDSP78fMMzO91Dlica13Pu2B2pGicutUU99ic9E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_021_a2be4aae5cb5.png)
 
 4. 散热设计  
 
@@ -173,34 +173,34 @@ AC-DC电源模块主要发热器件为变压器、功率开关管和整流器件
 
 （2）壳体结构设计。反激式AC-DC 开关电源模块结构见图10。AC-DC模块内部结构分为控制板和功率板。为便于高温测试及散热，采用硬质氧化外壳封装控制板和陶瓷基板，封装后整体外形尺寸为338 mm× 57 mm×30 mm。其中，变压器、功率开关管等功率器件表面贴装在陶瓷基板（功率板）上，控制芯片等器件则贴装在控制板上，在实现小体积的同时有效增大了散热面积。最后采用导热硅脂对整个模块浇灌，增强电路导热能力，减小器件热应力，从而满足175 ℃高温环境下长期稳定工作的需求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNN1LRdcpv9J9bV4eBTJVy2NnQGxT0l0EfhgoHUEuibLuRWSeBgOlO12bJHGEagCNiaXW42icUethE46aEG7RB7SVia2Uv2MCvQLnc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_022_6cc845f2d90a.png)
 
 5. 实验结果及分析  
 
 为验证仿真设计与结构热管理方案在实际高温环境下的可靠性，对本文设计的AC-DC模块进行175 ℃长时间高温模拟测试。测试前，先在常温条件下对电源满载输出特性进行基准测试。测试采用示波器探头直接连接AC-DC 模块输出线进行测量。由于输出线需从恒温烘箱内引出，引线较长，探头与输出线构成的环路面积较大，可能导致测量结果引入额外噪声，因此，该纹波结果仅供参考。测试波形如图11 所示，该电源在满载时输出电压能稳定在72V，波形无明显低频波动；输出电压纹波约46mV，幅值较小，常温下输出满足设计要求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPGOxQjfVBqxmNmodfCjoJzIOUIA9r07vnFll3lQwer1mSs7vxOqVCic9y9DgOsZITamuFnsvqDqlRic5Gm4VbkrMnbccaKmteE8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_023_f0fada962eb7.png)
 
 为模拟井下恶劣工况，对电源模块进行了变温与恒温两阶段可靠性测试。首先进行升温测试：温度从25 ℃逐步升高至175 ℃，步长为25 ℃，在每个温度点保温30 min 后进行电气参数记录，以评估电源的温升稳定性。随后进行高温老化测试，在温度达到175 ℃后保持恒温，每小时采集一次数据，持续100 h。为直观展示长时间高温应力下各项参数的变化趋势，将测试数据绘制成折线图（见图12），AC-DC 电源模块加温数据的统计结果见表1。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLJ5SXaHacz9KokDIgr4l3koNxJ13xMrMiaIkYOKznh9vgRzD2XXALWkQ8iaXrdQcBu85ZMPtiagRG0rKKoPrjL0mplY8AJID1F0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_024_5954412a7f09.png)
 
   
 从表1可以看出，随着温度从25 ℃升高至175 ℃，电源效率从87.525%提高至88.632%（见图12），电源模块在温升过程中显示出良好的热稳定性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9LErzp3MqBqiaXib9d5DZVFzO9xRfLGqNQTYs3RQeP9FCFR9EGTAyR4lbbDFK0pUFKcYalRat3LV6qicRibABdiaCveibZEEHsJU1I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_025_6ff261529a3d.png)
 
 虽然温度升高对输出电压有轻微影响，但效率的提升表明该电源模块在高温下仍能保持较高能效，验证了其在宽温度范围内的可靠性和适用性。在整个100h高温测试过程中，AC-DC电源模块的输出电压始终保持在（72±1%）V 内，最小输出电压为71.587 V，最大输出电压为72.752V，波动范围较小。随着温度的升高，输出电压和功率均略有下降。当温度升至175 ℃并持续加温40 h 后，输出电压逐渐趋于稳定，AC-DC 电源模块进入热平衡状态，输出电压、功率及效率基本保持不变，表现出良好的高温稳定性（见图13）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO6EwSAibWEV6AdNx3tVZ1qicSut8ueIT1c9Y6ofVRaAYhicgRlbjY7Rlic4Vt8EdbN9axibF2o3fib6G2A5sBicOZINumRIJp9o6vHcU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_026_281e415d4861.png)
 
 AC-DC 开关电源在175 ℃时的电压线性调整曲线见图14。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4Zt7XHJ6gPNmjZibwDOFZl8b1p0TIsLTboNIYOuaGU6Co5SLm8WxkiboFRaAuAkoekIia0XwXf5gfGYMkda2MVFLbzgIZUmJOzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_027_1e5aa3058700.png)
 
 该曲线展示了AC-DC 开关电源中输出电压随输入电压变化的比率，即线性调整率，这一比率反映了输入电压变化对输出电压稳定性的影响，是评估电源在不同工作条件下稳定性的关键指标。线性调整率M 计算见式（15）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO0rmbbmCLtFenRJHaXgnqV4C149JEsExRulicAk6jrepHHMibhYjkgdEg4iaZ6iaGOmUqbEIQDTonk5cybp19844xQmkD959QBmRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_028_98ec478bc491.png)
 
 式中，ΔVout 为输出电压的变化量，V；ΔVin 为输入电压的变化量，V。
 
@@ -224,14 +224,14 @@ AC-DC 开关电源在175 ℃时的电压线性调整曲线见图14。
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNLib13MQibOzrbjwyGK0q1spGlKibPeyLZxE0sqo4ku1bOISbFrysgBMyoNwCL1Yic0FxCpk6maiakJflJxeQdsbtqymHKaiax7SvZg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_029_d65fd5a71824.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSQDpCdBm0PI4icrR77QJTG0WZSdaziajTpjYiaia7icOtK138seuyPkbc4icT4ibEfTo43QGjOGgBeMTpiba64C8lCPoQ4kCcUicpIO5U/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_030_d4a470c5eda2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPnO5Yd0flwhBRLjZKLc9oY6mqohltvEYo4DDveibEx1AYNjkLiciazPicYkicAlcZlrWzoYCLhIp31lOOKKkHibYHjKCDlx1DFrxTzk/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_031_c1a7154d0067.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP1Kl5KbJkibiangUN1W1niaGtylmkxvw0CVibeFh8JDjdNMnxxknFIJQJT7cRUI6kWfsYGXZeFCOEKrevjNXgxS1k8Dlef1WHVOmM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_测井耐高温_AC_DC_开关电源设计_images\img_032_4473dae8d5b9.jpg)

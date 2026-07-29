@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8lFkPkqrEjFcnKY-4LGNjg](https://mp.weixin.qq.com/s/8lFkPkqrEjFcnKY-4LGNjg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_000_4fecbf19a39d.gif)
 
 **电动汽车电机驱动SiC功率模块热设计综述**
 
@@ -92,33 +92,33 @@ CFD的主要缺点是模拟时间长，收敛问题频繁，难以应用自动�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178pRiamA4YxXoSYicCg0YlbOu8wX9zkngO3zqUOmI6Iw0UG3s2icwJVo1lRmtWIO1eiahccLPKxctbMSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_001_09d2bee63789.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178pRiamA4YxXoSYicCg0YlbOurQM2R0LQ38EuuichKjb6xxB5f7wXMFgpBFZYtHXslYxv5kw63JjKdIw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_002_3ede0caaff24.gif)
 
 **宁圃奇**，男，博士生导师，中国科学院电工研究所研究员。2004年毕业于清华大学电机系获工学学士学位，2006年毕业于清华大学电机系获工学硕士学位，2010年获美国弗吉尼亚理工大学电气与计算机工程系工学博士学位。2010至2013年工作于美国橡树岭国家实验室，任副研究员。2013年加入中国科学院电工研究所，任研究员。主要从事高温碳化硅器件封装开发、高功率密度全碳化硅。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178pRiamA4YxXoSYicCg0YlbOuVZbuthS3opFWgpqiaJfBy2FHlqylhCCAvadXf2w6uMBxCrSnvsa0QIA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_003_66ea597184a0.gif)
 
 **回晓双**，男，中国科学院大学博士生。2021年至今于中国科学院电工研究所高功率密度电气驱动及电动汽车技术研究部攻读博士学位，专注于高功率密度碳化硅电机控制器的多物理场建模与集成优化研究。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178pRiamA4YxXoSYicCg0YlbOupyr1QRaFzfr2w6ibx2gxkkrXHYInicibIyuSruzFWp3TurnU9ythGGhmg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_004_dfc9d4fd2f7a.gif)
 
 **康玉慧**，2015年毕业于中国石家庄铁道大学电气工程及自动化专业，获学士学位。于2019年获得中国科学院电工研究所硕士学位。主要研究方向为电力电子器件封装技术。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178pRiamA4YxXoSYicCg0YlbOu5diarLDC9mJPRvrTB83AADuOn0pqISsl4wR7h23CS2YY9TpHpcYOtLA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_005_b4a7b41109b0.gif)
 
 **李东润**，2022年于中国科学院大学电子电气与通信工程学院获学士学位，目前在中国科学院电工研究所攻读硕士学位。研究方向是电动汽车电机控制器自动优化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178pRiamA4YxXoSYicCg0YlbOu3x20tbwYYaeR4uE5ibuIJ5AYtlI9VYTmRQrhqJkhxdMhGDtRyklLFsQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_006_250d144db9c3.gif)
 
 **杨嘉俊**，2023年于长沙理工大学电气与信息工程学院获学士学位，2018年至2020年服役于东部战区空军某部队，目前在中国科学院电工研究所攻读硕士学位。研究方向是电动汽车电机控制器散热性能评估。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178pRiamA4YxXoSYicCg0YlbOugPjUPf1Hzic6KDvzR4f7gQLBbr3ZnRW9LBgPBzsE5vVuB9XvjiamxSXA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_007_1d8a33b16c32.gif)
 
 **刘朝晖**，2006年获得中国太原中北大学自动化专业学士学位，2011年获得中国北京航空航天大学机械工程专业硕士学位，2017年获得英国谢菲尔德大学电子与电气工程专业博士学位。2017年至2020年，于英国马姆斯伯里戴森技术有限公司的研究、设计和开发部工作，2017年担任高级工程师，2018年担任高级工程师。目前是中国北京国家新能源汽车技术创新中心的首席工程师和动力总成负责人。
 
@@ -128,7 +128,7 @@ CFD的主要缺点是模拟时间长，收敛问题频繁，难以应用自动�
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_008_654c2fde68d8.jpg)
 
   
 
@@ -142,15 +142,15 @@ CFD的主要缺点是模拟时间长，收敛问题频繁，难以应用自动�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_009_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_010_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_011_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -158,15 +158,15 @@ CFD的主要缺点是模拟时间长，收敛问题频繁，难以应用自动�
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_012_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_013_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_014_644d85f1cc17.png)
 
 学会官方B站
 
@@ -174,15 +174,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_015_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_016_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中国科学院电工研究所宁圃奇研究员_电动汽车电机驱动SiC功率模块热设计综述_images\img_017_c28b250481e7.jpg)
 
 学会科普微信
 

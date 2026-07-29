@@ -17,7 +17,7 @@
 
 隔离型三相双向AC/DC变换器的典型方案如图1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEDU7o4icA3uPyHhRia0F5Hgs1wgfTAyyV3lC18o8wm6sMQPfUFZZdPicBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_000_e86f11f37653.png)
 
 图1(a)采用非隔离三相AC/DC 变换器与非隔离DC/DC 降压变换器的两级式拓扑方案，两级间需要解耦电容，且工频变压器体积重量大、成本高。为去除工频变压器，图1(b)给出非隔离三相AC/DC变换器与隔离DC/DC降压变换器的两级式拓扑，可实现高频电气隔离，但仍需解耦电容。 如图1(c)所示，单级隔离型三相双向AC/DC变换器消除了两级间的解耦电容和DC/DC降压变换器的电感，功率密度更高，且通过变压器匝比调节可实现升降压变换，成为近年来国内外的研究热点。
 
@@ -29,15 +29,15 @@
 
 1. 单级隔离三相AC/DC变换器拓扑
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnESJpzZMJMaXV8n8aoT0EkbamEpS57OopErdaMFQfS7pDu8CkluUxEmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_001_e2849c0a0f85.png)
 
 三相准单级式变换器如图2 所示，其开拓消除两级变换器间解耦电容以构成单级变换器的思路，为单级高频隔离三相双向AC/DC变换器拓扑的发展奠定理论基础。虽然该变换器提高了功率密度，但开关损耗较高，且在大功率场合应用时，开关管电流应力较高。为解决上述问题，国内外学者对单级高频隔离AC/DC变换器进行深入研究。 本文对其进行分类总结，如图3 所示，并对各类变换器的特点进行详细介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEvCcmEtDBUBrv1tDQasjPYFyZ1WvAzmdEIevU8ftPmIk3WW6Qo4aL7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_002_c8e6ee3a1abc.png)
 
 1.1 三相矩阵型AC/DC变换器拓扑
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEfia0MsACcWvYsiaWm0u3A87ajJKBbt7c4J6sPxgMQh5ROBk0iatTaNibWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_003_e30251188e37.png)
 
 三相矩阵型双向AC/DC变换器是目前研究最为普遍的单级隔离型拓扑，其特点是交流侧桥臂为双向开关矩阵，如图4 所示。图4(a)所示为Boost 型拓扑，交流侧电感电流连续，功率因数较高。但交流侧电流与变压器漏感电流在开关状态切 换时会发生瞬时不匹配的情况，导致开关管两端产生电压尖峰。因此，在桥臂两端往往需外加吸收电路，这会降低变换效率。图4(b)所示为Buck 型拓 扑，适合降压AC/DC 变换，但交流侧电流断续， 需增加LC 滤波器，以降低电流谐波含量。  
 
@@ -45,7 +45,7 @@
 
 基于双有源全桥(dual active bridge，DAB)直流变换器的思想，三相双向AC/DC变换器将变压器的漏感作为能量传输电感，可解决上述电压尖峰的问题，同时实现开关管的软开关。通过控制交直流侧桥臂电压的移相角可实现电能的双向传输。 DAB 型拓扑与图4(b)所示Buck 型拓扑结构的区别仅在于电感的位置，但其工作原理存在较大差别，如图5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEDfcheqicJJ4Ia0fUccydWnvsTGRoPQ3Fr9ogmbjbQlngVRBJKNBnhHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_004_c4669e43860e.png)
 
 Buck型拓扑直流侧电感起滤波作用，其两侧电压为直流侧桥臂输出的高频方波电压和直流侧电压的差值。当电感电流连续时，其感值只影响滤波效果，变换器工作原理类似Buck 直流变换器，具备降压能力，但不利于软开关的实现。DAB 型拓扑中与变压器串联的电感起能量传输作用，其两侧电压为交流侧桥臂输出高频电压与直流侧桥臂输出折算到原边高频电压的差值，且两侧电压之间存在移相角，控制自由度增多。电感值影响传输能量值，变换器工作原理类似双有源全桥变换器，有利于开关管实现软开关。  
 
@@ -57,17 +57,17 @@ VIENNA 整流器由KOLAR J W 等人于1994年提出，其优势在于输出为
 
 三相VIENNA 型双向AC/DC 变换器不仅可解决上述问题，还能降低导通损耗，提高变换效率，如图6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEkHN9bibGn1X6qeSZrJ0NuGfeqPRXm2uj6KP1e1B2etWbshIGeZFYVYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_005_37d1b81eeddb.png)
 
 引入多变压器的变换器拓扑可进一步扩展功率等级，降低开关管电流应力，且Y-△连接的变压器可额外提供2：1的降压比，使其适用于蓄电池充放电等直流侧为低压大电流的场合，如图7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnE9ABgjhnpyaNaAHl25ibia8Gv0dTwCVnVEiaI58ibtx96CCicZWTGn3x8omQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_006_d431bf174b1c.png)
 
 1.3 三相SWISS型AC/DC变换器拓扑  
 
 VIENNA 型拓扑的交流侧电流连续，其本质上为升压变换器，只能通过变压器匝比进行降压。 根据空间电压矢量对变换器进行控制，不需要外加磁复位电路。为适应高降压比场合的需要，SOEIRO  T B 等人提出SWISS 型拓扑，与VIENNA 型拓扑为对偶关系，其交流侧电流断续，需额外增加LC滤波器。变换器具备内在的降压能力，直流侧为滤波电感，可降低电流纹波。一种由SWISS 衍生得到的隔离型AC/DC变换器如图8 所示，采用空间电流矢量调制，变压器工作方式与正激变换器类似，需通过外加元器件实现变压器磁芯的磁复位。 例如，在变压器两端并联电容，与励磁电感谐振而实现其磁复位，也可通过有源箝位电路等其他方式进行变压器磁复位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEUCHRwibgiamarLGvAno98ne5iacyvY27jOJkTWib8ibt0ZicLW3gCh1bfssQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_007_4a59505d7842.png)
 
 上述变换器在线电压过零处存在三相电流畸变问题，增大交流测滤波电容可缓解畸变问题， 但会引起电流相位的滞后。此外，为抑制LC 滤波器引起的振荡，增大电容的同时需减小电感，但会造成交流测电流纹波增大。  
 
@@ -77,22 +77,22 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 根据直流侧为电压源还是电流源，可将Z 源变换器划分为电压馈电型(voltage-fed，VF)和电流馈电型(current-fed，CF)。为实现电气隔离，提出高频隔离型Z 源/准Z 源AC/DC 变换器，图9、10 分别 给出VF 型Z 源和准Z 源拓扑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnE0canmPANYgI8tibCYyiaZmkfASQV9zJeXjRwhygOrEe0pIt4zZfLHfiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_008_388f56acc13a.png)
 
 其中，图9 所示Z 源型拓扑的直流侧电流断续，不适用于对电流纹波要求较严格的场合；图10 所示准Z 源型拓扑的直流侧电流连续，电容电压应力更低，无源器件数量更少。然而，无论是Z 源还是准Z 源变换器，均需增加电感与电容这些无源器件的数量，其体积重量会增大，进而影响功率密度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEGTfqxmsKEYnFAoicWGb18AkUapfgicGK2gCicmVrRYJwF54FEuZrJ6LOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_009_6611277fd1a2.png)
 
 1.5 直流变换器衍生型三相AC/DC变换器拓扑
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEkjYnENhcxOg6M95yp4hyhx7TlGfDR0K9fZOQoH8VqGTcPUmgdMqia9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_010_266b45a5fac9.png)
 
   
 基于Flyback 变换器、隔离型 SEPIC 变换器等传统直流变换器可衍生一系列三相AC/DC 变换器，如图11、12 所示。该类变换器的特点在于均为多变压器结构，每相交流侧为独立的隔离型AC/DC 变换单元，将直流侧整流结构进行 整合，最终形成单路输出。  
 
 基于Flyback的三相AC/DC变换器工作在交流侧电流断续模式(discontinuous current mode ，DCM)，交流侧电流在每个开关周期内的平均值与交流侧电压成正比，且电流与电压同相位，从而实现单位功率因数控制。基于SEPIC 的三相AC/DC变换器的直流侧二极管工作在电流断续模式，由此可推导交流侧电压与电流之间的比值为纯电阻，从而实现两者同相位。但是，上述基于DCM 模式的变换器开关管电流纹波和电流峰值均较高，只适合于中小功率场合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEMic6GCd8DeYxaQld0EpS8sq0daERh3dUWCb4A7CzfdvPYicxLa4FKukw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_011_5387d5dc5a87.png)
 
 相较而言，前述桥式结构的变换器更适合于大功率场合。  
 
@@ -102,17 +102,17 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 针对可靠性要求较高、需具备容错性能的场合，可采用如图13 所示拓扑。每相电流通过3个桥臂均分，适用于大功率场合。当变换器工作在正常模式时，3 个变压器和所有开关管同时参与工作；当变换器某相开关管或者变压器发生故障时， 另外2 个变压器及相关电路参与工作，使其具备故障容错能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnENJ0QKz58AF2AyTyuUcgGcTQrDmjI7HEJA3ibLJH5eGeUtJxY3icODicmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_012_ff09ccc2651c.png)
 
 此外，为适应三相不对称负载，如图14 所示，三相四桥臂隔离型AC/DC变换器通过增加零序电流支路，即开关管Qn1—Qn4以及电感Ln 组成的支路，使变换器在不对称负载条件下能实现三相对称电压输出，同时保证高频变压器的伏秒 平衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnE8TTqcKMqic96wbOscickkQhQaL7flIPoA0cwViaHJC02OWR2icdfibWZO2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_013_403087fb3f40.png)
 
 1.7 拓扑对比与分析  
 
 为归纳和总结上述拓扑的特点，对能够表征效率和功率密度的电路特征进行详细对比，如表1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEN8Xx15hd8sx5Xh8CW8lplaHrBIPhrw12dOiarz6ibFZ2nc2lrsp69ITg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_014_1a6d6ba572b8.png)
 
 关于交流侧电流，三相Buck 矩阵型、DAB 矩阵型、SWISS型和DCM Flyback AC/DC 变换器的交流侧电流断续，电流纹波较大，需引入LC 滤波器提高功率因数，会影响变换器的功率密度。  
 
@@ -128,7 +128,7 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 单级高频隔离型三相双向AC/DC变换器的调制策略主要有载波脉宽调制(carrier based pulse  width modulation，CBPWM)和空间矢量脉宽调制策略(space vector pulse width modulation，SVPWM)， 如图15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEodjEBkXqbP67WC1DEjJL5lGU2HjXrvuK8p0kONmsJMO7eD3c9ve4Fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_015_31ca54767bc7.png)
 
 与非隔离拓扑调制策略的区别为应用于隔离拓扑的调制策略需考虑隔离变压器的伏秒平衡，且涉及的开关管数量更多。  
 
@@ -142,7 +142,7 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 以图9 所示三相Z 源型双向AC/DC 变换器为例进行SPWM 调制策略分析。相应的驱动波形生成图如图16 所示，三相桥臂开关管的驱动信号由调制波ua、ub、uc与三角载波交截得到，同一桥臂上的开关管驱动互补。三相正弦调制波被注入三 次谐波，以提高直流电压利用率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEZicfbckvIDtkxQfIyCZGUVSZS3tXwhMNiaSjswyPWBYXK7sMxerz4ibug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_016_e2d718e804f6.png)
 
 对于Z 源变换器而言，还需考虑直通开关管Spn 的通断控制，这是变换器能进行升降压变换的本质原因。开关管Spn 的开通时间即直通占空比为固定值，可减少低频纹波，从而降低电感和电容等无源器件的体积和重量。 
 
@@ -152,21 +152,21 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 以如图4(b)所示三相Buck 矩阵型AC/DC 变换器为例进行双线电压脉宽调制策略分析。相应的驱动波形如图17 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEqpqEtDbQM76Q2LfTQVN8IuDWJMicKUtIx9yib3qmj7bgmic12icTzMlk0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_017_19447e1dc8b9.png)
 
 三相电流在开关周期内的平均值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEiaZzUnkZmfic6veicr5FZRAiccZkWEq6e0sXiafKDmFc1Hz6HicbiczfgxTNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_018_1123b15cdbeb.png)
 
 为保证相电流呈正弦波且与相电压同相位，交流侧开关管占空比需满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEiaExdiaHgrrT0EFvAvlVnricmb6hTVYibtVJR9iawWoU5iawayyFZcHHczNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_019_22b67582526a.png)
 
 式中：a为调制度，a∈\[0,1\]；Um 为相电压幅值。 
 
 根据电感的伏秒平衡原理，可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnE6icjFQxSuuAEibYNP4WUZPFzwFibDwz40xCBQJZXcZeKtLySY8modZz7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_020_37963995282e.png)
 
 式中n为变压器原副边匝数比。可以看出，当变压器匝比为1：1 时，变换器在 该调制策略下仍具备内在的降压能力。 
 
@@ -176,15 +176,15 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 以图5 所示三相DAB 矩阵型双向AC/DC 变换器为例进行移相脉宽调制分析。假设变压器匝比为1：1，ua>ub>0>uc 时，移相脉宽调制策略示意图如图18 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEs5xxSPTdxdC7PvCJXTibNYYMDMeMiczOWqn1nDXqZgWjIny9EEqZy70g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_021_659ffa6a1635.png)
 
 交流侧桥臂的调制与双线电压脉宽调制类似，变压器两端电压up 通过当前时刻最大的2 个线电压和零电压进行拟合，以保证单位功率因数控制；直流侧开关管的占空比固定为0.5，以保证变压器的伏秒平衡；而交直流侧驱动信号间的移相角θd由电流控制环路决定，可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEsrxPlveXpqDhwekbBPY9PHqAdAZC9qMJ18PMxF5rIFnUalXrfg2KZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_022_150c327b8c3e.png)
 
 作为能量传输电感的设计依据，由上述调制策略可得与DAB 类似的最大传输能量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEsSUib8V4aSMtH2cpYNwLQqDF3ILIL8mnEmljbmibQm4Ro1smDJLKm07A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_023_92b54b664b14.png)
 
 式中Ts 为开关周期。  
 
@@ -194,45 +194,45 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 1）空间电压矢量调制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnERicm55Ga4edPTsUVJ5HT3X5Xs3DxvKvghZhVFT0MGcMIEXNq4pmXTfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_024_d5a8cd24528e.png)
 
   
 对于Boost矩阵型、VIENNA 型等交流侧桥臂输出等效为电压源的三相Boost 型AC/DC 变换器， 可采用空间电压矢量调制。在不同的开关状态下， 变换器等效电路如图19 所示，up 表示变压器交流侧绕组电压。基本电压矢量图如图20 所示，将基本电压矢量和三相电流方向同时作为扇区划分依据，整个平面被划分为12 个扇区。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEqElibJczwKQdB297s49s1fSv7m0rIibbd9nkwo3ooNvAKfgm75PbWz2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_025_917453e6d014.png)
 
 以图6 所示VIENNA 型AC/DC 变换器为例，对考虑变压器伏秒平衡的空间电压矢量调制原理进行分析。扇区2 内开关状态与矢量之间的对应关系如图21 所示。其中，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO5vQvm7bdrcVWWcBgMqnbVOvCMicwgV60PyeZZYaibGiaVyPZy7ACeugNgV4bWWfKO2RnS8ichCnBk2icALuCUwMNuubPIUOHGDseE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_026_4876ecd70204.png)
 
 表示变换器的开关状态。以A 相为例，当Qa3 导通时，Sa==1＋；Qa2 导通时，Sa=1－；Qa1 导通时，Sa=0+；Qa4 导通时，Sa=0-。Qs2导通时，Sd=1，否则为0；Qs4 导通时，Se=1，否则为0。Qs2、Qs3 同时开通，Qs1、Qs4 同时开通。Sign{up}表示变压器电压方向， 其参考方向在图6 中标注。为保证变压器的伏秒平衡，变压器电压为正的时间与电压为负的时间必须 相等。结合目标电压矢量长度的要求，可得到每个开关状态的作用时间，进而得到各开关管驱动波形，如图21(b)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEV31yficM7j3ex11og3iaTntiaNvibrmIW4P0qCm8fSj1JpYx0ZcJWWeuNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_027_88abc4789963.png)
 
 2）空间电流矢量调制。  
 
 对于Buck 矩阵型、SWISS型等交流侧桥臂输出等效为电流源的三相Buck 型AC/DC 变换器，可采用空间电流矢量调制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEcVuwhUGS2fjVSDCeR3l5CwjryE6FKUxgakEG8uwXFFbhQNXEzY8xhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_028_6d91e0188bc5.png)
 
 变换器在不同开关状态下的等效电路如图22 所示，其中，Ip 为变压器交流侧 绕组电流。由此可得基本电流矢量图，如图23 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEOmDqRVQMHIg5tBSM1HS5WMhPZWRicK5LN3ic1ZooS9HF7feiaxsRQLiazA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_029_6d55c737c602.png)
 
   
 以图8 所示的三相SWISS 型双向AC/DC 变换器为例，对空间电流矢量调制原理进行介绍。以  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMdaicVw0kHjAI8tUEZvBBf2SBk488pdXUjWAA8b7D41w2OsxEfcjN3ru0fa1PCIwuhRlm8utftWdSDRUiavnibjoe4kQqr6ylDHc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_030_fbdf3ebf77d8.png)
 
 定义开关状态，Sign{uT1}  和Sign{uT2}分别表示2 个变压器的状态，“+”表示变压器在磁化，“-”表示变压器正在或已完成磁复位，其余参数定义与上述VIENNA 型拓扑一致。Qs1、Qs2 驱动信号互补，Qs3、Qs4 驱动互补。扇区1矢量合成的相关波形如图24 所示。可以看出，变换器开关状态只能使变压器磁化，因此，在励磁电感两端并联电容与之谐振，使变压器磁复位。而对于Buck 矩阵型变换器，不需要外加磁复位电路，通过开关状态的调整即可实现变压器的伏秒平衡，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEmbQqItQIdyg4WB25Q8j0ewVL4pgNjI37Wbfkm5RiameTumPGOzs0umg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_031_2a9881c4c9e8.png)
 
 3）空间矢量调制策略实现步骤。  
 
 本文归纳应用于单级高频隔离型三相双向AC/DC 变换器空间矢量调制策略的具体步骤，如图25 所示，具体关键步骤如下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEyZ2QF7iaoUgXyic0BycqmUweOvMBibvicu2FTDxYCaETPzYabWEetf53bQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_032_f31d41435848.png)
 
 ①列举变换器所有可能的开关状态，进行模态分析，计算电压或电流矢量，得到空间矢量图；  
 
@@ -246,7 +246,7 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 上述调制策略因各自工作原理的区别而适用于不同类型的三相AC/DC变换器拓扑，如图5 所示。对比不考虑变压器匝比时，载波调制策略与空间矢量调制策略的最大直流电压利用率Rmax(交流侧线电压幅值/直流侧电压)如表2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEKzcAM97GlPib9ickliagfQJqDhbrECR2EptbIs5hIRczj7H6Qa0QibPvKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_033_ee4b9f4d2097.png)
 
 其中，正弦脉宽调制直流电压利用率最低，但其控制最为简单；注入三次谐波的正弦脉宽调制可有效提高直流电压利用率，其电压利用率最高值与空间电压矢量调制相同，二者可互相等效。而双线电压调制由于应用在三相Buck型AC/DC 变换器中，拓扑具备内在的直流侧降压能力，因此，其直流电压利用率较高。与载波调制相比，空间矢量调制具有易于数字化实现的优势。
 
@@ -254,19 +254,19 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 3.1 基本结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEXYvK0IFMscKKK72NJwRibRoS7jMt0gJhmybUZ5icnhA5RSs3ibkJdOflA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_034_e2f5c6701800.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEjvLroyVE7RAR7bat0qhEonzZ7mabqKej49P9p4uAPE4mKUeSSMm6oA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_035_68612c175cd9.png)
 
 根据第2节单级隔离型三相双向AC/DC 变换器拓扑研究，总结其基本结构有3 种，如图26 所示，分别为电压源–变压器–电流源、电流源–变压器–电压源、电压源–变压器(串联能量传输电感)–电压源。交流侧分别为电压源和电流源时的变压器两端电压波形如图27 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEGvjtbs5YA7HoEVcp7y4h8QRTibdJW28rLP1U6hZS3t2VBAnYaomQXlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_036_c22ef842141a.png)
 
 根据变换器需实现变压器伏秒平衡和能量双向流动的要求，再结合电压源和电流源的特性，确定交流侧和直流侧开关网络的选取原则，可以实现变压器交直流侧电压与电流的四象限工作。交直流侧开关网络的主要形式如图28、29 所 示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEpKrpBMlYcMzuODZIAW7zcEeta5yE04x0c70stC4vqHz0bavXS03tyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_037_b8c570a1238e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEuka5yXVXWtAiaSzmuDlGM7A8DUaic2SODwq5PqY4eVAzd3JwX2ymZolg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_038_f43affd99d1f.png)
 
 矩阵型开关网络最为通用，交流侧可接电压源或电流源，无需外加磁复位电路即能保证变压器的伏秒平衡；准单级型开关网络的开关管数量最少， 但其部分开关管电流应力较高；VIENNA 型开关网络的开关管数量最多，但其大部分开关管电流应力较低。  
 
@@ -276,24 +276,24 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 首先，拓展交直流侧开关网络。通过增加电流支路的方式，降低开关管电流应力。经过拓展后的交直流侧开关网络分别如图30、31 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEM31dgemcOYNKia7ib6U7RiaULg8JSQlTRI2rEdNfib0mLLIPdKzv44bZTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_039_8037128b4f6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEwYVJ3pAneNBV50POw6GDLeEkfxmaJTicPia4AWpZTy0yEgHHl5ppUdPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_040_a5fce07d99bb.png)
 
   
 其次，确定变压器的连接方式。如图32 所示， 变压器共有4 种连接方式。其中△\-Y 和Y-△连接形式相当于两变压器一侧绕组串联，另一侧绕组并联，由此额外提供1：2 或2：1 的升降压比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEJciarmd8J7Fj0k3I3ZEQYNksenZTo4bbvUgiaWoicweUD2nPMUXsFiaicow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_041_86659498bbc7.png)
 
 最后，根据电路结构合成拓扑。在图26 所示变换器基本结构的基础上，选取合适的开关网络和变压器连接方式，可推导一系列新型拓扑，其中，2 种典型的衍生拓扑如图33 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnETvNiaicAEP8N7Mb6jRuzGuVtQTS7BVxqMz9myo9Wmjmrbr4cYGweklMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_042_55f900c49496.png)
 
 3.3 调制策略  
 
 3.2节所提衍生拓扑可沿用2.2节所提调制策略的思路。与单变压器拓扑的区别在于，变压器在开关周期内两两依次参与工作，而每2 个变压器参与工作期间的调制原理与第2.2节一致。如图33所示，以三相三倍流整流矩阵型双向AC/DC 变换器为例， 其基本电流矢量图形状与如图23 所示相同，矢量长度为√3Idcns / (9np )。在扇区1 内的开关管驱动波形和变压器电压波形如图34 所示，3 个变压器两两交替工作且都能在开关周期内完成磁复位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslMrkOkj4iar9TKSrzSCRTnEzhtRjDpeUdKXmecdjCGSM7X14ibhrsv4em9oVHNkh9S9K0BoicZuY8eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_043_32fbd0028e6b.png)
 
 4. 展望  
 
@@ -315,14 +315,14 @@ Z 源逆变器由彭方正等人于2002 年提出，作为介于电压源逆�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciakK6zIjF5qlcSnF1iavjkjHMxt7kkQL56t2I0VkMMGPHAlYCdcic10UQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_044_b24bc7497825.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciaeWPoukpPSoodzkAIEebeRqm1uPL6FbiaWJpjkn1uQXDBpck2ibQk5pA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_045_1b064bdd1973.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViczk316DvZLAIY5ODl8oOr06x638bzC5wceE3licVx8yia9wdFO7GB1bnQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_046_6952ae7d1ca5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbVicbz7NgK7j4g1MCoaClV4h1ic8eof2OicIvGKvhVLkyjc7LGo5V6Q8sWaQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\单级高频隔离型三相双向_AC_DC_变换器研究综述_images\img_047_2437350b2e09.jpg)

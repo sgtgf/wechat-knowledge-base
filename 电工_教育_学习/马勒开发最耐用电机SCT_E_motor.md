@@ -1,0 +1,44 @@
+# 马勒开发最耐用电机SCT E-motor
+
+原创 电机新视界 2022-07-15 15:31 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/T2SGf3FH062IWdEHLhZYMw](https://mp.weixin.qq.com/s/T2SGf3FH062IWdEHLhZYMw)
+
+**点击蓝字**
+
+**关注我们**
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+
+
+来源：网络  
+
+  
+
+汽车零部件供应商马勒集团开发出市面上**最耐用的电机SCT（superior continuous torque）E-motor，体积小、重量轻、效率高，无需使用稀土就可根据客户的需求定制，可以长时间工作且性能高效。**据悉，该款新电机将于2022年9月在汉诺威国际商用车展IAA上首次亮相。
+
+随着新型电机投放市场，马勒集团成为电力驱动领域的全系列供应商，其应用范围涵盖从电动踏板车、乘用车到重型商用车、越野车和工业领域应用的所有需求。
+
+“制造短期高性能的大型电机很容易。但到目前为止，市场上仍然缺乏耐用而紧凑、能使电动汽车的日常使用不受限制的驱动，”马勒集团研发及前期工程副总裁Martin Berger表示。“而我们的新型电机SCT E-motor就是能满足上述要求的解决方案。”
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/I5tjbZcD6yeUhh22uRlnnbwib3tnGxG3tlqk0StiarOqWnhQZksibo3qBYFDicW5Piam0AiasmMabukPGeYQ9fmjjsicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在动力传动系统方面，SCT E-motor为所有车辆更换内燃机扫清了道路。2021年，马勒集团为乘用车推出了一款突破性的无磨损、可拓展的牵引电机，可在较宽的转速范围内高效运行。
+
+另一方面，SCT E-motor的设计方式使其在一定的转速范围内特别有效。尽管它的设计非常紧凑和轻巧，但其连续功率可达峰值功率的90%以上，而以前为50%-60%，这在市场上独一无二的。得益于此，即使在苛刻的条件下也可以使用各种电动汽车。到目前为止，市场上现有电机还不能满足一些特定场景的要求。
+
+冷却技术的逐步改进，也使得电机技术飞跃发展成为可能。马勒全新电机通过使用创新的集成冷却油，不仅更耐用，而且还能将产生的余热用于车辆的整个系统。同时，新电机极其紧凑的设计在材料和重量成本方面具有优势——更轻的电机在制造过程中需要更少的材料，并增加了商用车可能的净负载。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/I5tjbZcD6yeUhh22uRlnnbwib3tnGxG3tOFcgibs0IUXDqr8sibN8frA59w8NhSNfRlgtGqCyeNBAGTZ3jvzVwdXg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在设计该产品时，马勒选择了永磁电机，因为这种电机可实现非常紧凑的设计，而且不需要将能量作为“励磁电流（excitation current）”转移到转子上，进而使得电机更加高效且无磨损。钕磁铁是目前可以生产的最强的永磁，用于产生电机中的磁场。然而，为了降低原材料价格和地缘政治对供应链的影响，SCT E-motor也可以设计成无稀土。由于马勒集团开发的独特的无接触变压器（contactless transformer），这款无稀土版本也将具备无磨损和高效运行的优势，并且只需要稍微多一点的组装空间。
+
+就“新电机将在何处生产”的问题，马勒集团管汽车电子和机电一体化副总裁Harald Straky 博士回应道，“这将由我们收到的客户的需求和地域来决定。我们的业务遍布全球，所以让我们拭目以待。”据Straky透露，已有客户对这款新电机表现出较大的兴趣。
+
+电动出行是马勒集团未来的重要战略领域之一。截至目前为止，该集团超过60%的销售额来自非乘用车内燃机。到2030年，这一比例将提升到75%。而新型电机将是该集团电动化战略的重要组成部分。
+
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+
+  
+

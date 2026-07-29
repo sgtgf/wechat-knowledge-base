@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_iu0Ho0\_n05lFy5lyUt8sQ](https://mp.weixin.qq.com/s/_iu0Ho0_n05lFy5lyUt8sQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFND6oG0pibhFibuj5ZX5wsGkMaQ3YuvgnOxyRv8Vx34Vl7GPJtalDzVwg/640?wx_fmt=png)
+![](Power_Path_3_电源开关_2_images/img_000_5123c2116802.png)
 
 ____**★★★**______Power Path-3---电源开关器件______**____**★★★**____**____
 
@@ -19,7 +19,7 @@ _€1.热插拔_
 
 如**_图3-1_**热插拔控制器驱动一个外部MOSFET，以保护系统免受热插拔操作的影响。热插拔控制器不像eFuses那样集成MOSFET，外部MOSFET允许热插拔控制器在比eFuse器件更高的电压和电流下运行。控制器监控外部FET的栅极电压，并根据情况调整电压，当设备插入带电电源系统时，控制器测量Rsense上的浪涌电流，如果该值超过了可编程的电流限制值，则栅极电压会降低并限制通过的电流。如果MOSFET两端耗散的功率超过可编程功率限制，则降低栅极电流以减少流过Rsense的电流。当输入电压不在设定的阈值内时，过电压和欠压引脚也会夹箝位电压。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRyYlLATP0MNGuYafJRMsyKG6z4OTKuLkO03ic1D87VSYROPAfJBc5Fy40qmANfO7ZUaANwQ3jbEkg/640?wx_fmt=png)
+![](Power_Path_3_电源开关_2_images/img_001_6ebe6e76c893.png)
 
 **_图3-1：热插拔控制器简图_**
 
@@ -33,7 +33,7 @@ __€2._理想二极管&ORing控制器_
 
 如**_图3-2_**理想二极管控制器控制外部FET，与常规二极管类似，可以在发生反向电压事件时阻断反向电流。当发生反向电压时，控制器就会关闭MOSFET，并使用体二极管来防止任何瞬态冲击损坏上游器件，控制器还可以通过使用相同的方法防止输入Vin处的接地短路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRyYlLATP0MNGuYafJRMsyKeeOd2Qo5VnYIicRWmzt0NcDMn4XewlvAcaXOqJzq5voRialf8Sfgpeiaw/640?wx_fmt=png)
+![](Power_Path_3_电源开关_2_images/img_002_60947d0d487e.png)
 
 **_图3-2：理想二极管控制器简图_**
 
@@ -47,7 +47,7 @@ __€3._智能高侧开关_
 
 如**_图3-3_**智能高侧开关可以可靠地驱动板外负载，这些开关包含高度可调和可选择的电流限值，使系统能够针对特定负载进行优化设计。通过连接外部电阻来设置电流限制阈值，该开关可以保护负载和电源在GND短路或通电条件下免受过应力的影响。通过最小化瞬态电流和电源跌落来实现更可靠的设计，当达到阈值时，激活控制闭环激活将输出电流箝位到设定值，然后在CS引脚上报告故障。
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZnmz9X8ribGYG7JSzyp2cWgQNNKwje1kIANA8p3DFIwjy1lbicMqUKuTpg/640?wx_fmt=png)_
+_![](Power_Path_3_电源开关_2_images/img_003_fa1b4f6d8716.png)_
 
 **_图3-3：智能高侧开关简图_**
 
@@ -61,7 +61,7 @@ __€4._低侧开关_
 
 如**_图3-4_**与其他电源开关拓扑不同，低侧开关用于连接和断开负载的接地，这种配置允许低侧开关驱动感性负载，内部续流二极管可以防止感性瞬态冲击损坏电路和元件。每当开关断开时，感性瞬态冲击通过续流二极管，并在整个负载中消散，这使这些器件成为电机、螺线管和继电器的理想选择。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRyYlLATP0MNGuYafJRMsyKCCRECksZicoH2B5JlutAukxcubDzhqc6380NQZwEWMNxdAeKmEiaQsFQ/640?wx_fmt=png)
+![](Power_Path_3_电源开关_2_images/img_004_1c0d9f285493.png)
 
 **_图3-4：低侧开关方框图_**
 

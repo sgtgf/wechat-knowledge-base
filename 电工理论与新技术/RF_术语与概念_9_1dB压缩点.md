@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/W9ZbhPotKwfYy2E-9V1BFg](https://mp.weixin.qq.com/s/W9ZbhPotKwfYy2E-9V1BFg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMTxjY6rWHJgZ439n9Pr8XhZ8lcDL18BAquOA1NQVchHosJJibliaPK4HA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_9_1dB压缩点_images\img_000_4cf74f6ff854.png)
 
 ★★★__TCS-9---1dB压缩点____**★★★**__
 
 引言：在射频领域，1dB压缩点是一个重要的技术指标，尤其是对于放大器等器件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTfrZTP46ia7WGk00upJsH3wMicWw2KxybicuCfdNGmjjQP0VcysqqunJRzkoNfSM3pEX4ZvH3dBF5kg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_9_1dB压缩点_images\img_001_5b6115fc805c.png)
 
 图9-1：参数示意
 
@@ -25,11 +25,11 @@ ____€2.1dB压缩的计算和测量____ 
 
 _如图9-2所示，取a，b，c，d四个点，当满足如下关系式时：_
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1iaKMcyBQ9LW8AEicsWzUOUCygT4wFUD64lY3S8EMyFmtSf31EyoDtU6W2zCYfdOrSjgZIl01QibpA/640?wx_fmt=png&from=appmsg)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_9_1dB压缩点_images\img_002_e18a1fe37e27.png)_
 
 a点即为IP1dB压缩点，b点为0增益点，当直到实际输出功率等于输入功率时，此时PA已达到其饱和功率，c点为OP1dB压缩点，d点为理想增益点（k为起始增益系数，也叫理想增益系数）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1iaKMcyBQ9LW8AEicsWzUOUar9xicJ7pcd0ZhXXKibAnmk64brg2zZFgTAL0RYv19ZoWKHv7Ts1yK3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_9_1dB压缩点_images\img_003_4534c3ac7830.png)
 
 图9-2：IP1dB和OP1dB示意
 

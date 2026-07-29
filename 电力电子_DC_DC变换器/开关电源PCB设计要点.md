@@ -16,9 +16,9 @@ PCB设计是开关电源设计非常重要的一步，对电源的电性能、EM
 
 PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的。一般PCB布局要遵循几点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZSXic8URADzpibaHu9uMvgJO7dMN2nzvcNibdaKaIecNQyxXicC4eDNPAWQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_002_8af0905f2e29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvYXWv3HgmyY7S9ASttCgUNeUHK02tf6nlafxW3QzBf2B40uuhLiaRPaQ/640?wx_fmt=png)
+![](开关电源PCB设计要点_images/img_003_0c702c782ff1.png)
 
  **图1**
 
@@ -26,13 +26,13 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 还有就是要考虑实际的贴片加工能力，按照IPC-A-610E的标准，考虑元件侧面偏移的精度，不然容易造成元件之间连锡，甚至由于元件偏移造成元件距离不够。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZTB8Glc2fo3RdJl9pyn6PKDD5ic4H2icmET6sE8azwRChwG9d9Pp3OHibw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_004_e2de76936f4e.jpg)
 
 **图2**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZcpIxYruH5zrMtvDZ7vTR1ZoibLflpZhp5ds3u5eHVks7QqWa4ITaIuA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](开关电源PCB设计要点_images/img_005_3090dd96f30b.png) 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZngclrpD41C3edVf7psRGoxbZWoKQFkD4a0XDWPcEO5yzopWQJjQ7Zg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_006_4860a15ad744.png)
 
 **图3**
 
@@ -40,7 +40,7 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 6、高频脉冲电流流过的区域要远离输入、输出端子，使噪声源远离输入、输出口，有利于提高EMC性能。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZ01Q0dr3V1msz42OhSW0j5m5hdPqyWktUetLrWWPTFEneWaia8NI5Pgg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_007_c15c23c1d80d.jpg)
 
 **图4**
 
@@ -52,7 +52,7 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 8、布板时要注意底面元件的高度。例如对于灌封的DC-DC电源模块来说，因为DC-DC模块本身体积就比较小，如果底面元件的高度四边不平衡，灌封的时候会出现两边引脚高度一边高一边低的现象。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvNv6pwXHW3JCK11TpQYqbpfcrKC7pR6LclBwlJxFmwUQtQCymEBOv1g/640?wx_fmt=png)
+![](开关电源PCB设计要点_images/img_008_3920a3f66b5a.png)
 
 **图5**
 
@@ -66,7 +66,7 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 1、小信号走线要尽量远离大电流走线，两者不要靠近平行走线，如果无法避免平行的话，也要拉开足够的距离，避免小信号走线受到干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZZyhqvbUeHpY4wTKPtMia5CKEFLLRBauAn0HBGtqOG80G7oXQNSH6NNQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_009_8c4f2c83ba6c.png)
 
 **图6**
 
@@ -74,7 +74,7 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 2、关键的小信号走线，如电流取样信号线和光耦反馈的信号线等，尽量减小回路包围的面积。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZcI5AJwaHPxeT9cV9aBJrqVUmuatz3EBGQ3WLl62eaFpicdUpxmkr63A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_010_e6db95878299.jpg)
 
 **图7**
 
@@ -82,21 +82,21 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 3、相邻之间不应有过长的平行线(当然同一电流回路平行走线是可以的)，上下层走线尽量采用交叉用垂直方式，走线不要突然拐角（即：≤90°），直角、锐角在高频电路中会影响电气性能。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZayAa4gGby3XyDEgca7yeYiaQtD8ERWWPKnYVxEYsnfIY1w07nwIQ1icA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_011_faa9064d80b7.png)
 
 **图8**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZD5jeRbMDEicSEvL5PaRb6vPqx3HxJBBKOmzYyPI6u5Hecpib8iaCZxzdw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](开关电源PCB设计要点_images/img_012_6684f092bd87.png) 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZGXl4zAV6cN484RiacVwvUJ0CibDkdlD4w5RAUtHBqQeZczsx8fkMyOEg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_013_b4ed11bcdfa3.jpg)
 
 **图9**
 
  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvNteiaSRl4iaMNJ5jgKQTec437MbMhdF53uiayyfZMDzbicneNY8zJYl7NA/640?wx_fmt=png)
+![](开关电源PCB设计要点_images/img_014_634e3ad44408.png)
 
 **图10**
 
@@ -104,7 +104,7 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 5、高频元件（如变压器、电感）底下第一层不要走线，高频元件正对着的底面也最好不要放置元件，如果无法避免，可以采用屏蔽的方式，例如高频元件在Top层，控制电路正对着在Bottom层，注意要在高频元件所在的第一层敷铜进行屏蔽，如图11所示，这样可以避免高频噪声辐射干扰到底面的控制电路。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibv3h7df1cMh5gSnYLqnYtSxLVqJQWq67OCbjAey4oTazVViaURays0MfQ/640?wx_fmt=png)
+![](开关电源PCB设计要点_images/img_015_b7aefd680814.png)
 
 **图11**
 
@@ -112,15 +112,15 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 6、滤波电容的走线要特别注意,如图12，左图有一部分纹波&噪声会经过走线出去，右图滤波效果会好很多，纹波&噪声经过滤波电容被完全滤掉。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvdKeGQwbfdaxoBPsqGfRH6jYuBbdCx3CRehf9jdJz2k8fiadBV2EwcMA/640?wx_fmt=png)
+![](开关电源PCB设计要点_images/img_016_e1993c5ddd11.png)
 
 **图12**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZzRANZN0Nv56OS3KCeY9cnGF4zjzYkYur3IhU23tsmYpeBNvZgWXTNg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](开关电源PCB设计要点_images/img_017_bb526284ee36.png) 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZDNhBZgO8FiaI9pCtRujSCOvy6bYhNJoI6d0iaxPzjXx55UOVVNQuTl3A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\开关电源PCB设计要点_images\img_002_da81fb5eaf5c.jpg)
 
 **图13**
 
@@ -134,9 +134,9 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 **1、电气间隙：**两相邻导体或一个导体与相邻导电机壳表面的沿空气测量的最短距离。爬电距离：两相邻导体或一个导体与相邻导电机壳表面的沿着绝缘表面测量的最短距离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZ4KfONSgicF6C9WsUv0xmxga9kYQUd0G7nkltYjF1ZCLY5WlsZBhDwOA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_019_588e5559bd35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvIS5WTQSDxjjImIILAYoCw7hicoXAria0dRBgEpO3xBicKc97MAeqbSK7Q/640?wx_fmt=png)
+![](开关电源PCB设计要点_images/img_020_d1f67a765825.png)
 
 **图14**
 
@@ -144,7 +144,7 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 一般电源模块电压与最小爬电距离的关系可参照下表：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZ8RkSGGnTFbApn3uNyFFlWSZq8IGbb6dIvNXvL6MZXvFoXxXhPmYbPQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_021_7d1c24ddc912.jpg)
 
   
 
@@ -154,7 +154,7 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 **3、若走线入圆**焊盘或过孔的宽度较圆焊盘的直径小时，则需加泪滴，加强吸附力，避免焊盘或过孔脱落。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZicTtjiaHbCI1cnSoibQsw0jwHRuIO3UTEV5cJibYnYxnqoAZwULwgphibWg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_022_707fab4d49c8.png)
 
 **图15**
 
@@ -162,15 +162,15 @@ PCB布局是比较讲究的，不是说随便放上去，挤得下就完事的�
 
 4、SMD器件的引脚与大面积铜箔连接时，要进行热隔离处理，不然过回流焊的时候由于散热快，容易造成虚焊或脱焊。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvmLicCepYbhEbAlSJ53LxTXAkPnIVoBf4v87MiaNiaGwVbw6FKw3tsQZGQ/640?wx_fmt=png)
+![](开关电源PCB设计要点_images/img_023_502e362044ec.png)
 
 **图16**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZKJf7bbDwibia4SiaCvvqISVFeUDPkF7ic5U5L3N796nV5oicnxpwaPr0xrw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](开关电源PCB设计要点_images/img_024_6b615bcdc53d.png) 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NAaKDV9nTR9w9X3DxAUTCecIibOWHmHcZpGmiafn1vu2ZzWYMe2NRyKkG4MfXtIV137aQ9sABRaSrcTS5xR07tKQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](开关电源PCB设计要点_images/img_025_fbfb2a43066c.png)
 
 **图17**
 

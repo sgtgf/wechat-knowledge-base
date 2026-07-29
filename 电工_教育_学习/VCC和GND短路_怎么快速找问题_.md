@@ -14,7 +14,7 @@
 
 为了更清晰的描述，我画了个简单的示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhibcSbcn7n5PWiaDb5eFlpTQdIztR98yqzl87HDP6ZNcbTlT43qzyLQv7sehF4wLWHI7edyb0SC5cQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\VCC和GND短路_怎么快速找问题__images\img_002_8d93ac306fd5.png)
 
 我们的主板一般都是输入直流电压Vin，然后经过DC/DC芯片转换成我们想要的电压，然后供给单片机，运放，CPU或者其他芯片。
 
@@ -34,7 +34,7 @@
 
 排除法就是把跟VCC相关的网络逐一排除，直到找到问题的根源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhibcSbcn7n5PWiaDb5eFlpTQTOZcmL7ug6pCImTZzpzKgICC16TnGMz1AicOMibvSUOZG0uQ4Qud2ibgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\VCC和GND短路_怎么快速找问题__images\img_003_efd1ac3880b8.png)
 
 首先可以尝试先将图中的位置1断开，如果正常，后级电路引起的短路，则可以依次断开位置2，3，4。
 
@@ -50,7 +50,7 @@
 
 这个方法就比较简单了，慢慢上电，用热成像仪观察，哪个元件最烫（迅速升温），那么它肯定就有问题，换下来就可以了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhibcSbcn7n5PWiaDb5eFlpTQ9kKibuJtxgnibia1gXcDakGS2V2voogHeG2Zmgkjy0MeoZXKuKO1CvxWw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\VCC和GND短路_怎么快速找问题__images\img_004_aec16b1894e2.png)
 
 一般公司都会有热成像仪，没有的赶紧向公司申请一个。  
 
@@ -68,7 +68,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhibcSbcn7n5PWiaDb5eFlpTQEcP1G2qDXDGs2Y3Zk58txdm4ryRcAEhadRMF0hanmkH1pf51Kgic1MA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\VCC和GND短路_怎么快速找问题__images\img_005_9aafbe9d841d.png)
 
 最后，如果是打样的新板，最好先用眼睛扫视一下，如果有锡渣短路，或者漏插件一眼就看出来了。确保第一次上电正常，否则维修会浪费很多时间。  
 

@@ -6,7 +6,7 @@
 
 # 最近读到这样一篇文章，从底层硬件角度出发剖析了一下CPU对代码的识别和读取，内容之精彩，读完感觉学到的很多东西瞬间联系起来了，下面分享给大家。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/H7kHaKEn3yjzItVvZfB2y4cxokPeKoiaEb0v11Vn9Eia93xoseCT22Luib1VheWibRpy3TGwRYnt4aaOrTUEtst4fQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_000_910317bb994b.gif)
 
   
 
@@ -16,7 +16,7 @@
 
 半导体其实就是介于导体和绝缘体中间的一种东西，比如二极管。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZTCN4N9yfT3LkOfRt539U4Uu2UhcvAeTvGm42MEZDia1TgGkibsUZXC1g/640?wx_fmt=jpeg)电流可以从A端流向C端，但反过来则不行。你可以把它理解成一种防止电流逆流的东西。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_001_4f55fda7766e.jpg)电流可以从A端流向C端，但反过来则不行。你可以把它理解成一种防止电流逆流的东西。
 
 当C端10V，A端0V，二极管可以视为断开。
 
@@ -30,7 +30,7 @@
 
 利用半导体，我们可以制作一些有趣的电路，比如【与门】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZ9Lc3qmdic0aFNmrUXdJMUZDJYUzV3QRjMAfjqYVGtcdfCbtcFr4F39g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_002_5cdafff7c99b.jpg)
 
 此时A端B端只要有一个是0V，那Y端就会和0V地方直接导通，导致Y端也变成0V。只有AB两端都是10V，Y和AB之间才没有电流流动，Y端也才是10V。
 
@@ -38,13 +38,13 @@
 
 这几种门都可以用二极管做出来，具体怎么做就不演示了，有兴趣的童鞋可以自己试试。每次都画二极管也是个麻烦，我们就把门电路简化成下面几个符号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZxsdeGx3H9K2zbib7aaJW403miclP3yxMzRr4mwzMwvKjLsBXD8DYjAqw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_003_b180993b7ecd.jpg)
 
 然后我们就可以用门电路来做CPU了。当然做CPU还是挺难的，我们先从简单的开始：加法器。
 
 加法器顾名思义，就是一种用来算加法的电路，最简单的就是下面这种。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZpDTJKjo5Tfa9Yl0QF3Ztt6ibd3skMf1cYXdQ3vu0orP8iaHpQAWM9rBg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_004_d37790cfec02.jpg)
 
 AB只能输入0或者1，也就是这个加法器能算0+0，1+0或者1+1。
 
@@ -54,19 +54,19 @@ AB只能输入0或者1，也就是这个加法器能算0+0，1+0或者1+1。
 
 那再进一步算个1+2吧（二进制01+10），然后我们就发现了一个新的问题：第二位需要处理第一位有可能进位的问题，所以我们还得设计一个全加法器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZqX8YCcicyIZZFu0yU2srdyDvo37fdHU0UCqVibO5yFNiaFaMiaLarw3PCQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_005_084aa3f9a723.jpg)
 
   
 
 每次都这么画实在太麻烦了，我们简化一下
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZLXuFd1BO4043vMAah9JZSNta2WnFzYER23WsAPLliceCWb96GTIGOcQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_006_d7c81794d115.jpg)
 
 也就是有3个输入2个输出，分别输入要相加的两个数和上一位的进位，然后输入结果和是否进位。
 
 然后我们把这个全加法器串起来
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZ3kl2bOU4skXSfdicmr4kuQxhM7zb4sPqAsraSdRt1M9hEkicNf99pF3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_007_e08da7359668.jpg)
 
   
 
@@ -110,7 +110,7 @@ AB只能输入0或者1，也就是这个加法器能算0+0，1+0或者1+1。
 
 所以你以为呢？编程就是把线来回插啊。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZ2er2qPTrFba19veiabFWL41liaLqLs2ibujBORfN0CYZNH4B5zWRib3YLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_008_05daacbd93bf.jpg)
 
 惊喜不惊喜？意外不意外？
 
@@ -120,7 +120,7 @@ AB只能输入0或者1，也就是这个加法器能算0+0，1+0或者1+1。
 
 这里再引入两个模块，一个叫flip-flop，简称FF，中文好像叫触发器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZbxialLb5I3wT0HZIIWaJNUDqBiaottXrNyMQo4urTPdlzVTGKoIPp3fg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_009_eb452b9e0e7d.jpg)
 
 这个模块的作用是存储1bit数据。比如上面这个RS型的FF，R是Reset，输入1则清零。S是Set，输入1则保存1。RS都输入0的时候，会一直输出刚才保存的内容。
 
@@ -128,13 +128,13 @@ AB只能输入0或者1，也就是这个加法器能算0+0，1+0或者1+1。
 
 另外一个叫MUX，中文叫选择器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZibxHNFLJ70e1Gh6nUtNA4bSnsUBgqjr1OEiaMDTGvvDVIUE7wblX03EQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_010_3ee645457e24.jpg)
 
 这个就简单了，sel输入0则输出i0的数据，i0是什么就输出什么，01皆可。同理sel如果输入1则输出i1的数据。当然选择器可以做的很长，比如这种四进一出的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DYxwuv2KNhMgzAAG3Px3uacn2RCmTZwZrE9agJfQL22qPCIt6qOJLxibicibtbqsVfxSMrALKmV0ecViazWFvQU3Fg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深度剖析___CPU_到底是怎么识别代码的__images\img_011_b1a46bca3392.jpg)
 
 具体原理不细说了，其实看看逻辑图琢磨一下就懂了，知道有这个东西就行了。
 

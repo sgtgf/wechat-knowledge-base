@@ -12,7 +12,7 @@
 
 **
 
-******![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIueeFDbbsFISSSRQiaYukVrtiad9UK7rSwV9Z4bXvzlqLZH6UGfy906Wpww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)******
+******![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_005_e9923891d0ec.png)******
 
   
 
@@ -23,7 +23,7 @@
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIuebIjVr1qEjYq8cwPjGkbXvKy84cwglXrqA48AGu6INR3MBZGOg1GIFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_003_0f813635acce.png)
 
 似乎所有的电源工程师谈起电解电容的好坏的时候，最后总是少不了一句，要选择ESR参数低一点的电容云云，但，公司采购员按这个要求去采购电容的时候，只能选择好品牌，因为采购员心里知道，好品牌的电容ESR参数才低，因，电解电容的ESR值从不标示出来。
 
@@ -33,7 +33,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgMQianiawVvLzjhiciaFTbpArKvvMgmLMibZF9WuUF1xgfE6QMRygESBk2enyBQ4jgnMOs4mjPjgb55gA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_004_b09e7e789b4c.png)
 
   
 
@@ -43,13 +43,13 @@
 
 **
 
-******![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIueeFDbbsFISSSRQiaYukVrtiad9UK7rSwV9Z4bXvzlqLZH6UGfy906Wpww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)******
+******![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_007_e9923891d0ec.png)******
 
 ********一.先来说ESR********
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIuebIjVr1qEjYq8cwPjGkbXvKy84cwglXrqA48AGu6INR3MBZGOg1GIFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_006_0f813635acce.png)
 
 作为开关电源的输出_整流滤波_电容器，电容量往往是首要的选择，铝_电解电容_器的电容量完全可以满足要求，而ESR则相对比较高。可以通过多只并联的方法降低ESR。也可以选择更大的电容量来降低ESR.
 
@@ -79,13 +79,13 @@ V=R(ESR)×I
 
 **
 
-******![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIueeFDbbsFISSSRQiaYukVrtiad9UK7rSwV9Z4bXvzlqLZH6UGfy906Wpww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)******
+******![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_002_e9923891d0ec.png)******
 
 ********二.生产厂家为何不愿标示出来ESR呢?********
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIuebIjVr1qEjYq8cwPjGkbXvKy84cwglXrqA48AGu6INR3MBZGOg1GIFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_008_0f813635acce.png)
 
 从电解电容器的生产工艺上考虑，电解液的电阻是铝电解电容器等效串联电阻(ESR)的主要部分。多数铝电解电容器生产厂商是不给出ESR数据的 主要原因主要是：相对于其它介质的电容器，铝电解电容器的ESR显得太大。如1μF/16V的普通铝电解电容器，其ESR一般在20Ω左右;100μF的 铝电解电容器，其ESR也是在1.5~2Ω之间。
 
@@ -99,19 +99,19 @@ V=R(ESR)×I
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgMQianiawVvLzjhiciaFTbpArKnYBicUyAQGAuVicVzAr9ibEb7EFNMB0iaVCoPMhIHxqfvZbSyQunok1tNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_009_b01f95a9428c.png)
 
   
 
 **
 
-******![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIueeFDbbsFISSSRQiaYukVrtiad9UK7rSwV9Z4bXvzlqLZH6UGfy906Wpww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)******
+******![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_012_e9923891d0ec.png)******
 
 ********三.顺便了解一下有几个电容参数也不标示的原因********
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIuebIjVr1qEjYq8cwPjGkbXvKy84cwglXrqA48AGu6INR3MBZGOg1GIFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_013_0f813635acce.png)
 
 其实，作为硬件工程师，总有这样的感觉，电容的参数，我们将其分为**“显性参数”**和**“隐性参数****”**。所谓“显性参数”，就是印在电容表面的一些基本参数，这些参数在我们看到一颗电容之后往往可以直接得知。例如电容的容量(比如“470μF”等等)、容量偏差范围、耐温范围、电压值(比如“16V”)。
 
@@ -149,13 +149,13 @@ V=R(ESR)×I
 
 **
 
-******![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIueeFDbbsFISSSRQiaYukVrtiad9UK7rSwV9Z4bXvzlqLZH6UGfy906Wpww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)******
+******![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_010_e9923891d0ec.png)******
 
 ********小结********
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmcwasVUyyh0pEJOccZrwIuebIjVr1qEjYq8cwPjGkbXvKy84cwglXrqA48AGu6INR3MBZGOg1GIFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\很多电解电容厂商不给出ESR的内情曝光_images\img_011_0f813635acce.png)
 
 多数铝电解电容器生产厂商是不给出ESR数据的主要原因主要是：相对于其它介质的电容器，铝电解电容器的ESR显得太大(个别的如日本个 别公司电容的除外)。全球众多铝电解电容器生产厂商中，能过给出其生产的铝电解电容器的等效串联电阻(ESR)很少。有的是没有这方面的数据(如国内众多 铝电解电容器生产厂家)，而有的则是技术保密的需要，当然也有感到自己生产的铝电解电容器的ESR值太大，过于羞涩，公布出去有伤大雅。
 

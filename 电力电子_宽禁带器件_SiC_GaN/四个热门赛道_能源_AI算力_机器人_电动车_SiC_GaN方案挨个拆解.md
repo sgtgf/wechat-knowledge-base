@@ -12,7 +12,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/JJfgHuNvJb65LgWASpreNJfgicD0UyEffufZ4S46grrGkkodABsibSia3kxqcpIIRSPL1QNAIribaQOMnNMaJKrUq8Q7qfwCJ4V2JEUV2lLrEpU/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_000_5d1bafda511c.jpg)
 
 2026英飞凌宽禁带论坛现场
 
@@ -22,7 +22,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/JJfgHuNvJb7gKTtm7ic2zqJL6NB60ghTrWO5Z8Jhz8PUicqZkH1DiboNu7cbHENwyoK0ZmA4ZdXe0kGiboVh5cOBYU9JSVIvTfBEu3vOpx0QZic4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_001_e9c3b6ed37ed.png)
 
   
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/JJfgHuNvJb5iaOTOqbjoKIkFqyl5QPI91mrlFuGOroLQYcm8icsTEGKQIh69xEQgWDFvNasbKFOlHVkib9mH1n7pD85ASKAibt2y4eCRjzwugvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_002_738d32330277.png)
 
   
 
@@ -57,7 +57,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/JJfgHuNvJb5odq005axbTcmB5ia9t4sfs5BaId7EicDBvlVyqtdHthJqPriaxqQhtGicRkPia98Jia7b6HFJ55gIYOXJ4nGapex9K1otZd4sDkzN8/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_003_d569869b4ac3.jpg)
 
 英飞凌科技全球高级副总裁及大中华区总裁潘大伟(左)与英飞凌科技执行副总裁兼工业与基础设施业务首席销售官Andreas Weisl(右)在论坛
 
@@ -71,7 +71,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/JJfgHuNvJb5uRJJPGTtnBicdFicDk7iaZOZrjS2B3Qg8TdApPCleBVQubGto8prHC3icqjSUAV9rNd5wBYlQAaiazP7VceibiaPNwneUbtNX8WibTvw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_004_733dfc44e812.jpg)
 
 2026英飞凌宽禁带论坛展区
 
@@ -86,22 +86,22 @@
 -   **能源基础设施展区：**展出了基于QDPAK 封装的1200V CoolSiC™ JFET工艺，拥有极低的导通损耗、出色的关断能力和高可靠性，可在工业和汽车应用中实现可靠、高效的系统性能。而在传统的光伏逆变器领域，展出了一款全氮化镓3 kW HERIC光伏逆变器参考设计，结合自研 TCM/CCM 混合调制技术，具备双向能量流动能力，适配混合式储能逆变器。
     
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/JJfgHuNvJb5YxphwByO5n6dOicianWiczOGGYn2MbKXJjuiapUWLdx0Nv5LOwP3jIm97qyIS0fXianxHS86KGz7AxUgelJKxlnib6fc4pVQUbJIOE/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_005_9b55d7645762.jpg)
 
 -   **AI数据中心展区：**展出面向高性能计算的18kW三相输入电源方案，输出电压50V，效率达约97.5%，兼具高效率与高功率密度。该方案基于碳化硅五电平ANPC拓扑，结合能量缓冲电路与LLC谐振变换器，采用氮化镓同步整流及平面变压器架构，由新一代PSOC™ P8 MCU控制，充分满足AI服务器及数据中心对高效率、高可靠性供电的需求。
     
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/JJfgHuNvJb7xYrmRS7phx76OcsJiasm50XxB7MObxOJYXsV0n7BWiaPvad3HO1O3blggfRsI8SasMGbrzoV8IlwUIG5hhTIHaMuXiaia2qxxiaiaI/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_006_bacd8021bc5c.jpg)
 
 -   **机器人展区：**展出基于100V GaN的人形机器人电机驱动方案，采用iGaN集成功率级、新一代控制器及电流传感器，实现紧凑设计与灵活集成，可嵌入电机内部。通过提升开关频率有效降低损耗并优化系统效率，充分满足人形机器人对高性能、小型化及可扩展电驱系统的需求。
     
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/JJfgHuNvJb4XOFB78tBQo12AHKYTqpKP1wo7uy7Yrbx5hxwXaz9DjDMPJSI8QMuwPmiaialMzVHjuxkfqlWSVadJbEfT9AK8vU9SXVsJVBCXg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_007_535ec1972b22.jpg)
 
 -   **电动出行展区：**重点展示基于第三代HPD封装的HybridPACK™ Drive G3S新一代功率模块，体积较上一代缩小约40%，并支持最高600Arms电流输出，具备更高功率密度与可靠性。同时，基于BDS GaN的单级6.6kW车载充电（OBC）方案，凭借超过97%的平均效率、更高功率密度及轻量化设计，进一步推动电动汽车充电系统向高效、小型化发展。
     
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/JJfgHuNvJb7Kg3LYeEtZlI1HzBVeP4F2K2hibd8U8pxicDG5C6VevsicVYwK9OGIqgcqicTqa6ibqibxMIaeCuMaeOB0FzT4FXn5duXbq4nsd1ZHQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_008_c31aa20153da.jpg)
 
   
 
@@ -115,14 +115,14 @@
 
 👇**扫描下方二维码，下载完整SiC白皮书**👇
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacw6yPynY4bmWlc32jzrlhicFjIUwrZ197bxfW68uicmQ9x2fLI9VUnkvlylmhyT77co7M3HeMdlfvswoTXxFYicU02tOzgeyHrdU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_009_974ca1a45f2a.png)
 
   
 
 👇**扫描下方二维码，下载完整GaN白皮书**👇
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacpy621hEiaa20mk97TEibibGIfPW2vw2Pkm0GM7SshIE2lDpBnJD3GNRK0QOwnia21hUJTukibjUuYgpHGhA3BpCmrrGhUIOBeITQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_010_fa23f0e618e2.png)
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/JJfgHuNvJb675nS3jHYLK2icKocBwmH8VNQw6yfvjNCKQVFj2picI8XPKZyqlI4Bmb5PvLb53EvqsrrnIbQhjWHZickgibTnHSsKzEpjFFRia0k0/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\四个热门赛道_能源_AI算力_机器人_电动车_SiC_GaN方案挨个拆解_images\img_011_028e8f11e356.jpg)

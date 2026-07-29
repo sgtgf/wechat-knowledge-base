@@ -30,7 +30,7 @@ ST×米尔STM32MP25x高阶实战培训会
 
 赶快**扫码报名**
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/u3IjerbQOXjPPRwfNkA85icXcampf1jXX162icqRM3NgMG7lmg1hwjeogkmkE0QKHOU7Lo8RU2T0uiap1oEGgO4CQ/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_000_2abbba936a43.png)
 
   
 
@@ -40,13 +40,13 @@ ST×米尔STM32MP25x高阶实战培训会
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_001_242f6c3786e9.png)
 
 培训资料公开
 
 TRAINING MATERIALS
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_002_56782ac26ef3.png)
 
 **本次培训资料：****链接如下**
 
@@ -74,27 +74,27 @@ https://bj11916.apps.aliyunfile.com/disk/s/g81U5BjwYZb
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/4PRWJO8VX6DwfPPwDiaeabofdCK3hQZpW6zibmkuGtDibd6vQPyibyF2Zsrgk3WXJTLIcu41QottLiaYQw3f9UlVlkw/640?wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_003_2921d8000b4c.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/BMNr1wLwd8P7M8FJdyJGvbFRfCGbmzxHAA1c7GpHO0wkChOdlJqs6KprjZzZlebcSIzYGQva46DSYQlP7kT0ZQ/640?wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_004_a37ed115918e.png)
 
 STM32MP25x是ST推出的搭载了双核Cortex-A35@1.5 GHz和Cortex-M33@400 MHz的微处理器。米尔电子基于STM32MP25x推出了MYD-LD25X开发板，开发板配备丰富的扩展接口。
 
 为助力开发者深度掌握与应用STM32MP25x处理器，米尔将与ST在2025年4月11日和2025年4月18日分别于深圳、上海联合举办线下高阶实战培训会，本次培训在上一期[“Bring Up”](https://mp.weixin.qq.com/s?__biz=MzA5ODAxMzI5Mg==&mid=2649632574&idx=1&sn=1a1f0dfb3610965b572ae0b439e93464&scene=21#wechat_redirect)培训内容基础上全面升级，聚焦工业场景真实需求，以“理论+代码+案例”三轨并行的模式，助您打通从芯片特性到场景落地的全链路技术壁垒！
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/wtNe8uhTR7CsoEUy7TibWOQ6UichTxA9W8G2TjAicWiaNXfAFDq8ibYcgMmVXI6YLNWvhJuwORian3PMuLVsJcbTN9EQ/640?wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_005_06f1974d87e9.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/R9dcQBfcSBYFarvxqhnvKup8sOib7ufJjwLWiaPPQKy7dhZgLx4uPbDwjYt0jMxz6ncByBaN0Xuvlm0lDEzia5jmg/640?wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_006_3aac050c43d4.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/u3IjerbQOXiateBricQcqFwl2XvuZCUoKvOkS4sDQNzj6bbLmwXiaMTmanFkicD0tQMIqUicyibdS0pI8Cw3mXQ3UiagA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_007_59b80440126b.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_008_242f6c3786e9.png)
 
 课程安排
 
 COURSE ARRANGEMENT
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_009_56782ac26ef3.png)
 
 本课程围绕MYD-LD25X开发板展开，分为理论与实操两部分。
 
@@ -102,13 +102,13 @@ COURSE ARRANGEMENT
 
 实操部分则包括设备树配置和内核编译、LVDS显示模块和MIPI CSI摄像头模块的移植、异构多核（双Cortex-A35+Cortex-M33）通讯案例、ISP实现和参数调优以及AI模型部署。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_012_242f6c3786e9.png)
 
 理论部分
 
 THE THEORY SECTION
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_013_56782ac26ef3.png)
 
 -   STM32MP25x系列芯片介绍
     
@@ -119,13 +119,13 @@ THE THEORY SECTION
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_010_242f6c3786e9.png)
 
 实操部分
 
 THE OPERATION SECTION
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_011_56782ac26ef3.png)
 
 1）设备树配置和内核编译
 
@@ -141,13 +141,13 @@ THE OPERATION SECTION
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_014_242f6c3786e9.png)
 
 实验平台
 
 EXPERIMENTAL PLATFORM
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_017_56782ac26ef3.png)
 
 MYD-LD25X开发板套件
 
@@ -159,13 +159,13 @@ STM32CubeIDE 资料链接如下：
 
 https://www.stmcu.com.cn/Designresource/detail/software/710841
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_016_242f6c3786e9.png)
 
 实验前准备
 
 EXPERIMENTAL PREPARATION
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_015_56782ac26ef3.png)
 
 为保证课程顺利进行，请事先准备：
 
@@ -183,13 +183,13 @@ EXPERIMENTAL PREPARATION
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_020_242f6c3786e9.png)
 
 线下培训对象
 
 TARGET GROUP
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_019_56782ac26ef3.png)
 
 -   正在或将要使用ST MPU的软、硬件工程师
     
@@ -200,13 +200,13 @@ TARGET GROUP
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/UDBWiaGVgFVic47nw3B7EFLm2tQYqxOzvbFvZV0O4Kxc6iaRyPZhjYoLOPlNnnVC2ic4nliasLHhKrZYSZTvSs6lxlQ/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_018_242f6c3786e9.png)
 
 培训时间及报名
 
 TRAINING TIME & REGISTRATION
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/cyaBr7eyibPLNHKPHBiaPibtj0mE6Bpp3F1gre9m8mvoWed3f2HVAib4YtGwT6DL0MwGhvCsObyU2CkZDWOHXiavIicg/640?from=appmsg&wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_021_56782ac26ef3.png)
 
 **深圳场**
 
@@ -241,7 +241,7 @@ https://www.myir.cn/formguide/index/index.html?id=27
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_022_4d0463ea584e.png)
 
 **培训申请时间在培训预定日期的前1周截止****：**
 
@@ -249,23 +249,23 @@ https://www.myir.cn/formguide/index/index.html?id=27
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/yRDp2K3ZBpKOicaBvhSTPZYqTVq8ku50N5dBIOyBrV3ibGsdJN5bDcJOGFPv3Y8hVJGg6kH94cicUNAAicGxXwS9mA/640?wx_fmt=other&wxfrom=10005&wx_lazy=1&wx_co=1&retryload=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_023_b219b0d9c31a.jpg)
 
 **米尔电子最新“明星产品”速报**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/u3IjerbQOXjI84qDoUetqbWhdQibpWIxecUNgic2NSqM48QWCL1xQ0lHhwUhDKT4aqCoUiaxHVLJYicmBkjxKWduibQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_024_4db443b81111.png)
 
   
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/u3IjerbQOXhsE90DbHmMobOAMQVh8uvPejrVawsXr1SIE22icBibaN1iaw5subiaqJibxq4UETWmppcy4LPp2yykgNA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_025_2735b9d283d9.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/u3IjerbQOXjSfcgT9biaHPAN0ndL2lPCbVYWgmpxNnKia7Iq9FvP98lJxghl5mm4rNfqt3nLvogsTl1WtPz6ucHA/640?wx_fmt=other&from=appmsg&wxfrom=10005&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_026_6c6bc22444f8.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/u3IjerbQOXgP5woa1oZ0VhUt8yESw4Gw8HUVtdnsuPCia0CQ3gzu0h7s17HmTibmnK0Bfn6c6eYUsvgCPJ3JgFtQ/640?wx_fmt=other&from=appmsg&wxfrom=10005&wx_lazy=1&wx_co=1&retryload=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_027_4a2f100315c9.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/u3IjerbQOXgP5woa1oZ0VhUt8yESw4GwcwibV5ChsC9xIQ9aiaUOZUqqA8NW7wQg30SejEvfwMQyvPEdV3VJTJTQ/640?wx_fmt=other&from=appmsg&wxfrom=10005&wx_lazy=1&wx_co=1&retryload=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有些经验_ST不会写在手册里___images\img_028_0ec13576cb1e.jpg)
 
   
 

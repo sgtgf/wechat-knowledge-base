@@ -6,11 +6,11 @@
 
 智能和网络制造
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKfzppoRCALDQZ4qicPJMe8oicMVVmlM1iaxMdXMBkNT9BNQnfswnxd1UAg/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_000_d5e4fadb8378.png)
 
 智能和网络制造是一种面向服务的、高效低耗和基于知识的网络化智能制造新模式，是对现有网络化制造与服务技术进行延伸和变革。它融合现有信息化制造技术及云计算、物联网、语义Web、高性能计算等信息技术，将各类制造资源和制造能力虚拟化、服务化，构成制造资源和制造能力池，并进行统一的、集中的智能化管理和经营，实现智能化、多方共赢、普适化和高效的共享和协同，通过智能和网络制造系统为制造全生命周期过程提供可随时获取的、按需使用的、安全可靠的、优质廉价的智慧服务。智能和网络制造是一种通过实现制造资源和制造能力的流通从而达到大规模收益、分散资源共享与协同的制造新模式 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVK1RMCrXu2oq44LjQNhzVCwC9ef2vLz0svicxCIyCb6iaMHH4HVva0MRnA/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_001_86261ad96612.png)
 
 网络制造图
 
@@ -30,15 +30,15 @@
 
 （7）智能性等
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKB3e1Kr5vMVGv1R67Fqv2UsRGtKXxibCTILSx4aGsUticZTwFxJ9jpvdA/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_002_87525d0e08db.png)
 
 网络制造计算机联网大致结构图
 
 针对智能和网络制造的不确定性、透明和集成、能力共享和众包式等典型特征，以及由此特征导致的制造过程中出现“结构失配”和“工艺革新”的特性，论文引入普通（O，Ordinary）接口、转换（V, conVersion）接口、多参数适配器（T，multiparameter adapTor）接口和概念实例调制器（M，concept instance Modulator）接口，有利于解决由这些特征引发的问题，进而有利于塑造一个安全可靠的高效的共享和协同的云制造环境。显然，基于MAS的协同服务计算是智能和网络制造的关键，如何深化和健全基于MAS的协同服务计算的云制造技术是以后的研究方向之一。鉴于本文的研究内容与智能和网络制造的密切联系，所以本文后面提出进一步的研究方向是将研究成果渗透进目前国内外研究热点的服务计算、云计算、云制造等学科和工程领域，推进这些领域的发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKmjbUIn55RmB8JZ2GibQssvj6DYqG2kOIIU7mHCx79peRITQ13AvVTUg/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_003_ab36f83d26ed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVK9UNz7Bk5JyCxtXTxJCero9e9rLrrPn1obXzIribswvFV1VJLsYxl9Pw/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_004_427d4bd0453b.png)
 
 智能网络制造系统图
 
@@ -50,13 +50,13 @@
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKccPTvB6BFO4mFYQthqAkAG7cAa3ibFLPbWtwEPRtqJRlI3kTsJuB8Ug/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_005_4bfe83fc5c5e.png)
 
 周尤明 副教授, 高级工程师. 2012 年获得浙江大学计算机科学与技术学院博士学位. 主要研究方向为人工智能, Agent协同, 知识管理. 本文通信作者.
 
 E-mail: monitorstudent@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVK2DiaxcEAzFuIC9RknpSKLcCpLvH2kahiaNyx73Vq1icXYNBwnVKkiaMUtg/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_006_6d8e1f717ac6.png)
 
 古华茂副教授、浙江大学博士、博士后.主要研究方向为人工智能, 仿生味觉, 仪器智能信息处.
 
@@ -98,21 +98,21 @@ E-mail: GHMSJQ@mail.zjgsu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKiaJdCTkFNmk0MEzicdD7jDY0hXtJhic8amKavsTRGlrSTf9BgJtTZNzwQ/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_007_8286505575bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKeGsHSGpAicezPRat7Df2TWlfKibuRQ4Qevy0dePKcbp9vXpKZbKlNnkw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\机器人_无人机_多智能体\CRQAOVTMAgent支持的开放环境下协同制造装配_images\img_000_dab38cff0c98.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKiaJdCTkFNmk0MEzicdD7jDY0hXtJhic8amKavsTRGlrSTf9BgJtTZNzwQ/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_009_8286505575bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKt9NsPhu8bct1ia6jYRfb8Xk3V7B5Sry1HdJpUIbzu6yPNO9wKO4Eiccw/640?wx_fmt=jpeg)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_010_6c7e85cb552f.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKiaJdCTkFNmk0MEzicdD7jDY0hXtJhic8amKavsTRGlrSTf9BgJtTZNzwQ/640?wx_fmt=png)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_011_8286505575bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44SL2kVYgowaDLCwd8OXLVKvZKK2GbjY097glenxFSIAKmnmgRS7e4x4Nzg7GFmMmBpJ9sqgbjvww/640?wx_fmt=jpeg)
+![](CRQAOVTMAgent支持的开放环境下协同制造装配_images/img_012_ad991675e055.jpg)
 
 自动化学报订阅号
 

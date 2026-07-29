@@ -18,7 +18,7 @@ UART口指的是一种物理接口形式(硬件)。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyoARLUku8oUDzA0dw7JBqo5dxTbSd4ORlI6bQm8JlIA3Kcj7s1JCgRg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_000_9850285f5504.jpg)
 
 UART是异步，全双工串口总线。它比同步串口复杂很多。有两根线，一根TXD用于发送，一根RXD用于接收。
 
@@ -30,7 +30,7 @@ UART的串行数据传输不需要使用时钟信号来同步传输，而是依�
 
 对于发送设备和接收设备来说，两者的串行通信配置应该设置为完全相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJGSqzlOtJ40hezEIhqbjMCpibSGPCMgHhfjHmtejuw9QWRLn9R0dibTKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_001_bbf978f610e3.jpg)
 
 起始位：表示数据传输的开始，电平逻辑为“0” 。
 
@@ -68,7 +68,7 @@ SDA线——负责在设备间传输串行数据。
 
 该总线可以将多个I2C设备连接到该系统上。连接到I2C总线上的设备既可以用作主设备，也可以用作从设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJLz2UEwXJ1iarbwJjJL2ZEJ7xvqUq6MPzgFCCJx6ZQlU8UelTYbcrBXw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_002_649f26a81ee1.jpg)
 
 主设备负责控制通信，通过对数据传输进行初始化，来发送数据并产生所需的同步时钟脉冲。从设备则是等待来自主设备的命令，并响应命令接收。
 
@@ -98,7 +98,7 @@ SPI总线是同步、全双工双向的4线式串行接口总线。它是由“�
 
 为了实现通信，SPI共有4条信号线，分别是：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJBIZGGjYUc9EbrLovbMC0TFa4WVk6Dv3kZZUX2tj7ZaczpTwyAsFGGw/640?wx_fmt=jpeg)(1)主设备出、从设备入（Master Out Slave In，MOSI）：由主设备向从设备传输数据的信号线，也称为从设备输入（Slave Input/Slave Data In，SI/SDI）。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_003_ca4892c96c6d.jpg)(1)主设备出、从设备入（Master Out Slave In，MOSI）：由主设备向从设备传输数据的信号线，也称为从设备输入（Slave Input/Slave Data In，SI/SDI）。
 
   
 
@@ -118,7 +118,7 @@ SPI 的工作时序模式由CPOL（Clock Polarity，时钟极性）和CPHA（Clo
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLnYxAS7BAgqRr7abJOFejM0VhADxN9v2wcXbsmN0mNq8aGoAmJQ7dFbicMrr9yxKN8W933OicmsibCw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_004_e7a2b3cbcbf8.jpg)
 
 UART、SPI、I2C比较
 
@@ -144,7 +144,7 @@ UART、SPI、I2C比较
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJw28FSkwHUZibGAFmqW7ibBFiatnTZR0VsO5HcX8uekR36rkErlvLPquoQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_005_18d6f8cfd318.jpg)
 
   
 
@@ -166,7 +166,7 @@ RS-232串口通信传输距离15米左右。可做到双向传输，全双工通
 
 下图是DB9公头和母头的定义，一般用的最多的是RXD、TXD、GND三个信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialmeUicdJGZMTDupIpyCKMlechkcxUzvxx7GXtn1LNicFBbib003eW54gEw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_006_ead4cde94ee7.jpg)
 
   
 
@@ -174,7 +174,7 @@ TTL和RS-232互转
 
   单片机接口一般是TTL电平，如果接232电平的外设，就需要加TTL转RS232的模块。如下图，可用芯片MAX232进行转换。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialJFZxibRS98ibic1EeWQicFuNZj6icibl1kLVuUuprNuGkoccChlh0z0MtEyQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_007_5dc6ac5da3b2.jpg)
 
   
 
@@ -190,7 +190,7 @@ RS-422有4根信号线：两根发送、两根接收和一根地线。全双工�
 
 它有一个主设备，其余为从设备，从设备之间不能通信，所以RS-422支持点对多的双向通信。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJBoeSlDodpCTLhibIvVY8MF9n1py9nuiaPQ0qw07T9JfZX3vetqPvkBmg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_008_fff76b9625d0.jpg)
 
   
 
@@ -212,7 +212,7 @@ RS-485采用平衡发送和差分接收，因此具有抑制共模干扰的能�
 
 TTL转成RS-485很常见，比如MAX485，参考电路如下
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIynicic4HbwTQyNjSZkzVVTft0iaKKW5eIyvxZDWtdEc1IoB90Soia9EpicOQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_009_ae79f4a9d8d0.jpg)
 
 RE引脚： 接收器输出使能（低电平有效）。
 
@@ -232,17 +232,17 @@ TTL
 
 PC中的COM口即串行通讯端口，简称串口。9个Pin，用RS232电平。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyHicYP5gk6MCFtPpmqATJ11qlreIia0xcHK31dP2o6qlto1vJja01x7Mw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_010_f383ca466929.jpg)
 
 串口、COM口是指的物理接口形式(硬件)。而TTL、RS-232、RS-485是指的电平标准(电信号)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyNLnX0k3qpfzZ7EF8gWqbfB0nWk5f848wlE7RlG93rT0h3tbHuNApUA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_011_b8c32a52ce6e.jpg)
 
   
 
 单片机与PC通讯示意图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyaBQkZwicoz8n4Q3dQickPkgBwXjDA5v4Xibkz232lasEsQ23nyp7aQTLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_012_0437f583a135.jpg)
 
   
 
@@ -258,9 +258,9 @@ CAN是控制器局域网络的简称，是一种能够实现分布式实时控�
 
 CAN总线网络主要挂在CAN\_H和CAN\_L，各个节点通过这两条线实现信号的串行差分传输，为了避免信号的反射和干扰，还需要在CAN\_H和CAN\_L之间接上120欧姆的终端电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyv1jvRrEpIhNteNFzVpE7wFNB4v23bIr95WDHORwXeqYJdhYbhDd5UA/640?wx_fmt=jpeg)每一个设备既可做主设备也可做从设备。CAN总线的通信距离可达10千米（速率低于5Kbps），速度可达1Mbps（通信距离小于40M）。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_013_0c54bb2f277f.jpg)每一个设备既可做主设备也可做从设备。CAN总线的通信距离可达10千米（速率低于5Kbps），速度可达1Mbps（通信距离小于40M）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJwwticpWS7h8pCib1c9G4I3eXFeEKEo5AxSIfafIGI48UhwZVGibZc0CDA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_014_7e0bb8f4158b.jpg)
 
   
 
@@ -274,7 +274,7 @@ CAN总线采用"线与"的规则进行总线冲裁，1&0为0，所以称0为显�
 
 从电位上看，因为规定高电位为0，低电位为1，同时发出信号时实际呈现为高电位，从现象上看就像0覆盖了1，所以称0为显性，1为隐性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyI77v8GcepJeKibNceXZHVbGxVyKTDhiaMgjg4ZiacQvobzYpvggBzs9Pw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_015_a47667a9a18c.jpg)
 
   
 
@@ -294,11 +294,11 @@ USB接口最少有四根线，其中有两根是数据线，而所有的USB数�
 
 USB 规定，如果电压电平不变，代表逻辑1；如果电压电平变化，则代表逻辑0。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialldPnB8nQzEHicebecySjTDxIeYVHjqCanjXAcTWeCqm7BuN14Bic2Rww/640?wx_fmt=jpeg)USB转TTL
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_016_1cecfdd568a3.jpg)USB转TTL
 
 一般USB转串口都是用CH340G芯片。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIy1SmJVczicHoZkZ7Shybic9MFiayuPsibNmHYb4KPlvYzg2UgRNoAUq4NAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_017_f2fde0674fcf.jpg)
 
   
 
@@ -322,11 +322,11 @@ SD卡是一种存储卡，可用于手机作为内存卡使用。
 
 2\. SD总线通信模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIyrhsy7lPAYRPhMe6r1IF5P8V5nYkpyeQY0K43CvTXZkbUzibKnJRHiaeg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_018_2e35d53563c4.jpg)
 
 值得注意的是，SD总线模式中有4条数据线；SPI总线模式中仅有一条数据线（MOSI和MISO不能同时读数据，也不能同时写数据）；这样在嵌入式中，单片机与SD卡通信时采用SD总线模式比SPI总线模式速度快几倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLX9Eiciayc9HXrmmZI1ictfGJBibZnaNgiclGbHPcicaF0EnzZVZMrEl8nbqao6lrdtltBloxhfEmAkoYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_019_5ea05c22bf3d.jpg)
 
   
 
@@ -338,7 +338,7 @@ SD卡是一种存储卡，可用于手机作为内存卡使用。
 
 1-Wire由美国Dallas(达拉斯)公司推出，是一种异步半双工串行传输。采用单根信号线，既传输时钟又传输数据，而且数据传输是双向的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIycnXFjNCBT2RR3RALibLuDl1Qf4f3F56ywoY7TbJzAKvmtlD5mhn9PpQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_020_2b6e84fc94cd.jpg)
 
 单总线的数据传输速率一般为16.3Kbit/s，最大可达142 Kbit/s，通常情况下采用100Kbit/s以下的速率传输数据。
 
@@ -360,7 +360,7 @@ DMA直接存储器访问
 
 DMA是STM32内的一个硬件模块，它独立于CPU，在外围设备和内存之间进行数据传输，解放了CPU，可使CPU的效率大大提高。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLnYxAS7BAgqRr7abJOFejML8DHoR4e75hFzmicXM7iabAH3iaaQZT9hw21pBtYN8h7CpsE1j26jMlDQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_021_79d4f2ec874f.jpg)
 
 它可以高速访问外设、内存，传输不受CPU的控制，并且是双向通信。因此，使用DMA可以大大提高数据传输速度，这也是ARM架构的一个亮点——DMA总线控制。
 
@@ -392,7 +392,7 @@ Ethernet以太网
 
 目前很多主板的南桥芯片已包含了以太网MAC控制功能，只是未提供物理层接口。因此，需外接PHY芯片以提供以太网的接入通道。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLnYxAS7BAgqRr7abJOFejMjZzaLupFhfbtK33pn9fx5gMXJXicS89F8H7R6J5wibffJib7PjkMVSj2g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_022_3e6487015598.jpg)
 
   
 
@@ -408,4 +408,4 @@ Ethernet以太网
 
 以太网接口参考电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJcWDtzy7ayPlQSFM9IOnIygaEkDoRTicJQCcTapCV2ianBzxVfJmKqGSCWXiaWlI1nuEmL1EKHdwR3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UART_I2C_SPI_TTL_RS232_RS422_RS485_CAN_USB_SD卡_1_WIRE_Ethernet_images\img_023_53e03e369493.jpg)

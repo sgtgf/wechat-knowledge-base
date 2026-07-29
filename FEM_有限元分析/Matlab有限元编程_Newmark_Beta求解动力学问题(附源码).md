@@ -125,7 +125,7 @@ function[uu,vv,aa,ttt]=NewmarkBeta1(t,dt,delta,beta,M,C,K,acc_x,Constr)
 
 以上就是笔者关于Matlab有限元编程：Newmark-Beta求解动力学问题分享。推荐大家关注我的原创视频课程里面《[Matlab有元编程从入门到精通30讲](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247550237&idx=1&sn=c0d259918b2f780b2c8d9869444d2801&chksm=eb93a9f5dce420e3c84059579329caf3191c2931c7dc9b564dfc19d49b16f5a0bcdcd1a4fc0f&scene=21#wechat_redirect)》强烈推荐学习者订阅。
 
-![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_032_bfef03060290.other)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_032_bfef03060290.jpg)
 
 **上新优惠价****（限1****0名）**
 

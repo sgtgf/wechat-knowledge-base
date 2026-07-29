@@ -14,13 +14,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JM7G5d9Ie8dSMickj6b3grjo2x4q0YhwXJRs9EzF1jicP3I0O7q5Lpia3AHZODfX9wAjxyveLGmkYbQ/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](很基础的MOS管知识_images/img_002_446ff6ceec53.png)
 
 在如果你在某宝里搜索“场效应管”你会发现，搜索出来的基本上是绝缘栅场效应管。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JM7G5d9Ie8dSMickj6b3grjuVEicbpeI7AorhC96tI4ib7ozlcmLMr1wMtAYdx0Xmmc3nkn92wicflhw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](很基础的MOS管知识_images/img_003_3bf3e26e60ab.png)
 
   
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JM7G5d9Ie8dSMickj6b3grjFl0DOHR0VQzycMBMOShC0kGYFWN7iaYj9tkvicPSPTWaz9697RBuVqgA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_004_cba6b2dfe768.png)
 
   
 
@@ -50,7 +50,7 @@ MOSFET的输入电阻很高，高达109Ω以上，从导电沟道来分，可以
 
 N沟道的MOS管通常也简称为NMOS，P沟道的MOS管简称为PMOS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JM7G5d9Ie8dSMickj6b3grjHIjzmiaaNac3pbdOY7m1F0kPxQRyM8gjfM91F4e4MJVMPTRLjEBvia2Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_005_3a1616c47d40.png)
 
 ▲ MOS管种类
 
@@ -60,7 +60,7 @@ MOS管共有3个脚，**栅极G**，**漏极D**，**源极S**，通常情况下�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1K4hMQrcxmgSMI3oxKyuUoZa5kpZdUF83x2ohhpEdvVMrWvobrjfG8qLJnWhc65r7UtUGp9ScInTw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_006_2738c0c06125.png)
 
 ▲ MOS管符号通常是画成这样的  
 
@@ -82,7 +82,7 @@ MOS管共有3个脚，**栅极G**，**漏极D**，**源极S**，通常情况下�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1LPuhTkF5fEJzX00vfUJJuTMABupuItERC6z7B4YxpvvanagKNICXFSB0SOjmNmAOSjSLwA6O0IHA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_007_b1d87f092b5a.png)
 
 ▲ MOS管做电子开关的简单应用
 
@@ -96,7 +96,7 @@ MOS管共有3个脚，**栅极G**，**漏极D**，**源极S**，通常情况下�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1LPuhTkF5fEJzX00vfUJJuTnbseCialdh2eyiaYvzBANKlKbpjMY8BbYVovjM2JzI6o44eN65wy0L3Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_008_c13d37a3843d.png)
 
   
 
@@ -106,7 +106,7 @@ MOS管共有3个脚，**栅极G**，**漏极D**，**源极S**，通常情况下�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1LPuhTkF5fEJzX00vfUJJuTTpPLmCcjoHWH2Nm3ciaNqm7GcPialqRmibcgArfqRVRTuIH3ib3MhTpukA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_009_4873ac6cc3e7.png)
 
   
 
@@ -118,11 +118,11 @@ MOS管共有3个脚，**栅极G**，**漏极D**，**源极S**，通常情况下�
 
 可能会有朋友问，**电路图中的电阻Rgs有什么作用？**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1LPuhTkF5fEJzX00vfUJJuTQJaO82pTSAZQluwCeNaWJlibrcNg78Py68eIUfycAa41CLL0xf5tJsg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](很基础的MOS管知识_images/img_010_fa092c85f644.jpg)**
 
 是这样的，在MOS管内部结构里，G极与D极、S极实际上是有一层绝缘层二氧化硅进行隔离的，这就相当于存在一个电容器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1LPuhTkF5fEJzX00vfUJJuTbYrHqTwuaAFWx5365JoZ9WUNxZicADBtdSF8Z3SkUSn34PIWKsQa0Lw/640?wx_fmt=png&random=0.20826693058146373&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_011_8ad75a26411a.png)
 
 这些寄生电容是无法避免的，电容的大小由MOS管的结构、材料、所加的电压决定。
 
@@ -132,7 +132,7 @@ MOS管共有3个脚，**栅极G**，**漏极D**，**源极S**，通常情况下�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1LPuhTkF5fEJzX00vfUJJuTrxpEfGe15hGOI9tPXOQ8bcRgDQzKVicgIkibjicAibuFBe3MicI0mLwiariaA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_012_2f284166f1e5.png)
 
   
 
@@ -140,7 +140,7 @@ MOS管共有3个脚，**栅极G**，**漏极D**，**源极S**，通常情况下�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1LPuhTkF5fEJzX00vfUJJuTeBS5icDfYf5Nxf0TjgWMibgvibLFRuKtC2ouWwlicNrPq1gxYanDtkBmiag/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](很基础的MOS管知识_images/img_013_53efc44d395d.png)
 
   
 

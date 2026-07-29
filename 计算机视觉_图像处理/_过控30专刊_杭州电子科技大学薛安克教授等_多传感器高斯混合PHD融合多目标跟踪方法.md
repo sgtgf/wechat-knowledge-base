@@ -8,13 +8,13 @@
 
 电影《异形：契约》（Alien：Covenant）中，主人公丹尼尔斯等一行人和生化人沃尔特乘坐着“契约号”飞船前往遥远的星系寻找殖民地，途中丹尼尔斯和沃尔特等人与 “普罗米修斯号（Prometheus）”号生还者之一大卫作战时，能实时跟踪到正在飞行的生化兽，并准确无误的打到生化兽。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLfQoIN8QEWo4pialjuZ0ne7c99TK6D1InebmibQSjFHy10DNJ6oSZTLVQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_000_ea321ad82869.png)
 
 同样，在现实中的导航、制导、监测和交通等诸多应用中，多目标跟踪是一类重要的问题，通常指如何利用传感器量测对观测空间中未知目标的数量和状态做出正确、连续的估计。多目标跟踪的相关技术得到了广泛且持续的研究。
 
 面对更复杂的跟踪场景，单传感器技术的跟踪结果就遇到退化的风险。为了提高跟踪效果，我们在空间上采取多个传感器融合跟踪。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfL18r9N1iaHUppvo1O3hIG40aicxO5xQ1dyqUt6QlsTsiaibUrGj9p46lFwg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_001_95b768a217f4.png)
 
 如图1所示，本文把反馈式多传感器PHD融合分成四个阶段，其一是由各传感器基于历史估计信息和本地观测对当前监测空域的PHD做出后验估计； 其二是融合中心收到并融合来自各传感器上传的局部后验PHD，形成全局后验PHD估计； 其三是融合中心基于全局PHD实现这一时刻多目标点迹和航迹估计结果； 其四是融合中心将下一时刻的全局PHD预测反馈给各传感器作为下一时刻的历史估计信息。针对文中提出的三种融合方法设置了四个场景，并对四个场景的实验结果进行了汇总。
 
@@ -24,19 +24,19 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLkjicibkr9AhHVjfo4lYDpl8En5KchaZibxDzrvOpicCKFFx9bH6rw3GWKg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_002_e841b3e9776a.jpg)
 
 申屠晗 杭州电子科技大学自动化学院讲师。主要研究方向为目标跟踪、反馈融合、信息融合。本文通信作者。
 
 E-mail：hanshentu@hdu.edu.cn 
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLoLxl2F9aRUGYYarArvL1W2p1Q6P1rlCV3AWPpkLbLas2eWW3Jpfdxg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_003_108ed328f022.jpg)
 
 薛安克 杭州电子科技大学教授。主要研究方向为信息融合、鲁棒控制、优化调度。
 
 E-mail：akxue@hdu.edu.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLqPWTe2FibzFNibgG4HTXXw5iaI53TLiboq0TjME2LLCdu5EuPkmgVRTwMg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_004_f31a56fab86e.jpg)
 
 周治利 杭州电子科技大学自动化学院硕士研究生。主要研究方向为信息融合。
 
@@ -62,25 +62,25 @@ E-mail：zhouzhili517@163.com 
 
 [中国过程控制会议30周年专刊序言](http://mp.weixin.qq.com/s?__biz=MzAwMzAzMDgxOA==&mid=2651063344&idx=1&sn=b477dfa31868e777660fa9b9bee8fd06&chksm=8131ce7db646476b2cdb21f959b240ffacb9e1a3f350790f4d44303713045d3b03e06fba704e&scene=21#wechat_redirect)  
 
-![](http://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLNPQlL947JpPmlryCQicG1nVHhVREEMibkGslKxeibrVyyDB0VH2It2IlA/0?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_005_6421813ecbb8.gif)
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfL0LHUFDtnicjdWQs09NIicMY7bd8bHZKAm9ZSSmySvO2tqdh1ibrjkowew/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_006_bd0538fef1c9.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLfcsRNKvCILDScvxgIX3Ixahl7vW7bpnWlBbqCsKHvATVic1VAHUFQkA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_007_349931c3af9e.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfL0LHUFDtnicjdWQs09NIicMY7bd8bHZKAm9ZSSmySvO2tqdh1ibrjkowew/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_008_bd0538fef1c9.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLCHUFbG9xQq8gicgkqBmKlCoAicBK5P8LCfnfHAWHIibSh1uUpTY1s2MmA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_009_6b4e04384a74.jpg)
 
 自动化学报服务号
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfL0LHUFDtnicjdWQs09NIicMY7bd8bHZKAm9ZSSmySvO2tqdh1ibrjkowew/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_010_bd0538fef1c9.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLUxvFgJgmX6JFVT8yHFA0DMfRREfr3OCEgC6yPbTdOE8IwzR0npiaOtA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_011_2b53cd5e005b.jpg)
 
 自动化学报订阅号
 
@@ -100,6 +100,6 @@ Email: aas@ia.ac.cn（日常咨询和稿件处理）
 
 http://www.aas.net.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449PVia3DrQdLPbNEvcBnjfLajwibWxbF9V3b6nakhQdagslZ4nJ2DHGRdtwHAia9xI11fJIiajaqtuWg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\_过控30专刊_杭州电子科技大学薛安克教授等_多传感器高斯混合PHD融合多目标跟踪方法_images\img_012_8d618c2c4317.png)
 
 点击下方“阅读原文”查看更多

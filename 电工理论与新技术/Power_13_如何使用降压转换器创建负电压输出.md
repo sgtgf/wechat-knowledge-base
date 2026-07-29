@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/lTWCCufeJzCV3SheGV4wHA](https://mp.weixin.qq.com/s/lTWCCufeJzCV3SheGV4wHA)
 
-____**_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIdBQCybwJvnFETgT0Q4a1nvwqZTuOkxND31s1SA0Jap3cx1ibZlgtdew/640?wx_fmt=png)_**____
+____**_![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_000_2cd8138edab2.png)_**____
 
 ____**★★★**______Power-13---负电压输出______**★★★**____
 
@@ -15,7 +15,7 @@ __€1.设计原理__
 
 降压拓扑通常用于将较大的总线或系统电压转换为较小的电压，使用降压转换器的优点在于，与执行相同转换的线性调节器相比，效率非常高。为了从正输入电压产生负输出电压，设计者通常会选择降压-升压拓扑结构或可能的SEPIC转换器，这两者都提供了比线性调节器高得多的合理效率，但是使用降压转换器也可以达到相同的结果，只要稍微改变同步降压转换器的节点参考，就可以创建一个负升压转换器，如**_图13-1_**所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRUkJ3OyH3dauT98wXZMBkAib7LQE9oolHCh2KNTMkiboBpSImndeqCuvibmjfy0LGXOPaYTX5tqRTKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_001_afd2e0491d40.png)
 
 **_图13-1：常用的同步Buck拓扑和负输出Buck拓扑_**
 
@@ -25,13 +25,13 @@ __€2.设计简图__
 
 设计简图是围绕COT同步降压转换器来构建的，假定该转换器具有600Khz的固定频率，COT拓扑结构的使用允许用户开发一种非常简单的电源，而无需补偿。从内部低侧MOSFET产生电流斜坡反馈，因此所需的外部组件是功率LC滤波器、输入电容去耦和自举电容器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRUkJ3OyH3dauT98wXZMBkA0LuMtBGf1vR3qZgc8nkJRia6nlpNl5HMxUg7tEibv9bPvJpyxT1j8MRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_002_83a8475de9c6.png)
 
 **_图13-2：负输出Buck拓扑_**
 
 电路的控制将与标准降压转换器的控制相同，然而有一个关键的区别在于，电感器的节点连接从Vout到0V的变化会导致电路电流的变化，这反过来又允许产生负输出电压，IC的0V现在变成负输出电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26b7mzQwa7icRJKGHicJEXl38p0eaic59JcqkqlkTdqoXPIynPtfpoeJlQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_003_848b73d99d98.png)
 
 **_图13-3：从图13-2中得到的节点波形的模拟_**
 
@@ -39,7 +39,7 @@ MOSFET驱动波形如**_图13-3_**所示，类似于标准降压转换器，还�
 
 接下来可以看到电感器电流，其中心在0A附近，模拟中没有负载，接下来出现的关键波形IM1和IM2表示电路中的电流，注意，这些波形参考0V。电流通过高侧MOSFET从+V流到0V，但是电流从正流向负，因此电流在减少，如IM1轨迹所示。当M1断开而M2接通时，电流从-V流到0V，这可以从增加的电流中看出，而MOSFET M2由于0V的参考点而显示出减小的电流。为了确定占空比，保持了与降压转换器的相似性，但是现在电感器两端的电压将是Vin+|Vout|。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRUkJ3OyH3dauT98wXZMBkAl5PogMENwOpp9FABSy30aMGVBfYR22vraZWqcroHooicHxSl81pPnYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_004_2262e20dd803.png)
 
 其余的计算结果类似于一个标准的降压转换器。
 
@@ -51,13 +51,13 @@ Vin=12V，Vout=-3.3V，fsw=600kHz，Iout=3A，Vrapite=150mV，Vin\_ripple=100mV�
 
 器件感测通过低侧MOSFET的电流，因此这个信号需要相当大，以便从可能存在的任何系统噪声中明显探测到。这种方法是使用较大的纹波电流，设置为负载电流的40%，允许用户缩小电感器的尺寸。值得注意的是，在这一点上，控制器的计算相对简单，因为系统以COT拓扑运行，同时也在内部控制通过低侧MOSFET的电流，几乎没有需要设计计算的外部部件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMqYKSUNpWVaWBu5nNzicqAWD6r27XWZ1qtyxYU9V6teXEexYc1wwT6YCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_005_c8ffd220e6d1.png)
 
 **_表13-1：设计参数_**
 
 计算结果如**_表13-1_**所示，其中一些值已被转换为可用的值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRmoeibpjRPoNywGB0wssAtVSwe1iaUoKFHAzicOibETVsTicoj3BzyxiaruLSjZfaAK9VyMWgb1zVmWHjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_006_113d0406be7b.png)
 
 **_图13-4：实际设计原理图_**
 
@@ -67,7 +67,7 @@ __€4.典型波形__
 
 _瞬时响应_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz267co9UoLygmY4JmoQuYIMR39REO07a2diceM2CIyIbbg7ZGZibLA3SggQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_007_ed6a4bf55b5a.png)
 
 **_图13-5：绿色=负载电流，紫色=输出纹波电压，+240mV，-80mV_**
 
@@ -75,7 +75,7 @@ _瞬时响应_
 
 _电压纹波_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26OZJyKOg95z16WMhJcSOCicnf84E8G12GiayibwqY7wn1y41JNfUwxMMlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_008_9222272fab2d.png)
 
 **_图13-6：绿色= ILoad 2A/div，紫色=输出纹波10mV/div_**
 
@@ -83,7 +83,7 @@ _电压纹波_
 
 _启动时电压升高_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26XL6tYuh39uFM54th6l9r4WibeQjx8bWkudcqMyUBJqGQRGdnIiaLO6xg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_009_38cc19dfaa47.png)
 
 **_图13-7：绿色= ILoad 2A/div，紫色=Vout 2V/div_**
 
@@ -91,7 +91,7 @@ _启动时电压升高_
 
 _效率和功率损失_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26FGJqbjbCzxoLcwCKpuiaYPh6cRAy8uVfc4G41xdfEoVV2cnL0YhnU6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_13_如何使用降压转换器创建负电压输出_images\img_010_89ce3a10cf2e.png)
 
 **_图13-8：效率测量条件：Vin=12V/5V，Vout=-3.3V，fsw=600kHz、L=3.3uH_**
 

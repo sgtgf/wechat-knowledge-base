@@ -24,7 +24,7 @@
 
 **放电电阻**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamibFD4oRLicFO3DCu0sltuV4RXAGickaVDXt3AbUiaLsToFWonuliaGfGEug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_002_4384664248a7.png)
 
   
 
@@ -56,9 +56,9 @@ IEC60950规定1s内电压需下降至37%，IEC60065规定2S内电压需降至35V
 
 放电时间与放电电压波形如图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8Liams7uiac3r8jicOdTr4GrYE1aU0aicPIRvC5tmvJRzvkforgicGJLib7Zp5RQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_003_d572f53fe569.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamH29Mu5N4ibM2mjMqibnGnpUicpHzCZL6d2iavvZYCuibl2CLciaAHD86P2Ig/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_004_34d47d9b8a28.png)
 
   
 
@@ -94,7 +94,7 @@ E24系列为常用系列，E24、E12和E6系列也适用于电位器和电容器
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamhAOfvX4yfcGfuicb5ZlrpXwDT5Z0KFuZ0kED8KmSsgELibiaLc78YrLlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_005_c131065530e9.png)
 
 《实用开关电源设计》第三章 元器件的实用选择 第二节 电阻
 
@@ -118,7 +118,7 @@ E24系列为常用系列，E24、E12和E6系列也适用于电位器和电容器
 
 放电测试，电源的状态是否一定得处于空载？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamnicFiaL8wSP2pJbdhbkwTbibCEhA5RPuSOb6hZRXOP2TRabjVuGeUCXwg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_006_361453a27738.png)
 
   
 
@@ -138,7 +138,7 @@ NTC1，常用的是10D-9，5D-9，5D11，2.5D15等几种型号。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8Liam6eEiaXv6ZDBsE3KPaKmGgYMia5StVz2rOtj2TRbUpypicAWYJLgghauHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_007_5340060582c5.png)
 
   
 
@@ -152,7 +152,7 @@ NTC有个B值，简单的话就是看下NTC在不同温度下对应的阻值。�
 
 相同阻值，不同B值的NTC热敏电阻R-T特性曲线示意图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamrY1puuI7bTTq6wDSYavzzqviaJV15NFC9EswFicpWkTj60kThAWLOWOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_008_0fddc8b43acb.png)
 
   
 
@@ -176,7 +176,7 @@ NTC还对应了低温的问题，有的LED电源-40℃的时候90Vac起机闪灯
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamibEQQzM1BBSQbdlP19krZXtUdUZWDXiaztR0qMiaHYQ0JBKMn0OEia5u7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_009_61e4c6c78199.png)
 
   
 
@@ -222,7 +222,7 @@ RV1：压敏电阻
 
 有时打雷击，共模电感下有放电针会放电，或者增加1个GDT对雷击都有改善。如图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamPL8jdibQNUsMzo8sibxBSu6yfmwGLjOZriafUfmQhGu4yFwmb3d2XSbdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_010_f917c3b079bb.png)
 
   
 
@@ -236,7 +236,7 @@ VCC启动电阻：一般采用2个0805/1206或者3个0603。有的IC有高压启
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamIoUu2ibEic5FyJW5mUDbvAqgfqLviaDWicicNb5ibP48vyaiae3fqXZGOsaDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_011_b1c185acf048.png)
 
   
 
@@ -258,7 +258,7 @@ VCC启动电阻：一般采用2个0805/1206或者3个0603。有的IC有高压启
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8Liam1vZRYNe8t9cbNMiakp2jnLQA6MaUL1nQrMboW2lwqXxCdfsb9Dw9V7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_012_dda5eea89759.png)
 
   
 
@@ -284,7 +284,7 @@ VCC启动电阻：一般采用2个0805/1206或者3个0603。有的IC有高压启
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamykHCibhIPGu1TPmk6SM36Kbky23ClNxxJMmFia15ClHXX8Pd6SiaUYyaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_013_dab86897355c.png)
 
 温度对应电阻的功率曲线。温度越高，电阻能用到的功率越小。
 
@@ -308,11 +308,11 @@ VCC绕组供电。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamOSarftKUG5hCcr5jYHuSBVplly1zLA0ILKnjJuuYseJQbvWjvqzKCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_014_ebd595a43a18.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamicKDV6YPHlUeqjRh3lwXmby83AkNAnZibibO8ubsBXBfgfD1TUPKOcbhw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_015_ea6df2e9a97a.png)
 
 IC的VCC范围比较宽，直接采用VCC绕组整流后串联个电阻使用。
 
@@ -336,7 +336,7 @@ MOSFET的驱动电阻、GS放电电阻、Isense电阻。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamOKYV7AvgfDeFY4tliaiaNM3qCMsgmAXVWx0fuO16Tb9rw8b35JmChH0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_016_739985d05aec.png)
 
   
 
@@ -344,7 +344,7 @@ MOSFET的驱动电阻、GS放电电阻、Isense电阻。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamnYweTqvftcNuPK6EiakkJlMhZrYV2ZHvw3BSP83goXibMzfF9lQPazMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_017_b3008c4c8495.png)
 
   
 
@@ -362,9 +362,9 @@ R10，小功率的情况可以用几个0805或者1206并联，大功率情况下
 
 **原副边的吸收电阻**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamicGmqyoibhkO41EGYPEmlWpmF42Dyv5fCqmK490kQMNFAgiagGibFoTZfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_018_2c62203bb722.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8LiamXAQlAmQTlnDJxhu5yzg66nHKNy6zmvf6MKdcosoPEwRtEQYVrT961g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_019_fe85fd89c90c.png)
 
   
 
@@ -394,7 +394,7 @@ RCD在调整辐射的时候，电阻对辐射影响还是有点关系的。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgddiaDv4flfraVFM2uZ8Liam4gHMS0e5icUFDQiag7yvBrs4Intubq7c0JiaXn4t2Y9YibaY0VHmQWAl6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_020_50910ef1e070.png)
 
   
 
@@ -434,9 +434,9 @@ R4一般需要保证D1能有10mA左右的电流，如何理解？
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_021_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_022_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_023_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_024_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_025_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_026_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_027_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_028_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_029_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_030_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_031_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_032_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_033_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_034_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_035_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_电源电路各个电阻的计算__放电电阻_热敏电阻_压敏电阻_启动电阻_吸收电阻_VCC电阻_驱动电阻_反馈电阻_____images\img_036_3c93e54afedf.gif)
 
 ## 
 

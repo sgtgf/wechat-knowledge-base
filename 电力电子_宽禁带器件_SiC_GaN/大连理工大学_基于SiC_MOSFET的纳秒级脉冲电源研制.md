@@ -9,7 +9,7 @@
 
 本文以SiC MOSFET为核心功率器件，设计了一台纳秒级脉冲电源，电源主要技术 指标为：输出脉冲峰值可调范围为0~30kV，脉冲重复频率为10Hz~1kHz可调，最大输 出电流为80A，脉冲上升时间小于100ns。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rr2ZWibTvdCbtA6TQj9oDSaajKzDR6FLcFrGsTgicy3UwxAiaNqQYQuRicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_000_9ed330214c31.png)
 
 本论文的主要工作如下： 设计了纳秒脉冲电源的拓扑结构，主电路采用三级Marx发生器结构，研究了SiC  MOSFET串联开关的静态和动态电压不均衡机制，给出了影响SiC MOSFET串联均压 的关键因素。针对静态均压电路的特性，明确了均压电阻的设计方法，对于动态均压电 路，采用负载侧RCD电路作为均压措施，并确定了相应参数的选取依据。 
 
@@ -57,39 +57,39 @@ SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍
 
 莫登斌等人利用Blumlein传输线、场畸变气体开关等器件组合研制出一台纳秒  脉冲电源，其中场畸变火花开关耐压大于50kV，通流能力大于1kA，将此开关作为脉  冲电源系统的闭合开关，最终在负载电阻匹配的情况下可输出脉冲峰值电压50kV，脉 宽120ns，上升时间约为30ns的高压脉冲，其电源输出脉冲波形如图1.1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r6kdHEESUfRHicmffGBK4E8lZrRrGibQ72ZicdTic2huuFWUSPqazvwu9aA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_001_22a56a0227e9.png)
 
 胡琼等人将气体开关、变压器、Blumlein传输线等器件研制出一台纳秒脉冲电源， 其自击穿气体开关采用同轴结构，内部采用铜棒电极，外部采用不锈钢圆筒电极，中间 填充的气体介质为氩气且开关内部气压可调。整个电源系统对脉冲上升时间进行了三次 压缩，最终输出脉冲的上升时间20ns，脉宽100ns，重复频率0~2kHz，输出峰值电压 0~20kV，其脉冲电源的原理图如图1.2所示，输出脉冲波形如图1.3所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r4SCmzwMdlMwNrPCWrDMNDLHYOWB5EHiax4iadmZwqI6cLeCCxicOibBoag/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rEefOSfLZcNxtibTdBLHicZljjXWFGiadia4Yf4bWSxBSpibRCtNL3Th0Wwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_002_7fd912168144.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_003_eedbd345fe28.png)
 
 马连英等人利用薄膜开关（图1.4中Sw）和Blumlein传输线组合研制出方波脉 冲发生器。整个电源系统的高压开关采用同轴结构减小开关的体积，最终此电源在匹配 负载上可输出脉冲幅值1.5~8kV可调、上升时间小于1.5ns、脉宽约为40ns的方波脉冲。电源的原理图如图1.4所示，输出脉冲波形如图1.5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rUjEA4EicHHe1PH5pe9rkly0Au6AGgztZxPTlEPvOBxLZibOQRlvLuVGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_004_23ade87639d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rAO4ZW7n4KMvkS2EwAHnoiaXI9cvs1uukCbnXmxPQ3wHfnJQ1AcV08rw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_005_1c92bf369a49.png)
 
 （2） 传统开关与变压器组合  闫克平等人设计的高压脉冲电源由传输线变压器和火花隙开关构成。其中主变压 器的低压侧采用谐振充电，火花隙由LCR电路触发，此电源最终能产生峰值电压 30~100kV可调，重复频率1~900Hz可调，上升时间10~20ns，脉宽100~200ns。其输出 波形如图1.6所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rLHFnoW9IfpJoJ2J5MGvdib1hYdB89OzCcSjGjEq4vQuf5RhXlDIqXzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_006_e60a52936854.png)
 
  俄罗斯的Vladimir P等人采用高耦合系数的特斯拉变压器和高压气体开关研制了 一台高压脉冲电源，在匹配的负载上能输出脉冲峰值电压200kV，脉冲宽度4ns，重复 频率1kHz，输出波形如图1.7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rOY7chSuqZS3hw2SBxSwk0hP8XlMbSkugFMJZYypGGj6MQFd4iajwD7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_007_2e4297bd23d8.png)
 
 刘振等人采用两级传输线变压器结构和多开关配合产生高压快脉冲，其两个火花 隙开关同步性差异为2~3ns，脉冲重复频率可达到1kHz，功率可达到100kW，可以在多  种场合下长期稳定运行。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rdlbk0eibicQS1B31jViaBykqenrjC24cBibp1Niabrb84bzjLjTaXP4If1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_008_5a7c9cad1af4.png)
 
 李玺钦等人基于氢闸流管设计了一台快前沿高压脉冲电源，主要包括高压电源、 储能网络和高压脉冲形成回路几部分组成，氢闸流管的触发电路采用变压器升压结构， 变压器的变比为1:3，变压器前级产生的500V的脉冲信号经过变压器升压之后变成 1500V的脉冲信号触发氢闸流管，最终在75Ω的电阻负载上输出脉冲峰值10~20kV可 调，脉冲宽度大于500ns，上升时间小于500ns，抖动时间小于1ns。其电源原理图如图 1.8所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r0ETyRRiaqJdH16Qw1BlwQIUMNTQIZlpjDxloVLiaSrtnfjUsWKT7ec1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_009_4ec58641b13a.png)
 
 姜春阳等人基于传输线变压器和气体开关设计了一台高压纳秒级脉冲电源，电源由低压脉冲形成和脉冲压缩两部分组成，气体开关采用LCR触发电路触发，在传输线 上增加磁环提高二次阻抗，从而提高传输线变压器的输出电压和效率，整个电源系统结 构比较紧凑，在连接匹配负载的条件下，此电源可以输出的脉冲电压峰值为26kV，脉冲宽度为100ns，上升时间25ns，输出脉冲的频率为500Hz。最后将此电源应用到等离子体射流的装置中，实验结果表明此电源可以稳定的运行。脉冲电源的原理图如图1.9 所示。 
 
 （3）Marx发生器电路  美国弗吉尼亚大学的Ulrike Hahn等人结合Marx发生器结构电路，利用火花隙 开关作为主开关，研制了一台纳秒脉冲发生器。火花隙的电极选用针-针电极，可以通过电极上的螺纹调节电极间距，改变击穿电压，调整输出脉冲电源输出脉冲幅值。高压 电容选取低杂散电感的陶瓷电容。此电源在1MΩ负载时，输出脉冲的峰值可达到4倍 的充电电压；而在50Ω负载时，输出脉冲峰值为1.5~2kV可调，上升沿为2~3ns，极性 为负，脉冲电源的原理图如图1.10所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rx2w8ZicTDSZHaTc20L5e37nC68Q4HaxQCI6iaJ3vDrIucGfAA8vswZdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_010_846cf082eba2.png)
 
 周启明等人设计的高压脉冲电源包括Marx发生器电路结构、峰化电容和主开关三个部分，Marx发生器的主开关采用充高纯氮气的火花隙开关，并利用峰化电容对脉冲上升时间进行陡化，最终在50Ω的负载上产生峰值为100kV、上升时间小于4ns的高 压快脉冲。 
 
@@ -99,21 +99,21 @@ SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍
 
 （1） 磁开关型  赵君科等人将磁开关和脉冲形成线（PFL）结合研制出纳秒脉冲电源。整个电源 的关键元件是磁开关，文献中选用进口的优质玻璃作为磁性材料，利用外加复位电流抵 消磁开关的感应电流，保证磁开关完全复位。PFL采用同轴电缆，其绝缘芯采用聚四氟， 同轴线的电容约为113pF/m，传输线的长度选为20m。最终此电源在负载上产生前沿小  于60ns，半高宽约为250ns，频率50~100Hz可调，脉冲峰值70~120kV可调，可以实现  连续运行200h，其脉冲电源原理图如图1.11所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2riakgciaAQI1AXll8swGjOjZO3MCVcg006Ng999JxTAjWnzERG7SoRt3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_011_c8aff89bd37c.png)
 
   （2） 半导体开关型  邱剑等人将IGBT和传输线变压器（TLT）结合研制了一台纳秒脉冲电源。单个的IGBT阻断电压不能达到设计要求，将两只阻断电压为1700V的IGBT串联组成一个 高耐压的开关模块；选用十根阻抗为75Ω的同轴电缆组成TLT。输入电压为1kV情况 下，当负载电阻（R=5kΩ）时，输出脉冲峰值可以达到10kV，当负载电阻（R=750Ω） 时，输出脉冲峰值可以达到5.2kV，上升时间小于100ns，由于电源系统使用IGBT作为 高压开关，所以输出脉冲的频率可达10kHz，其输出脉冲波形如图1.12所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rteLhJmAPlCUUVdLedzBOnpibTPqvmD6ic6El1gyNT7uLClAibBarZBfBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_012_e0e2e5c60652.png)
 
 丁明军等人采用9只耐压为3kV的IGBT串联形式组成的额定阻断电压为12.5kV 的高压开关作为Marx发生器的放电开关，其驱动电路采用磁耦合隔离驱动，利用16级 结构最终输出电压达到200kV，上升时间小于500ns，输出脉冲宽度通过控制串联开关 的关断时间来控制。其脉冲电源的主电路原理图如图1.13所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rFPmtZ8f4ZqwN1Y1dDcjTG154syAzmgSUvm6QV2HCtjR4fHHs9licVBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_013_f0826da8f08a.png)
 
 李洪涛等人用8个3300V/1200A的IGBT串联组成一个额定阻断电压为25.4kV 的高压开关作为主放电开关，采用28级结构，最终研制出了一种全控型开关的固态Marx 发生器，其输出脉冲电压峰值可达500kV、电流峰值可达1kA、满载情况下的可以连续 运行的最高频率为200Hz。 
 
 李玺钦等人采用5只功率MOSFET串联组成高压开关，在串联的MOSFET的漏 极和源极之间并联电阻作为静态均压措施，利用高压二极管代替传统的Marx发生器中 的充电电阻，采用五级结构，最终在负载（R=5kΩ）上输出高压脉冲的峰值大于20kV 且脉宽大于100ns。其电源原理图如图1.14所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rrEB3xupHmiaRLADPZYXuSXFgQkhjBib38XfByFI31rHJxsG0Entdp7iaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_014_4ed7db67b65e.png)
 
 董守龙等人利用MOSFET作为主放电开关和尾切开关组成全固态的Marx发生 器，利用光纤隔离控制MOSFET的同步触发，最终能输出脉宽可调，峰值0~8kV可调 的高压脉冲，并将此Marx发生器应用到等离子体射流实验。 
 
@@ -141,45 +141,45 @@ SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍
 
 本文设计的纳秒脉冲电源的总体框图如图2.1所示，整体采用Marx发生器结构， 包括主电路、电压电流采集电路、硬件保护电路、主控制电路。主电路包括单相全桥不 控整流单元、单相全桥逆变单元、LCC谐振部分、变压器二次侧整流单元、高压串联开 关、高压二极管、高压电容等组成。电压电流的采集部分包括变压器二次侧电压采样、 电源负载侧电压电流采样。综合成本考虑，控制单元的芯片采用由Microchip公司生产的dsPIC数字信号控制器（DSC），型号为dsPIC33FJ128MC706，控制单元的功能是控 制单相全桥逆变桥Q1~Q 4 的开关状态和高压开关的开通和关断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rx8E7rwqZPzTnicb2AcU7Ok9nuGnjzkFksPbHs14J1cfmbJXxOcdazVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_015_8eb65e84d590.png)
 
 **2.1  单相全桥整流电路**
 
 单相全桥整流滤波电路主要的作用是将交流整流成为直流，给全桥逆变单元提供母 线电压，其工作原理图如图2.2所示。图中，输入电压为交流正半周期时，整流二极管 D1、D 4 导通，电容C4两端的电压为上正下负；输入电压为交流负半周期时，整流二极 管D2、D 3 导通，电容C4两端的电压仍为上正下负，因此经过经过电容滤波之后，图2.2 中的VO为直流信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rljeJ7eIG63CRrMbZDve8lgFia5rjNVdSKciahLImVuiaI4OIYYqBJ996Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_016_539c65cbd849.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rRMu668SdRWpMbJcSuVP8rbibpxBib1SncMugR5vToYlKjibGojglWYECQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_017_37fcecc727d9.png)
 
 **2.2  直流供电电源电路** 
 
 纳秒脉冲电源直流供电部分的电路拓扑采用LCC谐振变换器结构，包括单相逆变  桥、高频变压器、整流电路组成。设计的难点是变压器的设计，由于高压变压器设计过程中原边匝数较少，副边匝数较多，变比较大，绕置过程中很难精确的控制其分布参 数，高频变压器的分布参数容易引起电流和电压波形的畸变，产生很高的尖峰电压和异 常电流，直接影响电路的工作性能，采用LCC谐振结构能够充分利用变压器的分布参 数，将分布电容和漏感作为谐振元件，减少分布参数带来的设计困难。直流供电电源的 原理图如图2.3所示。这部分电路本课题组前期已经研制完成，在本论文中直接将其作 为纳秒脉冲电源的直流供电部分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2reNCnCTStf0q5akRz0xKWahNhop8f02ACT0l48ia2CIbN5zLwL91Q3mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_018_5b470d447f31.png)
 
 **2.3  Marx发生器电路设计** 
 
 固态Marx发生器的原理图如图2.4所示，主要由以下几部分组成：高压直流电源、 高压二极管、高压开关、高压电容等组成。其工作原理是：高压开关（S1~S n ）断开的过 程中，高压直流电源通过限流电阻、高压二极管（D1~D n ）给电容（C1~C n ）并联充电， 忽略二极管的导通压降、限流电阻上压降以及直流电源电压的波动，则充电结束后，所 有电容两端的电压为U。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rlSWlXlcrA4tJDdkRSGN8Kq4d9eM1CySmQ4fYXhqaicAfLTUpwqJtlHw/640?wx_fmt=png&from=appmsg)充电阶段，电容C1的充电路径为：R-D 1-C 1-D 2-D 4-∙∙∙-D n ，其余电容的充电路径类似， 不再分析，电容（C1~C n ）充电过程示意图如图2.5所示。当高压开关同步触发开通时， 电容迅速形成串联回路向负载放电，放电路径为C1-S 1-C 2-S 2-∙∙∙-C n-S n-负载，各电容的两 端的电压相加，最终负载两端的电压为n U，放电过程示意图如图2.6所示。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_019_78420f57f3d4.png)充电阶段，电容C1的充电路径为：R-D 1-C 1-D 2-D 4-∙∙∙-D n ，其余电容的充电路径类似， 不再分析，电容（C1~C n ）充电过程示意图如图2.5所示。当高压开关同步触发开通时， 电容迅速形成串联回路向负载放电，放电路径为C1-S 1-C 2-S 2-∙∙∙-C n-S n-负载，各电容的两 端的电压相加，最终负载两端的电压为n U，放电过程示意图如图2.6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rkYDayvZ2JteAJOgQRT7LibgUiae1raBLQUtpTIFAAFjtgUxvy0XYPefg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_020_3a6e2a03a655.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rEMX52IZic669ibvdGibNgxBmx4GxKf3KibbzjxDhl8WoibCAhicdKkOIBchQ/640?wx_fmt=png&from=appmsg)脉冲电容量选取原则：在负载满载的情况下输出脉冲最大脉宽放电时，负载上的电 压值不能下降到低于所要求的最小电压值。所以要综合考虑以下两个方面因素：输出高 压方波脉冲所允许的最大顶部电压降落、放电时满负载下的平均电流。脉冲电容量根据 以下公式选取： 
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_021_ab980152a9f7.png)脉冲电容量选取原则：在负载满载的情况下输出脉冲最大脉宽放电时，负载上的电 压值不能下降到低于所要求的最小电压值。所以要综合考虑以下两个方面因素：输出高 压方波脉冲所允许的最大顶部电压降落、放电时满负载下的平均电流。脉冲电容量根据 以下公式选取： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2riaOV40iafw5lXHrsSD551oEFMWIDKPrs4TiakHvJ1Y3ROleicJLrcQj5hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_022_d1438cb15cef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r15euqic7HWpPwqqDlen9HVibAz5jPfeicgZFgavCVj8KdgphX8T91ORag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_023_9c2e66158d9b.png)
 
 其中，γ表示脉冲电源输出脉冲电压顶部降落值与设定值之比。n表示Marx发生器的 设计级数，tM表示最大脉宽，ΔU表示最大平沿电压压降。 
 
 Marx发生器的放电回路的电路模型如图2.7所示，假设电容放电的初始电压为V0， 其中放电电容为N个电容串联以后的等效电容，L为电容放电回路的杂散电感，R为本 设计中的负载电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rwwN3aoETzvFiauxdfAttB1SyMrVqoGiaETkKcbywEgaQKqTMVYbLq3eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_024_5522fd2c7f37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rzgOn0Y6aln4MLCG6Dv0Aiazaic4LroLV8d8JzjEVJMkKxwUWUMmLSlzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_025_9c6b293597cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rC96OAoyAVBKgPng8wx8jk0hUibNDatGoePiar7hGSEqFBKbTVSias3d2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_026_f8499c7e9f6a.png)
 
 通过以上公式可以看出：线路中的电感会影响输出电压峰值的大小，设计的过程中 应尽量减小回路电感，同时根据电压达到最大值的时间可以看出，回路电感的大小会影 响Marx发生器输出脉冲上升时间的大小。 
 
@@ -217,11 +217,11 @@ Multisim仿真软件根据用户的需要，建立许多仿真分析功能，比
 
 主电路的仿真原理图如图2.8所示。根据Multisim仿真软件元件库中原有的 MOSFET模型，结合SCT2080KE芯片出厂技术手册中的器件参数对模型库中的元器件 模型进行相应的参数更改，建立SCT2080KE仿真模型，用同样的方法建立IGBT、整流 二极管以及Marx发生器主回路中的高压二极管等器件仿真模型。为了简化仿真电路， 驱动信号采用标准的方波信号，高压变压器原边的匝数为10匝，副边匝数为3000匝， 变比1:300。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rjZjaRkfDQxFS9jEonibHFRoib3NxFLqIQfn1vCDKPSnltLN1ZYXDMM2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_027_6f71052a2b39.png)
 
  图2.9为频率为10Hz的仿真结果，图2.10为频率为1kHz的仿真结果，仿真中， 将前级整流电路省略，直接将整流输出的直流电压用直流恒压源代替，并设定电压数值 为40V时，通过高压变压器升压之后，副边输出的直流电压可以达到10kV。根据前文 的计算，采用3级Marx发生器结构，最终可以在负载上产生脉冲峰值电压为30kV。仿 真中通过改变方波信号的频率来模拟实际脉冲电源中Marx电路部分的控制信号，分别 设定方波信号的频率为10Hz和1kHz，负载端的匹配电阻设定为1kΩ，利用软件中测量 设备示波器测量此负载电阻两端的电压。结合图2.9和图2.10可以看出输出脉冲的重复 频率为10Hz~1kHz且脉冲峰值电压一致性良好，满足设计要求，通过仿真从理论上证 明了脉冲电源拓扑设计的合理性。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rV00GDoJ8BaU4SU3q6KNEuoCcxLicc7DsXCOmMAQH2MO1xjJ0MtYn0KA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_028_5fb2b7fa11a9.png)
 
 **2.5  本章小结**  
 
@@ -245,21 +245,21 @@ Multisim仿真软件根据用户的需要，建立许多仿真分析功能，比
 
 SiC MOSFET栅级驱动的开通关断过程可用图3.1等效电路模型来分析，其中RG 为门级电阻，Cg d 为栅极和漏极之间的电容，Cgs 为栅极和源极之间的电容，Ls为整个环路中所有的杂散电感，RL为负载电阻。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rQUoRssEDGdibdDFbrPoTEnr0oguUibohExP0JTgHUa3Fqr0HL1Lul50g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_029_bfd410f85aab.png)
 
 电阻负载条件下，SiC MOSFET开通过程的波形如图3.2所示，可以分为三个阶段：  ① 阶段1（t0~t 1 ）  这一阶段从驱动电路的输入电压Vi n 从负栅极驱动电压（-Vg）跳变为正栅极驱动电 压（Vg）开始，到栅极电压达到Vgs(on) 结束，驱动电路通过栅极电阻RG给SiC MOSFET 栅极和漏极之间的电容Cgs充电，此阶段假设Vin 电压变化是一个在零时刻发生的阶跃函数，在这段时间内漏极没有电流流过，并且忽略VDD的波动。等效电路如图3.3所示， 其中RG为栅级电阻，Ciss为栅极输入电容。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rXSvIZgLOLp4ficvAYAmgkFtFerKW0XzZTQh73PuOcnFOUzjRwz4jxxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_030_51201843db08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r3uGQDhkfTH63x6PcYHIwZJKjL9Sg9uy9B0V8KxopPzyLfjjY8VjWicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_031_6babbc1248b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2raMmNfCTXqOqH02saS8X5rneRlnQoS4rElmCn3FkQYIYNqaHgyy4mmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_032_c3c16d202be9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rJadVVdZDxMUibJPAL51rN64pUH0ZVrtqUVKj6ic7lJDAiaDIib15KZTefw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_033_0aa1f7446833.png)
 
  **（2） SiC MOSFET关断过程分析** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r5ckhd7vKIdbaJBgMGxtyY3fL3yBska8g5ibO6pzgphHXcJp4HrwZH9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_034_ce44aaa59944.png)
 
 SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出现的尖峰，SiC  MOSFET关断过程可以分为以下四个阶段： 
 
@@ -267,23 +267,23 @@ SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出�
 
   ① 阶段1（t0~t 1 ）  在此阶段开始t0时刻，栅极驱动电路的输出电压迅速从开通时刻的峰值电压（V in ） 下降，SiC MOSFET开始关断。栅极侧总输入电容Ci ss （包括漏极-源极电容Cgd 和栅极- 源极电容Cgs ）通过栅极侧总等效电阻RG开始向栅极侧的驱动电路放电，经过一段关断 延迟时间（td off=t 1-t 0 ）之后，达到一个稳定电压即通常所说的米勒平台电压Um。  此阶段中，栅极侧电路可以等效为电阻RG和电容Ciss 组成的RC放电电路，驱动电 路栅极侧的电压变化规律可以根据RC电路的放电公式来计算： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rEuPmW7QjV6nI7icayxFIbWT1OlGiafWyOS5TaRTITZf3rveng1VYwBuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_035_35c38bb71e9b.png)
 
 ③ 阶段3和阶段4（t2~t 4 ）  从图3.4可以看出，在第三阶段的开始时刻，忽略整个回路中的杂散电感的影响， 此时SiC MOSFET的漏极-源极电压上升到了直流侧电压值，之后一段时间内基本保持， 但是SiC MOSFET自身的特性有可能会使漏极-源极电压发生一些变化，这些电压的改 变将会导致串联阀中各SiC MOSFET关断电压的不均衡。对于一些双极性功率器件比如 SiC MOSFET来说，剩余载流子会在器件关断时产生拖尾电流，拖尾电流的大小及其持 续的时间将会很大程度的影响串联阀中各器件的关断电压均衡。拖尾电流的大小主要和 关断时间、导通电流大小、器件工作温度、制作工艺有关，然而器件在实际工作很难保 证这些参数完全相同，所以将会导致串联阀关断电压不均衡。 
 
 当串联SiC MOSFET关断时，假设串联阀中的某个SiC MOSFET（记为Qi）拖尾 电流最先结束，其余拖尾电流并未结束的器件还存在拖尾电流，此电流将会给Qi的漏 极-源极电容进行充电，其两端的电压会逐渐升高，由于拖尾电流持续时间不同，拖尾 电流最先结束的SiC MOSFET两端将会承受最高的关断电压，其后结束的SiC MOSFET 也会出现同样关断电压不均衡现象。关断电压不均衡的分配与各SiC MOSFET器件拖尾 电流的数值大小、持续时间长短及漏极-源极电容大小有关，拖尾电流的数值越大，持 续时间越长及漏极-源极电容越大，电压分布越不均匀，其主要关系可有以下公式表示： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rPZc9EFKibFRTn0KalnJCbtgzU0wjYcLbYUQpS56GoRL6X0oHPBfoNgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_036_8fa347553f00.png)
 
 **3.2  均压电路设计  3.2.1  静态均压电路设计** 
 
 静态均压一般采取的措施是在串联开关中每只串联SiC MOSFET的漏极与源极之间并联一定阻值的均压电阻，记为Rf。由于SiC MOSFET管的漏电阻一般比较大， 理论上均压电阻Rf远小于SiC MOSFET的漏电阻，均压效果明显，但此时电阻消耗的 功率较大。如果Rf的阻值选取较大，不能达到良好的均压效果，因此必须选取合适的均 压电阻来实现均压效果。静态均压设计分析图如图3.5所示。其中直流母线电压为U， SiC MOSFET等效漏电阻与其均压电阻并联，漏极-源极电压分别记为U1、U 2 ∙∙∙∙Un。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r1PB4qjmLO7Tx9ahA403D84Q0XsaNQwqcRI8Bf6l7eziazlJX98gTUZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_037_ebb05f745db8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rm0nBRRn6OnBNywibabT78lzQelvlmhZR4ptfBYibEicPfBHJu1S0V9aRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_038_001cdd0ef93b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rCoKGqQPTn9UENJ9ia2Uu4HeYMFGwicD519BWgFqdXl41m5z7NhzZxk5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_039_daf889ba550d.png)
 
 **3.2.2  动态均压电路设计** 
 
@@ -291,11 +291,11 @@ SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出�
 
 忽略静态均压电阻以及二极管的导通压降和导通电阻的影响，固态开关关断等效电 路如图3.6所示。在固态开关关断的过程中二极管D导通，由于二极管的导通压降很小 可以将电阻两端的电压钳位，其作用近似认为将电阻短路，因此关断过程中RCD电路 可以等效为只有电容起作用。电容的选取过程中尽量保证每个电容的容值相等，且在电 路板上电容的引脚与各只SiC MOSFET相对位置保持不变，走线保持一致，尽量减小电容引脚的杂散电感的影响。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rel8V9CX2g99ZCY4ydGH6hJ5EicVBdLhlXnA605E57CjPeITQlTB7nOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_040_edbdb867c2ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rdjwWgavlia0dmHZcsNdDAH7TAXHAevY4hgFU99GQnY0BTLOHOxZG7Ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_041_6616cd56d267.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r3wOnO4Gvqc7hjRHSiaEcAmTXehzIdpmUFDXwuANIgRR5J28rPvC6ROA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_042_e379dc1e59c7.png)
 
 **3.3  本章小结** 
 
@@ -319,59 +319,59 @@ SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出�
 
 **4.1.1  正激式驱动电路** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rpOgYocMK40xAHUpsW13HjTmPhAb46knDMk8ax2BkcJlCV5pRjYyphg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_043_f5a149ece34d.png)
 
 正激式驱动方式的原理图如图4.1所示。当开关管Q导通时，驱动电路提供SiC  MOSFET导通所须的正电压。当开关管Q关断时，变压器原边剩余的能量将通过D1、 C1、R 1 组成的通路泄放，同时变压器的磁芯复位，在此过程中变压器的能量传输到二次 侧，驱动电路输出一个负电压，快速关断开关管。D2、D 3 、D5、D 6 是快恢复二极管， 在驱动电路中一方面起整流的作用，另一方面变压器线圈绕置过程中不能保证完全相 同，副边正负电压绕组感应的电压不能保证完全的不同，二极管导通的过程中会有电压 降，串联二极管的方式可以利用二极管的导通压降防止正负绕组的感应电压差引起的环流干扰。C2是加速电容，利用电容两端的电压不能突变的特点，加快SiC MOSFET管 的开通速度。 驱动电路的变压器设计驱动电路采用变压器隔离驱动，变压器的绕置示意图如图 4.2所示。各个驱动电路的绕组绕置在同一个磁芯，同步性较好。变压器的原边绕组6 匝、副边正负电压绕组匝数各3匝，较少的变压器绕组匝数，可以减小分布电容对驱动 电路的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rQnVAC4Fsb21vZiceLz2RuD6c768kMNSWpph8sP8wRTSH1ZAvJmB2QUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_044_5467eb28b79f.png)
 
 采用Multism仿真软件对驱动电路进行仿真，正激驱动电路的仿真原理图如图4.3 所示，其中正激驱动电路的主开关管型号为IRF840，驱动变压器仿真模型中设置原边 匝数、副边正负电压绕组匝数分别为6、3、3。其中仿真的电压测试探针放置在电阻R9 的两端，原边开关管MOSFET的驱动信号采用方波信号代替芯片的芯片输出信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rxic6W0RoiaBpK3Fh2CsMhw0LBKKM6Ht6Zy3Iw9n1zfxiccIaz79Q2ia0Yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_045_fe36b81b3b7f.png)
 
 驱动电路的仿真结果如图4.4所示，仿真结果表明正激式驱动电路设计的合理性， 并且关断时刻能提供一定时间的负电压。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rOQz3UQk7TKib1lfZNaBukszAfUyibl98t23YuHFYm3icic1b4c7iaUq0XOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_046_d7e3ba82af59.png)
 
 **4.1.2  脉冲变压器驱动电路** 
 
 脉冲变压器驱动方式的原理图如图4.5所示，这种驱动方式可以解决传统的变压器 的驱动方案中的占空比大于50%产生的脉冲变压器单边饱和的弊端，变压器的二次侧的 波形是正负交替的窄脉冲，为了能够将正负交替的窄脉冲还原成设置的PWM波形，在 变压器的副边连接施密特触发器芯片（HCF4093），其作用是将正负交替的窄脉冲信号 还原成芯片输出的PWM波形，保证频率和占空比与原始的PWM信号相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rMkm5floGFIdZDZvLusagQnRxgtoJAjQOicThkkZftJWZLGreOeIX2Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_047_83ebb5ca9219.png)
 
  电容C1充电、放电过程路径示意图如图如图4.6所示，脉冲变压器的原边驱动电路 由两只MOSFET（上管为P沟道、下管为N沟道）串联组成，当电阻R左端的驱动信 号为高电平时，下管Q2开通，VCC通过变压器原边线圈-电容C 1-Q 2 给C1充电，这时变 压器的副边绕组（AB端）产生一个非常窄的脉冲信号，且A点电压高于B点。当电阻 R左端的驱动信号为低电平时，上管Q1开通，电容C 1 通过变压器原边线圈以及上管Q1 放电，此时变压器的副边绕组（AB端）产生一个反向的脉冲信号，且A点电压低于B 点，最终在AB端产生为正负交替的窄脉冲信号，两个脉冲之间的间隔时间与电阻R左 端驱动信号的高电平时间相等，频率也相同。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rrM0rUC2zpiaAOkUx5JRLsdm8uzic5pEjqy3wV0PJ86wzUvp8J6L7EaTw/640?wx_fmt=png&from=appmsg)当变压器传输正向脉冲时二极管D2导通，2R为变压器二次侧的假负载电阻。当脉冲变压器传输的是反向脉冲时，D3导通，稳压二极管D1导通，这样可以使施密特触发 器的输入端电压为零。R3和C 2 组合调节延时，在调整各路同时开通的时候，这两个器件能发挥其作用。电阻R5和R6是上拉电阻，保证施密特触发器的一个输入引脚为高电平。HCF4093是施密特触发器模块。TC4426是MOSFET驱动模块，内部有两组驱动电路，这两组驱动电路的输入端接在一起，同时连接着施密特触发器的输出端，R7、R 8均为栅驱动电阻，D4是普通二极管，当芯片U 2 的输出端输出高电平时，二极管导通。C3是加速电容，D 5 、D6是稳压管，这两只稳压管的稳压值相加等于驱动信号的高电平 的值，这样可以确保两路驱动信号中一路的驱动信号为高时，另外一路的驱动信号为低， IRF7343是一组MOSFET对管，电阻R9、R 10 是三极管的基极电阻。 
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_048_dfc7010fa994.png)当变压器传输正向脉冲时二极管D2导通，2R为变压器二次侧的假负载电阻。当脉冲变压器传输的是反向脉冲时，D3导通，稳压二极管D1导通，这样可以使施密特触发 器的输入端电压为零。R3和C 2 组合调节延时，在调整各路同时开通的时候，这两个器件能发挥其作用。电阻R5和R6是上拉电阻，保证施密特触发器的一个输入引脚为高电平。HCF4093是施密特触发器模块。TC4426是MOSFET驱动模块，内部有两组驱动电路，这两组驱动电路的输入端接在一起，同时连接着施密特触发器的输出端，R7、R 8均为栅驱动电阻，D4是普通二极管，当芯片U 2 的输出端输出高电平时，二极管导通。C3是加速电容，D 5 、D6是稳压管，这两只稳压管的稳压值相加等于驱动信号的高电平 的值，这样可以确保两路驱动信号中一路的驱动信号为高时，另外一路的驱动信号为低， IRF7343是一组MOSFET对管，电阻R9、R 10 是三极管的基极电阻。 
 
 采用Multism仿真软件对脉冲变压器驱动方式电路进行仿真，其仿真原理图如图4.7 所示。变压器的匝数比仿真时设定为20:40，驱动电路原边的供电电源电压设定为12V， P沟道MOSFET（IRF9630）和N沟道MOSFET（IRF840）的仿真模型依据器件的技术 手册修改软件仿真库中已有的MOSFET模型。其余的HCF4093芯片的模型直接调用， 仿真结果更接近实际。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r5Cic4fAdKjn7STGITX2OjXtNuWtXTovz2fSoocXeFz0PrjqKzZ4HRnQ/640?wx_fmt=png&from=appmsg)驱动电路的脉冲变压器的二次侧输出和施密特触发器的输出波形仿真结果如图4.8 所示。脉冲变压器驱动方式利用原边电容的充放电信号传输正负窄脉冲，整个周期中只 有瞬间脉冲电流，驱动电路的损耗较小，同时利用施密特触发的特性将正负电压窄脉冲 还原成PWM波形。 
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_049_607b7fe894d2.png)驱动电路的脉冲变压器的二次侧输出和施密特触发器的输出波形仿真结果如图4.8 所示。脉冲变压器驱动方式利用原边电容的充放电信号传输正负窄脉冲，整个周期中只 有瞬间脉冲电流，驱动电路的损耗较小，同时利用施密特触发的特性将正负电压窄脉冲 还原成PWM波形。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r5Km7mVCEVxIQWExL7jnqsicJbyiaTxicibL91w3jvRDNYjyhyPiaheP1gcA/640?wx_fmt=png&from=appmsg)驱动电路中变压器二次侧和施密特触发器的输出的测试波形如图4.9所示，通过图 4.8和4.9可以看出：脉冲变压器驱动电路的仿真和实测基本吻合，实验结果验证了脉冲变压器驱动电路设计的合理性。 
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_050_6258fd9d1385.png)驱动电路中变压器二次侧和施密特触发器的输出的测试波形如图4.9所示，通过图 4.8和4.9可以看出：脉冲变压器驱动电路的仿真和实测基本吻合，实验结果验证了脉冲变压器驱动电路设计的合理性。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rzuLAPzsUafR4uu2R3KpYlnuQoMnzvnr3siaicNS2Paia7CH55l8xibjVuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_051_b45fb667b0f7.png)
 
 **4.1.3  半桥驱动式驱动方式** 
 
 半桥驱动方式的原理图如图4.10所示，变压器的磁芯为铁基纳米晶材料，这种材料 的电感因数较大，相同匝数时能获得较大的感量，原边采用半桥的形式，副边直接通过电阻驱动SiC MOSFET，整个驱动电路分立元件较少，变压器的匝数为1匝，分布参数 较小，驱动电路总体性能较好。虽然驱动电路的分立元件较少，但是也不能完全保证每 路驱动的延时完全相同，因此在每路驱动电路中加入调节延时的RC电路，当驱动电路出现同步性差异时，通过调节电阻的阻值和电容的容值以及软件程序来调节，缩小同步性差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rmfPB7xKrfzYKsUUic9ttUvHxs4EqX6qmyHibvLZySVghbc2CyoVTe3rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_052_6a0c5e490eaa.png)
 
  根据SCT2080KE的技术规格书，其驱动开通电压应小于22V，关断电压大于-10V， 所以图4.10中的Ds1 、Ds2分别选择20V稳压管和5V稳压管。  有效的驱动电路应能提供SiC MOSFET开通和关断瞬间所需的峰值电流，SiC  MOSFET栅极总输入电容、导通时间、驱动电路的驱动电流三者之间的关系可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rIkdCGbzbibKmRvzPalhZK9M9BlfiaibkKZzOVGhYgL51gYfmaXFn8FgpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_053_af00cb073644.png)
 
 根据SiC MOSFET的特性，可计算出驱动电流的峰值为2.94A，据此选择图4.10 所示驱动电路中的开关管QA、Q B 。最终QA选择P沟道MOSFET（IRF9630），Q B 选 择N沟道MOSFET（IRF840）。 
 
 为了保证SiC MOSFET快速开通和关断，获得足够快的驱动信号，隔离变压器的磁 芯应具有高饱和磁感应强度、高Br/BS值、高相对磁导率和低矫顽力，同时综合成本考虑，选择纳米晶材质的磁环。串联开关的驱动隔离变压器的整体设计示意图如图4.11 所示，变压器的原边电路采用半桥形式电路，原边绕组和副边绕组的匝数均为一匝，匝数较少可以很好的减小分布电容，获得良好的驱动波形。绕组绕置过程中采用双绞的形式，这样有两个好处：单匝线圈不好固定，双绞的形式方便固定；双绞的形式可以减少干扰。线圈采用绝缘强度较高的三层绝缘线，并且在三层绝缘线外增加聚四氟乙烯套管进一步提高绝缘强度。变压器的绕组的个数可以根据设计的串联开关中SiC MOSFET的 数量进行调整，可以为更多个数SiC MOSFET的串联提供驱动，方便设计更高阻断电压 的串联开关。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r2Cxd1lHTLdWKCg5Z26R408IItUgx0iaQmy7kjQCxWTXx4ib3acrdH7bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_054_033fb461fef7.png)
 
 **4.1.4  三种驱动方式对比** 
 
 本文驱动电路设计过程中，一共选用了三种驱动方式：正激方式、脉冲变压器方式、 半桥驱动方式。通过上文分别对这三种驱动电路的仿真和实验，对比分析了这三种驱动 电路的优缺点，三种驱动方式的优缺点如下表所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rZCiaEHWnAWAyDHZvWMEBUadUEXl62y7dtK4n9Al9M9pmk4Rdkqo5vZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_055_e7faf5838f72.png)
 
  从表4.1可以看出：三种驱动电路中，正激式驱动电路的变压器需要考虑磁芯的复 位，设计中加入了磁芯复位电路，同时副边采用双绕组的形式，但是整个设计过程在三种驱动电路中最复杂。脉冲变压器驱动方式中驱动变压器的匝数较多，变压器的分布参数不容易控制，驱动信号的同步性差异较大，但是其驱动过程只需要传输开通和关断的窄脉冲，驱动电路的功耗小。半桥驱动方式变压器匝数较少，分布参数容易控制，电路的分立元件使用较少，同时采用RC电路作为延时调整电路，如果驱动电路超前，增大电阻或者电容增大延时，综上所述，本设计中采用半桥驱动方式。
 
@@ -379,25 +379,25 @@ SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出�
 
 采样处理电路采用高精度线性光耦组成信号处理电路如图4.12所示。线性光耦采用 HCNR201，芯片内部由发光二极管D1、特性完全一样的光敏二极管D 2 、D3组成，其中 模拟信号通过光耦HCNR201左端输入，电流流过发光二极管D1，同时D 2 、D3接收到 来自D1的光照，芯片制造过程中可以保证D 2 、D3从D 1 处接收到近似相等的光照，产 生相等的光电流，此光电流的大小与D1发光强度呈正比。D 2 为反馈光敏二极管，主要 的作用是减小发光二极管D1的非线性误差，保证电路稳定工作。D 3 为输出端，其感应 的光电流大小即为线性光耦的输出电流。根据以上分析，输出电压（Vo ut ）和输入电压 （Vi n ）之间的关系由公式（4.4）决定实际电路调试过程中根据需要调整R3和R 1 的大小。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rzzWEr3IYKzNOWBo2oYAtXdRhEoxWyHribAWaxfeV0DyLAicXGGMQQ2rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_056_e1ecfe01f52e.png)
 
 **4.3  硬件保护电路设计** 
 
 纳秒脉冲发生器的直流部分主要是通过单相全桥LCC谐振得到，为了保证系统工作的可靠性，直流电压产生部分必须设计保护电路：包括一次侧电流保护、直流母线电 压保护、放电异常保护等。一次侧电流保护电路采集对象为一次侧电流，但是当单相全 桥LCC谐振电路谐振时，电流波形为近似的正弦波，同时主控制芯片只能处理电压范 围为0~3.3V的正电压，这就需要将电流信号进行处理。采用的处理电路如图4.13所示， 采样电流在电阻R1上转化成电压信号，利用运放TL081组成的电压跟随器U 1 ，A点的 电压和电阻R1上的电压相同（记为U A ）。如果UA大于0，二极管D 1 导通、D2截止， 此时采样信号通过R2、U 1 、R3、U 2 、D1到输出端，V out 输出正电压。如果UA小于0， 二极管D1截止、D 2 导通，此时采样信号通过R2、U 1 、R4、U 3 、R6、D 2 到输出端，若设 定电阻R4=R 6 ，则Vo ut 输出依然是正电压（数值等于负电压的绝对值）。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rocibZyicD26M85TmHk8CvFNwpzTia1iaG6SXqhCBKqqz80q0YMA9nTZuaw/640?wx_fmt=png&from=appmsg)采用仿真软件对绝对值电路仿真，仿真中运放采用的是TI公司的TL081，在公司 的官网上查找运放仿真模型，导入仿真软件，按照图4.13所示的绝对值电路搭建的仿真 原理图如图4.14所示，利用幅值为5V、频率为50Hz的正弦信号模拟采集的电流信号。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_057_25c53a9ff2c0.png)采用仿真软件对绝对值电路仿真，仿真中运放采用的是TI公司的TL081，在公司 的官网上查找运放仿真模型，导入仿真软件，按照图4.13所示的绝对值电路搭建的仿真 原理图如图4.14所示，利用幅值为5V、频率为50Hz的正弦信号模拟采集的电流信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rWSJ7uwdwNpTMQTum5Yv0IjbltqycCkicZA2qp8la1252lueRvQOGibqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_058_e97cf6bab292.png)
 
  仿真结果如图4.15所示。图中红色波形是仿真原理图中模拟的采样信号，绿色波形 是设计电路的输出波形。输出端电压波形与输入端的电压呈绝对值的关系，仿真结果表 明此电路设计的正确性和合理性，实际测试波形和仿真波形完全相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rEAl3SXqkI1ohibdlsLytWQ6aZDxZibYTa7RH9sb6980F7HUt2GXBQwfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_059_588dc1c803ba.png)
 
 将一次侧电流采样的绝对值信号与图4.16中电压比较器（型号为LM393）的反向输入端相连，设定的过电流保护限定电压值接入LM393的正向输入端，当一次侧电流 绝对值大于设定值(此设定值的大小根据电阻R8和R 9 的组成分压电路决定)时，电压比较器输出端(Vo ut)从高电平变为低电平，与此同时电压比较器的输出端与特定的PWM控制芯片的锁存引脚相连，此时控制芯片不输出PWM波形，达到硬件保护的目的。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r4U6Axr8MYM7CD23AP48EE3N6UPOQpmuwQ7KXgO37HxnFKPoOZFFSSQ/640?wx_fmt=png&from=appmsg)直流母线电压保护的电路原理图如图4.17所示。电阻R1 0 、R1 1 串联(阻值大小根据 实际测试选取)组成分压电路将直流母线电压转化成0~5V，通过采样处理电路再次转换 成0~3.3V之后送给主控制芯片的AD采样口，程序对采样数值进行处理并与软件设定 值进行比较，如果高于设定值，程序控制PWM不输出，同时采样处理电路的输出接入 电压比较器的反向输入端，与设定的电压（由电阻R1 6 和R1 7 决定）进行比较，当整流 之后的电压高于设定值时，输出端电压(Vo ut)从高电平翻转至低电平，与此同时电压比较 器的输出端与专用的PWM控制芯片的锁存引脚相连，此时控制芯片不输出PWM波形， 达到硬件保护的目的。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_060_71188b3d8575.png)直流母线电压保护的电路原理图如图4.17所示。电阻R1 0 、R1 1 串联(阻值大小根据 实际测试选取)组成分压电路将直流母线电压转化成0~5V，通过采样处理电路再次转换 成0~3.3V之后送给主控制芯片的AD采样口，程序对采样数值进行处理并与软件设定 值进行比较，如果高于设定值，程序控制PWM不输出，同时采样处理电路的输出接入 电压比较器的反向输入端，与设定的电压（由电阻R1 6 和R1 7 决定）进行比较，当整流 之后的电压高于设定值时，输出端电压(Vo ut)从高电平翻转至低电平，与此同时电压比较 器的输出端与专用的PWM控制芯片的锁存引脚相连，此时控制芯片不输出PWM波形， 达到硬件保护的目的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rcKx5ef75aib7hmG1SrK25c1hHNXB10Ju0zQUMIgssrjxk95u6icybcAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_061_92265580ccb0.png)
 
 **4.4  本章小结** 
 
@@ -411,17 +411,17 @@ SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出�
 
 整个系统的主控制芯片采用dsPIC33FJ128MC706，此芯片性能优越，成本低，完全 可以满足设计的需求，脉冲电源系统的软件设计分为两大部分：直流高压模块软件设计 和Marx发生器模块软件控制，下面将介绍这两部分程序设计步骤。直流高压模块主要 为整个纳秒脉冲电源提供直流电压，电压的精度要求不是太高，直流电压模块的主程序 流程图如图5.1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rg8KX1UeiawWKlTl4HdATjJSVkzAnIadJOLfXfM4UV7RE1BOPPOVibYlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_062_fe5b966d9d1d.png)
 
 图5.1中，故障检测程序主要是软件故障检测程序，主程序中一直进行母线电压采样和IGBT温度采样等。本课题设计的采样电路采集被检测量之后采用硬件处理和软件 处理，硬件处理主要是通过运放比较电路将采样处理电路的输出值与电路的设定值进行 比较，当采样处理电路的输出值大于电路的设定值时，运放输出电平发生反转，触发硬 件保护；软件处理主要是程序将采样值与系统设定值进行比较，当采样换算值大于设定 值时，触发故障报警电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rQLzDf3VR2cjicQQibEeZyqyJlVngKxw6YkBBUXiagkHeia9H8cQJCBZjbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_063_37814adfaa2b.png)
 
  直流供电电源的程序设计流程图如图5.2所示。直流电源的电压输出幅值调节主要依靠外部接入的电位器，电位器调压的范围为0~3.3V，通过旋转电位器让电压在0至 3.3V之间变化，采用12位ADC，这样0~3.3V电压的变化将会对应AD转换结果的0~4096 数字的变化，事先制好占空比取值数组，将AD转换的结果与占空比数组对应，这样可 以实现占空比可调，进而实现直流输出电压可调。当直流输出电压升高到设定的电压值 时，将当前的占空比数组值作为最终的占空比值，并且此时继续增大电位器的数值，占 空比数值不再变化，直流输出电压将不再升高。 
 
 输出脉冲电路采用的程序控制流程图如图5.3所示，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rQan60HEUtGKicibiag3ZomojNAnxpFVM1lMNM7sqIiaKn7GjOVrlcxibibcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_064_14edf58dffa9.png)
 
 在进行本文设计的脉冲电源实验之前，必须要控制串联开关中各个SiC MOSFET同 步性，同步性调整的过程中选择其中某一路驱动信号为基准，通过示波器观察各路驱动 信驱动信号，同时配合硬件延时调整电路，使驱动信号同步，驱动信号同步性调整完成 之后，整个脉冲电源系统可以开始工作，空载情况下测试电源的输出是否正常，若正常 则接入负载（本论文采用针-板电极反应器）运行，软件程序对流过负载的放电电流进 行实时采样，如果负载端放电出现火花击穿现象，负载电流将会突然增大，采样值将会 超过设定的电流保护值，软件程序将会对此采样值进行处理，控制直流侧PWM不输出， 同时也将触发硬件电路保护，将PWM控制芯片锁存。
 
@@ -431,41 +431,41 @@ SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出�
 
 驱动电路的同步性是SiC MOSFET串联均压与否的关键因素，为了减小同步性差驱动电路的同步性是SiC MOSFET串联均压与否的关键因素，为了减小同步性差 异，在设计之初就应当考虑尽量减少同步性差异，主要采取了以下措施：首先，使用 Altium Designer软件进行电路板设计，采用多通道布线的形式，多通道布线可以保证各 路驱动元器件布局和PCB走线基本完全相同。其次，驱动变压器副边各路绕组的线圈 长度尽可能相同，绕置过程中尽量保证线圈与磁芯紧密靠近，避免间隙太大，导致漏感 较大。但是尽管设计时采取很多措施，样机完成之后也不能保证驱动完全同步，必须进 行实际测试，通过前文所述的硬件调整电路对同步性差异进行调整，驱动同步性测试过 程如下： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rhTHa4ZY5FnW9chOYFOKX1jHs2aDY77OmibdNfdqyWJ8RKt5qMib18wIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_065_6b532fb2c5e2.png)
 
 利用泰克公司的型号为TPS2024的四通道隔离示波器测试各路驱动信号，测试的过 程中选择其中一路驱动信号为基准，测试其余各路驱动与此基准之间的差异，测试过程 中为了对比方便，将主电路中第一级开关S1和第二级开关S 2 进行进行分组测试（目前 实验只用到两级Marx结构），分组的示意图如图5.4所示，开关S1的10路驱动（编号 Q1 1~Q 110 ）为第一组，开关S2的10路驱动（编号Q 21~Q 210 ）为第二组，开关S1的第1 路（Q1 1 ）和随机选择的开关S1的第10路（Q 110 ）以及开关S2的第6路（Q 26 ）、第8 路（Q2 8 ）为第三组。
 
 实验过程中利用示波器一次进行四路驱动电路的波形同步性调整，调整时通过调节 驱动电路中预留的RC电路进行超前滞后的调整，每次测试均以开关S1中Q 11 路驱动信 号为基准，每组测试完成之后通过软件将采样数据放在一张波形显示图中方便观察。第 一组驱动同步性差异调整之后测试波形如图5.5所示，第二组驱动同步性差异调整之后 测试波形如图5.6所示，第三组驱动同步性差异调整之后测试波形如图5.7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rX24rWpxbcEHofCN4ZUkGJJ2fFYYPACezZTydzKnSOVKbiatibSPG2Huw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_066_133ee3abeb2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rADa7zSib871h7ewmOibHs9BdEaGs41c9zWukS0mCKV3CPuhdric0XaFWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_067_2da77b74da67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r9K8FAoZoIERrshJg7UPnrg0tbiavkN1E6EHRWdu67ypvCPkiaUcEcCtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_068_72cb3231cd28.png)
 
 测试图5.5~5.7的驱动波形时，利用示波器测量和记录各路驱动和基准驱动电路之 间的开通、关断时间差，为了直观的显示其余各路驱动与基准驱动电路之间的同步性差 异，假设开通、关断时刻超前Q1 1 记为正值，滞后Q1 1 记为负值。同步性差异结果如表 5.1所示。从表中看出，驱动电路的一致性很好，开通、关断时刻的不同步时间差不超 过10ns。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rIiaHMiaxctfVGCTNHgK5M3KgcdQ0hvnPm1YLfIDzrlm6eyRQMBRwmibrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_069_4226e4ef24a2.png)
 
 5.2.2  针-板反应器带载测试 
 
 采用针-板电极反应器作为负载测试本课题设计电源的性能，针-板电极反应器的针 数量为12只，地电极采用白钢材料，固定装置采用有机玻璃制成，针-板电极之间的放 电间距可以通过螺杆调节，本文放电实验过程中控制针-板放电间距为7mm，整个电源系统的测试原理图如图5.8所示，高压直流电源的额定输出电压为10kV，因为采用的是两级Marx发生器结构，理论上输出脉冲的峰值电压为20kV，实际测试时，输入端的电 压逐渐增大，开始出现电晕放电开始缓慢升高电压使反应器出现火花击穿，测试电源的保护性能。其中示波器采用安捷伦公司DSO5054A，测试电压时示波器通道设置成倒置 状态，电压探头采用泰克公司的P6015A，倍率为1000:1，电流探头采用泰克公司的 TCP303。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rJ4yW1a3icGrEJZNuGbacibxoHnzWJYQIcoWWjymaFe4GwpdiaCN0JlwEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_070_71a61dea9ba9.png)
 
 电源输出脉冲频率为10Hz-1kHz可调，f=10Hz的脉冲输出波形如图5.9所示，f=1kHz 的脉冲输出波形如图5.10所示，从图中可以看出输出脉冲的一致性较好，脉冲电压峰值可达15kV。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rzWr4aL7NsWwkYEibicDrQ2xia6CrmdklOJOYLUh6gdr7asTKha8y8X9rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_071_ef4313b39f51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rCN0ejKe9CicicKZmzmfIcYlAqXSictVx90acIeOsiaY2kaLvhdfGB0mwqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_072_94feca2600cf.png)
 
 脉冲峰值电压为15kV时反应器的放电电流和电压波形图如图5.11所示，放电电流 峰值为650mA。放电效果图片如图5.12所示，从放电图片看出：距针尖越近发光强度 越大，距离针尖越远发光强度越小，在靠近针尖的地方有明亮的不均匀区域与文献所述现象一致。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2r5hbttnFgKmsxibsxlntq57XLTgugaPib9E6pQBvVgTXrBFZy3iaGMlic4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_073_c0abef3b1d3f.png)
 
 保持针-板反应器的间距不变，电源电压继续升高，电源电压升高到16kV时，出现 火花击穿，此时芯片采集的放电电流瞬间增大，通过软件调节PWM信号的占空比，降 低电源的输出电压，使火花放电不再发生。如果火花放电的电流超过设定的保护阈值， 将直接触发放电保护，脉冲电源将不会有电压输出，火花击穿放电的图片如图5.13所示。
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhibCFQIFvS3SgJekk4cJ2rIT9Op0cib7RCibe87zHy9kCTWo1AiciauNVOKKVaHhHqVjqlK3K2rnambA/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_074_f39f03a2e521.png)**
 
  **5.3  本章小结** 
 
@@ -493,8 +493,8 @@ SiC MOSFET关断过程的波形如图3.4所示。忽略关断过程中电压出�
 
  （4） 电源经过适当调整之后可以产生正脉冲、负脉冲、正负脉冲三种可选电压， 将来可以在这方面深入研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_075_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大连理工大学_基于SiC_MOSFET的纳秒级脉冲电源研制_images\img_076_1241954b1b67.png)

@@ -10,7 +10,7 @@
 
 CW线圈展近几年都是在上海世博展览馆举办，每次都会经过大大的中国结！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50ROmc5p3Cq1yic7KWVotmjr1j0Cmwj7O8TCuvyic3Kf3ibO7ibEerjO8JTg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_000_fcd341a0e8b7.jpg)
 
 主要参展商包括：漆包线、绝缘材料、铁心与模具、磁钢、制造设备（绕线设备、自动化生产线、焊机、激光等）、测试设备。  
 
@@ -20,7 +20,7 @@ CW线圈展近几年都是在上海世博展览馆举办，每次都会经过大
 
 **最美转子**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50QkR7yZll9YP6ur3nd6cTQRBycdMHnr6ibdqu7nYwtkTBpC5p8rnGwkg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_001_885443e916c9.jpg)
 
 这个转子的减重孔像是一朵花！磁桥设计得也比较长。
 
@@ -28,23 +28,23 @@ CW线圈展近几年都是在上海世博展览馆举办，每次都会经过大
 
 **最小转子**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50gF4psxoEufr4TxbD0dvicRicNibRXCVzGhUsrpNOibXrHT9Gn75BLv678w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_002_58c145bb4b82.jpg)
 
 * * *
 
 **最大转子**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50QDYFYXicHgGAXybRorW3RDLQYniciaRDHnqQJGzboSRKkrq65uWNBvJuA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_003_38f0a1f0610a.jpg)
 
 * * *
 
 **最精致转子**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic5038YYn1DtnicM57epaBTlbd7rsHiaff1Nq01BZQ58ia7EbK0cEx0Z2elNA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_004_f721c9d40408.jpg)
 
 双V设计，内层中间磁桥中间两个小槽很有想法！666  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50T394libdqHueeau9osXRsPu0wRD0AEn8YjZQ2cz42tUJFmA0OxhpgWw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_005_23c330c2fb9d.jpg)
 
 靠近内孔附近的结构设计，工程师花了很多心思！666  
 
@@ -54,33 +54,33 @@ CW线圈展近几年都是在上海世博展览馆举办，每次都会经过大
 
 **粘结定子**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50Rziah7ALnQXJfwQLnNicXK6DhcDHRUUiaoGDSn5AmDibmVYDJJiaQ36puYQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_006_a793b9916e78.jpg)
 
 铁心片粘结在一起，无扣点
 
 **大回转**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50FmYZQALYNvjAXWeV924AJSUIYzRqHa0TeiaXlp9TxIas0m23GoJOZaQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_007_52e279b259f0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic506AlqKIMAVZBoEWKX7wOibVoQc9d9gKR44F7XJAtzcTpEaSicbLT9wNIA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_008_1669dae97b00.jpg)
 
 大回转，每一片转180°冲压，减小材料公差对叠高的影响。从沟通来看，能实现的模具厂家不多。  
 
 小回转
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50POmIrTRT99OgX8ic5WUvDJgjvdeXj5hnJHwTbQQsZ8PUhtTXVMrYdicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_009_e6182e1ff58b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50jsGbFESvOHtia21vaU4flq8LhZ3rY6IFCxicCiaHSHzI8cBMNeWLpMDaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_010_0db2a94d00ee.jpg)
 
 小回转，每一片旋转一个比较小的角度，形成斜槽。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50yiaPZJyE4wyiasklxtUDBhpKjXxYNP0ibRbyEbDFyjBl6ziaPgmFypmNlw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_011_05535e3eed80.jpg)
 
 这个比较特殊，看起来是只斜了槽口，没有斜齿。  
 
 **离心铸造**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50d4lrF1l6x50CLATjgwjypWAKfMS5Ikf99dBzbaTo0H7Uqfk379obcw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_012_3de8f4f2f400.jpg)
 
 离心铸造，提升铸铝的致密度，减少气孔。  
 
@@ -90,113 +90,113 @@ CW线圈展近几年都是在上海世博展览馆举办，每次都会经过大
 
 **IPM 一**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic505twZ9XcHAM1TcIiaUW1k6J31w9zouP1yr2PWFxiaHRRybbRu6xmfN1Fw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_013_024eb8588266.jpg)
 
 磁钢槽中间的凸台是做什么用的？【问一】  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50R5LYeqDFp1596whdGVWKyMWCsY8uOynZsz02Ch3jNGgHks2cicT4CCQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_014_9debfe6f1c4f.jpg)
 
 分5瓣转子  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50Wbx6ekdtib8JvicZbYJibra9WMD2snTmTjGEIrsugXmz1aBPtweqIeXyg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_015_100368c4ece0.jpg)
 
 这个做内置，就是为了磁钢固定方便吧！？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50voVfAtVdWBBYYfBtdMzNItG9Pvg90mxDjFzUArDuKU5Z1AKzI0ZK8A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_016_a58fd29f8632.jpg)
 
 **IPM—SPOKE**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50B1C1qbr2gx1ciadniawIU6yp56g9exbLGyMeKs043MbFFR4rUBDjfyJw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_017_a50cef472597.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50An2mQzw4gnmHnxbBQK2gzcVctyvdpfz7aC7MlvNZncFFZiaRugRNKgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_018_92f2f2680d50.jpg)
 
 这个半圆形的槽是放磁钢吗？槽中间凸出的齿是什么作用？【问二】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50MYQa9z4iaqkd7pBnicvkOSRaMQwRDPJX0bibJXmBLSvpNQXIPicd0l0CrQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_019_9be63ea881e8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50kpGSqic0OPt8sRSbQP9z7FJnREg8JORrT9NiatyszqUU3VK3nicHDlr6A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_020_39a7a9309e24.jpg)
 
 SPOKE都是想方设法的减小磁钢内部漏磁。  
 
 **SPOKE+“一”**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic503iaWlWkp28fx48etZZI8vEdwpTpgB4eJPJlo6sN9MYQIwx4rPZtKr8w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_021_c26fc630597a.jpg)
 
 **V+“一”**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50Gj7jRFmW01h5jq0PkGFE2AHArZIuQMuiakLnLtYDU0I1CnlEdPTXKRg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_022_4b48e413b9f7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50yN73vmiaHnpmnicHSRib0K3LRGiablxGJtRbvFvRianHYvqH4atrmZ6yHFQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_023_4fb4c5383bab.jpg)
 
 **SPM**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50icg3fSDpUXNnOPCIyGLsYFA5icPuacJLKzcqWZMvuqHSiaTGuLsaXW69g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_024_076e50728e20.jpg)
 
 **IPM内凹瓦片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50Q8bGr53uyjicT7g1fichBLwEABox8XXmyyKiaYFjH1NsWVEk2pbOmBRuw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_025_a33fdd348363.jpg)
 
 这个应该是用的铁氧体吧！？  
 
 **IPM “二”**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50icnnCLyZHyqvqibhZkre8xGh7eef4ZHDomD1xO4lnmU2JaV80kYO5ic9g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_026_f29f0759c653.jpg)
 
 这个有超越宝马I3的可能吧！  
 
 **外绕定子**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic508ic0qe6VxjlnCV14H4MfgY0mnxkSI7hqWzAU1DGcNcicnO8gjv1qCwVg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_027_7c713423240b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50U09xuJ9ghX2Y6vtniauEfS0UmSrMdfYZ3tXDg0iciaicfOXibF6riawmBG2A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_028_11fdc188c3ca.jpg)
 
 为了减轻重量，也是够拼的！轴向冲片多种。  
 
 **分瓣外转子**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic505236kzVGXvY8Z7rVribTD5tGY77TIlibC0SdaMsmAnMy9o4YMMOwwWgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_029_66916af13a4c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50XmiaxLhmQ2iayo6JiagHXcJyWQYQza4zv6kCKGH7X0t2IULiarrY40UD9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_030_db35d819688b.jpg)
 
 减少用料。这个能不能用卷绕来实现？  
 
 **盘式定子**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic507OFaGxrLSeFftdx7y72S2Hoibph3ZaibpPSBOoUCkghu6L6Bo8gRk7kg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_031_5cecd60a22e3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50aL8xNibVub0ogapGyib8qnxNM2qaIw9JPjfSwgiac2AWEGpiatXlc1POeQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_032_0735ad43ae9b.jpg)
 
 **圆形线圈**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic502CKk8V0BTcjn3MDqejwgoIzd96KeTT47CzXd5XTIdd6hQDL0WP2w8w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_033_58d7b5085cd9.jpg)
 
 这样做线圈是很容易了。这个定子是用在什么电机？线圈是怎样利用的？【问三】  
 
 **齿条**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50K9lNBFAS0KIiar8YE81B4GBoyGuSOnNT50yx9ns5KxaPCamCvHz8I0w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_034_6379eccc7859.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50ic0Qv0QO7bHCK5fIJDkeXyCjSj7kcicpB4ASH9RcofqZOiboDsr7q5oFg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_035_0f05d7b9faf8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic509bviaqliafaibp7ru8epJyRLxPqTyyuVUm6FDNpCROTYNLFiaWXJLOzQcQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_036_665aa38034ab.jpg)
 
 齿条上绕好线圈后，再卷成圆。  
 
 **齿轭分离**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50auLaJT7ib3QcoT9ghpJuVMcs49A2c3d5KybhApO6bNloMakrcqsr7pg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_037_9718b5ecbfd5.jpg)
 
 全封闭槽口  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50VPazwPDPOlu5yWMQ23ErXUhksnjI61NvXlnoGFCpXzE68F5y7E53rQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_038_9f0568288dc5.jpg)
 
 隔层封闭槽口
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50xHqvtIt5ibJPuajgU7YNXzpFm1xVoTk0RHIiaryZOB9yOMxc5fqd0pmA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_039_0390f929f555.jpg)
 
 隔层封闭槽口
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50noLp5tqLF5ZZvkSEb7j7STYE8LrXR7ssJKOzbNg75wEAWzLgZEmpXQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_040_67caf9258ba9.jpg)
 
 隔层封闭槽口
 
@@ -204,7 +204,7 @@ SPOKE都是想方设法的减小磁钢内部漏磁。
 
 **这是什么电机？**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chzVmwoYF9sXpxIugTibhmic50aJDA5qs0tqeHiaRqC03OlWibhSqUCZjltbQXpRZ7S2OT25Vt5efK95icQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_041_9c77d6cdf528.jpg)
 
 上图中的电机是一个什么电机？应用场合是什么？【问四】  
 
@@ -222,4 +222,4 @@ END
 
 长按图片，识别二维码，关注我哟
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电机_设计_仿真\_游记_2021CWIEME上海国际线圈展__铁心篇_images\img_042_6cc15fcc9407.jpg)

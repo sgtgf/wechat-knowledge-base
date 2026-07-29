@@ -1,6 +1,6 @@
 广西-南宁
 一场聚焦前沿的电气学术盛宴 邀你共赴！
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QhgbDjJjiccs3OXAFaQfcyGu0SSM5UZSW4pfg2HxrMPbF3PkibHbwG8rxn8Gq4VxoRVcd1qtOEIDQQ/640?wx_fmt=jpeg&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力系统_配电_微电网\划重点_作者必看_FAFEE_2026_投稿适配指南_images\img_000_5c0d3de66da7.jpg)](https://www.fafee.org.cn/)
 第十三届电工技术前沿问题学术论坛（FAFEE 2026），定于2026年5月29-31日在南宁盛大召开！本届论坛以“人工智能赋能下的能源与装备”为核心主题，将通过主题大会、专题论坛、论文宣读、墙报交流及创新成果展览等多元形式，搭建电气工程领域高端学术交流平台，助力产学研用深度融合。现面向全国电气工程学科带头人、科研工作者、高校师生及电气装备企业科技人员公开征文，以下为大家详细拆解征文核心方向、交叉学科适配要点及专题会议征集信息，速来收藏投稿攻略！
 一、核心聚焦：9大征文方向
 ✦✦

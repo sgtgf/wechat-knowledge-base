@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/u\_N7McsGD8tUg9L2f3km4w](https://mp.weixin.qq.com/s/u_N7McsGD8tUg9L2f3km4w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR0zLlww8qtPt4TOsPrm3GnHWlfnZibmwjlbc40rGtFuqSRJjzIicYc3ic3r7picBdFdUWicLhgicxn4V1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_000_d53ce8d60631.png)
 
 ___**★★★**_____Antenna-13---Polarization_____**★★★**___
 
@@ -13,7 +13,7 @@ ___€1.极化的方向___
 
 天线极化方向的定义是基于观察者位于天线后方，并沿传播方向观察的视角，无论预期用途如何，极化方向均指发射天线，而非接收天线。我们经常使用“手标”来描述极化方向，极化方向的定义取决于用哪只手，才能使拇指指向传播方向，同时使同一只手的其他手指指向电场矢量旋转方向。例如图13-1，如果大拇指指向传播方向，并且旋转方向是逆时针（从传播方向看），那么得到的就是左旋圆极化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSvsBsLvds17bsNjf1ibHNRyaZv0TWrDzp5fMWibhZz8Q0uslpMWB6JPStozmGMiaT6L14vVTeics7V5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_001_30421545e7d9.png)
 
 图13-1：左旋极化
 
@@ -25,19 +25,19 @@ ___€1.极化的方向___
 
 直接传播情况下，两个相同天线之间的波传播类似于将螺母从一个螺栓拧到另一个方向相反的相同螺栓上，图13-2仅为示例，所有极化方向均可反转。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSvsBsLvds17bsNjf1ibHNRyj7yDcv5oLWK5TtDnjdvaGQ5YDBjyRyy1M808l0R9Y1UWoOAbChtpWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_002_9c71ad119bc7.png)
 
 图13-2：相同的圆极化
 
 无论哪种情况，天线都应该相同，如果所需天线用于接收具有单次或奇数次反射的波，例如如图13-3所示的双基地雷达（其中发射和接收分别使用独立的天线），则应使用相反的圆极化天线以获得最佳信号接收效果，即一个左旋，一个右旋。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSvsBsLvds17bsNjf1ibHNRyX0w3Vz117OLSTPicglN1H0U9DAwiaicKlF7cT0WymsEQ5AtppeyQnloyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_003_a0ac98290579.png)
 
 图13-3：反向圆偏振
 
 如图13-4所示，在二面角反射器中，波在返回接收器之前会反射两次，因此它们返回的方向与发射方向相同，在这种情况下（或任何偶数次反射），应使用极化方向相同的天线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSvsBsLvds17bsNjf1ibHNRyyMsHnsgDRBWbfF2l4HCyrsVuxfx5jVDKgmprGvx4cA7Rf3UMicXk99w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_004_982a5386e7cd.png)
 
 图13-4：角反射器实现相同的圆偏振
 
@@ -49,7 +49,7 @@ ___€2.极化匹配和极化失配___
 
 一般来说，对于两根线性极化天线，它们相互旋转的角度为ф，极化失配造成的功率损耗将用极化损耗因子（Polarization Loss Factor）来描述（极化损耗因数有时也被称为极化效率、天线失配因数）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR0zLlww8qtPt4TOsPrm3GnAPtnKhlfur4ibWBWKvuFXdjdfZicqR3MI29U44cMbrTUMejjkE7v5nPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_005_00be6d28d947.png)
 
 其中ф为发射极化方向与接收极化方向的夹角，当ф=0°（完全一致）：PLF=1，信号功率100%被接收，不会因极化不匹配而造成功率损失；当 ф=90°（完全不一致）：PLF=0，接收天线接收到的信号强度会非常弱，甚至无法正常接收信号；当 ф=30°，PLF=0.75，仅75%的功率被接收。这也解释了为什么将手机从不同角度放在头上有时会增加接收效果，手机天线通常是线性极化的，因此旋转手机通常可以与手机的极化相匹配，从而提高接收效果。  
 
@@ -61,13 +61,13 @@ ___€2.极化匹配和极化失配___
 
 假设现在线极化天线试图接收圆极化波或圆极化天线试图接收线性极化波，由此产生的极化损耗因子是多少？回想一下，圆极化实际上是两个相位相差90°的正交线性极化波，因此，线性极化（LP）天线只能接收圆极化（CP）波的同相分量。因此，无论线性极化（LP）天线旋转到哪个角度，其极化失配损耗都是0.5（-3dB），因此：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR0zLlww8qtPt4TOsPrm3GnaKMCLVficHs64BibVicO4A28RYJvMGH3QmTqGMicRfwGawib6GbtV6C9wibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_006_f565285d10b6.png)
 
 圆极化的另一个优点是RHCP波从表面反射后会变成LHCP波，这样为接收RHCP波而设计的天线可以在一定程度上抵御反射波干扰所需波的信号衰减效应，这就是卫星发出的GPS信号是RHCP波的部分原因。
 
 表13-1列出了不同极化天线间传输功率的理论比值，\*与理论值大致相同，注意：交换发射和接收天线的极化方式将得到相同的结果。由于反射、折射和其他波相互作用等效应，这些比值很少能完全达到，因此表中也列出了一些实际比值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTiasibUsyuER0hrKmFh9bNhADIdjU4WuCXJcUEheIQyPbpoQO415eA1XqHicvNjj42BmeCgHPrX3BeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_007_262b1aac317b.png)
 
 表13-1：各种天线组合的极化损耗
 
@@ -81,8 +81,8 @@ ___€3.天线极化隔离___
 
 极化失配在一些场景下也可以作为一种天线隔离措施，称为天线完全极化隔离。当接收天线的极化方向与来波的极化方向完全正交时，例如用水平极化的接收天线接收垂直极化的来波，或用右旋圆极化的接收天线接收左旋圆极化的来波时，理论上天线就完全接收不到来波的能量，这种情况下极化损失为最大，称极化完全隔离（隔离代表馈送到一种极化的信号在另外一种极化中出现的比例）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRqMXKu8gI7f2uPnN27DS5GUIFSZxSwVpZgoP96dAQ0H4kjhdnUxtOOaXP8DKnTssHwTdUp34hC2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_008_f02d8c4734e8.png)
 
 图13-5：正交完全极化失配
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRqMXKu8gI7f2uPnN27DS5GEPkGlt4B9JXok6x2fF4TqG229JzyDTteuAuzGDtet038lZdGE3T24A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_13_天线的极化_3_images\img_009_7895bcfb3999.png)

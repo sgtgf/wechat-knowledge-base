@@ -28,7 +28,7 @@
 
 **开关电源电路 4 个组成部分**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bL2iaicTYdZn4PwuNStrgDgCC3uHMhtR6jr32LVMsY4kic7QicG2WRic8pE6YY8kTWGyLh12vE0XSfJWHvtmlGnA8Lw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_002_7fb975c771a7.png)
 
   
 
@@ -62,7 +62,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXIzLVjSYDK2JoHy92iaERud84Wt4CiarpZVjeTl8xjjNSaNemgJbglGuw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_003_93ecd03a1393.jpg)
 
 上图中突出显示的部分表示滤波电容的紧密放置
 
@@ -88,7 +88,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYX3l5seBVRNHs0MsewtE4ic1agXPoobS1cX9ILhk4Q4azNPhOAicqOH6jQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_004_70d6fd090827.png)
 
 突出显示的信号是高压直流线，信号以与其他信号分离的方式路由
 
@@ -102,7 +102,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYX3l5seBVRNHs0MsewtE4ic1agXPoobS1cX9ILhk4Q4azNPhOAicqOH6jQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_005_70d6fd090827.png)
 
 与光耦合器保持安全距离的隔离漏极引脚连接
 
@@ -116,7 +116,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXpC9BzrJic5ysFYTiapm8DThZCLwQKulozgPYfQesp7ztn6YCmGn0xrDw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_006_b0b1d7fc030a.png)
 
 从光耦合器到驱动器的单独反馈线
 
@@ -138,7 +138,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXibEv3RB4Y2W0cO8wmohoA27LtoMWJRe1rY4K9REkic6Amxib707Q1S4mw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_007_4b97494d0eed.jpg)
 
 电子元器件图片
 
@@ -148,7 +148,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXribgHYicqgxVqx8fR9q3un83ibIvjvVJhApo6IDF1dKrXomfHiaU7aUCXA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_008_5cf82102a7af.png)
 
 开关变压器之间的PCB 切断
 
@@ -174,7 +174,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXuCSvDPpWjEiazoJg076iaa6o0vtB4UhFiaoEoTd2wBBicovaGXP6Yib8wpg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_009_974777a0fb69.png)
 
 底层创建的肖特基二极管的 PCB 散热器示例
 
@@ -188,7 +188,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXRvsXxriaYgbgKUiabVG5WtObicIQtDbqroVOJHJgREIL2nHnYSiaOOXibMw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_010_133f7874ee2d.png)
 
 从变压器输出到桥式二极管和滤波电容器的短回路示例
 
@@ -202,7 +202,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
 **开关电源电路 PCB 设计布局技巧**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bL2iaicTYdZn4PwuNStrgDgCC3uHMhtR6jr32LVMsY4kic7QicG2WRic8pE6YY8kTWGyLh12vE0XSfJWHvtmlGnA8Lw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_011_575f9c54be44.png)
 
   
 
@@ -288,7 +288,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXOl43K6IZwIW6J5puhx6Qqymzk70dTwrADD8NQuQ4zIx8y9YwW3eW2Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_012_3a35213e9600.jpg)
 
 在某些开关转换器应用中，Y 级电容可用于桥接接地
 
@@ -334,7 +334,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYX7BVr64YhZ1UVbYnIHccGw5v4rHpXcH8wsxEF4IAVpHAuzPMWx0Mv3g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_013_c0a6cfd63534.png)
 
 电源和接地层提供低阻抗连接，同时提供远离系统重要部分的散热路径
 
@@ -366,7 +366,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYX7zDbdXdTDbicD9g6ZCnWibeWxuQLf0ibUGibbgw07jPKC7f05gBBtetnfg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_014_cb5226b71187.png)
 
 模拟电路和控制电路与其他电源线完全隔离
 
@@ -380,7 +380,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYX1sAE9zzccaEedWaWgadJaicTcdLol3SicL1icQbXZGJThAKIa4JmTOWicQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_015_af0ea8e3f8da.png)
 
 使用通孔在一个地方连接两个接地层
 
@@ -434,7 +434,7 @@ PCB 中常用的铜厚度有两种，35 微米和70 微米。厚度越高，热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXEku7usNZGiap0SxGS0iblY3uHuU7Ox99s4QrdFnR6EmVicUcLbN1TgWTw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_016_65b854661458.jpg)
 
 降压和升压转换器布局
 
@@ -480,7 +480,7 @@ ON 和 OFF 电源状态之间的转换会产生 EMI，如果电源布局中的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEbfqL7BG4xp3X5oONG1YYXgwqeIX516vrjtFIZbYjH14W480vIA1MldBEQNyt9dVn3O0nic3E5w3A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](5_种PCB开关电源设计技巧总结（图文_案例分析）_images/img_017_aa57f7b2b4b7.png)
 
 PCB布局
 

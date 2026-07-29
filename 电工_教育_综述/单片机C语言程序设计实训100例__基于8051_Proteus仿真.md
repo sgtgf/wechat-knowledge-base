@@ -5,37 +5,37 @@
 
 请大家点击图片上方公众号  → 点击右上角“...” → 点选“**设为星标** ★ ”就不会错过每篇好文章啦！
 
-![](https://mmbiz.qpic.cn/mmbiz/Hk0NAXoSxTQYx6mhrVWzibSjwibCOiczNLEPWQPzttxic4H1Y8zL85VaCwgvDpiagvszYjSXvY31AlHaIAgnzYhTxxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_000_fcb7641c9f49.png)
 
  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_003_5ad9d8b8d7fb.png)
 
 **资料内容**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_007_62a6275dae10.png)
 
 书籍+源码+文档手册
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_006_5ad9d8b8d7fb.png)
 
 **部分内容截图展示**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_004_62a6275dae10.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz72VFiaHEVyeRI84mnxiblEb8R0MnfklRfBrpHzJ3VJ6XM72yBktqicoV9V9mXQLcNicZ9ekaznIr5IYibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_005_b050447fbe63.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_001_5ad9d8b8d7fb.png)
 
 **如何获取资料**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_002_62a6275dae10.png)
 
 链接：https://pan.baidu.com/s/1LVmEkazQewye24G8eBF0Jw
 
@@ -87,4 +87,4 @@
 
 ****加入电子研发工程师群，领取海量技术资源，********请加小编微信（eeworm）****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz71VMAs2xib1mQicpt1KicR6ddgLHJibRmDXqB2NGPYic2HKs8D2t2zkzBeMeBUWMPxdvCPnJUdpl5vP13g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\单片机C语言程序设计实训100例__基于8051_Proteus仿真_images\img_008_312c864488df.png)

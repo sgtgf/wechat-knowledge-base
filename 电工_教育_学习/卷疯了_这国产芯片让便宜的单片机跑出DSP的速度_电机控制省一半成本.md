@@ -10,13 +10,13 @@
 
 但现在，情况不一样了。国产芯片正在用硬件加速的思路打破性能与价格的僵局。就像武汉芯源新推出的CW32L012，虽然用的是大家印象中入门级的M0+内核，却塞进了一个实用的CORDIC模块。它能用简单的加减移位硬件算三角函数，速度直接追平M4的DSP，而价格却依然保持M0+的亲民水平。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnOUkJCfOqKJAZL2VNjSyGbb0L3ANhjCkpibBYriaoV4mMvgRJYUnfpfZw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_000_e7f1420d79d9.jpg)
 
 为了探究CORDIC模块究竟能有有多实用，我们做了一个实验：我们找来了四款芯片：分别是经典的ARM M3内核的STM32F103C8T6、性能更好的M4内核的STM32F411CEU6、更新的M4F内核的模数混合信号MCU STM32G431CBT6、以及国产芯片厂商武汉芯源半导体最新推出的ARM Cortex-M0+内核的模数混合信号MCU: CW32L012C8T6芯片。
 
 我们让这四款芯片各自对 sin30°和cos30°做100万次运算，并计算运算时长，把时长结果打印在显示屏上。由于这四款MCU在内核、性能、价格、产品定位上均有差异，很难做到严格的对照实验，所以我们分多个条件多次试验，最终测试结果记录成表格：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnwBoB7sX9dt0icDxC1u2vq9DRnZYhqbKEOEDeialwUjSlzRlBeicibZgDUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_001_f5d32ca7be4c.png)
 
 在表中可以看出，STM32F103C8由于没有相关的数学运算加速器模块，所以只能在最高主频72M的情况下，利用match.h 使用CPU硬算，最终计算时长接近两分钟，而其他有相关的数学运算加速器模块的MCU，均可以达到秒级的计算时长。
 
@@ -26,31 +26,31 @@ CW32L012本身所属的M0+内核阵营，在我看来是属于国产芯片中竞
 
 站在旧有的认知上，我又对比了CW32L012与STM32F103C8使用CPU硬算的差异，从这个角度上看，M0+内核确实不如M3。但CORDIC的存在，又让结果有了惊人的差异。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnyOtjpYWqykVXdfHeSE50vD0OH9SUfcQcNlC3ibib3yicUBliarF2kHs6zg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_002_4081fbca9c86.png)
 
 CORDIC不仅仅能算SIN/COS：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnODGiasqVPLds0H94MUCIW4JIK0o1Iv8CrIjaicSmiakHranH0zjFZ7Ydw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_003_525eb3dad3d7.png)
 
 CW32L012除了拥有CORDIC模块外，厂商又对其增加了EAU（扩展算术运算单元），弥补了M0+内核天生的计算性能劣势：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnP4UVM7Ir1xRTibedMUOvA130NiaPDPtA05sepQibIUkH60G6kBuiaVLzjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_004_aee92c4e89a2.png)
 
 做过FOC电机控制的朋友应该知道，M0/M0+内核的芯片一般在使用到三角函数进行变换计算时，多用查表法或者定点数计算。但这样的弊端就是无法做到精确控制。如果想要精确控制，往往还是选用含有DSP模块的芯片，比如经典的F4/G4。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnMh0l8kgQdQA1AhMJBVvq3XkbgTvswhjZt5ImD4oUK1VNz1ic5mNZLcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_005_e22bae0c35a8.png)
 
 而CORDIC在M0+内核上的结合，使得可以实现高精度FOC控制的芯片有了更高性价比选择。不单单是FOC电机控制应用，涉及信号处理、计量、功率变换（MPPT、电源）等应用也有了更多高性价比选择，或者也为一些低端产品提供加量不加价的升级可能。毕竟M0+内核对比其他内核芯片的价格差距是数倍的。
 
 我们找到了测试的四款芯片在立创商城上的零售价格：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnePkAl9ZyhticEhQzOacb7icwibmbmHyKSbpIC68OxX6sYdSwZatLkIB6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_006_70096dbe24bd.png)
 
 在全球MCU市场竞争加剧、国产替代加速的背景下，嵌入式设备对核心控制芯片的性能、功耗、可靠性及性价比提出了前所未有的严苛需求。国产芯片卷出来的好产品也越来越多，如果你有功率变换、计量、电机控制、信号处理、超低功耗等应用，不妨看一下武汉芯源半导体有限公司最新推出的CW32L012系列芯片。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnn7ThIEkuRGwjOvkR6dhUrzL05DeSDTYrDF5qoVwLEUkvOruO9qCVz4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_007_ee3a83dabe45.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5Se5unp5KgUnI6RmicAFicKxnnPmByyRWxSiaBURFSwUljXKfSnAicB69b757anWqfX1DnJSR37JwOoTvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\卷疯了_这国产芯片让便宜的单片机跑出DSP的速度_电机控制省一半成本_images\img_008_0a54f7b6c4e3.png)
 
 **高性能内核，丰富外设，满足多样化需求**
 

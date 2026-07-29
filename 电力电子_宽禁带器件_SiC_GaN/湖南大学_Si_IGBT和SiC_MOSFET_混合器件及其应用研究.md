@@ -11,11 +11,11 @@
 
 **关键词：**SiC MOSFET；Si IGBT；混合器件；损耗模型；功率模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHAx7geWjycaUeZSwVoqae3fMiaSXWfoT0bibYxDwsqq175iciaDJHiaLrvVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_000_fbae580eefb1.png)
 
 现代功率半导体技术飞速发展至今，硅基功率半导体器件性能已逼近其材料极限。 Si IGBT 作为主流的硅基功率开关器件，其具有低导通损耗及低成本的优势， 但高开关损耗限制了其在高开关频率、高功率密度变换器中的应用。 作为世界公认能替代硅的下一代半导体材料，碳化硅材料具有禁带宽度大、击穿场强高、饱和漂移速率高和热导率高等优点，更适用于高温和高压大功率领域。 其中最具代表性的 SiC MOSFET 器件具有极低的导通电阻、更快的开关速度、更低的开关损耗和更高的击穿电压，SiC MOSFET 能显著提升电力电子变换器效率和功率密度， 使电能变换器更容易实现小型化、轻量化，且更耐高温高压，其在新能源和混合动力汽车应用中具有广泛的应用前景。 然而，受到晶圆生长和芯片工艺的制约，SiC MOSFET 单芯片载流能力不足，例如，当前 SiC MOSFET 的单芯片载流能力就远低于 Si IGBT。 另一方面，现阶段碳化硅衬底普遍存在缺陷，若强行通过增大芯片面积来增强载流能力，会导致碳化硅功率半导体器件成品率急剧下降，难以大规模生产应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHrVxbKVcU55xIibCTBQ00WnFdC4CHgVZTRoD1kPJkdibXQI0ljAvvZc3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_001_8560514f429f.png)
 
                                       SIC MOS+SI IGBT模块拓补图
 
@@ -29,25 +29,25 @@
 
 **1  混合器件特性及集成门极驱动**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH8I6pxgWwowTZ7BEuuHGvchfrTKibnU6zs5Fiaq2xastnaiaWicvM861VOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_002_a73fd5dc4d90.png)
 
 Si IGBT/SiC MOSFET 混合器件结构和导通特性如图 1 所示。 图 1（b）展示了混合器件并联结构的静态分流特性，由器件的通态电阻决定。 而混合器件的双门极结构使其相较于传统功率器件增加了 1 个门极控制自由度， 内部 IGBT 和 SiC MOSFET 的开关时序可以灵活组合，如图 2 所示。 其内部 2 个器件在合理延时范围内的异步开通与关断，可实现混合器件开关损耗的优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH4FicmgC8B3J9OufoJSZub4a54HvoHVPic0OqX4JPg2BWvURenTyNPpww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_003_b81b5f87ca27.png)
 
 Si/SiC 混合器件结合了 Si IGBT 和 SiC MOSFET 两者导通损耗的特点， 其内部 Si IGBT 和 SiC MOSFET 的分流特性如图 3 所示，在负载电流较小时，器件正向导通电流绝大部分从 SiC MOSFET 流过，在负载电流较大时，由于 Si IGBT 的电导调制效应， 器件正向导通电流绝大部分从 Si IGBT 流过，使 Si/SiC 混合器件的导通特性在低电流下呈现为单极性的 SiC MOSFET 低导通电阻特性，而在大电流条件下，整合了双极性 IGBT 近乎于恒定压降特点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHQ1YukAYWzFsJibXf9PKSqInIDHK4pyO6mhB9ytFZLdlJPb7Y3JCsguA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_004_ece49b450189.png)
 
 混合器件门极驱动时序可以如图 2 所示，有 4种基本的门极控制时序，分别可以实现 SiC MOSFET和 Si IGBT 的 ZVS 控制。 由于 Si IGBT 开关速度慢，且有拖尾电流损耗， 单极性的 SiC MOSFET 开关损耗远小于双极性的 Si IGBT。 采用 SiC MOSFET 先开通、后关断的门极控制时序（图 2 控制模式 I），让开关损耗极小的 SiC MOSFET 承担硬开关过程， 可以实现 IGBT 的 ZVS， 从而减小 Si/SiC 混合器件损耗。混合器件两门极开通时序偏差定义为 Ton\_delay，关断时序偏差定义为 Toff\_delay。 文献详细分析了混合器件开关损耗与 Ton\_delay 和 Toff\_delay 的联系。 在母线电压600 V、 负载电流 40 A 条件下测量得到的混合器件开关损耗与 Ton\_delay 和 Toff\_delay 的关系，如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHxiaYn9VPiaiaAtTOFAguxy3VnDOYm64Ze2SkHJQtxXeyuU60X7Kfloktg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_005_60072ed4d7a2.png)
 
 混合器件的总开通损耗随着开通延时 Ton\_delay的增大，先减小后增大，在 Ton\_delay 处于 0 附近，也即两器件近似同时开通时， 混合器件总开通损耗最小，这是因为 2 个器件同步开通，两器件共同承担了混合器件的开通电流，使器件开通的 di/dt 增大，从而减小了开通损耗; 混合器件的总关断损耗随着开通延时 Toff\_delay 的增大，先减小后增大，在 Toff\_delay 处于 1.5 μs 附近时，混合器件总关断损耗最小。
 
 混合器件特殊的驱动模式，与传统并联器件采用同步驱动方式不同， 混合器件内部 IGBT 和 SiCMOSFET 的门极信号需要异步运行，来实现优化混合器件开通与关断损耗的 Ton\_delay 与 Toff\_delay。 传统方案是采用 2 个独立的驱动 ， 并采用辅助 PFGA、CPLD 或者 DSP 来实现这种特殊的驱动模式。 但是，这种驱动方案，将大幅增加混合器件的驱动成本和复杂度，降低了混合器件的整体性价比。 针对这一问题，文献提出一种新型的适用于 Si/SiC混合器件的集成门极驱动，其采用电阻、电容等简单元器件来实现混合器件复杂的驱动模式，能灵活独立调节 Ton\_delay 和 Toff\_delay 的极性和长度， 相比于传统方案，具有结构简单、成本低廉和高集成度特性，其基本电路结构如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH9ibLSgqh70SJ40icgdBLJBtBoNaY8BtOtNOghjxR1kI2P5zicuDaSrrsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_006_3ba9bc1d9a95.png)
 
 图 5 中，混合器件集成驱动主要由 SiC MOSFET驱动支路、IGBT 驱动支路、故障检测与保护单元和后级驱动半桥构成。 其中故障检测与保护单元和后级驱动半桥与常规驱动功能相同，其基本思路为通过调节电阻 R3 来调节混合器件开通延时 Ton\_delay， 调节电阻 R1 的值来实现调节混合器件的关断延时 Toff\_delay。
 
@@ -61,29 +61,29 @@ Si/SiC 混合器件的损耗与混合器件开通延时Ton\_delay 和关断延�
 
 文献在传统功率器件损耗模型基础上建立与混合器件门极驱动延时 Ton\_delay 和 Toff\_delay 相关的热电耦合模型，用以表征混合器件在变换器运行时导通损耗与开关损耗的变化规律， 并基于损耗模型，提出基于主动最优 Toff\_delay 调节的 Si/SiC 混合器件的最小损耗控制， 变换器拓扑为基于混合器件的DC/DC Bcuk 变换器，控制结构如图 6 所示，整个混合器件 Buck 变换器的最小损耗控制主要包含 2 部分： 第 1 部分为传统的变换器输出电压控制器，为简化结构，采用简单的单输出电压闭环控制，根据实际输出电压与参考 电压的偏差 通过反馈调节Buck 变换器的占空比来保证输出电压稳定； 第 2部分为混合器件最小损耗控制器，其根据测量得到的变换器直流电压、负载电流和混合器件壳温通过损耗模型计算得到混合器件损耗，然后通过扰动观测的方式不断改变 Toff\_delay， 实现在不同负载下的混合器件最小损耗控制，提升变换器效率。 如图 6 中所示，变换器输出电压控制器输出的占空比决定了混合器件内部 SiC MOSFET 在 1 个开关周期内的导通时间， 而混合器件最小损耗控制器调节 IGBT在 1 个开关周期内的导通时间， 而由于开通延时Ton\_delay 为 0，即两器件为同时开通，而 Toff\_delay 一直为正，即保证 IGBT 总是先于 SiC MOSFET 关断，所以最小损耗控制器并不改变变换器的等效占空比，两控制器是相互独立的，彼此互不影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHnNORXD4e9t0HjzBBPxpHI7f4wfUJwiasrfYemo2Qtdmicqt4dfFhydeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_007_f294b5e622ff.png)
 
 采用最小损耗控制方法，在变换器负载变化的工况下，测量得到的变换器效率与混合器件结温如图 7 所示，变换器效率由高美功率分析仪 ZIMMER LMG640 测量得到， 变换器负载从 1 kW 增加到 8kW，负载每 100 s 时间改变 1 次。从图中可以看出，采用最小损耗控制方式时，能够实现变换器的高效率， 但由于较长的关断延时 Toff\_delay 导致 SiC MOSFET 承 担 更 多 的 损 耗 分 配 ， 混 合 器 件 内 部 SiC MOSFET 的结温明显高于 IGBT 的结温。 混合器件的最小损耗控制，其应在器件结温较低的中低负载功率下使用，可以有效降低器件损耗，提升变换器效率。 而在器件结温较高的重负载条件下，该方法易使小芯片面积， 大热阻的 SiC MOSFET 器件过温，降低变换器热可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH44fno8KthLg0iaJfEGFue90KC8EnnQlyq0d3Q4icH6UqCiaQjzxFF5z3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_008_c0be67f9b601.png)
 
 **2.2 Si/SiC 混合器件结温平衡控制策略**
 
 在变换器运行中，由于混合器件内部 SiC MOSFET 和 IGBT 的热阻不同， 且 2 器件在变换器运行中承担的损耗也存在差异，因此两器件在变换器运行中会存在结温差异，而某一个器件过高的结温将增加其在负载波动时过温的风险， 特别是对于 SiC MOSFET，由于其芯片面积较小，热阻比大芯片面积的 IGBT 要大， 承担过多的损耗， 将有可能使SiC MOSFET 的平均结温在负载电流较大的重载下超过其限制结温， 造成器件热失效或者加速器件老化，降低了混合器件变换器的可靠性和寿命。 混合器件平衡的结温对改善混合器件热特性、降低器件过温风险、提高基于混合器件变换器的最大输出功率容量和过载能力方面有重要作用，在实际的变换器应用中，混合器件的结温是随变换器负载和外部环境变化而变化的，因此能够实现混合器件结温平衡的优化 Ton\_delay 和 Toff\_delay 也是变化的， 为了在实际的变换器应用中实现混合器件的结温平衡，从而改善混合器件热特性，提升变换器的最大输出功率容量和过载能力，需要基于混合器件损耗模型，根据变换器负载变化动态的调节 Ton\_delay 和 Toff\_delay 来实现混合器件的结温平衡控制。 文献提出 Si/SiC 混合器件在 DC/DC Buck 变换器应用中的结温平衡控制策略，控制结构如图 8 所示。 首先根据测量得到的变换器直流电压、 负载电流和混合器件的壳温，基于损耗模型计算得到混合器件内部 SiC MOSFET 和 IGBT 的结温，然后计算 SiC MOSFET 和 IGBT 的结温偏差 ΔTj，将结温偏差 ΔTj 与给定的参考结温偏差 ΔTj\_ref 比较，将误差值作为 PI 控制器的输入，从而反馈调节关断延时 Toff\_delay 的长短，改变 SiC MOSFET 和 IGBT 的损耗分布，最终使 SiC MOSFET和 IGBT 结温平衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHreXticbRQyLmyZribyj9XvS9EsYglK3EdLAsRTB6Pq1CkG5t8iafBWfew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_009_987bb3f6536b.png)
 
 采用该混合器件结温平衡控制方法，在变换器负载变化的工况下，测量得到的变换器效率与混合器件结温如图 9 所示。 从图中可以看出，当采用结温平衡控制时，混合器件内部 SiC MOSFET 的结温和 IGBT 的结温始终保持在平衡状态。 混合器件的结温平衡控制， 其更适合于在重负载工况下使用，可以显著降低混合器件的最高结温，提升变换器最大功率输出容量和改善混合器件过载能力。 但在结温较低的中低负载下， 相比于最小损耗控制方法，结温平衡控制方法会牺牲小部分变换器效率，以使混合器件内部两器件的结温平衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH9zxBnKFhuwLfXduOK4ia8yLribf2icKZcVJBZ5Liaasib37ox7WD64Zybew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_010_e53784b92747.png)
 
 **2.3 基于损耗模型的 Si/SiC 混合器件多目标优化控制**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHc6YjGYKZIZVmJfqFtJUVsj6icXIlKG6biburic8ChBGZTU9iat9233UF0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_011_497855fcb2f8.png)
 
 为结合混合器件最小损耗控制和结温平衡控制各自的优点，文献\[20\]提出一种基于损耗模型的Si/SiC 混合器件多目标优化控制策略， 其主要思想在于， 当混合器件的结温处于安全范围之内时，混合器件采用最小损耗控制模式，从而减小混合器件总损耗，提升混合器件变换器效率；而当混合器件结温较高时， 混合器件采用结温平衡控制模式，以降低混合器件结温，并避免在混合器件负载波动的情况下由于混合器件结温不平衡而引起的混合器件内部某一器件提前过热的风险，同时增大混合器件的过载能力，其控制结构如图 10 所示。采用混合器件多目标优化控制方法，在变换器负载变化的工况下，测量得到的变换器效率与混合器件结温如图 11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHgJh7u0LQNKcCq8F2ibVSoGDian7Ya7hBshSpPYQkM8X68O8f8f9N6uzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_012_0286a47c494f.png)
 
 从图中可以看出， 当负载功率低于 8 kW 时，混合器件最高结温低于结温阈值 Tj\_H， 混合器件处于最小损耗控制模式以实现混合器件变换器的高转换效率；当输出功率为 4 kW 时，混合器件的峰值转换效率为 98.15％； 当输出功率增加到 8 kW时，混合器件的控制模式从最小损耗模式转换到结温平衡控 制 模 式 ， 在 结 温 平 衡 控 制 模 式 下 ，SiC MOSFET 结温下降，IGBT 的结温上升，以实现 2 个内部器件之间的平衡结温， 同时避免了 SiC MOSFET 的提早过热风险，并且实现转换器的最大输出功率从8 kW 增加到 9.5 kW。
 
@@ -95,27 +95,27 @@ Si/SiC 混合器件的损耗与混合器件开通延时Ton\_delay 和关断延�
 
 混合器件内部 SiC MOSFET 的电流大小选择，将直接影响混合器件的导通损耗、开关损耗、热阻和短路能力等，这将直接影响混合器件变换器的效率和热特性。 文献选取如表 1 所示的 3 种混合器件电流配比来分析电流配比对混合器件的导通损耗、开关损耗和短路特性的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHjAevjgKZibMd6zMr70yKx8EicallkNEks42Upym2UhibzFpbozLWcGAAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_013_0665d1139e4d.png)
 
 （1）导通损耗。 首先，分析电流配比对 Si/SiC 混合器件正向导通特性的影响。 当混合器件正向导通时， 负载电流将被并联的 SiC MOSFET 和IGBT 自动分流，而在不同的电流配比下，由于 SiC MOSFET的导通电阻不同，其分流特性也有差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHN3N2bQ2JeIsC2In0hnN9oePII67tC8cv5wVLzcXFHUhEpzhn4XUWnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_014_98c2a8ad2b0a.png)
 
 从图 12 中可以看出，随着电流配比的增大，在同等负载电流下，混合器件中 SiC MOSFET 分担的正向导通电流越大，这主要是由于 SiC MOSFET 的导通电阻是与配比成反比的关系。 电流配比对 Si/SiC 混合器件正向导通特性的影响如图 13 所示，可见，Si/SiC 混合器件的正向导通特性随着电流配比的增加而改善。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHvDzvrGpBMIQsMvP3s1KtMQtGr7XGSCyo3vBX91mxcKAwNWibLTVvD3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_015_bb2d49ae0970.png)
 
 （2）开关损耗。由于混合器件内部 SiC MOSFET的开关损耗随其电流等级的变化而变化，因此混合器件的开关损耗也受其电流配比的影响。 在母线电压 600 V、 负载电流 25 A 条件下测量得到的混合器件在 3 种电流配比下的最小开通损耗和对应的最优开通延时 Ton\_delay，如图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH87TVuQ5VRmZWv9Aic9U61C1mkIYCDMHDrYdDYGXySbUWM2uBuQG6MTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_016_4d2a841a8edf.png)
 
 从图 14 中可以看出， 混合器件的最小开通损耗随着混合器件的配比增大而降低的，而混合器件最小开通损耗所对应的最优开通延时 Ton\_delay 则是随着配比增大而略微增大的，这主要是因为混合器件的开通时间随着配比的增大而减小的，从而使混合器件总开通损耗减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH0OdNCaibnDxOA5HttmCUXPylj2VcQNZCTtP0TkibBv2kZ9IhLqWkr7gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_017_b3f76a763893.png)
 
 混合器件在 3 种电流配比下的最小关断损耗和对应的最优关断延时 Toff\_delay 如图 15 所示， 由图可见， 混合器件的最小关断损耗随着混合器件的配比增大而降低， 而混合器件最小关断损耗所对应的最优关断延时 Toff\_delay 则是随着配比增大先增大然后再减小的。 这主要是因为 IGBT 的分流和 SiC MOSFET的额外导通损耗都是随配比增大而减小的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHHeqaYiaVUUPdjibzvaeGGhPcQvRoCmUVicVqOADORpm4ScOyiblbgjIr8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_018_8c03986d871b.png)
 
 （3）短路特性。 混合器件在 3 种配比下的短路耐受能力和相应的短路峰值电流如图 16 所示，从图中可以看出， 当混合器件配比从 0.25 增加到0.50 和 1.00 时，SiC MOSFET 的短路峰值电流分别从 40 A 增加到 110 A 和 170 A， 更大的短路峰值电流意味着 SiC MOSFET 在短路过程中将承担更多的导通损耗，而 SiC MOSFET 的热阻随着配比的增大而减小， 这是因为 SiC MOSFET 电流等级越高，其芯片面积越大，从而热阻越小，当配比从 0.25增加到 0.50 和 1.00 时，SiC MOSFET 的热阻分别从1.8 K/W 减小到 0.9 K/W 和 0.6 K/W，器件热阻的减小，意味着其散热能力越强。 因此，虽然 SiC MOSFET 的短路峰值电流随着配比的增大而增大，但由于其热阻随配比的增大而减小， 从而 SiC MOSFET的短路耐受能力在 3 种配比下基本相同， 都约为10 μs， 从而混合器件的配比对混合器件的短路耐受能力没有影响。
 
@@ -125,35 +125,35 @@ Si/SiC 混合器件的电热特性与其内部 IGBT 和SiC MOSFET 的电流配�
 
 文献建立了考虑混合器件内部 SiC MOSFET 芯片面积的损耗模型，并基于损耗模型，在综合考虑混合器件在变换器应用中的损耗优化与结温裕量， 提出一种基于混合器件损耗模型的 SiC MOSFET 芯片面积优化选择方法，在考虑混合器件总损耗，确保混合器件在额定负载下器件最高结温低于其限制结温的条件下， 最大限度地减小 SiC MOSFET 芯片面积，改善混合器件的性价比。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHIOKCFlNiavPF3WibCF1ObPkZMTPWLnoOLibLqMJkZ5mIiaUSBSporMyV7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_019_ff1aa8bd1d3c.png)
 
 该方法的优化流程如图 17 所示。该优化方法主要包含以下 3 个步骤，逐步选择出合适的 SiC MOSFET， 使混合器件能兼顾器件总损耗和器件安全运行结温。
 
 步骤 1 先从相应的数据手册提取混合器件的模型参数，对混合器件模型初始化，设定变换器参数，然后计算混合器件在不同 SiC MOSFET 芯片面积，Ton\_delay 和 Toff\_delay 下的损耗和结温，如图 18 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHXf5KrE1LLB7OvofbytVqKheJrRPyEO86q932N4YKIgPicRw7lKTqWgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_020_6b5425c0dc6e.png)
 
 步骤 2 计算得 到的混合器 件在不同的 SiC MOSFET 芯片面积 A、 Ton\_delay 和 Toff\_delay 下的混合器件损耗，可以确定混合器件在不同芯片面积下的通用优化 Ton\_delay 和 Toff\_delay 延时时间范围，当混合器件延时控制在该范围时，混合器件在各芯片面积下都能取得较小的总器件损耗，如图 19 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHibwfnpVbqTHjfeAKWa0xy6qJG0abrlkKxKTJTkbQg9YIJ80JxzyF4Qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_021_e2755f016dfd.png)
 
 步骤 3 结合在步骤 2 中确定的公共优化延时区域，随着 SiC MOSFET 的芯片面积的增大，公共优化延时区间逐渐被包含在结温小于 150 ℃的范围内，当公共优化延时区域的区间刚刚好被包含在低于 150 ℃的范围内时，其对应的 SiC MOSFET 芯片面积可以被认为是优化的最小 SiC MOSFET 面积。 当混合器件内部 SiC MOSFET 选择该面积时，能同时保证混合器件实现较小的总损耗，较低的器件总成本和在额定负载时器件结温处于安全范围之内，如图 20 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHicJkV7ibHQ8SjtW9fgdrFd0OXKzYsZXprfTHBb7wArNFqnAibbLNhlvYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_022_ae646ad54cef.png)
 
 **4 混合器件功率模块设计**
 
 与独立器件相比，功率模块可有效降低杂散损耗，也能够带来更好的散热，特别对于超过 30 kW的中、大功率应用，在功率模块内部实现多芯片的并联， 其效果要好于通过母排并联多个独立器件。文献给出了 HyS 功率模块设计要点和案例，实现了一款 1 200 V/200 A 模块的布局优化。 该模块是桥臂模块，每个桥臂由 1 个 50 A SiC MOSFET芯片、2 个 100 A Si IGBT 芯片、1 个 150 A Si Diode芯片组成。 为降低门极回路阻抗，预留了Kelvin 门极端子，其充分考虑了寄生电感、并联芯片的均流、体积、散热、门极信号与主回路的解耦，并搭建了基于混合模块的无线充电用逆变器实验样机，逆变器开关频率 50 kHz，峰值功率达到 3.4 kW，实验中 Si IGBT 较好地实现了 ZVS，降低了系统损耗，提升了系统效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHGo0vicYjQ1hDbsZGjvoFbR7Oe2bf7xv8NME6NA4TXXcgArwUcoiaBnQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_023_8abafa9eb6e3.png)
 
 混合模块内部二极管的选择对混合模块的性能和成本有着非常重要的影响，对此，本文设计研制了 3 种不同反并联二极管的 1 200 V/150 A 半桥Si IGBT/SiC MOSFET 混合功率模块， 其结构和模块样品如图 21 和图 22 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH44xaRHt3uZH9pIDYwE8mibC2P4hWgklvULxrutGacB7YMyg8QUSvxrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_024_46baeb53308d.png)
 
 3 种模块内部分别采用 Si FRD、SiC SBD 和SiC MOSFET 体二极管作为模块的续流二极管，由于模块内部采用的 Si IGBT 芯片和 SiC MOSFET 芯片是完全一致的，所以 3 种模块的正向导通特性基本一致，而其反向导通特性和开关特性则受其内部不同二极管的影响而呈现差异。 3 种模块的反向导通特性和反向恢复特性如图 23 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHZgeQFJibvQMvgkQ1M9UwiatiaLiaq7w6wJSaFiaOVuHhwhKw6HvStPDmhOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_025_a046db00096c.png)
 
 采用 SiC SBD 作为续流二极管的混合模块的反向导通特性和反向恢复特性是 3 种方案中最好的；采用 Si FRD 作为续流二极管的混合模块，其反向导通特性要优于采用 SiC MOSFET 体二极管续流的混合模块， 而其反向恢复特性则劣于较采用SiC MOSFET 体二极管续流的混合模块， 这是因为SiC MOSFET 的体二极管其反向恢复特性优于 Si FRD。初步性能测试表明，SiC SBD 作为续流二极管的混合模块性能最好，但相应的其器件总成本也是最高的；而采用 SiC MOSFET 体二极管续流的混合模块成本最低，但其反向续流能力较弱，抗浪涌能力较前两种模块弱； 采用 Si FRD 作为续流二极管的混合模块成本适中， 但由于 Si FRD 较差的反向恢复特性，增大了其开通损耗。
 
@@ -167,8 +167,8 @@ Si IGBT/SiC MOSFET 混 合 器 件 结 合 了 SiC MOSFET 的高开关频率、
 
 （2）Si IGBT/SiC MOSFET 混合器件智能驱动的优化设计方法及冗余性研究。 Si IGBT/SiC MOSFET混合功率模块为双门极结构， 混合器件的开关损耗、器件结温、过流能力和故障保护等都与其双自由度的门极控制极为相关。 且 Si/SiC 混合功率模块内部的双器件结构使其在部分器件故障工况下具有冗余能力，能够提升混合功率模块的可靠性与稳定性。 然而，当前常规的驱动方案不能满足 Si/SiC混合功率模块的驱动需求。 因此，对 Si/SiC 混合功率模块的智能集成驱动及模块内部 2 种芯片（IGBT和 SiC MOSFET）的冗余容错机制有待进一步深入研究， 其对工程应用中提升变换器可靠性和鲁棒性具有重要意义。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskXJicOSziau2VPdSibn5Povt1f8KuRrjdP1t0jP0OiaHibI2iakYxmMHiczyvlgnpRYewLlbF9KRQQFVL6Q/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_026_223430db4e67.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_027_7c22e3b9a287.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\湖南大学_Si_IGBT和SiC_MOSFET_混合器件及其应用研究_images\img_028_1241954b1b67.png)

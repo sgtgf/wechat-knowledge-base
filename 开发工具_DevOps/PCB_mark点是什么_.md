@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/tGxRKz6VNHVJaEjNC9KThSArJ1vHhPW64DqCyrR3cw21Lkicuct62un4YGR4XL9NMiayyWia2LxjrvF8mPaNYgNEA/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](PCB_mark点是什么__images/img_002_3e2228ced8ee.jpg)
 
   
 
@@ -16,11 +16,11 @@
 
 **mark点**也叫**基准点**，也叫光学定位点，是贴片机使用时的定位点。由于PCB在大批量生产中为装配过程中的所有步骤提供了共同的可测量点，因此装配中使用的每个设备都可以准确定位电路图案以实现精度，**通过mark点程序员就可以在加载程序后自动设置机器。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWokLSRxIUFIpfGSYcacJ4iaWPNZLlD9E9pibDe1cr0N4gvmwq6agREQMg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](PCB_mark点是什么__images/img_003_8c38cac443b2.png)
 
 mark点
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWvhJ8RcN3Z9JTEQqBHq4OCnwIpF6rYzMJS0liaA5kkkoXyZmCvZP117g/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic)
+![](PCB_mark点是什么__images/img_004_4173414f3583.jpg)
 
 mark点
 
@@ -34,7 +34,7 @@ mark点
 
 **如果我们在电路板上使用mark 点就可以让机器更好的放置组件，准确度更高，而且不依赖机器公差或者人工的误差。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWewDzlH9ibHbwhP8uDDfTkKfsbXH7JsTTicOsM2yo6PicoJCwicyR5zJJxw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_005_d09883d02870.png)
 
 mark点
 
@@ -48,7 +48,7 @@ mark点
 
 不过大多数机器在技术上不会读取放置在 PCB 上的内容，相反，它识别mark 点焊盘的反射。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWQVau8PN4gqAicdlb7Doa1nnVZ9RH2DxzNfFl6HdQ0zQOvfxJ4DpSOuw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_006_ee90cfd09fca.png)
 
   
 
@@ -58,7 +58,7 @@ mark点
 
 全局mark 点作用是单板上定位所有电路特征的位置，用于区别电路图形和PCB基准，是基于三个网络系统的定位，其中参考点位于左下端 0.0，另外两个在在X和Y轴的正方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWacS6rXj40mbbXxjo4dOysph9mMicra9Y93RJq0Lm5FnjYbFd3UeSAAg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_007_45f47a77ef3c.jpg)
 
 全局mark点
 
@@ -66,7 +66,7 @@ mark点
 
 局部mark点主要用来定位引脚多、引脚间距小（引脚距中心不大于0.65mm）的各元器件，辅助定位。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWBkEwwvWwLu7YDIyKQ2CHVUenkMBL9dJ0Y5dFGPz8eajYbvzZey2EsQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_008_0717ce4969d2.jpg)
 
 局部mark点
 
@@ -74,7 +74,7 @@ mark点
 
 作用在拼接板上，辅助定位所有电路功能，辅助定位。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWu1oXlSQIo69VDPcuytNTibfTub3p6veF4ZVmEgz2fkyqUQeY8ow7hqw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_009_7d30939d4954.jpg)
 
 工艺边mark点
 
@@ -112,7 +112,7 @@ mark点
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHW6ChfKl6MhavocHc8pxrmcS2ibicD8ToZbAiau4jctnLcqGw0AnxJA1FIw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_010_22ca7a009982.jpg)
 
 mark点形状
 
@@ -130,7 +130,7 @@ mark点形状
 
 参考点周围应该有一个空白区域，该区域没有任何其他电路元件或标记。空白区域的最小尺寸应为参考点半径的两倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWKbX3tFnMIFPfnf5apibPHWR55AiaQslH1dSVwRhPEnETJPsrNXs6WC8g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_011_0621182aa823.png)
 
 PCB 基准尺寸通常为 1 到 3 毫米，主要取决于制造商使用的组装机器。一些制造商建议在电路板的角处添加 3 个基准点，因为这会提供 2 个角度对齐测量值，并允许贴片机推断出正确的方向。一些制造商会说明具体尺寸，这也取决于制造商使用的装配设备。
 
@@ -142,7 +142,7 @@ PCB 基准尺寸通常为 1 到 3 毫米，主要取决于制造商使用的组�
 
 如果要组装 2 层板，则顶层和底层基准点应位于彼此之上。顶层和底层 PCB 基准尺寸应相同，包括阻焊层开口。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWI01hEGtVunuHA7VNkCXicdhoLcxVxgMwyQNfWBUBbibUAMdcSGwAcSyA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_012_3ba51ed105a9.jpg)
 
 两种常见的 PCB mark点尺寸和阻焊层开口建议
 
@@ -158,7 +158,7 @@ PCB 基准尺寸通常为 1 到 3 毫米，主要取决于制造商使用的组�
 
 避免将基准点靠在 PCB 的边缘，贴装机械通常使用夹具在组装期间将 PCB 锁定到位。如果夹具覆盖了基准点，则问题很严重。可以将基准标记置于距边缘至少 3 毫米的中心位置（建议 5 毫米，可以消除这些风险）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWLW2WMfJ3ygPIfMkXZrHZInYR1G7iaMtZ9Tvd8mwHLtvtVY7KAdONPbA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_013_37551b88fb23.jpg)
 
 mark点边缘距离
 
@@ -174,7 +174,7 @@ mark点 组成由 3 部分组成：
 
 ●侧面的选项文本标签
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWDzeeNdekVb7kHMAeRhsFhvKOKAUYjlADPvhvF7gicgN8V7u61nJ8icRQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_014_860c6e21a9ae.png)
 
 mark点组成
 
@@ -188,7 +188,7 @@ mark点组成
 
 mark点 的布局位置由贴片机的PCB传输方式决定。当使用导轨传送PCB时，Mark不能放置在靠近夹持面或定位孔的位置，具体尺寸因贴片机而异。一般要求如下图 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWU8OicTxSQk4LejgFuP0uXLpFDczIf9LnziaDBCGP9QYYJf4feu8tjib8A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_015_2996c12849eb.png)
 
 区域标记无法定位
 
@@ -206,7 +206,7 @@ PCB mark点 标记应沿着每个小板的对角线放置，如下图 所示。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWJZ0LIe7ce5wq0nzfe12NsKfXWbIFwe8BAS41xpZe0fTpWwH8IlricHw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_016_6d6394559229.png)
 
 PCB mark点位置布局
 
@@ -216,11 +216,11 @@ PCB mark点位置布局
 
 局部mark点 位置应满足以下要求：对于超过 100 个引脚的 QFP 元件，应沿对角线放置 2 个 mark点 ，如图 a 所示。对于引脚数超过 160 的 QFP 元件，应在四个角放置 4 个标记，如图 b 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWp0Gicf2M3YETIFejbficKeN9ucSTM6oRzNlzNreuLXHAnUt5nr6BfZ4A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_017_ec84c6c660e2.png)
 
 局部mark点
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWCwoAbv9LWdic6x8AENS2VHvgXq2bPy0V5NxUnBzGD7qr8WS1JHLFwAQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_018_3e666d2aff71.jpg)
 
 mark点
 
@@ -232,7 +232,7 @@ mark点周围的适当间隙至关重要。**在焊盘周围放置一个开放�
 
 **开放空间的直径应至少是焊盘尺寸的两倍。**因此，对于 2mm 的焊盘，你需要在其周围至少留出 4mm 的间隙区域。间隙区域的形状不太重要；圆形和方形区域是两种流行的设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWNKJgT8vH7lxGhEJOmQjd0Yg7Wh37EtHh699XEem7DSNwMd8cd8EictQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_019_350b8a128739.jpg)
 
 mark点切口间隙
 
@@ -278,7 +278,7 @@ mark点 焊盘需要用电路板其余部分使用的金属完成。（记住，
 
 虽然看起来添加四个点只能进一步提高准确性，但很少有更多的东西可以通过这一点获得。这里的主要缺点是**第四个基准标记会重新引入处理倒置面板的危险**。走这条路线时要格外小心。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWpiaLRblyOLicXUxFmGzZ8jhc3acRB0Qm5deJsh7hTeEbMFTUK2FK66Ag/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_020_2db09382738d.png)
 
 mark点
 
@@ -286,7 +286,7 @@ mark点
 
 **mark 点焊盘**需要是平稳的以反映均匀的图像，**铜标记镀有你选择的任何金属饰面**。电镀和浸渍等工艺在均匀性方面是可靠的，而热风焊料的变化往往更大一些。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWBxjGTu1bEgoQXu5Gr9wxTVSBhUrGgx8pmZ0Nia8JtKiaRN8T2gEibpiaZw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_021_d789962823f7.png)
 
 mark点铜饰面
 
@@ -304,7 +304,7 @@ mark点铜饰面
 
 器件孔接口器件和连接器多为插件式元件。**插件的通孔直径比管脚直径大8～20mil，焊接时渗锡性好。**需要注意的是线路板出厂时的孔径存在误差。近似误差为±0.05mm。每0.05mm为一钻。直径超过3.20mm，每0.1mm为一钻。因此，**在设计器件孔径时，应将单位换算为毫米，孔径应设计为0.05的整数倍**。制造商根据用户提供的钻孔数据设定钻孔工具的尺寸。**钻具尺寸通常比用户要求的成型孔大0.1-0.15mm。越少越好。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWenatMwibBcsW5dYdmt7gpUFFTRN8Sku3QMjDJjVzWs3Y8AtoAECU74w/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_022_39ebff08d477.jpg)
 
 mark点制作
 
@@ -312,9 +312,9 @@ mark点制作
 
 **七、MARK点设计不良实例**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cK6g3Ego1DCFWic8yribkurHWL7ic4icSw1IgDXHXgX45fBhdw1MSkiaagJG4RJoJ1MYD7aQf2sctSAx7w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_mark点是什么__images/img_023_d7a3e80e3df6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB_mark点是什么__images/img_024_d5dcc7ecfdf3.jpg)
 
 ## 
 

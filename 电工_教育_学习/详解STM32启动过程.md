@@ -30,7 +30,7 @@
 
 \\Libraries\\CMSIS\\Device\\ST\\STM32H7xx\\Source\\Templates 在这个文件里面有ST官方为各个编译器提供的启动文件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFrXQZGXWKqmPQWROlhPjntvV7JWn5BHPXLj9BNq9y9Jf3YY0OwxHPiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_002_bd12e0ded20c.png) 
 
 看了上面的截图，大家会问怎么没有KEIL MDK呢？其实已经被放在了文件夹arm里面，KEIL公司已经在2005年被ARM公司收购了。开发板大部分例程都是配套了MDK和IAR两个版本，这里重点给大家分析一下MDK的启动文件分析，IAR和MDK的大同小异。
 
@@ -38,19 +38,19 @@
 
 先来看一下ARM文件夹里面的文件（2018-07-03，当前只有如下两个系列，后期ST会增加新的型号，相应的启动文件也会添加进来）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFYsOWVfibOTZ8GPztib90hoyQVibugGTDIkCVEI64qpMKPpwicsV8Jn32sQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_003_ebc8060b0fd3.png) 
 
 如果是H743系列，就使用startup\_stm32h743xx.s文件，如果是H753系列，就使用startup\_stm32h753xx文件。当前H743和753系列对应的型号如下：
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFjFzumQrdhbibLJlE6VmC6ac04bppsOpyUTRvSRQnvw0ialBAA6iaOYbOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_004_31c8398ba860.png)
 
 我们再来打开IAR文件夹里面的文件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFbgAPIspXoAAp5C0KntbcXq5tQOwGdXAwLMCw9ia2nmkFibYrheaiccqEg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_005_6eeb8f6dba81.png) 
 
 多了一个linker文件夹，用于IAR配置的ICF文件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFIN16QWTNKKJV2vI2r5ZzU7NgOEfPD00Wsev79icyAAQ1sXNeyx1O9Wg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_006_58832e577da6.png) 
 
 而启动文件跟MDK里面的一样，一个是用H743系列，另一个是用于H753系列。
 
@@ -61,12 +61,12 @@
 -    启动 MDK软件，在Help菜单点击 uVision Help
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFibEkZIWU5dozZqkK6xtvwY8pJmUibk1NDaia9zYVvS3icPSoyGgl367TCA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_007_a4347f3bfc6e.png) 
 
 -     点击后弹出如下文件
     
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFVMGSPplUZwKX5qZJ4OMNqSGLuHk9lD6yHANUnhcOeFs7kOuV2LdIxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_008_5fe1d11436ad.png)
 
 在搜索栏输入你需要查询的单词进行查询，然后点击“列出主题”按钮，会将相关的知识点都罗列出来。此功能非常实用，建议熟练掌握。
 
@@ -103,7 +103,7 @@ Cortex-M内核处理器复位后，处于线程模式，指令权限是特权级
 
 CPU 从 PC 寄存器指向的物理地址取出第 1 条指令开始执行程序，也就是开始执行复位中断服务程序 Reset\_Handler。
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFxP7Fp3UMs0rODLrtQoibtNcg534lkTZA0ZKysyvcu49FTAjFhicPeQ6g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_009_38541c1d53df.png)
 
 复位中断服务程序会调用SystemInit()函数来配置系统时钟、配置FMC总线上的外部SRAM/SDRAM，然后跳转到C 库中\_\_main 函数。由C库中的\_\_main 函数完成用户程序的初始化工作（比如：变量赋初值等），最后由\_\_main 函数调用用户写的 main()函数开始执行 C 程序。
 
@@ -173,7 +173,7 @@ ALIGN=3 ：表示首地址按照 2 的 3 次方对齐，也就是按照 8 字节
 
 以MDK为例，就是如下配置选项：
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFdG30QcS9WOUWEb5z5lic9BZrb2yfpj1cvsrS1kV4JwMib8w9mGxN42ibw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_010_ef6f0d50d875.png)
 
 DCD 表示分配 1 个 4 字节的空间。每行 DCD 都会生成一个 4 字节的二进制代码。中断向量表存放的实际上是中断服务程序的入口地址。当异常（也即是中断事件）发生时，CPU 的中断系统会将相应的入口地址赋值给 PC 程序计数器，之后就开始执行中断服务程序。
 
@@ -224,7 +224,7 @@ DCD 表示分配 1 个 4 字节的空间。每行 DCD 都会生成一个 4 字�
 
 第4行：简单的汇编语言实现IF…….ELSE…………语句。如果定义了MICROLIB，那么程序是不会执行ELSE分支的代码。\_\_MICROLIB可能大家并不陌生，就在MDK的Target Option里面设置。
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmF0ice4JEuibibpcYBEzJ4CgHCk9rSVOqiaBgPMD2bc48l0GoZ6IVjuRZB5w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_011_6e6d9101872e.png)
 
 第5行：\_\_user\_initial\_stackheap将由\_\_main函数进行调用。
 
@@ -237,13 +237,13 @@ MicroLib是MDK里面带的微库，针对嵌入式应用，MicroLIB做了深度�
 
 更多相关知识可以地址：http://www.keil.com/arm/microlib.asp。另外注意microlib只有库，没有源文件。下图是标准库和微库生成代码的比较。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFXQcpm8LicrsRmOoH70ibwNBIxib7hhCE9D2icHBLRNXknAFNbyHMmOtYBw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_012_0a4b7664d8df.png) 
 
 ## 4 BOOT启动模式
 
 相比F1，F4的启动方式，H7的启动方式更灵活些，只需一个boot引脚即可。但是一个引脚只能区分出两个状态，为了解决这个问题，H7专门配套了两个option bytes选项字节配置，如此以来就可以方便设置各种存储器地址了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFCEoj7yDic8iccWXMxnibibzbMdN1sFkylhpDmM5d31VUerJUXibkoLUAvmw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_013_a999809f6784.png)
 
 BOOT\_ADD0和BOOT\_ADD1对应32位地址到高16位，这点要特别注意。通过这两个选项字节，所有0x0000 0000到0x3FFF 0000的存储器地址都可以设置，包括：
 
@@ -266,7 +266,7 @@ BOOT\_ADD0和BOOT\_ADD1对应32位地址到高16位，这点要特别注意。�
 
 作为对比，这里补充F1，F4的启动方式，由BOOT0和BOOT1引脚共同决定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2XHPsAWGHTEZJE1XialzLDmFIjLtNa2j4RB2O7cXO5rP5Sp4rb4ibq7dIPDz2yRXWmoGED8uS8PpvIw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解STM32启动过程_images\img_014_966d3fb51aa4.png)
 
 ## 5 总结
 

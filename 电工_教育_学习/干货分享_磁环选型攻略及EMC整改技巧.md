@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9W5Z5UiaDnkphc4sZltjymxCbBBBl0DiaALYJd071YY9GMvyAQNWvuGyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_002_96cae4507c64.png)
 
   
 
@@ -32,19 +32,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9IVL3iceoicQzCF4eDET1Ua13pAgpOGUuqYtyuvCI5aQ3yGv7fEE7VpzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_003_5016bc019b94.png)
 
 图1 显示屏VGA线
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9EmoX4s7z8tVtn0vfkFgJXqPNZkrQj9EYCQGUUBOibIJ9R2t3IdWZ8MA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_004_b320d7e2abf7.png)
 
 图2 适配器连接线
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA99JR4CpI0jZDWicxZibnGc8gqnFgn7GDguzoDqZvnzeB4D0ickhl1GbMDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_005_52160ae0861e.png)
 
 图3 USB通信线
 
@@ -68,7 +68,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSFG4613hbH5W35KISggZiaephnkhj625hULosIiaiblrl6OEDibj4n9ibKFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_006_6b5920501472.png)
 
 图4 磁环等效电路
 
@@ -80,7 +80,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSeKdClcgup3FTRKzTibqHaibbmEOHXNSIFlz9NdnFy90sxPADVhDAUVPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_007_132a3c282e89.png)
 
 图5 磁环的阻抗曲线
 
@@ -90,7 +90,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSkkW4eqq8z0liataLXgLJJ39lfZ2DgkFyW7ke5Gp80y1bGPZ6yPiaezlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_008_bfe9ac48cfec.png)
 
   
 
@@ -120,7 +120,7 @@
 
 锰锌铁氧体磁环材料的磁导率一般在1000以上，被称为高导磁环。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSL50VPXn3FJerVyREibDEda0j6L6D9xOtpHwozNGryIIeItpmAdRHzsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_009_02829db7b87d.png)
 
 图7 锰锌铁氧体高导率磁环
 
@@ -134,7 +134,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9g8g2lGFrrb8hsVutf3PHOcbFl9wYFFyLN8p4SV6ib6A8p6ko9iaty2lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_010_eab82c121457.png)
 
   
 
@@ -158,7 +158,7 @@
 
 铁粉芯环用两色来区分材质，常用有-2(红/透明)、-8(黄/红)、-18(绿/红)、-26(黄/白)及-52(绿/蓝)        
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhXRLNnTAoMEfcAtzlV1RNUFia61rU52czQtAnxDxo5ZqXB0y3ZpaUI5X3vE1wfy3rToS2P8wSoo7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_011_907e2fdedce1.png)
 
 图9 铁粉芯磁环
 
@@ -168,7 +168,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9XHln6KtrlgtqCNcGg44S8viatdsYk8icLAHtpZbZcNVicvWDFQjoOQyvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_012_e091fc8b0e98.png)
 
 图10 差模电感
 
@@ -194,7 +194,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9yRLuBbcM7tH4vjjjkSY3KYiawlCicQSCIpMoRk1ibgGsx9VicQsuQr7urw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_013_d847b89baa6e.png)
 
 图11 铁硅铝磁环
 
@@ -230,7 +230,7 @@
 
 相比锰锌铁氧体磁环，非晶磁环磁导率更高，通常10多K甚至几百K，磁导率非常大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9BPicbsIf8G6RmaVSp48Bw0ibCDSqPlzWkL1z5zFcZqR0WyCwLH6yBmsg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_014_fa6b2a00b7e7.png)
 
 图12 非晶磁环
 
@@ -268,7 +268,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9vne7rtWKLT4MuUYQriczc0kHYxUvq4PUjNxOicWQFjdFFWcWuAyneSgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_015_74a943a07f3f.png)
 
 **图13 不同内径大小的磁环**  
 
@@ -294,7 +294,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9CmG4xtVcqPeBRnLOUIJTJFFn4CmaKstfIgmcTzpSPRHuicFhR3m4hPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_016_7b6f27b6260d.png)
 
 **图14 磁环套在源端**
 
@@ -338,7 +338,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9sibyTFF3Cdib0WmBEaJXiaBUNMnGMf89R7ibeSliboLBldicVCAHKuXG8Qkw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_017_75288d9b1bf8.png)
 
 **图15 电源的两根线（正负）同时穿过一个磁环**
 
@@ -362,7 +362,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9PEp0qsJiarHE8ZdlFjJHlKOmo4zCXicqpQ2f0WBEdBSa8RHjuN3U8f7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_018_1633e0551b56.png)
 
 **图16 磁环绕匝**
 
@@ -406,7 +406,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9jeklNYUiazgFqbs9ibggEgcLEEmQ0EBv916JoC9FSkf5yDCstibibRWicNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_019_a31a42e0d0a5.png)
 
 **图17 扎带固定（然后将磁环固定在设备上）**
 
@@ -436,7 +436,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6icW8IyOlMPcZ8kzSoTvjozDf6JtDl3u4oRLCjKPBvK8hPxkfuqnXYwNMiarPwnormrnJOFicLVibwic28mXU1yBzuQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货分享_磁环选型攻略及EMC整改技巧_images\img_020_e1c20a010a70.png)
 
   
 

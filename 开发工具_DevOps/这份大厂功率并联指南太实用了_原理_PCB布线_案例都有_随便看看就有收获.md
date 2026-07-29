@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/EoxiZfkjVAZJhP7eDsDKbQ](https://mp.weixin.qq.com/s/EoxiZfkjVAZJhP7eDsDKbQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_001_cfc30a4da041.gif)
 
   
 
@@ -12,7 +12,7 @@
 
 这两份资料在官网都能下载，咱们公众号文末也准备了获取方式，有需要的朋友可以随时去拿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibo3BMQ0QrxubXPpElbFYWUmEkVfSUmHCX5eyA89Ie1Pia4XfGyQhrFBA/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_002_99a4e86503a0.png)
 
   
 
@@ -22,7 +22,7 @@
 
 现在做电源产品，功率密度越做越高，就像手机一样，体积没变大，功能却越来越强。有时候单个器件确实扛不住太大的电流，这时候并联就成了很自然的选择。多个器件一起分担电流，既能降低导通损耗，又能控制温升，整体效率自然就上去了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibtlVT4SNEbPKib2jJfjbgNvXz1QdKX2nOzcJTyZEPjx4BARlhepp25Dw/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_003_9b98ab90d6f7.png)
 
 不过这里要提醒一句，并联可不是简单地把几个管子接在一起就行。**最大的挑战就是均流问题**。大家可以想象一下，几个人一起抬东西，要是有人出力多有人出力少，那个最卖力的肯定先累垮。器件并联也是同样的道理，如果几个管子开关不同步，有的早开有的晚关，损耗就会集中到某一个器件上，时间一长就可能热失控。
 
@@ -40,7 +40,7 @@
 
 为什么呢？因为阈值电压小的管子会先开通、后关断，在开关过程中就会承担更多的电流，损耗自然也更大。而且问题会越来越严重 - 温度越高，VGS(th)还会进一步下降，形成恶性循环。这就要求我们在选型时要特别注意器件的阈值电压一致性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibPjySmOWAOv7a2MUQNUgjQun9WDSOpQg2SHag8L9Tf0dW7CL0b96y2g/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_004_581f74916da5.png)
 
 ### 2、RDS(on) – 导通电阻
 
@@ -48,7 +48,7 @@
 
 王工点评：“**RDS(on)这个特性算是管子并联的安全带，不容易出现热跑脱。**”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibVa18XQIoSicVpoIf8MMHlAufNpWu0oYPEKvSc3r9Q9TBKtY6YcsF0qA/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_005_174da1a8356d.png)
 
 ### 3、Gm – 跨导
 
@@ -56,7 +56,7 @@
 
 不过好在Gm随温度升高会下降，这也是一种自我平衡的机制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibJ1dgtJ5E3T6693XnicP5Kgky4JrMhWygYLmNIWTXibZGYR4mia9GgaXFQ/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_000_2bacf5d9b070.png)
 
 ****二、Layout设计技巧****
 
@@ -66,25 +66,25 @@
 
 首先是共源电感的问题。CSI是驱动回路和功率回路共用的那段电感。它在开关过程中会产生反向电压，拖慢开关速度，增加损耗。我们的对策很明确：尽量缩短功率回路，驱动回路要独立走线，避免共用路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibMIER1UowK51vzcicaFEhPwZLM7R93jcEafsmqz6YI9JdzjlTIZpXTfw/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_007_98465322d177.png)
 
 ### 2、功率回路
 
 功率回路的设计也很关键。在高频应用下，寄生电感就是隐形杀手。建议大家：瓷片电容要尽量靠近GaN放置；功率回路要尽可能小，最好在第二层做回流，实现磁场自消除；并联器件的Layout必须对称，打孔数量要保持一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibSI59hVG5SnMrOHxjRYmdaB6dTmp5Qndib9ky4ib63PuR5dQbAM3bJefg/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_008_ad90f70fdbae.png)
 
 ### 3、驱动回路
 
 驱动回路的设计相信大家也会特别重视。驱动电阻要尽量共用，保证驱动一致性。栅极电阻要靠近Gate引脚，这样才能有效抑制振铃。建议使用**开尔文接法**，它能把驱动回路和功率回路分开，显著减小CSI的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQib3CB6Vk00pKASUM2UkhZhSUVuomMqPxqPU4HNOGQF0zjZ6qeiclDDFMQ/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_009_6d76bc73ca7d.png)
 
 ******三、实战经验分享******
 
 文档里给出了一个很典型的小功率PFC并联案例，采用两管并联，工作在65~100kHz。这个方案通过对驱动参数的精心设计和layout布局的严格控制，实现了最优的并联效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibZk0h21UnDjcOhfyXoYg8W4gZIX9QzNlmNL5yibfaf74KpCBC7OVXLSQ/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_010_b7536fa1dd0d.png)
 
 王工补充：“**在实际调试中，我们发现在驱动端加个小电阻（比如10~20Ω）靠近Gate，能有效抑制振铃，效果很明显。**”有经验的朋友可能已经用过了，还没试过的下次可以试试看。
 
@@ -98,9 +98,9 @@
 
 两份文档都从共源电感、功率回路、驱动回路这几个核心要点出发进行阐述，这里就不赘述了，但大功率应用对细节的要求更加苛刻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQiboJcyZhf3sXdx0mbFEdDla1OSvbJKQ94BZTgiac80icx9TGMcjkT3xjZA/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_011_ab3694819370.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQib1rXou7Ribs5bsNERicY3pQmp7ajgbcibtefVBYaM7ZjkeaX90wpK7icmtg/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_012_960510be6c3f.png)
 
 **文档里有个亮点：预留汇流条位置。**  
 
@@ -110,13 +110,13 @@
 
 文档中分享了一个前级PFC用两颗INN650TA030AH并联的3kW电源案例。测试结果显示，两颗管子的壳温非常接近，这说明均流效果相当理想。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibgDic85gFghrIQLsu1rFAtSRbpJ4XsDuzJclLiab6e2TmktxYI9qlAmTg/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_013_a8a163388bee.png)
 
 文档从实战角度分析：“这个案例成功的关键，就在于它严格遵循了上面说的Layout原则。你看它的PCB图，功率回路对称紧凑，驱动路径清晰一致。大功率设计，有时候不是方案多新奇，而是**把这些基础的设计要点执行到位，系统自然就稳定了。**”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibzmDBxh7CwbsrwTpV66jEyfPGibOPRZWdys2ngDxvvBm72DXA7B6GYEw/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_014_acd32ae7d0d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQib8aRIYjAxRxZCx94aLuMohPfLjnqt1WbgvzHhWVNH5LsYHgwI3VHtuQ/640?wx_fmt=png&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_015_3b632cb5edd5.png)
 
 在实际项目中，我们经常面临无法实现完美对称的情况。这时候就需要有所取舍。王工认为优先级应该是这样的：
 
@@ -146,10 +146,10 @@
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibvhXVFEyxribuWiakF90BuicoVFNhtR4XqBhWqvOqDdhlTYUA2CbSZdq4Q/640?wx_fmt=jpeg&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_016_2c8a7903c751.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIiaWkkSC1G9UZ1UnWKZXQibcfo8gZUoLqTOxDHX9t1PPh3jFWsBQLDAAyYEgVBrZzm4OHYFBvYKFA/640?wx_fmt=jpeg&from=appmsg)
+![](这份大厂功率并联指南太实用了_原理_PCB布线_案例都有_随便看看就有收获_images/img_017_7c4e5cf73891.jpg)
 
 注：本资源仅用于学习交流，请勿用于商业用途。

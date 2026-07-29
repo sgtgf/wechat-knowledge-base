@@ -10,7 +10,7 @@
 
 摘要：功率半导体器件是电力电子系统中的关键器件。目前市面上主流的功率半导体器件有绝缘栅双极 型 晶 体 管（insulate-gate bipolar transistor，IGBT）、 金 属 氧 化 物 半 导 体 场 效 应 晶 体 管（metal-oxidesemiconductor field-effect transistor， MOSFET）、碳化硅（silicon carbide，SiC）等，并且其设计逐渐向大功率、高电压发展，此时设计一种稳定可靠的驱动电路就显得尤为重要。分析了 1ED34x1Mc12M 驱动芯片的各项参数，并以该芯片为核心设计了驱动及保护电路。该电路可用于驱动及保护 IGBT 和 SiC。实验结果表明，该驱动电路输出功率大、稳定性好，可以满足 IGBT 和 SiC 驱动的实际需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLmPs6o3Z1WicKFZegItpfGzzbnaACMwWdRE6EDe0uj5f51j0mYZqIDpA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_000_3c191870f9fa.jpg)
 
 关键词：1ED34x1Mc12M 芯片；驱动电路；绝缘栅双极型晶体管（IGBT）；碳化硅（SiC）
 
@@ -26,7 +26,7 @@
 
 1.1 电路系统组成
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLLl15cXkwWMBk4FrDkq4K5OcKibcVkIXZrZ52yL0cKYV6sCZFveRmaZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_001_a7195c0b46cf.png)
 
 驱动电路原理框图如图1所示，由 1ED34x1Mc-12M 驱 动 芯 片、 数 字 信 号 处 理 器（digital signal processor，DSP）控制板和半导体功率器件组成。
 
@@ -50,7 +50,7 @@
 
 1ED34x1Mc12M 系列驱动芯片由隔离的单通道栅极驱动器 IC 组成，通过两个简单的电阻即可调整各种参数，如去饱和检测的滤波时间、前沿空白时间和软关断电流水平等，这些参数可以从低压输入侧进行调整。所有逻辑输入 / 输出（input/output，I/O）引脚都与 3.3 V 或 5 V 供电电压相关，与互补金属氧化物半导体（complementary metal-oxidesemiconductor，CMOS）兼容，并且可以直接连接微控制器。1ED34x1Mc12M 芯片功能框图如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLJGJNdX0bgrgjk40wZv6C2grLsgQgp0Lt7zZzDicCPyx6a91LMHibhZ3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_002_34a12ba4555f.png)
 
 2.2 驱动电源设计
 
@@ -66,17 +66,17 @@
 
 电源开关期间栅极电阻存在功率损耗，此时栅极驱动器 IC 内部的功率损耗也较大。每个封装都可以在不超过最高结温时，在一定的工作条件下达到最大功耗。栅极驱动器 IC 的内部功率损耗 POUT计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLz3bNt5BNK8iaMYcSd92X10dlqiciax2NeibJXRQ2eWAoxQw0BCzRXUvu3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_003_91487ff27eab.png)
 
 式中，PQ 为驱动器输出级的工作功率损耗，Psource为导通损耗，Psink 为关断损耗。
 
 可以通过 VCC2 与 VEE2 引脚之间的工作电源电流 IQ2 和电源电压 VCC2 计算 PQ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLVrdTO9hcUqZ4yg5n7kBOxJRCqTwZGayOoF6GFL666jib4r7zmJM6W4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_004_6fc8eccf147f.png)
 
 可以使用内部栅极驱动器电阻 RDS 和外部栅极电阻器电阻 RG 之间的电阻分压器以及总栅极电荷QG 和开关频率 fsw 来计算 Psource 和 Psink：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLb7hMxCrMDsYIZXeSLHYqJlNn3UgKetibcIMeNcyfXfGWFDrw8E05HRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_005_252503db907e.png)
 
 式中，ON、OFF 分别为开通和关断，source、sink分别为开通和关断状态下的功率。
 
@@ -98,7 +98,7 @@ IN 输入控制门极驱动 IC 的输出，当 IN 置于高电平时，功�
 
 IN 输入电路设计图如图 3 所 示， 当 RDYC为 高 电 平、SO 信 号 为 低 电 平 时， 系 统 准 备 就绪 可 正 常 启 动， 输 入 的 PWM 信号首先经过SN74LVC1G14DCKR 芯片，该芯片是一款具有施密特触发功能的“非门”集成电路，可实现数理逻辑运算。其采用先进的 CMOS 工艺设计，该设计具有低功耗和高输出驱动能力，它可以将边沿变化缓慢的周期性信号变换为边沿较陡的矩形脉冲信号。当输入电压由低向高增加到一定阈值时，输出电压会发生突变。施密特触发器可以对波形整形，消除波形畸变、振荡现象和噪声，增强系统的稳定性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLiaSzD2pdib6o7W6eTeOPerVBagSpkp4KVLgpISjF3QhLwZp0ODQtZh8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_006_d72390d46978.png)
 
 2.4 驱动电路输出端设计
 
@@ -106,7 +106,7 @@ IN 输入电路设计图如图 3 所 示， 当 RDYC为 高 电 平、SO �
 
 驱动器输出电源电容位置的设计规则是尽可能接近 IC 的电源引脚 VCC2 和 VEE2。电容值需要足够大，以限制电源开关导通期间的电压降。电容 C的计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLryhkzW0BczgKdAPDyxVjC0oNP6JHAic1PZ7pZsv02ufkE2slCrlGnLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_007_492d62aa350d.png)
 
 式中，IQ 为门极驱动器的供电电流，tp 为开关频率的周期，∆Vcc 为电压变化最大允许值。20% 的附加裕度涵盖了电容和门极电荷参数的典型公差。
 
@@ -114,11 +114,11 @@ IN 输入电路设计图如图 3 所 示， 当 RDYC为 高 电 平、SO �
 
 2.4.2  IC 输出电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbL8Sa6Yb8mVWQgichDSjIWzk4IhhwvciaXrtCXF6FrI3gHWHwzePFqAkDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_008_3c83126ce222.png)
 
 IC 输出电路设计图如图 4 所示。其中，门极驱动电阻的大小影响功率模块的开关损耗以及开关时间、短路安全工作区、反向偏压安全工作区等，在驱动电路设计中，门极驱动电阻的选择非常重要。门极驱动电阻 RG 的计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbL2M8YNM4sia8Q6lmpvK7QVSM0doyzvyyBETS3GvEXOhBBFUTonVpHjtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_009_d2fa684ff665.png)
 
 式中，VG（on）为正偏电源电压，VG（off）为负偏电源电压，IGM 为门极峰值电流，RG（int）为模块内部电阻。
 
@@ -136,10 +136,10 @@ IC 输出电路设计图如图 4 所示。其中，门极驱动电阻的大�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_010_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_011_0fc2146c10d8.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC与IGBT的驱动电路设计_images\img_012_3a3df320c8e4.png)

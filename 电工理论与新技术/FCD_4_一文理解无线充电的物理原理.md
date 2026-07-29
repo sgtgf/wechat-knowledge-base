@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8d1jkAZ\_K\_AX9r5YoLeDgQ](https://mp.weixin.qq.com/s/8d1jkAZ_K_AX9r5YoLeDgQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRCTxWUeibrP54IOCgxuJXUdxZejo2lGklCqzrSgVTCB3vv5FLJFYek5mFiajqbC1qsxRiauibBPHQqfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_4_一文理解无线充电的物理原理_images\img_000_9207e1bfeda2.png)
 
 ________**★★★**______________Charge-1---无线充电原理______________**★★★**________
 
@@ -13,13 +13,13 @@ _____€1.电磁感应方式_____
 
 电磁感应方式是利用送电侧与受电侧之间产生的感应磁通量来传输功率，是普遍的无线供电方式，优点是电路结构简单，效率高，可以做到小型化且成本低。缺点是传输距离短，容量受位置偏离的影响，必须一对一，精准对位才能充电。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5Ptu0Cgp3dib2ZgKXPKnamwOlGwZIa78IPJpqzDLibBZJCxyiak5Xia9xqjBaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_4_一文理解无线充电的物理原理_images\img_001_dca66b37f4d3.png)
 
 **_图4-1：电磁感应方式原理图_**
 
 电磁感应方式遵循法拉第电磁感应定律，法拉第电磁感应定律，是在消除磁通量变化的方向上产生感应电动势，如_**图4-1**_，简述即交流电生成变化的磁场，变化的磁场切割线圈再生成交流电。方程如下：其中ΔΦ/Δt是极短时间内穿过线圈的磁通量的变化率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRCTxWUeibrP54IOCgxuJXUdCAwJgNv9QBj56TwLlKdyqtBg2PwL2IQicur8ncO0hnd6w4xBGJjQdiaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_4_一文理解无线充电的物理原理_images\img_002_277b712587d0.png)
 
 线圈初级侧供给交流电压时会产生磁通量，为消除这些磁通量，次级侧产生感应电动势。次级侧产生的功率可以用给设备充电。用于送电初级线圈侧称为发射器，受电次级线圈侧称为接收器。
 
@@ -29,7 +29,7 @@ _________€2.磁场共振_____方式____
 
 如**_图4-2_**所示，磁场共振在充电器和设备之间的电场和磁场中传输电能，线圈和电容器则在充电器与设备之间形成共振。利用磁共振耦合收发端的磁场同频共振来隔空转移能量，当我们用一个射频能量来激励发射端时，会在发射端周围的空间产生一个功率场，在这个场中的任意位置处任意时刻的磁场和电场之间呈正交关系，并且在相位上相差1/2π，而且磁场强度远高于电场强度，这个空间电磁场它可以储存能量，但合成的电磁波功率流密度为0，不会传输任何能量，也就是说这个场不会向外辐射，也不会向内损耗，当我们将具有同样谐振频率的接收端放置于这个场内时，收发端之间就会产生同频磁场谐振，能量从发射端以磁场的形式耦合到接收端，从而实现能量的空间转移。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuibMaPjBXYtIEia1zPKKuIlkAy64DsRNat9DMT4bMsh5zacbLO0oHTNGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_4_一文理解无线充电的物理原理_images\img_003_e203fecc2395.png)
 
 **_图4-2：磁场共振方式原理图_**
 

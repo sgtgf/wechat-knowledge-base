@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/-e0qk0f8H6ND39qWWPOhUQ](https://mp.weixin.qq.com/s/-e0qk0f8H6ND39qWWPOhUQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWXtbaCZ4lWtj85RUYw1BAF4R0EffJiaaP2qB1gbSbtCmjffwGdnXzYrdzTgEwJlJwRvFt5HOaXwBA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660350&idx=1&sn=fe9aaf1bdaf3cc301fa376a394bbff60&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_001_22436ae276dc.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660350&idx=1&sn=fe9aaf1bdaf3cc301fa376a394bbff60&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_002_e532dba355d8.gif)
 
   
 
@@ -17,7 +17,7 @@
 
 FOC——磁场定向控制（Field Oriented Control）通常称为“矢量控制”，是通过控制变频器输出电压的幅值和频率控制三相交流电机的一种变频驱动控制方法。通过测量和控制电机的定子电流矢量，根据磁场定向控制原理分别对电机的励磁电流（Id）和转矩电流（Iq）进行控制，从而将三相交流电机等效为直流电机控制。通过坐标变换，将三相静止坐标系转化为两相旋转的坐标系，从而使三相交流耦合的定子电流转换为相互正交、独立解耦的转矩和励磁分量，达到类似于他励电机直接控制转矩的目的。实现FOC的原理框图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVfibiaj0P3mJd5HelVxuA55bIfBJpWuZZbLNZ60Hhouib5AicrG0gX6Ic2MAhCMfJaS6wOBdgf5ZApvA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_003_f406107f12ab.jpg)
 
 FOC最主要就是通过控制电流和角度来实现，电流来自相电流采集之后的解耦，通常情况下，使用FOC控制方式的电流采样大致有以下几种：
 
@@ -33,17 +33,17 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 实现带霍尔FOC方案的另一个要素就是角度估算器（无霍尔时为角度观测器），矢量控制需要连续的位置信号，需要对角度进行细分，如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfibiaj0P3mJd5HelVxuA55b1JbOdpmvRqpSV2nevmEYrFdAKKC9QZQjqb1fR5UxcmlmkTmRDn0FaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_004_60ca22ee92de.png)
 
 每个60°电角度hall扇区角速度可以通过公式求出，在下一个hall的扇区，可以通过角速度对时间积分求得角度的变化，进而实现对位置和速度的估算。
 
 空间矢量调制（SVPWM）是现在比较常用的一种比较新颖的控制方法，是由三相功率逆变器的六个功率开关元件组成的特定开关模式产生的脉宽调制波，通过伏秒平衡的原理，控制定子磁链按照正弦变化，同时也能使输出电流波形接近于理想的正弦波形。通过对采样电流的处理和角度一起构成发波，可以基于SVPWM通过控制功率器件的开关，使输出的波形接近正弦最终实现FOC方案。整体控制系统方案如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfibiaj0P3mJd5HelVxuA55b5PcEvWMicWtWGE9CFEuiaAz9MYibzFExm2OOWje0psHAMhBVn8Pib059Wg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_005_3af13fdcf964.png)
 
 基于大家对永磁同步电机控制在实际工作生活中应用实现的迫切需求，下月6-7日，我们再次邀请西莫电机圈技术团队电控领域负责人丛凤龙总监倾力打造新一期永磁电机控制培训——“永磁电机控制原理及方案开发实践”研修班苏州站：培训从矢量控制基本原理讲起，一步一步教大家深入理解FOC和SVPWM，通过详细讲解电流采样和角度估算器等大家关心的内容，基于一个使用霍尔位置传感器的童车方案做FOC的实现精讲，并通过一些视频及波形图片给学员进行详细解析。欢迎大家扫描下方海报中二维码报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWpDMueHaqLCq7kpWXH8XmeaILZ1oKEvNTfmUuffLjTtkhZvNkGy1lH0CpbhJ2RFzJsMRYlpsr0GQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_006_351ffba304d9.jpg)
 
 欢迎对永磁电机控制有迫切学习需求的朋友扫码海报二维码报名，关于本次培训的详细情况介绍如下：
 
@@ -53,7 +53,7 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 **授课背景**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_012_9b9b3cfb4d60.gif)
 
 本课程是专门针对电机控制软件、硬件、测试、技术支持等相关人员量身打造的一款技术培训课程。对于从事电机控制专用MCU芯片服务相关的人员有很大的帮助。本课程尤其适用于从事电动工具、电动自行车、风机控制、水泵控制、智能家居等行业的电机控制技术人员。
 
@@ -67,7 +67,7 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 **课程简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_011_9b9b3cfb4d60.gif)
 
 课程内容由四大板块组成，每个板块都有详细的实际案例解析，也会提前介绍相关的理论知识、硬件设计要点、软件实现详解等，在每个模块的最后部分都是实际应用案例的详细解析，多数是基于锂电池电压平台开发，课上学员们就可以互动调试，可以根据讲解的参数修改说明适当修改，通过示波器实际观察波形：
 
@@ -86,7 +86,7 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 **授课老师**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_007_9b9b3cfb4d60.gif)
 
 **丛凤龙**，从事电机控制十余年，在行业内有较高的专业威望和学术造诣，理论基础扎实，参与主导完成过电动自行车控制器、电动工具控制器、风机类控制器，汽车散热风扇，汽车水泵，汽车油泵，座椅通风，天窗控制等方案的开发，量产经验丰富。拥有多项电机控制算法的发明专利及多项控制器的实用新型专利。西莫电机圈技术团队电控领域负责人。
 
@@ -96,7 +96,7 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 **授课对象**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_009_9b9b3cfb4d60.gif)
 
 ◆ 电机控制行业软件工程师、硬件工程师、测试工程师、技术支持工程师、服务工程师、销售工程师、项目经理等；
 
@@ -108,7 +108,7 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 **课程收获**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_014_9b9b3cfb4d60.gif)
 
 通过本课程的学习，可迅速使自己电机控制专业理论和实际操作技能得到跨越式提高；对行业新手，可快速入门进入工程技术人员角色，胜任简单的电机控制技术工作，熟悉相关软硬件的设计流程。
 
@@ -116,15 +116,15 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 **课程大纲**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_010_9b9b3cfb4d60.gif)
 
-可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVsamZ4dsTLNvL3MBkyicws18ABLuTjTJMxzMqs5NDa0A3YMzza8bwib4Kib2gf3DlrOK1uQUISFs3yg/640?wx_fmt=jpeg&from=appmsg)
+可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_013_d12d342ccb67.jpg)
 
 **07**
 
 **增值服务**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_008_9b9b3cfb4d60.gif)
 
 ◆ 西莫会员报名享8折优惠，全日制在校学生凭学生证享5折优惠，培训后皆可领500积分用于论坛学习资料的下载。
 
@@ -142,7 +142,7 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 **培训课程费用及报名**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn6nzJsTjulCOiaHqgHb8f13njr79J3xEQOAez9ZTAdp6PMETMQTaeDB8KLk7JfkicbqhTjLEfJLbYcw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_015_9b9b3cfb4d60.gif)
 
 ◆ 标准费用：**3980**元/人，含专业培训教材、证书费。食宿可统一安排，费用自理。
 
@@ -152,18 +152,18 @@ FOC最主要就是通过控制电流和角度来实现，电流来自相电流�
 
 ◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWXtbaCZ4lWtj85RUYw1BAF109Fza1siccagmcDHu7Z6XFj1PccfjqUfAialvD33T12sViaybb5x9Gug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_016_bcd542a4a52f.png)
 
 其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_017_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPiavn2jldxicGaJkQLkEmt2WAOyhvT07Uf5lrAZha8l3NFCme7RC4tJCcS90NfhOyb9Liaok96VSCA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660426&idx=1&sn=20e3d0db0596feba8248f55168646a5a&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_018_a2b5083970ac.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660426&idx=1&sn=20e3d0db0596feba8248f55168646a5a&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIU7nicrB8bYfhk0AzZDoibIc5dYfkc1hM1tjSWBUxNErxicXRUDw7mibSQJmKd6P0kD2Fc33SQj0EnicbA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660438&idx=1&sn=37ec4dfeb7236093fc2038450dfed2e9&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_019_c08475c763b2.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660438&idx=1&sn=37ec4dfeb7236093fc2038450dfed2e9&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV7lEBfnoEz6D5uMDaAqCcUVvVYDG7JqgPyRhT5uMNpcbknLQb9XGUoSpnjN3hicq90HoicicX9PJyXQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660414&idx=1&sn=80585e205cb64c2bf6632be600bb2550&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660414&idx=2&sn=48a9a7280b8cd0a162359ce5204c6822&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_020_c7dd7f3ba0c4.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660414&idx=1&sn=80585e205cb64c2bf6632be600bb2550&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_021_96b548e7fe70.png)[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_022_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660414&idx=2&sn=48a9a7280b8cd0a162359ce5204c6822&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIX5IZ5EfbxCHNTylYV1jX16sqL1FFONmPTQztF7TCMibx8VJoPwelDf4wPjMeBqAQNo6Lib4XNib2UWA/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_023_395bd872dfe1.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\永磁同步电机控制太难_深入理解FOC是第一步_images\img_024_64bd90de404b.png)点击**阅读原文**，直接报名参加本次培训！
 
 ****觉得好看，请点这里↓↓↓↓****

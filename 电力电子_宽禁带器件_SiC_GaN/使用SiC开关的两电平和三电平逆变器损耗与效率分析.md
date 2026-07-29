@@ -26,15 +26,15 @@
 
 逆变器的损耗一般可以分为开关器件损耗和无源器件损耗。开关器件损耗又可分为金属氧化物半导体场效晶体管(MOSFET)损耗PT和反并联二 极管损耗PD。PT主要包括:通态损耗PT,con、开通损耗PT,on和关断损耗PT,off。开通损耗PT,on和 关断损耗PT,off之和称为开关损耗PSW ,即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSHXaSw68gCAzlvPl6uibCwuZsWC994O8EIZgGMMWxGMVwBMaUkGibO00g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_000_7b6f64247259.png)
 
 反并联二极管损耗PD主要包括:反并联通态损耗PD,con和反向恢复损耗Pr,即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMShmDzsl9vWDUgYxcGdGvaZNKMOPS5NpibUkJPfRXHQUrvF0yxOxOFdNA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_001_2c88be3c497e.png)
 
 无源器件损耗PLC主要包括滤波电容损耗PC和滤波电感损耗PL,故总损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSTdgHwDvxbgILW9iaLZzP83Bo8abK4M1NCn6sAfPXpxmbicJGSJjZ1iaKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_002_1b16629b5ad7.png)
 
 文献\[18\]对滤波电感的损耗进行了分析,本文不再进行讨论,仅对开关器件的损耗进行讨论。
 
@@ -42,31 +42,31 @@
 
 碳化硅 MOSFET 的通态电压可根据器件数据表提供的电压饱和特性曲线得到,其饱和压降VT和通态电流IC的关系为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSVmlEPWib21tr6JgB5avoqqDL0icWugaKNeG8Lz5CIOHfg3G2ibQwPk1jA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_003_c530343964fb.png)
 
 式中:RT为MOSFET的导通电阻;VOT为MOSFET初始饱和压降。
 
 碳化硅MOSFET的通态损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMS7uHGsp2taMPORFC81neRKE6pAlpM672FvJgkibMDuqka5RibGg0XoeQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_004_05710a380323.png)
 
 式中:fo为调制电压频率;τ(k )为第 k 个开关周 期时间占空比;IC(k )为第 k 个开关周期平均负载电流;p 和q 分别为器件在一个调制周期内开始工作和结束工作的采样周期;Ts为开关周期。
 
 碳化硅 MOSFET 的开关损耗可以通过利用二次函数 ESW (IC(k ))拟合器件数据表中的开关损耗曲线来计算,即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSEZia1hUg84q9icB026se0CzKibDglQcJDQKw0sNrP6iaTEjibahQdzqcqJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_005_e3ef27a3aad5.png)
 
 式中:aSW 、bSW 分别为函数系数;cSW 为常数。
 
 碳化硅二极管忽略反向恢复损耗,因此二极管的损耗就等于其反并联通态损耗,即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSrYVTSicImZlrKOXtJwL3netM4C2iaEGufH7KfFwIC8XQYrkjhxEYzy1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_006_5fd6191f392b.png)
 
 式中:RD 为二极管的导通电阻;VOD 为二极管初始饱和压降。
 
 一般认为当开关频率较大时,离散的损耗表达式可转化为连续的积分形式,此时,式(5)—(7)可分别改写为式(8)—(1 0),即:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMS6o2qFruMR9XIJVUhvcMs35c7w1zk2HGxy34R7kkGm4Aiaz3zUc7Yibvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_007_6e211a21e2f5.png)
 
 式中:D(θ)为调制函数;θ1—θ6为与器件的具体导通情况有关的相位;θ 为调制函数的相位;fSW为导通频率;IC(θ)为电路调制时的负载电流。
 
@@ -74,43 +74,43 @@
 
 1.3两电平逆变器损耗分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSPDqyrE4xViafDNHO9DXLMLucSwmtH1JhibKibUbG6QCh32wX6D0rtBzIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_008_ef83696cdd8d.png)
 
 两电平逆变器拓扑如图 1 所示。其中,ua、ub 和uc分别为逆变器输出的三相电压,ia、ib和ic分别为逆变器输出的三相电流,Udc 为直流侧电容电压,T1—T6 为绝缘栅双极性晶体管,D1—D6为二极管,C1和C2为直流侧电容,R为电阻,规定图中所示的电流方向为正方向。
 
 由于三相电路三个桥臂的损耗相同,为便于计算,对图1中的 A 相桥臂进行损耗分析(如图 2 所 示)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSmYxHHWDRvBxYtCNCoYbEQ2anoQwkyibd1M2Zg627fOeCQtq0HnZzEfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_009_06454ebeb0e0.png)
 
 当电流为正时,若T1开通,则电流由C1 流 过T1 ,逆变器输出电压为正,若 T1 关断,则电流由 C2 流过 D2,逆变器输出电压为负;当电流为负时,若 T2 开通则电流流经T2到C2,逆变器输出电压为负,若T2关断,电流将流经D1到C1 ,逆变器输出电压为正。
 
 根据负载电流和输出电压的方向,可以将一个工频周期分为四个区域:Ⅰ、Ⅱ、Ⅲ和Ⅳ,如图 3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSHKChMJhtpwjBTudyGOkSudVKNc0IhK5Qy8YhfaFeJjaYI4elyvyydw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_010_5a3e92f56519.png)
 
 参考调制电压和负载电流分别为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMS3rBM1h4e7sIKakYUn3miaRicercSv88QXVj6wta4xJfNptuxUJ8YpiaUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_011_cdb8c6294c32.png)
 
 式中 Im为负载电流最大值。
 
 文献\[19\]中第2 章阐明了空间维数脉冲宽度调制 (SVPWM),SVPWM可以近似采用空间脉冲宽度调制(SPWM)方法中正弦参考调制电压加入三次谐波来等效,因此在SVPWM 方法下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSn7AkvRVeOozHAOkumpBPCLia7LhHDGvqLfm4fPgd66tTPibmgicvdiaARg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_012_338a12b0ee6f.png)
 
 式中 h 为调制度。
 
 将式(11 )—(13)分别代入式(8)—(10)中,可以得到T1的导通损耗和开关损耗及D1的导通损耗:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSklHUm334SNwfprbia1Ric7sJXUstjCnp2BDCFQ4tV7CYgA2lRVhKj2ag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_013_ab7caabe4a82.png)
 
 由于上下桥臂对称,两电平逆变器功率器件的总损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSXibbThvt1jlPMjlicpvz4ZsBiaYg3LUyJh6sCwFJb1A4KX0hPvsbjRN7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_014_6049d1e04186.png)
 
 1.4三电平逆变器损耗分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMS1Z3XYml4N6jzWuXqPeBcicMibUPLAuv6xoV1YNCtt9g5icD2Rs6iamYSDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_015_5df87624a766.png)
 
 二极管钳位三电平逆变器,又称为中性点钳位型三电平逆变器, 其拓扑如图4 所 示。 其中,T7—T12为绝缘栅双极性晶体管,D7—D18 为二极管,规定图中所示的电流方向为正方向。
 
@@ -118,19 +118,19 @@
 
 在图5(a)中,ia 为负(参见图 4),即 ia 流入变流器,当输出正电平时D1和D2导通,而当输出零电平时T3和D6导通;在图 5(b)中,ia为正,即 ia 流出变流器,当输出正电平时T1 和 T2导通, 而当输出零电平时D5和T2导通;在图 5(c)中,ia 为正,当输出负电平时D3和D4导通,而当输出零电平时D5和T2导通;在图 5(d)中,ia 为负,当输出负电平时T3 和T4 导通,而当输出零电平时T3 和D6 导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSkDk1FtV6icO433CnCO8fDoKmTqRfWgxj5HFljQkEId42VRW4crzCyFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_016_a222c67e8272.png)
 
 同样地,图 6 给出了三电平逆变器电流、电压一个工频周期内四个划分区域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSRNa1Dyia8FgMzmRrdXibNIlzVtKgnSartlsJicgZAVxUPSyNKpzmTS4ibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_017_f210cc3e5ef7.png)
 
 器件T1、T2的导通损耗PT1 ,con、PT2,con 及开关损耗PT1 ,SW 、PT2,SW ,器件D1 、D2、D3的导通损耗 PD1 ,con、PD2,con、PD3,con分别表示如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSEQaLHRtyjxD3BUCeqtKXUPeafUsgNXuNKhPmMhGUib9Eafp7zicWc8WA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_018_3de3dcb3d1a7.png)
 
 由于上下桥臂对称,三电平变频器在SVPWM方法下的总损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSakzruepDiaOXyMJOa68z9W4SMLCyVJxARxvlvTI1Ww9KFKVZenvCoicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_019_808d0e18e8fe.png)
 
 2.损耗比较
 
@@ -138,27 +138,27 @@
 
 根据上述计算公式,用MATLAB 软件可算出三电平和两电平逆变器在相同给定应用件下的损耗和效率。三电平逆变器所用的MOSFET型号为SCT3060AL(650V/39A),两电平逆变器所用的MOSFET型号SCT2080KE(1200V/40A),工作温度均为 25 ℃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSmT5xTYKpeKEs9Ih6Ef6oEkJHVSYsWSuXqUt08BIHw2kN4oV7SFiaWXw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_020_e6e0a8b945fd.png)
 
 表 1 给出了在调制度 h 为 0.5,电流有效值I分别为15A、20A、25A和30A的情况下,两电平和三电平逆变器的总损耗Ptotal。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSx3KQrzBnYSlpCI4j8V0VAoUDxuteKw4vQuuUhibSk3wTLpibaBesP7zQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_021_6599901e8061.png)
 
 表 2 给出了在调制度 h 为 0.5,电流有效值为 20A,开关频率分别为50kHz、1 00kHz、150kHz、200kHz、250kHz和300kHz的情况下,两电平和三电平逆 变器的开关损耗 PSW 、总损耗 Ptotal及效率η。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSroHgVicnAAV6deGYEss5zdme3SCeicqM2U3V4LfYCKmp7zdXNOhGmOJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_022_681c47fcbc03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSFibGwhfrFK42mpzIfMyJHnoDhr5QGGNcLbkTGiaj85VWZFYL1EGjFgdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_023_f67691877331.png)
 
 图 7 对两电平和三电平逆变器损耗进行了比较。
 
 在图 7(a)中,三电平的开关损耗比两电平小,且随着开关频率的升高,三电平和两电平的开关损耗相差就越大,原因是三电平拓扑中每个功率管只承受一半的直流电压,而两电平拓扑中每个功率管要承受全部的直流电压。如图 7(b)所示,三电平拓扑的导通损耗比两电平拓扑大,且随着逆变器功率P的增大三电平拓扑的导通损耗相比于两电平拓扑导通损耗的差额越大,这是因为三电平拓扑中电流流过的功率器件数目多。图7(c)为逆变器总损耗比较,可以看出三电平拓扑逆变器的总损耗比两电平的小。如图7(d)所示为逆变器效率比较,其中,三电平逆变器的效率比两电平高,且随着开关频率的升高,三电平的优势越大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMS3dXnUhxrR3ReaZ2FJg8VlQA4e4H0I8TGaia1cPNJMazg1DaNIh11RTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_024_31d297e0d09e.png)
 
 表3给出了三电平损耗、效率与负载阻抗角φ的关系,其中,开关频率为100kHz,调制度 h 为0.5,电流有效值为30A,负载阻抗角φ 从\-150°变化到180°。可以看到:三电平损耗和效率是关于 0°对称的,且随着cosφ的减小,它的总损耗增大、效率降低;而且,二极管通态损耗随功率因数的减小而增大,MOSFET的通态损耗随功率因数的减小而减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSTOm5bjDRZXAg363Ievsmck868NaNDoQGRlLjjWTXpvSPtHTzOZuGVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_025_c7a225ea34c6.png)
 
 表4给出了三电平损耗与调制度之间的关系,其中,开关频率为100kHz,电流有效 值为30A,负载阻抗角为 25°,调制度 h 从 0.1 变化到0.8(在此不讨论过调制的情况)。从表 4 可以看出,三电平总损耗随着调制度的增大而增大(开关损耗不随调制度变化而改变),而二极管的通态损耗随调制度增大而减小,MOSFET的通态损耗随调制度增大而增大。两电平与三电平的逆变器损耗类似,在此不作赘述。
 
@@ -168,13 +168,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_026_875cfd880e2a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_027_80c1919ac080.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用SiC开关的两电平和三电平逆变器损耗与效率分析_images\img_028_4b1c1961598f.png)

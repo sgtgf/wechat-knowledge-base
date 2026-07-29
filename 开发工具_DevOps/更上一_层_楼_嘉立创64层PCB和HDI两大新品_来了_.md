@@ -10,21 +10,21 @@
 
 另外，嘉立创面向硬件创新领域的个人和组织，推出了自主研发的云ERP工具。该工具凝练了嘉立创每年交付千万笔订单的管理经验，沉淀了行业know-how，以及丰富的国产工业软件矩阵自研技术经验，覆盖人、财、研、产、供、销、存等“开箱即用”的端到端管理单元，并且接入嘉立创电子及机械产业链一站式服务生态，以加速工程师、企业尤其是中小企业的创新效率。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZvGLUia5AcXzzEKWwwnHxeoF77Aia7d4Eic5glrX1aibtX6mCmz6Cy3BvWiaA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_000_5185ab27f326.png)
 
 在AI技术浪潮席卷而来的当下，硬件创新的速度与效率已成为制胜关键。以机器人行业为例，产品设计往往需要在电控系统、结构件、算法验证等多个环节同时推进，涉及PCB打样、元器件采购、组装调试等环节，一旦任何一个环节出现延误，整体研发周期就会被拉长。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZvXjSlbcxfQP4Sv2TngohqSaaeuHf3YEtb3B1ozZ1VvwSyXKXmdjD7WA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_001_38f46f1f6b9d.jpg)
 
 此外，在机器人设计过程中，工程师需要根据测试反馈迅速调整电路或结构，传统分散式供应链模式往往难以支撑如此高频的验证与小批量生产需求。成本与时间的双重压力，让“快速响应而又高可靠”的制造配套成为整个行业的刚性需求。
 
 展会现场，嘉立创通过电子及机械产业链一站式服务以及设计制造国产化工业软件三大业务板块，呈现了一个产品从概念验证到量产上市的全过程，并在现场首发了包括316L与钛合金TC4在内的两款全新3D打印金属材料，为机器人结构件的快速成型与轻量化设计提供了支持。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZv3eskNhjkiaRCjRiapeiaZqjXwNicnFpick1H8EW1gTj6PL2Go2carc7l27w/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_002_71fa021bae2c.jpg)
 
 工程师只需带着他们的创意与设计蓝图，即可实现“拎图入住”：从电路设计到电路板打样，从元器件贴装，到CNC加工到外壳定制，一个产品的“硬装”与“软装”环节均可在嘉立创在线平台一站实现。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZvB8mSeynCpgQs656lG1edEjhgllRzyoPbaWpRd08iayMQNFiaicrNDdNpQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_003_5eaaa5b3c759.jpg)
 
 今年，宇树机器人在总台春晚一炮而红，其灵活的身段背后，是一次次高效的设计、验证、反馈、迭代的闭环。其机器人从早期原型开发到量产，背后正是由嘉立创提供了PCB打样、元器件贴装等一站式服务，仅仅用了3个月时间就完成了5次版本的升级以及若干样品验证。
 
@@ -32,31 +32,31 @@
 
 为全面加速机器人验证落地，嘉立创在近期发布了“机器人一站式服务平台”。以嘉立创EDA、ECAD、Forface 3D等工业设计软件作为机器人智能硬件的创新基座，配合以PCB、FPC、SMT为代表的电子制造能力，以3D打印、CNC机械智造、钣金加工、机械/电气商城为代表的机械制造能力，以及以立创商城为代表的供应链能力，能够为企业提供从零部件到整机的全链条服务。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZv58kQVSpwqibme2QjwL9E9Tcaic5PLwuS7JoSqjbicibZFUQiacRfHhzoMhw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_004_0e7af1285d3d.png)
 
 **在展会现场，嘉立创举办“先进设计 触手可及”主题沙龙，重点发布两大核心技术突破：**一是正式量产34至64层超高多层PCB，二是即将推出1至3阶HDI（高密度互连）板。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZv9FA3OCsQpdJqicaJ8lW3YiccU5xDcXzG0yStFMHpDJiaxrqzYlwNJBmMQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_005_676aba3a2738.jpg)
 
 其中，34至64层超高层PCB以最高5.0mm板厚配合高达20:1的厚径比，能够满足超复杂电路集成与高密度布线的严苛需求。并且在线路精度方面实现重要突破，最小线宽线距可达3.5mil，并全面采用Tg170高耐温基材，在信号完整性、散热性能与结构稳定性方面表现突出，可广泛应用于高端工业控制、航空航天、5G通信设备、医疗电子、服务器、交换机、数据中心等高性能场景。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZvJrPC7L1ScDVUeOGKTHt0MuyGCtFLRSknwnQ6aTRRUmz9dtYlkL4XHg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_006_477c9466354e.jpg)
 
 服务上，嘉立创依托智能化制造体系，将样板交付周期压缩至10–15天，速度领先行业约一倍，同时凭借技术优化使产品价格较同类降低约50%，为高端电子研发与制造提供了兼具性能、速度与成本优势的PCB解决方案。
 
 与超高层PCB配套落地的还有0.1mm机械微钻孔技术，作为高多层板精细化生产的核心难点，该技术不仅要实现微米级钻孔精度，更需攻克过孔电镀良率低的行业痛点。对此，嘉立创引入行业领先的水平沉铜与脉冲电镀工艺，通过工艺参数优化大幅提升过孔导通可靠性，同时突破微孔厚径比限制，既能满足高密度PCB对微小过孔的集成需求，更能助力客户压缩终端产品体积、实现轻量化设计。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZvBxxAuewlEibclE8zxpbmrkTnY0ObPw5zfKoicF3W7miabaAAuszWpcV2Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_007_393799b6a586.jpg)
 
 此外，即将上线覆盖1至3阶的HDI（高密度互连）板服务，通过激光成孔工艺突破传统机械钻孔局限，将最小孔径精准控制在0.075毫米，仅相当于一根普通头发丝，并采用了生益科技的S1000-2M高性能板材，既能满足智能手机、可穿戴设备“更轻薄、高集成”的设计需求，为笔记本电脑压缩内部电路空间，也能适配ADAS高精度雷达的快速信号响应、5G基站与高端路由器的高速数据处理需求。
 
 发布会不仅收获了现场观众满满的热情，更在线上收获了近4万人次观看量。一位工程师看完发布会后表示：“过去总觉得超高层PCB和盲孔埋孔这类工艺是大公司的“专利”，今天嘉立创把这些高端工艺变成了每个工程师能用、好用、放心用的服务，直接把门槛搬走了，对我们来说是实实在在的支持，以后做高端硬件创新也更有底气了。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZvIIiaDSzUQefzrRyUBjsibJx56KibDDIIzIycHKpg4eycXvsaIibyaHeHgA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_008_dd1de59ddedf.png)
 
 嘉立创深耕电子行业近20年、年订单量超千万笔，沉淀了丰富的生产经验管理经验，并在近日与海信、蒙牛、华为云一同上榜“中国企业管理最佳实践榜”。在展会现场，嘉立创依托自身多年的工业软件自研技术，将经过市场验证的实战经验全面软件化、云端化，推出了面向中小制造企业的“嘉立创云ERP”。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/nYMv6M7nQzOltU3iaFCYYozWTkoS35yZvI3o36jus9hMyJY8ibxicqYJVlzju9KPTsUMQ75cTQyl2CY938Eb02vvg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_009_d9647fbe4e78.png)
 
 “嘉立创云ERP”涉及销售管理、项目管理、生产制造管理、库存管理、AI智能辅助、人力财务管理等全流程模块，还提供适配电子行业的BOM管理、MRP运算、工艺路线规划等精细化生产管控，更能够通过自动化核算和多维可视化报表，助力中小企业实现业财一体化。
 
@@ -70,4 +70,4 @@ _**END**_
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/nYMv6M7nQzOcYic4zQt3oyqdib2emenCKCSpsrFdruJ4Y1sBOiaM1iaSwplg5o8QwkAiczicLN34vmBdGC4XiclDsWObw/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic#imgIndex=12)
+![图片](更上一_层_楼_嘉立创64层PCB和HDI两大新品_来了__images/img_010_bbe902bb8a32.gif)

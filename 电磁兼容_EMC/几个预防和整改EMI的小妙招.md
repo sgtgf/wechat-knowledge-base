@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj7Tp8rAkEIDByNF8jOHodo8GMJxiakicO9F0xicvFajia1BKyLgBpn9IMBJkND9nWMp2rahpUgReVhfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\几个预防和整改EMI的小妙招_images\img_002_ff8ba232aead.png)
 
 ****a****1MHz以内
 
@@ -34,7 +34,7 @@
 
 可以采用加大对地Y电容、在变压器外面包铜皮、改变 PCBLAYOUT、输出线前面接一个双线并绕的小磁环，最少绕10圈，在输出整流管两端并RC滤波器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjj7Tp8rAkEIDByNF8jOHodogCicXTZQvs9nNicceFfYU8nMotQZNeIJGbExssHbo6uOnVsuW6y74W4g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\几个预防和整改EMI的小妙招_images\img_003_ef52e64045f9.jpg)
 
 ****f****30MHz～50MHz
 
@@ -98,7 +98,7 @@
 
 ****22****不要把AC插座与初级开关管的散热片靠在一起。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\几个预防和整改EMI的小妙招_images\img_004_2f89f10270c8.jpg)
 
 ## 
 

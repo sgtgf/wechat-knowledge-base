@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tL7WxMmbDN9PhWZwkfEct1iacibwcgPKMvMuR6thb26UWh4kDmGdzM7ITqKrXsRnibED7I2WibWjhbsLA/640?wx_fmt=jpeg)
+![](半桥电路之MOS管关键参数计算_images/img_000_00ff3f60439b.jpg)
 
 MOS管选型需要满足几个要求：
 

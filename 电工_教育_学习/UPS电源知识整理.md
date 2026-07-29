@@ -12,7 +12,7 @@ UPS，就是不间断电源。通常是弱电机房工程子系统之一，是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepcqTPHUzlVPpGcU3Q7Sp8V3V99ribHPF99T8jjiatfkg1uEaqUoIVKP4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_002_311bfa30b504.png)
 
   
 
@@ -32,7 +32,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 
 利用电池化学能作为后备能量，在市电断电等电网故障时，不间断地为用户设备提供（交流）电能的一种能量转换装置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepAB0019l7ETw44y6dicgwfjuPEKGr4rRIhlqlDoG82g6NeleInVrCGaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_003_0e87d7dc8388.png)
 
   
 
@@ -44,7 +44,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 
 市电电网提供的电力供应，看上去正常，可是不可靠:表面正常的电力，实际上危机四伏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepGKNNNNPlU65Jwu6OG8Pd5rgwSctYVUFkE3CicuoofWiaEvTZz9iaqJTibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_004_0491bf237ecf.png)
 
   
 
@@ -95,7 +95,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 
 **UPS系统结构**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepUCerVxfpnFx7of0SdEL4TnsNAEtDTdj90qoW1xx2YMnMPibgNoMZInA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_005_02a8c21b7453.png)
 
   
 
@@ -105,7 +105,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 
 监控平台也是UPS的最重要组成部分之一
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepT2Xj1XsWBmuSNuUh15Vzgf5FeZR3xzIe3h9ibc73pD2xrZSKs1Cwa9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_006_f10abd358baa.png)
 
   
 
@@ -228,7 +228,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 
 缺点：如整个设备不能保持同地线，易引发干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepBUJVXoUZ3InSZH7libKfRwzfAibnk3OXdAGzj1UH2Oh6SrCJKPicREL5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_007_60e092e0bc8e.png)
 
   
 
@@ -258,7 +258,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepRxqgonMFcCTf0FIOmyoAeAlT8Ut2PGK5wOf4tWVposiaM3ZrAoDzbTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_008_a30c82a2c996.png)
 
   
 
@@ -320,7 +320,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 -   是应用最为广泛的方案。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepWEzoZ7L0cpX0YicFWqmZ4YKzXehEk3wDvnzcL3oNqVibdfH99qqJhJeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_009_9a4664cda453.png)
 
   
 
@@ -348,7 +348,7 @@ UPS 设备通常对电压过高或电压过低都能提供保护。下面我们�
 
 5、多台并联时，旁路也需增加“均流电感”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/QGdTFs3UHdic8wg66IWAJLEaQuanAoCj4gSv01cMlsF8hUy9ZlMeLTHntRoczHo6PQyUU0AiaibgQdQcOuTDwFgsQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\UPS电源知识整理_images\img_010_c9150954fbbf.png)
 
 **双母线：**
 

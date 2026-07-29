@@ -12,7 +12,7 @@ MOS管学名是场效应管，是金属-氧化物-半导体型场效应管，属
 
 **其结构示意图：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm0nfnibuLCqlibBO3HPiakXxibgWfX4TVaJibrQ7lQ2iaFHxEOYMAkdJdeatcQ/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_002_c76e89f4ec61.jpg)
 
 **解释1：沟道**
 
@@ -130,11 +130,11 @@ MOS管即金属氧化物半导体型场效应管，属于场效应管中的绝�
 
 及上述相同的栅极制作过程，就制成为一个P沟道（PNP型）增强型MOS管，图1-2所示A 、B分别是P沟道MOS管道结构图和代表符号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm0VOUicJPgtcu6QdoQ83qsOrcibWBZdLujSa6vO2BkJmfQ08skGfJUVp1g/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_003_f3cf770a6412.jpg)
 
 图1-1-A            图1-1-B
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm04egEd1icc81wEia3iaNibkqqjOEtjL5Y9ibk3iccwZK1wKMe6qh7LHR1E18w/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_004_345343efa8c6.jpg)
 
 图1-2-A              图1-2-B
 
@@ -142,11 +142,11 @@ MOS管即金属氧化物半导体型场效应管，属于场效应管中的绝�
 
 图1-3是N沟道MOS管工作原理图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm0fz2XDkMdaGdr5DHkCHk2YU35bQicwbrUsbad5Zm6ZByiaibAhVDeMibhxw/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_005_464056e65f9e.jpg)
 
 图1-3-A 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm0O8c8c16hHAY8rRiaUMtnLjumFpnZa4wWogTeC12nFTVrARKNlaD0rDg/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_006_cd1098c59226.jpg)
 
 图1-3-B
 
@@ -187,19 +187,19 @@ MOS管应用电压的极性和我们普通的晶体三极管相同，N沟道的�
 
 同样P道的类似PNP晶体三极管，漏极D接负极，源极S接正极，栅极G负电压时，导电沟道建立，P沟道MOS管开始工作，如图1-5-B所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm0CwUGjOtp6QO5NiaEJ2q3WdrpOsUeF9BOdvU1RFNmWfLibwO9cvXdic1Ug/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_007_e4ccbd31102a.jpg)
 
 图1-4-A N沟道MOS管符号  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm0TwwtIDfAOaEBQesklstRv1ssZicQUNUgibNFWS7JqU6gAa8iaiatUfDbicw/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_008_8a9fc6145aeb.jpg)
 
 图1-4-B N沟道MOS管电压极性及衬底连接
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaicQwI1P5th5smzRgEKvmm0rfTMV3X29pyhLOaDr8SicaUxXGiaJ7UC8trVBGKIoibP1C1TomsZVJQQw/640?wx_fmt=jpeg)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_009_db3009ae857e.jpg)
 
 图1-5-A P沟道MOS管符号    
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMqb2h33hzKS3BQMoLSOoqdXu2xCgoR0sukuw3Xe3UWsymmib6Ckgr1fg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_010_1db3286924b2.jpg)  
 图1-5-B P沟道MOS管电压极性及衬底连接
 
 **5、MOS管和晶体三极管相比的重要特性**
@@ -208,7 +208,7 @@ MOS管应用电压的极性和我们普通的晶体三极管相同，N沟道的�
 
 图1-6-A所示是N沟道MOS管和NPN型晶体三极管引脚，图1-6-B所示是P沟道MOS管和PNP型晶体三极管引脚对应图。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhM1R91sys6rBTUayicQ9BHpuggz901seiafmicq5yMHibup2xn5gdEgvMBog/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_011_cc34fff348a9.jpg)  
 图1-6-A 图1-6-B
 
 **2.** 场效应管是电压控制电流器件，由VGS控制ID，普通的晶体三极管是电流控制电流器件，由IB控制IC。
@@ -285,14 +285,14 @@ MOS管具有和普通晶体三极管相反的温度～电流特性，即当管�
 
 如图所示，在图2-1中A方波为输入端的激励波形，电阻R为激励信号内阻，电容C为MOS管输入端等效电容，激励波形A加到输入端是对等效电容C的充放电作用，
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMx5M6mTWia5ZV3AYj1g4pd4TFia0b6TkDlwCYwaHFTjw9iaR5KFOxHKnVA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_012_52d037456558.jpg)  
 图2-1
 
 使输入端实际的电压波形变成B的畸变波形，导致开关管不能正常开关工作而损坏，解决的方法就是，只要R足够的小，甚至没有阻值，激励信号能提供足够的电流，就能使等效电容迅速的充电、放电，这样MOS开关管就能迅速的开、关保证了正常工作。
 
 由于激励信号是有内阻的，信号的激励电流也是有限度，我们在作为开关管的MOS管的输入部分，增加一个减少内阻、增加激励电流的灌流电路来解决此问题，如图2-2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMsmG1d6Nf02HEm4WPQicZ2tI2aruG4aYrsE1CTwBRgNviciaTMQGvjl6SQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_013_dbcc83b57ecf.jpg)  
 图2-2
 
 在图2-2中，在作为开关应用的MOS管Q3的栅极S和激励信号之间增加Q1、Q2两只开关管，此两只管均为普通的晶体三极管，两只管接成串联连接，Q1为NPN型Q2为PNP型，基极连接在一起（实际上是一个PNP、NPN互补的射极跟随器），两只管等效是两只在方波激励信号控制下轮流导通的开关，如图2-2-A、图2-2-B。  
@@ -301,7 +301,7 @@ MOS管具有和普通晶体三极管相反的温度～电流特性，即当管�
 
 当激励方波信号的负半周来到时晶体三极管Q1（NPN）截止、Q2（PNP）导通，MOS开关管Q3的栅极所充的电荷，经过Q2迅速放电，由于Q2是饱和导通，放电时间极短，保证了MOS开关管Q3的迅速的“关”，如图2-2-B所示。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMt6icFRNxJ0UHGGZm9QM3KibWaLayukDNwuh1AqfRxSRyzBeSOT8hM05w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_014_820ae62a84fe.jpg)  
 图2-2-A    图2-2-B
 
 由于MOS管在制造工艺上栅极S的引线的电流容量有一定的限度，所以在Q1在饱和导通时VCC对MOS管栅极S的瞬时充电电流巨大，极易损坏MOS管的输入端。
@@ -310,10 +310,10 @@ MOS管具有和普通晶体三极管相反的温度～电流特性，即当管�
 
 充电限流电阻R的阻值的选取；要根据MOS管的输入电容的大小，激励脉冲的频率及灌流电路的VCC（VCC一般为12V）的大小决定一般在数十姆欧到一百欧姆之间。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMTGHqfpuvaFpvibYNxkD2s3QscBBcdGRMQbXVpCFkuDF6aVyiaag8lWWg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_015_eddccd03ff88.jpg)  
 图2-3-A  
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMklaiamialvoCQ7kngVR7nLgXVibBjAgynOO7X0zHhjgA6b65ic3Pl9ploQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_016_6d322618c6ac.jpg)  
 图2-3-B
 
 由于充电限流电阻的增加，使在激励方波负半周时Q2导通时放电的速度受到限制使MOS管的开关特性变坏，为了使R阻值在放电时不影响迅速放电的速率，在充电限流电阻R上并联一个形成放电通路的二极管D，图2-3-B所示。
@@ -324,10 +324,10 @@ MOS管具有和普通晶体三极管相反的温度～电流特性，即当管�
 
 灌流电路的另外一种形式，对于某些功率较小的开关电源上采用的MOS管往往采用了图2-4-A的电路方式。 
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMZFdeDZLvgScKETNzMWv5J3q4XWicicTEC3k1VN5BJia09z8IJXYysUVhQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_017_547dea5e2b20.jpg)  
 图2-4-A  
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMic4Umt4YTfCBdWPibebkFRriajnXRmgcnKAlmX4bQnGo1ZfHGK4Gh8icYg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_018_ae9e7f8b52dd.jpg)  
 图2-4-B
 
 图中 D为充电二极管，Q为放电三极管（PNP），工作过程是这样，当激励方波正半周时，D导通，对MOS管输入端等效电容充电(此时Q截止)，在当激励方波负半周时，D截止，Q导通，MOS管栅极S所充电荷，通过Q放电，MOS管完成“开”与“关”的动作，如图2-4-B所示。
@@ -346,10 +346,10 @@ MOS管在开关状态工作时Q1、Q2是轮流导通，MOS管栅极是在反复�
 
 为了避免此现象产生，在MOS管的栅极对源极并接一只泄放电阻R1，如图2-5-B所示，关机后栅极存储的电荷通过R1迅速释放，此电阻的阻值不可太大，以保证电荷的迅速释放，一般在5K～数10K左右。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMicAPzWC1YbZT2j8ZcwgoW8wp0Lsv6SrdJrIXSZiaib5eTG4Z3msibaM16w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_019_da37f7a1b588.jpg)  
 图2-5-A  
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhM52yT0iavNPhTqQWuWkxMk4VSSrzS1czaNrUIbO7TAkaWvM5kMMabUSQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_020_2c3c0e8a3a2c.jpg)  
 图2-5-B
 
 灌流电路主要是针对MOS管在作为开关管运用时其容性的输入特性，引起开、关动作滞后而设置的电路，当MOS管作为其他用途，例如线性放大等应用，就没有必要设置灌流电路。
@@ -366,9 +366,9 @@ MOS管在开关状态工作时Q1、Q2是轮流导通，MOS管栅极是在反复�
 
 图3-1所示是三星V2屏开关电源，PFC电源部分电原理图，图3-2所示是其等效电路框图。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMNSBmiaqBjN5Gvpecmx12YRfE43sWSNlsKfwvEMEZZYPcM4N5ibnEictTw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_021_c53bf075066e.jpg)  
 图3-1  
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMBfm9up4rJLl6VKiaib1JtbCibF2EicInfh915uXyC1xYBIGRD7Oa08cnHw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_022_2169fcdffa71.jpg)  
 图3-2
 
 图3-1所示是三星V2屏等离子开关电源的PFC激励部分，从图中可以看出这是一个并联开关电源L1是储能电感，D10是这个开关电源的整流二极管，Q1、Q2是开关管，为了保证PFC开关电源有足够的功率输出，采用了两只MOS管Q1、Q2并联应用
@@ -385,7 +385,7 @@ MOS管在开关状态工作时Q1、Q2是轮流导通，MOS管栅极是在反复�
 
 只是在每一只大功率MOS开关管的栅极泄放电阻（R209、R206）上又并联了过压保护二极管ZD202、ZD201及ZD204、ZD203。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMf9Cdic0KJJOAX5ItL7pYuMnk4ciavg7OI2wm4PEqXp2tr1IicD87wQVbg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_023_a3d40695dc95.jpg)  
 图3-3
 
 **3、海信液晶开关电源PFC部分激励电路分析，**
@@ -396,7 +396,7 @@ MOS管在开关状态工作时Q1、Q2是轮流导通，MOS管栅极是在反复�
 
 该集成电路的PFCOUTPUT端子是激励输出，RE008、RE009、RE010、VE001、DE002、RE011、DE003组成QE001和QE002的灌流电路。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhM1maUl2WI7n4fqxGkwEUSmXqKUWcj9WAKDaB8fE767xhHIhamfTBsdg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_024_c59bf3c5b47d.jpg)  
 图3-4
 
 灌流电路的等效电路如图3-5所示，从图中，可以清晰的看出该灌流电路的原理及各个元件的作用。
@@ -411,9 +411,9 @@ MOS管在开关状态工作时Q1、Q2是轮流导通，MOS管栅极是在反复�
 
 图3-6是原理框图，图中的QE003及TE002是PWM开关电源的开关管及开关变压器，RE050是QE003的充电限流电阻、DE020是其放电二极管。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMibgzFojibdUznEAb3icb2icMHCqCCMgy3oL8B1LOX50T6RVzknibeESGIew/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_025_f6066cc705ac.jpg)  
 图3-5  
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMCf5U4dfprrGdFpH6wYqSNXwWdsyQeNBfqlkPVSHKI4iaMC3pwu3zO7w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_026_5cd3bdd97d5b.jpg)  
 图3-6
 
 04
@@ -430,7 +430,7 @@ MOS管是属于绝缘栅场效应管，栅极是无直流通路，输入阻抗�
 
 虽然MOS管内部有了保护措施，我们操作时也应按照防静电的操作规程进行，这是一个合格的维修员应该具备的。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMUibRSXK3VibhaMAjw7IHMsf0gswYbhKdEEVPctp5U4HKW6YSyjQm4LLA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_027_a3ccc2b6e550.jpg)  
 图4-1
 
 05
@@ -447,7 +447,7 @@ MOS管的检测与代换
 
 检测必须采用指针式万用表（数字表是不适宜测量半导体器件的），对于功率型MOSFET开关管都属N沟道增强型，各生产厂的产品也几乎都采用相同的TO-220F封装形式（指用于开关电源中功率为50—200W的场效应开关管），其三个电极排列也一致，即将三只引脚向下，打印型号面向自巳，左侧引脚为栅极，右测引脚为源极，中间引脚为漏极如图5-1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmdpoEXvWMPKkosuLl4v9ZGXpKZHRZf4vN20Wof1Q5DltT0iaGWhqynC6HmMicJBezktnUcboOAIolCg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_028_559e98dffe3b.png)
 
 图5-1
 
@@ -467,7 +467,7 @@ MOS管的检测与代换
 
 万用表R×10K挡内部的电池最好大于9V，这样在测量PN结反相漏电流时比较准确，否则漏电也测不出来。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhM7bGSmb9cUDglYDibwg33UaGkOl2LaZVPGGoibNPVeGdwZQhKyXQibpYAA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_029_320dc863a675.jpg)  
 图5-2
 
 现在由于生产工艺的进步，出厂的筛选检测都很严格，我们一般判断只要判断MOS管不漏电、不击穿短路、内部不断路、能放大就可以了，方法极为简单。  
@@ -478,14 +478,14 @@ MOS管的检测与代换
 
 把红表笔接到MOS管的源极S，把黑表笔接到MOS管的漏极D，此时表针指示应该为无穷大，如图5-3所示，如果有欧姆指数说明被测管有漏电现象，此管不能用。  
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhM3LG85VAPwAZ7AbRywSe8rYnu6lVRlK5ERuqguF8FpiazZyQ5tKASLlg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_030_cfe08490fdfd.jpg)  
 图5-3
 
 保持上述状态，此时用一只100K～200K电阻连接于栅极和漏极，如图5-4所示，这时表针指示欧姆数应该越小越好，一般能指示到0欧姆。
 
 这时是正电荷通过100K电阻对MOS管的栅极充电，产生栅极电场，由于电场产生导致导电沟道致使漏极和源极导通，所以万用表指针偏转，偏转的角度大（欧姆指数小）证明放电性能好。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMDP40gtFMaPownEccoGsibHUQfPW86PibjrSIrFXWM9P0qR3ZzibSSfFeA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_031_ff64e3b02a3d.jpg)  
 图5-4
 
 此时在图5-4的状态，再把连接的电阻移开，这时万用表的指针仍然应该是MOS管导通的指数不变，如图5-5所示。
@@ -494,7 +494,7 @@ MOS管的检测与代换
 
 如果电阻拿开表针会慢慢的逐步的退回到高阻甚至退回到无穷大，要考虑该被测管栅极漏电。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMfgIR7Biaj9boiasLXLlaTZTrYrIn9Aicsh5mhL2aexEVVTicLLh9BHWajQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_032_69dde8ac0535.jpg)
 
 图5-5
 
@@ -502,7 +502,7 @@ MOS管的检测与代换
 
 导线的连接使被测MOS管，栅极电荷释放，内部电场消失；导电沟道也消失，所以漏极和源极之间电阻又变成无穷大。  
 
- ![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRbWacSadBnKVKorbaBAAhMwgJmIPhRTSUNJARd1QYGnJpBzhViamymQnH1icgZPibr6AoFD0stpupFg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+ ![](从内部结构到电路应用_这篇文章把MOS管讲透了__images/img_033_c46e842c8043.png)  
 图5-6
 
 **2、MOS管的更换**

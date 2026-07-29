@@ -3,17 +3,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/mwDD8wZycjv31A5NdmjNuQ](https://mp.weixin.qq.com/s/mwDD8wZycjv31A5NdmjNuQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/9RCbW5V9GKukOCc1MCCf8PMiczuAN6wlI3PFJTe3L3PyJBhW4EVYNaVYQHdPVda4PtQlia9ofu1R3qNLdRffamqQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247483789&idx=1&sn=80eab065ae145912c63d6c8c894fc80c&chksm=e873b902df043014a500801bb99fd7221fb9a73077ee5ee26a09ffbfc5037bcf5e4b1f36874e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_001_81a814d12200.jpg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247483789&idx=1&sn=80eab065ae145912c63d6c8c894fc80c&chksm=e873b902df043014a500801bb99fd7221fb9a73077ee5ee26a09ffbfc5037bcf5e4b1f36874e&scene=21#wechat_redirect)
 
 Ansys Motor-CAD是一款专用的电机设计工具，可在整个转矩-速度工作范围内进行快速多物理场仿真。Motor-CAD使设计工程师能够评估整个工作范围内的电机拓扑和概念，从而生成针对性能、效率和尺寸进行优化的设计。Motor-CAD软件由EMag、Therm、Lab、Mech四个集成模块组成，能够快速、迭代地进行多物理场计算，使用户以更短的时间完成从概念到最终设计的全过程。Motor-CAD基于模板的直观设置简化并自动化了分析过程，其内置的电磁、热和力学求解器为电机设计提供了宝贵的多物理场洞见。仿真可以在几秒钟内完成，因此，人们有足够的时间和机会进行广泛的设计空间探索。Ansys Motor-CAD使工程师能够制作出优化的电动机和发电机设计，以帮助满足尺寸、重量、能效、成本和其他规格要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVuJK42eM11Mb8nozTAPSXKH2W3FwicxDuMgY3EqeRADDjZaPJibvyYJNVAtbawrr5FtPe8zicib0eHxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_002_f51119db677a.png)
 
 要对电机设计进行深入分析和验证，可以将 Motor-CAD 模型转移到Ansys Maxwell、Ansys Icepak和 Ansys Fluent。将这些求解器与 Motor-CAD 相结合，可提供高保真度、二维/三维分析能力，使用户能够分析端部效应、退磁、磁芯损耗、磁滞和其他高级电磁现象，计算运行的热范围以及设计完整的电机冷却系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVuJK42eM11Mb8nozTAPSXKb5DX3gQnSQqvv5wzTRRx0QbqVrEGv0B9pyfbicRldCRGnwnHSaG6icgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_003_15f73e0810c1.jpg)
 
 电机高效设计及性能优化仿真技术能为企业量身打造集成化设计解决方案，充分考量多个物理场对电机性能的影响，在满足技术需求的同时设计出最优方案！明年1月16-17日，西莫将再度联合上海安世亚太倾力打造新年第一期电机仿真专题进阶研修班，为大家提供实战操作Ansys Motor-CAD电机仿真软件的学习机会，欢迎扫码上方二维码报名参加本次培训！关于培训的更多详情介绍如下：
 
@@ -101,7 +101,7 @@ Ansys Motor-CAD是一款专用的电机设计工具，可在整个转矩-速度�
 
 电机高效设计及性能优化进阶培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXvB8icvs5q7Cic5H63cZiba0ibN50ZnooCTJyX0a7PvT1Kckibkflt9CfJ3znLicSGlQ1NoaQjbicn1j94Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_004_c32feaca3b1b.jpg)
 
   
 
@@ -137,15 +137,15 @@ Ansys Motor-CAD是一款专用的电机设计工具，可在整个转矩-速度�
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUY8ic8lamc9GbibrhZuR7vuu6ibTtKrNgSPMYwnFB3maV8hjZafS4ooUWsgvEa4GicReZVicsPrCMsMxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_005_eaf4cc5d851c.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_006_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh5Zp3ic62eKbJZbzsM1G3Lbl48JiaKDBHGkAAVF1slauic732iaAic0NDrzw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627499&idx=1&sn=cf06492802ae229813dbe0412f4f4f71&chksm=88bcf6a4bfcb7fb27afb37adb3e3368942368bd335a6b76b03118c85f256b5217f3eb5235ebf&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_007_d1686dfd7cbd.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627499&idx=1&sn=cf06492802ae229813dbe0412f4f4f71&chksm=88bcf6a4bfcb7fb27afb37adb3e3368942368bd335a6b76b03118c85f256b5217f3eb5235ebf&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh9IkK2CJTaz4HHexibFEZibrCf6518psydQZ7Ud1gBV2znrrSSjeZ0Yog/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Motor_CAD_用于电机设计的综合性多学科分析软件_images\img_008_f48eeedfff63.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
 
 点击**阅读原文**，直接报名参加本次培训
 

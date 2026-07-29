@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\华北电力大学胡智莹_耿秋钰_等_直流GIS_GIL中驱赶电极与微粒陷阱的协同抑制作用及优化设计方法_images\img_000_b2c984718465.jpg)](http://www.eitrt.org/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\华北电力大学胡智莹_耿秋钰_等_直流GIS_GIL中驱赶电极与微粒陷阱的协同抑制作用及优化设计方法_images\img_001_ddcf26cb7810.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约 1700 字
 > 直流气体绝缘组合电器和封闭输电线路中的运动金属微粒是造成绝缘故障的重要原因，采用驱赶电极可使微粒朝远离绝缘子的方向运动，与微粒陷阱配合使用可显著提高微粒的捕获概率。已有的屏蔽罩结构为设计驱赶电极提供了工程实施的可能性，厘清驱赶电极与微粒陷阱协同作用机制，提出驱赶电极与微粒陷阱协同设计方法，可为实际工程的微粒有效抑制提供指导。
 **研究背景**

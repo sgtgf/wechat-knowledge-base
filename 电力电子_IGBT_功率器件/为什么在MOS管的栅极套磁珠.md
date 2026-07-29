@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tK83C30RzibmTOgsBvAD3ejezcS15iaMYD229VBfLQ5GvuoZxqsddoPYbT7AncjmOzxqyHjo842PNEQ/640?wx_fmt=jpeg)
+![](为什么在MOS管的栅极套磁珠_images/img_000_f05ae3aa7b91.jpg)
 
 1.磁珠等效于电阻和电感串联，但电阻值和电感值都随着频率变化而变化，它有很高的电阻率和磁导率。
 
@@ -24,11 +24,11 @@
 
 2.MOS管的引脚有一定的长度，会形成引线电感；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tK83C30RzibmTOgsBvAD3ejetlIqu9JwLwhiczdkW46uv0m2KIEPDYJAycScrffAn9NRw5r8pkgLg1Q/640?wx_fmt=jpeg)
+![](为什么在MOS管的栅极套磁珠_images/img_001_4a1af1753db1.jpg)
 
 3.PCB布线也会形成寄生电感和寄生电容，进而产生LC振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tK83C30RzibmTOgsBvAD3eje62Wa2Hk3giaFG4UdsJqI5tcXD3evrvibH6j1AMJMa6pHPWkGRibgoX29w/640?wx_fmt=jpeg)
+![](为什么在MOS管的栅极套磁珠_images/img_002_7da26e678969.jpg)
 
   
 

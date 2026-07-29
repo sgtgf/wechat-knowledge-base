@@ -36,12 +36,12 @@
 -   机器学习里归一化数据：让不同特征在同一尺度，避免某个大数值主导结果。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNyMkeAiaROmGazcyNogZU4mebMTLiblRZqOyIvojBZhfONsy0GmtfFm7Q/640?wx_fmt=png&from=appmsg)  
+![](什么是向量单位化_(vector_normalization)_images/img_000_8ab34c12ec45.png)  
 编辑
 
 这张图解释了为什么归一化有用：在神经网络训练中，不归一化会导致梯度更新不均匀（左图椭圆），归一化后变成圆（右图），更新更公平高效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNTWKU3lfflLiaAFv0tAaBLyeMczrooBHJBM6t7wTVGOh8bYZdLV0T1pg/640?wx_fmt=png&from=appmsg)  
+![](什么是向量单位化_(vector_normalization)_images/img_001_c64ea4e53288.png)  
 编辑
 
 （图片来自《线性代数不难》）
@@ -54,15 +54,15 @@
 
 对任意二维非零向量
 
-![$\begin{array}{c} a=\begin{bmatrix}a_1\\ a_2\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN5pKoUaYmENfYmexDwkpHGuGdXq4fPCGx9AJvllwa4hibqJptGsV65iag/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} a=\begin{bmatrix}a_1\\ a_2\end{bmatrix} \end{array}$](什么是向量单位化_(vector_normalization)_images/img_002_614b4d005827.png)
 
 它的单位向量（单位化后的结果）定义为
 
-![$\hat a=\frac{a}{\|a\|}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNgFq8iao6e9Lvn8ze0iauzsSickMXggLtxV4I7RDRyA0w2YJo1NyvOQ4kw/640?wx_fmt=png&from=appmsg)
+![$\hat a=\frac{a}{\|a\|}$](什么是向量单位化_(vector_normalization)_images/img_003_a0883d79c598.png)
 
 这里的 ∥a∥ 是向量的长度（L2 范数）：
 
-![$\|a\|=\sqrt{a_1^2+a_2^2}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN6HFYW5XNRRJxQVl72ibkqicB68A59nS2fPTicpib0MicCOhCw1G7fSQbk5Q/640?wx_fmt=png&from=appmsg)
+![$\|a\|=\sqrt{a_1^2+a_2^2}$](什么是向量单位化_(vector_normalization)_images/img_004_2e804ab49535.png)
 
 所以把它写成分量形式就是图中那样：
 
@@ -78,19 +78,19 @@
 
 给定
 
-![$\begin{array}{c} a=\begin{bmatrix}3\\4\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN1Nib9l8FIHOv969V005zbMICFjwvYiaDUkAzMTcV2osmDOQb8dvzeic2A/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} a=\begin{bmatrix}3\\4\end{bmatrix} \end{array}$](什么是向量单位化_(vector_normalization)_images/img_005_73231a7c2dc8.png)
 
 先算长度：
 
-![$\|a\|=\sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{25}=5$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNRkibQdtOPqLjTep0TDeiaqYg4kDBpjhZIHReicVAnyK8UyGdXJ5CbCA1w/640?wx_fmt=png&from=appmsg)
+![$\|a\|=\sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{25}=5$](什么是向量单位化_(vector_normalization)_images/img_006_ad4e3fb76c00.png)
 
 再除以长度：
 
-![$\begin{array}{c} \hat a=\frac{1}{5}\begin{bmatrix}3\\4\end{bmatrix} =\begin{bmatrix}3/5\\4/5\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN9UibZv7iajRGPtEqNDibhjczGM23xibsvhR3huXIsib2GNoMQS4AY903pibA/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} \hat a=\frac{1}{5}\begin{bmatrix}3\\4\end{bmatrix} =\begin{bmatrix}3/5\\4/5\end{bmatrix} \end{array}$](什么是向量单位化_(vector_normalization)_images/img_007_2c34fe07c3d8.png)
 
 验证它确实长度为 1：
 
-![$\|\hat a\|=\sqrt{(3/5)^2+(4/5)^2} =\sqrt{9/25+16/25} =\sqrt{25/25}=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNtTYeNW4D4u7f8EeUulbsnYleiauD9rwicVaSCTtxeTm6vn4thylPOV8Q/640?wx_fmt=png&from=appmsg)
+![$\|\hat a\|=\sqrt{(3/5)^2+(4/5)^2} =\sqrt{9/25+16/25} =\sqrt{25/25}=1$](什么是向量单位化_(vector_normalization)_images/img_008_709b87e5596c.png)
 
 * * *
 
@@ -120,7 +120,7 @@
 
 因为单位化只是乘了一个**正的标量**：
 
-![$\hat a=\frac{1}{\|a\|}a$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNiaFyWWLFvZbl3ICjrMWZMIm1EoAkL524HuicaibWewDib1YrKWMzsKWWpA/640?wx_fmt=png&from=appmsg)
+![$\hat a=\frac{1}{\|a\|}a$](什么是向量单位化_(vector_normalization)_images/img_009_b88c22e46cea.png)
 
 乘以正数只会把向量**伸缩**，不会旋转；向量仍在同一条射线上。  
 （如果乘的是负数，会反向；但单位化除以 ∥a∥ 永远是正的。）
@@ -129,7 +129,7 @@
 
 ## 5）注意：零向量不能单位化
 
-如果 a=0，那么 ∥a∥=0，![\frac{a}{\|a\|}](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNBVzmkE1EI5heuARsvVHPaZicyjcPk8ugFllRHzFbwTWuBNChJlgjJ4g/640?wx_fmt=png&from=appmsg) 就会除以 0，**无定义**。  
+如果 a=0，那么 ∥a∥=0，![\frac{a}{\|a\|}](什么是向量单位化_(vector_normalization)_images/img_010_2b270fe2e2cb.png) 就会除以 0，**无定义**。  
 所以单位化前必须保证向量非零。
 
 * * *
@@ -138,13 +138,13 @@
 
 **n 维**同理：
 
-![$\hat a=\frac{a}{\sqrt{a_1^2+\cdots+a_n^2}}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNWOVpGUCzPpYa7zmC6U9SOyfiaQQrFGbvGnDJL6bVzvAGJz3ictmHVeKw/640?wx_fmt=png&from=appmsg)
+![$\hat a=\frac{a}{\sqrt{a_1^2+\cdots+a_n^2}}$](什么是向量单位化_(vector_normalization)_images/img_011_3b5f56c548ee.png)
 
 常见用途（你以后会经常见到）：
 
--   把方向提取出来：用 ![$\hat a$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN7GRUdnmT1ibDHhuI91UTuFWFv5Fa5X0MMBDK0fE7IFIR1odSicLXVJZQ/640?wx_fmt=png&from=appmsg) 表示“纯方向”
+-   把方向提取出来：用 ![$\hat a$](什么是向量单位化_(vector_normalization)_images/img_012_ce5cf060b816.png) 表示“纯方向”
     
--   计算夹角 / 相似度：如余弦相似度 ![$\cos\theta = \hat a^\top \hat b$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNEpR2SAWG4Ay49Lh8eCECfHVUQHgJrrotFgaxqzcwaUUc3AVsW641ow/640?wx_fmt=png&from=appmsg) 
+-   计算夹角 / 相似度：如余弦相似度 ![$\cos\theta = \hat a^\top \hat b$](什么是向量单位化_(vector_normalization)_images/img_013_9ef4d141e693.png) 
     
 -   数值稳定：让不同尺度的向量“可比较”
     
@@ -159,18 +159,18 @@
 
 任意非零向量都可以写成：
 
-![$a=\|a\|\cdot \hat a$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNAvaX2lBUania6LUuC69tiaHBgWgLzW1MTfqAvfhCqaPzd2HSCcDX6uibg/640?wx_fmt=png&from=appmsg)
+![$a=\|a\|\cdot \hat a$](什么是向量单位化_(vector_normalization)_images/img_014_ca87e3a72d79.png)
 
 -   ∥a∥：告诉你“有多长”（大小/能量/强度）
     
--   ![$\hat a$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN7GRUdnmT1ibDHhuI91UTuFWFv5Fa5X0MMBDK0fE7IFIR1odSicLXVJZQ/640?wx_fmt=png&from=appmsg)：告诉你“朝哪个方向”（方向信息）
+-   ![$\hat a$](什么是向量单位化_(vector_normalization)_images/img_015_ce5cf060b816.png)：告诉你“朝哪个方向”（方向信息）
     
 
 所以单位化其实是在做**解耦**：把“长度”和“方向”分开。
 
 图里的 ![[3,4]^T](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNTaat3QIakalK4KicHP9zZtLXtiaNP541CC2WBoxxx4sMfAFbMyleK91g/640?wx_fmt=png&from=appmsg) 就是
 
-![$\begin{bmatrix}3\\4\end{bmatrix} =5\cdot \begin{bmatrix}3/5\\4/5\end{bmatrix}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNeuYLJLWALiccnpwaLmE84YOTMHCZFk3eNsneEciaMicBe3sn0o2T39MCw/640?wx_fmt=png&from=appmsg)
+![$\begin{bmatrix}3\\4\end{bmatrix} =5\cdot \begin{bmatrix}3/5\\4/5\end{bmatrix}$](什么是向量单位化_(vector_normalization)_images/img_016_1828f0b7da10.png)
 
 * * *
 
@@ -182,15 +182,15 @@
 
 单位化后的点是：
 
-![$\hat A=\left(\frac{3}{5},\frac{4}{5}\right)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNib09dZO6PFl02ddR2hWdWO2AqLMDLlKfVIu7WkJb68QCxm3mwbicQ0ibQ/640?wx_fmt=png&from=appmsg)
+![$\hat A=\left(\frac{3}{5},\frac{4}{5}\right)$](什么是向量单位化_(vector_normalization)_images/img_017_7b962c6376c1.png)
 
 你会发现它满足：
 
-![$\left(\frac{3}{5}\right)^2+\left(\frac{4}{5}\right)^2=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNUGamiakAT5S0JXibkm1C0z05eiaOfLhPCicj23OvItJnAjTyiamIqjufD1g/640?wx_fmt=png&from=appmsg)
+![$\left(\frac{3}{5}\right)^2+\left(\frac{4}{5}\right)^2=1$](什么是向量单位化_(vector_normalization)_images/img_018_952ea4d7faae.png)
 
-也就是说 ![$\hat A$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNCcrAyfickcADMVP039r1kCiaPgSDCZG1mVyawOf95IBibTr10zrR3MibAw/640?wx_fmt=png&from=appmsg) 一定落在圆
+也就是说 ![$\hat A$](什么是向量单位化_(vector_normalization)_images/img_019_166a887ebf2f.png) 一定落在圆
 
-![$x^2+y^2=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNa2PD2JxWdOeRomicvibibjFmAAUEich97edMCJcPEuqg4l2YyrejkAy2YQ/640?wx_fmt=png&from=appmsg)
+![$x^2+y^2=1$](什么是向量单位化_(vector_normalization)_images/img_020_a5c314ebe023.png)
 
 上——这就是图里那条虚线单位圆。
 
@@ -198,7 +198,7 @@
 
 > 单位化把“任意距离的点”沿着原点射线拉回到单位圆边界。
 
-推广到 3D 就是单位球面 ![$x^2+y^2+z^2=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNjLKpBEMZF3frK1CX56bCfRjRyM3hsFGr0g70ksq4NsYoAFjzvYSPog/640?wx_fmt=png&from=appmsg)，再推广到 n 维就是单位超球面。
+推广到 3D 就是单位球面 ![$x^2+y^2+z^2=1$](什么是向量单位化_(vector_normalization)_images/img_021_4fd4cec1b89e.png)，再推广到 n 维就是单位超球面。
 
 * * *
 
@@ -208,11 +208,11 @@
 
 点积公式：
 
-![$a^\top b = \|a\|\|b\|\cos\theta$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNcmtQ8IlUrWtIl4ibp8LIyG4zGjVFjic4yibIADBQ0GhnUvzCBhSNahCJw/640?wx_fmt=png&from=appmsg)
+![$a^\top b = \|a\|\|b\|\cos\theta$](什么是向量单位化_(vector_normalization)_images/img_022_b61a9c0d4d42.png)
 
 如果你把两个向量都单位化：
 
-![$\hat a^\top \hat b = \frac{a^\top b}{\|a\|\|b\|} =\cos\theta$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNkNmFdKSGXtfY2xwsmMfZDdicLXdDP0JY5xWfibicibHdBx8b7eK2TEEOBA/640?wx_fmt=png&from=appmsg)
+![$\hat a^\top \hat b = \frac{a^\top b}{\|a\|\|b\|} =\cos\theta$](D:\电脑文件\公众号知识库\数学_线性代数\什么是向量单位化_(vector_normalization)_images\img_000_39c973d71646.png)
 
 这就是**余弦相似度**的来源：
 
@@ -235,11 +235,11 @@
 
 向量 a=(3,4) 的方向角（相对 x 轴）是：
 
-![$\theta=\arctan\left(\frac{4}{3}\right)\approx 53.13^\circ$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNUn4Dd2411mw7j4QF8aQRcpZu0ChYn5OWMibRyPSlutSfcZxcibqiaA0hw/640?wx_fmt=png&from=appmsg)∘
+![$\theta=\arctan\left(\frac{4}{3}\right)\approx 53.13^\circ$](什么是向量单位化_(vector_normalization)_images/img_024_252c6d8c579e.png)∘
 
-单位化后 ![$\hat a=(3/5,4/5)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN7Bz1T1uqZBfTEZyymwzic3e1ibhkbibCQGlr9fHNfpXIyO1iaMKRczOTjw/640?wx_fmt=png&from=appmsg) 的方向角：
+单位化后 ![$\hat a=(3/5,4/5)$](什么是向量单位化_(vector_normalization)_images/img_025_58c97e977d60.png) 的方向角：
 
-![$\arctan\left(\frac{4/5}{3/5}\right)=\arctan\left(\frac{4}{3}\right)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNibicTUiaZNVeSmROXsVNZuDBdfHPR9JeJoXYpFEvQhQKxmzq9yia7u80lg/640?wx_fmt=png&from=appmsg)
+![$\arctan\left(\frac{4/5}{3/5}\right)=\arctan\left(\frac{4}{3}\right)$](什么是向量单位化_(vector_normalization)_images/img_026_54d9173b2ce0.png)
 
 完全一样。
 
@@ -254,7 +254,7 @@
 ### A. 文本/向量检索（embedding）
 
 不同句子向量的长度可能差很多，但你更关心“语义方向”  
-→ 单位化后用 ![$\hat a^\top \hat b$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNleVv5Pa3bK25Lag8nMwaVBqsAAhztyIXFdBqrSkyxEXNlcly0ibQZZQ/640?wx_fmt=png&from=appmsg)（余弦相似度）就很自然。
+→ 单位化后用 ![$\hat a^\top \hat b$](什么是向量单位化_(vector_normalization)_images/img_027_f6a883b8aeff.png)（余弦相似度）就很自然。
 
 ### B. 梯度/更新步长控制（优化里）
 
@@ -276,7 +276,7 @@
     
 2.  数值实现要加小量：工程里常用
     
-    ![$\hat a=\frac{a}{\|a\|+\varepsilon}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNTkNIUexMhXGTYGwB8OQqhyoZkTQPDE11j93SvvNuv1rfrVmJ7XRGLA/640?wx_fmt=png&from=appmsg)
+    ![$\hat a=\frac{a}{\|a\|+\varepsilon}$](什么是向量单位化_(vector_normalization)_images/img_028_8ee820d71fb8.png)
     
     防止极小长度导致不稳定（ε 很小）
     
@@ -309,10 +309,10 @@
 -   如果**完全反方向**，相似度 = -1（完全相反） 值在 -1 到 1 之间，越接近1越相似。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNibasJpfG4ArM7Ea2CUrSJ1Ldm2ic5xndyAu676FeudTXln6zz4HHDIdA/640?wx_fmt=png&from=appmsg)  
+![](什么是向量单位化_(vector_normalization)_images/img_029_0965b7122891.png)  
 编辑
 
-我们就沿着这张图，把**余弦相似度**彻底讲透：它到底在“相似”什么、为什么要除以 ![$\|A\|\|B\|$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN5JhSH6MWtIaFQUOb4NFEIuGAshvOg8R4F1bM7dV8ibM1lOfibFt8mRzw/640?wx_fmt=png&from=appmsg)、以及怎么算。
+我们就沿着这张图，把**余弦相似度**彻底讲透：它到底在“相似”什么、为什么要除以 ![$\|A\|\|B\|$](什么是向量单位化_(vector_normalization)_images/img_030_d602360b861d.png)、以及怎么算。
 
 * * *
 
@@ -337,15 +337,15 @@
 
 **余弦相似度的定义：**
 
-![$\text{cos\_sim}(A,B)=\frac{A^\top B}{\|A\|\|B\|}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNZwAFHdDv2lKYibW7cibJIZ0CcSVicvrZD0KFsoPn4UOQxqwLVxDlqgVjw/640?wx_fmt=png&from=appmsg)
+![$\text{cos\_sim}(A,B)=\frac{A^\top B}{\|A\|\|B\|}$](什么是向量单位化_(vector_normalization)_images/img_031_ce463630ca7e.png)
 
 而几何上有一个非常关键的恒等式（点积公式）：
 
-![$A^\top B=\|A\|\|B\|\cos\theta$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN5FvFnAzaBSemcMwnOiaWtIHcdo9MSRYunSjbuySyHNKwtByeE9e9Vuw/640?wx_fmt=png&from=appmsg)
+![$A^\top B=\|A\|\|B\|\cos\theta$](什么是向量单位化_(vector_normalization)_images/img_032_5dfd6755b5a7.png)
 
 把它代回去：
 
-![$\frac{A^\top B}{\|A\|\|B\|} = \frac{\|A\|\|B\|\cos\theta}{\|A\|\|B\|} =\cos\theta$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN4PQaQCsqebvMd2sXAPomiceBPwHI3Ls5En8YV8cofukMEQ4Z4qqLEEg/640?wx_fmt=png&from=appmsg)
+![$\frac{A^\top B}{\|A\|\|B\|} = \frac{\|A\|\|B\|\cos\theta}{\|A\|\|B\|} =\cos\theta$](什么是向量单位化_(vector_normalization)_images/img_033_d53de529dad8.png)
 
 所以你图右边写的那串，其实就是在表达：
 
@@ -355,9 +355,9 @@
 
 ##   
 
-## 3）为什么一定要“除以 ![$\|A\|\|B\|$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN5JhSH6MWtIaFQUOb4NFEIuGAshvOg8R4F1bM7dV8ibM1lOfibFt8mRzw/640?wx_fmt=png&from=appmsg)”？
+## 3）为什么一定要“除以 ![$\|A\|\|B\|$](什么是向量单位化_(vector_normalization)_images/img_034_d602360b861d.png)”？
 
-因为**点积 ![$A^\top B$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN95YKjCJFTfzuq4KiatQQMSzXbGx0lDawuYkIWgzjmNw9tGSrYoFX7hQ/640?wx_fmt=png&from=appmsg)**  本身会被长度强烈影响：
+因为**点积 ![$A^\top B$](什么是向量单位化_(vector_normalization)_images/img_035_1e626ddd8a3f.png)**  本身会被长度强烈影响：
 
 -   向量变长一点，点积就可能变很大
     
@@ -369,11 +369,11 @@
 
 你可以把它理解成“把 A、B 先单位化再点积”：
 
-![$\hat A=\frac{A}{\|A\|},\quad \hat B=\frac{B}{\|B\|}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNzSHohDfmZRsKG2sqWh7xZ16ibaEotOdMHxSAib0V8aLic4kLcjk3sSCCA/640?wx_fmt=png&from=appmsg)
+![$\hat A=\frac{A}{\|A\|},\quad \hat B=\frac{B}{\|B\|}$](什么是向量单位化_(vector_normalization)_images/img_036_4f112c17607b.png)
 
 那么：
 
-![$\hat A^\top \hat B = \left(\frac{A}{\|A\|}\right)^\top \left(\frac{B}{\|B\|}\right) = \frac{A^\top B}{\|A\|\|B\|}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN7w4xRYGO2tONvEOjpkyNrSxpInk6G2HIBs7xxYicN0wBkqRK8ysd71A/640?wx_fmt=png&from=appmsg)
+![$\hat A^\top \hat B = \left(\frac{A}{\|A\|}\right)^\top \left(\frac{B}{\|B\|}\right) = \frac{A^\top B}{\|A\|\|B\|}$](什么是向量单位化_(vector_normalization)_images/img_037_87343cb75a88.png)
 
 **结论：余弦相似度 = 单位向量的点积。**
 
@@ -385,11 +385,11 @@
 
 因为 cos⁡θ 的范围是 \[−1,1\]，所以余弦相似度也在 \[−1,1\]。
 
--   1：完全同方向（![$\theta=0^\circ$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNQNmhQvdOSObYO8NuHyXMeQcOHicvUdiakJ8cQY0jH38OibshPQibEfcdJQ/640?wx_fmt=png&from=appmsg)）
+-   1：完全同方向（![$\theta=0^\circ$](什么是向量单位化_(vector_normalization)_images/img_038_3f3fdd3bba37.png)）
     
--   0：垂直（![$\theta=90^\circ$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNgdcGDawEMkkzXEsWtTeAQBzLv1ABicnVXWEHB4OgmJyUWtVZOnsib3Dw/640?wx_fmt=png&from=appmsg)）
+-   0：垂直（![$\theta=90^\circ$](什么是向量单位化_(vector_normalization)_images/img_039_5bb2c340aa5b.png)）
     
--   \-1：完全反方向（![$\theta=180^\circ$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNice1PmMAzEZrial4sg6Gu4H7APzwExt53Yqg8jQATXyadrJRxkzIN4Kw/640?wx_fmt=png&from=appmsg)）
+-   \-1：完全反方向（![$\theta=180^\circ$](什么是向量单位化_(vector_normalization)_images/img_040_d7c983016409.png)）
     
 
 很多时候我们说“越相似越大”，就是指越接近 1。
@@ -402,21 +402,21 @@
 
 取
 
-![$\begin{array}{c} A=\begin{bmatrix}1\\0\end{bmatrix},\quad B=\begin{bmatrix}1\\1\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN9MflAic8bl2qgcPneyluXcvcnSQq7kreCLibcicibKofrxgQPxPZkD5oTw/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} A=\begin{bmatrix}1\\0\end{bmatrix},\quad B=\begin{bmatrix}1\\1\end{bmatrix} \end{array}$](什么是向量单位化_(vector_normalization)_images/img_041_41b9201e1c4a.png)
 
 **第1步：算点积**
 
-![$A^\top B = 1\cdot 1 + 0\cdot 1 = 1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNbrjGVtC9YT4AbbkDglibq0R5Qk82IBAeLgDkQibr0FeQZuetMKCgouLA/640?wx_fmt=png&from=appmsg)
+![$A^\top B = 1\cdot 1 + 0\cdot 1 = 1$](什么是向量单位化_(vector_normalization)_images/img_042_bf7fd8bd3e21.png)
 
 **第2步：算长度**
 
-![$\|A\|=\sqrt{1^2+0^2}=1,\quad \|B\|=\sqrt{1^2+1^2}=\sqrt2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNaV21bW9UuoibFiagF1Io9EVWEC45IPibiatuW3nSPxdkH80v68K3z9ce8Q/640?wx_fmt=png&from=appmsg)
+![$\|A\|=\sqrt{1^2+0^2}=1,\quad \|B\|=\sqrt{1^2+1^2}=\sqrt2$](什么是向量单位化_(vector_normalization)_images/img_043_963708175e59.png)
 
 **第3步：代公式**
 
-![$\text{cos\_sim}(A,B)=\frac{1}{1\cdot \sqrt2}=\frac{1}{\sqrt2}\approx 0.707$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNsafEZxDdrcyBl2HWib7tvFkINPvlahIXhpCGb56AXuJoguibMXlVKWrg/640?wx_fmt=png&from=appmsg)
+![$\text{cos\_sim}(A,B)=\frac{1}{1\cdot \sqrt2}=\frac{1}{\sqrt2}\approx 0.707$](什么是向量单位化_(vector_normalization)_images/img_044_e7c120431dc9.png)
 
-这对应夹角 ![$\theta=45^\circ$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNexdpUxOjjKNaZ9Itmk7sxWbMOnlicDsh34aytYQdqRoJ8WYVh6VGI7g/640?wx_fmt=png&from=appmsg)，因为 ![$\cos45^\circ=0.707$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNb5AeicGPJRibzfj4WCLfECiahBv0TbVKibmgszd1ehibKgyXictd8PXfPpPA/640?wx_fmt=png&from=appmsg)。
+这对应夹角 ![$\theta=45^\circ$](什么是向量单位化_(vector_normalization)_images/img_045_0f8450eb6c51.png)，因为 ![$\cos45^\circ=0.707$](什么是向量单位化_(vector_normalization)_images/img_046_5b0afd1e1686.png)。
 
 * * *
 
@@ -426,16 +426,16 @@
 
 比如
 
-![$\begin{array}{c} A=\begin{bmatrix}1\\1\end{bmatrix},\quad B=\begin{bmatrix}10\\10\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNXicnO2iaE41J3UdRbZxrQ9p7RPjfeiaeW7Xd2dSv2c7y3GyDGh18x7Eicw/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} A=\begin{bmatrix}1\\1\end{bmatrix},\quad B=\begin{bmatrix}10\\10\end{bmatrix} \end{array}$](什么是向量单位化_(vector_normalization)_images/img_047_ba33984e8431.png)
 
 它们方向完全一样（B 只是 A 放大 10 倍）：
 
--   点积很大：![$A^\top B = 20$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNy788CZe2uibC4cVpG5tAiblFBLoAfekZVzQuJmgnunDOAgVDqm7iba65g/640?wx_fmt=png&from=appmsg)
+-   点积很大：![$A^\top B = 20$](什么是向量单位化_(vector_normalization)_images/img_048_21664b804df9.png)
     
 -   但余弦相似度：
     
 
-![$\frac{A^\top B}{\|A\|\|B\|} = \frac{20}{(\sqrt2)(10\sqrt2)}=\frac{20}{20}=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNWvygjzTE58U8sBxWyALxBccNz1sDVooBx0IgictxsUGtzLcShkr9awA/640?wx_fmt=png&from=appmsg)
+![$\frac{A^\top B}{\|A\|\|B\|} = \frac{20}{(\sqrt2)(10\sqrt2)}=\frac{20}{20}=1$](什么是向量单位化_(vector_normalization)_images/img_049_ec880cfe71a5.png)
 
 这正说明：**余弦相似度不关心长度，只关心方向。**
 
@@ -481,7 +481,7 @@
 
 对任意向量 a,b：
 
-![$a^\top b=\|a\|\|b\|\cos\theta$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNcmtQ8IlUrWtIl4ibp8LIyG4zGjVFjic4yibIADBQ0GhnUvzCBhSNahCJw/640?wx_fmt=png&from=appmsg)
+![$a^\top b=\|a\|\|b\|\cos\theta$](什么是向量单位化_(vector_normalization)_images/img_050_b61a9c0d4d42.png)
 
 这里有两类信息：
 
@@ -514,7 +514,7 @@
 -   hinge / margin loss：基于 logit 的间隔
     
 
-如果 logit 是原始点积 ![$a^\top b$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNxO6koCpMC4I7X6oXC1ntGcd7ZxrA3ms6cVKF4EDejs3rtC5bicCl6SA/640?wx_fmt=png&from=appmsg)，它可能非常大或非常小（因为范数随训练变化、随样本变化），带来两类问题：
+如果 logit 是原始点积 ![$a^\top b$](什么是向量单位化_(vector_normalization)_images/img_051_40d47d4cdde4.png)，它可能非常大或非常小（因为范数随训练变化、随样本变化），带来两类问题：
 
 ### A. 溢出/下溢（工程层面）
 
@@ -560,12 +560,12 @@ exp⁡(100) 很快就数值爆炸；exp⁡(−100) 直接变 0。
 
 检索/匹配里经常要比较：
 
-![$\arg\max_i \ a^\top b_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNjVCjlJ62NRe9TnvI5rTXwmzmicpLKT1PJEeqzdgYbnfSicxUyMnzmibOw/640?wx_fmt=png&from=appmsg)
+![$\arg\max_i \ a^\top b_i$](什么是向量单位化_(vector_normalization)_images/img_052_bc1715ecc757.png)
 
-如果不单位化，范数大的 ![$b_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNqEdjKGfNrygz0qpkDaZPUNM5r3dNS4fhdnZdOZ2ZhmNG5HvTPYbgAA/640?wx_fmt=png&from=appmsg) 会天然占优势，即使方向没那么像。  
+如果不单位化，范数大的 ![$b_i$](什么是向量单位化_(vector_normalization)_images/img_053_d417c34485d2.png) 会天然占优势，即使方向没那么像。  
 单位化后比较的是：
 
-![$\arg\max_i \ \cos\theta_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNrBMql4ZYFB3zJAiaOROj1BWrZmK4O6eZQKKT5pEiaPOHQ43FFIWic1zFg/640?wx_fmt=png&from=appmsg)
+![$\arg\max_i \ \cos\theta_i$](什么是向量单位化_(vector_normalization)_images/img_054_8b727eba47e4.png)
 
 更接近“语义角度最近”的真实目标，排序更稳，对输入长度、亮度、对比度等外界因素更不敏感。
 
@@ -577,8 +577,8 @@ exp⁡(100) 很快就数值爆炸；exp⁡(−100) 直接变 0。
 
 单位化会**丢掉长度信息**。如果长度本身有意义（比如置信度/强度/数量级），强行单位化可能损失性能。工程上常见折中是：
 
--   embedding 先单位化，**再乘一个可控尺度 s**（或温度 ![$1/\tau$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGNDDdQa9CFiajuSrz21XLmpKEX9WdTD7uxnT7FbC8X1I6iaTW3CXTyVIVA/640?wx_fmt=png&from=appmsg)）：
+-   embedding 先单位化，**再乘一个可控尺度 s**（或温度 ![$1/\tau$](什么是向量单位化_(vector_normalization)_images/img_055_e77d61980494.png)）：
     
-    ![$\text{logit}=s\cdot \hat a^\top \hat b$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tohDqacRLUd1aGZ6xdia0dGN9aCUEISSfFiba0gAJvQY7M7AQsMYiajmiahuyAIZX8SeCicoXvfefgw4NQ/640?wx_fmt=png&from=appmsg)
+    ![$\text{logit}=s\cdot \hat a^\top \hat b$](什么是向量单位化_(vector_normalization)_images/img_056_cd81c7b42009.png)
     
     这样既保留角度几何，又能调节分类/对比学习的分离力度。

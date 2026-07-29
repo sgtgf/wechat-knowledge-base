@@ -11,7 +11,7 @@
 
 **关 键 词 ：** 金 属 氧 化 物 半 导 体 场 效 应 晶 体 管 ； 开 通 电 流 尖 峰 ； 反 向 恢 复 电 流
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7ENuHHdV89F6YHJclRtnreytMKv8jq6JtANyO2fViaPc3zFNouRUXQIg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_000_de3718adf0f2.png)
 
 **ｌ. 引 言**
 
@@ -25,13 +25,13 @@ SiC MOSFET 应 用 于 桥 式 结 构 的 电 压 源 型 变 换 器 时 ， 
 
 功 率 变 换 器 大 多 采 用 桥 式 结 构 ， 以 图 １所 示 的 半 桥 为 例 ， 图 中 V1为 主 开 关 管 ， Ｖ２ 为 互 补 管 ，Coss1 和 Coss2 为 MOSFET 输 出 电 容 ， ＶＤ1， 和 ＶＤ２ 为 MOSFET 体 二 极 管 。 负 载 为 空 心 电 感 ， CL 为 电 感 的 寄 生 电 容 ，R 为 寄 生 电 阻 。Ldc 为 母 线 寄 生 电 感 。Ｃ12 ， Ｃ13 ， Ｃ32 为 PCB 寄 生 电 容 （ 由 PCB 敷 铜 箔 引 起 ） ，其 中 ， C12 为 正 负 直 流 母 线 间 的 寄 生 电 容 ， C13 为正 直 流 母 线 与 变 换 器 输 出 端 的 寄 生 电 容 ， C32 为 负 直 流 母 线 与 输 出 端 的 寄 生 电 容 。 SiC MOSFET 开 通 时 产 生 的 电 流 尖 峰 主 要 成 分 有 ： VD2 的 反 向 恢 复 电 流 、 SiC MOSFET 输 出 电 容 上 的 充 放 电 电 流 、 CL 的充 电 电 流和 C12 ， C13 的 充放 电 电 流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7wkQzaOicdEl5YUeXyiaoxbAicfcgoK6sWeURlvv1qHib5yKO8JdpwqqO2A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_001_cd2332f9710c.png)
 
 **2.1  二 极 管 反 向 恢 复 电 流**
 
 PIN 二 极 管 具 有 反 向 恢 复 特 性 ， 反 向 恢 复 过 程 发 生 于 二 极 管 由 导 通 至 阻 断 的 切 换 过 程 中 。SiC MOSFET 寄 生 的 体 二 极 管 属 于PIN 二 极 管 ， 故 存 在 反 向 恢 复 电 流 。 图 ２ 为 PIN 二 极 管 反 向 恢 复 具 体 过程 ,iD 和 UDS 别 为 二 极 管 的 电 流 和 电 压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7JkoiatPC9FhOSw0kdqrQ6EL8UdQvc8jpicUzwfnRYxOXAdL1aSfL3yLA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_002_efbd4c67659e.png)
 
 **2.2   SiC MOSFET 输 出 电 容 和 负 载 寄 生 电 容**
 
@@ -49,7 +49,7 @@ PIN 二 极 管 具 有 反 向 恢 复 特 性 ， 反 向 恢 复 过 程 发
 
 为 了 研 究 SiC MOSFET 在 桥 式 电 路 中 的 开 通 电 流 尖 峰 机 理 ， 设 计 了 实 验 测 试 平 台 ， 原 理 图 如 图 １ 所示 。 用 双 脉 冲 控 制 Ｖ1 的 开 通 和关 断 ， V2 栅 极 施 加 反 压 保 持 关 断 。 在 图 １ 中 测 试 点 test1， test2和 test3 分 别 测 试 V1 漏 极 电 流 、 V2 漏 极 电 流 和 负 载 电 流 ，但 PCB 寄 生 电 容 的 充 放 电 电 流 无 法 测 量 。 双 脉冲 信 号 如 图 ３ 所 示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7mfCB5PHCvE4u1z2SA0vKWqtMH9Gxgexxkyp4EmgRES1L9ibLPpQmGhQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_003_0b8eb51bb3ee.png)
 
 驱 动 信 号 由 信 号 发 生 器 提 供 ，经 过 同 轴 电 缆 接 入 PCB 。 负 载 使 用 空 心 电 感 ， 从 而 尽 量 减 小 其 寄 生 电 容 。 利 用 RLC 分 析 仪 得 到 图 １ 中 所 示 的 负 载 电 感 等 效 模 型 中 的 电 感 值为 856uH， 寄 生 电 容 为 7.6pF ， 电 阻 为 1.13 欧。 电 压 测 量 使 用 100ＭＨｚ 带 宽 的 差 分 电 压 探 头 ， 电 流 测 量 使 用 120ＭＨｚ 带 宽的 电 流 探头 ， 示波 器 带 宽 为 100ＭＨｚ ， 实 验 设 备 为 ： AFG 2021-SC 型 信 号 发 生 器 ，3302 型 RLC 分 析 仪 ， TA042 型 电 压 探 头 ， TCP0030A 型 电 流 探头 ，DP03014 型 示 波 器 。
 
@@ -61,15 +61,15 @@ PIN 二 极 管 具 有 反 向 恢 复 特 性 ， 反 向 恢 复 过 程 发
 
 此 处 采 用 ３ 种 续 流 方 式 进 行 实 验 ， 如 图 4a 所 示 ， 更 改 续 流 方式 ， 即 在 下 管 处 放 置不 同 的 器 件。图 4b-d 分 别 对 应 SiC MOSFET  体 二 极 管 续 流 、SiC SBD 续 流 和 两 者 并 联 续 流 。 实 验 中 使 用 的 功 率 器 件 其 参数 见 表 １， 其 中 SiC MOSFET 选取 ２ 种 不 同 的 型 号 ， 而 SiC SBD 选取 ３ 种 型 号 。 不 同 型 号 的 SiC MOSFET 与 SiC SBD 组 合 进 行 实 验。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7kRAY4MF0J2lJbgVav9S2NcmYQQCjU98ymL7lkIzibWtFLX7jhXbibzicg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_004_f05d9e61719a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7VDKJn1oRB375Q13augfJTGUpx25HemgORbkyLc15mNXSVHB3pvCq9g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_005_7e5f05009196.png)
 
 当 Ｖ1 使 用 C2M0160120D 型 的 SiC MOSFET ，保 持 漏 源 电 压 为 600Ｖ ， 负 载 电 流 为 10Ａ ，驱 动 电 阻 为 1 欧 ， 在 不 同 续 流 方 式 下 测 得 的 电 流 波 形 如图 ５ 所 示 。 其 中，i1，i2 和 i3 分 别 为 在 ３ 个 测 试 点test1 ，test２ 和 test３ 测 得 的 电 流 。 i1 规 定 正 方 向 为 由 直 流 源 流 入 半 桥 ， 规 定 正 方 向 为 由 半桥 中 点 流出 ，i2 规 定 正 方 向 也 为 由 半 桥 中 点 流 出 。 为 了 便 于 分 析 开 通 电 流 尖 峰 ， 图 中 i1，i3 为 其 实 际 值 减 去 负 载 电 流 稳态 值 ，且 起 始 时 间 定 在 i1 达 到 稳 态 值 时 刻 。 此 处 涉 及 到 test1 和 test３ 处 测 试 电 流 时 亦 如 此 表 示 。 图 5a 为 体 二 极 管 续 流 时 的 电 流 波 形 ， 测 量的 电 流分 别 用 i1a ,i2a和 i3a 表 示 。 图 5b 为 SiC SBD 续 流 时 的 电 流 波 形 ， 测 量 的 电 流 分 别 用i1b，i2b 心 和 i3b 表 示 。 图 5c 为 SiC SBD 与 体 二 极 管 并 联 续 流 时 的 电 流 波 形 ， 测 量 的 电 流 分 别 用 i1c ，i2c 和 i3c表 不 。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7o2QGdmfY7yyNibRu1mCsIgOhnwg5rA2iapQYbXbtTQQ1GicZahlPEKDAg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_006_c14d09acf006.png)
 
 由 图 ｌ 可 知 ， 测 量 的 电 流 大 小 关系 为 ：
 
@@ -79,15 +79,15 @@ i1＝i2 ＋ i3 ＋icap   （ １ ）
 
 通 过 体 二 极 管 续 流 时 ， 由 于 PIN 二 极 管 的 反 向 恢 复 特 性 ， V1 开 通 电 流尖 峰 I1a 主 要 由 体 二 极 管 的 反 向 恢 复 电 流 Irecovery 、 互 补 管 输 出 电 容 充 电 电流 icoss 、 负 载 等 效 电 容 的 充 电 电 流 iL和 PCB 寄 生 电 容 充 放 电 电 流 icap 构 成 ， 即:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7CMD4tVMSqicx6vu1JMoCTmdS4LEfHdCQvHbPIkEajgXAMtkHtg6s3ng/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_007_2fcfb9acf517.png)
 
 SiC SBD 和 体 二 极 管 并 联 续 流 时 ， SiC SBD 门 槛 电 压 较 小 ， 而 体 二 极 管 门 槛 电 压 约 为 SiC SBD 的 ３ 倍 。 所 以 续 流 过 程 中 ， 电 流 只 经 过 SiC SBD ，不 经 过 体 二 极 管 ， 则 体 二 极 管 就 不产 生 反 向 恢 复电 流。 经 分 析 ， Ｖ1 开 通 电 流 尖 峰 主要 由icoss，isbd，iL和icap 构 成 ， 即 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib789ibSxhESmo4QShptscHrGYbGFyUmn3qxunly7cmfc1iaibgAmBNjicjBA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_008_7a90fc91dc0a.png)
 
 由 图 ５ 可 见 体 二 极 管 和 SiC SBD 并 联 续流 时电 流 尖 峰 最 大 ， 且 持 续时 间 最 长 。 为 了 分 析 电 流 尖 峰 中 的 成 分 ，此 处 通 过 测 量 的 电 流 值 分 离 出 电 流 尖 峰 中 各 部 分 电 流。 为 了 衡 量 电 流 尖 峰 对 损 耗 的 影 响 ， 对 图 ５ 中 电 流 和 分 离 出 的 各 部 分 电 流 进 行 积 分 ， 积 分 后 的 电 荷 大 小 见 表 ２ ， 其 中 ， Q1，Q2，Q3，Qrecovery，Qsbd ，Qcoss，QL 分 别为 电 流 i1，i2，i3，irecovery，isbd，icoss，iL 对 应 的 电 荷 。Qother 为 Q1 超 出 Q2 和 Q3 的 差 值 ， 即 为 PCB 上 寄 生 电 容 充 放 电 电 流 icap 的 积 分 值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7yXKsTeoBwT8SXmGepHABZWWIjKzxzuelWVxibb9LPc7lZ1hwvRxYTTQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_009_9684fb504603.png)
 
 根 据 实 验 波 形 及 电 荷 分 离 结 果 ，SiC SBD 带 来 的 电 流 尖 峰 所 占 比 例 较 高 。 相 对 于 在 减 少 反 向 恢 复 电 流 方 面 带 来 的 优 势 ， 结 电 容 导 致 的 电 流 尖 峰 问 题 更 加 严重 。
 
@@ -99,13 +99,13 @@ PCB 寄 生 电 容 带 来 的 电 流 尖 峰 也 占 很 大 比 例 ， 对
 
 改 变 SiC MOSFET 外 部 驱 动 电 阻 便 可 以 改 变 开 关 速 度 。 驱 动 电 阻 越 大 ， 开 关 速 度 越 慢 。 图 ６ 显 示 了 开 关 速 度对 电 流 尖 峰 的 影响 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7g4DJSBdDYRaqBAue3r8PV5VMaagdKcyZWXw0icM4Q8RC5BtvicquRYuw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_010_4ccdaa04da52.png)
 
 其 中 ， 开 关 管 为 C2M0160120D ， 续 流 管 分 别 为 采 用 SiC SBD、 体 二 极 管 以 及 体 二 极 管 与 SiC SBD 并 联 。 开 关 速 度 对 电 流 尖 峰 影 响 较 大 ： 开 关速 度 越大 ， 电 流 尖 峰 越 大 。 在 ３ 种 续 流 方 式 下 均 具有 相 同 的 规 律 。
 
 图 ７ 给 出 了 开 通 瞬 态 的 波 形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7ZzxaX5qT5spYxEc0URCfTKWf6duj5FmEuxOiaKEicfJzl6EM8r2w2GZA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_011_72c187d5eb5f.png)
 
 其 中 ， Uds,iD 分 别 为 主 开 关 管 开 通 瞬 间 的 漏 源 极 电 压 和 漏 极 电 流 ， 续流 方式 为 C2M0160120D  体二极 管 续 流。
 
@@ -117,17 +117,17 @@ PCB 寄 生 电 容 带 来 的 电 流 尖 峰 也 占 很 大 比 例 ， 对
 
 图 ８ 给 出 了 不 同 开 关 速 度 下 的 电 流 尖 峰 电 荷 。 Rc 为 外 部 驱 动 电 阻值 ， Qrr 为 电 流 尖 峰 部 分 的 电 荷 值 。 驱 动 电 阻 越 大 ， 开关 速 度 越 慢 ， 电 荷 略 微 有 减 小 的 趋 势 ，但 总 体 变 化 不 大 。 在 体 二 极 管 续 流 及并 联 续 流 两 种 方 式 下 ， 趋 势 略 微 明 显 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7z5e6YaFL12OrUR3QCMw5hGXDFv2icZFFM1DOvc638XyWk7PtOpJOBOg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_012_569a39e5e470.png)
 
 **4.2.2  直 流 电 压 的 影 响**
 
 直 流 电 压 对 开 通 电 流 两 个尖 峰 的 影 响 有 所 区别 ： 对 第 一 个 电 流 尖 峰 irr1 影 响 较 小 ； 对 第 二个 尖 峰 irr2 影 响 较 大。如 图 ９ 所 示 ， i1 为主 开 关 管 的 漏 极 电 流 。 直 流 电 压 越 大 ，irr1 呈 增 大 趋 势 ， 但 不 明 显 ， 而 irr２ 增 大 幅 度 十 分 明 显 。 第 二 个 尖 峰 增 大 的 原 理 与 第 4.2.1 节 中 相 同 ， 当 直 流 电 压 增 大 时 ， 开 关 管 两 端 压 降 Udrop2 也 增 大 ， 所 以 对 互 补 管 的 电 容 充 电 电 流 增 大 ， 第 二 个 电 流 尖 峰 及 其 持 续 时 间 也 因 此 增 大 。 当 主 开 关 管 为 C2M1000170D 时 ， 实 验 结 果 同 样 符 合上 述 规 律 。 任 何 续 流 方 式 下 ，开 通 电 流 尖 峰 的 电 荷 随 直 流 电 压 的 升 高 而 升 高 。
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7tqLJA0kSwFD9makia7fuG7D8SCEy1SLwjmLdYHCBnsRBwwL51UoBWfg/640?wx_fmt=png&from=appmsg)
+ ![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_013_16178ba31710.png)
 
 如 图 10 所示 ， 给 出 了 不 同 直 流 电 压 下 开 通 电 流 尖 峰 电 荷 ，按 主 开 关 管 不 同 ， 实 验 分 为 两 组 ： 主 开 关 为 C2M0160120D ， 主 开 关 为C2M1000170D 。 两 组 实 验 中 ， 并 联 续 流 均 为 效 果 最 差 的 方 式 ， 因 为 并 联 给 互 补 管 带 来 更 大 的 电 容 ， 从 而 导 致 更 多 的 充 电 电 荷 。所 以 在 实 际 应 用 中 ， 开 关 管 输 出 电 容 和 SBD 的 结 电 容 应 尽 量 小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib72kJicJAQegAAIe4khZROuFPx8TFkicOkCgtu9Dn6BiaBoP35dRSvAnd3w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_014_deda22e5970b.png)
 
 **５.   结 论**
 
@@ -141,10 +141,10 @@ PCB 寄 生 电 容 带 来 的 电 流 尖 峰 也 占 很 大 比 例 ， 对
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_015_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_016_3ade3c3d8599.jpg)![](SiC_MOSFET开通电流尖峰的分析及抑制_images/img_017_84aa944feb13.jpg)

@@ -32,7 +32,7 @@
 
 基于 Si／SiC 混合器件的单相全桥逆变器的拓扑结构如图1所示。图中：Udc为逆变器直流侧电压；IF为负载电流；L、C、R分别为交流侧滤波电感、滤波电容和负载；Io为输出电流；Ton\_delay、Toff\_delay分别为 SiCMOSFET 开通、关断延时；Tcond\_MOS 为 SiC MOSFET中断导通时间；VG\_MOS、VG\_IGBT 分别为 SiC MOSFET 和 Si IGBT的驱动电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaROKKwIF6ZQmze5jHM5QjjtO71TevcUdrZ5nkdAZnNuPoIvImwpXJkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_000_28bf23e06cc4.png)
 
 混合器件具有灵活的开关模式，根据控制目标主要分为最小损耗控制和结温平衡控制两大类，其对应的典型开关模式如图1中的开关模式1、2所示。开关模式1为基于可变关断延时的最小损耗开关模式，通过控制SiC MOSFET开通延时Ton\_delay和关断延时 Toff\_delay，令Si IGBT零电压开通与关断，实现减小损耗的目标。开关模式2为基于导通时变的结温平衡开关模式，通过控制SiC MOSFET中断导通时间Tcond\_MOS，将部分导通损耗转移给Si IGBT，实现 SiCMOSFET与Si IGBT结温平衡的目标。
 
@@ -68,13 +68,13 @@
 
 SiC MOSFET 的结-壳热阻抗 Zth\_ j⁃c\_MOS 以及 SiIGBT 的结-壳热阻抗 Zth\_ j⁃c\_IGBT 使用 Foster 热阻抗网络模型来等效，其表达式分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSatrDSBCh3AhrZ4mrA8wjibrBYEzA1NyG74WwqsQZcJOpht9J3SbfmKNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_001_31cb7686a351.png)
 
 式中 ：Rth\_MOS，i、Rth\_IGBT，i 以及 τMOS，i、τIGBT，i 分别为 SiCMOSFET、Si IGBT 第i 阶热阻以及时间常数；n为Foster热阻抗网络模型阶数。
 
 在已知环境温度和器件各自的损耗功率后，根据混合器件的热网络模型即可计算SiC MOSFET和Si IGBT的结温Tj\_MOS和Tj\_IGBT，计算公式分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaxtpx0Nn29WzCYctHNsS8A7B7KKv2xQtGQ5iaLBlfkQbJdNX9LgO03ibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_002_c1a12fe94381.png)
 
 式中：Ploss\_MOS 以及 Ploss\_IGBT 分别为 SiC MOSFET 以及Si IGBT 的损耗功率；Zth\_ c⁃a 为器件壳-环境的热阻抗；Tambient为环境温度。在器件老化过程中热阻近似成指数级增大，结合器件结温的计算公式可知，在最高结温约束下，相比于初始健康状态，混合器件老化后期逆变器的最大安全运行电流将有所下降。即混合器件出厂健康状态下的逆变器安全工作区将难以保证老化后期逆变器的安全运行。因此设计混合器件逆变器的安全工作区时必须覆盖器件的全寿命周期。
 
@@ -88,15 +88,15 @@ SiC MOSFET 的结-壳热阻抗 Zth\_ j⁃c\_MOS 以及 SiIGBT 的结-壳热阻�
 
 本文设计了具有通用性的混合器件全寿命周期逆变器安全工作区刻画流程，如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa4qnbCXUJCwibILAUgVKMQRaGLOX9VT2vF8resnLFMibzCRGrgK2TotXA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_003_3494bbc7d7d1.png)
 
 1）首先通过数值迭代方法对器件结温进行实时计算。设置环境温度和逆变器负载电流 IF 后，通过损耗模型计算出SiC MOSFET 和Si IGBT各开关周期的平均损耗 Ploss\_MOS 和 Ploss\_IGBT，再结合混合器件的热网络模型迭代计算出器件最终稳态结温 Tj\_MOS、Tj\_IGBT。以第 k 个开关周期的混合器件结温为例，具体计算公式分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaHAslvWQ2qMVUbvHqjJo4g4zicXeUt4Oy4XP0ibQu0smw9tqSbrZKPrLg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_004_ce1633a0ddd3.png)
 
 当前时刻的温差需要利用前一个开关周期的温差进行计算，以 SiC MOSFET 第k个开关周期结-壳之间的温差为例，计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaguWmWt3Jic1hrMtMf4rN5nUrxts8XWRTAfib4wEl64molHwhXia5LoJ2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_005_bed83f0d09da.png)
 
 式中：Tsw为混合器件开关周期。
 
@@ -114,7 +114,7 @@ SiC MOSFET 的结-壳热阻抗 Zth\_ j⁃c\_MOS 以及 SiIGBT 的结-壳热阻�
 
 由文献［22］可知，在器件全寿命周期内其热阻增长速率会出现明显拐点：热阻增量［0，0.5 %RthN］为线性增长阶段，此时器件处于健康状态；热阻增量（0.5 %RthN，50 %RthN］为加速老化阶段，该区间内器件处于非健康状态。因此，本文以热阻增量 0.5 %RthN为拐点对安全工作区进行切分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSazNfwkDpfIJ4ZPmh4niaB4Ght2drO5DnAHicJxOZ0MBTrKP0frfdqnfFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_006_724f329879f5.png)
 
 R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中 SiC MOSFET 热阻标准化值 R∗th\_MOS 为标幺值，后同）。红色虚线下方SiC MOSFET处于健康状态，其热阻增量较小但是该阶段占据器件大部分寿命。此时开关模式1下逆变器的最大安全运行电流在 32.2 A 附近，而采用开关模式 2 时该电流提升到 34.5 A左右。红色虚线上方 SiC MOSFET 处于非健康状态，其热阻会在较短的寿命周期内迅速增大直至器件失效。最终开关模式1下的逆变器安全工作区收缩到 30 A 以下，而在开关模式 2 下依然保持在 33 A 以上。通过对比可以看出在同等器件老化程度下，采用开关模式 2 运行的逆变器具备更高的功率输出能力。
 
@@ -130,7 +130,7 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 选取 Si IGBT 热阻标准化值为 1，SiC MOSFET热阻标准化值作为变量，健康状态下开关模式 1 和开关模式 2 的二维安全工作区如图 4 所示。图中：IF\_N为额定工作点下的负载电流；红色虚线以下即为健康状态时开关模式 1和开关模式 2对应的逆变器安全工作区；阴影部分对应的是开关模式 1 下逆变器最大安全运行电流因器件老化而缩减的部分。以额定工作点为基准，健康状态下的安全工作区基本无变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaULBYgjibvFN3WMBSN2Pyzzh7ArMPxHDcKkKraGB9YHwZdN6DgrvH7FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_007_e38b5be309a0.png)
 
 因此健康状态下的开关模式切换思路为：当逆变器工作在区域 A 对应的额定及以下功率时，混合器件采用开关模式 1 运行，确保逆变器的最高工作效率；而当逆变器因过载工作在区域B时，需将混合器件切换至开关模式2运行，利用开关模式2更大的安全工作区平衡混合器件内部的热应力，进而提升逆变器的极限输出能力。
 
@@ -138,7 +138,7 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 随着老化进程的不断加深，混合器件将由健康状态转变为非健康状态。虽然非健康状态只占据器件寿命的较小一部分，但是热阻在该区间内迅速增大。此时热阻变化对逆变器安全工作区的影响不可忽略，需根据不同的工况进行开关模式切换。非健康状态下开关模式 1和开关模式 2的二维安全工作区如图 5 所示。图中：红色虚线上方即为非健康状态下开关模式 1 和开关模式 2 对应的安全工作区。区域 C 为开关模式 1 下的安全工作区，且随着热阻的不断增加安全边界呈现收窄趋势；区域 D 是开关模式 1 下受器件老化影响所减小的安全工作区范围；区域 E则是开关模式 2对应的安全工作区，其变化趋势同开关模式1相似。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaJeTOWibqPr0KWkthPLZ4VtkbubmPog2ZKyEbBHtpLbf2DFeggibIC4Ww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_008_020808d398ed.png)
 
 根据以上分析可以将非健康状态下混合器件的模式切换思路分为以下几种情况。
 
@@ -162,7 +162,7 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 混合器件全寿命周期内逆变器安全工作区的准确性。在混合器件健康状态下（R∗th\_IGBT=1 p.u.，R∗th\_MOS=1 p.u.），选取工作点a1—e1，覆盖开关模式 1和开关模式 2下逆变器安全工作区内外及其边界。在混合器件非健康状态下（R∗th\_IGBT=1 p.u.，R∗th\_MOS=1.3 p.u.），按照同样思路选取工作点a2—e2，具体的工作点选取图及各点数值大小见附录 D 图 D2。通过实验测得不同工作点下混合器件的最高运行结温，如图6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSarTlFHRaNyhEZ8JI1d8KgJia0p0XOCpeafF5uwUtcmYNpmGQhPbZo6TQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_009_fcc40488009d.png)
 
 混合器件健康状态下的实验结果如图6上图所示。开关模式 1 下逆变器工作在点 a1 时，混合器件最高结温在 110 ℃ 左右，处于逆变器的安全工作区内；逆变器工作在点 b1 时，混合器件最高结温达到150 ℃，处于安全工作区边界；后续工作点对应的混合器件结温均高于 150 ℃，超出安全工作区范围。而开关模式 2 下逆变器具有更大的安全工作区，直到负载电流增大到 34.4 A 即点 d1 时，混合器件最高结温才达到150 ℃。
 
@@ -174,13 +174,13 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 下面将进一步验证面向逆变器安全工作区的多开关模式主动切换策略的有效性。分别在混合器件健康和非健康状态下选取工作点 a3— c3、a4— d4，涵盖所有开关模式切换对应的区域，具体的工作点选取图及各点数值大小见附录 D 图 D3。根据所选取的工作点，对不同开关模式切换策略的实际工作效果进行测试，然后记录混合器件的运行结温以及逆变器的最大输出功率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa30yv4DKzmCyhoEIqicht2d36IqZCL3zeWyzQ4VCoymDkibMR4AE4tYgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_010_8182a6af93bb.png)
 
 混合器件健康状态下，采用开关模式 1 和本文所提多开关模式切换策略的实验结果对比如图7所示。由图 7（a）可知：混合器件健康状态下，仅采用开关模式 1时，当工作点由 a3切换到 b3后，逆变器工作在区域 A 边界，混合器件会因为 SiC MOSFET 过温而触发保护，此时逆变器的最大输出功率不足7 084 W。由于混合器件健康状态阶段安全工作区变化较小，因此传统多开关模式切换策略与本文所提多开关模式切换策略基本一致。由图 7（b）可知：采用本文所提多开关模式切换策略时，当工作点由a3切换到b3后，混合器件将主动切换到开关模式2运行；当工作点切换到c3时，负载电流到达区域B的边界，此时混合器件结温接近150 ℃，逆变器的最大输出功率提高到7580 W。
 
 混合器件非健康状态下，采用传统多开关模式切换策略和本文所提多开关模式切换策略的实验结果对比如图 8 所示。由图 8（a）可知：采用传统多开关模式切换策略时，当逆变器工作点由 a4切换到 b4后，逆变器工作在区域 C边界，此时 SiC MOSFET 已经达到 150 ℃ 限制结温，触发了过热保护。结合逆变器安全工作区刻画结果可知，非健康状态下传统策略所设定的模式切换阈值电流失效，导致逆变器无法维持原额定功率运行。由图 8（b）可知：采用本文所提多开关模式切换策略时，当逆变器工作点从a4切换到b4后，混合器件会主动切换到开关模式2运行，其热可靠性得到了有效保障；当工作点切换到c4时，逆变器仍然可以维持额定输出功率 7084 W；直到切换到工作点d4，负载电流到达区域E的边界，此时逆变器的极限输出功率为7370 W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa1SxlwdLfGKElBScEAkn3wAtpTH6vqvfD1kiczjdibiac4va84wmRxcCMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_011_91b4eaf22c1a.png)
 
 与传统多开关模式切换策略相比，本文所提策略使得逆变器在混合器件非健康状态时仍然可以维持额定功率运行，且极限输出功率约提升了9.84 %，其在混合器件全寿命周期内的可靠性得到了有效保障。
 
@@ -196,7 +196,7 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 4）与传统多开关模式切换策略相比，本文所提方法在混合器件非健康状态下，依然可以在额定负载时保持逆变器不降额运行；而在过载时增大逆变器的最大功率输出能力，降低器件过热风险，可以实现混合器件全寿命周期内逆变器的可靠运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaYJ9QJOUg8h9ApvsTNPCO0wyicKCxN05MncUHZwNiatqITdVVWuDpefMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_012_b5f0060af026.png)
 
 混合器件损耗模型
 
@@ -204,11 +204,11 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 基波周期内单相逆变器输出电流可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSasdtDP8TstWaDVBtymmSwh10sicWw6X36pJOy0tLaJzgF7OERWOXOicZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_013_a2b9c3bf0faf.png)
 
 式中：IF为负载电流瞬时值；Ipeak为负载电流的峰值；w 为角频率。双极性调制方式下，占空比可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaFpR43GYzVjLs6ficwwKwByslmhtd4pmBdENB4w1OYvBH2wNeiaxotUUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_014_ef6d5d6b784f.png)
 
 式中：m 为调制度；Φ为交流电压和电流基波分量之间的相位角。
 
@@ -216,49 +216,49 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 阶段 1：混合器件导通损耗Pcond均由 SiC MOSFET 产生，计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaRDB93iaKphskN6uPSbhVU2g2h9IH0w2P9Z8KzkJU9yI68vwRs6ReAHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_015_905137c5e25b.png)
 
 式中：Rds为 SiC MOSFET 的导通电阻；Td为死区时间；fsw为混合器件的开关频率。
 
 阶段 2：SiC MOSFET 和 Si IGBT 的分流电流IMOS和IIGBT可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaO3dcscmg848Z8dvq2iahqxzfSbAlYoPXx0OYRaB856yErFhoakVjvibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_016_0edeb9a25c0b.png)
 
 式中：Rce为 Si IGBT 导通电阻；Vth为 Si IGBT 的拐点电压。
 
 阶段 2 内混合器件的导通损耗由三部分构成，分别是 SiC MOSFET 的分流导通损耗Pcond\_MOS、Si IGBT 的分流导通损耗Pcond\_IGBT和 SiC MOSFET 在延迟关断时间Toff\_delay内的额外导通损耗Pcond，计算公式分别如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSah24Z0SEuQTvsLWHGtv003bYxYgH7koUaU0QEtW1dyoVwwpSeibG6OEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_017_adeb00fe5085.png)
 
 阶段 3：导通损耗仅由 MOSFET 的导电沟道产生，计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaGiakAVCI9efTNXjcllbH8bLCBnexPpicvib6821ArMAMsGWiaJao4k6Hyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_018_b20f6db08814.png)
 
 阶段 4：SiC MOSFET 导电沟道和体二极管的分流电流IMOS和IBD可分别表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaytwj3QUnMkD6EC232oWVY2dyYaKoycqheOQuycicwUBjlOGP2IfHNdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_019_1b7d0fa65753.png)
 
 式中：RBD为体二极管导通电阻；Vth\_BD为体二极管的拐点电压。  
 
 该阶段的导通损耗由 SiC MOSFET 导电沟道的导通损耗以及体二极管的导通损耗Pcond\_BD 组成，计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaSicCuLymNg82ZhnBrm1JicLqnUV1KzbwkjBibkMk7OkFef27T9UsaPuicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_020_5a733daac5c2.png)
 
 死区时间内，Si IGBT 和 SiC MOSFET 导电沟道均关闭，此时电流全部流经 SiC MOSFET体二极管，死区损耗Pcond\_BD\_dead的计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa6icHLXYGJj87XGibHH8mOWZpT71ZMs6b1CjY49ITpXaHHI9gsnVe7g0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_021_84fed3d612ef.png)
 
 2）开关损耗模型。本文基于双脉冲测试平台得到混合器件的开通损耗随开通延时Ton\_delay的变化曲线，如图A2 所示。各器件的开通损耗计算公式分别如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaic4iaHedxLselDRtgvTHUtOEshsyoDibS1avc13ETsT4TYgqG37SqPPXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_022_43e6d3224b2b.png)
 
 式中：Eon\_hard\_MOS和Eon\_hard\_IGBT分别为 SiC MOSFET 和 Si IGBT 的硬开通损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSan51AT2PM5fJsNpjyXkYcJrFhZD4DdRdWmAAia8Mj0KjlR682NpUd75A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_023_06a2dd2832f9.png)
 
 混合器件的关断损耗与关断延时Toff\_delay的关系如图 A3 所示。各自的关断损耗计算公式分别如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSabPuEvcKrA8LohJaf7xIyVo4eVCf5zvb4DdSic3icd6xMb0JBgqUZUhYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_024_a4d17394d730.png)
 
 式中：Eoff\_hard\_MOS和Eoff\_hard\_IGBT分别为 SiC MOSFET 和 Si IGBT 的硬关断损耗。
 
@@ -270,41 +270,41 @@ R\*th\_IGBT = 1 p.u. 时的逆变器二维安全工作区如图3 所示（图中
 
 阶段 3、4：在负载电流反向导通阶段，由于死区时间的存在，SiC MOSFET 为零电压开通关断，因此混合器件的总开关损耗仅为体二极管所产生的反向恢复损耗Err\_BD。根据不同负载电流下的反向恢复损耗数据可以拟合得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaTy4Hib33v3vomaXFPoLdnAOrezZWDOvo2selTA3PAD33icT3vyRgth4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_025_5b4f998df8d6.png)
 
 式中：a 、b 、c为拟合得到的系数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaFG1f6XmYYicIRSQ1Hw9k2OrR586yIVUofuEnjhyNetcjEb05qXXe50w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_026_84faafe457d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaibnFiaibDoErtPMNgkecbHHnM4s8grhVxlqV5zZeGp1y35kRqhq8gfbuw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_027_29a565935dae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaGdjGibIxrMb2veoLQBMjc2ibGicGsj9DKZKtn1G8j1MZOActYVYOyjHyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_028_bdbab69ac5d1.png)
 
 当混合器件处于健康状态时，逆变器仅在过载时进行模式切换。首先通过老化进程判断模块给出判断条件为额定电流 IF\_N，再通过热电耦合计算模块配合模式切换模块进行判断选择。当负载电流 IF小于 IF\_N 时，模式切换控制器选择开关模式 1 运行；当 IF大于 IF\_N 时，主动切换到开关模式 2 运行，以提高逆变器运行的可靠性。
 
 当混合器件处于非健康状态时，模式切换的方案如下。老化进程判断模块给出的判断条件分别为额定电流 IF\_N 和开关模式 1 的安全工作区边界值 IF\_limit。当 IF＜IF\_limit 时，逆变器处于开关模式 1 的安全工作区内，此时无需进行模式切换；当 IF\_limit≤IF＜IF\_N 时，控制器需主动切换到开关模式 2 运行，并将逆变器的安全工作区扩大至区域 D，保证逆变器不降额运行；当 IF≥IF\_N 时，应主动切换到开关模式 2 运行，并将安全工作区进一步扩大至区域 E，尽可能提高逆变器的过载能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa9LZRRia1fpxCZJLcXCiaKlofrQCJ26qyq5jKiaRq2sjdVEicCuh0C0usPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_029_5358f2408ddd.png)
 
 为了验证本文所提混合器件全寿命周期内的逆变器安全工作区及多开关模式切换策略的有效性，搭建了图 D1 所示的单相逆变器实验平台。该平台包括直流电源、DSP 控制板、单相全桥逆变器、负载以及示波器。其中全桥逆变器各桥臂采用由 1200 V/25 A 的 Si IGBT（IGW25N120H3）与 1200 V/12.5 A 的 SiC MOSFET（C2M0160120D）并联组成混合器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSazJg1dXNSZ81rgZbyzmWs40ZIduQCxQgY4Wz8rDhR5HrFMzKQSYNe3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_030_ae0e982cac2f.png)
 
 如图 D2 所示，在混合器件健康状态下（R\*th\_IGBT =1 p.u.， R\*th\_MOS=1 p.u.），选取工作点a1—e1，覆盖开关模式 1 和开关模式 2 下逆变器安全工作区内外及其边界。其中 a1的负载电流为 25 A，b1的负载电流为 32.2 A，c1 的负载电流为 33A，d1 的负载电流为 34.4 A，e1的负载电流为 35 A。在混合器件非健康状态下（Rth\_IGBT=1，Rth\_MOS=1.3），按照同样思路选取工作点 a2~e2，其中 a2 的负载电流为 25 A，b2 的负载电流为 30.5 A，c2的负载电流为 33 A，d2的负载电流为 33.5 A，e2的负载电流为 35 A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa1U2yI2e9m3PRlZRiblzk3qrLDROodbzSL0UV8tiaaTllUxUicEicvXL2IQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_031_7915494a64ab.png)
 
 如图 D3 所示，分别在混合器件健康和非健康状态下选取工作点，涵盖所有模式切换对应的区域。其中 a3的负载电流为 25 A，b3的负载电流为 32.2 A，c3的负载电流为 34.5 A；a4 的负载电流为 25 A，b4的负载电流为 30.5 A，c4的负载电流为 32.2 A，d4的负载电流为33.5 A。
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_032_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_033_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\面向Si_SiC混合器件逆变器全寿命周期安全工作区的多开关模式主动切换策略_images\img_034_9bbc7b9b15a2.png)

@@ -3,31 +3,31 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/uyZXL\_zzh8U-i6KTb3h8ww](https://mp.weixin.qq.com/s/uyZXL_zzh8U-i6KTb3h8ww)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVZ7SZ8nWvYw7AsnVx9clp5P9cp4TmR4p8fzTzliciaa8qtXyB6ztejZ80ia5eUwticuznGRdY6EF1DpA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643359&idx=1&sn=c92084416cfa435b7366dbc79d58288d&chksm=88bc3090bfcbb986aa8d7e1a5de11c421c9086e14ac19201718408096cdf2b5ca907528a52c0&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_001_abe6bd5f1dfb.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643359&idx=1&sn=c92084416cfa435b7366dbc79d58288d&chksm=88bc3090bfcbb986aa8d7e1a5de11c421c9086e14ac19201718408096cdf2b5ca907528a52c0&scene=21#wechat_redirect)
 
 去年以来，作为西莫主办的电机设计“加强班”，电机NVH问题的机理和测试仿真研修班已经开启了全新升级，增加了电机动力总成以及复杂电驱动系统中的NVH问题的分析与声学解决方案的讲解，同时由周英杰、李彦昊两位专家共同编著的《电驱动系统的时域NVH分析与声音设计》作为培训教材，为更多的参加学习的电驱动系统NVH工程师提供了指导和帮助：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVfv4boqVeCLYu3et805O6fLZRuuFaQ4UkRhL2icnZicGuLs1iahUwWKr7ibRfUnnBBQQcPMtTtJ2ib6og/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_002_ff03051535e9.jpg)
 
 这本培训教材都讲了哪些内容呢？相信大家通过之前发布的培训大纲已经略知一二；在距离培训开始已经不到一个月的时间，这里小编将再次带大家回顾一下部分精彩的教学内容，希望能够给想要参加本次研修班还没确定参加的在电驱动系统NVH方面需要学习提高的朋友们更多帮助：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fYPNciaOMmjtsX0Q35icMErq2gxdhs4hZUc9qicRosGonV2wIT2Xuygrww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_003_e900da85ef66.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fsg4Y3895zcCDAyVjG6eatN7YLagZSM8nibWVBMqN1603nso3losE3bA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_004_1525f3de6652.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6f2icbYFx3x8ONzMrWicMQptQf1ewvARvY005oseJ2ByPapPJXiax72icTKw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_005_deb82a2f1421.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fPQHV5vKf2Uqfp1ib1UNfbsNIicZZvibVJUiaK29bTjlewNQhd69vLicMafQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_006_da890c3597d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fibu7mN1jibJvpNltvzwohn4HvbTMajGh8ZwYpW8642XTzC6M3jgib4jTQ/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_007_4ed70309c77b.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fAZWCAPSYh6rCXL66HQFBWQgHAsAOApxHD1LxicMXJgOMOGggyHvqzhQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fwGN1Y5GGNjmAoGu4trsuic6H6Xtz8MY5zQsNSd2xibjNNBZeF1QMsj6w/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fktFnb2NKQDgzI4mib4NvykrXTxTd7lLj735ThXtpag9ibHHtUd0nKekw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_008_a664bed6da04.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_009_7b66784940c0.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_010_b49ac8b9dcfb.png)
 
 以上章节的更多详细内容均将收录在培训教材中，相信通过参加我们这次研修班学习的学员朋友都能在电机NVH高阶应用领域——电驱动系统仿真分析及复杂电机系统声音设计应用方面得到更多的提高和收获，欢迎大家扫码报名参加本次培训：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVm2CBicFpNuqibVGmXeA4oPyogHZKtgthLZTERibeu44zHFqicNmiafhrJn6AATkKSY2QxxyEZDPBhyaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_011_1b09c7b6ff7a.jpg)
 
 关于本次培训的更多详细介绍，请看下文：
 
@@ -89,7 +89,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVNKJq1icNsDVMgYIrqQooqs2zvf0or76hkxQDZ5DB8K83mHJOFEUn9uianAib0dG2oia25wNVfBnR5YQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_012_52cf41c31e66.jpg)
 
   
 
@@ -125,16 +125,16 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVZ7SZ8nWvYw7AsnVx9clp5gbnqyLTYVuvkDxgeqeA81T0YXoc5SnnDXAenWicrrxZwqzGhheVoNxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_013_1d3f7624a43a.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIU9juhwts62UsqmFbpLickVowW6Qx381PB7aMIPAFBEhSMOyMpfbkhCEF7PIDUbACJ6TVsfhiaXf31Q/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_014_5979b8ecf8e4.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_015_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/9RCbW5V9GKvqaLU5troPGRViaHQ4bmo7BFLxzaB5ZiaiaJP8x9wOo1vDOGb1gOJXpVz5ywSyoVHFj0XyGesa0e3iaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643601&idx=1&sn=d45509d02270b457a8d040476ccce85b&chksm=88bc379ebfcbbe88e2c937b1dade6893db10e76438e3ccc9acce1a087b754b2869544f15b526&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV6ibW51GibK1aoeFhH3rXLjsMD3gibInqh2K9zUdy7bj1O4sibUfNURDPWbelLtDqwnAhgcEz6h3A2Hg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643567&idx=1&sn=3451257036f59af3eb37edd935becc98&chksm=88bc3760bfcbbe76db701505b8192be056ab38a08077ee553346a6ac534d512f282d7b560c6c&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWPSJOGWYjv6m5iaWgJcweFNpBYYfSz38F8yIhF0icIkvsNr6MXYT50zusjz3K4uic8ItMkicUs5d9OoQ/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643501&idx=1&sn=9acee6fb8c5224c7504424c8a21cc9da&chksm=88bc3722bfcbbe34f407b249923cc4133de7986948fb7b85a51dacaad8382a2b6f1e31c5e87c&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_016_de3f252952e6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643601&idx=1&sn=d45509d02270b457a8d040476ccce85b&chksm=88bc379ebfcbbe88e2c937b1dade6893db10e76438e3ccc9acce1a087b754b2869544f15b526&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_017_222d9df3a85d.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643567&idx=1&sn=3451257036f59af3eb37edd935becc98&chksm=88bc3760bfcbbe76db701505b8192be056ab38a08077ee553346a6ac534d512f282d7b560c6c&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_018_e8013146f821.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643501&idx=1&sn=9acee6fb8c5224c7504424c8a21cc9da&chksm=88bc3722bfcbbe34f407b249923cc4133de7986948fb7b85a51dacaad8382a2b6f1e31c5e87c&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_019_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_020_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_021_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电驱动系统NVH问题最新解决方案来了__images\img_022_d960d0948cf9.gif)

@@ -19,7 +19,7 @@
 
 然而，在通往“独特”的十字路口，他们走向了相反的方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jvaBNoDcre66XbV8tFJGKl4gel7dDfFqZXpqM4JOFdDXZpAjIGBKPyBeibV5uGeARo7IGmYz77eK62EYowic5trXPFwSwp3cxyL2103vUNGFQ/640?wx_fmt=png&from=appmsg)
+![](小资_vs__文青_images/img_000_8141e7c24897.png)
 
   
 
@@ -83,7 +83,7 @@
 -   同时也卖给文青“反叛、独立、忧郁”的边缘幻觉。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jvaBNoDcre4rvUrtjgb9nhbHwZFZicLPumrwMNVIJqqvehM58JqTnvQUZ49D9nibPJGSC05C3VmRyeQ9uxicJV3tBAVqialBjz92cAu9o0mV6ib0/640?wx_fmt=png&from=appmsg)
+![](小资_vs__文青_images/img_001_81fea4ae5e32.png)
 
   
 

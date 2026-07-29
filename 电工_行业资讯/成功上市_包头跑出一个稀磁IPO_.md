@@ -1,0 +1,65 @@
+# 成功上市！包头跑出一个稀磁IPO！
+
+原创 月酱 电机新视界 2024-12-05 12:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/P9jOcviPD-SQbCMoGY7gNw](https://mp.weixin.qq.com/s/P9jOcviPD-SQbCMoGY7gNw)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v60sr7wQibxMRQRCwtMXEWpj8JC0JQfLhhib40j4yCogTRUEqz0DPcRZiaIXEaCthfOtnN5p7n6SRow/640?wx_fmt=jpeg&from=appmsg)
+
+
+  
+
+12月4日，**包头市英思特稀磁新材料股份有限公司（简称“英思特”，股票代码301622.SZ）正式登陆深圳证券交易所创业板。**本次上市，英思特共发行了2898.30万股股票，每股发行价为22.36元。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/BwfAicXlnnQQTQHYcZHuzWsDlPHw5yrKeVgbt6THPXNn2T9Mt7yfrBapdGSsIczFrfpl7vcMCxfL2P8ZrZZibEYg/640?wx_fmt=other&from=appmsg&wxfrom=5&tp=webp&wx_lazy=1&wx_co=1)
+
+包头市坐拥世界最大的白云鄂博稀土矿藏，其轻稀土储量傲视全球。近期，工业和信息化部公布的2024年先进制造业集群竞赛优胜名单上，包头稀土新材料集群脱颖而出，荣获全国先进制造业集群殊荣，独揽稀土领域的这一桂冠。
+
+回顾2023年，包头市在稀土新材料领域共推进了23个重点项目。步入今年，磁性材料领域更是火力全开，实施了20个项目。同时，包头在储氢材料、抛光材料以及催化助剂材料方面的产能也持续领跑全国。
+
+目前包头稀土领域不仅有已经上市的龙头企业北方稀土、科创新锐英思特，在拟上市的25家企业中，还有9家稀土企业。
+
+内蒙古积极推动新质生产力优质企业上市，连续4年实现了企业上市不断档，上市企业达到33家，其中境内上市28家，境外上市5家，境内上市公司总市值达6600亿元。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/U6SB1UDotAmC6kSIT27mhO6w2UzAIplaI2HeVbaCFWcIlTy52elYibOb6O5ibCmuWQSvfqJicVZxHZIvZwc5FnIicw/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic)
+
+英思特自2011年6月成立以来，已发展成为全球稀土磁性材料应用领域的佼佼者。作为国家级高新技术企业和专精特新“小巨人”企业，英思特专注于稀土永磁材料应用器件的研发、生产和销售。公司致力于行业前沿的磁性技术及终端应用技术的开发，其主要产品涵盖稀土永磁材料磁组件器件和单磁体器件，广泛应用于3C消费电子、新能源汽车、航空航天、智能家居及风力发电等多个领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/HkibdCfkRKib1BwsdzXNXGgOdLYhLqrYHCC9PqsTDQxbdgX7icwJsUjG1Kja5zMXY7RMo373hkCFcgZrKdSTfSNRw/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic)
+
+技术创新和研发投入一直是英思特发展的核心驱动力。公司不断提升产品性能和质量，并在精密加工、表面处理及智能组装等关键环节掌握了一系列核心技术。据招股书披露，截至2024年9月，英思特已累计获得8项核心技术相关的发明专利授权和15项实用新型专利授权，同时还有11项核心技术相关的发明专利正在申请中。这些专利成果体现了英思特在稀土永磁材料应用领域的深厚积累和突破。
+
+凭借卓越的研发设计能力、先进的生产制造工艺以及可靠的产品质量，英思特赢得了众多下游客户的认可与信赖。目前，公司已成为苹果、微软、小米、华为、联想、reMarkable、罗技等国际知名消费电子品牌商的重要稀土永磁材料应用器件供应商之一。
+
+  
+
+**知识回顾**
+
+**电机政策：**
+
+[电机市场的IE5时代，真的要来了吗？  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247550130&idx=1&sn=42a14a5382b68a0bbd4ba48093155097&chksm=cede4576f9a9cc600786ab2908e4c3ef2cf3dbbfdb71a9265508f92e2dbda25384b66424bfde&scene=21#wechat_redirect)
+
+  
+
+# [高压电机 能效标准GB 30254-2024已发布 9月1日正式实施](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247574347&idx=1&sn=324e60a45f9ce388894db215c8ad9534&scene=21#wechat_redirect)
+
+  
+
+**精选文章：**
+
+[清华大学的电机系毕业生都去哪儿了？](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247548328&idx=1&sn=8bbb58f38491f58600b87c85f9a2a864&chksm=cede7c6cf9a9f57ac80d409cbc6b9ced57c5d4df799227673198488eb6ac427f40098e09d145&scene=21#wechat_redirect)
+
+  
+
+# [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
+
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sib5wZiatdKpxSTgRDG9vM6BrpiceLL0kK81U42flFXKkzfxialicRjg5Sh9vNvA86y00A5wSGFiaNWnnQ/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)

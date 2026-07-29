@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/kW-0FNwjZTcZ8zdMOQ4DyQ](https://mp.weixin.qq.com/s/kW-0FNwjZTcZ8zdMOQ4DyQ)
 
-____________![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBHicI4icrKiagGwl0KicscuuWX6o4xq4PYPVsNoDKyezziatQZOwiaurZ6ic5w/640?wx_fmt=png)____________
+____________![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_7_详细解析如何设计有源晶振电路_images\img_000_102a56b36e65.png)____________
 
 _______**★★★**______OSC-7---有源晶振电路______**★★★**_______
 
@@ -23,7 +23,7 @@ _______**★★★**______OSC-7---有源晶振电路______**★★★**_______
 
 # ______€3.有源晶振EMC设计______
 
-EMC包括两个方面的要求：一方面是指晶振在正常运行过程中对所在环境产生的电磁干扰不能超过一定的限值；另一方面是晶振对所在环境中存在的电磁干扰具有一定程度的抗扰度，即电磁敏感性。如**_图7-1_**是典型的有源晶振电路，有源晶振的连接方式相对简单，不需要复杂的配置电路，有效避免了外部电容匹配不好造成频率偏移的问题，同时也在很大程度上减少了电路板杂散信号对它的干扰。![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TSkPHNTy2jNSHrdDfED3cWJjhFct0eiceib3kficfP6ugvV2keZXJGDRqQ/640?wx_fmt=png)
+EMC包括两个方面的要求：一方面是指晶振在正常运行过程中对所在环境产生的电磁干扰不能超过一定的限值；另一方面是晶振对所在环境中存在的电磁干扰具有一定程度的抗扰度，即电磁敏感性。如**_图7-1_**是典型的有源晶振电路，有源晶振的连接方式相对简单，不需要复杂的配置电路，有效避免了外部电容匹配不好造成频率偏移的问题，同时也在很大程度上减少了电路板杂散信号对它的干扰。![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_7_详细解析如何设计有源晶振电路_images\img_001_463d5ab2ee1b.png)
 
 **_图7-1：典型的有源晶振EMC标准设计电路_**
 
@@ -65,13 +65,13 @@ _3#：输出端电容_
 
 如下**_图7-2_**至**_图7-4_**是不同输出波形的测试电路，可以作为大致参考。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TlSFhGTKa8yF9mMLicgojkbCVePJh31AibibfeBibu3icwvMdGGBaia7RRPAA/640?wx_fmt=png)**_图7-2：LVPECL_**
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_7_详细解析如何设计有源晶振电路_images\img_002_e28440c7929f.png)**_图7-2：LVPECL_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TiaTETQzmyZyNayfqfUszyhG6wqWWpwwLsZ0uicT1EqfXckQtjLQTapOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_7_详细解析如何设计有源晶振电路_images\img_003_0e53a951b943.png)
 
 **_图7-3：LVDS_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TqJrUOBqUvIlWUMd9Qjx4OsCJhhHto6HJRzk8xODuWaAPdaW569e2Kw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_7_详细解析如何设计有源晶振电路_images\img_004_0853ff96b623.png)
 
 **_图7-4：HCSL_**
 

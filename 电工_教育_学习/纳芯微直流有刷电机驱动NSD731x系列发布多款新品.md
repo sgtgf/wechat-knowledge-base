@@ -1,0 +1,81 @@
+# 纳芯微直流有刷电机驱动NSD731x系列发布多款新品
+
+原创 电机新视界 2022-09-09 09:39 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/rFRuMp\_nux-Ks0o81\_tDAw](https://mp.weixin.qq.com/s/rFRuMp_nux-Ks0o81_tDAw)
+
+**点击蓝字**
+
+**关注我们**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+
+
+来源：电机控制设计加油站  
+
+  
+
+纳芯微全新推出NSD731x系列直流有刷电机驱动芯片，该系列产品包括NSD7310, NSD7312, NSD7310A, NSD7312A, NSD7312-Q1, NSD7312A-Q1等多款芯片，可广泛适用于扫地机、家电、直流有刷电机模组、新能源汽车等多种应用场景。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FdFtibibs15yCCxCNvzMrd9KF2GiaC5Op3OsKYI2ZzkK7dMjHKQ1f6KHRuvRbY1xTUPDud60YnPc8ibP9TjQgic2yTw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**NSD731x** **产品特性**
+
+-   工作电压范围：5V-36V（耐压40V）
+    
+-   导通电阻（HS + LS）：520mΩ
+    
+-   峰值电流：3.6A
+    
+-   支持电流调制功能
+    
+-   支持欠压保护、过流保护、过温保护
+    
+-   工作温度：-40°C~125°C
+    
+-   车规型号满足AEC-Q100车规认证
+    
+-   封装形式：HSOP8
+    
+
+如下图一所示，芯片内置功率N-MOSFET，并为其提供全方位保护，包括供电欠压保护、输出过流保护、芯片过温保护，能够确保芯片在负载异常情况下不会被损坏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FdFtibibs15yCCxCNvzMrd9KF2GiaC5Op3O6G9SicA0sYMcLIKmt7aZiciawYUXZ66PiapJmvnc4bTkSdsRaFm5u18ehA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1 "1662428721799325.png")
+
+_图一：典型应用框图_
+
+NSD731x可提供3.6A峰值电流，520m Ohm HS + LS 导通电阻，采用慢速衰减模式且支持PWM电流调制功能。如图2所示，在电机启动过程或者负载出现较大电容时，PWM电流调制功能可有效减小峰值电流，降低由于过大瞬态电流而对系统造成的冲击。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FdFtibibs15yCCxCNvzMrd9KF2GiaC5Op3OeXZ8yGniaSrxLicTwessHs3LuldGSF0ReI240TAl3rBJTT3vaViaokTmQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1 "1662428717748233.png")
+
+_图二：电流调制与堵转电流脉冲_
+
+**NSD731x****系列** **A****版本**
+
+**优化****PCB****版图面积，节省采样电阻成本**
+
+此外，NSD731x系列还提供A版本产品。其内部增加了功率路径电流镜像功能，外部ADC/MCU可直接通过电流侦测引脚实时等比例得到功率级N-MOSFET的负载电流，与传统采用外置电流采样电阻的设计相比，该设计有助于客户优化PCB版图面积，节省采样电阻成本。实时获取直流有刷电机的电流信息可有效检测电机负载工作状态，在电机出现异常状态时比如堵转，可通过设置不同的滤波时间，实现甄别直流有刷电机启动瞬时脉冲电流与真实堵转导致的脉冲电流。
+
+**NSD7312/NSD7312A Q1****车规版**
+
+**专为新能源汽车充电系统设计**
+
+针对新能源汽车应用，NSD7312和NSD7312A Q1车规版本均已通过AEC-Q100认证，可满足汽车的质量与可靠性要求。
+
+根据国标GB/T14447.1-2015规定，在新能源充电系统中，额定电流大于16A的供电设备必须提供锁止功能。对应到额定电流大于16A的方案中，主流6.6kW车载充电器方案已经广泛应用于新能源汽车乘用车，为了实现更快速的充电，新一代车载充电器产品功率密度持续上升，11kW甚至22kW产品已经逐步涌现于市场，电动锁止功能逐渐成为新能源汽车的标准配置。
+
+NSD7312/NSD7312A Q1可满足电动锁止装置对电机瞬态力矩与峰值电流的系统要求，可应用于提供锁止功能的车载电子控制器中，包括车载充电器（OBC），电池管理系统（BMS）或者车身控制系统（VCU）。
+
+**NSD731x****系列产品选型表**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FdFtibibs15yCCxCNvzMrd9KF2GiaC5Op3OuDl3qjiaEliaSs2Mm3uHKY9mRKbvoPmbWHQBOWAknfEmEwicMTA49libNA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0stfSStzzDcbfsJbicnUlRKX8lZ5xOob5gHhNBgt33cniaxicjRhcoqUnDBgFoowtwgmpeiad3q5dddjw/640?wx_fmt=gif)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+
+  
+

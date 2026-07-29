@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/RxI7y\_3feQiq3CSG5A2oPg](https://mp.weixin.qq.com/s/RxI7y_3feQiq3CSG5A2oPg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRGDTu6mzcLbdqAuphOySNJl1iasMAcXia0uIkDkqameVHq4UCu8CIHzoLxsfibgiaWicTvxVGq3Bkjaug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_000_a52fc2a414a2.png)
 
 _**_★★★_**_Cap-8---铝固体电解电容-2_**_★★★_**_
 
@@ -13,7 +13,7 @@ ___€1.高速备份性能（负载变动用备份电容器）___
 
 高速负载变动需要低ESR和容量大的电容器来支持，在低ESR电容器中，聚合物铝固体电解电容拥有相对大容量，因此聚合物铝固体电解电容最适合用作备份电容器。以下将对聚合物铝固体电解电容优越的备份性能与其他电容器的比较评价结果做以说明。利用下式推算所需备份用电容器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5OuRSNM6SJMdNR1jcqOSfhy49GniaVpwe8bCbkmob2CRicQ91znHF5lZ0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_001_6067cc7cb5ee.png)
 
 其中：  
 
@@ -31,19 +31,19 @@ T：周期(S)
 
 如**_图8-1_**所示，在同等容量条件下比较电源线的电压变动，相比聚合物铝固体电解电容的104mV，低阻抗电解电容器为548mV（约为OS-CON的5.3倍），低ESR钽电容器为212mV（约为聚合物铝固体电解电容的2倍）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5OSyNXEkOxSawA0fiaZiadqYzdSmUaUGM1O8zGCqo8icekGBUeNK1PPynnQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_002_17fce1938952.png)
 
 **_图8-1：同等容量条件下比较电源线的电压变动_**
 
 如**_图8-2_**所示，低阻抗电解电容器需要使用1500μF以上产品，低ESR钽电容器需要使用220μF×2pcs以上产品才能获取与聚合物铝固体电解电容同等程度的电压变动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5Oy07qkek0KznQ4icmhEcNuEfM91aaM9tYwFuWrzZz9x5umV2ZyQSZ6gQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_003_f84b4341de8d.png)
 
 **_图8-2：同等程度负载变动时的电容器选定_**
 
 如**_图8-3_**所示，在低温条件下比较以上三种电容器，相比聚合物铝固体电解电容的无变化，低阻抗电解电容器的电压变动约为聚合物铝固体电解电容的3.2倍，低ESR钽电容器的电压变动约为聚合物铝固体电解电容的1.2倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5O2ngjWFHsU46AA6PFdOryOCziaZ8z5bTmxeUnRejibet0QqRBJsSJoyzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_004_8ef2c4b63f16.png)
 
 **_图8-3：低温（－20℃）条件下比较以上三种电容器_**  
 
@@ -55,13 +55,13 @@ _容许纹波电流_
 
 传统电源电路通过**_图8-4_**所示等效电路来进行仿真。虽然足以达到确认纹波电压或纹波电流的目的，但对于CPU负载变动等要求更高精度的仿真则略显不足，实际电路和仿真结果存在较大差异，这是因为电容器的ESR或容量频率特性未被反映。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRzRiaVCicicDAia4TtSHyr3eNge6ibRUSy0NbibNnCc53s9GMXSSLQdjia3Avw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_005_c931ee41ba28.png)
 
 **_图8-4：传统等效电路_**
 
 等效电路如**_图8-5_**所示。通过此等效电路，电容器具备了与测定结果相近的频率特性，并可高度模仿电路实际动作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTMIgvDB0kBPVFe0FhicgbpfbxwFI239DFicelWSmxWpaQqmTeQXjpjPAqfBJt3rxUIPdNsIsYrJPKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_006_a0f055dd5fb4.png)
 
 **_图8-5：能够实现高度仿真的等效电路_**
 
@@ -71,11 +71,11 @@ _容量的频率特性_
 
 但是推导出的等效电路可以推测出容量频率特性。即将等效电路的电感全部视为0来计算，就可观察到容量频率特性。计算结果如**_图8-7_**所示。电容器的共振点为190kHz，在1/10频率附近开始受ZL的干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5OOpvzkMaHaN2aKhwW97vXNd9kl4xD99QokZdyBkyqeeR6O2xCicOLcEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_007_ece3e554d6ae.png)
 
 **_图8-6：阻抗成分象限图_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5OMoHZOicNYfKFTRbowEiaP8g8fNcNgAklICjkE2DGX0juwjiaiaJmiazwjQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_008_3467b94313ec.png)
 
 **_图8-7：2.5V.dc 560uF条件下从0.1KHZ-10000KHZ的容量曲线_**
 
@@ -83,7 +83,7 @@ _____€3.___用于低通滤波电路时__
 
 也可利用下**_图8-8_**所示低通滤波器去除电源线噪音。近年，随着开关电源电路成为电源电路的主流，其小型，高效化的另一面则是成为较大噪音源。另外，易发生噪音的数码电路与噪音对应较弱的模拟电路混装时，几乎所有模拟电路的电源线上会连接这类低通滤波器，以防高频噪音侵入（LC居多）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRoxko0t3fNdPg07rToAbYhcdgwAq3P4xoHXrF2F1OQ5KblQyicA8ewHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_009_a166832528e4.png)
 
 **_图8-8：低通滤波器_**
 
@@ -95,17 +95,17 @@ _____€3.___用于低通滤波电路时__
 
 ④ 即使增加电容器的静电容量也没有降噪效果，多数是因为受“零点现象”影响。具有超低ESR的聚合物铝固体电解电容可使低通滤波器更有效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5O53RqhVvibtM4XyVQRqjG04Y1bXP4O9d21FWzGmmmlCWkUKoN32geZmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_010_3f6c734f2ae1.png)
 
 **_图8-9：实际衰减率_**  
 
 比较分别连接聚合物铝固体电解电容和铝电解电容器时的实际衰减效果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5OicFju4ibndYiaDelXhUyg4l6WJia88EOLPmibcB6icPgGicEibswCW7wM7cUHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_011_b013228d5375.png)
 
 _LC滤波器（L=10μF）_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5OicmmPoNLjnOpCg3o2oZhgN309w2QMQriagMNc7ibBa1WE4JcEJLkWPLpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_012_a45838971472.png)
 
 **_图8-10：两种LC滤波器增益曲线图_**
 
@@ -113,7 +113,7 @@ _LC滤波器（L=10μF）_
 
 _RC滤波器（R＝5.6 Ω）_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQKB2aVTicpaOtJ7Lq7OicB5OLNAXKe39Pju6gQmSo9TqlL3icBZhbtxRJvCo5tUoZiaGvTf0IMk44D4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_8_聚合物铝固体电解电容_2_images\img_013_ed26044ec546.png)
 
 **_图8-11：两种RC滤波器增益曲线图_**  
 

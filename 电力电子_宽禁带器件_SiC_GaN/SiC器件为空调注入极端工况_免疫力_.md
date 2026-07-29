@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/zSB0\_1Ml9BqvGDLVDTkXaw](https://mp.weixin.qq.com/s/zSB0_1Ml9BqvGDLVDTkXaw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHrcEjzdfUTiaKCciah1BhBXrJydawtK2bpZsQ6pKFeIA1nIyG8icdUU99dicPI3fMRjICVbw0mKTExsHzA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC器件为空调注入极端工况_免疫力__images/img_000_be6b4a382756.jpg)
 
 “
 
@@ -17,7 +17,7 @@
 
 这场“维修潮”暴露出传统空调压缩机在极端工况下的可靠性短板——硅基IGBT器件损耗高、耐高温性不足，导致压缩机频繁过载停机。在此背景下，碳化硅（SiC）功率器件凭借高效、耐高温的特性，正成为空调压缩机技术升级的核心突破口。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcEjzdfUTiaKCciah1BhBXrJyB6mMZ5OuTRVlf5kdhCu7JlD97uBHfIpRMan8zbCxSNXpBdJQibnrEPw/640?wx_fmt=png&from=appmsg)
+![](SiC器件为空调注入极端工况_免疫力__images/img_001_b3dea1933b1b.png)
 
   
 
@@ -65,7 +65,7 @@
 
  **•** 通过替换硅基IGBT为SiC MOSFET，优化功率因数校正（PFC）电路，可降低开关损耗，提升系统效率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcEjzdfUTiaKCciah1BhBXrJy4pTtZHMF9LO4elUvoB1nDrTQUiakYz5020OP5rYTIWwJNEa9AwOYjNQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件为空调注入极端工况_免疫力__images/img_002_b982b955c36c.png)
 
 ▲SiC器件选型推荐
 
@@ -75,7 +75,7 @@
 
  **•** 简化桥式电路结构并减少开关器件数量，结合SiC高频特性降低导通损耗，适用于中大功率压缩机系统。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcEjzdfUTiaKCciah1BhBXrJyIzoDNEEzksgjQ0UFvcjTBL3C0tyEicFTiaY52AtsDTBxEDozFrWxMBDQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件为空调注入极端工况_免疫力__images/img_003_9f40d8ff151c.png)
 
 ▲SiC器件选型推荐
 
@@ -85,7 +85,7 @@
 
  **•** 完全取消桥式电路中的二极管，实现全SiC器件的高效开关，显著提升功率密度，适配小型化、高集成度的控制器设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcEjzdfUTiaKCciah1BhBXrJyxdS5nanOKXG31cxXzxHbUoiaGqiaydwrSSmdwVvSfOUKOXqecty8SoiaQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件为空调注入极端工况_免疫力__images/img_004_4948f38b4a98.png)
 
 ▲SiC器件选型推荐
 
@@ -95,7 +95,7 @@
 
  **•** 将SiC器件用于逆变器功率级，实现压缩机驱动全频段高效运行，保障极端工况下的可靠性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcEjzdfUTiaKCciah1BhBXrJyKO4w3fvQM04g1a6lRL4ic8sPg8DlgCibjwcicZUZ4Vax03AfsA12XN7xQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件为空调注入极端工况_免疫力__images/img_005_56e75d75a653.png)
 
 ▲SiC器件选型推荐
 
@@ -117,13 +117,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJHBTCdADHv18QiahAiaFlHTRlibob4tEaAibUuMT523iaOA0gUE9Ie19LHww/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC器件为空调注入极端工况_免疫力__images/img_006_bc3508057f21.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJ58q3XFGUX82hld8uW530iacQXKNpBeEjcDyqyAJ68ibgibv0xjnicdqSqg/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC器件为空调注入极端工况_免疫力__images/img_007_253091499e1c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJpYcXLicHZJX7Cqx7QH3IXZUrWCTAUdmbCKxDJIFcNufSXy7WutebaIA/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC器件为空调注入极端工况_免疫力__images/img_008_611d8476f357.png)

@@ -8,67 +8,67 @@
 
 作者：Manuel Escudero Rodriguez, Infineon Technologies AG；Matteo-Alessandro Kutschak, Infineon Technologies AG；Antonello Laneve, Infineon Technologies AG；Alex Mirtchev, Infineon Technologies AG；Theodoros Mouselinos, Infineon Technologies AG；David Meneses Herrera, Infineon Technologies AG  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhwRMKmEWas6IE0fvrA6zZjicjickSa369iaYJic60REszWziazhHsnvfGHlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_000_75303deb240d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhrdUrURfJWONrZib3AzjmiaKlhMSjjxlO7dPviaN8VuQiby7xPWlrGWqOCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_001_0eb37ee672fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh7Mib1vLz6vFcgPlMQ60ewvPuU6Rep5HCNaPFiaMvo1cicsdSeVBSm6yJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_002_c34e46714790.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhFl1ZNRfFK9t7CITvNu6pLKJdDy2AgeNvyicQ0PT7q2wEARicxzovorxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_003_4766f7cfcc26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh42N3cALgQibhhGH1dwkyvMYzAHLhPnpXMMSGIp6noGGqtU5V90vtNAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_004_48e6cbbb310f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhF5ibJ9pWWpsdiaicDwzeuK2xd0UPxiaLdLTKc2xBYXhacaGU4dlPL0u5qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_005_1a4e95f49f13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhWoEdIDhyjVp1bNoY9qcpxqM1JxG2ibJDkrgZoDjUCWFlZcGjoxwc8ibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_006_ed3e423b9aeb.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhVBTGwZLFZYwxZjjhUjW5F1bRTe0xiatyRj6pbY5iaibLZJb4Pj0tFDjNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_007_31f9a930f172.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhwlwaxUu94ZNbuYJcvgBa2PrQZQCtRgbt12bKrZyqicwNJcwQ4A1aMiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_008_c11a48151dbb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhJJqnU6DCFHx0nWaOMmc4q6qJaAWia6Pib5QVydoCXPjeAuwQELazQDKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_009_69f66d103187.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhqV4F1sy3Vfdtn8QTzUS0YnvF8ETh1LG68ROyY1WD8IDx0HeAZILo4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_010_9829130da299.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh9NZX33ek32hyN7Kgy7oQzR3xiaNK2lU44uUOC2owibGlrOibr4BuVqAuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_011_6b0d8cb4597c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhdAVrADkrI0298k5qkwLqV0L2t8aTdU0q7cnTy9vib5YpRKtIyvc2Oug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_012_a8b978f7a1b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhVmYPUrQuhUmiaP1fKrBf3mKlp1gYLbiaKmVTp6UILpErA5DtqOxXsBLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_013_0e61562747fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhv8ldu2sdeEDLt3jW8OvfsLhIpiagKB9iab0H62VhbXuQNPeqv2UTSksA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_014_80dae484bc91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhVSicEl03lc2r6UUIqGAfYafo6tfHSNjNjKT1fDnEQsMyjSUib3iaPK6aQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_015_671d34c2ce11.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhE3qID6Ih6UgcW130Xn8p9QmjQez3ORJGV2fXriawNYnxzibK0Cc9HCzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_016_778978bc8c85.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhgUDghfAuv5gABrMcnr7EJEpJAZJsOrWgd87M1DryOffB74cibfepUKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_017_4964310a7aa3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhNiabPIURZaSMAKhj4ulQagibtllLybBhvx1rIKh0qTzCcOenCIqKib2LQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_018_aa982633c57d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhjkwDw8aXpzvumhZqu8xbl6EBOz3Y2jgo6dSnpDibCFZiaCiaicafiaenexg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_019_471063dd9819.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhnGqTNicJTg3lEj2pmxzPrjWq24Dem8uf3c69kiccOrFl8x5Eev9qtpibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_020_380b2fba103a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhFRuIcWVcS4RTI4HOMJ37GZMfhnthAPeodB1n2jdY0do2TyHho3s6Vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_021_1b759961d0a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhOSR73IM1UDWZ9gP1DXdPxfCvGdfRicibj2JjcyMwsBMAHzCcLHRDmP6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_022_80a95fa1bbde.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh1PP8BSrVWiczCgcIgjs8xydcibDYd28LYVibA6gGNYlD5farMYP2AdmZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_023_4af2326aa821.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhUkm8LCP6czYibgezuFia2Q8Hic7ic3diaaMd7Mx1XaSKVTnsWAazEE2xNPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_024_182028133f9c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh1eCDgLG050J3v4t1YAN4sBHnXbRIZKPB4nVOQa0Yu3f0T5xf6XjLag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_025_da0e7e15a732.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhHYibQssmwzLdgv7vpowTJx2aBiaENogib1o7amMzB6ChZQPu6lIicP5RGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_026_391616b3c5cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhn64od6s8KvwDXrPW3hFzu6UQGfjUNlEMNucVgQSuvdK1JGzGD3aLow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_027_6ecf4859c955.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhVVNIcy3etEvFBqbLvmzY8UmCuk1ChHDECWWtBqkqWSIU1pdvk0xWHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_028_faf5522e01cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh2Exm4TKkcucyrnSpFxhnHict8VX5WUvYOElIBCOCa6T4zn8OCR1ptHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_029_2afa6cfdf620.png)
 
 注：文字与报告无关
 
@@ -200,13 +200,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_030_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_031_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高功率密度8KW电源适用于AI服务器和数据中心的应用_images\img_032_573ddf34e793.png)

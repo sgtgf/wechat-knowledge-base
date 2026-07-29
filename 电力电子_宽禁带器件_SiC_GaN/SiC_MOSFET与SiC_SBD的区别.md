@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Fnzt2TXk3uWtRkXdGlqqRQ](https://mp.weixin.qq.com/s/Fnzt2TXk3uWtRkXdGlqqRQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslNHvHo75DPTpCBcG1KGdZmptFOKaJot8ibdTEMWft82rDhT7Tzg25ZsKehkHC4jolSGTU2siauBK5Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET与SiC_SBD的区别_images/img_000_172ee2018c81.png)
 
 SiC MOSFET（碳化硅金属氧化物半导体场效应晶体管）和SiC SBD（碳化硅肖特基势垒二极管）是两种基于碳化硅（SiC）材料的功率半导体器件，它们在电力电子领域具有广泛的应用。尽管它们都属于SiC功率器件，但在工作原理、特性、应用及优缺点等方面存在显著的差异。以下是对SiC MOSFET和SiC SBD之间区别的详细分析。
 
@@ -11,13 +11,13 @@ SiC MOSFET（碳化硅金属氧化物半导体场效应晶体管）和SiC SBD�
 
 #### SiC MOSFET
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPjgO7E6E0bH0zZfxn3t69LkrPzxC0kUFjyWPcVOUa5EfOmxGpo9s0kcmZW9Wc6iaSHUruF93bMhw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET与SiC_SBD的区别_images/img_001_3072a5e4c63b.png)
 
 SiC MOSFET是一种场效应晶体管，其工作原理类似于传统的硅基MOSFET，但具有更高的性能。在SiC MOSFET中，栅极（Gate）用于控制器件的导通与关断。当栅极施加正电压时，栅极与通道之间形成电场，使得通道中的载流子（电子或空穴）移动，从而在源极（Source）和漏极（Drain）之间形成导电路径。通过调节栅极电压，可以控制通道中的载流子浓度，进而控制MOSFET的导通程度。
 
 SiC SBD
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslNHvHo75DPTpCBcG1KGdZmVpOqJNXasnw6PyBvicH02MQtyCreX4L68QWiaFQDZiaMYndXEOojLNekA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET与SiC_SBD的区别_images/img_002_93820d9c5d1d.png)
 
 SiC SBD则是一种利用肖特基势垒效应的整流二极管。它的工作原理基于金属与碳化硅半导体之间形成的肖特基结。当施加正向偏压时，电子从半导体流向金属，形成正向电流；当施加反向偏压时，肖特基势垒阻止电子流动，形成反向截止状态。SiC SBD具有快速恢复特性和低反向漏电流，适用于高频和高效率的应用场景。
 
@@ -113,10 +113,10 @@ SiC SBD同样因其优异的性能特点在多个领域得到了应用。特别�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET与SiC_SBD的区别_images/img_003_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET与SiC_SBD的区别_images/img_004_3ade3c3d8599.jpg)![](SiC_MOSFET与SiC_SBD的区别_images/img_005_84aa944feb13.jpg)

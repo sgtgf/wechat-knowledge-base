@@ -25,7 +25,7 @@ Ren Wang, Hong-Yuan Chang, Yan-He Lv, Hao Huang, Jun-Song Wang, and Bing-Zhong W
 
 出版信息：IEEE Transactions on Antennas and Propagation, 73(2): 1263 - 1268, 2025; DOI: 10.1109/TAP.2024.3516388 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUYCOC5Sn8xlpDibfhCo9KNIwmmoEAwdBiadY2ribjW63J7xcLBjh3pdw8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于电路信息神经网络拓展天线带宽_images\img_000_7a829f4f05d1.png)
 
 论文摘要
 
@@ -57,23 +57,23 @@ SIW 缝隙天线因其高集成度、轻量和高效率而被广泛使用，但�
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUbfMaia6uFEWV1OBcia5j7lkuWthcPSicHYPSUBib1yM3AmApr6iajh8edRg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于电路信息神经网络拓展天线带宽_images\img_001_17c72cad9150.png)
 
 带多级匹配短截线对的ESIW馈电缝隙天线的等效电路分析：(a) 结构划分，(b) 等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUTTAb7mqsFGrmV18wqHtlty6TyiaXnJCbe2YHiafXyWIU1dNiczibTJ9GtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于电路信息神经网络拓展天线带宽_images\img_002_0c37d11d4407.png)
 
 电路信息神经网络（CINN）方法示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUghGD4k8uT41wtBgYpic1Oqo3TkwRaP031aENNoMZEj2Qnribia1hRiadzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于电路信息神经网络拓展天线带宽_images\img_003_19ba9497cadd.png)
 
 带有六个短截线对的ESIW缝隙天线：(a) 顶视图，(b) 底视图，(c) 带有匹配短截线对的中间层基板。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUgvibN2zibJ5uZFr5aXJmyOsFhwCjq8H3mK2kW37yE8cQ8sxCxJvWwCzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于电路信息神经网络拓展天线带宽_images\img_004_fab0a19c273b.png)
 
 当波导宽度分别为 (a) 26 mm 和 (b) 30 mm 时，带有六个短截线对的ESIW馈电缝隙天线的反射系数。(c) 相对带宽与短截线对数量的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUrLFKMDAhz1LAnkwjDnAibIBPYYjsP4x40FoF0RBOCC2x0zib8aSHWibLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于电路信息神经网络拓展天线带宽_images\img_005_dcac1caf79eb.png)
 
 CINN方法与直接优化方法的优化时间成本对比。
 

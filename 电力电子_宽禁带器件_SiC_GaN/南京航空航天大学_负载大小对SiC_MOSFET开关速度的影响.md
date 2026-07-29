@@ -23,7 +23,7 @@ SiC MOSFET 在 开 关 速 度 、 导 通 电 阻 、 高 温 耐 受 能 力 
 
 典 型 桥 式 电 路 拓 扑 如 图 １ 所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WB8z0gicq9oVJjbm5FrlJ3N7sJUzcJbvl3TDEiaoSWFhcP63fdKicETFYlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_000_bd99a9045b24.png)
 
 VD1为 上 管 的 续 流 二 极 管 ， V2为 下 管 ，Io为 负 载 电 流 ，Udc为 直 流 母 线 电 压 ，Uds为V2的 漏 源 电 压 ，Udriver为V2 的 驱 动 电 压 ， Rg为V2的 驱 动 电 阻 ，Cgd为V2 的 栅 漏 电 容 ， Cgs为V2的 栅 源 电 容 ，Cds 为V2的 漏 源 电 容 ， Id为V2 的 漏 极 电 流.
 
@@ -31,7 +31,7 @@ VD1为 上 管 的 续 流 二 极 管 ， V2为 下 管 ，Io为 负 载 电 �
 
 SiC MOSFET开 通 过 程 可 分 为 ４ 个 阶 段 ， 分 别 给 出 每 个 阶 段 持 续 时 间 的 表 达 式 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WBz0FoRcFhggkE1sLjmx9DkcnZ3dVpicqlxdz7XQQNRTZfNa6zkdib8ouA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_001_ae0146299a2c.png)
 
  至 此 ， SiC MOSFET 整 个 开 通 过 程 完 成 。
 
@@ -39,9 +39,9 @@ SiC MOSFET开 通 过 程 可 分 为 ４ 个 阶 段 ， 分 别 给 出 每 �
 
 SiC MOSFET关 断 过程 同 样 可 分 为 ４ 个 阶 段 ，分 别 给 出 每 个 阶 段 持 续 时 间 的 表 达 式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WBqCicI6fQVBcpwELWYotsT0elY0s1WzjDTIWC48hwUv1fdUf1AdHzmzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_002_b20c82fc5932.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WBSd9ibqPbQZ9QS8VQxdu1Hw9XBxbibiaOLDVm88guyD0hHb3ichxyV8kU7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_003_0521c2bb301e.png)
 
 **３.  开 关 速 度 随 负 载 变 化 原 因**  
 
@@ -49,7 +49,7 @@ SiC MOSFET关 断 过程 同 样 可 分 为 ４ 个 阶 段 ，分 别 给 出 
 
 图 ２ 为BSM300D12P2E001 型 功 率 管 手 册 给出 的 开 关 时 间 与 负 载 大 小 的 关 系 曲 线 ， 测 试 条 件为 ：直 流 母 线 电 压 600Ｖ ， 驱 动 电 阻 0.2 欧， 驱 动 正 压 18V ，驱 动 负 压 0V， 结 温 25 度。开 通 时 间 定 义 为 Ugs 开 始 上 升 到 Id 到 达 稳 态 值 的 90％ 所 经 历 的 时 间 ， 关 断 时 间 定 义 为Ugs开 始 下 降 到 Id 到 达 稳 态 值 的 10％ 所 经 历 的 时 间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WBgRS3icuCXXWYB7ibQYQpL2BRIenalsIPcZJgXwdQfcdawSb3XdL8jMicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_004_b3e57354a0fd.png)
 
 由 图 ２ 可 知 ， 随 着 负 载 从 70A 增 大 到 545Ａ ，开 通 时 间 从 52ns 增 加 到 了 75ns ， 而 关 断 时 间 则 从 295ns 减 小 到 了 256ns，可 见 SiC MOSFET的 开 通 时 间 随 负 载 增 大 而 增 加 ， 关 断 时 间 随 负 载 增 大 而减 小 。在 实 际 使 用 过 程 中 ，这 种 现 象 会 影 响 桥 式 电 路 死 区 时 间 的 选 择 ， 若 死 区 时 间 选 择 过 短 ， 则 会 在 小 电 流 时 造 成 直 通 ， 损 坏 功 率 管 ， 若 死 区 时 间 选 择 过 长 ， 则 会 使 得 输 出 波 形 质 量 降 低 。
 
@@ -57,7 +57,7 @@ SiC MOSFET关 断 过程 同 样 可 分 为 ４ 个 阶 段 ，分 别 给 出 
 
 图 ３ 为 SiC MOSFET 导 电 沟 道 形 成 过 程 示 意 图 ， 当 Ugs＜ Uth 时 ， 如 图 ３ａ ， 由 于 漏 源 极 之 间 是 两 个反 向 串 联 的 Ｐ Ｎ 结 ，故 无 法 建 立 漏 极 电 流 。当 Ugs＞Uth 时 ， Ｐ衬 底 表 面 层 中 的 空 穴 全 部 被 耗 尽 ， 大 量 自 由 电 子 被 吸 引 到 表 面 层 ， 形 成 导 电 沟 道 ， 即“反 型层 ”， 如 图 3b。Ugs 越 大 ，反 型 层 越 宽 ， SiC MOSFET 的 导 电 能 力 越 强 ， 故 会 形 成 如 图 ４ 所 示 的 转 移 特性 曲 线 ， 该 曲 线 满 足 式 （ ２ ） 。图 ４ 中 浅 灰 色 和 深 灰色 曲 线 分 别 表 示 功 率 管 开 通 和 关 断 过 程 ， 实 线 表示 大 电 流 负 载 ，虚 线 表 示 小 电 流 负 载 ，ａ~ｅ 点 分 别 对 应 开 通 过 程 的 t 0~t 4和 关 断 过 程 的 ｔ5~ｔ9 。SiC MOSFET 开 关 速 度 之 所 以 会 受 到 负 载 大 小 的 影响 ，主 要 是 因 为 功 率 管 的 转 移 特 性 ， 不 同 大 小 的 负 载 意 味 着 不 同 的 Id， 而 需 要 达 到 更 大 的 Id ， 需 要 提供 更 大 的 Ugs，而 栅 极 充 放 电 速 度 基 本 恒 定 ， 故 不 同 的 负 载 大 小 会 对 功 率 管 的 开 关 速 度 产 生 较 大 影 响 。结 合 开 关 过 程 和 转 移 特 性 曲 线 解 释 不 同 大 小 负 载 下 SiC MOSFET 开 关 速 度 变 化 的 原 因 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WBtBxFg39UyJBcyQrzAvkob1GmpxklUrwrnhe5vyQgciaqPulrxGjha3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_005_573781b371c5.png)
 
 开 通 过 程 
 
@@ -67,7 +67,7 @@ SiC MOSFET关 断 过程 同 样 可 分 为 ４ 个 阶 段 ，分 别 给 出 
 
 电 压 下 降 阶 段 ［ｔ2\-ｔ３ ］ （ｃ-d )  满 足 式 （ ４ ） ， 随 着 负 载 电 流 增 大 ，栅 极 充 电 电 压 越 小 ， 电 压 下 降 时 间 变 长 ， 因 此 功 率 管 开 通 时 间 变 长 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WB7ibDkSyLjluoYvPbExeYJYVJ5nuTWZGCEpTKvvLjY2wJ4409k842gog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_006_b91f7aceae98.png)
 
 图 ５ 为 功 率 管 开 通 过 程 的 PSpice 仿 真 波 形 ，其 中 虚 线 为 漏 极 电 流 波 形 ， 实 线 为 漏 源 电 压 波 形 ，考 虑 到 实 际 应 用 要 求 ， 仿 真 工 况 与 手 册 中 提 供 的 测试 工 况 并 不一致 ， 仿 真 直 流 母 线 电 压 采 用 540Ｖ ，开 通 驱 动 电 阻 为 4.5 欧， 关 断 驱 动 电 阻 为 ５.5 欧，驱动 正 压 为 19Ｖ ， 驱 动 负 压 为 －４Ｖ 。 由 仿 真 波 形 可见 ， 负 载 电 流 从 38Ａ 增 加 到 196 Ａ ， 开 通 时 间 从 140ｎｓ 增 加 到 了 200ｎｓ ， 其 中 电 流 上 升 从40ｎｓ 增加 到 了100ｎｓ ， 为 开 通 时 间 增 加 的 主 要 原 因 ， 与 理论 分 析一致。
 
@@ -81,13 +81,13 @@ SiC MOSFET关 断 过程 同 样 可 分 为 ４ 个 阶 段 ，分 别 给 出 
 
 关 断 过 程 的 PSpice 仿 真 波 形 如 图 ６ 所 示 ，通 过 仿 真 波 形 可 知 ， 受 负 载 大 小 影 响 较 大 的 是 关 断 延 时 阶 段 和 电 压 上 升 阶 段 ， 与 上 述 分 析一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WBLF9TRdh6ddCFUcmOHltTlcrzfsMx1bgSeXM4Asp9N48CJrrZMONIug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_007_9d10b10ed0fc.png)
 
 **４.  实 验 验 证**
 
 使 用 BSM300D12P2E001 型 功 率 管 搭 建 双 脉冲 测 试 平 台 ， 实 验 参 数 ： Udc＝540Ｖ ，Io为 11-175Ａ ，Udriver 为-4V／19Ｖ ， 开 通 驱 动 电 阻Rg(on）＝4.5 欧， 关 断 驱 动 电 阻Rg(off)＝5.5 欧， 续 流 电 感 Lloed＝250uH 。通 过 改 变 脉 冲 宽 度 来 控 制 漏 极 电 流 大 小 ， 得 到 不 同 负 载 大 小 下 的 开 关 波 形 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsG0ficD3ZJakDIk6Lna8WBAmIsFdFbZyz33VAsk6hCCVfx7omLkgqmSSkAWuv5ib3FAe4INowEV4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_008_f4b82f94e97d.png)
 
 图 ７ａ 为 不 同 大 小 负 载 下 的 开 通 过 程 实 验 波形 ， 当 负 载 电 流 从 20Ａ 增 大 到 155Ａ 时 ，开 通 时间 从 130ｎｓ 增 大 到 190ｎｓ ， 其 中 电 流 上 升 过 程 从４0 n s 增 大 到 了 100ｎｓ ， 为 开 通 时 间 变 长 的 主 要 原 因 ， 与 第 ３ 节 分 析 一 致 。 图 ７ｂ 为 不 同 大 小 负 载 下的 关 断 过 程 实 验 波 形 ， 当 负 载 电 流 从 11Ａ 增 大 到175Ａ 时 ， 关 断 时 间 从 800ｎｓ 减 小 到430ｎｓ ， 其 中关 断 延 时 过 程 从 510ｎｓ 减 小 到 了 330ｎｓ ， 电 压 上 升过 程 从 300ｎｓ 减 小 到 了 100ｎｓ ， 为 关 断 时 间 变 短 的 主 要 原 因 ， 同 样 与 第 ３ 节 分 析一致 。
 
@@ -97,10 +97,10 @@ SiC MOSFET关 断 过程 同 样 可 分 为 ４ 个 阶 段 ，分 别 给 出 
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_009_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_010_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京航空航天大学_负载大小对SiC_MOSFET开关速度的影响_images\img_011_84aa944feb13.jpg)

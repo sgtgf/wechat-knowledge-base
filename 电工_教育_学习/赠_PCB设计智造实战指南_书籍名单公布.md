@@ -14,7 +14,7 @@
 
 具体活动内容，可直接点击如下图片：
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhG3S8ypGrBEqsz1icfZzVIOny3r1jgsbjnfYRqGt4LriczngVvQPI60d9ysotxTzOzUQabCyYzxOgA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247559993&idx=1&sn=5a74cd40e13860442dca3130eb5597b2&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\赠_PCB设计智造实战指南_书籍名单公布_images\img_002_49bb66653da7.jpg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247559993&idx=1&sn=5a74cd40e13860442dca3130eb5597b2&scene=21#wechat_redirect)
 
 特别心疼最后一天被反超的几位同学，你们私信我的焦急我都记着呢！今天特地带着好消息回来：因为大家的积极参与，我厚着脸皮又给大家申请了3个名额！现在共有8位幸运儿能拿到这本干货PCB设计书籍啦！
 
@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhG3S8ypGrBEqsz1icfZzVIOicJ1l92xIXOZQJ1n97wn6mexjBc3EJ0ib1F07F2n68XWZH0bs3vAia9tg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\赠_PCB设计智造实战指南_书籍名单公布_images\img_003_09cd3a9ecca2.jpg)
 
   
 

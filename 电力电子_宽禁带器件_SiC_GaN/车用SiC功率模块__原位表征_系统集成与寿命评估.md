@@ -3,159 +3,159 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/KzU6h\_C2U4PnlUu1nj0fQA](https://mp.weixin.qq.com/s/KzU6h_C2U4PnlUu1nj0fQA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MonDmnMIAx45Fzwr3LQBvQbWJz49jNYmONMJce84f6bQfLdqwiaI6TVPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_000_e8c55d2ed0e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoY3aS70qWYPCeYX8I9ga13oAFicuJTgP2wGvVsS05fYFxAIstY2UkibDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_001_99de2d772054.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MosPC2o9PGyuUdnP5R1hh6xaLOAGgkjIulw2T6RWiahmxr4eNm9WlC1nw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_002_93e532e40793.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Moicpv8EM78Omia680X2KtFZRr9ZYFaozO6NmDpt8HJ4VTicSSG3MhfCC4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_003_fd86da4af390.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MouHMeFl7lGJomj3fmOLujnmsYYvf4vDwjQDrZY2lAB2JnblPld3yxyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_004_c687784ef935.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MotKgP6P6MaLAR7JtEb2abmuQN4OXY5qwM13IOKKt7zf8PmxRkbQLj5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_005_0b7d0dc30b54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoIuLDTgKtEhW905uRfw4tKfxE7oMUjmuSUUZx7AOPNDL9bmcia32F9MQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_006_c1d4a064dd92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mod3J9AERmiauN93ibzYHAM4taFzxHibC1TYcf5a2eFLHSictDLZ1hialJDmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_007_5e3bd5f7af5a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo09WRLeibxicPNvXibBxndibIcVAOtkVxaV1aE7ZrEkhwX4sMxGL0oWFStg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_008_826e60aa81fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MohKIfQFDSCYmxQoazjKWzXOrY4fVU0x4dYzCkiahzy4xScZ03IPDs89Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_009_30bac5051c1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo0nAicZ9asQjS73ldJdwISIIjFAwfbSMVC6zPsGNKY4fy8SfkMEG7uBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_010_e343227ea6ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoY8Uvg3227PbeMLwoTicNIEOHqtZBJF0W0WnHrsp5FrmficE3n3gea8Yg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_011_ba10504966f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Moa9sDsMdFwUzM6xYpRib9icia8OZzKibtRS7lhx7cw5K2iaOeSFy3uqlqRNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_012_069cec1b1693.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo7NnfrIaGKddFHPQvKbzeaibybHIXXnKTDJ78fiaZvmfvib8NUFw90OQjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_013_ca929c3b5c81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoibW2pIuWhKXe00yAToyXDeecq6u35d6XzmzI99xV9dhcLTHiaugle99w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_014_fcc89701aef0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoPfcTToSudapM8ZD42jgDXQkic8PDmotvtYUpbSylLkRWkdNgALtzXHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_015_a58bc4461cb8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoM64FhqdIA8z7JIRHtmo8SkeveicEVRPgccnDhfwVOGxU4mVsJk0XNHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_016_281cc5d75f2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651ModIAzgNSAy0prznTSFBicClvk1omTibEYLYaZGUu9C49ctnE8Tb9rXmqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_017_f6d52d1d7a75.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoYlSbEpiamMh0lXhW4bq4AD7aKbqj35IhrncUn4AZTI7fTEJ7APFN6KQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_018_c6708f128d3a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo4204xFca0icc4bjuPdic7OKetUaPias3hrPWErFj5YHJsKiaibIfJiaDATsA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_019_4ebfab66da51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MojFHHFJwZcxyvJgopAYdicK8a6bKZ2wdcHU3u49QLvDmGvjbGF0Hjf8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_020_9140d1d25b59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MotMoEjOg7DgONGibtec4OHNWCnjGBWvMF1whvVsoZ37jKcMWFLibtfnxg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_021_6209d202c508.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Moib5DHh6DsS9SCZX7MoATNHOmBmMfNZQSZiaggg7mpnv31myicNbaj8BVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_022_927405d98dc2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoU2QeP70SILibMj3I2yE0us4ibKooDm7TBJbIibS6RHXSoMicnw4Lf5ia1Tg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_023_80d275e8e24a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MonQa4u7HeRjy7glyCIQxbVr1pjYmGzA4rXWNf3PLbaPcNcrlb6r3xBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_024_f9d37988f1fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo0UDepiaMvLQa1peqlF8Rvz2EmVYWzLXHLct148ZPiaibaib9uicH8VG1VTA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_025_0747bd1c4798.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MohtWf90OANeIO7yrJhicBTTD2hQxVwuLXZ4r82ibJMEcOLib3AdZYBgwQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_026_7e465ca43ac9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoPm7nDFSqX0TSRiania4jpQticVTdQHAL7dFOicKToVAKdvZ4w3JoQY9D0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_027_e56051477ba3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoUMiacy3FSpC1P1zAeEGicjdiajjic61ibfocCyuGVQPtH5ZKCL6iafOH5ZWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_028_c201391778c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoJ1OicaTQfGFicqmQguIk3yiboDcPhPlkBzBXk7w42ibrfib6VwIAZ6kKRcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_029_96512cab8148.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoDG5PmiaPz3gs3A6XaTibtKH6G5gnvZgzVzO5lqdQ7FIdPM3Oiat4nuxzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_030_3b2d41c66e94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoA6UYrFHJYs0vibGJqHMtYMqwRyicPvEjeWUgPeo1RibAmZr8xgbibSiaY6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_031_ea021546f16a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo8CM2GiblnEG0TwS1LrgycWMicCiazt1jdrIdPlRRCoKDcQibymEGGL6L8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_032_66b424fc1776.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoqbpkVBp45hMOyicSsQsBgWqBLCtiaXapEHr9N6gWavpH4kX7GibN357jg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_033_d417eb950e2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo1XL6GjmHAlRjGkj099qOu2HRe7iaJCk1gVJVa6xFGObLTajmxIMoEJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_034_67694173078a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MocNyqvIGiajpfVb4yXV9dDibjoDHNPpmibgicO9l0XHvqhZIaDkGpJnEdeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_035_17a7ffa77acd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoZTgM8BUkyWXdkpqPAlJ1jqMrIdIbdiaU6iaatMvluicoDARXE5MiaKVBqw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_036_8a9a3f7112da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoRyNtNzxeXev0v4t8sj8Ey0QIMaBga3BlYjJ4ao49Slwpq4h4jwOv7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_037_de15e738397f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoLpviaAh2bm7Orn9N0fbHFhkZBjxxshdGM2pRhCYrgPpU9yBzzHEcuhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_038_ebc10d8c0a06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoDsBg374MGMheC3HG3I7BYS5mEyica645hqtVOkfpOg6TicHsbkdQ81hw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_039_b963442ad243.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo95aZf8F3BEA0YtzKCAiaswSMricPPYKlkJfh4xNkRQ5IAIJvf3BcibMIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_040_91408afd1340.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mol8GapqFhHhibvuUzDZ08u6rwmiaAXUTsHfUQ5icCYbzY3gOHeyibxq3I3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_041_1e1489254f05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo4iaIVWTlTkQ2PKU5ZqTpHf3vBQqORpoNIvTkNicxxdUY5nKibSPfs9icEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_042_12edd83b3d0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo6VTkBcfxiaNUgUs4Gmqq72wQ8aCTtM6l2qjeLmpQI6OkBJRjJhyPonA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_043_a67b3d611db1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoHaVy4cBbFO3icCkWVTjZQcv3AOAV9RWhLpL3rBlEicXXXGSaxZjnNCHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_044_f6b53693228a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo78gQwUeYBERTLD3IxQcjaFnCCoWHNw8mqSJaWuricnic0ck0hqWHf8JQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_045_8979b77ea151.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoYM7b9TIeucibfY2hPNJBC0TCdjutgwdCj9jBoviame6sYuEcUO6Tp1cA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_046_51411cb97972.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MooYzBbjqh6TZEvWhRpO53725rgiayIDoSYR9DDL9yAISZ6Pr2G8QOS3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_047_43b348638d52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoQZdg1wVJx0BBnGYm83uCEoohQDTPJ0m7iajjrvVpgtWUaoQEaFnNNAA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_048_230b5371300b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoOobibT1sedYvMvE0ZRiayXtD1DibLiaJ7V8BWGK4dNo9iaDIBZOibf4VoflA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_049_5c1d53149a23.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoEEZpicgt1NiafTZEqg4ZVXQlic05icVth99okYKQG2zPRxRKjET4nxQhTA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_050_02310938a6f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoNGlr12Ky4grn3ib5mlIRnYcAiamHwmcb7IiadxP6O0IdbdFL7mkdZGvog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_051_2d7b91408787.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoEJbDfHMtnNBRda4bzFZgicrtic0dNiawPWDJQQY4HAXEKopRS8oST9NFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_052_266c4060786c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo4CX0B2r49weNrHrxcC2WQeT8oUDYqR3nN0s4eqleibJiaDxrCde06icgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_053_66baa4f63e9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoIXow3mCLfDlqJrNolB6d5wOYmKCbFA0N86adQoCZUKEpSQWX7iaX7AQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_054_4bc4c3f6470b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoAroQ7v4CfqiadWoNV8c6BNyf65fQODcicfrZSELT3ibAXa0AboGnia0wPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_055_16cdea4a828e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoUNrdHImvMbuSMr5ibOzWOwGqyzeOdENMriaknFvSnmLo3MbUrnAJhsWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_056_ef6270186a6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MofoBHYibU1OHiak7G5ovYyQr1QicYxicibeKkz6yk6Alqn0J3GlFIVsF0DjA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_057_69d4c211bf3c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mos3GxZVREic2t5k6ElZHbuD489cSmZFg9xZvgzDWp0ENkbVT7MoO2f7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_058_8b1897d10bd9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo1eiaTiaH0icX8w3ZQU3ogch8cqTMD5ABAggouAAp1A6CwsQhoPgNAAGnA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_059_d7ab8fa85333.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo7agTWSrIulkpstLkWHcwrT8wc3v55lAIVSsUvPvwKrENCqRojbFlqw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_060_4a282859e0ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoeibWibwRwn1cUicjfJclnZnmicU969hQwTn1Yic1fWiaj3m8QRyYRaWdH1EA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_061_df36efccc100.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MovW1Ssrzr1keHicnK8kgudBQn3icMxdTClvkqkaCXFicovv6FsCTK2bUCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_062_a8d79b886694.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MozVopzzge2PrvxqiaojBerDexib1xEm9bqADxtTCE1F6TfsDeww1PicBCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_063_a0bd894b9cff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoAp8oI97QnlvXMU0Xe69jMvWa8W0wJicuZvic1pgWqtrXvQ4lU5cm14QQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_064_f5e7703668dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoDCqJvhKNZ5mXribl5LEoQlPIaZlKk6t1kAZWjibga3L7iatz04hLPdqEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_065_b13e7d01a9ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo9qgexRb5ib5gqSkwuN9IIuibGMMXzvxoTdTaadvjfdwLu3ODoItr1ckA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_066_ac193b62f85c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoK2j2xKI6L5EZFpGVmicspIqmejzw4flMrpRWyDzrhicJamJib7Sd8dO9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_067_b0f703bfaf56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoLiaFlP0ibnHCg8pRkOQSl81kuicNZHn50XE54FOXTab7NTBcRhNKcCaSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_068_934fd76e8210.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoB2mXFcR8JicCFQFSXDN8P2hs9k4ozFPxEOY5S7iaBOKrfmIzg21XHkVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_069_e2a29c91408c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoU0Mps9mTK0ZVr3iapaKoSRahqq9y8f22FviagMeKyEajQptLoYpXNiaWA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_070_696e29aa49a8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MogkNBsf2f32a25JZQ67D45Hx6hF8iaYxrIWBHWvDNTxSBGgDicHypGzBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_071_2d204fa537b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoFo6rLMBibicVllIeP8Jyb0iaTCMpmvDicTVSMwDM49txhn5F81JNau6KQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_072_b1ed9ada5d99.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Moib0L6GQfn7qHOlLibHvE9vOI1q7V0N2D44ycicCEOialwedGj2wokXFwvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_073_54c123bf11fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoI5wKYzPlFs9WDr9iaicmeCegr2CVbg9EuY2P9t5vBjice12gWMbO7CxkA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_074_d0422d77dd97.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MobAuL5kfYCjwfiaXwkBzLzDOU4r5P43UF0lZrXib5odwyRz43C90zFKTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_075_3b3099dcf838.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo0lCzm0icdjrQG7zsEEfanudabYpYDWhWSWB2ludJ18btOQeNJgpzAtg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_076_0dfe3a96bec1.png)
 
 **小结**
 
@@ -167,95 +167,95 @@
 
 4.**车用SiC功率模块的服役工况复杂.芯片应力应变大，急需掌握芯片翘曲.变形.位移的实时高精度表征方法。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoVLMEGODunKOz80qGupzF2kTlkx2133UGm9mvsX5TQvsGhTfVcg91sg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_077_53a08d476447.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoNPxX5ibPtG9Ugvd4vEjH7HiceeLMqxuviaCgeiazlcXuNEKickYZ8HnsGJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_078_b405eeea3a5a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MosTvXeypH4uJY5n4Rec07P8aK8smw0voObOIg31kcrmAYG5icVrrhNFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_079_e6c5f290dd6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoqDIm1W4kkHOx25kFXpI1e9XH5pnib6M6evPneLW9Tb1fySsfrtdO0FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_080_df1f08cc31e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mon4OAbiaaVtaoq9C7XYKEzk7bIApZFNTWmTKBb32ftXiamGce6ia0ytk0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_081_c70ac884aabf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MozhMbHgsnDKqr4Icf31JaJQeuB48IicXJ1C4ABEnuoDQ1fic05SKmuY4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_082_7022fe0b063c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MocV6gw3gJtLD6ZzXjSqM5TxK8qI3NnRcwXSA63rjxWP5giboiatO6cJDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_083_5210ac3d6458.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mou8szy8DmvtMia7sXJzRSTyFpf04vrAmsEpHVahcCHBCbG3MibWhoFhMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_084_1553efd271a8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MohvpbSRKbglrItgTT0whljEibSYMy45ibEZc4JEEF7SnLOPmUcM8awwibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_085_a079e83d1132.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MolHSZK6w4hvspIMF1HIRibd3SVHibfbKxhG1Hj9K5aNUw0OhdEJ74JtdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_086_73e9f5d64431.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo9kX4cM7xuFz1yZhic7j6cQO6dKZZFn62xoKod5ic2iajJE9ZrPnE3Djhw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_087_a7cab2abfe9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoW42QibdaOsvry1c7hDAg5UFgibSwbict9slNKhJuXh09jQshqRttlREkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_088_32b4952c5d69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo7HiaxQTEJiapAVb3OWFEqfy3uqLYVk8ROOW4HYnuS8PtUAwibYOdAxjag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_089_b9b73e7cebf8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoYe2Afib9eU9lOAWh9b1dwiby99AiarzratLUSYaCQDicWNuaNLyw3FeTZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_090_c2b0bed3e60c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MofxpTM5ibVjlt1nr6xOCiaibfrzYickW2ps5Q0gCdibp7R33vh7w3dGefY2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_091_321535062158.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoDSHF4ibuAe7nnGBryC5Yrp8KUhDWTMibRKVojQaD0feSBxCoD2qkibVAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_092_3f14d2579ad4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mocz0OIicdriaOdP5Qt8icBibhFruibH1GmXgCO1zQSxnq7XqpNE8bmN0hbDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_093_07ca52bbbe33.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoKmribCaVic9wkWe5cyW6WN6eyOYau4G2W9x1NzSVnplElq4zzBAFZHBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_094_48cbab706142.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Moe2X70dmZozkKnPQiaKSVaNTuMqDx32rIH38QCJUAmGEXAEBYoGiciaicbw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_095_9e8050522ec4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MohZ2VVWXLib6u5CmFmlrFqoLFSj1yzOlDVdWCBEkZIFsOLibPjChoCclw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_096_4db0c5ef1aa1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo2F7ibBibuL89N6XibxsEsNGuARDOR9HZ9YCHUiastdtjzHBicZ5dGfMFhjA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_097_67bfedc0475b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo1ccCiaqta6RvK4yxeMLG1qy4KhkjxibGjVGTmEHIaDpfQjO0lWiaACgGg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_098_947a17b11b22.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MosPVrebKRrMBNInlcQqtCWIHSBVib1VfF2Ff1zW5iaqYITSXzVUvpfia2g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_099_2d81baf31304.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoEvjqRbASIEpfgBoy6LT86oBlLPvl2VEJkPAcYJ0orLep4icDAbHSTjA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_100_7e98116394fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoMlmpnqjibOK44CIfib86Gc2trPFwxxAN52m3Q54jzHKcUbHgMcMu9t4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_101_687fe1e5a515.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoISHNCzsqwMG6P8jWWwLKN7Q8UfEhoggvialDFCrqqQibU91eMVkg1PSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_102_5f48fb5caf00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mom0HZVfpPDz63ribwVauvfoGnRUozG64xIcx8jibuYgL3z3r8szFHK8jg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_103_f221b0b3759b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoibePw3PUjibHvEdic5CSCL67EveJYxS6zXuV9nlaRPnQXUFP9wEMOBI4A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_104_6fb2d84e0cbb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoiarTExu62ID6afdS1yuhojVicA8beX0iaDC5dljfoHbhZ5PNuiaLV07Aww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_105_58fc0a1e41c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoD5pRNyzDzmau2vcJJFUTt7k0JfKFhg9iaAR8XiaIYiaq8AT4720NYMQ0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_106_dc010a10f8ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MonUZbt1fdicjgTuJUgchg6O3zdmMVKaRA1l2PawCJFvysK75mNFHic2Sg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_107_18201ddfef06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo5hVDibZwZJHMyZRAkfIBPhFuO0hpPKF15XJNXcRic0gCnDFNcMVKx6aA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_108_fceef2139ab9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo9o04HjmXU0yHQ0KfWSSaYPQyhLxl03gZ6Zty0c6xfD3rKr4lzV5libQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_109_3e6803bb74d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo5bWhqyJuFIAbOq1enribHib7nlkEeHwGDroIicjzrmqA60a279fE2yWkw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_110_4dd16b67840b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoliaEJl4AYgEK2Lvdke8cBYI2jsXicWILibiaS88pUGbrCD7eRlxQMOBduQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_111_01c94606567b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MooS5jzpLM8qct0IJK9DUGJRwyRicIUIn6e5rB3zZbe5lIH1wiaxwbIhtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_112_f1704c8992cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoicItNpiaZhwSMibCgh3VMJfTf3fKpicVia65ibOVAl6AmnQMpIicYJFuzLAFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_113_f9b4d29a6039.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoCnCpQNv4AntnMM4wIrIjibibdsad1lBBuYrOjJdeib3godBFpZTVzemJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_114_de27ca4afba4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoSLoicoEjlMoOnbmgg4j1F70pCYdj1UzQUuocjDZerDA60TF3FcXDlyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_115_5a43f5d4d5e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoqYI6Gm4zABjvPUmAvIZ6ZKyWtllj2ruhhicWyE0FRSwlU7XF9FGeNaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_116_79b51dc010f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoUXQ0Hjde1pfKZqazdLbBvBDIQ79NicQlKwYiaRbmXFichDsfIjutGX0Xw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_117_7c74643a7b8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo8gQ2xEzjR47s3Z3J7nxEIBI6OK3icjv3zefznnjrd09YZYdLExqWKGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_118_8a9bc6dfabc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoyuUBGlZcmcuqk8FqUJKGuXnb4VLoic6qMAKqlsUDKN5gBicPmsZ0QUZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_119_931ac9bb55fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoRia7iap43aPYqqHk3KPeuGaic3MnibmIViaMibcLMM03jAIaB8sv938cjZyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_120_26beb93ebe8d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoQs4RoVdKIKDvOwh6YBRsJZwtCXjJJsc4KdAr2cMHPRCIbOb3tZA4iaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_121_8a951902e430.png)
 
 **小结**
 
@@ -267,123 +267,123 @@
 
 4.**采用自动化设计方法，优化流道结构和形状，制造人工湍流，增强换热系数，可以突破散热器的体积\-效能极限。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoyHYqibfz4k71wzRXpCNZuY5sFKxLVkcDzxibhVs2SthqdiavuicfDlKw9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_122_2b18a677d866.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoeyudSqtghoBj9Uo1zQk1gHJnx4wlu5Vqss1LucSyK2LFw9fsBxC8fQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_123_818443f17cb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MomQrxG0hMFfJ2Y2hkpXCtJSAVPbib1jn28bDoS9jGehcc5IpFARjjubA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_124_dbb7da811a31.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoKibTgdE91XDgHKTLKPNV8hfkb0HxWhlR0VZt3g5UFVZgCiacIM4y27cA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_125_6e7153168547.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Moz06ld7LOvibmwh8hn1kNQpZnzYxQpy8IEqt77W9nMP8dwKreCwS1PicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_126_dac4ab0c8bb3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoichiaDj5TON3wvAtSVqypIDXEKvR4484roicehw7zvj52reEtGnXf92SQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_127_2de203d4a501.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoyYw3lnepCenjgbibdD64V2STRovMJYGSo0W6zDBRPfG8moCokfBD03Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_128_e44677771b28.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoGGj6GbHaZ6Zlb4pmyzEVLSdO8pRicAO7ljduNdt6Z7twC3zVSZE3Mlg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_129_a7e84a0255de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoEp3d93KibichTpXmHGmUfxS4pXAK3dMAHluuhCiaF1v3jYDeaKfGhIPLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_130_8b12cc5d557c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoC0ty4cxC7dUqZQ8j745ZtNFepcQ4sx4vGvyArtw8zdl1uSkL14pdWw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_131_cd859f2cb782.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoOGZohNgGz8TDvKiaiaTibibOibtds2Rl9Jl4mQLf3ibhPjaoeI2TlwdpUAvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_132_22d0cb3f85fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoDMeNuOcXjzbgVTBz7Ea95HibrCXSMiaNupnYUcezntHMsibefWF7yqB0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_133_e79e4e08490f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MowLqr1mBicXQAgFIcDASRMUHoeDtrbyibW2LZiciaEwsfW4W2UAsSLyEF8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_134_fd5b296a0eaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Moe1dWIn6vnVwOw99uIiaiaIPx2ibydW3h4SzvyXF3v6USxAfRtFJOIcjPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_135_17dfff115e8a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MorhGuywf13CQgF892NhRUlMPupGlToDjFPq4iajDO5oUkSU8pVU1cbXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_136_37ab6fbdea9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoOgO3yj38ylcnpuN0dIGbDkpPrvQ6wdPprUJOCUOZOtEE1JH9TAbS2g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_137_d1b13d6dc10d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoFyTRjoLHvmZ3BBLxAdVVOBdT9oAYpsG23PDc7gXicAFnDl1fOWmHn4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_138_7051eac433a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mol70GrQ3x9aUhh2KUTO61Eiao4qTMlvahI8EAlPyEll5DJXnc4J1sAHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_139_45cb0effd4f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo4I7HGOqMT9TTSqsxdRYfQgYI9jfPkia0f4OHBLcrdBTtICJpG4cp1lw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_140_cb2f93374d1b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mob2MibVDZJ1AXuCND56PKibyXu70eTQByoH9R6caCCGcJOt9pm5sk6byQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_141_cd69cb23fc28.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MotAvI1ksSO9lbXn0vkMveZBpgibcFNaYgobRHTQv6XC8nUUXzL7NOY1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_142_3754814f2bc9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoHWDDGOqZeOfiakKXrjwfzK0pYjYDwVUN22YCiaUVefibsViaJq2mo4DD8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_143_367de5fb1c58.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MomY4TFoT9Vz8IG1aPOEib5W0DaSn0lXLvicxbABtRBPwAIbyEgvMibAXsg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_144_470f36c6d9b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo9IibqJYiaicc7me0F6C9ickRHWOMcH8pksfKHibZibpqsy2rEkhweksrVdUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_145_fba08ddad89a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo9X5jn6JOSqbWPic9P9HSBn2sUWVp5iag7ffy6QENCib7FEhbSJSjCwraw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_146_48b7922c2db0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoFp0OaXAX0wz6AKHrIjJ9dfynQNzM2VQIKg7RCWP2kVqRjqrXfLWPQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_147_cc72e985b26a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mosh1OxS99RicFnV6fIWrSytzpKjy2UVPibmqaDxyEh4YugibMjEllfzs6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_148_637b82780161.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoZdOeyEeibHVBaZUjly24ribTPZiagFRFoezqfU3QRJWZ4jXg6XUwkOG8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_149_ab6aca4682c0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoeXMHvwY0HvAC3P2yHaIaV0yzFTbDj88jqS1tfbUmQkRxkaKZ7yuQicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_150_41221af536e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MooCicthOgMtwIRAbwVbZ7q50NLoNa6ia1RZ3j8TDzQiaBGs07vmvKMaKZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_151_0e7cab1547ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mok7sibZfCicQRhF1bjIvYJfJUwLTcGLBJARJiaZ8bozJebvTY8LOwf81uQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_152_f6258d605b3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoFDrmDE5iaXBZiaFjom8EwI3ibx7CwQib0Ron9sRGTkNiaGAVvUYF4bVd3qQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_153_191ccb693db3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MorarMyuL6zZeyrHWzomaHuBOgrnuAThrnaLtibO1pA49AGu893cEiccpA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_154_ff3ea9980979.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoRJziccNqMRetUGwAKkwOVNo4TVE2dzhQAzmxkTOIW3y7TtuhMJ1K25w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_155_a44e002054ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoAtewUq4fj5hTkyIoicatvFRAI4AkRnckuxRniaIiaMeRmpVIqF4htSPoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_156_963bc024fa8d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mozjusq50nXSr267GhxLx9YOUydib6W8eiaoLrDQH0FBvXngd3DU4B0d1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_157_d29142aeb06a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoXOHiagzvdhgQ5vVIAdqGR0icRqGsUM8lWEmGMnre8C9WWrAlA3h3mYiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_158_03355fdd7ae7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoIFGyQMNYVmpmL9ujR4QVWSpXhbU0A4uwDYzeLRU9PBiciaCyW8qLyLIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_159_989cbab16d41.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MofQ41XfxulWzaBVVPiatsuky1D86AXTYicKfA7QAEUOx3NZia6rFQzG2BA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_160_4b127ceb79d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoPFicu8WcRNgwVhNCezhMNeiarCEwE55hcfpn8VZEBHUoANHpWpMgInXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_161_6ff2061b9d86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MosMF35adb1PFbic658OBbSx4qRDhee6Y7GypEKrXLKuAQNCZv05yLyKw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_162_47c89f5e3906.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoSHUHb2soflgBPXaOxDDoNdW4ow7MKjJqic1Gg8iaK14chXpqmbtyrOxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_163_017560e29738.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo9oI5RRh2g7vBTFX762smP6DZUgsFhRF7NibYGaGheYohQ4j5XH14jXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_164_13349a5910a8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoDu0g2JoELD6aYDWMUABslRDjZPM5IXIP2Vrt3MsRJ877Cokq05sqNA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_165_5404a188f220.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo69EEkGdDAU44f8a9HhnEsyj923Pd0zCZIhdZfLtWHHibcpQ2HCScKicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_166_5f7d3abc3457.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MobyBjcjEd0yicC34qaUWiajM187FF3yMkOGT6kxx6C6unlXibKJ6354fzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_167_9963049541a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MomxOgYfeLko20JPpAhEtZxPic7lDgI75bfsE9c5yYucR3EiaSibYZUpspA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_168_b258537288c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo5ZfLeDquumg3BARKXRyibAWcXGSmoFawEnjgrg4E6YBjL9BzVsdbHcQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_169_f2bbc3f25da8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoR0ic5NROqWxuiaZ7Es4HeMa2iaV2Y4YLfR8P7wMPcLH4MB9WzmsMB7Chw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_170_80be285d4368.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mo56Ly4l62Xn7wTFwLicYsVIraLUQ8KpSZQmXVl1XTtf8BK3fzlNv2doA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_171_fd34e620367a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MojoQC7Ohdpsger74KBwbkItMSBzOJCkDn4y5KJ1bUAgWInZ2nooBowA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_172_3ffb103cc3c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoWycP3ic5Awb1G3gyP8LPNZ00eSvlYqa9RicwL2nwnFTAYziagkKDCF4icg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_173_ed66f92d8a7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mozzo4PvPHh1CAD4V9D8buiaoWWuReRgMp2ySOGI1LvCybic2Yyj28eM6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_174_b50e5de4644c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MogmYRIWrIZNj6zficiaLS02q26lFe9iaicylCalice4raqz7HqDFs8JhlUEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_175_e01a42d49bc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoSY4kIexxSAbtqjsicaYSBT3AMczaja3Ygh0TxNh68bFUNiazREzCty7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_176_7c90def93fa6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoqP839x5VZg5UtfmAH1Meon0g0yO1KrsJSBrTlKdn7SrjHBQgQADpTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_177_3397f13dca85.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651Mou7kIibGv9EWdLPVqAj8YZBc1ufSDnIs1PFjSOLSuFNbkrX7rkl7tsicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_178_d9d71896780e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoNUOJ2egbPAuIyAyBqJqf2NUOd7cGicKx5iaAszN3H1fVIJUTcicSLhhrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_179_e061fa3b0519.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnyQictb5UTCGO0smtu651MoxI3aLpaVPHB1zrKnmFGYPUR4icpNn4y8IutuVbL1dr4rex4Z7STRDmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_180_7b5705ec1e32.png)
 
            **小结**
 
@@ -403,8 +403,8 @@
 
 **3.车用SiS电机控制器的寿命明显短于Si,急需发展SiC功率模块先进封装结构与封装工艺，并实现服役工况下的优化设计与优化控制。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_181_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用SiC功率模块__原位表征_系统集成与寿命评估_images\img_182_770831a45f05.png)

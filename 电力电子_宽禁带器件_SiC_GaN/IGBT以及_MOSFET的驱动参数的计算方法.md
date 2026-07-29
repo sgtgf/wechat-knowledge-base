@@ -5,7 +5,7 @@
 
 文章来源：Power Integrations
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8D9FFW3AicBDWjP9Q0IhWmrM6Jmnt2uXAiaUic4rxCfqfl4icdp7rLTQRNA/640?wx_fmt=jpeg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_000_dabbe7cb0507.jpg)
 
 简介：  
 
@@ -19,17 +19,17 @@
 
 驱动功率可以从门极电荷量 QGate，开关频率 fIN，以及驱动器实际输出电压摆幅 ∆VGate计算得出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o80wVX6rwkZwOMP2eMISpldIuQ8OtdE8z5f1Hibry3tkGY2cIm4JIf8qQ/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_001_d758fb43f6a1.png)
 
 如果门极回路放置了一个电容 CGE (辅助门极电容)，那么驱动器也需要对该电容进行充放电，如图 1 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8ON87lpyqSrHU7xCneicdJr99h3bqFojJo1hWLiaH3NRLSFucevPjM81w/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_002_e122ad80b0c0.png)
 
 图 1.带外接阻容的门级驱动
 
 只要 CGE 在一个周期内被完全的充放电，那么 RGE值并不影响所需驱动功率。驱动功率可以从以下公式得出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8VibG1Aty4jqyO228k28v6KcAHN6D0YY6jlucM8mf4u0iaOqwzjfI1Obg/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_003_e0299138a4dd.png)
 
 以上公式是在门极驱动电流不发生谐振的条件下得出的。只要这个开关过程是 IGBT 门极从完全打开到完全关断或者反过来，则驱动功率并不依赖于门极电阻及占空比的变化而变化。接下来我们来看如何确定门极电荷量QGate。
 
@@ -41,9 +41,9 @@ QGate 绝不能从 IGBT 或 MOSFET 的输入电容 Cies计算得出。Cies仅仅
 
 在这样的情况下，如果没有电荷量图表(QGate vs. VGE)，则实测电荷量 QGate是唯一的方法。图 2 显示的是一张典型的驱动器开通过程的波形图。驱动器输出电流 IOUT 正在对功率器件的门极进行充电。因此，如图 2 所示，输出电流曲线与时间轴围成的区域就是总的充电电荷量(见图 4 所示的原理图)。积分时间应宽到足以涵盖整个电压摆幅(参照输出：GH， GL) 。积分时间包括驱动器输出电压至最终电压，或者是从驱动器开始输出电流至输出电流为零这段时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o82s7JwOQUJmYQNLib3muVnGWm8lv8kSG7MOHsia0y11ia20yqz862fF1NA/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_004_7600cfcc03fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8jkZCO5ZIdFoNDYU9tlL3nCnZibSbCaG9piaDiclrMISKzKVlSJk7nSyGg/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_005_1cd34f5981b1.png)
 
 图 2.用积分的方法来测量门极电荷量
 
@@ -57,13 +57,13 @@ QGate 绝不能从 IGBT 或 MOSFET 的输入电容 Cies计算得出。Cies仅仅
 
 门极驱动电路另一个重要的参数就是最大门极驱动电流 IOUT,max。门极驱动电流 IOUT,max 必须足够大以便在最大电压摆幅及最小门极电阻条件下提供足够的驱动电流。其一阶最大值可以简写成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8R9IaZLBYhMFTIONUSJj1JKeaPz7b7wxPBH8vhkfuCgHEpq6TFhxOmQ/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_006_8cdc3b1f8d80.png)
 
 若门极电流存在振荡现象，则建议在选择驱动器时，其峰值电流应满足 IOUT,max> ÎOUT(1. Order)。如果门极电流的振荡表现出低阻尼特性的话就必须引起注意。此时，峰值电流电流会很大，且通常只能通过测量得到。
 
 实践经验表明，在门极电流无振荡，且驱动电阻较小的情况下，电路中实际观察到的电流峰值低于 ÎOUT(1. Order)的70%。门极电流的减小是由于门极回路中的寄生电感导致的。这个寄生电感在门极充电开始时限制电流的斜率。因此，在门极回路电流无振荡出现的情况下，对于驱动小阻值门极电阻，我们只需根据如下要求选择驱动器，驱动器的门极电流至少需提供 0.7 倍的衰减因子：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8ib5e44oLv4fnt2llpdrtRX9CTOsnfpTjQnbfib5KrQIqjSwQ2Vd3ia7lg/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_007_4cc9c5a2b55e.png)
 
 在使用公式 5 时，驱动器输出端的实际峰值电流需要进行实测以作确认。举例：驱动器电压摆幅为 25V(+15 / -10V)，门极电阻为 0.5Ω，IGBT 模块门极内阻为 0.2Ω，则驱动器提供的最大峰值电流至少应为 25A。
 
@@ -81,7 +81,7 @@ QGate 绝不能从 IGBT 或 MOSFET 的输入电容 Cies计算得出。Cies仅仅
 
 图 3 所示的是不同门极驱动电阻条件下，最大允许输出功率与开关频率的关系的曲线图。该图只适用某个具体的驱动器，并不是通用的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o89k9PCygLhL8yoqz87QcMibo16G5MUhda7knwoPibwiaia6PyT64atO6PJg/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_008_e5759d080359.png)
 
 图 3.最大允许输出功率与开关频率的关系
 
@@ -95,25 +95,25 @@ QGate 绝不能从 IGBT 或 MOSFET 的输入电容 Cies计算得出。Cies仅仅
 
 图 4 所示为门极电路模型，由驱动器的推动级输出端 GH， GL；独立的门极电阻 Rg,on/off 以及相应的杂散电感Lg,on/off；以及功率器件回路中存在的杂散电感 Lgg 组成。功率器件可以由一个常量电容建模而成。这是一个被简化的模型，但是在门极充电过程的起始时刻是很合理的。门极充电起始时刻是最相关的阶段，因为充电电流在此刻达到最大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8fm2vIiaxeYm1BQTTFhB8bicskC1yGajHw1031QiaR6JFnHxJ6hMRoibPSw/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_009_a714c30c48b5.png)
 
 图 4：门极驱动回路模型
 
 门极电流 i(t)由 RLC 回路著名的二阶差分方程决定：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8OTWFibkZ2h9XLaA1kKlpsbeK5ibvdxtsppsNrRtTYwdoINzJakLX9c8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\IGBT以及_MOSFET的驱动参数的计算方法_images\img_000_7ec7981dd4d8.png)
 
 Lg 与 Rg分别是开通和关断回路中 L 与 R 的总和。区分振荡与非振荡的边界是 Lg， Cgg以及 Rg比例。i(t)不振荡方程需满足以下阻尼条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o86LXnPoSN5OS2LR5PMJXh8LQibHyNzibdtHIDxDoSMicLBcVyl7yuOqDqA/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_011_fe3dc2cff615.png)
 
 得出电流波形不振荡的最小门极电阻计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o83gsZO6H50zxfric27WlIRrP4yd3lE1YkTAlXq93EW4uBDjNTQVXGsWw/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_012_4cfe7c2c545f.png)
 
 因此，在电流不振荡的前提下，最大峰值电流在临界阻尼条件下可以表示为峰值门极电流 Îmax(non-osc)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8wQURoWqmcsfmicUTJLotSBics94ZTmPNnUNL08RTWeMFyeDOnVkSSeRw/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_013_1cae1bf5196f.png)
 
 这里 e 是欧拉常数。
 
@@ -125,11 +125,11 @@ Lg 与 Rg分别是开通和关断回路中 L 与 R 的总和。区分振荡与�
 
 如果门极输出电压摆幅 ∆VGate=25V，门极回路的电感量为 20 nH，并假设 IGBT 的输入电容量是 30 nF，那么：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o81xzPf9805KaddCg3TjNz7icPIylfY2ZRXcChdpHIwPJpVBaiciawCwQoA/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_014_2a8912f3cba3.png)
 
 如果门极电阻阻值小于 1.63Ω，门极电流就会开始震荡。假设这门极驱动上并不存在这个振荡。那么 Rg=1.63Ω时最大非振荡门极电流为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJfRTdFJZialZlazUHzu1o8zD5XhpsauusYCmsImC928ZlKtMia1Toy6V4e4V7VfiaR1wCiat2ibvsppg/640?wx_fmt=png&from=appmsg)
+![](IGBT以及_MOSFET的驱动参数的计算方法_images/img_015_e78977af16cf.png)
 
 对于更大阻值的门极电阻，衰减因子由 0.74 上升至 1.0，相应的门极电流将减小且总小于 Îmax(non-osc)。
 
@@ -139,13 +139,13 @@ Lg 与 Rg分别是开通和关断回路中 L 与 R 的总和。区分振荡与�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyIoBUkVX2GcXnExRaOs4kI1xUdGHI4mr7IjjPseYSBu8vQfEg5Mlvn04OJau7EABPcOTRCayKSw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](IGBT以及_MOSFET的驱动参数的计算方法_images/img_016_2f484288d167.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyIoBUkVX2GcXnExRaOs4ktH42XJDAhPQHAEplDKjbyTu0O1BCmuiauFPlnseeU0SQTwh0Ju1CFdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](IGBT以及_MOSFET的驱动参数的计算方法_images/img_017_a88b4725fee4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyIoBUkVX2GcXnExRaOs4kBmUGdey8EUaYInibDZGLTGR3fzrhv6txBkpp2WSjaFWVfEJxXic0lUkA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](IGBT以及_MOSFET的驱动参数的计算方法_images/img_018_55594b689e58.png)

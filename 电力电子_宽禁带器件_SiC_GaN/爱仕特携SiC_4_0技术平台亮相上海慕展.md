@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xHEBDi3eXT90yDtS94GcuA](https://mp.weixin.qq.com/s/xHEBDi3eXT90yDtS94GcuA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3DpWUCmAJIEq0ia9MKPibFlKyUC0XDYUumUV91D84u52Q1TNqNaib9hEJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_000_ef589227dbfd.png)
 
 “
 
@@ -17,7 +17,7 @@
 
 爱仕特以“碳化硅4.0技术平台”为核心，携**1200V/10mΩ SiC MOSFET、1700V/16mΩ SiC MOSFET、1200V/1000A SiC功率模块**三大“战略新品”亮相**N4馆608**展位，以极致性能与创新方案，成为全场焦点！这不仅展现了国产碳化硅技术的突破性进展，更标志着第三代半导体进入系统级应用的新纪元。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3s26VXedicqdJZkfoJbXJLIsfDuDNx2N98uibohduVPibsaFb26JXwI5wg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_001_a8d795a8e18d.png)
 
   
 
@@ -39,33 +39,33 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3x09GEGX626Tpn2BA3LZV89w0aH5yMjQFhs7xtE66p5Eh3bnzqGNIZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_002_c7f5132e61e4.png)
 
 ▲展会现场
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3mvxjMuKBrwBNszNULOBKY1P16Zgug5uBAbqcmWkcOgtSEib25j3065Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_003_782966f2c209.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3P2P1XUn1Bav81gDd2hfukBPu4dPxaic8mcnREz3u6Via09czPqpr5lrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_004_e851151ff422.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3p2nibk6ARhMgptZZzic0ibIRZREFYu2iaibh9yytWr9mWic3hWMVf2PGaKXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_005_35e610c5a08c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3piblVK006ebtsgDl96ib5kUyqibLZrblPn2dbtfDbDs1Y1eBfab1fBmUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_006_975803658939.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3KOukaMJy6TDJZMC2KOjsiaFa2TeX0X5Svh71BgLjLPO7DicvKp4djRrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_007_6a60bf9cc8cb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3zI00uH6MKOrHXHvzcN4pkA1Cp0U9VYztWwlpVBTiab8cmXZ1WX2FwTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_008_7ca7f2b7c1a5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3bPzl5cfgAQYicIwbchtibzEm72ocNpJ1n9UukYzOgSIIvqZjpaicicHasA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_009_39fab74dddb5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3NEtB575AsOkEc015jtvLxpzTsJicqg4kqNzjYsa4b8YDrKJSuicjlB7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_010_0f133e774d53.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc32P3XWr7udEu72ynPjhbNoWJYRzZRMfFJRVOFSvJbVh6j9GZ4NZS7pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_011_8433c6f2bde6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3ed95rIjrukKDcWo6uleF1QUw4kkKZ5iaHyvx0vHv23CXTXNKaqQayaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_012_f8d19ec78e45.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3lyOUDBYuchJvr2sGr7iaR8PMaGoVxKPBXHYc3SeqLxmKlxSO9BcjmfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_013_8cfa3eb44ec4.png)
 
 <<< 滑动查看更多图片 >>>
 
@@ -155,7 +155,7 @@
 
 1200V/10mΩ&1700V/16mΩ SiC MOSFET均采用TO247-4L封装，搭载的第四代芯片已在2024年通过验证并实现批量交付于终端客户。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3gOHpI8wsXhicBDI9b0ugFY6Co2WAC2FO7ibH1rgoo3EvZvwhmicr5cic0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_014_79c034cd27a1.png)
 
 ▲爱仕特第四代 SiC 功率器件
 
@@ -191,7 +191,7 @@
 
 1200V/1000A SiC功率模块目前已布局DCS12、MED、HPD三种封装系列。自2025年第二季度起，爱仕特将推出多种封装形态的功率器件产品系列，通过分阶段市场推广精准适配终端客户在封装规格、功率等级等方面的差异化需求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc38RGbn8zttpicLiaHmxuXdwngjC1juK6ORtHnY9iaXeCNhYdv8BnlJCPLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_015_962b9a7ed3c1.png)
 
 ▲爱仕特第四代 SiC 功率模块
 
@@ -219,13 +219,13 @@
 
 除核心器件外，爱仕特还展示了新能源汽车及充电桩、绿色能源、工业驱动等领域全套碳化硅功率转换解决方案。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc392P8RwhiajXwseoOmFPEiatumIMAGsSOYuPjpd6wEdicfmLwlcv7Sia49g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_016_c10dfa4d6515.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3lYdxHJKrYw8VZOeWPujuefTDTH6EVR8wI4B6cwVqicN8n4zu2DD8hGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_017_f1a065261496.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3WMVJgibcZwDgcmDzexAOwa5eHoyDyKcuvMFA0PHWWCdf0AiaqYkeda5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_018_c17bae6f5103.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3akslmc7yAkfJTY2feC6nMygVTS3rrVbkbPQluyvAicuIcGtw0OuFeWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_019_cf2332bca95f.png)
 
 ▲爱仕特碳化硅功率转换解决方案
 
@@ -257,13 +257,13 @@
 
 面向新能源、智能电网、轨道交通等战略领域，爱仕特以碳化硅芯片、模块及系统级解决方案为技术载体，深度赋能行业变革。未来，爱仕特将持续加大研发投入，以更优质的创新成果，助力客户打造更高效、更可靠、更智能的能源解决方案，为全球碳中和目标贡献“中国芯”力量。在这里，未来已来，爱仕特正以全链实力，书写碳化硅技术的新篇章！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc35np7OSEJbuiac5dRGqhyZHcdFjLb7SXhDzj7MbXia166IicUjIAdAsczA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_020_f6940ad2237b.png)
 
 ▲爱仕特SiC MOSFET产品系列
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3VCiac7AazibJlicyo7GQDJoYC0Gp9j3N58zHicl6vAN4VPCkoqCQdG7nIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_021_290757c97711.png)
 
 ▲爱仕特SiC 功率模块产品系列
 
@@ -293,10 +293,10 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3NsL5JyZCibdIzlJhpX3ibfDQfCZHcbjOuulic4WhDBYhXzib7XlE3uqXkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_022_745134fa5795.png)
 
 ▲爱仕特展位指引
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3MIcKp1uGUZ9QwFcCLZByicA03uKGfaoOhQ167MKk1Vb5eehpcfp1yLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_023_392710095101.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreX5gVY9qnfoL3fBSD56fc3nzUeWKNasCias4jRx7UJibIAAjkI4JYEwhPBv4iciaTkzaBHK8leicDicicbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特携SiC_4_0技术平台亮相上海慕展_images\img_024_66904ee25681.png)

@@ -9,19 +9,19 @@ ChatGPT-3自2022年问世，国内一帮互联网大厂也紧随其后，百度�
 
 ## 1腾讯元器
 
-腾讯元器\[1\]背后的大模型为腾讯家的混元，我注意到它是因为它不仅可以将一些文本文件、网页内容作为知识库材料，更重要的是，**可以很方便的将自己公众号文章内容作为知识库，并且随着公众号内容的发布不断自动更新**。我用来创作的公众号是“铁心探索界”，除此之外，我另开了一个小号“电工智汇”来转载我感兴趣的推文。经过亲测，转载的推文也可被用作知识库。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSp4icNcYL2lm0O5ib1GIcpP59raGvodMasfAvPNdsVTcXc0YqdIiaQVjbCXaIItgbt87aeNEBFMnBUQ/640?wx_fmt=png&from=appmsg)有了知识库，我利用腾讯元器，配置了一个智能体，可以根据知识库的内容，总结后给出回答。在我公众号聊天窗口配置了该智能体，点击“探索界”下级菜单“铁心探索界”，即可进入问答聊天窗口。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSp4icNcYL2lm0O5ib1GIcpP5vhkKiaDYJh8EokWagKYlGxJOqWCoCwnTHMf3GmdA7gibiboPMbiaY4ciaxw/640?wx_fmt=png&from=appmsg)我简单问了两个问题，大家可以看看当前效果，随着腾讯混元模型更新以及知识库内容的不断增加，我相信它的效果会得到进一步提升。
+腾讯元器\[1\]背后的大模型为腾讯家的混元，我注意到它是因为它不仅可以将一些文本文件、网页内容作为知识库材料，更重要的是，**可以很方便的将自己公众号文章内容作为知识库，并且随着公众号内容的发布不断自动更新**。我用来创作的公众号是“铁心探索界”，除此之外，我另开了一个小号“电工智汇”来转载我感兴趣的推文。经过亲测，转载的推文也可被用作知识库。![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近用到的一些AI工具_images\img_000_8f9e48435010.png)有了知识库，我利用腾讯元器，配置了一个智能体，可以根据知识库的内容，总结后给出回答。在我公众号聊天窗口配置了该智能体，点击“探索界”下级菜单“铁心探索界”，即可进入问答聊天窗口。![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近用到的一些AI工具_images\img_001_2c24d5434f5e.png)我简单问了两个问题，大家可以看看当前效果，随着腾讯混元模型更新以及知识库内容的不断增加，我相信它的效果会得到进一步提升。
 
 ## 2腾讯元宝-AI阅读
 
 其它家模型的阅读总结，我多多少少也体验了一下，总体感觉一般般，并不是很实用。但腾讯元宝\[2\]的AI阅读真的有点震惊到我，它支持对文献的精读，且图文并茂，甚至还能提出文献模型的一些不足，而且还挺靠谱。我随便找了一篇演示文献\[3\]给它进行分析，这是它精读的结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSp4icNcYL2lm0O5ib1GIcpP5djJyFdM4b0lhlWQet0JlmKNrmMKzzuicIl2ibL3LS1nomaZCLQicLg45w/640?wx_fmt=jpeg&from=appmsg)**点击右上角的海报，它甚至能给你生成一个简单的海报！组会文献汇报神器啊！**![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSp4icNcYL2lm0O5ib1GIcpP5FTlnhTZlkSIOodacBPkjZa6UTcqC2dMHqd90W19vKoHbl0fp49rYicQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近用到的一些AI工具_images\img_002_ea1d228db57b.jpg)**点击右上角的海报，它甚至能给你生成一个简单的海报！组会文献汇报神器啊！**![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近用到的一些AI工具_images\img_003_c8e82ba3270c.jpg)
 
 ## 3字节扣子
 
-字节扣子\[4\]和腾讯的元器是一个类型的东西，字节扣子吸引到我的是，构建智能应用时，还提供了用户界面，在用户面板左侧，是目前提供的一些组件。**这使得我们配置出来的应用，不再是一个简单的对话界面，而是更像一个应用。**![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSp4icNcYL2lm0O5ib1GIcpP5p0iavrxeCm4bLGyewXFo4yBZHnz9Un6ficF7SIuODjcRmiccKWsh5E76Q/640?wx_fmt=png&from=appmsg)最近在利用COM技术做Ansys Maxwell二次开发的事情
+字节扣子\[4\]和腾讯的元器是一个类型的东西，字节扣子吸引到我的是，构建智能应用时，还提供了用户界面，在用户面板左侧，是目前提供的一些组件。**这使得我们配置出来的应用，不再是一个简单的对话界面，而是更像一个应用。**![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近用到的一些AI工具_images\img_004_a6f6417e48b2.png)最近在利用COM技术做Ansys Maxwell二次开发的事情
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQhuPsbBOBITv0cKibdV8TFZZntwWacgluWfnKNJZIbibcOLcD2nEoI9vHacjgnPDOMqcd51XCRxcgQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg3MjUyNTQyMA==&mid=2247484266&idx=1&sn=c9fc1b1d988915ccdca779e47ef016e7&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\最近用到的一些AI工具_images\img_005_ae67b530d9da.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MjUyNTQyMA==&mid=2247484266&idx=1&sn=c9fc1b1d988915ccdca779e47ef016e7&scene=21#wechat_redirect)
 
 由于python和matlab在语法上存在区别，因此，在之前需要手动调整格式，略显麻烦。于是，我顺手用扣子的智能体，做了一个python脚本转matlab脚本的智能体，感觉用起来还是挺方便的，终于不用一个个手动更改格式！
 

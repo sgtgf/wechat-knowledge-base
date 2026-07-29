@@ -19,7 +19,7 @@ SLAM问题的处理方法主要分为滤波和图优化两类。滤波的方法�
 
 回环检测：当机器人回到先前已访问过的地点时，回环检测产生的约束，它强制要求机器人在不同时间但相同物理位置的位姿一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XsG7ibyEOHibnlGLpz8WjCgcOshwQVyYko9gAMDu7ckQ7eVuS8vgQeYtg/640?wx_fmt=jpeg)
+![](SLAM基础系列03___图优化的简单示例_images/img_000_b5b4552713e9.jpg)
 
 **权重**（Weights）：边常常附带权重，表示对应约束的置信度或不确定性。权重通常与观测噪声模型或传感器精度相关联，用于在优化过程中平衡不同约束的影响。
 
@@ -27,31 +27,31 @@ SLAM问题的处理方法主要分为滤波和图优化两类。滤波的方法�
 
  如下图所示，假设一个机器人初始起点在0处，然后机器人向前移动，通过编码器测得它向前移动了1m，到达第二个地点。接着，又向后返回，编码器测得它向后移动了0.8米。但是，通过闭环检测，发现它回到了原始起点。可以看出，编码器误差导致计算的位姿和观测到有差异，那机器人这几个状态中的位姿到底是怎么样的才最好的满足这些条件呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XFmSfI7DwqKN2y0Vn4LDYo3ObGsBtKpP0fj6LOlVNoUlhA3C43SSzxw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_001_7cf6a2f86f51.png)
 
 首先构建位姿之间的关系，即图的边：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XiazpwfiaxiaATnrAOicxk4VQy90I6dSrdUjQP3YO0FOvj0rfD8aBZLLbKQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_002_d1a5bbfe1c38.png)
 
 线性方程组中变量小于方程的个数，要计算出最优的结果，使出杀手锏最小二乘法。先构建残差平方和函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XD8lp7KEspcibxBj5MVMcUzetaEb5GeXiadUJWd9O11licpPqQa0nOBbpA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_003_46793c87b716.png)
 
 为了使残差平方和最小，我们对上面的函数每个变量求偏导，并使得偏导数等于0.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XEbibXcTQZHibZ6sia58IGILt3Ric8kgL2L2eIZibibktNuicxBrtbU2xwT4mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\数学_数值计算\SLAM基础系列03___图优化的简单示例_images\img_000_323cd8745320.png)
 
 整理得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XeQqrcP5jicvmbXfibdBcQCfzzyRrFssOYQclPEWI3ds3qlNUECZ306jA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_005_2cb2882eca07.png)
 
 接着矩阵求解线性方程组：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XrwpLBPFrN2uQc0WbU0Lliagej94LmAUr5fiaDWmAe7ia1VknqwJyFQp7g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_006_67dd25ad8beb.png)
 
 用matlab编程验证：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XoiaWd8Fibar8NddibhGniaqU98vibTuAllvZ8ZFMKPfrnkxuUlOpkwhfJDg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2X5SDqIaREFMtcDOiaZuCnovKeZtMvlmicvwCwtsz1rZl2Tiboiaib669RUbA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_007_79a076a90686.png)![](SLAM基础系列03___图优化的简单示例_images/img_008_810693400808.png)
 
 在这个例子中我们发现，闭环检测起了决定性的作用。
 
@@ -61,89 +61,89 @@ SLAM问题的处理方法主要分为滤波和图优化两类。滤波的方法�
 
 前面是用闭环检测，这次用观测的路标（landmark）来构建边。如下图所示，假设一个机器人初始起点在0处，并观测到其正前方2m处有一个路标。然后机器人向前移动，通过编码器测得它向前移动了1m，这时观测到路标在其前方0.8m。请问，机器人位姿和路标位姿的最优状态？
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XRDYtChib2QXiatBIVjlEib5iaSyBb6QYdYClfP2rkWmaHfPLQAXYWKJ3pw/640?wx_fmt=png&from=appmsg)**
+**![](SLAM基础系列03___图优化的简单示例_images/img_009_872d20ceff82.png)**
 
 在这个图中，我们把路标也当作了一个顶点。构建边的关系如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2X04wLPI36CDEhljUeLIku3Plbk64YgZjzMIOSQxPU4sFdqHamIVK03w/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_010_15fc84e8e781.png)
 
 即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XMoJ3ITkmDIsUiauaDZ9icuBEZW9Ec42qGSNE0fcoB6nutj1X9jVicW2RA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_011_e975e4c4676d.png)
 
 残差平方和：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2X4VaILGW3dpDstgibeCRiaFWrxUS9nnsvu7kgLVeiaYI7YMia86lxfAQXUA/640?wx_fmt=png&from=appmsg)  
+![](SLAM基础系列03___图优化的简单示例_images/img_012_b0125dc3673b.png)  
 
 求偏导数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XkE0G7Hv9oxIhHLkGSkyCX2HgIJSFz3syIbPocLibyjAawy7uN1yZ82g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_013_7c9f8fb0cb95.png)
 
 最后整理并计算得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XrFWKofcicDT21TnTa9hQFicWxXBBQZXnc7bgCyIOJeCmRbmZzsmZbX6Q/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_014_a80a1e8fd783.png)
 
 用matlab编程验证：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2X3tvkmUy5hI9Jmfib3DbGn1UeIB9JEJJiaMwpmGRibrFU6lWPQwjTtMFaA/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2Xo3v9A76KUqNu5AdTGCEBh377x3x8ZspUghwrdyaQbOdyvmDibh6qL3g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_015_1f22089fe200.png)![](SLAM基础系列03___图优化的简单示例_images/img_016_c64962cb217b.png)
 
 得到路标和机器人位姿：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XdHGKTr0ahyulZ48CsafN371aGHsic5pTJHgiciaCibUic3sZjKOZzicduBwQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_017_ea54f965d37b.png)
 
 ****场景2：**加大轮速编码器的权重**
 
    接下来，将引入了一个重要的概念。我们知道传感器的精度是有差别的，也就是说我们对**传感器的相信程度应该不同**。比如假设这里编码器信息很精确，测得的路标距离不准，我们应该赋予编码器信息更高的权重，假设是10。重新得到残差平方和如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2X13FgkibrmGicb0RgIVdFNpTJSAZdZMwytZt6DibNWTzybs7JAGxWV6Tog/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_018_f5dfd2780062.png)
 
 求偏导得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XD2Tk9OTodkMAqibL8oTcNzw5tHJg6kv9sht3icYpgC5qrES7NkicJPm6A/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_019_2481e25a1036.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XpuZRYcnEA1PPicJa6XDI6aLmsefproUTw4qjsrGTxhd9iabjDuabERiaw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_020_61cbe65a40c3.png)
 
 转换为矩阵：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XEjqG6rIUZ3RKk4tfyRpkosNoXzcp55jF51GI5YjPYHXcvsX49S71Zw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_021_6034bd96e3ab.png)
 
 用matlab编程计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XNE00x5hiacQsEmDh1kmAT4e5e84CL58m2r63dct0FPmJ1lrhXeib0XaQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XRJAqiapqHXePqv6vSK4pbdygYx2RsIrQYn9EgYgfNXWJtHzWQrZuTFA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_022_fc9f15a81b4c.png)![](SLAM基础系列03___图优化的简单示例_images/img_023_84d8bc4bf0d8.png)
 
 得到:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XoNEMVfibMc2sRUhGQMiatics8PAiaLCx5fTVxmIpTiaiclb7UyD3icNTU84jg/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_024_278c7e8866e8.png)
 
 ****场景3：**加大测距传感器的置信权重**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2X40l1vcR4ob3953JrGDZjJANfpzoyt5NqRZkicpP4VficNCBRmV9W4l2g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_025_d732a48a95cf.png)
 
 用matlab编程计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2Xx0Wib94adFLxM47Cib0KOPYy7ic7icHTPliaKPYm0TH3iaUd3gy5JDiaIuXVQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XM9rffP7S81PAIDTWKy4uOTjQaQ60icJMVGttpfO40PwT3yJfDNCQCBg/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_026_5f38e67ea077.png)![](SLAM基础系列03___图优化的简单示例_images/img_027_c18b43599bd5.png)
 
 得到:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XQbQZEVnMlXRdIr0xDJZcbVnU9pFPyvCgXUGia0Us8187w6tVbib07x5w/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_028_bbb27b6445fa.png)
 
 **对比分析**
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XRDYtChib2QXiatBIVjlEib5iaSyBb6QYdYClfP2rkWmaHfPLQAXYWKJ3pw/640?wx_fmt=png&from=appmsg)****
+****![](SLAM基础系列03___图优化的简单示例_images/img_029_872d20ceff82.png)****
 
 相同权重，得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XdHGKTr0ahyulZ48CsafN371aGHsic5pTJHgiciaCibUic3sZjKOZzicduBwQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_030_ea54f965d37b.png)
 
 加大轮速编号码器的置信权重， 得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XoNEMVfibMc2sRUhGQMiatics8PAiaLCx5fTVxmIpTiaiclb7UyD3icNTU84jg/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_031_278c7e8866e8.png)
 
 加大测距传感器的置信权重， 得
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2XQbQZEVnMlXRdIr0xDJZcbVnU9pFPyvCgXUGia0Us8187w6tVbib07x5w/640?wx_fmt=png&from=appmsg)****
+****![](SLAM基础系列03___图优化的简单示例_images/img_032_bbb27b6445fa.png)****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41nZmOq11SlXFVpB5WAcK2Xp32oNsU3jeia1R4yiadyB0MLWHEkcszQKtmVZ8J1Dk2WM7B0r2SsXRpQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列03___图优化的简单示例_images/img_033_caeb4064d77c.png)
 
 -   轮速编码器置信权重分析：当更加相信轮速编码器时，代表轮速编码器约束的x1- x0 = 1在场景2中更加得到体现，即1.01比1.07和1.17更加接近于1；另外，对比场景1与场景3，由于场景3加大了测距传感器的置信权重，相当于“稀释”了轮速编码器的置信权重，故1.17比1.07更加远离1
     

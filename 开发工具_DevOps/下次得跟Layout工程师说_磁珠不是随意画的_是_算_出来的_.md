@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/1ASKBJsAv4U4nNcs7PoKdA](https://mp.weixin.qq.com/s/1ASKBJsAv4U4nNcs7PoKdA)
 
-### ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+### ![图片](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_001_9011be9decf6.gif)
 
 ###   
 
 前段时间评审咱们一块主板PCB时，layout工程师指着一颗有三组供电（3.3V、1.8V、1.2V）的芯片问我：“王工，为什么给每一路电源进来都要串一颗磁珠呢？我看你们好多项目都是这样的，确认是这样设计的吗？”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCIIaLyj6vOGib3EYOgDzssIrEiaM4JlRxrQib6FQpCLnicItj4ia6P0lKNVAwA/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_002_985187095ddc.png)
 
 这个问题问得特别好，也比较典型。咱们硬件工程师在平时工作中，也经常遇到类似的场景——看到参考设计用了磁珠，就照着画上去；别人问起，回答最多的就是为了抑制干扰或者参考设计就是这么做的。可如果再往下问：磁珠到底是怎么抑制干扰的？具体该怎么选型？万一用不好会出什么问题？……可能一下子又有点说不清。
 
@@ -24,13 +24,13 @@
 
 这是最重要、也最基础的认知起点。很多人把磁珠和电感搞混，甚至直接替换，这是很多坑的根源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCIIZx9kJkw1p48y8ZckV8z88BXqRbh8Rd3saicicwx9jTtahz3EVaWKibWQg/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_003_d6e6a93bfc82.png)
 
 一个理想的功率电感，它在高频下的阻抗主要是感抗（XL = 2πfL），它会**把噪声能量存储在电感的磁场中，通过电路路径返回电源、流向地，或以电磁波形式辐射出去。**
 
 而磁珠的等效模型，是一个电阻R和一个电感L串联。它发生在高频段：**磁珠内部的铁氧体材料，会像一块吸音海绵，将高频噪声的能量吸收进来，转化成微不足道的热量消耗掉**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCII5KPRBUqt01aQebcW6iasftBLUE16ib9fyuSVHYstrwQ9nQ4nXxnml87A/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_004_8bbe7e5a1386.png)
 
 所以，咱们回到开头的问题：为什么要在三组电源入口都放磁珠？核心目的就是起到隔离和抑制干扰的作用。如果这三路电源是给同一个芯片内部不同模块供电的（比如一个芯片里同时有模拟电路、数字核心和PLL锁相环），那么每一路都可能产生特定的噪声。如果不加隔离，这些噪声就会顺着共用的电源网络到处串，相互干扰。磁珠的作用，就是给每一路电源建立一个**本地化的能量吸收器**，让各自产生的高频噪声在自家门口就被消化掉，防止去污染其他干净的电源轨，尤其是对噪声极其敏感的模拟或射频电路。
 
@@ -42,11 +42,11 @@
 
 打开任何一份磁珠的数据手册，最醒目的位置通常会标着**600R@100MHz**。这个600R是它在100MHz测试频率下的阻抗模值。但请注意，这是**结果**，不是**原因**。直接根据这个数字选型，是新手最容易踩的坑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCIIb45m6PYficgMoFRVD3zaoCsN8UyrhBHlMicdicYfiaBzBCeXWPbxPBacNQ/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_005_9a1da51a948e.png)
 
 因为，你的噪声频率不一定是100MHz。磁珠的阻抗-频率曲线（Z-f曲线）是一条有起有落的山丘状曲线，每颗磁珠的山峰位置和高度都不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCII6AJO22gl7zllpC9WQy7NsrR6CPicdr8Nlia5afraAckEoPHb3TCicrm8w/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_006_dfc676b8fd8f.png)
 
 这就引出一个关键问题：**你必须先知道你想对付的敌人，也就是噪声主要在哪个频段。** 是几十MHz的CPU开关噪声？还是几百MHz的DDR时钟谐波？或者是GHz级别的无线干扰？
 
@@ -60,13 +60,13 @@
 
 这是硬件老手也可能疏忽的深水区。磁珠的吸收能力，和流过它的**直流电流大小直接相关**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCIIgIpulkhNOyUC9URMRdTRHXwmZSU61HibOY5TWTicJOL2l7nX25r7Gccw/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_007_5a758fc06cd0.png)
 
 所有磁珠都有一个额定电流，但请注意，这个参数通常只保证它**不被烧坏**，不保证它**性能完好**！真正决定性能的是**直流偏置特性**。
 
 当较大的直流电流（比如给你的CPU核心供电的1.2V/2A）流过磁珠时，其内部的铁氧体材料会发生磁饱和。饱和的直接后果，就是等效电感量骤降。反映在Z-f曲线上，你会看到一个悲剧的现象：随着电流增大，那座阻抗山峰不仅**高度降低了，也就是**峰值阻抗变小，整个山头还**向更高频率方向移动了**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCIIZGDeywoiceHf0yBMEc6q7gYRAB9wSNKmW6XKtJe3IO6kib7IXLVxlavg/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_008_890ff1fa291e.png)
 
 这意味着什么？意味着你为抑制100MHz噪声精心挑选的磁珠，在通上满载工作电流后，它的最佳抑制频率可能跑到了200MHz，在100MHz处的阻抗已经塌方，滤波效果大打折扣。
 
@@ -82,7 +82,7 @@
 
 当你为大电流电源路径，比如给射频功放PA供电的路径选择磁珠时，为了追求极致滤波，可能会选阻抗很高的型号。但高阻抗往往伴随更高的DCR。这会带来两个现实问题：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCIIfBtRAGLibzTj8pIJVoibKuLRNt0IFVibWyewuwoicpEkvF3btfGWJia5g8w/640?wx_fmt=png&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_009_998f0d251253.png)
 
 **1、电压跌落IR Drop**  
 
@@ -116,14 +116,14 @@
 
 另，关于电源并联相关知识点已上传星球。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg1gUUzPLhic9co9tAtibaOne28XO1fyCFGpZ0V3nGMWJWvoxcbtwu6fEyFsIdIUr2lIQgqdlTPcEHg/640?wx_fmt=jpeg&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_010_8a3d30564c83.jpg)
 
-推荐阅读（点击如下三个图片分别进入）[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoOS6PvKfbHtQSgaFGcsEMZIia0TNXM5DbCPibN5uSrCAN4vZLgYCFqpJqLFicTIPIJXpSoOEXCEyGw/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=8)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562454&idx=1&sn=504751639a2117be75a057d130efffe4&scene=21#wechat_redirect)
+推荐阅读（点击如下三个图片分别进入）[![图片](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_011_4eae7ae9e031.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562454&idx=1&sn=504751639a2117be75a057d130efffe4&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoOS6PvKfbHtQSgaFGcsEMtd5Kia43qLLURSOQmHenia52SOpicz9S0eZXVAteR6GwOp0Lw0onFojbg/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=9)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562059&idx=1&sn=2b0bedd1f3e7193ecbaea3d5d802ea5d&scene=21#wechat_redirect)
+[![图片](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_012_5d89f1342a16.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562059&idx=1&sn=2b0bedd1f3e7193ecbaea3d5d802ea5d&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoOS6PvKfbHtQSgaFGcsEMkedMvPSHeXFwNo35H6jrXyK6nnXEYAdBciaB6McuTJIeXwA7ZZ4YAqg/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=10)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
+[![图片](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_013_06007f8797ea.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgJadiagwg1DsFtWibumFwCII5fwkFNpOjqgDbYCzhISHJQibmnhsdCSL6udXibKtPyaW5rmHabicOUrCA/640?wx_fmt=jpeg&from=appmsg)
+![](下次得跟Layout工程师说_磁珠不是随意画的_是_算_出来的__images/img_014_9de8d04d4b28.jpg)

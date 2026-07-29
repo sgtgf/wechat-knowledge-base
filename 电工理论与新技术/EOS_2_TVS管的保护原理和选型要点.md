@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/eMJ-V\_NB0P6k6RoVNzwe1g](https://mp.weixin.qq.com/s/eMJ-V_NB0P6k6RoVNzwe1g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRXMZPa0EXyzJrQqfDy6SLJyTao7F1sdZEv5WCRkdRGTv9mN95QnxokBBUMCFFseMZ2DAXTe5c0bA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_000_e6e12d397b1e.png)
 
 ____**★★★**______EOS-2---TVS______**★★★**____
 
@@ -21,35 +21,35 @@ _______€2.___Zener（齐纳）二极管____
 
 采用电流驱动型测试设置，对Zener施加反向电压直到二极管流过1mA电流，此时的电压定义为可击穿电压VBR。曲线右侧显示正向偏压区域的Zener，如果电压超过VF，电流开始快速回升，可将负浪涌脉冲电压钳制到较低值(VF−0.7V)，Zener作为保护器件时是单向保护。（传送门：[Diode-2：二极管](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247493207&idx=1&sn=fa4be0a765e39f4c96b0d4168693198f&chksm=c336acc8f44125de02272bb218a924cae57c5c6fec6d6770e356540199ec1e02048e45018e84&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRXMZPa0EXyzJrQqfDy6SLJPfT4Vkb0C28T9FnhvyNg9U1CmxpKrZd4JRhf5R8znNIpK34hzyNgGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_001_c8c848ff2f71.png)
 
 **_图2-1：Zener的I-V曲线_**
 
 Zener为接口提供单向保护，对于负浪涌事件，限制到相对较低的电压（高于VF），而对于正浪涌事件，根据VCL等式，钳制到钳位电压，钳位电压：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2bDnYYCKJCvSGia5YKGbAbUI2JUcuQomaKicgWexdpcdG2NGB2w7icib77Sw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_004_0668769ad432.png)
 
 _______€3.___TVS（瞬态抑制）二极管____
 
 如果串联连接两个方向相反的Zener，则形成双向ESD器件，此时整合起来就变成TVS管，如果这两个二极管相同，则I-V曲线对称，如**_图2-2_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRXMZPa0EXyzJrQqfDy6SLJaLGFZsn0Zs4tKP9mC6KF8wibMAmB3WX2ajicEcC2wTeRkpGQ8HZw9Oxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_003_44639d4a6d3f.png)
 
 **_图2-2：TVS的I-V曲线_**
 
 钳位电压的计算公式与单向ESD二极管的反向等式相同：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2bDnYYCKJCvSGia5YKGbAbUI2JUcuQomaKicgWexdpcdG2NGB2w7icib77Sw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_002_0668769ad432.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2bUp55mNjmTdHqSGmr9Hu1qQpKSTQziaWdzLT7IC9CuMyw1icbxicrRv6eA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_005_5d92cef7693d.png)
 
 VBR由VF值和另一个二极管的反向击穿电压VBR1组成。支持正负工作电压范围的接口必须采用ESD保护，例如模拟音频信号，大多数只支持正工作电压的数字接口可通过单向解决方案获得保护，不过有许多工程师会采用双向ESD保护方案。对于负ESD放电，SOC会接触到更高的负钳位电压，应尽量避免这种情况，因为这会严重影响系统级稳健性。
 
 如果必须按照IEC-61000-4-5标准保护系统芯片，使其免遭具有更高能量和更长脉冲持续时间的负浪涌事件影响，则尤其需要注意上述问题。如果浪涌保护只能根据IEC-61000-4-2处理ESD脉冲，那么使用双向拓扑便可为相对不敏感的芯片提供充分保护。设计低电容ESD保护组件时，选择这种两个ESD二极管串联的结构十分有用，因为其寄生电容比单向器件低，如下式所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2b7jiaF1X6ZibibbiaYhQHU6iaZt8afasficSoj2BdfXbGxpGZZwOUmYYHKjVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_006_fb846d1290f2.png)
 
 _______€4.___TVS保护原理____
 
@@ -57,7 +57,7 @@ _保护和损坏机制_
 
 当TVS二极管的两极受到反向瞬态高能量冲击时，它能以10的负12次方秒量级的速度，将其两极间的高阻抗变为低阻抗，吸收高达数千瓦的浪涌功率，使两极间的电压箝位于一个预定值，有效地保护电子线路中的精密元器件，免受各种浪涌脉冲的损坏。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRXMZPa0EXyzJrQqfDy6SLJIfyBQoKyicbM53hf0rhCsUZzpRG2ibnKqibFwefuRTRJFwOwqyDbf4suw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_007_b19143d071ac.png)
 
 **_图2-3：原始静电-绿色是被TVS保护后的安全电压_**
 
@@ -93,7 +93,7 @@ IR：漏电流，也叫待机电流，漏电流主要带来功率的损耗，比
 
 Pppm：额定功率，TVS产品的额定瞬态功率应大于电路中可能出现的最大瞬态浪涌功率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2bibu5oOUlCWH3fITFgcAbVUK7t1r0BN6IO9tRBicRLgEw9jWDke89iahQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_2_TVS管的保护原理和选型要点_images\img_008_fb7ca047fec8.png)
 
 Cd：结电容
 

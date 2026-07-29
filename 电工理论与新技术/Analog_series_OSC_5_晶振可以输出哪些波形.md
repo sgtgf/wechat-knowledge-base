@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_GQ7h5yKGwaHvRYdWtw3Fg](https://mp.weixin.qq.com/s/_GQ7h5yKGwaHvRYdWtw3Fg)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBN3F8nIuUpsiczyX4iaZYWyiab0XeDjhibZCmWlm3LjqvpYMfEn7ercicAsg/640?wx_fmt=png)**____
+____**![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_000_142a23fe25a1.png)**____
 
 ____**★★★**______OSC-5---晶振的输出波形______**★★★**____
 
@@ -15,19 +15,19 @@ ______€1.___方波Square Wave___
 
 方波的输出功率大，驱动能力强，但是谐波分量丰富，方波的主要参数有输出电平，占空比，上升下降时间。主要应用在数字通信系统时钟上，用来驱动计数电路。**_表5-1_**列出了属于方波类别的波形：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0T2kVqyvLFcbibOS63Ht3LBmBaFibibDuvR3oQBHV4tZicCwA1b9w4B4IIiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_001_ec3fe1ed25f7.png)
 
 **_表5-1：方波类型_**
 
 _非差分波 Non-Differential Wave:_
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBqy9sAd4ub0sWWDibibN217RXcPXLiafeia0peSH2dn3mWPbicKHIVK65UiaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_002_830cda442c55.png)
 
 **_图5-1:：单端CMOS波形_**
 
 TTL/CMOS： 电压控制器件结构决定了TTL和CMOS是通用的逻辑电平，输出此类波形所需功耗低，传送时间慢。CMOS噪声容限比TTL大，输入阻抗比TTL大，CMOS输出器件适合走线较短的电路布局，适用于较低频率的时钟源(低于200MHz)，可使用低阻值串联电阻来减少反射并保持稳定的信号。CMOS比TTL有更低的成本，以及更好的抗噪性，**_图5-2_**演示了正弦波、TTL、CMOS三种波形的特征，CMOS波形幅度更高，更陡峭。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OHzqafvicFhyY438aianAbSMiaJrpiayF0pEDglziasUks70ic0I3oL8ONKqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_003_c46c91701ce5.png)
 
 **_图5-2：三类波形对比_**
 
@@ -37,23 +37,23 @@ ECL速度快，驱动能力强，噪声小，但是功耗大，使用中需要�
 
 PECL是经常用于高速领域内的一个非常重要的逻辑电路，电路速度快，噪声小，高频。高功耗是PECL输出的主要缺点，且不同电平不能驱动。如果使用低电压3.3V/2.5V，则被称为LVPECL，即Low Voltage PECL。(P)ECL是高速领域内一种十分重要的逻辑电路，它的优良特性使它广泛应用于高速计算机、高速计数器、数字通信系统、雷达、测量仪器和频率合成器等方面。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBXkSvHibibgRkC3AAouuZ5H88eFHDrkjgG3pU8hpVicYWTLLTWmt42gBicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_004_5bd37351b79c.png)
 
 **_图5-3：差分LVPECL_**
 
 LVDS为低电压差分信号，CMOS/TTL接口传送速率不高，距离较短，抗EMI电磁干扰能力较差。然而LVDS可以解决这些问题，速率高，噪声低，传输距离远且准确，LVDS输出频率最高可达到2.1GHz，供电电压在1.8~3.3V。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBT2jluBOpzPR7duNTbVQhvBaP4026eJ3QzcNw1Dv3rbfo3QhOHexWyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_005_d1381af46f72.png)
 
 **_图5-4：差分LVDS_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TqmdtWSP31vwQ0UXVNRYTCujQkxic4TsRzsDO6ru2td7Z80nFzCZUDvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_006_6f844b7edf54.png)
 
 **_表:5-2：LVDS参数示例_**
 
 HCSL为高速电流驱动逻辑，HCSL是一种类似于LVPECL的新输出标准，其中一个优点是高阻抗输出，开关速度快，平均功耗介于LVDS和LVPECL之间。以7.0x5.0mm贴片为例，6引脚最高可达到250MHz，8脚最高可达到700MHz。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBwoO0cqYc8l8gDANCPJ9mkcHfiaUkEDqbw0wQYF9ZiaqoguL2lAZ1foCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_007_430b3d0326a3.png)
 
 **_图5-5：差分HCSL_**
 
@@ -73,13 +73,13 @@ _削峰正弦波Clipped Sine Wave_
 
 削峰正弦波谐波分布小，驱动能力比方波弱，负载10k//10PF时Vp-p为0.8Vmin 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OF6Z0gXFJibYY3XIaXgga9QaTZuVQklVPNRaLdWAk1c033RuVscJgCJQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_008_5defe2ccac44.png)
 
 **_图5-6：准正弦波和削峰正弦波_**  
 
 常见信号波性能比较如**_表5-3_**：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TAogibklCZagUj6uAaWI94SG7kH4747ZrckFh4rYQy1mYaZSMm4aDrAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_5_晶振可以输出哪些波形_images\img_009_66c14fafae58.png)
 
 **_表5-3：各类信号波形性能比较_**
 

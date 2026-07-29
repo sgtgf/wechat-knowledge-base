@@ -12,7 +12,7 @@
 
 I2C一般为开漏结构，需要在外部加上拉电阻，常见的阻值有1k、1.5k、2.2k、4.7k、5.1k、10k等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjLCrnBuudG6zIhrkGiaPicXsYvXCPtUql7b4aabAjicJ7NEmlb39h1nMP3R4tIWKSKnJQN686R6Mh4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_002_4db0e453685e.png)
 
 但是应该如何根据开发要求选择合适的阻值呢？  
 
@@ -20,13 +20,13 @@ I2C一般为开漏结构，需要在外部加上拉电阻，常见的阻值有1k
 
 假设SDA是低电平时，即MOS管导通。那么，就可以求出上拉电阻R的阻值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjLCrnBuudG6zIhrkGiaPicXsUJLbuuytLFGGH5Ej7VoFk1seIIHZUnOFOjGwB7WQjK79QvcvkTtnew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_003_41bed3ff30c6.png)
 
 上拉电阻计算公式：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjLCrnBuudG6zIhrkGiaPicXszOcBPmB4cicVyXSD0VFpMHwrkafpWL6xXIb8icl1GY7mwqAicR2906RMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_004_31b08eecbd77.png)
 
 VOL定义为在漏极开路或集电极开路时，有3mA下拉电流时的低电平输出电压。IOL就是该端口的灌电流，即IOL=3mA。
 
@@ -34,7 +34,7 @@ VOL定义为在漏极开路或集电极开路时，有3mA下拉电流时的低�
 
 由上式可得，当VDD不变， VOL取最大值时，上拉电阻有最小值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjLCrnBuudG6zIhrkGiaPicXsYNFj0buqol68V7bc1beuz7BiakGKcdtfA2dptyBwP8GGiaP3dWr98nnw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_005_b185368b196c.png)
 
 根据I2C协议，端口输出低电平的最高允许电压是0.4V。
 
@@ -44,7 +44,7 @@ VOL定义为在漏极开路或集电极开路时，有3mA下拉电流时的低�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjLCrnBuudG6zIhrkGiaPicXsNibdibWkyWhPU7dn10uhYmm5ibKUmSCQqdiakEic5QNaYPtNCn6JgmtBv2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_006_f45eb57d47a8.png)
 
 由式2可以得出：电源电压决定了上拉电阻的最小值。因此，当VDD=5V时，最小上拉电阻约为1.5k；当VDD=3V3时，约为1k。
 
@@ -56,11 +56,11 @@ VOL定义为在漏极开路或集电极开路时，有3mA下拉电流时的低�
 
 电容充电一般公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjLCrnBuudG6zIhrkGiaPicXskic1MmDYA4LGvSUBLMubTUjYaBe8M2ZaW5uVJMUZ8hRTMGy30sSImHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_007_039d67a97cec.png)
 
 整理可得：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjLCrnBuudG6zIhrkGiaPicXslhz0Y3g7gaiafMYUeqQ6HyZHQJlMBftOibFD7dbGUOc3WSibqBnk0CFlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_008_4c9a051e9baf.png)
 
   
 
@@ -70,15 +70,15 @@ I2C规范将低于VIL或0.3VDD的电压定义为逻辑低电平，同样将高�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eSTNcxMia1TgHRPXRydU2GoGcFiaFlKronSR5NyrHfNe6blnkpDmu1OJcFUJhy2N06CPicgpSNCicmv6rWMbXCXF5g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_009_eddf01665d04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eSTNcxMia1TgHRPXRydU2GoGcFiaFlKronVgKdf46HoDdzNaqYBRxr9ytGB156PY7EBN1NuCBZTB6xP80ibO6cTtg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_010_2fec3211a57d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eSTNcxMia1TgHRPXRydU2GoGcFiaFlKronibSNALDd2uxFXwFiaHKArU5BtyUIFQkovOLoHQPmkTvUeWwdWpazelCg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_011_3844197e316b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eSTNcxMia1TgHRPXRydU2GoGcFiaFlKronSHOL6icdNKnwppu9vPPS7H3q6tuZKHVKL9lJxGiaAzxacg8gz32mRl6w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_012_d6e30f3aa3fc.png)
 
   
 
@@ -94,7 +94,7 @@ I2C规范将低于VIL或0.3VDD的电压定义为逻辑低电平，同样将高�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eSTNcxMia1TgHRPXRydU2GoGcFiaFlKronLWJo8MVzaW8onGMeZ3oCVzv1m2KH7yLHBRtBmUGTH9y5Iffd5f1zzw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C上拉电阻如何取值__images\img_013_fb5d4442375c.png)
 
   
 

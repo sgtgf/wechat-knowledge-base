@@ -18,7 +18,7 @@
 
 本文所用这张图是从网上获取，并不代表具体某个产品，主要是想从这个图中，跟大家分享目前典型的恒流驱动电源原理，同时跟大家一起分享大牛对它的理解，希望可以帮到大家。那么本文只做定性分析，只讨论信号的过程，对具体电压电流的参数量在这里不作讨论。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqG0rSaQ3ISRgvGEZYl4BLWbHaPbeWmqvvf7CB1icsoJvpcGmeTzWhURA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_002_964aa53a6a07.png)
 
 图1  某款LED驱动电路原理图
 
@@ -46,7 +46,7 @@
 
 如果是DC电压从“+48V、GNG”两端进来通过R1的电阻，此电阻的作用是限流，若后面的线路出现短路时，R1流过的电流就会增大，随之两端压降跟着增大，当超过1W时就会自动断开，阻值增加至无穷大，从而达到保护输入电路+48V不受到负载的影响)限流后进入整流桥。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqQdficmROBwU6oS3V3EzqoLLw057n1jGhOmWuTVv2NQHcr2YNGbyscSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_003_f523d7c6b919.png)
 
 图2  输入过压保护电路
 
@@ -68,7 +68,7 @@ R1与RV构成了一个简单过压保护电路，RV是一个压敏元件，是�
 
 当直流DC(+48V)电压直接进入整流桥BD时，输出一个上正下负的直流电压，如果+48V电源本身也是直流的，那整流桥的作用就是对输入起到的是极性保护作用，无论输入是上正下负还是上负下正都不会损坏驱动电源，通过C1\\C2\\L1进行滤波，图3是一个LCΠ型滤波电路，目的是将整流后的电压波形平滑的直流电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqUxuJzk0V9cDTmdURym0yQNb4m89VV2yLuxIKUXuicEibRW75ASWeD2Gg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_004_2b663ee358bf.png)
 
 图3  LCΠ型滤波电路
 
@@ -88,7 +88,7 @@ R1与RV构成了一个简单过压保护电路，RV是一个压敏元件，是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xq7ia9LKk4JyxNF4oHKcShbaVzuFUNEtibIu75FXGLFdKZNX8zIDT6FPicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_005_3ec0d47ed90c.png)
 
 图4  箝位吸收电路
 
@@ -106,7 +106,7 @@ R1与RV构成了一个简单过压保护电路，RV是一个压敏元件，是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqxgOcgj7TL1SCicJQ4KJbhNHypw680iaazUuzGjK7WicRllgEIq0OicicfEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_006_3f43c9c3daa6.png)
 
 图5  变压器采用反激工作方式
 
@@ -126,7 +126,7 @@ R1与RV构成了一个简单过压保护电路，RV是一个压敏元件，是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xq3FmjlkhmECTxqMOfshoaeFu8pak7PiaObcgcaUUYDLe208HCnwKuTGg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_007_024256513c7b.png)
 
 图6  TK5401工作时序 图7：TK5401内部框图
 
@@ -134,7 +134,7 @@ R1与RV构成了一个简单过压保护电路，RV是一个压敏元件，是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqk9Vj48JsNgicicMicV51qkrpjiaDfXMXwGFc6vDouomUEWBficztLFaYOUw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_008_f5b759001a8a.png)
 
   
 
@@ -146,7 +146,7 @@ R1与RV构成了一个简单过压保护电路，RV是一个压敏元件，是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqKaFEkv79WG7m6ZaP4PaYicERmWWM7VDiaDoogAkunXY0koibbRb7d7XRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_009_4eed87ff54a5.png)
 
 图8  输出整流电路
 
@@ -162,9 +162,9 @@ R1与RV构成了一个简单过压保护电路，RV是一个压敏元件，是�
 
 为了更清楚的说明恒流的工作，有必要重新认识这个U1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqZgfzQYwFq7EDhE9egjRotwuTP0EordxpHReoTqDsEECRrh9HBLJ7hQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_010_68cbd8190e0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqRPl732YzPzrYh3tX46CCcTiaupibUHAibKIhrz1ULrGSJwxia9cLOdutRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_011_f7b90f0f9683.png)
 
 图9  U1引脚说明
 
@@ -174,7 +174,7 @@ U1的每个引脚功能，8脚为MOS输入端，6脚是空脚，5脚外接的电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia3uWI0jR8OYCRn3fJqc7xqma9g5BicjZHIpSs6prA8R4JFCtprTbdfmdpBQtUU404Z2QgPhSbhZVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路分析_images\img_012_7a5b1adc742f.png)
 
 图10  恒流电路
 

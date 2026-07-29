@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_PaqiKLChbON84VRD-M6kg](https://mp.weixin.qq.com/s/_PaqiKLChbON84VRD-M6kg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_000_4fecbf19a39d.gif)
 
 ****High Frequency Position Offset Injection Based PMSM Winding and Magnet Temperature Decoupled Estimation with Wide Speed Range****
 
@@ -40,7 +40,7 @@ In permanent magnet synchronous machine (PMSM) drives, temperature information i
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja3r11n2q06CyPDBibhvld00176ackdbU0IhbapeznpdXTcHrOiaMEiah4Yia1krbJ9hMR3gDzicbx2aXU8j5pFjiaPCYvSe07t4Hn2cQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_001_30d2e2984026.gif)
 
 温度估算程序
 
@@ -54,29 +54,29 @@ In permanent magnet synchronous machine (PMSM) drives, temperature information i
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja3qvhWPgwpDDyts27vaz3aicJ94Gm50PGzLZocwshoPcibpJeggaicB1zdN2C6uYbtNyhrzDO4uPz65VUouIf6As2sqlWJkFhGP8A/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_002_e21db58e6887.gif)
 
 **石成涛**，正在中山大学（深圳）攻读工程学学士学位，预计将于2026年毕业。他的研究兴趣集中在电机的建模、优化和控制上。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LO7v6QoDja1JScjCXhS3Vrgyc4gDLEslFDGT7cDlIwRjR8h6NNzV2pE6GzHxJgudc5tC6cia43SFUagx5fGOfOnTaxiaudokWHE03Lcuq4mia0/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_003_1f8e2887d9bb.jpg)
 
 **卢芋廷**(Student Member, IEEE)****，于2023年获得中山大学工学学士学位。他目前正在中山大学智能工程学院攻读控制科学与工程硕士学位。他的研究兴趣包括电机的建模、优化和控制。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja1YkZWlGcqGibX5DFSI8QvEB7yZF4WTHpQccKBbrdLpux5bPNfXMbD2icROC8dwW2UnGuUtKPnlRlW75oRSwmCkzkvxDeAOq1xH8/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_004_99e895c7ba2d.gif)
 
 **黄开德(Member, IEEE)**，分别于2011年和2016年获得中国广州中山大学学士学位和博士学位。2017年至2018年，他在中国科学院广州计算机网络信息中心担任助理总工程师。目前，他是中国佛山大学数学与大数据学院的副教授。他的研究兴趣包括人工智能算法和电机优化控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja3ibicTWBDRVdhWDJ2ZjRyDYw9Egevm4O2HJnXWRQia2YIAftMkSwTuibQ0RC2I1ZF8nQXb08SGADqibwcfja72hJXJMmSG5Dk7j1bw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_005_b050be795791.gif)
 
 **赖春燕******（Senior Member, IEEE）********，于2010年获得中山大学工学学士学位，2017年获得加拿大温莎大学博士学位。她目前担任加拿大康考迪亚大学电气与计算机工程系的副教授。她的研究方向包括电机驱动和控制及电力电子相关应用，如可再生能源等。赖博士是《IEEE Systems Journal》和《IEEE Journal of Emerging and Selected Topics in Power Electronics》的编委。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja00JQDEgZ0jFpiaVboVXJv5rkcPZAuraP12GOVOsVNbapkCnLTzX7dHPBNgibCD4yvnG5R4PVPIOopId1iawicpicdgmxXHliceck7yI/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_006_894d1047b07e.gif)
 
 **丁北辰**(Member, IEEE)****，于2019年获得英国巴斯大学机械工程博士学位。他目前是中国中山大学先进制造学院的副教授。他是中国机械工程学会智能流体动力控制的成员。他的研究方向包括智能机器系统的驱动和运动控制、机器人辅助加工和电气驱动的动态建模。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja3VNLOXQj4iciagAicCvcsVPriaUVCPu9RdBwAhnIKs5WWlg94W06JZpKjVhKibQ7VhK03DXKgTqibPVbh67V9LmZnd70M0zVqKcZkIo/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_007_2188ecec1317.gif)
 
 **冯国栋(Senior Member, IEEE)**，分别于2010年和2015年获得中山大学信息科学与技术学院工学学士和博士学位。在2015年至2019年，他在加拿大温莎大学担任博士后研究员。目前，他担任中山大学智能工程学院的副教授，研究方向包括先进的信号处理、优化以及电机和驱动器。冯博士是《IEEE Transactions on Industrial Electronics》的编委。
 
@@ -84,7 +84,7 @@ In permanent magnet synchronous machine (PMSM) drives, temperature information i
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_008_654c2fde68d8.jpg)
 
   
 
@@ -98,15 +98,15 @@ In permanent magnet synchronous machine (PMSM) drives, temperature information i
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_009_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_010_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_011_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -114,15 +114,15 @@ In permanent magnet synchronous machine (PMSM) drives, temperature information i
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_012_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_013_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_014_644d85f1cc17.png)
 
 学会官方B站
 
@@ -130,15 +130,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_015_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_016_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中山大学冯国栋等_基于高频位置偏移注入的永磁同步电机绕组与磁体温度宽速域解耦估计_images\img_017_c28b250481e7.jpg)
 
 学会科普微信
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/JbscTjTz26tU4kz7s\_vLsw](https://mp.weixin.qq.com/s/JbscTjTz26tU4kz7s_vLsw)
 
-![](http://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/0?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_000_6e6d80aceda4.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
   
 
@@ -17,7 +17,7 @@
 
 晶界扩散技术(GBD)：在切割和研磨阶段，在磁体表面上敷上富含镝或铽的化合物，然后通过一个24~36小时的热处理工艺将重稀土元素扩散进永磁体。_(具体的晶界扩散工艺技术种类还很多，每个永磁体厂家都有所不同)_
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRHWgC9VpibniaXoVk0dme7QxTsEe0twNMW8tURvIRLaiaJY03zQArO6oY3Q/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_001_2d161d3b8187.png)
 
 晶界扩散技术的磁体含有更少的重稀土元素(HRE)，因为在基合金中的重稀土含量可以显著减少，在某些情况下可以消除，通常在0–4%的重量百分比范围内（wt%），同时扩散通常是在低于1%的Tb或Dy的质量分数范围内进行的。
 
@@ -27,7 +27,7 @@
 
 **2.EV/HEV电机转子特点**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRHMAfck58fyAdlhs6qYqq3qEOmlVSqQ5oZNSOWnxabpyZ5FtCYNQnb9A/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_002_b237fbb45aee.png)
 
 上图是一张有限元法(FEA)计算的高退磁磁场下的转子永磁体的磁密场图。可以看出在角落和边缘位置有较高的退磁磁场，因此在这些位置需要更多的抗退磁保护。
 
@@ -39,13 +39,13 @@ GBD工艺正好可以提供这种保护，因为在角落和边缘位置HRE增�
 
 电子探针显微镜下的铽扩散磁体截面map：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRHRvpMYmDXz9WggnJmhAXeaycGIu4yGQqaCjaoznibibWZibWNIpzFzzO7g/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_003_d065176e5613.png)
 
 图3(a)显示4个面有明显的Tb层，和角落部分增加的Tb扩散特征；图3(b)显示另外两个面没有Tb扩散发生，说明这些的渗透是从四个面进行的。图3(c)显示同一个面内的Tb分布非常不均匀。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRHTtCYlm3D0Q0JQHZ8O0BpVE8M21nXG2LO0p63umstBnicicrN5UOqiau8Q/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_004_70f2a87f164c.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRH8aW34u0WjfNNNzTpFG11UtpYCLtBbbnBgonVrnvvicqJUvO5VKK61DQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_005_b7cb6c0576d3.png)
 
 整体上分布规律：角落＞边缘＞中心，晶界＞区域＞晶粒。
 
@@ -55,13 +55,13 @@ GBD工艺正好可以提供这种保护，因为在角落和边缘位置HRE增�
 
 振动试样磁力计测试磁特性：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRH8QgBWrQOH7g29YyjibOUljHQO8EQiaRUENJSlX28ice3wlE4EPFe4Tx6Q/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_006_a28441513dc2.png)
 
 从上图可以看出，角落部位的退磁曲线面积大于中心位置，BH曲线看不出明显差异。所有曲线都不重叠，测量结果不稳定，造成这些现象的原因有：2mm的样板区域可能太大、每一个样本区域的晶界数量不一样、扩散参数影响、扩散工艺、样本制造、初始磁体的圆角和圆边、样本块的面不够平行、样本块的面和测量仪器(VSM)不够平行。获取精确的BH曲线很困难。原文还介绍了一种利用磁滞回线测量仪测量磁特性的方法，结果也不理想。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRHhB4zVPycqxr5PbliaJY052xe3NLdnjDPFc61toyFfBj6FW92ibccIetg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_007_aa552a5010ea.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyPFk0bicoN3pAxo7vibRYYRHwA9FH4SR5dJHpaRN0fk7k0iazouqwQ8VRkYGO1AAciapvO9bVO5aTngQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_008_b5d944b92b20.png)
 
 * * *
 
@@ -105,4 +105,4 @@ GBD工艺正好可以提供这种保护，因为在角落和边缘位置HRE增�
 
 长按图片，识别二维码，关注我哟
 
-> ![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_永磁体新工艺对电机设计的挑战__晶界扩散技术(Grain_Boundary_Diffused_Magnets)_images\img_009_d7f135e99ea3.png)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wuWblvPf0niAF-jfHG9dOQ](https://mp.weixin.qq.com/s/wuWblvPf0niAF-jfHG9dOQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQlAicbia9Z5QdfuDWwXeIbvVF2e6BSSwdCTXNl8AiaLXT1Eo9lTIU6cZ4VMmDHlemy0bbicsaxUGfTPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_000_b23191f6d6b5.png)
 
 ____**★★★**______OSC-1---无源晶振基础______**★★★**____
 
@@ -13,7 +13,7 @@ ___€1.无源晶振的等效电路___
 
 如**_图1-1_**所示，石英晶体的压电谐振现象可以用等效电路来模拟，等效电路包括静态电容C0、动态电容C1、谐振电阻R1、以及动态电感L1，等效电路图如图：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OXxaXBNqYibJMfjGbzibtvMqLJTBRiapicOCS3XBlGSEiaN4k9tARyurbdYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_001_27deb3088eef.png)
 
 **_图1-1：无源晶振等效模型_**
 
@@ -21,7 +21,7 @@ _静态电容C0_
 
 静态电容C0是指晶体两引脚之间的电容，以水晶为介质，由两个金属电极形成的电容，和晶片电极面积（晶体体积）大小和频率大小呈正比。静电容C0太高会产生较大的副波，影响频率稳定性。在实际测数据中，C0值控制在2pF上下时，晶振的输出稳定性可以得到保障。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OdqlIbKvUo46GrTQRibxe00ghuI0XKCMOHxF5VFbCiaBGv6GrDINAGxPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_002_5873d663c747.png)
 
 如果负载电容CL很大，静态电容C0的改变对频率变化的影响很小，频率更加稳定，所以负载高，远端相位噪声好；相反，如果负载电容CL很小，静电容C0的微小变化就会造成频率的明显变化，但近端相位噪声好，容易调整频率，晶振容易起振。
 
@@ -29,13 +29,13 @@ _动态电容C1_
 
 动态电容C1表征振荡能力，与晶片电极面积（或晶体体积）和频率大小呈正比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OFyXq4zdweXhLLqV7yQs1fRGWcsia6T7BAWXKla66vicdduVAgKibXvMoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_003_8268b1760f40.png)
 
 _谐振电阻R1_
 
 谐振电阻R1表示晶体在固有谐振频率下的等效阻抗，与Q值成反比，而Q值是由生长的水晶料品质决定的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1O8OibRFP82y3F12UibR8wmuvyDy123Bw9QrsbvGWxZ01QHqKrlqxrOCZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_004_0dfcd88c8bf8.png)
 
 朝着无源晶振越来越小型化，谐振电阻R1也会增大，负载电容CL会降低。
 
@@ -45,19 +45,19 @@ RR：晶振内阻/晶振电阻，是晶振本身的电阻值。RR越大，起振
 
 ESR：表征能耗，与Q值成反比。Q值是由生长的水晶料品质决定的，Q值越高，固有频率则越稳定。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OYFK4hzKVFYicesofu21covREyIALMqg4SDEzjSsLVAiaRZ7ERmQ0B28w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_005_adf805370a92.png)
 
 _动态电感L1_
 
 动态电感L1表征振动质量，与频率大小成反比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OAeFRiaXo2hgCib4Yiatpp9Scxibo0T0KiaianMSGmxSOp8KFH1aWYBs55ic3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_006_558a8d1b7663.png)
 
 ______€2.无源晶振的电路结构______
 
 无源晶振由于自身无法输出频率，需要搭配外部放大电路输出频率。在并联型振荡器电路中，皮尔斯电路是射极接地的并联振荡电路，工作有效且稳定。
 
-如**_图1-2_**，皮尔斯振荡器Pierce Oscillator由晶振、芯片内部的反相放大器(Amp)、匹配电容C1和C2、以及电阻RF和Rd组成。__![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSKUXL3onibvW8eHuHeEZ7nfx4gZ9lSdWVeakAEZun9qKF4qlG452jSq3XmtVHeD97bzBv12810ADQ/640?wx_fmt=png)__
+如**_图1-2_**，皮尔斯振荡器Pierce Oscillator由晶振、芯片内部的反相放大器(Amp)、匹配电容C1和C2、以及电阻RF和Rd组成。__![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_007_005a7be829bc.png)__
 
 **_图1-2：无源晶振的典型结构_**
 
@@ -71,9 +71,9 @@ CL的值大，远端相位噪声好，如果过大，则会难调整到标称频
 
 如果晶体两端的等效电容和标称负载电容存在差异，晶体输出的频率将会和标称工作频率产生偏差，叫做频偏。所以为了更接近晶体的负载电容CL，使晶体输出的频率则越精准，电路需要增加匹配电容CL1、CL2并考虑电路的杂散电容Cstray。电容器CL1和CL2靠近晶体XTI和XTO引脚，CL1和CL2可以由以下公式（公式1是通用公式，公式2是精确公式，建议使用公式2）来确定：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QertiaH9mlYAJkiakdb1cgjKRTaiaTR8CnCZeFsalC7ia0Q0MbHBHYww3Ag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_008_1447ff1b6fa5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OuM1N1V3Cmibvw1St6PyJPQEyacu2gc6LRibxibMvXtfobScF2ghrec7ow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_009_cffca5007802.png)
 
 其中CL是总的负载电容，CL1和CL2是匹配电容，Cs（Cstray）包括XTI/XTO引脚和PCB的寄生电容，通常预估为3 ~ 8pF。
 
@@ -99,7 +99,7 @@ _限流电阻Rd_
 
 Rd太小，晶振会承担太多功耗；Rd太大，电路起振条件不能满足，晶振无法正常工作。Rd的值不大，通常推荐值为0Ω-33Ω。根据主芯片的晶振波形幅度要求值，可以通过调整Rd的大小来调整晶振输出波形的振荡幅度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QzGbv1xPmGkBYBibRmYRFggjn5971ZTicG7wvovsFgbEQheqhfRT9DNAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_1_无源晶振的基础_images\img_010_c1b90338a58d.png)
 
 小结：
 

@@ -8,7 +8,7 @@
 
 关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lglw3P2h1QZBzibM7xcfYuNb3iboQ2RU64wZY4gMYCA1040eXEPMibcHfVg/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_000_ee1f1b8828d1.jpg)
 
   
 
@@ -62,7 +62,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200721?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lg3AiaxQ3HiaQbguJibnnkx2LRozLTbZPeZeRBVjaExAmsxSv6PbuUP0eaA/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_001_5eb404940fe6.jpg)
 
 图 1  网络控制系统框图
 
@@ -74,7 +74,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200721?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgxGo54ibGfcMyicrhEOWbCTOv1PEEEl2PTf8pwObUYSBicbVyAibnFBl3xQ/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_002_5ae07ea2d5ab.jpg)
 
 **王   敏**
 
@@ -82,7 +82,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200721?viewType=HTML
 
 E-mail: auwangmin@scut.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgnvoRKUrMswWfuGgbOSwwiaSpXCq8cp1R3m7CS4I8dibkRvaCjAianAV9g/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_003_277297828ae9.jpg)
 
 **黄龙旺**
 
@@ -90,7 +90,7 @@ E-mail: auwangmin@scut.edu.cn
 
 E-mail: longwang\_huang@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgLicq1YJ4nSRWkC9K9G1bmJ6RY9AWm9LibGMic4JibrR5a9w6GHPgzGQnAg/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_004_e0bb3a6985ce.jpg)
 
 **杨辰光**
 
@@ -314,49 +314,49 @@ http://www.aas.net.cn/cn/article/id/14238?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgAXxpXqwKOqrodM7U2Q59UxHR2hczKy8hmfW3UtNwRQTe1g0EUjicgcA/640?wx_fmt=png)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_005_b37ca2f535cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH457UfY7WG6dLpSe0071ia2lg7QiaTXOEl8SqJq64lKTEmu7ibwrYTYBZQVmzfCiciawk5BJZAlnD6Macng/640?wx_fmt=png)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_006_f690797f1187.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_007_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_008_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lg4XsTthicRmriaU56XI3DSaVWVfwricxKdlSLKZZg0455DSsux2D2QTNGg/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_009_2ae9d9626243.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_010_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_011_f7d112bc293b.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_012_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_013_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgwOvlgX0rA4WZS5zufH2Gg0ibOmXd6ibGUkxG5lpwBJqo6vYUAwOBYWKg/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_014_684a459c6b2b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_015_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_016_f7d112bc293b.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_017_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_018_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgqLXfvliaZtAmBLiaypIZSzgpnQLmqKGQiaXDZlCbBmxNjVs0HpXO4FCHA/640?wx_fmt=jpeg)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_019_519d252254f9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_020_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于事件触发的离散MIMO系统自适应评判容错控制_images/img_021_f7d112bc293b.gif)
 
 **长按二维码｜关注我们**
 

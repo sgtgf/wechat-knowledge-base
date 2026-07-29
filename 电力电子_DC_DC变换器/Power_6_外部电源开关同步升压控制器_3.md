@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8-SpjzcUxE\_QfwSHeoSqbw](https://mp.weixin.qq.com/s/8-SpjzcUxE_QfwSHeoSqbw)
 
-__![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIO7K5Gzn2pR6r1AHgLyGagdCVqDnfHnaDyu7k54mAl29CiabKfiaMX39g/640?wx_fmt=png)__
+__![](Power_6_外部电源开关同步升压控制器_3_images/img_000_8e25db5a0578.png)__
 
 ____**★★★**______Power-6---同步升压控制器______**★★★**____
 
@@ -15,7 +15,7 @@ ____€1.__效率考量__
 
 分立式DC-DC的效率百分比等于输出功率除以输入功率乘以100%，分析功率损失，以确定是什么限制了效率，哪些变化会产生最大的改进，效率百分比可以表示为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQSNmzFL0vBrIP920BNF3cPRd1bsW1vbiaI8cbvbkm6GnGjfXDjYzS0ogzKYSP7NbXMcUHl2d10efw/640?wx_fmt=png)
+![](Power_6_外部电源开关同步升压控制器_3_images/img_001_220acf4f7dd8.png)
 
 其中，L1、L2等为个体损失占输入功率的百分比，虽然电路中所有耗散元件都产生损耗，但控制器电路中主要损耗为：
 
@@ -23,11 +23,11 @@ ____€1.__效率考量__
 
 2#：INTVCC电流，INTVCC电流是MOSFET驱动器和控制电流的总和。MOSFET驱动器电流源于功率MOSFET的栅极电容的切换，每当MOSFET栅极再次从低电平切换到高电平再切换到低电平时，电荷量dQ从INTVCC流动到GND，所以INTVCC输出的电流为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAmYlzBicnfE8osmZHvj9WtYAibCzsao16iaRymw5futp097q6Ay1TZpLe1HqPr4IjUrMf7UM2MXSUA/640?wx_fmt=png)
+![](Power_6_外部电源开关同步升压控制器_3_images/img_002_2952845a481c.png)
 
 其通常比控制电路电流大得多。在连续模式中，
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAmYlzBicnfE8osmZHvj9WtxZcib5IFT0nbGQpOhyjmuw3twFVWeUSQIl1VTWXeGQribzJT0TcxUia6Q/640?wx_fmt=png)
+![](Power_6_外部电源开关同步升压控制器_3_images/img_003_c951f62cdc74.png)
 
 其中QT和QB是顶侧和底侧MOSFET的栅极电荷。
 
@@ -35,7 +35,7 @@ ____€1.__效率考量__
 
 4#：底部MOSFET过渡损耗，过渡损耗（Transition Loss）仅适用于底部的MOSFET，并且只有在低输入电压下工作时才变得明显，过渡损失可从：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLl0hvIxv4xQzJRV6YB7nU2CJKeZfJMKLZpsMWerkhdFwCdLFcDmJKibC7Tmf9xo67wCFLQtLib1QQ/640?wx_fmt=png)
+![](Power_6_外部电源开关同步升压控制器_3_images/img_004_3c7097c04880.png)
 
 5#：体二极管导通损耗在较高的开关频率下更显著，在死区时间内，顶部MOSFET的损耗为Iout×VDS，其中VDS约为0.7V。在较高的开关频率下，死区时间占开关周期的很大百分比，并导致效率下降。
 
@@ -75,13 +75,13 @@ ____€4.__特殊设计考量：__
 
 #1：超过电流感测引脚上的ABS最大额定值可能会导致控制器损坏，由于Sense−引脚直接连接到Vlow，因此建议使用具有适当额定电压的快速反应二极管来箝位这些引脚，以减少GND以下的电压尖峰。二极管应放置在控制器IC附近，阴极连接到Sense1-或Sense2-，阳极连接到地面。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAmYlzBicnfE8osmZHvj9WtYNQyXTibjVT2TTzataO9ax8cOyuyHibTYibxiavkZqPVlIPsB3M9Gnrefg/640?wx_fmt=png)
+![](Power_6_外部电源开关同步升压控制器_3_images/img_005_cb2daab58c98.png)
 
 **_图6-1：二极管防护Sense引脚_**
 
 #2：从控制器IC到外部MOSFET的栅极的TG走线应保持尽可能短，以最小化寄生电感，这种电感会导致电压峰值，可能超过驱动器的ABS最大额定值并损坏它们。使用一个3Ω电阻和1nF电容可以用来过滤这些尖峰，如**_图6-2_**所示。如果TG走线大于25mm，则必须在TG1和TG2上同时使用该过滤器网络，1nF电容器应放置在尽可能靠近TG/SW引脚的位置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQSNmzFL0vBrIP920BNF3cPM01zS1OZXLfbDNc1V9zhR0vxdmAfcqauGtEeQkhaTqcibsydAYTjsqA/640?wx_fmt=png)
+![](Power_6_外部电源开关同步升压控制器_3_images/img_006_efafb82d39dc.png)
 
 **_图6-2：TG走线长度大于25mm时使用滤波器_**  
 

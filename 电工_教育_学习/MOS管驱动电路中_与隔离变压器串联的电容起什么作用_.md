@@ -6,7 +6,7 @@
 
 如下图，用隔离变压器来驱动MOS管，图中电容C1起什么作用呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIO1NyCPsIZXcgSCd3VxlPj9VqRLaAE3Oibm5TfqRfOSJr1QjMy4CPWdTfzWdwduIv1f2U855ic0wCA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路中_与隔离变压器串联的电容起什么作用__images\img_000_772126c28e14.jpg)
 
 答案是:变压器的磁复位作用。分析如下:
 

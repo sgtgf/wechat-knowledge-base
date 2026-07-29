@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qMXeJA6M2MjrDj\_KRc4toA](https://mp.weixin.qq.com/s/qMXeJA6M2MjrDj_KRc4toA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjoRKCEakWucsHr3J1YibF7YsyIc67kt1ibEXNylpImPFic42ru1VHwZIZSNVCTQAS8BM9YKD0Mnqibw/640?wx_fmt=png)
+![](SCD_17_多MOS并联使用的场景和要点_images/img_000_57557a847be7.png)
 
 ____**____**★★★**____**___________________SCD-17---MOS的并联___________________**____**★★★**____**____
 
@@ -15,7 +15,7 @@ _电路/Layout对称_
 
 当在高速下控制高功率时，有必要仔细考虑设备的选择及其特性中可能变化的范围。在进行并行连接时，最重要的是避免电流集中，包括过电流，并确保在所有可能的负载条件下，良好平衡、均匀所有流过器件的电流。如**_图17-1_**所示，建议对称地布置电路，并有效隔离输入信号和输出信号。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTzLxzO9icx4WMRS8vkiaKNQ6Fn5iatZ457UCbXk0Bdfc5EhIj2RR4QjOTq2nfz7IdyTDltH2hE2PWqw/640?wx_fmt=png)
+![](SCD_17_多MOS并联使用的场景和要点_images/img_001_284c383bb14d.png)
 
 **_图17-1：两枚MOS并联_**
 
@@ -23,13 +23,13 @@ _开启关断阈值一致_
 
 通常在通电和断电期间会出现电流不平衡，这是由于功率MOSFET的切换时间的差异造成的。众所周知，变化在开关时间在很大程度上取决于门-源阈值电压Vth的值。也就是说，Vth的值越小，通电时间就越快。相反，在断电期间，Vth的值越大，截止速度就越快。因此，当电流集中在一个具有较小Vth的功率MOS中时，在通电和断电过程中都会发生电流不平衡。这种电流不平衡会导致设备的功率损耗过大，并导致故障。对于并行连接，为了减少瞬态期间的变化，最好使用相近Vth值和开关时间的变化。在并联连接的每个电源MOSFET之间插入一个栅极电阻也很重要，以确保稳定运行和防止异常振荡。（**_图17-1_**)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTzLxzO9icx4WMRS8vkiaKNQ6icDBlg4wAbz36IInZ1giccNKtzJCfhuHdZaUQkFYialKaF9mCrRaIldRA/640?wx_fmt=png)
+![](SCD_17_多MOS并联使用的场景和要点_images/img_002_632508e8647d.png)
 
 **_图17-2：不均匀开启阈值带来的影响_**
 
 如**_图17-2_**是不平衡开启阈值带来的电流ID隐患，开启和关断更快的MOS在开启和关断时会产生两个尖峰电流脉冲，如果尖峰电流脉冲过高触及MOS的IDpeak，就会损坏MOS，发热也会不均衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQY0GDhaWT3oRsyfYgybtfek3zbVEMOOcuZicGPyNkfrlaE47DA4QovtLA/640?wx_fmt=png)
+![](SCD_17_多MOS并联使用的场景和要点_images/img_003_01b0b98d5271.png)
 
 **_图17-3：功率MOSFET电阻VS温度_**
 
@@ -37,7 +37,7 @@ __€2.并行连接的静态/动态动作__
 
 首先考虑两个MOS并联运行的静态操作，如**_图17-4_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTzLxzO9icx4WMRS8vkiaKNQ66x9OiaLbkepXwjPExkib6U2WNRtMXCXfJq65AnDdv8Nia54UhJFykI6Nw/640?wx_fmt=png)
+![](SCD_17_多MOS并联使用的场景和要点_images/img_004_f1f6b3c82e38.png)
 
 **_图17-4：同时驱动两枚NMOS_**
 
@@ -71,7 +71,7 @@ __€4.并行连接的使用场景__
 
 多MOS并联的使用场景一句话总结：在大电流通路场景平均分摊电流并减少发热量（Rdson越并越小）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRzsUhYoPz16FKnt6iajBCS00icJgcDTichG4icSwfWgx0JianwB5ZEcsFt3AicVBJqfBOlHDOIE8yEbafg/640?wx_fmt=png)
+![](SCD_17_多MOS并联使用的场景和要点_images/img_005_53a821844842.png)
 
 **_图17-5：外置并联MOS双相输出同步降压DC-DC_**
 

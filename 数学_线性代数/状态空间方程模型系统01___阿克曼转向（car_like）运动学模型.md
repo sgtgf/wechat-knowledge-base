@@ -7,7 +7,7 @@
 
 一般而言，算法都是用于求解模型的，如数学模型、物理模型、控制模型等。而描述系统模型的方式有很多种，有一种最常见的是状态空间方程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42uRGG6TOlRs7iczb54iamV6OWoGAqBibTQ3LmRnibLveWl1kI8IldicnuibhYEfJGLrAmxhTCE7Ye9UeJw/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_000_c0ea47217fd1.png)
 
 这里的x是状态向量，根据所研究对象的不同，可选择不同的状态向量。若想了解汽车的位移、速度、加速度，则这3个量都可以当作状态向量的分量；如果仅想研究位移与速度，则状态向量只取2个就可以；u是系统的输入，也是个向量；A是状态转移矩阵，B是输入矩阵。
 
@@ -19,7 +19,7 @@
 
 为了得到car-like车辆的运动学模型，我们作如下分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMc7zDhNrPLImMl3CKNXIqOPaFTDaOt3QVhrYfdKBGfpBic0gUEEWqGdA/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_001_b0d92d389e02.png)
 
 转向角  前后轮的转向角用δf和δr表示，模型中前后轮都可以转向。于只有前轮转向的系统，后轮转向角δr可以设置为0;
 
@@ -39,27 +39,27 @@
 
 **偏航角变化率：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMvZSGu14wckUb8PAFvibc9v432w5SbCdQhMBEUx8qcbT7yc3NibrFgYvQ/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_002_d41186395caa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMZrVdDSg5zL32zUiaWfhzauTibxOQBwiahDzl9YNCr2HhoL0ja5lePianbg/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_003_5ccac8f1f25d.png)
 
 **滑移角：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMAhFcWiazdxW1BmebqWeu3KLbNFoPoxzmsUfgBvas3TUhEoR5OB2QelA/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_004_3041ecbaee46.png)
 
 由此可得**运动学方程**如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMOia6DJ7HWhEoJ3ZHPGenQCLFszlv7agPI9x2Cd6azhbNrPm3Cy36TUg/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_005_84e9c314bb43.png)
 
 ****三、2种典型场景****
 
 后轮固定，纯**前轮转向系统**：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMwTQVq8mf8JeJ0whHjFDzWsicZ2FUaToHvaib4ZHS8LNVCg3fpQ8EbibfQ/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_006_7a5c0924b1a4.png)
 
 前后轮转角相等，前后轴距相等，简化的**4轮转向系统**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMJia07PrpBgm6WZwlqnCN11aRZVE3c1y7vXIgqndpc12xicXvxjVyahHg/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_007_53d53323e99b.png)
 
 可以看出，**简化的4轮转向系统实际上就是轴距减半的前轮转向系统**  
 
@@ -69,15 +69,15 @@
 
 状态向量
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMf03xV6NCr2At1KnrVCUaB2e4h6l6ibsSf3cqLZWyVh9D6MfTicFmBTtA/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_008_585f0b98a9f1.png)
 
 系统输入  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMUyEibiaIZdic5xnn7RO3OeHFXsbc9jgq45O9UibgYjkFVs3Tsv9Ogf9SJQ/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_009_9f7ab9a23e36.png)
 
 由此，可得线性化后的状态转移矩阵与输入矩阵：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNM5ZG7DAXS9ppDun5jKKMtlLzP6I92fjFJ8qufp9fCx28VUkEFpWiaEuQ/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_010_361c5060b908.png)
 
 ********五、离散化********
 
@@ -85,21 +85,21 @@
 
 离散化有很多种方式，我们采用最常见的**前向欧拉**法，原理如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNM4bfKcnx2rLtaADmmZSdxyVQB4YUvHfTvSg5XJUYjcPVlHSVEGexMDg/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_011_e262f9deb2d9.png)
 
 可以单独写个离散化函数，c++版本如下：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNM8r96OofbT6VJ7iceryZc6svefSKyDpqU2LemhDaKP3K0rDbibyk1g3JA/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_012_f2002d6f425a.png)
 
 也可以在线性化后的状态转移矩阵与输入矩阵里直接求
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMibFR4YDV4SqUOKw5TefteYrkN0FBA40ZdCMb3bAmI2coteVicy9JZkAQ/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_013_62191fae01c0.png)
 
 ****六、结论****
 
 即**完整的状态空间方程**为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40WDkS3Wzy7ry1e9ez9KeNMxMBbfhUgHnmaLbIcjibZR6DoQiaWEEpnUr3b46UGeJ0gGibYqkv3kvpmw/640?wx_fmt=png&from=appmsg)
+![](状态空间方程模型系统01___阿克曼转向（car_like）运动学模型_images/img_014_ade158b0bc22.png)
 
 从另外的一个视角来看，上述公式也是个完整的正向里程计算过程。
 

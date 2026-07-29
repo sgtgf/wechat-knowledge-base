@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Hbzmc3jIdNB9jH46m3PeVQ](https://mp.weixin.qq.com/s/Hbzmc3jIdNB9jH46m3PeVQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_000_4fecbf19a39d.gif)
 
 **大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述**
 
@@ -90,25 +90,25 @@ LCC-MMC混合直流输电技术应用于双端或多端直流传输系统，通�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178Vbd1RhZDxfNcVsjAG5P5oauRVxMhOWicHeL4LqVhdvwqp4KqWPavu0ktrHmRKXN4k7MribuhKqHfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_001_4866c012b719.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178Vbd1RhZDxfNcVsjAG5P5oWUxKwpM2Ru0bTH53hj8esD5YeibtoAWDuThibLhCW4DGlwmBDFqUZWsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_002_625b8bcc16a1.png)
 
 **田新首**，华北电力大学副研究员，硕士生导师，博士。主持/重点参与国家重点研发计划2项、国家自然科学基金5项。发表SCI/EI论文40余篇，授权国家发明专利6项。主要从事新能源交直流并网控制技术、能源交通融合系统等方面研究。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178Vbd1RhZDxfNcVsjAG5P5oXW1Ice1cgGxictcoDHLDydZgP3aTXcibTaHfD2KbR0jGK4XXqr9x48qQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_003_dd7dc91bc27a.png)
 
 **迟永宁**，中国电科院电力系统碳中和研究中心书记、副主任，教授级高工，博士生导师，国际电工委员会IEC SC 8A“可再生能源接入电网”技术分委会秘书。主要研究方向为新能源并网技术及电力系统稳定分析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178Vbd1RhZDxfNcVsjAG5P5o5biaJowptys7cVEUV6oicnzflSZ435ETWwUrvqssbFC3ZicxLYj7gfvgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_004_073b43c48e83.png)
 
 **李龙学**，华北电力大学硕士研究生，主要研究方向为新能源经混合直流输电系统暂态稳定性与控制技术。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178Vbd1RhZDxfNcVsjAG5P5o9ztRHTWNtQEsmb8ROIrRsDHqibocytf14Xn58ibwfrgArbicrNQhj9xzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_005_2a0b937b8c15.png)
 
 **刘宏志**，中国电科院电力系统碳中和研究中心，高级工程师。主要研究方向为新能源并网技术及电力系统稳定分析。
 
@@ -118,7 +118,7 @@ LCC-MMC混合直流输电技术应用于双端或多端直流传输系统，通�
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_006_654c2fde68d8.jpg)
 
   
 
@@ -132,15 +132,15 @@ LCC-MMC混合直流输电技术应用于双端或多端直流传输系统，通�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_007_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_008_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_009_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -148,15 +148,15 @@ LCC-MMC混合直流输电技术应用于双端或多端直流传输系统，通�
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_010_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_011_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_012_644d85f1cc17.png)
 
 学会官方B站
 
@@ -164,15 +164,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_013_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_014_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\综述系列_I_华北电力大学田新首副研究员_大规模可再生能源发电经混合直流输电系统的形态与暂态稳定研究综述_images\img_015_c28b250481e7.jpg)
 
 学会科普微信
 

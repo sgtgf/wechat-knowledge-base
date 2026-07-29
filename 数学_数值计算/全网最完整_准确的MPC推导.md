@@ -11,10 +11,10 @@
   
 此外，控制理论，包括强化学习理论，其背后蕴含着非常耐人寻味的人生哲理，比如MPC就是一个计划7天、执行1天、每天滚动循环的项目/人生管理过程。
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa81jroTpEvNmch720xEpVyfBEPHByzcCpZuwMccPzlKUDYIxNGv3w6JRcEVg7SkeYaGn3ewAiaeAb4hMrCvovqfGO5URvC5AbTU/0?wx_fmt=png)
+![图1](全网最完整_准确的MPC推导_images/img_000_16ae41c145e4.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_jpg/wEtL48Vqsa99SLggKyMYj1vqFWdm4aJH2iaMGBEsaicMLXib8MibiaRLkajKXibmtDBVCuwoV4KJZOE2RTwLm7Eo4fPgArO8ScXI7ROfRLG0Dpzibg/0?wx_fmt=jpeg)
+![图2](全网最完整_准确的MPC推导_images/img_001_a54b6f344512.jpg)
 
 图2

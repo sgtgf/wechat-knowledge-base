@@ -12,7 +12,7 @@
 
 存储器分为两大类：**RAM** 和 **ROM**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Wc8GWqUU6cc11Q3gf4q9Xp5HcmyZn35A6ZkF9JVelzPDuFR2BoGuUtzk7NSEoSzmh6URMoRwbmLcY3eoP2BDXg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EEPROM_和_flash_这样讲_早就懂了__images\img_002_d94e894cc48b.png)
 
 **RAM** 就不讲了，今天主要讨论 **ROM**。
 

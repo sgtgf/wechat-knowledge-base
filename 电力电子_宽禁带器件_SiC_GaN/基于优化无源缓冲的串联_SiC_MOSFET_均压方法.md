@@ -23,7 +23,7 @@
 
 3）SiC MOSFET 门极信号的不一致是导致电压失衡的重要原因，主动门极控制就是通过修正门极信号达到均压的目的。有源延迟控制是应用较为广泛的均压方法。相比于无源缓冲电路与有源钳位电路，有源延迟控制不会在均压过程中引入任何负面影响。然而有源延迟控制属于异周期控制，控制器在采样周期进行计算，在下一周期根据计算结果改变脉冲宽度，无法实现实时均压。同时对于 SiC MOSFET 这类高速器件，有源延迟控制中采样环节与控制环节的响应速度要求较高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OYTCa3pWyvWIWDSDxXyQagEoLq7S0OmOgQFZoYouA9B2ALib9nDUIDJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_000_046d7e44f72f.png)
 
 本文提出一种优化的无源缓冲均压电路，将缓冲电容并联在米勒电容两端，如图 1 所示。该方法不仅保留了传统无源缓冲能够应对各种工况的均压要求、能够实时进行均压的优点，并且大大减弱了在均压过程中引入的各种不利影响。此外，该方法还针对传统 RCD 缓冲电路导致的开通过程电压失衡进行了优化。
 
@@ -31,41 +31,41 @@
 
 SiC MOSFET 串联运行过程中，驱动信号延时会造成电压失衡。电压失衡主要发生在关断过程中电压上升的阶段，目前相关研究也大多关注于此，然而开通过程中电压下降的阶段同样存在电压失衡。器件开关过程中电压模型可由式(1)给出
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0ODv99K23KHqU1hibSf9Fw13zeGHjcS7Z7FRgicrcYHdyH7VB69lBsTqMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_001_311bde9a29f1.png)
 
 其中 Vds 为漏源电压，IL 为负载电流，gs 为跨导，Vth 为阈值电压，Cds 为漏源电容，Cgd 为米勒电容，Rg 为栅极电阻。
 
 由式（1）可知，在器件串联运行中，当栅极驱动信号存在差异时，如图 1 中下管驱动信号比上管驱动信号延迟△t ，在器件关断过程中，下管漏源电压的上升时刻就会比上管延迟△t 。同时，由于米勒电容的非线性，两管的电压上升速度也会有所差异。在两方面因素作用下，导致最终漏源电压不一致，如图 2 中 t2—t4 阶段所示。此外，器件开通时，由于驱动信号延时△t 的存在，下管漏源电压下降之前会有一个上升过程 t7—t8阶段，使得下管漏源电压超过上管，导致器件开通过程存在反向的电压失衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OIGzJdd6AH871tfFsAa3te6lrAT9U3c2eCD816dvlwdplKrxB91PE3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_002_a724eda61a01.png)
 
 2\. 均压方法
 
 2.1 传统无源缓冲均压电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O0u0zlmjqhp7JJFDUcgq2phz3lHEr1K63JXjh7N1l2tdKbAIkLhVNEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_003_426bd20c91e0.png)
 
 传统无源缓冲电路如图 3 所示，器件关断时，负载电流经二极管 Ds 给电容 Cs 充电；开通时，电容 Cs 经电阻 Rs 放电。加入 RCD 均压电路后，式(1)可写成
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OAfZPzw8lUdt7bqLibJwLj0j8ljUiaT1Wr94bdiaqx4Nfv4h7CmQ2kutFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_004_0b7bd239fc64.png)
 
 其中，Cs 为并联缓冲电容。由式(2)可看出，Cs通过降低器件关断器件电压上升速度来削弱参数失配带来的影响，随着 Cs 的增大，上下两管的电压差逐渐减小，如图 4、图 5 所示。同时，器件的关断速度不断降低。此外，无源缓冲电路还会带来一些其他的负面影响。假定开通过程电压线性下降，则有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OmR4iceyafHWFXaAM0ZrEGaDyxgCLDsibiadomYicwugibGUNTX5Zb0eIXEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_005_33268e569613.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O4nw4Flib4cb7NvraFuxibTfMr5sMZonEXPdCuFnO9eSiaagSUwbibN0fTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_006_e3dba41392c9.png)
 
 由式（3）-（5）可知，Cs 经 Rs 放电会带来额外的开关损耗与电流尖峰，同时两者与 Cs、Rs的取值呈不同的相关性，因此 Cs 与 Rs 的选取需要考虑两者的均衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OAaJ9LuYGhMoB6932cAXZtuhtymqFxLDs93jjgKVbeRbrgr5g1XOJOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_007_bd760016d91a.png)
 
 此外由图 2 与图 4 可以看出，传统的 RCD 均压电路加重了器件开通期间的反向电压失衡，即t7—t8 阶段。原因在于 MOS 管寄生电容 Cds 与 Cgd的非线性，如图 6 所示。其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O1rHGPsMNnab17nTibQzsibucPOMd7GTqf7zDIhPUObej106zviawM6xhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_008_912720d666f6.png)
 
 由式(6)可知，器件开通过程中，Cgd 随着电压的下降而上升，Cds 同样随着电压的下降而加大。但是由于(1+gsRg)的数量级往往在几十甚至上百，可以认为在开通过程中(1+gsRg)Cgd 远远大于 Cds，此时
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OyTxLiclOBoUDITH9MRJIaAmpNdHicOQd3FUibXjpsQgxDDWJKVEOe2hiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_009_1a3d5e54ec60.png)
 
 因此，在 MOS 管漏源端之间加入均压电容Cs，即加大 Cds，对器件电压下降速度影响很小。由于上管与下管的电压差变小，而器件电压下降速度几乎不变，则带来了器件开通过程反向电压失衡的加重。
 
@@ -77,21 +77,21 @@ SiC MOSFET 串联运行过程中，驱动信号延时会造成电压失衡。电
 
 优化的无源缓冲均压电路如图 1 中所示，在MOS 管栅极与漏极之间加入均压电容 Cs0 即可。器件开通与关断时分别经驱动电阻 Rg 给 Cs0 充电与放电。加入 Cs0 后，式（2）可写成
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OzbCYjkEZPEeLK7R8xZwkEQMH9E0wG0zgLVPvWGsleDPPR5fxnryK1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_010_a6e732c7bd82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OkD3bFNm8nSkicR6Ycwtk6O3kNdw0jqSmaoagMEhl51zYAvuswcRtuVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_011_fca0ad4d4e24.png)
 
 结合图 6，器件关断时，(1+gsRg)Cgd 与 Cds比重大致相当，因此改变 Cgd 为(Cgd+Cs0)可以降低器件关断速度从而减小电压差；器件开通时，(1+gsRg)Cgd 远大于 Cds，因此加入 Cs0 可以降低器件开通速度从而抑制反向电压失衡，如图 7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OTQAey39X4o0CChdo9ZPGA25a5O9YXquksyZM7baNwLC6gkaKGibO8QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_012_24dc28871b13.png)
 
 同时，以上管 Q1 为例，在电压上升阶段 t2—t4期间，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OtfHDzn2xLnkiah7P3ibFrTiaNapJClEB8H4N4RtgVQfGzlR3eMBUprlXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_013_e343cf3dfbc5.png)
 
 其中 Vmiller 为米勒平台电压值，为与 Cds 有关的常量。因此两管的电压差同样随着 Cs0 的增大而减小，如图 8 所示，且有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OTc3uBQv1e22eJr9jObujNe2wouFiajWoEkfT9jdXQBJVFVyent0nibNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_014_bc97e738a228.png)
 
 其中DV0 为初始电压差，Cgd0 为电压上升过程中米勒电容 Cgd 的平均电容值。
 
@@ -99,21 +99,21 @@ SiC MOSFET 串联运行过程中，驱动信号延时会造成电压失衡。电
 
 3\. 仿真验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OHZv0GzMbjfSKrGxiaArOapyIelGhc2qEP4mTqLFOxiay1g2JqqNLpSoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_015_66ef7e238963.png)
 
 采用 Pspice 软件进行仿真，仿真电路采用如图 1 所示的双脉冲测试电路。SiC MOSFET 仿真模型采用 Cree 公司 CPW2-1200-0040B，续流二极管为 Cree 公司 CPW4-1200-0010B，其他参数如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Ozj7gdpMBgrAtsicqoGia7Mptpvcs4cjlqPicKevVyictjsj0obAWDo1RdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_016_ca5e6194debe.png)
 
 根据图 5(a)与图 8，选取 Cs=1.7 nF，Cs0=100pF，控制经过两种均压措施后电压差大致相等，DV =40 V。仿真结果如图 9 所示，仿真结果显示，两种均压措施都能将关断过程中的电压失衡抑制到较低的水平，然而 RCD 均压方法会导致开通过程中的电压失衡加重，而本文提出的均压方法能够较好的解决这个问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O1YcJVqzWOHpCxz8CQSuoEwQ6O67BoR324PD80TBCsc2955h0C1EuJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_017_c2509ae6a211.png)
 
 此外，由于两种均压方法都属于无源缓冲，可以吸收一部分由电路中寄生电感带来的振荡，同时也会在均压过程中引入一些不利影响，如图10-11 与表 2 所示。可以看出，相比 RCD 均压方法，优化的均压方法大大减少了引入的损耗与电流应力，但在一定程度降低了器件开通速度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0ORZ2usfItZwqJJwY1JKvMcPwvZmen31DPRZt97ma2swbFfqMpVlMddQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_018_d64dfdea53e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0ODVt0gf4Oa3Hs2ZxribIZFzawLYKIgBkZXNtfJTClS5CwxzI31mGRmjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_019_5b3ff2c3bc61.png)
 
 4\. 结语
 
@@ -121,10 +121,10 @@ SiC MOSFET 串联运行过程中，驱动信号延时会造成电压失衡。电
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_020_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_021_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于优化无源缓冲的串联_SiC_MOSFET_均压方法_images\img_022_84aa944feb13.jpg)

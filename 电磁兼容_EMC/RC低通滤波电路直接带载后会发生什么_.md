@@ -22,7 +22,7 @@
 
 为了同时分析相位和幅值引入虚数，并且在虚平面进行分析，和频率相关的电路阻值特性，我们用阻抗描述，通常包含实部与虚部，这个数学工具的引入，包含了幅值和相位信息的体现，简化了分析难度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzQiaDWeRbfkOhltCYkRpd7bY81ODHNicWExoYGg4L5Gic1nCZjHAQT83LQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_002_d8ffe35c9782.png)
 
 角速度描述表示
 
@@ -34,13 +34,13 @@
 
 （1）RC滤波电路，图中包含了这个电路的传递函数G(s)表达式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzWSLhzE1Pq7r26ibNUEVWZKxycUF2ZVUEkMZekF8sPmlPOdMRhQJla9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_003_7c9d7033e3bb.png)
 
 RC滤波电路
 
 从传递函数解出一个称作为极点的根，即令传递函数的分母为零，最后得出一个频率，由于这个频率从波特图上看，曲线在这个点前后发生突变的现象，我们形象地将这个频率称为“转折频率”，转折频率意味着一个响应发生“突变”的频率点，转折意味着响应的转弯点，前后会发生较大的变化。记住波特图图横轴是频率，代表着一系列不同频率信号通过这个电路后，输出会发生不一样的变化，是一系列的信号，不是单一信号。转折频率代表了电路的固有特性，是电路参数和结构导致的结果，是电路的固有属性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5Nz4diczZntpQdHwyHu04hFUI8Oc0eUtCMy2DhptRCRUBTtn0ZiaNYF4bWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_004_4536c96aad77.png)
 
 RC的转折频率
 
@@ -64,7 +64,7 @@ grid on;
 
 % 得出传递函数为G(s)=1/(s/100 + 1)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzlPgKr8rJC8dOwGZtys4vlubBwdrJuAOz8NS82ZbHwZw5bo837dHFFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_005_2a311e10f228.png)
 
 RC的幅频和相频曲线
 
@@ -72,7 +72,7 @@ RC的幅频和相频曲线
 
 （1）直流增益，即低频增益，在传递函数中令s=0，得到直流增益为1，转换成dB刚好为0dB（0dB=20log1），这正是我们无源器件低通滤波器的特点，不能放大信号，在低频段，电容容抗几乎为无穷大，即电容为开路状态，信号被原模原样传输过来，这时候增益就是1，由于电容看做开路，那么阻性电路中，信号自然也不会产生任何相位偏移。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5Nzd1DUexYCRHubGUnckic53gPfkaKIicVicono1kg1pVZQayF7ggYDdaCtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_006_30feefd42c26.png)
 
 直流增益
 
@@ -88,19 +88,19 @@ RC的幅频和相频曲线
 
 如下是对一个100Hz和200Hz信号进行延时举例，也说明了相位差和时间差之间的关联，它们一一对应（one to one）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzlmFINTcI7GnRPSLjWPxibYRsLc4XX8MP9VhSxp3ct3X8PVjMw5AsBeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_007_c94e5ddacc38.png)
 
 相位延迟的含义表示
 
 用TINA仿真进行波形验证，借助仿真软件验证你的结果，并且可以帮助你理解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzCFtSDX37RNYVibSvJRgmibxAXleX2Pn1ggfct89KGh6Kdm4x9167WiaOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_008_8f4ccdb4e84a.png)
 
 RC仿真电路
 
 相比于输入信号Uin，稳态后，电容电压为输出信号被滞后45°，并且幅度被衰减到70.7%，从下图波形也可以看出。（稳态后，电阻上电压超前了45°，想象一下，这个电路测量对象不同，带来了“高通”和“低通”的概念）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzQ0D0h4nSvAJ8ibT78kl3SlZgd3Yb1wZmNPZh1kZ3boVGUtaTXyALYUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_009_a70b5229b125.png)
 
 仿真波形
 
@@ -108,7 +108,7 @@ RC仿真电路
 
 如下图，我们将R2放置在电路中，模拟一个负载
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzpY01ickm0NMVJET8jsz2fLnW5iadJoTvDZx5epXPfmV4NB5l9dPhOcmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_010_21436be0450f.png)
 
 带载的RC电路
 
@@ -126,7 +126,7 @@ G(s)=zo/z; G1(s)=simplify(G(s))%化简代数式
 
 同时令传递函数的分母为零解出极点，如上图，我们可以把它写作为频率的形式，这个频率在波特图中正好是转折频率，我们利用MATLAB进行验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzuwGDXibicDibTuHN4Kjf8owARtiaYH02Ir7UqWD0D33xm9VwWBiayLLa7tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_011_424e1560df1a.png)
 
 带载后RC电路的转折频率
 
@@ -158,13 +158,13 @@ grid on;
 
 最终得到幅频和相频特性图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5Nzr3OnKZGadKbALYN86INI9EYHVPTuF5dxxKBURoXQ1BDibBibuJxnBWag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_012_1f2e2875e669.png)
 
 幅频和相频特性图
 
 （1）直流增益，也就是低频下的增益，我们对传递函数频率项s=0，那么就得到直流增益，这也是我们在做电源环路中分析中采取的方法得到直流增益。这里直流增益如下，也就是除去了时效性动态器件的影响，纯阻性表现的特性，就是一个简单的分压电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5Nze1ZO23dybImpCGRXRXKEK77ias3TS9vSqlSZGkVtqib491PcHNiawJX2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_013_055fa310a987.png)
 
 直流增益
 
@@ -174,7 +174,7 @@ grid on;
 
 这个电路，我们对并联在C1上的R2取值为无限大，我们将R2取值无穷大后，只需要把传递函数简单化简后求极限，则电路重回到开头的RC电路，传递函数和RC低通电路相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaurkbVasmf1BW5Ip5ice5NzeS0CssRfGFPjDhM2iaRsdlRYPoYw4hkbGJeJuxjWQ9zVh5jVDZwXmTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_014_2a20d6117484.png)
 
 转折频率
 
@@ -194,9 +194,9 @@ grid on;
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_015_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_016_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_017_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_018_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_019_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_020_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_021_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_022_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_023_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_024_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_025_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_026_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_027_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_028_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_029_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RC低通滤波电路直接带载后会发生什么__images\img_030_3c93e54afedf.gif)
 
 ## 
 

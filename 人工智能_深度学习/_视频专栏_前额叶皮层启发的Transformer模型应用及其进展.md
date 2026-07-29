@@ -412,7 +412,7 @@ Fig. 1  PFC-inspired Transformer structure
 
 ![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_005_409e145c41f9.gif)
 
-![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_006_d1e21947407a.other)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_006_d1e21947407a.jpg)
 
 ![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_007_409e145c41f9.gif)
 

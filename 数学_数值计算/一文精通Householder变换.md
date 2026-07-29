@@ -9,13 +9,13 @@ Householder变换又称镜面反射变换，能将任意向量正交映射至指
 
 对于_n_维空间中的任意非零向量**u**，沿该方向的Householder变换定义如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWicOwoViaaNr3jkSNhUKT77n4JNw4tLibaADMrXIsfJrpeEV8Pot8Bqu19w/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_000_781c8a2b5216.png)
 
 其中**u**称为反射超平面（镜面）的法线方向，也可简称为反射方向。
 
 当**u****为**单位向量时，公式（1）简化为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWic9FBQFqv5ZB4icgL2bSfMtxiawCHUXic2xXpvBs5PufAowr3Tu8glBoXuQ/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_001_842f8b79bc9d.png)
 
 2. Householder变换的几何意义
 
@@ -25,27 +25,27 @@ Householder变换又称镜面反射变换，能将任意向量正交映射至指
 
 沿反射方向的任意向量λ**u（其中**u为单位向量**）**，经Householder变换作用后符号取反，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWicbGib0g2KUYDqsIOlJa5wFHjV3wj1G8Q9C1DVBIgsv1g4RfGwDytP7Zw/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_002_3affad6d6833.png)
 
 （2）反射方向的正交方向
 
 沿反射方向的正交方向的任意向量，经Householder变换作用后保持不变。对于任意与**u**正交的向量**v**，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWicufyPtRP2ibYODeSATic1WeG6188oOy4ODY9qyp3SrLiaial34Y7lltbwzw/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_003_8f4e11d29fad.png)
 
 （3）任意方向
 
 对于_n_维空间中的任意向量**x**，可将其分解为反射方向分量与正交方向分量的和，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWicyboCianUKhqziaibhpBNibtUIrMKgGRicBZp29PVm029iaTCIm5FKUEf53ug/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_004_d8e77acaa480.png)
 
 其中，**x**1是**x**在**u**方向的投影，**x**2是**x**在**u**的正交补空间的投影。
 
 在Householder变换矩阵的作用下，**x**1的符号会发生改变，而**x**2保持不变（见图1），即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWicLD711UsATo5DHy8G9MHpp5N89P3VlLic7IaUu45lwWK4QicOHMYVTClw/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_005_e7c8e72922b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWicXeGYORVtAzicdyxet6jd7SaPoXmStSz25ia6icoeibcpI0kZ5pMRRIdkibw/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_006_e255bda02c53.png)
 
 图1\. Householder变换的几何意义
 
@@ -57,23 +57,23 @@ Householder变换又称镜面反射变换，能将任意向量正交映射至指
 
 不妨假设，**e**1,**e**2,…,**e**_n_为_n_维欧氏空间中的一组标准正交基，且**e**1为反射方向。那么，我们可以构造如下矩阵：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWic1emMP36ZIDAn1YhURYLl36NWe7I3eLgeO2rnsWqgTcgbKvoZCPdPjg/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_007_68640dc2b08e.png)
 
 容易验证，上式中的矩阵必然满足上述要求，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm4ZcLJMQWl84e2soXAqR7tBKmVbJ4G1Rp61Jr9f4CkUkOupDEhAplWJgjdGedP7KRoZyvesW48VBA/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_008_f7984b4ea6fc.png)
 
-令![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWic0x0DDl8hGxfstvYcNgHiaiclNO7Xf9sjPoIHn8Jc6f4qmyXHtb0dnM9Q/640?wx_fmt=png&from=appmsg)，显然**E**为正交矩阵，即
+令![](一文精通Householder变换_images/img_009_c015d72da1bf.png)，显然**E**为正交矩阵，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWicyI1TAZCtNxocYMsEIxJeS8KibjBG8ST0ytFsEIz9S95MiaADCDAL6Prw/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_010_18232923a8f2.png)
 
 由（4）得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWic2WbOh0a8ygdWXicP2lX6ZG3fNlqpziarYluKypDT2QspK9x5ZI1Hp3Kw/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_011_d42eda6924ae.png)
 
 将（5）带入（3），得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm6NibiamyOglPRYsvJA0aFcWics8p1y4XicWghjNTEtQcX7SwKOL8R6k05kzJv7Epb9zZ9RmibHwibN089Q/640?wx_fmt=png&from=appmsg)
+![](一文精通Householder变换_images/img_012_e8fcd317c005.png)
 
 公式（6）即为标准的Householder变换矩阵。由公式（3）可以看出，该矩阵有_n_个实特征值和_n_个相互正交的特征向量，且其特征值的取值分别为−1,1,…,1。
 

@@ -28,7 +28,7 @@ ADC选型必看参数，一个都不能少！
 
 电压输入范围一定要匹配，别让传感器输出超出ADC量程，否则会引起信号波形被削顶产生失真，或者导致ADC内部电路性能退化，增加噪声，降低可靠性，甚至击穿电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjelLWn9ewgBSGicr1r8IMeDfDcodo47wPqfQWgbzulreS9KU7nOhALQjuJATXwpKLVPukYTgMNF0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_002_9c953daa86f4.png)
 
   
 
@@ -38,7 +38,7 @@ ADC选型必看参数，一个都不能少！
 
 在高速信号(比如视频处理)，Pipeline ADC是一个很好的选择，采样率可以达到10MPSPS到3GSPS。低速高精度（比如电子秤）认准Σ-Δ ADC准没错。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjelLWn9ewgBSGicr1r8IMeD58KCWAS4Ux0Iibv321D3rG56XUt951JfsT1JlDx6icibUd02PLZZPwMLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_003_6fdf55ef450e.png)
 
   
 
@@ -46,7 +46,7 @@ ADC选型必看参数，一个都不能少！
 
 分辨率指的是ADC芯片在量化时的指标。分辨率越高，量化就越精细，更能接近真实的模拟值。比如我们常说的8位，10位和12位ADC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjelLWn9ewgBSGicr1r8IMeDiaB7Dn3zdPmNFLohFxmFNcXvVETcpbmpybVL1Mh9m6cJicJaextDMSiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_004_c9f5c664eb46.png)
 
   
 
@@ -56,7 +56,7 @@ ADC选型必看参数，一个都不能少！
 
 接口类型最为常见的就是SPI和I2C，也有并口的，但是占用资源太多，咱一般不会优先选择，SPI在速率上更有优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjelLWn9ewgBSGicr1r8IMeDJyTxu6Lp2hWSPUtCQNOI3jiay9HcAeMWue47ia8RepOuzpbmpuWnOFKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_005_1d26f4b812c5.png)
 
   
 
@@ -70,7 +70,7 @@ ADC采样不准，有哪些可能的因素？
 
 基准电压飘1%，你的ADC数据就会产生等比例误差，所以电压稳定性特别重要。我们可以使用外部基准源（成本灵敏可以选TL431），基准脚记得加滤波（0.1μF+10μF安排上）  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjelLWn9ewgBSGicr1r8IMeDGhpWLz02biblG8WNg2zF5uNKCqIOy2SJQ7iacYQrsLDX2ib3aqhpAx4yA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_006_be212efe62b5.png)
 
   
 
@@ -78,7 +78,7 @@ ADC采样不准，有哪些可能的因素？
 
 数字信号和模拟信号放一起？等着收噪声大礼包吧！记住三字真言：地要分开（模拟/数字地单点连接）， 线要短（模拟走线能多短就多短），远离干扰源（高频信号走远点） 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjelLWn9ewgBSGicr1r8IMeD26GcoDslibmuq611KPILPBNc2exd0R4YXpTQItCUxqNqy8Zc6wtLNJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_007_584886ab7443.png)
 
   
 
@@ -86,7 +86,7 @@ ADC采样不准，有哪些可能的因素？
 
 ADC采样需要时间对内部电容充电，若采样时间太短，电容没有充满电，就会导致电压不稳。可以通过配置延长采样周期，也可外部加个缓冲电路，调大采样时间来解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjelLWn9ewgBSGicr1r8IMeDbLEsAvNYOK4V1CiaBd7Zu9iaGNnLdiahbwD8nP86yskBTzicrmOqNTZCmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_008_34199b8da877.png)
 
   
 
@@ -121,23 +121,23 @@ ADC采样需要时间对内部电容充电，若采样时间太短，电容没�
 -   **探讨ADC高级主题，如宽带通信中的高速ADC、精密测量中的高分辨率ADC以及未来发展趋势。**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdCTYRcvdm4JtibyOLH6TyHxytSibM9lR2fy36TleaZsXKyzjhMhqXUbV6RKVncIpYOzCubfh016ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_009_c9eec7fe09c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdCTYRcvdm4JtibyOLH6TyHKlur71EUvFbMDnmknE7F7PHSibekkG1zGqPuMPt5icjIbXKGncibbJzow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_010_d1c2dbe01377.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdCTYRcvdm4JtibyOLH6TyH3iaYeQiaCZfCicxtFoQ7WJmlibFjxvk16jQ12OcbTtKAMre1wXMHHHoeCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_011_0bc8c39f06a9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdCTYRcvdm4JtibyOLH6TyHWgCOkgkkNVhmp0PAfHkG01slVWo8Tn8XG7PsibiaxDXdIaR1B4ju6I1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_012_939cfae700e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdCTYRcvdm4JtibyOLH6TyHXk5ljJDpktDUbxsecltt95vgM0MGXiaSrhfsdicEcyW2MxAs0czb8icicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_013_8ed40bba61ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjdCTYRcvdm4JtibyOLH6TyHdmDqmM0IAJ1p2icbhr60JgbgSwjQRTDXE42U2oOLRUG0ZpPl3jxUIXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_014_6784f4b7b20f.png)
 
 全文太长，完整PDF可以直接在MPS小程序上下载，资料包里还有内容非常丰富，大家可以把资料下载下来，遇到问题的时候再慢慢研究。  
 
 点击下方 ↓ ↓ ↓ 一键**免费**获取PDF 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjdCTYRcvdm4JtibyOLH6TyH8GgHp3b7uWFTz7vIv6d9pfRVNBhnw8qjNkk2lk4ichAVYGCib88ZtLAg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_015_591ee9663e0d.jpg)
 
 如果这篇文章对你有帮助，别忘了**点赞**、**收藏**，并**分享**给更多需要的人！
 
@@ -153,9 +153,9 @@ ADC采样需要时间对内部电容充电，若采样时间太短，电容没�
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjlXjk6N5523uiag35OccaBa4kLQjG8lS2DUnnaNvKmu0cjpvXCH6tOIQ1yqcys5jqnITC8fuAyNRw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_016_6a21789b8a14.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjlXjk6N5523uiag35OccaBavtviastib6IxfE1ympMNCSrricNxPsY130ymh6icx38mRicPtLYKLIxJXaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\搞定ADC_除了个人经验_原厂资料是真香_images\img_017_69e28800dc74.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

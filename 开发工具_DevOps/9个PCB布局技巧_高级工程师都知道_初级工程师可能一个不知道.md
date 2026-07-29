@@ -23,7 +23,7 @@
 
 不同型号的引脚顺序和封装可能不同，因此在设计的时候一定注意。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqk0zPRrkMBE1gKKOOXkqravib5Of81uXOfAS3fE7LVFgDFvfGCatLYrDw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_002_54ea639d8a94.jpg)
 
 不同型号的引脚顺序和封装
 
@@ -31,7 +31,7 @@
 
 在PCB 完成后，可能会发现电路需要更高的输入电压、或者更低的压差电压。****如果布局的合理，就方便更换稳压器。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqk0miaRhuZ45A5otCibVAF9vAtw3zmaDyFkeFicASiciaQdbYx237NLniak9rA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_003_41e146a5bef4.jpg)
 
 灵活的稳压器 PCB 布局
 
@@ -52,7 +52,7 @@
 
 上面涵盖了引脚的 6 种排列方式，如果确保所有孔的直径均为 0.040 英寸，那么就包含了TO-220 和 TO-92 封装。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkq9fibzEjz9O8y0cz9XoLOhZ4jLESblnwbIQGo0iaG4zOibIcxbbwGywVA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_004_eee12cf70729.jpg)
 
 三引脚线性稳压的通用布局
 
@@ -60,7 +60,7 @@
 
 小型电位器（通常称为微调器或微调电位器）也有多种封装选择，最常见的微调电位器具有0.1英寸间距的引线，但引线的连接位置与元件主体不太同。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkxzXBCsAJ3HntE8gKKXtsexA001ghCY1KfdVckV8Dl7kPiaibfRiakIPsA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_005_ec6264cf02f5.jpg)
 
 微调电位器引脚排列
 
@@ -68,7 +68,7 @@
 
 第三个是多圈电位器，可以垂直安装或者平放。最右边的微调电位器有一个方便手指操作的旋钮，非交错的引脚位于封装的正面。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqksoLdGw5N1eXdcVQc2plDnFcpchiaiaewibenFyVYPmIbiaAjuj5brZ7JicQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_006_bacfba200d6f.jpg)
 
 封装的正面一直到中心布置一个3\*3网格
 
@@ -82,7 +82,7 @@
 
 使用 3 个电容，以便在组装时可以选择 0.1 英寸和 0.2 英寸间隔的零件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkN5UviaGMmiaMzUoWw0cUOBHoIY9TRGwvGhK87OaMTm5al6uNlhU79yqw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_007_a37fc8202b1a.jpg)
 
 电容
 
@@ -94,7 +94,7 @@
 
 **额外孔的另一个好处是，如果在PCB上出了错误，另外一个孔可以备用接地连接。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkFCMB5zOiaEJX8qv8oGfQ3DCXRGApbG5Ge4s6seKludhfxicDbwydsBOw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_008_0b90bbd5b7d6.jpg)
 
 电容布局
 
@@ -104,7 +104,7 @@
 
 触觉按钮在电子电路中非常常见，最常见的触觉按钮封装包含4个引脚，形状是方形的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkia413fTQXBiaAyERsuHgh7gIupMk7CD33iagGST1zj89HRphdsOHUXXYQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_009_4fc73756a4a6.png)
 
 触觉按钮
 
@@ -112,7 +112,7 @@
 
 安装前，需要要万用表仔细测量引脚的连续性。或者，你****可以对 PCB 进行布局，让按钮可以任意方向安装也可以正常工作。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkHV6PwALRMjYmibFHpZjZriaB7T9Zrb3ibadhuR9OZticotoTWF6dVurqrg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_010_66cbb609092d.jpg)
 
 按钮布局
 
@@ -128,11 +128,11 @@
 
 **可以通过在中间添加3个额外的孔让按钮更加通用，这样的话，可以安装多种类型的按钮。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqk6b8aeJgicTNG1HPw1uicicIEsJ1R6yXlPGHcsLXVPjGCyWv39OxYUBzYw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_011_d940680f0280.jpg)
 
 按钮布局
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkp60sExYdVuulRyhfQJ7xgic3kI7AWJlTMDmULhUKELte2UYQibehEnaA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_012_31603ad7d85f.jpg)
 
 按钮模式允许选择零件
 
@@ -146,7 +146,7 @@
 
 但是，在许多PCB中，大多数孔没有非常紧密地通过走线。对于周围比较宽阔的孔，****通过在孔周围添加更宽的圆形焊盘，以在焊接过程中提供最大的接触面积。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqk13VYZhFOIBFmkw1lzjn44ia674Mm2BgUm89Kod0C20IZAxq8suSU6yA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_013_9aedff2e7157.jpg)
 
 具有较大焊盘的孔
 
@@ -158,13 +158,13 @@
 
 阻焊层是一种电和化学绝缘涂层，可以保护金属走线免受环境和意外电气连接的影响。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqk8J1Ct5o4ONXBY7B6Kdqa7ibYntbMIURXyoYDTxtYRTdufMgrl2NJYRw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_014_43bd343c4fc1.jpg)
 
 扩展被阻焊层覆盖
 
 你添加的扩展焊盘区域可能在 PCB 生产过程中被阻焊层覆盖。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkz4CogiaSXK3514cVLtchQQcHCSiaw1QXP7wDRMuLBpjfAuBVRicGfnBMA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_015_587c3e433dbc.jpg)
 
 带圆形底焊盘的孔PCB布局
 
@@ -180,7 +180,7 @@
 
 某些部件（例如电压调节器和电机驱动器）在使用过程中可能会变热。****吸走热量的一种简单方法是将铜填充物放置在芯片下方，在热芯片测试中，铜芯片可以减少热量并提高性能。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkWadiaKYTCzNCHiaB9DaqGxb47v06ajNmP5PCHrHuOGVwLYHvNwicXR1QQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_016_c5fa9f11a3eb.jpg)
 
 电机驱动IC PCB布局
 
@@ -194,13 +194,13 @@
 
 你可以在 PCB 上找电阻或具有裸露位置的连接器来连接万用表探头，但是，将探针连接到这些位置可能比较困难，或者 PCB 的该区域可能太拥挤而无法接触到引脚，
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkBmMBFUYm6ZHRVnxlVRk3wz4bYga1k4g8Be8O9EIRyXNhcEXibAtccfA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_017_2a67b549357b.jpg)
 
 接地探头与电路连接到同一地
 
 **将测试点放置在 PCB的边缘，避免电线悬挂在工作电路上。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqk0miaRhuZ45A5otCibVAF9vAtw3zmaDyFkeFicASiciaQdbYx237NLniak9rA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_018_41e146a5bef4.jpg)
 
 环线测试点 PCB布局
 
@@ -210,7 +210,7 @@
 
 测试点可以连接备用电源孔以纠正电路中的错误或者在板边缘附近放置一个大过孔。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkylGuqhUMjlX5nbLsWuFaUutJRjvCATxQEvlmzicu9N69yTMgVhvsyiaA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_019_4c554ef64737.jpg)
 
 PCB 侧面附近的大电镀孔作为测试钩的测试点
 
@@ -220,15 +220,15 @@ PCB 侧面附近的大电镀孔作为测试钩的测试点
 
 ****接地线和电源线要比信号线更粗。****较粗的走线不仅会承载更多的电流，而且尺寸差异，可以很快识别出哪些走线用于电源，哪些走线用于信号。****降低了将电源走线错误地连接到信号引脚****，或者将信号走线错误地连接到电容的可能性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics6FzJ4muOibDVqM0CoVw8sqkTwXU3rY0R2y9du3hSDyMbredPFacqGCZTtbo6HO5lXeCUOYq4eAgQw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_020_879e1c96c045.jpg)
 
 走线宽度的差异减少了连接错误
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_021_58147eba07eb.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_022_9b53a964efd5.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_023_75db8c1036fb.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_024_0b6ae33611dc.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_025_365c6cd9f8bb.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_026_2da1ccbac0ae.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_027_7446ffe5e3b8.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_028_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_029_3352ab08e99b.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_030_0f89804cd7eb.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_031_f506b795c6ac.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_032_97df29bd0f50.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_033_d7c6fe8cd645.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_034_19e2f7b6262a.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_035_08d092bef8a0.gif) ![](9个PCB布局技巧_高级工程师都知道_初级工程师可能一个不知道_images/img_036_50889e54acde.gif)
 
 ## 
 

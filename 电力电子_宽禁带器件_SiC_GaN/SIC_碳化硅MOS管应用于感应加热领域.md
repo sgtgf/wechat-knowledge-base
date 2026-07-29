@@ -17,7 +17,7 @@
 
 例如，家用的电磁炉只有几千瓦，工作在中频。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslK72icgr6VoMMdJxSPPVRCpJJ5ics31rEuJly2qQQ3yia6icWaIRmjPX7bumiaHVNQaLrkcEGwmcyWW9g/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于感应加热领域_images/img_000_05c3c82850ca.jpg)
 
   
 
@@ -25,7 +25,7 @@
 
 目前感应炉的解决方案大多采用IGBTs。由于频率的限制和高导通损耗，炉具必须使用大型盘管和带风冷的散热片，这使得密封电源板防止油脂进入线路板内部和风扇内部变得很困难。高压SiC MOSFET可以运行在更高的开关频率，并减少线圈的铜使用量，为新一代产品的设计提供一个简洁的解决方案。更重要的是，由于功耗的降低，风扇可以省去，整个电源板可以装在一个密封铝盒里，这不仅降低成本，同时也提高了电器的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslK72icgr6VoMMdJxSPPVRCpJx0Z2JicoNYaQ6joHBpW6gZnZ0VF8wzpaAK1NWqZqnrwR63Aj2555vg/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于感应加热领域_images/img_001_c741d6d26fd4.jpg)
 
   
 
@@ -35,7 +35,7 @@ SiC MOSFET旨在改进当前基于IGBT的解决方案
 
 对于数十千瓦的感应加热，PFC电路是必须的。下面是一个典型的感应加热电源电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslK72icgr6VoMMdJxSPPVRCpMSHZZEShJOTwm5LByuwkibic3WmAN0WjlWWibtcEibjcM0UicB408ffnP5g/640?wx_fmt=png)
+![](SIC_碳化硅MOS管应用于感应加热领域_images/img_002_c905d013934c.png)
 
                                              高功率感应加热方案
 

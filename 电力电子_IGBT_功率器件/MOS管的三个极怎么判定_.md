@@ -28,7 +28,7 @@
 
 MOS管符号上的三个脚，辨认要抓住关键地方 ：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4EJKNG2IfdZWSe0tJNqqsH5uKahtvqbkyiahCRfybqC1EniaCkPgAjicY1w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_002_eaebacaf4570.jpg)
 
   
 
@@ -48,10 +48,10 @@ G极，不用说比较好认。S极，不论是P沟道还是N沟道，两根线�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4ERLz9blbxIBqzouwgI4icKjloJV9b4xEYZnXl4LkPziaYVS8Amdo3ypHQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_003_03d08c001a98.jpg)
 
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4EOw31WFIUyoXAicsHib1uEnXpDhOwRlPcsHUn6BP7kZWrOOcSpnyxicJ9w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_004_fb1af105a1bf.jpg)
 
   
 
@@ -59,7 +59,7 @@ G极，不用说比较好认。S极，不论是P沟道还是N沟道，两根线�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4E17ohosXZBtEl7klazt2lcwPJuGnxsz214Hx4JSceHgVcgf0myzu8mA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_005_229c0141adb9.jpg)
 
   
 
@@ -77,7 +77,7 @@ G极，不用说比较好认。S极，不论是P沟道还是N沟道，两根线�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4EX23IJBiazibLCwz1CWojp5yBhibJy8qpGpRvmqNNZ7dF7gERBCdIYia9qw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_006_55c858da2ad6.jpg)
 
   
 
@@ -98,7 +98,7 @@ G极，不用说比较好认。S极，不论是P沟道还是N沟道，两根线�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4EGSrhvIPK6yMHZicyFCnmvLlvzlJ4gM9E7xX2NTc5J9dbLDWlfgV3wyA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_007_0acd17104fb7.jpg)
 
   
 
@@ -120,7 +120,7 @@ G极，不用说比较好认。S极，不论是P沟道还是N沟道，两根线�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4Eib92ExZe9mfIEa0sTEoPDOm3lkQSlMxf3eFiaAic62atictpd0hTA2J6Pw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_008_5ff569bdddbf.jpg)
 
   
 
@@ -128,7 +128,7 @@ G极，不用说比较好认。S极，不论是P沟道还是N沟道，两根线�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LjN0kIsMFYDgNYAyvfjWxoS839NK9C4EN2A9v8Y5ymJicaxicqnBDujicbgic41ibHvGbU1lf8j9MkicNlqY2MYHOGDw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](MOS管的三个极怎么判定__images/img_009_a174702c39c0.jpg)
 
   
 

@@ -20,7 +20,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200105_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JutRNaiaITiaqlwYARLoMEWUPGfsLvDYUAicUOUhFG5eL3WTUY7je1qus7g/640?wx_fmt=png)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_000_c838481528c7.png)
 
 _图1  AGC原理简化框架_
 
@@ -32,7 +32,7 @@ _图1  AGC原理简化框架_
 
 随着可再生能源的大力发展，电力系统结构日趋复杂，呈现出很强的分布式特性，同时系统控制水平也面临高维度、高复杂度的集中式电网架构所带来的挑战。因此，逐渐有学者提出分布式控制策略，诸如DWoLF-PHC(λ)、PDWoLF-PHC(λ)等多智能体算法，其控制框架如图2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuhhricO8icYSRw1oTbpXj1r2B22UiaLqmrZyEEaYLPGDFjR5wDGrum6wVw/640?wx_fmt=png)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_001_f3dd2138a545.png)
 
 _图2  分布式AGC控制框架_
 
@@ -46,7 +46,7 @@ _图2  分布式AGC控制框架_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuYxtampoM5wsPeQFODFzF2xlDOuJcTztK2mOcLAORd6bUVJKwAr80WA/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_002_8d16abcf24c0.jpg)
 
 _图3  多能微网群多区域协同控制架构_
 
@@ -70,7 +70,7 @@ DQ(σ, λ)智能控制器所追求的是CPS控制长期收益最大、尽可能�
 
 表1 各算法性能指标结果
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuYXoNXCwESMcPwv57wOwR0LiarO39Sy1t9GKhl2Bv4CkLOOcq8qdUqCQ/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_003_b6349790e100.jpg)
 
 **6.   结论**
 
@@ -82,9 +82,9 @@ DQ(σ, λ)智能控制器所追求的是CPS控制长期收益最大、尽可能�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EePicD9v0Ov6pEYYzIBbmRV8beWHGPfHXaqhSQg26X7wNkue9mLdLiap561ibarWHWIv7icZAqbw3VmNy/640?wx_fmt=svg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_004_4f98d2e93144.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuZlibYe5vAKMIs7NFGdz8MibRnCmP7K2ibH8OyqjpiciaCTSHClO66y4LoDA/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_005_9fbfa10b0007.jpg)
 
 **席  磊**
 
@@ -92,11 +92,11 @@ DQ(σ, λ)智能控制器所追求的是CPS控制长期收益最大、尽可能�
 
 E-mail: xilei2014@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EePicD9v0Ov6pERWzmOfstHSEznAA7ELuTicFbRAvj3YovSKvdeVeuDzgG3vzy74v5a8yFoRDa0lUjf/640?wx_fmt=svg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_006_c6ff24bd981a.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EePicD9v0Ov6pEYYzIBbmRV8beWHGPfHXaqhSQg26X7wNkue9mLdLiap561ibarWHWIv7icZAqbw3VmNy/640?wx_fmt=svg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_007_4f98d2e93144.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Juwn9BI2F4ib5swtBhI0bceL97WMbLxBoZDNkqHvt656t345VKovSatXw/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_008_77c6bc71a61a.jpg)
 
 **周礼鹏**
 
@@ -104,7 +104,7 @@ E-mail: xilei2014@163.com
 
 E-mail: zlp197@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EePicD9v0Ov6pERWzmOfstHSEznAA7ELuTicFbRAvj3YovSKvdeVeuDzgG3vzy74v5a8yFoRDa0lUjf/640?wx_fmt=svg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_009_c6ff24bd981a.svg)
 
   
 
@@ -220,49 +220,49 @@ E-mail: zlp197@126.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuqYPQMdaHuNmEFPHpx9x5jiaWGyUkn3I5eLKuJ7zEbWia9G5rpTRlWsew/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_010_c08bc334a046.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuechnML7sVm5Cx17T2gpfXMHphxgibNIrtibHo07SwwHlVlvUDoibDv6jQ/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_011_752c98713619.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_012_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_013_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JugjAkgQnrZLPxX8mbl8AtPGsYHsIwCnUjmcPLqFJTp4jqccQVBuNSibA/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_014_00771b73a518.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_015_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_016_0b9b071d37fd.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_017_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_018_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuEvcyibu4RLZic1bCiaUTJQCGeNyGfhicw9ibcBMldiaeNdGrn5DibQknKrL9w/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_019_b665d5f4da25.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_020_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_021_0b9b071d37fd.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_022_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_023_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45ialEq7vZqRUk6uodWgF2JuIshheZ8OHHvpCZRSKGj1MHicEuU5ZgQviaDZibVeet4ZqbHrHcY9NRVbQ/640?wx_fmt=jpeg)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_024_b09e9cd711ac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_025_0b9b071d37fd.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45ialEq7vZqRUk6uodWgF2Jun4SQs74sfMsrlDns5jt62wScPrXOuNdX1rLAUwds8llJShtHVgicCIQ/640?wx_fmt=gif)
+![](席磊等_分布式多区域多能微网群协同AGC算法_images/img_026_0b9b071d37fd.gif)
 
 **长按二维码｜关注我们**
 

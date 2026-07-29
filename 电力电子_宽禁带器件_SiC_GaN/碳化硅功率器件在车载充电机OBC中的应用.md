@@ -89,7 +89,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/AhqAoEacibkYfYezS2agibeECwfXwmNpHr95N5Rao3jHCBUDgKUnh9jn47toib5ibiaFTyGQav20O6V15Dy6J3nvyrA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_000_0b4a2378f412.png)
 
 图1：电动汽车充电方式
 
@@ -101,7 +101,7 @@
 
 与直流充电桩建设成本高、占地面积大且需要配备大型变压器满足配电需求相比，交流充电桩有建设成本低、占地面积小且对配电要求较低的优势，所以使用场景更为广泛，更适合私家场合使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLSPXxRcnJZNdRvdw2rcZpVRot9wyDLDmmVict08FoCSVpcb6aEKJ8BLv6kYqHQia5NkLjWficRoSEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_001_908cc594261a.png)
 
 正因为如此，几乎每台电动汽车乘用车都需配备一台车载充电机，以满足大众广泛的交流充电需求。
 
@@ -111,7 +111,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/AhqAoEacibkYfYezS2agibeECwfXwmNpHr6tIoicJs2Cicpokc2Yh2b0D6KB0Itjib2EcU51catQPhzGQncguVxegFQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_002_f9557abcb395.png)
 
   
 
@@ -203,7 +203,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHribHmiaMP0mb2ty4tpVLHPcWfiboLeXIZnchsiaicoH3hny0pDTlK15cClDg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_003_0fb989227684.jpg)
 
 图2：两级OBC拓扑结构
 
@@ -223,7 +223,7 @@ PFC电路中较为常见的拓扑是Boost升压拓扑，分为传统有桥Boost 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHrCicvQpia6ltNic4cngNoDsUuZEbibvcgcsic4QaPwPXTiav5GjmsCFtT8ADg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_004_ff647203ed54.jpg)
 
 图3：传统有桥Boost PFC
 
@@ -233,7 +233,7 @@ PFC电路中较为常见的拓扑是Boost升压拓扑，分为传统有桥Boost 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHrPG2bTuZELtfSV4VFK94olA5dRufQvvEuGVKhV9MezkhsPdfibQPD3UA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_005_9dd4636e3d69.jpg)
 
 图4：交错并联Boost PFC
 
@@ -243,7 +243,7 @@ PFC电路中较为常见的拓扑是Boost升压拓扑，分为传统有桥Boost 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHriajwe4icJjQ99QPpVNqa90K1kyHlmqKcA1ic7J4s6HclwJCNNCD7urlEg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_006_9e94508e73fb.jpg)
 
 图5：无桥Boost PFC
 
@@ -251,7 +251,7 @@ PFC电路中较为常见的拓扑是Boost升压拓扑，分为传统有桥Boost 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHriaERSElmaBdjnMmK0Tj1d3oJOicuib3icmzEqmIRsTQicQzUOW6mUdEJZvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_007_dfcb442f690b.jpg)
 
 图6：双无桥Boost PFC
 
@@ -261,7 +261,7 @@ PFC电路中较为常见的拓扑是Boost升压拓扑，分为传统有桥Boost 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHrDFOf2ocanVHrRSJia8JibP9UKRw6YpNVibagu6IVIialTZcGotiaK8vBaRw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_008_f7553a3a79e6.jpg)
 
 图7：图腾柱Boost PFC
 
@@ -279,7 +279,7 @@ DC/DC变换器的电路拓扑类型主要有Buck、Boost、Buck-Boost、移相�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHroswB5ncNd8fdpxDbTRha5XHGSu3hGbMwQ9RMe4b3ETDiaVBdYzhia4gg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_009_a5c976eabcf3.jpg)
 
 图8：移相全桥电路
 
@@ -289,7 +289,7 @@ DC/DC变换器的电路拓扑类型主要有Buck、Boost、Buck-Boost、移相�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHr2eAic0lxkLa1ib8YCgVARcKDaGcgChCaW9egBR3KKxzzKf4J3Lo9QjZg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_010_0e9fb14876ef.jpg)
 
 图9：双有桥电路
 
@@ -299,7 +299,7 @@ DC/DC变换器的电路拓扑类型主要有Buck、Boost、Buck-Boost、移相�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHrZvazhZiaNIQSsZ9MjibXouM9zl7TfDnMM2Enbp7oxS1oLMVIGrxKuoyw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_011_c9458e25200c.jpg)
 
 图10：LLC谐振电路
 
@@ -393,7 +393,7 @@ DC/DC变换器的电路拓扑类型主要有Buck、Boost、Buck-Boost、移相�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/AhqAoEacibkYfYezS2agibeECwfXwmNpHria6Ks9F3NcDtA4icRlolewXuicRCJOeBRBJHAtMQpZ2nialRzhKsktZvVQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_012_7ee4f15a8d78.jpg)
 
 图11：车载充电机输入控制导引电路图
 
@@ -509,20 +509,20 @@ DC/DC次级器件会从目前的650V二极管转变成900V/1200V的开关管。
 
 可以预见，未来三相11kW OBC将会成为碳化硅MOSFET的主要应用场景之一。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskLSPXxRcnJZNdRvdw2rcZpGaZ3kGnTeuZvdXPYQZZLPwVlculHqgG931MrmibsDV2hEH09YicbDIww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_013_cefc55b79612.jpg)
 
                                                                    双向OBC拓扑简图
 
 结合新能源汽车行业的发展趋势和碳化硅功率器件的特点，碳化硅二极管和MOSFET已经在OBC应用中占据一定市场份额。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_014_97a113d44f31.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_015_d2267009225f.png)
 
        爱仕特SiC MOS具有更快速开关响应、更低损耗的特性，完全满足车载充电机对高效率、高功率密度、高可靠性的要求，有利于加快光伏产业发展，助力双碳目标的实现。随着新能源替代加速，逆变器向高效率、高功率密度、高可靠性等方向发展，具备高功率、耐高压、 耐高温、高频和低能耗等优点的SiC功率器件将迎来发展新机遇 。爱仕特在自建晶圆厂，将推出更多优质产品和服务，携手上下游产业，加速能源结构转型和碳中和进程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_016_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅功率器件在车载充电机OBC中的应用_images\img_017_770831a45f05.png)

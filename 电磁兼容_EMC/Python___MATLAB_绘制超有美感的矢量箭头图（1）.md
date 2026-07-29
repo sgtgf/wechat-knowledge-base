@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/faZDSLc\_XTc6b6uze9KkMg](https://mp.weixin.qq.com/s/faZDSLc_XTc6b6uze9KkMg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0oTUiaJxSpWziaUNKYh50mUMLicny4Vt6y7oe4IG8gXiavicWgvKDGOuoDrtYyx39YVX2CE0nzq9CbaCHTx9wKAouQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量箭头图（1）_images\img_000_78f456ebaaa4.png)
 
 导读
 
@@ -35,7 +35,7 @@
 import numpy as np
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpWziaUNKYh50mUMLicny4Vt6yY8PvoVyibw7UlLhOibsDzkpkKRUF3w3NMH9ViabqXfGZH0N3jrRpM9Fww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量箭头图（1）_images\img_001_ec83f1a85e1b.jpg)
 
 * * *
 
@@ -47,7 +47,7 @@ quiver + `meshgrid` 同样可以完成，配合 `colormap` 和 `quiverc`�
 Nx = 30; Ny = 30;
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpWziaUNKYh50mUMLicny4Vt6yMSs5KW1Ing0ZYojwAUPv5lcUrXqTwBUvHqicic0RqNyhd0ia4cONVeVaQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量箭头图（1）_images\img_002_b507256d959f.jpg)
 
 * * *
 
@@ -66,13 +66,13 @@ Nx = 30; Ny = 30;
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpWziaUNKYh50mUMLicny4Vt6yfwaLDCY1icUA03NUAxG04vmCfqnJc8iauhkAicL5J2ENibiaqcjOTSaQGiag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量箭头图（1）_images\img_003_e0915a1ca57e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpWziaUNKYh50mUMLicny4Vt6yV0Gib5q80P00SlTagYge7FHm2iaBzujBtub3OVKkROfPib9OmTnzRDK3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量箭头图（1）_images\img_004_6a5a290cb2bb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpWziaUNKYh50mUMLicny4Vt6yL1JSsbuOq3knHzcrpuEaax2EDb1r3qPy2unuRTbohGiaG0x90KAMfaw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量箭头图（1）_images\img_005_e464ab4a54b6.jpg)
 
 * * *
 

@@ -25,15 +25,15 @@
 
 SiC MOSFET的开通原理及过程见图1。图中V1，V2分别为SiC MOSFET上、下管,Rg-in1,Cgs1,Cgd1,Cds1分别为V1内部寄生的电阻、栅源电容、栅漏电容、漏源电容，Rg1为V1栅极驱动电阻，Rg-in2,Cgs2，Cgd2，Cds2分别为V2内部寄生的电阻、栅源电容、栅漏电容、漏源电容，Ucc1,Ucc3为正向开通电压，Ucc2,Ucc4为负向关断电压，Rg2为V2栅极驱动电阻，L为负载电感，C为母线电容，Udc为直流母线电压，Il为负载电流，Uth为开关管阅值电压，Ugs2，Uds2，Id2分别为V2的栅源极电压、漏源极电压、漏极电流，Ugs1为V1的栅源极电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLEVqx0uFicicuddLNouquVjzHFJoia8GagZ0iazdyxEVkrtVYiawSURh3o2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_000_f5ea6f809003.png)
 
 t0~t1阶段 :初始V1，V2都处于关闭状态，在t0时刻，控制器输出跳变3.3V的方波给V2推挽放大电路，Ugs2开始升高，通过Rg2给下管输入电容Ciss2(Ciss2=Cgd2+Cgs2)充电,在Ugs2升至 Uth前,Uds2保持不变，漏极电流Id2为零。若忽略栅极寄生电感，则计算表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLPvqgYR5xqcbY87gCwgcUBTXVuDVTd4cOhyXGor6yyguiaiaumPsXWAVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_001_0f861c237941.png)
 
 t1~t2阶段 :t1时刻,Ugs2升至Uth，下管开始导通，此时Id2开始升高且主要是沟道电流，Id2的变化在L上产生压降，导致Uds1迅速升高，造成V1的寄生电容Cgd1被充电，其充电电流在Rg1与Rg-in1上产生了压降，使Ugs1增高，有可能导致上管栅源极电压超过器件的阈值电压，造成两开关管直通。其中Id2上升阶段计算公式与Uds2下降计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLM5npZxmBb03zdQz9MRjjKunqicial8sHrQ4E6hkbHObn2tZjpT4CpbuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_002_325ce2c581b0.png)
 
 t2~t3阶段: t2时刻，Id2升至IL,Ugs2暂时保持不变，此时出现一个平台期（米勒平台）。在米勒平台期间，栅极电流仅给下管米勒电容Cgd2充电。
 
@@ -51,13 +51,13 @@ SiC MOSFET的开关行为与驱动电路紧密联系，通过对其开关过程�
 
 所设计的SiC MOSFET的驱动电路主要由信号隔离电路、驱动放大电路以及抑制串扰驱动电路3部分组成，其电路图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLibllhzibnakSPh9oMicwoctowQv1G7FQYMvkUYrASOm9d8J2vprWYREBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_003_f5fb74610f9c.png)
 
 **3.1  信号隔离**
 
 驱动电路信号隔离常采用光耦隔离、磁耦隔离、容耦隔离3种方式。表1列出了3种隔离方式所对应的隔离芯片及参数信息。三者隔离电压相比较，容耦隔离芯片隔离电压较低，所采用的SiC MOSFET功率器件漏源极最大承受电压1200V，隔离电压2500V(rms）满足要求；容耦隔离与磁耦隔离芯片的传输延时相对较小，但磁耦隔离芯片共模抑制比较低，抗干扰能力较弱；三者最大脉宽失真相近。综合考虑3款芯片的各项参数及布设电路的复杂难易，最终采用容耦隔离芯片IS07221C对控制电路与功率变换电路进行信号隔离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLBuqXibFenXx94bpc2XCbVolDTZSrc9eR6huSVfsZU17tUy8F8QiavOEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_004_18f579a91d69.png)
 
 **3.2 驱动放大电路**
 
@@ -65,7 +65,7 @@ SiC MOSFET具有较低的沟道迁移率，为使其通态电阻降低，需要�
 
 由第2.1节对SiC MOSFET开关过程的分析可知，驱动电流Ig对开关管栅源极电容Cgs与其米勒电容Cgd进行充电。则Ig计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLMejwh43Ng4ibkDPDLrHyw5fYnNb3P8MG5fb0upmGrB8ibFWbtTbBhZ4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_005_d6ceca8b75ec.png)
 
 为了提供足够的驱动电流，最终选用输出峰值电流可达9A的IXDN609SIA驱动放大芯片。
 
@@ -75,7 +75,7 @@ SiC MOSFET具有较低的沟道迁移率，为使其通态电阻降低，需要�
 
 外并电容抑制串扰驱动电路（开关管栅源极并联外部电容）如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLeJdXQxsQlfDV81OtiaWcD73LiaxmrV4Bt6Dc7KZWm0tNXpWuaicXITg9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_006_ce43d65553b1.png)
 
 该电路工作原理为：V1，V2处于关断状态时，控制器给V2一个开通信号，V2逐渐导通，V1的漏源极电压快速增大，导致Cgd1被充电，Cgd1的充电电流通过开关管栅源极并联的外部电容C1进行分流，减小了栅极回路阻抗，从而抑制V1的正向串扰电压，防止两管直通。同理，在V2关断时，上管米勒电容Cgd1的放电电流通过C1进行分流，栅极回路阻抗降低，抑制了V2关断瞬间引发的互补管的负向串扰电压。然而此方法增加了等效输入电容Ciss，增加了充放电时间，减缓了开关速度，增大了开关损耗。
 
@@ -83,7 +83,7 @@ SiC MOSFET具有较低的沟道迁移率，为使其通态电阻降低，需要�
 
 为降低外并电容抑制串扰驱动电路的开关延时，减小开关损耗。在采用-5V负向关断电压基础上，提出一种抑制串扰驱动电路的新设计，电路如图4所示。该电路由P沟道MOSFET,PNP三极管、肖特基二极管、外部电容、驱动电阻组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLdUB8HIKRXTddmYuyUGYIwibHOSmQvR7nYCa8JO3dao2T7kzBCLp3fpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_007_fab7003d1e62.png)
 
 该电路工作原理为：V1，V2处于关断状态时，当V2开通瞬间，V1的漏源极电压上升，上管的寄生电容Cgd1被充电，致使驱动电阻Rg1上产生压差，三极管VT1发射结正偏开通，外部电容C1接入栅极回路，Cgd1的充电电流通过电容C1分流，降低了V1的正向串扰电压尖峰。控制器在给V2发出关断信号时，给上管P沟道的MOSFET一个开通信号，持续时间约113ns，此开通信号同样经过双通道容耦隔离芯片IS07221C进行信号隔离，当上管的米勒电容Cgd1放电时，因为上管P沟道的MOSFET开通，外部电容C1接入栅极回路，减少了回路阻抗，抑制了V1的负向串扰电压尖峰。
 
@@ -93,15 +93,15 @@ SiC MOSFET具有较低的沟道迁移率，为使其通态电阻降低，需要�
 
 当开关频率设为100kHz，设计的SiC MOSFET驱动电路的上、下开关管的开通关断驱动波形如图5所示。其驱动波形高低电平分明，上升及下降沿陡峭，开关速度快，驱动电路开关特性良好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXL0tWtJ1KSuUp3eCPibUnm05YpsclIACwibbicykibRANhTm4SsM1UdZP7YQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_008_e94dc4f8e5ad.png)
 
 搭建双脉冲测试实验电路，对不加抑制串扰驱动电路（栅极回路中只有驱动电阻Rg）、外并电容抑制串扰驱动电路、新型抑制串扰驱动电路进行对比实验。其中在双脉冲测试实验电路中，L=400μH，Udc=400V, C=470μF。不加抑制串扰驱动电路的器件主要参数为:Rg1=Rg2=10欧, Ucc1=Ucc3=20V, Ucc2=Ucc4=-5V。外并电容抑制串扰驱动电路的器件主要参数:Rg1=Rg2=10欧, R1=R2=10 欧,C1=C2=10nF, Ucc1=Ucc3=20 V,Ucc2=Ucc4=-5V。图 6~8分别为这3种抑制串扰驱动电路开通、关断过程实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLa4mIXiavby1GFB9IibH6c6LVDsMKusYqU6CrfkeRIP4S9UlymgHN0ASA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_009_0e1b2840531e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLPAP8WM8MNTpJzPp1cPPEGhj96SFMSYHZfeRTrXpvOOcmMIMbaw1ibbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_010_cc5a850a6640.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLjSGPCGrmLsOHxVJCZSuGryk9KY8rSsyDOe4SjubxSJxkdk0das7lEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_011_c85e02900142.png)
 
 其中图6为不加抑制串扰驱动电路实验波形，图7为外并电容抑制串扰驱动电路实验波形，图8为新型抑制串扰驱动电路实验波形。
 
@@ -113,7 +113,7 @@ SiC MOSFET具有较低的沟道迁移率，为使其通态电阻降低，需要�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_012_318ead5d55de.jpg)
 
   
 
@@ -123,4 +123,4 @@ SiC MOSFET具有较低的沟道迁移率，为使其通态电阻降低，需要�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_013_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_一种新型SiC_MOSFET驱动电路的设计_images\img_014_84aa944feb13.jpg)

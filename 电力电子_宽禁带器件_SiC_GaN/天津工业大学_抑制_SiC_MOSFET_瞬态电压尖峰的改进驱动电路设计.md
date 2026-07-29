@@ -11,7 +11,7 @@
 
 **关键词：**碳化硅金属氧化物半导体场效应管；电压尖峰；驱动电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaGjDbONBnkY3YTFICBgcbY3OicWWVvHtoHKiaiab2bx4CYdFXGdrP1cWFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_000_14291be5bd06.png)
 
 近些年，随着电力电子技术的发展，航空、电动汽车、新能源发电及石油钻井等领域对电力电子变换器提出更高的要求，即实现高压、高频、高功率密度。因此以SiC MOSFET 为代表的宽禁带半导体器件因其高开关速度、高开关频率及高热导率等，受到人们广泛关注。然而随着 SiC MOSFET 开关频率及速度提高，电力电子变换器受电路中寄生参数影响加剧，关断瞬态电压尖峰更为严重。瞬态电压的尖峰不仅危及开关管的安全，也会降低电力电子变换器的功率密度，加剧电力电子变换器电磁干扰。目前现有抑制电压尖峰方法大多牺牲了开关速度，从而影响 SiC MOSFET 开关损耗及变换器效率等。
 
@@ -19,11 +19,11 @@
 
 **1\. SiC MOSFET 瞬态电压尖峰产生原理**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaOCdQ3eLkic5gLxzWHW5KeCmRlFhkYMdc7eg6sGOzYmyodUnFEX6kAIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_001_1bf99faeb568.png)
 
 为了分析 SiC MOSFET 瞬态电压尖峰产生原理，采用如图 1 所示测试电路，图中：Vdc直流母线电压，R 驱动电阻，C 支撑电容，L 负载电感，SiC MOSFET 及 SiC 二极管 D1，考虑 SiC MOSFET 关键寄生参数为：栅极驱动电阻 R1，栅极引脚封装电感 Lg，源极引脚封装电感 Ls，漏极引脚封装电感 Ld。为了方便分析，Lg、Ls与 Ld分别为SiC MOSFET 各引脚封装电感与相连接引线电感之和。与此同时，根据 SiC MOSFET 关断特性，将关断过程分为 4 个阶段，图 2 为关断过程示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaHmnCoMseawFePmd7SRIUbCfZG4l9yMZWaRYnNvAHg6hZZfZib8iaUbSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_002_f09d421ffcd5.png)
 
 SiC MOSFET 关断过程，\[t0，t1\]阶段，驱动电压为低电平，输入电容通过驱动电阻 R 和源极电感 Ls放电，此过程漏极电流 id和漏源极电压 Vds基本不变，栅源极电压Vgs下降。
 
@@ -37,7 +37,7 @@ SiC MOSFET 关断过程，\[t0，t1\]阶段，驱动电压为低电平，输入�
 
 由分析可知，抑制瞬态电压尖峰问题最传统的抑制方法是增加驱动电阻、增加缓冲电路和优化器件封装结构及功率回路寄生参数。增加驱动电阻，能够抑制 SiC MOSFET 尖峰问题，但同时会增加开关过程损耗。增加缓冲电路对关断电压尖峰有好的抑制效果，但由于缓冲电路存在无源器件会带来额外损耗。优化器件封装结构成本较高且一般耗时比较长，PCB 布局优化则需要考虑大量的因素。另一类主要是采用新型的驱动电路进行电压尖峰抑制，该方法往往成本较高、控制复杂、实现难度大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiag8Tcpx1oGzBy7HPEGK1PvTOxGjD980H2P8rDTXonBia0F3BTUfSlziaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_003_2c3bd6c5ef8e.png)
 
 综上所述，为了尽可能不影响 SiC MOSFET 开关速度、增大器件开关损耗。本文基于有源箝位电路与注入栅极电流抑制电压尖峰方法，提出一种在栅源极通过控制三极管开通与关断的辅助之路，注入栅极电流方法对瞬态电压进行了抑制。
 
@@ -49,13 +49,13 @@ SiC MOSFET 关断过程，\[t0，t1\]阶段，驱动电压为低电平，输入�
 
 图 4-图 6，分别给出了传统采用 RCD 抑制电压尖峰波形、典型设计驱动电路抑制电压尖峰波形及本文所提出的改进驱动电路抑制电压尖峰波形。从实验结果分析可知，本文提出的改进驱动电路与传统及典型的抑制电压尖峰方法相比，关断过程电压尖峰的抑制效果相当。但是采用RCD 吸收电路会使器件开关过程产生额外损耗，导致关断损耗增大。典型驱动电路通过控制 MOSFET 开通与关断的辅助之路完成栅极电流注入进而抑制了电压尖峰，该方法由于采用 MOSFET 控制元件，需单独控制信号。因此基于以上所述，本文通过对驱动电路改进，如表 1 所示，实现了对电压尖峰有效抑制，且采用改进控制三极管的辅助支路结构相对简单。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaTBcMp4Ybpjm6l5J5LkxN9ONOEkZwmLZHrwxX5yvBCGWvU97W9qia0jA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_004_96e36ac4fff2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia7O51y2YWC4jVsuG6WZ5JAhmengiaZw2icy2kBODOEicqibnAhhK7roP5dQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_005_e7b498d07b8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaLuWmUbxFD5QI8lHTg4ruH5mKgTh4jsHaJlLHjfC9p8PF0PqlS5Jvkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_006_2eff4803373b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia7ngh0uc2ylr8s0WMj4tbNt5PVWP115eTgJ7ml0yG2qjN73Adia2dzQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_007_1bca17da5e45.png)
 
 **4.  结束语**
 
@@ -63,10 +63,10 @@ SiC MOSFET 关断过程，\[t0，t1\]阶段，驱动电压为低电平，输入�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_008_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_009_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\天津工业大学_抑制_SiC_MOSFET_瞬态电压尖峰的改进驱动电路设计_images\img_010_84aa944feb13.jpg)

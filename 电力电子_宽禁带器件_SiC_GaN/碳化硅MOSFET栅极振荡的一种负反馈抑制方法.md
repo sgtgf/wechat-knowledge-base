@@ -21,83 +21,83 @@
     
     （5）与传统的栅极驱动方式(WOS、PS、AMC)相比，在测试的工况下，提出的NFAGD提高了整体开关性能，并使感应出的栅压扰动减小。
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHxP5GXq1Trk1iaPWqrARz10PLdiaYDKwYynCuq5sXUUH53sNsx1D0Vflw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_000_350cdb3ab67c.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHlpoiaMIRiaL0ESnW9XpSCSzVvrNOicF0ibWbarovico4N3mQvSNvDHPUrkg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_001_9cf9a36c3a57.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHqpl8ogNCuRZklS4a1O9R6W9QpNmnPXibIlPGc6icicMgqicJICcLhucibmA/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_002_618ff7b2fead.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHziaBiaRwhYIqeBPSVUOwsyjLRuvK8aicofffEsGhFj7qiaibibx83ruIOwrQ/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_003_7ab363155e37.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvH1uJjHxjaP7YNia2ib63OZGMUGVoKxib4nXgUwj95Rn0OHhSg1PEibQicA9Q/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_004_1229fc4d0cb2.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHj4IkvuX7joYVVHNPTMHDzHAwgFviaVQVaLLxtfPhatrvribdS6u8hEmA/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_005_b06dec76e4ec.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHqT5bz3NtmTcfwJUOQ3xaxJjI56DrXwibU9tznrTkxQGSV8ZzMt4jm7g/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_006_28f76eceb1c1.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHaibZOZzX7dDVYNkthelwicvCdMnicbzkO2Z06zxqlO7ejLtNxqiaw6ibSvA/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_007_58cd43de0b3d.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHvQE95mlkelyl9lcISZkpbxL5XqyNUBMOBUCyGIY0ic5OGsRagu7qPFw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_008_8df15faf401f.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHCIRiaiavqCtqJztsc2bJfUhOUMBt3Q0iaicZpSTdPSag1QLOpvhjM3uibIw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_009_5c0b2335520c.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHssFichcLZic7LDb5ibJwiaia32l7LpXj9tCSMAAemVHsakVNtLibL8MwsXiaQ/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_010_4a57f90f176f.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHah4DTGhmqwHLvia5LgfGgtFFj5vEkeWibesrxGTBRXexHGHibibzrWpblw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_011_a3ce438ed334.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHMW7XeN4l7REnv1KJVwnKU62iaPw8vLgCibk3eZHdqjGJYEc09knzxXiaA/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_012_bac239ce2d35.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHZaCMV7IEfK2SopD6ibmDGlwOJQAf8HqxgoNlUIibl5rxvEl8cKLrjG9w/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_013_74d0897984e9.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHlvjqAPkIhGKSiakDHpwamXicBBmib8wIMbnXeTicM650c16UsiaSPMwvUhg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_014_7508ace1acc4.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHZmq9QAPVfuk5JktVC4N77iaOukL5Zn42EiaLtc5233SKC2KUEPgA1GzA/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_015_f47beb38ac82.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHjUlpXFYUt3lPKODnM8gwdwTAlVun1DTGOhTXvRkLWgj6OgcGJh7E1Q/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_016_1b043a0c20a8.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHh1ZTL2nvbG2FkyicpYL2RVtvMp68u2ZpjF0y03tpamtbL6HoSB9Nabw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_017_774a0da8c4b9.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHtUPuR7Ly8xrXqs5VNItaclJQRLb9gY0iaWelfq1P3WypT1KE4ibI2j9A/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_018_cbc57a43f4f3.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHzkcDm144ofdtuyM1xoae2bfU9cCxwtkfGPNzBoY1ZsDPHTykaucNTg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_019_684345b6842b.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHU1Z0IYnK6NX3rHMXOTaoC0ObzzGySmOd18teXuWevPQkcBBzfIEiacQ/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_020_4fc59a9555e0.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHCa15Ihhf3SibxG01VwlWD7pZy2ZibFC7iaGhBEVUHjTQdBwOKZibAbuRjw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_021_62af4c17e9f8.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHiaicFTsCe7ibDqEiakp2TmVeaqbpJUVRn3VMlDj0TkxIWnjvibPUQewkFicQ/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_022_9b6d8dcca5de.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvH8U0Bdfx1kZLtITjDhep8KysZHwJxiadjGv0xib3ibWNbCmaor767Kt5cg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_023_569776dabafa.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHSdXsVVjgib5cpM69jThCvNujADiaFZOq0eWAJVibznL5MXTPKXrYmGq4Q/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_024_7ecd0d3fc23d.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHW8ZN5ib4bN4ZDVuZzMWz1uQD8HwPZEiaokCnRjD5IneXfTp1bia6BdKnQ/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_025_bc36d0816208.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHjTKNu7T3ibzzViaOp1DV0LkTfHNmDZEusXtjY2rEHCQmcx9rq9vAOCYw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_026_77d1ea7076db.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvH0dtJI3yB4pWCYibEjqydGhqWXJUicUtMeibNUMxvpaDPCMWGCGlFH4Edg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_027_d01458b1cb00.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHmmWQFriaFRmX0ztno1AbWDpd7ZyzadjmxQgeZ7xC5b12ay9uk9VscsQ/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_028_4610268a7e8c.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHN1ACsyneMGsGn7tgWrhDGoKEFF5jHQbH3ZAB768IeZIDRH4ic0FPibdg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_029_aa07fef1f7a6.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHvIrBcMsnGZiabiaC630wptXuutp94WMXpnsI9x7HvAsuicvkYzhee20uA/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_030_eefc5afb0232.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHA0icQue1lMXJyZpDXfeSiahuAve651wbpeXZuKZMDboZB8ECl1Fbsk9g/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_031_8b21cd7f3ca7.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHSx0ibkoPjgcBkg6eVP48MlWRkI3ibhWwAnzKp4DIpa2EhLJmzicUEQLsg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_032_0b49cee22a2f.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHdkqbZugp7CibUs3RmWTyBhPXq5kUke1CWthxM3WicLqvrIq3sj3RcicKg/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_033_e88d69c46000.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHrqPSHLdUAkZiaJ6bibvLj9VuuYIL81KLjMJNiaufxTibQX6gL5gtfN7CWw/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_034_6c0286899abd.jpg)
     
-    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHB2hS6gic3lqfRZFGP7ce9NaI67Pbd6E6YqGnicLvKcGIGTO02NIZbXug/640?wx_fmt=jpeg&from=appmsg)
+    ![北京交大邵天骢讲师：碳化硅MOSFET栅极振荡的一种负反馈抑制方法](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_035_90357b2863a5.jpg)
     
     # 专家简介
     
 -   #   
     
-    ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHG6nbBHxskqBOicnM45DsSWMXCZ3PnV8Y8oVjp6ib3PyX3tyL2TmbjN5Q/640?wx_fmt=jpeg&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_036_49b91847ac81.jpg)
     
 -     
     
@@ -202,7 +202,7 @@
 
 ### 总结
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2AHntMbvQIYNQiaEdrNo5etbkC3QJ3o2O4hn1DJCh8zugXzM7Rk1pdia1mwpLELiapjsoicyehdEMrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_037_6c42ed70ac82.png)
 
 **结论：**
 
@@ -214,10 +214,10 @@
 
 -   **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
     
-    ![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tVNEZCYzibEuEp0jslD5YgsMOCrh4LFECHIrm1iaicVTsp8oUDX0wmZXWw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+    ![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_038_45dd6d94e67c.jpg)
     
         专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
     
       加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
     
-    ![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tP5Ue1QyQf47FNll3YJicibWzsyictZ3P6Xic6ZIic8F79JQib2zo3iaajvoBA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t9r8cuqibymBcVWP572JV2GmdyuiaGu40mPmHWn9khPkjLdmKjKCl4jVA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+    ![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_039_f1cfa239d564.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET栅极振荡的一种负反馈抑制方法_images\img_040_98a20b037205.jpg)

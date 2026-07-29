@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/T2q8YyhYIgWt8Rm3bYczsw](https://mp.weixin.qq.com/s/T2q8YyhYIgWt8Rm3bYczsw)
 
-# ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+# ![图片](服了_要么缺芯片_要么缺PCB_现在连阻容都缺___images/img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](服了_要么缺芯片_要么缺PCB_现在连阻容都缺___images/img_001_cfc30a4da041.gif)
 
 2025年下旬，存储芯片率先开涨。  
 
@@ -14,7 +14,7 @@
 
 “哥，0603的10k欧姆电阻，还有那几颗常规容值的电容，现在要么没货，要么价格翻了三倍不止……”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacYUGv1Lror5Ly2RH9tPjyr1FjVH9qDu37IXb9bIxoLKcL7Uibc8nibVp38M7kSr7dT3GatB790HkblEo6uLt04td1RvLG8o0zRI/640?wx_fmt=png&from=appmsg)
+![](服了_要么缺芯片_要么缺PCB_现在连阻容都缺___images/img_002_68e700acc34f.png)
 
 我当时整个人都愣住了。干了这么些年硬件，从来没想过，最普通最常用的阻容都缺货涨价！
 

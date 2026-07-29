@@ -5,39 +5,39 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAc1ibt4htsicsrc4FloQthgn6Bu0FOlfqM4xODib5vLKic8SuYWhlRGVzgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_000_129af0cd7561.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAXjUnvJ3L7fg0AicAbbo81fA5X0DiaLl5u8KVqNO2POHT2g7ZqmWW65xw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_001_5231fbc390f6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfA6vhAbnG8zursleHhEhd2vOdYpVF5W96iaoDN3lcmAP58BDPVM2z7DbA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_002_0d7abe76fa13.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAHMF6ND4qYfWPibsNibvSQQjdMb8iasYia0dnvT1WsmmY44sBjiaV8VxKib0A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_003_f92facd8391b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAeHNiaZtFSQOMtVzib67dhpgJEpd7Yf76HhKNYibL2jupZao7f6AkXyxzg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_004_bde997e752ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAQURWVk1IUsWUoicpwmIDfq7GUxiaNbjPmM4DhK5CKIo9LFIZeXLbZxSg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_005_f319d36933d1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAclOj6o9u4wPN1LbZqU9zib0R0u5P1kDRYDibJEXeGAVIfFruXToVBcsQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_006_f9234e5353b0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAGYdbAibpRZdHicE4hnN2bPd4rUSYcscOakCCcTjnOBB5tzEI8XHbLwyA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_007_cc9f52d97cfc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAM6IPbttMGHmBkF1jiciamF19tfp6gA3x3qX3kNQib9uIP6KBddvXTfZbw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_008_377b2148ca6f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAs5hYraCumweXNWswCZguC2548PHse2NXmVytepYiaPoVlF3A9SBnY1Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_009_e56a20acda9d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAtmjomzldmSqXrm2yB17dynQDNctmGNvg3UKeknjQjkXwoibHtkdPXEw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_010_bf78573b6ad2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAZ1OwpS19GsWwXmfslafoAWJ5YXwF05Tl64lsBaQlCTic79iab9ArLDjg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_011_65815b6a946b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAEFVFWf6jpDicf2Z8oUMMvBXGQcEBONNLAdQEwlroWjQGTSdzbLSiajag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_012_036a1c011c9f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAM7NDiaXE4znpKLHh2ibcAibXe3O2L4Go6e5QVEcueManlPniaf62cvo68A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_013_f314e77af6a1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAkWiaTTtjGOluJ34q99pXs7eJfT0ByqVya21j8kh8QxMl5hdtFvhv6ZQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_014_98b8a4ac2e37.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfA1SMXoMLAq7oZ91X9ib4qpKwuUKyEcLQZYR5VmwNQLl1J44s2S3Nibabw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_015_7f57b4bb36f8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmPv3NElBOYmHWGkWuVKCfAglbnTB8ick5buGAWB8OZ8ScvZgFDUxHSRSQRjkxEic8vWva0JzaIkjLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_016_7e2174204a7d.jpg)
 
 公司专注碳化硅功率器件研发和生产，产品从6寸碳化硅裸芯片-碳化硅MOSFET单管-全碳化硅功率模块-电机控制器-一体化动力总成。
 
@@ -51,4 +51,4 @@
 
 声明：此文是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                           ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                           ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅器件产品（Sic_Mosfet_模块_电机控制器_一体化总成）_2023版_images\img_017_770831a45f05.png)

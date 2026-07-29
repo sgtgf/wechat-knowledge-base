@@ -5,11 +5,11 @@
 
       SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件具有更高的开关频率和使用温度，能够减小电感、电容、滤波器和变压器等组件的尺寸，提高系统电力转换效率，并且降低对热循环的散热要求。在电力电子系统中，应用碳化硅MOSFET器件替代传统硅IGBT器件，可以实现更低的开关和导通损耗，同时具有更高的阻断电压和雪崩能力，显著提升系统效率及功率密度，从而降低系统综合成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheyyLKwolMbu5kGuqsQFvQSL6EEIloNjSReytmDUia5JLtcZ8pcxrw2Iw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_000_670d9e0ccf55.jpg)
 
       在电力电子、电动汽车、通信设备等诸多领域中，SiC MOSFET彰显出独特的优势，已然成为工程师在设计系统时至关重要的选择。本文通过对SiC MOSFET简介，以及在选型时需重点关注的参数，为刚入行的工程师朋友呈上一份可靠的学习与使用指南。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahe9vcibaxB13rTicrnyyByKEcuWyVdFSJIJibgiabl6erXkkmKuhdGc0914w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_001_3a8b5ae685f0.png)
 
       深圳爱仕特科技有限公司，是一家专注于第三代半导体碳化硅（SiC）MOSFET芯片研发及功率模块生产的国家高新技术企业、深圳市专精特新小巨人企业，也是国内第一批碳化硅功率器件量产上车的高成长领军企业。
 
@@ -23,7 +23,7 @@
 
 SiC MOSFET的耐压范围目前已经达到了3300V到6500V。‌ 碳化硅半导体材料因其优异的物理性能，在新能源汽车等领域受到了广泛关注‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahe7TSETB8hWkMicvAskag9FfcEYoedYLtX0TXFnY5E28osot1KEE5GHdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_002_0932e6121e0a.png)
 
 具体来说，SiC MOS管的耐压范围涵盖了多个等级，包括650V、1200V、1700V、2000V和3300V等，最高耐压超过6500V‌。这种高耐压能力使得碳化硅MOS管适用于各种高电压应用场景‌。  
 
@@ -33,7 +33,7 @@ SiC MOSFET的耐压范围目前已经达到了3300V到6500V。‌ 碳化硅半�
 
 **SiC MOSFET封装分类：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahemzbAMWKg3jWicTmtAMrluAfapAremOdHU7BT3TmRaKN0bQibUolhwxew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_003_c5a7412588f3.png)
 
 按照安装在PCB板上的方式来划分，SiC MOSFET管封装主要有两大类：插入式(Through Hole)和表面贴装式(Surface Mount)，还有一种类似模块封装的SOT-227封装。  
 
@@ -47,11 +47,11 @@ SiC MOSFET的耐压范围目前已经达到了3300V到6500V。‌ 碳化硅半�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheHRlTeCuteFCcdia9z13blNO1bHlUrlcBuoO32eDIiaugNMjFxd8W7W2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_004_8da20ad11471.png)
 
 TO247-4L和TO247-4封装图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahebv0yrYuTan9mTia7yHAXHF6qZ54o6cWRmOGmSxFfGybKLKbpoe90Hog/640?wx_fmt=png&from=appmsg) 
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_005_5212e474bf5e.png) 
 
 TO220F和TO247-3封装图
 
@@ -65,11 +65,11 @@ TO220F和TO247-3封装图
 
 贴片封装主要有：DFN5×6、DFN8×8、TO-263-7、TOLL.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheqTUOraDGtergibxIYicCoXXEcAhwF10oJadZxia0DTdpCOx4ZrNmZq5JA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_006_8840b0cf981d.png)
 
 PDFN5\*6和PDFN8\*8封装图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheUslu0Y03K3wgHs1lW404TS7DNA3A51yUtE0kvlicm5eVNfUibbmtlhnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_007_d1c41230a33b.png)
 
 TOLL和TO263-7封装图
 
@@ -83,7 +83,7 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheAySWeLWxWCNmdnRs2rxeexsyd4aYhxBYkRfoCxiaAAbXk4AS6Olica2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_008_ade6d3d6fdc1.png)
 
 SOT-227封装图
 
@@ -107,7 +107,7 @@ SOT-227封装图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahericHMEZ9S4s3hb4PxiaFicp4viaEewXE2dd8pn7AFINDkB0eEtNTYzSzbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_009_7da849ea58fb.png)
 
 **SiC MOSFET产品选型：**
 
@@ -145,30 +145,30 @@ SOT-227封装图
 
 此外，工程师还需高度关注器件的可靠性、供应商的可靠性以及器件的实际测试与验证情况。由于芯片供应商规格书里的测试是在比较理想条件下进行，因此在实际设计产品时，所有器件的性能要打个8折，乃至6折，即留有裕量。比如ID=10A，使用到0.8xID=8A即可，只有这样，才能确保所选器件能够满足设计要求并稳定运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahemrLP9uib4t9vEOWiaBBnxM9fqKSbuZ2DAnTf3Fv9EJ1SV9q9JAdOZDPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_010_ce33fbac1c23.png)
 
 **SiC MOSFET产品应用：**
 
 碳化硅MOSFET具有高频高效，高耐压，高可靠性。可以实现节能降耗，小体积，低重量，高功率密度等特性，在新能源汽车、轨道交通、智能电网、充电桩电源模块、光伏逆变器、光储一体机、工业电源及军工电源、电机驱动、白色家电等领域具有明显优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahexAvg88uATmaGqT7q69Z3oTgMmLHOSYmM1g2vPbvmxcARskBP9XYmHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_011_1109deaa9c62.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheXnldlGsjphMxVZ28qyCrQQPTptpoO7KlHxNP43dmr1J80BPLN8eDBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_012_2b47d54b8ec0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahehqncNJRYMJcBQP3jFpZmD1LcnKrmWDbKwf8QUd4MicvqGJib5uXvIrDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_013_1c4b17a16cca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahe3vAZRQzM0phBMIKMJSn6tTZZa67CPwwAckofaXGDc6glUJeibjP8UDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_014_b3c25302380c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0ahe0n4VlyPggA19AWZje9sdMx7yJYEkHibLj70mQZrwlPicy0C48XB9ibZYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_015_4522db94a590.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmDYYXiasPJpfmXicvzYy0aheSDX5hhVmqlP8DDTxkjpDZzk4jJiafRVre2NiaerAs91cico9ibhWV9x4jQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_016_1318ebbf648e.png)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_017_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_018_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFFE产品介绍_产品选型及应用案例_images\img_019_84aa944feb13.jpg)

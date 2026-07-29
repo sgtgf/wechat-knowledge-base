@@ -22,7 +22,7 @@ VDD：D=device，表示器件的意思，即器件内部的工作电压。
 
 VSS：S=series，表示公共连接的意思，通常指电路公共接地端电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialbkpiaeuDzsgLOfPdo8KXZd4YzJ8of79wUrmlj5oPpHHpQfksuprFPjQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\VCC_VSS_VEE_VDD这些电路符号你能搞清楚吗__images\img_000_360d9c8faad4.jpg)
 
   
 
@@ -58,7 +58,7 @@ Vee发射极电源电压，Emitter Voltage，一般用于ECL电路的负电源�
 
 Vbb基极电源电压，用于双极晶体管的共基电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhial3hXZa9vSBl9BCKAeTuw3juTwmuy6cJrckMoCX2twwCrcIokib7JTojw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\VCC_VSS_VEE_VDD这些电路符号你能搞清楚吗__images\img_001_18067a080b8b.jpg)
 
   
 

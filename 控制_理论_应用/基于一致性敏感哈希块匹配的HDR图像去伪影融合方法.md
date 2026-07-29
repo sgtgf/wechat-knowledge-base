@@ -4,15 +4,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/x9liMAux\_m8SM2u17lQPUg](https://mp.weixin.qq.com/s/x9liMAux_m8SM2u17lQPUg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEaYK6aRq4So9jNIWZ0Gn2VlmE8xgkL8hkKfjsPDkJEfsG55h5vJUY5w/640?wx_fmt=png)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_000_40da2c75c6a9.png)
 
 点击**蓝字**关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeF2tkAjz6BoPJsiaDZkDbxWgQpiaPdyv0SdcfFXnJ2BeYgUktjtjbyojdUJX1orn6ZZMMdX7uj8j9a/640?wx_fmt=svg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_001_ab4fa7237b58.svg)
 
 多曝光高动态范围图像融合是指：融合一组具有不同曝光参数的图像序列以获取一幅具有完整场景动态范围（即10^8 : 1）的图像。  
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeF2tkAjz6BoPJyaTzUMHLibkiag5JIlTTs9cZ48ChtUQn09zo5Igsa768XpDw73eH7uSTIdwS4gEyT/640?wx_fmt=svg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_002_8ff6e933e840.svg)
 
   
 
@@ -26,27 +26,27 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2018.c180003_ 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_003_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_004_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VESjX986TQTMLmFg3RlgmsbicwNRDd7fOSkSxO0vaeNnfn3AYOM24cfUQ/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_005_a440f20106db.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_006_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_007_d144a5fd5d6c.gif)
 
 _(a) 多__曝光图像序列_  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_008_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_009_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VE6VSOfwWDISwqbGCeaYPdo2GfYia6zCxrJtsFqWXHD6L651Hg2tGic6tA/640?wx_fmt=png)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_010_a4c790e2f806.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_011_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_012_d144a5fd5d6c.gif)
 
 _(b) 融合的HDR图像_  
 
@@ -58,27 +58,27 @@ _**图1  多曝光图像序列融合HDR图像**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_013_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_014_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VE3rpCEOLUFlCJQpfusNl8ic3TaKYVZpL4yUoIAIEOsRrybXQgjFRdIXQ/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_015_5fb77b86fb48.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_016_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_017_d144a5fd5d6c.gif)
 
 _(a) ArchSequence多曝光图像序列_  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_018_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_019_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEvfry5ibkiaMyuc1OGBV8sexP2iasq2ia6yyHjia2C8uSP03b5S9dic9nVWtQ/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_020_f94e035034be.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_021_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_022_d144a5fd5d6c.gif)
 
 _(b) 融合的HDR图像_  
 
@@ -94,15 +94,15 @@ _**图2  ArchSequence多曝光图像序列融合HDR图像**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_023_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_024_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEcibnIOG7ME0AAic45T9J0Mzrupv03HNlFoz3G0KFqUxQVfyrjHmETLuA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\控制_理论_应用\基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images\img_000_9473c9e37d53.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_026_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_027_d144a5fd5d6c.gif)
 
 **_图3  Hu方法融合HDR图像_**
 
@@ -112,27 +112,27 @@ _**图2  ArchSequence多曝光图像序列融合HDR图像**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_028_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_029_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEmaIYm4lib5JUISsOS2lr2lAbiaPK0SWp8oVjicIxM2xm4Ux6SmwMyInOA/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_030_bae76c4ae209.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_031_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_032_d144a5fd5d6c.gif)
 
 _(a) Significant\_and\_fast\_abrupt\_motion多曝光图像序列_  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_033_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_034_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEhppscicPr8bmicsmbDThLvO1UqQPuIaAZT6iamKpMzCHlKnyIaXzCWhwg/640?wx_fmt=png)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_035_2bc7f78c65a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_036_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_037_d144a5fd5d6c.gif)
 
 _(b) Hu方法融合HDR图像_  
 
@@ -146,29 +146,29 @@ _**图4  Significant\_and\_fast\_abrupt\_motion多曝光图像序列融合HDR�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_038_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_039_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEcJEy28UsxTlk18HiaRdQT2OWJibgZGBsnq9Zrh4D3Mryl96wCGZuWKIg/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_040_2b30ebc6b20b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_041_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_042_d144a5fd5d6c.gif)
 
 **_图5  本文方法融合的HDR图像_**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_043_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_044_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEuynXozE8wneQfu2UibWzIGX7heHSicZzxGayuP0qNklDajza5Zh1e6ew/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_045_cb8132179a89.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_046_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_047_d144a5fd5d6c.gif)
 
 **_图6  本文方法融合的HDR图像_**
 
@@ -180,7 +180,7 @@ _**图4  Significant\_and\_fast\_abrupt\_motion多曝光图像序列融合HDR�
 
 _**表1 对于不同图像序列，不同的去伪影方法评价指标**_
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VE9WvYyRffKrEJDswOGiaphdiaenrictdXefAUgibGpdTo8rmQV33HRgSESg/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_048_65c079dd02bb.jpg)
 
   
 
@@ -190,7 +190,7 @@ _**表1 对于不同图像序列，不同的去伪影方法评价指标**_
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEye2WDWdewnIkYmpjg5tcCa81ySib9XNqw5s6XAsKZWUibnZrXtVEcMTw/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_049_90b46d62032b.jpg)
 
 **朱雄泳**
 
@@ -198,7 +198,7 @@ _**表1 对于不同图像序列，不同的去伪影方法评价指标**_
 
 E-mail: zhuxiongyong@gdei.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEDmbHgpPmaOnycyjhhwE8JV8ROht4ssaWJZDA6ib9o0GZibcadHUSxufw/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_050_0960cd36c144.jpg)
 
 **吴炆芳**
 
@@ -206,7 +206,7 @@ E-mail: zhuxiongyong@gdei.edu.cn
 
 E-mail: Wuwf\_828@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEvIVaEvpjLia2diaryMyUiaMF2Twf5YEB8VuqlayJEibWnSV3D41AsGo9qQ/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_051_23df5a6609a7.jpg)
 
 **陆许明**
 
@@ -214,7 +214,7 @@ E-mail: Wuwf\_828@163.com
 
 E-mail: luxuming@gdei.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VE6d17zqKSZhBdZdBbDGqkpHCJNLjIib4Ie59gUFiaSce0Tqueceic7Yd7Q/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_052_34ca744caa64.jpg)
 
 **谭洪舟**
 
@@ -222,7 +222,7 @@ E-mail: luxuming@gdei.edu.cn
 
 E-mail: issthz@mail.sysu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VErm7jFV0g1J01dWFy5nL52mWj83L2Ph7O6Up9JicFmmGK1Yp9wLDHuIQ/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_053_523754ea90c3.jpg)
 
 **邹兵兵**
 
@@ -312,49 +312,49 @@ E-mail: zoubingbing1991@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEpkqgs1epcNJaDcWLYjrrsWH6Ribfcoo954sRk0Qa91bk3jzkrnmPHgw/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_054_35b14e3aac99.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VECjXfz7TSF8iaAZbUl8OBu9gSmckCAaO8bydMA3SSs6scunBJuxCuteg/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_055_5806289734a1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_056_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_057_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEQl6JmFLEJMdibmXKlic2EaV3Pm87JVPD0OQuZjYDv4uibkCBAMJibLHJhA/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_058_bed6bfc095dd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_059_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_060_d144a5fd5d6c.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_061_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_062_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VElbdzauZ6fhib9Ckm4wBnTClUuH8xa8wItrI9FsGGxL3SpzQaUAlZJibA/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_063_d24dd43ed911.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_064_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_065_d144a5fd5d6c.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_066_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_067_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEBD7nXyw2szBM4CvhAt1oh6MHfgEndiaabcwTxLtAichMI6IJC8whegUQ/640?wx_fmt=jpeg)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_068_05b4d1f06152.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_069_d144a5fd5d6c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46e05sn0Dvnf8iaSCwzQF0VEp18rUS8VCn0WWS4IDl27VBcb0YNVRTNhGSnWUFKkUR19gBAn3RuE1Q/640?wx_fmt=gif)
+![](基于一致性敏感哈希块匹配的HDR图像去伪影融合方法_images/img_070_d144a5fd5d6c.gif)
 
 **长按二维码｜关注我们**
 

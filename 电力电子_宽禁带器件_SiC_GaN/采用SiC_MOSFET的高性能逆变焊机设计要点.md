@@ -13,7 +13,7 @@
 
 综上所述，‌采用SiC MOSFET的高性能逆变焊机设计通过其超高开关速度、‌适当的散热和空气流设计，‌以及高效的测试条件，‌实现了焊机的高效能、‌高频率和高稳定性，‌满足了现代工业智能制造对高端高性能焊机的需求。‌
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmS09bQL0pGEodeibWZPTFWGdIdfa3QZTUGfTYemHxpwHmG27Fz7ALEOaDwx3jTmDUvZtuPgDIFznQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_000_bc1718cc4ca0.jpg)
 
 **引言：**近年来，为了更好地实现自然资源可持续利用，需要更多节能产品，因此，关于焊机能效的强制性规定应运而生。经改进的碳化硅CoolSiC™ MOSFET 1200V采用基于.XT扩散焊技术的TO-247封装，其非常规封装和热设计方法通过改良设计提高了能效和功率密度。  
 
@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLTEhZ70lglaSGGVibZvpApibibib7iaFqdf5I9mXHKbmK4dqKsyzvldgyjsQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_001_83cbcd92af4b.jpg)
 
 _图1：采用未与散热片隔离的1200V CoolSiC™ MOSFET单管的焊机电源_
 
@@ -51,7 +51,7 @@ _图1：采用未与散热片隔离的1200V CoolSiC™ MOSFET单管的焊机电�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLyia44wPXy9RwVdVJVQdOfILVJW3FR7AzwkUAWgmBp0CyD1AcVUXvqTw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_002_aa290c426c77.jpg)
 
 _图2：英飞凌.XT扩散焊技术较之于常规软焊工艺_
 
@@ -73,7 +73,7 @@ _图2：英飞凌.XT扩散焊技术较之于常规软焊工艺_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLd95R0zoLrnAwyeMVAo7ic8UcwSJibLdx0vNUAicLpVp2gFrG1nsbf0gyA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_003_28ee3164e4a1.jpg)
 
 _表1：焊机电源逆变器基本技术规格_
 
@@ -87,7 +87,7 @@ _表1：焊机电源逆变器基本技术规格_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLcYdNB3gicss9G6UQZTBCepp6U5B16c0tqwkHN8YAKY8fMRjNicqY2bbA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_004_0406b2103e5a.jpg)
 
 _图3：散热器的热稳态条件和散热能力_
 
@@ -127,7 +127,7 @@ RCL负载
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkL8RSUMj1J06k9DktgelgQocwHpOWgrX2xz3oWHL4j3SgIX9FqkwG4fQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_005_a5d767bb925f.jpg)
 
 _图4：焊机电源逆变器工作期间的典型SiC MOSFET波形_
 
@@ -141,7 +141,7 @@ _图4：焊机电源逆变器工作期间的典型SiC MOSFET波形_
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLerRzIA8Db5fQYTZdaXJam0crEiciabJdgqzBibFzg6ztApOP9596I9CEw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_006_d31178d1a29b.jpg)
 
 _图5：20mΩ 1200V SiC MOSFET在60%暂载率工作状态下的散热和功率损耗——英飞凌CoolSiC™ MOSFET IMZA120R020M1H较之于主要竞争对手的器件_  
 
@@ -165,8 +165,8 @@ _图5：20mΩ 1200V SiC MOSFET在60%暂载率工作状态下的散热和功率�
 
 文章来源：英飞凌工业半导体
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_007_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_008_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFET的高性能逆变焊机设计要点_images\img_009_84aa944feb13.jpg)

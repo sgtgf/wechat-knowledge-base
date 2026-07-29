@@ -38,7 +38,7 @@ SiC MOSFET与Si MOSFET、IGBT一样都为电压控制型器件，因此驱动器
 
 SiC MOSFET与IGBT相比存在较大的物理性能差异，SiC MOSFET具有更快的开关速度、更小的损耗、反向恢复应力更小的特点。更快的开关速度意味着器件开关瞬间有更高的dV/dt，以3.3 kV电压等级的SiC  MOSFET与IGBT为例，SiC MOSFET 的dvdt可达12~ 18 kV /μs，而IGBT仅为2.2 kV/µs。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOy4aSicpbldI5gDvkibwAZTcRhqRSmGoePa7AA43HeuiclkMpvzPMYUD8qiczWajHJuTHcGspfnG5IAuGnLNNePkhicJm24hEI1uYY/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_000_78d39ba1c0b6.png)
 
 表 1 列出几款 3.3 kV、相同电流等级 IGBT 和 SiC器件的部分电气参数。由表 1 可知，SiC MOSFET 的栅极电压与 IGBT 的栅极电压有较大不同，3.3 kV 的IGBT栅极电压均为±15 V，SiC MOSFET栅极关断负压为-5 V，栅极开通电压为15 V或17 V。在设计SiC驱动隔离电源时，需要关注 SiC MOSFET 栅极负压与IGBT栅极电压的差异。
 
@@ -46,7 +46,7 @@ SiC MOSFET与IGBT相比存在较大的物理性能差异，SiC MOSFET具有更�
 
 当功率器件开通或关断时，对管会通过米勒电容在栅极产生正向或者负向的电压尖峰，称之为串扰电压。以半桥电路为例，当上管开通时，下管漏极（D） 的电位迅速抬升，米勒电容CGD向栅极放电产生电流，一部分电流向栅极电容CGS充电，另一部分电流通过栅极电阻流向驱动器，使得栅极电压VGS抬升，产生正向串扰。反之，上管关断时，电流方向相反，VGS下降， 产生负向串扰。栅极串扰产生的原理如图1所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNRLkLcDKA4D8dpx7lZeCMhEWClrsvEjTABIiawY5iaaZMI9pcPsVkJHKYUk5xW9Bn2ZSvv45Zplb1DWeWjdVzlvbcNeuGL1A7W4/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_001_a41ccbb2402e.png)
 
 正向串扰电压容易导致对管误开通，负向串扰电压容易导致SiC器件的栅极电压超出最低负栅压的限制值，引发栅极失效。串扰电压的大小与器件的dVDS/dt及结电容相关，当SiC MOSFET 开关时，会产生数倍于同规格IGBT的dVDS/dt值，造成较大的串扰电压，同时SiC器件更窄的栅极电压范围对串扰的冗余范围更窄，进一步加剧了串扰带来的负面影响。因此，在SiC  MOSFET应用中需要特别关注串扰电压幅值，当串扰电压值过高时应采取必要的抑制措施。
 
@@ -64,11 +64,11 @@ SiC MOSFET更快的开关速度使其对驱动回路的寄生参数更加敏感�
 
 本文设计的 3.3 kV 驱动器采用叠板结构，上下层叠板之间通过排针进行硬连接，下层板直接安装在SiC  MOSFET器件上，如图2所示。轨道交通用3.3 kV功率器件驱动器常见的互连方式为驱动器通过导线与安装在功率器件上的适配板连接。相比传统的导线连接， 排针连接使得栅极回路的寄生电感值更低，可有效减小器件栅极的正向串扰峰值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMffj9Sic2CmlXWbgqZGPpI1ITwRPgFzctjwRvM6tJoQiaFH9uQE9YR7Jcffvp5eKmtT5wYpiaLv5nD4RVOfbeDGE4MGWcnAJ1iaaU/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_002_a12db90c3b8c.png)
 
 驱动器整体架构如图3所示。其中，驱动隔离电源的输入侧采用 15 V 供电电源，输出侧分成 2 路供电， 分别驱动功率器件的上开关管和下开关管；PWM脉冲信号和故障反馈信号位于驱动电源的输出侧，通过光纤通信的方式与上级联通，相比通过隔离芯片实现信号隔离的方式，光纤通信具有更强的共模抗扰能力； 驱动逻辑功能由FPGA实现。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOxiaDL1t3B54YjJ2LibJN1YcpeeDtBeWzAIrkANDZRDiclyDMcmfl54D5E9f2Jn8LGarTCnj0ibBRhzibBs5oEW7BslGMZ9JjKRUVI/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_003_2d0f1d208945.png)
 
 2.2驱动电源  
 
@@ -78,7 +78,7 @@ SiC MOSFET更快的开关速度使其对驱动回路的寄生参数更加敏感�
 
 由表1可知，SiC MOSFET的QG约为同规格IGBT的1/6~ 1/5，但是应用开关频率可达到5~10倍。栅极功率为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNV5Dz3WxIJVJZaejx4rAxuibsVFhkOZUVXuCYeOEZic4TnEM7jMDWXibfwbML1ctI3qhwpbkTnpJ8OgWa7wunFibk5KMzrxEogL1g/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_004_f88e3138dc27.png)
 
 式中：QG为栅极电荷；VG\_ON为栅极开通电压，VG\_ON\= 15V；VG\_OFF 为栅极关断电压，VG\_OFF\=\-5 V；fSW 为开关频率。 
 
@@ -88,19 +88,19 @@ SiC MOSFET更快的开关速度使其对驱动回路的寄生参数更加敏感�
 
 驱动器输出侧采用FPGA芯片实现逻辑功能，包括PWM 信号处理、短路故障信号处理、欠压信号处理等。外部通过光纤输入PWM信号，在FPGA中进行信号处理，生成功率器件开通和关断信号。短路检测电路和欠压检测电路将处理完成后的信号输入到FPGA， 当发生功率器件短路或者电源欠压时，FPGA立刻发出停止功率器件开通的信号，并通过光纤向外部控制器反馈故障信息，若发生短路故障还会额外触发软关断功能，并进行故障锁存。FPGA的逻辑功能和主要信号时序分别如图4和图5所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNaHhDZ4JStWwHJPRlutPs41ppsQhSRoVlf890iaib76IMVibrh9M2cYlMbxKgPfv8kRZK1BhjAianpvVKICCDWoXvIDGiaiaWVNP64o/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_005_34d894d6d85e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNic23ibVv14xr17x9OLXpqcgNUFvfHufJ0mFN0EhITjIiaM35Ut6FYaPN0UP60ib5pISzpCJVBrQS6ia2Tu2qxQbvZVooaUPiaVzabw/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_006_fef9b2c85ebd.png)
 
 2.4驱动放大电路  
 
 逻辑单元发出的开通/关断驱动信号为3.3 V电平，无法满足SiC栅极驱动要求，需要配置驱动放大电路，即通过MOSFET栅极驱动器芯片推动一对PMOS(Q1)和NMOS(Q2)，如图6所示。当逻辑单元发出开通信号时，Q1导通；当逻辑单元发出关断信号时，Q2导通。 为防止Q1 和 Q2 发生贯穿、减少功耗，在开通和关断信号之间设置0.1 µs的死区时间，如图5所示。Q3为软关断NMOS管，当软关断功能被触发时，软关断电阻RG\_SS将SiC器件的栅极电压拉低到0 V，降低关断时的电应力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPcMuByP8m64Tia06udVEXibHzgNFJ93CpJnmz821dMY37ylXTkWIKZE6mPpWkpCmfLJdmnPD0VCZLeEiatO4D7Q2IezT8BTfxX8I/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_007_d599303167de.png)
 
 SiC MOSFET在开关时会产生较大的瞬时栅极电流IG，在设计时需要选择合适的Q1和Q2，使其电流峰值满足栅极瞬时电流要求。栅极电流IG为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOH2R2njEpLAYOBre6ZG5eBm0wnfUTjMHIgZjqtCib2zeiaEYEzbcENUlz1KPCzTnj6gAsXZRK1sC3icIco1HlrY25zr6TZjfGLok/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\3_3_kV_SiC_MOSFET驱动器设计与研究_images\img_000_f29952734dbc.png)
 
 式中：Rint为功率器件内部栅极电阻；RG为驱动电阻；RMOS为Q1和Q2的导通电阻。 
 
@@ -114,7 +114,7 @@ SiC MOSFET能承受的短路时间远小于IGBT，因此整个检测和保护环
 
 退饱和检测方式能同时实现过流检测和短路检测，当检测电压达到阈值Vref时，比较器将过流或短路故障信号输入给逻辑电路，并在3~4 µs内触发软关断功能， 具体如图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOAc1s7bfMtEI6s1HcTMLA85ul3oMwB4gB4aiaF4KK6Lh4R1xpB2fia3EMiaXhHUV75SwEvOLnv84DSRicLJhQ32byI8Cib6H800udY/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_009_5933ad67b9fe.png)
 
 3.试验分  
 
@@ -122,25 +122,25 @@ SiC MOSFET能承受的短路时间远小于IGBT，因此整个检测和保护环
 
 为验证该驱动器的功能，搭建半桥测试电路，如图8所示。在图8中，以下管S2为被测管，上管S1作为陪测管，为避免栅极串扰电压引起陪测管误开通， 需要在栅极提供恒定的负压；Cd为直流母线电容，先由高压直流电源预充电至试验电压，然后断开充电开关K，当被测管导通时由Cd提供能量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMIAgEjCgu8CR6wnuWBVupFGJykLyJe7jRY6oNKDLiaMmqm7yKHD2XZYXh7X6R0lzrCYCoMp8CJQKEFMOcUXLScXorQnzxOl0qI/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_010_7a727dc08d2a.png)
 
 3.2开关特性试验  
 
 图9为3.3 kV/750A的SiC MOSFET器件在1.8 kV/ 750A时的开关特性测试波形。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPQGF9mk9N2EN3PibMcY0aV6zGT5Vqc60ibrTQEmDicniaduYj3CFMfkEDjvD2oglwvibxCYUZibynSs3vQKK7OGnbSonqh7H8LcdrFI/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_011_98e8175ea6cd.png)
 
 由图9可知，随着栅极电阻增大，开通和关断时间变长，di/dt、dV/dt斜率明 显变缓；由于被测 SiC 器件内部并联了 SBD 芯片，因此开通时几乎没有反向恢复电流，反向恢复能量Erec极低，同时也能减小开通损耗EON，VDS下降时没有IGBT常见的拖尾电压，进一步减小了EON；关断时同样没有IGBT的拖尾电流，VDS以远高于IGBT VCE的速率上升， 因此关断损耗EOFF很小。 
 
 针对不同的功率器件，使用相同驱动电阻RG\_ON \=1.65 Ω、RG\_OFF \=3.30 Ω开展不同输出电流测试， 如图10所示。由图10可知，驱动信号一致性较好，随电流增大开通时间变长、关断时间变短。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNt4W5Sic1FHwZdTj989v56y4ib0B8k3lmEgx81rHMJ97WFO0Yh0PehQfgklXBM8nthSKth6KRJYEFnsKymDpJK6QeockVAXZMmg/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_012_6b7fedbf96ef.png)
 
 3.3驱动能力  
 
 根据驱动放大电路设计中的结论，当图6中NMOS(Q2)的栅极电压沿用 IGBT驱动设计时，会导致Q2 无法输出足够的瞬时电流，SiC MOSFET的关断栅极电流变小，关断速度受到影响。图11为栅极瞬时驱动电流能力对功率器件动态性能影响的示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMNjnPQ4wYicTrD7OqibXc77CZ8cvlu0c7mO2Nz6mUPKZQWAVNJXACNOZ29BBUthoVBEYGREicxyeqneDTr37czUdGbibY7rALKk2E/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_013_fc79abad99e1.png)
 
 由图11可知，对IGBT驱动器仅改变栅极负电源值，并直接作用于SiC MOSFET 时，在同样的关断电阻RG\_OFF和相同测试条件下，IGBT驱动器对应的关断能量EOFF、关断时间tOFF都在增大，且随着RG\_OFF的改变，EOFF、tOFF 变化幅度非常平缓，这说明受限的NMOS 输出能力也限制了驱动电阻对 SiC MOSFET 关断特性的调节能力。  
 
@@ -148,31 +148,31 @@ SiC MOSFET能承受的短路时间远小于IGBT，因此整个检测和保护环
 
 驱动器通过检测SiC MOSFET的VDS电压来进行故障识别，实现过流保护和短路保护。当VDS超出阈值电压时，图7中驱动器故障检测电路的比较器发出故障信号，逻辑电路动作，触发软关断功能。图12为软关断和正常关断的电路波形，表2为软关断和正常关断试验数据对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNW1FSsaBL30ehygnwFHMBK2BK8Qw5UV29ypHiba8e6hnJw9r5HbDrUFZibAjvWxFRJznsBzjeBV2YiciaBVwgSC3CiaKFdFku5c8O0/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_014_efce3509f1e4.png)
 
 由图12可知，在时刻t0，栅极电压VGS开始下降，此时图6中的关断NMOS(Q2)和软关断NMOS(Q3)同时工作，加速关断时间；在时刻t1，Q2停止工作，Q3单独工作，通过降低关断速度抑制关断电压尖峰；在时刻t2，VDS电压已经建立，Q3停止工作，切换至正常关断信号，加快栅极电压下降，信号时序如图5所示。 
 
 由表2可知，这种多级软关断功能能有效降低VDS电压上升速率、抑制关断时的电压尖峰，避免大电流关断时产生过大的电压应力；同时，从波形中也可看到，与传统的软关断相比，多级软关断不会延长关断时间，可以安全并快速地切断电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7epOh3cn99RibPAQWiaCiblOFWuTVVBIbib9QaEkqY4gZU9pYvVXaXXb5IG792WdmWibwV8rQIHTcEVia4Wia6jcvXW8CrdXakNneUU/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_015_ca1eafe6ccef.png)
 
 3.5短路试验  
 
 当IGBT短路时，电流会迅速上升到峰值之后维持在相对恒定的饱和电流值，而SiC MOSFET很难达到饱和电流，短路电流线性上升，其斜率由短路回路阻抗决定，因此需要及时关断SiC器件，防止电流继续增大引发热失效。图13为短路测试波形。由图13可知，SiC驱动器能迅速检测到短路故障并执行软关断，有效保护了SiC MOSFET。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdXu6q8YicBUia7R308b647CL3581ptkopyaTel9A0wqHzdTvuMZb2VQJfgt7e6pW1TxH1gOSby15ic45r6V4Gictd6FOmYxqHUdw/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_016_eb17784842d7.png)
 
 3.6功率试验  
 
 将该驱动器装备于SiC MOSFET 三相逆变器中，在直流电压 1.8 kV、开关频率 1~5 kHz、电流 200~500 A 的工况下进行功率试验，各项性能指标均满足技术要求，设备能够正常运行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOX2EhbibWwRiapQVoickcoE8bicjKgDrdsQhxtkBiccXxQ45bJmjdA9r2YaXzJMKS8sS0ibx5YJLkApHU55CtyYVoYzcMMU43Lt9SRg/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_017_26852904e76c.png)
 
 图14为开关频率2 kHz、逆变输出电流375 A的试验波形。 
 
 图15为功率试验时有关信号波形的放大图。由图15 可知，当上管开通或关断时，下管SiC MOSFET 栅极的串扰电压幅值很小，不会对SiC器件的运行造成影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPt1xYjMvTNje6Dv4v8Q7ibLicZS9KQcfrkBm54cMsLOcaVjYpu1puJIPhwn5cWFwOHZcmvUSBP8JPHPO3OmAXDjOiaUlAJXtdaZk/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_018_cb0c249f1026.png)
 
 4.结论  
 
@@ -184,12 +184,12 @@ SiC MOSFET能承受的短路时间远小于IGBT，因此整个检测和保护环
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMcgibv3WGLQYE9M3DkhliauS5E3IeibqeJbD55vSazCA0xrlH1KE9e1dqeLIOacLu15eyOCus1AjGK1BJUHV154ljmQHia0VGe8Bk/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_019_8ebc1274d61a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNorfWbWYWnSOXKvbYicb2PEmUWBpqYXOU7vLo3qXL2tzpQicI0rricxLVI1aGibXyiaboEWU9q53Hbr3gpzNFq5W4iby97iaHbeALgY0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_020_7fc9350f5d81.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP7T6BWGRCeeMIaJib5ttNic8ia11hKhE6ibesAnibFHj9iaoicyXNwdE4lVMw1MiblyJDKxaiaeqmwA9pQDM2dwhBOm5Mru15dUm8YO7E8/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_021_dbfc381e7b4a.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNfGDMqL5KibQctyd5HqW06Y4uCKXibE9z7MKteadLEHDRujV4DposfcKWCJuj7XoT0dbKn4ibsrHQcfRpM0OuiaicAibv96TpRBZFMY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](3_3_kV_SiC_MOSFET驱动器设计与研究_images/img_022_66c4dc8b5dbc.jpg)

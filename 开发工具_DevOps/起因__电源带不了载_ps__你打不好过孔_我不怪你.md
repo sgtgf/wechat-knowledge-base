@@ -12,11 +12,11 @@
 
 小小的过孔看起来不起眼，实则很有讲究，新手最容易翻车。之前，一个新同事在画DC/DC电源的时候，因为过孔没打好，板子回来调试发现电源带不起载，后来只有重新画板，如下是更新后的PCB图，一个12V转5V的DC/DC电源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TBiclyZlPibYXLOTfuGRCGIMCYibfYHfyEKQv945QX6GCe8w24YlalwsIg/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_002_07bce60cfae4.png)
 
 DC/DC电源建议lay板遵循以下参考设计原则，该打过孔的地方，一定不能省。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9Tgm2NtSC9xdJ0vPsgy4hc6ibbEbtTPl7AadGHKCibv7NFbdb2j0BlJFtA/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_003_34d7b2e65305.png)
 
 在PCB设计中，过孔看似只是一个小孔，却承载着信号、电源、地线的流通重任，它不仅是连接多层板的桥梁，更是影响电路性能的关键因素。
 
@@ -32,7 +32,7 @@ DC/DC电源建议lay板遵循以下参考设计原则，该打过孔的地方，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TrukL6BJguBU0VyxTgic2h0mZQbOtpDr4ueX2qmeNFyu3P3NICykaWYA/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_004_b64db07bcadb.png)
 
 **1、通孔（Through Hole Via）**  
 这是最常见的过孔类型，从**顶层贯穿到底层**，适合连接多层板。它的优点是结构简单、可靠性高，但缺点是占用空间大。
@@ -46,7 +46,7 @@ DC/DC电源建议lay板遵循以下参考设计原则，该打过孔的地方，
 **4、盘中孔（Via in Pad）**  
 这是一种“高级”过孔，直接将过孔打在焊盘上，来看一张嘉立创官网的图片，可以形象的解释。它的优点是**节省空间**、**提高信号完整性**，特别适合高密度、高速电路设计，但它的工艺要求极高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TbFQ9AwFZbyDvicgMicCe2XroIRwGsa2Ficu8PCdWCdBKuX3Jmv14piaVjw/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_005_e539796dfd50.png)
 
 看到这里，你可能会问：“既然盘中孔这么好，为什么大家不都用它？”  
 答案很简单：工艺难度大，普通工厂做不了。  
@@ -62,11 +62,11 @@ DC/DC电源建议lay板遵循以下参考设计原则，该打过孔的地方，
 
 **高速信号中，引起过孔问题的主要原因是过孔产生的寄生电容和寄生电感。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9T7ibQnnqFekWhV21tPRH21RZxAqldzHlCsZvBSzhJZEAXztH3IjbYibuw/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_006_81c7a493e428.png)
 
 **寄生电容的计算，公式如下：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9T6yWiaCFCRVWLegnOYb11CaGoD9w3LTjoQWCfCBg1Ly7bvRroIGJnjSw/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_007_140d60fe7d2a.png)
 
 C 是过孔的寄生电容；
 
@@ -84,7 +84,7 @@ D2 是过孔在铺地层上的隔离孔直径。
 
 **寄生电感计算**，******公式如下：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TYOjf9kUrFNiaMzEhzSVSZc9hHsw28RdC31s8HD4icgDMrnmLOYHY9r2g/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_002_3a7ae38186c2.png)
 
 L 是过孔的电感；
 
@@ -113,7 +113,7 @@ d 是中心钻孔的直径。
 -   8/16±2mil（8/14, 8/16, 8/18，适合高密度的板子）
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TYiczHPn6yibHQtObxqgicQYNibwpyicjBmEIwTg9iadUFeReIzDsgxlZ4q1A/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_009_195c3fb884fc.png)
 
 在信号线中打一次过孔影响不大，但是如果打的过孔次数过多，信号多次在层间进行切换，出问题的概率就会大大增加。所以，我们要求layout工程师，高速信号线优先走线，尽量少换层，少打过孔。
 
@@ -126,7 +126,7 @@ d 是中心钻孔的直径。
 -   20/30±2mil
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9Tqiclp5Svo7ZUrh9VuyUUric1uDB6EsZrKhFFgw6sxPLyEYAepMccyyLw/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_010_fd5f1622f47f.png)
 
 还要注意以下几点：  
 
@@ -136,7 +136,7 @@ d 是中心钻孔的直径。
 
 3、对关键信号，时钟线进行包地处理，并在信号线周围的敷铜地面上打过孔，对高频的性能会更好，也能有效抑制EMI。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9Tpfmc5XHbDhGBiaiccMibib3XN17Pj3GZYFjM47b5AR3a0PCF5ibTeEbM9yQ/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_011_f3530e785c3a.png)
 
   
 
@@ -152,7 +152,7 @@ d 是中心钻孔的直径。
 
 **嘉立创的盘中孔工艺是直接把过孔打在焊盘上**，在孔内塞上树脂，烤干树脂磨平，然后进行电镀面铜，在焊盘上完全看不到孔，还可以避免传统工艺引起的漏锡问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TkdH5d8bUVzkeJuJdPz3bRnicbSV2MP7jquQsuHNSwIUTyFJYCp7wia5w/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_012_71049a81ce0f.png)
 
 那它是怎么来提高信号的完整性呢？
 
@@ -165,25 +165,25 @@ d 是中心钻孔的直径。
 
 除了提高信号的完整性，在焊盘上打孔，还可以让板子整体看起来更加美观。以下来自嘉立创官网网友的晒单图片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TBqD09yiblb1TjMY1FHm5lXJrJUWCOhgicRVeXIJtTDOjpibQMHicW8ZMtw/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_013_30d5b206b316.png)
 
 盘中孔工艺的优点这么多，那它的价格如何呢？咱们对比几个比较大的板厂一起来看看，就拿63mmx72.5mm，6层核心板，打样5片为例：
 
 A厂总价621元，无优惠。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM1h7Ut5bRZxycv9rw8n0kzng8t2WAykK4HJp0BBXfDHYajicQsFbIkrLRzGpA2g6icVmrpdadibicRA/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_014_338e5e9a3068.png)
 
 B厂总价398元，我个人有50元的优惠券，券后价348元。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM1h7Ut5bRZxycv9rw8n0kFiaXr8qvezr8lpdmB231AMDe3yjD88a43Jp7CQffNibPWlUw2a1wRf4w/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_015_86e706869444.png)
 
 嘉立创总价274.65元，可以看到各项价格计算很细，用下单助手下单优惠51.35元，只需支付223.3元。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM1h7Ut5bRZxycv9rw8n0kAEy7DNZKtGwYOlA01lB7HicMtiaOrB5Vv3DOtjwicDF98ibmyNcLMHnxpw/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_016_9b97cf226d92.png)
 
 如果用嘉立创的券，可以免费打样
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhSSvHFEmeVzoiafd9mdibtRnicXYleFibvwiaM04dibic9yZPQBwFvPRw65DkofqpKh0yEXSuVk27uQIdtw/640?wx_fmt=png)
+![](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_017_b673ee5b4039.png)
 
 综上，嘉立创价格最低，真正做到了物美价廉，如果你想做6层及以上板子，建议你到嘉立创PCB去试试。  
 
@@ -195,9 +195,9 @@ B厂总价398元，我个人有50元的优惠券，券后价348元。
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_018_c2a5b152c2dd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](起因__电源带不了载_ps__你打不好过孔_我不怪你_images/img_019_09fe3887a795.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

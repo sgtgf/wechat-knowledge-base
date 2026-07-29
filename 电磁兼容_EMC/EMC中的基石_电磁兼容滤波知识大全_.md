@@ -24,15 +24,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaKstmtQ7optyOURhwn2c3k9T3AY3WlFZWZaMqFbKibgEn9oEaZvYDNicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_002_7b4ea61826d5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliawBFOLLnTibdh3N1icTGF8ibRRwmXpvicIdcbCefhAjwfYibgywZPsMA6l5A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_003_dd5a69bb5c3f.jpg)
 
 **正弦波（顶部）和方波（底部）的时域表示**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaBTU82FxY918oS0l1eYCjcbR6OMU4xLCKR7ickuoUbEs28HnvQR2m3yg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_004_773fd852a9f1.jpg)
 
 **正弦波（顶部）和方波（底部）的频域表示**
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMlia8zBzAQ2Rbl8xhQL14Kor46G5g3QXBQLwPMiaShu08h6VLKIyjebG50g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_005_4cbbc6ce3ad8.jpg)
 
   
 
@@ -72,7 +72,7 @@
 
 如果滤波器通过低频并阻止高频，则称为低通滤波器。如果它阻挡低频并通过高频，它就是一个高通滤波器。还有带通滤波器，其仅通过相对窄的频率范围，以及带阻滤波器，其仅阻挡相对窄的频率范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMlia6VGNItkyQdmbvKtzL8WYibjoO8ep2oerjaf2t3SCGyz2qr9wMInW6fA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_006_af11004a47e1.jpg)
 
   
 
@@ -82,7 +82,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMlia6ROxOWVP6BV48s3r6AzI40p00yTDpiclrJKcUsfic5TqyU42GQxVJC5A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_007_296ad952dfe7.jpg)
 
 **基于流行的Sallen-Key拓扑结构的有源低通滤波器**
 
@@ -100,7 +100,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliahUp42NOckw0ibXBn0ApO7qAJ5Rd0dOicQJMmarYFBtibJOA55ic1ib7HFBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_008_0ace92c2c18a.png)
 
 **RC低通滤波器**
 
@@ -116,7 +116,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliawljPG2NhNJibuqAFM3VsbH42IUG4bJwwpzCibdHRmYEH382VltIAVxTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_009_7f644f42f380.png)
 
 **重新绘制RC低通滤波器，使其看起来像分压器**
 
@@ -150,7 +150,7 @@ RC低通滤波器的截止频率实际上是输入信号幅度降低3dB的频率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliazlQlPd8JrPhrOuMcZsAaJMgZBmnfRnzYUA2Bx2Xbicx7gXeUxNnJlkw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_010_4e5e93433fd8.jpg)
 
 **该图表示RC低通滤波器的频率响应的一般特性**
 
@@ -162,7 +162,7 @@ RC低通滤波器的截止频率实际上是输入信号幅度降低3dB的频率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaFrEUiaxxctQajatfeplCrXsicD1b4tvBU06ernKXaer8M3fb03yLbgQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_011_51668adba7d1.png)
 
   
 
@@ -170,7 +170,7 @@ RC低通滤波器的截止频率实际上是输入信号幅度降低3dB的频率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaXWibhPvvPgTjATj4CGAjJ5gJfr8Dhw7AlLyibWXZLCtb8jXOaZom6sdQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_012_ead20f7c56a3.jpg)
 
   
 
@@ -190,9 +190,9 @@ RC低通滤波器的截止频率实际上是输入信号幅度降低3dB的频率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaIyibE1ibslzJnibxl9jl5A1pcdyTgps3Zeln14gYuQpiblrd9cwVjHKeRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_013_9e0b9e6e99fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliakWtY6NEicS7iaUYygFKMn4v7sbOKcQQ910oVc91wsANia1Oaj2icoNEmoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_014_833508c874c2.png)
 
   
 
@@ -200,7 +200,7 @@ RC滤波器使用等效结构，但是我们有一个电容器代替R 2。首先
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliakWtY6NEicS7iaUYygFKMn4v7sbOKcQQ910oVc91wsANia1Oaj2icoNEmoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_015_833508c874c2.png)
 
   
 
@@ -208,7 +208,7 @@ RC滤波器使用等效结构，但是我们有一个电容器代替R 2。首先
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaTFNlaYibjk1q3XrJwedibIgu1KWXbBicdKBPSUpLBEVoqYhNQX7W2WB6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_016_63334b1c4901.png)
 
   
 
@@ -216,9 +216,9 @@ RC滤波器使用等效结构，但是我们有一个电容器代替R 2。首先
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaBuLMBTdLdsXbib1icoROiaZGictO3DhOicYJtLu7NbybtchQmkbcpPQJlibQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_017_98c511d79160.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliapsufMcUQMuU9JDxiaiaQKoeh67YoXJwPq0BFDDtSL1FBHo2yrfGnfWXA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_018_94d1277f003f.png)
 
   
 
@@ -230,9 +230,9 @@ RC滤波器使用等效结构，但是我们有一个电容器代替R 2。首先
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaEJQswBQgJStiafJdfwiavUMcLToEHcQBzf5P9bbicvkHl5Q9iav7VFibM5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_019_f4117a8cf341.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaJF83ZKjOuagl1xF1hOmPYP1EQPvXC8wLnQwVicibDBUZrhsfR2nM4iaRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_020_414914f6403e.png)
 
   
 
@@ -252,7 +252,7 @@ RC滤波器使用等效结构，但是我们有一个电容器代替R 2。首先
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliagzI70gOEC8subibm2chziaHQaIROexlH1JV6jT8HDhHPCIMA7tmWXhLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_021_fd5d84deafcb.jpg)
 
 **频率响应图的一个例子**
 
@@ -317,7 +317,7 @@ RC滤波器使用等效结构，但是我们有一个电容器代替R 2。首先
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaCicUgaAQrt36JHKZxHG5OSKQYa4P6QzB16aNpxLZD8KIQ3DKwRwl1uA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC中的基石_电磁兼容滤波知识大全__images\img_022_d3216b267f62.jpg)
 
 **实线是幅度响应，虚线是相位响应。**
 

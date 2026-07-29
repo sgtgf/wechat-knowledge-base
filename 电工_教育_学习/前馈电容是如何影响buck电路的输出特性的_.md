@@ -10,7 +10,7 @@
 
 如下图为典型的DCDC电路：芯片是台湾省立琦科技的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRa5zTGgniaK3fHibVygibuW6WeuULu0ahibbv5EIC2YpmJribdv4nRbyOw3Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_002_86ac7a52f13e.png)  
 上图为DCDC典型应用电路，CIN为输入滤波电容，CBOOT是上管驱动“自举”电容，L是储能电感，R1和R2是反馈电阻，CFF是前馈电容，COUT是输出滤波电容，RT是内部运放补偿器件。
 
   
@@ -20,26 +20,26 @@
 ##### 没有前馈电容
 
 如果没有前馈电容，内部补偿DC-DC转换器的反馈网络由两个反馈电阻组成，用于设置转换器的输出电压，如图1所示。  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRTQU38Wb13iaVRebkwe7xagKT6wI6kXb5xNUahicKRx91ibRDrbbkVTaLA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_003_92ee1968ca09.png)  
 输出电压公式为：Vout=Vfb\*（1+R1/R2）
 
 图2显示了相应的增益和相位图。  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRBJSj6k3dPqn9u6II2PjuNJI0I3aohCxk2olh4GAXmdGZeAt6ib22c8A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_004_4bf420820b84.png)
 
 ##### 有前馈电容
 
 图3显示了在反馈网络中添加了前馈电容C1（Cff）。  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRxbpIjrVibeL5gcgemhac53ZGjlFzv1OdZ8d3G07YjyNBgkjplV40wTw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_005_6bd33dbecb88.png)  
 输出电压公式为：Vout=Vfb\*（1+R1/R2）。
 
 但是因为有前馈电容，增益和相位已经受到影响，图4显示了相应的增益和相位图。  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRCsUzGdX9x4AKz9oM6ficM6UysKhoZpGCmsqkYzQjZMsYbYt4xUiat62Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_006_ab59630318f4.png)  
 因为加入了前馈电容，所以与反馈电阻形成新的零点和极点，虽然Cff在其零点频率之后引入了增益提升，但是环路相位变化（提升）在零点频率和极点频率之间达到最大值; 请参见以下等式1和等式2的计算。  
 （1）RI和CFF形成了一个零点  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRn6HuxuapljUfBM4cSg1XzPb6wAU4VuMXOHw0RORw7hFzWj3fEvViaHw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_007_6bab80a98b02.png)
 
 （2）RI、R2和CFF形成了一个极点  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRb6hZcqUdKQNaCI4niadCYtoLdY83LxTUZ3QFL2VOficSlhh1ExDZiaxiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_008_86d64782ef03.png)  
 零点和极点的位置如Figure 4所示。（在上面）
 
 #####   
@@ -61,15 +61,15 @@
 
 （1）无前馈电容  
 如下图所示，无前馈电容设计时，当负载（绿色）由小增大时，输出电压（黄色）曲线出现震荡，且很久才趋于平稳。  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumR1cu4JnNV2OCLIbTHaOvKfPp438OS5XTEgnLuyNPnfib5hiavKAW86g4g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_009_642fd2b0ad10.png)  
 （2）有前馈电容时  
 在同样的负载变化情况下，当有前馈电容设计时，输出电压很快输出平稳，且不会震荡多次。  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRnYtmOjh4o4icu62z4AUO70Rx4Ss9neHF8Vf4xPicFDwzkg7f351stjtA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_010_04eb21c3555d.png)
 
 ##### **四、前馈电容的选择**
 
 在数据手册中我们一般会看到如下描述：  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQcnYMelagrapjTCdniczapumRQeTZhuaxcXj3O2wREquXJ6ODBIQGNm3psfjVs1y4w2C9aMluEIksFQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\前馈电容是如何影响buck电路的输出特性的__images\img_011_c6e133c80180.png)  
 上图中的VOUT就是DCDC的输出电压；R1和R2为反馈电阻；L为电感；COUT为输出滤波电容。
 
 CFF就是前馈电容，22~68 pF就是建议取值大小，我们需要根据实际的负载情况来选取合适的前馈电容值。

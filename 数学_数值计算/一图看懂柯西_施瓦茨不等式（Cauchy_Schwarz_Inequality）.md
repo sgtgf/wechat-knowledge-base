@@ -77,7 +77,7 @@
 
 # II 图解**柯西–施瓦茨不等式**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocumhoSDQbScZYhfecS2LRMtLxMyWozVUmf8UiblFRhN7Xr068iaCKF3330bBBoR8icH4JmeFqLVr18XEDv7sgqyGVlGKMa5M2AIXA/640?wx_fmt=png&from=appmsg)
+![](一图看懂柯西_施瓦茨不等式（Cauchy_Schwarz_Inequality）_images/img_000_0fa248d3e2f2.png)
 
 这张图是在讲 **柯西–施瓦茨不等式**（Cauchy–Schwarz Inequality），它是线性代数、内积空间、分析里非常核心的一条不等式。
 

@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRXR8KdqueWvGIr3yGZS6YoibuVp3EibibfBjyRWIk9TvCIzgEYBEzvgrJA/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_000_77bf050e7096.jpg)
 
 贴片元器件之间的间距是工程师在layout时必须注意的一个问题，如果间距太小，焊膏印刷和避免焊接连锡难度非常大。  
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRhCsttdXbFcAJticicHw9sujzdgHVxj8MreKnbOk4BiaTfPYBTibsJOR3gQ/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_001_cc0da67acfdb.jpg)
 
   
 
@@ -44,7 +44,7 @@
 
 **三.对于IC的去耦电容的摆放**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRyRJTicHZxgjulibw2sR51mTuia1KZRUlPFRiaOft5SepH3fATAsJbxcxcw/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_002_9ec698827ebb.jpg)
 
 每个IC的电源端口附近都需要摆放去耦电容，且位置尽可能靠近IC的电源口，当一个芯片有多个电源口的时候，每个口都要布置去耦电容。
 
@@ -52,7 +52,7 @@
 
 **四、PCB板边沿的元器件摆放方向与距离注意**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRyPzLInIXt2VVYcibkibF9HYNNHHUVllyiczyeqG8oHt4eVkibwogC6Ajaw/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_003_30b78bda1159.jpg)
 
   
 
@@ -72,7 +72,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRmgnofguv33vPiavHVuDiaMWXs3TZIgk5miaB2haibRQljVyicCmXh2w99Dw/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_004_abfe466828e6.jpg)
 
 如果相邻的焊盘需要相连，首先确认在外面进行连接，防止连成一团造成桥接，同时注意此时的铜线的宽度。
 
@@ -80,7 +80,7 @@
 
 **六、如果焊盘落在敷铜区域需要考虑散热**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CR3Iv22VrIYPjn23R8mxZWDrrYekfZVWFOibK1zZNaRicKkPg2YFYaAtlQ/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_005_7e609952464a.jpg)
 
   
 
@@ -94,7 +94,7 @@
 
 **七、引线比插件焊盘小的话需要加泪滴**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRllC0sdQREfuwpEp47aDcZnicpCIkpct4TZCKlSMsX8yIbKk7aEA6oiag/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_006_20be0b436db5.jpg)
 
   
 
@@ -120,7 +120,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRwVNWlkkYFhshzbqb8zOFfNawFY95ZiaKL1vsb853txKiad3klNOGgLibA/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_007_8199d4c050b8.jpg)
 
 元件焊盘两边的引线宽度要一致
 
@@ -128,7 +128,7 @@
 
 **九、注意保留未使用引脚的焊盘并且接地**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRUpCPLZlZRNGjyNBxsJAuyHM1Ozl4h2s6hFmJEdibygFmvrtibsUL057Q/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_008_92a9ff2c4c6d.jpg)
 
   
 
@@ -144,7 +144,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CR4zj6FGegRFtanic73WAwXOvChJW37s01oarLVLXcT7ibVztXtnLCwEsg/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_009_61ee2d45f524.jpg)
 
 注意通孔最好不要打在焊盘上，容易引起漏锡虚焊。
 
@@ -152,7 +152,7 @@
 
 **十一、注意导线或元器件与板边的距离**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRqnF8ex393dtJUhZtMibnQVu6ibYoXZooLOU0HNPKeQr5xQHAHsRkRFjg/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_010_babdf86c9fd5.jpg)
 
 注意的是引线或元器件不能和板边过近尤其是单面板，一般的单面板多为纸质板，受力后容易断裂，如果在边缘连线或放元器件就会受到影响。  
 
@@ -160,7 +160,7 @@
 
 **十二、必须考虑电解电容的环境温度远离热源**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRuKkuEwQ95m5r7Z4xKFwCuUh6d9vWLZ5hGWo9YPFAZ16Jp5n3NdeaUg/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_011_3ddd609188d9.jpg)
 
   
 
@@ -178,4 +178,4 @@
 
 加管理员微信，备注“加群”，拉你入技术交流群！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tInael9q1sMT4ArpRNh41CRu7futOLHvmr6ro3pXBOXvc1vkiaxGKhEdyoFUjEDlzGcJsefcJ9JO8w/640?wx_fmt=jpeg)
+![](PCB板layout的12个小细节(图文并茂)_images/img_012_8ff46507e957.jpg)

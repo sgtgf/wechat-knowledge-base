@@ -27,21 +27,21 @@ SiC MOSFET具有耐高温、高压，导通损耗低及开关速度快等优势�
 
 功率器件的短路类型分为两种，分别是硬开关短路(hard switching fault，HSF，也称I类短路)和带负载短路(fault under load，FUL，也称II类短路)。HSF是指功率器件在开通前，回路已经发生短路，即器件开通前后持续承受母线电压，并且器件电流上升至短路电流。FUL是指功率器件在导通过程中回路突发短路，使功率器件电压瞬时升高至母线电压的故障形式，并且器件电流由负载电流上升至短路电流。HSF和FUL是最常见的短路形式，因为当半桥功率器件受到串扰电压、电磁干扰或门极电压振荡等因素影响发生桥臂直通故障时，上/下桥臂芯片会分别处于HSF/FUL短路状态，如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUricaKDQNGRQBY000JVX53UrU51ibkhLpnQXCkmZ5cF1GXdIqrXgKiaia6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_000_b86fc5611f00.png)
 
 由于器件始终在承受母线电压的状态下开通、关断，相比之下，HSF是更加严苛的短路故障工况，其运行工作点轨迹如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUpDzh3JA1Phr3AvEX8rYPsH4yRmIv25HkaGO6NWJnfOFXFhSv6oPs8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_001_71d143784c05.png)
 
 1.1短路回路电感对电流上升率的影响
 
 短路电流上升率的降低可减慢短路电流上升阶段的发热功率和芯片结温的上升速率，减少热量聚集，增大短路耐受时间，从而提高功率器件的抗短路能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUNYtJeXxhkicCMdkz6NjJ4VvTxK4clkyXc6icIhRkJRQgy1rv3Hv5mSibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_002_ac5b71e0fef3.png)
 
 如图1所示，短路回路电感Lsc包括测试平台的寄生电感Lt和功率器件自身的短路回路电感Lsc,m两部分；在现有功率器件构型中，Lsc,m与换流电感Lσ大小近似。HSF短路电流上升速率的影响因素与正常开通时相同，包括驱动电压、驱动电阻、阈值电压、芯片跨导、密勒电容以及回路电感等。短路回路电感Lsc越大，短路电流上升速率逐渐越低；当Lsc进一步增大时，漏源电压vds下降直至芯片进入欧姆区，其工作点变化轨迹如图3所示，此时电流上升率完全由母线电压VDC和Lsc决定：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUWkS47gY4HgSxbuMib6Sibwibv5eahd4bJpCHljBpTAicTJ3oicsfJmibvMlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_003_6c1f78f581f8.png)
 
 当FUL故障发生时，由于功率芯片运行于欧姆区，vds\=Vds,on，短路回路电感Lsc上电压为VDC-Vds,on≈VDC，因此电流上升速率did/dt完全由VDC和Lsc决定。
 
@@ -51,7 +51,7 @@ SiC MOSFET具有耐高温、高压，导通损耗低及开关速度快等优势�
 
 以带有反并联二极管的SiC MOSFET功率器件为例，本节将介绍具有抗短路能力的半桥功率器件构型，并分析其换流–短路双回路解耦的衍生过程，如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUYHw5RgnTeFBWH9TC05ibTWoIm0SiaW3CFnrVIbOWV4MW3fEShZDkIkPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_004_2b4651e058a0.png)
 
 1）衍生过程a→b：图4(a)为现有半桥功率器件构型，具有DC+、DC-和AC等3个功率端子。正常运行时，换流电流路径包括了DC+、DC-两功率端子以及陶瓷衬底铜层，路径包络面积决定了换流回路电感的感值大小。当发生桥臂直通短路等极限工况时，失控电流由DC+端流入DC-端口流出且不流经AC端子，短路回路电感与换流回路电感基本相等，短路失控能量回路电抗极低，幅值为欧姆级，大量短路能量集中在器件内部释放。
 
@@ -67,65 +67,65 @@ SiC MOSFET具有耐高温、高压，导通损耗低及开关速度快等优势�
 
 图5(a)为常见的34mm半桥功率模块外貌，图5(b)所示其换流回路电感与短路回路电感基本一致，约为32nH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU6o5LjCG9oA3eMNDzA6W6ib1qKGcT5rVSDNuTkNhicSKgudjFeIEu8Rkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_005_acb8861f7c11.png)
 
 功率器件开关过程中的等效频率计算公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUjKSM2ELmovDKH6pbia30ryJicnwXr7BT58et8x24O9W9z1rmjoIqVKgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_006_930f786a9f85.png)
 
 式中tr为电流上升时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUIOlicBjd1gswibW5ONLroJe4zMialDMjIVvbFaVM8hWZicFXmDryicp8rsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_007_63b5f4e958b4.png)
 
 如表1所示，当前硅基、碳化硅基功率器件电流上升时间分布在0.015~0.2μs，等效激励频率为1.25~16.7MHz，因此可选取10MHz作为提取频率，利用有限元电磁仿真工具Q3D得到34mm功率模块的衬底电感和功率端子电感大小相当，分别占总短路回路电感的54%和46%。如图5(b)所示，衬底上短路电流路径与换流回路1、2均有交叠部分，若通过改变衬底铜层走线来提高衬底电感，势必会导致换流电感的增大。因此，提高Lsc需要从改变短路电流路径上的功率端子结构、数量以及间距等方面实现。
 
 如式(3)所示，当两平行放置导体中的电流方向相同时，导体的等效电感等于自感与互感的和：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUjtnXkaQrodRus2aJJMjhe3aynSOhiaD0CLFdO09zguEMzpRNicJeaic7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_008_2bef59fd34ed.png)
 
 式中：l、w、t、d分别为两平行导体的长度、宽度、厚度以及间距；μ0为真空磁导率。
 
 图4(d)所示的构型已经通过增加短路电流路径上的功率端子数量提高了其自感。进一步增大短路回路等效电感，还可通过以下3种方式：1）延长功率端子的长度增大自感；2）利用流通同向电流的功率端子形成互感；3）减小同向电流功率端子之间的间距增大互感。图6为34mm功率模块的功率端子示意图，由于模块高度已确定，其功率端子的长度难以再增加，故只能通过改变互感来增大功率端子的等效电感。然而，在改变功率端子的相对位置时可能会带来换流回路电感的增大。因此，在保证不增大换流回路电感的前提下，如何放置功率端子使互感效应明显，同时设计出与之适配的衬底结构，是优化功率器件抗短路能力的挑战。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU5TKcMHHCBiaT4icptwdkL2LKoLoUkHTr6ZT5KU8CtjRMxVAAfdrThHPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_009_dcbafdab0391.png)
 
 3. 抗短路功率器件的构型设计
 
 本节基于图4(d)设计出两款换流–短路双回路解耦的650V/162A SiC MOSFET半桥功率器件，搭载中电五十五所650V/81A SiC MOSFET和米兹米650V/150A硅基二极管，如图7所示。其中，图7(a)构型相比于图5(b)现有构型，保持了DC+和DC-功率端子的相对位置，以保证器件的换流回路电感不变，同时增加了一个AC功率端子，以延长短路回路路径，增大器件自身短路电感。图7(b)中DC+和DC-相对位置及换流电感不变，并在图7(a)的基础上将DC+和AC-功率端子、DC-和AC+功率端子并列放置，利用功率端子之间的互感增强效应进一步增大了器件自身换流电感；其中，为保证绝缘间距，设定并联放置的两对功率端子之间间距为1.5mm。功率器件所采用的功率端子、陶瓷衬底的尺寸均与市面上34mm功率器件一致，尺寸如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU5YpgpsGqYSHTlltWs1EWu0RMrR7MIibHVDMcr73Lw8vDpXJzzzRu3dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_010_bccdf9551d2b.png)
 
 图8所示为现有构型、无/有功率端子互感增强效应的抗短路功率器件的桥臂直通短路电流路径示意图。为便于区分电流路径，图中将从AC+功率端子流出的电流标注为蓝色。由图可知，抗短路功率器件构型延长了短路电流路径，同时实现了邻近功率端子流通同向电流的设计，以达到利用互感增大等效电感的目的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUM5ykk2Xyk7kazR0ZMiampeNLgXLH6DLfueRaiaR0onrDrtYMq0NHB5Qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_011_ea2189ec3e63.png)
 
 利用有限元仿真工具ANSYS Q3D提取图7中两种半桥功率器件构型在10MHz下自身的换流电感和短路回流电感，提取结果如图9所示，无/带功率端子互感增强效应器件构型的换流回路电感基本一致，为32nH；无功率端子互感增强效应器件构型的短路回路电感为48nH，相比于现有构型增大了50%；带功率端子互感增强效应器件构型的短路回路电感为115nH，相比于无功率端子互感增强效应构型及现有构型的短路回路电感分别增大了140%和259%。下文将以带功率端子互感增强效应器件构型作为研究对象进行打样及实验测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUQrmbFwr4qI8Z4XvZatHyTdnKkvRzkr7uHFPIcL3pHZNUUL8XMKB02w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_012_f84d6effb317.png)
 
 4. 实验测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUMibOPW6Bv8ZStNyCZyl2otfQRibNKj5XkYmx0PnH4IuhS82YD55L9e8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_013_ff7e371d4d75.png)
 
 本节将通过实验测试提取功率器件的换流回路电感和带功率端子互感增强效应的抗短路功率器件构型对短路电流、功率峰值和短路能量的抑制作用。图10为打样的两款功率器件，其基本电气参数如表3所示。此外还搭建了如图11所示的双脉冲及短路测试平台。其中：母线电容的容值为1520μF；负载电感的感值为500μH；示波器采用泰克MSO58，带宽350MHz；电流传感器采用同轴电阻T&M 2M-2；电压探头采用SI-9010A，带宽为70MHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUYgicicGCdfR8DAJOwjjWJPvSWGREKea7v5quVMLia3TXDZ3anfVB6icezA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_014_c9a64a5f8df0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUjwGL6qpdmM65z4WFfrE6fAb3h7NkK2Dmvc12LLM0l18wlxdVE6loMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_015_d06ad227dee5.png)
 
 首先通过双脉冲测试评估现有构型和抗短路功率器件构型的换流回流电感，测试抗短路功率器件构型时将AC+和AC-功率端子连接后，再与负载电感连接即可。在母线电压300V，负载电流50A的工况下，计算得到现有构型与抗短路功率器件构型的换流回路电感分别为34.2、32.6nH，与仿真结果分别相差4.87%、0.40%，误差在5%以内。同时，图12为两种功率器件正常开通、关断时的漏源电压、漏极电流和栅源电压波形，由图可知，抗短路功率器件可实现可靠的开通、关断控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUHfT5ZgFibLeXLTAsIJTMUW6jViaLEwdEUQK8QmVpvFeuX3VRcsmgIPWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_016_11c9567cfc87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUJdbPqwIPVMvBmAfiaV486exVGrt9IU3k7tiamYcbxiakPErAwDtciapLLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_017_a36b368914d9.png)
 
 并且，现有构型和抗短路构型功率器件的最大电压过冲值分别为372.28、369.22V，仅相差0.82%，进一步说明了抗短路功率器件构型未给换流回路引入额外电感。研究指出，由于SiC MOSFET功率器件的米勒电容值较小，HSF和FUL两类短路的电流波形相差不大，因此，本节仅进行HSF短路测试。短路测试时移除负载电感，利用导线在器件内部将上桥臂MOSFET的漏极、源极短路，以下桥臂芯片为被测器件。驱动电压选择为12V/\-4V，驱动电阻Rg,on\=1Ω，Rg，off=51Ω，母线电压300V，短路时长为1μs。两种器件的短路电流、功率和电压波形对比如图13所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUo1MbjJAneNqnqLBzXIkzhx1vhHs9RjgvHibTxwqB9AQeW91dj77gLow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_018_d5d66d7fb239.png)
 
 两种功率器件的电流、电压、功率峰值以及短路能量如表4所示，抗短路功率器件构型使得短路电流峰值降低20.07%，减小了功率器件承受的电流应力；功率峰值降低21.41%，抑制了芯片结温的上升速率；短路过程中的总能量降低30.04%，降低短路过程中的芯片结温峰值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUVRj2Tiac83CFUibqjdv2jYqtu5tbooatf4m84pjwpzuRXtkd9IoROMnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_019_672bb2405c6c.png)
 
 5. 结论
 
@@ -137,10 +137,10 @@ SiC MOSFET具有耐高温、高压，导通损耗低及开关速度快等优势�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_020_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_021_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于换流_短路双回路解耦的_SiC_MOSFET_功率器件抗短路封装构型设计_images\img_022_84aa944feb13.jpg)

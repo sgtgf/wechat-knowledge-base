@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/lcixTuVyMiNZjtxsn\_HEBg](https://mp.weixin.qq.com/s/lcixTuVyMiNZjtxsn_HEBg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUFLeQJQScGXUOh3HrzUaKuhWTp7PeQVs0PDDSmExtZPmWH6ib3u27MdyXQibQR3baeTykgDyuHtVmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___goto语句的是是非非_images\img_000_26a3a77d8e0c.png)
 
 在编程的世界里，goto语句一直是一个颇具争议的存在。有人视其为高效代码的法宝，有人则认为它是代码质量的噩梦。今天，我们就来聊聊goto语句。从编程语言发展的视角，结合Fortran和C语言，探讨一下goto语句的利与弊，以及在何种情况下可以使用它。
 
@@ -71,7 +71,7 @@ goto语句通常在程序中执行非结构化的跳转，它最初的来源可�
 
 再看看下面的Fortran代码，其中包含一系列算术if语句和两个模仿循环效果的goto语句：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUFLeQJQScGXUOh3HrzUaKukvj2C730bE7ahrKfvSsphuoJYboKib6bMT5xTgm8gXZYmS3UrcBBOvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___goto语句的是是非非_images\img_001_0c98d60bc3fc.png)
 
 在一个小程序中，使用一两个goto语句可能看起来不像是一场灾难，但当它们成为程序的核心结构时，程序就会变得太不结构化了，根本无法正确分析。上面显示的Fortran程序只有22行，包含六个非结构化跳转。想象一下更长的程序会是什么样子？
 
@@ -133,7 +133,7 @@ goto语句通常在程序中执行非结构化的跳转，它最初的来源可�
 
 goto语句就像是一位拥有瞬间移动能力的超级英雄，它既有可能帮助我们解决一些棘手的问题，也可能给代码带来混乱和破坏。关键在于我们如何使用它。通过谨慎地使用goto，并且在适当的场景下发挥其优势，我们可以编写出既高效又易于维护的代码。但同时，我们也应该努力寻找替代方案，比如使用函数调用、异常处理等机制，来减少对goto的依赖，从而提高代码的整体质量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___goto语句的是是非非_images\img_002_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

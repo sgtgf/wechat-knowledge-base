@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/CgtpbsiB9KWV\_I-FW8Uf6A](https://mp.weixin.qq.com/s/CgtpbsiB9KWV_I-FW8Uf6A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiaa3XrCo9Zk4w5gDkU4ibKrM0LSVAVKVD5Gq0spPAGy4oyiaicKmeLjgCRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_14_天线的极化_4_images\img_000_d346b45a90dc.png)
 
 __
 
@@ -33,7 +33,7 @@ ___€2.天线极化方式___
 
 线极化又分为水平极化和垂直极化，当电场强度矢量在水平方向振动时为水平极化，在垂直方向振动时为垂直极化。例如电视广播中，有些频道采用水平极化方式发射信号，而有些则采用垂直极化方式，单极化天线多为垂直极化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiaIXh5eq99cFDsQTl9HeqZyTk6Det0CwWmicVH31pTPcsSD5Wsp9HrZhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_14_天线的极化_4_images\img_001_35bc135a7c4d.png)
 
 14-1：单线极化
 
@@ -41,7 +41,7 @@ ___€2.天线极化方式___
 
 为了提高发射/信号效率，增强信号稳定性，多极化是一种比较好的策略，以基站天线为例，2个天线振子位于一个单元内，2个独立波正交，或者对单天线进行特殊设计和优化，提升其交叉极化分量，达到双极化的效果，双极化天线多为正交双极化或+/-45度交叉极化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiapqPibl1sKESWpptZUltuhicEV0ooRKS2DxgOp3UfaxL178xbibgXY9u7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_14_天线的极化_4_images\img_002_0f30ee2f13ff.png)
 
 14-2：多线极化
 

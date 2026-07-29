@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/UpS8s9CjAf6w7MJ7kZNLkw](https://mp.weixin.qq.com/s/UpS8s9CjAf6w7MJ7kZNLkw)
 
-![](http://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/0?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_000_6e6d80aceda4.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
   
 
@@ -11,19 +11,19 @@
 
 **传统电机结构：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLTHqQuDsvBFVXN93m7dQzvGp3GzhukSibH0wTsIeD79PpOGMzWNJPRRQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_001_5f16d80b9709.png)
 
 8极48槽，基速4000rpm，最高速度17000rpm，最大输出功率150kW，详细数据见表1：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLdBmd6zTP9jm85SAhQ01AYYH3iam3PkCBX1BWegH3COgm3gsibuib6bjug/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_002_d69acf4d7898.png)
 
 **机械应力仿真边界条件：**  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoL11vrV3AF9cRvVY0jo1FB33ibrfgf8K4nj2s8j5VSbnBIiadibRmb7XUvg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_003_66cd2591aba8.png)
 
 最大网格边长0.00015mm，转子铁芯材料见表2：  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLYiar2iciarDWRGz9db3xblYUHlbyGPR9FXjNKTkxK19WfsibfElWwbEsAw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_004_89ab0b773b2d.png)
 
 并做如下假设：
 
@@ -40,11 +40,11 @@
 
 **转速和最大应力的关系：**  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLgbfhXVW8GlB88ibSnHvAUh7sOLn8J9b0ib5at4JaceSeiaXbYxFJTkGlg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_005_5cbca902102c.png)
 
 **单层磁钢转子的受力分布：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLNI1qKdXtBqoZHjibmmy3mPaSEISNnVLawbaJgVn31AHsqMwmibWYddOw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_006_7fef259b5f09.png)
 
 **几种减小转子机械应力的方法：**
 
@@ -66,49 +66,49 @@
 1.  增加磁钢层数  
     
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLrK80wskKup9VbQykhslicicGS7iaCTB5FNgICfrOuJTuwGbrHz2FWTamw/0?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_007_54c6280cb591.png)  
 
 b. 尽量小的圆角半径和磁桥厚度
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLGFQVLlJvldHMFjKkgaSWPpjKUSwvI4W88g5rgGeTutorVX4yXgdEyw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_008_b262d6cd2ab7.png)
 
 **试验设计：**  
 
 采用部分因子设计法FFD(fractional factorial design)，选择了6个变量，如图7所示：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLa3zMmLuyhNIYFH9O2dNQicgSEdZyRaOt9iaBvDKM5BiavbcFM5wuzMtUw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_009_097445df5820.png)
 
 图8显示了3阶FFD结果，第一层增加，第二层增加和减小，第三层减小，有利于增加转矩和减小最大应力。  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLJjvl0Mf1nibhkxc1DExwVPbSiaDUD8SJRsQ6FRQ1TOAn9ic9niacZaTzrQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_010_1791b24cd82f.png)
 
 再利用面响应法RSM(Response Surface Method )和中心组合设计CCD(central composite design )优化电机设计\[_详见原文_\]，图9和图10是最大转矩和最大应力的响应面等高线：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLdoTfR8KJ5riaNGQ44JPVyYjWoI856Y5KstbUGBq5aiappSgsicsm0XDicQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_011_15a420fe6736.png)
 
 **优化设计结果：**  
 
 **传统模型和优化模型：**  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoL7w5ia9gLDkJPHB5OkNnFAqKLECSbwDg8vIBe2OvrunKTxTnn8NnMrFg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_012_4169f28012f3.png)
 
 C型的磁极结构。
 
 **应力分析结果：**  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLHia5JHbE1icYSdvWmG7HvHWicSmfd1Tcy0nDkunMl6ib9H0ruIe5xicicYibw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_013_5b5204539a06.png)
 
 20000rpm的最大应力448MPa，没有超过材料的屈服应力450MPa。
 
 **电气性能-效率map：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLHAQFNPicEBniaJ7YofaEZicibgUbtkuyvDD1Ho1t3MY0aFhribA2KhOlpicw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_014_97bd4f95340e.png)
 
 三分之一的区域效率大于97%，大部分区域效率大于93%。  
 
 **性能表：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzLibaZCcJE1dnq9Z1FVBpoLribYcoVJatd59IibYQFXjAIAZd3RNk7wtIdzoVPDXogZRiavrtkg7N9Fw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_015_e463ddda1779.png)
 
 * * *
 
@@ -136,4 +136,4 @@ C型的磁极结构。
 
 长按图片，识别二维码，关注我哟
 
-> ![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\高速EV_IPMSM电机设计耦合机械应力_images\img_016_d7f135e99ea3.png)

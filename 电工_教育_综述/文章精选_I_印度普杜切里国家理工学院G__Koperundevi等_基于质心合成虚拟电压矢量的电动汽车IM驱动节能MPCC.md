@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/C11RB6BKi5dipFtChs3o\_w](https://mp.weixin.qq.com/s/C11RB6BKi5dipFtChs3o_w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -38,7 +38,7 @@ This paper presents an improved, energy-efficient Model Predictive Current Contr
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178B7tRfU8SXDsF43UeAoRHwyMZZZDukNib4EvYb3C15fmOF2tYt2YSCIWLzArs6oCOljLF4p68nNPA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_001_74f37557ee99.gif)
 
 产生共模电压（CMV）的两电平逆变器
 
@@ -54,11 +54,11 @@ This paper presents an improved, energy-efficient Model Predictive Current Contr
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178B7tRfU8SXDsF43UeAoRHwaE4PqrMANfom0td0YRndmUsIOaOArTicgQC8qDERagrIhZicTKmrmd3w/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_002_5bfacb6ce2c0.gif)
 
 **Rinki Roy Chowdhury(Graduate Student Member, IEEE)** ，于2018年在印度喀拉拉邦的喀拉拉大学获得电气与电子工程学士学位，并于2020年在印度喀拉拉邦的APJ Abdul Kalam科技大学获得电力、控制与驱动硕士学位。她目前正在印度卡拉伊卡尔的普杜切里国家理工学院攻读电气工程博士学位。她的研究方向包括电力电子、电机驱动和电动汽车应用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178B7tRfU8SXDsF43UeAoRHwP71ZdbEGIl0wXezJYGSia9qAHGiadE0Og2mibhYxvEp3SVzkY7BJk8MEg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_003_ee2c0af9bf15.gif)
 
 **G. Koperundevi(Member, IEEE)**，分别于2001年和2004年在印度普杜切里的庞迪切里大学获得电气与电子工程专业的学士和硕士学位，并于2011年在印度钦奈的印度理工学院马德拉斯分校获得高压工程专业的博士学位。她目前是印度普杜切里国家理工学院电气与电子工程系的副教授。她的研究方向包括电力电子、电动汽车驱动以及高压工程。
 
@@ -66,7 +66,7 @@ This paper presents an improved, energy-efficient Model Predictive Current Contr
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_004_654c2fde68d8.jpg)
 
   
 
@@ -80,15 +80,15 @@ This paper presents an improved, energy-efficient Model Predictive Current Contr
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_005_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_006_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_007_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -96,15 +96,15 @@ This paper presents an improved, energy-efficient Model Predictive Current Contr
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_008_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_009_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_010_644d85f1cc17.png)
 
 学会官方B站
 
@@ -112,15 +112,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_011_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_012_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_印度普杜切里国家理工学院G__Koperundevi等_基于质心合成虚拟电压矢量的电动汽车IM驱动节能MPCC_images\img_013_c28b250481e7.jpg)
 
 学会科普微信
 

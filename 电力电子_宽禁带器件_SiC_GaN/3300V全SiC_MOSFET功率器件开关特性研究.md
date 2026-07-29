@@ -19,7 +19,7 @@
 
 **1.1 结构模型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRz7Byw7th2bJGqvIvTy1t8WW0U2dOukFSu05Gou7ibeUTUG3OLkRMBGww/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_000_30e8de2baecb.png)
 
 SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控制开关器件，芯片工艺正在从平面栅型向沟槽栅型发展。文中测试器件SiC MOSFET芯片采用平面栅型，图1(a)为芯片剖面示意图，图中漂移区掺杂浓度及厚度直接关系到导通电阻与耐压功率半导体技术等级，P阱区表面及体内掺杂浓度是决定栅极阈值电压大小的关键因素，优化JFET区宽度及掺杂浓度可以实现栅氧化层高可靠性和低导通电阻的折中。  
 
@@ -27,7 +27,7 @@ SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控�
 
 **1.2 开关过程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzzPKDUhOCBD1WarEjvYo2q8q92ehPlKB0InLFP5pDyR3WfGjkfp24Dw/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_001_b4ce6bdd03fa.png)
 
 开关过程历经时间虽短暂，但对器件的工作影响很大，值得深入探讨。开关过程是一个瞬态过程，本质上是栅极通过RC电路充放电使其达到开关的目的，其各参数可以通过微分方程求出。图2（a）为测试半桥电路模型。  
 
@@ -37,9 +37,9 @@ SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控�
 
 阶段1：阶跃电压UGS加在驱动电阻RG上，由于驱动电压远大于开启电压UTH，寄生电容CGS和CGD经RG充电，在t1时刻，栅极电压等于开启电压。这一区间的电压uGS(t)表达式及0~t1时间差为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzv6NgF5icp3ksqXwlTXgSXN0hpft1Vac52tGGbmQgku70V7saGXF8NhQ/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_002_ae95488a05af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzVsn03j3tGNjHufJUicLOtOJLkz8Zbm5ckIqPfqvxdicOX34n3GSkvDoA/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_003_0d122a7bab58.png)
 
 在开通过程中需要特别关注2个参数：①开通时间，其值越大，开通损耗及二极管反向恢复损耗将会越大；②电流上升耐量di/dt，其值越大，越容易引发器件应用风险。
 
@@ -55,9 +55,9 @@ SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控�
 
 驱动电阻对于驱动电路的设计非常重要，其阻值大小影响着开通/关断过程的各个阶段，很大程度上决定SiC MOSFET及对应续流二极管的开关状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzPjsTBpXFsC1IJ6dFTXSzKwcrdTleABOQjic1JhwIcQnC4KGLEianHYBw/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_004_a94c2e169623.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzvfTQCQmWaHexcicOniaAhiauXBAhQHTlZ93iap8XfBibWIJ36h1YDBvgcNg/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_005_36b46bb54fa6.png)
 
 图3为器件开通/关断时驱动电压VGS、漏极电压VDS、漏极电流ID及对应续流二极管电流IF随驱动电阻变化的波形。图4为器件开通损耗Eon、关断损耗Eoff、对应续流二极管反向恢复损耗Erec、开通时漏极电流变化率diD/dt、开通时二极管电流变化率diF/dt及关断时漏极电压变化率dv/dt随驱动电阻变化趋势。测试条件均为直流电压VDC=1800V，额定电流ID=750A，工作结温Tj=25 °C，总杂散电感Ltotal≈ 97 nH，VGS为+15 V/-5 V，开通电阻Ron变化范围为1.3~2 Ω，关断电阻Roff变化范围为0.9~3.9 Ω，其中Ron和Roff不包括内部采用的集成栅极电阻。
 
@@ -71,11 +71,11 @@ SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控�
 
 在SiC MOSFET器件实际应用时，由于开关损耗、通态损耗及外部环境的变化，其结温处于不断变化中，而结温对载流子浓度及其寿命等有着直接的影响。图5为此款器件技术手册中转移特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzHVicIeQ6eicYDVYG1BwE6XUQnyfmYZFs18ibSvRPHnNQlqPkDARiaSMjUg/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_006_4104de870a74.png)
 
 从图5可以看出，随着结温的升高，开启阈值电压UTH呈现降低趋势，跨导gfs温漂很小。假设gfs为常数，依据式（3）可知阶段2的时间减少，使得diD/dt和diF/dt增大；依据式（5）可知阶段3时间变长，使得dv/dt减小；在关断时，依据上述分析同样可以得出相似的结论。高温时开启阈值电压较小导致器件更容易受栅极电压振荡及开通dv/dt过高影响而误导通，因此在应用时应该采取有效措施防止误导通发生。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzM0PrnW7rxyD491kcHicGJfKvIpHTJwefVfPCgQBDqNz5PRNhKwSe32w/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_007_40ae5f1c5b84.png)
 
 图6为不同结温Tj下SiC MOSFET器件开关特性参数试验数据，参数定义与图4中相同；测试条件均为VDC=1800 V，ID=750A，Ltotal≈ 97 nH，VGS为+15 V/-5 V；Ron=1.3 Ω，Roff=3.9 Ω；测试结果与理论分析相吻合。特别值得关注的是，随着结温的升高，Eon减小，Erec和Eoff增大，且Eon减小的幅度大于Erec和Eoff增大的幅度，使得总的开关损耗略微降低，此现象与热效应构成负反馈，此特性会使得SiC MOSFET器件整体工作热稳定性更好。
 
@@ -85,27 +85,27 @@ SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控�
 
 图7(a)为双脉冲测试时含有寄生参数的换流电路模型，其中LC和RESR分别为支撑电容器寄生电感、等效电阻，LBUS和RBUS分别为低感母排寄生电感、等效电阻，LD1, LS1, LD2和LS2为器件内部寄生电感，CJ1和CJ2为器件内部等效寄生电容；图7(b)为图7(a)的简化模型，本质上可等效为LCR电路，其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzr4VMC4ZLyWh6kNr0mwKv9nVEAE1HqoyzibTJqAIJPf6hoLL3bKdiaSLw/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_008_7116740068f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzjFoROYTSga1cspbMEDKrl881W920c7rPXicJtT1d1w4FscgEaflZOOw/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_009_5c06db1ee360.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzxJ2A5s9oav7zD0OibjH8ekABfIhrX0ZicCUQz07XyAnNXBZicMCCYlTmw/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_010_42d6ce7a4b3f.png)
 
 在工程应用中为了抑制振荡，常常采用以下2种方法：一是增大驱动电阻，减缓开关速度，但是会增加总开关损耗；二是减小主电路杂散电感，包括LC及LBUS，不会增加总开关损耗，为最佳方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzBnMvfzS5FukM2d0LRbI7wXXdzxaiad7iagUxnPclUQDXGVsOjNE85XzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\3300V全SiC_MOSFET功率器件开关特性研究_images\img_000_b2dd6f7b04b2.png)
 
 图8为主电路总杂散电感LS不同时开通/关断过程波形，表1为此时开关特性参数，其中∆Vmax为关断过电压值，∆V为关断电压振荡第1个周期的峰峰值，T为第1个周期的时间。测试条件为VDC=1800 V，ID=750A，Tj=25 °C，VGS为+15 V/-5 V，Ron=1.3 Ω，Roff=3.9 Ω。
 
 依据以上分析及测试数据可知，开通时，随着LS增大，漏极与源极间的电压跌落越大，diD/dt略微减小，Eon减小；关断时，随着LS增大，关断电压振荡越大，dv/dt略微减小，Eoff增大，振荡频率减小但持续时间变长。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzMWnuIdDsKEZicuuwYJ8NDaSQoxIOhVAfLrw1A0GibRRz5UQALTZzD0PQ/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_012_ad0536b597f5.png)
 
 **3 样机验证**
 
 在使用此3300V全SiC MOSFET功率器件的三相逆变器样机中，按照上文对驱动电阻、结温及杂散电感等因素的分析方法对其优化，取得了开关损耗、电应力及振荡等较优的结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzPScdfiaJpNNmLK9JkiasHbADAxhiagFmzzk5PRqq4BWKbPDbH28ialxxug/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_013_1851ab55372a.png)
 
 优化后的双脉冲测试波形见图8（LS≈ 41 nH），详细开关特性参数见表1（LS≈ 41 nH）。对比图3及图8中LS≈ 97 nH时波形，振荡有了明显的改善且仍然保持了较快的开关速度。图9为优化后逆变器功率考核试验中某个半桥器件上管的电压/电流波形，组件运行良好。试验条件为VDC=1800V，VGS为+15V/-5 V，Ron=1.3 Ω，Roff=3.9 Ω，开关频率3 kHz，电流有效值375 A。
 
@@ -113,10 +113,10 @@ SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控�
 
 本文从SiC MOSFET开关特性出发，从理论上详细分析了其开通及关断过程，并基于3300V全SiC MOSFET功率模块深入讨论、验证了驱动电阻、结温及杂散电感对开关特性的影响，探寻了其变化规律，指出了优化开关特性参数的方向，取得了器件应用时开关损耗、电应力及振荡之间较优的结果，为后续器件研究及应用提供技术参考依据。文章只对正常开关过程进行了分析，然而在实际应用中，非正常工况偶尔也会出现，所以在应用时需要同时考虑过流、短路、窄脉冲及小电流等极端工况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_014_ea8f01f5441e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_015_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](3300V全SiC_MOSFET功率器件开关特性研究_images/img_016_1241954b1b67.png)

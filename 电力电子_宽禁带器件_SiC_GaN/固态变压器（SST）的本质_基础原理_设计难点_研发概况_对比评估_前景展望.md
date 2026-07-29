@@ -10,447 +10,447 @@
 
 引言：固态变压器（SST，Solid State Transformer）又称电力电子变压器，核心本质是依托第三代半导体器件+高频磁性元件+智能控制算法，颠覆传统工频变压器的电磁感应被动变压模式，实现电能的高频化、可控化、多功能变换与隔离传输。其核心价值是将传统单一的电压变换设备，升级为集变压、交直流转换、电能质量治理、功率双向调控、故障智能保护于一体的电力智能终端，是新型电力系统、新能源并网、算力供电、智能交通领域的核心核心电力设备。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfsSh8gice3BEWnc82Y1dCDudwU0vcefZzS9rEiaQGd3Ol8AK85nAxZJ3Q/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_000_74786729e7f2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfEuiah5ibBibCFQYZ1q9T8nHX2bGh6jNyK81RyjXubiaibLPwk10uuIVqlFA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_001_5ea4162e4e73.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfpKiaaQ0eiaRkqicG0hIjnQKUn3DQ2CgsuAWQxES7je1PAlxVVfFMghaEQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_002_a3892e38d774.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfYdeJadVKf5Q9y2a8JyDfPZnuDXqD7jwJUibI8icYTTAguHroM01TDQJw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_003_b6cdba2d01b3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfru6g48yyticEDia8HmwKAKSk5ibXvsraHljfiaaGmVpksicUgsT53NCf0hg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_004_517413c29d59.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfqyiaGLEGsdGicKsMoJJ5Syic64qdWX5J2v5pia7Ap0R4rfrUZcic0VpB6VA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_005_e6f9bc1def39.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfib9FPIfCnTW5w3BL3uhjwIZicQf2UTVrx1iaoJrRibx233GnNlVaDPPWVQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_006_13e29245cd6c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf551kuoC5Gfv7bjmktdjJ24x8ib9kUibTh3Sk9B58nic34MRicxic2GJdR1w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_007_4c75925e2805.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf9ODM36eibRpSKYTSt7WgCgH8qj5rFbnEWUhm756jiaREWSLV1OoKalZw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_008_6963e54dfa96.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfjEjWHYNIo7Y52uQdntSS44CChMlpEXKNKwfoGQNdR4fuctBAUL5MIQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_009_810745174960.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf3l5rJ3FVia2rQ6ia80JeficBAgrtCQTDhMoE7btoFYDfb1cNianuGBhiacw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_010_9b787c882dc2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfsJ9Xzh3kONIO0taNkZKtfltUibs1RISCsovLoxYLicxMQAric1fClEoCg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_011_04408840760c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfvUwykFfibYicOAMUibegjiadfYXwXZrvTtlwtibduNVNGEeyRSVZOWksicKA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_012_6830f134fbca.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfAuOZt0vL7kx9Ib3hJQDyPXtPY9za7buzm96v3Dabbvo8xQJ3ugqkmA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_013_57f3d5acaccd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfibUj3ensuiawMREJlkIKzZx8BeJ81535jzZX1uuj52ouKVnicBnzd2gyw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_014_3eda7fdb7b02.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfiaws4U8z2hObKTBVNrRhzt8lwxANibJzS7iaXsNvPG8SqtwpeV1ulia42g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_015_d1b5dcd71b04.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfp6iareN3lwJdmiaOVJxdChicicfJe6jg1uVA6lZPcvZmoIicUh5ZxgcYjxQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_016_2249f2d56481.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkffgXicyjejq4Pd88TNuUW2voibtMP0ZJP0ic1KuMYrTSRWMhFxKQ3icvhwQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_017_4bc5ced0ca1e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfkKFB9icMEMiayv2knicbqyicvQN5W1sJTsIfnYEHvoo5CDsPvj82licovew/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_018_e057abe03c87.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfHkvLoEcYtIgLJ8icIIENlTwGFtfSRSNsHaliaz5goXcnLibOqPVkKVpYQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_019_e755b4dcde7c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfddAwfGFHaXYIqTjBzGHnv8O9ozElMrqypDPcIIRPsxrOOkPvvwwGXQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=20)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_020_38e925f6ae1f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfwHv5TnLa9VR7ZCbhtiaRhz5H6qsBffspwIEKjemWkG5ABj9EBckobsA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_021_5eadf1ace301.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfg5yWyEbvZdWtwd4v3388unUxhmjiap4mB3a35V4dJbmaehKt7UG9ictQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=22)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_022_4b8a820ad68f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfjia7GRK1FH4dzFR5Zh8U26FBstD5AiaZfcuIFgzqK2grMUwJGrhg2Jog/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=23)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_023_129988e36b7c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfUj4x5zkpCkzaB8RNTMHRiakPeIZ8up9bqrsyR89XxQbz7YCpWH9jtsQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=24)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_024_fb2426e0968d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfRlWeeVgrMVC9XU4oMcmHribJG2iaNU3HrvAgf04z6Mia4awcb9SXPqibYQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=25)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_025_1b72d1f495af.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfHojypIUVfEjUBAbA5V2rCNWy45Oo87jsibRLWpHUtGYyL2OiaBr61yjQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=26)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_026_c6d96fcfa7c8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfEUlCt2a902Phk9bPtW98N7qM8Ub9vIlmjZL0U61vrldBI6TgibsVn4A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=27)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_027_6fc64a3a3b2e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfz3JY9qk0mcl28vR22DDkPWBoOwkV4zToTI9cycsbONTVwrku8uOOmg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=28)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_028_fb30894e3384.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfOOkLWxdD9FeBQY9GYOsn6KicYXJ7325jFVzQia9OTdF6VWEuD6ibVMDiaA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=29)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_029_05015956d6bf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfkqjRaKicD4w0vIrPjEUz3yzAXicQlCUGWLAtVvkqibH96jvCWquM2zNRg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=30)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_030_2cdd5a7078f9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf6lAIDwibkqKe0ZFpcqyeJfjJo67Tbnic6AicsUic9iaVyZI8sT5x9afiaXzQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_031_0c14720dd4bd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfDoXtC6EdKF8KQDtSvJ4KwzichY17tjhSAQXbcG6kiaVCCr5rib8Yxp3HQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_032_a6eaebda9f91.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfic20RsrxBCsiczIyickMrUficBBXeTkXYyOJDWURAbW7EGJD4UDiaHIh4Hg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_033_6b414502ca38.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfaLUM8uxhl75CZficFichic9zt6KksmvM7HsuicL9X6toO8fmG4VpYz4NkQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_034_747eb50b95c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf43sS2d3qFUeLreL8pCxNjRMD5Szibss0JiaZtEXw6SIHg1WqSoulSzAw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=35)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_035_53a14aa39544.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfNrKuA3Z6icAfzqEvOPOtlZvFRWUbyQIz09Qold8eoWPvxP3QlgcEkWQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=36)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_036_a10eb2b26f41.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfhSI7EQtrXc9apDDF8KB5TTia5Zsj67SO7ia4wIWFRkPYpHXMMybb3YPw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=37)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_037_64829021102b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfrAXgWzE36Kg9SpsaLcaAXey7Kj4aicbKq76fekeEdIsV6tTq5HQTYng/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=38)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_038_42ef1e8ec97f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfxz9D0qGg7fHouhqXVwXukE2po3dNc68vb27vicss5UCv6sVghH08v5g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=39)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_039_475359cdb8ca.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfIfq6ibeTk3MBgVbC5t1USK706ZOHgibB5EuiaiacMsHjyHCQ7OHAUwOz3A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=40)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_040_58b5a3d51903.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfGUvrHA0lIsicOnicKAicIuvsHNZnamUQaGbIg0n5GjkL85uZDwBAibTjKQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=41)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_041_fd48f27ddb33.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfHav6uF4hiaNCDxrzy9D1gf0AHuJasTxkW8jPRrlL8SAzQPaCds5kQqQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=42)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_042_0e818967eaa5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfibL9fTyh1vRoSGjGOctZ3UFJnR1IxOOayrUdle0kmQUjxRgkkT7ibfwQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=43)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_043_8a712a44927c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfJv2RgYddekIECTCHs6oIcNdvyM5vbUlibojTOWljLoibzLOTNJnNCqibw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=44)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_044_e871a27adcac.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfL08p1icfUyDf5ia8wgY8zmKj1t9BUZGy7H7jRM21CwCesibqAVShZZcjA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=45)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_045_b41ed424a658.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfGjd3lLFiaWzQNWVJeba8zASQotqoIcEGGXjWPDcnn6USmZ1kzupiaiaXw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=46)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_046_b2fed34d1668.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfn8hicQvbPovDPaIuibW22WAqobEJjEHyOTrnXbYS7wvK4s83Giaw0iczUA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=47)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_047_e190670e27fb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfia608PtHH98y1MOZn9wJO7Ux7r4Xoag3fHVlNpJONXMuMCzmbxFx1xQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=48)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_048_c1b85bd794b1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkff8hkQ21TPkibNKeg4Yxhn1lg5du8SibVdAf36JxHKdSGOYkEx6oexnWA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=49)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_049_c460e8e5e7fc.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfpyCCU4oEiaZOpPJL4PEXng5EgOvLCM3iadlPl6j7tjZia0YZlJwcrKPBg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=50)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_050_081b3068cda6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf3hKhXbkB4n2G9sFicHVUP9MhlvVxl0037kFTDoqHqXTzoGibUtqfOKFA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=51)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_051_2dc294525e00.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfavpqFVa1cfqiarUMgXJicGP7ADd3MiciaJ26aDGknr79gXc0gmZU8eGAoQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=52)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_052_ad282c0249eb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfYJGjuK8bV4BysdkCmV2Y4ahgHAdhEYia3ZFteP5rnsHYmVkzBjvbNQw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=53)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_053_a7017977ef03.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf1lflicBSPU3sy1dsqGS8y9SuRR5cgYUr0oX1TZAMEyAujRxbrAorttA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=54)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_054_ba66feee6103.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfngYXdibqp4KIEHmSwicgStiadzvic4QmXH581WwAYe4TGpJ7ibfDic8VibD5g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=55)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_055_9a80f791e9d1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfROaakfSWdZOoNhV7vQuMauZWbvj7oFL0B4G3y1LQ5qp7Kg5RWbEoxw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=56)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_056_443ba22ad84d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfGagm0kRicKvXBmBno3sQZ38Full5urpKLjOKANEOFH7XQ7nZr8ldXvg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=57)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_057_f25a9c587fcf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf1yLIib4a0bN3QrSSg34kdAmxfMtCODNypUS0UyicueZKf2Y7msv36mZw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=58)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_058_ee9bc792fb83.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfCS24Pb65owNFsicgzTRtqlt1OLWUg4Dk1rLNXbAibiaBmLoMzzr3L9Qibw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=59)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_059_5401364e6e75.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfh2R7b03gA8Tmaib0E31c4DtrcwHfDhTjWWX7qXicspjo7S8hL07s2aKw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=60)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_060_025753ded59b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfOoW822qnUZXdic1u6vRD1vP6ek9EVTWqGvoZ7vIYU3I8dcXNF7WSFkg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_061_f8e2827fe6e5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfg8rAFs25Qab0GKthUGHQtrbKibSLnEU29uXAp5KkuoIq41N99ATv8XA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=62)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_062_522cfe87289d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfgKFAU6uwYOAEW7bbLL5ka8jFOe0eGHuo8ZmBHmE1nicmrf6wcfvFScA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=63)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_063_5408a0feb43e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkffiao0UAoaEvR8KibOuUhw4UM7ushH4dOJq2lgXsqAOot3VLLNj1eGicHA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=64)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_064_e1c2a11b256b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf04YjnaW6D160D4Cibe65GJUe9dEN8LSOn3F2YFj4NW7kWlE40NORRibQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=65)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_065_d7945630a271.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf1ElUG8Cj4GPJ8RsxM9zCCia1SZBHbNfAezEfmCKECWiaa83fY9hlm9uw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=66)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_066_186750c9c5b0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfVRtVw7nhte9K3icRiczT7aeXH3beR1tSHxcbDILcFPuEPIb2IyVBPV8A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=67)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_067_2785daf776e3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfD2POZicibAOTQLqm1yl80ia0FgFZMLSt02YYGfUKMgoEcjIB7ujzotI3Q/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=68)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_068_4c6190551f67.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfMYCc4m7ZT5rxnwVwYIszOQTnnnEPX1XNzA49G73KHe0pYgQBuSb0Kg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=69)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_069_d8a9f074aa3e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfEjicvyicL0Q9sib6PFQyJORuR8S6AUkwTtJmiafKlle74Tjn15ax7lOCWg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=70)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_070_b1fa5361ff8f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfBsUsSo40WG59ShATMe57Y317S0TbUM5GRUfBsZxD7Mp4VWqQaJMnzg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=71)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_071_7dcd383d3227.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfCyicAXxjnkNSavmSlfzeYLHRIFdE7PGibbhIhmXFyxs3q5aC06RBiaeicA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=72)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_072_8b7889bc917f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf4Q5PkCwpdhGbEMibOOy6CYUnWRh8YZ2Uc8XAMZWCnOGz5CC4nrDqeeA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=73)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_073_925a4b21c7d0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfMEia6CgF7LprPuibz666oHTbWDqvCsZwYxiauYfOFNWoe6nwCNNRv2SCA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=74)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_074_a1877eb0a848.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfZhL8szticnkpuYZA29ic7qL9y0MWnnYszbZLHp9R0IUZRoldEAicZE8eQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=75)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_075_e5e8c479374e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfj2Fy1ia31zXrjyDN75J4BCUpKV1EzUoUemQyNRrn7Micz2swjVTo4iaxg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=76)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_076_8e43f1146a63.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkficbqicsOjXcpn6LH4KRVDK6tIc6tR4OdYgPGd6YEO7M50TdBJwBqKhkA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=77)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_077_b2152b6d6d64.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfddVicU7z7CYPLKmtJUEJI5FphAIp9Sx5wiaftLxJtqb4ibpYfqFMyibeMg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=78)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_078_a84fcfdd2552.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfhQvSkcAkVtqbfLkPyu6rH5goiatGFDzegkFsGYyN0RQBtvMxxs81Vow/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=79)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_079_dc8e707da6b9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfjFQQibfHAzSuiawrnticc4zy4U9GmBOl72Me6XNwGSibwdAuoGCbMLpbzQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=80)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_080_a1e4b1b70c28.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfaH6uQxfkYPjel3FibIiasrf9RDaDRLU9GzdKrxHE52xMFUmiagXyDWH4w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=81)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_081_67c91aa57649.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkflOG5eGQbqmsfk5vxyDAB3oThSlVfnW0hv7iaxdH0d3zljKroWtyiacMA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=82)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_082_67df7ab23055.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfQp5kO5iau5CF3g0t8DxqF5BFlc53Ozm7foDh2Ga6XrfbiblNrgLG9rmQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=83)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_083_bc9e322bcc23.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfhEIxaky3DT1FIddvR5FkV9tQhjCSAfJgyb3icPWY9qy1Jchd20MCA8g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=84)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_084_46aac8704405.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfUdKth5icDplroPkA6NqdBrL177iaaxEqSO641pqeJAFbtjvia3FKmK3VQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=85)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_085_0eb03d495bdd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf2G9pDibXvgib47Lk48bcyiaMxiavmugNd4YH8qBJBXUpj3wf2xVibF9JNicw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=86)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_086_0bed413680c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfzoa2B08mwRv167wrljTDKBN564N7CKu4SVVEkwCRAceuLPt2uZyxhg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=87)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_087_dd47d1bad379.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfq9r2GqjAOG0OzBjoIkTpibtz1mqAnDT9DQ30LgBc6WO66XmA6rgjBlQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=88)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_088_feaa9cd68d18.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfO0DFTnzBrLIEeq8c3K2hOzPPOSH0uqpX7YzT2rapNwxtXtpe6BkTOw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=89)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_089_0b525d8d3dc2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfibZGj4p9sECVS0e3JgQ4YDIbXHibDic8dqAcavUxPeJlGoroa82zkh7ew/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=90)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_090_835d4b1e1f08.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfRfDQibAmHIu1DSzKkEkb1AhfPOeg1CmluibZtvXLy7f8KrFhMXPqVTdA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=91)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_091_73b1aac0d1df.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfqXpVVcsB5pgWwCOZPL5C2vXsMQldOZye0axL1Upygv0euA5aCqnq9A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=92)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_092_56368369d474.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfNk1NOsu2wb584dgvHltibsGAlalsXdlZuc8O6fZabGRiaAL9lp1QiaxlA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=93)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_093_45a3335f4e0b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkffmSq88q8RFTrYLEJJeiaQbmgTPLibyFGfFs1BKias4W8v5gRNUqvqz8tw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=94)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_094_8f49976ab1d3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfaIQyujoXWhOdDRheicribqbNticdDI9pJeSCcYwKLlVZCYH5wJhdaiaMjg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=95)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_095_5aba90664502.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfxJ4krYszOUKibevGUHbnd3B2GHddmQXdkGmcnz5sldNfsIfn6OKqsMw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=96)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_096_5fc26c684b09.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf96BJZZNghVKiaia3iaLSYRoyR9Sj2DUlVdofnXweJxwJrics0Toql7Xd7g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=97)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_097_c55713740af3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfIVqqYuajA6z6ppnSc456koODDlaoX7CxOVzgqpWDMeMzO9emPAicFEw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=98)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_098_736b9ea969fb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfnH46TmbCm57sZnQyuXvv2KP30LyYb36yZvyoiawIe8RLMNfIFUodqpA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=99)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_099_aba3c709f5cf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfY0STGiaukHeSCokfQMgEUIsZl3xWY8eP0EAPV9953luY9JV0kAt4Bww/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=100)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_100_6aecafa00533.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfLe9o9hj9jXKS1H0MEjOdjQLPR3ficbHcCiboySCvnBqAXL8HQtoe03yA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=101)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_101_447440d26dbf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfKHk9ibJ1y78UuH1eItzbBCxOyRtbKohcKmiadWMNP7lSFoldiaKE747cw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=102)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_102_4c6b87d47af2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfaTBTDBY9GKHv1ysEpvyia7icVJ6DpV8bccVZm7ibULE63kuMDUQ1mIQiaw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=103)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_103_6d20165df1a0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfFGlv9ZeiaQUd6KaRuGmZxibyn9ULd4ia1MLSDvTfJHibqMzFY9mdCAgmOw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=104)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_104_e71cf2f92617.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfrwtwgFhIPkvTqiay9qrsXDA8dLoxPsPFgoSjZ4ZiaUlUtoI9X1mIRMfQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=105)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_105_675d2bd4c1a4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfj1micOiantEj4GDWpGzf735Gp4Jjfic8XibZsJEUVWkjg8ric4HHr1RlOqA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=106)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_106_988671430dbb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfDn7YV25zHCFpHB8EKgaFg4mRv6sJySyUHKX3WnFmDxSwibr5GJpyDYQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=107)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_107_ac35029e4049.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfAPgNrWUTOoLYPet5aiaMMAxTu4ksXon1NDyovQGCKeKNrQB2p1WTdjw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=108)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_108_a4076b7b8bca.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf7r71rk6S3HHlNU22EKhHKpmicu4sibnmg2bv2RtHQ69VtpjmwpfqNsgw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=109)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_109_f60330a81147.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfD1f1nv4icicy0fEeZpK3YJCTf6wRB9rpYbRzSUZLazHyV5Gqbia2g59XQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=110)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_110_ae9814822325.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfH9laFWLT2bPQdQU7bribx2c2Hmu1Xibc9YYtvfwWibMgGYRXzaq6G8ibIA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=111)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_111_0acc806bde01.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfiakANWu8IO4yymFH5ux59RB8pGLB1U9MmjE8zyRb9KxxgvwmOu8wg8A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=112)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_112_6eaa5d8ade09.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkflqYpJL4NnXK4Krt2H4ash7icl8K3HVuaWPPeKkEBWG0PS3NEbRw4ezA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=113)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_113_59e9c485ec36.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf5xBt3GalwPfT3EM8PchNDqanw3grP9WKPMZHB9wR4t1oribBUgWQskQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=114)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_114_0d18199bfd66.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf4J5icRdNuJKyquACtSkgkTol3UlSLctLl7ylUYO9VhICBv0F0ZGkCbQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=115)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_115_9d8562946c72.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfMVMrEX4jga13qYLCIjtKH91ORn5ujvwAykXahA5qiahSLoCrTC7O9Jg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=116)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_116_bf16dde0b0bf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfbNcBDaCia9TZG1Axia3iaxE7NA6Fe2hqfuLf7xTtdxpRbnl5ZH5ibky8YA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=117)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_117_33730e92c555.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfsIUqqK5qBzGqN3tCCmmtIBfMSrH2DUsKicQ1282dmpqWaBibCUJzw9GA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=118)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_118_b9fdd59a0344.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfbUgLBYMvVA3NJrDNicvEEDppjcfzdC9bHnINYD4o4IScj58biciaONziag/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=119)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_119_627435210794.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfQEJTTZ9A61IdZoPWjicCg292ibSjib679jKme12TkkLfPf229VtGLIhKg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=120)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_120_fa3bb936967f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfvgUlZJdJmjIFlibaWzOGw5mWUWPKgnRygcOTeOyyTicPcfyJOlsQ0MPA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=121)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_121_718217a0b08d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfM2vvJTmprmTBFEqrxKpMvowRht3qM0Sh1s5Nw4NeIpowL8Cj5ticHdA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=122)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_122_fdc29bbb0c8a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfNRVEH6HWUwj2cbqD6sEC5Tby0L1ibOYxDmiaawIgJE5pT2PZyFHthvKw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=123)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_123_b3cc19ec5d7d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfekp6NNLMqL6d3jAuCqSgvEaLibQjufZnT7XOfYIICQOfd8yWCZunHVA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=124)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_124_fc38d06fe9bb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfREiaHWiaaRk2Nbf1VhuIXqVNnG6QfZ5d4MUTXCTbadnh4JruicYvLh1Nw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=125)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_125_536d9bebb2cd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfBRRlSHia27YV2dic5TAoxVOLia27I44laaeFMQ2DM7IWj626lQWU8YlaQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=126)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_126_092e22fb421c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfIuriax9eTwVIViaCticaaxIHbpwdbtjPV1RWwAicP4HbCpwwqqYaVUUTWA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=127)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_127_33662822a714.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfvBCrmYwOicf7yZsfgTjiciaLkmibtXd5HGdIGBu7EdvnEKaibib03en05bQQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=128)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_128_330299cb0d1f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfaftpGpjGKwYsWocMk5ZlqojddpicrmrWJUF3bacAOsU38kvsywny6LA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=129)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_129_444ffee080c4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfzYO6oBzg4mcLJQwg9yiaoXBlbqWQb0z4AWDjssVUNhFWt6SeAeCoibPA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=130)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_130_4ba961419ad6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkficzb6uacZNLaEdItdjRkrWrZzc9wqkIJASrfiau65WnQDPiarxiaBvkstQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=131)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_131_89c9bda6035f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfATCkN2YMmmZdibAic5DKHjZeLd48FF4cDrnwVsRGr5kBajpllKLbaLdw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=132)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_132_7be065f7b96f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfKuznQN55VU6zWs1yCwrK6kibzofsABxuL1yicXJ7EKae8dibMibLzfaA3g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=133)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_133_9937e9c1a5d0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkflfskd35OpTXlejmb716b5DLicriaLBXXJBRyUWgK9YXtkfzRhvtsiamKw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=134)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_134_79a60dcf32b3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf6vMKakAhMbvG4DaYHuv4f9GQUabhJja0mXPywjMJbo8eJYtCMWuPCA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=135)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_135_cfa310c036de.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfp7HZ1QRg1mtJOUwsfs4zKicIib1SNg2ebPeylD0Mwn4x7Bna6yEicic6pA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=136)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_136_e42ebd353007.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkffoibdyqianpmeMTPPnNicKTfczzicTpGJibAgZbtktdMkOkgI1SLa5HUic8A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=137)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_137_3eaeded0968c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfyBgI8WwHicUtFicpKdxsK4mLOV3QZwjZ7smWZGeyQFiagzteSZoorbaQg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=138)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_138_55eb57f3929b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfMgrzdoibjcRnFfZWooiaeialvq4ibjpBicqXxwe0FZA5vEeWtKprKY1LQcw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=139)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_139_ae712ecb76f1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfwgFwDww0jnswL9tibicnkDPCFU65F8xwT3ZSdI3pH0Aa6BVVVgt0AZJQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=140)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_140_331c527c0f3c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfAVaicX1CIs2Y95vU6oGPHTm9Iy6BueTXMiavh1O6cTU7y8GG4Trfsoqg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=141)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_141_b8b6f5b048c8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf3f8hNDeW8cXgzbB3oxkjicJUbn81Ycs8j1sLZR2KK2GXdTzb3rySbRQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=142)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_142_d590a396cf6a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfqjcY4my6q5soiaZ3emPlFX02EaicNsqZdTkXN1ExgicSsib5FYxXtwBToA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=143)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_143_7349b466dc90.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfzK8G2Lsuubm60WWWXn7bbdD050ooOgvd8Ex1DIKVqfO1xv8ldiarBOw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=144)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_144_0b280a67eefe.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfT1XcDwlWkKTic0UzPD2k8arvA2Vh8BmLiaMRTF7yHjNf2CCS68uaQicTg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=145)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_145_af1c22d8c9cb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfpCMnIbh6uGl69csiby5iblSQtnFNnmJ7eE99jiblgSBjBUHRrVljmz12Q/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=146)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_146_0426c93b02bf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfhZrEWfPicqXtDsx4QYicsIO6bpzECTQ8DSiavlsKrfDmboYz9FMlqlNZQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=147)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_147_495fcb0ecce3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf6icGcZnvcHzqqRJZeAJva2xJgEZyFiacItJv7icoefGOPxiapwSGdPicwIg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=148)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_148_bd9299b7a193.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfHb2CSmNS5EN3M6GKD9In1mpU14NEBYFhvHEC0p39ibRP8fWyxKvJXvA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=149)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_149_aee270310d32.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfh89ZAr0Ok8KptibZnP3GaTUA2icmRFpvzUF1AamPLwicPG3t9syVnxJqQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=150)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_150_8928884f2342.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfSl64EXT1cKowIvP9aThAveaEZFjzH4NKGAP7xnkz1oqxriavl1b5WiaQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=151)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_151_403a548f45bd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfJWaQQLs4qAicQSFHicSdyfKyfSeicZvkjYjB3HzoYtDBKSax2kCPnwlibA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=152)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_152_89c6a2fb3bff.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfUlo1OPU5tMmDmKD155kv8LMsTU8o3icg8dqtSHkvQkiaj00VlJH6eFrg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=153)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_153_9e67203381e5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfIKVAJ94RoahdKfTpwUVyuaoJryURShsxXRNwHJiaYYvTXrT6NA7MVPA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=154)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_154_e9f4a6d9360a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfQL2ayia9NCAok9w2r1AuJOmA8hiaDCyw59IBYBBF22mGu3FIQ5tUmSicw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=155)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_155_6cb5bdcfea29.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfEia45Sh8zNpft88aM8yNNOk3ZmNb8FBDGNoGibGQPqfSzfqPosBiap4Wg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=156)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_156_fb00ef160428.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfbOBJIicZEm5ib4kemgibD7xAvLo3Hp9jj7tW5XD268uXpeG3ibnDIHKpcg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=157)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_157_39335f694c14.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf7Xe85dpM9icKiag1BRHFo0iatQkRmHEDKeXykVX4dvlNpcXWAveSxv6Kw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=158)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_158_d9aee6369c6d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfUJpceq3gmVO7bvUcW6pOATwFOQpwdlzsmic8t2CdbBgxDx5bv6sS28w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=159)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_159_facc71d6d1fb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfXILZoRX0OZsN8APOE29o768EgibtUcOkWWHRvq53rwLGm34rzwrqmfg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=160)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_160_cec73f921e17.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfcI9WTuibf8lciabfOZBQ4nNDgJCPQDicktOVpgHtqaR9mcBE7rFick2ZOA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=161)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_161_5116fdd6b307.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfN1j6a9pIIibtLvfU7bYHQzj8tV1nibZDSGMhlSx1vRpEvLWF8c4ia2CcQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=162)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_162_6a2dee639076.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfIRgodicEtqEW8FBWYG1kVw33NQjGjG26vibPibP4oiclqviagoFT66Q1IVA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=163)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_163_ace45b27ba50.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfK4ibHcOYFAgRAL6VnjaY0VHscaEaGPlhgICt5M2iapDfuMVoZdiahMPJg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=164)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_164_96fd4e240b1d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfofMtwhhRSib8h4kliagCqRqVCKe9887jibtmqibHXHcbe2gw8GfpgsiaXng/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=165)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_165_dd81bf220137.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfEXn0YmeTJ4NHwj9xNSYJIHtxicyun3XGeZEgFszuelrAynicLZOmsx2w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=166)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_166_047a63a6f052.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfPmSLFicWobhGG8PZqDiaGfzIxKnn3Ac33pz4rDQZq4SO6NKn9Ce93w9g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=167)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_167_7664d301be8d.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfRAj1IR6LwvIibO88IRAibXzod7N6akaw7a1g1hgVlqlFbjmkWAIGUDjQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=168)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_168_f4d2b43b7101.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfxTpfVjJkbW6WMdo0sWmwcVibYPWXARicBHiavVy80vdFIpClcfAy4lMSQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=169)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_169_de80691766f1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfSqDwyTJkb3F0Lte9iclMvOvymjsRzZyJfSibnnYPuTibsyjB05OZPWxfg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=170)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_170_920ca04bd27f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfMAP2AlpQKg697kvNlWWhfwu7Nquh2icEaiaVXib8ZZsQWCpgPoibiby82EA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=171)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_171_a7ccdc2aec18.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfOtVshZGiaP95Hyn0V8hv5E88QHLNgt5Y3icfUKaic7jSQDoyvLHA9ibB4A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=172)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_172_4c3229273ae4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfFGtQJjMUdJYnHMPRpAVcZiaEsMYVVDxqL8ia02qibN6Mfck7Ghv9cw0Iw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=173)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_173_eab7006a790a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf1tMnYltGlj49lkWnZlLHDHlAzt4BbVCSYibM60gqN44rBFQBiaAZN4eA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=174)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_174_b972a5b0882e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfBKhtQDqxVHjt63oZL5E8fO1OMDiaehfEkfDctibnFv9rroqGFyTzs0Rw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=175)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_175_39d420e84aae.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfrenRXC4BwztO2fLKic78EBmdUQ8C7ZvyQdBFLaZqNopmIhfN7BH2P2w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=176)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_176_16943fe1c9a4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf58gEC8zFXOia2sfl69LHzp6KdUd0d0QMAdeiaicp49bzz1cET15p7Rw1A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=177)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_177_74d90e8a1029.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfLhpWJZf4yzQqIroUk6HUEv9VORCILVHU3UONN8KeB8Rs5bOxgo7F0w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=178)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_178_ba470f0e2ee3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf0WCCRnPxBDkoAYBxGclvGx9T3uPHgYJzQhGJQufxsUiaRsAIYE8cchA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=179)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_179_8378ebc70525.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfx6D6L0wBxLd0ic1UMtK9LXpUIjHNvpnA9dO0hvl3j87iaP6DPpkd1ADQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=180)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_180_09a82998fd38.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfjbzfE8ELwzNoSHjkCT9bfXytH4wibBicicCyCAicMbyibWV6gy3U60LhGCA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=181)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_181_e6c4922c1a94.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfhxaITkqhKWLicOibXsXCJ50GQhWAeRq6fN3iajfZiaYhyob4k6J0S0D5kA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=182)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_182_ab7df72add7f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfia4VGmKS1sMdxEuHdFactZibcPddiaiafftNXB7exPqy9AicgT1SUTATvBg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=183)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_183_ee0c2e026ef6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkflz2lwjMKCDxuteWx3B9zdJkHtzshgo5AokfTQrdjOC6hzdrXKP3UUA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=184)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_184_9b7a5548b82b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfIiazIhD5JziaMhtvsScbZicgVWVOSdNeFVSEktDAR0Gqh1uriaEbZkibLbQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=185)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_185_b0f515af4e1b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfUQicgiaicwxpJxROTJuLdLFibMGDQcBBPc8f2casIC2Z4uFZKZdgYOfJgA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=186)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_186_25fbec7693a0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfB1aeauOhJPiaQ5Ca8TKaDKHZ5rXEdasHBz1grZiawgibgdc7eYaqaF4kg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=187)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_187_de6199bb8b77.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkff1uiaKUeeJ4Y0Gskmo2T0kg4yPHM0TeI4lWlWUmjq6sazEsFCsvBlZQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=188)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_188_bcda5a2e2454.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfzuzu1lDuLL4scldq3Mft064xibbOVOhvkSZoqOf9PibQYbvz0cnYvEbw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=189)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_189_057cbb015deb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfEhxfhw9v23knEtSAyKd4rgHL0fsF2XRqjhImN1LjPlGOYD5YtaPRTQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=190)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_190_475470f3d4b0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfbmW9J30TaIoQsuNPns7W1iaJOV3uSy67EicXPtqWlrgP5f93hxiaZfHwQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=191)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_191_d83fb2d23ea0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfRkzh4zGIetCFn5UrJCFeeSKXqrjX2V7VAGBc3pYnpbRnFSz3dTQrmg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=192)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_192_94874ba23269.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfDXuqnLzCpSzT2HPGcCj0PRhkaxargzTuU9SFv5e37FBeLWezQaWC1A/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=193)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_193_58667131032c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfYJvO77KSF3ChebRzZo2XibBlY4grjiauyyUPgGLbrPQiamGS4A4HdXo1w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=194)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_194_f9f8591b1a84.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfDAggMaRwdTu7DlhLAARTunmL1NkeklRTzKgUSKS3Zw0LiaofrQD0zTg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=195)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_195_650f2a70bed1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfibeRZDOibOnqAwRMIFlwZzbYsG0ibpB6klBdpDFYEqJwy0I72l6ZuqGMg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=196)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_196_b3f0cd31041a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfSwAWTB9haCyp418ev5esaR3NR3KkrhvKaKicq02uMTyl1icYmgvNN2ibg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=197)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_197_9e727621b507.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfzfKETBYo9r6QStDyrzYjcmmbdNhQKkAozfLkQ1ORCcGoH74onDQtOA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=198)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_198_1e23a8edf539.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfkIsIicscicFtbmKtt5RD0F6fPpcNLF6cZvPYrrDxsBbPtAiaX2LIGc9SA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=199)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_199_a6445238909e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfnSy5RbJD7agVyQvboF4hNewvQDFUDazicjEY6y46icLicN3ApfUgMG0Xw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=200)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_200_4d5eaaf35753.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfFrPPxxcLbXT1Jys99BvCPMchD6K4IPcESNibyaZZKZVmQn0KfzRmiaUw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=201)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_201_ff992fe92cde.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfibIDtrvsytgZ7jQ898G9jwnOJiaXCSAOhNtCfDN6Zdv7ID7GT6ic2JdiaA/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=202)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_202_084eb2b620ea.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfNLt7dQchOZnhgpUEAxfqNMLVGTYyS7Sic0LjqSWaMAMYZnJ58otXPpg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=203)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_203_a53b3446d1d1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfSicZMw9X3STKOFia6XzMHo7Eq4m2Tf0WZgazSgdmTSJmVKialeib9cVQfw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=204)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_204_abf300182bc8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfNyvG3sLZseaiaea8pXicCZlbqUR6R7XiaWod2FEbJg6ZNbhmdXiabN1udQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=205)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_205_b909bb41dd5b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfZ52eqRhVe8icPGKZxENyJhXsur7W21ficKFDulibyLVDSlMfLjUxllkzQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=206)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_206_3b970b2b20cd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfZYgTmicDry2I7pHyS0bgaoVhQclRAibq93OLxZZOVCPE8WWYwadtDoBw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=207)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_207_4f4f3b6629c3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfZ7jiaibjnlicQzOWavQbpJl54xfx1PgIMkpry1mTLtm1BLwu7TibLNbtzg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=208)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_208_95ae6e52e1ac.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkflRk4NEIdqnWySibq4RkmjicicTmKOkUW5icfGGj8mUcy7bGyGiaeronPkJQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=209)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_209_a5efefe6a8b5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfnB9YhDx5pT14ibqXRgplgD58qb2mo6MB8HYZzJo2dHSu8K9fUbX8aicQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=210)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_210_a6b3daa381e5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfRBIzjpv6tb0XUGDSjMy8ouzE10fWfTyZuOC73TdJSzgbzB855VVvFw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=211)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_211_1daa3bec973e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfj1Z7CMjGD5MJP2Hxwf8jibeVhqSwKvcaUUDVDZYtKXMWm3aia1kMPhBg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=212)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_212_d26f7b29f0d6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfhzlQQrQdtuUMPiaXNOksXIw6oicRGhkuP4fCh24X3I7NY64VegWhANpQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=213)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_213_99723bd311d1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfbog05FLvzobXicfCcADjiaVPW2sdGO6QyY2kqLkicyaQEGsOpm8mHiaCbg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=214)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_214_5761e06aba6f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfpatpSNibibwFBxSUGXGiaic5JlkxpKwAuYx2h1ota0e3NtgBWeibfEzC2Hw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=215)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_215_07327b9265e6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfS2aXH9g86R3ZicRFloBytPQD6dWRMBuBImHjoFhkTzWO6aolzibFDHmg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=216)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_216_a6f0dff10383.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfB3oh8QDJWcHENwSpbMScUSeRd7Yvqq2hah87LTAIJsIDDvGkzSr1Eg/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=217)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_217_3220f4357726.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfZWicEtnDvaIPw0qjgwJVQiaqetdTicQ2XIVVBWwFichrQyzDwVia6dCv1Uw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=218)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_218_8f2fc537c500.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf5bkV5wYNHu7NXqdQduySaypa2vR8Vib2qu3JxRZfZGT80bfDZJEa0yw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=219)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_219_f3bdf08aa5a4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfdpkq0NStm3ZEQaV5OmgpP3ztsH2diaNPQmfQ9w7JCq7cQVVFrxE2ia5g/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=220)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_220_4f7016e2d266.jpg)
 
 注：文字与图片报告无关
 
@@ -650,14 +650,14 @@ SST将不再局限于单一变压设备功能，深度融合AI智能调控、虚
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfNAdkm1uruOicASc1tTXiaKEY3trkzDeog7p2kTiak86GP3fLjClaib6iaoQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_221_af256684103a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfMLLIOGxibtmdAEoYVzQuqLzdVaxENYbgLoPnuia13fO0wJic93wm4YCoQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_222_d99ca273663b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkfyzYjcxGEBL9OBzLee27UBRsltAr6dvghHfRwcvvPZONIfic7skWUKeg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_223_a13a947cf439.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJibZVckRwlFGVYnkp4libkf27bqrt2Z2hCQIO72Fo8PaaXXQDCliaHsxvz2iaIRqlv6WPOwTy81Cfxg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的本质_基础原理_设计难点_研发概况_对比评估_前景展望_images\img_224_7f97d1b770ae.jpg)

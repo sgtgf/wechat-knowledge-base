@@ -66,7 +66,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvASGJbPQB9PtwV7lpic8pgMc9uiatBTtUVkreREc7Y6krTTd2n6oMA2QvgJ08NXiboP0T5LJaMKwyvicG0yxfj5RibJjGINbmCz9XY/640?wx_fmt=png&from=appmsg)
+![](法拉第定律（Faraday_s_Law）__以变生电的奥秘_images/img_000_41c0d963ceaf.png)
 
 这张图讲的是电磁学里最重要的定律之一：**法拉第电磁感应定律（Faraday’s law of induction）**。
 
@@ -80,7 +80,7 @@
 
 # 一、先看最核心的公式
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocugtOWmFooc4R3VKfFCL5VN1oIXYQxibnZOaWl34uNFFXAr7uia1oRAoj3ONicj6qm6ibZYzewnqUmqL6RvFwG0le6cv8I2WhXHzicc/640?wx_fmt=png&from=appmsg)
+![](法拉第定律（Faraday_s_Law）__以变生电的奥秘_images/img_001_57cb89ebd870.png)
 
 图片中央写着：
 
@@ -282,7 +282,7 @@
 
 # 四、中间的大图到底发生了什么？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocu7t2PSguGCzCKdicpEictzhjribMGiaIiabVghibRtlJOiaf5VQY1yIYGeLH4Qria15U8grHnyQTngVpc8X4Nv62V2PYXCkFHNNnHia0ia8/640?wx_fmt=png&from=appmsg)
+![](法拉第定律（Faraday_s_Law）__以变生电的奥秘_images/img_002_2c43b174e4aa.png)
 
 图片中间画着：
 
@@ -346,7 +346,7 @@
 
 # 五、为什么“移动得越快，电压越大”？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsQ8YBkU1QvenZyexpUaAm9oOB2dB9m9r8Kv0Wg7RwCNbCqTicrMJg9VWK1icZiaU9vOaNrmibw8HBtRpLs3hH74JZbmc8cBC7ibqfM/640?wx_fmt=png&from=appmsg)
+![](法拉第定律（Faraday_s_Law）__以变生电的奥秘_images/img_003_36d03a890999.png)
 
 图片左下写着：
 
@@ -582,7 +582,7 @@
 
 # 十、图片底部三个应用是什么意思？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocs7bZw14X4bazjV4Rh8jGicbkK3Pic2gyvV5GCprzX4ZPADUDiajVgovp6xZPIpOQ2MBjQIQ0oTLvEUMpqGtTlnOetw4sMuD0XkyE/640?wx_fmt=png&from=appmsg)
+![](法拉第定律（Faraday_s_Law）__以变生电的奥秘_images/img_004_ccbcf87d0d60.png)
 
 图片写着：
 

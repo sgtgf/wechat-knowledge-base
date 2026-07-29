@@ -9,7 +9,7 @@
 
 ### 可以在 AEDT 中直接启动 Motor-CAD
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzLr4XMFmFab94F1qusDm9Bc5nCYZ6s6VXBcjbDxtNALcNMTmIVaMic8g/640?wx_fmt=png&from=appmsg)经过测试，应该是不需要两者版本匹配，在 Motor-CAD 顶部菜单栏 Defaults>>Automation 中点击 Update to current version 设置 Registered version: 2025.1.1 的路径即可：![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzCEmZmDQHsltTmb65lJhakbPoXTfcR3X0QY6XYibRnK1icPiaoFUZ7zd2Q/640?wx_fmt=png&from=appmsg)更多相关内容参考帮助文档 Maxwell® Help：
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_000_6d102f73eb5b.png)经过测试，应该是不需要两者版本匹配，在 Motor-CAD 顶部菜单栏 Defaults>>Automation 中点击 Update to current version 设置 Registered version: 2025.1.1 的路径即可：![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_001_dbb8e8b59a3a.png)更多相关内容参考帮助文档 Maxwell® Help：
 
 -   Maxwell Coupling 17-121：Launching Motor-CAD from Ansys Electronics Desktop
     
@@ -34,15 +34,15 @@ Motor-CAD 和 Maxwell（基于 Machine Toolkit 插件）中的 Map 图功能增�
 
 ### 涡流求解类型（Eddy current）改名为交流磁场（涡流）(AC Magnetic (Eddy Current))
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzM9PLFkOUZuoCqOaJMaMVDibvYtPia6ZibukhmlPv8c8vgYfFupcBkmWhA/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzvBAdEpnw5umfJKOsw4xIwsliaC3GxrMM4q5QZiceoAVcdu0RTSFI9wPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_002_1d7d9dd5ddd9.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_003_1b6d27d6ced7.png)
 
 ### 曲面网格支持设置 TAU 网格纵横比
 
-之前版本好像也支持。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzgGeHmlxJib5rxFGHx6ian7QXPI4uQtSDyRYNSdfI69kq44OOZufAs9ZA/640?wx_fmt=png&from=appmsg)
+之前版本好像也支持。![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_004_0ae32c346b1f.png)
 
 ### 支持对含运动部件设备中的电弧进行耦合仿真
 
-针对静止设备：![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFz1Ntrd4FhQwJFPpqfn47MUibqR08KIOaYyKYSDmrV9D9Gbl1aOZUkHicg/640?wx_fmt=png&from=appmsg)针对运动设备：![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzbuiaa2cMhm8UibiaycdpyZnbm0rmQ0MNt64XaXicJj2ibpHUn7W8W3fwiaRw/640?wx_fmt=png&from=appmsg)更多相关内容参考帮助文档 Maxwell® Help：
+针对静止设备：![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_005_9bc647c89535.png)针对运动设备：![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_006_1e4c118a33b6.png)更多相关内容参考帮助文档 Maxwell® Help：
 
 -   Maxwell Coupling 17-128：Modeling an Electric Arc in a Static Device
     
@@ -51,7 +51,7 @@ Motor-CAD 和 Maxwell（基于 Machine Toolkit 插件）中的 Map 图功能增�
 
 ### 涡流求解器中支持设置带阈值的非正弦激励（通过对数据集进行快速傅里叶变换）
 
-之前版本好像也支持。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzq9Gjzta2xuKXuHmDyj8qJZPgnyyTjyAn4ticBXP3bfMguBR8ibqYrerQ/640?wx_fmt=png&from=appmsg)更多相关内容参考帮助文档 Maxwell® Help：
+之前版本好像也支持。![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_007_f74380f16383.png)更多相关内容参考帮助文档 Maxwell® Help：
 
 -   Assigning Boundaries and Excitations for 3D Designs 10-112：Using AC Magnetic Excitation to Generate Harmonic Losses
     
@@ -73,11 +73,11 @@ Motor-CAD 和 Maxwell（基于 Machine Toolkit 插件）中的 Map 图功能增�
 
 ### 支持在二维瞬态求解器中给 Solid 类型绕组设置星形连接
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFza7jia4MJoiccKJBOSLF9cLSicNaEnfW3Rbb7Z3Tm9OD8snz2F0RS09tbg/640?wx_fmt=png&from=appmsg)目前不支持三维，也不支持混合绕组类型
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_008_d6ec8f023735.png)目前不支持三维，也不支持混合绕组类型
 
 ### 支持在静磁和含直流偏磁的交流磁场求解器中设置高磁导率的磁性薄层
 
-可以在两个物体交界面设置薄层，并指定其相对磁导率和厚度，本次支持了高磁导率磁性薄层。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTwVibdibUW1Viaw2FW0ibsTnFzvWWTgCtjaQpEnHqMVB3GkO456V3J12XxK2NqBFdVG5xcPQgSLeOwsw/640?wx_fmt=png&from=appmsg)
+可以在两个物体交界面设置薄层，并指定其相对磁导率和厚度，本次支持了高磁导率磁性薄层。![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R2_更新功能一览_images\img_009_8d0f30f06079.png)
 
 ### 提高了瞬态求解器对线性、非运动、恒定时间步长模型的求解速度
 

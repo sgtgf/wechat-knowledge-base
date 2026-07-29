@@ -5,7 +5,7 @@
 
 整个电力半导体器件中变化最大的就是功率MOSFET，其中，硅基器件中SJ MOSFET器件和IGBT器件在结构和工艺技术得到了较深的发展。SJ（超结）MOSFET采用基于电荷平衡的器件结构，导通电阻明显下降，在高压应用时优势尤其突出。但是，以宽禁带半导体（碳化硅（SiC）和氮化镓（GaN））形式出现的新材料技术正在提供可改善电路设计人员选择的选择，特性更接近理想的开关。
 
-                                 ![](https://mmbiz.qpic.cn/mmbiz_png/Ikic2OickbhYLt8Jg1RT4hOicUiaialibEYPic41jBY1kr8CibMoTIw43DStjINwMnF3MpdKFdhvaBftOOca4ucLZFTDjw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)                                 半导体材料发展路径（数据来源：浙商证券研究所  ）
+                                 ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_000_4aee5dfead1d.png)                                 半导体材料发展路径（数据来源：浙商证券研究所  ）
 
 工程师在性能、成本、操作、尺寸、热效率和可用性之间进行设计抉择时需要权衡取舍。
 
@@ -13,9 +13,9 @@
 
 碳化硅（SiC）是由碳元素和硅元素组成的一种化合物半导体材料，是制作高温、高频、大功率、高压器件的理想材料之一。相比传统的硅材料（Si），碳化硅的禁带宽度是硅的3倍；导热率为硅的4-5倍；击穿电压为硅的8-10倍；电子饱和漂移速率为硅的2-3倍，满足了现代工业对高功率，满足了现代工业对高功率、高电压、高频率的需求，主要被用于制作高速、高频、大功率及发光电子元器件，下游应用领域包括智能电网、新能源汽车、光伏风电、5G通信等，在功率器件领域，碳化硅二极管、MOSFET已经开始商业化应用。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxFOPNgLfnelCnZqYUccK6ribbK97aTibiaz8SKzfJn7XV4Qok2lKrWGdEw/640?wx_fmt=jpeg&from=appmsg)碳化硅从材料到半导体功率器件会经历单晶生长、晶锭切片、外延生长、晶圆设计、制造、封装等工艺流程。在合成碳化硅粉后，先制作碳化硅晶锭，然后经过切片、打磨、抛光得到碳化硅衬底，经外延生长得到外延片。外延片经过光刻、刻蚀、离子注入、金属钝化等工艺得到碳化硅晶圆，将晶圆切割成die，经过封装得到器件，器件组合在一起放入特殊外壳中组装成模组。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_001_102aa71e5296.jpg)碳化硅从材料到半导体功率器件会经历单晶生长、晶锭切片、外延生长、晶圆设计、制造、封装等工艺流程。在合成碳化硅粉后，先制作碳化硅晶锭，然后经过切片、打磨、抛光得到碳化硅衬底，经外延生长得到外延片。外延片经过光刻、刻蚀、离子注入、金属钝化等工艺得到碳化硅晶圆，将晶圆切割成die，经过封装得到器件，器件组合在一起放入特殊外壳中组装成模组。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmRzPU0ICBr0116gxZPPVPSqUN0UV2BVzCXgBw0WgEny0pUMt7oC5vbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_002_3ba326bc9334.png)
 
 -   **耐高温。**碳化硅的禁带宽度是硅的2-3倍，在高温下电子不易发生跃迁，可耐受更高的工作温度，且碳化硅的热导率是硅的4-5倍，使得器件散热更容易，极限工作温度更高。耐高温特性可以显著提升功率密度，同时降低对散热系统的要求，使终端更加轻量和小型化。
     
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ikic2OickbhYLt8Jg1RT4hOicUiaialibEYPic4dJU0YkibVxL9q1FticE8M2wquuXdiajxpgWKgJTzYJ2kovY3m3hZTcVWg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_003_fbbe2ab93037.png)
 
 不同半导体材料性能对比
 
@@ -36,33 +36,33 @@
 
 **二.   超结(SJ)MOS器件**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmc2pIfEF8XBgQwjnRTRDZfDIrdcL0nicfPKqWVVUxRU4D828XuxuX2Bg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_004_837414ebbdf6.jpg)
 
   
 
 Si-MOSFET根据制造工艺可分为平面栅极MOSFET和超结MOSFET。平面栅极MOSFET在提高额定电压时，漂移层会变厚，导致导通电阻增加的问题。而超结MOSFET通过在D端和S端排列多个垂直pn结的结构来解决这个问题，实现了在保持高电压的同时降低导通电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5ruz572icUGQnPfeqk4yVWicPNc2UrVZersW4iaMMt0pp7CBhHB7lQV3Q3ElcKHe4fNblWCLmic5Dkm4czK5jIsoYQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)【硅的理论极限和超越硅极限的超级结】
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_005_03b56a704a5b.png)【硅的理论极限和超越硅极限的超级结】
 
  超结MOSFET的优势在于其具有高耐压和低电阻的特点。相较于普通高压VDMOS，超结MOSFET的导通电阻远小，适用于高能效和高功率密度的快速开关应用。此外，超结MOSFET的额定电压越高，导通电阻的下降越明显，使其在中低功率水平下的高速运行非常适合。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/5ruz572icUGQnPfeqk4yVWicPNc2UrVZer0oSMZyyjDdd5T83LbdDE0MFwbYOVg6FMe7X0ND9qlMiamlM9M9CWCtQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)【左边是平面MOS，右边是超结MOS】
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_006_4d602618d95e.png)【左边是平面MOS，右边是超结MOS】
 
  超结MOSFET的制造工艺相较于常规MOSFET更加复杂，主要体现在沟槽的填充外延制造方法上。超级结MOSFET通过使沟槽和沟槽间距尽可能小和深，设计具有较低电阻的N层，实现了低导通电阻产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/5ruz572icUGQnPfeqk4yVWicPNc2UrVZer8oHjIpPLfYpmQEviciawOqHgmrMHkeicaAic9ibfv7dFa29M0jztO1cn0Nw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)【超级结中，trr比平面MOSFET快，irr电流更大】
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_007_bcdd7288ec6d.png)【超级结中，trr比平面MOSFET快，irr电流更大】
 
  超结MOSFET相较于平面MOSFET具有更大的pn结面积，因此在内部二极管的反向电流和反向恢复时间方面存在一些问题。虽然超结MOSFET的trr比平面MOSFET快，但irr电流更大。
 
 以下是Si-MOSFET的常规制造工艺和超结制造工艺的对比：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5ruz572icUGQnPfeqk4yVWicPNc2UrVZermS7AqPSoJPeJIA2PJTI4hWhCgVqBicLLuwTuZMRflxjNtv4ibqcgEAXA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)【常规MOS制造工艺】
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_008_abcad330813e.png)【常规MOS制造工艺】
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5ruz572icUGQnPfeqk4yVWicPNc2UrVZerCx7Gr5Y1nZg36l3ujD8KwLbfoSSkCKS4C33wdlib6rtyLwDZBDwgFYQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)【超级结的沟槽填充外延制造方法】
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_009_c7d35f7dfdfa.png)【超级结的沟槽填充外延制造方法】
 
  此外，Si-MOSFET还与其他器件进行了功率和频率的比较，如IGBT、碳化硅MOS、平面/超结MOS等。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/5ruz572icUGQnPfeqk4yVWicPNc2UrVZerLM9lORgrRGr26ib6qGZAdaS2vfSvjzwSic88ibawG5xevYPxYIWohNTfw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_010_030a661da8cf.png)
 
 【IGBT、碳化硅MOS、平面/超结MOS的功率和频率比较】
 
@@ -78,7 +78,7 @@ Si-MOSFET根据制造工艺可分为平面栅极MOSFET和超结MOSFET。平面�
 
 **三.  IGBT器件**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmNO2H6ypqvdLpytclsqeUALOdJiaKFTr7weUJXs4ZbmibGlpJe1ySu7PQ/640?wx_fmt=jpeg&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_011_f846700217fa.jpg)  
 
 IGBT，绝缘栅双极型晶体管，是由（BJT）双极型三极管和绝缘栅型场效应管（MOS）组成的复合全控型电压驱动式功率半导体器件, 兼有（MOSFET）金氧半场效晶体管的高输入阻抗和电力晶体管（GTR）的低导通压降两方面的优点。  
 
@@ -92,13 +92,13 @@ IGBT综合了以上两种器件的优点，驱动功率小而饱和压降低。�
 
 IGBT最主要的作用就是把高压直流变为交流，以及变频（所以用在电动车上比较多）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrx2MJIRd53OzjYeiaSsicheenfK8EicjQFklYh95Np37x2ib5vbsejlZ6AvA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_012_dacb0ad464dc.jpg)
 
   
 
 **IGBT有N沟道型和P沟道型两种，主流的N沟道IGBT的电路图符号及其等效电路如下：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxBHpx40T7e7sOWjdNpErTiaJVcpukN3dwrahsMD7usjtx3vIUGzQbESw/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_013_2f8ea3dbae24.png)  
 
   
 
@@ -109,13 +109,13 @@ IGBT最主要的作用就是把高压直流变为交流，以及变频（所以�
 **当栅极G为高电平时，NMOS导通，所以PNP的CE也导通，电流从CE流过。  
 **
 
-**当栅极G为低电平时，NMOS截止，所以PNP的CE截止，没有电流流过。**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxFZzVWJTsJE7gtQATibrI20WqVd8qgEpf2SQtKYsYicZeibdRnVbCcL2lw/640?wx_fmt=jpeg&from=appmsg)  
+**当栅极G为低电平时，NMOS截止，所以PNP的CE截止，没有电流流过。**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_014_1047a45ba691.jpg)  
 
   
 
 **IGBT与MOSFET不同，内部没有寄生的反向二极管，因此在实际使用中(感性负载)需要搭配适当的快恢复二极管。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxXM1kBl6uR4qdyWNKnO8XY2VJia2xfSGBlZdknrxFib1r1XQVWb08vjvQ/640?wx_fmt=jpeg&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_015_e34faf1f6fc3.jpg)  
 
   
 
@@ -209,39 +209,39 @@ IGBT如何选型：
 
 **1.1静态特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmNtFfic16qGicUzU3ZjcGZHVAiaKvh9erKrjc4Km8be2jbyrTUdAkJN0Hw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)表1：Si SJ-MOSFET和SiC MOSFET器件参数  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_016_a095d67cd5ad.png)表1：Si SJ-MOSFET和SiC MOSFET器件参数  
 
 表1为Si SJ-MOSFET和SiC MOSFET器件的静态参数，图1为Si SJ-MOSFET(图左)与SiC MOSFET（图右）传递特性曲线，可以看出SJ-MOSFET VGS（栅压）大于VTH（阈值电压）后电流迅速上升，且呈现负温系数。而对于SiC MOSFET 在VGS超过VTH后，上升速度缓慢，说明器件Gf（跨导）较小，且VGS小于10V呈现正温特性。同时在VGS高达20V时（参考输出特型曲线），也没有进入饱和状态，正是由于以上特性，要求SiC MOSFET的开通驱动电压高于SJ-MOSFET，以使得SiC MOSFET工作在负温区。可以看出温度对SiC  MOSFET输出电流特性的影响小于SJ-MOSFET。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmibFumAL3lEKDvjAt7a8Bg9oACqTjBhUXoh7b5sGsjNjLBRwunbicavtg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_017_4f27a9524963.png)
 
 图1：Si SJ-MOSFET(图左)与SiC MOSFET（图右）传递特性曲线
 
 如图 2所示为SJ-MOSFET与SiC MOSFET的输出特性曲线，当VGS超过8V后，SJ-MOSFET已经充分导通，其IDS\-VDS的特性曲线几乎重叠。而SiC MOSFET在不同VGS下的IDS\-VDS曲线相距较远，且饱和区与线性区的拐点没有Si器件明显。同时SiC  MOSFET的曲线的斜率在VGS大于15V后变化才会较小，才能获得低导通电阻，以上特征都与其传递特性相吻合。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm3Vw6qsO2PKBgMX3JcQeHMCpljjf3THGx6s6RgNglwZOT6WlIkLskeg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_018_b4afce6bde02.png)
 
 图2：Si SJ-MOSFET（图左）与SiC MOSFET（图右）输出特性曲线
 
 此外如图 3所示，SiC MOSFET 的RDS(ON)（导通电阻）曲线呈现U形，而SJ-MOSFET的RDS(ON)随着Tj（结温）的升高而升高，这是由于SJ-MOSET的JFET（Junction Field Effect Transistor）区与漂移区电阻起主导作用，同时从图可以看出SiC MOSFET在高温下依然保持较低的导通损耗，而在使用SJ-MOSFET需要特别关注RDS(ON)上升对散热的要求。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmKvPrW2yArPgsQbXvgXQSE4rgyqlLYaNptTthEaOYJsr1Q41M5odKicQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_019_76aa53751fc4.png)
 
       图3：Si SJ-MOSFET(图左)与SiC MOSFET（图右）RDS(ON)\-TJ特性曲线
 
 **1.2 动态特性对比**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmlh6nBWXsITfKbialYnoicaGOYEggdG54JgRnFnibBr53dQyp8k8VnHjog/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)表2 ：Si SJ-MOSFET和 SiC MOSFET动态参数  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_020_a4b9695356e9.png)表2 ：Si SJ-MOSFET和 SiC MOSFET动态参数  
 
 由于器件开关测试条件不同，因此通过观察SiC MOSFET 与SJ-MOSFET  C-V曲线，对器件的开关参数进行初步判断。如表2可以看到SiC MOSFET的Ciss（输入电容）明显小于SJ-MOSFET，可以进一步推测SiC的关断延时会明显小。同时值得注意的是Si SJ-MOSFET的Crss（米勒电容）在低压（小于300V）时相对较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmRQlqtLy7gdmsVPicTZSvKfjuMGlJFpthHVa34icw61gOjHiaaYib1m17kw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_021_0b8a02cde4ba.png)
 
 图4：Si SJ-MOSFET(图左))与SiC MOSFET （图右）C-V特性曲线
 
 图 5显示SiC MOSFET与SJ-MOSFET的栅电荷Qg，从图中可以看出SiC MOSFET的Qg明显小于SJ-MOSFET，这表明SiC MOSFET的驱动能量明显更小，同时可以看到SiC MOSFET的米勒平台（图中红色标注地方）更小，而SJ-MOSFET有明显的米勒平台，因此SiC MOSFET更适用于高频率的开关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmlGlD9QictepNpuwkCBSSxK8UcN5fADrR4ibty13yAMxQPlxnY7dNicXPg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_022_ad6711cfc091.png)
 
     图5：Si SJ-MOSFET（图左）与SiC MOSFET（图右）Qg特性曲线
 
@@ -251,19 +251,19 @@ IGBT如何选型：
 
 **2.1静态特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmG1oIZPEbRicSUZLglYjffeicJibN6PeA6LVWDkZkkIrSpzAHdoUpBsIRQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_023_c1129322fb26.png)
 
                            表3：为SiC MOSFET和Si IGBT器件静态参数
 
 图 6为选取IKW25T120与C2M0080120D进行参数对比，可以看出SiC MOSFET和Si IGBT的传递特性形态基本相似，当VGS小于VTH时是正温系数，当VGS较高时呈现负温系数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm3lvichFDhtibGwI9ZVuAmmXFicqfPD80RIPJ7UdvlNrCWf85VNh6IoHhw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_024_7300afcf3057.png)
 
 图6：Si IGBT(图左)与 SiC MOSFET（图右）转移特性曲线
 
 图 7为器件的输出特性曲线，SiC MOSFET的ID\-VDS曲线是从零点开始，是由于其电阻特性，而Si IGBT是在VCE大于VCEsat(饱和压降)后才有电流输出，这是因为IGBT其内部寄生BJT（Bipolar junction Transistor）负责导通。因此在小电流下IGBT的导通压降更大，SiC MOSFET导通损耗更小。在大电流下IGBT能够在较小的导通压降下流通更大的电流，所以IGBT的跨导更大。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmNqP5x38rubbZCYEIjc0qrxVaG6b3RWJ8CT2iaDicicBo56henE1rOXicTA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_025_45196e187329.png)
 
 图7：Si IGBT（图左）与SiC MOSFET（图右）输出特性曲线
 
@@ -271,27 +271,27 @@ IGBT如何选型：
 
 表4为SiC MOSFET和Si IGBT器件动态参数，图8所示为选取IKW25T120与C2M0080120D的C-V曲线，从表格可以看出SiC MOSFET 的Crss（米勒电容）明显小于Si IGBT。对比发现由于Si IGBT有较大的Ciss，会导致器件的开通时间与关断拖尾时间较长，则其开关能量就会明显大于SiC MOSFET。但同时需要注意的是SiC MOSFET的快速开关，也会导致开通过程中较大的VDS与IDS尖峰。但值得注意是，不同厂家对不同应用进行器件最优匹配时，会对参数采取不同的规格设计（也受限于结构、工艺等多种因素）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmpzx6LXiaibt4Wicfm7KpWZqcRjQRLQUmljKAh6skqWE9HevYpFUJ2Hk7Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)                      表4 ：SiC MOSFET和Si IGBT器件动态参数
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_026_7069d4421173.png)                      表4 ：SiC MOSFET和Si IGBT器件动态参数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm2c2PfwGRtBR2ibjYG7PjyBxAqH1QiaiajJXfX1jPE7X2hLnnAqjESDMVQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_027_f32e7950e31d.png)
 
   图8：Si IGBT（图左）与SiC MOSFET（图右）C-V特性曲线
 
 Si IGBT和SiC MOSFET的栅电荷Qg如图9所示，SiC MOSFET的Qg明显小于IGBT，这说明SiC MOSFET更适用于高频率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmcUjMeYvib9lFDbdaVm0ka8A9JvLpcQuI3QdUiazraA4icCzMX1vsibuPLQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_028_8c0e57ec1f2a.png)
 
 图9：Si IGBT（图左）与SiC MOSFET（图右）Qg特性曲线
 
 以上都是通过DateSheet数据分析，但是对于器件性能的评估，还需要结合实际应用中器件静态特性、开关性能、温度行为和损耗分布等方面的综合比较。引用相关文献中三种器件（SiC MOSFET与Si IGBT与Si SJ-MOSFET）的关断测试波形，如图 10、图 11所示。在相同半桥测试条件下，SiC MOSFET比其他器件更快，SiC器件可以显著减小开关电路的开关损耗，提高效率。因此，SiC功率器件很适合于高频高压场合。同时需要注意的是，碳化硅设备的栅极驱动电压是不同的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm2bzxia7hKVc9ZNgBibenIRicudibOia1TPGOibibqwNMB5KvhvWNViaXEgVgicw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_029_adbe952e26df.png)
 
 图10：Si IGBT 与SiC MOSFET Turn off曲线
 
 Eoff@ Ic=12.5A, Vce=800V, Rgoff=2.2Ω,Vgsoff=4V
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmx6OdNutibbzSrQ1F0rs2PZbZlicS2icUv0nzwySI3nfBEBXupb7FvkCAQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_030_dc6dede4c27a.png)
 
 图11：SiC MOSFET与Si SJ-MOSFET Turn off曲线
 
@@ -301,7 +301,7 @@ Eoff@ Ic=16A, Vce=400V, Rgoff=14.7Ω
 
 如果您对在不同类型的半导体器件和材料之间进行选择感到困惑，为您提供了一种简单的方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmbq4Hic056NZ8tB5420D1x3XDXYib2uggQq9TkibAibKPI7vS1bt8vJUWIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_031_cc3899269ce4.png)
 
   
 
@@ -451,8 +451,8 @@ Eoff@ Ic=16A, Vce=400V, Rgoff=14.7Ω
 
 在设备的性能，成本，操作要求，尺寸，热效率，可用性等之间，设计选择之间总是需要权衡取舍。引入Sic和GaN技术可能会通过引入更多选项使探索这些折衷变得更加复杂，但是在某些应用中，它可以帮助您的设计更接近于完美。
 
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_035_0c8706e5b149.png)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_036_7c22e3b9a287.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法_images\img_037_1241954b1b67.png)

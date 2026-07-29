@@ -6,11 +6,11 @@
 
 嘉立创免费工业软件库，又添一重要成员：ECAD电气设计软件，今天正式发布，同时开放限时领取标准版【永久免费使用权】（文末有领取方式）。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/xiaAvb1LvMP0zturv85DKs9TU1jfIvSy5dZ8PpiaMibiaZ2oUAHraYWxIwx2qqpAzgf6fVZ7aa8pnvXgCfYCSsQ2ZQ/640?wx_fmt=jpeg&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_000_61bbd247748f.jpg)
 
 2024.9月，嘉立创机械零部件商城公众号，发布了ECAD小范围内测的信息，吸引了大量的电气设计工程师踊跃参与，火热程度远超预期。在过去的这一年多里，我们汲取了很多参与内测的工程师提供的宝贵意见，研发团队加班加点研发，多次迭代更新。终于，在今日我们正式宣布：嘉立创ECAD电气设计软件正式上线，面向全部客户开放，限时领取标准版【永久免费使用】。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP3w5PwNXSbTZmE8V0NVzzaicOLF1LGHvZrGibnibCShzdSpuJukpP0GMDxGc3Tz57AJg1LsdZmzn8ZoA/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_001_80802f0f8465.png)
 
 1\. 电气设计软件进入免费时代  
 
@@ -21,7 +21,7 @@
 嘉立创ECAD系统采用云端部署架构，打开浏览器即可使用，可随时随地进行设计。  
 自带28W+种部件库，方便你在绘制电气原理图时直接拖拉拽式放置部件；嘉立创安排专人绘制符号/部件库，数量还在持续的增加中！  
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP0LE7dxaxdXcAKOx3PoATtN3IOicaVNsucejTr84kRdxWNIGbAlpnpbrOerEVfwrXkP9licTZFic01qQ/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_002_64d6974f43a7.png)
 
 海量符号/部件库，让电气工程师从繁琐重复无趣的绘图工作中解脱出来，专心做功能设计！  
 
@@ -38,7 +38,7 @@
 •IEC 60947：低压开关设备和控制设备的标准；  
 后续还会增加其他标准绘制规范，如GB\\GOST\\NFPA标准等。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP0LE7dxaxdXcAKOx3PoATtNVuHdb5LjibVSVPOeMRClOBdcBic36A8ost0OHVs5IAy4QmADQlPebicicQ/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_003_3291af8835d1.png)
 
 4\. 更多强大功能  
 
@@ -48,18 +48,18 @@
 •关联参考：继电器、接触器等元件会自动“记住”自己的位置，跨页查找时像翻相册一样方便；  
 •安装板布局：通过设备树插入安装板类型的原理图宏来快速进行安装板的布局。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP0LE7dxaxdXcAKOx3PoATtNz3eCTGSTkwdWTep0a3cbg19DHn9Rm4aNufnzwLYibB5ZwJC0LmtLPbA/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_004_5d37ce9c2117.png)
 
 5\. 为什么又是嘉立创？又是永久免费使用？  
 
 熟悉嘉立创的人，都知道嘉立创已经有多款面向工程师和企业，且永久免费使用的工业软件。其中：  
 \- 有面向电子工程师的PCB设计软件：嘉立创EDA，云端海量元件库，帮助工程师高效设计。  
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP3w5PwNXSbTZmE8V0NVzzaicItFfQVuLukicNw9J1LhWXvfmhsBsLWkCMVeibUsMu65KdyqrcnzCBWEw/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_005_c17fab3584b1.png)
 
 \- 有面向机械工程师的高效辅助设计软件：嘉立创ICAN工具箱（SolidWorks插件），重资收购后还免费退还原付费老用户数百万费用，助力机械工程师提效。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP3w5PwNXSbTZmE8V0NVzzaicnycicbDbkyicLAElY64yXh9EnVpDibrFE8AxP2JSqMIcq5KRI0h3FL1hw/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_006_46e0ec8d8bcb.png)
 
 今天，嘉立创免费工业软件库，正式添加ECAD这一新成员。
 
@@ -69,16 +69,16 @@
 
 成立于2021年的嘉立创机械电气零部件商城，历经多年发展，已经形成了一定的规模和行业影响力。作为嘉立创机械电气产业的重要一环，电气设计软件ECAD有助于丰富嘉立创机械电气的产业生态，而嘉立创机械电气零部件商城的发展，又为ECAD的长远发展，提供其商业价值兑现的渠道。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP3w5PwNXSbTZmE8V0NVzzaicvtp37QpQtAd7UH8ia1fwDuRv2wrYMQoyyXb7u5xQVxUP6v5r47DgiaDQ/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_007_e75ce87d43d6.png)
 
 7\. 如何领取【永久免费使用】  
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP0zturv85DKs9TU1jfIvSy5JPMriczhRMFUQECY7D4w4m9icxFGnWcTIKt6PEp2hBTiabTCp9WLokMMA/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_008_a94085738bbc.png)
 
 1\. 前往https://www.jlc-ecad.com/，点击【价格】tab领取即可；  
 2\. 欢迎加入下面微信群，进群领取嘉立创ECAD电气工程高效设计软件标准版【永久免费使用】，群内嘉立创设置专人提供技术支持与使用教程。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP0LE7dxaxdXcAKOx3PoATtNdFac6hNSAEGARrNYAw8SIhCibbDUicxh8MjJuHryL2vlhPrIywM48Irg/640?wx_fmt=png&from=appmsg)
+![](自带_28W__元件库_嘉立创_ECAD_上线_拖拽式绘图让设计效率翻倍_images/img_009_9165b769ca26.png)
 
 （进群领取【永久免费使用】）
 

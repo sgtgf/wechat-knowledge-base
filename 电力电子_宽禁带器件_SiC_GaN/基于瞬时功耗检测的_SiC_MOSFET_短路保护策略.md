@@ -32,7 +32,7 @@ SiC MOSFET 的短路故障主要包括两种：硬开关短 路（Hard switching
 
 在 SiC MOSFET 半桥模块的工作过程中，封装引入 的 寄 生 电 感 也 会 造 成 影 响 ，因此 在 SiC MOSFET 仿真 建 模 中 ，需要提取 模 块 各 部 分 的 寄 生 电感 。 模块 的 寄 生 电 感 主 要 分 布 在 导 线 、端子 和 键 合线上 ，采用 ANSYS Q3DExtractor 对这 些 部 位 的 寄生电 感 进 行 了 提 取 ，设置 提 取 频 率 为 25 MHz。 先单独 提 取 了 端 子 到 衬 底 连 接 点 的 寄 生 电 感 ，然后 提取键 合 线 组 的 寄 生 电 感 ，其中直接焊接芯片 和 衬 底的部 分 寄 生 电 感 较 小 ，可以忽略 不 计 。 值得 一 提 的是 ，由于 在 空 间 分 布 上 ，下桥 臂 距 离 驱 动 引 脚 较 远 ，需要 使 用 铜 导 线 进 行 连 接 ，这使 得 下 桥 臂 的 寄 生 电感相比于上桥臂会略大一些（模型见图 1）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxF3zPTXk8jtCKwUuRibjkzdiaGqZMWBodOHPZGuc8g1iauIGs2YnG7AGHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_000_131a474ee410.png)
 
 1.2 基于瞬时功耗检测的 SiC MOSFET 短路检测方法原理分析
 
@@ -40,27 +40,27 @@ SiC MOSFET 的短路故障主要包括两种：硬开关短 路（Hard switching
 
 图 2（a）为正 常 工 作 时 的 瞬 时 功 耗 波 形 ，VDC=800 V，IL=400 A，开关 过 程 中 的 最 大 瞬 时 功 耗Pdloss\_max 是 192 kW，开关过程结束之后开始正常导通阶段，此时的瞬时功耗很小，可以忽略不计；图 2（b）为硬 开 关 短 路 时 的 瞬 时 功 耗 波 形 ，VDC=600 V，LSC=40 nH，如图所示，瞬时功耗在短时间内即上升到较高的数值，峰值功耗已经超过了 1 MW，远在正常瞬时功耗范围之上；图 2（c）是功率器件在负载短路状 况 下 开 通 的 瞬 时 功 耗 波 形 。 参考 到 文 献［12］中的 实 验 数 据 ，取此 时 的 电 感 量 为 2 μH，则开 通 后5.4 μs 瞬时 功 耗 就 已 经 超 过 400 kW，超过 正 常 情 况下的瞬时功耗一倍多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxJ7UjQ5HjQ9U3MJQcwFnfpV6WZBJkynp8OIicqrqmDMQnLXk1txKbLuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_001_98e98eaf9ebb.png)
 
 不同工况条件下器件的瞬时功耗结果如表 1 所示。SiC MOSFET 在正常工作及短路故障时，器件的瞬 时 功 耗 存 在 明 显 差 异 ，故其 正 常 或 故 障 状 态 可通过 阈 值 加 以 区 分 ，实现 SiC MOSFET 的短 路检测。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxdv3xczZZwt9LYPz3gMe8EgmtF3AAw0CByX4LRr5icXtbJ8XBgcrf88Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_002_07d060d7534e.png)
 
 2\. 基于瞬时功耗检测的SiC MOSFET 短路检测方法
 
 提出的基于瞬时功耗检测的 SiC MOSFET 短路检测方法原理如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx6DNgKf7v4tmkkw7eDNYpU2IHaicLBFVsoOduneVYLzLm0ibxvAcqn6ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_003_3ceb19b683f8.png)
 
 由上文分析可知，实现 SiC MOSFET 的瞬时功耗检测需四个模块 ，分别用于 测量VDS、测量 ID、将VDS 和 ID 相乘、将瞬时功耗检测值和阈值相比较。具体实现方案如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxf4f7QJEhNfB2Uv7h8ic0TJEm9kZpWdopPNLehc99ibeDrPEzr8ZCzwBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_004_70640d4d7fd0.png)
 
 （1）VDS 检测模块（图 4 中模块①）
 
 由于短路时 VDS 将上升至较高的母线电压 ，不便检测，因此在 SiC MOSFET 的源极和漏极之间加入两电阻 R1、R2 进行分压。同时为了增加短路检测的准确性与可靠性，防止高频分量影响输出，在 R1、R2 两端分别并联电 容器 C1、C2 用于滤除高频的干扰 ，分压之 后得到的电压信号即可输入至乘法器 。测量值表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxlhSgypobBSzOFTpnHZgGoM4sDw6l6X8lBvgXXNdlMLpUJRqljqlOCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_005_ffd5a1e3bbe4.png)
 
 式中 kv=R2/（R1+R2）。
 
@@ -68,15 +68,15 @@ SiC MOSFET 的短路故障主要包括两种：硬开关短 路（Hard switching
 
 要测量 ID 的大小，可以先测量 SiC MOSFET 开尔文 源 极 和 主 功 率 源 极 之 间 的 寄 生 电 感 LsS 上的 感应电压。计算可得该电压值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx1NAIAqlHZGy0zYhSrZKoAYRkttvhxfvGzLO760mZrvibwABAgjbO3GA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_006_b2b4602d0a56.png)
 
 由于短路时该电压值较大 ，故需要串联两电阻来进行分压。经过分压后的 A 点电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxSNyqGAoxW88yFpCdPcTic9ScYN2xnIMfOT48XRP7US3ooFVjn4bz0oA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_007_b1ae296ceb21.png)
 
 式中 kil=LsSR4/（R3+R4）。 要由 A 点电压得出漏极电流 ，则需对电 压进行积分 ，通过一个由高速运放构成的积分电路之后 ，就可以得到漏极电流的检测值
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxpjaLicicApEictG4p5EyQyAYgcVG8olS2BqicUxnl7EgIw3UNwZUXwhovg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_008_ddc3b629dbc5.png)
 
 式中 ki2=1/R5C3，ki=ki1+ki2。
 
@@ -84,7 +84,7 @@ SiC MOSFET 的短路故障主要包括两种：硬开关短 路（Hard switching
 
 采用高速乘法器计算 SiC MOSFET 的瞬时功耗 。 乘法器的两输入端口分别接入漏‐源电压的检测值和漏极电流的检测值 ，根据数字函数输出两数值的计算结果，高速乘法器的数字函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxsIeDgYhBt1nN3YB5Fk0ib0qs79ECm711uozgQ17ejydTgaAPzP4cuWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_009_0560fe7acbdd.png)
 
 式中 X、Y 为输入值 ，Z 为初始偏置电压 ，输出的结果即为瞬时功耗的检测值 VPloss。
 
@@ -104,21 +104,21 @@ SiC MOSFET 的短路故障主要包括两种：硬开关短 路（Hard switching
 
 为验 证 本 文 提 出 的 故 障 诊 断 策 略 ，在 2.1 节所搭建 仿 真 模 型 的 基 础 上 进 行 仿 真 验 证 ，根据 不 同 工况下的瞬时功耗情况，设置仿真参数如表 2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxe8OTvGXHenYsGA0xXGL0MFmPJgzhyx42UUKibbiagPPQyfuiaQImfiaM2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_010_b55a9d6b0b1c.png)
 
 图 5 为硬 开 关 短 路 的 仿 真 结 果 。 可知 ，1 μs 时器件开通，SiC MOSFET 漏极电流快速上升并超出正常 值 ，漏‐源电 压 上 升 至 母 线 电 压 ，导致 瞬 时 功 耗值也 迅 速 上 升 。 当瞬 时 功 耗 超 过 200 kW 时 ，瞬时功耗 的 检 测 值 Vploss 超过 预 先 设 定 的 阈 值 ，比较 器 输出高 电 平 信 号 ，SR 触发 器 输 出 故 障 信 号 。 可以 看出 ，该方 法 从 发 生 故 障 到 检 测 出 故 障 之 间 的 时 间 间隔为 151 ns，电流 峰 值 为 340 A，最大 瞬 时 功 率 为250 kW，均满 足 设 计 指 标 。 结果 表 明 ，提出 的 基 于瞬时 功 耗 检 测 的 SiC MOSFET 短路 检 测 方 法 对 硬开关 短 路 的 响 应 速 度 快 ，可靠 性 较 强 ，能够 将 短 路电流控制在较低的水平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxObunjZL42aE1A8kpAyvOpia6gGan8BL4pUoqibGlwwWmLOehDPQ6FXcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_011_6b1ea6036a90.png)
 
 图 6 为负 载 短 路 的 仿 真 情 况 。 可知 ，1 μs 时器件开通，SiC MOSFET 漏极电流上升。但是负载短路时 回 路 电 感 相 对 硬 开 关 短 路 而 言 较 大 ，因此 漏 极电流 上 升 较 慢 ，瞬时 功 耗 的 上 升 速 度 也 随 之 减 缓 ，当其 超 过 200 kW 的阈 值 后 ，触发 器 输 出 关 断 信 号 ，响应时间为 3.175 μs。由于仿真时的初始电流为 0，而实 际 应 用 中 的 初 始 电 流 必 然 不 可 能 为 0，所以 响应时 间 的 仿 真 结 果 相 比 实 际 情 况 更 长 ，实际 应 用 中的响 应 时 间 将 会 更 短 ，通过 调 整 瞬 时 功 耗 阈 值 还 可以进一步缩短响应时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxolvz9s94ZtibEwDLEicBFCHHyQibCXzORAibyTHzmnb1QzGNLP5JuNjxtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_012_0cc76128f7af.png)
 
 3.2 其他常见检测方案比较
 
 由上 文 仿 真 可 以 看 出 ，瞬时 功 耗 检 测 法 对 硬 开关短 路 有 较 好 的 检 测 性 能 。 为评 估 该 方 法 在 硬 开关短 路 故 障 下 的 性 能 ，选取 目 前 工 程 应 用 中 较 为 典型的 退 饱 和 检 测 法 和 电 流 变 化 率 检 测 法 ，在相 同 条件下进行硬开关短路的仿真分析。图 7 为上述两种方法在硬开关短路情况下的仿真波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx1Ldn2Jtcfs8omic9gPjbEvEKpooPVtlMiaqzbyNA3WYu0BdxSpW8q7mw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_013_68dd621fa6c2.png)
 
 电流 变 化 率 检 测 法 是 当 前 常 用短 路 检 测 方 法中对 硬 开 关 短 路 检 测 性 能 较 好 的 一 种 。 由波 形 可知 ，1 μs 时器 件 开 通 ，经过 201 ns 输出 故 障 信 号 ，大于瞬时功耗检测法的 151 ns。并且电流变化率检测法在 输 出 故 障 信 号 时 的 电 流 值 为 900 A 左右 ，远大于瞬时功耗检测的 340 A。
 
@@ -132,13 +132,13 @@ SiC MOSFET 的短路故障主要包括两种：硬开关短 路（Hard switching
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_014_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_015_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于瞬时功耗检测的_SiC_MOSFET_短路保护策略_images\img_016_9bbc7b9b15a2.png)

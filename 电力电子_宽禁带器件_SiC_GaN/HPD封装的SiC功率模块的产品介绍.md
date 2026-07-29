@@ -5,17 +5,17 @@
 
 **🚍一.HPD封装的功率模块介绍**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbTawq1x82E6sA8Cg5sw6Ls05apJ5geOnrjzVENeVYV7pEzeZAUnoNicw/640?wx_fmt=jpeg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_000_9fe4b7ed4247.jpg)
 
 功率模块作为电控中最为核心的部件，其性能和可靠性直接关系到电控，甚至是电驱总成的整体性能。功率模块的优劣直接决定了新能源汽车的核心性能，例如加速度、最高时速、能耗、安全性等。随着电控的模块发展，已经由Si基模块发展到SiC模块，其性能大幅提升，SiC模块也被认为是解决800V系统的最佳选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbdFu3QYdmqW3pQWRDxacbwr3WBW39Cr6QP3J2ibk1Yt0ZDjkFoKujniag/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_001_a47f416b6b9c.png)
 
 IGBT作为功率半导体中的核心器件，在新能源汽车中扮演着重要角色，其主要用于汽车充电、电动控制系统以及车载空调控制系统。目前，市场上的IGBT功率模块主要由硅基材料主导，相较于Si器件，SiC器件具有耐高压、耐高温、高频和抗辐射特性，成功突破传统硅基材料的物理极限，成为第三代半导体核心材料。
 
 近年来，由于消费者对新能源汽车续航和充电时间有了更高要求，为了续航更久，充电更快，新能源汽车需要实现高压化，这推动了SiC功率模块的加速发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBb1ibc5cpOszD91GlxbNXXcx3HKyHlJbejpHGXTLE9uicHxuibVtiarmkohQ/640?wx_fmt=png&from=appmsg)  
+![](HPD封装的SiC功率模块的产品介绍_images/img_002_333fe8797d90.png)  
 
 现阶段，SiC功率模块大多沿用了传统硅基 IGBT 的封装结构，而HPD（High Power Device）作为新能源汽车上车规级IGBT功率模块最成熟的封装形式，一定时间内也将是SiC功率模块通用的方案。
 
@@ -45,7 +45,7 @@ HPD模块特点 ：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBb5ZDKP6S9ppBTxTQaxSxYiaic6ANzSEUASRS06scOwtL3pmKmicUEZiaosg/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_003_4f9ab30e8723.png)
 
   
 
@@ -53,21 +53,21 @@ HPD封装模块参数表
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbGIwgFxqLiavQibOribanhuJqb0baAmHzMeBE5YgTLDAGH1tT0ETKET6xg/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_004_73d25b3d320a.png)
 
 HPD模块的拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbcPNdBLdBLCJgZo14bicEHaBicRQQGWkQwmqyOKfx82RL00tFtlkllzHg/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_005_3dd6e33d3267.png)
 
 650V800A模块的参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBb4DGRjBKRQOkGRY6ibHcYKd61L5iadtW48vJ59GQ3W3lszcYtVEo0dchw/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_006_87ca93eae04f.png)
 
 模块的尺寸图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbamZBS4L3p2NicEtCaVKcyPicQPvFquAbpiax98EvQnTfsgoJtDfqJGicvQ/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_007_6a0e12c073f4.jpg)
 
   
 
@@ -75,39 +75,39 @@ HPD模块的拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbeSozgsKVOPwghcVEmuKvmZyDcpb12VYJDpmQnjJqxicfheU37JXaGQQ/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_008_1cbb15e0903a.png)
 
   
 
 1200V800A模块的参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbGiaCNpwJiblBJhZkP68S0XhxwpZM319C6qFq4mSibnjqHZjpBcwSFmvYQ/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_009_54f05ef85f8b.png)
 
 模块的尺寸图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbn7YeDSJzzwSCAanaAGjf9aDBibniaTYEzvmyRljibpLF0A6bKIj9IdPpw/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_010_9b07e67400ba.jpg)
 
 模块的实物图（平底板)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbqsZiczibQ8QtUSt6D7NqeHKZqfue3sHr48Ts6VGChwxTYiaz4qouHEQag/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_011_e8b6e8ce619b.png)
 
 1700V800A模块的参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbibCA5BVMuTDWOic4G3KBNN26zvq5mmpkNJBtFhc0EUnbuwrGyykiaQa2A/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_012_682d2330c35d.png)
 
 模块的尺寸图（长端子)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbbicyt4iac2sjIiaRngQzmaz991bibQAaOBKAuQR3pkT4YNUfzkgUvvaSgg/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_013_16a162ca94b6.jpg)
 
 模块的实物图（长端子)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbmKWSNrdLzib86zkbqmSCBB05gG4EHuCHfNV48cwFEek9NicHvWTBibIYg/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_014_57a35fbe6e74.png)
 
 1200V1000A模块的参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbN87MicPQt1trE69MicV7HVtIEbicV5GbLicH7uDe4P4ZKqQlOJyBdJ6oNw/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_015_6d6ad931aa62.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbr7BR19nQmwWTiaqkCezHhcFM69UVnFOeBeYaM5p6Hfe4oF5OwZ7jribg/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_016_b812f16e8271.png)
 
   
 
@@ -149,31 +149,31 @@ HPD模块寄生电感低于10nH，较传统方案降低50%以上，显著减少�
 
 **🚗 新能源汽车主驱逆变器：提升功率密度，减小系统体积；支持更高开关频率，降低开关损耗；高温运行（结温175℃），适应恶劣环境；**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBb9ZwicPiaiaq507gdkV0kia7RoORkWCWtzCkATMArPostWp1kYPsj1pp7eA/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_017_fdfe36eec35f.png)
 
 ☀️  可再生能源发电：光伏逆变器、储能系统、风力发电变流器，提高转换效率，降低系统成本；适应高温环境；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbNpvuNMdgnaJaib1rzhdlF62KleV2n3JmPuZcuKrnbHdWflqaLtsE7Ow/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_018_3f1538d4e206.jpg)
 
 ⚙️  工业驱动与大功率电源： 伺服驱动器、不间断电源（UPS）、工业电源高频高效，减小磁性元件体积；低寄生电感设计、降低电压尖峰和开关损耗；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBb71wicvwNjPaY8fbbNkS3vfmhpT34t95nVzyzzufpocvIzGY9TtMGQkQ/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_019_86ee6b11853b.jpg)
 
 🚆 轨道交通与智能电网：牵引变流器、固态变压器（SST）、智能电网， 高可靠性设计、满足高温、高功率密度需求；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbicckyvT04NGnMSdOMSeB4icf3bLL5GGhTZjtCZTsTWzzUztvSnqyMrKg/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_020_27186d8029c0.jpg)
 
 ✈️  航空航天及其他 ：飞机电力系统、燃料电池汽车、医疗设备， 高功率密度和可靠性满足特殊领域严苛要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbpJIvzFb40NqVCjy62eS2cCeBq0ib92XXDIVzSQGdgK8lqdD6307tcEg/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_021_798d12912791.jpg)
 
 SiC功率模块的封装大全
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbcAn4kW5moh03nbcibBHTB4X0dEIXgJlvwQoFOcP4GgRtcOGia5xfGa6Q/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_022_59c267a62142.png)
 
 SiC功率模块的应用领域
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbic8l89koJTIYicbkBeTFM0xWjfefBngsHXPJGr4x6xGTpo1W4JV55wOQ/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的产品介绍_images/img_023_4f85318158fc.png)
 
 🚘总结
 
@@ -181,13 +181,13 @@ HPD 封装的碳化硅模块凭借高功率密度、低损耗和高可靠性，�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAd0UEwqQXmiaic9N5ZS2I5QzqibXEHBFnvAGcKaLR1Wf6aCulyia9kw4NUQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](HPD封装的SiC功率模块的产品介绍_images/img_024_8282642df1fc.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAxwk5tliaUItzicX2icZA1NL2u2xJjlW1FYPRlcsweN93OQsibmcN6pkbVA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](HPD封装的SiC功率模块的产品介绍_images/img_025_2df7341d3176.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAQqbpuHPAG2erl7w8gjqNz104mn6d6RNuYrkNWjmvhdmMWZkcSqURnA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](HPD封装的SiC功率模块的产品介绍_images/img_026_546b705af847.png)

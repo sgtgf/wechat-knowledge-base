@@ -47,11 +47,11 @@
 
 通过下面两张图，你可以直观地观察当缺少坐标轴时，投影平方和与原向量的关系：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsib5HeCaZkpcENkqd0emOvaZlHbRAf2FUpHaKlKv9z5N3mQq0bU6QHJVRVBdLo8uicK0Jca2bBNvzSpbwTX2ZyU5DLYLzfWBSYU/640?wx_fmt=png&from=appmsg)
+![](贝塞尔不等式（Bessel_s_Inequality）_残缺版勾股定理_images/img_000_adfc3d55213e.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuIBab70DeUG3mRyZWluIyIAgibpyGrCImPpkiaTicDbHkKow9hj8LSHmydia3ZAUIibwd8ZicfSdlampOxlcbvDpJ7nZldY48qbg2j4/640?wx_fmt=png&from=appmsg)
+![](贝塞尔不等式（Bessel_s_Inequality）_残缺版勾股定理_images/img_001_691caba3b0ab.png)
 
   
 
@@ -59,7 +59,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuaF5EicAibK8o4ROYDDF255lb8sJJ1cH4CWtVnM6k15FvRJK5JybicdAdYBVnAReEeUWcjcA90TCkKzdgA4jm9ia959KIetZ4qAwk/640?wx_fmt=png&from=appmsg)
+![](贝塞尔不等式（Bessel_s_Inequality）_残缺版勾股定理_images/img_002_230150cc1304.png)
 
 # 一句话理解
 
@@ -75,7 +75,7 @@
 
 # 一、上半部分：三维木棍与二维影子
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctjVAoibhYicdqDFL3lIVzoXaYuddruh7W3s6I7HQyXY6vibWILuiaFNM3TOeyT2XZribyibc6HgHOOa4EoQMSSGBky1xulhHTpr4xFs/640?wx_fmt=png&from=appmsg)
+![](贝塞尔不等式（Bessel_s_Inequality）_残缺版勾股定理_images/img_003_d600738b6087.png)
 
 图中有一根三维空间里的木棍，也就是向量 ，长度是 。
 
@@ -107,7 +107,7 @@
 
 # 二、把坐标轴推广成“抽象方向”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvh9DSPUlcKfsc6UeoE0kSEwvap1cjodxurKfcl72riaRqlG28gJx8vEIuqRr7tnDMLZP1d2IfZA0iaA09BjZBhCjkpwgQ5k9Ga4/640?wx_fmt=png&from=appmsg)
+![](贝塞尔不等式（Bessel_s_Inequality）_残缺版勾股定理_images/img_004_934d9eaf91f5.png)
 
 在普通三维空间里，我们熟悉三条单位坐标轴：
 

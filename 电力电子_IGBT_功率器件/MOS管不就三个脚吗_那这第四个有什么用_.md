@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/I7TQzbMMP1LozXARU23zZQ](https://mp.weixin.qq.com/s/I7TQzbMMP1LozXARU23zZQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](MOS管不就三个脚吗_那这第四个有什么用__images/img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](MOS管不就三个脚吗_那这第四个有什么用__images/img_001_cfc30a4da041.gif)
 
 **MOS管不都是三个脚吗？TO-247-4封装多出的那个引脚，到底有什么用？**  
 
 大伙看到G、D、S三个脚的MOS管，再熟悉不过了。如果第一次见到TO-247-4封装时，估计你心里也犯过嘀咕：“MOS管不就三个脚吗？这多出来的第四个有什么用？”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niad5XH57iaM4t0kXhk3GoGyibnC6H0sEQ32TGayQcVruv0M0qIzWmDHWJ2ibpib1qJgR5Kcfp9hxSiauYaSQOyiav8tBJSQFDK5RW3kjw/640?wx_fmt=png&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_002_0a60e9372167.png)
 
 简单说，这个多出来的引脚，是专门为解决大功率、高频开关设计里的驱动可靠性、降低开关损耗。今天就跟大家详细聊聊这个话题。  
 
@@ -22,7 +22,7 @@
 
 咱们都知道，MOS管是电压驱动型器件，理想情况下，你给栅极一个完美的方波电压，它就应该瞬间在漏极和源极之间做出快速开关的响应。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niad9AnPZvibldTj2A8FhJqibd5Pr9Biaac80eSJbZnZ3BYaSC37TvP4X2pMAeXnp3dIpZHDPGmVXDibWn4JSic1jkicic0rZiaECFl31icA8/640?wx_fmt=png&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_003_b1683c8586f2.png)
 
 但实际的波形不那么理想：
 
@@ -32,7 +32,7 @@
 
 我们来模拟一下开通瞬间。驱动IC发出一个15V的驱动电压，这个电压加在栅极和源极之间。但是，漏极电流Id正在飞速上升，di/dt很大，它在共用的源极寄生电感L上感应出一个反向电动势VLS（VLS = L \* di/dt）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacrdRpsUc6v1gLTPHdezmDQIEXwTcKnVLcH1T5WJhnKpXI3DxichKvGdHjicziakiaDXEbWYKu1LVgfSk1tO3RVRcmvDPCyI0KIal8/640?wx_fmt=png&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_004_8afc8077297e.png)
 
 这个VLS方向是上负下正，它直接叠加在驱动回路上，结果就是，真正加到MOS管芯片栅极和源极之间的有效电压VGS，变成了VDRV减去VLS（VGS = VDRV - VLS）。参考东芝的应用笔记，这个物理过程画得非常清楚。
 
@@ -46,7 +46,7 @@
 
 为了提升MOS管的效率，这时候MOS管就多了一个引脚，也就是TO-247-4封装的第四个引脚。这多出来的引脚，学名叫做**开尔文源极（Kelvin Source， KS）**，它的出现就是为了解决上面那个共源极电感的问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafvFThKYOexTqltXiaFUSMvsDbCLxjybIBt6SJxic6ciadiaQgo6iaH3hLjlXdlH9wCgiblEzJBfVZ2dnVTBhp71Il5zBSktwyW5pvoA/640?wx_fmt=png&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_005_bb84d1a596e4.png)
 
 我们来看看它的管脚定义：
 
@@ -63,7 +63,7 @@
 
 **如下图，驱动电压VDRV是加在****栅极**和**开尔文源极**之间。这个开尔文源极，在芯片内部是直接从源极金属层上单独引出一根线，它不经过那条走大电流的键合线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niac7XMWGs8EiciacYJAovZfHReQXqXLDQtTNk2zTwXD5K5ZlByiaV4AdwptsNLCRsQPga3UK1Ox6rIrr6RcGWPBsZYCKibgtbSeicyX8/640?wx_fmt=png&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_006_d724b74309ce.png)
 
 这意味着什么？**驱动回路里没有大电流Id流过！** 因此，在驱动回路里，不存在那个令人头疼的di/dt，也就不会产生那个反向电动势VLS。驱动IC输出的电压，几乎毫无损失地全部施加在了芯片的栅极和源极之间。VGS ≈ VDRV。VGS给的足，RDS(on)就低，开关速度也能拉到最快。这直接体现在开关损耗的大幅降低上。
 
@@ -73,13 +73,13 @@
 
 TO-247-4封装相比传统TO-247三脚封装，**降低了约40%**。从**图中**的开通波形能明显看到，4引脚封装的漏极电流（红色虚线）上升斜率比3引脚（蓝色虚线）陡峭得多，说明开得更快。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeZ4KJk0zDyZINubeaiax2kKdCoxtup6r077bffmUhsSia87IrVvEfSkOGQyutsn9S0lgzksIT7w1D0wPbWbKBia4N1hmp0ibCHoSE/640?wx_fmt=png&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_007_c4892b23221c.png)
 
 **关断损耗（Eoff）**  
 
 同样，4引脚封装的速度也更快，**Eoff降低了约34%**。**图中**直观地展示了损耗数据的差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niafoBSlMmAGoLyhPn43DwvR5xGKGWib5ecvbdHTBfsGFB4DvAQBFADmPFBed9Kb1sXq1n6DhcibBScbubuDSppaOg5TSZVULMnEcU/640?wx_fmt=jpeg&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_008_5b103f819be8.jpg)
 
 这40%和34%的损耗降低，对于一个几百瓦甚至上千瓦的电源来说，意味着散热片可以小一圈，或者效率能硬生生往上提一个多点。这在服务器电源、通信电源、光伏逆变器这些领域，都是实打实的竞争力。
 
@@ -91,12 +91,12 @@ PCB layout注意事项
 
 对于我们硬件工程师来说，理解了这个第四个引脚的本质，在设计时就能更有针对性地进行PCB布局：**栅极驱动电阻要尽量靠近G和KS引脚放置，驱动回路的面积要尽可能小，功率回路和驱动回路要严格单点接地。从驱动IC到G和KS的走线，要尽量短、尽量粗。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niadticE1zppLVficIy4kk5Md96TYd9t5zNftXfIfznX72hnE1unrszT2tRpz4iaFOaCu3JlhK1icoyE1IkWv5mvibsaJEAILUB87Kd1E/640?wx_fmt=jpeg&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_009_6086fbf1cc57.jpg)
 
 写在最后
 
 聊完了4脚MOS的基本作用和电气原理，咱们再来说个很多工程师容易忽略的物理细节，TO-247-4封装塑封体上的那个小凹槽，如下箭头所示。它有什么作用呢？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaf9sYohpKjIzIUia3UsMhGx7cFHX3GubgzbCkaORicw2YRxxSTbEX1WNSQ3EqCkx5MgBsB4IRMvJicOkNIvCHfovEuTw8Gr4XqViaM/640?wx_fmt=png&from=appmsg)
+![](MOS管不就三个脚吗_那这第四个有什么用__images/img_010_08937a8c1bbb.png)
 
 有朋友可能会猜，这凹槽是不是为了防呆、区分引脚顺序？或者单纯是为了增加爬电距离？**大家在实际设计中有注意到这个凹槽吗？**

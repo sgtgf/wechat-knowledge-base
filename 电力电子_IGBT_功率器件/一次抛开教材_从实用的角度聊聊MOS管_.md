@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaps1fw0aK2EGF0og6hTOtfafo9DW6TJEh3gWCoxjSIuTdgeoxfEiaIibQ/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_000_c22a85c03229.png)
 
   
 
@@ -42,7 +42,7 @@ MOS管全称金属氧化半导体场效应晶体管，英文名Metal-Oxide-Semic
 
 首先来看这么一张简单的图（图1），我们可以用手去控制这个开关的开合，以此来控制这个灯光的亮灭。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaS49R51ibhI6LgY8Ylnia9eXvErV5jUM2b958CmI1v2I6cibx90VrYY5ag/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_001_5da4fe9e28c8.png)
 
 图1
 
@@ -50,7 +50,7 @@ MOS管全称金属氧化半导体场效应晶体管，英文名Metal-Oxide-Semic
 
 那如果我们想要用Arduino或者单片机去控制这个灯泡的话呢，就需要使用MOS管来替换掉这个开关了。为了更加符合我们工程的实际使用习惯呢，我们需要把这张图稍微转换一下，就像如图2这样子。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaeRD1MZpVAGnQs0Kw54yl6nfAiaqaWW0zF9yeMm4j3wEbF0q3H6VHzqA/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_002_812ca8c6b7ee.png)
 
 图2  
 
@@ -60,7 +60,7 @@ MOS管全称金属氧化半导体场效应晶体管，英文名Metal-Oxide-Semic
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaib9lp2DDO8O7sZbTRf0jRsrrvE8SfaLCkHHHicuN4KDeiafBYc48PRzJQ/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_003_e55a6da889b2.png)
 
 图3
 
@@ -74,7 +74,7 @@ MOS管全称金属氧化半导体场效应晶体管，英文名Metal-Oxide-Semic
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaicZadadcxlpqY1eQqxqcpsdo1OdVY4N1kFMevUkW14YNMAwVnibyiabqA/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_004_94cfe74e3a57.png)
 
 图4  PWM波
 
@@ -92,7 +92,7 @@ MOS管全称金属氧化半导体场效应晶体管，英文名Metal-Oxide-Semic
 
 封装比较简单，它指的就是一个MOS管这个外形和尺寸的种类也有很多。一般来说封装越大，它能承受的电流也就越大。为了搞明白另外三个参数呢，我们先要来介绍一下NMOS的等效模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaWLWPYdSLX7s3TWAy3bz8thyghJYyFaVfyqFPFE1mB1ibBw0Cj9pe55Q/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_005_bbbd2da8db43.png)
 
 图5 NMOS等效模型
 
@@ -102,7 +102,7 @@ MOS其实可以看成是一个由电压控制的电阻。这个电压指的是g�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoias631mGazERCKRMMJkc22piaKAdibh6iciafRjmtjiamzwFJk9fK0m1wf3yg/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_006_0f0bffc41a65.png)
 
 图6 Rds与Vgs关系图
 
@@ -112,7 +112,7 @@ MOS其实可以看成是一个由电压控制的电阻。这个电压指的是g�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaIUqWmm5905uIcgeJgaEeZib4mYiaWBljzocGXUSSnI7C49w8p0aKkldA/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_007_2f29997e165e.png)
 
 图7 MOS管数据手册
 
@@ -132,7 +132,7 @@ MOS其实可以看成是一个由电压控制的电阻。这个电压指的是g�
 
 那它会影响到NMOS打开速度，因为加载到gate端的电压，首先要给这个电容先充电，这就导致了g、s的电压并不能一下子到达给定的一个数值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaeEuE1VMhYzzoSiaEpXpuERPbojRHcDiarYKgjqBXLp1iclWO8NynNhElg/640?wx_fmt=png)
+![](一次抛开教材_从实用的角度聊聊MOS管__images/img_008_b8e7ebe02288.png)
 
 图8  
 

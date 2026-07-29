@@ -7,99 +7,99 @@
 
 作者：徐殿国（哈尔滨工业大学教授）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFQFdYlxOeJIE8Xxco1qZ8b2ib3VUaNqYiclCFzMIKUusCFDiahibVe3rEuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_000_c22d6ad0fd91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFibUBUCEKJlcLNqmySxB1fusWakq3icVxE0gAibSzahTJ3TOBm7hZ7wtAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_001_6f048f204861.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFCN1wwg1oRjB6qhF6ZqcXS78iaEhEyyMkMETLllTDm64S2dSPUrQr9XA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_002_2cbe3d2eb1bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFr8GLOibVGB92RSpicQt5AV0khZibYLZibFFR8p7A9heV9dgBtSuWvbjBZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_003_a8ea9a38c118.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFicPX6SdWon7hiahpY7tugOeuGxqP2yibbic7YlwA0vpiaQCCp6wJFTib8GnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_004_ed104ecfd810.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZF23iaozq0TYFlDdtfywZ4wP3ibIfvKG2iaIgpeW6Z8c5iaiaJWkial6s1T6Vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_005_7fd611691551.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFrWaE1bjKNAhljNY9VxCnjj5jIyk0zgZtf55jdicOAxF5niagOsrkdZ8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_006_25cb0e5e8272.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZF52l7gs21Yv3Ph4VP4iay7EiadPRqW6UhqXWh7ia74icgJMJShmcNFp6TWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_007_ac3988bd7bf0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFelmwibxxYskRFOuRrDs3iaSRSzWicEw3Cy54MoNWn2LVAzoKOuThTy7fQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_008_b4f0ba68dbe2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFJnl8P9sNX6ibqf8IXFc6AWvSxO1PGBvUS3icD2xMdI1bzibsNxmTMj9DA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_009_6595f50f2b5b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFKP8WkQj5yIia0yHOsicvCUQ3DSBLJiaYlQ4J11pazM6XSejUjNB9u0Kvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_010_9e9030379f83.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFmiapXNltY7nVf6PDMVibicicXwvknG7X21UgbySnwMPYGETldxDKzZAC2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_011_3294091f3990.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFTcBhAJQz55jTgvibQ9kibO3mvaWwzJ4xHggg902aJez1NpsibsZpRPVbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_012_b1c681f2dc98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFbuF96UchI1mtUzm9d4QVksbssZVRpcEnvOzL96ItYdDHEvHrfGql9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_013_723c8df09a84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFMoBXmL1xjiaEg4bS32EYHIGSHP04f5uciaVZOFc4yGXT2c0yQyk3Ir5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_014_ee67e74e0186.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFUdVjyKnaA89zriaDDSIichwU3mdEAdQwgoEweQdDPYHfQ8q3icTB4uTjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_015_8e40d3c9e6bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFicq9eL21B6sjNSfHJIvqJ1ovmUe08n0arBwrdXuiaIkS31G9oibycHxhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_016_71d764169d46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFvrxjr0AOURzqckibwnPkDic2dKfBvic1uEhlSPn5hFkpZdym6qx1Dnxww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_017_98ba2d0cd712.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFKtad3ic64KCSb79jGg3gqogG5iaC6HdfU1w06KbdKDAWjLpyo3utdicoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_018_b40d40aa8f9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFhQhSpHkf9vgrXAIVDBHS0Egzp1cSmG2DwyC7VD2rwHwUBALlatqUhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_019_01aa2024f8a8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFr3PYKouV2UuFSSQesLLiaWXb2hJNC2B4GBhuic264RnDs75ZoyOT0WSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_020_dede185c42b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFVf5MpjicC6CKy2s6iaS5lra0RCFiaGIR3puvkVMrkoqvbEDQNtOpiaGEpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_021_d906807d5001.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFTRpY2dlOy334fK2POdORzvIlEgCbW1UpTFQH73h3QWPicBtiacBTMtzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_022_932b2d442f74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFCJAL4ueRTa8vNu6dN9qRY37wSiajoPSGh6wjOgPBkpSPULNW4TQDF8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_023_e049cb7281c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFkhgcHIYTjyBJsgqGhDvbQKPYRibbLKavnwrv7dP6PobKxWfiamI7scag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_024_97ed1803f63a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZF1YH2n3KwRTOiaOQ6X6AYqLMuQvCQozyBJo7IK31lQONgtabjPiaWhhBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_025_d973056187df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZF1JoBLUD9D0QAPJM3dXDNoFgclkkUicnRN4b2sG9t2rzBkt9ZjmGAlTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_026_a6dcf45491fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFyRIwCvpuRRqJdG4TMU9GUkMKAsOO0a5EYTRQFdEyA8LM23lRlQjtvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_027_1cf66ad0b320.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZF5PEfpHz0xEhJhmouWfJNGp5zww45gCkqUvxP6CzS9QzjIvf0CCAwKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_028_91a33e24dc1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFVc1jWkssYznjHWwwfozn75fqujm2icYibmPAn73WCOoX8pDpw8MdexQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_029_d726eaa0cdae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFb5SdvyeQJyt09ukibfiapv9XtXGpclwBSyZfVSn59pydVjtLpaKse23A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_030_bd030734e2fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZF7rLibE6pRtRRchJG8dy7luevTM6RGecTRR9ia7TjZpb1dJk9SWUqwlpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_031_bb79905373c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFc2p3kclOJZ0I5WOCyyaZ1a3ALEibk0fgK8XDiabZabfpbopMfjab7cmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_032_257b004b3918.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFz8Rlz6ibMj4S5P1XXNnBG3ZuvnbwicyVeWW0QJxpib71LkjAicLWu9EGsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_033_f6569df1bd7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFcluSMOXq1ibfiaaGO6ZAVGr1pfxBGSHc0TXzJxVDneGod61qZIbrkqhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_034_8b1762d6174a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFJbucRwibbaLqkugmhUkt6CvVibuZVA5q0rzMHicM3FhTb5e0A0VEAfu4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_035_c1b04c7ce299.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFS8Ge9wMyatfj73XsO1GVQLeoUHrj9tibnjqH7xGec3Ckbk5hViaBxY7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_036_a80177b693ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFgaI2ggDUrPQOtsWBbrqKVCwe2kHQhLyeBmjIfssLEKBos5SWeRb2cA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_037_ae3b7ef2675a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFa9CeVk7Fq4E2Criclr5LsxWO8NGY1ae6hNbDvVDJjLrDyMeibq4d70vQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_038_0b9f6051b597.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFjyZsAy7yWhDCTk8kv3icwarTm3Fc70wKIo5PO5ibpwmc0GPhmdmD8Zfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_039_509c0f750bdb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFibrLpZoibruokd9qg9ryPKOXfCyYXk1fCEwgdofngEgciaGZKgIHAAsNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_040_303b8f5e14aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFJmRjTybAvVJIXX3mayzsiczeKCot7VMT1N6GDBArBXce5QAEdo08frA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_041_53ee6cb36964.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFUC5wAicXxWJvV0ht82A1oWsGdCfXSBA8N0vH1mhyZRpb9ZVOOqoERsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_042_a9c574ae4970.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFsBC56GiaeiaVv4H0ULugeRuSxXN0l0YvRZyU6ZOCKEU8N7rGvXXvHbbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_043_edda52b0b5cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFrLB495bpiaicvGokOAtFQBoGQoyE1VgNrdg5StPLDRabusInLrglMkqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_044_7e7a0158d8d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFxibHCuxfMVbJkw7FCG2U8bGjJMoyG0sHcxcVSnbI4h0jwTdkQiaiav9gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_045_59964024e6f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkOMBSb4GNk841xrAyibEZFKxxPr9b5HEAiazk3Ep4o5tz63XODibDMGAyz9dFVr0rM57CJv1lJvFGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_046_30960a3caf4c.png)
 
 注：文字与图片报告无关
 
@@ -245,14 +245,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8kngRRYaYUKednxlUSgjPeRZPtE28FDdZrnQ1AHIvtoxYLcRknnSv8w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_047_cb1db5107b62.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8pGk6PqTXdKGuFcm5zR1AImEQuiaibc7xtaUvma35DJgq35GLAYwxbmAA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_048_10503fd37b7f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8PAlHwZdI5dJBKaBTYAJhZ88OMvwDW2TETSFMqXACG0DThiakzXEunpQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_049_66edae492128.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslxmBsBltxCuVvWLTQicasr8raaWVakOs0fib8f6GY5QGpibDZNdgk8iaIObfEO369yfsojHhicVp94y5w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\现代电力系统中的固态变压器（SST）_images\img_050_17f5977e8c15.jpg)

@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNkNBa9rdDSecfLLG7S4Dc2ZOGKeticCqib2CrmOyzG2LUia5jdiaybw7JVCPk7Ehn24FgToib7HYgD9mg/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_002_b42673955706.png)
 
   
 
@@ -55,7 +55,7 @@ USB Type-C连接器有24个引脚。图1和图2分别显示了USB Type-C插座�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNkNBa9rdDSecfLLG7S4Dc2yBfic6ibhxicW67OM2hFJ8u7kzukzib493qOW4zFEplfwVZ9tic2RjRwLEw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_003_d92fbfd6ff49.png)
 
   
 
@@ -87,7 +87,7 @@ VBUS和GND引脚是电源和信号的返回路径。默认的VBUS电压为5 V，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNkNBa9rdDSecfLLG7S4Dc2jiaJ9ou1AibX77sxYzLAug07Qvxy0NJTdcTzu7eJfu1V8U4ibrAZwT6Xw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_004_dc44c7e52950.png)
 
   
 
@@ -126,7 +126,7 @@ VBUS和GND引脚是电源和信号的返回路径。默认的VBUS电压为5 V，
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNkNBa9rdDSecfLLG7S4Dc2K0PfpdmpKU5hTVpRgDkp8uVfOAdnok3OiajktuPAzZwU7BWaGp4HLhw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_005_afb7ddf81c98.png)
 
   
 
@@ -152,7 +152,7 @@ DFP通过Rp电阻上拉CC1和CC2引脚，但UFP通过Rd将它们拉低。如果�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNkNBa9rdDSecfLLG7S4Dc22JBvCEwZtqEfPKkcw9j5FmYcbN8UcrhibicPklqoFMwAicmV8UTWQAzuQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_006_634d9ed7f6c7.png)
 
   
 
@@ -192,7 +192,7 @@ DFP通过Rp电阻上拉CC1和CC2引脚，但UFP通过Rd将它们拉低。如果�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNkNBa9rdDSecfLLG7S4Dc2dkAh48nWibZdpUt4iaVRTXfYpHZnnDn2zZ3AqHBtEy8x8S66uPFmibR6A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_007_206c8904766e.png)
 
   
 
@@ -204,15 +204,15 @@ DFP通过Rp电阻上拉CC1和CC2引脚，但UFP通过Rd将它们拉低。如果�
 
 **11 PCB设计布线要求**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNkNBa9rdDSecfLLG7S4Dc26ZLQsjNlT8icLlcpnmzexMIsicxVwld38I57mgdcdrYzWtokS0PFtJvQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_008_eb71b659a01e.png)
 
   
 
 硬件工程师都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_009_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_010_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_011_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_012_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_013_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_014_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_015_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_016_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_017_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_018_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_019_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_020_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_021_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_022_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_023_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细USB_Type_C引脚信号及PCB布局布线介绍__images\img_024_3c93e54afedf.gif)
 
 ## 
 

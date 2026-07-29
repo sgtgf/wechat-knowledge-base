@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/m52Sgn5Of-TG0jqM5Qsuow](https://mp.weixin.qq.com/s/m52Sgn5Of-TG0jqM5Qsuow)
 
-____![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTm6UJ1tliaTZfpTRZjfRI42dBdORnj3pytFlEX6SqibicZptvhFf7vQibHxn8MTTfKqmboZicKibYHpDrQ/640?wx_fmt=png)____
+____![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_000_04377f75455e.png)____
 
 ____**____**____**____**★★★**____**____**____**______________EMC-10---电源噪声处理实例__________**____**____**____**★★★**____**____**____**
 
@@ -17,19 +17,19 @@ ______________€1.Boost型DC-DC辐射EMI分析______________
 
 Loop2和Loop3为开关电流断续回路，具有高di/dt和dv/dt，因此SW节点振铃明显。Loop1和Loop4虽然是存在反复充电放电，但却是电流连续回路，电感电流连续，高频噪声主要来源于SW节点开关高频噪声的传导，由于Q2电流断续（Boost的特征），Cout的容值大小以及位置决定了Loop4中Vout节点高频噪声幅值。（传送门：[DC-DC-3：升压型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485610&idx=1&sn=1b5c384bbbc1191f9d32d5320e72a5a9&chksm=c3354235f442cb236b741c581cf7ad613115cfd919af3760d1d01a13520c07d8590dc57223f7&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEBPAmFUJYZ1ibEfqotupBMOQ03LR38PsBZOeVpEAmeRiafoNEalh5TJYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_001_8f504bfa295a.png)
 
 **_图10-1：BOOST开关回路分析_**
 
 **_图10-2_**为SW节点典型的开关波形（输出仅放置Bulk电容），SW开关节点振铃幅值高达10V，震荡频率为200MHz左右。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEMeQNfEQWFfXmtYL84zn80icj98jrLiaRJzFfHhffk3Ulygdfns33BIkA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_002_2faa763d21fd.png)
 
 **_图10-2：SW开关节点波形_**
 
 **_图10-3_**是对应于**_图10-2_**的实际辐射EMI测试结果，采用3m方法，蓝色为垂直方向，红色为水平方向。测试结果显示噪声在频域上的峰值在200MHz附近，与时域测试结果**_图10-2_**吻合，因此抑制辐射EMI峰值意味着需要大幅度降低SW节点的振铃幅值，以及振铃周期数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyESibrTCKEr2LFDY7j9lXMVkyoqcpeXicaspRr5GxJLm0tsu7tVX0Nc31A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_003_9454e733af06.jpg)
 
 **_图10-3：辐射EMI测量幅值（CE测试标准）_**
 
@@ -51,9 +51,9 @@ ______________€2.BOOST输出电容选择______________
 
 根据输出纹波幅值要求，可以利用如下公式计算最小需求电容值Cout。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEeeq60Votarq0JTwlop1AGhePqrdmEdOib7ibZfwd0z9KbLld1Na2vfjg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_004_a9966b7920e8.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEdQyhktlCGnMb2pLvFVY76WMDPXgXTncXFdl7Cx1ykIrWkSd9CsNjIA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_005_e06fb02e0937.jpg)
 
 其中Vripple\_C是输出纹波幅值，Vripple\_ESR是输出电容ESR导致的纹波，I\_Lpeak是电感电流峰值，ESR是输出电容的ESR。  
 
@@ -61,7 +61,7 @@ ______________€3.Layout注意点______________
 
 1#：由于输出回路是开关回路，高di/dt和dv/dt，减小回路面积至关重要，输出回路去耦电容必须放置在离Vout、GND管脚最近的位置，从而降低SW振铃幅值，如**_图10-4_**红色箭头所示，利用NC管脚作为输出功率地，从而更近一步降低输出回路面积，Vout、NC管脚铺铜尽量宽。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyE1ar8G3TPweXjibyJ1icJiaWVloCssGbF4WCfUmL0iag57lBtf7FCiaMPa7w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_006_4f416686cccd.png)
 
 **_图10-4：推荐Layout_**
 
@@ -69,7 +69,7 @@ ______________€3.Layout注意点______________
 
 3#：下层大面积铺地，降低地回路阻抗，采用8mil的过孔连接上下大地，降低热阻。
 
-4#：从系统稳定性考虑， AGND与PGND单端相连，通过散热焊盘底部相连，（散热焊盘同时也是功率地）。当Vout添加上去耦电容，并严格按照版图注意事项布板，测试波形如下**_图10-5_**所示，SW振铃幅值降低到6V，同时震荡明显周期变少。![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEsRSibVp67TxEiaf1MBKCaWH96ttWZdNfbP672jabendoZhrbSoHJZSBw/640?wx_fmt=png)
+4#：从系统稳定性考虑， AGND与PGND单端相连，通过散热焊盘底部相连，（散热焊盘同时也是功率地）。当Vout添加上去耦电容，并严格按照版图注意事项布板，测试波形如下**_图10-5_**所示，SW振铃幅值降低到6V，同时震荡明显周期变少。![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_007_974ec8d9e09a.png)
 
 **_图10-5：添加去耦电容和推荐Layout_**
 
@@ -77,19 +77,19 @@ ______________€4.SW开关节点噪声吸收电路选择______________
 
 在SW开关节点添加对地的RC高频噪声吸收电路如**_图10-6_**所示，可以直接降低SW节点振铃幅值，该吸收电路通过降低dv/dt来降低SW节点振铃幅值，因此该电路会牺牲小于1%的Boost效率。（传送门：[EMC-5：DC-DC的开关节点振铃控制](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247492064&idx=1&sn=4ab372275031e858bcab373d27eab019&chksm=c336ab7ff441226930b773e80578f2c7811b49fe2528b947268df2f4e0448b480d4e9b10c242&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEibCcvXFlIE0emMkQAzOBqScTtcJeG3X3ns35rxGm5RABoxia7ia8Fh0Og/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_008_854757a091f4.png)
 
 **_图10-6：采用SW节点振铃吸收电路_**
 
 SW高频噪声在200MHz附近，因此选择Rs=2Ω，Cs=2nF，**_图10-6_**为SW节点加上该吸收电路，测试结果为**_图10-7_**所示，相比于**_图10-2_**所示，SW幅值大幅降低（蓝色=SW、绿色=Vin AC）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEQDHDtmX8IIIZdYvK6eq6pSPicLR1qMpdPoiadGcjUp6sZicTajxBIpcZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_009_9ce40dba6de9.png)
 
 **_图10-7：添加SW振铃吸收电路，测试波形_**
 
 基于无系统级的EMI滤波器，**_图10-8_**为添加SW节点RC吸收电路后辐射EMI测试结果，相较于**_图10-3_**，EMI峰值下降了20dB。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQjQG74moa6XlFn0zZ11ibyEePbc8QZSiaq4VC7srSool1TD4YhFIEBJnQoXbUoJbIeZcDdDzibRwywg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_10_噪声处理实例_1___降低BOOST辐射EMI_images\img_010_50b113cf36f5.jpg)
 
 **_图10-8：辐射EMI测试结果（RC缓冲电路）_**
 

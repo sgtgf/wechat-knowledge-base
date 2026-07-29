@@ -52,7 +52,7 @@
 
 # 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocs7fpDst9Is9xoiaM6Sw93OT7TG8prRAKqrCUPpwkvAtic5zulciaE2OUkibx3b8qDInqHp8IlCt4H9sYUOCkl3ia2lktKFMFq66Kib0/640?wx_fmt=png&from=appmsg)
+![](格林定理（Green_s_Theorem）_宏观与微观的桥梁_images/img_000_da1566ad7aee.png)
 
 这张图是在用“大范围看一圈”**和**“把里面每个小地方都看一遍”两种视角，来解释 **格林公式（Green’s Theorem）**。
 

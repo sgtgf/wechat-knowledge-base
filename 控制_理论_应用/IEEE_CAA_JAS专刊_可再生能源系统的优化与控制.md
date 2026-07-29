@@ -18,27 +18,27 @@
 
        由于篇幅所限，本期专刊从录用稿中选择13篇，来自中国科学院自动化研究所、东北大学、University of Rhode Island、University of Connecticut、University of Geneva、吉林大学，浙江大学、大连理工大学等国内外高校和科研机构，分别围绕控制算法设计和优化理论应用，研究可再生能源系统的具体问题，报告了最新的研究成果和进展。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw7ZcRHwFrXhBViaEytN6B3hlmg7cMXdfQ3j6l63WicLK3nibRJvZ6lIUxMw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_000_6b9707a7f6ca.png)
 
 中国科学院自动化研究所魏庆来、刘德荣教授等采用自适应动态规划技术解决了智能家居能源系统的电池顺序控制问题。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw7ZcRHwFrXhBViaEytN6B3hlmg7cMXdfQ3j6l63WicLK3nibRJvZ6lIUxMw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_001_6b9707a7f6ca.png)
 
 东北大学王占山、张化光教授等针对微网系统中逆变器开关故障诊断问题，提出了基于多级特征的移动平均比例法。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw7ZcRHwFrXhBViaEytN6B3hlmg7cMXdfQ3j6l63WicLK3nibRJvZ6lIUxMw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_002_6b9707a7f6ca.png)
 
 美国University of Rhode Island的Haibo He教授等研究了含有风电穿透功率的经济调度问题，提出了一种机会约束下的优化存储调度方法。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw7ZcRHwFrXhBViaEytN6B3hlmg7cMXdfQ3j6l63WicLK3nibRJvZ6lIUxMw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_003_6b9707a7f6ca.png)
 
 美国University of Connecticut的Peter B. Luh教授课题组采用混合马尔科夫和区间方法，研究了包含远距离风场电力系统的机组启停和经济调度问题。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw7ZcRHwFrXhBViaEytN6B3hlmg7cMXdfQ3j6l63WicLK3nibRJvZ6lIUxMw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_004_6b9707a7f6ca.png)
 
 美国Case Western Reserve University的Marija Prica教授针对含有分布式发电机的大规模电力系统，提出了一种鲁棒的短路电流计算方法。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw7ZcRHwFrXhBViaEytN6B3hlmg7cMXdfQ3j6l63WicLK3nibRJvZ6lIUxMw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_005_6b9707a7f6ca.png)
 
 瑞士University of Geneva的Franco Romerio教授课题组利用参数遗传算法评估了大规模风-光互补电力系统的耦合效应。
 
@@ -128,9 +128,9 @@ Q. F. Dong, L. Yu, W. Z. Song, J. J. Yang, Y. Wu, and J. Qi
 
 欢迎扫描二维码、长按图片识别关注自动化学报英文版微信公众号！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4427auo72xbgic0KVMnlmkw7MPEUvIgeUKq5VbIkPPiaP10u6B6W27qIhOKuqU0PWpBb3ibTtyeCUvRg/0?wx_fmt=jpeg)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_006_059b621b695c.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw71icyYlNvubgyic0TXIcF4TGWn3w2TbWTYEw5V0P1lTx8Tp2FpImNeycw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_007_50ffe39e19b2.png)
 
 **网站**：
 
@@ -152,4 +152,4 @@ www.ieee-jas.org
 
 **Tel:** 010-82544459, 010-82544746  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4427auo72xbgic0KVMnlmkw7rLO88ibR40qUgOQiaOGUjkiaqWhibLzNw6xPIsPKhf2a7RRG1yHoKQNFHw/0?wx_fmt=png)
+![](IEEE_CAA_JAS专刊_可再生能源系统的优化与控制_images/img_008_f8f2b8da2046.png)

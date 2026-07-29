@@ -20,19 +20,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtgCNsapibA5srR4rn11Tv1XhzCvlHmvuNSXt0ocwBrjvZj4M3hwQI8bg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_002_e7183d1aae05.jpg)
 
 一种简单的三段式铅酸电池充电器控制电路：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPttEPbd64L9pbzqPb9k7IyQlVmSxMMJPHQC47cwqT4bVoJYAK6Bh33EQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtSUZ5sXzFJPKFibrjXZic7Ud3MIE3vCMJ5iaN8KTT0pwgbExGFwicAsh2pA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_003_c06c12938762.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_004_560bcddbe2b6.jpg)
 
 本PCB文件是由上图原理（没有继电器电路）设计的12V/4A简单的三段式充电器。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtg5Rxd9uOp49Co2oiaCUmn2iaV220oHKI6QwDmTNT3Caic5MyVkpiclHb2g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_005_4784a99f630e.jpg)
 
   
 
@@ -44,7 +44,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtY7zVY7icmeJZj3ooh2UTQm8EN40YDa8CA22g84A8VXxGGMjv55qSoFA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_006_7c8f575b3af7.jpg)
 
 当电流增大时TL431-1的电位被太高，从而起到现在电流的功能，因为R3的存在对输出电压进行了补偿。所以基本上可以做到限流稳压功能为一体，具有相对的成本优势。
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtIwbicibQslEyBRclG9A4cRU7FXbhUgrByrF513JMDPE1mibB6jPDCCkdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_007_1959642d9953.jpg)
 
 此电路是一个限制输出功率的半桥电路，利用电容限制电流的方法。（调节VR2可以得到不同的启动电压值，调节VR1可以得到不同的输出电流来匹配不同的低压氙气灯的搭配）。
 
@@ -92,7 +92,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtj4Q92dzjJ7mrqkYDxeT9M0hbiaSq4zqGZdFBdibQPnVmndFfr3hl04LQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_008_d4a31cc0d227.jpg)
 
   
 
@@ -100,7 +100,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtMEyTq7R5R3R9MwmMrExtIbhzSAXKVsBWL7aSCRpvYWnjbz2r7oiaAlg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_009_8d6306534dc1.jpg)
 
   
 
@@ -112,13 +112,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtxOjNgxYsJswLEficX3CRtQFlGvGjuYEnHib9MIWJGv5DRWI7ic3U1qYKw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_010_669d0be5b3d0.jpg)
 
 EC-2828变压器全电压输入，输出功率60W。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtfRbky1J3KibAOHxIrDx8rQVqFUytAyLxFskYM7U9Kyp5tbibkxicy1jZQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_011_e77b42a9abcd.jpg)
 
   
 
@@ -158,13 +158,13 @@ VCC绕组在计算其圈数时尽量的在IC最低工作电压乘以1.1倍作为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtuxG5oFShQJzgHOYx28lPsnfT87cKPKvVuBbKT9Nx5MibYuEjibn7LXOA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_012_9ee2b7cc761e.jpg)
 
 具有相对稳定输出的双路反激输出电路：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtde6Kl0ft0dOAfqIwlg6G4oh22rVYD8gXLHAtmZngIkZUA9njJjXjuA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_013_7c932d0ce152.jpg)
 
 这种电路一般应用于小功率电源。为了确保两个绕组的交叉调整率更好。我们需要注意一些问题。
 
@@ -198,7 +198,7 @@ VCC绕组在计算其圈数时尽量的在IC最低工作电压乘以1.1倍作为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtNVpxrbnNuXvibUSfShbP3CMUNqaIib0dSv4iacDZ9Mej4BaoDBmlmmhYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_014_cdaa74361d80.jpg)
 
 说明：功放电源正负双输出电压保护
 
@@ -222,13 +222,13 @@ VCC绕组在计算其圈数时尽量的在IC最低工作电压乘以1.1倍作为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtUo4m5YDLsmwoicPKfyibmRFPYX1BrHOeAGcBdXD6hjYLVD9vO5ShKuDg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_015_a0bb40fd7bbb.jpg)
 
 具有正负双输出电压保护的功放电源PCB：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtZo5VJURCtNhArsrSpqicib8dhhE8wPv6SubkPdt0AIMoq5L79yGmZhdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_016_6b860dd94b7f.jpg)
 
   
 
@@ -240,7 +240,7 @@ VCC绕组在计算其圈数时尽量的在IC最低工作电压乘以1.1倍作为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtPOaw6Letj6licCAsOJEiamPhInss20fVnKNcQibVIR7sibia9vFWlR40jfQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_017_296a09752bf7.jpg)
 
 此例应用是将PWM信号直接加在电流采样信号上，通过调节PWM的宽度来调制过电流保护信号的时间，而起到调节限制电流的功能的。
 
@@ -258,13 +258,13 @@ VCC绕组在计算其圈数时尽量的在IC最低工作电压乘以1.1倍作为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtbgkBeNjzL0fjbSXYsAcVTTHklMazDx6JdDCl65HwqjobHLeyOKMqgg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_018_3f431b521ba4.jpg)
 
 带功率因数补偿的50W LED驱动PCB：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmd39EicUJGb0qOtFgiabkEbPtOWEcTXMvcPjlBqC1tlYlV149fjtvH8RGDyehN9icpwO8yvR08MMSLTA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源9个电路设计项目分享_原理图_PCB_应用说明__images\img_019_88c84f8e8e05.jpg)
 
   
 

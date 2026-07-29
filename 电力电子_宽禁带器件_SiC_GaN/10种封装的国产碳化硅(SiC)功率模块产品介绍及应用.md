@@ -5,18 +5,18 @@
 
 1.  在新基建和“双碳”战略目标指引下，第三代半导体技术（以SiC和GaN为主）的应用正在提速，并有望成为绿色经济的中流砥柱，引领新一轮产业革命。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7B8vzHFZk9ibKEtPd7aJcTLbjOk9RmvLOeyfibUxOFEwl8xRwKXoK0UGQ/640?wx_fmt=png&from=appmsg)
+    ![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_000_9cb907bb6560.png)
     
     在新能源领域需要各种节能和高效的产品和应用方案。凭借高耐压、高节温特性，SiC器件，特别是功率模块在新能源汽车、电网输配电、工业变频、轨道牵引、可再生能源等领域为实现高效、节能、轻量小型的电力转换设备做出贡献。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj79lCOp1EO0ZqQSoP6QOUPRVxet7CRDG94P3GLfWAbhdcu16R8XjYEBg/640?wx_fmt=png&from=appmsg)
+    ![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_001_b957a658d9e5.png)
     
 
 1.    
     
 2.  碳化硅模块在大功率电源中应用有一定的性能优势，相比传统硅基IGBT功率模块具有更高功率密度、更高可靠性、更高工作结温、更低寄生电感、更低热阻等特性。在需要提升系统功率密度、使用更高主开关频率的尖端电力电子设备的性能升级过程中，现有硅基IGBT配合硅基FRD（快恢复二极管）的性能已无法完全满足要求，需要高性能与性价比兼具的主开关器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmrNyG799Na04mXYHubmbj70ChrSibVg1ibXY1FaiasmzstLWWhSQnrWLOd8RPLalTWMibnLBXiaLR7DBA/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_002_dacdf52b027c.jpg)
 
 与基于 IGBT的功率模块相比，SiC模块具有以下几个优势： 
 
@@ -57,11 +57,11 @@
     
 2.  碳化硅MOSFET功率模块介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMf30nL6bOY1lEXQvcbSyvyV0RdOeOGSqmEhrBHEph2gtUhms1X3zWeZA/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_003_db8ccf328ceb.png)
 
 1.  SiC MOSFET模块拥有丰富的拓扑结构，包括半桥、三相桥、三电平以及boost升压电路等封装形式。根据外围器件的集成情况,还有 PIM、IPM 和逆变砖等封装形式。 从散热方式来看, SiC模块可以分为单面冷却和双面冷却。根据封装外壳类型,可以分为转模塑封结构和HPD框架结构。随着客户端需求的多样化，定制化模块也逐渐流行起来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7EDCY2MfW9dxrUiaIuwp5MgfN6jBicQAM775p7VtgzFSB6sTYmCE1AG4w/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_004_0aef6a0a62df.png)
 
 爱仕特专注SiC功率模块的自主研发和生产，有自建模块工厂。SiC模块电压等级从650V到1700V全系量产，封装齐全，满足车规级和工业级要求，电流30A-1000A，产品性能与国外主流品牌性能相当。
 
@@ -85,9 +85,9 @@ HPD模块特点 
 
                    - RDS(on) ：1.5~6.5mΩ
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj773YYbGHVicLUlZiaEf4UsBicfMb7yF5B2D4SpobZ3dPU0BwV8m6RoN9nA/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_005_323d3c9cefbb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7xNmCo5hUm7Pn2slJNlicmQ1fzK1kX5t8IWkGcvlpAUUU9PROCvGRStw/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_006_23238b65f5cb.png)
 
 产品与拓扑图
 
@@ -111,7 +111,7 @@ MEK6模块特点
 
                       - RDS(on) ：3~25mΩ  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1u4UQMb5wGLT6a358QzwpfC5YANITHpWDXib8p7liaEGYW8N3XZXeoyYA/640?wx_fmt=png)
+![图片](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_007_714e101f8979.png)
 
 产品与拓扑图
 
@@ -137,9 +137,9 @@ MD3模块特点 
 
                   - RDS(on) ：1.7~8.3mΩ
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7QZL0av7S9IswzThVzcew6OvhYla1Dp4unayjP7VMiasauPWKmPZqXFA/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_008_a8170557ebe9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7QR3bXfAaw7UUkm58NCx5EDU45EePRk325nLGnhPoTricSiaic5PoLZrLg/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_009_6be46820d0b5.png)
 
 **产品与拓扑图**
 
@@ -155,9 +155,9 @@ D21模块特点
 
 3\. 散热能力强。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfSb9V98lKpGJRT1iaiaLT1bdicKa02m2zEwAeiaXfGLbeO6IezWrTuwGDDA/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_010_a690e0a2a1e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfMjaZK8M748Gf1ibJmiaUJS8wich3glRSZ41YFaXJ5RicHPWIrKibdxVezOQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_011_898a8e257dea.png)
 
 **产品与拓扑图**
 
@@ -181,15 +181,15 @@ DCS12模块特点
 
                     - RDS(on) ：1.5~6.2mΩ
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7OBpJBM8phAUn79wRU1Jq6jibdCLLEURGr9xSVGfJbDdJ34LJv3RtpVw/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_012_eefa2756a119.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj71XeBRyOTd2faicmazmibtanezXmpdKRJ892PjvqicknoFBZ9MH60sAFiag/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_013_721910d864a6.png)
 
 产品与拓扑图  
 
 在工艺设计上，爱仕特DCS12模块系列具有以下优势：  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KBVEAL4icWoGiciaNkfI8jTfwg1GvLVC21Cfszzy0cL0bbctNnlmwUwmCw/640?wx_fmt=gif&from=appmsg)
+![图片](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_014_8af024221981.gif)
 
 ●散热架构优越，整体可靠性强：DCS12模块一方面优化水道结构设计，通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻，最高工作结温175℃；另一方面，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，模块可靠性进一步提升。 
 
@@ -219,9 +219,9 @@ EP模块特点 
 
                   - RDS(on) ：6~80mΩ
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7icnMGpVbicSwtrHtFKl7w5icUWclHpbTPicGLAhR3R678GAC9mmMVV3IVw/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_015_45920c440afb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7q5avYKama0Czw4Tbkgg8Nsase45Y3NwALXKtdM2ZYZbWaHnulpicWOg/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_016_bca0359f5523.png)
 
 产品与拓扑图
 
@@ -245,21 +245,21 @@ MEP模块特点 
 
                    - RDS(on) ：4~80mΩ
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7nMy8TWnak0ILQHKeFdJDKF66SI85JSVJ8t5dicbWib8oC2AZ2DzN9ibuQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_017_f66a6bc4d0b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7pNOzlVpLicJsaqvRSt5jDVbEhicKCtb0UnNzsnUDfAP6QiaOFMGtiaetWw/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_018_caf8a849528e.png)
 
 产品与拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7mIjibkvHt8B42qOQmUFYhuObsEwGicmSwiaaphKKVnBiaX2o0V6fp3F3Tg/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_019_b221a01c40ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7lETgx3Nk8XicecqPWsfATa5LE2g4Mlj6zQIrAvcgXx3iaQu1bfm9CMZA/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_020_e3450d87e7ba.png)
 
 产品与H桥拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj72dy2p9DyFkmXiae2WNLZWyVkiaDfvtHtL6OUxqYMLlFmEQ2k4WXdgbjw/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_021_b08c73516e82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7rKSSkuuVyfib4zJmic712E5vnB8nicDzG4pEtBmE3QHoRk6S8hHdcHogQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_022_c3f542c71cd8.png)
 
 产品与三电平拓扑图
 
@@ -285,9 +285,9 @@ MED模块特点
 
                   **- R****DS(on)** **：1.5~8.7mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7J20mnW552Yib2WcGJ8azPsZEfCEQ8FCxBUt8n9Ho4PyWfkaTQXukicNg/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_023_4cd9eec5a0e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7QwLiblTGX5QAzgp81XFlEib2tvjuKkYWxmUpkAKEng1y231PW5PNviblA/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_024_5392e0ffcca9.png)
 
 产品与拓扑图
 
@@ -309,9 +309,9 @@ MED模块特点
 
  **- RDS(on) ：2~80mΩ**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxCjAia7DxZNWtTbLXzMKqfLfLsqzW6s5GDNkM3UmuIGsvJmW8kPdS8j70JROVp7YRXRaT3rkiaYlzrug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_025_7fc4cd1daa28.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7B6JhPe6sotqTFQEadIawm4QggG7tI5cEOb0NETJiaG6bUibibKse5u9ug/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_026_feaf41fc3d7f.png)
 
 产品与拓扑图
 
@@ -341,9 +341,9 @@ MED模块特点
 
                 **-RDS(on) ：4~80mΩ**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7hFIcic1rvUiaHOKFKpmv6y9aKam39rljDaczKhzrGLmibIpIgfh67pTlA/640?wx_fmt=png&from=appmsg)**
+**![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_027_d43ed2a76890.png)**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7cEADNaptL4AFIQb99va7tQYdllMSIBOyNibzfHkgvLJxVOM1WM1SuNQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_028_682b8d9be0c7.png)
 
 产品与拓扑图
 
@@ -411,13 +411,13 @@ SiC器件在不断发展，其优缺点也在不断被认知，随着产品应�
 
 **说明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_029_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_030_a7ecee98ead9.png)![图片](10种封装的国产碳化硅(SiC)功率模块产品介绍及应用_images/img_031_9bbc7b9b15a2.png)
 
   
 

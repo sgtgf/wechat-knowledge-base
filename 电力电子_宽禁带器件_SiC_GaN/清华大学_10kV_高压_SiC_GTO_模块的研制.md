@@ -35,7 +35,7 @@
 
 模块封装采用尺寸为 8mm  8mm 的 10kV SiC GTO 芯片，芯片及双面陶瓷覆铜板的电气布局及尺寸如图 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGdzC0swE6xKJdyAMDuIXogtEmIyapm4OBjUBC6iatjXwyfpseD5rialKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_000_32b36417f849.png)
 
 模块采用了成熟焊接模块的热设计，结温 175℃壳温 80℃。考虑到焊接式封装芯片为单面散热，不存在多芯片并联芯片热分布集中问题，模块采用了高导热的氮化铝陶瓷覆铜板实现电气连接、绝缘与散热结构，基板采用了 4mm 薄型镀镍紫铜板预弯反变形结构，以纠正焊接热应力导致的中间拱起，并减少散热距离，满足单芯片小电流模块封装要求，后续大功率的多芯片并联需采用压接式双面散热。
 
@@ -43,47 +43,47 @@
 
 绝缘管壳根据国标 GB/T 16935.1—2008《低压系统内设备的绝缘配合 第 1 部分 原理、要求和试验》中规定的 II 类污秽标准进行设计，电气间隙绝缘距离按照 2000 米海拔以内，交流非均匀电场条件下 12.7kV 时电气间隙 30mm 设计。一类污秽条件下最小爬电距离不低于 71mm，二类污秽条件下爬电距离不低于 63mm。由于模块的外绝缘与引出端子长度在设计上存在协调要求，为了尽可能的降低端子带来的寄生电感，在不影响模块外绝缘爬电距离的情况下，设计时尽可能的缩短端子长度，外绝缘伞裙的爬电设计距离为 76.5mm，端子间爬电距离为 71mm。内绝缘采用灌封硅凝胶或者耐 300℃高温硅橡胶，灌胶量可完全阻断模块内部端子之间的沿面放电。端子高度为 19.5mm，绝缘管壳高度为 23mm，模块总厚为 27mm，端子长度尽可能压缩到封装工艺所能允许的极限高度，模块总体尺寸为 80mm  52mm  27mm。模块封装设计原理如图 2(a)、(b)所示，图 2(c)为实物图。模块封装采用钎焊焊接工艺，芯片采用 295℃锡铅高温软钎料钎焊，端子及 DBC 与底板的焊接采用 220℃锡银低温软钎料二次钎焊。管壳采用耐 300℃高温的聚醚醚酮(PEEK)材料，采用可长期耐温 250℃胶粘接后进行灌胶，分两次灌胶与脱气。第一次灌胶量覆盖键合线，1~10Pa 的真空脱气 15min；第二次灌胶量淹没阴极与阳极端子隔离墙，并预留排气空间，确保脱气顺利，然后在 1~10Pa 真空度下脱气 15min；硅凝胶固化工艺根据所选型号要求的温度进行固化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaG7EjZS516J3GGBEbg0OPghx0qdNloibqJkDmUjYZuCWgTuvFEJibw6RhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_001_63463dedd2fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGFBXJaic9hp4RHmBfFAnAY7LUbFjAibh5SZtyaDxgtDU0zDLqt9yQicdFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_002_d392797c79dc.png)
 
 本文对比测试了同一芯片在 10.5kV 下封装前后的漏电以检测模块封装的外绝缘与内绝缘情况。测试结果表明，10.5kV 漏电流 0.5A 的芯片在封装成模块后，漏电流前后并无明显变化。说明模块的内外绝缘没有漏电流，绝缘设计有足够的冗余。
 
 **2 10kV SiC GTO 模块的静态特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGCASpzteFiaYOqx00quYZhYys8ZBta9nrlaibTfKjdicSvraZp2nSxia4Ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_003_4188c75348cc.png)
 
 为了测试 10kV SiC GTO 模块的正向阻断性能，本文搭建了阻断测试装置，其主要由可调节高压直流源、限流电阻、电流表、示波器及被测器件组成。其中可调节高压直流源为 220V 调压器连接一个升压变压器，然后再进行桥式整流和电容滤波，测试电路原理见图3，搭建的阻断测试电路见图4。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGdlSTKW1J6G5xyIlj9GuXwYZ3ibsdJibINaY3wfUNdswZM1KFibj0WNIJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_004_7ae268edda94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGTAUpMcQzrBs1tIHEicEmykXNibGssibTEexiccoEibiaq11ncQb9ybPaAUFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_005_97b79d7833af.png)
 
 将模块的门极接地，阴极加负 10.5kV 电压，测试模块的漏电流。表 1 为阻断电压 10.5kV 条件下一组模块的漏电流，测试结果表明，所研制的碳化硅GTO 模块漏电流均小于 40A。由于芯片外延片与工艺的不均匀问题，芯片漏电流还存在较大的分散性。通过人工间断采集数据，图 5 为序列号尾号为 50 号的模块每 2kV 一个记录点的正向阻断曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGtOqvfqnr5KeC0OPMb7Qx7FF1p3HuVL6r8ibhKD91iccTuwhnHoicMPxEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_006_5847d1fd7018.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGLZicFrhYcrYKhE6Fdgnqrm8NTslpwcT4G7KMDDfCx4JpEzDwHeZeQhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_007_25b0e2ba575a.png)
 
 采用北京博电(PONOVO)型号为 PST6747A 的功率半导体器件静态参数测试分析系统(见图 6)对10kV SiC GTO 模块的正向导通特性进行了测试，该系统具有优异的宽电压和电流测量能力。脉冲测试电流的宽度为 200s，脉冲间隔为 800s，在无散热、限流 40A 的条件下，测试得到如图 7 所示的典型正向导通特性曲线。由图可知，室温下正向导通电流为 40A 时，器件的正向导通压降为 5.7V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGsBKxZjhic9wNOTxb0VwElqYcN79J52wV4ibGzQiamLemQoMPzd5y0xt6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_008_dc40499d7f02.png)
 
 **3 10kV SiC GTO 模块的动态特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGJdfYVdicL9atbVNXD0eNibPSZwxnHEBM3uzkCdMhhRYepdWnOzWMzzVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_009_b6d934b30ed0.png)
 
 为了测试 10kV SiC GTO 的动态特性，采用如图 8 所示的电路图，搭建的测试电路见图 9。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGfWG0fbicgYhL3taKgBHhic7cia51pMwroX60AuyUDZoaXqbeLgZNwWsBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_010_23586aa4dbdd.png)
 
 本实验采用自主搭建的动态测试电路，通过控制门极电流 IG的方向来控制 10kV SiC GTO 模块的开通和关断，通过控制15~10V 电压源的正负控制Rg 的电流的方向，通过手工开通电压源脉冲触发信号，获得的一组典型的被测器件独立的开通和关断波形，分别如图 10、11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGOffsrALP8PLlXYKV8zquibP7OXdHVHQzwL3eRYT4ofXKkZ7RMWb8dVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_011_877e296ed357.png)
 
 图 10 为 10kV SiC GTO 模块的一组 1000V 母线电压 5A 电流的一个典型开通波形，由于电路存在寄生电感，IG 存在电流波动现象，IAK 同时也有一个波动；随着 IG逐渐稳定后，阴极电流 IAK逐渐上升到 5A，母线电压 VAK 迅速下降，短暂震荡后稳定到通态导通压降，GTO 模块从正向阻断状态转换为正向导通状态。由图 10 可知，上升时间约为1.45s(最大值的 10%~90%)。计算得到的 di/dt 约为3.44A/s，电压变化率 dV/dt 约为 14.3kV/s。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGB2UgQpKWlbGUR3ZgdZ0ArqAq0eiczYPuEZiaCS1NZZC7G7xlhIqXwIEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_012_45b83103967e.png)
 
 图 11 为 10kV SiC GTO 模块在 1000V 母线电压下的一组典型关断波形，由图可知，GTO 模块在关断过程中存在典型的电流拖尾现象。IG由 0 上升到 5A 后，IAK同时开始缓慢下降，关断过程开始，同时母线电压 VAK逐渐上升；当 IAK 下降到 1.6A 左右时，VAK上升到接近母线电压 1000V，GTO 模块从正向开通状态转换为正向阻断状态，IAK 下降到0A，关断过程结束。
 
@@ -93,13 +93,13 @@
 
 碳化硅 GTO 的关断增益测试电路和图 6 类似。测试时，将阳极和阴极电压设置为 70V，限流电阻为 100。碳化硅 GTO 的关断增益计算方法为关断时的阳极和阴极之间的电流 IAK除以门极电流 IGA。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGaZGDlW9u63ucZhFm1GE29sqjkSqpGagjNFLnhoibuT5NsUEs0Sb0Xtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_013_1bc314bb09ce.png)
 
 图 12 为模块关断增益测试的波形图，由图中测得的阳极和阴极之间的电流 IAK 及门极电流 IGA进行计算，这款 10kV SiC GTO 模块在较低的电压条件下，计算得到的关断增益为 2.53。  
 
 **5 10kV SiC GTO 模块极限通流能力**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCricB5dPe8EibCZJWHW4eaGdSicA35RzMDL81Xw0Okv7eQz9n5NXria1b8ibFDWO7VhloC0UnTz4xwxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_014_d4f1cfe9fc90.png)
 
 采用图 6 中所示北京博电(PONOVO)型号为PST6747A 的功率半导体器件静态参数测试分析系统对上述模块的脉冲过电流能力进行测试。受测试设备最大为1500A 测试能力的限制，采用200s 的脉冲宽度，在无散热条件下，模块的极限通流测试到 1450A，在此处的导通压降增加至15.8V，待后续设备升级且模块增加冷却后，还有望测得更大极限脉冲过电流，如图13 所示。
 
@@ -173,8 +173,8 @@
 
 \[31\] CHENG Lin，AGARWAL A，O'LOUGHLIN M，et al．Advanced silicon carbide gate turn-off thyristor for energy conversion and power grid applications\[C\]/ /Proceedings of 2012 IEEE Energy Conversion Congress and Exposition (ECCE)．Raleigh：IEEE，2012：2249-2252．
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_015_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_016_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\清华大学_10kV_高压_SiC_GTO_模块的研制_images\img_017_84aa944feb13.jpg)

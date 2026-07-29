@@ -12,7 +12,7 @@
 
 无源晶体标准电路如下：
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHM79wrjw3GUK6KvvfuMXgOfNiaSkh2Azx9GRia6MOZtrhf0lM6LULqQG22QKXEXb8aicacFLrXYYecsg/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC设计攻略__时钟_images\img_000_f0bf9b8b368e.jpg)  
 
 在实际设计时，R3电阻和C3电容为预留设计。R3电阻可帮助启震；C3电容可改善震荡信号质量。
 
@@ -22,7 +22,7 @@
 
 标准电路如下：
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHM79wrjw3GUK6KvvfuMXgOfpiaCcewFWSNYiaYbzMHeu7iazp2xBQJ3rjnK4jQtzTpVIcsgIhHpDWgaQ/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC设计攻略__时钟_images\img_001_d96df02d5962.jpg)  
 
 实际设计时，C1是预留设计。C1电容可改善震荡器输出信号质量。
 

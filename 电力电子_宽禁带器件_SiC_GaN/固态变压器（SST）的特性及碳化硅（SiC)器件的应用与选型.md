@@ -13,13 +13,13 @@ SST的关注度在2025年急剧攀升，主要源于两大里程碑式应用的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMjq3qDRiajA4vdn94BYib0tPAKxw3WnUzQbtypk0xt9DUHNx2TzMv6rwpd6W7NUqs6x8mq6arRmmu6kPhu1QdXxdAMmox2ChuRs/640?wx_fmt=jpeg&from=appmsg)数据中心4种供电效率及占地面积对比 （资料来源：中金公司研究部）
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_000_e006a8dc77d9.jpg)数据中心4种供电效率及占地面积对比 （资料来源：中金公司研究部）
 
 下一代超快充基础设施的基石：为满足电动汽车（EV）“15分钟补能”的需求，兆瓦级超快充电站（UFCS）成为发展重点。传统工频变压器（LFT）体积庞大、响应慢的缺点被放大。研究表明，SST相比LFT可实现65%的体积缩减和约3%的效率提升，并能直接连接中压电网，实现兆瓦级扩展，完美契合了超快充电站的需求。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPRpUl9iaaiaLG8ic9aEeIUdOb2OC8Zwic2Cdr77q7aUMJesk3M9Avhe3lzbFho1EaBRtpsicJa0yTicbJqmDyxnrSTiaicdayZJHiaPh1s/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_001_1744318f0f50.jpg)
 
 2025上海车展：华为商用车兆瓦超充技术-2400A全液冷兆瓦超充解决方案  
 
@@ -27,7 +27,7 @@ SST的关注度在2025年急剧攀升，主要源于两大里程碑式应用的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMp4NU4eJpjwrcZQ1SfNAicPwh9DUa4SdNSG1851L5mwIzzTm4UDwtNunrAyMZficg64icn55cFhEhvNTXHVXYobvmBgDgQujicpuY/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_002_1667c05712b2.jpg)
 
   
 
@@ -35,11 +35,11 @@ SST的关注度在2025年急剧攀升，主要源于两大里程碑式应用的�
 
 **基本原理**：SST是一种基于高频电力电子变换技术的新型电能转换装置。它通过“交-直-交”或“交-直-直-交”的电能变换过程，替代了传统变压器依赖电磁感应的工频（50/60Hz）电压变换。其核心是利用高频开关器件（如SiC MOSFET），将工频交流电先转换为直流，再逆变为高频交流电，经高频变压器隔离和变压后，最终还原为所需的电压/频率。这一过程赋予了SST体积小、可控性强、功能丰富的特性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNSa4NfkYIxPxfILazDfOSZYot2WqIIQrdQG3wiaiahUDHmbzbnAibLHb6mBfRIq2nich1LyPFSVCRNico0LibkE08Jc1xQkveFia7ccw/640?wx_fmt=jpeg&from=appmsg)图片来源：网络
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_003_2487137a1aea.jpg)图片来源：网络
 
 典型拓扑结构（以三相三级拓扑为例）：SST通常采用模块化、多级架构以应对中高压应用。经典的三级拓扑是主流研究方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpObPU49pwFLfqia6GC1lRpF9D8sG3skU6QE7bmp0sOibVYcLSudqGRay2HeJhbDCqU9UQGEcdywZRCoxjqrDThk25weOF0ficWAoA/640?wx_fmt=png&from=appmsg)图片来源：网络
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_004_6c29834e8d05.png)图片来源：网络
 
 AC/DC整流级：负责将电网工频交流电整流为稳定直流电，并实现功率因数校正（PFC）和并网谐波控制。常用拓扑包括级联H（CHB）、模块化多电平变换器（MMC）等，以实现中压接入。
 
@@ -273,39 +273,39 @@ PCB布局与寄生参数：最小化功率回路的寄生电感是重中之重�
 
 SiC MOSFET/SBD芯片（Wafer）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOAiceStcich0bu13ibvA8boFuia77wkrdOjQhSGjQS1tjictwphaZCCchA1WwSrcoeyukBElVAeYx9MXQI9Nmeyia8Ul0IxHuibbITPQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_005_385f37b21d11.jpg)
 
 设计研发SiC MOSFET/SBD芯片，电压：650V~1200V~1700V~2000V~3300V,电流：1A~150A，自建6吋兼8吋SiC晶圆厂。  
 
 SiC MOSFET/SBD单管
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPCiaV2BfuquCHIknUribcy2fYPzwtUSabudys854VKIsKDRBlmFyVC2L8a9wCPcvNXHjUBkPTQrqNr9rP5eVAvtMrbrAILmUF7I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_006_38ed1ca6c191.png)
 
 研发及生产SiC MOSFET/SBD单管，电压650V~1200V~1700V~3300V,电流：1A~300A。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJ3aHeqYyTBbgRt7u6vmic0J4FR7wlhicN4PUH7tcluAibInRRibMPkYc8mc52oZSrD6NicgDxYPYkDfy8ibthyY5gDYTtPSiajkuP1I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_007_648922fb20d9.png)
 
 650V典型产品：内阻12毫欧、电流150A、驱动电压+18V/-5V
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNGBUFm2bsKpp9GwQ5Y2MrgUeXTkJaTcsqYzG7WwC82RWFlnpD26lpraE4JsU2bww3yJacNmGCvUzfkDgrgH8bXaV0GVYZJmcY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_008_fb3d8f89a858.png)
 
 1200V典型产品：内阻12毫欧、电流150A、驱动电压+15~+18V/-5V
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPa3Zw5icwtBuQia0xicEL0Mnk9AxfnJXN8TbjOXmjK7nae9C7FnRSOEelibBnZsx1Jj0nu0ZFBFXJmNJLCBWo2UuOV1hdjetA7GjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_009_6e864cc493af.png)
 
 1700V典型产品：内阻14毫欧、电流120A、驱动电压+15~+18V/-5V
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMroExnZvunosFgPX7JuXicmichvqhnH2r4Jqgzdjn7Th2eLtR84WLtib6dyKF11wleKha08MT80ziaVWfibQHFxsnBjU24tVtmBgNU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_010_3b1b409d7279.png)
 
 3300V典型产品：内阻40毫欧、电流80A、驱动电压+18V/-5V
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNzibRxknN9KX58JSKJa3v2moHxvCAVWzfLUF4GIRshUStXHyoic91xVBfk5tQoHDBygdjNVe793mbBFOCfmtn7T9zJZFeUauS2k/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_011_920c3b68ad22.jpg)
 
 碳化硅功率模块
 
 自建功率模块封测工厂。SiC模块电压等级从650V~1200V~1700V全系量产，封装齐全，满足车规级和工业级要求，电流30A~1000A，产品性能与国外主流品牌性能相当。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPfliatzbibfZefiaR0PJFsibdzafNicOcZX9cVoBVW8CFrT3eRtOupy8VYw1YRVVQqUY3U70xhhoIEUuLNZwNTuIRyWgHicPej1AJjU/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_012_ad0cb0f134a1.jpg)
 
 总结
 
@@ -313,7 +313,7 @@ SiC MOSFET/SBD单管
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOiaCtez9QMkUJeIduj2YZwTEl0TD5MmRILVKRwkNkWK0DeR5kcPjX6cdhxIcia24Yiapu3sCDc5o8e0RbG8YXDkHp03LylVy6UsE/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_013_682499e02542.jpg)
 
 注明：  
 
@@ -321,12 +321,12 @@ SiC MOSFET/SBD单管
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicV75jJicWhZquMhRd2ozp0WDxiatO73IiaAeEVuQwLN3XQmlUFJAtqpbibg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_014_f6b5d3a9640d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicZejgkicIQudBicVuA3wrDnPfynvFOFYMgYm6U3p79IzDqrkLlUKp27Vw/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_015_2a44cc81c5d1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicEZbgXCW0bom11QxrtibSsOmLcRtAMSsyUvtGjqW0l3FBic4rr0DPeYhQ/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）的特性及碳化硅（SiC)器件的应用与选型_images\img_016_9b832e70e6fb.jpg)

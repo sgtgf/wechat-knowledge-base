@@ -20,7 +20,7 @@
 
 下图显示了通过共模阻抗进行的噪声去耦。电路1和电路2通过同一根导线获得电源电压的和接地环路。如果其中一个电路的电压突然需要提高，另一个电路将降低，因为公共电源和两个回路之间的阻抗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArHEZa6RqOkaOubiacibg9Oj09PvW5mW0IkgJ1tF5tWZoLiaJMiboHzuvh6g/640?wx_fmt=png&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_002_cde2d9fedb60.png)
 
   
 
@@ -48,13 +48,13 @@
 
 在PCB设计中，最好的方法是将**PCB中其中一层接地，这样可以提供低阻抗，如果不能整层接地，就采用接地网**，在这种情况下，接地电感取决于网格之间的空间。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArGnxRicPiaUNZb8ciacND4XzySzvU7ojwFiaT0I2kVXFTibCFicQQ2Or1SMqQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_003_2d0f1c956066.jpg)
 
 低电感接地系统
 
 下图为各种地平面应用图，****高速电路靠近地放置、低速电路靠近电源层。铜填充区域始终接地。****否则，可能会充当天线并导致EMC问题。在电路中需要多个电源的情况下，将电源层和接地层分开可以防止电源彼此产生噪声。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5tvocQGfPV1hE1pvFgWvAr8KMsEoR9zRwel3JtyTxV2F4w0DmQate7dSmYIWsq3wlW7XGYHoxH5g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_004_7ae1f4c320b0.jpg)
 
 各种地平面应用图
 
@@ -66,7 +66,7 @@ PCB上的组件应该根据功能进行分组。例如****模拟、数字、电�
 
 下图说明了如何使用分段将四个不同的电路分开。地平面使用未金属化的护城河/通道有效地隔离了电路。电感和电容对每个电路进行滤波，电源层之间的耦合减少。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArHJIMbTIbyLvAGrQ8rnraVfue1qCFxyYzPWEXVTfFkpuWzQr73qMKOg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_005_42e4d99d80f8.jpg)
 
 元器件根据功能进行放置
 
@@ -76,7 +76,7 @@ PCB上的组件应该根据功能进行分组。例如****模拟、数字、电�
 
 下图显示了围绕核心（层压板）构建的 FR4 1.6 毫米 4 层 PCB 的叠层。核心是两面都有铜层的厚介电片。核心的顶部和下方添加了薄的预浸料，即介电材料片。对于这种特定情况，中间层 1 和 2 分别代表接地层和电源层。顶层和底层用作信号平面，每侧可以焊接多个组件。****多层堆叠的配置在 EMC 应用中起着至关重要的作用。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArmk5WOPBybPndo3TCbwIMBMtqftWMrBiaCZseqRe8UxZYIwCHTVKvNPQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_006_c14c907e4d48.jpg)
 
 PCB 层堆叠
 
@@ -86,7 +86,7 @@ PCB 层堆叠
 
 当 IC 工作时，由于其内部结构，它们会以高频进行切换。这种情况会在 IC 连接轨道中产生开关噪声。如果不控制这种噪声，它将导致发射，从而导致 EMI 。通过****在 IC 附近放置一个去耦电容，可以减少 PCB 上开关噪声的传播并将噪声引导至地面。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArzztovgcC6D3siaxLklVmUqCGwEtl8ictb1Xia2eEo8ib2LYgWVcv9mXCyQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_007_425a464545d5.png)
 
 去耦电容布局
 
@@ -100,11 +100,11 @@ PCB 层堆叠
 
 串扰是什么意思？串扰的原因及解决办法？一文给你总结，减少串扰
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArQibWC8E1H8p5TeSrVX64hibIGUd5gR0zlZQ6alv4Wm7Hjx8yzV6r3mog/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_008_847a907b92fc.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArlqAwiapWc0WFFUFeKHpGtm2fxnca1VriaFmic12iaNZJrb91QhWBU0R9Mg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_009_c194722e8d83.jpg)
 
 串扰示例
 
@@ -114,7 +114,7 @@ PCB 层堆叠
 
 与过孔类似，不应实施直角 90° 轨道转弯，因为它会增加寄生电容，导致特性阻抗发生变化，从而导致反射。如图 所示，****所有正交走线都应采用 45° 弯曲，以限制耦合到附近走线的噪声。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5tvocQGfPV1hE1pvFgWvAr1Yo8fEqaNiaSMIyWhmLw2oxOpFUXQXMygD9SF4O5ueicGUsUtwfiaSt0Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_010_0efa33bcf453.jpg)
 
 45°走线
 
@@ -122,7 +122,7 @@ PCB 层堆叠
 
 信号走线的宽度从源到负载应该是恒定的。改变迹线的宽度会产生阻抗变化（电阻、电感和电容），因此在高速信号和线路阻抗不平衡的情况下会引起反射。此外，应****尽量减少电源和接地平面中的分离孔径（即宽过孔或长孔），因为它们会在平面内产生不均匀区域。****这会导致屏蔽效能降低和总阻抗增加 。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArzRgBkib9OicvqUE7IclH7TlVic6cYRFhzmpRKmic0yfU1tqj86ickxse1Qg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_011_3def7a0ac68d.png)
 
 存根走线
 
@@ -132,7 +132,7 @@ PCB 层堆叠
 
 走线分离可****最大限度地减少相同或不同 PCB 层上相邻/平行迹线之间的串扰和电磁耦合。****一般规则规定走线之间的间隔（在中心到中心之间测量）应大于或等于 3 x 走线宽度。**间隔越大，串扰和耦合越低。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5tvocQGfPV1hE1pvFgWvArmUxM9C9MLK70f9jGstxFLqrDt6KEhI6BugokjibibbeAFfgN4ch4bHQQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_012_40511ef559fa.jpg)
 
 走线分离
 
@@ -150,7 +150,7 @@ PCB 层堆叠
 
 更重要的是****在走线附近放置一个参考平面以防止辐射 EMI****。这适用于全数字系统和混合信号系统，两者都应使用参考平面层，并且不应在参考导体不连续或完全没有参考导体的区域上布线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics5tvocQGfPV1hE1pvFgWvAr5MktILUf0ZeML4vBnXsaGVlv3n2xWrsAYYiaST3YjPFqHIhuHTibqztQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\10个PCB设计技巧帮你减少EMC_images\img_013_87020a7ff378.png)
 
 走线附近放置一个参考平面
 

@@ -10,7 +10,7 @@
 
 在PCB设计中，焊盘是一个非常重要的概念，PCB工程师对它一定不陌生。不过，虽然熟悉，很多工程师对焊盘的知识却是一知半解。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMwZluNfpOic8qotIEyf6nRX3cibMYogsA2Id89XYVA8Qcza3Hf8SpGSdQ/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_002_e7cab0d13917.png)
 
 今天带大家来了解下焊盘的种类，以及在PCB设计中焊盘的设计标准。
 
@@ -20,7 +20,7 @@
 
 焊盘用于电气连接、器件固定或两者兼备的部分导电图形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUM6bjjJh94rbT1Z63qBRRiakAjxe5Fjt1MkgqBnTmgf78yCfTrZnic9AkQ/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_003_426e8d77df51.png)
 
 PCB焊盘的种类
 
@@ -28,19 +28,19 @@ PCB焊盘的种类
 
 1、方形焊盘——印制板上元器件大而少、且印制导线简单时多采用。在手工自制PCB时，采用这种焊盘易于实现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMV8icKZia2hfKHyyVTnGhibZCIYCNOQdu8EAsgKe3o8rb7WKtkI2GNOuhg/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_004_689c680c057e.png)
 
   
 
 2、圆形焊盘——广泛用于元件规则排列的单、双面印制板中。若板的密度允许，焊盘可大些，焊接时不至于脱落。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMjKiaCasYeTjTsuTySNutrPSok91hwDrTRKM6Qglzcvtpt5tRm5BPMFQ/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_005_e6ee3de57126.png)
 
   
 
 3、岛形焊盘——焊盘与焊盘间的连线合为一体。常用于立式不规则排列安装中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMlSHDBSbSh08Je0mvKJUfcRVRiavsiauoPX9uiaib9p3PPqpfSrrQBSG0FQ/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_006_77b70ddeebb9.png)
 
   
 
@@ -48,7 +48,7 @@ PCB焊盘的种类
 
 5、椭圆形焊盘——这种焊盘有足够的面积增强抗剥能力，常用于双列直插式器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMTdNm3SOYO5wVvWpOGD0RTXxSUa6dKpEDGaeQicfTvCg3TvwnySazJtA/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_007_f31415198aa9.png)
 
   
 
@@ -58,7 +58,7 @@ PCB焊盘的种类
 
 1、梅花焊盘
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMwv1rOZicsX4OKhD6YXCFyE1IB986UYSjOUcgjDeOtgnx8tzibPna03eQ/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_008_c3a37a6889e4.png)
 
 梅花焊盘通常用在大的过孔接地的位置，这样设计有以下几点原因：
 
@@ -68,7 +68,7 @@ PCB焊盘的种类
 
 2、十字花焊盘
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMhpnVwYG2eJm137Ggwbwel6Hs2GLo7bqjTicsgC40ajyDUTiajBGibULxQ/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_009_fc5f34cfd20c.png)
 
 十字花焊盘又称热焊盘、热风焊盘等。其作用是减少焊盘在焊接中向外散热，以防止因过度散热而导致的虚焊或PCB起皮。
 
@@ -78,7 +78,7 @@ PCB焊盘的种类
 
 3、泪滴焊盘
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMboAaafPhUyQsMBIiaSic0XqT1grysR71246uOBFW0yF4OVzicNuTIqXVg/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_010_28a450584471.png)
 
 当焊盘连接的走线较细时常采用，以防焊盘起皮、走线与焊盘断开。这种焊盘常用在高频电路中。
 
@@ -100,7 +100,7 @@ PCB设计中焊盘的设计标准
 
 焊盘的内孔一般不小于0.6mm，因为小于0.6mm的孔开模冲孔时不易加工，通常情况下以金属引脚直径值加上0.2mm作为焊盘内孔直径，如电阻的金属引脚直径为0.5mm时，其焊盘内孔直径对应为0.7mm，焊盘直径取决于内孔直径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjc3Xrq8icMu5YF3ZyoUbvUMOJPbR0ibzqJ13oJgm53ic11LhbeKFLhslMtafR2THcYeiaibPDP0k3T8ZQ/640?wx_fmt=png&from=appmsg)
+![](PCB焊盘也很讲究_images/img_011_8e1fd4720978.png)
 
   
 
@@ -114,7 +114,7 @@ PCB设计中焊盘的设计标准
 
 4、焊盘宽度，应与元件端头或引脚的宽度基本一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB焊盘也很讲究_images/img_012_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -21,7 +21,7 @@
 
 为了应对高压、中大功率下的一系列挑战，采取图1所示分离谐振腔式LLC拓扑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicahqL20b15c5HibhiboJOORiaZsRcSJbKNpWszT53kuou5NSYcLicXXZNsw/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_000_8f30daba3417.png)
 
 该电路的主要优势包括：①初级开关器件采用耐压高、开关速度快的SiC器件，便于高频化， 实现高功率密度;②采用矩阵变压器结构，多个子变压器通过初级串联实现均流，通过次级并联实现均压，简化了绕组间绝缘与散热设计，也降低了电源模块整体高度；③采用分离谐振腔式结构， 将谐振电感与谐振电容一分为二，抑制高频下变压器匝间电容上位移电流引起的谐振电流畸变。
 
@@ -31,37 +31,37 @@
 
 传统参数设计方法主要考虑增益要求，即设计拓扑使其在输入电压范围内，满足输出电压对最大增益Gdcmax和最小增益Gdcmin的要求。借助基波分析法，可推导LLC拓扑直流增益公式:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicU5uHmyDRLcGojs67CGxccFERupMsJLQcTtdHWEGu59NOgYcVCicjDIA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_001_4f1e007913d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicdLsR12sjyZFd2u1qiakPwwPSwE5gyPw21C8suMmcB8veFOSjwD22h0Q/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_002_da476b91a079.png)
 
 式中：Gdc为变换器的直流增益；λ为电感比；Q为品质因数，fn为归一化频率;fs为开关频率;fr为谐振频率；Lr为谐振电感感值；Cr为谐振电容容值；Lm为激磁电感的感值；Rac为折合负载阻抗；n为变压器初次级变比。 
 
 分析可知，确定A和Q,即可由式(3),(4),(6)确定谐振参数；故谐振参数和拓扑增益的关系求解实际可转化为λ,Q与Gdcmax,Gdcmin的关系求解。可通过间接方法求解Gdc,Gdcmin可通过对增益函数进行极值逼近得到。如图2所示，在增益曲线峰值点右侧，增益随fn增大而减小，当fn取得无穷大时，直流增益取得最小值。其中，Gdcpeak为峰值增益 ；Udcmin , Udcmax 为最小、最大输入电压。将负载按变压器匝比折合到初级，可得图3所示等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicrDAkHicIwDTJjhINVgxsq0a6hXNVwW3fSbwA7TG6y5Bziaf31vZmOZIA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_003_5c170be5e644.png)
 
 当fn为无穷大时，fs取无穷大，可认为激磁电感与谐振电感的阻抗无穷大，因此谐振电流ilx和激磁电流ilm可近似为零，此时输出可视为开路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicb9TvPHF5GRbnONwcLGFTSDqFG19OgqZTSqyCSF0FZxPHDxXS3ELZjA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_004_7b640e243b64.png)
 
 式中：Zlm为激磁电感阻抗；Zcx为谐振电容阻抗；zlx为谐振电感阻抗。
 
  应用洛必达法则化简：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicJ0ptbKABsCPFaQS9bnUfWpgjGhU7dxY50kKD4KwRnycpkdSyNj21fw/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_005_a4ff21fb5bdc.png)
 
 进一步可直接反推λ与Gdcmin的关系式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicCfZbOQnNpsYQoTGF4mz6Oiaj0o11AasE9SRmGS23HGEJqm7YeLEwt4w/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_006_da21c5bafbeb.png)
 
 Gdcmax可通过曲线拟合近似求解。文献⑸通过电路模型仿真迭代，求解了半桥电路λ，Q,Gdcmax三者之间的函数曲线。此处通过类似过程，将参数代入全桥LLC拓扑求解增益，得到如图4所示曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicdZGbI0mGvoQWos4pyQ83wlTLROaDvT411icWSiciaDBxdE34JkrGnq4Mg/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_007_7ca56a556779.png)
 
 借助Matlab软件的Curve Fitting功能，可直接由曲线近似拟合出Gdcmax与λ，Q的函数关系式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicjJib0fMBiaERicsHqSia69thOyoygP5ktkJEuclgaXnNPr3iceExrAjj8zQ/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_008_dc7396362934.png)
 
 使用传统的方法设计时，根据输入、输出电压确定Gdcmax和Gdcmin，λ取值小于等于式(9)计算值， Q取值小于式(10)的计算值，LLC拓扑的直流增益就能够满足增益要求。进一步即可由式(3),(4),(6)确定 Lt,Cr,Lm。
 
@@ -73,37 +73,37 @@ LLC拓扑的主导损耗有：次级整流管损耗、磁性元件损耗以及�
 
 出于对效率的考量，LLC拓扑通常设定在谐振频率点附近工作，其电流波形如图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicfLtPs1u0jkpsaTtPp82MEniaTDz9lI2N4UPcDKllIgCIKiazEKyPRic2w/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_009_9f7a78139bcd.png)
 
 列写谐振电流的时域表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicA0IoxzeVBNAHHI1SibzvC0FpcicHju3QnOlJyrFLxRUjhon5cmbOeRiaA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_010_7ee79d645566.png)
 
 式中：Imsp为初级谐振电流有效值；θ为谐振电流初相角。 
 
 根据基尔霍夫定律，变压器初级电流可由谐振电流减激磁电流得到，将该电流乘匝比即可得到次级电流。求解次级电流平均值Io为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicZUb5jWj9FTHrFgfibB9pjTtL6l28KFBQSpdCQNDoAYoOqA3qBHKP0SA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_011_ce803edc9e1b.png)
 
 式中：ilm(t)为激磁电流的时域表达式；Ts为开关周期。
 
 激磁电流关于横坐标轴对称，因而其在半个周期内的积分为零，将式(11)代入上式化简得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicoCx8OF2KtDf68OQxl6z0hPjSrXRAQ2ic1PkfvpicetHYDaqvT0CA5S2g/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_012_2630eb2001a2.png)
 
 故次级电流平均值与初级电流有效值正相关。
 
  在t=TS/2时，ilx应等于激磁电流的峰值，故有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicWQ6pYvWGrzKdN17KsiaJrlHc9PMRPicIljZia8HxNswFbmaTvwfAOFS0A/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_013_1f16917461a1.png)
 
 联立式(11),(13),(14),得初级电流有效值:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic1QBEccZqv0eNuFsJNsYF8kuUZmWRmQR4Oyyfsf9dwQvkA5Addaoo6Q/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_014_d53450718191.png)
 
 类似地，可以得到次级电流有效值为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicF58CRfKb4lCbgWOpIqAWSqdQxq5k2c8s2DLVeQfbQE7iapqDJsDZrgA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_015_cceb2b142313.png)
 
 根据式(13),(15),(16),初级电流有效值、次级电流有效值和次级电流平均值均与变压器激磁电感负相关，Lm取值越大，效率越高。结合式(4),当电感比取得最大值，即式(9)中计算值时，LLC拓扑可实现效率最大化。
 
@@ -111,7 +111,7 @@ LLC拓扑的主导损耗有：次级整流管损耗、磁性元件损耗以及�
 
 LLC拓扑主要靠心在开关管开通前将沟道内的电荷抽走，实现ZVS。根据上节，为了提高效率，在传统设计方法基础上放大了Lm取值，设计完成后，应对ZVS条件进行校验。软开关可由能量条件校验。在驱动信号的死区时间如tdead内，若激磁电感上的能量远大于开关管结电容上的能量，ZVS就可实现。对全桥拓扑有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicKQ6Y1aTXqZUauGAW8y9mdziaq1PfyUqpDyGSb7QqTRTJ1xu77hPeefw/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_016_513b7461cb1d.png)
 
 式中：Coss为初级MOSFET的输出电容。
 
@@ -121,7 +121,7 @@ LLC拓扑主要靠心在开关管开通前将沟道内的电荷抽走，实现ZV
 
 据上述分析，可提出以效率最大化为目标的LLC拓扑谐振参数设计方法，总结其流程图见图6。首先根据需求分析确定Gdcmax,Gdcmin,据此得到最大λ和最大Q。根据效率约束条件，λ取最大值，并根据λ和Q推算谐振元件的参数。之后校验初级开关管的ZVS条件。如果不满足，应减小λ计算谐振元件的参数，直到谐振参数取值满足ZVS条件。最后，通过仿真对整机增益、效率进行评估。若不满足设计指标，则调整λ，Q继续迭代计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicyWT7sEbka9O0WOqv5jBS0BrzUZCr9naWuM2GkHlW8QzDfDk4aGhIuA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_017_7467cd5491c1.png)
 
  分别应用传统设计方法和所提设计方法，设计0.9~1 kV输入，48 V/6.6 kW输出的LLC变换器谐振元件参数。列出由两种方法得到谐振参数及工作频率范围：优化前后样机输入电压Uin均为0.9-1 kV,输出电压Uo均为48 V, 输出功率Po均为 6.6 kW,/fr均为 210 kHz,fs均为 180-210 kHz,Lr均为36 uHx2,Gr均为8 nF,n均为5：1；优化前Lm=59uHx4,优化后Lm=75 uH。可得，优化过程前后，除了Lm,样机其他谐振参数基本不变。
 
@@ -135,15 +135,15 @@ LLC拓扑主要靠心在开关管开通前将沟道内的电荷抽走，实现ZV
 
 对参数优化后的样机进行闭环测试，其波形如图7所示。波形说明样机可正常工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic5CQnkVLUAiacjoUiaeBNcWmia5WRMxvZXcA0K3SXI2rCicg1mNSmsrbZ1Q/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_018_398f2636e487.png)
 
 在Uin=1KV条件下，测试样机在各负载点下的效率η,对比参数优化前后的效率，得到如图8所示曲线。可知，通过优化，样机在各负载点下的效率均有提升；且在Po=6.6kW条件下，效率由95.34%提升至95.64%,对应损耗减小19.94 W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic1NTHOdCJDylBORDmfdibbH4PNdbY666apYmyXsx4BOdvCJ6JfElszow/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_019_d273b3f2d70b.png)
 
 分析效率优化前后样机各主要损耗情况，给出损耗分布图如图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic7yQbBZvnYRpheehK4OReY6iaTibeeYSsKRSRibaLCCWvicEmmV3wFka1yA/640?wx_fmt=png&from=appmsg)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_020_969eb179b357.png)
 
 考虑样机在高空环境工作，模块需完全密封,除釆用215 mmx215 mmx10 mm金属底座对样机进行接触式传导散热外，还针对磁性元件、驱动板定制了金属结构件，采用君策-1184导热胶灌封，以帮助散热。 
 
@@ -157,10 +157,10 @@ LLC拓扑主要靠心在开关管开通前将沟道内的电荷抽走，实现ZV
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_021_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_022_3ade3c3d8599.jpg)![](1_kV_SiC_LLC变换器参数设计与效率优化_images/img_023_84aa944feb13.jpg)

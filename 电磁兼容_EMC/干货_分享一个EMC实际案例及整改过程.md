@@ -14,7 +14,7 @@
 
 看过我前面文章的朋友可能会问“你之前不是已经折腾过两周，EMC好像测过了，怎么又在测？”我也很无奈，明明之中好像有一种孽缘。
 
-                      ![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tI3NeoibhCVOQElp2SrLct6MiaFphia9DEDDCPnUFNJn8ue5l1ibZ5T2TFhrkiagew2OKaibkdjNvIiaictuQ/640?wx_fmt=jpeg)
+                      ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_002_867952cbc6bd.jpg)
 
 事情是这样的，因为公司产品做的认证比较多，上次通过了，这次换了一个地方又不过，所以要再找原因。  
 
@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tI3NeoibhCVOQElp2SrLct6M3vSYnicEgxVZj91hUXFIfXkAoqPiaZQywKK7sYALNRlfXyJ04QNEI18w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_003_64d867e09ca9.jpg)
 
   
 
@@ -62,19 +62,19 @@
 
 ③既然是传导，那就跟电源有关。最有可能的怀疑对象是一个12V转5V的BUCK降压芯片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tIBoRSGXAxY1RDV9Od0JhKFQtNx7ddLLmyhvpGQBCq2p6xp40KK0RicmgATQbvk2X9OGuTOZ4CPlxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_004_4aecb0e87919.png)
 
   
 
 规格书上是固定频率570kHz，跟我们的干扰频率很接近。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tIBoRSGXAxY1RDV9Od0JhKFXRFu3wX1BQnQ5aUqx3ziaDEmsunVlxgLLaX7OQ2qhMQWGCStsHORbpA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_005_f6c23d260a1c.png)
 
   
 
 实测开关频率为1.66us（602KHz），更接近了，我更加相信了自己的判断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tIBoRSGXAxY1RDV9Od0JhKFy96QkoFaTicmSbbWyG8PEBO8BYaex72dLibg1QMj7d2oAlTBPhvkPgBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_006_bb3e06a673b3.png)
 
 怎么确定就是这个芯片的原因呢？只要BUCK芯片不工作就可以了。可以采用两种方式来排查，一种是外供电，另一种是用LDO替代。  
 
@@ -94,7 +94,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tIBoRSGXAxY1RDV9Od0JhKF9jFoa19Ke1JArbFREFgTmnKD9oDbJY2SiaTkE6l9PicOQR9h1VdJjS2A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_007_35f01f75594c.png)
 
 再对照PCB板仔细分析，滤波电容靠近管脚，电流回路面积最小，芯片用地包起来，没有发现问题。
 
@@ -130,8 +130,8 @@
 
 扫码管理员，备注“加群”，拉你入技术交流群。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tIBoRSGXAxY1RDV9Od0JhKFia7iaibpspoa3lInfMIYkxOOLMluTIAXSWJeJn7VIC1IVXM85KFViaRIMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_008_68a21c91a065.png)
 
        **觉得内容不错的话，欢迎分享，点赞，在看**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FN0h1dvAiaKt7ITP9EYBbIyOGvA1H5PkiaL9NQSoDNoq7Y5kBH8qNziaIYhBZyFibBqNXRHh3ZukzICvg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\干货_分享一个EMC实际案例及整改过程_images\img_009_642a876b39bd.gif)

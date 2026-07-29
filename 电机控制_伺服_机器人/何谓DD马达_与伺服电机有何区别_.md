@@ -1,0 +1,149 @@
+# 何谓DD马达？与伺服电机有何区别？
+
+原创 电机新视界 2024-06-08 17:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/MvNgLCckE-qPJAb-pCDLvQ](https://mp.weixin.qq.com/s/MvNgLCckE-qPJAb-pCDLvQ)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+
+
+来源：数控百科
+
+  
+
+何谓DD马达?
+
+所谓DD马达(“DD”是Driect Drive的简称)是指不需要皮带、齿轮、滚珠丝杆等减速装置的直接驱动马达，也被称为电子式回转工作台。
+
+DD是direct driver的简称，包括力矩电机和直线电机，后面加上电机就是称为DD直驱电机也叫直接驱动马达。
+
+由于其输出力矩大，因此有些公司将该产品直接称为力矩伺服。与传统的电机不同，该产品的大力矩使其可以直接与运动装置连接，从而省去了诸如减速器，齿轮箱，皮带轮等连接机构，因此才会称其为直驱动电机。
+
+DD马达结构独特，具有高效率、高扭矩和精确控制等特点，已被广泛应用于各个领域。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Lpljeju3ztq2FxzAKibYOuBOibzwCibG8YHfW8G7WiaQeotZpjibvv3F3T6YM2LwVhOxqllONXEly7WPIByMnomX2Ww/640?wx_fmt=jpeg&wxfrom=13)
+
+DD马达的结构主要包括定子、转子和磁场。
+
+1.定子：定子是马达的静止部分，主要由环形的铁芯、绕组和三相供电系统组成。铁芯起到支撑和保护绕组的作用，绕组则负责产生磁场。
+
+2.转子：转子是马达的旋转部分，主要由永磁体组成。永磁体有多种类型，如永磁铁、永磁瓦、永磁环等。转子在电磁场作用下产生旋转力，从而带动马达的运转。
+
+3.磁场：DD马达的磁场由定子产生，通过向绕组供电形成电流，电流在绕组中形成磁场。磁场的方向和大小可以通过改变绕组的电流来控制，从而实现对马达运转的精确控制。
+
+DD马达的组成除了上述基本结构外，还包括传感器、控制器和电源等部分。
+
+1.传感器：传感器用于感知马达的转速、位置和负载等信息，通过传感器的反馈，控制器可以对马达进行精确控制。常见的传感器有霍尔传感器、光电传感器和磁编码器等。
+
+2.控制器：控制器是DD马达的重要组成部分，负责对马达进行控制和调节。控制器接收传感器的反馈信号，根据设定的参数和算法，向DD马达供应适当的电流，从而实现对马达的控制。
+
+3.电源：电源为DD马达提供工作所需的电能。通常采用的电源是直流电源，通过变频器将交流电转换为直流电，再提供给DD马达。
+
+DD马达具有许多优势，使其在各个领域得到广泛应用。
+
+1、DD马达具有高效率。由于无需通过传统的换向装置和刷子，DD马达摒弃了摩擦和能量损耗，其效率通常可达到90%以上。
+
+2、DD马达具有高扭矩。由于转子是通过永磁体产生磁场，无需依赖外部磁场，因此可以产生较大的转矩。
+
+3、DD马达具有精确控制能力。控制器可以根据传感器反馈的具体信息，实时调整绕组的电流，从而精确控制马达的转速和位置。
+
+DD马达是一种高效、高扭矩、精确控制的驱动装置，其结构由定子、转子和磁场组成，辅助组件包括传感器、控制器和电源等。由于其特点，DD马达已成为许多电子设备的核心部件，在工业、机械、汽车和家电等领域发挥着重要作用。
+
+下图展示了DD马达和普通伺服马达的对比。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Lpljeju3ztq5egiciazSyQEmwqiaOiaDYfKCzCVH1p0bPGzcQkPrvU4p9lwrzkLhdfr1Qu6IFndm7mic1TwCduxdKVQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**DD马达的特点：**
+
+**精度高、功能全**
+
+    上电时无需原点复位
+
+    采用绝对编码器，不需原点复位就能识别现在位置。
+
+**高精度定位**
+
+    把一个圆周细分成540672个脉冲定位精度可以达到士30秒(部分可以达到士15秒)、重复精度可以达到士5秒。
+
+**安装简单、便于对中**
+
+    回转和固定部位设置有安装用凹槽和螺纹孔。依靠空心轴，还能进行集中配线。
+
+**结构紧凑、高扭矩**
+
+    能在较高转速的情况下驱动较大的负荷。
+
+**圆滑的凸轮曲线驱动**
+
+    有变形正弦(MS)、变形梯形(MT)、变形等速(MCMC1)、变形梯形正弦(TR)等凸轮曲线供用户灵活选择。
+
+**防尘结构**
+
+    驱动机构的旋转部分密封(部分机种除外)AX8000系列符合IP65标准。
+
+**有益环保节约能源**
+
+    仅在旋转过程中消耗能源，旋转轴停止时几乎不用电。
+
+**不需要加润滑油**
+
+    不需要加润滑油，杜绝漏油产生的污染。
+
+**结构简单、节省空间**
+
+    无需原点检测器、减速机、马达等。
+
+**规格变更简单、一机多用**
+
+    可以通过对话终端、计算机等变更程序和参数以适应用户不同的动作需要。
+
+**应对开放式协议，降低布线成本**
+
+    可以应对采用CC-Link和DeviceNet协议的。大幅节省布线的成本。
+
+**互换功能**
+
+    驱动器、马达、电缆具备互换功能。组合方式自由，便于保养和管理。
+
+**DD马达、凸轮分度器、伺服马达的对比：**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Lpljeju3ztq5egiciazSyQEmwqiaOiaDYfKCp5w6WLic2iaSicb6hzRsLTOib7s2w7Ir88OXQc4qqg5JPYibFcjVHpOunuA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+  
+
+**知识回顾**
+
+**电机政策：**
+
+[电机市场的IE5时代，真的要来了吗？  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247550130&idx=1&sn=42a14a5382b68a0bbd4ba48093155097&chksm=cede4576f9a9cc600786ab2908e4c3ef2cf3dbbfdb71a9265508f92e2dbda25384b66424bfde&scene=21#wechat_redirect)
+
+  
+
+[强制执行电机能效！2023年工信部发布最新工业节能通知！  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247552223&idx=1&sn=9a79a63e6376dc92a45d3945ccfccbc4&chksm=cede4d1bf9a9c40d9fa969d4856721610e61d357988dde293f59cbc0994f971b7dc168c64b0c&scene=21#wechat_redirect)  
+
+[又一“千亿级”来了！高效电机再上央视！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247549961&idx=1&sn=3138aaff5c66723c28a9499b551d3399&chksm=cede45cdf9a9ccdbd20ddd6eb429e4a1cf67bb758cb509a84cf1b292a9887047cfa38edcc451&scene=21#wechat_redirect)  
+
+  
+
+**精选文章：**
+
+[清华大学的电机系毕业生都去哪儿了？](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247548328&idx=1&sn=8bbb58f38491f58600b87c85f9a2a864&chksm=cede7c6cf9a9f57ac80d409cbc6b9ced57c5d4df799227673198488eb6ac427f40098e09d145&scene=21#wechat_redirect)
+
+  
+
+[一路走来，风雨兼程，江西这家企业有太多故事！  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247552832&idx=1&sn=0691f10025dc8233e2c704ede28ff691&chksm=cede4e84f9a9c79222cf4bb485f1f3e0eb9f33f37ceff89c3ef6bf2136aa0cc5176d46b97555&scene=21#wechat_redirect)
+
+  
+
+[三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)

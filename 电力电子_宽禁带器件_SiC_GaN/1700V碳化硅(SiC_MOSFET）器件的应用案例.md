@@ -13,11 +13,11 @@
 
 1700V SiC MOSFET帮助减轻AuxPS故障的方法之一是利用其高击穿电压、低比导通电阻和快速开关等特性。在这些特性的共同加持下，可极大简化采用单开关反激拓扑的电路设计（见图1）。相比之下，基于硅的解决方案则面临各种问题，包括额定电压对于该拓扑而言过低（这就需要使用双开关架构，导致故障风险加倍），或者需要牺牲性能才能达到额定电压。此外，这类解决方案的供应商数量较少，成本也高于SiC器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQVQJWDduYRdiaaNAbAV4KcSibo3EWRYhULhqn2Qg5cZrCYAqKicXH8Fnrw/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_000_1825d00c74a5.png)
 
                          _图1. 采用宽输入单开关反激拓扑的常见辅助电源_
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQDCDFOH51yBQUXXf1xZsp2837f2iceyGSibuDGyiadNGYlUYEgQYUnmcng/640?wx_fmt=gif&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_001_8c56ae1904a6.gif)
 
 对于母线电压在400V及以下的电力电子系统中，辅助电源常见方案为单开关管反激拓扑。但在光伏、电动汽车、储能充电等大功率或超大功率领域，母线电压会更高。当母线电压在600-1000V的范围时，如果采用双管反激拓扑（图2 a），即采用两颗800V规格MOSFET分压，会使系统更复杂，也会增加BOM的成本。如果继续采用单管反激（图2 b）方案，开关管额定电压至少在1500V以上才能满足耐压需求。不仅可选择的硅基MOSFET很少，而且由于器件需要更厚的外延层耐压，导通电阻也会变得很大。
 
@@ -29,21 +29,21 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQMBxEgiaBMZ774WNicXqDW5T8cl46y77ZWSnUQliacZQialOdBo6PiauNC2Q/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_002_5b50ec763dfa.png)
 
 图2 两种反激电路的对比
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQCib2uVQMXhUZwBgAIuDZpoQ6SUsTmhB1P3yJbrZhEqw7neHuicGt4ic8Q/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_003_bdc68977034e.png)
 
 上图是输入电压范围为200V-1000V, 输出可以同时提供24V, 15V, -15V等多路负载，满功率状态下可达60W。控制方式为采用模拟IC控制器的准谐振反激变换模式。此控制方式在全功率范围内实现了较高的效率水平，最高效率点接近90%。
 
 输入300-1000V，变换为24V低压输出的反激电源方案，最大功率200W，效率高达88.5%，待机损耗仅0.3W。本方案对硅(Si)器件的传统辅源，损耗显著降低，在输出功率100W以下或短时间工作条件下，无须风扇冷却。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQydg8JPsL0icg1CGiaw1FGM4kOxWiaD9avibDicSLdgVWcDyFaIBGj6RKfsA/640?wx_fmt=jpeg&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_004_0ba3a7fba7d4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQC7InQKMDhAr3jqkLLiatic8XGGpOL5yUmoh3Wkd7BlAfHpLLyKaB3dOw/640?wx_fmt=jpeg&from=appmsg)采用1700V碳化硅（SiC）MOSFET的单端反激式转换器设计演示板。该设计采用1700V SiC MOSFET，采用新型7LD2PAK表面贴装封装，占板面积小，爬电距离宽：漏极和源极之间的距离为7mm。通过采用新的表面贴装封装，设计工程师可以实现经济的散热设计，而无需MOSFET上的散热片。
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_005_ce64de47dd01.jpg)采用1700V碳化硅（SiC）MOSFET的单端反激式转换器设计演示板。该设计采用1700V SiC MOSFET，采用新型7LD2PAK表面贴装封装，占板面积小，爬电距离宽：漏极和源极之间的距离为7mm。通过采用新的表面贴装封装，设计工程师可以实现经济的散热设计，而无需MOSFET上的散热片。
 
 **小结**
 
@@ -55,13 +55,13 @@
 
 随着功率处理能力的提高，SiC技术更快速、更高效的开关性能的影响也在增加。当功率范围增加至几十或几百千瓦（kW）时，SiC技术有许多应用。经常应用于EV牵引、EV充电器、太阳能逆变器、UPS和电机驱动等领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQnqIOqcC7hClBpV1SINMJFJiaj0ErN6TebJUdic3xcx7hWUZG3BW6XJ7A/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_006_9c031ccbe35b.png)
 
 使用1700V低电感封装功率模块的逆变器设计的效率与替代硅基的效率进行了比较。SiC模块在10 kHz时的峰值效率可达99.4%。即使开关频率变为原来的三倍，即达到30 kHz，SiC模块的效率仍然高于硅IGBT。这样一来，便可以替换掉更重、更昂贵的滤波器组件，使尺寸缩小至原来的三分之一。
 
 与低功率AuxPS应用一样，凭借在这种较高功率范围内使用的SiC MOSFET，设计人员可通过使用更简单的电路拓扑和控制方案来提高可靠性。而这又有助于减少元件数并降低相关成本。在这些应用中，中等功率电源转换器的高功率传输需求需要使用通常介于1000V和1300V之间的较高直流总线电压。为了最大程度提高效率，在此类高直流链路电压下使用硅晶体管的设计人员过去不得不从一些复杂的三级电路架构中进行选择。例如，二极管中性点钳位（NPC）电路、有源NPC（ANPC）电路和T型电路。当使用1700V SiC MOSFET时，这种情况发生了改变，设计人员现在可以使用器件数减半且控制方案显著简化的两级电路。例如，之前在三级电路拓扑中使用硅IGBT的系统，现可在更可靠的两级拓扑中使用一半数量（或更少）的1700V SiC MOSFET模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQdg90QrGHr8ia5yOb0VhupwJibgW4D6FHVzkSEseo3IBLX6673SIPocgA/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_007_14bd532fc590.png)
 
 **小结**
 
@@ -71,7 +71,7 @@
 
 兆瓦级应用涵盖商用和重型车辆中的固态变压器（SST）和中压直流配电系统到牵引动力单元（TPU）。其他应用包括中央太阳能逆变器、海上风能转换器和舰载电源转换系统。
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQIic1fM5msSictmVHhNMsyMia4REfnJHIqo21BbN4ibgicLZmxtEA1GBibQYg/640?wx_fmt=png&from=appmsg)**
+**![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_008_77acae23613d.png)**
 
 在处于此兆瓦级功率范围的应用中，上图给出的固态变压器转换器使用多级串联电源单元满足电压要求。每个单元可以是半桥单元或全桥单元。一些设计人员甚至会选择三级架构。使用基于基本单元的模块化解决方案有助于提高可扩展性，同时最大程度地减少维护工作。这些单元有时称为电力电子构件或子模块，它们配置为级联H桥转换器或模块化多级转换器（MMC）。 
 
@@ -85,7 +85,7 @@
 
 爱仕特1700V平台的碳化硅(SiC) MOSFET的产品，驱动电压(Vgs)分为12V，15V和18V，室温下导通电流为1A-100A。该产品满足车规级要求，有常规的TO247封装和TO220F插件封装，还提供TO263-7贴片封装，对比插件封装，体积更小，阻抗更低，安装更简便，且有开尔文栅极引脚。因此该产品特别适合高电压、小电流、低损耗的应用场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQEn5S8jjvicKRLBF0FdrEIaRgH9q8BibPMc1nDHwgBrFAVBEVFFmYmlmQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_009_5bf9cb9dab75.png)
 
 特点概括：1.高压、低导通电阻       2.高速、寄生电容小 
 
@@ -93,16 +93,16 @@
 
 1700V平台SiC MOS单管产品如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQnGN5Up2Vh8HucBZDksGQ3uxHNEhXuibjwZ9s0XK9N8wpgPn7y6LxkpA/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_010_19e673649fca.png)
 
 1700V平台全碳化硅功率模块产品如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQ2QtPWr3micyvEMVNGjtTodqBqCBRia19rqCIB4Dib5BWrNjdN1cmz1peQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_011_400d0e9994b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQM7YNg1zc8Xb1Fz9L1dR8oKPq5icQkhokjAWdgwuUJ3eUVBVC376EylQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_012_83f747090ca2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQHv6J8lPRmbticZ5WfPmdSUtXX0fkenCRrq5ACY2laSEbw7ibfC8QPkwA/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_013_a2aec80df33a.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl97mnDcBhuZsXMNBtwEDwQK86uU79vwh6xD3JiaRXJW6H5MtlCoxt17uT8ZiaibNzToF8YsCiaMaMcMQ/640?wx_fmt=png&from=appmsg)
+![](1700V碳化硅(SiC_MOSFET）器件的应用案例_images/img_014_3760cd4efea2.png)

@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/KYZmXl\_QW-csrGMbV5s48w](https://mp.weixin.qq.com/s/KYZmXl_QW-csrGMbV5s48w)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWwtiarOJrOwKLR2ib8ciaXzYIEGSrWrnpNPSvJSgb3K29K6YFibtYico8xdnqsia2z82S9luLkPWo8U1cA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627581&idx=1&sn=957643516853308d81bacec81602260d&chksm=88bcf6f2bfcb7fe4838e0abd0dc07c5d5ffec052e2a549dffefdc7c8157245b87ffc5f943842&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_001_cc513b4e85a7.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627581&idx=1&sn=957643516853308d81bacec81602260d&chksm=88bcf6f2bfcb7fe4838e0abd0dc07c5d5ffec052e2a549dffefdc7c8157245b87ffc5f943842&scene=21#wechat_redirect)
 
 由西莫教育科技主办的“电机NVH问题的机理及测试仿真”研修班将在下周末的杭州如期举办，目前培训教材内容已经全部完成，会员优惠付款活动也将进入倒计时阶段，新老学员的优惠付款活动将在下周截止，想要参加的朋友记得抓紧时间扫码报名哦！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zrqdXYA3iaGQh7fTAjttiakxpnUMJMUlhRgUxibSJ6INXaHwO4VibczRfdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_002_dd13c43558ef.jpg)
 
-作为西莫主办的电机设计“升级班”，本次培训导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有ANSYS电机领域高级应用专家倾力加盟，几位老师共同编著的培训教材《电机NVH问题的机理和测试仿真》其内容的精彩程度更是将超越之前西莫出品的电机红宝书《电机原理及设计通解》！教材将由两部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真设计篇，详细介绍了基于ANSYS软件平台的电机电磁振动噪声分析流程及其详细的实现过程。汇聚了众多专业文献书籍相关精华内容的融合与提炼，本次教材从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zeohqrRozzl62oZJgb80iaKDfBUPKvBr6tedxWNzObticVwEve1s8lLlQ/640?wx_fmt=jpeg)
+作为西莫主办的电机设计“升级班”，本次培训导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有ANSYS电机领域高级应用专家倾力加盟，几位老师共同编著的培训教材《电机NVH问题的机理和测试仿真》其内容的精彩程度更是将超越之前西莫出品的电机红宝书《电机原理及设计通解》！教材将由两部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真设计篇，详细介绍了基于ANSYS软件平台的电机电磁振动噪声分析流程及其详细的实现过程。汇聚了众多专业文献书籍相关精华内容的融合与提炼，本次教材从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_003_37cc07a93ec4.jpg)
 
 本教材是对NVH类书籍文献中关于电机NVH理论与电机设计相关影响因素产生的电机振动噪声问题机理的全新解读与设计经验总结，是电机设计工程师和电机NVH工程师必备的设计指导书。教材定稿后，最新的培训大纲完整版也正式发布如下：
 
@@ -323,7 +323,7 @@
 
 看到这里，相信您已经对这次研修班的课程相当期待，别忘记了，本次培训还赠送《西莫电机技术》第23期——西莫12周年纪念精华版期刊哦！这样难得的学习机会真的是错过了就不会再有啦，此时正确的操作应该是立即长按识别下方海报二维码锁定培训席位！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zbaRiaIxjmjPCicTe49b7FgaGnl39eWQwq1ON3qoyvjDeVkedOcATpsQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_004_2c6b191c486b.jpg)
 
 关于培训的更多详细介绍，请看下文：  
 
@@ -381,7 +381,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zniac2pV0ZrOOhEoFhDoDPalHTnImFicLt7sHzCf8QKtYtAjETCmc377w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_005_992038978436.jpg)
 
   
 
@@ -417,15 +417,15 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVoicc9VhjaOgDQMrwJReibIE927I4KvNjj7SPEjicUSDdxBGicVpuqDJ8dMqfa4mPGEejfE2aoGnVuDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_006_28eaed4a8701.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_007_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh5Zp3ic62eKbJZbzsM1G3Lbl48JiaKDBHGkAAVF1slauic732iaAic0NDrzw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627499&idx=1&sn=cf06492802ae229813dbe0412f4f4f71&chksm=88bcf6a4bfcb7fb27afb37adb3e3368942368bd335a6b76b03118c85f256b5217f3eb5235ebf&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_008_d1686dfd7cbd.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627499&idx=1&sn=cf06492802ae229813dbe0412f4f4f71&chksm=88bcf6a4bfcb7fb27afb37adb3e3368942368bd335a6b76b03118c85f256b5217f3eb5235ebf&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh9IkK2CJTaz4HHexibFEZibrCf6518psydQZ7Ud1gBV2znrrSSjeZ0Yog/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\震撼登场__电机NVH问题的机理及测试仿真___西莫出品_年度巨献__images\img_009_f48eeedfff63.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
 
 点击**阅读原文**，直接报名参加本次培训！  
 

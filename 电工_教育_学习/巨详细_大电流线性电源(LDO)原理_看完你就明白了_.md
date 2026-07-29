@@ -10,7 +10,7 @@
 
 添加微信\[chunhou0820\]获取LDO仿真文件 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t5oCicS7pkXD3tibHJmLgEv2NicqVJjWGFJsXMCIrIH65Ru7gqFWI22jUnGb0z4sCWic1YZvM0L88ukLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\巨详细_大电流线性电源(LDO)原理_看完你就明白了__images\img_000_0d32b8f0062a.png)
 
 **1\. NMOS LDO工作简介**
 
@@ -18,19 +18,19 @@
 
 **Vout↓——>Vfb↓——>Vg↑——Iout↑——>Vout↑**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2aJeN2dC5t5oCicS7pkXD3tibHJmLgEv2NAEZTLncVagnD82JPqiacicocPgibT9icBAXD5vFzia5uRvaOCOThk9DuOvA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\巨详细_大电流线性电源(LDO)原理_看完你就明白了__images\img_001_ae2b111ffebd.jpg)
 
  **2. NMOS LDO详细工作原理**
 
 下图是某NMOS输出特性曲线，让我们结合上图和下图分析，当Vout下降，Vin不变，则Vds=Vin-Vout，Vds增加，MOS工作点由A转移到B；紧接着反馈回路开始工作，Vfb电压减小，经过误差放大器后，Vg增加，那么Vgs=Vg-Vs，Vgs也增加，从下图可以看到，随着Vgs增加，MOS的电流Id逐渐上升，进而使得Vout逐渐升高，MOS工作点由B转移到C，LDO又回到原始工作电平。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2aJeN2dC5t5oCicS7pkXD3tibHJmLgEv2NO33Pj1a6icn61tQDGkyZoe9PAxJtXKv0Bibr9XMGYjFZsIQlk0zoLAfg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\巨详细_大电流线性电源(LDO)原理_看完你就明白了__images\img_002_b238cf489323.jpg)
 
 **3\. NMOS LDO仿真结果**
 
 下图是简单的5V转3.0V的NMOS LDO仿真图以及仿真波形结果，橙色曲线是电压，绿色曲线是电流，随着负载端滑动变阻器R4的变化，负载电流也在变，而输出电压基本稳定在3.0V。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2aJeN2dC5t5oCicS7pkXD3tibHJmLgEv2Ns6ibCyZE9UW8RTNlKFIoHVLjyicpeYGJT4aef6cvicia6h3l0Uakeia0zGA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/2aJeN2dC5t5oCicS7pkXD3tibHJmLgEv2NVrnaRPMgBia6STXn2via6YGbtesCalB2vgqibKHPPumTWwEDKicBWmaYcA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\巨详细_大电流线性电源(LDO)原理_看完你就明白了__images\img_003_c17da26c2e32.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\巨详细_大电流线性电源(LDO)原理_看完你就明白了__images\img_004_b53b4e533901.jpg)
 
 **4\. LDO 输出电容你知道多少？**
 
@@ -40,7 +40,7 @@
 
 上文分析了PMOS LDO工作在恒流区（饱和区），DS之间有一定的压差，此压差常称为dropout voltage（Vdo），所以LDO若想稳定工作在饱和区，输入输出之间满足一定的压差，应用中通常可以考虑在spec中预留25%的余量。比如下图中在Iout=150mA时，不同Vout对应的Vdo也不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t5oCicS7pkXD3tibHJmLgEv2NcQhY1aQibialn11NVNYym1uialCllnRdSLpDOteqqJjoAOQWXeLUIchSA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\巨详细_大电流线性电源(LDO)原理_看完你就明白了__images\img_005_76ef272cf8ad.png)
 
 **6\. 效率**
 
@@ -50,7 +50,7 @@
 
 LDO重要参数之一也是巨大优点之一便是纹波小，即PSRR好，PSRR是电源抑制比，是LDO对输入电源纹波的抑制程度，PSRR的绝对值越大越好。看PSRR曲线有个转折点，左边为LDO自身起主导作用，右边为输出电容起主导作用，PSRR性能好的LDO左边的曲线会更高，加大输出电容，右边的曲线会升高。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2aJeN2dC5t5oCicS7pkXD3tibHJmLgEv2NrPV1EEHjP4egeibM1oIxHJ2Lf8NnokAVzdqibBgRv2ME0KAIbKCFibia2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\巨详细_大电流线性电源(LDO)原理_看完你就明白了__images\img_006_0f6bc0884729.jpg)
 
 LDO的基本原理与介绍可以告一段落了，而其内部实际工作情况是非常复杂的，本文只起引导作用，希望能引起大家的共鸣或排解一些疑惑，欢迎关注我的公众号：硬件工程师看海。里面会定期更新鲜的内容。
 

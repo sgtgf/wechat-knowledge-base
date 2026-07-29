@@ -17,7 +17,7 @@
 
 针对SiC MOSFET 体二极管的可靠性评估，其关键在于激发SiC 芯片漂移区或衬底可能存在的缺陷。当SiC MOSFET体二极管导通时，电子和空穴载流子注入或激发后复合，释放能量使SiC 晶体上早先存在的基面位错（Basal Plane Dislocation,  BPD）触发，在高温应力的作用下，BPD 发生滑移，分裂为Si 核和C 核两个部分位错，其中Si 核部分位错由于电流传导而滑动，会导致堆垛层错（Stacking  Fault, SF）在外延层中蔓延至芯片表面，具体过程如图1 所示。SF 减小了芯片有源区面积，导致载流子寿命显著降低，不仅增加了反向偏置的漏电流，影响器件的阻断特性，还会使局部电流密度升高，导通压降增大，器件的可靠性下降。高压SiC  MOSFET 的漂移区更厚，缺陷更多，从而导致其体二极管可靠性更差，严重阻碍了高压大功率SiC MOSFET 的发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpORluNABwCKfXxFU2Yb9fGrcU5IO3DX6wgHGVnUmG1xfp12GYQ08KBgET0evMu04r491kOrrLAw27XUt8iaNyibXpuHd1vgmWA8k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_000_64057d6297b2.png)
 
 SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器件开发，即通过迭代优化工艺，提升体二极管性能以及减少缺陷。这需要高分辨率的退化现象以及尽可能短的评估周期。在退化现象分辨率不高的情况下，需要通过提高良品阈值来保证器件的高可靠性，这可能会导致良品率低，造成成本增加。尽可能短的评估周期可以在不造成器件过应力失效的前提下快速掌握所测试工艺下的缺陷情况。另一方面进行可靠性评估可以指导SiC 器件的应用，为应用端划定保证器件高可靠、高性能的许用阈值。标准高效的SiC MOSFET 体二极管可靠性评估方法不仅可以支撑高可靠SiC 器件研发，也是SiC 器件长期稳定可靠运行的重要保障。  
 
@@ -33,18 +33,18 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 1.1双极退化脉冲实验平台
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNiaLTB7IIjuZ7vOunjCdOZUgTibuW039bdJgvnQthu6HYtiahiaqWwFdpeTLQjiaphSKm031Or7zouGWBDWGWichAg8DPeGia6uSovOk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_001_f872908e7724.png)
 
   
 脉冲实验平台电路原理如图2 所示。图中，VDC为直流源电压，DC-DC 为降压电源模块，被测器件（Devices Under Test, DUT）为SiC MOSFET 实验器件，D 为器件漏极，G 为器件栅极，S 为器件源极，C为母线电容，VP 为工作在电压源模式的功率源电压，开关器件为开尔文连接的SiC MOSFET，VPulse 为脉冲驱动部分输出电压，其中脉冲驱动部分包括直流源、光纤信号发生器、带有DC-DC 隔离电源模块的驱动板。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMzC77NPjQuyY7QRqu80tCYv8qBMIEKohfFEmp0mXOsBF4e9twwU4GTYcp8GspCrJe3OhBS17EWukgklibRt2obomKfN8nO5N7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_002_348e90a2b081.png)
 
 脉冲实验平台如图3 所示。在脉冲模式下，功率源两端并联母线电容，以保证输出恒定的直流电压。主回路串联一个SiC MOSFET 作为开关器件，直流源和光纤信号发生器通过驱动板对开关器件栅极施加脉冲驱动电压信号，通过开关器件不断动作，保证在实验器件体二极管上施加脉冲电流应力。直流源通过DC-DC 降压电源模块，对栅源极施加恒定负压，保证在实验过程中沟道完全关断，只有体二极管通流。DC-DC 模块可以隔离电压，防止功率回路器件发生由于串联导致的驱动共地问题。
 
 脉冲实验平台采用风扇散热，热电偶监控实验器件和开关器件的温度，通过热网络法计算芯片结温，保证实验过程中器件结温不超过手册限值，防止发生热失效。计算公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOVbAUIibWO4ZRRiaPb8kLgTAoJB5Ribex5rsgJibLTyUZyTWP612aCcbmLm0p3uTvic0eiaLHibibds6Hrf8s0vBkMKgWtiao9VCoaJQdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_003_4a750b31fc71.png)
 
 式中，Tj 为器件结温；Tc 为器件壳温；Zth 为热阻；P为器件发热功率。  
 
@@ -54,15 +54,15 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 为研究造成体二极管双极退化的关键应力以及体二极管双极退化特性，本文通过控制变量的方法调整脉冲频率及占空比，保证在改变某一实验条件时，其余实验条件不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPpX7RtFnFFLfpibwrWxD4SkoQkQyGXh4geLL9nWPdtmv5WacARaZiafZqp9APkwqMFRIXPF32cboL4u8kSQZuOCpibUnnqp0wfE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_004_c6c3ec8dd981.png)
 
 如图4 所示为控制等效脉冲宽度与芯片结温不变，改变电流等级的脉冲电流示意图。当改变频率及占空比时，脉冲电流的脉冲宽度不变，即实际逆变电路中不同桥臂切换导通的时间间隔不变，也就是脉冲宽度不变，保证实验过程中芯片结温一致，仅改变了脉冲电流等级。因此，当调整频率及占空比时，仅改变了实验过程中单位时间内的累计导通时间。根据双极退化产生机理，在堆垛层错完全扩展后，双极退化程度将不再加深。而累计导通时间只会影响双极退化现象出现的早晚，对于是否会出现双极退化以及双极退化程度不会产生影响。因此在对比不同电流等级对双极退化特性的影响时，可以忽略频率及占空比的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNyQrT2pMCGuTlG1AWW31pNsbDZMcOZCGgvUdXicQMkNFaA8iaUWurflyVyhAmyUukABM6XjEEdB8utIS493kxEdr1yepKaS0sHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_005_d47f25d2cf5c.png)
 
 控制等效脉冲宽度与电流等级不变，改变芯片结温的脉冲电流示意图如图5 所示，与电流等级对比实验类似，当改变频率及占空比时，脉冲电流的脉冲宽度与电流等级均保持不变，仅改变了芯片结温。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOy6025gP1ib650EX7XUnPJF8Qia1eWOuKiaQXRpQFRFunLFOPicicbLvqIHS6z8Mxc2S45FvQnKnlxdzF7icpZ7k2PCAEa88JE7QrS8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_006_520d2a2d1437.png)
 
 仅改变等效脉冲宽度的脉冲电流示意图如图6所示，通过调整频率及占空比，改变了脉冲电流宽度，即脉冲宽度，而电流等级与芯片结温均保持不变，保证了实验过程中对无关变量的控制，仅考察脉冲宽度改变的影响。
 
@@ -74,15 +74,15 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 1）静态参数及动态参数测量
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNAhXiadvmwAuP2tJFicpe86e58reB3wSGRSfNiadmDoQPgODymjePDIiatbt1M37KFVa7JwTKLcFNk3bQT4QvC2yPEo4UeXTRY5Kk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_007_8be3c36e75bd.png)
 
 单次应力完成后将器件静置一段时间，保证器件内部不存在热量积累。静置结束后，使用功率分析仪测试静态参数，通过双脉冲测试获得实验器件体二极管的反向恢复曲线，提取反向恢复电荷。功率分析仪及双脉冲测试平台分别如图7、图8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOD1x66tSTx3A3iaNh7QicpkAOO9SibibXedsfdcbKmeVqLDic1JruIeT4svIT3YiaiaUgwE3rBazRn6mkCYPX0QebC2SzpIeBcj9f3D4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_008_dbe4719e4d8e.png)
 
 实验过程中，对体二极管饱和压降、正向通态电阻进行测量，根据IEC 60747−2: 2016 标准给出的计算方法，提取体二极管反向恢复电荷Qrr，计算公式为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPogibjBVPvTicTiaX3p4R6iau7ib8P8gpH5S3udUfic1FDrSMDkzZ223jD1MtSaWGnibOiatERnJYoRxiagxDF2wTM5XzQkdZRXxoriaMXM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_009_9b7b272c2f18.png)
 
 式中，irr 为反向恢复电流；t0 为反向恢复电流过零点时刻；ti 为反向恢复电流减小到2%反向恢复电流峰值时刻。 
 
@@ -92,7 +92,7 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 综上所述，进行双极退化加速等效实验期间，每隔固定时间对实验器件的静动态参数进行测量，直到实验器件满足失效判据或者达到设定的实验时间停止实验，实验流程如图9 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPQ729VUGic7ulStKc1BYtIL4OZuujzic8ddDLFmsN2WicmIdtpkd1vJA8aaEkx63u97ZJ567FjOE7UxySz02kJ32iaKpggfPlQvEk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_010_dcec0c6dacab.png)
 
 2.双极退化实验结果  
 
@@ -100,25 +100,25 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 本文选择某商用1.2 kV SiC MOSFET 为实验样本，实验参数见表1。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMnZEiaNXAHicnibAsrxRPJRXN9GVKUvfIhQXahuM95oqlTsAskRz3buXL7fXIMsNVAQCo34SqicSoetk1FrXp1dlkYwWWMwRWSiabk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_011_7cd89386d0f3.png)
 
 依照IEC 63275−2: 2022 标准内容，在保证实验器件芯片结温不超过限值，防止实验过程中实验器件发生失效的前提下，施加额定脉冲电流，同时控制芯片结温在150℃以下。基于本文所提脉冲电流应力调控方法，研究单一应力对体二极管双极退化特性的影响，不同电流等级、芯片结温和脉冲宽度的对比实验条件见表2。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMprsY3DNcKia3chCa9AkTsY0ayqXic9Or0ibNgVfqBTnBE29uJkpIQMxib61BwDGvibVyaibuvbHBO2XZkz6c7sjKxTymltEHsAOj94/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_012_a83e483cd94a.png)
 
 2.2实验结果 
 
 70 A/1 kHz/3.5%/35 μs/150℃下体二极管饱和压降的变化情况如图10 所示。在脉冲电流应力下，实验器件的体二极管饱和压降均有明显增加，其中19 号器件最为明显，在20 h 时最大增加了0.26 V，偏离初始值6.32%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMcsQcUicoy2E5ia8gTP9rsyImTU6a0ChnvJcrBzNmKBn5zxFibbicSjdzaKllwFicastdKdYHLakytN4roShXzwicSUsvLwKOLdTj6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_013_f4136b6e0070.png)
 
 图11 展示了正向通态电阻的变化情况。所有样本的正向通态电阻均有明显增加，同样是19 号器件增加最大，20 h 时增加了31.74 mΩ，相对初始值变化了39.26%，超过了20%，满足退化判据，体二极管发生了严重的双极退化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMAzDEbdOGYnexUPDUbkMibkxyTAmt8ibwgxFukasTkDCjgyXFAuxYGEfNd8IeibjI1rNsD1xEh1icELscqB77G7fXQ5j5PgBvlq7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_014_23fa97b61a5b.png)
 
 在相同的开关条件下对体二极管反向恢复特性进行测试，测试结果如图12 所示，图12a 中展示了反向恢复电流曲线峰值均有所增大，图12b 中计算得到的反向恢复电荷也不断减少。这主要是由于堆垛层错捕获电荷，缩短了载流子寿命，不仅导致体二极管续流期间存储的电荷减少，反向恢复过程中的电荷也会减少，从而降低了反向恢复电流峰值，反向恢复电荷减少。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNNJvhfQBHZiaf9grKzCrR11fWHEfvicv3yxu0ciaEyZ1Kn8JUUH3bkIN4ZhVQNJsDYuysefMMnsX9umLp5AzWyO57PNHMSwZuibg0/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_015_27fe5189250c.jpg)
 
 实验结果表明，目前商用SiC MOSFET 体二极管仍存在一定程度的双极退化现象，同时在实验进行的前几个小时内，双极退化可能就已经发展完全。 因此，为了对比不同工况应力对双极退化现象的影响，后续对比实验每隔1 h 测量实验器件静态及动态参数，直到参数不再变化。  
 
@@ -126,9 +126,9 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 对比实验采用多个样本进行实验，选择静态参数变化最显著的样本进行对比。不同电流等级下器件参数变化曲线如图13 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM3GU5xlwfoVnas8TTbkfafUzia578zeN35GwOxMvsTgSE5EJGIYWsqwxqdiblCJENMJW5CFHcQdqY9M5gHZSSFlfa5icowmUoc4c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_016_09139992d869.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpObYNnEiab8GiaNcfFOFicCuA1eqbNfRtDmjmyASzPAicicTZV1KeaTiaCOBMX1MnQ1LtyAxPgq3p8Glty7tfTREYhPNSePDf5AaIUeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_017_44fcd0ee5a3b.png)
 
 图13a、图13b 中，在70 A 的脉冲电流下，体二极管饱和压降和正向通态电阻变化十分明显，分别增加了4.95%和29.7%。而在50 A 和30 A 的脉冲电流下，体二极管饱和压降变化不超过1%，正向通态电阻甚至出现了减小的趋势。  
 
@@ -136,7 +136,7 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 由于实验过程中对实验器件持续施加负栅压， 在高温条件下，器件栅氧层发生退化，导致阈值电压减小，而在正向通态电阻的构成中，沟道电阻和积累区电阻与阈值电压相关，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlSyOSpnxdpchEKWvWySeQAM4hK3muvwia0WOKe38MGEUFO9ZZcG5gqovaK5gWpDib9TtibOa0I3XbTylTwiczdJqQ8gQKQ9qRNS8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_018_6bfd518a160c.png)
 
 式中，Rch 为沟道电阻；RA 为积累区电阻；Lch 为沟道长度；Wch 为沟道宽度；μn 为反型层沟道的电子迁移率；LA 为积累区长度；WA 为积累区宽度；μnA为积累区的电子迁移率；Cox 为氧化层电容；VGS 为栅极驱动电压；VTH 为阈值电压。  
 
@@ -146,9 +146,9 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 不同芯片结温下器件参数变化如图14 所示。高温下体二极管饱和压降与正向通态电阻均有明显变化，分别增加了3.05%和17.21%。随着芯片结温降低，体二极管饱和压降几乎保持初始值不变，而正向通态电阻由于阈值电压的影响，则同样出现了减小的趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOnmtVZwUDmZvUEuL3G2L96hMcElcib6PRiceiaQzicKh1CJfBv6tDwIviaytnFASorIrLdarakEWXcBa0DgYv448j7CrIpACqB4ejc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_019_4b5b890a50d0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPb1ylB8mkKDJ1sUl8rrN9VlicraibhMLBreey9xELoDanIBCMuFw6Zmn9CwMryYx4SzIG8GUM4mLdQQPb2I1bGIlL65fTkaqDSo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_020_3ab93c5b94ad.png)
 
   
 如图14c 所示，不同芯片结温下各实验器件的反向恢复电荷几乎没有减少，变化趋势和数值也大体相同。  
@@ -157,9 +157,9 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 不同脉冲宽度下器件参数变化如图15 所示。尽管各实验条件下的脉冲宽度不同，但实验器件的体二极管饱和压降与正向通态电阻均有明显增加，随着脉冲宽度减小，体二极管饱和压降最大增加4.92%、4.63%、3.05%，正向通态电阻最大增加29.7%、22.42%、17.21%，变化幅值不断减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOC213icaAqBhMJYXRicBfVHjDSgGRFqZhq3BxsKKPysStaugfAeaE6WqaN3IheHtNhgibzTnTmLxoM93ErKZl6g9O1OibMIKS6KI0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_021_b000f2b23b72.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPrfHrHOaRBzvbP7D6oFH5cZ7jzOibGQjibA4fUvZzegLMAxLYFX3hkLFjQb4Ao0tvibpubwSh13Kg0QFiaUemLt9r1CkibjFw0ntpc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_022_779e807ac1b4.png)
 
 图15c 展示了体二极管反向恢复电荷的变化情况。不同于前两个对比实验，在不同脉冲宽度下，体二极管的反向恢复电荷出现了不同的变化趋势。 在大脉冲宽度下，反向恢复电荷出现了减小的趋势， 随着脉冲宽度的减小，反向恢复电荷的变化幅值也不断减小。
 
@@ -173,13 +173,13 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 虽然电流等级、芯片结温、脉冲宽度均会影响双极退化现象的发生，但对于体二极管饱和压降、正向通态电阻、反向恢复电荷等参数的影响存在差异。对于体二极管饱和压降和正向通态电阻，当电流等级从70 A 降低到50 A，芯片结温从150℃降低 到100℃时，参数变化百分比差值较大，表明电流等级与芯片结温在这个范围内变化时，会对双极退化程度造成很大影响。当电流等级从50 A 降低到30 A，芯片结温从100℃降低到50℃时，参数变化百分比差值较小，可以认为工况应力在该区间内变化时，几乎不会对双极退化程度产生影响。这个现象主要与基面位错的存在位置有关。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRorRV2n2PiaUY4f48d28UQwAQT0vBYj63ZEc9MrrglXcPYcMK5cLfzMkN1HI1xwsa42724sDt6gdIOtTMzu7CtFOLwab6x8VA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_023_86dcebfadc2b.png)
 
 电流等级和芯片结温主要通过体二极管双极运行过程中少数载流子复合释放能量，进而影响基面位错转变为堆垛层错，导致双极退化现象的发生。图16 展示了体二极管通流期间载流子浓度的变化情况，其中电流等级在低电流密度时，主要影响漂移区的浅层位错缺陷转变为堆垛层错，而在高电流密度下，少数载流子的复合过程会出现在衬底附近甚至在衬底内部，复合释放的能量更大，从而导致衬底内部的深层位错缺陷转变为堆垛层错向漂移区扩展。
 
 因此，4H-SiC 生长过程中位错缺陷示意图如图17 所示，尽管在工艺生产过程中，保证衬底的基面位错转化为漂移区中无影响的贯穿刃型位错，大大降低了漂移区中基面位错的密度，但在高电流密度下，依旧会引起衬底内部的基面位错转变为堆垛层错扩展，由于衬底内部基面位错的密度是漂移区密度的10 倍以上，将会导致严重的双极退化现象。 同样地，芯片结温也有着类似影响，在低温条件下，仅会导致漂移区的堆垛层错扩展，而在高温条件下，会引起衬底的基面位错转变为堆垛层错扩展到漂移区。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMKbCz4H4mqm3QQzppcTzhEq720m28lkLWvyar6qI0R3v7fx6Ocffhf3bzpXiaWhA0YReYcor4VBdkERYAzCNv8AlhlYDicRMzib8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_024_1d804ab74759.png)
 
 结合对比实验结果，只有同时在接近额定脉冲电流以及额定芯片结温条件下，少数载流子复合释放的能量更高，激发衬底内部的高基面位错密度转变为高堆垛层错密度，出现了严重的双极退化现象。当持续减小脉冲电流等级或者芯片结温时，少数载流子复合释放的能量无法激发衬底的基面位错，只能使漂移区的基面位错转变为堆垛层错，从而导致双极退化程度较低且保持不变。而随着脉冲宽度由35 μs 减小到10 μs，体二极管饱和压降与正向通态电阻变化百分比差值相差不大，双极退化程度减半，表明脉冲宽度在设定的范围内变化时，转化为堆垛层错的位错缺陷位置相同。  
 
@@ -211,14 +211,14 @@ SiC MOSFET体二极管的可靠性评估，一方面旨在反馈指导SiC 器�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOj1gcczkFiboYicvlys7EqIBme40Tdt0l9ibYOsqeuDiaU3biacfW6ecw2xcTHzcVZhaAJgbPiagx1F2oxhkPsfcRjjMQ62PtzrJibak/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_025_169b22568848.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO4fQB4f0hkpNkSw6cEMe34W7zJGDNystAl2nSbXnjxUuJuJlYQiaSrGW5lUDhwOiaPhf4VR6lWsVbxQE6UvEXUZZgKhS83RHTlI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_026_10990edbaed9.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkNOYspwyAZxrYhfN2WiabOVGythyX0swtHpJVUJiaWIMTOCo5V4U27CP2STzJAzv6YDwFRz3pUMwFbEHYHx1YiauFyHMehoFR4A/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_027_31952c86fdc3.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM1d1bzqB3XUDtxCFUwIicorK2DdTKPfXczEFwEqJcqAWkNXZ85ibrqG2Hnx9WVFM7lTo3SiaOvZIJuUQf2jxq3hB7HMaS0fiaAaqg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲电流应力下_SiC_MOSFET_体二极管双极退化评估方法与退化特性_images\img_028_e11aa55b18e5.jpg)

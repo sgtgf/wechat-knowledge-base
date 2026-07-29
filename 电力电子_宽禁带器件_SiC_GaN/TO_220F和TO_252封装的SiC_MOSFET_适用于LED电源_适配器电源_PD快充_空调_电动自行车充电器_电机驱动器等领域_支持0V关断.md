@@ -13,7 +13,7 @@
 
 封装优势
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMhoqmlCe8qm4n9MCWTG3Kw52swuFCfjo1w4t9ld0PcfmaN1H3J6FSZ0f9LZp034Fb2cpBuDIyuOcReUiazQr1QRZ4mL6SicRfbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_000_46170d365cc5.png)
 
 封装局限性
 
@@ -21,19 +21,19 @@ TO-220F 的 Rthjc（结-壳热阻）比铁封（TO-220）热阻大一倍左右�
 
 750V产品介绍，驱动电压兼容12V/15V/18V,支持0V关断
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOyMGPKNeVNPnk2PmIsndrFWzn4a1nk2twk66b8ricdeNaDNVMaDHXv6fRsuWKTvNWyYiatNUyjmTmM1dH1eHcicUaaGwArAyBl90/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_001_3e7e42eaf0c4.png)
 
 TO-220F封装的拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM4e6WgBxjSeibSYiafkXKkYpgTrjGHiaNGPgK0zbqE0q6KGsADlWBSicQBIZSUKL1Kuqvl8ygicBJNicPztDghZzHERz6qcqmPs3uUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_002_cc49947df52e.png)
 
 750V8A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOHMNhIwtLib2mP4AoxZnhPAXnpjLAibmDBqPCDicovwBuicDgKE2d7fWGYEa4rLnha5rTNsLKNkTR0OeXGUEuBpFl5G1PpYhO8SOE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_003_35105781c12f.png)
 
 750V15A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPldpjsU2rwKL1u3CQzOhPOwy13953tNOqe7SXDAMdplkUDyGXVWyGHDjWDosxKvjeyneNhwv3XDYYrdVgo8PrZTeB78Wvq80s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_004_b214964e966f.png)
 
 750V20A的关键参数表，驱动电压兼容12V/15V/18V,支持0V关断
 
@@ -43,7 +43,7 @@ TO-220F封装的拓扑图
 
 封装优势
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjHaMY2HWIHoqokGia4xpgoe8UHw5jyxXia4ibVF3Tj7Z3HRhibDRricyffYB1eB8nDMmyogQjzsYGic0lg5GLQPMsib9lnOwFx8RPsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_005_b16f4f2fdd98.png)
 
 封装局限性
 
@@ -51,23 +51,23 @@ TO-252 的主要散热路径是通过器件底部金属焊盘传导到 PCB，因
 
 750V产品介绍，驱动电压兼容12V/15V/18V,支持0V关断
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPeBYmwmvjafxMBWPSQuvZQe8OkS7LQictdfdgjDXHc41vlhKwAR8yDlEBotiaoCDcpgLFt328Rbs6LHqpkXKwxNe1gRZqzwoIMk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_006_dafd763e8806.png)
 
                     TO-252-3封装的拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOcWFMAdUnIzOyQyxt8ENJibOVNZ8Kr49prmYuqZeZVVJ1wXv8BABP5NKRqF0xToT4uZNeex5RYtD0vRu6NGv1hjTvUR5mFCrT4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_007_1925833dd19e.png)
 
      750V8A的关键参数表，驱动电压兼容                 12V/15V/18V,支持0V关断
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOtYyuFQGuKicuFdfYib6uoibbClCticXLFyMVb9LFvc882vD7x1HOGsfZQicfSkQ12xwjGibYIbPS0I2jxicriavJQVwTlp4m0nzTet20/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_008_9950bb960038.png)
 
    750V15A的关键参数表，驱动电压兼容                12V/15V/18V,支持0V关断
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjPXqibnx49EM5AUkwj6bO5fgzG41GicPemQfQOg5EdAsFE5oK8Gjs76P2qwicibicgYHQpyicMWcW6ZZadk7VnKptkzmgS7RHZHPkM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_009_8cccf04dee02.png)
 
   
 
@@ -243,7 +243,7 @@ SiC MOSFET 可达 175℃ 结温，但系统中其他元件（电解电容、变�
 
 案例一：LED 电源——大功率户外与植物照明
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPm88jNdF7YWoWXzmqFpvOJ95RibMDSAxQnic84KBQuAaszS7XI0UrH3dPDw5Yemnk3dJZ2CMSQxxNBIvqp9dWyzc7WIZokpAblo/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_010_b3081a9b4978.jpg)
 
 图片来源：网络
 
@@ -281,7 +281,7 @@ SiC MOSFET 优势体现：
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOu5zUVo58VsAVAmoARVElibPavFNOmmJaj0omdlaRPcBJHcNIYbYBZzBwbq5Vuf9AiaPOfiabCkW0QUYXcVjulbYibW2tIvRdul3o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_011_a3503f955b90.png)
 
 图片来源：网络
 
@@ -307,7 +307,7 @@ TO-220F：120W~300W 中高功率适配器，需外接散热器的大功率场景
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP46ek4k6s4G0n5cFajJYll0ftVAAx5AIttWJzUlsZp2DFia8sh4z57tYbIX0W5SAu8icwpR4akicMKVwhcOicTPVoUibsZxbKup0eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_012_63a877645a96.png)
 
   
 
@@ -341,7 +341,7 @@ SiC MOSFET 优势体现：
 
 案例四：电动自行车充电器——大功率紧凑充电
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPPOKb6f5Up7sjfPPfLOgEeJuTHL3Nuw14R2r6LPQUtJ3jxLMMr2456RMjfHzfthhMvLD8eUgUF6wstmTA8mO5ViaSktQqLJ8C0/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_013_8d08b4102402.jpg)
 
                      图片来源：网络
 
@@ -371,11 +371,11 @@ SiC MOSFET 优势体现：
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN7JrMelvP5hzHicPPBrAqQZbTx5zD4mnF5ulJMmKfmRVzfKfoegYfRYa7zDrpZpTSV7JXGcREwosLN6QnUF5kCuGAgIFwxkiadA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_014_0626b7ad1926.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZOKo9W9747xr4ib3B4355icJyb9MhgJ9gYssOTqQOjlJ0PhCL8aBlJiahdK40MzfxoicGgltoDa2ia8iaIu0evMPsYgdAz6Qiabuw6o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_015_6904a1650f6a.png)
 
 TO-220F：直插、免绝缘垫、散热强，适合100–300W（LED 电源、充电器、空调辅助电源）。
 
@@ -397,7 +397,7 @@ TO-252-3：贴片、小巧、高频优，适合 ＜150W（PD 快充、适配器�
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMGy4kibxfSROJ7lMDhicmPcJ3dEZM4n5s0uQAwwEcelRp2sEYXibDNsywMe4KETrdFYnGyeIF5Qoypg3frADRkjfwgVcs0EIRZiaU/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_016_dd95a348d7f3.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -405,7 +405,7 @@ TO-252-3：贴片、小巧、高频优，适合 ＜150W（PD 快充、适配器�
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP85ueFcYss3DypA0mS6nKIpfNOFbrdThrj2Pc0W4yIsINJgRK0yv4Ztfm83NT8RJSRocibLpic3yqktKQ5APKvKtYuTOH6eejCo/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_017_d3dcec36a43b.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -429,7 +429,7 @@ TO-252-3：贴片、小巧、高频优，适合 ＜150W（PD 快充、适配器�
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM1WaTFcg9VrMZibib2VhqDkgbEsAR6Uuj9NHcnV8IaJBsEZo6zdeM1M9phZyeTNZOu32uPaFSSRVgIp8rjhbbuemjciajmuEeicYY/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_018_ab492e29d6bd.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -477,14 +477,14 @@ TO-252-3：贴片、小巧、高频优，适合 ＜150W（PD 快充、适配器�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOOelBiaL5bs5b6ZoMAlaKeBpKDGIRcIicX7c8aheA6oEtM9MWFfpicjHSnSPvz7Ow5ibCGeuzibZ2KSEjHSzpby5cbMbw67I0KO3c0/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_019_0ac08a38744b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpN7tHFYZs9A5QjsVbNHbJyyN11MKmGFMG7dZVH3yBqACD7rnRfunQyEQ2sJ2EViaV33TqCO0otUn7JcBAcqftNjucc2R226AULI/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_020_af6b44ae1d73.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMTkp9zR1hibk4Vs0392HclUdDHG5FfDyABxA5YNPXEAFf5NVibUf6ECvufkWqbUjQwqSNcDMEFiaNYABzxquUAtmHia6IianNaAxQk/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_220F和TO_252封装的SiC_MOSFET_适用于LED电源_适配器电源_PD快充_空调_电动自行车充电器_电机驱动器等领域_支持0V关断_images\img_021_1a4a039b9e8d.jpg)

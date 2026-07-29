@@ -12,7 +12,7 @@
   
 **1、锁相环路基本组成**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWKW0efyUerKPnic9DZEEN2Ne7jjkWQoyFzMcCXIlVaSG0sE4zBHpJiaQw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_002_b84550dabd2a.png)
 
 鉴相器（PD）：用以比较ui、uo相位，输出反映相位误差的电压uD(t)。  
   
@@ -22,7 +22,7 @@
   
 若两正弦信号频率相等，则二者之相位差恒定；反之，只要保持其相位差恒定，即可使两信号频率相等。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWfMePDC6iajcic98HMeC3lK2BeR5GanlQRMUybQDiahI5L5PvTAhdQzicCQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_003_032f7aa9faa6.png)
 
 锁相环路的基本工作原理：  
   
@@ -32,49 +32,49 @@
   
 **鉴相器的相位模型：**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWDxnhzPic982mZicmKCPnCyVZTvUJD6JWbNJvngxyTJ2P5goiaBMMZCpLQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_004_a0f5b9e808c6.png)
 
 模型为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWFCP7UOyO52UnsicmPT8o0cZicCOIUYGP6XiaW4Pu5MRSSe2icCW8YCVwwQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_005_0e1ae69f92ce.png)
 
 **压控振荡器的相位模型：**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWaFZqhZMVVFmTTRT8ZSUicdjgKBB4Xj4wVj7DDHNOJPyhsGXMG0ibTEeA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_006_4f5bdf854424.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWICk49C1GgxWQ8xlvI1Z4fQBGSqmnzSwr3h8ABPQzLxshIVCSERGpLA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_007_dae4cff4bc20.png)
 
 模型为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWsoyFx6bzKH5vPibcrWndGlibzcWmibrH1dLkP9cfcc0WOqlzMbbMqD0uw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_008_78a89270d0ac.png)
 
 **环路滤波器的电路模型：**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWf9pialGq9NKKWwJeQWpgYnciaa8n19EDgWwUAF79wTaVOANWYbEKFAkQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_009_f37d1226dfaf.png)
 
 模型为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWn0LxeWpKV9rJXBiceTf2emuIw64RuGnFJqACMfUTvq5daib4boFlSgmQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_010_057cc2e56d19.png)
 
 **PLL的相位模型和基本方程：**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWRao7ic9cxZtv0Q0JWPWGfk8uUMsPUcLRTOLvjsC2jb3RvRXtu2TMG3A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_011_b03c6db53b37.png)
 
 上式是一个非线性微分方程,它完整地描述了环路的控制过程。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFW2FjMzyicmSc7VcdOpG0QiclXHaMaYz2XST222zUoanqYdPqsgRejDqMQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_012_9a3c0e6fb3f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWezZ4EZ3dKd0Yk2JmrQKhqhDKwphSWJcRoHTb9566tpaMicYZCriaBibKg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_013_4cfd00f7a508.png)
 
 锁相环路(PLL)是一个传递相位的闭环系统，只要研究它的相位数学模型或它的微分方程，即可获得该系统的完整性能。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWI1ibZHvXeC31xgtiayXepUApPbjLkU6ictAes1Eu2eMP7cn4qMqjNgjbQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_014_3e6bc2f392cb.png)
 
 **3、锁相环路的捕捉与跟踪**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWLN8EJSPS3tiacZiciaLH2ykOWibT45RDOowAteCYmNhUmzhY0fMyt5iaiaUg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_015_dc4c75d1a7e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWMIo8OpISGsgnvwGq0gWpjtY4bZIEWqicKSgk2hxCVUEwn4zibGNfktnw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_016_1061bb13cd64.png)
 
 **4、 集成锁相环路**  
   
@@ -90,21 +90,21 @@
   
 L562内部结构与外引脚排列：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWplibHvzzicQicJCNDsvr9eJeyicFIwWkdWSqhRYydPg365vAd8pdk1ibyKA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_017_7678df3984ca.png)
 
 L562内部的射极耦合多谐VCO：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWTic7VFm7EQtM2so7bpQ40OYtibuISaycA27wWFJddpf2rNU4gPXDpG6A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_018_6cfd1044f1df.png)
 
 **CMOS锁相环路CD4046简介：**为数字PLL。内有两个PD、VCO、缓冲放大器、输入信号放大与整形电路、内部稳压器等。具有电源电压范围宽（5~15V）、功耗低、输入阻抗高  等优点。工作频率0~1MHz。内部VCO产生50%占空比的方波。输出电平可与TTL电平或CMOS电平兼容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWbDicm0zl3Yvwm4wxo39FiapxcRdyPGbyDDcLjfQhkVNeXVqMqz8OeOWw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_019_dacf3876b4a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWrjJqLeVHCiaiaOZmVfm0bSrOew697t31mOYLADe5GtOGKSktclGRxjEQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_020_d53175b9d724.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfksCia0TD6bv0qxhPsNy9jFWu7ehLnLvVtuNd6fibAQbPnOrVOe25Yks4r1fnxbz9TtJVkFjxO8622w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_021_5b123a1e28c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_022_e119ccb9e5f3.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\锁相环_PLL_的组成和应用_images\img_023_4700b023e565.jpg)
 
 ## 
 

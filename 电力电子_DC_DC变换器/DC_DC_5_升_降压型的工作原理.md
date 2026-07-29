@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/F1gr0-Jq2pPxZZEbeDiTXg](https://mp.weixin.qq.com/s/F1gr0-Jq2pPxZZEbeDiTXg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMKrzNDu6L9PdIVhVsXsa78nCm3fpb3Kyed1icuwIqRv9zP7Fgicibju3Og/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_000_08923447e6cf.png)
 
 _**_★★★_**__**_DC-DC-5---升-降型的工作原理_**__**_★★★_**_
 
@@ -13,9 +13,9 @@ _€1.双开关型升-降压_
 
 升-降压型一般有两种拓扑：双开关型（_**图5-1**_）和四开关型（_**图5-2**_），从双开关型拓扑结构可以看到，其和反相型DC-DC结构一样。这主要涉及到理解方式：当不关注反相这个属性时（负电压），取Vout绝对值：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMflE5xTXujDRyicqAEIeSc84JD5GIqMWYcbPlpGjTK89oEpLiatJEOVuA/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_001_9d0f4684325c.png)
 
-当D=0.5时，Vout=Vin；当D＜0.5时，Vout＜Vin；当D＞0.5时，Vout＞Vin，这样既可以实现升压也可以实现降压。在这种拓扑中，输入电流和输出电流都已被执行“斩波”，也就是说这些电流之间是不连续的，而且转换时间非常短（电容补充电流）。相关波形回看[DC-DC-4：反相型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485742&idx=1&sn=94ea64a8f55f4f6be224618f6aa21fd1&chksm=c33543b1f442caa71eafb088db723d80d463759cfb0ce5e9ec61a9704bd0eab4bce49c1d39f4&scene=21#wechat_redirect)，相比普通升压转换器，生成的输出电压中所含的电压尖峰可能会更多。对于这些问题，可以通过适当大小的输出电容器或后置稳压滤波器来解决。![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMia7lwibYbc727LOqOhPSwDE743G8zkQiaDjWDP3ncwwBqOphW85wr7X4A/640?wx_fmt=png)
+当D=0.5时，Vout=Vin；当D＜0.5时，Vout＜Vin；当D＞0.5时，Vout＞Vin，这样既可以实现升压也可以实现降压。在这种拓扑中，输入电流和输出电流都已被执行“斩波”，也就是说这些电流之间是不连续的，而且转换时间非常短（电容补充电流）。相关波形回看[DC-DC-4：反相型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485742&idx=1&sn=94ea64a8f55f4f6be224618f6aa21fd1&chksm=c33543b1f442caa71eafb088db723d80d463759cfb0ce5e9ec61a9704bd0eab4bce49c1d39f4&scene=21#wechat_redirect)，相比普通升压转换器，生成的输出电压中所含的电压尖峰可能会更多。对于这些问题，可以通过适当大小的输出电容器或后置稳压滤波器来解决。![](DC_DC_5_升_降压型的工作原理_images/img_002_1770122b8d6d.png)
 
 **_图5-1：双开关型升-降压拓扑_**
 
@@ -27,7 +27,7 @@ _€2.四开关型升-降压_
 
 四开关型就是纯粹升压和降压型的缝合体，当S2保持关闭不导通时，就变为降压拓扑（[DC-DC-2：降压型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485606&idx=1&sn=f725f35be77cc8999ac79e37bbe24b3f&chksm=c3354239f442cb2f0333a6b7caf7036d62f1b8091d16ed9b87161a61263f7a7fa0306f86cad0&scene=21#wechat_redirect)），此时S1为上管；当S1保持打开导通时，就变为升压拓扑（[DC-DC-3：升压型的工作原理](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485610&idx=1&sn=1b5c384bbbc1191f9d32d5320e72a5a9&chksm=c3354235f442cb236b741c581cf7ad613115cfd919af3760d1d01a13520c07d8590dc57223f7&scene=21#wechat_redirect)），此时S2变为下管。（肖特基二极管做续流元件已经属于比较落后的技术，后面的模型以及讲解均以MOS来作续流元件，即同步模式）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMarqN6FtSkeib2bX0UU8Bib2RmfYzjsWAzLl1LAxibyfM5DMGcEzUKT5ZQ/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_003_a85a50d9ed4c.png)
 
 **_图5-2：四开关型升-降压拓扑_**
 
@@ -37,13 +37,13 @@ _€2.四开关型升-降压_
 
 降压-升压拓扑结构在输入和输出端都有脉冲电流，因为任一方向都没有LC滤波器。对于降压-升压转换器，可以分别使用降压和升压功率级计算。具有两个开关的降压-升压转换器适用于50W至100W之间的功率范围（双开关型），同步整流功率可达400W（四开关型）。建议使用与未组合降压和升压功率级相同的电流限制的同步整流器。另外需要为升压级设计降压-升压转换器的补偿网络，因为RHPZ（右半平面零点问题）会限制稳压器带宽。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMl5qtsROvUlR4MFaEiaer7ic9tzoAtwoztsAHJefNjbcianIe8xQTtenzw/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_004_448990eaa4f0.png)
 
 **_图5-3：切换成降压模式工作图_**
 
 _**图5-3**_为切换成降压模式的工作状态，在降压工作期间，S3保持打开，S4保持关闭。S1和S2交替工作。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMxtdeVIcAmdjwx7rraRpquzqMwh0OpcsBEBYnS87vYvhQNnpzblpVRQ/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_005_493a9b1b2267.png)
 
 **_图5-4：切换成升压模式工作图_**
 
@@ -53,49 +53,49 @@ _€3.不同状态下的工作波形_
 
 以下Vout为输出电压，SW1和SW2是电感两端的节点（SW1为**_图5-4_**S1和S2的连结点，SW2为S3和S4的连结点），IL为流经电感的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMPxRxv8pwSgO7tR84bWeWFeicEkcdG8vIpDqUY3Pgfw9FGA1sNenYuGw/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_006_022451a63405.png)
 
 **_图5-5：VIN=12V，Vout=5V，Iout=5A，工作在FPWM模式_**
 
 _**图5-5**_展示了在降压重载模式下，器件以FPWM（快速PWM）输出电压调节模式工作。SW2驱动信号拉平，表明器件进入降压拓扑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMVOl7GVLfApPYpuL8Bks2yN9u3FkVvsTc8UKq5RBqPbCgZCqI3d9XLg/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_007_6ea7f36e408f.png)
 
 **_图5-6：VIN=12V，Vout=5V，Iout=0A，工作在PFM模式_**
 
 **_图5-6_**展示了在降压轻载模式下，器件切换到PFM输出电压调节模式工作，可以看到降压和升压级同时有效，Vout波形更宽，噪声变大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMibPS5qTGVzh9wf9FcdXQsqibXI6Cu1fzDAv3yZNcFUObFicR8dfCN4rXg/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_008_8a5d1ec437a1.png)
 
 **_图5-7：VIN=12V，Vout=12V，Iout=3A，工作在FPWM模式_**
 
 _**图5-7**_展示了在等压重载模式下，器件以FPWM（快速PWM）输出电压调节模式工作。其中SW1和SW2交替工作，即交替地以一周期降压和一周期升压模式操作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkM5BPhnSs65JvqX251Via9cS42nLc1rhojnCeJAH051aGzGa7HD3XtKOA/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_009_f81e00574580.png)
 
 **_图5-8：VIN=12V，Vout=12V，Iout=0A，工作在PFM模式_**
 
 **_图5-8_**展示了在等压轻载模式下，器件以PFM输出电压调节模式工作。其中降压和升压级同时有效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMHnaPNoG9WREP7bNBZQvFEsoaiaxV8w4tU9nS7IRTmsSNzD64125ccDA/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_010_2ad7cc48b3cd.png)
 
 **_图5-9：VIN=12V，Vout=20V，Iout=2A，工作在FPWM模式_**
 
 **_图5-9_**展示了在升压重载模式下，器件以FPWM（快速PWM）输出电压调节模式工作。其中S1驱动信号拉平，表明器件进入升压拓扑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMp2sg6DicGyd0CtGNLhNzjL5ZEuNbSY0W7zxZfBicZMW8U65djhCb7RJg/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_011_79a91d453d92.png)
 
 **_图5-10：VIN=12V，Vout=20V，Iout=0A，工作在PFM模式_**
 
 **_图5-10_**展示了在升压轻载模式下，器件以PFM输出电压调节模式工作。其中降压和升压级同时有效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkME3iba6xAV4hlk41aBGyoqWf8iaAwp4LR1DibdQkocTxZsEibXtbQW432icg/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_012_ca08cdab859c.png)
 
 **_图5-11：VIN=9V~20V（波动间隔200us），Vout=12V，Iout=3A的线路瞬态波形，FPWM_**
 
 **_图5-11_**展示了VIN在输入高低切换之间，模式转变，电流回路的急剧变化，造成了输出振铃和跌落（正常现象但需要满足标准）。另外Vout和IL的前后波形宽度对比，也说明了升压与降压之间的特点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRtj0AYfnjU5aPFD3pm5EkMsvWmFY3dXeOpq6D2NukicfaBdopy6x12Mvk88ZGo46L3kG33p3BwibAw/640?wx_fmt=png)
+![](DC_DC_5_升_降压型的工作原理_images/img_013_f311d107b008.png)
 
 **_图5-12：VIN=12V，Vout=5V，Iout=2.5A~5A（波动间隔20us）的负载瞬态波形，FPWM_**
 

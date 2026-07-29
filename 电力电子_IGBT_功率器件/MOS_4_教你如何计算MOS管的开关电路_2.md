@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/N5agHSwlUjMndqYFmhlFww](https://mp.weixin.qq.com/s/N5agHSwlUjMndqYFmhlFww)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJr1ewP9Q5D9PSuFnA0MiamnIaQA6aeQTpDRoPGiaiaujltKjS7ibszJDM5grEGWnM1WzjY1FB5MRWjQ/640?wx_fmt=png)
+![](MOS_4_教你如何计算MOS管的开关电路_2_images/img_000_1f3ff46ca813.png)
 
 ____**★★★**___MOS-4---MOS管的开关电路___**★★★**____
 
@@ -13,7 +13,7 @@ __€1.开路漏极型开关__
 
 如下**_图4-1_**是NMOS和PMOS的开路漏极型开关，所谓开路漏极型，即负载Rload直接串联在MOS的漏极一侧。NMOS型Rload直接跨接在漏极和电源之间，PMOS型Rload直接跨接在漏极和GND之间，二者都位于MOS的主电流回路上。其中Rg是栅极限流电阻，RP是偏置电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTMIgvDB0kBPVFe0Fhicgbpf6jRJIqhRxvicPrwvBRbPKwsUM9LhON75Z9T6FyyMEq8QbWYC1fgFltg/640?wx_fmt=png)
+![](MOS_4_教你如何计算MOS管的开关电路_2_images/img_001_e3817f0a1cec.png)
 
 **_图4-1：NMOS和PMOS开路漏极型开关_**
 
@@ -41,11 +41,11 @@ _设计背景：_Vin=12V，最大持续输入电流=2A，驱动阈值电平0/3.3
 
 _设计分析：_由于2A的电流其实并不大，这里可以选择使用小信号MOS类别，根据上述参数，选择Nexperia的PMV28UNEA--NMOS，**_图4-2_**列出了其静态电气参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXhUYsfxzRGCnsExVic12463bffFIvKfeom4G2dLVxmeU0LCQibZdV5wOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\MOS_4_教你如何计算MOS管的开关电路_2_images\img_000_4003a180d267.png)
 
 **_图4-2：PMV28UNEA的静态参数_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXszHRMOAMCwbXKzBCsFaGHTmdEQOK5AzlpkYzibEfNrLcMgiciawQU82Cg/640?wx_fmt=png)
+![](MOS_4_教你如何计算MOS管的开关电路_2_images/img_003_50889d2f55ea.png)
 
 **_图4-3：12V-2A，3.3V驱动的NMOS低边负载开关设计_**
 

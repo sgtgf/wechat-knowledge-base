@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eSTNcxMia1Tiayib3S8O3ZlUyeZAMB7LiaMpfs7PImagvzXPOEvtnWd59qibp4eI8rtOyJUaVAM5Yrg0esfMZlyEkmw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电源中前馈电容的选择_images/img_002_b028531da928.jpg)
 
   
 
@@ -30,7 +30,7 @@
 
 常见的可调电源电路如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FZXicdWUMD3K7mdcIx3bJp0zGxcodx7LKo1iaLuHCBEdH1RtNnO3sNiaIQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电源中前馈电容的选择_images/img_003_e8cee45d0b97.png)
 
 可调电源电路
 
@@ -38,21 +38,21 @@ A(s)为电源系统的开环增益，为方便讨论我们假定A(s)里已经包
 
 上述电路在不使用前馈电容CF时的输出电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FAQguG1xAnFVXPBkpBaIHTl5ibjeCMToeuKJC9LtQ9tAzBH09lSSez9g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC电源中前馈电容的选择_images/img_004_1d92b2362185.png)
 
 其中，β为反馈系数。其环路增益为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FVkIqicB8Bj9JlUEb7mIvACb8mu0aLIibicITnWRufZqwSISyZEkqlkmlw/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_005_22754e59c80f.png)
 
 可见，通过调节分压电阻虽然可以改变输出电压OUT，但同时也使得G(s)的带宽变窄。
 
 合理地使用前馈电容可以提升电源的带宽及响应速度，此时环路增益为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FV50DicvuDogCK4UxtCDqFjd1R7799CAIRjlBXhOiaeItSD74rHEoY13A/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_006_dda7a6b8aab0.png)
 
 由此可得，CF并不改变DC输出，而是为系统引入了一对低频零点fz和高频极点fp。零点会使相位裕量增加，极点则恶化相位裕量，使零点与极点尽量远离才能获得更多的相位裕量。但CF引入的零极点对的距离在对数坐标里是固定的，因为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbDeB7Yuic9z0eaLmoB6QIZWkEN6bIWbXNtYYuib1BXia3nIa9OZ8ujA4p1lIB3GiatdZpMF7TnXyld2A/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_007_81eae2b27ed4.png)
 
 据此可确定，前馈电容在R1/R2越大时作用越明显，在R1\=0时不产生作用。而在R1/R2确定的场合，需要合理地选择前馈电容CF。
 
@@ -68,11 +68,11 @@ A(s)为电源系统的开环增益，为方便讨论我们假定A(s)里已经包
 
 2\. 选择的前馈电容引入的零点和极点，使其满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FZSwbP1UgfWbMQqnRErWic69vJ7w0DpZJ16EgXmxK65gJCbUyNViaA9GA/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_008_ea76f4676d50.png)
 
 化简为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FblFLPJ0yNy8ElSVbicLher5G5jN2GMdtfWjCLicdzZHOPa8eBqycWRPA/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_009_01495146d746.png)
 
   
 
@@ -80,13 +80,13 @@ A(s)为电源系统的开环增益，为方便讨论我们假定A(s)里已经包
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbDeB7Yuic9z0eaLmoB6QIZWF6PgMZHUffu3E4T5r5dQlIZjrn6kicwSthQw98bLOEXlTRtN6he1r0Q/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_010_74440000c8fe.png)
 
 在某种运用下将SY8513配置成5V输出，使用电阻R1=105kΩ，R2\=20kΩ，此时β=0.16。
 
 使用环路分析仪，在没有前馈电容的情况下测得系统的环路增益曲线，如下所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FGXGiauMZZibXB94TEzQ2zOERD9jFic1Mg6bsozNPnRSH47xGYBOxPdh5A/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_011_466858c2fb55.png)
 
 SY8513没有前馈电容时的环路曲线
 
@@ -96,19 +96,19 @@ SY8513没有前馈电容时的环路曲线
 
 在没有前馈电容的配置状态，进行负载瞬变响应测试，当负载从1A跳变至3A时，输出电压最大存在340mV偏移。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FBkCJaXTXyIqZUXhbhKibaEY1ib3ibBqVvjrIWQFAff2HLL1ugE9SeerEA/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_012_06f5efb4774b.png)
 
 SY8513没有前馈电容时的负载瞬变响应
 
 而使用110pF前馈电容后的环路增益曲线如下所示，可以看到穿越频率变为了72.4 kHz，带宽扩大了一倍。同时，相位裕量也增加到了50º。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1F91icqw1OZXBmdk4icqrGsEiaP3BbXoibCMzbFtPiaYrzBYknAk21yWc7yow/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_013_8a4899cd1b75.png)
 
 SY8513使用110pF前馈电容时的环路曲线
 
 进行相同的负载瞬变响应测试，在增加前馈电容后，输出电压的最大偏移量从340mV降低为200mV，发生了明显改善。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NzaDcHCg7tbIdQuqgxaTHVhIz4qG3J1FvVNDmWs8ZOuhq2zHuGgHZX206EVeAXsrcegFujtO4Im1bM9V8lhELQ/640?wx_fmt=png)
+![](DC_DC电源中前馈电容的选择_images/img_014_b38cb5cb3fb5.png)
 
 SY8513有无前馈电容时的负载瞬变响应对比
 

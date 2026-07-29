@@ -26,7 +26,7 @@
 
 假设为 3GHz，当第一个脉冲到达导体的另一端时，时钟信号源已经生成第三个脉冲，如果是 3GHz，30cm 导体，意味着****单个 30cm 导体在其长度内包含3 个脉冲、3 个高状态和低状态。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/iayzTbicUDics6GlRbKvCasNKN5zpTxNKttia640e30hSwcwgGpUJ1fL3hksVrpAUx2oMRSTUjms2ic3k739kibGQd3w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_002_c06b8283e50b.gif)
 
 信号传输不是瞬时
 
@@ -44,13 +44,13 @@ PCB上的每个轨道也可以被视为一个小型无线电天线，能够生�
 
 这里想象一下，我们的导体就像充满水的运河/通道。波在通道的一端产生，并沿着通道（以接近光速）传播到另一端。通道本来有100cm宽，但在某个时刻突然变窄到只有1cm宽，当我们的波到达突然变窄的部分（本质上是一堵有小缝隙的墙壁），大部分波会被反弹回来狭窄的部分（墙壁）并向后朝向发射器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/iayzTbicUDics6GlRbKvCasNKN5zpTxNKttXYLx2lflXYROQmoiaaBbvYqxM5EHLtUX9MmQxMYjj0aFib2JVsR1OSuA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_003_939097b49da8.gif)
 
 由于宽度变化而产生的波反射
 
 如果运河/通道内有多个狭窄部分，就会有多次反射反弹，干扰信号，信号的大部分能量也不会到达接收器（至少不会在正确的时间）因此，重要的是通道的宽度/高度沿其长度尽可能保持恒定，避免反射。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnmsibPQ3XbwPcknOficsXunM7KEAsGkSyzXmYcIEN6KsNuSKx9oFRbib8hDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_004_939ff87a5e46.png)
 
 宽度的多次变化会降低信号质量
 
@@ -72,13 +72,13 @@ PCB上的每个轨道也可以被视为一个小型无线电天线，能够生�
 
 现在已经知道电信号不会瞬时传播，那我们就可以理解，如果多个信号在不同长度的轨道上传播，那么将在不同时间到达接收器。（即使它们是在完全相同的时间传输的）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnms1w8ESh5mtZU9r4mlhXbfBkT6xL7xtBjyKupOBDwaGdxxlkib4aVgJfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_005_837f50d33d68.png)
 
 不均匀的轨道长度可能会导致接收器发出不正确的信号
 
 考虑具有条时钟线（C）和2条数据线（A和B）的通信方案。如果数据线B的长度比数据线A的长度长的多，则B线上时钟脉冲#1的信号可能与B线上时钟脉冲#2的信号同时到达接收器，一条线路到达接收器，一条线路到达那里，完全扭曲和破坏了通讯。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnmse6wrkiadehxogu4dFRrmjrDWc6Y5Jqf7bTHzYUgs3fjUbK5Nvhm46RQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_006_d8b20bc5d440.png)
 
 轨道 A 和 B 的长度不同
 
@@ -88,7 +88,7 @@ PCB上的每个轨道也可以被视为一个小型无线电天线，能够生�
 
 **因此多线通信信号中的轨道长度相同非常重要，也就是轨道长度匹配或者网络调谐。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnmsHHicm5PlHOKeGv24JbdicwG4EqRcWiaUtBiareCdMA2gXxc2N3aNoyspYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_007_a59048a0884b.png)
 
 这里特意增加了轨道A的长度，以便从源到接收器的距离与轨道B相同
 
@@ -102,15 +102,15 @@ PCB上的每个轨道也可以被视为一个小型无线电天线，能够生�
 
 ****除了轨道长度匹配之外，同相要求意味着如果差分对绕过一个弯曲（导致外轨道比内轨道采用更长的路径），那么内轨道必须人为低添加一点额外的长度****，尽快回到其轨道，以便尽快使平行对的起点/终点的总距离再次均衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnmsxTTQHj0C0BeVKpia2iapu5LmGtRF3dXEXZ7wHrqZKlc1kzkXhkYX1QDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_008_859d9de6d76a.png)
 
 弯曲差分对的布线
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnmsp9LfCY7nuC3IBXIhh4Lb00vLfh3STyju0ThlyIRn5uGO39mZXDstJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_009_b86556a1da54.png)
 
 添加轨道以保持配对同相
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnmsC8BH1HjddTN9wYBUp2CN6UdmnbOsdOetjP87XEnHC4x90cnz3XCrxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_010_a24bc44b3d63.png)
 
 添加轨道以保持配对同相
 
@@ -118,7 +118,7 @@ PCB上的每个轨道也可以被视为一个小型无线电天线，能够生�
 
 保持轨道相同非常重要，如果轨道总的某一特定点受到电磁干扰，就会以相同的方式影响并行信号。如果信号异相，则信号一侧的峰值可能受到影响，而信号另一侧的波谷可能受到影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnmsIFJfAdd363g1bbOiadcUqPWNd1NeVu6ryjTFG5oh3siawZVo5vhyoPHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_011_c6946464a8b6.png)
 
 只要两条信号线同相，干扰就会同等影响它们
 
@@ -126,7 +126,7 @@ PCB上的每个轨道也可以被视为一个小型无线电天线，能够生�
 
 ****通孔屏蔽是一种“屏蔽”轨道免受产生和接收电磁干扰的技术。****“电源层”（也称为“接地层”或“覆铜层”）被放置在多个 PCB 层上围绕一个或多个轨道，然后使用过孔将这些电源层层缝合在一起，从而产生以下效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGNQsqe7ice68pYZYLcLnms0vpFp00icgYPZmjfLUXFQpiaiaHsByJO6oxXZfh8hzjAyF88v1mTktD4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_012_91ef42007176.png)
 
 通过屏蔽差分对轨道
 
@@ -138,9 +138,9 @@ PCB上的每个轨道也可以被视为一个小型无线电天线，能够生�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_013_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_014_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_015_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_016_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_017_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_018_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_019_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_020_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_021_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_022_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_023_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_024_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_025_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_026_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_027_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\高速_PCB_设计如何保证信号完整性__images\img_028_3c93e54afedf.gif)
 
 ## 
 

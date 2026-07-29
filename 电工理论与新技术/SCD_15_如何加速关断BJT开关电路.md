@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/D8nMoIxlaT8o8r\_\_UGBolA](https://mp.weixin.qq.com/s/D8nMoIxlaT8o8r__UGBolA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjoRKCEakWucsHr3J1YibF7f74tzFY7QZu8kictyvgcQaibZk9xicBBJhF81ma1ntbgtSBPpQSFg8oiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_15_如何加速关断BJT开关电路_images\img_000_ba72e043e031.png)
 
 ____**____**★★★**____**________________SCD-15---加速BJT开关________________**____**★★★**____**____
 
@@ -13,19 +13,19 @@ _____€1.延时的产生机理_____
 
 类似于**_图15-1_**，晶体管从截止状态切换到导通状态，输出out会立即响应，但晶体管处于导通状态时有基极电流流过，所以在基区内积累有电子，此时晶体管从导通切换到关闭状态，基区内的电子并不能立即消失（电荷储存），而且在基极限流电阻的作用下，也不会马上从基区取出全部电子，这就造成导通到关闭存在时间滞后。在开关调节器之类的负载高速开关的应用中，这种时间滞后是很不利的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRGEvbz7cZGJYzeTyQDRbQpxczkenSiajLJTMK26xOiaHwicJIgdLzVOibjA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_15_如何加速关断BJT开关电路_images\img_001_35e4732cb39f.png)
 
 **_图15-1：NPN的常见使用电路_**
 
 这里其实有两个时间需要注意，一个是延时，一个是缓时。如**_图15-2_**是输出Vout相对于输入Vin的响应延时，Vin从低到高，Vout会及时响应，速度快，但Vin从高到低，Vout会隔一段延时才能响应，**_图15-3_**则演示了输出Vout本身的上升时间差异，即缓时。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKd7KZdHibicQY2icbMlBPD4jLfLLgX0TXjXtPyfBx1v0aOD5K7ILgUhqTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_15_如何加速关断BJT开关电路_images\img_002_ca19014dc721.png)
 
 **_图15-2：输入输出之间的响应延时_**
 
 上升波形不陡峭的原因一般是由于R1与晶体管密勒效应构成低通滤波器的缘故，增大了晶体管输入电容，与电荷存储效应没有关系。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBfGtic5Zo6NPYw0hPXjlAxIwxraIichoUnwYkzpJ9NUt383vW2805xy9dundLp6cBqKw9ssibckcEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_15_如何加速关断BJT开关电路_images\img_003_9d07b2aadac4.png)
 
 **_图15-3：上升速度的差异_**
 
@@ -35,7 +35,7 @@ _#1.加速电容_
 
 如**_图15-4_**所示，R1并联一个小容量电容，当Q1从截止状态切换到导通状态，即输入信号从低电平切换到高电平时，电容可以使R1瞬间被旁路并提供基极电流。当Q1从导通状态切换到截止状态，即输入信号从高电平切换到低电平时，晶体管由导通到截止时能够迅速从基区取出电子，消除开关滞后。这个电容的作用就是提高开关速度，称之为加速电容。但是使用加速电容也会给输出波形带来下过冲，对一般的晶体管来说，加速电容的容量取值为几十pF到几百pF。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKuaWocLLYqWiayy8w8MTMXKUGAMgc5tpKvO0X9RibchELpCNEUb3eGCIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_15_如何加速关断BJT开关电路_images\img_004_e7b5a31f3186.png)
 
 **_图15-4：添加加速电容_**  
 
@@ -47,7 +47,7 @@ _肖特基钳位：_
 
 肖特基二极管的正向压降VF比晶体管的Vbe小，大约0.3V，所以本来应该流过晶体管的大部分基极电流I1现在都通过D1被旁路掉了。这时流过晶体管的基极电流非常小，所以可以认为这时晶体管的导通状态很接近截止状态。从导通状态变化到截止状态时的时间滞后非常小（基极电流小，所以电荷存储效应影响小）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBfGtic5Zo6NPYw0hPXjlAxvgdNTOEL2n6elRv1ntBa79bkKBiad9GJYtaibIAN60KGo03UqWaHdslw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_15_如何加速关断BJT开关电路_images\img_005_019bf2a79934.png)
 
 **_图15-5：肖特基钳位加速_**
 

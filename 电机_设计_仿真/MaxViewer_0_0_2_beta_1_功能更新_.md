@@ -67,8 +67,8 @@
 
 既然是一个软件工具，那必须安排图标！软件图标以黑色作为背景，显示彩色的 M，线条优雅，右下角镂空显示 X，刚劲有力。欢迎大家提出宝贵意见。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DS5vbm4wbnhngFCgiaZ6YN6V2EcHxKYHjPOD1HAafP7Q9FuLB4dKbDniaOpiap0QmC24XDsH61vkewZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\MaxViewer_0_0_2_beta_1_功能更新__images\img_000_fe3458a451a6.png)
 
-此外，我也对工具栏的命令图标进行了绘制，图标直观显示了功能，希望大家喜欢，也欢迎大家提出宝贵意见。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DS5vbm4wbnhngFCgiaZ6YN6Vm6ibtgMiaGnO4pqJJ46icNPWO30iceBTrTncIuu9aMsheYlO9exrFjWV8A/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DS5vbm4wbnhngFCgiaZ6YN6V58iaj1mJEgBt4NxcSHeAic2SmSlWLADT2BlOWRRgONdlzxCHflOH2wicw/640?wx_fmt=png&from=appmsg)更多功能敬请期待，希望大家多提宝贵意见！
+此外，我也对工具栏的命令图标进行了绘制，图标直观显示了功能，希望大家喜欢，也欢迎大家提出宝贵意见。![](D:\电脑文件\公众号知识库\电机_设计_仿真\MaxViewer_0_0_2_beta_1_功能更新__images\img_001_fae22af731e0.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\MaxViewer_0_0_2_beta_1_功能更新__images\img_002_f5d66a07847c.png)更多功能敬请期待，希望大家多提宝贵意见！
 
 作者|斗沙片刻

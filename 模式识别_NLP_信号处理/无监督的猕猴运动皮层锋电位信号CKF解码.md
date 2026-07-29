@@ -10,13 +10,13 @@
 
 神经编码和解码的原理可用到生物医学工程等领域，在有听力障碍的患者耳中植入人工耳蜗，将声音信号编码为可刺激听觉神经的数字信号，从而使患者具有感知声音的能力；用神经解码的方法让伤残人士通过大脑直接去控制设备的移动，比如鼠标或机械手臂等。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibP7SkzYe485iaiafwFBx2M8GRIF1tbVJpL3ZJIicctGu5LqgiaqUg1cSgpw/0?wx_fmt=jpeg)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_000_55e03733ab01.jpg)
 
 研究背景
 
 本文主要研究的是，通过猕猴运动皮层中神经元锋电位数去估计其手指移动的位置，这是一种典型的神经编码和解码问题。较早的编码和解码方法采用线性方法，即神经脉元冲数与运动状态的关系为正比。线性方法最大的优点是计算简单，但其估计的准确性较低。目前，较为流行是采用状态空间模型(SSM,State Space Model)方法来解决该问题。SSM模型已被广泛地运用到神经科学领域中，Czanner等建立了一个广义线性SSM模型，这种模型比传统模型更能准确描述神经元的活动特性；Smith等利用SSM模型，采用EM算法准确估计神经元锋电位激发率（fire rate）函数；Brown等通过SSM把老鼠海马区的神经锋电位序列(spike train)解码为位置信息；Shanechi等建立了一个SMM模型，并运用最优反馈控制模型来解码猴子运动的状态。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibYWTA8OicV0XedIRCbkbLtFUXPP3AmgTCMHxWyRBXria1O1LjeUZia2N2g/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_001_a2b826c92c49.png)
 
 图1 猕猴手指移动轨迹图
 
@@ -24,7 +24,7 @@ UCKD
 
 本文提出了一种猕猴运动皮层信号的无监督积分卡尔曼滤波解码方法(UCKD, Unsupervised Cabuture-Kalman-Filtering Decoding)。UCKD也基于SSM模型，对多个神经元锋电位数所构成的簇向量(population vector)\]进行解码。该解码方法采用神经网络来得到神经元锋电位数与手指移动位置的关系权值，同时采用逐次状态估计方法去估计手指移动的位置。为减少训练的复杂度和提高估计准确度，还采用一种非线性的积分卡尔曼滤波（CKF, Cubature Kalman Filtering）来完成神经网络的训练和手指位置的逐次状态估计。与传统方法相比，该方法的最大特点是无监督，它可以由记录的神经元锋电位簇向量直接估计手指移动的位置，而不需要先用有监督的训练数据来对手指移动位置进行神经编码。当有监督的数据缺失或者不完备时，只能依靠无监督神经解码。实验结果验证了，当采用较少的有监督数据，现存的有监督方法与本文方法相比有较大的估计误差。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibtnTCKGOQS8vT8tPhgvckqjS9uWaqiabz40wGEice8S2SiaBwaxPDZcr6Q/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_002_9c28bf16643b.png)
 
 引用格式
 
@@ -32,7 +32,7 @@ UCKD
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibDa5AbMxW9DFKSYLJdOKvBBBQYPWvCIwGrcT8icxoHbBIWuaib70gT7JQ/0?wx_fmt=jpeg)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_003_beefbd0ce1a2.jpg)
 
 薛明龙  云南民族大学电气信息工程学院硕士研究生. 主要研究方向为机器学
 
@@ -40,35 +40,35 @@ UCKD
 
 E-mail: xmlxy123@foxmail.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibib2HEJS80TQ6dg0mYJ4BCs4ZJibVITy53QxnbAMPOMaL7ibTB4Awic72grA/0?wx_fmt=jpeg)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_004_22880967829b.jpg)
 
 吴海锋 云南民族大学教授. 主要研究方向为射频识别(Radio frequency identification, RFID)技术，本文通信作者。
 
 E-mail: whf5469@gmail.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibic7nJgM3HIZ4cd3Pdib9kZE77TlABcVqKyLFdkCU0Ak4Oic2gOJsAwZBA/0?wx_fmt=jpeg)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_005_955e7fc253e1.jpg)
 
 曾玉云南民族大学讲师. 主要研究方向为RFID 技术.
 
 E-mail: yv.zeng@gmail.com
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibpml9X8BAXpuIvTI03lk3dwjMICp2uw4cE9E10NBM5XzonxAPcu8z1w/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_006_8479e14044f1.png)
 
 微信服务号：自动化学报
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibpml9X8BAXpuIvTI03lk3dwjMICp2uw4cE9E10NBM5XzonxAPcu8z1w/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_007_8479e14044f1.png)
 
 微信订阅号：aas1963
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibSqJB0lUM0uIGqyBTLNfAac89BVxZRuZ9cDBTQwAibAVMDCabZ4IGuHw/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_008_ed33026193fe.png)
 
 新浪微博：自动化学报
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibSqJB0lUM0uIGqyBTLNfAac89BVxZRuZ9cDBTQwAibAVMDCabZ4IGuHw/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_009_ed33026193fe.png)
 
 新浪博客：Automation\_2011
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibib0slFw72gHV86ltl3GOddMIv74yYzEx3Kn2SAwW8RkH7O19YaFUibYicQ/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_010_e97a10f3dd63.png)
 
 联系我们：
 
@@ -84,4 +84,4 @@ Email: aas@ia.ac.cn（日常咨询和稿件处理）
 
 http://www.aas.net.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44hpO2SRgXR6VhAfXbekPibibNLJ5Vz33icTxzmBWhFqnPHrSiaZmiczZX6ibYVrtmREEIwUy31ctxpmZ8Q/0?wx_fmt=png)
+![](无监督的猕猴运动皮层锋电位信号CKF解码_images/img_011_7ba3b115dc67.png)

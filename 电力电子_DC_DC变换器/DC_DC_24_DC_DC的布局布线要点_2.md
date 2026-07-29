@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/zMlvPCQZn5j86teIza4fNA](https://mp.weixin.qq.com/s/zMlvPCQZn5j86teIza4fNA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTyUibItyyWTFBnpewKzWo2vVJ9Ot5b2cuicZsZWBC9SmjDABfzCcoVYpIXpF8jjwz7MibVpQ17UNFlw/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_000_3f120214ad84.png)
 
 ____**★★★**______DC-DC-24---DC-DC的Layout要点______**★★★**____
 
@@ -15,31 +15,31 @@ ___€1.__电感的布局_
 
 电流耐受能力是决定布线宽度的考量之一，**_图24-1_**是流过一定电流时的导体宽度和自发热导致的温升图表。例如，当2A的电流流过镀层厚度35µm的布线时，为了使温升控制在20℃，可以使用宽度为0.53mm的布线。但是，由于布线会受到周围元器件发热及环境温度的影响，建议布线宽度要具备充足的余量。例如，建议1盎司（1OZ）（35µm）铜厚PCB板上每1A电流能力布线宽度选择1mm以上，2盎司（70µm）铜厚PCB板上每1A电流能力布线宽度选择0.7mm以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobw9LLwafxScq95oat9WibR5GjIiaMQtADYmQFlOcS182RfGJjZw8eMwlwA/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_001_f62bb7b87bc6.png)
 
 **_图24-1：镀层厚度、导线宽度、电流导致的温升_**
 
 从EMI的角度考虑推荐的布线面积的布局如**_图24-2_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwicyt6BkoVo1tIbNqmqkOCZ0gcdcEskJqrIbmgPY2bGQGjpzRCxlaq3A/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_002_ec07b77be1a1.png)
 
 **_图24-2：理想的电感布线_**
 
 **_图24-3_**是不正确的布线布局，使用了过宽的走线，可能会产生天线效应增加电磁干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwm6jKKBQibW1pYjJOMkia1zcgiaqvdlJiagugBCiaBL1hZbRx9WXNRDfYuNw/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_003_f84fb08ab9dc.png)
 
 **_图24-3：不好的电感布线铜箔面积过大_**
 
 不可以在电感的正下方走GND，由于GND层产生的涡电流，可能会有消除磁力线的效果而导致电感值降低或损耗增加（Q 值降低）。非GND的信号线也存在因涡电流而把开关噪声传递给信号的风险，因此应避免在电感正下方布线。不得不布信号线时，请使用漏磁较少的闭磁路电感，并实际测试后确认是否有问题。另外，布线时还需要注意电感引脚之间的距离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwnPZ5GvPU9VhH971OmQrv2ic7SNx4HJJg1gEq5RdD9icSN9ib52sAoMprA/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_004_648c24e302ff.png)
 
 **_图24-4：电感正下方不好的布线_**
 
 如**_图24-5_**所示，当布线导致引脚间的距离过近时，开关节点的高频信号会通过杂散电容传至输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwE0z1l9uHW6s5TDhRDTV3aZspkNCFx8w38I2Diab1Kp6hnX9fnviaYnjg/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_005_f583a684e8e1.png)
 
 **_图24-5：电感正下方不好的布线_**
 
@@ -63,23 +63,23 @@ _3#：_电阻分压电路的走线平行且接近输出电源布线的话，噪�
 
 _4#：_布线要远离电感和续流二极管的开关节点，注意不要在电感或续流二极管的正下方或平行方向布线，在多层板中也同样要注意。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwHrdoX1LYufDiasZVztOOSUMH0ic89XKVmj1WW7a5mricuM7sic6g7VGichQ/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_006_b17b29a23e1f.png)
 
 **_图24-6：反馈路径布线的注意事项_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwbQqjqdSVAX8Wht6RhF0m0ppeGiaM5o7lj1mPFYeboY5QuHBQxrFloUQ/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_007_23f4ace9466e.png)
 
 **_图24-7：其他反馈路径的布线_**
 
 **_图24-7_**所示的布线中，地线的寄生电阻会导致电压下降，会影响负载调整特性，如果电压波动满足设计指标，也可以采用这种布线方式；**_图24-8_**是反馈路径的走线经由过孔转移到底层，远离开关节点的布局示例：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwAqFZ6C6gcIB99Xwhz2rJ4mEDGtphyHvn8wocAGCTmCyFoopvsBaRJA/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_008_ba29c005a77d.png)
 
 **_图24-8：反馈路径的布局示例经由底层走线_**
 
 **_图24-9_**中，反馈路径在电感旁边和电感平行走线，电感周边产生的磁场会在反馈路径上引入噪声。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobwn70YawpXJzL70yEwE9A1870XTkvwarageVXgxoiacT5kicXLjxqK7ONg/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_009_2b9d790d3be4.png)
 
 **_图24-9：错误的反馈路径布局在电感旁走线_**
 
@@ -87,7 +87,7 @@ ___€4.__接地_
 
 如**_图29-10_**所示，模拟小信号地和功率地必须分开，原则上PGND和AGND在顶层挨在一起放置：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBfGtic5Zo6NPYw0hPXjlAxcsqFHhZicXOgekAuAYuPoGHLU7LgGAjZibkhUQQKmvFJmOhoaITrXUMQ/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_010_54875dd80708.png)
 
 **_图29-10：PGND和AGND推荐布置_**  
 
@@ -95,13 +95,13 @@ ___€4.__接地_
 
 在多层电路板的内层或底层设置接地层时，需要注意与高频开关噪声较多的输入端功率地以及和续流二极管地的连接。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSBfGtic5Zo6NPYw0hPXjlAxxsJzLFtKQz78LoBhDacZcKVEuKIjKX41HBIpho2VwCq7AhTl69tHrg/640?wx_fmt=jpeg)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_011_16c2164f4fb7.jpg)
 
 **_图24-11：功率地的布局_**
 
 对于多层线路板的GND处理，如**_图24-12_**所示，在第2层布了用来减少DC损耗的PGND层时，为了减少PGND上的寄生电感，要使用较多的过孔连接顶层的PGND和第2层的PGND。此外，在第3层有公共地、第4层有SGND的情况下，PGND和第3、4层地的连接可以放在高频开关噪声较少的输出电容附近，一定要避免连接有噪声较多的输入端和续流二极管附近的PGND。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSm7ogTicDsrF9hfoUTNlobw5dPFtXcYEFHxxE6LWMwmZsW7AJTyTgV4gxiad4JN7Aa3nJgLUWnGfeQ/640?wx_fmt=png)
+![](DC_DC_24_DC_DC的布局布线要点_2_images/img_012_2e41bb4a7b84.png)
 
 **_图24-12：多层线路板的功率地连接方式_**
 

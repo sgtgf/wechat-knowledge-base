@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/kAiXkR2LK25A7juemQr2qQ](https://mp.weixin.qq.com/s/kAiXkR2LK25A7juemQr2qQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTv0XP9WQ8Qh7jttyeSFHCWlibuo0B79y6ia1IiciaoKUJGSJnOWwgB53ylSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_000_eb171704dad6.png)
 
 ____**★★★**______EMC-1---信号的频谱______**★★★**____
 
@@ -13,21 +13,21 @@ ___€1.频谱的含义___
 
 频谱是将电磁波分解为正弦波分量，并按波长顺序排列的波谱，就是将具有复杂组成的东西分解（频谱分析仪）为单纯成分，并把这些成分按其特征量的大小依序排列（部分不计），横轴作为频率，纵轴作为功率或电压。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uE59Eia55dY0Nwia9LXFAUs5dEwiaYZjlgia2QrCxkBibXVt9CY8988o4N4A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_001_7f5b791df62f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5ufwGmICFet0GHo92uLRhT7OOiacicVa96cueJNTuPRS6JsjUBLcoIORJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_002_e0777877f45a.png)
 
 **_图1-1：频谱的定义_**
 
 从**_图1-1_**可以看到，数字波形是由多种频率叠加而形成的，示波器和频谱仪分别从两个视角获得一个数字波形的不同信息，示波器获得bit信息，频谱仪获得频谱信息或者能量信息。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjPqRia5EibwBVP6hrAn5DFowysMcOXm6qsYmzY9UyX7C3RlIQywT5TF7w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_003_aa0e990ae6d8.png)
 
 **_图1-2：示波器角度的数字波形_**
 
 在**_图1-2_**表示开关信号的脉冲波形中，包括tw（脉冲宽度）和ts（上升/下降时间）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjkXeJpwNZWGQ4vWqLibX7hh5g0WzG44Fiafuick169jjwmyClpfIdbUtHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_004_8e981dd51009.png)
 
 **_图1-3：连续化的频谱图_**
 
@@ -43,29 +43,29 @@ ___€2.影响频谱的因素___
 
 最下面的图是振幅为dBµV的对数曲线图，dBμV是基于以1µV电压为基准的电压比的dB 值（1µV＝0dBµV）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZf1OXJ7eEX0C7kjWRsdYHHp7Y6SRpRz5ITCLLjgqm0ibchNDgsBZBKEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_005_f6e45ebd1831.png)
 
 **_图1-4：初始波形_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZ8WOiawSelKlibiba2lwoEt1fh1TbNQvdCEVuo8YkYJUd07qof6yTFEknA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_006_1dae86ab6647.png)
 
 **_图1-5：将频率提高到2MHz_**
 
 **_图1-5_**是将频率提高到2MHz时的频谱，从频率--振幅（dBµV）关系图可以明确看出，当基波频率增高时，整个频谱会向右（频率高的一侧）偏移。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZLH4L3PsfxIcAwd5wl0wSLRs3EsJvd56RJTZZvnvbykOZrwKCmewZQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_007_fdb1e4664043.png)
 
 **_图1-6：tr和tf的速度都减慢为100ns_**
 
 **_图1-6_**是tr和tf的速度都减慢为100ns时的频谱，由于进入-40dB/dec衰减时的频率降低，因此高次谐波的频谱振幅衰减。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZEpEnj4gnIJIdy8dPMYjoBp52XJFg0cvyuxicoibdxVRqQcKnRf5hTzDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_008_6cd26c5705c6.png)
 
 **_图1-7：将Duty从50%变为20%_**
 
 **_图1-7_**是将Duty从50%变为20%时的频谱，由于Duty不是1：1，因此会产生偶次谐波，但峰值基本上没变化，随着脉冲宽度tw变窄，基波频谱的振幅衰减。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZrGf5BtXbqrEGgKwkiaN6qt6q3UfCvDDC0XZhGcgNfgy9v9D3FRfianHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_009_98039832fd76.png)
 
 **_图1-8：仅将tr（上升时间）减慢_**
 
@@ -93,29 +93,29 @@ EMS（Electromagnetic Susceptibility），电磁干扰敏感度或电磁敏感�
 
 测试领域里面EMI分为两种，传导噪声（Conducted Emission）和辐射噪声（Radiated Emission）。传导噪声是指经由线体或PCB板布线传导的噪声，辐射噪声是指排放（辐射）到环境中的噪声。对于这些噪声，EMS中分别都有耐受性要求，称为传导抵抗力（Conducted immunity）和辐射抵抗力（Radiated immunity）它们的关系如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSYG45QxbSkr4YV1VqCvbKEQBJj5lOypLwvtYolRYz3Qww7HMVWx1DOZc5zQ7ZiadRiapUyIQF2r6icg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_010_4015b9eea0ea.png)
 
 **_图1-9：EMC分支_**
 
 ___€4.辐射机理___
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uOiaXyTTW9OpdXorenuiasqjSTdm4UryUI84fqLBngzJLlFLJs4dUtWJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_011_231a8a88eaec.png)
 
 **_图1-10：交直流对比_**  
 
 处在直流状态的电信号，f=1/T，T足够长，可以理解其基频信号频率为0，那么它的各种奇次偶次谐波也是0，即没有高频信号，只会产生磁通。而处在交流状态的电信号，会产生不断变化的磁场，不断变化的磁场又会产生不断变化的电场，循环这一过程，引入位移电流的概念，就是辐射的核心机理。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uzPwSbRGyDtsdkOomH0kiaP64wpmH7MU0ticWGGs1ajjb2Biba6zfv9ficg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_012_f301beba1ccd.png)
 
 **_图1-11：数字波形高频含量辐射_**
 
 从板级的角度考虑，频率越高的噪声，波长越短，所需的辐射天线越小，就越容易辐射到空气中，这也是高速信号需要屏蔽的根据之一。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5ucBkw5XXNIa5Sl0XQHb1HGDaaMAibOZKAAegrl6jzibkIDYVThZUa5tYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_013_2bf2a831b892.png)
 
 **_图1-12：位移电流概念_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uYkXQvPBe38qDAsBhJcsZEgnqyDNrKs5ibGL7koFOiaKjh0zD5aAq4BmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_1_噪声的本质和信号的频谱_images\img_014_7e359da74ac2.png)
 
 **_图1-13：探测辐射的过程_**
 

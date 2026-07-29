@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/phbBLgd4jlLc\_zDFpVrJxA](https://mp.weixin.qq.com/s/phbBLgd4jlLc_zDFpVrJxA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfWBvrQPFb5icNdAH7rrgC9TwhlU3BSaUwO0dv9dwqAmzO5EGLRLKqM5uEAeYueJiaJianHibX7wEwAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_13_RTD的连接方式和使用注意_images\img_000_60cbca5d0d8b.png)
 
 _**_★★★_**_Resistor-13---RTD的连接方式_**_★★★_**_
 
@@ -23,13 +23,13 @@ DIN C 类：±(1.2 + 0.005 |T|°C)
 
 在确定RTD元件类型时，首先要考虑用于读取传感器的仪器。选择与仪器的传感器输入兼容的元件类型。到目前为止，最常用的RTD是100Ω铂，温度系数为0.00385。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJkrSC5CDccjUlReiaFwpYKBB429WVMwf2Hy8ktOx79DOJ7R8OAMTWkFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_13_RTD的连接方式和使用注意_images\img_001_4a1df877a0ef.png)
 
 **_表13-1：RTD的材质和其对应基极电阻/TCR_**
 
 其次，确定所需测量精确度，如**_表13-1_**所示。精确度是基极电阻公差（校准温度下的电阻公差）和电阻公差温度系数（特征斜率公差）的组合。如**_图13-1_**所示，任何高于或低于此温度的温度都将具有更宽的公差带或更低的精确度，最常用的校准温度为0°C。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4Pdk9SmDKZNx7Pd8ibIX2slN377oialWApib0QCZoaVcW4h363kuiaFstkIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_13_RTD的连接方式和使用注意_images\img_002_2b308d5e370b.png)
 
 **_图13-1：铂金属RTD标准精度偏移曲线_**
 
@@ -37,7 +37,7 @@ DIN C 类：±(1.2 + 0.005 |T|°C)
 
 RTD传感器有多种不同的引线配置可供选择，最常用的配置是单元件三引线式配置。可用引线配置的连接如下**_图13-2_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4PGrJjSu1vcMvf9yUqaM0u5tDLohGr1l1a1fs22bGZocvF8iaj3Giaqicjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_13_RTD的连接方式和使用注意_images\img_003_30aceec5c07b.png)
 
 **_图13-2：RTD的几种引线配置方式_**
 
@@ -55,7 +55,7 @@ RTD传感器有多种不同的引线配置可供选择，最常用的配置是�
 
 电阻与传感元件串联在一起，因此读数是传感元件和引线电阻的总和。当传感元件的电阻较高而引线的电阻较低时，可以使用双引线RTD。但在引线的电阻相对较高时，必须对其进行补偿。可通过三引线配置实现补偿。如三引线**_图13-3_**所示，电源的一侧通过L3连接到RTD的一侧。这使L1和L2处于电桥的对侧，因此它们相互抵消，对电桥输出电压没有影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4PX6E7qibFZb5I3KZAOLYor9ibInK21od6gdZGecGkAzMxAYqFqDak7ZqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_13_RTD的连接方式和使用注意_images\img_004_527546ba5b4d.png)
 
 **_图13-3：电桥用RTD，三引线消除误差原理示例_**
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/cRw-N3FoByi54AhixFt8kA](https://mp.weixin.qq.com/s/cRw-N3FoByi54AhixFt8kA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMeOHGsy5NvicPIKz907OaMNGds0diaIiaAvQenAgM4wicFKTLiap0h264ickw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_000_1970d0598045.png)
 
 ____**★★★**______PA-18---Gain PA______**★★★**____
 
@@ -15,7 +15,7 @@ ___€1.增益模块___
 
 如图18-1所示，增益模块在内部具备输入输出阻抗匹配部分，阻抗匹配至50Ω，可提供各种增益和线性度水平，从而为系统设计提供多种选择。凭借高达约22dBm的输出功率（5dBm至约1W），射频增益模块涵盖了广泛的带宽和增益水平。增益模块作为一个完全级联的通用放大器，随附的有源偏置电路确保了放大器的性能，在整个工作温度和电压范围内都进行了优化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR5IHsQtTkkkDEGcpgEH59MquZ0Zs0jTlPsOsFtIvIubCvrpFxjuibTXWekbkSibiaw9QbqicOBXEmCFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_001_711ddaaa5ffd.png)
 
 图18-1：增益模块框图
 
@@ -23,7 +23,7 @@ ___€1.增益模块___
 
 许多应用都希望通过集成来减少电路板空间，射频可变增益放大器（VGA）具有基于振幅调制和电平压缩的控制逻辑的可调增益，VGA通过集成各种放大器拓扑和数字步进衰减器（DSA）来达到这一目的。射频VGA无需外部匹配即可在宽带宽范围内提供高动态范围，而不会影响线性度，从而能够实时调整信号振幅。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR5IHsQtTkkkDEGcpgEH59MKnkaMluKiaibTic66libFEpqwIEacqvHXRmaTbdB1XEKwVtjEqw94ww6nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_002_011f7f7f0d8d.png)
 
 图18-2：VGA内部框图
 
@@ -31,13 +31,13 @@ ___€1.增益模块___
 
 VGA常用的环节如图18-3所示，直接作为基带输入/输出信号的一级放大（LMH6401）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR5IHsQtTkkkDEGcpgEH59M3m9mJTGd1B59ib8r4WESokTN7Sg9pP3egn9ZM1CoibhHadMqW5SY7llQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_003_0298fc380df6.png)
 
 图18-3：VGA使用节点
 
 中频放大器设计用于实现IF频率范围（无线电架构中通常低于500MHz）内的高性能，接收器的IF部分需要高动态范围放大，否则信号将在ADC进行数字化处理之前发生失真，放大器要实现高动态范围，必须同时具有低噪声系数和高OIP3。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQMkkIKIZ5CsZnGfVJF4gcrucEmFzureTB1jKII4EoeRzl2ScicSBV6AVuxK6zC42ucXSPqlOTN5FQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_004_0491e31c83ac.jpg)
 
 图18-4：VGA典型曲线
 
@@ -62,7 +62,7 @@ RF系统（如通信、雷达）对信号失真度要求极高（例如5G通信�
 
 为更清晰理解其定位，可将驱动放大器与RF系统中另外两类核心放大器（LNA、末级PA）对比：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1XQZRlzt0ZD7vaVibM4tfpO23OpX7dLEN8NeIvACENCTGNpzTJtchDgtVKtdMMXHwEbf4jBhWSrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_005_71fe47d06233.png)
 
 驱动放大器是RF放大链路中的 “桥梁级” 器件--->它不追求极致的低噪声（LNA），也不追求最大输出功率（PA），而是以 “高线性、稳定增益、精准阻抗匹配” 为核心，解决“小信号无法直接驱动大功率PA” 的问题，是保障整个RF系统功率、效率、信号质量的关键环节。
 
@@ -70,13 +70,13 @@ ___€4.___射频FDA
 
 如图18-5所示，Fully Differential RF Amplifier，全差分放大器为射频设计提供了单端输入到互补差分输出或差分输入到差分输出的转换，射频差分放大器提供低失真以驱动精密和高速ADC。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR5IHsQtTkkkDEGcpgEH59Mes1iaibHrf3G99rZ3hPwXaxVm7n2KTxyXT0NlwgBwW70TibSyIfzzmhQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_006_e7f56fdeecee.png)
 
 图18-5：典型FDA架构
 
 常见应用是驱动具有差分输入的高速ADC，图18-6中，TRF1208单端转差分后驱动ADC12DJ5200，该器件专为交流耦合应用而设计，低频响应仅受PCB上的交流耦合电容器的限制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR5IHsQtTkkkDEGcpgEH59MBVRz5icLzZEnwcFzX3FVic9LHfzsSfGGwTY26XicC8snZJ7EzTadIGAdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_18_射频增益放大器_images\img_007_79ddc72d9210.png)
 
 图18-6：FDA的典型使用场景
 

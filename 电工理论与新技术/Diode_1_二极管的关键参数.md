@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/UUKnu97m9S50mka8tDCDaQ](https://mp.weixin.qq.com/s/UUKnu97m9S50mka8tDCDaQ)
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTSje8cnYyhZPR9hAAhT3k8myHvFVpcv8LLIvia5QV4ibicLLOO1yictO2H3076eZhfddbiaA5EotFhIhA/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_1_二极管的关键参数_images\img_000_853bb5fa3955.png)_
 
 **_★★★_**_Diode-1---二极管的关键参数_**_★★★_**
 
@@ -11,13 +11,13 @@ _€1.二极管的结构_
 
 二极管的物理结构有两种，一种是普通的P-N结，一种是金属半导体结（_**图1-1**_）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8HnR4uVxOBxKGWzFOVtmAUic6qZWhHmeFVQeovN9PP29kCTExxDZIsVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_1_二极管的关键参数_images\img_001_e7844bbe56de.png)
 
 _**图1-1：PN结和金属-半导体结**_
 
 根据结的属性不同，形成的二极管按结构和用途可以分为如下_**表1-1**_所示：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT9aqqb6ibA4QvDetYibjZXicFJlrmoZc1xXUicYDribiaNXkolg8KsW69Xib33ib9Z1Pbo1tSZvRgLpdNXYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_1_二极管的关键参数_images\img_002_d3859dd1c56f.png)
 
 _**表1-1：二极管分类**_  
 
@@ -29,7 +29,7 @@ _€2.二极管典型电参数_
 
 二极管的平均正向电流IF（average）规定了在特定波形下（**_图1-2_**）的电流能力，而不会因-过热而造成损坏。当比较多个IF（AV）额定值时，必须特别注意测量条件。占空比δ为50%的20kHz方波的IF（AV）。占空比定义δ为0.5，开关频率f为20kHz时，t2=1/20kHz=50us t1=t2∙δ=25us。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8nQicrqBZ2CgEOrPLXFibmibL4Czk3cOicrIgJyiaGrmUCYeydhC5y7b9hyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_1_二极管的关键参数_images\img_003_63b1a3df0398.png)
 
 _**图1-2：平均正向电流定义波形**_  
 
@@ -63,7 +63,7 @@ _€3.整流二极管_
 
 整流二极管最需要关注的参数是IF(AV)和VR，通常取VR=1.5~2倍的交流峰值电压，在此基础上VF和IR尽量小。另外如**_图1-3_**所示整流二极管的正向特性随电流电平和温度的变化而变化，在低电流区，VF在高温时较低，而在大电流区的情况则相反。一般来说，使用二极管应该在Q点（上述两种情况的交叉点）以下有足够的温度裕量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT8iaUYiczGH1Oq76SXDuwNKicut5DX6xvmmJAozib3ay7CXicb2YibGqbORibL9r2uXOChMy2KjeKMTGV6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_1_二极管的关键参数_images\img_004_a09330809b95.png)
 
 _**图1-3：IF-VF特性**_
 
@@ -77,7 +77,7 @@ _€4.快速恢复二极管（FRD）_
 快速恢复二极管的结构和功能与整流二极管相同。整流二极管用于500Hz以下的低频应用，而FRD则用于从几kHz到100kHz的高频开关。因此，二极管具有反向恢复时间（trr）很短的特性，这对高速开关非常重要，根据trr值，FRD也称为S-FRD、HED等，_**图1-4**_表示了二极管开关操作中的损耗，Ploss=VF×IF，虚线部分为Ploss，不仅仅在导通期间有损耗，施加反向电压时有反向电流，同样一直存在损耗。  
          一般整流二极管的trr为几微秒到几十微秒。另一方面，FRD的trr是几十毫微秒到几百毫微秒，约为整流二极管的1/100。它应用于开关电源、逆变器、DC/DC转换器等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT8iaUYiczGH1Oq76SXDuwNKicOhtqlOAyx3cSvxe4dicYYBJlvYMhr9eXAmMFFc9qgTHSRIiaUCzseoLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_1_二极管的关键参数_images\img_005_7774a55344b2.png)
 
 _**图1-4：左-二极管开关波形和损耗实例 ，右-通用整流器与FRD的trr比较**_
 

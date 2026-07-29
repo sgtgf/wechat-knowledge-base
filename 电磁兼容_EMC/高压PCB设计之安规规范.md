@@ -492,7 +492,7 @@ CTI≥600
 
        通常无PFC等升压电路的一次、二次电路之间按输入最大电压估计，隔离变压器原副边电压按原边电压最大值加上副边最大值估计；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgBn5EJHjNpia55lBdpagEvDwAYDgHVfreqx28cg5BXYE5ViaL4oWWf2Bo4iaDrPgS8HdLHYYkwcZO6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\高压PCB设计之安规规范_images\img_002_25c67fa8a471.png)
 
   
 

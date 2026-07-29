@@ -19,7 +19,7 @@
 
 本文利用 Cree 公司第三代高压 SiC MOSFET 设计出一款高压高频 ZVS LLC 谐振全桥 DC/DC 变换器（图 1），它采用传统 H 型全桥电路实现高压输出隔离变换，其中变压器 T1、谐振电感 Lr 和谐振电容 Cr 组成串联 LLC谐振回路，通过开关频率的调制实现恒压（或恒流）输出。二次侧输出电压较高，可采用二极管全波整流或全桥整流方式。由于谐振 LLC 电路增益为频率调制 , 根据输入电压及负载条件该变换器有 3 种工作模式，即：fs = fr，fs > fr 和 fs <fr（其中 fs 为工作频率，fr 为谐振频率）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicELibhx1nofTd8vSwlEadXvT2K2yF1fsTia8nlGql5OibmrhEcbl4ceOWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_000_4d79d8fa9fdf.png)
 
 1.1 工作模式一
 
@@ -37,11 +37,11 @@
 
 2 . 与传统Si基高压拓扑DC/DC变换器的比较
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicBBHoxHkZUUyk9jB76quGiaCrWruGKg3BdIrK2EN0RAicNJAd6HpgExag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_001_ee6ced17d603.png)
 
 由于拓扑应用不同，采用 650 V Si MOSFET 的方案在每个开通时刻有 2 个 MOSFET 同时导通，所以每个开通状态实际等效导通损耗比采用 1 000 V SiC MOSFET的全桥拓扑的大。表 1 比较了高压输入 DC/DC 变换器新方案（图 1）与传统方案 ( 图 2 和图 3）中所用的 3 种 TO-247 封装 MOSFET 主要技术参数，其中图 1 中 SiC MOSFET 型号为 C3M0065090D，图 2 和图 3 中 Si MOSFET 型 号 分 别 为 SPW47N60CFD 和IPW65R110CFD。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic57IlKPFrWGTYbWSGIk0T9lXKO4aRZDRZhb32opkapNEUcpM5zqIA9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_002_f7b49952a76e.png)
 
 更重要的是，高压 SiC MOSFET 在软开关桥式线路上具有以下明显的优势：
 
@@ -55,11 +55,11 @@
 
 （5）较低的栅极总电荷 (Qg)，使器件在高频应用时栅极开关驱动损耗更低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicd1uQxiab4PfBjI4FO2VJdY2kudGkmLyyFfVtfDyUJ8yHeNXDacicpnRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_003_9ee27e9c7ef1.png)
 
 图 4 示出谐振频率 fr=200 kHz 时 20 kW LLC 电路直流增益计算值。总谐振电路参数为 Lm=75 mH，Lr=16 µH，Cr=35 nF；输入电压为 650~750 V，输出直流电压为 300~550 V。由于 SiC MOSFET 具有低开关损耗和体二极管超低反向恢复损耗，采用 SiC MOSFET 方案后，其所允许的工作频率范围更宽（180~400 kHz）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicqZpUg0aOerZDoiafI6jq3S7wA9g5xicKdxibG4ibFugST8CAapZDFaGdAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_004_657dba6d352e.png)
 
 表 2 比较了高压输入 DC/DC 变换器新方案与传统方案主要的元器件差别。可以看出，基于 SiC MOSFET的高频 DC/DC ZVS LLC 谐振全桥变换器，不仅谐振频率高（200 kHz）、谐振电路尺寸小且元器件数量少 , 而且驱动方案简单，不需要额外均压或平衡电路，在高频应用时能带来低成本的优势。
 
@@ -67,13 +67,13 @@
 
 利用 SiC MOSFET 设计制作 20 kW ZVS LLC 谐振全桥变换器样机，其输入电压为 DC 650~750 V，输出电压为 DC 300~550 V，输出电流为 35 A。图 5（a）示出该变换器方案样机，其尺寸为 275 mm×220 mm×65 mm；图 5（b）为其原理图，每组开关由 2 个 C3M0065090D型 SiC MOSFET 并联而成，输出端二极管 DR1 及 DR2 采用 1 200 V SiC 二极管实现全桥整流输出，主变压器采用 2 颗 PQ6560 并联，谐振电感为 2 颗 PQ3540 串联，系统利用 2 个 12 W 风扇进行散热。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicvCcZbcandnWpopQdKHHxFZlRFpY5yYgsibXlTzaVLQKo1Q5UzicSJ4gQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_005_16327f249df1.png)
 
 3.1 实际波形
 
 图 6 示出 20 kW ZVS LLC 谐振全桥变换器样机实测波形，其中蓝色曲线为 Vo（400 V/ 格 )、红色曲线为 Vds（400 V/ 格）、绿色曲线为 ILr（20 A/ 格）、黄色曲线为 Vgs（10 V/ 格）、时基为 2 μs/ 格。图 6（a）示出额定输入电压为 700 V 时变换器工作情况，此时fs =fr=200 kHz，输出为 500 V/35 A，一次侧电流 ILr 为纯正弦波，呈最佳工作状态，效率达 97.8%。图 6（b）示出输入电压为 650 V 工况下变换器工作情况，此时输出为 400 V/35 A，开关频率高于谐振频率（fs =300 kHz），变换器实现降压工作。图 6（c）示出输入电压为 750 V时变换器工作情况，此时输出为 550 V/35 A，开关频率低于谐振频率（fs< fr），变换器实现升压工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic2Rs8zSdLbpFNVdpXTwZDuQriaLebbqFqZ4CmVNAVJfJFKICRYhg1HSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_006_321f88452c1b.png)
 
 3.2 效率与热性能
 
@@ -81,7 +81,7 @@
 
 图 7（b）和图 7（c）示出输入电压为 750 V、输出为 550 V/35 A、满载（20 kW）工况下工作 1 h 后的热性能测试结果。测试过程中使用了 2 个 12 W 独立的风扇进行散热，SiC MOSFET 及其散热片温度都在65℃内（图 7（c）），温度最高的样机组件是上端变压器，但其温度低于 100℃（图 7（b）），这主要与风道和变压器设计有关。高频工作时，磁性器件的高频损耗会增加，采用传统 3C95 高频铁氧体需要考虑磁件由于频率增加带来的涡流损耗和集肤效应等问题，因此该变换器研制时采用了多股利兹线和分布气隙等实用技术来降低高频带来的额外磁件损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicsTOO6As8GWLFjAS4bwRkgpfvoRYsrsI57Bf16F0VCsYNiaZm12qajAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_007_ae1897c9bf3f.png)
 
 4\. 结语
 
@@ -89,10 +89,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_008_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_009_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于高压_SiC_MOSFET_的高效谐振全桥变换器研究_images\img_010_84aa944feb13.jpg)

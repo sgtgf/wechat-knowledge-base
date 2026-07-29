@@ -6,7 +6,7 @@
 
 ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8QCAsKBT9ATT2Fict26Gg5B9LVx8W9l81pOGdfhhSZgQcRwOmzqzkwlA/640?wx_fmt=jpeg)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_002_4d0ef2e8c235.jpg)
 
 爬电距离：沿绝缘表面测得的两个导电零部件之间或导电零部件与设备防护界面之间的最短路径。
 
@@ -18,19 +18,19 @@
 
 a、对于AC—DC 电源（以不含有PFC 电路及输入额定电压范围为100-240V～为例）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8gaKSyI05s5uD6OGhjiaulDUolnm1rTtnr4VuWykhfbFx3REw74MDVCA/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_003_93e9ca5a3e29.png)
 
   
 
 b、对于AC—DC 电源（以含有PFC 电路及输入额定电压范围为100-240V～为例）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8J40Yd4MbOoHnPdFYSDGpVCdLvL3tPiclf7rlDxGp8pwVkhiceB96vTdA/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_004_50b1157fd604.png)
 
   
 
 c、对于DC—DC 电源（以输入额定电压范围为36-76V 为例）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa85Jjicib4vTMib3SsRIj76sAnJtKM0HkAHe6l0GPccduP9GNM2CE4NSQaQ/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_005_addb2868479a.png)
 
   
 
@@ -38,7 +38,7 @@ c、对于DC—DC 电源（以输入额定电压范围为36-76V 为例）
 
 变压器内部的电气隔离距离是指变压器两边的挡墙宽度的总和，如果变压器挡墙的宽度为3mm，那么变压器的电气隔离距离值为6mm（两边的挡墙宽度相同）。如果变压器没有挡墙，那么变压器的隔离距离就等于所用胶纸的厚度。另外，对于AC-DC 电源，变压器初、次间绕组应用三层胶纸隔离，DC-DC 电源，可只用二层胶纸隔离。下列数值未包括裕量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8nDPaUrDlDDhpb9miahiaqJhTeYM3HjddHefPiauic7TiaELAaibEYvO967jg/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_006_183ddc9507b8.png)
 
 注：变压器的引脚如果没有套上绝缘套管，那么在引脚处的隔离距离可能也仅为胶纸加挡墙的厚度，所以变压器的引脚需要套上绝缘套管且套管要穿过挡墙。
 
@@ -161,12 +161,12 @@ PCB 板94V—1 以上
 
 表一：爬电距离
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8YA2BYSmdZ7EccbibDyIjY8FLI0DfHmBQ3dhWGAUTpFRPnzCReOsDJGA/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_007_a975c1786ddf.png)
 
 最后，从下表中查出对应的爬电距离  
 表二爬电距离（适用于基本绝缘、工作绝缘② 、加强绝缘）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8PSDmgsatGCnpkGUxJb45THCmX8dVAdPf5GXVFHew6R80IR7YPZ1S4Q/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_008_15b011ced85d.png)
 
   
 
@@ -186,11 +186,11 @@ PCB 板94V—1 以上
 
 表三电气间隙（适用于一次电路与二次电路间、一次电路内、输入电路、输入电路与其他电路）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8Rc8PKDibyKp7o21Rictr0MveQq55GM1suZWaZqAmOxwl28XjlBIrHnSw/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_009_7a9ae5999694.png)
 
 表四电气间隙（适用于二次电路内）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8yyKjicYxJBc9iajLhPJnseF76b4BibeuUpj8jdTmVbxJaibMvFalRZMUBg/640?wx_fmt=png)
+![](PCB_Layout爬电距离_电气间隙如何确定_images/img_010_38a926d88eec.png)
 
 **十、设定爬电距离及电气间隙的基本步骤**
 

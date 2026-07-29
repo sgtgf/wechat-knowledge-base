@@ -23,129 +23,129 @@
 
   **1 绪  论** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUCugfJNtqsJgR5jkfN9ibkn0S54BCyZUDwzGJ3qbyajo5pWSL9Gng1WA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_000_84357ef54b5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUqgcsqVBr5DiaY9Z8tfaH6yfeQ6hxAQibn0WhIwtRvRjic7UtsYAIQiaX7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_001_94869821e776.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU3CR1y234ibbp2G6eyfQTBiaq1c4qtadGViaQxbW1hCktWEOTpq27aLJ1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_002_d66a02020a51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU0B2wd5L1KhB2LFC74YBTicMBSzS7e2QFgsF9JoibaXUDGBQKjmvD3lrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_003_412119876495.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU1Sa08eDMY45fk9M3hw9XLiaArsMg8oribcZ7jwsSjPQpo6TbzhdkrA7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_004_a0c740ec343e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUDbplOEd41ApfjbGPHANIdhnTCPibibe0cOUXyVRp2krSqlD1AlF0D14w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_005_10fe4e116240.png)
 
 **2 FSBB变换器基本工作原理及控制策略** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU2a8AW8T55hF4Iy5JWVaLU8UNxMmf8RQCRjuCTp1XuL7MCFhmABlnWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_006_c82271a3d2c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUfM3MzvnPlELOUIdLcNXCQ288byj5mmfpicsy7dgAsaDSL3H7hPia2HoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_007_ad0f6be16d74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU8Ruchm2qPtgX0GiaJleZSzib6HCicXGsqvpQLSLr02Au7RQicXmLa3HhDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_008_df9921cd54dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUZEa5AdtEdqmxbZ1ib8qNJ49laehlZlyWndvECvRLNA1UAMvCtib8eDzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_009_b3b9dccba72a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUtzttWiaSKmjSV7ibPGFhNyYMFfdMZkHF0LWPibK02ODjsu7uVLMbz6icag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_010_fd3d0b57925e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUI0iaNFeF5cUiax2eZssH44yZlhbcu6bEvIO4LcxVGDdDI66jD1z5fvSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_011_033b0c0bc97b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUDXfzTy0SFgVaOElicTqg3I8cdpkV6u42zIWJZ6HOjYS3GTE8ox3THWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_012_5b45260a4fa6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU6In2V4EDkwJ1bNoV4Uw9mOJ0jUbBGXGtEMQUGiaZb3P2mZKEyfFiaknw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_013_234ba0e37667.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUHplU8aPRucXttwrnTLolxqMXyqX6s3V7fvXzfxzxUIBr0wCE03JgXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_014_f43c2da8bd0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUNr4nb04tSexTWrBb5RmrZk0LViaS1db5LiaJTfr8M876HZ0lTn0HPaMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_015_915fd97bba33.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUNbRN5KShEJFROAZxoT8mhKV6OG6P9PmvZcR0aoKe56icZ1FFNceAjZg/640?wx_fmt=png&from=appmsg)**3 FSBB变换器的软开关研究及控制**
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_016_4d59a993e83d.png)**3 FSBB变换器的软开关研究及控制**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUcgH8K0C5056AYUEnGX2ChZ4HQ0UHeRq8Xp8FKggOSyC1JpcDBr5x2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_017_68c49f2bcfc5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU3ly4YUcEWib3IVibBQHm5GyEfFuAztdq1icmCCWLgLI7xGQVnYpxAtOibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_018_ca2dcb9ef134.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAURgS2pOJsx8essgpoBMwM5hdHHIU7PYichMCBibvxbicA6dzA93VTauK6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_019_b9b7060e5650.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUgUoKYG2FFdKtA8pVXtmqvuAZsPfZiaD6wuwNxsbQRJRDIH9tx8WMicVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_020_88667ded0ba0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU2fNCNhP2M2NpeRjYLYzErMV2MB71dnpXW5m8By1OYFcjib44mwG7lyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_021_bbf54ca07f2d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUsOPTticNTOYFKtjibOlpxmCMMs9sh236n3lySaibykBqYWlYMRW6vE20A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_022_840fdee939b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUX6kwSRfdlV79E1RibppaAgcIcWm85D83sTCv7tk8Speic6mZ3e63ZicyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_023_f79ec76f0f12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU1aaJXfMXEUWDHDibNqAAFzZG5gSOibHmibNnFv7GWzQiaicA9GLxm8NGG3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_024_b593a8f9c5eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU8ALe8tCzciaaJ5QFfiaRsuw9a0RZYmjybzmw1o12icx83UYQCRtGaT80w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_025_541e00a47d06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUTpRZuWF6UakuZY2IEEElye6dEml4T43CiaHnDd4dOKhDt6t6l9eUnHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_026_569a22f8524b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUu1MyaY8mANdRs83Yu29NQOZex7nsjpsts01QqLIDPFyicViaX3qAf3sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_027_05a633d9135a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUia3egVTRxRBwEuzxBnyiaNFuRrMckwgYL0WuTibsBKBH6usJjYicia5IMgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_028_a63109553eae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUheVm4cOE1fcASE5yKgOknPA2iaDh3mocGVRHN3bjRVepEwjYVoNFfWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_029_22fba4bee244.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU4F7qSDXJ6pSOCkvt2lP3k3iaP2M74afugkJcaibtWvQBEw9O7Yvkechw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_030_c7c4cfc5cfaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUrcDwWRCGyegaYOpRcw08cAvDaY2CDd2fWNp1mQnmiaqYABpd2EjP1pA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_031_a5ae27b7e4f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUpPBpPp2lcM2uEx8Skxmy28y3AdGnFZsHF8l9VZNkddiaQiaRGzYUlWkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_032_970acc19b50e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU8kzEcXFdgalMtLicH2QbEvLEL7TRQibmt5ERsx3QicYB8iaTePfF3bmdPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_033_aa9d9bc63d19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUwB6ZlDqLlClBeyHwLbQKaGFUP6VkcEpk63UhQJdAaHXKdqVlL47VSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_034_be59023833fe.png)
 
 **4 SiC-MOSFET开关管及其模块间的均流** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUTSpsviaeAYPYvIzia90CEMPETu1M3dzdExFXiaUUyN1ticOUYza3RDZU8g/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUfrZ4MIO3UGp7RXdcWwNsfM435taTWbqS2yu5yG3XewDmUkebFf2Riaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_035_ff8c01374e03.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_036_d15ab5b70cee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUpBfXIibiaBA2noQMTHaG9KBR6OBkosKsfvELyKgWAoSZFp2E94ZS7fiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_037_414c7fc4896c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUPHScGl64SLkCOVbr4h9ibLUmrgAN2zIibnatvLJMqiauFAVXhpMp9f8pg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_038_817872bd2d9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU9bTibEFD8s2qVdgsRLXJTLXK33Trk9XvLZDf8ObLS3nz9TibCouj0UMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_039_8d8612954986.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUiaDCDtBaqAhaupZhXvGE4x62vXG2zKg4GSCz4cleZtInhfibibvXwI0Nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_040_6dc28eb6c5a8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUMqGax7XcTBNLpXnia8B9n9nIB6Tb3BprMLoFjjum1F3d62PXG09icpSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_041_7e8a5fbeab08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUhcxJn2NMAO1uMKAZCvSNH4KXXQh5p20Wnqh8zkvWa2eFxSg7PfoCmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_042_fb94f4270c94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUuFKJWibznhllLRmIzwCQkZ9abkuHsAJFVlmAxwQxdical9SmMl6a6I6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_043_f34681f4fb44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUmF9KcFUXe6mv4tpMnwsLlic5VfavnMyZWwc1AA7QrXVg9vgzS9V2SDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_044_e86d95781d60.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUcddgVHjCmicYKBcm9RK0I2ibJuAFPicC1dbUfZsiaMq7RTMF6GT4Lkgflg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_045_97744e130907.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU5ltzavoTJpRW4EgOaP90fFDntKDpJkTcibnApQbnzmRUfpicFnxHvicSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_046_779a61a29208.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUH8QY2icAVVrHZUUyKFyfD05Jehicjw28nM3fkm0qQ6OKPS0YuaXeLDww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_047_249898f1054a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUmSuTwTmGUXOPFmpWW15icK7HFHQLaUzSkxQGQACskhz00ruqKkzLTtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_048_b4ae82e475e7.png)
 
 **5  变换器模块设计及实验验证** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUttHHLj2YR3PtEYlE7UpctuBRd10geAJP3oibbXOZD4WWib7iat3KNGeWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_049_bb2c2b0e028c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUyVpZPvQic0ia6bKZ1C787wr8bODtATJAP2PhtzNlkAWsWuuvicmicpIaVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_050_5e65d4814d0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUicOmibqtvV8FKNJpAZItVytpiaJArYj3lUJ544wI2ibxicuicIXXNuD3gddA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_051_11d83ff6f363.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUXNqQLAenANtYppQoARxaAn5gzD6QPDXDOSOnwHsxgX5DZuA8O13FEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_052_d1adb79f2476.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUEHLz67YB2gecNkrwXNJ5KZNdOkEAYWcyUkjwa0w3Bf9ZicymdicyLYAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_053_6499b66cece5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUXHt7z9Qdv48pUPJWcf1grLPdvEolkY6f0MkPC04jHice1SjIPZA7FXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_054_e8d63f8b93d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUxdcVXeSXJk1UZP2EujicQflqrVGNeVmyeib0SJMMVOY2TcnHS5KWvbgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_055_bca377ea9289.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUL2hg1V2bxpJM2vvjGakM40I8lszcSvRPpia20fSRjZcBvWH5eMiaGlBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_056_6435e29baaf5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUNfOSGrQqdibiaVHx6yjrYFy3b7UFibP9h6aDLvv4o5zhHecEduSQH9Thg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_057_cf7884854481.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUTgzTJBlanZUp0h8PrYc30YPO7hKJ4Bqy2XtMTU9icCHic6w2xjCTBzjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_058_81f5275220fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU74tMr8n4yYNYp73KWzVy6lBINmDGtTto8n94sZunYEk7Qk23YBPrpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_059_4f8e6e2389e0.png)
 
 **6  结论与展望** 
 
@@ -163,10 +163,10 @@ FSBB变换器有着升压降压的功能、开关器件电压应力低、损耗�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_060_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_061_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET并联的大功率FSBB变换器模块设计_images\img_062_84aa944feb13.jpg)

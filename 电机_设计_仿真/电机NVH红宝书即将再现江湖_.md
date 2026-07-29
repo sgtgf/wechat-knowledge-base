@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/RR1DPJBAUsJk0t9SwbcDzA](https://mp.weixin.qq.com/s/RR1DPJBAUsJk0t9SwbcDzA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883klJHIqiaDa2xYic0lB84Nia2XOk1j7764Ep7o9o6oXtAOl5h24pwU512A/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632984&idx=1&sn=4dd866de3ec224059c527182f218de44&chksm=88bcd817bfcb5101660dd284d9bc7a5e12646aa0aedf5a5f0b5f2b7b6ef7778d4847988db43b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_001_82f0e4ee50e8.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632984&idx=1&sn=4dd866de3ec224059c527182f218de44&chksm=88bcd817bfcb5101660dd284d9bc7a5e12646aa0aedf5a5f0b5f2b7b6ef7778d4847988db43b&scene=21#wechat_redirect)
 
 自西莫第一期培训电机原理及设计通解研修班开始，每期培训都有一本对应的培训教材带给参加我们培训的学员，包括全彩印刷的全部的讲义内容，避免了大家上课拍照而无暇认真听课的窘境，更好地让学员真正的投入到课堂学习中，只需做好相应的笔记即可。每一本西莫培训的教材都凝聚了各位老师多年丰富的工作经验和科研成果，真正达到助力学员通过短期的培训也能收获满满，在相应的领域得到快速提高和进步，是推动学员学习和巩固所学内容以及帮助大家消化吸收培训重点知识技能的重要补充。
 
-作为西莫主办的电机设计“升级班”，电机NVH问题的机理和测试仿真研修班在培训导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有ANSYS电机及声学领域高级应用专家倾力加盟，几位老师共同编著的培训教材《电机NVH问题的机理和测试仿真》其内容的精彩程度更是将超越之前西莫出品的电机红宝书《电机原理及设计通解》！教材将由两部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真设计篇，详细介绍了基于ANSYS软件平台的电机电磁振动噪声分析流程及其详细的实现过程。汇聚了众多专业文献书籍相关精华内容的融合与提炼，本次教材从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zeohqrRozzl62oZJgb80iaKDfBUPKvBr6tedxWNzObticVwEve1s8lLlQ/640?wx_fmt=jpeg)
+作为西莫主办的电机设计“升级班”，电机NVH问题的机理和测试仿真研修班在培训导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有ANSYS电机及声学领域高级应用专家倾力加盟，几位老师共同编著的培训教材《电机NVH问题的机理和测试仿真》其内容的精彩程度更是将超越之前西莫出品的电机红宝书《电机原理及设计通解》！教材将由两部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真设计篇，详细介绍了基于ANSYS软件平台的电机电磁振动噪声分析流程及其详细的实现过程。汇聚了众多专业文献书籍相关精华内容的融合与提炼，本次教材从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_002_37cc07a93ec4.jpg)
 
 本教材是对NVH类书籍文献中关于电机NVH理论与电机设计相关影响因素产生的电机振动噪声问题机理的全新解读与设计经验总结，是电机设计工程师和电机NVH工程师必备的设计指导书。结合培训大纲的教材完整版目录如下：
 
@@ -321,7 +321,7 @@
 
 从教材详细目录可以看出，本次培训几乎已经涵盖了电机NVH方面全部的内容，是从事相关工作人员的一次不可多得的入门和提升机会。欢迎大家扫码报名参加本次培训：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9RCbW5V9GKtm2pRdQD2YicpJ8ZLQO9QmyoM5us0719jnibdjPUpZLEKJWddolC1tzc2HqVcY5D9K4v82qhEgL7dQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_003_ef59197ccc28.jpg)
 
 关于这次培训的更多详细介绍，请看下文：  
 
@@ -381,7 +381,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zniac2pV0ZrOOhEoFhDoDPalHTnImFicLt7sHzCf8QKtYtAjETCmc377w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_004_992038978436.jpg)
 
   
 
@@ -417,15 +417,15 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883M3QFV2pyyib8CJg1QQsiauKrfxe9GP7tVtU4euRs3CrrgiaCpYEYMqLYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_005_fd8973ff890f.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)[](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_006_0cfebd1d514d.gif)[](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW2bPUClceD7AVO6UUicSVLGeMSpfpapoYxQhXMp27OdyGwmEzR9V5woAKCFwLnib7HbN1QahE2QCtg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633215&idx=1&sn=f496ca73920d371c43cae50cc84fd3fb&chksm=88bcd8f0bfcb51e6e2e2c14e07c5de07717c20b05190bb113bda13c9af6ead98bc9133017c14&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_007_b01b19ac32cf.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633215&idx=1&sn=f496ca73920d371c43cae50cc84fd3fb&chksm=88bcd8f0bfcb51e6e2e2c14e07c5de07717c20b05190bb113bda13c9af6ead98bc9133017c14&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZfZ5uT2ibRZcByL2xLy5BlhOt5RDB1bx8XFXbuWveJMu1A2cV46RqXkYORGpsGpajqmHIVoKp9NQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_008_f7ef7569621d.jpg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_009_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_010_3f5511eb92d0.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书即将再现江湖__images\img_011_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！  
 

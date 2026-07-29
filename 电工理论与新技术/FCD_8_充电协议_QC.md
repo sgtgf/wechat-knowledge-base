@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/TqqQBpcDaqCXqNAiGvgEIw](https://mp.weixin.qq.com/s/TqqQBpcDaqCXqNAiGvgEIw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQcFTDmXySWjgRxAzPLWUNticwzZmUftdKmrwPzCcvqXI3y1LjwxR3X7ZzH9MU91zrnZkpPRftGLcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_000_fdaf7269806f.png)
 
 ________**★★★**______________Charge-3---充电协议______________**★★★**________
 
@@ -19,13 +19,13 @@ QC2.0工作原理就是由设备（比如支持快充的手机）通过USB数据
 
 分别使用\[1\] QC 2.0 USB适配器（9 V，2 A）、\[2\] USB适配器（5 V，2 A）和\[3\] USB适配器（5 V，1 A）对3300mAh电池进行充电测试结果如**_图6-1_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQQ1q5SYUDt0IcDcd4aiaVazrQKqK0yNzYKYJy0ibUuqNXwuZfSYf0vBSW1tQSRB6QtxtplV2s6CRzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_001_5a0bae1c410f.png)
 
 **_图6-1：充电速率比对_**
 
 比如说一个普通手机是5V1A充电，而如果支持快充，就可以提高到9V1A或12V1A，这样充电功率变大了，充电就快了。不过需要注意的是，充电器本身的厂家设计时输出功率是要大于或等于12W，不然是不可能达到12V1A的。而当支持快充协议的设备用快充充电器进行充电，假设充电器处于最大输出功率的情况下，那么输出可能是5V~2.4A、9V~1.33A、12V~1A的情况。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSt4aevYRSicgOC8THr4QiclRoa2KiaJMyw7GfyCN24micZl9tdKnPXYpBc3siaKMLlL4wB6ehtElUyGZg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_002_ff0726c7463d.png)
 
 **_图6-2：受电端的结构_**
 
@@ -33,19 +33,19 @@ ______________________€2.QC3.0______________________
 
 QC3.0是QC2.0的升级版，最大改进是QC3.0支持输出电压为0.2V变量为一档进行变化。QC2.0只支持四组固定的电压输出，而QC3.0支持输出电压在3.6V到20V。同样QC3.0协议也有ClassA和ClassB，ClassA标准的QC3.0支持输出电压在3.6V至12V变化，ClassB标准的QC3.0支持输出电压在3.6V至20V变化，同样市场上的充电器、移动电源都是以ClassA标准为主的。Quick Charge 3.0提供了更大的灵活性，从5V到20V的步长为200mV，允许手机请求足够的输入电压来达到预期的充电电流，从而最大限度地减少开关损耗。如**_图6-3_**是电压电流的步进图例：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBTMoDvcO1cVRZkE2BVZjgLjbH8AE8EUicicX5qQrqYEKBOg9tgicjp64yg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_003_21bf36c8fa04.png)
 
 **_图6-3：充电过程中的电压步进示例_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSt4aevYRSicgOC8THr4QiclRrbB6MfaS5ibPWQouBzQTgWRU4jV1mWs5RjAp9AL1ldDdWbWrfKUv4JQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_004_dd0e8be4ee19.png)
 
 **_图6-4：受电端的结构_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSt4aevYRSicgOC8THr4QiclRGwvvgiaLicK1YPCtX57Gc4MWSojga7fD65FGc9ya16KLqFibjL7sG53qA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_005_af7505902f42.png)
 
 **_图6-5：支持快充的移动电源简易架构_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSt4aevYRSicgOC8THr4QiclRf9OSuBZp52DjnHW8Y1cxQR7qKbNSe386D4Z3NKG1hT1AgTRDpTRdfQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_006_6079c80a3bdc.png)
 
 **_图6-6：QC3.0控制逻辑_**  
 
@@ -55,7 +55,7 @@ QC3.0在分立模式下等同于QC2.0，以0V、0.6V、3.3V三级逻辑通过静
 
 对于支持使用D±来握手的BC1.2、QC2.0、QC3.0协议来说，因为D±还需要兼容传输数据，所以受电端的识别结构都内置在SOC中，而适配端均需要一枚支持QC协议的协议芯片来同受电端进行握手以及响应受电端的相关请求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0KluUmnPU2zdkXSiaibBHHREkZJpqZ0njdla36fD1vUW7Athuv2fiaSaUzTQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_007_83a80f00142c.png)
 
 **_图6-7：英集芯IP2161支持BC2.1和QC2/3.0_**
 
@@ -63,19 +63,19 @@ ______________________€3.QC4.0______________________
 
 如**_图6-8_**是QC2.0---QC4.0的发展迭代，根据QC4.0的握手要求，QC4.0不再使用D±握手而是使用CC，所以在适配器端和受电端，均需要加入PD/QC4.0协议芯片方可支持QC4.0充电协议。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBQvvMuVGVlTPbJsbdZYhBMFO7AUEulpmibOKf5MdjXZDKGjaaeGbmGzE2ys5YpRoYwibS7ibl3zLPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_008_88ed6acda181.png)
 
 **_图6-8：发展迭代表_**  
 
 QC4.0支持3.6-20V波动电压，最高达100W (20V/5A)，技术升级：QC4.0支持输出电压为0.2V变量为一档进行变化，对于QC 3.0充电速度提升20%，效率提升30%。加入支持USB Type-C、USB PD，具备更强的兼容性，也可以理解为QC4.0不再使用D±握手而是使用CC握手。15分钟充满50%。INOV智能调节输入电压。电量到达90%，自动转化成涓流充电，有效保护手机电池。如下是识别分支图：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTzLxzO9icx4WMRS8vkiaKNQ6kcIHeMOu1HWB15dia2DKmKL9vrjdOeBlvR0QgUWyIXUQCMlxpwyBuJQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_009_4647e2a9c586.png)
 
 **_图6-9：QC快充识别过程_**
 
 简易逻辑框图：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSt4aevYRSicgOC8THr4QiclRx8L4qbVFkicJeOKoFdIBwbzVFVZ2cwfAob9iaHRkKyzrNzoQPicAtHOiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_8_充电协议_QC_images\img_010_6f2b7899e8fc.png)
 
 **_图6-10：支持QC4.0的受电端结构_**
 

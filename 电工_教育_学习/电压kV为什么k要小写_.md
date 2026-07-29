@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ndLeXg6uyiapmRmLicraO1X50TZV22xUMrcCXhyT5fib9vMruO3PmLtia6O1wiaicZcYP8U7v4ReOL14TNueXAAbbW2w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电压kV为什么k要小写__images\img_002_5c475048fbbc.png)
 
   
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ox5uIEYGiacQta3jdfoC6UPlib6P2LK1l71m9r7NROGNe4Uk7gibOQjbmvyaibwlia8P2sz8WOKqj0TibvelBUwk7JeA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电压kV为什么k要小写__images\img_003_195052542619.jpg)
 
 伏特 V
 
@@ -38,7 +38,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ox5uIEYGiacQta3jdfoC6UPlib6P2LK1l7Y2p6F2SXLSCaicvURLUBGMZrg80d2eSabM9R7XNj5ob57dEquPH05mw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电压kV为什么k要小写__images\img_004_ebba8370346a.jpg)
 
 安培 A
 
@@ -48,7 +48,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ox5uIEYGiacQta3jdfoC6UPlib6P2LK1l7heIMMrTc5AKZyiasqutTg6QhKUW3YRialTC30ibtG5wHtFvYk2vwqQW0w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电压kV为什么k要小写__images\img_005_fbc5c64b9632.jpg)
 
 开尔文 K
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Ox5uIEYGiacQta3jdfoC6UPlib6P2LK1l7G71jVJ2dEaD9aJuzVZo5IVQxJfHVUa39zfJVycwoyNM8SsFxSjAdNg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电压kV为什么k要小写__images\img_006_4fb68afd4293.jpg)
 
 瓦特W
 
@@ -126,7 +126,7 @@
 -   **直流电**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPHsXeSAuLW7Y1H22T6ia0iaGfDLeqjkiaoCdyUYXty94VTwdMb2VRJzPHGawUbSqjIsiaretOl0o2Iw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电压kV为什么k要小写__images\img_007_8f1e9c710d68.png)
 
 直流电（Direct Current，简称DC），是指方向和时间不作周期性变化的电流，但电流大小可能不固定，而产生波形。又称恒定电流。一般干电池，电瓶里的电流都为直流电。
 
@@ -196,7 +196,7 @@ MW（均是大写字母）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1JOrCVggEYtTI2FuB8JOrbb3N6WhbF4F3G1POUHoeSOGNMp4ecf4T1U7Luib4Klibiag09Jl2B3OndGQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电压kV为什么k要小写__images\img_008_5623be99309e.jpg)
 
   
 

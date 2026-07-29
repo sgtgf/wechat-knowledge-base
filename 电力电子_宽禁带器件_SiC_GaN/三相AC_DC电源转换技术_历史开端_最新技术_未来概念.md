@@ -8,227 +8,227 @@
 
 作者：Johann W. Kolar & Jonas Huber
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOrJONt0hicMXa546w1K8gdJ34POu9wK9umiaJd8SLmqaicBrqKtic2dlvtgAYSjVAJxdHEcaKP27lyTOh5rliag8ZEejq7qNX80Kx4/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_000_c6cce08c4bc6.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNE5Ahb3TT7hxA7LaibPvjicS4A0IJ7KkZGcJ5nEicxpO2Tau3dRUFPKjK1r8Uof5Ggz2xUxYCIELHVeLxM8KJQSHcecBpt6ib2Abg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_001_f75abd7254d5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPCt8YNyiaicxf62cN5WuYI82ym05QSZibPpadJiaibvgwL4jlPSjDZ3djo2S3MwCiaCNQyUiccVbEiblOcaKibDl8NtGWFtxETzHCmWV0s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_002_2061864bab0d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOGicovvwWrCpsEGgxW2WiccOBAXxcHY9zQbs4Vjpx5KbdHj81hHd2f2HexwXwZQzmCnc7KVjn1D8bC8ebia6icU5U4oKbCsFTcvYI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_003_aee6df8b4447.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMV8mubIYdPud0zuKD772szBMHDO5yzyAgQKdVpQib3ia6Wzb9w4ZONvsR39df53icpnxdibv1FEuFBSwOKT4BIuiaFn4tXsib4CXYu4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_004_38444449588e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpPdnEiaXWK3klCwTQuTHia4RUKu7iaWJOeKc3muTXzQ9EMoY9h26TVDW6w4QCHgZlUbu9kbmqbQoNgniaib9pGm0ydrLS0BN3YG60/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_005_ec2fd530c667.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9Q1YWJoPLAt4nfAZrHjIyDqqWwhNLicyyQCcJxFgsExAqP0jLlLl21Ozb2WbUtdiaKBXaoJMictjicE7kUMXDKNjAntvry0e10Ug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_006_14c3ed8a8cad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1xF8Rs5vdnaKkqWibmgDqDIvjuBqE9kxfpbPWh8GrflXtcZsfHdaLM8W8lXDLIPj3SkQjicItUslKUadsickbUwdiaGgXgm4ibicgc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_007_6d4784981602.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5gmzoMXBOJQgGe5TC13Vun2GfPdKvqAgelBBIMhECEJPjNBSBR8c8rPMIwSvo4RH4pnKibvibPy0aG9IibWzbiaoav16k0IHQgWU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_008_a1f76fe1e180.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNop1ujBQEibgNtJOvCk4xYldP3RYpauibUibTfvTgIxZnPnhwIF0TqrAys9hK1Ju1GibtiaKH6s1UavtkkvnlC3jCcbMw8RgFCBvXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_009_fdc494de98d9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMz4s7NtVibM3uFnVEeibeibUDC384YoVwSxh3ZoPLmQCp4CzicPfMSoYqqk0nkXKsUR4MHgA2mLJxfq42Y8DHMguruhHF9JaCC8EM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_010_f7a0802688c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMvhEMWFonJibCYwphuE3DZoCJj5KCA68coNcYxErPibToXR9rmeMVsFCw0w8K7H3AY8jB90ICQiceTxzrwvia5t7AM9pAt1jYjvJ4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_011_ca22c049fd74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpODXY9A5Es6CvXTQVSjwaCpZtZia4WicGG2HENhPra627lpiajqea5HpYM2oib8kjmB9RmNlonCWfS9dbicFO6ucHRoMcE9nEL13e3M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_012_058b266d000c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM81yWZlQ5VgEiaurwYWFEo5kMjoJPYaKXtWQAJqCjtVtRhhDKvqtdVicSpr5x2icHNUviaHOwo6nPnoG80ZrpIN3qQLGVOTxbXYHk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_013_0ac8cc1946cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMqBickp9uctMUGsCefmicWqeicor7ibnTkLiaznoFPcvRSljyEHsBONBibED59mWnUZLQYC0aJk4IgJ6DbMibJj55BxJibh6DbOyJqh8I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_014_187057a7ed65.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNmv60a03X3u8BSvHTHROwElYWBRv1qllvCia8oiarg4XGkvPQVALs6INARSIUynEPbDDt3c5LvezFMiagmwtT22lXicMPnaga7n0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_015_9a6d02af92f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOQQib3PVw5wsU6doufzibHgyAMMjuwOXnqeUE88Yp5E0IX8fmsFRUxTFmfJP4bGRggmJ7OYy5ajFh30YNUTPpKg227WqPCwxMgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_016_760b8af8c591.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN3bWj3oxDCwmTQdFRELCGW8ibqUGmfhwoWU9y1m9iclAhupVXfluthLRcshrQXNclY2ibHU8Tg9Lnjlw3yViaZoticMA13UDRFOJF8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_017_b70ccfdc49ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOmncnuJDrV2icOD72cv9DsmibSkqJhlmBmApEL5kE19kBLfKmd4ZDdJcHYGWrhGFsX41apY27qy3J91FI8CMZXgT4zVb83k9zjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_018_2c1ee7b28ce8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNuVnlQancOE1FzycS1ibKVAag6UiaXQnv8wIqqib6uOR7zAG1Uub0JQ9lblaJb3uguzV5T8B0LxuiapyYicFEmHyjYIgPDbnmHbZBM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_019_35f53c7f387d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPJggtlg0JFb5JsvmGsPY4AqtibspbV2c2vTXzO4ibKyUffhzlORJ3SgkHL6VrzhaBxnBxvNRIe6tl4QL7HmeZvN9r18D83vGNxE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_020_661ae45fd266.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKoXGD62oMAsrAFiaoYGpXjwvbKVnoqp0nbrDeWu16SrB9MyJX8FleOicR5zYAFdjeOTVlBLo32Bz5SmlA2lcvojhAp5aGMicRKM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_021_2a8d22f21b52.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFMF6XYvwHic59shEAYRJn360fwAOJkCapoouzmF5y6XwWA5A0ToLNE3oribXOBNFhdRSLqg8jeHBRiat0Ix3viaIqbEAtCkG1h7s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_022_91e05e4a4ef2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNj9UmMCPCN9srl7s7wzf0UQEsicKdKQRUc85SKCGmiaOHHrmINYa6FA6dTW09MVzibz6YpKALmukZribvyYjWGAjicYwPez2ouvgzY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_023_16a1f4dad80f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPxyficTqJIRt1GXBib66xEyTaVEFmafZrHOVc4F3dvUgxXoqm5qiaMGmHOBCqia6EKSTNPIv63MdM0ibvUo7ZG6ODT2qmFVDzAGqBY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_024_dd76e2556d98.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMflibNxRE307eicOOvqPjsLJ7vE1ibPibZt9ZcbdSz8b4zajdny5g9eHuFnRt8bYBvRGQz7YBTwtvz3pJoWkv064CniarUQF88kQyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_025_a6eaa3bf62d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNYEoakIdhxmian69Kdic5LkhxPq6C6cEqQLib0jalCG2aCvWBdLhmklBsNpOYSZmqFOOBqUoAnhibeVHRWt2yq4ocUZ3ic5XVaPYWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_026_ed8accd05c4b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMOhCWtxxDmPNdchDcMXyjhIQzauEsGQwcabYde1VFkbydicqQpADYWl5VkYsr9p8ib2ZOX97TQlHhu23Bc9IDlysxC2LTnM0QRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_027_b58e5de9bf9a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPsWB0picT41m6NNXicrEOygAuNJMrnCdicV1fS812iapCibCZtIzB8wlqD05lic7Ynd8K3LnibibrXTtVBb1XH2kIoN1efPEj9Iqn89tQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_028_932ce79b0fdf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNT0Y71IEuu9bNnRHZ3dF0Px4JwdPPQNtku3m9YibZ1H5I7baeXbk6p7sicygNvhNiaGVb3uRrjM2ycHTgFAlWPHrdvTfw1Mok7BA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_029_3027987ec351.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMmXDsgHSL95SmzmiaycbaWUYXrkXKg2uSzEicmoKwiaLicRR2hia54Bpy7UicpEUZgjvRkpI9n3a05AtbZ4gR5FUqmHrKJfewM1MU3s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_030_d28b0586e4a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN4UTaWiboZBf7yAEhqyhptsdjvankQib2jWIMbJgZ1RxPJbDJgS87xQDZnMOPDcPNhzfibufQpUlq7z1gX849ORUJ3KqPRPs9x8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_031_f6f933b64454.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMhoGsibb88aJYibqS8licaiaEdVx1Jrv24c8EdawmDBfaGrFcicogzksOJat9oT4uu7l4TV7ibzicAkPL9ibJK9XeYCBC1sia0RLDl5pyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_032_93fed72c62df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPPnoGgIIQz2kIY7AKP02Bx4gyDG7TY07be2DaI3uKO2MZo6QcewWibDFAsfvQ7gibibZdBv4QApEou5npjZj4gxaI5Z9yIdnbqI0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_033_439d12dd24be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPficzw0IoRpiaBPc29a5XVwwYsSFG1JHrJ9klvDYvNaaBWRc2hcg009QLfs2AG93jrcmp06ib8oIaFvdVYfQsX6JZkvwuFL7YUE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_034_3a375c3cf8cf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMVI6ibPbyI7HoLxkcKntjROgg00SyT3rMVFqCSCXEa2tdAZibibtVbUtCpdZg8Onj3cr2Q3jf8Wu96QOI9LVGSzhuhRnhibibw5Ih4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_035_811d6b09833d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNoHjm2g8xPjN8iaL1FdeUm98d1zFQ6ZGeZV4d60KtfhbUC3BRoAN4Iwib1Sdhy7jxBTcXank8VqOdqFxDdcQvoKvGJ5hbz32ibdM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_036_3c75c0854aa6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMdHCYqiblSVzErQ470wpSxrXDQQMoOrXA6SWlzNfJicSFJJFoEicQLc6QtQtzbOPb75dmL5BBEH3jo5pKRKRYxne4rcZZZpYOJwc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_037_7d4ef8bf0705.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM50B65aS2hUrfXK805FsoZe2AS9o5yqKtzL7Y4zib7K67VDUPjd6fFk6jDMyqlfXe92NJBvGEFgJElLL4WH8Dia6ukBdHG9ib3Aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_038_789142254ade.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP8tPdjKSdQdsa5mcDY40LndoM3Fib5N9PxGibJBdYZaWRGxaicicySmM0NUw01OCV6zRzzyEBibaWY0dG3ibJd0ZhzOiaXfwtpJffJ4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_039_53e02cd18678.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMT2aspKALITiciaWm7M078jGibDdav2z5xCPQNEGTqh5MWgODGB6WQAuW96oDw4icSicdAzyick0nzfuyv6S69eDibiaYibZByib5lwS18U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_040_30ac7daa1d0f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOGhYoR67EAWeQpBTz5EvT6ibhTv3rPfiadEgRWe0aZ4OVVGcP5mfJfmd3R2NHUoP1qGqicsiaJE6c8xMic7m0z25dLUsK86kxSeqKc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_041_3b0ab5015fca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOgFplSYZFrNPKIcPibocKHhBiaslHAiazeiaBBVZANaO2Gbqm0Yeh2nnKy93LK27hhmHWqCYwXaiaxxLWvwNFFlwYUGll2I3ty9q44/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_042_928eaa8776fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4nbe3nDp18DWDNkBxJe3o6HuOFLlxPHmS2hVCjqkNfEUcMO88KgasknjWtp6BQ0J4H11ibibB3LVDbQk6ic3aoica9PicFVkWv3nI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_043_010c7dde6582.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM531gz3aUCR38Sda73Y5VTZsuY64ONzFjwiaVvDttxToDDohMUWYODQdh4Vu5UicVFkdyg8C04icCrRrYmIfyqJ3SYVP94vOUodQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_044_68600ed61d0b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMicVQO2RicGOGvhMshVshIIwEf8I0DcdwWG3B8mgia2Ja4aLy47AVppUvSrN34BKerfFlsF97ppibJhOzJiaoRevGhkYibetX4ibJYh0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_045_3790b83d037c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOJDBFRPxfjJwhCdfFxicBKwxibGFvVlBic76CEniaY71ULzuZK5XMonwiatypvsk2iaJ2WM2MiatyrtUPvfAiaoKAU9nnWrGibLjBA6rYM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_046_90331d5a8fc0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMIpqHWrQPaVOKR2nC9R5hElLWkXxDw9ZWQka4wc9KfA6y6OU74mIrRQnp6HL4LSQGU9Gy8gicIpoVtW33TmrzArZhlTkgf1ycQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_047_6677431e4d12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMSbudibsv9mp8IFRWia4eraBm1lO9QCfpypsoXibxJa2icEicROpWuWARO6h2meicqrUNWJNNUR8VG9FNHF2LIsE6rUCeKoIoQicYN0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_048_d6cdc6b36f09.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPGNV503HfErfKrqkibib6vWavMUgFrVCicZVReKibTmRth91spLDVicQLBEAQdwm5wyFhjn5HSm6jNGhdribHFzB5rF1vWwCTHIgYwk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_049_001a24b225c5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJ4usSdD17c5Vq5EPEl1ToYeeFNjlJOicRibnWMEtKSiaJ6jkDqyzVsibewFr8iaj3C7ulGBKR5l5cxeUib5ADu3j7BiavZogxIY6bxM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_050_4fe9e64d62e6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOvibw50Zl0uXTgrdOJjrIrYExibR1xQ5m5aKzEYqtiaZwQNb1iasqbd2W0yPEkn7NWgnHBwj9c6A6cUXmNR1To0pzZ7v3JOtC6ey4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_051_a99958757514.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPf9DxTjyu3MicpzW4yUGpTRiaaibLjcYDNibicy0H1rBHLT8Q2sm0ia4Yibb9ic4IVASN167oAA0WopYJKibg6ibJNbkZmkczoptSNRZgVU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_052_be2e5fbf9220.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO6M53LVbeLbGvTicqjIUp2Iw0PtsJUz4JZfkz0PibrVric2g2RosOfXY1loicNeTqnSccxU8efPQWLonqfRQY0ibNFxZFM4C6nTb3k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_053_9ce8898ae05b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOQaqBNJZJhzRrpeCBHayXKsWqVeY3ZVQwMUYYN5yEOsia2FXicReDaoW5xKjh35uSIgIyOqWWMEbBia1nE2VQYJRojX9S8ynMu1U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_054_211993b8e8fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNTE7zfHgP2kLluHxOptGm8EozQhVhibsWzCZhmQ6jHdkBHNvbPsQvUNZqmY8icE0zVTAKAULN1y0e47w6rUdzvoZ0xHiakVSibhro/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_055_2a937aac6535.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPgibXYKkHta1mEEHrxjvHrMsF2hynToMtiak5VhbibAkogOo0lFlyUYkSJdQtwf93HfSkibia9WiabtNRJ4Yoyic7NWulcbYocpOgFhk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_056_19445b365a5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOc5BPZ975Gy1LpkHvuYib4sTkIt5AVkiba0VVe40DHqcrvPJ5xaw9AgtqNDPqDxPd64yUiaYicvlnaRnVE628MBuicsIpCekv28dkU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_057_ac88e04ac44a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMsIkBO2Y9MWXaicT9tMEHz5zWDxLrIibkiapzsQpe869FXv5uzWo6dYhOS7XYbwv0K1ZlZDDhgVvQXslRCVPviaZmmIrmOxRNbiarA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_058_3f3796f1e0eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPfVUHkESVu80tdHtyTbLU8q0oUBB4zA8Ta6iaVnxVXMGeicblvAqqlggggxickGtiag99enXx8icFibVqoaT1Vq55BvupKP4jeZ7lFk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_059_e6093cc8e7cb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMrFsfGibeWd63qOJzbvKTPxSicpp23xnvOCOqscLBsUZNv1gD4PRiaLpzXKuM0otL7iaicicyZTaXLJKpibBx4kFESWiadzKVxYBXamDc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_060_6b44f1ef5a4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPxictAmRr8JtqtPdicqMREWicRN1yWMXcKg8NC2piakc8wcXWUhdCmhvVpfdAvtMicGf3rviaqMzWykzib9vBL4QicmhyEicqCPOpHj4s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_061_4eecf70adfbd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPoWYl0IibeHJlFziaTJGn8faVxxfJhoady6VoouZVb8RiaoCPSHybtqnZxIVSNlblk3ZEpfiaMuyXCJLUcvME04QKYe1TBBQzlFuU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_062_41e7f3203678.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPj19L9XSBs27yNc1sZ8fIiazaC4SoKNLaVq7JGSUrJU2BicRmQHkVTRbcHgWnxCZMsXoTcxRH86OMMl6Ht4RmribQPw0k8b1tXsc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_063_8b5beaad8c3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPfQFuzXtrLMOQ3XLjfILziaxMwykbRMYshoyrXY5bhtuDBQ4FuPJTOftluRoM308WdRxFS0jCGwDn2fIIraR6Rn1vr9BoAUXB8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_064_95d73edca039.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNE4x7GbVJmXlibPibv1gfJ8hmkmggz9T1JUJKXBLLvTIWRhluQtUY7KeGLXvXFG5UYFc5xxJgWDKOCNdbtTQFRcOtcya3qic4km4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_065_2551511b3d2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQ4lJGH0zFDvuMOVUeqp74zL0n5Z0ph9seQmovfcMdecFYVY3vtlmJMBnddokqMpHdZrfAQP5oZbUgWYqAW6X1FZf1CuDpe0I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_066_9ab071a75e14.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNNjUDk52GUqTGEuibffkfOPLuOd42ek0hkfBotoE0vHO0woEsb6Vic92T9Md4TbhQaBzw25r3DjibapwQOYKwia7iciaHPaH9AcJWkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_067_ed72d43dd04a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMaicuuA4uaW0pD3TLfFycn3ttwT2lP3X9NiaxZz4DclZ5TmVuTRVB85pyhUA3j1q8Dh9FCqcAJibeO6hq5jXbciadV4kRhlqblpyM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_068_3609e03525f4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOXQtkkiaYcxE4bz3gefU585Z5vubgBxohYrkibVYA6IpwOiaib8pQavKibiciccqnOa4dBor3g2afSPkicF9MAibWBmWVqiavWOEkX08a5Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_069_8d9d7c4a3a52.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPibtmicoRATKMEXCljUjp8DYiaicqeG1a0MCHYcaKtj0I579uab0dNFXkIaejuBNKbYGJxTenG3UQItaIPlUOKm8RIyGTMntxLtSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_070_262766b3977c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOyRIVPy3WJhE3cGDoKutheumTzjXEeWCL3tDXKyyf9AiaEtMr4cgtQzWfmIFNwwiaVxichHUtVDiaFtbTZX3ibia4nJkzYwjXfBgum8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_071_2a75f7288210.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQjz8AltXYUfZRrVBWv4tib1vwgKVljCcZqyza8ffaPCX65qcqAOSvKuZzVSNhqKh0NhxXf5icOaETRHgHLibmRvLeaeUhQoGFNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_072_348ccd673bba.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMakFBqhoKwY49nmpDcyXJLkOj7H4ScpfUOnw4ogLv12btq1KyT22DjaoICMiaUOaYX4uPUJUHglyFhzAhkMIFCyxqp3Ey1Lnsk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_073_b9f4c742f72e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMVZ06dWHAeP7uOCpjLoT6qqhn2cVnGI8chBYTRsGOoV0WulOVFT4wyapAMgzRhvGwAM2PiaumZYhVcbK9vvHOV5XkLjq5CV2jo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_074_3e262725298e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNibNcpPSyhPibp78JMlXvTPxoDWJpl7ib5o8c5gMkPnLIy5tHfHoronTx6icPxtqpSJx9CCJNspDEWO0j36uUax7g31Y8L8amyVsk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_075_ecc47c864821.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOp0fRTGt9movMm0ibHbUeSIKJ9zPlibB48JKF8oyzvkVQSIf22ia3cg2WdcYlibIWoZXU24FE9vPwOgV0OPuImlD8icR4fmVOjj39Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_076_aebda0ac0561.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMtANRXgdM6mNAemeqAxcHhKeibfPmU1ydZQRyjAib97pZ2kzjs0htyTQxcP1HTiaoiaKLJTXVMvTP4hd6dQic9KCbGictamSjP7YflM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_077_74643b4d34b7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNsabMEMCMLWzxmOBWicXibYg53TBVylGrbF8iauU5IPaKJtUXhukDD0qib4FtcNbAbt0lBduWE5Sj7aVzvrLxV1GP5SAGFNKaiaxnc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_078_19f96fa8a656.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNce3QxxYqh4OTBeMgI3Xs0RRu6RvJ118rJqS0EqTy4DyXqlTBicfRO7gBoica5kqgPmWJwZ5qEg6RyAkFMNvT9tONG5HmJ4DCu8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_079_a9db515a99a3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMphbq5NpU1fBuSW3aGCJJDICTiapAXEktF5ZgdjeOZBHTQxLRWWK2rpOIh9yG5I0L2qzHQ2fCMpJQxAH6JM2gskXVfJLCFdc0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_080_8383c0b61857.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNRxcOuZPIOZSgXdic8drHa5c5B7jVjTdnKicxbfWialtpmWuVmicdy7B6YTicZ1cQCB1icVd9034SqQ7IsXfSHCOlYtjUibHMdcTuNUE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_081_61cd17763411.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPB34DSsCDAWJAiaoEibf5lOe15fXXVnYo9LISiciaUzPVxQCBALoq1iaqSibFEUvwrBBkN2dwjVbzibiasXibq0lEjDuS41JCBsdjh0oCs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_082_8e7f7eeac54f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOsKTdicn12TsDuIIEJNtRI6WpIScxGapNic749xUKHLBn5KOh1hTw7g0MLicbJwrziaoPz98tJ3LtPljVficxgOGTbFLbQ40ZmsYTo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_083_ccf037333d02.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNg85IBLqkM5NGFK93yYjjgnm7vEAiauAQZKcdl1zJm90FruKBvfA9WjNcJ3d2gMGxg4lmmG4shlAxribOu2Xk31lbpF8RUbG850/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_084_666842191d29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOopC2ib7664xyibgvAnfGBL8DrKGbNvZZy8Bfn716oIkddA72qfFIkKzlN1lYal9Ihu6yibAiaeQQPgmTphDrIKVF3VX7kNfPINPc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_085_b07bbfaccf81.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNdHawFmEAdcicMrxD4NkIBKumpL0aSaYk7MicVY3AYT6tRveOk3t1p3ibqZr9KePlU5cRIibwGEll6CUrMG3avqoBXWjzWMicicA6bk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_086_a3b2c6e2e06b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNxSiafFg6jYKDDLlRFktMkZLxVTdmjAiaC1CSYhpuwmiaR11mXSEaCBiaHo3BaDicvFjZs66mnY1PK3CFtSiaGnibSmP42r1w1MMrX38/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_087_e95f9cd95f60.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNLGNProNYwUjKvLTUbgvOmCyRt0UlTm2LOiaV4HjibBxjAbFFV7h7gXv7QTcDicOGr2QEicxX5RUte2LhHGo8Ct0cIFmAbb1RcQG4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_088_c5b759175cc5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNIDI3A6ibRf9MFbAJZtAEE0uj082gjLrPw9UI3LAOvPs735MC46QCOoxia38K8RicNs1YJE3sN9NjGSCnt2wuYDPFtKfcVaByp4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_089_fbc7b96429f2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPau3Tu18ibMDcfqI5rUKoqHIZcObwsAL71ahX8ggohiaiaicKaCic5YYnTvRPjOQcoiclqZ5eAJdIVqjBoiaVynraQc3YAEicCNJZnPco/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_090_04425498d27d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMWkTICv7ZQ2PK8P8LHf02XZU6pydiaZo8Gra1HwIA4jy6am4uWGCmTK8fsIhg4ewUlY4h5ofk9Mqmdj9ibfe0pc3COcWOK2UraI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_091_4ca4049ae890.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMp6zSPTmvlvnS94tQE6Zerhy7zy4SrLDjyiaVQpKl9V0wPxByCvYGIXRUmBRkMRgL3Lp8szGIhSgkEAMC7iaXOGearJGddlDL4o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_092_c5892b4062a6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMOl00rEKDbNKvSPZ3RRzPDBKfNzxVicNoTxGWKqE8PjZ6s8DcAs3ONz2j76s70JTV0kZbMWRmOl6xmc96OTLqIG80J6vnYrzy4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_093_b686aff731de.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNPdSicQE6qEl0XPMdoFDJwiapyfADWwq8ib0IGvp1gGNELeOookFWYTvBwNmyXQCYcxdsKmJ8ReRQyqQbVZUEGoPZ5LBTvIQWvlU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_094_7bfde376a38a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPjcicpZIEdiaXicpndE5DcGsHY1J3LaPhPx4gvicgolY6GpVrhpyO3QLb8qt2Ma7ibaco5JCyJsolpF9EWFxibOfesE9cnbHdiawWr44/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_095_0d663cfb659d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMwM9mTF00UP3OU0FfNvsboWDjdw3JHU4lNSkFV7JA9XIBEgOuJYUQDfccQPkXe9k5ZA7afka3ZyBfibxSvSISM6fIVok8viakjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_096_f8fc9d0583c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNVbWbu3AEKIRibyOlkeicPgwsPiaWmzVhb7MibibNplJZ7cicg0Cc5f2Fm6qFWNXf0gNd0DbEh4VwS6ibF6PQ8tnM2FY0WUYPibib1NBib8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_097_21d4bb5d737c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNS1WyicicEmToFhlJbabicJncE3QBeyiar4whwFbCia4huLENxCnyz7hePYRBjqibSeMcyyd85YniaAwtvjXVHOkRMzicQVKO9HXjVchg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_098_015edb447a44.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPgz038gTW4BEOCbx34Wsby5qtyVP32YXE6ib1rrvmx3ibJkntoK1wzTf4Fysq4DbKEdluOZlUcFpLaCwFgx8icsfBpqTpQAEY56M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_099_eeeb5a25b301.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUtbQ1vicbPNBpK6rGplJNv5ag1H9DXarQ5FehW8btp0KBZB9icYA6oQlGdthsGWiaj5suhYkIxWCCoXxd0oqmpiaibiaqbW85XdxHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_100_3fbea53e3bdc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPLxjPocnhiaOXdIw3MEDwiavMibyTrL5msTp0o4Bsvibaw5ONTyopxUiaEsQ7TibLEClVwRsdVliaPsROvyRxOtvl7Fjt3FqUF4QlHT4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_101_983ed0e71bb2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpND2icULWtDnGric306Fv8UmHQFYXQzAPxDtgJg4y4DWWjxXr7iaxkicmvhLkm8KhRwgMV8WND0wjicLMlJNCmR8j7vFSPhyDLJu92k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_102_6c816acd3a21.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMCLwRzaS99iaLuCGxBVuvIcs4fIxJjkagKpZTKQwUlfLe0qrr7KDneL2XaRIGibAMjwCBnvX066Kc4DV7PkYuoiaJlgXy3Lm2xs0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_103_e64f3730b227.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNk8FfaBZKOiaFrDCowtDkjHKcfeS0cszzLkn6M71KeHq8TJVMlys4fymKhg67VibFbVMad7iadkOricQtDMsQDnRgiaNht1po0tgaU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_104_240734149a97.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNbVuCsJ2NGiaf5OQOaU58ddiaTFHw3BSaJrOmuz8NQmYXyafm9OX4GIfOgiazTQ9WUiah7znuabLZLtx03p6J1bcqVpAjtWY620Dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_105_79b2f69e850b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPnrf3BrvU2auUicj5O51gS1EuoJtmV59I0iae1s12iaTiaUF3pYolgt6icFAN1wicYce5BgfLOWkrDZnNFtQSIduuHruFkYtE7lhb8k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_106_220645042e8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPMnT4icABlSu2kfCzIxich8V44LjVbXWPDVw6mX485icxyNl402XUffOql5VDTYZ5icsALYr0iaXVibYkOzUiaDDxEjHqhZDKGEjUg2M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_107_3bcdd549f32b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMMxo4ykMHj0JiaGssrzkzJaRn8ZW7eLjA4Z3E5v9uavfgxGGmnOic6uzCpI1FwgbGlRgvhmrzMMtPqz0FQRO9pXHflsQAEPSGzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_108_ebdf22f7dcea.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO2ZlCHiaBibGiahXgqicMiaMA4ow5BQvibusGnDxndHPy2OJb4B2eib2icu4eo690gH7yW9xxibib1uY7UxdVaVzcWicz84wKLM9m4wc8uEU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_109_53748f78d5f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMjibBY5nD15wbEtutwicpX5w2GDMxKibSuFuqCm4xfzVcJgnIQdwZiaPRIUJKe7icgAXJO3npLlQoBrKejlmASyXc9a15IMhUMtPRc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_110_370e1ae09e2f.png)
 
 注：文字与图片报告无关
 
@@ -560,14 +560,14 @@ X-Rectifier：模块化独立每相功率通道，不对称三相负载适应性
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpO6LL2ibRcmyDTxkibHKWRwuZeRJ6cSwia1SZ1KTmKwLunNNyFeDbaNw17TibyagtM0wSAAaYQA7M5RUUVa5m0iaVXtbz3duV2jVDM8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_111_f15eff55a79d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
     
 
-1.  ![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPDdPqex8ra8VbYQOzhJ8us9s1r71fu0gnCgPqib3EOyAAysmG9LbEbcELSHCuwK62p0OiaR73balwDnwOSATnnheBtxogUYJxJo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+1.  ![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_112_5a48c3b007fa.jpg)
     
-    ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPKDXRYyGgatyIFrEia17SZH3YSelp67OJUuwW9S34tibs8DqRmiam0hFVNib0CKSedqZ7rZdpxNGLf5njfSWy5ia7xaN73RhdZpWQ4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+    ![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_113_bc0b667a2a58.jpg)
     
-    ![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZsfHPKxeDRar9kW20EBic0ulRBiaqF0PMUbISRrgibGG4TV6Obe0f0VdmOoMxJ0M1vVHuK2zGXd5TJK2YiaVWmfFFqRKeO0HicgNA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+    ![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_DC电源转换技术_历史开端_最新技术_未来概念_images\img_114_29a8c84fb9fb.jpg)

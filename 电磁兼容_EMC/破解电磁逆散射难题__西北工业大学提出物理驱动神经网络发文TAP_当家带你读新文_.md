@@ -5,15 +5,15 @@
 
 # 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfmiaiaIsqX2UTS5uJGW1uh9XuiaeYPmJDVpX1wP6ibIgw2vPe1mmPKJKrcQ/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_000_b05cb172dc92.png)
 
 #  **物理驱动神经网络求解电磁逆散射问题**
 
 ****文章核心创新**：本文提出了一种物理驱动神经网络(PDNN)用于电磁逆散射成像，无需离线训练数据集，仅依靠实测散射场和物理定律指导网络参数优化。创新性地将物理约束直接嵌入损失函数，包括散射场数据一致性、介电常数下界约束和全变差正则化项。引入基于U-Net和形态学操作的散射体子区域自动识别机制，将计算域缩减50-80%，显著提升计算效率。该方法彻底解决了传统数据驱动神经网络泛化能力有限的核心问题，在数值模拟和实验验证中均表现出优异的重建精度和稳定性，相对误差控制在2-8%范围内，全面超越经典BP、DBIM、SOM等方法。**
 
-# ![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfYyUUDt0LibY24P0opyqhIVhADlQvZCzeXSB5SCOSN5sUHNJu7SYibkBw/640?wx_fmt=png&from=appmsg)
+# ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_001_34a263806e37.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfuBXyzJAwzCGs1kdWyPzAX0DiaPDdrCVkV07L7slcsYIBGXBmyacOQFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_002_a38cae646b2c.png)
 
 ## **📋 文章基本信息**
 
@@ -37,7 +37,7 @@
 
 **文章引用**：Y. Du et al., "Physics-Driven Neural Network for Solving Electromagnetic Inverse Scattering Problems," IEEE Trans. Antennas Propag., 2025, doi: 10.1109/TAP.2025.3637513.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfzTrIicBcgS4edGO46jtlfBHC2h8aAWJwWrw2O4BLK3zHzeprOBrGEyQ/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_003_b36a2dd9aa02.png)
 
 _**当家有话说**_
 
@@ -105,7 +105,7 @@ _**当家有话说**_
 
 图\[1\]展示了所关注的成像系统配置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfYyUUDt0LibY24P0opyqhIVhADlQvZCzeXSB5SCOSN5sUHNJu7SYibkBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_004_34a263806e37.png)
 
 考虑二维逆散射问题，采用横磁(TM)波照射感兴趣域(DOI)，散射体在z方向均匀分布。个发射器轮流照射DOI，感应电流源辐射的散射场由个接收器采集。
 
@@ -125,7 +125,7 @@ _**当家有话说**_
 
 图\[2\]展示了PDNN的网络架构和迭代求解流程。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfXNmZV230icdZ4ye9dicr1a0RBps7yo5MAC6B5VYcukT3Ces0uSzJyjhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_005_5a6dffc84edc.png)
 
 网络由三层卷积层、三个残差块和两层全连接层构成，卷积层用于特征学习，残差连接有效缓解梯度消失问题，全连接层基于学习特征输出预测的对比度分布。
 
@@ -234,7 +234,7 @@ PDNN的核心创新在于将物理约束直接嵌入损失函数：
 
 图\[4\]和图\[5\]展示了损失函数中超参数和对重建精度的影响。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfOx83A1n11tIKPMbiafAvbtTibba4xtlMFibpefs5x6nKv8DALYkiaz05yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_006_9b37d042f4e4.png)
 
 **超参数的影响**：  
 固定，在0-2.5范围变化时，相对误差保持在7%以下，表明方法对不敏感。综合考虑四种轮廓的最小相对误差，选择为最优值。
@@ -246,13 +246,13 @@ PDNN的核心创新在于将物理约束直接嵌入损失函数：
 
 图\[6\]展示了四种代表性轮廓在3000次迭代过程中的重建演化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfHlaTyic14DPjJJpocJLQ75nHIzAHWDEY4j8W77kP2qVzMUaVNtgfTcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_007_9cc376a3c75a.png)
 
 当迭代数k=300时，轮廓形状可识别但存在强伪影。随着迭代增加，介电常数实部和虚部均收敛至真实值。
 
 图\[7\]给出了相对误差随迭代次数的变化曲线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfpiawiaqsIt2SR6jDVSEEwfeACAUiaqC9uASREHJeibfpPZYzniaWWexygGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_008_654724772943.png)
 
 当k<1000时相对误差急剧下降，之后趋于收敛。这表明算法具有快速收敛特性。
 
@@ -322,7 +322,7 @@ PDNN的核心创新在于将物理约束直接嵌入损失函数：
 
 图\[8\]和表\[II\]展示了PDNN与经典方法(BP、DBIM、SOM)和数据驱动方法(U-Net)的详细对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfwVUXqYgSZTZcydp432v6zX9I3JcgXJLndiaiajDIKOjeNfkKoQQWPCKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_009_b942db7d56b9.png)
 
 **主要发现**：
 
@@ -340,7 +340,7 @@ PDNN的核心创新在于将物理约束直接嵌入损失函数：
 
 图\[11\]展示了不同噪声水平下(SNR = 20/10/5 dB)各方法的性能对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfRJn98DD9rkonruvIuEEKLgxuWqzZknOClVknHV61hrth24ib7QomiaGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_010_10e190d29312.png)
 
 **关键结果**：
 
@@ -356,7 +356,7 @@ PDNN的核心创新在于将物理约束直接嵌入损失函数：
 
 图\[12\]展示了三个具有挑战性的测试案例：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfbeJx8TOfflkNNtriaFBW2cthtoBYfzpf4fAz7FN2cFF3PgNhZOe1OUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_011_570f28ba22cd.png)
 
 • 案例1：Austria轮廓，(有损耗)
 
@@ -378,7 +378,7 @@ PDNN的核心创新在于将物理约束直接嵌入损失函数：
 
 图\[13\]展示了基于100个数字型和多边形样本的稳定性分析箱线图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhficJTR0vkD2D5aYmgcRsibcBjmicicQraBTldwINiaaq9LHbibpDAFVrvCeKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_012_96e0e99e006a.png)
 
 **统计结果**：
 
@@ -404,7 +404,7 @@ PDNN的核心创新在于将物理约束直接嵌入损失函数：
 
 **如果内容有帮助到你，请给小当家一个赞，谢谢！**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/cKMPJZcQE7icyJvicHpZJlvGrdN0SDfQhfmiaiaIsqX2UTS5uJGW1uh9XuiaeYPmJDVpX1wP6ibIgw2vPe1mmPKJKrcQ/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\破解电磁逆散射难题__西北工业大学提出物理驱动神经网络发文TAP_当家带你读新文__images\img_013_b05cb172dc92.png)
 
   
 

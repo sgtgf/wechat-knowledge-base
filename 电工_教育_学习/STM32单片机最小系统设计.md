@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvOzJoJAb5icDdYCuWwaVCMicdqicMxjVY7YNNp9PhtZldK8dJDZeMwAAEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_002_fbb781a78c02.png)
 
   
 
@@ -40,7 +40,7 @@ STM32最小系统简述
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6pb1zOF0iaZHCWoEXyrlicutbv0dj2jgqemw4WOk7qqE8AHhUW3g1unWQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_003_8c088c7e5564.gif)
 
 STM32最小系统，就是能让STM32单片机能够正常工作所必须拥有的组成部分的集合，也是STM32单片机正常运行的必要环境。STM32最小系统主要组成部分有：
 
@@ -74,7 +74,7 @@ stm32最小系统包括：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6WwWpAF1fGTx3YcbrVcorIQViah7EI18CbqNnnLkfNrGR1zCIGaSiajGA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_004_ca4d4feeec08.gif)
 
 在设计最小系统的供电电路时，需先确定供电的电压，本文所述STM32采用的供电电压为5V的USB供电电路，单片机的工作电压为3.3V，我们需要对电压进行降压处理，因此我们采用AMS1117-3.3芯片，将5V转换成3.3V给单片机供电。
 
@@ -82,7 +82,7 @@ stm32最小系统包括：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvTUe0K3uhkUxE4mXXcGUJJRKs9ia1eSmiciboWKMT6JH5598lv4lZczj5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_005_f2c040731a19.png)
 
   
 
@@ -96,9 +96,9 @@ stm32最小系统包括：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvqiavmptLqhJGicTia7Y4pQkkHMufEicwsxZQ2ZrtyGdDQibSwwrbpYB5W0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_006_55d2bb8ab2af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvyfzm1afqIlovfhRPcjCJCB2z7Sklw4OWab7WESfSIXWnMEXhFB9ibPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_007_ac09a1a3b9f7.png)
 
   
 
@@ -126,7 +126,7 @@ stm32最小系统包括：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvPGsFv5QdqmIc5tQXqXnmicAjUiculPOcG3WlcmjwAMVOM3NIe04938iaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_008_6990ed4aaecb.png)
 
   
 
@@ -140,7 +140,7 @@ stm32最小系统包括：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibv6SoeXibQicv2AaanVdntFQmq2v2wXPKy6wvu67iaqLCn0iaia4aHQU63OUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_009_0f8a15724bb1.png)
 
   
 
@@ -156,7 +156,7 @@ stm32最小系统包括：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6VxLETPrLtto3ToOwnsJxU1N6Cbd4STzvLwdkW6Cib2batbwicLLffbYw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_010_c1729b04ee1f.gif)
 
   
 
@@ -178,7 +178,7 @@ stm32最小系统包括：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6WwWpAF1fGTx3YcbrVcorIQViah7EI18CbqNnnLkfNrGR1zCIGaSiajGA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_011_ca4d4feeec08.gif)
 
 STM32单片机的下载方式有3种，分别是SWD（Serial Wire Debug）、JTAG（Joint Test Action Group）、ISP（in-system programming）下载电路。其中JTAG和SWD下载电路可供用户对程序进行在线调试。
 
@@ -188,7 +188,7 @@ JTAG下载电路：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvtYAHaXrLibjiaTz7pGEsDv0SLE6UiaGuCVSZwvEiaRXT5BICJw5YTLTaag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_012_6b232a44f492.png)
 
   
 
@@ -200,7 +200,7 @@ SWD下载电路：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvkZb1uj4zdwhCCzxaeORbIicsrn2kMia8vtAWCnu2djERPPB8PN7bJG7w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_013_ee2e7b3b36f7.png)
 
   
 
@@ -238,7 +238,7 @@ ISP下载电路可直接使用转串口接入单片机串口引脚实现相应�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvDf26tXJtTK1icMBNFZiaWxskIvn5q9Fl9v6lKibtLdZ5K4NERYXDgyu4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_014_afa68e1f25ef.png)
 
   
 
@@ -264,7 +264,7 @@ BOOT启动模式选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW62g4ibk8iaNHMYjIYEibd1FcQAyaVHmftngztaog4pUXQG81wZs3j4mShw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_015_f1ef9a0f5195.png)
 
   
 
@@ -282,11 +282,11 @@ BOOT启动模式选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6uOWIbsLmW3ZQGzXbrAjibwLWtCYFA7CsOibHl6w5UuJxnVTByBodo2Yw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_016_6491adb621f3.png)
 
 **附**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6KejpxhSeial113RyUwoKI0EqHrI0Aems4cwrgDD7cZswy3lT6mdfZvQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_017_145f8b3341bf.png)
 
   
 
@@ -300,7 +300,7 @@ STM32芯片选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6pb1zOF0iaZHCWoEXyrlicutbv0dj2jgqemw4WOk7qqE8AHhUW3g1unWQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_018_8c088c7e5564.gif)
 
 在设计STM32系统时，我们在选择使用哪款芯片时需要根据项目功能需求来选择，再确定好项目需求之后，我们可以在st官方技术社区下载选型手册或者下载芯片数据手册来确定选择哪款芯片。
 
@@ -310,7 +310,7 @@ STM32芯片选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6ibEiamEib6JrNTrPKtoDM0D3pJZMK7qCZTMG0cgoHWZnldhQl7q4Pnia3w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_019_e6c87a283b3f.png)
 
   
 
@@ -320,7 +320,7 @@ STM32芯片选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibv6hbibWSQprlUeAZ3HPibI2vfB4dtK4icf0VCqM1U1vwEmUpptQibxZ9txQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_020_105fe1f9abf7.jpg)
 
   
 
@@ -340,7 +340,7 @@ STM32芯片选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/MNXS4bfTkkX83LQR7Qt6b7icicGUGc4SW6pb1zOF0iaZHCWoEXyrlicutbv0dj2jgqemw4WOk7qqE8AHhUW3g1unWQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_021_8c088c7e5564.gif)
 
 在设计STM32系统时，我们需要根据芯片数据手册来确认需要使用的引脚，例如我们需要外接低速外部晶振时，我们需要在芯片手册上找到外接晶振引脚。本文使用STM32F103RCT6芯片，所以是64脚的芯片封装，然后找到外接晶振引脚，就是PC14、PC15。于是在绘制原理图时就可以找到对应引脚，连接相应的外部电路。
 
@@ -348,7 +348,7 @@ STM32芯片选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgmB1dict6YpJGHhYIQajMibvict196zUnHjoxyfuOxPkialibCoibz7JlQiaPmZ5yk1CIqQ2n2IJPGADbDA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机最小系统设计_images\img_022_a6c3c845b8c9.jpg)
 
   
 

@@ -7,7 +7,7 @@
 
 SiC（碳化硅）MOSFET作为第三代半导体功率器件的代表，近年来在多个领域实现了快速增长，主要得益于其高耐压、低导通电阻、高开关频率、高工作结温等特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAkGrEibACBmkPic3jkg5FriavibiaLsrQIBnTj0Jd5WQR2kiam5kz0EBGskJw/640?wx_fmt=png&from=appmsg)
+![](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_000_3040b7edd63d.png)
 
 从市场应用来看，SiC MOSFET目前主要应用于以下领域：
 
@@ -31,13 +31,13 @@ SiC（碳化硅）MOSFET作为第三代半导体功率器件的代表，近年�
 
 为满足市场对碳化硅功率器件的更高电压、更高效率、更高功率密度的发展需求，爱仕特成功研制出**耐压为3300V、导通电阻为40mΩ、可支持80A电流**的碳化硅MOSFET。更高的输出功率，使得基于爱仕特3300V/80A碳化硅MOSFET开发的应用系统具备更高的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAQYMGnm8CNGMIxfq5ZSmWwsMggKEHm0dZibMHOvdhhQs0hJyYicLbWSBA/640?wx_fmt=png&from=appmsg)
+![](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_001_59d47c5bb634.png)
 
 3300V/80A碳化硅MOSFET参数表
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAKHlrEtc1ad1umDx9bMJBA1WGtPA2ibYo2slNCEiakaAKmyqGChkUiaa5g/640?wx_fmt=png&from=appmsg)
+![](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_002_daf5c1e31488.png)
 
 3300V/80A碳化硅MOSFET拓扑图
 
@@ -61,7 +61,7 @@ SiC（碳化硅）MOSFET作为第三代半导体功率器件的代表，近年�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAiaDGhJ3qn2cMcxVv9yH1icp3GLLSyIoPHOM77j7UEHdETUAFucIkprOA/640?wx_fmt=png&from=appmsg)
+![](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_003_69b8a4296b17.png)
 
 器件在不同结温下的稳定性
 
@@ -77,7 +77,7 @@ SiC（碳化硅）MOSFET作为第三代半导体功率器件的代表，近年�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAib4nxp1WUnY89MCswhHdIv5llbAIzJZf00ib95D3BmNMfqHDBaqP7Nfw/640?wx_fmt=png&from=appmsg)
+![](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_004_74ae877d02ad.png)
 
   
 
@@ -91,7 +91,7 @@ SiC（碳化硅）MOSFET作为第三代半导体功率器件的代表，近年�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAJS4foxtDPtWemK1CoqfkG1y3TrAgfknQNliaonIu0roPiaQmgIveLicGg/640?wx_fmt=png&from=appmsg)
+![](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_005_5d434bb5bcee.png)
 
   
 
@@ -135,7 +135,7 @@ SiC（碳化硅）MOSFET作为第三代半导体功率器件的代表，近年�
 
 下面是一个主要应用领域的表格汇总：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslUAp1ILib3sPkQnuSSHtfHAz7SicN9qBA9eRtbobw5f78t3ibicICDDkQ00Xzy57Z2WoPBZ10UkHqqFg/640?wx_fmt=png&from=appmsg)
+![](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_006_427ce39e97c1.png)
 
 🔍 详细应用领域
 
@@ -186,13 +186,13 @@ SiC（碳化硅）MOSFET作为第三代半导体功率器件的代表，近年�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSkYzuicY0VXBSlOpFQgAEgVbbBRwEQvuFftFpq9dc5c407t1vgGYSqLQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_007_0baa1cd5904a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSQZ8rItVF549RExeyaASEBHibMAhABuxeLC4Z3zx4qR3u9KoVDzNcnAg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_008_bdd5d39df81b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSrUMibDLoibdQRFTmIlZgtnh7nVfvz2WPF2pHmsgJvb7fm870t8gGqSAg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](3300V_80A的SiC_MOSFET产品介绍及应用_images/img_009_8db507bcbdfe.png)

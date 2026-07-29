@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/eAc\_UMsykkK-t8fkDMmA8Q](https://mp.weixin.qq.com/s/eAc_UMsykkK-t8fkDMmA8Q)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exKiaY12Qx3IfGNwNqYm3tVFZbr7g7qiafmgLIOIDBDjXMAWyL7jCpRu3w/640?wx_fmt=jpeg)
+![](PCB设计走线常用规则_images/img_000_7f33b99f9123.jpg)
 
 配图 By Daughter  
 
@@ -14,7 +14,7 @@
 
 预防管控PCB走线的风险，最最基础的知识就是熟知常用走线规则。本文的思维导图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6expSRGRpjatztibkMx9m4ibO24A4yn3JDkJFutwsRIKtTl8pz5QYkmia8cg/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_001_164c88a6d826.png)
 
 **01  
 **
@@ -25,21 +25,21 @@
 
 总长线长匹配的5 mils已经在很多产品设计中有应用，这也是很多设计准则里提到的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exj1GjaAe12Tn19Hgb0KVkzNq5vzVLeoiaJlicoZghVA91uF5FUbZkucXA/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_002_dad73840cd9b.png)
 
 分层线长匹配的概念好像没有那么普遍，差分线的走法，BGA区域打过孔到内层，内层走线打过孔到终端，内层阻抗相对容易管控和差分线走线对称性缘故，一般情况下，表层两段距离相对比较短，所以长度的匹配一般在内层进行，也就是间接实行了分层线长匹配。很多时候，这种分层线长匹配的概念在很多产品的设计中被忽略了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exhxpYNnDgicsXhdrS2wYKx79kJK7IKFRtQhs3EtsqpZblXz6eKxpQJdg/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_003_4ba21ccd4696.png)
 
 **02.就近补偿**  
 
 当长度不匹配发生时，推荐就近补偿，防止不连续的传播。如何就近长度匹配，产品的分类不同，要求也不同，消费类产品没有给出相关建议，只是对BREAKOUT区域以及连接器的PIN区域，给出了相关建议的数值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exT6Zmx4oN7hxLOvibF4hjR4AL4VNkIZIbvQ7zR46oSq4pNq9vHzpYNhw/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_004_672e61a83f43.png)
 
 就近补偿的一些走线方式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exuOJjZd69hX0M17eRBhNrBtJlkOBanFeQN3MS8XCS6rCo5vib97Wvebg/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_005_8fba2a84a379.png)
 
 03.匹配样式  
 
@@ -47,7 +47,7 @@
 
 3W2S有些相互关系的，建议还是搞清楚点。相对于3W2S故意绕线来达到线长匹配，PAD区域走线匹配的方式对匹配所带来的影响更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exiaXpUz4gQ990cBTq1qFNfxNa4tvrdulqOHW5gWXLevSmoODtuibibarOw/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_006_20b0061ac5da.png)
 
 需要注意的是：线长匹配最终目的是等时。
 
@@ -58,7 +58,7 @@
 
 高速产品的轻薄化，PCB厚度限制了走线层数，就有了高速线走在相邻两层上，为了减少相互的串扰，走线的方法有间距管控（DDR部分实现难度比较大），垂直走线（这种方法实现难度比较大），30度角走线（这种方法比较推荐）。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exHZ7AZLFG0N5qplC09RAriauYlOiaD9hdWJNnydtxFTa5O8dPdbPZgrgw/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_007_04970c39225f.png)
 
 双带线是未来产品设计的一大趋势，细节性的东西很多，比如双带线相互平行重复度及长度等。
 
@@ -75,11 +75,11 @@ PCB走线，过孔是不可缺少的部分，这里不讲盲埋孔之类，只�
 
 2.差分过孔如果转换参考层，要打回流地孔，地孔到VIA的距离要大于本身的差分过孔距离，同时地孔要在100 mils以内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exNmfj94bQhKba2HH90cRmK7Kdy9B2OJPmlWyicOe4sL8djjRp9yggaDw/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_008_c4ed4a823bef.png)
 
 说到stub(残桩)，还有一种U-turn的走法，在终端THM连接器会用到。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exLlSIWQfuSlEkjOjbN1KpXeXhXORBD8UJvv342H6YjiaRhs0jLhiblykQ/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_009_5ccb090eaead.png)
 
 **04  
 **
@@ -88,11 +88,11 @@ PCB走线，过孔是不可缺少的部分，这里不讲盲埋孔之类，只�
 
 这里说的器件不仅仅是USB中要用的Electrostatic Diode (ESD) 和Common-mode choke(CMC)，也包括高速链路中的匹配电阻，还有耦合电容，还有SMT连接器等。对其进行优化，是减少阻抗的突变。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exqCJ9wCIsEcHkXZHWnNp3sxUjYIJq1BhHgM0yE5ZHgOicT82qdudnYRQ/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_010_76cab59dda66.png)
 
 优化处理的方式就是相邻平面层进行挖空（Voiding）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6exUwmJrt6PYXEjNic2Rmy6icjkpRmdfZcqoW17pnZRDX9iceWPu6CnBkxnA/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_011_9c4fb9972830.png)
 
 **05  
 **
@@ -105,6 +105,6 @@ PCB走线，过孔是不可缺少的部分，这里不讲盲埋孔之类，只�
 
 注：有些专业名词翻译不一定精准，英文已经带上，各自理解。有些图片来源于资料，侵删。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs2ibjEw83GMd0VibRpPwjRe6ex9L7P9wfSuUVtKu8zHjyaG0A67Fx85jsocdDicjL3SLsXicJXK2lehrwQ/640?wx_fmt=png)
+![](PCB设计走线常用规则_images/img_012_f64483059627.png)
 
 Slogan:一起学习，共同进步！

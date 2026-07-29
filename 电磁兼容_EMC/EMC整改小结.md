@@ -10,7 +10,7 @@
 
 当产品一旦测试不合格，那么随之而来的肯定是EMC整改通知书。在EMC整改过程中很多管理人和技术人员并不太明白该从何处入手，今天我们就来分析EMC整改常遇到的问题和一些整改建议。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTGYEkicibwiaksOqeote4HBk3TsiaePLfKqt5kmB8lSAGn0NwAj4UaJozlg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_002_98294166ad26.png)
 
 首先我们来从EMC测试项目构成说起，EMC主要包含两大项：EMI（干扰）和EMS（产品抗干扰和敏感度）。
 
@@ -86,25 +86,25 @@ EMC整改流程
 
 **1、RE超标整改流程：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTt1ussHrj3wtu3ASUfjxp6JrZbk21VG3CBgLIM9bf7K88dCr08LQXZg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_003_a1dbe21f6db1.jpg)
 
   
 
 **2、电线电缆超标整改流程：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTq5lxBparCH1RAn4oqJ9YVNR7YJemVToeGI1bYuezywBLcSrYMHzEXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_004_cdec94eb0206.jpg)
 
   
 
 **3、信号电缆整改流程：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTOViaQt0ia11TpxwVvzicnglo7eNOMjGWwVicwPh3bcl9IBePdtzWx4rN2g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_005_48f7ba191c47.jpg)
 
   
 
 **4、屏蔽体泄漏整改流程：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wT3uyibociaw55AKvY7ic7vAwicpcXgEQ35qWQpibSRPxFRsD4xHdml0xVp0w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_006_41ed7ebecd9f.jpg)
 
   
 
@@ -124,9 +124,9 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTKjGw4AicdTMbica2Ng7RKhKxXmKEt7Lq6AVt4xLoibPZP346ibQAyCoMpA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_007_c88de083615d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5Qs65JWB2NiaCb1gN5fsO1iazBmFcoMjfojKqXcCRoGzHJtwn4D3VYkwQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_008_c01744a9e1ea.jpg)
 
   
 
@@ -148,7 +148,7 @@ EMC整改的一些小建议
 
 以常见的表贴式MLCC陶瓷电容为例，进行等效模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTWzAZMsrTSA60meTnOHIIAcp3VQ0OW1kA0xKgCCr0o8oGicLwqFMmRIg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_009_799746f48bd0.jpg)
 
   
 
@@ -158,7 +158,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5xc3e8eZdo7dXH7UQDQEqibmpdC6SmQic1KPO3eACp9FskHVevH3deFfA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_010_29ca8930ee0e.jpg)  
 
   
 
@@ -166,7 +166,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb57icksARliaNtOng8laGZRRrcUaaHdffVNgrFgxWq1QVeECfVe3bicwvng/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_011_95232ac80bdf.jpg)  
 
   
 
@@ -174,7 +174,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTS6u4xDgkXicIuezLbV9tlAoZiaHTicGKkZHUC5IQqGqpCNbb4dzFke2Kw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_012_d8ab33574325.jpg)
 
   
 
@@ -192,7 +192,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb55gwMP2lia6T7uiaVfHET9JnAFDNOaAW4ZyFWEYhzHsL9tGfSrTv5coBw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_013_8577235a13b2.jpg)  
 
   
 
@@ -200,7 +200,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5iavSMabibEglszWQiaX8c9AJya8mPWbibpwUn8uReChXibTPBDhMVkd1nGA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_014_c254d639b7fc.jpg)  
 
   
 
@@ -214,7 +214,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5rOdrrVyvAHmFBLX2tmSxfhkjSMjvY7Gu3TIdcS01U0NTG0rjdG0ozg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_015_0776b7294bf6.jpg)  
 
   
 
@@ -222,7 +222,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb59Dpyl1yg8JSIyATl7GZZZPt4MIyHVibMQOeDZrOV7L88Enh1UbzgXMw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_016_ca011c7715f8.jpg)  
 
   
 
@@ -244,7 +244,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5YC5M9mf24CVPOsVxtK9FxGVgtge89qaib9P0mB2w99zvfbm6cbQpSBA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_017_cdf99e50540d.jpg)  
 
   
 
@@ -252,7 +252,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5Hj0ZUpHgEznHQR6ZOYuwXsX4plibqplzAxIYFJPS1AUobl0vtPpaiaPQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_018_c8561f8d7dbc.jpg)  
 
   
 
@@ -262,7 +262,7 @@ EMC整改的一些小建议
 
 往往在设计阶段A->B->C是都会关注的。如果EMC出现问题，除了要在原理图上查找电路参数的问题，还需要特别关注C->D，即回流路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTiawBzPlYxgGof3XSrRib933MBRiaSiafQ91pa6TYTGRNML9momyHS5UriaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_019_753981da11b2.jpg)
 
   
 
@@ -272,7 +272,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb544HuXEO9B4b4u27Z9XV9FoPwuODndp1bd8W7bntAU01QWjUTm4MKeg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_020_ca671b34ebe5.jpg)  
 
   
 
@@ -280,7 +280,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5Jh7LXtUH274dnY5pBmNk2GfZnoVcUMIOCHGqOViae2Y26ia74bdSYMxA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_021_74acf99a82ed.jpg)  
 
   
 
@@ -292,7 +292,7 @@ EMC整改的一些小建议
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHRUxjVPUQyBrekuEEuIjsb5WJqDS5rIK8AdCwggvogT4bukoLKlZmMXSOvZIqSUqZ6t53hicicQs05g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改小结_images\img_022_602048d64b15.jpg)
 
   
 

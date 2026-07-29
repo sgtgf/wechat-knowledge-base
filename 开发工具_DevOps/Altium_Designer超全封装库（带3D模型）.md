@@ -10,17 +10,17 @@
 
 大家好，我是蜗牛兄。
 
-大家在画板子时候，是不是经常找不到合适的封装，有时候又懒得画![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHMnehicrkRlY5v2ma2OBhy6licFtBwmibsr86bHxUOmZNbaS8LyTvYiak9Q/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+大家在画板子时候，是不是经常找不到合适的封装，有时候又懒得画![](Altium_Designer超全封装库（带3D模型）_images/img_002_f815640a2c87.png)
 
   
 
 下面给大家分享3个封装库，基本上常用的封装都能找得到，还带3D模型的！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHIqyEHwhK7XPWdVmRnPlKDusRjB5j8MwvXSyUnu2s75YuIu2zToFrdg/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](Altium_Designer超全封装库（带3D模型）_images/img_003_c6cdec30b97d.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHwggLm0U0A4rqkqPGic0BZlPwKJViblYISwianIZVLa3sjRIYFDz8jViaGw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](Altium_Designer超全封装库（带3D模型）_images/img_004_ae3d03fc0807.png)
 
   
 
@@ -28,47 +28,47 @@
 
   
 
-下面放出部分封装的截图，让大家看一下![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHDQEMicyHecPibMXvgNTs4kWLqMcB2aics8VInVIaGYj8V6UmLqF6w8n7w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+下面放出部分封装的截图，让大家看一下![](Altium_Designer超全封装库（带3D模型）_images/img_005_bc64fcffe94b.png)
 
   
 
 电阻器的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72HsDPbyRXghCHeG7A4paK6OL1ndNjz9rbfYxM4Rj0ASDxO9bDDgic9Ag/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Altium_Designer超全封装库（带3D模型）_images/img_006_f9f95a4c6733.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt723SCLsKObsRzO65sF1D7qAdq5kKsiaT1iashRqGQX2fSdqszIhWaSshrg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Altium_Designer超全封装库（带3D模型）_images/img_007_1b6ba5ce31b7.png)
 
   
 
 电容器的封装（部分）  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72kq0eFetCIxxsn71Ny5WnyVE4jDYQ86g2WURsMKKGEgHLKVxfGAwhMA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Altium_Designer超全封装库（带3D模型）_images/img_008_468f79c1b450.png)
 
   
 
 接线端子、电源插座的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72X8tPk8ibiaa02NdlDAGwD3ib8vgjsFejfLxOSfIUN2PQahhx4fFmytm6A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Altium_Designer超全封装库（带3D模型）_images/img_009_40bae3e99ccd.png)
 
   
 
 常用IC的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72naV0PQYToYUnvBOKhia072l8tZOABygHQht3uhufqAKSNzAgR1anQ5w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Altium_Designer超全封装库（带3D模型）_images/img_010_b8a3e6abe6e4.png)
 
   
 
 常用晶振的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72nozSlbL3iaWxQP6pia4W7S3K9oLA4rtNq5efLtiaem6pia2a5wv3icDzqMg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Altium_Designer超全封装库（带3D模型）_images/img_011_6d9770b0261f.png)
 
   
 
 其它封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72IGlpKZ6EiavJQq3f79giaXwVibsQSpuvs3tXpU7ic8DSnDAWYZhdNpz5yQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Altium_Designer超全封装库（带3D模型）_images/img_012_7b888bb59664.png)
 
   
 

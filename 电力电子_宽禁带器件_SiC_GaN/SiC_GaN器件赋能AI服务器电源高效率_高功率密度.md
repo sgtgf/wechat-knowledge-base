@@ -5,7 +5,7 @@
 
 AI服务器电源作为高性能计算和数据中心的基础设备，担负着为服务器集群提供稳定、高效电能供应的任务。目前，AI服务器电源产品已经具备高效率、低谐波、智能管理等特性。随着AI大模型的快速发展，算力需求快速提升，AI服务器作为算力承载的核心基础设施，其出货量有望快速增长。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ER7C9j2cqSVibvknUvMiciaKmcy8FsaLXZ0QiaeYTMlyZWibmhELicGRwFtq5g/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_000_7ae03d0f5af5.jpg)
 
 AI服务器电源的作用是为计算芯片、内存、通信接口等模块提供稳定电压，同时满足高功率、高响应速度和精细化供电需求。其特点包括：
 
@@ -17,7 +17,7 @@ AI服务器电源作用
 
 安全保护‌：集成热插拔控制、过流保护、短路保护等功能，降低系统风险。 ‌
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERicJJcmH8lGhcEZXIWcqktibcHD9ShfgLWQaD5uxUDjia6454axOzC0ElQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_001_a5e068794ef2.png)
 
 数据中心电源架构
 
@@ -37,7 +37,7 @@ AI服务器电源特点
 
 一、AI服务器电源发展史：三代技术演进
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ER9FsUskOTmPMLobwN7O0HX9co3Po82foibvbZMrCjnItBKSed1wgCssQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_002_230d7fe14ef6.png)
 
 1\. 早期阶段（2018-2023） 
 
@@ -47,7 +47,7 @@ AI服务器电源特点
 
    痛点：GPU功耗增长导致电源裕量不足，散热挑战大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERUUdt3sHT2vZ9paiaTlickoiaWMTzduk2NdicvvMkQq08Rib8GNicBluhbeLA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_003_1c9ff629b228.png)
 
 第一代 AI PSU 拓扑和设备技术示例。图片由 Bodo’s Power Systems 提供
 
@@ -63,7 +63,7 @@ AI服务器电源特点
 
    效率/密度：96%-97.5%，功率密度40 W/in³。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERbkqRDkZX0l9PiaoHJX55XzMhRiaLnBU5p1A1Qicev1yDTLcrLaXXWjQXA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_004_b3485f4b3f2e.png)
 
 第二代 AI PSU 拓扑和设备技术示例。图片由 Bodo’s Power Systems 提供
 
@@ -79,7 +79,7 @@ AI服务器电源特点
 
   效率/密度：>97.5%，功率密度80 W/in³。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERK00x93gz4CKFxufjIciaWJqTE6v7z5v4XqfD9KAmuIslQs7TU45ib9kg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_005_899b20767d98.png)
 
 第三代 AI PSU 拓扑和设备技术示例。图片由 Bodo’s Power Systems 提供
 
@@ -99,7 +99,7 @@ AI服务器电源特点
 
 二、第三代半导体（SiC/GaN）的核心优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERrAH1FWmgv69seDnHPibyBk5qRoMbChh37cRia7vW3ym0ODZVJZYNCcCg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_006_4e763f975a49.png)
 
   
 
@@ -107,7 +107,7 @@ AI服务器电源特点
 
 1\. 纳微半导体8.5kW电源（2024）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERbEsT9lwQCsx5kkCPia58uksN9K45rVcOIxpicYfpPbBaMYStWdWfUicnQ/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_007_dabfd0c545d4.jpg)
 
  技术方案：GaNSafe（650V GaN）+ GeneSiC（SiC MOSFET）混合设        计。  
 
@@ -117,11 +117,11 @@ AI服务器电源特点
 
 2\. 英飞凌12KW高功率密度PSU技术（2025） 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERmicecTqfeXT2BtqrlicyeRyPpxQ8BGxneK7RqOqdto6iauytppicUSFFlg/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_008_12d6c72672ce.jpg)
 
 英飞凌推出的3KW-12KW服务器电源，均将混合使用硅、氮化镓、碳化硅三类晶体管开关，以实现 100 W / in³ 的高功率密度和 97.5% 的高转换效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERVM2upT5aibJGRicsDFlKVvNu9vYUsEE5wSs3Ney2m91O8vrEct8iacnibQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_009_28823e6f3669.png)
 
 系统设计方法
 
@@ -143,7 +143,7 @@ AI服务器电源特点
 
 3\. 浙江大学智能供电芯片（2025） 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERA0hzpvP5AQ2EmZQ3WsFaAlCic5vkpK2XYmOPI15a5iaUqpia4REibuicJ0A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_010_6d5a8f8752e8.png)
 
    创新点：48V转12V GaN转换器，动态死区控制（纳秒级）。  
 
@@ -155,7 +155,7 @@ AI服务器电源特点
 
 四、器件选型关键考量
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl8xJQHe5HxouFf8icjva5EReSgeVGCyq8SJHYCxQKDvW1WpZ5dKvtwoibKJogtrbHibyslFvcgoHH3w/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_011_31137eddfb16.jpg)
 
 1\. 功率层级匹配
 
@@ -163,7 +163,7 @@ AI服务器电源特点
 
    >10kW：需1200V SiC MOSFET。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERnu6FjayKPxlEicANdJuuxicp4oOMmUqP8Lpt8fL7zyDicUicXou1hfNDFQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_012_2146f952dffb.png)
 
 2\. 封装与热管理  
 
@@ -183,13 +183,13 @@ AI服务器电源特点
 
 1\. 800V HVDC架构普及：2026年将成为AI数据中心标配，铜损降低30%。 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERIX5RxFD7XxhK5MPR3nCN7WWvfK2aTTegxzFoBOvibaj6TVLbKXrycow/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_013_e11529665aac.jpg)
 
 英伟达推动800V HVDC技术革新，引领数据中心电源架构变革 
 
 2\. GaN/SiC复合模块：瑞萨推出“硅驱动兼容+双面散热”方案，支持22kW快充桩。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERtrGGTZtZgkxkj2zSGPwGgWQ9T4dhS7eCMg6bEssFKxBeIR81E6ACqw/640?wx_fmt=jpeg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_014_1f2fce4c01e3.jpg)
 
 3\. 智能化集成：电流/温度传感内置（如浙大方案），提升故障响应精度。
 
@@ -199,17 +199,17 @@ AI服务器电源特点
 
 AI服务器电源从“提功率”向“高压直驱+智能控制”演进，SiC/GaN通过高频、低损、耐温特性成为核心引擎。选型需平衡功率需求、封装形式及系统兼容性，未来800V HVDC与第三代半导体深度融合将重塑数据中心能效标准。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl8xJQHe5HxouFf8icjva5ERSsQao80Bbg4ojicXCuBLEBqDLrESVicn02fSnX9wNXRq1q1rqHuv7zEw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_015_e618a15c32c3.jpg)
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnw0Yktp4walxdzrTSATGk7lK5S9UY4J3yOFsTZ8h3tPDDibchiaKbgvzyX2Qv8iab66ibYBdLZzKYNKw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_016_b9c6afd8efbe.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnw0Yktp4walxdzrTSATGk7QB9UgsuQgWLhmTa6mtKoQdKdMiaIsfOKXDAduJtCpkjCzOdKibBDhOyw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_017_e7eff6835f04.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnw0Yktp4walxdzrTSATGk7exZXKdicB1zREdkaDTlzjRZEicewNaNDe060JrE4OCDkoreJPIxaCeFw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_GaN器件赋能AI服务器电源高效率_高功率密度_images/img_018_5c8b35de707a.png)

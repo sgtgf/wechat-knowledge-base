@@ -12,7 +12,7 @@
 
 1 MOS管导通截止原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaFKIMOD6OqkxdhZHux7GyFZeBWXO3WxIqbBphCNPT9ev7FYGHqic9ibDw/640?wx_fmt=png)
+![](NMOS管和PMOS管做开关控制电路_images/img_002_f9c619f78d23.png)
 
   
 
@@ -26,7 +26,7 @@ NMOS当下管，即S极（源极）直接接地，只需控制G极（栅极）�
 
 NMOS当上管，D极（漏极）接正电源，而S极的电压不固定，无法确定控制NMOS导通的G极电压，因为S极对地的电压有两种状态，NMOS关截止时为低电平，导通时接近高电平VCC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iak5NPFicicAWpW4pwvTLaxibiaV2mb8DZEKPkUJNibJlYNJCDVLsYO1eJPaA/640?wx_fmt=png)
+![](NMOS管和PMOS管做开关控制电路_images/img_003_c7879da654de.png)
 
 PMOS当上管或下管原理一样。
 
@@ -36,7 +36,7 @@ PMOS当上管或下管原理一样。
 
 使用NMOS当下管，S极直接接地，只需将G极电压固定值为5V即可导通（该5V视MOS管型号而定）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaydTO1FMxuSVgPa4AD2gVwK3fG3E6gzAl4PpzCRoOxub6FZ80Gl7lcQ/640?wx_fmt=png)
+![](NMOS管和PMOS管做开关控制电路_images/img_004_03bef2f71530.png)
 
   
 
@@ -44,7 +44,7 @@ PMOS当上管或下管原理一样。
 
 使用PMOS当上管，S极直接接电源VCC（5V），只需将G极电压固定值为0V即可导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0nILU9n3DP9sFexVZab0iaQfKzPVbCpjJR95omJ4NgDlP3S1scupYQuTLQqYEm5GpOhHaOGLR1YQ/640?wx_fmt=png)
+![](NMOS管和PMOS管做开关控制电路_images/img_005_9df55a70ad90.png)
 
 ————————————————
 

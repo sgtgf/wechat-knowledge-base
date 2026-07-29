@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QWmGOSN0jyiandZn7eSGrmIqAmV5r4DHHQ3PbdCXI8uiaSpgdhc4KkGdncSDstkcWMr14u8PT0pMrA/640?wx_fmt=jpeg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电机控制_多相电机\海军工程大学刘奇_苏振中_等_基于Bang_Bang_前馈策略的磁轴承执行器失效故障容错控制_images\img_000_fa8d0ca0a3e9.jpg)](https://www.acces.org.cn/)
 阅读提示：本文约 1300 字
 > 随着主动磁轴承在飞轮储能、高速电机、涡轮机械等领域的广泛应用，提高磁轴承系统可靠性的重要意义逐渐凸显。海军工程大学舰船综合电力技术国防科技重点实验室磁轴承研究团队针对执行器失效故障，提出了一种基于 Bang-Bang+前馈策略的容错控制方法。现场实验结果验证了所提方法的有效性。
 **研究背景**

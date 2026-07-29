@@ -8,41 +8,41 @@
 
 作者：Chris New, Jonathan Hayes, Austin Curbow
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWbuMeuQo7DFM4IlkCX1iaEcFQ3GwbYnQ2ia0wicsQzI2MBlMCAHMCeB4ibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_000_7aa5a31ce1f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWYo1qyvkkV92be4oL9oowa1tu3cWomB7Y4bZuJPZmBicGQvCvwIRialug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_001_786fd3fe1e94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWX0TsF6Zdaco5TGVIf4quyrwATDsWbRv8RgE4GavunOIicVzTkRZtZ9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_002_208fb9cc4fdd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWNZY6vqopA4kjmO7G7G3KdQjLHIlRyezvZeiaJh7vViaIkgEougJiaicgDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_003_56ab77fd1441.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWpVfgGCJJoicYhvjz7DbToiaufib7gaO8x1PenhicICpczNqEfCgCydr9Sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_004_04477efb0fc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWFI72wopK3350by4WsqrPHft5MialprpRnwpiau8Iv0on2UJoeOUD7BZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_005_8e5a77ac4508.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWoLPZkX2OBUoQ6poKLqTtI36MmqGVzr6KnRhvVaibgw36KatPOzdKqpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_006_953506ae3e17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWSPFibaDdRQfZZ2HJACRfQ749Dy8bOU3b3RuyxxzibR72bGnDj6GG85Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_007_b9e112558d52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWElgquZhNfbwpHGubFd88bPia5H50qJ8wGtHb6QzujkARuaibMPkEJx8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_008_3a4303490199.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW410utj2tXqzgQWjX6k3RNkTCfzxKGJcvZ6u0gnBlT06qWlibLnJUXPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_009_3a9e0b8ac229.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWpdwvqU0Ydic94MIFJ03Fn5nsFwWSE4lOoYNhCaamkNa8C2bmYY9bFDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_010_c8e2b70f411f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWxhdgCkiayZQTVW0RGKVyTl5L7hLO6LibvAfGT1RCcjZHicW18ENlcMQpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_011_16cad58c707d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWHX2HNmUhBFNJqpFgQFvqROTexicSs1AnfunXHzaO4JCPtaCiccsicTvqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_012_13ab3ef89664.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWQdfuMtf3BImsrmTZbevnkOZh4csvwIicneHvde4IGplEHqM0W50kwdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_013_1648fa69ab26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWeZ41icHuSc1rBcxlrntpO25WnqY0fufQhkz0NrWjfhSxiajJpd7TKm4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_014_87e4ed54dcf1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWvazzzIgnegSIspP7Kt7lg2CSrWBJ2yF0Ar5rGrQQxxib6DicMolkCiaNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_015_c613e663fb20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWUia8iaiadUhGt3KNQBpBicTZOL9ylA43AicIag3r4feAvwaCrjtiaP4qehlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_016_76e2b81a3775.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWLTdnL0wIYfQcphTQH2demy5ApgdxZZrYVicdkT0GNVnOUL9mrBlf6iag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_017_ea26b5274611.png)
 
 注：图片报告与文字无关
 
@@ -184,16 +184,16 @@ SiC 器件对传统硅器件的优势，本质是 “材料特性→器件性能
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMstnaQiaTkoib9V2GelkRkIK8IPc1LGl8C8Niay8F44iatJouvzUArEyMvA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_018_91456e8b6f31.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMt2TgmZia18AqibiagQmVic5qpsfB5icelOViarfK2bjticOsAbb9qTXib8xMqQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_019_831bd9d36972.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMmcGwwzZmGKuxOauG2AHP5c4WnsEBSuibbJEaZibyXzc1HfrfqicxXRWKg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于电机驱动器和工业应用的25_kW碳化硅（SiC）三相逆变器的设计_images\img_020_3a0ad97a3f9d.png)
 
   
 

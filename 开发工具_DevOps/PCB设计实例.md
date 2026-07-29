@@ -14,7 +14,7 @@
 
 # 一、典型的同步降压控制器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgZXdGicibaRicUjZicyAWc73le6CibW2w0gH73vCMpcwIZoGplP0eaCVfK0g/640?wx_fmt=png)
+![](PCB设计实例_images/img_002_7ba75a69226a.png)
 
 典型的同步降压控制器
 
@@ -24,7 +24,7 @@
 
 # 二、实际同步降压控制器示意图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgBFibRquTGY2agIhCA8Vo1g1bIQlHiaFnGoqWJP0dKHhEeicKmFUATJolg/640?wx_fmt=png)
+![](PCB设计实例_images/img_003_1175350663a7.png)
 
 实际同步降压控制器示意图
 
@@ -36,7 +36,7 @@
 
 # 第1步：切换节点
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsg0K2hpuWwM5o1ue55AZTDUvVVlatB3icLM92ibzjyJ5QZNg3bjHu5vvoQ/640?wx_fmt=png)
+![](PCB设计实例_images/img_004_0b5b316734f6.png)
 
 切换节点
 
@@ -50,7 +50,7 @@
 
 # 第 2 步：输入电容组
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgc0bj8agYfk5HQJTF53YPPhia5rtmjShRXxTcEPaVB6H9rNz8SoulJrg/640?wx_fmt=png)
+![](PCB设计实例_images/img_005_c49c51d577e8.png)
 
 输入电容组
 
@@ -64,7 +64,7 @@
 
 # 第 3 步：在紧密环路中获得缓冲器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgIE6Ic4vuOliawq0RBgbScrg3ibmXGRpNbNDlnDJ9rYGtpYFRJz3HyIyw/640?wx_fmt=png)
+![](PCB设计实例_images/img_006_d96adb7f2e55.png)
 
 在紧密环路中获得缓冲器
 
@@ -74,7 +74,7 @@
 
 # 第4步：输出电容组
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgG1yHwIIBmOs87XCHKp2ECJmk6YJRvbKStvBD2GbPJa6bibN7uygFJaw/640?wx_fmt=png)
+![](PCB设计实例_images/img_007_90f4636d6412.png)
 
 输出电容组
 
@@ -90,7 +90,7 @@
 
 # 第 5 步：定位 IC
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsg2DdQH3CWxpia1s37r87u5yW7lTye9Cp7NNfAxozAJGa0hicsFtOEfIng/640?wx_fmt=png)
+![](PCB设计实例_images/img_008_402a0afc9818.png)
 
 定位 IC
 
@@ -100,7 +100,7 @@
 
 # 第6步：栅极驱动电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgeMgaXPf2Bgnw4jqdr9IecrjZft3Fs2Eib4UEPT7MLJ2J6gjdDe4Pmjg/640?wx_fmt=png)
+![](PCB设计实例_images/img_009_434b33a440ef.png)
 
 与外部 MOSFET 的栅极连接是非常高的 DIDD 路径，因此需要仔细考虑。具有大量栅极电荷的大 FET 会产生数安培的峰值电流，此处的长连接会显着减慢 FET 开关的上升和下降时间。这对于降压应用中的高端 FET 尤为重要，因为过慢的边沿会增加开关损耗。
 
@@ -112,7 +112,7 @@
 
 # 第7步：完成高端栅极驱动路径
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgbIJrtU2PCZbg2hu0PzbmAmIQ9HfFjvia4jOwJAEPFFyTzP5HnrXNUUg/640?wx_fmt=png)
+![](PCB设计实例_images/img_010_c8353293c69a.png)
 
 完成高端栅极驱动路径
 
@@ -126,7 +126,7 @@
 
 # 第8步：完整的低侧栅极驱动路径
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsg4Przgev8byTVHY0Zlg1Fticm0XTBd0dgK5ScwQiaC7tIAxRnicX1YTorQ/640?wx_fmt=png)
+![](PCB设计实例_images/img_011_93c0970420bd.png)
 
 完整的低侧栅极驱动路径
 
@@ -136,7 +136,7 @@
 
 # 第 9步：差分电流检测
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgCyVZXQdOicibYicSeAHrec9kVHBbr1D3GPzzibaGqEZM4WsXZRxqibVf0Ig/640?wx_fmt=png)
+![](PCB设计实例_images/img_012_e4e74735adf1.png)
 
 差分电流检测
 
@@ -148,7 +148,7 @@
 
 # 第 10步：放置低功率部件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgc2XicGENWUkxKzia7pxmuuZuH4JCBIhcBp64Ym6szSobkxB5xognicASg/640?wx_fmt=png)
+![](PCB设计实例_images/img_013_ec1ca905810f.png)
 
 如果你有专门的顶部接地形状的空间，你可以将其用作所有接地参考控制电路、反馈分压器、软启动和控制环路的返回。如果这样的形状不适合，可以使用菊花链从 AGND 引脚连接到各种小信号接地的走线。如果你想通过多层布线此走线，则布局软件会出现问题，因为它想要将过孔连接到内部接地层。而且会引出想要隔离这条痕迹的全部要点。所以，我建议把它放在顶层。
 
@@ -158,7 +158,7 @@
 
 # 第 11 步：反馈跟踪
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgDpQNicSUX5UcXPSHCuCLeOmGKWX0YiaIsxzkoblRTLiarC1nyGlwG2Qrw/640?wx_fmt=png)
+![](PCB设计实例_images/img_014_b8e8ef1e4b90.png)
 
 反馈跟踪
 
@@ -170,7 +170,7 @@
 
 # 第12步：顶部敷铜
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgiayE4f0z29VWYNO1mdzDJ6OsDiady1oFWCOL4KRI9ib3Tib9hqWt4QR76g/640?wx_fmt=png)
+![](PCB设计实例_images/img_015_925cbc005242.png)
 
 顶部敷铜
 
@@ -180,7 +180,7 @@
 
 # 第13步：重新审视切换节点
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgnJ5q9ftZjdu60kWHcib5AiaNAYAsrjl3tuxYHL3s9qsV8CYNCtuGS62w/640?wx_fmt=png)
+![](PCB设计实例_images/img_016_0111740d6592.png)
 
 重新审视切换节点
 
@@ -190,7 +190,7 @@
 
 # 第14步：关于散热孔
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsg6w6yHiagryEYHUn8pjiaw9FBv1mViaic4ErCRn2rNh7xCzzqLicN9mDVrlg/640?wx_fmt=png)
+![](PCB设计实例_images/img_017_dc46e826d3c0.png)
 
 散热孔
 
@@ -200,7 +200,7 @@
 
 # 第 15步：用 GND 背面敷铜
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgt69xjh1lSGjjWHwp8UU19AkvNkSpFXiaSIr5WyxhYwVia4U7NRmTdTIA/640?wx_fmt=png)
+![](PCB设计实例_images/img_018_d3780f41ea4c.png)
 
 用 GND 淹没底部
 
@@ -212,7 +212,7 @@
 
 # 第16步：回顾检查
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgolOog1u7fQY0PicgQDdiceLtdmm73CsPIqyrZkAq9LzAqynYvoecGXFA/640?wx_fmt=png)
+![](PCB设计实例_images/img_019_57adf26de9c1.png)
 
 回顾检查
 
@@ -222,7 +222,7 @@
 
 # 四层 PCB – 如何处理？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgsxY0M6oEAKiaGq277TNSdHMgnv9D5WK5KDcL4NIgibtgDBoAx3nzIiang/640?wx_fmt=png)
+![](PCB设计实例_images/img_020_eda4cb01bcf4.png)
 
 上图显示了4层PCB。虽然有4层，但我还是连接顶层的所有电源焊盘，并用接地、VIN 和 Vout 的铜浇注淹没任何未使用的区域。然后，我在第二层上放置了一个实心地平面，就在顶层下方。第三层我在 VIN 和 Vout 之间分开，但有时我会在这一层放置信号层走线。第四层保留为地面，很多信号电平连接都在这一层。这样做是因为如果这些连接位于内部层上，则调试电路会变得很难。
 
@@ -230,7 +230,7 @@
 
 # 内部平面/第 1 层应为 GND
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgb5XEHiacxMnhbkduLaaPzOLZbcZXiaHQ25R5uFS9ZBQrkeiaEJ2Zlibhbg/640?wx_fmt=png)
+![](PCB设计实例_images/img_021_901f50b33694.png)
 
 稍微靠近顶层会增加注入顶层的 VIN 和 Vout 多边形中第二层地之间的电容。这些小电容非常适合过滤高频噪声，因为它们通常在 100 pF 到 1nF 的范围内。但如果是开关节点，我就会考虑打乱我的第二层地平面。
 
@@ -238,7 +238,7 @@
 
 # VIN 和 Vout 的内部平面/第 2 层
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgQicVfEJsR0Pk7wLuGMaY5jLDzt1uy9xrAHdpFzygASxdGWDCprgdZtw/640?wx_fmt=png)
+![](PCB设计实例_images/img_022_b6f7c3e79490.png)
 
 与底层一样，我放置了一个与顶层和底层相同大小的形状，并用大量的散热孔连接它。其他所有东西都是接地的，只被信号迹线或热管理的过孔分开。添加这些大的连续形状会增加更多的自由容量，无论是在左侧的 VIN还是在右侧的之间。它们还有助于传播和散热。开关节点的切口有助于从高侧 FET 和漏极排出热量，而不会让噪声以电容方式耦合到其他平面。
 
@@ -246,7 +246,7 @@
 
 # 单面布局
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgXYIw7hQrIUrxZ7FDibCGsgibibooXB6Ngdz9s8ZozWYLSQvWtVibTfeMgzRHayUNuXvjjeywOpyEM9w/640?wx_fmt=png)
+![](PCB设计实例_images/img_023_6c7bcffddcb2.png)
 
   
 

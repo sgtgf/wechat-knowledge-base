@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9p81MAYpGlzgcrUkuStJYQ](https://mp.weixin.qq.com/s/9p81MAYpGlzgcrUkuStJYQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIX2rkIcxficfQ8wF3FmQLbwZkJuLYpgxOuIMBgubXr9TnQ3xb0Vc8K1RY0RMfBV53ic7bbObwzmayWg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627752&idx=1&sn=d54a8e9c894a079b825ab46d2e68ae37&chksm=88bcf5a7bfcb7cb1c0cc02b348b68127336f32e483ed9e9ce826aa9481ebfaaf291d072f774f&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_001_0ffabdd826d0.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627752&idx=1&sn=d54a8e9c894a079b825ab46d2e68ae37&chksm=88bcf5a7bfcb7cb1c0cc02b348b68127336f32e483ed9e9ce826aa9481ebfaaf291d072f774f&scene=21#wechat_redirect)
 
 Ansys Maxwell 是业界领先的电磁场仿真软件，用于设计和分析电动机、驱动器、作动器、传感器、变压器和其他电磁及机电设备。借助 Maxwell，用户可以精确描绘机电组件非线性瞬态运动的特征，并确定它们对驱动电路和控制系统设计的影响。通过采用 Maxwell 的先进电磁场求解器并与集成电路和系统仿真技术实现无缝连接，用户可以在构建硬件原型之前，早早地了解机电系统的性能。这种虚拟电磁研究室可为用户提供重要的竞争优势，加快上市时间，降低成本并提升系统性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWWHMXp511b7BhAPyAfBAVTOQQm4nic13mgIPwicgiceFqBTyxRhYUBMQOafoFmvTKGyMBIiapzMlyopw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_002_2a9c007ac641.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWWHMXp511b7BhAPyAfBAVTHBIgudFvfyUs7QANgqBQgnKbOIRKSUJIicBtib6yKq0baJgTxjoAynhA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_003_c7a51c37e146.jpg)
 
 Ansys Maxwell 是一款顶尖的低频电磁场仿真解决方案，使用高精度的有限元方法来解算稳态、频域和时变电磁场和电场。Maxwell 为您的电磁和机电设备提供了包含各类解决方案的完整设计流程。
 
@@ -44,7 +44,7 @@ Ansys Maxwell 求解器：
 -   电场 — 自动生成等效电路模型的瞬态、静电╱电流分析
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVuJK42eM11Mb8nozTAPSXKb5DX3gQnSQqvv5wzTRRx0QbqVrEGv0B9pyfbicRldCRGnwnHSaG6icgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_004_15f73e0810c1.jpg)
 
 电机高效设计及性能优化仿真技术能为企业量身打造集成化设计解决方案，充分考量多个物理场对电机性能的影响，在满足技术需求的同时设计出最优方案！1月16-17日，西莫将再度联合上海安世亚太倾力打造新年第一期电机仿真专题进阶研修班，为大家提供实战操作Ansys Maxwell软件进行高级电磁仿真应用技术学习的机会，欢迎扫码上方二维码报名参加本次培训！关于培训的更多详情介绍如下：
 
@@ -132,7 +132,7 @@ Ansys Maxwell 求解器：
 
 电机高效设计及性能优化进阶培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXvB8icvs5q7Cic5H63cZiba0ibN50ZnooCTJyX0a7PvT1Kckibkflt9CfJ3znLicSGlQ1NoaQjbicn1j94Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_005_c32feaca3b1b.jpg)
 
   
 
@@ -168,15 +168,15 @@ Ansys Maxwell 求解器：
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUY8ic8lamc9GbibrhZuR7vuu6ibTtKrNgSPMYwnFB3maV8hjZafS4ooUWsgvEa4GicReZVicsPrCMsMxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_006_eaf4cc5d851c.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_007_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh5Zp3ic62eKbJZbzsM1G3Lbl48JiaKDBHGkAAVF1slauic732iaAic0NDrzw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627937&idx=1&sn=d3c0d8164c01e962d3c02e443a15a293&chksm=88bcf46ebfcb7d78590b476eca090f05f606136e46b14a9267bf8c395776161b252f66421789&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_008_d1686dfd7cbd.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627937&idx=1&sn=d3c0d8164c01e962d3c02e443a15a293&chksm=88bcf46ebfcb7d78590b476eca090f05f606136e46b14a9267bf8c395776161b252f66421789&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgMkv6uI0icW4snJueXnsCh9IkK2CJTaz4HHexibFEZibrCf6518psydQZ7Ud1gBV2znrrSSjeZ0Yog/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_业界领先的电磁场仿真软件_images\img_009_f48eeedfff63.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650627529&idx=1&sn=dbcda810bfdb2d923dece6785d72a257&chksm=88bcf6c6bfcb7fd0fe04fd8f5cb3d45cd3bd46eb6ae60cf4de7c273a8af1fc14f0be3d9488c4&scene=21#wechat_redirect)
 
 点击**阅读原文**，直接报名参加本次培训
 

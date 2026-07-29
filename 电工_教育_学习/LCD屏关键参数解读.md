@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgSZ0VVm6yfvicU0gnlAGDGeaBBnD9EbxdkkDG1T1ppTErZV4PVakia3Z8uV2BXz5zlNiaagakGZHuBw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD屏关键参数解读_images\img_002_74a79411e483.jpg)
 
   
 
@@ -30,7 +30,7 @@
 
 TFT（Thin Film Transistor）即薄膜场效应晶体管。所谓薄膜晶体管，是指液晶显示器上的每一液晶像素点都是由集成在其后的薄膜晶体管来驱动。从而可以做到高速度、高亮度、高对比度显示屏幕信息。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjEVYy1FNkPzEiafcnSRK3Rlw7DS3S3m67DmlyqbRSuzpCegskpDudMicibohg5NEqcichRo850EiaQibUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD屏关键参数解读_images\img_003_c0f7e2ed262c.png)
 
   
 
@@ -64,7 +64,7 @@ TFT属于有源矩阵液晶显示器，TFT-LCD液晶显示屏是“真彩”（T
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjEVYy1FNkPzEiafcnSRK3RlyfiaF4v1g8kNHWeqC8micd8gtyyNMdibxf2wwyL7aWaUrVgGIPFdBIW9Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD屏关键参数解读_images\img_004_2bca96b5e142.png)
 
   
 
@@ -88,7 +88,7 @@ TFT属于有源矩阵液晶显示器，TFT-LCD液晶显示屏是“真彩”（T
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIv8NYJMtZHl9yH2gx8dv4iblfJJia3icOUXpF8jIM8fArR9KLsXiarickHWU1iaDxonAUSS0a5nXs9d8g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD屏关键参数解读_images\img_005_d98ab78cc3dd.jpg)
 
   
 
@@ -116,7 +116,7 @@ TFT属于有源矩阵液晶显示器，TFT-LCD液晶显示屏是“真彩”（T
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjEVYy1FNkPzEiafcnSRK3RlEQib73ibKDr7FicOOwsibk3D67PqsvgliclcqtjNEXAc1nPYSUowYWX3YlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD屏关键参数解读_images\img_006_9352de90625d.png)
 
   
 

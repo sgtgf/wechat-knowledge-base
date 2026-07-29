@@ -11,7 +11,7 @@
 
 **关键词：**晶体管；碳化硅；测试系统；开关特性
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0TDGRLZuwO2Rpcuo5Z2UnquqohF7I4VNjWibHgiceQbwuiaBZLDQaRa1pg/640?wx_fmt=jpeg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_000_dd4ea1ab6934.jpg)
 
 **1\. 引 言**
 
@@ -25,7 +25,7 @@ SiCMOSFET功率转换器因其具有阻断电压高、温度性能好和导通�
 
 此处在传统双脉冲测试模型基础上将主要的寄生参数考虑在内，改进后模型如图1所示。在SiCMOSFET的双脉冲测试中，需要特别考虑漏极电感和电容等非线性特性的影响，漏电感会导致测试信号的衰减和畸变，电容则会影响测试信号的传输和反馈，进而影响测试结果精度和准确性。考虑该影响后，将待测器件上管续流二极管用低感电阻替换，从而可以对主电路寄生电感值进行换算，进而在实验结果中进行合理的校准和补偿。在硬件设计中，通过分离并独立测试电压和电流引线，从而消除杂散电感、电阻、电容等因素对测试的影响，能更准确地测量被测器件开关特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0ibN6v0QJT9YennKnFvrlZ4C8CZubXgMmfrpAkcRUtXkDu9Kyhwne3iaA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_001_4bc1951f3b06.png)
 
 图1中，Udc，Ucc，UEE分别为直流母线等效的理想电压源、驱动正压及驱动负压；IL,lD分别为负载电流及漏极电流；L为等效负荷电感；Cdc，CL，CJ，CGS，CGD，CDS 分别为直流母线电容、负荷电感等效寄生电容、续流二极管SiC SBD等效电容、栅源电容、栅漏电容及漏源电容;Rg,RG,Roff,Rloop分别为栅极内阻，外接导通、关断电阻及杂散电阻；Ls，Lg,Ld(int),Ls(int),Ld(ext),Ls(ext)分别为直流母线正极与漏极之间线路的等效寄生电感、栅极回路寄生电感、漏间线路寄生电感、源-地间线路寄生电感、外部封装引入的漏极寄生电感及源极寄生电感。为了便于实验结果的验证，此处给出关断过程的相关参数表达式。
 
@@ -33,7 +33,7 @@ SiCMOSFET功率转换器因其具有阻断电压高、温度性能好和导通�
 
 栅源电荷通过栅极电阻RG，Roff放电，Ucs从Ucc开始降低，由于SiC MOSFET仍处于饱和状态，lD，UDS保持不变：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0fxfZHBX6gVvM5h9nVhcq4fSym6qTRt7WDuBseiag4sUAAgRq9DicLkZA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_002_10193b917697.png)
 
 关断电压上升阶段 
 
@@ -41,13 +41,13 @@ SiCMOSFET功率转换器因其具有阻断电压高、温度性能好和导通�
 
 该阶段米勒电流满足以下方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0Zrxv8nENuk7swjBnDcOdBR6dqyhkAX2BvHcRHNzbK2E6EFKl7qmU6w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_003_e59a5a354a99.png)
 
 关断电流下降阶段 
 
 UGS从Umilr下降至Uh,ID也随之减小，电压过冲UOS由主电路寄生电感上较大的电流变化率dID/dt造成，电压振荡由续流二极管的电流振荡导致：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0g6RTPPqCmMKtvJSLoia5BxtL9amHHO0oibqu6WygzuLHMr4A9ce9uhbA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_004_6eeecd806deb.png)
 
 负压稳态阶段 
 
@@ -63,13 +63,13 @@ UGS持续下降直至达到其负压稳态值UEE。
 
 图2给出了此处测试系统构成，其可以模拟待测功率器件的实际工况，同时方便控制和观测各种参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0yD5eJUYia7Iib3evhFYFowTuv7lszHsv04R0v2b0q6BsMZJ5cvyoxU0w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_005_b314d88bb43b.png)
 
 **3\. 测量误差与结果分析**
 
 SiCMOSFET高额定电流、纳秒级上升时间tr和下降时间tf需要具有高带宽的测量设备。此处为了实现3%的测量精度，测量设备所需的最小带宽fBW近似为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0HdpOCZqeBc7zAJY2Jicp08FSkvHgiaF2nPX4ZoKMKmDYLDDTXrlQ28Rg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_006_b4f2f39506cf.png)
 
 式中：fknee为上升或下降瞬态的拐点频率。
 
@@ -79,7 +79,7 @@ SiCMOSFET高额定电流、纳秒级上升时间tr和下降时间tf需要具有�
 
 图3给出了在关断瞬态期间SiC MOSFET的UDS的测量结果。两种不同型号、不同带宽的高压差分探头的电压振荡测量振幅相同（两者差异低于3%），延迟相差约8.85ns，对于高达1.2kV阻断电压的SiC MOSFET的双脉冲测试，若使用型号为PMK BumbleBee 400M带宽的高压差分探头，其电压上升时间延迟较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0DxgsjQSo7fiaibusQ1O0zkMC859ic21WoWdpB6KXDjFteibTicU8UCZVgNQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_007_6b021e3c7779.png)
 
 **3.2 电流测量**
 
@@ -87,25 +87,25 @@ SiCMOSFET高额定电流、纳秒级上升时间tr和下降时间tf需要具有�
 
 Pearson电流传感器提供隔离的高带宽电流测量，然而，由于大的机械尺寸，Pearson电流传感器不能直接安装在半导体模块和DC链路之间，其需要两级测量电路，还需要附加的电流互感器，因此大约可以引入10nH的附加杂散电感，该附加杂散电感在电流互感器有额外空间的情况下，在关断电流为300A瞬间可导致256V电压过冲，在无额外空间的情况下可导致224V电压过冲。因此，该测量设置可以导致关断损耗计算偏差大约为10%，因此不作为对比测量方法之一。另外两种电流测量技术的比较结果如图4所示。与HF同轴分流器相比，HF Rogowski具有较高的电流阻尼，其在开关损耗最终计算时的影响是最小的,因此建议采用HF Rogowski线圈对SiC器件来进行双脉冲测量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0IibmREx67Tnop7nkLCyovrXqicbcYeWQRq7BrqVyOIKEkEwzcc1ib1SFA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_008_7c17cb26d9fc.png)
 
 **3.3 差分探头的低电感连接**
 
 由于SiC器件的高开关速度，测量电路的低电感连接尤其重要，测试结果如图5所示。栅源电压由差分探头测量，连接采用标准相交连接和低电感连接。测量结果表明，使用标准相交连接，测量电路会引入额外的高频振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0ibBUnxibiaws5kbibTnx3eYhL1zeQR2dR3yI0EdicI1tS8pxh0mMUs92kHw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_009_ae96c9f0ac77.png)
 
 **4.  仿真与实验结果分析**
 
 此处选取典型的SiC MOSFET器件sch2080ke为实验对象，设置测试条件如下：Udc=400V；Cdc=1100μF;L=1mH;RG为5~47欧; Roff为5~47欧; Ucc为10~20V;UEE为-10~0V;CG=1nF,以变驱动关断电阻为例给出实验结果。图6，7分别为仿真与实测波形在不同Roff下漏源电压、漏极电流以及栅源电压的比较，开关损耗等相关指标计算方法取自文献。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0nYAgG7ePlax4diaCicdoR7ic1cKag9IXOibL2wMvAFSbfrHGtKhhFDGl1Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_010_6c837d04f655.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0NRu5x2mxEJIsEg8oa0nvic323I5T5UNBXV2uA4mAetYdxZHDsB3cvPg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_011_c2b3b45e6d00.png)
 
 可见，随着驱动关断电阻Roff的增大，关断过程的阻尼增加，系统振荡减小，因此电压过冲Uos减小。但这也导致tf增加，ID与UDS的交叠面积增加，因此关断损耗Eoff增加。驱动关断电阻对开通过程没有影响，因此ID，tr与开通损耗Eon几乎保持不变。这与式(1)，(2)，（5)表现一致，且实测与仿真指标对比相差8.7%，与器件数据手册对比则相差11.7%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0adlsboK9t79s9fzNFM8zfSvLuvXbEWs1ELwV5Uicicd0VQBsh1AMoOKQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_012_0134b840df89.png)
 
 图8为相关参数波形。
 
@@ -115,10 +115,10 @@ Pearson电流传感器提供隔离的高带宽电流测量，然而，由于大�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_013_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET测试系统设计与开关特性分析_images/img_014_3ade3c3d8599.jpg)![](SiC_MOSFET测试系统设计与开关特性分析_images/img_015_84aa944feb13.jpg)

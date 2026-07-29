@@ -5,11 +5,11 @@
 
 碳化硅（SiC)作为一种半导体材料，具有耐高压、高温、高频的特性，SiC MOSFET器件在助力设备轻量小型化上具有较为明显的优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQZzyp1vEpETXiaRicgv93SH2AfvGanzhGwlf5icrJuFnzRVSO16v3qZzicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_000_562efc79b935.png)
 
 SiC的禁带宽度大，具有击穿电场高、热导率高、饱和电子漂移速率高、抗辐射能力强等性质，且器件在关断过程中不存在电流拖尾现象，开关损耗低，可以大幅提高开关频率。碳化硅材料的优越性能使得相同规格的碳化硅基MOSFET与硅基MOSFET相比，导通电阻降低为1/200，尺寸减小为1/10;相同规格的使用MOSFET的逆变器与硅基IGBT相比，总能量损失小于1/4。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNkgKiaibBwrhAVXOIR0KO8K9sAXZdGlONfhlx7XvwVw5ibQ9SY5R4Dk0Kg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_001_be4d4c6d7cb8.jpg)
 
 随着新能源市场的爆发，电动汽车、光伏、储能、大功率电源等下游应用驱动下，SiC MOSFET在内的碳化硅功率器件迎来了新一轮增长期。
 
@@ -19,9 +19,9 @@ SiC的禁带宽度大，具有击穿电场高、热导率高、饱和电子漂�
 
 碳化硅（SiC）作为第三代半导体材料，其MOSFET器件凭借独特的物理特性实现了对传统硅基器件的性能超越，主要体现在三个方面：   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicN71Me7uRQLzSqISlkwHH6L9XF358CWWGXngeQGyqEg1C68icGo0yYmbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_002_7d154f0c1ebf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNoHEIW8icTc8yg8PVqCwUoYsMZHejd5cSEvyFibDZiaXoUSQknQ4ywPic3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_003_32485e263268.png)
 
 1\. 材料特性突破  
 
@@ -51,7 +51,7 @@ SiC的禁带宽度大，具有击穿电场高、热导率高、饱和电子漂�
 
 凭借上述特性，SiC MOSFET已在多个高成长领域替代传统硅器件：    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicN4NbWXyQia0bGkQoXU2JFibzlxGj5xMAdQCbGYSYfI5AbVlbzhJWz4Gzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_004_7c380ce9ff41.png)
 
 1\. 新能源汽车 
 
@@ -61,7 +61,7 @@ SiC的禁带宽度大，具有击穿电场高、热导率高、饱和电子漂�
 
 DC-DC转换器：48V转12V架构中效率从95%提升至97%，支持GPU集群供电。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNmQoM1n1RxYOpHAgzWbOrdrxTpcGKnUnhva45Sq3nPAx7yySThiaSC3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_005_1ea3fb291636.jpg)
 
 2\. 光伏与储能系统 
 
@@ -71,7 +71,7 @@ DC-DC转换器：48V转12V架构中效率从95%提升至97%，支持GPU集群供
 
 储能变流器（PCS）：SiC MOSFET实现50kW/L功率密度，较硅IGBT方案体积缩小40%，适配工商业储能高频化需求。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNPVOd02xTQ956cbhsMyIUoUTwYVXCCXTrLgSzSicKuVgNruzr8rfEwcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_006_a198f8b20756.png)
 
 3\. 工业电源与数据中心    
 
@@ -81,7 +81,7 @@ DC-DC转换器：48V转12V架构中效率从95%提升至97%，支持GPU集群供
 
 超快充桩：30-40kW充电模块采用SiC方案（如优优绿能、英飞源），支持300-1000V宽电压输出，体积缩小25%。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNNEV9iboibZiahJOER28UrVylSJHehibtEWpO3ib1t7K56p7jDiaYia7hnRtZg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_007_0f52de2be323.jpg)
 
 4\. 轨道交通与智能电网   
 
@@ -89,7 +89,7 @@ DC-DC转换器：48V转12V架构中效率从95%提升至97%，支持GPU集群供
 
 固态变压器（SST）：SiC MOSFET实现10kV/1MW级高频隔离转换，体积仅为传统变压器的1/5。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNichjdsHLEA3Ae4LOOf7UOmFQD9dkc8THsta4CSIH52VDK21aYEicY22w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_008_f759d33d0b9a.png)
 
 🔧 三、SiC MOSFET核心参数分析与选型要点    
 
@@ -127,17 +127,17 @@ DC-DC转换器：48V转12V架构中效率从95%提升至97%，支持GPU集群供
 
 1\. 电压等级匹配策略      
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNaRMRKcm7allrFYsjWayia3ChW9XaYicnOowTZMbJI7EraBDaOuK2LAFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_009_00a65304b4d5.png)
 
 2\. 封装与散热协同设计
 
   封装选型：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNFSIuac2YVby5kL09en4vVehu8VoicBibrEUwnxpMX7QPIYGCqd72Gl4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_010_b4c54e33414d.png)
 
 TO-247-4L（开尔文源极）：降低源极寄生电感50%，适配100kHz以上高频开关。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNLuTU0xsAGaXA7b3YUmgWgl4rxhNzdicu6mVPzZhY8AYiaukNfzaAnluA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_011_389673988301.jpg)
 
   散热要求：  结温175℃时需保证壳温<110℃，推荐强制风冷（风速>4m/s）或液冷板设计。  
 
@@ -157,7 +157,7 @@ PCB布局规范： 驱动回路面积<1cm²，栅极电阻紧贴MOSFET引脚，
 
 🔋 五、典型应用方案设计实例    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE8QQDtVrXrD0sB7C7dkicNfOWQuOk1GWx2CMAUIpfiaibx6msdk9NfpOsHOhRAPqcK1qxL0Y86OwGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_012_8a81cb362933.png)
 
 1\. 光伏逆变器设计  
 
@@ -211,13 +211,13 @@ SiC MOSFET凭借其高频、高效、耐高温的特性，已成为电动汽车�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicyicxicuM4qxG124K0ltlHRriaObjvIwuCp9iayLs5kFibYtLxjHcSEsp19w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_013_39e28a1eed17.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicJ5nElg8SWWJyFvLwLPUUAnfDSN5icYu30QXGz5piadEuqEZpMiaiaw8Ficg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_014_b0aa0806ac05.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicfibibCs4iaKqxxnOxtE3pVibxwH5SOIzKRVesLFs49xuOFPAvicv5jceEcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解SiC_MOSFET器件的特性和方案应用及设计_images\img_015_4d93f2e02880.png)

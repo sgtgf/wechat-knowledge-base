@@ -17,7 +17,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/nR2rZNusDibDVTXpXMvicwGSIDpshahAS8CN11gTte89zLhYFhib5LqCusiaym8NxErT1KLq2twPkAoQ1ndBBic3f0Q/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\禾望电气_做SiC逆变器很苦_但成功了很酷_images\img_000_797105073320.jpg)
 
   
 
@@ -33,7 +33,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/nR2rZNusDibDVTXpXMvicwGSIDpshahAS8zhPZxFsWReOqe5qtlkuuvmCgFuh5tdichyicVNkeAPb7TmMMXkqFXSTA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\禾望电气_做SiC逆变器很苦_但成功了很酷_images\img_001_2609cf2f250c.jpg)
 
   
 
@@ -43,14 +43,14 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nR2rZNusDibDVTXpXMvicwGSIDpshahAS8kUZ8HIkeYibMnrdwMFIPcdLFopw16r9p4VT9YsTibBH9J5icD2rQMungQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\禾望电气_做SiC逆变器很苦_但成功了很酷_images\img_002_908a21f32542.png)
 
   
 
 技术引领，产品为王。多年来，禾望电气作为一家**全球化的新能源解决方案提供商**，持续在风光储氢多个领域攻坚突破，用新兴的技术打造领先的产品，为客户降本增效赋能。未来，禾望电气将继续**研究和探索新型材料的应用**，为新能源行业的高效发展做出贡献。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\禾望电气_做SiC逆变器很苦_但成功了很酷_images\img_003_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\禾望电气_做SiC逆变器很苦_但成功了很酷_images\img_004_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\禾望电气_做SiC逆变器很苦_但成功了很酷_images\img_005_84aa944feb13.jpg)

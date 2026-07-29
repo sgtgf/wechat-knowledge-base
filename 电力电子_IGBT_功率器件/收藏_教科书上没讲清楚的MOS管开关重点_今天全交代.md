@@ -12,7 +12,7 @@
 
 在讲之前，大家一定要知道MOS管的三个寄生电容：Cgs，Cgd，Cds，这对于后面的分析有很大的帮助。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjUBhtv5ldFzk7MvcCDkqo2O4eMiaIAgZrEAklggQicibV7MPGfdvUQDNibIkpw1w8ILMonSQmcIo0BQ/640?wx_fmt=png&from=appmsg)
+![](收藏_教科书上没讲清楚的MOS管开关重点_今天全交代_images/img_002_9d231a6df39e.png)
 
   
 
@@ -22,7 +22,7 @@ MOS管的开通过程
 
 说一个不恰当的比喻，MOS管的开通就像我们早上起床的过程，可不是"叮"的一下就完成的，而是分四个步骤循序渐进：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjUBhtv5ldFzk7MvcCDkqoF9H1PrTDT0xEfkWpjJsx9Ep7DOLKV8ZNP9qbo8Wl95KHTBrtRjzesw/640?wx_fmt=png&from=appmsg)
+![](收藏_教科书上没讲清楚的MOS管开关重点_今天全交代_images/img_003_41b30ce176c6.png)
 
   
 
@@ -34,7 +34,7 @@ MOS管开启的第一个阶段可以这样理解：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjUBhtv5ldFzk7MvcCDkqojdfR48icjjF9aLcNOevZaSTkicPQpNbsDzMArLETTIhpYZbGtbiaFKU7w/640?wx_fmt=png&from=appmsg)
+![](收藏_教科书上没讲清楚的MOS管开关重点_今天全交代_images/img_004_e42dfeef4bfb.png)
 
   
 
@@ -74,7 +74,7 @@ MOS管的关断过程
 
 MOS管的关断过程说明基本上与上文所述的开通过程相反。也是分四个步骤来完成关断过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjUBhtv5ldFzk7MvcCDkqoGO5MyJslhpqMONIkUOLypePgG9plC3UB5v2RpDkpaMq9JlfS4vNBoQ/640?wx_fmt=png&from=appmsg)
+![](收藏_教科书上没讲清楚的MOS管开关重点_今天全交代_images/img_005_f580460b5c72.png)
 
   
 
@@ -86,7 +86,7 @@ MOS管的关断过程说明基本上与上文所述的开通过程相反。也�
 
 2、漏极电流保持稳定不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjUBhtv5ldFzk7MvcCDkqomcR9spCUawnu4ic6j1rrwgKX6hPBBm6HGpSoeG0UxM0KnBFBa52q7rw/640?wx_fmt=png&from=appmsg)
+![](收藏_教科书上没讲清楚的MOS管开关重点_今天全交代_images/img_006_64516744ad4a.png)
 
   
 
@@ -152,7 +152,7 @@ VDS,off），这个电压会被寄生二极管钳位在输出电压。
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjNicb8jqq0EHwGZWhvViaxm6Yuh0ko8PVdJm7z8ZnAJqQqAMQtUGBQiaCMz0EMM17XJhSYIZiamukPzA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=2o394c6n&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjNicb8jqq0EHwGZWhvViaxm6AtEoFiarYT3iaUKISDDSia3hBF7xN3f90VjbdsqSH1fWqsMICqXwrudrA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=kytudjhp&tp=wxpic)
+![图片](收藏_教科书上没讲清楚的MOS管开关重点_今天全交代_images/img_007_b0f7ecc8d816.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\收藏_教科书上没讲清楚的MOS管开关重点_今天全交代_images\img_002_40143e017ccf.jpg)
 
 ## 
 

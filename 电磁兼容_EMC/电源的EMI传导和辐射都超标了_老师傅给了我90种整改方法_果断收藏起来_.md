@@ -69,7 +69,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia0BQKibre9GeWWgBhWH5GvjObFRaX3OoF0Fw4qqzyDf4cGslWDvSRheTCmOeAMDctqG7SwJhicG0ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源的EMI传导和辐射都超标了_老师傅给了我90种整改方法_果断收藏起来__images\img_002_49c973d215cb.png)
 
   
 
@@ -200,7 +200,7 @@
 
 5、增加屏蔽铜箔抑制向空间辐射 200MHZ 以上开关电源已基本辐射量很小，一般可过 EMI 标准。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源的EMI传导和辐射都超标了_老师傅给了我90种整改方法_果断收藏起来__images\img_003_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源的EMI传导和辐射都超标了_老师傅给了我90种整改方法_果断收藏起来__images\img_004_d5dcc7ecfdf3.jpg)
 
 ## 
 

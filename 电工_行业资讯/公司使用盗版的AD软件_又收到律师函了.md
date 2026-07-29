@@ -12,7 +12,7 @@
 
 最近群里的小伙伴提到一个问题，在公司使用盗版的altium designer软件，又收到律师函了。其实这不是第一次发生这样的事，我之前有公司也收到过律师函，不过已经是几年前的事情了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGlEiblWTVZ0f3xuVnvJkmRz1QQ4ZP77GvgStP1CNUuBjjS0PqNOlVNvian13ibXcOHpKcQjwfcaRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\公司使用盗版的AD软件_又收到律师函了_images\img_002_134820a331ef.png)
 
   
 
@@ -138,7 +138,7 @@ Altium Designer的收费标准因版本、授权类型和地区而异。以下�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGlEiblWTVZ0f3xuVnvJkm8ciaDK51pn2iac7QVPms9TVcUnl5PdXWibl8C0zT3f4MJKsMW5clTnGJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\公司使用盗版的AD软件_又收到律师函了_images\img_003_13920adf1bab.png)
 
 ### **选择建议**
 
@@ -169,11 +169,11 @@ Altium Designer的收费标准因版本、授权类型和地区而异。以下�
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_行业资讯\公司使用盗版的AD软件_又收到律师函了_images\img_004_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_行业资讯\公司使用盗版的AD软件_又收到律师函了_images\img_005_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia2pJfdXSG8zvMsLMXvpectSFUicEKyqKMllRjibuIDK6yMmS5hE3zGVPvEr8PXrOb5ogdg4yLrZ6bg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\公司使用盗版的AD软件_又收到律师函了_images\img_006_ca2e00928ebe.jpg)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

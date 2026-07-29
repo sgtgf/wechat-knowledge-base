@@ -10,17 +10,17 @@
 
 1.将A中所有元件选中，点击右键选择make reuse
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKFpicYtA0GWsJw0x2jmOtse7RJq4IPFRvH86Xh7LKCicHR2G081YibiasiaQdIFrXUdtTia18C1AtKZabQ/640?wx_fmt=jpeg)
+![](PADS中怎么把两个PCB合在一起_手把手教会你_images/img_000_4cdfab9742cc.jpg)
 
 2.弹出窗口，在reuse type中随意写入保存的文件名
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKFpicYtA0GWsJw0x2jmOtseGFib8qibf2Nj8fZJiboaRnFHcFTeBZib0Dx3ETHzDsEwE85dmkiaKRVAaUw/640?wx_fmt=jpeg)
+![](PADS中怎么把两个PCB合在一起_手把手教会你_images/img_001_37811eb560df.jpg)
 
   
 
 3.将B打开，并在ECO toolbar模式下，左键点击add  reuse
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKFpicYtA0GWsJw0x2jmOtselxKRVGFcC9QicdV6MiaricdibrENpFudWncNdz4Mc0kpDEbsEZOl1xRdzQ/640?wx_fmt=jpeg)
+![](PADS中怎么把两个PCB合在一起_手把手教会你_images/img_002_eb772cbc35e4.jpg)
 
   
 
@@ -30,10 +30,10 @@
 
 5.选中刚粘贴过来的电路，右击并选中select reuse
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKFpicYtA0GWsJw0x2jmOtseRK4Pmq3hCOIia5Yufy0Bg74Gkboe8EWtFSpb5iaF3HicID7mehQcMqJMQ/640?wx_fmt=jpeg)
+![](PADS中怎么把两个PCB合在一起_手把手教会你_images/img_003_d2b0864842c9.jpg)
 
   
 
 6.再右击，选中break reuse，这时你就会发现元件能被拖动啦。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKFpicYtA0GWsJw0x2jmOtseKJxBfWFgJibywemwTQnAOdMSWWhTjvCL7AjvmfJ7oUdatHWYNUhpN5A/640?wx_fmt=jpeg)
+![](PADS中怎么把两个PCB合在一起_手把手教会你_images/img_004_410da1fc8222.jpg)

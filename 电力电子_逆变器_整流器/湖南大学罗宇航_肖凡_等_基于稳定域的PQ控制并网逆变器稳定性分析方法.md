@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75SdKIR1xqMR6J56gFoEPYxiatNVC2ByKCCTg8PCGQWJ2ibM9B8239htpk3o4JEfmrQcGuAhBRWOUhSQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\湖南大学罗宇航_肖凡_等_基于稳定域的PQ控制并网逆变器稳定性分析方法_images\img_000_65c4ce027f6c.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2700 字** 
 **导语**
 并网逆变器(Grid-connected inverter，GCI)是连接发电单元与电网的核心部件，承担着电能高效转换的重要任务。在高比例可再生能源的现代电网中，GCI的动态特性影响电网安全运行，受到广泛关注。 

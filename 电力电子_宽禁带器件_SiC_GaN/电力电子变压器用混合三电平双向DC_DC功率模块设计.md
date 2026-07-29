@@ -19,24 +19,24 @@
 
 但目前商用SiC MOSFET的耐压等级多在1200V平台，电力电子变压器系统中的模块工作电压更低， 模块数量较多 ， 与传统变压器相比，尺寸和功率密度不占优势，性价比不高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zC21Pb0Cdrtcksu4xtQSZkT6GsUEicQWp0pk7IY7werHrNqNFAo0p137Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_000_298910b70bb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCdxc2acd1Y0807bcbg8XPGnPhDkD9rjZNrd2ibAWFZsImwqubdWnHhQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_001_e9b413c00806.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCe381omT0lQFsRYwR7cOdNeN0tWYicib9fxe1zlC5VPEwOwnTibK98C8fA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_002_1f5f3ff635d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zClhMrIU65FTNzrR3qicNKoJPYEejtmBHGibpZdddPCOZZ2apyGrMOJUow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_003_5ed8643b3569.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCIktuZwcLWowXEFsPqvnbiabvicejdKX2kB7Zy7W6L4LStJEWOcyCHuicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_004_5344592cda8b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCgJ68yplLkoUI6BPJziauDqVRGPmC9BrHvAmX6RgskXDRrTDnB20v3hA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_005_e75511e0f9ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCbDZmiabuNS1Mqccb2W9o2uf1oicTuWuwCwSxDUR7iatsyrAsnfNydeiaQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_006_88622c4aa188.png)
 
                       1200V混合三电平模块模块产品（SIC MOS+IGBT）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_007_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_008_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变压器用混合三电平双向DC_DC功率模块设计_images\img_009_84aa944feb13.jpg)

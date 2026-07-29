@@ -5,29 +5,29 @@
 
 SiC控制器技术‌，是一种基于碳化硅（SiC）材料的技术，它具有显著的优势，并在多个领域展现出广泛的应用潜力。SiC控制器技术的优势主要包括其出色的耐高压、耐高温、高频响应和抗辐射能力，这些特性使其成为第三代半导体的核心。在电动汽车领域，SiC控制器技术为电驱电控系统带来了革命性的提升，实现了更轻、更高效的电力电子驱动系统，从而提升了电动汽车的续航里程，并降低了电控系统的体积和重量。此外，SiC控制器技术在直流快速充电桩中也有广泛应用前景，能够极大简化电路、提高充电效率、减小散热器体积和成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnQz8Wj2qrWrlr3QdrHIJOnJtS2tM1cQuekT4UkGD5delzbKTI8g5I2A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_000_c41906bca6a3.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYn7eIy1LhGlMDOSKVvueA04ib9usvMsSwiax3gwP6M7vEhT3NwLtxLLOFw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_001_9dcaaf9fe222.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnters1KxD6zf80Hr44yPCJJt3BQxtvzbn97yfoicWBflQnTPtZZWbyAQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_002_737e47795486.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnsgJXYag1dhYy9eicw0yUOemedFD8blJlBhdttqcAiamiaeibq2pwibWfDGA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_003_eb8be6384ff4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnoYcUoib5FGbgXxes8Xl7ia607FwRTvJYr9zyC8G6Ubib2N7MdWbjUMicDA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_004_7c8854c5a38d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnuTSIezBQaFMyibuVo1d3qUclAMwsvF5arHtw8L9endpIPia1njaAuTVw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_005_a7fa9152551c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnxbcA0XsW6elOQn8EeQ3jV3jgNQ4gjBNNziav4RjXsK1Kdgm7xon2QOQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_006_33d11741368f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnOT33ltQaYdbpt1gb5GJNEX9CoNRhzGlpuuvcgcpvuq0HrOYiaH6ibFxw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_007_a0239250b00e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnR1MaOWicXSuO3icwoH1nVu2ZAPpfic8wen1bXXbZxlml7FqknFVJyDBFw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_008_670c63dc55f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYnS3kNxmIHP01wyogSWZgKqESjPOTeIosdUNkvTicygVGRicvUoZqzhucA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_009_f5ce98c46457.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYn5qly6JZDL3uAWia8UHbIZCzgrEOEJVATf6xYrmfk4ER3JdKfw2iahib2g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_010_83e0ddb753d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8cLUDzM7XEv6CSz6BAOLYn5lbian2CN9vBCOryRMd6mSictFpdjwMMiav0TMfF7mhcDdl3LN6cK6kJg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_011_b52ed03ea25b.png)
 
 ‌碳化硅（SiC）的应用优势主要包括高能效与低功耗、耐高温与高热导率、高工作频率、高电压与电流承载能力、抗辐射与耐腐蚀性。‌这些优势使得SiC器件在电源领域具有广泛的应用前景。具体来说：  
 
@@ -55,12 +55,12 @@ SiC控制器技术‌，是一种基于碳化硅（SiC）材料的技术，它�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_012_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_013_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC控制器技术及应用优势和挑战_images\img_014_84aa944feb13.jpg)
 
 ‌

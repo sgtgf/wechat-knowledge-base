@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/r5xSZRNVpJfw5XvZk7zW8g](https://mp.weixin.qq.com/s/r5xSZRNVpJfw5XvZk7zW8g)
 
-# ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+# ![图片](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_001_cfc30a4da041.gif)
 
 如果单独给大家介绍一款LDO芯片，我想大伙可能**提不起兴趣**。但如果说，这颗LDO是**20V/1A**，具有**超低噪声**和**超高PSRR**，还是**国产**的，并且**可以直接替代ADI的LT3041系列产品**，价格还只要人家的一半，性能指标还更抗打，那这颗国产芯片就有得看了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacyO7lo8uaj7Z9eNFicoIP8TFzD143CI2D3vRpBhXKGH0ibCYC1YMkcq0SfVOiamas3I8OUicULUsoTV2s15z81wmsoa1JI04ZoTc4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_002_c0db2c42cc82.png)
 
 这颗芯片自2023年上市以来，在需要超低噪声供电的圈子里一直热度不减。今天咱们就来仔细盘一盘这款来自**共模半导体**的**GM12051**。  
 
@@ -18,7 +18,7 @@
 
 大伙都知道，LDO主要用于输入输出电压差小、对噪声敏感的场景。但不同LDO的核心性能侧重点完全不一样。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadnib4iacpMrquKonOfcVYFmVpbkEyFI0azdE7ZIn5PnGg0jSjEOprSSiaQNvQM42cIUr3u91NqhjUnH58m1IHjhm8jDHib6v9JR9Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_003_711b0a2015cd.png)
 
 **通用型LDO**最常见，价格便宜，适合MCU、数字电路这些对噪声不敏感的场景。高频PSRR衰减很快，噪声指标也一般。
 
@@ -30,7 +30,7 @@
 
 这就是GM12051的定位。**10kHz点噪声密度6nV/√Hz，RMS噪声仅1.8μVrms**，妥妥的超低噪声梯队。**100Hz时PSRR高达120dB，2MHz时还有59dB**，妥妥的超高PSRR梯队。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadFuQTjMBn5VDIyuicRcGar6emOfiarMhfnNn7AFCwM1RFoq7UgazfLWrCpfyb7FJk9zcmrxV8iaQRWeTbTHVLSo1XzGSFpNfmrno/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_004_9782a7c612ca.png)
 
 LDO的噪声和PSRR在电路设计上往往存在权衡，很多LDO都逃不过这个定律，但GM12051两个维度都做到了行业前列。这得益于它独特的电流基准加轨至轨缓冲器架构，始终工作在单位增益下，无论输出1V还是15V，噪声、PSRR这些关键性能几乎恒定。后面咱们会详细拆解这个架构。
 
@@ -44,13 +44,13 @@ LDO的噪声和PSRR在电路设计上往往存在权衡，很多LDO都逃不过�
 
 **还有医疗成像与超声诊断，**这类设备里，前端换能器回来的信号极其微弱，增益动不动就几十倍甚至上百倍。电源上的噪声被放大后会直接淹没小信号，影响图像的信噪比和对比度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeFC9yG93ZoghjPQKpzTDgtfq3mN8ib5hEENufY3Fck94rNxzXNrqtFU5Y4Imh6joEt7Miblkia43AKS8ia6kcYK1th2Pq6sOTAe70/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_005_a64639423f55.png)
 
 还有红外传感与精密仪器，热电堆或光电探测器的输出电平是微伏级的，后端的仪表放大器对电源共模变化非常敏感。
 
 还有开关电源的后置稳压，这也是个很典型的用法。前级一个DC-DC把电压降下来，效率高但纹波也大，后面跟一颗GM12051，利用它超强的PSRR，能把前级DC-DC残留的开关纹波和高频振铃尖峰一把给滤掉。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacdBuNOT0unxExVMced86NCXKaFElqUqaicNyibuShCu09G2nLZroHFIpO1ibfsOoGZMvuib9o9BDrIu7E0RFFfdjbmQsa0gdZQXjM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_006_bb5db1697549.png)
 
 03
 
@@ -60,11 +60,11 @@ LDO的噪声和PSRR在电路设计上往往存在权衡，很多LDO都逃不过�
 
 普通LDO的架构是电压基准 + 误差放大器 + 反馈分压电阻，输出电压通过分压电阻网络来设定。这个架构有个天生的毛病：输出电压设得越高，分压比越大，基准噪声和误差放大器噪声会被成倍放大。结果就是，你设5V时噪声还能接受，设到12V时噪声直接线性增长，性能和输出电压强相关。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafziaCGhI61lYd7kV1vpCmq5kC4Hricmic178xhYJKJtSeEjy0HUl4MFNgYR1NMAB9Z5Z8icJic0WM4j8JuqRutHkfeIKaH9m4uGTq4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_007_47523e3e3f3f.png)
 
 GM12051换了个思路，它用的是**100μA精密电流基准 + 轨至轨电压缓冲器**。SET引脚对地接个电阻，电流流过电阻产生基准电压，然后缓冲器直接跟随后输出。整个环路始终工作在单位增益下，输出1V和输出15V的噪声、PSRR几乎完全一样。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacEgrOVNicZUwmtBgBjA0cicFLjPEB7qpFUJu1KSxY8rxwpiadyBjiaW7RFCicoFPx5vCGbuZKvBYwFKDtMRsuucDR7S6ylfUxIT8no/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_008_5b14a3e3f08c.png)
 
 这一下子解决了两个问题：**低噪声不随输出电压恶化，高PSRR也不随输出电压恶化。** 很多LDO宣传低噪声，但你一查发现只是在特定输出电压下测的，换个电压性能就变了。GM12051在全电压范围内拿到的性能都是一致的。
 
@@ -76,39 +76,39 @@ GM12051换了个思路，它用的是**100μA精密电流基准 + 轨至轨电�
 
 在10kHz频率点上，它的点噪声密度典型值只有**6nV/√Hz**。在10Hz到100kHz的带宽内，输出RMS噪声典型值更是低到了**1.8μVrms**。这个水平是什么概念？市面上很多标称低噪声的LDO，在10kHz的噪声密度还在二三十个nV徘徊，差一个数量级。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadg3yIyh8MTm45MVDiaD7IuuFPF9WRt5icSP7dHweQsf2K2yyjaeWZJodvBlhWkOdbJqJ5J9ZA5fMe9ENHTflic7nZEBMn9W2hn1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_009_6c991a1096c5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacFk1qDmO0PsjibiaticI5MnnpebOwYdg5aOlyETG8ic0mBc9vtJTQpDpSc4APmdejjibDlewudSIBYicdm5IQiafleB6LN5T67K48TGM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_010_dd8d9ece61cb.png)
 
 **第二，超高PSRR**  
 
 在负载最大1A的条件下，在100Hz时，PSRR高达**100dB**；在10kHz时，还能保持在**97dB**；就算到了2MHz这么高的频率，依然有**63dB**的抑制能力。大多数普通LDO在2MHz频率上的PSRR早就衰减到20dB以下，甚至接近于零，完全失去了对开关纹波的抑制能力。GM12051在2MHz还能有约60dB的抑制比，意味着前级DC-DC哪怕有500mVpp的纹波，经过它之后也能被压到0.5mVpp以下。这对于需要从开关电源直接后置稳压的应用来说，效果立竿见影。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadz6nyk415dDLYzMQQnXic0UCn2FTEPKNeWtqqJ7H4HBbHZ7dHA02RgdarwDJqHzx5jm4MyzsIT5bibpAyNRh6slgcu7yLsmOMys/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_011_4909a4b8a181.png)
 
 **第三，输出电流和电压范围很宽**  
 
 它能提供**1A**的输出电流，输入电压范围从**2.6V一直到20V**，输出电压通过一个电阻就可以在**1V到15V**之间连续设定。而且，在SET引脚对地加一个电容，能起到一箭三雕的作用：进一步降低输出噪声、改善高频PSRR、同时实现软启动，限制开机时的浪涌电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadrooPQiccD8xltwdgADVfvgwwIpNLxKSRWbUMia8HwnVkdCcickBuWu9lhibuGpGLac3PmZP1POsiaN3uT4QB3VZRhpIzxk8vQuEP0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_012_8da8ba4fd1b8.png)
 
 **第四，低压差，发热少**  
 
 在1A输出电流时，压差典型值只有**225mV**。这意味着在电池供电或者输入输出电压比较接近的场景下，能量损失更小，芯片自身的发热也更低。空载时静态电流典型值只有3.1mA，关机模式下更是小于1μA。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeLGZZo0L5BtJw38v9Z2qsHwfHTzmLpI2KlDJqq3Z7othUzZFUxF5gGLD7wJiaCjRzQiay5NShCEy1DjbIZgbTa8BLtGQOUhZibA4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_013_d14f60b66baa.png)
 
 **第五，可编程电流限制**  
 
 您可以通过ILIM引脚对地接一个电阻，自己设定限流值，标度因子是278mA·kΩ。比如接个1kΩ电阻，限流值就是278mA。这在给一些比较娇贵的负载供电时非常有用，您可以精确控制最大输出电流，而不是依赖芯片内部固定的、可能偏大的限流点。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafZTOvmM7jL8ewic0TrN1XT0KS1SiandRhyfEg8zOLUia6G17b5C0RVffSjmQ3hZoXrPOiayJNvjvKmzicMmo1ib6jzmWnFwiaxSk8YQ4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_014_9b56eccb242e.png)
 
 最后，它还能并联使用  
 
 如果觉得1A电流还不够，或者还想让噪声更低，可以把两个甚至多个GM12051并联起来。输出电流直接叠加，而输出噪声会降低√N倍，N为并联个数，同时还能把热量分摊到多个器件和更大的PCB铜皮上。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacf80we3ciaBPtS1sTncJQ9VVhEyl9IRbtqEmFj57qYjKr1o4iaExH2ibibdvLicicU0lDZibcpPicjicsp9dQlZA7IJnenBxK56bxxVJQE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬气了_性能对标ADI_价格只要一半_把一颗LDO做到极致_就是了不起的国产芯__images\img_015_a28055677dd7.png)
 
 当然，这颗芯片的优点远不止这些。负载调整率和线性调整率都非常出色，重载轻载切换或者输入电压波动，输出都稳得住。还有一些参考电路就不细说了，感兴趣的朋友可以在官网下载相关手册进行查看。
 

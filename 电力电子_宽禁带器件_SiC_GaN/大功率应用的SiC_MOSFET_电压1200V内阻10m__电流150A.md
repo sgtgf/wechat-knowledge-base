@@ -7,11 +7,11 @@
 
 碳化硅MOSFET具有高温工作能力、高阻断电压、低损耗‌、开关速度快等特性，是目前电力电子领域最受关注的宽禁带功率半导体器件。在电力电子系统中应用碳化硅MOSFET器件替代传统硅IGBT器件，具有高效节能、耐高温与高压‌、系统级优化‌、成本下降与规模化效应、技术性能提升、等优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdLlicXcKrzSyicQpeGl8W0GbErDqDmm7qia3lFA7ibkSN7l1WseQHclf1dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_000_f4c984c73a1c.jpg)
 
 电压1200V，单芯片内阻10mΩ的单管，产品性能大幅提升，产品线进一步丰富，助力新能源汽车、直流快充、光伏储能、工业电源、通信电源等行业实现更为出色的能源效率和应用可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdticDBTofHuI1OkbaCXeZwfl35y6pCFia8tAlABzEgicPC5TeN9nOFD1dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_001_c3c47aea09ec.png)
 
 2.SiC MOSFET产品介
 
@@ -19,17 +19,17 @@
 
 电压1200V，单芯片内阻10mΩ的单管,采用TO-247-4L封装，确保功率密集的高温稳定运行，以及能源关键系统，实现紧凑的设计，减少电磁干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdHKvL3O3hrpwvQCOaEeO7dRkl8O3bS0hNTibycsv4WB9t1g7TTk5fz1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_002_5b8ca98fb9a6.png)
 
 **关键参数：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdaYNvaBCbicYAHPlNlMbRVzricGYEGAMppfE2088313pRH5ibkLzeeOE5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_003_236e0948c1a0.png)
 
 **MOSFET特性：**
 
 **SiC MOSFET的驱动电压+18V兼容+15V，-5V。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdkwM5KD3g7pBvLckWiabWUm6YZUnAZh1lArYmaouWibTBtibydz99PPEEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_004_53c52aa1aa42.png)
 
 **应用领域：**
 
@@ -47,7 +47,7 @@
     
 -   通信电源/Telecom Power
     
-    ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdEf08vOG0jRQox6HGZNKlic0aicyRRaRhTWxJbOcVu4vkEicOBpyc5Zw5w/640?wx_fmt=jpeg&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_005_40bdccb950ad.jpg)
     
       
     
@@ -130,19 +130,19 @@
 
 专注碳化硅器件开发与应用，从芯片设计~晶圆制造~研发和生产MOSFET~功率模块封装测试~应用方案， SiC MOS全产业链服务商。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdQYaVB185rnDe1EtKOHsrbAPQT5PZnsfcXbrribUJTMDPldGITuDF3rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_006_f20c402d1109.png)
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_007_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_008_b85ac3496cf9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率应用的SiC_MOSFET_电压1200V内阻10m__电流150A_images\img_009_3a3df320c8e4.png)
 
 ####   
 

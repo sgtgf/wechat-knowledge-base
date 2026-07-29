@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/WtVTN0pb-bPAPAEZDil12w](https://mp.weixin.qq.com/s/WtVTN0pb-bPAPAEZDil12w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_000_4fecbf19a39d.gif)
 
 ****Quantitative Analysis of Structure-related Spatial Harmonics on Torque Generation in Hybrid Excited Asymmetric Stator Pole Double Salient Machine for Integrated Machine Drive Applications****
 
@@ -48,7 +48,7 @@ With the rapid development of integrated machine drives (IMDs), hybrid excited a
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja2L2b9eAUfV3XA4pp8wCmnctxmiaTUjKdeNHGFlONRNXjMrHIF4nOS4TBSLiaJgqQAP55QtJxhRGibgX8jY9m89QKicRHWdRfZ5mP4/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_001_65f474b4a195.gif)
 
 HEASPDSM具有不同的槽极组合（a）12s5p（b）12s7p（c）12s8p（d）12s10p
 
@@ -62,35 +62,35 @@ HEASPDSM具有不同的槽极组合（a）12s5p（b）12s7p（c）12s8p（d）12
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja1YYPFvDY4Lw6dUh1wswBfqic6aor7nB8dYZ3zY8SuIHwIicd6DeklYeqIReqAqicOibK7BffBeicprDQ0KibZnMTbnry8ZvzexH3c7U/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_002_a3c78b1d286f.gif)
 
 **曹辰**，2020年获得电子科技大学电气工程学士学位，2022年获得华中电子科技大学电子工程硕士学位。他目前正在华中电子科技大学攻读电气工程博士学位。他的研究兴趣包括大功率/扭矩密度电机的设计、建模和控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja3pkQHsD9wlvnmTHoWHD1RFoh3Y3ibFEibVqCJ2VDlV3Ldm1414LVXdfE3vvoJ9J40BUpoep5UaGxGjWs0NBKeibTJ7SwyTU75x5Y/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_003_f0babe720f92.gif)
 
 **徐伟 (Fellow, IEEE)** ，分别于2002年和2005年获得天津大学的学士和硕士学位，并于2008年获得中国科学院电气工程研究所（IEECAS）的博士学位，均为电气工程专业。他目前是中国科学院电气工程研究所的教授。他的研究兴趣包括直线电机和驱动器的设计和控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja12ymoxbOMXxkpfbc3sFplSuDJmNhYu2tzcuSibjWAOibSg9Nibc36RVoeL5smicMUFmRtWwc2BT2XHENqecaqpr2FP1ibP4amJFkuw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_004_099ec471fbb1.gif)
 
 ****葛健****，分别于2016年、2019年和2022年获得华中科技大学电气工程学士、硕士和博士学位。现任华中科技大学高密度电能转换国家重点实验室助理研究员。他的研究兴趣包括线性感应电机、大功率/转矩密度电机和无刷双馈电机。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja3cTRuJXObtvx31Vnzr5saayNUzQWvkDMj2Xt5U8wRjm0Wowbx2Sgh8f1MU9wnxsyWj9exeia7LIWCY67MONTAlRsVIzqElLkB8/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_005_6000c9164701.gif)
 
 **杜彬**，2009年获得华中科技大学材料加工工程硕士学位。现任科技发展部副部长、中国电器研究院有限公司高级工程师，研究方向为智能制造。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja0EwMiauAKC65ale14wL9hy64d8ng1T9SNL2ibJOX80IkDBh2dWwRXZC5GxykSlibP5B3Lk57xLMmTBr71CQ3fjHZibWxSMPTsgR0M/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_006_c4a49dd082f6.gif)
 
 ****陈忠勇****，2001年获陕西师范大学物理学学士学位，2006年6月获中国科学院等离子体物理研究所博士学位。他目前是华中科技大学的教授，也是国际托卡马克物理活动（ITPA）磁流体力学（MHD）、中断和控制委员会专题组的专家。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja1dwDQuTibRgZxcAvmIHmCwYIDibtHVCicebzahcDcQjy2Lk3oHFWxjdgLNbf2pRv800gq7gfwrtQiaSDQKa8jeREFHfl74VkolPvw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_007_e84d2aff37b9.gif)
 
 **张传甲**，2006年获得山东大学电气工程学士学位。现任有限公司机电设备事业部副总裁，专注于机械、机器人、电机、电容器等产品安全、性能、可靠性领域的质量与技术服务研究。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja24o1ciacW1IO47ichiaMAupWGXq96EvicJWPXelsl4dWG7wicqAibCS22S8XXKRfcc1zaK2YsXBPWN1DDnMtm1PI8dChYbXDM8VyzPw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_008_dc1121d83c8c.gif)
 
 ****康莉莉****，于2006年和2009年，在燕山大学获得测量与控制技术及仪器仪表学士和硕士学位，2022年在天津大学电气与信息工程学院获得电气工程博士学位。她目前是天津中德应用科技大学智能制造学院的副教授。她的研究兴趣包括电机的设计和控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja3AEfyeia6xb4hhsJkQF5z7oplEliaOw06N6QiaF8KLQTNrUt8TSbhpkAHPN3chcrXgOvnahdOtNB6a5Cn1DEYqCU0fu2azsFS0es/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_009_11001a9b622a.gif)
 
 **张雷**，1997年获得河北工业大学机械制造技术与设备专业学士学位。现任中车有限公司股份有限公司技术副总工程师，专注于磁悬浮交通产品开发和数字化设计技术。
 
@@ -100,7 +100,7 @@ HEASPDSM具有不同的槽极组合（a）12s5p（b）12s7p（c）12s8p（d）12
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_010_654c2fde68d8.jpg)
 
   
 
@@ -114,15 +114,15 @@ HEASPDSM具有不同的槽极组合（a）12s5p（b）12s7p（c）12s8p（d）12
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_011_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_012_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_013_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -130,15 +130,15 @@ HEASPDSM具有不同的槽极组合（a）12s5p（b）12s7p（c）12s8p（d）12
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_014_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_015_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_016_644d85f1cc17.png)
 
 学会官方B站
 
@@ -146,15 +146,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_017_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_018_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_中科院电工所徐伟等_用于集成机器驱动应用的混合励磁非对称定子磁极双凸极电机扭矩产生的结构相关空间谐波定量分析_images\img_019_c28b250481e7.jpg)
 
 学会科普微信
 

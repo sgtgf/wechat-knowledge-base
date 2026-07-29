@@ -11,7 +11,7 @@
 
 **关键词：**SiC MOSFET；Si IGBT；导通压降；开关时间；结温监测
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q28dFc0Yes3XDK9l6g4IT4esa9Vice7sIk8dMv6iaWlnLCNqSKvMOicPe6g/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_000_eedfcf653830.jpg)
 
 **0\. 引言**
 
@@ -27,27 +27,27 @@ Si IGBT 自 1985 年诞生以来，性能被不断提升，应用场合不断拓
 
 为研究结温对器件的影响，本文对 TO 247 封装1.2 kV/40 A 的 SiC MOSFET 和 Si IGBT 器件进行检测，两种器件的具体参数如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2Ald19gia7FeC2mg3zHMArgmuUCTVxrxHeuDTjEZz5h3Q06Cz48g1icZw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_001_707c3989b8f2.png)
 
 **1.1 结温对输出特性的影响**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2SstX46h1VfMSVT5gBHNmA6s93BqPXwS6ZqnyDpdD7cq0lq4JF0dWQw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_002_f9768e60a00a.png)
 
 输出特性测试电路采用空心电感负载进行单脉冲测试，只需很短的时间就可得到某一门极电压下的输出特性。图 1 示出输出特性测试电路，其是在双脉冲测试电路的基础上修改电路参数得到的，其电路参数如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2gQ33MfEIuz8vEibECccqoS1OMQTVH8KRyX1BhPn2HHNkGouYCQQ40NA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_003_c09799543fbc.png)
 
 测试之前，将器件放置在加热台上加热 1 h，以确保器件的结温达到设定值。图 2 示出器件不同结温下的输出特性曲线。可以看出，随着结温升高，SiC MOSFET和 Si IGBT 的导通压降均逐渐上升，但电流低于 36 A 时，SiC MOSFET 的导通压降小于 Si IGBT 的。这说明，在宽温度范围 (150 ℃以下 )、宽电流范围（36 A 以下）内，SiC MOSFET 的导通压降小于 Si IGBT 的，其导通损耗更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q25s8KTZ6p0Rqzru5mvlicIRmfFnRJDhVXiaTLX1PO4tzpqVeYvB8uhYlg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_004_765bb2201c4e.png)
 
 **1.2 结温对漏电流的影响**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2JibDOsnhbXXR5wibZiciakmX4a7icxBKSABHaoLSRmqYf9WSEuCEsKnLagA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images\img_000_b425a5b5fc56.png)
 
 图 3 示出漏电流测试电路。图中 VDC为直流电源，电压为 1200 V；DUT 为被测器件；RL为电流采样电阻；RG为增益调节电阻；AD8421 为仪表放大器。实验过程中被测器件保持关断，SiC MOSFET 和 Si IGBT 在不同结温下漏电流的测试结果如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2jrqQyTTDOial4LjMzjXHnia0j7mKicwXo1h1jwpo9e6TT6RmzCKtRvhQQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_006_19b7e53b183a.png)
 
 由图 4 可知，0~175 ℃结温范围内 SiC MOSFET 的漏电流均低于 10 μA，表现出了极为稳定的阻断能力；而 Si IGBT 结温在 125 ℃以下时，漏电流随结温上升变化很小，但在 125 ℃以上时漏电流随结温上升而急剧上升。
 
@@ -55,17 +55,17 @@ Si IGBT 自 1985 年诞生以来，性能被不断提升，应用场合不断拓
 
 研究器件的开关特性对确定变流器的工作频率和死区时间以及估算器件损耗和变流器效率具有至关重要的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2kiaZeZIAFUeiaYsSsKrdImHrTZic4MO7ibL8CYgIUGtL1FtwCCzBuq9Dkg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_007_263346595e03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2szqJHx1CpLzIpLPLkhe5v0iabBiadLFHibxFKibUJBFgo3RUFMAyBvuHpA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_008_4ee0ccca5787.png)
 
 器件的开关特性主要通过双脉冲电路进行测试，双脉冲测试电路如图 5 所示。其中母线电压为 600 V，母线电容组为 680 μF/450 V，负载电感 250 μH/125 A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2ibVfNMgr15qiclYkLfXibibEKdJ4dEiby6v9vgqTBXJbYBrXQbEojR5iagMA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_009_c86583e44eb1.png)
 
 SiC MOSFET 和 Si IGBT 开关损耗随结温的变化情况如图 6 所示。由图 6 可知，在相同结温下，SiC MOSFET 的开关损耗仅为 Si IGBT 的 1/3；随着结温升高，Si IGBT 的开关损耗均逐渐增大，而 SiC MOSFET的关断损耗 Eoff增大、开通损耗 Eon先上升后下降，总开关损耗 Etotal在高温情况下变化不大。所以，在相同的工作条件（开关频率、占空比、散热功率等）下，SiC MOSFET 相对于 Si IGBT 的损耗更低，结温更低。因此，在相同的结温条件下，SiC MOSFET 的开关频率可以更高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2VhQECyRW299bsa4OhnBvCErw4mbdpZcNjstFeZsmP3locIMjia2dCnA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_010_b5f1c097b2fa.png)
 
 SiC MOSFET 和 Si IGBT 的开关时间随结温的变化情况如图 7 所示。在相同的结温下，SiC MOSFET 的开关时间约为 Si IGBT 的 1/4。随着结温升高，Si IGBT的开通延迟时间 tdon、上升时间 tr减小，关断延迟时间tdoff、下降时间 tf增大，所以 Si IGBT 的关断损耗随结温变化更加明显。随着结温的升高，SiC MOSFET 的开通延迟时间 tdon、上升时间 tr、下降时间 tf没有明显的变化规律，关断延迟时间 tdoff在结温较高（\>100 ℃）时不随结温变化而变化，所以，SiC MOSFET 的关断损耗随结温上升略有上升，而开通损耗先上升后下降。
 
@@ -73,33 +73,33 @@ SiC MOSFET 和 Si IGBT 的开关时间随结温的变化情况如图 7 所示。
 
 图 8 示出不同结温下 Si IGBT 的关断波形。因Si IGBT 的关断延迟时间随结温升高而增大，所以 Si IGBT 在某一开关电压和开关电流下的关断延迟时间可以被视作该工作条件下的结温敏感量而监测结温 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2MgdekUBEAnbcnsvoAhyAMkEK8g4SiamFNibRVhxhsovuBmD5NYmoNkmA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_011_b0b095e6ce68.png)
 
 根据数据手册，Si IGBT 的关断延迟时间 tdoff被定义为从门极电压下降到最大值 Vge(on)的 90% 的时刻至集射极电压上升到稳态值 VDC的 90% 的时刻。如果将 Vge开始下降的时间定义为 0 时刻，则 tdoff为 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2v7DY8noyTdibApKc8VewYhs73EFibT1akOpBQHGbRViaVbGicdw3iaCJb3Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_012_fa2cebd96f27.png)
 
 式 中：RG—— 门 极 驱 动 电 阻；CGC—— 米 勒 电 容；CGE——门极发射极之间的电容；Vplateau——米勒平台电压；Vce(on)——IGBT 导通压降；Vge(off)——IGBT 关断时的门极驱动电压。
 
 CGC随结温Tj升高而增大，Vplateau随结温升高而减小，所以 tdoff随结温升高而增大。Vplateau随开关电流 iL增大而上升，所以 tdoff随开关电流 iL增大而减小，因此 tdoff随着开关电压 VDC上升而逐渐增大。综上所述，随着 Tj升高，tdoff单调上升，所以 tdoff是一个非常有效的结温敏感参数；但其又会受到 iL和 VDC的影响。所以，为监测结温，除了 tdoff之外，iL（针对电压源变换器）和 VDC（针对电流源变换器）也需要采集。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2iaeN66Sbsa0MT5d9AInDRicXuZ5lSVAGyKkfKmpIMEFd9jG855OlKQ0g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_013_1e36c6a76173.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2xibBNQ7uSoX79VVDer47ca3Pmphc0OI5SEdOGGpEYIQ6QDZdYyFksRA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_014_15dc3212d4ed.png)
 
 图 9 示出 tdoff检测电路。其中 LEM 传感器采集IGBT 的开关电流；阻容并联分压器采集 Vge和 Vce；电压跟随器保证被采集的信号无失真传输到信号处理电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2UIb81Lo6dCEufpgvOdzAEsW4ImzcElCg6CpUHG5fTia03jCViclMGaBg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_015_894bcdf658b9.png)
 
 图 10 示出信号处理电路原理图，其包括一个比较器芯片 MAX9202 和一个与门芯片 74AHC08。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2icFQMev0qmK2C0CoQtxGfzegE0EV4yibcGc46FW1DslVpgRibhVkfSIbg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_016_0890ba46ee87.png)
 
 信号处理过程如图 11 所示。在 IGBT 关断过程中，Vge1减小，所以 pulse1由高电平变为低电平；Vce1增大，所以pulse2由低电平变为高电平。pulse1和 pulse2相与产生一个脉冲，其脉宽为 tdoff。
 
 用光耦 TLP117 作隔离电路，信号处理电路产生的脉冲经过隔离电路输入 DSP。DSP 可精确地测量脉冲的宽度，亦即 tdoff。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2n0Nuorgiae7g5K8oo4B7D4oZA6oIDsPbD9y3wwGbZgickFvL841M1EYQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_017_a0013311bf22.png)
 
 图 12 所示为不同结温 Tj、不同开关电压 VDC和不同开关电流 iL下的 tdoff。在 IGBT 运行过程中，根据测试得到 tdoff和 iL(VDC)，通过查表便可获得结温。
 
@@ -107,15 +107,15 @@ CGC随结温Tj升高而增大，Vplateau随结温升高而减小，所以 tdoff�
 
 SiC MOSFET 的关断延迟时间在结温较高（\>100 ℃）时不随结温变化而变化，所以关断延迟时间不能用于SiC MOSFET 结温的监测。由图 3 可知，随着结温升高，SiC MOSFET 的导通压降逐渐增大，这说明 SiC MOSFET 的导通电阻随结温升高而增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2U8kscHicBKfdzaRZppnpGkfiaHZjfDghibNKCOXrl8yhMqofVBiav53Blg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_018_a5e408b7e1dc.png)
 
 图 13 示出SiC MOSFET 在不同结温下的导通电阻。由图 13 可知，导通电阻随着结温升高而线性变化，因此导通电阻是用于监测 SiC MOSFET 结温的理想参数。但导通电阻会受到漏极电流、门极驱动电压的影响，所以采用此方法测量结温时需要采用固定的驱动电压和漏极电流。为了使导通电阻随结温变化的变化率增大，门极驱动电压需很低（7~9 V）；为了避免测量过程中漏极电流引起器件的温升，漏极电流需很小（≤ 0.5 A）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2fZm0oF7XtOa4fu9s4eUU7hcLffl2zGIIeBErKWYs2zSpvZEjDuKOFg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_019_9e73f3837d71.png)
 
 图 14 为导通压降测量电路原理图。SiC MOSFET运行一段时间后，将 MOSFET 关断；之后改用较低的门极驱动电压使其开通，并通入很小的漏极电流，测量得到其导通压降。漏极电流和导通压降通过压频转换芯片转换为频率，其满足如下关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQIOwBQpCNLcknIV8fH5Q2e2Pdr5LNWtHa5mdNIyFYM603qxAUDUyRfAUUroicgwcnYpVRXH1yULA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_020_36895c1f9e5b.png)
 
 式中：Vds(on)——SiC MOSFET 的导通压降；Id——漏极电流；fv——导通压降转换之后的频率；fi——漏极电流转换之后的频率； kv——导通压降的转换系数；ki——漏极电流的转换系数；p——单位结温变化引起 SiC MOSFET 导通电阻的变化量；q——结温为 0 时，SiC MOSFET 的导通电阻。
 
@@ -127,10 +127,10 @@ SiC MOSFET 的关断延迟时间在结温较高（\>100 ℃）时不随结温变
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_021_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_022_3ade3c3d8599.jpg)![](SiC_MOSFET_和_Si_IGBT_的结温特性及结温监测方法研究_images/img_023_84aa944feb13.jpg)

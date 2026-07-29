@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/afsT1\_F\_cLpWQGbQkB6rsw](https://mp.weixin.qq.com/s/afsT1_F_cLpWQGbQkB6rsw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMRLTNIHAhMlS8lynS5hCmibhd3LOEnxuZ7cCT8K4LbCic87kdC0WF9N7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_000_9abdb96d28d9.png)
 
 “
 
@@ -13,7 +13,7 @@
 
 光伏电站的电压等级正从1000V向1500V甚至更高跃迁，在这场静默革命中，碳化硅器件以其高频高效、低损耗的“硬核”特质，成为了组串式逆变器升级的核心密码。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMbichXerAl39YUP3jFXxibwrk7LMRibJG2DaNhQMQL5cNFib5IlWElCtlTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_001_fc7291a01e5a.png)
 
   
 
@@ -25,7 +25,7 @@
 
  **•** 全球光伏产业正以前所未有的速度爆发，作为能量转换的“核心大脑”，光伏逆变器的效率与可靠性直接决定着发电系统的经济命脉。在这场效率革命中，组串式逆变器凭借其模块化设计、灵活部署、易维护以及单机故障不影响全局发电的显著优势，已牢牢占据市场C位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMicj33JDzgdFaVBsluAOxe14urqS5wTtyBDt76iapOJdUBKI08hQTQeAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_002_7b0cb8490d39.png)
 
 ▲各类光伏逆变器对比
 
@@ -45,7 +45,7 @@
 
  **•** 组串式逆变器的魅力在于其精妙的模块化架构：它将光伏组件按额定电压串联成组，独立执行最大功率点跟踪（MPPT），并将直流电高效转换为交流电。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMtScufLn3SztX65sHsHmK3w8eZoHeru8JMns0CjzpDdyouWNd0DfVNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_003_dcc5784ae451.png)
 
 ▲组串式逆变器工作模式
 
@@ -53,7 +53,7 @@
 
  **•** 组串式逆变器系统由光伏阵列、DC-DC升压转换器、DC-Link电容器及逆变器（DC-AC转换器）构成。逆变器作为核心组件，负责直流电转交流电，供住宅负载或并网使用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMLKz9P5RWA2HazUK3CWmsPvMYknGoskh7ibricVnafqylgESAQibzq4K8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_004_2ddf3d3fb34b.png)
 
 ▲组串式逆变器系统框图
 
@@ -79,7 +79,7 @@
 
  **•** 结构简单，成本低，适用于住宅低压系统。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMznWicbJg0YzDGnODlt8ib3iahJS70klKQfPzQib5ccMDMJwBytGILpSUfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_005_85ba959b6deb.png)
 
 ▲单升压拓扑结构
 
@@ -89,7 +89,7 @@
 
  **•** 采用三电平结构，显著降低开关器件承受的电压应力，适用于高功率密度需求场景。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMibGLMkGjAIRV2slgGcyZQXeo7yEPekQ2EPSticebLOgxXNA519GVf6Rg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_006_14fbb2c52144.png)
 
 ▲飞跨电容升压拓扑结构
 
@@ -99,7 +99,7 @@
 
  **•** 同样基于三电平，效率与功率密度表现优异，适用于对体积/效率有极致要求的场景。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMV5DhRsWKj5tkJ19rhPFknXjg0eicJSmZ2KtYPzjMvicOLxFUI24GVqicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_007_37be8a18fcdf.png)
 
 ▲对称升压拓扑结构
 
@@ -119,7 +119,7 @@
 
 **T-NPC拓扑：高效能量转换的经典架构**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMiaCjMZukFpiagOCtOORfL1SAnxp9YtDric0zRBe2jianm6fsJYiapUNjcicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_008_eee5a262dcc7.png)
 
 ▲T-NPC拓扑结构
 
@@ -127,7 +127,7 @@
 
 **A-NPC拓扑：灵活控制与性能兼备**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMy01GHnxJWsgRaFGdhoFGzExAaxWGqY6pCWMnpVDrqNNjxFQ0nibrScQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_009_4def1a34713f.png)
 
 ▲ A-NPC拓扑结构
 
@@ -135,7 +135,7 @@
 
 **I-NPC拓扑：大功率场景的优选方案**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMqRwwzicICkWnI1fbxg3lxE5WNtJo1ekVYOF74GqnAj0rNH18ZxrmNbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_010_d8d25ba1e811.png)
 
 ▲I-NPC拓扑结构
 
@@ -143,7 +143,7 @@
 
 **三相全桥拓扑：经久不衰的行业基准**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMIHwZ9dCp1KbnB1dfOJadib5w2iaTgZPkq4bmtXPtiblDCj3efMb6TvFjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_011_5d3a86fddc48.png)
 
 ▲三相全桥拓扑结构
 
@@ -173,16 +173,16 @@ i  来源：赛迪顾问《2023-2024年中国逆变器市场研究年度报告�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvw7kJoro3ApDz0OzUgf9M8z0tGYb7dtd8gyfkibsLTroiavWkcSRsIfcwA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_012_9e7b26cbc0e4.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwlPgjUuZVb3gG4icUSDIF1uf2JMIo29GoQGIGLFykxGuoHPeFvNvuk8Q/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_013_f5f01d99cbd0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwY6y7t6bytOgbSmZkU2C3FREwnuYu7fyfYO1hFbdOk0Axcib3qOX8JUQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_014_c5e533f66c0c.png)
 
   
 
@@ -192,14 +192,14 @@ i  来源：赛迪顾问《2023-2024年中国逆变器市场研究年度报告�
 
 往期精选
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfjEZpV4XFlcTcSARpEZfuMUhRBj6cFN2e1brCgSluiaNxREuzOGibfTjbvbUlFe8Dtccia21nWESw1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_015_56e94a19eaa6.png)
 
   
-[![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1jfpkITWAGA65icicoSL1wLNXYqDBWPyed7bhHnJ9DNjax55p54P85gyyIUQOMVbwrOkoUK3W7rCw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506538&idx=1&sn=4a8539ec965684adb8780f52e80b723b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_016_78d92fe5cd72.png)](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506538&idx=1&sn=4a8539ec965684adb8780f52e80b723b&scene=21#wechat_redirect)
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvw7kJoro3ApDz0OzUgf9M8z0tGYb7dtd8gyfkibsLTroiavWkcSRsIfcwA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_017_9e7b26cbc0e4.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
@@ -207,14 +207,14 @@ i  来源：赛迪顾问《2023-2024年中国逆变器市场研究年度报告�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvw7kJoro3ApDz0OzUgf9M8z0tGYb7dtd8gyfkibsLTroiavWkcSRsIfcwA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_018_9e7b26cbc0e4.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwlPgjUuZVb3gG4icUSDIF1uf2JMIo29GoQGIGLFykxGuoHPeFvNvuk8Q/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_019_f5f01d99cbd0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwY6y7t6bytOgbSmZkU2C3FREwnuYu7fyfYO1hFbdOk0Axcib3qOX8JUQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_020_c5e533f66c0c.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwY6y7t6bytOgbSmZkU2C3FREwnuYu7fyfYO1hFbdOk0Axcib3qOX8JUQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\组串式逆变器拓扑选型指南_高压化趋势下SiC器件的应用解析_images\img_021_c5e533f66c0c.png)

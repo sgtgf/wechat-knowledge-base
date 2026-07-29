@@ -21,21 +21,21 @@
 
 本文通过搭建业界标准的双脉冲测试（DoublePulseTest，DPT）平台，来实现对SiC MOSFET器件的动态开关特性方面的准确评估，DPT平台原理如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO8mowLvPia9Fp40Ha0ticicI83eaN8pVw2eF6aBicpSd2PZ4UON6aXt78ekTNCO54ica0pEnxNynID40rR1mIATuJo1rBw5ouuRz8A/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_000_27491260521b.png)
 
 在测试过程中，首先在被测器件的栅极施加第一个脉冲，当器件开通且其电感电流线性上升至预设值后，将第一个脉冲撤去，此时器件关断，电感电流通过续流二极管来续流；在短暂的时间后，对器件施加第二个脉冲，器件再次开通，此时其开通过程可精确观测出，而关断过程可在第二个脉冲结束后精确观测。器件的整个开通和关断过程可实现有效分离，以便于后续的独立分析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNG4PWNZrn5RYV0ibMXia2NJwgZzpEk22rAM3NvCl9xIoNIWJJCvicPbzK7rIjP0MiaAPexq3vrbIPVKE3icEa8Wy6dzpYpNCBa2hiao/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_001_cb52b562a546.png)
 
 本文实际搭建的测试平台如图2所示，其主要由双脉冲PCB电路、示波器、任意波函数发生器、负载电感、无源探头、电流探头等组成，平台主要参数如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNn6XvEcvCleKRg3fnPDW1YKQZ794ICtyVDJcS51siaQ2MU9hEWn7VbtOcM87jOhPEKZ4DVRGq5v3Tp6bGiaknTjehSYxRgL6kq0/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_002_fcf026fb423b.png)
 
 2.不同封装对器件动态特性的影响分析  
 
 本次测试选取的器件信息如表2所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOo5qlke3uqNoUgTgUElZy5Lc4qagoCictTIHJgsiaTjSTdiaWs7byGxknqexeAic7zUH1u6keS0GZ4pEtSGakp5v6s0yKLMgdu0kg/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_003_bb19bd72c515.png)
 
 为了确保对比测试结果的准确性与说服力，选取的两种器件的主要额定静态参数较为接近，这样能够有效减少因器件自身性能差异，对测试结果的影响，从而体现出封装形式的不同对动态特性影响差异。  
 
@@ -45,9 +45,9 @@
 
 两种不同封装器件的开关瞬态VGS波形对比如图3和 图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM1LP6SLp0Y3OULeiaScdwY7vo2ibo85BiahaLSUibUtt6rep9zJnELCXGn767JvdatfLUzXJvybUv1hNCX7TxQn0yfCxib8atIwTTQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_004_31397f53a08e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLMxMDUGQP0fluVT5Kte77KiauicM4p5GZRnWNYN2OpusEkiamtDIbR97u6Pu4nKS6mBf9qMw0VpvQ9W5zw1K707MmicMwsiaBuCBM/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_005_59bfb916674d.png)
 
 本次动态测试平台在栅源上施加20V驱动电压，可见在不同封装下SiC MOSFET的开关瞬态波形VGS存在较为明显的差异。在开通过程中，TO\-247\-3封装器件VGS波形出现了明显的米勒平台，并在平台结束后产生了剧烈的振荡，其开通瞬态栅源电压峰值为22.787V，而TO\-247\-4封装器件开通瞬态栅源电压波形振荡较小，其电压过冲值也较小，并未超过输入栅源电压；在关断过程中差异更为明显，TO\-247\-3封装器件关断瞬态栅源电压峰值为\-15.065V，TO\-247\-4封装器件关断瞬态栅源电压峰值为\-8.457V，比前者降低了43.863%的过冲。  
 
@@ -73,7 +73,7 @@ TO\-247\-4封装引入了独立的开尔文源极引脚。该引脚通过单独�
 
 两种不同封装器件在关断过程中的VDS测试波形如图5所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRbBxenLKJhJKSfR0z9PSKicB4vZTVTf12IdCiba5Jx6kDuX57ZMYEu4OTppkfibmib5NK9gmF4AN1OoHEke6f1DZMwsINlbolOXw/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_006_c31519b6b98f.png)
 
 可以看出，器件的VDS波形较VGS波形却呈现相反的趋势。TO\-247\-3封装器件其关断VDS过冲峰值约为1059V，而TO\-247\-4封装器件其VDS过冲峰值高达1280V，比前者增加了约17.26%，且电压振荡更为激烈。  
 
@@ -89,7 +89,7 @@ TO\-247\-4封装引入了独立的开尔文源极引脚。该引脚通过单独�
 
 通过分析以上测试结果，两种不同封装形式的优缺 点对比如表3所示。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMaamicjGfqNNiahLEKE6lC0XjXRAH7VYDhQONXwzZDZXlTXBIgTaEsWmHtC9RoXjsvSGNLXlLdW241DlovZsC5GfbQtqLygdE7g/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件不同封装形式对开关动态特性影响_images/img_007_474c1c41a17f.png)
 
 基于以上分析，结合前文汇总的寄生电感耦合与解耦物理机理，提出以下器件封装形式选用上的优化设计策略：  
 
@@ -125,14 +125,14 @@ TO\-247\-4封装引入了独立的开尔文源极引脚。该引脚通过单独�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOEAXaUToQ4m0u9ibNV6Za3IzCsVwz3xqZFSHxcj24Nx46QGFVeiacDboH5UtzCh8tEv8KiaCP1dQG0g6CRJGSvXtVFWPuO5CHD9A/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC功率器件不同封装形式对开关动态特性影响_images/img_008_6844a9ce356b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOUzGcM88H8zzBfeNS3CVGgZccBs8rtfQFoTHbpUKYFxFwY25V8CicJvcgAFtib4ZxnN34GcOeq5VsP1Jv5v0rEOKHgo7e8Mntos/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](SiC功率器件不同封装形式对开关动态特性影响_images/img_009_412f4e840b10.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOjFRzG6CNibTxyo7T47NgxTFgjleKIaOGc9m9ralejdCWftWb7QgXKHdqjwiaiaDGz8TqdXCVyBbqSR2bIQqPFWVRP7AqKThFnnc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](SiC功率器件不同封装形式对开关动态特性影响_images/img_010_e802a75e6b93.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMYvUHeCwDPJasdXcWPeO7M1Rf2ljlnyN0l3gowmOq7e2KSztJJzXKmoxj88vYI3aUs8tkhGmMVZc3Mj6SZiabmkPT8Nd6WQSY0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](SiC功率器件不同封装形式对开关动态特性影响_images/img_011_8880ad765e72.jpg)

@@ -21,23 +21,23 @@
 
 1 损耗计算模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPuR8JyKXQ5MibopomcsJHCJsV2icroibywsmnlueKXicNejVolc7vI1RqYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_000_2f8e3e1a5d34.png)
 
 T型三电平电路拓扑如图l所示，因三相对称，只对其中一相分析即可，以A相为例进行分析。假设电压、电流分别为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPczic3Vzvh29jB8rT5h30WhGGT3MVcOmP5qCyIxLCd5iagjNsz9LVFNRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_001_0a62af37af76.png)
 
 式中：U、I为电压电流峰值；φ为电压与电流相位差。
 
 载波周期内开通器件与电压、电流之间关系如图2所示，可以看出，(O，π-φ)区间内T1、T2和D3导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPMhUibIT2ic2m1fibqyXQPAqwEchsibfhA1e2fwybfEndw9f2ib4d9HBzVdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_002_e0f5d1eaac35.png)
 
 采用不同调制方式时，占空比是不一样的。采用正弦脉宽调制时，载波周期内开关管导通占空比如表1所示。其中M为调制比，根据下式计算得到： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPbeTCdqQlbIaF6JdIibEibJaS15G0DMiaHA8vicLJaPQ1ZhLib1vKK0cqpTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_003_6885e96627f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPd5SmjZ2rfYmsmjIbibHZnVGJUJHHeHZ48USlBy2ibQPGyTBhHAHDY1icQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_004_ae49e44cf11e.png)
 
 1.1  IGBT损耗模型
 
@@ -47,19 +47,19 @@ T型三电平电路拓扑如图l所示，因三相对称，只对其中一相分
 
 IGBT端电压Uce和电流Ic之间的关系可近似为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPZiaicuYa1m5icW4XYUOjcn69S6c6wibLxxwZhmofwbwJzVicYibwo6KcHmhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_005_be9d76f3fa9c.png)
 
 式中：Uce0为门槛电压；Rce为Uce-Ic斜率电阻，取10％和90％两点直线的斜率。
 
 同理，由二极管的U-I特性可以得到二极管的斜率电阻rf：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtP3t00hvbaUrQG1hBjJxtFFgKzI4V1icnCGF0oy55BE1DGmtp7fzGQvxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_006_5e2dd4611f32.png)
 
 式中Uf0为二极管导通门槛电压。
 
 根据表1，对每个器件在导通区间内积分，即可得到对应的导通损耗。以T1为例，其导通区间为(0，π-φ)，且在该区间的导通占空比为Msin(ωt+φ)，进行积分有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPDIv7COlOG1Mz5diaSVicOzst7iajgfYUS8YNgj5SJA2wD8IgtWoXS0z0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_007_e4b2c8d4af02.png)
 
 同理可以得到T2、D1、D2的损耗，由互补性可知D3、D4、T3、T4的损耗。
 
@@ -73,15 +73,15 @@ IGBT端电压Uce和电流Ic之间的关系可近似为
 
 T1和T4的损耗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPIjOwntc8JXm4OsQ7uY4icHTc9Idl0L0iaMUibmibkIErVQJe9LsgUtAibEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_008_7d92d0d6704c.png)
 
 式中：Inom、Unom为产品手册查到的测试电流、电压值；kI、KU、GI为校正系数，如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtP0tpoWKPssU8aWotm2EBngvg8OeYjpDZDJmsFnKeEg3CzERmVSqOD5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_009_84113a2d10c9.png)
 
 T2和T3的损耗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPzxXwtnJGEge8omwLp7ricUdGNicLP8VdzVSh3x1YOvBTuicakCxfqib0Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_010_00002848bae5.png)
 
 1.2 MOSFET损耗模型
 
@@ -91,7 +91,7 @@ T2和T3的损耗：
 
 以Tl为例，对其进行积分得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPBXbzYwGCtbGO1xLB9SCLKWiccmxbDNnVSamxElOQP3K1ibsNglLIxOibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_011_9b8c97cf2e75.png)
 
 式中Rds(on)为斜率电阻。
 
@@ -107,19 +107,19 @@ T2和T3的损耗：
 
 T1和T4的损耗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtP8ibsj678sFn9sHQKPDibiaN3ys3qRHSZtQ5IcIXRJOoiaKXOqHCpdWeIvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_012_fed906038453.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPRt5ndlyWq0YuLFBUZZ33qeicuVlItI8Ciaoia8DUWnfUnArc7G9CHRdmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_013_4b6f3d01a788.png)
 
 2 Si模块损耗计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPB96Qaw5ztNEnicEPtl6QY3c4IcJs1kRjWicE5kEqXCpnBbbiaqZx6ICxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_014_e0f821f0a0da.png)
 
 为验证损耗计算公式的正确性，选取英飞凌T型三电平模块F3L80R12W1H3-B11，根据1.1节计算公式进行计算，并将损耗计算结果和英飞凌官网仿真结果进行了对比，结果如表3所示。其中仿真条件为：直流母线电压700Vdc，交流输出相电流有效值22A，交流相电压230V，频率50Hz，开关频率16kHz。由表3可见：仿真功率因数分别为1．0和0．8时，其总损耗结果很接近，误差小于6％，精度可以达到工程应用需求。
 
 3 SiC模块损耗计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPT3ydmoceVMXr3Yu9aKj6cuyJYnP4bSUrGvz33HczOxwjQ35wlBpJVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_015_810b05c4fbf8.png)
 
 选取罗姆的SiC模块BSMl20D12P2C005和二极管SCH2080KE搭建三电平T型模块，根据1.2节计算公式进行计算，表4为SiC功率模块的计算结果，仿真条件与Si功率模块相同。
 
@@ -127,17 +127,17 @@ T1和T4的损耗：
 
 由表4可知，在功率因数为1.0时，SiC比Si模块损耗降低118.08W，占输出功率的0．79％。功率因数为0.8时，SiC比Si模块损耗降低126.42W，占输出功率的0.84％。由表5所示不同频率下SiC模块和Si模块损耗对比结果可以看出，开关频率越高，T型三电平电路使用SiC模块比Si模块提高的效率值也越大。开关频率在20-100kHz之间时，逆变器效率大约可提高1.5％。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPkvVy1elGrhK9fC8kVtAOtKrmeiaZXiaNX9yfKX4D4X50JXSicibcZKro1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_016_5fc838b239c5.png)
 
 4 实验分析
 
 为验证模型有效性，分别搭建了上述Si和SiC模块的三电平电路并进行测试。表6为逆变器的参数配置，表7为测试的损耗和效率结果对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPhHT1zooY8IFawwYv4kIEo1qICmR7icCdE0GIm4rXqbYzN0DOf2hO01w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_017_727b78e3bfb5.png)
 
 表7中可看出，SiC模块逆变器的效率比Si逆变器效率高了1.316％，这个结果和理论计算结果有一些差异，主要是因为SiC逆变器测试时电网电压偏高，其导致逆变器的直流输入电压对应抬高到了740V。图3、4分别为SiC模块逆变器和Si模块逆变器效率测试结果截图。其中：Urms1-Urms3、Irms1-Irms3为交流侧电压及线电流值，Udc4、Idc4为直流侧电压、电流值，PΣA为交流侧功率，P4为直流侧功率。因受IGBT模块自身封装的限制无法单独测试IGBT及其二极管的损耗特性，测试方法为分别测试逆变器的直流侧电压、电流和交流侧电压、电流，从而得到整个逆变器系统的损耗，被测逆变器只分别更改IGBT和SiC MOSFET，逆变器的其他系统参数相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsldaBkvI3dt6hQdc9vDEdtPNza2FVOD1jlLfAn1eQDEqJWQshNg2cdDSrHJaGG4BZUpHOdNmYAymg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_018_98a9b2e8e5cd.png)
 
 可以看出：SiC功率器件的使用可以有效降低半导体功率模块的损耗。
 
@@ -147,13 +147,13 @@ T1和T4的损耗：
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBnPw2HIxma0IfFibVUkxN6icyKvAwYyYJ19zlgAlrKQjE7OxtyuUSdXY7KkpnU5xIHeX0ziaNpFzlA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_019_7544e96f0b68.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBnPw2HIxma0IfFibVUkxN6q3PIJ2Kkx7IOZFiatamsLyXyAgicDibibD5tcVVQ2XRhAnwpWiblSMjJicEw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_020_ed263beeb0d9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBnPw2HIxma0IfFibVUkxN63Aia0AzTL0HLoJUq6AHRCQ7pelRZdowqEFCpdr4dgU2LKm7zySgibXWw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si与SiC功率器件T型三电平损耗对比分析_images\img_021_4a303638efe1.png)

@@ -122,7 +122,7 @@ Plancherel
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsjHvxWGQQHeAJpqIPE9G1gK9Q25WaH8Nu3r7TVtLNQRkOdic9N62eS6ViappR0JF3kzWy5fEEIwh1qOKzzKOqDnHIhFEqgoEFdo/640?wx_fmt=png&from=appmsg)
+![](Parseval_VS__Plancherel_能量守恒从特殊到一般（上）_images/img_000_ada04fafc773.png)
 
 这张图想讲的核心，其实可以先压缩成一句话：
 
@@ -228,7 +228,7 @@ Plancherel
 
 # 四、先讲 Parseval：它在说什么？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctX3LES0ictdSnNUebxwprcia3E7WHQiaO8E21OeHicOyHqhdEPAVyWhw37mH4qNqs24YZ59ZSjXR792r5YjdjBYfiaZUjYxlkomhRI/640?wx_fmt=png&from=appmsg)
+![](Parseval_VS__Plancherel_能量守恒从特殊到一般（上）_images/img_001_29e4fa1d0cc5.png)
 
 图右上和中右两块都在讲 Parseval。
 
@@ -302,7 +302,7 @@ Parseval 说的是：
 
 # 五、再讲 Plancherel：它比 Parseval 更一般
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctPOYwMJ5sJspiaYXn64F3BqPENLftUaW9TXibU43iaI1yaiaVpU22Yh1vneoNyp0WLQ4j5pU6KaFich92UmkMLcF8JicMXBgatnQiaqA/640?wx_fmt=png&from=appmsg)
+![](Parseval_VS__Plancherel_能量守恒从特殊到一般（上）_images/img_002_86b40f27dd8c.png)
 
 图中下部左右两块在讲 Plancherel。
 
@@ -420,7 +420,7 @@ Plancherel 更常让人想到：
 
 # 七、图最底下那块：为什么说它有“几何”意义？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvgR6uIibK3QxOibsM0HDOL08KezdFK62076ia7UZA0Z6CrwK3TnyFoVgXEyCpzRfpcuZVicgegS8IpOCoo5mXgn3LMKiaZDZo566VU/640?wx_fmt=png&from=appmsg)
+![](Parseval_VS__Plancherel_能量守恒从特殊到一般（上）_images/img_003_5d5e623de59f.png)
 
 最底部左图写着：
 

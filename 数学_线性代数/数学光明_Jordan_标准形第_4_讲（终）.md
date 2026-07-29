@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/3-hPup1krjRg\_mddvI-pdA](https://mp.weixin.qq.com/s/3-hPup1krjRg_mddvI-pdA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvrJkicZpMGUANpRFZPpx0MbicPQ9uQ34NueIiaoklKDWDSw488VIzACPMicG0cOEwCCksPZ9jiazYQLguzucueBL0wZyOWfnjDOyIk/640?wx_fmt=png&from=appmsg)
+![](数学光明_Jordan_标准形第_4_讲（终）_images/img_000_c13780c28a47.png)
 
 这张图是在**完整演示一个 5×5 矩阵怎样求 Jordan 标准形**，主题是：
 
@@ -1179,4 +1179,4 @@ N=A−λI
 
 所以 Jordan 块大小只能是3，2
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsB0DXHRoXGNib8lZvmWf3VZKCxRuYNhno4Pc94o3fzibnqxdib7cfkIr6M4Jo9aXfrPCQyjEwgdvYNibFeFK7dm8ibEq3U6qkrjYiaE/640?wx_fmt=png&from=appmsg)
+![](数学光明_Jordan_标准形第_4_讲（终）_images/img_001_4c294c9d9338.png)

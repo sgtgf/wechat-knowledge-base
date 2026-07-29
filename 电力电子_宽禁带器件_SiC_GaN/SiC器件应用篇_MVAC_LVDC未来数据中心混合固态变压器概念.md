@@ -8,69 +8,69 @@
 
 作者：J. Huber1, P. Wallmeier2, R. Pieper2, F. Schafmeister3, and J. W. Kolar1(1 Power Electronic Systems Laboratory, ETH Zürich, Switzerland;2 Delta Energy Systems GmbH, Soest, Germany;3 Power Electronics and Electrical Drives (LEA), Univ. of Paderborn, Germany)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuZQghtUNG7icSjJrCuEBaibeaqOwZo3S6Ie1keWnSjXq0IXFzMqvQjmAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_000_3233039c420a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuibvk6pAOJ51XPHUB24RW7Gm0ibgFPn0yP3MQsEE6Fo3Y9763tfIxtYyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_001_bed36fdb409c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuvLjjHgx1Ef9GTRibD68eUCgxiau0GfDmg5UmibHCy3Nc2zSs0Fu2Z8nqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_002_fd04f552494b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuOj43oRic6KerLYPRz913KNoWUMib5Mibg19c5PMfWKJOlkNW9txnlIZ5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_003_b94e0138f171.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuQzsoFHnIia9QbpmAiciabvib74oL51rcvaBbzq3vkXj9EQNf2cX8UAPM5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_004_e674c9238493.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuenUlvnE9y53IdoV3tlb4f7Y995VFcobleK57cibdL0hGeGmmV1iaH49w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_005_52bb50fa04a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbumYUdibzMKqOJC0KYlqEUjFRFgpu81H8vWcrj4AfNlA5Ina33CbR2FIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_006_96b24e4b093f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuyqs4UBS8Ysr1zibC0FaDYojT2qvY2ENQjzKiccnawLBcuYWOoSHKhMjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_007_a6648c0b70fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuMtKKf23kjROia3L5iaicYNCK37SlDvExxphjD7ofDguiaMNVTzyPusxpEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_008_5b96777833d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu6Q1DqQkTnxciauyfAEGPVc7cE7uibZQiav9DrQ9QO2CHEtIRfQib8pic3Hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_009_4968195439dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu1LZqguwUCNqziaGA61OTbQWNYIgIcCbqkr9a1clvvGe6Pkjiacatzabg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_010_50c52c7bd465.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuVqTUia4NbKeSOqK7Nc4h0qRELzObuU6LOnBuezUG4360EDicWphLmEUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_011_4095c3823792.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuPwpQJfSC1iaFSTfzujibicH0pwicfpIx5F234uticAFWAgoMOwkSuSjMHvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_012_f13acdcc02bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbul6cZHGAU6RYuaTJz5nOxQ66oaXNsNmwqMzOTvda61eFMiavC873T20A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_013_2dc2cd8cd80d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuFxBmntjdFezrrl1kPOehLOUNBGeiaZn4OJWUfwfjXjJUQNObpOl9WVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_014_93c827f3895a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu9AGLFOicZtOicG0MUn8otIibYyY5d9t3ZZ8qhM17T6QMzzc0xAACwO56g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_015_373f00081982.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbunxN3R99KvZb3HgUJfW1pgfBNNNCLqORXicEAEy2QpUPdR3YmibL5nJpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_016_be4cd6ce9d1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuico4y8cljGzic0ubYjqe15sNrLUcWwy8qoicuiaYvZHEaaRoLw5bfW5WlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_017_fa97b95ce9f2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbujKzZvuPgQbsiaiaQ5zwn8Aa1UCAPmSqGzn1ll71W70Zia51PxKCHf8ibgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_018_35e962923a98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbucvZDryHicthibKptUEz0o6Dia3QGsZF8g3dHsndd3zpgMEerfPcTubTaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_019_06f557b40bea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuzX6aldZVxguCHkvGyMJVBqX9f4TD7nDaQkQDL7OtvLB9Ezc3OueUicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_020_33b43305504d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbu9CWp38Lql4VGO2DLHcicEQJaSGF2qeEDhOsicAZ0vHt2QkonbVPUTiaLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_021_aa873886eee3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuwvsva6xNibqicPTBeEbWPt1bmen85U8Aia5wtCn0eIuC42qiclvOGrDehQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_022_744a472307df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuAGIF6dDSM0T10icFmc0MxXX80wlTLnB4ZTkT7zQib7w7kLkETk9Z946w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_023_a269da75da5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuUtJZUBACfQeicULNGvG7NRcoHnNribjiaLNf5icULgvajp5lP47FiakWfhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_024_0a1dc44fac17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuJ3yMRwS6uYW5TVkuTK92am8pXFGXNMV31h6HBb3TloeibZGdBwlbn0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_025_7a62e94a43e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbucktuKiajI0lFPZJRkpxTWysW3UpxDXIJGc5zQTJPSdO30rv5uZxJOtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_026_8bce1148da37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuMC8KicHpAzSTCcT1Sp6WS87QicUQxurx9ia7kb4y5oDffgMSnQjLoLdQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_027_0062c9024a2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbulAR9oS9q0vtvtdEetO7OjpJcHBBzLmMqtJsMJTHhArduZ1fhfPzOGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_028_9d4f61142401.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbuVppXQ8InU4gLv1rSUBOrVrHw8cRTibgwemf747xQVnDouibp8gLbm0icg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_029_04f5e2c0fad8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRbusjibuZXGpn5el7ZxTxmL39SMfVByTd8H5z6zgBhjicUhvVY4Y92ItG9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_030_720d5b1a7d98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmdibYpn9d53ozzBwbVPHRburPnyeQwRXibjOYJLYQ3qBW5D757kkDnLf43jiagOBJqgBOtEMqwR0Eibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_031_b778758f3151.png)
 
 注：图片报告与文字无关
 
@@ -186,12 +186,12 @@ SST是**完全可控的**。它可以主动调节无功功率，稳定电压，�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYZVXpTWMdgiatOXG8Qlp86aLjh595evf6sjDasgzdzr4P93Hv1q0RibOg/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_032_1616a99bdbd6.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYRkOx0icUmKLGzrm9GgGNcqneM8PicD7pqwIH8tE46TgYkF2SAeBEQN7g/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=22)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYjB9V4753kIPaJsBlKev1fYxgSzZgkdnYiapktWFKMFlu0feyyZgKia6A/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=23)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_033_9a86959189a1.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_MVAC_LVDC未来数据中心混合固态变压器概念_images\img_034_c5f2e385e02b.jpg)
 
 ###

@@ -145,7 +145,7 @@
 
 下面这张图把所有常见类型一次性说清楚了（鱼的形状超级形象）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRooctXOd9EaRrkIqUcnCzUJ44ONcdr17db41D5ldOOVv4STIy4oweGDntEAkWFk5OQtQW8IkScy9pQ4icMicC3KeSX4NRoRhLvvTGyA/640?wx_fmt=jpeg&from=appmsg)
+![](什么是仿射变换_(affine_transformation)_images/img_000_c696753f37f6.jpg)
 
 我用这条小鱼（原始图像，即 Identity 状态）作为“原材料”，向你展示如何对它进行各种“揉捏”和变形。这些操作涵盖了你之前学到的仿射变换的所有基本类型，让你直观地看到每个动作的效果。
 
@@ -255,4 +255,4 @@ import cv2
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctq3m2QCFZKKtUKLtg4sQH2bicDbaeobVZ1OFOdAZ7YlBQnRapf5T5ZRXaN6n6TPFUOVLxQWsSzhC0QicyvGvPs6ZI70ibnlYlM90/640?wx_fmt=png&from=appmsg)
+![](什么是仿射变换_(affine_transformation)_images/img_001_105f55bd8a1a.png)

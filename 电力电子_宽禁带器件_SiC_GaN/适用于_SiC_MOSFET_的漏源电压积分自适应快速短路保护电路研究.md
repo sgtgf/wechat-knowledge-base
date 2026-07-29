@@ -29,13 +29,13 @@
 
 SiC MOSFET 的短路测试基于图 1 所示的双脉冲电路，图中：Vdc 为直流母线电压，Cdc 为支撑电容，Lload 为负载电感，RG1、RG2 为驱动电阻，Q1、Q2 为 SiC MOSFET 开关管，其中 Q2 为被测开关管，D 和 S 分别为其漏极和源极，VG1、VG2 分别为开关管 Q1 和 Q2的驱动信号，硬开关短路和负载短路下的开关管驱动信号波形如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDWkZvAP70STO0e41icXnn9xtnib3NBJgDMx0w1xA7csCXzc7gMTLzBjpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_000_e7c55a23ccc4.png)
 
 **1.1 硬开关短路**
 
 SiC MOSFET 在硬开关短路下的电压电流波形如图 3 所示，其短路行为可以分为以下 4 个阶段：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDibDicNqCiafBqGrnNsarJSPh6s8Lrj5bHVn2Y6wP1fYpYzyNSl184UuWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_001_3ca0ace50daa.png)
 
 1）\[t1—t2\]阶段：t1 时刻之前，SiC MOSFET 关断，漏源电压 vDS 近似为母线电压。t1 时刻，栅源电压 vGS达到阈值电压 VTH，SiC MOSFET 进入短路导通状态。由于主功率回路的阻抗很小，漏极电流 iD 迅速升高，di/dt 作用于回路寄生电感使 SiC MOSFET 的漏源电压稍有下降。短路产生的功率损耗导致其内部结温迅速上升，导通电阻也随着结温的升高而逐渐增大，电流上升斜率减小，漏源电压又逐渐趋于母线电压。由于沟道迁移率具有正温度系数，这一阶段漏极电流持续上升，SiC MOSFET的工作区从截止区进入到饱和区。
 
@@ -49,13 +49,13 @@ SiC MOSFET 在硬开关短路下的电压电流波形如图 3 所示，其短路
 
 SiC MOSFET 在负载短路下的电压电流波形如图 4 所示，其短路行为同样可以分为 4 个阶段：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDrJoApSeKFN0gbanQyykVQhPwabMwBguwlTnibYrKuaU6vegLQDA7e8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_002_87bf3185850a.png)
 
 1）\[t1—t2\]阶段：t1 时刻之前，SiC MOSFET 正常导通。t1 时刻发生短路故障，漏极电流由负载电流迅速上升至短路饱和电流，漏源电压也迅速上升到母线电压。dvDS/dt 产生位移电流对栅极电容充电，导致栅源电压 vGS出现电压尖峰。
 
 2）\[t2—t5\]阶段的短路行为与硬开关短路对应的阶段相似，不再赘述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDbZv7NzKIibDIJ3ZJyeN30IBltYTo8IY6cenzWkWzjzsaXpicIouNPFxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_003_d5098b00028f.png)
 
 SiC MOSFET 在正常工况下的电压电流波形如图 5 所示。通过对比其在正常和短路故障下的电压电流波形可以看出，SiC MOSFET 正常导通期间的漏源电压 VDS(on)只有几 V，而发生硬开关短路或负载短路时，其漏源电压接近直流母线电压，且不受负载类型和大小影响，因此考虑将 SiC MOSFET 导通期间的漏源电压作为短路检测信号。为使短路检测速度更快，对漏源电压进行积分，当积分值超过设定的参考电压时，输出短路信号。发生短路故障时，母线电压越高，漏源电压的积分值越快到达参考值，即母线电压越高，短路检测的速度越快，这与 SiC MOSFET 短路耐受时间随母线电压升高而缩短的短路特性相符，可实现短路保护自适应。
 
@@ -65,13 +65,13 @@ SiC MOSFET 在正常工况下的电压电流波形如图 5 所示。通过对比
 
 退饱和检测是短路检测中最常见的一种方法。图 6 为传统退饱和短路检测电路，检测点电压波形如图 7 所示。开关管 S1 的驱动信号与 SiC MOSFET的驱动信号反相，当 SiC MOSFET 的驱动信号为低电平时，SiC MOSFET 关断，开关管 S1 导通，M 点的电压非常小。当驱动信号变为高电平时，SiC MOSFET 逐渐导通，在完全导通之前，由于漏源电压 vDS 保持较大，二极管 Dsat 反向截止，且开关管S1 关断，电压 VCC通过电阻器 Rblk对电容器 Cblk充电，M 点的电压逐渐升高。当 vM超过 vDS时，Dsat正向偏置，vM等于 Dsat 的正向导通电压和 vDS之和。一旦 SiC MOSFET 发生短路故障，vDS迅速增加，Dsat 反向截止，VCC 对电容器 Cblk 充电。当 vM 超过参考电压 Vref时，比较器 A 输出短路信号，短路保护开始工作，SiC MOSFET 被关断。此外，为避免SiC MOSFET 正常导通过程中误触发退饱和检测电路，该方法需要预留足够的消隐时间 tblk。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibD8mibibvZvE7MChYKLiaalWHYC2RNnMv7Ankl6f96MYqqc7uljkeeIanTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_004_ac73b1f42335.png)
 
 以硬开关短路为例，基于 PSpice 仿真软件对不同母线电压下传统退饱和检测电路进行仿真，仿真参数如表 1 所示，不同母线电压下 vM 仿真波形如图 8 所示，从仿真结果可知，传统退饱和检测电路在不同母线电压下的短路检测时间基本一致，不具有不同母线电压下的短路检测速度自适应性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDAvygtzzK6zkdSgy0gkUkwUC92PD8ZsnVaxJrfjg3L7GAt9ticnSMibww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_005_fbf2313f5f42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDXgNMB9luFeU4z7upBXbMwKyUMdRJhsLe72tsnWrPFjhiaSsepEfkT3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_006_26defa62a8e5.png)
 
 根据 SiC MOSFET 的短路特性，即母线电压越高，短路耐受时间越短，本文提出一种基于漏源电压积分的自适应快速短路保护方法 (DSVI-AFSCPM)，接下来将对其工作原理进行详细介绍。
 
@@ -79,25 +79,25 @@ SiC MOSFET 在正常工况下的电压电流波形如图 5 所示。通过对比
 
 本文所提出的 DSVI-AFSCPM 如图 9 所示，检测点电压波形如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDtyhrXl5UkwxIahibMY7AodKND0nibAuPABIwHOxdqTgbShvke24rYWTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_007_b7c11aea0322.png)
 
 SiC MOSFET 导通期间的漏源电压 vDS由高精度电阻 R1、R2 组成的分压电路进行采样，其中 R1是由多个电阻串联组成，将采样得到的电压信号 vA通过运算放大器 A2的有源积分电路对其进行积分，从而实现更高的带宽。由于积分电路的阻抗远小于分压电阻的阻抗，因此采用电压跟随器 A1 进行隔离和缓冲。开关管 S1 的驱动信号与 SiC MOSFET的驱动信号反相，从而实现只有在 SiC MOSFET 导通时有源积分电路才对漏源电压 vDS 进行积分，在开关 S1闭合时将通过电阻 R 为积分电容 Cint提供放电回路。积分电路的输出被送到低延迟比较器 A3的同相输入端，一旦积分值超过设定的参考电压Vref，比较器 A3 立即输出短路信号。为了实现检测电路和驱动回路之间的电气隔离，确保驱动回路不受干扰，在比较器之后连接一个高速光耦，经光耦输出短路信号，然后将短路信号送至 SiC MOSFET驱动电路的输入侧，以实现 SiC MOSFET 的关断。
 
 根据图 9 所示的短路检测原理，SiC MOSFET导通期间的漏源电压通过电阻分压电路进行采样，A 点电压可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDxRGBjQb7XkN7nP5iaiaFKcnIr2VpYwRupXGjyn8cocQ21wC8mSAmkdyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_008_12179651c144.png)
 
 由式(5)可知，当 DSVI-AFSCPM 中分压电阻R1、R2，积分电阻 Rint，积分电容 Cint 和参考电压Vref的数值确定，短路检测时间 tdet 与 SiC MOSFET漏源电压 vDS成反比，这与 SiC MOSFET 短路耐受时间随母线电压升高而缩短的短路特性相适应。本文仿真和实验中的短路保护电路参数针对母线电压等级为 200~800 V，此外，由于 SiC MOSFET 的短路耐受时间为 2~7 s，为了避免因保护速度过快而发生误动作，母线电压 800 V 时短路保护时间在1 s 左右，基于此来设置短路保护电路参数，如表 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDTt35ozM4uicKSrICeicIADzSyhdYxDkF87CRVvicrPE1LXiaDJf1U1hCQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_009_a7b0a0ba670d.png)
 
 在实际工程中，为应对不同母线电压等级的短路故障，可以通过调整分压电阻 R1、R2，积分电阻Rint，积分电容 Cint和参考电压 Vref的数值来调节 SiC MOSFET 的短路保护检测时间，以使短路保护电路工作在理想的时间范围内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDOLHMM7MMBTyxDGqkaZIgST2dxG03kKf6kgIibe9WMsZ3njia3TD8NLIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_010_0bf66e0ddb4d.png)
 
 图 11 为不同参考电压 Vref 下的短路检测时间tdet 随漏源电压 vDS变化曲线，可以看到，漏源电压越大，短路检测时间越短，相同漏源电压下，参考电压越大，短路检测时间越长。在相同参考电压下，为了保证短路保护电路的正常工作，需要考虑两种极端情况：1）SiC MOSFET 开关频率过高，以至于短路检测电路检测不到短路故障发生；2）SiC MOSFET 开关频率过低，导致在没有短路故障时，积分电路输出却达到了参考电压 Vref，误输出短路保护信号。因此，在参考电压 Vref  2.5 V，占空比为0.5的情况下，短路保护电路允许的SiC MOSFET开关频率范围为 2.5 kHz~1 MHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDoF65PsQkcMWnX9qtdTKkt4NH1KrXESNvOd8SNlTRadSb5iaRFcwibopQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_011_a7409a0b7c56.png)
 
 同样以硬开关短路为例，基于 PSpice 仿真软件对不同母线电压下的短路保护电路进行仿真验证，不同母线电压下的积分电路输出电压 vC 仿真波形如 图 12 所示，从仿真结果可知，所提出的DSVI-AFSCPM 具有不同母线电压下的短路检测速度自适应性。此外，由于该短路保护方法只有在 SiC MOSFET 发生短路时，电路中运算放大器的有源积分电路输出才会超过设定的参考电压 Vref，比较器输出短路信号，因此无需像传统退饱和检测电路预留消隐时间 tblk。
 
@@ -105,37 +105,37 @@ SiC MOSFET 导通期间的漏源电压 vDS由高精度电阻 R1、R2 组成的�
 
 **3. 短路保护实验验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDnY08cIo6l9YiaT2IcdnE6av4cx33h689k0eS68iaDjKO0yFRAsS3Fb8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_012_0d1baaf798b4.png)
 
 为验证所提出的DSVI-AFSCPM在硬开关短路和负载短路时不同母线电压下的短路保护自适应性，同时探究 SiC MOSFET 工作温度对其响应速度的影响，将所提出的 DSVI-AFSCPM 连接到图 1 所示的双脉冲电路中 D 和 S 两端，搭建了短路保护测试电路，进而搭建了如图 13 所示的短路保护实验平台。硬开关短路和负载短路下的上下管驱动信号如图 2 所示。短路保护电路的主要器件型号如表 3所示，实验平台的主要设备及型号如表 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDVSicicJe0wgibwZibPYbQqMcawzaXvUKYtATYmPibZ6Xmia4DkhD27wiaMTXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_013_249bf6200a0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDRsDAVPuLb8JfLdkHicEmB9b5huPxnvH70NxCpO3O0ZrwJbL7q0vH6eQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_014_011ceb3bca9b.png)
 
 **3.1 不同母线电压下的短路保护实验**
 
 1）硬开关短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDBtsrJbLfOjhzYDzyiaiarzUicQL0JIzgeDkDqIib3q9wzeZn3LVkyezHMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_015_183a4bee91fe.png)
 
 硬开关短路不同母线电压下的短路保护实验波形如图 14 所示。其中：深蓝色曲线 vSC为检测到短路故障发生后经光耦输出的短路信号，即图 9 中输出的短路信号，正常导通时为低电平，发生短路故障时为高电平；vGS、vDS和 iD分别为被测开关管Q2 的栅源电压、漏源电压和漏极电流。从实验结果中可以看出，所提出的 DSVI-AFSCPM 在硬开关短路不同母线电压下均能实现短路保护功能。
 
 不同母线电压下的短路保护时间如表 5 所示，从实验结果可知，SiC MOSFET 能够在短路发生后3 s 内被关断，并且母线电压越大，短路保护动作速度越快，母线电压 200 V 时短路保护时间为2.24 s，母线电压 800 V 时短路保护时间为 0.9 s，因此所提出的DSVI-AFSCPM在发生硬开关短路时具有不同母线电压下的短路保护速度自适应。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDcBpmXzicdziaZVqtSlB5rRRwVicoPonT2htPVfHARtowXaxXCgGbFicgEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_016_abafb6c5e10d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDmVNb62o41zvUr6Qcpp6dqjddAbicgaHGiciaz7s3icozE4EIssdtEQpKxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_017_cfc95965c617.png)
 
 2）负载短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDKn4dAgZmjAaZl0a22qYLjNWCyxGVkTQt3Nnft5NBZGAl6pTzxh3JfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_018_5d56903766f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDicxfg6kd8SialKl6uY69sviako3icRDlia1icuP9AcHVlbMZmYf8GOFOa0Pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_019_10f07a7436b4.png)
 
 负载短路不同母线电压下的短路保护实验波形如图 15 所示，其中：深蓝色曲线 vSC为检测到短路故障发生后经光耦输出的短路信号；vGS、vDS 和iD 分别为被测开关管 Q2 的栅源电压、漏源电压和漏极电流。由图可知，所提出的 DSVI-AFSCPM 在负载短路不同母线电压下均能实现短路保护功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDDzicia4cEKkUl2dXE0sDbyl7A1TUoibjiawcQydsxx9xoHgYggAS8iatSmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_020_8d8e087a7c95.png)
 
 不同母线电压下的短路保护时间如表 6 所示，从实验结果可知，SiC MOSFET 能够在短路发生后3 s 内被关断，并且母线电压越大，短路保护动作速度越快，母线电压 200 V 时短路保护时间为2.36 s，母线电压 800 V 时短路保护时间为 0.95 s，因此所提出的DSVI-AFSCPM在发生负载短路时具有不同母线电压下的短路保护速度自适应。
 
@@ -143,21 +143,21 @@ SiC MOSFET 导通期间的漏源电压 vDS由高精度电阻 R1、R2 组成的�
 
 1）硬开关短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDvvFJtsicbAPiadAztX6yvoqnkiaTWzzQNyzibSlTyCFOqBwvEjLckYEDAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_021_7345881cb437.png)
 
 为探究硬开关短路时 SiC MOSFET 不同工作温度对短路保护电路的影响，在母线电压 Vdc 800 V，工作温度分别为 25(室温)、50、75、100 和125℃下进行硬开关短路实验，SiC MOSFET 不同工作温度的红外扫描图像如图 16 所示，不同工作温度下的短路保护实验波形如图 17 所示，不同工作温度下的短路保护时间如表 7 所示。从实验结果可知，硬开关短路时随着温度的升高，漏源电压 vDS基本保持不变，漏极电流 iD的峰值降低，检测到短路信号 vSC 的时间稍有提前，短路保护速度稍有加快，温度从 25℃升高到 125℃，短路保护时间变化不超过 23 ns，受温度变化影响较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDed6opLHupXD0IN4UpU9lMiaKWBticus6EEqiaia8r1691ibkraEQBiaUEY8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_022_ff86a5591c8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDwCjMnUoVn7GiakHSfSu9IA38UxdWgicLreH9I7BaIvgJknYWsbKmUU6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_023_595bc6ff8f14.png)
 
 2）负载短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDmAMzrqrFH6jlwkibzxQfRA7LSHgaibFKlDmYn9WmWg5OKBtyaKcNA1ibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_024_73de900f5c2e.png)
 
 为探究负载短路时 SiC MOSFET 工作温度对短路保护电路的影响，同样在母线电压 Vdc  800 V，工作温度分别为 25(室温)、50、75、100 和 125℃下进行负载短路保护实验，不同工作温度下的短路保护实验波形如图 18 所示，不同工作温度下的短路保护时间如表 8 所示。由实验结果可知，负载短路时随着温度的升高，漏源电压 vDS基本保持不变，漏极电流 iD的峰值降低，检测到短路信号 vSC的时间稍有提前，短路保护速度稍有加快，温度从 25℃升高到 125℃，短路保护时间变化不超过 85 ns，受温度变化影响较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS85Yyd0sbGyQ2sp8vUoibDmlyeOyRRKcbdPR0EXKGvZdzyx1eibJ6IwibCE3Zxv5QP9qWFW0iaOh4EQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_025_3abc5c268e4e.png)
 
 根据负载短路和硬开关短路时的短路保护实验结果可以看出，所提出 DSVI-AFSCPM 在这两种短路工况下均能够在 3 s 内实现短路保护，且具有不同母线电压下的短路保护自适应性，即母线电压越大，短路保护速度越快。此外，探究了 SiC MOSFET 工作温度对短路保护电路的影响，随着温度升高，短路保护速度稍有越快，但两种短路工况下温度从 25℃变化到 125℃，短路保护时间变化不超过 90 ns，因此所提出的基于漏源电压积分的短路保护电路受温度变化影响较小。
 
@@ -175,10 +175,10 @@ SiC MOSFET 导通期间的漏源电压 vDS由高精度电阻 R1、R2 组成的�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_026_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_027_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\适用于_SiC_MOSFET_的漏源电压积分自适应快速短路保护电路研究_images\img_028_84aa944feb13.jpg)

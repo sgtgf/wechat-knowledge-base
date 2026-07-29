@@ -18,7 +18,7 @@ PCB的制作非常复杂，以四层印制板为例，其制作过程主要包�
 
 **1、PCB布局**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xMY8ne6tBLdBNMY6rY2LQoTJAj2Hibx5E08j9C0iaomqlcP5Jqk7odIiag/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_002_b22a1a7ae9b9.gif)
 
 PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收到PCB设计公司的CAD文件，由于每个CAD软件都有自己独特的文件格式，所以PCB工厂会转化为一个统一的格式——Extended Gerber RS-274X 或者 Gerber X2。然后工厂的工程师会检查PCB布局是否符合制作工艺，有没有什么缺陷等问题。
 
@@ -28,25 +28,25 @@ PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收�
 
 清洗覆铜板，如果有灰尘的话可能导致最后的电路短路或者断路。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xrxPMNStxP7D4MdxbcD0S0gY22baU5TM1QEic22LxWdJqhic7UVGGHRicw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_003_8fdeca7c5d5a.gif)
 
   
 
 下图是一张8层PCB的图例，实际上是由3张覆铜板（芯板）加2张铜膜，然后用半固化片粘连起来的。制作顺序是从最中间的芯板（4、5层线路）开始，不断地叠加在一起，然后固定。4层PCB的制作也是类似的，只不过只用了1张芯板加2张铜膜。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xKw4xos4MAHWW7Y3ibyhaJbITWuSAeyjwxicaFpjAaUgTKKIKhN9RsaHQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_004_e0b54d4fa64f.jpg)
 
 **3、内层PCB布局转移**
 
 先要制作最中间芯板（Core）的两层线路。覆铜板清洗干净后会在表面盖上一层感光膜。这种膜遇到光会固化，在覆铜板的铜箔上形成一层保护膜。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xCKTZMm1OuAnqpPTpZgBnvy3HJsIm5O0wIb1qPclBxJKypDFHpFjZlg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_005_ec431483b560.gif)
 
   
 
 将两层PCB布局胶片和双层覆铜板，最后插入上层的PCB布局胶片，保证上下两层PCB布局胶片层叠位置精准。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xEpQ6lwnUMXuUL3j117UMEibw9zUDzBzhX2L3GEyZsQ8mib1DbGCyJwJA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_006_4f31af68316f.gif)
 
   
 
@@ -54,31 +54,31 @@ PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收�
 
 然后用碱液将没有固化的感光膜清洗掉，需要的铜箔线路将会被固化的感光膜所覆盖。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xdkOYatUictRK8v7HP3rBBtvPwNN29eWsHBNQ7EWMgCdfnxHNgcicGfFQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_007_f4447ef86a3f.gif)
 
   
 
 然后再用强碱，比如NaOH将不需要的铜箔蚀刻掉。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xZnF4h5UEPY9ep9Ihnu6LXA9wFGlOjThjiaicbD9rj1FWqNvOnWlYUvyg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_008_175e8f66edc6.gif)
 
   
 
 将固化的感光膜撕掉，露出需要的PCB布局线路铜箔。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xzic13FW3UdZQelKHNCia93H7roZVRupfsc7YCvtmgHCSpswX914o8VPA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_009_197423787ebe.gif)
 
   
 
 **4、芯板打孔与检查**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xNuNic31b4r3nnOyAtRkTia5UMKhfaqX3ySiasice5DStpASiarJribOPVMeQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_010_155018a20667.gif)
 
   
 
 芯板已经制作成功。然后在芯板上打对位孔，方便接下来和其它原料对齐。芯板一旦和其它层的PCB压制在一起就无法进行修改了，所以检查非常重要。会由机器自动和PCB布局图纸进行比对，查看错误。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xN2GdCbmSRpTcU6hpABLkUzPqaNMxuia9TJ5IVlRgjKzbnFka6nw3FdA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_011_fab65c5bc716.gif)
 
   
 
@@ -88,13 +88,13 @@ PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收�
 
 下层的铜箔和两层半固化片已经提前通过对位孔和下层的铁板固定好位置，然后将制作好的芯板也放入对位孔中，最后依次将两层半固化片、一层铜箔和一层承压的铝板覆盖到芯板上。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8x64uXQyDiatv4qPVjSRCqGVc7QuJDNvgI2cDvqdKcwwCv9u6fTQguvHA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_012_deb10462c930.gif)
 
 将被铁板夹住的PCB板子们放置到支架上，然后送入真空热压机中进行层压。真空热压机里的高温可以融化半固化片里的环氧树脂，在压力下将芯板们和铜箔们固定在一起。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xribkqUKmCrdVhRsd4WpdDLDsEBEKkWCOgCwHDtYiaqE0v9iaKDcDEv0uQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_013_cebbef5238b2.gif)
 
 层压完成后，卸掉压制PCB的上层铁板。然后将承压的铝板拿走，铝板还起到了隔离不同PCB以及保证PCB外层铜箔光滑的责任。这时拿出来的PCB的两面都会被一层光滑的铜箔所覆盖。
 
@@ -106,19 +106,19 @@ PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收�
 
 用X射线钻孔机机器对内层的芯板进行定位，机器会自动找到并且定位芯板上的孔位，然后给PCB打上定位孔，确保接下来钻孔时是从孔位的正中央穿过。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xCcC2ygnD1icYKoibrzyZDmqSAj1GiaLTibXSFNkpITicEYQiaJYQzJtic9mgA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_014_80bffc245a4a.gif)
 
   
 
 将一层铝板放在打孔机机床上，然后将PCB放在上面。为了提高效率，根据PCB的层数会将1~3个相同的PCB板叠在一起进行穿孔。最后在最上面的PCB上盖上一层铝板，上下两层的铝板是为了当钻头钻进和钻出的时候，不会撕裂PCB上的铜箔。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xAnQbicHfhHria20ueBwYAkm7X5MLW5tb4CM4VvmT99uBYaF1928gXhxw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_015_bf924dd1018d.gif)
 
   
 
 在之前的层压工序中，融化的环氧树脂被挤压到了PCB外面，所以需要进行切除。靠模铣床根据PCB正确的XY坐标对其外围进行切割。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xxY0orytECeafyAcMpJIDUnRcdSdibD94MegElVUkevhFNsMuOibt47xw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_016_290b3ca99e3e.gif)
 
 **7、孔壁的铜化学沉淀**
 
@@ -126,19 +126,19 @@ PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收�
 
 所以第一步就是先在孔壁上堆积一层导电物质，通过化学沉积的方式在整个PCB表面，也包括孔壁上形成1微米的铜膜。整个过程比如化学处理和清洗等都是由机器控制的。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8x5JZrBhHPo1fBxFsLOp9w5EwketqIqZXvZ1dVfcJ3stIxVXwTWN6DFg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_017_f083a039ec25.gif)
 
 固定PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xNeicicHUmb08XnE93sTmwuYJFTIsmyc4DpIS1paI5HzlB7xKQewZondw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_018_e1d82faa8ea3.gif)
 
 清洗PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xUNyHlqWrcUXMkV2XlNXeJlwTSc1tU2FYWibqXCIuRdn8FVU2dNHMcdg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_019_2722b9a7200e.gif)
 
 运送PCB
 
@@ -152,15 +152,15 @@ PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收�
 
 外层PCB布局转移采用的是正常法，采用正片做板。PCB上被固化的感光膜覆盖的为非线路区。清洗掉没固化的感光膜后进行电镀。有膜处无法电镀，而没有膜处，先镀上铜后镀上锡。退膜后进行碱性蚀刻，最后再退锡。线路图形因为被锡的保护而留在板上。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xlUr1lFGjcSia7h9cUncwhiabw51J024fKLvm7Tn5GLJ0mibN4bRM6zomg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_020_85def168df2d.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8x0NfpIhiblK6osNpGRAMrSkXIEIGytadLXMib9Z3fY0Tmrsl2dk4icdxDw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_021_27a58521c7b7.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xOtkIXjUtHIgPmFmb3xQjArUtcC7kmRbqJ258b0nWZXXibMfl06BJ6kQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_022_5b7d365f92b7.gif)
 
 将PCB用夹子夹住，将铜电镀上去。之前提到，为了保证孔位有足够好的导电性，孔壁上电镀的铜膜必须要有25微米的厚度，所以整套系统将会由电脑自动控制，保证其精确性。
 
@@ -170,15 +170,15 @@ PCB制作第一步是整理并检查PCB布局（Layout）。PCB制作工厂收�
 
 接下来由一条完整的自动化流水线完成蚀刻的工序。首先将PCB板上被固化的感光膜清洗掉。然后用强碱清洗掉被其覆盖的不需要的铜箔。再用退锡液将PCB布局铜箔上的锡镀层退除。清洗干净后4层PCB布局就完成了。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xia9cm35ibCMEVMUUogNp5JtbvAzggMFiaiaDUicYz4NKof9TnQcmh34zSVw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_023_4aac83636769.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xtgE85ducc1x3g5OnQYYTiaugt6ZWUKIC9ZzVcIDeaGglicgkIUwfc1iaA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_024_b563a3f9c5cb.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tMgkictic1Du4kia58wPTY4x8xPRVmRjYeO69ibRDUaSPegLoiaibX9CPQ6qYDPicq9RC9wBmndmKHl0MGZg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](你手上的PCB怎么制作的_几张动图揭晓工厂生产流程_images/img_025_2d5dab8e85d6.gif)
 
 ## 
 

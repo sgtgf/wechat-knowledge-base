@@ -40,73 +40,73 @@ EMC能不能过，决定了产品能不能买出去，客户说FCC、CE、MET、
 
 最后，给大家分享一份关于EMI的基础资料，看水印是来自于Power Integrations。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsqnvMuN0pgQEd5I4RwnYCzBx6EelHXGrDHMLeJoYHGAA3FOPONIDI9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_002_de4e62de7c65.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsM0zGEId9RnRS0cJZI7ibPo7JAbicArzrcoLSGI3RnzaASWWRdMbo6Djw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_003_dbfbd90bbc9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsTKRnlEATckZ4DMsLncL8Q2DgPFbmicoP3eLibGDtKk4YfX3l4kepmVpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_004_329213974623.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsM8x1FicXqQf2cf64BoCNVxM6V9iaCPVygOibQ2zTGaK6fprJtVNYXrjUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_005_c655568702bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsJjZlGvzkX13qpDjLibN9nNXBIubJ4hhmfUYXJDiaMUibkxMhWw5je8bTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_006_b85a6ae4a20b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qsc6PT5RjxaDcOu9yGaBvCCxJhH4LGs0iarMYTJb0bAW2wPA8SlibpIZNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_007_c86fe31b014a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsiaSImXnib5E4D9cCugNkKskOEiazvfWMVMrV4FhlW0WD6TxjsSL3Mqr8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_008_44166f987a52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsI9spKgUJPhaf2VV8qgiargAd2ZP0VECcMDAH2sMtdicDpicTfrCdPQEFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_009_0c4f13a3ef49.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsD9qNSBzwfvmujRvj66Wkw8Zeia8Uf9OdXfLHYoy4VbhxgLAcT8weclQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_010_42a681d6dad2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsYmGib5AIMgRUyibJh2S1rslUYvgor7dmhavR1BicCmibicE8h0YUQjUxcJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_011_64d34617bb42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsSlGIpK5XqNmXjgBu1TkArsdraVyIXLNQTYOIAlm4E8nuLibBDTwia78g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_012_a62cde8304d7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qsz7U3ozCye5cprsp2PmTgLaHwWibvrJKlc0zKeic7ECGqAZhz5o6cNwvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_013_6364b3299109.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsDMBn8GYDb11Jdf3ib9ibUuibTtOrU7L1Kz1iahvLHHbClWPbteCN82fgTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_014_352e53e17de8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsHUp8xQ2tm8w6NtfUr7x98jc5ULHMk71WPg9icPaOtREpo5nZicpj8vlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_015_2d4242a9fef8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs2fyPTO2apOrxfHfAqTibtoyKhmkicX7XII68HUiafk4H75vnFXuuPwmWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_016_a19f24a60e3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsPNuHcMXYKxrrBFLRb4jsJouoOFKNia03aETTCn3EJbicrzBnSPLneaFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_017_34ad6bd6fdc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsK8qSNz28YXRtwqOdWWITicHKPlckSvUTYXCGTA93nxvNDy8E0VIeJ8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_018_93889bb8adf1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsA6Ujfc1icA10hx5SCUarTSseCFRrdqQia8WLzFJNKxNyJwRh2p6wdTsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_019_60f851b82e60.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qss3W6KS2VBUuypr3C1JfZD5bKZ9OaebjxojgeQzjhX8SVGcGiaTH7r7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_020_3681d526c64b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsMrjswtzOmF6w2X41D8iaQlvQNH2voXJbg9xH8rYAH8H8aDehUdltl0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_021_21c7362a375a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsR4ft9ibWzvgHjHdeg1QiatibL8NKlzl1fgOGa73l3nVTc0XycGG8jAlGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_022_53d7ed568d37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QseGrfgUBbohrYpUVFOicflygg8Q8R9tO0NbaF5ufsuubedjnN7iak8Yjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_023_d501a4807d4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qs6JfR38bljBIsJZTibEd1DtaCOticWq2oA7icm1OndD7Lgocy9oN6XnndQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_024_c0e91a697bf4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsEibkicMzuHLjonEEzDk0xDQCzeeicsR0186km5E4kloX61Kq4ibAH5EmuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_025_e85299a6f779.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsZH0K9I3yu55BVqbGYvzBH1a7FrZ7FEfcoPflb8LJSdhpNibiapxWQtlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_026_658bb1af2265.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsJKtic8mSfVrXFG2DxnC3mKKCFjvpUeVcXV8ibar6axGOScwZz7U3fjcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_027_a1cfd6602caf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qse3LX7tbj0kbfzkic866zqxWjNa3u2C8U5STbIyHbYsDyXC04Flzrpkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_028_5b3626c99b8a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsnOfDXqNGUcLGLaqc8G5l0jVYtyGB5DnlpWazwv240tBaokmhATqFFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_029_28230c9a63df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QstI4bSdKLH1JWBIQ8zEUzA35NVu2BxPVn1rBqVugQUj8pdZCLF3Zy2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_030_ada8695f05ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsdY5A33ooR8EMSiacIe47JAQ8ziaLP7pibKwmXE72ITicR2j0cEkrbTrVjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_031_c6f97447e7a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsgJicOs9kn3gmahHetSzL3pS5Xy2nT8viaVP03OB4Zy82cyv4sF5zIp1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_032_ee9e93a13579.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsqdEThdzDFgCgKKA1lEouHicK7dibEgpmp0yibSA1qlPP8Qtn4hchoP7yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_033_47fe604104f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1Qsrq16nEQZw1PHt9SANr6jFW1IduDAvQJ9IhVTIvfQNjNhkM7iagmibK1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_034_5086382dacf0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改很难_但也不是没有方法_images\img_035_dab563687440.jpg)
 
 ## 
 

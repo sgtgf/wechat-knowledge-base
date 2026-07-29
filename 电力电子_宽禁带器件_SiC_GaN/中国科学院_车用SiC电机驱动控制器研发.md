@@ -13,60 +13,60 @@
 
 演讲PPT如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibP1DS9PD6szhPicXAYCIoyCzaYm8HdsZHGCfV3xJj9QWebjzmC7Nsfmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_000_60d84249e9b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibJvR6nEjXZkIhaoIohkKJeSJpUkOCq68x0XumJVtJO691DiaJQDkhJ7A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_001_974bef611a35.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibQzel6KRKOeRGeab6iaMib10PSSmbHYibicI9kEbWyHXl8opxsR637icuOOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_002_048cbeb9c788.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibpPNWCYaNBbaFuzD3qLpEVQIr36kYbjEXus1BicCia88IESibMgzAUbOCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_003_ff761375db2a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibRAcBMEp3NiaH4uBDjeJV0sicZUgBuZolwVTmvhjEcgps3kQsW10ZyfZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_004_e2653bb8d9f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibNYe4miaKcygD6l9GAMHu50rEdzx3hCoAweZ4xNDhZt1LU52BxLcictpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_005_c0393c863c48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibY9lAMzBiccYpa8PJl4oD7TRbE0q1pNWicJhicM3OCSWeet9K8F2iaRxR3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_006_19c330a3f161.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibELIHibOMdRK1TmH7icCJHIMTURFiapbGjkEYdPvsORt1Yz2m7jOsnOPpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_007_03b9a3f75eeb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibjwbrEweVavUpwe9icoKus8verC8vzrpqcibN3ZECzWKeXQySibere0KqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_008_518b9bcd0eb2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibLH8iahPVeWRdJJb5ZSezN1fiaIibkrjicpndvwmOYAuRAh8uuTthzX9ufg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_009_812ccfce541d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibrEdufQEg83wia1jkXPG2tjh1UB8lQSWeuexl3caC89SRHicM7TfoG16g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_010_2edcf3ad3dd5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibpM1ffzQiaLzN0ADBHPhvv5223R8lYEGaiaICfibEvdbeDP2OodALEpJIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_011_942fcad9f769.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibLBPlkTOY1x91pzVoF1RibstxEx6EOI6lLDfuVEsP04HeQnuEqibRO6Ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_012_ecf00fd0d81c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibPUp60DWgBvC0KxX37rJb8tLAfmGZicpic5SqDMIr5RZA8QVBXoHWrhiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_013_89c88fa00f2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibB2FzZNSliaej3QLRC9t5wfN4hBum2zotoK2CO6zM0H5441nWAKKWGhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_014_a3295326c78b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibAd4E0AfuGQNlIzfgg6bzHVJzraic4OWZBJnMAhUcPlewHygqUgMKibKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_015_6feab35519cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibCKwUxzBQTqVJnibRBibJUT0GJFe8zI1ibMHFgEwERedN5Rdzo9vD1Nzhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_016_1c16181f6ad1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnib2S2v522ibfLv7mdWLQOHicN7nUpUFlMiae7iax5BiaSibnhdh1z9xsKOnfRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_017_ccc55e2499fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnib6lOibSpWQnMMdKsQfxbyibhfDHuDCdFjMFpiavyxJpZAX1SYaDL9DKxmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_018_dd21925bf76d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnib01ibBFfUGpYf5ibwnz8SSz99tgOVSJd34NjHxCmNF4uyDu9wu4ZCX5hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_019_292217efc027.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibZTjMkjLU8Rpr5Hvryb8ay4RdSkKz2twMia8mAGLCHIfYNYibldMqHIRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_020_fa780c6e4b21.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibQU0uweT8PjmYbcpwSZicLBLvbeuNgtCrR1VaLt0k6XL50ku4XY2wjdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_021_0a23b8059620.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKniboTq5zJYacCOJGzBjfNeibnKBXrR8gAnnLtVxc5Mu79a4ibDq9eh61HMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_022_76ff849c3c8a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkicxYdj4DicosPxicNicWfKnibicnGNRkV3gB8SgXwsTiaqYyjN1JicUjByWydPia5VwYOIWA2WCtBl0bajg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_023_8670736ca703.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_024_7c22e3b9a287.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_025_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_车用SiC电机驱动控制器研发_images\img_026_1241954b1b67.png)

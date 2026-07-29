@@ -25,27 +25,27 @@
 
 1 SiC 功率MOSFET模型建立方法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOjic1ibz2eQm7iaD8TkO8FAzD7Atf7fFRpaPwXmSSW7HZDXC7p5Sl1k4WQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_000_5812a7962060.png)
 
 本文建模对象为意法半导体公司生产的型号为SCT20N120的SiC功率MOSFET。静态特性测试方案如图1所示，将SiC功率MOSFET放置于加热板上，采用PT100 测得加热板温度作为SiC 功率MOSFET的测试环境温度，通过Agilent B1505A 功率器件测试仪测量不同温度下SiC功率MOSFET的输出特性和转移特性，并从中提取SiC功率MOSFET的通态电阻Ron和阈值电压Vth的温度特性。测试平台如图2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOWexJp8vxoK531J7QTPfch9XpjMDlzdPHbkP2R3hzsUxeWZEAFhA5Xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_001_ee3d4f6c0e74.png)
 
 但Agilent B1505A功率器件测试仪只能够测试SiC功率MOSFET输出特性曲线的线性区部分，无法获得SiC 功率MOSFET饱和区的特性曲线。而SiC功率MOSFET 的开关过程中必然要经过饱和区，而器件处于饱和区时损耗较大。因此，为使SiC功率MOSFET模型更加准确，需要进行补充测试来获得SiC功率MOSFET在饱和区的输出特性和转移特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO24Odo5OYxqnA7xnIPpaiavELGYZGPwILTpmVvoODLFeCpC3U1d8hnEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_002_5feff71cff6e.png)
 
 补充测试方案的原理图如图3 所示。DSP 控制板产生驱动信号，经驱动电路放大后控制SiC功率MOSFET的通断，通过加热台调节SiC功率MOSFET的测试环境温度，测量获得SiC 功率MOSFET 在饱和区内的输出特性曲线和转移特性曲线。
 
 SCT20N120饱和区的漏极电流Id可达近百安培，漏源电压Vds也较高，此时器件损耗很大。因此采用单窄脉冲进行测试来确保器件的安全。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOny3NLEY0fI6BxibMViaYTltjdGfOicpCnrEAK14gqvKvFy73kafpdoibiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_003_00c0a10a7f8d.png)
 
 补充测试电路主电路如图4 所示。220V交流电经调压器后，经不可控整流电路整流成直流电。采用1500μF/450V 电解电容组作为直流侧电压支撑，提高电路输出的瞬时电流。整流电路的输出端还并联一个10kΩ的电阻，在测试结束后释放电容 存储的能量。
 
 2 SiC 功率MOSFET 模型静态参数提取
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicONoicE3dFDicpQuHmiax3pazZ24QpxhttM8NJ9EXWs8byXXciaEHvrHic2Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_004_981f0c771894.png)
 
 SiC 功率MOSFET 的静态模型如图5 所示。
 
@@ -57,89 +57,89 @@ MOS核心单元为Si基横向双扩散MOSFET。采用补偿电流源来弥补Si�
 
 当Vgs<Vth 时：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOqOCRPJicnT3tvdcg1CYLSeLKjiaoHgumLuz6Yz6QK7KztZyQz0oXMKcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_005_b4a243db673b.png)
 
 式中：W 为导电沟道宽度；L 为导电沟道长度；Kp为器件本征跨导参数；ɑ为耗尽层体电荷对Vds\_sat的影响系数；λ为沟道长度调制系数；Vds\_sat 饱和漏源电压，是线性区与饱和区的分界点。Vds\_sat 的表 达式如式(4)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOuD6k3ush8Pp1ersUGCVUwLj2ZRe4KPCPB7ic3MZDibSjiayYN7te53YOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_006_4e883a54cd1c.png)
 
 式(1)—(3)中的一些参数并不能够直接得到，因此在应用式(1)—(3)时，要先确定Kp、ɑ和λ。
 
 根据式(4)可知，要确定的ɑ值，需要先确定饱和漏源电压Vds\_sat，栅源电压Vgs和阈值电压Vth。 其中Vgs 由驱动电路决定，与温度无关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOHBskejWpnOvX6OBucI7j43nSLLxsVEMnTQm9wHlwvBhl6hqElEECow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_007_9b57b893a39a.png)
 
 由静态特性测试可以得到阈值电压Vth 随温度变化的曲线如图6 所示，采用多项式拟合的方法可以得到Vth 与温度T 的关系。  
 
 阈值电压Vth与温度T 的关系为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO5yKVS5jYYUgrV9JXAs4Gy9iaiakGtatQzuAVSRt8RHy5a03XAMJcwiaNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_008_236be9175c13.png)
 
 饱和漏源电压Vds\_sat 与温度T和栅源电压Vgs有关，可由如图 7 和8 中提取出来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOaLgicZzdvFtuicAVlYSVfnuQWeXgiauKmvvIFCHyibfNroJJYiafpyv9Pvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_009_d8da33031554.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOgeP8ZG1jc297czJYaFDcJRG4eqCYWpvZqE8TA2CnO1eX8QMHFibBccw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_010_bed93b19359a.png)
 
 将图7 和8 中的饱和漏源电压Vds\_sat提取出来并进行拟合，可得饱和漏源电压Vds\_sat 关于温度T和栅源电压Vgs的函数，如式(6)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicODFfH9QdYfVLjFkVJWFmoiaUyVBZduzMFcu4bpiaH39ZCEPBicozaE9FVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_011_e1a90b40e830.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO8PiaGxeWTjCn5sP3fcBFzibgXjApy69qjILYvHUUU4KSCmknrTFQIxow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_012_3859c080f4d9.png)
 
 拟合结果如图9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO2kO4LVfUmSwapTe8DDOYG6xia9gxPXUOXoUibNOiaficickWuMyxR66fUrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_013_d45af095cf7b.png)
 
 最终求得耗尽层体电荷对饱和电压的影响因 数ɑ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOe2vZyjaQVbv34GL3jo1IgL6tIRXU971icID9NeWCX97kN1oM0DhbQew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_014_cab5b42ec7cf.png)
 
 然后确定参数Kp 的表达式。在式(2)和(3)中，W和L可以看做Kp的系数，且W 和L为常量，因此引入参数K，使得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOJ3yLp6tvvbUX7yyYib4cOoqpW2AY3YbvVB66oKYBajxsc0Cmu7Vepicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_015_35aef125512d.png)
 
 饱和工作点(Id\_sat,T, Vds\_sat,T)是线性区和饱和区的分界点，将其代入式(2)中可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOXgP64deDAMuf519cUfrghaZIZhpZNl8Fz1S1z7Iqib5VSbspCslOpRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_016_8cb566ca44ea.png)
 
 式中其它参数已经求得，仅需得到饱和工作点处电流Id\_sat,T即可得到K。
 
 由图7和8可提取饱和工作点处电流Id\_sat,T与温度T和栅源电压Vgs的关系。Id\_sat,T 拟合结果如图10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOo5kRSmqJ90cfOEAbJvCNwJPHA3xDASEyPMiaLepcqQfWmDwjoXZC8Ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_017_1becf71edeb8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOZvI9P5HrRpDiaZ1fMaj3iaS9Wz8LwHuC9y2gd9doART68ibEsqmjdBxLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_018_3d1ae30f349c.png)
 
 可得K的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicONLOicoGkibt9QPica52qbLTCFyoc1mibo8MHqr7R6JnW8k7ib7QeoRxiaYNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_019_6704da3a2b63.png)
 
 沟道长度调制系数λ可以根据其物理意义和几何定义，通过作图求出。
 
 定义饱和区输出跨导GDS，如式(12)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOiaiaqCLibza9KOLbXVibGKtic6umRFolGykv1W9f2gJavIrT7hEZNBAwa0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_020_bbaf4a1a3539.png)
 
 在饱和区，漏极电流Id,T为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOSSWFJJje9M0rQ9depWBwRjKlPgmtwKWrYD61BQDTHJssbcic9W86P1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_021_4a9131f742d1.png)
 
 饱和工作点处电流Id\_sat,T的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOXQUia3YpNkZL4xNicBPNm4UImTqEoTqLtYgWNJcKoT1lgzL4bT2LAY9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_022_84e7ced21e4e.png)
 
 根据式(12)—(14)可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOibzXRQkegrEQNfHk74agkUZz0ibpBQX2AHicJgLbicQBHUhNO7pf2bFSGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_023_b7fe52f6c984.png)
 
 图11 为SiC功率MOSFET的输出特性曲线， 由图可得GDS与λ的几何示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOH3Ngr3TK5nMV07gDcckdHx4fTCPurIAa4ibAEicOmsWH0qt4c60qYZVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_024_fa309d7652f3.png)
 
 由图11可知：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicORfg7B6WsA5ib1Hm7cziaMswU8uFNQhXsFmn4gWymZfVlksNvsZtE8s2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_025_354c34ddc1cc.png)
 
 2.2 补偿电源参数提取
 
@@ -147,7 +147,7 @@ MOS核心单元为Si基横向双扩散MOSFET。采用补偿电流源来弥补Si�
 
 Si 基横向双扩散MOSFET 与SiC 垂直双扩散MOSFET在材料和结构上的差异引起的漏极电流差异很难通过精确的解析函数补偿。但MOSFET导电沟道载流子的迁移率与T、栅源电压Vgs 和漏源电压Vds 有关，因此可以采用如式(18)的函数对SiC功率MOSFET的漏极电流进行Id补偿：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOm0GhL8ukajicly9icLlibibGby5QyCgv5oQnU0S7qcicbgusGaJ29CHvsOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_026_e5c3e20bbc26.png)
 
 式中：I’d 为补偿后的漏极电流；Id 为补偿前的漏极电流；f(Vgs)和g(Vgs)为修正函数，可分别从SiC 功率MOSFET 的转移特性曲线和输出特性曲线中提取出来。
 
@@ -155,71 +155,71 @@ Si 基横向双扩散MOSFET 与SiC 垂直双扩散MOSFET在材料和结构上
 
 SiC 功率MOSFET 的栅极等效电路如图12所示，图中：Vgs为栅源电压；Rg\_out 为栅极驱动电阻；Rg\_in为栅极寄生电阻；Ig 为驱动电流；Vd 为漏极电势；Cgd和Cgs 分别为栅漏极寄生电容和栅源极寄生电容；Igd 和Igs 分别为流过Cgd 和Cgs的电流；VC\_gs为电容 Cgs 两端电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOBG5upy5AzhibaucicDtTcqnSKpVuDasE1EOHxztKe8eVBDrib73ibeBm3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_027_304316902e8a.png)
 
 驱动信号Vgs 为窄脉冲信号，可以将其等效为阶跃信号。此时，电容Cgs两端电压VC\_gs可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOaXMwVicQyh0gASLSc8Px4uoYcubf0Lwiaf4vWsEw0ibKkwDjibib6khx1Hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_028_f8d487b42f44.png)
 
 式中τ为时间常数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOGhj6AuIdIwZcampqFq6TLNawHibDN5fgfDrkKZm0skSQkS3cwmVWicQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_029_856503b4818b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOL1NEIESNSnKR7oh7Z8MhlrRREnNOfSbEvH1kMoaQLjVL4McywTrh8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_030_13cd5a285306.png)
 
 感性负载下SiC 功率MOSFET 的开通过程如图13 所示。t=0时，器件处于关断状态。接收到开通信号后，Cgs 开始充电，经t1秒后电容Cgs 两端电 压VC\_gs 上升到阈值电压Vth，将VC\_gsVth 代入到式(20)中可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOC6LyCMNbnibZIXRyiahpfeJHyGtciajfEgYRR0pDicvl1T5MQGoJdBpqZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_031_bb482739d7e9.png)
 
 t1后，器件开始开通，漏极电流Id上升。t2后漏极电流Id 停止上升，VC\_gs上升到Vgs\_miller，代入式(20)中可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOdEaK2wP8l7QBe7KwxiayjvMw0gp1xNjy0EkFulfqlSbiaTq7HQiaAicoFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_032_df34ac27ec2f.png)
 
 式中Vgs\_miller为米勒平台电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOAu8Hj4VkIEMX29Xt9Vsfcrl1e8EnSdysonibGRbBv7fMwQUfjCgYTOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_033_efc298f65067.png)
 
 此时，Vds 开始下降，t3秒后下降到Von，可利用电容Cgd 的放电电荷量和放电电流得到米勒平台维持时间。但Cgd 会随着Vds 的下降而增大。因此，为提高计算精度，可以采用数据手册中的参数Qgd来计算米勒平台维持时间：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO1ThopJEicCbXicqqsCqN5EJujLgXibJQhicW4uYcLVGT2ibwFQywE8jIXzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_034_7a74671a54dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOmDOFIny0a31iaRGHRJMMiblSwCJrLcdpkAuc8ME6z5TcEpksm45btFZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_035_605ebeef87ad.png)
 
 感性负载下SiC 功率MOSFET 的关断过程如图14所示。其关断过程的分析方法与开通过程的分析方法相似。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOLscQbKlrzbPcLWB90waXqyww4ibklBXH9qH71l0KcNyTppDMvkEawgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_036_3a043abdd387.png)
 
 4 仿真与实验分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOLeOaf9W9Jlf5WibmRHwFBpXEyLD0GSVYpPaUhum6pkrmKlJ6Z6uNfXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_037_ae7ad83f4ad6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOgDawj4Cndgol9mXsQyNXVJ3mmHweH0OCLu9O14MX14ibXA9iaiaRZ2tLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_038_272ff6ce30af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOmEouXpPBheV8h5iajF1yTVibtEsClgTUSzuusib4VcOj46icjFlDfmPsibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_039_6fa22c667781.png)
 
 图15\-17分别为25℃、100℃和200℃下，SiC功率 MOSFET 输出特性的仿真与实测结果对比。 由图可知，本文所建SiC 功率MOSFET 仿真模型的输出特性与实际测量结果一致，说明仿真模型能够很好地模拟SiC功率MOSFET的输出特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOYwaQRL19SmZBpV2Ie0G8jE1DVjkw8G1KkExoicW4bVsl1Sbeic0cJr6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_040_30d53bbe2cb8.png)
 
 图18为漏源电压Vds=12V，栅源电压Vgs=0~16V，温度为25℃、100℃和200℃时的SiC 功率MOSFET输出转移特性仿真与实测结果对比。模型的转移特性与实际结果一致，能够很好地模拟器件的转移特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOTnIicsmQoMNR2qGmv6E7N63s62of4gCFKLnjR8np2aibZ6gAvKbXlSfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_041_1227385d9064.png)
 
 图19 为SiC 功率MOSFET 阈值电压Vth随温 度变化的仿真与实测结果对比。随着温度升高，自由电子增加，沟道界面陷阱电荷浓度减小，电流更容易建立，阈值电压Vth减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOTVian94htvHjicibQJIPmRFSFHZdwtn3VQDTbAWgK9pLd3kauToLQibxoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_042_e3f8fd1ce49c.png)
 
 图20 为SiC 功率MOSFET通态电阻Ron随温度变化的仿真与实测结果对比。导电沟道完全开启后，SiC 功率MOSFET通态电阻Ron主要为漂移区电阻，随着温度的升高，漂移区载流子迁移率降低， 通态电阻Ron增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOibLDicDDGQ9ZVmbdtA7xajSU1FlSIibvH4rBKJZU7cZyyvD8FvHbbCSFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_043_f6e602747fc8.png)
 
 图21 为25℃、100℃和 200℃时，SiC 功率MOSFET开关损耗的仿真与实验结果对比。在温度相同时，SiC 功率MOSFET仿真模型的开关损耗与实际结果的误差随着漏极电流Id的增大而增大；在漏极电流Id相同时，仿真模型的开关损耗与实际结果的误差随着温度的升高而增大。在温度为200℃、Id=20A时，开通损耗的误差为6.8%，关断损耗的误差为5.9%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOYkVIcaRe3u6rQY8ldVkiavL8gLBM1Dq2q0eMkpH5053Slr81miaPm2yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_044_8c8cf39d2147.png)
 
 图22和23分别为漏源电压Vds=200V、漏极电流Id=10A、Rg\_out=5Ω、T=25℃条件下，SiC 功率MOSFET开通过程和关断过程的仿真与实验波形结果。由图可知，本文所建的仿真模型能较好的描述SiC功率MOSFET开关过程中Vgs、Ig、Vds、和Id的变化趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOsUEYsc7K0icI1icN24BoKfYz8813N0yov0fCe1ARJwvelTBOCiazmpPQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_045_d13978f1cca1.png)
 
 本文所建的SiC 功率MOSFET模型基本可以模拟器件的真实开关过程。但由于驱动电路中寄生参数的影响，器件的实际开通速度比仿真结果略慢；同时驱动电路中使用了PNP 加速电路，使得器件的实际关断速度比仿真结果快。
 
@@ -231,13 +231,13 @@ t1后，器件开始开通，漏极电流Id上升。t2后漏极电流Id 停止�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_046_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_047_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\考虑器件工作温度影响的SiC功率MOSFET建模_images\img_048_573ddf34e793.png)

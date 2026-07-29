@@ -71,7 +71,7 @@
 
 # II 图说
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocs3Ck2ck9hkias5GR7tibLlhRx4ZalL3Xd9qoqtO0oMYjzuFWbibIytDVOa8tytrtrNEe6qc1BXMxOy9vsiceWib1Jyv9CBZTtSmanI/640?wx_fmt=png&from=appmsg)
+![](什么是阿贝尔群（Abelian_Group）_images/img_000_67ec68a79009.png)
 
   
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/7UPHv1uHYRpgBRVjxewLBQ](https://mp.weixin.qq.com/s/7UPHv1uHYRpgBRVjxewLBQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiaKvlbfnHxVjHo1ds5ibHUkXbIvrMdDLWwTYlkoNR5iay8eaByHPOnr0zg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_000_a386a9a4a776.png)
 
 ___**★★★**_____Antenna-15---AR_____**★★★**___
 
@@ -13,7 +13,7 @@ ___€1.轴比定义___
 
 _定义：轴比也叫轴向比，是电场正交分量的比率，通常用于所需极化为圆形的天线，衡量极化椭圆的 “肥瘦程度”，_轴比是天线辐射电场矢量末端轨迹椭圆的长轴与短轴的幅度比值，是**衡量天线极化纯度的关键参数，主要用于描述圆极化或椭圆极化天线的性能。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/JGbdHe4j0TQ3r5VHAB4Iic4EGfcTUViagAD1dtFSCxZQQHvpmujVdpNYAKueNfxiaLTDH4nedfuAtxGJNoZvoEVdg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_001_68582856b234.gif)
 
 图15-1：电磁波空间极化形式动态图
 
@@ -31,11 +31,11 @@ ___€2.轴比的计算___
 
 轴比有**线性值**和**分贝值（dB）** 两种表达形式，分贝值是工程中最常用的形式。从椭圆极化的几何特征出发，轴比为电场**椭圆长轴长度（Emax）与短轴长度（Emin）的比值：**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibLjKbsChWZPMfPefAK4RItBZLcAAg7q4HG84JLH30iczBMfHeIKtjsGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_002_2556143900e4.png)
 
 将线性值转换为对数，即分贝dB形式，便于工程计算和指标标注：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibmsAsywCaVWcGCD9BwTlv5cicuqaPnpOWEKayUA7DYxnDIp8RgDvZEJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_003_b174e8ec2a56.png)
 
 理想圆极化Emax=Emin，AR(dB)=0dB；线极化时短轴Emin=0，AR(dB)→∞；椭圆极化介于0dB~∞之间，工程中一般要求圆极化天线**轴比≤3dB**（部分高精度场景≤1dB）。
 
@@ -45,13 +45,13 @@ ___€2.轴比的计算___
 
 #### 前提条件：设天线在垂直于传播方向的平面内，两个正交电场分量为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ib8swBicrlcp8SiasyRNekFjfVUvOhqZ7rvKBVqvKBBRcibsREvPZKGZt2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_004_d9cca2821eda.png)
 
 其中：Exm、Eym为两分量**幅度**，Δφ为**相位差**（Ey−Ex）
 
 轴比计算公式（线性值）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibnhMUnaYwhPC5SOrL3Jg0Bou8k4gMoZ9yQUyNQsIryfYquOv9mJEv7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_005_f53fbc35f3c4.png)
 
 #### 特殊情况（理想圆极化 / 线极化，简化公式）
 
@@ -61,11 +61,11 @@ ___€2.轴比的计算___
 
 #### 等幅非正交相位：Exm=Eym，Δφ≠±90°，公式简化为：
 
-#### ![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ib1MPwVs2Ez3LfOozR196T5A2NN8qaXgHIkVVBkPpQ9KY6NuytObMG4g/640?wx_fmt=png&from=appmsg)
+#### ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_006_debf8af32cb3.png)
 
 #### 举例：Exm=Eym，Δφ=60°，则AR=（1+0.5）/（1-0.5）=3，对应AR：
 
-#### ![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibUQiaYpIy8CJiaZ3lMXHteAcUlDMa6uLsVfXkJo5ZuaBSWr4W0SzY0zIA/640?wx_fmt=png&from=appmsg)
+#### ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_007_628d8249f9ad.png)
 
 #### 表明极化纯度较差。
 
@@ -77,17 +77,17 @@ ___€2.轴比的计算___
 
 设复振幅形式：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibF9dSeGW80htvUvtBGTdQSibeccOicA4AaIx9uZUz3Ku0socqcw7rqwJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_008_f8725cb930a2.png)
 
 则极化比：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibkI3mdM0X1Mkh0pImRLsq8icECMnrpnA3EJJxyXFEV4nuriaWaajKzymg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_009_7102fc1bf476.png)
 
 其中|r|=Eym/Exm为幅度比，Δφ为相位差。
 
 #### 2\. 轴比简化公式（线性值）
 
-#### ![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibWSWHkC7LlgQDUrS4E7jIKI52uyCHK9nrMW0jL1pYwXg2nZ9Y8H61rg/640?wx_fmt=png&from=appmsg)  
+#### ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_15_天线轴比_images\img_010_fd2d9e9fb372.png)  
 
 #### 当Δφ=±90°，即理想圆极化偏离仅为幅度差时：此公式为**幅度失配下的圆极化轴比简化公式**，仅适用于相位差严格为±90°、仅幅度不一致的场景，是工程中快速估算的常用形式（如天线加工导致的两正交支路增益不一致）。
 

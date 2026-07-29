@@ -68,7 +68,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEqY1VLKniay9HnoibmLnVYbVNPIiaiaBvKBqSbcRxHA7vOY2v3qBZ5lRgiaA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_002_c1863a484fac.jpg)
 
   
 
@@ -96,7 +96,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEkBk0YZxn2D9iavO1zKA6r20ZU5RBSdZ9fTV1Q5y8z3PVpxhzrUozkSg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_003_8ede5c36e8de.jpg)
 
 图2：使用信号完整性分析和设计空间探索消除信号质量和串扰问题
 
@@ -122,7 +122,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEX5tc26fU3myWAVATiaicAXncLO66lHqYLsqaWpK7EcymOcORnrWgiaD9A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_004_03ca2c05cc4f.jpg)
 
   
 
@@ -140,7 +140,7 @@
 
 表1：信号完整性和电源完整性之间的差异
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEic8uq15NLov2jaw7t8FCRibwW7uBeq7gTI1T5DzNtsib6VQTJiaEia4S0vQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_005_a5ddab5ae75d.jpg)
 
   
 
@@ -224,7 +224,7 @@ PDN不仅充当为IC提供电流的手段，还用作信号的返回电流路径
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEVILcf84HQyPJRzCFBQcKSGichUtxh6jqxW0MPmMqC653CDJv9dmFlBw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_006_86fff970bfc7.jpg)
 
 当负载电流不变时，其电流由稳压电源部分提供，即图中的I0，方向如图所示。此时电容两端电压与负载两端电压一致，电流Ic为0，电容两端存储相当数量的电荷，其电荷数量和电容量有关。
 
@@ -246,7 +246,7 @@ PDN不仅充当为IC提供电流的手段，还用作信号的返回电流路径
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEtz7CQ4iaFicE7YY7pNMic85ibvF5KUH0qtX23GiaOID4wkLTCrOfRAss48w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_007_1be5a0ad5be1.jpg)
 
   
 
@@ -256,13 +256,13 @@ PDN不仅充当为IC提供电流的手段，还用作信号的返回电流路径
 
 从 AB 两点向左看过去，稳压电源以及电容退耦系统一起，可以看成一个复合的电源系统。这个电源系统的特点是：**不论 AB 两点间 负载瞬态电流如何变化，都能保证 AB 两点间的电压保持基本稳定，即 AB 两点间电压变 化很小。**我们可以用一个等效电源模型表示上面这个复合的电源系统，如图 3。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEGSHicPQzsezGKvicbERq5sy5Htl8ABpaHqblS4AX4Y2qy7Kj1Pgwvf6A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_008_d8a30f38663b.jpg)
 
   
 
 对于这个电路可写出如下等式： 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEtYlwhO4IVUmyWoxbm8AlUQjOJuyplr3VOnqwzXJvzxSOHxYtKGw7cw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_009_1ccd258c4a48.jpg)
 
 我们的最终设计目标是，不论 AB 两点间负载瞬态电流如何变化，都要保持 AB 两点 间电压变化范围很小，根据上面公式，这个要求等效于电源系统的阻抗 Z 要足够低。
 
@@ -286,7 +286,7 @@ PDN不仅充当为IC提供电流的手段，还用作信号的返回电流路径
 
 实际的电容器总会存在一些寄生参数，这些寄生参数在低频时表现不明显，但是高频情 况下，其重要性可能会超过容值本身。图 4 是实际电容器的 SPICE 模型，图中，ESR 代表 等效串联电阻，ESL 代表等效串联电感或寄生电感，C 为理想电容。 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FP1ITnTRQ1emzpHKkWwAsDEC61ibILDKHo3IG9W50ZOiaFQbBjYXntc4d0fofUgfFJqo2WwficWqm5aw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\信号完整性_vs_电源完整性_先要保证哪一个___images\img_010_9c56a818a0d5.jpg)
 
   
 

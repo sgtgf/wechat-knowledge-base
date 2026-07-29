@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTD4n0ncQjcEBWMHpWI4woibE4Cj9ic31PyOS1K6wQ0AaxKoIsBkpDe34jg/640?wx_fmt=jpeg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_002_cb430dfe54bf.jpg)
 
   
 
@@ -73,7 +73,7 @@
 
 ## 终端连接阿里云服务器
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDClToWrvMH9QGN8MpZSzHk2m7jvvx3cV0KYW9FjhQ7BWmaBM3Izk8Lw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_003_85f5917709a0.jpg)
 
   
 
@@ -202,7 +202,7 @@ command parameters（命令 参数）
 
 ### 文件的组织
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDsdHVfdSgVaDqKCI68l8x9V4T8eaCrkpdP7pausTQ4IZroibUqVZ20rw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_004_df05ab84c656.jpg)
 
   
 
@@ -212,7 +212,7 @@ command parameters（命令 参数）
 
 显示当前目录的路径
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDic7ib74ibBX4gicwXAjlAkicqJw39ZaMFfdJuicZWHlxLkahjzFofTJqvmLQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_005_40090b30a3b8.jpg)
 
   
 
@@ -222,7 +222,7 @@ command parameters（命令 参数）
 
 总的来说一个命令就是一个可执行程序。
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTD5ovhJcC7k10uXt0vTF6EXiaUfdsytqEFXdVk9SS18CsicQxud4r4jsOw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_006_ca118e3b50c5.jpg)
 
 ### 浏览和切换目录
 
@@ -245,7 +245,7 @@ command parameters（命令 参数）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDk1zO8NTYSlUptStW4R7BWWEFthyR9ibS3siapAicwP6Cagzj4UDaIXGhw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_007_a110644a0bae.jpg)
 
   
 
@@ -431,7 +431,7 @@ ln file1 file2  --> 创建 file2 为 file1 的硬链接
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDefy14gyK7BcCLpEdwOKzTXcOStZOVy1mfY4AS462pbQ6iaOj5pqEoNQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_008_54c5c98e25d8.jpg)
 
   
 
@@ -447,7 +447,7 @@ ln -s file1 file2
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDnmrlUBQiaRyufJdTZnSoDUYlBgPQWnbGzyJl9NB9hPUfZtPOlQM5Yibg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_009_62a50108c38b.jpg)
 
   
 
@@ -467,7 +467,7 @@ total 0-rw-r--r-- 1 root root 0 Jan 14 06:29 file1lrwxrwxrwx 1 root 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDx0E1bKqKcauyxXb4trTYbYe2v6EOn6fExWbmwCOleUUvPiatlHiaLJJg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_010_17b769f217c6.jpg)
 
   
 
@@ -612,7 +612,7 @@ chmod 740 file.txt
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDNHjwSKdibbHRmf7PrjuxDSSGmlJcw3TibY3dxFU9hm783e6bibg3jzpsw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_011_6c7cad0b6bb8.jpg)
 
   
 
@@ -957,7 +957,7 @@ cut -c 2-4 name.txt # 剪切每一行第二到第四个字符
 
 ## 重定向 管道 流
 
-在 `Linux` 中一个命令的去向可以有 3 个地方：终端、文件、作为另外一个命令的入参。![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTD1eSiaktDCexxrKQS2UGrRCLy7rcK7vJ2aEGbXW7Cr3v7YF4g0XIeSPQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)命令一般都是通过键盘输入，然后输出到终端、文件等地方，它的标准用语是 `stdin` 、 `stdout` 以及 `stderr` 。
+在 `Linux` 中一个命令的去向可以有 3 个地方：终端、文件、作为另外一个命令的入参。![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_012_e29305a3e8f7.jpg)命令一般都是通过键盘输入，然后输出到终端、文件等地方，它的标准用语是 `stdin` 、 `stdout` 以及 `stderr` 。
 
 -   标准输入 `stdin` ，终端接收键盘输入的命令，会产生两种输出；
     
@@ -966,7 +966,7 @@ cut -c 2-4 name.txt # 剪切每一行第二到第四个字符
 -   标准错误输出 `stderr` ，终端输出的错误信息。
     
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDncO7weX8F5ficdcN9leJ4zXLmpghaXN5wZQcgicJnQe1zo1oHT11ic5LA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_013_9f7f47407ab5.jpg)
 
   
 
@@ -1033,7 +1033,7 @@ cat not_exist_file.csv > res.txt 2>&1  # 覆盖输出cat not_exist_file.
 
 目前为止，我们接触的命令的输入都来自命令的参数，其实命令的输入还可以来自文件或者键盘的输入。
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDLhNHEp9WqTyZQcqbibV8yAiarT3ErFAYg1lMMOwuyZnzURicuf3NGbv4A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)未命名文件 (2).png
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_014_9dbd6802ca25.jpg)未命名文件 (2).png
 
 #### 输入重定向 `<`
 
@@ -1062,7 +1062,7 @@ sort -n << END # 输入这个命令之后，按下回车，终端就进入�
 
 把两个命令连起来使用，一个命令的输出作为另外一个命令的输入，英文是 `pipeline` ，可以想象一个个水管连接起来，管道算是重定向流的一种。
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDSd6NpWcibwMUvWm25t2mLy5ckHLtz4KZbGDFK6rgv3g1q0IrS0gK54w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)未命名文件 (1).png
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_015_176047caf891.jpg)未命名文件 (1).png
 
 举几个实际用法案例：
 
@@ -1215,7 +1215,7 @@ bg %1 # 不加任何参数的情况下，bg命令会默认作用于最近的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDgnWeQnSPINsVXl1gqdgtLZQC3HBKWQDwSNsniaS2B7ib7zMp92YuWIKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_016_548886f1d9a5.jpg)
 
   
 
@@ -1252,7 +1252,7 @@ systemctl start nginx # 启动服务systemctl stop nginx # 停止服务s
 
 > 我们常常使用 `tar` 将多个文件归档为一个总的文件，称为 `archive` 。然后用 `gzip` 或 `bzip2` 命令将 `archive` 压缩为更小的文件。
 
-![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDH8FkLNWyPgLEUI27YTA0z1aUKmSgTJWvVhmqtZxNKibkwpIa94LXVtQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)未命名文件. png
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_017_be69046c5a44.jpg)未命名文件. png
 
 ### tar
 
@@ -1648,7 +1648,7 @@ reboot
 
 为了进入命令模式，首先要进入交互模式，再按下冒号键。
 
-用一张图表示三种模式如何切换：![](https://mmbiz.qpic.cn/mmbiz/9aPYe0E1fb12HhSLxYibr9w8y4GKAfhTDE2faicVK1YIhSu16FAo9aEgGbCIbhlYTZiaABdeciaNEwxJEU9W7ln6WA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+用一张图表示三种模式如何切换：![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_018_420da545e2b3.jpg)
 
 ## 基本操作
 
@@ -1895,9 +1895,9 @@ https://juejin.cn/post/6938385978004340744
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_019_27e4e85ce630.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_020_26e7c42e5929.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_021_86e7b1720ef8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_022_607a9b5809f6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_023_c337f32f2ad2.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_024_845d28096f90.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_025_2e2b5ebc409a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_026_16e467ebcf07.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_027_ebed19ebd456.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_028_de9b387fc9a9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_029_fb5805018722.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_030_25764f7ff52f.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_031_f992681cd3b5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_032_d13d18656a84.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_033_fbbfff43554c.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\_单片机___RTOS___Linux__放弃_images\img_034_05704500a9db.gif)
 
 ## 
 

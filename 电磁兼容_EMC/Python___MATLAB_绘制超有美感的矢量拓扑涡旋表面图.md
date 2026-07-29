@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/l7hk26QmrgLw14zwR2aWMg](https://mp.weixin.qq.com/s/l7hk26QmrgLw14zwR2aWMg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpXPMPQTlVMCs9hiboZtjYcuXChfsTGBPSj87bWoCUBYNabh3eWOMUiaArgc3LMfUe8iaFmxUdpRuW49Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量拓扑涡旋表面图_images\img_000_c137145bf0d4.jpg)
 
 导读
 
@@ -19,13 +19,13 @@
     clc 
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpXPMPQTlVMCs9hiboZtjYcuXzcW6J1NbibAufRH0mjqRFlgbvRscGLaLybF5xTWcPlGXBDWniaIIUfMg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量拓扑涡旋表面图_images\img_001_cc747f6b2730.jpg)
 
 ```
     % 初始化窗口
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpXPMPQTlVMCs9hiboZtjYcuXEhpBHKaf29y7yE1hib3OWmOv5yJibYUe3m3He2icd5opicN60Wv3e4s3sg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量拓扑涡旋表面图_images\img_002_65d9b3dae02a.jpg)
 
 * * *
 
@@ -35,10 +35,10 @@
 import numpy as np
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpXPMPQTlVMCs9hiboZtjYcuXicIuge7WL0lYEWXoqfib27SmYSsM7KVFWLanvaxKia1iarGkEDic1O6GP9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量拓扑涡旋表面图_images\img_003_6e163281c09d.jpg)
 
 ```
 import numpy as np
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpXPMPQTlVMCs9hiboZtjYcuXNxwD1IrHmPX62Ncia5ialspfZOTWMG4kBPH49PMBjNvDGg39bEpceyjQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量拓扑涡旋表面图_images\img_004_1adb6b960d57.jpg)

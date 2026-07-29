@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Eubr2Mal3-Ow6PBBpeAeDw](https://mp.weixin.qq.com/s/Eubr2Mal3-Ow6PBBpeAeDw)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/g8CcnsX2z8W8MadwHiaNDE4LqVkgx9bMSiae7CAJjCFXvUgX26K1ex0ZGhhgzzGicRMpYOcOnQtTxQ1jxBoEzWSIImNtcfMib0To89Q3XiaNdrlg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\免费_手把手教你安装部署_Openclaw_避免踩坑_images\img_000_2d59bff8564b.png)
 
 创芯观察 x 0penClaw
 
@@ -66,7 +66,7 @@ AI 时代，我们把 0penClaw(开源 AI 助手)在 Windows 和 Linux 上彻底�
 👥 **名额有限，扫码立即进群！**  
 （若二维码过期，请在公众号后台回复 “openclaw” 获取最新入群方式）
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/g8CcnsX2z8W8LNibI5RJzk23E7DTSug6bBkcZrGRWEokibpHQpiaxfqiaibEarRTCH5uvd7MmiatwJUwOorG9DF1dfvmgJNXBIribKxicDePyf0oGo0/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\免费_手把手教你安装部署_Openclaw_避免踩坑_images\img_001_f3d05d627ab9.png)
 
   
 

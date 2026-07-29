@@ -12,13 +12,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GbmVTTAQnfRXet9tmO41v2du3nniaugYCeUWJtWkcXWfYO4B8sAlsrXA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_000_c2a77ba5ddaa.png)
 
 图1：活动座无虚席
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G1kZE4WwpXqWODaia0TguDeRJicia8hKuq260FXbLOCWxNbqzhmu68vibVQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_001_b62c1f7dc6e1.png)
 
 图2：报告现场
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GmcaU6CHh9XbybQOEY60jAic693A0GfNKnjicWvAbwxEBToLm46dwZX4w/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_002_f4cd9026827c.png)
 
 图3：团队出版主要论著
 
@@ -38,7 +38,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GSYDV2o9SGxEqhUMVZvF9ibtK1ZtjQafhZWGBhq7NmOLubjibibtrvcaYg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_003_db63a8059e51.png)
 
 图4：讨论现场
 
@@ -58,233 +58,233 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GasVPPtLdG4g2yv4OgtEKoictq7c8MHichzaCs3TOK7Kf0c6hk7icdKwVQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_004_e646915a0ddb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GphOoyQ21VoLok5RjDica4zsAjUmcbF95icEB5nTC8XGMAtpOd3icQAb1w/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_005_e31939f4da94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GafuQFjHfQdoI96uxVNVODnYZk2stVOFwrEG6wr6tqs2WtbAMZhJleA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_006_3926f1d56937.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GmG5bC86bO72qRjUwVxESOWyIvoAvfiawW7xwyzjpibm2UbYkRP0K4V7w/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_007_5d06efbe3a75.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GcnwoQz82PYjsV31Od8X4icUcsgzsZk1QMeknpvicCScnQQqFDLkx4LmQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_008_7a8014da9da8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G74nDzta6ib4hwgZJ5hEzCfM7t9C3UD8KLOda5g6turCJNFS1LSaN5sQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_009_59ebef65e729.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GA4bHv1HNJqUwgUzUAs2ojbwB77Od0RbBO7BGRhqg1wsicDwnial6j3sQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_010_2e670598da26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GCRgxA4RCHia5Y6yV1iaxAedxcjtVh8T3Uf4rZnjb7xOPDbXB5dzJlW7w/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_011_bb6c6b3a9f32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GNnJgpJO8KBsuFoF0WWL4HBcMMPQJyNNaJB4ichdTuqoOaFicdNkykC3Q/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_012_fb06e1e41b12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G1edzBZxm4AOMaicepCLMnq5oW7ES3icLtoSWnzEicW6pTLXeU1qnweDLA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_013_1de005a93689.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gmhad6krgicYUQjKGJsZu8uqFoYlEeMicl1cxT0EdfO5EwNXOAykP96Mw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_014_ca43fa3e65df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GmpjCEcy9hZVGG9rLOQPfu6xne7lgsUj47c7KmYA93ciceAOOmQ4fp3g/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_015_f4efc683b354.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gh1hw2H9BQsok701JkJWgBDSHd0C8CEIH2Diasrm51MNcmE1dwWJXang/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_016_d6a4fdfa8038.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GG19LbEpzSiam88qSW4oXYsu7xHnF3T5xA2fdglQoTYjgvewl7ofhfLw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_017_1ada8711ce53.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gu2eeyhaa0Ds500B0jfJ23hsfB47alnia0GZx2SMFT3qV1CkJLrJ1vjw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_018_23169743045f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GQauaD1P5pWI0BKrx1KdVZNeUMTVocUgUd6Nk7GDHhiaEBTywJIOic2Ng/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_019_c94115ca8c07.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GdTHqYuAlsibrsMO8biaib5qqOKeBCHw3cqBV0qcS1tU2aZH9QVUp3Vh2A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\模式识别_NLP_信号处理\自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images\img_000_86ae7ceb03e1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G7jJHwrWmm3oN6zHs8BWX7a62ZnVz0RmibZTAlWsPMlGw7c9xy7QrCtw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_021_a3e5ad04e05e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gn6FC5yMicJfGVx9wES6Jlib3nV5dzyewIb6kQeGUFS6l6ouW2zZyYsCw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_022_99095cf245a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G0flW16wGlhWYtq49yXWgqFeajPiar6JaNAuHMWGFSfgVzW1Up32kdVg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_023_738fc10e15f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GYWcKWKt6s3393Kq43BKFIMxnJjBAXztcvyEiayk0jXcq2f1arX3hm1g/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_024_581b22522c92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G0KOsVxdD8eGj948D8s5Jncdyf7BOqnolMWv8YMthyjia8SodXCc9WsQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_025_324ce7b37e82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GhDokfRibRfaFYvmDsLFdicLfYqTRMicSphHIibJ4w4HLesMicncJicXYCACw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_026_3770151fb6e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gicj73GMGCg61ZU6j1okloEac3atOZiasdRggcuh6CAdoINpxtE2Qx9jQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_027_b8558c464090.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GjWITtbCjhhX2IdKYAEAFoBIvzGV2MVia8vloq1wr6jzwZyU1icfLAX8Q/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_028_ecad9bcc8cee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GZCMRibs2mTtCFHItkn0Y53aF0ibquTic1A533L2gbWrSZosORv2X9m98w/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_029_d4c1e8c05381.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GicChlias0kibOltRlk1YK7fMibSl5N35e218HPsVjjanxz73DSVXqCVEQQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_030_2dbaac4dfc62.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GIdeL2cJ6aUomMzk1zjHYXdbmCHcxOicsCboEZ8U7WhWibtru4bZbmfkA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_031_02b6af3f0e29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GfSRgK7OyM7aSuBkosUzUIsnicFp8I6QNjHsnvJuicDPwO4wiahWoP02Ig/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_032_d1d8c24a9713.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GbsBibDnXxgSuQwcXH9jedDFMZr4ic7xia0SkL6ldNKrbYicAAFicRfscbdw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_033_bdc3f5a2923e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GEjlvO9TxGLqweLbQRiaOyK8g0Tfr77ruPdww5yytxp2J4GZGMYk14Bg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_034_27827d429c01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GeLutIIoiam2jU90n76Wl4IXiaEEajv6GadAWwR9j6WXic6c58qPRUUVng/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_035_b6e53d89f4e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G0509tanmsib88XEIZmh2KubA3hKYdsEJRQNuIpziaiam8DicHrpPpvtQFA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_036_2c915a929ca5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GVj56X3XqO7ibtpcokaRdTE8GuSQNAt9orIvdicFWsRs8vD2ibass8nmibQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_037_962580dd5300.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GDicdxsBDSl8AassKbzciafGcjJHFJNGNpBVvWqauhfmctV1wmCXH6Pkw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_038_e0357078e0a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GHyg0z00EoEuxlibA2DVAVQaC7ibibfVqtRpmsEspTrGfYtpanU5wzhibtg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_039_80877f053ab4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GLtwANMWribjam9HzhjmsPpzWbdBjdooBGYauaG9TBd6Wiaffia62663Gg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_040_00a4a08f0ee7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GyZsCiah6aicEHJpHvdibreMcgD4PHKcUHaUHyhxawnmiblYYBejgH5UrLQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_041_5f9052f074d5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G4DCv27UTvRvdsNWjw0y18MibfsfpxOsVRa9Zmbib5ubj0rPYWLDIng7w/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_042_cd9833aa6e2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GHFAfVJ1ucoicypdR3nwHicNqVUrian7KUdIF2FkibLkKJ279jUbU76sTNA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_043_f54fa9cf399c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G6QW1YqmAE6WynCJsicbJFhSlphdoBeC2oHCwiaT9rFaKicgWC8yFJKpkA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_044_202e0dcb1494.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GUdAlccttsUGqUaibtqCvYic2EFKQnWq7spuDdleH0ZVibiczTktyDicfCAw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_045_5038704c7bc3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GaCo6PxR7Y4PLXgl3SAfXL6gVeic9MmRNfepEdicIazyqJZiaiaKTzkdHQQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_046_7212553da273.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GMsU3RSB4ibueLHyxQOEd6NsibtYdoa6ibvnicqTxHRXoHKHRpYM2DhnAuA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_047_277b021cb7a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GpCwmb6dAibWNqmD68qCRdYgXtsmHvEyNeuicVibVqEgsNTVtSHpECvLgQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_048_62026e99b3a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GQY8lwsX0AM69aicZe2mUNibo1CDicFLZaMpfzlXEw0TwGsV4ib7bjcldeQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_049_78107317095f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GNH6GAicZmFLs2P5wrL0SB4j5D1NCjW3V99WBTx60KxDgTgkjrSOLpXQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_050_56b3de8571d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gvr3EbPH4vXC5xs7fl7fxRag3QDMRNN67UMrJCj3EdCciaArTTibrxwaQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_051_638ad238833f.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gsb9lefiaUA3GyvpD9bScKm13qGobbCC6R8JmUezlXrLA5sNDliajQgSQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_052_977357249abd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GdYglvEskHViaB7xaQE7AwmFvm6StdRctgdO0fibxQdxgDsAzUCrSJkwQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_053_0c7b84f70361.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GrJtzvDs9Z1mYWXibibDko294ibWKrkLVz6SMJZs0ossM8W7SlUxap9yWw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_054_e89f143faf67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GPLoAfc5u2etvrVTQyWXxic0H45BIC2MhWzstGpma1Bx6XAUicUCMQepA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_055_b6728dfd9419.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GTbZKm9Y4YfQpg1XCDKzCXkR9gv7kRd2Na22Ck31ZibOk9HoHRWYOu2g/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_056_0a049d6963d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GyuLSRLz9BvfyTrnFKf39p8iazHyWPukbfRu3vFV672HluYpTVQuVMow/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_057_341b0c69dbc2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gcse0bUmCV4Oz06YGlzBottBxuJBnpbwwDJ8xWwyGOnroovDPYqHVsw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_058_0521f537fbb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GM4v0bNF1KQKVRRK6VcpKXicwoNMRJib5ianYRUfswyjtYHJMzKtIRC3Lg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_059_1a9c09b6c6d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GPuklVCIIHJeRHrFncrFOV5kxr8lFibsoP3gfmDDaaeyQww9jh2n9DRg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_060_463bbbea203a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GpfoX0tl7SGx176RUmw3gT6YXvJ9Q61I8x0ngP7zhpHqEm4o2nyCoibw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_061_43defaaa9b08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GCfCnHpNxMtMeCeLGutE3R0XXJu7gVSia7dvO7CxwgRk5ibQpftQCAgpA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_062_3a1a14017ade.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GibdeAeOcuHZrkIlH4h9L3PAF3YiaqyGe0SGRjtBhUPx0bQH5POnkySZg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_063_dce73530fa5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GQekicymTibqj5ByHOvBqsG5rD4z1d6CXlt26ZQpBnJiavk3mPX1P6IBbg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_064_6851a77edfc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gxrn1ctO3GLSqY8YOFAhfx7faibM5aUIKVEvDTKXCyUb6Rasu6bnyHibQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_065_2b436cf03ab3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GxOzWHv41aRTBEChGlAQobuQ9g3tkCfXMRpaMAKVq5GEIQsETX1Nl6g/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_066_f147095d15af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GklLmDk9n6RaQIISWkaYK5ibyWoNsbkP4Ow12cG6UywkEXo6cD613WGg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_067_cbbd7a8f2eef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Guyp8xzY4ichhU80PPiaA6u7YY3B1zd3byJJyzTwh3MFJS05uuzPLhHSg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_068_11a721a26b43.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GNdefxeYX8gWG61J5KWYaXqYwjg9oyueN8WRntwkoXibib2dTfNLqpB8g/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_069_05408cd7ecf0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Ge11VnddTjpyMWpBtFZ7vQk3ica1PXibjHuUejv1YR8RTgtRSSAxbqQsw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_070_c7b1d67d8471.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GZyMZjCliaH91C1ARrrDdoibpnwiaicibc8YIlDuKZwZasia0CvbmbrlduYOg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_071_ceba7cc46157.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GpSxwiclfLfpYSWhNVIyq3jGnJI3WAMebgwzpGfQNg6zGzKalQzKuAhw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_072_6cda65e9f9b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GWqQOqZQ1MicvhkLibOn7cmOHEEMZm0e9iafeoEjojVHDmV2pccFLW9Q9w/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_073_9ab482700d55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GUtSaW5foMFNndwkbOdECZ2J4PgLcCAhSUqEwibiaVnYdRrLb1LIz9IYQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_074_11fe2f7e9ef8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GcTYxgjm8C0hZCZupMHhvYpCjaibRecgKpxQyg62ArnXju5KUiaLBicE2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\模式识别_NLP_信号处理\自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images\img_001_041ec80c919f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GRSZwtBC0JrreuzsdAEpXfLKAnxvEqdicPT8vG4UbNtgUPRGCooPN6Bw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_076_4a8c79464db8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gicr3ymA2LtoLqqO22eaJNp1CcuwfIdgicxibG9UJ5yVZMHLmmStJX07Yg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_077_960a2f499e89.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GnPMpMqiaq0TIiamgykdswsiaZGtJwmWrSCxLkGrnW36FNA9h9YmuQgYjw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_078_27939b7a36d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gslrhca4dwRqNyUib8lrPXg1EibSheUUbcYEuHiag7RsyrhME5GfoTfgicw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_079_dd263b2e5e78.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GxuiagZ2UTjqxbBJRKjc6urxsE84AsjWblx50t0hciah7TnU2p4ddj0qQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_080_b15455a9fbb5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G2pQTsMs9U9dj4IPo1n4KuicKswiaAzwzyaTniay9ntN3R5XAL62yb5y2Q/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_081_b85f61258ef8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GK2uTPt08Tn50arWicufjVkr9h5QCujlAQ60QCwviaI4zJG5JUUL4W4Sg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_082_2fdc5cfef971.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GXZFwSQJxskZEibm8L9oicjr2qVpgCdGa9lZXTMTg4fuLDdr9m0DWiavHg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_083_579eda46cf59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GuTyMjmZYyia52rPDoJWC9MPMCuRDmKFCvxF6P4mmKOyaamKEM8FYKUg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_084_ac88cfa6f5e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GLgADia9mJU6wyKeh0kPkJ2LMbEybmb4ARvmY4BTeRu2P8EibpqXfQo9A/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_085_d6b23265fc34.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gojp3LBWjYejQ5pyscQ44yv1VuKf5aF5OCuPfGfkiajklMWDH8B2ZRnw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_086_9e30d0fb6dd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gs2OjEu0sVnVxHxWAXztnRjViaPhDH4Kj88khGsuic7jT0ZTImq2XbjTg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_087_a9624cc8832b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GECicv9HsxibbORu8PU7IkJZ7zbuhXmdbku2jb6EmCnu33T7GnRwgWvjQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_088_91cec66b958f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GhJzRJBL1aReF9L761E7ZIC5eOnpVBib7u7EsiaibltkEXh8CUNetcIZgg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_089_a31ade76489e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Goty4uEvpXVrdTa47IRpBQNTuDVLBEvTjuDK37oldAcou728dvZ51hA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_090_bfe5fc7ba23b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GSWDULg3LIRSBwaroBDoTBn8hd6ZW7bpz2FBkxlsxrpanJNDNO2Lklw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_091_12224f32f081.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GGbm3OZA2icdd9jve5GiaLIctNiaCEk9YArDnQVmCNXHJKfb0hwUDjdyUQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_092_ebf2ec84ee42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gwd5DkzIicZahVSiaCGBeb9ibBr5RZ1s5t7sHwhUOXYJVWV49oeemSDQFg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_093_dec41fcad2fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GSO20LpHicHcW0y279JTBnooYziaBOMuczdaqxnfAXAicbdNiaRu5csia0ibQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_094_69db89f9949e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GZSD7YNpjKs3KmocgDW16DIj52pOa2HLx7ibLtDoCWsicB0U4wZlYJZBA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_095_28021f4008fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GbVib9cgnlvJ4ULhGpVZ6mer1bUCbwrGy4XRCtS0fkeHX7x3iarTegYPQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_096_6e17e9e4f011.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1Gwtarok9mfwLiawYy1Fn9mGo9wFqOibTic6hvV64FrM7qoE79ZkB3CloicA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_097_39c025a97c06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GmJJGdgNDoJXvgO7Xj45pzNJ3suibdJGu8tkf1NpQ3nTfQsOLPAED6bw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_098_8af3769aa78a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GeVFs2JTMqSUy5IEibsONP2dGXk56IFoyvicj7jEMXMulsKDOkRLTvIkw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_099_72d78b8b4e72.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G4qZ6ZlrBmbMQD2AFJbMONqj3zLcFoibUiaNgPn1ichpptxZZNawOlBEww/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_100_9c4acb333039.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GwQaVh3WlhYWPiaSVC5hVyFlGKvhicK9PmUxR1BFqg65N5m9zsP1bQPVQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_101_acdd72c209d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GRib4Fiaddg8Af4OShtVJogoibMQh825NlibZlGBPj7icPuqfeM0YqhibLsdw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_102_90ba481a7342.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GdbXiablvHH9oJiad2EQtPwfCJBjPpjTSUn90uGZ1OlWpqWnEMCHk0rLg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_103_704497868f1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GzVuyJYIRDpBwRGCctVPZf67kCBUBs0NOrMCeicNLzTIibfldO1pfIrsw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_104_38add7e9809f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GRtiaXT6WibmFeNTGIIyqiagljtyjvXGkxXt9Bmps5BDaSbS7vy48iaN5Cw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_105_09166d94c9c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GXItw8XghLMojnw0YueruBjzlVWUm403EAxoWBMX7W5fVrNvicdtstAA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_106_2c29407af95c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GwYrrYIACRYfcUnm0s55huJcllEZoqgnzpZiaVp0WyU6vWfOAzaUKqicQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_107_44936f390a91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1G9ujOW1rWcxicbOYmhZTkyb26KiasFDVViaksJagibE4v45JjMn3P59sFdg/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_108_11f1b53fe5c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GwuEfjlKFhso9evD9X3h9TMImllthhyrF6TumDdPYpdiauib7dNicKEpuw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_109_d7f99e8dec54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GZSrmicaEDYxVM2NtQCyjkWbgtXgYFbxBHnt76CIp2tyMOLPjMzQnxdw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_110_ef101395aefc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7EqknOlkBxaTo2vpeECic5Cic96vgfbw1GdgHQrcibzHTBzKsiazibeCibonMH8CTewRIHuHXa6PvhezZ9ShiavekPbOQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_111_d1fb1642481d.png)
 
   
 
 来源：模式识别国家重点实验室
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0LDbvktWkf7WYvMLHnicQCvRDJod2qFELuQ23r1H2icao48hXf9DjEj8hPWL9IPYZffJXW7PyavCUA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_112_a4124d5133b7.png)
 
 **热点文章**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0LDbvktWkf7WYvMLHnicQCvuJrNm33ibtIgRlDvibsG9J8YMPoY5gFkM7AiceFohfHrAxnIRQq2gVjlw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_113_9474796c0ef8.png)
 
    [【前沿速递】机器人领域热点综述](http://mp.weixin.qq.com/s?__biz=MzI2NjA3MzM5MA==&mid=2649955259&idx=1&sn=c6aaf28c985bc4535380e5e774cac040&chksm=f2941ffac5e396ec6562e95c6ab505f84a1ad6f6f3f558a1a13abe94ec0a3db42a984830dec8&scene=21#wechat_redirect) 
 
@@ -310,11 +310,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0LDbvktWkf7WYvMLHnicQCvRDJod2qFELuQ23r1H2icao48hXf9DjEj8hPWL9IPYZffJXW7PyavCUA/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_114_a4124d5133b7.png)
 
 **期刊动态**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0LDbvktWkf7WYvMLHnicQCvuJrNm33ibtIgRlDvibsG9J8YMPoY5gFkM7AiceFohfHrAxnIRQq2gVjlw/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_115_9474796c0ef8.png)
 
       [《自动化学报》“智能轨道交通系统”专刊征文通知](http://mp.weixin.qq.com/s?__biz=MzI2NjA3MzM5MA==&mid=2649955180&idx=3&sn=653be7af24febff3b8622686943da82e&chksm=f2941f2dc5e3963b84663b01cab7dd303412e6c1a4a581cd3baeb458b8e07005b7e639c2201e&scene=21#wechat_redirect)
 
@@ -342,21 +342,21 @@
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH1VCvHqEI6gI67ibOdgOH1eKN64lXSicS7NcuCiaHgSVKcIQSPFYCU36Qb8xS5fndsFGYRwW3paicwAOQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_117_8a57e11fa64f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH1VCvHqEI6gI67ibOdgOH1eK8iaZmkeYptRQeDdhoicLb4qbDZtJou8Hl6KwwaPdnwUxkiczIn9LHsU4g/640?wx_fmt=jpeg)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_118_e017dc50ebd7.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH1VCvHqEI6gI67ibOdgOH1eKN64lXSicS7NcuCiaHgSVKcIQSPFYCU36Qb8xS5fndsFGYRwW3paicwAOQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_119_8a57e11fa64f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH1VCvHqEI6gI67ibOdgOH1eKiczWPzlPAibDVxmucx050yyDPic38ia3AicIDTW6uYiaaSB4XGFZrkNwSF4A/640?wx_fmt=jpeg)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_120_dd9b5e6413ab.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH1VCvHqEI6gI67ibOdgOH1eKN64lXSicS7NcuCiaHgSVKcIQSPFYCU36Qb8xS5fndsFGYRwW3paicwAOQ/640?wx_fmt=png)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_121_8a57e11fa64f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH1VCvHqEI6gI67ibOdgOH1eK1c70jjyuZmLkKTYQZT4BrgHkB03LqtwelZxgBicLkgjyMsLcydQQmiag/640?wx_fmt=jpeg)
+![](自动化所宗成庆研究员_108页PPT干货读懂NLP的过去与现在_images/img_122_74621e5663bb.jpg)
 
 自动化学报订阅号
 

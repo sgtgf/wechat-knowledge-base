@@ -48,7 +48,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZEXqfD6HOSSUQfBjOZ7rOaaDSBASrriaB2eCTkp5CwRhOoGiaCwT1T3XA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_002_6fb92b8ad263.png)
 
   
 
@@ -56,7 +56,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZQW2worxRztHxcHR7n9lwF029eAKyDAGiacMZB9gcex7f8YoCrvAbLFA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_003_704b13d9d785.png)
 
   
 
@@ -64,7 +64,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbSGoG2yD8ZrQibqOx7r02naB4epOUia3nIOSDy5GGOsgUs7AKlN3NJ6bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_004_4d44833ae323.png)
 
   
 
@@ -80,7 +80,7 @@ PMOS LDO
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbnUInGuia4xKHkSiaueuGmicfXBRiaUria2Q1iawCQ2hgIP4Jp2yXvaz5ASjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_005_e612efa882a4.png)
 
   
 
@@ -90,7 +90,7 @@ PMOS LDO
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbACfZ2VyesAeWllMSGazDG8wojMhwp1peiahB803ibIGkLMcvEIuYBoxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_006_c7cdc3bdd181.png)
 
   
 
@@ -102,7 +102,7 @@ NMOS 架构如图 4 所示，反馈回路仍然控制 RDS。但是，随着VIN �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbKic6SJPicfqic0MicSgwMpmiauY8sEK4z5pjGNRacN8BZibibhepvk1WeIKaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_007_f316b4b3aad9.png)
 
   
 
@@ -116,7 +116,7 @@ NMOS 架构如图 4 所示，反馈回路仍然控制 RDS。但是，随着VIN �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbRHqyefCiaz58jrHkvClCtw0XEcIKlic92c8QQEOJ0Wfaf6aqJ6rkeGyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_008_2c160e5258d7.png)
 
   
 
@@ -124,7 +124,7 @@ NMOS 架构如图 4 所示，反馈回路仍然控制 RDS。但是，随着VIN �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbchTTsnKgL2falXBx1FPBw4G7USDsoyp5qNx3CeCfyDwia0ePtCZnkvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_009_632a00fb88b2.png)
 
   
 
@@ -136,7 +136,7 @@ NMOS 架构如图 4 所示，反馈回路仍然控制 RDS。但是，随着VIN �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbsybU2soPc4bn2efo7beufeoqqGmz8ibPZgDdznEqq4b3Jic8FA8tqsBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_010_bae688aa6fb5.png)
 
   
 
@@ -154,7 +154,7 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbHlp7jQvCMV0bntcENicqgvWW0tNTHBav4qJfw7CvRbJRKIE7yXjhe7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_011_3f06897abcc4.png)
 
   
 
@@ -170,7 +170,7 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbmgq1vmkibSmpZhvPQgq4QPdtE7lIByAMd7iapnYOn1tKJGe1ic6ic43lJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_012_1d34685d0f4d.png)
 
   
 
@@ -178,7 +178,7 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbWssCI7fCGe0POxeFH2RicVpTiaALbQYRc3LBjvibo8bfD4BT5TFEQgFrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_013_c3ef150936de.png)
 
   
 
@@ -188,7 +188,7 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbyv1a7oYclN9ucdkhdicTdZMGubzN2BJHhuHW1XC64c9b1lJYDpl1FlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_014_0bce9776e092.png)
 
   
 
@@ -198,7 +198,7 @@ LDO电容的选择
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbMNbYibibeomMicZzFI0LtHy3nSXJlAIoVNyGBsh2zP0UkZ5gLy2vcWvFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_015_a87bece5e60c.png)
 
   
 
@@ -230,7 +230,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbFWKsIujLr5aJvAhsnJ6icrJw9bBzXn7PUekVz4VXQce4OXWKsKPk9wQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_016_5a1873c8b50f.png)
 
   
 
@@ -240,7 +240,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbHM22jsaXrt4Ndr567UznMYVEzGtxdLZrGOuQuG9pmwjv87tbal3PRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_017_0ae91f115686.png)
 
   
 
@@ -248,7 +248,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZfibNIKYxibCc4njxm6a7ksj7nDxeic06JiaxzKZKX7B9BWicN1ibzyq2W1WA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_018_246061568974.png)
 
   
 
@@ -258,7 +258,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZ1nZfDWgo6nkRrIMQUAUulYX1Mib6iaeIE7gFzADpkoejEzD05xaw3Hmw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_019_cfabd1c0e8af.png)
 
   
 
@@ -280,7 +280,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbjlUzrA0FS5q1t3UjE9xYFl5C5xrbgggdGsvLnibdVoiaZPqS9DjfgHZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_020_0bc03a08bfd9.png)
 
   
 
@@ -290,7 +290,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbftg3TPha3ibfJAIGUYIric6WG32939A3nWufj6ib1OgxF5XEibnbWdUHCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_021_8065b3dc1d4b.png)
 
   
 
@@ -300,7 +300,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZQ619z4nJ84AkyibNeB0Ul0F81ibTgDC49XMrZ4WaLn3y57XFrxr77uqw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_022_b56e3a20d0f0.png)
 
   
 
@@ -308,7 +308,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZNpcuQ6SzcibMZHOUUe0NYhZk3NHfdE0oGicUVSP7pUicnvmpFg2EtvLyQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_023_a64beaccf3b2.png)
 
   
 
@@ -316,7 +316,7 @@ c、 制造商容差：考虑到 ±20% 的制造商容差，最终的电容值�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZqibdaBLjz7RsbR1F4p8B4cCdYUSTKRMe419iaRAQnNhQrCunmQGDpcWw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_024_44e6e5995883.png)
 
   
 
@@ -332,7 +332,7 @@ LDO 中的电流限制定义为，建立所施加电流的上限。与恒流源�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbEJF6yibjib7K1luxAIUgHcDicYwkOycEzgicGw1TDmLec1JLViax2UIKkzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_025_c854b2ea91a7.png)
 
   
 
@@ -342,7 +342,7 @@ LDO 中的电流限制定义为，建立所施加电流的上限。与恒流源�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZnJ9WWsv4tBFiboll1qibia1oxauB8f86j7mkUtOYW4XyPovJfibWKkblLA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_026_5da72e0e4503.png)
 
   
 
@@ -352,7 +352,7 @@ LDO 中的电流限制定义为，建立所施加电流的上限。与恒流源�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbdiaicaftoyguMCeuuSn0667uLlBxWr0yzibGo3J7sbFWJicyVmFr5KkjYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_027_559d0ce815da.png)
 
   
 
@@ -366,7 +366,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcba2JJmY4lHMNRoXrTJmkrfoy4eicqcmC7NKDtX5s1RtwY9W2b2puAorA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_028_137ee0490b54.png)
 
   
 
@@ -376,7 +376,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbVNWaHhelMNKE8WT2ib2gliaQ8xy6M1QibPnyonDcPeZqGdYluBCKy3kWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_029_aa3e21448d6f.png)
 
   
 
@@ -388,7 +388,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbHiapggZoo1JJJiaDhnOXTQYIbewicxtibicAXo7BYoTDhzyeyOFjnQz1rGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_030_951fc5483a91.png)
 
   
 
@@ -398,7 +398,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbS7kQh4LzvUn2kdffkwdplsqhdicCP20Zicwc9XHrzibfHAwMBr54asictA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_031_3c98474966c1.png)
 
   
 
@@ -410,7 +410,7 @@ LDO 主要包括三个组成部分（见图 1）：带隙基准、误差放大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbPYWbWl62NrZ3yCQ9eUpV4YavDkFXNzGsRXlbTdI00Go0lmJd1qWpMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_032_e3ee22a8e351.png)
 
   
 
@@ -426,7 +426,7 @@ PSRR 是一个常见技术参数，在许多 LDO 数据表中都会列出。它�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIBpTAO8OTqRqFLt4f0UDGZc2HnttF3wxSyehEFbUqZh4wJPbAw71rMsOPVy2Yqfrmcog1sUhCWPg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_033_131515832b2f.png)
 
   
 
@@ -440,7 +440,7 @@ PSRR 是一个常见技术参数，在许多 LDO 数据表中都会列出。它�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbpibYZdCWhsDIhJs7IvrCEv7l3Bq7Sh4l26hJoF4UOawsVLKcRLbRRAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_034_b8a0f69dfc4e.png)
 
   
 
@@ -448,7 +448,7 @@ PSRR 是一个常见技术参数，在许多 LDO 数据表中都会列出。它�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbBEnRg5D69eRoo8ATUYTV56icMjEsLaEjfY6GuAq11U4nAz1rCJibOiaxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_035_bb7aa0d8c57b.png)
 
   
 
@@ -468,7 +468,7 @@ COUT = 1μF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbYcjVPSYU33fMqYg0iaBU8qkibyialBZbP3cIqSOV3rTnGqEQibYY7Z181w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_036_4583b07fa929.png)
 
   
 
@@ -478,7 +478,7 @@ COUT = 1μF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbiaVnQdWrpXAdqWc3ibBrjdDP5Dm4OrGcGiaTK4WgCbB76w1v1J2ZRLZdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_037_889651416af8.png)
 
   
 
@@ -492,7 +492,7 @@ COUT = 1μF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbuorFJVWOog6JCXD97HquKKNKOUUtEErNBveTXD7zJMVZMhicGiaeD9ww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件的同事_传了我一些LDO基础知识_非常nice__images\img_038_d09ad4afc32c.png)
 
 ## 
 

@@ -10,7 +10,7 @@ MCU是电子产品的核心部件，对于这个器件的选型一定要慎之�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMzefKszFaufibmZXcY8j7oHLXyiclDUJ3myc9USj8tfibBKwRa2TR4O9Iw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU选型指南_images\img_002_df48d372543a.png)
 
 [**MCU选型**](https://mp.weixin.qq.com/s?__biz=MzI4MDI4MDE5Ng==&mid=2247500196&idx=5&sn=9a33d2b9d5d56e734004d8f468a9b880&scene=21#wechat_redirect)时就要综合考虑MCU需要完成的功能、成本、交期、各类端口的数量、存储空间、可移植性、器件等级、功耗、电压等多种因素，满足近期需求，以及今后的拓展的一些功能。
 
@@ -24,7 +24,7 @@ MCU是电子产品的核心部件，对于这个器件的选型一定要慎之�
 
 **MCU初步筛选是时，最好是软件工程师和硬件工程师以及器件工程师一起讨论**，硬件工程师提供所需各类端口的大致数量，产品要实现的功能，应用环境等等。软件工程师根据这些信息选出三四款合适的芯片，然后元器件工程师根据芯片的成本，交期，品质等信息最终选定一款MCU。  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/U8odMdLACJmLLPrLgIDtN0sp7RiaVOLCOoDUCGSFdYIY8UuyWX1fPpApwn2F7gzgcnrZdo69XOiciasjuiaE01LGrw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU选型指南_images\img_003_fdb2a268abc7.gif)
 
 在这个过程当中，硬件工程师提供一份各类端口的数量清单，软件工程师需提供一份MCU引脚分配图表，以供硬件工程师使用。
 
@@ -38,7 +38,7 @@ MCU是电子产品的核心部件，对于这个器件的选型一定要慎之�
 
 上拉、下拉电阻的选择，通常可以选择1K~1MΩ之间的电阻，封装可以根据产品的尺寸，以及端口的电流值选择0201，0402，0603，或0805的封装。如端口用的是内部上拉或下拉电阻，电阻值通常是几百欧，在低功耗的产品中尽量不要使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMznauL7WAxicBnAPiaciaeyIcTulopXMcZBwNAtAlhgCPmiaicA48FNbQ2Lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU选型指南_images\img_004_2bc5f1e34808.png)
 
 输入输出电压的高电平通常就是电源电压，低电压通常就是0V。对于输入口来说，如果高低，电压不分明，需做整形后再提供给输入口，输入到输入口的信号电流值不能超过输入口所能承受的电流范围；对于输出口来说，小功率的负载，尽量是选用低电平驱动。
 
@@ -54,7 +54,7 @@ MCU是电子产品的核心部件，对于这个器件的选型一定要慎之�
 
 根据产品的类别及其应用环境，选择MCU的等级，工作温度范围。如产品用于汽车类产品，尽可能地使用汽车级芯片，工作温度范围-40度到125度。根据产品销售地，选择认证范围，如CCC认证，UL认证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMIicLG7Vo4EM2avRJoR27YFGHgsSIWHokL6YZAma8Qbbhqmvyu1GuSvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU选型指南_images\img_005_55fa14fd3eae.png)
 
   
 

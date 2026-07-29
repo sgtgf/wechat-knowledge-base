@@ -1,0 +1,58 @@
+# 售出Flender后，西门子再瘦身，或剥离大型传动应用业务
+
+原创 电机新视界 2021-11-15 09:31 undefined
+
+> 原文地址: [https://mp.weixin.qq.com/s/4xRe1A9PxL43zk7TZfhMpg](https://mp.weixin.qq.com/s/4xRe1A9PxL43zk7TZfhMpg)
+
+**点击蓝字**
+
+**关注我们**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+
+**来源：网络 侵删**  
+
+  
+
+**西门子集团或再剥离大型传动应用业务。**
+
+日前，据德国媒体披露，西门子准备寻找潜在的合作伙伴或是出售大型传动应用事业部(Large Drive Applications，下文简称LDA) 。一旦此举成行，西门子全球有7000多名员工受到影响，其中约有2200名位于德国本土。
+
+报道称，西门子集团基本已经确认要进行分拆。据集团发言人称：“我们现在决定将LDA的业务活动划分为独立的法律实体。我们希望赋予该公司更多的自主权和商业自由，使其能够更加专注于其市场和客户。”该公司拒绝透露该业务的财务细节。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd57EbVUxPGOLWziaIicPfJzgCl81VfRbHgJmzgwkVAOUO0nO1aAHCc9T2lnKjShSb8psLzJbZLwic6Gg/640?wx_fmt=jpeg)
+
+西门子官网截图
+
+据其官网介绍，西门子大型传动应用事业部主要涉及设计、生产适用于中压和高压系列的大型电气传动系统：电机、变频器和发电机。此外，西门子还为船舶、矿山和钢厂提供专用的大型传动设备。
+
+完成出售旗下传动技术公司Flender
+
+2020年10月，凯雷投资集团宣布，同意以20亿欧元从西门子（Siemens AG）收购机械传动和电气传动行业具领先地位的企业弗兰德（Flender GmbH）。
+
+今年3月，西门子表示已完成向凯雷投资集团（Carlyle Group）出售弗兰德（Flender），企业价值为20.25亿欧元（24.1亿美元）。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd57EbVUxPGOLWziaIicPfJzgCwrM6GqzRtHH8qX1zSsLLUrmoMrh0bkgfib8e3XzJwB6Tv6uN6ycWDfw/640?wx_fmt=jpeg)
+
+Flender是西门子旗下的独立机构，是全球领先的传动技术公司，产品和服务组合非常广泛，包括适用于各行业的变速箱、联轴器和发电机，在风能领域重要性正在凸显。弗兰德全球员工约8600人，业务遍及包括亚洲在内的35个国家，2020财年的销售额预计为22亿欧元。
+
+Flender于2017年10月从西门子机械驱动装置分公司“Mechanical Drives”中脱离。该公司位于博霍尔特，主要生产线圈和联轴器，其他服务还包括系统的维护和升级。
+
+Flender隶属于集团的投资组合公司旗下，除传统系统业务外，该投资组合公司还涉及西门子物流，商用车等其他五块业务。西门子于2005年以10亿欧元的价格收购了Flender。早在2018年初，就有传言称西门子将出售该传动系统子公司。
+
+或售出更多投资组合公司业务
+
+过去几年中，西门子一直在进行重组，将医疗业务Healthineers和能源业务Siemens Energy剥离上市，并出售较小的部门，例如在去年十月以20亿欧元的价格将传动系统子公司Flender出售给了财务投资商凯雷。
+
+今年2月，西门子寻求出售其交通信号灯和其他道路交通控制系统业务。几位知情人士向媒体透露，智能交通系统(ITS)部门的出售流程于今年夏季开始。
+
+据悉，西门子可能会任命一家投资银行来管理此次交易，但也可能会选择自行组织交易。业内人士表示，此次交易的ITS部门的估值可能在5亿至6亿欧元（约合6.04亿至7.25亿美元）之间。西门子发言人不愿对此置评。去年11月西门子宣布将ITS部门分拆为一家独立的公司。
+
+此外，根据莱茵国际的消息，西门子可能被剥离的投资组合公司还包括提供行李和邮件分拣系统的物流子公司Siemens Logistics。据业内人士透露，西门子目前正在对物流子公司进行部分出售的新尝试。据悉，出售信件和包裹分拣机可以带来50亿欧元的收入。
+
+西门子的邮政和机场物流解决方案部门Siemens Logistics也是被列入出售名单的“投资组合公司”之一，一旦旅游业从新冠病毒大流行造成的低迷中反弹之后，该部门有望进行出售。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd57EbVUxPGOLWziaIicPfJzgCHDch4fE6xfUT2fVOG1ltTVsicsRZpd6YJ97tKNlbicmrvQWX4uolOnng/640?wx_fmt=jpeg)
+
+在西门子集团内部，“投资组合公司”拥有约15400名员工，贡献了约32亿欧元的销售额。除了大型传动应用和物流业务外，投资组合公司还包括西门子商用车公司（作为公交车和挖掘机等电动商用车的传动系统供应商），以及机械系统和组件公司，后者负责Sykatec品牌下的钣金加工业务。此外，法雷奥正考虑收购其与西门子的合资企业——Valeo Siemens eAutomotive中，后者所持有的股份。
+

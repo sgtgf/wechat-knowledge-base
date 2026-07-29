@@ -18,25 +18,25 @@ EMI抑制方案有许多组合，包括滤波器组合、变压器绕线安排�
 
 在常规单级EMI 滤波器电路中，如图一，有共模噪声滤波器 (LCM、CY1与CY2) 与差模噪声滤波器 (LDM、CX1与CX2) 分别形成”LC滤波器”衰减共模与差模噪声。共模电感通常以高导磁锰锌 (Mn-Zn) 铁氧体 (Ferrite) 制成，电感值可达1~50mH。共模电感器，如图二，由于绕线极性安排，虽然两组线圈分别流过负载电流，但铁芯内部磁力线互相抵消，一般不存在铁芯饱和的问题。常用的铁芯有环型 (Toroidal)、UU型 (UU-9.8、UU-10.5等)、ET型与UT型，如图三。为了获得足够的共模电感值，要尽量让两组线圈的耦合达到最好，所以多采用施工成本较高的环型或一体成型的ET与UT 铁芯。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxcpZGbA6kemibnzpUNmDLdTeNIe8mNt1YoS7AK1PSlLJU25vxuiaNBCicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_002_d63a4274716e.png)
 
 图一、常规EMI滤波器结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxw0kwZdBT1JricWuzh5zYYgZdEhQ5pMVXrA7blEtyAKSK3gD2194Lfvw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_003_aa30708b1d46.jpg)
 
 图二、共模电感器
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjx3ZS7bmk4Nfzoac8icZdeeK880lr18sQU98WdVEvWuwL4udN0prWiaB5w/640?wx_fmt=jpeg)图三、共模滤波器(a)环型(b)ET型(c)UU型(d)UT型
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_004_327e92846b20.jpg)图三、共模滤波器(a)环型(b)ET型(c)UU型(d)UT型
 
   
 
 从共模电感的工作原理与等效电路来看，如图四所示，双绕组的共模电感虽然有很好的耦合，但是还是存在漏电感，漏电感就是由漏磁通造成。这个漏电感在等效上串联在电路上，功能上与差模电感无异。所以可以说，共模电感器的漏电感可以利用来做为差模滤波器。然而如图三所示的共模电感器，由于机械结构的关系，其漏电感都很小，约莫在数mH到100mH。如果要得到更大的漏电感，只有增加匝数一途，如此一来，线径变细，电流耐受降低。要改善只有增加铁芯尺寸，当然也增加了滤波器的体积与成本。许多要求极高共模电感的应用，其实不在滤除共模噪声，而是要得到较大的漏电感当差模滤波器用，只是许多工程师不甚清楚罢了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxWRy2icoiaKnDDXic1icDmVLPgTbUUjGxpAv1iantqfWdH7vug9veNCwhia0w/640?wx_fmt=png)图四、共模电感器的等效模型
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_005_9600248a9965.png)图四、共模电感器的等效模型
 
   
 
@@ -44,7 +44,7 @@ EMI抑制方案有许多组合，包括滤波器组合、变压器绕线安排�
 
 信号。实验证明混成式共模电感器不仅具有很好的滤波特性，低成本与小体积更是最大的优点。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxibazxwUjybiaxiczyLAKFewuUrKTG3L8n152Nk1WEc7dJh1GlG5hibhk7Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_006_ab34393278de.jpg)
 
 图五、立式与卧式混成式共模电感器  
 
@@ -57,13 +57,13 @@ EMI抑制方案有许多组合，包括滤波器组合、变压器绕线安排�
 
 (1)共模阻抗 (Common-mode Impedance, ZCM) : 相较于电源阻抗稳定网络 (Line Impedance Stabilization Network, LISN)的高频等效电阻 (共模为25W)，滤波用的共模阻抗越大越好。除了铁芯材质外，绕线的方法(槽数)更影响高频阻抗的高低。图六为共模阻抗的量测法，图七为ASU-1200系列共模阻抗特性图。由于绕线的层间杂散电容 (Stray Capacitance, CS) 存在，高频时将变为电容性；CS越小越好。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxa9dbzNG8DkfiboRZ9dS87pKOibAck1pp4AKRB05XwLlX6GfSwMRxuXlA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_007_a476b083f563.jpg)
 
 图六、共模阻抗量测
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxHJLcficxe0aolPriamJA0l4u1kMFttPt1cDU8LSrPJcNv8B56ydzETzA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_008_0b4b9dd18a21.jpg)
 
 图七、ASU-1200系列共模阻抗特性图  
 
@@ -73,13 +73,13 @@ EMI抑制方案有许多组合，包括滤波器组合、变压器绕线安排�
 
 (3)差模阻抗 (Differential-mode Impedance, ZDM) : 同样的，量测等效差模阻抗的方法如图八所示，用差模阻抗特性图 (如图九)来定义差模滤波的效能；相较于LISN 的等效电阻100W，差模阻抗也是越大越好。当然高频时一样会变成电容性，但只要阻抗够大，一样有滤波的效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxjeYzbVMc28N7FkqFMDCmhkWmFHJJHWfl4nZsc1dfBEqAkTyDQfibtsg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_009_db0507548048.jpg)
 
 图八、差模阻抗量测  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxcaO8BbeG7QXPITKytib6Kf0R3LOxm8ObAZPFCaTsF8iaN3KrAZOa6prQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_010_54b3c182cc1e.jpg)
 
 图九、ASU-1200系列差模阻抗特性图  
 
@@ -89,11 +89,11 @@ EMI抑制方案有许多组合，包括滤波器组合、变压器绕线安排�
 
 (5)差模饱和电流 (Isat) : 如前所述，因为等效差模电感必须流过负载电流，在负载电流的峰值下，差模电感不能饱和，否则其滤除噪声的能力将降低。图十为一般桥式整流滤波电路的输入电流波形。必须确保在最大电流峰值下，差模电感量没有因饱和而下降。传统上，以电感值衰减20% (相对于没有直流偏置) 为其差模饱和电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxlib5kScI4lGrPFENqkeC6UU5liacyTpklDHN7kzy9uLeDkAJb7NnqcuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_011_ecf2d0a8d101.png)
 
 (a)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxToibnNYVpibEGKeD4racMib1ApOVsZ1lW9kibibOnk6hhHOnBRZA1CqRVoA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_012_d0a09b073a43.jpg)
 
 (b)
 
@@ -186,13 +186,13 @@ ASU-1206
 
 混成式共模电感器，简单说就是一个传统共模电感与一个(或两个)差模电感的混成。在应用上，EMI工程师必须选定需要的共模电感、差模电感以及相关的差模饱和电流与承受电流。ASU-1200 系列混成式共模电感适合应用在25W到50W的Flyback 电路或120W以下PFC 电路。图十一为两种应用混成式共模电感器的Flyback 电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxTaiaVHBk3McCogCjBgEv2MPQ4PpiakiczpyegNX4mptKTlPmz5N2BQlJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_013_7ec275ed625f.png)
 
 (a)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxicSmc4VEmAlnvwszQecQa9zegh5maq4UOiaKlAjzImSXZ5F1KMnialfAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_014_4abf7ba427e6.png)
 
 (b)
 
@@ -202,7 +202,7 @@ ASU-1206
 
 图十二为应用在临界导通模式 (Boundary Conduction Mode) 主动功因改善 (PFC) 电路的滤波器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxgVusL22y3eCBUOZXvELpYFd4D7iaGPd0TvSV5fcic84Ys7ib0WDys1TCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_015_f7ea696a6501.png)
 
 图十二、应用于PFC电路的混成共模电感器
 
@@ -210,25 +210,25 @@ ASU-1206
 
 图十三到图十五为应用ASU-1203混成式共模电感器在一个24W (12V/2A) 的离线式Flyback 电源中EMI 的表现。明显地可以看出这种共模电感不只有效的衰减共模噪声，同时其差模电感也大量的衰减差模噪声。整体而言，装有ASU-1203 的EMI 表现，在中低频段约有30dB的衰减。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxV9pCrvJfXRgiaSomBZyqiaiaUhHCdphjRqnfJYn0c7LncsgD3qcJpFEeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_016_659862a62532.png)
 
 图十三、共模噪声衰减 (蓝色曲线为装有ASU-1203 的共模噪声量测图)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxyBZ2UfERsFJ8ajArm1vX3kl6WrQNHscy3aC2WkkX6Wdnu0ACTYA32w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_017_ff55ef534297.png)
 
 图十四、总噪声衰减 (蓝色曲线为装有ASU-1203 的总噪声量测图)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaLHicPibhLtZxkA1lTt8RJjxbmOFwcF4scaicElMjZ9sOWSCJIm5D8Zt2CtjMicbtjWvNk9PlSbtR2WQ/640?wx_fmt=png)图十五、差模噪声衰减 (蓝色曲线为装有ASU-1203 的差模噪声量测图)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_018_8eaeec93fe01.png)图十五、差模噪声衰减 (蓝色曲线为装有ASU-1203 的差模噪声量测图)
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_019_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_020_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_021_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_022_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_023_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_024_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_025_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_026_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_027_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_028_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_029_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_030_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_031_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_032_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_033_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何快速解决传导型EMI问题__images\img_034_3c93e54afedf.gif)
 
 ## 
 

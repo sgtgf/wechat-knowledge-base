@@ -10,7 +10,7 @@
 
 示意图如下
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIcMj9GwEkok4u7vG31rxGSBulwicynygg2Q7uejLbXj6MplMuIjOwMTeibCUE9iaW5iaia1Uw4hvO4q9w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么在芯片电源入口VCC串一个小电阻__images\img_000_f82c2a709ceb.jpg)
 
 具体分析:
 

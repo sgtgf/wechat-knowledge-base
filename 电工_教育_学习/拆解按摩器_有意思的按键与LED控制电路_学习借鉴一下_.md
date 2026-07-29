@@ -26,7 +26,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgeTib58xb2JVubibLD7PCSLLcmtHsFib3FJbKJ3YHJgyHQmluSiajWdQuicQ/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_002_96dc905ac0b6.jpg)
 
   
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgEljqTBbHm9A9ia58dicz3fDm23LE8HXmE6M1kL8W8WianBrQDDXOkOZeA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_003_cb6a8b6fc9ab.jpg)
 
   
 
@@ -42,7 +42,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgU9piaSRUEaM5JPRe6cIYLHcRN6ujmNCZs3E8MXcCx463hib8Ashrmzmw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_004_7c2163403717.jpg)
 
   
 
@@ -50,7 +50,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lga8BbibVNTLqCUupfpwlm8YXic006ribNFjTvQzzKmnBww515Uy5iaXYqpg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_005_0e611cc755b8.jpg)
 
   
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgRI6LgnzVibs04RODtLPJgs051AgKeRkWFneibds4AlcJj5NCGFCm1MHA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_006_ecd6fb25f879.jpg)
 
   
 
@@ -66,7 +66,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgYDz9hHiaSjja2Q79fSn1jsRbhemicSob2M8K2kmRho397NyeNlLtibTRA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_007_14be1bb37194.jpg)
 
   
 
@@ -74,11 +74,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgjVXBUgrzPRGdBcskiaMCMMiby5Y8pfrqnlp74KrpicDd7EsXKevHiaARbw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_008_121a934f5fa0.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lg9VxB7wzAbS0ibK2kXyoQZ4sTsgh01J8Yq4twEEPccPiaNRKPVsxSUibvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_009_10cc49d9c828.jpg)
 
   
 
@@ -86,7 +86,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgnwDpara4AeoPyhyQvqSn3nyDm8zDJyNcEzOxJKxdhSpic96GjN3kNGA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_010_ab6fee35aead.jpg)
 
   
 
@@ -94,7 +94,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lg7kXO3Hbcr7iaIt5IXJOiaVHSrIHCqMUfnzf2iaT3AibGQz81Yc7ldMSehw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_011_a771306ad6c5.jpg)
 
   
 
@@ -102,7 +102,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgGAQxHGAv2udDYOGkeYRYK5nfqrQsjnYicneJNfyCAib7NzkEtMaY7u2g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_012_9b6f6f07b125.jpg)
 
   
 
@@ -112,7 +112,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgUpTHvFRGL78qWbNpqYNVq7k8u0DOKJEqSgPjymP5cNXdYWx4a2l6xg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_013_6767fdbc4cb0.jpg)
 
   
 
@@ -122,7 +122,7 @@
 
 使用丝印J3Y的S8050三极管控制MOS的开关
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgtRE8arnqUjxGU14X2O8EiaZJC6NfCpSAib77Nv29k7nB2x9HzCY5dVibQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_014_a1fdaeb5c36a.jpg)
 
 丝印BE的是 12V单向 SMA瞬态抑制二极管，做MOS的续流用。
 
@@ -145,7 +145,7 @@ M7的二极管防止电压反灌
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgFndr5t9qnl4eiaXBt0n2zQTAJo7n6k7Llnac2WBIA4H7SFvibQaQKiciaA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_015_e23d575a1efc.jpg)
 
   
 
@@ -161,7 +161,7 @@ M7的二极管防止电压反灌
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgrMxAlWAPlQoJcvwiaiaRfPczr9wOH39XfFPqkmILF5icq7l7TxGmxiaQUQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_016_cee83d95702c.png)
 
   
 
@@ -175,7 +175,7 @@ M7的二极管防止电压反灌
 
 上面两个双色LED这种方式控制，还有一个充电指示LED单独控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgia3eh2ypScQ9ibJhXAZo5Js3E8H7ry7ziaAia22gLGT9s1l5P25TgTGOAw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_017_2b40ceab0c83.jpg)
 
   
 
@@ -183,7 +183,7 @@ M7的二极管防止电压反灌
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfmZBWwgkMUTsbmwlK0cK5lgQGreMNdhcxzuIDTHs9JeqG5X0UEMicWlwbQdIzYiaZEicf3HRtnuX4pEQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_018_666331a9d311.jpg)
 
   
 
@@ -197,9 +197,9 @@ M7的二极管防止电压反灌
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_019_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_020_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_021_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_022_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_023_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_024_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_025_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_026_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_027_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_028_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_029_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_030_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_031_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_032_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_033_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解按摩器_有意思的按键与LED控制电路_学习借鉴一下__images\img_034_3c93e54afedf.gif)
 
 ## 
 

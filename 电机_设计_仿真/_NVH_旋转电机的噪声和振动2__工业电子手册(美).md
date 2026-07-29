@@ -13,7 +13,7 @@
 原文摘自美国《工业电子手册 功率电子和电机驱动___》第二版__，第9章。_《The Industrial Electronics Handbook  POWER ELECTRONICS AND MOTOR DRIVES 》  
 __
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyjnicUyYV1ZSGqbLvWgNLM6qUXxCEgRgbpWg4M8kffX9xy7feltQoGjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_000_d8318d1494d7.png)
 
 本篇为原书9.3节的翻译，主要内容是电机气隙中磁密、力波和振型、案例。
 
@@ -32,7 +32,7 @@ __
 3.  **径向麦克斯韦力**。磁路气隙中磁通的径向分量产生一个力Fm，倾向于吸引定子和转子。单位面积的幅值
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRwPkeH2IwAyDm2hHzYEBE7GbcYgT7ZSf89RWkgqcfyNMPKnicLhfUYHA/640?wx_fmt=png&from=appmsg)b为定子内表面的一个给定点处的磁通量密度，  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_001_5004cdecbe59.png)b为定子内表面的一个给定点处的磁通量密度，  
 μ0为真空磁导率（4×π×10−7 H/m）。  
 这些磁力主要作用于定子产生变形和振动。由于转子具有较大的刚度，因此其变形较小；此外，它的表面最小。然后，转子的振动不会被考虑用来估计磁噪声。气隙中的磁通密度包含一个基波分量和谐波，
 
@@ -53,27 +53,27 @@ __
 
 让我们考虑一个p极对电机。磁通密度b可以表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRS75xFfk7uGyVJickrEtyxY6W4CyFhQ8bp694iaANcPGd2fhhSVAlEciaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_002_817d2ccdaf8c.png)
 
 谐波bh，其极对数为hp，可以写成
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRjHEgDuWA5wzKXTQQRqBjhSBic7Zj9L1hu4A8OGhQiaz1mHv8bib4BoiaZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_003_010093d3a37f.png)
 
 幅度bh，角频率ωh（频率fh）和相位角ψh是h的复函数，对于给定的h，ωh可以取多个值。气隙中任何一点相对于固定定子参考的相对角度表示为α。结合（9.1）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRyYVRiattfcltDeJmDkVz2fohUT5XD5qMsKsibDwRr0L8HJYUd5jLp7WA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_004_b22671769f74.png)
 
 为了表达fmM，我们引入一个具有h'p极对的磁通密度分量，这使得可以区分不同的项。它变成
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRMv982gEIaDVVMcfLzXERgMGy8n7rkicAvZEjiaiaTcjwzvbkp4NHvrSpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_005_c2a1bd5bb622.png)
 
 考虑到第二项（双乘积），h'和h必须取所有值，但h不能等于h'。可以推导出
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRKV8OXo08gQf60YVHd0nicGoCPvt7JD8rrTwLl0Nqxj74ClOhaXQu2eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_006_f7403be57a57.png)
 
 首先，一个平方项产生恒定压力。fˆhM：fˆhM=bˆh2/4µ0.这个量不产生噪声，因为只有非稳态压力分量会产生磁噪声。让我们注意到fmM这样的成分，其具有以下一般形式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRSRP20T5GQcib68oKlGN22xPia39gewJwnFibRgxhibQaicLcs5pbW1Xwiasg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_007_0d65d34593f5.png)
 
 其中
 
@@ -101,11 +101,11 @@ fˆmM是力分量幅值（N/m2）
 -   对于 **m≥2**，转子和定子之间的最大吸引力点导致具有2m极的定子变形，其旋转角速度为ωm/m。图9.11显示了m=2和4时的变形。变形幅值与m4成反比。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFR12vSnwpWm5FNShyXicJwgL6WU67oZ1Nv3SVSOXLkBZaFKHw3OlaRrNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_008_820612b30a93.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRQ0rPyYGLP0uKJtlANMcS9SN6BSLicSQI4HKqBAIV8LBicelexP2ypDcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_009_6fc26f63147a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRlTtZKZibiaER0eBa4FG2ibSgL19YWe3Zdcn7Dp48k3tHN00giaClWt7H4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_010_e53266b22edc.png)
 
 ### **3.3 示例**
 
@@ -121,7 +121,7 @@ fˆmM是力分量幅值（N/m2）
 恒定压力取数值：f^hM=97,500 N/m2，f^h′M=5 N/m2。  
 方程9.5和9.6导出表9.1中给出的数值，这些数值描述了非稳态力分量（不考虑相角）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRBlXPMp4UPgD4xY4eAvtoVv3tsW9bdWQZHwcJ9xuHnGvdZqFTIu00vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_011_3d5ee271e625.png)
 
 5N/m2的fˆmM分量可以忽略。100Hz频率的力具有高幅度，可以产生振动，但因为其频率对人类耳朵来说较低，所以不会产生太多噪音。最后两个项的1400N/m2幅度会产生噪音，因为它们的幅度足够大、频率可听且模数（0和6）较低。考虑由b^h产生的恒定压力fhM（97,500 N/m2）。由于所考虑的电机具有0.118 m的内半径和0.16 m的铁芯长度，定子内表面积为0.1186 m2；结果是11,560 N的径向力作用于定子。由于额定速度为950 rpm，额定扭矩约为150 N，产生切向力接近1270 N。因此，径向力远大于切向力，允许转子旋转。
 
@@ -129,23 +129,23 @@ fˆmM是力分量幅值（N/m2）
 
 考虑一个三相，p=4的同步电机，工作频率为50 Hz，PWM频率fw=3 kHz。目的是定义涉及5900、6000和6100噪声线的m值（见图9.12）。定子电流分析显示主要的5950和6050 Hz三相谐波电流，分别为顺时针和逆时针系统（此类逆变器的经典结果）。每个产生四个密度波，其中最重要的分量对应于基波项，因此是一个四极对波。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRNMNkdAicZzfFP7OXmEJukrOmhxmavSYfhvqTMWhmaHgbu0kal0bibo6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_012_1eb68660a7c9.png)
 
 图9.12 使用3 kHz PWM逆变器供电的电机在1 m处的声压级（dBA）。
 
 让我们引入，如对h′所做的那样，一个类似的量，记为h′′。让我们仅使用以下定义的三个分量来定义b：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFR1m1I4IoLOOFia4icCCqciagsUwm8iasnq8QaSzcH73m4kNqwiccPXicmVOXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_013_3bee4f5ab6e6.png)
 
 可以推断恒定压力：f^mM=97,500 N/m2,f^h′M=f^h′′M=9.75 N/m2。
 
 由平方项产生的f^mM量具有以下特征：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRxIQ7zh0RFZTG1cBicZticOk9gakBbJSqnVb1icKia8svVznam6pT9BamCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_014_042048d56fd8.png)
 
 由双积推导出的f^mM分量一起列在表9.2中。可以看出，5900和6100 Hz的压力波是0阶。6000 Hz分量是一个m=8阶；它通过添加两个压力波获得。观察到的噪声线可能由表9.2中的压力波产生。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFR2SHHFPZ1DafEoIkUJSzsOvPJHRWOOlwp9dUL4btmUAOq5ia7xicG5c1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_015_f0ed750d0395.png)
 
 表9.2 使用PWM逆变器供电的电机的压力波
 
@@ -174,4 +174,4 @@ _
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动2__工业电子手册(美)_images\img_016_ff45e776e079.jpg)

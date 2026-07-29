@@ -26,35 +26,35 @@
 
 用于对比的器件的主要参数如表1所示，图1为输出特性测试电路。SiC MOSFET的驱动电压设置为+20V/-2V，Si IGBT的驱动电压设置为+15V/-5V，驱动电阻RG均设置为10Ω。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bZNrl8YJ2zfrXSO0cj4H7bg59O3MvOa9SvNg1UAqgnlNpk3C3GVlDSQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_000_57b93722d81d.png)
 
 SiC MOSFET和Si IGBT的输出特性测试曲线如图2所示。因SiC MOSFET的跨导较小，其饱和区和线性区的拐点没有Si IGBT清晰。SiC MOSFET的导通压降随着电流的增大逐渐上升，而Si IGBT的导通压降需要达到一定值时，Si IGBT才能够开始导通。在负载电流小于10A时，SiC MOSFET的导通压降比Si IGBT低；在负载电流大于10A时时，SiC MOSFET的导通压降比Si IGBT高，若将SiC MOSFET和Si IGBT并联使用，则可以根据负载电流大小动态调整导通的功率器件，以获得全负载范围内的最低导通损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bWdXHFrh3L22uaqtagwhPDgQbyO2B3Nnt8BXicCkNwuZU6Ye3PjuDseQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_001_d1d837901ca9.png)
 
 为研究驱动电压和结温对SiC MOSFET输出特性的影响，实验中在+20V、+18V、+15V 的驱动电压下，在结温为25℃、50℃、75℃、100℃和125℃下对SiC MOSFET的输出特性进行了测试，同时测试了不同结温下Si IGBT的输出特性。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bvH0icVWDwNS3OciaaicN1t1lN4orR6LTsnN9U7kZiagnL19LHd0XVwU4pA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_002_0a92b58ff1f3.png)
 
 图4给出了+18V驱动电压下，SiC MOSFET在不同温度下的输出特性曲线，可以看到，随着温度的升高，导通相同的负载电流时，器件的导通压降上升，即导通电阻增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bibsBNsCy6JBp0kYRT3RachaFgbyX3hvO8JVWXbnPsXjSq7wSor9gq6A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_003_a05495f48f86.png)
 
 图5给出了常温下SiC MOSFET在不同驱动电压下的输出特性曲线，可以看到，驱动电压升高，导通相同的负载电流时，器件的导通压降下降，即导通电阻比较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bYcN4TcM8KHnJx9nGLicL6UkicFlQrpZF3IibfRpQme3A89B38numxzpeA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_004_104f6a46189e.png)
 
 图6给出了在导通10A负载电流时，SiC MOSFET的导通电阻随温度的变化，在+20V驱动电压下，从25℃上升到125℃,SiC  MOSFET的导通电阻增加为25℃时的160%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bE9oVDGNUgDAMpCynaXvDbkibDAeiaINJUhYB1t4U6EKLO69ASsTASKPg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_005_86cd8216048e.png)
 
 图7给出了+15V驱动电压下，Si IGBT在不同温度下的输出特性曲线，可以看到，随着温度的升高，导通相同的负载电流时，器件的导通压降上升，即导通电阻增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999b1xJAQKMauB7VKHPKukA56jW9e5n0AGJhttL5HwiatepauSPib3IzXYUA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_006_e65aafe51fb3.png)
 
 图8给出 了在导通10A负载电流时，Si  IGBT的导通电阻随温度的变化，从25℃上升到125℃,Si  IGBT 的导通电阻增加为25℃时的120%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bCxewv6l8QV8t5qNzKDkpy3VSFUUW7cnckZCRyBsuGhLYgRQ1brnpRA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_007_597074ef58d6.png)
 
 通过上述对比可以看到，Si IGBT相比SiC MOSFET而言，导通电阻随温度的升高变化较小，具有较高的温度稳定性，这与器件本身导通原理有关。因此，在温度升高的情况下， SiC MOSFET和Si IGBT的输出特性曲线相交点的电流值更小。
 
@@ -62,25 +62,25 @@ SiC MOSFET和Si IGBT的输出特性测试曲线如图2所示。因SiC MOSFET的�
 
 开关特性的测试采用双脉冲电路，其原理图如图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bTsmF7NxguJscnKZZRyStFqcor01wGHBIwuGiafENCCibwefLic0ibTu9oQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_008_62c3a62706f0.png)
 
 二极管D采用SiC肖特基二极管SCS210KG。为全面对比SiC MOSFET和Si   IGBT的动态特性，本文在多种工况下对开关特性进行了测试。其中，直流母线电压Vpc分别为100V 、200V 、300V 、400V 、500V 、 600V,  负载电流分别取为5A 、10A 、15A 、20A。测试中，利用示波器获得器件的开关过程波形，测量开通关断期间电压电流的上升下降时间，计算开通、关断损耗。
 
 图10给出了室温时600V 输入电压下，SiC MOSFET和Si IGBT的开关特性测试结果，驱动电阻均设置为10Ω,可以看到在相同的负载电流下，SiC MOSFET的开关速度比Si IGBT有着明显优势。图10(d) 中 Si IGBT的关断过程中电流下降时间较长主要是由于其关断过程中的电流拖尾现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bo2MOMKad2XQPiaD2icDJBKB2qabzoe2pDg4eq7jBaT5yvG6yk3ibABp4w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_009_2442d262d759.png)
 
 图11给出了SiCMOSFET和Si IGBT的开通关断时间随着负载电流的变化，在读取开通时间时，采取从电流开始上升到电压下降到零的这段时间；读取关断时间时，采取从电压开始上升到电流下降到零的这段时间。对于SiC MOSFET而言，随着负载电流的增大，会造成整体开通时间的增大；而关断过程中，负载电流的增大带来了关断时间的上升。对于Si IGBT,其开通关断过程时间和SiC    MOSFET的变化规律基本相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999buE6YxywiaBgmKhOkeDw3M5dhnF3ic1g8OTNrIZNEMOM7yuMuHwQGpAicg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_010_2e9bfe734f3c.png)
 
 图12给出了SiC MOSFET和Si IGBT在600V 输入电压下，不同负载电流时的开关损耗的对比，两者的开关损耗都随着负载电流的增大而增大，但Si IGBT的开关损耗始终大于SiC MOSFET,且随着负载电流的增大，损耗的增大更为明显。在混合并联中，可以通过控制SiC MOSFET的延迟关断时间，从而实现Si   IGBT的零电压关断，避免Si IGBT关断电流拖尾造成的损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bK97wpF8sStveEAxkf9eDcmKOHhpHa1gKBkZWz8Fa3j8OnPU3hmibYUg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_011_2eca5c11adff.png)
 
 图13给出了不同输入电压下开关特性测试结果，SiC MOSFET和Si IGBT的开通过程电压下降时间和电流上升时间都随着输入电压的增大而增大，关断过程中电压上升时间增大，而电流下降时间减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bmt58NJ5dsQb5weqibgV0FWus6zhPeaFuCs0bfj76MMwrx9ic2N8WkB6A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_012_d3315bd3fc48.png)
 
 3 .不同因素对器件开关特性的影响
 
@@ -88,11 +88,11 @@ SiC MOSFET和Si IGBT的输出特性测试曲线如图2所示。因SiC MOSFET的�
 
 图14中给出了600V/10A时，驱动电阻分别取为10Ω、20Ω、30Ω时，SiC MOSFET和Si IGBT的开通关断波形的对比。SiC MOSFET和Si IGBT的开通关断时间随着驱动电阻的增加均有所增大，在Si  IGBT的关断波形中可以看到明显的观察到电流拖尾现象。SiC MOSFET的开关过程中门极电压、漏源极电压、漏极电流波形均有比较大的振荡，而Si IGBT的开关波形更为平稳。SiC MOSFET关断时没有拖尾电流则是因为MOSFET为多子导电的器件，没有电导调制效应；门极电压波形振荡是因为SiC MOSFET的开关速度很快，漏源极电压变化率很大，米勒电容快速地充放电并产生较大的充放电电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999btsbdeNFHfpliaBNQZ86iaTRxmeYqmvdJXYeH9nINUXtDwJ8NwUS9vXog/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_013_8b21e3e2555a.png)
 
 图15给出了SiC MOSFET和 Si IGBT的开关能量随驱动电阻的变化，开通、关断以及总的开关能量均随着驱动电阻的增大而增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999b9xvhFm9ibSibHUIEhxRsJscmGSnjzWic471WDa41WYnQbDkISrzFrGicxw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_014_5664509e095b.png)
 
 3.2 驱动电压对器件开关特性的影响
 
@@ -100,29 +100,29 @@ SiC MOSFET和Si IGBT的输出特性测试曲线如图2所示。因SiC MOSFET的�
 
 图16给出了器件开关特性随驱动电压变化的测试波形，可以看到，随着驱动电压的降低，SiC MOSFET的开通过程均有所减缓，关断过程基本不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bRiciaPyqUocUNGIMge9HprDwdCYUtqCUZTsGeJ67byXMia9QeE4Nj4VEA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_015_b4bac8c0f2d5.png)
 
 图17给出了不同驱动电压对器件开通、关断 即总开关能量的影响，开通能量随着驱动电压的增大而减小，关断能量基本不变，总开关能量也随着驱动电压的增大而减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999biaCBsy8CcqWIO4UPPEO0R6wJH1icxPlRTiaRhfzDiby89qHucrfWGNoBDg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_016_fb13d87801b5.png)
 
 3.3 结温对器件开关特性的影响
 
 器件开关特性的测试条件为600V/10A,   测量的温度点为25℃、50℃、75℃、100℃和 125℃,测试条件见表2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bUJKCU2NXuCLYtzUzY9Twv7ic75gClCjHCoLyQMFOx4x0ArSL9dPLRcA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_017_e1d309e8452d.png)
 
 图18中给出了SiC MOSFET在25℃、75℃和125℃的开关过程波形，并且对波形进行了叠加，标出了温度升高或者降低的方向，温度的上升，带来了开通过 程中电流上升时间和电压下降时间的减小；关断过程中，温度上升带来了电压上升时间的增长和电流下降时间的减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bcApqkUIa19GfDSKOOkskjiaKTFUmfBzzTtldyrlgb6z8ZV3qbh3kOjQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_018_bd49743890dd.png)
 
 图19给出了器件开关能量随温度的变化，开通和关断能量都随 着温度的升高有所增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bFpbPQbQUWTP0E6ZpWy4Gwegmy9FuXqpgDyrwJ9neZuU9dyxHPiaAYZw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_019_8251fbc47ac3.png)
 
 Si IGBT的开关过程类似Si MOSFET,其跨导随着温度的升高而减小，因此开通关断过程都由于温度的升高而减慢，开关损耗增加。图20、21中给出了不同温度下的开关曲线， 以及开关损耗能量随温度的变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnyicI0mALvRCfWwgzq999bAjmjmHYYMX7LGm1iarXVzE0cVc43mblOS90ydEbKb7CjvnOJ5RQKickg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_020_892bbb02cd6f.png)
 
 4 . 讨论
 
@@ -136,7 +136,7 @@ Si IGBT的开关过程类似Si MOSFET,其跨导随着温度的升高而减小，
 
 (4)混合并联器件定额和个数的选择：在相同的电流定额下，由于SiC    MOSFET和Si  IGBT开关速度和导通电阻的不同，器件定额的选择及并联个数的选择都影响着混合并联开关工作过程中的各器件的工作状态，需要对混合并 联器件的定额及个数比例进行优化设计才能够实现混合并联开关整体性能的最优。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnyicI0mALvRCfWwgzq999beD4Cz4GnOHPpd6LhV4mfHR202xjCBicavLWBQMPLZNx6pC0QxauBnMw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_021_5fa8786e308c.jpg)
 
 5 . 结论
 
@@ -144,10 +144,10 @@ Si IGBT的开关过程类似Si MOSFET,其跨导随着温度的升高而减小，
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_022_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET和Si__IGBT的对比研究_images/img_023_3ade3c3d8599.jpg)![](SiC_MOSFET和Si__IGBT的对比研究_images/img_024_84aa944feb13.jpg)

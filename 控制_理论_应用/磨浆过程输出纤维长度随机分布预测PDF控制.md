@@ -6,7 +6,7 @@
 
 磨浆过程作为制浆和造纸工业最为重要的生产环节之一，其输出纤维长度随机分布形状直接决定着后续造纸过程的能耗和纸品质量.针对传统的均值和方差难以描述输出FLSD特征，即具有非高斯分布特性，本文提出一种磨浆过程输出FLSD的预测概率密度函数控制方法.首先，采用径向基函数神经网络逼近输出FLSD的PDF，在采用迭代学习方法完成基函数参数整定基础上对相应权值向量进行估计.其次，针对权值之间存在强耦合特点，利用随机权神经网络建立表征输入变量和权值之间关系的预测模型.最后，基于建立的输出FLSD模型设计预测PDF控制器，最终实现对期望输出PDF的跟踪控制.基于工业数据实验验证了所提方法的有效性，为磨浆过程优化运行和控制提供理论依据.
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHeUrhOWrXZM2icwQphY8t3aRAHNrcecedHGUK0oMAodgAABW5bMx7Z0A/640?wx_fmt=gif)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_000_668bfd09b31d.gif)
 
   
 
@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XH3WVO6QcO8VtFpD0tXNpTDpsy5GAJD4YzfVm8lGXMzteXtE1T32RI6g/640?wx_fmt=png)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_001_d43b1dbf6fd1.png)
 
 图1. 典型磨浆过程工艺流程图
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHYRCUXLu8ibtRBjYNial5WDNINX5lev2qG3ib1nribUwySHxn3tOpBqrmgg/640?wx_fmt=png)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_002_b77d1a903871.png)
 
 图2.磨浆过程输出纤维长度随机分布预测PDF控制结构
 
@@ -40,13 +40,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHrlqDGQtuicY407sibnBNk3VCAEPAufzoGSlHWmj4beaxqicn4tNfx9IGw/640?wx_fmt=png)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_003_997fc6ad1995.png)
 
 李明杰，东北大学流程工业综合自动化国家重点实验室博士研究生. 主要研究方向为复杂工业过程建模与控制，随机分布控制。
 
 E-mail:limingj88@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHrflp1qvDqTjZ3k9b8O4c9FpVo4vatO6vicQmoUAlbzq1SDUlSibmoXDQ/640?wx_fmt=png)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_004_5524866038f7.png)
 
 周平，东北大学教授，博士生导师，分别于 2003年、2006 年、2013 年获得东北大学学士学位，硕士学位和博士学位。主要研究方向为工业过程运行反馈控制, 数据驱动建模与控制。本文通信作者.
 
@@ -144,21 +144,21 @@ E-mail: zhouping@mail.neu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHt8hJylPRMJAK7X3sYLV1dx4b35LhQKwkBmdaT1F2icfGrZGwTWctaHw/640?wx_fmt=png)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_005_d749d2d91157.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHjGdd0RnOh35aqgzyJvzaz4kJqBt0UicbzdrOnZgyYdnDxQSXBSnLIOg/640?wx_fmt=jpeg)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_006_0b23736c81de.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHt8hJylPRMJAK7X3sYLV1dx4b35LhQKwkBmdaT1F2icfGrZGwTWctaHw/640?wx_fmt=png)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_007_d749d2d91157.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHHYF3OIYyUhibjqZekkFSnnicVJDUQPNljeDjGwny5NkMDKanFNObKr7A/640?wx_fmt=jpeg)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_008_16cddd8af5a5.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHt8hJylPRMJAK7X3sYLV1dx4b35LhQKwkBmdaT1F2icfGrZGwTWctaHw/640?wx_fmt=png)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_009_d749d2d91157.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qUHJPY2tpu67h4ZmvX0XHRlDs742JBBS2NsUKGICP3DaTUAWrLrSr3ACXg3GicvkU7DiapQfqqc5w/640?wx_fmt=jpeg)
+![](磨浆过程输出纤维长度随机分布预测PDF控制_images/img_010_0415eddf36ef.jpg)
 
 自动化学报订阅号
 

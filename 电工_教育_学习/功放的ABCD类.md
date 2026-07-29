@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/L9GbeyyUot0JYyQdYoWGxxxQ4A6Td3pXJ8jfZWMz7Zge6VMXibibvs489B2z5YrtNqUgMQ9UnnIKsbJmvLzr0aibA/640?wx_fmt=jpeg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_002_07c34e31af57.jpg)
 
   
 
@@ -30,7 +30,7 @@ A类扩大是音色还原度最高的一种放大方式，同时效率也非常�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqrSrqCIibVRkTicv27JMUcWznRo0Ty6Xibd8S2bY2KXO7OQspiarUVMejqw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_003_560f74f3fe3d.png)
 
   
 
@@ -42,7 +42,7 @@ A类扩大是音色还原度最高的一种放大方式，同时效率也非常�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqA8Pias6KbYq2ia9Td2RvaGRQ4ybBibHIGgd8U2bIbo8CMCcY4OYtNSO1g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_004_412291398fb4.png)
 
   
 
@@ -54,7 +54,7 @@ ClassA放大器怎样才能获得最大输出信号
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqYMe0Tycg9O3jSx4S5N8RB3ZcvMk3YvuDnaEJTypP7zibdgx1dhWqUXg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_005_aa40272e0398.png)
 
   
 
@@ -62,7 +62,7 @@ ClassA放大器怎样才能获得最大输出信号
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqEvzU7ibj4X8AnpHrYkQiaczTbYNfozfFj9axiaJuf85R4PU8uRP7GBeFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_006_63a2ba50c112.png)
 
   
 
@@ -70,7 +70,7 @@ ClassA放大器怎样才能获得最大输出信号
 
 如图所示是其中一种ClassA放大器：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqa0HxVVdACyLFiawSiaNcCIlHlUgVXfXgt445U6ibZTHhRUVyWP9HyIDDw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_007_43fcfe5668c3.png)
 
   
 
@@ -84,7 +84,7 @@ ClassA放大器怎样才能获得最大输出信号
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/L9GbeyyUot0JYyQdYoWGxxxQ4A6Td3pXw7UuwMOBkdvHFYFa81TEaqRVfS9rooVhv9PYaJWtTg8vDgO2hWWmhw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_008_3904add6a18b.jpg)
 
   
 
@@ -96,7 +96,7 @@ ClassA放大器怎样才能获得最大输出信号
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeq24r1eFnPKU2PafL4dy3uP6rf41qlpDScf6xg73ond1Y9dRehickDVqw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_009_5ccc836ea8d0.png)
 
   
 
@@ -104,9 +104,9 @@ ClassA放大器怎样才能获得最大输出信号
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqYtvLMJFJYnJsH0uv7kzAbfJq5LetO9LE0hARPlgn9IRTeAU5hslrPA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_010_3ab63c1c57cd.jpg)
 
-　　![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqrnib45hAtA0efA16ZCL6teQfLicdG0juiaJkwxfQThI2OSNcjkNveWXGQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+　　![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_011_efa5dc574005.jpg)
 
   
 
@@ -126,13 +126,13 @@ B类放大器的晶体管只在半个周期或者说正弦波的180度内导通�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/L9GbeyyUot0JYyQdYoWGxxxQ4A6Td3pXzWQAt5hnIk5pF7y2Qv7fxmvj9vBCLwlYk3BtqQHvrElDib2uYMD9KFQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_012_a7c567b06646.jpg)
 
   
 
 和B类放大一样，AB类放大也有两个输出放大器分别处理正波和负波，不同的是输出放大器导通的时间大于B类的半个周期，在音量小时用A类的放大方式，音量大时使用B类的放大方式，因此能够有更佳的线性度，让交越失真(Crossover Distortion)的程度小于B类。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeq7qYXUBp1yYLlsjv3uibiaByadHKhibXLDEyaqoibBNn7ibFDibMRC1wVpwyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_013_4be70b9c4ac6.jpg)
 
   
 
@@ -140,7 +140,7 @@ B类放大器的晶体管只在半个周期或者说正弦波的180度内导通�
 
 AB类放大器电路设计考虑了两个晶体管T1和T2。晶体管T1为NPN型，晶体管T2为PNP型。两个正向偏置二极管D1和D2串联连接，以控制VBE(发射极-基极电压)由于温度变化引起的变化，如下面电路图所示。电阻R1与D1串联，电阻R2与D2串联。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqtA3xZZq9wJ1FymrjtZKfgLrhUAFEMicfaXv5fvR268QsI5WgypTvtvg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_014_e2b2c52f1fe2.png)
 
   
 
@@ -158,11 +158,11 @@ AB类放大器电路设计考虑了两个晶体管T1和T2。晶体管T1为NPN型
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/L9GbeyyUot0JYyQdYoWGxxxQ4A6Td3pXCwTekp6eTMLgtS87SEicSoSE611OblLxB0kCMXUkticGsbUWu3SrSbKA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_015_53c952853144.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqicib0kH6WVNg2GWHnmLKJPgRVStbX8QFD8OfRqEVhYz2Akqw3akybxicg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_016_689f551297b0.jpg)
 
   
 
@@ -186,7 +186,7 @@ D类功放的运作原理比较特别一些，使用从模拟波形讯号和开�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqMI8BBvJC7TXMJXbMK1HRSo0yTW3zRcsddTEcOFtY2xiaVWFAVrQSPVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_017_7de57bb3b940.jpg)
 
   
 
@@ -194,7 +194,7 @@ D类功放的运作原理比较特别一些，使用从模拟波形讯号和开�
 
 D类的优点在于有非常高的效率(约90%)，高效率也意味着不会有过多的散热需求，机身也能做的更轻巧。虽然早期的D类声音表现较差，但技术的进步也让他的音色越来越优异。D类功放常用于耳机扩大器、地板型音箱头等便携型的产品。
 
-　　![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ewiaKibzhXCHPCzgaL1IuiazuQNDfQukAeqgEmPIgl2GfEaZW8IjcyU4SGCepAibo4R56vqTiaU96HHgZYlVdMsdG7g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+　　![](D:\电脑文件\公众号知识库\电工_教育_学习\功放的ABCD类_images\img_018_d1d39302edd3.jpg)
 
   
 

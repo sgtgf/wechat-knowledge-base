@@ -25,7 +25,7 @@
 
 [Nature综述 | 物理信息神经网络 (PINN)【5千引用】](https://mp.weixin.qq.com/s?__biz=Mzg3MTczOTkxNg==&mid=2247484683&idx=1&sn=da9179cb6009e525da3d99695d9d20b9&scene=21#wechat_redirect)  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/MVPvEL7Qg0GnB0HoAz6et8CCnxyj1ZuTbibLicgffRjlcMdVIdN51jg8QUEWdeDSfJYJ6p3qeJQdGMo4rpVa2jPA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_000_276492946b3e.gif)
 
 **一句话让大模型生成PINN代码！**
 
@@ -37,7 +37,7 @@ Prompt
 
       请使用pytorch生成利用PINN求解一维热传导方程的代码，一端为Dirichlet 边界条件，一端为Neumann 边界条件，且包含可视化结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIrSmRicxCCGcbibRYAqc4K8drsydLhiaSKicPj2tEnNB3npymHyRLtTMmstw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_001_166c475bfc8e.png)
 
   
 
@@ -115,17 +115,17 @@ Prompt
 
 **1\. Loss发展趋势**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIrNUlEH5ajzoKTwyaH0AmlVib7C9ViaJk9g47580aG1pppicvkaZKTkBjmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_002_e3033c2ef274.png)
 
   
 
 **2\. 热传导计算结果**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIrRF2qNdIItfh6picLmXzOd9vXE6IMiaBchDIxSAb3hDC2ybHK3uhTU6ZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_003_23565489151c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIr0tuIQuZTm2yeIPhHRRh3YdN71er2icAdTAAQ35rm3R2lesEocvbVoZg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_004_5b11dda4d756.png)
 
   
 
@@ -133,7 +133,7 @@ Prompt
 
 除此之外，在DeepSeek的回答中还贴心地提供了撰写代码时一些常见问题的解决方案，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIrTXiaOeQoiazKoibuXibaurTExk7Csias8A98Jstb9JHorH6RUXUMF9vlvdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_005_8a923ad80ddf.png)
 
   
 
@@ -151,7 +151,7 @@ Prompt
 
 **思考结果：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIrmLibKVYRky8ClDezZEGbWUNvHnJI3Oyeic9aTfkzKiacibklhET7ia04Cqw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_006_7550f37b22e4.png)
 
 **代码生成结果：**
 
@@ -161,13 +161,13 @@ Prompt
 
 **1\. Loss发展趋势**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIr1tmnHxboGxeEObmG9wwot389icGvwsylsEgJTscgUNz3zRrRBGHgWPw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_007_c8328e4e0ca6.png)
 
   
 
 **2\. 热传导计算结果**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGyPn3cXgDUJJiaQibmmSOhyIrgHNuicUbSR8y8P61MsAA0ZeAhUIOUlDGDjVugO8uWTHXiaLlHdaWicyzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\DeepSeek和GPT无需编程用PINN解瞬态问题_images\img_008_7abcabcc2667.png)
 
   
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/gMh7pboIFb0dm4JdaXAggQ](https://mp.weixin.qq.com/s/gMh7pboIFb0dm4JdaXAggQ)
 
-_____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZAa7wzutzJibIqwiaTRfbFFG60icKzY9RKUBVq9OrgNw09sGMWpUJIqBSQ/640?wx_fmt=png&from=appmsg)**_____
+_____**![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_2_SAW_images\img_000_ff0aea1da2e5.png)**_____
 
 _____**★★★**______FILTER-2---SAW______**★★★**_____
 
@@ -13,7 +13,7 @@ ___€1.工作原理___
 
 SAW滤波器应用广泛，技术成熟，它横向传播高频波。如**_图2-1_**所示，利用在石英、钽酸锂 (LiTaO3) 或铌酸锂 (LiNbO3) 等压电基板上创建的交错金属叉指式换能器 (IDT)，将电输入信号转换为声波。SAW滤波器速度慢， 可用于适应极小器件中穿过IDT的许多波长。SAW通常由压电材料制成的基片以及烧制在其上面的梳状电极所构成，基片常用的材料有石英、铌酸锂或钽酸锂等压电晶体。梳状电极又称为叉指型换能器（Interdigital Transducer，IDT），分为输入叉指换能器和输出叉指换能器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlReCIaSs40lXuZFFrWL5farCCdDHH1mnhmoZj3CRK4bvP1J0Hxq64juBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_2_SAW_images\img_001_155a9d986605.png)
 
 **_图2-1：SAW构型_**
 
@@ -35,7 +35,7 @@ _温补SAW_
 
 在诸多SAW技术创新中，有一种温度补偿SAW (TC-SAW)，这种类型的SAW使用热补偿层来避免热漂移，如**_图2-2_**所示。由于具有更高的温度稳定性，其性能要优于标准SAW。与传统的基于SAW的滤波器和双工器相比，TC-SAW器件集成在单晶铌酸锂上，且将IDT电极埋入二氧化硅 (SiO2) 层中，提高了TCF和品质因数。要在SAW上采用温度系数，需要将叉指式换能器 (IDT) 与任何环境温度变化隔离开来，要实现这种隔离，需要使用SiO2层覆盖SAW结构，有时候还需要额外的氮化硅层，如**_图2-2_**右侧所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTudQdwUfia9iazzrwZjtkXIDHNfwc0WNWCWw1OlErH3krFvficPsrem1EdGGiaeAKazO9R6hlHDUs8tQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_2_SAW_images\img_002_37f1d6d72568.png)
 
 **_图2-2：SAW与TC-SAW比较_**
 
@@ -45,13 +45,13 @@ _多层SAW_
 
 在基板和功能层之间增加一层，例如SiO2， 如**_图2-3_**所示，我们将这种类型称为多层SAW。多层SAW在传统的SAW基板结构中，声波沿表面传播，在电极下达到几个波长，体声波辐射模式则是出现在基板深处。这会导致体声波泄漏，使Q因数、TCF和耦合降低。降低这种泄漏的方法之一是创建一个新的多层结构或是创建TC-SAW的变型，如**_图2-3_**所示，在压电层和功能层表面以下增加这个额外的SiO2层会提供一个重要益处：将在表面传播的SAW引入压电层和功能层，这会将声学能量限制在表面附近，从而改善TCF和Q因数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTudQdwUfia9iazzrwZjtkXIDSqCMMGutuX9G6dotlISoc4wcGXZlBPJZdzJ9MuFlxZZKTGK6YNrbDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_2_SAW_images\img_003_fc0d3b19b2e9.png)
 
 **_图2-3：多层SAW与SAW的比较_**
 
 多层SAW的性能要高于标准SAW滤波器，在有些频段中，多层SAW的性能能媲美BAW滤波器，多层SAW技术以分布在隔离器上的压电材料为基础。在多层SAW中，热补偿机制直接来自基板，而不是源自电极表面。**_表2-1_**比较了各种声学SAW RF滤波器技术的不同特点。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZZt4IJTthfNu8TAmzM89OuOXjDxQ14p1GyB0u0zXOriaqkskSIsq4MYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_2_SAW_images\img_004_9cd5c4c1f173.png)
 
 **_表2-1：各种SAW比较_**
 

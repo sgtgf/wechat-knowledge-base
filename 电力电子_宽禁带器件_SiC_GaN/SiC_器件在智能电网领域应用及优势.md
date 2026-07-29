@@ -5,7 +5,7 @@
 
 智能电网是未来电力系统的发展趋势。在当今能源需求日益增长的时代，智能电网已成为推动能源转型的关键因素。在这场革新的浪潮中，**SiC**器件凭借其独特的性能优势，正逐渐成为智能电网领域的强大推手。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQrEljwQicr0D5Ge6qm5UV3ia6B6OQdf4LU88p6ufZflxg7fvSNnFoahfA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_器件在智能电网领域应用及优势_images/img_000_63d5280d55be.jpg)
 
 **一、SiC器件在智能电网中的特征和优势**
 
@@ -17,7 +17,7 @@
 
 **2、SiC器件具有高温、高电压和高频率的特性，可以在恶劣环境下稳定运行，增强了智能电网的可靠性和稳定性。这对于确保电网的安全、可靠运行至关重要，特别是在分布式能源、可再生能源接入和智能家居等领域的广泛应用中。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQZzyp1vEpETXiaRicgv93SH2AfvGanzhGwlf5icrJuFnzRVSO16v3qZzicw/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在智能电网领域应用及优势_images/img_001_562efc79b935.png)
 
 优势总结：
 
@@ -31,7 +31,7 @@
 
 1\. 低压配电网柔性调控装置
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQgzbaiaeAng6XsHleNDByEKxY9CCOeQf7obnXMpTQQbr2WLgDXcaeNXg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在智能电网领域应用及优势_images/img_002_a4a04284f5c1.png)
 
 应用场景：解决分布式光伏高渗透率导致的电压越限、三相不平衡等问题。
 
@@ -45,7 +45,7 @@
 
 2\. 构网型储能变流器（PCS）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQ4YPHdq3pSIWKIaLX1QZoZpciagnRLOyNhMp4UTibJVSQJ8ngmC4UvGsA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_器件在智能电网领域应用及优势_images/img_003_ba2bfbefe897.jpg)
 
 应用场景：储能系统并网/离网切换、电网调频及稳定性增强。
 
@@ -59,7 +59,7 @@
 
 3\. 高压直流配电与固态断路器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQQvKia5YHN1FoWv6ljIJgMqvj6icXwAty24S9xA3icK2lE393r92XhKWGA/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在智能电网领域应用及优势_images/img_004_53f98d565479.png)
 
 应用场景：光伏电站、储能系统的高压直流（1500V及以上）配电保护。
 
@@ -71,7 +71,7 @@
 
 4\. 可再生能源并网逆变器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHWGPVXZjSRsQUwIY7JiacQQOsMSbzvmpG13gvdZghoD3ovticPp39gaNzzYDBREDiaf9l7qytDUJ4Q/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_器件在智能电网领域应用及优势_images/img_005_57d905710fc3.jpg)
 
 应用场景：光伏发电、风电并网系统的高效转换。
 
@@ -123,13 +123,13 @@ SiC MOSFET在智能电网领域的应用正从“示范项目”向“规模化�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_器件在智能电网领域应用及优势_images/img_006_80a84da559fb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_器件在智能电网领域应用及优势_images/img_007_b6e0b6fba87c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_器件在智能电网领域应用及优势_images/img_008_018eedab2a70.png)

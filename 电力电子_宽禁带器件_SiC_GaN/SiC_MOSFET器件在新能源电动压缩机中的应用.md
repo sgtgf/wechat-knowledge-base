@@ -9,7 +9,7 @@
 
 **1.电动压缩机介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHrdlOEZdejsVtTEL7TdPD6X37E45f0ynty9p06Dl6akJ0CZDiaju36CKlv6Z2RuWgTI443nrwCgmEuQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_000_13bceac2b046.jpg)
 
 ▲电动汽车空调压缩机内部结构图
 
@@ -17,13 +17,13 @@
 
 电动压缩机是电动汽车热管理的核心部件，除了可以提高车厢内的环境舒适度（制冷，制热）以外，对电驱动系统的温度控制发挥着重要作用，对电池的使用寿命、充电速度和续航里程都至关重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmq7KmsVDS5OCjT5mVxasZ1K1v3gibYATTFicNGhY7xK37GfNf7Xviawty7jiagoukv3lJ2HTDT0C1UjA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_001_6ab64af9acc1.png)
 
 ▲电动压缩机是电动汽车热管理的核心部件
 
 电动压缩机需要满足不断增加的需求，包括低成本、更小尺寸、更少振动和噪声、更高功率级别和更高能效。这些需求离不开压缩机驱动电路的设计和优秀器件的选型。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmq7KmsVDS5OCjT5mVxasZ1icdibhMCylhlOq8xKULnLxur0gamwzkWROyWpyBgItqwGSXllTV9SY8Q/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_002_3024a50239fd.jpg)
 
 ▲电动空调压缩机示意图
 
@@ -49,7 +49,7 @@ SiC MOSFET器件以其高频特性优化了空调压缩机的设计，使得外�
 
 @更好的热特性：更高的温度范围
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmq7KmsVDS5OCjT5mVxasZ1XpQuoyF4q5zmEYb1FJeWEUY9vPn5WUucVt8bZZOvX3916WmmH58AXQ/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_003_e6bbb8f1e93d.jpg)
 
 （2）更小损耗及更高效率
 
@@ -57,17 +57,17 @@ SiC MOSFET器件以其高频特性优化了空调压缩机的设计，使得外�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxCg0hTNCrTyXKgYYvx1qoHpVZxVPjsHKS8AiaibFs63H829232RiahibTiaUAEVLm8dVIAdFVN95kiaYnbiaQ/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_004_6c3a08302ac5.png)
 
 ▲400V电压平台IGBT方案和SiC MOSFET方案功率器件损耗对比
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxCg0hTNCrTyXKgYYvx1qoHpVy6Uzuq7cic7VEjlquIjE42MSWR2hziccwrT3KzLuDjJRxq92SIMUdruA/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_005_699372f7ee1d.png)
 
 ▲800V电压平台IGBT方案和SiC MOSFET方案功率器件损耗对比
 
 使用相近电流规格的IGBT和SiC MOSEFT做了效率仿真，在最大功率下，SiC也可以有效提高系统效率，尤其在高频应用中更加明显。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdlOEZdejsVtTEL7TdPD6X3AfbNbLQ4FrIh5LzUjLVheic4Qk7p48Mm8dXlqNFVxDibRhdMOo952JGQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_006_b7488031727b.jpg)
 
 ▲碳化硅基与硅基控制器效率对比
 
@@ -75,7 +75,7 @@ SiC MOSFET器件以其高频特性优化了空调压缩机的设计，使得外�
 
 SiC MOSEFT是单极性器件，没有拖尾电流，开关速度比IGBT快很多。这也是SiC MOSEFT比IGBT更适用于更高频率应用的原因。而更高的驱动频率（比如20kHz或以上），可以有效减小电机的噪音，提高电机系统的响应速度和动态抗干扰能力。另外，更高的频率也会减少输出电流的谐波失真，并能有效降低电机中线圈的损耗，进而提高压缩机的整体效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmq7KmsVDS5OCjT5mVxasZ1tkEFmvpn8v8OnPficMFrWicicHsLr6wmVHq9VrjRgRBnXjmbWdv7wxWWg/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_007_093eb5bfe854.jpg)
 
 （4）减少死区时间  
 
@@ -87,7 +87,7 @@ SiC MOSEFT是单极性器件，没有拖尾电流，开关速度比IGBT快很多
 
 2022年，美的工业技术旗下威灵汽车部件率先推出全球首款量产的800V碳化硅12000rpm高转速电动压缩机。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/mdOmUIXCgUwYb7A5LsAlkCsEpaDFiaIsmLZarGn7yNBHhTJ1W2leUibeDJW9dnACqrEcN1kcK8D0kpViaZbwsRnPA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_008_3f4e89bb8d8d.jpg)
 
 ▲美的威灵汽车部件800V碳化硅12000rpm高转速电动压缩机
 
@@ -95,13 +95,13 @@ SiC MOSEFT是单极性器件，没有拖尾电流，开关速度比IGBT快很多
 
 麦米电气旗下麦谷科技也推出“宽温域高效热泵电动压缩机”，涵盖34cc、47cc排量以及400V/800V电压平台。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxCg0hTNCrTyXKgYYvx1qoHpV9NWykt3a87XzN0IhjMcm73UlzrhlAuvgDmp6BJJLo2wpBVcd9PBgFw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_009_45ae8b381deb.jpg)
 
 ▲麦谷科技宽温域高效热泵电动压缩机
 
 海立新能源也推出800V超低温热泵电动压缩机。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/BQMnFTm9BbD79IHOOULlicNh5Sx54FOLc7iaHdibeA8WQLEFlm1Z0Mz2RGkwWOU3qmt68cZDbcIR2v6dMwLhbQiaNw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_010_b2910d27b9df.jpg)
 
 ▲ETH45 45cc电动压缩机
 
@@ -115,7 +115,7 @@ SiC MOSFET器件在电动压缩机方案，有SiC MOSFET单管和三相全桥模
 
 在电动压缩机上，选用电压1200V，内阻30毫欧-45毫欧-80毫欧的产品较多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmq7KmsVDS5OCjT5mVxasZ1MDkkSFkhCzuYFBMyYreAMcmyZQiaHngEsJzlDC5yScXR7s0yMqX1FGQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_011_ccf26c94c073.png)
 
 ▲SiC MOSFET产品表
 
@@ -123,7 +123,7 @@ SiC MOSFET器件在电动压缩机方案，有SiC MOSFET单管和三相全桥模
 
 碳化硅功率模块在空调压缩机中的应用具有较小的反向传输电容Crss，带来较低的关断损耗Eoff，在车载空调压缩机方案中尤为突出。与传统硅基材料相比，SiC MOSFET在高电压平台下具有更低的导通和开关损耗，尤其适合800V及以上的高压应用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreCDDL6x4Oia8UquMNEPwZY5ib93Fb5BUmVTRMjbzvncnbvg8oPYuX9yu1Sx16EeWLgT9Y9kpR1VVzg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_012_f2a4cdd788a8.jpg)
 
 ▲耐压1200V、导通电阻80mΩ、可支持30A电流的D21系列碳化硅功率模块，产品型号为：ASC30N1200D21，尺寸为42\*23\*6mm
 
@@ -161,17 +161,17 @@ D21碳化硅模块模块利用其三相全桥拓扑结构，按照一定的规�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdlOEZdejsVtTEL7TdPD6X3WzBkEsKEmrEK3luyslPbpxMiaIPicDxkc8YfLNCnZwqfefT5vYw4p0mw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_013_6c22eca027c3.jpg)
 
 ▲1200V/80mΩ D21系列碳化硅功率模块参数
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdlOEZdejsVtTEL7TdPD6X3oJlPdumgHzpILYFkX8sAejZUS9L2AROicbZ7xfb1ljibibr1fZPcy2k8w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_014_726eb5bdbcf1.jpg)
 
 ▲1200V/80mΩ D21系列碳化硅功率模块电路拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdlOEZdejsVtTEL7TdPD6X3WWHo1fCJTT7LaS6eMXp4x9a1hdyPiaZ32cSuA9ssADCtEjms4IK8FCw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_015_9f6fe29924a1.png)
 
 ▲1200V/80mΩ D21系列碳化硅功率模块引脚图
 
@@ -203,10 +203,10 @@ D21系统碳化硅模块与IGBT的比较优势
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_016_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_017_3ade3c3d8599.jpg)![](SiC_MOSFET器件在新能源电动压缩机中的应用_images/img_018_84aa944feb13.jpg)

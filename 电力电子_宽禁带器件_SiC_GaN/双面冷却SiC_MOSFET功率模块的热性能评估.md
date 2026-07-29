@@ -10,43 +10,43 @@
 
 co-author:Daniela Cavallaro, Marco Papaserio
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicOoc6zFmvh7SK684eyTdHV3hu3jmQXg4zHDnrrGvicTFcTHyibByy93RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_000_44c7b9f2d658.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicMrMRrIpnvmD2akcBiavEDia3ia3KNKkd9pMpYlEe8gSRUn43iagX9QrM7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_001_18c0a28c9883.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopiceZ02YX2FnPyBuq3iblfTnuVzw2krYnRkaeFMntVlMSZNkJJ70JRhrQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_002_5d9aabc7a4a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicAzp2XFbu6wGg99iaBibiaiaaNzVTC2taibUHYzky7SdAdjK863350PKFb2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_003_1e1268b8a806.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicMNF4YVba0S90HtsJPgjblSbsy4x6nkdDdSzP6jmOODibZickeePBZATA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_004_58911d7153f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopich0fo5ZdQWr8r9LJcoLvs92ohtyL1FE7CLgdAdC1qb9GgtgFe30h2AQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_005_a9b1ffbd5a8b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic4ibn1DpQibasaRjerEJlqAicGD8M7SUMnzdsAMg8gLe4UJVCU4xMeC39g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_006_5a978290efe7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicCR6TbwbWkpRicIKFvTI7gF2NdpItNEzpUaYfL34MhBk89L6vE3nGr9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_007_c159595d6a80.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopictTlp6zx6UUDK75RGMJ1pZFTOoOkIum9My96bc2ib6BmiaIlRyI7SBcDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_008_be47f46b5ca1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic8T7b6rGg1UbL6xOwibb5TjBegDX9lkFQFOzGuoRUicic8nEbe33DRqRnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_009_92a601b5a61a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicEVRZxpU0Vg0romXQTWkKtADiauWdva5ggJz8NCgT8d4wnwTicb7Gc9Hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_010_f08dd362e8c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic1VV6IabUwbOojZnIFkRT0cx4XWedVSbhtPDia5clZuSibeibDx7Porfpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_011_2c3bf294fd26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic66c1SibibcmNXH82e7HunLUDicd3y3SVbpwAibkTPye9iaHjGDEkcBbWZrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_012_d4465df3c4d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicT6OBxmYLE7BMyftCibL6ibCQsSgMGzHauLsj4wzlBQM7FL0rQKthpBKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_013_967b533b7e82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicCZf8DATibsyVpwLhfw25Ra8T4NX3ZKibBqr37E46ZY0JuVKhTGtiaicuDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_014_7ab259c540b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicfM9ZbFCGuDwSHYESkBvqkTBIBKP3diahR7AW6mmkb96ic7qrDW1Mf8Gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_015_8df966b9b4ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicFxvB6mg6icOuWgCGdqGbAkjiaafsGkGm79zQ4vzQ6FtfHBZiahhMLxg7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_016_0f5fb5e57e04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic6b2OyelmfTz6EZ8IgLFicJAD9hXrrAK2VrHpY3cEpupHpogicZUvcxUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_017_1b16129abdae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicrWh1jHYIkr7Ch3CtJmOTI3H4Ca6H7icemZG7FNh3snHJA0d8ia9HzRYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_018_446cba456302.png)
 
 注：图片报告与文字无关
 
@@ -248,13 +248,13 @@ co-author:Daniela Cavallaro, Marco Papaserio
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aJ1MUTicI0GuiauhfoebWumUgU1Qu9ic5Xniaicbkyl3gyFlO0cbmDfmBLiaQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_019_fe069fcfb36e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a8crJ2L7M4OX17Szb34FK5JlibMciajPSibAJ2KVAIic8moa4vRiacc5rbCw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_020_bc2989d2aff2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a48flZW0nqjIpO5FVkvY9NUDp0sHzB0BgvVskic0uVzn30TaNKvXUsVw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双面冷却SiC_MOSFET功率模块的热性能评估_images\img_021_3fde635b287d.png)

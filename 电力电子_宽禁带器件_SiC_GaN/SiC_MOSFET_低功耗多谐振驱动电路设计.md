@@ -24,25 +24,25 @@
 
 1\. 多谐振栅极驱动电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318Vj0m7XydNht3T5lutHXsqY4Eib2MGMK1AWwSu7AUY8pAMcrKROpyLKw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_000_627485e579cd.png)
 
 图1( a) 是一个传统的栅极驱动电路( ConventionalGate Driver, CGD) 。 两个 MOSFET 的 S1、 S2 和直 流电源 Vcc通过栅极电阻 Rg 驱动 MOSFET 的 Q, 输入电容 Ciss = Cgd +Cgs。 图 1( a) 所示的 CGD 电路的功率损耗可以表示为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318gsjeE4SzfyHJP6dG5AlBeqDsBP86iaorKNxdrfjgibM3aMicVWKYia1ibMg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_001_0ce835cdbbcf.png)
 
 式中: fs 为开关频率; Vcc 为电源电压; Qg 为 MOSFET的总栅极电荷。 根据式(1), 在高开关频率应用中, 栅极驱动电路的功耗极大。 降低栅极驱动功耗的一种常用策略是使用谐振栅极驱动技术。 图 1( b) 给出了一般的谐振栅极驱动电路( Resonant Gate Driver, RGD) 。电路中一个额外的谐振电感 L 与 MOSFET Q 串联, 与输入电容 Ciss共振, 以降低栅极电阻 Rg的能量损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318pEhP2Rnv6ehyyq3PdeibTu6MnFldYrDct6R9K9jF0DGqXyibww5aOsqQ/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_002_fa36b02246f1.png)
 
 本文提出的多谐振栅极驱动电路如图 2 所示, 谐振元件 Lr、 Lt、 Ct、 Lf 和 Cf 形成一个多谐振网络, 作为方 波 的 基 频、 三 次 和 五 次 谐 波 的 滤 波 器, 并 在MOSFET 的 S1 栅 极 产 生 一 个 准 方 波 驱 动 信 号。 Rg 是SiC MOSFET 的 S1栅极电阻, 输入电容等于栅漏端电容与栅源端电容之和, 即 Ciss = Cgd +Cgs。 R1、 D2 和 Q2用于在导通阶段时对栅极电压进行钳位, R2、 D4 和 Q4则用于关断阶段的栅极电压钳位。 R4、 C2 和 R5 的组合产生 BJT 的 Q1和 Q3 的导通信号, 而 R3 和 C1 的组合为BJT 的 Q2和 Q4提供延时导通信号。 为了实现输入和输出电路之间的电气隔离, 维持电路的稳定性和可靠性,驱动电路的方波信号可以利用光耦合器来产生。
 
 1\. 1 工作原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If3181xlhQ6mV6QUkCuQqcz8zIkzziabUbsDT0lWDjQNgFzpqycceCK0l5SA/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_003_a4ff87d3b8b3.png)
 
 所提多谐振栅极驱动电路中栅源电压 Vgs 波形和双极结型三极管( BJT) Q1 ~ Q4 的开关转换波形如图 3 所示, Q1 ~ Q4按顺序依次导通和关断。 电路在每个开关周期内的工作状态可分为四个阶段, 分别对应了四种电路模态, 图 4 给出了这四个阶段的等效电路图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If3184PqqrM521PUB1eEq3W2YPD21fgu8M8Z5DKNvciaemGTTy5mqyzn6gfw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_004_089990bbc7e2.png)
 
 使用的 SiC MOSFET 需要-5 V 和+15 V 作为其可靠开关的栅极电压。 因此, Vee = -5 V, Vcc = 15 V。 假设最初主开关管 “ S1” 处于断开状态, Q4 处于导通状态, 因此 Vgs = -5 V, Ciss具有初始能量。
 
@@ -56,41 +56,41 @@
 
 1\. 2 特征分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318QfnnA2t9Y0BEInzDOniaE8zO81Ys3VIOqLzYbUmquH3ticrodf7UXwNw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_005_4f600568cb06.png)
 
 提出的谐振栅极驱动器的工作特性主要取决于电路中存在的谐振元件。 图 5( a) 显示了用于分析增益和相位的简化电路模型。 一个理想的方波电压 Vin 驱动一个多谐振电路, 通过 Ciss的电压为 Vgs。 图 5( b) 显示了输出短路时电路的等效输入阻抗电路图。 通过适当选择增益及其在不同谐波频率下的相位含量, 可以调节准方波的形状 。 由光耦合器产生的输入方波信号只包含基频 fs和它的奇次谐波。
 
 基频 fs处的增益表达式为 :
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318OVEDFC2TIk4ic6sHEJLwF34k9zFEq0ibicy3k2rY26W2L4rcLJKtx2RPQ/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_006_17feb0ab9528.png)
 
 式中: Q0为品质因数; ω0为基频处的谐振频率。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318T0qcfkOcQ6KpaoC52xiau8voY368ppLBpSib3HQBXyMibBKXxo6fDhSGQ/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_007_a5cb8fdf1f0c.png)
 
 G1(jws) 的相位为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318DXZ9BMA5vE8ACWbTlsOMBvzFFbiaYJwQHmLXRZz6fxS9K51Kfs2a0Hw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_008_3cd196034cb1.png)
 
 同理, 三次谐波频率 3fs处的增益表达式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318N5PTS6naOVfL9TDTWtnqWeyuEHGP20EYAXnqJW6ghDSaU4N5GnMibjg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_009_c774ad6b0df7.png)
 
 G3(jws) 的相位为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318KTd5es9GzC7eUibJMwmdNjzMlBLF3GeKSyCiaqoVS9icf5p0tZI2Wq1vw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_010_306f4e2d867c.png)
 
 五次谐波频率 5fs处的增益表达式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If3182dOgcfHvviaHN2Vmh3TzkicUul6vBMjefoeq9eRrFyEtWCZfoSZPic3ow/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_011_31a0451015b8.png)
 
 G5(jws) 的相位为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If3187PmfPELOkswjiacj7icWEhUPgYEqQllIEAHGyMgYeib0w3dZDIZ0ib1BwA/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_012_485d6dfae6af.png)
 
 基于式( 2) ~ ( 10) , 可以优化多谐振滤波器网络的功能。 总输入阻抗对电路的高频工作性能起着重要作用, 如果电路在较高的频率是容性的, 那么它将降低电路总阻抗的大小。 因此, 循环电流将增加, 最终导致更高的损耗。 输出短路时输入阻抗 Zs(jws) 的表达式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318boNHjBrFRjdbaNibmWlx7sOPf9ibvFpTa2bibu5ftia9fGpjNRXYgUuia0g/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_013_54ccb0f4304f.png)
 
 1\. 3 元件选择
 
@@ -100,23 +100,23 @@ G5(jws) 的相位为:
 
 电感 Lr和输入电容 Ciss在基频 fs处谐振, 基频选择为 1 MHz。 所选用的 SiC MOSFET 是来自 Infineon 的IMW120R040M1H, 其 Ciss为 1620 pF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318n1DwnSD1LVrmtJbJBwdI1TdjXaEYRjKKRo5RqdW2vMM6EPtmMURjFA/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_014_314822bef60f.png)
 
 计算得 Lr = 15 μH。 Lt和 Lf可别由下式计算:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318e6aJIXQaEPWI2icIhjiaxYplMqdds4E1lQ5NxPL5rqE7HuiaapyP8P2zw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_015_8b56f74867b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318PgM3Cj8iaRUItEnXcMnElWQK6UlIkvZXazg7UbUI2AvqaO40mdMlJyg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_016_6275b27f9652.png)
 
 Ct和 Cf为设计参数, 通常 Ct 取 Ciss/5\[17\] , 这里初始值分别选为 324 pF 和 200 pF。 使用式(12) ~ (14) 得到的值并不满足所有的调谐准则, 需要进一步调谐以实现理想的准方波, 具体值取决于电路中存在的寄生参数。 利用式(13) ~ (14) 计算出 Lt 和 Lf 的值分别为 9μH 和 6 μH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If3189K6aGu7815KaKjuvYDvL7NR3aiazFjlWvTJt5HZorev15SpBKbiclzlQ/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_017_7e0677a4294f.png)
 
 本文使用的仿真软件是 LTspice, 它是一款强大高效的 SPICE 仿真器软件、 原理图采集和波形观测器,为改善模拟电路的仿真提供增强功能和模型。 光耦合器产生的方波为 10 V。 为了产生-5 V 到 15 V 的驱动电压, 需 要 使 fs、 3fs 和 5fs 处 的 增 益 加 倍 或 达 到 6dB 。 用 LTspice 计算谐振网络的增益值, 并使用 Lr、Lt、 Ct、 Lf 和 Cf 的 计 算 值。 仿 真 得 到 图 6 ( a) 和 图 6( b) , 分别为谐振网络的增益和阻抗示意图。 如图 6(a) 所示, 基频增益为 6. 5 dB, 三次谐波和五次谐波增益分别为 1. 6 dB 和 12 dB。 然而, 这些频率的目标增益为 6 dB。 此外, 基频、 三次谐波和五次谐波的阻抗本质上是感性负载, 因此需要更新组件的值。 重新选择各谐振元件的取值后仿真得图 7( a) 和图 7 ( b) ,分别显示了谐振网络的新增益和阻抗图, 各元件的最终值如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318LeuQiatnoVicA3ndXGVu04yhL7FoZlCNb7zBs6FVL9nUkJoNInrPicRbg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_018_728e56adbddd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318BAVKJYnC0WbTMRNbxLDicHWABT61rnOLKvsDusWia8D1BUz8ePG9dLOA/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_019_4ae80e6307d0.png)
 
 1\. 3. 2 钳位电阻
 
@@ -130,55 +130,55 @@ R4、 C2和 R5的组合产生 BJT Q1和 Q3的导通信号,为了避免振荡, ( 
 
 在本节中, 对所提出的电路功耗进行分析。 该电路通过 Ciss 的感应充放电和部分能量的回收, 可以降低所需的驱动功率。 在 SiC MOSFET 导通阶段, 一半的能量存储在 Ciss 中。 在关断阶段, 另一半通过输入电阻耗散, 其中 SiC MOSFET 内部的栅极电阻 Rg 是主要因素。 在损耗分析中, 由于导通和关断时间间隔t1 ~ t2和 t3 ~ t4相对于整个电路工作的导通和关断状态要短得多, 因此只考虑导通损耗, 而忽略开关损耗。 ws处电流引起的栅极电阻 Rg的导通损耗可计算为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318Ix7YApRaJIqkcywwS5I5ibrHD4micFjib37P5sARRRSj56d735yvMsTCg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_020_8a118706c239.png)
 
 式中:V1是基波的振幅。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318ymc6Gkfbj8Ys6Xc6wtKLYxtHIFp24BfqmKY5prrTtdwAr9KeaCrOsg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_021_b16e721bc52e.png)
 
 由 3ws处电流引起的栅极驱动功率损耗可计算为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318NHxyDcEoq0B7Nd28FickicTu1BnP7hhLq5YxqicYiccOIeNWyZoXOjFL5Q/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_022_0a66c9ca5dd3.png)
 
 式中: V3是三次谐波的振幅。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318Jwa9SuDiahVTA11cSmiaq3YgRUaNE5YIA38kOAviclQzRSvFCAJVAia7Kg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_023_3e5070322f9b.png)
 
 由 5ws处电流造成的栅极驱动功率损耗可计算为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If3186OvSQOZQA8mevOQp94KGBClrV9MvNjzF7TRwfsEibuwiccoKicVOicwSRg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_024_325eec8309a8.png)
 
 式中: V5是五次谐波的振幅。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318CiattwicUQ6eGeFg38o5a5A2n6e5rz2fibwhDjBQIPEibyz2NMoxm7CicNg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_025_1973d7c670fb.png)
 
 由式(15) ~ (20) 可得栅极电阻 Rg 上耗散的总功率损耗为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318LPQtnPFX3AkGQLdOEJ8z31dAIQodFITU5ANtDtZrZjOSjibvXLauycg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_026_b5d74c48f0e3.png)
 
 2\. 仿真结果与分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318kOxGtH6Qx2cKrXZRT8o7peANjXUIoXsMAWkztMqfZdnTRASBIxUKpw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_027_46c1d760752b.png)
 
 为了验证所提出的谐振栅极驱动器在高频变换器中的节能效果, 用 LTspice 设计和构建了 DC-DC 升压变换器, 并在三种不同的情况下运行。 首先, 分别采用传统栅极驱动器( CGD) 、 文献\[ 1\] 中的栅极驱动器和所提谐振栅极驱动器来驱动 15 ~ 30 V 的升压斩波电路( Boost Converter) 。 采用国际整流器公司的栅极驱动 IC IR4427 作 为 CGD 电 路, 它 是 一 种 高 速 功 率MOSFET 驱动器。 其次, 再分别用三种驱动器驱动一个 30 ~ 60 V 升压斩波电路的 SiC MOSFET。 最后, 对每种情况下的栅极驱动功耗进行测量和比较。 测试电路示意图如图 8 所示, 实验的开关频率为 1 MHz, 占空比为 50%, 负载电阻值为 50 Ω。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318XX0WqPibkDwtZmXdYddOdb2cOvibHuSQ9WEpaquiafbWvPYoq1s3ibrdvA/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_028_00ba7491940b.png)
 
 图 9 给出了三种电路驱动 15 ~ 30 V Boost 变换器情况 下 的 SiC MOSFET 栅 源 电 压 ( Vgs ) 和 漏 源 电 压( Vds) 的波形。 CGD 电路在导通和关断时分别以 15 V和 0 V 驱动电路的 SiC MOSFET。 而所提 RGD 电路将SiC MOSFET 的驱动信号钳位在所需的正、 负电压水平上, 导通时为 15 V, 关断时为 - 5 V。 图 10 显示了三种电路驱动 30 ~ 60 V Boost 变换器情况下的 Vgs和 Vds的波形。 由图 9 和图 10 可知, CGD 电路的驱动信号是一个 0 ~ 15 V 的方波信号, 而由所提 RGD 电路提供的驱动信号是一个 - 5 - + 15 V 的准方波信号, 这实现了用不等 双 极 电 压 快 速 导 通 和 关 断 SiC MOSFET 的功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318VNO78876icxP5f5ibHT4VMNql2BahGFlrsqI3yGgVzUibAFLgOCmbCkKw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_029_f9d836e2cf70.png)
 
 为说明 SiC MOSFET 的开关瞬态过程, 可从仿真结果中测量 SiC MOSFET 的导通时间和关断时间, 如图 11 所示。 在由 CGD 电路驱动 SiC MOSFET 的 Boost变换器电路中, 放大 SiC MOSFET 的一个开关过程,如图 11( a) 所示, 测量到 SiC MOSFET 的导通时间和关断时间分别为 28 ns 和 29 ns。 由文献\[ 1\] 中的 RGD电路驱动 SiC MOSFET 的 Boost 变换器电路中, 如图11(b)所示, 可测得 SiC MOSFET 的导通时间和关断时间分别为 27 ns 和 23 ns。 而在由本文所提 RGD 电路驱动 SiC MOSFET 的 Boost 变换器电路中, 如图 11( c) 所示, SiC MOSFET 的导通时间和关断时间分别为 19 ns和 15 ns。 因 此, 本 文 所 提 RGD 电 路 缩 短 了 SiC MOSFET 的导通和关断时间, 从而起到减少开关过程带来功率损耗的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318hF3ib69uSt4rF3EWcuyXaibCw6fBic71b5m0ZtnZIA7uCjtV9VGiavQRhw/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_030_c7820ef80595.png)
 
 图 12 表示由三种电路驱动的 SiC MOSFET 的栅源电压 Vgs 和栅极电流 ig 的波形。 由图可知, CGD 电路和文献\[1\] 中的 RGD 电路驱动的 SiC MOSFET 的栅极电流均高于本文所提 RGD 电路驱动的 SiC MOSFET 的栅极电流, 而驱动电压均能达到要求的 15 V, 因此达到降低 功 率 损 耗 的 目 的。 图 12 ( c) 展 示 了 本 文 所 提RGD 电路的可控性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318d7kTd3ibt9h0sKaZsE45Dao426nk3qO8HRcIQTxsmW3HoPY85icu0mXg/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_031_1ea2760b6e81.png)
 
 为了计算功率损耗, 在仿真电路中测得施加到栅极驱动电路的电压和通过电路的电流有效值, 将这两个值的乘积作为栅极驱动电路消耗的功率。 Boost 变换器栅极驱动电路的功耗比较如表 2 所示。 结果表明,对于 15 ~ 30 V Boost 变换器, CGD 电路的功耗为 2. 45W, 文献\[1\] 中 RGD 电路的功耗为 1. 71 W, 而本文所提 RGD 电路的功耗仅为 1. 2 W。 此外, 对于 30 ~ 60 VBoost 变换器, CGD 消耗的功率为 2. 5 W, 文献\[1\] 中RGD 电路消耗的功耗为 1. 76 W, 而对于本文所提的RGD 电路, 功耗为 1. 25 W。 因此可知栅极驱动功耗几乎与系统的功率水平无关, 驱动电路的功耗主要取决于特定系统的工作开关频率, 如式(1) 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If31866eJIovsDRy4mt9qhbMsqLqXZAuNgDzEWNic14OibfbiaZAicWQshUy1nA/640?wx_fmt=png)
+![](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_032_a4117aba8c0b.png)
 
 经过上述分析, 本文所提出的多谐振栅极驱动器与传统栅极驱动器和同类研究中的谐振栅极驱动器相比, 能使 SiC MOSFET 拥有更快的开关速度, 在变换器应用中能更快地趋于稳定, 从而使得 SiC MOSFET具有更优越的开关性能。 此外, 与传统栅极驱动器和文献\[1\] 中的栅极驱动器相比, 本文提出的多谐振栅极驱动器的功耗分别降低了约 50% 和 30%, 这是由于存储在电容中的能量得以回收和电路具有钳位功能。
 
@@ -188,10 +188,10 @@ R4、 C2和 R5的组合产生 BJT Q1和 Q3的导通信号,为了避免振荡, ( 
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_033_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_034_a7ecee98ead9.png)![图片](SiC_MOSFET_低功耗多谐振驱动电路设计_images/img_035_9bbc7b9b15a2.png)

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/grcjhk8Qk\_XNhxxwrncKLA](https://mp.weixin.qq.com/s/grcjhk8Qk_XNhxxwrncKLA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_000_4fecbf19a39d.gif)
 
 ****Research on Inter-Turn Short-Circuit Fault Diagnosis Method Based on High Frequency Voltage Residual for PMSM****
 
@@ -38,7 +38,7 @@ X. Feng, B. Wang, C. Liu, J. Zeng and Z. Wang, "Research on Inter-Turn Short-Cir
 
 Inter-turn fault is a serious stator winding short-circuit fault of permanent magnet synchronous machine (PMSM). Once it occurs, it produces a huge short-circuit current that poses a great risk to the safe operation of PMSM. Thus, an inter-turn short-circuit fault (ITSCF) diagnosis method based on high frequency (HF) voltage residual is proposed in this paper with proper HF signal injection. First, the analytical models of PMSM after the ITSCF are deduced. Based on the model, the voltage residual at low frequency (LF) and HF can be obtained. It is revealed that the HF voltage residual has a stronger ITSCF detection capability compared to the LF voltage residual. To obtain optimal fault signature, a 3-phase symmetrical HF voltage is injected into the machine drive system, and the HF voltage residuals are extracted. The fault indicator is defined as the standard deviation of the 3-phase HF voltage residuals. The effectiveness of the proposed ITSCF diagnosis method is verified by experiments on a triple 3-phase PMSM. It is worth noting that no extra hardware equipment is required to implement the proposed method.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178wFO4MdLubHFJ002bRhHfUOfvwvycMJMdHlZq0tPS9bBdxf4QicyKYLAddxDvibfj8L3Syzz8kWvicw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_001_1c38af22451e.gif)
 
   
 
@@ -48,23 +48,23 @@ Inter-turn fault is a serious stator winding short-circuit fault of permanent ma
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178wFO4MdLubHFJ002bRhHfU8t5J22nJyJPCia9Ahtd3dn4D9LKSKoIicCUWXywUb7eOKVQUEBufORDw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_002_78044c2f1b0c.gif)
 
 **Xiaobao Feng** received the B.S. degree in electrical engineering from the Tianjin University of Science and Technology, Tianjin, China, in 2018 and the M.S. degrees in electrical engineering from the Nanjing University of Aeronautics and Astronautics, Nanjing, China, in 2021. Now he is currently working toward the Ph.D. degree in electrical engineering at Southeast University, Naniing, China.  His research interests include power converters and electrical machine driving systems.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178wFO4MdLubHFJ002bRhHfUbcWWmOjJthXTuuGDmhy0xVd9hXJ2xfnqSQPYvlXm8MGKLj2alS2NnQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_003_9d9230f545a4.gif)
 
 **Bo Wang** (SM'23) received the B.Eng. and M.Sc. degrees in Electrical Engineering from Nanjing University of Aeronautics and Astronautics, Nanjing, China, in 2009 and 2012, respectively and the Ph.D. degree in Electronic and Electrical Engineering from the University of Sheffield, Sheffield, U.K., in 2018.  From 2012 to 2014, he served as a senior engineer in the Delta Electronics Co. Ltd. From 2017 to 2018, he was a research associate at the Department of Electronic and Electrical Engineering, University of Sheffield. Since 2018, he has joined the School of Electrical Engineering, Southeast University as an Associate Research Fellow. From 2020 to 2022, he joined Hong Kong Poly U under the Hong Kong Scholar program. His research interests include the permanent magnet machine drives, electric traction and fault tolerant systems.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178wFO4MdLubHFJ002bRhHfUQb9zEn38w7JqoiaQSSSF8MradNNaL5BWhEibPKicbfaFxGLHqEYT9fsgQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_004_ec9fb93dcefa.gif)
 
 **Chaohui Liu** (Member, IEEE) received the B.E. degree from the North University of China, the M.E degree from Beihang University, Beijing, China, and the Ph.D. degree from the Electrical Machines and Drives (EMD) Research Group, University of Sheffield, Sheffield, U.K., in 2006, 2011, and 2017, respectively.  From 2017 to 2020, he was with the Department of Research, Design and Development, Dyson Technology Limited, Malmesbury, U.K., where he was appointed an Advanced Engineer in 2017 and a Senior Engineer in 2018. He is currently a Principle Engineer and the Head of Powertrain with National New Energy Vehicle Technology Innovation Center (NEVC), Beijing, China. His research interests include machine drive, advanced control strategy, power converters, electric vehicle battery charger, wide band-gap device packaging, and power module applications.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178wFO4MdLubHFJ002bRhHfU4RdiavxgpXsqibPhF98FqBnMLFpjWvMKEEf9wX9RYxfhictGMay29RavQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_005_994de58a2738.gif)
 
 **Jiayun Zeng** was born in Nanchang City, Jiangxi Province, Senior Engineer of Nanjing Engineering Institute of Aircraft System of Aviation Industry Corporation of China, Ltd. (AVIC NEIAS). She graduated from Nanjing University of Aeronautics and Astronautics with a master's degree in Micro-Electro-Mechanical System and Microfabrication in 2007. Long term commitment to research on aircrafts controlling based on software engineering and process. She was once rewarded a meritorious medal of ‘Aeronautical Patriotism’ accordingly by AVIC.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178wFO4MdLubHFJ002bRhHfUicOwDMicsDjyozfzaaVpQatDN8y5wGQKm4lVTibiaeX0sfmicChrkj86aFg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_006_1023724616ec.gif)
 
 **Zheng Wang** (S'05–M'09-SM'14) received the B.Eng. and M. Eng. degrees from Southeast University, Nanjing, China, in 2000 and 2003, respectively, and the Ph.D. degree from The University of Hong Kong, Hong Kong, in 2008, all in electrical engineering.  From 2008 to 2009, he was a Postdoctoral Fellow in Ryerson University, Toronto, ON, Canada. He is currently a full Professor in the School of Electrical Engineering, Southeast University, China. His research interests include electric drives, power electronics, and distributed generation. He has authored or coauthored over 100 internationally refereed papers and four books in these areas.  Prof. Wang received several academic awards including IEEE PES Chapter Outstanding Engineer Award, Jiangsu Outstanding Young Scholar Award and four Best/Outstanding Paper Awards. He is an Associate Editor of IEEE Trans. on Industrial Electronics and Journal of Power Electronics.
 
@@ -72,7 +72,7 @@ Inter-turn fault is a serious stator winding short-circuit fault of permanent ma
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -86,15 +86,15 @@ Inter-turn fault is a serious stator winding short-circuit fault of permanent ma
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -102,15 +102,15 @@ Inter-turn fault is a serious stator winding short-circuit fault of permanent ma
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -118,15 +118,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于高频电压残差的永磁同步电机匝间短路故障诊断方法研究_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

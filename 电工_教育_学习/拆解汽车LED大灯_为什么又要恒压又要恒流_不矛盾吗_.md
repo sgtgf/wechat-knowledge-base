@@ -6,71 +6,71 @@
 
 本文来自面包板社区拆解活动！奖励丰厚！（两台大疆无人机、两台示波器等）！电子工程师们赶快来参加吧👇
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkTbV9PO8NXnwX7OOGGkEYyPTQGmWviacVibibmGiaapmtUyrKwfCuh17FyQQEH04HX2M6amXcxicn7sRA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_000_92dd92f128bd.png)  
 
 **一. 外观分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Tsc1kDaOZxELdypYxtpt3soAqXF6J82iatrf8GoibjGR4vwkMO7DxpW7Rg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_001_6b3ef0018a9a.jpg)
 
 如上图19年买的一款汽车LED前照大灯，在用了三年左右2022年就坏了。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsBBzzZHfaUCT5W80KVESnmLQcwxKaiaChwbOq4kLXab9CCyBpkR3cVIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_002_e12beb21c151.jpg)
 
 外观总图，LED光源与铝型材间的塑料部分是为了与汽车灯座部分配合固定的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsKz2vicHenIXiaFVRusiajCxe1ZvVClCIlT74n45kU5gibe443q0Bo8sCEQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_003_14b16e08d964.jpg)
 
   散热铝型材后面还带了个散热风扇，
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsUdIwoV2Dg756MRtib0VEKfpjbmJIe6Fcxf9koHibgR3vPtyS9uRlCUzQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_004_fed20d26817e.jpg)
 
 金属外壳的驱动电源
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsL4w1dFjUOVQkHHyq93LaQmmlORUqzE4DYJsEw1mW6UmjO0pcpWpLaA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Tsfwy5Lfu9iadGnn5j2ericYuLO1QiaKSAN3sJxCF9JhaqlONlxCu2xJcbw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_005_4ca1c15f9b9e.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_006_2e8c7d149ed0.jpg)
 
 电源接头
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Tsy6T5313VWZibu3ibNDAGReEQNhsGLpYChbKs8icfqMI8icNpV4rBCM2hlw/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsAVKtWl2k6TX3aKbiaeBX6qrCvID0n6rcOFH7qzFXX2VpTDAUMVHmSwg/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsAxfd8dDwLmbt7iaOurj50icMicSIVeqJFIQ6RqAqCxTB8YlKrp8ZrEWzQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_007_35edd568273a.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_008_e0c782fe78f1.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_009_ef3ec2e9379b.jpg)
 
 LED灯板部分，LED灯珠表面已经明显损坏了。
 
 LED灯珠用的为CSP封装的1919灯珠， CSP封装指Chip Size Package或Chip Scale Package，芯片级封装，在LED行业又叫倒装芯片。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsUO8rxfIA0ckic37mNgu0Mm6dnIA8ZuCRbl2ZtfPibic1LjdG1cJQicXAxg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_010_e2963a04b35b.jpg)
 
 传统的LED封装工艺需焊金线、底座填充、支架等工艺，而 CSP封装则是直接把LED芯片与封装基座连接，省去了中间的工艺成本，也使得CSP工艺的LED封装导热性能更好，尺寸能做得更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Ts03Pmwzt0ww5MTRbIlQMbIaJECc1tqgbbT0IL1ibk40xjoEeQIjGp7Dg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_011_d9270ea6275a.jpg)
 
 如图尺寸为1.9\*1.9mm，以首尔1919参考，最大电压2.86-3.25V，最大电流可达到1.5A，最大功率=3.25\*1.5=4.875W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsH2wns1J3qkTzwXNFa6EWIIcKWARQ0ekgC4t5ARribxB3OkMkVaWor4A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_012_e4a1aa073b83.png)
 
 **二、结构拆解**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsUCrygT81MrKjlB46rEm6d0jicEFwAI0iaNoicddtAemNAhsZZw0RGNsEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_013_92e1136c6a37.jpg)
 
 背部的风扇拆下来，里面的线是和灯板并联的，有点奇怪了。由于暴力拆解把风扇线也拉断了。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsCFgLHwf43uCwhEW232gWpnocEcXGqEL6NzJkl0ozyhKGesl9eIffdg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_014_f420144d0b25.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Ts0H7zGKiaznd9EQZfdrDDjjWa0NiadAp0Bjasbzd9fnMgRE9y0RPodgkg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_015_71a96b753460.jpg)
 
 驱动电源外壳为铝外壳，两边的封盖拆开后发现里面是灌胶的。
 
 灌胶的作用除了防尘防水，还具导热散热功能，能把PCB上元件的热量传递到外面的铝壳。灌封胶+铝外壳设计具有非常好的导热散热效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsfjB9ogibTDgO02kRWsPicfVI6tn9LpibukjVWsFN9HibL0PH4pmLAk7QCw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_016_1e7f1974e75f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsUpyp5mf4iciaI4rGAERfkicXaTfFnTibgaxicWfakhtibynO6E92FSqv4VKg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_017_cf991b01c730.jpg)
 
 驱动电源PCB与铝外壳间有一层绝缘纸，避免元件与金属外壳接触造成短路。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsoWazeSaBoPtorZujQmf5GZ8T5LyjGPUIWsh7TgeOfWkhaMNLQWFQ8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_018_976e96953841.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsibjDxZBmdWpkPqCoVfcxuiaicOsaBVj9yq0FnMXIKPM4Uic5ic3bywkfQjg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_019_74c0777243f1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsnPjruy7On7zdm9ZqRWVxYFiagusRPuEiaRXK7PXQRMwedwoKrV1Rrrfg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_020_d2ad53084cb2.jpg)
 
 一番折腾我们终于把驱动部分PCB拆解出来并酒精清洗。终于得见全貌！
 
@@ -80,13 +80,13 @@ LED灯珠用的为CSP封装的1919灯珠， CSP封装指Chip Size Package或Chip
 
 驱动IC型号为LC2740，一款恒压+恒流降压IC，最大3A电流输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Tswwq5P3HD6SuyOIcQKx8kMUbA65RoibOpC75amhibU2VUPT7ScZ5BibXYQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_021_f31387c7a218.jpg)
 
 **三、电路分析**
 
 根据拆解的PCB板和IC资料，我们画出对应的原理图，整个电路为一个比较简单的BUCK降压的恒压恒流电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Ts9ibymbXAe6g2lG0ZUtf182QPGeG7GneOYnRzNIibhiaRpQTDS5YgqPVSw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_022_54a79eda1853.jpg)
 
 1、IC输入端有个TVS管，主要作用为吸收输入电压中的瞬态浪涌，避免尖峰电压过高击坏驱动IC。负极下面有两个SS56肖特基二极管，利用二极管单相导通，作用防反接，避免因输入正负电压接反导致IC烧坏。电解电容C4低频滤波及储能作用，贴片电容C9高频滤波。L1为buck功率电感。
 
@@ -100,17 +100,17 @@ V=I\*R=(1/10)\*(10+100)=11V.
 
 由此可得出此款驱动最大输出功率P=UI=11\*2.451=29.96W.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsrK9qRvTtEGYg8v87nwViaiaAw4icsZZBpWEIfOloekgR7MCxvbyibPMW0w/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_023_471f79f632af.png)  
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsRUmJAVssxg5ntW7Gtoniah75JfKVAEGOpLMHccMmQFeHiaoh8DbtlEIA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_024_21abee77d95b.jpg)  
 
 如上散热风扇与驱动电源的连接示意图，散热风扇是并联在LED灯上的，实际测试了，风扇在9V-11V功率都是比较稳定的，但功率只有0.6W左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4Tsvg2NcOXLvZ6OMDfGDMtWiaTyfqnbJQiaxib2VqvsD6aDvvT1smOibaBvpw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_025_210305c8c28a.png)
 
 实际上电测试，驱动电源是好的，就是LED灯珠坏了，推测因LED前大灯靠近汽车发动机，因环境温度太高导致LED损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsV7457E15iclztXfFEzib9yyemaiaDoHvqcwoFSNNrJTsX7MjITB8dOcMQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkY9LTXNCsDMC8TsFwVk4TsFL8iblZTudKfp0DM6S0KbSibdibWVHqT4KxF1VQibegZHZT8ibWZND0T2wQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_026_2df2b47d3dbb.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_027_f8774c99ca05.jpg)
 
 问题来了
 
@@ -132,9 +132,9 @@ LED汽车照明灯具与通用照明灯具存在较大差距，主要表现在�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_028_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_029_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_030_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_031_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_032_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_033_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_034_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_035_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_036_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_037_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_038_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_039_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_040_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_041_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_042_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解汽车LED大灯_为什么又要恒压又要恒流_不矛盾吗__images\img_043_3c93e54afedf.gif)
 
 ## 
 

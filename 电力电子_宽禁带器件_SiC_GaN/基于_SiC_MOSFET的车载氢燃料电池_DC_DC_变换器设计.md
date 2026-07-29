@@ -12,7 +12,7 @@
 
 **关键词：**SiC 氢燃料电池；DC/DC；交错并联
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdukicNhvsRMgeYseI4dorpZFaPg8iaCnibP52IKhHIW2IEa9epnNfbJaRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_000_0d79864524af.png)
 
 与传统轨道交通车辆一样，燃料电池车辆也必须具有很强的机动性，以便对不同的路况及时做出相应的反应。为满足机动性的要求，车辆驱动所需功率会有较大的波动，这与燃料电池的输出特性偏软是相矛盾的。
 
@@ -26,19 +26,19 @@ SiC 功率器件具有导通电阻小、高频特性好、 耐高温等优良特
 
 DC/DC 变换器应用于氢燃料轨道交通车辆，包含 DC/DC 变换器模块、控制器和若干接触器、熔断器等其他电气部件。 DC/DC变换器主要功能是将氢动力系统中氢燃料电池提供的不稳定的直流电压变换成相对稳定的直流电压给氢动力系统中动力电池充电，输出电压跟随动力电池电压变化而相应变化。系统拓扑如图 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdEqEgnd3ZMQqftrTF6pUVlqjqeltibmJBsYEfVUsibsIFrjFUU1xTmT1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_001_3d63658d447d.png)
 
 **2\. 设计输入**
 
 本方案功率级别设计为 300kW。燃料电池驱动系统对应三个氢燃料电池模块设计了三个 DC/DC 模块。DC/DC 变换器具体电气设计参数如表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdeNicWpZtaPRV4iaz4q29pcWZoicJT2NasKGD76aMQRAHZ5IQGr0dzZg5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_002_542476cd4fc0.png)
 
 **3\. DC/DC变换器原理**
 
 系统电路原理图见图 2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdW5iawmXjCBzdnUr4oGt1wjpYYbdAG2qMOx3icsK4sDnBZMiakFg1icQiaibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_003_6d8a2b5d3860.png)
 
 DC/DC 变换器内部设计三个独立的 DC/DC 模块，有三个主电路输入端口，一个主电路输出端口，模块输入端分别对接三个燃料电池的输出，模块输出端并接。DC/DC 模块采用三相交错并联电路，其中 L1 为主电感，L2-L4 为换流电感，此设计通过降低开关器件（VT1-VT3）的开关频率，提升电感的开关频率，大幅度降低了开关器件的开关损耗，减小了电感的设计难度，使得产品体积小、重量轻、噪声低。
 
@@ -60,7 +60,7 @@ DC/DC 变换器在接收到电压信号后，判断电压在正常范围内开�
 
 三相交错电路的每相电路对称，因此在电路设计参数计算中选择一相即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdvOq7NjrMGXpgtkT9PUic7duwDlqbnsISIH0DqicJ8qYtGms52rY9Ruuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_004_57f1fb80cb0e.png)
 
 式中 Uout max ──最大输出电压；
 
@@ -68,25 +68,25 @@ DC/DC 变换器在接收到电压信号后，判断电压在正常范围内开�
 
 三相电路共用一个主电感，每相电路中有一个电感值很小的换流电感，相对于主电感，此电感值可以忽略不计，因此主电感 L1的计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdKxxCRpq3MMSKcV1fjltsWefXBSBSzIudwToeLg48jbT3rfrI0xWtmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_005_25304fd9629c.png)
 
 考虑通过电感的电流很大，应适当选择环形铁硅铝磁环。电感的最大峰值电流为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdLRcFgb98o7a1evtFcHE4c0AuSQqicu4RT1MrhWBIjCorBPpEPia0kR7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_006_13a0c616b87e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHd1My4Saz6UsLB3DLjPA2ZXibHZfB87Se3JLGg96mNFudkWjGGrohgvWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_007_7a1cd21e5e6f.png)
 
 **5.2 功率开关管的设计计算**
 
 流过功率 MOSFET 的电流有效值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdj7YZDDh1Boc9elgVFSYiczeZceWl0Jicu0KqqACYUeHrLXibs9BT5CEjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_008_c4bbae68344d.png)
 
 **5.3 功率二极管的设计计算**
 
 功率二极管采用 SiC MOSFET 模块的体二极管，流过二极管的电流有效值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdJCStwLsIjammzO81gLOpJNYicO6TQaXH6kEwYicxWsIF7gSOjRSLy7iaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_009_e57dfa4f6d3c.png)
 
 **5.4 驱动电路的设计**
 
@@ -110,7 +110,7 @@ DC/DC 变换器在接收到电压信号后，判断电压在正常范围内开�
 
 设计了一台试验样机（三维图见图 3）其基本电气设计参数如表 1。电感电流纹波系数 KL 取 1.3，开关频率 fsw 取值 3kHz，按上述公式计算，主电感取值 900μH\\250A，换流电感取 45μH\\250A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdIIKo4XCysic9lza522IK1vptxFfDrP53SJZZXM7pxU65Jiae0GePe1nA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_010_143cbcc145aa.png)
 
 SiC MOSFET 选用耐压值为 3300V 器 件，Rds=4mΩ，Coss\=230nF，tr=0.5uS，tf=0.2uS，td(on)=0.9uS，td(off)=1.5uS。
 
@@ -118,11 +118,11 @@ SiC MOSFET 选用耐压值为 3300V 器 件，Rds=4mΩ，Coss\=230nF，tr=0.5uS�
 
 试验样机通过功率器件的合理布局以及强迫风冷散热使其整体热量分布基本均匀。其中一路主电感由于周边遍布主电感和换流电感等发热量大的功率器件且安装与散热器边缘，因此温升最大达110，但此温度远小于磁芯饱和温度，散热安全合理。其散热仿真分析如图 4。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdQNyibpzZNtyQOlYHQm4oTY11Gk81rbYQ5Tp8KddfYy04dW1j5tEqic3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_011_7169ff609ee8.png)
 
 通过测试整机效率峰值可达 97.8%（效率测试对比如图 5），与设计预期相符。相比于普通硅器件开关管 DC/DC 提升 3%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEZvZDoXW2ywfXuP6rkxHdUjBLcFN4F9QiaPySWbZXcUuia2KOsl4YicVrcZfNuKhJYf6n0VxjdWAoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_012_bd51d32c526d.png)
 
 **7\. 结语**
 
@@ -130,10 +130,10 @@ SiC MOSFET 选用耐压值为 3300V 器 件，Rds=4mΩ，Coss\=230nF，tr=0.5uS�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp&retryload=2)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_013_6bfff95b6415.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_014_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET的车载氢燃料电池_DC_DC_变换器设计_images\img_015_84aa944feb13.jpg)

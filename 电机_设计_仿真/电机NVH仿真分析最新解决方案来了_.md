@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/99JIZjB\_SfG4nLUfazfpuA](https://mp.weixin.qq.com/s/99JIZjB_SfG4nLUfazfpuA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883klJHIqiaDa2xYic0lB84Nia2XOk1j7764Ep7o9o6oXtAOl5h24pwU512A/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484084&idx=1&sn=00ca1aafa29fd461041019fcbc010237&chksm=e873ba3bdf04332df905461f8b87444c9701e0a2b514a338bb25aef6c771384be4adb803970e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_001_82f0e4ee50e8.jpg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484084&idx=1&sn=00ca1aafa29fd461041019fcbc010237&chksm=e873ba3bdf04332df905461f8b87444c9701e0a2b514a338bb25aef6c771384be4adb803970e&scene=21#wechat_redirect)
 
 在本次培训的仿真教学环节中，我们将研究永磁电机定子上的瞬变电磁力所产生的振动和噪声，并建立完整的工作流程，以通过Maxwell与Workbench (WB) 中 Harmonic Response 和Harmonic Acoustics 模块的耦合来仿真振动噪声。您将学会如何：
 
@@ -33,29 +33,29 @@ o电机多转速噪声瀑布图
 
 另外，永磁同步电机常采用转子分段斜极削弱转矩脉动和NVH，在以往的Ansys电机NVH仿真解决方案中，我们必须采用多个不同转子位置角的Maxwell 2D模型分别计算各段电磁力并导入谐响应模块，或者使用Maxwell 3D直接计算真实斜极模型的电磁力并导入谐响应模块，这都给NVH分析带来很大的不便。从Maxwell 2021R2开始，Maxwell 2D中的Skew功能有了较大改进，支持标准奇数分段的V字型斜极和用户自定义斜极，同时Skew功能支持将任意分段下的多段电磁力自动映射到谐响应模块，这大幅简化了NVH分析流程。本次培训也将为大家演示该流程的实现过程，并利用Ansys Sound对不同斜极方案的噪声进行对比分析。如果以上内容正是您需要进一步学习了解和掌握的，欢迎扫描下方海报二维码报名参加本次培训：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUu7cXrMYuoMUPian5ahyXX0jCNibia59bI91nxibNzNt5QNIr6Oj1PQwbtWUegvqYiaGawm5fHCdgTSSw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_002_41891aa647a3.jpg)
 
 随着以上仿真分析部分教学环节的更新，小编再来带大家了解一下本次培训中部分章节的精彩内容吧！希望通过这次培训能真正帮大家解决以上问题的处理方法并更好地应用软件工具完成工作上相关问题的解决：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrPL5nX8xBbHXVb8DBJia5VCbOpLEx5qc97qIoORmUbLqqNia7uT9TKv9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_003_d6ffa1f0db0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrnK0Pfg1JJicrnMHRkiaIvs9rJK2EG3m1KNCcrjUVYRD7IeU8Rn9FH4mg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_004_34fa5566caa7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrOjibSt63VezhPe6quJQPiaeVmYrQoHPlsbA2ukogib9MLyt8Tticsiac2iag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_005_624b590d43ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFr5nW1ZuId6m5ceJLmXVWPOXe0FhxibObdjqmicVj9VYTyiaLDZKQjnMmDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_006_fc5f6d1147fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFr6hZaKPwArxZUf4Ec5BFO3jb5LD6jxNIicJVI3rh30L4EnH5JibTL1ibOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_007_7a37e5438c41.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVFTChvr76KNol5Cp590mFrtSqMasHnZ56J7OrFeQiaK0B5HSVWf8aMB657JodpvCqEMSBdEDCWXog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_008_07a1baad41a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIULYB5dtwc9QcrNJ4EMumkNayibPAQiauQyqKqrsQEDU1HKNPcldORItx1vRQP2v7wPrUjCTO7wXlWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_009_825e0f0152db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIULYB5dtwc9QcrNJ4EMumkNwgmeELcnsic7ZticJ5KPWOYbIKlYdGY9fEkkYibiaWbWvsuLMNmvG4NYjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_010_f1ebadd4a64c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIULYB5dtwc9QcrNJ4EMumkNsyW1EadxTX26QW0KPicRZqZ07PibOyf3ZYxkwj3TDhqsrUViavWiaSUic0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_011_dbf14022b28e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIULYB5dtwc9QcrNJ4EMumkN2E67BDwD3TlpfZjtmibrcXPRcr6BgWY45d49PXdNhctGJCxibCXewxAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_012_b26eca7b40e0.png)
 
 看到这里，相信您对本次培训已经相当的期待，关于培训的更多详细介绍，请看下文：
 
@@ -115,7 +115,7 @@ o电机多转速噪声瀑布图
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVAFkCkz9jdnCZicvia6Y1u1zniac2pV0ZrOOhEoFhDoDPalHTnImFicLt7sHzCf8QKtYtAjETCmc377w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_013_992038978436.jpg)
 
   
 
@@ -151,17 +151,17 @@ o电机多转速噪声瀑布图
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883M3QFV2pyyib8CJg1QQsiauKrfxe9GP7tVtU4euRs3CrrgiaCpYEYMqLYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_014_fd8973ff890f.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)[](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633044&idx=1&sn=bc32a36793375e6187e140ad96d40d5e&chksm=88bcd85bbfcb514d763e9235d153e73120db5838eb1d69cf3dab561a61ac9b978694cbfb2830&scene=21#wechat_redirect)******[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW2bPUClceD7AVO6UUicSVLGeMSpfpapoYxQhXMp27OdyGwmEzR9V5woAKCFwLnib7HbN1QahE2QCtg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633093&idx=1&sn=fefea38fe19eb5a5fe651b1febf0d5f4&chksm=88bcd88abfcb519c5d53e88adbd98e8f3ee8bc2dec000b90162a5d3840071e6280785080741f&scene=21#wechat_redirect)******[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZfZ5uT2ibRZcByL2xLy5BlhOt5RDB1bx8XFXbuWveJMu1A2cV46RqXkYORGpsGpajqmHIVoKp9NQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_015_0cfebd1d514d.gif)[](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633044&idx=1&sn=bc32a36793375e6187e140ad96d40d5e&chksm=88bcd85bbfcb514d763e9235d153e73120db5838eb1d69cf3dab561a61ac9b978694cbfb2830&scene=21#wechat_redirect)******[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_016_b01b19ac32cf.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633093&idx=1&sn=fefea38fe19eb5a5fe651b1febf0d5f4&chksm=88bcd88abfcb519c5d53e88adbd98e8f3ee8bc2dec000b90162a5d3840071e6280785080741f&scene=21#wechat_redirect)******[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_017_f7ef7569621d.jpg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_018_96b548e7fe70.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_019_3f5511eb92d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH仿真分析最新解决方案来了__images\img_020_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！  
 

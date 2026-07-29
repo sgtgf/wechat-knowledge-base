@@ -12,7 +12,7 @@
 
 CES Conference
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAhKUbtZPrBeLicsOR2WjEwvynQCExUsarckmQn1libLDeibtPdgdUX3DiaA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAKFsL73aMd3GRsyd135eJMawJv6hUjp84qn2JlWE57PpZl6G98zNAicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_000_568b04025ae0.png)![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_001_97bad0d7d0f2.png)
 
   
 
@@ -46,7 +46,7 @@ CES Conference
 
      本文主要对储能箱和电机进行联合建模并对储能过程的关键控制技术进行研究。永磁同步电机直驱涡簧储能的实现方式如图1所示，通过控制电机来收紧涡簧，从而将电网的电能以弹性势能的形式存储到涡簧中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAhFq84uZlruOeUvvffibXia1DH43icrkHecRibJF9kXQmgK9R9G6cv6bUcw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_002_0a774ca37f2b.png)
 
 图1. 永磁同步电机直驱涡簧储能示意图
 
@@ -72,7 +72,7 @@ CES Conference
 
   整体控制方案如图2所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAaF6GVxjqsMzpBY3j0IKiaezaJs91eSkGh6JWKOzAJLYSE3ptiaW8hdqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_003_8d422b008038.png)
 
 图2.基于非线性反推的闭环I/f控制策略控制框图, BSF：带阻滤波器，BPF：带通滤波器
 
@@ -86,13 +86,13 @@ CES Conference
 
   使用ANSYS软件中的Workbench模块对涡簧进行模态分析结果如图3：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAlAqVNuH2licmKkuEmmibastDdBPg6aloItsfuibsDwhsfg9LbTHSpzmgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_004_2ae3b7200bcb.png)
 
 图3.涡簧模态仿真结果
 
   为了验证所提算法的有效性，团队目前已研究出MEES系统的相关原理性样机及控制系统如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bADEDookRzALAlv56QydrsqhXVQOWV5UJtEeSehtSZicBPn124GWZF3TA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_005_a955392436dd.png)
 
 图4.MEES系统样机
 
@@ -102,23 +102,23 @@ CES Conference
 
   q\*轴与d轴间的夹角qL、转子转速ωr、基波电流矢量幅值Is0、转矩脉动dT和损耗Ploss的实验结果如图5至图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAIt0T8cu5vV9icsuEJV6OcZup9K805xRtPhhGx7Ks5ZwwRW7hTicfwHPg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_006_7f899f36a587.png)
 
 图5. 转速变化下的qL的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAMGkZHib995d5l9U9bStqF8LNCwAjggJmql5feabTfibY3ribGt6jqic8ZA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_007_e49919e37bdb.png)  
 
 图6. 转速变化下的wr的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAr7eU6cUfae0WCoIJ7ug00Xn8cYM0DiarwnY2JBS8F3bvmwfDWTB9lFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_008_c63f9261471e.png)
 
 图7. 转速变化下的is0的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAHvgW2YztbCHFKC8l4drVKJgp7fiaJn83nWaPiafpD3DMZoGcAz5FoTtg/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_009_c9eb34913e09.png)  
 
 图8. 转速变化下的dT的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAA980910VfEfrj61szZicqDxREazOaN5Jy8SdIxVmULFOg2EIibRProJQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_010_5d264a4b4868.png)
 
 图9. 转速变化下的Ploss的运行波形
 
@@ -128,23 +128,23 @@ CES Conference
 
   实验结果如图10至图14所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAVAJaeRXk6YIVJjCp29uic8k89JicYwdnqlOqfYVdbxntiavAoUnvXibM3w/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_011_3dd94f39fc9c.png)  
 
 图10. 不同控制策略下qL的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bA1c4sYiaQ0dyQ3R45FsoKjnHia6vnA2c2EOkiaQFUfbF0S4BwEfyLKzp0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_012_b7cae40faefc.png)
 
 图11. 不同控制策略下wr的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAbHu18aico01WBJtExBO8YibSdUw3h9d4fCaQnOCzDIaT7FZoveM6Jibicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_013_52a7b886c7db.png)
 
 图12. 不同控制策略下is0的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAl9TeIVia9XnmHaL0AHFckG4aSS777cbRnQhPyDweAOEJHiau9uTAEMsg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_014_22e4b842b814.png)
 
 图13. 不同控制策略下dT的运行波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAhiaEcnZ3uzFdN2XbeJHF4Vq78Jg4W8GOZRCfa4po72KicpIbPicKKHiaRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_015_084cdfca094c.png)
 
 图14. 不同控制策略下Ploss的运行波形
 
@@ -222,7 +222,7 @@ Y. Yu _et al_., "A stator current vector orientation based multi-objective inte
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAwnoIvdnEU20LHfUkx4am39aG5npWAXu3vjqZqf6uWNBsts2sKXYACA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_016_5d6eb64b61c9.jpg)
 
   
 
@@ -230,19 +230,19 @@ Y. Yu _et al_., "A stator current vector orientation based multi-objective inte
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bADGRlM9p9AEbjemf5DBPDibXYbbRVh42Fa0I4iaq4ekicERmplX04OZmQQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_017_d37cc69143a6.jpg)
 
 **从乐瑶**，硕士研究生，华北电力大学（保定）电气与工程学院，主要从事永磁同步电机运行控制方面的研究工作；
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bALTXBDYYWjZgFLIxibXuNTibYHtS0ic1lxq2tOiazPMuUOeGlwFLIvTJj2A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_018_3fd29dd2b786.jpg)
 
 **田夏**，硕士研究生，华北电力大学（保定）电气与工程学院，主要从事永磁同步电机运行控制方面的研究工作；
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bA0d22jy10L7usyoEhVtlAatkQSZOTO66GEnpWC55QALCSrlm4dYe9Lw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_019_cdc10eae544b.jpg)
 
   
 
@@ -286,7 +286,7 @@ Y. Yu _et al_., "A stator current vector orientation based multi-objective inte
 > 
 > 官方微信号：CESTEMS
 > 
-> ![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178bshX9EHBcNIFgWibDj4VlHRfWwcwD39zubP9HbOnLzgYwjkFzpVU7gFhkpcs6NsS7n9JdC9mdOicg/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_020_4b990264d47f.jpg)
 
   
 
@@ -298,15 +298,15 @@ Y. Yu _et al_., "A stator current vector orientation based multi-objective inte
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAX4j19rFGgA2ZdHfO1rbXhics5ENTsdmbicdJbV4BQTiaOWkdaQIXMZwDQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_021_1294d4303f72.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bA0xBoqq06oASuSyutKr4BDXsZtAp9Boa5xQxwibjKEfxhcjeiawcGwBVQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_022_9556560c5c75.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAXHEeJt7ttkLLCR8L90WEPsD3Lo0Jd6vXl4sp2CEyicFYcgWaZALlxWQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_023_c83c9ea7f206.jpg)
 
 学会官方微信
 
@@ -314,15 +314,15 @@ Y. Yu _et al_., "A stator current vector orientation based multi-objective inte
 
 电气技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bApdRdZldFKj89YYwnFBvMvTe5Ox7yIzejZ4yXibdrAiaGqzfvKHe0J7ZA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_024_b9966dfbfea5.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAjHF2iaPzoJCzVz7yuNLFRvWiaZKw5UJrqHtAMpLXWyic1yWRl6W5keGUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_025_65280026de25.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ib3S9FggEz5g2sZBc4gl9bAQiacXvsrZZS4LvHqzYc3nGTcpmX1v9esALtb7PbbzUMP1KTv9Vt5JrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___定子电流矢量定向下考虑电气损耗的柔性负载振动及PMSM转矩脉动多目标综合抑制方法_images\img_026_d980a64fbc96.png)
 
 学会官方B站
 

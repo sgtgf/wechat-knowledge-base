@@ -14,7 +14,7 @@
 
 目标是设计高功率密度、高效率、低成本的永磁同步电机满足美国能源部提出的FreedomCAR 2020计划的指标(见表1)。主要挑战指标包括：最大转速14000rpm，恒功率30kW@20%~100%速度范围，20%速度@55kW峰值功率运行18s，10%~100%转速20%额定转矩以上效率大于95%，105℃冷却水入口，额定电压325Vdc，功率密度(以最高速度)约为目前技术水平的两倍，激进的成本目标@10万件大规模生产。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHr5765UTgBT3twbibGssxLDnbGeiboicaTOKaVP0lrCSu3jGbYmhqkFV16w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_000_228fbf45906e.png)
 
 **设计方案**
 
@@ -22,7 +22,7 @@
 
 12槽/10极、分瓣集中绕组定子结构、SPOKE转子，无磁桥。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrnoPTM2vribnZRlssTXlZaCgg1g8eLGVN0icz6eFQ9qhCwsibibbDgvHGHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_001_cad9bd807b55.png)
 
 **结构分析**
 
@@ -30,19 +30,19 @@
 
 为确保转子结构完整性(安全性)，特别是最高速度14000rpm。需要进行应力、转子动力学、寿命分析。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHr8TFKNGlyodlm6NKXVSQ21e0AeIC967WBpm3QicAfviafBoLBLq3vEA1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_002_dc97689cd5fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrE0Xwb2UpkMUKWDp8NAHZlIIrMzlankHEXLlaIcFyJFOUe5nfYa6GKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_003_2aa8519b20de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHr30GaAmSnZHNt9CWJGtlZuaaAaoJaya8HiaMtZic5q8zOCwNQCgBMicsLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_004_1e7259252149.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrpn9LJZzVU20U1ULfhxf7DleBPHVJsFCwRQkWTM4FzwQhAcBOdrmxag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_005_ba4240316a32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHr5snjgIg7IUUMY6uXgvw9kHDaxJpLImia0TKMiaCDDtic77pY8dnNmpwrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_006_0252807db534.png)
 
 所有转子零件的应力都不超过表四所述所用材料的应力极限，设计合格。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHr7QZoCViahJSzs4nia0hMYkjRPVWRaFGwkGepRCHLaicY6AHtc3mic9f1zw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_007_1407136ea8df.png)
 
 【图8】第一阶临界速度24000 r/min，远远高于14000 r/min的上限电机转速。【图9】零件设计处于无限的寿命区域内。
 
@@ -53,21 +53,21 @@
 开路磁场分析  
 磁场云图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrhelqic3IBVggXAm0sx2NnTAuIMmtq8BmXCJZlu5yPLSFle3sWTQ0QVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_008_dae89f73ae7c.png)
 
 14000rpm反电势曲线：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrNhWd8IhzksP1ZicerTsk8xoxMXfMp4EThPSYT7Hp6fQNFDsria4xg4dg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_009_32a82111d485.png)
 
 退磁和短路分析
 
 * * *
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrxGzUHWAcx53hq7Yvlt1NOyRk5T1nUribAdHPnwRibzHfmjfMOe6iaVHkQ/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_010_95e6c587713c.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHr2MGwFVytc0cx19xCNUibu800bXP3ycQgkH4Y7ciawdMgdRICpgpsx4jA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_011_5ef1870792b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrJgkwfcZDyht3MNJ5alrTGKW1ib1FbJScRObLAtm6scnCrcAlE9R9DxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_012_b5055388de89.png)
 
 退磁分析评估是在负d轴注入2倍、3倍、4倍额定和短路电流，同时考虑磁钢最高工作温度180℃，观察磁钢工作点。以磁密0值作为退磁判据。
 
@@ -75,23 +75,23 @@
 
 * * *
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrkJLSIzHe82f4HJg5j5rZ1hRSicfnE1NbpE4JFqjh7YlGGLDYKPJjMibQ/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_013_d9994de84cdb.png)  
 
 磁钢涡流损耗，用了三维场进行仿真，每片厚度2mm，每一片之间间隔0.1mm。从仿真结果看，轴端一片磁钢的涡流损耗最大。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrK3WTdaXibicicHJf8A9NfyXXibz21oL0Wy9xB0Ea7qaN2mcTW3jgS1ibOIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_014_76451aa1ef97.png)
 
 定转子铁心损耗，对不同区域和速度做了铁损分析，从结果看，定子轭铁损对速度最不敏感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrIw1bHlbulxYuCTQIpib1f83QgtwP1lUm66iaRoQhDBCs7YicmUx0HMiczw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_015_ea5a9c3706a7.png)
 
 绕组铜耗分析，考虑了趋肤效应；所选择的绕组铜线尺寸在14000rpm造成的交流损耗小于10%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHr2fvOks7bsE71jwia5okbF93Qoz29I3EsklFPL4IxMltocWH1CicXXZ7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_016_65c6bf48da21.png)
 
 考虑其他导体的涡流损耗，包括：轴、转子冷却管、定子冷却套。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrXComC4PH75hSrZTibZdH5t11hg72suod351SUe38PndltbsTWPr3nBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_017_21d7c3fabedb.png)
 
 对电机定子铁芯与机架连接螺栓的电损耗进行了定量计算，上图中的U型槽设计是有讲究的，磁路不能把螺栓完全包裹住，以降低损耗。
 
@@ -99,7 +99,7 @@
 
 * * *
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrXVUabLEjicrFxWHDL6v91QokZibOCObwQDRE8SbNznUsgW9dqR7DrbZQ/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_018_496c6ab38012.png)  
 
 **热分析**  
 
@@ -109,15 +109,15 @@
 
 * * *
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrKFrqgtIUYsicdDBQ4USFr96WEniaibvqalic5rbJgtnccRtAUFPticurePg/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_019_cc6865faa1ef.png)  
 
 转子冷却系统方案  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrD0I9xDMM6KFx7dSd0OS9Z9zJWibEXeRpL2BOicz7iaXjsZYpLhADZtwgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_020_8cb813d0aca9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrcueicJrK4v3hcpicqn0stibeTEciaT0TicXJaXcxYtzkR2TibPQNR14rdVQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_021_5b6cd6278f65.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrcPalrCZ1nMcVv1TjOmMU9uy9jL6jQ3ySuicWBwuYHQOzL9ELTVUiaJMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_022_6f0e19048c19.png)
 
 精确计算转子不同区域不同转速的损耗，然后计算不同转速下转子最高温度。
 
@@ -127,7 +127,7 @@
 
 定子设计了3种冷却结构并进行分析，冷却水套机壳，定子中加冷却水管，端部喷淋。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrNLHicyQ1UKQzSvDKIdib2L4qYNn9lyPD3Akpm8hymOA3lvibyoICX4M6w/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_023_ff1d819434bb.png)  
 
 **原型机测试**  
 
@@ -137,9 +137,9 @@
 
 * * *
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrSwjf1o7gZy99SaXia18aiaLOcDysiaS37rfxjtWex3C8GyicogbgbOzSlA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_024_5faa11a9a422.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrXQCk0p2iau2iaZmajp1GHOfPf4gOY4O46cAD1ViamC4wUxtBB9rd6HP6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_025_898ca3d42f51.png)
 
 测试  
 
@@ -147,15 +147,15 @@
 
 测试系统
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrCZNZehrZVgIF9ibtBibaJ2WJoZGoCyJFYcvP00lURaU2JJKEB93UQG9g/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_026_bee1729e9231.png)  
 
 效率map
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrDAqsj5QwpqhhV0yEsPq07Zz3HvDxPic264CcFHgT7iaLZoS4btrBOxwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_027_4654282f8687.png)
 
 另外，原文中还测试了绝缘电阻、机械损耗、风摩损耗、反电势、短路、转矩波动、满载等，还做了3种冷却系统的原理样机测试，详见原文。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyGGI5XricKkwyL9uoNZEaHrLSLWVCtQKdyeicqYhRna1Z6A1SW8OpcUAXZZOSDxwN9ytJr1cCoYUicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_028_f5207a91dd31.png)
 
 上表对测试数据和需求进行了对比，可以看出这个设计在功率密度和效率方面能满足美国能源部提出的FreedomCAR 2020计划指标。
 
@@ -175,4 +175,4 @@
 
 长按图片，识别二维码，关注我哟
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐文_高功率密度内置永磁牵引电机__出自GE全球研究中心_images\img_029_d9a47a7240bf.png)

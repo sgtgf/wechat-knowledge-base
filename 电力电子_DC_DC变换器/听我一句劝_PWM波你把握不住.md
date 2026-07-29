@@ -23,7 +23,7 @@ PWM是一种技术手段，PWM波是在这种技术手段控制下的脉冲波�
 
  如下图所示，这种比喻很形象也很恰当，希望对学习的朋友有所帮助与启发。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgC8mtGjeIWkLibicE9VYDRAqd3YiaCgic5W59Oa4JKxa28WxgjL4YbFbgtuiaLhCrJY6Iy237njImiaYvg/640?wx_fmt=jpeg)
+![](听我一句劝_PWM波你把握不住_images/img_002_924b63747f64.jpg)
 
 PWM全称Pulse Width Modulation：脉冲宽度调制（简称脉宽调制，通俗的讲就是调节脉冲的宽度），是电子电力应用中非常重要的一种控制技术，在理解TA之前我们先来了解几个概念 。
 
@@ -31,7 +31,7 @@ PWM全称Pulse Width Modulation：脉冲宽度调制（简称脉宽调制，通�
 
 **脉冲波的基本信息如下图所示：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgC8mtGjeIWkLibicE9VYDRAq4rkMka6icfz4BX8nlNOeibib6CmicKUe5UmAucaVqibdBceKbIdq8D7NJbA/640?wx_fmt=png)
+![](听我一句劝_PWM波你把握不住_images/img_003_dc46fbeeb981.png)
 
 -   **脉冲周期T：**单位是时间，比如纳秒ns、微妙μs、毫秒ms等；  
     
@@ -44,7 +44,7 @@ PWM全称Pulse Width Modulation：脉冲宽度调制（简称脉宽调制，通�
 
 **以上之间的关系如下图所列的公式：**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgC8mtGjeIWkLibicE9VYDRAqqLMQKenUqrDoJJ6XkS3yNfOetVoGpCwFiaWcCrsh6ib99gLhuRKlaicfQ/640?wx_fmt=png)
+![](听我一句劝_PWM波你把握不住_images/img_004_72323d67532c.png)
 
 工程应用中的PWM波是幅值、周期（或频率）不变，脉宽（或占空比）可调的脉冲波，接下来我们来认清该PWM波到底是什么，TA隐藏着什么思想？
 
@@ -56,11 +56,11 @@ PWM全称Pulse Width Modulation：脉冲宽度调制（简称脉宽调制，通�
 
 如下图，电机为某相同转速时，红色代表驱动器输出幅值不变的PWM波，蓝色代表可调直流电源输出的电压，两者都是直接作用到负载。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgC8mtGjeIWkLibicE9VYDRAqeRia9cJBAicOWnS89ny4UWTfs2P4sKoX0uFhq47fEUunJqjUIYic0oDPw/640?wx_fmt=png)
+![](听我一句劝_PWM波你把握不住_images/img_005_73b84d8a1f2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgC8mtGjeIWkLibicE9VYDRAqxliclAI7wacOG6uW04Pq6ZQsgRiaA04ze5dxWEeFafialI6plt45CnpSw/640?wx_fmt=png)
+![](听我一句劝_PWM波你把握不住_images/img_006_3a2f110eff48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgC8mtGjeIWkLibicE9VYDRAq9BTwCZrdXePxq9GLQUUYvXNd0933Yoicjiaiabiav8ysIcekI5qzHdvEbQ/640?wx_fmt=png)
+![](听我一句劝_PWM波你把握不住_images/img_007_018e6fa470f6.png)
 
 **由以上得知：**
 
@@ -82,11 +82,11 @@ PWM全称Pulse Width Modulation：脉冲宽度调制（简称脉宽调制，通�
 
 如下图为实物测试，脉宽在变化，周期不变的PWM波。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/2ibmcljDoyWSUicQGJXr7dCe20XGfQxEYVaVzSyAQR3kh0RIV23lPtlDZjRUhn0LM6Vol86EXVDic2JILhLiargt7A/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](听我一句劝_PWM波你把握不住_images/img_008_5a5457e5b2b8.gif)
 
 所加负载如下图，为PWM控制电机调速实物测试，有刷直流电机的PWM无极调速，其中LED是并联在电机输入端的，其亮弱反映电机速度的变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfkxO99CP3HrLSoEEBoXvaupIpA9erk6gDx49j8vXGBCdVfPD4EdgzzUykECtyLHjIF9d2KEQ1d48g/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](听我一句劝_PWM波你把握不住_images/img_009_050d70aa1e08.gif)
 
 **要点：**
 

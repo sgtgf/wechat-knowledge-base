@@ -22,7 +22,7 @@ PCB设计中，在通过重重关卡完成PCB设计后，最重要的就是版�
 
 2、封胶，如粘钢材等，将PCB及其上的元件全部覆盖；里面还可故意搞五六根飞线拧在一起。要注意的是胶不能有腐蚀性，大多用黑胶，一般也叫牛屎芯片、封闭区域发热不太大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQclLvyhGeHQPerCibrM6fwfAKqBUQUfI9mOyXaYx1ic4zXfbKyrwWhEP4HeFZCve1F3e6NretSP8dcqg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师如何防止PCB设计被别人抄板__images\img_002_afbd7119576e.png)
 
   
 
@@ -36,7 +36,7 @@ PCB设计中，在通过重重关卡完成PCB设计后，最重要的就是版�
 
 5、使用MASK IC，这需要很大的批量。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/onNTjQVjQcndTYonHoXBRTspkXibuVn8ftehXuYNuiaqLicibm1TTSgpyia8KnHq5Et4LJduytGgOuc1wO5Lk3kUW6g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师如何防止PCB设计被别人抄板__images\img_003_2142c02b6f76.jpg)
 
   
 
@@ -66,7 +66,7 @@ PCB设计中，在通过重重关卡完成PCB设计后，最重要的就是版�
 
 以上就是PCB设计如何防止别人抄板的方法了，希望能对大家有所帮助。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师如何防止PCB设计被别人抄板__images\img_004_d5dcc7ecfdf3.jpg)
 
 ## 
 

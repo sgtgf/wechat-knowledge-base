@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/K7s8OBQvohHLxdo4x4bLNw](https://mp.weixin.qq.com/s/K7s8OBQvohHLxdo4x4bLNw)
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGfOjQM1GeUOnftlkTqXAEQMIibOGEonzE4CdvdWxb0bQ2IMxhLAdhicMzgdnmffzQfSYGMy2Zb79w/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_000_cb024fd2ab99.png)_
 
 __**_★★★_**_Cap-3---电容的基本功用_**_★★★_**__
 
@@ -11,7 +11,7 @@ __€1.放电电路__
 
 放电电路是通过释放蓄积在电容器中的电荷来使得被连接的负荷发生动作的电路。由于放电电路可在瞬时将大电流释放出去，因而可将其作为相机的闪光灯或紧急时的后备电源来使用。电路例中，若将开关连接到电源侧，电容器就会被充电；而当电荷蓄积至电源电压时，充电就会停止。若将开关连接到负载（灯泡）侧，电容器就会开始放电，灯泡点亮。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D15I2qLlO02lbwsKic2ib1YBKLnEFj7IZLnib4ibvAqOb36ULbTYanDqhDzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_001_6152a0636754.png)
 
 **_图3-1：短时放电电路_**
 
@@ -19,7 +19,7 @@ ___€2.__平滑电路_
 
 平滑电路是使得对交流进行整流后的脉动电压变得平滑并将其转换为直流的电路。电源电路就是其典型的例子。通过电容器来使得利用二极管桥对交流的输入电压进行整流（例如全波整流）而得的电压波（脉动、脉动电流）变得平坦。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1AtpbIfLcUEFkE1dHU5nj4bzPH7XiarNdvMg0qMhjS5969eMnSu5aQeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_002_fd6f82b3cab4.png)
 
 **_图3-2：平滑作用电路_**  
 
@@ -27,7 +27,7 @@ ___€3.__去耦电路_
 
 去耦电路如其名称所示，是为了分离信号耦合而利用电容器的电路。此例中，如图所示，通过对基本直流中含有频率高的交流成分（噪声）的信号路径加入电容器，只有频率高的噪声成分通过电容器后被分离，令噪声不会被传递。去除开关电源中的开关噪声的用途就属于此种目的。旁通电容器必须具备阻抗低（阻抗越低的电容减弱噪声的效果越大），使得噪声电流顺利接地，有效降低噪声电流大小。噪声电流的频率多种多样，根据想除去的噪声的频率来选择容量。多层陶瓷电容器的噪声减弱效果显著优于钽电容器和电解电容器，而且可以使用比钽电容容量小的多的MLCC来替换。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1cCP9VNphZjw9okwbgj0kwENictbeZicwbtt7fYhCax5pFavkfqTcc6pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_003_745d8854aa44.png)
 
 **_图3-3：去耦降噪电路_**  
 
@@ -35,17 +35,17 @@ ___€4.__蓄能电路_
 
 实际情况下，通向IC的负载电流并非定值，在负载电流高速波动时，线电压也会波动，当线电压低于IC的最低工作电压时，IC便会停止工作。此时蓄能电容器可以在电流不能及时到达时补充电流，维持线电压的稳定。蓄能电容要求大容量和低ESR（减小发热）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1gGHQwibDrh6MDxnicWQMY9avSdeeQyhT4xFtUuM0FicLTEiakWvvUXwPTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_004_f1ddabd3de0c.png)
 
 **_图3-4：补充电流时电容器的实际动作_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1ukVBPRyKYxpibzrZibbicVnvp6oUkR8hGeROuv0HpP7VjBKT4CrCAllcw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_005_b350b916ecd2.png)
 
 **_图3-5：充电时也会发生电压的变化_**
 
 由电容量和ESR来决定电压的下降量：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1NSesSpibLwrA875evmyBF9FqCh4qJ8eMPrLibbV2WX2c3qMATRrMqWicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_006_9867bf1b7752.png)
 
 **_图3-6：ESR和电容量的影响，左图是22uF的陶瓷电容，右边是100uF的钽电容_**
 
@@ -55,6 +55,6 @@ ___€5.__耦合电路_
 
 耦合电路是不让直流成分通过而只让交流成分通过的电路。在音频信号的放大电路等中排除直流成分造成的影响（也称之为 DC 截除等）时使用耦合电路。除此之外，还有例如谐振电路、滤波器电路、备用电路、时间常数电路和功率因数改善等各种使用方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1qbib6HuqCAwBjYRRxF5WzmcwA6ejgeibrN77ZOxCjz6uuXAvzrG7vj0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_3_电容的基本功用_images\img_007_57c460f17fee.png)
 
 **_图3-7：使用隔直通交特性耦合电路_**

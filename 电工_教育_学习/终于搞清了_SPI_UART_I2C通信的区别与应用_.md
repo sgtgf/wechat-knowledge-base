@@ -22,13 +22,13 @@
 
 数据位可以通过并行或串行的形式进行传输。 在并行通信中，数据位在导线上同时传输。下图显示了二进制（01000011）中字母“C”的并行传输：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoFb3E8jaruhGXsOIqaNZs4MPwvctLTUpiahqgnAELAXeajJlLViarzPrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_002_35d2cb540495.png)
 
   
 
 在串行通信中，位通过单根线一一发送。下图显示了二进制（01000011）中字母“C”的串行传输：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCocz4hFK3lTBUsJ5q4fC09lDEicb48MMuIYMkITzrevHrtXMkWgicPs8OA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_003_cfc7510a4e92.png)
 
   
 
@@ -52,7 +52,7 @@ SPI是一种常见的设备通用通信协议。它有一个独特优势就是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoKgHoxHtdMJjVtQic8k9XSPG4uKic3JlOHms3wib4n4SILBx9BriatNOqJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_004_7cdfa54ce081.png)
 
   
 
@@ -80,11 +80,11 @@ SPI是一种常见的设备通用通信协议。它有一个独特优势就是�
 
 主机通过拉低从机的CS/SS来使能通信。 **在空闲/非传输状态下，片选线保持高电平**。在主机上可以存在多个CS/SS引脚，允许主机与多个不同的从机进行通讯。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCo9TsDE0Ccv16aSROfnzlayia0VujqA7UdFyaic3cAO3hDVTXRUYhWicWOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_005_7ff6866f8c7e.png)
 
 如果主机只有一个片选引脚可用，则可以通过以下方式连接这些从器件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCobpUaTIdeZo64vQw7vgZSArNOYGWkicuKYia0uibHIlWKqtSbzex7jxibLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_006_f834a7ca920f.png)
 
 **MOSI和MISO**
 
@@ -102,7 +102,7 @@ SPI是一种常见的设备通用通信协议。它有一个独特优势就是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCo6gMHSB6oBU7E0DnDtLia5mJI4FDlShrnPmfNMTYOyteAkQwyvFnrKPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_007_3301cfc1d4b6.png)
 
   
 
@@ -110,7 +110,7 @@ SPI是一种常见的设备通用通信协议。它有一个独特优势就是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCo8STfcMKibwOPWQBWmPw8rUPPOuvjX1YaWw5QeyygCQZXbMYBcPUZejA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_008_353d09f3f84c.png)
 
   
 
@@ -118,7 +118,7 @@ SPI是一种常见的设备通用通信协议。它有一个独特优势就是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoDnoZicib9qGnAG3ctQT7EIKeLWAGsIWtMXZXOq8ktw94OlkiaJbOx2eNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_009_ef28fbc9fae3.png)
 
   
 
@@ -126,7 +126,7 @@ SPI是一种常见的设备通用通信协议。它有一个独特优势就是�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCofiaU3ypibDglPunDg8MZUdiatELzMibCibuHbagTvF5DRvOLg2Hem5MqAXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_010_1871328ac83e.png)
 
 使用SPI有一些优点和缺点，如果在不同的通信协议之间进行选择，则应根据项目要求进行充分考量。
 
@@ -150,7 +150,7 @@ SPI使用四根线（I2C和UART使用两根线），没有信号接收成功的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoK0tydQpwTJqEGITJdk9w7jyvic4zkzhibZVcC3zicy85BJ5QH15pGeIAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_011_a16005fc5c29.png)
 
   
 
@@ -165,7 +165,7 @@ UART的主要目的是发送和接收串行数据，其最好的优点是它仅�
 
 在UART通信中，两个UART直接相互通信。 发送UART将控制设备（如CPU）的并行数据转换为串行形式，以串行方式将其发送到接收UART。只需要两条线即可在两个UART之间传输数据，数据从发送UART的Tx引脚流到接收UART的Rx引脚：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoaOOxtFJ4oWBqxSOLRV0dDFcIicGibCUmmPPFfTTnM2JRR0EdvRuCpY0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_012_a8f901a0cd56.png)
 
   
 
@@ -177,7 +177,7 @@ UART的主要目的是发送和接收串行数据，其最好的优点是它仅�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCo6gDfichjz3et9bGibN8vE1o9vRSrpX5TyTAHOMNrBFsKsV0TV6t2AUyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_013_7ed543f51c1b.png)
 
   
 
@@ -187,13 +187,13 @@ UART的主要目的是发送和接收串行数据，其最好的优点是它仅�
 
 发送UART从数据总线获取并行数据后，它会添加一个起始位，一个奇偶校验位和一个停止位来组成数据包并从Tx引脚上逐位串行输出，接收UART在其Rx引脚上逐位读取数据包。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoDb87zlT6Kb8hIqwibe3Jt7ay7XicDyHp4mVSf3PyHUFEpeDFmrnXU27Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_014_6dbf03009697.png)
 
   
 
 UART数据包含有1个起始位，5至9个数据位（取决于UART），一个可选的奇偶校验位以及1个或2个停止位：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCo9k3v7sdUxaibsSeia2Lhk5ricl98qLx06gjJ1GruqFAfYo008tYZKpJ2A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_015_b4f45c7e7c72.png)
 
 **起始位：**
 
@@ -244,7 +244,7 @@ UART数据传输线通常在不传输数据时保持在高电压电平。开始�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoYk4oEUribDrM3BwibdX9UNnNafpDCXqaLqrZZAweOfaiaxp2v6L7suQibQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_016_c22cf1533d95.png)
 
   
 
@@ -252,7 +252,7 @@ UART数据传输线通常在不传输数据时保持在高电压电平。开始�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCo2QBllWibMgOdgECYzFjHbBPd3PMcuiarqVibrNuGTMfkWh4OUfqExrvuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_017_86d109ec0c2c.png)
 
   
 
@@ -260,7 +260,7 @@ UART数据传输线通常在不传输数据时保持在高电压电平。开始�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoicvQo8ticmYwH8mzoTM1Opzm0IwymSKq9GLlmwypFm8cpOHD4jexUmkA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_018_0418cece35a6.png)
 
   
 
@@ -268,7 +268,7 @@ UART数据传输线通常在不传输数据时保持在高电压电平。开始�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoYOb45WmOcIrD73oexCQCUicdexczHZqvKNezicQUUJYOwlMQSXeOBl9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_019_2ed9e49b74e0.png)
 
   
 
@@ -276,7 +276,7 @@ UART数据传输线通常在不传输数据时保持在高电压电平。开始�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVComMu7KABIfHVbGoOVf9wdmWnp7yOOxHb3zuRaQRQb8InhjShc5FQxpw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_020_41f034e08c58.png)
 
   
 
@@ -324,7 +324,7 @@ I2C总线是由Philips公司开发的一种简单、双向二线制同步串行�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCodpMLoduXjsWG7kudia5NpbV3u1I6N6xw61bw1b244mCAwDjFuMz7VJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_021_57479d47cec3.png)
 
   
 
@@ -336,7 +336,7 @@ I2C是串行通信协议，因此数据沿着SDA一点一点地传输。与SPI�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCof8OZmKCVskjmU7sJJaic6DlAunl7M3Wjnbm8S0UgFgPiaDG7gQ6icUUYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_022_9929511cdbfa.png)
 
   
 
@@ -348,7 +348,7 @@ I2C的数据传输是以多个msg的形式进行，每个msg都包含从机的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCorbM4fiaic8A8jVicY7AE37Bs0aPVZNXwmibVoqKxJUIIxWoJ91TjDySjeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_023_8bc51ebd1cba.png)
 
   
 
@@ -360,7 +360,7 @@ I2C的数据传输是以多个msg的形式进行，每个msg都包含从机的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoEAQrn4m5vWgyE2upOSqNiciba1gLYzUcmpwPfnSorqFDndtRepiczANeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_024_8dcd170e3d78.png)
 
   
 
@@ -408,7 +408,7 @@ ACK/NACK：消息中的每个帧后均带有一个ACK/NACK位。如果成功接�
 
 2\. 主机向总线发送要与之通信的从机的7位或10位地址，以及读/写位：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCof8Fy1icYHZcL96DT2GDwebMfib1OOHjgodEwm7J5OQgE0ib6tpeNC3N7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_025_d71b8891be38.png)
 
   
 
@@ -416,7 +416,7 @@ ACK/NACK：消息中的每个帧后均带有一个ACK/NACK位。如果成功接�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoRUSx5XSIic3t2uQ8MP3YDjZUK2GYAhK9icPmsov0y7Yqzjhz3ibJxG4Hw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_026_b1707fb5cb72.png)
 
   
 
@@ -424,7 +424,7 @@ ACK/NACK：消息中的每个帧后均带有一个ACK/NACK位。如果成功接�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCokFRYTyTqMzrcFJjibAgr0y5U8ZGkIMgsOuhibLFkD5YILXn1Ldia4ehBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_027_2b193614f20f.png)
 
   
 
@@ -432,7 +432,7 @@ ACK/NACK：消息中的每个帧后均带有一个ACK/NACK位。如果成功接�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoTkKTw9uUAJyfISiaibicDujJqJjMsgAPb3LSvNojfB6qmqnOiblFbau3Yw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_028_46a0d065c7e2.png)
 
 6\. 随后主机将SCL切换为高电平，然后再将SDA切换为高电平，从而向从机发送停止条件。
 
@@ -442,13 +442,13 @@ ACK/NACK：消息中的每个帧后均带有一个ACK/NACK位。如果成功接�
 
 由于I2C使用寻址功能，可以通过一个主机控制多个从机。使用7位地址时，最多可以使用128(27)个唯一地址。使用10位地址并不常见，但可以提供1,024(210)个唯一地址。如果要将多个从机连接到单个主机时，请使用4.7K欧的上拉电阻将它们连接，例如将SDA和SCL线连接到Vcc：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoUYKnwW8OQvL03SO2ia2tm04YgOpwKHQDdYWZ3rEDAE2P7CvEuCJdneg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_029_9a4029b8d4ac.png)
 
 **多个主机VS多个从机**
 
 I2C支持多个主机同时与多个从机相连，当两个主机试图通过SDA线路同时发送或接收数据时，就会出现问题。因此每个主机都需要在发送消息之前检测SDA线是低电平还是高电平。如果SDA线为低电平，则意味着另一个主机正在控制总线。如果SDA线高，则可以安全地发送数据。如果要将多个主机连接到多个从机，请使用4.7K欧的上拉电阻将SDA和SCL线连接到Vcc：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FO6Wu0mExhp0Ne2ibOrmQVCoibvZH6qMHDaN1YqDLEM47RrVzEK5wDOlXdqShgkmibGRibz9UYVSibIibmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_030_450184ec0458.png)
 
   
 
@@ -519,4 +519,4 @@ I2C支持多个主机同时与多个从机相连，当两个主机试图通过SD
 
   
 
-****觉得内容不错的话，欢迎分享，点赞，在看******![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FN0h1dvAiaKt7ITP9EYBbIyOGvA1H5PkiaL9NQSoDNoq7Y5kBH8qNziaIYhBZyFibBqNXRHh3ZukzICvg/640?wx_fmt=gif)**
+****觉得内容不错的话，欢迎分享，点赞，在看******![](D:\电脑文件\公众号知识库\电工_教育_学习\终于搞清了_SPI_UART_I2C通信的区别与应用__images\img_031_642a876b39bd.gif)**

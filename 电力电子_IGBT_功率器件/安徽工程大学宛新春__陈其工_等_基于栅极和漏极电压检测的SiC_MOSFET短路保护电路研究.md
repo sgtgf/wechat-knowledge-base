@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QrHibLgalBZmeEtF7tYtwXSnibmNbSJ2olIKHicRguSPvniaobkXa6jZK2hM9hfX2ibSEGPFxj33ecphw/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_gif/WRO0RgZZ75QJAkfmoBLHoWRP2TAwUaHB74ic6HGUYXvlbQ5WzKZ30UMqgXsQa5msvPbFjLU9GGpoT7QmriaTajPg/640?wx_fmt=gif&from=appmsg)](http://www.njyxdq.com/)
+[![](安徽工程大学宛新春__陈其工_等_基于栅极和漏极电压检测的SiC_MOSFET短路保护电路研究_images/img_000_aee40b401544.png)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\安徽工程大学宛新春__陈其工_等_基于栅极和漏极电压检测的SiC_MOSFET短路保护电路研究_images\img_000_4cbe5da63430.gif)](http://www.njyxdq.com/)
 **阅读提示：本文约 2400 字** 
 > 在电力电子领域，SiC MOSFET作为一种高性能的功率器件，其短路保护技术一直是研究热点。本文提出了一种基于栅极和漏极电压检测的短路保护电路，旨在解决传统保护方法速度慢、适应性差的问题，为SiC MOSFET的可靠应用提供新的解决方案。
 **研究背景**

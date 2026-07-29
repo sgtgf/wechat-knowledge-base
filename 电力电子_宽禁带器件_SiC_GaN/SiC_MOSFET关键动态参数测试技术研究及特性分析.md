@@ -32,7 +32,7 @@ SiC MOSFET在开通和关断过程中， 驱动电路需提供足够的功率�
 
 在实际工程应用的设计环节中， 对于器件选型这一关键步骤，SiC MOSFET的动态特性参数在全面评价其电气性能的优劣与系统长期运行的可靠性方面至关重要。SiC MOSFET在应用过程中主要工作在开关模式下， 结合对各大厂商SiC MOSFET动态测试记录的动态参数， 本文关注的关键动态参数包括开通延迟时间td,on 、 关断延迟时间td,off、 开通上升时间tr、 关断下降时间tf、 开通能量损耗Eon 、关断能量损耗Eoff， 各参数示意图如图1和图2所示。 在开通阶段， 栅源电压VGS上升到10%至漏源电压VDS下降到90％的这段时间被定义为开通延迟时间。 在关断阶段，VGS下降到90％至 VDS上升到10％的这段时间被定义为关断延迟时间。 在开通阶段，VDS从90％下降到10％所需时间被定义为开通上升时间。 在关断阶段， VDS从 10％上升到90％所需时间被定义为关断下降时间。Eon为单次脉冲开启过程中内部耗散的能量， 即对时间的积分， 积分时间自VGS上升至10％时刻 （t3） 起， 至 VDS下降至2％时刻 （t4 ） 止。Eoff为单次单脉冲关断过程中内部耗散的能量， 即对时间的积分， 积分时间自VGS下降至90％时刻 （ t1） 起， 至漏源电流 IDS下降至2％时刻 （t2） 止。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicuO5JWpwPX2uibNetO947F7vJTpm2TiaAqpg7PoCahY80CLQCkaBpiaH5w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_000_2309ba00a9a3.png)
 
 2.2 关键技术开发
 
@@ -40,11 +40,11 @@ SiC MOSFET在开通和关断过程中， 驱动电路需提供足够的功率�
 
 传统功率器件双脉冲测试平台的换流回路中存在较大杂散电感， 使得器件在开通和关断瞬间承受着非理想的电气应力， 导致测试结果的准确性与可靠性存疑。 因此换流回路的低杂散电感是获取器件真实开关特性的重要前提和保障， 有助于测试容量的拓展。 该双脉冲测试平台采用叠层母排的设计方案， 如图3所示， 其磁场分布如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicWLPDHhj4tpE9LFic9bc7Yg6CPWIohZ7ib6p3XXfvbuIBPrN4W0aTTfsQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_001_4138121842cf.png)
 
  叠层母排结构由导电材料和绝缘材料叠加而成， 绝缘材料将导电材料隔离。 然后将导体层和绝缘层通过压合、 粘结形成一个整体。 当两层导体中流过反向电流时， 叠层结构母排中磁场重叠更多， 从而可以抵消更多的磁场。 综上所述， 叠层母排结构可以使功率回路的杂散电感更小， 由此SiC MOSFET的开关特 性 在 测 试 结 果 中 能 够 更 加 准 确 地 反 映出来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic04x8gjlX8hmE9r7NojYTGOJv0fibhJPvBGQ3EKnB0xm8mjHqAlqjRnw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_002_3cce560ac9d1.png)
 
 在设计过程中通过软件仿真， 提取搭建的双脉冲测试电路中的寄生参数， 根据分析结果完善测试电路板的布局布线， 优化寄生参数， 最终完成测试电路的硬件设计。 功率回路中寄生电感参数最终仿真结果如图5所示。
 
@@ -54,13 +54,13 @@ SiC MOSFET在开通和关断过程中， 驱动电路需提供足够的功率�
 
 SiC MOSFET正常工作时， 栅极正压过小会导致器件在饱和区工作， 大幅增大器件的导通损耗，同时降低器件的开通速度， 增大开通过程能量损耗， 器件寿命会严重受发热情况影响。 因此，功率器件应避免工作在较低的栅极电压下。 然而过大的栅极正压会对栅极氧化层造成永久性损伤， 缩短器件使用寿命， 故也应避免工作在过高的栅极电压下。 总之， 在驱动保护电路中设计过欠压保护电路是必要的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicDbruCURmcriaia1fLnL8ibD0pvG6XcfTyx4ElCSnYvkbC3H7ciaS2jtLPQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_003_7403e6390b9e.png)
 
 本次设计的过欠压保护电路拓扑图如图6所示， 其由3个电压比较器、3个功率器件以及电阻组成。SiC MOSFET 开通时， 通过检测驱动正压Vcc进行栅极过欠压保护。 数字化模块中3个电压比较器均采用单电源+20V供电， 受限于电压比较器输入电压， 需对栅极驱动正压进行分压处理， 将处理后的电压信号输入至电压比较器， 则有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicVDibTBgdywxQO5LHOAM8nBoktyicss4qjAicrSK0icB2dicQOMvVD9bQL3w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_004_147346e0d220.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic7dtSXS7H6HS2fBk2DVOEw6hmC0gLAJKq54j5riaZalWibibGgp1qBgHLQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_005_70b63e62d6df.png)
 
 式中： VDD为器件内部工作电压； Vref1 、 Ｖref2 、 Ｖref3为参考电压。
 
@@ -74,33 +74,33 @@ SiC MOSFET正常工作时， 栅极正压过小会导致器件在饱和区工�
 
 2.3 测试平台实现
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic3fDNIlpzAQxHzDAptKtXFvIaFsEU8rDEJ3rospXLmP85BwWgGbiaH7w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_006_d28be2db36a5.png)
 
 双脉冲测试平台由双脉冲测试印刷电路板（PCB， 图7）、 示波器（ 带宽 200ＭＨｚ， 采样率6.25GS／s）、 任意波函数发生器 （带宽250ＭＨｚ，采样率2GS/ｓ）、 光隔离探头（带宽1ＧＨｚ）、 高压差分探头（带宽200ＭＨｚ ）、 无源探头（ 带宽１ ＧＨｚ）、 罗氏线圈（量程120Ａ） 和电流探头（带宽50ＭＨｚ） 等仪器仪表组成。 搭建的双脉冲测试平台如图8所示， 可针对 ＴＯ⁃２４７⁃３ 和 ＴＯ⁃２４７⁃４封装结构SiC MOSFET完成上、 下开关管动态性能测试以及续流二极管性能测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicVdnibFLWXkAyfsMfoAh2lWOwWJiaNrGlngbj2c1kDuLId1zYdxrA3zkg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_007_aeced908a863.png)
 
 SiC MOSFET具有开关速度快的显著优势， 因此测试设备带宽要足够高以满足测试要求， 同时较快的开关速度要求测试设备具有较强的抗干扰能力。 其中电流探头选择应主要考虑带宽及绝缘能力， 而电压探头选择则应主要考虑带宽及测量电压等级， 示波器作为信号采集的主要设备， 其带宽决定着采集数据与实际数据的匹配程度。 传统功率器件双脉冲测试平台采用高频电流探头和罗氏线圈来测量漏源极之间的电流。 传统的高频电流探头的量程较大， 导致带宽较低， 而带宽较高则会导致量程较小， 量程和带宽无法同时兼顾； 罗氏线圈通过磁场的变化来测量电流， 由于功率器件的开关速度快， 电路中的寄生电感、 电容所产生的磁场对罗氏线圈产生影响， 使得测量存在一定误差。 针对上述问题， 本文搭建的双脉冲测试平台加入了同轴分流器来测量漏源极之间的电流。 同轴分流器是一种纯电阻的结构， 该同轴分流器带宽可达400ＭＨｚ， 量程可达 100Ａ， 通过同轴分流器测量电流可减小测量误差， 获得更精准的器件电流信息。
 
 同时该双脉冲测试平台的探头接口采用SMA、BNC和MMCX同轴接口， 同轴接口相比于传统接口通过接地回路测量缩短了测量路径， 减小了测量电路的寄生参数， 而且同轴接口与同轴线缆配合使用可以保证阻抗恒定， 确保信号传输正确， 进而减小测试过程中对测量信号产生的干扰。 本文设计的双脉冲测试平台参数如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicm60jGRZeHuKbNClSzJK6BlR67TDGR9tWOlib3psNVNfuwRddBIqohSg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_008_cb2c77b20af0.png)
 
 ３.  SiC MOSFET 动态参数测试及特性分析
 
 由于 SiC MOSFET 的动态特性参数与其结温 θｊ密切相关， 器件动态参数的测量均在指定结温 θｊ下完成。 因此本次测试在不同结温下完成， 根据测试结果对器件动态特性与结温的关系进行全面的评估。 选用器件信息如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicqicvXyf8TnmRjGL7z5EXSbxR1Wvss3GgY9eg2qMVWicTn2akpLCqXA6A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_009_04ea07de930e.png)
 
 3.1   IDS随结温的变化
 
 分别在25、100和150℃结温下对各厂家不同电压等级器件进行测试， 得到器件IDS开通和关断波形如图9～14所示。 可以发现， 不同结温下器件IDS开 通 和关断波形存在较为明显的差异。SiC MOSFET的 di/dt绝对值在开通阶段具有正温度系数， 而在关断阶段具有负温度系数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicXTYsJibticS1Kr1KxI2ZdR4rhWicOedGacqoOA2HvwIl4JA3aWaicpqwgw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_010_34577101e734.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicK6qpe4QZC4OH6K339CjQKc3TDTdonZ03CXeWP9uOwhET8etvCX1mCQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_011_a7ba85ff84b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicgVLzVCWxJdZibVicE8dPXMCETKAZ9kwgwhPxLicgJ35N3YPJlb6rhiaRMA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_012_c846400d281b.png)
 
 分析其原因为： 阈值电压随器件结温升高呈现负温度特性， 开通过程越快， 开通电流峰值越大；关断过程随结温升高而变慢， 关断电流峰值减小。在桥式电路应用中， 由于上、 下开关管通常呈现互补导通状态，SiC MOSFET开通电流峰值由与其进行换流对管的体二极管反向恢复电流形成。 随着结温升高， 器件体二极管反向恢复电流峰值增大， 导致开通阶段IDS峰值随结温升高而增大。
 
@@ -108,29 +108,29 @@ SiC MOSFET具有开关速度快的显著优势， 因此测试设备带宽要�
 
 分别在25、100和150℃结温下对各厂家不同电压等级器件进行测试， 得到器件 VDS开通和关断波形如图15 ～20所示。 可以发现， 不同结温下器件VDS电流开通和关断波形没有较为明显的差异。开通过程统一表现为随结温的升高dv/dt绝对值增大， 关断过程统一表现为随结温的升高dv/dt 绝对值减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic3ib9MSYLaSLvSznD5HAMzkAA0OF74fNZVZIf0CFNcd3ia9xlCmwJglqg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_013_acdc56666fc2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic8q6jPztW8d3O0oEicRJCt0YichWfIl5wZqZR9mhk1nQwxNJCICXhMkuQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_014_fa4330c75651.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic3OAfJvOicEPcgRbjkBAGHMMghsMDOEdA43RXCHGrcBm2WBIbMU8NyeA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_015_d2a57d9ac421.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicrF13xicX9JlYmpsCuBW9NQMS1q3ia3bnmbJ737qYgfRoBp9qfOZfGehA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_016_95ed8da2c73f.png)
 
 开通过程中VDS为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzics4jEVibYdmJOSia8hdAOhBiaWKS8p5nuNXAztQ0TA6EULaQE8XCiclzY2w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_017_4eccdbe400d3.png)
 
 关断过程中VDS为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicSq300YdUBdice34vxpX0nia74GgC4PCgkv7Hzic8U4PSichXzDJE5Unyiaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_018_14d5a1be9043.png)
 
 式中：IL为负载电流；VP为正驱动电压；VPL为驱动负压；Vth为阈值电压； RG为驱动电阻；CGD为栅漏电容； gm为跨导， gm＝μWCox/2L， 其中 μ 为载流子迁移率， Ｗ 为器件沟道宽度， Ｌ 为器件沟道长度，Cox为单位面积栅氧化层电容。
 
 将式 （4） 、 （5） 对 θｊ 进行求导， 得到开通、 关断过程中电压变化率与温度的关系分别为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicjftzYFAm6JciaJsCYrnTkFbzdtxwarwMxz9SjJkgR0gWI3NWxpl6BDw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_019_51f2d2baa029.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicEfibXYLCic5wicv1yDct7iaRITw1ObQv13LQ7ZbPOUbicvWQ34gAqRcZY1Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_020_c57b645fe5c9.png)
 
 式中Id为漏电流。 寄生电容主要受其两端电压的影响， 结温对驱动电阻的影 响较小， 因此，结温对上述参数的影响可忽略。 而跨导具有正温度效应， 阈值电压具有负温度效应， 所以在开通过程中VDS变化率具有正温度效应， 随 结温的升高VDS变化率增大； 在关断过程中VDS变化率具有负温度效应， 随结温的升高VDS变化率减小。
 
@@ -138,49 +138,49 @@ SiC MOSFET具有开关速度快的显著优势， 因此测试设备带宽要�
 
 分别在25、100和150℃ 结温下对各厂家不同电压等级器件进行测试， 得到器件VGS开通和关断波形如图21～ 26所示。 可以发现， 不同结温下器件VGS开通和关断波形没有较为明显的差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic5H8sTDfraSvK7ibSXpg4eicZAgaaia8XxH59w1iczib2FXorNKuElcQAzjw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_021_412f6511d64b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic4GxEibibewdGFRt7b3MN7Kdsj1CZAw9wSHs4XrVuncLEFKMBqQ2y9kLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET关键动态参数测试技术研究及特性分析_images\img_000_527a14bc2e93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicU8y2eeicerkibP9vF7ibmdOzJGUJYra0UmfdGW3kHEegGswubulMPTXjw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_023_1042099501b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic9zI6SAtqb7Wq4yibV1RZMXs0SSzGlk0PPyvgNLjoPbEp8KM2bjDxpXw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_024_997b009bc029.png)
 
 分析其原因， 在开通和关断过程中VGS为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicnToAbufF6jUnPoNcx9IQfTUajJXjdibNYXaza0SBUDBOKKs9SYD0lNQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_025_0ed9fd052ed7.png)
 
 寄生电容主要受其两端电压的影响， 结温对驱动电阻的影响较小， 故结温对栅极电压的影响同样较小， 在实际测量过程中VGS在开通和关断过程中只有百皮秒级差异， 在SiC MOSFET使用过程中可以忽略不计。
 
 3.4  关断能量损耗随结温的变化
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicPF8pAqvREM7aznBVuHDpf0ibibQz51jdKhCn5Y0K0odCdBxl2X60ibgZw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_026_3fbf3a27dea9.png)
 
 如图27所示， SiC MOSFET关断能量损耗随结温上升而增大，Eoff为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic9q5Rb3mbpOBgNecXx26ibclQkZyLwC0vzcCHPdHMT0R7OIDnkQ0X8qA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_027_580ba55fbcf7.png)
 
 Eon为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicOycTSvdZUHPr3WcoKr7gaCbQTtJPc8UGndic1SelmsicLrzcCiauiaRk3A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_028_6062ae774c9e.png)
 
 如图28和图29所示， 随着结温的升高，td，off、tf不断增加， 故在关断过程中， 漏极电流与漏源电压之间重叠时间更长， 因此关断能量损耗计算公式中 t2－t1更长， 关断能量损耗随结温的升高而增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzich6nYBhcrbXGNoXCicUR1n1nPIoIuPmIH2lzkhRm6fDrZqocYmvtQHUw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_029_1ca857cdf37c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicDs69eeKHQfI8SYeicbic6LmkwdGJkw43uj5ibzNE3oXoicPib7gtPZncVrg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_030_ec46acf95564.png)
 
 3.5  开通能量损耗随结温的变化
 
 如图30所示， A厂家和B厂家SiC MOSFET开通能量损耗随结温上升而减小， 而C厂家的SiC MOSFET开通能量损耗随结温上升而增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic7wKMV3rWxYIehib57qkVof2GOicarhkl4V0ZhbVUic3vqpIdn0iaL4X1sg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_031_a9d3d0e67fd0.png)
 
 如图31和图32所示， 三个厂家不同电压等级SiC MOSFET的td，on和tr对结温的敏感性不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicP9bNMgQK1D0cXPOvpoPltKRdiaqoYcOJlHibZZWf55Zw9WjaXKBzHxQg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_032_4be4b16e8261.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicLtCmZdPYj8r9OVk9vYdQZblvkibcibsGZraELoxq8IZv55XnVkwvU7Kg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_033_67f20c4c1258.png)
 
 对于1200V器件， 三个厂家SiC MOSFET的td，on对结温的敏感性均较低， A厂家和B厂家SiC MOSFET的tr随结温上升快速缩短，C厂家SiC MOSFET的tr随结温上升缓慢增加，A厂家和B厂家1200V的SiC MOSFET上升时间随结温上升而缩短， 故开通过程中漏极电流和漏源电压的重叠时间更短， 因此开通能量损耗计算公式中的t4－t3更短， 开通能量损耗随结温的升高而减小；C厂家SiC MOSFET的开通时间随结温上升变化较小， 所以在开通过程中开通能量损耗变化较小。
 
@@ -194,10 +194,10 @@ Eon为
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_034_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_035_3ade3c3d8599.jpg)![](SiC_MOSFET关键动态参数测试技术研究及特性分析_images/img_036_84aa944feb13.jpg)

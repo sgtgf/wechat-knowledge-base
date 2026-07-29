@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCx9tg5pFbWjERqI1UOyb9euvib7RwSAxz9aSboPZwGrNC7iaeJ5U3wuZA/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_000_263a9b3407da.png)
 
 智能电网
 
@@ -38,7 +38,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXChHLiauHSeibhjtZIC6Qy7nOm06duNuibZuiasCPFvib78unt8Hu0ln93SHA/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_001_fc8009a73e73.png)
 
 拒绝服务攻击下基于改进UKF动态状态估计流程图
 
@@ -48,37 +48,37 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCpPYzvjrqyoya6vte0650BOq1ibbySkgNuXYt9evRaR7hbDf4XFBIxtA/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_002_d7756685c832.png)
 
 **作者简介**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCzbKZVCYNSClDq3wQReWUOUxadN9XQe9KRy5hgbrf8ysx8LQKaKq60g/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_003_f68a20e71921.png)
 
 李雪，上海大学机电工程与自动化学院副教授。主要研究方向为智能电网安全控制与性能评估。
 
 E-mail: lixue@shu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXC5HAXp56mjBQnqfcmFaIVmnYF7DnfriadNw4fwhRWAzZBOR3iasz40VOg/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_004_47a335ae4471.png)
 
 李雯婷，上海大学机电工程与自动化学院硕士研究生。主要研究方向为网络攻击下智能电网状态估计及性能分析。
 
 E-mail: lwting@shu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCOX1LL6rmtWGJSeme3icGAEWnJvibHLgam3XuFeDdVicWM3DKAPkPLmxmQ/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_005_02c27b8cc867.png)
 
 杜大军，上海大学机电工程与自动化学院教授。主要研究方向为机器视觉和网络化系统安全控制。本文的通信作者。
 
 E-mail: ddj@i.shu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXC7BIyDxVx4oCHBAssK7zdxRr4CKqU51TcMuyjE1zVsS7HtU4iagBTY8Q/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_006_4397d24ac352.png)
 
 孙庆，上海大学机电工程与自动化学院博士后。主要研究方向为混杂系统的状态估计及其应用。
 
 E-mail: qingsun@shu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCnlWicBialXawXfRmsIsgRaMaib1eTic5RPZF59uZghac16lCeHsSNVpRGw/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_007_63265e345ddd.png)
 
 费敏锐，上海大学机电工程与自动化学院教授。主要研究方向为网络化控制系统及实现。
 
@@ -162,21 +162,21 @@ E-mail: mrfei@staff.shu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCktrWt8r7dzb8BoJuPiaMRVVwJ7ia0ApUhfibBaic3E80AbOibw45rwUn8Ww/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_008_57ff06b7ba5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCnicOYicU3rXkJB0X1iaL37meZ2ZdEMulmchI2lChnw24PeLuLZRXBlASg/640?wx_fmt=jpeg)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_009_80f86133bc8c.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCktrWt8r7dzb8BoJuPiaMRVVwJ7ia0ApUhfibBaic3E80AbOibw45rwUn8Ww/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_010_57ff06b7ba5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCEX4cvmpEm7q9CdjNU7UPSWnKWxbkmWenyiapSu1mS4yoYXvEUrbmDsg/640?wx_fmt=jpeg)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_011_24f13aa47685.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCktrWt8r7dzb8BoJuPiaMRVVwJ7ia0ApUhfibBaic3E80AbOibw45rwUn8Ww/640?wx_fmt=png)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_012_57ff06b7ba5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47sib9Fica5RkyzFo23lkauXCZHib0UQcchLELH3jao4RlXvoFusoI0GaOcwu4HYq3zWkvEcZSp3L2Sg/640?wx_fmt=jpeg)
+![](拒绝服务攻击下基于UKF的智能电网动态状态估计研究_images/img_013_1ce499f7ac2f.jpg)
 
 自动化学报订阅号
 

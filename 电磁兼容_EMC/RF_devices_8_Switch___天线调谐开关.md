@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/yLj2B8lEqLsw6sx6ApxFzw](https://mp.weixin.qq.com/s/yLj2B8lEqLsw6sx6ApxFzw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziaricKHVaC8kDzrswVtkt3exNT6boTPalV09drswRMmKZvOeZ2B0Ufhh2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_000_a35905a34e8f.png)
 
 ____**★★★**______SWITCH-3---天线调谐开关______**★★★**____
 
@@ -11,7 +11,7 @@ ____**★★★**______SWITCH-3---天线调谐开关______**★★★**____
 
 ___€1.器件结构___
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarmNRicKviag7YW4Nwgl7OrtrdOhduKBWtp8aEChKkzDrsF6n44FExkdeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_001_5f7e9cf8b24e.png)
 
 **_图8-1：天线调谐开关内部结构_**
 
@@ -23,19 +23,19 @@ ___€2.器件使用方式___
 
 简单来说调谐开关是在天线和地之间连接一个开关，在开关和辐射元件之间添加不同的调谐组件（电容或电感），用来调节天线的谐振频率，匹配设备通信当前使用的频率，灵活支持不同的频段。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziar3P13eb7fdtCl9lrzZ7RbgsU2go6VO29AbBFoib1MbNCf37ozjbjiav4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_002_5521fc998fcd.png)
 
 **_图8-2：天线调谐开关内部结构_**
 
 天线调谐开关最基本的两种方式，如**_图8-2_**所示，开关断开为最原始状态，在经过计算的位置开关闭合，调整馈线长度，进而调整波长，改变天线的最佳工作频率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarYJqpIk9Fg49QFLdMEZibEWFY5pcoZRz9XMN8bdas9PicUMtelib0ECeLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_003_8a3a7f090df7.png)
 
 **_图8-3：天线调谐开关内部结构_**
 
 天线进阶调谐的两种方式如**_图8-3_**所示，通过在合适的位置并入小电感或小电容，主动调整天线的寄生参数，改变频响，将天线的偏移到最佳工作点。**_图8-2_**和**_图8-3_**中的每个组件都连接至一个简单的开关，但在一些应用中（例如手机主天线），可以使用更复杂的多掷开关来连接多个调谐组件，支持更宽的频段范围，如**_图8-4_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarGruo60KuzcFqRQprmaOvGibvia8bgqv9e8roRU68GYdocic4VUMFMCt5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_004_f5fb1f7e16c7.png)
 
 **_图8-4：单根天线的多调谐示意_**
 
@@ -43,7 +43,7 @@ ___€3.器件关键参数___
 
 如**_表8-1_**所示，天线调谐开关的参数，最重要的是COFF、RON，其次是隔离度、VPEAK。COFF是天线调谐开关处于打开状态时的寄生电容，降低COFF可增加天线调谐开关的Q值，从而影响到天线效率和有效调谐范围，COFF通常是以毫微微法拉（fF）为单位计量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRYE525dojXxBLQCNfTM26ZibWJANUQxjcvWDWy4eRhz5WYiaJoibG1mKa6XBQr7G5bmruzBoxMLUYlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_005_b1b2b7e3ce41.png)
 
 **_图8-5：COFF和RON的定义_**
 
@@ -51,9 +51,9 @@ RON为天线调谐器开关打开时的等效电阻，降低RON通常会提高�
 
 VPEAK是天线调谐开关在实现可接受谐波性能的同时， 可支持的最大电压，在指定的天线调谐器VPEAK值下，谐波（2fo和3fo）将低于-36dBm，VPEAK以V为单位计量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQiaibpXgGwibnlBlOBc6JAuMp2K6F11SIAJq1b3NaYE2Stc9dtSPgYcP8VkC3YR5ldEb7NDFyWwHD9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_006_aa3788ae0a65.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjjINxgpbiaMbkjkL1stbuoreApzicsq0bhaYt85TAO72bwiamZlaicyygf1ja0HcmfgicfkoLicFQJzMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_007_487172e1229c.png)
 
 **_表8-1：天线调谐开关的参数_**
 
@@ -71,7 +71,7 @@ ___€4.器件的选用___
 
 孔径调谐的本质是一个将调谐元件置于发射结构的适当位置，且不直接连接到天线馈电的匹配电路，以此保证天线发射效率最大化，并防止在频谱内操作过程中馈电点阻抗发生变化。当调谐元件被置于最高电压配电位置时，孔径调谐功能最为有效，因此天线调谐开关所需的VPEAK由开关所在的位置以及它与天线短路销钉之间的接近程度决定，如**_图8-7_**所示：越接近天线的短路销钉，VPEAK越低；越远离短路销钉，VPEAK越高，由于这些因素，天线调谐开关上的最大电压要远高于天线馈电点上的电压。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRYE525dojXxBLQCNfTM26ZRUwDWnUNXrtZuWeJ3UKwt89NPibZWMiaD0dgZOYAh2hsbVZZaywd2COQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_8_Switch___天线调谐开关_images\img_008_620f24bce88f.png)
 
 **_图8-7：不同调谐位点的VPEAK_**
 

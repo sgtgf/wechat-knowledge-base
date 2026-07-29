@@ -13,7 +13,7 @@
 
 电网采用交流输电方式将发电机的能量输送给负载。但是，许多现代电子负载（比如计算机处理器）都需要直流电（DC）。因此，大多数现代电子负载输入处的电源单元（PSU）需要将AC转换为DC。另外，这种PSU还得将电压转换为所在系统所需的电平，以驱动最终负载。在许多情况下，DC-DC转换部分还扮演着电流隔离的角色，对系统起保护作用。如果系统所需的功率较低（通常不超过3.6kW）的话，一般输入系统为单相AC输入，电压在85V至265V之间，频率为50 Hz或60Hz（取决于国家和地区）。单相电源单元的一般结构如图1所示。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGk3xlLB7icRqTkQsDreyY19eeWrfRB6JOEiaTJKT72ibZryL8CTJSOH2Fw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_000_0fa58a749c6f.jpg)
 
 _图1  单相电源单元的一般高层结构_
 
@@ -25,7 +25,7 @@ _图1  单相电源单元的一般高层结构_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGK1j6t3GwwiaC53aHy1ZKt8yREibVFSQKS973dlmZao2jUiclujqPOaR3A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_001_4e80aff2f932.jpg)
 
 _图2  单相PFC的常见拓扑结构_
 
@@ -41,7 +41,7 @@ _图2  单相PFC的常见拓扑结构_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczG1hDQ4UtNdvRv2j3PzTkpFYfPla5HqKx6aolTyUUDS5Vok9hKeheWZA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images\img_000_2c4add9cac7c.jpg)
 
 _图3  图腾柱PFC中的电流路径_  
 
@@ -51,7 +51,7 @@ _红色：充电电感的电流路径，绿色：续流路径_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGiaxUI5CX9z5ciad7joBpnqnC7hC7Hfve4uExb3GdDyptFUfr8y9gTCTQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_003_100d2cc1c62d.jpg)
 
 _图4   Q1和Q2的理想电流和栅极信号_
 
@@ -63,7 +63,7 @@ _图4   Q1和Q2的理想电流和栅极信号_
 
 为了说明基于SiC MOSFET的图腾柱PFC的性能，我们设计了一个验证模型，其技术规格如下所示：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGpO9XibsKS8d6ia68OxjNC1DzAiaSEf5OXrnDqiaIxpNTeJFRKnR4LCbcLg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_004_6d530a886c61.jpg)  
 
 验证模型的照片如图5所示。尺寸和紧凑性不是本次设计的主要目标，因为我们的主要目的是能够轻松访问转换器的各个关键部件，以便进行测试。在测试系统中，高频开关（图3中的Q1/Q2）采用650V 60mΩ 沟槽结构SiC MOSFET（SCT3060AR），其封装为TO-247-4L；运行在电网频率上的支路则采用600V 60mΩ Si SJ MOSFET(R6047ENZ4)。对于所选开关频率和最大输出功率，60mΩ SiC MOSFET可以在开关损耗和导通损耗之间实现良好的平衡。如果想进一步提高效率，我们可以用具有更低RDS(on)的MOSFET来替代工作在电网频率下的SJ MOSFET，因为这些组件的开关损耗无关紧要。  
 
@@ -73,7 +73,7 @@ BM61S41RFV，以充分利用TO-247-4L的驱动检测引脚。为了驱动Si SJ M
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGrrPEI7jM6ygghg8wkSbnJnbWkiadwiabDb6uWBKJWvaxNoibGN5rxIyvA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_005_f17062a0201a.jpg)
 
 _图5  3.6 kW图腾柱PFC的验证模型_  
 
@@ -83,7 +83,7 @@ _图5  3.6 kW图腾柱PFC的验证模型_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGeTic9ibkcIeunbjzTBqeW5E8N6TXUer7jicg3wyoYKiads4iaOoadv3nTUA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_006_1bdf5ad7b0f4.jpg)
 
 _图6   图腾柱PFC验证模型的实测效率(Vout = 400 V, fSW = 100 kHz, SCT3060AR, R6047ENZ4)_
 
@@ -91,7 +91,7 @@ _图6   图腾柱PFC验证模型的实测效率(Vout = 400 V, fSW = 100 kHz,
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGSs08xcEJz5h3Rwe8Xxib8YnatEr2unW5TheUUaVcxvShkoI1Qpm93icg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_007_ee6fa2abebbe.jpg)
 
 _图7  半导体器件外壳的温度测量值(Vin\=230V, Vout\=400V, fSW\=100 kHz)_
 
@@ -103,4 +103,4 @@ _图7  半导体器件外壳的温度测量值(Vin\=230V, Vout\=400V, fSW\=100 
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_008_3ade3c3d8599.jpg)![](SiC_MOSFET器件在工业电源图腾柱PFC中的应用_images/img_009_84aa944feb13.jpg)

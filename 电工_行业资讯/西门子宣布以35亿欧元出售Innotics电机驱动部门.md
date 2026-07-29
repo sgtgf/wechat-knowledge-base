@@ -1,0 +1,58 @@
+# 西门子宣布以35亿欧元出售Innotics电机驱动部门
+
+原创 电机新视界 2024-05-23 17:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/vJ4Wm1bMoYbGS0V4Kbbtyg](https://mp.weixin.qq.com/s/vJ4Wm1bMoYbGS0V4Kbbtyg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vnX1lWHoFibqUI1eNcg9vflNcVlSB8kBgOtVA8Ygm35kunaly4sHD18CNj06oiabQHJB1eodW2qulg/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+
+  
+
+来源：国际电子商情
+
+据西门子官网显示，该公司将以35亿欧元（当前约合38.12亿美元，275.34亿元人民币）的价格将其电机和大型传动公司茵梦达（Innotics）出售给一家私募股权集团KPS（KPS Capital Partners,LP）。
+
+  
+
+西门子董事会已批准该项收购，该交易预计将于2025财年上半年完成，这是西门子重组其投资组合的最新举措。
+
+  
+
+资料显示，Innotics是电机和大型传动公司，拥有约15000名员工。2022财年公司营收达33亿欧元（当前约259.05亿元人民币），公司旗下产品组合涵盖了广泛的工业应用，包括能源、制造、基础设施和交通运输等领域。
+
+  
+
+据悉，2022年11月，西门子决定将其大型传动和电机业务从核心业务中分拆出来，合并为一家独立公司，并于2023年顺利实施分拆计划。西门子将大型传动事业部、西门子数字化工业集团以及独立运营的Sykatec公司和Weiss Spindel Technologie公司的相关业务拆分重组，成立了Innotics，整合了压至高压电机、减速电机、中压变频器和电主轴等业务，并提供相关的服务和项目支持。
+
+  
+
+在拆分期间，客户和市场的积极反馈及业务增长，凸显了Innotics作为大型传动和电机公司的市场优势，以及满足客户严格产品要求的技术能力。
+
+  
+
+此次出售将使相关各方从中受益，因此西门子决定将不再继续2023年11月宣布的Innotics公开上市计划。
+
+  
+
+收购方KPS Capital Partners是一家私募股权投资公司，成立于1991年，总部位于美国纽约。KPS曾与日本发动机制造商日本电产竞争Innotics的收购权。
+
+  
+
+西门子首席财务官Ralf Thomas表示，“通过将Innotics出售给KPS，很高兴我们在优化我们的产品组合方面取得了进一步的重大进展。寻找最佳新东家的工作取得了成功。这一决定为客户和Innotics工作人员提供了清晰的思路，并为Innotics获得进一步成功业务发展的广泛机会铺平了道路。未来，西门子及其股东将从现实世界与数字世界的结合中获得更多利益。”
+
+  
+
+Innotics首席执行官Michael Reichle强调:"与KPS的合作，不仅仅是资本的融合，更是双方对创新精神的共鸣和对市场需求的精准捕捉。我们期待这一合作能够加速Innotics成为全球电气化转型的驱动力，为我们的团队成员开辟更广阔的舞台。
+
+  
+
+分析认为，KPS作为私募股权集团，可能会对Innotics进行资本重组，以及业务方向和产品线的调整，以提高运营效率和盈利能力。与此同时，在KPS的支持下，Innotics的独立可能会增强其在电机驱动领域的市场竞争力。
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)

@@ -13,7 +13,7 @@
 可编程逻辑器件（Programmable Logic Device，PLD）起源于20世纪70年代，是在专用集成电路（ASIC）的基础上发展起来的一种新型逻辑器件，是当今数字系统设计的主要硬件平台，其主要特点就是完全由用户通过软件进行配置和编程，从而完成某种特定的功能，且可以反复擦写。在修改和升级PLD时，不需额外地改变PCB电路板，只是在计算机上修改和更新程序，使硬件设计工作成为软件开发工作，缩短了系统设计的周期，提高了实现的灵活性并降低了成本，因此获得了广大硬件工程师的青睐，形成了巨大的PLD产业规模。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgSZ0VVm6yfvicU0gnlAGDGezWK40CK3Pf7gDScPjFuLvEmlOXpiaA1Y5xZ0rx0jtWhME1hvSib3FtWA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_002_bbdc97407c45.jpg)
 
   
 
@@ -104,7 +104,7 @@ PLD器件从规模上又可以细分为简单PLD（SPLD）、复杂PLD（CPLD）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNxSK62Mcf2bGJgrxOrVEicRUYDAY71iblRY67RM5rNlG0Ir6mTs50jGQ0UBl1ZL4D2UFyZ6RicxmDnw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_003_4d2476d2dc66.jpg)
 
 图1 基于乘积项的PLD内部结构
 
@@ -118,7 +118,7 @@ PLD器件从规模上又可以细分为简单PLD（SPLD）、复杂PLD（CPLD）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNxSK62Mcf2bGJgrxOrVEicRbSqGWmB6D77K6fO45yGYM90YchHfK2icddiavL6lXUIMPicgtFyiaslxxg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_004_cb4774d3d7ae.jpg)
 
 图2 宏单元结构
 
@@ -136,7 +136,7 @@ PLD器件从规模上又可以细分为简单PLD（SPLD）、复杂PLD（CPLD）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNxSK62Mcf2bGJgrxOrVEicRlTT7cqtAc7KaLC5eSudW9wFibAFwXb5wyY2piaj1s1nFZl1Z8hSvicDXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_005_75eaa90b54ea.jpg)
 
 图3
 
@@ -148,7 +148,7 @@ PLD将以下面的方式来实现组合逻辑f:
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNxSK62Mcf2bGJgrxOrVEicR0icXaTRspLbmgu9Q8gee411Y1OmPzJJmxW7UDLicibEaV68Nb1oibANNicg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_006_79f69f4fd776.jpg)
 
 图4
 
@@ -187,7 +187,7 @@ A,B,C,D由PLD芯片的管脚输入后进入可编程连线阵列 （PIA)，在�
   
 
 表1-1 4输入与门的真值表  
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMwN89DrQhKrMwa8WxNiaeib6vZXhcv7Lv9bFeln9uq6K3Cvk1vicmnyajyeCnzcHkTaMP9UjiaaD7kVg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_007_d05e99c47358.jpg)
 
   
 
@@ -220,7 +220,7 @@ A,B,C,D由PLD芯片的管脚输入后进入可编程连线阵列 （PIA)，在�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMwN89DrQhKrMwa8WxNiaeib6htH9CmNtUgvyuia1QwYqgzePDOC0JXdnAhoK3XM6OvPfT7QGtBGyGBg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_008_2f6474d513eb.jpg)
 
 图1-1 FPGA芯片的内部结构  
 
@@ -234,7 +234,7 @@ A,B,C,D由PLD芯片的管脚输入后进入可编程连线阵列 （PIA)，在�
 
   
 
-**![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMwN89DrQhKrMwa8WxNiaeib6tRxU2QdOJaMRibogJJ6Uia6le3Xat3L6ibic3bcMsah3ib0XVuOqDae22uw/640?wx_fmt=jpeg)**  
+**![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_009_6a1d7aad4a88.jpg)**  
 
 图1-2 典型的IOB内部结构示意图
 
@@ -248,7 +248,7 @@ A,B,C,D由PLD芯片的管脚输入后进入可编程连线阵列 （PIA)，在�
   
 CLB是FPGA内的基本逻辑单元。CLB的实际数量和特性会依器件的不同而不同，但是每个CLB都包含一个可配置开关矩阵，此矩阵由4或6个输入、一些选型电路（多路复用器等）和触发器组成。开关矩阵是高度灵活的，可以对其进行配置以便处理组合逻辑、移位寄存器或RAM。在Xilinx公司的FPGA器件中，CLB由多个（一般为4个或2个）相同的Slice和附加逻辑构成，如图1-3所示。每个CLB模块不仅可以用于实现组合逻辑、时序逻辑，还可以配置为分布式RAM和分布式ROM。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMwN89DrQhKrMwa8WxNiaeib6yI6JQEbwEIJSFiacvNAafGHPZGR2PDeibulVkCDXRe8BxDRwI08ZUIYQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_010_c54b458dbd0b.jpg)
 
 图1-3 典型的CLB结构示意图
 
@@ -256,7 +256,7 @@ CLB是FPGA内的基本逻辑单元。CLB的实际数量和特性会依器件的�
 
 Slice是Xilinx公司定义的基本逻辑单位，其内部结构如图1-4所示，一个Slice由两个4输入的函数、进位逻辑、算术逻辑、存储逻辑和函数复用器组成。算术逻辑包括一个异或门（XORG）和一个专用与门（MULTAND），一个异或门可以使一个Slice实现2bit全加操作，专用与门用于提高乘法器的效率；进位逻辑由专用进位信号和函数复用器（MUXC）组成，用于实现快速的算术加减法操作；4输入函数发生器用于实现4输入LUT、分布式RAM或16比特移位寄存器（Virtex-5系列芯片的Slice中的两个输入函数为6输入，可以实现6输入LUT或64比特移位寄存器）；进位逻辑包括两条快速进位链，用于提高CLB模块的处理速度。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMwN89DrQhKrMwa8WxNiaeib6yoncE6dUbRtycnelsUn2HkiaJvPUiabTbch2KnmKnibqiarsJG2wZbfQAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_011_cdb730bb2f27.jpg)
 
 图1-4 典型的4输入Slice结构示意图
 
@@ -285,7 +285,7 @@ DLL和PLL具有类似的功能，可以完成时钟高精度、低抖动的倍�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMwN89DrQhKrMwa8WxNiaeib696NZy2RAYh62Bdt3OibXkSeYibXSDicetiaRA0W0siaDUTv0ico3s6G7Tg0w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CPLD_FPGA_内部结构与原理_images\img_012_081188a8d688.jpg)
 
 图1-5 典型的DLL模块示意图
 

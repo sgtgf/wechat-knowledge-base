@@ -7,7 +7,7 @@
 
 **爱仕特自主研发的第四代SiC MOSFET芯片，型号：ASC150N1200MT4**凭借显著的技术创新性与广阔的市场前景，从全国303家企业、410款参选中脱颖而出，**获评“优秀技术创新产品”**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IHuSAVE90MVzYjvOTNypDcSpJKKeMcsosNOE01oG4BKicDWDricicITABg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_000_bc6c7e6fee2b.png)
 
 ▲爱仕特荣获“优秀技术创新产品奖”
 
@@ -15,7 +15,7 @@
 
 目前，基于1200V/10mΩ SiC MOSFET芯片的分立器件与模块（最大电流可达1000A）已实现规模化量产与稳定交付。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ItKkSia2ElicVFuCLm66I0k8JmOFSXsibRJPpSghs7qbMmAb7wPjxBypYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_001_bbfda036154a.png)
 
 产品在新能源汽车、电动重卡、超充设施、工业控制及eVTOL等前沿市场均取得突破，已成为推动关键领域国产替代的核心力量，展现出强大的市场竞争力。
 
@@ -31,11 +31,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IibQyhcIwAuvib8liczibQ4zKqZc71bzurxc9quKjwddjlsTJhcqM9ldqVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_002_31602674b110.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8Iy7UuUtAlnhvicB0WDPAiaX78wSsiboR0YibuiaOUvwoPcmrHY6qAPrpaFhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_003_9792ac4e92d1.png)
 
 芯片布局与尺寸图
 
@@ -47,15 +47,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IcPEZxIhDQ0AGeWibE1LmY9SliabhBx9NicPjYjffmHYEia9xq7SHBUbmRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_004_8b7a00c1b5ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IC7WYUrz0eB0X2ic3dG2RbHnDbVdPAGib38avlm5ksOcXFicBXTJkz9EdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_005_1910b62d4b56.png)
 
 1200V150A产品脚位图与关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IZC6HUPcF4afhx75lmoe0y5E9ciadWMqWk7pgHpnWAzkNfyTZHShMoVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_006_a2d84e038211.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IW7rEquBkaLWkezvjXjWOKUsic6NbnYYDJ5hnh3fAS7hzc7E07tmXdyg/640?wx_fmt=png&from=appmsg)1700V120A产品脚位图与关键参数表
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_007_5d325c568947.png)1700V120A产品脚位图与关键参数表
 
 3.碳化硅功率模块
 
@@ -63,23 +63,23 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IYeGrYbTJjBzpUib3yia6Z4ibwhQMjArucGoVMH5wZeVRY9jcDOu8aJDmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_008_badc6e5ab66b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IBuGAa9cnllU1fP3tcxDoAibOWC5r3WdeXXibLprBcOezywOOp5ULJJFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_009_65a6dd4555db.png)
 
 DCM（DCS12）封装模块:1200V1000A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IKvnZlwASjRJOKVVHrncNcZY0fOsY0PB4ckmvRmiaPwwflScBHCRaicEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_010_3a5e62a6b7c6.png)
 
 EconoDUAL(MED)封装模块：1200V1000A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IejXWTwTQ4KfSoysqPkeLakMYWruerHUlEgKbziamYyyybv3norJxFiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_011_9f038552dbaf.png)
 
          HPD封装模块：1200V1000A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ItGNbiaaE8Q25pT6UeqIk9D938GIicXSkfCqUQLibKILSI4b9VwB3f9iaHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_012_c60b13acc437.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IHvaNfYutamgXFvC0aM7k4ol0lH6rG2Hpv9mZk5ia4P5NRvicMYnGJvBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_013_d9da14553b52.png)
 
 EconoDUAL(MED)封装模块：1700V1000A
 
@@ -211,24 +211,24 @@ EconoDUAL(MED)封装模块：1700V1000A
 
 SiC MOSFET的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tPlCIExmicicRac3P0BmdHgB4qsvSgsT4yD0TQ9UVtsPkhePCFXVM204Q/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_014_a2855ad47603.jpg)
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tkpemDqZRG67dU4FLMJWRqHTQDtdtLuIhYCQj2IC7ib95C0XibeSChSmw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_015_df84f71c5238.jpg)
 
 SiC器件的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4trqUMHTaygIJ3mfUlX66qZUtGTiage1zGt4pQibK7XgtsZJd8P6EJHibMQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_016_74b0dc2e6c4a.jpg)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tVNEZCYzibEuEp0jslD5YgsMOCrh4LFECHIrm1iaicVTsp8oUDX0wmZXWw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_017_45dd6d94e67c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tP5Ue1QyQf47FNll3YJicibWzsyictZ3P6Xic6ZIic8F79JQib2zo3iaajvoBA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t9r8cuqibymBcVWP572JV2GmdyuiaGu40mPmHWn9khPkjLdmKjKCl4jVA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_018_f1cfa239d564.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产第四代碳化硅(SiC_MOSFET)器件产品介绍及优势_images\img_019_98a20b037205.jpg)

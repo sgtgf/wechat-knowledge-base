@@ -24,7 +24,7 @@ FPGA 大家应该都听过，那么我们能用它做什么，我们学会它之
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ItLb3ZD7E5tUhmQurUFJbKpWXCZd3k08q6ZHyf5fugGOvdjmWu54URjdsGha85AwL0s2IIapfK7qejhOJibmsCw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\都说FPGA高端_它到底能干啥__images\img_002_ff75525336df.jpg)
 
   
 
@@ -83,7 +83,7 @@ _**02**_ 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ItLb3ZD7E5t6RlQuFPXLiacmYEibWX9ZHX9UloQJZvW13SMl75trqn4DIu7svvP44HFVxTYhYicBdCFPja9unN6lw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\都说FPGA高端_它到底能干啥__images\img_003_b0c0800e7390.jpg)
 
   
 
@@ -167,7 +167,7 @@ FPGA 在人工智能系统的前端部分也是得到了广泛的应用，例如
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ItLb3ZD7E5t6RlQuFPXLiacmYEibWX9ZHX86svPvTyQa7658RCSEldxI6eHETr1FLn9fnqrV5Bm4zTkic6aWUQ8Ow/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\都说FPGA高端_它到底能干啥__images\img_004_32fc8ab3c110.jpg)
 
   
 
@@ -193,7 +193,7 @@ IC 这个词大家可能一听到就觉得特别高深，不是凡人所能触�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ItLb3ZD7E5t6RlQuFPXLiacmYEibWX9ZHXNUnh66ia1rJwxAULFqnsbZ8EGVibvYyDehHcyHHDb2Tia6sLLe5iaeNUhQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\都说FPGA高端_它到底能干啥__images\img_005_70f3272c76b7.jpg)
 
   
 
@@ -205,7 +205,7 @@ PCB 如果设计废了大不了重新设计再打样也不会造成太大损失�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ItLb3ZD7E5t6RlQuFPXLiacmYEibWX9ZHXVax4ZhHIdwZYc7KTgWDvZbhCEYUBMMSBibrEvkplruwHlPz7tgVmpog/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\都说FPGA高端_它到底能干啥__images\img_006_40952b03ea5e.jpg)
 
   
 

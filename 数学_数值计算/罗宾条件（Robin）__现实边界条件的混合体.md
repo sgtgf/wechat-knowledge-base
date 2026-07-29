@@ -70,7 +70,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsW1l6vL3Spu8lp1oFKBXP5p4Vb4KLDjlTZDCvTiaoYkxamcPv7n8ibbFicLwnez5S88cK1aTIIwnnCBmiaVDJ0kIV3PfBt1dRVhC8/640?wx_fmt=png&from=appmsg)
+![](罗宾条件（Robin）__现实边界条件的混合体_images/img_000_12bf7880868a.png)
 
 这张图想讲的是：**求解偏微分方程时，除了知道区域内部遵守什么规律，还必须告诉方程“到了边界以后该怎么办”**。
 
@@ -107,7 +107,7 @@ Robin 边界条件处在 [Dirichlet](https://mp.weixin.qq.com/s?__biz=MzkzODgwO
 
 # 二、图中所谓的“三兄弟”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuN6ogJcTu4ichrLZTufBMg4fCwWV0iclibYZxz55FI3nQtET4OBEzCP9UvUu3byX345fYytqgh4kZ8MfT8b2oA5SITEHzGQhia8ts/640?wx_fmt=png&from=appmsg)
+![](罗宾条件（Robin）__现实边界条件的混合体_images/img_001_7e3e7847457e.png)
 
 图片把三类最重要的边界条件称为“三兄弟”：
 
@@ -218,7 +218,7 @@ Robin 条件
 
 # 五、Robin 边界条件：边界值越偏离环境，流量越大
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocto68VpKZw0WUDvcUJdicF0GbndxrrvWVZDnoTygEpv7XiaE38iaPicycGvR10VZmvibo0crtohkxeaaBYQswvPwribBHIJ4Jk7PEbBE/640?wx_fmt=png&from=appmsg)
+![](罗宾条件（Robin）__现实边界条件的混合体_images/img_002_bec27e1ab804.png)
 
 Robin 边界条件的一般形式是：
 
@@ -392,7 +392,7 @@ Robin 条件可以看成 Dirichlet 与 Neumann 条件的统一形式：
 
 # 十、图片中的三个应用
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctMQnledOG5fia8zV6KEqJNIQg0mtQEwaPVORic1oEbUFS1bq2ianRY7voGUyxoDmMzrVFOfrrrHBHrjBicAzAaYTorW6GNqFoaTXk/640?wx_fmt=png&from=appmsg)
+![](罗宾条件（Robin）__现实边界条件的混合体_images/img_003_47b2a34d17bf.png)
 
 ## 1\. 牛顿冷却定律
 

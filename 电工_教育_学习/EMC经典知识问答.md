@@ -11,7 +11,7 @@
 **1、为什么要对产品做电磁兼容设计？**  
 **答：**满足产品功能要求、减少调试时间，使产品满足电磁兼容标准的要求，使产品不会对系统中的其它设备产生电磁干扰。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgryuTMib8iclIy6wBonxXdHS0QnEXXlcKzJz18QgLqDFmRRgVBePia3nGx3umgv1qxYm8ZMLfSYorbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_002_aa8aceb5936d.png)
 
 **2、对产品做电磁兼容设计可以从哪几个方面进行？  
 答：**电路设计（包括器件选择）、软件设计、线路板设计、屏蔽结构、信号线/电源线滤波、电路的接地方式设计。  
@@ -24,7 +24,7 @@
   
 **5、一个刚涉足PCB设计的新手，想请教一下，要想做好PCB设计应该多多掌握哪方面的知识?另外，在PCB设计中遇到的关于安规方面的知识一般在哪里能找到?盼望您的指点，不胜感激!**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgryuTMib8iclIy6wBonxXdHSIib3NqROU4nuSicxJTDTPjUcLXEyZ4piaSNosq4iaMlbicvLdt6oaVCJicag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_003_8cca71e08cdc.png)
 
   
 **答：**对于PCB设计应该掌握：
@@ -72,7 +72,7 @@
 
 **8、GPS电磁干扰现象表现：尤其是GPS应用在PMP这种产品，功能是MP4、MP3、FM调频+GPS导航功能的手持车载两用的GPS终端产品，一定得有一个内置GPS Antenna，这样GPS Antenna与GPS终端产品上的MCU、SDROM、晶振等元器件很容易产生EMI/EMC电磁干扰，致使GPS Antenna的收星能力下降很多，几乎没办法正常定位。**采取什么样的办法可以解决这样的EMI/EMC电磁干扰？****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgryuTMib8iclIy6wBonxXdHSgGk6taXWiaxRkw4QGUrP27iazvlAZWb1ibbdzbiatcspfLrNKXZnZqmcqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_004_2e5821bef4e2.png)
 
 **答：**可以在上面加上ESD Filter，既有防静电又能抗电磁干扰。我们的手机客户带GPS功能的就用的这个方法。做这些的厂家有泰克（瑞侃），佳邦，韩国ICT等等很多。  
   
@@ -105,7 +105,7 @@
   
 **12、求教小功率直流永磁电机设计中EMC的方法和事项。生产了一款90W的直流永磁电机(110~120V，转速2000/分钟)EMC一直超标，生产后先把16槽改24槽，有做了轴绝缘，未能达标!现在又要设计生产125W的电机，如何处理？**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgryuTMib8iclIy6wBonxXdHS36loNfplBrXzyMrZStFFw4QU4wicOBTKuUJqXWS3D9ldpFvqNIHGWvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_005_3e0c3720d1b5.png)
 
 **  
 答：**直流永磁电机设计中EMC问题，主要由于电机转动中产生反电动势和换相时引起的打火。具体分析，可以使用RMxpert来设计优化电机参数，Maxwell2D来仿真EMI实际辐射。  
@@ -196,7 +196,7 @@
 
 **31、在高速PCB设计时，设计者应该从那些方面去考虑EMC、EMI的规则呢？**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgryuTMib8iclIy6wBonxXdHSPZRVOib6BvUNhjPVdBmFb2d88YVibI5sZeDKOFl5Eb3nc5zCnDvrttug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_006_b21344b3d218.png)
 
 **  
 答：**一般EMI/EMC设计时需要同时考虑辐射(radiated)与传导(conducted)两个方面. 前者归属于频率较高的部分(>30MHz)后者则是较低频的部分(<30MHz). 所以不能只注意高频而忽略低频的部分.一个好的EMI/EMC设计必须一开始布局时就要考虑到器件的位置， PCB迭层的安排， 重要联机的走法， 器件的选择等， 如果这些没有事前有较佳的安排， 事后解决则会事倍功半， 增加成本. 例如时钟产生器的位置尽量不要靠近对外的连接器， 高速信号尽量走内层并注意特性阻抗匹配与参考层的连续以减少反射， 器件所推的信号之斜率(slew rate)尽量小以减低高频成分， 选择去耦合(decoupling/bypass)电容时注意其频率响应是否符合需求以降低电源层噪声. 另外， 注意高频信号电流之回流路径使其回路面积尽量小(也就是回路阻抗loop impedance尽量小)以减少辐射. 还可以用分割地层的方式以控制高频噪声的范围. 最后， 适当的选择PCB与外壳的接地点(chassis ground)。  
@@ -249,7 +249,7 @@
   
 **44、我做了个TFT LCD的显示屏，别人在做EMC测试时，干扰信号通过空间传导过来，导致屏幕显示的图象会晃动，幅度挺大的。谁能指点下，要怎么处理！是在几股信号线上加干扰脉冲群，具体是叫什么名字我也不太清楚，干扰信号通过信号线辐射出来的。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgryuTMib8iclIy6wBonxXdHSppHK3VNlfdN2VjAyibhm2BZ5dukvg5MXSjYCTzVC4EL5wMibfl3JOYSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_007_c0144b55b5a2.png)
 
 **  
 答：**如果是单独的LCD，EMC测试中的脉冲群试验几乎是过不去的，特别是用耦合钳的时候，会够你受的了。如果是仪器中用到了LCD，就不难解决了，例如信号线的退耦处理，导电膏适当减小LCD入口的阻抗，屏表面加屏蔽导电丝网等。  
@@ -393,7 +393,7 @@
 
 **66、请问产品全部采用金属做为外壳(如铝，不锈钢等材质)对产品的ESD防护有何大的影响?应怎样处理较好?**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgryuTMib8iclIy6wBonxXdHSDqibr7o8ld9r5Uez5lNkCE3m5n1yL4gl0FQM0XEgWvTg9RIpnOq33lQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_008_0e290d9e099f.png)
 
   
 **答：**产品全部用金属外壳，如果接地不良当然不利于ESD的防护，但只要做好接地就不会有什么问题。至于如何接地就要看设备的具体情况了，如果是大型设备，可以通过设备直接接大地，效果当然会很理想的。  
@@ -413,9 +413,9 @@
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_009_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_010_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_011_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_012_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_013_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_014_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_015_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_016_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_017_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_018_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_019_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_020_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_021_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_022_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_023_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC经典知识问答_images\img_024_50889e54acde.gif)
 
 ## 
 

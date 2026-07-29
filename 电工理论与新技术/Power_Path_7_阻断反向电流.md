@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2AGKPVQ2QFmDaH7Z8Xl4Ag](https://mp.weixin.qq.com/s/2AGKPVQ2QFmDaH7Z8Xl4Ag)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFpyGibPSDYFQ4muNWhQHbeZsqiaCBRibd8cWHXPY8dGZaFgxU0gMHjDCibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_000_0c8647514c68.png)
 
 ____**★★★**______Power Path-7---阻断反向电流______**★★★**____
 
@@ -15,13 +15,13 @@ __€1.什么是反向电流__
 
 反向电流是指系统输出端的电压高于输入端的电压，导致电流在系统中反向流动。反向电压有两种常见来源：第一种是当电源与系统断开时，输入电压突然下降，在此期间，可以在输出端留下更高的电压，从而暂时产生反向电流，见**_图7-1_**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFgqVpeCyqiaIicPOdkUCeBLdytw7EKMZlzP6B6qdJPXuRH4n3Jqaiad7ibQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_001_50ec9434b638.png)
 
 **_图7-1：由突然断电引起的反向电流_**
 
 反向电流的另一个原因是当MOSFET用于负载切换应用并且体二极管变得正向偏置时，电压高于输入的开关的输出，会产生反向电压，这就是产生反向电流的原因。不要将其与负电压混淆，负电压也称为反极性，在电源的正极和负极端子切换的情况下，会出现负电压。在这种情况下，应该接GND的负网络实际上有一个从正输入到系统的电压，如**_图7-2_**所示。这导致通过器件的电流现象与反向极性不同。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSF5KYqgZOzhfslIvVjYVrAKdPj2CEOIrvsZY91uM6xRK3lO2EeNrmGGA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_002_8969f0361d9f.png)
 
 **_图7-2：反向极性(a)；反向电压(b)_**
 
@@ -29,7 +29,7 @@ ____€2.__为什么需要阻断反向电流__
 
 反向电流会损坏内部电路和电源，根据从输出到输入的路径，反向电流尖峰也可能损坏电缆和连接器。如果将MOSFET用于负载切换应用，正向偏置时，反向电流可以通过其体二极管反向流动，因为FET输出电压大于输入电压，这导致体二极管两端的功率耗散线性上升，功耗由下式表示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TTiah5rXLdlYGdViavjB4pXQic0mcwCQYW0zxNxjgUORo0jPAgus45TGqjBiasnPEweXA0YdSpzHZHNAA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_003_db89d4cba1b6.jpg)
 
 其中PD是体二极管两端耗散的功率，Irev是通过器件的反向电流，Vdrop是体二极管上的电压降。如果通过设备散热产生的热量超过设备的热额定值，则可能烧毁，因此必须限制反向电流或反向电压。
 
@@ -41,7 +41,7 @@ _电源多路复用_
 
 电源多路复用是指使用开关电路为系统选择多个电源中的一个，并能够在它们之间进行切换。如果其中一个电源电压高于另一个，那么即使另一个电源轨有“断开”开关，也可能出现反向电流\--->一个例子是使用FET切换电源，开路FET的输出处的较高电压导致反向电流从较高电压电源流过FET体二极管并进入较低电压电源。**_图7-3_**显示了当3.3V电源开关打开时，向系统施加5V电压的情况，对于开关，使用简单的FET解决方案，即使开关断开，反向电流也能够流过FET体二极管。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFf7meAfrkCx4lt9zyIbNJ9S06uxec7fjPkyzU5xHSlkP93zclxt9Viag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_004_9b4ad383ef1b.png)
 
 **_图7-3：电源复用产生的反向电流_**
 
@@ -69,7 +69,7 @@ _背靠背MOSFET_
 
 使用背靠背MOSFET是一个更好的的选择，因为当MOSFET关闭时，它可以在两个方向上阻断电流。与二极管解决方案相比，从电源到负载的电压降更低，但是这种方式占用了PCB上更大的空间，需要构建几个组件，如下**_图7-4_**所示。（传送门：[SCD-4：如何用双MOS设计分立式负载开关？](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490402&idx=1&sn=65f5039866a53eea5f7a7e302d1df78c&chksm=c33551fdf442d8ebd88891c0a23b0dc16cab833aa06872d8c79ff8469203378d6b4eb1fbc46b&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSF4jH56UeNsn4rtjYRjIzXGC3rZcSM43TZHU3QbEW5ib9eXDjlxn5Xkgw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_005_b26456b567a2.png)
 
 **_图7-4：背靠背MOSFETS的反向电流阻断_**
 
@@ -77,7 +77,7 @@ _单MOSFET_
 
 如**_图7-5_**所示，如果MOSFET的位置使体二极管方向从输入端到输出端，那么当MOSFET关闭（打开）时，将不会有反向电流流动。（传送门：[SCD-3：如何用单PMOS设计分立式负载开关?](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490360&idx=1&sn=c39b6d4ce6e908dbe119c061216832c8&chksm=c33551a7f442d8b1f3c155cdeec80e9a6623a0000706ecb7532dcfd1568e5d9bd9a84a1ab866&scene=21#wechat_redirect)）（传送门：[MOS-5：MOS的电流方向是唯一的吗？](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490121&idx=1&sn=ccc489fe8ec9739bb2dfffb51c1c44ee&chksm=c33550d6f442d9c090bb23440d7e3e823036642a4dab9096be72247d90f77bcf7b93e8d64563&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFHZCKqfNBJia5t8oeZMHLibfO4aEupIHkqia2QWEzujlsCsZLHN83zcAIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_006_f2324781726d.png)
 
 **_图7-5：使用单个MOSFET被禁用的反向电流阻塞_**
 
@@ -93,7 +93,7 @@ _负载开关_
 
 一些设备提供始终导通状态的的反向电流阻断，如果输出电压比输入电压大某个电压阈值，则会关闭设备。常开反向电流阻断方案的缺点是，在器件关断之前，输出电压需要大于输入电压，因此在发生这种情况之前，一定量的反向电流将流过器件。**_图7-6_**显示了在启用反向电流阻断之前通过负载开关的预期反向电流的示例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXmd9ZAoibLS6NmibiaBkicyTOdTefK73zKYftJCOxpYJ80fwHZHZjicQdlsg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_007_a0796d4695c6.png)
 
 **_图7-6：全时反向电流保护（VIN=3.0V，VOUT从3.0V上升到3.3V）_**
 
@@ -109,7 +109,7 @@ _理想二极管_
 
 理想的二极管是驱动外部MOSFET的控制器，体二极管从电源到负载，理想二极管将自动检测输入和输出电压差，以始终启用反向电流阻断功能，同时保持低导通电阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRyYlLATP0MNGuYafJRMsyKeeOd2Qo5VnYIicRWmzt0NcDMn4XewlvAcaXOqJzq5voRialf8Sfgpeiaw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_7_阻断反向电流_images\img_008_2213db64b09d.png)
 
 **_图7-7：理想二极管控制器简图_**
 

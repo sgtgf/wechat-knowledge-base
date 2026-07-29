@@ -10,11 +10,11 @@
 
 ##   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcEL1dRob4yNkLbsvFKV5WwGCMfg8wrc6kBiaqt4h5eppbrhsXEzdlPHazw/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_002_1ae4889379a0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELPx1rmuHS9Ugj8917fbmYuGL90unjoqJgp21lZgibapAAL7zshaMws0Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)iPhone 15 Pro（Max）物料清单（不完全统计）
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_003_ff22600ec22a.png)iPhone 15 Pro（Max）物料清单（不完全统计）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELLibex5G4MPVkVuKZ6VsEiaWxDrXVCA9VQvvYoibnFzN1nxfrMrzlVL6JA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_004_c3e930f80ef7.png)
 
 红色高通SDX70M Snapdragon X70调制解调器  
 
@@ -32,7 +32,7 @@
 
 我们可以清楚的看到，iPhone 15 Pro Max主板上的高通Snapdragon X70 5G基带芯片。高通公司表示，它由人工智能为波束管理和天线调谐提供动力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELArBDISgWYU834gpsFkeveicfROt0EQ7E8sjJQUps4lXibqaciaYHPESjQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_005_16d1ac942834.png)
 
 红色：可能是Skyworks SKY50313前端模块  
 
@@ -40,7 +40,7 @@
 
 黄色：博通AFEM-8245前端模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELj3YP9TCZXegcwnDibJlbRwP102GoMuojVa5tR2V9oPe4ibEIJ4B3XuwA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_006_63e8d7a9c1d4.png)
 
 红色：意法半导体ST33J安全元件  
 
@@ -50,7 +50,7 @@
 
 另一块主板上，则是苹果A17 Pro处理器，基于台积电3nm工艺，拥有6核CPU（2个主频3.77GHz的大核，4个小核），6核心GPU以及16核心神经网络引擎。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELMuI9iaicGymaE4w74ibL2IkdliaKWd9kmfnN5EZib64KzWiaibMqQUIOyjF5Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_007_ebc1c1371237.png)
 
 红色：苹果APL1V02/339S01257 A17 Pro处理器堆叠在SK海力士H58G66AK6HX132 8 GB LPDDR5 SDRAM内存下方。  
 
@@ -66,7 +66,7 @@
 
 紫色：可能是德州仪器SN2012017电池充电芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELD89LXt5jooNXYiaACVGh5BIwBh9FKicoDrhXR0ktyffQMlUibI31V9FWA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_008_c491fd99f579.png)
 
 红色Apple 338S00739音频编解码器  
 
@@ -82,7 +82,7 @@
 
 在主板另一侧上的元器件：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELibechlia0PtzHWr4JQFf4WicGXqhoAk8fK2dLWK4ahHibibZaVMVQjzicWYg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_009_d0e04cac06c1.png)
 
 红色可能是Kioxia K5A4RB6302CA12304 256 GB NAND闪存
 
@@ -98,11 +98,11 @@
 
 紫色：可能的恩智浦半导体的NFC控制器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELoe91ibtLcwJlvxhMJVjm81SOh5jupegLY9rCGBibd6m500R4SAQskQuQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_010_1206b304f685.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELXRzBEqoda6zKfpuzgcofVkVLaHnK58zdwkcPV0icvTmhBKEJMvErKyQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_011_2abe2060ec85.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5ch8siaPXbZ2MlYO8K7vjdcELoLCFggiaX1qdjL1acJPntnkRVuqLiamqkSThExlZmdm4UMs0hKO8L4mQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_012_9d2a6df563e8.jpg)
 
   
 
@@ -128,7 +128,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJKK14d02kQ20NR7TPL9dgRaQnQIJJCrLXRmCGK1eNtlmDySWPguedsw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_013_9f968a5a785e.jpg)
 
 图源：iFixit
 
@@ -146,7 +146,7 @@ iPhone14 的风险承受能力稍强一些，但它们都是很好的设计。�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJQ5gxxSuPUFQZ1nCvP76v34cOEm8iaEDbgicfODblh9jx8BVpGuMUricYg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_014_2224da681ac4.jpg)
 
 iPhone 15 Pro Max 显示屏正面和背面 图源：iFixit
 
@@ -156,7 +156,7 @@ iPhone 15 Pro Max 显示屏正面和背面 图源：iFixit
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJ6M9vicYgRVSaUGAYPcg44zSl35q53Jzbw2FHS61T7bLZh1gYs2hVWkg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_015_123a87d8d06d.jpg)
 
 图源：iFixit
 
@@ -196,7 +196,7 @@ iPhone 15系列的很多组件采用了模块化的设计，比如麦克风现�
 
 iPhone 15 Pro Max 的电池容量为 4422 mAh，比iPhone 14 Pro Max 的 4323 mAh 增加了 2.3%。同样，iPhone 15 Pro 的 3274 mAh 与iPhone 14 Pro 的 3200 mAh 相比，增加了 2.3%(增加了 2.3%)。整体来看，电池容量增长乏力。这无疑不是一个好消息，因为 A17 Pro 非常耗电。此前有报告称，手机会变热并持续发热，电池寿命也会相应缩短。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJ3VYySOF1IU2YKWoaLiaTIODakuJiazlHhFwFjsOcapIMIW2cxE9rGiacg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_016_400849694940.jpg)
 
 图源：iFixit
 
@@ -212,7 +212,7 @@ iPhone 15 Pro Max 的电池容量为 4422 mAh，比iPhone 14 Pro Max 的 4323 mA
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJbzicwG7Snb5AHkUlqNKD3zGpj8mERe6t3PeibhuzTG86U2tOdQHfE5og/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_017_9c8e32e76a01.jpg)
 
 左：iPhone 14 Pro Max：221 克。右：iPhone 15 Pro Max 加四枚镍币：222 克。图源：iFixit
 
@@ -258,7 +258,7 @@ iPhone的钛金属带采用行业首创的热机械工艺，包裹着一个由10
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJzPMh2vEDXNQyICGA2lH764ib9L9GQRC5V98OiajQ5DSHND7Nr7n5gmTA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_018_00b22c14cced.jpg)
 
 一种用于烧结3D打印零件的真空热室。可以将它和液压机结合起来。图源：Centrorr Vacuum Industries
 
@@ -292,7 +292,7 @@ iPhone的钛金属带采用行业首创的热机械工艺，包裹着一个由10
 
 Apple A17 Pro 六核应用处理器带有六核 GPU，可能位于 SK Hynix DDR5 内存之下。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJLyONhe4jZyCGRM9u6NH1sVzY7sPzTicXpsdibRBfVgs4icy6Ug0SI2Ctg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_019_affbcb153b9f.jpg)
 
 图源：iFixit
 
@@ -312,7 +312,7 @@ Apple A17 Pro 六核应用处理器带有六核 GPU，可能位于 SK Hynix DDR5
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJJco7iaFBE0naqs37Piao4z1Qr6wu595iabliciaJadMv1zONFW0Uma8ia2wg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_020_3a4ece0925b9.jpg)
 
 图源：iFixit
 
@@ -328,7 +328,7 @@ Apple A17 Pro 六核应用处理器带有六核 GPU，可能位于 SK Hynix DDR5
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJvAX5KTlQQgjOdNUtht4ZVlOUnX042IxmcPl0UI9p4yMDOqOMqTozDA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_021_3e92036f313f.jpg)
 
 图源：苹果
 
@@ -342,7 +342,7 @@ Apple A17 Pro 六核应用处理器带有六核 GPU，可能位于 SK Hynix DDR5
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJMA6whNsdaCW6icYK5qGcBRml9zMp78TplzH0u8DUGVtvxGpRCMhNtcg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_022_8293f059ece7.jpg)
 
 图源：iFixit
 
@@ -352,7 +352,7 @@ Apple A17 Pro 六核应用处理器带有六核 GPU，可能位于 SK Hynix DDR5
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJOs5RN2xcqADDiaWWQ1WPqKTB8ugOBukrwuOgNJTcWx8rubMDebwbETw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_023_8806a631ff54.jpg)
 
 iPhone 15的摄像头螺丝(上);iPhone 14的螺丝(下) 图源：iFixit
 
@@ -380,7 +380,7 @@ iPhone 15的摄像头螺丝(上);iPhone 14的螺丝(下) 图源：iFixit
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJ7DIZzAUpCwd4F6n5tyibzpibicqKFyP82WialJUS1yfbITbruce2OxemdQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_024_d87705e7cfa9.jpg)
 
 图源：iFixit
 
@@ -394,7 +394,7 @@ iPhone 15的摄像头螺丝(上);iPhone 14的螺丝(下) 图源：iFixit
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJ4NjhChGq1a5HGUDLhWxbTq1ibNGSZga3iaxMbDdAAsceV9FPicIjEOKHw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_025_8eb83db6b694.jpg)
 
 图源：iFixit
 
@@ -422,7 +422,7 @@ iPhone 15 Pro Max、15 Pro、15 Plus 和 15 都获得了满分 4 分。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/GFk2abHRMHTEz4eTm0px7VribmdhdUFOJdm6994wwtbWAxUq4Jx2gJGHKA9aaQRiaW2CwlDmpVk7Jx4smpdnqsdg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_026_491b5f96a912.png)
 
 图源：iFixit
 
@@ -438,9 +438,9 @@ iPhone 15 Pro Max、15 Pro、15 Plus 和 15 都获得了满分 4 分。
 
 硬件工程师都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_027_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_028_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_029_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_030_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_031_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_032_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_033_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_034_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_035_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_036_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_037_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_038_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_039_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_040_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_041_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解iPhone_15_Pro_Max_images\img_042_3c93e54afedf.gif)
 
 ## 
 

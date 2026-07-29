@@ -9,50 +9,50 @@
 
 **关键词：**SiC MOS；开关电源；功率因数校正；开关损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvokyk2icw6bpLvgt0C3mruAgPX6HHzs2eS74jkESylkic7zmt3Pats93w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_000_814d2bf7ac50.png)
 
 **０ 引言**
 
 在电力电子技术的发展中，硅功率器件的使用已经发挥到了极致。第三代功率半导体器件SiC的出现，为电力电子技术的行业发展提供了广阔的前景，不管是器件制造行业，还是电力电子装置行业，都有了光明的前途。目前，开关电源都朝着高效和高频化方向发展，从而造成了开关损耗增加、电源效率降低以及电磁感染严重等问题。针对这些问题，采用SiC MOS代替传统的Si MOS，可实现极高的开关速度，高开关频率和低开关损耗，同时采用有源功率因数校正的方法来提高开关电源的利用率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvXk5KcHwAB7k3lqq9j9HOJtU3rp6LicepQIT8WZRO2uM6ic4JP9fZkdsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_001_7b4b6f4a7118.png)
 
 该文在传统的功率因数校正的基础上，将第三代功率半导体器件SiC MOS代替传统的Si MOS。图 １所示为系统设计结构图，220V市电经过EMI整流滤波后作为Boost DC-DC直流变换器的输入电压，通过电流电压的双重反馈产生PWM波形，再通电路产生适合SiC MOS有负压的PWM波形。
 
 **１ 主电路的设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvERDHGamXUoaNia3a6NvzwwiazdhtkaUibcZib38Byibf3JRuTBX5PoLCxEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_002_6ec865e091fb.png)
 
 该文采用型号为C3M0060065K的CREE公司的SIC MOS产品，图２所示为该功率器件的引脚结构图，从图中可知源极有２个引脚，分别为PIN２和PIN３，从手册说明中可知PIN２接的是强电的地，PIN３接的是驱动信号的负压，以此可以实现强弱电地的隔离。表１为SIC MOS的相关参数，C3M0060065K的漏源极承受的最大电压为650Ｖ，常温下承受的最大电流为37Ａ，温度为100℃时承受的最大电流为27Ａ。导通电阻为60ｍΩ，工作温度从－40～＋175℃。开关频率最大为１ＭＨｚ，栅极的驱动电压为－8Ｖ～＋19Ｖ，栅极开启电压为2.3Ｖ，正压达到15Ｖ才可驱动功率器件，负压达到－4Ｖ才可有效关断 SIC MOS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvu5y9C5xLlznibTiaww3U2X9r9uMUbjlMhJYbxxN6l1I9VxgicDVibJGbAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_003_a7f1abc2b2c8.png)
 
 该文选择的主电路为Boost DC-DC变换器，如图３所示。直流输入电压为市电整流滤波得到，电感L选择２ｍＨ，电容Ｃ选择2200μＦ／600Ｖ，SIC二极管选择CREE公司的耐高温的C3D06060A，参数如下：ＶＲＲＭ ＝600Ｖ，IF＝19Ａ，Ｑc＝１５ｎＣ。负载选择10ｋΩ的电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvS4ds53ES8hzQF4khqqn7Q84ic5qDibpWc82U8VmPZXLFler6HqhzBwiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_004_60cc434a0f4d.png)
 
 **２ 控制电路的设计**
 
 电压误差放大电路如图４所示，其中R取22ｋΩ，Ｃ取0.1μＦ，400Ｖ参考电压与接到反向端的负载输出的实际直流电压通过电压误差放大器ＶＡ进行对比，输出的值 Ａ经过比例积分微分调节送给乘法器。乘法器采用调节后的输出电压值 Ａ、输入端的电压值 Ｂ和调节后的输入电压值 Ｃ经过公式AB／C2运算后得到输入电流的参考信号。电流误差放大电路如图５所示，其中Ｒ１和Ｒ２分别采用22Ω和43ｋΩ，C1和C2分别取0.1μＦ和 0.028μＦ，由图可知输入端的电流通过采样电阻Ｒ１接到ＣＡ的反向输入端，和乘法器得到的电流参考值对比，产生的正弦信号值与三角波的载波信号比较，得到的ＰＷＭ驱动波形经过辅助电源-５Ｖ和 ＋20Ｖ调节后得到驱动SIC MOS的 ＰＷＭ波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvQ2YTwK8GmsOztdibF9OwjsPnZgMrRLnXXDYZquujMEoReZPmQBzcdRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_005_e9a17b1ac4b7.png)
 
 **３ 仿真结果及分析**
 
 有源功率因数校正前电路的输入电流波形如图６所示，从图６可知电流波形呈尖峰状有严重畸变；经过校正电路有效地消除了输入电流的尖峰状畸变，经过0.12ｓ短暂的震荡后得到平滑的正弦波电流如图７所示，并且与输入电压同相位达到了提高小功率开关电源利用率的目的。图８所示为经过电流和电压反馈后得到的ＰＷＭ波形，从图８中可知，根据系统反馈，调节每个周期内开关的导通时间都会改变，且周期也随之改变，满足输出电压实时调节维持稳定的设计要求。如图９所示，经过0.2s的震荡后输出电压维持在400Ｖ左右，且电压纹波小，输出电压波形平滑稳定。图10所示为功率因数PF的波形，可以看出在0.2ｓ以内波形在 0.99和1.00之间，波形震荡小，功率因数很快稳定在0.998以上，满足系统高功率因数的设计要求。最后，利用万用表测量负载上的输出电压值，从表２的测量结果可知，负载上的是输出电压稳定，电压纹波小，电压误差小且控制在1％以内，达到了稳定负载上的输出电压的设计要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvaHmGmrCV5OqQA2jFZrEKxRXaHmWibYXXRtqY1eibNfmuSmZn1zWicWp8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_006_8b38134a48f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvBjuic12vo2j70J3twuhY5hicnQlhHJUuX7ucRSj7ZDVxyWeVldQC2RsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_007_80bd113fced7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickvBn3Im956jxROvm5NSjNGHHj5PuJgbibhgDg23N4OSib0QOiamWzSXB7Gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_008_cd9179e0e2e4.png)
 
 **４ 结论**
 
 该文利用SIC MOS设计了一种开关电源的有源功率因数校正电路，电路中负载上的直流电压通过电压误差放大器以及PID调节的反馈，和乘法器的输入交流电压运算后得到电流误差放大器的输入电流参考信号，经过PID调节后产生每个周期不同的脉冲宽度值，即实现每个周期内占空比不同的调节，最后通过SIC MOS驱动获取负压为 －4Ｖ，正压为15Ｖ的SIC MOS驱动波形，调节开关开通关断时长。开关电源的功率因数校正后可以高达0.998以上，且波形震荡小输出稳定。最后用万用表测量了负载上的输出直流电压，电压纹波小且误差小于１％，实现了输出电压稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv5ysLdiaW96X2Gc8cElM2j0tVFNnhbkSPYIhDVYbzRz3k0cLT3PdHFWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_009_9c3d1a55d28a.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv9ibtj9UXrU3X3QeRWc2zECfiaJzSLa0Jdovw5FbjI5QJ8icQcBDPYjFHQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\西安交通大学_SiC_MOS_在有源功率因数校正电路中的应用_images\img_010_a070b6585631.png)

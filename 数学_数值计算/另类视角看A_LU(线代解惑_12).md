@@ -13,4 +13,4 @@
 
 第3步：直接取A2的第3行为U3，从而L3的第3个元素为1就可以直接保证A3=A-L1U1\-L2U2\-L3U3的第3行为0, L3的第1、2个元素固定为0，同时A3的第3列也为0；这样U3与L3就确定好了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t6ibpMicQX1oic9ptQu3b9EN7ibt1aDzEGsaibs7UREmViaOGI30e3G8teK1nh7VPm2sEsXNk6HXErtNg/640?wx_fmt=png&from=appmsg)
+![](另类视角看A_LU(线代解惑_12)_images/img_000_77732fb7ad8e.png)

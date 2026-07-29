@@ -5,7 +5,7 @@
 
 在SiC MOSFET的开发与应用方面，与相同功率等级的Si MOSFET相比，SiC MOSFET导通电阻、开关损耗大幅降低，适用于更高的工作频率，另由于其高温工作特性，大大提高了高温稳定性。近年来随着SiC技术的成熟，SiC MOSFET的价格已经有了显著的下降，应用范围也进一步扩展，在不久的将来必将成为新一代主流的低损耗功率器件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLHK9oBrov58ILjXH7Nlr86HdHyv5c39EKlLaiaSPZibNDiavmMSib0TEBQlfeSEbZAiaE1WUZicS9ez741Zf1eaHtLqcu4z3JNCLaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_000_c0f27d9756e6.png)
 
 随着碳化硅（SiC）技术的普及，封装选择已成为决定系统性能、可靠性和成本的关键一环。SiC MOSFET的封装多样化，贴片封装（**QDPAK、TOLT、TOLL、TO267-7、PDFN8\*8 和 PDFN5\*6）**相比传统的插件TO247封装，SMD更容易实现自动化生产，并且普遍寄生参数更低，能更好地发挥出SiC材料的高速开关潜力。。
 
@@ -15,7 +15,7 @@
 
 #### 1\. QDPAK：高功率密度的“散热旗舰”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP4s7hDcQoeZ9Kk5TZ5IYibnclaTfILvv9N2wkCpSmrvYzpND810DlTRibWGbtGF2ylzEPwK2rho80TZXocO2GnZ9uwxeOnalOwE/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_001_f42e0468332d.png)
 
 QDPAK封装的产品拓扑图
 
@@ -29,17 +29,17 @@ QDPAK专为高功率工业应用设计。
 
 **典型应用案例**：英飞凌推出的CoolSiC™ MOSFET 1200V G2系列采用QDPAK封装，基于先进的扩散焊技术，相比G1系列热阻降低15%以上、MOSFET温度降低11%。该系列提供4mΩ至78mΩ的导通电阻，支持高达200°C结温下的过载运行，适用于**电动汽车充电、光伏逆变器、不间断电源、电机驱动和固态断路器**等工业应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPx3kILDWAsbxPkexDHPP36ytUDRqGib23B3ozWeURQLOTNZa8OA1YEpkUiavFFxTLK1jW2uQiaSDojGiaKGOJQ4daAb4nWicOCuSrQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_002_535a077e312f.jpg)
 
 爱仕特推出了QDPAK封装的SiC MOSFET产品，应用于**OBC、AI服务器电源、充电桩、储能设备**等高端领域。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNtpKrxRwb6HESCvsz46dKpdRZlgnIvmM8PIG97GZCIMC9yLeEBeCwDS3ic25rKW6ug4yw0Vwiaw7UZqD4bfzT5gz7tWzvdFcZvg/640?wx_fmt=jpeg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_003_0af8d367f407.jpg)
 
 QDPAK封装：1200V75A产品关键参数表
 
 2\. TOLT：紧凑设计的“功率小钢炮”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP4o9vqopbYnA4AHP7XuXzSlvN0ZiaDwQCiamicsia61vUQfwc5ascTfXzupUsjRQVIGFLw8mV4aXFq01eYlMOtZlZhlhNEcdJCwFU/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_004_582223672202.png)
 
 TOLT封装的产品拓扑图
 
@@ -54,13 +54,13 @@ TOLT作为QDPAK的紧凑版本，同样采用**顶部散热**理念，但体积�
 
 典型应用案例：瑞能半导体为SiC MOSFET和SBD开发的TOLT封装，利用增强的散热能力允许采用尺寸更小、成本更低的SiC芯片，在维持相同性能的同时替代传统封装中的大芯片。TOLT被广泛应用于通信电源、服务器电源、工业电源等对散热和空间都有较高要求的场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMHo8O43FBWpLYuGFXz2icjeNBJngwIdsQeibefwXbLMLU6nt9McEPm6hK0tHd9BZGLADEB7qpdjyMKwkbYrqXZicOku3jS5ibgF0w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_005_057552cd29be.png)
 
 TOLT封装：1200V75A产品关键参数表
 
 #### 3\. TOLL：高性价比的“全能选手”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNfSQ0iaQDAgUm7l3ibVZht1juKJLD2816OibQAOibBO1NJCpLL9bzy7JTDESnfw4CyDubeSwibia3FznTuW9g0iaIZmBJ4wbNlWicSicHY/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_006_ee6dc1ab0acd.png)
 
 TOLL封装的产品拓扑图
 
@@ -76,13 +76,13 @@ TOLL是当前最主流的底部散热贴片封装之一。
 
 英飞凌也推出了采用TOLL封装的CoolSiC MOSFET 650V G2系列，RDS(on)值为10至60mΩ，用于AI服务器、可再生能源、充电桩、电动交通工具和固态断路器等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPrmVhPeNufVkrQrlTb4RQlHpjThnOwsxvDemwlErq4fib4FuiaNIZsibmKTFpXsDTiaDG5gfDqousM4HdvDxBPjLcScIf8DziaVncc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_007_013a8352b478.png)
 
 TOLL封装：1200V60A产品关键参数表
 
 4\. TO267-7 (TO-263-7 / D²PAK-7L)：车规级性能之选
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOASYaW9RR0Qdgy2ibpPgTJSh8tgVKUF5sibg9sLaZAMcSnsZZojTMbgku970icqiaicAIyrzeg5DQ0wXoE0OJic7ZNAdMN7SMLPE3ibs/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_008_224bd1b463e7.png)
 
 TO263-7封装的产品拓扑图
 
@@ -98,17 +98,17 @@ TO-263-7是D²PAK封装的高性能版本。
 
 英飞凌新一代1200V CoolSiC车规级MOSFET采用TO263-7封装，相比第一代开关损耗降低25%，VGS(th)>4V且Crss/Ciss极低可避免寄生导通风险。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMutjZzfzjmdq2T6awyLeoUFdxT5Q3icqJYvPaqa9vKxt7JfmcKGMyRyKhnDJq8WtCkrmeJENicHRNTuqm7FfnYS5jNj8X1PEKHU/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_009_c9c39f967653.png)
 
 TO263-7封装：650V60A产品关键参数表
 
 5\. PDFN 8×8/PDFN 5×6：极致小型化之选
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMhpib3uJpDLeuqKNIUica7vfjyhHMXdDjozafoiaUWPxOoMVjCngnKTSNkZrVh7JDPbv5Zb7q1GnjPPwxib33BtwVEMtWK1qKbSvU/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_010_732d591d7d95.png)
 
 PDFN8\*8封装的产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMhpw1yKnTPYvlhnzNdVCZCV0SEoaHQZC7iaTJIX7PCLIW8r0bbn6mgCoalwiaToyGjaj7sjHjV1kz8DYseLrAgRPZGWtPff4V9Y/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_011_10a6ac09500b.png)
 
 PDFN5\*6封装的产品拓扑图
 
@@ -124,11 +124,11 @@ PDFN 8×8/PDFN 5×6是为空间受限应用设计的超紧凑封装。
 
 典型应用案例：东芝四款650V第3代SiC MOSFET采用DFN8×8封装，是首批采用该封装的第3代SiC MOSFET，开通损耗比现有产品降低约55%，适用于服务器电源、电动汽车充电站、光伏逆变器、UPS等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMDAAkq6veUIPViczPsLLiaOq93wKXP6OZAvWX4mUaXgntdGuic4JLjvQ4lnfiaCvBJXBzT30WXOFPjMWJQ1mllTUuOmeFSZt36kDo/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_012_b313f2744ee4.png)
 
 PDFN8\*8封装：650V25A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFKeflJrhoDWia8qkO1u2AkC6ib63Sy113HstnoaHnhzY2cf9Wytnzibx2yTK2tQa0vY0N7icatd6lYYibs4ic4rY6prkjIFpBiaqalQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_013_f5de5a36dcf3.png)
 
 PDFN5\*6封装：650V8A产品关键参数表
 
@@ -214,7 +214,7 @@ OBC、DC-DC、车载空压机驱动、UPS
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKm10y9f4hB8ZWukcYWycD5l7RDcnabLJtmJLwBgTjibUCl7fibsXdnOrGUzSRLdRHSia3KddkyVm54ldnUpUm2VuLp1fNuw1qD0/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_014_ed2bdb417be8.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -222,7 +222,7 @@ OBC、DC-DC、车载空压机驱动、UPS
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMSoiaic7Je2zCu2hMWpibDHTNTrLmcokibYjmeuZ40VVE6XYhmMmFeIhNuIM0njerFbJnxgWiash6akzSAv0R3hNtm3thk7IFP6zt0/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_015_9607367cdfd8.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -246,7 +246,7 @@ OBC、DC-DC、车载空压机驱动、UPS
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOw4YayJknffb31fKLa4xsFwvUwKBJnWpAyyMtd9VTcDp2eYhdtyicvXagiaDcKAZibTyjRIEbtI25bfUyibeOZRxowicB3ic6mwDImI/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_016_7658b5918e24.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -294,14 +294,14 @@ OBC、DC-DC、车载空压机驱动、UPS
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOK6gGKADla1RUJLJ0oUwAxrha8y7M7HgHVQAl1Vlia7h3Oma20d4ib99Cem1y9k7A9aDsYNgHM7IC3Yib9SWZBf606ehPc7OBoIs/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_017_e0533a51d3fa.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNMRpyN80lsN2FnABb1UMQia7NMWMzYkS9fcmNex0zsgAwHxwUzZwXP3npvmDtRffF8U8ibq2aBKcOXhLibavvreEqItqqNbfwbzI/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_018_eb23a1e51d7e.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPe58icPZkcicOQ3rMsmTarOiaUB6phib4rAwxtLUOSWdDLiaFD0SpZWBPiaveX7DQMTmwV384j7iccOJOp2LUpiaQjNc9yCPD8xD4Ib70/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](SiC_MOSFET贴片封装（QDPAK_TOLT_TOLL_TO267_7_PDFN8_8_和_PDFN5_6）的产品及应用介绍_images/img_019_a9c22235f3f1.jpg)

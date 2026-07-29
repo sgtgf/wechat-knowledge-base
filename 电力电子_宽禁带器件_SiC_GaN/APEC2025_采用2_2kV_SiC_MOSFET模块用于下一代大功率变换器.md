@@ -8,31 +8,31 @@
 
 作者：Kevork Haddad - Semikron Danfoss，Dr Yue Zhao - University of Arkansas  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhdEic6OiaQD37RxDPJ9Gehsqkgk44A5Wp7VE3aGsPDmwAehbeGosqLBCw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_000_68777c9728ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhLl7W4RCY0oy9eFicWDPyFyXwWicibudFIagmiatR8hWZXR8h666uY7a4Hw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_001_444a3b64c192.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhfTnicuPQDqwMJLzbxHCBX9HicW4SkYVshlKXvxnwqdiaOx25nIf8Q7aNA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_002_54ea63f879d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhDcavhonfJGeU0lpZicPhwRyuP7TelnXXTsluLtdqTCIlR1293fHp8KA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_003_feeab4bdb62a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhGINhJzqkyBiaPMNtbKCBmuMgfuN3qLTYPtSMDWDbWqiaCwZp2Guvs3eg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_004_96dd2a0834ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhwibibl9K2icDKIekU4jLINp4UehsBbF0jORCptN0dE9tVyXhH8nID1yIw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_005_8c2ef53b47d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhhDpwkBB1L2xKVjQgyrAZmMxojaI6bsV0HUv9jY5jTMI6LqX4h6UJyg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_006_2c88cd83dd4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhS9YWGRhM2icg6akxpgchXpypvLnJyWE5X2h7cHypI9Xd9hETCdc7XVA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_007_a756d6589e20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh4ALtH0KNNicde3NRlnRbvsX9AhVDbX5iaO1R2icicsxtJITygYEgTmCzMg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_008_e690331f3182.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhjgaCSSZzWwYOaEPFKkIzYISvRoger7cWtrMBa3498e75eVkF85edIw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_009_25367d8edac9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhSRCVpbK1NucJmgPfd1ic9zsICRR4372JfxadhFlP5KxacwnfMWx9WWQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_010_7af61715a086.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh6KIE0YCapbIn6XjMwQ7xmGicVa7jKYXC2R0DKH4fw95mqJaOibwX3RUA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_011_db0be8ad7407.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhgicVnicT2Bo7umicFBiaEHFYGgg6ePIiax11XgDIZpxAv475ASeiaDXXYzEg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_012_8aedb0cabd2e.png)
 
   
 
@@ -160,13 +160,13 @@ SiC 器件凭借 “低损耗、高频化、宽温域” 的核心优势，正�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_013_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_014_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_采用2_2kV_SiC_MOSFET模块用于下一代大功率变换器_images/img_015_573ddf34e793.png)

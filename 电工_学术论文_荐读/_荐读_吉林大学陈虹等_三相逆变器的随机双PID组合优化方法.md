@@ -3,35 +3,35 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5EjPYBhH5tbeeNuGKe9Jiw](https://mp.weixin.qq.com/s/5EjPYBhH5tbeeNuGKe9Jiw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/v9UbczKuMgbQCiaBfb13XKqJUnjhCh0Fu65wt9CODe5wE96UQkbPfhPyDZO6roscqdhYEBibwBvFNElHxTM7C09w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_000_c3b507824a3f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/g2XtTmvU0zdxAn7icdWcfaWfiaCGa7ndSCNiahee463ic7RPgwBvo4SxNbA1OSDibjLBkdWqp2mm47UCGh5QOXtPLLA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_001_259e059c7bf6.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/v9UbczKuMgbQCiaBfb13XKqJUnjhCh0FuozL7JhHvpYdMxwfTYFp8NaGsoAVSVC6LsWxoh2jlVmI0UuugaqzjEw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_002_2c3113732dbd.gif)
 
 点击上方“电机与控制学报”关注本刊～
 
 本文刊登于《电机与控制学报》2018年第22卷第10期，页码：1~9。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mYmAIcOwdBCviaJdIuDggXMda91Av9ibY4sYEHGm99l8YnHgld7cziboK9g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_003_0eec898a577f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mYv0HDsxnWhzZ3Lic3U4ojVE0Tiac0hKL9QyNlaiaiaYDGhiaiat31dxxIIsMQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_004_06fc965189da.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mY5g5wzQ2r3Qm5Bw5hc3lBM44hlJBJ0RJdcuQetzhQruEkLuK1ncg6lw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_005_8ffa3572b49f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mY8s73fgWlxq9EbSTS62eeAEnN1EQ4JY7pJwKvAMufK6uXKr2Giad0v5A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_006_3d9dd2d2664a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mYT2yaBR2Oun8RdbwuxDo4V6ticCzkG8dK9hyTaLvFbXae2JsWKuh0iaYw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_007_f2926156cf1f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mYI7Jm7lneAuCHxLKRlxGuCgDib6fZYSFAGfEk3NMo9PRrjXSB4HibDQfw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_008_8afac87002cf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mY3b5sGuoza8T2TZXzN22EpGAk9BAacDicKa4Dmibqy4sbDjwLF3iaHYibqA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_009_96e5d6d50b8b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mYXKbWgTQJF86VtwlHUOLQGRAla7ibSKUXy5SsdylLt8e4gsL5s8jvwxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_010_9cf6aa737993.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKB4AKq0QVGkHe02txT66mYzycNwibW1s3WhNPGCf8CpQ2mmdsFCibG1U6ptF78luhIETRSAicexmtPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_011_8d8d74ad596b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKHTX1DCfLZAjwQtGiaZicbFXESXwVNs4JeNL0cqoNskbib1DazTGicaw9AhYs59F6pykhFSdaBOHH5vA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_吉林大学陈虹等_三相逆变器的随机双PID组合优化方法_images\img_012_2a812703483a.jpg)
 
 电机与控制学报
 

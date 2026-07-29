@@ -7,7 +7,7 @@
 
 碳化硅是第三代半导体产业发展的重要基础材料，碳化硅功率器件以其优异的耐高压、耐高温、低损耗等性能，能够有效满足电力电子系统的高效率、小型化和轻量化要求。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERJx81dJZfIIGdDEvVpjfpPHV17LMNII0b5JJn5xfnrtm1gXcI5e9Sdg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_000_94ad3a73fc36.jpg)
 
   
   
@@ -19,9 +19,9 @@
 
 碳化硅MOSFET是一种基于碳化硅半导体材料的场效应晶体管。它的工作原理类似于传统的金属氧化物半导体场效应晶体管（MOSFET）。主要由以下三个部分组成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERmkCZI7vw3qPS0HNcyWL2vz3hMgax4q3Woia1hsPsibA9OTo5D9pIsyNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_001_6be759adf36b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERIVOF35PS3u5stoQd6hF2QasLdBMMynUKIH4dZmMon9tjSxj4djMBgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_002_db4b30f19bf8.png)
 
 1.  **栅极（Gate）：** 栅极是用于控制MOSFET导通的部分。当施加正电压时，栅极与通道之间形成电场，控制通道的导电性。
     
@@ -29,14 +29,14 @@
     
 3.  **通道（Channel）：** 通道是源极和漏极之间的导电路径。在碳化硅MOSFET中，通道由碳化硅材料构成，具有较高的载流子迁移率和耐压能力。
     
-    碳化硅MOSFET的工作原理可以简述如下：当栅极施加正电压时，形成电场，使得通道中的载流子（电子或空穴）移动，导致源极和漏极之间形成导电路径。通过调节栅极电压，可以控制通道中的载流子浓度，从而控制MOSFET的导通程度。![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERB7oqpleUxACFcnGjjVGnNYEsxPz4xxlibVn9hYXticcibotDh74BBjUibA/640?wx_fmt=jpeg)  
+    碳化硅MOSFET的工作原理可以简述如下：当栅极施加正电压时，形成电场，使得通道中的载流子（电子或空穴）移动，导致源极和漏极之间形成导电路径。通过调节栅极电压，可以控制通道中的载流子浓度，从而控制MOSFET的导通程度。![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_003_f0ddccdd5934.jpg)  
     
 
   
 
 **二. 碳化硅MOSFET分平面结构和沟槽结构**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERj2zbA57Wxc2AYJ3DqMDicLBnrQZNjJ9C60ozVJOxaAqXFTqXsicpdKGQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERt1vGu3kcibBrFwgHA47IFziblKQJZZR0fRalal4zhWFicCcLAbDxO6l5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_004_0534da0dd141.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_005_fefb1d52c665.png)
 
   
 
@@ -150,29 +150,29 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
 **五.碳化硅MOSFET应用案例**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERut0EsdRupLibCzcUqRXu9Ylv7wXrlMNBV6NuE57Trb2icrbpnaefcibdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_006_d27e7706e66d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERuW9VtTpd77rIk4H9Hy0kRtFq379mydj5iaogZTg6DO6pHJBhTgEdW3w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_007_dab70c86d4a2.png)
 
 **OBC和DC/DC中应用**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERkryAq3ibrXspe0UI63zjBFsJ2Uhh25uwzCg6wmsEUxACmzpdHxZPymw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_008_617c34f568c5.png)
 
                                             **充电桩中应用**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERIudGDG6ylMckQ92Uu2Yrx1GR8MKy4cb02NC15u4SOYsXDW2RXEibpNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_009_1cd5a068683c.png)
 
   
 
                                                     **光伏中应用**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERzxT7OkyNWy77ASbgsOVg9oFDnmgxjDfiaqOo779ol5GHicMW6tvKL6tw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_010_52b83efee5f7.png)
 
   
 
 **燃料电池系统中应用**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERXNqxc7CyHM9MkwytqlazQYu2IF3Lhlj6takia0RcNEePl7bd79W7zog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_011_6d8a753a46ab.png)
 
   
 
@@ -182,25 +182,25 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERvYu0qgDNhY2e6y1fQ5hoP28j0ASGrU5yEcGibUL480QXAoOFOxMmerA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_012_dd4865d5985f.png)
 
 **七.碳化硅MOSFET产品选型**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERMkTHmcbRG3nfQKrtGzcTeWzv13BGnHk0L4P3xqx1kFEjsFZZdt8row/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_013_344d9cc72f8f.png)
 
   
 
 **八.碳化硅MOSFET新产品**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERJTbqEJEiaIXAwE566R9fbstgByVDWfYMUVXH0XnoI5sGaE1DrsqYNtw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_014_d8fa9f540caa.png)
 
   
 
 **产品线：碳化硅MOSFET晶圆片--碳化硅MOSFET单管--全碳化硅功率模块**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERMcWfD6surmA4uSr5q425LkR1ry337HA3OiaQqdPAdiboswmuU1uUKZtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_015_c2de04530a1f.png)
 
   
 
@@ -208,8 +208,8 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
 电力电子变换已经逐步进入高压、特高压领域，高压功率器件是制约变换器体积、功耗和效率的决定性因素。特高压交直流输电、新能源并网、电动汽车等领域都对高电压等级功率器件有着更高的要求和需求。目前，硅（Si）材料器件发展成熟、使用广泛、性能可靠，然而其较小的禁带宽度、击穿电场和热导率等特性大大制约了其在高功率、高电压和高频率下的应用。SiC作为宽禁带半导体之一，在人们的探索和研究中逐渐走进了功率器件的舞台，并凭借其比Si材料更高的禁带宽度、击穿场强和热导率等优良特性，打破了Si材料的极限，在高电压等级和大功率电能变换应用中体现出了较低的功率损耗、更高的开关频率等优越性能，具有极大的潜力。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_016_20474028c65b.jpg)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](http://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解SiC碳化硅MOSFET的应用及性能优势_images\img_017_2a9f34451ba9.jpg)

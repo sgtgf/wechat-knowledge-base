@@ -28,7 +28,7 @@ I2C协议是一个允许一主多从进行通讯的协议。它就像串行外�
 
 总结：短距离、一主多从、半双工、两根线、同步通讯
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGZVibQwpntLQlrBdwYXX8F6m9ysFfRa5v2DnI8sGAgOzbqLbxERfG4Xw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_002_13269865ce38.png)
 
   
 
@@ -58,7 +58,7 @@ I2C协议是一个允许一主多从进行通讯的协议。它就像串行外�
 
 全双工：是指在通信的任意时刻，线路上可以同时存在A到B和B到A的双向信号传输。在全双工方式下，通信系统的每一端都设置了发送器和接收器，因此，能控制数据同时在两个方向上传送。全双工方式无需进行方向的切换，因此，没有切换操作所产生的时间延迟，这对那些不能有时间延误的交互式应用（例如远程监测和控制系统）十分有利。比如，电话机则是一种全双工设备，其通话双方可以同时进行对话。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGIbXnibm3dC1FHnC2nHRqVbvFvAB6qNdMO9Q74l0MTnQcBDxqqXhYLTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_003_294fd6811542.png)
 
   
 
@@ -121,7 +121,7 @@ I2C最重要的功能包括：
 -   最大从机数：理论上是127；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGhlocECAgRW5G5huZM3Up2cGHUic60D3LVgicGlVoM5BjoKua0xS76DBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_004_50ed66746802.png)
 
   
 
@@ -165,7 +165,7 @@ I2C最重要的功能包括：
 
 主设备和从设备进行数据传输时遵循以下协议格式。数据通过一条SDA数据线在主设备和从设备之间传输0和1的串行数据。串行数据序列的结构可以分为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricG6c6OV2C0wRD0FvELFhkqKggOCgf4HQXtYZeV1eWHiaRKEODd8XqOfjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_005_38f3531d187a.png)
 
 1 起始位
 
@@ -178,7 +178,7 @@ I2C最重要的功能包括：
 
 在主设备发送开始条件信号之后，所有从机即使处于睡眠模式也将变为活动状态，并等待接收地址位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGTicpqyeyY2PKA3ibvunz2ZIIFonlUZiaVRN2ibR6HviaZ7ZiaCykG3vMrXlg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_006_2afe714cdc0c.png)
 
 2 地址位
 
@@ -203,11 +203,11 @@ I2C最大的一个特点就是有完善的应答机制，从机接收到主机�
 
 应答信号：出现在1个字节传输完成之后，即第9个SCL时钟周期内，此时主机需要释放SDA总线，把总线控制权交给从机，由于上拉电阻的作用，此时总线为高电平，如果从机正确的收到了主机发来的数据，会把SDA拉低，表示应答响应。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGCBPkA53GbhP30g7Gc7AOCia04cvJnxY9Is6WLrY0yPmG1t0M403U3cg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_007_d21a1cc666a4.png)
 
 非应答信号：当第9个SCL时钟周期时，SDA保持高电平，表示非应答信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGGW0Lopk5D5z3hCz5Evkbtnl0KAyAJK4NoGQ9icqn45VjeLiblZL1oxzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_008_9f9abb4a368c.png)
 
 非应答信号可能是主机产生也可能是从机产生，产生非应答信号的情况主要有以下几种：
 
@@ -226,7 +226,7 @@ I2C最大的一个特点就是有完善的应答机制，从机接收到主机�
 
 I2C数据总线传输要保证在SCL为高电平时，SDA数据稳定，所以SDA上数据变化只能在SCL为低电平时
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGtxaPdbdrFyL5aaVp4kKrRxgPSggOG2tffB4BywYvH90cW9OLV7q7iag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_009_590400197abe.png)
 
 一次传输的数据总共有8位，由发送方设置，它需要将数据位传输到接收方。
 
@@ -243,7 +243,7 @@ I2C数据总线传输要保证在SCL为高电平时，SDA数据稳定，所以SD
 -   再将SCL线从高电平拉到低电平；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGcvibILEic14UTqR9UuKjjR9ftHjAXGWP08ibKib6vFwtQ259AX6oIGdJQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_010_df9a2067a5dd.png)
 
 总结，写寄存器的标准流程为：
 
@@ -313,7 +313,7 @@ I2C总线上的仲裁分两部分：SCL线的同步和SDA线的仲裁。
 
 SCL同步是由于总线具有线 “与” 的逻辑功能（开漏输出），即只要有一个节点发送低电平时，总线上就表现为低电平。当所有的节点都发送高电平时，总线才能表现为高电平。正是由于线“与”逻辑功能的原理，当多个节点同时发送时钟信号时，在总线上表现的是统一的时钟信号，这就是SCL的同步原理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricG7yQP90ibyhQEpA2g2KAQ24icHMnGoibhmD2UQSyvp3ibjCPrW8CEzchGrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_011_2c86fbd062fe.png)
 
 2 SDA线的仲裁
 
@@ -332,9 +332,9 @@ I2C总线的控制逻辑：低电平优先
 
 SDA线的仲裁可以保证I2C总线系统在多个主节点同时企图控制总线时通信正常进行并且数据不丢失，总线系统通过仲裁只允许一个主节点可以继续占据总线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGvJQGicib8Sc5N05dKiamxlZDic9FmuqM6CKxZkHGfrEGjvj0DfgTTQGQlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_012_c81b8023d440.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGPK5rib1mLnKlAMkT8jVAqicZ4VRc8nuLees7ibak76muOJDIOCqXMSzDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C_死锁_原因_images\img_013_7c6bfdeaf00e.png)
 
 上图过程分析：
 

@@ -23,13 +23,13 @@
 
 1.1 Si IGBT试验原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtVO6bkia07NFZADX6oUIoq08ccicrVEkLQwrOwhNuEpMdvIZYuqSocb5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_000_fb6d939df953.png)
 
 Si IGBT功率循环试验原理如图1所示。在功率循环过程中，被测器件(DUT)的栅－射极间 一直施加15V正压Vge使其处于开通状态，利用开关S控制负载电流Iload是否流过DUT。本文选用 VCE (T)法进行DUT结温的测量，因此在循环过程中需要在DUT集－射极间施加测量电流Isense 。 在开通时间ton 内，开关S闭合，负载电流流过 DUT，此时DUT被加热达到最高结温θjmax ，然后开关S断开，在冷却时间toff内，DUT冷却至最低结温θjmin 。因此在一个循环周期(ton +toff )内， DUT经历了一个结温波动(Δθj)。DUT在经历循环的温度波动过程中，由于材料间热膨胀系数 (CTE)不匹配使得器件产生循环热应力，从而造 成器件的老化失效 。 
 
 1.2 Si C MOSFET试验原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtfazdw5fGGgDWyMvVsjwROdo1jtpXiaQQ7V1CuNjBm1cDl4AibLI3ibgYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_001_8315dcfc4080.png)
 
 相较于Si IGBT的功率循环，SiC MOSFET的功率循环较为复杂，SiC MOSFET的功率循环试验原理图如图2所示。对于SiC MOSFET，本文采用VSD (T)法进行结温的测量，即采用反并联二极管的pn结在小电流下的饱和压降与结温的关 系来反映结温。因此功率循环时需要对器件的栅极进行控制，在开关S1闭合时(ton 时间内)，器件栅极保持开通，负载电流正向(从漏极到源极) 流过SiC MOSFET，该器件被加热，当开关S1断开时，SiC MOSFET的栅源电压Vgs 从15V切换为－10V，器件关断，Isense 流经反并联二极管。这里 加－10V是为了将SiC MOSFET栅极沟道完全关断，使Isense 全部流经pn结，否则一部分电流可能会从沟道流过造成结温测量不准确 。
 
@@ -37,33 +37,33 @@ Si IGBT功率循环试验原理如图1所示。在功率循环过程中，被测
 
 本文选用Infineon公司的1200V/50A Si IGBT 和RHOM公司的1200V/24A SiC MOSFET作为被测器件。为了保持控制变量的单一性，选用的器件均采用TO－247封装，通过超声波扫描(SAM)可 知两种器件均只有一根键合线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtjvYbRU1zUzEbWwhzibxwME39t0eaULbCJj4d2Ulx9XIwGPeZmCIBZcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_002_01fdf69c2151.png)
 
 本文搭建的功率循环试验电路拓扑如图3所示，共有3条被测支路，每条支路有2个被测器件，以保证同一个试验中对6个器件同时进行测试，避免结果的随机性。对不同器件进行功率循环试验，试验条件如表1所示，其中ton 、toff 、Δθj、 θj max 基本一致，只有Iload 不同，以使不同器件达到相同的Δθj。这是因为Si IGBT和SiC MOSFET的损耗和热阻均不相同，很难在相同的负载电流下达到同样的结温波动。从器件的寿命解析模型可知， 影响器件寿命最主要的两个因素是Δθj和θjmax ，因此尽管负载电流不一致，在保证Δθj和θjmax 一致的情况下进行寿命对比仍是具有重要意义的。测量电流源采用100mA的小电流源，这是为了防止器件在小电流测结温阶段产生自加热 。由于DUT是分立器件，其散热条件较好，焊料不会发生老化，即热阻Rth基本不会上升，故器件失效判据为饱和压降VCE上升至105%VCE 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtN0lpVLdEG1zbDwA2cMQ0ic7pzgVPo2QkmI4Athiag1WFJNQQ91zFibUicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_003_e16273c58ce0.png)
 
 1.4试验结果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtPibm6pQ9CPNYatmibMlz1cJjWlMrm37iafibc87gJXtz7YmYrOpX2zicrXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_004_26633fd94842.png)
 
 试验结果表明，无论是Si IGBT还是SiC MOSFET均是VCE或VDS先达到失效标准，并没有出现热阻增加的趋势。由于同一种器件具有相似的参数变化，因此每种器件只展示一个DUT的参数变化。 图4分别展示了Si DUT6号器件和SiC DUT1号器件功率循环中主要参数的变化曲线，可以看出，在功率循环过程中Si IGBT和SiC MOSFET的Rth 均略微下降，最终达到稳定。这是由于DUT与散热器之间采用了绝缘导热的硅胶片，硅胶片在温度波动过程中热胀冷缩，逐渐将器件与硅胶片和硅胶片与散热板界面之间的空气排出，使器件与散热板之间 的热接触更紧密，散热更好，因此热阻会略微下降 达到稳定态。VCE或VDS前期稳定，后期由于器件裂纹的扩散而逐渐老化，最终呈指数增长。以 VCE 上升5%为标准，此时对应的功率循环数Nf即为器件寿命。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtVaialm3FI1xPVVuEVQ6Agv2YPicD3WVbKibf9cSpnawHPWA819riaECiaRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_005_6a23e52af21e.png)
 
 为了进一步判定器件的失效形式，验证键合线的老化状态，通过SAM对芯片表面进行直接观测。图5分别为试验前后的Si IGBT DUT6号器件和SiC MOSFET DUT1号器件的芯片表面SAM图。可以看出，Si IGBT和SiC MOSFET在功率循环试验前， 芯片层上存在明显的键合点，在功率循环试验后， 键合点消失，可以判定键合线发生了抬起，这也符合分立器件的一般失效方式。
 
 由于试验过程中存在的误差，无法保证各个器件试验条件完全一致，因此对比寿命时需要将寿命进行标准化。针对具有单根键合线的分立器件，G． Zeng等人提出了以ΔTj(K)、平均结温Tjm(K)、单根键合线上流过的电流Ib为变量的寿命模型，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtgRcEIY95KG6mvKqNfuETianM2g7decoqd28s8trfxQibqH0xEVs3qKFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_006_8b6775820ff8.png)
 
 式中:K为基本寿命;α为Coffin-Manson指数;k 为玻耳兹曼常数;β为键合线电流对寿命的影响因子;EA为活化能。各参数值如表2所示。由于试验过程中无法保证θjm完全一致，所以需要将各个器件的寿命等效至相同θjm条件下，结果如图6 (a)所示，其中将Si IGBT的标准θjm设为105℃是因为试验条件为Δθj≈90℃、θjmax≈150℃。其次，考虑到两组试验中Ib不一致，故将SiC MOSFET的负载电流等效至Si IGBT的负载电流 42.5 A。选择Si IGBT的Ib为标准条件是因为式 (1)的寿命模型是以Si IGBT为样本建立的，最终结果如图6(b)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtOak0XQz1ANxkStXC8CPwfGfULtMWV2Zrq5133K815ibJ1Y4yIlHs7lA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_007_ab407c725a7a.png)
 
 由图6可以看出，Si IGBT的寿命基本分布在 Si分立器件寿命模型曲线上，因此可以认为试验得到的Si IGBT的寿命符合G．Zeng等人提出的针对具有单根键合线的Si分立器件寿命模型，这也从侧面印证了试验结果的正确性。θjm =105℃ 时，在各自的负载电流下，Si IGBT的平均寿命 NfSi 大致达到32449次，SiC MOSFET的平均寿命 NfSiC达到55407次，SiC MOSFET寿命明显长于Si IGBT寿命。但若考虑同一条件下的寿命，将负载电流都标准化到42.5 A，此时SiC MOSFET的平均寿命缩小至7656，大约是Si IGBT寿命的1/4。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemt5A6IcepbvPHnAGuKXzjgjdTQA9Zd7kia18a0l6KOibsdhViaM0TIcXfTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_008_c0e03fb3dbab.png)
 
 2.有限元仿真分析
 
@@ -71,65 +71,65 @@ Si IGBT功率循环试验原理如图1所示。在功率循环过程中，被测
 
 基于TO－247封装的Si IGBT和SiC MOSFET 的SAM图，可以得到器件内部芯片的尺寸和位置， 从而建立其几何模型。将几何模型导入到有限元仿真软件中，基于实际的试验条件建立电－热－力多物理场耦合模型，并设置模型的边界条件，再划分网格(图7)。在固体传热物理场中，为了模拟水冷散热，设置散热器底部等效换热系数为5300W/( m²·K) ，四周换热系数为12\. 5W/( m²·K) ，以模拟与空气的对流散热。模型电学部分根据电流实际流通路径分别设置 IGBT /MOSFET的集电极/漏极为电流流入端，发射极/源极为接地 端。同时将芯片有源区视为可调电阻，其电导率σ为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtyINgNXgnVzbJFWQCObOIfXiam5YbvhGnOIYKToK7wic2DibScH8q2Y7KQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_009_22616e59d43e.png)
 
 式中:ρ为电阻率;h为芯片的厚度;S为有源区 的面积;R为根据器件数据手册中提供的I-V特性曲线得到的导通电阻，一般将其与温度的关系视为线性关系。键合线和芯片表面金属层为铝材料， 在模型的固体力学部分将其设置为弹塑性材料， 由于模块是通过一层硅胶片固定在铜板上的，因此将硅胶片的上表面设为固定约束。划分网格时， 采用从芯片到散热器的网格扫掠方式模拟实际热流的扩散路径，由于需要重点研究键合线与 铝金属层的受力情况，故对键合线和金属薄层进行了细化处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtbalHGT9PvSYKiacKPLtVLreeOgJuuPPiaLevpo5zfXEDkEx4egQic0M2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_010_2e29051ba295.png)
 
 为了使仿真模型更加接近实际器件，更加真实地反映器件内部的传热过程，需要微调模型的几何参数和材料参数，使仿真与试验的瞬态热阻抗曲线 (图8)一致，从而保证仿真中的热路径和实际器件一致。由图8可以看出，Si IGBT的瞬态热阻抗Zth 上升速度越来越快，SiC MOSFET的瞬态热阻抗上升速度先减小再增大，这是因为现有的1200V SiC MOSFET采用Si作为衬底，在Si衬底上有 10μm厚的SiC，而SiC材料的热导率约为Si的3 倍，因此SiC MOSFET的瞬态热阻抗曲线和Si IGBT的有很大的不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtATk3y0PWNUrKQ7XrNsTFm8IWsSdWbicxcBA20ib9a6VbF39etKCDFLIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_011_c19ba21b6e39.png)
 
 因为仿真是一个理想化的过程，必然和实际器 件存在一些差异，因此为了使仿真达到和试验一样的结温条件，对仿真中的电流和水温 θs进行了调整。值得注意的是，仿真中改变电流本质上是在调整芯片的电导率，这是因为试验中测得的电压是包含键合线部分的，但在建立仿真模型中 I\-V 特性曲线上的电压只体现在芯片电导率中，这导致仿真中芯片电压偏大，电导率偏小，所以仿真时需要的电流就比试验中的电流小。仿真条件设置见表 3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtTItxsdpFxicgia9e3Dnevia58pXEAblQQU4aLBbicPWiaMvakS476OErbbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_012_943cc8fd9e40.png)
 
 2\. 2 仿真结果
 
 2\. 2. 1 电热学特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtvP8BMic4fX62SB7CrGt9p4wtc4R7dtHKzMqvOSnjMLUicub7aYogPnWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_013_b7401bcd0866.png)
 
 图 9 为 Si IGBT 和 SiC MOSFET 芯片的结温变化图，本文中结温选取的是芯片表面的平均温度，这是因为大量的试验数据表明芯片表面的平均温度最接近于用 VCE ( T) 法测量得到的结温。由于1s的开通时间并没有达到器件热稳态所需要的时间，因此器件的结温波动在前几个周期内呈不断上升的趋势，到第 6 个周期达到稳定，稳定之后最高结温约为150 ℃，最低结温约为60 ℃，结温波动约为90 ℃，与试验条件一致。其中，最后一个周期的关断时刻 ( t \= 19 s) 芯片表面的温度分布如图10 所示。从图中可以看出，芯片表面温度分布存在明显的温度梯度，由中间向四周均匀扩散。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtFXc6kTB8710UoXXqsLrKDicHp9oibdRgicZeCWQZ6EQzG451ufUcsqGDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_014_d9f5fc205f95.png)
 
 分别提取 Si IGBT 和 SiC MOSFET 芯片表面对角线的温度θ，结果展示在图 11 中。可以看出两 种芯片表面温度分布的趋势一样，即中心温度最高，对角温度最低，由于Si IGBT 芯片面积大于SiC MOSFET 芯片面积，因此 Si IGBT 的对角线长度更大。Si 待测器件的芯片面积更大，散热面积也更大，这使得 Si IGBT 芯片表面温度梯度 Δθ 略高于 SiC MOSFET 芯片表面温度梯度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtU9HExgse9RgA83P0atM9icccINkZIRPhUlYWVzBLm6WTBKdVRFic6qOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_015_708a67139653.png)
 
 2\. 2. 2 力学特性
 
 从器件的 SAM 图可知，器件失效发生在键合线与芯片表面铝金属层相接处，所以力学部分重点 关注键脚处的应力和应变的大小和分布情况。将器件达到稳定的最后一个周期的结温变化结果作为变量导入到热力耦合物理场中求解，得到器件的热应力。图 12 展示了仿真中最后一个周期铝金属层表面的平均应力，结果表明随着结温上升，金属层表面应力也在增大，在电流关断时刻 ( t\=19 s) 达到应力最大值，随着结温的下降，应力也减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtY2NzcGiae7Y8d4ruZzL1wI6cu9kyH9svcWyIDF74YbhVsfE7B8dTryA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_016_6d3f68de97b6.png)
 
 图 13 展示了t \= 19s，即金属层表面平均应力最大时刻的芯片表面金属层应力分布。从图 13 中可以看出，无论是 Si IGBT 还是 SiC MOSFET，应 力最大点均出现在键合线键脚的周围，而且 Si IGBT 的最大应力值大于 SiC MOSFET。这是因为键合线材料与芯片材料的热膨胀系数不一样，两种材 料在相同的温度波动下收缩/膨胀的程度不同，从而在芯片与键合线接触面产生应力，由于硅与铝之间的热膨胀系数差异更大，所以 Si IGBT 芯片键脚处的应力更大。另一个原因是通过 Si IGBT的电流大，焦耳热效应导致其应力也更大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemthpjibqAnkuBBUwctfmUSOe4qFic7nyOpjY8ibwxo7sqomcIBs809f91ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_017_5fe488e3f8df.png)
 
 应变具有累积效应，在一个结温波动周期结束时刻 ( t\= 21s) 芯片表面金属层应变达到最大值，该时刻金属层表面塑性应变分布如图 14 所示。可以看出，虽然塑性应变最大点与应力最大点不是同一个点，但都出现在键脚边缘处，这也符合键合线抬起的失效形式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtUynG4KoyvBKQYYhtGsskYG9iakgWqThds88xNWGmWklianU97SpaUptQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_018_335a910ee493.png)
 
 提取器件在一个结温波动周期内最大塑性应变点的应变变化情况如图15所示。Si IGBT 和 SiC MOSFET 的塑性应变在一个结温波动周期中应变呈现相同的趋势，先以较大的累积速度增长至关断时刻，在降温过程中应变缓慢增长直至平稳，最终 Si IGBT 芯片产生的塑性应变大于 SiC MOSFET 芯片的。Si IGBT 芯片和 SiC MOSFET 芯片产生的塑性应变ε Si、ε SiC分别可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtSh4yhMhnUdVvof3s66xRkTN8IBdHXkyqYwGLEjU7VBicu7icicMBJl1Jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_019_a816c9ad94d2.png)
 
 式中: LSi和 LSiC分别为 Si IGBT 和 SiC MOSFET 键合线与金属层表面相交叠的长度; λ Al、λ Si和λ SiC分别为铝、硅和碳化硅材料的热膨胀系数，其中λ Al \= 23. 5 × 10-6 K，λ Si \= 2. 6 × 10-6 K，λ SiC \= 4. 3 × 10-6 K。需要注意的是式 ( 3) 和式 ( 4) 仅用于估算塑性应变，并不能对塑性应变进行准确计算。仿真中 Δθj大致相同，但由于键合线的直径不同，所以 L 存在细微差异，其中 LSi \= 2. 7938 mm，LSiC \= 2. 0094 mm。将两式得到的值相比，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtztnzJpWlzTX2yicgL60cMKBrJAoEukjUWjAruXGw8yCSPgy4NlIaopw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_020_8b585cc8f59d.png)
 
 可知，虽然 LSi＞LSiC，但影响ε主要的因素仍是材料间热膨胀系数的差异。由于λ Si<λ SiC，使λ Al－λ Si更大，故铝和硅热膨胀系数差异产生的塑性应变更大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtUC5OF7icM90cfzicIWrIIxeNsGZ3flabMb3YUDOpzew8NUP0lS8iaHYXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_021_474f49fd234a.png)
 
 2\. 3 疲劳寿命
 
 由于键合线和芯片表面铝金属层都是弹塑性材料，在高循环应力作用下会产生塑性应变，导致金属永久变形或出现断裂，这种失效模式称为应变疲劳。功率循环是一种低周循环，适用于低周循环应变寿命的模型中最经典的是 Coffin-Mason 模型，使用材料的塑性应变作为参量来计算器件的寿命，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtTvibLzMFVN7tiaPgTygn5QpWCUyL1JoIvvdicbqonqmyfgWX8hziaMicRpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_022_f6aaf06ebf03.png)
 
 式中: C1、C2是通过功率循环试验拟合得到的大于 0 的常数; Δε 是一个结温波动周期内器件产生的塑性应变。仿真结果表明在相同的结温条件下， 一个周期内SiC MOSFET键脚处的塑性应变更小，由式 ( 5) 可知寿命与塑性应变呈反相关，故在相 同的结温条件下 SiC MOSFET 寿命更长，与试验结果一致。
 
@@ -147,10 +147,10 @@ Si IGBT功率循环试验原理如图1所示。在功率循环过程中，被测
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_023_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_024_0fc2146c10d8.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_IGBT和SiC_MOSFET分立器件封装可靠性对比_images\img_025_3a3df320c8e4.png)

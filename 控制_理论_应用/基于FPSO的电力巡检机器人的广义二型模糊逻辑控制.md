@@ -98,13 +98,13 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190306?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQORzIibRGmPic8ptcu7Q2h5R7Ww9OBCy1jHqEh6WoGqjLIiaU0a538sVNA/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_000_5cf5529d553e.jpg)
 
 图 1  PLIR模型
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQtibibjDG1VKxJcY9cF1JDoSYJQsh7DOVIT7IlgWSGicqr5nhBKk2EkhKQ/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_001_245591b8e625.jpg)
 
 图 6  PLIR平衡控制和优化原理图  
 
@@ -126,7 +126,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190306?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQo290GZo0yQCkVX52xUIh1vGVop6mf5a8QJgAw7jztnVww3rUVThvrA/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_002_9e4aa32ba1cb.jpg)
 
 **吴   庆**
 
@@ -134,7 +134,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190306?viewType=HTML
 
 E-mail: 2017223035223@stu.scu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQSUX1Jo2frib0tdR5BA7oxIgbZY4SQ0Gpy9nrpe4vXkpu3XGZB4z9RpQ/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_003_3f27902c4319.jpg)
 
 **赵   涛**
 
@@ -142,7 +142,7 @@ E-mail: 2017223035223@stu.scu.edu.cn
 
 E-mail: zhaotaozhaogang@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQjjpsxMzTdRCrYc47lW46oFdcaZibHpIZ3mVTCeVibhg1cmmYpQBuw5kw/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_004_36acd3927373.jpg)
 
 **佃松宜**
 
@@ -150,7 +150,7 @@ E-mail: zhaotaozhaogang@126.com
 
 E-mail: scudiansy@scu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQ6xw77hEXH8pQq1Ynnw12XibMOb6F2GR1PeqTPDAvEtxUQL7q3lTlMXw/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_005_91e165b27a33.jpg)
 
 **郭   锐**
 
@@ -158,7 +158,7 @@ E-mail: scudiansy@scu.edu.cn
 
 E-mail: guoruihit@gmail.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQmhTEmWS64ibeXqgBIXcEhkj9rYe5Ly3YFbEIflVn5PeT71NXwxlnzTA/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_006_ce6d81727610.jpg)
 
 **李胜川**
 
@@ -166,7 +166,7 @@ E-mail: guoruihit@gmail.com
 
 E-mail: lnlsc@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQQPnZaCTjztJb9jvRL6DXwLb8graAAqGaYEficCqbZqbgDqOLHOpxVJg/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_007_50eab0859597.jpg)
 
 **方红帏**
 
@@ -174,7 +174,7 @@ E-mail: lnlsc@163.com
 
 E-mail: weihongfang528@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQLziapkKJBdES0OeD80algLOKyRnq5j32eBFdW5oiakjVJdxc3YCHKc8g/640?wx_fmt=png)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_008_979a34d112c4.png)
 
 **韩吉霞**
 
@@ -460,49 +460,49 @@ http://www.aas.net.cn/cn/article/id/13961?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQ3kWHsYyibsXeI3KsgvxH1xvia7icAEqG2icQwNpr24HTIsvf5C3jIxrHQQ/640?wx_fmt=png)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_009_6cace321946c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQWq2CXib7LHaiaNDIpJ72DibrEp0ic1Yf0rmicmSRvFPDtjjYknrQfoODLvQ/640?wx_fmt=png)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_010_7493936608e8.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_011_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_012_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQcK8rnGKQeic5HDDKH7vEiadyIVVq0Iliamcoc3u0OPdErgfsx1UO1SzIw/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_013_ce5bb18598a5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_014_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_015_6f519018fcaf.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_016_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_017_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQyjKk4vlN2tp2ia8zFCt7VFiasgCicxE4icTBjvicaC231VicnJsomKFnVmtw/640?wx_fmt=jpeg)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_018_e4121b55c32a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_019_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_020_6f519018fcaf.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_021_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_022_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQkiaGTvb9MQXCZicAMCS4XfkaYjVVVY0fugKavFicQUq54bF4SibZNfsVjQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\控制_理论_应用\基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images\img_000_e75825af2b35.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_024_6f519018fcaf.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47AkbgFqz5WW3yOKf3TvkMQUN5CPjjBLSF3IJIwK6W75c9vvldsvFARCFGTdHiaiacXXxUlyLVmSuEg/640?wx_fmt=gif)
+![](基于FPSO的电力巡检机器人的广义二型模糊逻辑控制_images/img_025_6f519018fcaf.gif)
 
 **长按二维码｜关注我们**
 

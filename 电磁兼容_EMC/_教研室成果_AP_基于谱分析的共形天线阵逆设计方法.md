@@ -25,7 +25,7 @@ Chuan-Sheng Chen, Jing-Cheng Liang, Jin-Pin Liu, Junjie Shao, Ren Wang, Bing-Zho
 
 出版信息：IEEE Transactions on Antennas and Propagation, 73(6): 3838 – 3848, 2025; DOI: 10.1109/TAP.2025.3543076 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUAJCnUUwrjs5FDOsK6U8ib3ZugDG6Cz6OkcX8rEiarOibreMXuCdh6XJoA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于谱分析的共形天线阵逆设计方法_images\img_000_f5e10a09f7e1.png)
 
 论文摘要
 
@@ -53,19 +53,19 @@ Chuan-Sheng Chen, Jing-Cheng Liang, Jin-Pin Liu, Junjie Shao, Ren Wang, Bing-Zho
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUiaBCaeGPzZBYsdTs8jgIJasL0uGXaPdxfDAJrVCxpbvib3N7ysLWWl1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于谱分析的共形天线阵逆设计方法_images\img_001_cf5436872836.png)
 
 共形孔径设计框架中的曲面与问题示意图。(a) 实际共形辐射孔径。(b) 表面上的等效源分布。(c) 平面辐射孔径场。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUyoGq5Pic5naubGT7Evrib6z4uTMjwxoUyxW36p9KYtCangOqPhYLsSiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于谱分析的共形天线阵逆设计方法_images\img_002_db6af70bd586.png)
 
 逆设计得到的部分等效源及采样点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUvHKiaTS8k94IfVbz6CSuTYAv0Ez86MuaJdOQ8Ce2WbQFYTNIW0eWd9Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于谱分析的共形天线阵逆设计方法_images\img_003_5391285e77cd.png)
 
 逆设计的稀疏共形阵列及其测试环境。(a) 制造的稀疏共形阵列前视图。(b) 制造的稀疏共形阵列后视图。(c) 天线暗室中的稀疏共形阵列。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU5k7Or2a69HkJq0LjRP64ZSXh5LPPlzdPWgibeZSOxv3ZVLibiay88gNRg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AP_基于谱分析的共形天线阵逆设计方法_images\img_004_85791b6ebab6.png)
 
 共形阵列和稀疏共形阵列的远场辐射方向图。(a) 和 (b) 完整三维数据的仿真方向图。(c) 二维切面，显示了来自 (a) 和 (b) 的仿真结果（虚线）以及制造的稀疏共形阵列的测量结果。
 

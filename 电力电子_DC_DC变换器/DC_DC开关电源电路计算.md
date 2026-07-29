@@ -10,19 +10,19 @@
 
 Buck变换器是一种降压式非隔离开关电源，当开关管导通时，输入电源通过电感给输出供电，同时电感存储能量；当开关管关断时，电感通过续流二极管给输出供电；如此反复即可维持输出产生一个恒定的电压。其Buck电路拓扑结构以及电路分析计算见下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wyFZEia3R5KlqZfUE0RATQibmrMljooY7oJOrbfo5XhM9fYGOibtuxQzJUVSxnM40wBKaYGh8Rxv0xOl5wL16QJng/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC开关电源电路计算_images/img_002_965ff32c4053.jpg)
 
 **Boost电路分析**       
 
 Boost变换器是一种降压式非隔离开关电源，当开关管导通时，输入电源通过电感给电感充电，电感存储能量；当开关管关断时，输入电源和电感能量通过续流二极管给输出供电；如此反复即可维持输出产生一个恒定的电压。其Boost电路拓扑结构以及电路分析计算见下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wyFZEia3R5KlqZfUE0RATQibmrMljooY7oAM423pic4IIbqRHC0RWlgJXm1wbIO50EcGn1LhM8IFIZ8ZN2MIjePNA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC开关电源电路计算_images/img_003_71407271f986.jpg)
 
 **Buck-Boost电路分析**      
 
  Buck-Boost变换器是一种升降压式非隔离开关电源，当开关管导通时，输入电源通过电感给电感充电，电感存储能量；当开关管关断时，电感能量通过续流二极管给输出供电；如此反复即可维持输出产生一个恒定的负电压。其Buck-Boost电路拓扑结构以及电路分析计算见下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/wyFZEia3R5KlqZfUE0RATQibmrMljooY7oZuoCnOFqjHB2YHQicjOuibME2e2NaiauBicnLBUMYKaPyu9ibpf1axSsgFw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](DC_DC开关电源电路计算_images/img_004_0b42849cc922.jpg)
 
 ## 
 

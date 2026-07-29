@@ -20,7 +20,7 @@
 
 下图显示了一个Buck转换器 IC 内部的基本构成，其中包含了几个静电释放（ ESD）防护单元。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMic2Fw7QPI0gWKGVjgficjsvtDiccx2dASibBtJJDXAYsPvaUK6h7jgqjqA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_002_0b5705411eb9.png)
 
   
 
@@ -48,7 +48,7 @@ EOS 的电压相对较低（ < 100V），持续时间更长一些（通常 > 1µ
 
 一种造成电源 IC 输入端受到 EOS 冲击的常见原因是电源的热插入事件，这种事件发生在处于开机状态的电源被引入一个系统的时候。这种系统的输入端通常含有低 ESR 的陶瓷输入电容，它们与电源引线的电感一起发生谐振，可以导致高压振荡信号的出现。下图显示的就是这样的场景，其中的电源是开着的，有两根引线将电源接入应用系统，其中的开关 S 用于模拟热插入的行为。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMHISpnINNiaBHIZFob1Ep32rwysP1UDm4O8BwN3ruukib7bD4icWjicDYrw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_003_0c16a3b69d47.png)
 
   
 
@@ -57,18 +57,18 @@ EOS 的电压相对较低（ < 100V），持续时间更长一些（通常 > 1µ
 为 9µF，而且它们各自的 ESR 约为 5mΩ。  
 下图显示了热插入事件发生在这样的输入电路时的振荡过程的模拟结果。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMFXABiaYat0UjaelrBPR4aqSHuWTtje9NUqoQy4hlYBqTicic8FX7CSu4A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_004_35665438df68.png)
 
   
 
 从模拟结果可以看到，这样的热插入过程导致的输入电流高达大约 30A，由引线电感和输入电容导致的电压振荡波形的峰值几乎可以达到直流输入电压的 2 倍。  
 下图显示的是对同样的电路进行热插入测试的情形，其中的开关 S 被换成了 MOSFET，该 MOSFET 是用脉冲发生器驱动的，目的是让热插入的动作变成是稳定的，同时也是可以重复的。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCM69QyCLFAG6xPPJtBeQv2tVNysoKDLyk4oCiaDS3bwMyRw4GqiauyWg0g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_005_11ed4266a96a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMAyKHpy1pLqJPLXlcIicVWmy7err5ZBHcAPZfSL5455lvuw5pY1FYZcg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_006_ee9895652861.png)
 
   
 
@@ -81,7 +81,7 @@ EOS 的电压相对较低（ < 100V），持续时间更长一些（通常 > 1µ
 
 上面已经解释过热插入期间电压尖峰发生的原因，下图 将与输入电路有关的参数表达了出来：电源供应器的内阻Ri，电源传输线的电感 Lwire 和电阻 Rwire，具有低 ESR 的输入电容。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMxWKrr5vjqmiapCF4O9MYaVOnR9ibhGiatLSl7NK4voibWqdaftyEic0aB5w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_007_6fdcb1b726d6.png)
 
   
 
@@ -89,7 +89,7 @@ EOS 的电压相对较低（ < 100V），持续时间更长一些（通常 > 1µ
 
 方法 **1**：大多数电源供应器是使用了很大的输出电容的开关模式电源适配器，这种电路的输出阻抗很低，遇到热插入事件时可以快速生成大电流。如下图那样增加一个共模电感和一只 ESR 比较高的小型电解电容，适配器的输出阻抗就会增加，谐振过程会受到抑制。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMViaNezicVtaxriaUKgiaibwgN45KBqukvKYJzJlA6FZlpWhQavxUfDudbAA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_008_872e8bcf76ac.png)
 
   
 
@@ -98,7 +98,7 @@ EOS 的电压相对较低（ < 100V），持续时间更长一些（通常 > 1µ
   
 方法 **3**：增加电缆两条线间的耦合程度。两线间更好的耦合可以形成相反的磁场，这对谐振的抑制有帮助。如下图显示了对 75cm 长、规格为 18AWG 的同轴电缆的模拟，根据漏感测试的结果，两线间的耦合度大概为 0.8。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMaldYj5fnCXq1PAS9vEKiaEktticSJpjMibJyf2nZDal8zG0xeRQMDPhCQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_009_e1676fcb7e98.png)
 
   
 
@@ -107,17 +107,17 @@ EOS 的电压相对较低（ < 100V），持续时间更长一些（通常 > 1µ
   
 方法 **4**：由 LC 电路形成的谐振可以通过给输入电容并联一个 RC 电路进行抑制， RC 电路的参数可用下述方法进行计算，RS 的计算公式如下图：其中 LP是电缆的电感量， CIN是系统的输入电容， ξ 是希望的抑制系数。在前述的热插入案例中， LP 大约是 1.5µH， CIN 在 12V 时为 9µF。当我们选择良好的抑制效果(ξ = 1)时， RS = 0.2Ω。抑制电容 CS 的值必须足够大以避免它在热插入造成的电流脉冲出现期间被过度充电，其电压增量 VC = IC \* 1/ωC，其中的 ω 是 LP 和 CIN 的谐振频率（测量数据大约是 40kHz）。由于电流脉冲的幅度是 35A，要想使充电造成的电压增量小于 2V，我们需要电容的值大于 70µF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMxwljeSQmI16P1p1lKcE9TxCLVEdHc8TnE19RhFEDykS9Uldl6v2ybw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_010_0f9bc0babc0b.png)
 
 在加入 100µF 和 0.2Ω 的 RC 电路后，针对上述的热插入案例再次进行仿真模拟，我们可以看到谐振被完全抑制住了，电压的过冲低于 2V，参见下图所示。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMm5nd88ibLmc1lLtNicQFUhZiaV5zoqRGeS1c0GlgNp9nrC4qqdpwzzzFw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_011_90f968fc17e5.png)
 
   
 
 在实践应用中，RC 抑制电路可以很容易地通过使用一只 100µF/25V 的电解电容实现，它需要和陶瓷输入电容并联在一起。之所以这么简单，是因为大多数 100µF 的电解电容在 100kHz 频率下有大约 0.2Ω 的 ESR。在下图中的右侧电路就在输入端加入了 100µF/25V 电解电容，热插入试验表明其输入端的过冲会被完全抑制掉，不会有损毁风险再出现在 IC 上。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMlFAUIpl0mosTiad2ic6ueibM4BKOxRMIic7krYNXnc58uRP8zWQYTVa4GA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_012_d76d0bf5dd7f.png)
 
   
 
@@ -131,7 +131,7 @@ EOS 的电压相对较低（ < 100V），持续时间更长一些（通常 > 1µ
 **a. USB** 输出端短路测试造成 **USB** 开关输入端损毁  
 下图显示的是一个典型的 USB 开关的应用电路图，有一个 1µF 的去耦电容放在靠近 IC 输入端的地方，电容前面有大约 10cm 的铜箔路径将它和 5V 主电源连接起来。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCM7TVrmXKPB8j7dwZ7AcDTic7PaclzD36QbvbsUxwLTAlbXKFLxx0E9tg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_013_66fc0de66e22.png)
 
   
 
@@ -140,7 +140,7 @@ USB 端口都需要进行短路测试， 这个测试通过一个开关来模拟
   
 为了解决这样的可靠性隐患，用于热插入风险防范的类似措施可以被纳入考虑范围，因此我们要在电路中加入类似电解电容的 RC 抑制电路。抑制电路的参数计算方法是类似的，我们可以利用开关关断过程的 dI/dt 计算电容的值。实际上，一个 47µF 的电解电容就可以将电压峰值控制在大约 6V 上，如下图 所示。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMZBcnNy2y8aWbBuIfhkdQW9jD3DwVzkibxFzmqNkibfxHUTt9BHUlshWQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_014_00cf2032bf15.png)
 
   
 
@@ -152,7 +152,7 @@ USB 端口都需要进行短路测试， 这个测试通过一个开关来模拟
   
 假如转换器的输出端由高于预设输出电压的外部电源供电时， IC 内部的下桥 MOSFET 会从输出端吸入电流，再与上桥 MOSFET 一起形成一个Boost 转换器。如下图所示，该电路的输出端就由一个缓慢上升的 5V 电源供电，它的输入端电压将上升并最终将其 ESD 单元击穿。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iapXlcghssnVic3d76YhNB1J48hs4ic2wCMVSB5CA27aNopBk8DqIH0ba2cA5V9M3aZ0cbdQWsDfgP3rYkdKSfvEg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_015_2d0cf1eb64b7.png)
 
   
 
@@ -178,9 +178,9 @@ USB 端口都需要进行短路测试， 这个测试通过一个开关来模拟
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_016_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_017_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_018_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_019_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_020_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_021_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_022_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_023_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_024_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_025_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_026_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_027_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_028_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_029_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_030_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\电源IC是如何失效的_损坏过应力分析_images\img_031_3c93e54afedf.gif)
 
 ## 
 

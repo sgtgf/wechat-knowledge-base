@@ -21,11 +21,11 @@
 
 **1 SiC MOSFET 的开关特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHRULwTujwQib7pfnBBYicXqRe8KwDMqAyMOzJiahErjvww9HPtXIcNziblg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_000_47a5fa8014db.png)
 
 图 1 为一个带有电感负载的半桥电路，Q1 和Q2 为 MOSFET 开关管。电路各处寄生参数标注如图 1 所示。上管(Q1)的寄生参数包括寄生电感、极间寄生电容，分别为：Lqd\_h、Lqg\_h、Lqs\_h、Cgd\_h、Cgs\_h、Cds\_h；下管(Q2)的寄生参数包括寄生电感、极间寄生电容，分别为：Lqd\_l、Lqg\_l、Lqs\_l、Cgd\_l、Cgs\_l、Cds\_l。虚线框外部电路的寄生参数包括栅极驱动的寄生电感和功率电路中的寄生电感，分别为：Llg\_h、Lld\_h、Lls\_h、Llg\_l、Lld\_l、Lls\_l。Rg\_h 和 Rg\_l分别是上管和下管的栅极驱动电阻；L 为加在下管两端的负载电感；Cdc为母线电容；Vdc为母线电源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHkEZqts3eiciaatzKAcelLr0JlvMdt6DsEL7tIkKCcErehrayFIS9fhWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_001_43dacb19f402.png)
 
 图 2 为该电路的典型开关波形。假设下管 Q2一直保持关断，上管 Q1 进行开通关断，续流时电感电流保持不变。
 
@@ -71,11 +71,11 @@ Vgs\_h 继续下降至关断稳态值，Vds\_h和 Id\_h 保持不变。电感负
 
 综上开关分析过程可知，当电感有储能的情况下，下管的栅源电压 Vgs\_l 在上管开通过程的 t2—t3阶段会有栅极正向串扰电压，而在上管关断过程的t6—t7 会有栅极负向串扰电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHpareMn661kT5aeL4Hq0goGAssP0ic7bE5xP3FEc516FvUjF1YibB6Sicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_002_bfad1b560044.png)
 
 上管开通过程中当 Vds\_h快速下降时，Vds\_l 则快速上升。此时 Cgd\_l 就会感应出位移电流 Igd\_l 流经栅源极寄生电容 Cgs\_l 和驱动回路的并联回路，对 Cgs\_l进行充电，栅极电压增加，如图 3 所示。此时因为续流电流 Id\_l 的降低，在下管源极杂散电感中产生压降，降低了下管源极电压。从而提高了下管的 Vgs\_l电压。双重作用下，导致下管 Q2 的 Vgs\_l 容易超过Vth 导致误导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHtu1awYGPDUOC4w1p4l3Rz3nUWWuKdew43SaibK4ud7HExodxXYoJvfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_003_38b51d3e4993.png)
 
 上管关断过程中 Vds\_h 快速上升时，Vds\_l 会快速下降。下管的 Cgd\_l 流过放电电流，方向如图 4 所示，从而导致栅极电压下降。此外，关断过程中，上管与下管二极管进行换流，下管变化的漏极电流作用在下管源极寄生电感上生成一个负方向的感应电势拉高了器件源极电势，从而导致栅源极电压降低。栅源极的负向电压虽然不会使 MOSFET 误导通，但是容易超过额定反向电压而损坏器件。
 
@@ -85,15 +85,15 @@ Vgs\_h 继续下降至关断稳态值，Vds\_h和 Id\_h 保持不变。电感负
 
 上文详细分析了半桥电路串扰的产生机理，本节在快速负压关断的电平移位驱动电路的基础上提出一种新型串扰抑制驱动电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHj2fp7IWrvrMmf3jyFLxMue9OtpW6A4gLZxIMqy4UBtLPxRS42E5XZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_004_b192d22d6d06.png)
 
 新型串扰抑制驱动电路如图 5 所示。在原有驱动回路基础，即由两个分压电容 C2和 C1和肖特基二极管 D2、电阻 R1、稳压管 Dz构成的电平移位电路，提出了由低压 N 沟道 MOSFET 开关管 Q3与串扰吸收电容 C3 串联的串扰吸收支路，Rg1 为 Q3驱动下拉电阻，通过电路本身电势差实现开通关断。接下来通过桥式电路具体分析该串扰抑制驱动电路的工作原理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHcDqDzkEgB44U9EicsWib1BAS41z9497Zb0iaIurZUaO6LyyVPheBN3d1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_005_04ae9dd186b5.png)
 
 如图 6 所示，当上管开通时，下管因为 dv/dt的变化流过位移电流，此时下管处于负压稳定关断的状态，所以 Q3\_l 因为电路的电势差而导通，即下管的串扰吸收回路此时工作。此处不妨设定串扰抑制驱动电路的串扰吸收电容 C3 取纳法级别，该值远大于 Cgs\_l。由于串扰是高频震荡，串扰吸收电容为串扰吸收回路提供了低阻抗回路，Igd\_l 大部分都被串扰吸收回路所吸收，大大减小了给 Cgs\_l 充电的电流，故在上管开通时下管的正向串扰电压可被大大减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHVREp9dhWMNQAnTEqqDeaoKecaK5kUddJK5CsHyMjicpyZvcv11aArNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_006_1b4596e5d9b6.png)
 
 如图 7 所示，当上管关断时，因为下管处于负压稳定关断的状态，此时串扰吸收回路工作，下管此时负向流动的 Igd\_l 在低阻抗的吸收回路抽取更多的电荷，从而使流过 Cgs\_l 的电流大大减小，故此时Cgs\_l反向充电的效应减小，负向串扰电压大大减小。
 
@@ -101,17 +101,17 @@ Vgs\_h 继续下降至关断稳态值，Vds\_h和 Id\_h 保持不变。电感负
 
 因为下管处于负压稳定关断的状态，即电平移位电路优先达到稳态，可将电平移位部分等效成一个电压源，表示为 Ud。同时，将开关瞬间加在下管漏源极两端的电压等效成一个电压源，由于开关速度极快，该电压源可近似成一个阶跃信号，表示为Uds。忽略串扰吸收支路中 Q3 的导通压降，开关瞬态等效电路如图 8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHQMEmGkzwibD1zC8KmCr5JoTfUDAgULnl1VH1bEiabHibdXlFKHS696xRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_007_102a539f9b6b.png)
 
 上管开通瞬间，此时 Uds阶跃到母线电压 Udc，产生的正向串扰位移电流 Igd。
 
 仅考虑 Uds，可得到以下状态状态微分方程式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHWARDZYyP36mNyGpaaFic6icBXufbNOMbwzyvZkUxFH78nzphYXXSMWfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_008_e7cf4ca30f9f.png)
 
 由式(5)与(7)可以拟合出正向串扰电压峰值 Ugsmax、反向串扰电压峰值 Ugsmax与串扰吸收电容 C3 的关系，如图 9 所示。图中：Vth 表示阈值导通电压；Vgsmin 表示栅源极最小允许电压；Vd表示本文中 Ud的幅值，本文中负压关断是采取 RCD 电平移位结构，Vd 的大小由稳压管 Dz 决定。如采取普通负压源关断 Vd 的大小即可由负压源决定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHqgticPBIeEzaqa0LqmOyykcXLjNib4EK9OoPKicG8IlVsx9BaO2l8RLibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_009_b314e9bd7f53.png)
 
 基于此，可通过调剂负压关断时的电压幅值 Vd和串扰吸收电容 C3 的大小使得正负向串扰电压于安全范围之内，防止 MOSFET 误导通和超过额定最大负压而损坏。
 
@@ -127,45 +127,45 @@ Vgs\_h 继续下降至关断稳态值，Vds\_h和 Id\_h 保持不变。电感负
 
 **4.2 实验结果分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHZ5gBDM06NUjFur9jqZkvXlUIktv5mA64soSVAYHhEa4ibFkNibkdHjiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_010_6f395f3a9b97.png)
 
 本文搭建了双脉冲测试平台进行驱动电路的实验验证，实验样机如图 10 所示。选择 CREE 公司生产的型号为 C3M0065090J 的 SiC MOSFET 为待测器件。由于该 MOSFET 上升时间为 8ns，为了得到较为精准的测量结果，本文实验中使用的示波器选择了 Tektronix 公司带宽为 500MHz 的MDO3054；用 Tektronix 公司带宽为 250MHz 的探头 TPP0250 测量栅源极电压，ROHDE&SCHWAR公司带宽为 400MHz 的探头 RT-ZH11 测量漏源极电压；电流的测量使用了 T&M Research 公司的带宽为 2GHz 的 SSDN-010 同轴分流器。串扰吸收支路使用场效应管 FDN337N 与陶瓷电容串联。最后，使用 DSP28379 作为控制器来产生触发信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHicRXR7po0ndCrC0hFnaY9N0QKoWUoVJliadJd23ticegvNeVZ9uBfhsJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_011_a757910a7b4d.png)
 
 上管导通时下管关注的是正向串扰，上管关断时下管关注的是反向串扰。基于此，以下实验中给出的是上管开通时正向串扰电压峰值和上管关断时的反向串扰电压峰值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHoyMRFTFzBgrgdqCY1m7Uc7uK0Qz4AMf2dIKvzSnicN2sdynV71PKN8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_012_b1ba0e6446da.png)
 
-图 11 给出了更换串扰吸收电容 C3对正向串扰电压峰值 Ugsmax和反向串扰电压峰值 Ugsmax的影响。Vd 为实验中稳态关断电压值，为4.4V。根据数据手册，图 11 中虚线给出了由式(5)与(7)拟合得到的串扰吸收电容 C3 与正向串扰电压峰值的计算值 U'gsmax和反向串扰电压峰值的计算值 U'gsmax关系曲线。V'd为理想稳态关断电压值，为4.7V。由图 11 可知，当串扰吸收电容增大时，串扰电压峰值并不是随之线性变化的，而总体的趋势还是串扰电压峰值随着串扰吸收电容的增大而减小，证明了文中理论模型的正确性。此处，元器件的非理想特性和电路的寄生参数造成了测试结果的非线性以及稳态关断电压值的差异。![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHpunjn8lANrZgXaNvGyGFJzeXzMasOVTy7RbiaTE49t5evTOcV3dNOoA/640?wx_fmt=png&from=appmsg)  
+图 11 给出了更换串扰吸收电容 C3对正向串扰电压峰值 Ugsmax和反向串扰电压峰值 Ugsmax的影响。Vd 为实验中稳态关断电压值，为4.4V。根据数据手册，图 11 中虚线给出了由式(5)与(7)拟合得到的串扰吸收电容 C3 与正向串扰电压峰值的计算值 U'gsmax和反向串扰电压峰值的计算值 U'gsmax关系曲线。V'd为理想稳态关断电压值，为4.7V。由图 11 可知，当串扰吸收电容增大时，串扰电压峰值并不是随之线性变化的，而总体的趋势还是串扰电压峰值随着串扰吸收电容的增大而减小，证明了文中理论模型的正确性。此处，元器件的非理想特性和电路的寄生参数造成了测试结果的非线性以及稳态关断电压值的差异。![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_013_9744b5c35a3e.png)  
 
 图12、13分别给出了正向串扰电压峰值Ugsmax和开通时间 ton，反向串扰电压峰值 Ugsmax和关断时间 toff 与不同串扰吸收电容的关系。由图可知，采用较大的串扰吸收电容虽然可以获得良好的栅源电压抑制效果，同时也会牺牲对管的开关速度。由图 12、13 可知，综合开关速度以及对串扰电压峰值的抑制情况，选取约 1nF 的串扰吸收电容，可在保证开关速度的前提下能对串扰电压峰值有较好的抑制效果。此处说明，下文实验测试条件均选取 1nF 串扰吸收电容值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHo5PyxxiadQM60pezia9Bg8fCUNOpKHvsehRhPiaRzkiaxnZQcEfu51BGPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_014_70a57ab6a916.png)
 
 图 14、15 分别为下管处于稳定负压关断时，加入串扰吸收支路前后上管开通或关断时的下管的串扰波形对比(Vdc  600V，Id  20A)。在上管开通时，未加入吸收电路的下管正向串扰电压峰值与稳态关断电压差值V为 4.6V，而加入串扰吸收支路后V减小到 2.6V。在上管关断时，未加入串扰吸收支路的下管反向串扰电压峰值与稳态关断电压差值V为 5.4V，而加入串扰吸收支路后V减小到 3V。对比可发现串扰吸收支路有效地改善了串扰电压的峰值同时也在很大程度上减小了电流震荡。进一步证实了本文所提出的驱动电路的有效性与可行性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHluYhr7MXHebCWicYVBEYw48qWZZn4ILJzJhBDUJ56IibbSMrKmicVBQhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_015_7ea28a3ba42e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPH3jMdzgUSMk7qTXVYpO2IHIpiaHf7wg3gTkVArSjPich2q4TOOeaEkwcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_016_28fcf8fffa10.png)
 
 图 16 为在 Vdc为 600V 时，不同电流工况下的开关速度对比。观察可发现几乎不影响关断速度，对开通速度的影响较小，在 20A 工况下最大延长2ns。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHyLpUzFicYG4zQf5ZNuJ1PHHOPS822RhNy3P0f6qYILXsQNXNq9ctwOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_017_908548e50a8a.png)
 
 图 17 为在 Id为 20A 时，不同电压工况下的开关速度对比。观察也可发现几乎不影响关断速度，对开通速度的影响较小，在 400V 工况下最大延长2ns。在目前碳化硅 MOSFET 器件的开关频率工作条件下，此延时的影响可以忽略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHePuGfIAdJ7cmKszuUib6Zo7gmYYdUXUicnPZwEpn2qX8wzHcCxLBHctg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_018_6fbc1ba4c87f.png)
 
 综上不同电流工况以及不同电压工况的实验可以得到本文提出的串扰吸收支路对开关速度影响较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHib7OXf8UWUYOndVgsxWo57SucbmkXibict9RzC5ib3A09NHGSm30cfgichg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_019_cde6ec78ab0a.png)
 
 图 18 给出了在 Vdc为 600V 时，不同电流工况下有无串扰吸收支路的串扰电压峰值对比。观察可发现，加入该串扰吸收支路在负压抑制正向串扰的基础上进一步减小了正向串扰电压峰值，在 10A 工况下正向串扰电压峰值最大减小 1.6V。同时很大程度上减小了反向串扰电压峰值，在 20A 工况下反向串扰电压峰值最大减小 2.6V。
 
 图 19 给出了在 Id 为 20A 时，不同电压工况下有无串扰吸收支路的串扰电压峰值对比。观察可发现，加入该串扰吸收支路在负压抑制正向串扰的基础上进一步减小了正向串扰电压峰值，在 300V 工况下正向串扰电压峰值最大减小 3.4V。同时很大程度上减小了反向串扰电压峰值，在 600V 工况下反向串扰电压峰值最大减小 2.6V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTu4rRXfgLWA6XNxduQEPHYiaVE1Mp3X1FTrKXOgW2tjCyibuviaUJwvUQnJnTA6GymQIphvEmTpyyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_020_b7ba90be2caf.png)
 
 综上不同电流工况以及不同电压工况的实验可以得到本文提出的串扰吸收支路在工况上具有普适性，进一步证明了该串扰吸收支路抑制串扰的有效性。
 
@@ -181,8 +181,8 @@ Vgs\_h 继续下降至关断稳态值，Vds\_h和 Id\_h 保持不变。电感负
 
 3）所设计的驱动电路在不同电压和不同电流工况下都能够在保证开关速度的前提下有效地抑制串扰电压，具有普适性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskXJicOSziau2VPdSibn5Povt1f8KuRrjdP1t0jP0OiaHibI2iakYxmMHiczyvlgnpRYewLlbF9KRQQFVL6Q/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_021_223430db4e67.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_022_7c22e3b9a287.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\杭州电子科技大学_SiC_MOSFET_新型负压关断串扰抑制驱动电路_images\img_023_1241954b1b67.png)

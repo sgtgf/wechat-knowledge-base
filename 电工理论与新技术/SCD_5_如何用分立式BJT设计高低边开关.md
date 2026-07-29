@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/O\_L\_ZU49PINMiQ5AR\_iW4Q](https://mp.weixin.qq.com/s/O_L_ZU49PINMiQ5AR_iW4Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRgyibE9PLhAm9F6M9xxsYHK1icPLEkx8LVnmaZZymLGTcNvYFrBd6N5BMe5sWvC1RrGtAtxfewO16w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_5_如何用分立式BJT设计高低边开关_images\img_000_b0363501cccd.png)
 
 ____**★★★**______SCD-5---晶体管BJT高低边开关______**★★★**____
 
@@ -13,7 +13,7 @@ _€1.低边开关_
 
 如**_图5-1_**为NPN型BJT低边开关，用来驱动LED负载，R2为限流分压电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGfOjQM1GeUOnftlkTqXAEJ3mq31nqrVMGl2ibpgx34xvZV22lZAajnExqcgFr86fhEXgLeZqsAsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_5_如何用分立式BJT设计高低边开关_images\img_001_6ad1042c0155.png)
 
 **_图5-1：BJT低边开关_**  
 
@@ -21,7 +21,7 @@ _€2.高边开关_
 
 如**_图5-2_**为NPN型BJT高边开关，用来驱动LED负载，R2为限流分压电阻。高边开关和底边开关的计算可以回顾之前的章节。（传送门：[BJT-3：如何计算晶体管开关电路-2](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247489641&idx=1&sn=7733fa3121824ee7c1bf42be1627ce01&chksm=c33552f6f442dbe09d52656ef2eaa1fa3ce83e9ad449eeaced443e04632e86f2fa0282c671ba&scene=21#wechat_redirect)）  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGfOjQM1GeUOnftlkTqXAEB7anmzop58kuej63QM1kbtuMIhR4iaChng1pnKPR3MuYn5U0Rxd7znA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_5_如何用分立式BJT设计高低边开关_images\img_002_5386450a3092.png)
 
 **_图5-2：BJT高边开关_**  
 
@@ -29,13 +29,13 @@ _€3.使用拓扑_
 
 LED的驱动方式多种多样，有外驱和自驱两种，外驱即使用第二个控制引脚来控制闸门，自驱即使用VCC本身来驱动。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSf7HyVBA36JOmMMe7PXFic0LONUvjTL8Spgibx9dg2blTCKfntTgB8pKTx3DYpwiaPiciamicrngEdlknw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_5_如何用分立式BJT设计高低边开关_images\img_003_c10903362873.png)
 
 **_图5-3：自驱式配置LED驱动_**
 
 如**_图5-3_**为NPN和PNP两种自驱式LED驱动，其中两支二极管给Vbe提供固定钳位电压，框外电阻作为电流可调节电阻，根据串接LED的数量来计算配置。框内可以作为一个整体器件也可以使用分立器件来搭建。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSf7HyVBA36JOmMMe7PXFic0pZU6O4iaQ8FBQI0h2ywTicFkAU51l7ZgyExPQTvUlsIbqq17ZpDJo2pg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_5_如何用分立式BJT设计高低边开关_images\img_004_6dca3bdb2180.png)
 
 **_图5-4：灌-吸式配置LED驱动_**
 

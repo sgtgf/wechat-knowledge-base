@@ -27,7 +27,7 @@
 
 基于并联SiC MOSFET驱动电路方案如图１所示，由DSP控制板、驱动模块、并联SiC MOSFET电路组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLpPYetPVkdicDvUrHocibU1cibVeaqMr9MrufVr52HQosMd7zfdxjIbIqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_000_2fcc845946ad.png)
 
 １.２驱动电路设计要求
 
@@ -45,7 +45,7 @@
 
 （６）为满足设计的通用性，应当能够满足根
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLOajCnUKeeZ2Q7KezLiaRZEgS0J0B2uJWloSAiaXenSeowwp3uH9rmHjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_001_b23fd1aee0d5.png)
 
 ２.驱动电路设计及原理分析 
 
@@ -53,27 +53,27 @@
 
 为实现对不同SiC MOSFET可调节驱动电 路设计，驱动芯片的选择应当能够实现负压的自 调节以及提供足够大的驱动电流，以降低开关损 耗，根据式（1）计算出驱动电路所需的平均驱动 电流Ig为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLoHYFnfILOZyNYS91ibGia6MIHuqQ0l6mzOR47sibHib9MMvjzdiaE2QLUeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_002_36ab837db59c.png)
 
 其中，QC为驱动电路栅极驱动电荷；td（on）为 开通延迟时间；tr为上升时间。结合所选SiC MOSFET数据手册可计算出驱动电路所需的驱动 电流大小。根据以上分析，本文选择驱动IX4351芯片作为驱动核。该芯片所需的供电电压为 ＋13～＋25Ｖ同时能够提供额定９Ａ的峰值电流， 满足在高频环境下的使用，且能够实现自调节负 压。图３为IX4351功能框图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLg3A8HzuNuQVatOQib2VvudEmoXs9tr2InP5OmibcMCYliajia3lmeEtoeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_003_670dc08fcced.png)
 
 ２.２　驱动电源设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLk4J0CFGGAanzSksojMoIibCqyeKpo8yGDuh7jjuQibtCHkrCaic9tQwpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_004_a53769b563d5.png)
 
 为满足驱动电路的通用性，本文设计的驱动 电路以IX4351为驱动芯片，该芯片的驱动电压为 ＋13～＋25Ｖ，可输出额定为９Ａ的高峰值电流，采 用单电源供电。因此基于驱动芯片的特性，研究设计了隔离电源电路，由输入CLC滤波电路、隔离电源模块、以及输出滤波电路组成。该驱动电 源电路可根据实际应用情况输入9～36Ｖ电压 VCC，通过隔离电源模块输出稳定隔离的驱动电压VDD。
 
 当驱动电源模块输出稳定的驱动电压时， 根据IX4351数据手册可知IX4351还需提供负电压。因此通过图５所示，将驱动电压转为负电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLMTNetUELdtGjRib9icX3jPkwhL1ibWItBlGZ7mvKFYDLJHEpwg0IPiaicOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_005_a38122f69868.png)
 
 ２.３负偏置电压调节设计
 
 由数据手册可知IX4351内部含有4.6Ｖ稳压器Ｖ（REG）为低压控制电路提供电源。可提供高 达10ｍＡ的电源，并且用于设置负偏置电压和电 源外部逻辑光耦。IX4351可产生负调节的电压 输出（Ｖss）。当IX4351处于闭环模式下工作，通 过VDD产生Ｖss。负调节电压是通过调节分压电 阻Ｒ１和Ｒ２阻值大小来实现。为便于调节也可 将Ｒ１、Ｒ２换成可调电阻。负调节电压Ｖss的计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kL0ibj42ic83BMlKfouh8VYAOVc7rWZNym2NXRPBYzAibInKicKFuYjJE0HQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_006_2de96c5e6786.png)
 
 根据数据手册选择Ｒ１、Ｒ２的阻值分别为40ｋΩ和44ｋΩ，由上式得出Vss的值为-5.06Ｖ。
 
@@ -81,43 +81,43 @@
 
 驱动电路设计主要包含信号传输电路设计、驱动电路设计、故障监测电路设计以及保护电路设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLNleiaiaKyDuWzRGlOEYYTPYMOk16xu1eG4BuAj653OiaqYGuibe2cTrpMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_007_08009a52e616.png)
 
 ２.４.１　信号传输电路设计  
 
 如图８所示，为适应在高频工作环境中的使 用，本设计采用的信号传输电路通过CPU输出ＰＷＭ控制信号，通过高速隔离光耦实现信号单向传输，增强抗干扰能力。光耦输出侧电源由IX4351芯片的Vreg提供稳定的参考电压，保证了输出信号的稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLuGW151nQJhib8HSBmjqlgddtia0I69aUefGV8c2Eh1TNYOMiaUE5updUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_008_f8da1e422aaa.png)
 
 ２.４.２　故障监测电路设计
 
 故障监测电路原理图如图９所示，当驱动电 路产生故障信号时，通过IX4351驱动芯片提供稳 定的参考电压，并且输出故障信号至隔离光耦。 为实现信号有效传输，去除高频干扰，在输出故障 信号端接入RC滤波。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLt306K0sM3Cib1tqKtEL8OjdonIfoOibC3LEibudThoASSO5q5vW1ftrMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_009_76c5b4932cc2.png)
 
 正常情况下，隔离光耦输出端接入上拉电阻，输出高电平，当检测到碳化硅出现过流、过压、负电平 功率不足等故障时，FAULT端输出故障信号，此时隔离光耦输出低电平信号。 
 
 ２.４.３　保护电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLZ7ibxaVMkboq0uAicibO8iaiafQmaEss94SDaYY5fjUPDAkWxVOSheknEtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_010_e55da1e51a85.png)
 
 如图10所示，保护电路确保在过电压的情况 下保护外部SiC MOSFET。DESAT引脚通过监测 电阻RD和DD1以及DD2监测功率SiC MOSFET的漏极电压。其原理为：
 
 如果漏极或者集电极电压超过DESAT阈值 电压UDESAT（由IX4351数据手册得其阈值电压UDESAT为6.8Ｖ），则启动受控关断序列，由下式计算出RD阻值：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLn4pR8QgtsUGPrg8jc342wOBs99jhqES2nicYuEAzkEFVWfOUP3cOiaqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_011_6dfb6c26fb2f.png)
 
 其中Io为SiC MOSFET的短路电流。由图８ 可知OUTSRC被关闭，OUTSOFT（软关断接收驱动器输出引脚）被打开。OUTSOFT的900ｍＡ sink能力可以允许SiC MOSFET缓慢关闭。同时OUTSNK（栅极驱动器灌电流输出引脚）打开并快 速将GATE拉至Vss。这两步关断避免了dv/dt过电压通过SiC MOSFET，通过ZC和CB进行稳 压，稳定输出6.8Ｖ电压。
 
 由于IX4351内部设有DESAT比较器，该比 较器在固定的时间（Tblank）内被禁用，以避免在外部SiC MOSFET开启期间检测错误的去饱和事 件。因其标定的时间为450ns，因此通过调整RD和CB的值来提高该时间。通过式（４）计算出CB的值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLFlBSD0guVpwLneH9jPDicaiaQxQISVPkEeXfrAxH8B58RDVuYYWpDs9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_012_c401916525e6.png)
 
 ２.４.４　栅极驱动电路设计
 
 其中栅极驱动电阻的大小影响SiC MOSFET的开关时间以及开关损耗、反向偏压安全工作区、 短路安全工作区等，栅极驱动电阻的选择是驱动 电路设计的重要部分。栅极驱动电阻RG计算公 式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLrC2icKcUpbd35OntTeIfib2lP5xpudNMFTyo38qicVLYLKAvYwia3gCX6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_013_5471260ebae3.png)
 
 式中，IGM是栅极峰值电流；VG（on）是正偏电源电压；VG（off）是负偏电源电压；RG（int）是模块内部电阻。
 
@@ -125,23 +125,23 @@
 
 为保证开通关断的可靠性和稳定性，将SiC MOSFET的栅极与发射极通过均流电阻用瞬态抑 制二极管以及平衡电阻相并联。这样则可防止栅 极电压超过阈值范围，保证SiC MOSFET的稳定性、安全性以及高效性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLiaa2q79fXIn9Anb94NJ0WZ6B05ITf6RERJs3RllbXdNPzrfIdE74g9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_014_e629d046fde8.png)
 
 由图11可知，IX4351芯片可输出一路门级 驱动信号，驱动两路并联SiC MOSFET。其中由 器件参数可知：瞬态抑制二极管分别选择SMF18A以及SMF6.5A。本文设计的以IX4351为驱动核的外部原理图如图12所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kL4IdScFQOicQqswXnR6gmFCre5iajroTdSBmdmaZeo9LOByfaFwBxvH8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_015_6511eeaeb669.png)
 
 ３.　实验结果分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kL8vl1fFg4dQb2jmwAu4VptxKWgic4Pvw4JJG4A9wJstMNGSC5cNpiasQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_016_d989ce29eb72.png)
 
 为探究并联SiC MOSFET自调节驱动电路 的可行性，对其进行实验分析。如图13所示搭建 由DSP控制板、SiC MOSFET驱动电路、并联SiC MOSFET主回路、示波器、可调电源等组成的实验平台。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kL8tUydc9EKH2z4IIwO3T2EDoxNd7Qbn3czzxWUtEHicCcOPeH6QA8InA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_017_befeb429ab0b.png)
 
 图14和图15分别为输入脉冲频率为60ｋＨｚ， 占空比分别为50％、20％时，栅极驱动波形，可以 看出上下桥两路波形呈互补状态，死区时间为１ 微秒，其高电平幅值为＋15Ｖ，低电平幅值为-5Ｖ，图16和图17为脉冲频率为100ｋＨｚ，占空比为50％以及20％时的栅极驱动波形，该波形的高电平幅值为＋15Ｖ，低电平为-5Ｖ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnmpMq14G84ZCXL5FlzU3kLdOqDwzKPaDfAaxTCjr1PSW0Yheekp0dGuWomia9SUbYyWowXdoMCWwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_018_770d34a473c9.png)
 
 通过分析波形可知，在60ｋＨｚ以及100ｋＨｚ 情况下，波形的上升以及下降沿有一定的缓冲趋势，开通以及关断损耗降低，转换效率增加。在高频条件下，不同占空比的输入脉冲驱动并联SiC MOSFET电路，米勒平台并未有明显地出现，上下桥两路波形没有出现明显的电压尖峰。因此该电 路能够在高频的环境下稳定的驱动并联SiC MOSFET电路。
 
@@ -153,10 +153,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_019_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_020_0fc2146c10d8.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC_MOSFET可调节驱动电路设计_images\img_021_3a3df320c8e4.png)

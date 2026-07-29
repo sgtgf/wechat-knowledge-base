@@ -5,11 +5,11 @@
 
 6月26号，小米YU7开启下定，雷军公布了三款车的发售价格：小米YU7定价25.35万元，小米YU7 Pro定价27.99万元，小米YU7 Max定价32.99万元。价格一经公布，小米YU7的预定量便急速狂飙：仅用3分钟大定突破20万台，1小时大定突破28.9万台。截至目前，锁单数量已经超过24万辆。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhgvemYlZkKbyCQyn9YNktZa3BlA9J055urgjdbRMssTQfYp64gomPew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_000_4bf05c7e271b.png)
 
 搭载小米超级电机V6s Plus，零百加速3.23秒，配合豪华底盘系统，兼顾操控与舒适。全系采用800V碳化硅高压平台，最高续航达835km，实现更长续航与更快充电。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhibo36V8LOsqUZCHQQ9Orxic2br2aAMXapmasbNXzDQuDGKMOP7BDC6SA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_001_e33b0a4b2583.jpg)
 
 新能源汽车“三电”系统，即电池、电机和电控系统，是新能源汽车的核心组成部分。它们共同构成了新能源汽车的驱动系统，为车辆提供动力，实现高效、环保的行驶。  
 
@@ -17,7 +17,7 @@
 
 ⚙️ 一、电机电控核心参数对比  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhwJcSyW1ozGAWXBWrgDibrjmrU1jpnX2DCEeib4OaFn8GFsdoeSUuTNVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_002_ec3f0853ff09.png)
 
 1\. 小米SU7（轿车） 
 
@@ -25,21 +25,21 @@
 
 标准版/Pro版：搭载V6超级电机（联合汽车电子/汇川技术），转速21,000rpm，单电机后驱，最大功率220kW（299马力），扭矩400N·m，零百加速5.28秒。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhqo3V4YqQuFEQL99FRWd5s5Z6WqsFCBhguSBqd5QG9RoLc73dke9BsA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_003_b4ee7c3a2297.jpg)
 
 Max版：搭载V6s超级电机（汇川技术），双电机四驱，系统总功率495kW（673马力），扭矩838N·m，零百加速2.78秒，支持Boost模式（20秒超频）。
 
-  ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh3tAUDJqdZtVyfR6kSJLfD72ypPGK8zHic7PmXzLs1KGjLRtZS82aK5Q/640?wx_fmt=jpeg&from=appmsg)
+  ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_004_0165412f95d7.jpg)
 
 电控系统：自研碳化硅（SiC）模块，转换效率99.85%，支持871V高压平台。  
 
 电池与续航：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhINIVMBGhyBviabKgQ1mM0EiaiaFmERNYRsxHXARsMkSMvYhavynPW70Pg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_005_d442cacc96dd.jpg)
 
 标准版：73.6kWh磷酸铁锂（弗迪），CLTC续航668km；  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhsAU7Fq59LZBkgcJAY9CYO5cEM3XrTENkfmk4KGulN0Bnribhlz9ZPnw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_006_5ccc2343b89d.jpg)
 
 Max版：101kWh三元锂（宁德时代），CLTC续航800km，支持800V超充（15分钟补能510km）。  
 
@@ -47,7 +47,7 @@ Max版：101kWh三元锂（宁德时代），CLTC续航800km，支持800V超充�
 
 2\. 小米YU7（SUV）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhhicR22bOeFdVZzZicszxicNDicicL6f8hNLu8ia9HrwzgfWaxibQpAM1uI5aQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_007_79322cd7f16e.png)
 
 电机配置：  
 
@@ -57,11 +57,11 @@ Pro版：双电机四驱，总功率365kW，扭矩690N·m，零百加速4.27秒�
 
 Max版：双电机四驱，总功率508kW，扭矩866N·m，零百加速3.23秒，搭载V6s Plus电机（转速22,000rpm）。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhzWslXuZ2EQ1bibxNEcJWWkFhQbgGs1fftpNzRmic0Gs9v4ibIEEHDBuuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_008_f334d998374f.png)
 
 电控系统：全系标配800V碳化硅平台，Max版支持5.2C超充（15分钟补能620km）。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhLOycRPGHOicwzRURYe75qKhaNBZjKSAfmibicJibxSv3iaDs079CWFEnibtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_009_751afc2b2608.png)
 
 电池与续航：  
 
@@ -69,13 +69,13 @@ Max版：双电机四驱，总功率508kW，扭矩866N·m，零百加速3.23秒�
 
 Max版：101.7kWh三元锂（宁德时代），续航760km。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhianJF0vASb4jibWKPibZ9zcME3Hs3RQjRWStNk262ttjkDBOvAWkwnkDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_010_d05708b9f9a6.png)
 
   
 
 参数简表：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh5zlU6AxYlHcYe6P2q5v4uB9qiaJfvH7sGxLoJR26UyAB2qCaL5bSrxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_011_938f6e13dfa1.png)
 
   
 
@@ -103,7 +103,7 @@ OBC：供应商为富特科技，其SiC MOSFET芯片供应商为Wolfspeed。
 
 ⚡️ 三、800V碳化硅平台的性能优势  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhd4LEc2EAEYS4E0DxmDQqPLgMzuiaHa333ZOxt4a4552VZgVR82gjqwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_012_d12589e02cda.png)
 
 1\. 充电效率革命  
 
@@ -143,6 +143,6 @@ OBC：供应商为富特科技，其SiC MOSFET芯片供应商为Wolfspeed。
 
 未来随着V8s电机（2025年上车，27,200rpm）和碳化硅成本下降，小米有望进一步巩固电驱技术领先地位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhKUTICaZbqMp6xTiaNiaA9LLkHSsR1aDsUOxp0TpqPNIPRlnzVdO7bUwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\小米汽车_SU7_YU7的三电系统_images\img_013_7bd3d9dce0b6.png)
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。

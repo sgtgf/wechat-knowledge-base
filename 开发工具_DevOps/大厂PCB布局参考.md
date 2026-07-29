@@ -173,7 +173,7 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
 请参考图5中的元件贴装示例。图5显示了MP6600步进电机驱动的双层板PCB布局。大部分信号走线直接布置在顶层。电源走线从大容量电容绕到旁路，并在底层使用多个过孔，在更换层的位置使用多个过孔。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icibbJweUnThXqhUN2nzJWAKsD8rShDCZqHyEktu8eic9yu1v6BplbQdEA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_006_c722bcee49c1.jpg)
 
 图5: MP6600元件贴装
 
@@ -187,7 +187,7 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
 # 标准的引线封装（如SOIC和SOT-23封装）通常用于低功率电机驱动器中（图 6）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9ic0mhTae7MvnxianeWBAIhvRBcHuQREDhupZibAM4hsTQ9S1a5HfcT3N9g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_007_4f0c2ea7e415.jpg)
 
 图6: SOT23和SOIC封装
 
@@ -199,7 +199,7 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
 通过将较大的铜区域连接至承载较大电流的引线，可优化热性能。在电机驱动器IC上，通常电源、接地和输出引脚均连接至铜区域。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9ic8tPGeXkbpMeQ2ITy2nkLlxeKkichYqrNjian1uK80bqY74xkib9Bcib7LA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_009_ada431229835.jpg)
 
 图8: 倒装芯片SOIC PCB 布局
 
@@ -215,19 +215,19 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icTicTBfyutAsAibzy2OmUibDhUaM0WNebGzs5a9mWk0QbhQKULhNkdngIg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_010_34530b7bdcde.jpg)
 
 图9: TSSOP封装
 
 QFN 封装为无引线封装，在器件外缘周围带有板，器件底部中央还带有一个更大的板（图 10）。这个更大的板用于吸收芯片中的热量。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icSZg5RwEjqa2menOWLxGxyWicmFMgAn6pJsbMlsY6we4r7dGnWE6gRhg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_011_c4a3ed547c4f.jpg)
 
 图10: QFN封装
 
 为排除这些封装中的热量，外露板必须进行良好的焊接。外露板通常为接地电位，因此可以接入 PCB 接地层。在图 11 的 TSSOP 封装的示例中，采用了一个 18 通孔阵列，钻孔直径为 0.38 mm。该通孔阵列的计算热阻约为 7.7°C/W。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9ic7boEd7SsL4nNgzz7DEcK6xg3nbyveYS1SnBen7osj12xiauZ9PKicTdQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_012_b1b2415fc521.jpg)
 
 图11: TSSOP PCB布局
 
@@ -239,7 +239,7 @@ QFN 器件封装边缘四周的板避免在顶部使用铜层吸收热量。必�
 
 图 12 中的 PCB 布局所示为一个小型的 QFN (4 × 4 mm) 器件。在外露板区域中，只容纳了九个热通孔。(见图 12) 因此，该 PCB 的热性能不及图 11 中所示的 TSSOP 封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icJHZAvHmwtuEvibpqsWMQjI4EriaUV2nx2fqUzC3wRmx35pjCaVpgiciajA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_013_3a9282db77ca.jpg)
 
 图12: QFN (4mmx4mm) 布局
 
@@ -256,7 +256,7 @@ QFN 器件封装边缘四周的板避免在顶部使用铜层吸收热量。必�
 
 这些封装在芯片的表面采用了多排铜凸点粘接至引线框架（图14）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icEic5kWialoEfefIDQzHDx1OEjBOt70Uq4icRpgBovZFjLVgfLFFclkiaSw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB布局参考_images/img_015_fcc7b7dde552.jpg)
 
 图14: FCQFN结构
 
@@ -278,9 +278,9 @@ QFN 器件封装边缘四周的板避免在顶部使用铜层吸收热量。必�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](大厂PCB布局参考_images/img_017_27e4e85ce630.gif) ![](大厂PCB布局参考_images/img_018_26e7c42e5929.gif) ![](大厂PCB布局参考_images/img_019_86e7b1720ef8.gif) ![](大厂PCB布局参考_images/img_020_607a9b5809f6.gif) ![](大厂PCB布局参考_images/img_021_c337f32f2ad2.gif) ![](大厂PCB布局参考_images/img_022_845d28096f90.gif) ![](大厂PCB布局参考_images/img_023_2e2b5ebc409a.gif) ![](大厂PCB布局参考_images/img_024_16e467ebcf07.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](大厂PCB布局参考_images/img_025_ebed19ebd456.gif) ![](大厂PCB布局参考_images/img_026_de9b387fc9a9.gif) ![](大厂PCB布局参考_images/img_027_fb5805018722.gif) ![](大厂PCB布局参考_images/img_028_25764f7ff52f.gif) ![](大厂PCB布局参考_images/img_029_f992681cd3b5.gif) ![](大厂PCB布局参考_images/img_030_d13d18656a84.gif) ![](大厂PCB布局参考_images/img_031_fbbfff43554c.gif) ![](大厂PCB布局参考_images/img_032_05704500a9db.gif)
 
 ## 
 

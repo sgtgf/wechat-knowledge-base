@@ -23,7 +23,7 @@
 
       “咚”一声巨响，电机被砸得粉身碎骨，却，却不见妖怪的踪影！
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyR3M8gO1oBBNoT9eLiclmZC54V8GKSyAoJ4C4fFWcj9YFc311y8mnAH5QnL6z4Gtv8Aqth5XwwA7Q/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_000_e40e63c7a035.png)
 
 \------------历史课时间-------------
 
@@ -37,7 +37,7 @@
 
       共振的例子还有很多，各种弦乐器中音腔在共鸣箱中的振动等利用了“力学共振”；电磁波的接收和发射利用了“电磁共振”；激光的产生利用了“光学共振”；医疗技术中则有已经非常普及的“核磁共振”等。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX5B6Ut8rRz0ibM588mkeMWBZ2vCTbyAXCiciakQsPLsJ668q6Pw4Fl0AcHQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_001_8e0d3950a834.jpg)
 
       如果全地球上的人一起喊“1、2、3、跳，1、2、3、跳......”，地球会不会共振，然后爆炸？？？！！！
 
@@ -49,13 +49,13 @@
 
       电机结构的模态是其固有特性，与电机结构的运动性能有很大联系，电机结构的振动频率要远离模态频率，振动方向要避开模态振型的方向，否则容易引起共振损坏电机。因此，掌握电机结构的模态信息对于电机的科学使用是非常重要的，有限元分析软件可以用于计算电机的模态频率和模态振型(模态向量)，效果良好，计算过程一般如下：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chyvibTfhu4PE0tficdGTKSatfG0MT0bljuu7vxp3j2ricumN1hzBMY9z08ptqryUL7ymibL6wcl1TOPMQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_002_d2a736b83136.png)
 
 **1\. 工况分析**
 
       模态分析的工况分为两种，一种是无载荷模态（模态求解不含应力求解），一种是预应力模态。什么情况下需要做预应力模态？当你的预应力（工况）会影响到你的模态求解结果的时候，比如大变形、大应力等。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX5eknjMp9vDkt0jbia4arHX68EVRpibUHoV5sPO5gFuBf9ia0EVQOaECwfA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_003_c6a1b00c7141.png)
 
 **2\. 简化模型**
 
@@ -69,35 +69,35 @@
 
       网格无特殊注意事项，够用就行。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX56YnoRPFeEPlLLjcDlkIOyriceYsQ7Ho45vdXibtniax4odREFw2biaAdqQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_004_f40649f5a7cb.png)
 
 **5\. 边界与载荷**
 
       边界约束按实际情况添加即可，注意约束住所有自由度，防止产生刚体位移和频率为0的刚体模态。如果要考虑载荷，在预应力分析里面做。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX57GWBlmHibKxPicz6ldeuh9KYDxSG9fnWl5HovxnjF78Tjg6kwglCcGpQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_005_62016b28ff4e.png)
 
 **6\. 求解**
 
       需要设置求解阶数，根据需要设置阶数即可。有限元法求解模态的特性，阶数越大的模态准确性越低，所以一般情况不需要求解20阶以上模态。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX55PVSUTf6mvxHXeuj9NkGq0427H5T7kwEbMb5LKOIU2r56HeCCrbgmQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_006_d15c54757c26.png)
 
 **7\. 结果后处理**
 
        结果关注频率和振型。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX55PVSUTf6mvxHXeuj9NkGq0427H5T7kwEbMb5LKOIU2r56HeCCrbgmQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_007_d15c54757c26.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX5MKKSYlHia8e7QYHAJPKdVVnmIRtfaHRxkWSd0V1aDqibuzo04hzib0tpA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_008_1c32f78a6e67.png)
 
 频率表
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX5pST29Eph7icbGxy89cHreuyVicImM7LBx15kfhPAibTW5h6oibEZm7ph0A/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_009_f7671a9f8101.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX5lzWlpjIR6S25YzYM2tMz1KexibXA5iaDNiaL1ebYSVB6QkFVHSwTgWufg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_010_4f60aca88802.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX5SsU7BXJTNun1btibiciaUjjiaIGibqLB4ibKwKWcWYPuRgUfSeYp9RH2NHww/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_011_92d9d3db3545.png)
 
 **7\. 总结**
 
@@ -107,7 +107,7 @@
 
        机智的你不知道有没有发现定子模态振型和电机空间电磁力的关系！？
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chytmCpFXOZMibfibo1DFIibTX5D53cJDbZS7A1iaS1JyckDf6mb8zesK2QY5iaXLHCV0Jfl1d2zVppxraA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_012_51209562624d.png)
 
   
 
@@ -121,4 +121,4 @@
 
 感谢你的阅读！欢迎**关注**本公众号，共同**探讨**电机设计，**分享**电机设计经验！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chyibFIWnfwX0zMBFTiajxFQ04icCDtGawUrUJPR2mfviaONcQuCMFupZlHesXCke26pQIqqdx1R4PzibBQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机妖怪分析（modal）_images\img_013_0acab559cb54.jpg)

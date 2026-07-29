@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2wWRsQPVge7zFY8umhwGrA](https://mp.weixin.qq.com/s/2wWRsQPVge7zFY8umhwGrA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMB0KJaUve7BhicwpI9SMSEiaM4kmgickDzeyEwQ3nED2nZqlKqwA6HJqQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_000_9adb47bf00e3.png)
 
 ____**★★★**______LNA-1---低噪声放大器______**★★★**____
 
@@ -15,7 +15,7 @@ ____€1.LNA工作原理____
 
 LNA利用晶体管的放大作用，对输入的微弱射频信号进行能量放大，常见的晶体管类型有硅双极型晶体管、砷化镓场效应管等。通过选择合适的晶体管和电路设计，实现低噪声、高增益的信号放大功能。射频低噪声放大器的工作原理如**_图14-1_**所示：输入的射频信号被输入匹配网络转化为电压，经过放大器对电压进行放大，同时在放大过程中最大程度降低自身噪声的引入，最后经过输出匹配网络转化为放大后功率信号输出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbcwTDnU55cxxLarpGibLokamFe7j0ibpy02vGCQichIkVicJDj2x7EgDGKBSDDNCmr676otm2stmYmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_001_65c929956814.png)
 
 **_图14-1：LNA的基本结构_**  
 
@@ -43,35 +43,35 @@ ____
 
 对于一个LNA来说，基本的电参数如图14-2所示，包括工作频率范围、增益、噪声系数、输入回损、输出回损，输出P1dB、输出IP3等等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBEiaILibBIaVysZkMfbeGPOyHiaSGK4WU0pBqDicu6IAUicib7xicViccYDBzVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_002_c8c017434f65.png)
 
 **_图14-2：LNA电参数_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBn7psrA4Gd03OO2nakP4pg4NTca6HJicW3yeGKB6ZgOKcj0NWQIic78oQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_003_8136fb975294.png)
 
 **_图14-3：LNA的宽频性能_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBB9jZG8NS1OKf4ZlOzpzdia2ZsqekicWyaoCHP8Mrc4GeenbQicwH1vWtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_004_d414fde93290.png)
 
 **_图14-4：LNA的窄带性能_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFB6eIxG8NYUhQibdpkwjXF4ojB46VJBkOhh1B0PsdauzMbSqW5bWf42Gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_005_29e6217af712.png)
 
 **_图14-5：LNA的增益---频率---温度曲线_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBIFmc6DH2b5H3nlibz6FdGIyN678DA6JQzK4EZ1Ht471meXiaG2NyibDJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_006_917ef98f788a.png)
 
 **_图14-6：LNA的噪声系数---频率---温度曲线_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFB1RkK9piaFpLicXYqbBiapZmuDpfIhH72I82j8YiboIsCPojbvXbyDXF2RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_007_37f69daf7a95.png)
 
 **_图14-7：LNA的输出功率---频率---P点曲线_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBFVJT1FcfoKf6B8mywQDl8mZvZzKW1vnQPfDkuxMBbghWrd9vecicYicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_008_0d0e83c5a939.png)
 
 **_图14-8：LNA的输出P1dB---频率---温度曲线_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBmOqvQuD9QSdQiaMmAZZDqc1UWT78ZxcnW8cVW4gsgGzKupMCSuia7mWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_009_e73d450f0824.png)
 
 **_图14-9：LNA的输出IP3---频率---温度曲线_**  
 
@@ -79,6 +79,6 @@ ____€3.LNA的选型使用____
 
 LNA使用在接收链路中，选型轴图如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWITfI5PPZK11E3pkcpFzadvPOuYy4IoBPrdVMT2v03zKCDZdCcm76VsnxT2oq0MWSFRYibhROXsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_14_LNA_images\img_010_abc1c4d6c6ac.png)
 
 图14-10：LNA基本选型思路

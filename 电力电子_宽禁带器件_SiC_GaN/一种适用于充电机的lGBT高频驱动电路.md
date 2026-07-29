@@ -25,7 +25,7 @@
 
 充电机功率模块高频化可以减小体积和质量，但会增大IGBT开关损耗。因此，需使用ZVS移相全桥开关技术(或称软开关技术)来降低IGBT的开关损耗。本功率模块主电路由移相全桥、全波整流、直流滤波及防逆电路组成，其主要功能是将DC660V变换为DC110V，充电机主电路原理如图1所示。经过对散热器热仿真及IGBT开关损耗计算，IGBT开关频率选择25kHz。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNvwfqlibDXZmtBQ4dQoaquccnZkXztpTYPgvBw8oARMO5pPSS451cicDguskBhicWRBCJgU59arUZDYE4YrpPibsXVePk4lqBaSoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_000_8b77f5fe8819.png)
 
 2.驱动电路结构  
 
@@ -51,7 +51,7 @@ IGBT驱动电路的参数需与待驱动的IGBT的要求相匹配，才能保证
 
 IGBT的开关过程中，驱动电路需将栅极电容充电至驱动器正向开通电压VCE,on或放电至负向关断电压VCE,off。在电压转换过程中，驱动电路、外部电阻、IGBT内部电阻回路中会消耗一定的功率，即平均栅极驱动功率PG
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMyw7dJPINLzrb6oSNuDMtJoWknRpnB27CIq2SsvzfY36T769aMpo9KMBGDWHhTMaStB5W9Clbicia4jqtrEvV3d1g6yLrsKMfeY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_001_071ceec09cdf.png)
 
 式中：QG为IGBT栅极电荷量；f为IGBT开关频率；△VCE为IGBT驱动器正向开通电压与IGBT驱动器负向关断电压的差值，即△VCE=VCE,on-VCE,off。因此驱动器的驱动功率必须大于IGBT在最高频率下正常工作所需的功率。  
 
@@ -59,15 +59,15 @@ IGBT的开关过程中，驱动电路需将栅极电容充电至驱动器正向�
 
 IGBT驱动器设计中，输出电流非常重要。驱动电流主要包括峰值电流IGP和平均电流IG。由于IGBT的开关过程等效为电容充放电过程，因此在相同参数条件下，IGP越大，IGBT的开关速度越快，IGBT驱动器的驱动能力就越强。IGBT的IGP理论波形曲线如图2所示，IGP为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOQnfv7bOkJWiab3xVvXvgibxW8K7fXKncLkGAcao0t7Xl0ONiaRkV2DaOia5uENotLjcxmmvGNVnmrOfGDiaGf0fIZVQNpVyXGgN1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_002_fa5d35534a34.png)
 
 式中：RGd为IGBT驱动器驱动内阻；RG为IGBT驱动器驱动电阻；RGi为IGBT内部驱动电阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNvU3tdTp9uEuJabfPouaia8wdX1xQTiaussjcq2z5EGwUiaopgtaMfW5PdGrfTibJer81eRgGv7D7ibe316ic8Hp9YSgmXXMRXJBU0I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_003_a8299937b6cd.png)
 
 IGBT驱动器的IG为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMTrqGqnib9xwfO5WLMia1LurkvQlPIQ7iaHsicjxKp5rqZiaia297ialZgWF2jfcyxVt88K8ezxY6c8Fic12ECwicUfO5j9byXV2ic0bn30/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_004_1e8e64408dfd.png)
 
 式中：td为IGBT开通延时时问；tri为开通过程集电极电流IG的上升时间。  
 
@@ -75,39 +75,39 @@ IGBT驱动器的IG为
 
 栅极驱动电路直接决定了IGBT的工作性能。图3为IGBT高频驱动原理框图，包括光电转换电路、驱动电源及欠压电路、驱动输出反馈电路、驱动信号处理电路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPwD0w3BkvbTauX4z35CXjjq5WeZyk8iaYEsS8ictTDopRNUSNI3Ca5P4YwZtHA85Md0r6Xic67ESDiaibnldmtqyn6ysI39MLpXib2c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_005_6b084ff32886.png)
 
 4.1 光电转换电路
 
 充电机功率模块控制单元发送的脉冲宽度调制(PWM)脉冲光信号首先经过光模块OPIC2转换为电信号，然后经过施密特反相器滤波处理。最后将滤波后的驱动电信号2输出到比较器l电路。同时，把驱动输出反馈电路反馈的电信号转换为光信号，然后通过光纤传输给控制单元。光电转换电路原理如图4所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNy327ichKl3wgl8ZSrcNKcAibhiaG3LSibbC8UqjDntL7sxGZccsYQOB1DsfmzK63g4UBRU82x5XV2TadQGeuTYibY3No5ZvTwpvVc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_006_1ed409739166.png)
 
 4.2 驱动电源及欠压电路  
 
 此驱动电源选择变压器供电，驱动电源电路原理如图5所示，图中变压器初级P1、P2电压为AC30V，开关频率80kHz，占空比为50％的方波；次级s1、s2电压为AC18V，开关频率80kHz，全桥整流电压为DC18V；T1、T2电压为AC12V，开关频率80kHz，全桥整流电压为DC12V。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOMPPmhMADVp55NQNdB5Ncc7bd4mCWSt0YtaR7eFrlbVFQCs1WJmtAFicDQYRoQ3cecpgj3VtoQ3DibFCBMWl7mhsBCIFwzHe9fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_007_64f721eb1b96.png)
 
 IGBT栅极欠压时，功率半导体的通态损耗增加，因此要避免欠压操作。IGBT导通后的IG给定时，栅极电压越低，IGBT集电极-发射极的电压压降VCE就越大，IGBT通态损耗Pcon为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNEVicR0q3c2CzK3tx1Ako50hS9oWr5ZCytTZ2uicA2LYMZuXH7yztZVzbBEiaMECK9HpZGjPRYaoIag47yve5tXa8rZl7ibwr6weQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_008_70c2c9673139.png)
 
 为了防止驱动器在电源电压低于11V时工作，驱动器必须要有低电压检测功能。此驱动电源欠压检测电路如图6所示。比较器对变压器输出整流后电压进行检测。发生欠压时，比较器输出高脉冲信号到三极管，驱动电信号2被拉低至低电平，使驱动输出为关断信号。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMBakasY5PTcVicU0KLHXiaE38gyDtqTywic8loZLO6pAUvW5S0lIicpjtd2tK6FfuYot1z8vYb1NKKtuZhMIBOaDp4Co6LBViazrn8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_009_66e23b3d6295.png)
 
 4.3  驱动输出反馈电路  
 
 IGBT高频驱动电路是开环系统，可靠性低，因此，需要给电路增加驱动输出反馈电路，以提高电路的可靠性。驱动输出反馈电路原理如图7所示。驱动输出信号与驱动电信号1比较后，比较器输出高电平为-7V，低电平为-12V的脉冲信号。光电转换模块OPIC2把此脉冲信号转换为光信号后传输给控制单元。控制单元接收到此信号后与驱动输出信号进行比较来判断驱动输出信号是否发生故障。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOAlmMhX7geqHUciasfibzJH5icmMPCCybRXQqSxLho73uXLSD7SfbD2CpAO2hosSYOwJiahKs2w6sXv7CQvt8HVIJRcFXuCDlH0NU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_010_3acdedadeff6.png)
 
 4.4 驱动信号处理电路  
 
 驱动信号处理电路框图如图8所示，利用三个比较器、一个PMOS开关管及一个NMOS开关管组合实现IGBT高频率开关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUVzx6XMOP35ib6P2VwvLpic0rhN58TiaAIkiagA0m0mGMqXibia2JiczSeJrFQAfBONB0LdichMAj1IlbRSPguwumq5Vmc0jlUPY8qgY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_011_a2f35db3a4d4.png)
 
 在本文中选择高电平为18V、低电平为-12V电源电压给比较器1供电；选择高电平为18V、低电平为0V给比较器2供电；选择高电平为0V、低电平为-12V给比较器3供电；PMOS管源极接18V，NMOS管源极接-12V。  
 
@@ -123,27 +123,27 @@ IGBT高频驱动电路是开环系统，可靠性低，因此，需要给电路�
 
 为了验证设计的IGBT高频驱动电路的开关频率相比于传统驱动器的开关频率具有优势，搭建实验平台，如图9所示。实验平台由波形发生器、测试板、IGBT高频驱动板、AC30V电源、DC5V电源及IGBT模拟负载组成。模拟负载由电阻、电容串联组成；电容为200V、0.1μF的薄膜或陶瓷电容，电阻为0.5Ω、1W的金属膜电阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMnWuYx1bF0dDteGESp2K0EYX7rDXich5HcBJTAk3j9ynfRV938RKyzdUkKkyBPF2YuyBPia7szF95g2xwk74tzIbUlBKfKawusU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_012_8755077eb589.png)
 
 对IGBT高频驱动电路进行测试。波形发生器向测试板输入高电平5V、低电平0V、占空比50％、频率100kHz的方波信号，测试板通过光纤收发器向驱动板发送光信号。测得的IGBT高频驱动输出测试波形如图10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNWSRvG9IgrDL9c7Vm9HYp5tuWaDEJCeDn2ricJxM0ibJfEc3CjOefMa321EUQayBuhp8FDCnE4Xg7Ad20rFFEE9lfhkwEmicrb3k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_013_15d38af30626.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOUgFUGNrn1NP71iab79WHHK2BZWLSXVaPA5lTb32teD9okZwkM1FIVLwperydCBLKSpmd2WZaxKIL2lRAdCkxtAPmj6sHb0dR8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_014_9ff26ae7efd9.png)
 
 图10(a)显示驱动输出开关周期为9.96μs，开关频率为100.4kHz；图10(b)显示驱动输出开通电压为+17.6V，关断电压为-10.6V；图10(C)显示驱动输出电压从-10.6V上升到+10V，上升时间为208ns；图10(d)显示驱动输出电压从17.6V下降到-5V，下降时间为204ns。通过实验可知，IGBT高频驱动开关频率可以实现100kHz的开关要求。本文选取A．M．Kumar等人设计的开关频率最高为50kHz的驱动器进行对比实验。从图10中可以看出，本文设计的IGBT高频驱动电路相比于传统驱动电路，IGBT开关频率提升了50kHz，有效地提高了IGBT的工作频率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN6663liaAwDZQQMhCHcERtpyfokE8VN4D1OicH04PjSWEHLiaoP6caeuJxGmXLsN29ZIfvEhsmeLA0A6z77SQicwYJ9VOPndJd6Q0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_015_1899e3ee4976.png)
 
 驱动输出延迟时问如图11所示，图中CHl波形为输入信号，CH2波形为驱动输出信号。图11 (a)显示开通传输延迟时问为980ns；图11(b)显示关断传输延迟时问为508ns。驱动输入与反馈信号是逻辑电平相反的信号。驱动反馈延迟时问如图12所示，图中CHl波形为输入信号，CH2波形为反馈信号。图12(a)显示驱动输入、反馈信号开通传输延迟时问为1240ns；图12(b)显示驱动输入、反馈信号关断传输延迟时问为840ns。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPTibWROWECsiaUb85ibF2FyYgpzIbyLDaQQziaAyf1CGPunia6HJ2ibAAzm3kBQxu636XBNCf7bFicEKQ2gE7A8OicRwhp7vAq0Ic2bY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_016_3c79dd1e52fe.png)
 
 6.结论  
 
 本文设计了一款适用于充电机的IGBT高频驱动电路，利用PMOS管与NMOS管的快速开关特性和比较器的逻辑变换特性，设计了一款IGBT高频驱动器，实现IGBT驱动高频功能。比较器把接收到的驱动信号转换为两路不同的驱动信号传输至PMOS管与NMOS管，从而实现IGBT高频驱动功能。并搭建实验平台进行验证，和传统驱动电路对比结果表明，IGBT开关频率提升了50kHz，实现了IGBT开关频率高频化。该方法简单、成本低、响应速度快。本文研究结果对大功率IGBT及SiC MOSFET的驱动技术应用具有一定的参考价值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPOYzBrrQAqaEqMPjL8W1ia9lJOrYOBA4Q3NjKibM11NrbEfPJR2BFKfzhY9XOxjewYRtkAHPkzvhMAFngmX83flSqBcNHrBOf0I/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_017_e49000174b31.jpg)
 
 注明：  
 
@@ -151,14 +151,14 @@ IGBT高频驱动电路是开环系统，可靠性低，因此，需要给电路�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPvr8ZqR5US9ViaVWlWX78Of3DNjBMXTsLjzOYQLqj8Ee6iaRtxaDdhjsuGs4LafYJich22TPYbnK7WCeZJcvmkaPHkg53fiaLEek8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_018_e212572a8e4b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMb6q4H7J29q8EEovx1ibOtU1vvLTFYqxlqP6vQjRSxnhP4VFdice16LRjOiadkMgRjrumu2ERiaqVYDOibdDAyHsSTp10icz3OFv84E/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_019_298d72e914c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM7a1E47HWDsNpbW1NHxWlvHTbMgSAYjicL4BnNJmyO82GjOeJhjK1cUDuSZCNuZwcPjcVGPglkkLiaY07oicibG9ckBLwCkIbMpCQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_020_c2efe71bc01a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOu6GBtA1iaq0SVlfe00undwLYn0GFID0TYasHVt4TXPe6qvg03m5DCUqbNwVqEYb5DWERNtqribE13weV1ZrpBHUydyVqTHuMSU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种适用于充电机的lGBT高频驱动电路_images\img_021_c06735221757.jpg)

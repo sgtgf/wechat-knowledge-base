@@ -12,13 +12,13 @@
 
 本文利用实际场景与人工场景的虚实互动，提出一种基于ACP的智能视觉计算方法，我们称之为平行视觉。平行视觉是复杂系统建模与调控的ACP（Artificial societies, Computational experiments, and Parallel execution）理论在视觉计算领域的推广应用，目标是解决复杂环境“视觉计算方案”的科学难题。图1显示了平行视觉的基本框架和体系结构。平行视觉利用人工场景来模拟和表示复杂挑战的实际场景，使采集和标注大规模多样性数据集成为可能，通过计算实验（即学习与训练、实验与评估）进行视觉算法的设计与评估，最后借助平行执行来在线优化视觉系统。平行视觉的基本原则是：在物理和网络空间大数据的驱动下，结合计算机图形学、虚拟现实、机器学习、知识自动化等技术，利用人工场景、计算实验、平行执行等理论和方法，建立复杂环境下视觉感知与理解的理论和方法体系。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcZgpZmjUSfFeDMYkMAxTk2vQOIdJDI4fDCa1hpzIsawzc1oM1FpWgwA/0?wx_fmt=jpeg)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_000_539e7ff7546d.jpg)
 
 图1  平行视觉的基本框架与体系结构
 
 平行视觉相关研究已经引起国际同行的高度重视。在近几年召开的计算机视觉重要会议（例如ICCV、CVPR、ECCV等）上，将计算机图形学和虚拟现实技术用于解决复杂环境下的视觉计算问题，在论文数量和关注程度上呈现出上升趋势。随着虚拟现实技术的进一步发展，构建的人工场景会更加逼真，为平行视觉研究提供更可靠的基础支撑。我们相信，平行视觉将成为视觉计算领域一个重要的研究方向。尤其是，平行视觉与深度学习相结合，将推动越来越多的智能视觉系统发展成熟并走向应用。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcJ1uXkiaK40QPKqZYRa0KZqe1wcvicUx6nCic7QaXsnQ17pvenGtWwxJuw/0?wx_fmt=png)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_001_b8e2157ce802.png)
 
 引用格式
 
@@ -26,19 +26,19 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcmgObVkRFF39SrSuNRxhF7JG0CxPEKqjJMZQnmGlDepSbfV1UoGCHSQ/0?wx_fmt=jpeg)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_002_70335024b012.jpg)
 
 王坤峰 中国科学院自动化研究所复杂系统管理与控制国家重点实验室副研究员. 2008 年获得中国科学院研究生院博士学位. 主要研究方向为智能交通系统,智能视觉计算, 机器学习.
 
 E-mail: kunfeng.wang@ia.ac.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcB6I3uPhOzXCVlsZpId3K96DyehSVZDQ6EBmOiaYNeQaV5P1wg2hhR7g/0?wx_fmt=jpeg)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_003_a2b2c8a09996.jpg)
 
 苟超 中国科学院自动化研究所复杂系统管理与控制国家重点实验室博士研究生. 2012 年获得电子科技大学学士学位. 主要研究方向为智能交通系统, 图像处理, 模式识别.
 
 E-mail: gouchao2012@ia.ac.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcG54sLlQiaVgmWkWSm1h7O5OicBbqfxjpib4Qic3gjHwZ0MKNVbibFEnPhZA/0?wx_fmt=jpeg)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_004_e2eab2c0ef15.jpg)
 
 王飞跃 中国科学院自动化研究所复杂系统管理与控制国家重点实验室研究员.国防科学技术大学军事计算实验与平行系统技术研究中心主任. 主要研究方向为智能系统和复杂系统的建模、分析与控制. 本文通信作者.
 
@@ -46,8 +46,8 @@ E-mail: feiyue.wang@ia.ac.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcPlmHWt00jxGCcYskSKN38EBQ6hwSSQ8yRsx8I61XVXt3iaUjA4sZRQg/0?wx_fmt=jpeg)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_005_a7a93acee967.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcp6ZGqJU8JabBMkutTiajYEBAiaDwE4ghplppR3yibQmVVeic2ic8qAIibOYA/0?wx_fmt=jpeg)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_006_7ba1bd51865a.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45qxhNlCibibTwSjZlia1K9QUcyDGNX94gibjost0MlZMlfJf3xFPlXibrgRjlcSiapia5Q9EmdftaXwQ5kw/0?wx_fmt=jpeg)
+![](平行视觉__基于ACP_的智能视觉计算方法_images/img_007_5b1cfab9a3cb.jpg)

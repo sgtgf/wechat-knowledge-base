@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/bsIIv4zMV5LyaFvAgkPrEw](https://mp.weixin.qq.com/s/bsIIv4zMV5LyaFvAgkPrEw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnlnOoicp9OfiasnGSdUiaianpiccwwaGSCyqyibGm0LPuWiccwpqCkmFDS7PNNa37jyvdhGDicI6ibrjmBPvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_000_8de985a96af6.png)
 
 **一、 碳化硅mos对比硅mos的11大优势**  
 
@@ -195,7 +195,7 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
 因此，人们关心SiC MOSFET驱动的难易程度，更关心驱动器在市场上是否有售，这是很正常的事情。令人兴奋的是，驱动SiCMOSFET几乎与驱动硅基MOSFET一样容易，驱动一个80mΩ器件，只需要20V栅-源电压、最大约2A的驱动电流。因此，在许多情况下都可以使用简单标准的栅极驱动器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnlnOoicp9OfiasnGSdUiaianpicHTxnQNhAv5S0YvtaWGy2KiamQpCp6JYJcQAyrviaSYmQ0vBmuOib5fggQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_002_9700992739b6.png)
 
   
 
@@ -299,7 +299,7 @@ SiC器件结温几乎在整个开关频率范围内都处于较低的水平，�
 
 这些特性和优点为用户带来了切实的好处，例如，能效提高至少1％（损耗降低75％）；逆变器侧冷却系统更小、更轻（减少约80％）；电源模块更小、更轻（减少50％）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnlnOoicp9OfiasnGSdUiaianpicdfJic66gaaxOX6apQ6UiccJicJsAkpFVibQm4ARfzEx2mqZ8WTSZl5Yatw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_007_66db271a4b4f.jpg)
 
   
 
@@ -317,16 +317,16 @@ SiC功率开关带来了改进性能的希望，同时也将这些希望变成�
 
 注：以上资料转载网络，仅供参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnlnOoicp9OfiasnGSdUiaianpiclVz9ibDuCcx36ppmsK13ShK8l1SVAGsw9naeLyjnSVaaYYNjJIsOAKg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_008_58e0ddb5d688.jpg)
 
        **深圳爱仕特科技有限公司专注于第三代半导体碳化硅（SiC） MOS 芯片设计、功率模块的生产制造及其基于 SiC 器件在新能源领域 的应用系统开发方案，由武岳峰资本及国内多家知名投资机构投资数 亿元，中国科学院及清华大学博士领军，数十位半导体行业资深人士 共同组建的高科技技术创新性企业。公司拥有全自主知识产权，已申请 25 项专利技术，采用 6 英寸技术已量产 20 余款 650V~3300V 全系列 SiC MOSFET 产品，并建立起车规级的 SiC MOS 模块工厂，可为客户提供整套应用解决方案。产品已大量出口欧美客户。**
 
       **深圳爱仕特科技，产品已通过IATF16949和ISO9001质量体系双重认证。产品已得到：美国通用 ，厦门金龙， 吉利，长安，BYD等车企的认可和支持，碳化硅MOSFET和模块的国产化，迈向新的征程。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnlnOoicp9OfiasnGSdUiaianpicdlbn3xIG9bkmia3wws6Ph5qsWYuhSeguoia3M8YYZqNTM8rWsNVKbMlg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4HvfsjglK8EHDp02iaXibUiabYdZ2qicIFRzpocppypRIp7j4sf13yBdtWA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_009_f9a311c87d2e.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_010_e095c5c08b22.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4qAohKyDCy4TnOUI6icQib6cYnic5BvkwkYbvQaboHiaWjDpW4WiaBASbTyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_011_f699454fb572.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4DK1fqWXpED1WhMDicwNviab32fDsQzFq8l0EhrLAhIAMDJWqhryHWduw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_012_f6d03b5bca4d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4EEqfbFCSiaq91m05nPdYvSpBSXkAzduFia0LzCdxJ8W0ND8LUNGFoQzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）MOSFET性能的优势与技术的难点_在新能源汽车和大功率电源应用的优势_images\img_013_b6389f4badf7.png)

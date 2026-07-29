@@ -7,7 +7,7 @@
 
 **爱仕特成为国内首批通过AEC-Q101认证的碳化硅器件及应用方案供应商。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9ccM10ANFLu0KnooqPyRDTeiab5cxCBfVeDBUee8vdm8qicswUJ9y1XM01Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅MOS获车规级可靠性认证_images\img_000_be1eda194619.png)
 
   
 
@@ -23,9 +23,9 @@
 
 **AEC-Q101试验不仅是对元器件可靠性的国际通用报告，更是打开车载供应链的敲门砖。**要进入车辆领域，打入Tier1供应链，必须取得两张门票。一张是汽车行业质量体系标准IATF 16949，针对汽车整车厂和其直接的零备件制造商的质量管理体系；另一张则是汽车电子委员会所提出的AEC-Q车规可靠性验证标准，其中功率器件适用于AEC-Q101规范。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9cc4z1kGutC231IRWhmkqkJmySZpbicAjGBQX8icsxIPYJT2PbSWFlapTdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅MOS获车规级可靠性认证_images\img_001_da8b13a413b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9ccvC3hlLB5vv3UfAIIsYmDxuxkGVnzfoMCsfTAwzwAUz6NDz4qOSf7Sw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅MOS获车规级可靠性认证_images\img_002_6198a2b49f20.png)
 
 **爱仕特已于2021年获得IATF 16949：2016认证，随着这次AEC-Q101的试验通过，将为拓展车用市场铺平道路。**
 
@@ -35,10 +35,10 @@
 
 **公司建立的车规级SiC MOS模块工厂，是国内唯一一条SiC模块专用产线，已实现全SiC MOS功率模块的批量生产，而且通过IATF16949汽车质量体系认证，产品已出口到欧洲和美国**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9ccEyEbbFwKQuWCkJgNlTHZdZb4Z6picGW7iaCTiaTDG3HmS7s9aUbnjSA7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅MOS获车规级可靠性认证_images\img_003_1b76951c74d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9cciaJjwVvWk9D5dCicXic4cz0m3RWMFFW0viaMF7dqibaiaj4ydhwkZiaYc2iaOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅MOS获车规级可靠性认证_images\img_004_f3a55ec3cb88.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9cc30rxr6hbH2xOHKIf66yuM1fiaia9qiadlibuyYMmS1sQa15dtQZGpnPEkQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅MOS获车规级可靠性认证_images\img_005_d3dea135b6bd.jpg)
 
 **爱仕特科技产品线：碳化硅裸芯片（6寸晶圆）-碳化硅MOSFET-全碳化硅模块（半桥模块和三相全桥模块）-电机控制器-一体化动力总成，一条完整的产品线。**

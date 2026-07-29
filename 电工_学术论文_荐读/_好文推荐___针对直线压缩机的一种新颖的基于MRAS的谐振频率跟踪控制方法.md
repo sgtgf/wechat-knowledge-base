@@ -12,7 +12,7 @@
 
 CES Conference
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VDDKVFibXczCribVZcic35l3HBU5Ww2L6a2sibmbCpjdODlkCcWEyC5iaicJg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VyeKyKiavTpc179QVI8JZbkYpVpkiahVEqIZiahTkCtTnr7LAyicPl2dDjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_000_3b27ac20980e.png)![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_001_00195116f272.png)
 
   
 
@@ -54,13 +54,13 @@ CES Conference
 
 1.     直线压缩机的电路与机械模型如图1、2所示，建立直线压缩机工作特性的数学模型如式1、2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VST5zRQfDesm6jlFwmiagNItmLNyqJpEib2HT84m2n42Wibgey8bVnw94A/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_002_d50db3f146f1.png)  
 
 图1 直线压缩机电路模型
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VThQSM8yriaqrfXsa4GJjAvxAbO3kB3t8BAj4Mmjr2Vlff1R4GwwLQgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_003_3f126a56808a.png)
 
   
 
@@ -68,31 +68,31 @@ CES Conference
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VgBoIibf8yWiaEnhVFaHKq3Mv2mINCFJ2KZ8ve5fI8tSVmto5wuvsW3Og/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_004_627f4f50d81a.png)
 
 通过分析可知，当电机的工作效率最高时，其驱动频率应与系统的谐振频率相同，此时电流信号超前动子位移信号90°。传统的基于位移电流积平均值(ASCP)的频率跟踪算法正是以此为依据进行频率控制，其计算而该算法采用反电势积分法获得位移信号，如式3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VJK8VkUjsFic990NjD2Fxuky69XY2K0yB7oGA0OP4ejsTmJmQziaICb7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_005_d82a1cc3982a.png)
 
 为避免纯积分环节的偏移问题，常用低通滤波器来替代式中的积分环节，而低通滤波器的使用则不可避免会使得到的位移信号产生相位偏移，从而影响频率控制的运算精度。
 
 2.     模型参考自适应(MRAS)算法的结构如图3所示。在永磁电机中，转速变化速度远小于电流信号，因此常以转速作为可调参数构建可调模型。但与永磁电机不同，在直线振荡电机中速度信息是以正弦曲线变化的，且频率与电流相同，因此不能将速度作为可调参数。由前文分析可知，电机负载变化影响的参数主要是等效弹性系数k和等效阻尼系数c，因此将其作为可调系数，将式1作为参考模型，将式2作为可调模型，由参考模型得到的速度真实值与可调模型得到的速度观测值之差作为误差，并通过一定的参数自适应率来调节可调模型中的参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6Voia68dYX8ZhUUC98uzgYkyNyZo6OLdzibPLMSKgftGgAc7Ev33Ay4YLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_006_b4e6f9fba0f5.png)
 
 图3 模型参考自适应结构
 
 设计模型参考自适应系统的关键是选择合适的参数自适应速率。目前，最常用的设计方法是基于波波夫的超稳定性理论。将误差系统转换为由线性正向路径和非线性反馈路径组成的形式，如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VWdI9qXiaC4cXBJuaKUFf4UiaKdqI4ueD7E8l2H50SleZNFo5mOSK5ichQ/640?wx_fmt=png)图4 典型模型参考自适应系统的结构
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_007_757fd563060d.png)图4 典型模型参考自适应系统的结构
 
   由波波夫超稳定性理论，如果非线性反馈路径的输入和输出满足Popov的积分不等式(4)，则整个系统渐进稳定的充要条件是线性正向路径的传递函数为严格的正实数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6V1AIQy2BjJdQk7zjJRQbMt6P6y4DQOeACT1iaA4ZsJ9KIuQ8jHPPtVZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_008_5aa95e78b0c7.png)
 
     为便于计算，设K = -k/m, C = -c/m，此时可等效将K和C作为可调模型中的可调参数，参数自适应率采用比例积分形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6V96o35BmI3bv7bbn96H2G0TgCCxwtWgPQL64vcibyemdOmugGY7S3nBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_009_ed67a03ae3dd.png)
 
   通过计算可分别证实系统反馈路径输入输出满足Popov积分不等式，且系统线性正向路径的传递函数的实部恒大于零，由此可证控制系统的稳定性。
 
@@ -100,11 +100,11 @@ CES Conference
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6Vw3ibMfhcMYT3vxn8ZYQOp4KacPviaysv8chSrIibFfPlao4fTlqdlVib8w/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_010_10aaa65fcfd1.png)  
 
 图5 自适应带通滤波器的结构图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6Vu6dHAeVjAwKrYoAVoI7ZV7NrfiaU17j3QQQSq547tnCyia4DlNPia2xcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_011_8d6e3d22710d.png)
 
   当输入信号的基频w等于滤波器中心频率w1时，输出信号v’与输入信号v没有相位和振幅偏移，并对其他频率的谐波进行滤波。将SABPF的中心频率设为系统工作频率，可在不影响计算速度信号的大小和相位的情况下对导数引起的谐波进行滤波。
 
@@ -116,13 +116,13 @@ CES Conference
 
   在Matlab/Simulink中搭建如图6所示的控制系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VITHM6chQMt2JE4WPXg5MibFVVVn9ha2yVoJhjKNibYWOWLuumyY7wyqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_012_4115f31e3629.png)
 
 图6 线性压缩机控制系统结构图
 
   如图7所示为电机启动过程中可调参数K和C的收敛过程，图中虚线表示实际值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6V0p8I2SGeT9cBZkJcsn132sBqLeIKgwaxpXPzibPA8loSiaiaBpksU4ZoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_013_0e80e170a997.png)
 
 图7 可调参数K和C的收敛过程
 
@@ -130,7 +130,7 @@ CES Conference
 
 如图8所示为对负载变化的响应。在1.2s时，系统等效阻尼系数C从20增加到30，系统等效弹簧系数k从30000增加到35000，使可调参数C从21.51增加到32.26，参数K从32258增加到37634。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VkW8Sg2FnKx6UuNfFDphwaCtNIa5zSGscbbFXQEaPKtykqybjJZkOPw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_014_03f4833e570e.png)
 
 图8 参数K和C的响应
 
@@ -138,7 +138,7 @@ CES Conference
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VHkbDicSV31YtC3SsJFPmI837ljibbZicgg6Fzxh1TSUvZxjXxibBTCfKqw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_015_70ca169575ec.png)
 
 图9 相同工况下MRAS算法和ASCP算法的比较
 
@@ -218,7 +218,7 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VoicFazTsvcOEuUalJKrmia33Thc9HHbBrFetBwhPp6m9iat0y9YMnRgCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_016_f7701cf3d578.png)
 
   
 
@@ -228,7 +228,7 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6V3fAic631TDWpHuaca34SsqSWIsxaPrcT6dILTdrMTTOVsbTaKgqSJ1g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_017_8e7e34afc6f4.jpg)
 
   
 
@@ -238,7 +238,7 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6Vk9vUryq5AzUibBvD6heeH01bsj9MGqDZtPAYV8kZAB1lBicPtE3wiaiamQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_018_76b8ed0b4ca4.png)
 
   
 
@@ -246,7 +246,7 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6V4AkexibnjVC8oBHiaz4A6LiaJgFsPf3DRtxKxE0myow7RKicLcJKgO3icBA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_019_433ec461885c.jpg)
 
   
 
@@ -256,7 +256,7 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6Vsic1ibTXtue7In3ABVvSVgIibhKicZGUfavibwmyibwkBtm1S0hungibpw2BA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_020_2fc24697833d.png)
 
   
 
@@ -300,7 +300,7 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 > 
 > 官方微信号：CESTEMS
 > 
-> ![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178bshX9EHBcNIFgWibDj4VlHRfWwcwD39zubP9HbOnLzgYwjkFzpVU7gFhkpcs6NsS7n9JdC9mdOicg/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_021_4b990264d47f.jpg)
 
   
 
@@ -312,15 +312,15 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VGK6Z0C0CS8ftQ9yEwSKxFibLHLjZaINsichdBGdF65qNoTCmQY9BZKdw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_022_f023e86f87f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VaVO3KEVDibTKk7rK6XTXsPl3iaOJs0y9kzdjK4r1oWbXOfxVp90ialLiag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_023_5b4a822b4304.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VICiaianphvGmNwgXCjicicmzqz27pO6lAibW4VnvAmO7aELyNEFJGapJTxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_024_f53569c25928.jpg)
 
 学会官方微信
 
@@ -328,15 +328,15 @@ W. Xu, Q. Wang, X. Li, Y. Liu and J. Zhu, "A novel resonant frequency tracking c
 
 电气技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VJ5Picu9pFLSu5pzDqKOyibgkuNjhweEGRBlRuuHGSWlbtm90S9ELejkQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_025_5c891811cd7c.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VG4GyhJvqsvnf99ZNosNq53QP2nudU8oZuwQn14EbTuVZ5ABMFVmbicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_026_6379b28ffed0.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ179qvWIQVzT1okqkY8uzYL6VwGGgia0r6ZiaMCFib8xPQ9ktxwV9xY6RCLMtqTSjd4gibgoDNVeEGibxS8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_好文推荐___针对直线压缩机的一种新颖的基于MRAS的谐振频率跟踪控制方法_images\img_027_8b9427eed89a.png)
 
 学会官方B站
 

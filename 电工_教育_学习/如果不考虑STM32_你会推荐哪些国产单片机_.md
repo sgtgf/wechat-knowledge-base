@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/n21PqSqkb5p7BIZUwr76uw](https://mp.weixin.qq.com/s/n21PqSqkb5p7BIZUwr76uw)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_001_9011be9decf6.gif)
 
   
 
@@ -18,7 +18,7 @@
 
 先说GD32，江湖人称最像STM32的国产芯片。为啥？因为早期它走的就是pin-to-pin兼容路线，硬件上直接替换，软件上改几行代码就能跑。这招太狠了，当年缺芯的时候，多少板子直接把STM32F103吹下来，换上GD32F103，焊上就能用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafXBqnm0IBomnicVCUQyiazEy8oGHtLSYQjCOkX245v84IM17dbLad8HRQ51UqStk9q20SK4ibqc36CLPbUUO4M0cSNcBOZVsUteY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_002_bc816fe9277a.png)
 
 这么多年下来，兆易创新的产品线是最全的，从M0到M3/M4，再到后来的RISC-V内核，你想用啥它都有。如果你刚接触国产MCU，从GD32入手是最稳妥的。
 
@@ -28,7 +28,7 @@
 
 说到CH32系列，不得不提沁恒这家公司。它是个老牌的接口芯片厂家，搞过USB转串口CH340的都知道，基本是咱们工程师人手一个的东西。所以沁恒做MCU，最大的优势就是各种接口芯片，特别是USB和网络，玩得特别溜。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeyVotLtk2SUcG7IibiaP30EgtwZRbEf49SVxlXTibiaGrfvGVQhp1b4ETnezlWLTtlr5rUszWWfTsia7wia7MDTSXIl62dmrqqLrx8o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_003_a2127f557e8e.png)
 
 CH32V系列主打RISC-V内核，性能相当不错。如果你对开源指令集感兴趣，或者项目里需要折腾USB、以太网这些，沁恒的芯片值得一看，它的例程和库函数都是开源的，用起来很清爽。
 
@@ -74,12 +74,12 @@ CH32V系列主打RISC-V内核，性能相当不错。如果你对开源指令集
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6kLdtgvf2SicrgBeqOym6LKSYl6t332ma4GxrMF0TThE5Ql7Licv7kKeA/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562096&idx=1&sn=93c9f5326168fe09bd8030c06b808212&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_004_23b350847e97.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562096&idx=1&sn=93c9f5326168fe09bd8030c06b808212&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6nr0GObNbaIl317HX0LxNicTohGdlbwaYUKW7VCJOKYf2iaaVkgIv2DHw/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_005_dade6677eb33.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6iaSk4WhTPYh0jDN6emK0cL2QJSaNRKewN67ubDNyklsfPdJiahX02ialA/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561879&idx=1&sn=c52935989030351a5dad4d9aa91d7504&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_006_c41c7440965d.jpg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561879&idx=1&sn=c52935989030351a5dad4d9aa91d7504&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niadA4cw0YxKQn5rs6BTl4KggeXWmUAsk7bU81mCEYh5KFgvlaterZbYKAiatWV6XtdoRTqGJJHt0piaer47GeibiaV6z5iaWPiahCMc7U/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如果不考虑STM32_你会推荐哪些国产单片机__images\img_007_020e876fafff.jpg)

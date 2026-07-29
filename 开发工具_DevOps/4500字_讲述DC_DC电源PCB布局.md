@@ -6,7 +6,7 @@
 
 # ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&wxfrom=13)
+![](4500字_讲述DC_DC电源PCB布局_images/img_002_4a23abed6a03.gif)
 
   
 
@@ -16,7 +16,7 @@
 
 良好的布局设计可优化电源效率，减轻热应力，最重要的是，可将噪声以及走线与组件之间的相互作用降至最低。为实现这些目标，设计人员必须了解开关电源中的电流传导路径和信号流，这一点很重要。以下讨论提出了针对非隔离式开关电源的正确布局设计的设计注意事项。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_003_87ccfc5ea33c.gif)
 
   
 
@@ -28,7 +28,7 @@
 
 需要指出的是，该电源位置和电路板空间规划应在系统的早期设计 /规划阶段进行。不幸的是，有时人们会首先关注大型系统板上其他更 “重要 ”或 “令人兴奋 ”的电路。如果电源管理 /电源是最后的考虑因素，并且将其降级到板上所剩的空间，那么这肯定无助于确保高效且可靠的电源设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_004_87ccfc5ea33c.gif)
 
   
 
@@ -40,11 +40,11 @@
 
 图 1a和 1c提供了用于开关电源的 6层和 4层 PCB板的不希望有的层布置的示例。在这些示例中，小信号层夹在大电流电源层和接地层之间。这些配置增加了高电流 /电压电源层和小型模拟信号层之间的电容性噪声耦合。为了最大程度地降低噪声耦合，图 1b和 1d给出了 4层和 6层 PCB设计所需的层排列示例。   
 
-   ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7O0RmtSJZkibGic8VN2WuvtsmCNP6XfnPmW1tYwz4wYd9MVFDJDGS5H4nQ/640?wx_fmt=png&from=appmsg)
+   ![](4500字_讲述DC_DC电源PCB布局_images/img_005_b69acd7436b7.png)
 
 在这两个示例中，小信号层被接地层屏蔽。重要的是，始终在外部功率级层旁边放置一个接地层。最后，还希望外部高电流电源层使用厚铜，以最小化 PCB的传导损耗和热阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_006_87ccfc5ea33c.gif)
 
   
 
@@ -54,13 +54,13 @@
 
 电感大电流走线应短而宽，以最小化 PCB电感，电阻和电压降。这对于具有高 di / dt脉动电流的走线尤其重要。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OibNu4luzHzsg4FS6SexCJve6dUj2okoaFK9pnlPRFqMwaymy2ecB1rw/640?wx_fmt=png&from=appmsg) 
+![](4500字_讲述DC_DC电源PCB布局_images/img_007_18d7354aaaa6.png) 
 
 实线表示连续电流路径，虚线表示脉动（开关）电流路径。脉动电流路径包括连接到输入去耦陶瓷电容器 CHF，顶部控制 FETQT，底部同步 FETQB及其可选的并联肖特基二极管的走线。
 
 图2 a显示了这些高 di / dt电流路径中的寄生 PCB电感。由于寄生电感，脉动电流路径不仅会辐射磁场，还会在 PCB走线和 MOSFET上产生高压振铃和尖峰。为了最大程度地减小 PCB电感，应将该脉动电流环路（热环路）布置为使其具有最小的周长，并由短而宽的走线组成。  
 
-  ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OsMQWoibmkBchYrwhbXbdWxMExI2PJwCjxdlwBWZX5lj7Df7k3TibSzFA/640?wx_fmt=png&from=appmsg) ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OcbqzAtGCxAIRZ0wh7zCwo4PYTOU6KeicbsofR9vhcuEhacCcnNgSOFQ/640?wx_fmt=png&from=appmsg)
+  ![](4500字_讲述DC_DC电源PCB布局_images/img_008_d9bfebd0288c.png) ![](4500字_讲述DC_DC电源PCB布局_images/img_009_688dee8097dd.png)
 
 图2 .最小化同步降压转换器中的高 di / dt环路面积。（ a）高 di /dt环路（热环路）及其寄生 PCB电感器，（ b）布局示例。
 
@@ -70,17 +70,17 @@
 
 类似地，图3显示了升压转换器中的连续和脉动电流环路（热环路）。在这种情况下，应将高频陶瓷电容器 C HF放置在靠近 MOSFET QB和升压二极管 D 的输出侧。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OYenkqkslbE91K4Cib7Nb3jhp3grOvQOVZNe7N1Jv65vCB3tgIS7p70A/640?wx_fmt=png&from=appmsg)
+![](4500字_讲述DC_DC电源PCB布局_images/img_010_7a8565d321bb.png)
 
 图3. Boost转换器的连续和脉动电流路径
 
 由开关 QB，整流二极管 D和高频输出电容器 CHF组成的环路必须最小化。图4显示了升压转换器中脉动电流环路的布局示例。 
 
-   ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OFMVRvZaZpBjTTA8D5It7qb1o6VwHj9YlzGqyz30V2KuC0iautdRwTpQ/640?wx_fmt=png&from=appmsg)
+   ![](4500字_讲述DC_DC电源PCB布局_images/img_011_43bf847cbd1c.png)
 
 图4.最小化Boost转换器中的高di / dt环路面积。 （a）高di / dt环路（热环路）及其寄生PCB电感器，（b）布局示例
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_012_87ccfc5ea33c.gif)
 
   
 
@@ -90,7 +90,7 @@
 
 但是，另一方面，为了传导高电感电流并为功率 MOSFET提供散热片， SW节点的 PCB面积不能太小。通常最好在此 SW节点下方放置一个接地铜区域，以提供额外的屏蔽。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_013_87ccfc5ea33c.gif)
 
   
 
@@ -100,7 +100,7 @@
 
 多个通孔有助于进一步降低热应力。对于高 dv / dt SW节点， SW节点铜面积的适当大小是在最小化与 dv / dt相关的噪声与为 MOSFET提供良好散热性能之间的设计权衡。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_014_87ccfc5ea33c.gif)
 
   
 
@@ -108,9 +108,9 @@
 
 重要的是要注意功率元件的焊盘（或焊盘）图案，例如低 ESR电容器， MOSFET，二极管和电感器。图 8a和 8b分别显示了不希望有的和所需的功率分量焊盘图案的示例。
 
-  ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OA8seD5tBmmHYQhpBpUibiaNnKjB2qibeTurAmRRX6HLMhHM4ExOgyHJZQ/640?wx_fmt=png&from=appmsg)
+  ![](4500字_讲述DC_DC电源PCB布局_images/img_015_292a110a7d39.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OYyAV6pWyaGSFNAfOHGyt7yRlZRXTHa38R4CppiaqSjtDoT1YBwoltCA/640?wx_fmt=png&from=appmsg)
+![](4500字_讲述DC_DC电源PCB布局_images/img_016_4092a27ba28f.png)
 
 图5 .功率组件的期望和不需要的焊盘图案。（ a）不当对功率组件的焊盘使用散热垫，（ b）功率组件的推荐焊盘图案。
 
@@ -120,7 +120,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_017_87ccfc5ea33c.gif)
 
   
 
@@ -128,13 +128,13 @@
 
 图6显示了一个应用，其中几个车载开关电源共享同一输入电压轨。当这些电源彼此不同步时，有必要分开输入电流走线，以避免不同电源之间的常见阻抗噪声耦合。每个电源都具有本地输入去耦电容器的要求就不那么重要了。    
 
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OMFIB4MIsJq1QsPNUmgKOYg5JfsQDVjxTFy61TPkKic5XTAOk5CqGh3Q/640?wx_fmt=png&from=appmsg)
+    ![](4500字_讲述DC_DC电源PCB布局_images/img_018_1d992a44a70f.png)
 
 图6 .分开电源之间的输入电流路径
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_019_87ccfc5ea33c.gif)
 
   
 
@@ -146,13 +146,13 @@
 
 信号接地和电源接地的分离控制电路应与功率级接地之间有单独的信号（模拟）接地岛。如果控制器 IC上有单独的信号接地（ SGND）和电源接地（ PGND）引脚，则应分别布线。对于具有集成 MOSFET驱动器的控制器 IC， IC引脚的小信号部分应使用 SGND，如图7所示。   
 
-   ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7ONYvblpLMVD9DWXsXdI8PErypkpwmgugMeX9FlMPXyRszRW5oX8ItFQ/640?wx_fmt=png&from=appmsg)
+   ![](4500字_讲述DC_DC电源PCB布局_images/img_020_9e42ac9cd144.png)
 
 图7 .控制器 IC的去耦电容与地分离
 
 SGND和 PGND之间仅需要一个连接点。希望将 SGND恢复到 PGND平面的干净点。可以通过连接控制器 IC下方的两条接地走线来实现两个接地。图7显示了芯片电源的首选接地分隔。在此示例中， IC具有裸露的 GND焊盘。应将其焊接到 PCB上，以最大程度地减小电阻抗和热阻。应在此 GND焊盘区域上放置多个通孔。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_021_87ccfc5ea33c.gif)
 
   
 
@@ -160,7 +160,7 @@ SGND和 PGND之间仅需要一个连接点。希望将 SGND恢复到 PGND平面�
 
 控制器 IC的去耦电容器应物理上靠近其引脚。为了使连接阻抗最小，最好不使用过孔将去耦电容器直接连接到引脚。如图8所示，以下芯片引脚的去耦电容器应紧密放置：电流检测引脚， SENSE + / SENSE –，补偿引脚， ITH，信号接地引脚， SGND，反馈分压器引脚， FB， IC VCC 电压引脚 INTV CC和电源接地引脚 PGND。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_022_87ccfc5ea33c.gif)
 
   
 
@@ -170,13 +170,13 @@ SGND和 PGND之间仅需要一个连接点。希望将 SGND恢复到 PGND平面�
 
 可以电容耦合两个或更多相邻导体。一根导体上的高 dv / dt电压变化会通过寄生电容器将电流耦合到另一根导体。为了减少从功率级到控制电路的噪声耦合，有必要使噪声开关走线远离敏感的小信号走线。如果可能，请在不同层上布线嘈杂的走线和敏感走线，并使用内部接地层屏蔽噪声。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_023_87ccfc5ea33c.gif)
 
   
 
 **电流检测迹线和电压检测迹线**
 
-在所有小信号迹线中，电流检测迹线对噪声最敏感。电流感测信号幅度通常小于 100mV，与噪声幅度相当。其 SENSE + / SENSE - 迹线应该与最小间隔（开尔文检测）平行进行路由，以尽量减少拾取的 di / dt相关的噪声的机会，如图8。   ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OPpQCVkAJbUl4aYB6fxjVdiaLCIQCve3KWHYj3LQT9ovqiaImiarf7r4xw/640?wx_fmt=png&from=appmsg)
+在所有小信号迹线中，电流检测迹线对噪声最敏感。电流感测信号幅度通常小于 100mV，与噪声幅度相当。其 SENSE + / SENSE - 迹线应该与最小间隔（开尔文检测）平行进行路由，以尽量减少拾取的 di / dt相关的噪声的机会，如图8。   ![](4500字_讲述DC_DC电源PCB布局_images/img_024_1b105d818180.png)
 
 图8 .电流感测的开尔文感测（ a） RSENSE和（ b）电感器 DCR感测
 
@@ -186,7 +186,7 @@ SGND和 PGND之间仅需要一个连接点。希望将 SGND恢复到 PGND平面�
 
 如果控制器 IC具有差分电压遥感引脚，则也应使用开尔文（ Kelvin）感测连接对正负负极走线使用分开的走线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_025_87ccfc5ea33c.gif)
 
   
 
@@ -194,7 +194,7 @@ SGND和 PGND之间仅需要一个连接点。希望将 SGND恢复到 PGND平面�
 
 电流电平和噪声灵敏度是特定控制器引脚所独有的。因此，需要为不同的信号选择特定的走线宽度。通常，小型信号网可能较窄，并具有 10至 15 mil宽的走线。高电流网络（栅极驱动， VCC 和 PGND）的走线应短而宽。建议这些网的宽度至少为 20 mil。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_026_87ccfc5ea33c.gif)
 
   
 
@@ -206,17 +206,17 @@ DC-DC电路在上电接通，断开重负载时，常常瞬间产生一个很高
 
 如：DC-DC电路中，一般输入电容采用有较高ESR等效串联电阻的电解电容， LDO电路也可以用电解电容的方案。              
 
-              ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasiahOicI3SH5DstzruibyP7OaibUEfdic6gcUiapf1MuUMibBM9ZgnjGPuqJTvFia7YulljlOCo6GoIAdpA/640?wx_fmt=png&from=appmsg)
+              ![](4500字_讲述DC_DC电源PCB布局_images/img_027_004642cebea0.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_028_87ccfc5ea33c.gif)
 
   
 
 **电路PCB设计要求重点**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/FJtasAibLFa7T4U3vhaVVvmBD26edicGEH8XaT6JibVckx1ljXM4oJd8RdicHmttywsicJibRe21MzGsiaGr5lFdR2G5A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](4500字_讲述DC_DC电源PCB布局_images/img_029_87ccfc5ea33c.gif)
 
   
 
@@ -234,7 +234,7 @@ DC-DC电路在上电接通，断开重负载时，常常瞬间产生一个很高
 
 7，外围器件电阻或电容的接地端，回路不能从电感底部（干扰大）走，可在电阻电容的接地端打过孔。如果是输入电容CIN或者输出电容COUT，需要多增加过孔。保证功率回路的干净稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](4500字_讲述DC_DC电源PCB布局_images/img_030_8f8c22b4fa63.jpg)![](4500字_讲述DC_DC电源PCB布局_images/img_031_d5dcc7ecfdf3.jpg)
 
 ## 
 

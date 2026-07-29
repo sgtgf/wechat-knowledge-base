@@ -500,7 +500,7 @@ https://www.python.org/downloads
 
 ‍
 
-‍![](半小时快速入门___Python_简明教程_images/img_009_a43309e53088.other)‍
+‍![](半小时快速入门___Python_简明教程_images/img_009_a43309e53088.jpg)‍
 
 ‍
 
@@ -508,10 +508,10 @@ https://www.python.org/downloads
 
 我们目前正和专业SCI论文英文润色机构**艾德思**开展全方位合作。如果您需要**论文和基金标书辅导服务**，欢迎扫描下方二维码，获取您的专属学术顾问，**锁定直减活动优惠**👇  
 
-![](半小时快速入门___Python_简明教程_images/img_010_0cc72b672a55.other)
+![](半小时快速入门___Python_简明教程_images/img_010_0cc72b672a55.jpg)
 
-![](半小时快速入门___Python_简明教程_images/img_011_e9181a395fa1.other)
+![](半小时快速入门___Python_简明教程_images/img_011_e9181a395fa1.jpg)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 
-****![](半小时快速入门___Python_简明教程_images/img_012_257d3c543e63.other)****
+****![](半小时快速入门___Python_简明教程_images/img_012_257d3c543e63.jpg)****

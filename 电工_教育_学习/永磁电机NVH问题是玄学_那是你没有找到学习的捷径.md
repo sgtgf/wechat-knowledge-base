@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/kZlWy-0WCfL3\_H5vwFTY2g](https://mp.weixin.qq.com/s/kZlWy-0WCfL3_H5vwFTY2g)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWu5CTJa2LbUkgticCFAF82fIysvjlc4WYdibRO1GiaPylibK8tCeBvBmq1Nt01RvZDlAByXfq8W3onXA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646198&idx=1&sn=a20707754e3c644b89e10ed894b27aff&chksm=88bc0db9bfcb84af65dfc375c19cfda84f4886ece5b613701740e421f55b73189ed76a315155&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_001_b1c5400d8594.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646198&idx=1&sn=a20707754e3c644b89e10ed894b27aff&chksm=88bc0db9bfcb84af65dfc375c19cfda84f4886ece5b613701740e421f55b73189ed76a315155&scene=21#wechat_redirect)
 
 所谓NVH，就是噪声、振动与声振粗糙度（Noise、Vibration、Harshness）的英文缩写。这是汽车行业的一个专有名词，是衡量汽车乘坐舒适性的综合性指标。随着新能源汽车的飞速发展，作为电动汽车“心脏”的驱动电机的NVH问题也日益受到重视。永磁电机是各行各业的主要采用的驱动动力，其实不仅仅是汽车行业，永磁电机涉及的各种应用领域如家电、军事、船舶、铁路、城市轨道交通、工业驱动…等等各行各业对电机的振动噪声问题也越来越被重视，要求越来越严格。然而有关NVH问题，涉及数学、物理、电磁、机械、振动、声学、材料等等多个学科，被誉为“天书”、“玄学”，极难入门，许多同学想钻研这方面的专业书籍，但大多都是刚刚看完绪论就被堵在了门外，无法深入看下去，多次自我放弃。
 
@@ -199,7 +199,7 @@
 
 本次研修班除了对以上永磁电机NVH的原理和电机设计中需要注意的相关问题以及减振降噪的措施进行详细介绍外，还将通过车用永磁同步电机的实例对永磁电机的相关设计方法以及NVH优化问题来做进一步展开，帮助学员更好地理解和掌握相关的理论知识的学习内容（稍后接下来我们将继续对实例精讲部分内容进行剧透，敬请关注）。可以看出本次课程绝对是永磁电机相关从业人员不容错过的学习进修机会，欢迎有相关学习需求的朋友扫描海报二维码报名参加：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUP77icricLhKwgSgA1d3ib37LqKsgEZqhlKyX9E0pGvBMoVX4ImoJg6mVcibicSytwsqTicUZND9w7bF6Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_002_d51189f772c9.jpg)
 
 关于本次培训课程内容的详细介绍如下：  
 
@@ -327,7 +327,7 @@
 
 授课过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXjibTaYotgRJ3sVxctqughVqFSibdE5Yk0LnukDicx4sTXaFZkVyc9bE1hk73fYhTvFTDYTklqT3kXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_003_dc5cbf71d9ce.jpg)
 
 7
 
@@ -373,23 +373,23 @@
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIW3F6w7W2Yf30xLqjGYdyHz0xaLP7t6aKAXFvI0uDjwAdKbM6kkSznic34Mzy14MyarQIMFVnwsaOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_004_081ae5a26e0b.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：18516258619，欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIU9juhwts62UsqmFbpLickVowW6Qx381PB7aMIPAFBEhSMOyMpfbkhCEF7PIDUbACJ6TVsfhiaXf31Q/640?wx_fmt=gif)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_005_5979b8ecf8e4.gif)  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_006_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIW3F6w7W2Yf30xLqjGYdyHzcZtXewtdUJr4pmfkL36jS52KXQVXmaibfoWW4BYK9hRFehDvkzJsjKQ/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646547&idx=1&sn=eb87ce37217551868a2d3f8157484754&chksm=88bc031cbfcb8a0a938afb8c4cbc900c5e9fb04b56b92b59b67b201e9da98bc5dd9215fa26d0&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_007_bb70762476fb.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646547&idx=1&sn=eb87ce37217551868a2d3f8157484754&chksm=88bc031cbfcb8a0a938afb8c4cbc900c5e9fb04b56b92b59b67b201e9da98bc5dd9215fa26d0&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXOydX2YKBdBJ0PK2zL3lJjwKxgrRp5Ux2O2icxPEXuUxaCSrTxfOZCNpWsAohicpObiblkbWlcVPBtg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646636&idx=1&sn=0fe12f6fb5683fe34ae021a356ad0e75&chksm=88bc0363bfcb8a7519fee80e7a3ae98aa4de83446819a709e591baac488e2c90c39270ac4da1&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_008_376a795bae46.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646636&idx=1&sn=0fe12f6fb5683fe34ae021a356ad0e75&chksm=88bc0363bfcb8a7519fee80e7a3ae98aa4de83446819a709e591baac488e2c90c39270ac4da1&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/9RCbW5V9GKtCkxJFEr1cibbYamMWukGAQR3XxLJ0qD9Z61FdFbhYXVn1xib5icQ7uvgGAaxlCiaOafs2psXRbkbib5A/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646653&idx=1&sn=e5abeb2582be08662e3194bd53006391&chksm=88bc0372bfcb8a64d160c48841655b2a29e5988c09d5aeb1c4baebfbea7a44907bf0fdeaf8ae&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_009_97549b8517b6.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646653&idx=1&sn=e5abeb2582be08662e3194bd53006391&chksm=88bc0372bfcb8a64d160c48841655b2a29e5988c09d5aeb1c4baebfbea7a44907bf0fdeaf8ae&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXQq2hiaXPjVHp10oib8cOwc4VzRDltPY9m3LoesyAC8PmS4aBKIvaw7lxqicqRhYb8XY8CoWZsQicHkA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646554&idx=1&sn=d4ecdccbdb8ff93f500b1af9ad0d7096&chksm=88bc0315bfcb8a0360e058570dce11b5764209e6e0c54988e45febee7e89c8874dd518599961&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_010_d1770cca8eca.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650646554&idx=1&sn=d4ecdccbdb8ff93f500b1af9ad0d7096&chksm=88bc0315bfcb8a0360e058570dce11b5764209e6e0c54988e45febee7e89c8874dd518599961&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_011_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_012_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\永磁电机NVH问题是玄学_那是你没有找到学习的捷径_images\img_013_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

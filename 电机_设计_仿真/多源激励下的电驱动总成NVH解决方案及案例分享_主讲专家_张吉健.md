@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/l0DKRtOul6FAU7YKlt3gcg](https://mp.weixin.qq.com/s/l0DKRtOul6FAU7YKlt3gcg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVLBmKDO78lbPNQrqYIOJEfv2NYZt27qTMFOibn7Oib84jZfDA2GYgHk9qhaMA50yHBkTZiclrQibUuIg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645554&idx=1&sn=0184841f267a8dc2c19067d1731f71c5&chksm=88bc0f3dbfcb862babec6fbd03623fbff597b07f6497d239c21d822bbad456e143123ec6ab0e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_001_0319e8377c11.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645554&idx=1&sn=0184841f267a8dc2c19067d1731f71c5&chksm=88bc0f3dbfcb862babec6fbd03623fbff597b07f6497d239c21d822bbad456e143123ec6ab0e&scene=21#wechat_redirect)
 
 **直播时间**：8月24日20:00
 
@@ -17,14 +17,14 @@
 
 研讨会将在微信群开展，采用主讲人视频直播授课的形式，并有互动答疑环节，欢迎大家踊跃报名参加！扫描（长按识别）下方二维码添加西莫会务为微信好友并主动联系说明参会需求，直播开始前一小时截止报名，请大家务必抓紧时间行动哦！以免错过宝贵的学习交流的机会！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIW4W5ntdrO0IRPv9fdJLM2zic6ecnfNm7eOxCjKbO2V7ORUQPjmM0ZkfQVAjtiboK4L9nJRvI3Z7toQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_002_1f5ca14979bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIU9juhwts62UsqmFbpLickVowW6Qx381PB7aMIPAFBEhSMOyMpfbkhCEF7PIDUbACJ6TVsfhiaXf31Q/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_003_5979b8ecf8e4.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_004_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/9RCbW5V9GKvAicyXVrrplRG3Xxoz7rQvicyng4JaaRwGpSpnwvgQ8s2bib8Ks8nOg2lv2TfWhonmibqeo1Hdt207WQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645601&idx=1&sn=7af9ed5bc8a97a74a8a5468d93955d4c&chksm=88bc0f6ebfcb8678872c3ea8beee1db419d612ea42c53d4d0d1d579e8ec18057579e8019fe32&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVrITxX3kZniafBTa0k3qGCXpjk2X3ib34cjWYCUl24icbGt9MX5y03Clib78N67mdiam0nbzabCsheicGA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645530&idx=1&sn=1d9d604f24c421062ca03918d8d106df&chksm=88bc0f15bfcb8603923603e02b47a4ae1aec397c507ae53928b6cd0b93b8b43c204eafbae984&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWPSJOGWYjv6m5iaWgJcweFNpBYYfSz38F8yIhF0icIkvsNr6MXYT50zusjz3K4uic8ItMkicUs5d9OoQ/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645605&idx=1&sn=64713fcc51f1e5124687a405df798ab2&chksm=88bc0f6abfcb867c21a57703327837930d870e015bc9e62cb2fdf82a13808e64759e92344043&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_005_1a4d293646d2.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645601&idx=1&sn=7af9ed5bc8a97a74a8a5468d93955d4c&chksm=88bc0f6ebfcb8678872c3ea8beee1db419d612ea42c53d4d0d1d579e8ec18057579e8019fe32&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_006_602cf16c4413.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645530&idx=1&sn=1d9d604f24c421062ca03918d8d106df&chksm=88bc0f15bfcb8603923603e02b47a4ae1aec397c507ae53928b6cd0b93b8b43c204eafbae984&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_007_e8013146f821.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650645605&idx=1&sn=64713fcc51f1e5124687a405df798ab2&chksm=88bc0f6abfcb867c21a57703327837930d870e015bc9e62cb2fdf82a13808e64759e92344043&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_008_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_009_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_010_3f5511eb92d0.png)
 
 点击**阅读原文**，直达论坛活动贴！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\多源激励下的电驱动总成NVH解决方案及案例分享_主讲专家_张吉健_images\img_011_d960d0948cf9.gif)

@@ -10,17 +10,17 @@
 
 Y电容是分别跨接在交流输入线L - PE和N - PE之间的电容，就像英文字母Y，所以取名Y电容。(如图：CY1，CY2)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJbsXufXKEzKI0gdibInvBnwA6ANMyibwcjUVhxH1TJUHMCPLXV5NJTCl8TLJIOB1cXUFvLr4ANpZFA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Y电容的用法_你真的懂了吗__images\img_000_98bd93b6b6b4.jpg)
 
 它和X电容都是安规电容，即电容失效后，不会导致电击，不危及人身安全。区别在X电容跨接在L，N之间。(如图：CX1，CX2)  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tI9p7fpUldiaT9CTkWGNegAhZy18CrHnlodbIQme1xKMkGDknnnjVdTDszYqDXTTh5Qs9qeiaJyjN6Q/640?wx_fmt=jpeg)二、Y电容的分类
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Y电容的用法_你真的懂了吗__images\img_001_65d7b2f2d71c.jpg)二、Y电容的分类
 
   
 
 按安全等级分类，如下表
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJbsXufXKEzKI0gdibInvBnwWZaDjib2Uqclaicgt6hLADibdXIvhbM7TiagVmqLOia2icXUmvzmPiaHGrNkQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Y电容的用法_你真的懂了吗__images\img_002_5df9869f25c2.jpg)
 
   
 
@@ -54,7 +54,7 @@ X电容抑制差模干扰。
 
 3.Y电容的大小怎么确定？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJbsXufXKEzKI0gdibInvBnwkfBoDqMibCfIibPy4W1icmWLic3VFdhZ5DibhczNSfb5mh5trgiaBQoxDjuQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Y电容的用法_你真的懂了吗__images\img_003_7e494f061fc4.jpg)
 
   
 
@@ -74,7 +74,7 @@ X电容抑制差模干扰。
 
 ①无Y电容时，共模干扰的传递方向
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLYjBtCwEbJJbHAIK3plnFicpASOpy15HXxIpTw1sWgibdPicNNWEAMjWeiavh4vUcK71w39Q0z5FRic6Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Y电容的用法_你真的懂了吗__images\img_004_a0c9bbdaab2d.jpg)
 
   
 
@@ -90,7 +90,7 @@ X电容抑制差模干扰。
 
 ②有Y电容时，共模干扰的传递方向
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLYjBtCwEbJJbHAIK3plnFicF9Iat7FQ01gnwcibXKaXDf8vTgMM5HMuy06UTUhdwfy2S9xQs3UYqwQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Y电容的用法_你真的懂了吗__images\img_005_bbf671e434a9.jpg)
 
   
 

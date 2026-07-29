@@ -24,7 +24,7 @@ PCB层数越少越好
 
 首先说说层数的影响。大家都知道6层板比4层板贵，4层板又比2层板贵。有时候为了节省成本，我们恨不得6层改4层，4层改2层。但要注意的是，减少层数可能会影响信号完整性，需要权衡考虑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhDbUbNPtDiaeiaPqwEXaPATylvAsm5es6f7PKRlNQL2kQ5s0MF82vQRB84rmGxicTo1FNc9vP0nPjAw/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_002_f7e4b243731d.png)
 
   
 
@@ -44,7 +44,7 @@ PCB材料大多选FR4
 
 如果你只是打样，且要求不高，可以选用板厂一般的不加钱的就好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhdLOiaK4Jjz0ZCRmzKsYVVI8Jd3dudxV7Q73jmEZW501mlUBugVDYBYW65AqapwjKPA5icapFQDdNQ/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_003_0cde0b9435b0.png)
 
   
 
@@ -56,7 +56,7 @@ PCB工艺要贴近厂家实际生产
 
 高精度工艺要求更高的设备投入和生产控制，价格自然更高。比如需要微小线宽线距的精密电路板，成本就会比普通工艺高出不少。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaRbO4azWeL4otiagmNia906uWuz12IlJu9yFKYOty1iccxl0Z7loJlIvDr9O4JSZAfwTacn7LU2oib0A/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_004_b226219148a6.png)
 
   
 
@@ -74,7 +74,7 @@ PCB表面处理无特殊需求尽量普通
 
 表面处理工艺的选择也会影响成本。常见的沉金、喷锡、OSP等工艺，价格差异很大。沉金最贵但性能最好，OSP最便宜但耐久性较差，需要根据实际需求选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaRbO4azWeL4otiagmNia906uwOn7nk8iaeoGBEcu2hlPFTlWTZCia7J0ebJCeGCUS9uzKVelwgfRSMvA/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_005_b08af7342696.png)
 
   
 
@@ -86,7 +86,7 @@ PCB交期正常就好
 
 如果时间允许，选择常规交期能省下不少成本。如果真的很急，那就得加钱。加急12H和24H价格也不一样。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaRbO4azWeL4otiagmNia906uaLRibpmUP2wga5B0eOo76r0PVz9TG9286pgOWrhD1Jp1I0vhCOw8lAw/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_006_6e17e0301cd5.png)
 
   
 
@@ -98,7 +98,7 @@ PCB铜厚越厚价格越高
 
 咱们一般铜厚为1盎司，在过大电流，开关电源产品会提出这方面的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaRbO4azWeL4otiagmNia906uFTOiaOncicVU5pVMiacXLyCoOTvwYBA6mLoXxnqXM5dDZpjCAz6FSfibjQ/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_007_ade473b9f04e.png)
 
   
 
@@ -110,7 +110,7 @@ PCB过孔数量
 
 正常过孔就好，没必要加太多，密密麻麻的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhDbUbNPtDiaeiaPqwEXaPATyaicETbbfNibwhwrXvvo0XIHso1TialnVuMQBMgPDSNOrcRmv8HrtAu7ag/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_008_156f21bfa2b7.png)
 
   
 
@@ -132,7 +132,7 @@ PCB颜色是指PCB阻焊颜色也就是电路板表面的颜色，市场上可�
 
 通常绿色为常规色，不额外加收费用，其它颜色不通用，需要另外收费，收费标准各不相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaRbO4azWeL4otiagmNia906u2xqkkduFdqlzH26EMtJf9A1AFRtQMECY02JKU8fhI0BG1lEUF1Iq8Q/640?wx_fmt=png&from=appmsg)
+![](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_009_934631c8c608.png)
 
 好的设计不仅要考虑性能，也要兼顾成本。以上就是我在实际工作中总结的PCB成本影响因素。大家如果有其他经验或建议，欢迎一起交流讨论。
 
@@ -148,13 +148,13 @@ PCB颜色是指PCB阻焊颜色也就是电路板表面的颜色，市场上可�
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_010_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_011_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_012_8f8c22b4fa63.jpg)![图片](甲方爸爸说_PCB过孔太多_可能会增加成本_images/img_013_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -10,7 +10,7 @@ TVS是用来端口防护的，防止端口瞬间的电压冲击造成后级电�
 
 一、工作原理
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIXDJ0Get5mibSRerEtYUONrc8iaVlntsgD35OnTKWWjmb4Tn7Sc7ibY0DugbygBxwMtwQU5HcUiaFKJQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解TVS二极管_images\img_000_b46d3c7d7e7d.jpg)
 
 如上图，直流电路中单向TVS反向并联于电路中，当电路正常工作时，TVS 处于截止状态（高阻态），不影响电路正常工作。当电路出现异常过电压并达到TVS(雪崩)击穿电压时，TVS迅速由高电阻状态突变为低电阻状态，泄放由异常过电压导致的瞬时过电流到地，同时把异常过电压钳制在较低的水平，从而保护后级电路免遭异常过电压的损坏。当异常过电压消失后，TVS 阻值又恢复为高阻态。
 
@@ -46,7 +46,7 @@ TVS 钳位电压应小于后级被保护电路最大可承受的瞬态安全电�
 
 ESD的正负接在电源引脚公共端接在被保护引脚上起到释放静电的作用；TVS主要用在电源输入端起到防浪涌的作用，瞬间吸收浪涌电流，起来保护后级电路的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJgRGp2sOseVn1COjqCGPjYNBxRBiawGTibaJMmIjhVqjLVfiaXoibyLrS3icBYETGpvUTT9hS82RWgpAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解TVS二极管_images\img_001_279abe4829a9.jpg)
 
 ②寄生电容不同
 

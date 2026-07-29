@@ -26,7 +26,7 @@ SiC MOSFET 是一种先进的功率半导体器件，相较于传统的 Si MOS
 
 图1 为本文提出的SiC MOSFET 短路保护电路，其主要由驱动电路、去饱和检测电路、寄生电感检测电路和控制电路组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6ICpvq5uPSviaJ7BibmFg5GofcTibdZZWrYK1KjyVNUS373hkccRrxfhFfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_000_50d358e4864b.png)
 
 驱动电路由图腾柱电路、驱动电阻Ron1、Ron2和开关管 T3组成，相较于传统驱动电路，增加了Ron2和T3，其主要作用是改变SiC MOSFET 的栅极驱动电压。若T3 关断，则SiC MOSFET 的驱动电压由图腾柱电路控制，与传统驱动电路工作原理相同，若T3导通 ，则图腾柱电路提供给SiC  MOSFET 的驱动电压会经过Ron1和Ron2分压后再为SiC MOSFET供电，T3的通断状态由控制电路的输出信号决定。
 
@@ -42,11 +42,11 @@ SiC MOSFET 是一种先进的功率半导体器件，相较于传统的 Si MOS
 
 HSF 是指SiC MOSFET 在导通之前就已经处于短路回路中，器件一旦导通，立刻发生短路故障。负载短路故障则是指SiC MOSFET 在正常工作状态下，外部电路发生短路故障，导致器件的漏极电流迅速上升。硬开关短路故障状态下SiC  MOSFET 的损耗更大，且硬开关短路故障的短路保护时间一般小于负载短路故障，因此本文主要研究硬开关短路故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6IW3Mkus60THzAN00uI4nomEKmBkaKyxiaaiblYAhYzYyPcrHhaXHrqx3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_001_a41db274de32.png)
 
 通常，采用图2 所示的双脉冲测试电路对SiC MOSFET 的短路特性及短路保护电路进行测试。其中，Uin为直流电压源，Cin为母线电容，L 为负载电感，通过控制上、下开关管的通断即可模拟短路故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6IufoC7F1eox3QDYjfBx9qBlO24EdP9sN4O7D0TVvMlkv4Bz8PibtgWtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_002_1cd2077a8180.png)
 
 图3 为SiC MOSFET 发生HSF情况时，电压、电流、去饱和检测电路和寄生电感检测电路输出信号波形，其中为了便于分析，时间间隔均进行了延长。
 
@@ -60,15 +60,15 @@ HSF 是指SiC MOSFET 在导通之前就已经处于短路回路中，器件一
 
 图4 为提出的SiC MOSFET 短路保护电路中SiC MOSFET和T3的栅源极电压波形，图4 中，t1时刻，SiC MOSFET 开始导通，t1~t2阶段内，T3保持关断状态，因此SiC MOSFET的栅源极电压逐渐上升至20V 并保持不变，t2时刻，T3导通，Ron2对驱动电压进行分压，SiC MOSFET 的栅源极电压下降至3V，t3 时刻，SiC MOSFET关断，栅源极电压下降至0 V 并完全关断，从图4 可以看出，提出的SiC  MOSFET 短路保护电路能够实现器件的软关断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6IGQaaL1ImEpibLuEAmplZJQUp2GZBz4SXL1xTBoMVuSJLkCoGSSAoRnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_003_f5bff5867e1c.png)
 
 图5 为HSF 情况下，传统SiC MOSFET 短路保护电路动作时的SiC MOSFET栅源极电压、漏源极电压和漏极电流波形，从图5 可以看出，当SiC  MOSFET 发生硬开关短路故障时，保护电路能够快速检测出故障并进行动作，直接将器件的驱动电压降至0 V，关断器件，导致器件关断时漏源极电压会发生较大的过冲且有较大的du/dt，这可能会导致器件损坏，其中漏源极电压过冲最大值约为960 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6I1kEtKBDXfsgfYHPr0rGPpNBtcic6ppAJT7lWepkArsS13k3icmJruXhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_004_7b3083a941dc.png)
 
 图6 为硬开关短路故障情况下，提出的SiC  MOSFET 短路保护电路的SiC MOSFET 栅源极电压、漏源极电压和漏极电流波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6Ixymic0cOefVBx8xg9bS8xxjdDKiavibGJHcDuMl1CXzPQoAgcZRicUbOWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_005_aefa56f63b41.png)
 
 从图6 可以看出，当SiC MOSFET发生硬开关短路故障时，提出的SiC MOSFET 短路保护电路会直接先将器件的驱动电压降至较小值，未完全关断器件，使流过器件的漏极电流逐渐下降，并能够有效降低器件关断时的漏源极电压过冲以及电压变化率，一段时间后，再完全关断器件，从图6 可以看出，当提出的SiC MOSFET 短路保护电路动作时，器件的漏源极电压过冲最大值约为760V，相较于传统短路保护电路下降了约21%。
 
@@ -80,13 +80,13 @@ HSF 是指SiC MOSFET 在导通之前就已经处于短路回路中，器件一
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmJK7ia1DDhibnf0YRmRfknj4wmcF65iaIztiaRiaahv2icPVEawdvHayJQcFMNvgF9euGOyhuVwbD7I85w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=79)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_006_181b92c81886.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmJK7ia1DDhibnf0YRmRfknj4bzEfrMgmJfYg4L5uyrzncPBxtxEMI7kJmXXGKDwiblib03lB7b6fuQYA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=80)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_007_78b66e678879.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJK7ia1DDhibnf0YRmRfknj4UlKGNnldjSkVJu1xpoq9fZYF6XT2qa1zQ7z4CEJp65iamOOPh1GJ6kQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=81)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种SiC_MOSFET软关断短路保护电路_images\img_008_1782ca64b9af.jpg)

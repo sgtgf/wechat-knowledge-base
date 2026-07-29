@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/1qwW60g0qS3fgKcsHNK0Vg](https://mp.weixin.qq.com/s/1qwW60g0qS3fgKcsHNK0Vg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTq5PtiboibaLdtFXaVyib1w3gIMGBW0G52MbaGAtMJkzCF5KYiaTU9GQU4g/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_000_53de5aa1fadb.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTq5PtiboibaLdtFXaVyib1w3gIMGBW0G52MbaGAtMJkzCF5KYiaTU9GQU4g/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_001_53de5aa1fadb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTbRKj9kuUUYcpOtW8eUBpWPO03cd2WWkUtBBMibiabtTjFKsCw4xrAL9w/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_002_d0df4cf7e187.jpg)
 
   
 
@@ -66,13 +66,13 @@ SBL与其它贝叶斯算法类似, 通过赋予信号稀疏先验分布, 最大�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTiaGdkTkl2DoKaL6YncsC1N2ibNFyd9VibuUlkTbtwEVzbZ86SAVLicQUvg/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_003_8578786925f8.jpg)
 
 图 17  DOA估计的准确度与测量数的关系
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTtThfb4aWNvGwrHKtdXxPaibgTUCT9sfjHXbn9mtoJr50oV5es12qbLQ/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_004_ca591488443f.jpg)
 
 图 18  DOA估计准确度与信噪比的关系
 
@@ -84,7 +84,7 @@ SBL与其它贝叶斯算法类似, 通过赋予信号稀疏先验分布, 最大�
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZT3pKwAkZq50vn3lAL1U4OF8gibKEqlI4mYttIYdT2ibFFkbtUw5ibOb7JA/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_005_6e28d86c55a7.jpg)
 
 **白宗龙**
 
@@ -92,7 +92,7 @@ SBL与其它贝叶斯算法类似, 通过赋予信号稀疏先验分布, 最大�
 
 E-mail: baizongyao@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTXC6sTtz7sOFg1b2ReKkNtJUmBpS4M6wRnOkbt9OO5UhztS6HhJxFVg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\控制_理论_应用\基于自适应LASSO先验的稀疏贝叶斯学习算法_images\img_000_5fbb86e6554b.jpg)
 
 **师黎明**
 
@@ -100,7 +100,7 @@ E-mail: baizongyao@163.com
 
 E-mail: ls@create.aau.dk
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTC3d40JZfSolFn7BfF50gWyCsMOBFhZ02ZDDafmE2BibLkQNKwWkicfRA/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_007_78c466148e91.jpg)
 
 **孙金玮**
 
@@ -324,49 +324,49 @@ http://www.aas.net.cn/cn/article/id/16438?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZT28Uxiaib9x2lia8qGRaWN5YwOYabn1fIbdZvlpqXFQ7ibt2kZbatibnqrmA/640?wx_fmt=png)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_008_0ecd21b34945.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTAQjtzMoeYP8Gmuia3hH9HSX9eAG9pO2KNBzJZCPLic6iabo9YxMCz7ASA/640?wx_fmt=png)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_009_1a185dfbcf9a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_010_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_011_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZToJBrvPcZGlnic7YvmNpJJSVIw4AksCYiaoib4lnIZDRMeDlNn9qmnQXPg/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_012_d35ee276ce66.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_013_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_014_72defbedd87c.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_015_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_016_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTP9PvdmhSC0Biavw8eibKL7c71HuYImuXr9DyvxLKFljFkr1aP6GoUF7g/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_017_a5b172f1d678.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_018_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_019_72defbedd87c.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_020_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_021_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTpiaoV23bIIHWAdZf6AEUKygTa8wUlVTeSHuWw0wFucMMXtAIlOrf4sg/640?wx_fmt=jpeg)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_022_42afdb32af41.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_023_72defbedd87c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH449Y8KmO4l4ElsCYItqxSZTl96F6hso0qWcvCDWhDywzjBCOIicibPDG3jp4k4xZsJB1AgO71YfIIfA/640?wx_fmt=gif)
+![](基于自适应LASSO先验的稀疏贝叶斯学习算法_images/img_024_72defbedd87c.gif)
 
 **长按二维码｜关注我们**
 

@@ -19,11 +19,11 @@
 
        SST用于取代传统的配电变压器，这些变压器可以在几百KVA到几MVA的功率水平下将中压交流电转换为低压交流电和低压直流电。具有三级转换的典型架构如图1所示。SST可进行非隔离的MV AC /DC、隔离的DC/DC和非隔离的DC/LV AC交流功率转换。三级转换的智能电网架构如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSppbja213TMhUHR5HT8LDsNB1CzVYZLdVW0CRJ3ll7lSFp7s2T3G9RPg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_000_a1bf5ee1ce44.png)
 
         图 1.    SST三级转换架构  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSp6c4cIt19Gv2IxUxZfnYg0p3hZARlrJ4bia5YcgeibHbEWLaicElDffhew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_001_023130366674.png)
 
                                                 
 
@@ -31,11 +31,11 @@
 
 针对中压和高压的应用，常用一种特定的转换器——基于单相半桥转换器和全桥三电平转换器。模块化多电平转换器(MMC)如图3所示。更多电平的转换器由于其复杂性而不常用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpcJoicvdOpMqibErvvhVNiczZIxBbII0t6w22RGRucx8lhZzKKrFibv6XvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_002_472a056c2468.png)
 
     图3a  2级单极半桥  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSptysvY2FvF4qEY8iaRcLpun2bibic5VVgVI46Rz7BTICTfPicMHlcFs2DwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_003_fe551caafd97.png)
 
                                                        
 
@@ -43,13 +43,13 @@
 
 半桥提供+Vdc和0V输出，而全桥提供三电平输出:+Vdc、-Vdc、0V。它们的MOSFET的额定电压为Vdc。其他电容分压的拓扑，如半桥和三电平NPC半桥，都存在均压困难的共同问题，也不常用。二电平单极半桥和三电平双极全桥是最可靠的模块拓扑，也将在所有后续讨论中使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpyK10nATib9QF5f0JOyCFzDmkHRBTjQ4SIJVULH1PoRA8pjU8FcjM5WA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_004_459e45907c75.png)
 
   
 
 图4  隔离双向MV-to-LV半桥AC/DC变换器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpaiahjAoOY4mkeKGq97edBLicQAcuJVTTnXlicojLULbEN9G5Sl5tdviaVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_005_eb6d4b1497d7.png)
 
                    
 
@@ -59,10 +59,10 @@
 
        低压直流到交流输出级通常采用T型或I型(如图6所示)三电平三相逆变器拓扑。根据输出电压等级和电源设备的额定电压，选择T型或I型来使用。由于不同负载和电网电压条件下，三相输出电压或电流会不平衡，因此可能需要附加电压平衡电路，使三电平电路的电容电压保持平衡。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSp6DdwbBwicVwXH0icwzqzS8ibcerjFbWLTib46GlNeha5EsnHUnAE4ZAVaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_006_a405a99fca8e.png)
 
           图6. 带电容电压平衡电路的I-型三相逆变器
 
         高压SiC MOSFET的出现为固态变压器开辟了一个全新的领域。固态变压器是智能电网、储能、直流数据中心、可再生能源系统和电动汽车大功率充电站的关键部件。随着直流电力系统越来越普及，SiC MOSFET和SST技术都在以前所未有的快速步伐向前发展。在可预见的未来，它们将在工业应用中发挥重要作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpcdPOy3rFxiaUuSWbMc43ib0HQm46kokUdr1gEJ148gm9WE7cyhviafehQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件之工业应用___固态变压器(SST)_images\img_007_2a2a174d4f3f.jpg)

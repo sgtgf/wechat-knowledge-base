@@ -50,13 +50,13 @@
 
 下面的动画让你直观体验这种“你进我退、你退我追”的力学与电学反馈：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sVzeakRoocsxpLTc9Nah1jt4DWib8JduUiayhkP0iaZ9iat68bpZWvEmKQMBgGZcSh7htDljKU8Ur1qbY8huFWCyctpAplAH0oSgAr1vzGDySog/640?wx_fmt=gif&from=appmsg)
+![](楞次定律（Lenz_s_Law）_大自然的_傲娇_守旧_images/img_000_7176f27d6c9a.gif)
 
 * * *
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuxiaTSzdwFvBQ1giba61icseCooD6xVAnwwOVaj9rxY3ISgx6CqEFPq77SBm6ic27PCzx5wLNK6VOjTRzzl5NFzWk3dYKiaia2lsS78/640?wx_fmt=png&from=appmsg)
+![](楞次定律（Lenz_s_Law）_大自然的_傲娇_守旧_images/img_001_e96052368d0c.png)
 
 这张图讲的是电磁学里一个非常重要、也非常容易“方向搞反”的规律：
 
@@ -212,7 +212,7 @@
 
 # 四、左图 Scenario 1：磁铁靠近线圈
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctTsPJIBksWKohc96JA5RV2aQ6SUEdCbeXDE8TciaG7PbeibcTz7FZVtyeBp5dIrOw0N20J11rlvVbib6H1z3G8XHzjmicd4iczmLgY/640?wx_fmt=png&from=appmsg)
+![](楞次定律（Lenz_s_Law）_大自然的_傲娇_守旧_images/img_002_1cfa284492d9.png)
 
 图片左边写：
 
@@ -333,7 +333,7 @@
 
 # 六、右图 Scenario 2：磁铁远离线圈
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsmM7WJjzBWu7e9ibzPwgyic0I85dogTxXkStEpY0j0XrbFBMfsx0sfsnfibwXUibmUN7f6TcaTcGiaNfOm4uoRrh6BGIcX0Gk9e0b0/640?wx_fmt=png&from=appmsg)
+![](楞次定律（Lenz_s_Law）_大自然的_傲娇_守旧_images/img_003_5b9385829796.png)
 
 现在看右边。
 
@@ -564,7 +564,7 @@
 
 # 十一、为什么一定要“反对变化”？——能量守恒
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuFdBg5qeL8KNwyLBRgtkcyk8kUVNVrXDaJJlEiaXZCD0dqpoB7UsX0RvfAVpiaOvusQRuCExr1DgLxicF5Y7ykhav95PRhOdyhS8/640?wx_fmt=png&from=appmsg)
+![](楞次定律（Lenz_s_Law）_大自然的_傲娇_守旧_images/img_004_09d2931d55f3.png)
 
 图片中间专门写：
 
@@ -728,7 +728,7 @@
 
 # 十四、图片最下面三个“记忆技巧”怎么理解？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsiaJ2eLoeX6tQAjfqCicicwmD0TEPVdWzjnrXF1eicOQaxribDLRxGFzjdx0SjFuGbp9dm5aROv9Fak6spqZrHNdqo2ykOklvWU4qU/640?wx_fmt=png&from=appmsg)
+![](楞次定律（Lenz_s_Law）_大自然的_傲娇_守旧_images/img_005_6d6654a3f12c.png)
 
 ## 1\. Flux increases
 

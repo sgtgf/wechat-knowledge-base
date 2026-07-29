@@ -15,17 +15,17 @@
 
 储能技术具有提升电网灵活性和稳定性的优点，成为现今研究热点。根据《储能产业研究白皮书》所述，2021 年中国的电化学储能市场保持快速发展，累计装机容量约为5800MW，复合增长率可达57.4%。中国电化学储能累计装机 容量预测如图1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjEVSvGKn5HwL8eAU9OTIs1zmEgKFg4aIG0t9t8qDJuHv8xibfwJmqZJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_000_ab0ed02d20e5.png)
 
 电化学储能产业链中，变流器(power  conversion system，PCS) 是储能电池与电网之间功率交换的重要单元，实施有效和安全的储电和放电管理，对促进能源消纳具有重要意义，对加强先进储能技术研发和智能制造升级具有推进作用。近年来，国内外对电化学储能系统中的PCS不断进行技术革新，促进了储能用PCS 在电网的广泛应用，全球对PCS 的需求加大，国外储能市场快速崛起，促使国内的部分生产商也在不断扩大海外市场，对PCS的研究也成为关注热点。2020 年PCS 海外出货量前5位的国内生产商对比情况如图2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjias2rKWt2NW03ciakMAAl8TcPOLJDOb81Gicn5pNCIhM9In3RpBbW6nmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_001_2683f7e26411.png)
 
 目前针对电化学储能系统中PCS 拓扑结构的相关研究中，大多是基于其具体结构特点进行的分类。由于PCS 与光伏逆变器在产品结构上相似，因此，光伏逆变器的拓扑结构可以为电化学储能系统中PCS 的拓扑结构提供参考。文献\[4\]针对大规模光伏发电系统中使用的逆变器串并联拓扑结构进行了分类讨论及研究；文献 \[5\] 按照集中式并网和模块化并网两大类对PCS 拓扑结构进行了分析；文献\[6\] 将储能电站的能量转换系统分为PCS 和滤波器两部分对其拓扑结构进行了分析。
 
 以上文献均是基于PCS 拓扑结构的部分具体结构特点进行的分析，随着电化学储能系统的PCS拓扑结构不断发展，一些新型拓扑结构也成为当前的研究热点。电化学储能系统中PCS拓扑结构分类树状图如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjSUedRkWjRvWVF9xXnQkFKibZnnjynt15pmM3qc5zoWy81ALmWsajsJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_002_a41dc29bb246.png)
 
 基于此，本文首先从基础的两电平、三电平 拓扑结构出发，介绍了传统的PCS 实现方式及其优、缺点；再对多电平拓扑结构展开了分类研究。通过查阅相关文献，对基础的两电平、三电平拓扑结构的优、缺点进行整理并提出改进型拓扑结构方案。结合实际情况，对PCS 未来发展前景进行了展望，为电化学储能系统在电力系统中的工程应用提供参考方案。
 
@@ -37,7 +37,7 @@
 
 中国现有的500 kW 等级电化学储能工程中， 现阶段较为常见的单路全桥两电平PCS 的拓扑 结构如图4 所示。PCS 多采用这种单路全桥两电平拓扑方案，其运行效率超过98%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjBAoYSUCaqp9xwzUW3tiaDX0aw4ZZ1GIwibG2yLOx4ufDxTw9Kkq01RHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_003_2e70d9ebe24a.png)
 
 该单路全桥两电平拓扑结构在实际工程运用时，由于目前工程现场存在电池组最高直流电压限制及其中开关器件因通态损耗造成的高成本， 因此从成本和安全两方面考虑，必须使用大容量工频变压器接入电网，但由此带来了高成本及设计、制造困难等一系列问题。
 
@@ -45,7 +45,7 @@
 
 对于两电平拓扑结构来说，由于串联电池数量的限制，输入一般为低压，单机容量较小，大多数不会超过500 kW。在此背景下，可以利用多重化的拓扑结构来实现储能系统中大容量电池的需求。以双重三相电压型的电路为例，该电路由2个单路全桥两电平逆变电路组成，然后通过变压器将二者串联起来，具体拓扑结构如图 5 所示。 该拓扑结构不仅可以增大输入容量，也可以减少输出电压的谐波分量，使其更接近正弦波。但同时对控制要求也会更加复杂，多个单路全桥两电平拓扑结构并联使整体电路的不稳定性隐患增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjtia0ZyTfxeMTT6h9VBjfc2JTCicRk6I7MpF3s2icFfoian5054j6krmgdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_004_d6464fd5d5a3.png)
 
 2. 三电平拓扑结构
 
@@ -53,19 +53,19 @@
 
 2.1  I 型三电平拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjwJYl6LREUI4msL6He6bR4Qb0DAfqVQgjhFO2DHAbicW8dUrQWpQEAAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_005_400941315c24.png)
 
 I 型三电平拓扑结构如图6 所示，其是最早的三电平PCS 拓扑结构。图中：Ua、Ub、Uc 分 别为交流测a、b、c 三相的相电压；L1 为滤波器中的电感；C 为滤波器中的电容；ICa、ICb、ICc 分别为交流测a、b、c 三相的相电流。该拓扑结构 采用多只开关管组合开关的方式将直流母线斩波 为“+”“0”“\-”3 个电平，从而降低了开关管的损耗，并减小了滤波器的尺寸，最终达到了提升PCS 运行效率、降低PCS 体积及质量的目的。 但由于I 型三电平拓扑结构的器件多、时序复杂，控制难度大，所以，其运用不够广泛。
 
 2.2  T 型三电平拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjNVHticBCJNZfNCcx1iazJyAdvBWhWZl3d3BXiaUdcicmPcodhYlps1JVrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_006_8102a07bb279.png)
 
 T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平拓扑结构相似，但由于T 型三电平拓扑结构的器件组合结构不同，器件耐压较高， 因此不需要像I 型三电平拓扑结构一样有严格的时序要求，控制难度大幅降低，可靠性也更高。
 
 2.3 两种三电平拓扑结构的性能对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjjf2GAD7g95lBp9H38xM1AuZcSsTWp8NZL5qg9BxzZGcnDLia5OEzcNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_007_6d1592ca3872.png)
 
 根据应用场合不同，I 型三电平拓扑结构和T型三电平拓扑结构都会凸显出各自的优势，对二者性能进行对比分析，结果如表1 所示。表中：Ui 为输入电压。
 
@@ -97,7 +97,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 3.1 二极管钳位型多电平拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHj8VW34bvTOroXCu2Uoxjad17ib2l9LX3jbH1W6RiapfKnsbIU98Xwvb1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_008_82ab7645d11a.png)
 
 文献\[8\] 介绍了一种二极管钳位型五电平拓扑结构，如图8 所示。此拓扑结构在直流侧串联4 个电容，每个电容均分电池的1/4 电压； 可通过开关管的变化来使输出电压产生不同的大小。
 
@@ -105,7 +105,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 3.2 飞跨电容型多电平拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjiadOQZvf54yU9RnwlRS5SFEzPQqsByn4zzyeZOo1jWKAYicpmtgW8ic3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_009_7d15b71500da.png)
 
 常见的飞跨电容型多电平拓扑结构如图9 所 示。该拓扑结构中，每相桥臂的结构相同；在每桥上分布相同数量且相互独立的内环电容，使其输出多电平；其工作原理与二极管钳位型多电平拓扑结构相似。
 
@@ -115,7 +115,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 3.3 4 种改进型多电平拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjiaxicbTJUNATcGTOiaJEoDycB8QZfY5MrT9dlx1ibiaXZ9fLnic6cGVtlnew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_010_d6dad3d583b2.png)
 
 3.3.1 以二极管钳位型多电平拓扑结构为基础的改进型多电平拓扑结构
 
@@ -127,7 +127,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 针对飞跨电容型多电平拓扑结构存在大量开关管直接串联在电源两端造成直通的问题，文献\[10\] 综合利用飞跨电容型PCS和双Buck电路的优点，以双Buck 电路为基本单元构建多电平PCS，提出一种新颖的飞跨电容型双降压五电平PCS，其拓扑结构如图11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjMkdGLSNKQISVJ4vfvI3N5TibJiaxibcA7ibbF5B0TAk7d2wmP4s94oY5sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_011_f457702cf144.png)
 
 该拓扑结构由两桥臂组成，中间开通降压斩波电路分支。工作原理分为2 种降压斩波电路，每种电路分为7 个模态，实现周期平分对称。
 
@@ -135,7 +135,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 除此以外，文献\[11\] 在基于现有PCS 多电平拓扑结构的基础上，结合Zeta PCS 的特点，提出了一种基于Zeta 的新型飞跨电容型多电平PCS，其拓扑结构如图12 所示。该拓扑结构的基本单元实现输入侧并联电池组、输出侧串联滤 波器组合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjrfoRvxNZgssqiaKkGWyGB0DCKObC3Aicxr8icoMLqticKZ7EnOuFxsyj6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_012_08cd1f2c77bb.png)
 
 新型飞跨电容型Zeta 多电平拓扑结构采用复用原则的中间电容器与输出滤波器，以此减少无源器件的个数，从而实现单级升降压逆变；同时，也使该电路具有扩展能力强、电容两端均压的优点。 
 
@@ -143,13 +143,13 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 将二极管钳位型多电平拓扑结构与飞跨电容型多电平拓扑结构相结合，在电容两端添加二极管钳位结构，使其中性点电压波动变小，实现了电压自均衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjCmhB8sPgxIy0HlBHu1IPokAbgxVU6587ianU3RP9b4Aicb5eQeRS6FwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_013_e4706f45765d.png)
 
 3.3.3 减少使用器件的改进型多电平拓扑结构 
 
 针对使用器件繁多的问题，文献\[13\] 提出了一种混合钳位四电平拓扑结构及其扩展五电平拓扑结构，图14 为混合钳位型四电平拓扑结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjquV7AHPibVTrX94RILIic6C67HMBOzoicNn0iavAJ6uhxmXQGxQgsFicQMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_014_4f81e5b2990e.png)
 
 该拓扑结构提高了传统二极管钳位和飞跨电容多电平PCS 的电平数，减少了二极管钳位的数量，避免二极管钳位五电平拓扑结构中开关器件的直接串联，与二极管钳位型四电平拓扑结构相比，此拓扑结构省去了6 个二极管钳位，使用 的钳位器件数量大幅减少。
 
@@ -157,13 +157,13 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 该拓扑结构添加的最左端2 个开关管的通断决定了输出电平的正负。与传统的飞跨电容型多电平拓扑结构进行对比，双重飞跨电容型九电平拓扑结构的开关管和悬浮电容的数量均减少一 半，同时电平数的增多也减少了输出电压的谐振分量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjz4CI91ndefOHFdbaE7icTATcgy6m6Au1nTeS4exgHTlqABfANlbJ91w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_015_ecc6fd0bb098.png)
 
 3.3.4 实现同时升降压的改进型多电平拓扑结构 
 
 文献\[15\]提出了一种Z 源型单相全桥中点钳位PCS，为可实现同时升降压的改进型多电平拓扑结构，如图16 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjJ52K4WxAhAEJr1DGDwDSDEb7J5RRDtwjk2s9Z4OhUfmFibEMUpzqiaSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_016_e3d472b8e47a.png)
 
 该拓扑结构在直流电池侧引入分裂电容，然后连接Z 源网络与全桥连接，以此实现升降压变换。相较于传统Z 源网络电路，该Z 源型单 相全桥中点钳位拓扑结构不改变无源器件种类，但二极管数目变为2 个，位于电池侧的2 个二极管在直通状态下起到反向阻断的作用。该拓扑结构共有3 种工作状态，分别为非直通状态、上直通状态和下直通状态。通过分析发现，可将这3种状态的工作原理类比升降压斩波电路的工作原理，可实现同时升降压逆变的需求。 
 
@@ -171,7 +171,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 文献\[16\] 提出了一种单级非隔离型双Cuk多电平 PCS，其拓扑结构如图17 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjHFHLxa52GMiabgPgWZ9cWUfyibjicN0UHn3sjcHa13Qu2cCoxBWZsiaJfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_017_7d5ca24d2244.png)
 
 该双Cuk 电路由2 个直流Cuk 电路通过输入串联、输出并联的方式构成，该PCS 结构具有Cuk电路的所有优点，可同时实现升降压逆变，电流连续，适用于直流输入电压宽范围变化的可再生能源发电系统。但是该拓扑结构中无源器件较多，可靠性不高。
 
@@ -185,7 +185,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 针对低压小功率分布式升压并网储能系统的PCS 拓扑结构如图18 所示。每个模块化的储能单元接入PCS 将直流电转换为交流电，每个模块再通过并联到变压器后接入电网。此类拓扑结构应用于储能系统的功率从几千瓦至几兆瓦不等。图中：D 为接地点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHj5mTIpdyENicGcJpkBkfonxFm7ticvMbKxtl0iajIehfxz7pqNcyzPyWbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_018_ac910ab4a8aa.png)
 
 此类PCS 拓扑结构主要应用于低压小功率的分布式储能系统，其优点有：模块化储能单元分散接入，可便于添加电池管理系统；同时对储能系统的整体容量来说，也便于拓展，容易实现故障冗余功能；与此同时，对于单个储能单元中的开关器件的耐压要求降低。该拓扑结构也存在一些问题：各个储能单元添加的控制系统需要协同，较难保证精度。在大规模并网时，多并联结构也存在稳定性问题。
 
@@ -193,7 +193,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 针对低压大功率集中式储能系统，其PCS的拓扑结构如图 19 所示。在此类储能系统中，由于要满足功率和能量的需求，电池侧通常要求多个电池组串或并联连接来达到要求。在整个储能系统中，电池组经过PCS 进行交直流转换后，经变压器完成并网，实现整体功能，其功率从数兆瓦到数百兆瓦不等，可在大规模新能源电站应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjpMWL7BMyukv3N8KocRkUUOHxRyER7icmJdgrtdmHODMZ2tgBZOuQ1zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_019_5da241d1812a.png)
 
 这种PCS 拓扑结构的优点是：结构简单、 容易调节控制，存在的开关器件较少，已成为现今常规的集中式升压并网储能系统采用的拓扑结构，技术成熟。缺点是：受限于开关器件的耐受电压限制，输出的电压等级较低，增加升压变压器的同时会增加整体系统成本，也降低了效率；对于电池管理系统来说，不易进行均衡控制，从而造成整体储能系统输出能力下降，更容易出现安全性问题。
 
@@ -203,7 +203,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 3.4.4 高压大功率级联式拓扑结构 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjy46whhMujMpZwp4VYqGWDykGqj1OSK5zANhWI4mcENf3SfPjaL7Axw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_020_a9dad7a6cdaf.png)
 
 高压大功率级联式储能系统的PCS 的拓扑结构，如图20 所示。图中：SM 为模块。将储能单元模块接入三相形成交流侧的串联型PCS 拓扑结构，对每个PCS 模块进行级联，从而实现逆变后接入电网。此拓扑结构的提出为百兆瓦级 电池储能站的设计、建设和运行提供了强有力的技术支撑。 
 
@@ -213,7 +213,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 在高压大容量的储能背景下，储能系统采用模块化的PCS 拓扑结构的优点包括：灵活接入、成本低，可用来接入更高的电压等级，具有更大的容量，可提升转换效率，有更安全的电池管理系统，适合于当前大规模并网应用。采用不同PCS拓扑结构的储能系统的性能对比如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjSAcqVveXEHe3kEic2Zc5mictRIrAQKe8ueG79VmATCCIOPp2TyBIjUqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_021_c97714de75b5.png)
 
 1) 低压小功率分布式升压并网拓扑结构具有稳定的直流母线电压，但模块与模块之间存在环流；解决办法是利用隔离型DC/DC变换器，但与此同时会增大消耗，运行效率得不到保证。
 
@@ -225,7 +225,7 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 本文基于电化学储能系统中的PCS 拓扑结构特点，将其分为两电平、三电平及多电平拓扑结构三大类，对不同拓扑结构的结构特点、优势及存在的问题进行了分析与总结；介绍了基础的几种两电平、三电平拓扑结构，然后从二极管钳 位型和飞跨电容型多电平拓扑结构出发，总结了常见的几种多电平拓扑结构，重点分析了优缺点， 并介绍了几种改进型多电平拓扑结构；最后指出了储能系统实际应用中的几种模块化PCS 多电平拓扑结构。了解不同功率等级的电化学储能系统PCS 拓扑结构的应用过程，为电站规模进一步提升至吉瓦级进程提供了理论指导，加快吉瓦 级电化学储能电站的建设，推动新型电化学储能的发展，期望通过本文的分析为今后的研究提供方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslU6Rj6QlE2FCxv0NAu0DHjSqz9UxDF0Zo39tibPp9bvLf5NHqsuEyEHjrQ9zkVJtCVvDHXBylysQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_022_462b3f9e102d.jpg)
 
 图片来源：网络
 
@@ -235,14 +235,14 @@ T 型三电平拓扑结构如图7 所示。其工作原理与I 型三电平�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_023_365055d613b2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_024_c4e5e00016ec.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_025_dfa6175ee311.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电化学储能系统中_PCS_的拓扑结构对比分析_images\img_026_2ff68eaf3d63.jpg)

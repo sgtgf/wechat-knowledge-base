@@ -17,7 +17,7 @@
 
 中压固态变压器(solid state transformer，SST)主要为级联H 桥型SST(cascaded H-bridge type  SST，CHB-SST)与模块化多电平型SST(modular  multilevel converter type SST，MMC-SST)等拓扑结构。CHB-SST 适用于电力牵引场合，取代传统的工频变压器+变换器结构，提升装置功率密度与效率。相对于CHB-SST，MMC-SST 可提供中压直流端口，具有更为灵活的组网方式，适用于交直流混合配电系统，实现多网互联与潮流互动。而针对低压直流用户，文献\[8\]提出了真双极型直流微网架构，相比于单极结构，具有不平衡运行能力的真双极直流系统具有如下优势：为直流源荷提供不同等级的直流电压；单极故障时不影响另一极的运行；可采用TN 及TT 型接地方式，保障人身安全。 因此，低压真双极直流能满足配电复杂多样的应用 需求。而MMC-SST 仅提供单极或伪双极直流端口。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpONHV7BjBBtORicu4JuwlGI5QxubQ1SxSC4PCubsR59WE6W0u1LJItDPCmIna0EhCsicYgd3PowWgI6wtzUffSNxibaGkuERRzFwE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_000_222931bc8c27.png)
 
 真双极型直流系统的关键在于如何解决双极不对称运行下的功率平衡问题，常见的方案如图1所示：方案A 采用两套独立运行的装置分别接入正负极直流线路，以实现双极解耦运行，其常见于高压直流输电应用，但是两套装置将增加成本与占地空间。方案B 则在单极直流线路上加装电压平衡器，一方面是将单极转换为双极直流母线；另一方面是转移双极之间的不对称功率，以维持双极电压的稳定。由文献\[13\]可知，电压平衡器可采用非隔离型双向DC/DC 变换器，如Buck/Boost/  Buck-Boost 等多种拓扑，但是同样需要增加额外的设备，亦会对系统的成本、维护和保护都带来一定的影响。
 
@@ -45,7 +45,7 @@
 
 1. 真双极型 MMC-SST 拓扑及能量平衡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOHksgyAZmVrFaSbOsdhsDBpIQYNX1Jy5Ov2ia3ibFfEuakiaCl1hYgut7hxPrZoqdapbUk2HWjwjeBNYRy9B1cMj1wHGnrhG1EGM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_001_6e3021a1a755.png)
 
 本文所提出的真双极型MMC-SST 结构如图2 所示。MMC 侧可接入中压交流(MVAC)和中压直流(MVDC)配电网；采用隔离型双向DC-DC(isolated  bi-directional DC-DC converter，IBDC)模块和MMC子模块(submodule，SM)的直流侧级联，实现电压变换、功率传递和电气隔离等功能，本文所述的IBDC 以双有源桥(dual active bridge，DAB)为例；MMC 上下桥臂所级联的DAB 输出侧分别并联，形成正极低压直流(P-LVDC)及负极低压直流母线(N-LVDC)。  
 
@@ -59,7 +59,7 @@
 
  4）功率模块和高频变压器(HFT)数目众多，控制系统较为复杂，且拓扑的成本、体积较高；可根据设计需求，灵活采用多电平子模块方案与多绕组变压器方案，从而大幅降低模块数量，提高装置功率密度，实现装置的轻型化与集成化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPm0f1UpK8CWicwqHicwoBzbLXX7D8UIGvwXfcCZ7UCZib22A2ljANbsXC7EK72q2zVREicrUYdugAZGMmeXRK2ORycjATBtZPPMib4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_002_b32789138bcc.png)
 
 图2 所示的 MMC-SST 为一种四端口变换器，其端口间的功率交互关系如图3 所示。假设P\_LVDC、N\_LVDC 与MVDC 3 个直流端口输出功率分别为P1、P2、P3，忽略MMC-SST 内部损耗，则MVAC 端口需提供总功率为Pε=P1+P2+P3。在常规的MMC控制方案下，MVAC 端口功率将均分到上下桥臂，并由桥臂将功率传递至中、低压直流侧。由图3 中黑色箭头所表示的功率走向可知，由于上下桥臂连接不同极低压母线，双极负载功率不对称时，即P1≠P2 时，上下桥臂的输入输出功率不平衡，桥臂内部能量发生变化。由下节的分析可知，此时上下桥臂电容电压之间将出现偏差，MMC 自然产生不可控无功环流，恶化桥臂侧电流、电压应力和运行损耗，双极功率不对称度高时，甚至影响MMC-SST 的稳定运行。  
 
@@ -71,7 +71,7 @@
 
 2.1 真双极型 MMC-SST 桥臂动态方程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP00iakicI60wiapQ946HEGib4NH0AAqfUDiaUiaBmDSECqNlLe1SDaNaVLxydUdnTegOMbsdO8zOXuEwEEicdoxYah5bHjkwibmmNcQMo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_003_bcd87df8ffe3.png)
 
 由于三相系统的对称特性，可采用单相系统进行分析，以A 相电路为例，如图4 所示。其中：usa和isa 为中压交流电压、电流；Ud 和Id 为中压直流电压、电流；ULVp、ULVn、ILVp 和ILVn 为低压直流正负极电压、电流；upa、una 和ea 为上下桥臂电压与MMC 等效出口电压；ipa、ina和ica为上下桥臂电流与环流；ux为桥臂电感上的环流压降；La为桥臂电感；ucpa和ucna为上下桥臂子模块电容电压；C为子模块电容值；Idpa和Idna为上下桥臂DAB 的输入电流；N为MMC 桥臂子模块数。  
 
@@ -89,35 +89,35 @@
 
 则上下桥臂的功率平衡方程分别为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMj1J2nk9UR9mAplK2uv2xA4hU9XmgnOxWWqE16tZEff480mf9JZD70wtVbZIJmeJ31o0DHF7HOSB5eJGda4EmZLZwzicMHCiaAY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_004_fedb8659be93.png)
 
 式中桥臂电压为其子模块输出电压之和，可用子模块电容电压和开关函数表示，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNttmtDenz5JVAgnoEmTcnscQY40H7KHH4k6Q3mgOQnqnlsuVXoT2BG8kvT3VwIqd8nfX506X3iaPZQzHQJhia95ibjQchS4Ln1to/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_005_5e882156edc1.png)
 
 式中spa、sna为上下桥臂子模块开关函数。  
 
 由式(1)、(2)可知上下桥臂电流与电容电压之间的动态关系：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZT2qKGaC8FOT4hSvM09u7VkbQ1RSiclYmw49EoSLb6t5vWyq6W9hqZAFaaibESQ4CCSgmiaoRc2HH4k30IhRSic8ZTJqiczBDBQOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_006_f1a480fbd7b5.png)
 
 基于文献\[20\]，子模块开关函数可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOvMLWxDOxKyqD9tweuNUPH8RC3TBQS1yic9Q3GGk32oWAQaiayNEuLZeVmruEAFj7dYEfCYxXCLw82sOcNXsOahQTA78A2o54Z8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_007_ec8651ae5968.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNJkOs2rLlQqziafZDX5CiaibhOaBMSRTzFTAPFRLSLXz4JR2VQCQCyYS98Z2jppI277jpia1toe6j0LiaBMFXjSKSGuTqUymCibzuIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_008_7517fb34bce3.png)
 
 式中ica\_c为注入的可控基频环流。定义ica\_u为由于上下桥臂电压不平衡引起的不可控基频环流，则图4 所示的桥臂电流及环流：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRb6Jm9sPI0jkrtTppGiahQaJ2ZPeNKd0qehmWpK9wSUlrdjicPjRKr3MAZ28AyoNkxmp6FnsHXcGkJM2n93fYfgfXrkFhLwY0o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_009_1f0b339d6926.png)
 
 式中桥臂环流由桥臂电感上的环流压降决定，其动态方程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMsdRibOzOEwpQKWkwwp599UMTeVft7AWjuAEFT2b9CyRM2R4WFUgDS4mohonMW0oV2NrtLwBxolriaDlD61VzCy0frZ9fjJnoicU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_010_c8f68cf13baa.png)
 
 将式(4)、(6)代入式(3)中，令式(3)中两式相加/相减，联立式(7)，得到桥臂动态方程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNicwoC4TBvsCCHEgsXpYeHTy61F5V26sZN0qItItzs8unSicqj9ueOp4lMqnxhau6oKcias1BtSXBJucS8aO1a8szalKcj2g7QgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_011_96d7f0cbae1e.png)
 
 式(8)—(10)分别为A 相总电容电压、桥臂间电容电压偏差及环流动态方程，可以看出低压侧两极负载功率，模块电容电压和桥臂环流间的强耦合关系： 
 
@@ -127,7 +127,7 @@
 
 3）由式(10)可知，开关函数中叠加  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPCcicicw5zlJJ8HmSMpSfZIAbITkLYQibBwRZ6EuicLm5SsmpqS6j99KyOVNZbsL2u6yIb2RMX59dM7CbnjnZ3UrrNjaqoiaJ3Y38I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_012_f080136a847a.png)
 
 项，可控制任意幅值和相位的环流主动注入；若桥臂间电容电压存在偏差，将会产生较大的不可控无功环流(该环流相位和桥臂电压正交，因此定义为无功)，且该环流不能参与上下桥臂功率平衡。  
 
@@ -137,37 +137,37 @@
 
 为便于真双极型MMC-SST 的稳态分析，假设中压交流侧电气量为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOgsNMCib1s2E0EX45ibp4f3nC9JJ8U7XjdWEeU19fhG705logZeial9pFRqPPuhiaiaJPjBRs3PoPpSFnMoAkyGAZqg07Z35eKbz6I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_013_859184af552f.png)
 
 式中：Um、Im、φ分别为中压交流电网电压幅值、电流幅值和相角；Em、δ为MMC 交流侧等效电压幅值和相角；m为调制系数。且假设：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNx49ORltNl1U3uF0LKp6QhxbXkT2o7p5hmBJJ2ASNUgHV1Ef7YZJPqyeZ7rl0Hyk4HLTWCgH0bp3dTibKcALEZ3kGFDiarrNtCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_014_4ad01dc0cb9f.png)
 
 式中x为环流电压系数。代入式(5)可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO4zYiady4Q6SCiaA2vG9Lg4MMIwKPBEuxB1aiaiaxw3hOZY5EP7cuNFibj3rzeJeD4BQMPGhoVdU1laZjj3GicSsF1fP04wKDib7LMN8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_015_47da1f0e3e28.png)
 
 通过2.1 节桥臂动态方程分析可知，上下桥臂功率的不对称，将会造成桥臂间电容电压偏差。在中压直流母线电压恒定且子模块开关函数为式(4)的前提下，忽略电容电压波动，上下桥臂平均电容电压分别为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMJd1iaCZYKO9O89iavS0515CQDdUOdWX6AlMg9Ka2M0IYVlwznqQ2cItwZuOtib1dJgUjdawSibk8QVhHerA4BYYdqCrvCmhMX0bE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_016_9bb4d5c077db.png)
 
 式中k为上下桥臂电容电压的不对称度，k=0 时上下桥臂电容电压一致，k≠0 时两者出现偏差。  
 
 根据DAB 的输入输出功率平衡，可得：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPQDbJhtv5uu9LrfOcUBw1mkACLibzKbtCicuBTTZqoX5xJyBbEEUDDvMs6X3fuoXtbZ7TGAtJvAEmOcwUplT2QhxLbiaO48GicdUI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_017_38546c7e1938.png)
 
 将式(11)—(14)代入式(8)、(9)中，取直流分量，则可得上下桥臂的平均有功功率平衡方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMia9NHwcS24wAIaISR5ib5I5h32HFtUptsjBnp1clIibmmFd558zCibypEx1sI1Y5O5p6jdCsug4Y1ib3BfSibicJ8Ak1PeKYgkDVz24/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_018_bdf29d969bf5.png)
 
 联立式(16)的两式，分别求和与求差，可得上下桥臂输出功率之和与之差为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPPnQ32jY3VIG1huAkatjMWxxpcXFdxyetojxY4PTK2toGP2dYspmI0297GmJ79ffKia7uB5na7SrkkUSGdRibIxr7Q7ia8ndhurg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_019_332afd8552a0.png)
 
 联立式(10)、(14)，可得不可控环流为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMFZkgOOH0McDnVVIrNia0ibniaYcGgnrwLibuAe4WMoFrlzSib4iaibCVFCax7btVQsnCjkuUgqnfTjLeeBMFznomLIWr5y1V6xThCCs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_020_71bdd137bab3.png)
 
 式(18)为中压交流、中压直流、低压直流双极端口之间有功功率平衡方程，而环流的注入则不会影响装置的端口之间的功率平衡。由式(18)、(19)可知，通过控制所注入的可控环流的幅值x和相位β，可调整桥臂间电容电压偏差k及式(19)中的不可控环流ica\_u的大小，从而在不影响MMC-SST 端口有功功率平衡和稳定运行的前提下，优化装置的稳态运行性能。  
 
@@ -175,11 +175,11 @@
 
 由稳态方程式(18)可知，当上下桥臂的负载功率不对称时，存有两种方式实现桥臂功率平衡：1）自平衡方式，通过不对称功率所引起的电容电压偏差k，自然调节上下桥臂的桥臂电压及输入功率，以实现桥臂输入输出的有功功率平衡；2）环流主动注入方式，设计注入环流的幅值x和相位β，主动调节上下桥臂的输入功率，以实现各桥臂输入输出的有功功率平衡。当处于自平衡方式时，无环流主动注入，桥臂间平均电容电压出现自然偏差，自行调节上下桥臂输入功率，并实现稳态运行，其等效电路如图5 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPaE5Mxy2FBStohSwWWrh71zsibNO8giabE2sJJUeujl6icEjn9eJCDSztwqVwCiaHVAKvlv3OoSr8gG3nAnBicu43wicgeGryNtZy3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_021_cd5fae1f6a55.png)
 
 图5 中，upa\_ac、una\_ac、upa\_dc、una\_dc 分别为上下桥臂电压的交流、直流分量：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPLicSKfibdpJDJqlokq1133lPkR8J1LBN3talJ0FJWsWL3CDUhA7Dia808PCKsoTvF93Y9rje4RxmSsuCAGn0ZnrODyJvpakaxFo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_022_fb3830a6aba7.png)
 
 式(21)表明，在低压直流双极负载不对称时，若采用自平衡方案，该不对称功率将会对稳态运行造成影响： 
 
@@ -187,21 +187,21 @@
 
 2）产生的不可控无功环流与桥臂电压正交，不参与上下桥臂功率平衡，在极限不对称时(正极满载，负极反向满载)，该无功环流幅值高达：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMXJ2WbBiacJxyCN5KQuMCZmJxD4j1Mw7klUiaibvvdM12rAAialma47tWAtS1r8bzIiaZJ0dAC7iaz9I39FNhMUzA0KduMejcOMR5YQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_023_34eb55345fb3.png)
 
 该无功环流将大幅增加桥臂侧器件的电流应力，影响运行效率。因此，提出优化环流主动注入的方案，将由可控环流承担桥臂间的功率调节，以实现双极不对称运行。该方案下，调整上下桥臂间平均电容电压平衡，等效电路如图6 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPOZwQNTvII4WthhicQ8qZq5pGGp08gicNxxSJ1gP7PlguXuricSjribwrKhTOJibrsf813hLL7iaALRibOvW5iaHibmqZHlc2v26JnSr58/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_024_3240854501f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNmEuVEyQQ62lj0A1EUwVT6GbnEBGO3kiaFUbXbK8akkFdBhaHXnW3YNTCd2wf8qmeF5r3riaamemRUya7kKkRBgVwPHqxWHMTTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_025_39a47a9223c7.png)
 
 由式(23)可知，最小环流注入的条件为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOFiaJYiasEShRAzS638MicpaBhj7Aw69Yf1h5s1aZ3pkmKzhlkZEibMMxItibAIJfTMiaHEiaOQdJGcicHmj3jS3XXic6ic6HvxGibV8Oq0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_026_b25082c40bbc.png)
 
 此时，所注入的可控环流幅值为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPHsicYMbgMGAHV6wyksXtSYzAY9569goeRdwwXW4D6bIHNxrbdUXINoHkCWzCDwoUvsoguHEEqhIibncibeDKLWjxnIiaFt4cQ9eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_027_cbd81501fe01.png)
 
 式(25)、(26)得到的可控环流和桥臂电压同相位，此为有功环流，用于调节上下桥臂功率，则环流幅值最小，且此时桥臂间电容电压无偏差，不会产生由于电容电压偏差对SST 运行产生的影响，亦消除了无功环流，实现了桥臂电流应力和无功损耗的优化。  
 
@@ -213,31 +213,31 @@
 
 若采用文献\[22\]的环流注入方案，则环流相位选为和交流侧电流相位一致。基于稳态环流方程式(24)，可得基频环流的幅值和相位为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO0uibsBKBaxZyPL2biaicB7v76XAyZAWQewiaR2KKsy30c6oTz1EggAuIKZs9zBPodiacO8atEJlKOme0icHk8whib8KA5nECqbQ0Lt0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_028_448ecaa21f6d.png)
 
 此时桥臂电流为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMI1hpRE4E23oZnxFCTibrmf1cwUib8icgPF8JUibbvo4ibCq9QslGNKibsqLnhwuYfic9FRKsibp6P2ySu3OUzrh4AGnzAz4ccribsoVvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_029_2f38d4e81dea.png)
 
 由式(28)可见，基频环流的注入将影响桥臂电流的交流分量幅值，而直流分量不受影响。因此，桥臂电流的交流分量幅值为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPgBlVTicItEZKxfk1GTpKpxWhQibIEgPP2yqVfGGibajbQXDWM3Yuo4lPRqZoCcQfBz45SboSLMlTSMxic78UA4rNLU8ZB6uriaeKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_030_f996ad70c626.png)
 
 式(29)表明，当0≤ɑ≤1 时，上桥臂电流的交流分量可取得最大值，当-1≤ɑ≤0 时，下桥臂电流的交流分量可取得最大值。  
 
 采用本文提出的环流注入方案，桥臂电流为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPLWiaLhWc3mTI7uluChO3cdYWUdl67qcYCSNFVEKJv0ENFR01yLxGKffDicLVicBU8eCNLkJ9s3ZDkvS02UcMzGN4icIuG9g0YV1k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_031_2fea7e203fcf.png)
 
 由于本文采用最小环流注入，因此相比式(28)、(30)的环流幅值更小，但该环流和交流电流相位不同，将通过矢量的形式影响桥臂电流。基于三角函数公式，在最小环流注入下，其桥臂电流的交流分量幅值如式(31)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM3nxuFADdzOqMKFQvco2Nicl5oWIBFpVWWSNVwdxrIqLc0LGEicAQ8rVEuCUom2zKRf7B0TVq5iaZqAGyWcc82mFLsia0r9c0GePY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_032_14d551f7738c.png)
 
 式(31)表明，当0≤ɑ≤1时，上桥臂电流的交流分量可取得最大值，当\-1≤ɑ≤0 时，下桥臂电流的交流分量可取得最大值。  
 
 联立式(29)、(31)，可对比两种环流注入方案下桥臂电流交流分量幅值的差异：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOE1enyMEhTP3XNk6LqtSDZ3AiaKf5ibDLdVeibfypmGFXqesurWN3wQe3xgEZ8QDOHr4rILvgeRJZuuhPPERic3wJ9odgfiauYtCUs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_033_2d4203ed379a.png)
 
 由式(32)可知，当功率因数为1 时，即δ=φ， 此时两种方案所注入的环流相同，因此其对桥臂电流的影响一致；当功率因数不为 1 时，本文所提出的环流注入方案具有更小的桥臂电流交流分量幅值。  
 
@@ -247,9 +247,9 @@
 
 图2 所示的MMC-SST 结构中，DAB 实现电气隔离、直流变压、功率均衡传输、低压直流电压控制等，MMC 侧具备MVAC 有功/无功解耦控制、MVDC 电压或功率控制、二倍频环流抑制及上下桥臂不对称运行控制，控制框图如图7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvXsYzZvZP44rfmwzgReba0EnrlDsQhxOqpSBNQQ81RcibpI4ibKMN3Bz0CJ73GXSoibHOn7V73Z5RLwOsSx4yU1cAvGibfOicd7ia8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_034_8606fa9406c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPJx2Cds1cIISLBs8ugpYURbkBuia2aMr2jicL9DiaHtedC8Rt7xq54a3DMLQ9w0ITmoKHdhibSLEwcfNO6RVJFuyPibLicm5phiaOhzs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_035_310165d36295.png)
 
 以A 相上桥臂的DAB 为例，其DAB 包括两个控制环：1）P-LVDC 电压闭环控制，该控制环路输出为公共的方波移相角，可实现DAB 总传输功率的控制；2）模块间电容电压平衡控制环，该控制环路将取代传统MMC 的电容电压平衡控制环，通过调节各个DAB 的附加移相角，实现电容电压平衡控制，该控制环路的优势在于，MMC 同桥臂各子模块将具有相同的占空比输出(包括桥臂电压 参考值及环流电压参考值，无附加的电容电压平衡分量)，亦即相同的桥臂侧出口电压，因此，各模块所吸收的功率一致，当模块间实际参数不一致时，该方案依旧可维持MMC 子模块间及DAB 模块间的传输功率均衡。将附加移相角叠加到LVDC 电压控制环输出的公共移相角上，即可实现LVDC 电压稳定控制以及DAB 间的传输功率均衡控制。  
 
@@ -257,27 +257,27 @@
 
 1）桥臂间电容电压平衡控制外环。由桥臂内部动态方程式(9)可知，通过主动环流的注入，可以调节上下桥臂功率，从而消除桥臂间电容电压偏差。将式(9)扩展至B、C 两相，并将三式求和，可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNNKiaiaiacgKfFzT8qzwDsq75NEuF3UPQpoS4tGbgTfSQGD4uGb7OBKyCyorq2X8AheUfXXpZZkSk35stmQuw8XszTCOy1nPI5bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_036_bba7fae1ae77.png)
 
 采用桥臂调制电压定向的dq同步旋转坐标系，基于派克变换矩阵T'abc-dq0，将式(33)中的三相环流和电压变换至dq0 坐标系，变换矩阵为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOG4QHwheib4vcXdHfeqXnuUPHF7cXqQggoozhfb7YAc2sjWK4v8Fibw2WXLB51asUScTfkJDb5O6M4wWuUUoicdKaaEvqOADkSHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_037_5ccbd295c1d9.png)
 
 式中ωt由系统PLL 锁相环提供，而δ由控制器中dq轴电压参考值求解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOIgKVVAjFQaGt0Yh6XOiawa2iar3gzRmSA1vcM97uX91VJkiayhsc1gaB7OibmMjotOMz8aRH1R0lRgBV4upss7K7FYT74juvc6xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_038_1e43660cfc42.png)
 
 将式(33)中的 MMC 三相交流侧电压矩阵和三 相可控环流矩阵转化为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMeZ7OcHMEYgwtoOiaUX1JLKjh562UTpjxLmicrr9iaJB7yA696P7Vf51hRzibOgia6F4wpBeZjVTh0mTmOeWrsmIXO3VBib0p8icFNXk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_039_20666f2323ec.png)
 
 在三相平衡系统下，e0\=0，式(33)转换为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPL5rylf6POsRHxx2PibqZTBl0UHd94o1IUiamd03M7NPOmhvqACn3sCYKB4AHWzGYicEVZPqzYgCghhRiacnPZtDmPr0Oavquf2nU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_040_ecd931eeca7a.png)
 
 式中 icd\_c为可控环流的d轴分量，其和桥臂电压同相位，为有功环流量，通过调节有功环流的幅值，即可控制上下桥臂电容电压偏差。而可控环流的q轴分量icq\_c和桥臂电压正交，为无功环流，不参与上下桥臂间的功率交互。因此，如图7(d)，桥臂间电容电压偏差输入PI 控制器，其输出为d轴环流分量参考值
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOPsLktm9egCebWtjHLYAgfLDDoT5ppQObuL7F52Uumibv7VyBxiabLAghIbG7XWMDGKnEVNypDCvQ74O2YLoHWRLVP2bibmSLN6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_041_32259c1c1905.png)
 
 ；而q轴环流分量参考值设为0，从而保证稳态时可控环流和桥臂电压同相位，以实现最优环流注入。 
 
@@ -285,29 +285,29 @@
 
 基于式(10)，d\-q坐标系下的可控环流为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPdhdgnY2K72VaSbksMUgxOjg0m2El7WPEdjxUu3uicZprWQchsaiaKjL4ZlB4cRiao0V3Xwria8ox1WHP7NNvRvsDmI6Y120F7yRo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_042_1ad84fa1f126.png)
 
 将获得的三相环流电压参考值分别叠加到上下桥臂的子模块输出电压调制波当中，如图7(b)所示，即可实现和桥臂电压同相位的基频有功环流的注入。该三相正序环流将在MMC 桥臂内部流动，不影响MVDC 和MVAC 等端口的运行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMU5sHsFINHt1gafaqLoz22icDxx9KbKutp2ZOzrTTeicr5UF7As5XIuIZqtmj82NMicjfDCr380EXiaf5apnOnKa174BfnVQMpeqM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_043_91066ea9b038.png)
 
 即可实现二倍频环流的抑制。为了避免基频环流注入和二倍频环流抑制两种控制耦合，以避免控制器间的交互影响，在图7(c)中的环流检测环节，增设低通滤波器(low pass  filter，LPF)，在基频环流的dq轴分量icd、icq中，滤除二倍频环流；在二倍频环流的dq轴分量icd2、icq2 中，滤除基频环流；从而实现基频环流注入和二倍频环流抑制的独立控制。  
 
 4. 仿真验证
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO6uUU4IVrqibXRQ8f7Gib5Bll36rxkOia6o0MYp5IlaRDribob3uIaT7oLyBjSBoB1ibXWH3p5I0VE1bpicMTibfpQ0UgD8TeI05ibk4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_044_a2914830e39d.png)
 
 为验证拓扑结构及控制的有效性，搭建了2MVA MMC-SST的Matlab/Simulink 仿真模型，如图8 所示，参数如表1 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNC5Dld86DoBjS1Yic3UzjRytFRdCEzCotkmMJFu2D77iaKOYcWAia1DMoVsHemvGwPKpjGxOoXqck9bD7fDun8hmSANF7rJYZREk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_045_5f7166999884.png)
 
 为验证真双极不对称运行，低压侧直流双极负载分别为500kW 和空载，中压直流负载为1MW。对比切出/投入环流主动控制时装置运行的仿真结果，如图9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOsB7U0VeGL7caaQM4C5nK5dGSkKPS369OoWuU9TH5ibEqxn9Oyh6BGy2veFqUq6QeiboYKViaW9J5pTFvZ2TianAwcOHJOiauvqayw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_046_6d196a4bd080.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOW9tT2wnEJHXiaUibwLPR4ic1Q3BpUy4jvRxpomXpJvkbWzzYNUhMNmWLOXcOfbicwQElE3TmictVk6hnE8RyzviaadyXia4p7xHTia1U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_047_476c1fb405e5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPC9whjE9rOfyHznsvwVnlp9Abib6ULgAoAPOawibKNiaxfoxiaGcaQjQViaiabmjW3guib676C4G8iceByQfHsUFo9mDupaHknalCKLcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_048_ee1ced683b73.png)
 
 图9(a)为A 相上下桥臂子模块电容电压和环流波形。未主动注入环流前，不对称LVDC 负载会导致上下桥臂间子模块电容电压出现偏差，同时产生较大的无功环流；而在优化的基频环流主动注入后，环流大幅下降，上下桥臂电容电压稳定在额定值，验证了所提的环流主动注入控制在桥臂间电容电压平衡和无功环流抑制的有效性。  
 
@@ -317,17 +317,17 @@
 
 5. 实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMrBHAnWFNTxYxsBmLAPnxibQ4BTuMPRibM64eYAQ6T35T0LpTn5p5LHZ3Q37wk8qicEWgHB047tiaTU7Xj4dmmPloOZ3t4WL29cxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_049_54be0c266f6f.png)
 
 仿真验证之后，搭建了4.8kVA 的MMC-SST实验样机用以实验验证，实验平台如图10 所示， 采用了5 电平MMC 与24 个全桥型DAB 模块，电路参数如表2 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPY6vMPLJloA3NfX3pJf0MIgLawDUW1jfSsf9Uqt2EhXvuwicFWzthc4TL8WxnXuORcq1fPQ3CcasuaAS8YkUQ9tvwKJibiaIQw7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_050_7c5323e8ce9e.png)
 
 低压侧直流正负极分别配置了800W 负载和空载，而在中压直流侧配置了2400W负载，使MMC-SST 在不对称负载工况下稳定运行。对比MMC 自平衡和主动环流注入两种方案下装置的稳态运行情况，实验结果分别如图11、12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNmPaWBpIkFyClduwerjAeWtZcUiaF1pib8Vd48n0H40KC3wnIvL7WNOEc6BZdMMShn52ooa7o7xtELVBYjWib0pB2b0oCtNl7mCc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_051_d3a11068ca47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMsmVtqk3KTYo6cT8oJZzwYjSpQczGf5oIpJsgqKSnaOg0KhCicyXtAUYkvIgMwvDZ50l1TcYUUUNLRVFf3tjmuWZ6WdpCDZDZI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_052_54ec8febe2ed.png)
 
 MMC自平衡方案的实验结果如图11 所示，图11(a)为A 相上下桥臂子模块电容电压波形。系统运行在不对称工况下，上下桥臂子模块电容电压平均值出现偏差，在MMC 自平衡机制的作用下，MMC 将自然产生不可控基频环流，用以补偿上下桥臂的不对称功率。该实验结果验证了本文所建立的MMC-SST 电容电压偏差状态方程式(9)及相应分析的正确性。  
 
@@ -337,11 +337,11 @@ MMC自平衡方案的实验结果如图11 所示，图11(a)为A 相上下桥�
 
 采用本文所提出的主动环流注入方案，在相同的实验条件下，实验结果如图12 所示。图12(a)为A 相上下桥臂子模块电容电压波形，可见在N-LVdc端口空载时，主动注入基频环流，可使上下桥臂电容电压平均值稳定在40V。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP58UaIVlficic5TQPjob0n4MK8BfCNPs3naMeay0DnV5GuH9CV6f9DOqbrHwyhZ9qvNUt7WXhib8OQujBKiaeZkMpK7auq2nxeCLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_053_3ac5bbe1bab0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPtKSibCHwH4iahDiarsg5OGic69EXK4quXvqb6S2EicK71MJuHLDrUTVWFvIwsDAicDC2DEPKBdJic46lGamq2Zdfgk24PP2tHr5BWs8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_054_1dfd04691c47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPjMBFnH48hmrPBLQVTsjhicsJPibK9tWnMsOA6WczMjZaDOnH0icx0NcFCGoLQ0ZTSicKWz5npfPHic4bOEmnic1Azs77HhxILwmXBY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_055_9fa0c09982eb.png)
 
 图12(b)—(d)分别为P-LVdc、N-LVdc 和MVdc共3 个端口的电压电流波形。可见正序基频环流的注入主要影响桥臂内部的动态，而不影响外端口的功率输出。  
 
@@ -363,14 +363,14 @@ MMC自平衡方案的实验结果如图11 所示，图11(a)为A 相上下桥�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPwIGkwX9MZvq4Ubuz6Mw91Fs4icWicdX75nJzH84p5IQVJ5NoSCTHnszrzbPE2eQ2rd5hzbMPfXsGBlGoUHzMZ30cf9S9pHnmuY/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_056_95d15f35faca.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNL7yOJJ0RZJApM9yf64xx1pQu9DhoQwKYUgvMGyZZzgmtyS3PEtcLiaVhgTRGOpmGiacWuKbDTby7PrQlAkAibjVDY2Wk28HGcSA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_057_f37b920a64a6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM8vNv8SgtYU0eZXs0Q10oO3nnhpeXDZCwXGJjiaNPVDpQN5BRkrOpgMTdKqMcO8e8yic29cs5XllX0cqvqBhLW9Q9WWcQQxLzuY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_058_17407a97e661.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM3TgxOf2D9zw5gpq1hmsdoQ01VYNNOpauicVfc5sctYmNHZ0bsxqSKD5qKibQRO056a0IJNd3gQ1GopMTXicia0MtfV462juic3xR4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于环流注入控制的_MMC_型固态变压器低压直流真双极运行方案_images\img_059_9b36701b8427.jpg)

@@ -11,7 +11,7 @@
 
 关键词: 等离子体电源; 谐振变换器; SiC MOSFET; 功率密度; 效率
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWmA2hBDhppt64eSzOPfXPibo8lLkqv0YxOToxeCBHXKEQMur8lwt7tSA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_000_c59dc893d4a0.png)
 
 0.前言
 
@@ -31,11 +31,11 @@ SiC 材料的禁带宽度达到了 3.2eV，而 Si 材料的禁带宽度则为 1.
 
 材料的饱和电子漂移速度决定了 MOSFET 功率器件能否在高频下正常工作． 材料的饱和电子漂移速度越大，其功率器件的工作频率也越高．SiC 材
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWU7qC6aiarlOfYe310B9dc4MZnuicgvNno1Y7xYxPydohIoExZX26nelw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_001_9eb7d3673301.png)
 
 (3) 低导通损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNW3oNjqlCeMLC8lYkKrjXjNUfRNMw4sSibpe55sF83XKaiaz1Y28qkYDHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_002_15455143834e.png)
 
 较低的电子迁移率说明 SiC 材料的漂移层阻抗较低． 因此 SiC MOSFET 的导通损耗比 Si MOSFET 的低．
 
@@ -59,7 +59,7 @@ LLC 谐振等离子体电源主要由以 SiC MOSFET为逆变功率器件的主�
 
 2.2  LLC 谐振拓扑结构及其优化
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWvicRYvksgZbUd7Q91G4APfxhIlL68iaiaNgj0prfn4MFXt1EkDVkSGy6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_003_d971bd92ffe0.png)
 
 LLC 谐振变换器的工作状态比传统的逆变器更加复杂，一个工作循环主要分成6 种状态． 工作状态4、5、6 与工作状态 1、2、3 相似，因此文中主要分析半个周期的工作状态( 即工作状态 1、2、3) ．LLC 逆变电路在工作状态 1、2、3 下的拓扑结构如图 1 所示，图中实线表示电流流经路径，上下桥臂开关均用两个SiC MOSFET( C2M0160120D)并联，输出端使用两个 SiC( C3D16060D)肖特基二极管进行整流．
 
@@ -71,17 +71,17 @@ LLC 谐振变换器的工作状态比传统的逆变器更加复杂，一个工�
 
 为满足高压应用要求，普遍采用多电平拓扑结构． 例如，三电平全桥电路中主开关承受的电压为直流侧电压一半，两电平全桥电路则为全部母线电压．因此，三电平拓扑主要功率器件的电压应力为两电平拓扑的一半，但三电平拓扑会增加功率器件的数量，并且由于电流流过的串联功率器件数目较多，导通损耗较高． 功率器件数目较多的三电平逆变拓扑结构的提出是为了通过使用传统耐压值较低的功率器件达到高压应用的要求，而使用耐压值高的 SiC功率器件采用两电平逆变拓扑即可满足高压应用的要求，且所用的功率器件数目较少． 因此，相对于三电平电路，使用 SiC MOSFET 的两电平方案所需功率器件较少，可以简化拓扑设计，易于减小设备体积．SiC LLC 谐振变换器与传统方案使用的主要元器件的对比情况如表 1 所示．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWQ5APshfoYxPNoHh5V26DkiauFia0IV73BkbNmmNqib5Vdg8yQM7Wl7MQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_004_634b0c5d2e14.png)
 
 由表 1 可知，基于 SiC MOSFET 的 LLC 谐振变换器谐振电路简单，元器件数量大幅减少，更有利于降低等离子体电源的尺寸、提高功率密度．通过计算，变压器匝比为 2.58，电感比为 7，电路品质因数为 0.47，励磁电感为 100 μH，谐振电感为 15 μH，谐振电容为 25 nF． 该 8kW 变换器样机的尺寸为 20 cm × 32 cm × 9 cm ，主变压器使用 PQ65-005，谐振电感采用 两 个 PQ35-112 串联．SiC MOSFET LLC 谐振变换器与 Si 基 DC-DC 变换器功率和尺寸的对比如表 2 所示． 由表 2 可得出 SiC MOSFET LLC 谐振变换器功率密度为 1.38W / cm³ ，而 Si基 DC-DC 变换器功率密度约为 0.36W / cm³ ，由此可知 SiC MOSFET LLC 谐振变换器具有更高的功率密度．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNW0mFlkWK0Ow66sbM0A6J5KqpicAkTXxon3faLiad1qhUibFsujmnaK4OgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_005_0d00a1b600b2.png)
 
 2.3   SiC MOSFET 驱动电路设计
 
 MOS 管的驱 动 对 其 工 作 效 果 起 着 决 定 作 用．SiC MOSFET 的驱动特性和 Si MOSFET 同样属于电压型驱动． 但是由于 SiC MOSFET 的实际工作频率要远远高于 Si MOSFET，因此容易受到干扰． 所以设计 SiC MOSFET 的驱动电路要对主电路和控制电路进行隔离，避免主电路对 SiC MOSFET 的驱动电路的控制信号产生干扰．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWia4t5G5pYkib08If4Rmc4daCFKIRCw2ZapgQhYglPJTicZaT6PSBmGrwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_006_f86f3dda3c0e.png)
 
 文中采用电磁隔离驱动，利用高频变压器实现电路的电磁隔离． 图 2 所示是所述控制电路的 SiC MOSFET 高频逆变驱动电路，为高频脉冲变压器隔离型驱动电路，两路推挽输出电路主要由 P 沟道功率场效应管 M1、M3 和 N 沟道功率场效应管 M2、M4构成，上拉二极管和下拉二极管 D1 、D2 、D3 、D4 用于防止推挽输出电路的功率场效应管 M1、M2、M3、M4出现误导通使推挽输出电流激增烧坏 SiC MOSFET．SiC MOSFET 的“慢开快关”网络 1 主要由电阻 Ｒ7 、Ｒ9 ，二极管 D11 、电阻 Ｒ11 、电容 C3 组成; SiC MOSFET的“慢开快关”网络 2 主要由电阻 Ｒ8 、Ｒ10 ，二极管D11 、电阻 Ｒ12 、电容 C5 组成．“慢开快关”网络能够有效地降低 SiC MOSFET 开关损耗．SiC MOSFET 的负压关断 网 络 1 则由 MOSFET Q1 、二 极管 D7 、电 容C2 、稳压二极管 ZD1 、二极管 D9 、电阻 Ｒ5 组成，SiC MOSFET 的负压关断网络 2 则由 MOSFET Q2 、二极管 D8 、电容 C4 、稳压二极管 ZD2 、二极管 D10 、电阻Ｒ6 组成． 当二极管 D7 ( D8 ) 导通的时候，Q1 ( Q2 ) 关断，C2 ( C4 ) 通 过回 路 充 电，充至 稳 压 二 极 管 ZD1( ZD2 ) 的稳压值( －5． 1 V) ; 当二极管 D7 ( D8 ) 关断的时候，Q1 ( Q2 ) 导通，C2 ( C4 ) 通过新的回路放电，给SiC MOSFET 栅 极提 供 负 压，可以 有 效 防 止 SiC MOSFET 在关断的情况下被误导通．
 
@@ -89,19 +89,19 @@ MOS 管的驱 动 对 其 工 作 效 果 起 着 决 定 作 用．SiC MOSFET �
 
 3.1  驱动波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWKePwsFhU5aTMnmaWo48nzXic7bwDmeOMG9RBxGwnpUQVm0icV3IFjic2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_007_d4de1fb44751.png)
 
 控制电路的 SiC MOSFET 高频逆变驱动电路的输出波形如图 3 所示．MOSFET 栅极电压迅速上升至所需值，MOSFET 迅速导通且不存在上升沿的高频震荡．MOSFET 关断期间驱动电路提供一个 5V的负压以保证 MOSFET 快速关断并避免受到干扰导致误导通．
 
 3.2  谐振换流波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWeqPDvtnaDZWshMzjmaMZ0ib828icXMnvwV9eWo4Zn41aNy6evJLicusaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_008_725d15cdb5b1.png)
 
 8kW 全桥 LLC ZVS 谐振变换器样机的实测波形如图 4 所示． 图 4( a) 为 SiC MOSFET 的谐振槽电流 Ir波形; 图 4( b) 为 SiC MOSFET 开通时的 Vgs波形和 Vds波形． 图 4( a) 中 Ir 周期为 3.75 μs，可计算得知谐振频率约为 260 kHz; 从图 4( b) 可知，SiC MOSFET 电压 Vds 在开通前降到零，谐振变换器工作在ZVS 状态．
 
 3.3  整机工作的热性能
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWEzdXxeDAvhPtIK77o5zpTcjMTA71VQ53nYmORE65elaTXI5hlhrlTA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_009_10d21ac9729a.png)
 
 LLC ZVS 谐振变换器在输入电压为 650 V、输出电压为 270V、输出电流为 30 A、功率 8kW 条件下运行 1h 的热成像实测数据如图 5 所示． 该 LLC 谐振变换器使用了 1 个 10 W 的风扇对 8 个 SiC MOSFET和散热片进行散热． 由图 5( a) 可见，整个 LLC 谐振变换器温度最高的元件是变压器与电感，但其温度能控制在 100 ℃ 左右; 由图 5 ( b) 和图 5 ( c) 可见，LLC 谐振变换器的上下桥臂 SiC MOSFET 温度都在40 ℃ 以内; 这说明该 LLC 谐振变换器风道和变压器设计 合 理． 该 LLC 谐振 变 换 器 工 作 频 率 为 260 ～310 kHz，高频工作会增加带磁元件的损耗，因此采用了分布气隙技术来降低变压器高频损耗．
 
@@ -109,7 +109,7 @@ LLC ZVS 谐振变换器在输入电压为 650 V、输出电压为 270V、输出�
 
 该变换器工作在不同功率下的效率曲线如图 6所示． 由图 6 可见，LLC 谐振等离子体电源工作在6～8 kW 范围内时具有较高的效率，并且在输出功率为 6kW 时 LLC ZVS 谐振变换器工作在谐振 状态，效率最高达到 98.2% ． 说明此时开关工作频率和谐振频率相等，变换器工作在完全谐振状态． 采用Si MOSFET 作为主要功率器件的闭环控制 LLC 谐振变换器，工作在 3kW 以上时变换器效率在 95% ～96% 之间． 这说明相比于使用传统 Si MOSFET 的LLC 谐振变换器，采用 SiC MOSFET 作为 LLC 谐振变换器的主要功率器件，变换器的效率得到提高．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNW3clopa5DicTHq0yag1tX2ySpSZIFEEpgZhgYBtzkC2U8lCJAtLo0Iaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_010_6ac781c304bd.png)
 
 4 .结论
 
@@ -121,12 +121,12 @@ LLC ZVS 谐振变换器在输入电压为 650 V、输出电压为 270V、输出�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_011_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_012_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的谐振软开关等离子体电源_images\img_013_9bbc7b9b15a2.png)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/tDe2GO-Ttg5t8o\_aPvr3ow](https://mp.weixin.qq.com/s/tDe2GO-Ttg5t8o_aPvr3ow)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0oTUiaJxSpXy1K0tznaWqfCHCHedSsj4o5B2rsVzN6rSr7uu7Hd2MK7vWAkb26ibC2fWMib0g9epuBh1Xh3MgWeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的矢量箭头图（3）_images\img_000_a619eb2e0f2a.png)
 
 导读
 

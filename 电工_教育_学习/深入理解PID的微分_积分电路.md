@@ -51,7 +51,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqSWIN5rWDan3AmVN45ZDR3N3mF4xHDtEgufSXtAxk0bm1RcMGjrkUlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_002_7e6e7c132e9f.png)
 
   
 
@@ -74,7 +74,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqPwsojKk4szKzujDiaoTpjgIqXLdYj6WXOmaGWJGkvPOPGPg9fNrLrKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_003_2fcdbc93dbd5.png)
 
   
 
@@ -90,7 +90,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqhShKiaxauC3klBYjKLwwicuRiaH1ZZziahcJhDwfHGP19fNfY223ReFmpQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_004_1ece5d2fa4f0.png)
 
   
 
@@ -125,7 +125,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7Uvq3wtrCRQKokuiaU0knTOEGiamicrIXAoV9ibYqect4uFicLDA2qhHyIRl5CQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_005_20d81dcd7451.png)
 
   
 
@@ -137,7 +137,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqqUtSly3CoT66J8eqIvicUJ29hTwibe7JEr8JgbkS5pB62L0ZQBtSib3sQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_006_5281af695821.png)
 
   
 
@@ -149,7 +149,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqjVAMFkYoGpdTMzU5r9NKX6uj9M3PnRjk86OTiaFG9YASLia56qicMD7HQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_007_b61067d218d4.jpg)
 
 图6 积分电路波形
 
@@ -159,7 +159,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqTb47oicY9r4t86WW5vtsnKjIcIibvXtLjEjPfibnibfIkGMFIxRnFQU5pg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_008_1989f386fb8c.png)
 
   
 
@@ -171,7 +171,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqEnRFzF5u3EuvgAB1zpKynNTBKNm0EzMPSCBdvtDJ6wlRHcpVfJrrdA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_009_286992ecb3fe.png)
 
   
 
@@ -185,7 +185,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqLRLvgP9xPZchztvj632gNicm5H1LwTia4ou5mwg86EiaNjtcFL97W5mFQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_010_6ce171b2d719.jpg)
 
   
 
@@ -197,7 +197,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqJ5E6BrXkhLjt045RbT8pBAfNeNMV1unjSjlzvYIEFLJICNzxAKsRnA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_011_05a31b835aef.png)
 
   
 
@@ -209,7 +209,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqtbNRPicbxxhhnDv6FsHo9a9ZgbKBDbJ0j7Bm2bAN0FeHgNzQ42vYmgw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_012_66343e0f0cc3.png)
 
   
 
@@ -225,7 +225,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqjBL5JicKIklnxneGx6q9hJcvFgGrBc5hgWjwrcHwJwBicyzO7lAWJUtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_013_334233821bd5.png)
 
   
 
@@ -239,7 +239,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqeejCNsXmibZgRQyw2nGaejaTCXoUM5TicYpicp6w6Pdcj9nWgCTHAYRFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_014_dd0658348f16.png)
 
   
 
@@ -251,7 +251,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqsPCsnZGnQB24C1CWOkFibPicMHad13ZB8cJvNIt8SAeFnrxDMv8k6DJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_015_d8457a4251b8.png)
 
   
 
@@ -263,7 +263,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqZv6D4iaAeQYVd6fYaE6Vg4R3KjEKCQnbzpWEc0M6kTDCdTDQ5mkLia4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_016_eb54eb9cf9c5.png)
 
   
 
@@ -275,7 +275,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7Uvqssa94ejHxGSAd9FfvK8xjTibCX9JibpGbXS3Iic1Opd1B7cdPFn820ERA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_017_1c3b28cac7be.png)
 
   
 
@@ -293,7 +293,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqxMoTfteics5yOCjagnUdicAUibPd9iaK07BGpcROsZrV9Z6m4KovyxunMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_018_00591da5b112.png)
 
   
 
@@ -305,7 +305,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqLBSNax6cUXhuvAvNHX6YPvUREzMZhmld89ibtDDTn5Gchgdym11vqHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_019_c26b18b5cf3c.png)
 
   
 
@@ -317,7 +317,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqMoo1RKEtTfOD1v2cfAOcpAPOThYQsrTHjfkdL97rmJE0d8sTUUib2Aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_020_062fa9db8405.png)
 
   
 
@@ -329,7 +329,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7Uvqw0BQkD911RiaeYkvcU8FF5KgeqEnI22fQlk3oEsPQ9M8jWenCRIWKiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_021_93d707bee369.png)
 
   
 
@@ -341,7 +341,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEdlHIjTvWXJMvaicPF1ia7UvqfXb64ah8nFNzViaScRV5bI2ibdo3JhvN4Z8DyqSaIyCT8IPhtPApKgicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深入理解PID的微分_积分电路_images\img_022_2dc50140fb27.png)
 
   
 

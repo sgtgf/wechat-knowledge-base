@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/eaCEP23Bc6\_7QFYHKYrwuQ](https://mp.weixin.qq.com/s/eaCEP23Bc6_7QFYHKYrwuQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_000_1dc1a11a7c06.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_001_f2b7c13e4587.gif)
 
   
 
 国庆假期，各个景区人山人海，正是宅家捣鼓技术的好时候。翻出刚到的开发板，准备趁这几天清净再倒腾倒腾。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1L5qX3ydDJHicndD9ak3VpIODKnjCGZjSzKz5icxy1XbozPC009wKrDltA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_002_4e7018dc3b91.jpg)
 
 刚拿起USB线，突然想起之前公司里测试同事遇到的一件小事——他用电脑给一块新板子下载程序，结果咔嚓一下，电脑的USB口直接冒烟烧了。
 
@@ -26,24 +26,24 @@
 
 你想想，USB设计出来就是为了让大家随便热插拔的，要是动不动就烧主板，那谁还敢用啊？  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LnQkPibIdzmX6pHYscgibicTKwxP1aBJ0XibopM4oaZbF2zacSY2ZSdhSrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_003_f8b6b75960f9.png)
 
 在电脑主板内部，USB口的电源路径上，通常串联着一颗专门的电源管理芯片，比如SY6280AAC。这颗芯片是个负载开关，你可以把它想象成一个智能电闸。
 
 它的核心工作就是管着USB电源的通和断。平时接上负载后正常通电，一旦负载接的设备（比如你的开发板）出幺蛾子，比如短路了，或者电流一下子太大了，这个“智能电闸”就会瞬间跳闸，切断供电，保护电脑主板不受牵连。如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LhCkzYhTQyLj5kKBlD85XvhpLZ6Qv2vxcwRFpVczic6iafr55xgibATwIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_004_bd5f6b662565.png)
 
 这颗芯片有个很重要的引脚叫**ISET**（限流设置引脚）。咱们通过给它配上一个特定阻值的电阻（叫做Rset）到地，就能预设一个电流保护值。计算公式是：Ilim（A）= 6800 / Rset（欧姆）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LyqsrzibF44bMx2ty5CoOnavdNkfM9ZI2WfAThnpjVZCWNYDApxY0Vxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_005_860cda22d1fb.png)
 
 举个例子，如果想将限流值设定在500mA（0.5A），根据公式就能算出需要的Rset电阻值：  
 Rset = 6800 / 0.5 = 13600欧姆，也就是13.6kΩ。
 
 通过这颗小电阻，主板厂商就能精确地设定每个USB口的最大输出电流。比如，USB 2.0口一般限流500mA，USB 3.0口限流900mA。当你外接的设备想抽取超过这个限值的电流时，这个保护芯片就会动作，让电流输出最大设定时甚至切断输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1Ln0kFWRriawiabSerBVkpPNWCVAsghRRYQbRPStlNiaZPfiacXwNSr8LeTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_006_63d013cad37f.png)
 
 咱们再看看手里的USB线。例如USB2.0，它里面有四根线，其中两根（VCC和GND）是专门负责供电的，另外两根（D+和D-）是专门负责传输数据的。
 
@@ -67,7 +67,7 @@ Rset = 6800 / 0.5 = 13600欧姆，也就是13.6kΩ。
 
 **所以，如果你的开发板除了USB供电，还有另外的外部电源接口，一定要特别小心！** 一定要确保板子的电源路径设计合理，有防止电流倒灌的机制。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1L2UfzyUXZlbrEkYc55A9pAlEepNqGHn46xjOUdUIwsCAue7sYd4LY8Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_007_441b48d7dbd3.jpg)
 
   
 
@@ -85,7 +85,7 @@ Rset = 6800 / 0.5 = 13600欧姆，也就是13.6kΩ。
 
 不过好在，现在稍微正规点的电子产品，在USB接口附近都会焊接一个叫做**ESD静电保护二极管**的小元件，它能把瞬间的高压静电导入地线，从而保护后面的芯片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LgR9X5M7hIEJfDtRvCHLsZZia24AgInzrPWwToWqp3yGeDeqGeHstFrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_008_1578499f5eaf.png)
 
   
 
@@ -99,13 +99,13 @@ Rset = 6800 / 0.5 = 13600欧姆，也就是13.6kΩ。
 
 2、自研开发板：一定要自查，确保焊接正常，元器件正常后才通电跟主机连接，可以先用万用表测一下通断或者在跟主机连接之前确认一下板子相关电压是否正常。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LbHXVh7Fra9Ck8HYz338WhGpKCnV7s61J2zz9IdxTE1ia7MQEOrlUC0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_009_d55897e9faa2.png)
 
 3、**使用带独立供电的USB HUB：**串接一个质量好一点的、带独立电源的USB HUB，也是个不错的策略。即使你的板子出了问题，电流冲击也是先由HUB来承受，很大概率能保住你的电脑。不过要注意，有些特别便宜的HUB可能省掉了保护电路，效果会打折扣。
 
 4、外购USB隔离器：如果你经常调试各种“来路不明”或者接有高压外设的自制电路，强烈建议在淘宝上花一二十块钱买个**USB隔离器**。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1Ls8wuqQlhDeIZKToEaeXD850z6T1j4p4UDASB3DZiacTWmXpc1ezNErA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_010_01dadceba622.jpg)
 
 这东西不贵，但它能通过内部的隔离芯片和变压器，在电脑和你的设备之间实现**电气隔离**。意思是，它能把数据信号传递过去，但两边的电源和地线是完全断开的。就算你的板子炸了，12V、24V的高压也绝对过不去，完美保护你的电脑。可以说是调试危险电路时的“保命神器”。
 
@@ -113,12 +113,12 @@ Rset = 6800 / 0.5 = 13600欧姆，也就是13.6kΩ。
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LHVEEo0LdLZAehGLAribS59vIF9vC98zZP4rjnI472uqe5D1qwibkLmZA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_011_92bc3a0fb9c6.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LeJ1ZibUobUU7PTzHJNrO0W8Z1JFFDgKC4v4EVDFdruXiaHEo2zHgzUUw/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561442&idx=1&sn=ff19b548362d805004ac46490f41c80e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_012_145165a1a9c2.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561442&idx=1&sn=ff19b548362d805004ac46490f41c80e&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LpicdoGW1qCV1ZLOhsv5iajvuX1DhP3x3aZia9KUpQ8PxWOpJk1HAPyWicQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247560764&idx=1&sn=e4d6353365f11bb0b723e130ddc6c548&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_013_a603f403590c.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247560764&idx=1&sn=e4d6353365f11bb0b723e130ddc6c548&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LR9DkbxicHy9uVCnPebv8oxgjo1M6t0FDYhpH4YMgU5piaO2YicKB0upUQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用USB给单片机下载程序_会烧电脑吗__images\img_014_2fd63ee839bd.jpg)

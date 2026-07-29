@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hzEjcBsbFuT895k9XA1iOw](https://mp.weixin.qq.com/s/hzEjcBsbFuT895k9XA1iOw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_000_7aee9f5e0b9f.gif)
 
-[](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650655813&idx=1&sn=470ab17e91ec67dcb325edee1084e391&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUYQT7KWmKb9o2gvt8PJOVxq8ibF3Q1tIWvqRyWXOFjjJmb8BYQ1ibNlMicsdOeW6aEvmiby26j6tRicpQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656040&idx=1&sn=a9fbef3b8e0614a2ffd18f0e67fc43fb&scene=21#wechat_redirect)
+[](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650655813&idx=1&sn=470ab17e91ec67dcb325edee1084e391&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_001_70c4fa4684e7.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656040&idx=1&sn=a9fbef3b8e0614a2ffd18f0e67fc43fb&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_002_e532dba355d8.gif)
 
   
 
@@ -17,23 +17,23 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 电机电磁力计算功能：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSib9CJZ37hXcJRkADyhuQHMcHM6lfZib3ZKaXTyzMel0xJ5Jsiaf1wd4daQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_003_6bb6c569fbae.jpg)
 
 1D时间电磁力FFT
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSib3rMlTTuxZNI8XSaH1licPqq1GjibEOibTicnWl529E9LAr4BakWC62xfLA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_004_27e9e86b56c3.jpg)
 
 1D空间电磁力FFT
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibjf4IibgpwXVDOUzQQI7YQQusBolxibNbGd8nq919R2kXSPBqF0Ag4BLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_005_6f73df8f8511.jpg)
 
 2D时间电磁力FFT图谱
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSib2C4eNSfEJ9ZtqiabqoF3s3feAMVvrz0LrDaibuw4Viat2EWWvTjx9d5Pw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_006_f62f1bb97952.jpg)
 
 2D空间电磁力FFT图谱
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibss4ZS7QzLibFMch52hfIsiboOQyfJPic40uDkv7eGSfaCrhcr68XRLu2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_007_9c574159103a.png)
 
 坎贝尔图
 
@@ -49,19 +49,19 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 · 2025最新版支持BPMOR外转子电机类型
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9RCbW5V9GKvA5oRmtEQeYj3Xw5q4GrM5jrK7pQKj0BLOzT4Hcf1G2iaiaXicseTYlGlFDAzGJ7LQEz8z1ZtrRaIZQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_008_6b0b5099b4db.jpg)
 
 电机振动模态分析功能：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSib23AGxfibphTHwzOJ3nKY08IKb19bjI0x43wKynYwUfHGRrY6wKRzAWg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_009_631118d3293f.jpg)
 
 模态计算结果
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibTxOyWc4b5lPwTicuhbnL6PcG1Q5Xa3ibQibBoYwXsAwN7EXRCn6Tm9BDg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_010_85f8978d5e6b.jpg)
 
 振动位移计算结果
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibCec6WJ9M9aSlhyoM4BYLK2eyabh3DJiaArWLs2o5wGxSXtvjhWt2LWg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_011_aa056348a719.jpg)
 
 振动加速度计算结果
 
@@ -87,11 +87,11 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 电机噪声分析功能：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibQic7ObjiapMKODIHbibtR2U92UmAUTcWn86PCJa1TMgJmNZFvhbNClCGg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_012_fc572de995aa.jpg)
 
 辐射噪声计算结果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibibEWG2ZRDjHibJfcNibJibCH8Pe2hR1y7nKJcZgsfcOfyjoElOTIWQjMMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_013_f2964f307cee.png)
 
 · 基于快速的解析声学模型
 
@@ -111,13 +111,13 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 结合以上功能的具体讲解，在本次培训中还将进一步对内置式永磁电机NVH案例分析做详细介绍和实例展现，并综合电磁分析，稳态、瞬态热分析，效率Map图、外特性曲线及路况分析，转子应力结构分析进行车用永磁电机的多物理域设计方案进行全面评估。同时我们还可以通过Motor-CAD联合optiSLang很方便地对电机NVH情况做进一步优化：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUj6B6akEibwSBtOa0IN8LSkzFeN8ONDQ0uibmSZJYHqMDqOEtKGAUzQnfsaxVX1T77sGLOP7g43TvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_014_3947254ccaf2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUj6B6akEibwSBtOa0IN8LSky18UFkwHiaPVW7IeD3jCxNibILSDG4OicA0Jh6rKFibzqIGjqHmcK1pp8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_015_38a6445ca298.png)
 
 欢迎有电机NVH仿真计算及评估开发学习需求的朋友扫描下方海报中二维码报名参加本次培训！  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibYSv47hQJQIBctlhmfVScYZPzURX7JqBbntVOOyNnnM3Mw8cHNVkJog/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_016_6f354c4565e9.jpg)
 
 关于培训的更多详情介绍如下：
 
@@ -197,7 +197,7 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 电机多物理域设计与优化分析培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUW35uNlS7GicAw3ICicumXHA7LSrpu3vaLZqKylRu1FW6adFbe39dNQQhnlE9OpqDibl0tqiaAIR2lAg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_017_d334c7ea78a8.jpg)
 
   
 
@@ -235,23 +235,23 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUW35uNlS7GicAw3ICicumXHAVxNMO9mibQeu7v7OAQTKjE2oPW9z4XhltEAI0U9aq3n9ZBM8zB67diaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_018_3e95c2c347ed.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_** 欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_019_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibq71ibjF8whqGdibDiaTaSAicnmCJesz70HCD61bVZoQYhnCA02HjD5KHpg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656079&idx=1&sn=5c31ae77ff8724ce92dd27352d5db8db&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_020_a34c69e7c1ba.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656079&idx=1&sn=5c31ae77ff8724ce92dd27352d5db8db&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIV2ysltfpNN1sHwYuXwtkbZHps4p83T50HG731GCwX6WicJf2licowAn01mNaVreFStqO2ibwgY8uZwA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656122&idx=1&sn=12457b4d1cbeb8863c7f4923d124fb9c&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_021_407db5cc95a2.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656122&idx=1&sn=12457b4d1cbeb8863c7f4923d124fb9c&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVNcIUT6GuypbB19OZCfibVWWHoXkAW5f6Q8agluTycI4TlDprAeHan5xqC8tV1ibVwYZuY7Z2ZiafibQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656069&idx=3&sn=55482ba7e936f56c05b1dbc08884965c&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_022_6852f02e9cfd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656069&idx=3&sn=55482ba7e936f56c05b1dbc08884965c&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_023_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_024_64bd90de404b.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_025_cb8185f2cf41.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全面快速评估电机NVH优化设计的最新解决方案来了_(外转子电机也可以啦)_images\img_026_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

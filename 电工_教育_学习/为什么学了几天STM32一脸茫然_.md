@@ -15,7 +15,7 @@
 -   不清楚STM32单片机的具体工作原理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa88MfTNdwFvbZOCJNs1x4wDC1s6HZe9S2S9JF1CXWNR1vYj43NxbOhfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么学了几天STM32一脸茫然__images\img_002_d5fa81bf6ec9.png)
 
 按照整个学习阶段先后顺序的说明，下文从三方面来说明问题。
 
@@ -25,7 +25,7 @@
 
 对STM32 MCU理论知识的学习和理解很重要，以下是入门一款单片机的学习路线仅供参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8S7gR8aQqQ1jOFkDbuNicZswtyak4P2jdfHKYBBeicLD82JibDO3Gy54vg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么学了几天STM32一脸茫然__images\img_003_4048c36ec776.png)
 
 这里说我的学习方法：遇到听不懂的专业术语，去网络上查找理解，并找个本子或电脑通过文档的形式记录下，一段时间回顾一下，好记性不如烂笔头。
 

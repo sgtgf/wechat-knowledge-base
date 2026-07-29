@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_过电压_防雷\西安交通大学等单位崔建_孙帅_等_基于双温度磁流体电弧仿真改进Mayr电弧模型的特快速暂态过电压仿真方法_images\img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2000 字** 
 > 气体绝缘组合电器隔离开关切合空载短母线的过程中会产生特快速暂态过电压，对设备绝缘造成严重威胁，影响电力系统的安全稳定运行。本文提出一种基于双温度磁流体电弧仿真改进Mayr电弧模型，为特高压GIS隔离开关切合空载短母线过程的VFTO波形仿真分析提供了新的思路。
 **研究背景**

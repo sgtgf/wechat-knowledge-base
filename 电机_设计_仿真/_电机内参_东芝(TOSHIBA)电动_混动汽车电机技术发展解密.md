@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/uIfn-KBTrjosiW4LFRQdTg](https://mp.weixin.qq.com/s/uIfn-KBTrjosiW4LFRQdTg)
 
-现实![](http://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/0?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+现实![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_000_6e6d80aceda4.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
   
 
@@ -21,19 +21,19 @@
 
 串联混动系统，如图1所示，只有电机驱动系统。串联混动系统简单、成本低，发动机只负责为电池充电。  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJto8lzjNLPKiaaU6ufKgKtQWUavyE0ibsJ7KIEBZlI3HODQpbXgDMrtjw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_001_3dc073e0741a.png)
 
 并联混动系统，如图2所示，电机和发动机共同驱动。并联混动系统在低速和大转矩工况利用电机改进燃油经济性。可以预见具有系统成本低、燃油经济性的并联混动系统将来市场应用会越来越广。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJic4DExZYjRVukRsy9ByXyxPia6cibOCkQo44v5nhT4uEU1w4FVgm5WGxg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_002_96c089b6ff55.png)
 
 混联混动系统，如图3所示，是串联混动系统和并联混动系统的组合。  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJcvicnesp0VVzzDvCmBIKekP82vLWIuckIofh0H43aOS1BpficQ9zAdYA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_003_6981783503a4.png)
 
 东芝1991开始生产并联混动系统产品，扁平电机安装在发动机和变速器之间且不改变动力系统布局。东芝有超过20年混动汽车系列产品经验，如图4所示。2006年发布一款用于混动卡车的永磁电机。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJ4ibktFpficFfwPia2iasmALmyaT1lyGVNSR152DVWGPAv5Xg2GtSSaweng/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_004_db2888bf0ae2.png)
 
 * * *
 
@@ -43,11 +43,11 @@
 
 然而，内置式永磁同步电机（IPM）也很难在超过1:3的速度范围内恒功率运行，如图5所示。高速区间增加的弱磁电流导致效率较低，并且当弱磁控制失效时过电压可能引起逆变器的电容和功率器件损坏。作者研发了PRM来解决IPM的缺点，通过改变永磁体的位置和磁路产生大的磁阻转矩。增加磁阻转矩的同时减少了永磁体的用量，减小反电势，最大运行速度范围超过1:5，高速区具备更小的弱磁电流和更高的效率。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJicg5mp8QR2rO6icaoTRPceufflkibfGs3bzUjUyj05uQqDhuoRf7UEic9g/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_005_3fe78def97f8.png)
 
 图6展示了一个典型的PRM结构。转子内的空气孔控制磁通流向增加凸极比。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJibZD5ZAgHdYDn1kLd9wY2hk1bsEXcw0jj9gJXnnSicugPITb8hxlBIkg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_006_e6318296b845.png)
 
 * * *
 
@@ -59,23 +59,23 @@
 
 第二种噪音是次谐波频率，由电磁力引起的转子偏心运动和并联回路中的环流电流引起。如图7所示，模拟转子偏心的噪音测试。除了4倍基频外的部分次数噪音在图中由虚线椭圆标记。被标记部分谐波次数明显与8/16/24/32次不同，这些噪音的趋势和第一种噪音相同。  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJdZFKGg9xJrwB2zMkfTkWynp160hgZ6qibxpwa4ZJYibh4ycn0ELVq8Jg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_007_624efcd69aa1.png)
 
 一种跳极连接的绕组排布方案用来避免环流和转子偏心运动，如图8所示。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJHsCMrVOpRwNZCUZRkVYUMib98o5X83xiaHpxRoCFUxwSDrjfxsjhVfDg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_008_909b210fb707.png)
 
 图9展示具有偏心的跳极连接坎贝尔图，次谐波频率噪音基本上消失，这是一种非常有效针对第二种噪音的改进方法。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJ0AicKrXmWNVbDnJ4TxONOdtM138GqicVV03iaux3OL51xRLWfkcnQxTRA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_009_8fccfb8e9613.png)
 
 第三种噪音是电机扭转共振，由齿槽转矩和电机扭转固有频率吻合而共振。当由斜极引起的齿槽转矩的轴向频率和电机的轴向固有频率吻合时产生共振。这种现象可以通过优化转子的斜极角度和组合来优化。如图10所示的4-step V斜极方案可以保持转矩波动补偿并且保证最大转矩。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJHxM1NITp1eiaDtc949oic2qJ8QpoG7zq3jIHEu0jX2cwHTSMkezEgAaQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_010_2b48c86b860a.png)
 
 图11展示了4-step V斜极电机48阶噪音和速度的关系的FFT结果，3000~4000rpm的噪音案预期大部分被抑制。这种方法用于改变电磁力的轴向分布使之远离电机轴向扭振固有频率非常有效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJQ7SiaKCdN6u6r8Ody4ccpiaoKEbpQ7kRBTFDHC88y62I89UtvWkJ4Ticg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_011_89e98a965780.png)
 
 * * *
 
@@ -85,25 +85,25 @@ PRM在低速时使用磁阻转矩达到了大转矩和高效率，在高速段�
 
 在PRM之后东芝已经开发了一种新的技术，根据载荷和速度控制永磁的磁动势。这个下一代电机是变磁动势记忆电机。图15展示了传统电机和记忆电机的转子。传统电机只采用用恒磁化能力的永磁体。记忆电机采用两种永磁体：恒恒磁化能力的永磁体和变磁化能力的永磁体。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJUZRPiavW21Uzv4uIJJHbIm64ia6nWcYtfCGLJFxCsQ7ndF8sR7T0iabjw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_012_9709f8f5d981.png)
 
 变磁化能力的永磁体被增加的d轴电流磁化，如图16所示。电枢绕组中的d轴电流产生一个定向磁场改变变化磁体的磁场，像图15中的浅黑色箭头。如果负的d轴电流增加，变化磁体磁极将反向，如图15中浅黑色箭头。这种情况下，恒磁化永磁体和变磁化永磁体形成的总永磁磁链将明显减小。然后，如果正的d轴电流增加，变磁化永磁体的极性将会相反，被磁化成初始磁化方向。记忆电机在更宽的速度范围内比传统电机达到更高的效率，如图17所示。因为记忆电机可以随着转速的升高降低总的永磁磁动势，在很宽的速度范围内降低了弱磁电流，减小铜耗和铁耗。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJkLbqgQTZYWuKFGRJ8X3UiavSMj6t3VHVSzAcLC47rial1Y6EkVP0xzEQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_013_a11807545fe7.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJouDISGZ70RKIticvXO2mMxmvJUWkkCtibNYCLOtAy9s7Udv27l8GbgYg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_014_5ab9e090c299.png)
 
 东芝制造并测试了一台原理样机。为了验证通过d轴电流改变磁链和转速的关系。在确认记忆电机的原理之后，按混动/电动的实际尺寸设计了记忆电机来评估使用变磁化的高速铁耗影响。8极、功率60kW、最大转速1.2W转。
 
 评估结果展示在图18和图19。  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJYrMiacdSicxQrBYSOk8Dx67H85wsuActqHms1NibER0QTvedCfrXCTEIQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_015_54fdf69d5252.png)
 
   
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwjaZWL1QbbmjOtPAGajntJvrNdOCTlcLheJiapRfG9cLNS8suNeDrrwUgLvZuQFibxAPr7svwCUHbA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_016_a6e01b166ec1.png)
 
 图18展示绕组d轴磁化电流和感应电压的关系。100%感应电压代表磁动势最大。图18展示磁化电流影响下的磁动势。根据测试显示记忆电机可以降低全转速范围内的空载铁心损耗。
 
@@ -149,4 +149,4 @@ memory motor，后期再做详解。简单理解，即是变永磁磁动势电�
 
 长按图片，识别二维码，关注我哟
 
-> ![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机内参_东芝(TOSHIBA)电动_混动汽车电机技术发展解密_images\img_017_d7f135e99ea3.png)

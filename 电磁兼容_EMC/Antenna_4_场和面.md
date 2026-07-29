@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/NJVD4pt93\_JMOv-4e2-pww](https://mp.weixin.qq.com/s/NJVD4pt93_JMOv-4e2-pww)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgrzygWTIy9jbFCwEGufyLI6bHqwVozlSV3SGwAuNzUibolOSJHftxGKfDUQVrI2oREKFNTc0J7iag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_000_ae5a7b459412.png)
 
 ____**★★★**______Antenna-4---场和面______**★★★**____
 
@@ -15,17 +15,17 @@ ____€1.电场（E-Field）____
 
 电场是一个矢量，意味着在空间中的每个点它都有一个大小和一个方向，假设一个E场存在于由下式给定的空间中：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRF92ibiaFyia99r9eazZ77Q5U6DdVujnm5Uz7Pa49RWibxq9AqBEpTB20kfdqCmtbXS1jibySftprZibdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_001_cf6d32c8c5b9.png)
 
 这是沿+z方向传播的平面波的电场，电场是线性极化的，并且“点”在y方向上（k是波数），波的幅度为A伏特/米。在时间t=0和z=0时，电场在+y方向上为A伏特/米，这意味着该位置的单位点电荷（1库仑）将在+y方向上承受A牛顿的力。
 
 电场也与电压有关--->入射到天线上的更强电场将在天线端子上感应出更大的电压差。然而除了低频之外，电场和电压之间的关系并不简单（电压是一种电位，有不同的定义）。在直流时，当磁场是静态的（不随时间变化），电场和电压通过以下方式相互关联：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRF92ibiaFyia99r9eazZ77Q5UWibODr61whBwLefCicETeiarSzKwtZ6BULv9YViaibC3VFTLCQ3ibqlq9GUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_002_0301c87043dd.png)
 
 图4-1是点电荷的电场，需要注意的是电场不能单独来定义，电荷间的相吸和排斥均是电场的作用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScu9CkMJxCJCxZ6tIXicvEk1E7X5QicYTpWDhaEEVN8yRG76SDjKotxteibhJ45OZftTYy1mI4QFgcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_003_bdf73a33dba1.png)
 
 图4-1：点电荷电场模型
 
@@ -33,21 +33,21 @@ ____€2.____电通密度（D场）
 
 电通密度（矢量D）对于天线理论来说，可以理解为与电场成正比，比例常数取决于被分析的介质，称为介电常数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRF92ibiaFyia99r9eazZ77Q5UOe6IhRcDFpaQZ5ia3Bh7pDqAYZ3zKKPp9GaD2pzs3yMeZBUWNXT9XibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_004_fbdfb919065a.png)
 
 电通密度具有电荷/面积单位（库仑/平方米²或 \[C/m²\]），介电常数通常与频率相关，有时是各向异性的（意味着介电常数取决于场所在的方向）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRF92ibiaFyia99r9eazZ77Q5UMS4oe0e3jeyR01Ub5mLVKkVI6GbZw4Xz2OZ7YkfcSaHlFicUZskicceQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_005_04fe5a9ed8dc.png)
 
 在最一般的情况下，电场通过3x3矩阵与电通量密度相关，也与频率相关。与电通量密度相关的主要结果涉及跨边界场的连续性，考虑图4-2所示的两种材料：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScu9CkMJxCJCxZ6tIXicvEkpkIfiapyzPajwqCUSk8Kevs3F9oWKaX1FWCd2Z2SCrEzsLgpgfpZMXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_006_005662af29b6.png)
 
 图4-2：电通量在两种材料交界面行为
 
 电通量密度的法向分量在边界处不连续，差量等于表面电荷密度ρs，其具有电荷/面积单位（\[C/m²\]），可以在数学上写成：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRF92ibiaFyia99r9eazZ77Q5Uc2PC8ekUa8wzic4e826XngehTGzJricp411WYVAhtK9vibZPv8PMBG6ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_007_0c1e8536efc3.png)
 
 这种关系在材料不连续性（介质变化）界面的每个点都成立。
 
@@ -55,11 +55,11 @@ ____€3.____E-平面
 
 E平面是包含E场和天线最大辐射方向的任何平面，考虑一个短偶极子，电场由下式给出：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRF92ibiaFyia99r9eazZ77Q5UqtJksNEVhsibXKibqNqic0NqFiaARGAn2ibEicicRxwmcUibicW7eOc8d8c1ic1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_008_927e08deae95.png)
 
 这表明在xy平面中，E场是垂直方向的（负z方向），见下图4-3。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScu9CkMJxCJCxZ6tIXicvEkDh4Dnm6a3doH6PUWp7ibiaUQFBk6RrugjwrfnmgdMbCsUz6kBNr4etew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_009_0b4a0fcd0ac1.png)
 
 图4-3：从短偶极子沿 y 轴的点处的场
 
@@ -71,11 +71,11 @@ ____€4.____H-平面
 
 H平面是包含H场和天线最大辐射方向的平面，例如考虑一个短偶极子，磁场由下式给出：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRF92ibiaFyia99r9eazZ77Q5UpLic98fpOljP4nbpxUMRqY3uLC4xFU6xucqcgMNN8h1O9Y1rQaqyJxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_010_b4184a2cf8ad.png)
 
 这表明在xy平面中，H场是水平方向的（在xy平面中），见下图4-4。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScu9CkMJxCJCxZ6tIXicvEkDh4Dnm6a3doH6PUWp7ibiaUQFBk6RrugjwrfnmgdMbCsUz6kBNr4etew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_4_场和面_images\img_011_0b4a0fcd0ac1.png)
 
 图4-4：从短偶极子沿y轴的点处的场
 

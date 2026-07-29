@@ -39,21 +39,21 @@
 
 我们的主要目标是设计开发一个温度测量系统，使我们能够在更接近电驱逆变器的实际应用环境中测量功率芯片的温度。因此，必须从适合的机械部件以及液压、电气和电子组件开始，使所有组件都指向上述目标。下图是已实现的最终温度测试系统的框图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaAWSXFuaSXvia8PjQ4udicWh69mPkoUjBkn6zWDcjjXp3PQoMdIcIQnJZw5W3hEM2ibQSqRyYpnn6w/640?wx_fmt=png&from=appmsg)▲图1：完整的测温系统 – 框图
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_000_b1f264a04d38.png)▲图1：完整的测温系统 – 框图
 
 测温系统的液压部分是由冷水机、进水阀、出水阀组成，冷却液在液压管道内循环流动，为被测温装置散热。进水阀温度和流量以及水套（水箱）的外观尺寸是决定逆变器尺寸的重要参数，因为它们直接影响封装的RTH热阻率。冷却液是乙二醇和水的50%-50%混合物，这是变频冷却器回路中常见的冷却液配制方法。为了测量冷却液的流量，在被测温装置前面连接一个流量计，在我们的实验中，冷却液流量设为每分钟3.7升。采用温度计检测功率模块进水阀的冷却液温度何时达到65℃的参考温度。铝制散热器为功率模块散热，功率模块的栅极信号由专门的栅极驱动板提供。图2是测温实验设置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSXcwltLX6RibMd5P4H3bL9v5s47jByuicbnTWS65H3yNQdXPhQWKMVmjlA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)▲图2：实验装置
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_001_289467dda807.jpg)▲图2：实验装置
 
 下面是设备清单
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaAWSXFuaSXvia8PjQ4udicWBnEQ4zXBIrQOicGChrl6xcJUErGOnbKuof2an6pr9owYVZ6nkHXP3Bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_002_20d89cf9581c.png)
 
 **二. 被测温设备和栅极驱动板设计**
 
 我们在一个连续高频工作的碳化硅三相功率模块上进行热分析。特别是，把功率模块的中间桥臂断开，将桥臂U和桥臂W的交流端子连接1.2mH的电感负载，获得一个全桥拓扑（图3）**。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaAWSXFuaSXvia8PjQ4udicWyazhfyiaViaRhT7225unAoYpA0ic3w6OlGqCH3rvo5fwBCxmG9n5AOeZA/640?wx_fmt=png&from=appmsg)▲图3：半桥等效电路
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_003_a4222a21b906.png)▲图3：半桥等效电路
 
 如何通过多层结构实现驱动模块是在开发测温系统时需要重点考虑的一个因素。第一级（电源）利用DC-DC升压转换器提供+18V和5V电压，这是开关操作所需的电源。第二级（主板）包含驱动器和通断电阻，用于驱动电荷注入栅源极电容器，以免在开关过程中达到器件的击穿电压。下图是这些板的3D模型。
 
@@ -61,9 +61,9 @@
 
 最后一级是由Nucleo STM32微控制器板实现的控制模块。该模块采用单极PWM控制方法，用相同信号驱动两个对角线上的开关。互补信号及所需的死区时间用于驱动第二对角线上的功率开关。根据负荷工况和实际工作条件，设置PWM信号的占空比，以获得峰值电流达到设计要求的正弦电流波形。图4所示是PWM互补信号和负载电流（460 A Imax）的相关波形。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSXD7jF8Xr6AN3ict4u1ZtUibSdUgEbESSVS0XnDTbpT6OZHFicBPfeqVlKw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)▲图4：PWM驱动信号和负载电流
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_004_89573f7fa3d6.jpg)▲图4：PWM驱动信号和负载电流
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSX7QhVlNTnBbPuIO993UYRLQ61v9qe141puduVmic9osJAEmDicZ1dKAGA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_005_5b6987a1f2ff.jpg)
 
 ▲图5：栅极驱动板 – 电源和主板
 
@@ -73,11 +73,11 @@
 
 在下图中，可以看到所使用的测试工具以及直流母线和微控制器板。因为高频电流会流经汇流排，所以，在设计阶段应特别注意汇流排的正确尺寸。板上有两个开孔，方便我们直接观察被测芯片，并用红外热像仪测量结温（TJ）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSXIhKHmP38ELN8vkOJrAU0n44ch0UD0AVWtDaZowENkfAHY7Iqp6FywA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_006_8ff89e1c3979.jpg)
 
 ▲图6：电气系统概述
 
-被测温SiC功率模块的特性如下：25℃时通态电阻典型值RdsON=1.9mΩ（每个开关），标称电流Iphase=340A，击穿电压Vb=1200V。图7所示是全桥转换器的一个桥臂：每个开关都是由八个并联的裸片组成。在下图中，我们可以看到被测温器件的内部电路布局，并确定组成上下桥臂开关的八个裸片的位置。![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSXTIXgFC0U4A2VS7A9qdjdQjSibUqscic4ZyWRuFBTib2kKqQOiaIqfLG0RA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)▲图7：被测器件电路布局
+被测温SiC功率模块的特性如下：25℃时通态电阻典型值RdsON=1.9mΩ（每个开关），标称电流Iphase=340A，击穿电压Vb=1200V。图7所示是全桥转换器的一个桥臂：每个开关都是由八个并联的裸片组成。在下图中，我们可以看到被测温器件的内部电路布局，并确定组成上下桥臂开关的八个裸片的位置。![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_007_bbbc7efcf4eb.jpg)▲图7：被测器件电路布局
 
 **三. 并联芯片间的阈压差对温度不平衡的影响**
 
@@ -89,7 +89,7 @@
 
 只有完成实验装置校准后，才开始拍摄热图像。图8和图9所示是GAP 1模块在开关频率12kHz时的红外热图像，同时给出了开关内每个芯片的结温测量值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSXV7ic6DQM3ZDBNetm7qk42ksYhjXNicTScicDORm2JJqgUcibqPsTeUfEBQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_008_6cc7a99f892b.jpg)  
 
 ▲图8：桥臂U在8kHz时的红外热图像
 
@@ -97,7 +97,7 @@
 
 下图是桥臂W在开关频率12 kHz时的红外热图像。
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSXdte1QxIDIyibgTC2VL1XvcCnTpRS8QFhh55BELHeqsbibDuXOc7Xo53Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_009_58c07443e99e.jpg)**
 
 ▲图9：桥臂W在12kHz时的红外热图像
 
@@ -109,7 +109,7 @@
 
 表二：测试结果
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/MaEOiabcLyPFibMgeA5Wv70auUrHO22vSXkx2QPf9BFPTQibbkDzicxNvgQEJIbpoHo4UfD5fsOSDObwUH3cXB2mMQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)在GAP 1模块中，温度最高和最低芯片的温差，在8kHz时为4.4°C，在12kHz时为4.6°C。在根据选型标准选择Vth的GAP 2模块中，8kHz时的热增量为6.3°C，12kHz时为8.7°C。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_010_0a243880f7f6.jpg)在GAP 1模块中，温度最高和最低芯片的温差，在8kHz时为4.4°C，在12kHz时为4.6°C。在根据选型标准选择Vth的GAP 2模块中，8kHz时的热增量为6.3°C，12kHz时为8.7°C。
 
   
 
@@ -123,8 +123,8 @@
 
 从实验结果来看，对于给定的选型标准，提高开关频率降低温差的方法无论如何不如降低阈压分布范围更有效。由于测量过程中存在许多技术问题，其中包括总线过热和电源电压纹波，因此，无法在上一代电动汽车的典型标称电池电压下执行测试。预计这将会扩大温差，因此，从选型标准或器件阈压范围开始，能够预测结温热不平衡的数学模型将非常有帮助。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_011_ecce5de33065.jpg)
 
 -   **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
     
--   ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+-   ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_012_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\意法半导体_电驱逆变器SiC功率模块芯片级热分析_images\img_013_84aa944feb13.jpg)

@@ -22,7 +22,7 @@
 
 传统硬开关电源（比如反激、正激）在高频工作时，MOS管一开一关就会产生损耗（电压电流重叠导致的**开关损耗**），频率越高损耗越大，效率上不去。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOiaiciaTSWOGrMW2RFj2hyZEdPauTswkVqtLiaQRIF3lPtQnHq4IH1g4ibicw/640?wx_fmt=png&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_002_49c621a8d8b4.png)
 
 而**LLC谐振变换器**的妙处在于：
 
@@ -72,81 +72,81 @@
 
 ### **还有一些计算公式和举例，大家就自己看了，以下是PDF文档内容：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOpreVI17cIWoRcevASKupMp5dbs3vGAAN58FneoxweRmot1Bakgj62Q/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_003_f485bca456df.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOxkTOvice5TlxbUFWAKBOxcg7iaI07zXQDp0KhTrN12b22uPGqHeZHS9A/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_004_4d0e9baf68d0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsO7JSg0CUg0ARrjZEUGvlMmwLehjcpGTH5c9gkxiaPJcOFjDr5sddkaAA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_005_d3230d071823.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOXG0GaU2LQdYIy1alQQ4UtugQQUGAzL4j1QD4nBJza86TPmTqribuzcQ/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_006_8df1d54bc2a5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOvN8oImWqrmXCvsowqPC0NthZ8O3qExth8D1vR00zxRzHsSxicOWdwqw/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_007_6edc398f6568.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOM5rS9mOzGX90e6iaoOFBkh9pMzRFkbYEyibOA8bXvKWPmbXia86FCqdQA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_008_352d31307fa1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsObUdWUQ1QibOdDlBJ5K3XOZDyKc7nc0tm0pQiaoLViaJGYjVr8aufEf83A/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_009_135d13fd0090.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOFhrHvq9BlEWibJXpia2fibaAoMG4VQDWiarXWwanVVmYRBUEQP33e5ApLg/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_010_c36e15ca2fcf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOM8SszZ8icxlr3KEHykaoJ0bsibtpEhPe3An4lXyv58rOtceuqQj0lEXw/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_011_b134185832e2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOiczkPR0QRdtnuxt3bzqbSLPJrmAaRao3p5tYpkEH778r7pH9vJhlERA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_012_ea54deb17946.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsO6G3ibOH58k9tYwCCiawLxav7tkfgjhGqC1ZicNnXIMibicMeBEAibYMsJ5CA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_013_1b97914ed96b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsO9UhSich021HzFgQ0Kr5bTwQNnLJknmvRjPW29wl7or4qxxE1viaFsKPg/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_014_2a5266743e95.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOAJtiaiafyrqfkxohcz9aiaJdpQplm6XHRUaWneJQsibe7Zs1XF4GNjOC4w/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_015_1cb2374ed2e0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsO44ZxP2icribwgujhWl1Z6rL3ia84pibCPzFgJ4A5aMVhCzLgTDOjadDK7g/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_016_f63b2780b2a2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOxNUSPTdjX0p3hutWXicssa1xW4yfcEGSmWznvknpKEk8YJ3JENJmbxw/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_017_a4e97367d710.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsO7hryUK5vk8M1CV5eGd4JB2y7FMtj66lh74sfAIhAuicb0IZAM4yN5ibQ/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_018_5abea0acabd1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOYIzdkECPdG5Nrpa5ZLDnTyicribGVBwpesj9ibQW4XQZiczySn6aeyNNiaQ/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_019_be24c87dc1e7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsO6cFPgCHEfEC6Dzjib3gw1S2xVxF5nVFxXWgeTH4sQbq4GZ0LiaNouibsw/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_020_3254a7b9cf1c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOPeOhdUALQ8WGC1GROric430ExS2TDxdfMWN1iaEAeic6hXWCsKzrR0g7A/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_021_2a7b95f78abd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOz2o1mmLUOlcEdblPgHB6KibGbiaaen3XqGyiaWTniapKfhTjeD0iaicYFlicA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_022_539b7b340505.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOzPcBKTEn4dLiaibMQI3zxbiaTuDTIMN5sbJ4axA20RzwZ2s7gyicmRcUoA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_023_e50919ce358d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOgF6H24Js9Tnna5BnXgMWcBdhXnRbRDLYvVeajVTx7IoEzicLJzncVYg/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_024_d1574eed6364.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOMCDyYU063plWTCjMRHQYxAtfzHyWonOUYoxvtCLIgRcd7iaZxSic9ia0Q/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_025_94910ff18d68.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOyqPk0F9T67uqce03oo85Lvxp5srnanFcNY0caUxKqtXQsHccyb5VMA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_026_0ac7c63d9d35.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOrOLtqutKZWA9BxRklZ026gBCzLurSaPKq43yxWz05qvTSrcrX5Ke0A/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_027_74c325ba083b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOYia8ict0jIPLKOYuXaMlwobtQibucjgDfVQsnNdQWep31mHMKm9ce1T7g/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_028_218ab713c9bd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOSeiaArFke7jgC8z3fnic23RNricjaicib48PRChKf3jh0HLiaEmKf2zNovKQ/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_029_56d77ab510a0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOCHfGdUZhNxBL1DTWbViahicqP8yRMObPiaiaukuicTsB3StsON2qk0r2gXQ/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_030_7d62b8ac12ee.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOce67xRaNPhH5dJZcibZsxtkXtY0dLD9nznDHqlClnWw8jwrSdQS71tw/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_031_a8b19e05b954.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOPia5WKSkeE2ho9iasBGiag4cLjfFCsGhTic2eVRAwiaibgQvAicZzNiap6lYIA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_032_04a1fb3d1305.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOQWv0Kdpx0PTY9iaCaLscUA9FUPSYib2ia8qNjjhiaciatN4tobWK1XXFnZQ/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_033_74ac4ef0fbe5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOwJ1MgNHX1azcAol4gc8GSPtoCS5dPegIcwVk0KZichMMYZLnNUD2eqA/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_034_c291a5e2343c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOJ01uy5JyIicTiaFPxhrWL2XdmfhfEvFNR4lr7eibgLndBxV8T1px5e1lw/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_035_12e24a2a1044.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOAjua014kzvU80buLooJ8wuicBULrvWzZu9rwtn44u3vkh0sOPWMlx6w/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_036_2240e02f7702.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOBUQj7cWE7JkFTWcDC9qqYnCz5VkgCS7jVlu4tZms6E7RClia2FETVgg/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_037_9b8e64ffd5f3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOsxBIaME92sJSmXZF7Fg8tHqsTF7nulnEUPBKwv1Bub86bugteNeYNQ/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_038_764ea45b9dca.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOYfQL7WViaENo5y0mTtAIohykbaPkPnfekgAsjH5E4hK0y3ToYpzEesw/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_039_ca6679fba7a6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjqicEW3GymFXXDxQ3m81PsOkRiaYiadUazDaSVruMfDgcfoHLUH1ia9Jhrc8yDyc1XTgEN4iafo6ibtia8Q/640?wx_fmt=jpeg&from=appmsg)
+![](做电源_不懂LLC就亏大了__images/img_040_ad1e81dbc9bb.jpg)
 
 在微信公众号硬件笔记本，后台回复LLC谐振转换器的设计，即可获取PDF文档。
 
@@ -162,13 +162,13 @@
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](做电源_不懂LLC就亏大了__images/img_041_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](做电源_不懂LLC就亏大了__images/img_042_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](做电源_不懂LLC就亏大了__images/img_043_8f8c22b4fa63.jpg)![图片](做电源_不懂LLC就亏大了__images/img_044_d5dcc7ecfdf3.jpg)
 
 ## 
 

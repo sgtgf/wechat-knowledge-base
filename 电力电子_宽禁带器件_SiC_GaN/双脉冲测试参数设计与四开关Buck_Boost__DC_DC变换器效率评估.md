@@ -25,19 +25,19 @@
 
 在实际应用中，开关管通常以互补的半桥电路形式出现在变换器中。因此，在开关管性能测试中以半桥电路为对象，已经发展出了一套完善的开关管开关特性评估方法，即双脉冲测试。双脉冲测试电路由母线电容CBus、被测开关管QL、陪测开关管QH、驱动电路和负载电感 L 组成，如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNTWQRgytq8B4y5pTOU2G6VGiaicCkBk7KFm36Kia6xRD8mQTgickicFAcG3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_000_8a70f3902c04.png)
 
 当 Q H 关断、QL 开通时，可以观察 QL 的开通特性，通过分析电压与电流波形，可以获得开通损耗。QL 导通后，其导通电流会迅速上升，当 QL 再次关断时，可以观察到电压尖峰大小和电流衰减过程，从而获得关断损耗。如果第二次开通 QL， 那么陪测开关管 QH 的体二极管就从导通状态切 换到截止状态，此时可以观察体二极管的反向恢复特性。根据实际需求，可以通过调整开关频率和占空比将电路调节到实际所需的电流条件下， 可以通过观察分析两个脉冲来SiC MOSFET的 开通、关断特性以及体二极管的导通、反向恢复特性等。
 
 在测试中，向QL发送双脉冲驱动信号，就可以获得QL在指定电压Vset 和电流Iset下的开关特性，整个测试过程如图 2所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNfavyaib8Tqn132vkxcQw5MUOhZcM2bppcG99ibaG5lraEB4HUJUxL60A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_001_b94c3539b146.png)
 
 在实际的双脉冲测试中，测试电压条件是通过设置母排电容的电压 UBus来实现的，而测试电流条件是通过合理设置负载电感的电感值L和开通脉宽（ton1 及ton2）来实现的。在 t0 时刻，驱动信号输出为逻辑高电平，SiC MOSFET开始导通，电 感电流和开关管导通电流也开始增加。此时，负 载电感L上的电压为电容电压UBus，电感产生一个线性电流 I。 
 
 由于UBus与 L为外部参数，在系统设计之前即可确定，因此第一个脉宽的时间长度可以决定电流I的大小，其公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNygVupYaNRaCysGnGgx8aFkRS8NU2vtwWaJpWDxwPDUDnSgvZhj5N8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_002_1714674947d2.png)
 
 在 t1 时刻 ，驱动器输出低电平 ，SiC MOSFET第一次关断，电感 L上的电流经过二极管续流并缓慢衰减 。 在该过程中观察SiC MOSFET的关断情况，可以获得关断过程中的尖峰电压，从而可以评估PCB的布局是否合理。 
 
@@ -53,29 +53,29 @@
 
 假设第一脉宽宽度为 τ1，被测开关管QL、储能电感L以及母线电容CBus 构成回路，负载电流 IL开始上升：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNan4sGhzPqmMib5SRmYuLxbH1fiaEF6p0r3ibn5XIibhtu7RaezPxWK5s6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_003_b136ad0384de.png)
 
 式中Res ( L )——负载电感的等效串联电阻。 
 
 在实际测试电路中，为了保证开关管两侧电压基本保持不变，在此假设CBus足够大，使得 VBus在测试的一个周期内恒等于Uset。同时，Res ( L ) 和SiC MOSFET的导通等效RDS 都很小 ，可将式（2）化简为式（3）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNykDlAiaOWfrhiaBibWCVqVIYibjpcL7YfBN6fkUvrK0otL4p0fu1FsHUOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_004_613cce56850f.png)
 
 其中，电压通过设置直流电压源输出电压给定，电流则通过第一个脉冲建立。为了较为准确地达到指定电流 Iset，第一脉冲宽度 τ1可以根据下式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNWu50V1KY8zGDvcic5ibNG9Ex40Re9V0jiaz885B6M2zSiahFTEA0BnGyow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_005_96528622282a.png)
 
 在t0 时刻，由于L的等效并联电容、陪测开关管内反向二极管的反向恢复以及结电容的影响，QL开通时会产生电流尖峰和振荡，需要等电流振荡结束后再关断QL，以免QL 在 t1 时刻关断造成影响。这是对 τ1时长下限的要求。在大多数实际测试中，该时长的经验值为 1～2 μs。需要注意的是，过长的 τ1会导致器件产生明显的升温，使得测试结果不能反映指定温度条件下器件的开关特性。这是对 τ1时长上限的要求。对于单管器件，τ1一般不超过10μs；对于大功率模块，τ1一般不超过50μs。具体参数设置需根据测试目标和外置环境结合式（4）确定。 
 
 对于两个脉冲之间的间隔 τ2来说，当t1时刻QL关断后，需要关注QL的UGS从开始下降到UDS振荡结束的整个过程。这是对τ2 时长下限的要求，一般要求τ2只要大于1～2 μs 即可。另外，在脉冲间隔内，IL应按照式（5）缓慢下降，其中UF是陪测开关管QH体二极管的导通压降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNIk5l3la84tWeia4Fjv5Jdic88ToL9A61M7zUsxkCEgqSD4varpxH6Ckg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_006_1e4902e49b3b.png)
 
 但需注意，如果 IL下降幅度过大，与Iset 相差太大，则无法达到测试目的，也就无法满足QL在t2时刻开通的要求。这是对 τ2时长上限的要求。 该值与 τ1设计过程相似，具体值需要根据测试对象和电压、电流目标值进行设计。 
 
 对于第二脉冲脉宽τ3，在t2时刻QL开通，在此过程中需要关注QL的UGS从开始上升到IDS 振荡结束的整个过程。这是对 τ3时长下限的要求，一 般 τ3时长只要大于1～2μs 即可。另外，在第二脉冲期间，IL按照式（3）上升，在 t3 时刻达到 IL（t3）。 当 IL（t2）与 I set相差不大时，IL（t3）为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNzFAOmw4gt0pzAp49ds2LQmOYIiampCZ3wribibdWBsPOQJVepicPqBFYyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_007_ba128206ce80.png)
 
 过高的IL（t3）会导致关断电压尖峰过高，当超过器件耐压时会导致器件损坏，或者不符合开关管实际应用的环境，这是对τ3上限的要求。为此， 可以要求τ3小于τ1的 0.1~0.2 倍，即 IL（t3）小于 Iset的1.5倍，并且越短越好。
 
@@ -87,17 +87,17 @@
 
 在 t2 时刻，开通电流 IL（t2），其中 IL（t1）\=Iset， 脉冲间隔 IL 按照式（5）缓慢下降。双脉冲测试要求 IL（t2）与 Iset 相差不大，则在此前提下可由式（7） 计算负载电感最小值 Lmin，其中 Ki 为电流下降率， 一般取 0.5%～2.0%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvN6x8lY4YPcf3ISn6vhczwv7ehWleYlPlE9gaiazticZz3z3WmYVHxLoSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_008_e974ed6dc657.png)
 
 为了避免关断电流过大，要求 IL（t3）小于等于Iset的 1.5倍，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvN3cTvQvE9y5kBDxzbM4KRU91iahx22lhfMEzOaSHriajoqhH4AkMAKwtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_009_ee3cb05305d7.png)
 
 2.3　母线电容
 
 测试期间，需保持母线电压 UBus 恒等于Uset不变。由于第一脉冲期间直流电源响应速度较慢，IL由 CBus提供，导致 UBus会有一定程度的下降。 为了避免UBus 下降过多，CBus 需要满足式（2）所示要求 ，其中 Kv 为允许电压下降的比例 ，一般取0.5%～2.0%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNLf4Y7J7Z8kAtGQUibg81bAH9CicmTVbaJ3oM5GdNRWXgQr65WSVjDVlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_010_158b5dbe3472.png)
 
 由式（9）可知，负载电感的电感值 L 越大所需的母线电容的电容值 CBus也越大。然而，CBus过大会导致母线电容充放电时间延长，且在测试电路发生故障时可能产生的后果也更严重，故倾向选择更小的负载电感，以降低对 CBus的要求。
 
@@ -109,23 +109,23 @@
 
 第一步，设定 τ1，τ2，τ3的最小值，分别为 τ1，min，τ2，min，τ3，min，它们需满足下式条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNiaCQQzXQx0xHBpHZL2viaRpFV1apZNzCJK4ukztt3sqBR1EICEq9Eflw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_011_67e5cb33d953.png)
 
 第二步，预设τ1备选取值范围τ1，min~τ1，max，通过下式计算出对应的电感取值范围：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNjwgU9pyKbqtGbias2fArMFbEkhDHB71LUIDyOVv6WyYsGY528Y9lUwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_012_9912cf4b9e09.png)
 
 根据L的范围计算确定电感等效串联电阻Res( L )的范围为Res ( L )，min~Res ( L )，max。  
 
 第三步，预设τ2取值，将Res ( L )，min~Res ( L )，max代 入下式得到L的取值范围 Lτ2，min~Lτ2，max。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNLzt8jMZvDvtPrnCJe1Rg28doF2ZeDtFSHk0lGHmOZMs6sKX9lQibhsg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_013_fb479bcc3e12.png)
 
 第四步，根据 Lτ1，min~Lτ1，max、Lτ2，min~Lτ2，max 与Res ( L )，min~Res ( L )，max 的对应关系确定L的取值范围，并选取最小值为 L。若 Lτ1，max < Lτ2，min，则返回第三步，减小τ2的预设值，直到确定L为止，若τ2减小到τ2，min还未确定L，则返回第二步增大τ1，max的预设值。 
 
 第五步，根据下式确定 τ3 的值，最后按照式 （9）计算 CBus。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNo0L0aRIpwgYaWBwiaaeERlqOdrhe5pvZ9uayJW7Ue9BmNCKicUJg3K8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_014_56b947cec31c.png)
 
 3.试验验证
 
@@ -133,7 +133,7 @@
 
 Buck\-Boost 双向DC\-DC变换器硬件测试平 台如图 3 所示，右上角所示的DC\-DC变换器由两个Buck\-Boost并联而成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNHE0fGla5KfEeZXYqibDFUTIdssdoBLeAiaL3ticU0ibHMhY90JmAHApCxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_015_9fe1cf749cad.png)
 
 为了测试SiC MOSFET 单管和双管并联的开关损耗，功率板上一个变换器中的开关管由一个SiC MOSFET构成，如图 3 中标注 3 的椭圆所示，另一变换器中的开关管由两个SiC MOSFET并联构成，如图 3 中标注 4 的椭圆所示。整个控制系统以TMS320F28335 为核心。图 3 右下角所示 电路为四开关Buck\-Boost 变换器拓扑结构，其两端完全对称，通过调整占空比可实现功率的双向 流动，详细控制方法见文献［13］，在此不再赘述。
 
@@ -143,7 +143,7 @@ Buck\-Boost 双向DC\-DC变换器硬件测试平 台如图 3 所示，右上�
 
 在已搭建完成的双脉冲测试硬件试验平台的基础上，进行了单管双脉冲试验。SiC MOSFET单管双脉冲试验结果如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNkDm7FUMFs85mDMoyXG1iaEB1ZcLibbmdcjTVN9mV2gKbav3rIDpVEmfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_016_4b3a10646181.png)
 
 经过式（4），式（8），式（10）和式（14）的推导计算可知，以TMS320F28335 为核心的主控板输出 脉冲宽度分别为12μs和5μs、间隔时间为4μs 的脉冲信号。脉冲信号经过信号驱动板后传递给主功率板进行双脉冲测试。 
 
@@ -151,29 +151,29 @@ Buck\-Boost 双向DC\-DC变换器硬件测试平 台如图 3 所示，右上�
 
 SiC MOSFET双管双脉冲试验结果如图5所示。主控板输出的PWM信号经过信号驱动板后传递给主功率板，进行双管双脉冲测试。由图5可以看出：两个开关管的电流基本实现重合；随着脉冲时间的延长，电感电流偏差逐渐减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNkjDI4v3yzDzmmeNvteNuWXbx4NicK2cliay7Eakz4iaH4VkydGdI9OP4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_017_d3caf468beac.png)
 
 3.3　损耗计算
 
 为了获得不同工作模式下SiC MOSFET的开关损耗，本文对单管和双管并联模式下SiC MOSFET的开关损耗进行了测试，结果见图 6。 图 6（a）和图 6（b）分别为单管SiC MOSFET在开通和关断情况下的电压电流波形与开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNXBHpVN7gQnDHXK6Ppxiadpj55VHg8GTibSABk2X0ugPHhDgCx5Htu1FQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_018_23d99141831f.png)
 
 通过调节导通电流并记录不同电流下所测得 的损耗值，采用 Matlab 对其进行拟合，得到开关损耗与导通电流之间的关系，如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNBpKzNOT88eQXwiazGC4Sic7taHglLvXBcza8XibgMlKkgNHNVDiaNJia7WA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_019_bfa51cc79eb7.png)
 
 采用同样的方法对双管并联模式下的开关管进行损耗测试，所得损耗曲线与单管模式下的损耗曲线相似，相应的开通与关断损耗曲线如图 7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNpJOlAvdRQlO6eknZSLHibN896wniaCEbvGrVet9ibY0mojGHsNYQxRd7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_020_c6bc9c9558f6.png)
 
 同时，根据所选开关管的导通电阻，计算出开关的导通损耗 PCon\_Loss \= 0.086i²ds。因此系统总损耗 PLoss可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvNCia3Whic7B3Kfib1Ho2hAbVO9bOwRtBUCH3Hcp88pl1Ey1elFHPr7KPcg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_021_78f90e26df96.png)
 
 根据式（16）可得2kW 工况下四开关 Buck-Boost变换器的传输效率如图8 所示。由图 8 可以看出，随着传输功率的增大，系统传输效率先增大后降低，最大转换效率为98.7%，估计值与实测值相近，表明所设计的双脉冲试验参数可用性较高。 微小的效率误差可能与系统主回路中的寄生电阻以及器件本身的非线性特性有关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU346R2MgpI3n8tL2pgibvN2gLZJLQ0Aiaicnelu7KvnZlwLnic079EtkfCRJs4XWohnib9a5eibfOvWtw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_022_5bb0be498648.png)
 
 4. 结语
 
@@ -183,13 +183,13 @@ SiC MOSFET双管双脉冲试验结果如图5所示。主控板输出的PWM信�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_023_20c736999b55.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_024_6ed4edec2536.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\双脉冲测试参数设计与四开关Buck_Boost__DC_DC变换器效率评估_images\img_025_a0d22bd9c6aa.png)

@@ -8,71 +8,71 @@
 
 作者：Jonas E. Huber & Johann W. Kolar
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPuUrPU7mv3oukbvicuyXc4Toq7ZZEibM2QqXb0LtQibnJ52KOFfcGEFs6oquBXahSOxTCHQwPr7Q1vhyGY8VQSI61luJngdbh9Qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_000_84337875990a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPSV8lxibvaZD73qOJO32jbicIc7Gpf7eh46Zu8pKQCsNy73AicwfobuBLdsCqgiblgoSRoQP10L9F4k8OYVEJQG4KrF5VNYQiaZBBo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_001_b54995efc098.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMZ6hgO9MtfznBWwBwkBStQzncbuiagk7dQn7M2wmrG8nhY3f5QAibUvibT3HvS0FQVjQLbyw6SUMATksCDJnmAEH37v9S20p2404/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_002_ccf4f4a9c253.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP0dUe7xU6SjHylF9dWeGf79HNGneNZaGNmISAUdsE5GC74oNslhn85eqjIiaA0bQdsEhZXg3nAia3NichSyZxHV6zaVJxtpzwk9k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_003_553e92ac35f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNtiaJvMBb1RAeetQk0MqZHN4hlUSwcDFqneU39Q6aZbh48I0OGJ1kia6RhQmTvwFBJ01x4V9MC1OECetqqpARp54nkuAj8VtzVc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_004_901954f31afe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMN3icWk76zqPyQaqCXbfLgWII4FmJiadblcNSgLHEicVyeEibibPgwGQxrjC5WwyIDmuiboUhuiaecPicZTm20ibjxENwiaR5ONsDjaOy7I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_005_7c25b043e1ab.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMyCtEpPmrYI9DGzSDxDhpNibicQgEmnbvW6VsBJtEChHOUuibJUrjoJibtMVmj4pmegXDuSRkSkDBh9LEHqlgf4oDCgdnbX2Q8Kw4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_006_16e8518c052a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMVtTmH6aVxMics0gwlVJog3onLwOJjWmR4sStib2lYWIia5z9qGyA092s61GJYTicVQzQqo64qBMxic1h38NLbIOUwqo84CnzfwMNM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_007_e54bb7eb85d7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP3WFBicgaAKoKlibGV8aDmgjMea5QFWfNiaN1AS5o0gbzosrKLdU8U2qf1hLpHJQcFubUQawWqL3dEeDMm3trPy9yxTUGUiaLX8Zo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_008_998b38db8d2f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNxF4UkpicjImSHG3qBW44YvlFN5rvg97NA0kyOAnp1IwgXYOGgia676HVFPpwdZF5k5Vu766KdjJqiamr9rr4P2ATG1NRUuCT0zU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_009_0d361da80cb7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNu2dxpicicHK4n42anYnnAU0st2EcYibtdyic00nK3zBSYOfF8VtCW5w1Ob4LatSfwHvvRp92icFtibFLQltiaiawGibvFbOLeFBRUiaiaeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_010_e77cecc52af1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpONOVw6Wh7rQ6ia3EgoI9EXRoL5joQOicNictJKvOjj5bfdJfiaHdJ69kVZsbYvaChBSBqhM1t3XRpnFddgZktjCJWo3smxAtfjCEI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_011_815d497ea2b6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjzWsffDaJ8lq4WhTygSZicN7csg0YDyGnM5yQeicDQibxqicWhS5ax5JCxDybLPMia70abF8KBtsC1Qv9279ibyNJ7GU3H0t7C06kQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_012_e69533ab9db9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPhmMd8DcZ0zjBSteVx0QEwypotx0Q9DiaicVeLuUoMxQibeiaMhibo8ZsUNVzDanqDR4usPDAmZPDpDTSd79AKx9xAQIJtLoQaA8uc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_013_f1df48093d2e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLZ8FwIjicpibBvSKbBeYgJETgo8wNZdQmiaZvZscguQqm309CjguCadz0IDI826QdL5qJQnYgoCghqIfFs1NX5yRfTn0tPdQUxk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_014_f9f9d158c3de.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMUaItKvUT8tGPWeHWeRZoDdMR63bHtTSDuC4XA9c4wqQG19libic5bL4ACwibu5xWvbfFQ1wia6uEJQEFiadubvAjyuwuVGNibqeOCE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_015_95fbb84304f3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOmGwtOFnTHnb8cFib4Ccv7x6Lz7uTAkUeibnkeKJvgibn3icibcbvlDqWM1qJToUzzsLp2Kn1gKqztGVHY53bF6uicBBOz9diaiaaoZcI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_016_520dfa194882.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNN7icqrVzHHPDMQ7x7vPD8ia51h0DfxL1nr6ibGLweP7qmEhfNptQUD5q1HDmWVETqtxHYxRTQ6ibUgfMOUnFP7wsepx2HalZeytk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_017_885c6958a0f9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPTq2X7EVf5gx9hibyjzSeesMQYUvYBBTRJEWuPVU6icToLI9A2ANFhpqY3FDlhmM29AOdxhmIGdcJichiaohQmpTiauoJSyadK8AOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_018_18a442626aff.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPE5LKEGwjMicLHX86jic43DPIXNccLwSQehZFWbrbaEEvqtTTshbh2CJMZ6GEtXZChibicamhsE5GClJqmAvr70ZRjhsQmP5icR7GA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_019_07e0ec1f0a6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNpP0Qpl9Y9iaMia0gXaTlZEDRES9GsyT5UdKTYcGd050lydqu7iazAK0q2vNK8oHoeXKUGwwxp6tBUQFetCUjbalEL597qxchhic4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_020_66bffdd078c1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMbgKJcntwnYcPqJrCSMa5aIialqVJsTQjv1Z8wJFQaUdMicXB6JF2ibm8t5JmTuKAa7VDqBicNzNGRiaY3QlZIibocZvj0L0mpSpIks/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_021_d5c51145146e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP1yyHEpwUOyO7fOvjGpfHvic11Ua4n85c81YZvkLbummeARdtMianHh1zoibNaHLyibl1ibUHLMxiaxBTFniajZrmAib7yYHMq75aanow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_022_49704934ad9e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRMiazOONcyyUbMibsXbvMQ0amvoEF4R0icz8g5YPVaBiaUQqcJib0rRZSVbdicJC1SupoLDl1zNicZcdESEwRY24DeADsqoicej9Js4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_023_b62bb1240fdc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMiaPbQcoEsD21VBjPibWdjUCblRu8z7GUtfa4ibToiaTLba9cLDCWvvg9KVVE1dHoKfyaHMmo1HGBEWynAkC3eXSwr7FibSMYDALjM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_024_b39d510ce16a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKQjrHdHWOibXDYJSTEibBYLvzHpb9MUT06g8T6Q5eLfaJvFLYPYqHfMknVPl1m1okr58LB7MXCichT7glGgsN34nlMowQVG2sFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_025_60f90aaa20c0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMIypk7XfBujjX2iam0WlrgKnZbvqTIMw2iaSV7w7MrWDfSNFd0vjtWOmVb1RIBuVWKMia4zsc2APzH5KxQOIqx1UfNV4Z2kdDdbc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_026_90c51e7a5948.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNic2GFpQBr8XiahPzbic2JKP43x1nkqxmOaibia88GmM4n2YGv3gZ2aECM3dGdY7TYnOa0DA3waEnN88RCtsm5RTaia87TA9T5iahRIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_027_f9a87bc6076e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPrmD082AhnSLfunJXZMYsAvyvicyrb00KtgqOg9ibkHRNFexDoKSuPgJC24qAMzmdbHWF7TYfGqfQ2V6gkYtAVWiaib10fTrIxXns/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_028_eb45025e0809.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMuicQp44oT5mfC5s150epsHnYK8ElYEH0mymKBMPB11qRzmkrFYrSNEejcNmxGCribbzLkDQGqJCZ8NykEq59FdviaIiaSg6u07qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_029_4e4de8428d06.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOqTOtqh7kS0rXODS4DEqSSkTEW5yyzC5UQuk3y4a6u1Tg91nJynSbicUDF3AMCTD5xsL8YM07hYctPQwmAqPl3mpxkg4iczobsI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_030_866fff0a3974.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOdTjicJa2l8w3b45O7rzC5y4fskeSAeFzUEqvX8oJDnibJHO928mYTdgIVib28F9sXZ4Y9P57iayumKry1Z12RVnV8IIGFHyWSUuo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_031_450c76e3cf2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNhKFBIxEHxUnEDZjSxlTwSPbOiamtrYWH74Gg0t9ArLicIaLiaoEfX588yNUDlvxtga4Vl6vzfERIHRAIjc4xdGibDlFrtdljas74/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_032_b80a4d0e01c1.png)
 
 注：文字与图片报告无关
 
@@ -282,14 +282,14 @@ ISOP型DC/DC： 由M个**输入侧串联、输出侧并联**的带隔离DC/DC模
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNJmpzOtqBKZWkVJpjbKNsyb6b59ibbxmCicyoDL417QTZ3IvIPYIsQydib0pU68vkmEfx9VFYIaEWDJwEV6V3yibLbffTUbXunnzc/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_033_4a6102af1acb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtKJwicymKib05F9WRvkxoNtXw4G884vwSZaVbCsTnpAI1mhzztScibLic7aE9waXVDgia1HFw7Fvd2HTgLZvWshlef0jzMCCm6zxQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_034_e5568607ecff.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMyPSx4klpJiby7DCZicXv5NHFsv3ThZysfrS9hoNbrhcSS6icjbBh7tIUG6kf0piaaicLsLXCjVPRHhgFAVicVGYAib56RxNmsmdLarc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_035_3d6aace54225.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM89ZvQuL7LBDnnLsNibquSdjdN4noVSib3XY6T7skOVMTVDqweMhLMfEO87UmfxvJibwNm7MPuQLZicYtzDPxsf6AkQQ0G0VseuAU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\多单元隔离前端与隔离后端SST的推导与对比分析_images\img_036_aa1e0cb73f64.jpg)

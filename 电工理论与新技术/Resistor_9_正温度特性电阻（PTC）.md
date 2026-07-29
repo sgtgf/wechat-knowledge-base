@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/d0Nn9HcizhNzFlurPJqrfA](https://mp.weixin.qq.com/s/d0Nn9HcizhNzFlurPJqrfA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiaujIFwaWYmHdVPcKYmHT44MvrM3YCsibBibpMdMl2d7AsjwYJibTUYHZgTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_9_正温度特性电阻（PTC）_images\img_000_fab054c44d0d.png)
 
 _**_★★★_**_Resistor-9---PTC的温度特性和参数_**_★★★_**_
 
@@ -11,7 +11,7 @@ _€1.PTC的材料以及特性_
 
 PTC（Positive temperature coefficient）即负的温度系数，PTC电阻其阻值随着环境温度的升高而下降。PTC热敏电阻根据其内部其内部材质的不同，通常可分为：陶瓷PTC，简称CPTC，和高分子PTC，简称PPTC。PTC热敏电阻----典型的RT（阻值温度）曲线如**_图9-1_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHiclbekjibEQEdCGZbvzd4yBPhfjTfuQ9icCFPGndIib4a9uakWusNnBGI8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_9_正温度特性电阻（PTC）_images\img_001_49bb9edbf612.png)
 
 **_图9-1：PTC的R-T曲线_**
 

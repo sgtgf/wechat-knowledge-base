@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/vUyIK-ubcLq\_w8\_FyrmM7w](https://mp.weixin.qq.com/s/vUyIK-ubcLq_w8_FyrmM7w)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsP4icLCCReZXYe6TiaibYTCmBdAGqrSyFZ4USFjGAp4bMqR7WplmaPO0rLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_000_97ce659b25c5.png)
 
 SiC 和 GaN 被称为“宽带隙半导体”(WBG)。由于使用的生产工艺，WBG 设备显示出以下优点：
 
@@ -33,11 +33,11 @@ SiC 和 GaN 被称为“宽带隙半导体”(WBG)。由于使用的生产工艺
 
 　　碳化硅在短期内可能是一种更有效的产品，因为它比氮化镓更容易制造更大、更均匀的SiC晶片。随着时间的推移，鉴于其更高的电子迁移率，氮化镓将在小型高频产品中找到自己的位置。碳化硅在较大的功率产品中将更可取，因为它的功率能力比氮化镓更高的导热性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsP5qmcIXqY9FGSEFYL884TSFd3eSjn7KOekxv8QZToFV7FHoIgFWCJ8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_001_410f8976f2cf.png)
 
 氮化镓和碳化硅器件，与硅半导体(LDMOS) MOSFET和超级结MOSFET竞争。GaN和SiC器件在某些方面是相似的，但也有很大的差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPicMssdZYDpCRcLbc19eBpqSvbWkZDf4bethINpVvqrFyMS7SPXPL1cg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_002_c7008350e157.png)
 
 图1.高压、大电流，开关频率的关系，以及主要应用领域。
 
@@ -45,7 +45,7 @@ SiC 和 GaN 被称为“宽带隙半导体”(WBG)。由于使用的生产工艺
 
 WBG化合物半导体具有较高的电子迁移率和较高的带隙能量，转化为优于硅的特性。由WBG化合物半导体制成的晶体管具有更高的击穿电压和对高温的耐受性。这些器件在高压和高功率应用中比硅更有优势。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPwwKBOzCFKtdpy6fU8a5NUL0zrvbSZQibbUn1xWoPbxI70Zakc58xEzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_003_e6cffa46ccf2.png)
 
 图2. 双裸片双场效应管(FET)级联电路将GaN晶体管转换为常关断器件，实现了大功率开关电路中的标准增强型工作模式
 
@@ -83,7 +83,7 @@ SiC需要高的门极驱动电压。
 
 许多功率电路和器件可用GaN和SiC进行设计而得到改善。最大的受益者之一是汽车电气系统。现代混合动力车和纯电动车含有可使用这些器件的设备。其中一些流行的应用是OBC、DC-DC转换器、电机驱动器和激光雷达(LiDAR)。图3指出了电动车中需要高功率开关晶体管的主要子系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsP53DblWicj6dx6vM2C4Zg2DChNFznC5w8fiblceRTLVzNiaibkGatiap6CLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_004_f042ae723a6c.png)
 
 图3.  用于混合动力车和电动车的WBG车载充电器(OBC)。交流输入经过整流、功率因数校正(PFC)，然后进行DC-DC转换(一个输出用于给高压电池充电，另一个用于给低压电池充电)。
 
@@ -95,22 +95,22 @@ DC-DC转换器。这是个电源电路，将高的电池电压转换为较低的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPj6AtUyeJDt6zkdLFloMIh7zsicfaT3siaXeQicAAA19fmQ0GlsN72Mib5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_005_c4f2904c6acb.png)
 
 图4. 一个典型的DC-DC转换器用于将高电池电压转换为12伏和/或48伏。高压电桥中使用的IGBT正逐渐被SiC MOSFET所取代。
 
 由于GaN和SiC晶体管具有高电压、大电流和快速开关的特点，为汽车电气设计人员提供了灵活和更简单的设计以及卓越的性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPt5lZKkdfImVVukwpy8fzWEdOQkOsicZKoiasLUHaJ3Lzq4HoeIqFcCVQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_006_1387e30079ac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_007_cd2fc29ed793.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_008_35fc065fe60a.png)
 
        专注SiC MOS管和全碳化硅功率模块的研发和销售。MOS产品具有更快速开关响应、更低损耗的特性，完全满足车载充电机对高效率、高功率密度、高可靠性的要求，有利于加快光伏产业发展，助力双碳目标的实现。随着新能源替代加速，逆变器向高效率、高功率密度、高可靠性等方向发展，具备高功率、耐高压、 耐高温、高频和低能耗等优点的SiC功率器件将迎来发展新机遇 。公司自建晶圆厂，将推出更多优质产品和服务，携手上下游产业，加速能源结构转型和碳中和进程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_009_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_（SiC）器件_与氮化镓_（GaN）器件应用差异_images\img_010_770831a45f05.png)

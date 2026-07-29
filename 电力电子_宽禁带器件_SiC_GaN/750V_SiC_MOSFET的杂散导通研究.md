@@ -7,41 +7,41 @@
 
 作者:Deepak Veereddy presenting on behalf of Nico Fontana, Stefan Lenhardt
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWXic0A80h55ZKpXibibxHoYVEfnqx3r99x1c7oAFUDwKmmtUibVvib4ic3maA/640?wx_fmt=jpeg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_000_fe76084e9f50.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWGp7fodgMiaicgdKdxpZ4czJ2Ge5pstAvDDu1LCuAToic6eXsOIJQ5gkIw/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_001_4a411dbab57b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWHM6XKIQrsYO5C6uSLjaiczL76h2daftSp2jb9LxJan5NlfDyDwNZiaibQ/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_002_9f4e19a4d67b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWQXTF72DCsFq7KibVRwuuhPUPZ0o0ggmMDejbxBPz3WbbdzZEXgWdHkA/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_003_e20b3c4938bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWNRfG2wyAPKBXQffic6FfmRQvaMTpeH9BZgkPHSnwibcIW8fYgWS8ibquQ/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_004_75b35d9cc69a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWJ0LuwiaeCKiaLUoWIboahyCydlDtOhD9TqNgPgofNNS8tMKiak4OaCxAA/640?wx_fmt=jpeg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_005_9d477fe4066b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWpNbfxMaffXC6Opmn54hR67djIvSvPvh84ngLub6Y7BoGjBjrEuT3iaA/640?wx_fmt=jpeg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_006_ff470d764c34.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWPVLhxKrHdjqiadu2NOZibicMWcjfcb1BUkS1nrmWOibUnf5zeyg42CMu3g/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_007_301bbeddcef6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW702G7wk82FCbt8rtRhQTlLksjZViaVppHjQMVibLS2p7qhhdlUooH5ng/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_008_4f10afb61518.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW0rI6slLuoTibb5XazMVtJd6B8LjAQPnGbibichsQibCxAxkh2fopdo5ibhg/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_009_b5628a62b7da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWvibbIKbgTVicQPhYvQ3yHqnZibsNHfFUMic4THQBKxbLkXhBOrT49TiaN3w/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_010_bec926be079f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWz27565U73uaUPatzMpD0f63vKRWQMGC5uj9ad3a0DBowYhPDVrfqkQ/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_011_7cd4d71341d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW7LdCyrbJdGyXRDQoVgSusyFbGv4ltM8LL6chnFgV0KBmHJibibpXvp2w/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_012_999daa6792f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWmZxVyNbZYn8icglxoeyR04OvIibzrgPB5u91KPodfec6GiaeLtyMZXGgw/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_013_aa7bc8bf3377.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWKQNL8xHqJr4t1vxw5nas9Zv3ua4PticK3AU8JJYezD3IGHkDfUvVZQg/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_014_c98bfec2a505.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWgyia1BQU0Q3dncP7UiahTGOlbnUuxOFIkGjROoX8zL8ufXPL3sR6wnSg/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_015_6b65abdb5564.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWGxSCv1sAKRbV6sfO4SD9I1bLKxeOALN8kCeLbKYuYekzTnibWeicGy6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\750V_SiC_MOSFET的杂散导通研究_images\img_000_1cb4ff6ab672.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWJToT7QH4szGlT3a6MicBqnDUKSBagry0RfPzjHOU1O1RiajlPfCSlIkg/640?wx_fmt=png&from=appmsg)
+![](750V_SiC_MOSFET的杂散导通研究_images/img_017_c821c60809e5.png)
 
 注：文字与报告无关
 
@@ -211,13 +211,13 @@ RGoff 建议值：1200V 器件通常取 5-15Ω（需匹配 dVDS/dt）
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMstnaQiaTkoib9V2GelkRkIK8IPc1LGl8C8Niay8F44iatJouvzUArEyMvA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](750V_SiC_MOSFET的杂散导通研究_images/img_018_91456e8b6f31.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMt2TgmZia18AqibiagQmVic5qpsfB5icelOViarfK2bjticOsAbb9qTXib8xMqQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](750V_SiC_MOSFET的杂散导通研究_images/img_019_831bd9d36972.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMmcGwwzZmGKuxOauG2AHP5c4WnsEBSuibbJEaZibyXzc1HfrfqicxXRWKg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](750V_SiC_MOSFET的杂散导通研究_images/img_020_3a0ad97a3f9d.png)

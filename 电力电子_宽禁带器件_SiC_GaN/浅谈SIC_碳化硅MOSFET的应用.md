@@ -19,7 +19,7 @@
 
 SiC MOSFET的门极是一个耐压非对称体，以行业龙头Wolfspeed器件为例，其第二代SiC MOSFET的耐受电压为+25/-10V，推荐工作电压为+20/-5V，其中阈值电压最小仅为+2.0V，与传统Si MOSFET，IGBT完全不兼容。改进后第三代的耐受电压为+19/-8V，推荐工作电压为+15/-4V，其中最小阈值电压下降到了+1.7V（如下图所示）。在碳化硅MOSFET的阈值电压非常低，在超快速的di/dt，dv/dt下，为了避免高速开关带来的串扰，譬如误开通，门极超压，直通短路等，需要在SiC MOSFET驱动设计上做一些必要的改进。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnj4NsqYz3NibibUpc5vufd62qjoQ0c0FkJRZC3IUrw8Ms5BUhV1CJDjvBWOuRSEmDOPx9fD7IiacMGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浅谈SIC_碳化硅MOSFET的应用_images\img_000_07f566322347.png)
 
   
 
@@ -103,4 +103,4 @@ SiC MOSFET与传统MOSFET的门极耐受电压及阈值电压对比
 
 注:以上部分产品资料网上择选，仅供参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnj4NsqYz3NibibUpc5vufd62Q0K2TgqWSickiapA06hvQWkLTYiccZmawSreIbSpZcOvBBFWNKykWnKGQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浅谈SIC_碳化硅MOSFET的应用_images\img_001_aaab22db1c93.jpg)

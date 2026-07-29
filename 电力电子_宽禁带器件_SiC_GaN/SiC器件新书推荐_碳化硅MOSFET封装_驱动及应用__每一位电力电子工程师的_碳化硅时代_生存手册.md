@@ -17,7 +17,7 @@
 
 SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特性，较高的禁带宽度又决定了SiC器件的高击穿场强和高工作温度。其优点主要可以概括为以下几点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMu96YR3vwvRT9EehVwrne80LEPH1kviaRU1SQjtjcSLaYJK2OMz2Zz7cA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_000_ed3f78bd45d5.png)
 
 1) 高温工作：SiC在物理特性上拥有高度稳定的晶体结构，其能带宽度可达2.2eV至3.3eV，几乎是Si材料的两倍以上。因此，SiC所能承受的温度更高，一般而言，SiC器件所能达到的最大工作温度可到600 ºC。
 
@@ -47,7 +47,7 @@ SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特
 
 航空航天与国防：高功率特种电源、机载电源系统； 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuaI3j3XXe2PgBFYwMPem0iczicEL3dTlCKvFENjktwVEm7wCIRnQkjMRg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_001_35eee4935d9c.jpg)
 
 随着技术的成熟和成本的降低，SiC MOSFET器件正在逐步替代传统的硅基IGBT和MOSFET，成为高效、高功率密度系统的首选。
 
@@ -55,9 +55,9 @@ SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特
 
 最近在阅读机械工业出版社发行的《碳化硅MOSFET封装、驱动及应用》一书，分享给从业电力电子相关的工程师们，让其了解碳化硅MOSFET特性及应用，为其方案设计带来便利。这本书成为工程师们的“碳化硅时代”生存手册。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuK3c4YWwCUAFtD0INAFu0iayG86icYdtqAkuMz2zyESBnT4iaj28Hbfficw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_002_49127ec6a3bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuoicxgsSCdbF0ILwloQGbOPCFVBtbHNd5O32KKuia58XpB0eP0nwQVsmQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_003_76da19e5ec79.jpg)
 
 **来自工业一线**
 
@@ -67,13 +67,13 @@ SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特
 
 点进查看图书详情
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PxZSaHztnMQ9cLicxbUKVpialTgIoP6qtQlclX6uoia7HyYQIrvLV6odfw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=0)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_004_8da387bb5999.jpg)
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PhMxIaSXsyMAEnib2oicTRqA8iadwWdPdo6W62oEutPWIWuLG1foUxPuibg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_005_f07bbff9c39d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PWSZjN44SKJiaiag15kAdyia1kB2JA0c61PDiaFXrnibcLBVBrjD0Ed3uEkw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=2)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_006_910b9ac04054.jpg)
 
   
 
@@ -104,13 +104,13 @@ SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PDfV9zgpXEUNehEYWcSeRHkj0vpVSKoeyvRiajqtdEfmoHISMuT5t7mQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_007_8736e6b4f6ac.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PksZZeylKETm2fouMTqiaiaNiaQHRKy9ayjV4EFmoaNic02NqnTpUPHKYQw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_008_e7cb7b384908.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PTU8FOJMSLNn5Z4qrNUGiaEW3uFz9Q5NutscV3sC1mIAB4sbNDicjXcAw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_009_d00b847d9c08.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PgnjvDn8bicb3DEZUjEdIJC9BJ54GGVGQ62nPrBpBtR1NnoVgiaaDHEWg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_010_2e9d53d95f13.jpg)
 
   
 
@@ -142,25 +142,25 @@ SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibfzylYSJo85xBeyNfYQovCk8vhCSfZamOlhR6vBsyl7bLOiaFhgm81gRyBSl70QznYCciaZ9NHGHUWg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_011_c31aa69d269a.jpg)
 
 **下滑查看图书内容**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PzS9Vy2Xpiaoq9oBEficlia7H7JCJCJDXWcic3MTWfktuUHw7FLtlEGUdbg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_012_b7a0d54c8957.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PWtZHUibk3QQfEMyt8R9NibZZEEsQkDg6sMyAudo9WgDHFabXJ2ibm4UAg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_013_bd65381687de.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PzFT2icVCEVm9XzkLJPa7g6btOIgxz8VQqTh719mU5Ogtk1q9mF3vdRg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_014_8ae1c883ceec.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PThZybkC0Qhrn479iatr2lXrAfNxJvPiaQ6eaaQdXFTzpFFiapeKjH1kSw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=11)
-
-  
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_015_4320f7001a83.jpg)
 
   
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMukiaTJ7bjqkSR6oPQCyibwKcL7xwPtwvPm7cLRBtltiaqibM1qCwgyBGSYw/640?wx_fmt=jpeg)
+  
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_016_f3f298f43145.jpg)
 
   
 
@@ -174,14 +174,14 @@ SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciakK6zIjF5qlcSnF1iavjkjHMxt7kkQL56t2I0VkMMGPHAlYCdcic10UQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_017_b24bc7497825.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciaeWPoukpPSoodzkAIEebeRqm1uPL6FbiaWJpjkn1uQXDBpck2ibQk5pA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_018_1b064bdd1973.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViczk316DvZLAIY5ODl8oOr06x638bzC5wceE3licVx8yia9wdFO7GB1bnQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_019_6952ae7d1ca5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbVicbz7NgK7j4g1MCoaClV4h1ic8eof2OicIvGKvhVLkyjc7LGo5V6Q8sWaQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件新书推荐_碳化硅MOSFET封装_驱动及应用__每一位电力电子工程师的_碳化硅时代_生存手册_images\img_020_2437350b2e09.jpg)

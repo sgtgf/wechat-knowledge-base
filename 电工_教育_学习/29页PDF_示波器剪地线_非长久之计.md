@@ -4,67 +4,67 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/S6MMrIsHBGxxdeZcav13aw](https://mp.weixin.qq.com/s/S6MMrIsHBGxxdeZcav13aw)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_001_9011be9decf6.gif)
 
 分享一篇咱们知识星球里的一份硬件基础内容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaddo6XhEcMfJCGCr9HcXqgCY42GvI86wxbhdweTh26Z1UTcnKicwB2YM3q6AKJpb8SyFm8HqHicq9LEEnWLVicj0TZlrj1UfD0eTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_002_b5374a0824d8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadePwwpJTIhFuicYWb7yhgF4gbRZiboQ25y1KkteQic6asfTKicX3on8mjXHKBkUsNp7S7n5xiaVuF7n1SvURVAV00h35rjTPLkcmrI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_003_047f72b53acb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaerZlFN33mYG6fibOneSkIdjAbUOmmGEr2zYFbKNMiaElbPGD30PoEeH7wCKlfcdznTytoJbia5JmgeWOwItbGkZ2vfJ57cVfCDek/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_004_ecc86dd02daa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niac5mibWSmXsIWUATVWSgUywptzpDfYLu08Fh8qS0eZYBRrcj1icUmETmkYVSYyf9NWjr6tPknO9icH1zB9vPgnlRxZlOSiaWGpxbCY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_005_ea17ca35e919.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafiah0qATeskQSBkgcnqxXc48jOQeMc0ibn4Xnhv22UAcZGIb6byLqwib6MJHK1JPnEzic0AdP0QsrJogKKu33zlr8hjXy6VliaXoKo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_006_91ebd2a8b826.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaexwsIr9BbATD5UMRicd5iaATsXWUrj5XMGYagEF2jeqXGdvS2khGNvxogr3e4JVk02wX3pdT7Cv55cPWrlTMWOXRLLnWsIPbTgU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_007_11e90d4daa98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaflcAbudgXTqWIiahNyUzUtmmMuMlokibibO7r2wCblCZbJS1I7pnnewJt1L6FCSjHAkFkxRUfrUO6x9d9Ekdkg1MYFhhrsd4Usqc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_008_1dfbf59e3f59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacPzPvl8aeTbOUoJ0jT2JZJc2P9siaKdWaHSjaS9IbibbibBhfPZQTBKX9GicFtyCe2HvWA1X888nXEyIG2PN2DLBcsEHkh30pYWoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_009_e758320e14f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeicMnyZALCNLxiauBNJtOT6ju5Zf1QfeRJOSxOnZjfA1H0fXTOianGib6iaqGdkjuvAIcrBSI7rCp2icv4XOvPhhlDL8obfd0bWW9mI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_010_f921d6e0191c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacIHOwy5N7icPk7l5tjvqLOAhYMvmYA973Su1KNvibiba5NjgdLCdNPSyyh5kEy62UCSopTIhchvbedsjKIS9zNCI5o1B64EAHFbk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_011_f4b3eecd00de.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadZDjia0matb3Ma50yHwD9UzGlC4ZTfVrGKq1Q2T2cfdk1nuNSBN6icLV0pyjhlpKt1YlWFus54vEm66VzvnFJjNB4F54tKpkR5M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_012_aad62706a753.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadyKtOLEKWqTCDrD7zA4Gxq61xMUUdpWnxicicdJ1xKbyfzmvNBxTWskI7ZiaRVusqWSiaRKHBo9sCQFK4ianDxEquZtibct6G1btWZI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_013_fac3a3c70c74.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacex4qDb8fmj7fPsZqiaSHv4p8b00gGMImPZlOI92p5YcsAFxGfFqPwAc84O52KTb55DoneNeeyFPicbib8gpwlxe6DlnkiaxlnicPE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_014_31cd7b9efc2c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadFwS4FNM4411wkgdWia3CAlhLeOYpciaPHRmqrfib5XDt55vuuEibHQG1DEashzTd3BdttD7QnOJXEIEY5YUAYf32JPJHt6jlUEME/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_015_5d2bf68054b7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaf7HvaNMRfUR6N4LgcCmJU0libcrossdguh7tJibHPvq8sWscChOzp7hNDLXkKfs6ekG6OPWvo9iaZRLwyqPLdKzg7tRBP4EiaBuno/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_016_6f496ff2f3cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niae58SvARHicaxh0aeHqqCic4ojsSU4Q8QtbnOGs4hHibZSz2GaRlp7yff4x4ibTH6k8yjkw8Yd6be6GQeaqtFSq2Eb1E9Crjlf88LE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_017_5375b5e3033d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafIvIKY901aayWCRXaljgrOAChryudEdQNxdBWjGDkG3sTmXhVibKBFYzWCNWpMKg5lROw5hJrnZL3ukgCJiaNFrIjChLUTaNkEc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_018_e2d0ac5092db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafxyVIPFXRLy0ib72RG6ciccRl5wutj5vxx0AA2ibRVuMYRGIzGgm1uHZcNQmqI8kaVHZQcMkAuvleH6g2tLkce3giboG1Tic3icEnhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_019_ad98d552974f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaepkXyQRLFxQdP63Koa306vHgxAF0zhWJhd4xZlc8iaToLliakgIJaaicHLzrH7eGQ1fehRktQJoprMPaNptWQKoen03IUTaQS7b8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_020_da97e23bf680.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeiaZ6Vt2C1Pr9D7WJPyRGhAo4kysaUKwrE896lq0313P094kHft9mEiasrFicA4bkxJTyrSjib3C2ttFaw5AXZab8GP4gqiaknzweQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_021_81ad563b7972.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafq1g0rHWaRw6XLeZX5jHe54oOrW1rF17SX5KBRdibbA3aLnJnBVdPyRDe7axULs3ReADiblS6h2AcAVialLE3Xa8pgF2CqGalIPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_022_3f326dbed1aa.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafEgdsib58Xkb0q5PLibnXQ5rsa2tzpfCiaHwB6gaZ9kwb84ebIjADbjvDQWp5XedyZVJQhEfXkTVVe84tiaCiaib8qdrkNSVDG5Bgak/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_023_1f534746a0b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niad2gWtnBcnmicqBRqGiaSibL3EJwPM25R906ZpWvpa1JJC2VSl2vL30ic3wOjuJokmPvtMT0Cw8SicY48JjVanMgLgXq9aQyx6aOx6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_024_3f5b6a94a2f6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadT1nMT1S94SxliaXZ5uXAViaYo5T1G57HxDqiaWVFX6iblkK56hX3Lr3kiaOZgBKiagn4YkjiaSdRQ67A7dicyCZHlLvxaj3W52dAstdY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_025_3a97322f5ebd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaeE9wxUzTKaS94gTZkvMZd9iaoftliaHSYQzicicMFmqRy2tD5vb6XJ7sY1WSXkD6cu3BgRniaxrgicVCO7V0SAbn0cbGgTKTkpXD41o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_026_4f3a8e0a0e33.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacs83Mib4MC7TavibeUVz40DaFUjELYibXRZTXg8R6oNS46lB5ePaUq63ib31E7UexnXov5gxNr4cWw5YJya8WicWEZkIvlO28D89Q0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_027_091e2ef642e5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacCrtiaE6EYwW6oibia2ywnK0LliaOiavZmfff5oQcsibWSIxl4Rbrn0hLjVKyXwvia2iajIL9CpvN8rxTWd1vYxVc6fDSLiaEzdfZNmFYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_028_b37454ee9aec.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niac8HWnPicOWzJgzIXbP6kF0jzMWABrKcTrnCBuSBEcmHCklja4QEqeWd3u2KGmhPhvVRicERD9XnnYT5JVkWrmaK7bs7pGvQ9RUI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_029_503a43d6aed5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafLBBe6Tpic8xRIiccDALVZHvA25A8cg27yGkgWrT4qibibPqdGzGD9dATqibly7dyRYB9gkvsNQoW0AB5Anlu7rRjwDE9FAjLGPibIs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_030_e18c9b7d1cd9.png)
 
 说明：
 
@@ -80,8 +80,8 @@
 
 知识星球二维码：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niadDq5tricnZnI3bc2s17FVVnKcT9bRfY2SdMFmXib97AbInQgqaJOCDuCbFblwxJSYa6mibfUD2WR4LhfzJ8tnPk9dgw0EAW99OVs/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_031_3306bd642ae0.jpg)
 
 欢迎大家加入！有任何问题，可以随时联系王工！王工微信：woniu26a
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niacleQ4GeIaVnepy9gQJPuBTOmLZHG8A1wlSHgKnW6R2cia4mADBT8gokq6oicX6zOccEGyzKWhYCkntSwGqaiaIcibTYsibQ508qb3E/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\29页PDF_示波器剪地线_非长久之计_images\img_032_b2f59f81cd50.jpg)

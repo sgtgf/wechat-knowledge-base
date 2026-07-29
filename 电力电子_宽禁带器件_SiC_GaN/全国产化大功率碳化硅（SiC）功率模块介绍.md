@@ -40,42 +40,42 @@
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=142#wechat_redirect)  
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=142#wechat_redirect)
 
-![图1](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyAluvlTwnPXfdbCYrq8DXrCt14ulurcjk1eZh66eM288WufkIiawGjqDA/0?wx_fmt=jpeg&from=appmsg)
+![图1](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_000_95cf397ea9da.jpg)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyAOUybia2pe9NtZVhBxHBDuIyAXr1ufpZk7oN1ziaXZAa0DskWEqhBu6GA/0?wx_fmt=jpeg&from=appmsg)
+![图2](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_001_d122317506a6.jpg)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyApUopPx17uqKzpuMuJRPQ1zicesLZ4GtOCZkmvovVpxfLlbibgyt9ojlA/0?wx_fmt=png&from=appmsg)
+![图3](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_002_59fde8fe155a.png)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyA5aI8Jxgv1c1Z32olUPUZ2hAdbld5kxguIlib8CU6PcZmibXpVIc62dKg/0?wx_fmt=jpeg&from=appmsg)
+![图4](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_003_4c6af3669608.jpg)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyA7IebYzrGopVxCamTktauDWSQnKAoxIq9RpFX0yNSMSVYpGwpiapRiaDw/0?wx_fmt=png&from=appmsg)
+![图5](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_004_e2b4ad157abe.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyA4rm2NhEgO3KRoJibbkeXhvjdyerxvCfcYic4MSYPj6PBXxXlYDbOPO9A/0?wx_fmt=jpeg&from=appmsg)
+![图6](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_005_c18feff9eb8b.jpg)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyAUJgQRQ7Wib39UY6Hs3toCoh7e0RbyYPL8oOPVN2huzXmt6oBdaxoQAA/0?wx_fmt=png&from=appmsg)
+![图7](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_006_6a8cabe517a3.png)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyAYP9JBOH5zKYALDYc4wnDYGEt3j3icXjFy8flb9HZS0rKYD1A0ERglQw/0?wx_fmt=jpeg)
+![图8](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_007_96d53fcf8fe2.jpg)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyAK9Yic5krgke3QV29cSA1SVdr5Ekj5JLzyJicCZg05KW1ViaoFquqib05kA/0?wx_fmt=jpeg&from=appmsg)
+![图9](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_008_b805669cf8d2.jpg)
 
 图9
 
-![图10](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsqOTgyS5Oh2Mup4ibHicDyAFVFWjpDicWdUzoPUvD4Mcr7DszIyXs8MUPtwVTJzAcYvreyAlQXuToQ/0?wx_fmt=jpeg&from=appmsg)
+![图10](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全国产化大功率碳化硅（SiC）功率模块介绍_images\img_009_d69d5c2bf4bb.jpg)
 
 图10

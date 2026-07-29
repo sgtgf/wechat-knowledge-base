@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75TqqreGF1fGRoPWv9ew5EdOEDsmNXopdpxwho38camteT5y3P6Rzrs5XN1MzSRtmzaicsiaYGmmo97w/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\东南大学仲林林_吴冰钰_等_基于元学习的气体放电等离子体电子Boltzmann方程数值求解_images\img_000_1851f557db6b.png)](https://www.acces.org.cn/)
 阅读提示：本文约2600字
 > 在气体放电等离子体中，电子的输运行为可由Boltzmann方程精确描述，该方程的解是许多等离子体仿真模型的基础。物理信息神经网络（Physics-Informed Neural Networks, PINN）作为一种求解Boltzmann方程的新型方法，虽克服了传统数值方法网格剖分和方程离散的缺陷，但其也存在参数空间规模大，在求解多任务时训练效率较低的问题。
 > 

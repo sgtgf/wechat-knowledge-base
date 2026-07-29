@@ -19,52 +19,52 @@
 
 **2\. ZVS单相逆变器**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMsba2njJmupb0UEffzDKkVSBar1l3kBNTLgibprrEXsp2yC4GvtWvB3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_000_077be20ad9c4.png)
 
 图1示出ZVS单相逆变器的拓扑 。包括全桥结构与辅助支路 。其中辅助支路由谐振 电感辅助开关管V及其谐振电容 、箝位电容组成 。并联在V两端 ，而主开关管 V。～V 的谐振电容cr～ 并联在对应主管两端 。
 
 所研究的ZVS单相逆变器采用倍频正弦脉宽调制 (SPWM)。当MOSFET体二极管向同桥臂另一个 MOSFET换流 时 ，V 关 断 ，厶， 与主管谐振电容产生谐振过程 ，将开关侧直流母线电压降为零 。为主管创造ZVS开通条件 。图 2为实现一次 ZVS开通的相关波形变化过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMyyfoficZnichMzicW6GlXIaekUVNl82FiaY5icIDCVYLRAo78jkPABXZoog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_001_30a288f95083.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMtwibnloVqzvxRAadAIOxqicLMwCX90bpuyFKicFEExkqr8SxNYr0N05MQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_002_1b807ebe9fcd.png)
 
 **3\. 谐振参数选取及电感设计**
 
-所研究的ZVS单相逆变器额定功率为 1．5kW，Ubus\=360V，输出电压为220V。实际开关频率![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMyXm4Lhp5ohjxpiafewfXFznNtWm02IIaoDnTFAaIN0Zog6rJGM86RFw/640?wx_fmt=png&from=appmsg) =250kHz．故输出电流纹波频率为500kHz。
+所研究的ZVS单相逆变器额定功率为 1．5kW，Ubus\=360V，输出电压为220V。实际开关频率![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_004_04bf305ee919.png) =250kHz．故输出电流纹波频率为500kHz。
 
 **3.1 谐振参数选取**
 
-谐振参数选取需遵循一定约束条件 ，尤其在高![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMyXm4Lhp5ohjxpiafewfXFznNtWm02IIaoDnTFAaIN0Zog6rJGM86RFw/640?wx_fmt=png&from=appmsg)的条件下 ，以保证ZVS工作过程顺利进行。采用 C2M0080120D型 SiC MOSFET，设计谐振参数时须考虑其相关特性。考虑到等效f,=5ookHz，Lr，Cr都必须尽量小，以保证谐振周期T不会过长 ，从而不会影响正常的倍频SPWM工作过程 。然而 ，SiCMOSFET自身具有一定的结电容 。故参与谐振的电容值有下限 。根据 Datasheet估算该款SiC MOSFET的![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZM4DrIob96UNPyjdYRXMgt3JzfkMSKWFHd5hFeVN08icOupJ0ibW2juzWQ/640?wx_fmt=png&from=appmsg)
+谐振参数选取需遵循一定约束条件 ，尤其在高![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_003_04bf305ee919.png)的条件下 ，以保证ZVS工作过程顺利进行。采用 C2M0080120D型 SiC MOSFET，设计谐振参数时须考虑其相关特性。考虑到等效f,=5ookHz，Lr，Cr都必须尽量小，以保证谐振周期T不会过长 ，从而不会影响正常的倍频SPWM工作过程 。然而 ，SiCMOSFET自身具有一定的结电容 。故参与谐振的电容值有下限 。根据 Datasheet估算该款SiC MOSFET的![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_005_9c31589a072a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMEcK3Dd6Imjm2eRv1f3wgVPdWWxkFibEXsNEWzZsicc414KEO6fWeXehQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_006_48a6fd6f0871.png)
 
-由式(8)，(9)知![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMJQcXiaphA4u6OQh5plLNTnicj5TzL3H1sibbianZduURJSxRZzMgRg1zcA/640?wx_fmt=png&from=appmsg)。由于C2M0080120D的电流容量为24A(@100℃)，考虑到安全裕度及损耗 ，设![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMIyfPH6iaNrzHOmibPLToy0Y7ZVtbTWibSc6mvOxMweh3P4ndxrEK2bq0w/640?wx_fmt=png&from=appmsg)。
+由式(8)，(9)知![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_007_9c80df39bd2c.png)。由于C2M0080120D的电流容量为24A(@100℃)，考虑到安全裕度及损耗 ，设![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_008_b9c319ffb94c.png)。
 
 除以上约束条件外 ，还存在电压应力问题，因C2M0080120D最低耐压为1200V，且对 Da的限制使得箝位电容电压不会太高 ，因此可不予考虑。
 
 综合上述条件 ，可得出谐振电感与谐振电容数值选取的可行区域 ，如图3所示的阴影区域 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMQxnjTmcooYo878ibGonuQsyB4hiaE76ZGzqFDVTvwR1g1H46Lwl8bMWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_009_3d98e25e3513.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMc49bwJibpic1KZWmPbMiaWibkAh87XofTS2zs2WfPFHIHK8RbwkeOqeGrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_010_14ca46b67e42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMeqFNjDNOzzBL55ukBtTccKEjXUcyxxQaHc766rbjW5ReUiaiaric0UgrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_011_8337b4f8a353.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMg3umNdIPbvlZ2PkVZleOg4rSmhBD8ANrjMRxUyopRL4q77pgIJxQmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_012_b760810f2a11.png)
 
-图4a为输出电压Uo与电流Io波形，可见 ，该ZVS单相逆变器运行正常。图 4b～d为 V2与Va的ZVS实现波形 ，其中图4b为V2工频正半周内波形，图4c为V2工频负半周 内波形，图4d为Va管压 、驱动及![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMEwLfM9LJ7hJeeKZiaBhLB7CrHAaKjCsXITugfY5icIEm90Q2ed5Uus7g/640?wx_fmt=png&from=appmsg)波形 。可见在驱动波形上升为高电平前 ，管压已谐振至零，完成ZVS开通。这说明在开关频率高达500kHz时 ．依靠 SiCMOSFET自身的结电容即可完成谐振 。实现ZVS开通。
+图4a为输出电压Uo与电流Io波形，可见 ，该ZVS单相逆变器运行正常。图 4b～d为 V2与Va的ZVS实现波形 ，其中图4b为V2工频正半周内波形，图4c为V2工频负半周 内波形，图4d为Va管压 、驱动及![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_013_e0c5425bf5c6.png)波形 。可见在驱动波形上升为高电平前 ，管压已谐振至零，完成ZVS开通。这说明在开关频率高达500kHz时 ．依靠 SiCMOSFET自身的结电容即可完成谐振 。实现ZVS开通。
 
 在此实验平台上测试输出效率,并与相同电气参数下的SiC MOSFET硬开关全桥逆变器效率进行对比。如图 5所示 ，在满载1.5kW时ZVS软开关逆变器效率达到97．9％，比硬开关高出约1％，最高效率达 98％，效率显著提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMxZwJ1e537GLN8cFCWYZHzRsv2wR2UHuvswyJDSFqrtoZnia451NEeUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_014_bd4bc631f913.png)
 
 **5 结 论**
 
 对500kHz ZVS SiC单相逆变器进行研究 ．根据有关条件设计了电路参数 ．绕制谐振电感与滤波电感,并在实验模型上进行了验证 。实验证明在500kHz下 ．依靠 SiCMOSFET自身结电容 即可完成谐振 ，实现ZVS开通。实验样机的滤波电感与100kHz单相逆变器的滤波电感相比，体积减小了4／5，最高效率达 98％。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_015_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_开关频率_500kHz的软开关_SiC单相逆变器_images\img_016_1241954b1b67.png)

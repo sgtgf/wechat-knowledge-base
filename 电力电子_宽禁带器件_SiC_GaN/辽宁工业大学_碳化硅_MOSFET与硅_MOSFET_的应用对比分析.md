@@ -11,7 +11,7 @@
 
 **关键词：**碳化硅 MOSFET; 导通电压; 开关速度; 器件损耗
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmGIYcXnTQp48fial5OtRZUlIVffTs3XHMoRia8Cib3wA9wAZ1YqOLVZV9SwWoxdH1ECbWaeGXXibbiaMg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_000_2d69d99710bf.jpg)
 
 功率半导体器件的开关速度与导通电压的矛盾随着耐压的提高越来越明显。以第 3 代 MOSFET为例， 在结温 150℃和额定电流条件下， 额定电压100 V 时其导通电压一般不高于 2 V；而额定电压1 000～1 200 V 时，MOSFET 导通电压将超过 30 V。虽然 MOSFET 在不断地改善，但目前性能优秀的硅MOSFET 的导通电压仍不低于 21 V。尽管 IGBT 可以有效地降低其导通电压，但是拖尾电流带来的开关损耗在频率 50 kHz 以上的硬开关应用中将不可容忍。因此，需要一种既有高额定电压又具有极快开关速度、同时导通电压明显低于硅 MOSFET 的理想的电力半导体器件。碳化硅 MOSFET 具有高耐压、极快的开关速度、低的导通电压。
 
@@ -25,17 +25,17 @@
 
 **1.1 栅漏电压，漏源电压波形的对比测试**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmGIYcXnTQp48fial5OtRZUlafVcKef7UWxbhNkYxycBociauP2wDMQOL7tbbrcNwdkOj6ECacjsA0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_001_09422664078f.png)
 
 图 1 为碳化硅 MOSFET 栅极电压波形，图 2 为硅 MOSFET 栅极电压波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmGIYcXnTQp48fial5OtRZUlsThGk11gdcKkOvy85icYgxC4iat5gPTvJn6IF8oOePrb2mduoV2yZUuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_002_4f572eec2a29.png)
 
 图 １ 和图 ２ 中， 碳化硅 MOSFET 栅极电压上升时间为 340 ns， 硅 MOFET 栅极电压上升时间为3 880 ns，很显然碳化硅 MOSFET 比硅 MOSFET 快一个数量级。不仅如此，由于米勒电荷造成的栅极电压波形的“平台”时间，碳化硅 MOSFET 不到 100ns，而硅 MOSFET 至少要 1 μs。
 
 反激式变换器中开关管损耗主要是关断损耗，可以通过漏极—源极电压上升时间衡量。在相同的栅极驱动条件下， 碳化硅 MOSFET 和硅 MOSFET的漏极—源极电压波形分别如图 3 和图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmGIYcXnTQp48fial5OtRZUlBwcJ1euAfib4xGYrF8AlEIXTpQOibh0locIYVzqqq1F0ic1h9bIHp40wQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_003_8fe6cdc5c154.png)
 
 图 3、图 4 中，碳化硅 MOSFET 的电压上升时间为 92 ns， 而硅 MOFET 的电压上升时间为 500ns，很显然碳化硅 MOSFET 明显快于硅 MOSFET。
 
@@ -43,7 +43,7 @@
 
 两种 MOSFET 的工作损耗测试结果如图 5 和图 6 所示。由图 5、图 6 看到，在栅极驱动电压约12 V 的状态下， 碳化硅 MOSFET 的导通电阻约为栅极电压 20 V 状态下的 3 倍以上， 因此碳化硅MOSFET 并没有显现优势。由于碳化硅 MOFET 的开关速度明显快于硅 MOSFET，因此在关断损耗产生明显的 差别。碳化硅 MOSFET 的关断损耗 为6.26 W，而硅MOSFET 的关断损耗则为 61.0 W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmGIYcXnTQp48fial5OtRZUlicdNOCiaJrbJgxUCXBEnDaTcbVgH5MFoOE2mnpUxKu7EFIen4gLZ64QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_004_b4df34cd728c.png)
 
 当碳化硅 MOSFET 的栅极驱动电压为 20 V，则结温在室温状态下导通损耗会降低到图 5 的１/４；在135 ℃高结温状态下碳化硅 MOSFET 的导通电阻也仅仅上升 20%，而硅 MOSFET 则上升240%。
 
@@ -51,13 +51,13 @@
 
 相对于硅 MOSFET，碳化硅 MOSFET 的高开关速度在本实验实例中损耗明显的降低，图 7 为采用碳化硅 MOSFET 时整机的输入功率， 图 8 为采用先进的硅 MOSFET 时整机的输入功率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmGIYcXnTQp48fial5OtRZUlTCAPcGzrAps3eCfZ6pPFAnBgrldvCNMwo3HqRXohkrY9Gvzz5wpMag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_005_308cec20f3ca.png)
 
 由图 7 可见， 碳化硅 ＭＯＳＦＥＴ 的输入功率为1.28 kW， 由图 8 可见， 硅 ＭＯＳＦＥＴ 的输入功率为1.33 kW；两者相差 0.05 kW，为硅 MOSFET 的高于碳化硅 MOSFET 损耗部分，占总输入功率3.8%。由此表明即使直接用碳化硅 MOSFET 替代硅 MOSFET，也会提高近 3%的效率。
 
 实验结果如表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmGIYcXnTQp48fial5OtRZUl7kZqsibJwLhMo1vb675DBuicTnecuRgYPwwCSRDSZs6Us8ez1vAFSc3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_006_8fe42ec3b76f.png)
 
 **3.结论**
 
@@ -71,10 +71,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_007_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_008_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\辽宁工业大学_碳化硅_MOSFET与硅_MOSFET_的应用对比分析_images\img_009_84aa944feb13.jpg)

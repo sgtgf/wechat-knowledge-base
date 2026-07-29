@@ -3,39 +3,39 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/v1omTGRL0HQJRIuWGvmy-g](https://mp.weixin.qq.com/s/v1omTGRL0HQJRIuWGvmy-g)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_000_7aee9f5e0b9f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVnNkiciazqet7fDmKIxTGEQ8PCVdE46IA3phjIaLibR3BrQ87PCwD5OsCeBUhWiaNvH6UCcWvARBsNaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_001_c85fa3e9be62.png)
 
 由于电机NVH问题的相关理论复杂，同时涉及电磁/结构/声学多学科，是典型的多物理场耦合问题，其仿真分析具有一定难度。ANSYS软件目前已经可以很好的实现电机NVH仿真计算：利用Maxwell 2D/3D快速仿真电机在多转速下定、转子表面的频域电磁力并无缝链接到Workbench平台Harmonic Response模块进行多转速谐响应分析，得到电机的ERP Level Waterfall图，用于分析电机在各转速下的谐振情况；同时多转速谐响应分析结果也可传递到Harmonic Acoustics模块进行Sound Power Level Waterfall的分析，用于进一步对电机噪声水平进行评估。流程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0Gu8wqKBrdCMnoicz2WZ9H9Ec0ekYE3AqqrtnBBCAxiawiaZOGiaucjW99vHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_002_f5d5d43fd66d.png)
 
 MagneticField Solution
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0GukZXrcsRfTibwKCyWYAZJUVmBM5R5RPG9qwIOkmLIFLt0A3OFibU3v8OA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_003_dbd7b03df5e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0GuTdYyDwnibZTZxDrTpxuAib8S4Z6C5yHxPZxAHibUsiaT36mHS3fDn98mKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_004_b4b7790630cc.png)
 
 Modal and Vibration
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0GuaYRPMT9OHY0ZicP6vZJNx1ibbXTwuiblrnTWL4SicMqdkYoeKxr09J4IzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_005_0c994cd0ba12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0GuQSyLyh4Vm0vtS6ulVqACDhMibETkM6ESEGpuENVicl2wpLwZsUDmKdHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_006_1b0affb2c08a.png)
 
 Acoustic
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0Gu2hhzrljaQY5HhknibDL4gJalNe98ic6Fvib1ZCk4ncDEvYIgShDwuR9rQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_007_7f6b9ccc975c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0GuSj8fhhicVGOIOv1JQY7dWNicUtuLnf1kjWSW3hOK6bZahNjvldQRTuqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_008_d610756b5066.png)
 
 另外，借助于多目标优化模块可对包括电机NVH在内的各项性能指标进行参数化寻优，快速实现产品迭代创新；同时还可以借助VRXPERIENCE仿真平台完成电机噪声仿真数据后处理与声音设计：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvbHaLY2bzZVZvuodKX0GuCztHk9Aic9z6CyicVUia5JF6iaRiaBRxbjZPPnkgtN4LblE0JaWRmRhianbg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_009_181949cf2f3b.png)
 
 在**12月19日-20日**，由西莫主办在上海举办的“电机NVH问题的机理和测试仿真”研修班将力邀ANSYS电机应用专家为您详细讲解展示以上电机NVH仿真方法和实现过程，相信西莫本年度最后一场培训将带给您更多的精彩内容与学习收获，欢迎各位扫描下方海报中二维码报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWBiaSnTPo0eLciateEwQpkC5X5yVISSyRfVXsIFxgUyMZCY5VJC5byDwldJyeY8KftR5x3MqiaFmibQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_010_3c4e5c7e13a0.jpg)
 
 关于本次培训的更多详细介绍，请看下文：  
 
@@ -93,7 +93,7 @@ Acoustic
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWm6ZpNibbP7ic2uyZFBHZMn3L1RKeEicn04ic5lpsHwiboW6QltlicJSUt6VPd89rYFUvTJOQR2EduibkdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_011_569ce3f00fa1.jpg)
 
   
 
@@ -129,13 +129,13 @@ Acoustic
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVoicc9VhjaOgDQMrwJReibIE927I4KvNjj7SPEjicUSDdxBGicVpuqDJ8dMqfa4mPGEejfE2aoGnVuDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_012_28eaed4a8701.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_013_0cfebd1d514d.gif)
 
-[**![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWgDaqchhHECL6KHu7mev20VcEhWOHmm4VpRQkMnmoWL4PiaBZBaOoSDxe6WnqcHSfaicQkYIDOOglA/640?wx_fmt=jpeg)**](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247483769&idx=1&sn=a09cda659fc5f58bd4e66c4e8001782c&chksm=e873b9f6df0430e0fafa48e45360dd641de9294545151ca37751ff9d5026413f0412324a60ad&scene=21#wechat_redirect)
+[**![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何开启电机NVH仿真的正确方式__images\img_014_471bebf028e5.jpg)**](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247483769&idx=1&sn=a09cda659fc5f58bd4e66c4e8001782c&chksm=e873b9f6df0430e0fafa48e45360dd641de9294545151ca37751ff9d5026413f0412324a60ad&scene=21#wechat_redirect)
 
 点击**阅读原文**，直接报名参加本次培训！  
 

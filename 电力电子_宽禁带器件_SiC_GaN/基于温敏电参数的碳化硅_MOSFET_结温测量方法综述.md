@@ -42,7 +42,7 @@
 
 阈值电压VTH是器件导通所需的最小栅源极电压，其传统的测量方法有定电流法、线性外推法、跨导线性外推法和变跨导法等，且均为离线的测量方法。理论上，阈值电压也可在线获取，即器件开通瞬态漏极电流上升初始时刻对应的栅源极电压，但碳化硅MOSFET 的开关速度非常快，栅源极电压的上升速度可达1V/ns，测量中对栅源极电压VGS和漏极电流ID二者采样的同步性和分辨率有很高要求，且易受噪声干扰，在线难度很大。对此，如图1 所示，文献\[24\]利用了碳化硅 MOSFET 源极和辅助源极间的寄生电感LSS，其两端的电压降VSSLSS(dID/dt)可感知开通瞬态漏极电流的上升，从而获取对应时刻的栅源极电压作为“准阈值电压”用于结温在线测量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8EKmpZMe6OOl4rm5icg8iaQa1iaLCYaVs8IjLbPx6x5CPMxFYVFLxtiaeDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_000_89aaa42587f7.png)
 
 碳化硅MOSFET 阈值电压的温度特性主要源于本征载流子浓度和禁带宽度的温敏关系，因此基本不受母线电压VDC、漏极负载电流IL和栅源极电压VGS 等器件运行工况的影响。但不同碳化硅MOSFET间的阈值电压分散性较大，因此在应用中需要对每个芯片单独校准，而且碳化硅MOSFET中存在严重的阈值电压漂移问题，具体将在后文中展开。
 
@@ -50,43 +50,43 @@
 
 体二极管为MOSFET 结构上寄生的一个反向PN结，其正向电压降VSD是功率MOSFET 中一个经典的温敏电参数。体二极管电压降的测量需要栅源极短接或反偏，并在漏源极反向通小测量电流Im的条件下进行，如图 2 所示，此方法受工况限制，也难以在线应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8TKCoHM9ia4QElictQkbYeNqoKmuESYEAgrW9zehb96GiaEDUFl4H2b0YA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_001_24ea707e8f96.png)
 
 然而，在碳化硅MOSFET 功率循环测试中，体二极管电压降则因其在器件老化过程中更为稳定，而被认为是最适合的温敏电参数，其温度特性如图3 所示，具有很好的线性度和灵敏度(约2~4mV/℃)，与测量的栅源极电压大小和测量电流大小有关。需要注意的是，此方法无法应用于反并联有碳化硅肖特基二极管的碳化硅 MOSFET 模块中，而文献\[30\]则表明体二极管电压降虽然有线性度好、灵敏度高和自热小等方面的优势，但在碳化硅 MOSFET 双极性退化中的体二极管电压降漂移现象不容忽视。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8ygXMvvyKQVpww47RRibYAIYxwicm7AaUshy2o9JbJX3ic9EpJRLMLxAvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_002_8aeb871ec22f.png)
 
 2.1.3 栅极内阻
 
 栅极内阻RGint 主要由芯片中的栅极汇总区电阻构成，因此其大小与芯片设计及布局有关，不同型号的器件间会存在较大差异。栅极内阻的测量一般需要负载端短接，并在栅极施加一个高频正弦信号的情况下进行。而对于在线测量，文献\[29\]通过在碳化硅MOSFET 关断态叠加栅极高频信号，并测量外部驱动电阻RG 两端电压的方式，将栅极内阻的测量方法适用于开关工况，如图4 所示。在此基础上，文献\[32\]进一步设计了一种加入在驱动和器件之间的“即插即用”开关装置，使在器件导通和关断态下均可进行栅极内阻的在线测量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8CNO5iaMCAJK6XHibqDEB5707XlCn7oIVhtKMTnOGVl42ia4k0fzQ5N3VA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_003_00cbd1337173.png)
 
 碳化硅MOSFET 的栅极内阻一般较小，具有正温度系数，如图5 所示，线性度较好，灵敏度约为7m/℃，但在不同器件间差异较大，且需要考虑到母线电压对其的影响。文献\[33\]对碳化硅MOSFET栅极内阻测量中栅极寄生电阻的影响，以及频率相关的测量损耗机制的影响进行了分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8XCSI3hoMYfglFaaDFYaXYb804ssRDDEvguyicqhQEquxM8cr0RJDMIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_004_92f70b6bbfa4.png)
 
 2.2 基于大电流的温敏电参数
 
 2.2.1 饱和电流
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK81ib25yC9qjo8x7vzp0ic75iaSGNzDjOymWXD8VIC7BoktIeZO8YSibOF6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_005_f11a258e5a7c.png)
 
 饱和电流IDsat的测量一般需要在栅源极施加一个略大于阈值电压的驱动电压，并从此时的漏极电流获取。文献\[34\]通过如图6 所示的栅极多电平驱动策略，在碳化硅MOSFET开通瞬态过程中的饱和态区域，构建合适的栅源极电压平台进行饱和电流测量，并通过测量信号尽可能地减小了其对器件本身工作性能的影响。但无疑的是，此方法在开通过程中需要构建至少1个栅源极电压平台，这会限制其在高频工况中的应用。碳化硅MOSFET 的饱和电流具有正温度特性，然而该特性呈非线性，因而在进行结温测量时需要进行非线性拟合，且在校准中需要更多的温度测量点以保证校准曲线的准确性。对于此，文献\[34\]采用饱和电流平方根与结温的关系进行校准曲线的标定，如图7 所示，饱和电流平方根随结温近似线性变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8ZdAcVfjvZ4axsck8qltobnwCEZ9nc29pvMzI27Lkro2DiabajkXxmTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_006_471c8b619cda.png)
 
 2.2.2 大电流下导通压降和导通电阻
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8wjurcLibYL8EsTTzlfRVsR8W74aBCVgK0lxNTzIPUIDx6icYqm272LMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_007_19297841e429.png)
 
 如图8 所示，碳化硅MOSFET 大电流下导通压降VDS(on)具有正温度系数，线性度和灵敏度均很好，但其会受到漏极电流大小的影响，应用中需要同时测量漏极电流以解耦。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8GaPtHnwp80XVZcmt2TjljE9RRrgnPvALSecL7aHrQPQLumE0GpVdWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_008_77f06191734f.png)
 
 大电流下导通压降非常便于在线应用，但要实现其精确测量则具有一定的挑战，因为漏源极电压会在开关过程中不断进行高低压转换，而测量设备的量程与精度是无法兼顾的。为保证导通压降测量的精确性，文献\[24,35\]均采用了电压钳位电路的方式。文献\[36\]对此进行了详细地研究，并提出了一种如图9 所示的电压钳位电路，其可在提高导通压降测量精度的同时，避免传统电压钳位电路中由RC时间常数造成的信号延迟问题，从而可以更好地反映出器件在线的结温波动情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK88jHhvApHn8aBnxLyGq0n9fc5G0scNF54UwqJicXkN4QB8jqXLYw0kAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_009_3b5dcb380894.png)
 
 相应的，通过导通压降与漏极电流之比即可获得器件的导通电阻RDS(on)，其同样具有正温度特性，然而是非线性的，如图10 所示，文献\[35\]对此采用了二次多项式插值的方法，建立了用于结温测量的Tj(RDS(on), ID)查询表。
 
@@ -94,7 +94,7 @@
 
 2.2.3 开通漏极电流变化率
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8EcibMTMGj84g9Q2f3vQf0Kjun4QZwTbATmueIjBnicxkKz7UOOAMmMXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_010_691bf09add09.png)
 
 碳化硅MOSFET 的开通瞬态漏极电流变化率会随着结温的增高而增大，如图11 所示，其温度特性的线性度较好，但灵敏度较低，且与器件运行工况的母线电压和负载电流大小以及驱动电阻和栅源极电压的大小均存在耦合关系。
 
@@ -104,33 +104,33 @@
 
 在栅极驱动电压一定的情况下，栅极电流则间接地反映了栅极内阻大小的变化，因此可以用栅极峰值电流IGpeak 作为温敏电参数，而栅极峰值电流的测量则可直接通过外部驱动电阻两端的电压获取，如图12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK86H6wWxgh5kgtyQV5RlEvTwiahnqrc23CvgiaQ14w7hDdv26FqeyaDMVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_011_f205ccec80c9.png)
 
 这种方法虽然可以较为简单地实现在线测量，且便于集成到驱动装置中去，但会受到器件栅极驱动拓扑和运行工况的影响。文献\[42\]对此进行了详细的研究，结果表明碳化硅MOSFET 的栅极峰值电流随结温增高近似线性增大，灵敏度约在0.2mA/℃，而且栅极峰值电流法比较适用于电流镜式的栅极驱动拓扑结构，对于推挽式或基于电感的栅极驱动，则采用开通过程栅电流的积分作为温敏电参数更为合适，以上二者均与母线电压和负载电流存在耦合关系。
 
 2.2.5 关断延时
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8Du6OumficZrib6huO4x5MNskqNqFFZ545Lamcs6t5KbO5hhsqfvpw8Aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_012_4e67c7487cfe.png)
 
 关断延时tdoff 作为器件关断瞬态过程中栅源极电压VGS开始下降的时刻与漏源极电压VDS开始上升的时刻之间的时间差，其测量相对而言是较为复杂的，需要对VGS和VDS二者同时进行监测，并通过计时获取延时时间。文献\[44\]采用图13 所示的测量方案，对变流器中碳化硅 MOSFET 的关断延时进行了在线测量，其中特别考虑到了测量系统的信号时延问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK81xGErf8oEz5f2y2ib3qruOzl86jgspyp2TTwhP36SZc6dt1pPDWrKUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_013_e0634d089279.png)
 
 碳化硅MOSFET 的关断延时随着结温近似线性增加，但灵敏度较低，不足1ns/℃，如图14 所示，与漏极负载电流和驱动电阻大小密切相关。其中，驱动电阻的增大可显著提升其灵敏度，如灵敏度在RG\=0Ω时约为12ps/℃，而在RG\=300Ω时可提升至约736ps/℃，因此利用辅助电路在测量时引入大驱动电阻的方法可以提高其结温测量结果的准确性。
 
 2.2.6 脉冲信号开通延时
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8JJ8ttVgEUfbUzpL9FLLIvh0RvibmGEu1bATJEVfiaz8RrrrcdRgPtmZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_014_d0ccc42150a1.png)
 
 与关断延时类似，碳化硅MOSFET 的开通延时tdon 也会随结温线性变化，其测量则需同时监测栅源极电压和漏极电流。而相比于关断延时的2个电压监测量，开通延时中电流监测量的存在使得其在线的应用更具挑战性，一方面在于电流传感器的带宽要求，另一方面在于电压监测量与电流监测量二者的协同性要求。不同于传统的开通延时，文 献\[45\]提出了一种基于脉冲信号开通延时的结温在线测量方法，如图15 所示，在器件导通态时将一个几百毫伏的电压脉冲信号叠加至栅源极电压，根据器件的转移特性，漏极电流则相应会有一个电流脉冲响应，2个脉冲初始上升时刻间的时间差即为脉冲信号开通延时。如图16 所示，碳化硅MOSFET的脉冲信号开通延时具有正温度特性，线性度很好，但灵敏度较低，且会显著受到母线电压的影响。母线电压越高，灵敏度越低，在VDC\=10V 时，灵敏度仅有约100ps/℃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK8pRY5ibPcZXfkcBaicickknbIyNnoO58qCNl5d80zq6a1mvHB25ziaFkFHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_015_ccec9a70a6ab.png)
 
 2.3 对比分析
 
 对上述现有的碳化硅MOSFET 温敏电参数法分别从其温度特性的线性度，灵敏度，耦合量，分散性和稳健性，以及实现方法方面的自热程度和在线测量难度，共7 个维度进行全面地对比分析，结果如表1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn7siaCFSaobAq5zziaXs4ibK89856bz5iaLNEwqs2iaGXS661bbJMcer0hgicyiakEa8cXzkj6svGsyeaog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_016_297758752f2e.png)
 
 其中，线性度即温敏电参数与结温的线性相关性，好的线性度会更易于校准；灵敏度体现了温敏电参数随结温变化的程度大小，灵敏度越高则结温测量的分辨率越高(由于不同器件的灵敏度存在差异，且会受外部条件影响，表中所列数值为文献中的典型值)；耦合量为会影响温敏电参数及其温度特性的因素，包括栅源极电压VGS、驱动电阻RG、测量电流Im、漏极负载电流IL和母线电压VDC，耦合量多则对测量时外部条件的要求更苛刻，或校准 需求更多；分散性表示相同条件下同批次碳化硅MOSFET 芯片间温敏电参数差异的大小，分散性 小则无需各芯片单独校准，校准需求少；稳健性代表温敏电参数及其温度特性受器件老化退化影响的程度大小；自热程度主要针对器件在校准中的发热功率大小，自热程度小则会更利于准确的校准及测量；最后，在线难度即温敏电参数在线应用的难易程度。
 
@@ -174,10 +174,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_017_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_018_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于温敏电参数的碳化硅_MOSFET_结温测量方法综述_images\img_019_84aa944feb13.jpg)

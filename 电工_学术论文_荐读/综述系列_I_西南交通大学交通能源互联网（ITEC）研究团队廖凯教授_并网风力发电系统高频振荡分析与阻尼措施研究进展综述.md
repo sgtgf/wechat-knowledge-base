@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/HxRfVw1TceLDrQPDKnlN4w](https://mp.weixin.qq.com/s/HxRfVw1TceLDrQPDKnlN4w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_000_4fecbf19a39d.gif)
 
 **并网风力发电系统高频振荡分析与阻尼措施研究进展综述**
 
@@ -88,41 +88,41 @@ ITEC电网组隶属于西南交通大学交通能源互联网（ITEC）研究团
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlTQLeia5eib5vwKgNDOlibYiciamuTo8mGHO1ibcqdrqlDWPKeHzYbQWsSLGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_001_40d36677d8ff.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlQbJVpFu2oCblNovjs4UibHcqO3t8rz4smGlxR5BvR7FbshbFGxhRrMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_002_4eaf40791e2a.png)
 
 **庞博（IEEE会员）**，1994年出生于中国涡阳，分别于2016年和2021年获得浙江大学电气工程专业学士学位和博士学位。  他现任西南交通大学的助理教授。他主要研究方向为非理想电网条件下风力发电系统的电能质量、稳定性及增强运行控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlFjTMGJV47fdaEaYiaCiac4k6CJPV1KSvOBQrXhhPm7GkbNG0WSK5xINA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_003_e3ca875847eb.png)
 
 **斯琪**，于2022年毕业于西南交通大学电子信息工程专业，获学士学位。她目前在西南交通大学电气工程学院攻读电气工程硕士学位。  她主要研究方向为新能源并网系统的稳定性分析与控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlgjh887Ltqzw4Cyb8OZVkSiam1WeibLMbOc3NNJ27mg7iag7FAWlUsuk0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_004_d5d1ecabb67a.png)
 
 **姜攀**，于2022年获得西南交通大学电气工程及自动化专业学士学位。他目前在西南交通大学电气工程学院攻读电气工程硕士学位。  他主要研究方向为变流器控制和电力电子化电力系统稳定性分析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlWS77jyVufKk2B413x1tco2cmuACOwJib7k4aiblLJfF7eat9GxSibumeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_005_6e58854a5f46.png)
 
 **廖凯（IEEE会员）**，分别于2011年和2016年获得西南交通大学电气工程专业学士学位和博士学位。  此前，他是新加坡南洋理工大学电气与电子工程学院的研究员，现任西南交通大学教授。他主要研究方向为风电系统控制、电力系统稳定性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlzXS48Ga6dHNzaW8uUJiaIjdPryksmJEQw5FPS7mCpPs7US3hlPffg1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_006_a8d8829d08d0.png)
 
 **朱晓娟（IEEE会员）**，分别于2015年和2020年获得西南交通大学电气工程专业学士学位和博士学位。  2018年至2019年，她在德国慕尼黑工业大学担任访问博士学者。她目前是西南交通大学博士后研究员。她主要研究方向为光伏并网系统建模与控制、中压直流铁路电气化系统设计。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlGBS75HuCPLjTxX5RdtB8Am0dDicSBJw0PS9KkWH3LhCKfuod1wRhMzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_007_91e456d4d2f4.png)
 
 **杨健维（IEEE会员）**，于2006年和2011年分别获得西南交通大学电气工程专业学士学位和博士学位。她现任西南交通大学电气工程学院教授。她主要研究方向为电力系统信息理论、电力系统故障诊断和故障定位。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179aB1KoBHddib2G2OpmsyJnlERib1lwYjyM8sEVgg8MF5wKPk8icxFjfrstibibt6eNh3kSTZ7mJCszvqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_008_61c89c25579e.png)
 
 **何正友（IEEE高级会员）**，分别于1992年和1995年获得重庆大学工程力学学士和硕士学位，并于2001年获得西南交通大学电气工程学院电气工程博士学位。  他现为西南交通大学电气工程学院教授。他的研究方向包括应用于电力系统的信号处理和信息论，以及小波变换在电力系统中的应用。
 
@@ -130,7 +130,7 @@ ITEC电网组隶属于西南交通大学交通能源互联网（ITEC）研究团
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_009_654c2fde68d8.jpg)
 
   
 
@@ -144,15 +144,15 @@ ITEC电网组隶属于西南交通大学交通能源互联网（ITEC）研究团
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_010_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_011_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_012_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -160,15 +160,15 @@ ITEC电网组隶属于西南交通大学交通能源互联网（ITEC）研究团
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_013_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_014_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_015_644d85f1cc17.png)
 
 学会官方B站
 
@@ -176,15 +176,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_016_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_017_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\综述系列_I_西南交通大学交通能源互联网（ITEC）研究团队廖凯教授_并网风力发电系统高频振荡分析与阻尼措施研究进展综述_images\img_018_c28b250481e7.jpg)
 
 学会科普微信
 

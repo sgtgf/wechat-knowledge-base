@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/SfoYt-1BMiDgcXKIjl6a8Q](https://mp.weixin.qq.com/s/SfoYt-1BMiDgcXKIjl6a8Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRvCGtpAHL6cicWQCllqUJD89FZ4Qh1scHsthianqbOTVVm84oSmIUvBMe4NLNdRFic9GYAZkcLF4G7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_5_滤波器的温度系数与Q因数_images\img_000_adeb93b4996d.png)
 
 ____**★★★**______FILTER-5---系数______**★★★**____
 
@@ -13,17 +13,17 @@ ___€1.温度系数___
 
 为了确保妥善隔离这些信号路径，会使用温度系数较低的RF滤波器，但并不是任何一种滤波器都适用于这些频段紧密相连的应用。如**_图5-1_**所示，手机和Wi-Fi频段有时候紧挨着彼此，只相差几个MHz，那么就需要使用BAW等RF滤波器技术来确保这些频段彼此共存。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSSf5UQ5G9jibzGwUsukeFp2icHmaBLAvsDbWmadfP09b473oNlBgZI3hw6Uiak8bOBumU4XVEcUuuDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_5_滤波器的温度系数与Q因数_images\img_001_e13e93990e43.png)
 
 **_图5-1：紧密连接的Wi-Fi和手机频段的示例_**
 
 在SAW和BAW技术中，采用最优的温度系数至关重要，它可以决定一个应用是容易遭到RF干扰，还是具有出色的信号质量。在BAW和SAW技术中，滤波器响应会基于温度变化，如**_图5-2_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSSf5UQ5G9jibzGwUsukeFp2LfpIXVb2lLtCtJKmGd00B1p30v2TGISQWicseF2YyLuPebNyuBDAyuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_5_滤波器的温度系数与Q因数_images\img_002_c7e6b0dc549c.png)
 
 **_图5-2：RF滤波器的温度漂移_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ8blfDJicuGPz5fP6YPa0ZekYcF2RK8vSnRE3pS8um4ysgGuskKLibnewsN0629Y5oRsecicaS1BHjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_5_滤波器的温度系数与Q因数_images\img_003_861574535400.png)
 
 **_表5-1：RF滤波器的一般温漂系数_**
 
@@ -39,7 +39,7 @@ ___€2.Q因数___
 
 滤波器的插入损耗由多种因素决定，其中包括相对于中心频率的滤波器带宽、滤波器的阶数，以及组成组件的谐振器的Q因数。Q因数是衡量谐振电路的选择性的一个指标，如**_图5-3_**所示，谐振器损耗和耦合是实现低插入损耗和高选择性的关键。如果谐振器的耦合和阻抗相似，可以通过Q因数来比较它们的性能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ8blfDJicuGPz5fP6YPa0Zegyuu9tAqTr0j4rBSbM08nZKNkG0KTcxSVCwLH5fI1jTvJUjQy7tjXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_5_滤波器的温度系数与Q因数_images\img_004_2932ddda024e.png)
 
 **_图5-3：RF滤波器的Q因数、带宽和衰减特性_**
 

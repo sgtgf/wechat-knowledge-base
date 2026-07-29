@@ -9,10 +9,10 @@ LQR的编码实现比较简单，主要就是迭代求P矩阵，要注意的是P
   
 另外，就是现在很多机器人的控制器算力是非常强劲的，且未来会越来越强劲，跑个状态变量4个或以下的算法，大概率没什么问题的，且就算有，也有很多的工程策略可以用上，比如提前算初值等。
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa9jibOwjQeK0qvuTRNs0GhquWKa17ky250t0hH0HEjXBGd0ia8QWCcRY106xtFRGU7w3C4hkA07NyiaNnDg2lqYmNK1qib0CzfJZow/0?wx_fmt=png)
+![图1](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR史上最完整推导_images\img_000_1af3632b60d7.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa8QnJiaU5k2z0YpVZScdcrdeBRvib0PSSxEmt3ticVwvEPsargLQuUOXn8HNIicrUxOTlict4OcJ7tHyiaPKick6z6clSsMehauwzCys4/0?wx_fmt=png)
+![图2](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR史上最完整推导_images\img_001_9027826b105c.png)
 
 图2

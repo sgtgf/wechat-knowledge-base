@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/TZuWWylzmHiWS0yvOhJR3A](https://mp.weixin.qq.com/s/TZuWWylzmHiWS0yvOhJR3A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQXcCK7rj4Q0Cj85SQiblSPQY5ZOsRhUyTyNp25lxZibacXbKUrPXuIsfIeYWJ4JYusPOC6QTmQw0Eg/640?wx_fmt=png)
+![](MOS_1_MOS的寄生模型_images/img_000_f898017115b5.png)
 
 __**_★★★_**____**_MOS-1---MOS的寄生模型_**____**_★★★_**__
 
@@ -11,7 +11,7 @@ __**_★★★_**____**_MOS-1---MOS的寄生模型_**____**_★★★_**__
 
 _€1.基本模型_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicuaVicic7jkBCicLfzzJL1SCfbcGWGX79pz4580OwiaJc53ia4VjVIwWibJibw/640?wx_fmt=png)
+![](MOS_1_MOS的寄生模型_images/img_001_6ba31140221e.png)
 
 **_图1-1：NMOS和PMOS实际寄生模型_**
 
@@ -57,7 +57,7 @@ RG：栅极寄生电阻
 
 VGS（th）对于确定MOSFET的导通状态和截止状态很重要。VGS（th）被定义为VDS＝VGS，尽管它有时被引用为固定的VDS（例如10V）。请注意，对于源极和漏极短路在一起的特定电流，阈值电压的定义可能与教科书中的例子不同。教科书中的参数描述了MOSFET物理状态的变化，并且与MOSFET芯片尺寸无关。RDSON不是一个固定值，它随VGS的大小而变化，_**图1-2**_表示了这种关系，VGS越大，MOS的沟道开启的越多，等效的RDSON越小，开关损耗也越小，这一点在应用MOS时非常重要。另外VGSTH值只是一个门槛值，表明MOS的沟道已经打开，但却不表明已经是完全打开的程度，所以一般外施加的VGS一定要大于VGS（th），取1.5×VGS（th），需要考虑到VGS的波动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicSAoGf0BYnGHP0d3ibg7HsANRNsOjyiayBtZnMc3ZXWDiceaSPa3ibsqOSA/640?wx_fmt=png)
+![](MOS_1_MOS的寄生模型_images/img_002_b03f90cd63c2.png)
 
 **_图1-2：VGS与RDSON之间的关系曲线_**
 
@@ -88,7 +88,7 @@ QG（tot）、QGS和QGD都是来自同一栅极电荷曲线的参数。它们描
 
 栅极电荷参数取决于阈值电压和开关动态以及正在被开关的负载，但电阻负载和电感负载之间存在差异。栅极电荷曲线示例如_**图1-3**_所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicujav2jly4DZLKGjx29y92n8Ba5UCzDPqZzribCc39I1SZiaPSm2ZkBOg/640?wx_fmt=png)
+![](MOS_1_MOS的寄生模型_images/img_003_f95648baf8b6.png)
 
 **_图1-3：QGS的充电如何影响ID，VD，VG_**
 
@@ -102,7 +102,7 @@ QG（tot）、QGS和QGD都是来自同一栅极电荷曲线的参数。它们描
 
 当栅-源电压达到该漏-源电压下的极限电流的阈值电压时，MOSFET的电容增加，栅极电压保持恒定。这被称为平台电压，起始电荷被称为QGS。电流越高，平台电压就越高（见_**图1-4**_）。这与传递特性有关，栅极上的电压越高，施加的电荷就越多，（Q=C×V），因此使MOSFET更容易导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSic6icibRC241SPtMrKjGC7DPydEdiasOSpy27yeluCxHaMSL7y8eBMyyfyg/640?wx_fmt=png)
+![](MOS_1_MOS的寄生模型_images/img_004_c36e39798cbb.png)
 
 **_图1-4：栅极电荷曲线的特点（Plateau：稳定期）_**
 

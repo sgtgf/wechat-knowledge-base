@@ -18,7 +18,7 @@ DSP是一种微处理器数字电路芯片，它是需要时钟信号才能工�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tK9oeltWI3Kfs90mS9L19ddgqKY4Vhzxq3S1DTDiakjDRaWtQ6azFyKnrnDjt8yIDSW5flIbyaMG9w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DSP复位电路_images\img_000_635a4ba18f24.jpg)
 
 由于电容两端的电压不能突变，刚上电瞬间电容短路，RST为高电平，DSP复位。随着电容充电，RST引脚电压逐渐下降，当电容充电完成，电容相当于开路，RST被电阻下拉到地，为低电平，复位过程结束。  
 
@@ -26,6 +26,6 @@ DSP是一种微处理器数字电路芯片，它是需要时钟信号才能工�
 
 复位电路 二，RST低有效
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tK9oeltWI3Kfs90mS9L19dde6pB86QLJoJSMZLLKJGTr2Sfg7EunLgeJ0F0fXYaCmP6rWM8hwAw7g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DSP复位电路_images\img_001_a40ba1be914f.jpg)
 
 由于电容两端的电压不能突变，刚上电瞬间电容短路，RST被下拉到地，为低电平，DSP复位。随着电容充电，\_RST引脚电压逐渐上升，当电容充电完成，电容相当于开路，\_RST被电阻上拉，为高电平，复位过程结束。

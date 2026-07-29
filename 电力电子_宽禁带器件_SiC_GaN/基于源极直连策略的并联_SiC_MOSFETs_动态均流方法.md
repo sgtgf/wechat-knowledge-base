@@ -34,117 +34,117 @@ SiC MOSFETs 的并联工作是提高电流容量的有效解决方案。然而�
 
 1.1动态电路模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOe1egNwxQQNUqFB2dHicfXFBZD0ZvWLodhWUOhw5DBmmm9kvQ5H503uTrwE1QSPznIUW4eGSUpStOtM02Uo1NKjvnR4GicOdwR4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_000_43e34b0e53fe.png)
 
 图 1 展示了具有两个SiC MOSFET 并联的优化功率模块在双脉冲测试下的动态电路模型。其中，DSI 动态均流方法引入的支路用点画线框突出表示。图1 中各元件的含义见表1。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNhoTUNuDD99ql6t4Itk9MndH04YGicskJg09xHYNHdzicCNpyMicV3WWzYsaGDNeO3EsibianbfybBOC9OM5PS5fmwKar4ptpLd7C0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_001_ea657e1e5a08.png)
 
 动态电流不平衡发生在开关瞬间。此时，SiC  MOSFETs 工作在饱和区。因此，Q1 和Q2 能等效建模为由栅源电压vgs 控制的电流源id，表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNjZF9qKaZoeLw2Jic936l9rtOl4W2LoQ04bROD5jYJ4JKGGiayrAG6LgC6KBB4OicjyKKUfTwibCsdANfI5n2ian4vQenLsqL93C8U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_002_234fc2c2879f.png)
 
 式中，g为SiC MOSFET 的跨导；Vth 为SiC MOSFET的阈值电压。受本文研究功率源极寄生电感的影响，认为SiC MOSFETs 中的g、Vth 均相等。  
 
 漏源寄生电容Cds 可以忽略，输入电容Ciss由栅漏寄生电容Cgd 和栅源寄生电容Cgs 并联而成，表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOSB9riaCzKMgPIiabcC2pffXZmBHhbX2FjiafibZ3cqSaAJeHvcDlEC7VsHOUicdj0hs698BOrF6DicrqicZyHD9kJ2ektAUh6KZ5gGM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_003_fad4be6a4a89.png)
 
 负载电感等效建模为电流源iload，续流二极管等效建模为寄生电容Cp。基于上述分析，图1中的电路可以等效为图2 所示的优化功率模块的初始动态电路模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMuMUicjeRU6icFvibuc2WGZWIyytPy8Rpzbck5ub3V9esnjiaFvDQMj0Cg0wwembl6QYnWjZRum9VMma5TRH7eWYwVmSAJ3ia4MrHU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_004_6872ab69b6e5.png)
 
 考虑到动态电流不平衡主要受并联支路差异的影响，且漏极寄生电感Ld1 和Ld2 与电流源串联。因此，图2 电路可以进一步简化为图3 所示的优化功率模块的简化动态电路模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO3fMJYafG9bumBmG4sI52qq4chFSKBVB0W9ibmk6VkA41RFnHfXKhAm9vNzZbjiaGCdibTnLo1pDrrqITVqfCQfrcETBHWkasHHo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_005_8fcf67218072.png)
 
 1.2动态电流不平衡机理的分析  
 
 本文利用图3 的简化电路进行后续分析。用基尔霍夫电压定律（Kirchhoff’s Voltage Law, KVL）求解图3 中的4 个闭合回路，如黑色虚线所示。将KVL应用于驱动回路中，可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOHCncle0K9jGsgsyfWVQSQ59ButntmPLImmSCKGdj0fLmNQGMbCn079fOetjtQdVu4ZAd8GouXOmUDrw94VB8Uzl5DicRRYfUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_006_40479dcf5574.png)
 
 式中，栅源电压vgs1 和vgs2 可分别表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPkSiaMxDTiaRqUMFlcydl1DXD9XZYRdSWdVDXMvJFZWZUExr2j83cHtVNxWsia1dkDSreQiaYmpZ7mzv59HsErKTDKyjB5seoFR9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_007_6687d758fc6a.png)
 
 式中，vgs1(0)和vgs2(0)分别为vgs1 和vgs2 在初始时刻的值。将开通或关断的开始时刻，即动态电流开始变化时刻，定义为电路的初始时间（t\=0）。  
 
 将KVL 分别运用于包含Ls1、Ls2、Lk1 和Lk2 的 回路以及包含Ls1、Ls2 和Ls1s2 的回路，其关系表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN9ecsfktJKxnPf5h8ickd5ib1ZwlYmehicV80dic2sasbggNDV726TYOEic7kTRS8ZjISdk1kFibuomUdaySQSU2X1TkibNsXXZQlCVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_008_dfe71c204302.png)
 
 用基尔霍夫电流定律（Kirchhoff’s Current Law,  KCL）求解图3 中的功率回路、驱动回路和CS 节点，表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP7ibwDQXVIrxPibSCv8icx7bZ9DXXfFsL1aftLGB6pB5W4wiahubOY0gRhPp7tEcRGbw2bZbrwSD4sSQvEOXVSqD2GCpdPjDoY8yI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_009_3d425c35406a.png)
 
 在进行后续推导之前，本文做出以下合理假设：  
 
 （1）本文重点研究不平衡功率源极寄生电感对动态均流的影响，认为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpONzHavmHXQeVCPBNKFic309EQOrMZuSZewWHF7hSy9yWYWrhfJBichmcUBnVpFIemVDqtM9tlcgxr80Npf6ghUQhc1qlv9VfJrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_010_42a6fc2db1c9.png)
 
 （2）忽略静态电流差异，图3 电路中各参数的初始值定义为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNgh7DjT4esxGHBJ4SkDqibytKtx0kW5ryrtGnbDAu0PTnRZYcicCWDOASOoeZUKTpV4fp3gAqUD5BrgibEQ6rr9PIoHRFZfVIyZU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_011_06af5c6e79b1.png)
 
 基于式（1）～式（8）进行拉普拉斯变换，得到式（A1）～式（A5），具体公式和推导过程见附录。式（A1）～式（A3）中各自两个式子相减，再经过化简得到
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO92CYj1ziaVXHEVkKhpbr2G0uc3BH7Sd4K1tVeWvaCHOfFSmlazhFdtJxO16Tw1ibl8931AR0Qianq32DriaBUTwKctOqWcJsHb8E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_012_628b2a211763.png)
 
 式中，s为拉普拉斯算子。  
 
 结合式（A1）～式（A5），化简得到
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOWNpjXMONRzBh4sbDOqb8sUnkRb86HHepEzjAVPWlJFubrQcTA3apbEl7t3icYvK7sLMzx7KbNDIUmbUrg2cLVgamnibgMmjSpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_013_550b113a8abb.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNq4v0g5VVsVpteVYzDay7olCAm0K50PXvSR7KI0gvb5q1lQcjDFCjLP95M4NvKbNeclV0rm4xYfCuHiczazm3ubROicibkE1D5QE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_014_6990b8694210.png)
 
 式中，a为不平衡电感衰减系数，a\=Ls1s2/(Ls1+Ls2+Ls1s2)，数值范围为0＜a≤1，并且随Ls1s2 的减小而减小。  
 
 由式（9）～式（11）构成了优化功率模块的动态电流不平衡机理。移除Ls1s2 支路，则可以得到初始功率模块的简化动态电路模型如图4 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlnMibmhesRIMB4d5PPnDDvCuXJH1GaytRYvRic8T2NkoKsdCxWrRVAfxByic2buWwdmZRUag2icgX9zltocZUnOfovib0yWHHd1Yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_015_6140d49b6000.png)
 
 此时，相当于Ls1s2 支路开路，即Ls1s2≫Ls1+Ls2，则不平衡电感衰减系数a\=1。而且，无支路电流is1s2。
 
 因此，由式（9）～式（11）变换可以得到，初始功率模块的动态电流不平衡机理为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNGTEaY4OIVM8WMNATNAJ6toicElLwCVS92lFo4LNumFpBm3TtSt0zue58FFPGVYccMRtkYeicHib6RR0OKzNYjEEadOgdlbbdzaU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_016_197e15b6b0fe.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPHCPnKTqibRQLwOlzuZH9oDV3sCMxk8gwM0Bd94MJVUia4UWY6KI3z5tt7cGRRzib8zjYWOY3Tugb5SQQLicgkBGbwPEPia1dScrAk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_017_cad1e7d5c089.png)
 
 文献\[23\]研究指出，开尔文源极连接可以解耦功率回路和驱动回路，从而改善动态电流不平衡。但本研究揭示的机理表明，功率源极寄生电感差异ΔLs 仍然会引起芯片栅极和驱动源极之间的差动电流，进而加剧功率回路和驱动回路的耦合程度。在一定时间内，差动电流越大，耦合越严重，进而导致更大的栅极差异和动态电流不平衡。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNaeHuicZpC1seGwWNZDuVnDHHeK6TkyCH262KsAh1QX7aAghFalmHdicXPh9ZOTPoHeSu74eCOTEyL0iaKL1Mdft8RhwHIEamDkc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_018_5b1f11f050be.png)
 
 图5 展示了ΔLs 引起功率回路和驱动回路耦合的物理机制。若移除Ls1s2 支路，则对应于初始功率模块的情况，在开关瞬间，功率源极寄生电感差异ΔLs 会在动态电流的作用下产生感应电压差Δvs（即vs1−vs2）。该电压差会在功率回路中产生一个环流ic，并流经驱动回路，进而导致功率回路和驱动回路之间的电流耦合。然而，采用DSI 方法后，Ls1s2 支路的存在减小了环流| ic |，具体而言，在开关瞬间，部分动态电流将流经Ls1s2 支路，从而降低电压差| Δvs |。此外，由该电压差产生的环流被分为两部分：ic 流经驱动回路；is1s2 流经Ls1s2 支路。因此，采用DSI 动态均流方法后，在一定时间内流经驱动回路的环流| ic | 将减小，从而降低了功率回路和驱动回路的耦合程度，进而减小了动态电流的差异。  
 
 结合图4 电路，栅极和驱动源极的差动电流，也就是环流ic，可以表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNdUSS6WxLk3TRsia9Kn9e7Pgf3GKbA75Kh0BsXZlnWvunyscKdCmQKNXIXdPovbPRX9amx9AhKppOzicI2IUwzcWGjIc9YDj0dM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_019_bb9bfbd89609.png)
 
 由式（8）可知，ig1(0)=ik1(0)=ig2(0)=ik2(0)，则环流ic 初始值ic(0)=0，将式（14）进行拉普拉斯变换，可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1kiaGoWpRF1da1crazKZxtAGkxzxreuRvhW6RCh38YfsNQazfiamRjibHSK0mj6sQ87BydHwazfYFRZKHV9US1COfXO3lJEnDJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_020_94b5fa0e20ff.png)
 
 最终，结合式（12）和式（15），初始功率模块的动态电流不平衡机理可以表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9LPHXn8nPgIgGGxUA0icuQxrgeolLiccnnouNegqJHKkJkgs17vC5GaVUCmyg2ddJ3t8iblg1UAuDZBHmEppXxElIYepQib8R5w4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_021_70436e0d90b0.png)
 
 在一定时间内，环流| ic | 的大小表征了功率回路和驱动回路的耦合程度，与文献\[22\]的结论一致。  
 
 结合式（9）、式（10）和式（15），优化功率模块的动态电流不平衡机理为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPpFts4qoQ9tTWcjdL2HB3KvY04GG7ZfFjkdb6xmFbElYibLqnAt11XHtE2SPeKdyZ5vgtyappJj6Kmm3d0hY10e679u1P8jcwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_022_661fda179091.png)
 
 动态电流不平衡机理在时域解下的等效电路如图6 所示。电路的初始条件为0，即Δig\=0，Δvgs\=0。 若移a分量和−dis1s2/dt分量，则可得到初始功率模块的情况。结果表明，由ΔLs 引起的环流ic 在驱动源极电感Lk 上产生感应电压−2Lkdic/dt，进而导致驱动回路中的Δig 和Δvgs，最终形成动态电流差Δid。dic/dt为引起驱动回路差异和动态电流不平衡的主要因素。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRctJkar2wQlpQQzu0bkKl2zkdFmmujP27ebkf28ficTzs5s3fyub6E8h1g291k9Q1V8ibbVib4svEjTnRwGEF59qvTQdfDEINqU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_023_0a115431bf8f.png)
 
 DSI 方法旨在减小| dic/dt|，从而实现动态电流平衡，如图6 中a分量和−dis1s2/dt分量所示。DSI动态均流方法的作用机制可以解释如下：采用DSI后，引入了不平衡电感衰减系数a（0＜a≤1﹚和电流变化抑制分量−dis1s2/dt。这使得功率源极寄生电感差异降低至| aΔLs | ，同时流经驱动回路的环流变化率还要减小| dis1s2/dt|，因此，由ΔLs 引起的| dic/dt|减小。相应地，在驱动源极电感Lk 上产生的感应电压| 2Lkdic/dt| 也减小，进而减小了驱动回路差异| Δig |和| Δvgs |，最终实现了| Δid |的减小。采用DSI方法后，可以有效地减小| dic/dt|和| Δid |，从而实现更加平衡的动态电流。  
 
@@ -166,15 +166,15 @@ DSI 方法旨在减小| dic/dt|，从而实现动态电流平衡，如图6 �
 
 采用DSI 方法的SiC 功率模块结构如图7 所示。模块中，高侧续流二极管VD 使用SiC 肖特基二极管（S6305），低侧开关使用两个SiC MOSFET（S4103）并联。为了实现动态均流，在相邻的芯片顶部通过键合线进行源极直连，互连的两端分别是相邻两个芯片的源极。该方法无须改变原有DBC基板和芯片布局，也无须额外添加大体积无源元件，因此具有高度的集成性和实现的简便性。此外，该方法便于和其他均流措施灵活结合使用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOLeIGOds7dJJEIZEIEY242NFPHOCo68M9VPrLicL2WdQzsO8Ol6rDFbEcfeLJLCOxftLibspxCmmjlvNjicYRfQjp2O0ct3n7LlI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_024_2d6edf7bab16.png)
 
 本文利用有限元仿真软件Q3D，提取了未采用DSI 时初始功率模块的寄生参数，具体参数见表2。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtpl5ZySicrZic9bAcwdD9B8bmNEM1gB9oTSqYgWLlhcLDMuAodaMTW50aNgia6B6Q3aO9BTEAsuibv2VickyazYl5aqibFVGqY6KuU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_025_c3db03d47f05.png)
 
 采用DSI 方法后，优化功率模块的内部新增了等效寄生电感Ls1s2，表3 展示了采用不同DSI 参数时，等效寄生电感Ls1s2 的数值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM3IhuIwJhRo0K1f4CQrPrRnnRkDUFKDzibZGWPF88hCBbJaM9Wqgw5t0sWldUibT6ZwDD6Boox5GDKx0LBDAKjAvnZ8e4FWEvdE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_026_ca4a8cbc9b18.png)
 
 当调整DSI 方法的键合线位置、数量或参数（如长度、高度和线径等）时， 引入了不同数值的等效寄生电感Ls1s2，从而实现了不同程度的均流效果，后续部分将通过仿真和实验来研究不同DSI 参数下的均流效果。  
 
@@ -184,7 +184,7 @@ DSI 方法旨在减小| dic/dt|，从而实现动态电流平衡，如图6 �
 
 为了等效反映SiC 功率模块的特性，本文设计的分立器件并联电路PCB 如图8 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPA0DZDwmbSTJFpxPDT2bj3Gmfl74o8CSCGbA2tnP0XX1mLPWF8yvicFq3Mf6e4nyMEfMuZ00tmKlwWzcLiaiaqM1TUr5ChCAyC1M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_027_4a79e97746d4.png)
 
 实验中使用的器件（包括VD、Q1 和Q2）型号与功率模块中使用的完全一致。此外，设计了两个并联分立器件的PCB走线对称布局，并采用了相同的封装参数制造分立器件，从而确保测试回路的寄生参数保持一致。因此，可以认为两个并联分立器件的寄生电感差异取决于外部插入的电感差异，如图8 中点画线框所示，在功率回路（Ld1、Ld2、Ls1、Ls2、Ls1s2）处和驱动回路（Lg1、Lg2、Lk1、Lk2）处分别插入相应的外加电感，以等效不同参数下的功率模块。当Ls1s2 支路断开时，等效于未采用DSI 方法的功率模块；而在Ls1s2支路插入电感时，则等效于采用DSI 方法的功率模块。  
 
@@ -196,20 +196,20 @@ DSI 方法旨在减小| dic/dt|，从而实现动态电流平衡，如图6 �
 
 在Pspice 中搭建了测试装置的等效电路进行仿真和分析，如图9 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNNVha5tfj824OGlFShOyOgfPicFludq1cVHauIrbYpBw5DrrgTLzdPjoweP7WiaMIRugrpD81F4AUzicn243SBia1CAkI5sC8Odn4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_028_4ae731123eba.png)
 
 其中，功率模块的寄生电感，即为在功率回路和驱动回路插入的外加电感， 用Ld1、Ld2、Ls1、Ls2、Ls1s2、Lg1、Lg2、Lk1、Lk2 表示。不考虑互感影响。利用Q3D 提取了此部分寄生电感，见表2 和表3。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9wUpfmkNPYpHHIcH5QQIvBgtRRegNqicGibD2q9st3CoQpzMQssdjZyKLzckWQ7DicFOiaUJU6U2USXia8P3FGWA3eR3pky8pRFZ8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_029_33fa6e9a8937.png)
 
   
 PCB测试回路走线的寄生电感部分用Ld1′、Ld2′、Ls1′、 Ls2′、 Lg1′、 Lg2′、 Lk1′、 Lk2′表示，含义见表4， 同样利用Q3D 提取了此部分寄生电感见表5，采用表2、表3 和表5 的参数进行仿真。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPGHnn8iackGN5SZ7Aic25zpqIG2qwkoHN5ticqIksHbm1C8R3xj1ibxib6JfbwfibCzy9y7OLQfbACichL5fw503F3x0oQGrfctVUMiaE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_030_6023c127ba6b.png)
 
 此外，为保持与实验一致，仿真中的直流母线电压VDC 和负载电流Iload 分别为300 V 和60 A。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPRkt83W8ujSxwVoYvZGDGK54viaGmFiccleB2bExArfDnkqvVYPHIoD6GGFFQlhyL9PR5L0uUC0NCQX30ggwasw6S6Ohp9IbjTc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_031_a5d913bd6ed3.png)
 
 通过移除Ls1s2 支路，仿真电路转换为初始功率模块的电路；而添加Ls1s2 支路后，仿真电路转换为优化功率模块的电路。  
 
@@ -217,11 +217,11 @@ PCB测试回路走线的寄生电感部分用Ld1′、Ld2′、Ls1′、 Ls2′
 
 4.实验验证
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNGvu3p717NLZTTic9WOGEZZkdjjkXhV6LCXcGvPhzN9mTew7W4QZpU9VysPKdNvhuP5vnTRibA5OlzViaWkucwJysDCaiakBecYf0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_032_8afd6bc256c7.png)
 
 实验测试如图11 所示。本文中，使用图11a 所示的测试电路，在不同电路参数值下进行双脉冲测试，以验证动态电流不平衡机理和DSI 动态均流方法的有效性。测试电路的PCB 布局设计详见第2 节，其结构为对称设计，为减小器件参数差异对实验结果的影响，使用Keysight B1505A 功率器件分析仪对芯片进行筛选，在相同测试条件下，最终选用SiC  MOSFETs 的参数见表6。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMNibK9rwsAIzTsTibVRFMRJ16VKtPx7dAIp5CQibRzrFcbc3EhFvOZW6eorFwibOyyha9zS12D3I9lFQN0iaEPIFX96ZRvndgvSDY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_033_eb69d85767ec.png)
 
 并联电路中每个支路都有焊盘连接到SiC MOSFET，在焊盘上焊接表2 和表3 中相应数值的空心绕线电感，如图11b 所示，空心绕线电感的数值由Q3D 仿真和环路分析仪Bode  100 测试确定。通过改变电感的参数，可以验证不同参数的影响，除考察的参数外，其他参数均控制不变，以确保不同实验间的一致性。
 
@@ -229,13 +229,13 @@ PCB测试回路走线的寄生电感部分用Ld1′、Ld2′、Ls1′、 Ls2′
 
 当未采用DSI 均流方法，即不焊接Ls1s2 时，实验波形如图12 中黑色线所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOQdpkm4Um4EQoGQHYvyWsshpNppCfia5J6pYZVmgbq2lUxxnNBmn3KmBupb1SVebvjRYOEIm3sfI7xq2GKLoZU9fh1ywLuSMKc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_034_a6aa6be7d0df.png)
 
 由于Ls1＜Ls2，在关断时刻，dic/dt＞0；而在开通时刻，dic/dt＜0。在关断时刻，由于dic/dt＞0，导致Δig＜0，Δvgs＜0，进而Δid＜0，即id1＜id2；在开通时刻，由于dic/dt＜0，导致Δig＞0，Δvgs＞0，进而Δid＞0，即id1＞id2。实验波形与理论分析和仿真结果高度一致。  
 
 当采用DSI 均流方法，即焊接Ls1s2 时，实验波形如图12 灰色线所示。在Ls1s2 取最大值的情况下，ΔLs、dic/dt、Δig、Δvgs 和Δid 之间的符号关系与理论分析和仿真结果完全一致。采用DSI 动态均流方法后，无论是在开通还是关断时刻，| dic/dt|都明显减小，同时| Δig |和| Δvgs |也随之减小，最终导致| Δid |明显减小。这与理论分析和仿真结果高度吻合，充分验证了DSI 动态均流方法的有效性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMGjcw5dGk3M7GZGy31eTbr77mpZqJ1ia131hgibbq9nxpMzIFvq5bmQY2As6m2OHycs4gJyHjycRUib5Kn9vt3n4iafBDuxib5Eqts/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_035_d5d020677626.png)
 
 图13 进一步展示了在上述相同情况下，仿真波形和实验波形的对比。在仿真和实验波形中，ΔLs、dic/dt、Δig、Δvgs 和Δid 之间的符号关系与理论分析一致。在Ls1s2 取最大值（此时Ls1\=2.5 nH，Ls2\=8 nH，Ls1s2\=12.5 nH）的情况下，不平衡电感衰减系数a约为0.6。此外，部分动态电流将通过Ls1s2 支路流动，这些因素都使| dic/dt|减小，也使得DSI 动态均流方法具有较明显的效果，本文提出的动态电流不平衡机理和DSI 动态均流方法的有效性得到了充分验证。
 
@@ -243,21 +243,21 @@ PCB测试回路走线的寄生电感部分用Ld1′、Ld2′、Ls1′、 Ls2′
 
 通过调整Ls1s2 支路的电感值，可以实现不同DSI 参数下优化功率模块的动态均流效果，实验波形如图14 所示，初始功率模块的实验波形也用于图14 中进行比较。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMVibf60oovYtqd7EhdCHTiaFkQMmVMCkYbbThFuQicbFqiaxdypdXibCKcBScXCMJianhUlZ1lAEUdZ3ckO70frXzibjyeTDOLPbEdvU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_036_74634782eadf.png)
 
 采用DSI 动态均流方法前，由于Ls1＜Ls2，在关断时刻，dic/dt＞0；而在开通时刻，dic/dt＜0。因此，在关断时刻，Δid＜0，即id1＜id2； 在开通时刻，Δid＞0，即id1＞id2。这一现象与动态电流不平衡机理的理论结论一致。采用DSI 均流方法后，无论在开通还是关断时刻，| dic/dt|都减小，进而使得| Δid |明显减小，且随着Ls1s2 减小，| dic/dt|进 一步减小，| Δid |也逐渐减小。这是因为Ls1s2 减小时，不平衡电感衰减系数a减小，功率源极寄生电感差异也随之减小。同时，Ls1s2 支路的阻抗减小，使得更多的动态电流流过Ls1s2 支路，从而增大了电流变化抑制分量| −dis1s2/dt| 。这些因素共同作用，进一 步减小了| dic/dt|，进而减小了| Δid |。当Ls1s2 足够小（Ls1\=2.5 nH，Ls2\=8 nH，Ls1s2\=1.25 nH）时，a约为0.1，| dis1s2/dt|达到最大值，此时，| dic/dt|几乎为0，id1 与id2 接近相等，| Δid |几乎为0，均流效果最佳。 这一结果与理论分析和仿真验证高度一致，充分证明了DSI 动态均流方法的有效性。  
 
 为进一步论证DSI 动态均流方法的有效性，图15 对比了上述不同组实验下优化功率模块的最大动态电流差异Δid(max)。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpBYiavo1nuJ7BCn8lUejSgybG9lMwu6aY2FOnCe6KbfJfIWzU3E6NVibOg0mPKLd1ajibFMibqXzmGcmdTE3icAVgHfNeraXRLnwE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_037_6d35c16dd103.png)
 
 其中，0 组代表无Ls1s2 的情况；1～4 组分别代表Ls1s2\=12.5 nH, 8.0 nH, 5.0 nH,  1.25 nH 的情况。开通时刻的Δid(max)和关断时刻的Δid(max)符号相反，这是因为Ls1＜Ls2，在关断时刻，dic/dt＞0，导致Δid＜0；而在开通时刻，dic/dt＜0， 导致Δid＞0。此外，开通时刻的动态电流不均衡现象更为显著，采用DSI 均流方法后，最大动态电流差异| Δid(max) |至少减小了50%。随着参数Ls1s2 的减 小，| Δid(max) | 也逐渐减小。该过程的物理机制可以 解释如下：Ls1s2 越小，其支路阻抗越小，在开关瞬间有更多动态电流通过该支路，因此，动态电流在ΔLs 上感应的| Δvs |将减小，由Δvs 产生的环流也将减小，同时，阻抗减小的Ls1s2 支路也将承担更多的环流，最终使得一定时间内流经驱动回路的| ic |减小，在驱动源极电感Lk 上产生的感应电压| −2Lkdic/dt|也随之减小，进而减小驱动回路中的| Δig |和| Δvgs |， 最终显著减小动态电流差异| Δid |。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZsdliaPfficZv2CSpibbKF8V5xulbLfPwLxDTj1Qic6jziagVG7UDoslYCwwtsmdyX25vcu93sWVMkibb5g9raWW8sGwUfVmQjkaW4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_038_e827b82cd86d.png)
 
 为研究DSI 动态均流方法对开关损耗差异的影响，图16 展示了不同DSI 参数下优化功率模块的开通损耗差异ΔEon、关断损耗差异ΔEoff 和总开关损耗差异ΔEtotal，ΔEon 和ΔEoff 符号相反，在某种程度下可以互相补偿。然而，开通损耗差异是造成总损耗差异的主要原因，ΔE随Ls1s2 参数值的变化趋势与Δid(max)一致，采用DSI 动态均流方法后，总开关损耗差异| ΔEtotal |至少减小了60%，随着Ls1s2 参数值减小，| ΔEon |和| ΔEoff |也减小，进而| ΔEtotal |也逐渐减小，最终，相比初始模块，优化模块的| ΔEtotal |减小高达95%，通过DSI 动态均流方法，总开关损耗差异| ΔEtotal |明显减小了60%～95%。因此，采用DSI动态均流方法后，可以有效地降低总开关损耗差异。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXYf7dK46bgf5Gf4lG9WfCYmrKGw0nohq1drRmg9WNUY4fibGfTG7RdhDOLQk56ia1ZcUVny5FlibOVvJdxVSzpA87EF1oRib6Oy4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_039_1be02f0866c8.png)
 
 为了评估DSI 动态均流方法对功率模块效率的影响，图17 展示了不同DSI 参数下优化功率模块的开关损耗，包括Q1 的开关损耗E1、Q2 的开关损耗E2，以及两者的开关损耗之和E1+E2。采用DSI动态均流方法后，E1随Ls1s2参数值减小而明显减小，E2 则随Ls1s2 参数值减小而明显增大。这一趋势使得E2 逐渐接近E1，E2 的增大速度略高于E1 的减小速度，使得E1+E2 略微增加。采用DSI 动态均流方法后，总开关损耗E1+E2 仅增加了3%～5%，优化功率模块的开关损耗与初始功率模块相比仅略有增加，说明DSI 动态均流方法基本不会降低功率模块的效率。因此，DSI 方法在实现动态均流的同时，能够有效地保持功率模块的效率水平，兼具均流效果和效率平衡的双重优势。  
 
@@ -265,15 +265,15 @@ PCB测试回路走线的寄生电感部分用Ld1′、Ld2′、Ls1′、 Ls2′
 
 为了进一步验证DSI 动态均流方法在较多SiC  MOSFETs 并联时的有效性，本文对一个常见的多芯片并联半桥模块进行了优化设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO6MxtFiaFbbJgHmsOot61t7rSiaP2ZpZm4HkDKuBPluSaLN0rFMMw5Oqr9sib1ibazWgX10uWiaTy7ojGZgvwOnvQ2zDlygkSD0fxo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_040_a3925a4642c0.png)
 
 该SiC 模块的结构如图18a 所示。高侧续流二极管使用6 个SiC 肖特基二极管（S6305）并联，低侧开关使用6 个SiC  MOSFETs（S4103）并联，构成1 200V/600A 大功率模块。并联的SiC MOSFETs 均采用了开尔文源极连接，点画线框中显示了DSI 动态均流方法在功率模块中的简单应用，该方法无需改变DBC 基板和芯片布局，也无需外加无源元件，较容易集成，便于和其他方法结合，实现简单。图18b 展示了该模块的简化等效电路模型，DSI 动态均流方法的等效寄生参数被特别标出，其他寄生参数未被标出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPJhN7ShK7AOISHJ4jm1uVjhavPq8sx9pPA1AonohicbgmsSOdfC66s0K88GiaCAnUcDjnjibP1bV76FdhwC0BeTafMfbnUDpBFK4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_041_719e1f2f65e6.png)
 
 基于有限元仿真软件Q3D 和电路软件Pspice的电磁耦合仿真方法，已经被广泛用于分析多芯片功率模块中的均流情况，因此，利用Q3D 提取功率模块的寄生参数网络，在Pspice 使用提取的寄生参数网络和器件模型进行双脉冲测试。低侧MOSFETs 作为有源开关电磁耦合仿真拓扑如图19 所示。通过改变模型结构进行仿真，可以得到采用DSI动态均流方法前后的仿真波形。仿真直流母线电压VDC 和负载电流Iload 分别设置为800 V 和600 A。Q1～Q6 的漏极电流分别表示为id1～id6。采用DSI 动态均流方法前后，Q1～Q6 的仿真波形如图20 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOhq9PfrM2nGKTRiaBthoKd9LSA8VbZljDJb16iatdxmnwHaNOkT5ha6WKRCdiaH9Pqjb4mKzZpibD3IKqFX2d8epRLOsH3qO31F5E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_042_5e026677f80e.png)
 
 图20a 展示了未采用DSI 均流方法时的开通和关断波形，尽管采用了开尔文源极连接，动态电流的差异仍然显著，开通时刻的动态电流最大差异为92.55 A，占Iload/6 的92.55%；关断时刻的动态电流最大差异为47.39 A，占Iload/6 的47.39%。简单采用DSI 动态均流方法后，等效寄生电感Ls1s2 的电感值为b。此时开通和关断波形如图20b 所示，可以看到，动态电流不平衡现象得到了显著改善，与初始功率模块相比，开通和关断时刻的动态电流最大差异分别减小了40.65%和35.58%。进一步调整DSI的参数，使等效寄生电感Ls1s2 电感值减小到c（c＜b﹚，此时，动态电流差异可以进一步减小，如图20c所示。与初始功率模块相比，开通和关断时刻的动态电流最大差异分别减小了56.63%和41.34%，因此，通过调整DSI 的参数来减小Ls1s2，如改变键合 线位置、增大键合线的线径、减小键合线的长度或增加键合线的数量，可以显著提升均流效果。DSI动态均流方法在较多MOSFETs 并联时的有效性得到了验证，在后续的研究中，将基于上述仿真结果，开展一系列实验，以进一步验证DSI 方法在更多芯片并联功率模块中的有效性。  
 
@@ -291,19 +291,19 @@ PCB测试回路走线的寄生电感部分用Ld1′、Ld2′、Ls1′、 Ls2′
 
 运用拉普拉斯变换，式（1）变换为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMsHoMVC0dhU97PPv2bFsXJ2ecmsia49p754YTTV6MlFPrRJ5fuA2sttsiaOicAibfOW35gw0fZ7EHHuIGFJqN34PQYbQ7zzvwoPUc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_043_f7c8d2289b83.png)
 
 式中，s为拉普拉斯算子。运用拉普拉斯变换，结合式（3）、式（4）、式（7） 和式（8），变换得到
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPqcokNjo4WgFTCEPw9SWGXkA1WQ146FibuF1wJL3Nqgsnh7eLc8UNCWb2ibqW1ULkibfJMs2aAC2G1TldMZYK1QByMwPgL2ITXtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_044_021b5f78738d.png)
 
 运用拉普拉斯变换，结合式（5）～式（8），变换得到
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMhoqicGMOHDjM8BkMtyib18z0MgSOq4J3O73ic9LC6veGF0bs9m2y9w4dT86gsUxcDvCmhnmp7MVFTsfZaic6g5Bfsx84a97yY8fc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_045_1a4668c967a2.png)
 
 而且，由式（6）～式（8）可以得到
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpONhT4eOI3ARt574rx5eVj243WTJTgw07zib97WAzNicaAWtLqkWQFbl6p6CiaH3ZPjcaNLleBZlhVBVMZPlUEW677YWqKW5HmTeo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_046_7b422804ac60.png)
 
 注明：  
 
@@ -311,12 +311,12 @@ PCB测试回路走线的寄生电感部分用Ld1′、Ld2′、Ls1′、 Ls2′
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpP6RlqWMIBnxPoibbUGqUxpkh56xazywYsb59ibExzic0k9tENW42HuxaCgqQhGU8FJadCfzpV6bgeiavfBssb5Xg8EibCEVGdMN4Cw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_047_31de320da4cf.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMUL1w4QGqv7h9617YNtLkkv513uDozjGRRTmq3UcsW5smvHQuwW2aSvtN758wOPQZGqjiaO582gUCVNVj2lxvkm6KlpSqsObnI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_048_9c71cc89564c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTJicltorovHQB4aybK2GvPogs61NENFt6IJzPwzFZZ0FSPmNuDOcXkCicJagkHxncpa92xFkGZBRpcjx8WzSu7lm22TcU4bUY4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_049_f918d6e1b836.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNDjpSlwOrYdtSpiblj3RcOk4qEY3hQAGKvEho58icO9pUEZbXcJAAzSMVIJvtTqgTNiaxiawh7NCfIJWpyJjN2RCkQXtJfGyhIjww/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于源极直连策略的并联_SiC_MOSFETs_动态均流方法_images\img_050_ffdf20a2124e.jpg)

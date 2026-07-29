@@ -11,7 +11,7 @@
 
 ## 封面图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQEbTGAoQhvAPQDSsdQ0et6ia7MIfbJ6rgIdsIcxnqlEyZQOKFnCqOCATF6KJX1LiaJ1vVVMrhPJxwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第1期）_Ansys_Product_2026_R1何时来__images\img_000_4f7f9c57558a.png)
 
 新思科技于 2025 年 7 月完成对 ANSYS 的收购，这一收购使得新思科技从“芯片设计”龙头，升级为覆盖“从芯片到系统级工程仿真”的全栈解决方案提供商。新思科技预计将在**2026 年上半年**推出首套集成化解决方案。那么问题来了，**还会有 Ansys 2026 R1 版本吗？**
 
@@ -45,9 +45,9 @@ Rule、Command 这些是 Agent Coding 这类工具重用来**结构化引导 AI 
 
 我们从搜索引擎上检索 ansys 以及 comsol 官网：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQEbTGAoQhvAPQDSsdQ0et6icibgCPtR4EiblqkZK0PiculqKZibQYecoZx4uKHZ1UtXuEQW7PM6YhQuqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第1期）_Ansys_Product_2026_R1何时来__images\img_001_9e661a02dd0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQEbTGAoQhvAPQDSsdQ0et6ibpbN9hVhdYyjzYvuRxfTyfoLSefpDUqDJiaBHUE04xWy6aiaVZrD60ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第1期）_Ansys_Product_2026_R1何时来__images\img_002_598828bb5ac0.png)
 
 我想不用我多解释，答案就呼之欲出。ansys 侧重**工程**，comsol 侧重**多物理场**。抛却其它因素，两者理念的不同决定了产品的主要受众不同，目前来看企业用 ansys 的居多，高校科研院所用 comsol 的居多。**只要能解决你的问题，用什么工具取决于你。**
 
@@ -57,7 +57,7 @@ Rule、Command 这些是 Agent Coding 这类工具重用来**结构化引导 AI 
 
 **第一届 Gmsh 用户会议**将于 2026 年 7 月 8 日至 9 日在**比利时列日**举行\[2\]。活动将汇集全球的研究人员、工程师和开发人员，共同**分享他们在 Gmsh 方面的经验，了解最新进展，并探讨开源网格生成和数值模拟的未来发展方向**。活动日程将包括特邀演讲、实践环节、技术教程，以及与 Gmsh 开发团队进行非正式交流的机会。注册详情和完整议程将于 2026 年初公布。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DQEbTGAoQhvAPQDSsdQ0et6c9CA576PtcsFUiblWxlAic19SUyqPLht3CNvKRQ8yjQxwfbp9jkm9yrg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第1期）_Ansys_Product_2026_R1何时来__images\img_003_5333ac207d9e.jpg)
 
 ## 思维破壁机
 
@@ -71,7 +71,7 @@ ChatGPT 问世以及 AI Coding 的爆火，让不少人觉得任何一个人都�
 
 所以有时候，我们需要一点“笨笨的坚持”，利用 AI 快速提升自己的基础能力，把该有的地基打扎实，**这一时期别奢望 AI 能提高太多效率。等我们成为一名老师傅之后，使用 AI 大幅提高自己的工作效率，那将是自然而然的事情。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DQEbTGAoQhvAPQDSsdQ0et667tNcShXynPbMCeYYBZrbT5FHcicPJWhbpicGJV5NJSoIbFDoh90Knhw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第1期）_Ansys_Product_2026_R1何时来__images\img_004_3f0c07ce7c45.jpg)
 
 参考资料
 

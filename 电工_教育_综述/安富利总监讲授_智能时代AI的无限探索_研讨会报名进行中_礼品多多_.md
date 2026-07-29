@@ -34,7 +34,7 @@
 
 安富利亚太区工程总监
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmHbk5hKq9ZMxsnHK3k14G2VjtflK2XwdfMJ78KpibhtiaklpNOl9dVvtQ/640?wx_fmt=jpeg)           
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_000_e2998fbc801e.jpg)           
 
   
 
@@ -50,7 +50,7 @@
 
 **1.    微信扫描下方小程序码，在报名页面填写信息提前报名**（记得勾选“订阅通知”哦，研讨会开始前10分钟可收到提醒）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmkwXQaZUZWKKWvO8fUcDMSSnzaslsNo2Ml5qkH23LPgGBZVtWucwJgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_001_b2098aee8001.png)
 
 2. 直播开始前10分钟，点击通知消息或直接搜索进入安富利小程序，可以进入直播间等待。  
 
@@ -62,7 +62,7 @@
 
 20元京东卡
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmIiaoIEjWkYSTCT9nwQ4Hl4rJ4S8xXiasWrkBka7BH62E6Q7yLvbVWQGg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_002_937298b89017.jpg)
 
 将“安富利”微信公众号关于此研讨会文章转发朋友圈，并截图回复到“安富利”公众号，我们将随机抽取10名幸运儿各获得20元京东卡。
 
@@ -70,7 +70,7 @@
 
 10元京东卡
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmbk0eUy3RD0sVWDtmbc96RJRydMibiazzibZ6dKUicQeXJxZqc3SUyfkk9w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_003_bb8d3c45507b.jpg)
 
 活动结束后，我们将在全部报名的工程师中抽取30名送出10元京东卡。
 
@@ -78,11 +78,11 @@
 
 1-20名 30元京东卡
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmHLgE4W6laO7PfnZKj2zXibqpgaBpEzG0fxKAhTPxUn0yeMGE9nYfP0w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_004_3415bffa5843.jpg)
 
 21-30定制充电头、数据线、电脑贴套装
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmAKmF4CibChDE61EUEe7U29bTz7icb6M9SBxdNMGyIEulsJ44nxNOJVJw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_005_6cd5380c50dc.jpg)
 
 以直播间后台时间为准，10:00之后前20名发言的工程师将各获得30元京东卡，第21-30名发言的工程师各获得安富利定制充电头、数据线、电脑贴套装。
 
@@ -90,11 +90,11 @@
 
 10名 100元京东卡
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmiayEYzjMDg4MoLYfQL0fUIVRVEMyyhj6g3tbEY7jNQcqc5q8SjAqOLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_006_235b7119ff69.jpg)
 
 20名安富利定制蓝牙音箱
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw213zXtNMzxoGlUF4BA906xm3Bso6LPiaqpywPSfjVet5MMuXzqYGvxPS6rTWMLibcaic0PQ286FDO1wg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_007_6d86c3789dbc.jpg)
 
 我们将从在直播间提出相关技术问题的工程师中挑选10名各送出100元京东卡，挑选20名各送出安富利定制蓝牙音箱。
 
@@ -118,4 +118,4 @@
 
 扫码添加用户，备注“加群”，加入电子工程师交流群，更有红包福利领取！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WibGDxG2Lw213zXtNMzxoGlUF4BA906xmhthjHQ55mMVU3WuvYHPlG7nAFdet7mXSK1ag4k3Uo6EoLZtseVrsOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\安富利总监讲授_智能时代AI的无限探索_研讨会报名进行中_礼品多多__images\img_008_2e149e6f1775.png)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/GRTcys5xnvLdLwFeZh6ipQ](https://mp.weixin.qq.com/s/GRTcys5xnvLdLwFeZh6ipQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiauEK0DUsRWMKKHwzst8Eol9HuksWTnHicvdmU5EBhnSYLicf2OZ6rXyzwA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_6_NTC选择实例_images\img_000_1b6fbf55cee6.png)
 
 _**_★★★_**_Resistor-6---NTC的选择实例_**_★★★_**_
 
@@ -17,15 +17,15 @@ Step2：参考NTCLE203E3系列数据表规范。满足电阻应保持在2kΩ至3
 
 Step3：计算R25上所需的公差。了解ΔT=±0.5K，并从NTCLE203E3规范中获取α在-25°C和10°C处的值（回顾[Resistor-4：负温度特性电阻（NTC）](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247486852&idx=1&sn=60319e9dcc480ea784ef74410e48f1e5&chksm=c335471bf442ce0d4437b0922970bd9c61704f4d2975749749580fd97b880f47c253e7c9c0d7&scene=21#wechat_redirect)里的NTC公差章节）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQYpsC6PrbQnjjRjEtLv23xZibSqQejficGdqOVLQz9NFlO6IQBNxeicjaUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_6_NTC选择实例_images\img_001_001273c2deed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQYbtNFyUkqGiaqApvHwLibZS4BTdCqBshjPdiaMTCHPBgMlcaQMe1Ie5Bow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_6_NTC选择实例_images\img_002_af852a406f63.png)
 
 为了计算R25（ΔR25/R25）的相对公差，只需从ΔR/R中减去从这个数据表中获得的这两个温度下的ΔR值引起的ΔR公差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQYQh3kpOzI1xiaslUZrLZmSic0X4LIZ7iaKJXAZrQjs32oXzFl3v3xWpjqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_6_NTC选择实例_images\img_003_0ebf55c7898b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQYvIBpFG0RmQIo3PhszHhkQWCHXicnNSpIibpPxNQbl1KTRS5y7hHe5t8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_6_NTC选择实例_images\img_004_e20f57780ef9.png)
 
 取R25公差为1%。因此，所选择的组件是NTCLE203E3202FB0。
 
@@ -47,7 +47,7 @@ Step4：因此，精度最佳的传感器是NTCS0603E3104JXT。
 
 Step5：现在验证所选部件满足“电阻温度系数”部分中关于温升速率（ΔT/Δt）的要求：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQYwibUqecY6G9icaIiaH2ibnumCVKXRZc8q4vzDicwfm9mMecJbk6Jo12pliaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_6_NTC选择实例_images\img_005_18a44b8d3be0.png)
 
 其中：
 
@@ -57,7 +57,7 @@ Step5：现在验证所选部件满足“电阻温度系数”部分中关于温
 
 因此，为了确保最大温升速率为1K/分钟，我们得到（取规格书中60°C下的α和R值）（[Resistor-4：负温度特性电阻（NTC）](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247486852&idx=1&sn=60319e9dcc480ea784ef74410e48f1e5&chksm=c335471bf442ce0d4437b0922970bd9c61704f4d2975749749580fd97b880f47c253e7c9c0d7&scene=21#wechat_redirect)α的相对公差等于b值的相对公差）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQYvB1Uo8jRLxexNqIk6lRoKpkzSCAMJPoB56KIIv8wdxVucSl7MY2dow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_6_NTC选择实例_images\img_006_5de32a094acf.png)
 
 通过测量恒流I下传感器的电压变化速率（dV/dt）来验证。然后可以确定电阻ΔR/Δt的变化速率（= 1/I ΔV/Δt）。
 

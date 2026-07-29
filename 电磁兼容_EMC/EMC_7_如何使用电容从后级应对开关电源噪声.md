@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/LtLg3QB7ngsbGOyOo7Oqug](https://mp.weixin.qq.com/s/LtLg3QB7ngsbGOyOo7Oqug)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvdBQt3iaXtUicWA5hrElicWXyHFKtNJq0U3vYdSzDMKicuZtxvXyicr2E23A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_000_c368ee48186c.png)
 
 ____**★★★**______EMC-7---开关电源噪声的应对______**★★★**____
 
@@ -13,19 +13,19 @@ ____€1.电容的频率特性____
 
 利用电容器来降低噪声时，需要了解电容器的特性，**_图7-1_**为电容器的阻抗-频率特性图（传送门：[Capacitor-1：电容的模型和参数](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247486273&idx=1&sn=3a31c818b2bbae0437617c9a183b102d&chksm=c33541def442c8c8843e885f57717d52d585e494d2edf3213082703f9e858ed06c168f3e6c9d&scene=21#wechat_redirect)）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSLwuTJibEZQ5fMaTRDFUgkUpNRMzaWSsvLcicKmkJAdibjQotOzz2uI6iaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_001_9dbd3e5f27a7.png)
 
 **_图7-1：电容的阻抗-频率特性_**
 
 电容器中不仅存在电容量C，还存在电阻分量ESR、电感分量ESL、与电容并联存在的EPR（等效并联电阻）。C和ESL形成串联谐振电路，电容器的阻抗原则上呈上图所示的V字型频率特性。谐振频率SRF之前呈容性特性，阻抗下降，谐振频率点的阻抗取决于ESR。过了谐振频率之后，阻抗特性变为感性，阻抗随着频率升高而升高，感性阻抗特性取决于ESL。谐振频率可通过以下公式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz11xDos38TnY6oSmLQUV04mSfIebV8HwmxNjnuFlhnaCSGTLOg3rX3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_002_f5c8ef8af13e.png)
 
 从该公式可以看出，容值越小、ESL越低的电容器，谐振频率越高，应用于噪声消除，则容值越小、ESL越低的电容器，频率越高，阻抗越低，不需要的噪声（交流分量）更容易经由信号、电源线旁路传导到GND，因此可以很好地消除高频噪声。
 
 **_图7-2_**为不同容值的电容器的阻抗频率特性，在容性区域，容值越大，阻抗越低，另外容值越小，谐振频率点越高，在感性区域阻抗越低。简单来说，阻抗低的电容器具有出色的噪声消除能力，不同的电容器其阻抗的频率特性也不同，所以这一特性是非常重要的确认要点。选择降噪用电容器时，请根据阻抗的频率特性而非容值来选型，为了在高频率范围内使用低阻抗的电容器，选择低ESR和ESL的电容器变得很重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz54ATicbbafLRwJnlZHspX434vEHhpFl7lkVhHY2tStSLAGibcJqdAUPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_003_7f23123d0e2a.png)
 
 **_图7-2：不同电容的频率特性_**
 
@@ -33,7 +33,7 @@ ________€2.____高Q值陶瓷电容器____
 
 电容器具有被称为“Q”的特性，**_图7-3_**表示电容Q值和频率-阻抗特性之间的关系。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRDD7QAmjfnGGT4xVqB5ibAUSF5rH4iajOK7kFz3XWeg8SozrQFMR2dl5ru5k6B0Lcau1Eogg94WMGg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_004_9772a8265c7d.png)
 
 **_图7-3：电容器的Q值与频率－阻抗特性的关系_**
 
@@ -43,25 +43,25 @@ ____€3.使用电容降低噪声效果示例____
 
 噪声和其特性多种多样，处理噪声的方法也多种多样，在这里主要谈开关电源相关的噪声，DC-DC电压中噪声电压水平较低，而频率较高，多数会根据其电路和电压电平，用LCR来降低噪声。**_图7-4_**和**_图7-6_**是通过添加电容器来降低DC/DC转换器输出电压噪声的示例：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzctic3Yo7TiceEqIA9lkHtI3JzuIiaMMHibA4NhnTTqZpKciciceYdw2OFXxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_005_185ada9cba6a.png)
 
 **_图7-4：输出电压波形，Co=22uF_**
 
 **_图7-4_**的波形是输出端LC滤波器的电容为22µF时，在约200MHz的频率范围存在180mVp-p左右的噪声（振铃、反射）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1O5XdaXRatTkMHjugWOV03VK8l6xGNovHVIWWYsGxiaaJMvzdnTRZsF8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_006_dc7faa910380.png)
 
 **_图7-5：LC无源滤波器_**
 
 **_图7-6_**的波形是为了降低这种噪声而添加了2200pF电容器后的结果，可见当增加2200pF的电容器后，噪声衰减至100mV左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz8MZaL7Z3HVAOuvhTcw0CCl7HZnE7ElAQwb1MvZAcMLtpOBUGamee6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_007_a43dc9957589.png)
 
 **_图7-6：输出电压波形，Co=22uF_**
 
 下面的**_图7-7_**为所添加2200pF电容器的阻抗频率特性：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1Oz1VJah9F6bPRkt7IMQ050cmJd9IsknAHeUJRutjmCjGNW6aoKjUjFQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_008_09b32ef21b11.jpg)
 
 **_图7-7：2200pF/50V的阻抗特性_**
 
@@ -77,7 +77,7 @@ _使用多个容值相同的电容器_
 
 **_图7-8_**是使用1个22µF的电容时（蓝色）、增加1个变为2个时（红色）、再增加1个变为3个（紫色）时的频率特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzsiaGKIo4Gmibpq6yicJ2G1Iu2zDxmhujWb5SL4rE8l8AQlBx2zn4iaSjKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_009_a0600e4b658c.png)
 
 **_图7-8：使用多个容值相同的电容器时_**
 
@@ -87,7 +87,7 @@ _使用多个容值相同的电容器_
 
 _使用多个容值不同的电容器_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzO3F6T9vmchCqNLwZHzQTuFevIIhlgVXwxYIXsKKAIQ7ufVdrSiatWqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_010_1ce518d90ad0.png)
 
 **_图7-9：使用多个容值不同的电容器时_**
 
@@ -99,19 +99,19 @@ _降低去耦电容器的ESL_
 
 即使容值相同也要使用尺寸较小的电容器，对于积层陶瓷电容器MLCC，会有容值相同但尺寸不同的几个封装。ESL取决于引脚部位的结构，尺寸较小的电容器基本上引脚部位也较小，通常ESL较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzFIzHc1dCB63qxqx8JbIGL7Pj5eodiaICQHfd6ib8sVCtuicLMpJVpjvBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_011_15ad4e6056eb.png)
 
 **_图7-10：使用多个容值不同的电容器时_**
 
 如**_图7-10_**是容值相同、大小不同的电容的频率特性示例，更小的1005尺寸的谐振频率更高，在之后感性区域的频率范围阻抗较低。电容的谐振频率是基于以下公式的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz11xDos38TnY6oSmLQUV04mSfIebV8HwmxNjnuFlhnaCSGTLOg3rX3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_012_f5c8ef8af13e.png)
 
 从公式中可以看出，只要容值相同，ESL越低谐振频率越高，另外感性区域的阻抗特性取决于ESL。
 
 如**_图7-11_**所示，积层陶瓷电容器中，有些型号采用的是旨在降低ESL的形状和结构。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OHSOopkH4DT4LvJFq7TbOUOuibWq09T0YIT9EZ2AjPpktOQ6e3OsgvbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_7_如何使用电容从后级应对开关电源噪声_images\img_013_3eb6eff8c70f.png)
 
 **_图7-11：普通的电容器和旨在降低ESL的电容器_**
 

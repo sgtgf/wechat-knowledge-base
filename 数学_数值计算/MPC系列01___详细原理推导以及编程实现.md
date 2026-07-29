@@ -18,49 +18,49 @@ MPC的核心思想其实非常科学，也很好理解。我们以看一本书�
 
 而MPC就是这样工作的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbgsaNJGaS4KMNktQm4x2dPC3ZIO58aXGs60aOxt6g5SsZEoWttSs9cA/640?wx_fmt=jpeg&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_000_071e915a20af.jpg)
 
 ****一、增量式方程****
 
 假设某系统的离散状态空间方程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbRqic7nM6Px3EoF5HKal0TFRdt2nwKmjSxGaaJL58KSY2G6YicOU3ywZQ/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_001_5f13290adeaf.png)
 
 注意：此处方程中输入u的下标与下个周期相同，与LQR状态方程描述中将输入u的下标写成与上个周期一致是不一样的，这样做的目的是为了后续更好地构建增量式方程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbVBiahuiblfiaHwZkHJdXTEs7KeF3N5egpsbDcXzAEsLTSybL4eEtwgGfQ/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_002_a7f93a9a9320.png)
 
 **思考点：**这里通过改变状态向量，便实现了增量式的状态方程，有点类似于微积分中的“变量替换”。
 
 ****二、预测的矩阵表达****
 
-将k+1、k+1...k+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbybYVwR0FDuNib3hgwAicNBoCmeBiaYqmO9XpYTibNE9pRiaw1QX0fjZhgVA/640?wx_fmt=png&from=appmsg)时刻的输出![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbBIiaPt4sAJ4fiagwaOyh9KfwE2w8FiboKxaUOLt2ZTzUevNOib1kH2Ur4A/640?wx_fmt=png&from=appmsg)由k时刻的状态![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbddtrD475gOfUAXS9MYnOTAicex2ejJnm7aaAcbAVWfeg8hdepymEoyw/640?wx_fmt=png&from=appmsg)以及k+1、k+2...k+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbzdxq8RMB0VmvJV5UQfBMGMwgDgEj4v27fygAZIZjibvrkXGBfzibxUPw/640?wx_fmt=png&from=appmsg)时刻的输入增量表示，如下所示，
+将k+1、k+1...k+![](MPC系列01___详细原理推导以及编程实现_images/img_003_46fa825bbc8e.png)时刻的输出![](MPC系列01___详细原理推导以及编程实现_images/img_004_91579656843a.png)由k时刻的状态![](MPC系列01___详细原理推导以及编程实现_images/img_005_4031c9b1cf5e.png)以及k+1、k+2...k+![](MPC系列01___详细原理推导以及编程实现_images/img_006_b54f8cd4f592.png)时刻的输入增量表示，如下所示，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbC6boCYvrC8Rr4INP9QC5DLDeoCrMKLS6HGXww4poUukCLaicoa6xAUA/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_007_3226e0e105c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbapoJicOic0tIgKjMMcmeyib9FqBZHEJryRyVCc7hicTNAcRxMJD7mu0vhw/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_008_072c472f933c.png)
 
 **即基于k-1的状态，最终可得k时刻的控制量，这就达到了控制的目的**。  
 
 上述等式，用矩阵相乘来表达，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbic5tXCyHllKK6ySq35tXsFicZibclyduFiaGZqD3lCkAzSp3nYXRbZznJQ/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_009_7894148b3b0a.png)
 
-上述的计算，是基于系统的当前状态以及![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbzdxq8RMB0VmvJV5UQfBMGMwgDgEj4v27fygAZIZjibvrkXGBfzibxUPw/640?wx_fmt=png&from=appmsg)个控制输入序列，计算从此刻开始的未来![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbybYVwR0FDuNib3hgwAicNBoCmeBiaYqmO9XpYTibNE9pRiaw1QX0fjZhgVA/640?wx_fmt=png&from=appmsg)个周期的系统状态，并用大矩阵相乘来描述其过程，**读者此处可仔细体会下矩阵表达的精简与优美。这个过程虽然看上去很复杂、头****大，但只要你看进去了，其实还是不难的。其实其他任何事也一样，“天下事有难易乎?为之,则难者亦易矣;不为,则易者亦难矣”。**
+上述的计算，是基于系统的当前状态以及![](MPC系列01___详细原理推导以及编程实现_images/img_010_b54f8cd4f592.png)个控制输入序列，计算从此刻开始的未来![](MPC系列01___详细原理推导以及编程实现_images/img_011_46fa825bbc8e.png)个周期的系统状态，并用大矩阵相乘来描述其过程，**读者此处可仔细体会下矩阵表达的精简与优美。这个过程虽然看上去很复杂、头****大，但只要你看进去了，其实还是不难的。其实其他任何事也一样，“天下事有难易乎?为之,则难者亦易矣;不为,则易者亦难矣”。**
 
 ****三、****QP代价函数********
 
 基于矩阵形式的预测表达式，可将代价函数化成QP的标准形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbm5HspuBdYXbAVYqhOu41RRbRnt33nLgDPNJzFzGE6Q8sxq04fqOl0g/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_012_17e5bbddb910.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUb47HX0ex7Ficia1tNqUS49KzRIgYYeibaDyFceXUiacE8cFDE0WIBfmBbKw/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_013_6c3e78592a77.png)
 
 ********四、QP约束条件********  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUb5y4JhdaoAhyjP8o8uNsX3kUwNKJsQFkObCkkhWDPleIyBeRqE8GFhQ/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_014_d810d6726551.png)
 
-确定了QP的代价函数和约束条件后，直接扔给QP算法，可得![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbzdxq8RMB0VmvJV5UQfBMGMwgDgEj4v27fygAZIZjibvrkXGBfzibxUPw/640?wx_fmt=png&from=appmsg)个
+确定了QP的代价函数和约束条件后，直接扔给QP算法，可得![](MPC系列01___详细原理推导以及编程实现_images/img_015_b54f8cd4f592.png)个
 
 周期的输入，但**只将第1个周期用于控制**。  
 
@@ -68,6 +68,6 @@ MPC的核心思想其实非常科学，也很好理解。我们以看一本书�
 
 MPC数学上去理解，看起来挺难的，但个人觉得，其实还好，它比LQR好理解，我当初也是先理解MPC，然后再去理解LQR的，对于非数学专业的人来说，理解好贝尔曼最优理论是比较费劲的。另外，LQR的执行逻辑其实是有一点点难的，MPC就不一样了，只要你从数学上过了关，编程实现反而会简单很多，当然我说的是基于开源QP库的，如果自己写QP算法应该也不容易，但我觉得，初学者直接用现成的QP库是可以的，读者朋友们可以自己去试试。MPC我没有写Matlab程序，是直接用C++实现的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbUEKDricASSWpd3NqjpyAnb3O1bEPt1RFVs3gcGF654ryuiapDQx6NyEA/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_016_fd8512ef10cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUb6644UbmrQjPUFjLQxZ70thh47dpdlgIZIJaO03qJ52xs7WJrtR0LAg/640?wx_fmt=png&from=appmsg)
+![](MPC系列01___详细原理推导以及编程实现_images/img_017_65d1d68be612.png)

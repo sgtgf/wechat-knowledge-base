@@ -21,7 +21,7 @@
 
 1.系统整体设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnXKQo7N0eb3aWXcuq6BicoQgRFVGm93RONrdBksbHh7zKZK7ybko69cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_000_c093f693f544.png)
 
 本系统是由碳化硅（silicon carbide，SiC）电路、电流检测电路、电压检测电路、控制电路、滤波电路、驱动电路以及负载等组成四象限可控整流器系统。
 
@@ -37,7 +37,7 @@
 
 2.1 器件选型设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnZicnpKyaHxVCKUbqC0HdJ7fYMpeJiaEkickSqTicQPmvh3zuExIXQe44ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_001_6dfc0d4238cb.png)
 
 由于本文所使用的场景是井壁取心的工作环境，所使用的设备需要具有高性能的优点，因此选用SiC功率器件，具体型号为深圳爱仕特科技的ASC100N1200MEP6B。SiC功率器件主要在整流环节中使用，针对其电压的范围来确定SiC功率器件的具体型号，设计可控整流最初的想法就是将输入高频电源的AC300～380V电压进行整流后稳定控制在600V。在工程上为了安全考虑，在器件选型时，一般选取其最大电压值的2倍，所以 这种情况下可以针对此数据进行器件选型，选用耐压值为1200V的SiC功率器件。根据其额定功率可知，其电流值最高为25A，所以应选用最高值2倍有余的额定电流的SiC功率器件，最后选用1200V/50A的SiC功率器件。
 
@@ -53,15 +53,15 @@
 
 根据相关技术指标，总电感电流Imp 计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnBJ9Nup1wq6tncQhYT05YR4iamf60FIPZpDRq0RQZZ3WqRIXIyCzu5IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_002_3ecd592f88df.png)
 
 式 中，Pac为逆变器额定输出功率，Pac\=15 kW；Em 为三桥臂逆变器输出电压，Em\= 600V。将数据代入式（1）可得Imp\= 20.41 A。因此，可得纹波电流 ΔIripple-max：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnp9ibhG03p01Lx1CHGG1c0ibJ0Pf1dms4tuicGX5ImbPW3NdsrAv9MXdJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_003_e07bcceff89b.png)
 
 由式（2）可得，纹波电流ΔIripple-max=5.77 A。 电感 L 取值范围：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnGFWbZA6MUDto2NOYic7QfflTNA0lib1r3O5Qa6tsrYOqjicg6Iwr3R8AA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_004_b90f03b5b428.png)
 
 式中，Udc为直流电压，Udc\=600V；f为电网频率，f\=50Hz；Em 为三桥臂整流器系统输入电压，Em\=380V。 
 
@@ -71,7 +71,7 @@
 
 根据相关技术标准，电压纹波率不高于 5%。 本文假设电压纹波率为2%，滤波电容 Cf 计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnrty49eOh8Sdj8wba25amXcSZVJrfeytVRZwvtIQwDYhShhWZzx3e8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_005_c7bc49c3d4f2.png)
 
 式中，P为额定功率；γ为电网电压有效值，γ\=0.03。 
 
@@ -91,7 +91,7 @@
 
 针对海油井壁取心高频电源供电不足导致电机无法正常工作的情况，本文提出应用软件锁相环来对电网进行跟踪，其在三相电压不平衡或者有干扰的情况下均能较好地跟踪实际电网电压相量角度。 同时，应用同步旋转坐标系将原来三相坐标系中的交流量都变为直流量，通过控制d 轴电流控制整流器的有功功率，通过控制 q 轴电流控制整流器的无功功率，主程序流程如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnZsGvqBhtIzfOZm3xIOm4AOhJO2px0AgkdlRKc3Z8W118Z4sm5ChOhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_006_4083254308e2.png)
 
 4\. 系统测试与结果分析
 
@@ -103,13 +103,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIyuRkudQiaNfdEs71HicbaJUtllM09kNhAfJFxY2ZGiaV9mWibh6A1GYdsw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_007_89cd77882215.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIrQXwynl0NGaP6YO71CFOUNHFWlT0gcjWAjK1azdiam38RepJyDOafibQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_008_bbb9e6ec065f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIaHALsPp4IyytcIPKezb7uhOMTe0rLQhWVnvLnmNDZmJOKsH8M81vAA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于DSP的井壁取心高频电源可控整流器系统设计_images\img_009_252a35e16d50.jpg)

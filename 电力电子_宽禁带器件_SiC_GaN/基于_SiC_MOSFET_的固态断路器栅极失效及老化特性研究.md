@@ -20,11 +20,11 @@
 
 1.1 测试平台及原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9AaVB4Fqv5ubF6lf6unVhjU1qBBPdiba6ywO7OG548ZCiarAah6pCzrT4TYTsqv10Qhic7mx7O6Iug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_000_0ce926495e52.png)
 
 固态断路器的经典电路拓扑如图 1( a )所示， 其主要部分包括功率半导体器件、驱动电路、短路侦测电路、电压钳位电路及冷却系统。图中：iSSCB为通过固态断路器所在回路的故障电流；vSSCB 为固态断路器的端口电压；iMOSFET为实际通过功率器件的电流；iClamp 为钳位支路中的电流。固态断路器的工作波形则根据系统故障类型的不同，分为硬开关故障波形和负载故障波形 2 类。其中硬开关故障是指在固态断路器闭合前，系统负载已经短路或发生接地故障，断路器在导通后迅速进入关断动作过程，并关断故障大电流，其波形如图 1( b )所示。 在断路器将要闭合时，驱动电路给 SiC MOSFET 施加 1个正向偏压以使其进入导通状态，由于系统回路已经短路，流经器件的电流迅速升高，故障侦测电路在检测到故障发生后，通过驱动回路控制器件关断以迅速切除故障电流，此时器件两端的电压迅速升高，直至触发电压钳位支路动作。此后断路器电压维持在钳位电压附近，电流迅速向电压钳位支路转移，从而实现对故障能量的吸收。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9AaVB4Fqv5ubF6lf6unVhMrmzTRHjNAKq8hBy828BIVxHicibXGHOdplGQbof6DDzOtEUffI56GFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_001_3ba02927a98a.png)
 
 为探究 SiC MOSFET 的失效及老化特性，基于图 2 所示的大电流关断测试平台进行了相关实验。该平台基于固态断路器的经典电路结构设计，主要包括外接母线电压VDC接口、母线电容组CDC和外接电感L接口，待测器件DUT( device under test )、驱动电路、 精密电阻( Shunt )、缓冲电容 C 和电阻 R，以及金属 氧化物压敏电阻 MOV( metal oxide varistor )。图中：iDUT为通过待测器件的故障电流；vDUT为待测器件两端的端口电压；vShunt为精密电阻压降。器件的通断由单片机控制，当器件导通后，电容CDC迅速向电感 L充电，以模拟直流系统的故障过程，在延时一段时间后，单片机发出关断信号并控制器件关断，RC 缓冲支路负责减小器件的关断损耗，MOV支路则进行电压钳位和能量吸收。此外，在直流电源与VDC接入端子之间串联1个大功率IGBT模块， 用于在器件失效后切断回路电流，以保护测试系统中的其他元器件，该模块同样由单片机进行控制。
 
@@ -32,7 +32,7 @@
 
 1.2 测试结果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9AaVB4Fqv5ubF6lf6unVha7yicibFnoQhQsWhtVkM5QMA48BSqrHEibIZcFAMQGGDY0eNicH53HYXJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_002_0d7ccdf2aa09.png)
 
   
 DUT1 的单次动作失效波形如图 3( a )所示，器件在导通34μs后关断，而保护IGBT 则延时10μs后关断，vP为 IGBT 的驱动电压，由于关断后仍存在一定的损耗而发生失效，失效时刻为 41 μs。器 件在导通过程中进入饱和状态，导通压降 vDUT逐渐上升，器件的电流上升速率不断减小，器件的损耗不断增大。整个过程中，器件的最大电流iDUT,max\= 228 A，电压vDUT峰值为1.17 kV，该器件的失效模式为栅极失效，其特征为器件的栅、源极短路，漏、 源极正常，因此失效波形中显示 DUT 的驱动电压vG在失效后减小为 0，vDUT\=400 V，母线电压仍由器件来承受。
@@ -45,11 +45,11 @@ DUT1 的单次动作失效波形如图 3( a )所示，器件在导通34μs后�
 
 2.1 仿真分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9AaVB4Fqv5ubF6lf6unVhJJpzdo6ON8IagP3NKmUE3BJetJ9uXaeicRzSs0icibGvuiaMBeHeWTE9qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_003_fab78574d824.png)
 
 为进一步探究器件的栅极失效及老化特性，本文基于 TCAD 仿真平台，参考真实器件结构参数，构建了 SiC MOSFET 的数值仿真模型，其结构如图 4( a )所示，相关参数见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9AaVB4Fqv5ubF6lf6unVhtWBQCQf6ZpcJtib1bg1sKibbHnBU2uVzhgP4VRSdiaeWiapwQ3mWcseBaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_004_380ed69463cf.png)
 
 该模型体现了器件的 1/2 元胞结构，当栅极承受正向偏压时，其下方的 P 基区内会形成 1 个反型沟道以供电子流通，实现器件的导通。其中 N+源极区、P 基区、N\-漂移区和 N+衬底的掺杂浓度分别为 1×10¹⁹、2×10¹⁷、1×10¹⁶和1×10¹⁹ cm\-³。仿真模型采用饱和速度模型、浓度依赖迁移率模型、SRH 复合模型、Selb 碰撞电离模型及晶格自热模型等，以模拟器件在动态过程中的一系列物理过程。
 
@@ -61,7 +61,7 @@ DUT1 的单次动作失效波形如图 3( a )所示，器件在导通34μs后�
 
 为验证SiC MOSFET的栅极失效及老化机理的推测，将发生栅极老化的器件进行开封处理，并采用聚焦离子束FIB( focused ion beam )对芯片进行纵向切片，结合扫描电子显微镜SEM( scanning electron  microscope )观察，其结果如图5所示。与完整的栅极结构不同，发生栅极老化的器件，其结构拐角处出现裂缝，验证了本文的相关仿真结论。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9AaVB4Fqv5ubF6lf6unVhu5ounwdicn2XibwAUwiaW24Hgic70pEDW7KMGFfSdlAVqXEfiafZs0jVmIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_005_8f8c59c65847.png)
 
 综合上述结果，SiC MOSFET 在固态断路器中工作于大电流关断状态，其动态过程中将产生大量损耗，导致器件内部剧烈温升，并集中在器件的栅极结构附近，受热应力影响，器件的栅极氧化层在单次或多次的动作过程中会发生开裂现象，裂缝将不断在栅极氧化层内蔓延，直至贯穿该结构。由于此时器件内部温升已经超过金属铝的熔点，器件源极的金属铝将会熔化，并流入裂缝中，最终导致器件的栅、源极短路，而漏、源极结构完好的特殊失效及老化现象。  
 
@@ -79,14 +79,14 @@ DUT1 的单次动作失效波形如图 3( a )所示，器件在导通34μs后�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciakK6zIjF5qlcSnF1iavjkjHMxt7kkQL56t2I0VkMMGPHAlYCdcic10UQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_006_b24bc7497825.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciaeWPoukpPSoodzkAIEebeRqm1uPL6FbiaWJpjkn1uQXDBpck2ibQk5pA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_007_1b064bdd1973.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViczk316DvZLAIY5ODl8oOr06x638bzC5wceE3licVx8yia9wdFO7GB1bnQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_008_6952ae7d1ca5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbVicbz7NgK7j4g1MCoaClV4h1ic8eof2OicIvGKvhVLkyjc7LGo5V6Q8sWaQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_MOSFET_的固态断路器栅极失效及老化特性研究_images\img_009_2437350b2e09.jpg)

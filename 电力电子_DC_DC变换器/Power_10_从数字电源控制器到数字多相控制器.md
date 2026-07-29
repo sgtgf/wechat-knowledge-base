@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/losJKmA6A6Nq61pi5\_K91A](https://mp.weixin.qq.com/s/losJKmA6A6Nq61pi5_K91A)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtI9ZoMFrGcclLma2m0h6Uzgv2MpsDGRSwgibr54E8SPc0tAl4vibj4WPxQ/640?wx_fmt=png)★★★**______Power-10---数字控制器______**★★★**____
+____**![](Power_10_从数字电源控制器到数字多相控制器_images/img_000_cd3607a2e2c5.png)★★★**______Power-10---数字控制器______**★★★**____
 
 _撰稿：Timothy  校稿：Timothy_
 
@@ -13,19 +13,19 @@ ____________€1.结构组成____________
 
 如**_图10-1_**所示，无论2和3部分是独立还是合并一起的DrMOS，作为数字控制器的1部分其功能都没有发生变化。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26qX6u27trjmsFKUsSDK8zd7cZvcbmk00AZuxOfGibaiaY2DFVCCGuGySg/640?wx_fmt=png)
+![](Power_10_从数字电源控制器到数字多相控制器_images/img_001_597f5ebc223d.png)
 
 **_图10-1：DC-DC的结构层级_**
 
 数字多相控制器产品组合高度灵活、功能丰富，为服务器、存储、数据通信、电信和消费类应用等广泛应用中使用的CPU、GPU、SoC和 ASIC提供了强大动力。这些数字控制器支持多种通信协议，例如英特尔SVID、AMD SVI2、AVS总线和PMBus，并通过直观的图形用户界面 (GUI) 提供了广泛的可编程功能。专有控制系统实施结合了线性和非线性控制算法，以实现一流的瞬态性能和更少的输出电容数量，从而降低物料成本。这些控制器可提供广泛的故障保护和遥测功能，有助于提高系统鲁棒性，让系统更智能，引脚固定编程允许对多个应用和/或平台使用，如**_图10-2_**，是一个12相PWM输出的典型系统框图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQOSc1aQ5LR7SxgURva20wf340E3iaZerDtwDcZvcq7e2BWpYHSgLPRWEajHfZK60FvdWs57NIpp8Q/640?wx_fmt=png)
+![](Power_10_从数字电源控制器到数字多相控制器_images/img_002_36d5ae2b30fa.png)
 
 **_图10-2：12相PWM输出控制器_**
 
 如**_图10-3_**所示，8相PWM输出控制器IR35201，搭配DrMOS--IR3555，配置为6相输出V\_CPU\_L1和2相输出V\_CPU\_L2。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQIP6kEmZ1moRluK2L1EO5UGAxsd6uk0SrE4ib8qOI6pwu0krxUSibMibG3ltbQtW8WPRZRTZECLI0Sw/640?wx_fmt=jpeg)
+![](Power_10_从数字电源控制器到数字多相控制器_images/img_003_55a48554e9bc.jpg)
 
 **_图10-3：8相PWM两通道输出_**
 
@@ -33,15 +33,15 @@ ____________€2.波形示例____________
 
 数字控制器本质就是产生控制用的PWM驱动波（所以也叫PWM控制器），因此在一部分场景可以使用MCU来实现数字控制器的功能，**_图10-4_**到**_图10-6_**显示了处于稳态的八相TLVR电路的仿真。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSB9287JJvoTD2tHh7KDYKNZYPWwL82xRvGaT4icFxCx9YxU7ubzdhIM9HykbXfgHawmwvwj4oKA1A/640?wx_fmt=png)
+![](Power_10_从数字电源控制器到数字多相控制器_images/img_004_402a942a3516.png)
 
 **_图10-4：八相PWM波形_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSB9287JJvoTD2tHh7KDYKNnYmpxHvwQ5XZECJ2REL2Mv2sUk3PT8SWZ6hvZRr4nNB9KfqX2ejj1w/640?wx_fmt=png)
+![](Power_10_从数字电源控制器到数字多相控制器_images/img_005_6d4efabfc667.png)
 
 **_图10-5：耦合电路中的电流_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSB9287JJvoTD2tHh7KDYKNicicqLyBKGJYs18LibxPudcjpodnnS1K8ibZgJ0e7KJB1AIiann4kfItI8Q/640?wx_fmt=png)
+![](Power_10_从数字电源控制器到数字多相控制器_images/img_006_b76477d17a5d.png)
 
 **_图10-6：各相电流_**
 
@@ -67,7 +67,7 @@ ____________€2.波形示例____________
 
 ________________________€3.______________瞬态比较__________
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQIP6kEmZ1moRluK2L1EO5UxiacS5Qia79ib2pha5dY3o6gsnBk8pdadgMNjFYEk5S1icguMM7JPXzAeQ/640?wx_fmt=png&from=appmsg)
+![](Power_10_从数字电源控制器到数字多相控制器_images/img_007_981664fbac21.png)
 
 **_图10-7：瞬态比较示例_**
 

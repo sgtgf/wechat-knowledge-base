@@ -31,7 +31,7 @@ Junyi Ye, Zhiyuan Che, Jiajun Wang, Yi Zhang, Bo Wang, Wenzhe Liu, Lei Shi, Jian
 
 出版信息：Science Bulletin, In Press; DOI: 10.1016/j.scib.2025.10.001
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrnx3ic8M2jUBJ8fnoRsFOUIQ0jlMb4dJOepedF2LqYSO93CUjsSTIw4Atr4Tj0rrb0mUJKiaWfBzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SciBull_传播不变的空时涡旋_images\img_000_2b78f026500d.png)
 
 论文摘要
 
@@ -51,19 +51,19 @@ Junyi Ye, Zhiyuan Che, Jiajun Wang, Yi Zhang, Bo Wang, Wenzhe Liu, Lei Shi, Jian
 
 本文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrnx3ic8M2jUBJ8fnoRsFOUs0crgytUQiaVnmRibHUz2XwgovwPWlVcqzuNEibt9f6AecwGaYhicsESZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SciBull_传播不变的空时涡旋_images\img_001_33dae194c712.png)
 
 图 1: 频域-动量域中的传播不变时空涡旋概念图。(a) 高斯脉冲波束：在色散面上呈圆形谱分布，显示出显著的衍射。(b) 类贝塞尔时空涡旋波束：谱分布在kx−kz平面上形成一个带有螺旋相位的圆环，中心涡旋随时间发生畸变。(c) 传播不变时空波束：一个开放的谱线，由倾斜平面与色散面相交形成，在传播过程中保持传播不变。(d) 传播不变时空涡旋波束：在异常色散区域产生的闭合谱环，叠加螺旋相位后，实现了具有传播不变行为的涡旋。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrnx3ic8M2jUBJ8fnoRsFOUN01eS1PZwOIq0pdClk3TNndXLDy1t2qTfLFzeGBT3qqPj415C8e1dw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SciBull_传播不变的空时涡旋_images\img_002_358fdba939a4.png)
 
 图 2: 实验液体表面波装置和色散测量。(a) 实验装置示意图。相控阵算法将ω−kx谱转换为时域信号，通过多通道声卡分配到扬声器阵列，经由波源结构激发表面波。(b) 测量的 C2H3Cl2F液体的异常色散。左图显示了测量得到的色散关系和拟合结果，右图代表了色散关系的导数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrnx3ic8M2jUBJ8fnoRsFOUvnXecDWoRrMdkDQ3I7OH5D8a0yfS7m16geDKYzCaWKHgic5NjY2Yfyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SciBull_传播不变的空时涡旋_images\img_003_42ce2c7d2fe4.png)
 
 图 3: 实验测量的传播不变时空波包的时间演化。(a) 传播不变类贝塞尔波包在频域-动量域中的表示。(b) 实验测量的传播不变类贝塞尔时空波包。相邻帧之间的时间间隔约为Δt=2.4s。(c) 使用与实验相同参数对波包进行的相应数值计算。(d) 横向和纵向波瓣宽度随时间的变化。每个数据点是十次手动测量的平均值，以减少选择误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXrnx3ic8M2jUBJ8fnoRsFOUMGCibmozNCb0J7k2stIyWZtBibicicS2EBPl2eksdS24sl9jJ2IXbAgbiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SciBull_传播不变的空时涡旋_images\img_004_49035da8f23e.png)
 
 图 4: 两种类型的类贝塞尔时空涡旋波束的实验时间演化对比。(a) 传播不变时空涡旋波束在频域-动量域中的表示，显示了在ω−kx平面上拓扑荷为 +1 和 +2 的螺旋相位。(b) 传统时空涡旋波束（拓扑荷为 +1（绿色箭头指示）和 +2（红色箭头指示））的时间演化。对于这两种时空涡旋波束，其轮廓都发生了倾斜拉伸形变，并且涡旋在传播过程中也发生畸变。特别是在右列中，+2 荷在传播过程中迅速分裂成两个 +1 荷。到第三帧时，两个电荷相距约 6 cm。(c) 拓扑荷为 +1 和 +2 的传播不变时空涡旋波束的时间演化。两种情况均表现出不变的轮廓和稳定的拓扑荷。
 

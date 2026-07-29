@@ -11,86 +11,86 @@
 
 动汽车将有可能充当储能系统，实现各种车到其他用电设备的供电场景，比如车辆到家庭、车辆到电网和车辆到车辆充电等，因此OBC正在从单向拓扑向双向拓扑转变，电动汽车未来采用双向OBC是一种普遍趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhzuCySmJDSSOPfmIibHmHVbOS3nUaMibXPvz4WmA5d7Zaw9mjTfibRJriaiaIDMn8R4XbMZH90obSZhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_000_284a24b68581.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhzuCySmJDSSOPfmIibHmHVV7BWLr0jDZkqwnTiaz4Z88f97Tq1jRUkQCicOffaKAOyQNGQE5xiaa4ug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_001_80e1b9297c3a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7TXoSxdnV5GiaTO0LGZdxicOT1Fl249gIJpabtTAI3ibGniawF9E9JQJMwQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_002_d14c3e398c3a.jpg)  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN76DonsC78uZBOGNBE03dkczmJJa0xIGc0n60WVwVeXXUcN4fNBMNjXA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_003_aa9c4d9b3a06.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7xuDSPOADaJAMdnQiaHlU95OV1ia9zP4vcqADNaq3Z3iblmZJBEL38gpbA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_004_09eec58123f2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7ibibW2GI1sSiaicPAOxVsXxk1dKbe5YvKLy0oBlib5TGsAGTCqH1eRVQicQA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_005_33b67eba4fdb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7T2HIJAZUl5uhQnSlXJQPb4xAeEMWQOEPtQ9NNhHRyMbFHKgmCeoxIg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_006_0dd6f07a5ec0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7RGEQNhGRN1IGZ9LXticibyUagtwlHnS9A8ibgqUV3PDaAluFyGR0MWNbA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_007_066e589f468b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7qyf9mVRyNNGtUicYHPxBn3MbaZebrPhLU2SPibD7VS3KoicNsGgrUch9A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_008_10d2b0c10697.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN75PU1TMCd1YHycEIL1JyKCB6Wl4rYdMfgHF0YuwRkIw6lIW45XGH55A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_009_0ff8354e244b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7JQiaO9jOFkoLD53BLNs8QCCib76ia76nXZECFtcFGem2cTfVRZY6DLbDw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_010_ecad38137dd2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN74hJOshlJ0ZuL9lMRUSyL3lh2c7iauicwCH6vzWWtnPRGnWFWiayXaqgWg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_011_dba19b28971d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7lBDAs2IKxS2wnfg8uIdfib6Ke1cZ5StZC3AWZyHlpQMASQzrPJiakFNw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_012_1eaca3b56763.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7EiawdQAxapHWvpWVOltP205JTwiaol8qVes3ENYTCibMKcic6qo1ao1VHg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_013_299907fea892.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN70977nxiayfG8DAudEn43tccfcgG6Qo8AhtyAVdecRMFlrRiaHD1uxaeg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_014_59551d48c126.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7wcAbAw72vTuLAHXjJV8gdaWkibYTYYGia2GtZwzD5NE2Kicg4fNj9Kk7Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_015_fcb3293fd174.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7kibldG7XKIadhY5VRebZkM8WFgCDlCTBIx7ubusPoODBYhN2tm62e9Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_016_6d909f9c4728.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7Qaj0eJ92QG6RZnOicckmsmtlwz82LSWicAKLvSicJqSTThAIpiavjUc34w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_017_8c1fba3066ca.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN715yQy5Gt5oiaiaDWcoTOwhhhLttCYXuZrKbkYFZr8S8cx3S1ia7MuH3aw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_018_1ffa4c0fbc5d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN77LxiaicUakiaOJL11emVdMPIAX0Zt5P3buKpqtBn5hqjOW8ZX7SpXTzVQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_019_5111d89d82fc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7XKHjm0ia8Gfvd3mzTsMTuibX2HhhcRxMYnjyT3ZMOMm23ibt72Zv1cEMQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_020_1c5a34701f3c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7pfWmNsjndbBwn1PAWvI5EpapbOb0nCqJ8tgB0LNNpibzH1jnf3N66Hg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_021_c900a73c8d36.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7TqqESibFPERaHPAI2CCC8VDuPq7ZOHmGbesNvkRePRlCXWRTrvPLSBA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_022_09d234207b3a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7zic0m3K3qZ5PGZ80Cgg8y3V784TwefhIFVicIiceuGqh9nvvyJazpzpBw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_023_1c65d46cb333.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7G7ondj82ib5meYiclicOk2a4tWtrOv0Rfba9hSJ4Q0jRcA3b1Wsp2mKXw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_024_5329df03e68d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7WmdwvuWTdVDWicQETNL996erhK9HuvxXIbnIaSnn8OUWZyjxJfrtxhw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_025_91b629927d61.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7pksgzcWPaibicC7cgDbN0LCCRN2ySRticdMvXwPC7urk2mjicicggkIbMpA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_026_7549695b3a25.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7SFW4OkxXXLGIx69KS25jMkxDkZibgrDHwSu51J8DCP2Uib4RicnSzIVvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_027_1e259e42b65d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7nj1eDoyavNIJVp5cCMNVy85RfqwjqMib0KVDpbo0qClQUoTicoxnTtCA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_028_7380fd374733.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7jGibKNhDDCefCvjr74uTWjrRib8ibk2DSJGxflQKZgWIFJOrxG8YBhhMg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_029_f51b2dbeadf4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7POpiciclW6RKTBC8QmPPEpF59siaZbibvQSqibSZUcCKl21xGEgQyyH51cQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_030_45de18aa2ef8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7552JcmaWB3JyNEYGcrbVr2icUGKDpaGVOv3N1PphZlVbZe6f4Bw6NRQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_031_388f6ff4af76.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7yjWhPdy7pJqSpdc5erM76wuJxXELibicYSXun9ScCvqS9cwBAInbvtuQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_032_6a3eb5dd30f2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7iaJT3VdJTRNG2l0w7hOsgbk4Kj0dmM54w9m1eSiaJIyLciabCHuhujOicQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_033_e985e7b6b553.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7ojHVq1SWaZHKflklKskL5bxYNGVXMvXhcnez808WOZXYy6qXficw2TA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_034_65855676c307.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN79yBO2kB6Knib0sGcK426JYVqmLibvicYXriavcMyzOarR1L95sKvmicJDXg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_035_905f4443998d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7tS8uoK8GvhqBpevbdfKic7BW3XX7GvKVeMxvwrVYsdgOqDdYowHKdhQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_036_17ec15aa3aa9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7El1utUicSYmBsGbsaBNsUvGicIryMzcI0Sj9521n4wZLhImOVPJ4gCUw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_037_b20e74a1c8ad.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDiaqYGqKIvLYbyVmasOylEN7ziajnYrF6dBxhjLSHNcxXcWZgFmMe8hiaoBWyhibRNopAyjeiaLBxee9qw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_038_4116d81c4d54.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_039_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_040_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于多端口谐振变换器的高密OBC设计_images\img_041_84aa944feb13.jpg)

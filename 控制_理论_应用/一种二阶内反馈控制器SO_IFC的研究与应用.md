@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgcnDCfo3955QE1vqOoQFQhQBMCqfbgkYCnO3WbuCLicVSj1pTmolWkOgw/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_000_f2c56c758997.png)
 
 二阶内反馈控制控制系统
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgc0gBFcBkVXj3QWawicIOaEKbdUvLdskDsic9iciaoqhKBGJ6qfGgH1EkCzw/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_001_5ad24cc95262.png)
 
 新型内反馈器
 
@@ -44,7 +44,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgcffqWz9bW4njcWu6CYzXRByISmD8JDVVx3q8P1hvoiat3RkaTR1majZg/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_002_f50ef551dfea.png)
 
 锅炉主控系统优化示意图
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgc6JlPg0wBrYG5kkBULqSXel0uM9D5EeMseUR5agnUz3Xs9lFS8HpVjw/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_003_cdef2ebb9e62.png)
 
   
 
@@ -66,23 +66,23 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgc7lFOEQ4SHknFALTDz2FjjPfqz2cjaJNrZn9bUuHvUlwwDX5s1Gf38w/640?wx_fmt=gif)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_004_4d3faf8bf3fe.gif)
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgcsItMicQicBCOicQDUkOnh6xpb9RGj524k6jC786mKggYqtibvFdGr3wIgg/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_005_f364953a1ef5.png)
 
 李 军, 广东电网有限责任公司电力科学研究院工程人员. 主要从事计算机控制与通讯等试验研究工作. 本文通信作者. 
 
 E-mail: lijun\_87389@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgcGcB0fGkUC9iaj3lbc1bhJ9SIB7fwSMQOYz44npz6ibeP5Uuib4tPdUWJg/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_006_191c2b37acb7.png)
 
 万文军, 广东电科院能源技术有限责任公司, 高级工程人员. 主要从事火电厂热工控制方面的试验和科研工作. 
 
 E-mail: tansthin@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgcbG4z0iaVwjHn4jO7Yh38kfg5bk4wk8HSniam6PEpjfZcKdicE4t8XU8zQ/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_007_bb7bd55a45c5.png)
 
 刘 哲, 广东电网有限责任公司电力科学研究院，高级工程师. 主要从事火电厂热工控制方面的试验和研究工作. 
 
@@ -184,21 +184,21 @@ E-mail: liuzheyoungman@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgclKCP52Nib6vsZW8WkIkDDNhdAYhoh4QWbTTkbdcl7wYicdkLNibNqicvXA/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_008_051a46d84975.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgct7WQuxQv9wWcQG1StfR0nI3jSCrA2GHdO521h7BnTJlExm1mTyL0pw/640?wx_fmt=jpeg)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_009_01e83403fb7f.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgclKCP52Nib6vsZW8WkIkDDNhdAYhoh4QWbTTkbdcl7wYicdkLNibNqicvXA/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_010_051a46d84975.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgcWuz4m0Q0z10IqibaCVEbtFa1lnKJuxNQBqhYKWRvKm1icSia3ZtmV1Qww/640?wx_fmt=jpeg)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_011_d1d7bbd21f98.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgclKCP52Nib6vsZW8WkIkDDNhdAYhoh4QWbTTkbdcl7wYicdkLNibNqicvXA/640?wx_fmt=png)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_012_051a46d84975.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4649O9ickibQO1FRAgXTTtQgcMBHhlCtHZtDJFiaPL4gKdWvWGmhZib6FAJqFR7wmj0IpIPicnYdrt7Xkw/640?wx_fmt=jpeg)
+![](一种二阶内反馈控制器SO_IFC的研究与应用_images/img_013_d4df9ba10e76.jpg)
 
 自动化学报订阅号
 

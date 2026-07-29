@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Ez6--2iBOxNCHBmkOapjfw](https://mp.weixin.qq.com/s/Ez6--2iBOxNCHBmkOapjfw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvIeTic0Tupt2YribibhxCvXoF31xm46T2wYt3nIyBrJjQvcQf0B1oeREAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_000_37ae24e86f39.png)
 
 ____**★★★**__________EMC-4---开关电源的噪声来源__________**★★★**____
 
@@ -13,45 +13,45 @@ ____**★★★**__________EMC-4---开关电源的噪声来源__________**★★
 
 首先，使用同步整流型降压DC/DC转换器的等效电路来了解一下开关电源电流的路径：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfB7V2xMBSicbWCxD6PyZEcHK5IhGMcE0AFXWia1a4P703rX7VYJt3fs26g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_001_d000b0407a74.png)
 
 **_图4-1：Q1（高边开关）ON 时的电流路径_**
 
 如**_图4-1_**所示，Q1为高边开关，Q2为低边开关。Q1导通时，此时Q2为关断状态，电流Iin路径是从输入电容器Cin（上阶段Cin已经充满电）到Q1、再经由电感L到输出电容器Cout和负载Rload。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBBtIwowJZVialnniakTvUjaicrbaG2EcseZCQNJsUZcllVNrcYUicfERo7g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_002_bc88a222fb46.png)
 
 **_图4-2：Q2（低边开关）ON 时的电流路径_**
 
 **_图4-2_**在Q2导通时，此时Q1为关断状态，Q1导通阶段Cout已经储满电量，Q1刚进入关断时，电感L其反向电动势维持输出电流Iout，而后电感能量减弱，Cout就会开始参与放电维持Iout，注意看电容蓝色电流虚线，电流路径是L经由负载Rload到Q2。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMB49QfSkicT6DVNdGhhLdibiaz4YvrWHXjo5RahQoPKvv0cYmGia9YasuMTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_003_9e3bb8a05f28.png)
 
 **_图4-3：图4-1和图 4-2的电流路径差异_**
 
 **_图4-3_**绿框表示**_图4-1_**和**_图4-2_**这些电流路径之间的差异，每当开关ON/OFF时，红色线路的电流都会急剧变化。该环路的电流变化非常剧烈，所以会因PCB布线的电感分量而在环路内产生高频振铃，产生的电压可通过下列公式来计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzKbkzVkZWC74mibjA3wibJKlJqGH4JpoBZLIkpZqYwFIFbico7TIMEtCyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_004_8b27083c1781.png)
 
 如果在电感分量为10nH的布线中1A电流在10ns内变化，则将产生1V电压。
 
 ## ____€2.DC-DC的寄生分量____
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRzyB1lkOXpDWDzhOibFribPicu1zuWfkmNKyBN70FmsueO9nvzD4ibjq0XGRSPxcfst2D3wAib0Gr1YeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_005_919d46eeeec7.png)
 
 **_图4-4：电源电路的实装电路板的寄生分量_**
 
 红色部分标出的是**_图4-4_**所表示的电流在急剧变化的环路中的寄生分量，布线中存在布线电感，通常每1mm有1nH左右的电感。另外，电容器中存在等效串联电感ESL，MOSFET的各引脚间存在寄生电容，而开关MOS的上升/下降时间是几ns。因此，如**_图4-5_**波形图所示，开关节点将产生100MHz～300MHz的振铃。所产生的电流和电压，可通过如下给出的两个公式求得。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvibaohzWGAtCCFibQPAE9XWqypyAUEtCuMyU1c3UdPD3F1M9xkGjLViaLg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_006_4739e47b8a0a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1ONTyVD84UPMiaKCw2JuEN4YN5YhtcoKgjxnzy7ILlh9pDaicfRxzoRjUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_007_d36886608d18.png)
 
 **_图4-5：寄生分量和振铃之间的关系_**
 
 红色波形是开关噪声分量，青色波形是基波分量，在上升/下降时出现100MHz至300MHz的强烈振铃。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OYsI2lXoTQbC1xpOIRLzhPHgUNCrtOUEoKRSOia364tZTMRJ410ibWraA/640?wx_fmt=png)**_图4-6：开关电源电路产生的噪声_**
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_4_开关电源的噪声来源_images\img_008_8806bb9fc0e5.png)**_图4-6：开关电源电路产生的噪声_**
 
 这种振铃会作为高频开关噪声带来各种影响，如**_图4-6_**，即使优化环路，残留的开关噪声成分也会作为共模噪声传导到电源端，必须采取措施，通过在传输线中插入电感器等高阻抗元件来限制噪声，还必须注意串扰。虽然有采取相应的措施，但由于无法从电源IC处去除安装电路板的寄生分量，因此只能通过PCB板布局设计及采用去藕电容来解决。
 

@@ -11,7 +11,7 @@
 
 ## 封面图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwcIILZRxsWGeicVdko49bIAPzwMh7axr3QAZ4q8F2wFZR6q20rmIpeicfsnZ3rVlXR43RlekUhz8DWfpnRLe79YZZSjkdm2lhew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_000_9ff6a1b65aef.png)
 
 首届新思Converge大会\[1\]（Synopsys Converge Conference）将于 3 月 11 日-12 日在美国加利福尼亚州圣克拉拉市举行，本次大会包含三个模块：
 
@@ -94,7 +94,7 @@ Agent Trace 的作用就是：给代码增加“来源标签”。
 
 COMSOL 2026 年大会将依次在四个地方举办\[9\]：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cicZ6db39IjwBBic2UtMZhiaLHTBdWd13KTdDib9nWZyAR0gybibSU1EoJgt0UVXsWcWibUQqkIShLSHl6u0vlLIQehCrpwZWlrfq5mWqZ6s4PBbM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_001_2e21a579cfb1.png)
 
 更多会议议程官网上并未公布。
 
@@ -102,37 +102,37 @@ COMSOL 2026 年大会将依次在四个地方举办\[9\]：
 
 首届新思Converge大会（Synopsys Converge Conference）完整议程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cicZ6db39IjxZQLw0lvUrFVqGR1onOE4tkIMO5MekgBMcSG4MoMaic820KJVO5qdksdLpqicQr3IZiaA726vsLaLrNmea2QlRs0FniaNFezctwXM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_002_e9c24df05eee.png)
 
 可关注演讲：
 
 仿真世界主题演讲：定义工程仿真的下一个时代
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjzqCMNJMo4w2HjSrpwYpZgJEBXqPpoPxAoLDwEFWUEVYmw5CXZHPysHom3ngjM2eicib8lMrwmgLHDCJ6jav83YyCjpyQ7AblU0k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_003_2ce5f809d57b.png)
 
 基于频域 A-Φ 公式的多芯片功率模块寄生参数提取
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjweneFKPUhPEiaiaicNNOTMcE15gicNTS5Jb1N31Xu6A1HOmQU0ovicRWnIKqiczsvibm64u4rLHn6RVMTicRDObxyjwOa4uRib1GCWsJico/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_004_5e6b8e9df89f.png)
 
 硅钢片测试仪与仿真在铁心损耗量化中的应用
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwOicLH7Via11rYPHEkecsfn6PJHaicLHfS4WOMWucgqrA2PyQT9DVoQs962aKdwNCUtzTZn9cLKtLvCbDJkBRddjOSd3JATIsibog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_005_9d86c49bbae5.png)
 
 基于 Ansys Maxwell 与 Mechanical 的 AI 数据中心母线多物理场仿真流程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39Ijz0Iv9OQVk2ErL9SfbzyC0micibMSYvthhZicwiaYAcibHU6Xc7HLVjsBdZ0StPiabJicqPnliaj2cGp98K8ibaV5Uz6ic84O566N9SN24Vc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_006_0ca0ea6a0922.png)
 
 使用 Ansys 多物理场增强车内无线充电性能：一种热感知仿真方法
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/cicZ6db39IjztPRn1ibWzXAWUkXiapmJDlnL7bgkWiaJqdXUic5ia2PgFrzbYowGrNMaeFK3iapFxCoiaGSNXAEuT5EhtoXq6oMQJtrVicFgibh1wBd3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_007_d32dc13ee5fb.png)
 
 从真无线耳机到 AR/VR 设备 —— 面向无线充电系统效率优化的自动化 Web 应用
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwsbSHqdYCQ5DnwYZRCqdM5u4WJnicoDPriaHld3xkBHrggv202ErUyJU3d4E1Rpf6KTdkjpRibXTZrPJFw9JBFKbCXZ6MiaV7iaQhM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_008_25a31768b0a6.png)
 
 Ansys AEDT 工具套件 2026 完整版发布亮点（**应该涉及 Ansys AEDT 2026 R1 版本更新亮点**）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwydjokkicYGvAPOubxABuvZia2OhPspPdr21wLHDNXhYetTXoJEibUTm6XoCES7ibKcncNvd2e2EjibjxBksiaCpT16EicKUl5am6IicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_009_f3d600cba5d7.png)
 
 更多演讲请移步官网\[10\]。这些演讲均为线下，有需求有条件的朋友可以前往，希望后续可以看到线上版本。
 
@@ -181,7 +181,7 @@ AI 是杠杆，不是替代品。放大的是你原有的东西：系统思维�
 
 当前，个人最值得投资的能力是系统设计能力、任务拆解能力、评估代码质量的眼光；团队需将 Agent 编程从“个人工具”转化为“组织能力”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cicZ6db39Ijx4wgiaUrCBu8As0fw8fqNSpUTfteibWLibBpTGsI3NWKOia9JdLfp3YLiaIYOVmae2h6INibJ6tibiaBW929ok7Dl3Mf240uibESjs9kE8/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\低频电磁半月刊（第2期）_首届新思Converge大会即将召开_images\img_010_b898a0248aaf.jpg)
 
 参考资料
 

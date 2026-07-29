@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/XVAff0V-oNzZ926GggCPPQ](https://mp.weixin.qq.com/s/XVAff0V-oNzZ926GggCPPQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZruibMdjqOSUibd0Ln8zPQQyTMqibRPq2JxLEMUT6U3iboXFopibRibY2CIHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_3_BAW_images\img_000_64f89c578b66.png)
 
 ____**★★★**______FILTER-3---BAW______**★★★**____
 
 引言：BAW（Bulk Acoustic Wave）滤波器是一种带谐振腔的体声波滤波器，在射频前端中起着关键作用，主要应用于5G、5.5G、6G及更高频通信互联场景，BAW滤波器相比SAW性能更优，BAW滤波器支持1.4至9GHz频率范围，BAW可用于替代SAW。除了结构之外，BAW和SAW的主要区别在于滤波器赖以使用的压电材料，BAW滤波器使用多晶氮化铝，具有更高的耦合系数和更高的波速。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlRerELct2aiaKtLSxmwlBKgfQaIHsUxU8JstibicJ0icbKSNJ8LsrSerU1V8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_3_BAW_images\img_001_73d098baf9c6.png)
 
 **_图3-1：BAW的结构示意图_**  
 
@@ -21,19 +21,19 @@ ___€2.BAW的物理结构___
 
 与SAW滤波器不同，BAW滤波器中的声波是垂直传播，如**_图3-2_**所示， 谐振器使用石英晶体作为基板，石英顶部和底部两侧的金属路径激发声波， 声波从顶部反弹到底部表面，形成驻波。平板的厚度和电极的质量决定了谐振发生的频率，在BAW滤波器有效的高频率下，压电层必须只有几微米厚，这就要求谐振器结构是以载波基板为底，利用薄膜淀积和精密加工构成。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ6ibUfezex8L6wicJI3pA70ojQwZEIibNnH8zzEqgRg052DuCGxGnwLHxSrSWibGDGo7xOxicIwuibKCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_3_BAW_images\img_002_1bb3808083b8.png)
 
 **_图3-2：基本的BAW RF滤波器_**
 
 在这种类型的滤波器中，为了防止声波逃逸到基板中，会堆叠刚度和密度交替变化的薄层来创建布拉格声学反射器。构建出的器件被称为固载谐振器 (SMR) BAW，如**_图3-2_**所示。布拉格反射器由多层交替材料构成，这些材料的折射率各不相同。市面上主要有两种类型的BAW滤波器，如**_图3-3_**所示：固载谐振器(SMR)  BAW和多晶薄膜体声波谐振器 (FBAR)。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ6ibUfezex8L6wicJI3pA70bzGLKLgc4rlFlXVjicH69k5VKP7UbrFWGqzLMGkSxSajby1YUpdpLpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_3_BAW_images\img_003_ff0976881be3.png)
 
 **_图3-3：BAW滤波器技术的截面比较_**
 
 从技术角度来看，最大区别在于基板，以及基板和底层电极之间的空腔，根据**_表3-1_**，可以看出堆叠层BAW的温度补偿性能最佳。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRYjictCos0FnXRYta1QYEECkqMcRMriagUEOfoq0j36IE5QXV32q7huyESUFibxuMKOSSlIN8VEZ6mA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_3_BAW_images\img_004_167a26d575b8.png)
 
 **_表3-1：BAW和FBAR比较_**
 

@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/OL5vVNsFDOH69gfzIfTksQ](https://mp.weixin.qq.com/s/OL5vVNsFDOH69gfzIfTksQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWdXicccRyoA0ae8L5UwUgMQfwuQpwQnLibibm5NqjxVbzgR54swxcLvzyRtWfBzZE6oVG4aSYPPsMiag/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662703&idx=1&sn=3efdd10217ebf9df6a32d97c85669f99&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_001_8e56e577436a.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662703&idx=1&sn=3efdd10217ebf9df6a32d97c85669f99&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_002_e532dba355d8.gif)
 
   
 
@@ -17,23 +17,23 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 电机电磁力计算功能：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TD85MqAlBdlQkrODnsibhYAeMpFowCP0pCmVkjHgrVbzZP2cArKj5ricKOSibTWngWsMmgq5auTczWz82HSnpNwx3tLwtl6djhRnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_003_4c1460b5462d.png)
 
 1D时间电磁力FFT
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TCYJmxloYBb8ttZAiaPcRMUgFSgEuWeZgaOJ1WLteV3muwyzOkHR4x5cMMHCxXM8fofVJZicv8ibrH8aTgSAC7tcMMMicJPIElrI3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_004_992c6498597a.png)
 
 1D空间电磁力FFT
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAlianNrsdHTWI4VYgwjeF4PZd1icBibJDGJBp7u07qAaMok7k6y78IhISg3ghAia77uwC41KNb05icUjgM4OP3PaKfa5Y7zHSZvk6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_005_d2d4888952e4.png)
 
 2D时间电磁力FFT图谱
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAUWDGPcdcam20N9pKNQz6JGuICCpAtssUrsHOU3WLWAiaibzl0XuDloRDQ8m0rymiaibq1hpsoeDLMvSr8BYaCrco0ic2iaXw6Ll3mc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_006_f3cbdb15da47.png)
 
 2D空间电磁力FFT图谱
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAkJhqsBWxysFOXicpicGhNl0AdFLj7SEqwEJd6ibwK9bvdVSPKynxOrsPJBS06aUaiagiaIxvdRMEFWt8YoYBkPr5JQB3MTLdvDYqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_007_f0735aab8b55.png)
 
 坎贝尔图
 
@@ -49,19 +49,19 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 · 2025版本开始支持BPMOR外转子电机类型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TAibUG4uRdUB5zwWj1dDYdGxGtKDNP4tw7JUxAbicgOGlWfxOkZRgkCicBwn5E32TzNPmiacpf4nvibBTHicia7vteVMgzJY7R22raChg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_008_79218cba5fd7.png)
 
 电机振动模态分析功能：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TD1pWicqDaL7WMXery4cPMMlWFQdXaWXP9sNpAsicIdfK1mS8wfFdlMRZiar4sEArNZlgkgczQ6wndWnBEKto5M7VdXlr2GMXbUy0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_009_99504f1e0e21.png)
 
 模态计算结果
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TA4MfTvOM6ac775NLug5AqrGnSAib15iarPMLnG8rRnOiahZt9ZW4c1qbTc4CcyxhGs70WibPCbv4wVVtvj3OzgfictWW8q04SF9mBo/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_010_eb8614588515.jpg)
 
 振动位移计算结果
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TCIR39mTdeFAqZ0dNzkXqiauhKWWDOJJicFVf0tibWAym9TE6dKQsicFFTwsmZWCHhJOIAlO4jymEqacladeWTf7pJmphfh8Ywd1GE/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_011_2f013e3244f9.jpg)
 
 振动加速度计算结果
 
@@ -87,11 +87,11 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 电机噪声分析功能：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TAXUfCVcgcibJ2WHIsVsFVXGvQMFktozqDLlmWqoubvq2Tqx6UrUc64EzWsUmSQ8RJPIG7EpA76sda3sFZ43ib6rnnANZT6u8wibc/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_012_bde0a4a83a1f.jpg)
 
 辐射噪声计算结果
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TBYweMxzJhCKr3rpIQtH51AVOoXicdmsBNn8y2ibx0gztdKOrAWgNibp9QEdqYxmeqicLVbe7GZQpUa3NSGLtM7D8wtK8ibIdlTq4Fo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_013_5785ff910bfa.png)
 
 · 基于快速的解析声学模型
 
@@ -111,39 +111,39 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 结合以上功能的具体讲解，在本次培训中还将进一步对新能源汽车驱动用六层扁线内置双V结构永磁同步电机进行考虑电磁、散热、NVH分析的多物理场多目标优化案例做详细介绍，在满足多学科性能指标的前提下，优化初始设计方案的几何参数，以改善其电机NVH（振动噪声）性能。通过综合电磁分析，稳态、瞬态热分析，效率Map图、外特性曲线及路况分析，转子应力结构分析对车用永磁电机的多物理域设计方案进行全面评估：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TDMr3eGqswEX7epzNesq1SVe8t3FnDpHS8vYOZrnv2cvYHGEqlBe5jrzWoNAZk9cHicqlSoGFWOL5fKHlbibHjWJQTDSrx5iaShxs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_014_9e2681c5da88.png)
 
 扁线绕组排布
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TCwicdjvGPqKrPWgeFjqH6CKKz3iak9kfxMamMmA9KJ7reUDNzFZibXW9bTiax7deewykD6aGiaEdBjjAmqU306Gk8hSFkb5TfBicfNo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_015_68f6866bcfc4.png)
 
 油冷方式
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TCiaRo6HWDxiaT0Q92UEd7LTBCFfnRJVzd6WgMFdkslS7HBvGRT4MPdYSQjUdPXg8BE20ADppDxNOlZpxBl3AHfY1I8kwtiaTuiaDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_016_fde417885217.png)
 
 峰值和额定性能特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TBaX51oibMWyQKkWxK1bceldkVHDAwQSH1vYnibAmrCT0VtuxmcnaCiciasM3wqpNxUR7Hw5aZ0y6iczpX2AiaAtfSrnic0dYJJjd0cFM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_017_39d6cb6724e4.png)
 
 路谱能耗
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TAvnhskptCgKBJmL6F623JbVK2L3Fa6nWjIiaSETIoTSeN3BGYaH4a0OQU0wdDufxckJwMSvya3AaeCrugFfia6WZIYXzibviaMsXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_018_b26ae21743ba.png)
 
 转子机械应力
 
 还可以基于自定义脚本设置电磁力计算的不同工况点（转矩，转速）执行多工况电磁力计算，来获取不同阶次电磁力谐波的输出响应值，进一步获取定子的噪声辐射功率。添加相关变量，做为optiSLang的输出响应：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TBPRticd5lic1niaNbABdtNv8eV7rXpORicQnPRGOY1nMFPr1QdtjYoCsJNQLgribbTVJClcd7Y2aUWDGuL9k6WlWxjQiaxQ6DosaRTs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_019_b5345b03aa88.png)
 
 这样我们就可以通过Motor-CAD联合optiSLang很方便地进行涵盖改善电机NVH性能的多物理域多目标方案优化设计：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TAVkGdwiazm4yebENx9o4B5ibEr6Ov1Wjk9lIaYT21DjEd9G7dSkzFicJe1K0Nx3RkMMfQZCdzsqyibk3uTmfda2Eaq12vxvxyGicDk/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_020_553d4e0964a1.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TAM8OpSgib7nW7nxz9SywNaiaFEVeXtqf9dg8VukMmWfKKBcl6lhibic4esqibaONxqv6KEoQOwfyIxBItwibicyAqj1vg84s2Vl2iamrc/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_021_7ca11e7f5a5b.jpg)
 
 欢迎有电机NVH优化计算及评估开发学习需求的朋友扫描下方海报中二维码报名参加本次培训！  
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/BQ6VJtWIxxC5gNicsg2Z5wKnkRvX2ndhKIrFr3kHKNap2kmZ6fkbm6mMSlyibu5uZQxD9RbjLQhSIPJfkJ2QjDhLPXgbYjSDV1eZYibg7Nh6xo/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_022_29d94e42a290.jpg)
 
 关于培训的更多详情介绍如下：
 
@@ -223,7 +223,7 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 电机多物理域设计与优化分析培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/BQ6VJtWIxxD2ria8stFPDuteVPc7cveuM6ibh2K1VezlFYfobvEROSlhf605pqJrZNvNjWOFLEpLkttcia9E1iblrLrz9r6Z1eMkxpbziaoKu3Ps/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_023_d869645203d1.jpg)
 
   
 
@@ -261,21 +261,21 @@ Motor-CAD最新版本的电机NVH快速分析功能，可用于电机概念设�
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWdXicccRyoA0ae8L5UwUgMQvjeG8c6iaPO9JMD4QgickTwx1wIuZPibf0go6T54r18ZqONk3oxUBvK1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_024_52bd8a908606.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_** 欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_025_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TDZVuHNRibG2BVMPZfEW353fqFDewg7Vibic7mlUiabXMOWShiaj0zeCUlOOlCxbxDe3NGoVVIt3RVCISiaWBHE9u6icpNpWglnCwMhfM/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662850&idx=1&sn=0dd51825e706b8f8b0677d71014190cf&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_026_7b6a733a79eb.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662850&idx=1&sn=0dd51825e706b8f8b0677d71014190cf&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUyV1lJmiaWbMbwdNXw5cYhFrNnm9SpvGj5dNvyQDHwfovw0ohmxdFMpP6pjib6dQDHJxqKZQeibYGNw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662738&idx=1&sn=2d5825bb3d4f4cbfc93d67dabe52e43c&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_027_95de1aeb3c9f.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662738&idx=1&sn=2d5825bb3d4f4cbfc93d67dabe52e43c&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVHpuIlP1V0YxafMPVegZyoMVlYicMsJHiawaq6ZBOiaicbSTXHkN9al4lLl0ibfPS8ubZmZCAwdSoyOVA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662931&idx=3&sn=8083be592253aeea3833cfbb4f92959a&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_028_f50ea9ed665f.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662931&idx=3&sn=8083be592253aeea3833cfbb4f92959a&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_029_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662931&idx=4&sn=cccfbfc6d39fbe5a363db122a5b89a6d&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVskrXjialSZ9qgaLGeJSfv5DS2mA0kLD49u2TxFXibKibuzMd8yHYia4cdq2oBn9x5v3G2MkvEYtPdmQ/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662931&idx=5&sn=d78b2cfe7c9cb78cba2fe585a9c99f6b&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_030_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662931&idx=4&sn=cccfbfc6d39fbe5a363db122a5b89a6d&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_031_3cb2f23b4a53.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662931&idx=5&sn=d78b2cfe7c9cb78cba2fe585a9c99f6b&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\改善电机NVH性能的多物理域多目标优化设计最新解决方案来啦__images\img_032_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

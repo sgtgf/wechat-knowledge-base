@@ -6,13 +6,13 @@
 
 如图为BUCK降压基本电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tI6Axph3agSjlN683FZ4uKQAYWLM6VfZOyYY91xHX5fLvf5F4MQXwzNcP28VvhXQbvzyDpDia4poyg/640?wx_fmt=jpeg)
+![](BUCK电路是怎么降压的_images/img_000_041aeb6fd873.jpg)
 
   
 
 Q1开通时，由于二极管反向截止，所以电流直接经过电感流到负载。电感电压的方向为左正右负。如下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tI6Axph3agSjlN683FZ4uKQ9qMDZmoOHm1PWDbkWdhoG94JCPzG3ChS7CflwjsFpLvRfY2rNticGxA/640?wx_fmt=jpeg)
+![](BUCK电路是怎么降压的_images/img_001_6c2840e9b85e.jpg)
 
   
 
@@ -26,7 +26,7 @@ VL=L\*（△i/△ton）=（Vin - Vout）
 
 当Q1断开时，此时二极管为电感续流提供回路。由于电感电流不能突变，电感电流继续沿着原来的方向，电流路径为L+→C1（R1)→D1→L1-，电压方向为右正左负。如下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tI6Axph3agSjlN683FZ4uKQibDMjPqds4yuBmaia6icm9tRdoaXf1ibCLbI1zjbAqPdJq384Zy0rqkZ5w/640?wx_fmt=jpeg)
+![](BUCK电路是怎么降压的_images/img_002_e85fa5b246f6.jpg)
 
 此时电感两端的电压等于负载电压，
 

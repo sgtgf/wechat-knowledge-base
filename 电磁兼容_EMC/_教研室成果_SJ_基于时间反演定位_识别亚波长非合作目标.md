@@ -27,7 +27,7 @@ Yinchen Wang, Yu Duan, Yuqi Ye, Ren Wang, Biao Li, Bin Jiang, Xin Liu, and Bing-
 
 出版信息：IEEE Sensors Journal, 55(13): 23372 - 23381, 2025; DOI: 10.1109/JSEN.2024.3517607 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU0YbK4l1dRlN5PFPwq3g2UCFEHviafJRHdQHGIPezx0pAQDtKWlg79cA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SJ_基于时间反演定位_识别亚波长非合作目标_images\img_000_3483a027bd2d.png)
 
 论文摘要
 
@@ -55,19 +55,19 @@ Yinchen Wang, Yu Duan, Yuqi Ye, Ren Wang, Biao Li, Bin Jiang, Xin Liu, and Bing-
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUialQ2cT2jTsbUYSzJCcQUkiadkKJg3apaE2pjia8QcpaJOCQSLNZ1undg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SJ_基于时间反演定位_识别亚波长非合作目标_images\img_001_ba7f23e42cd5.png)
 
 整体方法示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUHGa4COicSBEu7iaSQCFYnXeqjXibS4N30ys1aibxl9IslHNeu9uuvVYGPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SJ_基于时间反演定位_识别亚波长非合作目标_images\img_002_cb373e4eeb10.png)
 
 处于相同位置的 (a) 立方体和 (b) 圆柱体的TRTFPPs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUdld09MROenPjDV01d0frHZnVtjrkgnRsVanQ2e5rTBlqKHp1GxZNOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SJ_基于时间反演定位_识别亚波长非合作目标_images\img_003_f1fb940c018c.png)
 
 实验室环境与实验照片：(a) 网格与目标物，被识别和定位的物体包括一颗葡萄、一片瓜、一个金属圆柱体和一个金属球体；(b) 实验示意图，两天线通过电缆与矢量网络分析仪连接，网格与目标物位于两天线之间；(c) 整体实验室环境。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUo0553uvnnXlSyK4sgKPuKvzTSULcLTLPsSXneuUY99vpGIjNA1L00w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SJ_基于时间反演定位_识别亚波长非合作目标_images\img_004_c2f857ce67f5.png)
 
 定位和识别的实验结果。
 

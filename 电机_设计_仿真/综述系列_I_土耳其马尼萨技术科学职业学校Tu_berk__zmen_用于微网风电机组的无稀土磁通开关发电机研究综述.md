@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/x70ZJLxKnfJ2BELGYEAWow](https://mp.weixin.qq.com/s/x70ZJLxKnfJ2BELGYEAWow)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_000_4fecbf19a39d.gif)
 
 **用于微网风电机组的无稀土磁通开关发电机研究综述**
 
@@ -134,25 +134,25 @@ FSG具有高功率、高力矩密度、坚固的转子结构和易于操作等�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179w6yia8AYIC5lFYlqmuNveX6p6ibEzTMiaqxxW3EKYAjFkd98Kw9ZeZS07RnNMrMfG3ia8VonyYF2mwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_001_a1c39d54729c.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179w6yia8AYIC5lFYlqmuNveXEA7yHibYNSNMEn4jMBRgCqfNN425LBiaQL4bic1U9HyV0BibpBoA0Avu4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_002_949b9002ca25.png)
 
 **Tuğberk Özmen**，2015年毕业于伊斯坦布尔技术大学电气工程专业，获得学士学位。先后就职于多家可再生能源和光伏电站企业。2018年入职马尼萨技术科学职业学校。2021年获得土耳其马尼萨Celal Bayar大学电气和电子工程硕士学位。目前在马尼萨Celal Bayar大学电气和电子工程系攻读博士学位。研究兴趣包括发电机设计和电机谐波。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179w6yia8AYIC5lFYlqmuNveXs5ILnqsoS06UzrnCT4ic33Ua8blboWYzFWhY2WX9cUxB6OicQrMukxGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_003_03854736839a.png)
 
 **Batı Eren Ergun**，2022年获得土耳其伊斯坦布尔技术大学电气工程专业学士学位。目前正在攻读硕士学位并担任研究助理。自2022年担任研究助理以来，一直积极参与伊斯坦布尔技术大学电机实验室的工作。研究兴趣包括电机的设计、分析、控制和谐波，风电机组发电机的设计开发。其他研究兴趣包括用于高效紧凑型电力驱动系统和电源转换器的宽带隙功率器件，电动汽车电池老化和能源管理模型开发，以及牵引电机和逆变器设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179w6yia8AYIC5lFYlqmuNveXiaibPED65ELSYy7CxT6jjPCSdQvZSn0z7n8RJYWltfSlS1CLib3gNpurQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_004_f4a76413b054.png)
 
 **Mehmet Onur Gülbahçe**，2010年获得土耳其伊斯坦布尔大学电气和电子工程学士学位。分别于2013年和2019年获得伊斯坦布尔技术大学电气工程硕士学位和电气传动博士学位。博士期间，担任苏黎世联邦理工学院电力电子系统实验室的客座研究员。从2019年到2021年，担任法提赫苏丹穆罕默德瓦基夫大学(FSMVU)电气和电子工程系助理教授。目前是国际电联电气工程系的助理教授。研究兴趣包括新型高速电机拓扑，电机谐波，用于高效紧凑型电力驱动系统和电源转换器的宽带隙功率器件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179w6yia8AYIC5lFYlqmuNveXX0dWibxGVbXeYRBUNwYQ6uic17GOmbNnYpx4NUibibzYicar5Z3SHsQrh0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_005_a003ba2aa467.png)
 
 **Nevzat Onat**，1995年在土耳其马尔马拉大学获得电子教育学士学位。1999年和2005年在土耳其伊斯坦布尔的马尔马拉大学获得电子教育硕士和博士学位。1997年至2015年在马尔马拉大学工作。自2015年以来，在马尼萨Celal Bayar大学工作。主要研究方向为电机、电力系统保护、光伏系统。
 
@@ -160,7 +160,7 @@ FSG具有高功率、高力矩密度、坚固的转子结构和易于操作等�
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_006_654c2fde68d8.jpg)
 
   
 
@@ -174,15 +174,15 @@ FSG具有高功率、高力矩密度、坚固的转子结构和易于操作等�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_007_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_008_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_009_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -190,15 +190,15 @@ FSG具有高功率、高力矩密度、坚固的转子结构和易于操作等�
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_010_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_011_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_012_644d85f1cc17.png)
 
 学会官方B站
 
@@ -206,15 +206,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_013_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_014_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_土耳其马尼萨技术科学职业学校Tu_berk__zmen_用于微网风电机组的无稀土磁通开关发电机研究综述_images\img_015_c28b250481e7.jpg)
 
 学会科普微信
 

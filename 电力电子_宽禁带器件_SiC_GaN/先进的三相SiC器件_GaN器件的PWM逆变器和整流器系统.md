@@ -8,315 +8,315 @@
 
 作者：J.W. Kolar, M. Guacci, M. Antivachis, D. Bortis
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iag537N9b3d1OzK0micgCKhMj17icXqSS483T4za0Xge59KLAfZFtp1iaQg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_000_d424de512592.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iao22DRocgSCOtbxBhM7hjh61b4Bicka7fK4M3Eib2Z2EOKiaKuuAZzvHQw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_001_ba1c9d7fa632.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iacIUMtydChCw6Uibhcf2MLyIEtfbAEDUhzPJ1uTUQPib6SeoJoVmDN2AQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_002_e09cd9ef6a31.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaj2WsIbcic3rYTaT7p2S3Cnj6ngGPQtrc73ibGUyJlxLsAg4tmeSz4bdQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_003_0e556b4e8cb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaYA4l5coXib4GeXOcr8crBMs3SI9Z7Eph2jXXvibvfkp281xHiaYcFWEJA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_004_10c9e762803d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iavgRgXviadH02oB8hm3g8MLBKxbvIBTpQm6iaXtK55Oeo0iawDenCXcFjA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_005_494574eda65f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaqqXaTJFupJs60AiaUGWribumeym28D7x2YSvyz9UtAWjQiaavYbpc0xtg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_006_c11f1270efc3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia0FEg1kic9gHIfZqF5UapibJaWRHC196c424LkRdRbP3BKyg6VcdichHQQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_007_c598c49351a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ialrKY3vSWBTDvibgpibJBUygDuLAISib9rwicicowMKEickgX5Cc1eT15fykA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_008_50b0cc7375b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia8Mss7ZQpphbjzgfBKibQjeibuLBvRSLGF73wbrLJvNhEtUGZfcOUYlvg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_009_f8a8e329f995.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaBQwicW5jMp4hE6C7yNLnZ3tWrlsNTFsOgR5zzpZfEDFamGQTVGXfXag/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_010_7a78431833db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaRIY9YN2LZUGBEiaicu8zN5Y2fIYcOraDXgTZGs7o0AyP9J072p1OfKnA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_011_0cdbed756191.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iadVj3Q16yWktibBoHVHG8ozXRkVHZHxibGctXLXTXCvLChM9TWVwdxcBA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_012_2bdd4a04c9ba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaCZPhchxZRK6gzTgJNdlmn7zyRg5Mp7vGGsuayCDwwJ71fPR4JJQuFg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_013_71cef2e5fc86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iapwePaiaYQusgPnIeZTmBzhfhx09Owoib3HS68wgj9yfCWiawOOE844fYw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_014_56c8e04f4521.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iab0xomn642ujmHe85tOfEs3eddmOE3d64KAyYia1ibiaKjkFA9icDjv0Mcg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_015_f503eca41e80.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaCkqQR9VKS4xLRVrOPUzVUwtkWfBEpdDRzbFgDL4QonJfTK3oib7tAIg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_016_36f9ee22807e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iacsiap9ficTecqSFsuibpZT6xvHPY8bN0aVx374zCxO6Drd7dHqNKtkDCg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_017_d61ca2bf91dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia12YNo7UTnHiaY6TTjq4PERa1M0SSozq6N5uWYNcfmcILicReyeicCZodQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_018_cfdddb50fb93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia5vIqwmibg7KPOPKuTpvTZUjq34jiaRL4eaQYXRzkpOyY8DiaibmvmyMGzQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_019_2c287d36233a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia179bL0PAm5usnTZ3Mvhnb9iafrrHGSZKkVsW0Q74mNibRl4KAwicJBGcQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_020_e26062806218.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia8aMD18JvPwicoxibBuibxC08Abmcj2z1ib72Pe93ibFLOxDw53iaBberzrMQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_021_8b348372a6bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaPhQW3iaIk42MqvWqdzib7yqkNlTwBSClV85FMa5FZed97DqEDuzTEqtQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_022_3b09b0970764.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaxGHT3zNoqpzF63UcXWibX6ZzWkXXUUSicxL43qXnKv8bG0LA9JUia3t8w/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_023_506a60eacb29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iagJrQ0fpp8YRvlI3cfGMibr8yIHmQbV2SibZQicv4ibLSz7ftQEb5MVpUdA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_024_c44d0b69ee17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia5WJIunzxEUMll2Ayp98QVLOrrytHV5FZxsb6eEN9jzFzXKD4UYlUOQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_025_21756f2062c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaNlXPHKHzME6a5WicRzcE5aUfER88lxibEwyEb0Tkuw49rr1ibguM1xlnw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_026_d53b0b332c47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia9j3KfTvZ4nBIwVUibZeib26P37Yd7EzYSFDAMmBaOWiabKf3sIdj5EDmg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_027_d609b32683be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iar1f2ibfz6jmia7khiakcJ8RJ8aTWzicBicRWRw8czDPmQOLoW638fCroZZw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_028_bd66225ecc5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iagptzvWxw5WicSpGeZtOB1WpZBRQMHQicWRCGYphw2PiaWwhBOBWY9QVnA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_029_bbc30626ef03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaKpkSVmYTsYM4tDM99ibRkk45lwFIFjxbia1D1ib2jBdp6GiccKkQTYRe5w/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_030_0ff6977c7a54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaFjVZ1DolfmV5ualrvF8FPXC3Ze58W22xKzIQwE8K6HpDYyHFokLftw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_031_cde8e28951db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iahrNZyVyjagA1Hxh4jonYAPr0KNcAQQ0xOmgmhGuFJqDXfTO3puD7yQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_032_85189100de56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iauPhWicLibJFQWTxPZ9MTVfvotp2ukXOt6oFqAfEE5WVtNa9msll32o3w/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_033_e91cb41cf86f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaJzhrVpo6djib4j404fDN2HGhUrTBpZia3snicfcJyj29eR3D5rBZq4HhA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_034_f8f36a62877e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaiaITNCjAktBWROTQQgZGQTeuClySCC6lfnKZpwQib9UQdkC5JyJrUZdg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_035_0955a328102a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iasDvGC5PYnveZQU3qHa5bM5biahSTfQ8jsToPuia9yTibI2ib4kicu7KSQ3w/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_036_9bc75f4c2f79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaYBuzMucvgHzd14ianJMxnHyXyl23qX8jRn5y50nvYOIeAp8HLo3JJ1Q/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_037_1266fbcb67aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iahxjA82cLKNlcMB7PzgSIoxNLUWvNbFlVXK6giazwq7qunlleh77SHjA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_038_55b64ae32b72.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iam2mxGicGJk1Dvd11SRRZXCu2DXcvibWibpHF5eMdAfqej1uQECCMgm1fQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_039_74313444eb38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaHeBicTib2lBDEJ9LsLd9kfPe8CJIAZ7EFZNjBLkXCAFOBD74w3bj4Eibg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_040_4387b2a3694b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaDuJ1IHMw7pGh9df3UqibfBLQI8iauNW46N8xkMG0pO1xXX7QErSYomqg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_041_00b38d6a23c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaeNEEIsngVMGBXC9E061tVtqhNOq74Ubn75UjDKQJCSeoVMrgQwJ2yw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_042_061496b6d9e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iajPicCSElNcAxibhqIibClvspzLx7zGfnibJbt8h2zvy0FJreicOIXwQxvBQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_043_4e3a8ec40e09.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaib3ceVCuiar1ohqOrlldPqR74vjau75tSHvBJPiaHCSKRGdDzyianFQ3Gw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_044_530a0d07deda.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaXHr8eibmNr4jFMzqElaLs2ydf0A6Hv8LK44kHX3jw96dRwQgub34VKQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_045_887b6403ee6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaeQGs3ph0aRGqDPTnHnhxFI77ibOKZmqPsK1iaibhbSrAHb1Uxfcc7Ztuw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_046_1baff36e7efc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iavOibjmVY4UnTeibDJtsxoQIzHZG7YiaEpe4bicb1Hg40S2ricq1XNiaSwKrA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_047_c9f1fa73c3f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ianicR9SKWwWtiaEqDCCuI5gFgSN8W56c1NoVhOdLiczcyWLTZNDsBgfYCQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_048_a1ff6fe2c24d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iayeIUibqJX1rCH58e3e1hDMo9nvXlyIEWaN17vHxkPGEKOibHmLGpLwVw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_049_ed2d2709730c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaMlUSg0MKn5F3RfMGKzlA7K5iaDd96u3CvX4WMv1NicfCLBM3V5VKrszw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_050_866727c19775.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaiagJA4d0ic5D740TicVhVZRsNm0Svgdn673EMiaU83QKicMRH01HMIFR5hA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_051_9d1264d91d18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ias36Yfj0Vneu4NeFp40PoKuSYOIW3iaulICkiaoB82IcA0tb22gR2lnug/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_052_8aece0d1bda9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iavdv9icSygx2KWI5vLYWUWfvOqib0LRQkm8ND2rttsib75Fs5icApwzRiblw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_053_75bc054e2473.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaTr38VrphibGtqYibYibJqm6pDG6ibUK4TJSOKCFaB5VFpq6NPpeib7JBypA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_054_e413798253b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ias7Tj7yeALylKh8pzWlZcfeh4bjzR3DqPZtMw1auZsPd4FAluFxz8MA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_055_cc8b93176bb8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaPBib04eBuff0Ob2vuYWnx089mgeiaKlqpO1wULNVibBnqhwc65ndKlMdA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_056_46fc3969ef37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaBJZUiaMMRalib4EouEHNEPo4bfiaWe2CHKlmoQf2jjbSRVnGVocHAqHWQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_057_4af77809aa16.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaucgob9GLackRiao7icgw53jCt25ezR3q2OKPbicOiaUIbhabqc3wx2icyXw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_058_1595b709973e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaFaSjpzEicqicaM5nz2Qnibic0eHzSqRAImL2JicWxwWM1wpnXFlmPtVmX6g/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_059_06d872520b84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iahNicmrxrwRZANaiabSopYum1OiafZRgIHicPBgf73lVYicwK3XBITCRrhLA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_060_08cffc2c2d44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaJYF2ztLj3Cgbica4kY0GEJ8rQINTnxib71nRCS6AMXsYOdNqmITYVUDQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_061_228ab4171759.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iacibnrBcmy6KGQ7Qc04HRn7VBibuoKn1SzLI8zlFAB8ZCmhoTJWBnQTbQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_062_0cad9a8e8bbe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaib46hqlqiaac6u0dQoVKlTx23DwuJmamibXxzde5y3DSHnyw7JaQCQaicQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_063_60aba9934310.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaWVONJboOYP1dKe6eq76h3LAEflhfYN7H6sOXu5XFztvibCH2TYicdAyw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_064_92e0bce439c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaTvo9qbibhAczWFMibibvqYib8sVkAIydzaliaYicuEicpUGib4C4aK1cor3dfQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_065_c4c1647349b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iauNWlMx9Af4NZfVXKO040ibjXQhB5Jm6C1DpKE5CiaBcSrqSHO0BiaicP1w/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_066_a3db28c55248.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia9Zvsdo9GoFU3F71B9B4rku2yccWnZbZFKlOmLMCPc82H0ShWVFKwicQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_067_98eccc1a0154.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaxSG7w5zl4hBK6KP1guDnU7sg5V0PeJCMNUsE68aqiafmILlGLZE6nIw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_068_569616e2094a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaKIl8uhAtefYTQd4b7333GvamIHZmclGsFfHdm1pdvHmUNwWJgtGxPA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_069_6ea0b70cbbeb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaakDJMz4M2DT51ULRBq5sD7gkSibXqgKiaxgbUxokRNxpTCWGFEsrPj0A/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_070_991414356cca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iapgZgJS417osHicQ61GHmuz9H8eEAxGb6y0uD303Tpib4ufOgd4NhAn3Q/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_071_10402c4254e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iatsMkibOzDrIKyWN8UexWxnxQ3JxftysU9KP4rRFnBNTy6ic7OIoTichaQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_072_5d2d0de996b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaJqjclhRI19xed8PvE4UU2JB0SOyjMKH7gRmgQomJJwLQZo1yPMWqGA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_073_ebd9a8cb2d9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaRTQPE3640FsLAVZQMWZjVt59vRoMJj6cNKsIzvEOJOIzvUK5vkBvvQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_074_998a741e3681.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iauwDf9e5yuOj3zF2M8OkPZsSMu3HERkwlcFeN3FaJOhy0ibpz6KC5B1g/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_075_784546caf0ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaIcqsbTNnNsicRRo01az3RzEuOwWzpJzHI79XIYYG8FYPt9rf8Hy7nkA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_076_68985028c9d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaJAKDcXuRgskScbxibFFKqDv9U4ExEw9KfQHiaOOw0Mk0bX9C8Rn868kA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_077_8139d9c536de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iah271pUsR6OWowjuicZKcKibveq5ENwMwXKmn95ibCGtLYvKF2ITH6fJbQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_078_fd5e0e84dc21.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaIePZYibQUjsYjsHT6LMfNlwDbST8s5SiciaPwbau4bY3kVZsXl0Ek9EfA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_079_544aa66b4c2a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaXOGc4a9EFlPPbXINZgwaukQvm6W1T17G3T5wTXyFQV8rpRO5icmfBeQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_080_9d9f973b740f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaWocPMDMlc6APpdE216Ey5qjcKNn6QVibqZD3ibLvXZRuINUV4qYnkCPQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_081_5003a140b6f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaiaJAQvKibVxJicd2nbEgzDNMibAsBuyewDf9AfiaRibVFuMI18FuESvKGSQg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_082_215377166265.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia3Gu19HBTeAKHqsIGg251XWf0wAuPpIUe3vvzicg20OQr0P1M5ibMrUWg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_083_65cba7f9604a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaajvoBHwiaicd9HoRCDoe5gwbLhG5w29V8ACeIeYHicvicSNoiaWgxBQ3UMg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_084_53f63080eed5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaYicMfKicVEZR4wf9AJuSqoHTlKkLYLX6zAO9ic48qJ2UrxE75DTxwwicsA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_085_cb39211ccc0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaAVNNxmHDJPvQfnicdWs6ppaiaYbLpfFCYYBDMHOovX5LnN6icvP7jlMVA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_086_e1f72705b70c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iarJT1Ph8P7MOxFgOmapg3xEz6uI5X97iaAtIDKy6N2R3qDspIibN4jZJw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_087_1fa1baffdcf3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaZFibmEf39odGAiaOUoqgGeyJM7rAszBDYB8PMkG2TXNAya5gOLF1uWIg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_088_6c700c2d5f03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iabyYDfOkSdlavVTU3jQezbUFtbkz0Q1AujbeiaUibcuZGEakmhnJrHZ4w/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_089_f74ca3b1ab42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaUBeE4NqCA1pz9fBF9nG7WoibHkOqV0vcoI84pz8mHZb651Rxc0VP6eQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_090_b9ebb5503993.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia9cYibdws24NVmohicFy2UGcF7Mkicawxiaom1RxncAXickgbtSib2Xdbj4DA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_091_26e69e6d9a42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iajUtpWO0y3BNNzCXWn2IJ3ygcfwZQHDLH08FENQFMialAWRMhXj8YBYA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_092_6251e9279153.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia2JPQ7QQaibxTl98D9wvZPnN1WogEdIMYMPuthmoZYicg7BszB0wAxt7g/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_093_131b733e3afb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaFcaw0cTSFTKoSBQP5gbJ2iaVtOicAv1QxdiaZPZiarz7JlmRq8m1n5WUrw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_094_58256c234198.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iat3KicrhR1fUI3YODaY2dQP0NKaZFWz7jc3ZqFtVrS54OTOUZ2mZYqNQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_095_4e74ee66e321.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iasqEcJxK4HHdSIv2874Lps7d9nBS6JPVySPXq76NB208hGYJDHAS3cw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_096_eb6306debc0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia468Ih7GWdeHuboB0SL7fAibgDU20BvHG3QRlicYcNg9ttaicnuAL1APmw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_097_e535b3e107d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ianm4K2wrJZNrJb4Y1jemgvKONBaz6oabticcjm3M3cBH5OqJ9avC02GQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_098_e59534b22633.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaUyJdDsZHibeJhyib6NpI8icfs7PiaGteibHuuXFV5icHHfHGiamiaic9qmnJXew/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_099_400368ed38e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iafm7InXMcJrEMudLibAgGyJu3P16wRkcbDfc8WibBkWUIMJEe56batbDA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_100_176d794f432e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaOQg7qxz9KSzHX2I9WXSFNdibuicxkOFVOBiaOGeoBTwgUCQXzw7D9VFibQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_101_1d76df9583ba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaAKvNzPLFpnuyXweekWaribm8VaYw4pXNAjvpBAc40EvNDOCtj8Ak7ug/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_102_5cead8f7bb9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaOWhCqicZSqEABhVXKG0Bic0UsUVsdgazPf13Byl086JwjZI0LOGv3G4g/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_103_31825f199819.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iadoYfs9KOPhMfkdLcmqZOL7VelvWdx8XGewGmtZ5T5vAyQtoKZuGLwA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_104_ac81c3e44601.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaaz3Q6MxwLjwoiad1ibAn4auBVd2qNjpYG2TEkAHeBE5bSH4xaeQW4RIQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_105_a0854c1e4b78.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaTj7thPvfL56zTzuvX58F03Iu3XAicOYqTxdVraumKpBbuvHia7HgpGug/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_106_73c069479cb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iazJQjtPMFufULpgYCp9dU0STUG5Ih8Mqm6bdmIp4M4q1JVkiapJZSlGw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_107_f66f8e9858a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iao99jVKciahmaGnV5sANicPTre7hePN1EiaDZ7GKPSICia53p1XTulwzbuQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_108_60ea9a31baca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iawHr7alL5kwXNcjiaubKgZGhrItfoTEawrk4qdqFyVngWTzZCpHJPpng/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_109_a3cb58d99e8d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iabXQ7AECkCQnrLGY0goiaicIyGczk1qDquTjFYIvsSn43Mianmr3bWiab9A/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_110_ab79fccf0e26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iajicg3OOkb7SAKYK8e693KiazhoEWwLibT1BLBk5kZRtjB0vC3PoFKQJzg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_111_427413957059.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaqh1QK8uMdiaMTbTN0oc1nM0ic3xP4aBZptJ1gibGqWKvECXc51SGia4zFg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_112_80827df5befc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iahJsHKRD34QDZUX7M32rNNhHqnX1zynficpC176ePibGfuHKKS3icH0IdQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_113_1382e4d1c800.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ias21ic6HrziawWlicBzkuoytS3C5j3kmkUVprvHicNhSyc11ZYrCPnRSxOg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_114_28f26c838aff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaF0eibFZZQB1NibFicjHpdzZZNibHc2IZoTMPxzZntK3J95wniaCibWIV1ycg/640?wx_fmt=jpeg&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_115_b34d43729e94.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaIwrn0ibhYprtAOfBiaksvzUIanyg6lg5E3YPjW4UM9EWvK972L3nicaYA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_116_7c2413501e0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaMGZTJSsI1HdIsibxVqlXOcvMicZtqheEa59f3wQMr8KdDgWMiadbZu2jQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_117_6a5498f51a9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia8RsDU4gIo1L6qg1Q09ECVDg6R4L5icPvtEiaJQflrP0dMHflNHPHJPBA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_118_506f76baa982.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ianawIxO85mZ6Ugu357USpwXKWtgL8MRW1HfME67GK50YpDkezZnwlBg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_119_58657f2286dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaeVg7ia2QhzOzo5Bn3EazoccD5tJwRvUs7UTN0tOfVF6zy6xTsxg8Ikg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_120_376ff731c839.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia6GJtfkLyIfVPIdlEBQ9GYXV8tyZLbUmBQVfjib5cibqzf4fZ0V2O0c7A/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_121_07d06e2eab1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaFgicUlHUuRrUNlHdG5zO7qaLLKttpOyZYDDSDVIrZbsBVZy1qKN8VEQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_122_bfa87b619977.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaxpa1IQicTtZquKujyc0uN9WRgvTXGO1pIbsM2GXpnSlzibhqwpJNwmgQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_123_d4ca82136890.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaYtgTxazHNICGsPqP7oxmnxznGfCibpx4ukxmfY85copxUCDauhSx78A/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_124_ba68210af625.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaqyJrNo1ElyeiaBRSYSa2mJV5XicICu2UqaNB43nSBCL8ryGxTLibNricOA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_125_46fd5c696ca1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia25YmUFDopBlFmMnXPnXFO5MQ0aAmCxa0pFO1uguQMKMHSRRagOMHRA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_126_141d5dfa8a1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaqaU9o6MDBl8Fub6NicjcfZ41nya6kSffqH3qR9tTUFwfhoOvzT3bYgg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_127_9d0025323e7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ianWo7VU9HVG0ibCyn1I712BTAg0zrsYampjktMqSiaEdtBwWsJShOMhDA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_128_8d78a26d35b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iagnYwjrIe9iaGnEnI5sabMibstfzKmMWLU4TAia1IZPyPEdU8qUR9dBY0Q/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_129_e4a6dbbc1124.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaQCT9icr5uRxiaBGgeGWsDDKiaxp9SfFpmphum17M2bRNrnRMOn3RbKalA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_130_62f62fbc0d92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia0rcqHoPtszfZEgzpgCazxEdcG5tDlK0wjmicZYbZPduYTjPVKYqdRkg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_131_cb0c641e0918.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iahAtD7tt8iaeUMtexBvEibw8VZr1HIibM7QA4bflCiblQnqERFAIiawy921g/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_132_a1d7c556a964.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaxZrVnQlA9dCVUOibWSHtmarYWLrvvKdpp2XRywjQq34Zlv5Pg52VkRw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_133_e058d145a211.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaoNOibAxoQGyraSyYbrkFqYicoKOXJrXdcqCsovF0enx7q6kibA21icUlHg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_134_bf146919d2c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaUoUYdibfQE3Ax9It5gbqMh71jsBkpT95BgFhVgqxATzmPkZCibz0icSxg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_135_2d49a5a177d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaKFuKXibuZWCrM1S01WWgsTer3vDWXODLq46hQASvT5J7tCF3E4QJHMQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_136_ac7a13d0eee6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaUlTOQLdND2xf5Wqu0ahn5ZEUp8sZbO368mPMacBKpJosoxyZg4OonQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_137_71121722a58a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaHV2IHQhOeaPhYk0s2VGJF4NUjGcdU3qldCGB8netiaJxsuFEa9nysibA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_138_d478c84cf76f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaibEWIk6yTQNBZqrq8optQLCU3CT2ScNFuL2bQ8Wiav11nWzicvCTn2txg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_139_d473949bbd7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaOxcdqjoOTUicmjNa1gRqNibEFibtOhWNyInF8ZXOicOASohS9icOSiaibZdLQ/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_140_db1d7622668f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia2RT6crkcibHtIlicKRLULsUN5ejUdF3ZzMYxVXhDiblWg2qdExeQiaNM8Q/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_141_d6b0d80d24fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaD4HPX1icUvk5A2ia4N6MEhFCy9WnqNKULtjaibnZrxx6degNEREhibrZpw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_142_e7f8d6619a53.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaNU0eIicRJQk43nw6icMldnqFTGKPiau54ngqBRdb8DicbU6aClt71UxFEw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_143_a7804651cca8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia7MMMkQDQsZkPV2pWhibYM9picgJibDoAjVj2TMPk1EPVjyEkG99BxnvQA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_144_124c906925d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaQ427PRm2ZPaF26ibibLXlFd0u0HedeyVZegeVKc45qDQg8gZO27sTauA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_145_0e0efa35b3d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaYgQnY3CWsSzW7sZBuf6qFxz3HwUBjN1icIh8rDhUMLr7lRtPH2Hxlgg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_146_9abd98485e40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iacZtwjetYA8bvftxZqWTaglogB4IVhOHEL4nzXCzAsrFjw8yfuLLNZw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_147_5143091253f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ialN7X5ANEkeazAwRSs1vz5SLBgXvciaQCibRzbHnN52SGvhaaPPf5oYFg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_148_c5523fb7835d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ian5ZibzwibSyWd4icn3eibicmJoa3rvv1E2mNIHYb8qzKjKKWlr4OoID25zw/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_149_917683769777.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iarIrz6zPhZNsQ0rUk71SN8ls2JULNyMKbbSS2iaZIzhpUxiaVnww2LvdA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_150_2981cab10ce5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaDJrgKa76TWQtCk1HnT76tOgKFB6utLFdcFJSiaUaUzBQzSRm42ugUmA/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_151_b851c0224153.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iapP3XJ0076Vb7DvYrzy9neDO7AutrsKerv2C1HA5UCIM35vIMv9Fs0A/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_152_9927811cc843.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iadSKKdVWKlxXia4VON5jruPtcCD0RNNQ8UAL5pKx1gOP8WwvLuNMsWSg/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_153_43996a788780.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaM43HoLjohCDa7Uv3V3BYmdKPoE0aW5hCiaZjpnCyQyXPAZXlicTd1S5A/640?wx_fmt=png&from=appmsg)
+![](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_154_aa0c907d7507.png)
 
 注：文字与图片报告无关
 
@@ -546,13 +546,13 @@ GaN
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskQll3rpv1KibrCibnIfrozz2pvx2bZoXVeqhAA82LbuABZPauHaDr8oHwctcLtus0gk0WcUDibhxzXA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=79)
+![图片](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_155_cae298e3a39c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskQll3rpv1KibrCibnIfrozz2mZVjFj2jpYMnrU4DNVfbkiaX1zc8JRqHB1F172z8iaIQcKLFDcNS8Z9A/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=80)
+![图片](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_156_b04c4712184a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQll3rpv1KibrCibnIfrozz2suvIEWkfdpWcWp5N4EAl6aGsxdq08uNNRMng722Onj138ZjzkNPhwg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=81)
+![图片](先进的三相SiC器件_GaN器件的PWM逆变器和整流器系统_images/img_157_f5dd6fca9a6c.jpg)

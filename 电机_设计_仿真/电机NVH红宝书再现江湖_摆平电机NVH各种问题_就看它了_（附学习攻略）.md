@@ -3,25 +3,25 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/igJrVZalfwXWEgFxwNQzRg](https://mp.weixin.qq.com/s/igJrVZalfwXWEgFxwNQzRg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVSxQKv9fv5DX0yndEv5nwjySjAo76biaScM1O4pKCh3TCYD9EchSsnvypBqKicUia1AGlVBxRMp2g3w/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657912&idx=1&sn=1f08bbfe98a06168e348f411b276fca2&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_001_1d7425cc54fd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657912&idx=1&sn=1f08bbfe98a06168e348f411b276fca2&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_002_e532dba355d8.gif)
 
   
 
 关注公众号，点击公众号主页右上角“ · · · ”，设置星标，实时关注最新资讯，以免错过最新推送
 
-由西莫主办的“电机NVH问题的机理和测试仿真”研修班将在本周五的青岛如期举办，会员优惠付款活动也进入了倒计时阶段，新老学员的优惠付款活动将在周四前截止，想要参加的朋友记得抓紧时间扫码报名哦：![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWOZYQOar6WsNrQQLrWXTO1jgY7eqP5cibKGPo1ribYib17hOh16p4H9CcQ8fTzgBegOobfBWK7vicB9g/640?wx_fmt=jpeg&from=appmsg)
+由西莫主办的“电机NVH问题的机理和测试仿真”研修班将在本周五的青岛如期举办，会员优惠付款活动也进入了倒计时阶段，新老学员的优惠付款活动将在周四前截止，想要参加的朋友记得抓紧时间扫码报名哦：![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_003_f8aec87b7e38.jpg)
 
 在前面的文章[全新升级！详细解读电动驱系统NVH分析方法和实现声音设计的关键](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657460&idx=1&sn=8cb5e997bab3525459221d004d9ec5f6&scene=21#wechat_redirect)中已经经介绍过，本期培训将对周英杰、李彦昊两位专家共同编著的培训教材之一《电驱动系统的时域NVH分析与声音设计》进行全面升级再版。需要掌握电机动力总成以及复杂电机系统中的NVH问题的分析与声学相关高级仿真应用的电驱动系统NVH工程师不要错过这次的学习机会：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWOZYQOar6WsNrQQLrWXTO1Srtme3shaiaiapWibp506mqjyoZPD3OxXblt8jnwrOf6V8IibkITUaPzlQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_004_7e2e70f47097.jpg)
 
 同时，我们也将对本次培训的另一本教材《电机NVH问题的机理和测试仿真》进行全面升级改版：薛胜鑫和杨利辉老师的倾力加盟带来了电机NVH测试和考虑电机控制系统及电机控制器开关频率引起的NVH分析计算的最新解决方案；李保来老师也将增加对变频器供电时产生的高频电磁力波、直流电机的振动问题以及电机振动噪声的主动控制等方面内容的详细解读；另外，结合大家电机本体NVH分析计算方面的最新需求，王杨老师也对相应内容进行了更新。更加丰富全面的电机NVH红宝书即将重磅发布：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWOZYQOar6WsNrQQLrWXTO17esdqLxXSqMmq9JIyRMTUgztD9Xia8ia18rsjCxYpjHWlU4eL4pnHhKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_005_80a72749f62f.png)
 
 汇聚了众多专业文献书籍相关精华部分的融合与提炼，以及包含详尽的关键仿真操作步骤指导讲解与电机NVH试验现场演示，西莫电机NVH加强研修班的内容组织当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！那么系统学习电机NVH都需要get到哪些点呢？看一下这次更新后教材的详细内容就清楚啦（标红为更新内容）：
 
@@ -459,11 +459,11 @@
 
 以上就是新版培训教材的全部内容，几乎已经涵盖了电机NVH领域的各个方面，是一次不可多得的学习入门和能力提升的宝贵机会以及与更多业内知名公司的技术人员结识交流的绝佳平台。欢迎各位在电机NVH相关领域有迫切学习和提高需求的朋友扫码报名：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWOZYQOar6WsNrQQLrWXTO11T9YFlwCJOlFwks5TA1303vXnQ09qsd0oxgIBAFkT4rGNoex0Mib3Pg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_006_b7e14f17808e.jpg)
 
 这次培训西莫将携手青岛艾普智能仪器有限公司及更多Ansys专家一起倾力打造第六季电机NVH加强研修班，在风景如画的东部沿海城市青岛，将通过现场操作演示来展现电机NVH测试方法的具体实现过程，同时艾普也安排了全体学员到公司的参观活动，还将通过举办联谊晚宴增进大家的交流互动，相信这必将是电机NVH行业技术学习活动的一次盛举！培训从三天升级为四天，加量加料不加价！更多本期电机NVH研修班的特色可以用一个海报来概括：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWOZYQOar6WsNrQQLrWXTO1UtlLhozUoNza7ovUv3VlvTYOCicTqKMs7Lb7pfUqxve8Rf9tEZH0Stg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_007_7a4df35ffb2f.jpg)
 
 再不行动就晚了，因为，很多宝贵的学习机会错过了可能不止要等一年！不管是零基础还是有一定相关工作经验的有志于在电机NVH领域深入学习提高的朋友，相信参加本次培训后都会有更多的收获长进。距离不是问题，主要还看学习的迫切需求程度。如果您不想错过如此丰富精彩的线下学习活动就赶快扫码上方海报二维码报名吧！关于本次培训的更多详细介绍，请看下文：
 
@@ -529,7 +529,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUO0bHEha8b8hYQs4ibsM3liaugz5eOdiaeah971gLNAfiaQ5eDzhHhLJXKZ6D8X36iacIOPqOZiaWeUXrg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_008_b08742f09967.jpg)
 
   
 
@@ -565,18 +565,18 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXanAyERb7zyHibKcjicmGsQiaICBc3BhWejWhpBTvf6t35fBkicBSMFK2J8SAxuLRTYjM5gAMpUibQ7tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_009_0f67562a7c04.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_010_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWVBquhM51EjibQY6TxQoCBXCPavs1XFOEGVicdOBfQBac4c8duHW8pYVJROt58PibicCIL9qDbZHX5Cg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657814&idx=1&sn=a1f03982ee5b346c96cb5d1c35e5a26d&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_011_d43958f785a7.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657814&idx=1&sn=a1f03982ee5b346c96cb5d1c35e5a26d&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVNcIUT6GuypbB19OZCfibVWWHoXkAW5f6Q8agluTycI4TlDprAeHan5xqC8tV1ibVwYZuY7Z2ZiafibQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657893&idx=1&sn=3baf63a5550527192c257d947050b278&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_012_6852f02e9cfd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657893&idx=1&sn=3baf63a5550527192c257d947050b278&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_013_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657893&idx=3&sn=cb3af3d4178d1034332808b8b7777037&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_014_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657893&idx=3&sn=cb3af3d4178d1034332808b8b7777037&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_015_cb8185f2cf41.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH红宝书再现江湖_摆平电机NVH各种问题_就看它了_（附学习攻略）_images\img_016_64bd90de404b.png)点击**阅读原文**，直接报名参加本次培训！
 
 ****觉得好看，请点这里********↓************↓********↓************↓************

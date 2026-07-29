@@ -20,7 +20,7 @@
 
 想象一下一张照片要怎么样才能清晰？当然是像素点越多，照片包含的原始信息就越接近真实，自然看起来也就越清晰。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjoQicVUDbgo1JvNAwcCxHbQwOsaR0Q7brL1WvtlYjC9bNYI716ZUibGXqDx7pzKgbzcVRd9UtqPYTA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\示波器（ADC）采样率的理解_images\img_002_42ba15a44767.jpg)
 
 我们从示波器上看到的波形其实也可以理解成一张照片，那么这张照片包含的点越多，自然也就越接近真实的样子。
 
@@ -40,7 +40,7 @@
 
 示波器重建一个信号不仅仅取决于有多少个数据点，采集数据点的速度也很关键。示波器的采样率就是示波器每秒能采集多少个数据点的能力。**如果示波器的采样率不足，那么我们就无法准确地看到信号的真实样子。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjoQicVUDbgo1JvNAwcCxHbQM0yWiamqwDF7rfconDFEibkXrbyj8jCLCHc8k4hQahYmWvRxEWThxUdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\示波器（ADC）采样率的理解_images\img_003_451c37a95d3f.jpg)
 
   
 
@@ -54,7 +54,7 @@
 
 示波器的运作过程大概是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjoQicVUDbgo1JvNAwcCxHbQgycXZZ2KUDLNN7AM42Kvm3UYQezErNp1YADjichq42uT3tfia2sw3OfA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\示波器（ADC）采样率的理解_images\img_004_065101973d37.jpg)
 
 我们通过探头给示波器输入一个信号，被测信号经过示波器前端的放大/衰减等信号调理电路后，然后高速ADC模数转换器进行信号采样和数字量化，**示波器的采样率就是对输入信号进行模数转换时采样时钟的频率，通俗的讲就是采样间隔，每个采样间隔采集一个采样点。**
 
@@ -68,7 +68,7 @@
 
 如下图就是采样率不足导致的信号混叠，可以看到采集到的信号和原始信号相比，频率变小了很多。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjoQicVUDbgo1JvNAwcCxHbQOLiagxpdA9lO7PgUYfth6vtanpC3jzDzPMTlSTT5457nD7HP5gJdXYA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\示波器（ADC）采样率的理解_images\img_005_f71c43b4ccec.jpg)
 
   
 
@@ -88,13 +88,13 @@
 
 使用平均采样模式可平均多个采集结果，以减少所显示信号中的随机或无关噪声。平均多个采样结果需要稳定的触发。平均的数目可在平均采样模式后的选择框内进行设定，平均数目越高，显示的波形对波形变化的响应就越慢。必须在波形对变化的响应速度与信号上所显示噪声的降低程度之间进行折衷。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjoQicVUDbgo1JvNAwcCxHbQnuKCpOtGTARHGr0UvTiaer0wMNOV3LEqIgpQia3W4x5lehFu8sIb1qnA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\示波器（ADC）采样率的理解_images\img_006_1e36777a9de5.jpg)
 
   
 
 使用包络采样模式可以看到数次采样到的波形的叠加效果，在指定的N个采样数据中捕获一个信号的最大值和最小值，可设置波形叠加次数，如下图为一个包络采样模式下波形叠加次数为32的调幅信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjoQicVUDbgo1JvNAwcCxHbQQW6MBXCzyaMQy2buDBtrJoPXaldQQ590nNjdHmyfqy94UnfdHKLlZQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\示波器（ADC）采样率的理解_images\img_007_8f1714975100.jpg)
 
   
 

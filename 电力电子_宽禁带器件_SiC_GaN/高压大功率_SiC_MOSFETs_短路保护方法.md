@@ -37,7 +37,7 @@
 
 **1.1 SiC MOSFET 短路分类**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7cRLh3q2F9eo4Cic6srzADTZswp054kdibz2XekEHEQ7JbVOQz6ewawew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_000_79c11962d12e.png)
 
 SiC MOSFET 短路故障分为 HSF 和 FUL 两类，典型波形如图 1 所示。HSF 短路回路电感小，如桥臂直通，开通瞬间 id 快速上升，SiC MOSFET 退出电流线性区，进入电流饱和区，漏源极电压 uds 抬升至母线电压 Udc；FUL 是负载短路引起的故障，如相间短路等，短路回路电感更大，开通瞬间 id 上升更慢，uds 先降至通态压降，当 id 上升到一定值时，SiC MOSFET 才开始退出电流线性区，此时 uds 再迅速抬升至 Udc。
 
@@ -47,25 +47,25 @@ SiC MOSFET 短路故障分为 HSF 和 FUL 两类，典型波形如图 1 所示�
 
 漏源 极 电 压 检 测 法 的 基 本 原 理 为 ：SiC MOSFET 正常导通时 uds 为通态压降，发生短路故障时 uds 抬升至 Udc，通过检测正常开通和短路故障下的 uds 差异，即可识别 HSF 和 FUL 短路故障。根据检测电路不同，可分为二极管式\[7\]和阻容式\[9\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7e2VayDtXpubZ3VdicPsHYhD0smiaHFJVA7X8SvnC7BMpS3xb7WgVPwsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_001_cb6c1a4eec3e.png)
 
 图 2 为常用二极管式漏源极电压检测电路。当SiC MOSFET 开通发生短路故障，uds 抬升，二极管Ddesat 截止，栅极驱动输出的驱动正压 UCC 经 Rbl 给Cbl 充电，当 Cbl 两端电压 uCbl 大于比较器阈值电压Udesat\_th，比较器输出高电平故障检测信号 Ssc\_desat；SiC MOSFET 关断时，栅极驱动输出驱动负压 UEE，开关管 M1 导通，Cbl 经 R1 快速放电，检测电路被闭锁；此外，关断瞬间快速变化的 duds/dt 经 Ddesat 结电容 Cj 给 Cbl 充电，可能造成检测电路误触发，因此在 Ddesat 支路串接阻尼电阻 Rdesat 抑制干扰。
 
 SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 态 ， 当 器 件 完 全 导 通 时 ，uCbl<Udesat\_th，uCbl 表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq73pdqLoLRfbDicaI0xxc91cJgWFof6HVdmD3iabKqBlwaPREgfPBnpqyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_002_75baa778086e.png)
 
 式(1)中：Uds\_on 为 SiC MOSFET 导通压降；UF 为Ddesat 正向导通压降。
 
 二极管式漏源极电压检测已广泛应用于低压小功 率 器 件 短 路 保 护 。 然 而 高 压 大 功 率 SiC MOSFETs 的 Uds\_on 较高，且随着温度升高、通态电流增加 Uds\_on 进一步增大；加之更高母线电压需更多二极管串联来提高 Ddesat 阻断电压，使得 UF 也增大；由式(1)可知，Uds\_on 和 UF 增大导致 uCbl 随之升高，使 uCbl 很可能触及 Udesat\_th，引起检测电路误触发。因此，高压大功率器件短路保护大都采用可靠性更高的阻容式漏源极电压检测电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7o0rVFys2rk3SybKkqVwDZJ6sbS4Fdyl84pWjciasuJ5pD16libWaG4Pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_003_8f57ccf2b321.png)
 
 图 3 为常用阻容式漏源极电压检测电路。SiCMOSFET 关断时，开关管 M1 导通，Cbl 经 R1 完全放电，检测电路被闭锁，此时 Rdesat 和 Cdesat 承受母线电压，Rdesat 阻值通常达到兆欧级，以使 Rdesat 功率满足要求。当 SiC MOSFET 开通发生短路故障，uds 抬升，并经 Rdesat 给 Cbl 充电，当 uCbl>Udesat\_th 时，比较器输出高电平故障检测信号 Ssc\_desat，采用钳位二极管 Dc\_1 和 Dc\_2 防止 uCbl 超出比较器允许输入电压范围。由于 Rdesat 和 Rbl 阻值很大，Cbl 并联的寄生电容 Cp 不可忽略，Cp 包括 Dc\_2 结电容、比较器输入电容等，且 Cp 容值随元器件选型不同有所差异，从数皮法至数十皮法不等，由于 Cp 容值测量困难，在实际工程应用中，通常根据实验结果调节 Cbl，从而获得期望的检测响应时间。若短路故障为 FUL，则 uds 先降至通态压降后再抬升至 Udc，快速变化的duds/dt 通过 Cdesat 支路能加快 Cbl 充电速度，从而缩短检测响应时间。
 
 为了 避 免 SiC MOSFET 完全 导 通 之 后uCbl>Udesat\_th，引起保护误触发，Rdesat 和 Rbl 的取值应满足表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7q0YKia3T32SYQNhwGlxyIS0jCCicogqDXGxUByJoVT34KLRENOniach4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_004_13edb3b8a115.png)
 
 式中：Udson\_max 为各工况条件下 SiC MOSFET 导通压降最大值；Uds\_th 为可将 Cbl 充电至 Udesat\_th 的 uds阈值电压。在实际工程应用中，Udson\_max 一般选择1.5~2 倍额定电流\[7\]，最高工作结温下的导通压降。
 
@@ -73,15 +73,15 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 此外，为了避免器件在完全导通之前，uCbl 被uds 充电至 Udesat\_th，引起保护误触发，需预留足够的tblk。定义 ton\_desat 为 ugs 开始上升到 uds 下降至通态压降的开通时间，则 tblk 需满足\[7,25\]：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7MePdOXPqJnQ3PgyiaYouLTJyvTo5lpjhrTicUpZr7ZYBzTrNn0IB0tlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_005_c8bd71acfd82.png)
 
 式中：ton\_max 为各工况条件下 ton\_desat 的最大值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7ozicp3UwmBWiaNRulhfCmZnh5EdRmZoK9pdOJtXHvjhwJdtfprskoSIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_006_f4469849dc67.png)
 
 图 4 给出了母线电压 Udc=2 kV，负载电流IL=750 A，壳温 Tc 分别为 25、50、75、100、125、150 ℃时 SiC MOSFET 的开通实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7Cy6EGba8m8jJ6qFia8waOmQaYaT7o5qHBpowXKTrdficNhf1pChyibbdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_007_68cc75f334e5.png)
 
 图 5 给出了母线电压 Udc=2 kV，壳温 Tc=25 ℃，负载电流 IL 分别为 150、300、450、500、750 A 时SiC MOSFET 的开通实验波形。
 
@@ -89,7 +89,7 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 现有阻容式 uds 检测电路大多通过调整 Cbl 充电时间常数来设置 tblk，该方法易受 uds 和检测电路寄生参数影响，tblk 调节不方便且精度较差。因此，该文通过逻辑控制单元来设置 tblk，在 tblk 内，逻辑控制单元屏蔽 Ssc\_desat，在 tblk 结束后，才开始检测高电平故障信号 Ssc\_desat，数字化的配置方式有效提高了 tblk 调节的灵活性和精确度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7FDn5G11Ie4YUIYiaYP2vKibw7cVfib1lwePE1hoVy8OMwJktyr5kMe2Yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_008_4f4df5a54ab2.png)
 
 表 1 比较了文献\[7\]的 900 V/63 A、文献\[8\]的1.2 kV/40 A 和该文 3.3 kV/750 A 3 种 SiC MOSFETs的输入电容和采用 uds 检测电路识别 HSF 故障的消隐时间。
 
@@ -99,33 +99,33 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 寄生电感检测法基本原理为：功率器件开尔文源极(Kelvin source，KS)与功率源极(power source，PS)之间存在寄生电感 Lkp，快速变化的 id 在 Lkp 两端感应出电压 ukp，通过对 ukp 积分，即可得到与 id幅值成比例的输出电压 uo 幅值，并以此识别短路故障。寄生电感检测法无需设置消隐时间，保护响应速度快于漏源极电压检测。典型的寄生电感检测电路框图如图 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7RtxsYTv4ib2A54rWWWsaPAwD5icS0HRh5BY9B2wDibM68fGnBOD7EdmcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_009_ef2ee8c2c56c.png)
 
 图 6 中，为了避免检测电路影响器件正常工作，Rs 和 Cs 支路阻抗应远大于 Lkp 阻抗，使 id 几乎不流入检测电路。uo 与 id 的传递函数与时域表达式如式(4)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7BPGkia3t8mlhWFAicSSwlpFEJwOyhT9qtDkhplqOsPr349AjbbwACr7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_010_92a550d9cdc9.png)
 
 由式(4)可知，若漏极电流变化率 did/dt 足够大，即 id 等效频率足够高时，RsCss>>1，此时 uo 与 id 的传递函数近似为常数，uo 幅值与 id 幅值呈线性关系。当 uo 幅值大于阈值电压 Ukp\_th 幅值，比较器输出高电平故障检测信号 Ssc\_kp。在实际工程应用中，为避免正常开通过程保护误动或发生短路故障时保护拒动，Ukp\_th 需满足\[16\]：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7Pz3qreg3EWL9hPZn8EyicukwF5nekcVZzC9bDlkZzF8NEe48DyePa7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_011_fdae996ad5a8.png)
 
 式中：|Ukp\_th|为 Ukp\_th 幅值；|uo\_2In|为 2 倍额定电流开通对应的 uo 幅值；|uo\_Ip|为短路故障峰值电流对应的 uo 幅值。为便于评估 uo 与 id 的线性度，引入相关系数 r，r 表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7Ht2MLiadSev1FHnfKSMKXLYHv52a1VWTqD1aRc4XCudXFrCO0ZD5u1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_012_00966331157b.png)
 
 式中：变量 x 代入 uo；变量 y 代入 id；则可得到 uo与 id 的相关系数 r。r 越趋近于 1，表示 uo 与 id 的线性度越高。
 
 从式(4)所示时域表达式可知，uo 由 Lkp、did/dt和时间常数 τ=RsCs 决定。Lkp 可根据文献\[18\]所述测试方法或查阅器件数据手册获得，该文 3.3 kV/750A SiC MOSFET 寄生电感 Lkp 约 5 nH\[26\]。图 7 给出了Udc=2 kV，Tc=25 ℃时，正常开通及 HSF 故障下的id 波形。由图 7 可知，正常开通与 HSF 故障 did/dt差别不大，did/dt≈1.25 kA/μs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7QQXmcabUn8tod5RVup8oLhLzia6lIXYW3bYVtt9y8HH7TlM3axqadibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_013_248025197b8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7I2ibGHGmlFdCITic8nW2RbzhiaNl636NPCkSGSxsyrxnTGtPMUbxg3BDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_014_bc7fc1f5a1ec.png)
 
 为了便于分析，假设 HSF 故障 id 保持恒定电流变化率 1.25 kA/μs 线性增大。图 8 给出了 HSF 故障下 id 经简化处理，且 Lkp=5 nH，不同 τ 下的 uo 波形。
 
 由图 8 可知，τ 越大，r 越趋近于 1，uo 与 id 线性度越高，但 uo 幅值也越小。由图 7 可知，Udc=2 kV，Tc=25 ℃，该文 3.3 kV/750 A SiC MOSFET 短路故障id 峰值 约 3 kA ，结 合 式 (5) 和图 8 可得 ， 当τ=2.5×10−5 s，r=0.9999 时，uo 与 id 呈线性关系，Ukp\_th设置范围为−0.6~−0.3 V，Ukp\_th 幅值和设置范围都太小；当 τ=10−5 s，r=0.9993 时，uo 与 id 仍近似呈线性关系，Ukp\_th 设置范围扩大至−1.3~−0.7 V，但 Ukp\_th幅值和设置范围仍偏小；当 τ=10−6 s，r=0.9361 时，uo 与 id 虽然呈正相关，但 uo 与 id 线性度变差，uo幅值已不能较为准确地反映 id 幅值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7icfeh0KnicObvT0JpsAHtLJRDKB8tCm7ejnsE9nBBnMKQDDichZg5mBvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_015_b7f145debf39.png)
 
 表 2 比较了文献\[15\]的 1.2 kV/300 A、文献\[16\]的 1.2 kV/400 A 和该 文 3.3 kV/750 A 3 种 SiC MOSFETs 在 HSF 故障下，采用寄生电感检测电路的关键参数。
 
@@ -137,19 +137,19 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 栅极电荷检测的基本原理为：正常开通过程，SiC MOSFET 转移电容 Crss 随 uds 减小而增大，此时栅极电流 ig 绝大部分给 Crss 充电，栅极电压 ugs 缓慢上升进入米勒平台期；而发生 HSF 故障时 SiC MOSFET 退出电流线性区，uds 抬升至 Udc，此时 Crss较小且基本不变，ig 仅极少一部分给 Crss 充电，米勒平台期消失，导致 HSF 故障下栅极充电电荷 Qg相比正常开通过程更小，通过识别 Qg 差异即可实现HSF 故障检测。但发生 FUL 故障时，uds 也先减小至通态压降，此时 Qg 与正常开通过程差异很小，因此该方法难以识别 FUL 故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq74qlNeryZjwicVHCCoB6zMEbSqJcibhbuuFatRrfMv6ntw5txEDPWohsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_016_b3ff02ae6f13.png)
 
 图 9 给出了正常开通过程和 HSF 故障下栅极充电电荷特性曲线。图 9 中米勒平台期 ugs 从 Ugp1 缓慢上升至 Ugp2，Ugs\_th 为栅极阈值电压，Qg\_th 为栅极阈值电荷，Qg\_HSF 为 HSF 故障下 ugs=Ugs\_th 的栅极电荷，Qg\_NOR 为正常开通 ugs=Ugs\_th 的栅极电荷。若满足式(7)所示条件，则可判断 SiC MOSFET发生 HSF 故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7hXdeAla4rJiaIUqnUibs5GMlcIPNhvwiatRPaMEkhtBKibUwOoquEU2wnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_017_7692b34bd044.png)
 
 式中：IL 为负载电流；gm 为器件跨导；Uth 为 SiCMOSFET 开启阈值电压。由于开通过程 gm 呈正温度特性，Uth 呈负温度特性，导致 Ugp 随温度升高而减小；且 Ugp 又随 IL 增大而增加；因此在最低工作温度、最大负载电流工况下 Ugp 最大。从图 4、图 5测试 结 果 可 知 ， Ugp\_max 约 14.3 V ，驱 动 正 压UCC=17 V ，由 式 (8) 可得 Ugs\_th 取值 范 围 为14.3~17 V，该文取 Ugs\_th=15 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq75Pze1DSBLD8uQiaHwT7FJ85urHx4bk94yiaFjnpOQqrHGlT1GglEpKTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_018_5cb457441eb6.png)
 
 常用栅极电荷检测电路如图 10 所示。开通过程复位开关 S1 断开，使能积分电路，栅极电流 ig由采样电阻 Rg\_sample 采集，通过差分放大电路后经积分电路得到 Qg；关断过程 S1 导通，闭锁积分电路，Qg 清零；采用比较器检测 ugs 和 Qg，逻辑控制单元接收比较器输出信号 Ssc\_gate 和 Ssc\_charge，并根据式(7)判断 SiC MOSFET 是否发生 HSF 故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7bgTib3paENicWZqdMMBxjbSjLibcWZlZia5l2SOmFRNdYiadDML2wT0mBog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_019_0efccfa4d913.png)
 
 图 11 给出了不同 Udc、不同 Tc 下发生 HSF 故障，以及不同 Udc、不同 IL、不同 Tc 下正常开通，该文 SiC MOSFET 栅极充电电荷特性测试结果。
 
@@ -157,11 +157,11 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 表 3 给出文献\[19\]的 1.2 kV/24 A、文献\[27\]的1.2 kV/39 A 和该文 3.3 kV/750 A 的 SiC MOSFET，采用栅极电荷检测电路的关键参数对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7YWBLxLImG2oFIFVDALj2meZNw60H4XJVP0hee3V4YViacjckSB4T4sQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_020_bbf2a5e3963a.png)
 
 由表 3 可知，高压大功率 SiC MOSFETs 输入电容 Ciss 大幅增加，导致 3.3 kV/750 A SiC MOSFET的 Qg\_th 幅值也显著增大，这大大增强了栅极电荷检测电路的抗干扰能力。此外，Qg\_th 设置范围也明显变宽，这主要是由于器件 Crss 特性差异所致，表 3中 3 种不同 SiC MOSFETs 转移电容特性曲线如图12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7huiaKYyjBlg48jrSU5L5u0DpoicqB7dMCvicnlIV8nUHkUAibkFhMSrNiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_021_2289cdf0705f.png)
 
 由图 12 可知，3.3 kV/750 A SiC MOSFET转移电容 Crss 大幅增加，导致其正常开通过程和HSF 故障时的 Qg 差异变大，Qg\_th 设置范围也随之变宽，这大大提高了短路保护的可靠性。因此，高压大功率 SiC MOSFETs 采用栅极电荷检测 HSF 故障兼具响应速度快和可靠性高的优点。
 
@@ -169,23 +169,23 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 阻容式漏源极电压检测法能可靠识别 HSF 及FUL 故障，但高压大功率 SiC MOSFETs 开通过程变缓，发生 HSF 故障时需设置更长的 tblk 避免保护误动，减慢了保护响应速度；寄生电感检测法虽无需设置 tblk，但高压大功率 SiC MOSFETs 漏极电流变化率降低，导致检测电路 uo 幅值减小，抗干扰能力变弱；栅极电荷检测法也无需设置 tblk，且高压大功率 SiC MOSFETs 转移电容 Crss 增大，HSF 故障与正常开通过程的栅极电荷差异更明显，大幅提高了检测电路工作可靠性，但该方法难以识别 FUL 故障。基于高压大功率 SiC MOSFETs 器件特性和不同短路检测方法自身特点，该文提出一种阻容式漏源极电压检测与栅极电荷检测相结合的高压大功率SiC MOSFETs 短路保护方法，既实现了 HSF 和 FUL故障可靠识别，又兼顾了保护响应快速性，所提方法电路框图如图 13 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7LpqRybzurGKkA0qZRjjfiaLJFU4gVexDuictnsGD87icWemHqwjJC2uvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_022_014f82cca0f3.png)
 
 图 13 中采用栅极电荷检测电路快速识别 HSF 故障；通过阻容式漏源极电压检测电路识别 FUL 故障；发生短路故障时，经更大阻值 Rg\_soft 软关断，防止器件过压损坏。
 
 该文 基 于 3.3 kV/750 A 高压 大 功 率 SiC MOSFET 模块\[1\]，搭建了如图 14 所示测试平台验证所提方法的可行性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7sibLRYzslz5cicsvHsib2y1Micia1icTxGMKicEhyTWwCAvKymsibAicrLe2vxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_023_cd4d46c66bc5.png)
 
 图 14(a)所示是测试平台原理图，由高压直流电源提供 Udc，Cdc1 和 Cdc2 串联组成母线电容，Lload为负载电感，T1 为辅助器件，T2 为被测器件，通过控制板给驱动板发送脉冲信号。正常开关测试时，Lload 取 50 μH 空心电感，控制板始终给 T1 驱动板发关断命令，给 T2 驱动板发双脉冲触发命令；HSF故障测试时，Lload 不接，控制板始终给 T1 驱动板发开通命令，给 T2 驱动板发短路单脉冲触发命令；FUL 故障测试时，Lload 取约 2 μH 空心电感，控制板始终给 T1 驱动板发关断命令，给 T2 驱动板发短路单脉冲触发命令。
 
 图 14(b)所示为测试平台实物图，通过辅助供电电源给控制板和驱动板供电，控制板与驱动板通过光纤连接，母线电容经叠层母排与 SiC MOSFET 模块相连，SiC MOSFET 模块放置在温度可控的加热台上，驱动板分为主板和子板，子板直接安装在 SiC MOSFET 模块上，主板与子板通过排针连接。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7g6icI3biczc07UicyMuw6doZXqmshouTtict8UBRroAsq34poVH4QMZSvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_024_7f7e5be8a403.png)
 
 图 15 所示为采用该文所提短路检测方法的驱动样机。驱动样机主要由驱动电源、栅极驱动及短路检测电路 3 部分构成。逻辑控制单元采用英特尔现场可编程门阵列(field programmable gate array，FPGA)芯片 10M02SCU169I7G，驱动样机短路检测电路的主要元器件如表 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7ib8ll5UQCA9BSPnoT59j0sG4IwSJsuomPFGsSSOra0KkTxIHic4BFX0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_025_36eefc131ff9.png)
 
 根据式(2)、式(3)、表 1 和图 11、表 3 分析，3.3 kV/750 A SiC MOSFET 短路检测电路关键参数取值如表 5 所示。
 
@@ -193,19 +193,19 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 基于图 14 实验平台，测试该文驱动样机的短路保护效果，实验测试设备如表 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq71AtRsJ6tfxBTnIGMTUbibggsBcNZm5ficBEgC9wgXaNBIV3ticsa9tRYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_026_fada93946cf9.png)
 
 图 16 给出 Udc=2 kV，IL=750 A，Tc=25 ℃，SiC MOSFET 的正常开通波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7fO6DFjjD9LXeZ736mk7lVB8h85zOcTJsuyvIxqfBacq2tJ8iaubfGAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_027_3fe2f1414279.png)
 
 从图 16 可知，当 Qg>Qg\_th 时，Ssc\_charge 翻转，当 ugs>Ugs\_th 时，Ssc\_gate 翻转；正常开通过程，ugs>Ugs\_th时，Qg>Qg\_th，不满足式(7)所示判断条件，栅极电荷短路检测未误动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq74V1IxlbjO3Oh1t6T9jwS9aLAh8HknrSJNMcUVVbY2HxnLQ7IINaHTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_028_5dbae278a145.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7N2HBXYbwKYt9jFWRpoWfmZIFnjEIy0KGjs0yXqtuHQWRRWXbOKTQzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_029_75048d54f371.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq71IPmsG36kCGPMxtCOUmEpIHCaky507sibvkC5wdsakhg42JQbibohLpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_030_d86f4d3572dd.png)
 
 图 17 给出不同壳温和母线电压下，采用阻容式漏源极电压检测电路识别 HSF 故障的实验波形。
 
@@ -221,15 +221,15 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 如图 18(b)所示，当 Udc=2 kV，Tc 从 25 ℃升高至 150 ℃时，栅极电 荷短路检测 响应时间仍 约2.5 μs，Isc\_max 约 2.1 kA，Psc\_max 约 4.1 MW，Esc 约4.2 J；由实验结果可知，温度升高对栅极电荷短路检测响应时间影响不大，但短路峰值电流、短路峰值功率和短路能量也会随着温度升高而有所增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq762TPqXT5OrWSCevJpNjkw4t3Bqj3bRAiaFxAyahgwgGMIk2aQia5PUvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_031_47c909051ff3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7Os92D4uyZGt0PibD9icd2RUQpgSiabxz9IJ3GXaWCJ7Rced2HFicxYkXvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_032_620863bf0ed3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7u9uSG3W4If5BFl4LXCv1oZMY932201KP5HQbbXIribkH8uaTmdibsHyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_033_6951288df2f1.png)
 
 如图 18(c)所示，当 Tc=150 ℃，Udc 从 2 kV 下降至 1 kV 时，栅极电荷短路检测响应时间仍约2.5 μs，Isc\_max 约 1.9 kA，Psc\_max 约 2.0 MW，Esc 约2.1 J；由实验结果可知，栅极电荷短路检测响应时间不随 Udc 的降低而增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7ibGMFNLztpJuQyBagbwTicOBVp7AF46iaVAkE8Q54K2AuYCbRprg9YdhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_034_aa3dae1a0f00.png)
 
 表 7 给出了分别采用常规阻容式漏源极电压检测电路和该文所提方法的栅极电荷检测电路识别HSF 故障的实验对比结果。
 
@@ -237,9 +237,9 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 图 19 给出了 Udc=2 kV，不同 Tc 下采用该文所提方法的阻容式漏源极电压检测电路识别 FUL 故障的实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7H1dXfKf6LiavgzC53cbjw3nicXTyF8L8U9M5h5836j0lU4MaKmOTpCXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_035_ed466a9b0e59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7my1jwEib6ib0cpHYzd4lYlFbV3qzibLceNArFYoa56GDBW43oQSmfiadtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_036_fde53b8fc1de.png)
 
 从图 19 可知，Tc=25 ℃，FUL 故障下 uds 先下降到通态压降，约 4.2 μs 后 SiC MOSFET 才退出电流线性区，此时 tblk 已结束；从器件开始退出线性区到 Ssc\_desat 翻转约 1.6 μs，比 HSF 故障减小约0.1 μs，这主要是快速变化的 duds/dt 通过 Cdesat 支路加快 Cbl 的充电速度导致，当 Ssc\_desat 有效高电平脉宽大于 tfilter=0.5 μs 的滤波时间，FPGA 判断识别到FUL 故障，并下发关断命令，经 tdelay=0.1 μs 的传输延时后 SiC MOSFET 软关断，同时 M1 导通，闭锁漏源极电压检测功能，Ssc\_desat 翻转至低电平。当 Tc从 25 ℃升高至 150 ℃，除 SiC MOSFET 短路峰值电流和 uds 关断尖峰略有增加外，阻容式漏源极电压检测响应时间基本不变。
 
@@ -255,10 +255,10 @@ SiC MOSFET 正常开通，随着 uds 降低，Ddesat从阻 态 转 换 为 通 �
 
 4）所提短路保护方法识别 HSF 故障优势明显，保护 响 应 时 间 缩 短 了 1.4 μs ，短 路 能 量 降 低 了62.5 %；且能可靠识别 FUL 故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq70oSzeeV6KP0oXcicnGAib1DGqzOrvQ0gJBSMc0NzFlXQymtH5t7ia5c4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_037_6033bd94a5d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_038_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_039_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大功率_SiC_MOSFETs_短路保护方法_images\img_040_84aa944feb13.jpg)

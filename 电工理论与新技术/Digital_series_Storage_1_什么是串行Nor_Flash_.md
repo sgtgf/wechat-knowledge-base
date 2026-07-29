@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/GEEMIwtJ3aGewxRq3hLBug](https://mp.weixin.qq.com/s/GEEMIwtJ3aGewxRq3hLBug)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMxK6NycB4VlX1ybrVnpuiaeHjNIbOiawgLbXhhwQZysTqn8ECbRVukOpQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_000_5f79efcefecf.png)
 
 ____**____**★★★**____**____________Storage-1---串行Nor Flash____________**____**★★★**____**____
 
@@ -13,7 +13,7 @@ ____€1.____________Nor Flash的结构________
 
 Nor Flash的结构原理图见**_图1-1_**，可见每个Bit Line下的基本存储单元是并联的，当某个字节线被选中后，就可以实现对该字节的读取，也就是可以实现位读取（即Random Ａccess），且具有较高的读取速率，**_图1-1_**是一个3\*8bit的Nor Flash的原理结构图（图中Bit位标识错误，实际为Bit0-Bit7）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1Ozh1ko4e0CYZ0jM2d5SwSKU0QK1PTeLDIwNMTBKlibusNIT8gO4PM9jg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_001_48d02ca2e24c.png)
 
 **_图1-1：Nor Flash的单元结构_**
 
@@ -21,7 +21,7 @@ Nor Flash的结构原理图见**_图1-1_**，可见每个Bit Line下的基本�
 
 ____€2.Nor Flash的类别____
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSsXOXK4LS8Rw45eRsxuXMJQIZNJO0w5OUKSbx3NDHTXVRlk6twwhWQNP9ncuZicbvccjEbEGrWjmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_002_4ddd4d163897.png)
 
 **_图1-2：Nor Flash的分类_**
 
@@ -59,11 +59,11 @@ Nor Flash存储单元的并联结构决定了其读取和我们常见的SDRAM的
 
 ____€4.标准Serial Nor Flash的结构____
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8gC6gkyfWs8SI8p57cAr14h3YgQ1bwy56FkxFsqu7sr2FbXynUgFc7Kg/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_003_c5036daa42f5.png)_
 
 **_图1-3：标准Serial Nor Flash的系统结构_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8gWPrmmouN16Xiac2p24YZ6Y76Duia7dsWqNkmJOicHVPqibWUyVUgHFSxkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_004_8d78dfdf6439.png)
 
 **_图1-4：挂载多片Serial Nor Flash的连接拓扑_**
 
@@ -73,7 +73,7 @@ _1#.标准SPI_
 
 4线标准SPI接口，由串行数据输入（SI）、串行数据输出（SO）、串行时钟（SCK）和芯片启用（CE#）引脚组成。指令通过SI引脚发送，以在SCK的上升沿对指令、地址或输入数据进行编码。SO引脚用于读取数据或检查设备的状态。该设备支持SPI总线操作模式（0，0）和（1，1）。SPI产品一般以串行的方式读取信息，也就是每次1比特，它要求的连接较少，所以要求的引脚数也较少。这一更低的成本简化了许多嵌入式设计的电路板设计并降低了外形尺寸。总的针脚数从典型的并行Nor Flash上的47个有效引脚降低到了SPI闪存上的8个有效引脚。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8gcibibtFicswY4CAwVfxiaohgmianlDtRSqfLVKWibIuPjicubad0ByT6pxfQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_005_9d672e6459bb.png)
 
 **_图1-5：标准SPI波形示例_**
 
@@ -91,17 +91,17 @@ _2#.Multi I/O SPI_
 
 在3线模式下，MOSI和MISO线合并为一条双向数据线，如**_图1-6_**所示，半双工模式支持双向通信，但减少数据线的数量并以半双工模式运行会降低最大可能的吞吐量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1O6yhK0cOmoFsr2UE9psOTFNEXuJOYlGFfhcGvRe5JEBKcEsnVO0PaAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_006_1cc01193dd75.png)
 
 **_图1-6：单路SPI配置_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBgicYj2jo2RdzdTMYW2U8h6OM43bFVdJMg72j0Bvz38OVdUSS1w1LokA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_007_323102d8ff31.png)
 
 **_图1-7：双路SPI配置_**
 
 当与高速设备通信时，Quad I/O设备可以提供的性能是标准SPI的4倍，**_图1-8_**显示了支持Quad IO设备的配置示例。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OGgQOL3m0JXgnfkjd0styltwXPicgwEaLe7WRxYroqzMSgiaQejpWTnog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_008_12413adaeffa.png)
 
 **_图1-8：四路SPI配置_**
 
@@ -117,7 +117,7 @@ QPI（Quad Peripheral Interface，四外设接口）支持2周期指令，进一
 
 典型的SPI协议要求字节长的指令代码仅通过八个串行时钟中的SI引脚转移到设备中。QPI模式利用所有四个I/O引脚来输入指令代码，因此只需要两个串行时钟，这可以显著减少SPI指令开销并提高系统性能。在任何给定时间，只有QPI模式或SPI/双路/四路模式可以激活。特定指令用于在这两种模式之间切换，而不考虑状态寄存器中的非易失性Quad Enable（QE）位状态，电源重置或软件重置将使设备返回到标准SPI模式。在QPI模式期间，SI和SO引脚变为双向I/O0和I/O1，WP#和HOLD#引脚分别变为I/O2和I/O3。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8g14vMZwxPtZjWZxD2rHIl8hnSuVOKibzgzWTTvkXn7dbXCicrljJkvCgg/640?wx_fmt=png)**_图1-9：QPI配置波形示例_**
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_009_cfc651f55cd3.png)**_图1-9：QPI配置波形示例_**
 
 _传输速度和容量：_
 
@@ -133,7 +133,7 @@ _1#.Serial Nor Flash with ECC_
 
 如**_图1-10_**所示，即两片支持X4 SPI的Flash叠封在一起，扩展成为X8接口。例如512Mb=256Mb×2；256Mb=128Mb×2，速率80MHZ/166MHZ。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8gHtrDqUoxicGlGeB1Siacia3WZxQmUeAaYXDNq0TIZXGZ7hPT6sXT69UiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_1_什么是串行Nor_Flash__images\img_010_539a9bb96960.png)
 
 **_图1-10：两片X4 SPI Nor Flash堆叠实现X8_**
 

@@ -7,7 +7,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYJDickZMeISiaic9bP4zCwSEib9l5RCGEpk0bOlpa5kACsDlHuyI6AZgxuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_000_653c5c34c50e.png)
 
   
 
@@ -17,7 +17,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYxz5ysrnq7plqNudo8VBWr5HqTmLRSAcyNaPYg6AmAlWQ5JhC7MEGdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_001_41f9201cae04.png)
 
   
 
@@ -33,25 +33,25 @@
 
 （1）三相三线制三电平VIENNA：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYO38vicHcNzIZZdxLibLEbibSj7xicibVbpucxDibSE1maB7ZVPJiaRLyz8Qog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_002_725bbac3be2e.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYTN9dNI9EibJHZX3tOJicemmm8t7Y6yEBic6FHne0HRNF8sYlkGmwNb4qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_003_7ed387c9d25d.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYQyLJPNVXTicfiaPIpyWQl1Z2fUjf6fLfX3bDwTuJWywtuY3ueEianlgWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_004_72a422674bfe.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYLib86sLNnPPnjwI59LHXEdDbLdtYyvrE7Yb7uwssPxibbPKAc2Mk2LeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_005_e865b007aa1c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicY4yuI2icj9AN4CkTaF4ibLqdJzMicibgh51c2qUmM7HEI34Zw0uHoPzPYVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_006_f5deb56c05e4.png)
 
   
 
@@ -95,7 +95,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYqiaZ66N9ILN0iaLJvOZicInMF7T6kxOyRrsqgk1KU8r4q6oMXkpSVYZaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_007_0348382bf0aa.png)
 
   
 
@@ -107,7 +107,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYQsHVOe73VUW6v5FeqOMbpBRXovibokMZteBYrUZ0GQR4NU9zvkW4DnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_008_f10303b1331c.png)
 
   
 
@@ -121,7 +121,7 @@
 
 （1）两组交错式串联二电平全桥LLC：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicY06t3Cc7Z5yGdvUumwHNmDcTNrUaPBRhGj8CnOz0pjpZx2rc4NvHQicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_009_f28ffe22adbc.png)
 
   
 
@@ -131,7 +131,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYDJ7qLicG4KiaZ1dKysib8x35LScx5C4gC8h4TftBPWSrdiab6eR1CmTnaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_010_e0285caf2c66.png)
 
   
 
@@ -169,7 +169,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYGOLFmdfNagcntk60NwQSUp8Yv9ibcKCibvnONTEuZ5tf59qoDh6VnicaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_011_9e9d15e50df7.png)
 
   
 
@@ -213,11 +213,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYmmRf86OWI3ER8bhV0BZibcUudF3apmpicsk5WZja6lhsbLCbo4C0VONQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_012_e13253767171.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicY4xTZHqlJA28HIAL3RtsetyaAtNTcW5lTGrZOJ9aVMBHRglNMCToFMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_013_ff5cb9322f76.png)
 
   
 
@@ -231,7 +231,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYlxTiaKeGxzwuO1IeoUPFn3w11GfhSMnqEwtN5as573sjicd3UOldKOMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_014_3d8ad73c5650.png)
 
   
 
@@ -243,7 +243,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYIZSL3PI1GRzcrkbibfRQfiaoibRsqorMkTCSmFJLDOialH0wQgicVJTZvRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_016_78ec0c620854.png)
 
   
 
@@ -251,7 +251,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYIZSL3PI1GRzcrkbibfRQfiaoibRsqorMkTCSmFJLDOialH0wQgicVJTZvRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_015_78ec0c620854.png)
 
   
 
@@ -259,7 +259,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYHWDBQj3k4cvL9sY18YmY3EmXQA6j6cOcnLwUpS59X22ykvL0GBx5WA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_017_2f71cc43d2fc.png)
 
   
 
@@ -267,7 +267,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYa6AYzWjPIQ38x98IfqVw2kbg3a0BaGnDqA92yTnXLfezTLnWGZ1Hog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_018_5be432abfe85.png)
 
 **四、自主研发方案**
 
@@ -275,11 +275,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYTfoo23Oqo4Jd5g5ZEc1wqOnxiaFhkodVDwseiat5zmm96NjNWc2JRJWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_019_bcb2ad8efc44.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYlpTxS8XBHAMSF2BibvEF0LzhGN2wVCxBOrHObZq7j54wBWTDgiacBicDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_020_c5747a8436b2.png)
 
   
 
@@ -299,7 +299,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYm69lEEVLl8U2yd5TFvo5aceDpD6uvP5mPqYYiaVwor1Cq1PiceTrURnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_021_460b63330f43.png)
 
   
 
@@ -311,13 +311,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYMuwvTGcmYXWadHVY7RQhqv2A3yCiaibUIxDQ6e5bLCNxlFethGn3YXfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_022_5ff883e7e11b.png)
 
   
 
 **4、电源的发展方向和规划**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYzIpCRVuPoMJpzOTsXvdDpd5U5gNKEGnOnicXoEic1Yz4v6cwT5KQWjyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_023_9c5f1dfdb19f.png)
 
 **文章来源：充换电公社**
 
@@ -329,7 +329,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYl2WyVe6Wicq0rcoUnwTcDrnQQu3q0sXl75IjthnYdfap7T4ql99Tb1A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_024_816611926d81.jpg)
 
 采用1200V SIC MOSFET设计带来的简化
 
@@ -337,30 +337,30 @@
 
 与传统硅基器件相比，碳化硅模块可以做到更高的耐压等级和更高的热导率，能够增强充电桩的稳定性，使直流充电桩（DCFC）能够以更高的频率运行，增加了充电桩近30%的输出功率，并且减少损耗高达50%左右。碳化硅功率半导体器件的进步，也为充电桩电能转换带来巨大进步和技术突破。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicY1ypdRoc1TWTl5bJd7Tf1qV2OyUib9MNw1Jfvhccy8ibdGRQxtibjjWEmg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_025_71de120e68dd.jpg)
 
   
 
 SiC 功率器件的应用能大幅提升充电模块的功率密度、延长使用寿命。充电模块的功率器件主要包括 MOSFET 和 IGBT 两种，各自适用于不同的电压范围，在充电模块方面 均有使用。相比于 Si 基器件，SIC MOS 具有更低的导通损耗、更低的开关损耗、更高的 开关频率等优良特性，并且可在高温、高压、干扰等恶劣的环境中高效工作，能够大幅提 升充电模块的功率密度、延长充电模块的使用寿命、降低运营商和桩企的运维成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBBxAahefg1icibicMfYCicOnslubvhvLST5c1xSq7O8fRntAmKmibR3U2oowz5oaTSSv6akI34QyOLyQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_026_554dc3119325.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBBxAahefg1icibicMfYCicOnskcNZ2NWd9dFqZU3UpFuEHmIeeXJqUQeOP7YsiacJiaDqUeCmrpibs9LkQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_027_cb884c33bc8b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBBxAahefg1icibicMfYCicOnseZN1u5ficWVZ1ibd86Izmffcc7abIhjUN0duRpYJQ42cfImicWDS0PpQw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_028_39be160d9f42.jpg)
 
 随着SiC技术的日趋成熟和商业化应用，其独特的耐高温性能不断加速推动结温从150℃迈向175℃，甚至已出现了200℃的产品。借助于这种独特的高温特性和低开关损耗优势，成为未来的高温、高功率密度产品应用，如多电和全电飞机、移动储能充电站以及各种液体冷却受到严重限制的电力应用提供动力。在许多特种工业应用中，当液体冷却受到严重限制时，电控系统将面临同样的高温挑战。耐高温的电控技术是实现以上高温应用的关键，天赋异禀的实现技术是SiC功率器件的高温封装技术和与之相匹配的高温驱动电路技术。
 
 目前，让汽车充电变得像加油站加油一样快是市场上的主流需求，充电桩向直流快充的发展，对功率器件提出了更高的要求。为了在800V高压下实现更高的效率，业界技术研究方向正转向SiC功率集成模块（PIM）。选择基于SiC的模块能降低总体布线要求，减小系统尺寸，并减轻重量。模块将多个功率器件集成在单个紧凑的封装中，简化了机械组装，优化了热管理，提高了可靠性，并减少了电压尖峰和高频EMI。使用SiC器件以更高频率运行，可以提高功率密度，提升效率，并减少需要管理的热量。此外，模块还针对使用极低热阻材料的热传递进行了优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnMWgfrrjSzAObCicB4ekicYXEJD25Gpia3g7MkySvibVAAdrU0LjnbBpYRYMoL3MUJZt1kHO36ce8eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_029_094e4d94ac7c.png)
 
 总而言之，SiC功率集成模块正成为新能源充电行业的领跑者，让超充时代更快到来。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_030_46963c659d22.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_031_a7724504a523.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源充电桩充电模块常见的拓扑结构和原理图_SiC_MOSFET器件在充电模块中的应用及优势_images\img_032_1ddabca751f3.jpg)

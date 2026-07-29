@@ -26,13 +26,13 @@ X电容是跨接在电力线两线之间，即“L-N”之间，X电容器能够
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMpItL3GHhEdPNIaGobBia7MVCQrEfrCsWzBPLiavOUpLFyjIS7GYS0sjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\特殊电容___X电容和Y电容_images\img_002_4eaf4d4c77c6.png)
 
 **2、安规Y电容**
 
 Y电容通常都是陶瓷类电容器，一般成队出现，多数是扁圆形外观，颜色呈现蓝色，能够抑制共模干扰，Y电容容量是nF级。基于漏电流的制约，Y电容量不可很大。Y电容多数适用于隔离场合，按照IEC标准，Y1产品电气间隙最小为8.0㎜，Y2产品电气间隙不低于6.3㎜，作为隔离产品，安全距离要做够，避免高压通电发生拉弧现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMSopoIeAEibzSb5fEOKfM6niba4fGdD3pSVSIYLqD7FNOSVvP1u8Er0vQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\特殊电容___X电容和Y电容_images\img_003_17a7aa9e9c0c.png)
 
 硬件笔记本
 
@@ -44,11 +44,11 @@ Y电容通常都是陶瓷类电容器，一般成队出现，多数是扁圆形�
 
 X型安规电容根据耐压分为 X1、X2、X3三种，安规电容安全等级中允许的峰值脉冲电压过电压等级：2.5kV＜X1≤4.0kV、X2≤2.5kV、X3≤1.2kV
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMhAUwJVJXC1n2Gc8kVczpbbjr0TPPCndyib1yX84CSd3cJL5deOrsl4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\特殊电容___X电容和Y电容_images\img_004_463a483d5d84.png)
 
 Y型安规电容安全等级：Y1≥250V，允许峰值脉冲电压＞8KV；150V≤Y2≤300V，允许峰值脉冲电压＞5KV，Y4＜150V，允许峰值脉冲电压＞2.5KV。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMk6ibiahicP2SAbVTtEmCFoK0wtY5jZFy9YOAO8djOJqH4hmPfCThUQMeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\特殊电容___X电容和Y电容_images\img_005_6b6654404584.png)
 
 不同电路选择不同的耐压值的安规电容，不能过大也不能过小，对于X电容来说，很多时候都选用X2电容。
 
@@ -76,13 +76,13 @@ Y型安规电容安全等级：Y1≥250V，允许峰值脉冲电压＞8KV；150V
 
 抗电磁干扰是X电容最常见的作用，一般两根引脚跨接在零线和火线之间，适用于高频、直流、交流、耦合，跨接脉冲电路中，能够能承受过压冲击，一般与电阻并联使用，目的是起到泄放电荷作用；Z
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMFoPqrum0ibiaKNVQhWXXA7NxlJnNLzADfDlXHsDACluOaic5icoRJib6ia1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\特殊电容___X电容和Y电容_images\img_006_4c544363d1a5.png)
 
 **阻容降压**
 
 阻容降压也是X电容经常用到的，特别对于成本低廉成品，电容降压的工作原理是利用电容在一定的交流信号频率下产生的容抗来限制最大工作电流。同时在电容器上串联一个阻性元件，则阻性元件两端所得到的电压和它所产生的功耗完全取决于这个阻性元件的特性。因此，电容降压实际上是利用容抗限流，而电容器实际上起到一个限制电流和动态分配电容器和负载两端电压的角色。如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMAohicV81zaQ8sYNdSHfsxbfmmVMvc0h2bQAvKMSmowwiaKR7nbodVSMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\特殊电容___X电容和Y电容_images\img_007_befb7896444e.png)
 
 **滤波**
 
@@ -94,7 +94,7 @@ X2安规电容器可以用作直流滤波使用，可以并联使用。
 
 应用很多隔离式开关电源在初级和次级上加Y电容是为了给次级的共模电流提供一个回路到初级，减少共模电流对输出的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMsKwscMcWcTwXGa96xbH4tmyeKjmMaN1UMb8Xzs2pRXC4QJ0m2V93OA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\特殊电容___X电容和Y电容_images\img_008_ed861c6f8229.png)
 
 Y电容串接在高压地和低压地之间，有时会采用两个Y电容串联是为了提高高压地和低压地之间之间的耐压，有时候会出现耐压不足的情况，导致安规电容打耐压过不了，可以选用高压陶瓷电容作为Y电容，Y电容通常接法有四种情况：
 

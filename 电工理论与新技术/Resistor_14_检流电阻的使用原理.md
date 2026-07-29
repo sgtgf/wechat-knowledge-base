@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/989vy1aGnsUpWAebJuokEQ](https://mp.weixin.qq.com/s/989vy1aGnsUpWAebJuokEQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGhXFE75Ahufcb5RTlic0PGOoicgeq7m0VicowkePhtNJicBEs45BIafE6a0DECTDLSazTERibmQ6mibrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_000_38c485027f0d.png)
 
 _**_★★★_**_Resistor-14---检流电阻_**_★★★_**_
 
@@ -27,11 +27,11 @@ _____€2.检流电阻的用途_____
 
 #3.马达的过电流保护
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1YdAybNlpOm5ySfy4X5VgpFhcDctHUTvViaN9heIFz1pBDxntM5Picgrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_001_ec76142ca260.png)
 
 **_图14-1：马达过电流保护_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1icXzrtWEpd1tyzheewXqbMWpfic3aIr5nPq96phlo66l85FcRwtGICvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_002_187cce6e4262.png)
 
 **_图14-2：热插拔_**
 
@@ -45,7 +45,7 @@ _____€2.检流电阻的用途_____
 
 #3.交流马达的电流控制
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1MyL9r8JE75ry1w7cia9aKUdN2gKUv1JjTbhqvpvE6b2KxSbNc5JXkkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_003_1bd9a1b0cfd1.png)
 
 **_图14-3：电源控制器电流控制_**  
 
@@ -61,32 +61,32 @@ __€3.检流电阻的形态和类别__
 
 在功率管理中，检流电阻有金属板型功率分流器，小型功率的长边电极型厚膜低阻值电阻，小电流用途电阻等等。如**_图14-4_**至**_图14-10_**列举了检流电阻的覆盖范围：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJ9MBbj8oQ0D3lMozFoHmmQwBjRKoddFRiaHdptPua8tRs9sJsptd1lCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_004_d4ad126f2486.png)
 
 **_图14-4：大电流分流电阻器-高精度金属板电阻元件_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJQia0Y2x6e653DeyA5CQQXUxtaswfRQXsgRwHSHXb6eqDzrMU1MG2TZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_005_436f2f50fccb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJcAqFbFAnEp6AibCNECA0C5VQ9KZYY22ZVSAnoWsqqlicofPzAOTKOzpA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_006_d0a2c994bdb2.png)
 
 **_图14-5：片式功率分流电阻器-高精度金属板电阻元件_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJUChMgERNcBgtkt8pnl0oiadmeN7ibibuNpHpfh38AicD3uVxpZVOVHdmiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_007_6ed54afe77a9.png)
 
 **_图14-6：电流检测片式电阻器_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJb0uQGpDD5KTKh7dEwxDevprr3fbt6NLc5aiafl5PMFbsgXFPDGfls6g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_008_91a0b536aed7.png)
 
 **_图14-7：宽端子平板电阻器-高功率厚膜电阻元件_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJHJ3bP5Elwzx2ToruBrnxsIH6qnwXsQQaQ2ibMu5FrMPTIauPWlXgQzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_009_4cb98cb25f83.png)
 
 **_图14-8：低电阻平板电阻器-高功率厚膜电阻元件_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJlw6SW89hEGEAMcnjn2DU30ByC9gltX5qHjp9DSQOEBOWIQ8AJsg8rA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_010_693957443f37.png)
 
 **_图14-9：低电阻平板电阻器-通用型厚膜电阻元件_**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJkdcxmAxJJgGxbj7rCsOaYdTzVe3XUQELRvc7bHoGFibYqEXkMJSmlLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_14_检流电阻的使用原理_images\img_011_c65e9bba2245.jpg)
 
 **_图14-10：大电流片式跳线电阻-抗电流脉冲浪涌金属板型_**

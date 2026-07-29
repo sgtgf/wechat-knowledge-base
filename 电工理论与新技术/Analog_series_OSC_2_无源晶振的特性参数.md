@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/s9lSYrzKQv6xpOR2eRR-Ag](https://mp.weixin.qq.com/s/s9lSYrzKQv6xpOR2eRR-Ag)
 
-，![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQlAicbia9Z5QdfuDWwXeIbvVrGvPjH4WLlPyArgNYrhJP87lgYg2a6hX2cJvMEDzISKJciaxs4BjQTQ/640?wx_fmt=png)
+，![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_2_无源晶振的特性参数_images\img_000_ba599b3b81d5.png)
 
 ____**★★★**______OSC-2---无源晶振的特性参数______**★★★**____
 
@@ -41,7 +41,7 @@ DLD2指的是：不同激励电平下的负载谐振电阻的最大值与最小�
 
 _7#.驱动功率（激励功率）_
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBvZGTtYryPic73S5Iw3JVqoET3OLPzeC8jQQU44ZkKSn7ufjcuQv46ibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_2_无源晶振的特性参数_images\img_001_738496966932.png)
 
 **_表2-1：无源晶振的典型参数示例_**  
 

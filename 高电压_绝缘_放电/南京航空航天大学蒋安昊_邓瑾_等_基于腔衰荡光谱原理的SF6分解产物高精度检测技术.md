@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75SdKIR1xqMR6J56gFoEPYxiatNVC2ByKCCTg8PCGQWJ2ibM9B8239htpk3o4JEfmrQcGuAhBRWOUhSQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\南京航空航天大学蒋安昊_邓瑾_等_基于腔衰荡光谱原理的SF6分解产物高精度检测技术_images\img_000_65c4ce027f6c.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2500 字** 
 **导语**
 分解组分分析是监测SF6气体绝缘电气设备绝缘状态的有效手段之一。然而，现有的检测方法大都无法兼顾实用性和检测精度，难以满足现代电力工业生产的要求。 

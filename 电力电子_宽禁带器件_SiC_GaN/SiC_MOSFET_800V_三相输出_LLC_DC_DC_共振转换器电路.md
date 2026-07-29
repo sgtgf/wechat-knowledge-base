@@ -19,9 +19,9 @@ LLC谐振DC/DC转换器（以后LLC dc/dc）是利用零电压开关（后称ZVS
 
 但是，SiC MOSFET可以满足高开关速度和高BV的要求。SiC MOSFET的这些优点的器件特性，由于高开关速度和高BV 实现的高输入电压的应用，结果是通过使用更小功率变压器，可以实现高转换效率的功率LLC dc/dc的小型化。在本应用笔记中，将说明构成（Figure 1）具备绝缘变压器的三相输出电路LLC dc/dc，且采用具有1200V BV的SiC MOSFET的优点。根据最大超过200kHz的开关频率，一般占电源大容量的绝缘变压器的尺寸被大幅度小型化，高BV可以实现 600V～800V的高输入电压，三相输出电路构成可以减少电路的最大电流，改善功率转换效率。而且，变压器还增加了平衡三相 电路电流的技术，抑制电路的最大峰值电流。通过这个使输入输出电容器小型化。从下一章开始介绍电路动作的详细说明和实机验 证结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyq7r9JhOn5ITLcyLExz7icsj1Se89zicU9k9qKxQdAiboJO5ayO6WUf7hng/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_000_55edef0031ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyq4ic0mm9DW2jrObdcjxK3GpXDTmicBMTZu3kh2Chs0NekiaqIVQDYMZ44Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_001_9bc87f47c30d.png)
 
 **动作原理与电路结构**
 
@@ -31,7 +31,7 @@ Q1和Q2以约50%的占空比交替切换，Q1和Q2双方的关断时的死区时
 
 在Figure 3中示出了LLC dc/dc的Q1、Q2中的电压和电流波形。表示QK（k=1，2）中的栅极源电压Vgk、漏极源极电压VQk、漏 极电流IQk、以及二次侧二极管Dok的正向电流IDoK。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqx8BbpaYg0R8PUBWu0uu0b7Klt8Mg02uQgW6wsHWcGxXcUJV7F1tDbw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_002_f33d01e1dde0.png)
 
 以下说明电路的动作方法。 
 
@@ -51,7 +51,7 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
 因为具有完全相同特性的变压器实际上是不可能制造出来的，不平衡的变压器引起的各个相的电流，结果变得不均衡，输出电 容器的电流波动变大。减轻这个不平衡问题的方法，例如在\[21\]和\[22\]中表示，但是需要追加零件。因此，为了避免追加零件，如图 2（b）所示，使Lmbi与并联连接的变压器邻接。这些追加了的变压器，以下称为电流平衡变压器，不过，这个电流平衡变压器起到 使各相的电流均等化的作用，为输入输出电容器Cink，Cok的小型化做出贡献。另外，峰值电流的抑制提供了避免输出电容器可靠性 劣化的方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqs0zHpoyH1SApSAQOzP8kYcok0VFicQRwmgR4uw3iaonA7Ub6PPaJPdkA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_003_fdf9a8e1445f.png)
 
 各相120度的相移表示如图4所示总电流为零，因此Lmbi无法产生有效的磁通量。因此，Lmbi不影响Lmj、Lri和Cri如何共鸣。
 
@@ -71,7 +71,7 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
 由于在工作中磁通量密度直接连接到磁芯损耗Pcore，因此为了进行合适的变压器设计，必须缩小磁通量。占空50%的最大磁通 量密度Bm一般用公式（1）表示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqQ8TnGkrLJWjXZA7ibUtAxahV4vgXlibuN8iax0Cic7aQh3WicuFUcJse7mg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_004_29328c71990d.png)
 
 从该式（1）可知，为了在一定的Vin下减少Bm，必须至少放大fsw、Np、Ae中的一个。但是，把Np或Ae放大的话，会导致变压器 的尺寸变大，所以不能说是为了缩小电源的适当选择。也就是说，通过增加fsw，变压器的尺寸不会变大，Bm会变小，SiC MOSFET 可以满足这个要求。 
 
@@ -95,7 +95,7 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
  表1总结了600V和800V时的LLC dc/dc的设计规格一览。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqcw7urYJP3SiaGTarOdgrGqmbv9bUXp7zsmI1UJvSM9670G9GwjlHGzA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_005_5610d4726fd6.png)
 
 效率与损耗
 
@@ -103,7 +103,7 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
  电力转换效率的最大值是达到5kW时97.6%。开关频率fsw由于SiC MOSFET的高速开关特性，达到182kHz-217kHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqzaQzpPnfEtEicOHTLbP46zBqPsTRlibDTcRJgp77BHInDvk9EBicl1xyw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_006_e41f0792e238.png)
 
 图6(a)和(b)是800V的电路设计在Vin变化时，输出功率与功率损耗(Ploss)或功率转换效率ηp的关系。如图6(a)所示，高Vin时Ploss 的增加率会变缓，Ploss值在Vin=600V时不能超过3kW以上、Vin=700V时不能超过4kW以上，否则无法供应功率。 
 
@@ -111,25 +111,25 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
 只不过这里所示的600V时的转换效率所使用的是设计电压800V的变圧器，如果是设计电压600V的变圧器，功率转换效率可达 到5kW 97.6%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqo9g32oF3H48k0Ca7j1yeMfibgsaw4u6tGVHa2xHbRj9wiaXpAEk7FNSA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_007_11ba4193f4df.png)
 
 **各部分的开关波形** 
 
 图7所示是SiC MOSFET Q1的漏-源间电圧VDS和漏极电流ID的测定波形。图(a)为设计电压600V， (b)为设计电压800V。开关频 率方面，(a)是约200kHz、(b)是约160kHz。此外，VDS在ID负侧流动的非常短的时间内变化完成，不管是哪个波形都可以较容易地 理解ZVS动作情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqCicOCUmcjg70sc9Mqfs3Zl5KV5JLc0DQ31qet8HAytUUw6uPwW4eBwQ/640?wx_fmt=png&from=appmsg)图8和图9所示的是有无电流平衡电路两种情况下输出二极管电流的差别，图8是设计电压600V时，(a)､(b)是各相二次侧二极管 电流，其中(a)无电流平衡电路，(b)有电流平衡电路。图(c),(d)是各相二极管合计的总电流，即输出电容Co1、Co2中流过的纹波电流。图9是设计电压800V的波形，内容与图8相同。 
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_008_966e3dded93a.png)图8和图9所示的是有无电流平衡电路两种情况下输出二极管电流的差别，图8是设计电压600V时，(a)､(b)是各相二次侧二极管 电流，其中(a)无电流平衡电路，(b)有电流平衡电路。图(c),(d)是各相二极管合计的总电流，即输出电容Co1、Co2中流过的纹波电流。图9是设计电压800V的波形，内容与图8相同。 
 
 不管是哪种情况，只要没有电流平衡电路，每一相电流或小或大，电流都是不均衡供应的。另一方面，加上电流平衡电路后， 各相电流会变得近似均等。纹波电流的peak-to-peak值ΔIripple在不均衡的情况为图8(c)的最大6.45Ap-p，和图9(c)的最大6.46Ap-p， 加上电流平衡电路后则为图8(d)的4.31Ap-p，和图9(d)的3.75Ap-p，均降低到３分之2以下。
 
 如式(2)所示，Cm是指输入静电容量Cin或输出静电容量Co的最小值。由此式可知，ΔIripple越小，Cin或Co会跟着变小，从结果上来 看，这与产品小型化相关联。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqGF9qvUg9VB5HSkef8eicE7pIic3FibCLjblibLJrKbL6QRicnnRtCF029NA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_009_a7f3ef203bcd.png)
 
 式(2)中ΔVripple表示电容电圧peak-to-peak值的最大值，Ton表示Qi的启动时间。将ΔVripple的数值设定为与通常印加电圧成一定比 率，比如0.1%，即设计电压600V时纹波电压0.6V，或设计电压800V时纹波电压0.8V，再根据前面的ΔIripple值来计算Cm，可得电流 不均衡的情况下600V时为29.5μF、800V时为25.5μF，电流均衡的情况下600V时为19.7μF、800V时为14.8μF，各电圧情况下电流 均衡后输出电容的静电容量均减半。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyq4AmcW9IibsubCsMbXcbwuxmof195xrkibh8jt011IDWtSemj2qpKCHzA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_010_bbfc16308212.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqeVozPExWdSbMYF0nhg14z2q4aYFrJM9NKQeP0hX2qbM4w5ic8voHtiaA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_011_3b6c5e490423.png)
 
 损耗分析
 
@@ -137,7 +137,7 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
 首先是晶体管的导通损耗（ID 2 \*RDS(ON)），所用的SiC MOSFET的导通电阻RDS(ON)随结温Tj而变化。这次评价中MOSFET安装了 散热片并使用冷却风扇来增强散热，Tj上升到50℃左右就停止上升了。于是，Tj=50℃时RDS(ON)约90mΩ，Vin=600V情况下SiC MOSFET的漏极电流ID为4.5A、Vin=800V时的ID为3.75A，那么用晶体管的导通损耗（ID 2 \*RDS(ON)）乘以使用数量(6個)，就可求得所 用SiC MOSFET总损耗，结果为600V时10.9W、800V时7.59W。然后是二次侧二极管的导通损耗，平均电流在600V时为2.94A，顺 方向电圧为1.1V、而800V时电流为2.62A、电压为1.05V，再乘以使用数量(6個)可求得总损耗，结果为600Ｖ时19.4W、800V时16.5W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqkAg6ce3Gh2UW0AvcaViauwbHiahSHd0owqPSibdLWlNCQwiarBrbraGXIA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_012_da8a108667ff.png)
 
 接下来是所用变圧器的导通损耗（铜损），卷线铜的总电阻有着频率特性，600V且开关频率183kHz时电阻为1.66Ω、800V且 160kHz时电阻为1.21Ω。变圧器所流过电流的有效值是600V时6.08Arms、800V时4.83Arms，变圧器的铜损为600V时61.4W、800V 时28.2W。800V时铜损大幅度减少，这是因为相同输出功率的情况下，输出电圧为较高的800V时，输出电流会变小所致。
 
@@ -147,7 +147,7 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
 最后是600V时与800V时的损耗结构比，如图11所示。由于使用了SiC MOSFET，导通损耗仅占全体的10%左右，变圧器的总损 耗（铜损＋Core损耗）在600V时占全体的约58%、800V时占约83%，于是如何降低变圧器的损耗就成为了今后的课题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqRcewtE2SMnmBicoh29CxzhyNJd1t8dYrNqwM4ib8KcprRGOqiaO8Kg46Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_013_a0399c0b7e4a.png)
 
 **总结** 
 
@@ -157,16 +157,16 @@ Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次
 
 请在电路设计中灵活参考这些电路事例。
 
-**■电路图(Schematics)**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqqAUSV8CoFeGVicMBic3kTSMiapTmicgmUbtfJ1fPQqfnySAOP6LLOyLYUQ/640?wx_fmt=png&from=appmsg)
+**■电路图(Schematics)**![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_014_b343263cf7bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqia9BWtO4KxvajNlZfqkBe28osb0t2e4DmVdNT1ez8fv0hf1Zficr9lUQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_015_5ddfae153fe8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqufK6dS75fBtSChDDian3U1D6uiamwp05E5v9vxJuMABdBkKUMU0gtUibQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_016_ffe9ad3ed526.png)
 
 文章来源：罗姆半导体（ROHM)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_017_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_018_3ade3c3d8599.jpg)![](SiC_MOSFET_800V_三相输出_LLC_DC_DC_共振转换器电路_images/img_019_84aa944feb13.jpg)

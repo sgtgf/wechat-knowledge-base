@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztcw1Qmdh5CibOILEjHSnCHUXv7jfck18libVZRYBM0vkIzz7Lic2pccmYxg/640?wx_fmt=png)
+![](深度讲解三极管和MOS管下拉电阻的作用_images/img_002_f495e5f7b9ad.png)
 
 图1  NPN三极管
 
@@ -22,7 +22,7 @@
 
 三极管属于电流型驱动元器件，因此一般在基极都会串一个限流电阻，一般小于等于10K，但是在基极为什么会下拉一个电阻呢？举例说明。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztc0217u7ISRfX1oZDSzMvLibGJ1StFB8UzUqMlyiaILlibLgE68ib6Bnkb4w/640?wx_fmt=png)
+![](深度讲解三极管和MOS管下拉电阻的作用_images/img_003_585a4cfa8a24.png)
 
 图2  温度开关控制马达电路
 
@@ -34,7 +34,7 @@
 
 当温度开关导通，回路I流过的电流的为  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb3E5JhCyVz7wMjUpDQHHbMzgiaX6tCnYqZAOuseDwfR5MScD8Ob8NDJpiaKaAm6IPIxUd8Q9denFiccw/640?wx_fmt=png)
+![](深度讲解三极管和MOS管下拉电阻的作用_images/img_004_8b17b0d0fa25.png)
 
 三极管CE完全导通，Vce » 0.3V，这时候，马达两端的电压压降接近 12V,它就能够转动，因为三极管be的导通后阻抗远远小于2K电阻R2，所以电流大部分流过三极管；当温度开关断开，ib 就没有电流，ic 也没有电流。
 
@@ -52,7 +52,7 @@
 
 由于有电容的存在，三极管势必有延时。当ib没有电流时，电容C1开始放电，形成回路I，这个时候B点的电压从0.7V降到0V，工作在放大区，最容易受到干扰，在C1两端加个电阻R2，电容上的电一部分就会从电阻R2上释放掉，并且电阻阻值越小，电容放电越快。因此，电阻R2给电容提供了一个通路释放电荷，大大减短了三极管工作在放大区的时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztcCUlFu5oETv6ZWa9Nnavk1RgxP1xDA2xl9R5eicWl95wwIYjibucPkklg/640?wx_fmt=png)
+![](深度讲解三极管和MOS管下拉电阻的作用_images/img_005_fa7736bd5285.png)
 
 图3 三极管寄生电容
 
@@ -86,7 +86,7 @@ A. 防止在静电作用下，电荷没有释放回路，容易引起静电击�
 
 B. MOS管在开关状态工作时，就是不断的给Cgs充放电，当断开电源时，Cgs内部可能储存有一部分电荷，但是没有释放回路，MOS管栅极电场仍然存在且能保持很长时间，建立导电沟道的条件没有消失。在下次开机时，在导电沟道的作用下，MOS管立即产生不受控的巨大漏极电流Id，引起MOS管烧坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztcP123vadOBeyTjOPjy3icKIh0AT0H8zFemZ4NicicHQRdTEpcuD1Mnog4Q/640?wx_fmt=png)
+![](深度讲解三极管和MOS管下拉电阻的作用_images/img_006_b39dd2fe6642.png)
 
 声明：部分内容整理于网络，侵删。  
 
@@ -98,4 +98,4 @@ B. MOS管在开关状态工作时，就是不断的给Cgs充放电，当断开�
 
 加管理员微信，备注“加群”，拉你入技术交流群。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztc3QnHfDgFFnvMnJkkianPmm8eCaVpB19wmvpV3lGGNIcc6dj8CldictEQ/640?wx_fmt=png)
+![](深度讲解三极管和MOS管下拉电阻的作用_images/img_007_9e1d7ba02940.png)

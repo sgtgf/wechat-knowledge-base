@@ -28,11 +28,11 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
   
 **最后还要注意的一条 PCB 设计指南** - 即当使用混合技术元件（通孔和表面贴装元件）时，制造商可能需要额外的工艺来组装电路板，这将增加你的总体成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OdnhCO4mSzia3wCuaw3x8tWgZEvb3QQKAOlgcFsdKsYVRkdUG4tLwA4g/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_002_7bff399f2c7b.png)
 
 良好的芯片元件方向(左)和不良的芯片元件方向(右)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60ODTwOz7kCJiaEuC2yyuA8ASOqlIN70OtoTYLEByVdPq6GCalbZBWcvjw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_003_5242b1d40717.png)
 
 良好的元件布置(左)和不良元件布置(右)
 
@@ -62,11 +62,11 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
   
 这样在焊接的时候随着焊料的迁徙，元件会固定在水平方向。如下图上半部分所示。而下图下半部分的信号走线方式，在焊接的时候随着焊料的流动，有可能会造成元件的偏转。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OaTvnRVsGkaibHYdSiaianNcMz9LCIcojF2iaOico7wxMAXbvpk6SAmn9fDQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_004_5d6f97780db1.png)
 
 建议的布线方式 (箭头指示焊料流动方向)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60Oz3LHHwadhichYbKW6RCfEqoN9LyMQ2rcANiaS7XwdwXJn6rt8FNibY0ibA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_005_fb459ba3e3f8.png)
 
 不建议的布线方式 (箭头指示焊料流动方向) 
 
@@ -92,7 +92,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
   
 **耦合 -** 为了减少由于放置了大的地平面以及在其上方和下方走线的电容耦合，请尝试仅通过模拟信号线路交叉模拟地。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OicibxiaPdDaRE6TO87fLItNdnlD85v0dplfxO5laNeKtO9guRQWVWzibfg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_006_78a29ae328d7.png)
 
 元件隔离示例（数字和模拟）
 
@@ -114,7 +114,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
   
 **作为一般准则，始终对连接到地平面或电源平面的任何通孔或过孔使用热风焊盘方式连接。**除了热风焊盘外，你还可以在焊盘连接线的位置添加泪滴，以提供额外的铜箔/金属支撑。这将有助于减少机械应力和热应力。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60O0dv8ic5DDEDqyJuuYgT6vNggKvne00I7dJZcUhvmC5VxiblOgIrsamdw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_007_522e3a469030.png)
 
 典型的热风焊盘连接方式
 
@@ -142,7 +142,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
 **最常见到的不良现象就是包焊、虚焊，焊锡只有焊在元件的焊脚上而没有连接到电路板的焊盘。**从外观看起来，整个焊点会形成一个球状；更甚者，作业员为了要把焊脚焊上电路板而不断调高烙铁的温度，或是加热过久，以致造成元件超过耐热温度而毁损而不自知。如下图所示。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OWiaV9iaJsbSPLzj6ibm2NldYxUBCP4EiaUibb7tx4IppuuSa35z9XSYdibCg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_008_e7092397a2fc.png)
 
 包焊、冷焊或虚焊
 
@@ -153,7 +153,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
 如下图所示，左边的布线没有采用热风焊盘，而右边的布线则已经采用了热风焊盘的连接方式，可以看到焊盘与大片铜箔的接触面积只剩下几条细小的线路，这样就可以大大限制焊垫上温度的流失，达到较佳的焊接效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OExxSZhIWoEoca4xjVsC9pVv50DkWjEciabF3fiaS9AKR7SDqDKQge1Ww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_009_c59381ae0241.png)
 
 采用 Thermal Relief pad（热风焊垫）对比
 
@@ -167,7 +167,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
   
 当你的 ERC 和 DRC 产生无差错的结果时，建议你检查每个信号的布线情况，从原理图到 PCB，一次检查一条信号线的方式仔细确认你没有遗漏任何信息。另外，使用你的设计工具的探测和屏蔽功能，以确保你的 PCB 布局材料与你的原理图相匹配。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OicYR2hTNFZ6A7nmZtPTYU9xzsuuMoXrlklTkn0bF4sbn7lic6KIaVHIA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_010_b55afd07b95f.png)
 
 仔细检查你的设计，PCB 和约束规则
 
@@ -183,9 +183,9 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_011_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_012_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_013_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_014_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_015_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_016_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_017_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_018_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_019_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_020_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_021_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_022_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_023_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_024_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_025_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\最接地气的PCB设计指南_images\img_026_50889e54acde.gif)
 
 ## 
 

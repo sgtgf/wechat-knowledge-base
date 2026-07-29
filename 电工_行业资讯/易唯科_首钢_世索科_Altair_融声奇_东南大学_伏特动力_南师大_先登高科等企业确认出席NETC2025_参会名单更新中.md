@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/r-bNSGhP6i2-Bx56tsNJ-A](https://mp.weixin.qq.com/s/r-bNSGhP6i2-Bx56tsNJ-A)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIV2ysltfpNN1sHwYuXwtkbZHps4p83T50HG731GCwX6WicJf2licowAn01mNaVreFStqO2ibwgY8uZwA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657150&idx=1&sn=6219935ba390ca25c306ff1da0669b48&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_001_407db5cc95a2.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657150&idx=1&sn=6219935ba390ca25c306ff1da0669b48&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_002_e532dba355d8.gif)
 
   
 
@@ -15,39 +15,39 @@
 
 热烈欢迎上海易唯科电机技术有限公司总经理/总工曹红飞先生出席2025（第三届）中国新能源电驱动系统技术发展大会并成为演讲嘉宾！他将为大家带来基于扁线方案的高性能螺旋桨驱动电机方案的主题演讲，欢迎大家扫码报名参加本次大会聆听曹总的报告：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUzVm99foR91SOxMO9jUZarbicyjwcjJfXZvotjbwQuarmBDw5pSeeJhKfgHsE8eWaicDuFut79Ca0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_003_a9178878be6c.jpg)
 
 出席本次大会的演讲嘉宾还有首钢智新电磁材料（迁安）股份有限公司研发部首席工程师程林先生，他的报告主题是：自粘结铁芯在高速电机的应用，欢迎大家扫码报名聆听程总的主题演讲：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUzVm99foR91SOxMO9jUZarC5TtB4ltBfJXicQBA114WvNeaNuABlxhvgGBnY5RMC6icoPf4KlgFZsA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_004_7f4f58c2cc48.jpg)
 
 另外，世索科特种聚合物大中华区市场经理潘禹先生也将出席本次大会并做主题演讲，他的报告题目是：特种聚合物在电驱系统的应用，欢迎大家扫码报名参加本次大会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUzVm99foR91SOxMO9jUZartg8JjfzyLOvAoXO7OLYlzqJXzZ5uSTacIbcN06PrDibZTgylDsfArbA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_005_00ff29e4075f.jpg)
 
 热烈欢迎澳汰尔工程软件（上海）有限公司Altair中国区高级技术经理王琪先生出席2025（第三届）中国新能源电驱动系统技术发展大会并成为演讲嘉宾！他将为大家带来AI时代下的电机工程仿真与优化的主题演讲，欢迎大家扫码报名参加本次大会聆听王经理的报告：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPmQs2Zd5FjIgNUSmibOsBNhVeVQVYgqb0TwrhScEg9bhlfHjSiabmyQ3ZBGM2xaePuYKKics5Wpvbw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_006_280b9679cd9d.jpg)
 
 出席本次大会的演讲嘉宾还有武汉融声奇科技有限公司技术总监张吉健先生，他的报告主题是：轴向磁通电机电磁激振特性与辐射噪声分析，欢迎大家扫码报名聆听张总的主题演讲：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXPmQs2Zd5FjIgNUSmibOsBNp4y7ibK4TXohqkRYXehvCQMMqVeFxtOMIJqIazfPKvmNCRk6ywhibZTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_007_1b9d4233a36e.png)
 
 另外，东南大学电气工程学院副教授彭飞博士也将出席本次大会并做主题演讲，他的报告题目是：无线电励磁电机在电驱系统中的应用，欢迎大家扫码报名参加本次大会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPmQs2Zd5FjIgNUSmibOsBNXibBM8AEKfYXE2zdZJFPWrZELQOmxm6OTicibQziar0HKNgUqwod7KDdBw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_008_d8e83fca110b.jpg)
 
 热烈欢迎杭州伏特动力科技有限公司创始人洪涛先生出席2025（第三届）中国新能源电驱动系统技术发展大会并成为演讲嘉宾！他将为大家带来先进高密度eVOTL电驱技术的最新进展的主题演讲，欢迎大家扫码报名参加本次大会聆听洪总的报告：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVqKYwTDiaSmicNuFibzD6WooMPpF6c7gFACtk1AwbnkoBniaciaunichINkibcl56DichtMXDGrAfI9Qow2A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_009_1811bcc30290.jpg)
 
 出席本次大会的演讲嘉宾还有南京师范大学南瑞电气学院副教授郭保成博士后，他的报告主题是：轴向磁通电机关键技术综述，欢迎大家扫码报名聆听郭教授的主题演讲：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVqKYwTDiaSmicNuFibzD6WooMD101AD4rJgg9KDPBQhTymoZCkG56SuHMSosPxpGAXyibWVmCm5bibw4Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_010_33acaf35256d.jpg)
 
 另外，先登高科电气股份有限公司总工程师林熙云先生也将出席本次大会并做主题演讲，他的报告题目是：高频低阻漆包线研发趋势及应用前景分析，欢迎大家扫码报名参加本次大会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVqKYwTDiaSmicNuFibzD6WooMzb8FFeNKdrgfQa1CGZAp5FgWdth4hffP0e1UjtV5orW8IFaF09jkWg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_011_5e74a4fe83f9.jpg)
 
 **关于本次大会的内容详细介绍如下：**
 
@@ -61,7 +61,7 @@
 
 **大会最新议程**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn7iaL14TDnYjFwuEj5VrfHy0ISB2E4YtNYeu3icTS7DbbYlz8SK4d84QQxrQ7PxB7lqiaZQ4ufliaZiclA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_012_0d369c02704f.gif)
 
 **议程1——**电驱动系统的关键技术与发展****
 
@@ -189,7 +189,7 @@
 
 ·[NETC2025精彩演讲预告：非晶定子铁芯智造与思考](https://mp.weixin.qq.com/s?__biz=Mzg4MzkxMjc4Mw==&mid=2247489460&idx=1&sn=a54186d1ee59863efa95bf7d8f50d5e7&scene=21#wechat_redirect)
 
-![](https://mmecoa.qpic.cn/mmecoa_png/9RCbW5V9GKuAfaNnFqduzl8pUQNI0LTRob3E2teNaPb1dNGncVt1kwSiaEUTVIOVph8b6rTTE20ZmGKbbfcyLsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_013_ff0080288c72.png)
 
 ……更多参会嘉宾持续更新中，敬请期待！
 
@@ -199,11 +199,11 @@
 
 **演讲|参展|参会火热招募中**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn7iaL14TDnYjFwuEj5VrfHy0ISB2E4YtNYeu3icTS7DbbYlz8SK4d84QQxrQ7PxB7lqiaZQ4ufliaZiclA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_014_0d369c02704f.gif)
 
 往届大会受到行业界企业的广泛关注和热情参与！Interplex、Ansys、赛川电子、懿朵科技、JMAG、金岷江、江苏华利、卓宇信息、先登高科、舜云科技、常州隆耐、斯美科、宏远股份、OMRON、凯森环保、弘能精密、高拓精密、特思迪、尤因科技、碳科跃动、卡门哈斯、新科益、江苏大族、沃尔兴、琨钦、科乐为、棣拓科技、微亿智造、墨森科技、鸿达、菲沃泰、沃伏龙、融声奇、无锡复悦、金田铜业等70余家企业，通过演讲、展台展示新能源电驱动产业相关的核心产品及最新技术。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV2ysltfpNN1sHwYuXwtkbZn5YfvibEA4lhzeqXrZ05rwDicI9ZXEVEr8Xoqym3qQ5WQYfVl0hRcXRQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_015_ad4ff2e64eea.jpg)
 
 \*往期赞助合作企业排名不分先后
 
@@ -213,20 +213,20 @@
 
 **会议报名及合作咨询**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn7iaL14TDnYjFwuEj5VrfHy0ISB2E4YtNYeu3icTS7DbbYlz8SK4d84QQxrQ7PxB7lqiaZQ4ufliaZiclA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_016_0d369c02704f.gif)
 
 ◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信了解会议详情和索取会议的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIV2ysltfpNN1sHwYuXwtkbZxakVwPqSicvdZBSVo31sOzrbGYeBLh6bVZHpzhMeklquic8mkDkbNUjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_017_4cf9c9d5e63c.png)
 
 参展、演讲等其他赞助合作事宜咨询，也请扫码预报名后联系会务组负责人**张老师**，电话：**18516258619**，欢迎大家踊跃报名参加本次大会！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_018_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVSxQKv9fv5DX0yndEv5nwjySjAo76biaScM1O4pKCh3TCYD9EchSsnvypBqKicUia1AGlVBxRMp2g3w/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657137&idx=1&sn=29563d8c043a0e6ac61cb33a70acf022&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVNcIUT6GuypbB19OZCfibVWWHoXkAW5f6Q8agluTycI4TlDprAeHan5xqC8tV1ibVwYZuY7Z2ZiafibQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657141&idx=1&sn=57b585eb6342af75e31464eb952dc913&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_019_1d7425cc54fd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657137&idx=1&sn=29563d8c043a0e6ac61cb33a70acf022&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_020_6852f02e9cfd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657141&idx=1&sn=57b585eb6342af75e31464eb952dc913&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_021_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657141&idx=2&sn=151feaa58d5950d57abaa72b440c4e96&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_022_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657141&idx=2&sn=151feaa58d5950d57abaa72b440c4e96&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次大会！
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_023_cb8185f2cf41.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电工_行业资讯\易唯科_首钢_世索科_Altair_融声奇_东南大学_伏特动力_南师大_先登高科等企业确认出席NETC2025_参会名单更新中_images\img_024_64bd90de404b.png)点击**阅读原文**，直接报名参加本次大会！
 
 ******觉得好看，请点这里↓**↓****↓********↓************

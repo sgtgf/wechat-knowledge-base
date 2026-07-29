@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/s7CwiUCjT7ZWjyqc4N-zHQ](https://mp.weixin.qq.com/s/s7CwiUCjT7ZWjyqc4N-zHQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTiah5rXLdlYGdViavjB4pXQicC94UWU1K2fCtII1pAngjSmubgatbamBFMxF0hDQfDSwqLZ3h4WibkmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_000_ce3ae0d71093.png)
 
 ____**★★★**______Debug Note-2---PMIC损坏______**★★★**____
 
@@ -21,7 +21,7 @@ ______€1.__问题背景____
 
 3#：测量一级DC-DC（12V-5V），输入正常，输出为3.8V，不正常。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiaCyCoQZ3ZawTQrNibEibukxfCT9eAq0zCmXldMs12gNw1BAKO1vhNu0iaQ3CKTE3WJEJQndAtknAcw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_001_69d94f878988.png)
 
 **_图2-1：原理图_**
 
@@ -33,7 +33,7 @@ _PMIC测量_
 
 _电源链路排查_
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTiamMr4RKGnnAVibZHyx1H2WiaLBLIZMIYR4AYHicflRib7ibxtC3I55oYYpBTXxkDOTvAXTyJEqgDwwhQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_002_b20f99daa51b.png)
 
 **_图2-2：电源链路_**
 
@@ -41,7 +41,7 @@ _电源链路排查_
 
 为进一步确定问题是PMIC，将所有负载均使用外置数字电源，不再使用板级PDN，此时主板芯片工作正常，连接串口如**_图2-3_**，可以正常收取信号。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQAmYlzBicnfE8osmZHvj9WtdR4zJ1ZLUW2pKibGytEHMZO49P5Qvk31iccmia8uTcqoAQZsHGrOW8EtA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_003_613485b2acf9.jpg)
 
 **_图2-3：主芯片工作正常可以读取到串口信号_**
 
@@ -61,23 +61,23 @@ _单电感形式_
 
 如**_图2-4_**和**_图2-5_**所示，对于单电感并联这种情况，当两组HS-FET同时打开，两组LS-FET同时关闭或者两组HS-FET同时关闭，两组LS-FET同时打开时，电流的紫色箭头流向均正常。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT4NER3vCaK0F0sbJqxhJRnEYD1Uo96kTj1uotmiaxNoQo80ocfaI78MnfAkwxuKlG64zIKSoqNMuw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_004_a60c0073e3b0.png)
 
 **_图2-4：单电感并联锁相_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0Wyib2vftdWuzHIrGyp0Moq5hia3uxaGzhtvsuebjMmhNJeyLicMicfyFZ21Bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_005_422dffec7183.png)
 
 **_图2-5：单电感并联锁相_**  
 
 此时我们再考虑一种极端情况，当A组HS-FET开启，LS-FET关闭，B组HS-FET关闭，LS-FET打开时，如**_图2-6_**所示，红色箭头部分电流直接通向GND，即发生了短路，就会损坏PMIC内部的FET，这个就符合上面遇到的情况，我们称之为失相，**_图2-6_**的假设失相为180°，比较极端，实际情况失相并不可控，FB引脚也悬空，所以才会发生很强烈的滋滋的电流音，因为短路的大电流时而导通时而断开。如果失相180°，FET会因长时间短路而烧毁。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0Wyib3xickrvZ2qgiajIPxQzKjZRQnpibtBBobFUZAfndRPTqjkvwT4bBMBWiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_006_a0355a0fcc4f.png)
 
 **_图2-6：单电感并联不锁相_**
 
 基于前述的分析，可以确定对于单电感并联的DC-DC，两者一定要锁相，而且锁相为0°，如**_图2-7_**所示，PMIC手册的简图中Programmable OSC Phase Shift不仅仅用来调整电源时序，还会根据寄存器配置的并联模式进行DC-DC1和3锁相，DC-DC2和4锁相，后面类似这样的使用方法一定要注意。
 
-**_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0Wyibq4JvSBpyRXduas3a0ibjaYfacoj1pL5tP8kPlpg5ibHtR64PTAsEf8Iw/640?wx_fmt=png)_**
+**_![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_007_84ad6bfb006f.png)_**
 
 **_图2-7：PMIC内部四路Buck简图  
 _**
@@ -86,13 +86,13 @@ _多电感形式_
 
 在Power系列里面介绍过多相电源（[Power-2：外置开关同步降压控制器-多相多输出](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247492432&idx=1&sn=bbf11210cef9c0da30fdea03c322897c&chksm=c336a9cff44120d912f0dfe6d351c8e7c90a194268b32b8c35052ab55c7b48765e4548b4c81d&scene=21#wechat_redirect)），它们的并联就是多电感并联，也就是一个通道配置一个储能电感，多相里面配置的相位差多种多样，但是不会有电流倒灌的问题，如**_图2-8_**所示，假设两个锁相180°（反相状态），即A组对电感充能，B组的电感释能。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0WyibIia24SeJUgjLgsjHG3faWTjDOwAibYRgrO9m0H1T1rY7rAz2HnONGLkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_008_ccdd177e06af.png)
 
 **_图2-8：多电感并联不锁相_**
 
 当不考虑Cout时，采集V1、V2、V3、V4四个点的电压波形如**_图2-9_**，V1=12V，V2=5.7V--->6.0V--->6.3V，V3=6.3V--->6.0V--->5.7V，V4=0V。在6.0V之前，V3电压实际略高于V2，但因为V1的缘故，L阻抗更大，不会存在电流倒灌，在6.0V以后，V2电压实际略高于V3，但此时L阻抗也很大，也不会有电流直接贯通到GND。（在某一微小时间段，存在Vin---L1---L2---GND，但因为L1充能，L2释能，因此实际这个通路不会有电流，电流还是都流过Load）。考虑到Cout的存在，实际V2=V3，更加不会存在贯通电流，这个原理也是多相电源的并联基础（电流除了从电势高处流到电势低处以外，还会更偏向流向电势差更大的地方，与GND的电势差最大）。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0WyibibaIAJ2XfLP6Uot2GZ8QaZ8XqDmzzV8EK9feefXticHYQwzFr8liciczlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_2_PMIC损坏问题_images\img_009_1b6956b34f95.png)
 
 **_图2-9：图2-8的时间段关键点波形_**
 

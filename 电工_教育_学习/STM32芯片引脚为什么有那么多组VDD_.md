@@ -12,7 +12,7 @@
 
 做过单片机产品的朋友都知道，STM32芯片有多组VDD和VSS，如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMEL0VheSMa0yCTg9CWPhS4myxhD5ibicny0sXicibFsYib3TMqk3e4f8KYfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32芯片引脚为什么有那么多组VDD__images\img_002_b08f6d8daaec.png)
 
 那么为什么有这么多引脚呢？少一点不好吗？引脚越少，PCB走线越容易。
 
@@ -26,7 +26,7 @@
 
 多个IO口加起来，相当于增加了很多供电通道，扩大了电流供应能力。相比单个引脚的VDD，增强了可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMQWq6g4cnONC7orfvgKH8q0A6JUkNxOQNU8RDNUVVvbZ9d57wiaIsUew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32芯片引脚为什么有那么多组VDD__images\img_003_a2c7bb6d324d.png)
 
 如图，假如一个IO口流过的电流是20mA，三个IO口就是60mA。
 
@@ -40,7 +40,7 @@
 
 当负载增大时，VDD电流产生突变，路径距离越长，产生的压降越大，电源波动越明显，从而影响单片机的正常工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMPd8GjurxMnc7iaGtWkfibzT2qsIgqu7XwLHGPCgicc4N2FufJkotWr8EA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32芯片引脚为什么有那么多组VDD__images\img_004_ebf14b19590d.png)
 
 如果此时，在单片机②处直接外接电源VDD，路径最短，电源最稳定。
 

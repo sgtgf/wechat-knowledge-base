@@ -27,11 +27,11 @@
 
 1.1开通瞬态过程分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUH8z7SfibcezibP0HNl4uSuja7ib5pbqwJXg0j0cGkoL3hUSAbE7oVzBJg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_000_3be16646c3ec.png)
 
 考虑电路中主要寄生参数的SiC MOSFET双脉冲测试电路如图1所示。图中：VDC为直流母线等效的理想电压源；IL为负载电感等效的理想电流源，CL为负载电感寄生电容；DH为理想SiC SBD，CJ为SiC SBD等效结电容；CGS、CGD、CDS分别为SiC MOSFET的栅源电容、栅漏电容、以及漏源电容；LD(int)、LS(int)分别为SiC MOSFET封装引入的漏极、源极寄生电感；RG(int)为SiC MOSFET的栅极内阻，RG(ext)为外接驱动电阻；LG为栅极回路的寄生电感；LD(ext)和Rloop分别为直流母线正接线端与SiC MOSFET漏极间线路的等效寄生电感与杂散电阻；LS(ext)为SiC MOSFET源极与地之间线路的寄生电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUfzNnicHlBSib8jGqe6NlqVRUXlLH1kiahhiadTO5icUt98lE9icBSwo2GUCQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_001_a0cee9dcaea4.png)
 
 考虑寄生参数时SiC MOSFET的开通波形如图2所示，图中从上到下依次为：栅源电压vGS、漏极电流iD、漏源电压vDS。其开通过程根据电流电压变化可分为5个阶段。
 
@@ -39,17 +39,17 @@
 
 t0时刻，SiC MOSFET的输入电容CISS开始充电，栅源电压vGS开始上升，MOSFET处于截止区，漏极电流iD与漏源电压vDS均不发生变化。该阶段栅源电压可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUAHRDyYoHthAcMeibD5iaOweThMEUZmYI4FUHuNCVmj2QkxBMlznqpuwg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_002_5f2749d6fcdb.png)
 
 式中：输入电容为CISS=CGS+CGD；栅源电感为LGS=LG+LS(int)；驱动电阻为RG=RG(int)+RG(ext)；驱动正压为VDRV，在驱动电路的零状态响应中等效为阶跃激励。
 
 该阶段栅极电流可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUvdok24kkqE6vHwqsQyAq0pHRib4fJaS8CvPvAnYic6V0iakkPZD0vyVmw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_003_7be51e75a1bb.png)
 
 该阶段二阶电路的衰减常数δ(1)和固有振荡角频率ω0(1)分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUmzJibuz2FoB9uI1H9V5c0LhiazcSHSYcOPk0ymHic00viak2z0LtDfhJHQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_004_c9435415c849.png)
 
 由式(1)—(4)可知，该阶段影响栅源电压vGS的因素主要是驱动电路参数。
 
@@ -57,19 +57,19 @@ t0时刻，SiC MOSFET的输入电容CISS开始充电，栅源电压vGS开始上�
 
 t1时刻，栅源电压达到阈值电压，沟道开始导通，MOSFET进入饱和区，漏极电流iD由0开始逐渐上升。由于dvDS/dt较小，SiC MOSFET的寄生电容上流过的电流较小，可近似认为沟道电流iCH近似为漏极电流。该阶段内满足的方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUBu8ibZqkbmNT6qdE34FSLpZrcjaDf2I9ppia5Yg0N0ZcsMoqnfkb8N7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_005_5f5f919db04b.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUEQgqEUnkwYc4awL3ibVExwiagagT3XZDjicicu94Xb8xkTLFLicbAhiaCPrQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_006_0890c904605c.png)
 
 将式(6)—(9)代入式(5)中，整理得到该阶段的漏极电流iD满足的方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUbg4WVQNXvyySEHGiac80H2QCOKicskm6icXjGc2OPwzHn3Ab5QtxUia4kw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_007_1e556413fdf0.png)
 
 该阶段电路的衰减常数δ(2)和固有振荡角频率ω0(2)分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU6X0U5KtxfmRgcAOnrQ3EUgRqUibgLt6B5NWSjX3cNyoib2bxicM2LGjoQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_008_3c8f70af64fc.png)
 
 该阶段栅源电压随漏极电流增大，从阈值电压上升至密勒电压。由式(10)—(12)可知，影响栅源电压的因素包括SiC MOSFET寄生电容与转移特性、驱动电阻、主电路杂散参数和工况。
 
@@ -81,23 +81,23 @@ t2时刻，SiC MOSFET的漏极电流iD上升至负载电流IL，SiC SBD的电流
 
 t2时刻漏极电流iD开始出现超调，至tP时刻到达电流尖峰Ipeak，同时漏极电流变化率diD/dt减小至0。栅源电压vGS在iD作用下由密勒电压VP开始上升，在tP时刻产生密勒平台电压尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUIFicpfiagwS77iamU53Pw0LibMLEfE81yibKcwP1Ma8URWw5cGT3ZjOicMicw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_009_25b45fdcb53d.png)
 
 漏极电流iD满足的方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUcq4ictufpNETiaLLf26ZtDcnGicHTJrib2f5ZOvUZzmhdL9bvg7STbUuCg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_010_c39ae28410f9.png)
 
 该阶段主电路的衰减常数_ω0_(31)和固有振荡角频率_ω_0(31)分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUicabadJ6kcmmqYemmfNicNufC4QCbVUVM3Gjf4LrPgZW7msbUs6YyC0g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_011_564588db0267.png)
 
 由于杂散电阻Rloop非常小，_δ_2 (31)<ω0(31)，则主电路工作在欠阻尼状态下，可以得到漏极电流iD的通解形式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUHdtTfb7DBzwQqC9pRfgp6HoUrFr7VIE7HSWicRB4BxXO4zQbtSJ2UEA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_012_abbd210718e5.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU26Cwbxqvr5jz2PS2fduk96XU6WGcg3AIM0JL9cnicjZb9AnTibIuuJIw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_013_e2b8f5123780.png)
 
 由式(17)—(19)可知，开通电流尖峰Ipeak与主电路的杂散参数及寄生电容有关，这些因素同时也会影响栅源电压vGS在该阶段的电压尖峰。
 
@@ -105,29 +105,29 @@ t2时刻漏极电流iD开始出现超调，至tP时刻到达电流尖峰Ipeak，
 
 tP时刻，漏极电流iD开始下降，同时漏源电压vDS也下降。此时漏源电压变化率dvDS/dt较大，SiC MOSFET寄生电容上的位移电流不可忽略，即沟道电流iCH不再近似为漏极电流。该阶段内满足的方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUqDwHS5wpg2uL0RBm33zibBRibfAzYN7Bn9jqgTe5BZp0Jag9zJul4ItQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_014_2f9480ca5e99.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUDkTLl7h9th4xRsksFgXDEicbrFODc63KnNwU7jDGjH6ZtXD12GdQ4Ww/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_015_3c68a4bcd84a.png)
 
 ΔvGS与ΔiG表达式同式(6)、(7)，将式(21)—(24)代入式(20)中，整理得到该阶段的漏极电流iD满足的方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUUoCN3ddhuCibW0icE7PFWQbdYicRTNnG38QNuQv1WrtQJ6rLTia5ic4KEqw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_016_93ec405083e0.png)
 
 式中：输出电容为COSS\=CGD+CDS；等效寄生电容为CH\=CJ+CL。
 
 该阶段电路的衰减常数_δ_(32)和固有振荡角频率ω0(32)分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUI88COeBXISAsgkDXibLOlHWODIgejScOwjdbJJI8LZI1TtDYBhNOZyg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_017_c192da027b96.png)
 
 由于杂散电阻Rloop非常小，可得此时漏极电流iD的通解形式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUticM6vKYmM85VfOkPPI6H4J9oHMbOgiaJ7N0WdWQZXlu4Ds3ne0JAxvA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_018_28b628a42a37.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUrKqSJwYiaex9Q48RsnDdJHuCJ8vaVqJZLbRh2ZibOMagibXicKx75HpwYQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_019_78a1d18b1a35.png)
 
 根据式(22)，此时栅源电压与漏极电流有关；由式(28)可知，漏极电流存在振荡分量，且与SiC MOSFET寄生电容与转移特性、驱动电路参数、主电路杂散参数与寄生电容、工况等因素有关。
 
@@ -135,39 +135,39 @@ tP时刻，漏极电流iD开始下降，同时漏源电压vDS也下降。此时�
 
 t3时刻，漏源电压vDS下降至导通电压，SiC MOSFET进入线性放大区。此时漏极电流iD满足的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUcCYKGLdcyW9bdM18coX32qelQ5mgQzyf7et9l9m361VJvykibqguPyA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_020_6c5d3b6c04c8.png)
 
 该阶段电路的衰减常数_ω_(4)和固有振荡角频率ω0(4)与式(15)、(16)相同。可以得到漏极电流iD的通解形式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUp9lwgtsVdksS2pjIs7ic6V6csibAIz92gZHGHgUGFfHhyIuuukvMFIoA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_021_5eb76860a9fa.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUTurZibibvN6Jg0UDVaNSJibtq9buR2wz6OTQ9MQojfdiam16dthXPBN0Xw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_022_75b2f300a0cc.png)
 
 t3时刻栅源电压vGS从密勒电压VP开始继续上升；同时电流振铃在共源寄生电感LS(int)上感应出电压振铃，耦合至栅极回路，成为一个激励源，使得栅源电压vGS叠加高频振荡。该过程满足的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU7Z64RXFjKibcvNcMmqoYCv4NafpTGiaF9OeUuibT9G2ODX1AeEW4guJZw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_023_ad76257ee25f.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUBpKahGZU4b2RhSdg4FyNnTDF4iaQhDlV8aib8k77fAnG3pLdQicPokToQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_024_9b068ab94f9c.png)
 
 求拉普拉斯反变换可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUtgG84DIefIw3VmjDY87wLoHsicIGLibuJHR0ZW7pMcYpzXt0vJSJ3xhw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_025_90ee65f7119b.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUaIOgxPjkdF2dwgo27gP92gelujOTOoMRPR3L9XnFXQfDA8gu7hRg8A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_026_013ba4ae1187.png)
 
 则此时的栅源电压vGS表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUyChjAwNUcpHcnlXNWt4fqOG6PNsJwmlkmzfKfKpr1FnnOTiaUEz8qkA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_027_0a5d77ab01be.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUXI1zhnob0hDrMLmSveUmViaVjiae7oSticBlnehPTkLjvAbXRVZllnoAw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_028_340b577aed37.png)
 
 由式(41)、(42)可知，栅源电压除驱动回路引起的二阶振荡外，还会叠加来自主电路的高频振荡。影响栅源电压的因素包括驱动电路参数、主电路参数与工况条件。
 
@@ -175,7 +175,7 @@ t3时刻栅源电压vGS从密勒电压VP开始继续上升；同时电流振铃�
 
 t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减振荡。该阶段栅源电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUbT32GWLz87mrT2jUoYdt0JSgDtFpdD2g0kiaeHLgRppZvlo0zQ4wFlg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_029_91da30dba2c4.png)
 
 式中K(5)=K6(4)，其余参数定义与第4阶段相同。
 
@@ -183,7 +183,7 @@ t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减�
 
 本节通过LTspice仿真与实验测试，对比分析加主电前后栅源电压的变化趋势，证明考虑主电路参数影响的必要性与仿真模型的正确性。仿真和实验中的功率器件为SCT3060AL(SiC MOSFET，ROHM)和SCS240AE2(SiC SBD，ROHM)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUCj50xSy29TMT5W2WX2wj546OjGVA59uBDZIYR2IXL773qNULflplew/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_030_fe50d7cf89ea.png)
 
 图3为加主电前后栅源电压波形对比图，其中：红色波形为仿真波形，蓝色波形为实验波形。加主电前后栅源电压最大值的仿真结果分别为18.78与20.7V，实验结果分别为18.7与20.8V。加主电后栅源振荡加剧，栅源电压最大值明显增加，说明主电路参数会明显地影响栅源电压，这与前述理论分析一致。为减小主电路参数对栅源电压的影响、保证栅极可靠性，首先要探究各参数对栅源电压的影响规律。
 
@@ -193,7 +193,7 @@ t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减�
 
 根据数学模型可知，栅源电压大小的影响因素包括驱动电路参数、主电路参数与工况条件。本文采用LTspice仿真，将栅源电压的影响因素定为可调参数，并根据实际情况设置其他参数大小(见表1)，探究各影响因素对栅源电压的影响规律与影响程度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUtia3ap6t4ESdHUII7ObWSpqdjFT3IgojyZicJeLzroNiaHjR6Wsa21uIQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_031_6bc8a40d04d3.png)
 
 2.1驱动电路参数
 
@@ -201,19 +201,19 @@ t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减�
 
 驱动电阻分别取为12、14、16Ω时的栅源电压波形如图4所示。由图可知，随着驱动电阻RG增加，栅源电压振荡峰值从25.18V降低至18.91V。驱动电阻RG增大，驱动电路阻尼比增大，栅源电压振荡幅度减小；同时漏极电流变化率diD/dt减小，主电路振荡幅度减小，使耦合至栅源电压高频振荡幅度减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUdqkuenXXCGbeE8dvqfDdiaUJUPElmwzBKpVRiaow2qfJkYibp0BBTOW3Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_032_80f86120f8a9.png)
 
 2.1.2栅源电感
 
 栅源电感分别取为20、30、40nH时的栅源电压波形如图5所示。由图可知，随着栅源电感LGS增加，栅源电压振荡峰值从22.66V增加至25.18V。栅源电感LGS增大，驱动电路阻尼比减小，栅源振荡幅度增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUBoiapmZjq1cb8qCQt4YqSBnLDVx5X8IOUrEkhfBAswq6OIpw7lttSPQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_033_4a8d403d6394.png)
 
 2.1.3共源电感
 
 共源电感分别取为20、30、40nH时的栅源电压波形如图6所示。由图可知，随着共源电感LS(int)增加，栅源电压振荡峰值从25.72V降低至24.32V。共源电感LS(int)增大，作为将高频振荡引入驱动回路的参数，栅源电压振荡增大；同时漏极电流变化率diD/dt减小，主电路振荡减小，使得栅源电压振荡减小。由于LS(int)增大对开关速度限制作用更强，故栅源电压振荡减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUvSYDof17gytPX2wxQ3uu5e7YgxIibsCgVnpg7n2ricUFQDyOIczgluVQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_034_340d2e25f970.png)
 
 2.2主电路参数
 
@@ -221,37 +221,37 @@ t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减�
 
 杂散电阻分别取为0.01、0.1、1Ω时的栅源电压波形如图7所示。由图可知，随着杂散电阻Rloop增加，栅源电压振荡峰值基本不变，但拖尾振荡的幅度减小。杂散电阻Rloop增大，主电路阻尼比增大，同时漏极电流变化率diD/dt减小，主电路振荡减小，使得栅源电压减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUTyMBH0OXgNlE0icQfzcwnrSVXb5IsLGfKw31iawnfhUtlIlOX4UiaSIcw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_035_4fdbe542ca12.png)
 
 2.2.2杂散电感
 
 杂散电感分别取为80、140、200nH时的栅源电压波形如图8所示。由图可知，随着杂散电感Lstray增加，栅源电压振荡峰值先增加后减小。杂散电感Lstray增大，主电路阻尼比减小，振荡幅度增大；同时漏极电流变化率diD/dt减小，主电路振荡幅度减小。一般情况下Lstray不会超过140nH，可认为栅源振荡幅度随杂散电感增大而增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUsaqjVMPwCdI044ricWIBtgB1zEvg2zp6HybZ8HO5ibgQ9IfyicuXPZUjw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_036_55155b68aede.png)
 
 2.2.3寄生电容
 
 寄生电容分别取为80、140、200pF时的栅源电压波形如图9所示。由图可知，随着寄生电容CJ增加，栅源电压振荡峰值从25.18V增加至28.02V。寄生电容CJ增大，主电路阻尼比增大，振荡幅度减小；同时开通峰值电流Ipeak增大，振荡幅度增大。由于寄生电容CJ增大对Ipeak作用更强，故栅源电压振荡幅度增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUMibhoc3g0OQBC06dWXltbthAKzSwgI66fv1DDIAqVo7ibiaWVKcujJgicQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_037_29c5b06b4c53.png)
 
 2.3工况条件
 
 2.3.1母线电压
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUeoCEeX8zfBibqhXjibz777dvMUFI7eHtgXEVwM83DYEDrfD6m8yL5nrw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_038_2106fac85e22.png)
 
 母线电压分别设置为200、300、400V时的栅源电压波形如图10所示。由图可知，随着母线电压VDC的增大，栅源电压振荡峰值从23.14V增加至25.18V。根据式(44)，母线电压VDC增大，漏源电压变化率dvDS/dt增大，最终使得栅源电压振荡幅度增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUG042s8TmRVFamckz4NicTto7zCSenYQjDOlY6sXibTnlgyrv6Eic8ic4pg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_039_62244a115920.png)
 
 2.3.2负载电流
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUYNIxXd1HjG3ljoiaNCW3nvEkHKWMG9lUP2ib4O6LCTGI2HiaKAS192Itw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_040_0c2913e46048.png)
 
 负载电流分别设置为5、10、20A时的栅源电压波形如图11所示。由图可知，随着负载电流IL增加，栅源电压振荡峰值从25.98A降低至25.18V。由于电路参数不变，由寄生电容充电引起的电流超调部分IRMM基本不变，根据式(45)，负载电流IL增加时，漏极电流变化率diD/dt减小，使得栅极电压振荡幅度减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUt832tyYIsQhtm0I8fKfgVwdMmOGiaRR8Cw7icjibSFskXy0kyFNwdibwfw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_041_4a79b8e34d17.png)
 
 通过对栅源电压振荡的影响因素进行仿真分析可见：驱动电阻、共源电感、杂散电阻与负载电流越小，栅源电感、杂散电感、寄生电容与母线电压越大，栅源电压振荡越严重。若在不考虑主电的情况下设计驱动电路参数，SiC MOSFET的栅源电压很可能超过安全电压，造成器件失效等问题，为此需要寻求驱动电路参数的优化设计方法。
 
@@ -263,19 +263,19 @@ t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减�
 
 对于杂散电感Lstray，首先需要在固定驱动电压VDRV下，通过限制栅源最大电压不变，动态变化栅源电感LGS、驱动电阻RG、杂散电感Lstray组合，关注开关能量损耗与器件应力，得到杂散电感Lstray可接受的设计范围。具体参数与实验测试数据如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUicmRRXicW6y4qUm2LytbxiceO58HUTZJ1JpGDkbZXTE8YmzHcjpicNqpyw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_042_d7418ab5faba.png)
 
 当栅源电感LGS分别为10、20、40nH，VDC与IL分别设置为400V与20A时，限制栅源最大电压vGS(max)21V，不同杂散电感下SiC MOSFET开关波形如图12所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUpzFntXqiaL4HJRwFn0ia4sTpbCB3XJVkhqib7cekiaxNhv1yG1ymvBcSgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images\img_000_a431055257de.png)
 
 在VDRV\=18V、RG\=17Ω的条件下，当栅源电感LGS\=40nH时可接受的杂散电感Lstray为60nH，而LGS\=20nH时可接受的Lstray为125nH。栅源电感LGS越小，在相同VDRV、RG下栅源电压振荡越小，可接受的杂散电感Lstray越大。
 
 当栅源电感LGS分别取为40、20与10nH时，由关断电压应力限制的杂散电感Lstray最大值从260nH减小至110nH。栅源电感LGS越小，在相同VDRV、RG下开关速度越快，关断电压尖峰增大，可接受的杂散电感Lstray范围减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUeoMEdico57WWfBE8X1ictrrTiafWFYLyd421NS7Vzgibh1vo7NmOnOnV5Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_044_b9c7614cc4a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUjbTeT4y84cVsrKWocPmc5ibU5araxamibFQtJEgtLCVy2heBtfnHamaA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_045_40375ab7a80f.png)
 
 图13统计了不同栅源电感LGS与杂散电感Lstray对器件开关损耗的影响。由于Lstray越大，需要更大的驱动电阻RG来抑制栅源电压振荡，故而开关速度变慢。对于开通过程，根据式(9)可知Lstray越大，阶段2的电压平台越小，使得开通损耗减小。综合两者因素，开通损耗能量先减小后增大；关断能量损耗由于RG增大而增大。
 
@@ -287,39 +287,39 @@ t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减�
 
 当Lstray\=60nH、vGS(max)\=21V时，具体驱动电路参数与测试数据如表3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUsKh7O1jQalpvI6BEzlXy1e9iczAwrKMd5DGWshDgdb3HkRUUcOIg0TQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_046_95d10441e437.png)
 
 图14为400V/20A情况不同栅源电感LGS、栅极电阻RG、驱动电压VDRV下的开关波形。在同一栅源电感LGS下，RG增大，VDRV同时增大，开通电流尖峰略有增大；由于驱动正压不影响关断过程，关断电压尖峰减小。在同一驱动电阻RG下，LGS越小，但同时VDRV增大，开通电流尖峰只略有减小；由于驱动正压不影响关断，关断电压尖峰减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUyyu56FqqG2DNxGUn7cWTNOtgArwiaeRibmH5dQemHoKeXUib17qK81DKw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_047_96812c5c5ed2.png)
 
 图15统计了不同驱动参数LGS、RG、VDRV对器件综合损耗的影响。在同一栅源电感LGS下，RG增大同时VDRV增大，开通损耗先减小后增大，导通损耗减小；由于驱动正压不影响关断过程，关断损耗持续增大，故而综合损耗先减后增。在同一驱动电阻RG下，LGS越小同时VDRV增大，开通损耗、导通损耗减小；由于驱动正压不影响关断过程，关断损耗基本不变，故而综合损耗减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUpGpicBzT5icaEDy8vH19ZzzhibtvEnovdVNBdnaqC1hUVavDY3HpFLbIw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_048_207471b82f91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUfXOOhiaUDFmLHbjW7qFywVb6TXonicgGu6yHEUfib9VsZ38hoLTkFBzrA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_049_f7102d3ca882.png)
 
 依据综合损耗最优原则，当LGS\=40nH时，选取RG\=15Ω为佳，此时阻尼比为1.09；当LGS\=20nH时，选取RG\=13Ω为佳，此时阻尼比为1.34；当LGS\=10nH时，选取RG\=14Ω为佳，此时阻尼比为2.04。可见，栅源电感LGS越小，最优驱动参数的阻尼比越大，这是因为LGS减小开关速度增大，导致栅源电压叠加的高频振荡增大，需要更高的阻尼来抑制高频振荡。
 
 3.3实验验证与讨论
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUXwyc3jicIZ4WCk9RlzJjXkorGUiaia8PClJI3GHKA7Kh8l0eXhSxyE15w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_050_f76339c56780.png)
 
 为了评价不同驱动参数组合(VDRV,RG)对SiC MOSFET(SCT3060AL，ROHM)栅极可靠性和综合损耗的影响，本文搭建了如图16所示的双脉冲实验平台，通过双脉冲实验测试了SiC MOSFET的开关特性。测试条件如表4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUN0khLiapj4yNpYsYWzqib54T2VHDSQaiciauwwMuiaPVFWZsTpm0CnSNxLw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_051_4b3c00180b2e.png)
 
 不同驱动参数组合下SiC MOSFET的开关波形如图17所示。本文选择不同的驱动参数组合将最大栅源电压vGS(max)限制在21~22V。显然，RG越小，栅源电压振荡幅度越大。随着RG从22Ω减小到12Ω，栅源电压超调部分从1.2V增大到7.2V；RG减小同时VDRV减小，开通电流应力从24.5A减小到23.0A。驱动正压对关断过程影响不大，关断电压应力随RG的减小而增大，关断电压尖峰从485V增大到595V，增加了22.68%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUH9iapBWL80icpCvfaKsqyeG2pdycCyV4jmUeicmyABNFFA3F3oLp5J4ZA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_052_e28bbfecf5ad.png)
 
 不同驱动参数组合下SiC MOSFET的开关能量损耗如图18所示。RG越小，栅源振荡越大，导致VDRV受限，开通能量损耗增大，当RG从22Ω减小至12Ω时，开通能量损耗从153.8uJ增大至217.2uJ，增加了41.22%。驱动正压对关断过程影响不大，RG越小，关断能量损耗越小，当RG从22Ω降低到12Ω时，关断能量降低了35.59%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU0GH0rV0AxKe8maI5wp3BXxtbmjfLrxfk5r8z5ibFTmyfY3JcGjh5GrQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_053_a770cb309fab.png)
 
 不同开关频率下不同驱动参数组合(VDRV,RG)的综合损耗如图19所示。由图可知，(22V, 22Ω)的综合损耗相较于(15.2V, 12Ω)在200kHz时小30.175W，在600kHz时小49.89W。随着频率的提高，开关能量损耗小的驱动参数组合更有优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUBN4n0M8sIyQwUhLQQaZKgxAibEnxOdtHMnaMOhyXoVXXd7y5ImuJnEw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_054_bf0f2a1e6f40.png)
 
 以综合损耗最优为依据，当LGS\=42.52nH时，选择(18.8V, 18Ω)为最佳驱动参数组合。根据前文分析，若LGS能继续优化，RG取更小值的同时可以进一步增大VDRV，综合损耗也将进一步减小。此外，若Lstray能优化至60nH，在同一LGS下，最优参数的阻尼比也将减小。
 
@@ -337,10 +337,10 @@ t4时刻，栅源电压上升至VDRV，之后出现栅源电压尖峰与衰减�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_055_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_056_3ade3c3d8599.jpg)![](SiC_MOSFET_栅源电压评估及驱动回路参数优化设计方法_images/img_057_84aa944feb13.jpg)

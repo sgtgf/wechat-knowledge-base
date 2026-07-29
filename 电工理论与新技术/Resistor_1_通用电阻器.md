@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/opYSpIde\_K4DcMhgVV5Y4Q](https://mp.weixin.qq.com/s/opYSpIde_K4DcMhgVV5Y4Q)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0tibQLF3UWJmzIXb3GzRIccJjicAUL0YVHWaUqJ54aVmP3OpCib9UTe6Mw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_000_1bd206a8d611.png)
 
 _**_★★★_**_Resistor-1---通用电阻器_**_★★★_**_
 
@@ -11,11 +11,11 @@ _€1.电阻原理_
 
 电阻的数值取决于电阻体物质的固有电阻系数及其截面积和长度，_**图1-1**_：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1ucFMq9Toeeo5DXia3fGKgnZV6B9C1CJY0nCmDWhogEd2uStribjEoiamQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_001_fcda92e0608c.png)
 
 **_图1-1：电阻模拟简图_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1a32tPMCicBKo2vnrKy6gL5EA9ibNp4wMU6BNb95HVqvzAA1xcg84Rrhg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_002_6325cc35e0e2.png)
 
 如上述公式所示，固有电阻ρ(Ω･cm)乘以电阻体的长度L所得的数值除以截面积S后就得到电阻值。
 
@@ -63,7 +63,7 @@ Temperature coefficient of resistance， 简称TCR，表示电阻当温度改变
 
 可以使用电阻器电压在合理范围内和电流的任何组合，只要不超过其耗散功率额定值或吸收多少功率而不会对其自身造成任何损害，并被定义为电阻元件无限期消散的热量而不会降级它的性能。可以使用下面的公式来计算直流电路中任何电阻的功耗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQcKblTYNJbFPCclNwZPC6fwYia3XeyoUx2fFB8kt6NB3PL1cLMPeBK2CwAR0ctRm0dU5rmdhPXWwg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_003_0913b3735a55.png)
 
 其中V是电阻两端的电压，I是流过电阻本体的电流。鉴于上面的公式参数，我们代入标准P值（1/16W，1/8W，1/4W等）可以计算出安全电流或者安全电压。  
 
@@ -71,11 +71,11 @@ _€3.电阻的分类_
 
 电阻器的种类可大致分为固定电阻器、可变电阻器、半固定电阻器。从材料的角度来看，分别有碳类和金属类。从电阻体的形状而言，有膜状、丝状、板状，其中金属膜还有薄膜与厚膜之分。_**表1-1**_和表_**1-2**_给出电阻的分类：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQcKblTYNJbFPCclNwZPC6f580ZcvABJDNcd3OVjz72nibxv4AicxLnbvCc8OU57D6HTmKIrZ8WOoUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_004_df44220157ef.png)
 
 **_表1-1：电阻按材质分类_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQcKblTYNJbFPCclNwZPC6fuwPUhNtEbOicbqalVrmk4AQ7cTzTUN11ekcysIGkibE9Gec2R0X04x5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_005_8651cc7c3008.png)
 
 **_表1-2：电阻按用途分类_**  
 
@@ -85,11 +85,11 @@ _€4.高精度电阻_
 
 利用电阻器的高精度，来进行高精度的测量和控制。例如，_**图1-2**_所示的基于运算放大器的反相放大器的输出电压Vout，是附式来决定的。此外，_**图1-3**_电压调节器的Vout也一样。如式子所示，假设运算放大器和电压调节器没有误差达到理想的要求，则两个电阻器的比决定希望获得的输出电压。这种情况下，也存在着只要相对地为同值即可的思路，而如果两个电阻的绝对精度高，温度系数小，则可减少确认和调整等步骤。此外，在电流检测用途中，电阻器的精度直接成为电压转换的误差而体现出来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1FPIw9kKjEEliapv5loXA6nHKicqjo8noSicB6LiaExP53ib31q3dS8iaCqFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_006_b81e49eda2f4.png)
 
 **_图1-2：放大器使用电阻调节参数_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1umnrrOjfOFvwUyp68iceQia94OT4qia0upqicTk8Qkhe9KOL5TN3MS6cIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_007_2d54a5e0b914.png)
 
 **_图1-3：电源IC上的误差放大器反馈_**  
 
@@ -103,13 +103,13 @@ _€6.薄膜与厚膜_
 
 下_**表1-3**_列出对薄膜贴片电阻器与厚膜贴片电阻器的构造和特点进行的比较。薄膜贴片电阻器和厚膜贴片电阻器，基本构造大致上都相同，但是电阻体材料和电阻体形成方法则有着较大的差异。薄膜贴片电阻器，通过溅射来均匀地形成极薄的金属合金膜，实现高精度且较低的TCR。相比之下，厚膜贴片电阻器是通过印刷在涂布了导电粒子和玻璃的混合物后予以烧结来形成电阻体，电阻体厚度不均匀引起的电阻值偏差大，而且玻璃 (绝缘体)引起的电流散射大，因而TCR和噪声也增大。但是，随着电阻体材料的进化和修整技术的进展，厚膜贴片电阻器也能够实现精确到±0.1%的高精度化：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQcKblTYNJbFPCclNwZPC6fuX7VIvIiaf9oia7uhf05uw8HXic39RGwbdO7KfWGwwLe6j9koCVIyBUqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_008_f29f118efadf.png)
 
 **_表1-3：厚膜薄膜关键项对比_**  
 
 此外，_**表1-4**_列出薄膜贴片电阻器与厚膜贴片电阻器的精度和TCR的数值示意图、及特性和性能的比较：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQcKblTYNJbFPCclNwZPC6fnwtoG5UicLLHoyKjWPd0cK0iawXxGLkLkfKMyLuibJWlwsd4urafDzBzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_1_通用电阻器_images\img_009_e8ffbaf42d9e.png)
 
 **_表1-4：厚膜薄膜精度、TCR对比_**  
 

@@ -70,7 +70,7 @@
 
 ## 🧾 举个具体例子：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsiajt7rHiaAIgicgP8XYh3ZM63QNcd3HcICYfAw43hb3grxKHEHZ8s1iby7rbonf8Oduqokj9H09mj13I7tabmhCz88GLmiaHYyzCg/640?wx_fmt=png&from=appmsg)
+![](富比尼定理（Fubini_s_Theorem）_交换积分顺序的艺术_images/img_000_acb4467efad5.png)
 
 想象一块吐司面包，长边沿 \-轴（从左到右），短边沿 \-轴（从前到后）：
 
@@ -150,7 +150,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuEB1N5wRqL7WSOtVXuqHBKFejibv5vfwqcgJylkkkKCHUkibMeT3ndzqGetMI8iarsYQwRdmNqewfuDRx2VtHGy617qicSowia2Dibk/640?wx_fmt=png&from=appmsg)
+![](富比尼定理（Fubini_s_Theorem）_交换积分顺序的艺术_images/img_001_5f580a6d6960.png)
 
 这张图想讲清一件很重要、但常让人一开始有点迷糊的事：
 
@@ -189,7 +189,7 @@
 
 ## 二、图最上面：用“数金币”解释为什么顺序可以换
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsrB7IPt6w28TrDL8dnajkpYAFeebeNyDBDToDQW7DhetRWe9Dv0mTEVa3d9qxHph4NKqfbq53z2vnbwibibbaIb4iczyQwKyByc0/640?wx_fmt=png&from=appmsg)
+![](富比尼定理（Fubini_s_Theorem）_交换积分顺序的艺术_images/img_002_5361da74fe21.png)
 
 最顶部两块图非常形象。
 
@@ -234,7 +234,7 @@
 
 ## 三、中间那座“山”：这是整张图最核心的直觉
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctH3AWU0WpFic1MwvfpAfnPD4icPMq9heMcvt7cPRtKqkjiaPkiclDwmia8uR5Qt7e3NTOVSYSia3HEpoMrAqTiakiaNAFQxhIp1frspWQ/640?wx_fmt=png&from=appmsg)
+![](富比尼定理（Fubini_s_Theorem）_交换积分顺序的艺术_images/img_003_b7d2793db9e6.png)
 
 图中间画了一座山，表示曲面：
 
@@ -315,7 +315,7 @@
 
 ## 六、图中蓝色横幅：什么时候“交换顺序”是安全的
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooculwqogKGXbJFgfA4V0NSibLGTuFoHkW0IibNnAakVLNLwBFzCevFSRNlJqp6EWCFluiabASIFWbu1yjL3js2PjpEHNk1rW5kSl7g/640?wx_fmt=png&from=appmsg)
+![](富比尼定理（Fubini_s_Theorem）_交换积分顺序的艺术_images/img_004_d26aa619301f.png)
 
 这张图最有价值的地方，不只是告诉你“可以换”，还告诉你：
 
@@ -414,7 +414,7 @@
 
 ## 八、图下面再次重复“slice by slice”的意义
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooct0iaGubBbptBgZ1ozxGSQSIkBJNo8ib0yNCJmvuBkSCGFicBx2ZKloRibM5VvNqvp9AhtPFh7KFluGYxaNBMspC06aN8ib2aUt3ae4/640?wx_fmt=png&from=appmsg)
+![](富比尼定理（Fubini_s_Theorem）_交换积分顺序的艺术_images/img_005_d42d32af06bb.png)
 
 下半部分其实是在用更正式一点的数学语言，把上面的直觉重新说一遍。
 

@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电工理论与新技术\天津大学李超_杨文超_等_接头电阻对CORC电缆交流损耗的影响分析_images\img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 3000 字** 
 > 采用第二代高温超导带材绕制的CORC（conductor on round core）电缆具有载流能力高、机械性能强等优点，是制造核聚变磁体的理想电缆之一。然而，当由CORC电缆制造的核聚变磁体闭环运行时，现有的工艺很难保证每根CORC电缆的超导带材的接头电阻完全相同，这会对CORC电缆的交流损耗等电气特性产生重要影响。因此，本文搭建了含接头电阻的CORC电缆的三维有限元模型，分析了接头电阻对CORC电缆交流损耗的影响。
 **研究背景**

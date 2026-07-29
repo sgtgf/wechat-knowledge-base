@@ -6,38 +6,38 @@
 
 TI电源资料，图文并茂，适合入门。
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWv63PoYegoSFZicF6vicfVxZAxpsQJsLYtiaU9ZxunoXFH39zN6pa24MGJg/0?wx_fmt=png&from=appmsg)
+![图1](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_000_b4f5c9cdf36e.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWvlKXX8EWAlE12IV7RPKHUCJCic27ib6AytxqPZU3SlF9MNEicjRbm8lChQ/0?wx_fmt=png&from=appmsg)
+![图2](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_001_ce95b164a14d.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWvYKbLF826AlYb16w35lEdbepicgibiaPXXDly7hGPgb5WtchLIUT9nAPjA/0?wx_fmt=png&from=appmsg)
+![图3](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_002_859cb0bb88eb.png)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWvSzrUVNnTWtk4bdaPjbeqC9ibVn68gvcicC4iaLysw09ZvvkDWB0BxFJcw/0?wx_fmt=png&from=appmsg)
+![图4](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_003_a7e6294b68c1.png)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWv7G4N2Cj92IoeRyvrnBxrqVRMC39HYQGuKUSTPary7N3vghdx6UB8Tw/0?wx_fmt=png&from=appmsg)
+![图5](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_004_4250f9dbbe5c.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWv7oQQbv5ycVRnubj6A13BXGibWl49KnyWXfKjhBbv1vibob6FicChzBOmQ/0?wx_fmt=png&from=appmsg)
+![图6](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_005_def600e4aee9.png)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWvgXORMxJg8yqShia0AeqYmnfCLumn2LA1cVozk0lz1HP2KpPOHT7ukeg/0?wx_fmt=png&from=appmsg)
+![图7](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_006_03e504d3cf56.png)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWvY2NeRfwicygbeukfe4MSACbTibHYx7MmzypejlC02nHxoEV3xUdziaHwQ/0?wx_fmt=png&from=appmsg)
+![图8](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_007_575021be9322.png)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadVM0MnE9KIWnFPJUCibUWv4cdSdn7ljrpicXIjvP9Q59xsFAXXh4WlSibs0lC8U0dvep13yWBTK65g/0?wx_fmt=png&from=appmsg)
+![图9](D:\电脑文件\公众号知识库\电工_教育_学习\TI电源基础资料_images\img_008_ba72bd21ef2c.png)
 
 图9

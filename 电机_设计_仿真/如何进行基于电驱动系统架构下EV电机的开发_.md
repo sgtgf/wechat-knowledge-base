@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/JDYsrMysJnjA2OC-qAsAxA](https://mp.weixin.qq.com/s/JDYsrMysJnjA2OC-qAsAxA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVI5lNia7Gkywo5BqziasTIZjqDQIUsNibmWqHtvkbqYupfyNg26T4W9HBqzQbl9QfjoX6FSc4k15erg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640931&idx=1&sn=1c6074dcb21ad40f64193902439a4b45&chksm=88bc392cbfcbb03a7b9dc473553af84b298496d57aa16f97702bb52db048ad02ba8683a3d52b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_001_f35cff1f4943.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640931&idx=1&sn=1c6074dcb21ad40f64193902439a4b45&chksm=88bc392cbfcbb03a7b9dc473553af84b298496d57aa16f97702bb52db048ad02ba8683a3d52b&scene=21#wechat_redirect)
 
 电动汽车作为交通工具，要求电机高效率、高适应性。由于成本及空间的限制，电机出力受到制约，所以电机的高密度小型轻量化和低成本对整车来说至关重要。
 
@@ -31,7 +31,7 @@
 
 由黄苏融教授领衔主讲的“现代EV电机设计及其关键技术”研修班是西莫第一门针对特定行业内容进行电机开发设计的专业培训。本课程全面讲解了新能源汽车电机设计开发过程中涉及的方方面面内容，详细介绍了如何基于汽车动力系统性能匹配的前提下进行EV电机开发的整个流程和需要注意的关键问题，为学员在从事该领域实际工作中遇到的各种相关应用问题的解决提供更好的帮助。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWw9EhpkEmSrSXkeAMsaqQ7t24ly3XJbGx7S7Sd9rb3zOBvIPOUYlWf4ZoXyYqxKDgSvfWGn6Ndiaw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_002_bc9cf55da254.jpg)
 
 欢迎对新能源汽车电机设计开发有迫切学习提高需求的朋友们继续扫码报名，关于本次培训的详细情况介绍如下：
 
@@ -68,7 +68,7 @@
   
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWlibIBKLYuKROraQAvoTAonTxuyOwHvCiacsJMc5DMKsRASxlMxaI9IJhiaOZZb4CDGOkwyT5WvDBjA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_003_d9eccd5e7d37.png)  
 黄苏融教授
 
 **黄苏融**，电机设计专家，上海大学教授/博导，国务院特殊津贴专家，中达学者，美国威斯康星大学访问教授，上海市高校机电驱动与功能部件创新团队带头人。曾任IEEE工业应用学会北京分会主席、上海分会主席。现任上海电机系统节能工程研究技术中心技委会主任，上海汽车电驱动工程技术研究中心副主任，中国电工技术学会中小型电机专委会副主任，全国专业标委会委员(旋转电机标委会和电工合金标委会)，SAE讲师，多家著名企业技术顾问等。
@@ -139,7 +139,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUBTFTkFbxMYwstkjZkVZw4GIdr75RYX6MQF7U5I7gLDNOOWG0900lTAqydTibyuy9BM6rYKO2zxSQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_004_ab94190bd85b.jpg)
 
 现代EV电机设计及其关键技术培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。  
 
@@ -195,22 +195,22 @@
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVs0Ef5uGVZ1sSLiaFVuFiaDb9Q5fEzZknVJyfeUGAaCDUE5fgG0tSpAm6vEdKg8hbhw8AN1oiaoLUrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_005_1e6cfbd93bf6.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_** 欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_006_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUV4fBYZDjNwIjCJt0RbjwbvtOkfmEvyloqaw8KPnx0QW0eHIJcbZGgGA7r60rkriaeWS7uiaiaGl5mg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640932&idx=1&sn=bd78b3ed4c300e5bb0bd5e021e6acc9b&chksm=88bc392bbfcbb03d62361d44bb22dad26118be21e75b60acef0f1fd37ca518b9795ee87d7f05&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_007_e45a426a7d1e.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640932&idx=1&sn=bd78b3ed4c300e5bb0bd5e021e6acc9b&chksm=88bc392bbfcbb03d62361d44bb22dad26118be21e75b60acef0f1fd37ca518b9795ee87d7f05&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/9RCbW5V9GKsXUJCocan8LLvzpic84FqkqgKfz3ICg5VfKPkXS3qEPBaIiaYvAJu5nMjgyaRlScCUpWBLkZ7TsQJQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640977&idx=1&sn=f9792ce2cbdecd08cb88e8975ab3617a&chksm=88bc395ebfcbb048d3f03e994384c0d6ecbf874ba0bfc9f46c7b1ef1e3d1d115a4c093cdd414&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_008_f94ed379b08f.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640977&idx=1&sn=f9792ce2cbdecd08cb88e8975ab3617a&chksm=88bc395ebfcbb048d3f03e994384c0d6ecbf874ba0bfc9f46c7b1ef1e3d1d115a4c093cdd414&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXRCwh0sxNO2tQxzrIENpRVOQUIrO5iaPibZbJHvHpNwhr1pjibDjPkbHACWzaqAsmVYeWZo1NnO1GQw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640944&idx=1&sn=714c92e222e1f0400e16a082daff074e&chksm=88bc393fbfcbb029a4e53a70c0db41d477ea280130bdb6955c1e1bf404c020617a430a94afef&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_009_aed4fbb12333.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640944&idx=1&sn=714c92e222e1f0400e16a082daff074e&chksm=88bc393fbfcbb029a4e53a70c0db41d477ea280130bdb6955c1e1bf404c020617a430a94afef&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_010_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_011_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_012_3f5511eb92d0.png)
 
   
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何进行基于电驱动系统架构下EV电机的开发__images\img_013_d960d0948cf9.gif)

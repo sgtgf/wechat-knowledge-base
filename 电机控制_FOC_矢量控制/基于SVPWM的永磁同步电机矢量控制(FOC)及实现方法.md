@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xh4x2bizYEDhoC1RcRNTaA](https://mp.weixin.qq.com/s/xh4x2bizYEDhoC1RcRNTaA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_000_a2a70386b61c.gif)
 
-[******![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWgcvWtdrsqKO9MY7y1u3YMpfknZk5yBRibb0FaeMVhEYaWVEdF9dMdpPRnhFDhOdXaZribTMTrdibXA/640?wx_fmt=png&from=appmsg)******](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652737&idx=1&sn=0183b807c74f109f465c3fa8e6c8a591&chksm=88bc6b4ebfcbe2587c7651870ed8cc2397177bb4dd9e8bd616779bdc8220de7ad6536e2a7df2&scene=21#wechat_redirect)
+[******![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_001_535819da92d9.png)******](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652737&idx=1&sn=0183b807c74f109f465c3fa8e6c8a591&chksm=88bc6b4ebfcbe2587c7651870ed8cc2397177bb4dd9e8bd616779bdc8220de7ad6536e2a7df2&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_002_e532dba355d8.gif)
 
   
 
@@ -17,21 +17,21 @@
 
 FOC的基本控制原理是在三相定子侧流动的电流可以合成一个等效的合成电流向量，它的旋转角速度就是输入电源的角频率ω。通过坐标变换，可以将此电流向量映射到dq旋转坐标中。如果dq旋转坐标也同样以角速度ω旋转，则在此坐标中电流向量可视为是静止的；换言之，电流向量在此坐标中是直流量，既然是直流量，这样就可让电机的转矩与电流成正比例关系，但还需要满足一些条件，包括电机的转子磁通必须与d轴重合，而且电流向量的d轴分量必须维持为定值。满足以上的条件后，电机的转矩将与定子电流成正比，所以控制定子电流的向量值就可以像控制直流电机一样的简易且精确。那么如何利用FOC的方法具体实现对永磁同步电机的控制呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXXg2RZ7FgMwrYUfslKfgzmnDWaM8LNEVMxUllNqibMLvjSI5cb25L13ej4Ay0YbBVe4XyYicq2k2ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_003_8d50b9d985f0.png)
 
 我们可以采用TI公司的DSP F28335控制芯片和IR公司的IGBT、MOSFET驱动芯片IR2136来驱动控制MOSFET，将直流母线电压逆变成交流电来达到对永磁同步电机的控制，搭建以TI F28335 DSP芯片为控制器的核心板+驱动板+永磁同步电机的控制系统，实现基于SVPWM算法的永磁同步电机的开环、闭环和无速度传感器控制。
 
 要实现基于FOC的永磁同步电机运行，首先要进行控制代码生成，可以采用PSIM软件建立电机控制系统的仿真模型来实现。PSIM软件可以很方便地建立基于SVPMW的永磁同步电机开环控制系统， 并直接生成可运行的DSP28335代码实现需要的控制方式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVAeIhQiaJQGVVkUDS0EpMhTJkxDpTmJAPs2zBvevrMfzIYfLZTtlDoz6Uw4PRd6neSecXhJae2cBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_004_307bf6882d91.png)
 
 在已经实现的SVPWM功能模块开环控制的基础上，再增加电流闭环和转速闭环即可实现PSIM环境下的永磁同步电机矢量控制并完成DSP28335的控制代码生成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVAeIhQiaJQGVVkUDS0EpMhTicqgfl0A62BjvBQ5VZicLHBYKiaYw3SBqTAdRMicEdkW7pZicgbOdmHGehA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_005_2ca4e1e8dab6.png)
 
 本月在上海举办的永磁同步电机控制研修班将进一步详细介绍以上相关内容并现场给大家提供实践练习的机会，帮助大家深入理解永磁同步电机的矢量控制（FOC）技术，并通过PSIM软件展示如何实现基于TI 28335的永磁同步电机SVPWM代码生成与开环控制以及永磁同步电机矢量控制代码生成与闭环控制，希望有永磁同步电机控制学习需求的朋友不要错过，欢迎大家扫描下方海报二维码报名参加本次培训：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWnOb0oG7PHicOIfWXYic9u2HXJFbzEPVjic4PjSgUvYpcdSVbl51LkPic3cvd24FDo39hMOgsKXNsiahw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_006_5fe41f50eb07.jpg)
 
 关于本次培训的详细介绍如下：
 
@@ -100,7 +100,7 @@ FOC的基本控制原理是在三相定子侧流动的电流可以合成一个�
 
 可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程安排一定的软件讲解与操作练习。结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIX4IuNS9dWh7vz6hunQIZ5JfoKtyhNyGmFZibVFVOe6d4khliaB6ic6UYhwNhHica8ib1iaXj04aMwaUSzA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_007_ab16da09d0ab.jpg)
 
   
 
@@ -132,18 +132,18 @@ FOC的基本控制原理是在三相定子侧流动的电流可以合成一个�
 
 报名方式：扫描下方二维码进行预报名，稍后可通过微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIX4IuNS9dWh7vz6hunQIZ5JlEIIpb6VkUicUJA28zVHoxnq496xPKL0Mo0boOxaMpTqZAhjog10P4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_008_ae960a9911d8.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：18516258619欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_009_0cfebd1d514d.gif)
 
-[‍](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652494&idx=1&sn=043b116aeea03d52015b3d80c08d0d68&chksm=88bc1441bfcb9d57d84ea19bbffd5ac4d425c230ade6626b406c6dac34abb8931d81af5100ee&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUeTGyH5ZpicpdWy35lib2ZoLJyib1mF9nJM9rTJwudkUvwBmJV6GBzice0Y7omHxyMpjPTUS4d4avzcw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652728&idx=1&sn=8b1a744e2a382d13634a7f9197d639a2&chksm=88bc6b37bfcbe22120b6b708969ef8230d332901f89b24bb4991aa7adb74954f6c7de6a340c5&scene=21#wechat_redirect)
+[‍](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652494&idx=1&sn=043b116aeea03d52015b3d80c08d0d68&chksm=88bc1441bfcb9d57d84ea19bbffd5ac4d425c230ade6626b406c6dac34abb8931d81af5100ee&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_010_fe6a2d639e27.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652728&idx=1&sn=8b1a744e2a382d13634a7f9197d639a2&chksm=88bc6b37bfcbe22120b6b708969ef8230d332901f89b24bb4991aa7adb74954f6c7de6a340c5&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXVD2xlqhYSBUX8xOOhPWluqoEp9w5ZiaC8k9NFDUnoTLDxwOosDq3yMx7cNw5532Piawt3gblGnVjw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652722&idx=1&sn=d4b71562b6be44e67142f7a21fd39889&chksm=88bc6b3dbfcbe22b3f18d4f9f122ef30c327b7e2c2d170e86695708fce54b21712ab1e002a59&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_011_8ebe3797d1fc.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652722&idx=1&sn=d4b71562b6be44e67142f7a21fd39889&chksm=88bc6b3dbfcbe22b3f18d4f9f122ef30c327b7e2c2d170e86695708fce54b21712ab1e002a59&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/9RCbW5V9GKt5AB2jpdWE9pib1TWldJwundibKxjxPB8wytia9kQfnWTH2EVhJ8DKFh9vMAZCWxL42QzoDDjK3mKyQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652022&idx=1&sn=b0ff42db0cd6d80cd67ad2977a3e3ad1&chksm=88bc1679bfcb9f6f3f54c831b81ca8c76b5db1180972c47e8117d00935d7925ced1d531e5271&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_012_220bc3ae3d56.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652022&idx=1&sn=b0ff42db0cd6d80cd67ad2977a3e3ad1&chksm=88bc1679bfcb9f6f3f54c831b81ca8c76b5db1180972c47e8117d00935d7925ced1d531e5271&scene=21#wechat_redirect)
 
-[](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652019&idx=3&sn=55c9428c96dc33c53740a14520c46874&chksm=88bc167cbfcb9f6a38f4debdd1496bafd24228af5e2da05b904d0badf1372f8f1d413d9eeab7&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+[](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650652019&idx=3&sn=55c9428c96dc33c53740a14520c46874&chksm=88bc167cbfcb9f6a38f4debdd1496bafd24228af5e2da05b904d0badf1372f8f1d413d9eeab7&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_013_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_014_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机控制_FOC_矢量控制\基于SVPWM的永磁同步电机矢量控制(FOC)及实现方法_images\img_015_3f5511eb92d0.png)点击**阅读原文**，直接报名参加本次培训！
 
 ****觉得好看，请点这里****↓********↓****↓********↓************

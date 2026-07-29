@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2MnoBO1GLFhb4BSWekAlQhlTo9SvZECeoegMWSFEvrcpbRuhgCI4MZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_002_f6f097446726.png)
 
 交流电源线上的电涌
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2U4TSV8iaIkK0kcbRubkz6Qh253yvBLbHLjThYfkE7lwVxCeibpSb1MCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_003_a534902c8019.png)
 
 建筑物中主要和次要电涌保护器的安装方式
 
@@ -84,7 +84,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2MlCd7CojiaCtVm3ywKrhzI5XjXcvd4rpnoMwsOXib95ibEyx1meIicibyUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_004_f470c797fa88.png)
 
   
 
@@ -138,7 +138,7 @@ IEC61000-4-5定义了交流电源线浪涌的标准。下表提供了有关类�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2siaSnHriamtF4gb9zyNNFTQgNlVGUnoPJwsHjgXNN3sBic5nDYpHiawicMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_005_c355f9a7121a.png)
 
   
 
@@ -148,7 +148,7 @@ IEC61000-4-5定义的瞬态电压如下图所示。它具有1.2us的上升时间
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj258GMo5bEsHk6Uuau9nBfc9xIprrxkICaALic0OS7VWRFQzB0iaqBE07Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_006_da6a4f7cd962.png)
 
   
 
@@ -156,7 +156,7 @@ IEC61000-4-5还定义了短路电流形状，如下图所示。它具有8us的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2TuicucPqYbt9b1QRAes3FZ4laBicObDgHZeQGHUvEDn0gdRBnBk7ZQ7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_007_57e11daf2c83.png)
 
   
 
@@ -164,7 +164,7 @@ IEC61000-4-5还定义了短路电流形状，如下图所示。它具有8us的�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcLZf0eNdJHl9StEGga68fJrSyib8sW5Y06mPM1AcPHaIzGaAKGcrPSIhOGXAxwBUGDCqt9GWibl1Jg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_008_cc895f2fc490.png)
 
   
 
@@ -174,7 +174,7 @@ IEC61000-4-5规定的短路电流是多少?
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2X0XUH7ich16G77zluibEMzDJIfNxv4Ea5avnvLJlic5scl0s26taxsicaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_009_d08d71b4696a.png)
 
   
 
@@ -188,9 +188,9 @@ IEC61000-4-5规定的短路电流是多少?
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2MlCd7CojiaCtVm3ywKrhzI5XjXcvd4rpnoMwsOXib95ibEyx1meIicibyUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_010_f470c797fa88.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2RFhx1RZYeej7whwl11r3BnLSFXXKq7dMq1kKL1icvaqbVn2jDIDwAmw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_011_a02d4fc64686.jpg)
 
   
 
@@ -222,7 +222,7 @@ MOV代表金属氧化物压敏电阻，是电压依赖性电阻器，是电力�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcLZf0eNdJHl9StEGga68fJJBgQ8maia3KhwWN572q23uVywgm0s2NT4cFRSicpT4wPcibeaX3nw8MBQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_012_8819c10dd4c1.png)
 
   
 
@@ -238,7 +238,7 @@ MOV代表金属氧化物压敏电阻，是电压依赖性电阻器，是电力�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2ribtSskFoj2hdHZVzwyau2xsNmLEW7DOhqribiawo9FAobJpoPE4wLlrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_013_478b36e3e7b4.png)
 
   
 
@@ -246,7 +246,7 @@ MOV代表金属氧化物压敏电阻，是电压依赖性电阻器，是电力�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcLZf0eNdJHl9StEGga68fJSk28SHHias2z0ZVl9aoGYhwm1siadle5TRHDaJ5mjNL3KZhQibM2Mc1Gw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_014_a87924789c0a.png)
 
   
 
@@ -260,7 +260,7 @@ MOV代表金属氧化物压敏电阻，是电压依赖性电阻器，是电力�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3nsLG1HndEcLZf0eNdJHl9StEGga68fJP60iak2raM4rFh9ccQBia3P0XNCjKIXhibVGK1icT7oFEkgjQkibxGct6LA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_015_e7ea57c1fcf2.png)
 
   
 
@@ -276,7 +276,7 @@ MOV代表金属氧化物压敏电阻，是电压依赖性电阻器，是电力�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2u2KsYibWdHzKK34jZsfnHM3bhG2GaJC6lua1CSGqy0EO1j4DhSjoN9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_016_c24ef290d93d.png)
 
   
 
@@ -284,13 +284,13 @@ MOV代表金属氧化物压敏电阻，是电压依赖性电阻器，是电力�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2ia6YmcjKpVHHSbibh0z1pUI7lR1s3OhU7gOw0hhrFEfpLw0L4jAaOtAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_017_1da6835d3227.png)
 
 在汽车中，甩负荷波形由ISO7637定义，如下图。峰值电压最大为125V。与IEC61000-4-5定义的标准相比，上升和脉冲宽度持续时间(T1和T)更长。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2u4jmQk3ic9JbwuZsW8C7P9VMR7xicvOC7SVNZcbyW43VA4lUkO7SJjibQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC浪涌保护电路的原理和设计_images\img_018_f4ee82a32148.png)
 
 汽车电涌抑制器的理想位置
 

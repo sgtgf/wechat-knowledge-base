@@ -6,13 +6,13 @@
 
 如图为Boost升压基本电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIHmgZWk4WS1k37YE79iacPMD5jfMbYrH2rAk2tRTbcU0uaqduAUmZ9WQcIzVVv95y7iamyHdkFyv1w/640?wx_fmt=jpeg)
+![](Boost电路是怎么进行升压的_images/img_000_96014f65a71e.jpg)
 
   
 
 Q1开通时，相当于电感将输入源Vin短路，电感电流就会以固定斜率增长，此时电感在储能。电感电压的方向为左正右负。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIHmgZWk4WS1k37YE79iacPMobP3kj86DsjebvMB78LXOIHeIiaQcgiczbiabn7iaFaibXvUnM2Fa91rKicw/640?wx_fmt=jpeg)
+![](Boost电路是怎么进行升压的_images/img_001_cf58177876f4.jpg)
 
 此时，Vin=L\*（△i/△t通），
 
@@ -30,7 +30,7 @@ Q1开通时，相当于电感将输入源Vin短路，电感电流就会以固定
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIHmgZWk4WS1k37YE79iacPMuG9kWv7aibUP5iaC0P0dz0VibsicDbJPU1hickuvic2htpice4AtWreYRXviag/640?wx_fmt=jpeg)
+![](Boost电路是怎么进行升压的_images/img_002_7550da1e8efc.jpg)
 
 此时，L\*（△i/△t断）+ Vin = Vout
 

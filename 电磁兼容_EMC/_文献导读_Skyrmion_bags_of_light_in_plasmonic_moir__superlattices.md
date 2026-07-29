@@ -29,7 +29,7 @@ DOI：https://doi.org/10.1038/s41567-025-02873-1
 
 文章把类似扭转双层石墨烯中的“twistronics”思想，迁移到等离激元光场中，通过两个相对扭转的六角斯格明子晶格叠加，形成莫尔斯格明子超晶格。这个思路把“莫尔超晶格的可调性”和“斯格明子拓扑结构”结合起来，是本文最核心的创新点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBsszGFTRT6ffFZPsmRWwJ8deicibPQ7LDzbtAGxTnic1A9AgRfJqmduDgzjITI21BUNqJP9UKBxrt9WyhezQ1xK74l38uGCGme6I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_Skyrmion_bags_of_light_in_plasmonic_moir__superlattices_images\img_000_0b4119132f3f.png)
 
 图1 两个相互叠加的晶格在存在相对扭转角时，会形成一个具有相同对称性的莫尔超晶格
 
@@ -55,17 +55,17 @@ DOI：https://doi.org/10.1038/s41567-025-02873-1
 
 闭合环路内部自然容纳N个独立的斯格明子(来自原始晶格未被干涉破坏的区域)，形成斯格明子袋。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsAXactGa7vLvGjDG4iabwkc4UXgYz6Be97oZ8aP3WJ7Ibnib6lqFibQf1P4tPYqV6iawyibHh50GpMo4WxibUdLJtmLEEpgdDfFUGib9E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_Skyrmion_bags_of_light_in_plasmonic_moir__superlattices_images\img_001_52855c067f93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsC6PNnu0O7iaSrRKEZJxM60YabhOOYvMPfskbFRGibNz1eDwCnRE5wtiayd9ecRY5A41WMRAB8dFghrlT0pu2zwMibK6ff2QAvdfkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_Skyrmion_bags_of_light_in_plasmonic_moir__superlattices_images\img_002_6e5ea051a8b0.png)
 
 3.实现了拓扑结构的可调控
 
 论文证明，改变两个六角斯格明子晶格之间的扭转角，可以控制斯格明子袋的大小和整体拓扑荷；改变旋转中心，还可以得到包含不同数量斯格明子的袋结构，如 2、3、4、10、12、14 个斯格明子等。也就是说，这种拓扑光场不是偶然形成的，而是可以通过几何参数设计出来。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDoqyGxVuVKlY6LdiaYeGC3F6KHFrRrA8a2BnF530ibqbNoMzVxXuicficRsiaswqTJg8FEcqiaOic0jHzIzxDvLiacaddlwUV3rbtCK50/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_Skyrmion_bags_of_light_in_plasmonic_moir__superlattices_images\img_003_55c1e6a0959b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBZkt3gQlyzibC93iblXbLJFSJ1Y2OaEs2lS7CQstnoIc0O0KokNbG6E9UXl4trnX259OK0Stq2PaPbEPAlQF3ibMIfCoaXStC8ro/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_Skyrmion_bags_of_light_in_plasmonic_moir__superlattices_images\img_004_fd3a160ed637.png)
 
 图2 等离激元莫尔斯格明子晶格旋转不同角度模拟结果
 
@@ -99,7 +99,7 @@ DOI：https://doi.org/10.1038/s41567-025-02873-1
 
 ②电场重构：通过偏振分辨测量，反推出SPP电场的 三维矢量分布(包括面内分量 Ex，Ey和面外分量 Ez）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBXhUiaDIhAnh0c83Cgc7UueRGYZibeHYH9mQyZTgczTBokSUjKnfDvSKbYc9xs505ZSbqEMDGDbSFwVZicSZKEZuHicicxdFZPia5ibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_Skyrmion_bags_of_light_in_plasmonic_moir__superlattices_images\img_005_b71dba3b8a6c.png)
 
 图3 2PPE-PEEM 测量方法
 

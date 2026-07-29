@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgjqooyIBnL0YLuibIYbzCogT2s2PDvqEBFGTf7OiaXZwemiblhlIic8IRYIAHoLZiaTF2Yjv5n8hC7fZQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_为什么ADC采集电路前级要加一个电压跟随器__images\img_002_cf3b7d365fc2.jpg)
 
   
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgjqooyIBnL0YLuibIYbzCog626CzBNbXdyZOdcBMzdOm9PtmIEVTbdzjwThYU9IOTiawIsonoaKlnw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_为什么ADC采集电路前级要加一个电压跟随器__images\img_003_1a0b7ab3837c.jpg)
 
   
 
@@ -42,7 +42,7 @@
 
 所以很多ADC采集电路，在前级都会加上一个电压跟随器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_为什么ADC采集电路前级要加一个电压跟随器__images\img_004_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\_为什么ADC采集电路前级要加一个电压跟随器__images\img_005_d5dcc7ecfdf3.jpg)
 
 ## 
 

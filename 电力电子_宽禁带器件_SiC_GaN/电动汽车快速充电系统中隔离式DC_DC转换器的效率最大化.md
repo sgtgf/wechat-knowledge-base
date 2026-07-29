@@ -8,49 +8,49 @@
 
 作者：Chris New, Jonathan Hayes, Austin Curbow
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsEkZCWiafjybghDdaibcSmuhxmzZzyaZDMZaofhhoY30j6icNhzcQAYhTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_000_a012ace0ffe0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs1XUuxF7MESQwO0wPXQoicrxMspPy9aHGwNTlFFk660leXAIXbrBSFbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_001_5d4a4b503f49.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs4k7p9WTD214BVbEkzZz0L22lkJicyOe91P7lSUBZEF4PRreqSc6EGMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_002_41ea7d437663.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsB7yYqT74GHc2swTI3GWYbAbGv6lZLzSJEtcSrYOaLYHROaNaebZSsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_003_67fbd84724c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsPXMNaqP6ibCJKdWXgAAYBy1GakQMAJEVXI9icK925CK2wOEZd0Ipasmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_004_acf1b6f1299c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsDt0svdSibPmw5GliaYfn6HrQIbnPI3Ghe9OjvIibHpO5ANSicmibWVrItYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_005_7086100e2c17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsFma7Ra7mvXl8owjTlPibtkzABzzWic96yTJ4ond1ZlC8nZflWCB475icw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_006_c0ed3f1e2f55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvskVOzicwM1Zpzbtx0ibmIYkpXtUXicQiazVg2ERILs1NpxEhAeeRzE8fxfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_007_238a6a4dca1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsNmzQcmk3uqRBaQJdfx1GteHBThOlWic2GorolNSbgo0OicYQHGx1FLmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_008_9e0696443b69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvspSy0iaW55feX5P7WKpiahVrrjWyTxo4wibBZ3gs30MQdojphL7MPO9qyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_009_ace4a2d3f58a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsg3ovdJ0f1vqssaJ1mYUpAiagxYvTGEV5vsDTeicTCDtGFHoYbAVXt1Aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_010_70bdef895eb7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsrXoeMwjmSB3ZnZvoII1iaSTdAH3vL84FedlaktKAPQSsnt6npTicC9YA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_011_b9b2d4ed3edf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvseKicrgDTkmHeWzULFvWjHrHk6adPPX5UueibG8pXicicN4hz4W3aibSI6Sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_012_b91e3b26e317.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsSvicRF6hNEthYNiaEiazmpmxdpPeTiaITB8P0iaMwXnpGeGZib0Izy35GdMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_013_1983cf7afc14.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs8oZOB8vRrOmMnwX1yIvTx483aDl0fDBuiaiaCGhTOs95M3QBgN5wYhtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_014_336c297f23a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsWhHExj4fia5KOaGvZEVDrV3dDVr6pLdBNk50NGIhoeomTpNZs5dVVtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_015_4e1c3ca8749e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvswFeWZsdBB0AmWicBxxGDw9D8Bq2mIU93QpuibCQjDEMWX4g3rmqziajeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_016_ceaec756e525.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs5icyjTs1H17IZl8Rpm5ibvHyE5mcpHozBhIlXEVyo8nWl92n6QSAKf2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_017_04711452a2b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsoRy8nNLvfiaIQOTC8mZLibS5rfkUAFONLllTza7NmK2yxI5qkTnW9wvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_018_3021f92706df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsIMe9kcfII0NPtz36j8z8WRrCyT6oE7xrsA7VV5bLrNGFhIaJI0OwHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_019_620d3979b580.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsMT6PPfn7kOVo8EhibPxOCTibN0vo9dAd9ibwT29G2xrvRmHuaicbviagiayg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_020_c4a20080526d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsnlU8sv5kYIAs1t3gv47GrJC6RicTqm1gGTic82aj1mo4Bp6HjicP8UhUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_021_6f812fea3f0f.png)
 
 注：文字与报告无关
 
@@ -155,13 +155,13 @@ SiC 器件在隔离式 DC/DC 转换器中的效率最大化需通过拓扑创新
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=t77ao96h&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_022_070499dc7af3.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=mh06mxt7&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_023_e32863a160fd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=zcsymlzn&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电动汽车快速充电系统中隔离式DC_DC转换器的效率最大化_images\img_024_62e8e29ca3ec.png)

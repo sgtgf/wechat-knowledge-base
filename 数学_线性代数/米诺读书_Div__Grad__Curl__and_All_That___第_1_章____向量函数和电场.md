@@ -5,7 +5,7 @@
 
 今天起，陆续分享《Div, Grad, Curl, and All That: An Informal Text on Vector Calculus》的读书笔记。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuWmqVwAYMgtIsTJ3fNvxBPbCLOALuQ5HJBg0B9USGWB1qibgm5pkfem2sm8IXKfATQUCVFkpCMeGz6SQMQO5ibClI3yB1l2gPm0/640?wx_fmt=png&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_000_39bd00141129.png)
 
 这是一本享誉物理和工程界的向量微积分"科普级"经典小书，篇幅仅一百多页，以非正式、对话式的笔调系统讲解**梯度（gradient）、散度（divergence）、旋度（curl）及高斯定理与斯托克斯定理**。全书借助静电场等物理实例和几何图示，强调这些算子的**物理意义与空间直觉**——比如散度衡量场的"源/汇"强弱、旋度衡量局部旋转趋势——而非堆砌严格数学证明。适合需要把∇算子真正"看懂"再上手麦克斯韦方程或流体场论的学生与自学者，常被视为场论入门的最佳先修读物。
 
@@ -27,7 +27,7 @@
 
 ### Figure I-1：向量函数的整体图像
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/sVzeakRooctia4FuoINYD5R39UFnAPicqMa8viblam2C1rvd0O9TbXxiaoXEqNJjp52rgPIwV9PXLgaoxXeGk7dUhcNI8ibJia3d37cEAmYt7VRng/640?wx_fmt=jpeg&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_001_b479e1490ce9.jpg)
 
 ### 图的意义
 
@@ -67,7 +67,7 @@
 
 ## Figure I-2：向量函数如何分解为分量
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/sVzeakRooctPicvoqec0dVkM6SlQFvulHjficIcRamYicSwMbiaJkLjHGY11MUyHIuxHHPHONUibBKQcNAxSf8fnO0TMicbHvAETmuGL7GqruMeVw/640?wx_fmt=jpeg&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_002_1c8e8cc3444b.jpg)
 
 ### 图的意义
 
@@ -112,7 +112,7 @@ Figure I-1 告诉你“向量函数是什么”，Figure I-2 告诉你“它怎�
 
 ## Figure I-3：最典型的径向场
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRoocstJj3gOlCSXIj3KZsDfCibZ3nwIRjKia1kiaprD9aMdlTjpojwxzX3R8fw9807p7bLp3mAJy8pNjFsicl55Qk4HqDsS1Mevn5CHok/640?wx_fmt=jpeg&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_003_0cf62e8fa632.jpg)
 
 ### 图的意义
 
@@ -171,7 +171,7 @@ Figure I-3 的重点是让你认识第一类典型向量场：
 
 ## Figure I-4：切向场，也就是“绕圈”的场
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/sVzeakRooct9f1bY3QZYCgmJwMcbN81q37rMZvugrSXFTTSlXq8WY0rbP07Wwl9h5l4V8zMsvM5KqsWviaAFyQExdBL4AOGkbmZ5eFpc2FoA/640?wx_fmt=jpeg&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_004_cd49d3f24b06.jpg)
 
 ### 图的意义
 
@@ -224,7 +224,7 @@ Figure I-4 的重点是让你认识第二类典型向量场：
 
 ## Figure I-5：库仑定律中的受力方向
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRooct39Rga9ibN570TQGbez6jNetW68dGpevp68T8ZcyUa5BtU1vkrAeoDAnDicXC27r4GRuvHpOrXxeWj82KksicJ4YicbDYwQiaYHAhk/640?wx_fmt=jpeg&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_005_83c8c452400a.jpg)
 
 ### 图的意义
 
@@ -306,7 +306,7 @@ Figure I-4 的重点是让你认识第二类典型向量场：
 
 下面给你一份 **Figure I-1 到 Figure I-5 对照表**。你可以直接拿去复习。内容都对应本章的前半部分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuPFGeR5fuPX5FHNKR1qUPu9Y7jIMvEsnkUuQqfJzfFN3vWkvsicGenEZSRP7Cbxq15FlRDu6iaCUFg67C9QNVVAl872H4PdWKjQ/640?wx_fmt=png&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_006_cc324406d950.png)
 
 * * *
 
@@ -533,7 +533,7 @@ Figure I-4 的重点是让你认识第二类典型向量场：
 
 # 总结
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctXPE7wvQ2DiafuleD7oMKEoX4c8S5ju9LQlPT30Xk3HWuicQ0gJouO1zFMHIVyuuLFXMeoDwsJUCN0YLfhdLWP5ibfn2qLID0N8k/640?wx_fmt=png&from=appmsg)
+![](米诺读书_Div__Grad__Curl__and_All_That___第_1_章____向量函数和电场_images/img_007_23588f0a5f16.png)
 
 本节课用**静电学**做背景，带你进入**向量函数、库仑定律、电场、叠加原理、连续电荷分布**这些核心概念。它的写法不是先堆抽象定义，而是先问一个物理问题：**已知电荷如何分布，怎样求出空间中的电场？** 整章都围绕这个主线展开。
 

@@ -21,7 +21,7 @@
 
 5 月 TIOBE 编程语言榜单已发布，一起来看看本月有什么值得关注的新变化吧！
 
-**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_003_db93fded8fbd.other)**
+**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_003_db93fded8fbd.jpg)**
 
 **67 岁老牌语言 Fortran 连续两个月进入 Top10**
 
@@ -56,7 +56,7 @@
 
 ![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_004_71cad6e9feb5.png)
 
-**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_005_a69b7d28c5ff.other)**
+**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_005_a69b7d28c5ff.jpg)**
 
 **其他编程语言**
 
@@ -69,13 +69,13 @@
 -   ABC, ActionScript, Algol, Apex, APL, bc, Boo, Carbon, CIL, CL (OS/400), CLIPS, Clojure, Common Lisp, Curl, DiBOL, Erlang, Factor, Groovy, Hack, Icon, Inform, Io, J, JScript, Ladder Logic, Lingo, LiveCode, LPC, MQL5, NATURAL, Nim, OCaml, OpenEdge ABL, Oxygene, Paradox, PL/I, PowerShell, Pure Data, Q, Ring, RPG, Scheme, Smalltalk, SPARK, Standard ML, WebAssembly, Wolfram, X++, Xojo, XPL 
     
 
-****![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_007_43e088a0a973.other)****
+****![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_007_43e088a0a973.jpg)****
 
 **Top 10 编程语言 TIOBE 指数走势（2002-2024）**
 
 ![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_008_130e700193f3.png)
 
-**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_009_969518c11321.other)**
+**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_009_969518c11321.jpg)**
 
 ## **历史排名（1988-2024）**
 
@@ -83,7 +83,7 @@
 
 ![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_010_d7be7b74bb2d.png)
 
-![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_011_4d5fe5627e87.other)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_011_4d5fe5627e87.jpg)
 
 ## **编程语言“名人榜”（2003-2023）**
 

@@ -20,7 +20,7 @@ GPIO的简单用法
 
 **输出控制信号**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwemCdNFzqlibbh72EHZU1ibWR0Zib7EJX9BgKFG9jPSvOiabuVkuXHJ18LQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_000_332901696ba4.png)
 
 GPIO控制LED灯的开关  
 
@@ -48,7 +48,7 @@ GPIO口是怎么被控制的呢？ 通过软件代码。 需要亮灯的时候
 
 输入中断信号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwZGHq8xdbXic9DkNUjC5KZDs3CvicYflibqXQQd2syJPnyTb61fpnjvgIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_001_9a366de9febf.png)
 
   
 
@@ -108,7 +108,7 @@ G-sensor，也叫做重力传感器/加速度传感器/运动传感器，检测�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwLLibZhgiaF6hepZcpneWAdLnr3bp6FqSRTjKib1kibnJSapr8Czau5KAtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_002_392d02b2448e.png)
 
   
 
@@ -146,7 +146,7 @@ GPIO除了简单的输入输出之外，还可以做一些相对复杂的操作�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwNiagCF00h38K0kZ2t6PRNqC6049nQH0IgJT3kNQcdm37kN4674Uu9rw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_003_aed90bbe335b.png)
 
   
 
@@ -156,7 +156,7 @@ GPIO用作I2C数据总线
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwbZNqHjjbRLLT2NK4q7T0yDic2cuvUo8ia10J6Q1fiaibDY8OemjYia0CQsA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_004_2608f9b13940.png)
 
   
 
@@ -190,7 +190,7 @@ GPIO口用作I2C，算是GPIO传数据的最常用的方式。 如果芯片内�
 
 PWM输出
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwgC7CZtQMib8zrR8gEprIst57LrNTLdsBkoxPc3YcITxAprf81WKz7hg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_005_69b695b8cc5d.jpg)
 
   
 
@@ -198,7 +198,7 @@ GPIO输出PWM波控制蜂鸣片
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwgXsA9KU85SLNnNDm2gibiclqbiclV3wSr1farbShWmIwib0qV0CIMPxK9Q/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_006_c082c9d098dc.gif)
 
   
 
@@ -218,7 +218,7 @@ ADC采样
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwfaEmNo2hfwYRpJnA4Rh59V76du3ADoc9t95JriaHW9Ptskia6Ybh3c4A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_007_a05dd910902f.png)
 
   
 
@@ -226,7 +226,7 @@ ADC采样
 
 GPIO用作ADC采样，采集电池电压
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRqwF0iavqQoEVy6arrU6eBlNgA3FRcBwNWgONsh1Z0ZHQF39cYiasZfh7593x9K9mHs6RDzjibvF2dD3viaNUlwcw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\硬件工程师想要的GPIO应用汇总在这里_images\img_008_35c604c23c71.png)
 
   
 

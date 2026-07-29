@@ -5,15 +5,15 @@
 
 碳化硅功率器件具有宽带隙、高击穿电场强度、高电流密度、快速开关速度、低导通电阻和抗辐射性能等独特特点，在电子器件领域有着广泛的应用。特别是在电力电子、高温电子、光伏逆变器和高频电子等领域，其性能优势能够提高器件的功率密度、效率和稳定性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOp2JkgRMr1xIhVo4sS15iciagyNaufVDDFXj6Qevc6caxFtG8wFbomWTcmWbxn8vFCbTzmEGRHY9k15O4DfMmc0d0ElTcSmEXAo/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_000_1eb7ff1b4e7a.jpg)
 
 SiC MOSFET器件凭借其高频、高效、耐高温、耐高压等特性，可以实现节能降耗，小体积，重量低，高功率密度等特性，在新能源汽车、光伏储能、轨道交通、智能电网等工业电源领域具有明显优势，正在加速替代传统硅基器件‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMT9RPqc49vmc6jMfxc34WmNCvvPr81DcNoGicCiawj8DuHqSPUoWScIbW2WwPibmAdexXhBjKYZoia9DfEQtS3s8dJuzzJsEbQCeE/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_001_a4a2ae6b338a.jpg)
 
 随着市场应用场景广泛，SiC MOSFET器件的封装也多样化。作为一名电力电子开发工程师，在选择碳化硅MOSFET的封装时，贴片封装的TOLL和TOLT确实是目前非常热门且具备高性能的选项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOh9bYQJnPMAYOKsk3dLL9VKDPQ6670OV4tbQGcJ8ibv9MmBiciacf9ax20JoO0sPwibX35ODZ5H6d6cSmFqTyPB4XTFPesn4eQwqo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_002_886cbe2cc0d8.png)
 
 下面为你详细介绍TOLL和TOLT封装形式的碳化硅MOSFET的性能优势、应用场景及选型要点。
 
@@ -23,7 +23,7 @@ SiC MOSFET器件凭借其高频、高效、耐高温、耐高压等特性，可�
 
 TOLL封装：采用底部散热。器件产生的热量主要通过底部的焊盘传导至PCB，再通过PCB上的热过孔或额外的散热器散发出去。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM1FU73vP30ibGJ0HRTxjv2waMtia5tomfiaqR3xJItyLP87larDibichibCr3h3X01Y9FUWXkmoamROPV6e7wVgsaAkeXkvRbySPQ0c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_003_fe7118c83347.png)
 
 TOLL封装产品引脚图
 
@@ -31,7 +31,7 @@ TOLT封装：采用顶部散热。器件顶部有一块裸露的金属板，可�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1bYMicnoO54ibAHI9lqsz5KcP2kffKv7k8gKbxictT4Zy7zA53chChBsmtZwyg1FJicQYzo79xhD8Zicwd6GnMELyARicktdAicsFmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_004_a9d1dee6faff.png)
 
 TOLT封装产品引脚图
 
@@ -105,7 +105,7 @@ TOLL封装是一种无引线的表面贴装封装，外形非常小巧轻薄（�
 
 **高密度板载设计**：在通信电源、5G基站电源中，需要尽可能压缩占板面积，TOLL封装能让电源器件在主板和子卡上的布局更紧凑。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMqq8Uq9nXbz6CicLMquBMER3w3TlexXbfbPDv1ENRn2ZXdMT9TZ9MEKCevwgx8HlTfbA9pic9fCRUjUGIoo4mZwUbmSDiaNplHlU/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_005_c733ee1ab030.jpg)
 
 资料来源：充电头网（飞利浦200W充电器采用耐压1200V，导阻80mΩ，TOLL封装SiC MOSFET）
 
@@ -121,7 +121,7 @@ TOLT封装专为顶部散热设计，其顶部的大面积金属板可以直接�
 
 **集成开尔文源极**：TOLT封装通常也包含开尔文源极引脚，可以进一步优化栅极驱动性能，减少驱动回路与功率回路的共源电感，实现更干净的开关波形。。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNPwCf2oTqQXLHgOMD8PEF4ALRmcE4jnjCia2DtB7X2CIxibTE6nC0mZj71DZuoibjkZgPicLcYRiby0Nl5quvx6wib9Wq3TgkqUNkWY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_006_d97f13ce31ee.png)
 
 应用场景聚焦：
 
@@ -165,7 +165,7 @@ TOLT封装专为顶部散热设计，其顶部的大面积金属板可以直接�
 
 1.SiC SBD产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOE2ZAZibSnUDAic8Xc7OI8z2zWpDNQUFBIEy1cbdTVAFEovhTts72YNJgXk1IebExziasicRY2EE75TbIzh2KOpSVY7AT7KerS9xs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_007_75f6629f4e7d.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -173,7 +173,7 @@ TOLT封装专为顶部散热设计，其顶部的大面积金属板可以直接�
 
 2.SiC MOSFET产品介绍
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPajKSG3sd5IMN9Rg8ephl97n2QT0e0ExRia1aicKxpusZXFaAnica2QPR1o6eqwjw58NfdsiaSQEAjjFgrbpe3N1FCTgwmuQPsblg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_008_7121e1b69606.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -189,7 +189,7 @@ TOLT封装专为顶部散热设计，其顶部的大面积金属板可以直接�
 
 3.SiC 功率模块产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMibaWJZyUFVvPza6tZW6Wr1vE3z4rLmaLSJ3eXJtwxO771qHrgreQvBK2hlUJX2bYIpABHxInib7RbiaXxnicVicSfvxLUBI1aZg5U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_009_5d08e7a08bb3.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -237,14 +237,14 @@ TOLT封装专为顶部散热设计，其顶部的大面积金属板可以直接�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicV75jJicWhZquMhRd2ozp0WDxiatO73IiaAeEVuQwLN3XQmlUFJAtqpbibg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_010_f6b5d3a9640d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicZejgkicIQudBicVuA3wrDnPfynvFOFYMgYm6U3p79IzDqrkLlUKp27Vw/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_011_2a44cc81c5d1.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicEZbgXCW0bom11QxrtibSsOmLcRtAMSsyUvtGjqW0l3FBic4rr0DPeYhQ/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL和TOLT封装的SiC_MOSFTE应用对比_images\img_012_9b832e70e6fb.jpg)

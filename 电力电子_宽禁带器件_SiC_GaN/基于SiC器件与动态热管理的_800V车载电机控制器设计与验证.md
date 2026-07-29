@@ -36,7 +36,7 @@
 
 SiC MOSFET与传统硅基IGBT的核心性能差异体现在宽禁带特性,关键参数对比见表1。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPmu7exH6ibDXBEibfWIVLTriboibC04pnecS8q94ZSbQ6ZNnO0etTGFs0jCmAfX3XRlhnVgRZAYicxHia5vU1MWmF8KebUpnW6C3SEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件与动态热管理的_800V车载电机控制器设计与验证_images\img_000_26e800e97b1c.png)
 
 车载场景中,SiC器件优势体现在:(1)高效节能;(2)轻量化紧凑化;(3)高温稳定性强,200℃以上可稳定工作。  
 
@@ -46,7 +46,7 @@ SiC MOSFET与传统硅基IGBT的核心性能差异体现在宽禁带特性,关�
 
 电机预测模型基于PMSM的dq坐标系数学模型构建,其电压方程如式(1)所示:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO1VibkjcvWlmnPiaVqibLFyjn7cZiarYUEzJr5Hnse5OrW9gJl9LHoCqHDBudBXTXqhDiaxv9Cria25vX6BxOxWQD8FVF8W0dahPmtY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件与动态热管理的_800V车载电机控制器设计与验证_images\img_001_672ec177d6e5.png)
 
 PSO算法适应度函数为控制误差与计算量的加权求和,确保适配SiC器件100kHz以上开关频率,控制环路响应时间≤4μs。  
 
@@ -146,7 +146,7 @@ PSO算法参数设置:粒子数量30,迭代次数20,惯性权重线性递减(0.9
 
 (3)开展多控制器协同测试,构建“电机控制器\-BMS\-VCU”一体化控制体系,提升整车动力性能与能量利用率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpM86Zfrde5SUJmW62sibgGrjuHCKicyMQJ6yia683Qm6EYTBia75rAISic4Dg1GyLqiaczh6v5recy2oHicm0EBtBs5MlYGupnm00YLGc/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件与动态热管理的_800V车载电机控制器设计与验证_images\img_002_b87b1b61ed43.jpg)
 
 图片来源：网络
 
@@ -156,12 +156,12 @@ PSO算法参数设置:粒子数量30,迭代次数20,惯性权重线性递减(0.9
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPIFibOIiaiaiajBNHPAl8iaEib7FFHRGvtLRVtQI3Wz9ay29QwmIc0ibBIdlSib7eXMiaFqT4Ea8IeA8ztyAxUgGrrFJRX6hopic8Xh42q4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件与动态热管理的_800V车载电机控制器设计与验证_images\img_003_e90c1fbfb7e1.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNp0wJ33jpDmwibNGTrGTia2Mricm7Nd6DAku8fI6TDkjvNATxNyJe9ibauYZmTnIhVE9Dqr1Hkja5nib9hg7u6Eku8bX5qUvFam9icg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件与动态热管理的_800V车载电机控制器设计与验证_images\img_004_6def751b88af.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMXme6l4jfavz7auficicicgjU4WMNu2SIuOu423IgJskafiaHhiajDYdjNAicM5JyiaPvFWVtNSDgAFVVtKmHzUDk78XNEGWflW93TxQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件与动态热管理的_800V车载电机控制器设计与验证_images\img_005_d229cd5fc7ac.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMj3ZhvMx6bUGpZ8Yfsvpvg4uQl9IGBdeSQR2KeQFa845TMe5YCxdFDLUgibmicF41TlKxUDZsgcV48wKtiaKia9NiaEoU4d2e5uowM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件与动态热管理的_800V车载电机控制器设计与验证_images\img_006_cb71e52d5c21.jpg)

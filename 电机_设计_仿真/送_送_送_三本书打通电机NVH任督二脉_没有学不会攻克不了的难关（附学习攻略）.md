@@ -3,29 +3,29 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/AQgsTTybWt2GQ9ytHFQgcA](https://mp.weixin.qq.com/s/AQgsTTybWt2GQ9ytHFQgcA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXG0g3m6IKiaSROBlKNJexqrvhicBTpiaMue5DSSt0I4bKsgctYcObkjSfNibiam8zZ7rIUiboLsxjvTJzQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650985&idx=1&sn=6e3048780df4cf3c4f5d4fc65ae28809&chksm=88bc1266bfcb9b701e012321379c6cff3bba9152b68cc5b990b8b70948f0819be6739793a32f&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_001_24fc5a022f08.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650985&idx=1&sn=6e3048780df4cf3c4f5d4fc65ae28809&chksm=88bc1266bfcb9b701e012321379c6cff3bba9152b68cc5b990b8b70948f0819be6739793a32f&scene=21#wechat_redirect)
 
-还记得上个月在2024（第二届）中国新能源电驱动系统技术发展大会上叱咤风云首发的西莫16周年纪念精华版期刊吗？这本期刊有多抢手？从会场情况的反馈可以看出，大家几乎是全部带走了，当时现场发放500本，小编只捡到了4本。。。。这要是其他会议的会刊早就被扔得到处都是，还给会场垃圾清理造成了繁重的工作量——毕竟西莫的“会刊”确实是与众不同，鹤立鸡群般的存在，它真的是几乎没有广告（封面赞助合作除外![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/Expression/Expression_7@2x.png)），全程干货无尿点![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/newemoji/2_06.png)说这本书价值千金一点都不为过，因为它涵盖的技术内容在市面上的图书里是找不到的，真的是西莫过去几年对新能源电驱动行业最为宝贵的经验总结和知识汇编，签到处吸引了同时在酒店举办的其他会议人员的驻足观看，并且当场有一些其他会议的人因为期刊报名了我们西莫的会议![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/newemoji/Lol.png)是什么期刊有这么大的魅力呢？就是它：
+还记得上个月在2024（第二届）中国新能源电驱动系统技术发展大会上叱咤风云首发的西莫16周年纪念精华版期刊吗？这本期刊有多抢手？从会场情况的反馈可以看出，大家几乎是全部带走了，当时现场发放500本，小编只捡到了4本。。。。这要是其他会议的会刊早就被扔得到处都是，还给会场垃圾清理造成了繁重的工作量——毕竟西莫的“会刊”确实是与众不同，鹤立鸡群般的存在，它真的是几乎没有广告（封面赞助合作除外![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_002_80a178311977.png)），全程干货无尿点![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_003_63eb4eefed17.png)说这本书价值千金一点都不为过，因为它涵盖的技术内容在市面上的图书里是找不到的，真的是西莫过去几年对新能源电驱动行业最为宝贵的经验总结和知识汇编，签到处吸引了同时在酒店举办的其他会议人员的驻足观看，并且当场有一些其他会议的人因为期刊报名了我们西莫的会议![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_004_d34c8656c599.png)是什么期刊有这么大的魅力呢？就是它：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWnPRV6nP3NPB5FRgBr9MmMwtEgP1H5nHxL2Uiak6OOo2FzG0r9keoYPufTq41jhZXYuICxXYbFZEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_005_aae7f0da4d42.png)
 
 福利到！参加本周末在常州举办的电机NVH问题的机理及测试仿真研修班的学员有福啦！大家经常反馈电机NVH难学，参加了培训怕还是听不懂，同学们这次大可放心，我们也为本次研修班的学员准备了这本西莫16周年精华版纪念期刊，因为这本期刊的核心内容包括了主讲老师的重磅文章全系列《NVH那些事》的最新精编版的合集收录：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXPOSe3amqZwA69vOaI1TdGWX2lryWzdaX8feSv5HOQpKkxuj9ydvWQ7VwqCNJMPgGm6aN7oruyLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_006_0ecec3b050a8.png)
 
-毫不夸张的说，有了这本期刊，再参加我们的培训电机NVH你还学不会可以找我![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/newemoji/Cold.png)有了这本涵盖李保来老师的电机NVH方面的精品系列文章的“专著”来托底，真是想学不明白电机NVH也难啊![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/newemoji/Happy.png)闲话少叙，免费领取这本新能源电驱动行业的技术宝典的机会又来了！就看您能不能抓得住了，扫描下方海报二维码，快来报名参加本次培训吧：
+毫不夸张的说，有了这本期刊，再参加我们的培训电机NVH你还学不会可以找我![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_007_e7ef683b626a.png)有了这本涵盖李保来老师的电机NVH方面的精品系列文章的“专著”来托底，真是想学不明白电机NVH也难啊![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_008_6c3a72ca1738.png)闲话少叙，免费领取这本新能源电驱动行业的技术宝典的机会又来了！就看您能不能抓得住了，扫描下方海报二维码，快来报名参加本次培训吧：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWnPRV6nP3NPB5FRgBr9MmMc7lSTmnH9XNA42VDyXcWgaEOPmQ0ibhpIWpAzEiafMP0nfcqTg2iahCPQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_009_da6a4f23b05f.jpg)
 
 另外，本次培训用的专业辅导教材目前也已经准备就绪（原《电机NVH问题的机理及测试仿真》已全新升级到第二版），将在本周末送到各位参加培训学员的手中，相信这两本由几位业内专家共同精心编著的全彩印刷的教材将对大家的课后巩固学习起到非常大的帮助作用：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWmjavR8ADb8rjtQqL7c8QGiaxvZz6F9Peor23kPzT6vPnwj8aN80Yfhsv1LVuaU6xgpQDibD28VmFg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_010_6901fd323043.jpg)
 
 这些干货满满的教材，将伴随着您参加的三天培训的课程，记录更多宝贵的经验和收获，相信这又将是一次让大家满载而归的学习之旅！说了半天，大家不要忘了参加培训报名的快速通道就在下方海报中的二维码哦！扫码报名提交联系，锁定参训名额：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVHiboeooyEMKSSGvIgHUBmpj0gibs4hHUaEibTfsKXjuOiasy7wHiabe9wXdmdcX6WYibkk4EHEnSZy2zg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_011_ed0f9ebe0ea7.jpg)
 
 请已经报名和即将报名的学员注意知晓下面关于本次培训的最新通知，已经确认参加的学员，我们将给您的报名邮箱发送正式的确认函，请大家注意查收。本次培训的报到事宜小编这里给大家一些温馨提示，希望各位学员能在常州培训期间，学有所成，收获多多！
 
@@ -73,7 +73,7 @@
 
 2、培训会务处根据您的报名回执，预订了研修班席位、培训教材、住宿房间(如您之前选择由我们帮忙预订），敬请您提前订好机（车）票，按时报到参加。请您在指定报到时间现场通过**姓名、学号（请于报名回执里填写的邮箱收到的确认函邮件中查找）**快速登记签到，领取培训相关资料和学员证。学员证是培训入场的唯一凭证，请妥善保管佩戴
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWnPRV6nP3NPB5FRgBr9MmMQkHAXyqZkPKNzU7ZQlEApDAKjaukFVhAjlhN70ZI34hTssT0vJia7jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_012_5f5b14a40d7d.png)
 
 3、咨询电话：18516258619
 
@@ -153,7 +153,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW6PpWW42kTYxP0GIodibpChHeg7BD1nVGATCDxLAbb9DEWB7U8GnQZvv1zqXHyTib1U1ED6BfibN9ibQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_013_dc3f4ba7e55a.jpg)
 
   
 
@@ -189,18 +189,18 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUriadqTicbt6ITqt5yZVJY3Ud56Cy7e2rpW4CibmU5VQ7dahotlpKX8iaEC0UUUFwVas47PGW9Xicx7Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_014_692b10cc2841.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIU9juhwts62UsqmFbpLickVowW6Qx381PB7aMIPAFBEhSMOyMpfbkhCEF7PIDUbACJ6TVsfhiaXf31Q/640?wx_fmt=gif)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_015_5979b8ecf8e4.gif)  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_016_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXvpdV6KYvqwQdlWUoicX5A8ozjM5oluqYoyNkbtuuQukUwEiaFRibpo2YP3snaqfg56icGD6olDaghKw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650651147&idx=1&sn=bc7b3bb080c998950734f27b6bc60e3b&chksm=88bc1104bfcb98128aa5c1043f5c07007eae409307ff3c427ae97379af25a059471e32e87a8e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_017_b94b191813f1.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650651147&idx=1&sn=bc7b3bb080c998950734f27b6bc60e3b&chksm=88bc1104bfcb98128aa5c1043f5c07007eae409307ff3c427ae97379af25a059471e32e87a8e&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIW1mODuTzXqxP0nhhW7m2zYNGbvogVErvko0vVyRTBzxiaxXfic80IXBCEI3bTNagic0Jqp7zVibEK9CQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650651064&idx=1&sn=719022a9530e3583fb712ed80c04ecb7&chksm=88bc12b7bfcb9ba1c22f1ee0e58ffcd459a08a9903510e4ba1f0e1e1648076c03f066faa54e9&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_018_39ba5d159fe6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650651064&idx=1&sn=719022a9530e3583fb712ed80c04ecb7&chksm=88bc12b7bfcb9ba1c22f1ee0e58ffcd459a08a9903510e4ba1f0e1e1648076c03f066faa54e9&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVgiaN1pqRWKWeqPN6hcBQhr4cic3WRJQbiboOnhlkkLF6NLliaDlvib6mNZxlicePWHYiac0F9un3I4DlMA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650651096&idx=2&sn=a03133d07cb3e96a4407a51720be8427&chksm=88bc12d7bfcb9bc1859ef23d845dcf15d6c0d1023dc86bc47fead4f86778509ae82f38a73c66&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_019_9d615f864b21.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650651096&idx=2&sn=a03133d07cb3e96a4407a51720be8427&chksm=88bc12d7bfcb9bc1859ef23d845dcf15d6c0d1023dc86bc47fead4f86778509ae82f38a73c66&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_020_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_021_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\送_送_送_三本书打通电机NVH任督二脉_没有学不会攻克不了的难关（附学习攻略）_images\img_022_3f5511eb92d0.png)点击**阅读原文**，直接报名参加本次培训！
 
 ****觉得好看，请点这里****↓********↓****↓********↓************

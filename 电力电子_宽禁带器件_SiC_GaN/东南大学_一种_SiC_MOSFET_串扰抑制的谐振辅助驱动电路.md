@@ -35,7 +35,7 @@ SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性�
 
 谐振辅助驱动电路如图 1 所示，图中，SiCMOSFET 的等效模型由栅漏极结电容 Cgd、栅源极结电容 Cgs、漏源极结电容 Cds 组成，Rg 为栅极驱动电阻，RCD 回路由电容 Cq、Cp 和电阻 Rq、Rp 组成，通过 Rq 和 Rp 的比值可以实现电容 Cq 和 Cp 的分压，从而实现电源模块仅提供正电压便可进行负压关断和正压开启。同时增加了辅助电路以实现在负压串扰时能有足够的裕度，防止负压损坏栅极。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMdtqC7BMichicg3nFX1C8U0gxhD3VQaEBhiaiaxoPQzvG7mfeS0nbia0POSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_000_ef8d1a11b516.png)
 
 在驱动开启电压来临时，电源模块提供电压VGG 会给 Cq 充电使其能够在关断时提供足够的负压，从而在快速关断 SiC 器件的同时抑制正向串扰电压尖峰。其中 Rq 和 Rp 为两个大电阻，为 Cq、Cp提供预想的分压。在驱动电压关断时，电容 Cq 已经积攒足够的电荷，从而给门极提供负压关断，与此同时由 Cq、Lr、VD2 形成的回路工作，使电容 Cq上的能量转移至电感 Lr，由于电感电流不能突变，所以只要设计好 Cq、Lr 的时间常数，便可在死区时间之后、互补开关管开通时，仍然保持足够的负压来抑制即将到来的正向串扰。在死区时间之后，电容的能量逐渐衰减并转移至电感 Lr 上，当 Cq 电压衰减至一个二极管的开通电压时，Cq 电压被 VD1钳制。回路电感电流通过回路 VD1−VD2−Lr 近似保持不变，从而在下一个开启时刻来临时加快门极的充电速度并回馈能量给电源。总的来说，该电路能够在栅极正尖峰时提供足够的负电平以抵冲尖峰，并在栅极负尖峰来临之前将栅极电压拉高到微高于零电平，从而能够抵御到来的负压尖峰。本文提出的电路全部使用无源器件实现了类似于多电平串扰抑制驱动电路的操作，相对于传统的多电平移位电路，该电路不需要额外的 PWM 脉冲，且能够有效地抑制正向尖峰的同时保证不会有过低的负压串扰尖峰。本文提出的辅助电路分为以下几个阶段。
 
@@ -43,23 +43,23 @@ SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性�
 
 首先通过持续供给开通信号给 RCD 回路充电，使电容 Cp、Cq 达到初始电压，其中分压值由电阻比决定。驱动芯片提供的电源电压为 24V，导通二极管 VD2 压降被近似为 0。稳定后电容分压分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMLRicLZMEOTD5cyOlhibtJ0DFxfMHTVmlh0nB6BY8u9UibNxaOtju4Fticw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_001_69822c0690e1.png)
 
 式中，VCp、VCq 分别为电容 Cp、Cq 上的电压。预备充电阶段等效电路如图 2 所示，ig 为充电电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMI4kvDicTibIsGem8NnFYRibxAuzqsSnV3r2Q4ZRa4D8p9IiaMJg6V1CTAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_002_767586b0088b.png)
 
 充电时间由 Cq、Cp、Rq、Rp 共同决定，当预备阶段导通时等效电路如图 2 所示，其预备充电过程为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMZKOD92AZR9OO3SVziauAqOubjmickbiayEmyiaswwbJbxATuOdTRcbrcDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_003_9a6231f555e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMzicvpQjtafUh4fGUADJaj7a7wvibYAfarkuVZTPCmgYuuGsxzlP0N05w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_004_dac55e23dd13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM2mJ5BwScnCUiaQaiczs2L6JNiaO65HxrzJKnxmRQ0NuWic6nibKs9rVpBSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_005_9efc090c3dc3.png)
 
 **2）正常工作阶段**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMEKpn56pMGfibqhNeQ0NAicqMbbMLVhtOyOhnrOicIxqrKycULkLuG0QPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_006_6c2b1322d22d.png)
 
 不同模态导通情况如图 4 所示。\[0, t0 ) 阶段，Vgs\_L 电压平稳处于开路状态，其电压值为 VCp+Vd，辅助电路被 VD3 隔断。\[t0, t4 ) 阶段，在忽略串扰的情况下，在关断信号来临时，驱动电路电压降为 0V，此时辅助电路导通情况如图 4a 所示，二极管 VD2 由电容 Cp 反压关断，因电容 Cp 远大于门极电容 Cgs，则其在关断过程中电容电压近似不变。此时电容 Cq 为栅极提供负压，使其快速关断。同时 Cq−Lr−VD3 回路导通，电容 Cq 的能量向电感 Lr 转移，使其负压逐渐至零。通过对其能量转移时间的整定，可以实现在正向串扰来临时能够提供负压削弱其尖峰值。\[t4, t7 ) 阶段，如图 4b 所示，随着电容能量 Cq向着电感 Lr 不断转移，电容电压不断下降至 0V，随后在二极管 VD1 的钳位下，电容电压保持为一个二极管的正向导通压降 Vd。在电容 Cq 电压反向达到一个二极管管压降后，VD1 导通，电感通过二极管 VD1、VD3 续流，能量缓慢流失。与此同时，门极电压被电容 Cq 并联，通过设计电容 Cq 远大于 SiC MOSFET 寄生电容 Cgs，可以钳制门极电压不至于误导通，即 Cq≫Cgs。在负压串扰来临时，电容 Cq给栅极提供一个二极管导通压降的正压，能够很好地抑制负压尖峰的峰值，保护栅极不被击穿。
 
@@ -71,37 +71,37 @@ SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性�
 
 在开通时刻，开启状态等效电路如图 5 所示，此时 Cq 通过稳压二极管 VDz 进行快速充电，充电电压为 VGG−Vz−Vd，Vz 为稳压二极管的导通压降。为了在稳压二极管上升时间内对电容 Cp 充电时对VCp 的影响较小，电容 Cp 值需尽量大于电容 Cq，即Cp≫Cq，本文选取 Cp=100Cq。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMapbQS4Wu3NwZ4XkicaNCbA9pXLibLGcRpFCzPxJkIoDKDQu4B8mib5b9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_007_e70e802c9bb8.png)
 
 **2）关断阶段一**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMoviahoYyzFkaCRPjlV6bAvyDTT55m2Etplvtq6kMhNMUkibIwL0NYNsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_008_7ac9594a834c.png)
 
 关断时，电路可分为两个阶段：电容电感谐振阶段和电感能量维持阶段。电容电感谐振阶段拉式变换后频域电路可等效为如图 6 所示的关断状态一简化电路。图中，VCq 为负压关断阶段电容 Cq 的初始电压，求得栅极电压 Vgs 为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM97W5Fxyic0iabk5lHpnibj7q3hvnIwj0jkCViatzP0RW8DwuyNQQvLic0BQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_009_2bc9477fee6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMYYm1Vicg4yMNBN7kPLOWI1OycI12wCmxywQUDptDYK9eUibT2XCyCib7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_010_bf290588b00e.png)
 
 调整电容和电感的值可改变栅极电压到 0 时刻，从而能够在正向串扰来临前将电压调回足够的裕度以抵御负压串扰。为了得到更好的负串扰抑制效果，需要栅极电压在正向串扰来临时维持较高的电压，tk 为栅极电压到零时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMkuMtfhwUJOZxTksjgvMIlFlY0LseYaSqYCjoFRLvg1PkaPW2Vfl3hQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_011_c2ef63cc9769.png)
 
 谐振阶段随关断时间变化，栅极电压相对于初始负压百分比见表 1。由表 1 可知，当时间 t＜0.28tk时，栅极电压能够保持超过 90%的初始负压，在正向串扰来临时有很好的串扰抑制效果。所以设计在
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMQ3yMWEjgzZE6efibp1NEywfhLSpO4RPRd8aAOgAqos1ibaLvWRGeFO9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_012_4db3417d27d4.png)
 
 式中，tonmin 为在桥臂电路变占空比的应用中开关管最小的导通时间。如果应用处于固定占空比电路，则tk 的设计要更加简单，只需小于开通时间即可。在SVPWM的应用中，有最小脉冲和最大脉冲限制，一般来说，实际占空比限制在 0.1～0.9 之间。所以根据式（10）、式（11）可以确定谐振时间常数。但是由于该辅助电路在提前开通的情况下仅仅损失一小部分的正压串扰抑制能力，并不会对电路稳定性造成影响，由表 1 可知，在 0.9tk 时，栅极电压已经降为 15.64%VCq，实际的负压已经很轻微。所以在设计过程中可以适当放开谐振周期tk 设计，以获得更好的正压串扰抑制效果。
 
 **3）关断阶段二**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUML3ePB1f9h5Iicvb1G6AetoulV7GCoyDPDKyveqSf4icflmvQwEHpmiczw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_013_2e1b8185840a.png)
 
 关断的第二个阶段简化电路如图 7 所示，该阶段电容 Cq 能量完全转移至电感 Lr 上时，其电压被二极管 VD1 钳位，电感 Lr 在 VD1 和 VD3 回路续流。其中二极管 VD1 应当选用导通压降较小、导通速度快的肖特基二极管，防止电容 Cq 过充，在该阶段，电容 Cq 给栅极维持着一个二极管导通压降的正电压，能够在互补开关管关断，负压串扰来临时提供比零电平更好的串扰抑制效果，也能在下桥臂 SiC MOSFET 开通时更快开通。如果选用的二极管 VD1、VD2 压降较小，电感 Lr 能量未完全消耗，则其能在下个开启时刻来临时加速下桥臂开通，同时向电源回馈能量。
 
 驱动电路参数完成设计之后，由于电感 Lr 和电容 Cq 的谐振时间常数固定，该驱动电路的关断时间在大于谐振时间时才能获得最佳的串扰抑制效果，所以在脉宽调制的应用中需要按照最小关断时间对电感 Lr 由电容 Cq 进行选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMTJJpJ6ejNBzvrgMwV7AanD4FzK5QgHI9OfzDkxicdiaLsQGpWqdFO3Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_014_f1e94df26ca9.png)
 
 当按照某一开关频率 fi 进行驱动电路设计，死区时间保持不变时，降低开关频率不会降低辅助电路的串扰抑制效果。开关频率上升至 fk 时，频率增加互补开关管关断时刻分布如图 8 所示，其中，S1为开关频率 fi 下互补桥臂关断时刻分布集合，S2 为开关频率 fk 下互补桥臂关断时刻分布集合，互补开关管在死区时间后开启依然会有等额的正向串扰抑制效果，但是由于频率的上升，互补开关管关断时刻分布变窄，造成一部分互补开关管关断时刻在栅极电压到零之前，使得负压串扰抑制效果相对于正常情况下有所减低，但是相对于负压关断驱动电路依然具备优势。同时在整定好参数后增大开关频率造成的开通时刻提前对驱动电路正常驱动 SiC MOSFET 几乎没有影响。
 
@@ -113,27 +113,27 @@ SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性�
 
 开启阶段，电源加在 Rp 和 Rq 的两端，T 为开关周期，产生损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMKIyeF7sacbAjj4aMKyKcnLHgwHtib9njRobaB0J1V3AIOHtU0LicySPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_015_b79be5a17b3b.png)
 
 在设计中可以增大 Rq 和 Rp 的电阻值以降低该部分损耗。
 
 在关断阶段一，设 Rk 为谐振回路电感 Lr 直流内阻、二极管 VD3 等效电阻之和，ik 为谐振回路电流，则关断阶段一损耗能量为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMWjubc6MeTrcUJLNnZMBUVENUicRd9RuyfPMGlNU6iclkHw2fea3Mzu3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_016_fe9c341555e7.png)
 
 在 Cq=100nF 的条件下，当频率发生变化时，只需要改变电感 Lr 的值即可改变谐振时间长度。不同频率下辅助电路最大损耗见表 2。同时，为了降低辅助电路损耗，可以适当降低 Cq 容值，但会损失一定的钳位能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMTIfLbCI8saPmEWIoP2qj4xmAxfnYoZ5oVz59FIDUjEEZ2JCibkfASSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_017_ab34461667c6.png)
 
 **2 仿真和实验**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM4cmmELZy9LO6eNRv2cibogwmGr2ic4lpQic0yibJQoohq3ONmPI0gNib52w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_018_b49458a6cd41.png)
 
 本文采用 Cadence旗下的 Pispice 进行仿真，搭建了同步 Buck 电路和双脉冲测试平台进行模拟，仿真电路如图 9 所示。驱动电路参数见表 3，同步Buck 实验参数见表 4，SiC MOSFET 选择罗姆公司的 SCT3080KL，其开启阈值 Vth=2.7V，栅极最大负压 Vmax=−6.5V。仿真结果如图 10、图 11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM8BH2lC0hZtlHKdwuzIkUAIsTbXkSKsJKMC7LV3qzgPLXK1PC4loGTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_019_7ddf9cc762d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM6FaricKMLnKZlOUN7LcdRqwW6LR5iavnwsyMPicPVommLRUWRiaBSr8aHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_020_9d89b87b8ece.png)
 
 **2.1仿真结果**
 
@@ -141,13 +141,13 @@ SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性�
 
 同步 Buck 测试仿真结果如图 10 所示。图 10a中，传统的零电压关断驱动在正向串扰来临时，其正压尖峰 4.8V 已经大大超过 SiC MOSFET 的开启阈值电压，容易引起误导通，增加桥臂直通的风险，同时增大 SiC MOSFET 的导通损耗。图 10b 为利用负压关断抑制正向串扰的情况，其正压尖峰在负压关断的条件下，削减为 0.2V，但是在互补开关管关断时，引起的负压尖峰已经达到−7.8V，严重影响栅极性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMVTU5aEU8ic9UmMGwicwEWicxsgyCvC8Ghr46shNibbtWZ3LeUibKufK5dPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_021_c5aeca1e723c.png)
 
 针对以上现象提出的谐振辅助驱动电路吸收两种传统电路的优势，同时能够弥补两种电路的劣势。能够将正压尖峰降低至 1.2V 的同时，将负压尖峰减弱至−2.8V，这将极大地提升驱动电路的稳定性。由图 10c 可知，该电路相对于传统电路在抑制串扰方面有很大的优势。
 
 **2.1.2 双脉冲测试仿真结果**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM2DHYTKR1aw982l6kcYAwUr1StZWFm9ibjhlYK25csouicqOOfasOyOlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_022_931ab3acab60.png)
 
 双脉冲测试仿真结果如图 11 所示，相对于零电压关断驱动电路，其正向串扰从 5.1V 降低至 1.1V，低于 SiC MOSFET 的开启阈值，减少了误开通风险，另外相对于负压关断驱动电路，反向串扰电压值降低至−5.9V，缓解了过低负压带来的栅极击穿问题。
 
@@ -155,41 +155,41 @@ SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性�
 
 **2.2.1 同步实验结果**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMz0IRlDznPZNqdk2qr8fibibiaQA9xCibn0bduUB8YfQ4TfyEp4EMuOm7Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_023_71c56e39e31b.png)
 
 本节搭建了谐振辅助驱动电路的硬件平台，驱动电路如图 12 所示，包括隔离电源模块、光耦隔离模块和增加的辅助电路。同时搭建了同步 Buck 变换器和双脉冲测试硬件平台，测试平台如图 13 所示，电路参数与仿真保持一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMaVmAAib8iciakq8NO3PkV6vDrxzsVRfXMYOTANs3lmlich4qqN0ezFfUkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_024_94cde4117c49.png)
 
 图 14 为本文提出的谐振辅助驱动电路波形，从图中可以看出，导通时驱动电压为 18V，关断电压为−5.1V，并逐渐上升至 0.7V。由于关断期间电容由二极管钳位，二极管的导通压降导致了其关断后电压不是绝对的 0V，而为 0.7V 左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMbp65zDibxgCcJEUcbdavKQ7fqLia7Licicd9Rfib75GGdW1lDK8YskibNDhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_025_ed0fe590d2d5.png)
 
 图 15 显示了在 Buck 测试电路下零电压关断时串扰情况，从图中可以看出，上管开通时引起的正压串扰值为 4.1V，超过了 SCT 3080KL 的开启阈值，容易引起误开通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMhq1tJeLMRH0YTAdQFiaoSGCWwJ0lcnLqHmWnkjpZHW9SmF8iamCBObDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_026_6a4020a01f59.png)
 
 图 16 显示了 Buck 测试电路下负压关断情况下的串扰情况，虽然负压关断能够抑制正压串扰至 1.8V，但是其会将反向串扰加剧至−6.1V。Buck 电路谐振辅助驱动串扰实验结果如图17 所示，采用谐振辅助驱动电路的情况下，正压串扰降低至 0.6V，反向尖峰降低至−1.2V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMiaQcecPADWZjIiauweXoZxNOWdXF4ggXtK8y6XmvUGBBReDlJlAWJsuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_027_1b83defaa90f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM6fbMcbsBicsNeCf0nKTAgeibDzrXBhOzVHKoLicQPogtDCnaicT9IWvuUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_028_1383fd1eca62.png)
 
 **2.2.2双脉冲实验结果**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM5BgV1XARiazXGyuicC4Q8prHibGOLU9MKN0hKUVXLibVAicmMDSOWxFHIicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_029_bd1224b54ca8.png)
 
 在同步 Buck 测试平台中，误开通会引起电流急剧增大，容易烧毁测试平台，进一步测试串扰抑制性能会导致同等电压、电流等级下的对照实验串扰过大，引起短路和栅极击穿的情况出现，严重会烧毁电路。为了进一步测试高电流情况下的串扰抑制情况，搭建了双脉冲测试平台进行实验，在双脉冲测试实验中，电压等级为 200V，测试电流为 37A。零电压关断驱动串扰双脉冲实验结果如图 18所示，在零电压关断的传统驱动电路中，在互补开关管开通时，正向串扰达到 5.6V，大大超过了SCT3080KL 的开启阈值，容易引起误开通现象的发生，互补开关管关断引起的反向串扰则在正常范围为−4.2V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMvQH4QJpiaqbXic04JOy064ib85BIVA0Zl0mjFSiczeMxVyH3Afxm3DeHdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_030_c6b51aa73ef1.png)
 
 负压关断驱动串扰双脉冲实验结果如图19 所示，负压关断的驱动电路中，互补开关管关断引起反向串扰尖峰达−7.9V，低于 SCT3080KL 允许的最低的栅极电压值，容易击穿栅极。本文采用的谐振辅助驱动电路中，其驱动串扰双脉冲实验结果如图 20 所示，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMKcSj5pzIarJkhtsK6AcA0rkU5eRClhpOBLmOJRkKPkajicouVdIFygQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_031_d244e9294730.png)
 
 互补开关管开通引起的正压串扰尖峰为 1.8V，互补开关管关断引起的反向负压尖峰为−3.6V，均处于正常工作范围内。不同驱动在不同测试环境下的串扰大小见表 5。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMIm2XJNgSnePzSqyRVW904woxQb0yqupSVBV5paFt5I3acqLAUJ29TA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_032_83f0bed3e69a.png)
 
 **3 结论**
 
@@ -235,8 +235,8 @@ SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性�
 
 \[19\] Wang Jianjing, Chung H S. A novel RCD level shifter for elimination of spurious turn-on in the bridge-leg configuration\[J\]. IEEE Transactions on Power Electronics, 2015, 30(2): 976-984.
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_033_e30334ffaa92.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_034_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东南大学_一种_SiC_MOSFET_串扰抑制的谐振辅助驱动电路_images\img_035_84aa944feb13.jpg)

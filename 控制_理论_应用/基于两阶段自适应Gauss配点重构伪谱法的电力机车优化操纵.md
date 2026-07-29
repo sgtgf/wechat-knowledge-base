@@ -32,7 +32,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpnRJwNUvf6LJDba6QRiaLqJQiaXP0lOABrRZrlRplpEa3pTNv6L2xE6uQ/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_000_246acf33fda7.png)
 
 图1  机车牵引、惰行、制动组合运行示意图
 
@@ -50,7 +50,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpY9ZA4pDOSL5av1f5G1hwNdumIhw9ndOuACoKD1J8pM2o98UTGgGZicw/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_001_b7eb3844866a.png)
 
 图2  HXD1-C64电力机车
 
@@ -64,7 +64,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpBNicDqjlxclH0jd5B3hEQHAjceFlW55M2nrmkoF67QF1w8mbSd6jrew/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_002_b41c0b4fe751.png)
 
 图3  两阶段自适应Gauss配点重构过程
 
@@ -74,13 +74,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpeSbnwuVUE4YtDxYaLDsG0ALib9kehvD2Kvxql4c93tJmox6A5JHYAHw/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_003_99c0a93b53c7.png)
 
 图4  仿真实验牵引力控制曲线
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47r62nSe86ONCN6o82JFREpK5RLFI2Tt58CNwZG7hp9ASKlbg2eibJqP9CYXicGbdpDGSBHXtve6VkA/640?wx_fmt=jpeg)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_004_48ed81fc8adc.jpg)
 
   
 
@@ -94,37 +94,37 @@
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpgc4JCxSzcbIVsoLAQRliaXyjEIk92YfQicKbXEV7RbuP4kELMLRE5Bbw/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_005_04b5029e6a7d.png)
 
 刘  平, 重庆邮电大学自动化学院副教授.2017年获浙江大学控制科学与工程博士学位.主要研究方向为复杂系统最优控制与动态优化、轨迹优化.本文通信作者. 
 
 E-mail: liuping\_cqupt@cqupt.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpGjuFF3QsKSvjyibtXiboJyZBIjibnAQwpvCsB4ibHq1Mjjiav64lFAwKyicg/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_006_0cf8c746a3fd.png)
 
 胡云卿, 中车株洲电力机车研究所有限公司高级工程师.2013年获得浙江大学控制科学与工程博士学位.主要研究方向为机车车辆动力学控制和智能控制.
 
 E-mail: huyq1@csrzic.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpZ5k6RLH30wE98py1BLBeqqEn6aF8V0KcrXymfo1QEFUfcXKmfyMxag/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_007_03097cae5aad.png)
 
 廖  俊, 重庆邮电大学自动化学院本科生. 主要研究方向为复杂过程最优控制. 
 
 E-mail: 2016212658@stu.cqupt.edu.cn 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpT3Sz5b132JTv3W7Fg0jfZDfruTuXTaJcOFzta13z5iaib9fnqfJPW6icw/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_008_e9ebf62984c7.png)
 
 樊  力, 重庆邮电大学自动化学院研究生.主要研究方向为无人系统轨迹优化. 
 
 E-mail: s180301082@stu.cqupt.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpicFZsw9cuVWcoQpGgP6Q0Vp5c8ia0dfuIvBjc9tMHwImMiaFxnKRRq2bQ/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_009_42e9c1d4e12c.png)
 
 黎向宇, 中车株洲电力机车研究所有限公司工程师.2017年获得浙江大学控制科学与工程硕士学位.主要研究方向为最优化与最优控制.
 
 E-mail:lixy20@csrzic.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREpV5vnBm6ic2Sic0k9HQA27O03nL3LKnSUGIFJ8l4ZhWRanoFTibicDQMUNg/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_010_06d62c46b7f8.png)
 
 刘兴高, 浙江大学控制科学与工程学院教授. 分别于1996年、2000年获得浙江大学控制科学与工程硕士学位、博士学位.主要研究方向为复杂系统建模、优化与控制. 
 
@@ -246,21 +246,21 @@ E-mail: lxg@zju.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREprDxXafjEhk3XtdicOyIVYHIUeiaEyRT6Oq2n1kO6lGjaUKl4NvrpB7xQ/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_011_87a2d32b7683.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47r62nSe86ONCN6o82JFREp8H68kXZ54adCYVbbYsW03ME3ExIA8gtdcrPH6UwOk8d31gpkztK1icg/640?wx_fmt=jpeg)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_012_e6679e29ed1b.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREprDxXafjEhk3XtdicOyIVYHIUeiaEyRT6Oq2n1kO6lGjaUKl4NvrpB7xQ/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_013_87a2d32b7683.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47r62nSe86ONCN6o82JFREpFY8XMkFq91EmkfQLOFOsdJEe5pIYjP1M3DKzPPKvjveXdmjHtFjd4w/640?wx_fmt=jpeg)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_014_2d23ec8d459b.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47r62nSe86ONCN6o82JFREprDxXafjEhk3XtdicOyIVYHIUeiaEyRT6Oq2n1kO6lGjaUKl4NvrpB7xQ/640?wx_fmt=png)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_015_87a2d32b7683.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47r62nSe86ONCN6o82JFREpF3lTheOP7VuLKC9ia9C2HxrDq6cAIoU24tDS3sk6Yvpk9PG6MN0GY7w/640?wx_fmt=jpeg)
+![](基于两阶段自适应Gauss配点重构伪谱法的电力机车优化操纵_images/img_016_489769d97f8a.jpg)
 
 自动化学报订阅号
 

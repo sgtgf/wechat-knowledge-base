@@ -14,11 +14,11 @@
 
 mark点也叫基准点，也叫光学定位点，是贴片机使用时的定位点。由于PCB在大批量生产中为装配过程中的所有步骤提供了共同的可测量点，因此装配中使用的每个设备都可以准确定位电路图案以实现精度，通过mark点程序员就可以在加载程序后自动设置机器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4SlpIE4a9aKRvSeSkG4GO6nHVM6w3UOmLDN9yAficSgrWsGWhAEbSO8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_002_deab7539c2a0.png)
 
 mark 点
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4Uia9yvXM7Xd7NM7RPWAia0QUBl5jyTiaqhy5jujgicpMicf5aJL0Hda2pSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_003_40e3833d31dc.png)
 
 mark 点
 
@@ -30,7 +30,7 @@ mark 点
 
 如果我们在电路板上使用mark 点就可以让机器更好的放置组件，准确度更高，而且不依赖机器公差或者人工的误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4Cz0X8Yia3KAGzuLiaNpx9Yd0h4zdibCnpLjyKKCwVEtemFv6E43BSn08w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_004_7f913cb4d467.jpg)
 
 mark 点
 
@@ -42,7 +42,7 @@ PCB 上的mark 点是表面贴装技术(SMT) 和自动光学检测(AOI) 等自�
 
 不过大多数机器在技术上不会读取放置在 PCB 上的内容，相反，它识别mark 点焊盘的反射。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH47oxco8yDM1iaibyicjHhQfPTNQdM6wzI4tKESA4zZTXUCtQqKuXwENbnA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_005_a204523ffb95.jpg)
 
   
 
@@ -52,7 +52,7 @@ PCB 上的mark 点是表面贴装技术(SMT) 和自动光学检测(AOI) 等自�
 
 全局mark 点作用是单板上定位所有电路特征的位置，用于区别电路图形和PCB基准，是基于三个网络系统的定位，其中参考点位于左下端 0.0，另外两个在在X和Y轴的正方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4Yibiac6G0rNrFpz8xaxsZS2Ds2a7icP9AXOMhbHvj4rzMNPicibjW0CgTWA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_006_be99cf31d99a.jpg)
 
 全局mark点
 
@@ -60,7 +60,7 @@ PCB 上的mark 点是表面贴装技术(SMT) 和自动光学检测(AOI) 等自�
 
 局部mark点主要用来定位引脚多、引脚间距小（引脚距中心不大于0.65mm）的各元器件，辅助定位。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4icpjbh1MSmf0NxfFAkUbAdtkBo1xiaKAGPiaxATnOzibibcbJoa8gG4VsqA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_007_6711af012faa.jpg)
 
 局部mark点
 
@@ -68,7 +68,7 @@ PCB 上的mark 点是表面贴装技术(SMT) 和自动光学检测(AOI) 等自�
 
 作用在拼接板上，辅助定位所有电路功能，辅助定位。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH481Mm2UUXum4e7C5Zmn1DenZh2Ex2tlibJJsn4yN0NtTyuoX8icjBVfKg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_008_c02f67a1ee2c.jpg)
 
 工艺边mark点
 
@@ -101,7 +101,7 @@ PCB 上的mark 点是表面贴装技术(SMT) 和自动光学检测(AOI) 等自�
 
 机器视觉需要准确地找到基准点，然后估计其确切的中心，圆形是最优的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4N5pylrBNhvIKp5DHibhEFvspibzXOdibg7IP5IKL2pDRBLgbYibO5fvuDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_009_4d2b93e39846.png)
 
 mark点形状
 
@@ -115,7 +115,7 @@ mark点形状
 
 参考点周围应该有一个空白区域，该区域没有任何其他电路元件或标记。空白区域的最小尺寸应为参考点半径的两倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4XxkOHOfqmoVyiaGer4GFveTsBKK1384AwkGOl9bEntsKVMuy0OfITJg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_010_4f0f3aef0eaa.jpg)
 
 PCB 基准尺寸通常为 1 到 3 毫米，主要取决于制造商使用的组装机器。一些制造商建议在电路板的角处添加 3 个基准点，因为这会提供 2 个角度对齐测量值，并允许贴片机推断出正确的方向。一些制造商会说明具体尺寸，这也取决于制造商使用的装配设备。  
 
@@ -123,7 +123,7 @@ PCB 基准尺寸通常为 1 到 3 毫米，主要取决于制造商使用的组�
 
 如果要组装 2 层板，则顶层和底层基准点应位于彼此之上。顶层和底层 PCB 基准尺寸应相同，包括阻焊层开口。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4j8wcEgiao3BZBsVeKhMFLF8QWpHWnfUxVdR0IxxibiaxqqZ5IUIpcK96g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_011_5c9783493e95.jpg)
 
 两种常见的 PCB mark点尺寸和阻焊层开口建议
 
@@ -137,7 +137,7 @@ PCB 基准尺寸通常为 1 到 3 毫米，主要取决于制造商使用的组�
 
 避免将基准点靠在 PCB 的边缘，贴装机械通常使用夹具在组装期间将 PCB 锁定到位。如果夹具覆盖了基准点，则问题很严重。可以将基准标记置于距边缘至少 3 毫米的中心位置（建议 5 毫米，可以消除这些风险）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4kL2nOrudK2UR4FNEudWAZwD50Kal8ynMYIOhzodF2MLyCu1SSeiaqng/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_012_eaa24f8daf13.jpg)
 
 mark点 边缘距离
 
@@ -152,7 +152,7 @@ mark点 组成由 3 部分组成：
 -   侧面的选项文本标签
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4LgKEx9qpYvLIrj7OLicAjOA9GEhicKK2MfrYu6oQ95WjVDSyE5Sr2UBg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_013_ccea259089fe.jpg)
 
 mark点 组成
 
@@ -166,7 +166,7 @@ mark点 组成
 
 mark点 的布局位置由贴片机的PCB传输方式决定。当使用导轨传送PCB时，Mark不能放置在靠近夹持面或定位孔的位置，具体尺寸因贴片机而异。一般要求如下图 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4lDNYmZImTYRCwsyn9NnSAfW1yWzU8IU5MrzYjhThhNmd4grv7wZtjw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_014_4f8f6781b391.jpg)
 
 区域标记无法定位
 
@@ -185,7 +185,7 @@ mark点 的布局位置由贴片机的PCB传输方式决定。当使用导轨�
 
 PCB mark点 标记应沿着每个小板的对角线放置，如下图 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4Xvjq2gt8XgGEIlyiaPiaDiclicIeBM9xIg9PXoBJ2jy4Do3a3Vf4dmQMVg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_015_1a4d7dfa0d42.jpg)
 
 PCB mark点 位置布局
 
@@ -193,11 +193,11 @@ PCB mark点 位置布局
 
 局部mark点 位置应满足以下要求： 对于超过 100 个引脚的 QFP 元件，应沿对角线放置 2 个 mark点 ，如图 a 所示。对于引脚数超过 160 的 QFP 元件，应在四个角放置 4 个标记，如图 b 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4jUqQZR0GG3WYN2MA3wnIZ8PXH865ypkPO0U6IHv0jGEpsHiaxJibVHmg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_016_d18d9b80136b.jpg)
 
 局部mark 点
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4J7nhcE2sGzrOoia9hvneanv7uicic2fF29IJHku3KuKxM7jpoFPQ7rFDw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_017_c87e0404d901.jpg)
 
 mark点
 
@@ -209,7 +209,7 @@ mark点周围的适当间隙至关重要。在焊盘周围放置一个开放区�
 
 开放空间的直径应至少是焊盘尺寸的两倍。因此，对于 2mm 的焊盘，你需要在其周围至少留出 4mm 的间隙区域。间隙区域的形状不太重要；圆形和方形区域是两种流行的设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH44mo14njiawcqTibJ8bJ0TJ8STp2OlW7MJfDB9F7e4bCAMZ5DDKtLdOGQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_018_9c79b3d99e41.jpg)
 
 mark点 切口间隙
 
@@ -242,7 +242,7 @@ mark点 焊盘需要用电路板其余部分使用的金属完成。（记住，
 
 虽然看起来添加四个点只能进一步提高准确性，但很少有更多的东西可以通过这一点获得。这里的主要缺点是第四个基准标记会重新引入处理倒置面板的危险。走这条路线时要格外小心。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4cgLDyVC9vxlMicueQodPDRRJF4n1atOia9bCpcl3ppUAkOCMsljU6r3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_019_214513e635b8.png)
 
 mark 点
 
@@ -250,7 +250,7 @@ mark 点
 
 mark 点焊盘需要是平稳的以反映均匀的图像，铜标记镀有你选择的任何金属饰面。电镀和浸渍等工艺在均匀性方面是可靠的，而热风焊料的变化往往更大一些。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4gxvqKGGDzbg3oSiaXTVwUy6r4FB5VeIjLZKETJwgW8weEJGOhUOWeUQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_020_0d1526d0b7c5.jpg)
 
 mark 点铜饰面
 
@@ -266,7 +266,7 @@ mark 点铜饰面
 
 器件孔接口器件和连接器多为插件式元件。插件的通孔直径比管脚直径大8～20mil，焊接时渗锡性好。需要注意的是线路板出厂时的孔径存在误差。近似误差为±0.05mm。每0.05mm为一钻。直径超过3.20mm，每0.1mm为一钻。因此，在设计器件孔径时，应将单位换算为毫米，孔径应设计为0.05的整数倍。制造商根据用户提供的钻孔数据设定钻孔工具的尺寸。钻具尺寸通常比用户要求的成型孔大0.1-0.15mm。越少越好。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh2rFXiawPFFOuuIic0icBiaoH4CfSZdRFK57fFRXTDwVX2fD5zSBqOpNz6U02F7zeKUpJk1TZ4W5sibcw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_021_84d285985826.jpg)
 
 mark 点制作
 
@@ -274,9 +274,9 @@ mark 点制作
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_022_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_023_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_024_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_025_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_026_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_027_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_028_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_029_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_030_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_031_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_032_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_033_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_034_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_035_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_036_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\mark点怎么制作_9个mark点定位原则_图文_案例_带你搞定mark点_images\img_037_50889e54acde.gif)
 
 ## 
 

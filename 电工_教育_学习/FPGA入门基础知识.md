@@ -82,7 +82,7 @@ FPGA不像专用的ASIC那样通过固定的逻辑门电路来完成，而只能
 
   
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaytaLanyNKdF6b5VzWQFGWer8StWR4OLJL6FqD6mXg1adRbIFUUXic05HN2ialdkecfbeN81DCRaw/640?wx_fmt=png)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA入门基础知识_images\img_002_d4524c4298ff.png)
 
 Y=A&B&C的实现结构
 
@@ -92,11 +92,11 @@ Y=A&B&C的实现结构
 
 然后用EDA工具（QUARTUS或其他开发工具）分析这一行代码，得出A、B、C在不同输入组合下（共8种），Y的值分别是多少，其真值表如下图所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaytaLanyNKdF6b5VzWQFGjhgwTcjQCf8PYYhXyo7CyRHNCb1RW9azX7MKutoSO5KRTgKhic8KdVw/640?wx_fmt=png) 
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA入门基础知识_images\img_003_af0c7a06d680.png) 
 
 然后软件工具将所有结果写到查找表（LUT）上，从而实现该代码的功能。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaytaLanyNKdF6b5VzWQFGm6SJFIgZm8NSMOA3J0tBZmUGu7IRzt9mVQyYQUEuQaibZzK82FFoemA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA入门基础知识_images\img_004_8b68dead3763.png)
 
 Y=A&B&C的FPGA实现基本结构
 
@@ -142,7 +142,7 @@ Y=A&B&C的FPGA实现基本结构
 
 也就是说把FPGA的程序先写到PROM或Flash里面，上电的时候就会自动读取里面的值，配置FPGA；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaytaLanyNKdF6b5VzWQFGDheNUQov7HcB29IbGrt60E4K07X3Tr4fgA1AI3d6pH1PH93tI5yTtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA入门基础知识_images\img_005_d21a3d6cc0f0.png)
 
   
 
@@ -156,7 +156,7 @@ Y=A&B&C的FPGA实现基本结构
 
 4、外设模式：将FPGA作为微处理器CPU的外设，由微处理器对其编程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaytaLanyNKdF6b5VzWQFGgIgTAgc0kT1yg05uS32LVjuqoztrvk1p9UPSwgcYiaxxdYyf17Qahibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA入门基础知识_images\img_006_f1e006927e7b.png)
 
   
 
@@ -168,6 +168,6 @@ Y=A&B&C的FPGA实现基本结构
 
 这种方式跟CPU直接控制FPGA有什么不同吗？也就是上电后FPGA直接读取PROM的数据不就好了，为什么要多一个CPU呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaytaLanyNKdF6b5VzWQFGVW4J2bAlKlhI5qm9KCiafaR1kVnD2ia3w0s0GVah5IYJdVaY59GSuzbQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA入门基础知识_images\img_007_dd18e0760649.png)
 
 其中一个原因是FPGA的有些程序是加密的，CPU读取数据并解密后再发给FPGA，FPGA再来实现功能。

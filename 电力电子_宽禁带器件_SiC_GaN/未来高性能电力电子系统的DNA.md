@@ -8,145 +8,145 @@
 
 作者：Johann W. Kolar et al.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOo0SykcibCFJOSTicZYyxSiavnca8ib3V5rJILTOzl54fiaUgD0icOWnwKgpZF056GY91FRY5PTbzdiape2MHJmU8iapNJJ2clvRMCobk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_000_bf5f5e039dc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP1sSmIDZ15WjTC8JxHlD2xibzHCoRKg2yccdl6n2XEibic8o0v6mPy2ZyJZ2ufJP5ObuzQ8SVic3qrX2a9yZAIar7MJiaYDiat5yYJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_001_7f9177285a20.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPuFgdVTtgsW9thYgkINT9zHc5Du5Pg4y99wMXDghNybT7CFGSDX3kNPbmOibYBCkFQI3Mn9QvhbdNxpLbiaFa9wmXxde3GMc0U4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_002_14801603d30a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNtpJ7xvDI5tibM0Sb0yrLOshlJwicmicfGVPZwFbthVjkia7vTfpxicLLefnNzCL4pS5baPNIYfcVnyZtTKbyFOa9fB7UG4A8udBm8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_003_3703d2802fcf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOlicEI3UKtnJJYIvqMM58P4REtw4ftwc5u1Noic1EcK3kianv3iavCchlickJSIjvOwAZ5Ryr5UGlgEibOoKebTqsbohbPI4SibHYibzI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_004_7676d9766611.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO5okibWsINKicRhwYSYgUTKb4h9wCviavUrQJohMPcabkZv4A6YgsBZ2Etc6QkJicfR1UFVlTndV4BibpEMKcIUHf2IBazUyoslLAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_005_519e2489e23e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM2FySY6HCvo5GYI1KfR71REnrg6k3V028fGn9UqrIgeUV7iaOyicSfbF96sPfPwYtcH0VdkxQTJ9y73H1oBIy1tp6Pib1BiaInibb8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_006_af4fadd6b8d4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMj4o2aVuHZ5FEWeB0SKpoLyNuTcxqghBmsBo71KbGWPg7I2aauZMp6ZMkBddgCYFP9A1WNXLaVFhC9Tc3pbwy9PknuJHCGJls/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_007_9154f7197862.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOc3vPicqDTzUjAcXAh5nXpktuo6CkQic6vfIwZgy9HGnpmpGdhFnUibwOA7OMvRDwz3iaFK4diavJTnhjTtzBiajz2nqAvwRWgea9Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_008_bd3fe1fd339b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXgtpnrOeKUHceYMqNfywdyNxCZnY1KaG3lgzicBx4PhDWUHwlO2raccDzEjVrvYxQS5Xqpnv6nP0mvJohtszmSibrmkZ4dp8pk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_009_3c31dd6087ee.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPv12op2UYcNGiancQrzSIJvI2RHCiaNu4iaaAapqS8Yk3whg40leMibWgiahibxvu80vzxQicoMg1eBkibvvhVkeprmhyeTzWS6kw06ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_010_9b73daff1479.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOibL0S2rmVmJ5ibdk25zI9zx9sEKAeywwxnEYPK6hIJr7fqRgMaPBgRvKwWekQDeC8DGTCLXvOhQUUX9vib166RWsCrwSCH05AS8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_011_a239829eb8f7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNIYticZs3LecIRAoMZkfMOYr2qnMGzZOrwicMHQXkReVnjiawia33icVOeMS41PUTSiar8zISIE4CbZIkUPUwWQQy35be2yWXBTnoqc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_012_01cf6b90be26.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjeLmG4DxaTH74A8XYVpHTcSlYVVWXEj4SkudIAS3GiafWPOEG0cMT43Qf3xJ5icXia5ztGXgM85cWjLW5wIggXdN7EZxoCM0xHs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_013_2bfcc5cfdea0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO7ibt0Xvq69TFHN8JOpCGxdunTdZBrH9xdBVVWiaYcONwIKBsc5YqIhg06c8sRGibgvTVgtlQsOnDcAuygYZZgia4lN14coCQCwic0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_014_e4b491a06fb9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPdnOAW0mic1sRvDLlX5K9yOgASD2YiaEFZ4nXIM6TYqhtJnGAfeNiaJHV9eKcRXWU5SKtzDMiaWcsxVI9nhH4MpjWrIvDGia7nkDZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_015_2110286adb3d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPYzTAuQib4IWc9msqgmADlIKtlBZNPmibJzWs663dkcLvJ8XslCdQtsicJhAWZJM7NfGMpGNQXef32FogC9axmagNdOI01MSg1gY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_016_2ab3306c760e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpONlXMJ8T7k5bnM2wckrsT9F9oPrSsxmhQ4zibKP7MH8fJBnfEQUUACy1IvrDpStC0zU4aiaTnnKksmtZV3XwicaX6oXowWTtvT5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_017_06d0d97f8e17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNcEibwNnuEubw7rzXQxqsTgLtNHsIWw8YtvIXz14ZGAyubdoRhW3NxeNTXRPiaqZRs2t1yMkc5QsqAKaHicjj3ha1vAFCLl0Dw6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_018_9513eabe3aa6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNaTwXEAlicUUxMvlxhGg8m323MuXwNKRnl1mTJdYlrvaDjrT4icAPKEArjwhuhSp3Lp6y0DggDhMt3iao44la1I12DAHyY8hd6Rk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_019_83892210402b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOwBjibTwzGNlicW8tDibMt1YLF382CfZjouRbdArHWtJ4u23j9V8lSDAR9911awkFKNnRA7PAgoWfSEhZdqPHMRETSuVPicmH6iaX4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_020_64087dd1b205.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMg3HL60UG2bicfZ5Friau1icOvcfBNrmJjBS5SZR4RP15E9NHzXFuHD0g0rch6q3xk9bA1oMsuuVGlspJ8DxjktF9NVxyMBMIUQM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_021_87d25bf7f201.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN1VJR7Og4u1Jvy2wKu0Vj4hWXJ3o2wuxBybK0hCQ6ia0ZWyiaKbtlAwiaMloojoGKYib6J24aev58nRpg53zlNCzUia01lWG9eesY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_022_0481149444f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1YORLlAVSHyPzHM0ibNBibV8fI49QC5bQxmdUBXSenA2PibIiad84ia7iaNyN6Vt4d7RzmaTkomFVCS1soORiaZ8YEw08xOBOWrSoibs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_023_3aeaf3e15c20.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNVl1iaibyrTa1QY4iaAMg9HPcBFpgWg7a1W42TUKBicmRh1qGjOh5BxVLJSEhKRqWRtvWPxHLNJujvRog1RUbbGL4cNymKu0SmmoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_024_1b0e62ba4d66.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPD0Tqpab5P0bGzuzOV16hYrhHgtBjS8xaQIjbanPh0xzib8TPmPndibf73wOLwgE9Ex1H5ic4jIJFcl1Wk5XMndwWGwffb4BZOQo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_025_cde93ea64627.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP1ov3CrKTibg1cE18EGqhGGopumTZ9icJnjialvgQo89ibLSZxM56xd584pY61ia4Euoj6poKiaKCln0fbEHy4ibWlSXhF6CQoTsCTiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_026_2a321fbcafa8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPtgwYQkZ2tnPFKewtzF4ER6eY2mtYgDPiaCibIRYteFmN82j41sVzU1TzjdTm6zgficQqouHot5Hxszr3FtUn0QibXU8PVTBRzVpc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_027_b4bb8051aa00.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP3TAAia8VXs6paIdTqD4ibqHAMNh2ic9sEORkQtUQMib9eMJwDQLGCOGOGAdkhgwUQKiaEghZTyQdsAr2k2stJoLhUrjuojerX3AFo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_028_e09d3da846b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMpal5qk8sCRlNgPPkJickWjfrSJN7BBv1mgHa6fvhSpUNIZPmu6TNmSXhS7Ue053tTnsmGsjwPA26CeJDdepEYsVuQPWLVO88U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_029_20b158bbd94c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNFuceqribd4EY5CkSTicazAIjmLIONDm6HdwNE6FFMFcxKoXY464k8182fVQDDStvEiavwerBT0iacYAiarfc20icehUjuibxBypZl0Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_030_091308718ab7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOjwdaxqTtwUb8xChHDoF6NWLqqlyIW8kicpjG16dZQF7IhKlOWpkeiaib3W4whLcv2kQ6QZGWnF24WUWZQgN4ibtbzgicYwT4oibpms/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_031_55c0a22315bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNvUulj6PuWhxYGYjbHFVFLvB2hiaDeEquxXC1miaiaDDmBiaDuAVTDVawsaqmPZgwJ5rEibHe5gWPW7TLrUQicnWaEcONlm74BFZ6Bc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_032_7bfa26070055.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPEhq1BILf0TdcEMRa9j52PDMu3ALsDZjobj3B4a2WTo8TibIEmHUx2Mh4o79GV2rlhx1HP3HYnm9ov86P4u47wCU4bYgd9lG2Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_033_99a2a55855a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP6ribJMm3xAo3h81d3U8MpSL9LBekbtyx14FialIwEUiakpZcQDS4KpiaK8ploxARvjuepSNCQ1M4Z9OibNeHVORpvpCiabOBwAEWfc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_034_3870ba5eeab2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMNJ3DGicibND7jN0gVEnjiayPnd06CF7qtpRkCmep3SmKVv3kL2wicOKDC631aVPprwibxbibibf6avUSwshKiceZKMdvPHQpWRERQVlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_035_962d7cea17d5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOVsGhGndF8m4SmtiaNQpQBdQVs3OAykibG9DoYuDv4icyB67MB7lS5ia9RicvHAMPpxTJCh9LvKkibVyGUibLzHZnlasJiaG3OLAib9Oibk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_036_2562b3fa8364.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOzxbUwgSRG6W1MVRhlvSzQGbJw5HQLcHv4AP6pAMFsdE178f0hsXEnA4gjkL5j3aQKuOKUBDHQal9ML3XIP006sib6xbWy83ZM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_037_f250c98643e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNibibF8C76MB2A6tf160qdh4eDgUicdoVE9LqJIBDjb2262jzJNROTOIwOiaDOMxK9wwncg15UwEWKPX6GXBZlr95ibLoPoflt4ZlM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_038_3d7644229886.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMauY11mjPictHaE7Bn17iasPkGvKAfXZXMrN2kELNkOHFFKEPM63pMsjm7Umrl76aprDuORoeDqic73V94NB8eFGkSibmS9U2Fh6k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_039_7ba5f56582fb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPibWZv2w09msyxPSTyx891j2cITaWdM5DHCbfWv4wdMOXbspEYMNky1ccicMeHicOzELSHicsBKEsJ58kcxO9An2RQiacoXmCdIpxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_040_cfba72c9c96e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP3k6HFd0TMdg0ARWYkiaWicFkOmwg09kcKiaoiaVKaXhAIDPqjW72BBb3soXTtlibNSdEQBLUnuZJiaoXn7bTbIJ6sZs7mYGCfkdETI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_041_58a10709bcc7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOmgJ5lQ6eW4xY7JcgeTymAAuchDibhkM2ibJYWmOEe1fZVrNL0IZd9Y0FIicz2f0S5ibZprqGg54xTKWg4ibUJDgzOk37RCq4SCgZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_042_d6fc169d4a86.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMic1kqyib2t1EOLMtVvWrs3u5iaicaPltdWTdOzAHrluLurSvkYeW62ialdTLJcNxF6kI3rswesySJmsdWqiaxW6Vph0WdsnfTmCIa8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_043_7760cb0fed47.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMriaDZNFoQ2Mx42LRspbFHQVTgJVondwbxY2OH7ibic2uSISPXrZIE6KSHxY5tWyu8A5rBSpGMP7kDAytqgsWuHgf4kv6o16WLD4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_044_0466210255e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOksDnCxagyBAMye9XJLtn1ufST9k4cQA2RH6OlYibK0h9eWxCYYaCohtsZKRUcib8yZMyxdyibJM3Og1554md7fFXm5aWX1sDUj8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_045_5fc5f35e8643.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdjW9befXEx8QOmF86pup5MRO4OzEu3Q7eEL6davicCYpjKXX9YBbicXEG8j4d8Lia5ut0U69hCIKMtSje9ibRHhKywf8h6DPAbkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_046_f5b1326d1e92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPw9deKmTxxibRKRtgoicjts5hOHHxo2ExloMP2xr67TwHcCTXWO0KB4niaajIWGcxIByAhKB0xcY4FYLUEUgtflTshZdKqzZMqAo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_047_d92456cce64a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNHn4WhFMMYvMsxictuoGzhhkhGp5wzQPn31tnHPAmL0CricMxrRzKTyUKKUy4I0CFRHZcx26zxAhibia4o5dyTAbKDn3haW4IOiaXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_048_9930b6b107d2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN6ANQV9FRbhRsOxbS5yTd5WyLUX2c2syNuCDdgq5JdrORdFkTAGc2saukBCYDWSsib5Rabia1e2OibXNllz2Ddye2sI9FYkjSAx0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_049_e7e86386e825.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjd1oCofMCoVQqCFXkBF9xGadPicLuhRSlBs6kGAsHicicib7HIXeGHROdUBnicTIkXbyibBNmlicoesEvLfiadsmsHGc9PfmqTulVAv8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_050_7565b9617946.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPutJ53qyfcBTc4VfygV49xsRRP9WGyBGrV5vKJGflKavO5suOzXoEbfQLOokKAQOEQ43Nl5icnEWCTexYIGYFnPnMAasKvLzL8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_051_53e591deb451.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO5jiay2Fxj2WbB7PV9EapIo2GkIfHDcBTwKic4GWuKnhgCXod7ffaricm9gGCyRV5CkRSibcLLj0I9l5JO0CBaOm59Tj60RBI8phc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_052_a2458d6e56e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPYyA7KaG4l6FKs8NuTwSNnYsxuJpoRqpicOzW2ibJPM04eMy6VC1aOjQjhECln85gia5Sk7F7XgYFKg0HC914Snibhn8QeHHZ3W94/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_053_ba25add594e1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN3kwz56EiafmBbBlWURgUOGUhsbicSdxoAnOk28iaTsol8BOIqrHsmJ2IwokBOoGAtCM9FqVIdXRlNf8OG2nn8PrSzA2dnOxAynI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_054_fb11e7485955.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPOZwoDaOLVQNBqn7s4Zr6AcZWTeLoaxMseXyWuic3ZpE8Ny3oTnPGYMmS3hbOYobyAB0fna214VdvSLhltNAXtOfjibYMiaNuGJE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_055_cae005cf0163.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOo9ib2HMRd2M9zy2kL6uvMMuvEv959wicSOs8Q8Zu9HibG7FSVsZF3vsIkzftwhe1qCQLuJZbasYj7gpkhzCznSan7C42PDH0qyY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_056_6f3286e6362b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMcdSKaBErf1tRVISddPUkVnW6JgDgj07beTBflskJ7tTIp3et1RgNUT7vrkwqrQre6Dicicqck3tmia1diaibKu0qTYsrA3GsnjYibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_057_e0679aa41c08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNyNOibG84j1sQj2U2JibLW8CuEGY8fVvb2eJgEVw0U5ibFFEDoibFUFw8WDdFeqzoOWeLm59J2tf0nibdKsQNPhI2qF06GPHyoQYd0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_058_5295fec62e8f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkgbloeloMnQPs0kIHXLG7NmwAibVsKb1GFYLGhwfE6Cib0aicPYeUPjkmoc33AGEMTOnw5oBgE7acWVXsvTUW7pPicT88AXhsmyc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_059_32f26aff6cde.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMEalXdWOiczvU6qmK6hibT9YhaNUiaR1SdBBSdiatnh8poJ374S8S1wNXKWhzIcEK3Aue9maKbXM86WDsibHkFLE8RxpCiaEA646ficY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_060_6a09c03d9c8a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMArm1Lkr3hs8qyZOt5cGpGo7IakoqyrVAQ50tdibKFibLV7SBAqbBL0v1uBWiczQibOu5icPQTAWlA4PyocORrQziatWJUDAC8tKibUc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_061_28281ff116ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPNjGQ6lJ6WnkWuo0kx3ajsAw7NXaKXeMGeuO6tCJEhibPuNfvJ1icpcHcNg8m3eyPXO5avn4FuxajDibYMUUTZbpt61IaWDKtcfY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_062_a8b26a5ba3f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNz7icDnWdscRqYibFW23DN2P9MSpYMJQtxRpHRtjEob30NJY0wPriafEwNPqEou6AiafOJaIJ4KjnJTZTmX4QvLj0lkkXCZMnYcks/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_063_ab065f51deb9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZRqFCLlkLqqsSF5gj5B6t3g4En4OqAmqyGKG3GjknYtUDXWgRicCPBmsaLxIU8YOXibjhQzJVuGVlNQ3WUolq0rGP0pj3OXw9E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_064_22cdeb1f5003.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOEyanWGB3pnl1emAWrxhOyvB5nRDqUER74icaM9dNniaeLzNGfwuqaV2TicDH5ZWricXg9sncaI7n52MhI7iaOtNsP18VcwIzOibsN0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_065_fe8bf0a86bd4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOTAIP0dJiagOicicwkCeciab5vAZm8J3jwQWkOeyDOibeHAPMtuBHcbWHxf2ENZibo05uA5tPKCqsg6n9xG8SpovP6Ll6Bo95skgb2E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_066_2f2052528871.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZK8ibqrbY4MEQOKRsbGU4jATjgOibTlGB2khF9WtMgX1HYVem6hgdvMl8obiaNSFqjBsWibFJDMj4vnc7XA5l3sNInZYOfKfnAhs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_067_08a107e1b018.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFUia2UTnnWm4n9AZQTQuTPznU8tqxPeo9EeGiaTUNYlMstGSLibbhKyFRyYZJovGMF0D4gEfmsVCZdiaricsd32Dmm37xvs4sTOJE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_068_cbb3b07c0ad4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibKP1avPrz8nqsxxnfdtP0AicxceXbPlgIZJoaHsrf1icLYoe9qCMPrYh5EcFicypuiaBlPiaWBiaiclDCAAuR48usDguy76o7BzCxDI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_069_bb23ac9e3692.png)
 
 注：文字与图片报告无关
 
@@ -277,14 +277,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOcibhu9s3iaicvpBTKzwBvC3FqhEZWibHaiaZLPIrC9e9sKXgPvLw72fUBva2h35bqPMncfAj1q4A7wZKAicVGSk6VkLAqeUWPlnEEg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_070_a49e0c5bc0f2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOtgUTibVLmQ8BC6viaQHBGjPb1E8QdzqrlukZeDN9RiabQPMuficVHOdwcxksiaBQO8wMnxb8wYTeomZd29BwyP8rP2Ckb7icI1M8ag/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_071_c156835e8b83.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOCgViar7bmxTU4VZvwM12WLNTYQflJg3VDiaqia83dYCsX5cuwMW9fvc4txkbaia7otTFdOzibRL7ZibcvhNlTWQxqBx1smfTPsVjMs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_072_56fb285cd817.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM3npX8GhILpg0VdeVepWGMuNzlhjymcnialoQriabk1rvT6LLXTAP6LS5JZGctbTdxR6eT4Jjib3icOmSaibk7ccOu4AMZvAgyR4x0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\未来高性能电力电子系统的DNA_images\img_073_ebadfcbd8373.jpg)

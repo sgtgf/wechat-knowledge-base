@@ -17,7 +17,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicK3umvFc2ojpfsyNT4ppbJaKQ2GSicvV3054VMMPJ2rrNExtdl6ibib7LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_000_42c7ab10b4d3.jpg)
 
 特点：
 
@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicRUSguh0c7INyvOgPZWdWE7C6fibMVVE4wq6WcbvLG1XAJAVeXhtsKhg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_001_20999a26de54.jpg)
 
   
 
@@ -51,7 +51,7 @@ TO247-4S：该封装采用差异化引脚布局——两根粗引脚承载主功
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicNBBtRafykEDj2Y8BxT0U5ibDgINdw78jIZKkkHzEwE3XfyC41JXb8aA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_002_b03f2a9c6656.png)
 
 TO247-4S封装图
 
@@ -61,7 +61,7 @@ TO247-4S封装图
 
 ### **②、 TO-263-7 (D²PAK-7L) — 表面贴装的中功率主力**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFich7MgWxRNTTMu5LOjteLAjXJ5k3cRDruBHloPpsDtpwgSzr7DECibuCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_003_ce89a73f6f31.png)
 
 ### **特点**：
 
@@ -89,7 +89,7 @@ TO247-4S封装图
 
 ### **③、 TOLL — 新一代高性能表面贴装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicactNgoh0VwgDXYR3SKqFPZmPtFLFYhfAtic2C3ibWGXs1TbDlpP1sAaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_004_ee7286cbe30e.png)
 
 **特点**：
 
@@ -115,7 +115,7 @@ TO247-4S封装图
 
 ### **④、 TO-220F — 经济型绝缘封装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicMicrgzdoSKG1KCWmAH9lL0p4k5IM9BBLwR4o5E7kJMaa0peM1Ox6IxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_005_c481f0c76e0f.png)
 
 **特点**：
 
@@ -141,7 +141,7 @@ TO247-4S封装图
 
 ### **⑤、 SOT-227 — 平板式高可靠封装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicAibD6TMOaAERRp9PVXVDSUKdwV2M0DqDVJorzPwA1VTGN8hN7icImQWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_006_70911d759378.png)
 
 **特点**：
 
@@ -171,11 +171,11 @@ TO247-4S封装图
 
 ### **⑥、 DFN8x8 / DFN5x6 — 极致功率密度的代表**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicRDZPaJNdz37iaGtP51DJXZuwScx3OqA8EQcHibll41glCJ7D38sm2cTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_007_fe171f2aabb4.png)
 
 PDFN8\*8封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicNDHTEsljibozicyJ5dd3vRfHBM75lUgXJNNZ4jwCUgX791WFK02muCWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_008_520b426af07f.png)
 
 PDFN5\*6封装
 
@@ -279,57 +279,57 @@ PDFN5\*6封装
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicoLdlLdIsTkrtBDwddUIaPGclPLMDltkWSmORPYFt1Ubv0YlZHx9UFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_009_445bbe07c26a.png)
 
 HPD系列三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicr3f5ibNzpFV1YNRKE9tZGQ97udCA6fqRLk9DSor9Qzawu6b8szbg7jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_010_32fedd3e928f.png)
 
 DCM系列半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFiclC5bAPgTBEGl4UAS75dLMiaFDUMTMxOSPUzqlDJJubgT4XyxBh5K0pQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_011_bac3e1d71237.png)
 
 DWC3系列三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicuUq4bb7FLic0kP5BH8gZicD3mudQibiaFPLicd0W3icJjxKggYUHibL6X4tTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_012_c96306d4831d.png)
 
 HP1系列三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicpMBh4FBveeLia5Am2uybH4BcYu3jOiaCGyIsPAS9TjzYTCzz5MU7terA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_013_77bb35444b26.png)
 
 EconoDUAL系列半桥模块
 
 标准工业级模块：如 **62mm、34mm、 Easy、** Easy-2B、SM8等，将多个芯片（可能包含二极管、IGBT/MOSFET）集成在一个模块内，实现半桥、全桥等拓扑，电流能力从几十安到上千安。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFictzRNSDe12Hz2q2skhX1C4RbdpfiawAu8REh9fqemPO23qET5Nee1eWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_014_5df1f90b3b0b.png)
 
 62mm系列半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicEaED7mjrCcW9TsSrnWA5pyicm9K99xgmFIE01WuRO7xUyJKZrv087ibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_015_2dfd52396881.png)
 
 34mm系列半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicq8ITxruBDUMATzBiaOnpQfccMDybP1G9sHmcr4juOdt436W0MIIicTPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_016_11cc55facc1a.png)
 
 Easy系列半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicJXZibTp7klIg2WWKDjGYHYQc8ewbwlZztSfSiaTU7Pfe12Ymmh1Z0raw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_017_076014b7fd21.png)
 
 Easy-2B系列三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicyyItgjwZBwibMK6Ar8fKKLTYvGrzCialCNlp1v8H6JlIyRORmBvWFg8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_018_fcb1e090465a.png)
 
 Easy-2B系列H桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicdRxuE5EQnRAApKC2IK9nGnQPQrz0q8dLydYBwDjkO7ymjDQZ9GMqRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_019_33a7cf94fd47.png)
 
 Easy-2B系列半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicdtXb2rF6l2E28R2NOT6BrcICSjsLWrFxO0az9ybSG2gtHpjcPMX5Rw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_020_b6fb4348b9f5.png)
 
 SM8贴片系列半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFickLAyMtttD2ibmV8OTqlibGeGHDKkAHdU2BlDd9KyVM1sS79Ap71g6Fyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_021_c97a96a96d4d.png)
 
 MEK6系列三相全桥模块
 
@@ -337,7 +337,7 @@ MEK6系列三相全桥模块
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicrjJLticmhEgzzmK9LPibOJacFbRtSQRFsLwI8ZJBg6kmuhhHcEib17ICQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_022_5e6d844f1365.png)
 
 D21系列三相全桥模块
 
@@ -347,11 +347,11 @@ D21系列三相全桥模块
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicKZ29AQLQR4oiaXnWzjm6QnRCvtu7CWzOYDlUOZaewdnyyQwqicXKD1pA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_023_ee91bca2dab2.png)
 
 定制化模块：1200V1800A半桥模块拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicibywH7dUZLglpQG4XRBOPSvgbnCVIC4wZ3PfaTW9ysS1KHAnRJWbtoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_024_08c45ed9d3ec.png)
 
 定制化模块：1200V1800A半桥模块基本参数表
 
@@ -359,7 +359,7 @@ D21系列三相全桥模块
 
 **二.重点介绍：SOT-227封装MOSFET**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFic8FCC9v3qtyk73LyMXssFYBic0er09ZZRdcy08eTNRygxUl52Ipm5ibGA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_025_8b05f519aa0e.jpg)
 
 在分立封装与模块之间，存在一种独特的“平板式”封装，**SOT-227**（也称为 **MF-220、ISOPLUS220**）便是其中的杰出代表，在国产SiC MOSFET中日益常见。
 
@@ -375,7 +375,7 @@ D21系列三相全桥模块
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFiciaQLHrU8ppBQoQGAAn1jAP4Xo45pa3u9NX1F5239H9EcHuyvjSLbaJg/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_026_52c9ed323722.png)
     
       
       
@@ -406,7 +406,7 @@ D21系列三相全桥模块
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicX4TvFQ0XDFvMOibyv4OyUqicwd5vxSS9Lgeic1xQZsQibibwOIJoF9fBtwQ/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_027_117416e75406.png)
     
     1200V250A,内阻7.5毫欧的基本参数表
     
@@ -438,7 +438,7 @@ D21系列三相全桥模块
 
 SOT-227封装非常适合那些需要**高可靠性、中等功率、良好散热且对体积有一定要求**的工业应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFic88ttngAGj7N2rhI7TfwwI1NIVzzhP0HiawuQ1GfHAmTToPwlPnGOib3w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_028_08d69270532a.jpg)
 
 **①新能源发电与储能**：
 
@@ -547,7 +547,7 @@ SOT-227封装非常适合那些需要**高可靠性、中等功率、良好散�
 
 总结
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicd3Tlib2qmv4VkEYJjCnRmpewyny2vNf1yUvSNicam6iczSb4aHLJ3liaQw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_029_d0df038090c8.jpg)
 
 国产碳化硅器件的发展，正从 **“技术突破”** 走向 **“规模应用与生态构建”** 的新阶段。其核心驱动力不仅在于材料本身的优越性能，更在于**国家战略需求、庞大的国内市场应用牵引以及日趋完善的自主产业链**所形成的合力。
 
@@ -565,14 +565,14 @@ SOT-227封装非常适合那些需要**高可靠性、中等功率、良好散�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJjfWERibJm7xlps3M5EML1odhWP4tIgFVVhD265b1RJ67ia5ZjBAL8DGw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_030_a4b7c1d27c21.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslAqnzicE90uUeYNBxn4SVFicDjaP2RgJXxfuibQjjWS6jVQw71EkrOicASN4R5hovicVMwAzCDbcxPzKA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_031_1376479fc2ce.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJOZ4p3C5ROXKH5z46nNMHRWtgodW0JLx4tWAbPSUeDDfbEeQibRwZs9g/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件的封装介绍及SOT227封装的SiC_MOSFET的应用_images\img_032_00a8b5db4adb.jpg)

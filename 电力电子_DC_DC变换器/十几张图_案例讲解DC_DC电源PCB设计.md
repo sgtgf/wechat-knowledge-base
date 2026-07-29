@@ -16,9 +16,9 @@
 
 首先，以最简单的BUCK电路拓扑为例，下图（1-a）和（1-b）中分别标明了在上管开通和关断时刻电流的走向，即**功率回路部分**。这部分电路负责给用户负载供电，承受的功率较大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLt8Mtsg9ibfrgMoP5l56sTWp7LXpjZW7OtT9iaQKZwoLShFcIwD3tBWsA/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_002_e5a0ddf36e5e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbL1H5KGPdKgwEbTEgDQCsOxz4WLrNuic2Bd61WwQ9s1rStarTOYtqahjg/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_003_e94e48a2929a.png)
 
 结合图（1-c）中Q1和Q2的电流波形，不难发现，由于电感的存在，后半部分电路中不会存在一个较高的电流变化趋势，只有在两个开关管的部分会出现**高电流转换速率**。在PCB布线时需要特别注意，尽可能减小这一快速变化的环节的面积，来减少对其他部分的干扰。随着集成工艺的进步，目前大部分电源芯片都将上下管集成到了芯片的内部。
 
@@ -26,9 +26,9 @@
 
 了解了高电流转换速率部分后，让我们回到整个功率回路布局来看。以MPS的非常受欢迎的MPQ8633A（B）系列产品为例，这是一款完全集成的高频同步降压转换器可以实现高达12-20A的输出电流，其原理图如下，其功率回路（绿色标注）中包含输入电容，电感以及输出电容等器件。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLsNrhSTs2CcawVkksEACTIw3t6Rs7xBA0cpFiaaL946sljtgXRhib3AMA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](十几张图_案例讲解DC_DC电源PCB设计_images/img_004_5df4cfad3b23.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbL4k63rDdW35BIjd7DUML2FkPQjlutfFLaAq3N1CulmDp8HYklfHw9tw/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_005_128fa9d782e1.png)
 
   
 
@@ -40,7 +40,7 @@
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbL8RY55CDjqkapIeQYA6nibZbY1ZJswjJfibeuoSoymjNr0IsyRl9YqiaxA/640?wx_fmt=png&from=appmsg)
+    ![](十几张图_案例讲解DC_DC电源PCB设计_images/img_006_7b26cfe297ea.png)
     
 
   
@@ -52,7 +52,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLSsX4OmWKkb4WcToqdE2ibVfxPjnTycVYQrdCZgmueFGibX9nbnMQp5DQ/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_007_633295c129c5.png)
 
   
 
@@ -60,12 +60,12 @@
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLKFBQ2TTH18Z4Jibzd4oSo8Y7OAOvfvE2viaUQIncj9UibKUvYVGxIiaTRA/640?wx_fmt=png&from=appmsg)
+    ![](十几张图_案例讲解DC_DC电源PCB设计_images/img_008_aa8afc5d53f7.png)
     
     讨论完功率回路部分，转眼看芯片逻辑电路部分，这部分的PCB布局也是有所讲究的。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLwOrWhcic28icV4yqoDUlftGCN5Da7ner2wW89qV3aLQpqvjSrxhrFfCQ/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_009_dd7a07c09bde.png)
 
   
 
@@ -75,11 +75,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLaiafVFTUI3GU4T4bE7lVC2pxNoxQ2M7DwcwVoBISGlAlPpGWWyGplFg/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_010_a797c1d5941a.png)
 
 2.**FB 电阻连接到FB 管脚尽可能短**， 减少噪声的耦合。这是芯片最敏感，最容**易受干扰的部分，是引起系统不稳定的十分常见原因。需要将其**远离噪声源，例如：SW点，电感，二极管等（在非同步buck中，MPQ8633外围无二极管）。如图，RFF、CFF、RFB1、RFB2都尽量靠近芯片摆放。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLicRyXoavicib6IzRn9jq71eGwCVoX8sOhd56t2mMBSOT21HoC2Ga3SGlA/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_011_0daaa013ca17.png)
 
   
 
@@ -87,7 +87,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLL1A9BZrP2e0E2BeiaYubfN1rAicCBHictibicmibyD0NSOgrBF40ZeLM8t0w/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_012_93a0445e37b0.png)
 
   
 
@@ -95,7 +95,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLykBC80GbfD8JfEGrufZj7HBtHrFtQiaOVMDruhfJhvlyqBRFqPNCzYQ/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_013_c2c5c8141f88.png)
 
   
 
@@ -103,7 +103,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbL4joLiaOf5fbsaasESRiacdTWKmYq7ATaRLAjvKa6fLFkL82q3rBqJKNQ/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_014_9885114e20c0.png)
 
   
 
@@ -111,7 +111,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLicgiaZuZl7ibEEnPv3rmhz1LZ0CFYPZS1lAWYhicZOSUM0jWUX2Vem8Ghw/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_015_8c5b0ffb11b2.png)
 
   
 
@@ -119,7 +119,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLkkMuPvicCmQk37VoNPhiaeJInZLgib55VfA2IkSkpnCyZemoGRbANFSHg/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_016_c8a4ec881694.png)
 
   
 
@@ -127,9 +127,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLTA54iah8AhqjribJDuicobj7FEvD72Eqd8Zw8g5N6LcDXkic63pgRZT7Rg/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_017_2090b007d4fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQQ5TDvvpcrzEeLK6ickbLa6M55kzLia61YsAmBmewgoKkv8ufu9x8QFlExH8Jk0vBrYHxoeLHSsA/640?wx_fmt=png&from=appmsg)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_018_48b548772af9.png)
 
   
 
@@ -155,15 +155,15 @@
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](十几张图_案例讲解DC_DC电源PCB设计_images/img_019_c270758cd48d.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpQvHwjHHqyVg59KzponKUXpOg5ynXzOHs40lCXUaWtovFsNlZm4MgicA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
+[![](十几张图_案例讲解DC_DC电源PCB设计_images/img_020_a43ff79f2147.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhqpIuJpq4LeBQlj8nWjX0G7FYEibJ5shBviacYG5PHUicTsicwrfpT7MZHB49cAApCeC3aMlNvZ3AnFA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_021_aed9269d02f4.jpg)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](十几张图_案例讲解DC_DC电源PCB设计_images/img_022_854de1eb795d.jpg)![](十几张图_案例讲解DC_DC电源PCB设计_images/img_023_17c99fedbed1.jpg)
 
 ## 
 

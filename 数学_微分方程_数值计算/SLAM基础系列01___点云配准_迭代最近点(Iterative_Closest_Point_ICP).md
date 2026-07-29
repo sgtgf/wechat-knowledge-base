@@ -5,33 +5,33 @@
 
 **一、****找对应点**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41kfsPCUj4ZbxBbKezwxMH20QiagPvic96BABVYgksqczibj6uzSIHKMXyIVkWT9xINAzwicPEOiaUibtfA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_000_f4aaae69590c.png)
 
 如上面的点云图所示，雷达扫到了同一个物体，但是由于雷达本身有移动，所传回的物体的点云也有所移动，我们知道这些点云其实就是无数个x、y、z，那么我们如何通过这么多的x、y、z来求得雷达的移动距离和偏转角度呢？
 
-首先第一步，就是要找对应点，也就是迭代最近点的关键！何为对应点？在2D雷达环境下，定义两坨点云Pi,Qi，以Pi点云中的p1点为例子，Qi中离p1最近的点，就认为是p1在Qi点云中的对应点，Pi中的其它点云也一样。这就是为什么叫迭代最近点。比如下图的两个黑点，point1(30,39)的对应点就是point2(20,29)。因为只有point2到他的距离是最短的。![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43xrucicL1mUGs22tmueYMd9t243v2SkOEvRaacT0AAa1L64uOLAFgnNw/640?wx_fmt=png&from=appmsg)
+首先第一步，就是要找对应点，也就是迭代最近点的关键！何为对应点？在2D雷达环境下，定义两坨点云Pi,Qi，以Pi点云中的p1点为例子，Qi中离p1最近的点，就认为是p1在Qi点云中的对应点，Pi中的其它点云也一样。这就是为什么叫迭代最近点。比如下图的两个黑点，point1(30,39)的对应点就是point2(20,29)。因为只有point2到他的距离是最短的。![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_001_65c390ca212b.png)
 
 **二、构造目标函数**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41kfsPCUj4ZbxBbKezwxMH2cbPOJEq1wFeTCkemRS41A7osD5aicF5QmVMu9o8nR6JrzInx9FsXd5g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_002_b2bc1a6b543a.png)
 
 **注解**：P是前一时刻的点云数据，如直角坐标系下的x、y、z坐标，Q为后一时刻的点云数据(各点与P中对应后)，因为激光雷达的运动，两个时刻之间的点云存在旋转与平移，点云配准就是求出最优的旋转及平移变换矩阵
 
 **三、**求解t
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41kfsPCUj4ZbxBbKezwxMH2lY7o5uD6kC0IhwTV5Iba4yqPe61cMskD4CLfkEYF3FBTul7cPwvoaA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_003_053c548794e7.png)
 
 **注解**：代价函数F是R、t的函数，为了求F的极小值，可对自变量t求偏导，令偏导数为0，得出t与R之间的关系。
 
 **四、**求解R
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41kfsPCUj4ZbxBbKezwxMH2WmXl7MDaRibGC4ueHwr20jOdVGT6x3atWZO7wRIMufCtx1urKuHY9yA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_004_6bd236a7e934.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41kfsPCUj4ZbxBbKezwxMH2DqV7orhwejpKj5jDVIVibia9drXTYFp5ucxDHHicr7FnNytvgzqic91MWQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_005_7906075915d2.png)
 
-**注解**：因R是旋转矩阵，在完全平方项分解时,![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41kfsPCUj4ZbxBbKezwxMH2qSOWrX4SiavcLym2IyjwwLYtBVOBZhh13A01jTkKo3qD1TEEOicQcvxg/640?wx_fmt=png&from=appmsg)
+**注解**：因R是旋转矩阵，在完全平方项分解时,![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_006_989654ba0ce8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41kfsPCUj4ZbxBbKezwxMH2uWT4ur7AkbEZqNa4NJt2puT4AiaphOFS1nYgsk7d6ydXpwCeFRDvedw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列01___点云配准_迭代最近点(Iterative_Closest_Point_ICP)_images/img_007_20e6feeb9375.png)
 
 **注解**：tr(AB) = tr(BA)
 

@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/SeDc3ygZjWaSDEJv9YtyPw](https://mp.weixin.qq.com/s/SeDc3ygZjWaSDEJv9YtyPw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883klJHIqiaDa2xYic0lB84Nia2XOk1j7764Ep7o9o6oXtAOl5h24pwU512A/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633199&idx=1&sn=b88e43649815e14bdcb04042c4e526c2&chksm=88bcd8e0bfcb51f65bc9c7cfc734e65f91154c2ee2a4786c4307df28e7209c3790b54d8528d8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_001_82f0e4ee50e8.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633199&idx=1&sn=b88e43649815e14bdcb04042c4e526c2&chksm=88bcd8e0bfcb51f65bc9c7cfc734e65f91154c2ee2a4786c4307df28e7209c3790b54d8528d8&scene=21#wechat_redirect)
 
 由西莫主办的“电机NVH问题的机理和测试仿真”研修班将在本周末的上海如期举办，随着随着培训内容的最终确定，会员优惠付款活动也进入了倒计时阶段，新老学员的优惠付款活动将在周五前截止，想要参加的朋友记得抓紧时间扫码报名哦！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXtQNhNTNbHsvKic1B5kM2IFsn25csYUztnMqJn9wJIdroOZFXw3nuWjibjOK8cSzpLfWLzkM1vn48g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_002_831191f64158.jpg)
 
 电机NVH问题的机理和测试仿真课程在培训导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有Ansys电机及声学领域高级应用专家倾力加盟，倾力打造线下精品研修班与线上长期答疑相结合，辅以专业培训教材作为课后复习巩固的得力工具，免除您担心学习无法达到效果的顾虑。培训主要由两大部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真设计篇，详细介绍了基于ANSYS软件平台的电机电磁振动噪声分析流程及其详细的实现过程。汇聚了众多专业文献书籍相关精华部分的融合与提炼，培训材料从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！
 
@@ -383,7 +383,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXtQNhNTNbHsvKic1B5kM2IFiaYlJJbK7gQBTqicO7MdTylCTz20bxhB3W1bQUyYDfj3EicfgTLwopWUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_003_4d4cf761e22a.png)
 
   
 
@@ -419,21 +419,21 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883M3QFV2pyyib8CJg1QQsiauKrfxe9GP7tVtU4euRs3CrrgiaCpYEYMqLYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_004_fd8973ff890f.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_005_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW2bPUClceD7AVO6UUicSVLGeMSpfpapoYxQhXMp27OdyGwmEzR9V5woAKCFwLnib7HbN1QahE2QCtg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633376&idx=1&sn=fda47b163fdded6a866ae63881415a6e&chksm=88bcdfafbfcb56b92c73be50768bb17bfe17a6b4a92126a8aa935b35b498fb576b5eb196a7b9&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_006_b01b19ac32cf.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633376&idx=1&sn=fda47b163fdded6a866ae63881415a6e&chksm=88bcdfafbfcb56b92c73be50768bb17bfe17a6b4a92126a8aa935b35b498fb576b5eb196a7b9&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZfZ5uT2ibRZcByL2xLy5BlhOt5RDB1bx8XFXbuWveJMu1A2cV46RqXkYORGpsGpajqmHIVoKp9NQ/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633269&idx=1&sn=8f28ac859351bd4b2231024d888963d1&chksm=88bcdf3abfcb562c9531f215462522806fce32bdf5de03378ccae5cc3b5329b9385a15269e55&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_007_f7ef7569621d.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633269&idx=1&sn=8f28ac859351bd4b2231024d888963d1&chksm=88bcdf3abfcb562c9531f215462522806fce32bdf5de03378ccae5cc3b5329b9385a15269e55&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_008_96b548e7fe70.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_009_3f5511eb92d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\如何快速提升电机NVH学习基础和仿真方法_images\img_010_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！  
 

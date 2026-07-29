@@ -16,13 +16,13 @@
 
 初衷，无意中看到网友朋友圈上传了一张使用十年的笔记本电脑。想起十年前刚入职Samsung，想起那些年时光，那些点点滴滴……
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbLOmW31m5hN9mI3uOr1lxLLHPQhNicdOYSAChk0Jgkt5FcpKdORk6n3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_000_4711a3070275.png)
 
 打住，不煽情。
 
 言归正传，关于设计过程中，SI信号完整性工程师工作的流程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbODRwxUQZCT0PTH7RI7CsX1LIPOrd0gONzEvhc5SurDudicmAXyy5Jfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_001_2ebbe5feae64.png)
 
 **01**
 
@@ -30,7 +30,7 @@
 
 Intel & AMD 等芯片厂商每年会发布一款新平台Design guide，各大生产商会在接下来的6~9个月，或者更快的时间内设计出相关产品，抢占市场。针对消费类的产品，唯快不破！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbVVcA0ORVsXmLh1NJ9icicX3CO9Cn57S6EfKnGiaBoSrN5PHn3Z5gQRWUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_002_c3239653c34b.png)
 
 离开Samsung前做的最后的一个平台
 
@@ -44,11 +44,11 @@ MRT市场会根据市场调研以及最新平台的新功能，给到研发中�
 
 如果不能共用，我们会参考平台设计规范中给出的叠层，下图为8-Layer参考叠层：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbk4CIeu7HuBLVmgvtdPfEfT342QnJFkL2JmPUVCJ8VBxbntdt5G87pg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_003_fe46223c077c.png)
 
 当然，平台也会给出不同板厚不同叠层的多种选择：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbqAoQhqJa6674FJD1LRLGia7krJafa3I7boW2KjlY6iaTjG5dYlKIxF0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_004_01261d900d75.png)
 
 这样，各家厂商会根据自身产品的定位和配置来做出选择。
 
@@ -56,9 +56,9 @@ MRT市场会根据市场调研以及最新平台的新功能，给到研发中�
 
 需要指出的是，不同于高速产品（服务器&交换机等），消费类产品特别是Notebook是走线密度特别大的，经常会走双带线。针对上下层的串扰，只是给出走线Overlap建议，根本没有提到返回路径完整性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbLazwEp9ZaqmRRp9Nia9Bx7oaKBAiaF4MrpGvaY0zqMFkyxupl8hB3yzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_005_0150ace5bf9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbEaPg7ZMHoHOlolTdibg0uNs7kEiaiaLLhaEYgTjnHaFib71O1uHssJB9Yg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_006_cfadd308552d.png)
 
 30度的建议看起来容易，其实Layout操作起来还是很麻烦的。针对Overlap重复度，之前还做过相关设计经验总结，现在应该不适用了。
 
@@ -66,7 +66,7 @@ MRT市场会根据市场调研以及最新平台的新功能，给到研发中�
 
 从WHL平台开始，市面上出现了很多游戏本和超极本，为了追求产品的超薄，需要管控PCB板厚，也就需要控制介质厚度，没有所谓的远端参考，更多地需要对完整地平面做各种切割来保证电源完整性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbh0AzgGq9hX8qEEDnImUa9u0icF3ucLicNlEkhBPvuEnRUfaXe4lvjAicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_007_753987f83bd6.png)
 
 等到转换赛道，从事更高速率的产品设计中，这些操作是不敢想象的。产品的不同，侧重点也有所不同，认知也有所不同，这正是一叶障目。  
 
@@ -76,7 +76,7 @@ MRT市场会根据市场调研以及最新平台的新功能，给到研发中�
 
 根据阻抗软件算出差分阻抗的线宽线距，内存和显存单端阻抗的线宽。然后根据走线guide来评估走线范围是否满足走线间距及相互间距的要求。其实也就是满足Inter pair& Intra pair，至于其他杂线间距的要求都是可调的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbQPydVmD4DzjkdeApKvhxP5xbDL3ggRF2icicMwtNSNumz0LY4BdwPxhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_008_0b95365a153d.png)
 
 内存和显存走线也按照这种方式方法进行预估，其实内存和显卡的走线相对固定，只是可能因为配置不同，走线数量（DQ&CMD）的变化而增加层数而已。
 
@@ -96,7 +96,7 @@ MRT市场会根据市场调研以及最新平台的新功能，给到研发中�
 
 至于板材的选择，因为消费类产品成本的限制，一般不会有损耗要求，只会给出FR4 的Tg，让板厂自行决定选材，印象中，有使用过TU768。不管板厂选择什么板材，必须进行相关阻抗的管控，特别是针对内存的单端线阻抗管控，内存相关的Margin 测试管控比较严格。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbviaic2klryziaicw5ozWw8CPTk2sOMibBL9HNAdPpBaOibc22ibzQ79v3c2Dw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_009_30d858816fa6.png)
 
   
 
@@ -106,15 +106,15 @@ MRT市场会根据市场调研以及最新平台的新功能，给到研发中�
 
 比如，设计中有PCIe信号超过SPEC或者经验值。Layout工程师先行设计出相关部分的走线，然后用PowerSI提取出S参数，用ADS模拟链路搭建，仿真出结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbmfP6XaRwzibE1dkouzJ7Wibp3z79bzRoh02l0AUWmg0Wb5jsciaHavMrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_010_2c12aa62967f.png)
 
 将得到的眼图及相关指标，与协议规范的标准或者模板进行对比，来衡量是否符合标准。不符合的情况下，评估风险级别。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbf5vyOyvI5p06KjZRUqqtPW8VxHswOCKP8oxvoicD9viakVDyKuGVawhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_011_13148471e759.png)
 
 针对相关的风险点，给出备选方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbicPbzulSBiam2U9RChpUwyib1xq7icH40ObuZWeLE0BCyQ8PwX4KO1fMXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_012_af372fd2f2c4.png)
 
 **02**
 
@@ -128,15 +128,15 @@ MRT市场会根据市场调研以及最新平台的新功能，给到研发中�
 
 高速线（PCIe,USB,HDMI,SATA）差分阻抗线宽线距，组内&组间距离(Inter pair &Intra pair)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbJwwk6wlHyQtzSCibYZeYn7bmNUL8w0BZRQ9iaGPEibiak9LQSha9ibGP8ibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_013_79574facef47.png)
 
 内存&显卡的阻抗（40Ω&50Ω）及组内&组间距离（16mil）；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbOTbria5oDmLr6JlLJwZnzph0V9bibdjEUhhEIfjQicFyDnJHY6ybarpqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_014_c7f367fd4276.png)
 
 Reference Voltage(VREF)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbTqPRrot6kQL9HOJaT4YhskbAzIGcYkRkp8SXm2j4QCKfJ6LLPdJFcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_015_dd31f0af1553.png)
 
 除了上面重点部分，其他信号走线的规则，比如电源部分与信号线的距离以及一些其他相关规定，这里就不一一列举了。
 
@@ -150,9 +150,9 @@ Reference Voltage(VREF)
 
 我们需要先确定去耦电容的种类和大体数量，然后框选去耦电容的摆放范围。摆放原则一般遵循去耦半径范围大小来摆放。小电容靠前，大电容靠后，有空间摆放的时候，也可以考虑部分大电容靠前，来防止电压过冲保护。这里前后的概念是基于终端用电Pin区域来说的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbfG2tKCiaVaA8Vc2N5ticCInYNPPje4icAfywxE38nQfDJntQzmm2DMnYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_016_ada8aa59d2ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbGH0lT07M0x9OicxHpxGe5voGrGzib0W2pTjAW3q6INkkQY6CumZoWA3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_017_cb8287c237ad.png)
 
 去耦电容的数量部分，在后期产品量产后，会对其进行优化。减少电容数量，来降低产品成本。电容数量的减小，可以通过电容优化仿真和结合后期电源纹波测试的margin来评估。
 
@@ -162,17 +162,17 @@ Reference Voltage(VREF)
 
 先期我们会根据相关设计规范文件，找出各部分电源的最大承载电源，根据承载电流做出电源树(Power Tree)，来评估和确定主次路径电流大小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbGF4NtKMNVnjpCLMgwic2ltkxy3paLd5qTBuQVfMxRyePj3D6FoK1cjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_018_f41af73c70e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbeWIic2OgbjQkJum1puJvNHTgW8mQQjrjRmIIXVibC8u8wv4W7gpRrU1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_019_b0ccc3617067.png)
 
 根据电源树，来分配各部分电源大体的主次路径。协调各层各部分电源的铺垫方式及大小。一般按40mil/1A的电源来预估电源Shape的宽度。针对有些电的负载比较，一般考虑在内层给于补充，来保证其负载，同时在转换电源层的时候，要注意打孔的数量。铜皮1oz，Via10过孔通流在1A预估。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbibiauUR9MbdzrFWY3PZuicmQSjfbrGvWcdCayr6UpPERpB2ZdjFWv0tEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_020_a4febc36d235.png)
 
 这里需要特别强调的是：整个电源路径，一定要关注其狭窄部分，这部分特别影响通流能力。比如5V的电，跟后期测试相关节后的IR Drop有很大的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbttyZT6Vb8vutJ4xfLshellQ2oX0QN5ruUgD3GW50C4x2rc1urUKiapg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_021_9d7f8e617559.png)
 
   
 
@@ -184,21 +184,21 @@ PCB Gerber前检查的条目也很多，每个公司也会有自己的Checklist�
 
 我们会输出一个等长表格，来确保整个高速线的匹配。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icb8CTOYXVHXpap8MYzgL4NOXUrya8AyibCZnI4dcibqYekKb1RvP9UGbog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_022_8b258eb94f7d.png)
 
 **匹配方式：**
 
 会给出参考线长匹配方式及一些差的匹配方式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbNg0JFMSsmP7D968USw3LPpFsoUaKeIeAAMlHJ79hPwn7HMrNiabbhSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_023_57f57f91c277.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbpUHeKaDBQcF4bibick66BpZlQVPUaiaQqNwDWXWXgib97MdElfgfJEWOKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_024_441baa27315f.png)
 
 **路径检查：**
 
 保证走线路径相互对称，转换过孔处有回流地孔，远离干扰源（如电源）等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbZtapjdYYNzLaPZjpXkIdnoFPmfXyf9iaytNT3NNxoGILuMNkgdME6AA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_025_e7ab36c2def5.png)
 
 **03**
 
@@ -208,7 +208,7 @@ PCB Gerber之后，一般在10~15天回板。这段时间，需要整理相关�
 
 因为消费类产品的时效性，测试的时间一般在10~15天。测试的Item很多，时间关系，一般只测高配版本。一般这段时间会一直耗在实验室，直到测试&问题解决才能出关坐回办公室。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbQaDXJtVoHz7ibQqibMmybCXClr5raAiaSUVo8oW32kPWRCYLkqawlpJQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_026_10bfc95ec7b9.png)
 
 一、电源部分
 
@@ -222,7 +222,7 @@ PCB Gerber之后，一般在10~15天回板。这段时间，需要整理相关�
 
 如果有些电测试有问题，就得需要从源端、电源路径、终端耦合电容的摆放等多方面找出问题，然后解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icb6JDF4hsQ3fgVSgejicTKE5HrWp2aaiblxUXTWYnscwqF43TdEAXSj7Aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_027_c9fd4ad5a469.png)
 
 检查电容摆放位置（0.5 inches）之内
 
@@ -238,19 +238,19 @@ PCB Gerber之后，一般在10~15天回板。这段时间，需要整理相关�
 
 压降测试的原因是PDN有阻抗，负载电流从源端到终端，会有压降的产生。以USB3.0为例，终端的电压值需要≥4.75V，才能保证终端设备的识别。特别是小板上的USB3.0接口。印象中，开发过一款产品，卖点就是小板上有USB3.0接口，因为要经过FPC Cable，接口的压降问题就搞了很长时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbzics3ogGcvOWWtv582QQKjUS9Wls8nEY8H5zfgpcniay799EAGmQapLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_028_6629eff8b480.png)
 
 IR Drop 压降测试除了可以用软件Power DC仿真跑出电压值，还可以使用测试夹具抽载（USB3.0&1A，USB2.0&500 mA），测出终端的电压值，看其是否符合SPEC。
 
 针对Drop风险比较大的链路，PowerDC搭建仿真，根据仿真结果，给出风险预估。但是这种，只能针对主板带终端接口的链路。PowerDC搭建仿真，是没办法导入FPC Cable模型，来预估带Cable 的压降，不知道现在版本，可不可以导入使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbcrgcMHicC5wVUDMAnBsSfjCJtw42FTCICP8piczWGjKL0LjgjkNyrHqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_029_dd4717998857.png)
 
 PI 仿真三大件
 
 PowerSI 提取AC PDN 电阻，不同于高频段的噪声由芯片过滤， PCB板耦合电容作用于兆级别。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbL5dVLx1JI8IqicKzWnJGuzPjreZGfmJwtkzGMGYkPQ9vuPn8OjK9DEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_030_62486bee3393.png)
 
 二、信号部分
 
@@ -262,11 +262,11 @@ PowerSI 提取AC PDN 电阻，不同于高频段的噪声由芯片过滤， PCB�
 
 一般默认VREF的电为System Memory Voltage一半，比如DDR4是1.2V，即为600 mV。测试方法：将分压电阻拿掉，用外部Power Supply 对其供电，以600 mV为基准，上下调节电压值，同时运行Memory Stress Test。一般测试时间≥2H。一直降低或提高测试值，直到测试Fail。此时测试值和600 mV的差值即可认为VREF Margin。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbYRfYXXeA3utHGbZ3lsp5bBg53DlExbaUxJm3eadQLWmfIfm4mEicSLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_031_ac915537aa52.png)
 
 也可以通过Intel 给的关于DDR测试软体工具RMT(Rank Margin Tool) 。BIOS打开Debug port，测试软件通过修改内部设置, 让其开机时自动运行Training程序, 同时通过Debug Port输出Training的结果，从而得到Memory Margin。如下图，所得到的结果包含Write/Read Timing Margin，ADD/CMD Timing Margin等信息。也会对其结果做出是否PASS的判断。关于RMT测试的详细内容，可以参考Intel参考文档。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbibZlfoXIqwx10Zib89892afJeGZINSEMXL9os9Ve60DwkFgeibw3rQv6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_032_d23f80214b4e.png)
 
 DDR3的测试结果图，印象中Timing Margin 的最小值是14
 
@@ -280,13 +280,13 @@ DDR3的测试结果图，印象中Timing Margin 的最小值是14
 
 USB3.0,PCIe2.0&3.0等接口一致性测试，一般是对发送信号进行质量测试，一般看眼图相关指标。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbWxFHDKpxTh8PAmXdXbJ4CK7iaTxwupWyptCYoEGVsqUgGwkPmAB3gcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_033_a0cd17b8ac02.png)
 
 主板的BIOS会设定一个默认值，这个默认值可能是经验值，也可能是设计规范根据线长范围给出的一个参考值，如果测试眼图显示Fail，会通过修改发送端的预加重或者是接收端EQ（均衡）参数，来改善眼图质量，让其满足相关协议规范测试标准。
 
 根据测试结果，选择一个设置值，BIOS工程师将其设定，供新的版本使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbyOVLcMgVmIAVSgn3vrALicrNVa646fjILJ0wHCdA0Laqgib7xOiamOrMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_034_c7584b11ac3f.png)
 
 PCIE3.0预加重的组合
 
@@ -308,7 +308,7 @@ TMDS( Trans it ion Minimized Differential Signa l ing)
 
 TMDS使用的也是8b/10b编码技术，但其编码方式和PCIe&SATA等串行编码方式不同，通过特殊的编码来减少视频信号传输时信号线上的跳变边沿从而控制对外的电磁辐射，同时又可以保证接收端正确的时钟锁定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbITtstOprxibwJmSAnBolJakNH6dLrtySkYwiauxzyySgczF9w3sNInVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_035_79fc47260549.png)
 
 一个HDMI包括3个TMDS数据通道和1个TMDS时钟通道
 
@@ -318,11 +318,11 @@ HDMI 的测试需要对高分辨率&低分辨率以及不同分辨率下不同�
 
 HDMI的测试需要专门提供一个3.3 V的电源，直流偏置来保证信号的输出。这也是跟其他接口测试不一样的地方。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icb1olzEdyTGBADPg4hesuNfKOTsxXeJBBJK4CHDwxNMqNTXtibm5ziaB2g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_036_3267c5987f1c.png)
 
 测试阶段流程图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbkjYHpNEtYION2TRibCACHWmXVzMq0AvNtjDVTR9ZKogv9dUoCibHhn3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_037_26c675f1995e.png)
 
 测试结束后，整合相关测试报告上传系统。如果测试中有Fail项目，需要给出相关原因，提出解决或者优化方案。
 
@@ -344,7 +344,7 @@ HDMI的测试需要专门提供一个3.3 V的电源，直流偏置来保证信�
 
 产品上市后，会有市场问题。高速信号完整性相关的问题，比如USB3.0接口不识别、HDMI不支持高分辨率等问题，都需要我们来确认、分析与解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbWTDiaUKGcbkto4bBWWUHIic7O3UwRfkVVgEQicZ1IBgnyibiakTrogwPBNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_038_4a472b981883.png)
 
   
 
@@ -354,7 +354,7 @@ HDMI的测试需要专门提供一个3.3 V的电源，直流偏置来保证信�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icb3K8IhlHw12t2FpbqdQ4LzOAtXTemUK1GGuRKgh40uK6ibk0RF5Giaq8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_039_adb98f17815d.png)
 
 **工作流程详细图**
 
@@ -364,7 +364,7 @@ HDMI的测试需要专门提供一个3.3 V的电源，直流偏置来保证信�
 
 上周的某一天，开始准备和写这篇文字的时候，朋友圈里充斥着公司文化节的信息：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbZjtHAxrVLIPjAF4r0ZhkLeoRZDYiciamB24lUxjxFhMQ0I6kbV4qKnKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_040_3d41d4baf5cf.png)
 
 看着这些，想起一个场景：一个人站在斜坡上，喝着咖啡，以局外人的视角看着热闹。看完后，转身离开，内心平静如水。
 
@@ -374,7 +374,7 @@ HDMI的测试需要专门提供一个3.3 V的电源，直流偏置来保证信�
 
 部分图片来源于网络，侵删。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/S9BIsMrEs28wNvjMiaU7lTVH38Qdicb9icbqvML63vX6IDvtFLrQOVO0U4ZHPpA3Z9kAyYEXplnYjRXt9k6DKZYCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\五千图文_详解SI信号完整性工程师工作流程_images\img_041_5be900ea217e.png)
 
 这是广元兄的第26篇原创。  
 

@@ -18,7 +18,7 @@
 
 2001 年 Infineno 推出的 SiC 二极管是世界上第一款商业化 SiC 半导体器件。 此后,SiC JFET、SiC MOSFET、SiC 三极管等均已问世。 近年来,CREE、ROHM 等推出了全 SiC 功率模块,使 SiC 器件能够更便捷地应用于大功率场合。 本研究以 CREE 公司的 CAS300M12BM2 为被驱动对象,该模块为半桥结构,上下两管分别由 6 个 SiC 肖特基二极管裸片和 6个 SiC MOSFET 裸片并联构成,其电压电流等级为1200V/300A,最大结温为 150℃ 。 针对该 SiC 功率模块,CREE 公司推出了与之匹配的仅适用于常温的双通道隔离驱动电路———CGD15HB62P1,该电路通过 1ED020I12 与 IXD609 两级驱动芯片提供驱动能力与保护功能。 其重要技术指标见表 1,该驱动电路不适合用于 SiC 模块的高温应用,但其驱动的电流和时间等指标可以为本研究提供参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEQhIfribkCdVGmMbgq66gwxyic0qmaUicdSbicy1h6Kw8QTm71YlSS3mibmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_000_2ef08a508f07.png)
 
 在航空航天、电动汽车等应用中,电力电子变换器需要工作于高温环境,传统 Si 器件构成的变换器难以正常工作。 而 SiC 器件强大的结温耐受能力使其成为高温电力电子变换器的重要组成部分。 考虑到门极驱动电路需要与开关器件紧密连接,必须能够承受较高的环境温度。
 
@@ -46,11 +46,11 @@
 
 在由 RL 构成的 HPF 中,电感负载作为输出端,与 PT 原边并联。 而正是 PT 原边电感值的限制,导致所需的拉灌电流无法满足要求。 因此最终采用了一种二阶 HPF,隔离前调制电路如图 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEP5IHVLxwslsvxib2hFKUBEkvQvCe25NcuE3Na5DO7nYbxicwof7xXDnQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_001_46bf5d75b246.png)
 
 该电路首先由 C 与 R2 构成一阶 HPF,与 R2 并联的 R3 和 PT 原边电感 L 构成第二阶 HPF,R1 的作用是 抑 制 LC 串 联 振 荡。 在 R1 取 100Ω, R2 取1000Ω,R3 取 100Ω 并且 C 为 3nF 时得到的调制后波形如图 2 所示。 其输出电压峰值达 4V,不考虑振荡时 的 脉 冲 宽 度 不 足 1μs, 适 用 于 载 波 频 率 为20kHz 的 SPWM 输入信号。 初始信号由推挽式缓冲器 74AC541 提供,能够提供足够的拉灌电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqE9DrFpIShyibVbTpCwuVtzMOVZZcACluG8qCIM3pZd7SMFddia4et8H7w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_002_ee440862ba0f.png)
 
 2\. 1. 2 铁氧体磁环实现脉冲信号隔离
 
@@ -64,13 +64,13 @@
 
 该电路与传统锁存器的相似之处在于输入与输出端的交叉连接。 由于该电路只能被正脉冲信号触发,因此需要增加 T3 绕组。 在 Vpulse 为正脉冲时,D1导通 D2 截止,此时 Q1 开通,A 点电位为低电平,将Q2 基极电压拉低导致 Q2 截止,B 点电位为高电平,通过 R4 将 Q1 基极电压拉高使之持续导通。 因此,即使 Vpulse正脉冲结束,A、B 两点的电位依旧能够保持为低电平和高电平。 同理,Vpulse 负脉冲过后,A、B两点分别保持在高电平和低电平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEywBia2OpRwHDYbTmciauV5TaicIGngYqdUgaj2v3o6UrUxwsszxKhIHOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_003_cf5c669c025c.png)
 
 图 3 所示电路的 B 点电位能够与原始方波信号保持相同的逻辑,A 点电位与原始方波信号的逻辑相反。
 
 现分析该电路的参数选取,B 点的高电平电压幅值为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEWr3wNSvGSkscg2CIgVMOia4Br7uQeJ2pxgd0VpHpwSsE8js8FqWvribw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_004_5869d387fb8a.png)
 
 式中,VB-high表示 B 点高电平电压幅值;Vcc 表示解调电路供电电压;Vbe(on) 表示三极管发射结导通压降。为了最大化利用 Vcc电平以提供可靠的后级驱动,需要 VB-high尽可能接近 Vcc,因此可以令 R4 电阻阻值远大于 R2 电阻阻值。
 
@@ -82,7 +82,7 @@ B 点的低电平电压幅值 ( VB-low ) 即为三极管导通压降 Vce。 由�
 
 在电平转换部分,本研究采用了最简单的三极管配合上拉电阻的方式。 电平转换及电流驱动电路如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqESpQibiczTtE7pc36kDk33qSBkSU0FBHo47HQynqWaFwbXF18zQib4wLMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_005_10af9ec69380.png)
 
 图 4 中电路的输入端即为图 3 中的 A 点,选用的 2N2222A 三极管为 NPN 型,耐温高达 200℃ ,最大持续集电极电流为 800mA,从而将 A 点 4V 左右的电平跨度提升为 25V。 后续三对推挽驱动分为两级,第一级由 BD239A ( NPN 型三极管) 与 BD240B( PNP 型三极管) 构成的,能够提供 2A 的集电极电流;第二级通过并联结构的两对 BSS44( NPN 型三极管) 和 BFX34( PNP 型三极管) 构成,共提供高达 10A 的拉灌电流。 在信号的数字逻辑上,A 点与原始方波信号相反,经过电平转换电路,M 点恢复至与原始方波信号相同的逻辑。 后续的多级 TTL 电平推挽电路不改变信号逻辑,因此最终输出端 P 的电平逻辑与输入方波信号保持一致。
 
@@ -94,11 +94,11 @@ B 点的低电平电压幅值 ( VB-low ) 即为三极管导通压降 Vce。 由�
 
 但是过大的基极电流会加深饱和程度,少子存储效应加剧,使三极管的关断延迟时间增加。 因此,基极电流不仅需要在开通关断瞬间提供足够的峰值电流,还要能够在保持开通的时间范围内尽量避免注入过大的基极电流。 三极管开关速度的优化电路如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkca1jyOLVPf1EWxMgRlOxzInJ7oUxZBaxC36nULEnfWq3icpWem4OhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_006_129dbfcb1556.png)
 
 图 5 对图 4 中电平转换部分电路进行了优化。首先在驱动电阻 Rb 两端并联了 100pF 高温陶瓷电容,该电容能够在电平跳变时提供低阻抗电流路径,因而被称为加速电容,用以提供开关瞬间的驱动峰值电流,降低三极管的开通延迟时间和关断存储时间。 其次在三极管基极与集电极之间并联了肖特基二极管,且阳极与基极相连,其作用是在三极管正常导通期间, 分流过量的基极电流 。 从2N2222A数据手册中可以看出,其开通状态下的基极集电极电压约为1V,高于选用的 SD0805S040S0R5 肖特基二极管的导通压降,因此真实流入基极的电流减小,Vce上升,最终稳定在一个饱和程度适中的情况。 电路性能优化后的 M 点电位上升沿的改进情况如图 6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqExtStdB7Z7l4FLr98w9MJwp4odHBSdHCIQj4nmKmvM2Itdb0WGWTkGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_007_e54b883620ad.png)
 
 本研究使用的电平转换电路本质上是一个取反电路,M 点电位上升对应三极管 2N2222A 的关断过程,关断过程对于开通过程而言更具代表性,因此不再给出 M 点电位下降沿的优化结果。 图 6 中由下至上的 4 个波形分别为输入方波( VPWM ) 、不使用任何优化措施( VM1 ) 、使用了加速电容( VM2 ) 、使用了加速电容与肖特基二极管的仿真波形( VM3 ) ,4 个波形的横轴时间刻度单位均为 μs。 并联了加速电容后,2N2222A 关断延迟时间缩短;在此基础上,添加了并联肖特基二极管后,2N2222A 关断延迟时间大幅缩短,并且具有更高的关断速度。
 
@@ -106,27 +106,27 @@ B 点的低电平电压幅值 ( VB-low ) 即为三极管导通压降 Vce。 由�
 
 4 .实验结果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEzwhl6iclceEIBDDq85OARPWExyIcuZBEia7ibzu225h9ZphBgyo7SeraQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_008_1d047fb02a10.png)
 
 在第 3 节的设计基础上,开发了基于分立器件的 SiC 功率模块驱动电路样机。 由分立器件构成的驱动电路实物图如图 7 所示,该驱动板面积为 8cm× 9cm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEfruwF7pHc9tyWv8NAlWuGCYPNzFurASicV2v83tlboFehib9v269C0nQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_009_12b5479cf538.png)
 
 驱动电路输入、输出信号的上升沿、下降沿电压波形如图 8 和图 9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqE42kAcLXMiaNs4I1HkaibPsqbiaBmytjcALhgTnVJGCIydHHOFLTM1JZVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_010_9ed1961c3c2e.png)
 
 输入方波信号时基为 1V/格,输出驱动电压时基为 4V/格。 输出驱动电压的上升下降沿均为 50ns左右,与官方推荐驱动板十分接近。 此外,信号传递延迟约为 50ns, 远小于官方推荐驱动板的 300ns。低延迟主要包含两个原因:①在 TTL 电平下对三极管开关速度进行了优化;②由于本研究的驱动电路不含保护电路,驱动过程中的逻辑环节减少,延迟较低 。 根据上述两个波形可以认为本研究使用的电路结构能够提供低延迟并且压摆率足够高的输出电压波形。
 
 在 DPT 测试时,评价实验平台测试准确性的核心参数指标为母线上杂散电感量。 由于被驱动对象为模块结构,对减小直流母线杂散电感有非常严格的需求。 本研究采用了一种低杂散电感设计的电容板作为直流母线稳压电容并与模块正负母线端子直接相连。 该电容板为四层板,中间两层均为母线电压中点, 顶 层为负母线, 底层为正母线。12个MKP1848625454 薄膜电容两两串联后再并联提供共计 75μF 的母线电容,且相邻并联支路的电流方向相反,因此可以相互抵消以降低杂散电感。 其中单独一条并联支路的电容串联结构如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEnvsOphzL25WQM8zUXFeHPotAXkXJxUAmHNLjMK7D6PdNRIQtJXENYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_011_ba57f76f7f43.png)
 
 但出于电流测量的需求,额外加入杂散电感是不可避免的。 本平台选用 R&S 公司的 RT-ZC20 电流探头, 并用R&S 公司的 500MHz 无源探头 RT-ZP10 以短地线的接法测量 PWM 输入信号。 示波器选用 TELEDYNE LECROY 的 HDO4054 型号,具有500MHz 的带宽与 2. 5GS/s 的采样率。
 
 在常温下,通过上述实验平台对 SiC 模块进行了 500V/30A 的 DPT 测试,驱动电阻为 5Ω。 测试时,下管为被测管,电感充电至 30A,之后关断 2μs,再开通 3μs 后保持关断。 双脉冲整体测试波形如图11 所示,第二个脉冲开通时刻细节波形如图 12 所示,第一个脉冲关断时刻细节波形如图 13 所示。 波形的时间尺度以及各信号的时基与所对应的电气量均已标出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEBWsb4RrIE4SqiaUUAOicOLLEmf0SlkaxpPricAgFl01HSnhKHyANvGiceg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_012_366140f450ab.png)
 
 从实验波形可以看出,开通时间约为 90ns,关断时间约为 110ns。 开关速度不够快的主要原因是驱动电阻不够小,并不是驱动电路的驱动能力不足。被驱动模块的门极内部电阻为 3Ω,串联后共计 8Ω的驱动电阻足以降低开关速度。 而关断时间长于开通时间的主要原因是测试时Id 较小。 由图13 可知,电压上升同时电流下降,故在感性负载的前提下,负载电流在关断期间不能快速地对上下两管的Cgd电容进行充电。 图 12 中电流波形在开通时刻的尖峰主要由上管 Cgd电容放电所致,发生在 dv/dt 期间,属正常现象。 随着测试时 Id 的提升,该尖峰对波形的影响从视觉上而言会越来越弱。
 
@@ -138,13 +138,13 @@ B 点的低电平电压幅值 ( VB-low ) 即为三极管导通压降 Vce。 由�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicyicxicuM4qxG124K0ltlHRriaObjvIwuCp9iayLs5kFibYtLxjHcSEsp19w/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_013_d15c4819cca0.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicJ5nElg8SWWJyFvLwLPUUAnfDSN5icYu30QXGz5piadEuqEZpMiaiaw8Ficg/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_014_4ae671b42e05.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicfibibCs4iaKqxxnOxtE3pVibxwH5SOIzKRVesLFs49xuOFPAvicv5jceEcA/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于分立器件的_SiC_MOSFET_功率模块门极驱动电路设计_images\img_015_a825cd863f6d.png)

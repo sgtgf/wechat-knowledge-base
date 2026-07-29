@@ -24,7 +24,7 @@
 
 **功率流：**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzByOCWkKeOBVwncVZA0iaJBTjnRLzRqjHzu8g0lG4jBwos440NkeCG2m22HVeFGuqNiaJ3sKLdq5yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_电磁有限元仿真中的功率平衡_电动机_images\img_000_515c4d471d28.png)
 
 先认识一下各种功率：  
 
@@ -52,15 +52,15 @@
 
 **各功率的计算如下：**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzByOCWkKeOBVwncVZA0iaJBPtQBUmlQwnvic9F52YUFdn4qFgdKD5ic1af8Q8yiaz587OItY8Y357siaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_电磁有限元仿真中的功率平衡_电动机_images\img_001_cc049950d075.png)
 
 有限元是时域仿真，所以有求解区间T，为准确求取有效值(rms)需要选择电周期的整数倍。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzByOCWkKeOBVwncVZA0iaJBXr42X1srUlW9BPKBNdBBT5YQI2U5x8x2qgWUGLibY2VPPSzia9y5pGiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_电磁有限元仿真中的功率平衡_电动机_images\img_002_2fb04553277f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzByOCWkKeOBVwncVZA0iaJBTtQmrialOPAic8qqAEY1pF00DqAibMP3rw4Q6dKQBeDFu6UYvRWunDAGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_电磁有限元仿真中的功率平衡_电动机_images\img_003_2f0c7119dd2b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzByOCWkKeOBVwncVZA0iaJBJHs0iadnvwRve5GDbzsCpXibg00UjUf8Ixem1FQcPZ4VtLJKoWvicHe9Q/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_电磁有限元仿真中的功率平衡_电动机_images\img_004_b4be36e1abaa.png)  
 
 **重点：**  
 
@@ -93,7 +93,7 @@
 
 EasiMotor软件中有“**功效特性计算**”曲线后处理功能，从有限元曲线结果直接计算功效特性，轻松得到精确的电流、效率、功率因数。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzByOCWkKeOBVwncVZA0iaJBAllbXiboicTQVQI0A4yo6S38zrYicugZzMbjePibozwCXAn8xI4drjAWAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_电磁有限元仿真中的功率平衡_电动机_images\img_005_ade28d74e897.png)
 
   
 
@@ -117,4 +117,4 @@ _<EasiMotor帮助文档>，陆天雄_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_tip_电磁有限元仿真中的功率平衡_电动机_images\img_006_ff45e776e079.jpg)

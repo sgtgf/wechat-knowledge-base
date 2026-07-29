@@ -13,11 +13,11 @@ SiC MOSFET（‌碳化硅金属-氧化物半导体场效应晶体管）‌在能
 
 综上所述，‌IGBT和SiC MOSFET各有其优势和应用场景。‌IGBT适用于需要较大芯片尺寸和较低成本的应用，‌而SiC MOSFET则更适合追求高能效和空间优化的应用。‌选择哪种器件取决于具体的应用需求和技术要求。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlm7GiaRa7p8XJnKD7OJrW795j97alIny1MN50rrQH6KBMLSeDj18BFfQ/640?wx_fmt=jpeg&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_000_6a7f8a3495bb.jpg)
 
 **前言：**随着电力电子技术的飞速发展以及应用要求的不断提升,功率器件得到了高速的发展。IGBT作为第三代电力电子器件因其良好的综合性能在新能源发电、轨道交通、智能电网、电动汽车、国防工业等领域有着举足轻重的地位。但随着电力电子技术的发展,对电力电子器件的温度、频率等性能提出了更高的要求,以碳化硅(SiC)等材料为代表的电力电子器件走进了人们的视野。近年来,随着商业化SiC器件不断推出,关于SiC器件的研究也成为了热点话题。IGBT与SiC MOSFET作为当下应用最广泛与研究最热门的两种电力电子器件,其门级驱动与保护技术的研究对于二者的应用均具有重要的意义。本文详细分析了 IGBT与SiCMOSFET的基本结构、工作原理、开关过程。首先,通过详细对比IGBT模块(FF300R12KT4)和SiC MOSFET模块(CAS300M12BM2)的参数特性,指出了 IGBT与SiCMOSFET在驱动保护电路设计上的区别。其次,根据二者的区别分别设计针对IGBT与SiCMOSFET的驱动保护电路。在上述研究的基础上,搭建了双脉冲测试平台,对IGBT和SiCMOSFET的驱动电路和保护电路进行测试,验证了本文所设计的驱动保护电路的可靠性与先进性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl2JLCZYnwEBzdUc0nRNg3IXfomjX1UdOyV6NmX92kcVnZVAibIVgaVzQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlsEhPQ8Fz1NXp5pBNwWU5EQvQvZfSdtjj4ekJHoIygKOOia4ZjhziaR8Q/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_001_350b798bcdb3.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_002_dc80500e3bbe.png)
 
 1.  **绪论**
     
@@ -88,15 +88,15 @@ IGBT同时具有电力晶体管GTR和电力MOSFET的优点，具有开关频率�
 
 IGBT的结构类似于MOSFET，是在N沟道MOSFET上发展来的，如图2- 1所示。IGBT是在MOSFET的N+区增加了一个P+型衬底，因此得到了一个大面积的P+N结J1。当IGBT导通时，P+型衬底向N-漂移区发射少子，调制漂移 区的电导率，增强了IGBT的载流子密度，降低了IGBT的导通压降，平衡了N- 漂移区高耐压需求和导通压降低需要之间的矛盾。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzleqibicMRKAhrgAFgqSR515GBibRACfPn3BYmFXia88r0qr3P6PbvSSbEzA/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_003_4cf0809970b5.png)
 
 IGBT有三条并联通路存在于集电极C和发射集E之间。第一条作为IGBT 的等效输出端，它由含P+—N+—N-—电力MOSFET栅结构的N区域构成的N 沟道理想MOSFET通路构成；第二条作为IGBT的载流通路，由P+—N+—N-— P区域组合构成的一个PNP晶体管通路构成；第三条是由P+—N+—N-—电力 MOSFET栅结构的P层和N+区域一起构成的寄生晶闸管通路。第三条通路可看 作是寄生NPN晶体管和PNP晶体管组合构成。另外，在寄生的NPN晶体管发射极下的P区存在一个基极-发射极电阻Rw，该 Rw在实际设计IGBT时应采取相应的技术工艺尽量减小，使NPN晶体管可以忽略，避免IGBT因擎住效应而发生失效损坏。如图2-2所示为IGBT的简化等效电路和电气图形符号，当Rw足够小时可以忽略，NPN晶体管基本不存在，IGBT可以看作一个由MOSFET驱动的PNP晶体管。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlqpibcicPEJva8V43kib4K7vGG5ZTJyeb0f3TyTic5lbfKcsvJ5avBLGFibA/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_004_fa145f5a3a59.png)
 
 **2.1.2 SiC MOSFET器件结构与工作原理** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlcYSbG2oQUcYl9NicJMSSqH6Qck4rnGiayKtricfHFJ9Kuwqx1YtKmbWSA/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_005_b79509883421.png)
 
 当前大部分的功率MOSFET的结构是垂直导电双重扩散MOS结构，使用这种结构生产的功率MOSFET被称作VDMOSFET（其中V表示垂直，D表示双扩散），如图2-3所示为其基本的单元结构。VDMOSFET是在N+衬底上面生长外延层（也就是通常所说的N-漂移区），在该外延层之上使用的是平面自对准 双扩散工艺，分别形成了p体区和源极N+区，而在水平方向则会形成自由电子 （也称为多子）的导电沟道，该沟道长度通常只有1~2μm。 
 
@@ -104,7 +104,7 @@ VDMOSFET的基本单元结构当中，PN结由p体区和N-漂移区形成，器�
 
 SiC MOSFET的开关电路等效模型和电气图形符号如图2-4所示。采用了输 入电容Ci ss、输出电容Coss以及转移电容Crss来反映各个电容对SiC MOSFET开 关过程的影响。式2-1给出了输入电容，输出电容和转移电容的表示方式，由SiC  MOSFET的开关电路等效模型可得，输入电容Ciss决定了电路的RC时间常数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl20tiakofsgXWmG4NvPhdY7196CKIDrOphxSKbpyxAECeEUTebJ2Sk7w/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_006_4aa004e31fa8.png)
 
 **2.2特性对比** 
 
@@ -112,13 +112,13 @@ SiC MOSFET的开关电路等效模型和电气图形符号如图2-4所示。采�
 
 本文根据击穿电压和额定电流相同的原则选取了Infineon公司型号为 FF300R12KT4的IGBT和CREE公司型号为CAS300M12BM2的SiC MOSFET作为比较对象。表2-1是FF300R12KT4和CAS300M12BM2两种器件的参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl6ibOQia4qPJjTbFfEUUe6Dyxl4QAFicxMeCIPNnTf6Gu76OwDWzfD2z1A/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_007_f6660899f1da.png)
 
 **2.2.2转移特性** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlh4Tmj8IGOLadgf1SxXoxw1yWKVC0ibUjtDThI6cFfUCz5CHkg5oEm4w/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_008_09d56947bf89.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlKEbBw6YdkdLfkfibDL9x2toLzECz5dTuGHKElsKEzias5vLnK53T04jQ/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_009_5eb94cdda3c2.png)
 
 图2-6为FF300R12KT4和CAS300M12BM2在栅级驱动电压变化时I-V输出特性曲线。由于两种器件的跨导不同，FF300R12KT4的非线性区与放大区有明显的拐点，而CAS300M12BM2则没有。FF300R12KT4的I-V特性曲线斜率 在Vge大于11V之后变化很小，而CAS300M12BM2的I-V特性曲线斜率在Vgs大于14V之后变化较小。由于CAS300M12BM2的跨导系数（gfs）小，沟道迁移 率低，此时为了使导通电阻低，必须使其驱动电压高于18V。所以CAS300M12BM2与FF300R12KT4所需的驱动电压不同。  
 
@@ -126,9 +126,9 @@ SiC MOSFET的开关电路等效模型和电气图形符号如图2-4所示。采�
 
 由IGBT与SiC MOSFET的结构可知，二者的开关过程十分相似。本文以 IGBT为例，来描述二者的开通、关断过程。将IGBT与SiC MOSFET开通和关 断过程主要分为四个阶段 ，如图2-7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzltrAXibbrj2rricCibQmOWmqDFAKYdKpF17SSgicibwVQqPoevmsrWtSa4pw/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_010_4b3ab4fa458d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlddJE3zo9yZNdFTmyrIQB42HXfEf0RPwibIEnAEEWVEuhb4o7AyDiczXw/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_011_4a690cf663f5.png)
 
 **2.3.2 SiC MOSFET安全工作区** 
 
@@ -140,17 +140,17 @@ SiC MOSFET的开关电路等效模型和电气图形符号如图2-4所示。采�
 
 转换安全工作区由寄生二极管最大正向电流极限线（平行于横轴）、最大重复电压极限线（平行于纵轴）、转换速度线（中间曲线）构成。它反映SiC MOSFET 处于高频率的开关状态转换时体内的寄生晶体管对其转换的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlCNTywZEte71PQt44l6KbkRPvHVx7UdwK3XwS5j47BhdTZ1YsdKw92g/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_012_1fd70361e64e.png)
 
 **2.4功率损耗** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl0R8hI4s4l33L2M03cMiaYeRNDiaMiblzJPIZXNb59cRQVXduuoe801fFA/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_013_44c7b6bb0f7b.png)
 
 电力电子器件工作时均会产生功率损耗，如何减小功率损耗也成为了驱动保 护电路设计工程师考虑的重点问题。电力电子器件主要工作在开关状态，并且在 静态与动态工作中交替往复。每个工作状态的功率损耗和能量损耗之和即为器件的总损耗。图2-10为功率器件在工作中各种可能的损耗示意图。 
 
 在功率模块的损耗中，IGBT或SiC MOSFET本身的损耗占绝大部分，即通态损耗与截至损耗。通态损耗与直流母线电压、负载电流、驱动信号的占空比、 结温有关；截止损耗是指IGBT或SiC MOSFET处在正向截止状态时的功率损耗，一般情况下截止损耗非常微小可以忽略不计。开通损耗和关断损耗与负载电 流、直流母线电压、开关频率、结温有关，此时的驱动参数应保持不变。续流二 级管的功率损耗也占总损耗的一部分。因此总功耗为： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlYeR94qicibtGSgjg6t0waiavCvP2Fy1ZFtzVUEXm97Yic3tGTg09oxZbbg/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_014_f0927cd50e93.png)
 
 **2.4.1开关损耗对比** 
 
@@ -158,44 +158,44 @@ SiC MOSFET的开关电路等效模型和电气图形符号如图2-4所示。采�
 
 图2-11为FF300R12KT4与CAS300M12BM2的开关损耗随Ic、Id的变化波形，可以明显的看出CAS300M12BM2的开通损耗和关断损耗比FF300R12KT4 低的多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl7p1xHE3RM2erXcsFfkxrhpYiaas82yL7MJ4qYVv5K6QWticLmUh32a1A/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_015_dab77a8035eb.png)
 
 **2.5短路耐量** 
 
 无论对于IGBT还是SiC MOSFET，栅极电压的正负取值大小由击穿电压决定，即使是瞬态值也是如此。栅极电压的大小直接影响着器件发生短路时的承受时间，即短路耐量。当栅极电压增大时，器件的通态损耗会随之降低，但是降低了器件在短路状态下的承受时间。若栅压偏低又会造成器件不完全饱和工作在有源区，这样会因耗散功率过大，结温过高影响器件性能，甚至有损坏器件的风险。图2-12为IGBT短路特性曲线，从图中可以看出，IGBT发生短路时，集电极电流CI会急剧增大，同时IGBT承受短路状态的时间却急剧减小。对于SiC MOSFET 总体趋势与IGBT相同，但是SiC MOSFET对于短路的承受时间比IGBT要短的 多，所以SiC MOSFET在栅极电压的选择与短路保护方式的选择方面与IGBT有 很大的不同。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlQIvsAxZUKezBklDFeooWyxqkGDcL9GvKO1uItRty6TCda5p3onDykg/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_016_76ef3ef84098.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlpzHfCVXWtm7zVaFbtnAHabs00OvESYFiayn855SXRnldRPicNzaE2qSQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl1XpsJEFFqF2xicl9UGPnVLCXsyHCPMvYro3Ly5nFGD9BB6ZONSF2hZQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlbk8ASt7BZ8TI9EpRgadfjp5ImI8WN0hGgBswjt4VXEM5w6yTzzCQrQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlIP6pTYoMKm2e00E54zqZlGmhN1Lw11VoesdA0sjMROtwtOA6EDMicnQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlyaib3nicIqxiaSLzyTgZN03111mWMykc7RD61PgMYk7ahWJhq0Y5mwOVg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlZxXfL4VfwG5lBib9TCL2ibglnxGJLfxdBSCGNRFicV3CQJ91WHfjuiaxew/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlmIFKSFAMB7qFyMrGv6eqYlBaRZicfXodTzHHzmCKKN5VkvhwdbudicFg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlSN1ubRhOS9hujkTUzLoyhTurAJ0NLWLpcpicybsoAxJdhqcJ5PibqN5A/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlzvLrFbXwQ8dO2iaUbqDMuNFP6vCFPov83gUULibfReSfERag40y6eiazw/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlHOHiaYqXib4xWTIj0OgLt19PmSWeNY4ItWenM9Jjubp3DF02bxjG5pYA/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlTcD1DMa7EhROaCicVHzOicIvkfeeNgocfQgSXMzs0R1ArKNFm3o6vu8w/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlJeH8RV1YQPNPlDbDTJYUvicA6KXcJX4hqg2sHsibEcuTT2NV29flLypQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzllBEjGiaklZEoicichUglqPHZ6qMvKv6Q14YpugLHBKWgicy4ia7TNR5OsDw/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlCpjfHP2EVpMEmvt9Fic2JKHP6epD4aQLuUicznFakQxJvYSbVvefZA7A/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl2NMjcbD9qpDPwMkB0sLnwo3yzns1XclKUqADq6kuhnW0jlCicmm4Ekw/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlJ1JI7NG8aKpe1BU4dvibCkZibLHicb2GTW8jSOXs43yJJD6lJLvfzcGnw/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl6EBY6zaziaE0iaayqUcVJqiby5vU2slPZBRQkXJD94l7e5F0aSL5r77Gw/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlaiaWonOgmyILDmdO2ydicco6RRplRv8eAdZyfKxuicXNVSJTpeDnJKpkg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlIL6SyJBEm1p3ib2p4j7g05dTicBHaASg1mB8cYctplicQpz3l4wpaK3zw/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl3HFO0dnsBxm7ON469jtQ9jx4ZxDBOJFRDpuQrz4E8dTaPlTic5yEmgA/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_017_14e5b7b57831.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_018_a0783f028d25.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_019_a914436086be.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_020_5faac207d593.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_021_ddb63eaa9d33.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_022_b4ff3352162a.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_023_07b1fcf8f8cf.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_024_fda6765647ee.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_025_cac62576724b.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_026_ab26b328c893.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_027_d1bef533275e.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_028_7ed43b6eecb7.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_029_a32cc974069f.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_030_dd2163cb2971.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_031_10099d0e29ef.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_032_6741dbf2d3c7.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_033_81593a883867.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_034_73e4f4149713.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_035_c00501ab623b.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_036_eb234ab9889a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlqCymLrXfiaMTDfdEHW2WDUPJF0YrZutNNZMZF2oAMXbtAmJs4fcdqwQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlxmMWyIHqbUkIyjteaUO490MRju3mbh1SgN5W1sFFkO4kCAanKfWB9g/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlibHTfU0ZHnhicNHpD0LhL4FW9RsfGicIJL53BpbazBGulPrqVbzpKQfGQ/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_037_04fa33c9b871.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_038_c953c9e03f13.png)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_039_aafc7eba6d3f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlZRCzBSE6ecyzibaTuXljd1WFS9YnxV6oYrrKvFqZaoswlUFTrZT3DQw/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_040_3968d50418fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlkf7iazZTh94OYmFI5tRqPria4PaCM6TIibiaQGvuicDXhISWA3M6ph5pFWQ/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_041_165123532748.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlyyfwsOjiaNc4lCWTjIQaB3a4ObD4R6d8sOEeUxicQLj66dVuJibnfLq9A/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_042_261fefde9886.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlwhwwIibupC8mhicRufIaiaVkAhmIwE24v3vWMxpY17g14pn0sBaRaOO5w/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_043_b1952b668b0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl15fAKLXicookQMibDWynoNWiaBj8pya3Nib8hmFRdAPSFqice4cc8uYibeRg/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_044_abee8380720f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlcibRPUrBu4YTlle0u0MxjYfcUzN9iaXKBHicDLljCfJjeh6ouz7NONW1Q/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_045_56b2e168e844.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl2xQyvVf9ZU4ibqlvdsc4edpiaC1tT4icC0ib6LaQaMAxjVFlocqrEWH7zg/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_046_1ea2292f0c22.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzloMmbAnTvhoeXFyRCFsxhgviaQ42rBV6EkoDwDehYfbqoqsdN2VsChTA/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_047_e2ea4f970e8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl9EdSb0S2vbcNLSTsGtgrwLNE4Vxr5ibUb6KU9vDMhY7AHdAUVzxiblXg/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_048_e55d3fb2987b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlnrCKZ0a5zwGJjAgicF3yhM1JrGuxsLJe7PriaKMEykoySYA1BxIJOF8Q/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_049_bc24c72a3d32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzlII8ib1wdsbticRib6ZxbRCibdxzszBH3uTSydh1onzLvflyn4JwPlcYRpg/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_050_e9869903994f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZu7I0P5OZUrelb2ibR0dzl9GUQceVAVcKQqHwd5cHujOcCBgw9Iic3p3AJPL3AGwXic7C6eDgUcG5A/640?wx_fmt=png&from=appmsg)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_051_d9e33a5ea76d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_052_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_053_3ade3c3d8599.jpg)![](1200V_IGBT与SiC_MOSFET驱动保护电路设计_images/img_054_84aa944feb13.jpg)

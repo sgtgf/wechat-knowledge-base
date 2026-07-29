@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/0HC\_6O4TzE7mAHlwqqSYEw](https://mp.weixin.qq.com/s/0HC_6O4TzE7mAHlwqqSYEw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8yTfJJON7BthWhjznB1Ug0HUUoJmI5lFuR1Pyn6BVpewIRIvgyol1xw/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_000_396b801008d3.png)
 
 ____**★★★**______**DC-DC-10---COT反馈控制模式**______**★★★**____
 
@@ -13,25 +13,25 @@ _€1.滞回模式（恒定导通时间COT）_
 
 电源常用的两种控制方式，电压控制和电流控制。不论是电压控制还是电流控制都要用到误差放大器，它实际上就是带RC的运放，如**_图10-1_**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTadciagICXibZt20kpEkmGebPAlUicZNgkgCGLt4GPeWuZXpUHpaQeia1OGIgLJibY9iaw7ibWRLibPOG31Q/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_001_c6b492e96c8f.png)
 
 _**图10-1：内部误差放大器结构图**_
 
 为了让电路工作稳定，通常需要合理设计其中每一个参数，另外如果输出电压发生变化，误差放大器的RC和时钟电路会把输出电压的变化延迟一段时间，再反应到控制电路，这样会降低响应速度，不然改善瞬态响应可能又需要重新去设计误差放大器的参数。如何平衡稳定性和瞬态响应又是一个比较矛盾的问题，于是我们把误差放大器换成比较器，同时把时钟控制的PWM发生器换成电压控制的On Time发生器，这个就是最基本的COT控制（**_图10-2_**），它的基本原理就是FB电压低于参考电压，就产生一个恒定导通时间的脉冲来控制上MOS的导通，做到既没有延时，也没有RC补偿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0MY7UeUjvUzWHn43EL4KkqYpkdXCv2nibXsKDoUgVfSTHwBLpa809z7A/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_002_c9931f3d3d44.png)
 
 _**图10-2：基本COT控制图**_
 
 但是如果输入电压不一样，开关频率就会发生变化，于是COT控制会检测输入电压，实现输入电压变化时开关频率很低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTadciagICXibZt20kpEkmGebFDrH9RU9eQKwJP99xv2kRfRWc19Tnmphkxco4m3zGO7X3kabXjnOSg/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_003_9e7ca2b81ed5.png)
 
 （K为常数）
 
 同样，COT控制也会检测输出电压，实现不同输出电压时，开关频率恒定。这才是一个常用的COT控制，但是与此同时如果输出全是磁片电容，还是会遇到不稳定的情况。因为COT控制需要FB电压存在一个和电感电流同相位的纹波，所以需要一定的ESR来稳定电路系统，ESR比较大的高分子电容或者是电解电容，这个同一相位的网络是存在的，稳定没有问题。但是对于磁片电容，ESR太小，没有办法保证FB上的纹波电压和电感电流同相位，所以就没有办法保证稳定。为了解决这个问题，常用的做法是在FB上加上如图所示的RC电路，产生一个和电感电路同相位的纹波：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0InSf29yCP5yjd6AyJrMmb58L4KAPhUEuqk078Ar7s6ic68UzvRwNg8w/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_004_ee1373a91b4a.png)
 
 _**图10-3：带外置RC电路的COT控制**_
 
@@ -39,23 +39,23 @@ _**图10-3：带外置RC电路的COT控制**_
 
 综上所述COT控制和纹波息息相关，所以COT控制也叫滞回控制方式，是针对需要极快负载瞬态响应的负载（例如CPU和FPGA的电源）的需求而开发出来的一种方式。因其可以检测并控制输出纹波，故也被称为“纹波控制”方式（_**图10-4**_）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8CsiaV44Zm4cIvEsUBLRlckawWKbyMG6BA8S9SVxyrjoKjlxs6JSiaXdQ/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_005_75e9cd397729.png)
 
 _**图10-4：纹波检测**_
 
 这种方式由比较器来直接监控输出电压，无需借助误差放大器。比较器通过检测输出电压是否已超过或低于设置的阈值来直接控制开关的 ON/OFF。具体包括两种方式，一种是导通时间恒定，检测是否低于阈值；另一种是关断时间恒定，检测是否超过阈值（_**图10-4**_）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8ibNI8db5UjGj2ZLcN5H1IJhjS7XRZUCxJoZfqOnchlbaX49FCEzITZw/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_006_6f2cd438f0c8.png)
 
 _**10-5：滞回控制模式结构图**_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8qYcj4nvI73CqBaCWKQX8J1lTUibNyiawFX1mEWLc0drtcogmTVGuqQKw/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_007_9f8808f1a3bc.png)
 
 _**10-6：模拟负载变化响应波形**_
 
 通过_**图10-6**_可以看到脉冲宽度恒定，但是振荡频率通过ON时间进行调整，黄色框内：无滞后，对负载变动可快速响应，延迟短，响应快，工作原理简单，无需相位补偿的调整，设计相对简单，振荡频率因输入输出条件和负载而变动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTadciagICXibZt20kpEkmGebPQ7QsU0gQ73afYmxn8S3tVH5J2LJqsyHCUglzRkuTyP8uLVbcuPJicA/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_008_77679e053bcc.png)
 
 _**图10-7：COT振荡**_
 
@@ -87,7 +87,7 @@ _D-CAPTM_
 
 类似于COT控制，除了单触发定时器产生与输入电压和输出电压成比例的接通时间脉冲。当下降的反馈电压等于参考电压时，产生新的PWM导通脉冲。通过控制回路中的高速比较器实现对负载变化的快速响应。D-帽™ 与滞后控制相比，使频率偏移最小化。当需要快速瞬态响应并且使用POSCAP或中等ESR输出电容器时并且不需要环路补偿计算或组件，可以使用D-CAPTM。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSic28LnjG3gtOLug9u2eK74K7Pl9tZ2mET0iaQxicx62MpecibhwJBKpPnOS7Frx2BKZnjQcLMFeYUAw/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_009_c81c61521547.png)
 
 _**图10-8：调整波形**_  
 
@@ -99,7 +99,7 @@ _D-CAP3TM_
 
 D-CAP2TM的变体，具有相同的瞬态和外部组件优点。转换器内置采样保持电路，以消除D-CAP2TM模拟斜坡电路产生的偏移电压，从而提高电压参考精度。非常适合为低核心电压FPGA、ASIC和DSP供电。当使用陶瓷输出电容器时，需要更严格的参考电压精度和快速的瞬态响应，可以使用D-CAP3TM。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA07p0MV9GPh2aEAUMJwYV9aefrvDFJic6FSlM6FubLJuibYzWe6n7DfouA/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_010_a99adb24ddc8.png)
 
 _**图10-9：D-CAP3TM原理**_
 
@@ -107,6 +107,6 @@ _€4.DCS_
 
 直接控制，无缝过渡到节能模式将迟滞控制的优点与电压模式控制的优点相结合，前者可在无补偿部件的情况下实现快速瞬态响应，后者可在从PWM到节能模式（PSM）的无缝转换中实现高直流精度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0zMibg1JJawwPKfZAzK5z74SXR48ZbyOQqiclA9dN3nNpvX8Yl9eiaXgXg/640?wx_fmt=png)
+![](DC_DC_10_滞回反馈控制模式_images/img_011_fd8f7ea855bc.png)
 
 _**图10-10：DCS控制逻辑**_

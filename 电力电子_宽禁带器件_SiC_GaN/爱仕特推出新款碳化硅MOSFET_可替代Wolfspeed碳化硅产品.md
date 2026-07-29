@@ -5,23 +5,23 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/G82XNUOiaHreVWvibeumWEq8Rcvu3sBR04RlDiaia1SkVDRjK0WEz5DziaFm55LdaDRqSYbzP3NL0cCRRbMnnOrlDwA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_000_9ff3cfcefc84.png)
 
 **深圳爱仕特科技有限公司推出新款碳化硅MOSFET D02（DFN10\*12)封装产品，可完全替代Wolfspeed 650V碳化硅（SiC）TOLL封装MOSFET C3M0060065L。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/G82XNUOiaHreVWvibeumWEq8Rcvu3sBR04jiaYXRxkNgXBN2rf63Tbxia1o0Bm7r8ic0gS0OKjlBlcFHYYRL32ub4fA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_001_5fa9484d1381.png)
 
   
 
 爱仕特碳化硅MOSFET新款 ASR45N1200D02，导通电阻为45mohm，额定电流为40A，可应用于通信电源.电动汽车充电系统.储能电源.光伏逆变电源和电机驱动等领域。ASR45N1200D02采用双边扁平无引脚TOLL封装结构，且背面金属焊面更大，降低了内阻，散热性能也得到大幅度提升，而它的低引线电感意味着可最大限度地降低导通损耗。超薄型封装尺寸紧凑又节约元器件净空高度，ASR45N1200D02因此能够灵活应用于尺寸或内部高度受限的系统。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/G82XNUOiaHreVWvibeumWEq8Rcvu3sBR04aYIZC4h0cgrQtfuqdY5ucXXeWcoV1UXGqVD2ialctQ1gicAibFrcx76KA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_002_c12d299692c3.png)
 
   
 
 随着下游行业对半导体功率器件轻量化、高转换效率、低发热特性需求的持续增加，爱仕特从性能、成本等多维度协调发展，在系统向碳化硅转型时，不断研发新技术新产品，满足功率器件更高功率和更低损耗的发展需求，利用高耐用性的封装实现产品的更高可靠性、更长使用寿命，助推碳化硅功率器件在“3060双碳”战略重大背景下的规模应用和实践。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLIIgHgVViaiaukC8WnjOjm8GJy9H53Q9BianAttxHsbvRJvDXvRpd7sv6OhibadicpDXhnMDgRdVxKRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_003_83c37f7805a3.png)
 
   
 
@@ -47,16 +47,16 @@
 
 自2017年成立以来，爱仕特致力于碳化硅功率器件的研发与产业化。公司建立的车规级SiC MOS模块专用工厂，已实现全SiC MOS功率模块的批量生产。爱仕特不断提升技术研发实力和产品创新能力，于2021年获得国家高新技术企业认定，并通过IATF16949、ISO9001等质量体系和AEC-Q101产品可靠性认证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLIIgHgVViaiaukC8WnjOjm8I0dmRJPGianNZmWm1Enib6na5MIPOAZMxIvQia2QRBRnuMtibicCeod7DIw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_004_3e264512ec5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLIIgHgVViaiaukC8WnjOjm8gRXUAhRAxCU1frZ7410luKVB77pgqia4lUpGXicibsfAtNqMa8nNiaJauw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_005_cf4e9d31e012.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLIIgHgVViaiaukC8WnjOjm8JwiaLeCjaqDclhgnVdR8zyl01ss1V7CiatuxcKTX1pmjNgJ8zPJic9Rpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_006_1734d1422e19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLIIgHgVViaiaukC8WnjOjm8XfJyt7GxfRFmG2BOiboZ2u26A8u3ZibsBYND6cdvkjd1Z5U94HLjsBkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_007_545c9db5c9d7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LdzQ5A7AEYtqPwgY9NujrdrLPnVoNHISfSeFhJ3tbZ3icHxLAm6GISkA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_008_3b411e02dcbc.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=pngwxfrom=5wx_lazy=1wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特推出新款碳化硅MOSFET_可替代Wolfspeed碳化硅产品_images\img_009_12b12374ccb0.pngwxfrom)

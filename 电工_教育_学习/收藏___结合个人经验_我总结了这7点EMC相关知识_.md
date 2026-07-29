@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgFFfJ1EyO9UrVYJL4k0cicv9fIExvZz42wYyeWpUB4icoqWtHzgCX87ndrsmX5paSQZ2xwpN0habdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_002_0cfc62805a5d.png)
 
   
 
@@ -52,7 +52,7 @@
 
 镊子，胶带，铜箔，电阻本，电容本，各种X电容、Y电容和共模线圈，还有相关的测试工装。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgFFfJ1EyO9UrVYJL4k0cicvIPGDvuDzicCiclxew8yF4y0M40ia8WzvLXiahS2ZZ8mZeaueyHqkmmEoKA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_003_702cc4e675b5.png)
 
   
 
@@ -76,7 +76,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgFFfJ1EyO9UrVYJL4k0cicvP6X4KTnIPE0WTzQjQwcgVptgt8xHrXPnzpaJqCvWK8X4GpgtPO0nEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_004_fc9cdb8fa29b.png)
 
   
 
@@ -102,7 +102,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapkkWbL6Rd3gYOMmPBu2c01WYMzSx4eC6djEgn8CwKJiaWLbCjvYdIeJsONck0ticqR515jj93mvdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_005_b6a67a618af6.png)
 
   
 
@@ -120,7 +120,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgFFfJ1EyO9UrVYJL4k0cicvfGEs9I701yfaBE1jH2BGwCk9EBwaibQgxpZia8J52dBeicEj3YmbdfxEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_006_4144afcba3a8.png)
 
   
 
@@ -140,7 +140,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgFFfJ1EyO9UrVYJL4k0cicvg7y9H0KmHf6xfzNw7hRstGXWk7rf4ibVcu85LWkwN49ww5Z1gJsUM2A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_007_15fae800999a.png)
 
   
 
@@ -162,7 +162,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgFFfJ1EyO9UrVYJL4k0cicvBydQmEKqeyp5IicyNVhqic6XPibQJLRH0B80icB2z0HLPibIXabdI5OYghw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_008_f0211ddf6192.png)
 
   
 
@@ -188,7 +188,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgFFfJ1EyO9UrVYJL4k0cicv4B8OloXu2fFUwhh9fpMwN5coRRXBvj96BFXwtKJ5aLWEypzja7nNFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\收藏___结合个人经验_我总结了这7点EMC相关知识__images\img_009_ae55261f041a.png)
 
   
 

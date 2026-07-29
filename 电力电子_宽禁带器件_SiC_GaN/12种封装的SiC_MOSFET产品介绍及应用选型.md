@@ -5,13 +5,13 @@
 
 SiC MOSFET，即碳化硅金属-氧化物半导体场效应晶体管，是一种基于第三代宽禁带半导体材料碳化硅（SiC）的功率器件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNMcRCvgx45WkUKxpwQOj3Ogta44T7eAz6r1FON6jkLPdFYzyQVp2zP7NGeo2H4jL1MIAg0emwkyDvU27PUrVlVYSILYEnBKk4/640?wx_fmt=jpeg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_000_a3b84f93ff9b.jpg)
 
 图片来源：网络
 
 相较于传统硅基器件，SiC MOSFET凭借碳化硅材料的高击穿电场、高热导率等特性，具有耐高压、耐高温、开关频率高、导通损耗与开关损耗低等显著优势。它能大幅提升能源转换效率与功率密度，是实现电力电子系统高效化、小型化的关键元件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPzMYCfowFnjCnIyZLgvKq4ib6TmJC9B8mAhePjZpf41NKS9RP4JjmicwKe70aUDlJufapmG4ibwwdia8CpSZCZyqjkXk00JW8qzsw/640?wx_fmt=jpeg&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_001_93052a8fad2b.jpg)
 
 图片来源：网络
 
@@ -21,11 +21,11 @@ SiC MOSFET，即碳化硅金属-氧化物半导体场效应晶体管，是一种
 
 AST为国内领先的碳化硅功率器件IDM企业，致力于提供从芯片到模块的全系列、高性能解决方案，产品电压 **650V~3300V**，电流 **1A~1000A** 的广阔应用谱系，为产业升级注入强劲“芯”动力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMdiaDcmWpS2GMD8nFUf9QrxiccuddcLaaENuJ2RTQibWqoYQ4tXKWzMMCiaia3YbPPQOFnQRRr1mWTUsopXia5bL4JHicJ6udQcicq2KU/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_002_a0f752e7564a.png)
 
 依托垂直整合（IDM）模式，实现从芯片设计、晶圆制造到功率模块封装及测试，自主可控，产品线规划科学完整：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpN2icSreBv7WW5iaqpzVQH7H86pwq4SsNtVVn3iaJwH81uzsm0KsqwOFq0ZTdoxVl6716yIa0IfIGYoVWibYwrLd0DZ8XQfBYAOGDs/640?wx_fmt=jpeg&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_003_f4d6cc4b2e49.jpg)
 
 **1.SiC MOSFET晶圆片（裸芯片）**
 
@@ -39,7 +39,7 @@ AST为国内领先的碳化硅功率器件IDM企业，致力于提供从芯片�
 
 **产品特点**：采用先进平面栅（量产中）或沟槽栅（开发中）技术，低导通电阻，高开关频率，高工作结温。门极电荷与输出电荷优化平衡，便于驱动设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpP4f1TrskeqSl641oabh6icXlj1Dm90lgC5cW8tTneqctJDEqD0iaibLvlDWiaibzfVL85gQohKC1F4OC2P4rOUxRT3s2JUjzubgw4c/640?wx_fmt=jpeg&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_004_a5526f3e273f.jpg)
 
 SiC MOSFET晶圆图
 
@@ -49,7 +49,7 @@ SiC MOSFET晶圆图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNr0icsZpvcs6NCJOibxia1B3priaVYLtQCmxWbCj5R2V9B4jGUXslQfEQDKNbX4icLicricOZK4eiaYBoKiabwlAsoPvdNib3rzR1wAicZgc/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_005_c4764eddef93.png)
 
 插入式：就是MOSFET的管脚穿过PCB板的安装孔并焊接在PCB板上。插入式封装有晶体管外形封装(TO)。
 
@@ -65,7 +65,7 @@ SiC MOSFET晶圆图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNfuiauZYdhiaqdoPzsTO1lKVFuZawPibSTWEI2TKyE4TQ2EiaI5ff4K7Q7wQKtHaLkhn5n1S7RzvtCQI6kB1C58mHH0Xjs7Fic87vA/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_006_c41c7ebdd1a8.png)
 
 贴片封装主要有：DFN5×6、DFN8×8、TO-263-7、TOLL、TOLT、PDFN8\*8、PDFN5\*6、TO252-3、DT3PAK、QDPAK。
 
@@ -75,7 +75,7 @@ SiC MOSFET晶圆图
 
 SOT-227封装：介于单管和模块之间，产品具有模块体积小、热阻低、通流能力强的特点。M4螺丝法蓝底板安装4个引出端口，常用来封装IGBT、各类二极管、MOSFET等。同时，SOT-227为内绝缘封装，安装简便，也更安全。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMNFzx8mv9aPYKD9iayCadhaRrW3usibOibpgASqicw2SjbwaSAQsfMs4ViaSZt07TdGnicXK54JNcel5vpZ6zWn5ibQeZgqlynQzhN4U/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_007_6b92b729fa56.png)
 
 # 适配 650~3300V 全电压等级分立封装，逐个拆解封装定义、结构优势，结合器件特性梳理场景、设计与选型准则
 
@@ -89,7 +89,7 @@ SOT-227封装：介于单管和模块之间，产品具有模块体积小、热�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9fJhjH8R0eJa0jZQtZq5EM6q9F444iclLH3uTrHYH5qjUPGrUWCsHl5AoOCDfFWhxicOiahm0EJ7NWttHVFtZ5MvIZAU4gRDeF8/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_008_acb2c7bccc0d.png)
 
 **特点**：平板式、螺钉连接的“迷你模块”型封装。采用金属底板直接安装到散热器。
 
@@ -115,7 +115,7 @@ SOT-227封装：介于单管和模块之间，产品具有模块体积小、热�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMmpicXbW2yh9ss94VyQcXbtxVZGEu671hG4TnR5icfHVlEG3DakibJjgziatIBFp6KoHv8XohWU9V9aZV315TWDmEgQbl3CXAgdS8/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_009_71e3809570ca.png)
 
 **定义**：经典三引脚封装，常规 D/G/S 三脚，
 
@@ -135,21 +135,21 @@ SOT-227封装：介于单管和模块之间，产品具有模块体积小、热�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMBJUMnavN3KwlNgpsias0WApnlulTwuAG4tvC7SYUAA8Mhosia498Uhhsfc5lkNJSRNJAdicEbYft3guUFW2KNe2J7OsXzWa00Cc/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_010_28966e2d8385.png)
 
 TO247-4封装拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMUudNWjaHhZ9jIGBJ8fsZgsA5fs12tLzRw5sBvHmjPnS1gEhBSHJD2yicNx5Mxr4kGqFcccwgkf7T7Whg9knyp5JW2CjbEgyaY/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_011_b91f12cb6396.png)
 
 TO247-4S封装拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPibUuwYAAicHO9O8o2TEI0EuTStptyqKtSma5R5zbCibyZRaRAbn7nGtG4zhWRtyGA04fKvVT8qTS2psVqYPgEwQcds7Ele0eQ8g/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_012_b922e251275f.png)
 
 ### TO247-4S封装的差异化引脚布局
 
 ###   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPa8ibrMl4VnGNC8w6vEQqbLEOYWKfJy1DCmDYeH4xBWvl3k3Be3G6u9R9ocXoPbhyHNCmgShlgjjEWMQmgF686uicLhqI7dWKVs/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_013_c99cf9334841.png)
 
 TO247-4L封装拓扑图
 
@@ -169,7 +169,7 @@ TO247-4L封装拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMUJI0sqh2zJYA6GOJEFtvv83bfu9phKSYsmiaQVbJ3Bdk1mDae4CyFsibzXsWRl8vHzEiaF1drB6WMA2luials1GphGq2MfJqD7wk/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_014_5346ba85b9d7.png)
 
 **定义**：绝缘塑封直插封装，单面板散热。
 
@@ -187,7 +187,7 @@ TO247-4L封装拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOicvQAHBYsdibJnvWCDPWGtwbE4xewYTcRs34QF7Iw19ibibteLJrzUD5OvzTZ1n0WJplCym4ibx1LicSOoq6aZBlCC3qSkqVb7ibPes/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_015_2935b82e0b72.png)
 
 **定义**：TOLL是当前最主流的底部散热贴片封装之一。
 
@@ -205,7 +205,7 @@ TO247-4L封装拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOl15GlJb6QuITLsvNLnbL8scOBfIYgmTJ8zc9mzjWtPiaUwu6pCnoC7kEI2icr8V6FSzme0RFm10GPic0Qt2roiazZnzDibYrPIF5U/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_016_b42df7aceda6.png)
 
 **定义**：TOLL 衍生紧凑型贴片封装，尺寸更小，采用顶部散热理念。
 
@@ -225,7 +225,7 @@ TO247-4L封装拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMK7UHU3nVCRAMW58ldiaoLSicEb0dptCN0iceiaib6gRebwGMDib7RUIjEwjW6XktVVurTtejQXZaQJobTt1rKeMWpgdRvwpFFRjq1U/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_017_4664289c096a.png)
 
 **定义**：8mm×8mm 方形贴片封装，底部大面积散热焊盘**优势**：散热接触面积大；封装电感低；贴片工艺适配性好**适配**：中功率 PD 快充、通信电源、低压大电流 SiC 回路。
 
@@ -237,7 +237,7 @@ TO247-4L封装拓扑图
 
 ### 8\. PDFN5×6
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMnoSf4O060vSTwddvHtIwHhdvogIPucy7fej5T5YbTlygAHtPSiaQnuQlY9US336pMH7e57mas28ghIz8DnZmBGB5jOEWsSkgc/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_018_7f0af92ab3be.png)
 
 ###   
 
@@ -255,7 +255,7 @@ TO247-4L封装拓扑图
 
 ### 9\. TO263-7
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5Qv0t51qOkvhOaXGo9EWv8yjicC6Ca1QyzeBbZtObicSglAmpNKic6nznnUiaIOzgRZJEccnr7W53gqcQe5xgW5RKhAIHWMeB2JA/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_019_9c76ee251fb9.png)
 
 ###   
 
@@ -275,7 +275,7 @@ TO247-4L封装拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMx9SbOqx2wJcKbjcibUxEKKQDPpz6Ze3V88JvSaBcSPH3zcu4bE96K8IRFEoibEq3Izh5MzUkRnN3ukXhz9DPExL9XX2NJGQuZs/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_020_419f2dcc18f8.png)
 
 ###   
 
@@ -291,7 +291,7 @@ TO247-4L封装拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMphtue20UejAO6DEt7ia9RJbC2INRFPL3Zr1xPmIibtibEWmEaaT6HAKJryMf0Z5sKeXfHmia7SwibVjpk7U2IHGbltAA4tY2f7PCc/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_021_8957b1ff3647.png)
 
 ### 定义：加厚型 DPAK 升级封装，基底加厚，热阻降低优势：散热能力强化；耐受更高瞬时电流；抗温升能力更强适配：高频断续工作电源、车载低压变换、短时峰值负载电路。
 
@@ -305,7 +305,7 @@ TO247-4L封装拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicGiaMJMxsXX60zMjnUrdCwZTw8wrfuVpYgdjToHTmlxX0Zu6SosFBc5icRDYeLuHBia2dbfPmVPqlJTnmf1ibSYkx3CuBia1Aczno/640?wx_fmt=png&from=appmsg)
+![](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_022_2c58d5de0847.png)
 
 **定义**：四方扁平 DPAK 类大功率贴片。
 
@@ -485,7 +485,7 @@ TOLL、TOLT、QDPAK、PDFN 系列贴片封装：服务器电源、高密度车�
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOOibHJX8vntmdmSohlFCtD8bH7YGQ5U5UTKbGx67iciblz1S6TxicXAMoSVPZX4dNhFOibAhpiceKfX65gJJvYCZjrrdRAXygKGSib8Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_023_74ba2d5e61be.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -493,7 +493,7 @@ TOLL、TOLT、QDPAK、PDFN 系列贴片封装：服务器电源、高密度车�
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP6ibqQf520wlV3sO0VicvF2ysTSFPBGr8Ql5bYUxXLmMib4EDQHxwic2xcibkwGV7ahNEwYY9ib9etE51d4qbPkMoibJXpGBoZYzFriaw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_024_064d3bf55c0d.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -517,7 +517,7 @@ TOLL、TOLT、QDPAK、PDFN 系列贴片封装：服务器电源、高密度车�
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMqeNicYf5zogkQfZ3E0iaVYibcHWysqednTleZPaZQ8j2zicrsnibL0iawa6ticFiaorEPks1qeUSJYEOIiaicB64rj3p8UrAGR7r9rcIMI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_025_0281e9e473a8.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -565,14 +565,14 @@ TOLL、TOLT、QDPAK、PDFN 系列贴片封装：服务器电源、高密度车�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMibOiboficibwUlVpZUdRQv367iancjRmMnKib3iaMPhk6O6vSPUGsDff0Dj0gWBJO7hNI1Yllkq3jyfk0DgdAg8AqL0waSC2iadS3ibsI/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_026_0de867fcd853.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPZz1WyMmvzjxDLsXzpLQdpUPcFlPeXiawY5X4DNBMZNSz5l8wvNHFAwMaicylkHLIiaBZI9K25212VOJiajia8KUTlHCzObY28ONbc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_027_858033f8fec2.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpM0Pw2oUeGWUkozkGtk3GtSVoM8tsSkefTZUHKcWGgLBDK5OYxibrBk7cjmCbaXibGInzga1xybkJCkaEq1226VcTlUOQYlV33us/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](12种封装的SiC_MOSFET产品介绍及应用选型_images/img_028_9800deca9470.jpg)

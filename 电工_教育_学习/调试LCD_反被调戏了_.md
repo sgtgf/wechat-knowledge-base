@@ -16,7 +16,7 @@
 
 垂直消隐：在画完全部256条扫描线之后它又回到屏幕左上角准备下一次画屏幕（帧），这之间的一段时间就是垂直消隐（VBlank）。电子枪就是在不断的走‘之’字形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Qof5hj3zMPdPJGhIgALoGTvicu34ibibP3jzPnD9dZLjdYo1YrzAJibzd8iaFnAW8zrPKmXeWskcyG9yz0dzIzaxwQw/640?wx_fmt=png&wxfrom=13&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_png/Qof5hj3zMPdPJGhIgALoGTvicu34ibibP3jMdPZIP4ia0z26soKVKibcuNHleQf8SWoibj3m2Mo6VlAy00gpqKVZp3nw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\调试LCD_反被调戏了__images\img_002_5fbf2378b539.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\调试LCD_反被调戏了__images\img_003_ac0224ca1251.png)
 
 -   **行同步（HSYNC）**：行同步就是让电子枪控制器知道下面要开始新的一行像素
     
@@ -87,14 +87,14 @@ Byteclk = pclk \* pixel depth / lane number
 
 BIST模式是LCD的一个测试模式，如果MIPI通信正确，我们发送BIST模式后，LCD会循环显示测试的颜色界面。这一步我们测试了，确实可以进入BIST，说明我们的MIPI通信是正常的。应该从其他部分寻找问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Qof5hj3zMPdPJGhIgALoGTvicu34ibibP3jyEfOr5o07v1h2ujEict18RiaXwGne0LE8Lt1oKlehokIU8o5GoX4ibPgA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\调试LCD_反被调戏了__images\img_004_58de6f57d806.png)
 
 ## ##找LCD模组厂确认参数
 
 LCD的参数肯定是模组厂的技术最专业，所以在微信群里发了下LCD的参数配置给他们看了下，马上就发现了问题所在。如下图所示：
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/Qof5hj3zMPdPJGhIgALoGTvicu34ibibP3jDAzoqhZn2Z1Xuzib5QV6zUHGicAOctia8Ljv6jBo5tohz3RoQC8icAk98g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\调试LCD_反被调戏了__images\img_005_74ac614f664c.png)
 
 ## ##排查硬件
 
@@ -102,13 +102,13 @@ LCD的参数肯定是模组厂的技术最专业，所以在微信群里发了�
 
 整个调试有点惊险也有点刺激，文章中还没有谈到LCD的休眠唤醒流程，调试中也遇到一些平台性的问题。因为对平台不熟悉也成了我们都阻碍，其中非常感谢一个MTK的大牛，虽然最终不是他的思路解决问题，但是在过程中给我们提了非常有效的建议。完…
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhGrewiaCwmg735nibibVzn1QsKpeYOicUkPfLytqsdldkb0SViahbsMJWXTK1tnrSLUr0GrXO8cFtv2IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\调试LCD_反被调戏了__images\img_006_bb8fcecdb87e.png)
 
 ****作者：写代码的篮球球痴****  
 
 ****来源：嵌入式Linux****
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\调试LCD_反被调戏了__images\img_007_dab563687440.jpg)
 
 ## 
 

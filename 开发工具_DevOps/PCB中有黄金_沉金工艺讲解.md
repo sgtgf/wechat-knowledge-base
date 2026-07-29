@@ -14,7 +14,7 @@
 
  一  什么是沉金呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1JkrTBIxibiaDQoMRKWkg8Zk5uQibjOTugktAt0vCeco1qvJBhK5FVbuxMqDHm5owXSqiaYv0tCWyzMVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB中有黄金_沉金工艺讲解_images/img_002_a5743d94e1de.jpg)
 
 简单的来说，沉金就是采用化学沉积的方法，通过化学氧化还原反应在线路板表面产生一层金属镀层。
 
@@ -24,7 +24,7 @@
 
 电路板上的铜主要是紫铜，铜焊点在空气中容易被氧化，这样会造成导电性也就是吃锡不良或者接触不良，降低了电路板的性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFg5AAFr0b8RGjmZrGwL6qAhetEjpnlUABt4Uam0lhZLd42fW2UEd71g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB中有黄金_沉金工艺讲解_images/img_003_23169ee5fac2.jpg)
 
 那么就需要对铜焊点进行表面处理，沉金就是在上面镀金，金可以有效的阻隔铜金属和空气防止氧化掉，所以沉金是表面防氧化的一种处理方式，是通过化学反应在铜的表面覆盖上一层金，又叫做化金。
 
@@ -34,7 +34,7 @@
 
 沉金工艺的好处是在印制线路时表面上沉积颜色很稳定，光亮度很好，镀层很平整，可焊性非常好。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFZmvqJM9PtAiaPulAXQRJEn876NE6OF9evTs4cI1bQVuVp5DIsXVyIUQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB中有黄金_沉金工艺讲解_images/img_004_c3c818514bac.jpg)
 
 沉金一般金的厚度为1-3Uinch，所以沉金这种表面处理方式做出来的金厚一般较厚。
 
@@ -67,7 +67,7 @@
 
 因为金手指由众多的黄色导电触片组成，其表面镀金而且导电触片排列像手指状，因而得名。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFg58eCf2DUw9l86nnwRkWaNuFUXichuheODFUahG7PXpuOXrSLwzX8aA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB中有黄金_沉金工艺讲解_images/img_005_04df0a946ec7.jpg)
 
 通俗讲金手指是内存条上与内存插槽之间的连接部件，所有的信号都是通过金手指进行传送的。
 
@@ -75,7 +75,7 @@
 
 所以，简单区分就是沉金是线路板的一种表面处理工艺，而金手指是线路板上拥有信号连接和导通的部件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFTWaXQkV7BQDjWfhgD0icPKB7Eo1LTorhBVSCo0Ip1zM2IkzT6T2ASKA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB中有黄金_沉金工艺讲解_images/img_006_16e6c34351e3.jpg)
 
 在实际的市场中，金手指未必真正表面为金。因为金昂贵的价格，目前较多的内存都采用镀锡来代替。
 

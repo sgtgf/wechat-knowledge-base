@@ -10,7 +10,7 @@
 
 大家好！今天想跟各位硬件工程师朋友推荐一本特别实用的EMC经典书——郑军琦老师的《EMC设计与测试案例分析》，包括60个案例详解。这本书虽然出版有些年头了，但里面的内容真的非常扎实，可以说是我们做硬件、搞电磁兼容设计的一本"避坑指南"，值得放在手边常翻常新。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfgZXcvHIfDJq6iaEib4kPZ0EQp6mZvEVOjcopT2lHc08m4EliazmWZa0zicLCwc36icgibC6ibbibtNszyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_002_df186174787b.png)
 
 文末附299页完整PDF电子版获取方式。
 
@@ -20,7 +20,7 @@ EMC为啥让人头疼？咱们工程师的烦心事儿
 
 说到EMC，可能有些刚入行的朋友会觉得它有点玄学，出了问题也不知道从哪下手。其实说白了，EMC就是处理电子产品内部电路不干扰外界设备、同时也不被外界设备干扰的一门技术。你想想，现在设备越来越复杂，数字电路和模拟电路混在一起，频率越跑越高，干扰问题自然就越来越多。再加上国内外对电子产品的电磁兼容标准要求越来越严，尤其是出口产品，如果EMC过不了，产品根本就出不了海。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjxJunOiaHOGfmAYywgw1Br1yibk4IkwvmfAiacjEoKVR2vpicjqIrGr7MX4P5XibGrQ8EV9UnYohD2iamw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_003_2ec45decd696.png)
 
 所以我们做开发的，不光要懂技术、调电路，还得把EMC设计提前考虑进去。不然等产品做出来了再去整改，那真的是费钱又费时间，甚至项目都可能黄掉。更现实的是，现在产品迭代速度越来越快，根本没有留给我们太多后期整改的时间。如果能在设计初期就融入EMC思维，会省掉非常多麻烦。
 
@@ -30,11 +30,11 @@ EMC为啥让人头疼？咱们工程师的烦心事儿
 
 说到这里，不得不提一个很多工程师都会遇到的典型问题：为什么模拟地和数字地不建议用磁珠连接？这个问题困扰了很多硬件工程师，但在郑老师的书里找到了清晰的答案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfgZXcvHIfDJq6iaEib4kPZ0yZ5NiaHXxZGiblBS6OVPicmrLGTN7GcpqJ3THE16BGiaqZjEGPE5PWHY7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_004_29383105fd86.png)
 
 在书中的案例中详细解释了这个问题：磁珠在低频时阻抗很小，但随着频率升高，其阻抗会增大并产生谐振。如果用它来连接模拟地和数字地，反而会在特定频点引入更大的噪声。正确的做法是在ADC或DAC地的引脚用最短的连线接到同一个低阻抗的接地平面上。高频下，对于ADC的两个地引脚来讲，并不能实现低阻抗接地。如果再在ADC附近增加两个接地点，一个在模拟电路侧，另一个在数字电路侧，将大大增强接地效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfgZXcvHIfDJq6iaEib4kPZ0dRCicNLpTFPKy0fxhs5qicgaYn6ZVMI9Z13vv9aXdib4mrCnoCBFaUFaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_005_62eecd5a13bb.png)
 
 这个案例不仅给出了解决方案，还通过示意图对比展示了不同处理方式的效果，让人一目了然。
 
@@ -56,13 +56,13 @@ EMC为啥让人头疼？咱们工程师的烦心事儿
 
 我特别欣赏书中强调的一个观点：EMC设计就像交通规则，你不遵守不一定百分百出事，但风险肯定大大增加。做产品设计，最后都是要控制风险、提高成功率。这本书就是在帮我们降低EMC方面的风险，让我们设计出来的产品不仅能用，而且稳定可靠，容易过测。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfgZXcvHIfDJq6iaEib4kPZ0nAf5YKxwAwjDbqLDBPBnKp5cuXZwqWOich0aMicILvyKliayGt1PYicsZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_006_e97682e780ba.png)
 
   
 
 比如说PCB布线不合理造成网口雷击损坏。以太网接口中，RJ45为金属屏蔽外壳，接收信号布于TOP层，发送信号在BOTTOM层。雷击时网线屏蔽层产生高共模电压，由于RJ45外壳与TOP层信号线间隙小，易发生绝缘击穿。大电流流入信号线导致烧毁，共模电压转为差模电压，传入PHY芯片造成损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjxJunOiaHOGfmAYywgw1Br1lKnOBDLDC77amWT7DvxphgwqgTYUYiaorQwcwrAZUxPu1PWYzjbcic7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_007_6ffcca539d23.png)
 
 因此，若使用金属屏蔽型RJ45，信号线应避免布在TOP层，或需增加电压钳位保护及特殊绝缘处理。通过简单调整PCB布线，问题就解决了。这类实战经验，如果没有老师指点，靠自己摸索可能要花上好几天时间。
 
@@ -70,7 +70,7 @@ EMC为啥让人头疼？咱们工程师的烦心事儿
 
 再比如由电缆布线造成的辐射超标问题。书中有一个典型案例，某设备电缆辐射发射严重，最后发现是直流电源线布置存在较大环路，电流流过导体或环路时也会产生磁场，从而引起电磁辐射。这些经验都是实打实从工程实践中总结出来的，不是纸上谈兵。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjxJunOiaHOGfmAYywgw1Br1ctbhRQt5fJCibYyhvKkccw6IFkz2EKy1F9sjYL7lBtpgHpJSSAUaGHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_008_6f8fa70f7a38.png)
 
   
 
@@ -98,12 +98,12 @@ EMC为啥让人头疼？咱们工程师的烦心事儿
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjxJunOiaHOGfmAYywgw1Br1ibuibOftUNIvVRkwUmosibpRcBbBibJl8fPSXSKm2msGNNKysXVG5NlwWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_009_679f592ef55f.png)
 
 EMC设计不是一个可以临时抱佛脚的环节，它应该贯穿在我们从方案选型、布局布线到调试测试的全流程。希望这本书也能成为你的枕边书，常看常新，一起做更稳健的设计。祝大家设计顺利，一次测过！
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjxJunOiaHOGfmAYywgw1Br1V5jmM8YtfL1vxib1xX1t6wiaxUugQ8eGYjNErWXNEYn1upnfJt8MxqPA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\60个真实项目的EMC血泪史_从设计到测试的经验复盘_images\img_010_6b47d213260e.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

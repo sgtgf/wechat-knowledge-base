@@ -8,7 +8,7 @@
 
 首先来认识一下光耦，如下图:
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKiabryh6sOpZWG4NRVA9Rvoh3nhZZm7K6VIz2Eickib5fQ7lYho3JtTqKqicLK0fnZ1KDOCmITvJx80w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\光耦最重要的参数CTR_images\img_000_7ff0b40f467c.jpg)
 
 原边输入信号 VIN，加到原边的发光二极管和 R1上产生光耦的输入电流 iF，iF驱动发光二极管，使副边的光敏三极管导通，回路VCC、R2产生 iC,iC经过 R2产生 Vout，达到传递信号的目的。原边副边直接的驱动关联是CTR（电流传输比），要满足 Ic≤If\*CTR。所以，光耦最重要的参数就是CTR，CTR可以理解为增益、放大倍数等。  
 
@@ -36,7 +36,7 @@
 
 ①查看VF、Vce、CTR的值
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLtJ6ic1iawuW8MewBmcRfibRkPMI4ORjyp0FLgCFP727coECS5L91dtv484qO1pszS17ODErczXsnfw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\光耦最重要的参数CTR_images\img_001_cf5d94d3dfc7.jpg)
 
 VF代表的是光耦导通的时候，原边的压降典型值为1.2V；
 
@@ -54,6 +54,6 @@ VF代表的是光耦导通的时候，原边的压降典型值为1.2V；
 
 ③CTR与温度的关系曲线图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLtJ6ic1iawuW8MewBmcRfibRkHVfmjRhAibskv9WujCRPsBvNISkXA2ia9pVZgibQkiaDJ3btPdu1Ydw96g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\光耦最重要的参数CTR_images\img_002_7d272702dda6.jpg)
 
 假设产品工作温度为最高70度，根据上图，估算CTR大概需要降额系数为0.8。所以，根据Ic≤IF\*CTR，得IF≥IC/（0.8\*CTRmin）=0.607/（0.8\*50%）=1.518mA

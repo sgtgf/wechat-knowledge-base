@@ -42,7 +42,7 @@ EMC与电磁能的产生、传播和接收密切相关，PCB设计中不希望�
 信号返回地面的时长也非常重要。信号往返于信号源的时间必须相当，否则会产生类似天线的现象，使辐射的能量成为EMI的一部分。同样，向/从信号源传输电流的走线应尽可能短，如果源路径和返回路径的长度不相等，则会产生接地反弹，这也会产生EMI。  
   
 
-**_![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylEoAJjEegwcOS475opuqJUe8ibjTPGW22t6bSHIvODPkkYPRNo1x1gflKibPxicDSDd7youektemdKow/640?wx_fmt=png)_**
+**_![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之PCB设计技巧_images\img_002_69c3ea3b3c9d.png)_**
 
 **_如果信号进出信号源的时间不同步，则会产生类似天线的现象，从而辐射能量，引起EMI_**
 

@@ -12,13 +12,13 @@
 
 本文主要介绍DDR常用的三种频率，以及梳理内存频率是怎样提升的。可能这篇文章对于电路设计用处不大，但多了解一点总是没坏处的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgyA3y8qRbs7DIE286GUsd0E8B8RWibmOyBoCJ9OvWwqERrjK3JBwaeF6XMpyyrG926P7ibVysvliabw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之频率_images\img_002_6e90914052ab.png)
 
 图1  文章框图  
 
 通过下面这张表，我们一起来了解一下内存DDR的频率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaOdFy53ZvjpbvIjUy7Gv1CA1W3hQAYN5yAAzEQQAPrHpA8G78IsqGBCOVW3ayyAM3RSB23lOpabg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之频率_images\img_003_121b961c2126.png)
 
 图2  内存频率表格
 
@@ -68,7 +68,7 @@ DDR4等效频率是核心频率的**8**倍。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9SC9icp0WRYUp75UIb8cba537xA6t4oWaYKAQ0d9Lnk2QFuRuIvBFG9PPonAHFMHJGgia9ibicnLnog/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之频率_images\img_004_e661c635ec24.png)  
 
 图3  SDR一个周期内传输一次数据
 
@@ -76,7 +76,7 @@ DDR4等效频率是核心频率的**8**倍。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9SC9icp0WRYUp75UIb8cba0VD18av61OJZ0XmTt3YLDnf5Z3cWD5pvSgLSjM1Ku60U3HSibI4VCcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之频率_images\img_005_7fb4eebcaeaf.png)
 
 图4  DDR一个周期内传输两次数据
 
@@ -96,7 +96,7 @@ DDR4等效频率是核心频率的**8**倍。
 
 就好比我们的跑步比赛，每个人都有快慢之分。有的人跑步速度1m/秒，有的人跑步速度1.5m/秒。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgqnX8NictaGpxONgfr0UjTXXVClgYDpj8d40ibxe9EPyduDibdN7AyFLTe0yuOUbl7EdR4Oz4qiaOawg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之频率_images\img_006_1028c1a52199.png)
 
 图5  跑步来形容预读取
 
@@ -142,7 +142,7 @@ DDR3内存和内存控制器链接依靠的是多点分支总线。这种总线�
 
 打个比方说，这种设计类似于为每次只能双向通行一对车的道路边修建仓库，仓库直连道路，虽然每个仓库都有自己的运输车和运输能力，但道路只允许每次双向通行一对车，因此这种设计如果不停的加修仓库，只是扩大了存储能力而已，对运输能力帮助不大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQ8iaIufKUM36iaSicjuRF1PuaP4jkVpyzqxyHD1ic0PqicIqgsW5DNziaXmZKxeW8xcVpGXHNoXCz8qw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之频率_images\img_007_b070f668e41b.png)
 
 图6  DDR4点对点总线提高带宽
 
@@ -166,7 +166,7 @@ DDR4采用点对点总线，内存控制器每通道只能支持唯一的一根�
 
 当然频率的提升除了以上原因外，还有一个特点，就是我们的工作电压也在不断降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQ8iaIufKUM36iaSicjuRF1PLKGjdsLJ72VXLibLjNGteYWCcKUbFEDxFyeZ0Ns3d6sGjes1Yw9A7yw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之频率_images\img_008_611f43e7fe38.png)
 
 图7  降低电压提升频率
 

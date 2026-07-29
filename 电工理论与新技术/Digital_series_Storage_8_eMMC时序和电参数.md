@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/rB7yvy-CzO\_hijgS\_7O-nw](https://mp.weixin.qq.com/s/rB7yvy-CzO_hijgS_7O-nw)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMVJ7D6xcBbRDKFSDo7mJ9kgTr9F8ZJou3f7cVYcHtibCiaocb9EcXygZA/640?wx_fmt=png)**____
+____**![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_000_b7c9ad373eaa.png)**____
 
 ____**★★★**______Storage-8---eMMC时序和参数______**★★★**____
 
@@ -37,7 +37,7 @@ VSS：接地连接
 
 RFU：保留供将来使用，不要用作任何用途  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHictkMOymgDvOAtXic8vyXm9CClQlJtzBuFAmW7icF45Wft7YtmEJbkvGYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_001_5fdd1fe16568.png)
 
 **_图8-1：eMMC结构_**  
 
@@ -45,19 +45,19 @@ RFU：保留供将来使用，不要用作任何用途
 
 在时钟的每个周期都会指示传输：在命令线上每个时钟周期进行1位传输；在数据线上，SDR模式下所有数据线传输1位，DDR模式下所有数据线传输2位（分别在上升沿和下降沿），时钟频率可在最小和最大时钟频率之间变化（0-200MHZ）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNpXW1OeicET7FzHHfGdUcTjOqomewTmAASPVe7BjJwRjP9QyDueAXeQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_002_d5a97adf1878.png)
 
 **_图8-2：DDR状态下的4-data-wire模式_**
 
 HS400模式提高顺序带宽，特别是顺序读取性能，支持DDR数据采样方法，CLK频率最高可达200MHz，但只有8位的总线宽度可用，信号电平1.8V，理论上，读取高达400MB/s，写入200MB/s。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQV7YAMGTSWSpf6kaguvfDeyFsicmq02Nrsn55uFLUL6zl8hEsEWTEsFicQoYT3leobbeZ1alia6aCicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_003_a9a05814e6e3.png)
 
 **_图8-3：eMMC的总线速度模式_**
 
 **_图8-4_**表示I/O驱动程序强度类型（EXT\_CSD寄存器：DRIVER\_STRENGTH \[197\]）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHic9Ff8uLLEY0XrqDjltgqX2UDIKYicBAFXibricsPddtib6I3CFh7JIaH9vA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_004_88d89ec11009.png)
 
 **_图8-4：eMMC的HS400模式五种驱动强度_**
 
@@ -83,7 +83,7 @@ Driver\_STRENGTH\[197\]中指出了设备支持的驱动程序类型级别扩展
 
 **_图8-5_**列举了eMMC5.1新功能：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicWibqU8nelUWt3uADwWAbAtuBL2JMvibLfuHbicQ0eqyVO7QCibib15Ruichg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_005_a90e4c9044e9.png)
 
 **_图8-5：eMMC5.1功能_**
 
@@ -91,11 +91,11 @@ Driver\_STRENGTH\[197\]中指出了设备支持的驱动程序类型级别扩展
 
 eMMC不仅支持引导模式，而且还支持替代引导模式，支持高速定时和双数据速率。eMMC启动时间轴回看：[Digital series-Storage-7：eMMC基础知识-2](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247491986&idx=1&sn=cdffdd9ade99b647e7fbd27ae8298ec8&chksm=c336ab0df441221b4697a8bee7045c0dd073b7115f92aba0c1d75ff256f9c872e0aa57070006&scene=21#wechat_redirect)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicyiaoLzKSDW8YlSs2gRaUt7ApqMdm1FfmkIkmXjp7VLic0sT18L0OmS5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_006_1486c2673ec0.png)
 
 **_图8-6：启动程序、启动数据和初始化时间_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicZRrZjVBS6rDhicwh3zJicXfQlmw9k6ZX5LdRLqWTAtRCcK52qNAv6fZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_007_48b3aa7af435.png)
 
 **_图8-7：eMMC的性能指标_**
 
@@ -103,21 +103,21 @@ eMMC不仅支持引导模式，而且还支持替代引导模式，支持高速�
 
 ## ____€4.时序____
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQV7YAMGTSWSpf6kaguvfDeAfVd5Uiab7MnOekemapnzXMBDbrjFRqzPYib8oruGiatj7ia4CgwM4ZcNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_008_00c4e7bb6fae.png)
 
 **_图8-8：总线SDR时序---数据必须始终在时钟的上升边缘进行采样_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQV7YAMGTSWSpf6kaguvfDeR0Ug2BkdZLo6licYGC00JHVO6Tkx3HwuRzqkSfb27a11q3srIVxKE7w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_009_49e5264b14ab.png)
 
 **_图8-9：总线SDR时序参数要求_**
 
 在配置为双数据模式操作时的DAT\[7：0\]信号，DAT信号与CLK的上升边缘和下降边缘同步运行。CMD信号仍然与CLK的上升边缘同步运行，因此CMD信号没有定时变化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQV7YAMGTSWSpf6kaguvfDezkn2H5X8jsIvbcARxkXSjdu6udTia9LT1d1vFMG0GmQmiaoq8xicNZ1vg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_010_6d52ee0db92e.png)
 
 **_图8-10：总线DDR时序---DAT\[7：0\]行上的数据在时钟的两边进行采样_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQV7YAMGTSWSpf6kaguvfDeibLHJ5pE4oRDicXYssEAQIUNDRc9xMP0QONov1xO2ice13rf49XeX1Z0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_011_e3b261061a26.png)
 
 **_图8-11：总线DDR时序参数要求_**
 
@@ -127,11 +127,11 @@ eMMC不仅支持引导模式，而且还支持替代引导模式，支持高速�
 
 总线信号电平，部分器件总线供电支持3.3V或者1.8V，因此所有的信号电平都与电源电压有关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicDAABCiaxEgCMPk0XQTBqwhnygRGflRgbFjjG8EPoib2tyAysSBJ7W8Wg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_012_c7e56d4cd4c8.png)
 
 **_图8-12：总线信号电平上下阈值_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHic4apKEphI1oFnPrCfuUaSZ0yxxibnK9ZTkqcuCA6MOZ3MXejkbd2V8pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_013_1b4c71102f08.png)
 
 **_图8-13：开漏模式总线信号电平_**
 
@@ -139,11 +139,11 @@ eMMC不仅支持引导模式，而且还支持替代引导模式，支持高速�
 
 eMMC输入和输出电压的允许电压范围应在以下规定范围内：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicefVX7yn1W4IPndIhllfsiaIQzEH2trp6tVEWm20s2ajkTUApJR0OyDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_014_760736bd8619.png)
 
 **_图8-14：推拉信号电平-3.3V eMMC_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHiccxGOBouDP1MZJG5MrUpPW9ynPP0w0tolwkuibMAoUHHibT0bWLGTyRFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_015_3f91d45b28ca.png)
 
 **_图8-15：推拉信号电平-1.70-1.95 VCCQ电压范围_**
 
@@ -153,21 +153,21 @@ eMMC输入和输出电压的允许电压范围应在以下规定范围内：
 
 在配置系统电源树时，eMMC的功耗是一个需要考虑的点，在功率测量条件：总线配置=x8@200MHz DDR最大RMS电流的测量为100ms周期内的平均RMS电流消耗下，eMMC各种状态下的功耗如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicvQriabnCXMXBSD4O97bibVSlicNR3YHG0qJxACiaKr7UtAibNQfx4osCzDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_016_d385fe55d651.png)
 
 **_图8-16：不同容量eMMC运行期间的典型功耗_**
 
 从**_图8-16_**可知，eMMC容量越大，运行功耗越高，一个32GB的eMMC，考虑3.3V供电，则功耗P=3.3×0.38=1.254W，那么就需要选择满足可以持续输出400mA的电源IC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicicDAnR4K0T6sJicepY7w3ZTTUvdib43EbA45zKewr2tBWmS6yuSvlN6uQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_017_cb5f615c25eb.png)
 
 **_图8-17：不同容量eMMC待机状态下的典型功耗（巡检读取激活）_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicJxVgw9iakQIxH0aHUgiaoxHRbic47zLpicaq4mKGA91prU12BmcZtpMwMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_018_73799641c29d.png)
 
 **_图8-18：不同容量eMMC待机状态下的典型功耗（巡检读取失能）_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicczvucXI2AjblHc5lEDHs234TC2Fs6ib1YpicHCFfdvrO4mRXRibEicKMLg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_019_234be900502e.png)
 
 **_图8-19：不同容量eMMC睡眠状态下的睡眠功耗_**  
 
@@ -177,22 +177,22 @@ eMMC输入和输出电压的允许电压范围应在以下规定范围内：
 
 eMMC总线的每条线路的总电容CL为总线主电容CHOST、总线电容CBUS本身和与该线路连接的eMMC的电容器件之和：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQJ9EVQHzic4NCiat52kOoyT7amII8vBgdU6RDnL4UXbIQPhAYaWfTIyJrX9B12H1Wcz7FCnOC6HStA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_020_80b4ae6a03c3.png)
 
 主机和总线电容之和应在20pF以下，这几个参数对eMMC的Layout有比较严格的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicby6I1urZkxksuFv9a8iaUVJgaLib0JtDLa6yw6cXR7ntkzmjJbWVngtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_021_cfb5da9801fb.png)
 
 **_图8-20：eMMC关键R/C参数_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicPLL56ibTpxg7I7eGS3icdFWdU8a58tqqLxZYIvDnqmamhvwYmMOjl1Gg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_022_5164b173fc79.png)
 
 **_图8-21：HS400模式下的电容和电阻  
 _**
 
 ## ____€8._____如何在系统板上连接eMMC_
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQV7YAMGTSWSpf6kaguvfDenlcWgRmQgyHamvsibfYwOr1CvxGPHZYzwXjSFm85dDBfXVWJiazsOHZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_8_eMMC时序和电参数_images\img_023_4ad07305ada7.png)
 
 **_图8-22：eMMC互连示例_**
 

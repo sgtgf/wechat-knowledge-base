@@ -68,7 +68,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuibmaicQ1Oq2HzvajrrA4nKibxrBxbrdYUCOzw6H0z4icuwxYQ44usylia9iaNqNCxtAMxpxQiceC6ngFAshfmbMtSmtVJfMibQtQsHAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\解密_N_S_方程中的_非线性魔咒__images\img_000_80a64969409a.png)
 
 这张图抓住了[纳维–斯托克斯方程](https://mp.weixin.qq.com/s?__biz=MzkzODgwODczMw==&mid=2247539913&idx=1&sn=527e9a5d6e8d2b012051a6acc10a90f1&scene=21#wechat_redirect)里**最关键、也最容易让初学者困惑的一项**：
 

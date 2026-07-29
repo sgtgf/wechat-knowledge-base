@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNORQ9ic1eQ8eziaKhMRIAKARiawSv9XYTG2rKSTPx2tBHCZqmicBnyFPrt9A/640?wx_fmt=png&from=appmsg)  
+![](svd在图像处理中的应用_images/img_000_fed2c51fbba7.png)  
 编辑
 
 ### 图片分析
@@ -54,12 +54,12 @@
     
 -   列 = 水平方向的像素位置
     
--   矩阵元素 ![$A_{ij}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOjPWV8909PxSNkMOpxfQYbfgxxuj0LUCKRENvO8klQ1ZgrVILx3as7w/640?wx_fmt=png&from=appmsg) = 像素灰度值（0~255）
+-   矩阵元素 ![$A_{ij}$](svd在图像处理中的应用_images/img_001_21b2c7ba5f30.png) = 像素灰度值（0~255）
     
 
 SVD 把它分解成：
 
-![$A = U\Sigma V^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNO7CAyQL0E0agoBCAJPmLgz6NS9oezibq85h00Kx0PR7S6HLzhgtY9FvQ/640?wx_fmt=png&from=appmsg)
+![$A = U\Sigma V^\top$](svd在图像处理中的应用_images/img_002_318ba390409d.png)
 
 其中：
 
@@ -67,14 +67,14 @@ SVD 把它分解成：
     
 -   V：一组“横向模式”
     
--   Σ：对角线上的奇异值 ![$\sigma_1\ge \sigma_2\ge \cdots$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOr41EeqIia7BSibJT3pgGY0h6NsxuiacNOtNWvQ19Nw56NDckx2oq74lMA/640?wx_fmt=png&from=appmsg)，表示“每个模式的重要程度/能量”
+-   Σ：对角线上的奇异值 ![$\sigma_1\ge \sigma_2\ge \cdots$](svd在图像处理中的应用_images/img_003_8c32e65fe3a4.png)，表示“每个模式的重要程度/能量”
     
 
 更直观的写法是“很多张 rank-1 图的叠加”：
 
-![$A=\sum_{i=1}^{256}\sigma_i\, u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNODgPlHnVstQ073rdHkz2PDkGfzj81P8RwX0W9Fia227yL2micYBlk914Q/640?wx_fmt=png&from=appmsg)
+![$A=\sum_{i=1}^{256}\sigma_i\, u_i v_i^\top$](svd在图像处理中的应用_images/img_004_0de817d17164.png)
 
-每一项 ![$\sigma_i u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNO7sKPAqqAK0gxk0HBaMKOvXTl0E24t3TeBk93KP5XscTrn5o9RFGz2Q/640?wx_fmt=png&from=appmsg) 都像一张“基础纹理/阴影层”，把它们加起来就还原原图。
+每一项 ![$\sigma_i u_i v_i^\top$](svd在图像处理中的应用_images/img_005_b0f4d1482ea2.png) 都像一张“基础纹理/阴影层”，把它们加起来就还原原图。
 
   
 
@@ -84,7 +84,7 @@ SVD 把它分解成：
 
 保留前 k 个就是：
 
-![$A_k=\sum_{i=1}^{k}\sigma_i\, u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOfRPfzFthy143cEVXzCOFEvCcz1s2J0tjA2PzPry6ic5Cswe8q5xXKgg/640?wx_fmt=png&from=appmsg)
+![$A_k=\sum_{i=1}^{k}\sigma_i\, u_i v_i^\top$](svd在图像处理中的应用_images/img_006_65d234099512.png)
 
 性质很关键：**这是所有 rank-k 矩阵里，对原图误差最小的近似**（Eckart–Young 定理）。
 
@@ -135,16 +135,16 @@ SVD 把它分解成：
 
 如果只保留 k 个奇异值，需要存：
 
--   ![$U_k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOmIYxAecLGBBqicvOibPtVutntdNHPfar0jZAwycPRyRsUft30UgNzEFA/640?wx_fmt=png&from=appmsg)：256×k
+-   ![$U_k$](svd在图像处理中的应用_images/img_007_08dcb6ca4f7e.png)：256×k
     
--   ![$\Sigma_k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOvn4PlOVnC3Mwb6lsZnibz4DZCiceTFicxFFuhW7poYib9gYybthdmvM6qw/640?wx_fmt=png&from=appmsg)：k
+-   ![$\Sigma_k$](svd在图像处理中的应用_images/img_008_844ce0b83016.png)：k
     
--   ![$V_k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNObRSYTTIBic6iaDZ6pZNVNlsSnx8bISacR0H29sqM3lSH4C8iboOQa5nKQ/640?wx_fmt=png&from=appmsg)：256×k
+-   ![$V_k$](svd在图像处理中的应用_images/img_009_92aa5e7b7a08.png)：256×k
     
 
 总量约：
 
-![$256k + k + 256k = 513k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOHbicUwGZ3icJia4P9TjgdMaqOiaoBL3SiabNhNkql7Rwic71CnjzV3iaiabvfw/640?wx_fmt=png&from=appmsg)
+![$256k + k + 256k = 513k$](svd在图像处理中的应用_images/img_010_f4cf706a0b28.png)
 
 举例（忽略额外开销与量化）：
 
@@ -167,12 +167,12 @@ SVD 把它分解成：
 
 ### A) 低秩压缩（你图展示的就是）
 
-用较小 k 存储/传输，重建时用 ![$U_k\Sigma_kV_k^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOCkScjo7Oka7MM5QvkPgzswZhtrA9AxzHULqWLgO9TAPkXkxUNIwZwg/640?wx_fmt=png&from=appmsg)。
+用较小 k 存储/传输，重建时用 ![$U_k\Sigma_kV_k^\top$](svd在图像处理中的应用_images/img_011_2f4b0087f464.png)。
 
 ### B) 去噪（Denoising）
 
 噪声往往更分散在“小奇异值”里：  
-把小的 ![$\sigma_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOPb0eWwYnBR1IMZqAT9HTIFiawULcLxeTZbMbhFb5PqfnnHZ76G0Y6eg/640?wx_fmt=png&from=appmsg) 截掉，相当于做一种“全局平滑但尽量保结构”的去噪。
+把小的 ![$\sigma_i$](svd在图像处理中的应用_images/img_012_5b2132cc290e.png) 截掉，相当于做一种“全局平滑但尽量保结构”的去噪。
 
 ### C) 特征提取 / 降维（PCA 的亲戚）
 
@@ -190,7 +190,7 @@ SVD 把它分解成：
 
 用“能量占比”选 k：
 
-![$\text{energy}(k)=\frac{\sum_{i=1}^{k}\sigma_i^2}{\sum_{i=1}^{r}\sigma_i^2}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOky7bjJnSClSkpdFIHkN52eNN7JVkUiaNXoxXFAWEUhGicG5grStpyOsQ/640?wx_fmt=png&from=appmsg)
+![$\text{energy}(k)=\frac{\sum_{i=1}^{k}\sigma_i^2}{\sum_{i=1}^{r}\sigma_i^2}$](svd在图像处理中的应用_images/img_013_7f1d01b5a346.png)
 
 比如选到 90% / 95% 能量为止，就能在“清晰度”和“压缩率”之间做可解释的折中。
 
@@ -204,16 +204,16 @@ SVD 把它分解成：
 
 SVD 给你：
 
-![$A=\sum_{i=1}^{256}\sigma_i\,u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNODgPlHnVstQ073rdHkz2PDkGfzj81P8RwX0W9Fia227yL2micYBlk914Q/640?wx_fmt=png&from=appmsg)
+![$A=\sum_{i=1}^{256}\sigma_i\,u_i v_i^\top$](svd在图像处理中的应用_images/img_014_0de817d17164.png)
 
--    ![$u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOShq9FaNsw043RHSh0xbH2xUFrA9icFIYiaxQ1RZFGlDP2knopYmxprNA/640?wx_fmt=png&from=appmsg) 是一个 **256×1 列向量**（纵向的权重分布）
+-    ![$u_i$](svd在图像处理中的应用_images/img_015_b20c47edac8e.png) 是一个 **256×1 列向量**（纵向的权重分布）
     
--    ![$v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOKg6h0kEknAFJKiaozRH6X17Sl7omZ0aRFKvwEEU3rvl5XN0Pzoldianw/640?wx_fmt=png&from=appmsg) 是一个 **1×256 行向量**（横向的权重分布）
+-    ![$v_i^\top$](svd在图像处理中的应用_images/img_016_d46b196ec4b9.png) 是一个 **1×256 行向量**（横向的权重分布）
     
--   外积 ![$u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOvdNruM9c5gTHCw8HascxkGoxS1FQ8AzrH7lJJKQDBOq1ShZMlqRnXA/640?wx_fmt=png&from=appmsg) 得到一张 **256×256 的 rank-1 图**：  
+-   外积 ![$u_i v_i^\top$](svd在图像处理中的应用_images/img_017_cca794dd5fb7.png) 得到一张 **256×256 的 rank-1 图**：  
       它的像素值形如 “纵向强度 × 横向强度”，所以它本质上是 **一个“纵向模式”和“横向模式”相乘出来的二维图案**。
     
--   再乘上 ![$\sigma_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOPb0eWwYnBR1IMZqAT9HTIFiawULcLxeTZbMbhFb5PqfnnHZ76G0Y6eg/640?wx_fmt=png&from=appmsg)：决定这一层加进去有多强。
+-   再乘上 ![$\sigma_i$](svd在图像处理中的应用_images/img_018_5b2132cc290e.png)：决定这一层加进去有多强。
     
 
 所以你可以把图像理解成：
@@ -241,7 +241,7 @@ SVD 给你：
 
 ### 条带/鬼影：rank-1 层的“乘法结构”太简单
 
-单个 ![$u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOvdNruM9c5gTHCw8HascxkGoxS1FQ8AzrH7lJJKQDBOq1ShZMlqRnXA/640?wx_fmt=png&from=appmsg) 这层是“纵向×横向”的乘积图案，容易出现：
+单个 ![$u_i v_i^\top$](svd在图像处理中的应用_images/img_019_cca794dd5fb7.png) 这层是“纵向×横向”的乘积图案，容易出现：
 
 -   沿某些方向的条纹
     
@@ -279,9 +279,9 @@ SVD 给你：
 
 常用指标：
 
-![$\text{energy}(k)=\frac{\sum_{i=1}^{k}\sigma_i^2}{\sum_{i=1}^{r}\sigma_i^2}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOky7bjJnSClSkpdFIHkN52eNN7JVkUiaNXoxXFAWEUhGicG5grStpyOsQ/640?wx_fmt=png&from=appmsg)
+![$\text{energy}(k)=\frac{\sum_{i=1}^{k}\sigma_i^2}{\sum_{i=1}^{r}\sigma_i^2}$](svd在图像处理中的应用_images/img_020_7f1d01b5a346.png)
 
-解释：![$\sigma_i^2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOAYukYcctRAyY4uFJsXMIkXg54rcFxUVnyrGwgbdRke4toLzFHndWKg/640?wx_fmt=png&from=appmsg) 可以看成第 i 个模式贡献的“能量”。
+解释：![$\sigma_i^2$](svd在图像处理中的应用_images/img_021_6b2b7a338e24.png) 可以看成第 i 个模式贡献的“能量”。
 
 经验：
 
@@ -302,11 +302,11 @@ SVD 给你：
 
 保留 k 个时需要存：
 
--   ![$U_k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOmIYxAecLGBBqicvOibPtVutntdNHPfar0jZAwycPRyRsUft30UgNzEFA/640?wx_fmt=png&from=appmsg)：256k
+-   ![$U_k$](svd在图像处理中的应用_images/img_022_08dcb6ca4f7e.png)：256k
     
--   ![$V_k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNObRSYTTIBic6iaDZ6pZNVNlsSnx8bISacR0H29sqM3lSH4C8iboOQa5nKQ/640?wx_fmt=png&from=appmsg)：256k
+-   ![$V_k$](svd在图像处理中的应用_images/img_023_92aa5e7b7a08.png)：256k
     
--   ![$\Sigma_k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOvn4PlOVnC3Mwb6lsZnibz4DZCiceTFicxFFuhW7poYib9gYybthdmvM6qw/640?wx_fmt=png&from=appmsg)：k  
+-   ![$\Sigma_k$](svd在图像处理中的应用_images/img_024_844ce0b83016.png)：k  
       总计约 513k
     
 
@@ -366,23 +366,23 @@ SVD 给你：
 
 对灰度图矩阵 A：
 
-![$A = \sum_{i=1}^{256}\sigma_i u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOBU8SGrAuNVWNAWqNCegP2XMXJzKpDJHUibA0psDDWhrAwIribxmh3ibhw/640?wx_fmt=png&from=appmsg)
+![$A = \sum_{i=1}^{256}\sigma_i u_i v_i^\top$](svd在图像处理中的应用_images/img_025_b09b9471ea88.png)
 
 定义第 i 层（也叫第 i 个“模式/成分”）：
 
-![$C_i=\sigma_i u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOuXI8zjZbhYvVWoNs2RKlmbch1B2hACia9GSGTz7RMDbEArd7BfbByEg/640?wx_fmt=png&from=appmsg)
+![$C_i=\sigma_i u_i v_i^\top$](svd在图像处理中的应用_images/img_026_a9928aab1e18.png)
 
--    ![$u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOShq9FaNsw043RHSh0xbH2xUFrA9icFIYiaxQ1RZFGlDP2knopYmxprNA/640?wx_fmt=png&from=appmsg) 是“纵向权重”（每一行该多亮）
+-    ![$u_i$](svd在图像处理中的应用_images/img_027_b20c47edac8e.png) 是“纵向权重”（每一行该多亮）
     
--    ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOhX0KXiaMd9aiaF7cB6bRefrm5ym1vxFwwTUpicfVmhFOtdiaz9mXfU3yNg/640?wx_fmt=png&from=appmsg) 是“横向权重”（每一列该多亮）
+-    ![$v_i$](svd在图像处理中的应用_images/img_028_0c7b4755a275.png) 是“横向权重”（每一列该多亮）
     
--   外积 ![$u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOvdNruM9c5gTHCw8HascxkGoxS1FQ8AzrH7lJJKQDBOq1ShZMlqRnXA/640?wx_fmt=png&from=appmsg) 的结构决定了：**这层图像 = 纵向形状 × 横向形状**  
+-   外积 ![$u_i v_i^\top$](svd在图像处理中的应用_images/img_029_cca794dd5fb7.png) 的结构决定了：**这层图像 = 纵向形状 × 横向形状**  
       所以它天然像“条带/渐变/大块阴影”，而不是复杂细节。
     
 
 把前 k 层叠加就是近似图：
 
-![$A_k = \sum_{i=1}^{k} C_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNO0x5ssMqC2DMW0gZ1dDzrXfq5SeJYlBdLXRib3eASvC1FFkloNKSBgYw/640?wx_fmt=png&from=appmsg)
+![$A_k = \sum_{i=1}^{k} C_i$](svd在图像处理中的应用_images/img_030_23c0ffa02709.png)
 
 * * *
 
@@ -452,7 +452,7 @@ SVD 给你：
 ## 4) 实际“怎么看每一层”：显示时要注意两件事
 
 1.  正负号问题（很重要）  
-     ![$u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOShq9FaNsw043RHSh0xbH2xUFrA9icFIYiaxQ1RZFGlDP2knopYmxprNA/640?wx_fmt=png&from=appmsg) 和 ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOhX0KXiaMd9aiaF7cB6bRefrm5ym1vxFwwTUpicfVmhFOtdiaz9mXfU3yNg/640?wx_fmt=png&from=appmsg) 同时乘以 -1，![$C_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOdMSBcOYEricI62OgRw2ibOH4miceRa8IutS86OAgO9icUjQibnfE1ZsU7SQ/640?wx_fmt=png&from=appmsg) 不变，所以每层的明暗“正负”没有绝对意义。  
+     ![$u_i$](svd在图像处理中的应用_images/img_031_b20c47edac8e.png) 和 ![$v_i$](svd在图像处理中的应用_images/img_032_0c7b4755a275.png) 同时乘以 -1，![$C_i$](svd在图像处理中的应用_images/img_033_ecf1c3a357a9.png) 不变，所以每层的明暗“正负”没有绝对意义。  
       因此你可能看到某一层是“反相”的——这是正常的。
     
 2.  幅度跨度巨大  
@@ -475,7 +475,7 @@ SVD 给你：
 所以只用 20 层：有大刷子、少量中刷子 → 能画出人，但细节没法画；  
 用到 85 层：中小刷子足够多 → 细节明显回来了。
 
-我们继续把“为什么某些层像横/竖/斜条纹，它们到底对应图像里的什么结构”讲清楚。核心点：**每个 SVD 层![$C_i=\sigma_i u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOuXI8zjZbhYvVWoNs2RKlmbch1B2hACia9GSGTz7RMDbEArd7BfbByEg/640?wx_fmt=png&from=appmsg) 是“纵向模式 × 横向模式”的乘积**，所以它天然会呈现出方向性纹理。
+我们继续把“为什么某些层像横/竖/斜条纹，它们到底对应图像里的什么结构”讲清楚。核心点：**每个 SVD 层![$C_i=\sigma_i u_i v_i^\top$](svd在图像处理中的应用_images/img_034_a9928aab1e18.png) 是“纵向模式 × 横向模式”的乘积**，所以它天然会呈现出方向性纹理。
 
 * * *
 
@@ -485,14 +485,14 @@ SVD 给你：
 
 看一个 rank-1 层：
 
-![$C_i(x,y)=\sigma_i\,u_i(y)\,v_i(x)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNO86pY8VNkII8qY4FbA3DxF4BNM4JUbvVRstGB5TqibRvTofPicAjdCvdw/640?wx_fmt=png&from=appmsg)
+![$C_i(x,y)=\sigma_i\,u_i(y)\,v_i(x)$](svd在图像处理中的应用_images/img_035_bc8168c568dd.png)
 
 （把行当作 y，列当作 x）
 
--   如果 ![$u_i(y)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOJVR8cYD10ZcbZkIdA7xLh5JKTv4LnHCvxsrH7scRVyuMrBTDwu9TJA/640?wx_fmt=png&from=appmsg) 变化很慢、几乎是常数，而 ![$v_i(x)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOlGcQzH4e2G46c835J1icwwLUKSN8k4FwzUaf1k6oTxTGGBnic3qUVVwA/640?wx_fmt=png&from=appmsg) 起伏很强  
+-   如果 ![$u_i(y)$](svd在图像处理中的应用_images/img_036_2c497bc444cc.png) 变化很慢、几乎是常数，而 ![$v_i(x)$](svd在图像处理中的应用_images/img_037_58b61b6eebb8.png) 起伏很强  
       ⇒ 整张图主要随 x 变 ⇒ **竖向条纹**（因为同一列内部变化不大，列与列差别大）
     
--   如果 ![$v_i(x)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOlGcQzH4e2G46c835J1icwwLUKSN8k4FwzUaf1k6oTxTGGBnic3qUVVwA/640?wx_fmt=png&from=appmsg) 变化很慢、而 ![$u_i(y)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOJVR8cYD10ZcbZkIdA7xLh5JKTv4LnHCvxsrH7scRVyuMrBTDwu9TJA/640?wx_fmt=png&from=appmsg) 起伏很强  
+-   如果 ![$v_i(x)$](svd在图像处理中的应用_images/img_038_58b61b6eebb8.png) 变化很慢、而 ![$u_i(y)$](svd在图像处理中的应用_images/img_039_2c497bc444cc.png) 起伏很强  
       ⇒ 主要随 y 变 ⇒ **横向条纹**
     
 
@@ -513,7 +513,7 @@ SVD 给你：
 
 也就是：
 
-![$C_i + C_j$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOIT6icqhYjjH6W8X78kyOXtcpAwXXuTE99icTaVQNODhMQbQZbKoa8rHQ/640?wx_fmt=png&from=appmsg)
+![$C_i + C_j$](svd在图像处理中的应用_images/img_040_198f91050130.png)
 
 会比单独的 Ci 更“二维、更复杂”，方向感也更丰富。
 
@@ -527,22 +527,22 @@ SVD 给你：
 
 ## 3) 每一层到底“对应图像哪里”？
 
-可以把 ![$u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOShq9FaNsw043RHSh0xbH2xUFrA9icFIYiaxQ1RZFGlDP2knopYmxprNA/640?wx_fmt=png&from=appmsg) 和 ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOhX0KXiaMd9aiaF7cB6bRefrm5ym1vxFwwTUpicfVmhFOtdiaz9mXfU3yNg/640?wx_fmt=png&from=appmsg) 当成两个“投影权重”：
+可以把 ![$u_i$](svd在图像处理中的应用_images/img_041_b20c47edac8e.png) 和 ![$v_i$](svd在图像处理中的应用_images/img_042_0c7b4755a275.png) 当成两个“投影权重”：
 
--   ![$u_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOShq9FaNsw043RHSh0xbH2xUFrA9icFIYiaxQ1RZFGlDP2knopYmxprNA/640?wx_fmt=png&from=appmsg)：告诉你**哪些行更参与这层结构**（例如脸部高度范围、帽子高度范围）
+-   ![$u_i$](svd在图像处理中的应用_images/img_043_b20c47edac8e.png)：告诉你**哪些行更参与这层结构**（例如脸部高度范围、帽子高度范围）
     
--   ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOhX0KXiaMd9aiaF7cB6bRefrm5ym1vxFwwTUpicfVmhFOtdiaz9mXfU3yNg/640?wx_fmt=png&from=appmsg)：告诉你**哪些列更参与这层结构**（例如主体在中间、背景在右侧）
+-   ![$v_i$](svd在图像处理中的应用_images/img_044_0c7b4755a275.png)：告诉你**哪些列更参与这层结构**（例如主体在中间、背景在右侧）
     
 
-于是 ![$u_i v_i^\top$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOvdNruM9c5gTHCw8HascxkGoxS1FQ8AzrH7lJJKQDBOq1ShZMlqRnXA/640?wx_fmt=png&from=appmsg) 生成的二维图，会在“行权重高 × 列权重高”的区域最明显——也就是这层主要在图的哪个区域“发力”。
+于是 ![$u_i v_i^\top$](svd在图像处理中的应用_images/img_045_cca794dd5fb7.png) 生成的二维图，会在“行权重高 × 列权重高”的区域最明显——也就是这层主要在图的哪个区域“发力”。
 
 所以：
 
--   前几层：![$u_i, v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNObEljM5coF25GuH5L3HOAvtj08z55DynPN2JURbKj9m39Dju2tR3N3g/640?wx_fmt=png&from=appmsg) 通常是“低频、平滑” ⇒ 覆盖全局 ⇒ 管大轮廓/大明暗
+-   前几层：![$u_i, v_i$](svd在图像处理中的应用_images/img_046_1fd6e09bb5de.png) 通常是“低频、平滑” ⇒ 覆盖全局 ⇒ 管大轮廓/大明暗
     
 -   中间层：会开始对某些区域更敏感 ⇒ 管局部结构（比如脸、帽檐）
     
--   后面层：![$u_i, v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNObEljM5coF25GuH5L3HOAvtj08z55DynPN2JURbKj9m39Dju2tR3N3g/640?wx_fmt=png&from=appmsg) 起伏更快、更碎 ⇒ 管细节、边缘、噪声
+-   后面层：![$u_i, v_i$](svd在图像处理中的应用_images/img_047_1fd6e09bb5de.png) 起伏更快、更碎 ⇒ 管细节、边缘、噪声
     
 
 * * *
@@ -551,7 +551,7 @@ SVD 给你：
 
 ## 4) “频率”这个词在这里怎么理解？
 
-你可以把 ![$u_i(y)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOJVR8cYD10ZcbZkIdA7xLh5JKTv4LnHCvxsrH7scRVyuMrBTDwu9TJA/640?wx_fmt=png&from=appmsg)、![$v_i(x)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tpicq5YX5tg9S9XibE6ibLAjNOlGcQzH4e2G46c835J1icwwLUKSN8k4FwzUaf1k6oTxTGGBnic3qUVVwA/640?wx_fmt=png&from=appmsg) 想成一维信号：
+你可以把 ![$u_i(y)$](svd在图像处理中的应用_images/img_048_2c497bc444cc.png)、![$v_i(x)$](svd在图像处理中的应用_images/img_049_58b61b6eebb8.png) 想成一维信号：
 
 -   起伏次数少 ⇒ 低频 ⇒ 对应平滑变化（大块明暗）
     

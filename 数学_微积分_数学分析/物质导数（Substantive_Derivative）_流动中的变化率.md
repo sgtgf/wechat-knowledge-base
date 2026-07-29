@@ -65,7 +65,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuPglYGBTyPU2OXE9yqshJlr5uFETcic9JkSvoRicD9xiatf7Zyfb2yNkACiaxFgGt4NySJSG1O6VUwNwu1u8sSUqSVJIW9GujBemQ/640?wx_fmt=png&from=appmsg)
+![](物质导数（Substantive_Derivative）_流动中的变化率_images/img_000_f1128549aa3a.png)
 
   
 
@@ -96,7 +96,7 @@
 
 # 一、先理解图中的河流场景
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsMu8dmqjmr5Fctc8rr0LibB9Qt1Ze51Ove8heTw2ShWz87e5ibQV0ptlScyvUB4jJ0mNSzWR4sIAibd2j8LP9CLdBkvtBqRMDpW0/640?wx_fmt=png&from=appmsg)
+![](物质导数（Substantive_Derivative）_流动中的变化率_images/img_001_843309571ef1.png)
 
 图上画了一条从左向右流动的河。
 
@@ -128,7 +128,7 @@
 
 # 二、两种观察流体的方法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooct5iaPmIdlJxkiaj8eKvDia0SbJpWh1lVeDWMJb6WicYxGQ3MAYJVPEDDBqFFTyj31mCgzW2P5y5TbAicg0og0YtTx95Tm6nTvq53nY/640?wx_fmt=png&from=appmsg)
+![](物质导数（Substantive_Derivative）_流动中的变化率_images/img_002_3362b7c2f395.png)
 
 图片中间把观察方法分成了左右两部分。
 

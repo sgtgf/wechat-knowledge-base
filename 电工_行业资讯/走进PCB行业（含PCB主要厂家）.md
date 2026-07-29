@@ -52,7 +52,7 @@ c、优点：原材料成本低,因其质地较软可以冲孔,故在電路板�
 
 d、硬度相对较差,在潮湿环境下容易吸收水分,受高温热膨胀及冷却后收缩变化较大,且电器性能较纤维板低.（例:过波峰焊易变形）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaxiakGdv3er4LY8YVnbu7icnTjJ0JbCFSCQ9Am8upgStLNdWmL5Lf1n7w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_002_4431089e5a46.png)
 
 2、纸基材环氧树脂-复合纤维板：
 
@@ -70,7 +70,7 @@ c、优点：复合纤维板成本较玻璃纤维板低,解决了纸板的硬度
 
 d、缺点：电气性能虽接近玻璃纤维板,但仍不可完全替代FR-4材料,仅有部分要求不高的电路板可用此材料替代FR-4使用.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOakkTCmnwecGELvkhicQxF6YYs3LIhBEhAvzv0vN32YkPdFl9PicGSVxbg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_003_54630932a0e0.png)
 
 **(二)PCB分类（覆铜板）-双面板、多层板**
 
@@ -84,7 +84,7 @@ c、优点：高强度、抗热与火(不会燃烧)、抗化(不易腐蚀、不�
 
 d、缺点：成本高，制作工艺要求高(例：不能冲孔).
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaXVBQhKoqawtQPlv3kibTOicM5rebdzaViaoFGeS0vGaSMq00eZfMZgibWw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_004_ef03a301bc85.png)
 
 2、陶瓷、金属材质：如铁基、铝基、铜基，主要应用于军事、航空航天领域.
 
@@ -92,7 +92,7 @@ d、缺点：成本高，制作工艺要求高(例：不能冲孔).
 
 PCB料件编码规则第34条：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaRF6EYsYc0xLILOu049grIRDft5hTQN2x9wYBdcXDJnmdkddSZ0bazw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_005_fb632373fa9c.png)
 
 特殊需求码第三码代表使用材质：1――FR-1；2――FR-2；
 
@@ -134,21 +134,21 @@ _**02**_ 
 
 **PCB成产流程简介**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaDsLRLGj8hrforbz8ogHuia4iaMicyCkvpKzBsnPs0M4TUcWYISARKweibw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_006_202a089f4eb1.jpg)**
 
-****![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa33kyDAiag0pkpRO4ncspxukq75AKtkfKBdSlZxbm78ASARbp05Y6eLw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)****
+****![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_007_836ea6b4faef.jpg)****
 
-****![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaPKPTuicwJB7XgkiaicY2jgYg2jDicmLwnoZdhWfBsqk9lTLblJfoMXjXzQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)****
+****![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_008_fdd6ee5c51f2.jpg)****
 
 **(一)单面板生产流程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaFzn7TKktqeeFXib1dddWCVFNXIsev7Via9JREWGG1FOBBXa6D3DMqdVg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_009_4fb5cdc008a7.png)
 
 **PCB生产流程简介-单面板**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOazXmCobPqe8ibTrvwzUQfnegJaIzA3AQAR9kCpjIbIMmlAQNAqy2US9g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_010_f294bd4cfbc1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaqmyM9smnrMTwfFy6jRKjoPA0qsKBnXH9dnOt5oqTTmyicVAbL1UFia6g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_011_13cb223438a3.png)
 
 使用材料：
 
@@ -156,43 +156,43 @@ FR1—纸基板
 
 CEM-1--复合纤维板，也叫半玻纤板
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaFibiakaFAqSjr5iajf3Kv1AS3m4v17XrKbWHPotCMtic1TvmONhtnSbAFQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_012_79f9f0c57ab8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaricduvC4YK5ygyTy20kvbd9rnW7VxA76Sa4aIsLibt34FXp2E6Me48NQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_013_231852c08239.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOafBagIgZib6EoLFK0KWxe70OsgjdJlQWqt5icEY08M8MGsnfBz2FtfBuw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_014_8437cc673eb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaLlVIsfn0CibJ3Rgqnn9x1x0Knjr2JXKY3CiaIsuc9M6XLwNenbYpvNicw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_015_a0aa90d18820.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaVW6lFpZIJy5s65rD0ZiaayL0DVT3n7keua1W1q5kmeicPFHGBico1f0Pw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_016_d8fe612cb5dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa1vJIallZgCuibCKPZ6lKGUDZO5rHfEztZ9I9492tUdICId4H1Uj3ibzw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_017_c9bcffe81315.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaMrC4XHtejuUwqb650sPl4YmGnDppNSGygyWnUpj4y7w4DibA6o8DBUQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_018_30d0104b45d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa4hbalxwS2icEoL8eaquPnqKde7KOFJUI3picXHLruRoL1tVPyHiaKe0NA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_019_62ca71eccbb8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOakPmlWp7sITwnx3Gux6xiaibDHaoxx1la5Or5IML3rv4FvQUbrknCkCYA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_020_11d4fb6eb980.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaXbE4C4pcr4sEPOX77S4g06A2czZWKAvs7eG31eW3TMuxbGkBdicHv3g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_021_d3982deb3006.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaRaatN0BItRLmkg54yNnoEd24vibOB4pMfS677zsRdd6guibibbtUn7uSA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_022_d22d8f849917.png)
 
 **(二)双面板生产流程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOahZtA2OxwePM7cRBVJcomd4mkpRWdxJpEibGujM11jOfnDMJp1jJul7w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_023_464b5d33d99e.png)
 
 **PCB生产流程简介-双面板**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaczSEic0JIMSNRD51vyLbYUXkghyK4ASEfgow4tfnQ0YkG1oicLgRlBRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_024_d99625d688c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOazENaI9oDibJPotAtcSBicVgbPONf3alMSFGBJR2pGUXD8iagtfIZgKkJQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_025_c881a235f305.png)
 
 使用材料：
 
 FR4—玻璃布基板
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOashxXtDLHRkC52AAFbHu3gM8RYrqxQqY3fKBzvcI9h2C93MERycejZA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_026_b4dc248351ac.png)
 
 盖板（铝板）：防止钻孔披锋；防止钻孔上表面毛刺保护覆铜箔层不被压伤；提高孔位精度；冷却钻头，降低钻孔温度。厚度：0.15-0.2mm.
 
@@ -202,67 +202,67 @@ FR4—玻璃布基板
 
 TPV要求孔壁粗糙度需≤25μm
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaH5qX0TdwFuSW8ibvbSZQI6JaOPUqWUUdpibGXl7tgXmxicIn4KVarvqfw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_027_64ff228ad03b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaicS6NibSzoJia03CpkLsLfd1S6sJia2UoM7Rb7mEXfbVVr40TMmF7fL48w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_028_c1e55b2c59a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaJWRLkJblCMbfFeQBxa0GjcOhVQLQhIa56zDd1h0wBf1fZGEuOvpmpA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_029_aaabffc622fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa2tCiaYbdwbaPiaQetyJVbsx75qBibnV8rZNnG3ibNPMJO9mK7PFAFdZicsw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_030_c78bc62b2596.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaQ3g6BOVK0GFGNDsblLraER0BPEDxNQE6bhPyrUKGKBVhGQZpmZ8ibXA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_031_ddc7c7dec896.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaGV5gD4cRhauQf5HrDtgsKCUGibSjVibRcYxYXwg9UoMrzEuhcSRjRqcA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_032_9c26bd538d22.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaSX5Pk3J74KwEQhfMy85CEGTaknAJoPldK0QppSIY9sRluCBSkOwjUw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_033_a8405ea2b3e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaFiah2dYtNygVNCPib8xx1ibJ3oTEKGzvgmEPKGl7E7uksn0Lic4SC9sKYw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_034_0aa2bdef1b40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa7fS2Tkq9bTaE5QScElzpzMfVy1wGMUxlo3efZOLiaHGE6Kp75uF8sAQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_035_253afdde0090.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaVWrqzIFZDEm9ZSgnFcsOuDCI8icEuM8pMtKibBFXRXOYu2WkyxxztpAw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_036_1c62b5d4a440.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaVxziaVSiccfQ0zgibNmXDJZBoSLhPsaVicPLQSftbmC31q5GVicwIdaVQMw/640?wx_fmt=png&from=appmsg&random=0.2178730650972609&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_037_a40b223d8873.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaR05PNny6Jb2EVtbaRYEuzBP9USdWIiciaATkyTMAlu1bzKely1RYjq6w/640?wx_fmt=png&from=appmsg&random=0.8489526559147105&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_038_88e8788bff6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOatgCREicO40xwePFichlKF3KicvxkiaBbibR9ohDqwPBJrKQaZJ8zL3B0F3w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_039_67cfa89e5a4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaicK0IPbiaVAxtvccnJcxW2TA11ibNG75Qo0mxDbx0CNpMfb8icCDMExWgw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_040_30e48c8d7d19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOasic2Gme71KLUZLYFrclicmXOZSn09WPAa7qsWwOkJo2UfKrRJEq8cwMw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_041_e4bddd853571.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOawyJoknaOh2qzEhVKiboWpCbrZ3VEYAzXOwff3X2slxALibxD5tr24aZw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_042_fceda7def3b9.png)
 
 **(三)多层板生产流程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaoemI613aiab6Lw6gibiaLibFXysX7LYnVEaicRibvT0VABzQdlKUy7z5lN8A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_043_41492113aec7.png)
 
 **PCB生产流程简介-多层板**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaY9Gm81VpZLBZcHUasjWfD9QNEPQWq8S2pu9g6icp2OQ0ogtfk9VcUzg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_044_83b2cae846e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaMic7lcpFkTHyMGp1ICJhPU4B8D4mrGu4c9MCraVrPjiaoWjvAnAONquA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_045_5115dc63be8c.png)
 
 使用材料：
 
 FR4—玻璃布基板
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaq4xdmQmOGx5JFJFvcayyOUV1rsgXcsMR21KALeQHLDdNc79hUEMoqQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_046_61a21356dc89.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa33icApNrmnSl4EibzVTx4ZeUohOBnCUlD9RIy8ZHGIEVHRu3FdZEaMcQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_047_fa6f9526b594.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaqosrSoQqWdvewgB0BlmEbGGFGhDK1MsEztW2qBeXFqH0E3wSTTW1ZA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_048_9bb5ccd5f031.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaNsdHswial7Dj0ODag1Ac5NKX0vDTRBCgCpfx2whaqgrXmgqruyWTcibQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_049_08e1af261b20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaaqKwq56wO0mickaFWBqSKcs8WBpFqoVoeFnq9SrZsOBpWoOM2Vao2Pg/640?wx_fmt=png&from=appmsg&random=0.13136068823862468&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_050_a672f93e937b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaRicicibY6JvpyyOodk5Q8sDU0iaSw5TOmb48wTiaVlgXwPnPWWich06KK8Yw/640?wx_fmt=png&from=appmsg&random=0.9242029646804477&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_051_c1968e1e02b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa1kF8lWBVBhRtA5sgKa6xGhdpXKib7hjEuvUia40uNibIwOodRianaibaxCg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_052_0481735f0fd2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaMK0LshAuRTDgFFicHsxJGbehPG8y3zdcMbtKq8Dk7j1jRjVAXYjeib8A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_053_e21346d4522b.png)
 
   
 
@@ -282,13 +282,13 @@ _**03**_ 
 
 1、不良描述：兴达715G5935K01000004I D/C1316,1317 均发现该点位多集中在⑨-⑧且点位固定线路短路不良，不良率：21/1800=1.17%
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa4NjLLPWdlhfKMzfDsZRTxL6BIE4M3YoL0yvlAC2thcayUnRAO9JicUg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_054_9f082b8e1263.png)
 
 2、原因分析：发现1菲林（1PNL 中有6SET）中有1SET 中有1PCS 位置上有暗线。
 
 此不良为线路生产用黑菲林复制黄菲林时，曝光机上麦拉上有黑点未清洁干净，导致复制出来的黄菲林上有暗线，黄菲林对位曝光菲林上的暗线形成定位短路不良
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaJQRw3NxXARztLyY9Fewiaw7eUz06PwXRicgqvW0tEsCOrbfbTvGzqU0Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_055_7984fdf4fbf4.png)
 
 **(二)三照整板发黑不良**
 
@@ -296,11 +296,11 @@ _**03**_ 
 
 D/C：1325在SMT发现板黑不良，不良率：12/300=4%
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaPoicibKo0hBOL6FObZ8tibozuicAzg1KWPp0vKBvu3HJ2X5f8Bz4jHS5Nw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_056_39752f3c1868.png)
 
 2、原因分析：酸水洗槽后段的水洗槽有一自动补水的装置，但由于作业员的疏忽，这个开关在生产时没有被打开，使水槽的水无法通过溢流口流动，使磨刷轮后段过滤网堵塞，致使马达过载，导致马达自动跳闸，控制显示灯之前有坏掉（正常作业未全部亮灯），水洗槽停止作业，操作员没有及时发现，导致水洗槽里面的酸浓度越来越高，故微蚀液留在板面，带到输送滚轮和吸干海绵棒上，致使酸液越沉积越多的存留在输送滚轮和海绵棒上；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOazXa4Jt4Bak5c7VTNaguzTvSrSPDzLIaiamy6nD3MDY56uicOgChCRA2g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_057_baf8d30f273d.png)
 
 水洗槽水被微蚀药水污染
 
@@ -308,7 +308,7 @@ D/C：1325在SMT发现板黑不良，不良率：12/300=4%
 
 1、不良描述：2013年6月6日福清TPV反应715G3834-M02-000-004F孔径偏小难插件，不良率：3.9%
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaGDnGZlnicNryL0eCy6VKuPxF4bWuAKlkp0X0UAF1ZSIB8Z73kq6Lbfg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_058_4140bab5a3ca.png)
 
 2、原因分析：我司钻孔工序生产该板时发生断钻（断钻时机器会自动停止报警，待处理后开始继续执行）。
 
@@ -320,51 +320,51 @@ D/C：1325在SMT发现板黑不良，不良率：12/300=4%
 
 1、不良描述：6月26日，福清冠捷投诉三照公司双面板715G5870M01001004S在M线有未焊不良，不良率200/800=25%，D/C1321\\1325
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaRVDDbRibtKhL9bErKG8SDniaic0k84Qydl3IVpppL699IiczF9OdNxxH6w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_059_5c2f11721c14.png)
 
 2、原因分析：6月17号因曝光房空调故障，室内温度比较高，温度高达28.7℃（标准湿度：22±5℃，平时一般控制在20-24℃左右），在印刷时孔口处油墨相对较薄（因孔口与孔壁会形成角度，所以在印刷时拐角处油墨会相对较薄且会渗透至孔口），故在预烤OK后将板放置在曝光房待生产时时间过长，没有管制放置时间，因室内温度较高，导致焊环边上的油墨会烤死固化，最终在显影时有一层薄薄的绿油残留在焊环上不易显影掉，形成孔口有绿油，进而造成波峰焊不爬锡
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOazImbFb43lsUevUFXImaqSCkH66FDSp6iaD6enoC0lBRn41QicFicUicuvg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_060_d4fad51d70f9.png)
 
 **(五)景旺测试点未焊不良**
 
 1、不良描述：量产715G3834-M02-000-0H4KPCB时，出现测试点不上锡现象（红点），D/C：1131
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaSPNSPQNc0lJAkDibIMCvKQ8CKy5sQR2iaXEWrGiaQUlwzrDByoIgPDFicg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_061_463abe48d584.png)
 
 2、原因分析：不良因属两方面的综合因素引起的，PCB板的个别板板塞孔过于饱满，造成板面油墨略厚，与PAD的焊盘形成一定的落差，由于测试PAD的面积较小，在焊接过程中，上限的OSP膜厚度在浸锡前较难分解，造成吃锡不良现象
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaK9TWb7QP5kv0EibdnK5xSH1UwQhJPxrIFj2XDUlbBzxnQGf0ywphVWQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_062_e014d88a9cdd.png)
 
 **PCB原材不良案列-其他**
 
 **(一)开路不良**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaLVqUJzviaZ4XV9w4XicpeJ2s6jxYU0hpoia7BiaFic8AYdPv9KGoUzcG2fg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_063_48ccb046719e.png)
 
 **(二)锡洞不良**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa3EBLQEPJ4YgoOTI9uqMLjGxUkzVsF9usSpITC9vqsnqS5tcNASibhaQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_064_4f90aa6e83c5.png)
 
 **(三)短路不良**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOayWd5bFhoJTCia5Rf9dQiciaIaEefhTy9riaLPWXngOIYvDicSzKLia1vbsjg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_065_1391b8104b26.png)
 
 **(四)起泡不良**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaweGRZEeqecVYC3umPxv8PLCKvfNGfr0llCviaxAhribBYy8mQlYqsKhg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_066_7dde45273892.png)
 
 **(五)绿油不良**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaibuTLldzUtoOYLkibicKwMKF8Sib5HvS8SmoweNYibNGofEH3fqVeLj6icbg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_067_1b137b918825.png)
 
 **(六)外观不良**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaSNpdiaURNHgYphRRfO6wGTLowNd9ia4ZGsfycvS7MKv9lx3aPjZHROqw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_068_709125ba2618.png)
 
 **(七)V-cut不良**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaFAjk5FfxllATznwZNv5UlhcCsfUxUxibIUx9yoVic0wNPj6DadribE5bg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_069_730a0b3717b0.png)
 
   
 
@@ -390,43 +390,43 @@ lPERFAG 3C            多层板之品质规范（丹麦）
 
 **(一)基材**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOabWAvfO1UNSlu1XzEpfEGz0KB5hLSqlNMibCIcRDhF7fhfhic3tXqsR7A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_070_a36b3ef91e5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa6YqwZvwkGbXyvqReGhWOtbVswEzd5CH8iblYVurMpqrQgNxhLbx4R3A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_071_dae10981b4f2.png)
 
 **(二)线路**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOanUEjtibHSvCmohFg5zBTKnaMWOveuctpgUruMLCn0G5HlTxrhOWNwjA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_072_5f79b3a1762f.png)
 
 **(三)孔**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOavR2UnbsiaT6TkOwWexbAiaA787c8mice7UIZlqle2mvkxTnORf03KKGzw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_073_6a262648cb49.png)
 
 **(四)防焊绿油**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOa06gTID5FO8xx4O7NzykmC4s99bzGXkhW0TUQo8EmuYQ2GW2fqvghIg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_074_1b23bc451fec.png)
 
 **(五)喷锡**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOasehpMWjhx96gzvBoNOm9TJuWbicTNDTTYXeSd1SMibEsbmdGkYe1mn6g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_075_e046241c012d.png)
 
 **(六)字符**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOabzZ2uV3gTXOicj0O0lsttxocJSxHicSINLibibgdkKkdz6l7bwn2ZleBZg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_076_12b847975300.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOadia7Wyjcs2BkYnuOdu8WuRV5Ep8KoKGXWT5mK8XxYX7kVODdgNAEsow/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_077_98b38d4e8c93.png)
 
 **(七)OSP**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaPibFMOa380zr8AdJkEY41JRM2MWBSiaVE5yPkpNicZCDRCAuKlFAB6qhQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_078_270aaa017059.png)
 
 **(八)成型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOapzlyMG3FhV6Esnffuiah48fru1XcZIHbYaxSX0KG5VtCFEMBUpQjNnA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_079_121e3cf8a705.png)
 
 **(九)板曲**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cj0VQkB67qdK9ETm4qg8dOaSlibmwCzabVntsDybONRuhtvYsjSEBjrQwG1oOZJK41LjHayxia9ia1AA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_080_536473ce5956.png)
 
   
 
@@ -440,15 +440,15 @@ _**05**_ 
 
 **PCB厂家**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaoV8hzDK6dxKOjoaNnHic8yXMGQ7O9T0PUhemmNc7w0nDMMJJjAMvdooBYSr8GHtUOWNHUqPt1qGw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaoV8hzDK6dxKOjoaNnHic8ydFudEGUlaHpsdovvE6F4CaStUCZdzicZGax1tt3zIpNl0UAdF46jYxw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_081_3cc17b2e2391.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_082_2e860e365c65.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaoV8hzDK6dxKOjoaNnHic8ympAKZJSbng5sdgYEia0r2GpiaDbf3gwicAeY4IKEbtUJbP6ubewnhQFnw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaoV8hzDK6dxKOjoaNnHic8yXKxv2v9Gbt3bwDoL3Fz0PibZsRHias3ib0ac0Tk5eiate00GXicxCLxpQtg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_083_ff0d0c87626b.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_084_690413805dee.png)
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_085_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_086_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_087_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_088_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_089_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_090_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_091_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_092_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_093_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_094_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_095_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_096_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_097_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_098_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_099_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_行业资讯\走进PCB行业（含PCB主要厂家）_images\img_100_3c93e54afedf.gif)
 
 ## 
 

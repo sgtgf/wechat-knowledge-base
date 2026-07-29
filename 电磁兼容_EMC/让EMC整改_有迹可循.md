@@ -12,15 +12,15 @@
 
 EMC是一个棘手的问题，下面这个文章一定值得你看，从源头解决问题才是真正的解决问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaHYVGPTZXic9o7MeicEe1TASH667wYwiasKC1gyAMpXFmy5Zou4l4I6MoybiadMsjhPCYiaYe8SVqNokA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_002_8aa931aa05bb.png)
 
 首先看定义，定义主要按照问题性质，分为电源、时钟CLK问题、地不平衡问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaHYVGPTZXic9o7MeicEe1TASicIiaTicc1hXCeQKiaEtfC55Mu6sAHAlI1SzFyVyvxUHL1D79MyeZ72VKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_003_febb1f8a9248.png)
 
 再看原因分析：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswLWNicicbMlfB7ksFd3nS1y6icstJWsFddZ2lib7icXjdD2qgYiaJB6lKCh4uw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_004_e2caa28aaefc.jpg)
 
   
 
@@ -30,63 +30,63 @@ EMC是一个棘手的问题，下面这个文章一定值得你看，从源头�
 
 1、排查手段
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswLZqST2gpRZAol0jn3cvOJFSicNkiayfsxJ7F7ibfW0aq4wr9NRDGz9Q6icQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_005_40e23e26bc80.jpg)
 
   
 
 2、问题分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswLT5U5u3O9ibsIt8K6lIVjluamZMPvR5r5rassL3HRS2uf5sHLwwNN5sg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_006_08cf914fa67d.jpg)
 
   
 
 一般电源问题为DC-DC电路器件（DC-DC芯片、电感、二极管）选型问题：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswLBslcJz4giaibicb8g2yglVp2WpXjMe1AjqLia4ITRFU048v5YqNY8krKbg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_007_b6cce0ac5f52.jpg)
 
   
 
 一般电源问题为DC-DC PCB部分设计不合理问题：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaHYVGPTZXic9o7MeicEe1TASYRAapNuYTKFYcqdibjmxUNcCUYgBjVqb3FWJAib3dHaolONeKCcAZA4A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_008_f50db6fb06a1.png)
 
 3、根源
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswL0MGzXd71rhZdictH8TeY8w9oelp63w66ELE7YElAf516FbCMQNzhdvQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_009_4418a0f06336.jpg)
 
   
 
 **再看时钟问题：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswLrQ3zdhnKgN1FKvwMGV2KOcC9caDDxNicjkXSfPd3RiaicgbicHicK6DP6JA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_010_241f10a529ef.jpg)
 
   
 
 解决思路中的传统方案传统手段：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswLiahTu3AuVIRqqrFgAVgz8qfZA46waOvUPj4YXOfeBC1KG2T9h7ib9wZw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_011_1a8212e3cdb6.jpg)
 
   
 
 硬件扩频：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaHYVGPTZXic9o7MeicEe1TAS0GVdSlgDYOQicicsfBiaTooG0dxTkpHVibg47w0m1VlOuicosQiaps4rpDgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_012_36952639b40b.png)
 
 解决思路中的更换方案：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswL2M1ACaHDUEkKVyFHEnPMoibvIrYYzmNfo7DxvwjmxJsZ6hAegWOFQNA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_013_daa6b77b2196.jpg)
 
   
 
 地不平衡问题:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswL4Gjb1fluOCPhykABvwvGuf2c6u6tItic7QjntUwRIarvA5MibsKpW0eg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_014_4ef8fd65ecc3.jpg)
 
   
 
 最后，分析思路：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ou3a1efJ5JJldbszTXTtJBGL2xaMeswLiaiazTdAkdeVIPy2GhPd0NUbibiangpROTvJP5GCTdbdzUe89jCwnCaTPA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\让EMC整改_有迹可循_images\img_015_612b4ad9382e.jpg)
 
   
 

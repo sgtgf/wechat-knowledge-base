@@ -22,6 +22,6 @@ DOI: 10.19595/j.cnki.1000-6753.tces.180089
 Gao Jiacheng, Zhu Yongli, Jia Yafei, Zheng Yanyan, Liu Shuai. Pattern Recognition of Unknown Types of Partial Discharge Based on Improved SVDD Algorithm and Mahalanobis Distance\[J\]. Transactions of China Electrotechnical Society, 2018, 33(15): 3510-3517. 
 作 者 简 介
 华北电力大学 
-                    **![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75Q78uH9HFo3O6a1GmjWjom1phrccNoy7lrvTQf4mJZeRUMqm0cNrTrlJcC6KZ00PHYDE6uu1ibwShA/640?wx_fmt=jpeg)**
+                    **![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\华北电力大学朱永利等_基于改进_SVDD_算法与马氏距离的未知局部放电类型的识别_images\img_000_faa9314e01a4.jpg)**
 **朱永利**    男，1963年生，博士，华北电力大学教授，博士生导师，河北冀州人，主要研究方向为人工智能方法在电力系统中的应用，输变电设备网络化监测与信息分析处理等。1992年破格晋升为副教授，1996年破格晋升为教授，1998年被评为博士生导师。获全国优秀留学回国人员（1997），国务院政府特殊津贴（2001）、教育部首批新世纪优秀人才（2004）。曾作为联合培养博士生在英国女王大学学习，以访问学者身份在加拿大萨斯可彻温大学、卡尔加里大学电气与计算机工程系从事研究工作，并曾在美国 EDSA 电力应用软件公司工作。现任中国计算机学会高级会员、河北省计算机学会副理事长、河北省人工智能学会副理事长、IEEE 会员。主持国家自然科学基金项目4项、省部级科技项目2项和电力企业科技项目等30余项。获省部级科研成果奖励4项。作为主编或副主编正式出版普通高等教育规划教材3部（其中《发电厂电气部分》为“十二五”国家级规划教材）。发表学术论文300余篇，SCI/EI收录近100篇，其中3篇为第1作者身份的国际顶尖期刊IEEE Transactions论文。
 **高佳程**    男，1993年生，硕士研究生，河北高阳人，主要研究方向为高压电气设备局部放电信号分析和故障诊断；

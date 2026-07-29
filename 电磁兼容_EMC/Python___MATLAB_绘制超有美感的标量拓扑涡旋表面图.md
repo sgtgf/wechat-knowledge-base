@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/cIo8nyaFnmSPKeH6I-iA-A](https://mp.weixin.qq.com/s/cIo8nyaFnmSPKeH6I-iA-A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0oTUiaJxSpXomzK313FmUsIg43MtelZwnKSJ77b6kt89BPib8eU2U1vaWXtdticYCWyIkGSzJ7kqf2ruSMic6psBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的标量拓扑涡旋表面图_images\img_000_86afca756dba.png)
 
 导读
 
@@ -29,7 +29,7 @@
     clc
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpXomzK313FmUsIg43MtelZwXejugGZcDxfCCdomtvTSywWZg0mKWfWEz63iaTC4D4HzUGwoguXFscA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的标量拓扑涡旋表面图_images\img_001_371e4346822b.jpg)
 
 * * *
 
@@ -39,7 +39,7 @@
 import numpy as np
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r0oTUiaJxSpXomzK313FmUsIg43MtelZwtp18J0eKH4RiblIg2eQMaMgysOBNh78oF5NCAqjT26ica4jOFvUbShMw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制超有美感的标量拓扑涡旋表面图_images\img_002_eac5225ff0b9.jpg)
 
 ✨ **关注我们**：关注公众号 **「人工智能+光学」带你学习实用技巧**
 

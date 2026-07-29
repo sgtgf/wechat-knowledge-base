@@ -30,7 +30,7 @@ _**4天精编Excel实战课**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUylBvtDvnFHbzM0JWziaPWz90C5gic2Ks5ueGM15fnVncwcB93PvQofCMw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_000_b808e353dcb4.png)
 
 **每节课程都会赠送实用福利**
 
@@ -38,19 +38,19 @@ _**4天精编Excel实战课**_
 
 **福利1：4000套万能可视化模板**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YqTTj5V6CHvZIlVDbjzxSXycAKrnoVBcossKicTWHd8uD5NqVoxOz3tVoHmg5vmTEibelqeOsZ3A8DcukCMrfEdA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_001_e16811754619.png)
 
 **福利2：30套职场汇报万能PPT模板**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4MXV7svuTWLeycUwuhfsJXnNHB0qYEVBR4pbCOjJxC8oxdgNIlbI4U1obtLyDNmu7bROhyQbppEkT0pclXVXRw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_002_154ce7bcaff8.png)
 
    **福利3：14节Excel高级进阶视频课**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/nLVgocKDbmJWNAVmO1BlcFdshxhIJzuoUZjVK59NFy057qIZphgZEkdP2j1hZic5Lv2Yc4vXbHFMibAwibD98BuFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)**
+**![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_003_9fafef20a36e.png)**
 
    **福利4：月薪3W大佬在用的Excel资源**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/C7sjKKA4lDY8B8fkFMchSfXwGTdUQSUKibeXmROWZkd0E4sGLFTzHTwbx3msicrUgIcmdqJianJ6FHKtH2z6cicEUw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_004_e96fbc8ffbcf.png)
 
 **就申请到3天特惠权限**
 
@@ -74,13 +74,13 @@ _**4天精编Excel实战课**_
 
 ④ **常用函数**使用手册+**122项**快捷键🎁
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/APJtD5JagNftRU8n4xicyVIaOLtvo63OyRvKxK9vrUJ18ia50o8f7BZWAbjMP2A2sLO4k2D4l3zstVeavh0LZalg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_005_b1fff07bc081.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaTZMVFeoysAL58A2oS0A6JHbUEicZK1eTVT3INHh58YsTiaxbje8hxsxUbCRicThPibJDADXOkUf9J6g/640?wx_fmt=jpeg)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_006_13167c95d33c.jpg)
 
 ****🎁附赠礼包截图🎁：****
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUyiahYV5fq14rP8CcibnT0iaP68T2yovCM4UdtlrgDEAKDqopb2kQGqbq4g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)**
+**![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_007_27c368d26600.jpg)**
 
 **购买后请耐心等待课程顾问通过~**  
 
@@ -112,7 +112,7 @@ _**为什么推荐你领**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/tS7hXk7tHfJV8boOibEticJm0SAUoIBqVBB5U69b4HH6x2ibnYian4LGMXo09QgbWhwvxdPKe2EPdogT6TNWstmC1A/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_008_b4b8934632a4.gif)
 
   
 
@@ -120,7 +120,7 @@ _**为什么推荐你领**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/tS7hXk7tHfICIuuly4ic03xevemj3barSmHQArGuMZ7EsNnicCA9RoAibib1zgLVtGRiag0keBBB22rAflCehhe5xpA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_009_92f6b48a9588.gif)
 
   
 
@@ -128,7 +128,7 @@ _**为什么推荐你领**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YqTTj5V6CHuuR6LaI6ia0ibQuJTA5icQ9jhzdkjHFka6S4bpmBCvD2DUSHRiaWKky9TbOV53L8cR9vgEjBzwFNmibcg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_010_697459a43d2e.gif)
 
   
 
@@ -156,7 +156,7 @@ _**为什么推荐你领**_
 
 数据清晰直观呈现，将枯燥的静态图表变成可以交互的动态看板，**让Excel会说话，****汇报总结**更高效、更出彩，老板刮目相看！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUyKSWb8STaoQyLKVzb1b0nbHj0bM0ff9iboRJs5Dq5EhajrTtXibjArkBA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_011_6328a819a391.gif)
 
   
 
@@ -170,7 +170,7 @@ _**为什么推荐你领**_
 
 系统了解高频函数应用，维度再多也不用怕，**一个公式让数据一目了然**、井然有序，彻底告别机械重复的人工计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUytZd254tvlgrmicaWvPhB2CMWYRiczCXUfLD1gxbOKvmfZdIhNwxhibxvQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_012_4d95f1e8fede.gif)
 
   
 
@@ -180,7 +180,7 @@ _**为什么推荐你领**_
 
 熟练使用VLOOKUP等函数，通过组合套用构建一套智能查询系统，**让数据主动跑到你面前**，成为玩转数据的“魔术手”！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUylmCabLfmag3WnqDrpcG76TbgJtYbSJsZh8rooIdcs2qSOtI3O2KOcw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_013_7d9228a94bd4.gif)
 
   
 
@@ -198,7 +198,7 @@ _**为什么推荐你领**_
 
 **实操+训练+总结**，每天20分钟，学习时间自由灵活。课程内容**长期有效**，**可反复学习**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUyPeWWRibWCJQZO4ictvE6CLK9G1bLhraqN8oAUV8W5VhlIWbTWeBbibKxQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_014_1457c1e9d11f.png)
 
 4
 
@@ -208,7 +208,7 @@ _**为什么推荐你领**_
 
 老师经验丰富，操盘过**传统巨头企业、一线互联网大厂的多个**复杂项目，兼具Excel、数据分析硬实力。课程**历时半年精打细磨**，将干货**通俗易懂、形象生动**地传递给学员，帮助学员解决工作中遇到的实际问题，场景化教学，随学随用！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUySsRrVhkNWhL4FH6ickiag02cAEW1AiavibfM0bgPtNejCBSAlxicH2HLvicw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_015_1351cf798c5f.png)
 
 5
 
@@ -220,11 +220,11 @@ _**为什么推荐你领**_
 
 实实在在解决自学突破不了的难题，稳步提升技能，就一个字**“值”**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUyz5xl1GUmmsEhOtM5R9F9xECuHGO0By2WkC4tx9IibTrwd990XFHgHicQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_016_fc4afee5826e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUybtxQBIibxjlJm41F3BGJBv69yLia9Fzcr5fasTRf6FKj3ncxXQicNpibiag/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_017_d54eb7eb2f76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/KbFPSh6s4yVeJnncQGrCWlES0P7ntCUy5gCyXSEIdNbfTnd20z5lOicAUE974AehCvZYt0FU5ax9eshZhbu3u9g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_018_62551623ee79.png)
 
   
 
@@ -244,9 +244,9 @@ _**为什么推荐你领**_
 
 👇👇👇
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C3yCfmr6oFu3bWylbJZ7Z3DV3CFyEUOalTVTNA8DyqicK9EFCQh1M2D1r4aUAHhfeGcjNZicpwgvlIHZ1APE1oSg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_019_e67616e6328a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaTZMVFeoysAL58A2oS0A6JHbUEicZK1eTVT3INHh58YsTiaxbje8hxsxUbCRicThPibJDADXOkUf9J6g/640?wx_fmt=jpeg)
+![](终于有人把PCB设计急需的Excel技能_一次性说清了_付费搞来的_限时删__images/img_020_13167c95d33c.jpg)
 
 本公众号仅限**前200名**特惠购买
 

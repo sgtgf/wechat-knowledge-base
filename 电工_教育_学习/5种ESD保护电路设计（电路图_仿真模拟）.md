@@ -18,13 +18,13 @@
 
 注意****引脚左侧的两个二极管，是内部ESD保护电路。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pvMX2yoWhByUEnIpqeboYWvJ6iaHaKtkovPicTTeDv25Jiajrko0J0IkdA/640?wx_fmt=png&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_002_f0463e400fb1.png)
 
 任意 IO 引脚的 PIC16F616 内部框图
 
 下图这个例子，在ESD事件期间，****如果没有外部TVS二极管，IC会在引脚上看到超过300V的电压，很有可能会使内部保护过载并损坏设备。****通过添加单个外部TVS二极管，可以减少这种情况发生。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pQWj4XN6dLAQcjdickytqQXt7r3OwDVWmXHIrjz88ru9T4MiaTWbrzm0w/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_003_f16e882ae089.jpg)
 
   
 
@@ -34,13 +34,13 @@
 
 下面为ESD：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2piaRiaPTxibwjPke9rqZmm39NrXmDvXCjFkl3PRGFibYcmmcJkJxC2OWvMA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_004_c5804450f266.jpg)
 
   
 
 **对该电路进行测试，使用2R校准电阻（R14），会生成一下电流/时间图**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pqcQxKHD0eUgeu0uBgN9l7pHafO7fKHOXvS74IBWXM3zh2G4M5vTXDQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_005_c75600fde80f.jpg)
 
 使用 2R 校准电阻
 
@@ -50,7 +50,7 @@
 
 下面这个电路模拟了IC内部的ESD保护电路，ESD应用于暴露的GPIO引脚，具有少量寄生电阻：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pNQ35g0EhJy9EzrhflRa0PGWqt43SS0I4VvhQHMZ7aDYfkKcNdDgpZw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_006_ce2cc4ac10a8.jpg)
 
 无ESD保护电路
 
@@ -58,7 +58,7 @@
 
 GPIO引脚电压超过1KV，11A通过D1。根据下图曲线，****没有ESD保护会使内部保护二极管暴露在极端的电压和电流下，可能会导致二极管失效****。由于通过 D1 的电流与电压 GPIO 直接相关。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pSHs4It5dWmy4st3cul53qskSFscDib6b91QvxzJVfjEyZpeTRSib8EXg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_007_2ef991e58751.jpg)
 
 无ESD保护电路，GPIO 引脚电压超过 1kV，11A 通过 D1。
 
@@ -66,7 +66,7 @@ GPIO引脚电压超过1KV，11A通过D1。根据下图曲线，****没有ESD保�
 
 这里的ESD保护电路只是简单地****使用一个串联电阻****。对于这个模拟，使用****220R****，**串联电阻用于减缓信号的上升时间，并且可以大大改善电路的EMC和SI。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pDwUOK9p7WyR5Umn0jYdQEdWItLf6679ia6qkhkBts8wK8OZDsQGNU6g/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_008_52ac1de94446.jpg)
 
 ESD保护电路使用一个串联电阻
 
@@ -74,7 +74,7 @@ ESD保护电路使用一个串联电阻
 
 如下图所示，****最大GPIO电压降低了近50%，通过D10的电流降低了40%。****虽然说依旧会损坏IC，但确实也显示了单个电阻可以增加ESD保护产生的影响，如果IO引脚上的信号允许，可以使用更大的电阻提供额外保护。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pGrdlPek5V1u8J4pV5YybWuHdoDeG50xHv7jSv4bTuAz23q5rmWtAXw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_009_07878514a074.jpg)
 
 与无 ESD 保护相比，串联电阻的曲线图显示出显着改善。
 
@@ -82,7 +82,7 @@ ESD保护电路使用一个串联电阻
 
 另一种简单的ESD保护电路****在引脚到地之间简单地加一个1nF电容。****与串联电阻类似，电容的大小取决于线路的用途。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pKBylGwxxM2GEcviaauCttxd3knibpVUWoAibVetoH3Jl6mhIDTgyWmSKg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_010_b1312b4badec.jpg)
 
 在 GPIO 线与地之间添加了一个 1nF 电容
 
@@ -92,13 +92,13 @@ ESD保护电路使用一个串联电阻
 
 这个ESD保护电路潜在的问题是事件比现在要长的多，可能使内部保护二极管过热，并且可能破坏线路上的任何数据。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pYR6gGkWfpH5cCibqpNPbbWe5h9jc4WQbvLiacfZt2z9ovVkUPX2WzCOw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_011_9491875c64f4.jpg)
 
 这个图与前面2个完全不一样，电容显著减慢了事件的上升时间
 
 **将电容换成10nF，进一步降低了峰值电压，但是事件发生的事件也被延长了。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pfX7AlmwJXfnQSxuZ8EBDUW1RG0PyictUNblV7xyGib3kIicukfoQ2yV6Q/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_012_b4be6bc60b16.jpg)
 
 一个 10nF 的电容进一步降低了峰值电压
 
@@ -121,7 +121,7 @@ ESD保护电路使用一个串联电阻
 
 这里要注意单向二极管和双向二极管是不一样的。****在GPIO上使用 8.2V 齐纳 (TVS) 二极管接地。****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pibzicwz2oNGqthYAibBa528snkEHmxcOibJvyJJicHe5FYHSic9pooCeOBYQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_013_25684aa0271f.jpg)
 
 在GPIO上使用 8.2V 齐纳 (TVS) 二极管接地。
 
@@ -129,13 +129,13 @@ ESD保护电路使用一个串联电阻
 
 可以看到 ****GPIO 引脚上的电压大幅下降****。最大现在约为16V，通过D10的电流仅为100mA。内部保护二极管可以这样使用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pCmN6YwHXxFZM9rBpcXPJf19LicmeIhQU1SBmsLiaf0zAicl3SBfyJnm5g/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_014_3ed3aa73f5a4.jpg)
 
 GPIO 引脚上的电压大幅下降
 
 这里必须要知道的是****外部TVS二极管D12承受的压力****，如下图所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pEzBepV8pmNlE4iaIUYZ9PlnMs40vbcXw6TicmER82cV9Vmdgc7ItImuQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_015_9768e74814cc.jpg)
 
 显示了 TVS 二极管 D12 在 ESD 事件期间承受的电流
 
@@ -143,7 +143,7 @@ GPIO 引脚上的电压大幅下降
 
 当使用 TVS 二极管时，Datasheet上会有“电流 – 峰值脉冲 (10/1000µs)”的规格。这是 TVS 二极管在指定时间和波形下可以处理的****最大额定电流****。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2poatnTPZTYJ21rv7zL20lMatcHub0s4qI4vh6hTZacibsicVnGOShS6KA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_016_30394605fe61.jpg)
 
 TVS的电流等级
 
@@ -151,7 +151,7 @@ TVS的电流等级
 
 ****降低电流并保护TVS二级管的一种简单方法是在TVS的连接器侧使用串联电阻****。在在 TVS 二极管的 ESD 侧放置了一个 220R 电阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pCGYP58sjthbCicmibbBHw2piaTebRSuqTOHCJXssOyWZ06IKVM74SMroA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_017_bbf5265ea1f0.jpg)
 
 在 TVS 二极管的 ESD 侧放置了一个 220R 电阻
 
@@ -161,13 +161,13 @@ TVS的电流等级
 
 下图显示****通过 TVS 二极管的电流减少了近 50%****。当峰值电流/电压降低时，事件的长度增加。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2p7IsYRs8UCkxkTGE7eAj0WtFQu5jcEjVrLggK84K09EXwBBjxuSt9MQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_018_cc5f4131edf0.jpg)
 
 通过 TVS 二极管的电流减少了近 50%
 
 ****电阻还会影响 GPIO 引脚上的峰值电压****。如下图所示：TVS 二极管 + 串联电阻的曲线图显示 GPIO 引脚上的峰值电压略有下降。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pZjcyhabxLibxyIx8LDVuvtVhVicewxV4ldSnYLbdRLz02jERLN255SCg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_019_0f26d435d61f.jpg)
 
 TVS 二极管 + 串联电阻的曲线图显示 GPIO 引脚上的峰值电压略有下降
 
@@ -179,7 +179,7 @@ TVS 二极管 + 串联电阻的曲线图显示 GPIO 引脚上的峰值电压略�
 
 两个肖特基二极管 D18 和 D19，分别偏置到地和正电压轨。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pLbvY5lriaIkcYTRyMcobqiabPxgzcKfKJyJ7JFNosL53LraBRxicBaRXQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_020_142f8fa069b2.jpg)
 
 两个肖特基二极管 D18 和 D19，分别偏置到地和正电压轨
 
@@ -189,13 +189,13 @@ TVS 二极管 + 串联电阻的曲线图显示 GPIO 引脚上的峰值电压略�
 
 ****V15（电源）仍然具有相当大的 100R 串联电阻****。这意味着在正 ESD 事件中，浪涌基本上通过 D19，然后是 100R 电阻，然后通过接地完成电路。如下图所示，这并不是一个很好的保护方案。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2pjXiadibVRw2ialZ5NuciaXfL2TYicIaQW7unojDm2DvTHMQ8u93znZTibOuw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_021_e1aa8bc5d41f.jpg)
 
 用 100R 电源时，双 TVS 二极管基本上不提供保护
 
 这里需要注意的另一个问题是****肖特基的反向额定电压，如果超过就会损坏二极管****。电压电源的阻抗更改为 1R，即可使双肖特基方法比 TVS 更有效。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4UIbaUqqc4NQQ2icIVHibg2p1Yibly7M5tRuMBJHf5fvLE4NA8Ujg04FiayJicUXtShY86TnGqP6q6w4g/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_022_3c13bc7c62f0.jpg)
 
 电压电源的阻抗更改为 1R，可使双肖特基方法比 TVS 更有效。
 
@@ -217,9 +217,9 @@ TVS 二极管 + 串联电阻的曲线图显示 GPIO 引脚上的峰值电压略�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_023_27e4e85ce630.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_024_26e7c42e5929.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_025_86e7b1720ef8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_026_607a9b5809f6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_027_c337f32f2ad2.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_028_845d28096f90.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_029_2e2b5ebc409a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_030_16e467ebcf07.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_031_ebed19ebd456.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_032_de9b387fc9a9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_033_fb5805018722.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_034_25764f7ff52f.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_035_f992681cd3b5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_036_d13d18656a84.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_037_fbbfff43554c.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\5种ESD保护电路设计（电路图_仿真模拟）_images\img_038_05704500a9db.gif)
 
 ## 
 

@@ -21,19 +21,19 @@ SiC MOSFET器件的优势主要包括低导通损耗、高温下的稳定性、�
 
 为满足市场对碳化硅功率器件的更高电压、更高效率、更高功率密度的发展需求，爱仕特已量产耐压为3300V、导通电阻为58-200mΩ、电流20-60A电流的碳化硅MOSFET。更高的输出功率，使得基于爱仕特3300V碳化硅MOSFET开发的应用系统具备更高的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2M5tL6EEp4TzMiaC3P1IN64K0fV48V3kQfA4QaLJl0w68qYLjef01tArg/640?wx_fmt=png&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_000_447cf85c25db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJErCo9zq4cO4JbAow9VxwL16K1sUZ0VwHI3Kjywq1EKGN7QqyYYS2vw/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_001_eb9fd82cc1f3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2MGzga5lU8m2olL88Hoia0ojCYwGsKkypXKHGkL9QRnfPzQF1Ge82NokQ/640?wx_fmt=png&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_002_691610d94002.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJKKqVZGOI5Zz9FLl2ISsuHs527UEF6YAWFSSmWFcUJicPoMXN8LuOQGg/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_003_24b4223f0736.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2M7HJseNDs1R41znPoJAr8M9eqV3ibbMolWoEm2ibMpicrmzuP3jsQibJ60Q/640?wx_fmt=png&from=appmsg)▲爱仕特3300V/20-60A碳化硅MOSFET参数表
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_004_7a17f19d80ca.png)▲爱仕特3300V/20-60A碳化硅MOSFET参数表
 
 目前，成功研制出3300V碳化硅MOSFET的国内碳化硅器件厂商仍是寥寥无几，据全网最新公开数据，爱仕特是国内首家实现量产3300V/60A碳化硅MOSFET的厂商。早在2018年，爱仕特已成功研制3300V/20A碳化硅MOSFET，而此次3300V/60A碳化硅MOSFET的规模量产，充分体现了爱仕特在碳化硅功率器件领域过硬的正向研发实力，有助于打破国外碳化硅厂商的垄断，在高压大功率电力电子器件领域占领一席之地。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2MFW9eDiaw3LccgXukTQ1JvnkmfD6PhMnsGziac62aKaVuZ19Zg2r9GhQw/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_005_385151bf02ae.jpg)
 
 ▲爱仕特3300V系列碳化硅MOSFET
 
@@ -57,7 +57,7 @@ SiC MOSFET器件的优势主要包括低导通损耗、高温下的稳定性、�
 -   器件能够在-55°C至175°C的宽温度范围内稳定运行，适用于各种环境条件，提高了应用的灵活性。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2MdVVk3nAFyPXEruXMQCEKJzfnjMDCMAvsxWBJLhxB1ThmtqEubEbLGw/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_006_25e8b6d0162b.jpg)
 
 ▲器件在不同结温下的稳定性
 
@@ -73,7 +73,7 @@ SiC MOSFET器件的优势主要包括低导通损耗、高温下的稳定性、�
 -   搭载自主研发的碳化硅MOSFET芯片，器件能够在较小的尺寸下承受更大的电流，提升了功率密度。新型TO-247-4L封装设计，能够满足器件在现代电力电子系统中日益增长的高功率密度需求，使系统设计更为紧凑和高效。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2MCAaF9oPBhPROM3SLOBOxZIRkMkQ1br1zpUIBVgqIs4jDNnqGzgHeqA/640?wx_fmt=png&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_007_58064d27dd7e.png)
 
 ▲自主研发的碳化硅MOSFET芯片
 
@@ -84,7 +84,7 @@ SiC MOSFET器件的优势主要包括低导通损耗、高温下的稳定性、�
 -   一流的散热性与防潮性能够保证器件在高负载高频率开关条件、潮湿环境下的稳定运行，延长了使用寿命。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2MaSTwA0m540ibO9buvOgmxORL6RJ7ddiac4f5hVIEBQk5kwbAXG7U2jibQ/640?wx_fmt=png&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_008_244f59ea2c74.png)
 
 ▲新型TO-247-4L封装尺寸图
 
@@ -125,7 +125,7 @@ SiC MOSFET器件的优势主要包括低导通损耗、高温下的稳定性、�
 
 爱仕特掌握国内领先的碳化硅核心技术，新一代的碳化硅工艺可降低芯片成本近15%，同等规格下的芯片面积比国内同行小15%—20%，能够为客户创造更大的经济效益。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslmCF0naMLXjnOq7MOEsV2MibenmaqwEkhzibiaWUjlRSUvKxPJ3LUabXyrvfgfdQFJY4euEpHDnF2SQ/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_009_ca3c54fa696d.jpg)
 
 ▲爱仕特“三位一体”模式  
 
@@ -137,14 +137,14 @@ SiC MOSFET的应用领域‌主要包括新能源汽车、光伏逆变器、储�
 
 中车株洲所与深圳地铁集团联合自主研发的国内首台地铁列车全碳化硅牵引逆变器，是基于最新一代宽禁带器件，3300V等级高压大功率SiC（碳化硅）MOSFET的高频化应用。通过从基础理论、关键技术、系统集成、试验考核等层面开展研究。据悉，搭载了这个全碳化硅牵引逆变器的深圳地铁1号线列车，已经无故障运营5个月以上，累计载客公里数超过6.5万公里。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJfSeJicOMKCJPSgabxH2IZdAWXU5gRjN7vOQsaKGxcqeJiaDQwND4Mictg/640?wx_fmt=jpeg&from=appmsg)  
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_010_895c603a9c19.jpg)  
                   来源：株洲新闻网
 
 项目突破了全碳化硅器件应用、电路拓扑、高频控制等关键技术，打破国外行业技术的垄断，形成高频、高效、低耗的地铁牵引系统解决方案。特别是在节能化方面表现优异，经装车试验测试，同比传统硅基IGBT牵引逆变器的传动系统，综合能耗降低10%以上，牵引电机在中低速段噪声同比下降5分贝以上，温升同比降低40℃以上。
 
 苏州市轨道交通3号线永磁直驱项目由中车南京浦镇车辆有限公司负责整车研制。苏州市轨道交通3号线永磁直驱车辆采用永磁直驱转向架、第三代半导体全碳化硅驱动的永磁驱牵引系统、走行风冷永磁直驱电机、列车以太网控制网络等先进技术。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJnJ9QEW2u6BleX6mD38boYANJiciaay4cnx2DgNIlFgWjbgiaunN2icicoNg/640?wx_fmt=gif&from=appmsg)来源：中车浦镇  
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_011_99d3c0daa30e.gif)来源：中车浦镇  
 
 这也是全球首列下线的全碳化硅永磁直驱地铁列车。列车于2021年底完成永磁直驱列车试验，完成所有调试和试验验证后列车将正式载客运营。
 
@@ -156,25 +156,25 @@ SiC MOSFET的应用领域‌主要包括新能源汽车、光伏逆变器、储�
 
 与两电平拓扑相比，三电平（中性点钳位）拓扑既降低了滤波器要求，也降低了碳化硅 MOSFET 上的电压应力。根据电网电压的不同，可以采用碳化硅 3.3 kV MOSFET二极管器件的串联连接。还可以考虑其他拓扑进行分析。低压（LV）端采用1,200 V的碳化硅器件。在DAB中，中压变压器（LV到MV转换）的运行频率可以在10 kHz到20 kHz之间。根据功率需求，可以使用单相或三相系统。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJzEE5k21pgU2sUlm7aicbV6Ovg2MBBxMnHN6Hpb0q7nPjJA6GZtcAT7Q/640?wx_fmt=jpeg&from=appmsg)来源：纳微半导体
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_012_ac649c4fb4dc.jpg)来源：纳微半导体
 
 将电池储能系统与中压电网相连的系统拓扑
 
 使用3300V中压碳化硅MOSFET代替串联低压（1200 V或1700 V）MOSFET或IGBT具有巨大的优势，包括更简单的门极驱动、用单个中压器件替代多个低压晶体管和整流管可以减少相关的寄生电感、有着较低的导通损耗和更高的效率。因此，功率转换器的整体尺寸、重量和冷却要求可以显著减少。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJqKMqUXK1KJ6DwzMQAJbXib0EiagYuRv3ROIzicVCP8T6Gr9sTAEVyWiazA/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_013_c85ed00149ee.jpg)
 
 3300V的SiC MOSFET通过其独特的材料特性和先进的技术应用，为重型车辆的电力系统带来了更高的效率和可靠性，同时推动了车辆的小型化和轻量化，是未来重型车辆电力系统发展的重要方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJzCp6BOmQQibIgDpicGjd9dBKlLeo2DkgQujK8w2r0NdxaoUib5MAMlATQ/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_014_a79e1c0e49fd.jpg)
 
 3300V的SiC MOSFET在高压DC/DC变换器中的应用技术‌主要体现在其能够提供更高的耐压和高速性能，这对于需要超高电压高速开关的脉冲电源系统尤为重要。SiC MOSFET的高耐压和高速性能使得它在短时间内能够瞬时供电，适用于气体激光器、加速器、X射线、等离子电源等应用。这种技术优势不仅满足了市场对更高耐压更高速开关的需求，还实现了超高电压高速开关，从高速性的角度看，这是Si IGBT很难实现的。例如，与福岛SiC应用技研株式会社、株式会社京都New-Tronics、国立研究开发法人科学技术振兴机构合作开发的产品，在CEATEC 2014、TECHNO-FRONTIER2015展出，展示了SiC MOSFET在高压DC/DC变换器中的应用效果‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJy0nTMxgN90je4zS1oiaqBuIynbFh03tV6d3gsJLtwBHRgyEicOeuShYQ/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_015_95dad8aaa19a.jpg)
 
 3300V的SiC MOSFET具有高击穿场强、宽禁带间隙和高热导率等材料特性，这些特性使得SiC MOSFET相比传统IGBT模块，具有更低的杂散电感、更快的开关速度和更高的工作结温。这些优势在牵引变流器的应用中尤为明显，显著提高了系统的效率和功率密度，为装置和系统的小型化、轻量化提供了更优的功率器件选择‌。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxW4LDnQn4Z2GClWWc6ZyJp9wVszfEzACGBia3vIeh0r3VMxWf3kN6mblhs2w0SXdyibLibMdzTMDYg/640?wx_fmt=jpeg&from=appmsg)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_016_9136fee9149a.jpg)
 
 SiC MOSFET作为第三代功率半导体器件，以其阻断电压高、工作频率高、耐高温能力强、通态电阻低和开关损耗小等特点，成为当前最具市场前景的半导体产品之一。这些特性使得SiC MOSFET能够在高温和高频的工作环境下保持高效和稳定的工作，从而提高系统的整体效率和可靠性。因此，它在新能源汽车的充电和驱动系统中、光伏逆变器的能量转换过程中、储能电源的高效能量存储和释放中、轨道交通和牵引变频器的动力控制中，以及大功率特种电源的应用中，都发挥着至关重要的作用‌。
 
@@ -182,10 +182,10 @@ SiC MOSFET作为第三代功率半导体器件，以其阻断电压高、工作�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_017_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_018_3ade3c3d8599.jpg)![](3300V的SiC_MOSFET的产品优势及应用领域_images/img_019_84aa944feb13.jpg)

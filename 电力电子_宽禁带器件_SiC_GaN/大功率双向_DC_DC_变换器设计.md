@@ -22,12 +22,12 @@
 
 为便于安装和维护，该变换器采用模块化设计，单个模块功率250kW，由两个功率单元模块DM1和DM2并联完成，主回路如图1所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOTYQ6uhXYtvzvQ0uPpaODPFGia7ibOeUt86eBrJWZiaQ75xvPRqbroKLxgg9pCVJ3tCCQp8D7eFLniaxpNjt5rr9VuaqAIZ2UWesc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_000_b07d9cd0ed60.png)
 
   
 高压电池端并联后，通过U1共模电抗、C4滤波电容和R1，R2假负载回路后连接至电池或是其他负载。两个功率单元并联采用改进的下垂控制方法，实现并联均流输出。以实际输出电压作为反馈，构建一个能调节动态更新电压值的PID控制器，从而达到预先设定的输出电压。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNzk65gYesZ9sX7AxqNu781ib1sekicQL5dpJOzcdEmialgOVCxeu0NnYia7CflN6rkEI0YwBsiaNRzpJlX6UNs27QdjhJP4n6FgdKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_001_7cbf49825925.png)
 
 传统两电平的方案，会不可避免的增加IGBT选型的困难以及成本。本文设计方案的功率单元拓扑结构如图2所示，因为低压母线端电压为DC700V，电压等级在常规器件耐压范围内，所以，低压母线端采用两电平桥臂；高压电池端电压高达DC1500V，因此选用三电平的方式。三电平桥臂中四个IGBT开关的电压均衡，可有效地减小开关应力。在IGBT选型时可以有效降低成本，不仅如此，三电平上下两个IGBT模块的驱动信号错相180°，使得在电感、电容上体现的等效频率翻倍，还可以进一步降低输出电压的纹波。在三电平桥臂设计中，电容C2和C3的电压平衡状态至关重要。一旦两者电压差值超出允许范围，将对系统性能产生不利影响。为有效解决这一潜在问题，在控制策略中专门引入了电容电压不平衡调节机制，以此确保系统运行的稳定性与高效性。
 
@@ -47,7 +47,7 @@
 
 根据变换器的工作电压和额定功率，预留一定裕量，通过分析和计算得到的元件参数如表1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOmyxZMgFLYHnjGiau350sTMY7iaEjJibOTX213aA2fmibibHo54wF1WrFiccCYKD5Dic40p7srf1hFJ4XBUp39eTIzOUhlvZETO9Yz4M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_002_df2747e72a64.png)
 
 3.控制策略设计  
 
@@ -55,7 +55,7 @@
 
 为促使变换器在宽电压范围中实现高效且稳定的运行，本设计采用了电压外环+电流内环的双闭环控制策略，如图3所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM4vW48k32AGyUw5TfNbknZphyU0j0JtWU05JTxfejq70BTA8Q2jaI1JmsAWfYicc3O0PkYxHKrV2RKFSve97azzLE4vaNe7Vrk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_003_8ba319dda3fa.png)
 
   
 电压外环负责检测输出电压，将其与给定电压进行对比，经PI调节器处理后输出电流给定值；电流内环则把检测到的实际电流与上述电流给定值作比较，通过PI调节器生成DuR，即PWM信号的占空比，以此精准控制开关管的导通与关断。双闭环控制策略能够迅速对负载和电压的变化做出响应，有力地抑制干扰，显著提升系统的稳定性与动态性能。此外，为进一步优化变换器性能，还引入了前馈补偿控制，用以补偿输入电压变化对输出电压造成的影响，进而增强系统的抗干扰能力。
@@ -64,29 +64,29 @@
 
 功率单元下垂特性用公式（1）表示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNiax9FhNtA0QEdeVUrGP9NGgrL0Op2JfLOxuumT5hzAX6pfqdr3m2pl09ibsOta6CEl5jAygayy5wHhpItJ8ryh8v4U2lBEQE48/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_004_83e6a62f9cf0.png)
 
 式（1）中Vout是功率单元模块的实际输出电压，Vnom是模块的标称输出电压（即空载时的输出电压），k是下垂系数，Iout是模块的输出电流。下垂系数k决定了输出电压随输出电流变化的斜率，其值通常根据具体的应用需求和功率单元模块的特性来确定。  
 
 从公式（1）可知，当输出电流Iout增大时，电源输出电压Vout会随之减小，难以达到预先设定的输出电压。针对这一问题，本设计以实际输出电压作为反馈，构建了一个用于调节标称电压Vnom的PID控制器，确保负载变化时输出电压稳定，避免传统下垂控制的电压跌落问题。在此控制机制下，Vnom不再是固定值，而是由PID控制器调节得出的一个动态更新的电压值，具体控制架构如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibicXfEBIMNFjjoSKSvTicDSvjd0snjdjDBMFRnP0jbRcDt3NSbgzibwicnxugjOpBfwpSbxLQRXEc9DhdRDOPkGjD4iagoQq7rmy4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_005_7c65b0cb972b.png)
 
 4.实验平台与验证  
 
 为了验证变换器的性能，搭建了实验平台。实验平台主要包括双向DC\-DC变换器样机、直流电源、负载电阻、示波器、功率分析仪等设备。在实验过程中，逐步调节输入输出电压和负载，测量变换器的各项性能指标。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNAkXTVtmUBLkK1ic3QcjqQKjMjMgb30AYAaqu0C2TKhfw6CU7peXJt29qlSuI8ia4AJIDiaiaAfjPtSiaS7ibw0xnT4rKacAWx89Sk8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_006_71db29f65d92.png)
 
   
 图5为500kW双向DC\-DC变换器实物图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpORbM4orZjiaEjuTWBCibyeyJd9RfNanefmhDib8nWTZUdqCtbVxGQ8kXvIGzWtBz6vP4k1fg0XBoQyOup5kzS90Y7Q41knI7ol0U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_007_f5ed9ee927ee.png)
 
   
 图6是三电平桥臂中Q22和Q31管源漏端电压波形，验证了两管承受了相同的电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNEzNw5QiaM1zQ5ib3nTWRQFDRLmF9MAd5twibd86PSeq9QqXSljAntibTYNFTT2jqleia1MSDich7ZeFTzDWhaARdfYjsrVvrLHUgOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_008_6083fcc00bb0.png)
 
   
 图7是500kW工作时变换器的工况图，验证了变换器500kW的功率输出，检验设计方案达到了预期目标。实验结果表明，所设计的双向DC\-DC变换器在宽电压范围内能够实现稳定的双向能量传输，纹波电压为0.2%，纹波电流为1%，效率达到了预期目标，验证了理论分析和仿真结果的正确性。
@@ -101,14 +101,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPeMSn3gXlDt08RSl53sia42KL2vc1VwD2fialnhibFQmxgLJqAFib4PniaIkicyJ49j365MYEnbYicQ0kSgkO01z55uAChMFLIdoiaj2g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_009_bd3b1297416b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4ZawxmntsGGILYSTosxrj3WMQYHvJypYUuiaWwAEYBXOVaNbNstJ1RZVb3nZn0hTlNnXicGib9MibVhK9qEkYzP92L81nBGiaMQhM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_010_3e41e45dd451.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtgCibSEiaB0WEAHuBm2MCKCBibK5fT4ZsCEegyzTxpcDpk0ic2mbH4z3yVdEdES64VvkWWlNZoib8H4wibECHd2IKbl8IVskpa0eG0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_011_6039b7ee1c95.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOlVIsHHkHFicBicQeWEgLurD2ECwrzN2RILWbibqE0UzlNl5hYBUEfgqJYU1wrJZAODeyib0Gdkm1Efz8gqda4tHDIG1jRicExEtVo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率双向_DC_DC_变换器设计_images\img_012_45caf66c91b0.jpg)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qcmRc8OJXrveXtt99vvi1g](https://mp.weixin.qq.com/s/qcmRc8OJXrveXtt99vvi1g)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCefcwwciaNc7ICvOvhsKUibAjveytQrUk1fSjBvl5yibwdj8u9qdDlaia4qg/640?wx_fmt=png)
+![](SCD_4_如何用双MOS设计分立式负载开关__images/img_000_f5ff553beaf9.png)
 
 ____**★★★**_______SCD-4--______\-分立式双MOS负载开关_______**★★★**____
 
@@ -15,13 +15,13 @@ ____€1.具有反向电流保护的共漏极负载开关，共漏双NMOS____
 
 阻断反向电流的常见方法是使用二极管。但是使用MOSFET负载开关可以更有效地实现该功能。为了实现两个电流方向的阻断，必须将两个MOSFET以相反的极性串联。如**_图4-1_**和**_图4-2_**，在这种情况下，如果不是两个FET都打开，那么其中总有一个体二极管可以阻断对向的电流。这种方法允许创建两种反向驱动保护负载开关的替代拓扑，背靠背连接漏极或源极，称为共漏极或共源极。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGfOjQM1GeUOnftlkTqXAEVtcmhDRtoG902SRicj8UUiaPCwmwMib4icfu0MzCFGj0QOhyldEqMguVAQ/640?wx_fmt=png)
+![](SCD_4_如何用双MOS设计分立式负载开关__images/img_001_8f4362744ee0.png)
 
 **_图4-1：反向电流保护共漏双NMOS负载开关_**
 
 **_图4-1_**为共漏极双NMOS高边负载开关，与单NMOS高边负载开关一样，需要有高于Vin的HV\_Ctrl驱动（传送门：[SCD-2：如何用单NMOS设计分立式负载开关?](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490216&idx=1&sn=fe01fb38d4c179b6936664ec011e56ab&chksm=c3355037f442d9219b2f708cfef231264b711f6fb845e5736bd7d865997370255805b55db383&scene=21#wechat_redirect)）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubazKYkX0JnLxxUfRDt0DJtia5F6uquDXNz8LCm4CwjFXhZo8E42iareQg/640?wx_fmt=png)
+![](SCD_4_如何用双MOS设计分立式负载开关__images/img_002_dc1f68b24b57.png)
 
 **_图4-2：反向电流保护共漏双PMOS负载开关_**
 
@@ -31,13 +31,13 @@ ____€2.具有反向电流保护的共源极负载开关，共源双NMOS____
 
 共源极拓扑需要访问MOSFET之间的源极连接，G极必须在MOS开启保持电位高于S极，见**_图4-3_**和**_图4-4_**。因为公共源极可能会浮动，如果在没有加偏置电阻钳固电位差的情况下，两个NMOS均无法开启。因为Ctrl处的电压不低，钳固电阻可以尽量往高值取，比如1MΩ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGfOjQM1GeUOnftlkTqXAEhHabCIPmwGQ887syngkZKgTlnkYUibcp6FIrPgkRdtLcMnR22iaaoibQA/640?wx_fmt=png)
+![](SCD_4_如何用双MOS设计分立式负载开关__images/img_003_7860c3d66ede.png)
 
 **_图4-3：反向电流保护共源双NMOS负载开关_**
 
 **_图4-3_**为共源极双NMOS高边负载开关，与单NMOS高边负载开关一样，需要有高于Vin的HV\_Ctrl驱动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubJC9MjhowtaIDvFMMdXPkEhvQcJOKR8xNA65RUdhnfUz8wqiatlN3vEw/640?wx_fmt=png)
+![](SCD_4_如何用双MOS设计分立式负载开关__images/img_004_312d24a6eb54.png)
 
 **_图4-4：反向电流保护共源双PMOS负载开关_**
 

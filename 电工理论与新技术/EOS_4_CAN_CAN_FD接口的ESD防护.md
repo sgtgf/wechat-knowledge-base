@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/v98JKCCOh8LCuuR5bIJ84A](https://mp.weixin.qq.com/s/v98JKCCOh8LCuuR5bIJ84A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRXMZPa0EXyzJrQqfDy6SLJSMXd94ND9uoEfaEwpZHpXZOOOEYpzC13BzJpQp8E2ziaECN7P3aVVIw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_4_CAN_CAN_FD接口的ESD防护_images\img_000_45e1145ed478.png)
 
 ____**★★★**______EOS-4---CAN/CAN FD______**★★★**____
 
@@ -23,7 +23,7 @@ _CAN FD_
 
 由于需要传输和接收更多数据，汽车网络中使用的ECU也越来越多，因此限制为1 Mbit/s的传统CAN网络不足以适应未来需求。CAN FD是CAN物理层的更新，主要区别在于灵活的数据速率，最高可达10Mbit/s，2Mbit/s是典型的数据传输速率限制，适用于不需要更高数据速率的许多应用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2b2fllnEIDZScJicsu0vPhoKeCfaP24InJOZJ0s9q3r520MpRdS6Lb8jA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_4_CAN_CAN_FD接口的ESD防护_images\img_001_06eb451c94c3.png)
 
 **_图4-1：CAN系统架构，带有单个设备来保护CAN节点_**
 
@@ -79,11 +79,11 @@ _____________________€3.ESD保护实例_____________________
 
 为测量信号完整性，两个电路板都采用5V电源，并在TXD引脚上施加500kHz (1Mbps) 的数字信号，来模拟HS CAN环境。将一个示波器连接到CANH（线路 1）、CANL（线路 2）、TXD（线路 3）和RXD（线路4），以观察结果。如**_图4-2_**和**_图 4-3_**中的结果所示，ESD2CAN24-Q1二极管根本不会劣化CANH和CANL信号。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0WyibbicCRB8UiaT4lQWTiawHegCzFRXNNZeKMibp9hyasFRs2WQrh5I0VPWl2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_4_CAN_CAN_FD接口的ESD防护_images\img_002_1fc4458b5b60.png)
 
 **_图4-2：无二极管_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSRg2Ne8l25VKXUqwA6WjWc3dicEkOMdT5M6cNdew0KVKztALUjAXZFmIiacZDNJ7GmMflXlszTEIrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_4_CAN_CAN_FD接口的ESD防护_images\img_003_930c871b03ba.png)
 
 **_图4-3：有ESD二极管_**
 
@@ -93,11 +93,11 @@ _____________________€4.总结_____________________
 
 为了确保稳健的系统级保护，满足汽车在各类环境中正常运行，CAN总线这种接口需要有非常强大的ESD保护解决方案，要确保系统不仅不会出现高压瞬变，而且要尽可能减少电容，以实现不受约束的信号传输，CAN和CAN FD推荐**_表4-1_**和**_表4-2_**参数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQOSc1aQ5LR7SxgURva20wfdkiczPVicNKYOEslsKknhlSia3CndRRll88LDLyjgBEgaU9anyfUAPhQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_4_CAN_CAN_FD接口的ESD防护_images\img_004_4b88fb2d5fb1.png)
 
 **_表4-1：LIN总线ESD/TVS diode选型参数参考_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQOSc1aQ5LR7SxgURva20wfPnt4ia2sHIW6P9WskicXAicohmv9ibl4owOmaPQgdmiaGmIOxkg7dJBQJtA/640?wx_fmt=png)**_表4-2：LIN总线ESD/TVS diode选型参数参考_**
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_4_CAN_CAN_FD接口的ESD防护_images\img_005_a17c615d01b4.png)**_表4-2：LIN总线ESD/TVS diode选型参数参考_**
 
 传送门：[EOS-1：EOS的含义与模型](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485635&idx=1&sn=cea695ae1cad14b52042468175fea9ca&chksm=c335425cf442cb4a42c839f0c4cb42f1b7e132e2449f1d0388b58353c5c5cf6ade2a0c8ea002&scene=21#wechat_redirect)
 

@@ -1,0 +1,122 @@
+# 电机铭牌Y、△接法的说明，搞清楚后不再烧电机！
+
+原创 电机新视界 2023-11-11 22:17 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/0CXAZUZziwCC2KlXykRKLA](https://mp.weixin.qq.com/s/0CXAZUZziwCC2KlXykRKLA)
+
+**点击下方**
+
+**关注我们**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7Nns8eYBib3TwCRTyCYYg96rb41ne9EQ9VFfibXqoRBoL7u3oLEy08pDQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7TJTjXQNE5Lv92HQ6cFPfMSC5kLG2zTfalv3m3Mae3GQiaM4jJuZfHtA/640?wx_fmt=jpeg)
+
+**
+
+**来源：电工小青年**
+
+**电机**是我们工控中最常见的电气元件，很多同学在电机接线方式了很不清楚，到底该怎么接，上网去查也是一头雾水，今天我们就来对电机上铭牌的接法进行解释说明。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/NVbloW08A4xic82JjI9H42brtwXAA6nftibKpUrDFhRlPZOhkJicfHLXZ2sRv31aYomPO8Q2yWh2wyice2RStCzeCA/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+
+电机铭牌描述  
+
+  
+
+从铭牌右边部分上看出接法有两种**△型220V，Y型380V。**
+
+  
+
+这块好多同学肯定有疑惑，因为到网上一查Y-△启动是降压启动，和电机上标注的Y380V到△220V的升压刚好相反，这是怎么回事呢？
+
+  
+
+我们再看下左边的VOLTS电压等级有380V/220V，这个对应的是输入电源的电压等级，比如我们的工业用电就是三相380V的，在国外还有三相110V、220V、440V、660V等电压等级，那上面的电机如果到国外是否能用吗，我们就以上图的电机进行分析铭牌的标注、接法与电压等级的关系。
+
+  
+
+首先我们来看下Y型接法和△接法的区别，这两个接法图相比大家都见过，无论是在电机上还是各种资料都会看到；
+
+  
+
+电机绕组有三组对应的就是三根线U、V、W和6个线头，头部 U1和尾部U2，那么U1U2就组成了一根线，有时候尾部用X、Y 、Z表示。
+
+  
+
+Y型的接法就是把三根线的尾部(U2、V2、W2)接在一块组成了中性点和变压器差不多，三角形则是第一根线的尾部和第二根线的头部连接(U2和V1，V2和W1，W2和U1)，这样头尾相连就组成了三角形的形状。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqlL4QOpuy6ibGxMygY0ic5icCibXlDUbSicRMhFz2WqxcPMPVibpsmelqjjrY081wKJiatYsIsqpEPicnHUKA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+电机不同接法
+
+  
+
+假如现在是电压380V的三相电源，对应的每相的相电压就是220V，这个大家应该都能理解，那么如果按照Y型接法，电机的每个绕组的相电压就等于电源相电压220V，因为每个绕组的尾部都是中性点0V相当于接了一根火线和零线；
+
+  
+
+再看下△型接法，电机的绕组的相电压就等于电源的线电压380V，因为没有了中线点相当于每个绕组接的都是两根火线。
+
+  
+
+我们不考虑功率因数和效率，三相电机的额功率就等于：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqlL4QOpuy6ibGxMygY0ic5icCibOscyba14aCyrGxiczFWvQm6s4270xS52JwgvLwAyUDzwK7bGibewI5ZQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+功率、电压、电流关系
+
+  
+
+我们分析下电机正常工作时和刚启动的绕组电流对比，电机还是如上图的参数，**假设△启动电流为I△，那么Y型启动电流为1/3 I△，当转速起来后，对于同功率P下的绕组电流：**
+
+  
+
+# **380V电压：**
+
+对于Y型接法，采用三相380V的工业用电，启动电流1/3I△，正常电流就等于P/(3\*220)
+
+对于△型接法，采用三相380V的工业用电，启动电流I△，正常电流就等于P/(3\*380)
+
+  
+
+# **220V电压：**
+
+采用Y型接法，采用三相220V的工业用电，启动电流1/(1.7\*3) I△，正常电流就等于P/(3\*129)
+
+采用△型接法，采用三相220V的工业用电，启动电流1/(1.7) I△，正常电流就等于P/(3\*220)
+
+  
+
+# **440V电压：**
+
+采用Y型接法，采用三相440V的工业用电，启动电流1.17/3I△，正常电流就等于P/(3\*258)
+
+采用△型接法，采用三相440V的工业用电，启动电流1.17 I△，正常电流就等于P/(3\*440)
+
+  
+
+综上所述，对于一台电机，**如果电网等级高于电机额定等级，不能采用△型接法，启动电流大；如果电网等级低于电机的，不能采用Y型接法正常运行时电流过大。**
+
+  
+
+另外，对于电机铭牌上的△220V和Y380V的理解，就是如果三相工业用电是380V小功率电机可采用Y型接法大功率电机可采用△型接法(采用Y-△降低启动电流)，如果三相工业用电时220V，必须选用△型接法，不能使用Y型。注意电机中标明的电压都是线电压而不是相电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/NVbloW08A4xic82JjI9H42brtwXAA6nftmbhYnFkt1VFibodwINjEverJAicZqe6VTSGgTDfj1aoIicDbYMWoH41rw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+有什么不对的地方，可以留言积极讨论~
+
+  
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+

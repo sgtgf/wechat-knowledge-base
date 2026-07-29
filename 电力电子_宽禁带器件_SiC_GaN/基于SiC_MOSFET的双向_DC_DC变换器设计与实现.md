@@ -23,7 +23,7 @@
 
 目前，双向DC/DC变换器通常采用基于硅材料的功率器件。然而，传统的 Si材料功率器件存在一系列问题，如开关频率较低、开关损耗较大、载波比低、电流谐波较大以及总体损耗较高。硅材料功率器件的性能已接近理论极限，无法满足电力电子技术不断增长的需求。近年来，第三代宽禁带半导体材料的典型代表—碳化硅（Silicon Carbide,SiC）应运而生，极大地提升了半导体器件的性能。由于SiC 的层错形成能量较低，导致SiC 堆垛顺序非常丰富，形成了200余种多型体，其中4H-SiC 最适合作为功率器件材料。“4”表示单位晶胞中Si-C双原子层的层数，“H”表示六方晶系。表1-1 对比了Si 和SiC 半导体材料的主要参数，可见SiC 材料的禁带宽度是Si 材料的3 倍，因此SiC 器件拥有更好的耐压能力；更高的击穿电场强度可以大大减小相同电压等级下器件的体积；SiC 材料的载流子饱和漂移速度是Si 材料的两倍，使得SiC 器件具有更高的频率特性和更快的开关速度；更高的热导率使得SiC 器件的散热更加容易处理。因此，相较于Si 器件，SiC 器件更加适用于高温、高频和大功率的应用场合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB2u1w2iaJ682aCEEP9188TrU7EgKE7uYs4Nfxqjpo78ZWMtnSXXrxHCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_000_1a0e31d48063.png)
 
 在隔离型双向直流变换器中，双主动全桥DC/DC 变换器采用最少的无源器件，仅需一个高频变压器和两个滤波电容，即可实现能量的双向隔离传输。当每个开关 管 的 额 定 电 压 和 电 流 一 致 时 ， 双 主 动 全 桥DC/DC 变 换器(Dual Active Bridge,DAB)的传输功率大小与开关管的数量成正比，因此DAB 变换器在理论上具有最大的功率传输能力。此外，DAB 变换器具有多个显著优势，如易于实现软开关技术，拥有更宽广的输入和输出电压范围，以及更便于构建对称模块化结构等特点。相较于LLC变换器，DAB变换器在实现软开关操作上更为简易，其内部器件承受的电流应力较小，因此通态损耗也得到了有效降低。同时，DAB 变换器的系统传输函数的零点和极点相对固定不变，这一特性极大地简化了闭环控制器的设计过程，并赋予了DAB 变换器相较于LLC 变换器更出色的动态性能表现。DAB 变换器相对于LLC 变换器更适用于更高功率、更广泛输入输出范围的场合。
 
@@ -33,7 +33,7 @@
 
 Kheraluwala等人在1991 年首次提出了如图1-1 所示的DAB 变换器，其特点在于它由两个全桥拓扑组合而成，并通过移相控制方法来调节输出电压、功率以及功率传输方向。利用变压器自身的漏感或额外配置的外接电感，DAB 变换器能够在双向模式下进行能量传输，同时，它具有相对简便实现零电压开通（Zero Voltage Switch,ZVS）的优点。然而，在早期阶段，由于受到当时技术水平所限，功率器件和磁性材料的性能在高频工作条件下表现欠佳，这导致DAB变换器在高频运行时产生较大的电路损耗，从而制约了其在实际应用场景中的广泛应用。因此，针对这一问题的研究文献相对有限。但是近年随着第三代宽禁带半导体器件的发展和磁性材料的研究，又吸引了大量的国内外学者和厂家投入到DAB变换器的研究。当前的主要研究方向集中在拓展软开关的适用范围，以及提高DAB变换器的开关频率以提高能量功率密度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBAAI5OFYvbykOBicYFg9psOcH7l4f5F1yzRqqpSyCqibCvXBN2maySxFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_001_d005cf2d3745.png)
 
 自1991 年来，研究人员已经提出了多种不同的控制方法。其中最常见的控制方法是单移相控制法，除此之外，还有一些比较典型的控制方法但都是基于移相控制，比如双重移相控制、扩展移相控制等。
 
@@ -53,7 +53,7 @@ DAB 变换器所采用的对称性架构设计，极大地促进了变换器的
 
 SiC MOSFET 作为一种先进的电力电子器件，在电力电子领域的应用带来了多方面的优势。首先，其高效率和低损耗的特性能够显著提高电能利用率，从而降低能源消耗，实现节能效果。其次，SiC MOSFET 的高功率密度和高频特性使得电力电子装备可以更为紧凑，减少了系统的体积和重量，这对于智能电网和能源互联网等系统的发展至关重要。此外，SiC MOSFET 还具有较高的工作温度和耐压能力，使其在高温环境下能够稳定工作，从而提高了系统的可靠性和稳定性。因此，SiC MOSFET 在各个应用领域都具有重要的意义，可以为电力电子系统的性能提升和成本降低提供有效的技术支持。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBK9YwicRWHx0Aq780HLsr5dpfwUIjsVdoLq9szyib6uwLPj1v0BKl3jvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_002_e715f38d9eb4.png)
 
 图1-2 展示了不同材料开关器件的适用开关频率和功率范围。可以观察到，尽管GaN 和SiC 都属于第三代宽禁带半导体材料，但它们的适用范围略有不同。GaN 适用于更高的开关频率，而SiC 则适用于更大功率的应用。此外，SiC 具有较高的本征载流子浓度，使其能够在较高温度环境下正常工作。因此，SiC 能够满足大功率和超高温应用的需求。
 
@@ -63,127 +63,127 @@ SiC MOSFET 作为一种先进的电力电子器件，在电力电子领域的�
 
 在基于SiC 器件的变换器研究方面，孔庆刚等人通过使用SiC肖特基二极管大大降低了反向恢复损耗，成功在试验样机上应用功率因数校正(Power Factor Correction,PFC)，其输出功率为3650W，工作频率高达150kHz。Wood 等人将两个50A的SiC MOSFET 和两个50A 的SiC 肖特基二极管反并联并应用于大功率双向DC/DC变换器中，有效降低了器件的损耗，提高了输出效率。Sasagawa等人在Boost 变换器中使用SiC MOSFET 器件替换Si IGBT，使得变换器的效率提高了20%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBSCnfvsrHZwezDYq8vuLf5ftpZtsX8ABmETlwDSiapyAgsex93Be6gRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_003_faf73398067c.png)
 
 第二章 SiC MOSFET 桥式电路串扰机理分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBlfk2od2Wn4gTib7O3xwpiaia09RvFyn3iczJvEtk2EPdQxd38C9CWJPMPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_004_6c12ae172e50.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBAXpQ5AQuU0J5WoJGKyu5jypnqeqV5fRkdP6o83Oz8SrpGKkA8a0M2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_005_571c610cd736.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBu4Rgwud1f5bHtvgwonpCUKhE5FssWFgwmyufAkXQyl4AoK0L8rxSyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_006_4f016a12bf86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBmJH0T2X4M4laozIasOfwevdZaRpOwraicQ9aSeChz7ae4Yfy8GuabSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_007_9f879dd914f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBYD1h2A3ia8aHMPHhQoscbX6pkWbJlKkPSeuOaWR2fz6wCF6hiawn2cTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_008_6f5dbb6a8a6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBW9LlUTYuc9EL8QGgUys7Dzjpp3saIvv7g5lqP4V2uRwbia5nXGiaX88w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_009_b1e36fb48a5b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBjTtJzY0mvQnfEicicicD0y11wcFozMLXF7bfWS7PAkbWR4WBvfJpcMsaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_010_a19e82f3106f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBrq5KEjSZLWPz7gYFHYx2WTiamNFiaL2iaHT2eiaicbbOKxPyiawjHddxSDDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_011_4efd537200f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBp1fgevncMADtgr5QXz4xMJsxZkWiaVia0Z0gccLpicAypmc4ic08REymCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_012_fd62767ebf2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBiaKibXe5LBrmqqYdiaPReg0YibhQgibxjlt66XaEUcraX3NicicHJJaG5LbCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_013_ecf46c057a90.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB6Ove2xBFO3ILS8UaSTWciau20VDVicCbkdcNNfkTLDCQ8Xg0kkWiciaZdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_014_2dff421d63cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBLw2FLiczj0faV3R80J1VzwEe1CcyVsLLdpicjnO4dNFw8iaiazDdyjINtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_015_6c03d545cc96.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBhSUnk0Y7ibweic6NItuDib8z9gTicF2ghnpiah9kEWib0taMvKzSw0wNiaavQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_016_d91c0d32bbfd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBggkwEVXOic2do7ywR3BtStHu5ceAhOPOYwBslYnw3NfjKuBDibE7Bc7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_017_44972277e829.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBibiary3eSclRaN7MrPMDCBrSWkEXZ9t5tcKt5ckozwOoncbJyibS2TgwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_018_9ab1a75deb19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBwzficNr2C88VEs8nZZWkib6v72B79VN63M3eicGvGbTcqf7ibtibl1HopLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_019_3426ec5ed706.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB59dMwy1OPMft9FdvB7kTol1lAJGcC8ibKJmUZATaEdqBBVgh2iczgTjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_020_edbe0f424abd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBtWU3NTRhDRXxvom17DwEq0yjYEQCuh90ic2Kic2ALoibOD62dmh4xkpgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_021_dd379f4c0a02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBZDhvNia57cbibic0QccGicaibjMshUUUgm6BHQPDLPRVynjZicRUO1FibaINw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_022_ff66cae79495.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBA9UInfz1dMXpjr0uFVBort9poMV6xZrZt2ODHW1boDMiakRYfZ6W8Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_023_b486180ffb87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBSEqxU77ovdKNVE1nxSIuib13A7GBJfyzxiaQmjJklBeEHY11howpIzibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_024_18774df032a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBQD4tcdmFA9icUzG59lLwbElL1mjMcBWFBo1Umhia3crAVkOK7sSAlDsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_025_174711cec9da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBK8RyZrHJ04ecCoicLucxZcgxdHicjoXLI1piaeWKIOm8zXDbWjhiblib9xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_026_da5af9d1ebfa.png)
 
 第三章 双主动全桥 DC/DC 变换器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBoyxB5ZsyyvlE14YMBrDoIibCOjFTicx7KG8C542djbxkeiaZHzUZjxm7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_027_22c224ebdc48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBGYSMtO2Xen2Uy7zF9cUoq0ibb1wUAzmr2icoLLJhibsHwic5xDs5yvbJbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_028_0af54be4732d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBicdsU4OMMLtDIOexrpbfzBHhUHichC9dNXSgMCWbzLmajakkfz5oBlWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_029_56e3b05bff88.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB3hI7VCxKBEibibtC3iaCrMudE8jAWFEJEq2wbFSgldI0oMAiaWYZgcE9qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_030_14bff8f2be36.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBuLv31KHq6APybWXLET8ricj4FB8liaVr2DxdmHnibLsHgzmVa0J7vU5Dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_031_b2603f46ee29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBPGEaCNKUwZSboLwibFXrnxOMiczoR3VicvZUznS4VTRXuWGjoO4qJJ8WQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_032_d22065faf6b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBWBzlaDJADrYYXricEl0sXJvXuasN7urIgEJhwDeGh49Oy0uXV8UMA1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_033_c88584989c6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBIw5hIasC6eibCd2tM52z6iajC6ricct0rgCYDVm8SDYf06icTXzG5TbGHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_034_31d78bd30c1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBtiblKycsnGdWNuoFqvhYice2ibibAwTJfAyxDF98QiarZPZnfhuRWyVYeuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_035_aac125552303.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBLz9XRcUfx0hTRDcxibzkebVCZD1PMX8y1sx5fhUiblpzRFHYGyARfhIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_036_7b00b207803b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB1Z7SGO8wXsL2PZMib6WTEyadNPTzSArTFgb1ZPpdIfkiaKFZl6TygUvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_037_51cef12fce60.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBmWWGYibYoAmkmwficGZ4EvxuzxaUzoXP3gV03ibn4e5dmOdHrVFwk1iaicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_038_47ecdcfc07b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBaON8ibe8j9ibiaibyWc0eFZzparfqehAWc6yNFFafvCd79IYmXfgJbuw5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_039_6398e45a971e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBvxNibbwYjVBkb53kZf0RlfOOKOwC1qLyV8sPibmGkHoYFvV0QUhGO6Hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_040_c9fabb5477fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBtVKYGITOSQMkx0p1eRxgVTl0VmoWFXjalym03uR6xXBPPibl6sxM48w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_041_e948b1640e42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxByHtib8488LkRVth3955kvyn8z6pib3ONlmff870iceTiahbiaHqW8OHoyag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_042_89896dc4e361.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBDq1kqibENEDux12icibHDY7jJBrSvt3Lk78qTPfE0GiczAibRbLjwm5ENEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_043_961e8a07ae2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB9zPIWmibJ5uRlXs3T9grGDMWTlSiaMOsRX58N5tLic9kg6ETJv6D3Ezug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_044_88a82dd8dea5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBD85mNzvfEbODhsc5Rsog3cbjGjnGVnalrnvK6RJZnGSKnicQpg4IwGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_045_b6da47de34fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBpcBjGay330Z0rRlTm6At78otWn0KxL0KDtXeR4SANvUa7fKWxJib4Tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_046_3d3c402f994a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBaiaNoygvu8tobQuRtFwxw937f1bxWISEfVq1lSgyZ0rxurP0zcdW3Yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_047_c952e39d9bda.png)
 
 第四章 样机研制与实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBD6RtWRs8S6DtE3maKbrkXTq45wAHpDPbbymRES3HVQ1OZH7t31ia7pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_048_668349d699da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBC5IaXIr9eH5pxXdjJGxdv8uoduAgzqZEqlamcn8CCP5N0TFwgEAFCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_049_bc9549a98aac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBibn8lWs5BibyxsPgL2YUicafeoBnJp8DE3PNfiaF3Xq6CbYjlRqiaTHKy9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_050_c49005aae2e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBR0YInkgLPRwQyrPqmiawljW6vBibMHEbYl8KuAoopLMkib6jxBqBdaeUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_051_a5bf7ad4fb42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBSRZeaCcAaPZ6DOiaQHJgOWmdbQkh6X6ceU89pBUsFTicsVO9qqyFhsKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_052_c601d55f2c82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBNDybUPFvGu3L1STx2vNV1ErOUpDQpIrXiaLboRjaPJR8iaiaScUp2OXPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_053_dc7b1d053e48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB7Wuud9l7xEHhzkO7ceGx9BFV8icrdHInVq3Qnzvcogcxwh3ZvU45FFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_054_9dc063b36404.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBSeVpibVEHkRLQxp0ibLIohvbkJ7Z1ibt4P6KUhzvlNH8beRJFR70nAaRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_055_1fcd4b6972ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBwYLuB80TKtaxJdz4x9206KN1Mwia2Qf37dLOG6c3w1CUlhCpL09P5UA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_056_caca290b4f20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB865XXib5BDCH9kUibHRDYZayGxJyYGD3oLKBPT8ib9vNLrLGYAnRo2Bhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_057_78b136d28ac0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBOFRwWTDksf9ibJWmhYv6e6iaK5IDSBvC39sO66WWoVYWSIquGOHCBkCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_058_22c83c93a6b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB6FElMKOG497pGHe2Pal2O33kR8pr0qSa9y9icHcBvRmf0XUXPQJjdew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_059_ba8bf0cddac1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBa5ibssG6RY1GWia4vanZYO3BXtiaF5b0crYx3XPup7uxocarU7abdmH9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_060_349dd84b4da6.png)
 
 第五章 总结与展望
 
@@ -207,10 +207,10 @@ SiC MOSFET 作为一种先进的电力电子器件，在电力电子领域的�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_061_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_062_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的双向_DC_DC变换器设计与实现_images\img_063_84aa944feb13.jpg)

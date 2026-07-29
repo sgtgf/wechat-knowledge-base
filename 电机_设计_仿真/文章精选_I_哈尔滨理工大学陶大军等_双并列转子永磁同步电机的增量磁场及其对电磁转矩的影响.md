@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BLERi8OGs4M9au966MwZng](https://mp.weixin.qq.com/s/BLERi8OGs4M9au966MwZng)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -38,11 +38,11 @@ The coupling effect of dual-parallel rotor connected stator permanent magnet syn
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179SDYhdEeicB3eIiamNFWXYR1gWX9Y6WpMzlDll9jcH2rd6fmDEwiaSyGvNxg4SuKmKx7K1iblcUtbJvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_001_61d1d7a52cbf.png)
 
 （a）  整体结构
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179SDYhdEeicB3eIiamNFWXYR19Btez0mso3jWFrRdOnlZTsWicq9MTDnsW2cgmNMNjOhibogbzCZKwiaxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_002_6d796e45e31c.png)
 
 （b）  电磁结构  
 
@@ -50,13 +50,13 @@ The coupling effect of dual-parallel rotor connected stator permanent magnet syn
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179SDYhdEeicB3eIiamNFWXYR1LSMYeZLN0zMxU9MUJuJTuKCjicWn1gRGMfpfEMWVj8siarvdgYkleNCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_003_d22b1f5404f7.png)
 
 图2 增量磁密的有效值及谐波分析
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179SDYhdEeicB3eIiamNFWXYR1Sia5iaia0jTOn3zK1knswDYtvu1LbicqibQOGySnBx4p4LsW97b3rZxI1Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_004_7ce0027f09ad.png)
 
 图3 样机测试平台
 
@@ -66,15 +66,15 @@ The coupling effect of dual-parallel rotor connected stator permanent magnet syn
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179SDYhdEeicB3eIiamNFWXYR1061ZLLmE8BYMzyDwBrU0VdAItGH3wguTaibXHjl8gEJz6icIEhdpl3mw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_005_af1aed3a185c.jpg)
 
 **陈阳**，分别于2018年和2021年获得沈阳工业大学电气工程学士学位和硕士学位，于2025年获得哈尔滨理工大学电气工程博士学位。发表SCI、EI检索的期刊论文6篇，EI检索的国际会议论文2篇。曾获辽宁省优秀毕业生、黑龙江省优秀毕业生、国家奖学金等，主要的研究方向为：永磁及特种电机的基础理论和应用技术。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179SDYhdEeicB3eIiamNFWXYR17ibKauCYQYZPz3mJgRObctwwt5mnF6YdlvZWTSH57NTCvEZ7loUYe0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_006_b0323f2c6073.png)
 
 **陶大军**，分别于2005年、2008年和2013年获得哈尔滨理工大学电气工程学士学位、硕士学位和博士学位，现任哈尔滨理工大学研究生处处长、电气与电子工程学院教授。主持完成国家自然科学基金项目2项，省博士后基金、创新人才项目、企业委托项目等10项。发表学术论文50余篇，其中SCI、EI收录20余篇，授权专利20余件。主要的研究方向为：大电机基础理论与应用技术、新型特种电机理论与分析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179SDYhdEeicB3eIiamNFWXYR133ReN74JV1kXaNrudiazHe86mgjqrFT9rWLO8Yr3Ciarb5vpICx36AOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_007_ea568adbab21.png)
 
 **戈宝军**，分别于1982年和1985年获得哈尔滨理工大学电气工程学士学位和硕士学位，于1999年获得哈尔滨工业大学电气工程博士学位，现为哈尔滨理工大学教授。主持完成国家重点攻关项目、国家科技重大专项、国家科技支撑计划项目、国家自然科学基金项目、国家科技部合作项目、黑龙江省自然科学基金项目等项目30余项。发表论文150余篇，其中SCI、EI检索100余篇。主要的研究方向为：大电机与特种电机、发电新技术和电能质量控制技术。
 
@@ -82,7 +82,7 @@ The coupling effect of dual-parallel rotor connected stator permanent magnet syn
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_008_654c2fde68d8.jpg)
 
   
 
@@ -96,15 +96,15 @@ The coupling effect of dual-parallel rotor connected stator permanent magnet syn
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_009_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_010_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_011_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -112,15 +112,15 @@ The coupling effect of dual-parallel rotor connected stator permanent magnet syn
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_012_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_013_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_014_644d85f1cc17.png)
 
 学会官方B站
 
@@ -128,15 +128,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_015_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_016_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨理工大学陶大军等_双并列转子永磁同步电机的增量磁场及其对电磁转矩的影响_images\img_017_c28b250481e7.jpg)
 
 学会科普微信
 

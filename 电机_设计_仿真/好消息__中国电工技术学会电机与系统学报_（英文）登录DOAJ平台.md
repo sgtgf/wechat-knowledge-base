@@ -6,11 +6,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/v4vz52CcB131OCIU0QxZduwD3kQjgzSJWNrjticLtP7NCJ3bx1mkkqg1PZjgtbQKeq5XkrOEfuY3GmhbzmfVC9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_000_df2f2bfcc4c4.png)
 
 《中国电工技术学会电机与系统学报》（英文）登录DOAJ平台
 
-![](https://mmbiz.qpic.cn/mmbiz_png/v4vz52CcB131OCIU0QxZduwD3kQjgzSJWNrjticLtP7NCJ3bx1mkkqg1PZjgtbQKeq5XkrOEfuY3GmhbzmfVC9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_001_df2f2bfcc4c4.png)
 
 日前，《中国电工技术学会电机与系统学报》（英文）（以下简称CES TEMS）通过DOAJ(Directory of Open Access Journals)平台审核，已将全部文章上传。
 
@@ -30,15 +30,15 @@ DOAJ是个专门收录开源期刊文献的检索系统，是免费、开放的�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ17854Fs3SXggZz75MRco1SzKjv0IPNmblSO6hdW7utcLXiafOXXBS7oYCicwCUNQJ6YGItoiaiczqZnDhg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_002_e2c6f91870b2.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ17854Fs3SXggZz75MRco1SzKlCcdkLGOibia21j8jKYlibiak1WxtXYm8U6Ml8MuQYFAD8iaiaf6xJkfkq9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_003_ca50c47c499f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ17854Fs3SXggZz75MRco1SzKym8CaQiciapjd6Xia6pBCI6GNY2kGbsVvBSFqU9dkoicgicjG6kLba6koFA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_004_d8d3930a77c5.jpg)
 
 学会官方微信
 
@@ -46,15 +46,15 @@ DOAJ是个专门收录开源期刊文献的检索系统，是免费、开放的�
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ17854Fs3SXggZz75MRco1SzKrobrCl5k8Luia8Vbicic5n0CiauIDJs2VYFKkaibLtCWUCHJ68uuQ9zZGtA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_005_f780924f91b4.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ17854Fs3SXggZz75MRco1SzKzpfBIzneW9eIfZZwZj7jqVpPTM9bfkuoIAttVO4LyFhTLF0my5OTDQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_006_52cef88bf7fd.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17854Fs3SXggZz75MRco1SzKoibtxKNzFQefgtM1keC4bYmnCSDibMic1FXbiczpUlM5ddlFnJtk5qfwWw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_007_b1e4508f5340.png)
 
 学会官方B站
 
@@ -62,15 +62,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ17854Fs3SXggZz75MRco1SzK00zgCq8FdAO82KT0sNR3OOc7jxvC5ptgRfo1SC0jZQxiamNpjUZjldA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_008_08e5f6963599.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17854Fs3SXggZz75MRco1SzK2ThrcbUPvWnjO2r5mRffXISIIt0P3fajyN1c6A23nCX7dzN3aGxXSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_009_2cc2b4e74d2c.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ17854Fs3SXggZz75MRco1SzKW2VFX4s9icselqobWsmp5jbRSSHd4n5Ns89dJknKxib8WTSrBuDAwafQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\好消息__中国电工技术学会电机与系统学报_（英文）登录DOAJ平台_images\img_010_a5153d72f102.jpg)
 
 学会科普微信
 

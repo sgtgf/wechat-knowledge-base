@@ -8,37 +8,37 @@
 
 作者：Michael Rogers
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7ayml7zicNoe4tI9aGe95mxJb5pgE6eicDFbHFoo7h8xClUEoEktSv2rEQ/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_000_482a33710a53.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a1YZQnXtvrxrWesA0TYAOkgvO7jIJbGNOSqickcotj64Ugw8O9VboEBw/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_001_ddd41fac49f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aJ5sxdtPnus2dFBjgdryEJ2UTSsibFY37Ghf4tdKrUlPp5J3YKsGyD9Q/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_002_3c7ed4a331bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7ahjd0nN43evvskCRNm6BBpKzdwQIe8mibA4npibkLR8yty05ORfkaEz5g/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_003_f806c4652c58.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aic22A4UHR1bYETx2bFRV8ENdwwpNAtyTYEH46rm0zkCH0icbLicVP5Ftw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\600A_SiC_MOSFET模块行业标准封装优化评估_images\img_000_44788e9a6027.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7ac0pfibf9S0ibeUmZ9VqNwwvBpiaeb0ia4Sv6KmhibWgkticC842j5NekwHGQ/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_005_11bc462aad0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7anicX5GngxD4xicwTTunHsQ949QKdQDR3JC4oExfT32fIpogKZnN75Qag/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_006_b824450c339d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7ac6Matg7DZMwqia1ankEa2muUWFjfHibPCiaBTZgXKogIQvcoJMddG1djQ/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_007_7e7a5c71759d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aicDm02dOUu8o2b4MzpXeibuypEzPklNfXXTU7vl5icYr7FRLHkxVqBT6A/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_008_6304b0d6ffc5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aOIBOIw6ZC4K0I3hbbO4Jwv9YMVp0XtDLVpO5mDib8ql8XVHhtPwXWdQ/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_009_79054b590a36.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7auT1XVzNc3IicJFFXiaBLW02Oty2dF4dpVuHHTiafByLoqmEHGmBGcf8yA/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_010_2b17cab96c35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a7xN8hkmnNfTQtbylD1cAgmfSDMyqvbcLoCOFTZmZQzL5hdvJeGrEFg/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_011_c98eb9dbae81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aNKgBhicYibzDmbcQEGKGSye4dgUm3JRjmfZAumcLaYEdm0Imn4X6K1dQ/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_012_9a0e0c2a2650.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aHxuG6LL8BTVGuhdbibCEck4K9aOFfVbYKXjyoB7F1PUn0k6AqMc2Zkw/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_013_782e71776b5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aIRZHp6RuF43XFduuw7Tdf3Weia3thEibAp9jAuxFmPia6WXrFPgcUWJgg/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_014_fd88ffaa4dd5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a5iaS5rYHBHDyvdYiaIExOralP4UoCoQHnqgAy2uJCPhTjQgB1vSwbGtQ/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_015_d417239ee3e3.png)
 
 注：图片报告与文字无关
 
@@ -46,14 +46,14 @@
 
 相较于传统硅基器件，碳化硅（SiC）功率器件具有耐高压、耐高温、抗辐射、散热能力佳、更低的导通损耗和开关损耗、更高的开关频率、可减小模块体积等特性，在高压系统中有望快速替代，具有更紧凑的空间设计以及更高的功率密度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aaPjYXDWfibcf4bFt79hh2GBp9rbgSs9mNYgtTqLIydfKc5CpwPMxBDA/640?wx_fmt=png&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_016_b55fd980278a.png)
 
   
   
   
 目前主要应用于以下领域：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a8SFENxP15mv3D56ChicH2zMbnYRp3zbouyuhfDCBLGnvHSO9iaOjVyeQ/640?wx_fmt=jpeg&from=appmsg)
+![](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_017_d5784a5e39aa.jpg)
 
 新能源汽车：主驱逆变器、车载充电机（OBC）、直流快充桩；  
 光伏与储能系统：组串式逆变器、储能变流器（PCS）；  
@@ -67,13 +67,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmHa2qSfO0WzOt3Yic1Sp6lOXssAyBomMDcERaTqUDMnuAicuXIKfWNuaicERiaxFtUvJNEwFtNm4qrXA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_018_3b7bac848104.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmHa2qSfO0WzOt3Yic1Sp6lO8MFD9l0ckhib4ckKr6ic02fITOMicibiaIjwVCPWZQUxa9yQuZqXFMHIn2A/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_019_e6a60b7ba92c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmHa2qSfO0WzOt3Yic1Sp6lOlItRyZYg1yN0Zd5sOcVRoPTUGicOXiaENcUwpt2vvytkU7dxZjQ6g8Aw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](600A_SiC_MOSFET模块行业标准封装优化评估_images/img_020_62b78d1765d6.png)

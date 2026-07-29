@@ -64,19 +64,19 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190630?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxyHhRQ1IVGzbT501LE9ayZaelROUbgicmxQeKVrx078KOuVUvksXe1Xw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_000_52f763584179.jpg)
 
 图 1  基于GBDT的铁路事故类型预测及成因分析框架
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxzeRYt1YmSBoKuiaicw3o7KDJ5uX5sp8gibQ7wXDbkicvVWQtI2BjjicpPlA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_001_8f78c1c0d82f.jpg)
 
 图 2  三种补全方法结果对比
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxZvhngzJNowmP3LoTftJZrkamNXNMTJs3ibAPpkXf8noXTicg88x0E6icw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_002_bb6d0ca05edb.jpg)
 
 图 6  两类事故致因中不同因素的比例
 
@@ -88,7 +88,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190630?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxrWhly0EPibnE8wYIm4s91IZtfua6XkJH1CUNFeSm9McWEu5DZVl0LDw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_003_9496a1a91b93.jpg)
 
 **钟敏慧**
 
@@ -96,7 +96,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190630?viewType=HTML
 
 E-mail: mhzhong@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxBUqepaibrI1RHLuhlqLIEGaiaT5zfFPx7SerUWXg3N4YxgP0L1Mz4A9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_004_397b6abe5030.jpg)
 
 **张婉露**
 
@@ -104,7 +104,7 @@ E-mail: mhzhong@bjtu.edu.cn
 
 E-mail: wlzhang@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxVOT1cP5gAlMcRz5Tbkw6t7MXM5L1WBwjn0BL16lLvib4H44hqia9a8UQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_005_acd9d1a46e43.jpg)
 
 **李有儒**
 
@@ -112,7 +112,7 @@ E-mail: wlzhang@bjtu.edu.cn
 
 E-mail: liyouru@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx0EIXIDpFkibfnIqbicAibuXr3CBSfY92R90d1zmeuaorX4YHJoGauSoxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_006_c83e174cfba6.jpg)
 
 **朱振峰**
 
@@ -120,7 +120,7 @@ E-mail: liyouru@bjtu.edu.cn
 
 E-mail: zhfzhu@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxowWASVMOYialoQ6mIXj3ROLmuzk7xib5utQXRicdDib1HdqCRuTvSK0Ueg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_007_ea8d86c396a7.jpg)
 
 **赵   耀**
 
@@ -330,49 +330,49 @@ http://www.aas.net.cn/cn/article/id/17602?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx1vgRf1oiarxmlibGGjALRpe3wZUSkIdQxcq1rvRVRtUzNVgwia3cCJlrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_008_7ebda992fc96.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8wCIH3XibTeP7Eriaz0zKe1iaEibWLibBm66RgbSqb04wjfGN6d2ibAAJFoA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_009_afc570dc3ee2.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_013_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_010_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxL7P5t0Aj2kjPys6Tic9eJs5h5dkAlLtDHb4JALIyc71icACTnywXS4fQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_012_8dbce81ab1fd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_011_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_014_5c5128724c9a.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_015_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_020_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx0Q6LTznM5SfP3eq2DjXo1AfutVgicgS0ONbz9pGKIEzak99NrenzhJg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_017_2621def177b1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_016_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_018_5c5128724c9a.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_019_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_023_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47fISmibClt1ptGpYKl7pjMxH2WadXt7Q2KCK984biaKRN6RBY7QCw24x2xhzyHSeNaHApFLulYYgXQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_022_7a2ec91d49ba.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_021_5c5128724c9a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47fISmibClt1ptGpYKl7pjMx8cYgEGribhxlEC6NiaCsTg5icakV0Ue4VkKpkUIEzB2Bictz6ribGxZXyPQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\基于GBDT的铁路事故类型预测及成因分析_images\img_024_5c5128724c9a.gif)
 
 **长按二维码｜关注我们**
 

@@ -1,0 +1,36 @@
+# 【今日独家】小伙利用PVC管自制无刷电机，转速可达惊人的8万转，简直太牛了！
+
+原创 电机新视界 2023-06-21 13:41 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/t8m8Qsek5IWOcjXtxs1Y1w](https://mp.weixin.qq.com/s/t8m8Qsek5IWOcjXtxs1Y1w)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sib2GV88N4ED1kkgkq7k9cyS2dP3SAI4omdN32ymGX0FgwrvBhvrlMGFk4FPlVdoAcTs0vkUdMeeQ/640?wx_fmt=png)
+
+**【今日独家】**为**电机行业观察**平台开设全新内容板块，主要以短视频的形式分享电机相关的热点，从另一个角度了解电机，捕捉电机最新动向！
+
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0sib2GV88N4ED1kkgkq7k9cyYRq4x0E5gsLLOTNdzMW7HDX4jAE6wv1doMkBYgC1p5oS1WkwUPHjUA/640?wx_fmt=gif)
+
+【**小伙利用PVC管自制无刷电机，转速可达惊人的8万转，简直太牛了！**】
+
+  
+
+  
+
+
+**01**【步进电机的工作原理，自动化生产线#步进电机】
+
+**02**【高精度机臂使用的步进电机连小学生都能看懂的原理！】
+
+**03**【全球首台！16兆瓦超大容量海上风电主机起运！】
+
+**04**【发明电动马达的人真是天才，你知道它是如何高速旋转的吗？】
+
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sib2GV88N4ED1kkgkq7k9cy0QBvcEhFKAvJY4dK3AS1aRwe8mickXfkqGJbQqYXhcWb55XuiaCBGZ3g/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+

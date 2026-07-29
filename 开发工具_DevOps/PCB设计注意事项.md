@@ -30,7 +30,7 @@
 
 5.芯片的去耦电容104，102一定要放在芯片的电源和地之间，让芯片的供电引脚到芯片的地回路最短。请记住一定是最短。若同时并联102和104，则102首先要靠近芯片。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIArgnQXscDG1Fia8sByoOnGG2JCjSIw8UhYInr07eWfuCaEnUHKspYVmHjrkE1BgwBvCx36U7MR0A/640?wx_fmt=jpeg)
+![](PCB设计注意事项_images/img_000_4ca72ca25374.jpg)
 
 6.尽量保证地回路是连通的，这样才能尽可能避免不必要的干扰。
 
@@ -42,13 +42,13 @@
 
 8.走线尽量拉直。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIArgnQXscDG1Fia8sByoOnGcO79VZqlC1WS5YdD4GsQDHVtaBcZWncebA0lM9kU48iaA9fgqLiae4nw/640?wx_fmt=jpeg)
+![](PCB设计注意事项_images/img_001_604e8a0139ee.jpg)
 
   
 
 9.尽量保持铜皮边缘整齐。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIArgnQXscDG1Fia8sByoOnGFJkobaBWcgxuOam7Euy7PB7zWDNxO0yH7kXfpK4BM8x7Fzbf4ib5vSQ/640?wx_fmt=jpeg)
+![](PCB设计注意事项_images/img_002_d771aa0f0252.jpg)
 
   
 

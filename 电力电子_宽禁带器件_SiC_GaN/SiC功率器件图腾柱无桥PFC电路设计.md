@@ -9,7 +9,7 @@
 
 **关键词**:无桥功率因数校正(PFC)电路;SiC功率器件;图腾柱;双闭环控制;连续传导模式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnB3nwfaVct6u6OKTfhPpMyXsHpe1NCcliccZMDuqyNWfrPfFX4DPicBFZDuia7426yxvWnM7LYUVttA/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_000_33678e543d39.png)
 
 电力电子技术是电能运用到实际生活的关键,其在给人们带来便捷的同时产生的谐波污染也带来了治理困难．功率因数校正(PFC)是电源的前级,其性能影响整个功率系统甚至整个电网．PFC拓扑因能够抑制谐波对电网的污染、改善电能质量,提高系统效率而得到广泛应用．图腾柱无桥PFC去掉了传统 BoostPFC低频整流器,通路中减少一个功率半导体压降,系统效率得到了提升．而普通 SiMOSFET体二极管反向恢复性能差,为了避免反向恢复造成的额外损耗,变换器只能在 CRM 或 DCM 工作,纹波电流大,使得 EMI滤波器体积较大,在中小功率场合被采用．  
 
@@ -21,7 +21,7 @@
 
 图腾柱无桥 PFC拓扑的元器件数量是目前现有 PFC 拓扑中最少的,这种拓扑能够提高电路效率,并将传导损耗降至最低．如图１所示的拓扑,V１为交流输入电压源,L２为升压电感,C２为输出滤波电容,RL为负载．L１、L２、C１和 R１构成 LCL带通滤波器,消除高频谐波．Q１和 Q２为该电路的高频部分功率半导体开关管,Q３和 Q４为电网工作频率半导体开关管．在交流正半周时,其电流走向如实线所示,Q３关断,Q４导通,电感 L２充电,电感电流升高,输出电容 C２向负载 RL释放能量;Q３导通,Q４关断,电感L２向负载 RL释放能量,电感电流下降,输出电容 C２充电．在交流负半周时,其电流走向如虚线所示,Q３导通,Q４关断,电感 L２充电,电感电流升高,输出电容 C２向负载 RL 输出能量．Q３关断,Q４导通,电感 L２向负载 RL释放能量,电感电流下降,输出电容 C２放电．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0xYJBmatQVDSiceAtIWibcYEZCC9JWht6GkhvLq6mh2vFQHKoCcd8rkLg/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_001_91042b1ae1e8.png)
 
 **二.控制方法**
 
@@ -29,15 +29,15 @@ PFC电路采用CCM,电感中的电流连续,对应波形如图２所示．初级
 
 电路的数字化控制主要通过电压外环和电流内环这两个环路来实现．DSP控制程序首先对电压内环控制器及电流外环控制器参数进行初始化,电流通过采样模块输出电压,将采样输出的反馈电压与参考电压比较生成误差信号．此误差信号经过电流内环 PI控制器计算、量化,可得到包含输入电压相位信息的馒头波,将其与误差信号进行计算得到电流内环参考值．电流内环控制器通过 PI控制稳定输出电流,电感电流与电网电压同相,提高电路的功率因数．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0yEF42lDnswx2Vymb8RnoCT2YzRXiaicdlk1wRfq8XQsKZrKttOoqHS3w/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_002_9ae1990e6183.png)
 
 为验证 PFCPI控制的可行性,利用 PHASE仿真软件进行仿真．如图腾柱无桥 PFC 控制原理仿真图(图３)所示,电流有效值经过计算得到输出电压,经电阻采样后将模拟信号送入 DSP２８３７９控制芯片的 A/D端口．一路将转换的数字信号与４００V 输出电压的差值经过电压外环得到给定平均化正弦电流峰值;另一路得到输入电压的相位数字信号,取绝对值后与平均化正弦电流峰值相乘,计算出给定电感中的电流．该电流经过采样芯片传送至 A/D端口转换成数字信号,取其绝对值与给定电感中的电流比较得到差值,再经电流内环控制器输出 PWM 的调制波,与三角载波比较得到 PWM 信号．极性信号和PWM 信号经过控制芯片的逻辑运算,得到 ４ 个 MOSFET 的 PWM 信号,最后经驱动电路,实现对MOSFET 控制．
 
 通过仿真测得,输入电压为２２０V,开关频率fsw 为５０kHz,输出电压及其输出功率如图４所示．第一个波形图为输入电网电压,第二个波形图红色部分为电网电流波形,第三个波形图为输出功率,第四个波形图为输出电压．从图中可看出,电路稳定时输入电流随着输入电压呈现正弦变化,同时达到峰值,输出电压为４００V,输出功率为４００ W,满足电路设计需求．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0zElMdmCBwslpbWgibhWn479o4Zm3PEQW0Yl1kY9umUdU5PGTbZzOK8A/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_003_4b117257fb0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0tAnJ0bjkFMXH3PeESYjDtfiaF2ME5jpa5OibuqVVC01jdicrvXucMpCnQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_004_0af0e8cf35be.png)
 
 **三.电路参数计算**
 
@@ -49,37 +49,37 @@ PFC电路采用CCM,电感中的电流连续,对应波形如图２所示．初级
 
 (２)LCL参数设计:LCL的大小直接影响着系统整体性能,必须考虑电容、电感等参数．输入电流为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0FAncLWBsGib1Im1eIFsjKqFqDxFlp5dVKOiaJZy2ibO1KxFvhbiaY71H5w/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_005_79f5e9aedbee.png)
 
 其中:I１ 和I２ 分别为电路电流和额定电流,RL 为负载电阻．
 
 为保证电路输出电压Vdc为４００V,开关频率fsw为５０kHz,令其纹波电流I３ 为０．４．电感量与输入电压、功率及开关管的关系如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0KlVtjwT02RPmmSJUCxibwsfyUrUMVCWA0iaqpmS7ibickNtxuAo9GCsTwQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_006_10bacd6580a4.png)
 
 可得,L２ 电感值为９１６．７μH,L１ 电感值为２７．５μH,C１ 电容取值为３．３μF．
 
 阻尼电阻参数会影响 LCL滤波器的整体性能．阻尼电阻越大时,谐振峰会降低但滤波器的损耗会随之增大,且对高频谐波的滤波效果也会随之增大,因此对阻尼电阻的阻值应该有一个精确的控制．相关参数设计如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0sCfXAknA31y37ibZcsmMOicoywOSNtqXxMuVmeEZvrVicx7BUbXubEGUg/640?wx_fmt=png&from=appmsg)计算可得阻尼电阻R１ 为３２０Ω,fres滤波带宽为１７kHz．
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_007_7456b06c862a.png)计算可得阻尼电阻R１ 为３２０Ω,fres滤波带宽为１７kHz．
 
 **四.驱动电路设计**
 
 SiC MOSFET 具有耐高压、耐高温、低导通和工作频率高等优点,但SiC MOSFET 的优势在高频工作下也带来了一定问题．随着开关频率的提高,SiC MOSFET 的开关过程电流变化率(di/dt)和电压变化率(du/dt)变大．SiC MOSFET 存在密勒效应,在电压关断过程中,会受到电流变化率及杂散电感的影响,会导致漏Ｇ源极产生振荡．本文采用SiCMOSFET 作为主要功率器件,必须对SiCMOSFET 的关断进行分析．在 SiC MOSFET 完全关断后,二极管结电容两端的电压会下降到０,Vds两端电压上升至Vdc,此时二极管进入续流状态,开关管的沟道完全关断,等效电路如图５(a)所示．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0IqElKr2XD6dB31pJxQztgdaLibWd7jlZz0VLG1Zk3dyoicsImnJhoJtw/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_008_cb3b45ec07a8.png)
 
 在等效电路中,将Cgd、Cgs、Cds呈现三角形连接方式转变成 Y 型链接,变化后如图５(b)所示,变化公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0fjniaYqFfPWDvk3iaDz2icoKoLTbibQuCSSCGgk1ibU103mibJUeHRibMuqUA/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_009_7df8f4b12afa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z08SiaJVSbycF31TQSicHibgOTNAqqro1r2yxIIk7cibye9Eiab95ecibh981w/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_010_f151873af69d.png)
 
 当SiC MOSFET 完全关断时,Cd 两端的振荡可以等效为Vds两端的振荡．寄生电容Cd 放电,使得Vds两端产生振荡电压,导致 MOSFET 的误导通．因此,在关断瞬间,采用负压来降低Vds两端的电压,可防止 MOSFET 的误导通．
 
 SiC MOFET 的栅极驱动电压会影响栅Ｇ源极电压,可能会导致栅Ｇ源极电压出现振荡过,栅极电阻的选取会影响到电路的工作效率．栅极电阻Rg 的最小值为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0BcFib4rPWjvFVzv7r6IRJoIBh3icrOGNkjujicPxr79x7EXEmOYTfkgrg/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_011_07db3d84cde3.png)
 
 Lwire栅极电感包括驱动电路与电器连接电感、器件栅极内部寄生电感．在电路设计中可以通过缩小连接电感来降低栅极电阻,增大驱动电阻的取值范围．参考 SiC MOSFET 的数据手册,最终将驱动电阻设置为１０Ω．
 
@@ -87,7 +87,7 @@ SiCMOSFET 驱动电路采用负压关断,也就是方波下缘为－４V．当�
 
 UCC２１５２０的 VDDA 电容为自举电容,允许栅极驱动电流瞬态最高可以达到６A．VDDA 电容能够使SiC MOSFET 保持稳定的驱动电压．每个开关周期的总电荷计算公式为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0vejMxekQjXM6YsgbM8xblCCFqzQw2skUJ2wFAPRLmsO53Oyos3YTdQ/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_012_2855bea2d8e9.png)
 
 其中:IVDD为fsw为５０kHz无负载下的通道自电流消耗;QG 为 SiC MOSFET 的栅电荷,ΔVDDA 为VDDA出的纹波电压．考虑到直流偏置电压引起电容位移,且负载瞬态导致功率极跳脉冲现象,选择C８ 参数为１００nF．
 
@@ -95,11 +95,11 @@ UCC２１５２０驱动电路如图６所示,UCC２１５２０内部的 VIA �
 
 为了能使SiC MOSFET 负压关断,上下桥臂驱动电源分开,设计以 QA０１C芯片产生两路独立电压驱动,使驱动电源电压工作在－４~２０V,具体电路如图７所示．其中,VDDA 电压值２０V,COMA 电压值０V,VSSA 电压值－４V,VDDB电压值２０V,COMB电压值０V,VSSB电压值－４V．以此保证功率管能在关断时有足够低的电平将栅极拉低,确保不会因米勒效应而误导通．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0RQcLz4ia27OeXG3Okk6kSTJzZGOusoXZxToY8jwxEnIkU7a95cgoN3w/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_013_e45e50545319.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0lLI3fOtRMzicaL3bWOh2uPnicibbeyvl6xd1KdUA3yE8WYibFcRby1gn0A/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_014_92b972bb5acc.png)
 
   
 
@@ -107,16 +107,16 @@ UCC２１５２０驱动电路如图６所示,UCC２１５２０内部的 VIA �
 
 经实验测试,在输入电网１７５~２５０V、开关管工作频率约５０kHz的环境下,SiC MOSFET 能够稳定工作．图腾柱无桥 PFC电路使用 UCC２１５２０隔离式双通道栅极驱动器驱动波形如图８所示,驱动高电平为２０V,低电平为－４V,死区期间在５００ns左右,测得数据与设计相符．数字控制电路电网电压与电流采样波形如图９所示,可见,电流的峰值基本上与输入电压同相,功率因数接近１．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0AGN372YSYGibXJrEkrlRO6XYibprLAzF1abunOwknhKG7XMmfEIuT5Hw/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_015_108cc3e336e7.png)
 
 在２２０V 电网输入电压下,测得不同输出功率的功率因数等数据,如表１所示．从表中可以看出,当输出功率从２００ W 增加至４００ W 时,达到额定功率时转换效率达９８．４％;输出功率越大,电路的效率越高．电路的电压谐波系数稳定在２．２％~２．６％波动,当输出功率４００ W 时,谐波系数最小．电路的功率因数、效率与功率的输入关系如图１０和１１所示．当输入在２２０V 小范围波动,效率随着输出功率的增大而增大,功率因数也从０．９６变化至０．９９．综上所述,该图腾柱无桥 PFC 有较高的效率,谐波系数和功率因数优于国家标准,满足欧盟的IEC６１００Ｇ３Ｇ２标准要求,符合设计预想．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskGia1umyWtLOicCTeJePs6z0cjG909I7av4J6YmvPd61566pgqRpwt4wo7ZaZOymZ0yxlMIhZZ1SRg/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_016_d6eabbe79dad.png)
 
 **结论**
 
 本研究设计了一款４００W 基于图腾柱结构的高效高功率的数字控制PFC电路,输入电压２２０V,输出电压４００ W．该电路采用图腾柱无桥 PFC拓扑结合第三代宽禁带半导体 SiC MOSFET 功率管,通过数字双闭环控策略实现电路稳定输出,保证变换器在 CCM 模式下稳定输出．经实验验证,电路的谐波系数在２．２％~２．６％波动,功率因数高达０．９９,PFC电路的能量转换效率大于９６％．
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnB3nwfaVct6u6OKTfhPpMyMtyWCTyR7F5o0ziaLIDvrqWrJwK32s8w4ibSj01aiamHPgeicSibk9PYDkw/640?wx_fmt=png&from=appmsg)
+![](SiC功率器件图腾柱无桥PFC电路设计_images/img_017_e83b1abfd4b8.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。

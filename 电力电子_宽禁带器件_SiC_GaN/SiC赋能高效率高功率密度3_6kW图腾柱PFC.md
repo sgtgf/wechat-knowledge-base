@@ -7,33 +7,33 @@
 
 本次分享的报告来自Wolfspeed的应用工程师刘颖女士，分享了拥有高达99%的转换效率和92kW/in3功率密度的3.6kW图腾柱PFC设计。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauA1HT5EibQLPWwg41t3d5FCvCVsH7smDbeByu7Dww9u8dDgDXSUbyPLwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_000_b808111453ba.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWwtX3mz5M7lHn9UV7qxTz1xtkpRZDKt6pIbic4nl3f9luOicrmmX5W2LQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_001_77ab7903b7f9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWPdicXMAwnSyNibPDnO9NPFLoETPyKKXEO3V5rheNgSaHpHkx7QFFGjDg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_002_71c83a5ac3c0.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWksO7CsvLd5eROkAEostibB0qTZicaeDsbd57qaCch95NHtXt0eJhp6kA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_003_b38ba5a44c6e.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWqYsOiaFiacUYDNJAjSpyHMxO2zAMXu8QbzYs31v0VxKdlSz3Y0kqNbVA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_004_1a5ffc987436.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWELWcibvibDeDHgG07Mk8SEOL1ELHXRZyAVCsugLxiaCGKP0iaqJrmKnC1A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_005_5bdddaadda8c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWAvHfES3TVqA52mibLTEIPADtPMhI0cw2u9pNsZz6UJTXaHeOmibfpBog/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_006_a16cc118ee02.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWMpsNMrVuGXWcIUUXuicE4gK5icOfrrgNjrehFQt4mMdd5qZTnGSOoorA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_007_d1be76889a3f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWCxiaicupuuZM0zxQSicZHtwY0N2z5jibKMjicHkMIqOJ4ASvHzGtFLicj9Mw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_008_e1fbdafe83cb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWUsaw8mVVibvicyKJnCqSv0KO7hEib1GNo3ibNBD1QBuScksicRzk8Q83uicg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_009_cfe893e98b5d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPW0djmWZkTAzO0XkqPySHnjMpiaTa6Zl4nP1iahYfaw4PGKde1zzuz7eGA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_010_449a6d617227.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWmavfKfHqvaocMCNOeImztIWutDxQ0sCJjPaOOicn2Ir2eJdO3f3qaBg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_011_8eb33bda8272.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWInI22V76GMxT2WtOqoicyyOSUqd9DgmwFZHNJk90m6VkkjXlr34ic8qQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_012_52c713b7198b.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hbB0IsnGNXW2dLV2icKOcsfroB3YAlEPWfml4owkic7xOZfz5g3srtEPm2WClk0xBxV7j21icLSJZ1eLMu6zXukWw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_013_6329e62570f7.jpg)
 
   
 
@@ -55,8 +55,8 @@ SiC MOSFET具有阈值电压高、‌无迟滞现象、‌体二极管效应低�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_014_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_015_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC赋能高效率高功率密度3_6kW图腾柱PFC_images\img_016_84aa944feb13.jpg)

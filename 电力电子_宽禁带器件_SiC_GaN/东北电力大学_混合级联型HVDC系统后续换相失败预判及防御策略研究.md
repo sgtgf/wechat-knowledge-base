@@ -5,85 +5,85 @@
 
 作者：边竞（东北电力大学）
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzvNnHZ5jibqJBxSMJIBbtgYLib5KI6ibALWf7LSfXFqxLam3TQibcsic8HvA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_000_4ffa2c9ffd72.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzKpf9L0xM3Jnwl0SSePsScNKIMGiciawMOo7HLZoFMOsCBRYB6HoczTVQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_001_c8a24d69af9f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzW1Y9nibZLdtHBn1Jlsw2rHAz6URtcuUGAicY2JvkZb75AA0iaxdRjAuxg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_002_4d67b05982a7.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDz6hDZq18eocv3tiaVwB5rHBv5Z5f5GFep9wh56FAYLsIrJVP5S1zswPw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_003_0472355e5ee8.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzCibf2cQfianUZ0NWQ47bMSHicbjUqpLU0z0mMDO9oDpPqLxlupeNyQsQQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_004_9b4830eb49cd.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDz8VqiaZEXlKjiaAGnxvZBS19fFuNfXX6tzK1QVg2zDXS0wAtebDibxZQiag/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_005_481eda3d0a5f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzDceZLXmsMW3uIiaCqUlzKM10WsJiazZSjMuHWYnlZyd3NEia3twkmSibeA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_006_13507b0776e8.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDh0cxsKLial2NmxvtQwOG4libAvp46BeQDBL0333l7rfYHnFaZtR1ibvibDibn6FgHMJHnY5kKQyOnQd4w/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_007_8d5612ec5b47.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzS8C3iasjOE2Y1TnVkjdxHXR2hVHnAPm0jCaqCvxvKXVbdibpyVvV8feA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_008_a840e6d2aefa.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzBQvMb8QvErwM1YwwjTBNKU7mEVjFMRiawIo0hJ3iciadhSS8QUkoQib1NQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_009_7735bbc34add.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzKLae3RRRuaonyUVogurSHx0IYZ9SDicMAFaqrNc9Y5wctZuV62mfPfA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_010_cdec19107d04.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDz0TrHKkmNVqibr5Z4b8lDWnSlXbJ3daWPjFy73OxpCBuAaSTKzvtiaBMQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_011_800e2fb7012f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzLibERjFtHgZxL6iaBYJGb3EYjfyrjKpmEZZppu82PefI6N5iadvmwyVNg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_012_906d3a6b6f5a.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzwfNLHP8Uw86VBMOWX3VFxqZQI8HJGEuXIfjVZeJIr3RhW16xHqNulQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_013_caa249549f43.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzgSIQu0DcXzSTMXVvLLTffKL1UG3RUGPAJjINKNTXVTibBMTtT9J5nzQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=17)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_014_2252d04a661a.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzrFKgicV0Q9plTyMvUFVAqfuBerlxw5uGUKrXfkltDHdSvjIABq8iaDrg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_015_4531017f5d37.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzK3TFaCu2VFKfibh9V0KMDMjlYAygtyguY7rmc7EdJbmJicsJEF4QW9hQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_016_39c75e7a198e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDh0cxsKLial2NmxvtQwOG4libjgYoHYic00jrawic8a6qqhQufhkJ8TpMdgg2I9KPg0dbVQzXicd6OoCfw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=20)
-
-  
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzOibXz66Ac9gcoY1olfGqanwPMBRW7ibibBnowW5RTFicqbRziaiat9VnY87Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=21)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzTlzBT20abjrQicMwKtExPfsk902fucuejDy0v5YGJGhQTGvaY5k5VPQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=22)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzMdSmnaQPJDvFNibS7ytEr9p8NhYTMChYNt8lkmoxTElLmao3bsxRxmA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=23)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzwOYd0v8lawqibicicUattiaCQaghk8WB9NDAVJ9fb8L5CPqNTtWEwvDCbg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=24)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzHCWAk52fmUTaeSJ0SbOWbkYWarwVfQibnqkkY8rTZ5Ey9yewQWKKffA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=25)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDh0cxsKLial2NmxvtQwOG4libRPxJhjptG21VGQctzds0rle9AruyINXwribDkxFxiakygic9QYRY7fx4w/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=26)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzuP3k0tFJtXjQZwVGNK4UZZ0durXa5icR8J7NAqUmYOSaRZTFzjeUhlQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=27)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzZbvq0Luqzh8yibsRUb9542nYGCRQzCUKzAfH8YVibvfbukGnBe9oLbYw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=28)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzbIJPseJX7SDw6mrgnK6tcURaCctTibYQe4KSuauxOUFL4XS0IlLyKOQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=29)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzLvZ6LLaNoxYfZbLlCFs2SCB7T75qHviaAYq3c4MQdNstL33gWS1BkQA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=30)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzxWF8exoZrDwMqZSlH3UschI5DgOkuGJsaTBibHjt1E4u03ibu5uUpWNA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=31)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDz8QhBarta982YzeNaZrftYHczdhSyluOmJ2WnibX8ArPtd9V7vPhia3IQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=32)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzw12R77sbibibWM85oaBv1Ienibp3AeIIjlpzo1shxou2EKbqUGyTwVQdg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=33)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzdZj0nOgKUB83LynrDIkBibLK0wTvFVzAn7FSrIia8NMnPga8GhV3pj9Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=34)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDz6HuFykgA1CwY1fQLibWFC44xbxh6x2qTdTgrzn3lrEa0ZXibBRHE8nXQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=35)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzQKK6gZrKcw9iboNnMgdMqqNQBIRyP3s2advq8NqCyZRiae1cicYeunUXQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=36)
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDz1hoLQAOiahFDUAabXz1vV5z7cshjj1PnF3KofslvldBQwRVMyCywu2Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=37)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_017_b1939414229d.jpg)
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDgRrrWBvaRuibft3ZKIk3uCQy1Kq4rVfpugZh7FIiaiaKhrHV6bW0EcdIrRQoM7g7DxN4vvh5zs8YFhQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic#imgIndex=38)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_018_381db55c11c3.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_019_1b1dc6982c17.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_020_06b8c5782535.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_021_50c67ab8b3c9.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_022_240e1821fa35.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_023_2722e272d18b.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_024_0bcdfb4979c9.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_025_d5b1e7eb045a.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_026_759a7e3fc270.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_027_9324972f5793.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_028_027a807f2c6d.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_029_a7af31eaf3ad.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_030_c43184b1916b.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_031_f3f999f842dc.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_032_dcd28563e732.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_033_005df1a7e842.jpg)
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_034_ba7d0bea32c0.jpg)
+
+  
+
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_035_3bc70d5fcc9d.jpg)
 
 专家介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9bwhXZWoFDhCpHricfBsh8WoK5q3OppDzs7fiaRmQHuMFajMGibKPp0gGzdubOD3a76s8QbziakmDk4W9CApFlEOjA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=39)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_036_fb72175f2442.jpg)
 
 **/   边  竞**   **/**
 
@@ -189,14 +189,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNS7emqsaicOvzlGHC81zMrj8D0mZbXwwXb0icshPibqx1sAx8zmaeF49E6ewWXDxa1dSEeibcB2vVSyRBicEqO4rJMQxV9TDYXFjLw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_037_87bc5c918a7e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSEkTNSDMeaLIRQ0w5FotSLu5Upsgwa8PU9Sk7ia8xhNt5GLDupq0BE3GQU1CicL1XhFXR8KHY4FRz99VsEf2s2nu9Se26eJWkA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_038_1d9920047bbd.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtGaaCfwIKOhqWZiaWVYYDVLkibSaIgoJbWRk8571lCyh4JbN2O3HP8Cpqode2TBTXqibybosTM8kDIIdj1VicKPUdAskOyDoHcJI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_039_ce0741cdf907.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOygImDkAiaYx2Ieygu2GgSxE8KnBUluqQlJehcG0cEFIlPiaFykpMx5ZwqY02JWGWH3AIiaW6TDxr0Y8I6VCEhYSQ5FLP83XGg6g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\东北电力大学_混合级联型HVDC系统后续换相失败预判及防御策略研究_images\img_040_7d6b070fe0c8.jpg)

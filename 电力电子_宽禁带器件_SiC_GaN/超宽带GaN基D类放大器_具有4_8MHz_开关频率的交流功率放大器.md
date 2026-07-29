@@ -8,79 +8,79 @@
 
 作者：Pascal S. Niklaus, D. Bortis, J. W. Kolar
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl896DicXpl5FuzqyVkfmjv1jae1EnZ9LbEMvgGo3omJh4WxBJDp4ssvSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_000_35f96a2d39f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8lib86K79bBetgibt3IJJGIsUoETCvI6sb5vNOqibvsRYXRACVicdfktmVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_001_d37dceb4ca36.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8IvLsTzpJHjDCTIq9jlvUFloNndlrU2w5ZQBKtKudD5XGicqe8Auchxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_002_d190d0ec0ae0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8SEEco5pHC6HWB6KCvmibiaJAadKdLosteTicJymNZRkD4iaK2QXvqnASibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_003_ff32d0141ee5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8iaxK2XMZlXmgUYJklDa7MR5nbhzIJ5kY64icIL46jBiczX0vBlUia0rlSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_004_e0f4716bf684.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8P2uibPTSbmmysIer3flISxOLSHLCr1NZQibIR8ySYGCAqibcy7wdEfefQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_005_5f45d56c3b29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8VlOFBpR3iaaPWGF2ZbcbkYKUBVZbGLDAaThxaxDXSgDbeJqTYWgBErw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_006_a7cec24e4bcb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8EOibhcDbxgibVEUOvcZ5lRv230LYVCpvcjMsusItV0IYTz4mBsficAxPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_007_05eebcc962f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8VE3CacicXzwqemIibVLpdSE4zyvPDXCAl7OFGjicIFxfzxnBRRgBicQ2bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_008_169a1c36cfc9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8A5eGzOoEkFdkTWRDPwsxT70GOR015YJicUk9gx8sfc52qeQQcW7iaLHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_009_bb1f946aa9ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8t9InNGuwS1ibRrRqAFeFDK2C5BpzOI3pXDd8GXmMtxvYMmBXtAQ7tJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_010_b2f9ff270947.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8qo5j5uog3NeLxibIAHQH348JuhMAM7w12ewxngwkSvic8ttkGg0JHBTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_011_008f83b9b00a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8YO9Aes0syqetOibM6Ncca2opDLgcoePQASURibMeEPiaW55OId9iaytoRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_012_8d203dbfd223.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8L0jLJiciaSKI0A9fUibsENcAiaOxA5b5uHic1patIcAlSE4BfBUsZDCxPxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_013_0347615ff8b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl83TPBmYmAibEYnfqO3FN1WiabpZr62fboaoTyrb28lqA0Esm37o88FXiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_014_02f15d348cf5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8s6XGZlnWNlxJ4iaZJic5EEObqA3qqpNaYxKRc0QzGF333aYdyru7DdxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_015_ececefe5a445.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8dwX1dNylJYqic1boBbbHAPDQxs4zywbP63Mvsp8tOSrnMs4KPX87Y3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_016_d941da0d4a84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8dB9KWsXD2MMSLiblvVcvFEviaPr9bsjm15zvh1STBD0LKyjDVDLkfKTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_017_bfb14dc8a45f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8uRVqx5YbjQZBibMDlEoxKfnaUme2d8W8hwMiaicQeBDDhPLte9OicVRuWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_018_b8e3735e5741.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8OJIYpVSjaeckggYwDyUgtRcMBY3VlZib6LhyAwoNdvJDN0ubq6icsutg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_019_f289a8fd8779.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8fuEoq5sNnBgceiaRC8pss7lgzcotW4nRBgDMd6GvgAk7Von6EVDUNVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_020_486f49bb4cd5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8hLWNVvaMa6WiceOMDicWTp7eMA3tu6aIicKI9gicQzRHgMnicgU4xgIB4tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_021_d6ea018128c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl815Hp6NeL3GrQciaMc7CsHjicB7hPCEz60ic0TORs4byfzcUsgfB91V85w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_022_898f9e755cfb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8yArojRvTxPCNy8EgYX0NQ7W2OWH4h5CftNCicmN6sQAmjiaib5WzhAdtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_023_b347bdf58d06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl81LpVsDDttYfEcLeDWJFdklhPKyOc7vAftPnU7sCkI1XNLl5bZ4KoWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_024_0b09d21fddb9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8t0j3mZiceZDseKia9bxGumvlef7hb646H42giaFROiaJAUKlgcx9l7HXdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_025_36a21505e3b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8jEUgn2eCd2aCMqQGrxWlUh5OtTfxt1RvfIPYbKUpWS8icYYhEHo9lFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_026_b9d255ab9a64.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8Xtvz9GkiaAWJicib7DlRtLPkCHKP6Oibw3gef9sYg06knpuhJPVbq5Hs4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_027_2b1835f14d24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8ofAWPlwYtgp5nYcHfG8TfibPDlXbNkuOKdxCibFbKFlOCEbLTuudoV6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_028_25178faec903.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8iaSRfAviabMN0K6Nd7MaickGdZCTuyszeI8AV7iaQqPUAlxFmibMPK92GiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_029_16e9f558fe2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl894Vvk2SdQarhm45HwwtpybUr5lcbmIfWicNopEcuLicN7hylTO8C2rrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_030_05da8f80eeed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl817iahotw0TlVuFJquqyEqQZsxMxKxCoicfLVDs88MSOWicQefTNB4rMcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_031_2f8929ce21d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl869Bkib33wQyTldbQ5NoYWRq2nyBRw0T7KIFI1paYMGaOdM7PBT3TSuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_032_89df7791d85f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8wayxLnmfwEAKwiaxUBFeXx9gDdnSQ1I5xibKCXyWK9DVYrefeO6aiaOEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_033_a61d7bb39a98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8ut5mIozoYniaJGEzsar3zGtyyvicnAQczUBX10WDQdDbc6KYYoy9bfVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_034_dce66a1e21ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8rJicwJAsnhaYoLlf1APmO98j19QuEfL7eic49B6VdUqkzftb7IzXRQiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_035_59250e381fcc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8Nr4tW3dCNmPrP8oOvWH7E5ic3kTgcQmdycoY7XrQvOjBojHz1ibfCCqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_036_58b2a6892d45.png)
 
 注：文字与图片报告无关
 
@@ -560,14 +560,14 @@ PCB与组装：15%
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnJ068ohluibI0Xdoib4Dy3DFNuTP9cyroukPTLMWkmmeGRla5NGWS3ibjPdl465fvg9tmvRSpLKt4lA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_037_56d64f8c1b3b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJ068ohluibI0Xdoib4Dy3DFtdRn0qCWFocy01GR0VyBqoIj3sItCtunBM77hJia9qlrSAHJEiaLQRrg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_038_6f04988de4cf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJ068ohluibI0Xdoib4Dy3DFmV1WkCnFBrNpkKBC0ZWTDvpp0F910y1wcXuWPrtbqMFb6WXH3ibEN7A/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_039_5746d43ecc87.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJ068ohluibI0Xdoib4Dy3DFbvlQFefPiaI8UIkd8u3DehE3VRzTmPApKcwT2wFicf5hA5RviaOyP1F9g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超宽带GaN基D类放大器_具有4_8MHz_开关频率的交流功率放大器_images\img_040_cf2e0bd66042.jpg)

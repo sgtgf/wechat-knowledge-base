@@ -20,7 +20,7 @@
 
 典型电路：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSrHWXjyupnfR5dV8P5icAE4AaORLNrEAZRWfXHDcPVvDFEiakdE6iaXhqg/640?wx_fmt=jpeg)
+![](MOS管损坏之谜_雪崩坏_发热坏_内置二极管坏_寄生振荡损坏_电涌_静电破坏__images/img_002_0bed5fba40dd.jpg)
 
   
 
@@ -48,7 +48,7 @@
 
 器件正常运行时不发生的负载短路等引起的过电流，造成瞬时局部发热而导致破坏。另外，由于热量不相配或开关频率太高使芯片不能正常散热时，持续的发热使温度超出沟道温度导致热击穿的破坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSQjS0TOibWOmz9pCiaQ7nHm0HefGcVnj2ZoByWqdP82OJEEibazlTfqCibQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSBFKichIOuLdnYEXoIXspictJXfic6ibbuQ9TIUmWicZqEQyCyw9B01bOFFA/640?wx_fmt=jpeg)
+![](MOS管损坏之谜_雪崩坏_发热坏_内置二极管坏_寄生振荡损坏_电涌_静电破坏__images/img_003_d328f7ef838b.jpg)![](MOS管损坏之谜_雪崩坏_发热坏_内置二极管坏_寄生振荡损坏_电涌_静电破坏__images/img_004_f0c305571797.jpg)
 
   
 
@@ -61,7 +61,7 @@
 导致此二极管破坏的模式。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSIhE2EMQ7C5eGrCJomF3NdLK4IUmvhciakPyr7e1fQ9mxh2jeBVFIluQ/640?wx_fmt=jpeg)
+![](MOS管损坏之谜_雪崩坏_发热坏_内置二极管坏_寄生振荡损坏_电涌_静电破坏__images/img_005_4b56bfd8cb15.jpg)
 
   
 
@@ -73,13 +73,13 @@
 
 在并联功率MOS FET时未插入栅极电阻而直接连接时发生的栅极寄生振荡。高速反复接通、断开漏极-源极电压时，在由栅极-漏极电容Cgd(Crss)和栅极引脚电感Lg形成的谐振电路上发生此寄生振荡。当谐振条件(ωL=1/ωC)成立时，在栅极-源极间外加远远大于驱动电压Vgs(in)的振动电压，由于超出栅极-源极间额定电压导致栅极破坏，或者接通、断开漏极-源极间电压时的振动电压通过栅极-漏极电容Cgd和Vgs波形重叠导致正向反馈，因此可能会由于误动作引起振荡破坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSEtFzKyYJqZgiaQyRicsI8T7GvldYPNpj7woL4ZuLqZ6YtkwiaqIP27ouQ/640?wx_fmt=jpeg)
+![](MOS管损坏之谜_雪崩坏_发热坏_内置二极管坏_寄生振荡损坏_电涌_静电破坏__images/img_006_f69e04d1e258.jpg)
 
   
 
 **第五种：栅极电涌、静电破坏**
 
-主要有因在栅极和源极之间如果存在电压浪涌和静电而引起的破坏，即栅极过电压破坏和由上电状态中静电在GS两端（包括安装和和测定设备的带电）而导致的栅极破坏![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmcFMm7rnqA1QgXD95gkx9FSDichN0qfPRNUt4VTo2ia4SkyQEI8xbluKoyD3BOChjzzkSAoF4liaNxTw/640?wx_fmt=jpeg)
+主要有因在栅极和源极之间如果存在电压浪涌和静电而引起的破坏，即栅极过电压破坏和由上电状态中静电在GS两端（包括安装和和测定设备的带电）而导致的栅极破坏![](MOS管损坏之谜_雪崩坏_发热坏_内置二极管坏_寄生振荡损坏_电涌_静电破坏__images/img_007_c5349f26a53f.jpg)
 
   
 

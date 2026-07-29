@@ -40,7 +40,7 @@
 
 布局后检查阶段
 
-![](https://mmbiz.qpic.cn/mmbiz_png/TlicynvFMRkxTFe07Gw3gD3lA9kQltSCEoibh57ZNKgtK6M11KQVfTjMguiarTmlFzM4Rd4hKLJg2GjyQpZ7FKhtw/640?wx_fmt=png)
+![](一整套PCB设计流程和要点_老板再也不怕我出错_images/img_002_8384a7bbe5b9.png)
 
   
 
@@ -78,7 +78,7 @@
 
 15\. 需要使用散热片的器件，确认与其它器件有足够间距，并且注意散热片范围内主要器件的高度
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg1uxPdZ9OFrnHiaaowPKEm9skr36kib0tYO0rC1oj5WAIiaXfuRibAEYQ0oC9RBRLoxwibmoiabicC4CqyQ/640?wx_fmt=png)
+![](一整套PCB设计流程和要点_老板再也不怕我出错_images/img_003_709fb77f23fc.png)
 
 功能检查
 
@@ -160,7 +160,7 @@
 
 2\. 高速差分信号线和类似信号线，是否等长、对称、就近平行地走线
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg1uxPdZ9OFrnHiaaowPKEm9E6tjWnD82Ak0TsFibKl3mheNxmE5GD04TQkCiaiamYunXMkw2CvtgGzbA/640?wx_fmt=png)
+![](一整套PCB设计流程和要点_老板再也不怕我出错_images/img_004_cabe522082ca.png)
 
 3\. 确认时钟线尽量走在内层
 
@@ -180,7 +180,7 @@ EMC与可靠性
 
 1\. 对于晶振，是否在其下布一层地；是否避免了信号线从器件管脚间穿越；对高速敏感器件，是否避免了信号线从器件管脚间穿越
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg1uxPdZ9OFrnHiaaowPKEm9VxlPTqUOyz1dmrJ0d5nuYFiaaLKUx0M215M19zY6mKV5ibB42q4Yiayrw/640?wx_fmt=png)
+![](一整套PCB设计流程和要点_老板再也不怕我出错_images/img_005_f8a33beb898b.png)
 
 2\. 单板信号走线上不能有锐角和直角（一般成 135 度角连续转弯，射频信号线最好采用圆弧形或经过计算以后的切角铜箔）
 

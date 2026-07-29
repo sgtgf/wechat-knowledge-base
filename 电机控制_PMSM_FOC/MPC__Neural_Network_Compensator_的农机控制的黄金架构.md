@@ -11,13 +11,13 @@ MPC + Neural Network Compensator（模型预测控制 + 神经网络补偿器）
 
 A. 纯 MPC 的痛点
 
-MPC（模型预测控制）非常强大，因为它能处理多变量约束（如：转向角不能超过30度，加速度不能太大）。但是，MPC 的核心依赖于一个精确的物理数学模型（![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa97U33swGH530oV9wsDlfBCAibfyoOfK0vXwANBlyMIRWCYuribNQAp1gVwzLwC7tGwjhtXJcHOfEqTiayUsnP1SEiaxRicboibAMuoA/640?wx_fmt=png)）。
+MPC（模型预测控制）非常强大，因为它能处理多变量约束（如：转向角不能超过30度，加速度不能太大）。但是，MPC 的核心依赖于一个精确的物理数学模型（![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_000_e52189c0015d.png)）。
 
 •现实问题：在真实世界（如泥泞农田、冰雪路面），物理模型永远是不完美的。
 
-◦轮胎摩擦系数 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa8BKiclBWbj6OHGCicnJ7Ftel8JKjAZ56zvtp1jHPOl5Q5rUP33gmpDaNia7quv7LkdntmiaWs27D3MyFKJ5ZFMk4ickom9CfQbPPB4/640?wx_fmt=png) 是时变的（干土 vs 湿泥）。
+◦轮胎摩擦系数 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_001_2c08d93f4a04.png) 是时变的（干土 vs 湿泥）。
 
-◦车辆负载 ![](https://mmbiz.qpic.cn/sz_mmbiz_png/wEtL48Vqsa8e2ahzdT0hibrL7XMeybTZAXToMUPtQpJDwpXUnE2rjzdWl3Xva6wfvoFLjlD4asv0kKvClict8ibvNMuJiapdviatrvXbCY3SX7bE/640?wx_fmt=png) 是未知的（收割机粮仓满 vs 空）。
+◦车辆负载 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_002_a0e3b6f1a02d.png) 是未知的（收割机粮仓满 vs 空）。
 
 ◦执行机构有延迟和非线性（液压阀的死区、迟滞）。
 
@@ -47,29 +47,29 @@ C. “MPC + NN 补偿”的完美联姻
 
 传统的动力学方程：
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48VqsaichrrLDhCT5qeZ1OKLy6Yic2CviaCJevhgvBz4LvNPZjxicviariaMx5oxUboIwEbCOahIDZt7WwIsa2fNd8EpKqZG1Bn2krEquohAg/640?wx_fmt=png)
+ ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_003_1369a203a58a.png)
 
-其中 ![](https://mmbiz.qpic.cn/sz_mmbiz_png/wEtL48VqsaibwCyLeP0lcKRbplhx7ndic2hjKohuXbVnR6v0XG87fl21o1H2JIySs0ScsN7WnGNcdtqbX6SXcfAhdR0Hn9o4QNC26ty6qZ9jY/640?wx_fmt=png) 是我们推导出的理想物理公式（如自行车模型）。
+其中 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_004_cc79019f620d.png) 是我们推导出的理想物理公式（如自行车模型）。
 
 真实的动力学方程其实是：
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa8Lw4O36NTnewUgEYLUFRvs6FiaKa5wQDpLyNgfug4jd9RvJ1EGMbzkGicBxOibLMOy6ebfOIFjESKHKgppQSvczhzGDYsafCRMMY/640?wx_fmt=png)
+ ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_005_05a21f062570.png)
 
-其中 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48VqsaicVhsEiaZRIXgbibMnKKzdUtvSldicyic5dkEClB63QaYD6vibUBvOKJsSaPVbiaR8LicKyIWeibK0D4Gt2zcpbfQl3kx534ltniceib1DQY/640?wx_fmt=png) 是模型没涵盖的非线性项（如复杂摩擦力），![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48VqsaicjXudlLeB4Il7KPIt2O4BdlrI070Sj4yQuWr9xu17gibP4sIIh8kFAaaAVSoGRT1RI069UUwibGmP2jORMtou7JzfuMGyV20Puk/640?wx_fmt=png) 是外部扰动（如侧风）。
+其中 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_006_f4ed31a722ed.png) 是模型没涵盖的非线性项（如复杂摩擦力），![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_007_66153231a34a.png) 是外部扰动（如侧风）。
 
 MPC + NN 的做法：
 
-1.训练 NN：收集真实数据，训练一个神经网络 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48VqsaibzPPcFxSLX7ZgJd9zd9xDibuVGckUjgvktyib8xESQItFWz21nAOlffN49wmTrIDrGAodAF0kzDial15FicvBydXEcBicAPibqIAdEA/640?wx_fmt=png) 去拟合残差 ![](https://mmbiz.qpic.cn/sz_mmbiz_png/wEtL48VqsaibTrEueXTsLNQJ4ib4pBUBj6xU1nYQU60U3jS1CUv9wpjaV0vvo5SLDe53TQKW6ovOl3kBx2ocPVlrz8vOEW6E8pCliaTaPfwrNY/640?wx_fmt=png)。
+1.训练 NN：收集真实数据，训练一个神经网络 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_008_ad0ef8f19c94.png) 去拟合残差 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_009_bd7ec8ad856d.png)。
 
-◦输入：当前状态 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa9zFhmJeFa0gJ4hHNsm2X70gr9JTfSWzs59dXQvCedaZ9v280Yrrj06OcssdUWeu480CGwUU60TxyVcGTC9icsMYLhibEOM5WZB0/640?wx_fmt=png)，控制量 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsaic9b3vhFeAL6wibULaFbodBWsiaeLdEhGv6twqxsTk3icFYMaznXnVj92X1ibqLkWc1Nqia1ZyBmnp6YepnibmtfDl0hngr0aUwlNYUg/640?wx_fmt=png)。
+◦输入：当前状态 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_010_f1420d2b4d46.png)，控制量 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_011_d7e2eec5bcd5.png)。
 
-◦输出：预测的加速度/角速度误差 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48VqsaibvLWTezrqoWGeNyxh6mPYVPx8ib0YasBnFkXFjyibq7RL0UiaoQgbqyvCXN3s0ictRL5A6Dnb5PPhHJOEpFicaNRjlWJR0K4pS0ibqw/640?wx_fmt=png)。
+◦输出：预测的加速度/角速度误差 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_012_e8241f65c7ba.png)。
 
 2.修正 MPC 模型：在 MPC 的优化过程中，使用增强模型：
 
-3. ![](https://mmbiz.qpic.cn/sz_mmbiz_png/wEtL48VqsaicNQO5gVAf9e5rrWEqoTXeJHMqAG2KIR5BGd0ZpbQNdj6WTz2NOmp0icpeAxqS7gnqpgdHicoE0ribfx5QjY9hLibLm3shxNNy1sKs/640?wx_fmt=png)
+3. ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_013_c930cb01a748.png)
 
-4.求解优化：MPC 基于这个更准的模型，计算出最优控制量 ![](https://mmbiz.qpic.cn/sz_mmbiz_png/wEtL48Vqsa9boM0IPUDF7zqIfInhJHjtAB0F4OAIz6MDlOaNbRm2ztaDxEIGVzJs4oOGebN6NIMdU8icVyFZWWLSLHNMz5QmLy3udCSiasK5I/640?wx_fmt=png)。
+4.求解优化：MPC 基于这个更准的模型，计算出最优控制量 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_014_9622a1ca86f3.png)。
 
 3\. 在农机/车辆控制中的具体应用案例
 
@@ -177,9 +177,9 @@ MPC + NN Compensator
 
 3.训练数据闭环：
 
-◦如何获取 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48VqsaicxD6FDtzFTr0AM5JwyV5ouibqF5et4MibtEXnPoFPIpBLI9BKbXDra25H06KLC6ldQwBxWLjJxfE10eop9hMTy9Q3SRtHgd2C0k/640?wx_fmt=png) 的真值？
+◦如何获取 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_015_1ca29e3b74e3.png) 的真值？
 
-◦解法：![](https://mmbiz.qpic.cn/sz_mmbiz_png/wEtL48Vqsa8zElcmjNMRJAa23SRoHBtdYKUmU7EocdFJicRuY28QVia4zPibprzc1sIRm2235sAvK48MrUbRiaDVr0AlvVSU6p0BianshiaXmGXGI/640?wx_fmt=png)。通过高精度传感器（RTK-GNSS, 高精 IMU）测量真实状态变化率 ![](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa9oF9Xm0Lib76KP8sNFcicjaxdaIbJkDBibFXgeAMMIWnlMWkwZVId7ricIRVZ1EjqZmq57L4612Q3icxppZsicLvVPNuuOMda9UlSDg/640?wx_fmt=png)，减去模型计算值，即为标签。这需要高质量的同步数据采集系统。
+◦解法：![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_016_4bbb019c0f13.png)。通过高精度传感器（RTK-GNSS, 高精 IMU）测量真实状态变化率 ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\MPC__Neural_Network_Compensator_的农机控制的黄金架构_images\img_017_67bac3917e57.png)，减去模型计算值，即为标签。这需要高质量的同步数据采集系统。
 
 6\. 总结
 

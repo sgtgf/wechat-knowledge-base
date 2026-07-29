@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/VxMq8TQsLrzahzlmeDJung](https://mp.weixin.qq.com/s/VxMq8TQsLrzahzlmeDJung)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0LqibtZw1aZyNaWCVFiag8rF7m9YgjakDHJib4Dia2EwYapfbhibIF4TjawA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_000_018be417cbba.png)
 
 _**_★★★_**_Inductor-1---电感的模型参数_**_★★★_**_
 
@@ -13,7 +13,7 @@ _€1.电感的等效模型_
 
 理想的电感器，完全不含电感以外的成分，没有能量损耗。但实际的电感器上除了电感以外还包含有电阻成分（直流电阻：DCR）和静电电容（分布电容：Cp），如**_图1-1_**模型所示。电阻是绕组和磁芯具有的电阻成分，静电电容主要是绕组的线间电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1teGEZrtKPtQvkA5qdromOROszaezDSFQ3VcnWYLZeov7YjllrbYkYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_001_c71ee4fe4b62.png)
 
 _**图1-1：理想电感和等效电感模型**_
 
@@ -23,31 +23,31 @@ _€2.电感的自共振特性_
 
 电感部分会产生感抗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSQrOJJ7qG9QtG7WecjdQPfjBibG7NPPJNy5IVDsOztmbQ4eOrejbdyCQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_002_17481064723d.png)
 
 寄生电容Cp会产生容抗：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3epso6FUJic7c5gCVciaicMSud48TYoNSI15zj9QlJwUK3aDUibQrc7r2XnXhHHosLf6Uibuu9Dhux1A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_003_d74e11b7d9e4.png)
 
 感抗和容抗相加：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQu2HJNcBZDHM0p525eJkIsZeFsmptXDoMHd1k4z2vPjuKfkXmSB6tHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_004_6a3b20b198db.png)
 
 整理上式变为下式：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQdBtEicNBVjx7t3DEdhNicicrzPqp3vDKdSAvjGH4rYM8INkBKVK6UBGOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_005_08e7ba7f3289.png)
 
 感容抗加上寄生电阻DCR合并为阻抗Z：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQUictzm9I9TG4UsWs0nXQZlvGs6WWRhpIibBs7UUicdlmA8RYSDMt3scNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_006_3570e8d544ad.png)
 
 代入频率参数为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQsjnKr6FlgMl478WxSAgStTrbl1cxG4HwoGblrzLmvrZ8TDzCQtWM1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_007_7b9e6997fca2.png)
 
 推导出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQJtR5J6yETXUKicibVZRiaOLAv41aicuO3MgCXnNEyibP4DuhZTCHMSW0ic9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_008_69b9bc51119b.png)
 
 其中：
 
@@ -67,7 +67,7 @@ C：杂散电容Cp（F）
 
 根据上述公式拟绘出理想的电感器与实际的电感器相对于频率的阻抗特性示意**_图1-2_**。理想的电感器，阻抗会随着频率的升高而呈线性增加。但实际的电感器则会因分布电容而产生自共振现象，在更高的频率下阻抗下降，不再作为本来的电感器发挥作用。此外，还因电阻成分或阻抗的下降而产生损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D101bxSlNpAZiczy0d4aVRoGa25dnwIZ1XUCc9xBDgbFoetZxRtAGrgfA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_009_d7ed6de7fbc9.png)
 
 _**图1-2：实际电感阻抗曲线**_
 
@@ -87,7 +87,7 @@ _€3.电感的工作原理_
 
 例一：当线圈中有电流通过时，线圈的周围就会产生磁场。当线圈中电流发生变化时，其周围的磁场也产生相应的变化。⇒变压器的原理，**_图1-3_**一次侧和二次侧具有两个绕组的构造中，可以认为与变压器一样。如果让交流电流向一次侧绕组，变压器铁芯产生交变磁场，在该磁场的作用下，次级线圈就产生感应电动势。这是因为电磁感应而引起的，若是变压器时则称之为互感。通过变压器的线圈的匝数比等于电压比，将一次侧绕组和二次侧绕组转换成任意的电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1kylELHWfbZ5QJfhVwQz9KW94cHULRPQBKjIIeSqdWRf2QzjJvnAlMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_010_c7cf82df757f.png)
 
 _**图1-3：变压器模型**_
 
@@ -95,7 +95,7 @@ _**图1-3：变压器模型**_
 
 例三：直流会流过，但交流不易流过，频率越高越不易流过⇒滤波器的作用，可通过借助阻抗因频率而发生变化，利用交流不易流过的特性，**_如图1-4_**与电容器组合来构成低通滤波器和高通滤波器等，关于阻抗的特性将在后面描述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D1ZNnImo4Pjia9LibfpxCW8olnTkyqiaviaJpMtyZB7H2wQsJNwicGWvUBic5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_011_7b57ff7d2ade.png)
 
 _**图1-4：电感与电容组成的简易无源滤波器**_
 
@@ -103,6 +103,6 @@ _€4.电感与电容的比较_
 
 根据上述说明，将电感器的特点与电容器进行对比而归纳成下表。如**_表1-1_**中所示，电感器具有与电容器正好相反特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQQ8FhIZanTG6qMNmjKhWhnyUwcFhH7SlpjouoAjHDuELqubnnFmic1Kg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_1_电感器的模型和参数_images\img_012_cba7742b408b.png)
 
 _**表1-1：电感和电容比较**_

@@ -10,9 +10,9 @@
 
 本文提出的鲁棒稀疏PCA模型LpSPCA可以通过一个简单的迭代算法实现.该算法在p≥1时收敛于局部最优解.此外,当p=1 时,LpSPCA等价于RSPCA.该算法的构造使得LpSPCA在具有鲁棒性的同时具有较强的可解释性.通过在具有离群点的人工数据及带噪声的人脸数据上的实验,以及对不同算法的重构误差数据和所得主成分比较,结果表明了所提算法的有效性和优势.
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUZ58M7FmQZZHicjtibhfkAgZPz5cJ010LyZtja5FZtBhV5Mn11bnxediag/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\控制_理论_应用\鲁棒的稀疏Lp_模主成分分析_images\img_000_6dc891d4e2a7.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUCZBsZg4xDNKvBzNcxO6UafFzExjQD967kSfxrIDdAuGERBgOtRMPpw/0?wx_fmt=png)
+![](鲁棒的稀疏Lp_模主成分分析_images/img_001_edae65b79b5b.png)
 
 引用格式
 
@@ -20,19 +20,19 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUYdL27deLPb1xgzUwIGTXEtw2qKMQ8ib6edVDPQXOJ2qLGCPASlSt8rQ/0?wx_fmt=jpeg)
+![](鲁棒的稀疏Lp_模主成分分析_images/img_002_88ee9e5c3f6c.jpg)
 
 李春娜 浙江工业大学之江学院讲师. 2012年获哈尔滨工业大学理学博士学位.主要研究方向为稀疏学习,降维及最优化理论.
 
 E-mail: na1013na@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxU6wo5yYfLiacS1OQ18QYfb9G3qicPIF72GFY5EcaK6leIoCphKhuvTjfA/0?wx_fmt=jpeg)
+![](鲁棒的稀疏Lp_模主成分分析_images/img_003_7f27c15872b1.jpg)
 
 陈伟杰 浙江工业大学之江学院副教授.2011年获浙江工业大学工学博士学位.主要研究方向为机器学习,信息处理.
 
 E-mail: wjc@zjc.zjut.edu.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUoKyz5P8MX38M5BkYqZtn8ibCFeLbJIusF0Td4wnxlmxpqw4lbGRjuNw/0?wx_fmt=jpeg)
+![](鲁棒的稀疏Lp_模主成分分析_images/img_004_510965b8e18f.jpg)
 
 邵元海 浙江工业大学之江学院副教授.2011年获中国农业大学理学博士学位.主要研究方向为数据挖掘.
 
@@ -40,8 +40,8 @@ E-mail: shaoyuanhai21@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUuBiau2pemgTNSoZb8micTvTgx1ZspGjWqq85ico990krvCmvr1CoparTQ/0?wx_fmt=jpeg)
+![](鲁棒的稀疏Lp_模主成分分析_images/img_005_2e06a5b83bf9.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUCtFIo366cRNI5CiaNNUuqlboEXMCFiazIjSY90sJKibWLiaUBvfbNhnnzw/0?wx_fmt=jpeg)
+![](鲁棒的稀疏Lp_模主成分分析_images/img_006_ed0bd8ad699d.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45LkNUhhJH3tkFlRibUWvGxUPkdibS3JNyqpDzMlQxXXSmicR9IE4paJ2KdRkr3Km6ZqMy4b7k0gTXvA/0?wx_fmt=jpeg)
+![](鲁棒的稀疏Lp_模主成分分析_images/img_007_5501d49c0976.jpg)

@@ -19,7 +19,7 @@ SiCMOSFET相比于SiMOSFET，具有更高的工作结温和更大的功率密度
 
 2\. 双脉冲测试电路与寄生参数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQicpAKvryUJqcZM44WxPLFxT4qUSdJojx178WnNWZscdjtKLXMOBSWPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_000_365cad7990ca.png)
 
 图1分别为TO0247-3L和TO247-4L封装结构的SiCMOSFET双脉冲电路，其中,Udc为直流母线电压；Lloop1为母线杂散电感；Ugs为驱动电源；Rgex为驱动电阻；VD为上桥臂二极管，其为负载电感Lload提供续流回路，Cj为其结电容。下桥臂为此处研究的SiCMOSFET,Lg，Ld，Ls为杂散电感；Cgs，Cgd，Cds分别为寄生电容；Rgin为栅极内阻。
 
@@ -27,31 +27,31 @@ SiCMOSFET相比于SiMOSFET，具有更高的工作结温和更大的功率密度
 
 3\. 开通阶段振荡分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQmWBs6plfUQRUK8nNwRjicyCvFibHDN8jXziaySenr3EcWWgT7HMfjv81A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_001_575aa43815c9.png)
 
 图2为开通阶段等效电路,以TO247-3L封装器件为例，由图2a可见，Cds被旁路，结电容Cj承担母线电压Udc，Rds(on)为下桥臂SiC MOSFET完全导通后的电阻。接着对图2a电路进行简化计算，得到图2b，c电路模型。其中Rg=Rgin+Rgex，Ciss=Cgs+Cgd, Lloop2=Lloop1+Ld。
 
 图2b中，虚线框中的阻抗网络为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQxOEMiab4vlnkUdlLkvZa9iaJhNpUKFFcVexdL4Nx5YIc9YFvgIQhwEGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_002_c8ad5f621907.png)
 
 最终完全开通后的双脉冲电路被简化为图2c中的LCR串联电路，对其建立2阶微分方程，其中u(t)为电压值为Udc的瞬时开启电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQyvlW3F0ZbgOT1XECRRjYZ5U60SsmxFaVXI8QVibuzF4KmCiacBsPM8Hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_003_06ae253eb1c8.png)
 
 此时LCR电路所引起的振荡将会在Req2上消耗，所以Req2上的振荡即为下桥臂SiCMOSFET开通后Uds的振荡。接着对式(3)进行求解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQJIYdp4ltGxRiccdrrfVbDZ9Xl4jUATOX6Z73QtHCblRQkIQTQT9CW3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_004_1c405a28efe1.png)
 
 式中：t为SiCMOSFET的开通上升时间。
 
 求解得到Cj上的振荡波形为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQTCUeUkro334k316c6k5Asqjia9aHf36icicJ38twv8cWfCU2Ono8IMbjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_005_7f2f97fec4e1.png)
 
 此时Req2上的振荡波形为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQpk4iaMDxmENSPfsLRh2icic7XlFiaNmI0lczJyYSuV3W6a7kdeicDy9ibztg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_006_6c2d99e324a7.png)
 
 若选用T0247-4L封装的器件,则Lloop2=Lloop1+Ld+Ls1,Req2=Rds(on)。
 
@@ -59,35 +59,35 @@ SiCMOSFET相比于SiMOSFET，具有更高的工作结温和更大的功率密度
 
 图3为关断阶段等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQFxWoB6N0JY36GflMY1bGC1ibDU41RGILWt4q96PoD38fOReDvicCTgJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_007_7cf405b15af2.png)
 
 以T0247-3L封装器件为例，由图3a可见，下桥臂SiCMOSFET的沟道回路被断路，其虚线框中三角形连接的结电容网络可以转化为图3b中的星形连接网络，其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQzXdCjibD5r1JfdOgiaVX9x0AucJicPJZgUyfBNmYnicP5tX9qogHZt4ujQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_008_e960854b1f50.png)
 
 对图3b虚线框中的阻抗网络可以进行简化计算，则得到如下表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQWibVyCIFd0fACr9wpRgsFNicA7E6fcNHeM2hoctQvxjVr9TeZQvTNjrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_009_637d7bfcb1a9.png)
 
 最终完全关断后的双脉冲电路被简化为图3c的LCR串联电路，对其建立2阶微分方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ7AlDqzic3icTrOXoo8WKicMMzQBBQtaiacLas1gj8JBYuwPzfIsZnehn4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_010_a7a7aaec616a.png)
 
 此时LCR电路所引起的振荡最终会在Req3上消耗，所以等效电容Cd上的振荡即为下桥臂SiC MOSFET关断后Uds的振荡。
 
 接着对式(11)进行求解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQFTbVEay2H1zDohf1vK3PryQ8xcliaZxLt9N5p1UycAZm6QGK6cpM9wg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_011_5c53253fbd8d.png)
 
 式中：tf为SiC MOSFET的关断下降时间。
 
 求解得到Cd上的振荡波形为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQkpK3OFze2vyWEIB8icXicwSPjS3zA2d9JteJ1iaTdic18cYM9ZCYRkvtlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_012_7f6cb8707aab.png)
 
 若选用T0247-4L封装的器件，则Lloop2=Lloop1+Ld(不变),且有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQHeCSaPfqtx39lbCWyn2V6bvZ62YLQja0qiae5ib5s2QR4hadiamk1JK3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_013_02eece959f17.png)
 
 5\. 实验验证
 
@@ -97,7 +97,7 @@ SiCMOSFET相比于SiMOSFET，具有更高的工作结温和更大的功率密度
 
 Uds=800时,Cgd=9pF,Cgs=3035pF,Cds=116pF, Cj=125 pF;Rds(on)=40 mΩ; Lloop1=25nH。最后通过Matlab软件对开通阶段与关断阶段的振荡模型进行求解，得到图4,5。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQIwj0TEF1yGDzb5aPG5YMUHaXO2wiaMm2pGXeQDToubtY0hM3r2gLqOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_014_c818b2f83e70.png)
 
 可见无论是开通阶段还是关断阶段，U实测波形和计算波形在振荡幅值和振荡频率上均具有高度的一致性。T0247-4L封装器件相较于T0247-3L封装器件，开关时间更短，开关损耗也更低，但在关断阶段振荡现象更为严重。
 
@@ -107,10 +107,10 @@ SiC MOSFET的开关振荡现象由多种电路参数、器件寄生参数综合�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_015_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_016_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同封装结构SiCMOSFET的开关振荡分析_images\img_017_84aa944feb13.jpg)

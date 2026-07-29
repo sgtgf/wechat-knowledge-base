@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCXIT8HbKgozZ4EPqwChwuLvTePEA9yb0TnmcvcFHfT3oXvSayz716hA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_000_5a229491ecd4.png)
 
 ▲ 本文要分析的电路
 
@@ -23,21 +23,21 @@
 
 下图电路就是实现上述的功能，它来自一款电子书阅读器（Kindle同类产品）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCEian8gicAgq7ZOlKgCj2D7iaAjPhRy97YdcFojicqSiauZKLDVtFvJgdEGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_001_05a27050e278.png)
 
 这是已量产的电路，成熟稳定，实物电路板如下图所示，几个关键的元器件做了标注：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCm9TTd8OcVXqfA8SwJ2LM06lonw000ELZIyAZuUibibAsBgVNCf2OB06w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_002_37c5cbfa63c8.jpg)
 
 本文要讲解的是“外置USB供电与内置锂电池供电的自动切换电路”，所以先把上述电路中不相关的电路隐藏。
 
 也就是隐藏锂电池充电管理、电源滤波等电路：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCAJEMYw0a3Dhic4FCoib7MNOfQ6FzLAQ0hyAkricReo6FFc5f1ibPcqShlw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_003_affb5fdfb716.gif)
 
 隐藏后变成这样：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCgAC9SrHT2SrhibXcicQ8zZHia0jDIp3weaaFhN2NFaqVXca7ovqebTpuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_004_746524a47b7d.png)
 
 这一下子，电路变得好简单，实现电源切换的功能，竟然只需要一个二极管、一个MOS管、一个电阻！  
 
@@ -47,7 +47,7 @@
 
 将上述的“外置USB供电与内置锂电池供电自动切换电路”整理一下，弄好看点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCXIT8HbKgozZ4EPqwChwuLvTePEA9yb0TnmcvcFHfT3oXvSayz716hA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_005_5a229491ecd4.png)
 
 功能逻辑是这样的：
 
@@ -74,7 +74,7 @@
 
 VBUS通过肖特基二极管D9到达VOUT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQC3hv4S31diajts6nlsZAZTB66FjDxPibAoc7mQB6cJztPmtm0P6hiaibr6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_006_179bcacce37a.png)
 
 肖特基二极管的导通压降约为0.3V，USB电压VBUS = 5V，所以：
 
@@ -102,17 +102,17 @@ VBUS的电压需要快速下降，因为如果下降慢了，会导致MOS管Q4�
 
 MOS管仍然不导通，VOUT的供电没有完全切换为VBAT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQClAhBre1TqePJOOd7WMYo0KvDjJNKhkJ81T8rEUnQriaxVknNnffV69Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_007_cdcfee086c24.png)
 
 假设VBUS已经下降为1V，如下图。
 
 则Vgs = 1V - 3V = -2V，MOS管已经逐渐打开。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCQH6SdGgib0msWX4eHGQxib9DnhkEHbJ1K7nlqYoK3EBAtUuvSNLQwd8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_008_5070a0f9124b.png)
 
 最终，VBUS会降到0V，MOS管也会完全打开，VOUT切换为用VBAT供电，VOUT电压变为3.7V：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCX4OOLP25ApOPHbeYKSV4ynMic1Gwfz9GKdzKQ3BF1c99A9SMyYiabibRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_009_441ab7533f81.png)
 
 VBUS接的滤波电容会令其电压下降缓慢，如果发现VBUS的电压下降过慢，可以减小R155的阻值。但是这样会导致在插入USB电源时，流过R155的电流变大，增加了无谓的功耗。
 
@@ -124,7 +124,7 @@ VBUS接的滤波电容会令其电压下降缓慢，如果发现VBUS的电压下
 
 VOUT切换为用VBUS供电，Vout电压变为4.7V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQC3hv4S31diajts6nlsZAZTB66FjDxPibAoc7mQB6cJztPmtm0P6hiaibr6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_010_179bcacce37a.png)
 
   
 
@@ -151,7 +151,7 @@ MOS管Q4没有快速打开，VBAT供电不能及时续上来，会导致VOUT电�
 -   3、这是重点！可以给MOS管并联一个肖特基二极管D1，如下图所示：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCzeua6hicSUkicMaySbDvucSwI0671Fg1qkpSmQEXHCp4kGUjfIg5KDsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_011_c3758cd0b599.png)
 
 该肖特基二极管D1的正向导通压降约为0.3V，比MOS管的体二极管要小。在MOS管完全打开之前，VBAT通过肖特基二极管D1对VOUT进行供电，可以缓解VOUT电压下降过多的问题。
 
@@ -167,15 +167,15 @@ MOS管Q4没有快速打开，VBAT供电不能及时续上来，会导致VOUT电�
 
 以其中的一款型号为“pyWiFi-ESP32”的开发板举例，其电源部分的电路图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCKiaUHEupl61hO6zYPYiaplvqTWxxcQe2wjwAoZltyr7TerU2wPOZBjFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_012_0be3018d5d1f.png)
 
 其中，电源切换相关的电路在这里：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCQsDj2ibghHs9WfPET9EVNg4NJufAicoKFR7GZqeYKt1kIXeQ5x4rGwpw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_013_d745c632f6a8.png)
 
 标注对应的实物图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GDjFSOJZcoOia4V0HTsUXhQCfze7V6r5xp5xj2NAtcLjjOJObX3mhe8NZmDicYH5Csicyldq65hFkKkQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\外置USB供电与内置锂电池供电自动切换电路_images\img_014_ef5e26c826a2.jpg)
 
   
 

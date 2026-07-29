@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/HMQZ5ocrUJlgBVr86dwfNg](https://mp.weixin.qq.com/s/HMQZ5ocrUJlgBVr86dwfNg)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBibVIia8hxia8LTWiaXCF1QzC64yYSHISCD1eHx5j0MYumDsQmnbYmWmc1Q/640?wx_fmt=png)★★★**______OSC-6---无源晶振电路______**★★★**____
+____**![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_000_3eef48c23387.png)★★★**______OSC-6---无源晶振电路______**★★★**____
 
 引言：无源晶振的电路虽然简单，但是因为它是整板最核心的基本元件，需要在超长的年限里保持工作稳定，并且它是一个高频辐射源，产品初期的设计缺陷容易导致EMC测试失败，所以无源晶振的电路设计虽简单但考虑点颇多，本节主要简述如何设计和评估无源晶振电路。
 
@@ -15,11 +15,11 @@ ______€1.无源晶振的选型理念______
 
 ____________€2.无源晶振的电路____________
 
-____________![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSKUXL3onibvW8eHuHeEZ7nfx4gZ9lSdWVeakAEZun9qKF4qlG452jSq3XmtVHeD97bzBv12810ADQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)____________
+____________![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_001_b4bcddac019c.png)____________
 
 **_图6-1：无源晶振典型电路_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0Tjk2HwqfovKC5tjvJru6ZsXv6zjRQVJdicATxBfZJjFsmA0l0wK5Np7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_002_773750b08a97.png)
 
 **_图6-2：无源晶振的几种常见外围电路_**
 
@@ -29,7 +29,7 @@ _RF&Rd_
 
  KHz晶振电路Rf为10MΩ左右，MHz晶振电路Rf为1MΩ左右，如果没有加Rf，晶振电路也可能会起振，但存在不起振或者停振的隐患。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0T5LS9dszggPPsUJMJl0KwekSBuicKhzMibUPLKQ7I2sQ67MSYVqDGvNSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_003_0cb03535a59c.png)
 
 **_图6-3：无源晶振标准正弦波_**
 
@@ -41,15 +41,15 @@ _CL_
 
 在无源晶振应用方案中，两个外接电容能够微调晶振产生的时钟频率。晶体的等效电路**_图6-4_**由静态电容C0，动态电容C1，谐振电阻R1，以及动态电感L1组成。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QSx0lKbE6YCYrpYuqwnIES27ibHttK1UmxicRQG2PwmtvqCM0bchfLX1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_004_d3f0ded402b6.png)
 
 **_图6-4：晶振等效电路_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QAB0dbS4AvdXKCv2Hz46s15HMWP6zicCrymLKn4C60WpVkCZeDnJnhbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_005_3a8c55b95320.png)
 
 谐振器的频率飘移是其负载电容的函数，公式如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5Q0VPOVQzkTrOo6UHhGLZuMfRvFXFTv2IMawsjznEs282vxibXOkYU74w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_006_4ad2a6579e71.png)
 
 由上式可见，如果负载电容CL很大，静态电容C0的改变对频率变化的影响很小，频率更加稳定。所以负载高，远端相位噪声好；若负载电容CL过大，则很难调整到标称频率，晶振不容易起振。相反，如果负载电容CL很小，静电容C0的微小变化会造成频率的明显变化，近端相位噪声好，容易调整频率，晶振容易起振。
 
@@ -61,29 +61,29 @@ __________________€3.______激励功率Drive Level____________
 
 晶振的功率必须小于规格书中限定的DL值，否则晶体会过度机械振动而处于非正常工作状态。ESR为等效串联电阻，Iqrms为流过晶振的电流均方根有效值。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QCfkm2agUfkSlrBFrjqD4tOrMUyic66Dfmb0KBtJ3LtEu6OyLSPYjYCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_007_30aa903bc60d.png)
 
 计算激励功率DL：如果小于DLcrystal，不需要使用外部电阻Rd，如果大于DLcrystal，需要加上Rd在计算gmargin确保数值大于5。晶振过分驱动会使频率上升，导致晶振早期失效。Rd用来调整激励功率（Drive Level），Rd具体大小需要根据驱动程度进行调整。
 
-____________![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OEMlp41BOoeViaVpDZJxDq90X8icqftz4ATRDzkUdW7NGj6FklAAvFx2w/640?wx_fmt=png)____________
+____________![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_008_804887b4a9b1.png)____________
 
 **_表6-1：芯片对晶振的波形幅值要求_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QvtTBXfk8kRU2UYJ18GMibKtBu5oibYb3CED40iblq7oYA8pJ0PAqgdHXA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_009_e1c7be1fd2f3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QNedkX6C00X8zzDkrtiaUPZW6uRk8IibBfQKZx11bYXBV1TKdb2Nibye0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_010_999ceb07733c.png)
 
 __________________€4.______增益裕量Gain Margin____________  
 
 振荡电路的放大能力，决定晶振是否能正常起振。计算gmcrit需要的ESR、f、C0、CL都可以从晶振的规格书中获得，反相器跨导g可以从芯片规格书中获得。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QOFex0RWJjzCRe8piamPIEibjRWQDYJoV5cvic62qQNGffBOHxTTnPlxow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_011_3ac73efb9e86.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QNedkX6C00X8zzDkrtiaUPZW6uRk8IibBfQKZx11bYXBV1TKdb2Nibye0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_012_999ceb07733c.png)
 
 计算增益裕量gmargin：如果<5，晶振可以正常起振，如果>5，需要重新挑选更低的ESR或者CL的晶振，根据晶振规格书中的负载电容CL，计算外部电容C1、C2。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OicpxVhJrbHwBibia4iaq9hgqk7NjNWibm8ygcYbHJpH35D6IrQrayFDP9fw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_013_6a64ad6aed27.png)
 
 **_表6-2：芯片对不同频率晶振的GM要求_**
 
@@ -93,11 +93,11 @@ __________________€5.______起振时间和频率漂移____________
 
 晶振起振时间的公式如下：其中 L1是动态电感，R1是谐振电阻，Rn 是负电阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSficr0RTy0J1ztnXNk8Sc55RG6SE3Zdiblicz8rtKvKRsr5qeMicA15hTG0GZKnM7YnaibkaJLCL3Gia0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_014_34deef2d14c7.png)
 
 谐振器的负电阻Rn公式如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0BM1aumxGfMBlMpWOZF5QZVwjUOyiaXlGUp7icJMHrMNHcKtBhL3iaHgo7laibD6wVEhhE8Jr8V9ibiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_015_fa4f67c73228.png)
 
 其中g是谐振器的跨导；f 晶体的共振频率；CL 是负载电容。
 
@@ -105,7 +105,7 @@ __________________€5.______起振时间和频率漂移____________
 
 假如32.000MHz-10pF和32.000MHz-18pF这两个晶振的参数都可以满足要求作替代，就需要注意负载电容不同带来的起振时间差异，一般来讲这个时间比较小，多数可以忽略不计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1O7aWPGHRoUsHPic2GG9yqLvuicq1NuTHzseTMEQJhPwCKp1tQNIIy5Xsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_016_9905e3dd3fe2.png)
 
 **_图6-4：晶振的起振时间示意图_**
 
@@ -115,15 +115,15 @@ __________________€6.______裕量测试/振荡宽限____________
 
 石英晶体振荡器的振幅条件是振荡起动及能正常持续振荡，评估振荡宽限是回路上的负性电阻绝对值│-R│。最常用的测试裕量的方法是负阻测试，如**_图6-5_**所示，在晶振支路上串联一个电阻，这个阻值的大小一般为3到5倍的晶振内阻。当加入这个负载电阻后，如果整个晶振电路还是可以正常起振，就基本上可以判定这个晶振拓扑是稳定的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1O29R0fwgfM1iaS92nibS1CaTGnCXHZxftPdzD61nStcH3dcf7qsMOcm0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_017_0a2878274367.png)
 
 **_图6-5：负阻测试示意图_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OBsV73SAM5vghdAiaEEhsqy5M3ciagfWnAXxGT8jsecvicLHrh7vjfgRTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_018_249bfea2beff.png)
 
 其中RT是与晶振串联连接的纯电阻，Re是振荡时的有效电阻：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1Ox2t6QibjAgiaIG9JkshN2Rca2N01BaZzcPTa0ObcLV1eQqJD8WRVJjSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_019_2f24722d5c9f.png)
 
 建议振荡宽限为晶振等效串联电阻Re的5倍之上，即│-R│=5Re+Re，此时需要整个晶振电路正常起振并保持稳定。
 
@@ -131,7 +131,7 @@ ______€7.__________________晶振复用____________
 
 通常一个系统共用一个晶振（支持XTIN和GND输入方式），以便于各部分保持同步，如果使用一个晶体时钟，一个时钟缓冲器（或反转门）可以用来驱动其他芯片，该缓冲器应靠近晶体放置以最小化寄生电容。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1Os4TWV0ibhicMSO4NGrFIl9PU6TFXF0SGImspjh8ezuZDrn95TVsNUEGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_020_32bbe936d70c.png)
 
 **_图6-6：单晶振供应多芯片_**
 
@@ -139,7 +139,7 @@ ______€8.无源晶振的EMC电路______
 
 虽然一般针对无源晶振电路进行EMC整改比较少见，但在例如基频很大，周围存在敏感器件等特殊使用场景，预留EMC整改空间还是很有必要的，如下**_图6-7_**是无源EMC电路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TGjIw5EcicmichgALGKoHx5TnShlR6huy6ibEPaaVrUz2ia543OYGtaqlLg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_6_详细解析如何设计无源晶振电路_images\img_021_ec3ded60ccab.png)
 
 **_图6-7：无源晶振的典型EMC电路_**
 

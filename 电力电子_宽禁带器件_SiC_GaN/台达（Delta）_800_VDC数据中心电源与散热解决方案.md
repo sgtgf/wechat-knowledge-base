@@ -5,59 +5,59 @@
 
 文章来源：台达电子（Delta）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVkgic4gNONV0prEIKcv4HaSM3bPzom78O7qpuIy9DtJff4TibMcnYSVpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_000_f0eb6542106b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVwyIicFQXFS2FoOPTwxLHMunxdwn1q5QfTlC1ic9diabZzjDtXk7YcicgIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_001_ad078bc0a264.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVY0QUbDgibTQuiaNHibrA0j4xZXEKricNoArxTeSqKChspSQU6RK7IuWknQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_002_1b93e59c185c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVhNyJLwqb3ib0L9ibkJQ6cMmGU7UaYmriaaubXW48IsV49nnqwtWrKwIHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_003_8e99aca4e8c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVRsJYILSvcAcHchOxlhe3LZxvsficq5NFzDP6sHzE9nUeXlxCibHXa3QA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_004_6ab67d618961.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVOWiauwh64q4Jkwz6oTPEdVt4iaBNJeha4Bg4n6tKqMqUqkznyZe7xrCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_005_e3e93d9ae1a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVg2pQbYgPH1FtVOEAcuumc1OuSqjJcbOH4FW6lqTUTtfUiblrsqNAzvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_006_f23464096e46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZV9qFao0PBichTVGicQw7VXSwAEibUJXRiacHiaAWyGz25PVWn6I1ryQp7BAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_007_f0ae0890ee2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVjsdUFic54GI2jTdH3oJjevkriaxa3E9nVjnZWtlZIK0nqmLCDicUOCUDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_008_2f562f52b643.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVJtA21WVuItepiaiaalNAwokbdIaXVJYy5YIlUP4dQarnUbbxkYkBF5nQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_009_ee30843131c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVTOjDHgZ6ic0C0J1RojRfcp4PzZAdwibYQ6Wtlmp9BX1DSx1iaJqxq60Rw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_010_6d83d02cbe35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZV0mSGhj1VEWtW3l8TYcGLd3RfQfWVxCsWp78yXJnl3f3FgtLeJuI5iag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_011_4c87c641b318.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVauYoVSAfQPgXmRyD6RlykkXg5LO7sr4nibdQwvg0GujfD7VBelOLPuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_012_aeac61c0f63a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVN6dacZ9ymGHUO1HOKxLmAUTGxOvfOJDruWiba1kccbMibzw5LWlSc3hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_013_f112fb99b4fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVXBc2DlnmialKVDHFgWJNicL6Kzajzez8ZvWyztZg3IYHuxOg99BmSTUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_014_26aca724721d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZV3HibTlibU2YeuK8GUFibapHCvlYFibnhKH1zNibKtiaS3De7oibtZsonQ4IxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_015_83eeaa4bf21b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVIIpOzFibjZTjBx4Q1zDGDMluJUUXSIB1YcGLTgO3a1dx9EvXgemuluA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_016_babebebd31f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVWcyjcen6I6icAcHbSZmtfsJ3VU6aFhIOicTZJrsxibpZFca2kiaGCCxL9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_017_35ec158db972.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVuquZgjWVybwE6socnicqpgp0wxC9licM2fBnNGLNeMWIrkYibuEMoBmyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_018_380cb679c49c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVgcLpSsAGvOM0QW5MNoEClImibsGxhqeLNbIUy2eGqAvorMSd3NjIo2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_019_53da3f6055e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVeUFygka1ib7tlGSkHueqXdj9nI8VeKa6C1WFnSibM8j9WfhpC8YAE6iag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_020_1f125edfac09.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVT5e1DW3ic0W9nSvVDQwLfuNcY1UqSSpRmEXRctNDibiaVufJukRB8RQzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_021_662a3afa8d1b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZV7h5IYePYWLl9brtd5AkA7lWUlBwpic0QZzwdaoK2b4ZW6aoPy23pMHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_022_8c8e7f36f30f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVGkyMjng2oCxia5Vt0diahVHvftZFRMkroc6ytxcI4QNFVCyT8SeHia90Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_023_f97db622fbc0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVicwvAR4YgsmBk6ib3bYqA8S0v9g4Sn4ibibwo75n8ZJlgKeerc7F8vpYiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_024_f52d661d9ce9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVnFMqhHvOdxYeib0niaXKbDZ24dzDoBro8s20ahRyFoXz0HAhQE6Ium7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_025_49b9d085da29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslbveZemps1lZxgaDQ4F9ZVDOfjjU8rpCk0XfypwKh2fxfcHicIvsPKJptvnlibRbvibG9nCztBBh2RQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_026_f15fd78edb75.png)
 
 注：文字与图片报告无关
 
@@ -142,14 +142,14 @@ Delta的解决方案通常是一个完整的生态系统，主要包括以下几
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_027_365055d613b2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_028_c4e5e00016ec.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_029_dfa6175ee311.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\台达（Delta）_800_VDC数据中心电源与散热解决方案_images\img_030_2ff68eaf3d63.jpg)

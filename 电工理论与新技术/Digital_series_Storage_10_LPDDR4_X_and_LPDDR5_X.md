@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Bl5JNCs37jIBBT7Tb0ch2A](https://mp.weixin.qq.com/s/Bl5JNCs37jIBBT7Tb0ch2A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQsSXxA7ibkOicWdYR20uXT8ibHXibHINpRZvY4l70IFSYkWMT0wOsfgGicpL564dh6BzKLWlOoPFyTJqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_000_6eae0e52b3f5.png)
 
 ____**★★★**______Storage-10---LPDDR______**★★★**____
 
@@ -21,17 +21,17 @@ LPDDR4和LPDDR4X SDRAM采用双数据速率架构，以实现高速运行。双�
 
 ## ____€2.LPDDR4&LPDDR4X的结构____
 
-____![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicGnnMIm2y5jA1XRUVDGHWh4cDVnHABUd2dMdK4CiaLMgs8yBym8DQHtg/640?wx_fmt=png)____
+____![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_001_7ecee4b78846.png)____
 
 **_图10-1：LPDDR4/LPDDR4X内部结构_**
 
 如图**_10-1_**是LPDDR的内部结构，内部配置有1或2个通道的高速同步DRAM设备。每通道配置有8个内部组，可同时运行，每个通道的密度从1Gb到16Gb。双通道由16个组组成，总裸片密度从2Gb到32Gb。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicFayXzQgSnNpBlTkhwRll5OZapdaicTw2qeyNUwFLQPOyJPY7HWsib1IQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_002_e7ccde784b37.png)
 
 **_图10-2：单die、单通道、单级方框图（x16 I/O）_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicw2r7JepV3wACraqMb1uRUFEOgGISFa93gictH4jSlBoHVKlHfIOiaeRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_003_3f32b5740486.png)
 
 **_图10-3：双die、双通道、单级封装方框图（x32 I/O）_**
 
@@ -67,7 +67,7 @@ _计算摄影_
 
 计算摄影需要大量的内存才能让拍出完美的照片，如**_图10-4_**的数据流，其实在点击拍照按钮之前，摄像头已经拍摄了几十张图像，将其存储在内存缓冲区中。当按下快门时，预留好的内存会将图像传输到内置于处理器SoC中的人工智能引擎中，并在这个过程中与内存缓冲区中的图像合并，从而拍出完美的照片。内存还存储图像，而图像处理器使用图像增稳、光校正、聚焦和其他技术来增强图像。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgiaNHC8lDwxibf3drz8bW2QncO7xESNveTwEqCI1KZM79GibyW8zJkUlxYoPw1jwG4JZjL5aMl8blQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_004_d9e89d473fea.png)
 
 **_图10-4：计算摄影数据流_**
 
@@ -81,7 +81,7 @@ _4K视频直播_
 
 如**_图10-5_**数据流，手机上的直播类似于计算摄影，相应的传感器、编码器和人工智能引擎都需要高带宽的管道，在这个过程中，所有视频数据都会流经内存。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgiaNHC8lDwxibf3drz8bW2QdaA3amibeoD5sibQDfV7nf1zBLL4GydmribGF3tLicwicNuFBibUQ0ibRVQuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_005_cc31d6b3da9d.png)
 
 **_图10-5：4K视频直播数据流_**
 
@@ -93,7 +93,7 @@ _游戏_
 
 当启动一个图形密集型游戏时，可立即使用的数据从存储加载到内存中，或者从网络下载到内存中。然后SoC处理游戏数据以增强视觉和音频体验，玩家操作数据由SoC处理并存储到内存缓冲中。在实时游戏中，信息通过5G网络收发，内存缓冲被不断更新。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgiaNHC8lDwxibf3drz8bW2QmlrJb19lyickETbDBVd5jBibRicvWzIicXxFJmgYGIlKhhmveoLGIYYbyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_006_b3f010a46dc6.png)
 
 **_图10-6：手游数据流_**
 
@@ -105,6 +105,6 @@ _高阶自动驾驶_
 
 支持高阶自动驾驶的车辆，会配备多颗超高算力的芯片，接入的传感器多种多样，包括摄像头、激光雷达、毫米波雷达、超声波雷达。在高速行进中的车辆开启自动驾驶功能时，处理器需要快速无延迟的处理每时刻涌入进来的不同类型的海量数据，快速进行算法解析，算法融合，场景实时更新，最后输出控制逻辑。所有这些数据都会流经系统的动态内存，供处理器调用计算，由于车辆在高速行进中并且周围环境在不断变化，从环境感知到控制逻辑输出中间的延迟要求极短，以此来保证车辆姿态调整的及时性，实现自动驾驶的高安全性。LPDDR5/X卓越的能效可在数据密集型应用程序中实现多任务处理，同时大大降低功耗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgiaNHC8lDwxibf3drz8bW2Qh77QXv5NU0iacOftvFO8XCwZcicyzZICdkGXZSknBDcaQm4xVrj9P8Qg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_10_LPDDR4_X_and_LPDDR5_X_images\img_007_13b455b9f6c3.png)
 
 **_图10-7：高阶自动驾驶数据流_**

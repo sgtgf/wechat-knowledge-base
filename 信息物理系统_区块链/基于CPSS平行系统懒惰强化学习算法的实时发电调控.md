@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QyFaepEQjF6ew9p5ekJHo7mjv2ic3rvxST22jc7mFarice4AQb7K3Lj6Yg/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_000_e1b8d22cd17c.png)
 
 平行发电控制系统
 
@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QyZd4GsKFqP5eKuxc5MsHibsyuoVu4F2bxeIX1EMSp0Jt74Fk1yeEg9vw/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_001_c98ddec42278.png)
 
 平行系统下基于实时经济发电调度与控制器的懒惰强化学习算法的流程图
 
@@ -46,13 +46,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QycxEMqvjC4ygMKVribgicTR7NAGibxCr98bmK8Q0Q5cquX5jbNmKb7tiazw/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_002_e8931d36dd6a.png)
 
 平行系统频率偏差收敛曲线
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184Qy9NbljQS2hJ0YwPzyw2S6nKrofpBDeu5aKuphDJZkjcVQbhtbrI2L7g/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_003_32f8db142b99.png)
 
 平行系统区域控制误差收敛曲线
 
@@ -74,41 +74,41 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QygBuhtbV5YebdA6CZYDzQAc7DhkZAaZR3QfPEJyzcYTZR0YiaicmevBkQ/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_004_bf45103f8a1a.png)
 
 引用格式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184Qy0wr3d9pCpoAfiaT2rOcaGgFaYvGOa5H6qPrRf32ibvWDSp8jCw6wTXvw/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_005_561678814dd2.png)
 
 殷林飞, 陈吕鹏, 余涛, 张孝顺. 基于CPSS平行系统懒惰强化学习算法的实时发电调控. 自动化学报, 2019, 45(4): 706-719.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QygBuhtbV5YebdA6CZYDzQAc7DhkZAaZR3QfPEJyzcYTZR0YiaicmevBkQ/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_006_bf45103f8a1a.png)
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184Qy0wr3d9pCpoAfiaT2rOcaGgFaYvGOa5H6qPrRf32ibvWDSp8jCw6wTXvw/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_007_561678814dd2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184Qy9pIEY0AicT09y7SYtmoTnCoEzzZN9jlaria58P80QWUOgot1pTdYPWug/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_008_17b6308ae615.png)
 
 殷林飞，广西大学电气工程学院助理教授. 2018年获得华南理工大学电力学院博士学位. 主要研究方向为智能电网控制技术. 
 
 E-mail: yinlinfei@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184Qye5mhARGo03icxbo4qXCdaxsxiaTibsm9hWyWib4VJ9HqL5Gf9bFpqvdC0Q/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_009_b83dc63c87d4.png)
 
 陈吕鹏，华南理工大学电力学院硕士研究生. 2017 年获得华南理工大学电力学院学士学位. 主要研究方向为机器学习,负荷预测. 
 
 E-mail: chenlvpeng123@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QypkibVVXNjIibSS6hagaCmDJspGZRcbGZibwymY41MwmNC9ffNC21jGRRQ/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_010_d9e796a10f2a.png)
 
 余涛，华南理工大学电力学院教授. 2003 年获得清华大学博士学位. 主要研究方向为智能电网控制技术. 本文通信作者. 
 
 E-mail: taoyu1@scut.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45CVCeDtCqwiceBW2NQ184Qyiaf4nHaia9NMEP5HKmJo1k1ibTGAVlBqKfRCl9pBZYzu0iaUibMYA0DxY0g/640?wx_fmt=jpeg)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_011_120ec9b23556.jpg)
 
 张孝顺，汕头大学工学院副教授. 2017年获得华南理工大学电力学院博士学位.主要研究方向为智能电网控制技术.
 
@@ -208,21 +208,21 @@ E-mail: xszhang1990@sina.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QyV142wWLhBw1G1tI0lDeE12hNmPrpVNZFlRZ5nfwr4Hkshyz8YTiajBw/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_012_c99227da8430.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45CVCeDtCqwiceBW2NQ184Qy4YuHRaGHM1h33Ld5LTAMrVWwlMaribZUMnlID9wHfAD4EKS4v84MiboQ/640?wx_fmt=jpeg)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_013_13d9b03f86a0.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QyV142wWLhBw1G1tI0lDeE12hNmPrpVNZFlRZ5nfwr4Hkshyz8YTiajBw/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_014_c99227da8430.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QyPdYR0oLia9QwESjpHpgrKklW1Vicr11AgfTKK1RD29cNhMaDoia9Osqiag/640?wx_fmt=jpeg)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_015_2743059f9a8c.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QyV142wWLhBw1G1tI0lDeE12hNmPrpVNZFlRZ5nfwr4Hkshyz8YTiajBw/640?wx_fmt=png)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_016_c99227da8430.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45CVCeDtCqwiceBW2NQ184QyYEXzXCF4f27pg5ibdsgfuXzQoP2q5Kc9eAdTZh3wTr7fWQR9MJ3pVYg/640?wx_fmt=jpeg)
+![](基于CPSS平行系统懒惰强化学习算法的实时发电调控_images/img_017_17e20d714b02.jpg)
 
 自动化学报订阅号
 

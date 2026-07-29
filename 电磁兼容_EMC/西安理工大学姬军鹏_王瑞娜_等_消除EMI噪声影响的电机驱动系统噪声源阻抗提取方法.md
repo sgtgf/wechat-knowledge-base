@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75SdKIR1xqMR6J56gFoEPYxiatNVC2ByKCCTg8PCGQWJ2ibM9B8239htpk3o4JEfmrQcGuAhBRWOUhSQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电磁兼容_EMC\西安理工大学姬军鹏_王瑞娜_等_消除EMI噪声影响的电机驱动系统噪声源阻抗提取方法_images\img_000_65c4ce027f6c.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 3100 字** 
 **导语**
 为解决电机驱动系统电磁干扰（EMI）噪声对噪声源阻抗提取的干扰问题，而该源阻抗的精准获取对EMI滤波器设计及系统工作状态评估至关重要，西安理工大学研究团队联合苏州伟创电气科技研究团队在《电工技术》2025年第19期提出了一种可消除EMI噪声影响的噪声源阻抗提取方法。

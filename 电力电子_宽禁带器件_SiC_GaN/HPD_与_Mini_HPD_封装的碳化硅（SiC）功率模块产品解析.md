@@ -7,7 +7,7 @@ HPD封装碳化硅MOSFET模块是一款专为新能源汽车主驱逆变器设�
 
 一、HPD 标准封装 SiC 模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN9gxT1wQooRARgJLqquzdlECxscUBJW72beH3Vzp9hesVSzAMQdyWlePaNHvia7Ehkzzch5AcRsXpl1XiaqUS3ibNqFRtBsR8Ok0/640?wx_fmt=png&from=appmsg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_000_dc7177404fc7.png)
 
 1\. 基础定义与核心特性
 
@@ -39,19 +39,19 @@ HPD（High Power Device）是车规级大功率三相全桥模块的标准封装
 
 3.HPD模块产品介绍
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP3cc9mMiaA8IdfkbxtZzJxP2xib5M8TSCfHY8fsuMyxxTc5iaxVSGqKrFqfuQibkvVTVZRWwuCorZK9FhmuE41XLJuo7AvpHdA1ibo/640?wx_fmt=png&from=appmsg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_001_efcb9d882fb2.png)
 
 HPD封装的产品拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO57wLDAsyOHBIp5B8gPBIPCBkQ9hl7Sm7axexQ6qfHrRrOuFhib9A1B0e03picslwGqBemPhvUk6lDBMOwF7TGib7N1Ae8rQI4nQ/640?wx_fmt=png&from=appmsg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_002_26c46c2f21b8.png)
 
 长端子HPD封装的产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO0H7xttgpicgAibezqemSFblKf1XQRlEKGEtTfTdaibFSvzzrIeJWE7vKuoBQiacLXpDbaS23icmTlxkUY2CV9SMLmMDMJE2icCMBias/640?wx_fmt=png&from=appmsg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_003_c42cecba4ef9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO3lribjfgFKCHwZSbg9Rr8X0HLmtaRXc7J8ubzd14cPn23nxEAlmdopvJQKqINfR8K4TCAxFXhTKgSp8e3SAYFKPjLENJna2sk/640?wx_fmt=png&from=appmsg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_004_964c259b8469.png)
 
 Pin-fin与平底板实物产品图
 
@@ -83,7 +83,7 @@ Pin-fin与平底板实物产品图
 
 大功率直流充电集群：高压充电站总电源、换电站大功率电源单元。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpM74udFQNiboiaySicymAwu3ia7ZJQppT12XVZJ2A9I0oKNYeU6azkkBDUqxeReajKU9jLAGiapzyAkdH4vRcI6U6vhqiceCyXNqtCib8/640?wx_fmt=jpeg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_005_5c5edec7fdf6.jpg)
 
 5\. 关键设计要点（SiC 模块专项）
 
@@ -129,7 +129,7 @@ HPD 以两电平三相全桥为主，若搭配三电平拓扑使用，需额外�
 
 二、Mini HPD紧凑型 SiC 模块
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMkje4qf4oCepclGxMmxs2GD7icWlLnfz2ynXjevoolu1bhdWdrQ85kwLJlLicLWrPZ2KIqVicnVFOJh8l2R5cV95BZ7bEv1LThPM/640?wx_fmt=jpeg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_006_38e3cb721650.jpg)
 
 1\. 基础定义与核心特性
 
@@ -161,7 +161,7 @@ Mini HPD是 HPD 标准封装的紧凑型衍生版本，针对中功率、空�
 
 3. Mini HPD模块产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKDqIaI6ImiaGicMibCVPlibsWMksXfznhJiaFWJZOZkYNUx5WrtbBRkPZrgAoKkCjA3icPDtCK7RylkeX3sYYrU0paToJbLtIEOxFc/640?wx_fmt=png&from=appmsg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_007_c5fadbfa7c2d.png)
 
 Mini HPD封装的产品拓扑图
 
@@ -323,7 +323,7 @@ SiC 器件通用设计原则
 
 中功率场景优先用 HPDmini 降低 BOM 成本；超大电流、高压电站、商用车等高端场景，选用标准 HPD 换取更高可靠性与功率冗余。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPSjOZxiaBnfRVDibufEcJUjYj5adJ2Ct65DKvpWYu3IaBrc2ZPnjzTfPYlew8epGFIZYECXPVgnmlPzlWJgMibCPZc5ibaU23Qc20/640?wx_fmt=png&from=appmsg)
+![](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_008_39bbac599b39.png)
 
 碳化硅器件（SBD+MOSFET+模块）产品介绍文章链接
 
@@ -333,7 +333,7 @@ SiC 器件通用设计原则
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNEOfuz4jUAPasuDmrp4hib4tgmic44fCgBibIodWntbrxDfa43ErbP2NPNIgNgzvohbiaZLIPxUN1cKc0MDdricicU5ISY5P49VSbpc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_009_632badb00ea6.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -343,7 +343,7 @@ SiC 器件通用设计原则
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOktxPKLBu21kW438XZ33rcRN0cOKBibQVq99JZjWJtEGBUia1cTNne6micgqbibggoBk54Qherr0wKBDYAWb42k7hamVDacgOIOUE/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_010_6027d555d31d.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -369,7 +369,7 @@ SiC 器件通用设计原则
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtgrYJvHRGQrHsMNThvJec43MetVPbtp0lZCbst3LNiaHibxfjtKrLvqsB7RARoIuQjxgMmdW1qHcT0AicXt152ozCQic4dnMBMCM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_011_755a0d6ebec5.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -417,12 +417,12 @@ SiC 器件通用设计原则
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOhtEbdjB0KicI72DCjbkfWAzWZ2FGsShSzO28wPxpMYxPThcVPJRriaib17nTDD0lzjk1UHnsCGxbuYxsjwa3VRIfvC9tb4K9kL4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_012_decd319135a9.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPuY3ylRicPwy3VQ5G35ic3lMWbIjaSuelS6XticaMqKMFn1Dibiba3YbyBREvLYmBMyNlBx6yEAeVUCuKrgA4GkzPaAOFs7L3stDKs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_013_bf92ee8e031e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPujPib2AfC01ZSMXL4OoPdRjETW2OtkcSjcHbhX3FdLju3kt0FUafxLlQXVSSROickxFQffuNYwlT3z8DzSfwTb3rhl4Oac4beI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](HPD_与_Mini_HPD_封装的碳化硅（SiC）功率模块产品解析_images/img_014_9685b4d66bd0.jpg)

@@ -5,13 +5,13 @@
 
 碳化硅（SiC）功率模块的封装技术是影响其性能发挥的核心环节，62mm 封装作为行业内一种标准化程度较高的中大功率封装形式（常见于模块长度或宽度为 62mm 的规格），凭借对 SiC 器件高频、低损耗、耐高温特性的适配优化，在多个高功率领域展现出独特优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uiclzUxpr3S2qVgpClfJB2GvibPmCSHEocYo5vw1Wswf93DPDXInOoQQwQ/640?wx_fmt=png&from=appmsg)
+![](62mm封装的SiC功率模块的产品及应用_images/img_000_238aa5d8142d.png)
 
 ### ****一、62mm封装SiC功率模块的产品介绍****
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uicFlaEupJ1micNZOephMwDbuvWLYSSn4dE18MHVFquSz4jez2BGdQpJCQ/640?wx_fmt=png&from=appmsg)
+![](62mm封装的SiC功率模块的产品及应用_images/img_001_31b2a7bfb684.png)
 
 ### ********1\. 采用全焊片工艺，Cu底板+低热值AlN绝缘陶瓷；********
 
@@ -29,23 +29,23 @@
 
        **R****DS(on)** **：2~80mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uic19icvFr2ZIboVV1Q5Ixr0A90NkfVknP7hicYdtHHjxqkzlJzJBvjWGSA/640?wx_fmt=png&from=appmsg)
+![](62mm封装的SiC功率模块的产品及应用_images/img_002_387fa3de3698.png)
 
 常规产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uicqtWlJ67JfkxHy9Xp1t0mBiaMMvRQTNcybMre3yg6jZE26BuGzwktoYg/640?wx_fmt=png&from=appmsg)
+![](62mm封装的SiC功率模块的产品及应用_images/img_003_f5811b82e49f.png)
 
 外并二极管产品拓扑图
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uic8Jz23gZ8icPx1ianGibV3wHu9stIWlmlNwSzIevKia6FGIGFvYoR1hCqCg/640?wx_fmt=png&from=appmsg)
+![](62mm封装的SiC功率模块的产品及应用_images/img_004_3bec88f19462.png)
 
 ### ****产品尺寸图****
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uic6ACX30Q6WuHTmJKZWkKuFRuIgQZLB8qbhPA42TOjESns8Qw43uVD3w/640?wx_fmt=png&from=appmsg)
+![](62mm封装的SiC功率模块的产品及应用_images/img_005_acf44a4c59f7.png)
 
 ### ****  
 
@@ -102,7 +102,7 @@ SiC 器件结温耐受可达200°C 以上，但其高效散热依赖封装的热
 
 基于上述性能优势，62mm 封装 SiC 模块主要适配**中高功率、高频开关、空间受限且对可靠性要求严苛**的场景，同时也存在一些局限性。以下是其优缺点综合分析：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uicqzWUyib1mHWSRDEOHmcjXuibJTFj3reIef2MgxQCsQdcxZPBfjK9bsDA/640?wx_fmt=png&from=appmsg)
+![](62mm封装的SiC功率模块的产品及应用_images/img_006_bee1c14bd08e.png)
 
 ### **1\. 工业变频与电机驱动**
 
@@ -166,13 +166,13 @@ SiC 器件结温耐受可达200°C 以上，但其高效散热依赖封装的热
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQhtLPoUP42fyDEK6PTjcPp7CWUYpIKEh3vpJDcLeYT7glOtRRSTmcwg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp)
+![图片](62mm封装的SiC功率模块的产品及应用_images/img_007_4282e402ae02.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQfOzXibdQazmibj9D8erA2sBKBE0gTezdAXFag3gCZAy48CnBJVq07A7A/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp)
+![图片](62mm封装的SiC功率模块的产品及应用_images/img_008_600944542ec7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQpa34FicgvoWV1UW2djpxccjaDLb8pZRRCCQqSZGCy7K9wQeZia7PShhg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp)
+![图片](62mm封装的SiC功率模块的产品及应用_images/img_009_f2b594092725.png)

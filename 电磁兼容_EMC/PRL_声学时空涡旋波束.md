@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/-P98jXOy3KXyOH4kPdq-kA](https://mp.weixin.qq.com/s/-P98jXOy3KXyOH4kPdq-kA)
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/ia1BibkItfQXTsgYvzRSHbDc9IWXAmvO3JS7B1bFiaXySQcbtbCWoyl6QOAudiciaxNL9NgOsR1PTZ9P7ibicGW5ye7kQ/640?wx_fmt=gif)**  
+**![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_000_b41e812278b4.gif)**  
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/ia1BibkItfQXT0icEfSDYCXbuibNCdFovHNEcR2eJAMnia7LYZmNo0kRjnj6UiaIiakc4rZNSfGib6amod4zVewzJakXNA/640?wx_fmt=jpeg)**
+**![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_001_d3240ef173b9.jpg)**
 
 欢迎课题组投递中文宣传稿，投稿方式见文末
 
@@ -15,7 +15,7 @@
 
 近日，南京大学陈延峰教授、卢明辉教授团队与上海科技大学刘晓平研究员团队合作，在声学时空涡旋波束研究方面取得重要进展。研究团队通过对声场时空结构的精密操纵，成功实现了声学贝塞尔型时空涡旋波束，展现了声学体系在探索和实现时空结构波束方面的潜力。该研究成果以“Spatiotemporal Acoustic Vortex Beams with Transverse Orbital Angular Momentum”为题发表于《Physical Review Letters》期刊，并被选为当期封面文章。论文共同第一作者为南京大学葛浩副研究员和硕士生刘帅，通讯作者为南京大学陈延峰教授、卢明辉教授和上海科技大学刘晓平研究员。南京大学许相园博士、田源博士和硕士生龙子威共同参与了研究。感谢香港大学张霜教授的深入讨论。该工作得到了国家重点研发计划、国家自然科学基金、江苏省自然科学基金等相关项目的支持。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZE2eMiaEAjFdEPBJ7ibuMZheficcgEI7Gax7O76zsibt3fbYRDlibFplQibng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_002_aca3f5cf0f93.png)
 
 **研究背景**
 
@@ -31,7 +31,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZps82yibYP2Cwb6rr8ZYYo0BeichZZ1PibkugZ4WjXGeM25B6VrBtnIAoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_003_3dd25d479caa.png)
 
 图1：(a)时空涡旋及其横向OAM示意图 (b)贝塞尔型时空涡旋的平面波角空间频率谱 (c)理论计算的幅值分布 (d)理论计算的相位分布。
 
@@ -41,7 +41,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZPybK76tcrIrPicEUWiasxKGRgNqFC0VzXy2RvDuzB1zu4bg0W4dN2L0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_004_beefe54f417f.png)
 
   
 
@@ -53,7 +53,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZQFRae1B3Ju6lDicavEicxqHfwiaL1j8J7Mf79dknSMOMggAuBibeicqCuOQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_005_f1bd2570fd6f.png)
 
 图3：(a)贝塞尔时空涡旋波束平面波谱，绿色箭头表示速度矢量； (b)&(c)贝塞尔型时空涡旋的声质点振速场分布。
 
@@ -63,7 +63,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZjHHCw0QXs5QRQHjDmc4GvwbYPBYXfU1oVyiapBNqsTON4oez1xSryEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_006_4cbce2de0f59.png)
 
 图4：(a)压缩后的时空涡旋平面波谱；(b)正空间中波束沿x方向拉伸；(c)拉伸之前横向扩散效应较明显；(d)拉伸后横向扩散效应被抑制。
 
@@ -73,7 +73,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZJJcCT3NtmdF2p13qicwBrLSARiatiasuz5iagmjFsOPrCBic3yuC8LXib26Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_007_0f47ea5d8466.png)
 
 图5：(a)拓扑荷为1和2的声压场实部与虚部； (b)不同拓扑荷时空涡旋的正交关系。
 
@@ -91,4 +91,4 @@ https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.014001
 
 免责声明：本文旨在传递更多科研资讯及分享，所有其他媒、网来源均注明出处，如涉及版权问题，请作者第一时间后台联系，我们将协调进行处理，所有来稿文责自负，两江仅作分享平台。转载请注明出处，如原创内容转载需授权，请联系下方微信号。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ia1BibkItfQXQicM9U54mSaXEk8VlqSjWzkibvGHPcyn0BchvfzWWAHocnPu2FHjibrpQjdILVjEUKmdmzu2t1Ricvow/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\PRL_声学时空涡旋波束_images\img_008_e207e7dd6d15.jpg)

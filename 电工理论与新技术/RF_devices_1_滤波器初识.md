@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/b2GFBSGk9-oRRt7Ibcd5uA](https://mp.weixin.qq.com/s/b2GFBSGk9-oRRt7Ibcd5uA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZSap2o6Fbic7hjm4E1Ul3NoLsDqeqDhp3xtZwB18BBPibWmiamnpohZYGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_1_滤波器初识_images\img_000_fc81182bd895.png)
 
 ____**★★★**______FILTER-1---射频滤波器初识______**★★★**____
 
@@ -31,7 +31,7 @@ _€1.术语和概念_
 
 10#：线性度--->对于一些对信号线性度要求较高的应用，如通信系统中的放大器前级，需要选择具有良好线性度的射频滤波器。线性度不好的滤波器可能会导致信号失真，影响系统性能，可以通过查看滤波器的技术规格书或咨询厂家来了解其线性度指标。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSF7HZghbMNRCHH8DicYAdYibkTZLicC1fEXHJGWt71rOqFeCoJIY6Nt1AT9mK0OnRHicDDeZG6hcwOJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_1_滤波器初识_images\img_001_b1879a2133f4.png)
 
 **_图1-1：典型的RF滤波器响应_**
 
@@ -47,7 +47,7 @@ _€2.滤波器的基本类型_
 
 4#：频段抑制滤波器（也称为带阻或陷波滤波器）\--->阻止介于两个频率之间的所有频率，并允许所有其他频率通过（和带通相对）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSF7HZghbMNRCHH8DicYAdYibCciciaaNic6kTujibzaTcxYuB3VaU7FY0DxaB3l8QjbIr6hibpFtK6cVg3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_1_滤波器初识_images\img_002_266eb6476798.png)
 
 **_图1-2：基本的RF滤波器和响应_**
 
@@ -71,16 +71,16 @@ _€4.压电效应_
 
 压电效应是一种可逆的物理现象，晶体物质在受到机械应力时产生电流，反之亦然，当施加电场或电压时，晶体会有微小幅度的拉伸。压电材料将施加的机械应力转化为电能，也能将电能转化为机械应力。市面上提供两种声学滤波器，分别是表面声波 (SAW) 和体声波 (BAW)，如**_图1-3_**至**_图1-5_**所示，SAW和BAW滤波器可以分为两类：梯式和栅格式。梯式滤波器在通带附近有很高的抑制，但带外抑制性能很差，栅格式滤波器提供良好的带外抑制，在通带附近提供较低的抑制。而梯式-栅格式的混合配置在抑制和通带抑制性能之间实现折衷，现阶段的声学滤波器多为混合体系，以达到性能要求。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZH9nficZzicXibbCpxr1IJhf5dZ7mpWgkegBl3AvuFjrPNGZcoJI2PGbPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_1_滤波器初识_images\img_003_d91b2a48c125.png)
 
 **_图1-3：梯式配置_**
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZR52PKHSsHQOnkrO9qbqfz83WuibwkvOXINrJyHuPSEz39lG807kl0Qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_1_滤波器初识_images\img_004_c2c60d13f574.png)
 
 **_图1-4：栅格式配置_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZs0e3ukicS1icddrzaeZ9AQc5Nybk5Js2Aic3V0X9TRxich0ichI78KqFhCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_1_滤波器初识_images\img_005_f8f588826bfa.png)
 
 **_图1-5：梯式-栅格式混合配置_**

@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75T8bewDQdQOqE7cicX9Ak77PUnty7soVOWfDq0jIyG8GkujuAyBbgyNibz8FoQMKaiaox3xDaOqsWRCw/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QcgRMqgxDJ4LsHHM4ulFQp6FSzyYUD6ibnLP5hmU8WJicXZK76zQ2Hc6FSNxxbMPQhC6jvsxRsBfibQ/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力系统_稳定性分析\浙江大学陈向荣_黄小凡_等_电压稳定剂接枝改性对500_kV直流XLPE电缆材料电气性能的影响_images\img_000_71bcbc8810b2.png)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力系统_稳定性分析\浙江大学陈向荣_黄小凡_等_电压稳定剂接枝改性对500_kV直流XLPE电缆材料电气性能的影响_images\img_001_159c1ef65249.png)](https://www.acces.org.cn/)
 阅读提示：本文约 1200 字
 > 浙江大学电气学院电力系统自动化所先进高压输电新技术实验室团队通过熔融接枝法制备了不同含量的4-乙酰氧基苯乙烯（AOS）接枝交联聚乙烯（XLPE）试样，研究了不同温度、电场强度和AOS接枝含量对XLPE-g-AOS接枝试样电气性能和空间电荷特性的影响，并对其微观形貌、理化结构和结晶特性进行表征，结合量子化学计算提出了AOS接枝对XLPE陷阱能级分布和电荷输运影响的物理模型。
 **研究背景**

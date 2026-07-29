@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9vy-5O870qTCUWQbGLB6Zg](https://mp.weixin.qq.com/s/9vy-5O870qTCUWQbGLB6Zg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_000_7aee9f5e0b9f.gif)
 
-[**![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVs0Ef5uGVZ1sSLiaFVuFiaDbYewiaLdX5TiauYBhz5W1FQgBQdKlIbfcOQVicG3HHI9YDwvassLictiaeXw/640?wx_fmt=png)**](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650636444&idx=1&sn=80bac8b09906d95ec863b30bdf0c42e1&chksm=88bc2b93bfcba2858aa0be0d6b1f5aa2cec926c99c20d37eef99c9edb856eee5c3a582c3b9d8&scene=21#wechat_redirect)
+[**![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_001_aa97c50b7b3d.png)**](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650636444&idx=1&sn=80bac8b09906d95ec863b30bdf0c42e1&chksm=88bc2b93bfcba2858aa0be0d6b1f5aa2cec926c99c20d37eef99c9edb856eee5c3a582c3b9d8&scene=21#wechat_redirect)
 
 **直播时间**：3月30日20:00
 
@@ -17,14 +17,14 @@
 
 研讨会将在微信群开展，采用主讲人视频直播授课的形式，并有互动答疑环节，欢迎大家踊跃报名参加！扫描（长按识别）下方二维码添加西莫会务为微信好友并主动联系说明参会需求，直播开始前一小时截止报名，请大家务必抓紧时间行动哦！以免错过宝贵的学习交流的机会！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXBdZ0hLYZQ1mbGBJpWLUlvppt7RFJZBDZJXYEgUAXoHptvqKoLKMTcKVC2kjOEMr6ZLC6XicQ8ichQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_002_d2321ada399d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_003_0cfebd1d514d.gif)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650636481&idx=1&sn=74dab12093989f1c38f8abf20cc79e55&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIU5d32tzoJIQSHlLq4IRS2FlEsKib4TBpEHBbdWLznbMRbt84QqHuibfpa3Aed9QVyLjoUzvBSocmNQ/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650636215&idx=1&sn=f84810b6428ac37822debde8b62062fc&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_004_18f5302d1f9a.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650636481&idx=1&sn=74dab12093989f1c38f8abf20cc79e55&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_005_292c032fa697.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650636215&idx=1&sn=f84810b6428ac37822debde8b62062fc&scene=21#wechat_redirect)
 
-[](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650635523&idx=1&sn=e448e02b0960246e495b71f838fcbe12&chksm=88bcd60cbfcb5f1af1b22776634e1c77601bdd786bfc8b71c07f2b18012d078ced83fa18884e&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)  
+[](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650635523&idx=1&sn=e448e02b0960246e495b71f838fcbe12&chksm=88bcd60cbfcb5f1af1b22776634e1c77601bdd786bfc8b71c07f2b18012d078ced83fa18884e&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_006_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_007_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_008_3f5511eb92d0.png)  
 
 点击**阅读原文**，直达论坛活动贴！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机NVH诊断及优化流程剖析__主讲专家_张吉健_images\img_009_d960d0948cf9.gif)

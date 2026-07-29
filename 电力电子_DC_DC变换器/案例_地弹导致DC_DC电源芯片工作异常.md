@@ -16,7 +16,7 @@
 
 如下图1 ，产品其中一个供电是12V转3.3V的电路，产品发货50K左右以后，大约有1%的产品无法启动，经过解耦定位，问题出在下图中的电源芯片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYTkQXvXQBBO1ZVIBxstRUcrGreDpgL7PWnlQibG6j3XtsTdz4lWn6JIw/640?wx_fmt=png)
+![](案例_地弹导致DC_DC电源芯片工作异常_images/img_002_5f08efd47199.png)
 
 图1 12V 转3.3V电路
 
@@ -32,7 +32,7 @@
 
 （2）当高端开关断开，低端开关闭合时，电流的路径如蓝色的箭头所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYtiaqZWiaAjrhXuqVMclKdVVAMl2yiawPyCIrW0Yich2FJfp3QP2q2OYpDg/640?wx_fmt=png)
+![](案例_地弹导致DC_DC电源芯片工作异常_images/img_003_fcb9c5c06ed8.png)
 
 图2 芯片内部的高低开关（左图）、实际的工作示意图（右图）
 
@@ -48,13 +48,13 @@
 
 我们实际设计的PCB示意图如下图所示，环路1由Cvin、高端开关、L、Cbuck、负载组成，环路2由Cbuck、负载组成，环路3由低端开关、L、负载组成。其中环路面积变化A最大，同时电流突变最最迅速，实测引脚6 COMP 最高可达到-0.6V。如果FB引脚耦合的干扰达到3V，是可以将芯片进入到测试模式的，导致无法输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYIiauXvhibMe4G7lYtOTEN5ekyIfmVP2RTfQB9IroI4gutpll6XxkTy4A/640?wx_fmt=png)
+![](案例_地弹导致DC_DC电源芯片工作异常_images/img_004_c9d8242af8ee.png)
 
 图3 较差的布局产生3个环路
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYAAClMrPic1XtMdobdoiaQRRHysv5Qr4sj0OEqhr9S3deI1ibibChu3iaxdA/640?wx_fmt=png)
+![](案例_地弹导致DC_DC电源芯片工作异常_images/img_005_7a07c777f068.png)
 
 图4 较差的布局产生3个环路
 
@@ -70,7 +70,7 @@
 
 （3）重新布局后的环路面积变化=变化的长度X板厚度。板厚为2mm，此时的面积变化基本可以忽略不计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYDbYC8PszfYCpibcshsQn2iagS8WIFsXEztGPFmrZjn0DF2ibF21KbibMVA/640?wx_fmt=png)
+![](案例_地弹导致DC_DC电源芯片工作异常_images/img_006_6412e2ab9dec.png)
 
 图5  优化布局，环路变化基本可以忽略不计
 

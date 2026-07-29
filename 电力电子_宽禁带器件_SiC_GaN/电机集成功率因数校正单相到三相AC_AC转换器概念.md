@@ -8,69 +8,69 @@
 
 作者:Michael Haider
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhC6ASR2a79PwkK1Ukq3Jl6lDFkJc5Kxyc0WxiburoTsAaiaia5MJmjGicRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_000_6f8166dbbdf8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIh8b2GlxaicaaAFCyqZlSUfhysiaiax0oeo5OvtTtFPFf4ds68NtjZLPjhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_001_61593b8bf311.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhZGiaGpteCH5Saq7SBIk9ETstm39LNXrbCfQPZf8lIgegGCib3yAXkOQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_002_70ed2dced1f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhiaqr8ic15ia3XZkMqgXkMiahnty7zCJD9q3Vao4lsSbuz2Z3hk64pOf1qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_003_204decca559e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhAWvyG4R824FibQ6aS6ldOQZ64w82a284m3jGkCkDUNcgfEr4rogicdxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_004_d26f5b0ff618.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhCTcFG9vNk5cra1mDF8iahqzSkBcJuf8cQG2wOHE0poUYgL0UNVVAq8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_005_0691b72cff08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhzIhOiaSGia6jMicbtDKFoo3nYE7YA1YhYPQeAFs18I4ZDBnp6AeUbKMQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_006_5ad5354f1324.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhxUicib2OY6ncQLJ6ralgKu34KHDo1KgVwfMg6u016A1bGCQIEPT0buDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_007_44306f3da922.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhj6QOf9VlhjbfxaWe0JTP5yxc49JISqwlJD0mUtlCrdbLe8m5JzzyTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_008_4607d2bc4c4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhScRINHUaTH2ib54efNdB2Gxa2DnLFomsHr4VibM0jxDWQ3XwoicEWcHJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_009_e06d234f72de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIh3UB1gYdygn3iasXgtvkpQ61ia5RZibib4XwwaFXSDppFICIkLtz1wwTGGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_010_8bb3d2cc6c47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIh5Z6pJZzyygSCib4WZ85pbRricrYcQ4Pug8FOfXL8XlOdrZTE9hwoVwDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_011_2d6cc5be4ca5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhWHufUyj1bJ52hqibKUia8JbxMvfI3wE7icpjpXveNmMcJV98uXMSMkXKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_012_c5dc1737dadf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhV1MoxRq1K8CPozeUZuasoEuTicBibSn7suQXZNhuZjneNHsUxJiaPeB8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_013_e8808b8f122b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhL0sbq1tRXGxpOb1elWVV3zyY8wvNFchqOvXicyIunvffk00K4Z9QIibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_014_06127efbb73e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhA53LKwpib3O9Rc6HqicybKUzDp6moYPicV8D1tYouGaL0Qwm0vhXYaMSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_015_6bbd580e532a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhonh2ASxDZbiaykc9kPcvgqxSVicEM5dBgsXpOZayu0E2E5IXXIgXtJZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_016_0fcda1c9b125.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhSoLFGFTg7G2KAAk3DH0oAHVnyEojkLWqmYzicsViaI3EFM4pIUIiaU4Kg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_017_f6277c3b40d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIh04HJ0rxr3MRSC3DkkiazCA83icSwcL05vPgPjEFvEhiafgt8F1GnUOENg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_018_41574ac6e694.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhUoRGc9Cg8YOfWSZ7Tg1Kx04oUhBh0VtqFUQFKVIGBlqsFTAG6eNScg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_019_27ff00efd1ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhNgBklKI9O6jpff77ZicZ7A1htia4uaXxOlia4arEBW6fyen8yLic50CicZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_020_b50f8013dbd6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhXQVWFOfLP47OTe75pPjia4cHohTrQTL64ju0alFxQjXmyKbTd1fvpKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_021_94621ff3c7f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIh7lHRPI5Hx72JeWqfhgabtgQgtS3A5vvuaY5icIdd4ojWy4Tg4rARgKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_022_fc8e383c18e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhBVPnFIzNYgxR4D5u5vqKRVUWiax5N5YzzaT7fG0icNEqbMXwyZyW7tEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_023_a8d04b9cbec1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhq1f2ibzsxu2MhE4ykphDkpGIqBepFRkA2Y4CQrdmknYz9ic7LfWX3J5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_024_e41efba1c218.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhYjWt0qfjb7Q0IIh5iawWDAvxbFgOX13mPMmzBKnh9DXt1JfXrujDEzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_025_70cfec88fe1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhDxPhiaqwk0OmSptXtH9EGtLSUU6oXSvHicI74SibYXNiaiaS9InC1gbXFRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_026_b5da0d08368b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhMmzWMToSGpX0sn3uLtiaMhibNBKMib2RyEl7YXvhia4YicqIiaJnrFkxTBLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_027_c598ab3c5106.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhVU93icHYTXI1IpjFqnHcJy7vicuAgibdvH7CpkVX1ic7cL19U67Nnrn2zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_028_33d2d707a910.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhlxbdxiczLo8hwpv0ONZODIFDGPibpzRZdicbibdgHZFMcL5FSJfCwSvic1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_029_80e081017045.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhlaH7COaZXRWf1Ju5b4k47FTzibIj2qze5209yjzogS0WuC5cKoA0SeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_030_2a8110aec950.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhUbIVUARPaoVBFg92ve1aET3JpWC0BdSyqMhvx4jSAxRqexYqscQt4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_031_47ea08ddeeb3.png)
 
 注：文字与图片报告无关
 
@@ -195,10 +195,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibicbI7tD7lic4ib22htXTmODq8qHyeK03JhpMUXmuT803rfOUlEfYI8KeXrTBRwmeXRsHjib2vXgNiaQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_032_186e85e8e791.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibicbI7tD7lic4ib22htXTmODU4icduDBPglnh3yf7dDbk3ia3x8ytoCjKdq3icvicEUib6Tiaqg991JpZYOg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibicbI7tD7lic4ib22htXTmODutoLTvPKCePzyMk98O0qPNticPEo9MkNYxibhCDFeN1IylWAClibcIYtw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_033_7501a7f42d0a.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电机集成功率因数校正单相到三相AC_AC转换器概念_images\img_034_08843c87703f.jpg)

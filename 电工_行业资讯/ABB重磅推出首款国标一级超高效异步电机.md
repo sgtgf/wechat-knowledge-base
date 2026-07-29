@@ -1,0 +1,91 @@
+# ABB重磅推出首款国标一级超高效异步电机
+
+原创 电机新视界 2024-04-16 17:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/Xhqg4SPHaNlfyE19S3p6GA](https://mp.weixin.qq.com/s/Xhqg4SPHaNlfyE19S3p6GA)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+**
+
+**来****源****：ABB**
+
+ABB发布了首款符合国家一级能效标准的低压三相异步电机——M2QA IE5，凭借超高能效、更可靠的结构设计、更优异的绝缘系统、更低的温升以及出色的定制化能力，在能效提升与缩短投资回报周期方面实现了重要突破。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DkrrefPBFl8WFacChSVZGQs4GnuRavj5j4Wov0rFptnm0Emuh1UcfMNBwuNyyfjMkWm2nJVaATLcQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+
+  
+
+中国工业领域推广高效能设备，是顺利达成“双碳”目标并加速发展新质生产力的关键途径之一。伴随国家多项支持高效节能设备发展和应用政策的陆续出台，推动了整个工业市场对高效能电机愈加强烈的需求。ABB M2QA IE5产品带来的杰出的节能减排效果，将进一步推动中国工业向高效能源转型，走向绿色未来。
+
+  
+
+**ABB首款国标一级能效电机**
+
+**超高能效，应势而生**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsUtX8GRnZcOdfNTr2OqlEfk9wDDH2ib1Gq42mGTicKveP5vmZq3GHCwgg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+M2QA系列电机作为ABB的经典之作，具有高效、可靠、经济、耐用的特点，二十多年来一直深受各行各业客户的青睐和赞誉。M2QA IE5研发迭代的过程中，结合了电机设计的最新理念与大数据分析技术等手段，通过更为优化的电磁方案，不仅实现了电机能效的跨越式提升，更可以显著降低能耗和碳排放量，大幅缩短投资回报周期。一般情况下，IE5电机的损耗约比目前常用的IE3电机降低约40%左右，以一台15kW 4P电机为例，将IE3电机更换为IE5超高效电机，一年节电可达4000度以上，投资回报周期仅约11个月，年减排二氧化碳高达2.9吨。
+
+  
+
+作为中国市场的经典产品，迭代后的M2QA IE5在秉承原有优异特性的同时，根据中国用户使用需求进一步优化，采取了更为适合批量化生产的先进工艺与技术，保证批量稳定的实现超高效能，亦大幅提升了产品性能及可靠性，温升更低，过载能力更强，应用行业更加广泛。其中石化行业安全区域、制浆造纸、电力、水处理、食品饮料以及电子半导体等高能耗行业全新和升级项目，都可以直接应用M2QA IE5超高效电机或者替换现有低能效电机，从而实现能源成本大幅节约的同时，有效降低二氧化碳排放量。
+
+  
+
+**升级的不仅仅是能效：**
+
+**更耐用、更安心、更智能、更多定制可能**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsUtX8GRnZcOdfNTr2OqlEfk9wDDH2ib1Gq42mGTicKveP5vmZq3GHCwgg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+凭借出众的技术创新及在可持续发展领域的卓越表现，ABB M2QA IE5于近期荣获了中国自动化+数宇化产业年会(CAIMRS 2024)颁发的“自动化创新奖”。ABB强大的绿色基因，渗透在了M2QA IE5系列产品从设计到生产的各个环节，致力于全力支持合作伙伴以更加轻松和便捷的方式达成绿色低碳发展的目标。
+
+  
+
+M2QA系列产品自诞生起，就是ABB针对中国市场研发的中高端通用型低压三相异步铸铁电机。全新迭代的M2QA IE5电机，其轴承和结构再度加强，更为坚固耐用，同时采用了ABB全球绝缘系统方案，配备了特殊绝缘系统方案的可选项，可充分延长电机使用寿命;基于多方面性能的提升和可靠性的增强，ABB将M2QA IE5的标准保质期从1年延长至2年，让客户能更安心使用。
+
+  
+
+此外，全新迭代的M2QA IE5延续一贯的配置灵活设计，结构的扩展使其有着更多的定制化可能，能够为绝大部分电机应用场景提供解决方案，包括除风机、压缩机、减速机和水泵，以及磨粉机、纸机、输送带、搅拌机等特殊场景的专用设备。此外，为了进一步帮助合作伙伴更智能地发展新质生产力，M2QA IE5还可以搭配ABB AbilityTM数字化解决方案，通过提供实时的、基于数据的洞察分析与决策支持，帮助客户实现更安全、更智能的运营，提高资源效率，实现节能目标。
+
+  
+
+ABB对中国市场的重视，不仅表现在根据中国客户需求，对电机进行设计优化，更表现在加强中国本土研发和生产能力上。目前，M2QA IE5电机可以实现本土化灵活交付目标。与此同时，ABB还为中国客户提供了覆盖全生命周期的服务支持，以更为高效的优质产品和服务满足客户的需求。
+
+  
+
+M2QA IE5的问世不仅是对ABB在电机制造领域领导地位的再度印证，更是对ABB不懈追求节能增效与可持续发展承诺的显著体现。这一飞跃突显了ABB不断超越自我，始终以更精进的产品性能和服务响应客户需求的决心。展望未来，ABB将继续凭借敏锐的行业洞察和持之以恒的技术创新，致力于在更广泛的应用中推进中国工业领域的高效、绿色发展路径，与中国工业合作伙伴共同迈向一个更加环保、可持续的未来。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsyDYEt9iaxksRy95yacCPyiasW3LI4Ampj80yPKp4wuSF67CpSaNibSgibg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+**产**
+
+**品**
+
+**参**
+
+**数**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsyDYEt9iaxksRy95yacCPyiasW3LI4Ampj80yPKp4wuSF67CpSaNibSgibg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DkrrefPBFl8WFacChSVZGQstOqWS0zkianUDQiciaDq2ZOftDtxkBA8KgltaG7WibdCcM4kG141vTTBbQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)

@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\西安交通大学崔建_张国钢_等_特高压GIS隔离开关切合短母线过程中对地二次击穿机理仿真研究_images\img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2400 字** 
 > 在特高压GIS的操作过程中，隔离开关切合短母线时断口间会产生流注分叉对地二次击穿现象，危害严重，传统FEM-FCT方法和PIC-MCC方法的计算复杂度过高而难以应用。本文提出了一种基于相场法的流注放电仿真方法，实现了特高压GIS隔离开关切合短母线过程中的流注分叉现象及其引起的二次击穿现象的模拟，并分析了相关影响因素。
 **研究背景**

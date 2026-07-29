@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/iEjwxYWtbXVc\_5TW\_DZCsA](https://mp.weixin.qq.com/s/iEjwxYWtbXVc_5TW_DZCsA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_000_4fecbf19a39d.gif)
 
 ****Research on Power Factor Improvement of a PM Vernier In-Wheel Motor with Collaborative Design of PM and Armature Flux Linkage****
 
@@ -40,7 +40,7 @@ This paper proposes a collaborative design method for enhancing the power factor
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja1VSnQtxAOHwjXnW8sicq6NibpiaL20nRN6Rsia4u6HCYAk3pRxgz4g16VEMo39DZGTMNSh5DibZxsjcdmCpHliaV363KtUgrM7UssUE/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_001_da2611c81e24.gif)
 
 提高电机中磁源和磁导率之间的功率因数和扭矩概念图
 
@@ -54,25 +54,25 @@ This paper proposes a collaborative design method for enhancing the power factor
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja3hP4m1LysnxcDQZQfVq7HRoibDGmImiagrPcqiaGtu859spcvqH3PwbEQuOd35w0DdLjRppWzlibmVciaUFzEK6n9Wg2afNDYgkQEA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_002_76792041e629.gif)
 
 **项子旋（Member，IEEE）**，2010年获得湖北理工大学理学学士学位，2017年获得江苏大学电气与信息工程学院电力电子与输电硕士和博士学位。他目前是江苏大学电气与信息工程学院的副教授。他的主要研究兴趣包括用于现代电动汽车和混合动力电动汽车的高性能永磁电机和新型双机械端口永磁电机的设计、优化和驱动控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja0NdSt1YlQFaK7lCGNqiaoBBD4CSGqRB4iby9N8ibdGia0daYEYThCgSYCJ1y3g4ouB6WjamklxLrhy65hN0moKxAHJd58THGX9vuY/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_003_5efed9586def.gif)
 
 **彭磊**，2021年毕业于江苏大学，获得电气工程学士学位，目前正在攻读电气工程硕士学位。他目前的研究兴趣包括电动汽车用磁通调制永磁电机的设计和分析。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja1pSrQavE5vqm1Asd03So98nM0OYDOoo5PUFa0Ur29z9vkL4GeKu7G8ibUD9aWTY4jjzvKCGolQY4Ebib9r7MtUvzric8tszviaw5o/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_004_c4f608749344.gif)
 
 **朱孝勇（Member，IEEE）**，分别于1997年和2002年获得江苏大学电气工程学士和硕士学位，并于2008年获得东南大学电气工程学院博士学位。自1999年以来，他一直在江苏大学工作，目前是电气信息工程学院的教授。2007年至2008年，他是香港大学电气与电子工程系的研究助理。2012年至2013年，他担任美国密歇根州迪尔伯恩市密歇根大学能源资助的电动驱动运输研究生汽车技术教育中心的客座教授。他目前的研究兴趣包括宽转速范围电机、少稀土永磁电机和多端口永磁电机的设计和驱动控制。在这些领域，他撰写和合著了70多篇被引用的技术论文，并拥有12项专利。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja0MSCXQkjKOqTlsibq9CEfQYVBgCaZyS5NxKIBDyQ8aVVce01hBPUE9ibRSIicsH5nIIcEF4OKqSX9BuzFFjSjCsFmXqfsM48ia7ag/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_005_4701f4c414c1.gif)
 
 **魏佳强**，2021年，他获得了江苏大学电气工程学士学位，目前正在攻读电气工程博士学位。他目前的研究兴趣包括电动汽车用磁通调制永磁电机的设计和分析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja2tvjN8Yhicg8Y4fdrHOMeqxt2lwT6QvkDrcIkJ6icZDgRq4BvdgO2MkAmOiauQ41ABrtk4C6IWkTeuZHvHQc32k4ZmC3yhBgTy2M/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_006_10341c1c08a7.gif)
 
 **岳哲**，2023年，他获得江苏大学电气工程与自动化学士学位，目前正在攻读控制工程硕士学位。他目前的研究兴趣包括永磁同步电机的控制。
 
@@ -80,7 +80,7 @@ This paper proposes a collaborative design method for enhancing the power factor
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -94,15 +94,15 @@ This paper proposes a collaborative design method for enhancing the power factor
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -110,15 +110,15 @@ This paper proposes a collaborative design method for enhancing the power factor
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -126,15 +126,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江苏大学项子旋等_基于永磁体与电枢磁链协同设计的永磁游标轮毂电机功率因数提升研究_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

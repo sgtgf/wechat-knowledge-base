@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FMwv1Ev46YLKUkkxGNadNc3Q3ibic4FgpqsdOI9m3t5ibnCBNiczHy00YFnE0MQUE4Z39uXdCXb8I1kicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD防护为何对集成电路如此重要_又该如何防护__images\img_000_5559687d7d87.png)
 
   
 
@@ -38,7 +38,7 @@ EDA365电子论坛
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FMwv1Ev46YLKUkkxGNadNc3xf82ibj5wRic5NnTib67XUC1f3F6lAWzZzfvUSkicaPjhQ5FMhkmaEC1zQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD防护为何对集成电路如此重要_又该如何防护__images\img_001_3d8a729faff3.png)
 
   
 
@@ -72,7 +72,7 @@ EDA365电子论坛
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FMwv1Ev46YLKUkkxGNadNc3C92nvhA5SPXa20OutWia8czMiciaJAQNezV9z52DTUzSpAjDZBk8Ezic7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD防护为何对集成电路如此重要_又该如何防护__images\img_002_b755488eae2c.png)
 
   
 
@@ -84,7 +84,7 @@ EDA365电子论坛
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FMwv1Ev46YLKUkkxGNadNc34tYK8P8xh2jIn89V8Oa6U2X3n5X7oaaod63uTicjxyib2jY51ic8aia3pQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD防护为何对集成电路如此重要_又该如何防护__images\img_003_b0795bc4ade9.png)
 
   
 
@@ -100,7 +100,7 @@ EDA365电子论坛
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FMwv1Ev46YLKUkkxGNadNc3TLic1FibVuwd6RCNSwlhj5icpfCjhPvZBJ4RE7zcghzglgqLNGwAY3s8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD防护为何对集成电路如此重要_又该如何防护__images\img_004_09c3fca2b8a3.png)
 
   
 
@@ -122,7 +122,7 @@ EDA365电子论坛
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FMwv1Ev46YLKUkkxGNadNc3LfF7HiakxIs2xjia6qM9ZMDHtaSaQQE13fzF2Op42xtegdFLUX7MGqlA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD防护为何对集成电路如此重要_又该如何防护__images\img_005_141b8e5e1292.gif)
 
   
 

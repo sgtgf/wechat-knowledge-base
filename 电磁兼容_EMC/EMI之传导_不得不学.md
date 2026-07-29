@@ -46,11 +46,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEuthrC2expVicap3mgu73eeueIr8vYt6PGo6nVYhib3WHlmcyOWRgBZ6Ufg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_002_9644c4f350f3.png)
 
 图1
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEut8guW2LjWtYZ2vXHuC30H1602Xd9VHfkKHiaSrgkJtf5t2iaBwSHHmL4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_003_a351b79e2bf8.png)
 
 图2
 
@@ -88,11 +88,11 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutoicgVJ0XS3GvGqnb7bTugdPadhFQIGMyVBW8z0ltZ6QY2yicD6yYgfEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_004_edf70d89ee3e.png)
 
 图3
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutYeicbvoWTic0X1Jq0bzhVEAuNs9nPIEd1PWa7uJQicxYIDedG3lFQmO0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_005_de1b63252691.png)
 
 图4
 
@@ -122,13 +122,13 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutrOTOQIc5l5Yb2RYdTzicSia76PiadDh8xcc3YBxzv32G1GMQ2Vm8YbTWw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_006_20ad46724f4e.png)
 
   
 
 图5
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutWr7973mGx0yqRIkZejTXmnovFzx9LMcqqibTAQlVkQCKcOeav62NYrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_007_8e9019bc7de4.png)
 
 图6
 
@@ -140,7 +140,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutn8NEJGHAVBZefxddtBnFQfxrTViak2dIo7VrpVgL3micQAbLibMmSYVKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_008_710016657635.png)
 
 图7
 
@@ -158,7 +158,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutBm33L1op0IbhnPfLic7VrLLyibibeqD2hsumncnOWhib2VUVGYLibMf8x6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_009_9602aee360fc.png)
 
 图8
 
@@ -176,7 +176,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTSXyMuAwZWvqyqWvsWJibpry1Hx4Wg7WicIGQ9HseHia7EnGiclP9jeIUqVw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_010_e4d67da781d1.png)
 
   
 
@@ -184,13 +184,13 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutPdvlra1dzm5eEnA1mWyvUfxvnibeyHKWWChunGyqGBzrEIpicCkHkx5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_011_028152033ce4.png)
 
   
 
 图9
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTSrcmHBhE6bvXWCuXKRyyicLjyYwpsUagkS8bjXQ2OHicDDVtRUVY73FnA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_012_86caae1128b6.png)
 
 图10
 
@@ -200,7 +200,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutEZJbKntyBtkBhLWjR1SmB2hpcAGyLUg5ibAsE003clR6DCvSREItUoA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_013_52ef20971b80.png)
 
 图12
 
@@ -214,7 +214,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTSlxdBpdS2KlAXpVDjiaPeo1fUTTMkg4jmXPApUhMhf573f7XjfzfsiaXQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_014_5d53d7164050.png)
 
   
 
@@ -222,11 +222,11 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutEN9S9Gfibvn237ra0dURWvkSgf71FEbOluqj20TWvsHvNfBNWqvfJsA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_015_cfe77cc52010.png)
 
 图13
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutTUKO3SEGo0l8kKZTk4L4nU9GbVKjUmLJ9t6Pp10ib2UVTiaxiceYZic2yw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_016_1a6f3b20e988.png)
 
 图14
 
@@ -240,11 +240,11 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEuttPvG1Tbk9GibjnNfH31iaMFzuDvxDiaGKhkeCpyfTMU8Gw1Hgtu75spFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_017_db6a9650d681.png)
 
 图15
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutvt6KCLOcs8oqqzAvs8mevFdZGV2ZUe41FCu6NZILBtcaiczFG5iajxjA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_018_91541dc9820f.png)
 
 图16
 
@@ -262,13 +262,13 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEuta3F6ib5bFLLZVicEGEByLBHomMhM7oVjfCNiaUgfqWG9n3gpNtZyfcpbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_019_c9a233c5ccca.png)
 
 图17
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutn0SmcEzicpnbocz83z2N7ngrX0KkcjJ5OZ0IeD5cTbns1QN4HI8x2EQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_020_7df07f7dbf10.png)
 
 图18
 
@@ -300,7 +300,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutWM2pYe2DicnNAibJzzyUTsdNn3xkpLUP6iaXiaichkQBTWswT8hLbzo6I7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_021_7b66317e7346.png)
 
 图19
 
@@ -360,7 +360,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutGrJbHtIzcYvXibiaJmo5sR03iagWZ0XYlqp9u8tH1dHRQt0gBqNJEHkmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_022_c44b1f4022ad.png)
 
 图20
 
@@ -374,11 +374,11 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutbaQv1vwicdtPkko85Q9sOIbEjKQYjrQ610beyajTIor7IlI3ES1EZpA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_023_405c02badc79.png)
 
 图21
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutHZibuliaNPIo2wyy4bhIVOvOjb732kialykPZa9H46fJxlMbbAcBRFy4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_024_6d18a37d1be2.png)
 
 图22
 
@@ -392,7 +392,7 @@ LISN(线性阻抗稳定网络)内部线路如图4所示，输入电源来源由�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEut4jcl1KgkrOSFrqYtIMlhYl8UkIUb5SR3HGZY16ao2fxYibMhPicBw74Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_025_514cb8664f52.png)
 
 图23
 
@@ -416,7 +416,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutg7ND8ia3MmgCicEN1BIxbRNwCJJawu1bv9nj8hpycWyRTfAwHfQ85x3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_026_c5e2a6104c13.png)
 
 图24
 
@@ -438,7 +438,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEuttFfiaS4U32LibSpLdXqp3icoAEsVzx72nNzqxxvTtynVO5Clz5MB0rn5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_027_8c6a690507d6.png)
 
 图25
 
@@ -450,7 +450,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 电源与信号路径有一个共同接点：GND，地的走线对EMI影响非常大，参考的地回路接线方式如图26所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutB5ldmW9HQ9xgDlicFgTabkv3SUNFR8FmrLRoribemyZI7nviaWuS0ic5iaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_028_a3a961235f31.png)
 
 图26
 
@@ -500,7 +500,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 图27
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutmY24kyiasKVWMvr9lZvrTMa4PK4AEh5eqsuicCSom3sTpk7Ha8vwWJeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_029_a73f3ba93b81.png)
 
   
 
@@ -512,7 +512,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutRswtsYf0sDeeJ9b2iaic5Sux760RmXF185ibpzEkJWjLDWjWWYutwd4SQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_030_ba40d6297522.png)
 
 图29
 
@@ -532,7 +532,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 电容：图30为一电容的等效电路，Ｌ为等效电感，Rs为等效串联电阻，Rp为等效并联电阻，Ｃ为其电容值
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTSTmyEf04Ba62tecFia3bCyx0ZPp8Az5RqkQsjJXau6MCmuZDqWnACqlw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_031_455ec74d92ef.png)
 
 图30
 
@@ -546,7 +546,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 由图31的阻抗等效图可以看出，电容器在低频时，确实是由电容所主导，频率增加而阻抗降低，但在过了Fr后，阻抗特性开始由电感(ESL)所主导，频率增加后阻抗反而会上升，在此频段的电容呈现一个电感的特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutAjVvO3FAQyFibvaztzotCqR0miaWaNMKibIajjapnWd4mZphljZKU7Sjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_032_992492af24b8.png)
 
 图31
 
@@ -556,7 +556,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTS6eF0g9raGC1y9fDT9K5moBbSAssjPgG8fkIXhmcNpxeTnML8MuRagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_033_3025f102ec19.png)
 
   
 
@@ -564,7 +564,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 与图中转折点相同(此图为示意图，详细曲线图请确认电容器厂商规格书或用LCR设备量测)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutpmBXXVLy6fGy9tib6gFWzic5WOjYLVJdKjfg4eR4TTGgy1sc0KpIkGVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_034_dd87309006f6.png)
 
 图32
 
@@ -574,7 +574,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 所有的电容其实都有此频率特性曲线，像是图33为一相同类型但不同容质所得出的阻抗与频率曲线，由此图形可知，不同的容质会因其容质与ESL不同而有不同的共振频率点与与频率曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutnictKnm8qt3O7jZNpBiakHZZApoftGRmcQztLz1LlmsTosWZR53bKdLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_035_70ae8d753e8b.png)
 
 图33
 
@@ -586,13 +586,13 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 另外，相同材质与容质，也会因不同的包装影响其ESL而有不同的阻抗特性曲线，如图35为相同容值与材质，但包装不同(0402/0603/0805)所呈现出来的阻抗与频率曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutChQmiaJWCdQNKrvUbYwsciaQJ7etX2TZCTDNicHpJqYhpzLgdUECT8z8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_036_066ed6495007.png)
 
 图34
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutBkxdNz1YxHDsZDE2icFJJycJBYX3pmgsZDJDhvRKVyg1mia17A81DkLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_037_8523fb6d6688.png)
 
 图35
 
@@ -604,7 +604,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 电感：图36为电感的等效电路，Rs为等效电阻，Ｃ为等效电容，Ｌ则为其电感量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTSR3pb3WtF5OErhXHNyQ3czv127AHNGjx7YGcoAyE1kWEWrcAz1YmrqQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_038_923a29a743a5.png)
 
 图36
 
@@ -622,7 +622,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 另外，电感的等效电容与电感的绕法／圈数有很大的关系，一般是圈数愈多会有愈大的等效电容，但电感的绕制可以用绕法的不同，像是十字绕法，蝴蝶绕法…等方式，用相同的电感但不同的绕法来得到相同感量但减少其等效电容，藉此来得到较佳的EMI效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutvFlZnKuyEgicNo5icbLBiaS9IWS6x3bsqfbAr9lIUW892daibnmiaGQMrhg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_039_ae76e6ad6e0a.png)
 
 图37
 
@@ -630,7 +630,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutQTjwllmOS8v75mt5gQ03o7d1DJ2MMXXOlClJlVU0SibvQncyUdqNgCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_040_80d4e80e31eb.png)
 
 图38
 
@@ -654,7 +654,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 一般开关电源的变压器皆是使用铁粉心(Ferrite Core)制成其铁心，再由线圈绕制在铁心上而成，以图39左边所示为一线圈绕制在铁心中间时，因电流在铁心里所产生的磁通方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutxP1A6T0jMwa3WUOwyRCMMBu2ShzvibPGI5U7Tfa2hzVlicyUUKPNlyqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_041_b6f51ae47f5d.png)
 
 图39
 
@@ -670,17 +670,17 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 同理，当开关导通时，初级与次级导体的电压会由高电压降低至低电压，由于初级侧的电位差比次级侧较大，因此这时也会有一电流由次级侧导体流入初级侧(如紫色箭头)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutib4mCR2MHfQlicdQyaniabnj7WiaOAIU0w1qWMiaywp3mZiaJjjxAveZMUug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_042_06e023b0a234.png)
 
 图40
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutHGSPPe3YX5eQYSgoVRLJTnfzGc7YnjH4BiceAQxlWf91ZbSia4miat3xQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_043_1ed71a0ee4e1.png)
 
 图41
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTSyfQs3Gcgiax45JR26PPHI3MVJJLN7qgkmKednGCsDDF7nL8bQNAkK6w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_044_d9e723d5ee1f.jpg)
 
 图42
 
@@ -692,13 +692,13 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 由刚才的波形可得知，MOSFET的Drain pin与二极管的A端是电压变动率最大的地方，而变压器线圈的另一边是静点（因直接连接电容，电压无法瞬间变化），所以内部线圈的电位差是由变化量最大的一端往另一端减小，就如图44紫色所标示一样，线圈愈靠近MOSFET的Drain pin或是二极管的A端有较大的电位差，而电位差的变动量随着往另一端愈近而愈小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutBG0DmLpF6OrvtYVxJEOvLLXX0f8w9Vs6picvD4b3Dxm4vylyDef5Q9Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_045_49de0534c2dc.png)
 
 图43
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutdRLtHR6oCAr8icr38rsdFR3krFW50k6p3GqxMDAJPwk28jPKiblDT1Sw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_046_f3f872c12e9b.png)
 
 图44
 
@@ -716,13 +716,13 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutoGuqgVvn1nmsjsR4hVz3icIk3DoazoHJRjuvAnCtSIDhPLxWSvkS0VQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_047_e34c785561ce.png)
 
 图45
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutIyxAzVJxleKFes4e1iapcNEPFYBSYfiaum2rSPT7LibpNuUZuHuJZUc0Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_048_94e19d84f6ee.png)
 
 图46
 
@@ -738,13 +738,13 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEut2wFIg9Lkhic6PlGUyISPeicwmckVrwCF3h3PGsj47TiaZbI0S4jJPq0Qg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_049_f90011fc58f8.png)
 
 图47
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutic9Iiambud4YOziaf6kOfNx7AQFgeAhXvO9kZEN4Yhp9E5Yj8N2WTdPcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_050_b81937b3858c.png)
 
 图48
 
@@ -758,7 +758,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
 也因为Y电容是给予初级次级侧一路径，因此连接的位置与大小也很重要，电容Xc的阻抗为1/2\*π\*f\*c，代表频率愈高时，其阻抗愈低，高频信号愈可以由Y电容流入另一侧，但决定的因素却是因变压器与布线不同而有不同差异，因对策有时需将干扰源留在内部较好，有时却是将其流入外部较好，因此不同的案子都必需对Y电容做些调整。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutqoJGHicazvBn5OIVSMibibxp5ph0A71icXZ8ibbR8bXnWG4iaeDuTlfZBQng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_051_02c51a47fcbc.png)
 
 图49
 
@@ -780,7 +780,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEutVqInuptufP74bFjjLLv6H8ibC5NnYuliarN2Hgm2U69cYa29QjicLIjlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_052_a29a962c1d2a.png)
 
 图50
 
@@ -796,7 +796,7 @@ IC的供电脚与地脚旁边通常需并联一颗MLCC小电容(0.1uF)，此电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfDERCiabf6eibJq09H7KxvTSzQTy0Iga2sGmxicHszoJhnqtUyCibnVhsY1rqzgGZ1Ribyb9BeCC72sNw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMI之传导_不得不学_images\img_053_e40bd14e140c.jpg)
 
 图51
 

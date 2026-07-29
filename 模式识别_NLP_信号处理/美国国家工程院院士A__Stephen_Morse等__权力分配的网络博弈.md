@@ -12,7 +12,7 @@
 
        作为构建理论与政策框架的第一步，他们提出了一个国家之间分配军事政治权力的网络博弈论模型，该模型为分布式资源分配博弈的静态模型。由于网络博弈论研究者一般用图表示博弈的行为者及策略，以一个静态的环境图(environment graph)代表一个具体时间点的国际环境，图中每个点代表环境中的每个国家，点之间的连线代表国家之间的敌友关系，点的权重代表每个国家的军事实力。下图描述了1914年间欧洲国家的敌友关系，这些国家在这一时期互相分配政治军事权力的博弈可以通过上述博弈模型加以研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4M1fw3UDpAnVq1uJV1BLiaF4fT5w3VcMCnsZs3OZ565cct22eZ6po0Zg/640?wx_fmt=png)
+![](美国国家工程院院士A__Stephen_Morse等__权力分配的网络博弈_images/img_000_670e02052b0f.png)
 
   
 
@@ -26,17 +26,17 @@
 
 Y. K. Li and A. S. Morse, “The power allocation game on a network: a paradox,” IEEE/CAA J. of Autom. Sinica, vol. 5, no. 4, pp. 771-776, July 2018.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4LPIwMRE48kibRUDibRKE5UeWVJSWtRE6wOKqtPn82fAJsDnbo2qt4alA/640?wx_fmt=png)
+![](美国国家工程院院士A__Stephen_Morse等__权力分配的网络博弈_images/img_001_f3d3f0f6e199.png)
 
 长按识别以上二维码或点击文末“原文链接”，可阅读全文；如需PDF，可在JAS自动化学报英文版微信后台留下您的邮箱或后台回复P1
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI48c0JjRSR8uQiaiaGMT1tgnmp2YBMVxb2VicJQQhpgOdjkib1TxW6iaVnVfg/640?wx_fmt=jpeg)
+![](美国国家工程院院士A__Stephen_Morse等__权力分配的网络博弈_images/img_002_adf6706ed132.jpg)
 
 **Yuke Li(李彧可)**, 目前为耶鲁大学电子工程系博士后，耶鲁大学2018届政治系博士生，研究方向为网络博弈论、控制论及数据分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4m6dFIOdn6p1mZgiaibqlMmicRvXCaictBGLV60PHSUJ2zKVwPhrbwF6zjw/640?wx_fmt=jpeg)
+![](美国国家工程院院士A__Stephen_Morse等__权力分配的网络博弈_images/img_003_e8314c656e86.jpg)
 
 **A. Stephen Morse**, 美国国家工程院院士。1967年于普渡大学获得电子工程博士学位，自1970年起在耶鲁大学任教，目前为达德利（Dudley）工程学教授。Morse教授获得了多项奖项，包括1999年IEEE 控制系统奖、American Automatic Control Councils 2013年Richard. E. Bellman控制奖等。
 
@@ -50,9 +50,9 @@ Y. K. Li and A. S. Morse, “The power allocation game on a network: a paradox,
 
       欢迎扫描二维码、长按图片识别关注自动化学报英文版微信公众号：报道自动化领域国内外最新研究成果，提供论文免费浏览下载，传递学术活动信息和期刊动态，即时出版咨询及稿件状态查询
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4PUE6iaL0tQwmRFG67u0LqcoqMtcgAHy5TMVR8fcRucCq3jTAyp9ooIQ/640?wx_fmt=jpeg)
+![](美国国家工程院院士A__Stephen_Morse等__权力分配的网络博弈_images/img_004_b3c7f39e3676.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4YSYEe4EJ2qUc6HJGFQ66w0rTEkpibcicLXGhU5fDC6qCtH7siaf9EnyAg/640?wx_fmt=png)
+![](美国国家工程院院士A__Stephen_Morse等__权力分配的网络博弈_images/img_005_3165d9e06fa9.png)
 
 **网站**：
 
@@ -74,4 +74,4 @@ www.ieee-jas.org
 
 **Tel:** 010-82544459, 010-82544746  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4NYTUMU2o8CURN1YK65j46iaNuk03qMJuSbaGBkn68cV9NdXJCBGoCCw/640?wx_fmt=png)
+![](美国国家工程院院士A__Stephen_Morse等__权力分配的网络博弈_images/img_006_75cab64a314b.png)

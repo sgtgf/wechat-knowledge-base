@@ -13,7 +13,7 @@
 
 以下图为例，展示的是最后一次cycle的材料分布结果。其中空白的部分，其材料密度小于0.001，所以不再显示了，剩下的网格单元都有不同的材料密度值，尤其是结构的边缘会有很多介于0.001和1之间的网格单元。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARBB3kQufeQqumVvr6jaRJuR7UhaBPFQhJ3rPEcJlnpic4V4ARGYm5EmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_000_cfca1f1f114c.png)
 
 在Tosca和CST的迭代过程中，CST是按照这些中间值对应的电导率去计算电磁响应的。
 
@@ -23,21 +23,21 @@
 
 那我们是否可以用不同的Isocut门限值去切割呢？当然可以。我们可以运行VBA Macros >> Solver >> Optimization >> Non-Parametric Optimization Settings宏，快速修改Isocut Threshold。修改后点击OK，再点击无参优化器中的Verify，此时CST会使用新的Isocut门限值进行切割，从而得到新的电磁响应。在1D Results /Design Response Curves中会记录不同Isocut门限值对应的优化目标和约束条件的结果，不需要用户手动保存对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARQqdS5THalLzLO8kUQkc6sWSLWLmpbbicicMECXMnLMl47TFNd8icxMszQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_001_ab808f95070f.png)
 
 选择不同的Isocut门限值带入计算，会得到不同的S11和Power Radiated结果，如下图所示。可以看到，提高Isocut Threshold值，单极天线的谐振点往低频移动。这符合预期，因为Isocut Threshold值越大，电流路径越短。但也可以注意到，当Isocut Threshold=0.85时，单极天线不再谐振，这是因为寄生贴片的电流路径断开了。这也说明，对于该无参优化的结果，仅通过调整 Isocut Threshold值并不足以使天线在2.4GHz处实现谐振。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARBEeVTNo4Mq6tRNetCzhO6ibwvtIU3PVTwPxzhJYxRaqla3bFEZE79hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_002_f3a0b77883f1.png)
 
 我们可以对原始模型不做任何修改，再次运行无参优化，得到新的寄生贴片结构和对应的电磁结果。这里我又运行了2轮优化，可以看到部分结果的谐振频率已非常接近 2.4GHz。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARQ47NCmf6k1AiahOocdw8ibtpzQHzwywOE5VDlsCicVALjm3lia6JpEGia4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_003_18aedc06c865.png)
 
 如果非要让单极天线在2.4GHz处谐振，还可以继续再多做几轮无参优化。不过，我们也可以换个思路：调整无参优化的目标。我们将目标频点设置为2.38GHz，但是我们评估结果时仍然关注2.4GHz。这样，仅运行一轮无参优化，就可以拿到下面的结果。从结果我们得知，当Isocut Threshold=0.7的时候，单极天线谐振在2.4GHz，其S11=-17.9dB，满足小于\-10dB的约束条件。同时，2.4GHz处的辐射功率最大，其Power Radiated=0.49W，也满足最大化辐射功率的优化目标。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoAR8rftRwiazd1lLrSGicT8AsravUqA6oSmkWv1L4dcPHiaoofqvTnQianzIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_004_b9e50c2db6f7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARFFfJVIeyCbugd1mPmia84S8W5vQlvh9tYhal08a32xRSZJC4Mofibelg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_005_da8a430df312.png)
 
 到目前为止，我们已经完成了无参优化的大部分工作，但是上述寄生贴片的结构还仅仅是停留在网格层面，并不是可以直接加工的CAD模型。
 
@@ -53,15 +53,15 @@
 
 • 导出的.stl文件将存储在<ProjectName>\_tosca\\TOSCA\_POST\\路径下。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARr3u0fZIvWoajtJoPhRwNuawXVpEtD5sfSxCQAfXPw9k7T4aYCia02eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_006_0da3af69d43e.png)
 
 将寄生贴片的.stl文件导入到CST中，并设置为PEC。由于导入的结构仅为一半，需要再做一个镜像对称得到完整的寄生贴片结构。其他设置保持不变，再次运行仿真可以得到新的电磁响应结果。
 
 我们将原始结果（矩形贴片）、verify结果（网格文件）、stl结果（CAD结构）三者放在一起对比，可以看到smooth出来的结构加到单极天线后，其S11在 2.4GHz处最小，为\-26.3dB，并没有明显的频偏。原始单极天线的实际增益只能达到\-1.078dBi，而优化后最终得到的单极天线的实际增益可以提升至4.153dBi，说明该天线在2.4GHz工作良好。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARibPXqkv37GWvibxDdB4vDInbLhZwktnc7OO1n8gas8DG6vE37PXuEWTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_007_0b0bcf229d10.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroHyYibqxTghxn4TqeoRpCoARgpyCscbcbScCUjjiakyv0ASNV3mvReskSRe4rLefm5bn3uwJr2OPryw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\无参优化器_利用CST和Tosca进行拓扑优化之单极天线（下）_images\img_008_826ba92e5d31.png)
 
 至此，整个无参优化的流程已全部完成。
 

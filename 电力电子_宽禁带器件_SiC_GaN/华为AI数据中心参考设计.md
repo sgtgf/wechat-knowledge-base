@@ -5,127 +5,127 @@
 
 文章来源：华为技术有限公司
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyMbicwf3mB3ovG44CWrUZIAIMBBVmibicFdt4eNgULFXBH1xTmBHqvtELA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_000_22e897d87a39.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyLmPBrPO4owYGZMe4dEbQgd4l3UyVbF76AUQIRRAokmTdUdSV8hRIbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_001_b8ec8b5625de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyQBNagAlcs67KtGuibZdubn70yPynp7ZpgOqSPMny89NXbXh3WvODQXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_002_83257e7bdfb6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyo4WahWpM3a9IKYqGyiaJ5mnyB0HHSEDov6tuaTD840ry8C0eK5t4SvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_003_3f6bd0a3c31f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJypAaqgrzKMX8DoRL17cLugOHy36HmxD82bFGt9XCMC8rcjtAacwKwQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_004_f407a70a5e08.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyCS14HCWyKpdcQTl7SggibNT4yNozmW6s86Gra3nfcgm3ybvF6lCLnFA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_005_70c996b2eaca.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyhB5GPWQAWUQNjto1nlkhAwvZ3atHmB9hVd3h67YIZ8naqCjCtqKdKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_006_da883d2c6169.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyUUribcSROxBm5HdfEKexIUxR5qJ2rVBfnlhibiagM8w5YDVkAqr3RficYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_007_e25e160b12ed.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyM4YxrOHPIEZ2GdBbX5m4dRzF6PaybAUmibWt37chzawG0CicXx6McwAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_008_14c5ad837d1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJypWNIk3qm0r2lH76aB5aKaXeoFKovfaXicoexFrbCJbYYVbOb55d7ESA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_009_03da5542241c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJycyf4KXfyYEF020aKK011ZeGIjialtgdejmzNQicWo2K2FYcnTRGgdQvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_010_338e5456696d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyRcU7X1ibgyNl6ePyLoGUzJxU0gic4aRicIolkQqpiataCVc9sc6S656qug/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_011_6cf348b27c09.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyqFWhfwtiaS7f0HJCsrduiaLtk6ySU3vIc0OVuq88bbFRG4hUU5fpjPicA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_012_f775be119696.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy8rbvNk2UMc8g0Iw9dy3tiaWEWrteH41HwjriaRQEkOxUe48tjE0ialfFw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_013_c40a96fdf979.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy9JiaQDwmjaxTUYSsTtszcQI6Rvr8I8OOaUxPicnBEmGvvx2ibIhKynZoQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_014_b436ee39b3fd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyHXSFZHWDf0NSqqyBH7UTYtZ2jEOsdTPSopSWg3ficFLwxMNPcV3tnbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_015_f2bc01c503f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyNNMYeU4szvUyshebxYdFdmHWqjDEattVc4dfbicfYias2fP5xicgticZFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_016_641547366124.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyNbYDGsd3T2gZMuPMQEteqHGdxsiboGnNkf0ghZk374xaCTCEXlxBicMQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_017_bdde85959aba.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy3rs8vFpjFwQcaPmzPmfjZl3AUGC1Ncic1ovUDPFNOmicApDOGWwIHgvw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_018_58cabfc1fd0d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyWpotoYZlLeI5gGfJaDibbGS4iaZtzkzyPicF4zB2RibXSLL03hQCNjyToQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_019_366d02025965.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJygfTCia7abPvZyic35Ct1hGc2nht4raI1ia3IllLBicdKXEg4ZmjfaI3SQQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_020_114778f81126.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyqyzz2hQJibqE3WZPibjDcGu9Us7XU9uV3xlKB1gLrYUCvUNzVV5aPh6A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_021_21fd26db5793.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJymsD5wLCyqobtWLoVVwqXsNricdJ3s7t6jAM5ZaD73v6teCoJtRwjbEA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_022_bdbbdf4214ea.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyldNJFPF4RXU3zenDpJKVzgxmnIhRiaee05XLJBwHEVxgfAYQTCOAojQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_023_441c806b8240.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyJCXeNyljibibtLGBU0fibNiaGVaLaU1dG4UcibpyHhwWHT1ic39oFicXDQqAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_024_0e8294ac9f53.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyPGm6F1av9jLruYNZ4rb2AaavCztJiauUWqqqaFp4IibIic3OvKF7J41iaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_025_a8a93d7e04ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy0elNErJBusbwFQMpT3e7RJsO0hDrhURb79Sb1c1gK8wicXzf7E00P0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_026_a8ef490dde8f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyDJfw9JOdaoH49icPETiaEp17J2lUWp20QlibibQ7kunN5z1lPYs9Qq8hQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_027_470af3d6b5b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyB5diaicrcgH8M86mXIPUNtMfFIssl8JRTZGzS0yMU61bdUlzGuZQy60Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_028_6cbbb4d02c5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy1cOtkU86r9D7kUAH7jIjQibkSzto2ObB0uqaW6MkNtRNtK3QFvGx30Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_029_e8063f849ce8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJybeAXk8SheTlV7QwV7jsf7VX07Ga0lu2YHSf3ZAZJJGz5rLuVAxIo3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_030_7a7775b25180.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyS3MW7e1W2icThb7O2BYszfwibnOfH4zibjUicJVj4oQcGeWnapEyJBR98w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_031_be085783ed19.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyNI8qETFbuCPd4v6dZKS1icOQNKnAJvuyulhEiczpPwAn5olHfQL0KuHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_032_c5ce7b13eadb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy8lZ7G6fwvibMLZd220Lc8WnqoDPVvn5m3ymLq9x0eTnUwCVj6hkwKSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_033_3e4efa14a657.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyZFkRF3bcXk3SkxcGJYexs7whBqfQFjlicx73nNt3Rg7fYfbLuAqK3ZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_034_80c9cbd817f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJywlCb39EmZbvrKnQ0qjbQqcyzxnpXqnSTPfFkBq0uKG62I3BGJ2AHIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_035_67160668e6e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyIKxHV0vc3ArPCgnGFjXSOXzA6j8VSL3w0kCQbfuVibQv2oD4w5h3tsQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_036_357b0e59fdf9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyw8TyAcIa8HRmibetsf19zmMIlOvT4rgRlS9evYYmRVhP5RyImby0OIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_037_87d2aa00f479.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy0xXODKRjOykywqpDeThu7wlUoiakciaogtBzaicl0NGoBkpkI9Cs59RQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_038_0b5729f69ef3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyqvp6k4toibxZR5rGPdmPDNVEmthpNQTUv12HdtPWaIH5to8yQkrsoXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_039_4e5b4bb8e483.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJygiaicpmDA7RDBXNI26rMrPLl5ZflAo6cxp6TEFYUwyGOxhqb8Z3ptjrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_040_6538cce74374.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyluexlxUZaFKtCax68VDJicQicqevzMKLmuDfO4zBJACA6KicBLrjD20ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_041_2d0bbad952a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy1Fwb4E5ias4Df8bm4jAhnmB0ZMmEhvY4tzk6Y4EiabL1QnvyvibKyNs6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_042_be59adb2726b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyJAr3BxPPTvh6unvJaK5MCoZRGjQNewrr1MLzFKuF1X90QuiaDj3H22A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_043_75cd9f24b48b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyJ3w4vVbh6jQbyicjBtyn0z4TBhKvDcXxCE8F0cA4s7Z8vMwIDkCCMhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_044_d3c69edef6b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyLicrnm1dVh4he81ghvWduU51NbmJnnYpr12ZReblzfHMncnzL5GAZRg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_045_05193a3de1f1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy0PEiazvdYFibrSX1u4FbUs42icPlQ49rfXUmG9KEq8qibZ3jDJ8joqwX6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_046_941067bef08d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyrXmXxk7twCQ7ic0vGXtW8nK3HF95JjmRHDqibCj9QdVy2aVhlPbmxeLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_047_d77dfaa2ce8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyiaRpvMUbkEkjC689RZK9N5GxJGKTlA8UCz0TqLVibhflrhjQspjaNgOQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_048_386ea8052ff9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyW0DUz1Xzc1t8v4IRCf0fkXzpllXnjfNz7VMRsbvVsEA9gOcGDNwLZA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_049_02f908f063cb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyg958AcR7QMcP1w19zGodNAEsDVjVyc6owxa2KMCXLhl2N83UfjVb8Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_050_31d90f397eee.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJynwSGjJWG0FDE17lMjtpGLv6uayJ2uCqXHVT7kbGxNJyrAfjjViaeicnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_051_32efa3b9108c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyosSp25XgAJb8eu8LOjia8t8yyF8D3pJHLNdxnWiaRY2hQCOJETiaO7ictQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_052_79dab08cc6e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyqe1nt840WypwVUqZ1kBla29Zvh3CadYy6ic39CD37amWibmOeK8o2WXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_053_05cb08367dc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy0lHvAS6wC2ZeBhn7icoGOcWvfRT1Ywk0XsDTD7OMIz4YJKzF4JgumJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_054_bfa0084532c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJylBRTH8kiaWBudSdPFM1W9jVAelOic8vQtuCiaMxYOyibALSEBay9TbrJAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_055_3d30b7c0d730.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJywbm7at83do8XL3C43aicvKnukum5K90s41pEp8QNUsiccomnBen3VkwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_056_91ea3e51433f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyC9y1hYxzzESE8ich8HEFUNefN6FMT7C53ibxp2159Dib3JdNDVmx9qZ7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_057_57980f6fcd6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyqpM5Sfj67BicR09qd5sOg9oUIeH5hCiaicqt04jzibHxZLxmArVRTjiaeYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_058_f9a08f7da874.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJy8Fda95ZAmkYC6wJ5WgJXLDog8LNhU3o4v0W4A3HlxWsDicza0jicc5rA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_059_383ab3dcd2ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZck1DJtsUNwvOJZyZOoJyWRjwZiad1SKxRLWgJJ6F9OypF6yuncKYEqLmr6QLo7OkjMV2j27broQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_060_d021bd606475.png)
 
 注：文字与图片报告无关
 
@@ -231,14 +231,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQ33WZCZcOjyiavickVdt04DBBgSI1etFPSDwRv7cKss2ffJnRjBD9gicMw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_061_6ff32ab25430.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQ34EuYreXINYRj1QTOPe5MK1fo9zYe2IOUSnEkNVhoWg2vq7jtzIPTQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_062_83f706b778c6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQPjKfz19D6kiblTD34HrTWDJ4z6qm0ib9HzjY69picCn1YjsmX73GPxEiaw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_063_95f0b89ba48a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQHtem1wN3MrqVlIE8sNvjBeglYib41kibzKJ0jvHcWt9cgdgUOZ0sJWhQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华为AI数据中心参考设计_images\img_064_89fb3b5af377.jpg)

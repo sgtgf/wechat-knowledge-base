@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/0kUM2X5UtYjIyI3E6wUHfQ](https://mp.weixin.qq.com/s/0kUM2X5UtYjIyI3E6wUHfQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziar69lkTQvhd6aqhV5eoXk7qh15aqw6VhBM4qSE0kmUYsOgZ9DviadSK7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_9_Switch___天线开关模块_images\img_000_abcb1bb22d8e.png)
 
 ____**★★★**______SWITCH-4---天线开关模块______**★★★**____
 
@@ -23,7 +23,7 @@ ______€2.___应用场景___
 
 在射频测试设备中，天线开关模块可以用于切换不同的测试信号路径，方便对射频器件和系统进行测试和调试。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZy9TjggrGWLtuu3OeP1kfDndYoVgYuKSXicvK5j9onia5EMiapgIFZbqQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_9_Switch___天线开关模块_images\img_001_31c45c76b06a.png)
 
 **_图9-1：Qorvo的QM11024_**
 
@@ -55,8 +55,8 @@ _性能指标_
 
 分集开关更注重隔离度、切换速度和选择最佳路径的准确性，隔离度确保不同路径之间的干扰最小化，切换速度要足够快以适应信号变化，而准确选择最佳路径则是提高系统性能的关键。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZJnCD6IkLSbFUYnpficBpcc3Rm4ADqhbXTw0R3W8NjUdMzcmBL19X1XQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_9_Switch___天线开关模块_images\img_002_550d707ea9df.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZy0iaGAABj9EKuB11dFxyE2XLAaqfMEaX0KTXLWfq5ib9pjYTao6DBqWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_9_Switch___天线开关模块_images\img_003_7af5d18359ad.png)
 
 **_图9-2：SKY和Qorvo的天线开关模块选型页面_**

@@ -26,13 +26,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia01T0iafYeAVUWx9dOapZsic4jer1H484XouBsFU6zpibic98ibIp1lf34qtJVA7Boibs3esQPprya87Hw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_002_3011cf4f5a11.png)
 
   
 
 这四个数值分别表示CL，tRCD，tRP，tRAS，单位ns。这个数值越短，表示延迟越低，内存的性能越好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhyWAqjMICSws4SpnAgMCJM5HuRUicU48Pgn25BnrqI2lXVdUr0Vo0uVT8btwTzQ5NZYFdYKvF0Tbg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_003_d9d5e3172445.png)
 
   
 
@@ -50,7 +50,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjziaiaY78WBhIwyNy2N9hjy9oM2RhVB5M6CVYBUpTYpKAFfqILLmzzcd0V1Jv8qeBLx2nTVsgic5ia5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_004_ec461788ea96.png)
 
 SDRAM内部L-BANK示意图  8X8阵列
 
@@ -76,7 +76,7 @@ R：row行地址编号
 
 DDR数据存储时，以64bit数据线为例，CPU每次从内存里面读取数据都是一次64bits，而内存颗粒一般没有64bit，大多为4bits，8bits，16bits。为了凑够CPU访问所需的64bits，假设每个颗粒是8bits，就需要8个颗粒并在一起，并在一起的8个颗粒就叫Rank。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhyWAqjMICSws4SpnAgMCJMh7kibCrsRryq8TRl3hBKY8wQJveQFG68Ovnw3RfSu500Q7icsnLZrRTA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_005_192bdb6acf91.png)
 
   
 
@@ -92,7 +92,7 @@ DDR数据存储时，以64bit数据线为例，CPU每次从内存里面读取数
 
 **1、tRCD**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhs8jJphWuuibGzqPyLnCHgsEGJCa1EHbYuTjYoKPEtrgkerF79g5pfWbIFlOP5bF7ELfX2nI4WibaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_006_56ebed411cfc.png)
 
 内存行地址传输到列地址的延迟时间为**tRCD（RAS to CAS delay）**，因为在行激活命令发出之后，芯片存储阵列电子元件响应需要一定的时间。  
 
@@ -102,7 +102,7 @@ DDR数据存储时，以64bit数据线为例，CPU每次从内存里面读取数
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQ8iaIufKUM36iaSicjuRF1PTayf7f0fk5DJQCJ3hAoRS4HibW7oqsK9EWL2ibWI5ibUibeCCZs8pI9G7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_007_90f89d8fac13.png)
 
   
 
@@ -118,7 +118,7 @@ tRCD以时钟周期为单位，例：tRCD=2，代表延迟两个时钟周期。
 
 **2、CL**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhs8jJphWuuibGzqPyLnCHgsZHwyeLFOxz1dwYAzVYboLdXe8QUeHN2ZgryibFUmR4cmENiap1bqSWDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_008_8c3818211aba.png)
 
 内存先确定了行，要想找出数据，还需要确定列，这时我们就能准确的找到目标数据。
 
@@ -128,7 +128,7 @@ tRCD以时钟周期为单位，例：tRCD=2，代表延迟两个时钟周期。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhs8jJphWuuibGzqPyLnCHgsxm1W7Lg55OGyJA8Vnz0hmiaViaiczIYNxsg1OyNVYYGNclRPQ3iaR7AZFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_009_ee07a301f603.png)
 
   
 
@@ -168,7 +168,7 @@ DDR2-800内存，CL=5，时钟频率为400MHz，实际也是CL=12.5ns。
 
 **3、tRP**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhs8jJphWuuibGzqPyLnCHgsPPPdTIx2kXz4MJ8LQhqFD3UbTauIRKAj5JR49toDBVNo2HIEduwLTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_010_5b6694993e64.png)
 
 **tRP（RAS Precharge Time ）**行预充电时间。假如当前寻址的存储单元是B1、R5、C2。如果接下来的寻址命令是B1、R6、C2，由于是同一L-Bank的不同行，那么就必须要先把R5关闭，才能对R6进行寻址。
 
@@ -178,7 +178,7 @@ DDR2-800内存，CL=5，时钟频率为400MHz，实际也是CL=12.5ns。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhs8jJphWuuibGzqPyLnCHgstXZV4cpvwAvFQYX6TtccIzN2VajCFaiagWeagDPBzBJJfcKiaXiaXSt6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_011_a3486cbb01a4.png)
 
   
 
@@ -186,7 +186,7 @@ DDR2-800内存，CL=5，时钟频率为400MHz，实际也是CL=12.5ns。
 
 **4、**tRAS****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhs8jJphWuuibGzqPyLnCHgsB0XiaWQQERys87Ns0R48eLCILmsYWUB06MvHz8j0HehAZzzzZicjMIxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_012_98aec85d2916.png)
 
 **tRAS**，表示内存行有效至预充电的最短周期 ，可以简单理解成内存写入或读取数据的一个时间，一般接近前三个参数的总和。
 
@@ -206,7 +206,7 @@ DDR2-800内存，CL=5，时钟频率为400MHz，实际也是CL=12.5ns。
 
 最后简单概况一下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhs8jJphWuuibGzqPyLnCHgsFw2Oic0ibHnKlSzTfZ82xWpHsNneibSqGKIvAdMhvAkE4Hd525Aw0GWMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DDR之内存时序_images\img_013_b93a69f6dde4.png)
 
   
 

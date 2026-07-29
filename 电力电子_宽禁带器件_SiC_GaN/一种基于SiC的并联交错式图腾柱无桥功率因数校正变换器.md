@@ -24,19 +24,19 @@
 
 并联交错式图腾柱无桥 PFC 变换器电路如图1所示,其中,SD1、SD2 为工频开 关管,S1—S6为高频开关管,L1、L2、L3 为三路升压电感(电感值分别为 L1、L2、L3),Cout 为输出电容(电容值Cout),Rload 为负载,Uac为交流输入电压。L1\-S1\- S2、L2\-S3\-S4、L3\-S5\-S6 分别构成3个升压单元,3个单元交错 120°工作,3 个电感电流交错 120°升降,减小了电流纹波。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrxocXblKs1kdUibVrppuMibYnvCCNxKMrBTtBy0OqKj6629stgpKMPqRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_000_a79ce743b9eb.png)
 
 并联交错式图腾柱无桥 PFC变换器共有16种模态。当交流输入电压位于正半周时,SD2 导通,当交流输入位于负半周时,SD1 导通。这里对其中1个升压单元(L1\-S1\-S2)进行分析,其余2个升压单元分别滞后于此单元120°、240°工作。1个升压单元有4种模态,具体的模态分析如下:
 
 模态1,交流输入电压位于正半周,此时SD2和S2 导通,电感 L1 储能,电感电流上升,输出电容向负载供电,电感电流以式(1)线性增长:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCr18dLxMjHiaqiacGBpGvEsvYF5fL4hadWFQbCDha0mkRQ2oA9MzZGYctg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_001_cb37e547d404.png)
 
 式中:iL1 为流过电感 L1 的电流;uac 为交流输入电压瞬时值;t为时间。
 
 模态2,交流输入电压位于正半周,此时SD2和S1 导通,电感 L1 向负载供能,电感电流下降,输出电容充电,电感电流以式(2)线性下降:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrWhruBF1xm7Mh4Ao3miaTNZZZeu8XMO8NYqw3FANE7FJEVJC7rJiaoVvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_002_277b6f70dcb1.png)
 
 式中 Uout 为输出的直流电压。
 
@@ -46,7 +46,7 @@
 
 根据式(1)、(2),结合电感伏秒平衡原则,并 假设三相交错并联参数完全相等,可以得到电感电流纹波和输入电流纹波符合以下关系:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrGz8hK6rKBdwYhy3ib92MZZTWW8lHDgtNGpCsdtXBcAVtz5GycYaKiaGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_003_795d054a9e4b.png)
 
 式中:ΔIac 为输入电流纹波;ΔIL 为电感电流纹波;D为占空比,且 D\=(Uout\-uac)/Uout。当交流电压信号位于正半周时,D 指的是开关管S2、S4、S6 的占空比;当位于负半周时,D指的是开关管S1、S3、S5 的占空比;当D\=1/3和 D\=2/3时,三相电感纹波相互抵消,总电流纹波为0。
 
@@ -56,13 +56,13 @@
 
 并联交错式PFC变换器的参数指标见表2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCraFJK4pnMuMibNUicy8hr2s2EQC58oSTaTLNCfuJRJeC75Heqv0QlIJoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_004_1671c8985b9e.png)
 
 2.1.1熔断器选择 
 
 为了选取合适的熔断器,需要计算输入电流Iac,RMS。依据最大功率和输入电压可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrLjsWCnpO4f8ytMrILC5mnGz06icxxfCVX5L8vkt92CDUrZutI620bibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_005_33cafa841bda.png)
 
 式中功率因数和效率按照最低标准计算。
 
@@ -70,17 +70,17 @@
 
 根据前文推导,可以得出电感电流纹波的最大值
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCr0gT0ibhgUibx7UOnMxGOnpwqInZxslibWvWu7qT9pEmvQtuNbchEwCwjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_006_a9dd14dd95f6.png)
 
 式中:Ts 为开关周期;L 为三路升压电感 L1、L2、L3 其中之一(三路采用相同的电感)。
 
 根据设计要求中的电流纹波系数 γL ≤10%,综合考虑额定功率和效率因素,有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCryLbPI8MdusnNKKSOJIj3MibqY4k3NUNZjZ6fOzRHDKWSz2VeiaXKCxiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_007_77d69409d95b.png)
 
 式中 Uin,max 为输入电压最大值,则
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrfRyeLv7NBtPFd8EnUyicqjRdNGUw9fU9QwWzL2WYmWdkJkt3upRvZpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_008_71cbf28acb13.png)
 
 考虑安全裕量,最终选择电感的规格为 260μH/20A。
 
@@ -88,13 +88,13 @@
 
 由于输出电压存在二倍工频纹波,所以输出电容需要满足纹波因素。由设计指标可知输出电压纹波系数γU≤5%,则有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrlLdqFnhzbt4INpO5qxbxzflm5W6VKKWTSvlQ5u9pNTyQfeIEI2kiaibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_009_cf306f42ff14.png)
 
 式中 ΔUout 为输出电压纹波。
 
 此外,当电容两端的实际电压不是纯直流电压而存在纹波波动时,就会产生纹波电流,电容选型中对纹波电流同样有设计要求,电容输出最大电流纹波
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCriaUrsTdodTx3v3ad1DibBQREsaWKTnYpxibia9Fm3icxK6U97cYbFpJTYmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_010_26e2d9d8c08a.png)
 
 考虑安全裕量和市面上常用的电解电容值,由12组2个150μF/350V 串联的电解电容组成直流支撑电容 Cout,单个电容的额定纹波电流为 970mA,等效电容值为900μF/700V,电容组的额定纹波电流为11.64A,满足设计要求。
 
@@ -102,17 +102,17 @@
 
 由于输出电压为600V,考虑20V 的电压纹波,则开关管的理论耐压 UQ 需要满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrJuFvoc6nz1pgKdPTDkAAsJu746g4gr75MMnx6Rt04r8LJUybicFicsaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_011_3b932983d6b0.png)
 
 式中 Uripple 为电压纹波。
 
 考虑1.5倍的安全裕量,开关管的实际耐压UQN 应满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrTAibBb4ahW5C2QjQcAa4iaiaNDsOJicWHLBOGKTOEHB7dZe3ibiamibvUZPmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_012_2887ca31bcce.png)
 
 考虑电感电流1.5~2倍的安全裕量,开关管 的额定电流IDSN 应满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrX7ujj2Eoe4Feic6ogNUdTfoPI0iaA7ftUxzhowM45dfu8P1OwBOyG9tA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_013_a37055e6d1b6.png)
 
 式中IL,max 为流过单路电感电流的最大值。
 
@@ -120,23 +120,23 @@
 
 2.2控制策略设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrTHnibC9PmMrfclpDcsJhV2gvptz87ZGJec4G7Hzaz5jRE2qeUgL8wdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_014_d85d91b6c358.png)
 
 图2为CCM模式下并联交错式图腾柱无桥PFC变换器的控制功能框图,其中:Uref 为参考输入电压,iL1、iL2、iL3为流经三路电感的电流。输出电压经过电阻分压和调理电路滤波后进入数字信号处理器(digital signal processor,DSP)的A/D模块,交流输入电压经过电压互感器和调理电路进入DSP的A/D模块,经过二阶广义积分PLL(second order generalized integratorPLL,SOGI-PLL)得到单位正弦信号,取绝对值后和电压环输出的乘积即为电流参考信号。采样得到的3个电感电流信号分别经过分PI调节器调节产生PWM信号,从而产生 对应开关管的开关信号,最后经过驱动电路得到SiC MOSFET的驱动信号,由此完成一次调制。
 
 为了使输入电流可以很好地跟随交流输入电压,本文采用数字 PLL产生单位正弦信号,作为电流环的给定信号。传统PLL根据鉴相器实现方法的不同可被分为2 类,分别是基于功率的PLL(power-based PLLs,pPLLs)和基于正交信号发生器 的 PLL(quadrature signal generation-based PLLs,QSG-PLLs)。pPLLs使用乘法器作为鉴相器,但其对电网电压较为敏感,这种鉴相器会引入倍频扰动,导致倍频振荡和偏移误差。所以本文设计采用 结合二阶广义积分基于正交信号发生器的PLL,正交信号发生器的结构如图3所示,其中:us 为输入的交流电压信号,uα、uβ 为正交信号发生器输出的正交信号,k为增益,ω 为需要生成的正交信 号的角频率,s为拉普拉斯算子。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrYJtkRRHP3Hlvia3rTYXuEA2ogShXJqZKYJ62hOeuucaBWMpI7JOHuMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_015_252170bbb314.png)
 
 在Simulink中搭建 PLL 模型,仿真结果如图4所示,其中:uosg 为输出的正交信号,uspll 为输入的交流信号。图4(a)所示为正交信号发生器的输出结果,可以看出正交信号发生器可在α 和β轴 输出正交信号,图4(b)所示为 PLL 的输出结果,可以看到经过约0.06s输入的交流信号 uspll 可以跟随uosg 的相位信号,满足快速性的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCr2hgFE8Fw6s4ibY7W5D6GOcRuwzLnExtze7ZMMoiazkUWZeWliaHLTKwDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_016_21f920764700.png)
 
 2.3控制程序设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrmVGH1tD8dQ6WTspiccEYOuV7GkQeTf8wgicIF5LGperSZUqMYlGiclNEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_017_99cc0654bf95.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrAkZ4CEhT3aL4aUPGumv3dGz3zSmqyvHwOddsxKp3C4MFoGqFNpEDbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_018_48049b90a8aa.png)
 
 选用 TMS320F280049作为控制器,控制程序流程如图5所示。为了方便调试和功能测试,系统采用模块化编程。主函数控制主要包括系统初始化、变量初始化、保护阈值设定、中断配置和主函 数无限循环等待中断请求5个部分。
 
@@ -144,7 +144,7 @@
 
 2.4工频电流过零点畸变的抑制策略
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrBwpxFXgtjOViarTJAkAaXwmG8bD92LpluHTLNicibsBTKLLiaWv0hypVMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_019_15aff54b09f8.png)
 
 工频电流过零点畸变一直是图腾柱无桥PFC变换器的关键问题。为了防止上下管直通,高频和低频的开关管均设置了死区,并且结合一定的软启动措施。以1个升压单元为例,关键信号波形如图6所示,其 中 SSD1、SSD2、SS1、SS2 为 开 关 管 SD1、SD2、S1、S2 的驱动信号,S 为各驱动信号。
 
@@ -158,7 +158,7 @@ t≥t3:正半周开始正常运行。
 
 2.5EPWM 模式设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrnunZ4fiaXHGibGYnKVZ9cdQoQHAyvAGUricF94Wj6GGO5cTj5ov1f0bNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_020_016c491db0bd.png)
 
 根据前文的叙述可知,过零点电流畸变对于图腾柱无桥PFC变换器相当重要,有必要对EPWM的模式进行细致设计。 模式过渡如图7所示,EPWM被分为8个模式,判断标准为PLL 的输出值uspll,以正半周开始,为了抑制过零点时产生的电流尖峰,判断阈值设定为CPZ1、CPZ2、CNZ1、CNZ2。
 
@@ -182,31 +182,31 @@ t≥t3:正半周开始正常运行。
 
 3.1并联交错式无桥图腾柱PFC变换器的仿真验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCr4xJHSqmGwVPCOaJic4dvNv8C5WIV4lLCB7UGhC3F1GyReg56a3PfiadQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_021_fd24ff1fbaa6.png)
 
 仿真参数见表3。
 
 并联交错式 PFC 变换器的仿真结果如图8所示,其中iac 为输入交流电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCr51tDw9rGUQxpjbAHsr0gSoAQB4kfm13icWqvn7auI7iaRRq6pzgB4d3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_022_a386b210ee53.png)
 
 可以看出,输入电流可以很好地跟随输入电压的相位,达到了PFC 的目的,输出电压存在2倍工频纹波,且纹波系数在5%以内,满足前文的计算和理论分析,达到设计要求。对比图8(a)和图8(b)可知,即使加入了抑制措施,轻载工况下的电流纹波仍然相对较大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrLvJ3W1bn0ico8wLH9rQtbKykIxvY2Dsm4ibQg8icnaILHCNOBPd0Y0kjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_023_68a49093f7b4.png)
 
 输入电流与电感电流波形如图9所示,其中iL为单路的电感电流。图9(a)所示为满载工况输入电流和电感电流,可以看出电感电流存在较大纹波,通过并联交错,总输入电流的纹波得到大幅减小。图9(b)所示为满载工况输入电流和电感电流纹波,在占空比为0.5时,三相电感电流交错120°升降,此时电感电流纹波为1A而总输入电流纹波为0.4A。由此可知,通过并联交错,电流纹波有明显减小。
 
 3.2并联交错式无桥图腾柱 PFC 变换器的实验分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrMBMJJYWMGIvrnLdjBgVVX9GP2icIemWyRLeOdMkfT7SKt79FjPaVDiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_024_5ed7b8c9f772.png)
 
 实验样机如图10所示,样机体积为1311cm³,功率密度5.015W/cm³。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrtZnTDMMZ5D0EtD4YicFMtPWu02t521icwgibbrrjpVYoicMic1d4vH6AMbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_025_f58f4c032358.png)
 
 首先进行驱动电路实验,给定占空比为50%的方波,驱动输出波形如图11所示,驱动输出正常,幅值为+15V/\-4V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrBXoRq7LoCgjfZKtoN2tzeial23IIpibJcP5IdwhDibVabH2Q1WV2FOyBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_026_027307529e88.png)
 
 其次进行交流输入的电流闭环实验,实验波形如图12,输入交流信号50V,带1100Ω纯阻性负载进行电流闭环实验,输出达到225V,实现了升压,电流波形可较好跟随输入电压,计算效率达到95%;由于受限于安全因素和负载原因,实验仅使用小电流作为输入电流来获取波形,以验证该变换器的控制效果。因此,输入电流iac过零点存在相对较大的纹波,在输入电流较大时采取的措施效果将相对明显,同时说明轻载工况下的软启动措施仍然需要完善。
 
@@ -218,13 +218,13 @@ t≥t3:正半周开始正常运行。
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_027_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_028_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种基于SiC的并联交错式图腾柱无桥功率因数校正变换器_images\img_029_573ddf34e793.png)

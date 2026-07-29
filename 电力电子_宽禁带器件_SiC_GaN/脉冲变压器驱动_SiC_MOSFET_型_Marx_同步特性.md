@@ -31,7 +31,7 @@
 
 SiC MOSFET 属于电压控制型器件，其驱动过程需要提供正压和负压，正压维持开通，负压控制关断，可采用单相可控全桥逆变电路来获得正负压驱动信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia6JmcQBWMzGspW02AIPTMEibuYvQbmyAPykjYIeyhWOCOPheJnpcQVSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_000_1f9a547a7387.png)
 
 图 1 为驱动电路原理图，10 路脉冲变压器采用共初级穿芯结构，其初级为高频逆变电路，由直流电源 DC，IGBT 开关 T1、T2、T3、T4 以及谐振电感 Lleakage 和谐振电容 Cr 组成。该电路的工作状态由谐振频率 fr 和 IGBT 开关频率 fs 决定，在 fs≤0.5fr 的工作状态下可使 IGBT 工作于软开关状态，减小开关在高频工作时的开关损耗，并可以有效抑制 IGBT 驱动脉冲信号的过冲。电路中直流电源 DC 输出的电压在一定范围内可调，以实现 SiC MOSFET 驱动过程所需功率的变化；谐振电感 Lr 可采用一定电感量的磁环电感接入脉冲变压器的原边或者直接利用变压器的寄生参数漏感Lleakage 来替代；谐振电容 Cr 采用多个电容并联。
 
@@ -43,11 +43,11 @@ SiC MOSFET 驱动信号经逆变电路产生，为保证每个开关管驱动�
 
 逆变桥由 4 个自带反并联二极管的 IGBT 构成，共需 4 路驱动信号，将驱动信号分为两组，每组需同时输出+14 V和−8 V 的驱动电压用于控制 IGBT 的通断，两组电压信号之间设置死区时间以防止桥臂直通而发生短路。采用TL494 芯片提供 PWM 信号，将输出的 PWM 接至 IGBT 驱动板为逆变桥提供驱动信号。TL494 的调脉宽、调频率控制电路可实现 IGBT 驱动脉宽和频率调节的功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPianocLTnOBA6xmAIOkjWdxvnzAibfUSh5Th2Cyb0wIJ1JG9MFBuHjRYhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_001_db0d02519d72.png)
 
 为实现上述功能，根据 TL494 的逻辑原理与控制方式，设计了如图 2 所示的芯片控制电路。控制芯片的供电电压范围为 7～40 V，设计中选用+12 V 电源为芯片供电，三极管 Q1 的逻辑输入为前级比较电路的输出，当前级逻辑输入为低电平时，三极管 Q1 导通，此时，+5 V 参考电压 Vref 加到死区引脚 OT，同时，Vref 电压经过稳压管 Z1 后，三极管 Q2 导通，振荡定时电容 C3 被短接，PWM 信号输出截止；当前级逻辑输入为高电平时，三极管 Q1 截止，输出死区与振荡定时电容 C3 正常工作，TL494 输出 PWM 信号，实际电路工作时，逻辑输入持续为高电平。芯片内部振荡器的振荡频率与输出的 PWM 信号频率一致，该频率受外接电阻 RT 和外接电容 CT 的影响。两路 PWM 信号的脉宽受芯片内部死区时间控制补偿器的输入电压大小的影响。本文设计的芯片控制电路中，输出控制端 ECO 引脚为高电平，作推挽输出，因此芯片内部振荡器的振荡频率为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiahx6ibvQyc4MB3c3ptLQSMyIYMv6XjA7jPzYSwX0V0L9tf9crtuXLXMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_002_8dbbfadaaaa4.png)
 
 式中：R1 和 RP6 为振荡定时外接电阻；C3 为振荡定时外接电容。
 
@@ -61,19 +61,19 @@ SiC MOSFET 驱动信号经逆变电路产生，为保证每个开关管驱动�
 
 为减少脉冲变压器次级输出电压的损失,需选用具有磁导率高、磁感应强度大、低损耗、低矫顽力等特点的磁芯材料，满足励磁电感远大于漏感，表 1 给出了四种磁芯材料的基本特性比较。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaU4wtYsXjkiaERESxgAbibibMGTFYTmIVLsXtgHsh01yQLPlgpFANMMWYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_003_eaf5e3af26fd.png)
 
 根据表 1，锰锌铁氧体和钴基非晶磁芯材料的饱和磁感应强度较低，易饱和，不适合本设计。而铁基纳米晶合金材料的综合特性相较于铁基非晶材料更优，更适合用来做驱动变压器，因此本文选用铁基纳米晶磁环。
 
 为防止磁芯饱和，输入方波脉冲的伏秒面积应小于磁芯的最大伏秒面积\[18\]。伏秒面积公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiajCAsa6NuMVBdhhPmaQVSzKcJPfVxYebdJGKBsicqnJ4V5Yo1FmaiclYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_004_6ab65762fa6c.png)
 
 式中：U1 为变压器初级输入方波脉冲的幅值；T1 为输入方波的脉宽；ΔB 为磁感应强度增量；Sc 为磁芯横截面积；N1 为初级绕组匝数。由式（2），采用横截面积为 0.88 cm2，尺寸为 40 mm×25 mm×15 mm 的铁基纳米晶磁环满足设计需求。脉冲变压器的初级绕组采用单根 0.1mm×500 股的利兹线，一次性同时穿过 10 个脉冲变压器并绕制 1 匝；为减小漏感，次级绕组采用两根 0.1 mm×45 股的利兹线并绕，分别在 10 个变压器上各绕制多匝。
 
 考虑到每个脉冲变压器的初级绕组由单根线绕制 1 匝，这对变压器的能量传递效率和初级漏感影响较大。若次级绕组匝数过少可能会出现电压无法升高的情况，因为变压器实际变比与初次级的绕组电感有关：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia04HeDlXS809tfcMCbhBib9V1SFmMytCzk4qib3ib3t3OJMraqMA2Mypkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_005_e5684700c989.png)
 
 式中：n 为升压变比；L1 为初级绕组电感；L2 为次级绕组电感。由于磁芯的电感较大，而本文所采用的穿芯共初级结构将每个磁芯串联起来会使得初级绕组电感变大，根据式（3）可分析得到，随着 L1 增大会使得实际的升压比n 变小，进而在变压器次级感应出的电压会比理论计算值低。经上述分析，脉冲变压器次级绕组匝数为 9 匝。
 
@@ -81,19 +81,19 @@ SiC MOSFET 驱动信号经逆变电路产生，为保证每个开关管驱动�
 
 SiC MOSFET 驱动过程除了提供栅源极正负压外，还需要足够的驱动功率。图 1 中直流电源 DC 的最大输出功率为 500 W，其输出的电压范围在 0～24 V 连续可调，输出的电流范围为 0～20.8 A；在逆变桥正常工作过程中，考虑到每个桥臂构成的谐振回路会有较大的电流流过，故 IGBT 开关 T1、T2、T3、T4 选用 Infineon 公司的 IKW50N65ET7，该器件耐压为 650 V，最大电流为 50 A。本文设计的驱动电路是针对 10 级全固态 Marx 发生器中的 10 个 SiC MOSFET 开关管，该开关选用 CREE 公司的 C2M0045170D，其工作参数见表 2。
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPianxicPfrt4VmicLEGmkoibUO004micctllkEnqPZZJOHMiajlQqJEGicEicGQA/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_006_010679b61c0b.png)**
 
 **2.3 驱动信号调理电路器件的选型**
 
 图 1 中，D1、D2 选用导通损耗低的肖特基二极管；三极管 S1、S2 为对管，S1 为 PNP 型；S2 为 NPN 型。稳压管Z1、Z3 选用 18 V；稳压管 Z2、Z4 选用 5.1 V；R2=220 kΩ，R3=R5=1 kΩ，R4=100 Ω。SiC MOSFET 虽为电压控制型器件，但其开通过程需要一定的驱动电流，其驱动过程主要受输入电容 Ciss 和反向传输电容 Crss 的影响。在 ton 时间内栅极驱动电压达到 Vgs，所需要的电流平均值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaUkDRcicYRFFQSiaf6ibNguav9NdY3o8492ahWsM5JyZw9SuhFh1pYXgQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_007_bef2f6fa9790.png)
 
 式中：ton 为开通时间；Vgs 为驱动电压。
 
 设漏源极间供电电压为 Vdc，当驱动电压达 Vgs 时，漏极导通，若忽略 SiC MOSFET 导通压降 Vds，那么漏源极间电压下降了 Vdc。反向传输电容 Crss 的上端电压下降了 Vdc，其下端电压上升了 Vgs。此过程所需要的电流为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaFHXTzBzmM8ebaBppgJBeUqADPf6FzthpjTbicua4amZVSeKlYf5cqXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_008_fa0a04cc1a80.png)
 
 根据前文分析，结合式（4）、(5) 可得出 SiC MOSFET 需要的驱动电流约为 0.86 A，实际设计中按 1 A 计算。
 
@@ -107,17 +107,17 @@ SiC MOSFET 栅极电阻由内部电阻和外接驱动电阻组成，当驱动�
 
 为研究驱动功率对 SiC MOSFET 驱动前沿的影响，可先利用 Pspice 软件进行初步的仿真研究。在 Pspice 中搭建图 1 所示的电路图，IGBT 开关频率 fs 为 25 kHz，脉宽为 10 μs，谐振电感 Lr 设为 1 μH，谐振电容 Cr 为 10 μF，则谐振频率：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiarC2736icCxssL60uXN8OsQmlmxtciazAT1SwHJQcdJGkibzFvD2ST8p0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_009_7072d1d0a57f.png)
 
 由式（6）可知谐振频率为 50.3 kHz，满足 fs≤0.5fr，将直流电源 DC 取值 18、20、24 V，依次得到驱动电压 VGS1、VGS2、VGS3 的仿真波形见图 3，对应时刻的驱动电流波形 IG1、IG2、IG3 见图 4。对比仿真结果可发现，一定条件下，随着直流电源 DC 输出的功率增加，SiC MOSFET 获得的驱动功率越大，驱动波形前沿越陡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiao19fia3epKKy3ouTGY4j71xERpy2YFjdYsUBuPL6ib4SXnbdxdlKibQdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_010_252d8ff4a65d.png)
 
 **3.2 实验结果分析**
 
 为进一步研究驱动功率对 SiC MOSFET 驱动前沿的影响并与仿真结果进行对比，设计了下列实验。将驱动频率 fs 调为 25 kHz，驱动脉宽调至 10 μs，谐振电感 Lr 为脉冲变压器漏感 Lleakage，谐振电容 Cr 为 10 μF，由式（6）得谐振频率 fr 为 50.3 kHz 并满足 fs≤0.5fr。将前级驱动电源 DC 的电压调至 18、20、24 V，并在该电源的正输出端口串入直流电流表，依次测量得到的驱动波形 VGSa、VGSb、VGSc 见图 5；从电流表中读取得到上述三种电压下电源输出的电流依次为 1.9、2.8、5.3 A，对应的谐振电流波形 Ira、Irb、Irc 与 IGBT 开关 T1、T2 驱动波形 Vge1、Vge2 见图 6。三种电压下电源输出的驱动功率分别为 34.2、56.0、127.2 W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaMwqCp0C8ha7qOYwsIKVMvTDfHdjOUqfvTYAYv6Oqh3Yvs5BqEassSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_011_4e0e7e663d64.png)
 
 由图 5 中前沿展开部分可知三种驱动功率下，驱动前沿 (10%～90%) 依次为 210、145、112 ns。图 6 中，脉冲变压器初级侧谐振电流过零时刻与逆变桥中 IGBT 开关 T1、T2 的开通和关断时刻基本对应，可实现零电流开关（ZCS），降低了开关损耗。实验结果表明，一定条件下，驱动功率越大，SiC MOSFET 的驱动前沿越快，与仿真结果相对应。
 
@@ -125,25 +125,25 @@ SiC MOSFET 栅极电阻由内部电阻和外接驱动电阻组成，当驱动�
 
 驱动频率和脉宽保持不变，将前级驱动电源电压调至 24 V，在 10 路脉冲变压器初级串联接入 0.9 μF 谐振电容Cr 和 10 μH 电感 L，此时谐振电感 Lr 等于接入电感 L 与变压器漏感 Lleakage 之和，为 11 μH；由式 (6) 得谐振频率 fr 为50.5 kHz 且满足 fs≤0.5fr。得到 10 路驱动波形、前沿及级差见图 7，脉宽为 10 μs；前沿 (10%～90%) 为 546 ns；级差最大为 107 ns。实验中，由电流表可知前级电源 DC 输出的电流为 1.2 A，驱动功率为 28.8 W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaTic39YAIy6GMjbC6nlHgWkuJMQic4FsU0own8hr1Vtuc8agicNz1kLplQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_012_d9c3a0dd4f28.png)
 
 不接入电感 L，在 10 路脉冲变压器初级仅串联接入 10 μF 的谐振电容 Cr，此时谐振电感 Lr 等于变压器漏感Lleakage，为 1 μH；由式（6）得谐振频率 fr 为 50.3 kHz。得到 10 路驱动波形、前沿及级差见图 8，脉宽为 10 μs；前沿(10%～90%) 为 112 ns；级差为 23 ns。由电流表知电源 DC 输出的电流为 5.3 A，驱动功率为 127.2 W。
 
 对比图 7 和图 8 的实验结果可发现，仅以脉冲变压器的原边漏感 Lleakage 作为谐振电感时，SiC MOSFET 的驱动前沿明显加快，因为在该情况下，脉冲变压器的初级阻抗变小，使得前级电源 DC 输出的电流变大，从而每个 SiC MOSFET 获得了更大的驱动功率。经上述实验结果分析，对多路 SiC MOSFET 的同步驱动，驱动功率越大，驱动脉冲前沿越陡且级差越小。此外，驱动前沿较缓的主要原因是共初级穿芯 10 级脉冲变压器的初次级漏感相对较大，影响了耦合系数，以及驱动回路的杂散参数等因素导致的。减小变压器磁芯大小和驱动回路的长度将能够获得更快的脉冲前沿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaFEpG5GDlibreCciczQdq4nuXSmAfCZIq6Aury12jbq5UA91cqG5P0HOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_013_b009c2a738cb.png)
 
 图 9 为同一频率下，调节 TL494 芯片控制电路中电位器 RP5 的值得到 SiC MOSFET 的不同驱动脉宽；图 10 为同一脉宽下，调节电位器 RP6 的值得到 SiC MOSFET 的不同驱动频率。结合上述实验结果分析可知，电路的驱动脉宽在 1～10 μs 内可调，驱动频率在 10～25 kHz 内可调。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaDkBVLzvIyZaj8iabFBFZg8hqMy3aUYTLYa7DicvVx0HL8yvibrreHaMmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_014_95252ad97d04.png)
 
 10 级基于 SiC MOSFET 的 Marx 发生器电路实验平台如图 11 所示。改变直流充电电源工作电压，将 Marx 电路中电容充电至 1 kV，在 10 kΩ 纯阻性负载下，控制 SiC MOSFET 驱动脉宽为 3 μs，调节驱动频率，得到不同重复频率的脉冲电压波形见图 12，其频率分别为 10、18、25 kHz，幅值为 10 kV。图 13 为 25 kHz 频率下，调节 SiC MOSFET驱动脉宽，Marx 发生器在不同脉宽下输出的 10 kV 高压脉冲，其脉宽分别为 1、4、6、8、10 μs。图 14 为频率 25 kHz，脉宽 5 μs 下，调节直流充电电源的工作电压，得到幅值为 2～10 kV 的脉冲电压波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiakMLf0FKcLticoaJ6thPd4bkFtfUmuCXEUfw5iaxjZNUWPcOmPzibE4aEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_015_25e22d2b400a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaW9UtatZAw3vB9mbHoEFAAGLribWcNobUeJ2W1npV3galmP6eHlw9mLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_016_964a34e8fd1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiak66a7022I7MyOHeJhOHQChMVAhClNLb7bHeycd63BARyEVib1gT0Ujw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_017_0f67870fd8ee.png)
 
 对驱动控制电路和固态 Marx 发生器的实测结果表明，本文设计的驱动电路可实现多个 SiC MOSFET 的同步驱动，且具有较好的灵活性。
 
@@ -153,10 +153,10 @@ SiC MOSFET 驱动电路的前沿和抖动会影响到其同步性能，从而�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_018_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_019_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\脉冲变压器驱动_SiC_MOSFET_型_Marx_同步特性_images\img_020_84aa944feb13.jpg)

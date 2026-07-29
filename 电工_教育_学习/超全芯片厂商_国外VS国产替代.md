@@ -12,469 +12,469 @@
 
 **MCU**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UQFaHOY2Ee7u782RW9eeIJoKibF9azic67xtlOo3Vm8swe6f09GTV7t2w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_002_7c953192714c.jpg)
 
   
 
 **计算机CPU**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UCic9m5EuW2mSVwNfy4DuIMBHiboK9ALOuvAcJLZnINibTn2MIVt6f031Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_003_4cabf446b2d6.jpg)
 
   
 
 **GPU**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UZVGhXyMkRdkqZNh5fQUDeHerEaBkSLKicaheiaZe4ztZQtm2wWBY319g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_004_6582d7d76e38.jpg)
 
   
 
 **EDA**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U54asIAZU5LdVyRpBZDJ47Qs291o7unjucn06j9TLddb0UiaVYhAARsA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_005_9bffb32e8135.jpg)
 
   
 
 **IGBT**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UqPtnOdvv8JiaFouTMAQW9AkGBBqpuJMzZ5mYkTrPUZVAPWDgNkUmD6w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_006_d297466aec0b.jpg)
 
   
 
 **音频芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UBrtuUUQricwWFpS4Ou2HR8SHxicTC3mWGQSCmYPNdibJGNJs8NNic6pmGg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_007_41a26d96fa5d.jpg)
 
   
 
 **载波芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UmWzZsiaeMVib0Wbyx5IR7yJk4WuIq7XvpibVRAdnFIe7ZiaWIaAKgRwF0Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_008_00c283f7dc8d.jpg)
 
   
 
 **指纹识别芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UeVMAdN5eEkgIaImwpibPKPXzTaWMYMhBIWZ7USvTLaMOz5guTH7o2ibA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_009_83ec4a14531c.jpg)
 
   
 
 **智能电视芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1URM1beuxXRTVydepmtYT4KZhoXE8JTicpPvpiatUubh85uMJd5ZBC7Y1A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_010_28950d8ecc67.jpg)
 
   
 
 **智能卡芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UTARPeAwN8V7Tl7ibTq3tNYg0nDS1UgpdTSfYq2DD5dgibBqG7jsG1HzA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_011_0565a19a817e.jpg)
 
   
 
 **智能音箱芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Uyv6BpNCgVR1iaEcHTIQlNYTRr5Y92ZiaibjbpWXsOncwVHdYZCwiaTMhBA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_012_0451e30a440e.jpg)
 
   
 
 **GPA厂家**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UibibmBC6rHziagniaCGbcndhvxLO0ibSvRYyEJsFDBvXdlibGAKepuFZXchA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_013_16d5c4789a19.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UzNpBf1wgQzsOLQMUMNtj77RrTOdHmAlFNE7skmhH1YAKMna6sDaszQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_014_346ff3d6c1dd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U7n8KuiagStoibYRalibwjaSXGB1wgIIzA6jZjHLican2wMM0z9wibuWx4Lw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_015_6bd3276126f4.jpg)
 
   
 
 **5G芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Uia8xhVHsy6MQFCJyBn4aekLMtPHDw2IBE3GsV09rC7e763bsdWibbic3Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_016_24f669850082.jpg)
 
   
 
 **半导体设备**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UU4SnGjdshfXhNU7LVNjw5EDmIo5JDOKc3ohN9wAGkdp44DIIhuAtdg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_017_2903c53f2522.jpg)
 
   
 
 **CMOS芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UENcoFdZlDDFqmyFUKThqvw0p62vFauDwMcsLTs5SIqmWt15kwUhjuQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_018_b123db5b1d43.jpg)
 
   
 
 **DRAM**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UeU5K6UzuUpnpofyicNU81biaAgmg3icwGrfpVt6rlgczOUyiauAgJqiaDsw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_019_7416cdc5ea4c.jpg)
 
   
 
 **DSP**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UgkanwEUYya9ibgIo8MgEHsSMT9uQTG05MnynJKfXl0AA1uLop9QIluw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_020_e7a32467ae4b.jpg)
 
   
 
 **FPGA**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UkXA7iaCQOKibYiaGxu9Q5jTuyqgcwRomTEyr215zmqDtvrO8FF6iaMAlSg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_021_c27b9f25e2ee.jpg)
 
   
 
 **IP**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U3r4XUepQuQFDWoticM50l7dEpBuZfrPlkmltIMVjibywYv1nN0qia7jnw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_022_1d279109ae36.jpg)
 
   
 
 **LED芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U5UPicJzxQRvicnSiaz9oiaFO2tA30F0riaoMPe5JG3CvHBZJ21eF2REovAg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_023_a76aa0053448.jpg)
 
   
 
 **MMIC**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UPF5GZDyH5toh9F2za1CiawBNWoH6NOibJo099zbZ3MtHJhiaBVXVpfNcA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_024_2bd2ec4c0b44.jpg)
 
   
 
 **MOSFET**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UWSGt9K8WJME95WUC9ickoRRLdI8dPKN5O2COPmHFjPy1cdrN96vznjw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_025_558a42655511.jpg)
 
   
 
 **NAND Flash**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UicfkLxjOqicK5o40w9xVKC9eRySRxy9DhibEmDJ3VibiaKkAlSYs6LM3DUw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_026_a4cf037f1123.jpg)
 
   
 
 **NB-LOT芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UCr0iaen6GKGAVKITfTX53lGy4UUKmLxjtO84dLjZ2JuFwyxqqSl1ODg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_027_78a8aacf7a23.jpg)
 
   
 
 **Nor Flash**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UGyXWVT4GKtSKSfKib1I4s9Bkxh1rNIfjyXrpbrENoUVVyRPtAEe97GQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_028_7c3dc8b17509.jpg)
 
 **RFID芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Usu5UOKTVbEIe3DWz8UiacuTUWLP0n0c2iabS2xQu3q3IXPgNbmQoHiaIA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_029_02a3ed4420a9.jpg)  
 
   
 
 **TPMS模组**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UK7IVRyxA3lWcIqiaWaxWFlTNh3BHLbpvpED0uAob7AsyGYD1VqgU9Fw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_030_ce32e17a40c8.jpg)
 
   
 
 **USB转接芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U8K89RSVQrGib2aPmyPOliaopY5BBcEPXPiallIfibKoI127IhIickdDPaiaA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_031_264ef12b8758.jpg)
 
 **VR主控芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U7juCWp2Tu74iapq4ru3Uq9rR934P4uFTkvCah2V1Q0x2zgCa5ybhAYg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_032_8d8901287172.jpg)
 
   
 
 **WiFi6**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UECPNYTe7lePwsaTjvgayHDvYledTaX2tVXUMBPzht6iaTqJYiaz8VljQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_033_3c3900e60ca9.jpg)
 
   
 
 **WiFi芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UMCAZQfxdoUEzhZeqaUibibFicMhoIicC2gSG7O5iafMwib5HKOZPA1p2RZOQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_034_61be6b605f33.jpg)
 
   
 
 **安全芯片**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UFX3TQ9CIicgNHIWGQwRLgQce1dsWNaEPej8lxBN2CZwRH5gN0WuSDMQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_035_5a423e2ded19.jpg)
 
   
 
 **半导体封测**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UqXBibB85KPXo5Jz1pajTAhdBtWvhSPibE1CQXfsuqC2qVsDB0opfv5Qg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_036_45ad17f1a342.jpg)
 
   
 
 **北斗OEM板**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UAUvl8yjrRq7B0mbT2YOicCE4mXIbFlfGhncvh9Z5OlQLGhRI0uibqibYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_037_fa20af61c6d2.jpg)
 
   
 
 北斗芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1URWGA44W4eicjaJKy3U1fFO6ZExYLYCnCLz7zYsga1yBvQvkbJ9oUMSQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_038_84dc7af48088.jpg)
 
   
 
 操作系统
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UEr55o3T6ZiaiapVXicxOvQO8kvicaiarzogibcY1p1jVpMM5uXvsf3hxHE1g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_039_6714a606f6d3.jpg)
 
   
 
 测试设备
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1ULBrJNbtnf4cNfNciaowbLFOjL0duicIhI9Wv7iafmdLa3rkZ5WbZ6nbmA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_040_6eadd18e375f.jpg)
 
   
 
 车载芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UGcIy2icc0XY5zLhibOEXoWngucicVGoictyymmSibf7fyu1RUUxfcL5UiaLg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_041_ff534740318a.jpg)
 
   
 
 触控芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U6fIuRP8EWcPe3GQWZSbiafTvrQFfR8eeNxy6YcXaddMez3x9ibwegEyA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_042_97aab92cc5c6.jpg)
 
   
 
 传感器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U8cIGMwYXiafxgNASg0DBsXUpVBw2X0SSwOqjR1aSicC2MNw9dvOjsXAQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_043_22ca013a4f28.jpg)
 
   
 
 打印机芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Uju8GxUwj7IdxPAibp5e1zeJvMmC9XRYUvjQziaU0hXxB9Q8icBFNR9yOw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_044_9a3fa9926893.jpg)
 
   
 
 电源管理
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UvBf5eTPMC1YiaUmrupUHnuSbQVNJLvNkNP5ib3IoVHExDQewwjuEUE9A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_045_4c51232d185f.jpg)
 
   
 
 电源芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UPXVEXN2fSHzW7cciceraRJoRXqf3ZsSy17kXoibLA4h0GM6DI11libNpw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_046_fe29801ad53a.jpg)
 
   
 
 多导航型基带芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UK466qFWk4iaD5ut8aC08EL08My41eOeznBryB9unvy6DH9HKsYBhhVg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_047_b7170ae2b36c.jpg)
 
   
 
 多导航型射频芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1USCMwqOM1khc7rniaOyvZlfmhuyMlTFOdsXLONA0Q4bBEDZZnL2b6prQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_048_2092a6410680.jpg)
 
   
 
 多导航型天线
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UyKz53CZ6SzHX9UA2FIzDpJhS358DEJm91Tn7jBLnXCtXut9W0rQHDw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_049_a48c3add0edf.jpg)
 
   
 
 多模多频高精度天线
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UC3iczdYr1jdVED5R7zyutOJOs0mhCHN5FJia6Qd7tDLDq3ezQhUDEbGA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_050_86b134598822.jpg)
 
   
 
 放大器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UOVjX8Gl6l1fwklnMAamEOYxG2au7iaohlAXqdnBUc9EEudbxiaO36N0Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_051_9c69ff6aded6.jpg)
 
   
 
 封测厂家
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UpesS6LI1dpRPjsiavicwzPJqGTM6eajfg82G5lt5vMg47Sj6IGNVMDKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_052_ded0075fdf08.jpg)
 
   
 
 高端电容电阻
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Uovxz875iacOiaE5g4tTmsBq1hh1NL8XUYS8uYYiaicLTxdvSRO1mylA35Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_053_2b3110b95607.jpg)
 
   
 
 高端连接器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UWGDcicHG4JQ4tB5R2z9Zo5eFP2Ie6T7ia99Xqf9OnamBnBQNMvYjDpgw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_054_cbca93c179db.jpg)
 
   
 
 功率器件
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1URujQpOIHQsGu14OvYUxpLjRXsSmicVhU26OicDcqfbmNetYmibicVx2SsQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_055_187b058de371.jpg)
 
   
 
 光模块
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UUfa5Rt9E2Xu4qeic8tRSA80fquDwAXU0iaSPvo74fXpy56dQrOgk6jyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_056_5a1153a75fbb.jpg)
 
   
 
 光芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UZhaZB4cO6AWMJU3YTJjKGV3ofOYhNYm4VhHZbLXQ1wnTzHuA41rEmw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_057_4c708e391a6b.jpg)
 
   
 
 硅晶圆
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Ub2jCG4sjqA2PLRXtuaN61icicGYJ1aYSxkhg8XABicsKF6zfiarWZH5FEQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_058_ae210516b3db.jpg)
 
   
 
 毫米波雷达
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Ue44efX3rna6xdfAvG6KV4szicKya6y7rc38PRr5Vz6YrVdnNtTEABLQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_059_d602c1dea98d.jpg)
 
   
 
 激光心元器件
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UW3IVbAQgHMyR6SNMfCiaXxvLiaAaWLoiblDA7Qv4mpJVQoK9C4WLibK0ww/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_060_cbf5e04d424d.jpg)
 
   
 
 激光雷达
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U6GbwK0FVBzkpDd3ZNEdAtwdhibdyicXhjoh7rhJAruGoNM3fCH5uRBBQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_061_d4bdd7da65cf.jpg)
 
   
 
 接口芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U5STX3VhZplZILJYc0AheCss0RARhE6UGjvvGH88D6CO7fOacdeTMqQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_062_29ff37e03b91.jpg)
 
   
 
 晶圆代工
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UvM1fKqicfDDDWNdYW3wnDbzefsNuMLxDnia7j4IIgBBYM76zjwiaHXbOg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_063_747a96cc5793.jpg)
 
   
 
 晶圆代工主要厂家
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Uib9s96Kic4G4y74IfhSqFyzSCT6iboU2KfvXL9kj50kT72tmGqmPgwFfg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_064_280adae99db5.jpg)
 
   
 
 晶振  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UmdZcZWRRC5OODBjTH5vc0GpibcY23icmfNVORJibKrqiaYslbbocdeoe7w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_065_e8d40a42b642.jpg)
 
   
 
 蓝牙芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UFy3MFwJ6x3FOHTpIIE0nND7icaxzPmWTqicqUwe1KTLNk9KRVpVZ1RtA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_066_2989b2dee9c3.jpg)
 
   
 
 蓝牙音箱芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U9v6Dc3CDp0UbB0ia9WtMMpygl7OENn28Pcia7icvnmxd5dTu4qIwficiaPQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_067_080281180da1.jpg)
 
   
 
 模拟芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UnNISodVlCddhF3aBBEDo1z4xA8EESS8uL6jKuOeJ8njZL4XxHcDV7w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_068_09257cfa9b8d.jpg)
 
   
 
 前十大模拟IC企业
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1Ux3u3LbRx88TjtBZao5N4icae8Luc7ChxATa6YVaZQ8nxLdk1XLn9Eqw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_069_340f389f61f5.jpg)
 
   
 
 人脸识别虹膜
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UNZQlcPwn8Pbr5D4tRcaGxU3CbuVyRwOsdo0TGEX5AAl9nPNFVA0IJw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_070_6e106e23c35d.jpg)
 
   
 
 商显主控
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UdPOqNicnxupENLNzqXg1lG5gw2QdC6yR4lfjOJ2UNLzmic5icXbEYX4JA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_071_f0e37cd420d2.jpg)
 
   
 
 射频芯片PA厂商
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U8Tus1Sia9ic9AAoEibfvF7cnIkzZQdicibohRlhQyw46bMNKTZpPNahBuNw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_072_32cad74df7e4.jpg)
 
   
 
 时钟芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1USoRF5H2Vz0JWozulR5fKUTlMzHuW1jYrtOtcj2Vyl5x17icXHdVR0aA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_073_aabff0d43793.jpg)
 
   
 
 视频监控芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UT9VEc4drU0IA3NMvYoTfSAYwmkTicyXLryHssHozmpO3vAqtJlV8xNg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_074_c51c9ba260da.jpg)
 
   
 
 视频转接芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UnD4HownHoicQJf77ELuZH0F2gRdasC99rQjHRd8DEdtGh2szs0Aw0Cw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_075_5a53fd423a04.jpg)
 
   
 
 数字隔离器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UicgQ6Os4SVGdek1EsGny7RA4sUMqsAg4r4l0EbTkUFhS5sWfCuz5aaQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_076_6ecb6a6930cb.jpg)
 
   
 
 投影仪主控芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UpGjrbIZicxzSjYt21J63OPNI8dicKnDqI4OvkNkXyHhnpHWEe8xHzgPQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_077_2217c3a4273b.jpg)
 
   
 
 网络交换芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1U6pXicxwCdKLrYLhyeCNok18O66t2dB85ugTeWnJHQWTia4ukpICAbavQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_078_91e2d1642ead.jpg)
 
   
 
 芯片分销商
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UbqCteBFu16f01K9cFXeVPk77Gzic9PEZrQFILBLMGux1RoPEczk9dJA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_079_53329dd4ab88.jpg)
 
   
 
 行车记录仪主控芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1ULeNFUuU6G6TTselRCBma1D9VosgoOM2QqnAhljQkUSu3bMdDUnT6TQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_080_03389eb6ecb6.jpg)
 
   
 
 液晶芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UAAD01eFnx1SciaoRtdxOtbF56IluNjEaHKqpogiaL0icicXsmeQ7z9AiaCw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_081_bf911dbee110.jpg)
 
   
 
@@ -482,7 +482,7 @@
 
 移动CPU
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eCkBcaURUAeWrls0L3FPZlE0NEC97X1UepuWR1vuU3MljlxBjkX0b9RficObszwbMnPfianq1F14Cw5a4K4oia1LQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超全芯片厂商_国外VS国产替代_images\img_082_87b6dbb9436e.jpg)
 
   
 

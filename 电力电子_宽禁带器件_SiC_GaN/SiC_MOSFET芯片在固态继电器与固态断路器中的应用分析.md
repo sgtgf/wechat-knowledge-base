@@ -11,7 +11,7 @@
 
 #### 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9icKh8jqDcfzZ1wc4YkDKsbl293Xgt0EM46SQuuJCsOkS8icCxDsQDqdjw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_000_1818463aaa2f.jpg)
 
 图片来源：网络
 
@@ -19,25 +19,25 @@
 
 **①新能源汽车高压系统**：电池包主正/主负继电器、快充继电器、电机控制器预充回路。这是当前最大且增长最快的市场。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9icMSRmic9akC5dIe5icdS5wDPnaWpM3j180TfIqbnc47KyeQqVKgQnTmwQ/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_001_d3091732d958.jpg)
 
 图片来源：网络
 
 ②高端工业与测试设备：需要高频、长寿命开关的场合，如半导体测试仪、高频加热系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9iciaIeV7kiaqonbMAMbRJgo7pkfnyLkpdckq3PkdichG6lw2d50oVPSJCdA/640?wx_fmt=jpeg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_002_287ef9a26449.jpg)
 
 图片来源：网络
 
 ③航空航天与军工：对可靠性、抗振动、长寿命要求极高的环境。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9icmG275BtfUB9XOx7KTDicL69CnGBrHmjZaDPwhMrgCTJYBLBzYiaey0jw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_003_b4682ca3aa44.jpg)
 
 图片来源：网络
 
 **④智能电网与储能**：直流微网中的快速投切开关。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9icibqJDgfuaD0sW3jeOqWRcQQWvFJhdNanG9Ib2UfibtRYxxuGIu6icIcfA/640?wx_fmt=jpeg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_004_06d46d05e77f.jpg)
 
 图片来源：网络
 
@@ -61,7 +61,7 @@
 
 **作用与定义**：一种基于功率半导体和高速检测电路的**无机械运动部件**的电路保护装置。它能在微秒级内检测并切断故障电流，实现“限流分断”。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9ic9vVVlbib17TccQ9NfDSDiaiaflHYqQuOVeKl3Qyu6UShn576rbuPPyebg/640?wx_fmt=jpeg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_005_3103a69b72c7.jpg)
 
 图片来源：网络
 
@@ -69,13 +69,13 @@
 
 **①直流微网与数据中心**：保护敏感的服务器电源和储能系统，防止直流电弧故障。**（典型案例：腾讯/阿里数据中心直流配电柜试点）**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9icHbkALu56s6rBcicZITI9ibQNNEVpBlqEdYzfdcLDiaSmnw6qByjpibnDTQ/640?wx_fmt=jpeg&from=appmsg)**
+**![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_006_04fca269364a.jpg)**
 
 **图片来源：网络**
 
 ②新能源汽车高压配电盒：替代或与熔断器协同，实现可复位、智能的短路保护。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9ichUN4mR6V406Ht7XRicOv8YsCHR0lDDFHS3IpYiabqRBrPTDdOxzYwFRg/640?wx_fmt=jpeg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_007_9ff270a01738.jpg)
 
 图片来源：网络
 
@@ -83,7 +83,7 @@
 
 ③舰船综合电力系统：特别是中压直流配电系统，要求快速保护以维持电网稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9iccZkk3VMHZF9Pfxx3zFkpQhh2V23yQENDNfez16x8t6yXS4AYibFO9icA/640?wx_fmt=jpeg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_008_09080b158ab4.jpg)
 
 **
 
@@ -95,7 +95,7 @@
 
 **④光伏/储能系统**：用于组串级快速关断和直流侧保护，满足安全法规要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9ic4COQbUoZ3fOKjicKaocia4YiablazuGicuMXX3XRtibCx1D0qxeWJk7LUqQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_009_fcaafac695cf.jpg)
 
   
 
@@ -119,7 +119,7 @@
 
 SiC MOSFET和SBD（肖特基二极管）凭借其材料特性，为全固态开关与保护方案带来了质的飞跃。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9icyYPQQIHyqS9HtMds8uWgwZibiaMfKW6OmbrxZicYc7qWtnaGeC0CsEmHw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_010_941081d86a88.jpg)
 
 注：对应的分立器件，均可提供裸芯片供应
 
@@ -273,7 +273,7 @@ SiC MOSFET和SBD（肖特基二极管）凭借其材料特性，为全固态开�
 
 ### **总结**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYj3JPDPX2FoBzFLkjYa9icaPia6MX7KB9nAvibUtNJXicT6Hts10VUxZ0ko9ic3so7doLvDF2MGicY8uw/640?wx_fmt=jpeg)
+![](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_011_8ab2a2808ffc.jpg)
 
 SiC MOSFET器件是解锁下一代**高可靠、超快速度、高功率密度**固态开关与保护方案的关键。在SSR领域，它正在彻底重新定义“继电器”的性能边界；在SSCB领域，它正从“电路保护者”升级为“**智能能源管理节点**”。
 
@@ -283,14 +283,14 @@ SiC MOSFET器件是解锁下一代**高可靠、超快速度、高功率密度**
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslTy3Iy6IZcTUdSS4RZLtFict8RFIbSylX4QXBUQufy4EibmdOkdujv9iacPoOg00sic74wNPclNRx5aw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_012_a5410395c11c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTy3Iy6IZcTUdSS4RZLtFiciciaYnveWfYicwqTxDn5crENLvbgCckcBDBrjR37AaRicIC8SK5BwPkKAw/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=35)
+![图片](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_013_be5d92a984b9.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTy3Iy6IZcTUdSS4RZLtFichAJIerPoEcl7pbIuJe1yQFxpMCdcC7AvVpyPkAHjFzjTiaw6JPdpJUQ/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=36)
+![图片](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_014_eefee98ed00a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTy3Iy6IZcTUdSS4RZLtFicr6rAyRqEeP6XiapXmic6BHlFvrxkInQ4fmo9KqURuPVG3FqpibK8xXA3w/640?wx_fmt=other&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=37)
+![图片](SiC_MOSFET芯片在固态继电器与固态断路器中的应用分析_images/img_015_533967337241.jpg)

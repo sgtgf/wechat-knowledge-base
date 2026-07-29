@@ -8,47 +8,47 @@
 
 作者：Ke Zhu, Ramanan Natarajan
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqiarNbOWGiaoL3qwicFibhQkVxcVrw0icPT86XlpttHIOXDXQeuiak9CMpc7A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_000_c82ae0e173eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqSyQtBMHjwjV5ByphhthSkkwBfaH1BUg9Ktp4M0icHnmKjzicJfFlBUeQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_001_1bbabe5b64ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqqz9icaQptG8yZUiar5c6IJbCI6nPWeQXbXwoG77nxwXTUx1Fo6Ip0x3A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_002_a4ce4a220113.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqwxOhia44xLK7je2qwFx4NEOurpicVVCe54iaFP1Zv0RiasdDTET4jwmIBA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_003_98154f850bbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqpIBow1wp8vS7UnOSt0dqSZCdvmfgVCJaMEA2gKePr1BgDhjGz3gLPA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_004_63f2f9de8807.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqXUU0dSKcoibT8zQcTOOtxDZL3iaDzdcZVED1WOuMeewYQhAB7HRRQhkw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_005_ec280f17d7f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqr1m1KjlMibibBnKiamRX63o5PWWBpkV7babSyzBjgBaG77n6R1t8zbeHA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_006_666416a5fd0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqbtF8ickcLocPwWzibicf1huFxib03EDgVYphoI5NaiatM1BUfBT5MQBZDzw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_007_fa8b9fb399ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqj87ibFLPicr42FzWic38fVSK7HVnJqEL3EvqP80DmPwZLNO18bVVvPYrQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_008_205a33aa5d5b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqia2hKpialFDQcNhibIXoHO93XdIiaMMMJIF4wqcad3sT6WoWp7mgBNYnrA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_009_6018df442d64.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqtF4bGpfQjwsr9H5yduia6Z15PnXQ11hVPicc35CDaSNQiaNEuJC7EzMZw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_010_51934dc45428.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq1a4jITKxvbWGmc3XbyNrZia6ibrCKMtvWXE4GLBOrtNrs7p5M9lNvBxQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_011_30fa96d8e558.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqgLIFhFTq2JUoo2iaeYW58H8PiaAjXYGuOicgUzRBfm5GWr6zqsAI7Ur3A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_012_4725b5ea4ce7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqoJjicCb0IYTVs3icGxAcf9Q6NtD0SpYvnP1wZAaRwrohia3opIPoStj6w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_013_596bbb561f92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqDQ1vXenW5xUwLG1tF1uJs5MMxwjN35WbVFAOcqRpCBB7yIsibMeribDg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_014_77458ce2cd73.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq5sTOic5Mvt0Jbgck8ASc2iahwdfHZMzypYXJbD38L1pl2oOyia7ZZ6gRw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_015_fca7c5e8b5d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqibOP9llQYDJOHlibYfNyia9MzJEY4CIHJdC0gaDzRNibyR0IPyOtyeE6TQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_016_f71946b89520.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqNIS9S9ibuH0eibKCqc3iamwNBCmibnfiap78MBgny0TY0EXayaMAkBmGvQQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_017_0ca49a0efde7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqSnQkKyR2Kje1APWWy6BhiaBNFqNHkP7Yq5yqjKReRvMNjBR5Rl3ibnPg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_018_fbab8f65e4a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq6kgJhQI84koOuOfvqOQt4AZQr9n4nRjHXqsHibic6rQjgicc7cpy8oehQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_019_c0a308aa55ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqFq6Yp4iackiad4QAnhOz321IsBpXpbLKicSpt3gNCYGrfeSs4f66OCw9Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET简化高频软开关设计工作_images/img_020_9b5bf5e3f85d.png)
 
 注：文字与报告无关
 
@@ -144,13 +144,13 @@ SiC MOSFET 通过低 Qrr、低 Coss 与低 Qg，显著放宽 ZVS/LLC 的实现�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](SiC_MOSFET简化高频软开关设计工作_images/img_021_a44cadd0339f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](SiC_MOSFET简化高频软开关设计工作_images/img_022_541472f5e867.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](SiC_MOSFET简化高频软开关设计工作_images/img_023_a35cb357d184.png)

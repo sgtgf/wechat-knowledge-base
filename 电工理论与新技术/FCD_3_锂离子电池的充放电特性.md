@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qXlqWhEhZqlgEmHV7V0YSg](https://mp.weixin.qq.com/s/qXlqWhEhZqlgEmHV7V0YSg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRCTxWUeibrP54IOCgxuJXUdwSQmlWXnQAfmLIdf2Bd8aLnSLUYloITaU1XheWwCiaCk9gNXPCBDVBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_3_锂离子电池的充放电特性_images\img_000_35e90d7a21ab.png)
 
  ________**★★★**______________Li-ion-1---锂离子电池的充放电特性______________**★★★**________
 
@@ -35,7 +35,7 @@ _阶段5 充电截止--->Stop_
 
 当恒压充电阶段，当流入电池的电流降至设定阈值（约为C/10）以下时，充电器IC即终止充电周期。此时电池被认为已充满电，充电完成。如果充电器IC的充电截止功能被禁用，充电电流会自然衰减至0mA，但实际中很少这样做。因为在恒压充电期间，进入电池的电荷量呈指数级下降（因为电池电压的增大就如同一个大电容器），在容量增加极少的情况下，为电池充电需要非常长的时间。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuIfnLW3dbm48XMHaLXWWBHeTAe8RBYS0LhicjKA7RY7ggBibea2MGP9Yg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_3_锂离子电池的充放电特性_images\img_001_00e953bf67c3.png)
 
 **_图3-1：典型的充电阶段图_**
 
@@ -49,16 +49,16 @@ _____€4.锂电池___容量的计算__
 
 对于mAh（毫安时）的计量单位，锂电池容量C的计算方法遵从以下公式：
 
-__![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5Ptu3ic6uib07xeHZ6ILQtJanicUgULQnNalHHKr2HxSEWoumKNpkicbtEKjsw/640?wx_fmt=png)__
+__![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_3_锂离子电池的充放电特性_images\img_002_dff69ccba216.png)__
 
 其中I为电池恒流放电电流，T为持续时长。例如5000mAh的电池，即意味着该电池可以以5A（1C）的放电电流持续放电1h，或者2.5A（0.5C）的放电电流持续放电2h，以此来衡量电池容量的大小。  
 
 对于使用Wh（瓦时）的能量计量单位，按照定义，电能以1V的电压和每秒1A的电流释放所输出的功率即为1W：
 
-__![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5PtuBeSz5FQGiarwucqAms5NFTj143kUbWKGgxiafnBGzBiaCZSJ8D7icXic1eg/640?wx_fmt=png)__
+__![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_3_锂离子电池的充放电特性_images\img_003_1034fb2293bd.png)__
 
 如果已知电池的标称电压和标称容量Ah（安时），则可以计算得到额定能量容量值：__  
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSwFK6yrvcw6oGR6lBf5Ptu0X8QVhH3ubSfxJa5CQGBmLWibyfWfFeQD4YtowK3m2licYSdVHmvniapw/640?wx_fmt=png)__
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_3_锂离子电池的充放电特性_images\img_004_0f5bf82ff002.png)__
 
 比如笔记本电脑电池额定容量为7410mAh，额定工作电压为7.6V，那么其总额定能量值为7.41Ah×7.6V=56.3Wh。
 

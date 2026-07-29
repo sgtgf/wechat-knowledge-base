@@ -27,7 +27,7 @@ Shiquan Wang, Yijie Shen, and Yuanjin Zheng
 
 出版信息：: IEEE Transactions on Microwave Theory and Techniques ( Early Access ), DOI: 10.1109/TMTT.2025.3590216 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWrPUq6ZbbnjfjURuRQbekWO3RYsr1elhzFibHkrS25XtgO9MibSQ6M37ticXibyg7DKP69wBmVicLKRhw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_MTT_基于微波斯格明子的可穿戴汗液传感器_images\img_000_242ebc3bad12.png)
 
 论文摘要
 
@@ -45,19 +45,19 @@ Shiquan Wang, Yijie Shen, and Yuanjin Zheng
 
 本论文提出了一种基于共面杂化半模等离子体斯格明子的柔性微波超表面传感器，用于解决可穿戴汗液监测中实时性、灵敏度与鲁棒性难以兼顾的问题。通过设计互补同心互联半环超结构及其镜像对称形式，在微波频段实现了半模磁性斯格明子的激发与杂化，利用多模谐振频率对汗液介电特性的敏感响应，结合共振特征集成方法，实现了对汗液体积与速率的高灵敏度、宽动态范围连续监测。部分重要图片如下（已重新编号）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWrPUq6ZbbnjfjURuRQbekW9nqIt45YV1Dm3somzCiaNh2caIGicaoXPXuwsSjfQk6SQRnDVqCmbVYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_MTT_基于微波斯格明子的可穿戴汗液传感器_images\img_001_77cb0c53ba4e.png)
 
 图1. 结构示意图。(a) CCISR 超结构，(b) 镜像对称 CCISR 超结构，(c) 等效半截断波导模型，(d) 等效蜿蜒线波导模型，(e) CCISR 超结构的平面馈电网络，(f) 镜像对称 CCISR 超结构的平面馈电网络，(g) CCISR 超结构的等效电路模型，(h) 镜像对称 CCISR 超结构的等效电路模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWrPUq6ZbbnjfjURuRQbekWJedNqkHiaE9t7uOVQ89G6jYSELLh6EWezYW5eCsIeKXqqO7XQanrrUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_MTT_基于微波斯格明子的可穿戴汗液传感器_images\img_002_ba93da07db39.png)
 
 图2. 镜像对称CCISR超结构上方观测平面和观测线处不同工作模式的模拟磁场矢量分布。(a) ma1模式, (b) mb1模式, (c) ma2模式, (d) mb2模式, (e) ma3模式, (f) mb3模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWrPUq6ZbbnjfjURuRQbekWTo1sc9jCkAorJeWK3FsvC3lNRatn6M6eawMXdAZLc79eVytVp0OjJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_MTT_基于微波斯格明子的可穿戴汗液传感器_images\img_003_bf417c7541c2.png)
 
 图3. 所制备超表面传感器的实物图。(a) 未弯曲状态下的传感器，(b) 弯曲状态下的传感器，(c) 集成汗液采集层的传感器，(d) 传感器附着于人体的实验设置，(e) 用于传输响应测量的传感器读出电路框图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWrPUq6ZbbnjfjURuRQbekW4WTdsVKQTBO4LQNdUho3yBj7H17Yibl36oTrL4RuE2vRicfLU8HEDiczA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_MTT_基于微波斯格明子的可穿戴汗液传感器_images\img_004_dc27adef71df.png)
 
 图4. (a) 显示测量的频率偏移响应与汗液样本体积之间关系的线性模型，包含误差棒。(b) 汗液速率随传感时间的实时变化。
 

@@ -12,11 +12,11 @@
 
 USB-Implementers Forum (USB-IF) 对该标准进行了四次重大修订1。它于 1996 年首次进行标准化，并一直在以更高的速度发展并允许更大的功率承载能力。USB 标准从 1.0 版开始，一直发展到 2.0 版、3.x 版，目前更新至第 4 版、USB4。 表 1 列出了从 2.0 到 USB4 的版本，并显示了每个版本的能力是如何大幅增加的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeMLb6QDnibzMxFIwDJMPkfXukZychf1jicU120g84lOPic5sLH1fLJMTJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何保护USB_Type_C连接器免受静电放电和过热影响_images\img_002_6ff2450dcb2a.png)
 
 为了处理更高的数据传输速率和更高的功率传输，USB Type-C 电缆和连接器标准已更新至2.12版本，USB-PD（功率传输）标准已更新至3.1版本。 图 1 显示了可以实现增强型 USB 功能集的 Type-C 连接器。PD 版本允许通过 USB 接口对设备进行充电和供电。 最大功率容量从 2.5 W (5 V @0.5A) 增加至100 W (20 V @ 5A)，目前已到 240 W (48 V @ 5A) 的功率范围。 更高的功率容量将为 USB-C 开启新的供电和充电应用，例如游戏笔记本电脑、扩展底座、4K 显示器和电脑一体机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeKuenXQaGser5JvsFq5SBc62NXhpXRDfhQjUvJvA0GuYib4V5dsub0yw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何保护USB_Type_C连接器免受静电放电和过热影响_images\img_003_1752a1eaa8a8.png)
 
 图 1：USB Type-A 和 Type-C 连接器。 与 Type-A 连接器的 4 针相比，Type-C 连接器有 24 针。Type-C 连接器的信号触点间距为 0.5 mm。（来源：Littelfuse公司）
 
@@ -36,19 +36,19 @@ USB-Implementers Forum (USB-IF) 对该标准进行了四次重大修订1。它�
 
 产品需要具有强大的防静电能力，以获得高可靠性。它们还必须符合IEC 61000-4-2等国际标准，才能在世界上所有地区进行销售。图2显示了IEC 61000-4-2规定的静电放电模拟测试波形，产品必须能够通过CE认证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeGr9Njhm6SHfUZqOzricSGL44ALljjgR0kyZ7PicXssjWYmic8NMMaPCKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何保护USB_Type_C连接器免受静电放电和过热影响_images\img_004_5de38e044ab8.png)
 
 图 2：IEC 61000-4-2 中规定的 ESD 测试波形。（来源：Littelfuse公司）
 
 有多种产品可用于保护通信端口免受 ESD 损坏。 图 3 显示了推荐的保护元件可以用于具有高达 100 W 的供电能力和高达 240 W 的扩展供电范围的USB 接口线路。推荐的元件是瞬态电压抑制器 (TVS) 二极管。 表 2 描述了元件技术及其各自的特性和优势。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTebx5mv2zuoIF03WhueueFob0IAPNbMwtmJroZriaPbt5pQYQvO2PHT2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何保护USB_Type_C连接器免受静电放电和过热影响_images\img_005_858e1fce7e50.png)
 
 图 3：USB 接口框图显示了推荐的 ESD 保护元件（参见表 2）。 (Littelfuse公司)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeF4ERe1A83weDmibFVawyZWzq9z4WBoplunyknljY1xXUXoaibXFrK18A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何保护USB_Type_C连接器免受静电放电和过热影响_images\img_006_32e941db002f.png)
 
 表 2：推荐的 USB 保护技术（来源：Littelfuse公司）
 
@@ -74,7 +74,7 @@ USB Type-C连接器密度高，更容易受到污垢和灰尘的污染，从而�
 
 防止过热的解决方案是数字温度指示器，其设计符合 USB Type-C 电缆和连接器规范。 当温度指示器检测到 100° C 或更高的温度时，其电阻会增加至少五 (5) 个十倍数。 本文中引用的示例元件技术是 Littelfuse 独特的setP数字温度指示器。 其特性曲线如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeMV8DY5GcKtP4ib9y2p6JVfXQibibSv1HMiac2ktOQ3GicxPj5ZP3hOCU8pg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何保护USB_Type_C连接器免受静电放电和过热影响_images\img_007_9ef69cbe76fe.png)
 
 图4：以Littelfuse SETP为例的温度指示器的电阻-温度曲线。 (来源：Littelfuse公司)
 
@@ -86,7 +86,7 @@ USB Type-C连接器密度高，更容易受到污垢和灰尘的污染，从而�
 
 温度传感器的尺寸应较小，以便能够在故障源进行检测。它还应该能够在最快一(1)秒内改变其电阻状态，以防止损坏电缆和电子元件。图 5 显示了温度指示器如何在过热故障期间保持安全的连接器表面温度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTe2x0344tibianzpCmUNczp0RYOicRC3dVJZhxROlALsiaL6wjdb9r5UOoiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\如何保护USB_Type_C连接器免受静电放电和过热影响_images\img_008_2d2e4f2d75f8.png)
 
 当温度指示器（A Littelfuse setP）用于过热保护时，连接器表面温度的较低上升比较。（来源：Littelfuse公司）
 

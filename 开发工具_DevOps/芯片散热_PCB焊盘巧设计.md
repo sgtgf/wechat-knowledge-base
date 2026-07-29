@@ -44,7 +44,7 @@ _**01**_ 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/onNTjQVjQckicKicxlCya8zr5atMlsmXmet91LiabEnIrBFuhiawYFpJbWEpWVZuMJrbObJuj0leJBZ6tqoltfuCKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_002_237d35300065.jpg)
 
   
 
@@ -78,7 +78,7 @@ _**02**_
 
 然而，这增加了PCB的制造的额外步骤从而可能增加板的成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmeYcvoj9NFm7icTccymN72FyLEmPhYUZXkHTQOKO3pPFkS761NKlw4f6w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_003_387cff141322.png)
 
 如果有空心的大孔且经过回流焊，未填充的通孔可能会被焊料填充。但是，这样会被很多因素干扰，产生焊锡芯吸从而导焊盘连接积变小引起可靠性问题，如果无法可靠接地填充通孔将会影响热导率。
 
@@ -92,7 +92,7 @@ _**02**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmel5GK88dNXVhr5bicF8SlalGSMzZgHWk7V17icmod3WbvQ5swicL5Xgiarw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_004_fe0ccdb1760f.png)
 
   
 
@@ -124,7 +124,7 @@ _**02**_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/onNTjQVjQckicKicxlCya8zr5atMlsmXme1OdpTmBH5jKoTlZvN4UP75zOqN5Fa7mtJ9ykVciaHSpwvPQPYOfCibOg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_005_140ebb14d34c.jpg)
 
   
 
@@ -132,7 +132,7 @@ _**02**_
 
 下图填充不同电导率材料的FR-4通孔的热阻分析结果表示填充了固态铜过孔会导致较低的热阻，而未填充的过孔会提供较高的热阻。填充有导电环氧树脂的过孔的性能仅比未填充的过孔好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmeGgmkXGUR2jlrVq4V8ib4JzY6OSl0AFOJmLhqgiaibu1hqibH9bRy1sbuZg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_006_eef24bd57dc2.png)
 
   
 
@@ -153,20 +153,20 @@ _**03**_ 
   
 下图仿真表示了通孔直径对应热阻关系
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmeNlMicczHaRonuYDnaWUyIMgia4XbrjPqj0stJG8JDnUUzAficCoibU5b2g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_007_17de04a04822.png)
 
   
 下一种情况考虑了改变散热通孔数量的影响，如下图所示。这些通孔是实心镀铜，直径为10mil，中心间距25mil，选择该尺寸是因为可以使用标准的电镀技术来填充通孔而无需额外的处理。（14个via是LED器件散热焊盘最大面积）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmemY4XCB8Kyj4dC1oT9Z9XiaRlicLxKiat7v1YV8jg7aju5YvHic4pWJZ2AQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_008_aef01567e07d.png)
 
   
 
 下图中显示的结果表明，增加14个以上的通孔数量几乎没有改善（这是垂直于LED散热焊盘的最大可实现密度）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmeFzLiaNvYSBL99ysxM0k1c0Vd9y9DUCzCa0E2fgRjmbuZodnknRVJKSQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_009_13d78545b47c.png)
 
   
 
@@ -187,11 +187,11 @@ _**04**_ 
   
 
 下图是FR-4 PCB，有14个直径为0.254-mm的镀铜通孔，其散热铜箔宽度别为（3.3、4.0、6.0、10.0、14.0、20.0mm）  
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmeynFwQgb7tbFxb86R3IGmP08ssnibTPgPkgLIgaM60gmTdH8SF8L20dw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_010_c053c26d3b0f.png)
 
 下图仿真结果可见随着底部导热垫宽度的增加，热阻存在一个小的差异，对于厚度为1.6mm的板，将宽度增加到12mm以上几乎没有改善，而对于厚度为0.8mm的板，则该改进在宽度超过16mm时逐渐减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/onNTjQVjQckicKicxlCya8zr5atMlsmXmeFPdrHWHlv0lBhTeP3WgqGFPASCHnLllrtqjrH3EHaldiahiaNnz4F1hw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](芯片散热_PCB焊盘巧设计_images/img_011_87829b4bafe2.png)
 
   
 

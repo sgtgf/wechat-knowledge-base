@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/k3vuWaUM2eq3kQowil\_6KQ](https://mp.weixin.qq.com/s/k3vuWaUM2eq3kQowil_6KQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvuRj6KTpVPVkZ2382GI8jXBpnv4Wtk7iaBSRiclJSLPgDNOShKR8ibS9Tg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_2_噪声的产生机理和来源_images\img_000_92a7922b7b27.png)
 
 ____**★★★**______EMC-2---噪声的来源______**★★★**____
 
 引言：噪声广泛存在于自然界，上节揭示了噪声的本质，噪声按照噪声携带能量的强弱分为功率型噪声和信号型噪声，功率型噪声持续时间短，能量强，对设备的寿命具有很大的影响，而信号型噪声顾名思义来源于信号且作用于信号，本节简述噪声的产生机理和来源。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRIaarCzwicwVPYNyGjVMnxRy4fUliamuz9MtGnFHGb7dvFAHz3HOleUvOpKWf3NIib4JXYibbOeHLNwA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_2_噪声的产生机理和来源_images\img_001_d70e2d5aba21.png)
 
 **_图2-1：噪声的分类_**
 
@@ -37,7 +37,7 @@ _高速数字IC_
 
 CMOS电路简化模型主要应用于数字IC，如**_图2-2_**所示。驱动器侧的CMOS晶体管的工作用开关简化表示，接收器侧的CMOS晶体管栅电容用接地电容器表示。数字IC通过控制驱动器侧的与信号线相连接的开关，将其切换至电源侧VDD或接地侧GND，可将信号输出电平设置为1或者0。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5up9xYg3Va7sS0sZcecOytbjrtYv7Ny0icCm3Yh83iapoznbu1DAiaUR4TQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_2_噪声的产生机理和来源_images\img_002_bc35e6237202.png)
 
 **_图2-2：数字IC简化模型_**
 
@@ -47,7 +47,7 @@ CMOS电路简化模型主要应用于数字IC，如**_图2-2_**所示。驱动�
 
 _振铃_
 
-__![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uUgMNOia8aZ6AaVdXdDFpFqVlqibQt4UUFRhZVe4FYCv5ick17NR9bbd4g/640?wx_fmt=png)__
+__![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_2_噪声的产生机理和来源_images\img_003_ee1e9b9abb0b.png)__
 
 **_图2-3：振铃影响频谱的构成_**
 
@@ -57,13 +57,13 @@ _反射_
 
 如果信号沿互连线传播时，所受到的瞬态阻抗（线末端或者是互连线拓扑结构发生改变的地方，例如拐角，过孔，T型结构，接插件等处）发生变化，则一部分信号将被反射回源端，另一部分发生失真并继续传播，这正是单一网络中多数信号完整性问题产生的主要原因，所以反射这一概念已经是信号完整性的范畴，但反射也会增加噪声。
 
-__![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uFYhCO1zEIicODlvWiaS2mmQAgnmjN49x3zWflzOG5OaTlrTAl7HTC14g/640?wx_fmt=png)__
+__![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_2_噪声的产生机理和来源_images\img_004_3db416603212.png)__
 
 **_图2-4：反射增加噪声原理_**
 
 ____€3.小结____
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQRc3UY54sicKesc68qZDYxjz7gtvbuFFeeaaU7wseRzrjHonf9I0ebEGg9V1x3lTArIIzUWzmGo4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_2_噪声的产生机理和来源_images\img_005_ff745c78dafd.png)
 
 **_图2-5：噪声和相应对策_**
 

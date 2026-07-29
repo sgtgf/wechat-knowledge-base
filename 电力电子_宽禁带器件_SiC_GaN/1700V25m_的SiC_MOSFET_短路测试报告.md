@@ -9,7 +9,7 @@ SiC MOSFET 凭借着耐高压、耐高频、耐高温等独特优势，应用在
 
     目前市面上大部分IGBT都会在数据手册中标出短路能力，大部分在5~10us之间。而大部分的SiC MOSFET都没有标出短路能力，即使有，也比较短，例如英飞凌的CoolSiCTM MOSFET单管封装器件标称短路时间是3us，EASY封装器件标称短路时间是2us。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkreib2pRiaulic6PFpPUaNgIv4QaPpicEb0Fdbt05tZfkbVMUicywmEqjMab8ribaKGV1NCAIVB8zDy1g/640?wx_fmt=png&from=appmsg)
+![](1700V25m_的SiC_MOSFET_短路测试报告_images/img_000_54036283caee.png)
 
                  图片来源;英飞凌半导体
 
@@ -45,15 +45,15 @@ SiC MOSFET 凭借着耐高压、耐高频、耐高温等独特优势，应用在
 
 **3、短路测试拓扑如下：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkreib2pRiaulic6PFpPUaNgIzeHlP4FCnvibP67ic9ylnszebSFnA8C3xEdUW0hXmJmhGk7Mvgo6JTrw/640?wx_fmt=png&from=appmsg)
+![](1700V25m_的SiC_MOSFET_短路测试报告_images/img_001_8418cbb4e57c.png)
 
 4**、**短路测试数据:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkreib2pRiaulic6PFpPUaNgIvfzPrJOuCdsPWCSevryticZQa1Bnl0xbObm4WAiaQGybtxDV38eqaj9g/640?wx_fmt=png&from=appmsg)
+![](1700V25m_的SiC_MOSFET_短路测试报告_images/img_002_ee3e4cd2e3a6.png)
 
 **5、短路测试波形：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmkreib2pRiaulic6PFpPUaNgId7y89O7EfgwibnD8fIGCTPcwaacb3MdPtCU0UO6umHAKDekBjk9WSKA/640?wx_fmt=png&from=appmsg)
+![](1700V25m_的SiC_MOSFET_短路测试报告_images/img_003_7ae14092603e.png)
 
 **6、试验结论：**
 
@@ -63,8 +63,8 @@ SiC MOSFET 凭借着耐高压、耐高频、耐高温等独特优势，应用在
 
 SiC MOSFET短路能力设计还要考虑耐压、损耗、寿命等多种因素。可以设计一个损耗极低但没有短路能力的器件，也可以稍微牺牲一点性能，使器件具备短路能力，从而提升整体系统的可靠性。选择哪一个方向，使器件最终呈现什么样的性能，都是针对目标应用权衡的结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1700V25m_的SiC_MOSFET_短路测试报告_images/img_004_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1700V25m_的SiC_MOSFET_短路测试报告_images/img_005_3ade3c3d8599.jpg)![](1700V25m_的SiC_MOSFET_短路测试报告_images/img_006_84aa944feb13.jpg)

@@ -25,7 +25,7 @@
 
 雪崩测试是功率器件可靠性的关键测试，而非钳位负载开关电路是功率器件在系统装置应用中所能遭受的最极端应力情况，直接反应了电力电子器件在实际应用场景中承受瞬态过电压应力冲击的极限耐受力，因此非钳位负载开关测试作为一种典型的雪崩测试方法被人们广泛接受。根据国际电工委员会（IEC）IEC−60747−9−2007标准，典型的非钳位感性负载测试原理与波形图如下图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxtVFkIbcibiaamOibFQa3ls3clDdVzB2dHr69rNzJz8EcfbWYexRpPCVmg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_000_292f52712811.png)
 
 2 . 测试平台系统设计与硬件实现
 
@@ -35,15 +35,15 @@
 
 因此，所构建的实验平台基于以上原则设计，其整体功能组件框架图如图2所示，主要包括了SiC MOSFET功率主电路和栅极驱动控制模块两部分。其中，功率主电路由高压直流源、母线电容组、负载电感、待测试器件、同轴电阻与电流电压信号采集示波器构成，栅极驱动控制模块包括了信号发生器、光耦隔离器、驱动芯片及供电电源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxkyNDufmFmDn4dRAbsapd1HUia1mnXlO2rjtMWKnrCO1DDbNBNI4icTAA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_001_a5954fb1b8f3.png)
 
 结合下图3详细描述实验平台的工作原理。设计母线电容组作为储能电容，用于提供器件在雪崩过程中所需消耗的能量，同时确保在雪崩过程中母线电压保持基本稳定，并且能够一定程度上提供高频电流通路。母线电容的储能过程选择用高压直流源对母线电容组充电来完成，当充电至测试电压后，通过关断高压电源与母线电容组之间的断路器，以此来保护高压电源系统的安全。测试开始后，母线电容的能量对负载电感充电，当功率MOSFET切换至关断状态时，由于负载电感上的电流迅速降低，在器件源漏产生的电压大于其击穿电压，使得器件进入雪崩状态，直至电感能量释放彻底才会结束雪崩过程。该过程中，采用同轴电阻用于精准测量功率MOSFET的漏极电流信号Ids，并用电压探头测量漏极电压信号Vds及栅极驱动信号Vgs，并由示波器采集并显示。栅极驱动信号确保器件的准确开启和关断，由信号发生器产生的控制信号，经过集成了电气隔离、电流放大和稳压功能的栅驱动PCB板产生。辅助电源为栅驱动PCB供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxkMicI49CAbic7ibbu8szl1KUlpcdib4Snl49jSo9xfQJDM3zVN9fmECu8g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_002_fd91f0ada3f1.png)
 
 实验平台的工作流程如图4所示。首先通过硬件调试使平台能产生正确的栅极驱动控制信号；其次，制定合理的测试计划，需要根据器件数据手册进行脉冲宽度，测试电压等初始测试条件确定，并开启第一次雪崩测试；最后，通过波形分析器件是否发生雪崩失效，不断调整脉冲宽度，进行雪崩极限电流和耐量值的测量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxK55xTOWZ3BtqAOyEWEQxmicqKwVBLTiaZ06QtX8ia9J2gW4Amxsvj5PTA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_003_9069cb97961f.png)
 
 2.2   驱动控制模块设计方案
 
@@ -55,37 +55,37 @@ SiC  MOSFET虽 然 在 器 件 性 能 上 相 较Si MOSFET拥有诸多优势�
 
 如图5所示，本文采用的是Silicon Lab公司的Si8261光耦隔离驱动芯片，其具有供电范围宽、隔离电压高、延迟低、轨对轨输出等优点，不仅满足控制电路与驱动电路之间3.75 KV的电压隔离，同时实现4A的驱动电流输出能力，能够良好的满足SiC MOSFET的开关需求。通过VDD与GND侧的旁路电容设计，可以防止供电电压波动造成芯片损坏以及屏蔽高频噪声干扰。设计基于稳压二极管的外围电路来辅助光耦隔离芯片实现−5 V的栅极驱动电压，该辅助电路设计简单，无需额外的供电电源，但驱动地和功率地之间必须隔离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlx8tAktKz5tTPvHgnWLDibSt6j9BTx0uqXI5ZzcrDjPUWSrC0A96NvvvA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_004_e5f053a7f46a.png)
 
 光耦隔离芯片的电源设计如图6所示，分别采用隔离电源模块F2424XT-1WAR3和线性稳压器LM317L对辅助直流电源的24 V输入电压信号进行隔离，并生成稳压单路电压信号。F2424XT-1WAR3的输出电容是1 uF，LM317L稳压电路的输入电容和输出电容分别为0.1 uF，1 uF。在输出端与调节端放置两个电阻Ra、Rb，其中Ra电阻值为240 Ω，两端的电压为参考电压Vref，其值为1.25 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxPm0xcuPBWu5JTKQFSXcfAAtovWrwCdT2ibR0tFkT4KwRQce1Q1qcPTQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_005_2c296df9af7c.png)
 
 根据以上公式可知，通过调节可调电阻Rb的值 可 以 得 到 稳 定 的+24  V电 压 作 为 隔 离 芯 片Si8261驱动芯片的供电电源。同时，根据实际需求对外接可调电阻进行调节还可以满足多种开启电压的器件测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxoCzwDB6fWmhXNR3jjNp8wWcnn39nsjuNAhCgTdSSvd1EFxP7nHbN7A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_006_84cfb6553114.png)
 
 2.3   功率主回路参数设计与仿真
 
 本部分首先构建了功率主回路仿真电路，如图7所示，C1为母线电容，L1为负载电感元件，R1为同轴电阻，待测器件为英飞凌公司生产的型号为AIMW120R060M1H\_L3的SiC MOSFET，其SPICE仿真模型来源于官网，包括了传统的电学模型三个节点：源、漏、栅，以及热模型两个节点：Tj（结温）和Tc（壳温度），并将Tc壳温度通过电压配置器（25 V）设置为25 ℃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlx6eWttIFgTRwD7ejAVJsA6mnCSjNAz4LMktmTIuBKk6tMVyzcpqkhDA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_007_b7ad7dc53263.png)
 
 如上图所示，本文采用的是同轴电阻与待测器件串联，以此准确测量器件漏极的电流响应，来自于T&M Research公司生产，型号为SSDN-015，最大脉冲能量为1.5 J，基本上能够满足常用功率SiC MOSFET器件发生雪崩带来的能量冲击。因此，为确保设备安全，对母线电容组的初始充电能量提出了最大范围要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlx4jY5Cesxa4EGUjvEJfySIjxdyJEgGicDlrPaQLbUYtfiakZGiaiatnRoJw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_008_7ace4b6c1d14.png)
 
 如上公式所示，母线电容的总储能由高压电源设备产生的电压和电容元件容值属性共同决定，而且常用SiC MOSFET器件的雪崩可靠性测试对母线电压的要求并不是很高，因此出于对高压电源设备的安全考虑，确定提供给储能电容的两端电压为100 V，根据公式计算，母线电容的容值要不超过300 uF。对母线电容为50 uF、100 uF、200 uF、300 uF四种不同规格进行了LTSPICE仿真，对比如图8所示，表明电容容值越大，电感充电过程中导致的母线电压降低幅度越小，即母线电容的电压稳定性更好。因此，本平台采用300 uF的母线电容规格。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxcr1xFDaxE4177eWSOmbicWM9zahp8Y9JZquBtrJhodO98ibEenz7ecpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET_雪崩可靠性验证实验平台研制_images\img_000_73c6ec3f95e9.png)
 
 寄生电感是影响功率器件动态特性的一个至关重要的参数，其存在于功率回路中虽然无法消除，但应该尽量做到严格控制。因此，在本实验平台搭建过程中，利用LTSPICE研究功率回路中的寄生电感对雪崩测试波形影响，其等效电路原理图如下图9所示，考虑了母线电容以及器件栅、源处的寄生电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxUzKJ5IcZD8dUWk9gQGbFEoS4YQIy6RVV6TJQomJ47h2Okennl0iciblw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_010_de3070701ba3.png)
 
 仿真结果如图10所示，回路中的寄生电感会在器件源漏端产生瞬间大电压震荡，严重影响了雪崩可靠性测量。因此，本文中设计母线电容时，选用6个50 uF的薄膜电容并联，来降低回路中的寄生电感，并且为了排除高频信号干扰和稳定直流电源电压，额外并联6个0.47 uF和10个0.12 uF的电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlx7IXuP4dWmJ33QzkfZH3uepel8BdpvxYnvTChRnEKKV0sWj5dCRYvnQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_011_ff222e5ad0d8.png)
 
 此外，相比母线电容以及待测器件的寄生电感，PCB板上各种元件之间引线的寄生电感占回路中寄生电感比重更高，是减小回路总寄生电感的关键。本文中采用耐高温、大电流的老化测试夹具作为转接基座将测试器件连接至PCB板上，并在位置布局上考虑尽可能靠近驱动芯片，与母线电容组的连接上采用叠层母排结构的连接引线，并且采用电源与地平台布局来缩短信号路径，通过以上方法共同减小引线带来的回路寄生电感。
 
@@ -95,7 +95,7 @@ SiC  MOSFET虽 然 在 器 件 性 能 上 相 较Si MOSFET拥有诸多优势�
 
 最后，对PCB板进行DRC设计规则检查，直至所有引脚都正常连接，代表版图复合原理设计和工艺制造要求，成功通过DRC设计规则检查的PCB板如图11。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxicm8U7GNVa6BmPia8xzDLfsic4JibWB6VbjbaEkMbibtg545TicIhGgyKib3Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_012_c18934bee801.png)
 
 3  .实验平台测试验证
 
@@ -103,13 +103,13 @@ SiC  MOSFET虽 然 在 器 件 性 能 上 相 较Si MOSFET拥有诸多优势�
 
 栅极驱动控制模块是实验平台的关键组成部分，其功能是为SiC MOSFET器件提供开关驱动信号。因此在实验平台开发搭建过程中，首先需要针对驱动控制模块产生的驱动信号进行实测验证，如下图所示，示波器在负载MOSFET器件的栅极捕捉到了电压脉冲信号，高、低水平分别为+18 V、−5 V，与实验平台的设计需求保持一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxIhU9ZiajdsLJNRQ2rSgQwvgGibmicpOlcZWQwabXNRsaH3VnFR014X0VQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_013_52ebefe5b6b2.png)
 
 3.2    测试平台实例验证
 
 搭建的SiC MOSFET可靠性验证实验平台实物如图13所示，接下来将以商用功率器件作为实例来测试平台的可行性。采用的实例来自于目前在商用功率器件领域中居于领导地位的英飞凌公司，型号为AIMW120R060M1H，额定电压和额定电流分别是1200 V、36 A，且满足车规级行业标准，是一种新能源汽车领域的典型功率器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxcia2sRlfbgT85wYgjh9ljIM3g7koNKt1Pqf3oFuRdFGO5icuqdEvIR2g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_014_93aa923a25c3.png)
 
 为准确测量SiC MOSFET器件的极限雪崩电流和能量，通常是采用逐步增加器件导通时间的方法进行多次测量获得的，且每两次测量之间需保持一定时间间隔。基于本实验平台的工作流程（图4），器件雪崩特性测量的具体步骤如下所示：
 
@@ -127,11 +127,11 @@ SiC  MOSFET虽 然 在 器 件 性 能 上 相 较Si MOSFET拥有诸多优势�
 
 图14（a）为器件在不同栅极导通时间下的雪崩特性测试。器件开启时，电感电流按照一定的斜率正向增长，随着脉冲宽度的不断增加，达到一定的峰值电流，当栅极关断时，快速降低的电感电流导致的源漏间电压大于其击穿电压，使得器件进入雪崩过程，当器件电流无法减小至0，器件无法正常关断（图a绿色曲线）。图14（b）、（c）分别展示了该器件在失效前最后一次测试和失效后的典型电压电流曲线，完整地展示一个功率半导体器件发生雪崩失效的全过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxjNy3Tiaj2yY1We8y7b8grfn2HfLxwFo4ZE2t2S0jib3yVDlnweALqicdQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_015_9542216369d6.png)
 
 基于该平台，本文还研究了感性负载大小对器件雪崩峰值电流、充电时间、雪崩持续时间和能量的影响。图15所示呈现了负载电感的值从3 mH增大为12.3 mH的波形变化，达到同样的雪崩峰值电流大小（Ipeak\=10 A），随着电感从3 mH增大到12.3 mH，电感充电过程中的电流增长率明显放缓，需要更长的器件导通时间完成电感充电，发生的雪崩过程中，明显电流减小速率变缓，整个雪崩持续时间变长，源漏间电压更低，器件承受的雪崩能量增大。因此，负载电感的大小会影响储能阶段回路电流的上升速率和雪崩阶段回路电流的下降速率，从而改变雪崩持续时间、雪崩电压和雪崩耐量。因此，在对不同产品的雪崩性能进行比较时，需要准确了解其测试所用的电感大小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxVjl3Ia0CCQZT3th1DWhOHBWSopyf4Z6jqCJ2votq5Eia4Q3yvh8F5CA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_016_beac55f60e63.png)
 
 以上实验结果说明，实验平台具备了在不同脉冲宽度、不同电感等条件下对功率SiC MOSFET器件进行雪崩参数测试的能力，符合设计要求。基于其可开展SiC MOSFET器件雪崩可靠性测试与研究的平台能力，以工程问题为导向，强化工程实践，构建了面向工业级SiC MOSFET产品的真实研发测试场景与环节，为学生提供工业产品综合特性测试的教学实训内容，加强学生对国家卡脖子关键领域的产业认知和提升解决复杂工程问题的能力。作为工程设计、制造、测试、分析研发全流程的重要一环，工业产品综合特性测试成为了面向工程类专业学位研究生开设的实验实践类高端通识课程、省级研究生优秀课程《高阶工程认知与实践》的核心基础模块，连续两年应用于该课程，服务研究生共计1200余人次。《高阶工程认知与实践》致力于通过构建多学科交叉综合认知实践教学平台，开展并强化工程类专业学位研究生对基本工程技能和复杂工程系统的综合认知和创新训练。
 
@@ -141,10 +141,10 @@ SiC  MOSFET虽 然 在 器 件 性 能 上 相 较Si MOSFET拥有诸多优势�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_017_318ead5d55de.jpg)
 
    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_018_3ade3c3d8599.jpg)![](SiC_MOSFET_雪崩可靠性验证实验平台研制_images/img_019_84aa944feb13.jpg)

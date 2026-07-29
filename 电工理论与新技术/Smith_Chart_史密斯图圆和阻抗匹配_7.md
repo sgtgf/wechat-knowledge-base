@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ISVtk6kLxh-7cjvPI17Mdg](https://mp.weixin.qq.com/s/ISVtk6kLxh-7cjvPI17Mdg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSrfKib8AibPT9IcfgAInIag1icQt1SXwIWicUvK0ZOpcBNvQSGW0JRxoHjP0OvvKjjmxqtQIz71J50xA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_7_images\img_000_5c5d508fc3b6.png)
 
 _★★★__SMC-7---Line____**★★★**___
 
@@ -13,7 +13,7 @@ ___€1.___短路的Tx线路
 
 短路tx线的阻抗和导纳为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ3Y6iaEQhP32QS1OIRfoxjJc1iczDSiaQzxEtSDicCxVkSO3h7OEjBRicQJnTbtqmvnT0So1XvhDTyLEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_7_images\img_001_1e4ba8222bab.png)
 
 从上式可知，我们可以使用短路线（长度L小于四分之一波长）来产生感性阻抗，也就是说，对于0<L<λ/4，tx线将具有Re\[Zin\]=0和Im\[Zin\]>0。
 
@@ -23,7 +23,7 @@ ___€2.___开路Tx线路
 
 开路tx线的阻抗和导纳为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ3Y6iaEQhP32QS1OIRfoxjJCZ0aNHEibPLRk8Z7IR63mSBrsHwWJ4PuFjKIVnzbfNzWfsvOuicJeGLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_7_images\img_002_2dfaed995fa0.png)
 
 从上式可知，我们可以使用开路线路（长度小于四分之一波长）来产生容性阻抗，也就是说，对于0<L<λ/4，tx线将具有Re\[Zin\]=0和Im\[Zin\]<0。
 
@@ -33,17 +33,17 @@ ___€3.___与并联传输线的阻抗匹配
 
 首先找到点y1，它位于恒定的SWR圆上，它与Re\[y\]=1恒定电导圆相交。该值y1可由公式计算得出y1=1+i\*1.571。接下来，我们在史密斯圆图上测量y1和yL之间的角度，从而确定所需的传输线长度，该角度可以使用量角器或使用史密斯圆图外缘上的角度刻度来确定，图7-1示意了整个过程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfsISEy9t3fia7ibIXdktyhO8bqmDYKpsia46NCaSNwQsR3u56L57T3BicnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_7_images\img_003_af234e1b7ebe.png)
 
 图7-1：确定与Re\[y\]=1圆相交的传输线长度
 
 使用阻抗匹配与tx线的公式（1λ=720°），我们可以计算出71.57°角对应于大约0.0994λ的线长。从图7-1所示的点y1出发，通过并联电感y\_sc=-i\*1.571将导纳移动到史密斯圆图中心。在本节中，使用并联短路tx线来实现这一点，使用上面的等式\[1\]，我们可以得到线长：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ3Y6iaEQhP32QS1OIRfoxjJmcddrhdSt2gcV2BKNK0u9aAQ3gq9kic1O8BsRGCFVfNhNS82IELWq3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_7_images\img_004_780edcd270e3.png)
 
 因此，可以使用长度为L=0.0902λ的短路传输线来产生电感，从而抵消y1的电纳，该阻抗匹配网络如图7-2所示，最终阻抗y2等于1。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLMsHNtpqyhVrVySu1mXamM92EtwaNxWgxViaC9pIuS6Gc3k3zu6tt0jFcnguPeGWUOMHjSlxbjjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_7_images\img_005_7a5952b8f994.png)
 
   
 
@@ -51,7 +51,7 @@ ___€3.___与并联传输线的阻抗匹配
 
 负载yL使用匹配的传输线所采取的路径如图7-3的史密斯圆图所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfRibibg3hlkjxplnSrotB9uoib60aTs0XASbqK4yQ86NoR4JfxT9CwQDag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_7_images\img_006_367aa7955b99.png)
 
 图7-3：与图3的网络对应的阻抗匹配路径
 

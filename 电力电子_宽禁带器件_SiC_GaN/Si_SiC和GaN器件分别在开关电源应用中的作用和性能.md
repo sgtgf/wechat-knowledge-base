@@ -7,45 +7,45 @@
 
 作者：Francesco Di Domenico  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyyKq6dCu2WBzeT0vMicFn09A9ZsS1ufOibn9DM3Z9ud6EaBsfSg7jgC9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_000_ab7571cc2b1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFysAAadicTsoMeEoHIu7k6WNBKSBMQ7e2fHZ3nnJ6icUVSnMIx5LDwqibBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_001_c9d9f2944690.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyynUQTkpKLK5vsCwiaHZziaPK2tG2srmvnuwhu3icJeublrUEVyWGjBkRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_002_be28c5852028.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyHKiacSWiaga8zrJsj4H3kBiblibvUyPIib1WRJf89h9SyFZ51ibJBDn9AW2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_003_56e9973bcb0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFygClTEORPMgJWhDUOicjWowMJjqj8ricnwgEB0pBXPuNr0ZeAcKz2ppRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_004_39621aea4702.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyXohPQCZjibONoz6Jco9yqQthe6YQfHtULxPnCic4yqT2icBSYNgkoaJEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_005_b3ac5ea90651.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFy8MsJWIKlXAmQhp9ibSrqndCIqL4NgGwgRZzO3a3ibib4dFd8VIXEeJ35Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_006_3553be7bdf16.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFytUauicJ5HBmiaAm8W6VVcjkpfvDiaN33ibXeZULTcHJgyg4IuxsJxqoU3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_007_0f38b408e293.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyh7PYchlBic9iajso0fhytRX17CfBWrORV45SwmxUJhfn78UjJ3BqmSTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_008_d5cf196c5873.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyB1s6ryDvr5Lo4KudCru3ibyMVEvzjeqEJvJVmbibpBnhaFxtSuZpqJmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_009_fe3d5d852502.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyK8fRv9AEJPJ25hqZ5fqicXibV4yiarAgibyvKPKjMDyno1WnxLNUN2zKKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_010_6cef0d63e67a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyqOTH7zxtYJ3ia1I6Vdc99wMxhKC5dic6IiaMrkiashdcydSZj9QveS4mug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_011_6eef27e8e065.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFymL6ATa1Mkrk8XFtAPicWaY2aOsBicHBdGV3KBk3Sd4NBGWvEUib0VBBuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_012_b66336317ba6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyhUgyZnfnt6Ru4lSe5CDMoibHcibyp6WXYSfLUKCkSqibu7eRCSw5UR9TQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_013_b296d45d879f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyvEVhibCensflK6KrxtgU5Jhz1AHseFC3MicG2hvGwLs4C9o4VrZZYleg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_014_b7ce2f616cbb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFy8DpqL7w9YhgN6tfOwuXmoZnCF5p6IX31wvPGNsVTdubCS9WJtuC36g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_015_ea00ac99f7bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyb6mkLjyayDzjv7UNKCeAvwYCHNO1jEcYqibsIY1ctIaMMum5g8CjK9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_016_af2513c25003.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyk9b4aZ1IDO9x17fepAicQLdGgiavHHjuibdnftPlsI5RPQnVO8UU8SocA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_017_68fcafa60bae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyM4W0VUjL43d1wNs4flYwaqRUb4TgZOAL81ric1ZTaxo86PePyThU5QA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_018_e8b680f56a8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyLJHADV3IuPRicEc2WskGJGqmlq49np1JExtZWj48j6uNQ1JxUFsQTuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_019_709f1eeef17f.png)
 
   
 
@@ -69,7 +69,7 @@ Si 器件是目前应用最广泛的开关元件，核心类型为**Si MOSFET（
 
 Si 器件的性能特点由传统硅材料特性决定，核心是 “技术成熟、成本低，但高频 / 高压 / 高温性能受限”：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyueoicVs3m3tsUf7q7K2cuxNPuIKq4Dyq9FrWKr9uRzldsdfzdxjZurg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_020_7b64e6ae1bab.png)
 
 ## 二、SiC（碳化硅）器件：高功率 / 高压场景的 “升级者”
 
@@ -89,7 +89,7 @@ SiC 是典型的**宽禁带材料**（禁带宽度 3.26eV，是 Si 的 3 倍）�
 
 SiC 器件的核心优势是 “高压、高温、低损耗”，但成本较高：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFy5micz3gMIkMfPY6fDSyTw3WWo8ib5LbcPPuIO4dXEMnV1geCYUmDZkVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_021_4b2489e51d4f.png)
 
 ## 三、GaN（氮化镓）器件：高频 / 小型化场景的 “革命者”
 
@@ -109,13 +109,13 @@ GaN 也是宽禁带材料（禁带宽度 3.4eV），核心器件为**GaN HEMT（
 
 GaN 器件的核心优势是 “高频、低寄生、小体积”，但击穿电压和可靠性仍需优化：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFye2Xs3Imv3wuSGYY68VcwY1QVQiaD5BYL5eFP7qOpp91jNwYlfN7aLLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_022_e30e875d4989.png)
 
 ## 四、三者核心性能与应用场景对比
 
 为更清晰区分，下表汇总三者关键差异：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyhEbdvib0D0mibJxOP2qMHLAwCRp4SPX3GWaewibcnxicZ2tTJqHaL35gXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_023_5cadd0f16d16.png)
 
 ## 五、选型建议
 
@@ -138,13 +138,13 @@ GaN 器件的核心优势是 “高频、低寄生、小体积”，但击穿电
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLajSjKoq5KKOOj5q6lpJr0YHx1NrpMwWMSHJQ9JOBz4v4PFy3GGGnRA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_024_cfac0476b0b1.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLXg6jMIwNflPNFGSic9L7Cgo2a76d4VgibxRiafh9zicQR00mdugribaLH2w/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_025_50dca2bd5690.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLPNtsiaz96jdBf5QqvfeTKupmL3fBu8d5j9Om0TWGAPGPDd6cE9QNGkw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC和GaN器件分别在开关电源应用中的作用和性能_images\img_026_b5c001b861c6.png)

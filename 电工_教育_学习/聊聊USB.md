@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiap0WWGTXX3iaKiaROPqb9smuS2nSwBfkuuHekLnia6xkXcmzEUvGK6yT9luzmdqP8MezoDxKODJ1ic9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_002_61cd28b2381b.png)
 
     在人类的历史长河中，很少有一种技术或者传输标准能像USB那样跟我们的生活息息相关，甚至到了没有不行的地步。
 
@@ -24,7 +24,7 @@
 
     这些接口种类多、个头大，占用了主机相当大的空间，并且必须得安装驱动才能正常使用，这样不仅给用户造成了很大的困扰，还阻碍了电脑往小型化发展。在这种情况下，人们极其渴望有某种接口能“一统天下”，取代那些用起来非常不爽的接口。于是乎，随着PC硬件的发展，一种适用性广、传输速度快、软件配置简单的外部接口——USB就诞生了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiap0WWGTXX3iaKiaROPqb9smuENfYFR9vWlwt8WV26hNqnPCTSZGylkpic4Wzq5AJBibZZYm809az3zdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_003_01a118665620.png)
 
 ✦1 老式主机背部接口
 
@@ -32,7 +32,7 @@
 
 其后，1994年到1995年USB协议尚处在试验期，并且在此期间历经了多个先行版本。1995年Intel公司内部一支负责USB标准研发的小组率先生产出了第一块支持USB的集成电路板，这个小组的重要成员——Ajay Bhatt也因此被称为“USB之父”。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic77ofvpMHCDcORBHQoZPdpNPwrWXmIOkfwgYZNozAicPv2FiaiavAiaJkRUQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_004_e010b70745d5.jpg)
 
 ✦2 Ajay Bhatt
 
@@ -48,11 +48,11 @@
 
 Intel也在其主板芯片组上不断加强对USB的支持，这些都为日后USB的普及铺平了道路，也是从此时USB开始逐渐被人们所接受。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic74HA4n1Dd5sVASgjB15muCOmc0xibZrEoRWw6Kw87Uib6yQQU58sjEicYQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_005_df9ec1665c13.jpg)
 
 ✦3 USB HUB
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7LC09Ramoe8ECIgG9O8YlUsebWJXX9twwPmw2ribtox2VXTiaVUdoHczQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_006_47676f1dab83.jpg)
 
 ✦4 iMac G3的USB接口
 
@@ -68,7 +68,7 @@ Intel也在其主板芯片组上不断加强对USB的支持，这些都为日后
 
     为此，在USB2.0标准制定后不久，一个名为USB On-The-Go的补充标准就诞生了，它对于原来的USB2.0标准只是做了一点点改变，主要增加了主机协商机制，这也是为什么我们看到的USB2.0接口有5条线，除了2条电源线和2条数据传输线，另外一条就是用来协商究竟谁来充当主机的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7GY4picQiaK3syNjdViaUs7JfVZqBcibB3CRfVgdjqCDxsQkU10IILKNSvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_007_ebdae88e270e.jpg)
 
 ✦5 OTG应用
 
@@ -80,7 +80,7 @@ Intel也在其主板芯片组上不断加强对USB的支持，这些都为日后
 
     从USB2.0到USB3.0的跃进不仅体现在速率的提高上，由于兼容设备越来越多，人们对USB的供电能力有了更大的期望，因此USB3.0的供电电流从USB2.0的500mA提升到了900mA，并且伴随着单独发布USB供电标准。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7I3aiccJgx5fbfdcnViaoaiaaWDhBtia5XZgj9tepvqgTibOFRlhibTBfBBfw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_008_d80c7edb2c93.png)
 
 ✦6 USB3.0连接线横截面模型
 
@@ -90,7 +90,7 @@ Intel也在其主板芯片组上不断加强对USB的支持，这些都为日后
 
 　　需要注意的是，USB3.1分高低两个版本，低版本USB 3.1 Gen 1实质上就是曾经的USB3.0，而高版本USB 3.1 Gen 2才是新推出的能达到10Gb/s的真正意义上的USB3.1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiap0WWGTXX3iaKiaROPqb9smu5M2VD9pALMgc935q4OtOUricUTrjkkOpCcN2607KANFibzW56Xqfc18w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_009_68cbd101af56.png)
 
 ✦7 USB历代标准
 
@@ -120,7 +120,7 @@ USB4的新特性如下：
 
 **6. 可以向后兼容过去的协议**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7RoPYSBPW6Q9BRYdXZk2VEicHFicdxa1RFZWlPFZpHsKRF4GDvhq0MSeg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_010_bac8127b1156.jpg)**
 
     USB4可兼容USB 3和USB 2的设备。也就是说，它可以向后兼容到以前的协议标准，不过USB 1.0和1.1就不支持了，目前市面上还使用这种协议的设备已经几乎绝迹了。
 
@@ -138,11 +138,11 @@ USB4的新特性如下：
 
     但是接下来的Type-C是个特例，它果断抛弃了以往USB接口的形式，不仅将接口做得非常小巧，美感十足（我相信苹果MacBook选择它这就是原因之一），而且可以正反插，从而使我们彻底摆脱了USB一次性插不准这个世纪难题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7pOBJNVuWSch8zJSILReH7xTKUiaM8f84FS71rCNPpwF4RV4ntr5JIJA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_011_103aac66f2e3.png)
 
 ✦8 USB 10类接口
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7E8hkVGfvmicj5oGWFCGN7hl8ibjf2FKSGwgjjS3ufp5lTLSfogWOH1mg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_012_bffbd0d74187.jpg)
 
 ✦9 MacBook Type-C接口
 
@@ -156,7 +156,7 @@ USB4的新特性如下：
 
     USB HUB还有一个好处就是可以增加连接线的长度，USB2.0连接线的最大长度只有5米，如果中间连接上5个USB HUB，那么最多可以延长到30米。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic78jQKRgozMa11BfArBK7AFG0NLxOicYvPUmfpBYHlQM1Sq63x3g8tKow/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_013_65dbe2cee449.png)
 
 ✦10 USB拓扑结构
 
@@ -164,11 +164,11 @@ USB4的新特性如下：
 
 　　第三点是使用灵活方便，USB设备既可以通过USB线连接主机，也可以直接插在主机上，另外，USB2.0之后的版本都支持OTG功能，这意味着USB设备之间也可以互连，例如数码相机可以直接与打印机连接来打印照片，手机可以从U盘读取各种文件，从而大大拓展了USB技术的应用范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7hE8xic0IcJzv8rI6t4e7BQBgicOqCnBQ6uibXtd15BX3CpykSSWwYnDBw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_014_024e29e13b80.jpg)
 
 ✦11 OTG打印
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7kK0q5XibErg3WQpFHoRZFR9kwySnJw5aEkiaDnC1MoibQoyuH6ibGAdmUQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_015_96f6429fd2b6.jpg)
 
 ✦12 手机读取U盘文件
 
@@ -176,13 +176,13 @@ USB4的新特性如下：
 
 　　第五点是成本低，在数据爆炸的今天，不乏各种高速接口，但是相较于其他接口高昂的专利费，USB真的是我们这些普通百姓的福利。其实当初和USB协议同时代出现的还有FireWire（火线），FireWire的速度一直甩USB好几条街，可最后FireWire还是被淘汰了。其中最大的原因就是FireWire本身成本太高，因为它需要在计算机和外设上安装自己的控制芯片，在早期，使用FireWire这一名称还需要向苹果缴纳授权费。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7xQHiaTsY1ZJgbtTJxzDwQEN7xESj1FwQiaHGhQGYnFyibpOrSibuN4gibiaA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_016_a36e2e4cb121.jpg)
 
 ✦13 FireWire（火线）
 
 　　第六点是提供电源，USB设备既可以由自身提供电源，也可以通过USB线缆由主机提供电源。为应对人们对电子设备功耗和续航力的需求，USB的供电能力在逐渐增强，USB3.0的电力供应从USB2.0的5V/0.5A提升到了5V/0.9A。不过这还不够，USB-IF还专门发布了电力供应规范——USB Power Delivery，其最新版已经将供电的允许标准提高到了20V/5A，这可真是手机和充电宝的福音了。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7AVfbAzCJh2ib9tjQmwcJ1ibjnRHVfl2zTiariaPSamcRPSkAkBlmc5gyzQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_017_d4463679245a.jpg)
 
 ✦14 手机充电宝
 
@@ -194,7 +194,7 @@ USB4的新特性如下：
 
     另一个是高带宽需求，图像时代的来临对传输带宽有了更高的要求，这也让我们不得不重新思考怎么才能让主机和设备更好地连接，USB是一个理想的选择，它不仅拥有高达10Gb/s的带宽，而且USB标准扩展的各种设备类可以让众多的图像传感器直连USB主机，实时的图像传输变得非常方便。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9cib56RROibfrT4RCjA5dicic7ceISdYW5ozIpaIL6CYc7CCCV3vibxyc0kYKNnOibAia27tc36ibmk3HHTg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\聊聊USB_images\img_018_1e0e151ad9ea.png)
 
 　　USB从一开始就承载了人类赋予它的使命，每当时代召唤，它总能挑起重任，一步一步朝着更快、更方便、更简单统一的方向勇往直前。它的出现是人类的福音，我们需要它，正如我们需要太阳一样。作为一名USB开发者，我由衷地赞美它，祝愿它越走越远。
 

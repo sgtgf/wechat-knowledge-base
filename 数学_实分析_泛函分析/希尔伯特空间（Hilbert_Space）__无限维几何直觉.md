@@ -5,7 +5,7 @@
 
 # I 概述
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuu1sEBM40ibpyCYVVpZGAhqbcqPEn4X3xbOJIN5JsxdSniblibw10POL2QbxN6H1fuygquQN9YfnpiahOeS9aYN7DIXWMAlogtIDg/640?wx_fmt=png&from=appmsg)
+![](希尔伯特空间（Hilbert_Space）__无限维几何直觉_images/img_000_3df1e335098e.png)
 
 要将“希尔伯特空间”（Hilbert Space）解释得通俗易懂，同时又不在概念上妥协、保持泛函分析与拓扑学应有的理论严谨性，我们可以将其看作是**线性代数与微积分（分析）在无限维世界中的完美联姻**。
 
@@ -56,7 +56,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocufaUu8QrEEibibwHlrYlbkplZcnianHbNyjfNO5FsTLSg2UBIawS4RqzOH9lcQ09DfKlrW2H7MFNBy5ZHgg7PnicDibJVMem5Y4yYM/640?wx_fmt=png&from=appmsg)
+![](希尔伯特空间（Hilbert_Space）__无限维几何直觉_images/img_001_ae24f2e138c2.png)
 
 这张图在讲一个核心观点：
 
@@ -104,7 +104,7 @@
 
 # 二、第 1 部分：舞台——向量空间
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctrvO54ckpLPSkXtNLibwcAJliabLNZnglJjeEUE0LicuhJV07GS22ynxBRwqwmBuR0JibtqP9cWLAfOxgk7stkX2GuIxb1TlyIl5I/640?wx_fmt=png&from=appmsg)
+![](希尔伯特空间（Hilbert_Space）__无限维几何直觉_images/img_002_3a0ac305afe5.png)
 
 图里第一大块写的是：
 
@@ -208,7 +208,7 @@
 
 # 三、第 2 部分：几何——内积
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocst82ibdjDu4VFGdV1lFU8xFMYQbkX6vgfsTicQIMQGOdlpPTJeCtcu2liaeuwmfnZD3ibLxa9YGf9VF8pic2od1lgs3MxmRZBCA994/640?wx_fmt=png&from=appmsg)
+![](希尔伯特空间（Hilbert_Space）__无限维几何直觉_images/img_003_53cf6d591861.png)
 
 图的第二部分写的是：
 
@@ -351,7 +351,7 @@
 
 # 四、第 3 部分：拓扑——完备性
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuNGwfrTgz2sugiafBfqOkLcF2mNAdftoYgicicE49O0cMHjSJnTaXMQ0nYHf4IdgMVCfpPDrloQyA4tmE99eIiaooUhSIB7sm3hDM/640?wx_fmt=png&from=appmsg)
+![](希尔伯特空间（Hilbert_Space）__无限维几何直觉_images/img_004_60fffe5e5ae6.png)
 
 图里第三部分写的是：
 

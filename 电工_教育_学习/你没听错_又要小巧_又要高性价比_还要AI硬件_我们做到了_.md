@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/jtqGFF2pgkvmEixA3DNBmQ](https://mp.weixin.qq.com/s/jtqGFF2pgkvmEixA3DNBmQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")  
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_001_9011be9decf6.gif)  
 
   
 
@@ -12,7 +12,7 @@
 
 不得不说，这两年AI真是火得不行，几乎啥地方都能用上。客户那边要求也是越来越高，功能要多，东西要做得小，价格还得压下来，这话我好像说了很多次，但现实确实就这么卷。关键还得自带AI硬件能力，对我们研发来说，挑战真不小。
 
-所以今天，专门给大家介绍触觉智能推出的这款搭载RV1126B芯片的核心板，连带配套的评估开发板。它到底有多小巧？直接上图给你们感受——整个板子放我手心里，还没一个巴掌大，可以说是小身材，大能量！![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqNmu5SDeaddI4tMLbfFicczgJRpl1MLJ5cmEk2hm7ZaiaByyictKNYibgBMqcbPsiaeicQTqcJAHq8qbA/640?wx_fmt=png&from=appmsg)
+所以今天，专门给大家介绍触觉智能推出的这款搭载RV1126B芯片的核心板，连带配套的评估开发板。它到底有多小巧？直接上图给你们感受——整个板子放我手心里，还没一个巴掌大，可以说是小身材，大能量！![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_002_0381f5ffbd3f.png)
 
 关注【硬件笔记本】与【深圳触觉智能】公众号，凭截图联系触觉智能客服，购买此开发板可享粉丝专属立减100元福利！
 
@@ -32,7 +32,7 @@
 
 ### 这套EVB1126B-V1开发板采用了一种**核心板+底板的设计**。核心板把RV1126B芯片、内存、存储这些核心部件都做扎实了，稳定可靠，直接拿来开发或者做产品都行。底板上该有的接口也配得挺全，摄像头、网口、WiFi&BT都有，还带一个扩展口，接4G模块什么的很方便。整体就是为AI视觉项目准备的，该有的都有，上手就能用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRXQM2mRuOrBBLCTiaYucDs5Y11Qn9gSmLeia214QkSSaty1iaCYhr9SDYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_003_24d00f9cefc5.png)
 
 ### EVB1126B-V1整体图片（图源触觉智能官网）
 
@@ -46,13 +46,13 @@
 -   **满血配置**：边框尺寸为40mm x 40mm，别看它小，内存DDR、存储eMMC、电源管理芯片PMIC，这些核心部件一个不少，全部精心布局在核心板上，是一个完整的最小系统板。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRH8VU8OAR56ZKtPdPtAriaTvj3fo1jan8l6W9XiaN4wxpumjVKfibVJwBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_004_a75f13bf540c.png)
 
 EVB1126B-V1正面
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRLuoTXgQOPNwRjQ7gR0bXhomBhnR8xNJKiaoRXyhgUERx3UXsxj92VXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_005_caa8db0dfadc.png)
 
  EVB1126B-V1背面
 
@@ -67,11 +67,11 @@ EVB1126B-V1正面
 
 开发板尺寸为120×80mm，布局整洁，光看这外观就**很有科技感**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRU4IzLrnouq58dwGooeyVYVT0p9pBJTVC7PLib1pkibp5pd0hrgiaOoxibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_006_2f00570d1c78.png)
 
 产品正面图片（图源触觉智能官网）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRnSdjGawUiassHunZQetddNib3XgRyd7p2klic1cJGFG86RJtRpuBFKucg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_007_21bc29194748.png)
 
 产品背面图片（图源触觉智能官网）
 
@@ -88,67 +88,67 @@ EVB1126B-V1正面
 
 尽管这一区域总长度只有120mm，但接口丰富、布局紧凑。这种双层USB接口和侧立式HDMI针座的设计，有效节约了空间，让板子在有限尺寸内实现了更强的扩展能力，选型考虑得很周到。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjMK9tZhBTGchltvRH4oIotsTB3icEIwKfymlQGb4DGFyFicpsmF5o1Skg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_008_872facd432ae.png)
 
 ## 对外海岸线接口
 
 在电源入口的设计中，我们可以预留两个0Ω/1206封装的电阻位置。当遇到RE测试不通过的情况时，可以将其替换为共模电感。这种设计细节非常实用，也为后期的调试优化留出了灵活调整的空间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjnGBKNv2DUyTUUBJ3oiczK36YnbqzYwCjXpXV1BaUX3l89ORvzrtVJHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_009_c38e2da4b75f.png)
 
 ##   
 
 主板上集成了一组2x10x2.54mm规格的扩展排针，提供了电源、I2C、UART、SPI、PDM、CAN等多种常用接口资源，方便咱们用户快速进行功能扩展和调试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjtNPMojO0xpicIoknJsqUHdgsuOAVbq2FKibnVw4OR7hxzFr4uEjKehWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_010_ca17b6129a82.png)
 
 2.54mm间距排针
 
 基于信号质量的考虑，在信号线上串联22Ω电阻可有效抑制信号过冲与振铃现象，从而改善信号完整性。此外，采用贴片式排阻有利于节省电路板空间，也能提高生产效率，并降低整体成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjDuWGqECE0vP8TD70XoSibibkuDyM7rDSdbFfShIFwKJX1K5CBLruAqQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_011_207578123e6f.png)
 
 贴片22R排阻
 
 板子背面有清晰的引脚定义丝印，这个设计细节解决了咱们调试中的一个常见痛点，彻底告别了以往因忘记引脚定义而在软件、工位间来回奔波的低效情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjYIPnrQfBFDicaxP7XTUom4RGWEpd7GmHdCuSQRcLHZEdicy8D75ia3tbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_012_7441c7bf3771.png)
 
 板载四个FPC插座，其中左侧两个为4-Lane MIPI CSI图像输入接口，紧接着为CTP接口与一个4-Lane MIPI DSI显示输出接口。配套摄像头模组支持即插即用，可快速实现图像采集。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjtKWEJwmCibBo0poQn0WtCll3am5IcWKkMTDVTEnQ42Gjq1v2FGQ2HMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_013_18da6ea29609.png)
 
 MIPI CSI和DSI接口
 
 放大看，可以看到一个1x4x1.25mm的米白色立式针座，这是两路MIC接口，其清晰的引脚定义极大方便了接线。旁边是一个2x4x2.0mm的米白色立式针座，定义为FSPIO接口。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjcz9mXp9PliadL9kD7J3Kxic3uJnPYltvicavs5Sg9B9aO5UGmwqIKMtDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_014_b199d870aaf7.png)
 
   
 
 板子背面也能清晰的看到引脚定义。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjWlfcJIdrSkkdTqWLGapwrYfTF1VwbwPygVpGPFJ5cxwib4bG0vZbZicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_015_19dae71b03f1.png)
 
 左侧为IPEX接口的WIFI+BT天线连接器。右侧依次为：一个1x4x2.0mm的米白色USB接口；一个1x2x2.0mm的米白色SPEAKER（喇叭）接口；以及一个1x2x2.0mm的红色FAN（风扇）接口。红、白配色设计有效防止了线缆误插，这一点很细节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjJzdptntrTxF4fbf8o5s9TvIDeRBDQ4ZKOSHhBSScUVZkwbJu65yyRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_016_17dd295e7c55.png)
 
 关于天线的设计，这里大家可以抄作业。这是一个实用的天线输出匹配电路设计方案：通常在信号路径串联一个电阻，并在其左右各并联一个电容。这两个电容可以根据具体的设计要求灵活取舍，为兼顾不同需求，建议在PCB上预留它们的焊盘位置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjwicZYA349s1icibY6YpCLhMiaqmtft6LxzENFGhTMIJTMmeZtSTzLy0a6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_017_3851eeb2de51.png)
 
 主板通过标准Mini PCIe接口扩展蜂窝网络能力，支持4G LTE与5G通信。兼容的4G模组包括移远EC20、EC200T、EC25及广和通L718等通用型号；5G模组则适配移远RG200U-CN。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjIgCFSspk1WRsKibXDabS23AzpNzqIl0jvnhjnqz6SZcAUgAPhOKXEjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_018_0657ae5f5a40.png)
 
 板子背面集成了两个按键与一个SIM卡槽：左侧为Recovery KEY，右侧为Power KEY，中间是SIM卡槽。插入SIM卡后，开发板即可接入移动网络，实现上网、数据传输及远程通信。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjJ8Oh5URs1ro9k1yr7ueUCGH7fRHU3z3WR0EvTBcrK4vkjlWIQSjv1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_019_9bf7a50fd690.png)
 
 在设计上，SIM卡槽接口同样配备了ESD静电保护管，延续了整板对接口防护的重视，确保了该接口在插拔和使用中的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbj67pMnS4S32niaDIAiaKr1Hf7SzN4ibgiaCLec3CHn1SxXV9fAoErFrK6wA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_020_b52cb9f21564.png)
 
 **所以，这块板子接口非常丰富，通过底板可以轻松连接核心板这个大脑，让你快速验证各种功能，大大缩短开发周期。**
 
@@ -160,7 +160,7 @@ MIPI CSI和DSI接口
 
 #### **咱们直接来看图片，平台具备强大的系统兼容性，支持包括Debian、Ubuntu和Buildroot在内的多种操作系统，为不同应用场景提供了坚实软件基础。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgB46iafJPkmINPbibWtpNDbjBQrib4WPHCEqTRKvQqu87dV5BAfup2sNAVh402Xtc1PtX1NB0ibnoBlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_021_2719d923ec3c.png)
 
 **1、开箱即用**：板子预装了Linux系统，拿到手通上电，跟着教程十分钟就能跑通第一个摄像头demo，成就感满满。
 
@@ -192,49 +192,49 @@ MIPI CSI和DSI接口
 
 配齐了12V电源、7寸MIPI屏、摄像头和多路AHD转接板这些常用件，现在搭这个芯片平台测试起来更方便了！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8Ccav9LgIycQ3BfB4Q6w60ibaDV1mTrHIy3KYrqWr2lnFpFYOBia1EPkrXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_022_979af35fe947.png)
 
 这个搭配了IMX415摄像头和转接板的方案，除了能在触觉智能的RV1126B（EVB1126B）开发板上用，也兼容RK3576（EVB7608）和Purple Pi OH2这几款板子。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8CcHaHiaX8utMfha4OicZ99J9uSS1Kic3DfqOzickVwNcjvIKG5NR4PfLXXVw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_023_582cd4225ada.jpg)
 
 转接板来个特写
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8Cc7A2rmcqXGbIVSkE7Rz7iaDS8KdS0BhGic1QkbNwzmc5hDRYWZCGRn8Vw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_024_c1104e023fde.jpg)
 
   
 
 这是搭配装好后的样子，板子J17和J18这两个接口都是可以用的。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8Cc46Yskg38Cgy4P33HUgBJabSUNB2F1fAIJIiauVTjMBsgVKeGFV5iaBBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_025_59488857f15a.png)
 
   
 
 4路AHD转接板，可支持多路摄像头输入。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8CcsyqnjbNjUuAkHnQMMrpJDQc1uMLnlHskLlB6bXsqib1iazcz8ZsicwD4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_026_c2243c335709.png)
 
 这是搭配咱们主板，整体效果图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8CcO83nQupSCl4C07OZMjQMnehvVEia3Iu22sj9eqqM08KuodCn6zt8fEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_027_004e92043c7b.png)
 
 配上这块7寸MIPI屏（分辨率1024x600），调试起来方便多了
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8CczibU4n2aRF2pm9LZyfFsRP04eOB9GoDFfqR6lyjSVZvvFgicTIB1TBvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_028_79d3d92e42b5.png)
 
 有一个地方要注意：板子默认输出是HDMI。如果你想用MIPI屏幕，记得把图上红圈位置的那个电阻改一下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8CcJ2Q725Jibj8ic6lOc4jzmDqfibCDU2rJwp0PHZQaibJBXXejDpLYYlcsgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_029_c628bef79548.png)
 
   
 
 另外，夜视方面还适配摄像头SC450/SC850。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaqVdRtXHCsTXPjF5m7l8Cc6J21AgVh3eaqJL23d4BXZYFB57ibeAXJ6n6Hzf0tNeJBBRQYEkNKRUA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_030_5b5a37f646c5.jpg)
 
 这款AI迷你整机是基于开发板做的。照片是预览样子先看看，量产时可能会有点小变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBBgIEYicBPHYsCXmpdJicW6OCcW0uibOpBcRX6SxiaXDYPGNe22hctFjAF48zk5k6LwGYNIhmsEiabFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你没听错_又要小巧_又要高性价比_还要AI硬件_我们做到了__images\img_031_c2bc8f3bccf2.png)
 
   
 

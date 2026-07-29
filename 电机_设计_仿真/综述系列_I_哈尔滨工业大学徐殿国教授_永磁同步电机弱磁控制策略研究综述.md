@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/0qysneyRryKt10BZFk8g-A](https://mp.weixin.qq.com/s/0qysneyRryKt10BZFk8g-A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_000_4fecbf19a39d.gif)
 
 **永磁同步电机弱磁控制策略研究综述**
 
@@ -50,7 +50,7 @@ R. Jing, G. Wang, G. Zhang and D. Xu, "Review of Field Weakening Control Strateg
 
 表1 基于单调节器的各种方法框图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4LyekN8GCicavFOZw9ic9gUcrX94nNMAMpAoSLQcibOBNVty6vsnKsCZOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_001_75b5d9937010.png)
 
 **2.3 模型预测控制（Model Predictive Control, MPC）相关方法**
 
@@ -76,25 +76,25 @@ R. Jing, G. Wang, G. Zhang and D. Xu, "Review of Field Weakening Control Strateg
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4PrG3aFrqk1rw7K4j5Y1asMaBiciaN0ct2q0picEXkNtZ4lNlQHoWU6pibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_002_29376de7ad13.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4wkoDlhZoUNGkYRI2btpvNxK9aqJphrOwymfAQv5hIh8BI0YicialGiasQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_003_29ee318041bc.png)
 
 **徐殿国（1960）**，哈尔滨工业大学教授。IEEE Fellow，国际先进电驱动技术创新引智基地（111计划）负责人，黑龙江省电气工程创新研究“头雁”团队负责人，中国电工技术学会副理事长，担任IEEE TPEL Co-EIC、IEEE TIE、IEEE JESTPE、中国电机工程学报等期刊编委。曾获得2018 IEEE IAS Outstanding Achievement Award，成为该奖项自1969年设立以来中国大陆第一位获奖者。主持完成包括国家重大专项、国家自然科学基金重点项目和国际合作重点项目、国家863计划项目、国家科技支撑项目、国家重大产业开发项目、国家重点研发计划项目、黑龙江省科技攻关重点项目、企业合作项目等100余项，获得省部级以上科技奖励16项，指导博士毕业生80余名。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4281YDdicncVrz0JApicxxDKnjekaiaQQQjzcAmtcB6JO3F3EDOboeSnsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_004_1892b5776aaf.png)
 
 **王高林（1978）**，哈尔滨工业大学教授，国家杰出青年科学基金获得者，电力电子与电力传动研究所所长，黑龙江省可持续能源变换与控制技术重点实验室主任，爱思唯尔“中国高被引学者”。长期从事电机驱动控制和电力电子变换器等方向研究工作，承担国家科技重大专项、国家重点研发计划、国家科技支撑计划、台达基金重大项目等科研项目，与多家知名企业建立校企联合研究中心。发表论文100余篇，出版专著3部，授权发明专利50余件。获省部级科技奖励一等奖2项，中国科协优秀科技论文奖，IEEE TTE优秀论文一等奖。担任中国电工技术学会电控系统与装置专业委员会副主任委员，中国电源学会学术工作委员会副主任委员、新能源电能变换技术专业委员会副主任委员、变频电源与电力传动专业委员会副主任委员，IEEE TIE客座编委，IEEE TTE、IET EPA等期刊编委。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4V6EIs3ibicmpu93J3KZKLVGicaeGTLKfJk14RZHe59yTmO1VmGGvFXdOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_005_1d0384674762.png)
 
 **张国强（1987）**，哈尔滨工业大学教授，黑龙江省可持续能源变换与控制技术重点实验室副主任，入选国家博新计划、黑龙江省优青，担任中国电源学会青工委副主任委员。围绕交流电机无传感器控制关键问题开展研究工作，主持国家自然科学基金2项、航空科学基金1项；主研国自然重大项目子课题，台达重大、重点项目等10余项。获省部级科技奖励一等奖2项、二等奖1项，首届中国电工技术学会青年科技奖，中国电源学会科技进步二等奖。出版英文专著3部，发表SCI/EI检索论文100余篇，授权国家专利30余件；获IEEE交通电气化会刊年度优秀论文一等奖、二等奖各1项，中国科协优秀科技论文，中国精品科技期刊顶尖学术论文等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4XFeDj70gQGy8EP2L1aRzN78wNiag8kpPwnPialiaGrIWFiaPsvlibgNCq3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_006_538cd499592f.png)
 
 **敬润泽（1997）**，博士生，分别于2019年和2021年获得哈尔滨工业大学电气工程专业本科和硕士学位。目前于哈尔滨工业大学电力电子与电力传动研究所攻读博士学位，研究方向为高速永磁同步电机驱动控制和过调制策略。
 
@@ -102,7 +102,7 @@ R. Jing, G. Wang, G. Zhang and D. Xu, "Review of Field Weakening Control Strateg
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -116,15 +116,15 @@ R. Jing, G. Wang, G. Zhang and D. Xu, "Review of Field Weakening Control Strateg
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -132,15 +132,15 @@ R. Jing, G. Wang, G. Zhang and D. Xu, "Review of Field Weakening Control Strateg
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -148,15 +148,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_哈尔滨工业大学徐殿国教授_永磁同步电机弱磁控制策略研究综述_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

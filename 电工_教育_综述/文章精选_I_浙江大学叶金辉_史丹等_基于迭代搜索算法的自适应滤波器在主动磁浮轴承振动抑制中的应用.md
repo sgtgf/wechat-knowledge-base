@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/mdb9nkde3WF38JbImH0c5g](https://mp.weixin.qq.com/s/mdb9nkde3WF38JbImH0c5g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -36,7 +36,7 @@ J. -H. Ye, D. Shi, Y. -S. Qi, J. -H. Gao and J. -X. Shen, "Vibration Suppression
 
 Active Magnetic Bearing (AMB) is a kind of electromagnetic support that makes the rotor movement frictionless and can suppress rotor vibration by controlling the magnetic force. The most common approach to restrain the rotor vibration in AMBs is to adopt a notch filter or adaptive filter in the AMB controller. However, these methods cannot obtain the precise amplitude and phase of the compensation current. Thus, they are not so effective in terms of suppressing the vibrations of the fundamental and other harmonic orders over the whole speed range. To improve the vibration suppression performance of AMBs, an adaptive filter based on Least Mean Square (LMS) is applied to extract the vibration signals from the rotor displacement signal. An Iterative Search Algorithm (ISA) is proposed in this paper to obtain the corresponding relationship between the compensation current and vibration signals. The ISA is responsible for searching the compensating amplitude and shifting phase online for the LMS filter, enabling the AMB controller to generate the corresponding compensation force for vibration suppression. The results of ISA are recorded to suppress vibration using the Look-Up Table (LUT) in variable speed range. Comprehensive simulations and experimental validations are carried out in fixed and variable speed range, and the results demonstrate that by employing the ISA, vibrations of the fundamental and other harmonic orders are suppressed effectively.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179R1L4Kic2WGRRUYOurVW055rnfhGfOdXAiaTJtX0Bq29UmkT3ibicRiamh9U0PpUyUs22ETiatDdiahibZoQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_001_0aa8f17fb389.gif)
 
   
 
@@ -46,23 +46,23 @@ Active Magnetic Bearing (AMB) is a kind of electromagnetic support that makes th
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179R1L4Kic2WGRRUYOurVW0554Qa3oiaS1ABZhBSQMpDKIvCXWJjBnQXGOaXia72fZ4dqV4QJ7gNT9PAA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_002_0ce190d011e0.gif)
 
 **叶金辉**，1999年出生于广西北海市，2021年获得了浙江大学电气工程及其自动化学士学位。目前正在攻读浙江大学电气工程硕士学位，研究方向为磁悬浮轴承的控制与振动抑制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179R1L4Kic2WGRRUYOurVW0553PoW04n7ibZbN84LXiaEW6dcdHqzlJiaGqO8VPtLGSIF6aC70XxvBHjUg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_003_cc5ddf4e069a.gif)
 
 **史丹**，2009年和2012年分别获得浙江大学电气工程及其自动化学士学位和电机与电器硕士学位，2016年获得瑞士洛桑联邦理工大学机器人与智能控制系统专业博士学位。2016-2021年在杭州三相科技有限公司负责高速永磁电机产品开发，2021年至今在浙江大学做博士后，研究方向为高速永磁电机设计、磁悬浮轴承设计及控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179R1L4Kic2WGRRUYOurVW05597WxP5zKico77ScsQ9icnTib5beuvnstLX2Yg3NbIatibC8uTNsjzX0iaVw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_004_b98bc5c054a2.gif)
 
 **綦跃声**，2001年出生于山东省青岛市，于2023年获得浙江大学电气工程及其自动化学士学位，目前正在攻读浙江大学电气工程硕士学位。研究方向为主动磁轴承控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179R1L4Kic2WGRRUYOurVW055GS4U1MCxEpEVHIGyUbamFVPZaQ7iaH6XzMyYsBIxbZZ4xr4F729ep8w/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_005_67b03a7ab801.gif)
 
 **高锦辉**，1998年出生于浙江台州市，2021年获得了浙江大学电气工程及其自动化学士学位。目前正在攻读浙江大学电气工程硕士学位，研究方向为磁悬浮轴承的优化设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179R1L4Kic2WGRRUYOurVW055UHicS1IEicP2ScszyzF4qicuPTriaR7mvo8f5CC9GXBr1KlSr9qvSY11Xg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_006_3c43cdbe5796.gif)
 
 **沈建新**，浙江大学电气工程学院教授、博士生导师。主要研究永磁电机系统结构、控制和应用。发表学术论文320 余篇，获授权专利40 多件。获IEEE学会及国际会议论文奖12项，并因在永磁电机和高速电机方面的贡献被授予Nagamori奖。是IEEE IAS 和 VTS两个学会的杰出讲师，并三次担任IEEE国际学术会议的大会主席。详情可见https://person.zju.edu.cn/en/jxs。
 
@@ -70,7 +70,7 @@ Active Magnetic Bearing (AMB) is a kind of electromagnetic support that makes th
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -84,15 +84,15 @@ Active Magnetic Bearing (AMB) is a kind of electromagnetic support that makes th
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -100,15 +100,15 @@ Active Magnetic Bearing (AMB) is a kind of electromagnetic support that makes th
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -116,15 +116,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_浙江大学叶金辉_史丹等_基于迭代搜索算法的自适应滤波器在主动磁浮轴承振动抑制中的应用_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

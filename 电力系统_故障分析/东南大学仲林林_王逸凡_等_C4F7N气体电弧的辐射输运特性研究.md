@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QDD0TaR9KOzgenibxGNFvFLYYOeHiaHDg8EoRu4xruJjKam4lw9ibo4rvY66IA8kUlWJh1WUj8djdibw/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力系统_故障分析\东南大学仲林林_王逸凡_等_C4F7N气体电弧的辐射输运特性研究_images\img_000_1dbd9583dbce.png)](https://www.fafee.org.cn/)
 阅读提示：本文约 1700 字
 > 辐射作为电弧能量输运的主要方式，在灭弧过程中起着关键作用。东南大学的研究团队以C4F7N气体及其与CO2和N2的混合气体为对象，采用磁流体动力学仿真与光学实验诊断相结合的方式，开展了C4F7N气体电弧辐射输运特性研究，探究了电流大小和混合气体配比对C4F7N电弧形态、温度以及辐射能量的影响，期望进一步为环保型灭弧气体的工程应用奠定理论基础。
 **研究背景**

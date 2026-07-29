@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/fR19EiFtg5K3Eu3JztfH0A](https://mp.weixin.qq.com/s/fR19EiFtg5K3Eu3JztfH0A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTYlRn8A4yfA6zO8bPNS040IA5CHqKUMfVxflsz0zjRPl5kKdcqkYhpewPrAu7LwaRwgxRADP7Vdw/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_000_c1eb80231140.png)
 
 **_★★★_****_DC-DC_****_\-3-----升压型的工作原理_****_★★★_**
 
@@ -11,19 +11,19 @@ _€1.升压型DC-DC的工作路径_
 
 _**图3-1**__红色箭头表示开关元件打开时的电流流向：正极--->电感（此时对电感进行充能）--->开关元件--->GND。_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRuU6JUbWyic9XqibWRM7U3DicDseicYwdvErh2enKIB87K7libSE1tUvib85yz0Kibj5QKaUIBibhRthG9icg/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_001_a104ba8655f1.png)
 
 **_图3-1：开关元件打开时电流流向_**  
 
 _**图3-2**_绿色箭头表示开关元件关闭时的电流流向：电感（此时电感进行放能）--->\--->续流元件--->Cout--->负载--->GND。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRuU6JUbWyic9XqibWRM7U3DicgT2Nic25BSIibjkqTrKvicLiaI2amKD271DNKmhWy0rv5V77icAmnHnGmjQ/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_002_abe81d183990.png)
 
 **_图3-2：开关元件关闭时电流流向_**
 
 输出电压与基准电压进行比较，检查输出电压是否为设定电压，低于设定电压时，开关变为OFF，电感叠加VIN输出供电，此时，电感会反向释放电动势能量。如果输出电压高于设定电压，则开关ON，电感不再叠加释放，VIN给电感充能。当电感在蓄积磁能，输出电压开始下降时，开关再度变为OFF。如**_图3-3_**是连续过程中的电流波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRcxdnTNrfoo5c8KQObuGs025Co8yHorsG2g2ERhcicibwZVv1jBxMQyqHoDHAxnbNS9MfospxBxmkA/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_003_c90ae2cb1002.png)
 
 **_图3-3：关键波形_**
 
@@ -32,7 +32,7 @@ _€2.升压型DC-DC的工作原理_
 1.  工作流程  
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRuU6JUbWyic9XqibWRM7U3DicFp5iaguUT4r25ftsib7tURXmWEnTg1icw5bPyKlaIkBQqGuXSGVOgXFWg/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_004_dd41852a5147.png)
 
 **_图3-4：升压型工作流程_**  
 
@@ -40,13 +40,13 @@ S1打开，S2关闭时，电感红色电流路径消失，电感产生反向电�
 
 __€3._关键工作波形_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRuU6JUbWyic9XqibWRM7U3DicMLBpq70otpk4ZG4LWW9tZAghKnicCM5AC8YkBqRma1puiaZsfFmiasOnA/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_005_26d89707adcf.png)
 
 **_图3-5：PWM产生_**  
 
 **_图3-5_**所示升压转换器的控制回路是通过分压电阻的采样，然后经过误差比较器和基准源比较，最后输出PWM。需要注意的是这种电路在芯片不工作的时候，它的输入到输出就已自然经形成了回路，从输入→电感→二极管→电容→负载，所以如果不是在同步的升压拓扑结构里面，在输入电路部分应该增加一个切换电路，否则在电池供电的时候，电池的电量就白白用完了。1：放大FB信号，使ADJ电压和基准电压相同，2：比较FB电压和三角波，决定应该ON的时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRuU6JUbWyic9XqibWRM7U3DicPvglbibSspKTTwWVq3KnVh1icVQIz78iajrVweKZkaGPnnYZiaKXE7BL8g/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_006_57305e54ff85.png)
 
 **_图3-6：关键器件波形_**
 
@@ -54,10 +54,10 @@ _€4.占空比和升压的关系_
 
 升压型的电压、电流范围有上限，根据负载电流，一般约3-5倍左右为上限。FET的ON时间越长，电感蓄积的磁能越多，产生的反向电动势越高，越能升到更高电压。**_图3-7_**和**_图3-8_**演示了占空比Duty的变化带来的升压量的变化，注意一个细节，升压越高，Vout的波形更加陡峭，也就是毛刺更多更高，EMI也更多，需要额外注意。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRuU6JUbWyic9XqibWRM7U3Dicg14f0RIAoVpE0NAxAYC0wjt1OpGwjK9Goq7KdPfKmbT0h5EK8J7hwg/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_007_e20283d1ae19.png)
 
 **_图3-7：20%占空比，SW关闭时间占20%_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRuU6JUbWyic9XqibWRM7U3DiceO6kcZDquLibUAXWQEsXwfMsPiag9TU3iaks4yYALIDBJ0btE7rciaIJ5w/640?wx_fmt=png)
+![](DC_DC_3_升压型的工作原理_images/img_008_967a0a855030.png)
 
 **_图3-8：80%占空比，SW关闭时间占80%_**

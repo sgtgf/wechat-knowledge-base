@@ -7,7 +7,7 @@
 
 ###   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqiaQiaAaBoKAdM5du8e2GGtC8vIYnkr2pCVCGRYImVkFQyyVMOpbicSxAQ/640?wx_fmt=jpeg)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_000_de7991239f01.jpg)
 
 图片来源：罗姆（ROHM）
 
@@ -15,7 +15,7 @@
 
 ###   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqNQZYIwWKW26fQtKmxDRgLjQdb10Xic0HGbWiadvVy1MGJfs4RjVv5wPA/640?wx_fmt=jpeg)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_001_6783e0bafce1.jpg)
 
 ### 
 
@@ -35,7 +35,7 @@ Easy 封装SiC模块延用IGBT模块Easy封装，是集成多个 SiC MOSFET 或�
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqYNwQe63B4Std0kwzcRZWTW5xJDsASJgo0ib55HSq5l16CQ8ZQkhHibeA/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_002_5690da9e71b8.png)
 
 #### **
 
@@ -48,7 +48,7 @@ Easy 封装SiC模块延用IGBT模块Easy封装，是集成多个 SiC MOSFET 或�
 
 Easy-2B (EasyPACK™ 2B) 是Easy封装家族中的重要成员，专为1200V等级的功率模块设计。Easy-2B 是 Easy 系列的升级版，针对工业级高功率应用优化.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq36q5UTMOHvwqkAuhia1wCd2ghBgblEX3d1PrRuCQNphF9GBPwJpSg4Q/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_003_db43e4c08fa3.png)
 
   
 
@@ -83,13 +83,13 @@ Easy-2B (EasyPACK™ 2B) 是Easy封装家族中的重要成员，专为1200V等�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq1xHunsiaPeIwIZO1KCAh7icE1emA9QKtDrTc5a0OecNKCwHjDUoLibG3g/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_004_7d54efec641d.png)
 
 产品与拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqXX7JbdNrlUUIU73iahYfqkl9xsrGNIjgBeh8FRZiceTMRa88n3XDiaf7g/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_005_3bfab275701d.png)
 
 **
 
@@ -119,7 +119,7 @@ Easy-2B (EasyPACK™ 2B) 是Easy封装家族中的重要成员，专为1200V等�
 
     **R****DS(on)** **：3.3~80mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqLLuic9ibDet8M87zBRnia2Zg2F7RX5TpmyZQj1EnNdJlicokw8fLQMtoZQ/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_006_43d9597551ac.png)
 
 **
 
@@ -127,7 +127,7 @@ Easy-2B (EasyPACK™ 2B) 是Easy封装家族中的重要成员，专为1200V等�
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqpYkiaVJmLFDlH03Kric2Z0YM1C8xXOeVLbp1Dbd5ICjKyrrsmFPuqqKw/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_007_cf7f56161fbe.png)
 
 **
 
@@ -135,7 +135,7 @@ H桥产品与拓扑图
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqm0Ybib5DR1LPwNiagvvMiaausYNZV9uVbCwxThffpCUce4GEaDIC5EUlQ/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_008_843dc8250e29.png)
 
 **
 
@@ -143,7 +143,7 @@ H桥产品与拓扑图
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqfTa7mD17D7wnbPPobiczEkYaVGiajwBSDK05EscerdjmHVINic9PBJHEg/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_009_7ebbac339e3f.png)
 
 **
 
@@ -166,9 +166,9 @@ H桥产品与拓扑图
 
 Easy封装的碳化硅模块通过提升系统效率、‌功率密度和降低系统综合成本，‌在光伏、‌电动汽车充电桩和储能系统等领域发挥着重要作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqcjVstkia9A2AwPjRXKibTQyibTK4H3Ykrm7z7qF22On8jW0sHd8Mc4aNQ/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_010_43ed9d588a69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqWgPHhqrTlawUHInS4pWucpKjupolERbPmsaibwibdp3uvphcaIWfibXIg/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_011_94a526b12da0.png)
 
   
 
@@ -210,7 +210,7 @@ PressFIT压接技术：模块标配PressFIT压接引脚，使模块与PCB之间�
 
 以下是Easy-2B封装与其他封装可能特性的对比概览：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq1pHzbb2H5ibSxfO1Vy13gMEGGoRPCHto1MOrFpicK7uwUduAykrZE49w/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_012_9e0dd9df0f31.png)
 
 四.市场应用领域
 
@@ -218,23 +218,23 @@ Easy-2B封装模块凭借其优良特性，在多个要求严苛的电力电子�
 
 1\. 光伏逆变器（PV Inverters）：特别是1500V直流链路的组串式光伏逆变器应用。随着光伏逆变器单机功率不断提升（以1500V系统为例，已从100-150kW升级到200kW-250kW），对功率模块的功率密度、效率及灵活性提出了更高要求，Easy封装（尤其是Easy3B）能极好地适应这些需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqmgD0vmYxzlia19GDmeGTcM9k8WnicGicPiaera0icCaS8Ohaa6Bq1WY9srQ/640?wx_fmt=jpeg)图片来源：网络
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_013_73a982253997.jpg)图片来源：网络
 
 2\. 储能系统（Energy Storage Systems, ESS）：用于储能变流器（PCS）的DC/AC级。储能应用需要能够处理高功率的解决方案，Easy-2B封装模块的高效率和高功率密度特性在此备受青睐。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqTQIRQakB3I3AkUO7aTq6EtKSYMicIuH1iaaE2QnMmI5xOc9qUgs9xQoQ/640?wx_fmt=jpeg)图片来源：网络
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_014_1a4e51b559ff.jpg)图片来源：网络
 
 3\. 电动汽车充电桩（EV Charging Piles）：特别是大功率快速充电桩。碳化硅模块（如ASC300N1200MEP2B）因其高功率密度、低寄生电感和低开关损耗，已获得充电桩模块和PCS的青睐。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqbdULqo49R2MTOWguCWCicx42u6loHicAH4a8CDibXmfqkOaeysQmfFGibA/640?wx_fmt=jpeg)图片来源：网络
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_015_04526c15e38c.jpg)图片来源：网络
 
 4\. 工业电源与驱动：包括不间断电源（UPS）、工业加热（如感应加热、感应熔炼）、电解电源、变频器和焊机等。在这些应用中，高开关频率、高效率和高温稳定性是关键需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqQXhTmAqxdDxWTrjXd4wVFTp7wytzbxibCtiaorMOM8RHF1bJIc1oqVOw/640?wx_fmt=jpeg)图片来源：网络
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_016_4b36a511d163.jpg)图片来源：网络
 
 5\. 数据中心电源：对供电效率和可靠性要求极高，SiC Easy封装模块的高效率特性有助于降低数据中心的能耗和运行成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqkw5M2owCE7JQJ5khBzk1via8EvuBlzJGHXRbsRxMGicLcGiat3ugSTGkQ/640?wx_fmt=jpeg)图片来源：网络
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_017_9c25846f9dd1.jpg)图片来源：网络
 
 五.应用优势与案例分析
 
@@ -340,23 +340,23 @@ Easy封装的碳化硅模块通过提升系统效率、‌功率密度和降低�
 
 SiC功率模块的封装大全
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqZcveFztkKjT9gDSibeBbOs2rAicII1tXbSO5fuv4z0IyjtlVKyReJ8Iw/640?wx_fmt=png)
+![](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_018_36298d178a43.png)
 
 SiC功率模块的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbbnzia3cqNVicMY7UL9R6WQGdGIStCgibllBicZoyIVs5vOibp3kSVFufOsg/640?wx_fmt=png)
+![图片](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_019_ebd135d58219.png)
 
   
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslPOyibCKe430TSJZkue1dFybBPDKCvSBZkEhcib7co39juxyxSUmoylKOGhkYohj77hic70qP068vJQ/640?wx_fmt=jpeg)
+![图片](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_020_6b924ed70ee8.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslPOyibCKe430TSJZkue1dFyOzaQUzrZpjYkChXyxunNicSDPoVJoxT4mQNuy6h0NRjJTsdLa7ib8jyw/640?wx_fmt=jpeg)
+![图片](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_021_4ef8cd965c5a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslPOyibCKe430TSJZkue1dFyuswr6VIlC4pFn7SQKJjO5UXvqEUMpF4okMg1krOphcvUn0r3oyPAfw/640?wx_fmt=png)
+![图片](Easy封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_022_690d01df56ea.png)

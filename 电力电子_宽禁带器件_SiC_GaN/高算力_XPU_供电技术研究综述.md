@@ -36,7 +36,7 @@ XPU 的供电架构经历了显著的演变，以适应计算需求的增长、
 
 随着技术的发展，12 V 架构得到了广泛的应用，如图1 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOloYFKDhibtHrSOnqiaOZxarUE61PICdmEFVHuRt7aju1vibS7fMPvvzVYfoNias7uIGDlsr7UictkvQDyHXIEbHmbud6Mj1SE9Los/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_000_b3bd88e030af.png)
 
 该架构通过将输出电压转换为12 V直流电，然后通过DCX 进一步降压至更低电压(如1 V 或0.9 V)，以满足CPU 和GPU 等高性能芯片的需求。由于12 V 架构具有较好的功率密度和散热性能，因此得到了广泛的应用。
 
@@ -44,39 +44,39 @@ XPU 的供电架构经历了显著的演变，以适应计算需求的增长、
 
 为了克服12 V 架构的局限性，48 V 架构逐渐成为CPU、GPU 供电架构的主流选择，如图2 所示。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjNPwCaBKzGwJZgYupiblnNKXJF0GibyYwIjJ5ECibIwjSAu6Sg9SDJ8YdBbnhRQnU8GDcQX81LR2e3s7zmqvJ2FJmlDeUB1RiasA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_001_e17c354ff824.png)
 
 在相同功率下，48 V 架构所需的电流仅为12 V 架构的四分之一，从而减少了电源尺寸和热量产生， 能够实现更高的功率密度和更高的效率。
 
 在48 V 供电架构中，目前主要包括两级式架构和单级式架构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOMyy3jgPBME7hkIXX2LkLMbJic9cVicDZrPJmT4A5rvtFxPEYXlFuQRMaaD1IUEcdFLdcXuzzwVibwv639eeDicRZ08ddRk4eBmMk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_002_c66ce9628fbb.png)
 
 两级式架构如图3 所示，将变换器所需的稳压与变压功能拆分开来，分别选择合适的软开关拓扑对效率、控制、功率密度等进行优化设计，在高频化趋势下宽电压范围直流变换得到了广泛的应用。根据前后两级变换器在整个模块中的不同功能，可以将其划分为两类：第一类为前级DCX 与后级负载点(Point of load，PoL)变换器，前级DCX 实现固定的大变比降压，后级PoL 变换器实现调压功能；第二类为前级预稳压模块(Pre-regulated voltage module，PRM)与后级DCX，前级PRM 调压将母线电压稳定固定值，后级DCX实现进一步的固定降压。在实际应用中，由于第一类架构控制回路简单、研究较为成熟，得到了更为广泛的应用。
 
 由于两级式架构的效率为两级效率的综合，并且存在体积较大的中间母线电容，又发展出了准两级式结构，如图4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMQ6Tb262OyXzpKzqMFVZR1SjyCgbvPGXliblPZ9yMy8TdicVs0HXEf7poowUZgKBhNu9g8YFAw2RgGuY9thWRcoQNnId0wFUWDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_003_f85ecedf23b6.png)
 
 与传统的两级式结构相比，该结构通过两级之间的混合级联，去掉了庞大的中 间母线电容。例如，文献\[11\]提出了一种LEGO-PoL结构，包含2∶1 开关电容单元和Buck 单元。该结构可以实现软充电、电流共享和电压平衡，消除了两级间的母线电容，具有更高的功率密度。文献\[12\]提出了一种具有虚拟中间母线(Virtual intermediate  bus，VIB)的结构，将2∶1 交错式SC 与四电平串联电容Buck 混合级联，通过降低两级的功率转换压力和消除中间母线电容，实现了高效率和高功率密度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOd8csxfnmQ8jmibT74DpOvOkkE8dTcEZguO16ia85PLkdm697Wrj6Du7Dp3nSDfZKSKfwPAQbSVJFChib47a4QpQPImiayw2ic89FY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_004_13a9108a511f.png)
 
 单级式架构为直接实现高变比降压的变换器结构，如图5 所示，直接通过高变比变换器实现电压的转换。相比于两级式架构，由于单级式架构不需要母线电容，因此一般具有更高的效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMnA3SQ5icRpK1E2SsasE4TL0AfkNU90kLVFIaDLOTEUqa1D4Gt1rMTuZoOvI6h0bqOpXxF1ibWbcwbicn0C0Zl3g1Z2JbAZfnZFU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_005_5fc980f53e5e.png)
 
 图6 为多个单级式之间构成的准并联结构，也称准单级式结构，其中最为典型的即Sigma 结构。文献\[17\]提出了一种用于48 V数据中心的 Sigma变换器，通过DCX 向负载输送大部分功率，小功率Buck 负责调节输出电压，变换器整体效率得以提升。文献\[18\]提出了一种基于Sigma 变换器的改进结构，如图7 所示，集成了2∶1 开关电容和LLC-DCX。LLC-DCX 的输出直接连接到负载，而开关电容变换器的输出则用作中间母线作为Buck的输入。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOX0qSXnLAl47jJzvempm3couk8nHqdG1e6zmc8fricia5PG5q6fwI0sDj5eneGyTXWk5lGubqdSfrUculh1qmqhw1hQVgcVyey0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_006_c44983fad891.png)
 
 准两级式架构和准单级式架构类似于两级式架构，具有两路变换器实现电压调节，但由于不具有中间母线电容，也具备单级式架构的一些特点。因此，准两级式架构和准单级式架构也可以统称为混合式架构。表1 给出了XPU 供电架构的对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMaQada3Q09tAfQl09wkQc4kCDl5OribC6w4BUiaIhZSE7nYxvabSJ1Q8aExmXEZzMib5GAjMpcObPXPmB904GBiaakRMmkqBiaFByk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_007_25f1634b75e2.png)
 
 未来母线电压将进一步提高，在不牺牲母线损耗的情况下提供更大的功率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMU9uyamHZRIQiaoFDKicibicDZj4PNAicuvaaLDHLyd6f40boj7GGBlBqadpxJzMnCxRq48M6EYXN2iaGfPg9Eiaj4btnPRNm1A981bo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_008_a7236b60eba6.png)
 
 图8 显示了新一代的电源架构，AC/DC 级通过400 V 总线直接向主板供电，主板上在稳压模块附近进一步进行400 V/12 V或400 V/6 V 变换。此外，随着数据中心消耗的持续增加，每个服务器机架的功率也在增加，已经达到24～36 kW。因此，对于更高功率密度变换器的需求也更加迫切，以适应服务器机架中的大量电源模块。
 
@@ -86,32 +86,32 @@ XPU 的供电架构经历了显著的演变，以适应计算需求的增长、
 
 3.1 基于开关电容的DCX拓扑技术
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMSqej6akCq3jaEOnt1lqTlKkZGNoPY0QwMKq64ul5LTOrUH9zZgNgwlqA2BYHBkdoVftUMUFcoEJzH5WGc7M4szmf8k5Pshsc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_009_4d42ce3d3d69.png)
 
 开关电容变换器由于没有体积较大的磁性元件，在功率密度上具有较大的优势。文献\[20\]介绍了一种新型的开关槽变换器(Switched-tank  converter，STC)，如图9 所示，适用于需要大电压 转换比的场合。该STC 变换器采用LC 谐振槽部分替代电容进行能量传输，在各种工作条件下均可实现完全软充电、软开关以及最小电压应力，具备极高的效率、功率密度。文献\[21\]在Dickson 开关电容变换器的基础上，采用与STC 相同的优化方式，得到一种无变压器堆叠有源桥拓扑。该拓扑结合了开关电容和双有源桥的优点，可以通过移相实现开关的软开关。文献\[22\]进一步比较了STC 和级联分压器(Cascaded voltage divider，CVD)，证明在48 V 的电源结构下，STC 具有更高的效率和功率密度。文献\[23\]提出了一种级联型的4∶1 谐振开关电容变换 器，通过交错运行，前级的输入电流与后级的输出电流可以时刻保持匹配，确保了母线电压的稳定，从而大大减小了电容的体积。文献\[24\]在此基础上， 将前级进行集成以减少开关器件数量，并对母线电容的电流纹波进行了分析设计。文献\[25\]对文献\[24\]的拓扑进一步改进，通过多谐振的方式，使得中间电容也参与到谐振之中，通过控制各开关管的占空比和时序可以实现4∶1 的固定变比。文献\[26\]提出了一种具有零电感电压(Zero inductor-voltage，ZIV)的开关电容变换器，实现了极小的输出电感值，有利于进一步提高功率密度。文献\[27\]提出了一种三相谐振开关电容变换器，通过三相的谐振可以降低 开关管的电流应力，从而提高提高变换器的效率和功率密度。然而，随着电压变比的增加，开关电容变换器所用开关管和电容数量、导通损耗迅速增加。此外，由于所用电容性能直接制约变换器性能，实际应用中还需要考虑电容老化等影响因素。在高变比场合下，开关电容变换器功率密度优势明显下降。
 
 3.2 基于谐振变换器的DCX拓扑技术  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNBvRTicZZjwXSQSv3o0GKcvqhx6Cd9mpabF88TEAwCjia9rShQOld9nAz7G2jNat9wohy42fRj2XFx087oqiagMnW2kTSX5Gt0CQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_010_02ad9e6a6459.png)
 
   
 LLC谐振变换器在谐振点附近工作时，能够实现零电压开关(ZVS)和零电流开关(ZCS)，从而显著降低开关损耗，提高整体效率。因而，LLC-DCX广泛应用于各类工作场合。LLC-DCX 可以通过调节变压器的变比，较为容易实现大变比的需求。在大电流的场合，需要采用多个副边并联的结构，而这带来均流困难、端接损耗大、存在较大漏感等一系列的新问题。为了解决以上问题，可以采用基于矩阵磁的方法，如图10 所示，通过采用变压器原边绕组之间串联连接、副边绕组之间并联连接，可以获得所需要的变压器匝比。通过矩阵变压器，能减小变压器的电路板层数、绕组损耗，较好地解决了传统的平面变压器在输出低压大电流的情况下存在的不足。文献\[31\]对LLC 变换器的死区时间与励磁电感设计进行了详细的介绍。文献\[32\]对传统的LLC 谐振变换器进行了结构调整，得到了一系列非隔离LLC电路。文献\[33\]提出了一种考虑到LLC寄生参数影响的建模方法。然而，高频变压器的引入和软开关的实现使得其固有损耗较大、轻载效率较低，而且变压器磁心、大电流绕组占地面积都限制了LLC-DCX 的功率密度。
 
 3.3 混合型DCX  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPvUV3SbcibSV0ADyuUQZfKCV6LK3iaEiaHn5xWmVXScnMduP4cP2uUrhfh5U8kfC3s0XGFEKnKGTzWWJBqkzzJlkiaF0IfclyLkQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_011_1e8e5d284120.png)
 
 由于上述拓扑各自的优势，将二者结合的混合型 DCX 正在成为当前研究的热点。混合型DCX 可以兼具高效率、高功率密度、易于实现高变比的优势。由于开关电容的工作电流和谐振单元的工作电流具有相似性，将二者进行结合，可以衍生出一系列混合型DCX，并且实现开关器件数量的减少。文献\[34\]提出了一种自耦变压器混合开关电容变换器结构，但是该变换器只能实现固定的变比。在此基础上，文献\[35\]提出了一种多抽头自耦变压器混合开关电容变换器结构，将自耦变压器拓展为多抽头的自耦变压器，可以通过调整自耦变压器原副边的匝比实现更高的变比。文献\[36\]提出了一种调节混合开关电容变换器结构，将2∶1 开关电容变换器与对称双电感混合变换器结合，减少了元件数量和应 力，同时减少了飞行电容的体积，实现了紧凑的尺寸和低重量。文献\[37\]通过在开关电容变换器中嵌入自耦变压器和LLC 谐振变换器，大幅增加了开关电容变换器的降压比，且利用矩阵式变压器结构实现了变换器输出电流能力的大幅提升。文献\[38\]提出了一种自耦型混合谐振变换器，包含一个自耦变压器与两个隔离变压器，如图11 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOGPG02FpDX3s60tYEKrkCtA9I1DpLJedCtkuUj8xA9zWld1a5FIRXOPcWzcxH6FOzIGd78627huC3OVrkYcnTicUxxZ8PWbHw4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_012_186f97d91db2.png)
 
 与传统谐振转换器相比，变压器绕组的匝数和损耗均大幅降低。文献\[39\]提出了一种拓展自耦型混合谐振变换器，如图12 所示，通过共用桥臂的集成方式，实现了高功率密度。然而，目前针对混合型DCX 的研究多为零散的拓扑结构，对于其系统化的衍生方法和优化方法，仍待进一步研究。表2 给出了高变比DCX电路拓扑技术的对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOTj3VcW4FQwh4Z8HlW66PPsVwyYeaj2R179qm3dLhuyQ513ZoxIqKcOfejSqddMKLTia2ZicEtGnpq7MZxQTxq3fI58WH7NX3nQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_013_d0536248e841.png)
 
 4. 高动态控制技术
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNXf2NcG6fekJbBzXFutjU4nEmJ1V5wLhXpStFGbVnFxAjJfUgr4vBh7SibicHJY2iaTEC3ia4g25cmniafKXr3l9ZFwgCSzEQGu38Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_014_85f6cb48697f.png)
 
 为了应对瞬态电流的变化，PoL变换器需要具备快速响应的能力。由于在XPU 供电架构中，PoL变换器多采用Buck 电路，针对Buck 电路的高动态控制技术也得到了一定的研究。  
 
@@ -121,17 +121,17 @@ LLC谐振变换器在谐振点附近工作时，能够实现零电压开关(ZVS)
 
 近年来，V2控制作为一种纹波型控制方法，以其特有的无需电流采样、快速响应输出电压变化、简单的环路补偿网络等优良特性得到业界关注。在文献\[44\]中，V2控制架构(图13)已被广泛应用于PoL负载Buck 变换器。与传统的电压模式控制和电流模式控制相比，该控制结构具备以下三个显著特点： ①无需电流传感网络；②具备直接输出电压反馈的快速负载瞬态响应特性；③外环补偿器的设计更为简化。文献\[45\]进一步将V2控制与恒定导通时间(Constant-on-time，COT)控制相结合，能够同时实现全负载范围效率提升和高带宽设计。在V2+COT控制的基础上，结合瞬态电流切换时的非线性控制， 能够使功率电路达到其动态响应能力的极限。此外，将芯片供电电压与其负载水平相结合，实现动态电压自适应(Adaptive voltage position，AVP)控制，能够避免动态切换过程中的电压超调，进一步提升动态响应能力。文献\[46\]采用V2控制和主动下垂控制相结合的控制方法，提出一种能够实现AVP 的设计准则。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMvW8HOaSpT20WBesKpSMAJpqHkcdicexEHnBbCCzmF5zFvknqwE6ia4UXtBfSJmeHI4ErgXEic9q64mqe0eJrf8zqCZVicWt23ibmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_015_0043c5451599.png)
 
 为了避免非线性控制器的使用，近年来又提出了一系列新型控制方法。文献\[47\]提出了一种新的基于电荷的电流模式控制方法，通过在负载升压或降压瞬态时自然地增加或减少接通时间，并在多相操作中自然地重叠这些扩展脉冲，无须添加任何非线性控制，从而改善瞬态性能。文献\[48\]提出了反向电荷恒定导通时间(Inverse charge constant  on-time，IQCOT)控制的概念，如图14 所示，通过 在负载升压或降压瞬态中自然地调整导通时间，同样无须添加任何非线性控制，以优化瞬态性能。表3 给出了高动态控制技术的对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPhxAsZnMOzcIozjqbwWZT9oCbuEqIwA7y52yjTVhCmZ7FBUJxOJeZY64gIf6yrqU1qOyHmJGqKRZlpEA0hDibqrr04lKfWaJfE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_016_e5f06eef32ee.png)
 
 5\. XPU电源高密度集成技术  
 
 5.1 半导体器件集成
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNuy4ZTXwpyBmOSmNWUJLnJG21bkUvl4KrEeianNzcvWbSGCKgKiacVmzzGdtaeWf3nEQoEVAHptS84nDdEuibjhcpvZ4QQUncicYM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_017_8bdefee578fd.png)
 
 在低压侧，随着电压的持续降低，半导体器件所占据的空间已经成为不可忽视的一部分。通过将多个功能模块集成到单一芯片中，可以显著降低整体面积，同时提高系统的性能、效率和可靠性。集成半桥电路是一种高度集成的变换器电路，将高侧和低侧开关管、驱动电路、保护电路等集成在同一 芯片上，减少了外部元件的数量，简化了电路设计 和布局。智能功率集成电路(Smart MOS)将控制电路与功率器件、保护电路等模块集成到一个芯片中，从而减少外部元件数量、缩小体积并提高系统效率。DrMOS 是一种将驱动IC 与功率MOSFET 集成在一起的高集成度电源管理芯片，如图15 所示，其核心优势在于简化了传统分立器件方案，同时提升了系统的效率和可靠性。通过将智能驱动控制、电流采样、温度检测等功能进一步集成在DrMOS 中，能够有效提升处理器电源的整体性能和响应速度。目前，德国英飞凌、美国MPS、TI 等欧美厂商都推出了成熟的DrMOS 产品，成为XPU 供电的主流解决方案，而发展高性能全国产DrMOS仍是我国当前亟需解决的问题。
 
@@ -141,15 +141,15 @@ LLC谐振变换器在谐振点附近工作时，能够实现零电压开关(ZVS)
 
 对于XPU 供电而言，针对高效高密度的优化目标，磁性元件的体积和损耗一直是不可忽视的重要方面。磁性元件主要包括电感和变压器。在大电流场合，随着电路相数的增加，电感的个数也在增加，而矩阵变压器将集中式变压器拆分成多个子变压器，这都使得磁件数量、体积、损耗的成倍增长。 磁集成技术通过磁通抵消，实现了多个磁性元件数量和体积的减少，对于减小变换器整体的体积和损耗，实现高效率和高功率密度具有重要的意义。文献\[55\]将分立电感的非绕线磁柱和磁板进行共用，可以得到如图16 所示的集成平面EI 磁心结构。其中，两相电感绕组分别绕制在EI 磁心的两个边柱上，中柱气隙用于调节它们的耦合程度。然而该集成结构的耦合性较差，并且非绕线中柱的叠加磁通密度较高，导致电感损耗较大。针对这个问题，文献\[56\]提出通过交错绕制两相电感的部分绕组以加强耦合，可以降低电感峰值磁动势，减小电感损耗。 在此基础上，文献\[57\]提出多相耦合电感的集成方式，M 相电感分别绕制于M 个磁柱上，磁心中间存在一个非绕线磁柱用于调节各相电感之间的耦合系数。但是，随着耦合电感相数的提升，交错排布的绕组方式的具体实现过程也会更加复杂。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNic1zeDu3aKnnEzlbc8w3pL9S6USl9OFsVUYUbiatgWVwzhIewN5ibK513g4smoaxTDX9cLQLTmYqsOQArgubssZxAtYSiaIaNf7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_018_3713883dbe03.png)
 
 在高频场合，传统的利兹线变压器由于体积、 高度、质量等固有的局限性已经很难满足先进电力电子变换器的需求，取而代之的是采用印刷电路板(Printed circuit board，PCB)绕组和扁平磁心结构的平面磁件。随着平面磁板的体积、损耗、厚度占比越来越高，对不同磁件的磁板进行集成便成为了一种能够有效提高磁件整体效率和密度的方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOr34zvMRt9jogh8fPJqeibeO8jNxPHxWhRzMhx2urY4f1wKO8vEK4o4QxpOPB9rfciaiaMEcPfiaOYTm90FvKcmicVVPONwV892lfY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_019_af8381a6f861.png)
 
 文献\[58\]提出，矩阵变压器原本由四个独立的UI 型磁心组成，如图17 所示，通过实现磁通的相互抵消， 得到两个UI 型磁心结构。进一步将两个UI 型磁心进行集成，则可利用单一磁心实现矩阵变压器的全部功能，如图17a 所示。若将图17a 中的一个UI型磁心旋转180°后再进行集成，便可获得如图17b所示的第二种磁集成结构。方式二的磁板中磁通密度仅为方式一的一半，这有利于高频变换器实现高效率运行。文献\[38\]所述的混合谐振变换器中，将隔离变压器和自耦变压器的磁心进行集成和优化，得到如图18 所示的五磁柱结构，极大降低了磁性元件的磁心和损耗。文献\[59\]提出了一种用于四相LLC 变换器的新型五磁柱变压器，在传统的四路矩阵变压器上增加了一个中心磁柱，实现了平衡的电流共享，并减少了45%的传导损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPhTaibmm3qQhWQAHrEsJib0mcF6A9l6L8KLLdQDP5WbIHPJXtq9dJII6ibmTwhMRSvAHGKnPoJaMJLVlUKMTGIOMHrXgsg12pOiaE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_020_65dd735a3698.png)
 
 上述的集成技术主要针对变压器的磁性元件，当应用场景对电压调节范围有特定要求时，LLC 谐振变换器往往需要额外加入谐振电感，以满足其电压调节需求。文献\[60\]提出了一种结合矩阵变压器与电感的集成式LLC 谐振变换器，其谐振电感与变压器磁心进行了整合，通过增大磁盖的有效截面积，显著减少了磁心损耗。由于LLC 谐振变换器中变压器与谐振电感的磁通相位差较小，文献\[61\]提出将谐振电感布置在变压器副边，以增加磁通相位差，并采用无气隙边柱的磁件设计，扩展磁通在磁板中的流向，进而降低磁密并提高效率。文献\[62\]提出在磁板和边柱处设置气隙的集成方案，以实现更均匀的磁密分布，但磁件数量的增多也带来了装配和固定成本的上升。针对平面变压器层间电容过大的问题，文献\[63\]提出了一种漏感能够控制且绕组重叠面积较小的集成结构，从而有效提升了整体性能。  
 
@@ -157,11 +157,11 @@ LLC谐振变换器在谐振点附近工作时，能够实现零电压开关(ZVS)
 
 在XPU 供电中，由于输出电压的持续降低，磁心损耗已经不再占据变压器损耗的主要部分。而随着电流的不断增大，绕组损耗在总损耗中的占比越来越大，对变压器绕组的长度和面积进行集成和优化，已经成为降低损耗、提高效率的关键所在。因此，在大电流场合，对变压器绕组的集成和优化， 是进一步提高变换器性能的重要方向。其中，一个最为突出的问题是，在传统变压器设计中，原边与副边绕组的匝数通常被限定为整数。这一限制使得面对大变比需求时，因为副边绕组至少需为1 匝， 绕组损耗难以得到有效的降低。文献\[64-65\]提出了一种创新的分数匝绕制技术，突破了传统设计的局限。文献\[66\]对文献中提及的一种基于EI 磁心结构的半磁通变压器进行了直观阐释，如图19所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZXFDM7vq9k4icEPA89umXia4GbJtrf9ib6BZMLZU3rJ74NQVibZNupNnpy0oNDGibwibibueia2f4S7enoiaL5A9Oy2icYR9hHqTib6m958/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_021_94d2e0ecb318.png)
 
 文献\[67\]介绍了一种四分之一匝变压器的概念，文献\[66\]同样对其工作原理进行了清晰展示，如图20 所示。文献\[62\]研究了一种小型化的分相半匝变压器，它充分利用了多相变压器(例如矩阵变压器)的并行化优势。通过将磁心和损耗的线性折衷与增加分数匝数相结合，该变压器可被视为这些损耗的指数折衷方案。文献\[68\]提出一种可变逆变整流变压器(Variable inverter rectifier transformer，VIRT)的混合电路与磁心结构，赋予变压器分数和可重构的有效匝数比。这一特性在宽工作电压范围和高升压/降压需求的变换器中极为有益，因为它提供了一种减少变压器内匝数和损耗的有效途径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPQjBeYqzc7K1Fu4AtH3yQ4eG6HzTq5rZKNnnasfXWQTIM9seXRzg8tGIFJLuibAicqThSZGp9cRxlshXjP6jVibGjGMXicVtk0UnI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_022_65aa5aad2762.png)
 
 尽管上述的研究已经使得绕组长度得到了有效的减小，但在低压大电流应用场合，磁心的面积已经几乎接近甚至小于开关器件和输出滤波电容的面积，在传统的结构中，开关器件和输出滤波电容的存在使得即使采用分数匝的结构，绕组仍然具有较长的回路，为了进一步减小绕组长度，需要进一步 对异质集成方法开展研究。文献\[69\]提出了一种基于磁通抵消的绕组变压器异质集成方法，如图21所示，实现了几乎“零绕组”的分数匝变压器结构，极大降低了变压器的损耗和体积。针对变压器绕组、功率器件之间的异质集成，已经成为进一步降低绕组长度和损耗的关键技术，异质集成技术方法也成为目前的研究热点。
 
@@ -193,14 +193,14 @@ LLC谐振变换器在谐振点附近工作时，能够实现零电压开关(ZVS)
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMzFjACQKicfN1rgBlWINWKthqS89ZciaoJcMCGAJFWL4QnGbGDgeMmeYSviaqQw6xrj36z5z4Q4LKs1ibsxEM8PX87bLUTCTWzR7c/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_023_12fa9dce72db.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPyQhGHVXibyAibMXVlVSFpEfyaFwHI8FpeuthLsrhI6HaOCZ9sPQBf3LbDCanjEfOqbic0PjNGML2w4d2C5XTNykDG3cIEI1icUc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_024_65ca423e6431.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMXdEp4r1joTYwnd4iaznmvfEztLCH1PSAILTytIPotMTiaSMgHs2SX8RPtaKVngPxGosGqEAJkWRznqSJcjvJsDJ6iaQ8Uibkqh20/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_025_88af778da864.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOptat6LJT1SCJYdN57XqH9Ar5Ag2Tx8nLw8YiceJqjXLA9PJibKFLNWnMVcfoT0JnfQt6PKtXR4BZwZ8My3HH5B4npuJaacbUFs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高算力_XPU_供电技术研究综述_images\img_026_c83f76e1039a.jpg)

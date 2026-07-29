@@ -22,7 +22,7 @@
 
      最后，讨论了分布式数据分析与建模的两种主要方法——主动聚合机制与被动聚合机制。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0xX8WW4SoMY0AZ6N9DQzia0Aay0fic8OTLODxBKw2PxTGK1PXJZpxlsgHQ1c0mBZ3deRibK7RNslQoA/640?wx_fmt=jpeg)
+![](加拿大皇家科学院院士Witold_Pedrycz_面向数据分析的粒计算_images/img_000_9d18a5a6e7e1.jpg)
 
 从数值型数据到粒模型建立的范式转换流程
 
@@ -32,7 +32,7 @@
 
 W. Pedrycz,“Granular computing for data analytics: a manifesto of human-centric computing”, IEEE/CAA J. of Autom. Sinica, vol. 5, no. 6, pp. 1025-1034, Nov. 2018.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0xX8WW4SoMY0AZ6N9DQzia0Xv8ujSnFBoYxZ4FibIL354fSFBEXh9g6Qgo2UvrbjDqxGIhJS4VSBeg/640?wx_fmt=png)
+![](加拿大皇家科学院院士Witold_Pedrycz_面向数据分析的粒计算_images/img_001_de3490345cec.png)
 
 扫面上方二维码阅读全文；需要PDF的后台留言邮箱小编给您发送~
 
@@ -42,7 +42,7 @@ In the plethora of conceptual and algorithmic developments supporting data analy
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0xX8WW4SoMY0AZ6N9DQzia0QylUyeDWicBLoMFpqcsiaQ72ouvzUR1iaYIGrhpSibeD6dAYFgAXDkusOQ/640?wx_fmt=jpeg)
+![](加拿大皇家科学院院士Witold_Pedrycz_面向数据分析的粒计算_images/img_002_bfc3b8d95a6a.jpg)
 
 **Witold Pedrycz,** 加拿大阿尔伯塔大学教授，加拿大计算智能研究中心首席科学家，加拿大皇家科学院院士、波兰科学院外籍院士，波兰华沙科学院系统研究所主任、英国诺丁汉大学计算机科学学院特聘教授，IEEE Fellow, IFSA（国际模糊系统协会）Fellow，长期从事计算智能、模糊系统及数据挖掘等相关领域研究，发表SCI学术论文500余篇，出版专著近20部，h指数为 99。历任IFSA主席和北美模糊信息处理协会（NAFIPS）会长；担任 Information Sciences, Granular Computing等期刊主编、IEEE Transactions on Fuzzy Systems, IEEE Computational Intelligence Magazine, Pattern Recognition Letters等期刊副主编/编委；获IEEE SMCS协会颁发的最高技术成就奖IEEE Norbert Wiener Award（2007年）、IEEE加拿大计算机工程勋章（2008年）、Soft Computing领域国际最高奖Cajastur Prize（2009年）、加拿大皇家科学学会最高奖Killam奖（2013年）等。
 
@@ -70,9 +70,9 @@ In the plethora of conceptual and algorithmic developments supporting data analy
 
       欢迎扫描二维码、长按图片识别关注自动化学报英文版微信公众号：报道自动化领域国内外最新研究成果，提供论文免费浏览下载，传递学术活动信息和期刊动态，即时出版咨询及稿件状态查询
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0xX8WW4SoMY0AZ6N9DQzia0XZO2fSN2CsSrh8FO087Oic6xmn0QL3HnTLXarNv43FFrv5FfuUknOJA/640?wx_fmt=jpeg)
+![](加拿大皇家科学院院士Witold_Pedrycz_面向数据分析的粒计算_images/img_003_eaa428f0b3dc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0xX8WW4SoMY0AZ6N9DQzia0fxHH45viaAG2bNpbokEMicXs4oGur5d4ziagLfpwtz4M0au7e8YoM0QLQ/640?wx_fmt=png)
+![](加拿大皇家科学院院士Witold_Pedrycz_面向数据分析的粒计算_images/img_004_45df9c4e4818.png)
 
 **网站**：
 
@@ -94,4 +94,4 @@ www.ieee-jas.org
 
 **Tel:** 010-82544459, 010-82544746  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0xX8WW4SoMY0AZ6N9DQzia0sHPiaSR9bcVaQQkf5ib721oaVXCtQxHAC20XldKKg1HCOicC0YiaM5QThA/640?wx_fmt=png)
+![](加拿大皇家科学院院士Witold_Pedrycz_面向数据分析的粒计算_images/img_005_64703f16206f.png)

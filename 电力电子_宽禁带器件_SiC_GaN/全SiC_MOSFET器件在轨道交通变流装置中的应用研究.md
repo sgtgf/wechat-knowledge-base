@@ -27,7 +27,7 @@
 
 与Si材料相比，SiC材料具有更大的禁带宽度、更高的临界击穿场强、更高的电子饱和漂移速度和更高的热导率，这意味着SiC材料的器件工作温度更高、能 承受的阻断电压更大、导通电压更低。SiC材料与Si材料的性能对比如图1所示。用SiC衬底材料来制备单极型器件，可提高器件的耐压至1.2~6.5 kV，覆盖了以Si IGBT为主流的双极型器件的电压范围，从而在同等电压下可以用开关速度更快、损耗更小的单极型器件来替代双极型Si IGBT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlfFgeMsG3OPS7IHO8Uaypkic09J5I5PiaUia1hucYymqRupXfGnw9L9Kmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_000_6e4562e7a57e.png)
 
 SiC MOSFET作为宽禁带半导体器件，具有高热导率、耐高温、高阻断电压，以及抗宇宙射线能力强的特点，能提升器件的功率密度、降低损耗、提高开关 频率，从而能减轻系统重量和减小体积、提升能效。 
 
@@ -39,11 +39,11 @@ SiC MOSFET作为宽禁带半导体器件，具有高热导率、耐高温、高�
 
 ③反向导通压降：与 Si IGBT模块中的续流二极管相比，如果二极管 （SBD） 和 MOSFET 都导通反向电流 （同步整流模式），全SiC MOSFET器件的反向压降也相对小很多\[见图2(b)\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYldfDicv2kEQVS0544GVtXc7Q3R9n6Y9ZIqyHMQib20vCSstCBxuBBKxbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_001_bb60df0be0a8.png)
 
 ④开关损耗：Si 模块所基于的 Si IGBT 和 Si FRD均为双极型器件，与之相比，全SiC模块所基于的SiC  MOSFET和SiC SBD均为单极型器件，由于全SiC模块大幅减小了拖尾电流和反向恢复电流，因此具有极低的开关损耗，如图3所示。相比传统的Si模块，SiC模块可以使开关损耗降低80%~90%。且随着结温的变化，SiC器件的开关速度和开关损耗的变化幅度不大，说明SiC器件更适合高结温的运行工况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlDPeOJ4icicibkBN2xk2Uuahtfl0wytLIeMmK1YnLYlMtM4iaFs23ib8t67g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_002_12a64af4de2c.png)
 
 ⑤短路能力：由于 SiC MOSFET 和Si IGBT存在输出特性上的差异，SiC MOSFET 具有更高的饱和电流，因此SiC MOSFET的短路耐受时间远短于Si IGBT的10 μs。
 
@@ -77,19 +77,19 @@ SiC MOSFET器件的应用推动了轨道交通牵引辅助变流装置的轻量�
 
 2020年，三菱电机公司宣布已在日本中央铁路公司（JR-Central）的N700S 新干线列车上完成全 SiC 电源模块的铁路车辆牵引变流器系统 （如图 4 所示）安装，据报道，这是首个安装在高速列车上的全SiC牵引系统，与现有广泛应用的牵引系统相比，新逆变器尺寸减小55%，重量减轻35%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlSwibrMP5T2Dzibp4EKELmTIzmWjicdW705WWCXu8hX7WVWAQ8cPmBSTmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_003_5b52ab5da42e.png)
 
 2017 年，加拿大 Bombardier 公司在位于瑞典韦斯特罗斯的工程中心设计制造和测试了配备SiC的Mitrac  TC1500牵引变流器原型机。从2017年12月到2018年3月，Bombardier 公司将该牵引变流器装载在斯德哥尔摩地铁Green线路的C20型车上进行行驶测试，结果显示推进系统的能耗减少35%，噪声排放降低19 dB，尺寸减小51%（如图5所示），重量减轻22%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlNWUWgwoQCmm8MD6L5rhydqLKRgZAyKibzoZS7dJgtO67bnibgws2YEtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_004_e7c182c5d532.png)
 
 2020年，株洲中车时代电气股份有限公司研制的城轨SiC牵引变流器在深圳地铁装车应用，相较于原车Si IGBT 牵引变流器，SiC 牵引变流器体积下降 30%、 重量下降40%。经线路能耗试验对比，搭载SiC牵引系统的车辆较采用 Si IGBT 牵引系统的车辆节能 10% 以上。SiC变流器外形及装车现场情况分别如图6和图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlgNej1Km5BN8ZmfhMuZ4HhCh1ROkxLXRgBmZvbkLLZHDUOBkjqEUEQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_005_893a6ceb8a34.png)
 
 2023年，株洲中车时代电气股份有限公司研制的城际/市域走行风冷SiC牵引变流器在温州S2线装车应用， 相较于原来的Si IGBT牵引变流器，SiC牵引变流器冷却系统重量下降34%，效率从97.9%提升至98.7%，噪声下降14dB。经线路能耗试验对比，采用SiC牵引系统的车辆较采用Si IGBT牵引系统的车辆节能10%以上。 变流器外形及装车现场情况分别如图8和图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlMqlcuzQSRtv2WYRd0Gz6dt8SicFr6pGsZlWxxz9ldVubAIe46xpseIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_006_eca1a0b919c0.png)
 
 2.2　辅助变流器
 
@@ -97,11 +97,11 @@ SiC MOSFET器件的应用推动了轨道交通牵引辅助变流装置的轻量�
 
 2018年，西门子完成全SiC辅助变流器样机研制， 并于2019年正式推向市场，具体如图10和图11所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlaG1KsIVFsDOPgyydu76BFhzVAJJT1Q4TaKQEum4gk7NVVrv7eicxpYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_007_462038515f05.png)
 
 与Si IGBT辅助变流器相比，其重量降低32%，效率从93%提升至96%，功率密度提升40%。该产品已应用于维也纳、伦敦、高雄、慕尼黑、悉尼、曼谷等多个城市的地铁和市域铁路项目，累计批量超过250列。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlfO1XDv0iaEozQz5EGblwibQLbFNKc94OUEUTQrrxqHCQVdEKjfhlhBvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_008_0dd11733ae73.png)
 
 2023年，株洲中车时代电气股份有限公司推出城轨SiC辅助变流器产品平台，实现产品高可维护性、低损耗、高效率、高功率密度的目标，具体如图12和图13所示。相比Si IGBT辅助变流器，SiC辅助变流器的体积和重量降低 35% 以上，功率密度提升59%，损耗降低30%，效率从94%提升至96%。
 
@@ -119,11 +119,11 @@ SiC变流装置的控制技术需充分发挥SiC MOSFET器件高频化、低损�
 
 传统Si IGBT器件受开关损耗与散热限制，其最大开关频率一般不超过500Hz。因此，基于Si IGBT器件的牵引变流装置通常采用了“异步+同步+方波”的多模式调制方式，具体如图14所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYl2MIxRR4icB8CiaYPt08WKicP5SQmsG6JibMygmuHtg1Wo96monEzhGKFjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_009_fe1dedd9fee0.png)
 
 对采用SiC MOSFET器件的牵引变流装置而言，需充分考虑其高频化特性， 对调制方式进行针对性优化。较为典型的SiC牵引变流 装置调制方法为高频\-低频混合型多模式PWM 调制方法（如图15所示），该方法根据电机不同转速区域采用不同调制方式：在30%额定转速以下的低速段，充分利用 SiC MOSFET 器件的高频特性，基于系统损耗优化原则对逆变器额定开关频率进行优化设计，采用高频空间矢量脉宽调制（SVPWM），降低电机电流总谐 波失真率；在30%~50%额定转速的中高速衔接段，采取电流谐波最小PWM（CHMPWM） 优化同步调制， 实现电机电流的谐波抑制；在50%额定转速以上的高速段，采用优化3脉波调制模式代替传统方波调制，在 提升电机电压利用率的同时抑制低次电流谐波，改善电流品质，其电机电压利用率达到97%以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlwL3FxTZibK2fYe0fyRx76fLLRXhqMUJIbLKHSV8sLycSiaEjnPxZA9Qw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_010_056c1fc7692b.png)
 
 在额定开关频率优化设计方面，额定频率并非越高越好，虽然电机损耗随频率提高而减小，但是变流 器损耗随频率提高而增加。以城轨牵引系统为例，将SiC 牵引变流装置的额定开关频率设定在 1.5 ~2.5 kHz内可取得全局较优的效率水平。 
 
@@ -141,7 +141,7 @@ SiC变流装置的控制技术需充分发挥SiC MOSFET器件高频化、低损�
 
 3.4　热管理技术
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYl4EdtVG91PHD2aszWZ70iaI90WISUuA8PPh6tKE9PuH8jYwzobltra4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_011_ca9250d0f6cd.png)
 
 SiC MOSFET器件因半导体材料迭代更新，其损耗与器件热阻与传统Si基器件相比具有明显差异，导致热管理技术方案也随之变化。 
 
@@ -151,13 +151,13 @@ SiC MOSFET器件因半导体材料迭代更新，其损耗与器件热阻与传�
 
 3.5　电磁兼容技术
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYl9Irelr39uiaop0bSRUXSJGM2lLtvbyXdEbbvhmyc1pEf2kiauPaTADfA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_012_22ac4ce9c48d.png)
 
 SiC MOSFET器件凭借高开关速度、低导通损耗与高温耐受性，显著提升了牵引系统的功率密度和效率， 但快速开关特性带来了严峻的电磁干扰（EMI）挑战。
 
 SiC MOSFET器件与Si IGBT器件du/dt对比如表2所示，Si IGBT和SiC MOSFET三相变流器共模电压源频谱对比如图16所示。由图16可知，相较于某地铁Si  IGBT牵引变流器，基于SiC MOSFET器件的变流器在低频段 （10~3 MHz） 的共模电压源恶化了 5dB 左右； 在高频段 （\>3 MHz） 的共模电压恶化了 20dB 左右。 共模电压增大将引起寄生电容耦合电流的显著增大， 这会导致共模噪声电流的明显增大；高频分量 （\>3  MHz） 增加会增强通过母排和器件的辐射，这将对敏感电路产生干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYlsoTrXcibtB82ToibbeHbdAcbqNNhAfAficAsYG40icLcibS4XfLib5Dia6uTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_013_f47294365f1d.png)
 
 为优化SiC变流器EMC性能，可采用的EMC设计 技术包括高频振铃抑制技术、强弱电隔离设计技术、 滤波匹配优化技术等。
 
@@ -171,7 +171,7 @@ SiC MOSFET器件在开关过程中，其结电容、器件寄生电感及负载�
 
 3.5.3　滤波匹配优化技术
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslO2SNiaRVTw6csgadWyibnYluBcNE8GhY17uqplUWuXeyiat6VMDrgeorjiazP271lLgicIatnb30kjDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_014_3068b7f45767.png)
 
 SiC MOSFET器件的应用使高频干扰进一步增强， 需重点关注高频段的滤波性能。高频段EMI滤波器内部寄生参数复杂，电容和电感之间的耦合参数、输入 输出回路之间的耦合参数 （如图17所示） 都限制了滤波器的高频性能。通过对滤波器内部的耦合参数进行优化和控制，可以显著提升滤波器的高频性能。
 
@@ -217,13 +217,13 @@ SiC MOSFET器件推动了变流器高频化，虽能实现磁性元件小型化�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsndd04grsxL9NRv0wD92bylQY3aaBJ66fIet6M1liasicjOCicZpwzo57enV1uNXJctbIbVkQM6XNH6Q/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_015_e35df39a190d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsndd04grsxL9NRv0wD92byltE8WwcGYXmK4s6VcXXIXxmS2RFdD1NiaCf0kr3aXQKdzpeEj1MYyU0w/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_016_42e326a0ca6b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylFeePXIrib44E1wJA7kNf0LJp6lMUoHuNPGv8Lr9WLibnGBfuYicPGGu0g/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全SiC_MOSFET器件在轨道交通变流装置中的应用研究_images\img_017_81da7797aea8.png)

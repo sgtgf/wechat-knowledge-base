@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/frvOOwSpZ3wcGgor4It7fw](https://mp.weixin.qq.com/s/frvOOwSpZ3wcGgor4It7fw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLWhNIVf6h0GGIgbMic2fEMPFOpYMRVpz3mtCEU6Kb7FUFKAlLDAIO5Bg/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_000_fd30006d6af6.png)
 
 ____**★★★**______DC-DC-16---DC-DC的Cin与Cout______**★★★**____
 
@@ -11,13 +11,13 @@ ____**★★★**______DC-DC-16---DC-DC的Cin与Cout______**★★★**____
 
 _________€1._____降压DC-DC的工作环路____
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfB7V2xMBSicbWCxD6PyZEcHK5IhGMcE0AFXWia1a4P703rX7VYJt3fs26g/640?wx_fmt=png)_
+_![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_001_8e497c343528.png)_
 
 **_图16-1：Q1导通时的电流流向_**
 
 如**_图16-1_**所示，当开关器件Q1导通时，电流从Vin通过电感L给输出平滑电容Cout充电，并提供输出电流Iout。此时电感L上流过的电流会产生磁场，以此将电能变换成磁能并储存起来。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBBtIwowJZVialnniakTvUjaicrbaG2EcseZCQNJsUZcllVNrcYUicfERo7g/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_002_404287095435.png)
 
 **_图16-2：Q2关断时的电流流向_**
 
@@ -27,13 +27,13 @@ ______€2._____Cin的计算_
 
 输入电容Cin的额定电压必须高于最大输入电压Vin，输入电容器Cin的额定纹波电流必须大于IC的最大输入纹波电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1NAU3ZwBfA1WIHhRVc3AZ6cw8aPvolnayMt75QyV4aeyjy0icAS77NeSSYAujic9YgNUIfSUs8uGg/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_003_c22178ab4c11.png)
 
 **_图16-3：关键器件电流波形_**
 
 降压DC-DC的输入电流的平均值随着降压比增大而减小，但是如**_图16-3_**的IDD所示那样，输入端短时间内也会流过与输出电流相同大小的电流。虽然可以通过输入电容进行滤波平均化，但是从**_图16-3_**的Ici也可以明显地看到，流经输入电容器Cin的交流波纹电流，比流经输出电容器Cout的电流Ico的纹波电流大。Ici的有效值可以用以下公式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5vYg2ynQ0wz3l24SvvMZiclblHRW1JtBgI8eKicZypuV1ibiaicfJDkibwzsw/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_004_76d5c509a47b.png)
 
 𝑉𝐼𝑁：输入电压\[V\]
 
@@ -49,13 +49,13 @@ ______€2._____Cin的计算_
 
 **_图16-4左_**是村田制作所制陶瓷电容器的纹波发热特性。根据该图表和波纹电流的绝对最大额定值，判断是否可作为输入电容器使用。使用陶瓷电容器时，需要注意温度和电容器所施加的DC偏置电压。电容值随温度变化的问题，可以通过使用X5R和X7R等具备高介电常特性数陶瓷电容器，从而得到稳定的温度特性。陶瓷电容器两端的DC偏置电压增加的话，电容的容量就会下降。**_图16-4右_**表示村田制作所制陶瓷电容器的DC偏置特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5qjbabSibhlf9Yp2ZwqgpaweKOokE32rajbcLU92SMDRiaia0ic0DwL1NcA/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_005_a0fe71319c30.png)
 
 **_图16-4：MLCC纹波发热特性和DC偏置特性_**
 
 输入电容器Cin的容值，决定了稳压器的输入纹波电压。输入纹波电压ΔVIN可按以下公式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5iauyvZicRHvTZ9MmLm35YIuhtxUFFgfg2BzpPFjl7icShykspHcicjJamQ/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_006_e47a3dfede21.png)
 
 𝑉𝐼𝑁：输入电压\[V\]
 
@@ -73,21 +73,21 @@ ______€3._____Cin的计算实例_
 
 如下是设计参数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5MibPcn9oNhbysnP9rQvXX6elJQMFhw3ROeib6q67xiaLJDZ8oI8Hict4rw/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_007_0f0a4c88bfe4.png)
 
 **_表16-1：设计参数_**  
 
 将各参数代入式(1)，计算输入纹波电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5RzVPHrPlPXf5WpQN2KxdXvoI0znyqCBhxu9iaicKiak8sqUY6BA6RuuTw/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_008_ddabf6dd8948.png)
 
 **_图16-4左_**显示纹波电流容量有足够的余量，接着将各参数代入式(2)，计算输入纹波电压。此时，必须考虑陶瓷电容器的DC偏置电压特性。在本例中，电容器所施加的最大电压为28V，因此比**_图16-4右_**额定容量值减少了48%。另外，陶瓷电容器的ESR为2mΩ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5NXzibyUrOVOfQ8m6ox70Fb0xbu7snulGLDLGiaZ2cyePBYciavW6vSSwg/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_009_36e265cdc60d.png)
 
 另外，最小输入电压时的纹波电压是以下公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5kAiap9hS1FID7Kg2Y4iay2VguKWLxeVBY83XmtrlY12E2fTsnEHVRTxw/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_010_b2b9ab1d9c7f.png)
 
 我们发现设计要求的输入纹波电压在300mV以下，输入电容器Cin两端的最大电压为VIN（MAX）+ΔVIN/2。为了获得进一步的电压余量，考虑并行使用2个4.7μF/50V电容器（ESR更小）。另外请注意，实际的输入纹波电压会受到PCB布局产生的寄生成分及电压源（前级电路）的输出阻抗的影响，有时会比计算值大。
 
@@ -95,7 +95,7 @@ ______€4._____Cout的计算_
 
 输出电容Cout设计中重要的要素是额定电压、纹波额定电流和ESR（等效串联电阻）。电容器所施加的电压及纹波电流必须在最大额定值以下。ESR是决定输出纹波电压和电感电流的重要因素。输出电流中包含的交流成分纹波电流，像**_图16-3_**的Ico一样是三角波，其有效值可以用以下公式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5frHTR0QZcALdUodTYub9AlyaQBf7jKpzSEkvWwUUVdPV7m33P9iaqNg/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_011_d729df7a46ce.png)
 
 𝑉𝐼𝑁(𝑀𝐴𝑋)：最大输入电压\[V\]
 
@@ -107,7 +107,7 @@ L：电感值\[H\]
 
 输出纹波电压是因为电感电流的纹波成分流入输出电容，由输出电容的静电容值、ESR、ESL产生的合成波形，用以下公式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5tKIOmIuAj3bGhXfz7wfIeVGdghAG3Eo9Oib9KtNKurXCHVdOqwshEmw/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_012_aeabe405d221.png)
 
 𝑉𝐼𝑁(𝑀𝐴𝑋)：最大输入电压\[V\]
 
@@ -129,14 +129,14 @@ ______€5._____Cout的计算实例_
 
 在本设计示例中，使用**_表16-1_**所示的参数。使用的输入电容器假定为村田制22μF/25V陶瓷电容器。将各参数代入式(6)，计算纹波电流。电感L使用4.7μH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5TZWy7WbUpnLhtKiakpPlHUGkicvDLZalkaVyJUc5iaeNlicaxxRjVCGOXg/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_013_b29dac994ac8.png)
 
 **_图16-5左_**显示纹波电流容量有足够的余量。接着将各参数代入公式(7)，计算输出纹波电压。此时必须考虑陶瓷电容器的DC偏置特性。在本例的情况下，施加到电容器的电压为3.3V，因此比**_图16-5_**右的额定容量值减少2%。陶瓷电容器的ESR为2mΩ，ESL为0.4nH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic5YKeE9paKBaae29IibDib0UbNHVN7acj67fN6uaKukOqQjUZCeKp9614w/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_014_8e59d5926f14.png)
 
 由于输出要求的输出纹波电压为33mV，因此判断满足值。但是请注意，实际输出纹波电压受PCB布局产生的寄生成分及电容器ESR、ESL成分的影响较大，可能比计算值大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSvhiatdzk4qKhS8ic23Vdaic55KRcpsugZUdnjYXqZQ7f7ZUoIWLias0RnaRUfszgtjkqTMicU2glv9xg/640?wx_fmt=png)
+![](DC_DC_16_一文教你如何计算DC_DC的输入电容Cin与输出电容Cout_images/img_015_c7af5ee7ef8b.png)
 
 **_图16-5：**_MLCC纹波发热特性和DC偏置特性_**_**

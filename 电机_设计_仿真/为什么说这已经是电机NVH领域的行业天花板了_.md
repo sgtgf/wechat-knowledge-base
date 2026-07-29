@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/PiU1NBz9caScOUsidVnz5A](https://mp.weixin.qq.com/s/PiU1NBz9caScOUsidVnz5A)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVSxQKv9fv5DX0yndEv5nwjySjAo76biaScM1O4pKCh3TCYD9EchSsnvypBqKicUia1AGlVBxRMp2g3w/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657579&idx=1&sn=f3dade0ea9eb20aa1b613329bb2c4eee&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_001_1d7425cc54fd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657579&idx=1&sn=f3dade0ea9eb20aa1b613329bb2c4eee&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_002_e532dba355d8.gif)
 
   
 
@@ -21,7 +21,7 @@
 
 对比之前三天的课程，我们这次相当于增加了一天的内容（新增的电机振动噪声测试部分及考虑电机控制系统的NVH仿真等内容分两个半天进行），但是价格跟之前一样，真正做到让参加研修班的学员获得更多收获和更高性价比的服务，欢迎大家扫码报名参加本次培训：
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKuBye4hRleZ7jYicrw0UpwSM8SvqS1kMvRYOSVqZUu6vBvvU13YFjCDvkozvmGthYe7kuA6IEd646Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_003_3685f43f2833.jpg)
 
 作为电机设计进阶研修班，本课程将带来具体哪些方面的提高和帮助呢？下面将进一步给大家介绍培训的内容和安排：
 
@@ -87,7 +87,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtwVkQziadctVRiamc5TiczVblGIqDEdPjZTjiaSrkmqnaq83mR5yLVP23UyreibsC7vOJ1FYlHhvWt3QQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_004_081ceea1900c.jpg)
 
   
 
@@ -123,17 +123,17 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXanAyERb7zyHibKcjicmGsQiaICBc3BhWejWhpBTvf6t35fBkicBSMFK2J8SAxuLRTYjM5gAMpUibQ7tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_005_0f67562a7c04.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_006_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVNcIUT6GuypbB19OZCfibVWWHoXkAW5f6Q8agluTycI4TlDprAeHan5xqC8tV1ibVwYZuY7Z2ZiafibQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=1&sn=36bd3ec536248fff36a5277183599dcc&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_007_6852f02e9cfd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=1&sn=36bd3ec536248fff36a5277183599dcc&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_008_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=2&sn=bf2275569ee7a1fb1e26d0baf4d01a71&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_009_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650657571&idx=2&sn=bf2275569ee7a1fb1e26d0baf4d01a71&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_010_cb8185f2cf41.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么说这已经是电机NVH领域的行业天花板了__images\img_011_64bd90de404b.png)
 
 [](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)点击**阅读原文**，直接报名参加本次培训！
 

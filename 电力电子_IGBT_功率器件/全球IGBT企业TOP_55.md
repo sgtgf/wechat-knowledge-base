@@ -12,7 +12,7 @@
 
 除了比亚迪、斯达半导和中车时代电气，还有拥有国内第一条全内资8英寸专注功率器件晶圆生产线的华润微；全球首家提供场截止型绝缘栅双极型晶体管（FS IGBT）量产技术的8英寸集成电路芯片的华虹半导体以及在全球IGBT分立器件市场份额排名第十的士兰微。
 
-尽管中国的IGBT市场份额和业务量有所增加，但与海外龙头英飞凌在IGBT分立器件和模组市占率相比，仍有一些差距。![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cgrfgb8fggMJR8u4kW9wdic0HlhlrOz9M3HVYFnH4ib5wsyuvuHNCLqh2oMCw3ibrIMPBbbX5REibibS0w/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cgrfgb8fggMJR8u4kW9wdic0dUlgrQxHTSuD19YVO2n96cDvpHE5ZEIqh0VWOPt15LrPYCuWxL4MnA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)注：排名无先后
+尽管中国的IGBT市场份额和业务量有所增加，但与海外龙头英飞凌在IGBT分立器件和模组市占率相比，仍有一些差距。![](全球IGBT企业TOP_55_images/img_002_882c41695be7.png)![](全球IGBT企业TOP_55_images/img_003_10f69dab1535.png)注：排名无先后
 
 中国轨道交通IGBT（绝缘栅双极晶体管）的发展进程绕不开一个关键灵魂人物——中国工程院院士、原中车株洲电力机车研究所有限公司（中车株洲）董事长丁荣军。
 
@@ -54,11 +54,11 @@
 
 1980年，美国通用电气的工程师Jayant Baliga发明了一种兼具MOSFET管和双极型晶体管（BJT）优点的复合型元器件——绝缘栅双极晶体管（IGBT），能够更好地控制感应电机的电源线频率，进而控制其转速使得功率降低，以减少油耗损失。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1uQWiaqLuWmWze0j7UkUtbAt2cgjd4Jys2eD0EzPqsC0BQQfWJT5zunA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_004_dafbe59d6fd2.png)
 
 事实上IGBT的结构与MOSFET十分接近，只是在其背面增加了N+和P+层，“+”意味着更高的自由电子或者空穴密度。从而IGBT在保留MOSFET优点的同时，增加了载流能力和抗压能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1Kbqulug5E5AV0bfNhg24iaeEhib3xk1BmM6KmejYPVaHtBUGNWRTsFvw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_005_f4e032641058.png)
 
   
 
@@ -68,7 +68,7 @@ IGBT既可以帮助空调、洗衣机实现较小的导通损耗和开关损耗�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1kVPJz6wvrF8DOIdAnYz2OR81lI2smJzmpVckD2JaVxet1lhNz0SokA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_006_a2061b5550b1.png)
 
 IGBT在不同电压下的应用  
 
@@ -84,7 +84,7 @@ IGBT在不同电压下的应用
 
 短短四年时间，英飞凌的第六代IGBT承受工作电压水平从之前的4500V提高到6500V，全球市占率超过一半，占据绝对领先地位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1kYlDHumHMlQRRKSzfl1A2zDwJVrJe7YtRNx9C5ibH7ZYME8OEwb8DlQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_007_d61efd50828e.png)
 
 而此时，中国企业甚至连IGBT的蓝图都还没有构思。
 
@@ -120,7 +120,7 @@ IGBT在不同电压下的应用
 
 而宁波中纬半导体则是宁波市政府白白投了30亿的失败项目。当时文章对于比亚迪的报道无一不是质疑与不解，“比亚迪至少亏20亿”、“王传福2亿杀入销金窟”等声音不绝于耳。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1Uiapl8KHFmbfmVE6SHydZBjFGJiam69OOmfwXx99sC254lglMQ9x2icOQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_008_e838b1987448.png)
 
 图片来自网络
 
@@ -128,7 +128,7 @@ IGBT在不同电压下的应用
 
 当时本该如日中天的比亚迪股价也因此一落千丈。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1Pkt67Qzs2hoop3zURYjiapgHuhDAT1ibx7rgK0LnZuupRGlrWHLbh0MA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_009_d757ab418935.png)
 
 2008年7月24日 比亚迪股价跌至5.827港元/股  
   
@@ -155,7 +155,7 @@ IGBT在不同电压下的应用
 
 > “不能总是追赶别人，我们要超越。”
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1bH04t9u4Ky20x2ibHPw6DibvOSPAS422lI6SFn2ztCvONmc5xYggs0rA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_010_66a1d80528ad.jpg)
 
 丁院士在一线对员工进行工作指导 图片来自《中华儿女》  
   
@@ -186,7 +186,7 @@ IGBT在不同电压下的应用
 
 同年，中国新能源汽车全年共生产7.85万辆，生产量同比增长近3.5倍，销售约7.48万辆，销售量同比增长近3.2倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd119ibicR7SX5jLck1vKQ6ibd80znbZMtuic1yaVZG728ic3tqMZFiaiaNTs4Pg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_011_49a7a0eee289.png)
 
 也就在这一年，中国互联网企业开始进军新能源汽车行业，蔚来、小鹏、理想先后创立，更是有许多老牌车企开始转型制造新能源汽车。  
   
@@ -199,7 +199,7 @@ IGBT在不同电压下的应用
 
 车规级IGBT最主要的应用是实现交流电和直流电的转换。当外界充电的时候是交流电，需要通过IGBT转变成直流电然后给电池，同时要把220V电压转换成适当的电压才能给电池组充电。而当需要电池给汽车传送电的时候，通过IGBT把直流电转变成交流电机使用的交流电，转换成适当的电压同时起到对交流电机的变频控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1uP9iafMicLicg6O4Sx1vhp1z4bIxibVM8hmTNHIhu3CEvXmnvsxxwocjEg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_012_48be0317f0ea.png)
 
 图片来自雪球  
   
@@ -214,11 +214,11 @@ IGBT在不同电压下的应用
 
 在斯达半导披露的IPO报告中，可以清晰地看到英威腾与汇川技术分别为其第一和第二大客户，总占比超20%，而英威腾与汇川技术正是国内新能源汽车电控技术的龙头厂商。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1Ry6eZ94Ge5yBCxe9MkyvOaGqFmsgY1WXy4P9KTTdFic3AO6s5ZtsdKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_013_3bfe70075104.jpg)
 
 造车新势力的供应需要电控技术的支持，而电控技术需要IGBT的整合。斯达半导借着汇川与英威腾的风力成功乘上了青云，2016年斯达半导的IGBT模块全球市场占有率为2.50%，跻身进全球十大功率模块厂商。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1ib1Lk2Fz5EgTdCCWWgzsncJ6XWniaBXpQN9dsUv4pWUFn4Lic52ulIFKQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_014_53fdc247cae9.jpg)
 
 中车株洲也在收购英国丹尼克斯之后如虎添翼，并联合浙大启动关于轨交IGBT芯片的02专项。
 
@@ -270,7 +270,7 @@ IGBT在不同电压下的应用
 
 同时，其电流输出能力较当时市场主流的IGBT高15%，支持整车具有更强的加速能力和更大的功率输出能力。而且IGBT4.0温度循环寿命相当于其他市场主流IGBT的10倍以上，当比亚迪电动车在应对各种极端气候、路况时，能有更高的可靠性和更长的使用寿命。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1ILic5nLv3iaAo6qpIbe5zMgQ5R6TmjGCECEz5kKvTgiapoc2joSpm3SfQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_015_3d8915eefccd.png)
 
 根据乘联会的数据，2021年前10个月，比亚迪汉EV共销售6.68万辆，销量同比增长超5倍。随着高端化实现成功突破，威尔森监测的数据显示，比亚迪单车均价在今年前7个月已达到15.18万元，超过了大众汽车。
 
@@ -322,7 +322,7 @@ IGBT在不同电压下的应用
 
 尽管中国的IGBT市场份额和业务量有所增加，但与海外龙头英飞凌在IGBT分立器件和模组市占率相比，仍有一些差距。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1le982p5K57k3ibsIegJ3Nkwp09qnFrkpqKJNuCmDkEIAia2RLibayZaqg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_016_e6a54a1fb91e.png)
 
 但是中国IGBT企业却也在此时看到了新的曙光。
 
@@ -330,11 +330,11 @@ IGBT在不同电压下的应用
 
 半导体迭代的区别只取决于其材料。如果说第一代硅材料半导体已经接近完美晶体，那么以氮化镓、碳化硅为代表的第三代半导体具备更优异的材料物理特性，为进一步提升电力电子器件的性能提供了更大的空间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1GI2VlAt0w7uGuM2ibiadplaib2JN4u5ucnIXk4gwqUCyNLFDaAPA9wZLg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_017_1dd0af01f740.png)
 
 目前的车规级半导体都以硅基IGBT为主，但近年来，SiC半导体材料迅速崛起。相比于硅基IGBT，SiC器件性能更优、体积更小、能耗更低，缺点则在于成本较高，同等级别的SiC MOSFET芯片，其成本是硅基IGBT的8~12倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/EeVic3NDuLmDjXonGefVQekLrtK0gJCd1mBkodJSwegMf3SnpVVHrUWWibj2KVVeeQZiawyAFkUSo6VPwXwias2Nsw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](全球IGBT企业TOP_55_images/img_018_5372d2640f38.png)
 
 图片来自半导体行业观察  
 
@@ -384,9 +384,9 @@ IGBT在不同电压下的应用
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](全球IGBT企业TOP_55_images/img_019_2e84b7ba26c6.gif) ![](全球IGBT企业TOP_55_images/img_020_51d069a6484e.gif) ![](全球IGBT企业TOP_55_images/img_021_5fb296583be4.gif) ![](全球IGBT企业TOP_55_images/img_022_1f30148044c0.gif) ![](全球IGBT企业TOP_55_images/img_023_c5bc86d0867d.gif) ![](全球IGBT企业TOP_55_images/img_024_b38438d4de46.gif) ![](全球IGBT企业TOP_55_images/img_025_1d54e9fe0aef.gif) ![](全球IGBT企业TOP_55_images/img_026_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](全球IGBT企业TOP_55_images/img_027_de88c48250d0.gif) ![](全球IGBT企业TOP_55_images/img_028_3b83df2d253b.gif) ![](全球IGBT企业TOP_55_images/img_029_db521919e8d9.gif) ![](全球IGBT企业TOP_55_images/img_030_aea384ea417e.gif) ![](全球IGBT企业TOP_55_images/img_031_f4924e7a240a.gif) ![](全球IGBT企业TOP_55_images/img_032_a58db91dbb3b.gif) ![](全球IGBT企业TOP_55_images/img_033_f0edc68b0c53.gif) ![](全球IGBT企业TOP_55_images/img_034_3c93e54afedf.gif)
 
 ## 
 

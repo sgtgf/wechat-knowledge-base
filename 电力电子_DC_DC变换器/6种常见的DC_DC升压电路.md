@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FIBZec7ucChYUNicUaqntiamEgZ1ZJYzLRasq5S6zvgt10NKsVZhejol3iakHl3ItlFWYc8ZAkDa2lzDc5SHxmqjw/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](6种常见的DC_DC升压电路_images/img_002_aa11f6a8c079.gif)
 
 **一、直流升压电路**
 
@@ -24,11 +24,11 @@
   
 电路中变压器T可用晶体管收音机用的502型音频输出变压器，次级作为升压变压器的初级，初级中间的抽头不用，两端抽头作为升压变压器的次级。如果找不到合适的变压器，也可以用收音机输人输出变压器的硅钢片自制，初级用直径为0.25mm的高强度漆包线绕110匝，次级用直径0.21mm的高强度漆包线绕520匝。初次级间要加一层绝缘纸，并注意初次级线圈的同名端。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHTInicdg4PSMh1lzSGIjqTusbtDjNjicDdO5F77cYb4nibHUxTibEtZJASRraPTxKnLAEEPRB4WdgLV0w/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](6种常见的DC_DC升压电路_images/img_003_01464d69fc56.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FIBZec7ucChYUNicUaqntiamEgZ1ZJYzLRasq5S6zvgt10NKsVZhejol3iakHl3ItlFWYc8ZAkDa2lzDc5SHxmqjw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](6种常见的DC_DC升压电路_images/img_004_64f7f4cef01b.gif)
 
 **二、小型直流升压器**
 
@@ -36,11 +36,11 @@
 
 如图所示是一种构造很简单的小型直流升压器，可用来取代15V的叠层电池。电路的核心元件一变压器T使用的是袖珍验钞器的专用变压器。电路耗电约40mA，输出电压为15V。如果万用表15V电池的正极与1．5V电池的负极相接，只需将图7—70中VD1（C1、VDZ的极性调过来，这样将输出一个-15V电压） 　
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHTInicdg4PSMh1lzSGIjqTusGElFq8BiaVWj30ugbKs7daxvxBk3X9N9hIs9nk5KvvdU820NTCEUEUw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](6种常见的DC_DC升压电路_images/img_005_f68f0e265c9b.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FIBZec7ucChYUNicUaqntiamEgZ1ZJYzLRasq5S6zvgt10NKsVZhejol3iakHl3ItlFWYc8ZAkDa2lzDc5SHxmqjw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](6种常见的DC_DC升压电路_images/img_006_64f7f4cef01b.gif)
 
 **三、稳压型直流升压电路**
 
@@ -48,13 +48,13 @@
 
 如图所示是一种稳压型直流升压电路。该电路可将一节1．5V的电池升压至9V，用来取代9V叠层电池使用。电路空载输人电流低于1.2mA，转换效率高达60％。该电路由振荡电路和稳压电路构成，其中VT1、VT2、C2组成振荡器，色码电感L为储能电感，VD2为整流二极管，C3为输出滤波电容，VT3、VD1、VD3及R2为稳定输出电压的稳压电路。输出电压约等于VD3的稳压值。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHTInicdg4PSMh1lzSGIjqTusbYyqkUEtSn98vWrXicNIgtulw7yNGBloV5dtL5kyFXf4BeEHEvZqEMQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](6种常见的DC_DC升压电路_images/img_007_fd9d1cf60bab.jpg)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FIBZec7ucChYUNicUaqntiamEgZ1ZJYzLRasq5S6zvgt10NKsVZhejol3iakHl3ItlFWYc8ZAkDa2lzDc5SHxmqjw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](6种常见的DC_DC升压电路_images/img_008_64f7f4cef01b.gif)
 
 **四、逆变电源电路（一）**
 
@@ -62,11 +62,11 @@
 
 如图所示是一种利用1.2V、500mAh的镍镉电池做电源的逆变电源电路，输出直流电压为9V，可供数字式万用表使用。下图中变压器T利用15mm的磁环穿绕而成（元器件参数图中均已标注人名为数字万用表的电源开关。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHTInicdg4PSMh1lzSGIjqTusiblzxptEuAAcSicTia5nzI6As2M70AR7zDugJ6axSmAMT07SGb59r2BDg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](6种常见的DC_DC升压电路_images/img_009_d3231a8eb195.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FIBZec7ucChYUNicUaqntiamEgZ1ZJYzLRasq5S6zvgt10NKsVZhejol3iakHl3ItlFWYc8ZAkDa2lzDc5SHxmqjw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](6种常见的DC_DC升压电路_images/img_010_64f7f4cef01b.gif)
 
 **五、逆变电源电路（二）**
 
@@ -74,11 +74,11 @@
 
 如图所示是自控式数字表逆变电源电路。它不需要单独设立电源开关或对表内开关进行改造。该电路具有耗电省、稳定可靠、不影响仪表精度等特点。电路中的变压器T是用E3型铁氧体磁芯、各折去一角后加工成口字形，L2在内,L1在外。整个逆变电源工作时，电池工作电流约为70mA。
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHTInicdg4PSMh1lzSGIjqTusiaEvItSCALMaL3RIjVzZjpuZkibM3uXzJZI5Y5fj0h91ha0mnFM8dpibw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](6种常见的DC_DC升压电路_images/img_011_9bdaecc0a2cf.jpg)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FIBZec7ucChYUNicUaqntiamEgZ1ZJYzLRasq5S6zvgt10NKsVZhejol3iakHl3ItlFWYc8ZAkDa2lzDc5SHxmqjw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](6种常见的DC_DC升压电路_images/img_012_64f7f4cef01b.gif)
 
 **六、简易仿制电路**
 
@@ -90,7 +90,7 @@
   
 T:E3日字型磁芯L1=18匝=125μH   L2=180匝=12mH
 
-![](https://mmbiz.qpic.cn/mmbiz/GFk2abHRMHTInicdg4PSMh1lzSGIjqTusU04IWHvZ67mGKsU3YAMa9qibQhR0n091ic4vyvQ08rgPhkib8Tdl9XeAw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](6种常见的DC_DC升压电路_images/img_013_dc2820fe6459.jpg)
 
 ## 
 

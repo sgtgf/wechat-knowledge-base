@@ -25,11 +25,11 @@ SiC 的禁带宽度约是传统 Si 的 3 倍。 宽禁带使基于新型材料�
 
 1.1 器件工作原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdrHtov0DgwnNT9Bgqs7qIxqRwA28GJMFLuNEEEXDicXchSrR24XVvmHw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_000_c5cdbb4f7767.png)
 
 图 1 给出了 SiC MOSFET 元胞结构，它是以低掺杂的 P 型 SiC 半导体材料为衬底，用扩散工艺制作出两个高掺杂的 N+区， 在 P 型半导体表面上生成一层氧化层薄膜绝缘层， 从两个 N+区引出两个金属电极，分别是源极和 漏极，在氧化绝缘层上制作金属电极，作为栅极。 由于 MOSFET 的源极和漏极之 间 存 在 一 个 PN 结 ，等效为寄生二 极管 ，其正极和负极分别是功率 SiC MOSFET 的源极和漏极。由于 寄 生 二 极 管 与 功 率 SiC MOSFET 组成 了 一 个整体，因此它对功率器件整体的静态特性与参数的影响不可忽略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdxic3qSQpcZxibVTxkMLvOT9Reib4OlQAb2dcdVJevicKhiaeZhFTehXZP4Q/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_001_9bde8828d858.png)
 
 IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+注入区， 形成了一个基极电流由 MOS 栅压控制的双极性晶体管。 与 MOSFET的关 断 过 程 不 同 的 是 ， 由于 PNP 晶体 管 的 存 在 ，IGBT 在沟道消失后载流子的消失还需要一定的复合时间，会形成相应的拖尾电流，使关断损耗提高。
 
@@ -41,15 +41,15 @@ IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+�
 
 由热在半导体禁带间产生的电子-空穴对决定着本征载流子的浓度，该参数直接影响功率器件泄漏电流的数量级， 而 Si IGBT 和 SiC MOSFET 的本征载流子浓度特性具有非常大的差异，并且该参数具有明显的温度变化特性， 可使用禁带宽度 EG 和导带 NC 和价带 NV 的态密度计算，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmId0HG2ApX7QrqDTK4EcialhLuyWBP66F7RibDernIHVvJqLtpWm04c8Qmw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_002_588e0c87cb86.png)
 
 4H-SiC 的能带宽度是 Si 的 3 倍， 这导致在任一给定温度下 4H-SiC 本征载流子浓度低得多。 Si和 4H-SiC 的本征载流子浓度分别为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdVyia6nOENBPQNoVCCEwAY4m2aXatNzL8YiaibxfeDiaXNUMAoFk8wmFZdA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_003_1b70d71c212e.png)
 
 利用式（2）和式 （3）可绘制本征载流子浓 度与温度的关系曲线，如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdE3TdzS5Pp5icC7ytEKPGkqvorx4AuW63vKFHyZ5b0EAecKP2ibztLGjA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_004_740764fa0fee.png)
 
 由图可见， 由于巨大的禁带宽度差异，4H-SiC的本征载流子浓度远小于Si，这表明 SiC-MOSFET和 Si-IGBT 在 PN 结截止时， 流过电极的泄漏电流存在几个数量级的差异。
 
@@ -57,7 +57,7 @@ IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+�
 
 载流子迁移率描述了载 流子在半导体中发 生漂移的难易程度，表征单位场强作用下载流子的平均漂移速度， 与半导体内的多个 物理参数密切相关。 载流子迁移率可表示为载流子类型（电子或空穴）、掺杂浓度和结温的函数。 在低掺杂浓度（小于1015 cm-3） 情况下，SiC MOSFET 和 Si IGBT 漂移区内载流子迁移率与温度的关系为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdO5FxwK8iaqljckVusZgUpEDtiaYI5zeHbyRFZdl6rCzneELMDpDDVxzw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_005_a4346462b70a.png)
 
 式中，k1、k2、k3 均为与 材料相关 的 常 系数 。 由此可得，两种器件在漂移区的载流子迁移速率随温度升高迅速减小。 由于半导体内电阻率与载流子迁移率成反比，功率器件漂移区 、积累层及沟 道内载流子迁移率随温度升高而减小，导致对应区域电阻率上升。 当上述区域电阻为主导电阻时，器件导通电阻随温度上升而增加。
 
@@ -65,11 +65,11 @@ IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+�
 
 在 P 型衬底的器件金属极上加正偏压时，由于能带弯曲，在半导体内形成一个耗尽区。 耗尽区宽度计算公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdkbMvibibYJkRzK6Nvb2ic52wL2FZqs0ictGlPVHRnyc1LKIaHjibG7LDAvQ/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_006_1a68d748a1a6.png)
 
 式中：εS 为相对介电常数；q 为单位电荷量；NA 为受主掺杂浓度。 可见耗尽层宽度与温度密切相关，而半导体的特征电容为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmId5aY9hHE8W8iaKfqokYeCEfmuXkr9rt1EUGNkZeiamehuicC0PlyMXwqCg/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_007_3cb365567348.png)
 
 可见，器件特征电容具有温度依赖性 ，随温度上升，耗尽层宽度增大，器件特征电容则 呈现下降趋势。 但由于特征电容是器件本体寄生参数，存在多方面的交叉影响，因此通过实验的方法直接获取寄生电容随温度的变化特性参数具有实际意义。
 
@@ -77,19 +77,19 @@ IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+�
 
 半导体中的总电荷可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmId5GojqKztbYGJsUzSa5A3TRwiaaiao006Ymohwd9bbC2AIWl3R1eVeHKQ/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_008_b6de1ca5556e.png)
 
 式中，p0为半导体内空穴浓度。 一旦MOS 结构进入强反型工作区后， 反型层中的载流子密度足够大，从而允许有导电电流流过 MOSFET 沟道。当半导体表面进入强反型模式时， 表面电势ΨS等于体电势ΨB的2 倍。 对于阈值电压，则有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeADKL9LT0VT0o3o96GldEyb7uu9Ov5TrcV66SMBcoeTiareCgkezNju2w/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_009_a2bf2fd1b5a3.png)
 
 式中：COX 为氧化层的特征电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAZkia7Jt546SXxH0Hr3CdJv1hdnWO1RlUtgNuaqd18jsickEgXSxbLsjg/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_010_54b5c5a6f5b0.png)
 
 式中：ni 为本征载流子浓度。 将式（9）、式（11）代入式（10），则有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeA3jW9lrIfxLWqRJpJCGZhFrcB7m5B8VhuPWIRTLQhnnZxa3icLSAzN4w/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_011_f96b3dbe7b24.png)
 
 当温度上升时，相对介电常数 εs 增大，本征载流子浓度 ni 随温度增加迅速，且与阈值电压呈负相关，由式（12）可知，功率 MOSFET 阈值电压具有非常灵敏的温度依赖性。
 
@@ -97,15 +97,15 @@ IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+�
 
 半导体功率器件的性能参数分为寄生参数、静态参数和动态特性。 由于 SiC 器件的开关速度为纳秒级，所以其动态特性很 难被实时测量 ，导致器件的状态监测不很现实。 因此选择寄生参数和静态特性来进行结温监测和运行状态评估。 这些特性和结温的关系可以分为 3 类：线性相关、二次相关和指数相关，分别表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAwoajvWnV72l7gtJVTKpMwCR78qeoedqewZtABk7ZYUMtsZs0suvdFA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_012_32933354002a.png)
 
 式中：Tj 为结温；a、b、p 1、p 2、p 3，m、n 均为拟合系数。
 
 实验选用Cree公司的SiC MOSFET （C2M0080120D/1200V/45A）、Rohm公司的SiC MOSFET（SCT2080KE/1200V/40 A） 和Semikron公司Si IGBT（SKM50GB12T4/1200V/50 A）作为实验 被测器件 DUT（device under test）。 虽然器件封装类型不同，但温度特性主要是受芯片影响产生的 ，芯片电热特性与封装关系不大。 实验测试原理及实验平台如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAoa3MiacDGwvdxowypxt9tnhKYzibZJ7ea0yw4sX6SNIB6FlpHwezCcaw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_013_00f16e5d1d86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAAH8Sxg8TIZYtcmyegW6MrI7vdkTVfn4wGkaFHl0MTQJaRB8ExsWyibg/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_014_4cae080baa78.png)
 
 图 4（a）为DUT 在多种结温和实际应用工作状态下的测量原理。 图 4（b）为当栅-源极的功率脉冲和脉冲幅度变化时，测量稳态导通状态测试点的电压。 保持恒定的栅极电压，通过反复改变源-漏极的工作条件来估算导通状态下不同工作情况的器件特性。 测试模式分为脉冲测试模式及导通测试模式（图 4（c））。 DUT 置于高低温试验箱中，测试温度范围为-55℃ 到 165℃ ，DUT 其栅极接入 B1505 中电流驱动电源模块， 提供正偏和反偏驱动电压；DUT栅源极接 B1505 中 3kV/1.5 kA 功率电源模块。
 
@@ -117,7 +117,7 @@ IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+�
 
 本文用线性外推法，通过截取栅极电压 Vg 传输特性曲线的正切最大值再减去漏源极电压Vds的α倍，实验取Vds=10V，α=0.6，获得SiC MOSFET的阈值电压。 SiC MOSFET 与 Si IGBT 阈值电压温度特性如图 5 所示。图 5（a）可见，SiC MOSFET 的阈值电压随温度增加而降低；跨导则存在一个峰值，且峰值随温度上升而下降； 考虑阈值电压和最 大跨导的参数，可以有效地评估碳化硅器件受结温影响的传输特性。 由于二阶拟合曲线的系数为10\-5 数量级，在保证精度的情况 下 ，Vth（Gm）和 Tj 之间的关系可以近似为一阶线性。 跨导不能直接反映功率器件的温度特征，而是根据 I-V 特性计算所得；Vth 则可以直接反映功率器件运行特性，特别是导电状态，从而直接监测设备结温。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAatLrQ3YnX1mfjXmwt5TsSBPdTybpJFI2MfrasYbmEVzhxPDQ8BfvSg/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_015_a947a48930c5.png)
 
 由图 5（b）可见，SiC MOSFET 的阈值电压随结温变化相对于Si IGBT 具有更高的敏感 度 。 结温从-55℃到+165℃变化范围内，SiC MOSFET 的阈值电压下降了 50%，因此 在高温工作状态下，应充分考虑阈值电压的下降带来误导通的影响。
 
@@ -129,11 +129,11 @@ IGBT 的元胞结构如图 2 所示。 与 MOSFET 相比，IGBT 多了一层 P+�
 
 SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、沟道电阻RCH、积累层电阻RA、JFET电阻RJFET、漂移区电阻RD、衬底电阻RSUB 以及漏极接触电阻 RDS相加计算得到。 其结构分布如图6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAdlaebXYMA5pGwRx2YC4gUo5FOawJX7rwuf25RMtHQJLtzsibuEmCgyg/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_016_5b19332774b8.png)
 
 由于 SiC MOSFET 结构中漏源极之间的电 流通路上的各个部分电阻是串联的，所以总的导通电阻是各部分电阻之和。 其中沟道电阻 RCH 以及积累层电阻 RA 之和约占整个导通电阻的 70%， 计算公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAbSLlDIN9yn9P5ESXFSIAWcbogOCia3QSJRbqia2IgvPghCx4TN1EF3sQ/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_017_75f8b2ea03e9.png)
 
 式中：LCH 为沟道 长度；Wcell 为器件元胞宽度 ；μni 为栅氧层厚度。 参数 LCH、Wcell、μni 和 COX 均为器件本体的固有参数。
 
@@ -141,9 +141,9 @@ SiC MOSFET 的总特征导通电阻由源极接触电阻RCS、源电阻RN+、沟
 
 SiC MOSFET 与 Si IGBT 导通电阻的温度特性如图 7 所示。 由图 7（a）可见，由于测试系统的误差引起不稳定，当漏源极电流 Id 较小时，导通电阻 Ron的波动很严重；当 Id 较大值时，这个波动可以忽略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAVaOWOMlQPCmiaU8lribxciax6v1IzdsTDMMCP9XhErtrwFaPWLkhFXMfA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_018_1dd6db5ea8b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAukyI4ia3NaCJP1lT92MnWlcMXoLndM3iaOJzhVkZ7WibYF10oibYKoLkicA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_019_856c718013ba.png)
 
 实验表明，在正常的工作状态下，无论漏极电流是何种状态，漏源极间电阻 Rds,（on）保持不变，并且随着Tj 的增加而呈现先小幅度减小而后大幅度增加的趋势，这是由于在不同的温度范围内 ，起主导作用的电阻分别不同，低温（Tth＜-40℃）时导通电阻随温度上升而略有下降，如图 7（b）所示。 因此，Rds,（on）和Tj 之间的关系在高温时可以认为是线性的，并且可以作为监测 SiC MOSFET 结温的一个参数。
 
@@ -157,13 +157,13 @@ Si IGBT 泄漏电流的温度特性如图 8 所示。 漏电流测量应选择�
 
 当栅极和发射极接地而集电极偏置，集射极可测得泄漏电流。 如图 8（b）所示，低温下，当集射极电压从 0.8 kV 上升到 1kV，可以保持低于 1 μA 的泄漏电流。 但集射极电压超过 1kV 时，泄漏电流增加 20%。 不同的结温下泄漏电流的指数趋势如图 8（c）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAZmiaGTelghH2rGagIGRBhUicAiaIiaIMou4b3Q5EDiaFeDSVkXTuqkSGIOQ/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_020_f89c8c016f50.png)
 
 SiC MOSFET 泄漏电流的温度特性如图9所示。 SiC MOSFET 栅极泄漏电流，如图 9（a），在栅极电压较小 （0～1.5 V）范围内 存在非线性振荡 ，存在小幅值波峰，但当栅极电压较大时，栅极泄漏电流与栅极电压保持稳定的一次线性关系，并具有明显的温度依赖性。 图 9（b）为 Vg=22 V 时栅极-源极正向和负向漏电流 Ig,（off）、栅极充电能量、栅极充电位置Vgcp 与结温之间的关系， 分别可以拟合为指数、线性及二次函数关系。 无论栅极驱动电压处于正向或反向偏置状态，漏电流的幅值均随结温上升而增大，与理论分析一致。SiC MOSFET 漏源极泄漏电流Id,（off）主要由边缘直接隧穿电流和 PN 结反向漏电流构成。 当结温度低于 50℃时，由于本征载流子浓度与温度正相关， 泄漏电流主要是由势垒电流构成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAsazd6y1zn7COEDn52qicWj1kbBtT4NhlsTKVAouNelX7RCdwTa0eERw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_021_80d6432617e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAUKDk7fPnFR29R2TVxaMLdxl5GdufEh5ugsLNTvzuJUicFdEUGT8BHZA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_022_025ee25ba93a.png)
 
 当结温度大于 50℃时，泄漏电流主要由反向扩散电流 ，并与本征载体浓度呈平方关系 ， 如图 9 （d） 所示。 小型器件漏极电压和结温都较高，开断泄漏电流将随边缘直接隧穿电流增加而增加。 Id,（off）和 Tj 成指数关系变化。
 
@@ -171,15 +171,15 @@ SiC MOSFET 泄漏电流的温度特性如图9所示。 SiC MOSFET 栅极泄漏�
 
 正常工作状态下， 器件工作在输出特性饱 和区， 在低栅极驱动电压前提下，MOSFET 漏极饱和电流的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeApxklsVXk0xQkqjUKt6SaLnBBISR9WaAvXUiamtTe1cv4I43nJ8biaTwQ/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_023_7168a7624f08.png)
 
 式中，Z 为沟道宽度；由式（18）可以看出，饱和漏电流随栅极电压呈平方关系增大， 即平方率特性；同时，饱和漏电流与阈值电压也呈平方关系 ，表现出变温度特性。
 
 在脉冲模式下测试 SiC MOSFET 和 Si IGBT 输出特性，如图 10 所示。 在低驱动电压 Vg=8V 下，输出电流随温度上升而增加， 但当驱动电压增加，即SiC MOSFET 驱动电压 Vg=24 V、Si IGBT 驱动电压Vg=15 V 时，正常工作状态，将产生一个高温衰减效应，输出电流随温度上升而大幅下降 ，如图 10（a）、（c）所示；考虑 Vg 和 Tj 的影响，为直观分析这一现象， 在 SiC MOSFET 和 Si IGBT 输出特性三维图中截取剖面，在该交界面上，器件输出特性不随温度变化，如图 10（b）、（d）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAU13pZV1xrCaJUVkPM84QVAxX7YG1RawRxhMdJZ63FOkhYR19VJ7QMw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_024_3e53ff0f022f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeA0ibOs02NtbFkup9266hl3aJONib44g3Z7R2QzFSJMw8XI942ibFia6YI3A/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_025_51230af84847.png)
 
 由图 10（b）可见 ，SiC MOSFET 在低导通 电流下，正向导通电压与结温成二次关系；在较低导通电压下，导通电流在小范围内与结温成一次线性相关。
 
@@ -187,9 +187,9 @@ SiC MOSFET 泄漏电流的温度特性如图9所示。 SiC MOSFET 栅极泄漏�
 
 SiC MOSFET 内部的体二极管其本质是由于漏源极之间存在一个 PN 结，其外特性等价于反并联二极管。 SiC MOSFET 体二极管参数特性与温度关系如图 11 所示。 图 11（a）中，测得 SiC MOSFET 体二极管导通 压 降 远 大 于 同 等 电 压 电 流 等 级 的 Si MOSFET（IXFK20N120P，Vds\_max=1.5 V），这是由于两种材料的MOSEFT 漏源极 之间的 PN 结导通电阻差异较大，其导通电阻主要为 Rdiode=RCH+RA，见图 6。根据式（16）、式（17），二极管导通电阻的表 达式除结构参数外，与载流子迁移率 μ 直接相关，而材料的载流子迁移率（μSi=420 cm²/Vs，μ4H-SiC=115 cm²/Vs，25℃）有较大差异，使得 SiC MOSFET 体二极管导通压降较大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAxlnjQpccP3y7tbbUZY3YyjETnIjv4ADib4hQcVjviarqHicwNMnmVWPAg/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_026_d3726eecfcb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAEvk9rtcsribvGwOmO81PF6127Fw669w0LgeOnmpVkXf0PlP7k9qia8Gw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_027_728c619eceb2.png)
 
 在脉冲测试模式下，根据实际工作条件，设置栅极-源极电压 Vgs 从-6 V 至 22 V 可调 ， 可测 得SiC-MOSFET 体二极管导通特性 随温度变化的趋势。实验结果表明，当 MOSFET 处于关断状态（Vgs=-6V），反向偏置体二极管导通压降随结温的上升而下降；但当 MOSFET 处于导通状态（Vgs=22 V），反向偏置体二极管导通压降随温度增加反而上升。
 
@@ -211,31 +211,31 @@ SiC MOSFET 体二极管长期工作在正向导通状态下，会使其发生明
 
 SiC-MOSFET 的输入电容为栅源极输入电 容Cgs 与栅漏极电容 Cgd 之和，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAApJ9VhQfTmWj4aFGXQ1aicdUL2btdX550tHJHhd2iasrmoRE6jyIRiasQ/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_028_0090a8bf1db3.png)
 
 栅极和漏极之间的电容由栅电极与 N 漂移区交叠的 JFET 区宽度 XPL 决定， 当正电压施加在漏极上时， 功率 MOSFET 中该 MOS 结构部分处于深耗尽情况，如图 12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAczEPNFc8gAUWbLIwwS2QGLDN66WhyfReiamQ1QCxQRGicEUovmTHMfpg/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_029_36a914724928.png)
 
 栅漏电容 Cgd，即反向传输电容 Crss 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeA5vW6KpeqPTyVnA5pRibbxffhWEOx8Dicic4ZgtxTxve3Qtbicc50sQoHAA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_030_280bc0deb87e.png)
 
 式中：WG 为栅极宽度。 结合式（7）、式（8），显然反向传输电容具有变温度特性，随温度上升容值下降。
 
 Crss 和输出电容 Coss 随频率及 Tj 的关系及线性拟合结果，如图 13 所示。 由图 13（a）、（b）的实验结果可见，SiC MOSFET 的反向传输电容 Crss 随着漏-源极偏置电压的增加而减小，与理论分析一致。 当交流频率从 10 kHz 增加到 1MHz 时， 反向传输电容 Crss 随温度而减小明显。 当没有施加漏源极电压时 ，SiC MOSFET 的反向传输电 容 Crss 与温 度 具 有最强 的 线 性 关 系 ，并随 着 温 度 减 小 。 此外 ，在 100kHz 时反向传输电容和温度的线性拟合程度比在 1MHz 和 10 kHz 交流时更高。 除了与结温的关系之外， 输出电容 Coss 的特性与米勒电容相似。 根据实验结果， 当施加 25 V 的漏源极电压时，SiC MOSFET 的输出电容 Coss 与温度具有较强的线性关系 ，并随着温度增加而增强，如图 13（c）所示。 因此，在工况为 25 V 的漏源极偏置电压和 100 kHz 的交流频率 时 ，SiC MOSFET 的输出电容 Coss 可以被用作结温监测的参数，见图 13（d）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeA3kRe5Acmp7zjhhRvJEswND8Pg1GIXdCUw3488aDpwvrlXA56BpotXQ/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_031_5a0c0a29a750.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeA8wjSZuUgdK2tpCuXuXTbSJtgklwMOWT2pP1cdo1aSJqSSu8zt0KAKw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_032_f9de663fe94f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAU5kliaBuDVATGAeKSakWhlduvAUsTY5WoLI7JHKCrvaAalpFcqxxjdA/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_033_bad94fbb31a5.png)
 
 4\. 温度依赖性分析
 
 对上述实验数据结果分别进行关于结温的线性、平方及指数函数拟合，结果如表1所示。 由表可见，拟合函数值与实际实验数据结果具有高度一致性。，对于各项参数的拟合优度，采用可决系数R2 作为度量拟合优度的统计量，R2 的取值范围是［0,1］，R2 的值越接近 1，说明拟合曲线对数据值的拟合程度越好。 在表 1 中，可决系数 R2 最低为0.9749，最高为 0.9991， 可以认定所选择实验参数与温度具有高度相关性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslib0WJqR2aKiaHxCyD2kgoeAiaS3ibRn2Xp18HzfJ0W15KfJT5p4hv8M48Fqvl3KsqM0BGXfLgWtSaUw/640?wx_fmt=png)
+![](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_034_62ebccd62eee.png)
 
 根据拟合结果，可以进一步估算变温度参数对于结温的平均灵敏度，即单位温度下变温度参数的平均变化值。 表 1 中，所选取的参数均具有可测范围内的灵敏度，电流、电压、电容、电阻基本为 mA、mV、mΩ 数量级， 其中导通电阻 Ron 温度灵敏度达到 0.4 mΩ/℃， 反向偏置体二极管导通 Rdio 温度灵敏度达到 0.42 mΩ/℃；仅 Ig,（off）为 nA 数量级，但可以通过高精度的测量电路、 放大电路或精密仪器测量。 因此，根据实验数据所得的拟合函数灵敏度，具有实际工程指导意义。
 
@@ -251,12 +251,12 @@ Crss 和输出电容 Coss 随频率及 Tj 的关系及线性拟合结果，如�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_035_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_036_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](SiC_MOSFET_静态性能及参数温度依赖性的实验分析及与_Si_IGBT_的对比_images/img_037_9bbc7b9b15a2.png)

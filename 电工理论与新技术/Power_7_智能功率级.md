@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/3X7Y2yhDGcb3sCFcUhFs5g](https://mp.weixin.qq.com/s/3X7Y2yhDGcb3sCFcUhFs5g)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIgnRqwGXeyNKvHAcl5FbguYheHUPI0w4eUqdeCCrKGiattTicvUKqHLBw/640?wx_fmt=png)**____
+____**![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_7_智能功率级_images\img_000_e1bebf0fd27a.png)**____
 
 ____**★★★**______Power-7---智能功率级______**★★★**____
 
@@ -15,13 +15,13 @@ ____________€1.结构组成____________
 
 如**_图7-1_**所示，按照DC-DC的结构层级，智能功率级由2+3部分组成，即Driver+MOS，简称DrMOS。其芯片内部集成两个（或更多个并联的形式）高性能的MOS和驱动及控制单元，通过优化设计的内部结构和驱动控制，能够实现高效率、高功率密度以及良好的散热性能。严密的控制和保护逻辑使其能轻松兼容主流的前级控制器，适用于CPU，GPU以及POL的电源设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26ibLjB7Es0aBW3JvMe8b7IazuAQzBcP1htDa3xFgKv4FZflV0jfjdH8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_7_智能功率级_images\img_001_f4d32ccbda51.png)
 
 **_图7-1：DrMOS结构_**
 
 因为集成式DC-DC在大电流场景发热严重，散热性能也不够优秀，而单片DrMOS使电源系统能够大幅度提高功率密度、效率和散热性能，DrMOS模块以超快速度切换，与外置功率MOS相比，大大降低了SW节点走线长度和MOS间互联长度，最大程度减少寄生电感、电容影响，降低系统整体尺寸，同时降低了功率损耗和开关节点过冲，同时还提供过温保护OTP、过压保护、过流保护、故障报告等等，这也是智能功率级的智能所在。（传送门：[Power-1：外置开关同步降压控制器-单相单输出](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247492237&idx=1&sn=773ba087c7cf0362fa0622513faf30a5&chksm=c336a812f441210493fc4842cb4aafc0a3114d29d1899384dcbf3caaa4d49da2a55eddf4bebd&scene=21#wechat_redirect)）  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRUkJ3OyH3dauT98wXZMBkAJSM3rXzqBpVL9j0bFWIVx8icx2Bl7tMRXp8ghicoMj5lorTVflMxoxiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_7_智能功率级_images\img_002_f688e62f9287.png)
 
 **_图7-2：典型DrMOS的内部结构_**
 

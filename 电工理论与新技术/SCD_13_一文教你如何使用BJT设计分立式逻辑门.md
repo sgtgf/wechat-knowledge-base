@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/PvO5Wj83D-f8QZUUmTIzqw](https://mp.weixin.qq.com/s/PvO5Wj83D-f8QZUUmTIzqw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjoRKCEakWucsHr3J1YibF7GmNIJPk8Rs2TN7ibZUGribxeodIwib8uRRoQMriaWck2YPhWyiaZod8e0bA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_000_9ad697ea2b6a.png)
 
 ____**★★★**________SCD-13---BJT逻辑门________**★★★**____
 
@@ -13,13 +13,13 @@ ___€1.非门电路___
 
 如**_图13-1_**所示，是一个简单的NPN型非门电路，当in端为高电平1时，Q1导通，out端等效接地，输出低电平0；当in端为低电平0时，Q1不导通，out端等效接VCC，输出高电平1，驱动能力可以通过R1和R2来进行调整。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSDYjibIYDe4m2vQGONYIn184TGAEcqutia0rQWYcNrTeHtia57CvqoobhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_001_3ce09b26eb9d.png)
 
 **_图13-1：NPN型非门电路_**
 
 以上述NPN型非门电路为例，需要注意in端的控制电平，能够让Q1足够导通，VCC的电平直接决定out的高电平值，所以out的接收端电平必须和VCC匹配，比如VCC=1.8V，但是out接入的MCU为3.3V，那么电平就不够，需要将VCC调至3.3V。相反VCC=3.3V，但是out端接入的MCU为1.8V，此时有两种解决方案：一是将VCC调至1.8V，二是在通路上再串入一个电阻，如**_图13-2_**所示两枚电阻成比例分压，将3.3中间分出1.8V，注意一定要考虑NPN的导通Vce压降。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSsXOXK4LS8Rw45eRsxuXMJdzayp0v96JiaV2YXE7zniawXmIshJrMPSuWxEib2VeuDR9FlNpbYtjYBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_002_03650e0cac75.png)
 
 **_图13-2：NPN型改善非门电路_**
 
@@ -29,7 +29,7 @@ _____€2.____与门电路_
 
 如**_图13-3_**所示，当A口和B口同时输入高电平时，out端才输出高电平，R3为限流和置位电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSbRZazmkysf7TVO6zTTmO0TPlkuK3vVoQfibvWvtYX0Gd4L9d9gpFeWA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_003_a214aad568d0.png)
 
 **_图13-3：NPN型与门电路_**
 
@@ -37,11 +37,11 @@ _____€2.____与门电路_
 
 NPN与门除了逻辑运用，还能比如只有当两个事件同时发生时才能触发（复位），既可以监控事件复位也可以监控主模块和备用模块的工作状态。如**_图13-4_**和**_图13-5_**所示也可以配合LED做一个监控模块，例如同时监控3.3V和5.0V电压是否都到位和在位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTyUibItyyWTFBnpewKzWo2vCqBRsEGCkF0LuJrrmlG9txRDA6PkehHyibWZCQzauf2JEnJpaYNe2ibQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_004_6e3fbf013493.png)
 
 **_图13-4：NPN与门使用场景之一_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiapibGycOsOBBbIJcZe37JJaSoa115hcGhF7553FHxibdHR6YJQxqaj6IWrUEPz7RDyn3dhhGKxBrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_005_86fee29ee626.png)
 
 **_图13-5：使用与门监控板级电路系统_**
 
@@ -49,7 +49,7 @@ _______€3._____或门电路__
 
 如**_图13-6_**所示，当A口输入高电平和B口有一个输入高电平时，out端输出高电平，R3为限流和置位电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxS6gibpVcibGTR5TJe5rB4BMA8KzWQPTbQDj5jtR4pEiaR8Yk7DoGZav1tA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_006_1ec49f633e96.png)
 
 **_图13-6：NPN型或门电路_**
 
@@ -57,7 +57,7 @@ NPN或门除了逻辑运用，还能比如当有一个事件发生时就可以�
 
 如**_图13-7_**所示，配合LED做一个监控模块，监控系统复位状态，监控电源状态等等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTyUibItyyWTFBnpewKzWo2vkrLzGwCGzlc4KBQzWr7XprCaeu2RYqtHOqwYaQYaRiaEV4Zic6uvBN6g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_13_一文教你如何使用BJT设计分立式逻辑门_images\img_007_9ac1ec9a65fa.png)
 
 **_图13-7：NPN或门使用场景_**
 

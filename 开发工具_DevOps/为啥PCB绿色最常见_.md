@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYTvaZ3A9oQK1aKIFV4FxAGyp25R8f2iasX1sgJ5icnyY3uXpBtUJbYJ1g/640?wx_fmt=png)
+![](为啥PCB绿色最常见__images/img_002_b271a096273b.png)
 
 **2.**通常情况下，整个PCB板产品在制作过程中都是要经过制板还有SMT等过程，在制板的时候，有这么几个工序是必须要经过黄光室的，因为绿色在黄光室的效果要比其他颜色要好一些，但是这不是最主要的原因。
 
@@ -32,7 +32,7 @@
 
 **3.**常见的PCB颜色有红黄绿蓝黑。但是目前由于制作工艺等等问题，很多线条的质量检验工序还是必须要依赖工人肉眼看观察与识别(当然当下大都使用了飞针测试技术)。在打着强光的情况下眼睛不停地盯着板子板， 这可是非常劳累的工作过程啊，相对而言绿色最不伤眼睛，所以目前市场上大多厂家都使用绿色PCB。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYSkFV929u1b0EtYfFXXAfz3jrQmENxr9DicGKib5AtJj6GvVia4QMJmsQg/640?wx_fmt=png)
+![](为啥PCB绿色最常见__images/img_003_5b3412cbb18a.png)
 
 **4.**蓝色和黑色的原理是其中分别掺了钴和碳等元素，具有一定的导电性能，在通电的情况很可能出现短路的问题，而且绿色的PCB相对而言还很环保，在高温环境中使用时，一般不会释放出有毒气体。
 
@@ -47,7 +47,7 @@
 -   黑色的板子不容易看到其中的布线，这样就给抄板带来的一定的难度；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuY7xiaxUort8fZC2ZZw2s3YNZ4CgrtjcLMInVPWkNSgIPvkxn3JKhs4cA/640?wx_fmt=png)
+![](为啥PCB绿色最常见__images/img_004_f7e7dbf5be3e.png)
 
 小编了解到的是现在安卓嵌入式的板子大部分是使用的黑色PCB。
 

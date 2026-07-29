@@ -16,7 +16,7 @@
 
 最近遇到一个上帝(客户)，他做了一个6极24槽(q=4/3)的永磁同步电机，测试带载性能OK，然后就把模具也开了。但是用户验收的时候，要考核空载三相电流的平衡度，测试结果不平衡度超过20%(验收标准10%)。然后来问：是不是软件排的绕组有问题？ ？？这可把宝宝急坏了。   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTQ7Cgdxq0qOL4mzuKTCrfNToWjw5iaQ2kqYwTaXhnQSn4v6W1T9Cztsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_000_1063f2298633.png)
 
 然后呢就有了写这篇文章的念，今天就来聊一聊：  
 
@@ -33,23 +33,23 @@
 
 来看一下6极24槽的槽矢量电动势星形图：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTA1j2s8ibxJ0CjSTE2nTMJjOtibibhp263jiaelLicHp9fIMgECSsSRiblKkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_001_3244900723e0.png)
 
 很明显无法三等分，不能形成对称的60°或者120°相带。  
 
 按正常分数槽绕组规律排列时，每相槽数不等：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTTXia9pMzP7eCPtdbiaCjbtHxKP8WrwhL5MX41fBMGrU40ib73Nd4GcrOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_002_44fea06f272d.png)
 
 必须改进绕组排列方法，使每相槽数相等，且主波合成槽矢量尽可能对称。
 
 6极24槽的q=4/3 ， 分析前半数槽(Z/2=12)共占三个极、九个极相 组。每极所占三个极相组的总和应相等，每相所占三个极相组的槽数总和也应 相等，都为Z/6 。后半数槽为前半数槽极性相反的重复。按此思想 ，排出方案：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTyxyenaEsGMw0G9pyknZz4hMUicjjI9yEKrL1fsU8kTpCAO15q7OdEgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_003_6fa2eed72820.png)
 
 画出三相主波的合成槽矢量图：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTPLmnUWDBr7AUzgGRVCtlzawrPia2hyMibqIpWrpcKHtp0YffM2otQXCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_004_d8934d7c7a6d.png)
 
 从图看出三相仍是不对称的，虽然三相的槽数是相等的。
 
@@ -78,15 +78,15 @@
 
 首先仿真三相槽数相等的模型：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoT7ZicFWrZb8e6YIJxMAd5r3L1da7ljKSzUxoicibMuprfxWRjAicyNNHia2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_005_423a3d32a0b0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTldiaxLXnp3yFgJ1pJM0c9L44oAF2fO7JOrRAyKuyhnlm9MEHLejZqsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_006_f8b7988dc622.png)
 
 反电势，三相波形不对称，畸变的情况不一样。  
 
 **轻载电流：**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTLJz8FdXELy2AwPmjyicuDaz3xT85Lib5Ym5N8QaqFFzIQe6ym2tib5icMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_007_6059ce65a40c.png)
 
 三相轻载电流的不平衡度比较大。
 
@@ -96,15 +96,15 @@
 
 采用了**方法一**中的‘空部分槽’，把A、B相中2的两个相邻排线去掉1个，模型如下：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoT6c9efxnk1owDKQBVgmXdGm2YnJvaIf469tnfTVO5PGmpYHAhicLORUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_008_a052e768e122.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTC7o9LEicFP5vfbdibiaDF1CVSS1xTKnczSDoJicP0fqDubTxS4AMcIfwzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_009_8ba9dd399e26.png)
 
 A、B相反电势比较对称；由于C相没有空槽，C相的反电势偏大。
 
 **轻载电流：**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chyBPcQiaz52ib4zfHvp5ZakoTibASKtNldpEibHOwro8ou4GctJ6UXkzg7OSg6HDUNz8VqeaSKIE7OQhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_010_f4461aa6fec8.png)
 
 三相轻载电流的不平衡度减小至10%左右。
 
@@ -133,4 +133,4 @@ _<不对称绕组的磁势谐波分析>，汤蕴璆_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\q_n_3的绕组_要慎用__images\img_011_ff45e776e079.jpg)

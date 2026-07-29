@@ -16,7 +16,7 @@
 
 功率半导体器件的故障和退化通常归因于结温波动和最高结温。 在关于功率器件可靠性的相关研究调查中显示，由于器件结温偏高诱发的 Si IGBT 故障率高达 55%，结温每升高 10 ℃ ，器件故障率上升 2 倍。 因此对电力电子变换器中地功率器件结温在线监测极为必要，准确地结温监测可有效改善功率器件的可靠性，实现智能化热管理、器件寿命预测以及保证系统高可靠性运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK7pYYjWdTPF8SiabulMNiboJpBM5VOthqFJR4NH4IAicw8AuibwytZpicOWQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_000_f08fd8e386b3.png)
 
 近年来， 温度敏感电参数TSEPs法被认为是监测功率器件结温极具前景的方法， 且在Si基器件的结温监测上已经得到广泛研究。 浙江大学何湘宁教授团队分别报道了通过最大反向恢复电流监测P-i-N二极管结温和基于di/dt参数监测IGBT模块的结温信息，后续又报道了关断延迟时间温敏电参数在Si IGBT 模块应用，均表明温敏电参数与Si基器件的结温有很好的依赖性。在文献中也分别表明通态压降Vce（on）、阈值电压VTH以及米勒平台电压VGP等温敏参数与Si IGBT结温的敏感度很高，且具有很好的应用前景。
 
@@ -26,17 +26,17 @@
 
 1 .温敏电参数理论分析模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKEcvcLx2UsNQ7VZGjCnwJtprHibF2snUy4XzGwIlGmqpbg2VNBM7m7pA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_001_920362172534.png)
 
 以一个典型的 MOSFET 功率器件开关过程为每个温敏电参数建立数值模型，分析温敏电参数与结温的对应关系。 典型的 MOSFET 开关波形如图 1所示，包括栅极驱动电压 VGS、漏源电压 VDS 和漏极电流 IDS 波形。 为了便于分析，对实际的功率器件进行简化，等效模型如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKzV05UayxRHsg0CkYWbSXM3N4RZbhL3eXrhlxC6yTun3ZBMVyDZmw5w/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_002_09021a53a331.png)
 
 1.1 静态温敏电参数
 
 本文所探讨的静态温敏电参数主要是器件通态电阻 Ron 和阈值电压VTH。对于MOS结构来说，其通态电阻主要包括沟道电阻RCH、JEFT 电阻RJ 以及漂移区电阻RD，其中RJ和RD受载流子迁移率影响明显， 而 RCH 与载流子迁移率和阈值电压有关，表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKSMCxNPg7ric1rWFl3rjFUgGfic085J293znLtSdbIjk0UXKPicbh38iaZw/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_003_ade135cf373b.png)
 
 式中：LCH 为沟道长度；Z 为沟道宽度；μni 为反型层载流子迁移率；COX 为栅氧特征电容；VG 为栅极偏置电压。
 
@@ -44,15 +44,15 @@
 
 功率器件导通的条件是 MOS 沟道中有明显的电流流过， 即在一定的栅极电压下使得能带弯曲到表面的电势 ψS 等于 2 倍器件本征体电势 ψB，形成强反型层。阈值电压定义的是栅极电压施加到 VTH 时反型层从弱反型层到强反型层转变。 因此阈值电压可以通过数值函数表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKAWm4iaEsAdia9XpGlEdVqpoKnN6jIaOQogaokficicLUYAGSOUyVxcq4NA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_004_e2947e98c56f.png)
 
 式中，VOX为栅极氧化层分担的电压，可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKMhiatBMYVt6xxVlCX3mE4z7mc5mWzyiceN9Sg32ufcfUibdQSYvSx8J9g/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_005_772ec7c3f0c6.png)
 
 式中：εSiC 为 SiC 介电常数；K 为玻尔兹曼常数；T 为温度；NA 为掺杂浓度；ni 为本征载流子浓度。 则 VTH可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKQhyvuW8TOuX7uEMhaqL1icUI5ESHm5QWFcDy8s91Wxic2noEF87M0glQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_006_46288b86904c.png)
 
 式中，q 为电荷。 由于体电势 ψB 受温度影响促使阈值电压与温度呈近线性关系。
 
@@ -60,39 +60,39 @@
 
 关断延时时间指从驱动电压开始降低到漏源电流开始减小之间的时间。 关断延时时间可以分为 3个部分：驱动电压下降至米勒平台的时间、米勒平台时间以及驱动电压下降至阈值电压的时间， 如图 1所示，可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKtWCwibu2FjNeR7Hfoia0cbY58OBJrbk3g8Kle1mkKibdJREordZ40CUEA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_007_19e356815df9.png)
 
 驱动电压降至阈值电压的 3 个阶段用数学模型可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKAG7Va7QbIruJ1ya85wq3IibaEryA0pGsNQAXlttRvicf7eJYO6xnfkkA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_008_f00350672c6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKWnIWWX7epA3kZRs8Uu3g8Gj9MRu5gcv8kteOG5JBU4QbE5whDLj40g/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_009_19c38c4cda95.png)
 
 因此 td-off 可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKFjOuxqeL9YjBPQ9IRicVlePTPjGG8Ga9UCqibyjFP6NVCXVL8JodtXwg/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_010_6e754d295604.png)
 
 从数学模型分析可知，关断延时时间依赖于温度的因子是米勒平台的电压 VGP-off 以及阈值电压VTH。 器件结温升高， 米勒平台电压和阈值电压下降，因此都会导致器件关断延时时间延长。
 
 开通电流上升率指门极驱动电压达到阈值电压后， 漏源电流开始上升至负载电流这一段时间（t7～t8）电流上升的斜率。 上升的漏源电流可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKOVRAfDCdXPYHX5QgPswv4A0B2UGKZt6EBVEUl8OP3AB2OgeIpcfIIA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_011_ce5517662879.png)
 
 驱动环路电压方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK4aUyw13ZflZPmdh4AlibqrGibWiaJQE7yfUOJdZTGAeiaxttyr2bsWWjmw/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_012_091b8e2039ef.png)
 
 漏源电流上升阶段是处在驱动电压在阈值电压到米勒平台这一时段内，因此漏源电流上升时间取决于门极对输入电容的充电速度，而充电速度又取决于栅极驱动电压与驱动回路电阻。根据式（12），可以解得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKv2f3YV3maAPicjaAOfiaC44K1y65B2MMZffGhryQh3YCUHA8E2YnRcyw/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_013_fce464468a99.png)
 
 式中，Ciss 为输入电容；gm 为跨导漏源电流上升斜率主要受器件本身跨导以及阈值电压影响，且两者都与温度呈相关性。 对温度求导得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKtzDengwHceTLlnG0cCIXQcgk7ehYS4PqSZmBicGRoqSZEvBcQZpJfUQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_014_8c5fa7a587ec.png)
 
 在器件开通过程中，可以将器件等效为输入电容充电的过程， 如图 2 所示。 当栅极电压给CGS 电容充电达到阈值电压时，MOS 刚刚开始导通， 漏源电流开始上升， 栅极驱动电压继续给电容充电，但由于 CGD 的存在产生米勒效应，即栅极驱动电压在给 CGD 充电过程中栅极驱动电压不再上升， 如图 1所示。 米勒平台电压的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKvibMWos9sBlg9b4HRLgNUs28ySmFfcD6XrYP3UU2wNLtnJr3DVYINDw/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_015_9d711ff3e5ee.png)
 
 主要受阈值电压和跨导的影响， 温度升高，跨导增大，阈值电压减小，导致米勒平台电压下降。
 
@@ -100,17 +100,17 @@
 
 本文采用的电压等级相同、 电流等级相近的SiC MOSFET 和 Si IGBT 进行对比分析， 器件型号和参数如表 1 所示。 静态温敏电参数主要是通过半导体功率器件测试仪 B1505A 在不同的结温下获取结温与温敏电参数之间的关系曲线，动态温敏电参数从双脉冲平台上获取。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK4G0Y0gVb1K0k6zuj2C9GM7zxiaErRYn30o1qHgl3VicsFC25ypC4PDFg/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_016_3a5685afaede.png)
 
 2.1 静态温敏电参数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK4Zib1X9tBh9jFPpUS5Oed0QKM5NrmibtvibdAHvtur4dff5ZDNNBBz0hA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_017_6f6a032e6dc5.png)
 
 阈值电压依据数据手册上的测试条件获取。 对于SiC MOSFET，VGS\=VDS，IDS\=11.5 mA；对于Si IGBT，VGE\=VCE，ICE\-=400 μA。 实验结果如图 3 所示，阈值电压与结温具有很好的线性关系，但 Si IGBT 的敏感度为 14.55 mV/℃，明显高于 SiC MOSFET 的敏感度 3.8mV/℃。 这种差异主要源于两者器件本征载流子的浓度差异，SiC MOSFET室温下的本征载流子nSiC\=6.7×10\-11 cm\-3，相对于Si IGBT 室温下 nSi\=1.4×1010 cm\-3 相对较低，因此降低了阈值电压温度依赖性灵敏度。
 
 通态电阻作为结温提取时需根据器件流过电流和正向导通压降计算获取，为此在实际应用时需要同步获取电压和电流信号。 通态压降获取的测试条件是：门极电压 VGS（VGE）\=15 V，漏极-源极（集电极\-发射极）电流 ID（IC）\=40 A，不同结温下的通态压降对比如图 4 所示。 SiC MOSFET 的正向压降对结温具有相当好的灵敏度，但 Si IGBT 温度依赖性的线性度更好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKyPnicAl89WkIhDlRVZE4TtLEibNr7IUiayfSKOE2iaOvrVrqelfM7bzSNA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_018_ab3f9ba4317b.png)
 
 Si IGBT 的低温度依赖性主要是 IGBT 通态压降由 PN 结压降（VPN）和 MOS 结构压降（VMOS）2 部分组成，其中：VPN与温度呈负温度系数，随温度升高而减小；而 VMOS 具有正的温度系数。 在额定电流下，两者之间存在消减；由于在器件设计上需要保持总体的正温度系数以维持器件热阻的稳定，所以整体VCE（on）呈上升趋势。 对于 SiC MOSFET，通态电阻主要受温度影响的部分是 RCH、RD 和 RJ， 使得VDS（on）呈正温度系数。相对来说SiC MOSFET在通态压降的温敏特性优于Si IGBT。
 
@@ -122,21 +122,21 @@ Si IGBT 的低温度依赖性主要是 IGBT 通态压降由 PN 结压降（
 
 不同结温下关断及其延时时间对比结果如图5所示。 图5（a）和（b）分别为Si IGBT 和 SiC MOSFET 关断期间的栅极电压和负载电流波形。 可见，随着结温的升高， 负载电流下降的时间点被推迟；阈值电压和米勒平台都有所下降，导致关断延时明显增大。 td-off 在不同结温下的变化如图 5（c）所示， 2种器件的关断延时时间均与结温具有良好的线性关系，Si IGBT的灵敏度为 0.76 ns/℃，而 SiC MOSFET 的灵敏度仅为 0.43 ns/℃。 根据上述建模分析可知，关断延时时间对温度的依赖性主要与阈值电压和米勒平台电压有关。 SiC MOSFET的阈值电压和米勒平台电压相对 Si IGBT 来说较小，因此导致SiC MOSFET 的关断延时时间灵敏度较低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK3DDt4FSCMfX3R5uPUVd7OG7d9jdRoLj0s5fHJnSOVzA4VwIgCUrHRQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_019_9c8874f8a812.png)
 
 2.2.2 开通电流上升率 dir/dt
 
 2 个器件开通电流上升率的温度依赖性如图 6所示。 结果表明，SiC MOSFET的dir /dt 对结温变化具有较高的灵敏度，值为0.421（A /μs）/℃，而Si IGBT 仅为0.145（A /μs）/℃。 由式（14）知，dir/dt 温度敏感度受跨导和阈值电压的影响，阈值电压由图 4 所示与结温呈负温度系数； 测试条件：VCE\=VDS\=20V、ICE\=IDS\=40A，Si IGBT跨度随温度的变化趋势如图6（c）所示，跨导随温度升高而减小，阈值电压与跨导随结温的影响在开通电流上升率上达到一定程度上减弱， 导致dir/dt 随结温的敏感性减弱。 对于SiC MOSFET，如图6（c）所示SiC MOSFET 的跨导基本不随结温的波动发生明显的变化， 只有阈值电压与结温呈负温度系数，所以 SiC MOSFET 的dir/dt 对温度具有更高的灵敏度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK3Z3yxYjo3jiap8tiboAWic0Qia3pwZRGMhsxItx07vDHWZKtkgEkAjicJ4Q/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_020_ae73e22977a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKGUMV2mHibcJLVrnfKKicuENyrdyia6pUSsoLp8NFEFibmAOvkKUcQo8huw/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_021_bcb50dfb9215.png)
 
 2.2.3 米勒平台电压 VGP
 
 图7是测试条件VDC\=400V下SiC MOSFET与Si IGBT 米勒平台电压对比结果。 Si IGBT 的平台电压平坦且持续时间较长，而 SiC MOSFET 平台抖动较大且持续时间极短。 米勒平台电压主要受 VTH 和gm 的影响，Si 基IGBT 器件开启的阈值电压较高，一般为4～5V， 因此Si IGBT 具有相对较高的米勒平台，且 VTH 和 gm 随结温变化明显促使米勒平台电压对结温有很高的敏感性，灵敏度为 17.28 mV/℃。SiC 器件跨导随结温变化不敏感，SiC MOSFET 对结温的敏感性由阈值电压随结温的敏感度决定，灵敏度仅有 5.72 mV /℃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKFZmWXQsJcuuRSMvq1eAbOT4B3DozDs6ZHVRLsMV6tiby6nGvRia6rnwQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_022_d9bf4a0fedd5.png)
 
 3 .基于温敏电参数的结温提取方法
 
@@ -144,7 +144,7 @@ Si IGBT 的低温度依赖性主要是 IGBT 通态压降由 PN 结压降（
 
 通态电阻提取器件结温方案比较成熟，基于退饱和电路设计。 IGBT通态电阻提取电路的原理如图8所示。 在器件导通态时VCE电压一般都在10V 以下， 通过外部小电流源注入的小电流经过2 个二极管到器件上，小电流在 100 mA 左右因此不会影响系统正常工作，在通过模拟运算放大器处理得到当前的通态压降 VCE。 器件关断阻断高压时，由高压二极管的单向导电性来阻断高压保证监测电路不受开关过程中高压的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKR7rRvd2ic37ADDlicsa1ibQNPNPnYtCEfyiaaL50FPlykIA8QSYSh8Ijiag/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_023_3a5a766f37c8.png)
 
 由于通态电阻是受器件工作的电流电压以及门极驱动电压的影响， 因此在提取 Ron 时同步获取 3组信号： ①根据退饱和电路提取器件开通状态下的正向导通压降；②当前工作的电流信息；③门极驱动信号。 虽然提取信号多，但提取电路简单，成本低，在IGBT上很受用。对于 Si IGBT 开关频率在30kHz左右对检测电路的带宽要求不高，但是 SiC MOSFET通常应用在高频运行工况高达几百kHz， 器件导通时间仅5μs 左右，导通状态测量电压更难，测量电路带宽至少在50 M 左右。此外，SiC MOSFET 漏源电压的电压过冲和高频振荡， 从而增大了电压应力和EMI 噪声，对在线监测的干扰更加严重。
 
@@ -152,15 +152,15 @@ Si IGBT 的低温度依赖性主要是 IGBT 通态压降由 PN 结压降（
 
 阈值电压对温度具有很好的线性度，且不受负载电流的影响， 被认为是最有潜力的温敏电参数。根据阈值电压的定义要获取器件在刚开通后流过沟道很小的电流时的驱动电压信号，阈值电压的提取电路原理如图9所示。 因此在提取阈值电压时要同步获取流过器件的电流信号以及门极驱动电压信号，但由于电流信号很小难以准确获取。 文献\[7\]提出将这种电流信号转换为电压信号便于获取。 而对于SiC 器件来说， 阈值电压的温度敏感度更弱，已有的提取方案难以实现结温的准确提取。 在实际应用中难以在线快速准确地获取器件沟道刚开启时微弱的电流信号，以至于阈值电压提取误差过大难以获取器件的真实结温。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKdwrA05bLZvQy46d3ibxoEX3pEkvvglQgNLXpBfoXtfK3Iic0F3TXRy9Q/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_024_af12c1d75842.png)
 
 因此准阈值电压被提出适用于 SiC MOSFET结温提取，以弥补阈值电压参数在工程应用上的不便，其提取电路原理如图 10 所示，该方案弥补了阈值电压的温度敏感度低难提取等诸多工程问题。提取电路包括 3 大部分：触发电路、门极驱动和采样保持。 通过门极驱动部分控制驱动电阻的大小，来选择性地提高阈值电压温度敏感度，即在器件正常工作时以正常的驱动电阻工作，只在某一小段时间内提取结温时切换到大电阻获得高敏感度，提高结温的提取精度和灵敏度也不影响器件整体的工作。 触发电路的目的是获取器件即导通时在源极杂散电感上产生的电压跳变，以此来触发采样保持电路，保持当前的门极电压信号，输送到 DSP 处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK9znPY6R2E8S8BYfD6rjssxKibLLic3VhjkgBtHdlfeKp8D65zh6VpE7g/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_025_05a3a925d04c.png)
 
 3.3 关断延时时间
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKejARbtcSOhJSpgZRBFWSXx3FAdictvB1q5AfWan3Qe5GCKhlFFgI7wQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_026_d8169c405b16.png)
 
 关断延时时间有很好的温度特性和线性度，但受负载电流以及电压影响。 文献\[11，24\]提出通过杂散电感等相关信号的变化来获取关断延时参数，证明了关断延时时间具有很好的应用前景，其提取电路如图 11 所示。 基本的提取原理是获取驱动电压下降到负载电压上升两个时间点的差值，因此通过2 个比较器不断地将门极驱动电压以及负载电压与参考电位电压比较， 并将比较值输出给 DSP 处理计算关断延时时间，同时同步获取当前的关断电流等级以及电压等级。
 
@@ -172,15 +172,15 @@ Si IGBT 的低温度依赖性主要是 IGBT 通态压降由 PN 结压降（
 
 文献\[25\]提出了dir/dt 提取电路，根据源极与开尔文源极间的杂散电感压降来获取。 但未曾考虑源极与开尔文源极之间还有电阻承担压降的存在，势必会影响提取结果。 由式（16）知
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKn900X9HH6wCA3lupUOYlfhibibiafnTCOAYQ4mfl7iaTzhicsJMV5cE0STQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_027_65e9a89681a8.png)
 
 dir/dt 提取电路如图12所示，是根据最基本的di/dt原理所设计的，通过对流过源极杂散电感上的电流进行微分处理后， 经过峰值保持电路保持，等待DSP获取di/dt信号， 并配置峰值保持电路的放电 回 路 ， 保 证 每 个 周 期 内 都 可 运 行 。 虽 然SiC MOSFET的电流上升时间很短， 但是di/dt电参数是不受负载电流的影响，并且可以采取切换大驱动电阻模式来提高提取精度。 在线监测时要考虑SiC MOSFET漏源电压的电压过冲和高频振荡造成的电压应力增大和 EMI 噪声的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKoe931bkjD8VDNSETb4PBkPdDC7RTCcBEliawua6Da8HYBJ9pKGgsSLA/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_028_79d494c4cdbf.png)
 
 SiC MOSFET 与 Si IGBT 对各温敏电参数的温度灵敏度和应用两方面性能的对比如表 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKdg3zdDNVfkOcQoR8HMZaP3S7P0Km0GNiad5TibJXfHw0Y5PcXBib4zgjQ/640?wx_fmt=png)
+![](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_029_b9e527dd7e06.png)
 
 4 .结语
 
@@ -188,10 +188,10 @@ SiC MOSFET 与 Si IGBT 对各温敏电参数的温度灵敏度和应用两方
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_030_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_031_a7ecee98ead9.png)![图片](SiC_MOSFET_与_Si_IGBT_器件温度敏感电参数对比研究_images/img_032_9bbc7b9b15a2.png)

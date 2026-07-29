@@ -16,7 +16,7 @@
 
 打开后盖，拆下散热器，一眼扫过去，主板差不多比巴掌大点。再仔细一瞅，CPU旁边紧挨着两片DDR3内存颗粒。这倒不意外，毕竟电视也需要内存，这些内存颗粒作为系统内存，为CPU提供临时数据存储空间，确保设备能够高效运行。但让我吃惊的是，这主板**居然是个两层板**！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niaeZjobnuf4DiaB6VAzsPiaaicgqjzOLMvJ3OdU2TsM9pxKUsz0IP5yoaaib3SiaZeqlWgSnEibvxP1UCTg4YhLcvwvicF0s3WPo3kW0xo/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆了个65寸电视_主板竟然用两层板带两片DDR_这成本卷疯啦__images\img_002_193f8271680b.jpg)
 
   
 
@@ -24,25 +24,25 @@
 
 以下是PCB走线的部分截图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niadsNEyJvyDkWExYiacUAEWzXhRVPLUmIoNCoeo7uq0UfgxV5LILA4sZJ3qwHmJmf9Yib9kAkibF68xUGvBMVFE9MromrxYn2d9XX0/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆了个65寸电视_主板竟然用两层板带两片DDR_这成本卷疯啦__images\img_003_bf46c13eff11.jpg)
 
   
 
 在各个角度尝试打光拍照
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niaewNGs3LHvogky6mxdONOMnanE9I9C9b2hFO7s64Zv92E9ou81kptEkSchKSOgY85eoeGWO05PJq498Mh6ROJMCIkuiciaGibq5JY/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆了个65寸电视_主板竟然用两层板带两片DDR_这成本卷疯啦__images\img_004_eb7c4fbcc8f8.jpg)
 
   
 
 过孔走线清晰可见
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niaffib8iauib5MKJIUxtsvlib6R3DHt9lcfdjQtga72xPLiaI1aqiaUrGmH0u7LRulDvbgMPl09cWdDYqGFTkKjgUn055icI505IhL6ZJw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆了个65寸电视_主板竟然用两层板带两片DDR_这成本卷疯啦__images\img_005_72892eddd9ac.jpg)
 
   
 
 不同角度都来一张
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niaehSPveIe3YANpIichWAVPicX380cKDdcFicXiar7qgPaQ0kHI5XbRhhQweCENZbic5s0RFiczibRQbianepxRvMpONlTzTbvyrhWQQJWM/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆了个65寸电视_主板竟然用两层板带两片DDR_这成本卷疯啦__images\img_006_e15e192938ed.jpg)
 
 说实话，做硬件的都懂，**多层板是折磨老板，要多花钱，两层板是真折磨咱们工程师，要死好多脑细胞**。电视盒子用两层板的比较多，但那些一般也就跑个简单系统，DDR频率低。可这是一台65寸4K电视，**带两片DDR3，主控还是64位ARM Cortex-A55，采用4大核 + 4小核的八核设计**，就这么硬生生用两层板给搞定了。
 
@@ -64,13 +64,13 @@
 
 用SI9000这样的阻抗计算软件，选**共面波导**模型来算。你会发现，100Ω的差分对，算出来的线宽线距还能接受。但**50Ω单端线**，走线更宽，这在DDR那么密的布线里根本走不通，太宽了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadCvH2VRxIydRu7FZ3B3krYvT2THicX5430bI5YJxE2RrfOTMib8PNDFlK1E8vqf4YBEwiblrLSwdSJRz9WYWuzOLztS6LJwgxXmM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆了个65寸电视_主板竟然用两层板带两片DDR_这成本卷疯啦__images\img_007_fb53a0550a89.png)
 
 所以实际产品中，可能会**放松阻抗要求**。比如把50Ω的标准放松到60~70Ω来算，优先保证线宽能在10mil以内，线距能做小，这样线才能布得开。
 
 像我拆的这个电视主板，你去细看DDR走线，能发现**单根信号线周围基本都有地线跟着**，也就是常说的包地处理。两根信号线之间也尽量拉开距离，然后两两包地。这就是妥协后的实用方案。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0o3ohHN0niafpYJeMM9Fd5HShF6nMy6WZIrk6Gctzicv6Qvw4ZDLwvA9fZyibeFOtuTKFaV5qrvKhjPDJL0MdjHiaGfDt9D1dibhrJJkyY4JCNNM/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆了个65寸电视_主板竟然用两层板带两片DDR_这成本卷疯啦__images\img_008_8d9e65a9f250.jpg)
 
 这种假阻抗做法，信号质量肯定不如四层板。但在两千多块的电视里，**够用就行，性价比第一**。
 

@@ -68,7 +68,7 @@ Heine-Borel 定理本质上是一笔极为划算的交易：**它允许我们在
 
 # II 图说
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuzgdVYnLO1DZTHx8hvds6R6cRibvrIiaj2ukpSQSYxEHHeLiciaDdKstn2gvy1ib50tkXFzAzgZT6QibTek0QiaBVHowDEZrzDddAJZ0/640?wx_fmt=png&from=appmsg)
+![](破译数学界的_天书__Heine_Borel_定理的通俗生存指南_images/img_000_27a2f9cb3f2e.png)
 
 这张图是在用一种“打游戏 + 修电脑 + 打怪升级”的方式，讲 **海涅–博雷尔定理（Heine–Borel Theorem）**。  
 它想告诉你的核心结论其实就一句话：

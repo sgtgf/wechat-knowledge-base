@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/dV3eNrxR85EC5aJVuEk\_0Q](https://mp.weixin.qq.com/s/dV3eNrxR85EC5aJVuEk_0Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRgyibE9PLhAm9F6M9xxsYHKKNINfFSVNUdogibxBBcQtibWvVD4ZndGKbIWIButJMNyDQYXNkmhZV5A/640?wx_fmt=png)
+![](SCD_10_如何使用PMOS设计防反电路_images/img_000_9ea9c8c3f082.png)
 
 ____**★★★**______SCD-10---PMOS防反接电路______**★★★**____
 
@@ -19,7 +19,7 @@ ____€1.基本防反小结____
 
 第三种是在低边串联NMOS。这种方式栅极驱动电路简单，且NMOS成本较低，其工作原理和PMOS类似。但由于这种防反结构，使得电源地和负载地被分割。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubytDhadJIVHalRfTVjhlibN3sEBGaDhvAO9DVKx0ANsU7VNzOq2Ijic8w/640?wx_fmt=png)
+![](SCD_10_如何使用PMOS设计防反电路_images/img_001_a8053732ad8d.png)
 
 **_图10-1：三种基本防反电路_**
 
@@ -27,23 +27,23 @@ ____€2.___PMOS防反接_
 
 如**_图10-2_**是传统的采用PMOS做防反功能的电路设计，PMOS的G极接电阻到GND，当输入端接正向电压时，电流流过PMOS的体二极管到负载端。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubmPPUDARYuCRoXM1sXH89mE7ZVcNcLMBcc3XibYIQtic08Sic4skJOPsgw/640?wx_fmt=png)
+![](SCD_10_如何使用PMOS设计防反电路_images/img_002_0af3a095fb80.png)
 
 **_图10-2：传统PMOS防反，起始阶段电流流向_**
 
 如**_图10-3_**所示，当正向电压高于PMOS的门限阈值，自驱效应下主沟道导通，PMOS的VDS压降变低，电流都从主沟道流过，从而实现低损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubrCkAEQLkCTGAE23jnlDIsIHgIPzYPRlIJ7dpY4xdKIiaQPfFErAwOgA/640?wx_fmt=png)
+![](SCD_10_如何使用PMOS设计防反电路_images/img_003_ff176143e4da.png)
 
 **_图10-3：传统PMOS防反，沟道打开阶段电流流向_**
 
 如**_图10-4_**所示，一般我们会在门级和源极之间接稳压管，防止输入电源波动时，栅源极VGS出现过压击穿PMOS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubef5kMtzt2G3g9Ioial6LqrZ48AcIR5MuKwsNkdf9MYkW9jibOA5oJ27g/640?wx_fmt=png)
+![](SCD_10_如何使用PMOS设计防反电路_images/img_004_4b5645a4fd14.png)
 
 **_图10-4：传统PMOS方案优化设计_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0KluWUqyv5eoCzSVugNIA0fE3cvj7ST2HPo74ibI0hBo5U5fGCwOH1qTXnQ/640?wx_fmt=png)
+![](SCD_10_如何使用PMOS设计防反电路_images/img_005_628712e69ef7.png)
 
 **_图10-5：PMOS防反接_**
 
@@ -53,7 +53,7 @@ ____€3.___PMOS防反接的缺点_
 
 基本PMOS防反电路具有如下两个缺点：缺点一系统待机电流较大。因为PMOS的体二极管朝向Rload，PMOS防反电路自始至终由稳压管和限流电阻R组成的VGS驱动（G极有电流流向GND）和保护电路都存在暗电流消耗，如**_图10-6_**所示，限流电阻R的选择将影响整体的待机功耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubJgfZeF4ibV3DkW9FYKoLuSOnWdnkichzSg29SIN1uzNMptdibZzhWNGtQ/640?wx_fmt=png)
+![](SCD_10_如何使用PMOS设计防反电路_images/img_006_f494911d345f.png)
 
 **_图10-6：漏电流的产生_**  
 

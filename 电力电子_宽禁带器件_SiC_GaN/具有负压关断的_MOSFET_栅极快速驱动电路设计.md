@@ -28,7 +28,7 @@
 
 全固态 Marx 脉冲发生器的基本结构如图 1 所示。它由 n级组成，每级由储能电容Ci、二极管Di，充电开关管Sci、放电开关管Sdi组成。在充电工作模式下，充电开关管Sc0至Scn同时导通，放电开关管Sd1至Sdn保持断开状态，电容C1至Cn并联充电，如图 1 中绿线所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMRfRbIB7YtQgFeO4BsYa4HvlAQUTpES9eRicQ1UYzrpEZJpjkg3U4VFCwbMaPun6uqMImRf20lI1SvWRkeUjia4iafzp466LaXe4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_000_3dbb895c3e19.png)
 
 电容充电完成后，充电开关管Sc1至Scn 断开，经过较短死区时间后，脉冲发生器进入放电工作模式。在放电工作模式中，充电开关管Sc0 至Scn 保持关断状态，放电开关管Sd1 至Sdn 闭合，电容C1 至Cn 串联放电，如图 1 中橙色线所示。放电结束后放电开关管Sd1至Sdn关断，脉冲发生器进入下一个充电周期。此时，充电开关管Sc0至Scn 闭合，与负载之间形成截尾回路，负载上的电荷经过截尾回路进行快速泄放，从而获得陡峭的脉冲下降沿，如图 1 中蓝线所示。  
 
@@ -36,7 +36,7 @@
 
 1.2   负压关断快速栅极驱动电路工作过程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNYnCfEfoJYGfgxvQ1ztTgSYZoCEEshXU2FtAicVDaoiaLl2NybmBpTjlVPjbELibz6R7EId9G4two2OKzPib1OPszUU3eqibpibmvfc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_001_431412437150.png)
 
   
 图 2 为栅极驱动电路的具体结构，同一级 Marx 的充电 开关管Sci 与放电开关管Sdi 由同一个磁环进行控制。 Sci和 Sdi的驱动信号极性相反，因此与Sci 和 Sdi驱动电路相连的两 个绕组同名端相反，以从同一磁环的原边获得两个极性相反的控制信号。因为充电开关管的驱动电路与放电开关管的驱动电路工作过程完全对称，故以放电开关管驱动电路的工作过程为例进行研究。 TX1接收由全桥控制模块产生的on/off 脉冲控制信号，on/off 脉冲对储能电容C3、C4进行充电，之后电容C3、C4经M1与M2两个 mosfet 管对功率开关管的栅源极输出正向导通电压与负向关断电压。其具体的工作过程分为 7 个阶段，如图 3 所示。  
@@ -63,9 +63,9 @@
 
 在进行工作过程 4 的同时，由于二极管D3 导通，C1和M1栅源极电容上的电荷由回路①快速泄放，M1断开。同 时 off 脉冲经电阻R5 、稳压管Da1 、二极管D6 构成的回路对M2 的栅源极电容充电，使M2 导通，如图 3（e）所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSicHX5jDKia069AtokSgtJdWsXZFhQ7cWUcict0wtx3yeDNhuyXGnlwL3icbZRXwa4GIagXhmS7D9SyibxRYb6OJ2ZABzAqH36NZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_002_200f5ac85763.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSYRe3QcUibYKIcogicrEg6uGDepfIv0nZPokHa6NmMvFseExy46nMjeRD1pw4R1MW1QugicSGN9T6LSl5c2YnKQDIlIH52Bn6kM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_003_5e1f6f2e879c.png)
 
 Da1为 5 V稳压管，可以抑制来自 on/off 控制信号的负压扰动，只有大于−5 V 的负压信号才可击穿Da1对M2 的栅极进行充电。 M2的典型导通阈值电压为 1.6V，则只有当负压信号大于−6.6V 时，M2才会导通。由此可见，Da1也可以延后M2 的导通时间，防止M1与M2同导通。Da2 为15V稳压管，用来限制M2 的栅源极电压。  
 
@@ -103,7 +103,7 @@ M2导通后，功率开关管的栅极电容经电容C2和电阻R5构成的并�
 
 为验证提出的驱动电路的有效性，本文以图 1 所示拓扑为主电路，图 3 所示拓扑为驱动电路，研制了 32 级全固态Marx 发生器原理样机，如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNabDicJrZSptJzlU1CNmYicKhf6yxnAApTomICCqVIoXVecrWykgZ1WhRaH8sCet24pGnWbMassWicX8oicXf2UmSzrt5BRiaownf4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_004_23dfc7226dfe.png)
 
   
 3.1  驱动电路特性测试  
@@ -113,36 +113,36 @@ M2导通后，功率开关管的栅极电容经电容C2和电阻R5构成的并�
   
 将图 5 中绿色虚线框中波形放大为图 5，其中Vcgs为充电开关管的栅极驱动波形，正电压幅值可以维持在10V，负电压幅值约为−10V，保证充电开关的可靠导通和关断。Vdgs为放电开关管的栅极驱动波形，导通电压幅值约为15V，关断电压幅值可以维持至−10V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMBSI4Vk8zaWhI7oQPlcB0ClMBlOPRF0k7VAc7XIbbm5zDice6rLxIXFyGQtUfkEPpXBpdmc2Ae5sYqUX4YA6ljB0Vibiamv5TCPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_005_f47d98d0c2ee.png)
 
 由图 6 可以看出，充电管的关断驱动电压和放电管的导通驱动电压在约 0ns处相交，而放电管的关断驱动电压和充电管的导通驱动电压在约300ns处相交，相交处的电压都为-10V，保证了 充电管和放电管之间的死区时间，避免因开关直通而损坏。 
 
 为获得快速上升/下降沿，要求驱动波形具有良好的同步性。因此本文对放电开关驱动的同步性进行了测试，对32 级放电开关管栅极驱动电路每隔 4 级进行了测试，即第 1、5、13、17、19、21、25、29、32 级，结果如图 7 所 示  。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKJY7y3DEFGXGm7g5EsaaG6yJUQRjwaPfcRdDV5DDEMV0DCfJGLvrYRHnq7YKicnibic5AibR6UId0ajZKFkv1jBGlLYg6gXrrLVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_006_c0261b8b0cfd.png)
 
 由图 7 可知，所提出的栅极驱动电路具有较好的同步性，各驱动信号上升沿的最大同步误差均在 5ns 以内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPzaibHrPcHaeYXJuz4WU7tjNOvRo55YLB457AUA7YPIA8C5Rd5E1uDZz54oSmNELjg60RKHmM1wT0jNTPWqTPzc7bd74aT6myQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_007_2ae753c548a0.png)
 
 3.2  高压脉冲输出特性测试  
 
 驱动电路具有负压关断能力可以显著提升全固态 Marx 发生器的稳定性。当无关断负压时，驱动信号容易受到干扰，导致输出脉冲出现严重的抖动变形。设置 FPGA 控制信号，并调节充电电压，使全固态 Marx 发生器在空载条件下输出幅值为 24kV、频率1kHz、脉宽300ns 的脉冲。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPp856kgPcF1iatpK4Ubkg2ABbC8DCJgI5cs8QoA23OWAVaXUpjJFBCYNov008ia6yJicqroUg0DZiceTtdhDmlmCt7amA7aU7B85A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_008_0964a0ca2e28.png)
 
 如图 8 所示，可以得到稳定的高压脉冲，其脉宽为300ns，且具有陡峭的下降沿，脉冲上升时间为30ns，下降时间为40ns。将示波器显示的时间范围增大到3ms，可 以观察到重复频率输出波形，如图 9 所示。在重频模式下，本文研制的固态 Marx 发生器输出脉冲的重复频率为 1kHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPm12ibdCC5uC6hq87pUkmW7ADo5n6gTz99bKWVEpuVlDd2qbqMfWws9ynibXT3HLJovEtBfibuMqtJ599jTpfSTeico21U44I6ia90/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_009_680a9072a0ec.png)
 
 该全固态 Marx 发生器的输出脉冲宽度和幅值都可以连续调节。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMdibnFWTrqWiadFHEniaK9DwhJBAZQCPMGAvw43fia6bic8tdyJpiaGyalyhHwsfy0aUrXsHcySmrABMyFqYApYicemBOnxFrAcfIQ6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_010_25159e302857.png)
 
   
 图10是不同脉宽输出波形，脉宽由1.5μs逐渐增大到10.5μs。图 11 是不同幅值的输出波形，脉冲幅值由 4kV 逐渐增大到 24kV。图 10 和图 11 的测试条件均 为 空载。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP2iahTXr5kwORaJxq8U7nFY7L8yco140aZvhVYhWUNTX0w7ibgOSJdU5bYwJTMeB7xY47CALr7DnAkBehZia2Tr15VUibwr7YpOics/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_011_c69a97187041.png)
 
   
 4.结论  
@@ -155,14 +155,14 @@ M2导通后，功率开关管的栅极电容经电容C2和电阻R5构成的并�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPvr8ZqR5US9ViaVWlWX78Of3DNjBMXTsLjzOYQLqj8Ee6iaRtxaDdhjsuGs4LafYJich22TPYbnK7WCeZJcvmkaPHkg53fiaLEek8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_012_e212572a8e4b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMb6q4H7J29q8EEovx1ibOtU1vvLTFYqxlqP6vQjRSxnhP4VFdice16LRjOiadkMgRjrumu2ERiaqVYDOibdDAyHsSTp10icz3OFv84E/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_013_298d72e914c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM7a1E47HWDsNpbW1NHxWlvHTbMgSAYjicL4BnNJmyO82GjOeJhjK1cUDuSZCNuZwcPjcVGPglkkLiaY07oicibG9ckBLwCkIbMpCQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_014_c2efe71bc01a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOu6GBtA1iaq0SVlfe00undwLYn0GFID0TYasHVt4TXPe6qvg03m5DCUqbNwVqEYb5DWERNtqribE13weV1ZrpBHUydyVqTHuMSU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\具有负压关断的_MOSFET_栅极快速驱动电路设计_images\img_015_c06735221757.jpg)

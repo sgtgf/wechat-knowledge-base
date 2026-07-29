@@ -21,11 +21,11 @@
 
 1\. SiC MOSFET开关过程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibknn0qXbpyxkN8I5jnLibW0WgaL7gMHL1hTGaBCzrYILmkZcVjPicXYsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_000_67a4d99c6214.png)
 
 采用图 1 所示的测试电路对 SiC MOSFET 的开关过程进行分析，图1中，Udc为直流母线电压，C 为滤波电容，D 为续流二极管，L 为负载电感，Ld，Ls分别为 SiC MOSFET 的漏、源极寄生电感，Cgd，Cgs和 Cds分别为 SiC MOSFET 的栅漏极、栅源极和漏源极寄生电容，Rg为驱动电阻，Rstray为线路中的杂散电阻，并定义 SiC MOSFET 的输入电容Ciss\=Cgs+Cgd，输出电容Coss\=Cgd+Cds 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibmibn7PKq0zAbpqmq5WtqiaQmh5JxPVHk73pQISjHUmjXmP81bCHI7a1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_001_bd56b38c7c89.png)
 
 图 2 为 SiC MOSFET 开通过程中驱动电压UG，栅源极电压 Ugs，漏极电流 id和漏源极电压 Uds的典型波形。
 
@@ -35,33 +35,33 @@
 
 阶段二\[t1-t2\]：t1 时刻，Ugs 上升至阈值电压Uth，器件开始导通，负载电流流经 SiC MOSFET，漏极电流id开始上升，可由下式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibPIeeGrqoRaSRdBC9LJyUicoSt0nOGWbPI8icPWic752Jic0R7V2SFKWoXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_002_d2d762c65dd9.png)
 
 式中：gfs为SiC MOSFET的跨导。
 
 当 id上升至负载电流 iDD时，由于续流二极管中储存电荷的存在，其会进入反向恢复过程并产生反向恢复电流，该电流最大值irr \- max表达式如下式所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibkDOx4dH5yfCOyyDhE0ibRZMhCia2IlAiaE2LpXgj7CG4Fohx3IGzvb4VQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_003_768412182ce2.png)
 
 式中：Qrr为反向恢复电荷；S为软度因子。
 
 did/dt可由下式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibO1KORdLn2ezGUT1Oricy5rwh7jUFtGqxPTciclib4lUnmg0sale0ibIzqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_004_09f519e7f5ad.png)
 
 由于反向恢复电流的存在，id会继续增加至id \- peak，如下式所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibpkvQHvXBF80Aoz5jtOvXbHQzjiathhEYq2xiaBM7WLVhedgFPib0wOkHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_005_10e6e900c1ee.png)
 
 该阶段内 id的变化会在回路寄生电感上产生压降，引起器件漏源极电压Uds的下降，如下式所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibOVKMR1w5Z9P4byJRHkk3AxufIzbCTjVDTnb7icEwuF6Q2YPII3WrtCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_006_344057c1b099.png)
 
 阶段三\[t2-t3\]：器件进入米勒平台，Ugs保持为米勒电压 Umiller不变，Uds迅速下降至 0，id从 id \- peak下降至iDD并保持不变。
 
 阶段四\[t3-t4\]：Ugs从 Umiller上升至 Ucc，id和 Uds均保持不变，器件完全导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib2XaXL2pYL21Jvjx2tQyTz0htn4UJTAWyTXgal4iaKa1LlLY1vQWJ58Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_007_e38d898fd14d.png)
 
 图 3 为 SiC MOSFET 关断过程中驱动电压UG，栅源极电压 Ugs，漏极电流 id和漏源极电压 Uds的典型波形。
 
@@ -73,15 +73,15 @@ did/dt可由下式表示：
 
 阶段七\[t7-t8\]：续流二极管于t7时刻开始阻断电压，负载电流开始流经续流二极管，id逐渐下降至 0。电流的变化会在寄生电感上产生压降，并在 SiC MOSFET 上产生额外应力，使 Uds产生电压过冲，由式（5）可知，该电压过冲Uos可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibNiajBKQMaC5RdwkIWInEyMZ9YiboqYfCm3Ho5SiaXHGcxHcXJF3ekarCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_008_012759cf71c8.png)
 
 阶段八\[t8-t9\]：Ugs由 Uth下降至 0，由于电路中杂散电阻的存在，Uds会发生振荡，可由下式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib6GajiagNrDfpbARjmG7rOXsIlZBoicRib9CiaPZRaQt6FLs1icpTmPk6ULg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_009_cad4eef2907a.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CviblXjM4fRbHvxalwkCBaRhVDrP1HUekhOibjSC7ESjJS76nO3kx1olubw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_010_d1032bd8c906.png)
 
 2. 有源驱动电路
 
@@ -91,45 +91,45 @@ did/dt可由下式表示：
 
 2.1 电流注入型有源驱动电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibDLpkicRKEYrTSJSxdbrwnxoF9hn0ayDNfvr19BI7O11O8cYey49jEvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_011_fe5c1b5f44c6.png)
 
 图4所示为所提电流注入型有源驱动电路框图，通过电压采样电路检测器件的栅源极电压Ugs，使脉冲产生电路能够在器件开关的不同阶段内产生不同的控制信号，控制电流注入电路能够在器件开关的阶段二和阶段七内向器件栅极注入电路，从而减小器件栅极电流ig，抑制开关过程的电流、电压过冲和振荡。
 
 2.2 变电压型有源驱动电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibeMQvQ8tfKBhQJUxJXeHQwmiaDXLqG27StKPmLDahlbibWJicgIONuCwAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_012_114c287fe1f1.png)
 
 图 5 所示为所提变电压型有源驱动电路框图，其中，Ucc\=20 V，Ucc1\=5 V，Uee\=Uee1\=0 V，通过电压采样电路，使脉冲产生电路在不同的开关阶段中产生不同的触发信号，控制开关管 Q3和Q4的通断，以改变器件的开关过程的驱动电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibOib3Hyk1QxQejKz4qh82CNtP9tgYsFicbDkGBbg799ZicBxPFiaasCKNEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_013_4daac9364458.png)
 
 图 6 所示为该有源驱动电路的不同工作状态，在器件开通过程非阶段二内，开关管 Q4导通，Q3关断，驱动电压为 20 V，阶段二内，开关管 Q4关断，Q3导通，此时，驱动电压由 20 V 降至 15 V，抑制器件开通过程的电流过冲。在器件关断过程非阶段七内，开关管 Q3导通，Q4关断，驱动电压为\-5 V，阶段七内，Q3关断，Q4导通，此时驱动电压上升至 0 V，抑制器件关断过程中的电压过冲和振荡。
 
 2.3 变电阻型有源驱动电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibJ8m6iblgvUyK7aiaLW3yhfHiarv1QASnenzJBu7bOlSP3WzIs4vVY9picg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_014_8d9068bbb031.png)
 
 图 7 为所提变电阻型有源驱动电路框图，通过电压检测电路，使脉冲产生电路在开关过程的不同阶段产生不同的控制信号，调节器件的栅极驱动电阻。图8为该有源驱动电路的不同工作状态，在器件开关过程的阶段二和阶段七内，开关管Q3由导通状态转为关断状态，此时驱动电阻由Rg1单独驱动变为 Rg1和 Rg2串联驱动，驱动电阻阻值增加，从而抑制器件开关过程的电流、电压过冲和振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibhO9z0dljTkLANSMy8gk4RtEoXI48oSWqqnRtzJ9MQ351smfDic77Irw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_015_123da865be48.png)
 
 2.4 仿真验证
 
 采用 LTspice 仿真软件分别对提出的三种有源驱动电路进行仿真验证，仿真结果如图 9 和图10 所示，从图 9 和图 10 可以看出，与传统驱动电路相比，所提的电流注入型、变电压型和变电阻型有源驱动电路均可以有效抑制器件开关过程中的电流、电压过冲和振荡。其中，与传统驱动电路相比，电流注入型有源驱动电路降低了16.2% 的电流过冲和 10.6% 的电压过冲，变电压有源驱动电路降低了 10.7% 的电流过冲和 9.6%的电压过冲，变电阻有源驱动电路降低了 25.9%的电流过冲和 15.9% 的电压过冲。可以看出，变电阻有源驱动电路对电流、电压过冲和振荡的抑制效果最明显，但是其对器件开关速度的影响也最大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibue8kRhznxSQowBWLpCu8Xiamx1vFUuSLClSiaagJKaoXoHiaibu6FoHldQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_016_18847d0491a2.png)
 
 3. 实验验证
 
 根据图 5 所示的变电压型有源驱动电路，搭建实验平台进行实验验证，并与传统驱动电路进行对比，实验结果如图11和图12所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibEvhOuI0mKdrIiaMjXkcRAUY2L69pbianLEO4icAr86H6f9pIt8gUI6VUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_017_b543198a2bd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibwG50UfsgIORq9w4IeQ7g11x7Sb3LhzBtsMlbQqZI08Te7seI0WuFlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_018_ff42b163803a.png)
 
 从图 11和图 12可得，与传统驱动电路相比，所提出的变电压型有源驱动电路可以有效抑制器件开关过程中的电流、电压过冲和振荡，其中，开通电流过冲由 17.1 A 降低至 15.7 A，降低了约8.2%，振荡时间由 270 ns 降低至 60 ns，关断电压过冲由 530 V 下降至 490 V，降低了约 7.5%，振荡时间由 210 ns 降至 80 ns，与仿真结果相近，证明了所设计变电压有源驱动电路的实用性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibFtjvcMn2kOUdz285ibJicBR9jyvQWbiaaxrgOhbQdGpbO3LZT4n2e22ZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_019_347178c99e8c.png)
 
 图13为两种实验条件下器件的开关损耗，从图 13 可得，与传统驱动电路相比，所提出的变电压型有源驱动电路增加了16.6%的开关损耗。
 
@@ -139,10 +139,10 @@ did/dt可由下式表示：
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_020_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_021_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\改善SiC_MOSFET开关特性的有源驱动电路研究_images\img_022_84aa944feb13.jpg)

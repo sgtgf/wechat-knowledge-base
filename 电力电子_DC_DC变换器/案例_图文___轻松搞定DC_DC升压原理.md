@@ -22,7 +22,7 @@ DC-DC 转换器是一种电力电子电路，可有效地将直流电从一个�
 
 DC-DC 转换器在现代电子产品中扮演着不可或缺的角色。这是因为与线性稳压器相比，它们具有多项优势。尤其是线性稳压器会散发大量热量，与 DC-DC 转换器中的开关稳压器相比，它们的效率非常低。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCIc8QZzYeYsibZMzp81okUVktLpxpKibTTK0144t1mCYkYB586LMpdn9w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_002_a0a6bff49b33.jpg)
 
 DC-DC 升压电路
 
@@ -30,7 +30,7 @@ DC-DC 升压电路
 
 在介绍 DC-DC 转换器 的工作原理之前，看一个示例，为什么 DC-DC 转换器这么有用？假设构建一个具有以下要求的电路：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjSCiaaze80YYeeHw2NXdDiav32H2Us3jyfXUSQzfdVG9dlR509fzkuicZIb0epxMKH3FsxCibz8OC7yQ/640?wx_fmt=png&from=appmsg)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_003_19a814da3a30.png)
 
 DC-DC 升压电路
 
@@ -45,7 +45,7 @@ DC-DC 升压电路
 
 先计算电路的效率如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCub907E1fibqYqAjPHlWaTnZ3rEe6svXlj6BbthRGpibSn85Wticswphyg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_004_2da75abb1582.jpg)
 
 DC-DC 升压电路
 
@@ -53,25 +53,25 @@ DC-DC 升压电路
 
 照这么来看，其实是有点浪费的，如果触摸串联电阻，会有点热，这里需要结合机制来冷却电路，为了获得更优的解决方案，可以看下面的电路：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCIc8QZzYeYsibZMzp81okUVktLpxpKibTTK0144t1mCYkYB586LMpdn9w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_005_a0a6bff49b33.jpg)
 
 DC-DC 升压电路
 
 开关断开时，输入电压为 0V，控制在 ON 位置时，输入电压为 12V。下图分别显示了开关位置 ON 和 OFF 的等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCaqR2brw4KrEZmSGFjnKp3fEVPR0R4kszbkQKAODotRYsuER93bagSg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_006_6e403365b299.jpg)
 
 DC-DC 升压电路等效电路
 
 如果我们如下图（a）所示控制开关，我们得到如下图（b）所示的电压图。T为切换周期，单位为毫秒或微秒。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DC9iaeNU7gibks6ibFbUibzJiad4G3cpdNvk9esdyeHVoBpvAC575oUrIAtsw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_007_f591c3837def.jpg)
 
 DC-DC 升压电路
 
 在这种情况下，这种开关行为的平均输出电压为 5V，因为：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCasJ1L81A0VEJTGjIZTOoUGrM1f09IRWUsialtibxPJxNW6rH50E9VVgQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_008_08e21004805c.jpg)
 
 DC-DC 升压电路
 
@@ -93,7 +93,7 @@ DC-DC 升压电路主要是增加电源的电压，例如：升压转换器可�
 
 1、升压开关打开状态
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DC9BsaWxPBoNEJL2jib8aViaoP24G0nj0wsuicQrk7l7iba8QxpS8C0GicGmg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_009_51be260cbc33.jpg)
 
 升压开关 ON 状态
 
@@ -101,7 +101,7 @@ DC-DC 升压电路主要是增加电源的电压，例如：升压转换器可�
 
 2、升压开关关闭状态
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCqyTOqNYFGebxV9IfBEZC3zz6xgEuOL7y2jqQA7lNic6QcPjIVAX8g4Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_010_91167dc13509.jpg)
 
 升压开关关闭状态
 
@@ -123,7 +123,7 @@ DC-DC 升压电路主要是增加电源的电压，例如：升压转换器可�
 
 首先我们需要加速涡轮。为此，节气门打开，水快速排放，将部分能量传递给涡轮机，结果涡轮机开始旋转。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjSCiaaze80YYeeHw2NXdDiaviao9kQnUibTCx0LqicO2Sp4X6gicYicOvkPmicfkkFaFDsiab3SLEX4dSAibzg/640?wx_fmt=png&from=appmsg)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_011_656e13a51db6.png)
 
 DC-DC 升压电路工作原理
 
@@ -133,7 +133,7 @@ DC-DC 升压电路工作原理
 
 油门关闭，由旋转的涡轮飞轮半部推动的一部分水打开阀门并填充储水箱，另一部分水在储水箱提供的高压下流向消费者，同时阀门防止水倒流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCNRJia1cwc83NaCxFjh1icrBITgwT2Eyoap40z34UeWk8WsJdKLpMKhxg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_012_d1419b76ee72.jpg)
 
 DC-DC 升压电路工作原理
 
@@ -145,7 +145,7 @@ DC-DC 升压电路工作原理
 
 现在工作原理已经很清楚了，我们将从管道设备切换到电子设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjSCiaaze80YYeeHw2NXdDiavhRQAJicricqxmf2raUxtgakSQMsL6HwM3RPAL60SzOa3EmKyic5n9qz0Q/640?wx_fmt=png&from=appmsg)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_013_793a3d803c64.png)
 
 DC-DC 升压电路工作原理
 
@@ -159,7 +159,7 @@ DC-DC 升压电路工作原理
 
 开关已关闭，电感通过从源接收电流来积累能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCg1Mo2FRYcOibxa79mZLlUw46A4tFCyo306D2kSEF8grsc7zTPq1uxpA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_014_782b18bd5d0a.jpg)
 
 DC-DC 升压电路工作原理
 
@@ -169,7 +169,7 @@ DC-DC 升压电路工作原理
 
 开关打开，线圈保持磁场中积累的能量。电流试图保持在同一水平，但来自电感的额外能量会提高电压，从而打开通过二极管的路径。一部分能量流向消费者，而剩余能量在电容器中积累。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCaFNsQTDOzvQwicWqpqS8aJneL060tXtfibWUdmkFJCScibnYJEgBXFv0A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_015_40ee4901d0a0.jpg)
 
 DC-DC 升压电路工作原理
 
@@ -179,7 +179,7 @@ DC-DC 升压电路工作原理
 
 然后开关被锁定，线圈再次开始积累能量，同时，消耗的从电容接收能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjSCiaaze80YYeeHw2NXdDiavceGib7Y2t212CNNoSSSAicc4lVaL2WNOiavLYJsd5GhVpwITKxbwnHOhA/640?wx_fmt=png&from=appmsg)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_016_ccc0da3a2898.png)
 
 DC-DC 升压电路工作原理
 
@@ -210,15 +210,15 @@ DC-DC 升压电路工作原理
 
 2、DC-DC 升压电路工作原理图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w1mISk442kBiadQ6EwESxKX0hXRsMf8DCC0ku4iahKccFQEcf2EVp1pib7urLwoY8eX4QwU2BUtYQ9Q6E9oftwOIw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_017_968bc451c8e4.jpg)
 
 DC-DC 升压电路
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_018_58147eba07eb.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_019_9b53a964efd5.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_020_75db8c1036fb.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_021_0b6ae33611dc.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_022_365c6cd9f8bb.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_023_2da1ccbac0ae.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_024_7446ffe5e3b8.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_025_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](案例_图文___轻松搞定DC_DC升压原理_images/img_026_3352ab08e99b.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_027_0f89804cd7eb.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_028_f506b795c6ac.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_029_97df29bd0f50.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_030_d7c6fe8cd645.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_031_19e2f7b6262a.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_032_08d092bef8a0.gif) ![](案例_图文___轻松搞定DC_DC升压原理_images/img_033_50889e54acde.gif)
 
 ## 
 

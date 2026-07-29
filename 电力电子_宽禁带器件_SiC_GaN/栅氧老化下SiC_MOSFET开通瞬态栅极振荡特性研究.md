@@ -36,11 +36,11 @@ SiC MOSFET栅氧老化机理复杂，栅氧失效本质是经时介电层击穿(
 
 在MOSFET中，栅极金属端子、氧化层和半导体材料形成夹层结构，其中氧化层和半导体之间存在过渡界面。SiC MOSFET器件的夹层结构如 图 1所示，相较于传统的Si材料，SiC材料与SiO2形成的界面含有更多的近界面缺陷陷阱(near-interfacial oxide traps，NIOT)。当SiC MOSFET开启时，大量电子积聚在SiC的导带边缘附近，这些处于激发态的电子可以隧穿进入缺陷能带并占据NIOT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgB5CnXiabU7uPW7tUlaPUMnXcoDUqxGQuS8wOqPQ9KrDSTZCSiaUo4BCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_000_15a22844c8f1.png)
 
 电子隧穿到NIOT中的数目取决于施加电应力的大小和持续时间的长短，更长的应力持续时间或更高的栅偏电压会导致更多的电子进入氧化物。由于SiC在形成氧化层时需要保证能释放碳原子，其氧化层比Si器件的更薄，所以在同等应力的情况下电子隧穿过程更短。假设N为NIOT的数目，则在时间t内转移进入这些陷阱的总电荷QNIOT为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Ag1S93bevBFeyAGZGfQmfaaq8EMtogOnfmyqkibFxHluc06uS6Wbxiaib1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_001_c9f9458045ec.png)
 
 式中：e为电子电荷；t0为初始隧穿过渡时间；β反映栅极氧化物势垒高度的隧穿参数；γ ≅ 0.577为欧拉常数。由式(1)可知，NIOT的密度会显著影响氧化层在相同偏置电场下单位时间内隧穿电荷的大小，因此SiC器件氧化层在同样的老化条件下会积累更多的QNIOT。  
 
@@ -48,27 +48,27 @@ SiC MOSFET栅氧老化机理复杂，栅氧失效本质是经时介电层击穿(
 
 图 2 为 SiC MOSFET 双脉冲测试电路，其中：UDC 为直流电压；L 为负载电感；Lloop 为功率回路导线总寄生电感；CJ 为续流二极管结电容；CGD、CGS和 CDS分别为 SiC MOSFET 栅漏、栅源和漏源电容；LD为漏极电感；LGS为栅极回路总寄生电感；RG为栅极电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Ag4QXibAxnBkRib5RzOeACE9OBI0tjaY1lmB0wQ4YEaJundFm0kcXwTOzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_002_58b1261ba0b6.png)
 
 SiC MOSFET 开通过程中 UGS、UDS、ID以及栅极电流 IG在不同阶段的变化如图 3 所示，定义开通过程中 UDS下降时间为开通下降时间 tvf。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgnWcLgT0ytxnvVgMTfOfAIibMl48IZuYJHDgF5NAUwasniaTjv4NYbia5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_003_4429c8fadf81.png)
 
 随着栅氧老化增加，QNIOT 会在氧化层内形成与开启时栅极电场方向相反的内电势。因此，随着栅氧老化程度的加深，需要在栅极施加更大的电场生成漏极 D 和源极 S 之间的导电沟道，使得 SiC MOSFET 的 UTH增加，可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Agic35wIaPDIcLxTPt88croAxn7IGOLLttLMPV1XSAtDw5h3QPMvxibk8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_004_db3ee68d5211.png)
 
 式中：UTH0 为器件阈值电压的初始值；COX为栅极氧化物电容。
 
 UTH 的增加导致 D-S 之间的沟道形成过程变长，从而延迟米勒平台的出现，导致米勒平台电压UGP增大。UTH与 UGP之间的关系为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgXzlKANyZIMymvuCwQSTz3jjx00WZjicxJYPw6wPH8ibGrkmdAIqNyKhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_005_44ec6d32d511.png)
 
 式中：ID 为漏极电流；LCH 为沟道长度；Z 为沟道宽度；μ 为沟道载流子迁移率。
 
 进入米勒平台之后，驱动回路开始给栅漏电容CGD 充电，漏源电压 UDS 下降。假定驱动电路的栅极电压 UEE 不变，更高的 UGP 意味着栅极电阻 RG电压降低，从而使得经 RG 对 CGD 充电电流减小。因此，tGP 会随栅氧老化而发生增加。与此同时，MOSFET 管压降在米勒平台阶段迅速下降，其下降时间由栅漏电容 CGD 充电过程决定。通常认为 tvf与米勒平台时间 tGP 近似相等，当 CGD 充电完成后米勒平台结束，管压降同时下降到通态电压。需指出的是米勒平台期间，栅漏电容 CGD将随耗尽层衰退而非线性增加，其效应由式(4)中栅漏电容平均值 CGD.av表征：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Agb0uKAxq1xwJvlhdzPKmMGr2rVeWbmo3zdpK8Oug7fHFAYHVyfvS6yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_006_e8bbabf7b7aa.png)
 
 式(4)表明，栅漏电容 CGD和米勒平台电压 UGP会影响 tvf。由于栅氧老化对 CGD的敏感区间为 UDS <1 V 且 UGS < 3 V，而在这一阶段 MOSFET 并未完全导通且 UGP 远大于 3 V。因此，栅氧老化对 CGD的影响可被忽略，tvf 主要受 UGP 的影响(负相关)。SiC MOSFET 栅氧老化会导致 UGP增加，从而使得tvf变长。
 
@@ -80,7 +80,7 @@ UTH 的增加导致 D-S 之间的沟道形成过程变长，从而延迟米勒�
 
 如图 3 所示，SiC MOSFET 的 UDS在米勒平台期快速下降(器件导通过程)，因此将 SiC MOSFET开通过程根据米勒平台前后分为如下阶段建模分析，各阶段等效回路如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Agt8wMjkxHMmax9ibBd9qFvI4vNubQjsml0q6rGGiaE0WK69JzsLRAuSYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_007_dffe3d79e916.png)
 
 1）t0—t2 阶段(米勒平台前)。
 
@@ -98,25 +98,25 @@ SiC MOSFET 完全开通，UDS保持漏源电压通态值 UDS,on 恒定，位移�
 
 根据 SiC MOSFET 栅极回路等效模型，推导开通瞬态栅极高频振荡电流的解析表达式。t2—t3 阶段，漏极 D 电压变化率可近似为 UDC/tvf。栅极 G的电压的变化可以忽略，IGD可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgZgzJrrDeM6ialzKtzK1MSZ0IfHVjDeVS5j3pa47KfVvgicGPBhGlEhGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_008_b4cdbf6a6ae3.png)
 
 式中 CGD.av为 CGD在 t2—t3 阶段的均值。
 
 由于 SiC MOSFET 的 tvf极短，图 4(b)可看作栅极电路对于 IGD的冲击响应，则对回路列写 KVL 方程可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Ag06RauTyfHtvBNQLKaSrteUwcnU1VZ1joiaIAcOvPMYVzJHbibepvayhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_009_aa957474240b.png)
 
 式中 IG(t2−)为激励发生前的栅极电感电流。对式(6)进行求解，可得栅极振荡电流 IG\_sw：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgeXGmwdROKDiadOhp4e5Ng5wKJENFTZDHozvDeOEBqslrQcgsNibq5zCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_010_8328e42a7216.png)
 
 考虑到 LGS 和 CGS数值较小(nF 和 nH 级)，UEE和 UGP的差值较小，且 IG(t2−)通常只有 mA 级，而 tvf 则为 ns 级，故式(7)中含 IG(t2−)、UGP 和 UEE项可以忽略，此时 IG\_sw表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgpsQ9WIJwvprqGLpo6lTIXm2JoKKbNsIfSHTavRB2ky47hibOeFVp6nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_011_48bcc83ad00f.png)
 
 栅极振荡电流的角频率ω G\_sw为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgMGR5JulxwOnzSLNzOXrJ0u5DbMHibibjA2zWd46zbpCjolv1mKYFvKxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_012_e2fa7ce16c49.png)
 
 **2.3 栅极开通振荡电流影响因素分析**
 
@@ -142,13 +142,13 @@ LGS、RG会影响 IG\_sw的幅值和频率，但是它们并不随栅氧老化�
 
 为分析栅氧老化对于 SiC MOSFET 栅极开通振荡特性的影响，搭建如图 5 所示的实验系统，其中双脉冲电路用于测量不同直流电压和负载电流下的开关特性和栅极电流，通过高压栅偏实验加速栅氧老化。待测 SiC MOSFET 为 Cree C3M0075120K，其中 UEE设置为 −3/15 V，RG为 8.2 Ω。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgDAANnkLMjRUbWgicW7WsXm61qLDKZh6ibDiajtkfCnLmso11qia0icRmiaxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_013_7267cd3425b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgRD2ibz2EpMOPDicmGwF05AHhGDqaZQia3RicDPQtkbp52729ibEJpDicykZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_014_37e13e78e620.png)
 
 在 PCB板栅极回路上穿孔，采用上限带宽为 30 MHz 的CYBERTEK CP9003S 柔性罗氏线圈探头非接触地测量栅极高频振荡电流，电流探头的灵敏度为200 mV/A，精度为 2%。实验系统参数详见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgRtnUQRvzZejtBAFSZRpAC4uKOWWaXHhfTDHibMDAhibIHthYibQY5a7qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_015_52c455854cfe.png)
 
 SiC MOSFET 栅氧老化程度取决于施加在栅极上的电应力及其持续时间。文献\[28\]采用 33 V 的偏置电压 Ustress加速 SiC MOSFET 栅氧老化，加速老化实验温度为室温 25℃。通过施加高栅偏应力加速栅极氧化层老化，每隔 30 h 进行双脉冲测试测量栅极振荡电流。为缩短老化实验与双脉冲测试之间的时间间隔，每次老化实验后被测试器件直接通过调整电路进行双脉冲测试，实验总体老化时间为210 h。
 
@@ -156,33 +156,33 @@ SiC MOSFET 栅氧老化程度取决于施加在栅极上的电应力及其持续
 
 图 6(b)为直流电压 600 V，开通电流为 8 A 时的双脉冲测试实验波形。从图 6(b)中可以看出，在米勒平台期(图中 t2—t3 阶段)SiC MOSFET 的 UDS快速下降，随后 IG发生明显地高频振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Ag1AdAichVuVI6WgRw3A6bk8DmcNmwGqKWaN22tiayOzb5L6hIUicxA555A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_016_a2f6ba65f92a.png)
 
 表 2 给出栅极回路的参数与谐振频率。其中，CGS 的测量参考文献\[29\]，采用高频阻抗分析仪HIOKO IM3536 测量待测器件的栅源极阻抗，在1 MHz 下测得的 CGS 容值为 1.4 nF，与器件技术手册接近；LGS 利用开通过程中栅极电压与电流波形的线性区间估算。根据式(9)计算出的理论谐振频率为 21.8 MHz，实验测得的栅极谐振频率为22 MHz。理论计算与实测谐振频率吻合，验证前文理论分析和谐振模型的正确性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgkgmPiaW5FPjcUvfEoeubF4C78uerAEMIHxnUazLovboebiaT9HOPdMsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_017_75587e005cbd.png)
 
 通过施加 33 V 的偏置电压加速 SiC MOSFET器件栅极氧化层老化，并在相同工况下测量栅极开通振荡电流。不同老化时间下的栅极开通振荡电流的时域和频域波形如图 7 所示。从图 7 中可以看出，看到栅极开通振荡幅值随老化时间的增加发生减小，而栅极振荡频率基本不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Ag9qnOqmXw8zzicxnuO41NsE0hzNvz6o3t2h4jPtAPAWMf6LEmibLuqGvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_018_d63520c3292a.png)
 
 为进一步分析栅氧老化对 SiC MOSFET 栅极开通振荡电流 IG\_sw幅频特性的影响，提取不同老化时间下的 IG\_sw 频谱峰值 IG\_peak 和谐振频率 FG\_sw，如图 8 所示。图 8(a) 中，随着老化时间的增长 IG\_peak幅值持续下降，加速老化 210 h 后 IG\_peak 幅值下降27.8%。FG\_sw 频率偏移始终小于 1%，如图 8(b)所示。图 7、8 实验结果表明，栅氧老化会降低栅极开通振荡的幅值，而对栅极振荡频率的影响较小，与第 2.3 节理论分析相一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgeW39uBpwvGCIGItgcoicn09wicx7BPx1M93sPOEibKplck3xr7PnjZ4sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_019_9abbe690bb3f.png)
 
 由 2 节的理论分析可知，栅氧老化导致 UTH增加是 SiC MOSFET 栅极开通振荡幅值减小的主要原因。不同栅氧老化程度下的 UTH 测量结果如图 9所示，测量方法为将栅极和漏级短接保证UGS \= UDS，读取使得 ID等于 5 mA 时的 UGS，经过 210 h 老化后，UTH从 3.02 V 增加到 3.77 V，相对变化率为 24.7%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgYibCmkaMVVb6ycT2Yicib6LiaSZZgvViaXsDhPd0YLNSem3ibicCh0tFbvTtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_020_9e05b433edbf.png)
 
 **3.3 运行工况对栅极开通振荡的影响**
 
 考虑 SiC 变换器实际运行工况(如电压、电流)的影响，对比不同开通电流和直流电压下的栅极开通振荡波形。分别考虑待测器件空载(0 A)、半载(8 A)和满载(16 A)共 3 种典型工况，如图 10 所示，不同负载电流下栅极开通振荡电流变化较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgOuVFExVI3bKthxIvZmBECvcZibMLYicQk76299Hhyk3MAzgIzHeA72Cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_021_2c89c0ba7a67.png)
 
 从0~16 A，栅极开通振荡电流 IG\_sw 幅值变化约为3.4%。与栅氧老化导致的开通振荡电流 27.8%变化量相比，负载电流影响可以忽略。根据式(8)，栅极开通振荡电流幅值与直流电压 UDC 正相关，图 11为在不同直流电压 UDC下的 IG\_sw频谱图，可以看到IG\_sw幅值与 UDC呈线性关系，实验结果与前文理论分析结果相吻合。因此，采用栅极开通振荡电流的幅值表征栅氧老化状态时需要综合考虑直流电压的影响，如在相同直流电压下测量或者对直流电压进行标定和补偿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0QGu0MynTetNL5B92Y8Ag8dTnhO2jCpiaADP9KicRE3GWCFj7ngFjyNm6ejCEBnD9mOb68ea6sKBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_022_6739e70148df.png)
 
 **3.4 栅极开通振荡用于栅氧老化状态监测的展望**
 
@@ -208,10 +208,10 @@ SiC MOSFET 栅氧老化程度取决于施加在栅极上的电应力及其持续
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_023_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_024_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\栅氧老化下SiC_MOSFET开通瞬态栅极振荡特性研究_images\img_025_84aa944feb13.jpg)

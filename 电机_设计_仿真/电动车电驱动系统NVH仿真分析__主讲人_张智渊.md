@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_OyVYlSyp-sBICwmW9DJ4A](https://mp.weixin.qq.com/s/_OyVYlSyp-sBICwmW9DJ4A)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_000_7aee9f5e0b9f.gif)
 
-**[****![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZRJ7vwDFxcJibDnGHkr883klJHIqiaDa2xYic0lB84Nia2XOk1j7764Ep7o9o6oXtAOl5h24pwU512A/640?wx_fmt=jpeg)****](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632984&idx=1&sn=4dd866de3ec224059c527182f218de44&chksm=88bcd817bfcb5101660dd284d9bc7a5e12646aa0aedf5a5f0b5f2b7b6ef7778d4847988db43b&scene=21#wechat_redirect)**
+**[****![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_001_82f0e4ee50e8.jpg)****](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650632984&idx=1&sn=4dd866de3ec224059c527182f218de44&chksm=88bcd817bfcb5101660dd284d9bc7a5e12646aa0aedf5a5f0b5f2b7b6ef7778d4847988db43b&scene=21#wechat_redirect)**
 
   
 
@@ -26,11 +26,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUKbics52miam4NEb6Oh4VSR9cccvtibbS2foxZYBtLiaiczylnp4Bfw24ict3zI9NPCNQw1Z0CbXlykqug/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_002_6cc780bb6540.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_003_0cfebd1d514d.gif)
 
-******[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW2bPUClceD7AVO6UUicSVLGeMSpfpapoYxQhXMp27OdyGwmEzR9V5woAKCFwLnib7HbN1QahE2QCtg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633093&idx=1&sn=fefea38fe19eb5a5fe651b1febf0d5f4&chksm=88bcd88abfcb519c5d53e88adbd98e8f3ee8bc2dec000b90162a5d3840071e6280785080741f&scene=21#wechat_redirect)******[**![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZfZ5uT2ibRZcByL2xLy5BlhOt5RDB1bx8XFXbuWveJMu1A2cV46RqXkYORGpsGpajqmHIVoKp9NQ/640?wx_fmt=jpeg)**](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+******[![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_004_b01b19ac32cf.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650633093&idx=1&sn=fefea38fe19eb5a5fe651b1febf0d5f4&chksm=88bcd88abfcb519c5d53e88adbd98e8f3ee8bc2dec000b90162a5d3840071e6280785080741f&scene=21#wechat_redirect)******[**![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_005_f7ef7569621d.jpg)**](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484057&idx=1&sn=037907fe75f8e9970aa690a538573dda&chksm=e873ba16df0433000bf04541061fecc2aa738d6722076fc86406c8842e49583223788ad0b0f4&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_006_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_007_3f5511eb92d0.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电动车电驱动系统NVH仿真分析__主讲人_张智渊_images\img_008_64bd90de404b.png)
 
 点击**阅读原文**，直达论坛活动贴！  
 

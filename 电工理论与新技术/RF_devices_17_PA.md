@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/jnEFSt\_z1By1DFJqDS5bAw](https://mp.weixin.qq.com/s/jnEFSt_z1By1DFJqDS5bAw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMeOHGsy5NvicPIKz907OaMNGds0diaIiaAvQenAgM4wicFKTLiap0h264ickw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_000_1970d0598045.png)
 
 ____**★★★**______PA-17---功率放大器______**★★★**____
 
@@ -15,7 +15,7 @@ ___€1.PA工作原理___
 
 如图17-1所示，当输入射频信号进入功率放大器时，它会通过输入匹配网络与晶体管的输入端口相连接。输入匹配网络的作用是将输入信号的阻抗与晶体管的输入阻抗进行匹配，以实现最大功率传输。晶体管对输入信号进行放大后，输出的射频信号通过输出匹配网络与天线或负载相连接。输出匹配网络的作用是将晶体管的输出阻抗与天线或负载的阻抗进行匹配，以实现最大功率传输和最小反射。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTfrZTP46ia7WGk00upJsH3wJzJmthMCHyknjxI5icmmVPXeia8gibEbwYt5LnlwRWMY0UnrZ363wKvAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_001_9b78bf6d4bbb.png)
 
 图17-1：基本PA框架
 
@@ -37,7 +37,7 @@ _____线性输出功率_____
 
 即输出功率与输入功率的比值，单位为dB：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSaYLQT1OhQ9okSBvJZ0Zfg4NdDg7AFgvNVl8AWYcEmib6oX3ZAPwicKoaQXNS13VqVpiaicmm3Rl5iaqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_002_2f3e265c091a.png)
 
 PA的增益有两种，一种是小信号增益，属于线性区增益，用于衡量放大能力，而接近饱和区的增益（通常比小信号增益低1-3dB）叫饱和增益。
 
@@ -45,7 +45,7 @@ PA的增益有两种，一种是小信号增益，属于线性区增益，用于
 
 也叫增益平坦度（Power gain flatness），PA在工作带宽内，增益随频率的波动范围（如±1dB），保证不同频率信号的放大一致性，避免信道失真。如果电路的增益在整个频率范围内变化较小，那么我们就称这个电路具有良好的增益平坦度。衡量射频器件在特定频率范围内增益波动程度的指标，其定义为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1iaKMcyBQ9LW8AEicsWzUOU0mDkrALm8ibYicE8MwwkrBIl8fEtOWP53EENafyH9xZAnxh2j3xXz4QQ/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_003_77da3a7cde5d.png)  
 
 即在某个频率范围内，电路的增益变化与其平均增益之比的对数值，通常用分贝（dB）表示，波动幅度越小表示性能越稳定。其中，Max Gain是电路在某个频率范围内的最大增益值，Avg Gain是电路在该频率范围内的平均增益值。  
 
@@ -63,14 +63,14 @@ _____功率附加效率_____
 
 常用功率附加效率（Power Added Efficiency，PAE）来衡量，计算公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9mw4Eyjfia0gZWlk0YyG60NZg0icEwswpeAMYq382uzUHacoLMF1hKLjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_004_0a246e99b6a1.png)
 
 其中，Pout是输出功率，Pin是输入功率，PDC为耗散直流功耗，PDC的计算式为：  
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM97nicAQKbvRwhMtl8icibkafRbEdGG8HzmrwmrAIUyCsXFunJnb8FRkrmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_005_6e13e702b85a.png)
 
 效率越高，意味着在相同的输入功率下，能够获得更多的有用输出功率，同时也能减少能量的浪费和发热。而通过负载线Loadline R\_load计算，可以实现射频功率的最大化输出，计算式为：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9icpvg7ic6Th1keBtng1qn2BwVyg5ZXGhbm1rwxYHr37lTPxQGVL3aX0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_006_6fe4788b1e1b.png)
 
 其中，Pout是输出功率，VCC是供电电压。
 
@@ -78,7 +78,7 @@ _____功率附加效率_____
 
 漏极效率仅衡量直流功率到射频输出功率的转换效率（不考虑输入功率）,常用于描述饱和状态下的效率，如CW信号测试。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSaYLQT1OhQ9okSBvJZ0Zfglu2dO7YzkG0t6MvCM0Ouibkd4S48hpdGB97LsfBB3SCpoZYwPxwTiaMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_007_6f249cee062c.png)
 
 _____线性度  
 _____
@@ -95,7 +95,7 @@ _____
 
 **PA引入的噪声对信噪比的恶化程度，公式为：**
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSaYLQT1OhQ9okSBvJZ0ZfgtthUTwvNJiaZaHrHMSqCicfzsdoTgtibMXdY6tLQhN5T5ZX7icborj5cdg/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_008_b061d5c0427b.png)**
 
 **接收前端的低噪声PA（LNA）对NF要求严格（NF<2dB），但功率PA因噪声影响较小，通常NF指标宽松。**
 
@@ -131,7 +131,7 @@ ___€3.PA的__设计类型_____
 
 7#：Class F：通过控制电路中的高次谐波成分来改善开关两端的电压波形，使其更陡，降低晶体管对功率的损耗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBLldvcrcCyibtTAygItzegUpLhpkFrflNskwCCZTgUYMktyMT4ia0ic1icA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_009_92d31868029d.png)
 
 图17-2：PA基本电参数
 
@@ -139,12 +139,12 @@ ___€3.PA的__设计类型_____
 
 A类：输出功率与耗散直流之比
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9IibWGCRbbeUW14vJRiby9OsU4oZHA78DBrDZsfw9NkeiatwOl5cpPb7qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_010_c43a6e218035.png)
 
 当A类PA最大效率在VRF与IRF达到最大摆幅，VDC与IDC时取得，为50%，其中PRF为射频信号功率，PDC为直流功率。  
 
 B类：输出功率与耗散直流之比
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9Wxib0FgRTaeB7PMYnuZDpLbQgBv6EO6m8dfkxwdnA3YwNdTrmUIGRpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_17_PA_images\img_011_608f27700b6b.png)
 
 AB类：导通角介于A类与B类之间，效率处于50%-78.5%之间。

@@ -8,97 +8,97 @@
 
 作者：Johann W. Kolar et al.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPaQ7icTCicmDicWb059a9WafVdSRKtL1WHqzvUmNc5x5OKA6RUqkJpde7HTibRcWooKfa6crgT8hialmeQaGvxO6aTCgvtEmEPReoM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_000_41e8ee9d11d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNR1dQMC1e1QibopsuVzJ9UsETpuJZ6P1glWBicVqh2ebKc8TZZB4ron7uUszAmMGojJI4O4wuw7PjZkuO3libG7iawCfsF23m0u2U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_001_727270598d38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7cpY4O5lQyfMgkgwKk0ibZnbGJTZOSbIuv3I7I4NVSU22Zao2icKibZPcjkico8jibGb33iagZWfMfc25q7FdbAb8kw0icWEE7Mmj2Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_002_7947fa6f9115.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPyyvSP9lHULk1VrjibibbXVOJ0sqNupzpzwNmicma07cpUk9DbIT7U2GMfsTc2F0jfR3gkyggbgCMmMUljsYzibNRferrXDBSfXEM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_003_90b92143b890.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNl6QPKmU0r2Id4jSDdBfdYCwV0RPkZUQDqvadjpQ1Iys4icKYBvA7PDtv38fsHwpUnHRkltTqOEv621fKA8lK2Hibk9rIrBUia0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_004_faa8353c7230.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMWwDundAwvO7LzHg3bp7QZDwWs5KPVPpNoGxkgdhbjrOusGKwl8smlnric2tjclKWPrJlMJ5EKMFGo2BLSM6LBFqIpxibSFMic48/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_005_f3deb3334f3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPkP42JzI1qnv76w8RqiaVQ7ZWwu1wk6u2xoNaxQRH2UhOLxR9Le4PIfOhoInEYp547CfGGZia5yficTROicMspXmAuXicE57tKmdAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_006_68f0fe386d97.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMaZ5BYpfNSWdoaZOOWP1MUib8qaVlyytb9l5lH0UwsC03W9m6MiaxafNcGFjPq3BADYpc4xSmphGOriaiaEcLGKtXWKuCYDian8JCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_007_a3627a9235c6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOp5v0EavtWldhPLEUu1LXr9zFwEeHKLc1K1F2gyCXMoUU7rYn6uls75SIdJEp5NyG7AOzbjXqpWiafcMwEA6mkRNw11Xm3qUhc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_008_263315a26272.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPREYLyQmKcXhJ6iacbHgs59bIEIciau3QMootRG4oWLmcZufSWbCfOzQPUM9FEtd58dRAe1rCYkbHRxgktm7qh3XyXiac19pKMLY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_009_68d9c0af199c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNIDzIrWGSs7C8TZYAnjKAWejM2ENPxAAKbalj8egmQNNkWrPvDa807icvGkEPBdG29agQQrxtJvs8lezXVNOS3ZlkuCRpslHI0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_010_dda368dba9db.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOibkInyic1icVSNXyXd21Hwzsypgfo0DXAVQFvUfyh8JbUXX8s83LISUgKk4R0bW8PZg9hEGTWAkOj1gQfaLKoxAuV1ztk4PmPia0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_011_335ea9ea8609.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMTRMUY6KryorYQWyn8UFokas7XrNiatflsFiaeUVqJhSuaGSJq1OodLhv2fqOdZgNKap8uV45tCKkh9gibY6dFJL8NEYxDRBSdow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_012_eff4c0ac3ed8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPHndOGepVU3qZr2xFgzm1lozmS68AHa9J0O2TsgR0LuHtHYQy5TOxrmeukHeja2YfY5vFXwaEVRibp2Cv3h4bzk8SYUicRdFicxM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_013_25960a731a17.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPvyIbtSaBHicQTCz8ptlZ1gd7Kq6PKTlTXaUricvcRXOqA1tPj4VJx9z0uXOKwJrMfBfaKBL0cI9zwKZztm4vzJat3uqC0Wg4w0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_014_3630e28ca7c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNuib8SFcGn17Ng5ib2BR4DstZQAqxGYSODBNjObfHGibG2zQ56aw19iaycvk2y7cDGOFuLrg5081dtoS3WGKVfqEC8NGjEicp4aaME/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_015_f0ec30212ac7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKts2vhB8PUibjBRAOUGQnu7Qic79jDuOb1WuVqBjMZtFK14hgVDJoE86PtiaiaJUK1hhHGRc8u8POFdQ4PFicpMZic1gy0EbkEeEWU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_016_27c6cc172de1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMZHlQlCEefibiaq13P5qiaYiawib58Qw2tLzBduJ9JXtIibcSuBjvNeNeic9WT9lhDR2Cl5s4YvRoDSaoH0BlTs8ylsBKvFzGRlPY4v0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_017_ad4c2c129d40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMNC2JtMotuLGJuKHEzXghNUOEGu560DMX2trFY0otmukKfY3naLnaicPIZia1DxBb1FN4FS2pLlWkz4P2wNiaMVj9dKUp8icAfViaU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_018_77a1a110bb61.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMFjhnw9OBTdWibkUBPuuhpL2CDtJZeEtmCBCBBDVibT6icjwvuFh4fm2rj5QwlVlF2aicY8G8ZQGPpWbMUU6OGySCT5aDd0TB14dY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_019_c62b18c00bb6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPjhtYBjEn7WxohFsLSibw1IeZcPEiab2oTrdUdvOocMAUxMvVPKCTYd7VAX0IEZTLk8hpBKgYVqaTyvibfX2uD9ibbsL9mnfZQgj4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_020_e52ddb0a2365.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNjE0XqSgyI2AzrujRWR8rVzfOr9UtpJmZWDlkibcwhaVmdpFjbJowhD0iaHKH8MYia9gFTCzicWWcP0P8icHW4gy0oT8z4Q0v5AOmI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_021_5671503a85d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUafSyZ2dfrQyBaJOQDQwWQrXkZdy33SicCKEalNunQUmPLiaqDc9J4frDq5zIDo7UUBy6GnHKuQVrWD8Lch0ibyo9cibYT3PfA1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_022_3fc035942a6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOzWjX0RO5ppGfrE8jxT0uicOK8vkNp2HfHOlMlJr35twicSiaSNrya8lIY4TjNIGgURnH61z3q3U3m4wu5Yhg9SpeJOGI01PRSEM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_023_0c01c70e1b17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQdTJPibxjErPg5rg7ddgibE5yt0NRZPMjMKqibHvAyutmT6R9Rd7BicnvmmNiaZiciczMAp1khuzwONOUs62G75icInEZrW25rjJL84g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_024_eec269be6106.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNAmJM0umibNpmByyviakORYXsPibfmIdEoZSzpDgu9kPWZOML4IQ6q6R9O8HGiaia6HCAQT5ERGWtSXwicJXRzj6iaNgH6yVC7wTmVQ4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_025_622944e024ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOgaG7ZJ8ICtOcllx2hpVjGrRZZw1puYXaJakyPAqZN5FoKiaFf0ZlGwEYfGz4cQJyK9icFNBzZkbPlb1GGicc6bicMnNmXsVyR6gM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_026_1a66cdc89f30.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN0OpDPIfhQIEG753KNN13HP0T7rDqhgzX4oRg8oicLQu6J0Oq6ickmuQaHTJcnJhTNlYTC721kyFvKkIibRFF13g9VI4aias2kc4U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_027_f2f9f4610044.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKhvRIGLHdrlmrllibdx5G0icpMJzVcaWMHCyoh5rL43EXGKq7VUm9Lcy2NvThLeWATVfnz5M2pMV8A7yDGXMQNPwkTIjm6rWNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_028_9a997d22f155.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOGsFOOm9fOD9suN76N34h104I2etcx7JT8AToTw7s6gxUfjyYBVZk9IfNJV5iaicrQeTTSIVc0U8LsrzBph66wxHF1eLHGXTWto/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_029_eb6ae66e688d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPRs3XzY4DD4HtvBEbkgcnibSHDmlpC4elPnML3H5jzqcicSVpOdqJ2gib3kibtHpgkPKl4xzIU1Xe0CyAYCSd0ldwEkN8XAsiaicmko/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_030_07aa52208b2b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOljEmv537siaIQhdB7vbcaKtwGUAVoyhLicnJVWh0IJU0icvuocPsoEqGPmuicQqUUaH8IU4PxBWricsbL0xIf1HNKZkFJsPRH0GkU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_031_8f0c2823e29c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPEqFxyR1uvocCXxUCQAw2pyTvH7F4fVJiaoEvz2na1a0ibU3nC7WJg63ic1Z96iaK1HAL5lUVgribGZzsgLrtuRr8YOxyjUksnkGtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_032_452dd227808e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtuTJesLowCBDIt43Yib57xwYSt0OS8AZKc19PBiaSyarOszsPAvx7XduzHrqeuJ0ZzwG3cuFtt4l2c3w93nEz80eqcjmskzJV8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_033_b01f59996c41.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPag8lyBoQBDTK5f03iaR9KgVib2LHpKvuFBWjBYxPs6542XicIHtDNyMeNbgtk2nk25pkeEdO7MibjnNRMANbJRmU59UqSmbR43qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_034_57263301fab7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMfwwd8x3A5DBk8fRWYiaXCYC74T1LVl2NnKqTvDUpk17rgXtXiawDo0kVQg2icGpY41piaFyfuNxZzEOPtS4b7YPvCeymBUmCEwXo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_035_93bddfe9bdbf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPIpSaticWuuDb7WTtelEvbcctSJIcD1KmibokMibTtZYE8viavFUtsPjjvHLTefWyGDLlh3xqmfwiaQAq37yI3AY5BuajIxQuI7F0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_036_47be87e13023.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN0zicFGE1H4aSSwG6JeuyUOAZ1UnuZgaLSBhxnxG7EJQ3328lfasUzbjRLEHg8VGLtzXUCBkUndBNuWFDJO1npZSiaVhwU5PSSo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_037_d744df5c3ba4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMlYHJyAMoTf8PWBiaBjhVRZsmsJ4YJoFqsGujRtj69D6CH4wqqe9krHldZtlSa2gc7knqoDM00975484ZG4KJE8tL3iaLKaKfag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_038_780750189537.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM3wfibmmgMlEhSdaZf9tQoHUjrk1EjiaIHJ3B7yYrc7SYtDHGEnia1Niaias7QDo7BsnRPv9torIHpkCmwNd1qTTgc2EbNqX1xAeicU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_039_d273b42d6335.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOk8EujguwWpSDlIKU9ZUchkKn37BQGNeWic5siadVk5AJsxSxgBEUeiae54zj81skib2jZYZ6mEPFRP9Dgv3MG5O4epYvucQ4oKLE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_040_75de5b0dca4a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPLI3cnwUYS9ot0DJUnTWpOOvkeyTORH7Hfia8aPJUibEtAnEaSVmW4ibnibSD23uoiaBKCNhqeJKLaOoEaMCYGmG6akocuIX7By5x8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_041_1480bdf0ac74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMpkPPCiaE0jzVLFLpYjJibBQNiagrSiaGD8LyibWKVwlOfXGEMJiaBZfPVAf8wQJEzS6NNJ4ia4jg87mmDCuevZXn8CzqicKKhZV7DCNY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_042_c1db37a05bba.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO9n2xKfRZQ381RJ7PKrrz4V4MD9Yjdqza2PVsmEicX1WOnTTsoenYusIrwtCo3y7K5e0rXXKviaHAzBUmepPibjNeYu6FdAGQRUk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_043_e42d1a1920da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7Sr7VzT7XHd2ibtAdMDSCSNiaiaENd47Mw5lFMYUQrd1Pz556yGI5ibCIb1PxK86ic4L3NdPR3CuiaVk083PsQUSqbGbgvsvF0wzGM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_044_8b8527e07ec3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNgT8Q6dvxEKVpNSicJicl0kUISzPWysCJcryFe92FkSsjaGkTgicmRxy1bDsqV0gcvqamcNKJMAqKoWNQN5EUXKbXr8b9ry7lntQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_045_37c5de8bdd2e.png)
 
 注：文字与图片报告无关
 
@@ -232,14 +232,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNS7emqsaicOvzlGHC81zMrj8D0mZbXwwXb0icshPibqx1sAx8zmaeF49E6ewWXDxa1dSEeibcB2vVSyRBicEqO4rJMQxV9TDYXFjLw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_046_87bc5c918a7e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSEkTNSDMeaLIRQ0w5FotSLu5Upsgwa8PU9Sk7ia8xhNt5GLDupq0BE3GQU1CicL1XhFXR8KHY4FRz99VsEf2s2nu9Se26eJWkA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_047_1d9920047bbd.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtGaaCfwIKOhqWZiaWVYYDVLkibSaIgoJbWRk8571lCyh4JbN2O3HP8Cpqode2TBTXqibybosTM8kDIIdj1VicKPUdAskOyDoHcJI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_048_ce0741cdf907.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOygImDkAiaYx2Ieygu2GgSxE8KnBUluqQlJehcG0cEFIlPiaFykpMx5ZwqY02JWGWH3AIiaW6TDxr0Y8I6VCEhYSQ5FLP83XGg6g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相AC_AC矩阵变换器与电流源型变换器的调制与控制_images\img_049_7d6b070fe0c8.jpg)

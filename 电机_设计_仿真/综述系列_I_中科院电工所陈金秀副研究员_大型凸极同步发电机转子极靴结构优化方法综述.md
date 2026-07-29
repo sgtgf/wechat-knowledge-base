@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/nCpSCtM3R1Qssf9zUc3q8g](https://mp.weixin.qq.com/s/nCpSCtM3R1Qssf9zUc3q8g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_000_4fecbf19a39d.gif)
 
 **大型凸极同步发电机转子极靴结构优化方法综述**
 
@@ -39,11 +39,11 @@ P. Ma, J. Chen and Y. Ding, "A Review of Optimization Methods for Pole-Shoe Stru
 
 **•通过极弧系数、电压波形系数和电枢反应系数，探讨关键电磁参数。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LO7v6QoDja3SJ4ibHdhJMiaf8EtZksYiclsiakmrDOicJ8L2hQicKS96CCLPAyMslzibtibkP5kcxibr7Lz59gmMCDfjhaLiakiaXHyR84tvysH84AGwWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_001_2033866f45cf.png)
 
 **（二）分析了四种典型极靴拓扑结构：三段弧结构、五段弧结构、单偏心极弧+两段弦面结构、不对称磁极结构。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LO7v6QoDja2CBHnA0PWl5qibxmCbKbcAIefe0r85kSeEbkR7ZhJOgiaWibQzPH4dtRWFpLEedSp5GRe0HMTystuXZWsXAqmkw1VcDOYG1LwKjo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_002_4f3a957b4fa3.png)
 
 **（三）总结了极靴结构优化计算方法  
 **
@@ -99,21 +99,21 @@ P. Ma, J. Chen and Y. Ding, "A Review of Optimization Methods for Pole-Shoe Stru
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LO7v6QoDja0HRcqDDA57V2ciaZ3bcgdeD96t5ZZEZ9u7slGKku3Ozz60MkjBOHxLCnvjK6RXyyaEwlefEM2QIvJNf3bLSUpicU62gfVhMPGU8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_003_ecaaa847c80c.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja1nlAiaiaNHL83ZYtgFIg3nJ9ib5P0yeMnYdL760tWy4Bwu8bdhRqtqf8VUH65s6Ce1Ob3OEQLo9949BSKY9ktgiabsF9kojnwR0RU/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_004_934c3e0bb87f.gif)
 
 **马鹏程**，出生于山西省。他于2024 年获四川大学电气工程及其自动化专业学士学位。目前他正在中国科学院电工研究所攻读电气工程硕士学位。研究方向为气液复合绝缘以及定子线棒防晕设计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja2IZxthMXXTic5cxuLydd8eeCAhmto5lA8cBtrp2BJPt3AT5fzP0ygkvyEB4BjPIDUWOnKF9GaAK7Wvw6EFZuibl86ptMMiaOXf9U/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_005_c3a9f197a2ec.gif)
 
 **陈金秀**，她于2010 年获中国矿业大学（北京）电气工程及其自动化专业学士学位，2016 年获中国科学院大学电工研究所电机与电器专业博士学位。2016—2021 年任中国科学院电工研究所助理研究员，2022 年至今任该所副研究员。目前的主要研究领域包括电力设备蒸发冷却技术理论与工程应用、多相复合绝缘、电机绝缘及防电晕设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja3I0iciccYR6N3BkOsN0YCeqYx3ggxxrxevAWtAKKOQOMQhrIXTIBqNiaJBMexicHnicbRc4kn87QrO8by83nUtoK7vO2z1OiaEu6iaIA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_006_043bdc430e0e.gif)
 
 **丁艺伟**，出生于河南省。他于2022 年获郑州轻工业大学电机与电器专业硕士学位，目前于中国科学院大学电工研究所攻读电机与电器专业博士学位。研究方向为水轮发电机多学科优化设计、电磁-热-流体多物理场耦合分析、先进优化算法在发电机综合性能优化中的应用。
 
@@ -125,7 +125,7 @@ P. Ma, J. Chen and Y. Ding, "A Review of Optimization Methods for Pole-Shoe Stru
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -139,15 +139,15 @@ P. Ma, J. Chen and Y. Ding, "A Review of Optimization Methods for Pole-Shoe Stru
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -155,15 +155,15 @@ P. Ma, J. Chen and Y. Ding, "A Review of Optimization Methods for Pole-Shoe Stru
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -171,15 +171,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_中科院电工所陈金秀副研究员_大型凸极同步发电机转子极靴结构优化方法综述_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

@@ -18,7 +18,7 @@
 
 SiC MOSFET属于第三代宽禁带功率半导体,目前各大半导体厂商包含国产功率模块厂商，都纷纷投入重金进行SiC MOSFET产品的开发。相比于以Si材料为主的第二代功率半导体,SiC MOSFET有着明显的优势，如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpyK7oAwtVCTiaE5mM9xtDG9D1yDeKwmqicIwpzqGv4IR1tMBGIjuH9JzDg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_000_d573e814b563.png)
 
 (1) 耐高温。SiC材料在物理特性上拥有高度稳定的晶体结构,其能带宽度可达2. 2-3. 3 eV,达到Si材料的2倍以上。因此,SiC材料所能承受的温度更高，一般而言,SiC器件所能达到的最大工作温度为600 °C，但受限于封装材料，目前可用的SiC MOSFET的耐温可以做到175 °C(个别厂家的封装技术可以做到200 °C)，相比于第二代功率半导体的150 °C有了一定的提升。
 
@@ -34,7 +34,7 @@ SiC MOSFET属于第三代宽禁带功率半导体,目前各大半导体厂商包
 
 虽然SiC MOSFET具备上述优势，但目前在市场上的应用并未普及，其主要原因在于SiC MOSFET现阶段的成本依然较高。在2021年量产的车型中，仅有特斯拉的Model 3和比亚迪的“汉”搭载了 SiC MOSFET 器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpyXPImhgbjGYMePFPv20b78GicGdbhswEUdLEbxCvwy93dRV8LLu3GGKw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_001_67cdab9b429d.png)
 
 图2为SiC产业链的主要公司信息，目前具备成熟的S1C底材生成能力的供应商都被国际半导体生产商所掌控，包括Wolfspeed、SiCrystal、NORSTEL等，国外半导体厂商掌握着SiC底材的定价权。目前，国内的公司，如三安光电（Sanan ）等在底材生成、模块设计和封装环节也具备了一定的能力，但整体距离世界一流水平还有一定差距。SiC MOSFET的成本较高，还有一个重要原因在于衬底生长缓慢、产量低且良品率低。但是,很多厂家对其成本的降低都有着很乐观的预期，预计在2035年成本会大幅降低，可以达到Si器件价格的1.5倍左右，届时SiC器件将会迎来大规模的应用。
 
@@ -42,27 +42,27 @@ SiC MOSFET属于第三代宽禁带功率半导体,目前各大半导体厂商包
 
 SiC MOSFET在实际应用过程中，可以实现更快的开关速度和更高的效率，但其快速的开关速度对驱动电路的设计提出了较高的要求,尤其是整个系统的杂散电感，在快速的开关速度下会造成较大的EMC冲击。本文以英飞凌HPDrive封装的FS03MR12A6MA1B（简称FS03 ）模块为例（见图3）,对SiC MOSFET应用的优势和挑战进行详细阐述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpyTMuvP8AFUl4kEriaZjBwicMhvgdIgTPNpgVicxGicBV88ufibffibmVW73bA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_002_dd92257cf78c.png)
 
 2.1 SiC MOSFET 逆变器
 
 FS03MR12A6MA1B是英飞凌公司的新一代CoolSiC汽车级1 200 V MOSFET,具有较低的开关损耗和导通电阻,模块的杂散电感小于10 nH,可连续工作温度为150°C。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpyoKq2u2icnRxcKUe1zNywSz4ZfjVTuOTbIwmVI6V2kA6jYlRhpkzzJpg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_003_8a676a2f9b0b.png)
 
 基于 FS03MR12A6MA1B,开发了一款 800 V平台下的SiC MOSFET逆变器，能够实现峰值电流450 Arms,峰值功率300 kW,功率密度达到37. 5 kW/L。在设计中，相比于HPDrive封装的FS380R12A6T4B(简称 FS380) Si IGBT,匹配和优化了电源系统、保护电路、寄生电感等部分，如图4所示。图5为该逆变器在450 Arms下的电流波形和热成像结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpyzbgYiatUMfO2h0GaNF2CbrFbsUH5nhK4dxKThl5eicnRlN0Zq65PaRKg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_004_c201ba908c0d.png)
 
 2.2 SiC应用的优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpy3Aic4iaTaBuYTp2VC9OotcY9LmbXz7mP6MoJDjFozClPqOfDSon0CWWA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_005_4ab3a854fca6.png)
 
 通过实际测试，得到不同电流下,SiC MOSFET和同样规格的IGBT的电气特性对比，如表1所示。
 
 从表1中可以看出，SiC MOSFET(FS03)要比IGBT(FS380)在开关损耗上有明显的降低，下降了约30%。其中，在800 V电压380 A电流的工况下，SiC MOSFET (FS03)开关损耗下降了30. 2%；在800 V电压450 A电流的工况下，开关损耗下降了 32. 6%。两种工况下关断损耗的下降更为明显，都超过了 47%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpydA700m73PH3h7oW9EGXrAXYK77EdK2PLfdoREf6DMo2MGpPBNvmalg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_006_ef1211d36ad7.png)
 
 为了更加直观地比较两种功率器件对车辆续航的影响,以一辆B级后驱车为例，进行CLTC综合续航的效率和续航里程仿真。仿真结果如表2所示，可以看出采用了 SiC MOSFET器件后，平均驱动效率提升了 3.53%，平均发电效率提升了 3.47% ,综合续航提升了8.6%。对于纯电动汽车而言，将有着非常大的收益。对于一辆使用80 kW・h电池包的纯电动车辆，使用Sic器件就相当于节约了6. 88 kW-h的电池，或者在使用同样电池的情况下，使用Sic器件就会有8.6%的续航提升。
 
@@ -70,7 +70,7 @@ FS03MR12A6MA1B是英飞凌公司的新一代CoolSiC汽车级1 200 V MOSFET,具�
 
 SiC MOSFET在效率和续航方面拥有一定的优势，但是在电气性能方面依然存在着很大的挑战。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEodAf0uQVTibtLVlf2gSpymbUHj3JpBxL43FOsqlgNdUlhJvicRln68LhKoYUNS5vlVIKP1Su4jGw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET在电动汽车领域的应用_images/img_007_6626b3e43f8a.png)
 
 由于其更快速的响应能力，很容易发生电流和电压的震荡。图6为SiC MOSFET模块开关电流和电压振荡曲线，其中(a)为开通电流振荡，(b)为关断电压振荡，(c)为二极管振荡电压，其尖峰控制到了 856 V。从这3幅图可以明显地看出SiC MOSFET开关时刻的电气振荡要比IGBT严重得多，这些特性对于汽车级应用和EMC方面都存在很大的挑战。
 
@@ -82,13 +82,13 @@ SiC MOSFET在效率和续航方面拥有一定的优势，但是在电气性能�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET在电动汽车领域的应用_images/img_008_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](SiC_MOSFET在电动汽车领域的应用_images/img_009_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](SiC_MOSFET在电动汽车领域的应用_images/img_010_9bbc7b9b15a2.png)

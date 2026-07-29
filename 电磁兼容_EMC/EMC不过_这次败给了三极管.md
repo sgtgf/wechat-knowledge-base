@@ -14,7 +14,7 @@
 
 公司之前做过的一个产品。产品在做EMC认证过程中，经常会出现信号指示灯乱闪烁的情况。信号指示灯的连接原理图如下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaItmhKeYyMMVI7Pr0IibqS2GJ3iazy8iapWTCMl1QVgUDYE6acNUmfMVYS2IC43Vq48be0mLBZYy8bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC不过_这次败给了三极管_images\img_002_55da19914ce2.png)
 
 图 1:原设计中的指示灯原理图
 
@@ -28,7 +28,7 @@
 
 也就是说虽然主芯片没有对外输出高电平，但是由于周围的其他干扰，也是可以导致三极管非正常导通的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaItmhKeYyMMVI7Pr0IibqS2BzdKXJPic4uLUdyibnteFsZn9OEwD9SPoejKW2Pdc1c8nXh39dKhYPog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC不过_这次败给了三极管_images\img_003_758689d4986c.png)
 
 图 2: 三极管Vbe与Ic的关系曲线图
 
@@ -38,7 +38,7 @@
 
 经过EMC的实测，问题可以得以解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaItmhKeYyMMVI7Pr0IibqS2uIXFuKTQxWtTkm8OI6DNxFz7w399hEYOOlsFAs3T4Oukk3OeuLlGkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC不过_这次败给了三极管_images\img_004_e99799dce21e.png)
 
 图3: 整改后的方案  
 
@@ -58,7 +58,7 @@
 
 5、增加下拉以后，可以提供放电通道，可以提高三极管的放电速度。当三极管开关作用时,ON和OFF时间越短越好,为了防止在OFF时,因晶体管中的残留电荷引起的时间滞后,在B,E之间加一个R起到放电作用
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC不过_这次败给了三极管_images\img_005_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC不过_这次败给了三极管_images\img_006_d5dcc7ecfdf3.jpg)
 
 ## 
 

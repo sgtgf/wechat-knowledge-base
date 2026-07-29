@@ -5,35 +5,35 @@
 
 功率半导体技术正经历从传统硅(Si)器件向宽禁带半导体尤其是碳化硅(SiC)器件的重大转型。SiC MOSFET凭借其优异的材料特性，在新能源、电动汽车、工业电源等领域展现出革命性的性能优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuUncYPWNIX6NkyZrQQByToMsAuBS2ly4R2PIflra7WloKsxhS5dZfz2A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_000_801047753d7e.png)
 
 本文将从实际应用场景出发，系统分析从Si到SiC器件转换中的核心技术问题，重点探讨产品选型策略、驱动电路设计要点以及保护电路实现方案，为工程师提供全面的技术转换指南。
 
 1\. 市场应用全景分析
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuU3YNhFnBrXVVFVote3N4uaDqdaH8mqAo4m57qG3ET76ibR4rteNIqY3g/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_001_27278b07d5ef.jpg)
 
 SiC MOSFET凭借其高耐压能力、高频开关特性和优异的热稳定性，已在多个关键领域快速替代传统Si基IGBT和MOSFET。这些器件特别适合要求高功率密度和高效率的应用场景，其市场渗透率正随着技术成熟和成本降低而迅速提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuUZcEAicxauFSb6PTg609icnLPm5QAn9ajJKics3iafaaIh6xzZhTjJ0bxDg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_002_febeee56a9b8.png)
 
 新能源汽车三电系统：在车载充电机(OBC)中，SiC MOSFET的高频特性使工作频率可达100kHz以上，让磁性元件体积缩小40%以上，整机效率突破96%，比传统Si方案提高2-3个百分点，大幅缩短了充电时间。驱动逆变器采用SiC MOSFET器件后，效率提升3-5%，直接将续航里程增加5-10%，同时改善了车辆加速性能。DC/DC转换器也受益于高频开关特性，在相同功率等级下体积减少30%以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuUwLPc5FGMAwb6kHJ7bm27nHWd0s7icjR82GicEyI8ccdDlrYVs7Uq81tw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_003_6a283d23d383.jpg)
 
 充电基础设施：800V超充平台正在成为新一代快充标准，SiC MOSFET器件在此领域展现出不可替代的优势。英飞凌4mΩ导通电阻的CoolSiC器件使25kW充电模块损耗降低30%，支持高达350kW的超充系统。顶部散热封装技术(Q-DPAK)解决了高功率密度下的散热难题，热阻较传统底部散热降低70%，支持175℃结温运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuUHHZrYoLYW3ZXnpicK84h7B82iaFsa9S9pUjUicZ61ZdqYfrBMNFCgDKUA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_004_187635fee950.jpg)
 
 可再生能源发电：在光伏逆变器应用中，SiC MOSFET支持1500V系统MPPT(最大功率点跟踪)，即使在175℃高温环境下也无需降额运行。1200V 40mΩ规格的 SiC MOSFET广泛应用于组串式光伏逆变器，提升系统效率同时降低了度电成本。在储能变流器(PCS)中，SiC器件支持100kHz开关频率，使体积缩小40%，同时提高充放电效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuUn4ib3LQB1ocRKcvtS8DRjPXCfqqib803RKsLRgbUVWk3icDuxia33CMvrQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_005_95c599aac721.jpg)
 
 工业与数据中心电源：在钛金级数据中心电源中，SiC MOSFET实现了100W/in³的超高功率密度，同时满足96%+的转换效率要求。不间断电源(UPS)采用SiC方案后，切换时间缩短，供电质量提升，整机体积大幅减小。
 
 表：SiC MOSFET主要应用场景性能提升对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuU0dklxTEGa6SDTrjYEooHQbAl73rzKvcrUtTcgl359gD7OGq4H11Xcg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_006_549c3166d760.png)
 
 2\. 科学选型指南
 
@@ -41,7 +41,7 @@ SiC MOSFET凭借其高耐压能力、高频开关特性和优异的热稳定性�
 
 2.1 关键参数解析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuUBkD0326gIRQiaEIgzbwYmzyNM4icdSiaMDLzM4qvYEmu4iakjAtD9UpqcA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_007_c69322dc55f6.png)
 
 电压等级匹配：SiC MOSFET主流电压包括650V、1200V、1700V和3300V等级。选择时应确保器件耐压至少为系统最大工作电压的1.2倍以上。对于800V电池平台的电动车，推荐选择1200V器件；三相380V工业系统可选750V以上器件；光伏逆变器则需1200V及以上等级。高电压设计余量是保证可靠性的基础，特别是在电网波动剧烈或存在高浪涌风险的环境中。
 
@@ -65,7 +65,7 @@ SiC MOSFET凭借其高耐压能力、高频开关特性和优异的热稳定性�
 
 表：SiC MOSFET选型关键参数与应用对应关系
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmia0THnuicnCv3yk81qd3BuUOcKKzxVSfGaVOLh58VIbPU2oIuMSwtN4FZsDWO2JXsgGz4FCm5PL2g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_008_3f5f18bd8c6e.png)
 
 3\. 驱动电路设计精髓
 
@@ -243,13 +243,13 @@ SiC 器件技术正在重塑电力电子系统的设计格局，其高性能特�
 
 ### 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaTj21pCrbpiahbGvsgVQPiaWNNOx0mQbEcyDMRPdkpsoVv5MxygEHXFSXdQtkRqINTZeEcS1hictKA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=ogw8u2p3&tp=webp)
+![图片](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_009_9c0a2f9830af.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaTj21pCrbpiahbGvsgVQPiaiaIqHdvLJWibNQlhkf6LfkOUfVzZMHcfLpJHYjVhicAaBUs7ccJ0xOwAw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=uwkwdjqs&tp=webp)
+![图片](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_010_e58656683fc6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaTj21pCrbpiahbGvsgVQPiallDo3orGfd37ibs9icOFnZveOMAwSByN86nAGOqaj0ibP1txMdYzb67QA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=kst54w79&tp=webp)
+![图片](SiC_MOSFET器件应用技术分析_从市场应用到驱动保护设计_images/img_011_5447a94efc37.png)

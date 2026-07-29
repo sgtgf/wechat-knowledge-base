@@ -11,7 +11,7 @@
 
 综上所述，‌SiC器件在无线电能传输中的应用，‌特别是在电动汽车无线充电系统中，‌通过其优异的物理特性和技术优势，‌显著提升了系统的效率、‌可靠性和性能，‌为无线电能传输技术的发展和应用开辟了新的道路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmS09bQL0pGEodeibWZPTFWGndDumfPEjWpEAXt6kFOT4CeuepsIqVNZBU1gFMjria2AgaOTXhZkgAQ/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_器件在无线电能传输中的应用_images/img_000_e84464a0bf63.jpg)
 
 无线电能传输（Wireless Power Transfer, WPT）技术是一种新兴的充电技术，通过电磁感应原理将电能从发射侧装置传输到接收侧装置中，再通过功率变换电路给负载进行充电，从而实现非接触式充电。无线电能传输技术消除了传统有线传输的局限性，并表现出显著的灵活性和安全性，在小功率无线充电领域已广泛商用，如手机、智能穿戴等。近年来，随着新能源汽车向智能化、网联化方向发展，电动汽车无线充电技术备受关注，并逐步走向商业化应用。本文将重点探讨碳化硅器件在电动汽车无线充电的应用及技术优势。
 
@@ -23,7 +23,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnPf2tKv0AmYOoEecWdliaP39MzlhmstskuXkic0UFdSqtGPDfMMmT0uFDQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_器件在无线电能传输中的应用_images/img_001_830ffcf6cc4d.png)
 
 电动汽车无线充电结构组成
 
@@ -39,11 +39,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnP8Ux6Hck8iaKICU0eWaicnL2zj3lJA2KO1hD8oJRKg7jEOIqOlJGic2kkQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_器件在无线电能传输中的应用_images/img_002_859d9b27b89b.png)
 
 电动汽车无线充电系统电路拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnPe9N2Xg1mzOicDhxPEGM4iaIpDsKI3A09Cdwia4vOYiaJpUoiaxbqAR1WyWA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_器件在无线电能传输中的应用_images/img_003_6407ae13be81.png)
 
 碳化硅在电动汽车无线充电系统的应用
 
@@ -51,7 +51,7 @@
 
 除SiC MOSFET外，碳化硅肖特基二极管（SiC SBD）因其低正向压降和快速开关特性，可显著减少整流损耗，而且SiC SBD优异的温度特性使其在高温环境下仍能保持高效率，因此SiC SBD成为无线充电系统理想的整流器件。除在高频整流电路中可使用SiC SBD外，高频逆变电路前级的PFC整流电路包括整流桥和Boost 电路，一般也会采用SiC SBD器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnPf3Fqib6QTIvjU8sR0VrhPdsY7RfBuODuaGNFUHDCZSf9eNC2fO1GlDg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_器件在无线电能传输中的应用_images/img_004_57cbf743409b.png)
 
 全球首款800V高压平台电动汽车无线充电系统
 
@@ -77,8 +77,8 @@
 
 文章来源：宽禁带半导体技术创新联盟
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_器件在无线电能传输中的应用_images/img_005_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_器件在无线电能传输中的应用_images/img_006_3ade3c3d8599.jpg)![](SiC_器件在无线电能传输中的应用_images/img_007_84aa944feb13.jpg)

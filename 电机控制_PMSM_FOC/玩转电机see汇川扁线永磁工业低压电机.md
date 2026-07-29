@@ -24,7 +24,7 @@
 
 主要see技术，
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Zlibib2pr1chykibetMQKTMjib0v0pgTrricHEy4XYJ9Ov8ecI0QCI52ODyVXvSChnSJxhBEqo2CK7uAUp48vzH4Lcw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\玩转电机see汇川扁线永磁工业低压电机_images\img_000_3ab73cba6f60.jpg)
 
 发布了4个基座号180/200/225/250，最小转矩175Nm@55kW-3000rpm，其他转速的转矩均大于这个力矩。为什么是从55kW开始，为什么3000rpm不能做更低功率？
 
@@ -40,7 +40,7 @@
 
 **模块化设计。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Zlibib2pr1chykibetMQKTMjib0v0pgTrricHlWJMuZWFf9iadxoKNB07bzauSc8JzawAmEVKCnHe8En8aaaTbOpvQ4A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\玩转电机see汇川扁线永磁工业低压电机_images\img_001_e93635c32dff.jpg)
 
 **高效**
 
@@ -50,17 +50,17 @@ GB 18613-2020《电动机能效限定值及能效等级》这一标准，于2021
 
 国内很多买方，只关注初始投资成本，不关注产品终身拥有使用成本，这是低效低质电机还大行其道的一大原因。追求更高效其实可以使远期收益更大，不仅利于企业，也利于社会，利于子孙后代（大话一套套）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Zlibib2pr1chykibetMQKTMjib0v0pgTrricHrQQG8FA4NDelhzVLXbChfSIibv7Ohng0LKOZU1SY6b5em4cSEpx3RZg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\玩转电机see汇川扁线永磁工业低压电机_images\img_002_de4565916caa.jpg)
 
 IE5在永磁电机界不是新鲜事，把双“90”概念引入工业界，是第一次看见。双90，大于90工作区的效率大于90%，这个说法早期常见于电驱电机，最开始双80，后来双90，现在双95。
 
 **小体积**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Zlibib2pr1chykibetMQKTMjib0v0pgTrricHYm4qZzJbnOkgialickZJsxX27hK1t8bMtLcZLHLtBRlfcSZmd2ppVtkQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\玩转电机see汇川扁线永磁工业低压电机_images\img_003_963a789df004.jpg)
 
 体积比IE3异步电机小25%~40%，工业界经常的说法是永磁电机可以比异步电机低1~2个基座号。得益于扁线电机绕组的优势，端部更短，槽满率更高，可以做到更低的铜耗，是可以做到比散嵌永磁同步电机的体积更小的。体积小带来了安装空间的缩小，也带来了传动链创新的可能。可以改变设备的结构拓扑，可以变皮带传动为联轴器传动，可以取消减速机变为直驱。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Zlibib2pr1chykibetMQKTMjib0v0pgTrricHYnGE2jib2m1GqyNEwiaodn3uqNdibnmZp6xpUiclv8Qhj3vutN4Qvx69Sw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\玩转电机see汇川扁线永磁工业低压电机_images\img_004_49e754a930a3.jpg)
 
 **高可靠性**
 
@@ -68,7 +68,7 @@ IE5在永磁电机界不是新鲜事，把双“90”概念引入工业界，是
 
 **模块化设计**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Zlibib2pr1chykibetMQKTMjib0v0pgTrricHdvewxRkX9icTBqicaPiabicZkozbjz20bPnfAicDJiaLRx1FOn34Xic3OnW8Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\玩转电机see汇川扁线永磁工业低压电机_images\img_005_44b6b8f6f95f.jpg)
 
 大厂的常规操作，提供丰富的拓展选择。
 
@@ -111,4 +111,4 @@ IE5在永磁电机界不是新鲜事，把双“90”概念引入工业界，是
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\玩转电机see汇川扁线永磁工业低压电机_images\img_006_ff45e776e079.jpg)

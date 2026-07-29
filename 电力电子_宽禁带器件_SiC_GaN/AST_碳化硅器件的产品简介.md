@@ -58,33 +58,33 @@
 
 **AST 碳化硅MOS管封装产品图**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFjDiay7a4biaqBDx07TXTYvcKiaGPW85g8B1qicaq8rQkxTQx4uHOiaJxPhA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBF153MgKUhNJPS7HoghLAdFJf33AZloVLpSISPfoocVzdhwwI5eXbKLA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFaoicuXtmXAYlMZZPxT2yYxMclpT9I9ficPHVkau0IgqwPjBm1jCN7fmg/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_000_77a2a4046fc8.png)![](AST_碳化硅器件的产品简介_images/img_001_9899127729f4.png)![](AST_碳化硅器件的产品简介_images/img_002_0d9f906698ee.png)
 
 **AST 碳化硅功率模块产品图**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBF2afSdEsI6vRDzPXmibXDIZbN2WUQJPs68iaKoYmOWSZp0nRo4DnTzSGw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFevuxiaq3OxvQqNIUhao7IKbeXQtteBYNoAop0KbbZ9TpjbC7SIs6icRw/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_003_dc69bd274fad.png)![](AST_碳化硅器件的产品简介_images/img_004_98833426d6ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFOSV5mRSqUD9ibYOG8giaPP2HwTtGuh3OrtMszZ3vKMHpZ0orHh7vGxFA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFcEOBDVJ4w7yjHQ8Eoro2kb4Sh0SCGDZbIyAeDePsZKrTsvDBd0EdibA/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_005_33de54fe9dcf.png)![](AST_碳化硅器件的产品简介_images/img_006_f7e6949346cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFkfwjJyqEvqbt4qrtCcjtUU9ljDGzl3SSqj9cjJ6N9ibfyunbyXLEAibA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBF02a4s181cBIxtyXhQ9LPOG6H5l5GegBM6l3ibuTINTMhOyTsX93iaE6A/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_007_3a45b66a1c50.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\AST_碳化硅器件的产品简介_images\img_000_acd23b5275ae.png)
 
 **AST  碳化硅电机驱动图**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFW2ZziaJlOApYdSUzNdJvuy4Ka5cdnjYKX6V10Ivwr9gplLdVaPQyYWw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFc494WEn0RFh1KAicUBTUia2f7S90JjuE1yibftkjcGD90kp3Pgia1akyvg/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_009_7df62ad1accf.png)![](AST_碳化硅器件的产品简介_images/img_010_510a3a541e26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFLOM1ib07icFNwiaXglcVpxTgTQdHFcIpY9CI1NcXeGHPVZOB6RZB5Id3Q/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFzHKtxcpicukupyOR3mhEPHgJickF6lnsRBSXwJ0eLuTI6hjeiaIDI30Ow/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_011_fa95c35a8242.png)![](AST_碳化硅器件的产品简介_images/img_012_fd61f190f817.png)
 
 **AST 碳化硅6寸和4寸晶元图**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBFXR5lHnq7A6ibuiaU7U9aMQb3DvrgWfficWUiaaPQzCW3521Wh3fOLictYwA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfRzPRTsNZ5uC8Jlx4ZibBF5WiadqV7ga2nqDd0uUsicDP14nRGgO1qMzga4icuLOibtxO9DQ9XuCrt4A/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_013_f2512ffa198f.png)![](AST_碳化硅器件的产品简介_images/img_014_0057fdc92760.png)
 
 **AST 碳化硅MOS管产品选型表**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsltwjuCCn6m6wIJyxRWj1Va4kpKaAPw4uP4wTDabC9Qwmqs5rXulWP27ndl0sRZzlTQCQLm2a5fvg/640?wx_fmt=png)  
+![](AST_碳化硅器件的产品简介_images/img_015_65c9e98b04dc.png)  
 
 **AST 碳化硅功率模块选型表**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsltwjuCCn6m6wIJyxRWj1VaONrDqZE1VQ7TqRKvhicGnnicrDgSHrSg7hP2z4qCPicEabTHapImjQFVQ/640?wx_fmt=png)
+![](AST_碳化硅器件的产品简介_images/img_016_7869d7dd3372.png)
 
 **碳化硅（SIC）和氮化镓（GAN）选用建议**
 

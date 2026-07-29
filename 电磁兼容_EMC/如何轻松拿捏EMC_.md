@@ -44,7 +44,7 @@ EMC包括EMI(电磁干扰)及EMS(电磁耐受性)两部分：
 
 EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决方案。首先介绍下EMC的三要求：干扰源、传播路径、敏感源，其中干扰路径是最不容易判断的，干扰源和敏感设备可以通过经验做一些识别。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZfic9mkwcNBCrLht0UicHqAmnKBnh66h8X934iaDNz6wHsSLaO7Sd9C5FIFg/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247528928&idx=1&sn=aef741cf2b348ac3a1b74dc3d250ca43&chksm=c30aaf32f47d2624d78a29ebcf3f978f3a814cec704ea4d16fffd0966f28c4ab83ab1f890c9b&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_002_ed3cf2ca2555.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247528928&idx=1&sn=aef741cf2b348ac3a1b74dc3d250ca43&chksm=c30aaf32f47d2624d78a29ebcf3f978f3a814cec704ea4d16fffd0966f28c4ab83ab1f890c9b&scene=21#wechat_redirect)
 
 举个案例帮助我们更好的理解三要素：如电吹风使用时，电视机出现雪花屏
 
@@ -62,7 +62,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 （3）耦合路径：可能是220V插排的供电口（共用插排），或者空间电磁波辐射干扰
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficHCmEO55vlJzrr9XGns16ia27ia7YDrldg68G2dM1zOM2efK6QYpCMDzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_003_7cbe5c99bb3d.png)
 
   
 
@@ -78,7 +78,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 （4）电气开关的工作：EFT/CS类的干扰
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficjwlEVvU18LWPgdzYLZJyC28gy3E5NZyEYyPxicenjib0SEwRzLz8ezqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_004_c92d0c14cdeb.png)
 
 从常见的干扰源信号特征，我们可以总结出电磁干扰源的要素：即变化的电压（dv/dt）或者电流（di/dt）。进一步在EMC问题中，根据经验60%问题来源于DCDC干扰。
 
@@ -86,13 +86,13 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 以Buck电源为例，DCDC芯片开关过程中产生电压和电流的变化，包含了较快的di/dt和dv/dt噪声分量，其开关噪声不仅包含开关次和倍频频率段的噪声，另外其开关速度越低，高频噪声分量衰减越大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficaXicljB2vZ31vtCL5SZKickmU9YibawaUo9JgbKSPpyeMibcAfRPVL7AnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_005_1c782af070ce.png)
 
   
 
 除DCDC电源外，常见还有高速时钟信号，在电磁兼容的辐射发射测试中，常见的就是时钟辐射超标（如下图所示）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficG3QnxGFplnYdhicLHLbXCIwQxn2mq93NI2uDNzLFltQGYvo95HU8sTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_006_1a677a3191fc.png)
 
 因为时域中周期性的信号对应频域中离散的频谱，所以时钟能量比较集中，这在频谱上的表现就是：时钟频点（时钟基频以及倍频）上能量很高，而非时钟频点几乎没有能量。
 
@@ -102,7 +102,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 常见的耦合路径包括：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficKVDQwkJvTcI3DwFUAFoBywticicgHJc7aZ0ic6BASdLOSQ1UI0KszuhtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_007_5c5d84882458.png)
 
 （1）传导：
 
@@ -110,23 +110,23 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 举例：数字电路和模拟电路为啥要做地分割隔离，最怕存在共阻抗的时候，数字信号流过共阻抗时，在模拟电路上产生uA电流产生电压，模拟信号敏感电压将出现偏差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficKnnGgibIeiaYHMxAFfd2iawOs2xWwbGrjeibIj5WC9lbowqxQ0xFV5nicfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_008_e521ab9f924c.png)
 
 （2）空间耦合：
 
 （2-1）互容耦合：在两个接近的导体或者引线之间存在各种电容场，如最典型的平行走线，噪声源和敏感源之间有分布电容C2，频率下等效于为阻抗，就类似电阻耦合的干扰案例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficldamBAyibQBI16T4G0kl7YVG2pWiaYJdlhx9aERnwHSJnUrHLQRgA08A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_009_32749fd96a90.png)
 
 （2-2）电感耦合：在两个平行导体或者引线之间存在磁场，当间距小于电磁波波长的时候会在接收导体上引起电压的变化。磁通的方式相互影响，如无线充电，常见干扰如PCB上的平行布线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZfick2K3huSsazBXJpve53J2ibKS7f4vhuQC76ClpRev3XQ21N4NR3NuGgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_010_7c06933998cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZfic3XErLgt8mmpNic71D9gDvBtx1ncpra8fHYVePrN2PWFOt0GejNXcQqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_011_3b2bfc41214a.png)
 
 对于电感或者磁场耦合，干扰产生的主要原因是流过高频电流回路产生的磁通空间上串到接收回路中产生的，因此问题的改善，一般需要减小流过高频电流回路的面积或者接收回路的面积。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficNzjEMBAcnIcVmPk9Via3Fj7fdaibSt7UWs1Z4a9O4X92ThzJZCpgjaiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_012_15fe7b5afcef.png)
 
 （2-3）电磁辐射：当干扰源与接收电路之间的距离比较远，大于电磁波波长，发射与接收之间相当于无线电天线，电磁干扰从干扰源发送，辐射出的电磁波在空气中传播。
 
@@ -144,13 +144,13 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 时域与频域是针对同一个事物，不同角度的分析结果，在做EMC分析时更多的是从频域的角度去分析问题。如在时域上，基带的时钟越接近完美的方波，但在频域上，射频的EMC可能是一个不好的波形（边沿越陡峭，高次谐波频谱能量越大）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficqbqjZ97F9GqDvicHp77UHXSXCMZMZAuxJkODNic4wJugicmcViaOs1y5Ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_013_b813c7b226b9.png)
 
 我们从最常见的DCDC开关信号和高频时钟信号在频域的角度进行展开。左图表示为脉冲波形，在时域上，其特征是tw（脉冲宽度）和ts（上升时间/下降时间）。中间的图形表示从傅里叶变换获得的理论脉冲波形的频谱。频域上，随着频率的升高，振幅衰减，衰减斜率随tw和ts而变化。
 
 最右边的图表显示了当脉冲ts变慢（增加）时频谱的变化。当斜率变化到-40db/dec时，1/πts的频率点降低，最终结果是振幅减小。简单地说，当ts变慢时，频谱振幅衰减。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficVBj32KqpcficGtmYgFsKlWeaLpgcZ430YCeXEibRfwwgKbPXgCEibJlvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_014_48d93f9cff75.png)
 
 因此时域信号边沿越陡峭，频域高次谐波频谱能量越大。如上升沿的快速变化，产生的高次谐波能量，在EMC工程师眼里，都希望它尽快落到-40db衰减的范围。改变的方式为增加电阻或者电容（加大tr）。如时钟周期信号，增加RC，在满足时钟信号质量要求的前提下，尽可能减缓信号的上升沿的变化速度。
 
@@ -176,7 +176,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 滤波作用：**切断干扰沿信号线或电源线传播的路径，可与屏蔽共同构成完善的干扰防护。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficlicGxSVkiboHm71wT2D8CX0vB9Iic5ldfKQlahEPJvDcibvlpicqXoica66A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_015_295f8af42ff7.png)
 
 2 滤波器重要指标-插入损耗
 
@@ -186,21 +186,21 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 其中 Po、P2、 Vo、V2分别表示滤波电路接入前后负载端的功率和电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficpa0eKQFymLm9sVusu87Y8RQiagFcicYbwsvF1OicopjQkusHaxMyLcTFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_016_d32020be5e3e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/XtVNIjgMl6CR9uWlHJiabTia6EkKicwahIOseeE7UcrjaPicYBA0dChDxBnEZs66uA79cqOZKNBQ4IaSJa1Mk9OGzQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_017_bcecf95a3083.jpg)
 
 式(1) 中，RL、和 RS，分别表示源阻抗和负载阻抗，a11、a12、a21、a22表示滤波器网络的A参数，更详细的计算方法可以参考文献《EMI电源滤波器的插入损耗分析》。
 
 这里举个例子，如下图的差模滤波方案，**假设源端阻抗和负载阻抗均为50欧姆**，电源输入1V，滤波电容的阻抗 1 欧姆，则未加滤波器前，V0=0.5V，加入滤波器后，V2为滤波阻抗和负载阻抗并联后与源阻抗串联分压即V2=0.019V，**则插入损耗=20lg0.5/0.019=28.4db。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficVhl0vAaAGDeL7N6oictX99pZprQte0oxMBpGMibUcsXZUWbdp2AxKPCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_018_c9dedd543157.png)
 
 **假设源端阻抗和负载阻抗均为 1 欧姆**，则未加滤波器前，V0=0.5V，加入滤波器后，V2为滤波阻抗和负载阻抗并联后与源阻抗串联分压即V2=0.33V，**则插入损耗=20lg0.5/0.33=3.6db。**
 
 根据公式和示例，可以知道 **EMI 滤波器电路在不同的源与负载阻抗的情况下，滤波性能有很大的差异**。在一般的滤波器产品说明书中，提供的插入损耗值都是在源阻抗和负载阻抗均为50欧姆的情况下得到的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficfTbPm2U9zL0My48vy02iaJarhYUwibtfyNXKsKu4LqtUQqtvY6ozia96Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_019_d560862e5ced.png)
 
 在实际使用中，滤波器的端阻抗随着工作环境的变化而变化，因而对滤波器插入损耗的影响也很大 ，滤波电路也是如此。**设计时要求滤波器的插入损耗越大越好，整改时可以根据超标频率选择合适的滤波器。**
 
@@ -208,21 +208,21 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 滤波器根据滤波频段可以分为低通、高通、带通、带阻等**，在EMC问题中，最常用的为低通滤波器。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficXI1WZTZAiapvDp8FUGTp7mQaLY3XxaO0jpSZH4twpL3OcWRMJtytjHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_020_24d51f402c68.png)
 
 低通滤波器常见的网络拓扑如下，**实际使用中推荐使用 PI 型或者 T 型滤波网络**。主要原因是根据插损的计算方法，**在电感靠近低阻，电容靠近高阻时滤波效果最佳。**而实际使用时往往不能准确识别源端和负载端的高低组状态，所以采用PI型或者T型都能做到最佳匹配。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficr85kdAxZf1UWrPBpXAIekAxkkX7qquSmDQqlIK8mMleCsogSBuzxicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_021_563b70118c88.png)
 
 举例如下，在没有经过CL滤波前，电压基本都在负载电阻上即1V，加入CL滤波后，负载电压为滤波电容上电压的一半为0.25V，**插损=20lg1/0.25=12db。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficHegc9wNib3Zxgwictygp3VczmQkia4MbxvficricspY55TWXEEqQkic78apw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_022_17ea9a9a45dd.png)
 
   
 
 上例的基础上，调换CL的位置，如下图，在没有经过CL滤波前，电压基本都在负载电阻上即1V，加入滤波后，负载电压为滤波电容上电压，为0.001V，**插损=20lg1/0.001=60db。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficKqRcrxIYypvVCH0YJ4FhArHnT0CIHVABct8oDrdTDr0wh9HBCzwxKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_023_65c50682900f.png)
 
 元器件没有变，只是变换位置，滤波效果的差异很大，**原理即：电容靠近高阻，电感靠近低阻才更有效。**
 
@@ -241,7 +241,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 下面以开关电源为例，分析其滤波设计方案。开关电源以其效率高、体积小、输出稳定性好的优点而迅速发展起来。**由于开关电源工作过程中的高频率、高di/dt和高dv/dt使得电磁干扰问题非常突出。**如何降低甚至消除开关电源的 EMI 问题已经成为开关电源设计师以及电磁兼容(EMC)设计师非常关注的问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficwoutYzuWr3icv1OYGHA1ibyicy3a0QMqRclIGiarUby3vvn6jmCpzE72Zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_024_3f30328fa065.png)
 
 开关电源的干扰，既有共模干扰，也有差模干扰。
 
@@ -249,7 +249,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 **对于共模干扰：**共模干扰是因为大地与设备电缆之间存在寄生电容，高频干扰噪声会通过该寄生电容，在大地与电缆之间产生共模电流，从而导致共模干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficibT1l1ZPZWlhLnNKyFrFNctA7htZhYVgBAwJCh0MXIQJITwMxN2fPaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_025_75cb3775c9e0.png)
 
 根据干扰产生的原因和经验，低频如150kHz-1.5MHz，以差模为主，1.5MHz-5MHz，差模和共模共同起作用，5MHz 以后高频部分基本上是共模干扰为主。我们先以差模干扰为例展示干扰的源头、耦合路径和测试的敏感电路。
 
@@ -257,45 +257,45 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 **工频整流滤波使用的大电容充电放电、开关管高频工作时的电压切换、输出整流二极管的反向恢复电流都是这类干扰源。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficA3J4N7VEqHVX1cdFSTiaYTlBcXpaaIKV4xiaWibQwsibFib8fuuzddPOOIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_026_3ae1e16ff426.png)
 
 **从耦合路径看**，待测设备（EUT）的电源端口是干扰源，测试仪器为敏感电路，则从仪器的连接关系看，**电源端口的干扰经过AC头接入了LISN的采样电阻（50欧姆），再经过测试仪器内部的采样电阻50欧姆**，整个采样电阻接近100欧姆。当采样电阻上的电压超标，则传导的干扰超标。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficSu5E3dgcw0wXmPIXxFJibazMM2yFicIZUm94zdPDvuagXNwod8tBdsNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_027_f2423a596c4c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZfickoo0N5lPcmQoaJPGK7YAV5KDZeFQDrWdrtQnwO1THSA37XvZCs1oAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_028_3cbb4bf03382.png)
 
   
 
 进一步转化为如下电路模型，来看干扰的通路。噪声主要由 di/dt 引起，通过寄生电感，**在火线和零线之间的回路中传播，在两根线之间产生电流 ldm ，不与地线构成回路。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficqsGcaOoSlm45m8OmJt74lb3k58Ih9s4w54fgcpCYPwnfRicv3ouXKRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_029_ada65c9cb9d4.png)
 
 由 Vdm 驱动的 Idm 导致输入 AC 端口差模干扰，LISN +仪器的采样阻抗为 100欧姆，开关电源的接口没有滤波时，则很容易传导测试超标，干扰都在敏感设备上（采样电阻为高阻，VDM的ZC+ESR为低阻）。
 
 干扰电压幅度为：Vdm：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficTVLjAMlmzia2zoN3smnou89bF0CZ0vqk32ytU0LGdicDxYZyjwlC8EVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_030_23f7925d5486.png)
 
 这种情况下，**针对电源口的EMC滤波就可以考虑电容方案，接口加差模滤波电容，C1通常为100nF~2.2uF的聚醋X2电容。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZfic99oAOMEoSw6pNKAh3YpDZGWACmiaBkh79K5QlW0USrp3anJicnoEHl5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_031_3440297b0257.png)
 
 **X电容**，常用做抑制电源电磁干扰，一般安装到电源火线与零线之间，而且起到的作用都是**差模滤波**。**X1电容耐电压更高**，在一些更高电压的电路中要使用X1安规电容，X1 >2.5kV ≤4.0kV ；X2 ≤2.5kV。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficJLIsQONy8OdZZMx0JUtqDOxZtYF46tS5pp2bjkfgltWKHYS3DEUA4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_032_7b15312c1467.png)
 
   
 
 电容容值选型原则：**根据电容的阻抗-频率特性曲线进行选型**，在需要滤波的频点上，让电容的阻抗尽可能小，即让干扰电流更多的流向大地，而不是流经测试仪器的采样电阻。因此根据差模干扰为低频**干扰，频段在 150kHz-1.5MHz，可选**100nF~2.2uF电容，再结合耐压确认电容型******号。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficf6tfwJbrLMdUF6tFXVBsicCVWtboZ6P9caN004u8xzqEIRYGHYia2czQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_033_4dd3686faccc.png)
 
 假设传导测试时，超标比较多，则考虑PI型滤波器。L1，L2，C1，C2 构成低通 PI 型滤波器，L1、L2通常为100 ~300uH铁粉芯电感，也可由共模电感的漏感形成，C1，C2通常为 100nF~ 2.2uF 的聚酯X2电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficNYCqmIFtITEcONiaa21Lpm69MUc07icjbSBDUib0GicianYI5ghZicmZzyqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_034_da01a203b4fa.png)
 
 4 结论
 
@@ -313,7 +313,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 储能电容与高频电容配合使用，下图中间波⾕是**反谐振点**，由电路寄生电容&电感谐振导致，此频率附近的滤波效果最差，如果造成了影响，就需要考虑增加该频率附近的电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficnskr6IUwFTz9V8NBWdNXLX6oSLn8y7R65kgM0jEHF9LDiaUpuBJ7ibAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_035_2338503b6690.png)
 
 在数字系统中，电源分配系统(PDS，Power Distribution System)的质量直接影响着信号的质量。电源噪声表现为**同步开关噪声(SSN)**、**地电弹噪声(GroundBounce)**和**回流噪声**等，它直接影响着系统的噪声容限和信号的时序。 
 
@@ -328,7 +328,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 -   PCB 板上的**电源地平面对**则在 **100MHz 以上**发挥重要作用； 
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficbANJaGVLNJ3HDRicUyDJMGwlFauRh2JITqiaXmr3ruetb5xG5tibBochQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_036_8f3cbbb72619.png)
 
 尺寸小的电容 (如 0603 封装)寄生电感较小，容值也小，因而其谐振频率较高，在高频情况下阻抗较低，常被用来减小 EMI 和回流噪声。尺寸较大的电容（如电解电容），可以提供比较大的电流，然而其谐振频率不高，这使得它的应用受到很多限制。 
 
@@ -345,7 +345,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 -   **耦合路径**：外接线缆（主要通过电源或地耦合）、PCB⾛线环路。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficwEV38IOeCFzP76PicJJRTYXOfXBqLIuRl7nEMc6NkugTJVXQZSFibQ2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_037_6c534192a54e.png)
 
     解决问题的主要思路是**降低干扰源影响**，同时在接口**增加滤波电路**，减弱耦合途径的效率。 
 
@@ -360,29 +360,29 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 时钟信号也是干扰常见的源头之一，下图分别是时钟信号对时域和频域产⽣的影响：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/XtVNIjgMl6AJwhOPN0ZYH5c0r4B4wtagcZciaiauB28CzPTz33u3fesEy7diaaJGGIkNiaU5pas2F2g13PH9EFYTvw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_038_74a1caab7ffb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/XtVNIjgMl6AJwhOPN0ZYH5c0r4B4wtagb3UVOfcjnOaxEKnSmssVyR4Sxlmc4gx3icyDtydYkiawicbnQ8q1m7pTg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_039_9432b066bde3.jpg)
 
   
 
 周期信号的傅里叶级数展开式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/XtVNIjgMl6AJwhOPN0ZYH5c0r4B4wtagRZqA9omXYYQA64fGpghiap2ib0ruPkfZFA2VY1RkyYQa3icBLnKvI0t5w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_040_27eb768545aa.jpg)
 
 从公式中可以看到周期信号会有基频的**奇次谐波分量**（如1 3 5 ...），这是因为偶次谐波刚好被0相乘了。
 
 但我们有时候也会看到**偶次谐波****，**这往往是因为**信号的上升/下降时间不一致**，导致在频谱中看到偶次谐波，下图是利用LTspice完成的仿真对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/XtVNIjgMl6CP1Cr31pJSWhDSnY1JjVpXBkia0YkHYxRIgmRicHW7OkTuGn3EjNmIK4WYwS9qcb8jib3TZ1d108xtA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_041_976ffaa10abf.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/XtVNIjgMl6CP1Cr31pJSWhDSnY1JjVpXf6slflbtW8ad5balH3CCCuQXib4vSPJNTaMBPZ3yKtZjU6qJhSAcRwg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_042_1e21e6b26513.jpg)
 
   
 
     下图是**有源晶振滤波电路**的一个简单例子：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficmwO1cWuN7NweSBeRKAeW3WPPNIxPEr6a5cggjUGECg74yiazuibjsxag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_043_b44aad375855.png)
 
 晶振的供电使用了**磁珠+电容**的组合，输出时钟增加了**RC滤波**。电阻通常采取 22R/33R/47R，有些低频时钟可以用磁珠替代。电容根据时钟频率选取，频率越高，电容值越小，一般100M 时钟选取 5pf 电容滤波，50M 时钟可以选取 22pf 电容滤波。 
 
@@ -394,9 +394,9 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 电子产品的电缆长度从几十厘米到几公里不等，可以在特定的频率进行发射与接收电磁干扰信号。 当**天线的长度接近无线电信号波长的 1/4 时**，天线的发射和接收转换效率较高，受到的干扰也较大。 频率和波长的关系（λ=c/f）如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficgAFzLF60Aw4JkZl5bs67HfJ87ibo7rndfwYRLVoW7OPQVR2e001xCuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_044_7af1b21fd284.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/XtVNIjgMl6AJwhOPN0ZYH5c0r4B4wtag7L9jP7SIkj6EURm87DI89HX1dgUAbhVkB3Bge4YmzmU1icWSZmaasAw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_045_19c6ea59ae37.jpg)
 
   
 
@@ -406,13 +406,13 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 
 1）针对**内部干扰**，通过电容等方式形成干扰信号的低阻抗通路，阻止其跑到外部。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficrAs6icg1ulm94c1FwXiaRVjQWLOXUdvK4UzgOSKTjbzqFPia8GHtiaB8vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_046_3137791f1877.png)
 
 2）针对**外部干扰**，一边是使用磁珠形成高阻抗通路，一边是将外部干扰通过机壳泄放到地，阻止其进入内部，右图是最完整的方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficbFnibNic3B3DXVnic95otIbZN5YdJkCtL4iay6FTwkpq6FZRQ8o8HfQEuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_047_468600c9de00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficXyzEXeYz4jEHAPYgRE7RSwORysaI8aQIRzmrhtGcIeSdjFn4RSRZSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_048_ff34c84c20fc.png)
 
   
 
@@ -431,7 +431,7 @@ EMC问题，我们可以用电路模型来建立EMC问题模型和给出解决�
 -   **电感**：滤波频率KHz〜100MHz，电感的额定电流通常会较⼤。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_049_e119ccb9e5f3.jpg)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\如何轻松拿捏EMC__images\img_050_4700b023e565.jpg)
 
 ## 
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/pxllUlTY5ZVogrwPiWLO4g](https://mp.weixin.qq.com/s/pxllUlTY5ZVogrwPiWLO4g)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH2D35J4LUGZKibQ6Kkg5JxDkI3zOp1DhWJClEvEGMLJXTETVSJYjXcxktqnztKtociaAvqqiaN5VLGvg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_000_f76a7fe84cb4.png)
 
 点击上方**蓝字**关注我们
 
@@ -132,7 +132,7 @@ Yang Fei-Sheng, Wang Jing, Pan Quan, Kang Pei-Pei. Resilient event-triggered con
 
 \[13\] Zhou J S, Tian D X, Sheng Z G, Duan X T, Qu G X, Zhao D Z, et al. Robust min-max model predictive vehicle platooning with causal disturbance feedback. IEEE Transactions on Intelligent Transportation Systems, 2022, 23(9): 15878-15897 doi: 10.1109/TITS.2022.3146149
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/hNWCQ9bibbzHiaCJb9KfdpL2BoibejlGR8z5V62T1Td8xhibKGsLzbLmiaZHLdOAalnlmU5lpibU5w1tGaXBhwmPT4ib7PwYibx4xfx3/640?wx_fmt=svg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_001_51820040135e.svg)
 
   
 
@@ -152,7 +152,7 @@ Yang Fei-Sheng, Wang Jing, Pan Quan, Kang Pei-Pei. Resilient event-triggered con
 
 **何德峰**，浙江工业大学信息工程学院教授. 主要研究方向为智能预测控制, 多智能体分布式估计与协同控制和安全控制理论.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/hNWCQ9bibbzHiaCJb9KfdpL2BoibejlGR8z5V62T1Td8xhibKGsLzbLmiaZHLdOAalnlmU5lpibU5w1tGaXBhwmPT4ib7PwYibx4xfx3/640?wx_fmt=svg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_002_51820040135e.svg)
 
   
 
@@ -436,35 +436,35 @@ Yang Fei-Sheng, Wang Jing, Pan Quan, Kang Pei-Pei. Resilient event-triggered con
 
   
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/RXx7THRlLH3mrfUsN0H9bdS0zheMD06JFqwFRHriajJbbelGAdv0xBChzsyE0xN9tBXa9FB8ApDcncuRbxhReyg/640?wx_fmt=jpeg&from=appmsg)](http://www.aas.net.cn/)
+[![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_003_1bb52a8adeef.jpg)](http://www.aas.net.cn/)
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/RXx7THRlLH1INYjicElbL9gWJWZWVic9icDnia203Mx7TgpHOmyA2mMUnXxajVlZckqahc2tlnqdhnlzYV2btCzpicw/640?wx_fmt=other&from=appmsg&wxfrom=10005&wx_lazy=1&wx_co=1&tp=webp)](http://www.ieee-jas.net/)
+[![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_004_8059e67d1866.jpg)](http://www.ieee-jas.net/)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_005_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_006_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafsMvwDwQz1iak89KiaU6O5427u8P9nkmC6hSC31GbzoJ9UicUAxfobgZMQ/640?wx_fmt=other&wxfrom=10005&wx_lazy=1&wx_co=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_007_e7e64a650744.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_008_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_009_409e145c41f9.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_010_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_011_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafXj5OHBUy7QPVp2aHenUdtEzbIP3uxk1ZQKCv6EkiaibIgpsosdF2WUWg/640?wx_fmt=other&wxfrom=10005&wx_lazy=1&wx_co=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_012_d1e21947407a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_013_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_外部干扰和随机DoS攻击下的网联车安全H__队列控制_images/img_014_409e145c41f9.gif)
 
 **长按二维码｜关注我们**
 

@@ -128,4 +128,4 @@ C 和 C++ 在结构体方面的差异主要体现在以下几个方面：
 
 ![](详解C和C__中结构体(struct)的区别_images/img_001_6ef3ad7402cc.gif)
 
-![](详解C和C__中结构体(struct)的区别_images/img_002_e0e13542b86c.other)
+![](详解C和C__中结构体(struct)的区别_images/img_002_e0e13542b86c.jpg)

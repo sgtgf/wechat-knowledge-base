@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Jm\_aNE51dD-vayurBhV48Q](https://mp.weixin.qq.com/s/Jm_aNE51dD-vayurBhV48Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -40,19 +40,19 @@ In this article, an inter-turn short-circuit (ITSC) fault diagnosis and severity
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178ulUxf5mVUhK2h0MQDjHZqJPhicNzFymy0xbcZRYT4DdAsw5Qk1edWGic5gicggfLl9kJtCWSSdskAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_001_2cb3142f255d.png)
 
 Fig. 1. System control structure and diagnostic algorithm.
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178ulUxf5mVUhK2h0MQDjHZq1cADSTXwWvfeHlTiaFibicfIIibrmgSHEB32nos0VH2xapJl7wrQ5nstVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_002_05b5eb365a7b.png)
 
 Fig. 2. Fault severity estimation process based on CNN.
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178ulUxf5mVUhK2h0MQDjHZqfV64PVFicsMFeibcUszpIXMgib0fO4sP5NvrT57jvdiaWwZF9rZHichZLuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_003_be4228a8ef72.png)
 
 Fig. 3. Experimental waveforms under normal and faulty conditions at 17N·m and 300r/min. (a) Phase currents. (b) Torque. (c) Fault diagnosis index. (d) Estimated short-circuit turn ratio.
 
@@ -62,19 +62,19 @@ Fig. 3. Experimental waveforms under normal and faulty conditions at 17N·m and 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178ulUxf5mVUhK2h0MQDjHZqhDuVsGdGVkw0lvnslenRTAXB8AhThRVu5wnEBdNCemGbDlsU5dUbicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_004_74e4c2d2a620.png)
 
 **黄怡嘉**，2023年毕业于江南大学电气工程及其自动化专业，获工学学士学位。2023年至今，于江南大学物联网工程学院攻读电气工程硕士学位。主要研究方向为多相电机驱动与故障诊断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178ulUxf5mVUhK2h0MQDjHZqoftm89eicXKUVt0fHIFibABkOhMibowe8z4JtQUQXIlyjvaibMQ5M5aO7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_005_c9b28cd56220.png)
 
 **黄文涛**，2020年毕业于东南大学电气工程专业，获工学博士学位。2020年至今，就职于江南大学，现任物联网工程学院副教授、硕士生导师。主持国家自然科学基金、江苏省自然科学基金各1项，入选江苏省“双创博士”计划，担任中国电工技术学会电机与系统学报（CES TEMS）青年编委。主要研究方向为永磁电机驱动、模型预测控制技术、故障诊断与容错控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178ulUxf5mVUhK2h0MQDjHZqEYYX4yxfHy7oNLO0dWm0VjibkfexdZhX16QqmRP0Qq4cS0ck25X3LOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_006_297a427c01ac.png)
 
 **潘庭龙**，2004年毕业于中国矿业大学电气工程专业，获工学博士学位。2004年至今，就职于江南大学，现任物联网工程学院教授、博士生导师。发表学术论文100余篇，获科学技术奖励6项。主持国家自然科学基金、江苏省自然科学基金、江苏省产业化推进计划、国家博士后特别资助等纵向课题10余项目，承担企业委托横向项目10余项。主要研究方向为微电网控制技术、功率变换技术与电气传动系统及其先进控制技术。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178ulUxf5mVUhK2h0MQDjHZqAOIWLujKic93qeeVQQqCbf6CwmXickfL4el2XSycSbJHyc1LnqZ1sQtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_007_d695a46daba6.png)
 
 **许德智**，2013年毕业于南京航空航天大学控制理论与控制工程专业，获工学博士学位，现任东南大学电气工程学院青年首席教授、博士生导师、高级电气工程师、IEEE高级会员。主持国家自然科学基金（优青、面上、青年）、江苏省自然科学基金（面上）、装备预研教育部联合基金等纵向课题10余项目，承担企业委托横向项目20余项。发表学术论文150余篇，授权中国发明专利20余项，获得科技奖励、个人荣誉各6项。担任IEEE SMC南京分部主席、中国能源学会理事、中国可再生能源学会储能专委会委员、中国自动化学会能源互联网专委会委员、中国自动化学会可信控制系统专委会委员、中国电工技术学会储能标委会专家委员以及多个国内外期刊客座编辑/编委。主要研究方向为新能源发电与控制、先进储能技术，特种电机驱动与控制，故障诊断与容错控制。
 
@@ -82,7 +82,7 @@ Fig. 3. Experimental waveforms under normal and faulty conditions at 17N·m and 
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_008_654c2fde68d8.jpg)
 
   
 
@@ -96,15 +96,15 @@ Fig. 3. Experimental waveforms under normal and faulty conditions at 17N·m and 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_009_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_010_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_011_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -112,15 +112,15 @@ Fig. 3. Experimental waveforms under normal and faulty conditions at 17N·m and 
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_012_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_013_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_014_644d85f1cc17.png)
 
 学会官方B站
 
@@ -128,15 +128,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_015_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_016_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_江南大学黄文涛等_五相永磁同步电机匝间短路故障诊断与严重程度估计_images\img_017_c28b250481e7.jpg)
 
 学会科普微信
 

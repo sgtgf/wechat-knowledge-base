@@ -16,7 +16,7 @@ POE(Power Over Ethernet)指的是在现有的以太网Cat.5布线基础架构不
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/qL3hIkxPe2TfzozzdtpHbkjr4vwVsOsfKkW1M7YK9394DBiaW9kXoJA5ticPSNfKsHanZfStRbFzjibTzc9g7lMPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_000_ae3d2d84ef70.jpg)
 
 POE的两种供电方案——POE标准为使用以太网的传输电缆输送直流电到POE兼容的设备定义了两种方法：
 
@@ -28,7 +28,7 @@ POE的两种供电方案——POE标准为使用以太网的传输电缆输送�
 
 另一种方法是“末端跨接法”(End-Span),是在传输数据所用的芯线上同时传输直流电,其输电采用与以太网数据信号不同的频率（即1236线序同时走数据和电力）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9doXntQX3GVv2KN4Il2LgqQTWC6oRZ2pbMGRvPRIynXEqGG21pHRfwf2XLJB6qkn096pq5qndWP68my7bQPYfw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_001_05d4d749fad8.jpg)
 
   
 
@@ -56,7 +56,7 @@ POE的两种供电方案——POE标准为使用以太网的传输电缆输送�
 
 5.断电：若PD设备从网络上断开时,PSE就会快速地(一般在300～400ms之内)停止为PD设备供电,并重复检测过程以检测线缆的终端是否连接PD设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/qL3hIkxPe2S8LfKibYZd9Xtu40GfIpjbGJDQq26mdd5TlnOialJYhc74yT2PHlsoMbsu9OZ7vzR4LiaLdzMuFkF5A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_002_a6581f45e4dd.jpg)
 
 ③使用以太网供电的优势
 
@@ -122,7 +122,7 @@ POE交换机的端口供电功率有两种，一种是15.4W，一种是30W。如
 
 POE交换机除了单个的端口供电功率，还有个总供电功率。市面上有的8口POE交换机总供电功率是90W，单个端口供电功率是15.4W。如果每个端口的供电功率都使用到顶峰，8个端口就是8×15.4=123.2W。这样就超出了本台交换机的总功率，供电自然就会出现问题。所以使用POE交换机要有个妥善的搭配，功率大的受电设备和功率小的搭配起来使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/qL3hIkxPe2S8LfKibYZd9Xtu40GfIpjbGxtY5w99oa2ppiaWVAyMoL9DrXkXF7x9RQGkXnLBUO4pLaZl1icUdMmKA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_003_8b899d2d1464.jpg)
 
   
 
@@ -184,11 +184,11 @@ PoE交换机的总功率是一个非常重要的指标，直接关系到可以�
 
 实际使用中，很多普通网络摄像头的最大功耗较低，基本不超过15W，如果这时每个PoE端口按照最大功率（比如30W）去预留供电功率的话，就会出现有的端口PoE功率用不完，而有的端口却分不到功率的情况。比如，有些PoE交换机均支持动态功率分配，可以避免这种情况。在选购PoE交换机时，要看交换机是否支持动态功率分配，这样每个端口只分配实际使用的功率，这样就能更高效地利用PoE交换机的供电功率。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9doXntQX3GVv2KN4Il2LgqQTWC6oRZ2phYibeY1xFbsJOn7xdkqPrF0dxVKLJkpFqibh4YTmmQ8ujlxoWibDV5F5g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_004_bb54c4b6b197.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9doXntQX3GVv2KN4Il2LgqQTWC6oRZ2pmRJVVofLXWL67j5fOeGgibC2Vt46mpCia2o6LqQEU1zx0Xicw3pEbss9g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_005_3709de467459.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9doXntQX3GVv2KN4Il2LgqQTWC6oRZ2pNfIxgam6EYX369hhAIMcgzB6xDgEwgEg26ibqsxTKQYrLiaAJQ1Ph4ibw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_006_e33b4c5fdb22.jpg)
 
   
 
@@ -218,7 +218,7 @@ POE供电网线要求这个问题只在中国等假货便宜货横行的国家�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/qL3hIkxPe2RtEDL5PIwduamEO5EpPZpknHBUWXGZgf4Nc0ic8wOouXmfbNFrP1bm40hK3HaeFTfrtXSZQcyeddg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\关于POE供电_你想知道的都在这里_images\img_007_c0bc8768a051.jpg)
 
 1）需要给多大功耗的设备供电：
 

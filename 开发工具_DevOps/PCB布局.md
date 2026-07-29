@@ -10,49 +10,49 @@
 
 分析好整个电路原理以后，就可以开始对整个电路进行布局布线，下面，给大家介绍一下布局的思路和原则。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqDQvDHe79KZ5khZFicjcQo7m3mGHibWEBtsXFGDglIwibmkCicqvcZPRAicQ/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_002_85b4f1cf13e7.jpg)
 
 **1.**首先，我们会对结构有要求的器件进行摆放，摆放的时候根据导入的结构，连接器得注意1脚的摆放位置。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqdccIxKlwsQtSEwEzjNSKc38eVHvwib4hOhw66Upp2mJmeGxxQT9fpoA/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_003_144e224b656b.jpg)
 
 **2.**布局时要注意结构中的限高要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqXWNxYWXnvz7m9Ql8ICRwiaHKyl75thibroAthdbD0j1TxSMH8Wb7DRLg/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_004_36c3a82afc59.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqGXe7ChAibnpZpVMWvy6oI5QuMOTNz0I0Uy8LHAo47ueuC6BbD2oGH8A/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_005_2cb93441431c.jpg)
 
 **3.**如果要布局美观，一般按元件外框或者中线坐标来定位(居中对齐)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqicSzjNpasBoicML2ohy9nszdicvMB8SOWIbduj4VJD0jAccaqst3iaibs2w/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_006_f5220a4bc6c1.jpg)
 
 **4.**整体布局要考虑散热。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqA5nky5bo9G1Vd2ejWLt1zrNnCbES7ZvNeDtFN6BNrOBbqnRhUnPg8Q/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_007_0d0030c2086c.jpg)
 
 **5.**布局的时候需要考虑好布线通道评估、考虑好等长需要的空间。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqKdxztOuvtYjHzFGcpmPPBP2gpZJyVeCJ2xT0E9W40wxUWnHibHrVpxw/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_008_9b4ef10e08fc.jpg)
 
 **6.**布局时需要考虑好电源流向，评估好电源通道。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqlUhlmTm7FZhUCjZJljpBgxZ96GCibvOhyZFTcx0GJibapHkLO1DzS6PQ/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_009_55a00629e15b.jpg)
 
 **7.**高速、中速、低速电路要分开。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eqh7BofUlNy6gI9vSC3hibVrLW5WiaM08NrBLaQbusYRTJUlQ4aETYOSkw/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_010_c515c4e3c743.jpg)
 
 **8.**强电流、高电压、强辐射元器件远离弱电流、低电压、敏感元器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eqbibb63mbtcEL7WIU38dibic0uA7KlZNhjyIc8kwP5ic4qzMfBcVjQko6Cg/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_011_cbc6e7cae385.jpg)
 
 **9.**模拟、数字、电源、保护电路要分开。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq4RNuxHZdAXDdkgAPKOtIT2rPnz0YUHVV0QGe8tY3R20S1LH3xet0icA/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_012_af59b7a08d1d.jpg)
 
 **10.**接口保护器件应尽量靠近接口放置。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EquibTOj4jXbx2iaugqdyQ820EEdVvLJ8poerUa7YxBwQWXxomicEicS8zug/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_013_0b09581ee11e.jpg)
 
 **11.**接口保护器件摆放顺序要求：
 
@@ -61,15 +61,15 @@
 -   一般对接口信号的保护器件的顺序是：ESD(TVS管)、隔离变压器、共模电感、电容、电阻，对于原理图缺失上面任意器件顺延布局，严格按照原理图的顺序(要有判断原理图是否正确的能力)进行“一字型”布局。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqLMHUiaicicGFFPxg5RIxH2HAhh2GcdgAK8uCkAGKdLR8N8eZ0iaE91sFmw/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_014_e55734b0d3ab.jpg)
 
 **12.**电平变换芯片(如RS232)靠近连接器(如串口)放置。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqYcGRPzAHFbZWIPKs6luCT4C3C0KCJ9Lk6Cb2vHCQLQj9ibcxhnYWLYQ/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_015_478efbc355c4.jpg)
 
 **13.**易受ESD干扰的器件，如NMOS及CMOS等器件，尽量远离易受ESD干扰的区域(如单板的边缘区域)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq61jib6oQ6j6oRxyASyNibIvG9y6Jrbicz8JReU7o6JVSSKCw6x0kicz2zw/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_016_e01a35dcfaa6.jpg)
 
 **14.**时钟器件布局：
 
@@ -86,15 +86,15 @@
 -   晶振距离板边和接口器件是否大于1inch。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqeMGuGGC9uZtfzMmMT5m1wvLbAnFNtvYrgpR6YzxHqdT7YibicJO7R1uw/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_017_2b7dadf5f66f.jpg)
 
 **15.**开关电源是否远离AD\\DA转换器、模拟器件、敏感器件、时钟器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqA0xm1AiaSn6XY7vd1vzNrAUkbjXfRX7oWZqNibH8kDgH5Vic5zLkCFiabA/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_018_946dbc86f0ce.jpg)
 
 **16.**开关电源布局要紧凑，输入\\输出要分开，严格按照原理图的要求进行布局，不要将开关电源的电容随意放置。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqLYlhY4PP65FukhGvNJcoaMOXCEnNjaYnaSVJ215icweRTHktqWqouDg/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_019_7bf9fd8a69c1.jpg)
 
 **17.**电容和滤波器件 ：
 
@@ -105,9 +105,9 @@
 -   原则上每个电源管脚一个0.1uf的小电容、一个集成电路一个或多个10uf大电容，可以根据具体情况进行增减。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqevzOFfU4ceDAlBNVmS2BGK2VHS2Z6iaz9Ep4KTbk1hLcFMGwmibuhXGg/640?wx_fmt=jpeg&from=appmsg)
+![](PCB布局_images/img_020_8320669e9077.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB布局_images/img_021_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -164,7 +164,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctSo2ibEhSfeBz5Kc6ALevhhq22o0DZibxiaPRXKqb59LaRqaEUDR1aAQ7wSiasXjU8uV3CMWX3zkqnItMgFTcNwxibq1IibPgHbrKHQ/640?wx_fmt=png&from=appmsg)
+![](巴拿赫不动点定理（Banach_Fixed_Point_Theorem）___宿命的终点__images/img_000_c5dc065a5416.png)
 
 这张图介绍的是泛函分析中非常重要的结论——**巴拿赫不动点定理**（Banach Fixed-Point Theorem），也叫**压缩映射原理**。
 
@@ -207,7 +207,7 @@
 
 # 二、图片中的地图比喻是什么意思？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctu9U6fNG5R75P9Pns8icVNTx7VNBfUWyaD3HcmCNaVxZspKSfW3hicYG1a6HCku5DFdKRfxXAHjQIhgGBPXTBfyWAeqiaHzX9mg4/640?wx_fmt=png&from=appmsg)
+![](巴拿赫不动点定理（Banach_Fixed_Point_Theorem）___宿命的终点__images/img_001_73168ea16ae1.png)
 
 图片第一部分画了一幅“大地图”和一幅缩小后的“小地图”。
 
@@ -269,7 +269,7 @@
 
 # 四、为什么必须强调“完备空间”？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocv0CEdBKZyGXsSpmAPEnUN6dJyicLpV4eb0omxHnSFoVVkOu6uicrX7APQ93qRL3tjNoT99VvX76Agd8paibSHOcOpaPiacPOog0kM/640?wx_fmt=png&from=appmsg)
+![](巴拿赫不动点定理（Banach_Fixed_Point_Theorem）___宿命的终点__images/img_002_c9dea9d10891.png)
 
 图片第二部分用“没有缺口的拼图”表示空间的完备性。
 
@@ -483,7 +483,7 @@
 
 # 十一、图片中的三个结论为什么称为“铁律”？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuJm05k20UD7gHmDXprwfmbOeGPL42U4aOlUrxyDGq2LM1HUDQs0bWaXwSGZuJ02ofwz4y9z5ulO4pTiaUzPDN1aNiaHEicxph2o0/640?wx_fmt=png&from=appmsg)
+![](巴拿赫不动点定理（Banach_Fixed_Point_Theorem）___宿命的终点__images/img_003_2859fa5ecbfa.png)
 
 图片第三部分写着 Three Key Conclusions，指的是三个非常强的结论。
 
@@ -507,7 +507,7 @@
 
 # 十二、图片中列出的应用
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooct2MDMjDYSlHBzXscOzzBoP23LibERsRYzga34ES9bOKmyjiaJayiaTPAoo7C80UGZicQ64bW3OkODYuEbibzlHGhc21jDaUf40pPUw/640?wx_fmt=png&from=appmsg)
+![](巴拿赫不动点定理（Banach_Fixed_Point_Theorem）___宿命的终点__images/img_004_99efcdcac1f8.png)
 
 ## 1\. 微分方程
 

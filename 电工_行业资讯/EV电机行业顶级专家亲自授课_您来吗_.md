@@ -3,35 +3,35 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Q8oG35yN86O0kJEwxGBUCg](https://mp.weixin.qq.com/s/Q8oG35yN86O0kJEwxGBUCg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SjVGCooKxGROHpK5vr7vHtFK5urPw3ZjcibzH9ibXJ5ceytdKhPtiaibfiaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640108&idx=1&sn=ab76343d90e162d98cc33f9b436aa9ec&chksm=88bc25e3bfcbacf52372621091e2b980dd20952fdd0c5e0e9988f42c5de3ef5db4b07d799409&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_001_5dce360821c6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640108&idx=1&sn=ab76343d90e162d98cc33f9b436aa9ec&chksm=88bc25e3bfcbacf52372621091e2b980dd20952fdd0c5e0e9988f42c5de3ef5db4b07d799409&scene=21#wechat_redirect)
 
 2021年7月17-18日，由西莫教育科技主办，黄苏融教授主讲的新能源汽车电机研修班“现代EV电机设计及其关键技术”在上海江苏饭店成功举办：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0cVJsZk25Ws0TicZqFkKCdGOIu4c4dBS86UrNZO7vJoUuNKG68FSNHfzA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_002_868ffde5d897.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0coC7tM0FwfV7PPvuCndeECicnqNGMUOXgJgfBicXMiaeKOhgEIjqy9RwSw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_003_05484dcd1146.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0c3Pxibs04Gv9ibzkZ3bc5iaagyu4o6CcTlHohhBQMcclrbtBlEE2WwpX6Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_004_82a15e5de571.jpg)
 
 来自全国各地30多家公司及科研院所的近50位学员朋友们参加了本次课程的学习，这是西莫第一次举办新能源汽车电机行业的线下学习活动：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0cEprB8buTicQd7COyKeU4r4fl8ibdiakvU49Q2JVEqk6TMcmrn0PmbnK3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_005_d9ffdb95df82.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0ct2PpoCQqYodNZ7mUEn3jJacRwU0Aiciaq4hXWRNmhT93gDh5HzH1NCOg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_006_2e2428a7f47a.jpg)
 
 上海大学博导、电机设计专家黄苏融教授为大家奉献了一期精彩的关于新能源汽车电机设计相关领域的行业专题培训：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0ccmwN6Ua0WppEVLzwEwEhXDicic64mcFo6hOqEt2ibKia9DZiaVTCb7WF9kg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_007_a6e29e2b9eda.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0cUiaMe8gZsiajyRFGeFdPYic3wSKWzHdZnytNnvRxYV0w1InNNegLZHh1A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_008_c05aa9a6e678.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVaNDZe7ZJKFv7mj1UicXV0cqicKeCWaVUCZBdAmDibkp0rnEiaic7zEsKl0Z501eOYQUx0tyfUjRYoyOw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_009_04ba4b507d9b.jpg)
 
 时隔已经有一年多的时间，下月29-30日西莫将再次邀请EV电机行业顶级专家黄苏融教授担任培训导师，举办新一期新能源汽车电机研修班“现代EV电机设计及其关键技术”苏州站，力求完整覆盖到新能源汽车电机本体及设计相关的方方面面内容，为学员在从事该领域实际工作中涉及到的各种相关应用问题的解决提供更好的帮助，业内权威大咖亲自授课，并现场组织EV电机设计专题研讨和头脑风暴，与学员互动交流EV电机产品研发的实际难题和挑战，提高参加者对EV电机产品开发中分析难题的视野和解决问题的执行力。欢迎大家扫描下方海报中二维码报名参加本次培训！
 
-## ![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SNHCW2v51rNkibxMibZic32ty1kkP6DMnJHibVKpT6e2OAHrkCv0sicxiasKA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+## ![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_010_4c8dc48cd0a3.jpg)
 
 欢迎对新能源汽车电机设计有迫切学习提高方面需求的朋友扫码报名，关于本次培训的详细情况介绍如下：
 
@@ -68,7 +68,7 @@
   
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWlibIBKLYuKROraQAvoTAonTxuyOwHvCiacsJMc5DMKsRASxlMxaI9IJhiaOZZb4CDGOkwyT5WvDBjA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_011_d9eccd5e7d37.png)  
 黄苏融教授
 
 **黄苏融**，电机设计专家，上海大学教授/博导，国务院特殊津贴专家，中达学者，美国威斯康星大学访问教授，上海市高校机电驱动与功能部件创新团队带头人。曾任IEEE工业应用学会北京分会主席、上海分会主席。现任上海电机系统节能工程研究技术中心技委会主任，上海汽车电驱动工程技术研究中心副主任，中国电工技术学会中小型电机专委会副主任，全国专业标委会委员(旋转电机标委会和电工合金标委会)，SAE讲师，多家著名企业技术顾问等。
@@ -139,7 +139,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUBTFTkFbxMYwstkjZkVZw4GIdr75RYX6MQF7U5I7gLDNOOWG0900lTAqydTibyuy9BM6rYKO2zxSQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_012_ab94190bd85b.jpg)
 
 现代EV电机设计及其关键技术培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。  
 
@@ -193,14 +193,14 @@
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVs0Ef5uGVZ1sSLiaFVuFiaDb9Q5fEzZknVJyfeUGAaCDUE5fgG0tSpAm6vEdKg8hbhw8AN1oiaoLUrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_013_1e6cfbd93bf6.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_** 欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_014_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWMicGBWGEcf2GIbO36n9rxUMnVA6KykpqTXccaYHaUtFSiasaeRmtq35lmEW6HlOfXkOtaraW7rutw/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640172&idx=1&sn=beaa2cdfc43f287e795a5b2a6d7ad13a&chksm=88bc2423bfcbad3515cb9552a1204432e8f58346b574bfb93e9186a3b0b009577c5f375c8bb1&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUh5r79PtibQ3e18zHmnWYSqTwFNZvgBibRVl7RJqhaZHb1GwNxUXeR3JYloPZsicEANUqZdEdbhJ9Vw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638555&idx=1&sn=5bb05da205ac86ec3cd0fe98d78f90a7&chksm=88bc23d4bfcbaac26ee0b2bcea4040013bc7c8d1d9d7a7dc55fd79696a5c1b369c56b45550ad&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640189&idx=1&sn=6a067c24c325ecbe0dbcbce3332ecab0&chksm=88bc2432bfcbad24a130b84bee8ff62a52bab02eba842edf2efa8c32c7575f6a32c577e2b426&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_015_96603c8aee9b.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640172&idx=1&sn=beaa2cdfc43f287e795a5b2a6d7ad13a&chksm=88bc2423bfcbad3515cb9552a1204432e8f58346b574bfb93e9186a3b0b009577c5f375c8bb1&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_016_56b575fc7901.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638555&idx=1&sn=5bb05da205ac86ec3cd0fe98d78f90a7&chksm=88bc23d4bfcbaac26ee0b2bcea4040013bc7c8d1d9d7a7dc55fd79696a5c1b369c56b45550ad&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_017_18f5302d1f9a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650640189&idx=1&sn=6a067c24c325ecbe0dbcbce3332ecab0&chksm=88bc2432bfcbad24a130b84bee8ff62a52bab02eba842edf2efa8c32c7575f6a32c577e2b426&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_018_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_019_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_020_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\EV电机行业顶级专家亲自授课_您来吗__images\img_021_d960d0948cf9.gif)

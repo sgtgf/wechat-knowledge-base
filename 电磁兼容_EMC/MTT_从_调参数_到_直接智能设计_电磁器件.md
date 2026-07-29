@@ -25,7 +25,7 @@
 
 把“物理定律”直接写进神经网络，让AI按物理规律设计结构。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBoML9TaIqz8YXXarRwgUGuHYR68SQic0jsL2BjJMhIFEbgdWhWbAQev9HM6MLsIuwhicmuJ6ZMrKB92H6xzurdWYdiaTWyfr1u78/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\MTT_从_调参数_到_直接智能设计_电磁器件_images\img_000_ad3d7d257109.png)
 
 设计场景示意图 
 
@@ -91,7 +91,7 @@
 
 结构设计 ↔ 场分布演化 的闭环优化
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsD6FiaR7KBNGVa9EmAM46rbHUVk59SicUWWOjDibTia77wfl5VOrcfUq9ibyhB4PUv4um6EL4lH4bMYPCwQHT8MndK0qG74NNN3W4H0/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\MTT_从_调参数_到_直接智能设计_电磁器件_images\img_001_6722b0ffeb24.png)
 
 设计流程图 
 
@@ -128,11 +128,11 @@
 
 👉 说明该方法不仅“能算”，而且能落地 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBxicrJjeSia4peibov9dicNeBjtLxRLU6YluciaMiabQViccSFVicscUGd63yCUonMYZL1VgKQibBNicN9YVzPQdelBT8LDZlN6Gzjc9X9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\MTT_从_调参数_到_直接智能设计_电磁器件_images\img_002_ea0fda8efa6d.png)
 
 场聚焦设计案例
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCzyOW1YksMXKzHJHI7YkqoicYcL3X0NPn3iblIFBZs5G52393ZcrCv16BJRiaEVI6nuyjIzfjrw1o33tyEPRPuzP68DQ4AhavRUs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\MTT_从_调参数_到_直接智能设计_电磁器件_images\img_003_5a845b11b841.png)
 
 实验结果
 

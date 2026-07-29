@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGbUKRFJmW6vFY4bmlmMvKFawvolPLACOCYxA4kgU540MdMlZ20cdvibA/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_002_8a0ffd879bae.jpg)
 
 将旁路电容靠近引脚放置
 
@@ -56,7 +56,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEiacKjwnmmkjddKV9RC23pkuLZDcjERmVmgGR1VlfILUibHiaq5F0jusZThQiaa48Zx8bG4JjSaBIorw/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_003_9d826ee9ccd7.jpg)
 
 避免平面热点
 
@@ -72,7 +72,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGBYEPfZMrgrDop5Pkcyw5FicywkOTHop82EDkLpt1b7R2MfMwgdsnwdg/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_004_e2e6771e6fba.jpg)
 
 用135°代替90°
 
@@ -86,7 +86,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGJ0rRFTyKib9TD2uxmOY9FKTZiciclJ640kCdOnRLDk0tVtWAhkeotopTw/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_005_4d1bb7ebdd53.jpg)
 
 在弯曲出保持最小距离和线段长度
 
@@ -102,7 +102,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEiacKjwnmmkjddKV9RC23pk4jL6iaXib9kqDWWFUshWaeJWgQNCarGF9oGaHC5tQ8JibVpbVB8YoRw1w/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_006_d15d145d615f.jpg)
 
 尽可能增加走线之间的间距
 
@@ -126,7 +126,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGW7bFF0D6hu1g6baMImbIU6dEO44ORJ3icMEIgt2Uv859IybGGTzX5wg/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_007_712b74c036b6.jpg)
 
 通过菊花链路由避免存根痕迹
 
@@ -150,7 +150,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGl2KXAvLs7GpkZxzUvlPA1beSCk2AMSdSs2sp0eoyqjtCEdlAjGlLCg/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_008_1fbe5b2ba2e3.jpg)
 
 移除大焊盘下的地平面
 
@@ -160,7 +160,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEiacKjwnmmkjddKV9RC23pkCPwQ9y6HdWGe0ia6zqfFaysPBgpQpw6TqfnJFeibLEYniac7GIAromGZA/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_009_ba7555e45f73.jpg)
 
 移除未使用的过孔焊盘
 
@@ -176,7 +176,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEiacKjwnmmkjddKV9RC23pkJrJP6XJ3BOYYjzywN9GZILlm0xVBDgK9sf5DfD5pobiasYzWGKoTpKw/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_010_f2d740253e40.jpg)
 
 对称布线差分对并保持信号始终平行
 
@@ -186,7 +186,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGgJNt3Ly0xhWfHsycC4VwW1ic4e4NpBE9MSnerjV8f0uOayh6HO3hf7g/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_011_98d52d033d06.jpg)
 
 不要在不同对之间放置任何组件或过孔
 
@@ -196,7 +196,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEiacKjwnmmkjddKV9RC23pkicpL7cSBQU8qw8RSh43g4IIyuz57tiaYH0nHtqeJkRdzOJkxNwyEt4og/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_012_6ccd30d198c9.jpg)
 
 对称放置耦合电容
 
@@ -206,7 +206,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGc3VG2dFTcGMD2hKMXGGenwOHYTV7nbJ6yqdANlvrkLNAWVZIjfoMog/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_013_c5102c3eb8c1.jpg)
 
 对称放置过孔
 
@@ -230,7 +230,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGJZicIiajh65nEJ7WEuOuHictBID5DuziazByO5rJyJ5zWeZOI4WK8dgT8g/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_014_65742d7357c8.jpg)
 
 首选蛇形几何形状
 
@@ -240,7 +240,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGSx13W1Ta42sjickIBB9JNXV8WFXdicEvo35JhXGZ83HwGuDAT9vEHWUA/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_015_725ed19fba75.jpg)
 
 对不匹配店家长度校正
 
@@ -250,7 +250,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGj3DshSgFiblTFp8OicialW9RHXJ8kkd1NVFcXOfUlyFre87T4pSiaZdhSg/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_016_e0520e1e45ba.jpg)
 
 靠近弯曲出放置长度补偿
 
@@ -260,7 +260,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEiacKjwnmmkjddKV9RC23pkDsRXXSU18RVkXgeTEUca3icwYEA4vrbibJBB6RfvficFgEXVyTr1vNKvg/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_017_ba5dbda8fe2c.jpg)
 
 弯曲可以相互补偿
 
@@ -270,7 +270,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGIVZgibXeXxo46UWAUPNmsPX4DnW2Lh3UGhYPlrXZaKP1YBxy01ibbmyw/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_018_4ad24202465f.jpg)
 
 需要在每个段中补偿长度差异
 
@@ -280,7 +280,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3ibbhhytvylEiacKjwnmmkjddKV9RC23pk1RvVNKzbr3lWOyeH52Kiakb2puvOxdUWfp7dgD9Iqq8LNxXMeVObaOg/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_019_61ab3b129f79.jpg)
 
 同一接口内的对应该在同一层上优先路由
 
@@ -290,7 +290,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpG8g8gLpx2dWCASR3uYbib4z55Eugx17UKMMKaLec70gm78dg9cibR6SzQ/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_020_8ad3586f287f.jpg)
 
 CAD工具长度计算问题
 
@@ -300,7 +300,7 @@ CAD工具长度计算问题
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpG8pFmBdPrWINj9iaNSwA7D6djoVc6PQ4G1P9Iz02ISz28Z0zJ0XST92w/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_021_836393f0bb78.jpg)
 
 首选对称突破
 
@@ -310,7 +310,7 @@ CAD工具长度计算问题
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics5yZkLDzm4zz79KnDlbxhpGeDXkxQlRDeGaG560icJ4lbHUzhxWefKJUxmZrXkw0u8syM7vaWXn5Cw/640?wx_fmt=jpeg)
+![](7个PCB走线注意点_避免_踩坑_（图文_案例）_images/img_022_c589f513ec3c.jpg)
 
 差分对的首选突破
 

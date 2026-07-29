@@ -43,7 +43,7 @@
 
 ### 所以，需要重点了解的是 IPC-2221标准中，用于恒定宽度的长PCB走线宽度建议。如果走线是连接到较大的走线或铺铜区，那么采用PCB走线的一小段传递更大的电流则没有不良影响。这是因为短而窄的PCB走线电阻很小，而且其产生的热量都被吸入到更宽的铺铜区域内。从图1的示例中可以看出：即使此器件中的散热焊盘只有0.4mm宽，也能承载高达3A的持续电流，因为走线被加宽到了尽可能接近器件的实际宽度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0Yg9geNozmewRGt6cicnG5vqU4nkWWmzqU7BVVZqNYjQb8Uov9uib2vc4Q/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_002_1c84209be1f5.png)
 
 图1：加宽PCB走线
 
@@ -133,7 +133,7 @@
 
 这里需注意，散热孔本身不具备散热功能，必须把它们直接连接至铺铜区域（见图3）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0YjKibcib66kTjaib08FRP1xJKJgcFlia2XanxMTXtiadkSNjfVQNzfldATEg/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_004_7b698872b4cc.png)
 
 图3：热过孔
 
@@ -161,7 +161,7 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
 请参考图5中的元件贴装示例。图5显示了MP6600步进电机驱动的双层板PCB布局。大部分信号走线直接布置在顶层。电源走线从大容量电容绕到旁路，并在底层使用多个过孔，在更换层的位置使用多个过孔。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0YV5Hsh1ZVzDvfX9Nywn6zqnjyBw2ibqQKibG0PD1llSQLEsic3usdUnBWg/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_006_afcfe5e56da1.png)
 
 图5: MP6600元件贴装
 
@@ -173,7 +173,7 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
 # 标准的引线封装（如SOIC和SOT-23封装）通常用于低功率电机驱动器中（图 6）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0Ynoyqdt3QI5P7xEMU7vYUfpQ89X845ticdcxiaXKkgzFnF9EfXLzl1KmQ/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_007_584bd24df7b5.png)
 
 图6: SOT23和SOIC封装
 
@@ -185,7 +185,7 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
 通过将较大的铜区域连接至承载较大电流的引线，可优化热性能。在电机驱动器IC上，通常电源、接地和输出引脚均连接至铜区域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0YrCcbyVJY1PICtbnko2kcZOD3FEWsYKggdouia9iaxqYTibu8BPzcZm2sQ/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_009_57b82dfd5740.png)
 
 图8: 倒装芯片SOIC PCB 布局
 
@@ -197,19 +197,19 @@ IC规格书不一定会指定焊盘焊膏的开口。通常，SMT制程工程师
 
 ## TSSOP 封装为长方形，并使用两排引脚。电机驱动器 IC 的 TSSOP 封装通常在封装底部带有一个较大的外露板，用于排除器件中的热量（图9）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icTicTBfyutAsAibzy2OmUibDhUaM0WNebGzs5a9mWk0QbhQKULhNkdngIg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](大厂PCB设计指南_images/img_010_e1451649dd6b.jpg)
 
 图9: TSSOP封装
 
 QFN 封装为无引线封装，在器件外缘周围带有板，器件底部中央还带有一个更大的板（图 10）。这个更大的板用于吸收芯片中的热量。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icSZg5RwEjqa2menOWLxGxyWicmFMgAn6pJsbMlsY6we4r7dGnWE6gRhg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](大厂PCB设计指南_images/img_011_8f86642c470b.jpg)
 
 图10: QFN封装
 
 为排除这些封装中的热量，外露板必须进行良好的焊接。外露板通常为接地电位，因此可以接入 PCB 接地层。在图 11 的 TSSOP 封装的示例中，采用了一个 18 通孔阵列，钻孔直径为 0.38 mm。该通孔阵列的计算热阻约为 7.7°C/W。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0YzicOZSfzkPwynWiamv3gzpVEZRVQns9F7aKjPYeefRRZViawNKzibg22wA/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_012_9a102053580f.png)
 
 图11: TSSOP PCB布局
 
@@ -221,7 +221,7 @@ QFN 器件封装边缘四周的板避免在顶部使用铜层吸收热量。必�
 
 图 12 中的 PCB 布局所示为一个小型的 QFN (4 × 4 mm) 器件。在外露板区域中，只容纳了九个热通孔。(见图 12) 因此，该 PCB 的热性能不及图 11 中所示的 TSSOP 封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0YJAzicY3BC5IbicKHYicyXzicMIRiadwbBQk1IjApKmpysaKIuCgHrTvdmVA/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_013_deebc7f69e58.png)
 
 图12: QFN (4mmx4mm) 布局
 
@@ -230,19 +230,19 @@ QFN 器件封装边缘四周的板避免在顶部使用铜层吸收热量。必�
   
 倒装芯片 QFN (FCQFN) 封装与常规的QFN封装类似，但其芯片采取倒装的方式直接连接至器件底部的板上，而不是使用接合线连接至封装板上。这些板可以置于芯片上的发热功率器件的反面，因此它们通常以长条状而不是小板状布置（见图13）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0YzbAQYyLSmjNRltCvGfGlXjjhjkibiaeWszhMf75p6uQG7IzypWP3YlfQ/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_014_2074d72077f5.png)
 
 图13: FCQFN封装
 
 这些封装在芯片的表面采用了多排铜凸点粘接至引线框架（图14）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflJicxicyzs970QlChkDtvP9icEic5kWialoEfefIDQzHDx1OEjBOt70Uq4icRpgBovZFjLVgfLFFclkiaSw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](大厂PCB设计指南_images/img_015_c45f1e557773.jpg)
 
 图14: FCQFN结构
 
 小通孔可置于板区域内，类似于常规 QFN 封装。在带有电源和接地层的多层板上，通孔可直接将这些板连接至各层。在其他情况下，铜区域必须直接连接至板，以便将IC中的热量吸入较大的铜区域中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgb3HAJyuamF5ENhRaq2T0Y6r2I0hnVzaaG7ETJf7tVsdLbOmPhCnkEIibiaKSIR6udbSv5lxUn7KSA/640?wx_fmt=png&from=appmsg)
+![](大厂PCB设计指南_images/img_016_78897de1ad45.png)
 
 图15: FCQFN PCB布局
 
@@ -256,7 +256,7 @@ QFN 器件封装边缘四周的板避免在顶部使用铜层吸收热量。必�
 
 综上所述，为了使用电机驱动器IC实施成功的 PCB 设计，必须对 PCB 进行精心的布局。因此，本文提供了一些实用性的建议，以期望可以帮助 PCB 设计人员实现PCB板良好的电气和热性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](大厂PCB设计指南_images/img_017_8f8c22b4fa63.jpg)![](大厂PCB设计指南_images/img_018_d5dcc7ecfdf3.jpg)
 
 ## 
 

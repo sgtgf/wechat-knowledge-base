@@ -10,7 +10,7 @@
 
 问题1.接地引脚不能敷铜，如下图:
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tL9OQqGdngXSFgUYEBhbruVh1CmiahmdYJMftjGK8y9ULFE7LnvFcYjLLc48a33lDF8DRWe5gddWfA/640?wx_fmt=jpeg)
+![](PADS中常见敷铜问题解决_images/img_000_309de61e5cc5.jpg)
 
 出现这个问题，可能有两个原因:
 
@@ -18,25 +18,25 @@ A.热焊盘宽度设置不合理，需要修改焊盘宽度。例如:焊盘宽�
 
 ①选择tools下的options
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tL9OQqGdngXSFgUYEBhbruVpOKTnUC0G4PIz75YMLlDLGqiboibkiaoYaKZvXH76XKlq5jibHLArpm4iaw/640?wx_fmt=jpeg)
+![](PADS中常见敷铜问题解决_images/img_001_a4c3f963e3ac.jpg)
 
   
 
 ②选择thermals，更改宽度width
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tL9OQqGdngXSFgUYEBhbruV6NuqIicoMDLfCrqe8ibTye1maqwzwEL18ytCLVztJBtgUah9fchYibGMw/640?wx_fmt=jpeg)
+![](PADS中常见敷铜问题解决_images/img_002_520e2d63dbe8.jpg)
 
   
 
 B.如果这样更改后还是没有效果，可能是PCB封装焊盘设置不正确。如下图将焊盘改成椭圆形就可以了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tL9OQqGdngXSFgUYEBhbruV8ia0g1eFjcNR6ydt4iauZXDibmjianRD2VIQUFnfOW4VKiat1RlOiauXnM8Q/640?wx_fmt=png)
+![](PADS中常见敷铜问题解决_images/img_003_1c437101a8be.png)
 
   
 
 问题2.好像PCB没动过，为什么有些地方部分可以敷铜，有些地方空出来不能敷铜？如下图:
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tL9OQqGdngXSFgUYEBhbruVJqKVUAxBHPHXWNtEBkkMMDWFxQ5Pc8qJJ7qwtDrSzl4v7SHNicDqCVw/640?wx_fmt=jpeg)
+![](PADS中常见敷铜问题解决_images/img_004_022b72a8e3e1.jpg)
 
 出现这种现象只有一个原因，将敷铜的边框宽度改大了。
 
@@ -46,4 +46,4 @@ B.如果这样更改后还是没有效果，可能是PCB封装焊盘设置不正
 
 双击敷铜边框，出现Drafting Properities，更改宽度值即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tL9OQqGdngXSFgUYEBhbruVygfDFjzD7QYRrupIsdhy0mVk8M1MBePMpueibetYccqblpGXabhCyPA/640?wx_fmt=jpeg)
+![](PADS中常见敷铜问题解决_images/img_005_62ca18682df8.jpg)

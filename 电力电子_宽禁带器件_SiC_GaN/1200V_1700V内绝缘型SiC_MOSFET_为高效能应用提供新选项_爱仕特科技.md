@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/-1v7gmaCPy02RdkWJYQh8Q](https://mp.weixin.qq.com/s/-1v7gmaCPy02RdkWJYQh8Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G82XNUOiaHrdtDXGf7Paem4ctWd7qehuuaHjarXiabWkshicmY7G6l2Mr5riay0AxQkdb1icIqiaYT3odacZokNJ16OQ/640?wx_fmt=gif&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_000_e7a723f69296.gif)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdtDXGf7Paem4ctWd7qehuuDRkKjZLkTzvoVFuKXdC5ibBibL2rCnFFqeE511KUM46vMWXe4IvoLOVA/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_001_5df9acf94827.png)
 
 “
 
@@ -19,11 +19,11 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
 爱仕特始终秉承创新理念，出了**1200V和1700V两款内绝缘型TO-247-4封装的SiC MOSFET**。这些创新产品在保持标准封装尺寸，通过内置陶瓷片优化了绝缘和导热性能，背面散热器做了悬浮电位设计，减少了外部绝缘材料依赖，降低了材料老化导致的长期运行故障风险，增强了产品可靠性和耐用性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdtDXGf7Paem4ctWd7qehuuAmbQ4ITSIOOhBveibN4YcIaWic2ZnV8ibru2Niaj0IfEvxhht9SGjDuQrA/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_002_78dc7dc37ecc.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiampatqWsaibD1v5xputtp0xIibKDTZKHpqkRN3gaQybn7b3n5VHAmicYsw/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_003_6c51d77b6b75.png)
 
 ▲内绝缘型TO-247-4封装SiC MOSFET
 
@@ -31,7 +31,7 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaPaiaJ34McAKUa4Jt2iciaafmapJO7icoOrfc8jRIXVBDkQrMpHh7xuNXMg/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_004_c77dc1606303.png)
 
 ▲内绝缘型TO-247-4封装SiC MOSFET产品列表
 
@@ -63,7 +63,7 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiauXCtGYW84NMictFofVGPNNWGeJKlLkosyMpJJMt5k6rAssjtrqF9RSQ/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_005_267fd5a9ae05.png)
 
 ▲内绝缘型TO-247-4封装尺寸
 
@@ -128,7 +128,7 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaP4bXVJwiby6QQbsfHgFNAmm6RiaQKOxRavpcxqe81IA6B5ibaDibl3qYkQ/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_006_c0842467ecfc.png)
 
 ▲常规TO-247-4封装结构示意图
 
@@ -138,7 +138,7 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaptD8d2Lb5nq8LmBNrFG2Putew6OB6RibTaZgZwdzytocVoFB0ZI8Udg/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_007_f0254b5bbf8d.png)
 
 ▲内绝缘型TO-247-4封装结构示意图
 
@@ -150,7 +150,7 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgia4K2cRsDFkH8oGicORKjI1qeRxIrKX2KZTAxfoZSZBLqE9ax7wV3UShw/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_008_e0ab85477679.png)
 
 ▲常规TO-247-4封装热阻示意图
 
@@ -166,7 +166,7 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaf4RkjX22gglu8wNPNruOL87v1sSn6yZyHVEa47MVAELibYMPAV1zsyA/640?wx_fmt=png&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_009_ddf9f5d01a74.png)
 
 ▲TO-247-4封装SiC MOSFET安装示意图
 
@@ -242,11 +242,11 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcwaNTGq4nV6ewuYH7ITneu8ibCDNb4YuN3QLLauXMB3TNTWqjw5pocM5iaz3FbtmP3b0cbdeMoBRhw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_010_c0738fae47a1.jpg)
 
 **该模块采用创新封装和三相全桥设计，内置1200V碳化硅MOSFET和热敏电阻，杂散电感低至2.5nH，工作安全稳定。工作电源电压可达900V-1000V，工作频率可达30kHz，输出功率可达300kW。LPD模块具有耐久、安全的性能优势，性价比超国外产品，适用于电动汽车、氢能源汽车、高速电机驱动、光伏风能发电等领域。**
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHreCDDL6x4Oia8UquMNEPwZY5ib93Fb5BUmVTRMjbzvncnbvg8oPYuX9yu1Sx16EeWLgT9Y9kpR1VVzg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_011_f2a4cdd788a8.jpg)**
 
   
 
@@ -254,7 +254,7 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
 **爱仕特创新力作D21系列模块——1200V三相全桥碳化硅模块。这款模块采用紧凑型顶部散热塑封结构，以其高效能、高功率密度和优秀的散热性能，展现了碳化硅材料在高压、高频、低损耗方面的优势，为电动汽车空调压缩机、车载充电机及工业驱动系统等提供了创新解决方案，推动行业向更高效、更环保的方向迈进。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaRaB78sUnY6S8EPRhrfibcsvUJiaVIa09jAVAazvYGy102bG1G77Premg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRrDhXjoYEgXqTgOscSzOwCtmO7mWwJRmgtaXe7EibibiceASSken5LPvlQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_012_dd6c766c87f0.png)![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_013_405ec2b43978.png)
 
   
 
@@ -284,17 +284,17 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
 **专注SiC MOSFET芯片设计，产品电压650V-3300V，电流1A-150A，有自建晶圆厂。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiakOJz4nEXyfuJmsKiaG8nyW9iaeMsWgL0kficuiclfC6YHP7otHicMRPtFpA/640?wx_fmt=jpeg&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_014_89629e3cc901.jpg)
 
 **爱仕特掌握国内领先的碳化硅核心技术，新一代的碳化硅工艺可降低芯片成本近15%，同等规格下的芯片面积比国内同行小15%—20%，能够为客户创造更大的经济效益。**
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfL57hAlAjhaSMA3g1fKIkRDYBxj032Lawup96LAMuSk12kPe02RRqeaIL6cpFxYDQPibj1JFHBcwA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_015_64dfd21e8003.png)**
 
 **@SiC MOSFET**
 
 **目前已量产650V、1200V、1700V、3300V等不同电压等级的碳化硅MOSFETE 60余款**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaa6I9eWMpYmYRYuLukVnUhfCzopuG5vMlwA2M1AMwSWfmVHGcXXrFmw/640?wx_fmt=jpeg&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_016_725ada4c0d79.jpg)
 
   
 
@@ -302,20 +302,20 @@ TO-247-4封装的SiC MOSFET因其高速开关性能、降低的开关损耗等�
 
 **目前已量产650V、1200V、1700V等不同电压等级的碳化硅MOSFETE功率模块 50余款.**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaImmBBUfPNNwMryN4VFK0kUJA9U7HvBiaOEzY6a20esFxzB6Eu7xLHLw/640?wx_fmt=jpeg&from=appmsg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_017_0d225d1deeaa.jpg)
 
   
 
 **@SiC MOSFET系列方案应用与开发**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnACkNVwgibtMf7GpPhCmxgiaibOKjMLsrT0RB6Z2kTOb5hs6oRmZjqYbLocOUt05gjibkeRxH7KXrznw/640?wx_fmt=jpeg)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_018_172b30081494.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_019_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_020_3ade3c3d8599.jpg)![](1200V_1700V内绝缘型SiC_MOSFET_为高效能应用提供新选项_爱仕特科技_images/img_021_84aa944feb13.jpg)

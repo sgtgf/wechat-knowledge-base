@@ -7,7 +7,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgFTlmeWqWAzhYaTUDWQ233MXGApSVRmSVuPib6gcq1jumSokzYCgTB7w/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于车载充电机（OBC）和DC_DC转换器（电动汽车_混合动力电动汽车和燃料电池电动汽车）_images/img_000_2101b32656b6.jpg)
 
   
 
@@ -17,7 +17,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45Ogw6NjbQ9ZehK7QfKM2K1145N1p9CgeOxSFujlzC58YpSHKu3KNME14A/640?wx_fmt=jpeg)  
+![](SIC_碳化硅MOS管应用于车载充电机（OBC）和DC_DC转换器（电动汽车_混合动力电动汽车和燃料电池电动汽车）_images/img_001_2cdaf9829d16.jpg)  
 
   
 
@@ -27,7 +27,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgajTrAjjcCGw9cqusSAjxygFnnTicVFZpGgwlBmGRoXZTKtGXqZlh9zg/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于车载充电机（OBC）和DC_DC转换器（电动汽车_混合动力电动汽车和燃料电池电动汽车）_images/img_002_c585dd6af31a.jpg)
 
 图3 燃料电池电动汽车动力框图
 
@@ -47,7 +47,7 @@
 
 车载充电机(OBC)是安装在汽车内部的AC/DC变换器，可以方便地从家里的电源插座进行低功率充电。功率范围从3kW到20kW以上。由于家庭电源插座的功率限制，普通电动汽车OBC的功率通常低于6kW，但一些高端汽车，如特斯拉Model-3，为拥有三相电源插座的客户提供了更高的OBC充电电源选项。商用巴士通常有更大的电池容量，需要超过10千瓦的充电功率。以下是已知的OBC设计中使用的拓扑。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgmKxjnLUPjxbJhq4HMmYgDebS4pn8o5Kb4qF9WaaNuwxm5GCvxXPiaGA/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于车载充电机（OBC）和DC_DC转换器（电动汽车_混合动力电动汽车和燃料电池电动汽车）_images/img_003_616565e1cc07.jpg)
 
   
 
@@ -65,7 +65,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgPbHJlvsBSPSAt2uIVY49Plz9v077oe7bbl5ZyqhZJiaViatOG4ibMjmmg/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于车载充电机（OBC）和DC_DC转换器（电动汽车_混合动力电动汽车和燃料电池电动汽车）_images/img_004_5c551a5a8d92.jpg)
 
   
 
@@ -83,7 +83,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgmGIx3r7NUx0iaKZPWibVQaSHUpCqSst9o3aIutZsC6kZViceKsM22Tt6Q/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于车载充电机（OBC）和DC_DC转换器（电动汽车_混合动力电动汽车和燃料电池电动汽车）_images/img_005_0008275e09eb.jpg)
 
   
 
@@ -95,7 +95,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgZ6iaYFItWibIYLibibCULVS9iaPFgc7r1ffgXVpv0HeDCYfmniaybXuelbsw/640?wx_fmt=jpeg)
+![](SIC_碳化硅MOS管应用于车载充电机（OBC）和DC_DC转换器（电动汽车_混合动力电动汽车和燃料电池电动汽车）_images/img_006_f29e7e6d91ec.jpg)
 
   
 

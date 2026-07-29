@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/1nsJuvZaGYGvigQC\_6TqDA](https://mp.weixin.qq.com/s/1nsJuvZaGYGvigQC_6TqDA)
 
-### ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+### ![图片](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_001_9011be9decf6.gif)
 
 大家请看这张图片。这是我们一款产品之前做FCC认证辐射RE摸底时的结果。满屏幕的尖峰，当时看得我头都大，低频50-150M以内最高超了差不多8dB左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacCdmvpWDchfuDf6txlKkauI6anqtfxYmVibBkdFpsibN3DcZ92zvvoHQPmiaHOQKdPsRl5Pm13DBcnZ0icicaCwrzvuLvUYf2uUXNM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_002_803797cc45a5.png)
 
 所以咱们硬件工程师对FCC认证这块，相对来说是比较熟悉的。其实就是咱们的产品测辐射、测传导，最后拿个证，才能卖到美国去。但最近，美国那边搞了个大动作，跟我们每个做出口产品的公司都息息相关。今天咱们就跟大家聊聊这事。  
 
@@ -18,11 +18,11 @@
 
 2026年4月30号，美国FCC（联邦通信委员会）全票通过了一个提案。核心内容听着很简单：拟全面禁止中国境内所有实验室为销往美国的电子设备提供测试认证。他们给了两年过渡期。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacQW1rElNmD9lYWLNf1QMDwyAYOOZKj4M95Vl27puq3d6Hzl1zJPsH9N8kTSy2L04sGPdJtSIUN06RIP5CLH0WgwNbnkaBYNoM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_003_71084850df11.png)
 
 以下是题案内容：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadibBBM3zTHl59QibYicVvcWnzSCh2lKc0jR2hT7uC6h5192yABUaLJBS6H1XnPl29s3zga6qeD3T4JZQyU6my4Chobh0396Kibk9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_004_67cd979f0006.png)
 
 这消息不是突然来的。之前就有苗头：2025年5月，他们搞了个不良实验室规则；9月，第一批7家中国实验室被撤销资格。到2026年4月，前前后后已经搞掉了咱们10多家。这次是直接来个一锅端。
 
@@ -34,7 +34,7 @@
 
 **FCC是啥，咱们来百度一下：**
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niae176Rf9KGDQRVXjCgQLtmgvCGwLgM4wYw3Kib1hP62ibLTj9rtic1WqvfqK55DqOEEo0C7ZdZ8XOiaSQ3mw6X5Sl9eJgvXZD5Z7sc/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_005_5ca7ea972dca.png)**
 
 **FCC是美国负责监管所有州际和国际通信的独立联邦机构，你可以理解为FCC就是美国管无线电的衙门。任何带电子电路的产品，只要你想卖到美国市场去，基本都得过它这关。**
 
@@ -48,7 +48,7 @@ B、提升市场竞争力，通过FCC认证的产品可贴上认证标志，增�
 
 咱们工程师最熟了，比如**FCC Part 15B**，主要针对无意辐射的设备：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafUoefic0iaUFSJiciaMfNNibLjv8icnDibKZGMibofwHC1jjclHF4mwBnViaPB91COHeOibXwuYMicRLfUOf0uBTu3MFJJmicarlanR5chvDY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_006_c98419a369aa.png)
 
 **A、辐射发射**：测你的设备向外部空间辐射的电磁场强度，频率范围在**150 kHz ~ 30 MHz之间；**
 
@@ -90,7 +90,7 @@ B、提升市场竞争力，通过FCC认证的产品可贴上认证标志，增�
 
 美国这次想抢的是检测认证这个技术门槛的控制权。但它忽略了一个事实：**中国自己就是全球最大的制造业基地**。欧盟、东南亚、中东、非洲的产品要进中国，也可以走我们的**CCC认证**。它这么一搞，反而可能**倒逼我们加速建立一套不依附美国的独立认证体系**。以后全球其他国家可能更愿意采纳中国标准，因为我们有完整的产业链、有成熟的实验室体系、有巨大的市场。**美国这么单边搞孤立，最后被架空的可能是它自己。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafoN0iaETjia35Z5UwcxT1tCKsPGUiadjrZo0tialaNoQu2mjdZzr6LFrEPH5WTyOknFTwo1XAicibDg4YV508vkbbRRVN1SQiajtqDqo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_007_8726e3f3983f.png)
 
 提案还有两年过渡期，不是明天就执行。手里有正在开发、要卖美国的产品，赶紧加快进度，趁国内实验室还能出报告，先把FCC证书拿到手。拿到手的证，大概率不会被追溯推翻。
 
@@ -106,12 +106,12 @@ B、提升市场竞争力，通过FCC认证的产品可贴上认证标志，增�
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EmHnYGmEx0mTtKoydlN9cca9NgOibBl0Wfpnj8mTVGPtDp263HxmYWGUC0aW0beLkXZ4eWlBiaBw/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=10)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563874&idx=1&sn=66f17e5f20e0bdd4fcf3b587e86fc8ac&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_008_f214e26c25ef.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563874&idx=1&sn=66f17e5f20e0bdd4fcf3b587e86fc8ac&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EmHnYGmEx0mTtKoydlN9fBiaB43f2IaYtDfqmyFnVr6zjKK1ocRwjVWxESfgiaFEZNQ2ZR9rSUfg/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=11)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563472&idx=1&sn=a1cb4ccfbd6d7f4441a418dd8aa3858e&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_009_37ae0d238f0a.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247563472&idx=1&sn=a1cb4ccfbd6d7f4441a418dd8aa3858e&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EmHnYGmEx0mTtKoydlN9kp42ypuicaL3ev6VjKvbmfKWv1zxrE17icM0ljYfIea9oEhg0pDmV4dg/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=12)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562096&idx=1&sn=93c9f5326168fe09bd8030c06b808212&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_010_c8cb94c1002b.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562096&idx=1&sn=93c9f5326168fe09bd8030c06b808212&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niad9t1g9CKgr1BbtuzzLPiasNXRNiaaZ0rMEP161jyTq7D3R0ZDz7d3tZ0THWkbfaq67pV5jT3tYIgxqDmWvCM9UiaajicoueYl1Wqc/640?wx_fmt=jpeg&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\美国下死手_禁止中国实验室FCC认证测试_所有出口公司赶紧看_别等产品被卡才反应过来_images\img_011_60450a70bcf2.jpg)

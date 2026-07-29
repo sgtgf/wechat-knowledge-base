@@ -8,11 +8,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eKGaTkPpfo57NwQjkLlSpicngB2Odvgrbe989YVE0IGiaMiah3cuCicy51h8eWFgXMtKibFVPsF0u36QpGLhw1BLzrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_000_72185d24abb6.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/ofvnGicEPbfSAREPVibEia2cobtJkaRmwn2vC7WxqVa7iaUpgRUJ7cQuw9q1ahbIRsDaMz7VtB8icC1ec3funvK9mokEBibNOdrvLL/640?wx_fmt=svg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_002_13a65524a02d.svg)
 
 一道笔试题
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/ofvnGicEPbfSAREPVibEia2cobtJkaRmwn2vC7WxqVa7iaUpgRUJ7cQuw9q1ahbIRsDaMz7VtB8icC1ec3funvK9mokEBibNOdrvLL/640?wx_fmt=svg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_004_13a65524a02d.svg)
 
 一个重要公式
 
@@ -62,7 +62,7 @@ V=L\*ΔI/Δt
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/ofvnGicEPbfSAREPVibEia2cobtJkaRmwn2vC7WxqVa7iaUpgRUJ7cQuw9q1ahbIRsDaMz7VtB8icC1ec3funvK9mokEBibNOdrvLL/640?wx_fmt=svg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_009_13a65524a02d.svg)
 
 一个重要定律
 
@@ -102,7 +102,7 @@ PS：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/ofvnGicEPbfSAREPVibEia2cobtJkaRmwn2vC7WxqVa7iaUpgRUJ7cQuw9q1ahbIRsDaMz7VtB8icC1ec3funvK9mokEBibNOdrvLL/640?wx_fmt=svg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_006_13a65524a02d.svg)
 
 一个关键参数
 
@@ -128,11 +128,11 @@ PS：
 
      在实际工程设计中，**r值通常取值0.3~0.5之间。**请记住这个经验值！  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eKGaTkPpfo57NwQjkLlSpicngB2Odvgrbn13wHt3uupQnMXa3ic2BTyGUTYzWOwMsesa04iaen2uxhGJhG6XKzFjA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_005_adef08e1c3cd.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/ofvnGicEPbfSAREPVibEia2cobtJkaRmwn2vC7WxqVa7iaUpgRUJ7cQuw9q1ahbIRsDaMz7VtB8icC1ec3funvK9mokEBibNOdrvLL/640?wx_fmt=svg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_003_13a65524a02d.svg)
 
 Buck电路两种回路
 
@@ -144,7 +144,7 @@ Buck电路两种回路
 
      Buck电路，在ton期间Mos管导通，电流回路如下图所示，Von=Vin-Vout。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eKGaTkPpfo57NwQjkLlSpicngB2Odvgrb4trdNtnj73NjnXENVB5SkcQkgsnIJO5RlI2EVhWYP6R5WJyLJElRkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_007_75b2143c9f7c.png)
 
 Von\*ton=Von\*D/fsw\=L\*Ion
 
@@ -156,7 +156,7 @@ Von\*ton=Von\*D/fsw\=L\*Ion
 
       Buck电路，在toff期间Mos管关断，电流回路如下图所示，Voff=Vout。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eKGaTkPpfo57NwQjkLlSpicngB2OdvgrbwtbUt1ibVyibZJbqiaicciaLmfcTGCQZ0icOlRokb7ibbPO57ctzKVFYMWsIw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_008_8b2dd6468e2d.png)
 
 Voff\*toff\=Voff\*(1-D)/fsw=L\*Ioff
 
@@ -170,7 +170,7 @@ Voff\*toff\=Voff\*(1-D)/fsw=L\*Ioff
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/ofvnGicEPbfSAREPVibEia2cobtJkaRmwn2vC7WxqVa7iaUpgRUJ7cQuw9q1ahbIRsDaMz7VtB8icC1ec3funvK9mokEBibNOdrvLL/640?wx_fmt=svg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_001_13a65524a02d.svg)
 
 一个传递函数
 
@@ -192,11 +192,11 @@ Voff\*toff\=Voff\*(1-D)/fsw=L\*Ioff
 
 所以，不论ton，还是toff期间，都有：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eKGaTkPpfo57NwQjkLlSpicngB2Odvgrb0CibGGL9hE8wGFh58l8TVSIY1kXiaN1sPiaaUS58d5z8JBcGJOE4udM0A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_012_0140330c05d5.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/ofvnGicEPbfSAREPVibEia2cobtJkaRmwn2vC7WxqVa7iaUpgRUJ7cQuw9q1ahbIRsDaMz7VtB8icC1ec3funvK9mokEBibNOdrvLL/640?wx_fmt=svg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_011_13a65524a02d.svg)
 
 总结
 
@@ -220,7 +220,7 @@ Voff\*toff\=Voff\*(1-D)/fsw=L\*Ioff
 
        Buck电路的电感计算公式为：(r通常取0.3~0.5之间)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eKGaTkPpfo57NwQjkLlSpicngB2Odvgrb0CibGGL9hE8wGFh58l8TVSIY1kXiaN1sPiaaUS58d5z8JBcGJOE4udM0A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_010_0140330c05d5.jpg)
 
        以上都是电源设计中的纯干货。这里还要重点说明下，本文中的举证推导内容都是以DC-DC的Buck电路为例，特别是(4)和(5)，都是有明确前提的。对比Boost或Buck-Boost电路，仅适用于(1)(2)(3)。
 
@@ -228,7 +228,7 @@ Voff\*toff\=Voff\*(1-D)/fsw=L\*Ioff
 
        放个手写推导版，这样看着比较直观。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/eKGaTkPpfo5AUU2dhwWwXSW9FqXbY2jl44S5KzufLR7ENROU7sqAGGHibgOmbWunt0FXiaq1VWaiaicYgxBTTXsTEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纯干货_DC_DC的电感计算公式推导过程__images\img_013_1f7104ae6673.png)
 
   
 

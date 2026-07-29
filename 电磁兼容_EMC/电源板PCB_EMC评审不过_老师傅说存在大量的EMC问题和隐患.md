@@ -14,29 +14,29 @@
 
 某硬件工程师设计完成的电源板PCB，如下图所示。本板在进行EMC设计评审时发现存在大量的EMC问题和隐患，需要进行改版，否则将面临着极大的EMC风险。从这个Layout各位能看出哪些问题呢？不妨在留言中写出来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyB0sJoGsxrDAw4AWH1qZFflptbfev2ufBsCajbvlRet3yaOmQ09EItA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_002_a1c13f9b2db5.png)
 
 问题一 接口滤波器件离接口太远
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyuJXoicqEchT6YiaCeLmkWoYdEn6gWrfNlNaf9Kw3rmWJuRo2YTUOTB2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_003_b58826ece7d9.png)
 
 影响：如图所示，因为滤波电路离接口太远，经过滤波的电源信号可能受到PCB中其他信号的干扰，造成二次污染。另外一方面，外部进来的干扰因为没有经过端口的滤波，可能会直接影响PCB中的其他信号，产生抗干扰问题。
 
 问题二 接口滤波器件未垂直成列布置
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvymZKG2W1aZYfcJ4ATOXsq6NicYjibUzS40oFMl1nU5S4g8zWNHdGlnpIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_004_562009b8295d.png)
 
 影响：如图所示，因为接口滤波电路未垂直成列布置，比如第一路的电源已经经过滤波了，到了接口处应该是很干净的信号了，但是如上图所示的Layout，很有可能第二路的干扰又耦合到第一路了。
 
 问题三 电源滤波器件未布置在一起
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyeJI5s6CgPcbJ4g0QGSznZysapQdvw0KCjm0w2c75lNM9xksvUc1GMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_005_d462503df4ce.png)
 
 影响：电源滤波是组合拳，不是单靠某一个器件来实现的。为了达到很好的滤波效果，原理图设计时需要模块化，Layout设计时也需要模块化。
 
 问题四 开关电源输入输出回路太大
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyzHhFLiblFGJiaaQFZJemrbvWaZsQ5KeR8Opqq4Ns3vMprZHTUdY6yY5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_006_a60c9f1c35c2.png)
 
 影响：辐射干扰的产生一般是因为回路太大，电流无法快速的流回去，而通过辐射发射出去。在电源Layou设计时应尽量减小电源回路，较小对外干扰，同时回路小，也可以减小串扰的可能性。
 
@@ -44,13 +44,13 @@
 
 对于开关电源板在PCB布线时，总的思路是控制好输入整流滤波环路、功率环路、输出整流环路、输出滤波环路的回路面积，环路要小，布线要短！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyibmNJMYvS5KWVTcVibzGqrC8dpU7NzaiamvKkiauPJjqdyKASNBFficibOiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_007_fe89e84487ff.png)
 
 整改设计：
 
 优化后重新设计的PCB如下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjOcH0QWoH3WWjUgwt7jPvyACTP6bwCEpkjLjXJXEm9IXnYIJ2q5AAaV56bS0jLmzI2FXR7fTrHNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_008_72eb3258ef61.png)
 
 EMC Layout设计要点
 
@@ -79,7 +79,7 @@ EMC Layout设计要点
 
 电源是EMC设计中的老大难问题，做好电源EMC设计非一朝一夕之功。只好在电路设计中做好滤波考虑，在Layout设计中处理好细节，才能做好EMC性能好的电源。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_009_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\电源板PCB_EMC评审不过_老师傅说存在大量的EMC问题和隐患_images\img_010_d5dcc7ecfdf3.jpg)
 
 ## 
 

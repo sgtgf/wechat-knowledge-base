@@ -29,11 +29,11 @@
 
 1.1 Si/SiC 混合器件工作原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjJDHOGhcJBGGkf2iblmsicTx5ZLcvuVHGHl4pWE1uZYCjNHKlJtTLgeqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_000_462b2b561100.png)
 
 Si/SiC 混合器件由Si IGBT 和SiC MOSFET 并联构成，其结构如图1 所示。通过控制两个器件的驱动时序，可以实现Si IGBT 的零电压开通和关断， 大幅降低其开关损耗，使混合器件的性能接近SiC  MOSFET。同时由于Si IGBT 的电导调制效应，大部分电流流经Si IGBT，降低了混合器件对SiC  MOSFET 载流能力的需求，与同电流等级的SiC  MOSFET 相比其成本大幅下降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjljYCUrz8IkESagcibQDdH84InvCVU6J9XpTib9QdqF5T8uOfzx9zcpeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_001_aa00568eaeef.png)
 
 混合器件内部SiC MOSFET 和Si IGBT 不同的驱动时序可以组成功能各异的开关模式，如图2所示。
 
@@ -65,7 +65,7 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 混合器件的热流传输特性可用Foster 热网络模型进行描述，具体如图3 所示。混合器件产生的损耗将导致SiC MOSFET和Si IGBT的结温升高，同时热量会从芯片由内到外沿着各层材料传递到散热器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmj83wvPA3hM5AsWZlPCzSa2HHezOhTuic2x01spc2AhSwPx4e4OUlNrKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_002_ccb742bd5ae0.png)
 
 图3 中：Ploss\_MOS 和Ploss\_IGBT 分别为SiC  MOSFET 和Si IGBT 的损耗功率；Zth\_(j-c)\_MOS 和Zth\_(j-c)\_IGBT分别为SiC MOSFET 和Si IGBT 的结壳 热阻抗；Zth\_(c-a)为散热器的热阻抗；Ta为环境温度。
 
@@ -79,13 +79,13 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 2.1 SiC导通比例对Si/SiC混合器件的结温调控规律
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmj4eGXt8T1TN1dsMAeSpklnQzOZn9sibYK05yvnzJu4TtIWQHEJoWGDQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_003_d8771882d9dd.png)
 
 基于单相逆变器仿真模型，结合1.2 节的结温计算方法，仿真得到开关模式1 下混合器件内部结温Tj随负载电流Id 的变化情况，如图4 所示。高热阻的SiC MOSFET 由于承担了主要的开关损耗以及额外导通损耗，因此，在相同负载电流下其结温均高于Si IGBT，且在负载电流波动时，SiC  MOSFET 产生的结温摆幅也远超Si IGBT。针对此特点，混合器件可采用开关模式2，通过调节SiC导通比例 DSiC 来转移导通损耗，从而降低SiC  MOSFET 的结温摆幅。
 
 基于开关模式2 对应的热电耦合模型，获取“MOSFET 与IGBT 结温”、“负载电流”与“SiC导通比例”的三维关系图，如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjvjbHQicPsRQibm5EbMYtUudTxLUGQhjSNW5lWaickKRws7ZF10hZibpxyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_004_9c9bd5918476.png)
 
 由图可知，随着DSiC的减小，SiC MOSFET 的结温呈下降趋势，而Si IGBT 呈上升趋势。基于此，在负载电流增加时，可以通过降低DSiC，将部分导通损耗转移给Si  IGBT，从而降低SiC MOSFET 的结温摆幅。但是此时Si IGBT由于承担了转移的导通损耗，其结温摆幅将有所增加。该方法以增加Si IGBT结温摆幅为代价，实现SiC MOSFET 的结温波动平滑。
 
@@ -93,13 +93,13 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 混合器件内部SiC MOSFET和Si IGBT的开关频率f 为同一大小，均由脉宽调制频率决定。由式(1)和(2)可知，SiC MOSFET和Si IGBT 的开关损耗均与f 呈正相关，因此可以通过改变f，弥补负载切换引起的损耗变化，从而平滑器件结温波动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmjma3ytbNRjR1U4Bfoq7cFI9MyLTlgn3FTTNABIt1BEfhbQEne8W2eXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_005_21566dadce4f.png)
 
 将DSiC设定为1，逐步调节f 进行仿真，绘制出如图6 所示的Id\-f-Tj 三者的关系曲面。由图可知，随着Id 以及f的增大，混合器件内部SiC  MOSFET 和Si IGBT 的结温均呈现上升趋势。根据此规律，可以在负载增加时减小f，以抵消负载上升引起的温升效应，从而降低SiC MOSFET 和Si  IGBT 的结温波动。但是结温波动平滑后SiC  MOSFET 的结温摆幅依然大于Si IGBT，两者之间的结温摆幅差值部分无法被有效利用，导致Si  IGBT的热容量被浪费。
 
 功率器件的最大开关频率fmax 受到自身开关速度以及最大耗散功率的限制，而最小开关频率fmin受输出电压谐波畸变率限制，具体约束条件如式(1)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjeYfW9y2IwoEGOFiamvcMguoFkVQoWFmaOictdo0AVsNyzYBZd8syv6TQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_006_bef71ae74c4f.png)
 
 式中：ton、toff为器件的开通和关断时间；Tj为器件的结温；THD 为输出电压谐波畸变率。
 
@@ -107,13 +107,13 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 2.3 开关频率+SiC导通比例对Si/SiC混合器件的结温调控规律
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjcLHtnJ0GPhu4e3R0zCEiaN9Wzhia8BZ8nsRUfQZHRdPBQLGQKZrDxjEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_007_e9eac3f5181f.png)
 
 为突破单一调控参数结温波动平滑能力不足的问题，本节将开展变开关频率和变SiC 导通比例方法相结合的结温调控规律研究。保持相同负载电流，分别控制DSiC从0~1，f 从10~30kHz 进行仿真，对应的结温仿真结果如图7 所示。
 
 由DSiC\-f-Tj 三者的关系曲面可知，当负载增大时，通过降低f 可以抑制SiC MOSFET 和Si IGBT的结温涨幅。此时，同步降低 DSiC即可进一步降低SiC MOSFET的结温，将两个器件的结温摆幅差值转化为结温波动平滑能力，有效弥补变开关频率的缺陷。3 种结温波动平滑方法的仿真数据对比如表1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjPC0JnmiaiaMWzAmCHicRCrYPkxmBFyp3Qh6jFdgaa8yoyLFO14DNojoibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_008_0a0503c50ad5.png)
 
 由表1 可知，热管理前SiC MOSFET的结温波动超过56℃，而Si IGBT 仅为33.61℃。若采用变SiC导通比例方法将SiC MOSFET 的结温波动控制到40℃，此时f 保持不变，DSiC减小到0.18。而Si  IGBT 由于承担了过多导通损耗，其结温波动反超SiC MOSFET增大到54.6℃，不利于混合器件整体寿命的延长。
 
@@ -135,23 +135,23 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 当负载电流由Id(k)切换到Id(k+1)时，为获取将结温波动平滑至阈值 ΔTj\_th 以内所需的(f,DSiC)参数，进行Id(k+1)下的(f,DSiC)目标参数域刻画。首先，在 进行热管理前预先根据式(A3)和式(1)确定DSiC和f的调节范围；然后，利用混合器件的热电耦合模型依据设定步长计算出不同 f、DSiC 和Id 对应的器件 结温Tj，以f、DSiC 和Id 为索引构建结温的三维查找表Tj(Id,DSiC,f)。将Id、DSiC 和Tj 分别作为x、y和z 轴，可绘制出不同开关频率下的结温曲面，如 图8 所示。在变流器运行时，即可根据当前负载电流有效值Id(k)、DSiC和f，利用查找表和三维插值函数获取对应的结温值Tj\_MOS(k)和Tj\_IGBT(k)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjOCW6xOoy79IYfHUA8kULkFhldJTwD6a9qrPFGD1pDL18YAvNlSUpKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_009_5738cddb4478.png)
 
 当负载电流由Id(k)切换到Id(k+1)后，通过三维插值函数可以从三维数据库中提取出Id(k+1)下对应的混合器件结温二维查找表Tj(f,DSiC)，即图8 中x\= Id(k+1)平面与各开关频率下结温变化曲面的交线。将该交线投影到yOz 平面生成如图9 所示的Id(k+1)下Tj与f 和DSiC的关系图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjuGOHONzCvjNe6m73tqcbbEhuPXUfg6EJyJNcx6sZPbicr7oxYpb0RfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_010_ef1782c952ad.png)
 
 此时，根据负载电流的波动趋势以及波动前器件的结温Tj\_MOS(k)和Tj\_IGBT(k)和结温波动阈值 ΔTj\_th， 可推导出将混合器件结温波动平滑至阈值域内所需的约束条件，见附录B。
 
 图9 所示的结温边界值Tj\_MOS\_th 和Tj\_IGBT\_th对应的虚线与不同开关频率下结温变化曲线的交点， 即为满足约束边界，使得结温波动刚好等于阈值的(f,DSiC)参数。分别将f 和DSiC作为横纵坐标，可以刻画出(f,DSiC)目标参数边界线。此外，边界线内的(f,DSiC)参数对应的混合器件结温波动小于阈值。根 据负载波动的方向，当Id(k)<Id(k+1)时，虚线下方的(f,DSiC)参数处于边界线以内；而当Id(k)\>Id(k+1)时，虚线上方的(f,DSiC)参数则处于边界线以内。上述所有(f,DSiC)参数的集合共同构成了能够实现结温波动平滑目标的(f,DSiC)目标参数域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjKUMGEMmZYdUEpYiaWnM55jw980AlvM98ZicicSfSasgib2FibU7v1cjtfIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_011_ac20fb986c42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjCN0jnauhAC4nTKzzDOWibwe7htJRVSliaeJwVBVb2a4bpA9mrrVXfibCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_012_1d12d4ea5012.png)
 
 图10—14 为负载电流增大，结温向上波动时刻画出的(f,DSiC)目标参数域，结温向下波动时对称分析即可。图中蓝色边界线上方为使SiC MOSFET结温波动小于阈值的 MOS 参数域；橙色边界线下方为使Si IGBT 结温波动小于阈值的IGBT 参数域。 两片参数域的交集即为使两个器件结温波动同时满足阈值要求的目标参数域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjibD22K8ibEh49T63SfZ0F9AHV5cNlnE7SdgIG0ZkD6KA7XdcDqAltgJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_013_a39d5d76f00b.png)
 
 3.3 (f,DSiC)参数调节路径规划
 
@@ -175,7 +175,7 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 基于SiC 导通比例与开关频率协同调控的结温波动平滑方法，本文设计了综合热管理方案，具体控制框图如图15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjDjmOof8efYPlSZqHicP0BBso02zbgTicM3pfHnvdhK5HjiaVibCtGgZzHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_014_27f4d62584d9.png)
 
 变流器系统通过实时监测负载电流有效值Id、开关频率f 和SiC导通比例DSiC，并利用结温查找表完成结温的在线计算。当负载电流由Id(k)切换到Id(k+1)时，利用Id(k)对应的混合器件结温Tj\_MOS、Tj\_IGBT和设定的结温波动阈值 ΔTj\_th，计算出结温边界值Tj\_MOS\_th 和Tj\_IGBT\_th，构成热管理约束条件。 然后，结合Id(k+1)下两个器件二维结温查找表Tj\_MOS(f,DSiC)和Tj\_IGBT(f,DSiC)，刻画出平滑该次结温波动对应的负载电流Id(k+1)下的(f，DSiC)目标参数域。最后，按照参数调节原则及目标参数域的存在与否，规划出合理的参数调节路径。将计算出的目标参数DSiC(k+1)和f(k+1)输出至PWM 驱动模块，用于驱动负载电流Id(k+1)下的混合器件，即完成了该次结温波动平滑动作。当下一次负载波动到来时，按照上述流程启动热管理程序即可。
 
@@ -187,7 +187,7 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 4.1.1 未采用热管理方法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmjx2WmQA8P5adHJRj9iczb65HzV6jPQHZDyO8Wa5HBjMgVB12WSkDyW0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_015_2a4ac93f843b.png)
 
 为模拟负载波动的运行工况，逆变器按照图16(a)所示的输出功率剖面运行，功率切换顺序如下 ：1kW →6kW →0.4kW →4.8kW →1kW →3.7kW。不采用混合器件热管理方法，保持开关频率为20kHz，SiC 导通比例为1进行实验，对应的混合器件结温实验结果如图16(b)、(c)所示。
 
@@ -195,9 +195,9 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 4.1.2 变开关频率热管理方法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjkA9Co6uMERH600BwdAPtDwcEQgrCWOeSwKdm1gStc95sbMuDEeCUSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_016_3a1a93c8a298.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjXDqUuIHVib9micKPO8HhCjV0fxpMM9FOqYZTlkQSCIcLbys6pAKVJSZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_017_136d1c2dc47d.png)
 
 变开关频率热管理方法基于线性分配规则，开关频率随负载大小线性变化，在最低负载时选用最大开关频率，最高负载时选用最小开关频率。在同样的负载波动工况下，混合器件的结温变化情况如图17 所示。
 
@@ -207,7 +207,7 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 采用本文所提的综合热管理方法，在相同负载波动工况下的实验结果如图18所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjXwhKGW8SNDiasR4vZicFNLtxN3SUzAv7UXSYwWwfzXiaYmdCb8Jl3cayw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_018_19296fde80ff.png)
 
   
 
@@ -217,13 +217,13 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 4.1.4 热管理效果对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjCTetliaUQ11IPUjNQ8BQsuf70pqEM5UTqSP1lzYgZhc3sByggJIWl0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_019_7af2d50c192a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmj30gpAyKib0BvKGJO1xSeoNtAEaFc8yJhfXV9fu1lE3ROITtnUiaWmEVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_020_cf4b7ca677d0.png)
 
 图19 为采用不同热管理方法后的混合器件结温摆幅对比。由图可知，单一变开关频率方法能降低混合器件的结温波动，但SiC MOSFET 结温波动平滑能力受限，依然有部分工况下结温波动超过40℃，其中SiC MOSFET 的最大结温波动为52.91℃。而本文所提综合热管理方法可以将两个器件间结温摆幅的差值转化为对混合器件结温波动的平滑能力，有效将SiC MOSFET的结温摆幅平滑 到40℃阈值以内。所提综合热管理方法下混合器件的最大结温波动相较于变开关频率方法降低了24.31%，此时虽然Si IGBT 的结温摆幅有所增大，但依然低于阈值。由于后两组工况下混合器件的结温摆幅小于阈值，因此所提热管理方法不主动进行平滑动作，导致传统变频策略的结温波动幅值更小。但低于阈值的结温波动对混合器件的寿命损伤较为微弱，因此所提方法的优势在于有效延长混合器件寿命的同时，可避免参数的频繁调节，进而提高变流器运行的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjzFLVnehlDlh4ubwv3DLvR2Yd8kFDDGxqNibVRH1dw8rK8icstXcSaMaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_021_4a1e8e94e761.png)
 
 由图20 所示的开关频率对比图可知，变开关频率热管理方法下的f 随负载切换不断调节，几乎无法保持在额定开关频率运行。而所提综合热管理方法并不完全依赖f 的调节，通过DSiC的辅助作用，能尽量避免f 的频繁变动。同时低于阈值的结温波动不会触发平滑动作，因此综合热管理方法的开关频率调节次数少于变开关频率方法，对变流器滤波器以及输出电能质量的影响更小。
 
@@ -247,9 +247,9 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 1）混合器件开关损耗计算式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmj2WoKhNwrWZq8nHQzoe3W3YsVYAe4cjFzhkNtC7k1ThnqnAZNvvaZEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_022_92cf788020f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmj6kozmQcWGjXJGCGjIX27RLo3IbpTjgZYmpGJDRzW2bAfLvEiaoBJtzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_023_2616bceb8975.png)
 
 式中：f 为脉宽调制频率，即SiC MOSFET 和Si IGBT 的开关频率，二者保持一致；Pswitch\_MOS 和Pswitch\_IGBT分别为SiC  MOSFET 和Si IGBT 的开关损耗；Eon\_MOS 和Eon\_IGBT分别为SiC MOSFET和Si IGBT 的单次开通能量；Eoff\_MOS 和Eoff\_IGBT分别为SiC MOSFET 和Si IGBT 的单次关断能量。 
 
@@ -257,39 +257,39 @@ SiC MOSFET 和Si IGBT 开关损耗和导通损耗的具体计算式见附式(A
 
 开关模式2 下混合器件的导通损耗受Tbreak 影响，Tbreak的调节范围如式(A3)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjIwb3yOiaJPIibmOiacktGwxy3UeAZttQhE8T0CBtqDhO7pgcOYk33jZtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_024_bf70972b1f8d.png)
 
 式中：Tcond为SiC MOSFET 和Si IGBT 的共同导通时间；
 
 DSiC 为SiC 导通比例，代表SiC MOSFET 导通时间与Tcond的比值，其调节范围为 0~1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjnfJ1N88UDHibqbn09niagBcFxYPeHcviaTYMWbDSvvaCJPUVicibPMnsxLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_025_af78dc9d5c70.png)
 
 式中：Pcond\_MOS和Pcond\_IGBT分别为SiC MOSFET 和Si IGBT的导通损耗；Von 为共同导通期间的导通压降；Id 为负载电流；IMOS 和IIGBT为两个器件的分流大小；D 为占空比；Vds为 SiC MOSFET 单独导通时的压降；Vce为Si IGBT单独导通时产生的压降；VBD为SiC MOSFET体二极管压降。 
 
 3）器件结温的计算式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjasOxnWBoG4NdEYSDFFAZfhScNOicrbCEcOpDSibcqT2EnMMMbVprviawg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_026_11d6eb39d038.png)
 
 附录 B 结温波动约束条件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmjpvbqk3fuecRdVCPtpHQ9kBCf82Rf2lwmd4c96qouAITwKZ1PjfWGOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_027_cdbe24ed7e9b.png)
 
 其中约束条件分为两种情况，当Id(k)<Id(k+1)(负载电流增大)即结温向上波动时，要求混合器件的结温Tj\_MOS和Tj\_IGBT小于等于结温边界值 Tj\_MOS\_th和Tj\_IGBT\_th；当Id(k)\>Id(k+1)(负载电流减小)即结温向下波动时，则要求Tj\_MOS 和Tj\_IGBT 大于等于Tj\_MOS\_th和Tj\_IGBT\_th。
 
 附录 C 实验平台及部分实验结果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmjmp27xePra3gOTDMDw2s2pZq0TTicPCJYpStMtRWnTs0qs2c2B07Uedw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_028_3b4705ccf860.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7Dmjeh7AgBBEtTENPYZyr7A2ib89FaJfCMcm5U4lN7QqTF2PINjzP3Yp6rg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_029_dced5dea21ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjNaYdnnylcsLPZjXOX7eMdkL57xpDqep4y86JCZ1WshCQ2WoUNlfoGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_030_ccd928e788e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjHsHcojvMGaxYvIDm2flU983J047mLDsymXJYE1sef4t1JrtmxLchGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_031_098da4a2db8b.png)
 
 作者简介：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnatxxkJM6nmv1WDicKB7DmjoUUeGqmUh3zicHbFrq82LlENVyiaetVxYWCibjBLiaUxicI2dsyeclEzAAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_032_2ff577a11fca.png)
 
 韩硕(1998)，男，硕士研究生，研究方向为电力电子系统可靠性，shuo\_han\_1@ 163.com；
 
@@ -299,13 +299,13 @@ DSiC 为SiC 导通比例，代表SiC MOSFET 导通时间与Tcond的比值，�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_033_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_034_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC导通比例与开关频率协同调控的_Si_SiC_混合器件综合热管理方法_images\img_035_573ddf34e793.png)

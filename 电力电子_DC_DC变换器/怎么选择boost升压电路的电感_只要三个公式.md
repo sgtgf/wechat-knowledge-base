@@ -12,13 +12,13 @@ BOOST电源架构是一种非常经典的升压电源方案，它是利用开关
 
 加微信「chunhou0820」获取：boost仿真文件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJrqf4Jp7ibYMzaBQgqzwibwLmlBpV8XMyDPY7c5J0lvmgCXBAr8Iwc59Q/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_000_68dcd65f5cbc.png)
 
 今天介绍下怎么选择Boost升压电路的电感，看完这篇文章你就会选择电感了。
 
 根据以前文章的推导，开关闭合时，充电路径见上图绿色回路，此时给电感充电，可以列出方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJCszZicgcoVJJdCMfQL41ZPleLxpG0ZjWuvaa2VIGdibwy16R3VsY9Nkg/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_001_8aedf43c38d6.png)
 
 其中：
 
@@ -28,29 +28,29 @@ D：开关的占空比    T：开关周期，是频率f的倒数
 
 将上面公式稍微整理，可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJjeU3bsJI7L3TnicBNz7WIibpRn1zaJibOjAicF9taOiczHVJqIeiayA5EkQQ/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_002_048aa916add9.png)
 
 截止到此时，我们得到了流过电感的电流纹波，然后需要求出流经电感的平均电流：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJhfkUQus9aWfFwXJhnq8JPrvuKCdcJoj03GEkohPbLVSU8XricnVK4cw/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_003_f55adc2cf61e.png)
 
 η是boost的效率，开关电源效率一般是比较高的，如果只是近似计算，效率可以取90%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJJGiaFhN5GyDutic7kxibDJrSJ1sWGqREddEc3YN7BC7RQPD4KNSibZ5h4g/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_004_540526a074cd.png)
 
 最后一个公式，电源的输出总电流，是直流电基础之上，叠加的交流电流，我们需要计算直流加交流时的最大电流：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJySlUP6iaH9OdwpqFchbqYzmlzOo1wFQTof89rvvjKhFs3HtUjp9P2Uw/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_005_250df20b8d9b.png)
 
   
 
 以上就是推导过程，重新整理3个公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJEwpgzbtrgIeSnP0oibOicV0KafVzrQa9By0d4R0Gic1JNbD2SBzM4F2cw/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_006_2cc65ce22421.png)
 
 从推导的公式可以看出，选择大电感时，产生的纹波也小，可以降低电感器的磁滞损耗和 EMI。但同样地，物极必反，负载瞬态响应时间增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJPAvaI6opAsiaBRKxXooOWz8YmQu7ws3sIEhqRKaAuIAFkvsxhjicn6gQ/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_007_054176f1e6db.png)
 
 我们对上图中的boost进行仿真，分别对比470uH和100uH时的纹波，示波器中绿色的是输出电压，红色的是电感电流。
 
@@ -64,9 +64,9 @@ D：开关的占空比    T：开关周期，是频率f的倒数
 
 （1mV=1mA）而输出电压基本不变
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJibOiajichqqC0AML4rRibKxSplT7yFry32mibG6o16ib9SDib0bmhYhIXftFg/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_008_0b083f91d7d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t4mibpH6q14WD9icPdI1YrhoJT9Ov4OXkqkkz3cwqKvHXun9fY9wKl7UarkpDAjrbuSkzJ5MdzLlaAQ/640?wx_fmt=png)
+![](怎么选择boost升压电路的电感_只要三个公式_images/img_009_fdf59f076c77.png)
 
 以上介绍的是计算流经电感的最大电流，下面介绍如何根据电流选择电感，知道了最大电流再选择电感，此过程和选择BUCK电感的过程接近，可以搜索下面文章：  
 

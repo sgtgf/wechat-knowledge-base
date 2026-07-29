@@ -15,7 +15,7 @@
 
 gnuplot 和 matplotlib 都是强大的数据可视化工具，广泛应用于科学计算、数据分析和学术研究等领域。
 
-![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_000_6f3fc8d27fcf.other)
+![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_000_6f3fc8d27fcf.jpg)
 
 ![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_001_596fbcf299b3.png)
 

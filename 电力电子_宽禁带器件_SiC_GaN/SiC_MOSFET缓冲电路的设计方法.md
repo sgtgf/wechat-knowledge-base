@@ -5,7 +5,7 @@
 
 文章来源：罗姆（ROHM）半导体
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskoywLFymwF6icic20C717zlxnkpich5d4icFDq2ULIKn2hoIJmSaGgK7fgKgCIyAkDkqa4q4Mxd7vibzA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_000_16b83d0edd65.jpg)
 
 **摘要：近几年，SiC MOSFET 作为各种各样的电源应用和电源线的开关元件，其应用范围在迅速地扩大中。其中一个主要原因是与以前的功率半导体相比，SiC MOSFET 使得高速开关动作成为可能。不过，由于开关的时候电压和电流的急剧变化，元件自身的封装电感和周边电路的布线电感影响变得无法忽视，导致漏极源极之间会有很大的电压尖峰。这个尖峰不可超过使用的 MOSFET 的最大规格，对此有各种各样的抑制方法。在本应用笔记本中，将对漏极源极尖峰抑制方法之一的缓冲电路的设计方法进行说明。**
 
@@ -13,7 +13,7 @@
 
 **漏极源极之间的电压尖峰是由于在 Turn ON 时流过的电流的能量储存在线路和基板布线的寄生电感中，并与开关元件的寄生电容共振所产生的。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMNP1rqa6owDtILDjnoSyQktmkcAC8hvsZLcXBFQKtW2Dm8EXmwVqppg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_001_9c5a7cb571d5.png)
 
 **Figure 1.说明尖峰产生时的振铃电流路线。该图显示了由 High 侧（HS）和 Low 侧（LS）的开关元件组成的桥梁结构中，当 LS 元件 Turn ON 时，开关电流 IMAIN流动的情况。这个 IMAIN通常从 VSW 流入再通过配线电感 LMAIN。**
 
@@ -21,17 +21,17 @@
 
 **该尖峰的最大值 VDS\_SURGE 如下式所示(\*1)，其中 VHVDC 表示HVdc 端的电压，ROFF 表示 MOSFET Turn OFF 时的电阻。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMnWibIs39IduoIdQSibPDUt5ibU9iaApH9VggRaK7aoAQ2AOPglfTA9guMw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_002_4895a142b2de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMbfApYibibw0aMVkoCh1m0icRE6KDLSnCNa0ibEGmnEo5ibkRSnELmrUQwXA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_003_8548108c7134.png)
 
 Figure 2.为使用 ROHM 的 SiC MOSFET (SCT2080KE) 在Turn OFF 时的电压尖峰波形。HVdc 电压为 800V 时，VDS\_SURGE为 961V，振铃频率约为 33MHz。使用方程式（1）根据该波形计算出 LMAIN 约 110nH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMH2kAPcKFQbMiaI7549lOuTnmVOOvXzu8D7w3iaeAg3omFmiaEnbS6k1icg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_004_fd97006dfa91.png)
 
 接下来，在电路中添加 Figure 3.所示的缓冲电路 CSNB，事实上 LMAIN 被去除掉的 Turn OFF 电压尖峰波形即为 Figure 4 所示波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMmCDr2XySxAYBlQZ34HVuAsjgiczLfJXJuYibiaLtmPmcFiae1QqDCN7ILA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_005_0a94526f58a9.png)
 
 这个时候电压尖峰降低了 50V 以上(约 901V)，振铃频率也变大为 44.6MHz，可知包含 CSNB 在内的电路网中的 LMAIN 变小了。同样，使用式（1）可算出 LMAIN 约为 71nH。
 
@@ -41,7 +41,7 @@ Figure 2.为使用 ROHM 的 SiC MOSFET (SCT2080KE) 在Turn OFF 时的电压尖�
 
 缓冲电路分为由电阻、线圈和电容器等被动部件组合的电路，和包含半导体元器件的主动电路。(\*1）本应用笔记将对无需控制、成本优良的电路方式进行说明。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoM9frCRDk5AsuJZGfJHUVTd6L7wN4kAVsmwQriaeZJY2Aia1xTgfRj43kg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_006_a3c0a47a22df.png)
 
 Figure 5.为缓冲电路示例。MOSFET 桥式结构的上下部连接了电容 CSNB 的 C 缓冲电路(a)，在各开关元件的漏极源极之间连接电阻 RSNB 和电容 CSNB 的 RC 缓冲电路(b)，在 RC 缓冲电路中追加二极管的放电型 RCD 缓冲电路(c)， 将放电型 RCD缓冲电路的放电路径变更而成的非放电型 RCD 缓冲电路(d)。
 
@@ -61,23 +61,23 @@ Figure 5.为缓冲电路示例。MOSFET 桥式结构的上下部连接了电容 
 
 Ｃ缓冲电路的设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMk8kCAJECCQRUh6epoj6pK8quEMGfibGQwU1Aak6pkERW9vZP285hh1w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_007_e32613fa26d1.png)
 
 Figure 6.所示的 C 缓冲电路是通过 CSNB 吸收 LMAIN 积蓄的能量。因此，在缓冲电路中形成的 LSNB 必须比 LMAIN 小。由于 CSNB中积蓄的能量基本不放电，静电容量越大电压尖峰抑制效果变好,但使用的电容器的等价串联电感(ESL)也必须考虑到LSNB中。一般来说，电容器的尺寸越大 ESL 越大，在选择静电容量时要注意。
 
 为了将 LMAIN 中积蓄的能量全部用 CSNB 吸收， 需以算式(2)所示静电电容为依据选定电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoM9IayLiciaj7Z8P3Cg1cNch8oLrTndiagQwBjb5pXhnXLdUxUtmmYEDX1A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_008_3682849969ef.png)
 
 RC 缓冲电路的设计
 
 Figure 7.所示为 RC 缓冲电路动作时的电流路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMTUhpm551fYkIZEjqBc3Mmg6C2H2v9EQYlxF6TlnibxrneVMEUoaTZVA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_009_0e18f231da79.png)
 
 与 C 缓冲电路一样，CSNB 的数值由算式(2)决定，而 RSNB 的参考値根据算式(3)求得。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMXP0CIbGJ3ltIwbQ6dSpZPVAg3vDiccI6pZSmmjnx48y8G9C1tFjgWeA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_010_637c25c04135.png)
 
 fSW:开关频率 
 
@@ -85,11 +85,11 @@ VSNB:放电缓冲电圧（VDS\_SURGE的 0.9 倍）
 
 决定 RSNB 之后，以算式(4)计算出 RSNB 的消耗功率，选定功率满足要求的电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMLswfsoqBsn8GUzEeC1XERK152uKZf9QJ4GPiaBX0jfYF4HXVZE3VXlg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_011_581703e0e1b5.png)
 
 对于 RC 缓冲电路，算式(4)追加了第二项，因为 fSW 或 VHVDC越高 RSNB 所消耗的电力越大，PSNB 太大导致电阻选定困难时，必须降低 CSNB 的静电容量值重新计算。另外，为了 RC 缓冲电路充分吸收电压尖峰，RSNB 和 CSNB 的谐振频率ωSNB 必须比电压尖峰的谐振频率ωSURGE 低很多，需要结合算式(5)所示的 RC 缓冲电路的谐振频率ωSNB 来确认。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMcUDcXKibXAOy1CuOT12qBZvfZticm37hetEyN1PWfEbNvSjwdUCfrVaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_012_23f0caa49665.png)
 
 放电型 RCD 
 
@@ -103,23 +103,23 @@ VSNB:放电缓冲电圧（VDS\_SURGE的 0.9 倍）
 
 CSNB 由算式(2)决定，RSNB 由算式(3)决定,而 RSNB 的消耗功率由算式(6)决定，没有算式(4)中包含 CSNB 及 fsw 的第二项。因此，由 CSNB 或 fsw 产生的消耗功率增加基本没有，能选择大的静电容量的 CSNB，不仅仅缓冲电路的钳位效果更好，还能对应fsw 的高频化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMPFRBSl8I7eHYNI22jh5s95GcDqdUictBIuhod1JjrxJk8hMvS5Tc8gQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_013_8d1f89379776.png)
 
 Figure 8.所示为非放电型 RCD 缓冲电路动作时的放电路径。因为上臂的尖峰朝向 PGND、下臂的尖峰朝向 HVdc，放电流经由 RSNB 流动，不那么受线路电感影响。另一方面，连接到MOSFET 的漏极源极之间的布线电感 LSNB 因为电流变化大，电感值需要尽量小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMoJO7KAVaDv63l5g9Co05G9KPTCdUwiaaAfxoOUMZUS4TZqv5x0vpzWg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_014_d0e0db47d308.png)
 
 Figure 9 是对非放电 RCD 缓冲电路使用 ROHM 评估基板（P02SCT3040KR-EVK-001）进行效果验证的测试电路(a)和波形(b)，该评估基板使用了 ROHM 的 SiC MOSFET（SCT3080KR）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMywukwCTsSZGnJKkz8VQZlI9r2LSiakAWkCYPkgpPiaIpxF9cmwpwVIfA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_015_670051db5cc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMwHBW1038GF9swOS0oTjyq9fBDSPoF1DmDmNjIR5JyhVuMzujmzyHEw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_016_8cf2444a6013.png)
 
 RG\_EXT 为 3.3Ω, HVdc 为 800V，漏极电流 ID 为约 70A 时的Turn OFF 波形。
 
 当不连接缓冲电路时，电压尖峰高达 1210V，添加缓冲电路后降低为 1069V，减少了约 12%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMEjKiaAFVyQwibwtCiamTt4mhrSXkWic8PFMgWdIiaT5rJwqiaMhb4icf4Uib7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_017_ac6b558ba381.png)
 
 Figure 10.是对比 Buck Converter 的变换效率的图表。表示输入电压 400V，输出电压 200V，RG\_EXT 6.8Ω，振荡频率100kHz 这一条件下的效率。
 
@@ -129,13 +129,13 @@ Figure 10.是对比 Buck Converter 的变换效率的图表。表示输入电压
 
 最后说明的是，Turn OFF 尖峰根据封装的不同而有差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMjPibVOM5SUCfibpunbhDvialHx3icP6SshxbncWZ9Ht4DABFwRwceRKrCw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_018_265a86a5d191.png)
 
 Figure 11.是 ROHM 的 SiC MOSFET 的代表性封装,(a)是被广泛采用的 TO-247N(3L)，(b)是近几年渐渐扩大采用的用于驱动电路的源极端子(即所谓的开尔文接法)的 TO-247-4L。
 
 4L 型与 3L 型相比，改变了驱动电路路径，使开关速度加快。由于这个原因，Turn ON 电压尖峰和 Turn OFF 电压尖峰变得更大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMbLs8rVXcKJQzGrtAfgg48xabYGlNz35LhqibhmxQSiaTDP2l2lW9AXcg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_019_d0d7c5910e7e.png)
 
 Figure 12.为 3L 类型和 4L 类型的 Turn OFF 电压尖峰的对比波形。VDS＝800V、RG\_EXT＝3.3Ω、ID＝65A 时的 Turn OFF波形，漏极源极间电压尖峰 3L 类型为 957V，而 4L 类型则为1210V。
 
@@ -145,10 +145,10 @@ Figure 12.为 3L 类型和 4L 类型的 Turn OFF 电压尖峰的对比波形。V
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_020_318ead5d55de.jpg)
 
    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET缓冲电路的设计方法_images/img_021_3ade3c3d8599.jpg)![](SiC_MOSFET缓冲电路的设计方法_images/img_022_84aa944feb13.jpg)

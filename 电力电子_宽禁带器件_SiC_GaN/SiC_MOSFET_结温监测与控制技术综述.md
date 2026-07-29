@@ -17,7 +17,7 @@
 
 SiC MOSFET 是变换器的核心，其运行状态关乎变换器系统的可靠性与工作性能，一旦故障， 极易造成巨大经济损失，危害公共安全。与Si 基器件相比，SiC MOSFET的独有特性带来了新的可靠性挑战。1）高功率密度意味着高单位产热，高开关频率则代表着高开关损耗，因此，SiC MOSFET工作温度一般高于 Si 基器件，另一方面，高电流密度易导致电迁移现象，从而在金属层中产生空缺；2）SiC MOSFET芯片体积缩小限制了其散热能力与短路耐受能力；3）SiC 杨氏模量高于Si， 在相同热应力下机械应力更大，易发生封装老化；4）SiC MOSFET门极氧化层比Si基器件更薄，易发生氧化层老化或电介质击穿。因此，提高SiC  MOSFET 运行可靠性迫在眉睫。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfQLqBC5Mtvwd1ZMRNHAbY86ibgxGlq7JqOKBcezxsvKYmNFTTa1thzug/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_000_3e48cf525d0d.png)
 
 图1 为功率器件常见失效诱因及其占比。显然，结温过高与周期性波动是主导因素，占比超过50%。结温过高可导致器件瞬时失效，如热击穿、 隧道击穿、键合线熔化、焊锡层熔化等。结温周期性波动可引起器件封装老化并加速其发展，最终导致老化失效，如键合线脱落、铝金属层重构、焊锡层退化等。结温过高与结温波动可在电场复合作用下产生电\-热应力，引起芯片本体的老化，如门极氧化层退化和MOSFET体二极管双极性退化。 此外，由Coffin-Manson-Arrhenius(CMA)模型可知， 功率器件的预期寿命和平均结温、结温波动幅值均呈负相关。因此，SiC MOSFET结温监测与控制技术至关重要。
 
@@ -37,20 +37,20 @@ SiC MOSFET 是变换器的核心，其运行状态关乎变换器系统的可�
 
 1.1.2 一阶热模型法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRf10W1CgVzDgEIEugz04A8CFsy8ZlBic4XTnv2aY4tXl5jiaCaP8TiaBL4g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_001_4f3db88e9f45.png)
 
 基于经典物理传热学可推导一阶热模型。仅考虑功率器件芯片法向温度分布时，可将其简化为一维热传导模型，如图2 所示。假设目标器件芯片温度时变且均匀分布，记作Tj；芯片密度为ρc，比热容为cm，单位体积产热功率为H；芯片壳厚度为d， 导热率为λc；环境空气温度恒为Ta。则该芯片的温度场方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRffn9jtQ00K2stc2Ib9BdNsQMZhVqlUyrUqyOeicpicgZnIRV4Fmg1lgSw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_002_fbc2deafc294.png)
 
   
 式中Tj(0)为0 时刻的目标器件温度，通常等于Ta。 解式(1)可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRf6jrF1vmlJ9OPTny2P0qml15eyibVqzHo2ia9v9uMPkB5eo3S0rVhAdKA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_003_f9b273cd3b4b.png)
 
 式中：Rth,ja 为芯片\-环境热阻；Cth,ja 为芯片\-环境热容；Ploss 为芯片总损耗。当芯片处于热稳态，式(2)可简化为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfibzen1ygceL5nuQ3r4MKxwMKPoiaItCfbpTtsLuRWlZ6R5IN1uwZGGRA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_004_969da194db47.png)
 
 以上为最简的功率器件一阶热模型，根据 Ta、Ploss和 Rth,ja即可计算出结温。 
 
@@ -58,11 +58,11 @@ SiC MOSFET 是变换器的核心，其运行状态关乎变换器系统的可�
 
 功率器件一阶热模型的成立基于许多严苛假设，如芯片温度分布均匀、无二极管等其他热源、 芯壳导热率均匀、忽略辐射对流等。这些假设与实际情况相差甚远，导致热模型计算误差大。为提高结温求解精度，多阶热模型被广泛采用。Cauer 热模型是最典型的多阶热模型，如图3 所示。首先， 将功率器件沿法向分层，每层热阻和热容用Rthi 和Cthi 表示(i\=1,2,⋅⋅⋅)；然后，建立热阻\-热容等效电路模型(损耗对应电流、温度对应电位、热容对应电容、 热阻对应电阻)；最后，基于电路原理求解结温。Cauer热模型的缺陷在于所有分层热容共享同一温度参考点，因此，当参考点温度变化时，分层热容需重新估算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfmhqEJichZm8A0icI9hr0vxeSFKg6d8u1J7xSXS8T2PuAuWncuibUp0qGg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_005_092e4e8592e5.png)
 
 1.1.4 Foster 热模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfm8r6CdPF80dYEN9INiahFma2VxJyHia0QiaHbjYDgpwnec0iboVgbqcHGA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_006_887d96ff8943.png)
 
 为解决Cauer 热模型存在的问题，研究者提出了Foster 热模型，如图4所示。Foster 热模型每层热阻抗具有相同的阶数与频率响应特性，故参考点温度变化不影响前级热阻\-热容参数，其模型简单。然而，Foster 热模型各节点无法与实际物理模型对应，其关键参数只能通过结温和传感器测量点间温差推算，建立过程繁琐。
 
@@ -130,11 +130,11 @@ SiC MOSFET 和IGBT同样作为压控器件，其门极电流仅在导通暂态�
 
 清华大学张品佳团队在论证SiC MOSFET 体二极管区与通态电阻区等温性后，首次提出利用导通暂态电流过冲监测结温。暂态电流过冲本质为体二极管的反向恢复电流，取决于反向恢复电荷Qrr与电流变化率。由于Qrr高度依赖载流子的行为， 对温度呈极其敏感的双指数函数规律。因此，暂态电流过冲灵敏度高达28mA/℃，可提升结温监测精度。但该方法仅适用于无外加肖特基二极管的SiC  MOSFET，且对测量设备采样率及带宽要求较高， 增加了监测成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfZXBttFnYJQicIadaWvFwtiaqJyTWsJb0cRRFmicXIUW1QfJQFOMicrgZdQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_007_00d114a88b98.png)
 
 上述各类TSEP 法的优缺点总结于表1，其中直接影响结温监测效果的灵敏度和采样频率要求见表2。灵敏度反映了对应TSEP 法的极限结温监测精度，采样频率要求则可一定程度反映方法成本。 由表2 可知，稳态TSEP 和暂态TSEP 特性迥异。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfKpYK45RblQWzw7K1G3AN7ibIjZ24ibgtf6Hwnec3V9LP83s4y7MyvGKA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_008_41a8da4681e8.png)
 
 1.2.5 热敏光参数法
 
@@ -168,11 +168,11 @@ SiC MOSFET老化根据发生位置分为封装老化与芯片老化。封装老�
 
 2.1.2 封装老化对热模型法精度的影响
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfyqqvB8CzRJnhOClOq2XSiavtdNwgMDyOquwwFX8l0fZmz7zTYmXnsKw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_009_d0f4d1f42aff.png)
 
 图5 为SiC MOSFET 典型封装结构示意图。 SiC MOSFET 自带体二极管(参考图6 中漏源间仅有的一个PN 结)，因此无外加二极管芯片。SiC  MOSFET 芯片与各个引脚通过键合线及焊点连接。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfF1ibyrfAsSOX9mxv1QPwtUvMF5iaBe4Y5lVfpeicSXQHeapDeqsHRmwhw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_010_0a092f48f7e0.png)
 
 芯片与铜基板间有多层覆铜陶瓷板，并通过焊层固定，铜基板外通常装有散热片。芯片工作时，其产生的热量一般沿图5 所示方向传递。假设采用热模型法，观测点选于散热片外侧，则芯片与散热片间的热阻Rth,ja是关键参数。Rth,ja包含各封装层、焊锡层及铜板的热阻。由于各封装层的热膨胀系数不 同，热应力被转化为机械应力，引起焊锡层老化，直接表现为焊锡裂痕、间隙等局部老化缺陷，阻碍热量由芯片向基板传递，宏观表现为Rth,ja增大。 根据式(3)，Rth,jc增大后，假设总损耗不变，芯片与环境温差将增大，故采用原热网络参数计算将导致结温监测结果偏小。随着焊锡层老化发展，结温监测误差越来越大，最终导致热模型法失效。由图3可知，高精度热模型分层较多，热网络参数众多而难以修正。因此，以热模型法为基础发展CAE 结温监测技术极为困难。
 
@@ -186,11 +186,11 @@ SiC MOSFET老化根据发生位置分为封装老化与芯片老化。封装老�
 
 芯片老化影响VTH的原理如下。根据半导体物理，SiC MOSFET的阈值电压VTH可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfNDaRGEk1m3zwJVzLZkyxO3sGibGj718ITGgOZfibic5RXzU2WKKp3zBZQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_011_c4a809c8a560.png)
 
 式中：q 为基本电荷量；Qf为固定电荷面密度；COX为氧化层比电容；NA为受主掺杂浓度；εs为SiC 介电常数；Nit 为界面陷阱电荷面浓度；ϕms 为金属半导体功函数差。VB为Fermi 电势差，可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfuJx8kuQfibKgOL4PQW78D373P0X5tiaR5suT4hJib3AZhLJqww2MFzvPw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_012_74c038844325.png)
 
 式中k 为Boltzmann 常数，本征载流子浓度ni 随结温上升呈指数急剧增大。因此，VB整体与结温呈负相关。根据式(4)，VTH 也与结温呈负相关，并可作为SiC MOSFET 结温监测指标。然而，当门极氧化层发生老化时，VTH随之偏移，其原理如下。
 
@@ -206,7 +206,7 @@ SiC MOSFET老化根据发生位置分为封装老化与芯片老化。封装老�
 
 2.1.6 封装老化对通态电阻的影响
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfKJEXFHFibB4oicN9viblwXPONdBUpyr6Y2QRtz2OdAuEiaJeAAgv2s8SXw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_013_30b9ff16b669.png)
 
 封装老化对Rds,on 的作用原理如下。根据图7所示的SiC MOSFET封装连接，Rds,on 包括封装电阻RPack 与芯片电阻RChip。RPack 包括键合线电阻RBW，焊锡层电阻RDAS 以及焊点电阻RSJ。热应力会导致焊锡退化与键合线老化。焊锡层及焊点的老化缺陷会引起RDAS与RSJ 增加。键合线老化出现的开裂、间隙等缺陷会导致RBW增大。因此，Rds,on 正相关于封装老化程度。
 
@@ -214,7 +214,7 @@ SiC MOSFET老化根据发生位置分为封装老化与芯片老化。封装老�
 
 芯片老化会导致RChip增加，主要包括漂移区电阻RD、沟道电阻RCH以及积累层电阻RA 。以上电阻成分可分别表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRf38t2WvdXialLK2PcrJDtiae9VONNYbbuibicUfiaUmhxuEYElV01FdejaUA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_014_2fc266a1c472.png)
 
 式中：LCH为沟道长度；LA为积累层长度；μnc为电子电导有效迁移率；ND为漂移区施主掺杂浓度；W为芯片胞体长度；ωB为漂移区厚度；A 为芯片电流 截面积。由式(6)可知，RCH、RA均与VTH有关。因此，当VTH随门极老化增大时，RCH、RA也会增大。 此外，SiC MOSFET的体二极管区在电热应力下可能发生堆垛层错或基平面位错等晶格缺陷，引起双极性退化，导致RD增大。由上述分析可知，Rds,on与封装老化程度及芯片老化程度均呈正相关。当功率器件老化发展，通态电阻法误差增大，直至失效。
 
@@ -222,7 +222,7 @@ SiC MOSFET老化根据发生位置分为封装老化与芯片老化。封装老�
 
 上述老化对基本TSEP 及热模型的影响机制归纳于表3。可见，多模态老化与结温对热网络参数和TSEP 的影响呈现强耦合，发展CAE 结温监测方法难度极大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfLnfHv0jxcm1uPxJYHK9YrHYTcMwUHtS9iaet2Iibjc6gibTOibOXX66UxQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_015_2c1d4c607d12.png)
 
 2.2 SiC MOSFET 考虑老化影响的结温监测方法
 
@@ -254,15 +254,15 @@ SiC MOSFET 结温控制是结温监测的重要目的，也是提高变换器�
 
 显然，λU、λL与结温均呈正相关。不失一般性， 假设λU、λL表示为：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfAanGCLZYA9yUKUI8z2T6QQnWvWVqP1b0p0EFF6uTTjkGVUn6RzLhZg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_016_933c3de1c88f.png)
 
 其中：ka 和α 均为正系数；TjU 为上桥臂结温；TjL 为下桥臂结温。可计算λa为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfJbjwm8CXMFcUeMZQBRkY38WTkYB41PyXAAQltHKFpuJUQgfJgxxWMg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_017_b4415dbfb9ec.png)
 
 假设桥臂结温均衡分布时，上/下桥臂结温均为Tjb。上/下桥臂器件初始参数不同导致老化速度不同，老化快的器件通态电阻大、损耗大，因而结温高。假设上桥臂比Tjb 高δx，下桥臂比Tjb 低δx，即TjU\=Tjb+δx，TjL\=Tjb−δx。Tjb 可超过100℃，而δx通常小于10℃。因此，δx/Tjb 是一个较小量，代入式(7)并做一阶泰勒(Taylor)展开近似得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfXsDAQIg7fFI74YqEnGP2yZUkyH3qCKvKALykSRicfbibgIOx2GffsfBQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_018_b400d1efbcce.png)
 
 根据式(8)，桥臂总失效率λa 为δx 的单调增函数，当δx 为0 时λa 最小。通过上述分析可知，当桥臂温差为0，整体可靠性最高。这一结论可推广到多桥臂或多个功率器件的串联结构。
 
@@ -274,13 +274,13 @@ SiC MOSFET 结温控制是结温监测的重要目的，也是提高变换器�
 
 变换器运行时，SiC MOSFET 的实际结温波动通常由多种频率的结温波动叠加而成，如图8 所示。 其中，低频结温波动 ΔTjLF、工频结温波动 ΔTjPF 与开关频率结温波动 ΔTjSF 是最主要的成分。ΔTjSF 由器件的开关动作产生。器件导通结温上升，器件关断结温下降。因此，ΔTjSF的频率通常接近开关频率。 然而，ΔTjSF 的幅值相对较小，一般忽略其对器件寿命和可靠性的影响。另一方面，只要器件正常工作，ΔTjSF 就无法避免，结温平滑难度极大。ΔTjPF 由负载电流正弦波动引起，其频率一般接近工频。ΔTjLF由环境温度变化或负载改变引起，其频率较低且不固定，但波动幅值较大。对于我国电网 50Hz 的工频，ΔTjPF 对功率器件寿命的影响不及 ΔTjLF ；但对于一些基频较低的情况，ΔTjPF对器件可靠性和寿命的影响可与 ΔTjLF 相比。因此，结温波动抑制的首要目标一般是减小低频结温波动对器件寿命和可靠性的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfQPpVu0bjlLee5icct5ic1YyotdG9Piaa0E59thB3t6zUws8eMYOWMIA7w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_019_b64d9ea05e7d.png)
 
 3.3 结温控制的原理
 
 结温均衡及平滑控制技术根据调控对象可分为内部控制法和外部控制法。前者通过调节器件的总损耗控制结温，后者通过调节器件的散热条件控制结温。这两类结温控制方法的原理如图9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfF9QagWQV8fficlzcE1HBROjGm6ucY3mevyQHtWuzib87ff9C7YaeAic8Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_020_f4e612547a0e.png)
 
 SiC MOSFET 的产热功率(总损耗Ploss)与结温的关系近似为二次函数。假设器件散热条件良好，环境温度稳定为Ta，则其散热功率Pcool 可表示为：Pcool\=(Tj−Ta)/Rth,ja 。 显然，Pcool是一条斜率为Tj/Rth,ja、截距为−Ta/Rth,ja 的直线。产热曲线与散热曲线通常有两个交点 A、B。A 点附近结温受到正向 扰动时上升，散热功率将超过产热功率，结温下降。 相反，当结温受到负向扰动时，散热功率将小于产热功率，结温回升。可见，A 点是一个散热\-产热稳 定平衡点，存在负反馈机制。同理，可证明B 点是不稳定平衡点。当结温升至B 点右侧，将进入正反馈，结温激增导致器件热击穿。
 
@@ -306,13 +306,13 @@ SiC MOSFET 的产热功率(总损耗Ploss)与结温的关系近似为二次函�
 
 现存结温控制方法代价较大，体现在两个层面：1）缺少与控制匹配的变换器级结温监测方法，导致成本高。变换器通常包含多个目标器件，它们的结温信息均需反馈给控制器。现有结温监测方法仅针对单体器件，需为每个器件配置独 立测量电路与信号处理电路。这种方式成本高、集成难度大，甚至需要调整变换器结构。2）调控量与工况指标高度相关导致控制方法侵入性强，对变换器性能负面影响大。门极参数、开关频率与变换器工况指标高度相关，调节它们对变换器输出电能质量和效率影响大。非侵入式的结温控制方法虽在兴起，但总体而言适用面较窄。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfZD3micLyibUiaGfpsm86JWjwWJ6dqrv5RiclcwdfoiaOWVCP3lVKy4H0kzw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_021_9344d2c166ff.png)
 
 现有结温控制方法的分类及其优缺点见表4， 其中重要的量化指标见表5—7。响应速度反映了结温控制方法的动态性能，对效率和THD 的影响则体现了方法的侵入性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfNg8oLWzGGMLE3byymr4Vt8ib5YM1nbjIwjS0A0sYxuglzcGlEKKibfIg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_022_6c58a19b7d82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskpvGKOPBSyRS3a0d98YlRfs9vZ6YHqmeX90DdEUbib2NeOL2FwWZvQT80g6iaxfKFANdyyHdb608rg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_结温监测与控制技术综述_images/img_023_a054a196be07.png)
 
 4 SiC MOSFET 结温监控技术发展趋势和未来展望
 
@@ -340,13 +340,13 @@ SiC MOSFET 作为新兴器件，其结构、材料特性与Si 基IGBT 迥然�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp)
+![图片](SiC_MOSFET_结温监测与控制技术综述_images/img_024_c919121c1a5e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp)
+![图片](SiC_MOSFET_结温监测与控制技术综述_images/img_025_c1cfd4a501a1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp)
+![图片](SiC_MOSFET_结温监测与控制技术综述_images/img_026_d018d38c96a9.png)

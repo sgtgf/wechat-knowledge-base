@@ -39,13 +39,13 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OdnhCO4mSzia3wCuaw3x8tWgZEvb3QQKAOlgcFsdKsYVRkdUG4tLwA4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_002_f560a8e55682.png)
 
 良好的芯片元件方向(左)和不良的芯片元件方向(右)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60ODTwOz7kCJiaEuC2yyuA8ASOqlIN70OtoTYLEByVdPq6GCalbZBWcvjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_003_66c436c83c76.png)
 
 良好的元件布置(左)和不良元件布置(右)
 
@@ -79,13 +79,13 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OaTvnRVsGkaibHYdSiaianNcMz9LCIcojF2iaOico7wxMAXbvpk6SAmn9fDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_004_2677c39f65a7.png)
 
 建议的布线方式 (箭头指示焊料流动方向)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60Oz3LHHwadhichYbKW6RCfEqoN9LyMQ2rcANiaS7XwdwXJn6rt8FNibY0ibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_005_244168654635.png)
 
 不建议的布线方式 (箭头指示焊料流动方向) 
 
@@ -115,7 +115,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OicibxiaPdDaRE6TO87fLItNdnlD85v0dplfxO5laNeKtO9guRQWVWzibfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_006_832a614a3b87.png)
 
 元件隔离示例（数字和模拟）
 
@@ -147,7 +147,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60O0dv8ic5DDEDqyJuuYgT6vNggKvne00I7dJZcUhvmC5VxiblOgIrsamdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_007_a9d2ebc0f70b.png)
 
 典型的热风焊盘连接方式
 
@@ -181,7 +181,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OWiaV9iaJsbSPLzj6ibm2NldYxUBCP4EiaUibb7tx4IppuuSa35z9XSYdibCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_008_85569c1d2f17.png)
 
 包焊、冷焊或虚焊
 
@@ -194,7 +194,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OExxSZhIWoEoca4xjVsC9pVv50DkWjEciabF3fiaS9AKR7SDqDKQge1Ww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_009_f4292d8d7fa8.png)
 
 采用 Thermal Relief pad（热风焊垫）对比
 
@@ -212,7 +212,7 @@ PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OicYR2hTNFZ6A7nmZtPTYU9xzsuuMoXrlklTkn0bF4sbn7lic6KIaVHIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这是我见过最接地气的PCB设计指南了__images\img_010_3b42237e1480.png)
 
 仔细检查你的设计，PCB 和约束规则
 

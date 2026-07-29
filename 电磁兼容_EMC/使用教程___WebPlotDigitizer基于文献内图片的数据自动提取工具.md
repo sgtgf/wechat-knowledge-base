@@ -35,7 +35,7 @@
 
 打开网页界面如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLvxYdkEaC5hFQJBAJeYBWWyUgbG4x5W3IVmJXondsWDRquyCVBt6ebw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_000_c015d60b83c8.png)
 
   
 
@@ -52,58 +52,58 @@
 
 -   选择二维（X-Y）图，对齐轴。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLEtrjHAvpkBBjuOpkh4F4IcNlGDKNkPibk4pIRsxL5GibH2U0yJLVYSOw/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_001_a55cb9140854.png)
     
 -   开始标定坐标轴，选取如下图所示4个点（X1，X2，Y1，Y2），首次选取可以不要求精度，选完4个点后，点击想要微调的点，就会由红色变为绿色，此时可以任意移动键盘方向键调整。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLvDMcMQsWOuO3iaX4GGZ7iaMXslpmFjkczUh3ZrHowIojcqPdrpXO9iaVQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLKGjwBFdia9ebYNuV2TrbzMNH6MJ7dL8U9CTJealhA5zoWhgwkLrLhwQ/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_002_e9ea150da1b9.png)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_003_26a7c7731a20.png)
     
 -   点击完成，选择标定的坐标轴范围。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLiacibLUBv5XXnXhovBKPiaEMo48tbqGChfHljlM5qlI9tL3zHuZhtz1Ow/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_004_3d0a4d10c900.png)
     
 
 3）选择想要的数据
 
 -   确认后可以在“自动提取”区域选择想要的线条打点，如黄色，则点击前景色旁的色块后选择黄色，完成。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLIQhpeO6rJhwHkraCfbgkwT1hhAn5OYZcFQD1O9ALIoB2icclibgyjPdg/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_005_4583b50d8e12.png)
     
 -   运行后发现有很多红色的点被选上（下图所示），此时可选择“方块”、“画笔”选出想要的区域，或调整距离。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzL216gicicySVzRicq77bq0Uqt4icEEibS8gglBlQ2QfG3GuT7heyGevxtnrA/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_006_7df43be2a5b4.png)
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLMOr7zBTXk3pqCAvHpicSCib9AEEeffpg4ofw2LKy4mnHjDpcYpguNY7A/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_007_cb4e8e01fc3a.png)
     
 -   初步调整后结果如下
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLoCmIO9w8H9OfVS7dLWV0QhyeITeEA7ibic0BLWDXhyudtELiaoHlHXfcg/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_008_5405279c7057.png)
     
 -   若“自动提取”的方法点数量或精度不能满足我们的需求，则可以通过“手动提取”，增加点（直接在图上点击）、调整点（先选中点变绿后操控键盘方向键）和删除点（直接在图上点击）。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLpjFTg9AaxkyBymXOLLv2CXMdXoVRVZf13wnnicAUR7JtJ1RkJN0nOsw/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_009_d2f6d4ea2db2.png)
     
 
 4）查看和保存数据
 
 -   调整完毕直接点击左边的查看数据。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLeHyAwuTiaDaiagFoOyLqnS7aibCLjEkLxCMyl3oicdsqr23oUw8EDGbgcQ/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_010_a59a24b16d41.png)
     
 -   通过设置位数可以修改小数点位数。点击Format，然后下载.csv文件。也可以点击左上角的文件，选择保存项目，后续可以通过加载项目继续操作。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzL773ovMPwvIoxzll6VpsbeBm6gf3aTlc3PQfiaDvX26OaicnV9becjtBQ/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_011_88bbefe8582f.png)
     
 -   提醒：可以查看输出的.csv文件，通过插入散点图，看数据是否正常。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_jpg/cUYZic48ZLjxoHQlicamAdIict5oORM6rzL9zQ43ia80aIxiaM2F5wx2NeibiaibIrH50M2SBkzjwJUufJQfH6IjQ6cBhA/640?wx_fmt=jpeg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_012_59d3adc5650c.jpg)
     
 
 条形图
 
 1）导入图片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLbAWQZYk52MmMPATXNl4H84GOOdQInLE44LXwz5Pzm0IWRicbhA2XxlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_013_6f79dff7153e.png)
 
 2）标定坐标轴
 
@@ -116,14 +116,14 @@
     
 -   通过设置位数改为0，Format后下载.csv文件。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLBKeH2ibOI5peDnjDASN9EWLJe0jJyMCBQyvlERQFazYeepE7Xs2UgsA/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_014_62937dcaad4d.png)
     
 
 坐标地形图
 
 1）导入图片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLzFePYsfzwKd1AVpclWJhicfcAzILzGnkIohojoJMX6CVXb3DUCznjwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_015_e5c1c61ef0a5.png)
 
 （参考文献：赵浩翔, 冼晓青, 郭建洋, 张桂芬, 王瑞, 刘万学, and 万方浩. (2022). 基于优化的MaxEnt模型预测海灰翅夜蛾潜在地理分布区. 植物保护, 48(06):16-22+48. https://doi.org/10.16688/j.zwbh.2022337）
 
@@ -133,14 +133,14 @@
     
 -   这里想举例用来筛选坐标点，所以选取的坐标轴是二维（X-Y）图，个人认为这是该软件最主要的用途，若想要两地距离，image J也可以做。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzL6MdfSM00x7OuO5P6QwN3ewCnjMenu1iaVnXEA9njA6PqJSeLJEswe9Q/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_016_dd37666ffb9d.png)
     
 
 3）选择想要的数据
 
 -   在此图中，通过选取红色点“自动提取”，对于有精度选择的情况，可通过“手动提取”：修改点的位置和删去左下角的图标。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/cUYZic48ZLjxoHQlicamAdIict5oORM6rzLPkvxYVnSibMf4TvkOCu6kZU5UibFhgVzPOOGOKvu0w8COf0PibphNrKmA/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\使用教程___WebPlotDigitizer基于文献内图片的数据自动提取工具_images\img_017_7364ebadb44d.png)
     
     4）查看和保存数据（与二维XY图一样）
     

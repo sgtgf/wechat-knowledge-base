@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/6MC7pkrHKiprwyZOixTHIA](https://mp.weixin.qq.com/s/6MC7pkrHKiprwyZOixTHIA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hibRhZSkeaRCVU7AMRt7GjCy2OZWdnIRJt7jbZnTAUpS2kEel91a5A4ZP0dxHz17M9CVicxTBwbuzPibxUtadKjhg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_000_a90ec010f170.png)
 
   
 
@@ -13,7 +13,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fc428hqdiaYDicdiczFyP4c1D4ibLiahibibmX80wzibOwuR30Ny7qhDgejf3yuicE5Oujo8d0NkXYia7aVfJGicaEJbMe6iaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_001_ef5dcd5728ce.png)
 
   
 
@@ -51,7 +51,7 @@ ElmerFEM是一款开源的有限元软件，用于求解多物理场耦合问题
 
 对于需要了解具体详细信息的情况，建议您直接访问相关官网进行查看。建议您在官方网站上查找和阅读相关信息，以确保获取信息的准确性和可靠性。谢谢！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/CGpCLiaWGUrPicLM6PtbSrpmne5957tvwjxibGQ2N3icdnp7g2ppqPzPoWsstMfu0piacoRFFuPhTgVR7a9L1mZJf3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_002_0e67c7722f5a.png)
 
   
 
@@ -59,7 +59,7 @@ ElmerFEM是一款开源的有限元软件，用于求解多物理场耦合问题
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D1TzgVpslEaNHXz9jTFPWWialSwOW5UZNuHBbhpL4dID0Vmiax9cNkS5mqTEcw06FsnAJ0huFgcYRmr71r0KlvRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_003_2464b4e2abdb.png)
 
   
 
@@ -67,17 +67,9 @@ ElmerFEM是一款开源的有限元软件，用于求解多物理场耦合问题
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVHgYibE1r8rPkRibAUNzHdA17koB1wqYDzlMqeZ8wSdhryiaIzUXQ90u4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_004_43c17f0317cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVjTv38HfVgp9SNaicHMzrbS3aNfwrq0qylFqRfCibqMZgEU9oDRGd7NpQ/640?wx_fmt=png&from=appmsg)
-
-  
-
-  
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVG1IHSF8IdzIla1icjN79nZSOXIC2dCRvbmCk3j19oDKMbBSyrPFvAnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_005_114d2195af0c.png)
 
   
 
@@ -85,13 +77,21 @@ ElmerFEM是一款开源的有限元软件，用于求解多物理场耦合问题
 
   
 
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVPocnZ11KiaBBrZHIicyMAcvicrLcFicLJ4LicIEfL7PkyyA0fqAvSv4xKAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_006_e9ddc35f7f50.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fc428hqdiaYDicdiczFyP4c1D4ibLiahibibmX80E2no7EicOBVmGkAZvhItFaYiapLic4hoOicLkK7XqegNtF899gpkqn9Ow/640?wx_fmt=png)
+  
+
+  
+
+  
+
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_007_b618d2349aeb.png)
+
+  
+
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_008_da00382fe3f3.png)
 
   
 
@@ -119,33 +119,23 @@ Elmer FEM是一种开源的有限元软件，用于求解多物理场耦合问�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVK2zmv6WSLILEsLOeibicNyXUibpXERyteTdY4O8FXhicibNo5OsCjubj8Ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_009_6dd6caabf2bd.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/uzNUGhEeibCJiac22ACNz2iadGFc3XMX1icbdScozhIl2Ky4DsqS6iaYLFPIre4F1e3xqLexANflWvcJmDg4fibvH6bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_010_c78c7a869ac8.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVs1DHc7sicjIvnKsiaPjuwJaY7Sfk2xPvcabibLJNWAS1CV8I2RwoCJBNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_011_170f01907f65.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6pF4nWHiasBFH98a7qvHrlbL74yR777tl90RviaPGj6DoyXtnTu7CwybP56Bf8Vqb1R58j54ia49KyCFTXnkT9ibA/640?wx_fmt=png)
-
-  
-
-  
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVPgXdTDj3qyZVibYRuEePs1JRwId7YAVeMIibhNkJn3iazzUZ0o7icrP7EQ/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVic6zBVicHhicM8QxBObHXADsw3Vbffj1rYXibiaaeMD8AraiaX4EI7ibgXf1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_012_903c36ed4eac.png)
 
   
 
@@ -153,13 +143,23 @@ Elmer FEM是一种开源的有限元软件，用于求解多物理场耦合问�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVkZlLn1WmR1VZiaJ8owcgEYE9Urv2mO8LsU3PMHia8VAXNq8mD9OIH2bg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_013_7a31d69ed62c.png)
+
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_014_34a7acdecc7e.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hUw5BFCgYpiaibDNggUwjP5ZtQJ07ojX8ibWm6hjmuwZ8vK3BAHOt0K2MeFovnZcJYno8ukO9RKV9WVyaMMoM5XbQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNrcBsibNXPekDqLYrlbIFjWwdgEnYLeHfr32icAqyKGKYlI12ticxv6X86Gliavc3gaKosib0xEZKH7QQ/640?wx_fmt=png&from=appmsg)
+  
+
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_015_6f922c5b4fb6.png)
+
+  
+
+  
+
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_016_f42f0307160e.png)![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_017_380dcfe7a2bf.png)
 
 Elmer FEM是一个开源的有限元软件，用于求解多物理场耦合问题。它提供了一套强大的数值方法和求解器，能够处理包括结构力学、热传导、电磁场、声学等在内的各种物理现象。
 
@@ -173,7 +173,7 @@ Elmer FEM是一个非常灵活和可扩展的软件，用户可以自定义材�
 
 http://www.elmerfem.org
 
-![](https://mmbiz.qpic.cn/mmbiz_png/oxFlq8Tls9RG0ibI2YYv1zGXIJp4ZAwgwlLwjKcehO45afOPeB7DVyrKIkNquC07uYtejl54kMJRpYMaOHnO90w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_018_ccdb824c406c.png)
 
   
 
@@ -185,7 +185,7 @@ http://www.elmerfem.org
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BH0WcKV2ZjNo0QkBCyu8hXrgMKy4gLSVv8d27qeQiakI6icib01lDjhg382CiaP71mPk9MKsvrQJ34pGuwIvl8Wliag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_019_5e0af0f6bd50.png)
 
   
 
@@ -227,4 +227,4 @@ http://www.elmerfem.org
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/7PRIrEf57ic0QHrJdB22PV90icY2WbXKUGk7VjZQWLdeeHjYTcSiaQwCZKBVH5RiaStn8qot9eLoWhnR78Z3HiccKLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\(科学)Elmer_开源多物理场仿真软件_images\img_020_201600b2654a.png)

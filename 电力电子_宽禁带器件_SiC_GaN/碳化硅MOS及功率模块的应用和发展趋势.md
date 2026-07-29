@@ -62,7 +62,7 @@
 
 碳化硅器件的性能和可靠性在电动汽车领域的五个关键应用中尤其有效：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/QBGicAt5Pncn7tIqy96pIz4ic50Shia4MYcqoM8ma8MwjZg7ASibzUEVqQzF1yTeVjasvLnKia4rJS7FJPLQgfmlRVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_000_0de0ec3b5823.png)
 
 　　五大汽车应用中四个适合碳化硅
 
@@ -76,7 +76,7 @@
 
       新能源汽车是碳化硅最主要应用场景之一，也是最大的市场之一，特斯拉已经给其他整车厂做出了表率。从目前新能源汽车行业的发展需求和趋势来看，碳化硅车用的趋势不可逆转，尤其是应用于电机控制器的碳化硅模块，将逐步取代目前的硅基IGBT，逐步成为行业的新宠儿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYe4NU1l5zMOSBG6JoqfAxEyDddLMQBjTmJOZ0kz7cVtsqO8LCJG9Eib0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_001_1ff4abee0b1f.png)
 
   
 
@@ -86,19 +86,19 @@
 
 　　碳化硅功率模块是全球电力电子器件大型企业目前重点的发展方向。碳化硅功率模块已经在一些高端领域实现了初步应用，包括高功率密度电能转换、高性能电机驱动等等，并具有广阔的应用前景和市场潜力。这些全碳化硅功率模块组合了碳化硅MOSFET器件和肖特基二极管，利用高速开关及低损耗的特性，可替换原来额定电流为200～400A的硅基IGBT模块。因器件散热性提高，使得装置的体积缩小了一半，并且发热量小，可缩小冷却装置，实现装置的小型化，同时可以将电力转换时的损耗削减85%以上，大幅削减工业设备的电力损耗。全碳化硅MOSFET(或JFET)模块的优良特性使它具备在10kV以下的应用中取代硅基IGBT的巨大潜力，取代的速度和范围将取决于碳化硅材料和器件技术的成熟速度和成本下降的速度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYeZibUGGggWpnmQSoU42mAgLvqibQKP9EEkyXIj13tHDW0cKtHsdliaibQAg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_002_da961d2df07a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYegImFy31ZDmsNgOfhmowCoRq0A9jiby0mWfWpK2sLdoyLCARAYyAmfag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_003_7f40a845a88d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYe8jnkgTRDNKiaSFfn41IZUU6eib2IWphaW6HMKgtyWMwGdOFT7kTXCAZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_004_ea47c360c824.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYeVM3uQiaVNcr5HvV6OOFWJfNqd5jy82wVY4SyCIAs7xSgnYhOeqFhkvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_005_14736f91ba01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYeAPhMxz0IqQP6XtJlJXhhxpibIlCOjVu4yQddibw0wZQnratXrFJIJ9Ww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_006_8c7ccbd11c03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYe7GVD5FgkfX6Tj8Rbq0MYibuWIqpNe2icub3LgyTBnFFNLdHriaaNjRIOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_007_931d421dfbd2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPP7RXvPP64rLd8EDVjbYeF44g0miaBVUaHQkbfUCBBrYz7KdkflqiafEOy25pS5z5dVyJzot1KJxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOS及功率模块的应用和发展趋势_images\img_008_e10a39d9f4fe.png)
 
  **小结**  
 

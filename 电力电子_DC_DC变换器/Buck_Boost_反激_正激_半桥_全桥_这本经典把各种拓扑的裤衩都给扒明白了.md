@@ -12,7 +12,7 @@
 
 文末附540页完整版PDF文档获取方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjj4QLCOibnZcPQUDvQPxw25S8y7231t3Ry8Xer5yiaa9qVJIneUaGGzWnBm2icJ9KWAsnWH60dAwPvnw/640?wx_fmt=jpeg)
+![](Buck_Boost_反激_正激_半桥_全桥_这本经典把各种拓扑的裤衩都给扒明白了_images/img_002_238c7e7c3b67.jpg)
 
   
 
@@ -62,7 +62,7 @@
 
 这是最常见的拓扑，从小功率充电器到辅助电源都在用。这章会详细教你如何在DCM和CCM模式下设计变压器，以及两种模式各自的优缺点（比如DCM模式反馈环好设计，但器件应力大）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj4QLCOibnZcPQUDvQPxw25Sj3j4u5WHPA5ibJYoZciaWXgbGbdH9eergR4ibC03qhvLmyB2lG5w4eCQQ/640?wx_fmt=png)
+![](Buck_Boost_反激_正激_半桥_全桥_这本经典把各种拓扑的裤衩都给扒明白了_images/img_003_16aa1003eebd.png)
 
 #### 
 
@@ -78,7 +78,7 @@
 
 **这是全书最硬核、也最值得看的一章！** 很多电源纹波大、动态响应慢，甚至自激振荡，问题都出在环路上。这章会教你如何用 **“2型”、“3型”误差放大器** 去补偿系统。它会用波德图告诉你，怎么在“稳态精度”和“动态响应速度”之间做权衡。能独立设计和调试反馈环路，是区分普通工程师和高手的分水岭。这一章就是成为高手的必修课。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj4QLCOibnZcPQUDvQPxw25SgFykjDic1hDcDNQDqCuNRyLZGeLhOgYA5PMXIt2sJRAoLliaiaiaJubTZg/640?wx_fmt=png)
+![](Buck_Boost_反激_正激_半桥_全桥_这本经典把各种拓扑的裤衩都给扒明白了_images/img_004_cb7dd8cccac8.png)
 
   
 
@@ -106,7 +106,7 @@
 
 寄生参数的影响：线路漏感是怎么产生尖峰电压的，如何设计缓冲电路（Snubber）来吸收它。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj4QLCOibnZcPQUDvQPxw25SGtNWWumyOh2eoicibr2p6ZQDYxfeN1POEsib0lL26pOZJGkLMcIPE4uYQ/640?wx_fmt=png)
+![](Buck_Boost_反激_正激_半桥_全桥_这本经典把各种拓扑的裤衩都给扒明白了_images/img_005_8a0b96373b3d.png)
 
   
 
@@ -119,7 +119,7 @@
 
 当你调试电源时，拿着这章的内容和你的示波器波形对比，或许能快速定位问题所在。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj4QLCOibnZcPQUDvQPxw25SbXWgupqlMrPW58f59DquY6DUTc4FpNlndJkvbZV3YS0C5KdK6Y4fTw/640?wx_fmt=png)
+![](Buck_Boost_反激_正激_半桥_全桥_这本经典把各种拓扑的裤衩都给扒明白了_images/img_006_8d3649f79327.png)
 
 ### **阅读建议：**
 
@@ -148,10 +148,10 @@ PDF电子版获取方式
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjj4QLCOibnZcPQUDvQPxw25S6zjLwQIVBFmL48Z6Dgdt2NoHTOTRw0VMJ5Zlxn7mEIUAD71SrHZEIg/640?wx_fmt=jpeg)
+![](Buck_Boost_反激_正激_半桥_全桥_这本经典把各种拓扑的裤衩都给扒明白了_images/img_007_f446e3389909.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjj4QLCOibnZcPQUDvQPxw25SDZsl5M467TibwQb8DiazxMuDibd5oUuqWApTcISiaibqcVZppsibNic1l5dFQ/640?wx_fmt=jpeg)
+![](Buck_Boost_反激_正激_半桥_全桥_这本经典把各种拓扑的裤衩都给扒明白了_images/img_008_ed07731b19e2.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

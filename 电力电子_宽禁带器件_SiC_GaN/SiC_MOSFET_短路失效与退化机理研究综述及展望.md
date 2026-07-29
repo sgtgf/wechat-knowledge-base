@@ -29,7 +29,7 @@ SiC MOSFET 具有耐高温、耐高压、低损耗和开关速度快等优点�
 
 以单相全桥电路为例，依据短路故障发生的位置及短路时器件的工作状态可将短路故障分为3类，如图 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibNqxPmp9ibCj5fibmsFT1HG5gv5F4kia61yunZQ7JLBPFTlAwGHTVIomNA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_000_ca5d85d81cb1.png)
 
 Type I 型短路：该短路类型是指SiC MOSFET在导通前已处于短路回路中，器件开通即处于短路状态，因此该故障类型也叫硬开关故障(hard switching fault，HSF)。例如由于器件误导通造成的桥臂直通，如图1(a)所示。该类短路故障的普遍特征为短路回路路径较短，感抗较小，短路电流上升速度较快。因此，SiC MOSFET 若发生此类短路故障，往往需要更快的短路保护速度。
 
@@ -37,7 +37,7 @@ Type II型短路：SiC MOSFET处在导通状态时，若负载端突然短路，
 
 Type III 型短路：在电机驱动、变频器等一些应用领域，SiC MOSFET 可能运行在第三象限，若此时负载端发生短路，则开关管LS2 的运行状态迅速由第三象限转向第一象限。器件由低压、逆向电流的工作状态迅速转变成高电压、大电流的短路状态。此类短路故障的特征与 Type II 型较为相似，但额外增加了寄生体二极管的反向恢复过程。若SiC MOSFET工作在第三象限时并没有同时将器件开通，则在短路瞬间，寄生体二极管会产生较大的反向恢复电流，从而对寄生体二极管的可靠性造成影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibb2fW3ZliaR5mNjU94wVuJdRCdCDcUd7hvGRXCcbuLbdUH85lQl8R0DQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_001_84ec63583dc7.png)
 
 表1 归纳了3 种短路故障类型的各项特征对比结果。由表1 可知，Type II 与Type III 型短路故障特征较为相似，区别在于对寄生体二极管的损伤程度不同。在Type I 型短路故障下，器件短路瞬间积累的能量相对较大，因此通常将此类短路故障实验作为SiC MOSFET 短路失效分析的实验方法。由于SiC MOSFET 在部分中高压应用场合下有望取代硅基IGBT，因此其可能发生的短路故障类型与IGBT 的短路故障类型较为相似。在国际电工委员会标准IEC 60747-9 中，明确指出IGBT 的两种类型的短路故障，即HSF 以及FUL。而电机驱动作为SiC MOSFET 的应用领域之一，极有可能在能量由负载流向变频器时发生短路故障，因此TypeIII 型短路故障也应该被研究者所考虑。
 
@@ -45,7 +45,7 @@ Type III 型短路：在电机驱动、变频器等一些应用领域，SiC MOS
 
 若要分析SiC MOSFET 在不同类型短路故障下的短路特性，则需要完成相应的短路实验，并对实验波形的变化机理进行分析论证。尽管SiCMOSFET 在不同短路故障下的短路特性存在差异，但短路特性分析的方法较为相似，因此本文只对其中一种短路故障进行特性分析。以HSF 为例，图2为SiC MOSFET 短路测试电路以及典型短路实验波形，其短路过程可以分为4 个阶段。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibPK6qSbzOlNDosgExzqia26kCerMwPrCShLZ10t5fDTx6A7Bpf634gEA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_002_8117df554e33.png)
 
 1）t0—t1：t0时刻，对SiC MOSFET 施加驱动信号，器件沟道打开，电流迅速上升并达到饱和值。由于回路寄生电感(Lsc)的存在，使得开关管漏源极两端电压稍有降低，随后逐渐恢复，器件工作状态由截止区进入饱和区。
 
@@ -79,11 +79,11 @@ Type III 型短路：在电机驱动、变频器等一些应用领域，SiC MOS
 
 在不同实验条件下对SiC MOSFET 进行单次短路实验时，不断增加器件的短路时长直至其失效，可以观察到以下4 种失效状况，如图3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibC5DDh7Fys62ooq7DEC1oVaAjnicJibLrKgWQCiaQhkaWt4P6BwciaQncbA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_003_da5dd435c07e.png)
 
 按照其失效结果可将其分为两类失效模式，D-S 短路失效模式(图3(a)、(b))以及G-S 短路失效模式(图3(c)、(d))。当SiC MOSFET 发生D-S 短路失效模式时，器件漏源极之间出现短路，而栅源极以及栅漏极之间是否会发生故障，目前还没有准确的论证结果；若SiC MOSFET 发生G-S 短路失效模式，器件的漏源极以及栅漏极往往不会受损，而栅源极之间的绝缘特性会被破坏，输入电阻由无穷大降低到十几Ω以内。对于两种失效模式，分别存在两种典型失效现象：立即失效(图3(b)、(d))，即器件还未关断即发生失效；以及延迟失效(图3(a)、(c))，器件关断后的几个μs 内发生失效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibtDOVtiaQ7YgkBZbo9E1tOFJqKHff3awJj0E6QkNyXKzgMm5D3CRPmvw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_004_dcd883fc261e.png)
 
 目前国内外学者对两种模式下器件失效机理的探究已经从器件的表面封装深入到芯片的元胞结构。其失效点主要分为：JFET 区栅氧层、内部寄生 NPN 晶体管、沟道区栅氧层、栅极上方氧化层，如图4 所示。当①或②发生损坏时，造成器件发生D-S短路失效模式；当③或④发生损坏时，器件发生G-S 短路失效模式。2.1 节将分别对两类失效模式失效机理的研究现状做详细的阐述。
 
@@ -91,13 +91,13 @@ Type III 型短路：在电机驱动、变频器等一些应用领域，SiC MOS
 
 2.1.1 源极铝融化
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibBNTILFEvOERMpibJw4Um6arD5JWyFc7Hbpkg8Mn9691jMT6UBX8JJtw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_005_438e37c65b58.png)
 
 D-S 短路是SiC MOSFET 短路实验中较为常见的一种失效模式，并且此类失效模式被普遍认为与热量相关。文献\[15\]指出，短路过程中器件结温达到了上千开尔文温度，早已达到并超过了铝的熔点。失效后通常可以观察到芯片出现烧毁，芯片表面键合线与栅源极接触部分出现熔化，如图5(a)所示。文献\[33\]通过高速红外热像仪观察到短路过程中器件内部会形成一些“热点”，如图5(b)所示。这是由于器件制作工艺误差使得器件各元胞之间出现电流分布不均的现象，进而导致局部热点的形成。这些热点的形成位置具有随机性，并不一定在键合点处。因此，键合点的烧毁并不一定是其失效的直接原因。文献\[31\]采用聚焦离子束技术(focused ion beam，FIB)对器件熔化部位进行切割制样，随后用扫描电子显微镜(scanning electron microscope，SEM)观察制备好的失效样品。观察结果显示，器件源极的金属铝出现熔化，并且可以清晰的看到从源极延伸到栅极和漏极的一条裂缝，如图5(c)所示。由此认为，SiC MOSFET 短路失效的原因可能为高温引起源极铝熔化，产生的应力破坏了SiC MOSFET 部分元胞中栅极上方氧化层甚至栅氧层的绝缘结构，导致器件出现不可控的短路失效。
 
 2.1.2 JFET 区栅氧层击穿
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibKj90KiaWwMWjnbyhciawibyPmxKOPXvgtX6VxGUBBqC57HGpNfz1DkMBw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_006_d2056464d064.png)
 
 文献\[34\]利用Sentaurus TCAD 对器件建模，随后对所建模型进行短路仿真。仿真结果显示，SiC MOSFET 在短路过程中，JFET 区是热量产生的主要位置。因此，该文献对短路状态下器件JFET 区上方的栅氧层(图4 中①)的可靠性提出质疑。文 献\[35\]对另一型号3.3kV 的SiC MOSFET 进行单次短路失效实验，随后对失效器件进行逆向分析，观察到JFET 区栅氧层出现了破坏，如图6 所示。然而，该器件的耐压等级为3.3kV，尚处于研发阶段，其失效的机理与目前商业化产品是否一致，还需要做进一步的研究论证。
 
@@ -105,7 +105,7 @@ D-S 短路是SiC MOSFET 短路实验中较为常见的一种失效模式，并
 
 在SiC MOSFET 短路过程的后半阶段，往往可以观察到其短路特性会发生变化。主要表现为短路电流出现“上翘”，器件关断后电流并未迅速降到零，而是出现了仅在双极性器件中才有的拖尾现 象。文献\[37\]对此现象做出的解释为：随着短路时长的增加，器件温度不断上升，致使由热引起的空穴电流逐渐增大，从而产生电流“上翘”与关断后的拖尾现象。该文献进一步指出，当短路时长较短、器件承受的电热应力较小时，器件关断后，空穴电流会逐渐减小到零；若短路时长较长，空穴电流会持续增大，当达到一定量级时，将触发图4 中②区域寄生NPN 晶体管的导通，从而使得器件发生D-S 短路失效。随后，该文献作者通过TCAD 仿真观察到了图4 中②区域空穴电流的增加，并且仿真观察到与实验结果相似的电流失控现象，如图7所示，从而验证了NPN 晶体管导通现象存在的可能性。同时，该结论也可以解释D-S 短路失效中另外一种延迟失效现象(图3(a))。在此类失效模式下，器件在关断后的延迟阶段，电流并未降低到零，而是存在几十A 的泄漏电流。随后，短路积累的热量与寄生NPN 晶体管导通产生的电流形成正反馈，导致器件无法正常关断，进而引发热失控。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibJ1mOl7YA6P4UMqGXaUPXBqolTpxtBG0m7cANcO7p3EwSsHRKicafOcw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_007_55708c1c87a5.png)
 
 2.2 G-S 短路
 
@@ -115,7 +115,7 @@ D-S 短路是SiC MOSFET 短路实验中较为常见的一种失效模式，并
 
 MOSFET 作为一种典型的场控型器件，在开通关断瞬间，由于栅氧层等效电容的存在，器件的栅极会产生较大的充放电电流，而在开通关断过程以外，栅极只会有一个极小的漏电流存在。文献\[39\]通过对 SiC MOSFET 短路过程中栅极漏电流的监测发现，随着短路时长的增加，栅极漏电流(Igss)逐渐增大，当增加母线电压时，Igss 可达200mA 以上，最终导致栅源极之间出现短路，如图8 所示。该电流产生的原因，已有一部分研究学者做了理论解释与实验验证，主要归结为FN 隧穿以及热电子发 射。该结论表明，SiC MOSFET 在短路过程中由于受到栅极电场以及器件结温的共同作用，使得栅氧层表面的电子隧穿效应以及热电子发射效应增强，最终达到栅氧层的临界击穿值，致使栅氧层发生击穿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibw3SticXmtdkz4Xy82lD8edaFvmrvwLoutAFS0uauib7fxQ2V4gmMXSJw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_008_327ab6605d44.png)
 
 以上结论可以很好地拟合失效前栅极漏电流的大小及增长趋势，但并没有明确界定引起栅氧层击穿的临界值以及临界条件。因此，对于单次短路下栅氧层受到的应力是否会达到其击穿值，仍需要做进一步研究。
 
@@ -123,7 +123,7 @@ MOSFET 作为一种典型的场控型器件，在开通关断瞬间，由于栅
 
 本文2.2.1 节中提到，SiC MOSFET 的短路过程虽然通常只有几μs，但短路过程中芯片结温早已超过了铝的熔点，从而造成源极铝熔化。文献\[42\]对短路后出现 G-S 短路的器件进行去封装处理，随后通过FIB 对失效点进行切割制样，进一步观察失效点SEM 图像，发现栅极上方的氧化层出现裂纹。为了验证裂纹产生的原因，笔者通过TCAD 对器件进行建模仿真，发现短路过程中失效点上方的压强可以达到2.8GPa，已经超过SiO2 的临界压强1.4GPa，进而证明短路有可能造成氧化层断裂。为了验证裂纹是否引起G-S 短路，作者进一步分别对裂纹部分(图9 中Spot 1)与正常氧化层部分(Spot 2)进行采样元素分析。观察发现，裂纹内部铝元素的含量显著增大，其元素占比高达 71.58%，如图9所示。因此得到结论，由于材料热膨胀系数的不同，短路过程中热量的积累使得氧化层上方的应力值增大进而压断氧化层，随后熔融态的铝通过裂缝渗入栅极，造成 G-S 之间呈现一个小电阻甚至出现短路。由于在SiC MOSFET 关断后的一段时间内，结温仍然处在较高的状态，因此该现象亦可能发生在器件关断后的几个μs 内，从而造成G-S 短路失效模式的另一种失效现象，即延迟失效，如图 3(c)所示\[28\]。该结论虽然不能解释SiC MOSFET 特性退化与器件失效的必然关系，但这也是对其出现G-S短路失效模式较为准确的证明。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib94FZ0740Gdhyx9UC3cQESmlsLYbK6IuSXuj29jfOluJqDYB4yqtI8Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_009_24fd0ed640bf.png)
 
 上述内容对SiC MOSFET 单次短路出现两种失效模式的原因做了较为详细的阐释。与此同时，对于SiC MOSFET 短路失效的影响因素，研究学者也做了大量的分析论证。主要的影响因素包括漏源极电压Vds、栅源极电压Vgs、器件壳温Tc以及结温上升速度vTj等方面。
 
@@ -133,13 +133,13 @@ MOSFET 作为一种典型的场控型器件，在开通关断瞬间，由于栅
 
 SiC MOSFET 在发生短路故障时，加在器件漏源极之间的电压Vds 将直接决定器件短路时的功耗。Vds 越大，器件短路时的功耗越大，结温上升速度越快，势必会加速器件的失效。文献\[37\]在不同Vds 下对SiC MOSFET 进行单次短路失效实验，发现增大Vds 不仅会加速器件失效，而且会严重影响器件的失效模式。本文对文献\[18,43\]中8 组SiC MOSFET 在不同Vds 下短路失效结果做了统计，如图10 所示(图中字母和数字分别代表不同公司、不同型号的SiC MOSFET)。可以看到，在较低的Vds下，器件更容易发生 G-S 短路失效，而在较高Vds下，器件更偏向于发生 D-S 短路失效。文献\[43\]在对耐压为1200V 的两组SiC MOSFET 在极限漏源电压1000V 的条件下进行短路实验，两组器件均发生D-S 短路失效。通过对SiC MOSFET 进行TCAD仿真可以观察到，高的 Vds 使得器件内部电场更强、碰撞电离率更高，更容易诱发寄生NPN 导通，造成D-S 短路失效模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibH1mJM7cobRfwY2vicibvxbJ1d7mkpGs41jzNTdeE8eNa1WftsPA2rBzQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_010_b1464aabe803.png)
 
 2.3.2 Vgs 的影响
 
 Vgs的增加会使SiC MOSFET 的开通速度变快，饱和电流增大，同时栅氧层承受的电热应力也会增大。文献\[28\]对Cree 第二代SiC MOSFET 做了不同Vgs 以及Vds下的短路测试，观察到600V 测试条件下，低栅压下的器件出现 D-S 短路失效，而高栅压下的器件则出现G-S 短路失效。并且，同样的结论在文献\[44\]中得到了验证。因而可知，高的Vgs 更容易造成器件出现G-S 短路失效模式。此外，当逐渐增加Vds 时，文献\[28\]中的3 组器件逐渐由G-S 短路失效模式转向D-S 短路失效模式，如图11 所示。由此可见，相比于Vgs，Vds 对 SiC MOSFET 短路失效模式的影响更大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibbJalnR4yJVyLrrgH1yE3JFicbOBhSx1Mtb8f38rbn3kt0oN1iaND1icDg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_011_4fb12119ac63.png)
 
 2.3.3 Tc的影响
 
@@ -149,7 +149,7 @@ Vgs的增加会使SiC MOSFET 的开通速度变快，饱和电流增大，同�
 
 通过上述分析可以得到，SiC MOSFET 短路失效模式受Vds和Vgs 两方面的影响较大，对单一影响因素进行分析可能存在较大的偏差。因此，基于Vds和 Vgs 的共同作用，文献\[37\]提出一种结温上升速度决定失效模式的分析方法。如图12 所示，该文献界定了两个临界温度值Tdeg 以及TThermal。器件短路过程中，当结温达到Tdeg 时，器件栅氧层开始出现退化，退化至一定程度时，栅氧层发生击穿，造成器件出现G-S 短路失效；当器件结温超过TThermal时，由热引起的漏电流将不可控的增加，从而引起器件发生 D-S 短路失效。器件栅氧层从退化到失效需要一定的积累时间Tac，若在Tac内器件结温上升较慢，未达到TThermal，则造成G-S 短路失效，反之则造成D-S 短路失效。以此作为决定两种失效模式的关键因素，比单一的从Vds 以及Vgs来考虑要相对更准确。然而，对于临界温度Tdeg与TThermal 的存在与否，还需要做进一步验证。同时，Tac的取值也要依托器件的退化机理才可以确定，故该评判方法亦存在一定的局限性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibb7lbChBnaB1XibXicrGZurmN44EMowjjJCNQ3Nak3tLPwqRRiaG7UMKDg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_012_eb6d56ae6744.png)
 
 对于SiC MOSFET 短路失效模式影响因素的分析，也有一些研究学者从其它方面进行了实验论证。文献\[49\]通过改变Rg观察其对短路实验波形的影响，发现改变Rg 仅仅影响器件开通关断的速 度，对其失效模式并无太大影响；同样，功率回路中寄生电感的大小主要影响短路电流的上升速度，其取值的大小也并不是器件发生短路失效的决定性因素。
 
@@ -165,23 +165,23 @@ SiC MOSFET 即使承受1μs 以内的短路应力，其电学特性也会发�
 
 IGBT 在受到功率循环产生的热应力的反复冲击后，键合引线及键合点会出现疲劳老化(图13)，其老化机理也已经被广泛研究。由于其工艺较为成熟，SiC MOSFET 的封装键合工艺大都沿用IGBT。对于SiC MOSFET 也已经有文献证明其 在功率流产生的热应力冲击下，键合电阻会明显增大。而在短路应力条件下，流过键合线的功率流更强，温度梯度变化更大，势必会加速键合线及键合点的老化，降低器件以及整体系统的可靠性。目前，对于SiC MOSFET 退化失效机理的研究大都针对TO-247 单管封装形式的器件，其键合线退化的表征参数较难提取，故针对重复短路引起键合线老化的实验论证，目前还鲜有研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibhLwEj0TPHKFib3rQZMPJHTRiaQKSQSLPpicC6SE4ZTb1zLLvfdXvgyLZw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_013_cedfe0056e29.png)
 
 3.2 栅氧层退化
 
 SiC MOSFET 栅氧层的形成方式与硅基器件相同，均是由热氧化生长而成。但由于碳元素的存在，导致SiC MOSFET 栅氧层中存在一定密度的陷阱。在一定条件下，这些陷阱会对栅氧层周围的电荷产生捕获与释放效应，进而引起栅介质电容、阈值电压、导通电阻以及泄露电流等多项电性能参数的不稳定和退化。其中，以对器件阈值电压影响的研究最为广泛。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibzZZia7YARvAMwzHBxDddF3dDogBd5IP1gHCptgHic9AwI9tJBdPtCtYw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_014_8d6e9a509600.png)
 
 SiC MOSFET 无论在正常工作还是一些相对苛刻的可靠性测试条件下，如高温正栅偏(positive bias temperature instability ，PBTI) 以及高温负栅偏(negative bias temperature instability，NBTI)，栅氧层陷阱的数量最终会保持在一定值，表现为应力作用一定时间后，Vth的偏移量会达到饱和，如图14所示。然而在重复短路实验下，随着短路次数的增加，Vth 的偏移量并不会出现饱和，反而会一直增大或减小直至器件失效，如图15 所示。综述其原因，一方面是由于重复短路应力造成器件键合线发生老化，使得 Vth 出现不可恢复的偏移；另一方面，栅氧层退化对 Vth 造成的影响也已经被证实。目前，栅氧层退化的研究结果中主要包含两种退化机制：电荷的注入以及新界面态陷阱的产生。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibKeWGFZeEcicVibyiaAjutKCCpNI518OW9r2GKdEraaSS9ibibfWTo0wibrVw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_015_0225b4ea9b44.png)
 
 3.2.1 电荷的注入效应
 
 目前，商业化的SiC MOSFET 在阻断状态下，栅极漏电流均在1μA 以内，而在短路过程中，栅极电流可以达200mA 以上。由此可知，短路过程中有大量电荷穿过栅氧层，从而形成栅极漏电流。然而，由于栅氧层中陷阱的存在，使得电荷在穿过栅氧层的过程中部分电荷被陷阱捕获，形成电荷的注入效应。注入栅氧层的电荷改变了陷阱的带电性质，从而造成Vth 偏移。文献\[54\]对1200V SiC MOSFET 进行不同次数的重复短路实验，观察到Vth 随重复短路次数的增加而不断增大，进而解释为沟道区高能量的电子注入到栅氧层；文献\[53\]对SiC MOSFET 进行不同时长的重复短路实验，观察到Vth 存在两种偏移现象，如图16 所示。当短路脉冲较长时，器件Vth 随重复短路次数的增加而增大，这与文献\[54\]得到的结果相一致，同样可以解释为有沟道电子注入到栅氧层中。然而，当短路脉冲较短时，增加重复短路次数，Vth 逐渐减小。随后，作者通过仿真观察到，随着短路时长的增加，SiC MOSFET 漂移区的碰撞电离率逐渐降低，而沟道区碰撞电离率逐渐升高，从而推断出，当短路脉冲较短时，漂移区碰撞电离产生的空穴可能被电场加速漂移至栅氧层，进而被空穴陷阱所捕获，造成Vth的减小。热载流子(热电子以及热空穴)的注入与器件Vds 以及结温有很大的耦合相关性。当增加Vds时，器件的结温上升速度也会加快，此时两种热载流子注入效应均有可能增强，使得 Vth 偏移的机理变得更加复杂。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibSjDJssYoZzL0HrarMoq7PibU2ibnUPo5GTib2OLFTQnZewX0y0zmxrqBg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_016_64eb8d8a453f.png)
 
 文献\[8\]表明，注入栅氧层的电荷在施加一定的应力条件后，理论上可以被重新释放。通过对出现短路退化的SiC MOSFET 进行200℃高温储存12h后，Vth 有了一定程度的恢复，从而证明被栅氧层陷阱捕获的电荷在高温下有一部分被重新释放。
 
@@ -193,7 +193,7 @@ SiC MOSFET 无论在正常工作还是一些相对苛刻的可靠性测试条�
 
 SiC MOSFET 短路状态下，沟道区的栅氧层 (图4 中③)与JFET 区的栅氧层(图4 中①)同时承受高温、高压以及高电流密度的应力，因此均有可能发生退化。分段C-V 界面探测法可以根据不同栅压下沟道区与JFET 区耗尽层的不同状态来判断两区域栅氧层的退化情况。文献\[51\]对经历重复短路应力后的SiC MOSFET 进行C-V 曲线的测试，发现曲线在II 区域发生了明显的右移，如图17 所示。该测试区域下，器件沟道区逐渐耗尽而JFET区仍然保持积累状态。因此，曲线的右移表明沟道区栅氧层有负电荷注入。相反，反映 JFET 区栅氧层退化情况的III 区域却没有明显变化。从而可以证明，SiC MOSFET 在重复短路应力下，退化现象主要发生在沟道区栅氧层，而JFET 区栅氧层几乎没有发生退化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibPoZjLFZOoGaHKyV4tufrxfq4aWyK8AQeNq6LTYqay4axBCCGdklvrQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_017_f9e9e8a69188.png)
 
 综上所述，SiC MOSFET 短路特性退化主要表.现为键合线老化以及栅氧层的退化。栅氧层退化的原因主要归结为电荷的注入以及新界面态陷阱的产生，并且已经证明新界面态陷阱产生的区域主要为沟道区栅氧层，JFET 区栅氧层未出现明显退化。
 
@@ -225,13 +225,13 @@ SiC MOSFET 作为未来电力电子装置的核心之一，其“健康”与�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_018_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_019_3ade3c3d8599.jpg)![](SiC_MOSFET_短路失效与退化机理研究综述及展望_images/img_020_84aa944feb13.jpg)
 
   
 μ

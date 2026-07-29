@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/k0o6w5XyGEuEP83ric6UM3Mobtnkzq2Mib6gia162mRT0a8NpLzGf58tPnZfZW8WRefDNyryQuaZEQkIhmvJKIDcQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_004_f52b1eb08e1f.gif)
 
   
 
@@ -41,7 +41,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjRBn1qoR5RYDaibcA3ztqqibaOfBYCqTapQPpkXhUrYCKniaI0rLZhsbZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_003_1245f60d4e2b.png)
 
   
 
@@ -205,7 +205,7 @@ ESD可能会造成产品工作异常、死机，甚至损坏并引发其他的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/k0o6w5XyGEuEP83ric6UM3Mobtnkzq2Mib6gia162mRT0a8NpLzGf58tPnZfZW8WRefDNyryQuaZEQkIhmvJKIDcQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_002_f52b1eb08e1f.gif)
 
   
 
@@ -219,7 +219,7 @@ ESD可能会造成产品工作异常、死机，甚至损坏并引发其他的�
 
 根据反复重启的时间判断，类似于长按Power键。检查Power\_On信号，发现已经被持续拉低，Power\_On信号的原理图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjhxY4rn6zpYcYYluglgX02zrYTiao99ErGzE9rIePC2A1JvbeN3txGsg/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_005_85704c141c6f.png)  
 为了降成本，位置1并没有贴TVS管，而是用一个电容代替，电容的耐压值是25V。失效的机器，这个电容已经短路，可以判断ESD进入壳体，直接打坏了位置1的电容。  
 如果把位置1的电容耐压提高到50V，能抗的ESD抢数量会增多，但最终还是会坏。  
 这个项目不是防水的，密封性做的很差，所以才有问题。
@@ -243,16 +243,16 @@ ESD可能会造成产品工作异常、死机，甚至损坏并引发其他的�
 
 1、USB\_ID管脚是悬空的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjAHuFlz0hhr8ibjARKpFzZGrqmXnDictxaonQbp9kUCcMLq1qLicF5gGfQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_006_89f8ce39dfff.png)
 
   
 
 2、在L3和L6层，靠近USB接口，有与屏相关的敏感信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjGPxSdZ1Uiaiasz5b2ajmOErc9Y2rCYwicXnOSWBkalSg7Y1KdRrUYEX1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_007_3e0c5fab425d.png)
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjKhj7aY3MNL6Tnia1l5kwkz3mqGtGg32icjLJlQLjFIicf3ysEFVUfib7BA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_008_28e18ad482c2.png)
 
   
 悬空的ID管脚是知名威胁，静电积累到一定程度，肯定会对周围放电，二次放电的威力更大。
@@ -289,7 +289,7 @@ MIPI，LCD\_TE，LCD\_RST远离USB接口。
 
 电池BTB周围的信号有D+，D-，VBUS，MIPI，BAT\_ID，BAT\_THERM等，逐个在这些信号上，注入小两级的ESD，比如±2KV，有些信号会导致PMU损坏，有些会导致死机。只有BAT\_ID信号会出现关机的现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjuRKsErszBDD8YyiaLQchsQiavJmowl05QN3FdGTlE9Q68OqclsmVx3wA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_009_093ff43883ab.png)
 
   
 关机有两种可能，一是内部软件流程关机，二是电池突然掉电。尤其是第二种，往往很容易忽略。因为某些情况下，ESD注入两枪，立即就出现了关机现象，这很像是电池掉电了。  
@@ -297,16 +297,16 @@ MIPI，LCD\_TE，LCD\_RST远离USB接口。
 我们直接从主板VBAT飞线，连接到程控电源上，再打ESD的时候，发现就不会关机了。这进一步说明，在注入ESD时，是电池本身没有输出了。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjicvwPibQiaZNjb8xvNRSolUvjXK0lo98wwDooF7UX4H5Pytwtb4rz7k8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_010_ae174d206e7d.png)
 
   
 
 电池保护板的原理图如下：  
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjUy0stO4gZVVUgLZVTqY6Vr5e4zJ33ac2X4ceN2YfiaYUuk0dJzLyj4w/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_011_0534e462cc5e.png)  
 在图中GND上注入+8KV，没有问题，因为右边的TVS吸收了大部分能量，由于正向导通，钳位电压较低（小于4.4V），电池保护板没有触发保护机制。但是如果注入-8KV，TVS管开始反向钳位，瞬间的钳位电压较高（大于4.4V），超过电池起保护电压，电池触发保护机制，MOS管U2断开，导致关机。下图是TVS管的钳位特性，也能佐证这个结论。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjo4icfj2rHkEmpibAicVNy4trUclLsVUCYD1wy347CvEhNL2lAoHuQGdFQ/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_012_a488cb98dad7.png)  
 注意电池保护板的保护IC，是判断C1两端的电压，来决定是否起保护的。所以要解决这个问题，需要增大C1的容值。实测将C1增大到1uF，关机的概率明显降低了。  
 降低了，但没有彻底解决问题，肯定还有其他原因。  
 这个原因是先猜出来，然后试验验证的。  
@@ -314,7 +314,7 @@ MIPI，LCD\_TE，LCD\_RST远离USB接口。
 下面是这次电池保护板的走线，ID的走线与GND有较长的耦合长度，GND上的瞬间能量能很快耦合到这根线上，最终直接进入到PMU。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNj6IsdSv5UlzB9ID6X2lhMyKibz4mMuRxhZmLdZOShFH6xCseKhPDOAibg/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_013_9c1e857076ca.png)  
   
 
 虽然主板上ID走线也跟GND有很长的耦合距离，但是主板上的GND与Vbat之间有TVS钳位，GND的电压不至于跳变太厉害，也不会耦合很多能量到ID线上。反而是电池FPC上的GND电平跳动最大，ID先在FPC上耦合的能量更多。  
@@ -322,7 +322,7 @@ FPC改版成如下样式，ID和GND基本没有重叠区域，能量也不会耦
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjxqhKXLBL5ObuzGYWsX1q3qKibbAh6LvwkkbGfoj3ljOAIQ0a04DXtEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_014_ae5d3bb31a50.png)
 
   
 
@@ -337,7 +337,7 @@ FPC改版成如下样式，ID和GND基本没有重叠区域，能量也不会耦
 没哟仔细分析IC损坏的原因，因为发现TP FPC背后的双面到点胶太弱，根本没有粘到GND上。TP没有很好的接地，导致了这个问题。  
 只要TP接地良好，就肯定该不会出现TO IC失效问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjTlP1aoiaINj3iaQEKs6SHe17aUJ5O8eDku6S28jjOkEtEbcBFibeH5Vww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD静电不用怕_本文告诉你一些解决方法_images\img_015_33e7510a79a6.png)
 
   
 

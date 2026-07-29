@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/La6AABI-BrRmdMlrsR3kQQ](https://mp.weixin.qq.com/s/La6AABI-BrRmdMlrsR3kQQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_000_ec559f3ff72e.gif)点击上方名片关注了解更多![图片](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_001_909e8086e918.gif)
 
   
 
@@ -21,27 +21,27 @@
 -   **正激（Forward）**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV503kmo5DnnSw2cicGPwMkcjnVHbary3wLQfkNRPoYVMibonLzNCvvyVAQ/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_002_cc8b3a7d6a29.png)
 
 -   **反激（Flyback）**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5cw9t0ou2NAdszKC85yjoyKW7X6tup9ibiaDLuNpeUGYeG6NFVal8GIcA/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_003_4a6f2a47321b.png)
 
 -   **半桥（Half-Bridge）**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5dNWEPGbo8ciaXTXIHZw7urztRvJicIgicjPybHHXuibNFaGnArmfmDvPYg/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_004_8123029b5943.png)
 
 -   **全桥（Full-Bridge）**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5wOg96vxz3fwfZolXAKAkrIkdhyTnYXBu7S4vqGAHT5F0eyIZ9pKmjw/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_005_20cf6b04ffd3.png)
 
 -   **推挽（Push-Pull）**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5ep6A0krysCaPicuFK6KrN13RF6ibFJNcaSXtznd6bmQGOTxLicO4hNsMw/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_006_2c47458c6e76.png)
 
 它们各具特点，适用于不同的功率等级和性能要求。例如，反激结构简单、成本低，适合中小功率场合；全桥和半桥效率高，常用于中高功率应用。更详细的优缺点对比，请参阅PDF原文。
 
@@ -51,7 +51,7 @@
 
 下面主要介绍一下**反激变换器（Flyback），反激是最常见的一种，尤其适合功率小于150W的应用。因为它结构简单、成本低，只有一个变压器，省去了输出电感和续流二极管。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5bM7zKyIScic2j93SBTybX6W6ibMxd31OicSXG4ePJW9Vv51cW5jAqdTwg/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_007_3d7f11c8f854.png)
 
 反激常用架构模型
 
@@ -66,9 +66,9 @@
 
 整个过程靠的是**磁场不能突变**这个物理特性，所以变压器既储能又传递能量，一举两得。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5xMJJhZrJWTqnYT8wHwT18D83eFVaKfEM8U4grpVYjTFOqOpUs95MzA/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_008_b511479dee3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5BSYFia8GfACujdjsleXo0rjbWnurcfeCFkA8JGIcZA2eh3l09Ow7kUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images\img_000_e12cfd20a989.png)
 
   
 
@@ -81,7 +81,7 @@ CCM vs DCM：两种工作模式
 -   **CCM（连续导通模式）**：电流始终不断，适合大电流输出，纹波小，但控制复杂；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5UFlLS0U68tajK86icedV7Adb7icdxG7bWnfdT4icFmYKic0pWBJb6bu7SQ/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_010_131f4aaf1b43.png)
 
 CCM模式反激电路的典型波形
 
@@ -90,7 +90,7 @@ CCM模式反激电路的典型波形
 -   **DCM（断续导通模式）**：电流会降到零，适合小功率，控制简单，但纹波大。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5dP0wgx0zx0WX87QGC44wDgViaV7QxvStMS3DM5nZ5sgEf8ZezSQgTEQ/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_011_964eeb5fc643.png)
 
 DCM模式反激电路的典型波形
 
@@ -107,16 +107,16 @@ DCM模式反激电路的典型波形
 -   **漏感**：会引起开关管电压尖峰，通常需搭配RCD吸收电路进行抑制；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5f2ktyuwMPUjmOs5MWr57P8NoYpozlPR2NqQDhBnLolIpic4tibSuQHEA/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_012_fda1108f1f18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5ab0uhJzYlM2HXpZnxPDlAiaWGOwvR9uALav2cqdkkicibetoagsqaMztA/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_013_91cdb631e1ff.png)
 
   
 
 -   **Coss（MOS输出电容）**：与漏感形成谐振电路，影响EMI表现；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5ibS6foApicz8MJX0M4Ziatn9yWkmzjw8Qrlq5F25VJtibh865EOLmibdEWg/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_014_617be3896006.png)
 
 -   **二极管寄生电容**：可能引起高频振荡，需通过RC吸收进行抑制。
     
@@ -128,9 +128,9 @@ DCM模式反激电路的典型波形
 -   谐振的原因以及参数优化
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5aomVSewSJWBs0lyU5UzBJr5BHWkuicrnT2D1BatbIhIiboicWTVKBic1IA/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_015_232d56e3051d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5H7sDCwqK5LRUiaBttKp6ENSmMkptf0ib7W1DY8d0CXR1FJxSADI024Hg/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_016_c0a315ed2b9c.png)
 
 文档后续还系统介绍了以下内容：
 
@@ -162,13 +162,13 @@ DCM模式反激电路的典型波形
 -   **绕制工艺**：采用“三明治绕法”可有效降低漏感，但需注意层间电容的影响。记得将初级绕组的噪声端（漏极）置于最内层，有助于抑制EMI。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5A0LFb6mE1sWlenwL4rEjG53jAkOWMH4BbLVuSgM3FjeQ5F0jbVPoibA/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_017_79c51d101cd0.png)
 
   
 
 文档中还提供了一个典型反激设计实例（85~265Vac输入，12V/1A输出），涵盖输入电容计算、反射电压设定、峰值电流估算、电感量计算等关键步骤。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5vNeERedERP5zrYBPO5AE78441A3icH83KeqXa1YyBoIITNnxcTiaI4cg/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_018_2f655990391f.png)
 
   
 
@@ -183,9 +183,9 @@ DCM模式反激电路的典型波形
 -   Vcc电容应尽可能靠近芯片放置。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5axnn6d6RoaKWDAtW9qyyCibFUKppbolzctqqiasMeWYJGTZjA5r3eGKg/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_019_38e87c9a836d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5m66a1scw4BYf258AH70QRsMskoxIia9SiauGWQc0U76Jehz6PWMSUoog/640?wx_fmt=png&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_020_a8d58eae72f8.png)
 
   
 
@@ -207,6 +207,6 @@ PDF电子版获取方式
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5folp5wmiab6icnXkXlU5ibjn4rb25CoHibOhvU7IAhcmfDib5e9yjDrrE0A/640?wx_fmt=jpeg&from=appmsg)
+![](这份MPS官方的37页开关电源设计文档_没有套路_只有干货_images/img_021_3def41ab658d.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

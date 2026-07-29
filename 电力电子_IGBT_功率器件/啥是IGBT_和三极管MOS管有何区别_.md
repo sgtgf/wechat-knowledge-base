@@ -10,7 +10,7 @@
 
 > 本篇文章就来聊聊IGBT以及和三极管MOS管的区别
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhzrffBEOE9y5ntiahPK4qFVTuvgibRDGUz4BAicUhccYE4ibE78HbujAp1g/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_002_e28f1338124e.jpg)
 
 晶体管分类图
 
@@ -20,7 +20,7 @@
 
 > 在介绍IGBT之前，让我们先来回顾一下三极管和MOS管的优缺点
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEh5myjn2FvB0AetXZGApvgxfxmWW4hLONV0JBQlfUM99zj7q1OaYaZEw/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_003_f981f511a0f0.jpg)
 
 优缺点对比图
 
@@ -42,7 +42,7 @@
 
 学一个东西，带着疑惑去学，自然学的明白
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhZKRQyVKXF5iatIYziaR3ZOhdHdWKViaCzlO0WjibbISHNmlX8lWiaibApQjQ/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_004_c21779fd432b.jpg)
 
   
 
@@ -51,14 +51,14 @@
 -   先来看看IGBT的重要性
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhiau4m3fIg8Q3S5HvJxTtaBYNgTE4whbt5O43qnGIpfy9T7ukzdERqUA/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_005_166b1ed77d07.jpg)
 
   
 
 -   IGBT的优势所在
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEh4QiadMTaibPPoRCg6I2icoSiclT5B6icSMl1vwGyibibYMaw11aZ7j0moOsHw/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_006_44bbcf7e77e4.jpg)
 
 IGBT的特性
 
@@ -66,7 +66,7 @@ IGBT的特性
 
 根据IGBT的特性，就可以应用在汽车逆变器上面，将发电机的交流电和电池组的直流电互相转换
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhZSkSic90rPOdxK7ZsuRl2dh0YticT0P3V5D4r1gfn7dCPN95zicq8aibkg/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_007_ab4f5f45c15b.jpg)
 
 IGBT的应用
 
@@ -77,13 +77,13 @@ IGBT的应用
 -   先来看看IGBT的符号，是不是相当于MOS管和三极管的衍生版呀？
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhraZ8HEWAy6cpQ70FMjn3rDKME4IjhReq0hww8EIrxuTh9iaDW9uErPw/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_008_c2b8a97a803b.jpg)
 
 IGBT符号
 
 举个电动汽车例子说明，如果电调（就理解成开关））开关频率越高，那产生的PWM波也就越高，体现的是电机的转速变化越平稳
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhbfUwWNo6bB206XgHIr4au3XFewU9ibQ5GR2we8W8RSKSuTxT1ux0nyw/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_009_c28f830bc611.jpg)
 
   
 
@@ -93,7 +93,7 @@ IGBT符号
 > 
 > 选三极管？可以试试，毕竟三极管可以耐高压/流
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhRib3sEPKsibPicGwdTj2dFjIm2Mzcv4yR6VFRibUib9dxnma74BW9ENMf8g/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_010_44d3961bb64a.jpg)
 
 三极管当做开关
 
@@ -103,7 +103,7 @@ IGBT符号
 > 
 > 可能会想到用单片机来控制，但是单片机的IO口输出的最大电流也就20mA，对于三极管基极所需的电流微不足道，所以是行不通的
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhXnakEzREDVMKDWTfNYYCKZAjF1xEvCK5Wy0pibFxIWxHTwKHMsibCWcg/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_011_416b26d42c78.jpg)
 
 单片机控制三极管
 
@@ -113,11 +113,11 @@ IGBT符号
 
 下面举个例子说明
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhk0qlxibArVx08dqhsaxns8picxODStgby8jXicZLdtM8DXpk5O3mO0hhA/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_012_0d08bc0e074f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEh25UQ0TpnTw2DbFaibyJ3Pmic9GxGUdoGOp1EeJXImSJt6dBqhUDKzTzw/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_013_9f1ef6182ae8.jpg)
 
   
 
@@ -136,11 +136,11 @@ IGBT符号
 
 > 现在，我们把上面的图片简化以下（去掉限流电阻，再把NPN三极管换成PNP三极管）可以得到这样的符号
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhbSFicyMetqeHsiclPn542TRF72bA0UjHWyn9e1t5b3ibfoa8ibvPibtLh4A/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_014_3d806e44baf0.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhN9NBNib9vKBR72M0dtQ2owztxIlBGVZX8vtibqVV2DpticNrBIyq5UdgQ/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_015_74aa4435917d.jpg)
 
   
 
@@ -148,11 +148,11 @@ IGBT符号
 
 # 总结
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjA1AOBmUKKzt9ib5T53BjEhricOAVXZs6EcJt3E6z3Vf2yHNMnVl3MkQE3rVPmTODAYkPOIMAsC7TA/640?wx_fmt=jpeg&from=appmsg)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_016_b5d317bec030.jpg)
 
 区别图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](啥是IGBT_和三极管MOS管有何区别__images/img_017_8f8c22b4fa63.jpg)![](啥是IGBT_和三极管MOS管有何区别__images/img_018_d5dcc7ecfdf3.jpg)
 
 ## 
 

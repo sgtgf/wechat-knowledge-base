@@ -13,71 +13,71 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LVxFusQ5xO4Oia3Ov5IB5AI3ibMhlmJ3tL7pht93HUmV9MH5MoSYXiao8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_000_1454b32ebc77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LoN10KWplicl1Yvr9scCiaWd90nKznz8TyY8icdGYCib9EFkp34YQKNlGYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_001_59ab8a2de92e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LTeIXeHuyCnLvv4CoqxyoopCico7KlYKtzFSQucCcCl28XI9wTxr8yvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_002_79e403a1f8c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LDaZVyibMJnbkI6l0pLO4IHs2jW7OsicKTRWXeUBXTOuP65lDicZ1e7Uiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_003_a4e6fc06b154.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LUicss5bvPyFY2IqibY9qNlyHSBQsuicgux5NicQr7onKhvBwTHFtktSvhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_004_49026d7530e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LhjgvHDo34TzIThJsTm62w04xpRDwIa0jvV4qfv4tulwlgzKnzQGpVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_005_db7f3a3d470d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LqZLbmz3rtzS9t7H7ickOsIyjHiaIG1m9h5OUggQ5Lm8FEwbTUH45VqJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_006_e19cc9db2669.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LBNa4icmaBSZ6tIXe8LP3H7oCVm505q75D9NMgc3ANTKlEEP8aicibfz4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_007_8284d663edde.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LluOHCNDmnyMhtDlE7ugyibeXibHaSx6oGtR4fpMIS4UbiangCVwcv9V2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_008_95e5ab86959b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LuJ2ia3aqJNDfIHjriaJiaib3eaAatIGpM5HMKYHxof0QdNpSQbxx8LDWuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_009_e5a0317233c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LTAPEM19gjGZ7KKUfAibW94icXw20PsCZiceBmq8jsIrr9ibYhsiblh4EuSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_010_5ae93f62b08b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LGYrHCs6KpVknwDtSakqfXoUPesBxusqySsW7WciayoBgIQR43EKxuibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_011_606d8d563dd1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LibhDpoLCJvnkI2ZeK7QXdIhmKPVsLBibg6P4mXn0q5KmKBxDd4mmyK4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_012_f8b25e37cd29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LjXtG1ia5yk7y9XoJB8PgWskSNdiaYCMIJRQXSuWJvN8RknP4qsINSicXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_013_f12784f3b1a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LH5hQtuCCEKwWOibAzUk837j4sQ4fAU8fw7xHUKYu2t8E9lcJLK4DdIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_014_8812f6b493bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LjWsqOgOl22AIxmjQmUVCJJRqAnYW7PvvwoZ3FG8vomAldy3r9JFXrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_015_674e779b23f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LnUgqwSH2ENJefZTU4bkPodOq1Z5s8oJzZfia5ESBYRnufZ9OYoxbqCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_016_fdeb8b10af07.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LwD9l99ST5anlYQDcpMp59qJBImc98BVXh2x4H5t0YqkicZBRlJiatrMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_017_824ed1153e03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LmLeLoomYhIwgFNy7lLib2ZOUfBbhBVg5eHc1DCttsVGXt4vag9EpnCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_018_a189dc0b8122.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LrSDyGuNggtZYfpk3drv8ia9B2PBY8ibw7ZVBlyjnWkhO47NficOvDn6Eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_019_87ab8e3256ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LQ30apib8I5xeul4zBhUHx60AFTO8BnsTrmficJkgLmkfYXiaqLHt2ISbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_020_3b1c1cda9d63.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LLtK2LxsicII1FCZzlJYibTYkPElfsEHnBRlic0NYvLExjicK5VDeYbpN1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_021_f189158ff745.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LjCv81TSlDmiapNbH5QT75ZdLjIiaI78vqr5r5Kic3y1ial7ViaPlAo2ym0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_022_e25bc2b35746.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0Ljwh9SsELxMo3bFyAg4unP99hkovLkS4m00mKqAibzZHYrJDTdJdZ4HQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_023_73c0acae645e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LEyZ8y6QiajaVpibDiaJaFRaC7k08Mzr3KlWsnsfajAcQrgdCrb1Tvov0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_024_c86480bd1201.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0L4icicWT3DjAHBzia7OlqIDjaHZNowIZe2h02Cehm9geSsen2WgvEI0IXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_025_1e1ca9303885.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LxEsCTSQwmx2a2bQuTgCtmTibcPb0xfJTx6tWatlAfIjZtWpTccLQu2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_026_f4635210730c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LjyicVicvicu0cAQjBy8PGNZVTqMicGmic2eIV51edh7dcQ9BNDqRQmrUkDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_027_203f6fd1799d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LxD9gemBtkGKgJLeb77TYOKWonuLcAbOsdYtQlhaJJibDpNMeic8jRLSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_028_5e8919dc4473.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LBOInXp4xrE1akC9PtNu3VadPrialDUDicdl9YPybSjfk83rcRzD2Mtag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_029_5a582b0f4cb3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LK2Lf0ptiaibwDevXxbvJeTdo5XegibHibYuQOFp4FyW2ib1DXxIFBOXq4iag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_030_0e77e1aafe6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LQnBatMujiauAnHiauXRJphPmRibxqeDKhWPFdrpO1z0ibQWcN0f4sQJxNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_031_8346b9f7cfb1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0L4icf3a9Bx4MC0riaBtN3hQibh61v7xgEfrQPsu7ym3IEs0IUw8MOYm4vQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_032_15de721b4aaa.png)
 
 注：文字与图片报告无关
 
@@ -163,14 +163,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmCic7Hsu67HnwiabhXuq77Wzia7ddesV8NbWjg8zqhEaibSMBF7nvhBDdhSnY9FaAYhNNHSdzIlicjt1g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_033_551da17acf09.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCic7Hsu67HnwiabhXuq77WzBMricO9ym6D0azCx9g5N3kjbUcFGlibib2drGJ1LSet2uptRBVgvzy1tw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_034_a15178668eb0.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCic7Hsu67HnwiabhXuq77WzgfL6QqHAvFbZjZxBqEGOtuZDyChrdic1wibPbjkDYVHV61Z249Eichn3w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_035_dcdf35090e3f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmCic7Hsu67HnwiabhXuq77WzFXSgoict9XJF1yCaOT2Ut1PsLc81nibIhRBcFzcVCxiafib3j4llSxtjyA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件_具有高功率和宽增益范围的高频CLLC谐振转换器的设计挑战_images\img_036_a611e5ea154a.jpg)

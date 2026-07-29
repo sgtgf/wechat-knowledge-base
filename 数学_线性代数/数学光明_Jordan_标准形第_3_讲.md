@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_cSMD6Kru76WYDOL82TKTQ](https://mp.weixin.qq.com/s/_cSMD6Kru76WYDOL82TKTQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRoocsEqn4YN9U4adSricZzMKDDKpROg1nE9M6mu0M7raMYOONnGNibJQf9fBVvGGKd9qrQseGT8ZxqEWgGNUUhPFhZ6Nmw5eL88qTicQ/640?wx_fmt=jpeg)
+![](数学光明_Jordan_标准形第_3_讲_images/img_000_af059c6e4137.jpg)
 
 这张图是在讲一个 **5×5 矩阵的 Jordan 标准形（Jordan normal form）怎么求**，而且是一个非常典型的例子：**只有一个特征值，但 Jordan 块不止一个。**
 
@@ -533,4 +533,4 @@
 
 本节课的教学海报。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsFdCmmHQc8s6xicfotE6nBXRIPeyg0OiaRFibbZcjupjUSImtEKBedYp24nb6AcVkR3s01QKTIBuZEDgZnfHQuvwBKUj7pJdnZPg/640?wx_fmt=png&from=appmsg)
+![](数学光明_Jordan_标准形第_3_讲_images/img_001_a1132f69d35d.png)

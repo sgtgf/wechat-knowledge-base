@@ -10,7 +10,7 @@
 
 CAN总线终端一般都会并一颗120Ω的终端电阻，可别小看它，实力不容小觑，一旦出现问题，首先检查它。今天咱们就深入分析一下这颗电阻的作用及选型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeYEA05T7Nbs8HFC4zDZRDRL2WvrlteGZRaaoBD6EItibZbQJfKN6cHJA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线出问题_首先找他_images\img_002_875c98afa695.png)  
 
 之前就知道阻抗匹配，但是究竟匹配的是什么呢？日常工作中为什么会有波形不稳定的问题？下面这些知识点可能会帮到你。
 
@@ -34,7 +34,7 @@ CAN总线终端电阻的作用有3个：
 
 CAN总线有“显性”和“隐性”两种状态，“显性”代表“0”，“隐性”代表“1”，由CAN收发器决定。下图是一个CAN收发器的典型内部结构图，CANH、CANL连接总线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTe24EibJTrTGRZP4ARhbozcsVD6JrASq6BRrfWCRRSovY3XhVqLKgnJNQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线出问题_首先找他_images\img_003_33d53170960f.png)
 
 总线显性时，收发器内部Q1、Q2导通，CANH、CANL之间产生压差；隐性时，Q1、Q2截止，CANH、CANL处于无源状态，压差为0。
 
@@ -46,11 +46,11 @@ CAN总线有“显性”和“隐性”两种状态，“显性”代表“0”�
 
 在显性状态期间，总线的寄生电容会被充电，而在恢复到隐性状态时，这些电容需要放电。如果CANH、CANL之间没有放置任何阻性负载，电容只能通过收发器内部的差分电阻放电，这个阻抗是比较大的，按照RC滤波电路的特性，放电时间就会明显比较长。我们在收发器的CANH、CANL之间加入一个220PF的电容进行模拟试验，位速率为500kbit/s，波形如图，这个波形的下降沿就是比较长的状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTe0KzXQgfjGhtzdofcNiaRQ8PiaqlJiaqYicUAfLkibl0BBd3asp4hTmlx9ug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线出问题_首先找他_images\img_004_95d0b682a793.png)
 
 为了让总线寄生电容快速放电，确保总线快速进入隐性状态，需要在CANH、CANL之间放置一个负载电阻。增加一个60Ω的电阻后，波形如图，从图中看出，显性恢复到隐性的时间缩减到128nS，与显性建立时间相当。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeed2nyRxMibI8bCPRibsOOYj1B9BWXdaxt0YUiaZord2hhzKMxXVFUjZVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线出问题_首先找他_images\img_005_8dc68c37e270.png)
 
 **三、提高信号质量**
 
@@ -62,11 +62,11 @@ CAN总线有“显性”和“隐性”两种状态，“显性”代表“0”�
 
 别人进行了一个模拟试验，位速率为1Mbit/s，收发器CANH、CANL接一根10m左右的双绞线，收发器端接120Ω电阻保证隐性转换时间，末端不加负载。末端信号波形如图所示，信号上升沿出现了振铃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeDHROzUm2y9QgLbZZickDLjxnOS5NKM2lOjN7AQt4u4WWHHCvooA0rVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线出问题_首先找他_images\img_006_ff1b98e7d52f.png)
 
 若双绞线末端增加一个120Ω的电阻，末端信号波形明显改善，振铃消失。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTe3L6RwVckZUriaqqHOshog2hPzEEBgiaQjMOjccAEnsaiawaIJK2wEOMrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线出问题_首先找他_images\img_007_f8de94be1470.png)
 
 一般在直线型拓扑中，线缆两端即是发送端，也是接收端，故线缆两端需各加一个终端电阻。
 
@@ -80,7 +80,7 @@ CAN总线有“显性”和“隐性”两种状态，“显性”代表“0”�
 
 采用两根汽车使用的典型线缆，将它们扭制成双绞线，就可根据上述方法得到特征阻抗大约为120Ω，这也是CAN标准推荐的终端电阻阻值，所以这个120Ω是测出来的，不是算出来的，都是根据实际的线束特性进行计算得到的。当然在ISO 11898-2这个标准里面也是有定义的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTea917ibvWf85A4M15q5Iw9LKFjTTPLibiat2tIfIl7ehPMIibdfEpWoMAEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线出问题_首先找他_images\img_008_b6fbf1211340.png)
 
 **为什么功率还要选0.25W？**
 

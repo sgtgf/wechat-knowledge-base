@@ -9,21 +9,21 @@ ASR320N650D56是650V SiC MOSFET，此款SiC MOSFET最高耐压值为650V，内�
 
 ASR320N650D56规格资料;
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUR7nmSLFW6EsogEGeAka0LQ5K4CLZC88cttdiaPozSVfoELD7Kjx7JYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_000_bf2ef9196721.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUiaFbIZibdhD5NQAVX7p2JcC5j4M3nxKWHDjk4zCY5n76s8906DtUlDDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_001_01eb0ea1ae7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUkPq9tJiaOWN9Qichcunf2xbG6k597JyJhbHicvtw1zMMOs7hkjHV9oic9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_002_85de62a57f06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gU3m1lamgrQX2TH9Ps8AI1y6FvPEZkficzzdB6nK0Qic3YibZG7hFpxu7TQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_003_2c8fc79f4fd7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUChLMrSiaoDmTp39UMZ46iaJYvECGhmRpOuszTusibGYbre6rh7Obxcu8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_004_ef2c6f00b714.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gU2IT19x5Po6D2YmBIWWGUX6gDJKjKobKLyRnB7jeibu1iaNBnYDCBs3AA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_005_8e46aad68391.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gU1qYj4ib2pYPB8QDv8tSY89libnsJicC1GicyvVDFl2jx9cPN9boXnFmfcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_006_6247b26f9910.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUOFxHwtSPbr6A988w1duxficcoEfltDX9geh2KlUX6P6OtrVbwzJSQLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_007_61de8dd9a952.png)
 
 ## **碳化硅MOSFET常规的耐压档位分：****650V,900V,1200V和1700V ，高压达到3300V.SiC MOSFET分立器件非常适合硬开关和谐振开关拓扑.**  
 
@@ -37,20 +37,20 @@ ASR320N650D56规格资料;
 
 **利用一系列精选驱动IC产品来搭配碳化硅MOS管，充分满足超快碳化硅MOSFET开关功能的需求。****利用了碳化硅技术的优势：效率得到提升，节省空间、重量减轻，零件数量减少，系统可靠性增强。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskuBBanT0m12SvVriau3u5gU69nt2Wg0xwSEUIwEzFchw5l64XqJq4j285T7X2fjqy22mtdbb8uia3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_008_1921704ece4e.jpg)
 
   
 
 ****公司拥有全自主知识产权，已申请30项专利技术，采用6英寸技术已量产30余款650V~3300V全系列SiC MOSFET产品，并建立起车规级的SiC MOS模块工厂，可为客户提供整套应用解决方案。****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUTXLJznNmTOLMQX0bYFTpfbeMg1Bw4icmutqv79y7jwtjg92eQu0eypg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_009_50a26e5d1f04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUaXzOSibOwia0MAfQH23pGibB530hjypWuqR5m5ws5frDhfS3wmS0tnt2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_010_09c8f03eba2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuBBanT0m12SvVriau3u5gUlLuDLvdXNERfY747DkJB4S2poibvTE50Jxb4RMjvCF8ibnUziapzCBzqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_011_01dc1e298eef.png)
 
 更快的开关速度，极小的开关损耗大幅降低了系统损耗，使得变换器高效化，同时可以通过高频化让电路中的磁性单元体积更小，重量更轻。极小的损耗加上更优异的热传导系数。进一步地简化了辅助电源的结构，减少了元器件和驱动设计的复杂度，从而大幅降低了辅助开关电源系统成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslNic9sjLPicX4iamTpRw3iakv6I7R1NeMAicn80O4rzIgFpY3k7BVcFkRemJHprpJ8ficdrjuoCPZmuiaPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_012_d154d812e2b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNNjsLUL91gYPM0MD6aQl4EEqfbFCSiaq91m05nPdYvSpBSXkAzduFia0LzCdxJ8W0ND8LUNGFoQzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超薄DFN5_6封装国产碳化硅MOS管（Sic_Mosfet)_适用于小体积智能家电_PD快充等领域_images\img_013_b6389f4badf7.png)

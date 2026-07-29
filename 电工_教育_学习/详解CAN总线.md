@@ -28,7 +28,7 @@ CAN有很多优秀的特点，使得它能够被广泛的应用。比如：传�
 
 一个典型的CAN应用场景：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvrjusGvZuqfibxDldtWiaa3fp3AEiaxkww3jL0MNmC8icXQJCRozgOZGcXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_002_471a05ee897a.png)
 
 ##   
 
@@ -36,23 +36,23 @@ CAN有很多优秀的特点，使得它能够被广泛的应用。比如：传�
 
 CAN总线标准只规定了物理层和数据链路层，需要用户自定义应用层。不同的CAN标准仅物理层不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvX1ZaoYBwIQqewDkZXL0ULgIYv17Crlm0o64Bp7nR3PdWyzibgTmDbIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_003_50c51806a3d8.png)
 
 CAN收发器负责逻辑电平和物理信号之间的转换。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvVF5VjxlU77S7fTQNlyMCWZKibic96SDgD6D1sUuWiaOBgfRmkJ2pic4otw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_004_d24375405fbf.png)
 
 将逻辑信号转换成物理信号（差分电平），或者将物理信号转换成逻辑电平。
 
 CAN标准有两个，即IOS11898和IOS11519，两者差分电平特性不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrv6StC2d6MQukapCaUCntgKdOBzm6mUbrF39QVqT71H9jgvTEiaHsbHgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_005_2196a0e7d91a.png)
 
 高低电平幅度低，对应的传输速度快；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvy45ib9wsFCQO3wVa1AujEB8AFz9Pya10KbLv0FfU1eyzdicXHcUQp98Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_006_4cb0ae486ccf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvxwicAZQyicdetg0yKSJchW1Y6clItlTrCpFQia5ibY61FNUx4yc1yALzHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_007_32da92248df6.png)
 
 \*双绞线共模消除干扰，是因为电平同时变化，电压差不变。
 
@@ -62,9 +62,9 @@ CAN标准有两个，即IOS11898和IOS11519，两者差分电平特性不同。
 
 CAN有三种接口器件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrv9Y6ry7OtyBickic2vOkd1Y6WgZHtjPwBbLSWa4x6UHdj8KChIRdjEQ2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_008_044885176e47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvUia3hRiaWibMXVNOBRJUwYcHdLdVv3lK0UsxYWUibLgyzgvCXWW6DXqeicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_009_c1030c2f3cc9.png)
 
 多个节点连接，只要有一个为低电平，总线就为低电平，只有所有节点输出高电平时，才为高电平。所谓"线与"。
 
@@ -72,11 +72,11 @@ CAN总线有5个连续相同位后，就插入一个相反位，产生跳变沿�
 
 和485、232一样，CAN的传输速度与距离成反比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvLwkNP6iauaPv6J9RwaKy9OicakxkM2QQsicywcnJlLy9icQic60lN2X5ztg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_010_c5e9601643d8.png)
 
 CAN总线，终端电阻的接法：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvU7J5JUYjRH8Eb3jbK11EwyqdKmkaNAgtibDvxBG10Lw7xQEbakhMiaRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_011_bd98e677959d.png)
 
 为什么是120Ω，因为电缆的特性阻抗为120Ω，为了模拟无限远的传输线
 
@@ -92,7 +92,7 @@ CAN总线传输的是CAN帧，CAN的通信帧分成五种，分别为数据帧�
 
 ### 帧起始
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvSuTkzriaIVcB9pucSmaQHczS8ckEUYK6gKS8GOiaylpfRwHteG7GUTxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_012_61e27f31b32f.png)
 
 帧起始由一个显性位（低电平）组成，发送节点发送帧起始，其他节点同步于帧起始；
 
@@ -106,7 +106,7 @@ CAN总线是如何解决多点竞争的问题？
 
 CAN总线控制器在发送数据的同时监控总线电平，如果电平不同，则停止发送并做其他处理。如果该位位于仲裁段，则退出总线竞争；如果位于其他段，则产生错误事件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvuficbGDEkuOFuE5STEr7SxYumb3ltV4zZ9ZX4rlxj5WiaesXIaLgwJ2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_013_d7a7f10ac1c9.png)
 
 帧ID越小，优先级越高。由于数据帧的RTR位为显性电平，远程帧为隐性电平，所以帧格式和帧ID相同的情况下，数据帧优先于远程帧；由于标准帧的IDE位为显性电平，扩展帧的IDE位为隐形电平，对于前11位ID相同的标准帧和扩展帧，标准帧优先级比扩展帧高。
 
@@ -114,19 +114,19 @@ CAN总线控制器在发送数据的同时监控总线电平，如果电平不�
 
 共6位，标准帧的控制段由扩展帧标志位IDE、保留位r0和数据长度代码DLC组成；扩展帧控制段则由IDE、r1、r0和DLC组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvHnHe29WUlusGHCJXKd4W5vX6r6Sen63ewz7ZSySeunZ2PKN02eGfHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_014_cff96ea3e7e5.png)
 
 ### 数据段
 
 为0-8字节，短帧结构，实时性好，适合汽车和工控领域；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvib3tPiaictMhF4KySh31BWz4IGc6ve3dTnyVRCzeajpm3f9LYpBZD5h5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_015_8d5be247bb4a.png)
 
 ### CRC段
 
 CRC校验段由15位CRC值和CRC界定符组成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvU1atU7AhicOvibYQglE7UQNGrUV2FKrCvEKTwlvlSb73U69LTaEwMaQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_016_14926cc2f35d.png)
 
 ### ACK段
 
@@ -136,7 +136,7 @@ CRC校验段由15位CRC值和CRC界定符组成。
 
 远程帧分为6个段，也分为标准帧和扩展帧，且RTR位为1（隐性电平）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvNfdSJHqAxUUO5ribUoVRhCK4cw9PWlMUUGtBJzPwXDBt2hWmiaSbicibwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_017_07d2ddc5ec9e.png)
 
 CAN是可靠性很高的总线，但是它也有五种错误。
 
@@ -154,19 +154,19 @@ CRC错误：发送与接收的CRC值不同发生该错误；
 
 为防止某些节点自身出错而一直发送错误帧，干扰其他节点通信，CAN协议规定了节点的3种状态及行为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrv9Y0lKZicDDiciax3TbylIjEIiaWameT31B66sA2VPLVZb1Zhaa1Dk8BicLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_018_e082afeda0ed.png)
 
 ## 过载帧
 
 当某节点没有做好接收的"准备"时，将发送过载帧，以通知发送节点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrv92tTwh8w3v7jGU0GxW63NiaiaibPK9bh4NARLiap0SXcrTrsqwvJuZtMWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_019_5c69c8500dda.png)
 
 ## 帧间隔
 
 用来隔离数据帧、远程帧与他们前面的帧，错误帧和过载帧前面不加帧间隔。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvWoI37cKNBKFqHZl5sAcKiaa9362293uoUNnyuLqgFWNibIIaiciaBtSmpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_020_380a32fdefda.png)
 
 ##   
 
@@ -176,7 +176,7 @@ CRC错误：发送与接收的CRC值不同发生该错误；
 
 虽然不同节点完成的功能不同，但是都有相同的硬件和软件结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvedibic4x7Y2VpFibh0WLwakbjHtH3LnCHafJ3eGAQDJUzKmknibxj1FaVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_021_0c68dc512889.png)
 
 CAN收发器和控制器分别对应CAN的物理层和数据链路层，完成CAN报文的收发；功能电路，完成特定的功能，如信号采集或控制外设等；主控制器与应用软件按照CAN报文格式解析报文，完成相应控制。
 
@@ -186,7 +186,7 @@ CAN硬件驱动是运行在主控制器（如P89V51）上的程序，它主要�
 
 一个CAN节点除了完成通信的功能，还包括一些特定的硬件功能电路，功能电路驱动向下直接控制功能电路，向上为应用层提供控制功能电路函数接口。特定功能包括信号采集、人机显示等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvf98sryWlx9ahg7EtCFSJLeeGINQS9HiapkkiaXzHFeHQhZQJHj07mCtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_022_83430f635aed.png)
 
 CAN收发器是实现CAN控制器逻辑电平与CAN总线上差分电平的互换。实现CAN收发器的方案有两种，一是使用CAN收发IC（需要加电源隔离和电气隔离），另一种是使用CAN隔离收发模块。推荐使用第二种。
 
@@ -194,7 +194,7 @@ CAN控制器是CAN的核心元件，它实现了CAN协议中数据链路层的�
 
 MCU负责实现对功能电路和CAN控制器的控制：在节点启动时，初始化CAN控制器参数；通过CAN控制器读取和发送CAN帧；在CAN控制器发生中断时，处理CAN控制器的中断异常；根据接收到的数据输出控制信号；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrv2Sz2D2lQfGzBcpDN4P4cLobp5robZOPk1Ywustgf3dnbtemblG2iayQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_023_f81af37250a0.png)
 
 接口管理逻辑：解释MCU指令，寻址CAN控制器中的各功能模块的寄存器单元，向主控制器提供中断信息和状态信息。
 
@@ -214,7 +214,7 @@ CAN应用层协议驱动是运行在主控制器（如P89V51）上的程序，�
 
 SJA1000的输出模式有很多，使用最多的是正常输出模式，输入模式通常不选择比较器模式，可以增大通信距离，并且减少休眠下的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrv4P9MdyxZjwabQRRyIoVcFkzXfu2H0b8lMYvYZJ11KmU5z5SS3NR42g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_024_44e074c915f1.png)
 
 收发器按照通信速度分为高速CAN收发器和容错CAN收发器。
 
@@ -222,23 +222,23 @@ SJA1000的输出模式有很多，使用最多的是正常输出模式，输入�
 
 CAN连接线上会有很多干扰信号，需要在硬件上添加滤波器和抗干扰电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvSX7GIqSPFXFUGjqskw3OSqjdqs69MmUp3FkqP5U4PGmANvSdgMMribQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_025_86a3c98f726b.png)
 
 也可以使用CAN隔离收发器（集成滤波器和抗干扰电路）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvFyds6Xkj0CQWABlnZ3Aj1Bs8s5nPFU2Cnq3SF4XKH8Ln6yibaO2nsIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_026_f8fbc048c4df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvLk5jFmeV3Lic0vKquNUf995267f6Rn2zB9mAcwhsXmRoMt15qq6w1QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_027_ea458bdb7779.png)
 
 CAN控制器与MCU的连接方式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvedKmCrgArzMibCOwiawRGicyRTrzJShtEfXuk7hBlvfVzEQ9VeaLBSBcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_028_f46ffc77bb7d.png)
 
 SJA1000可被视为外扩RAM，地址宽度8位，最多支持256个寄存器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvDN7zjlXBSgptwlHvJed86rJ6lF8g2JdJ9n9v3rlZDMpic6XnzBL2cOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_029_a84616466e1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvW081qs08SL8vQT2bksdYeezDGRiauo3yEQonqTBAjuiaxMpmbWXRZDWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_030_9fd287092948.png)
 
 1
 
@@ -288,9 +288,9 @@ SJA1000可被视为外扩RAM，地址宽度8位，最多支持256个寄存器
 
 `}`
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvIRb87ev7aOAoo4yppIDXGicVJRDUiaia86JPV3iag1an3nDopC4ZKuHhWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_031_08f7e6be1884.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvjxW7deq17oTxkCrR3PkqNnxvC4uM3WjLTbUqdxed9g4OTHhwlpKlpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_032_6d396a2156d1.png)
 
 将缓存区的数据连续写入寄存器
 
@@ -300,7 +300,7 @@ SJA1000可被视为外扩RAM，地址宽度8位，最多支持256个寄存器
 
 …… for (i=0;i<len;i++) { ReadSJAReg(RegAdr+i,ValueBuf\[i\]); } ……
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvpZ8VdVJKZibxMgTIzNX5Odk3bYoJ4DNAHMW3bSPdu8OnpqJ3eWjcklw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_033_616ec398781a.png)
 
 头文件包含方案：
 
@@ -377,7 +377,7 @@ SJA1000上电后处于复位状态，必须初始化后才能工作。
 
 模式寄存器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvCicDw9oX9Uj9MkD9SoHXopknicqobaqgsI7aeDpRicsMOfm9ic5mBwhhmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_034_5d72c898a135.png)
 
 只检测模式：SJA1000发送CAN帧时不检查应答位；
 
@@ -389,7 +389,7 @@ SJA1000上电后处于复位状态，必须初始化后才能工作。
 
 CAN总线无时钟，使用异步串行传输；波特率是1秒发送的数据位；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvibfnelRUbic2IhkFkV8DKJuZzTjPOJMjqdST6GGgcnDdAhuYNC0LYuSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_035_825bf5907d22.png)
 
 ## CAN帧发送：
 
@@ -399,13 +399,13 @@ CAN总线无时钟，使用异步串行传输；波特率是1秒发送的数据�
 
 3.启动发送。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvFqribbSxLe260BX5AYzVpOichcfbwAs4A1LgEoqHRHcc81TMbz3Fl2ibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_036_1e59c012ef9a.png)
 
 SJA1000具有一个12字节的缓冲区，要发送的报文可以通过寄存器16-28**写入**，也可通过寄存器96-108**写入或读出**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvkB7YbDDF9Bcf5dwcZ5fwFOrLt4oJBAgBPC6FnDVRxoZ07BKibgmveNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_037_5d05cfb13d32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvwMWuEXtCHiaITqian8rXL7hG02fCA6zM4eNXrC5TQ94gtXV597caDGAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_038_e081a5397d06.png)
 
 设置发送模式
 
@@ -589,21 +589,21 @@ SJA1000具有一个12字节的缓冲区，要发送的报文可以通过寄存�
 
 为什么帧ID是0x753，这与CAN帧在缓冲区的存储格式有关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvF3f1bQLE94lHAicPziaIJ8KLM4c1muWFxfoT9icTcQ2tbBPqGLurujSXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_039_dd28c42cdf15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvTtjkmOmcN1QHP9n4xyTAFUJeicOLJuXNxrrWibhPKwmK7pyx7l7UvOWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_040_7eae9a124f37.png)
 
 终端电阻非常重要，当波特率较高而且没加终端电阻时，信号过冲非常严重。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaDXI4icoQjdL2EibGPjicXicrvuhDQHkb7W17QvnLjnEpMRRIlDZO9hr5h405aJZcG1Lbkte6lLnYbKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_041_6882f2cb0cf3.png)
 
 SJA1000有64个字节的接收缓冲区（FIFO），这可以降低对MCU的要求。MCU可以通过查询或中断的方式确定SJA1000接收到报文后读取报文。
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_042_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_043_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_044_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_045_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_046_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_047_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_048_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_049_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_050_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_051_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_052_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_053_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_054_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_055_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_056_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\详解CAN总线_images\img_057_3c93e54afedf.gif)
 
 ## 
 

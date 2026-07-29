@@ -18,19 +18,19 @@
 
 RDS(on) = Rch + Repi + Rsub
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIiaAtH21ibayLF9Ru8HRb9NtnwxvWbb3bGib2sAS4Gsib6Le7338U0nySLds8T1DFg8anMDKhJSibk3uA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高耐压_高频率__驱动大功率_建议选用超结MOS_images\img_000_35a84c565950.jpg)
 
   
 
 对于低压MOS管，三个分量是相似的。但随着额定电压增加，外延层需要更厚和更轻掺杂，以阻断高压。额定电压每增加一倍，维持相同的RDS(on)所需的面积就增加为原来的五倍以上。对于额定电压为600 V的MOS管，超过95%的电阻来自外延层。显然，要想显著减小RDS(on)的值，就需要找到一种对漂移区进行重掺杂的方法，并大幅减小epi电阻，如下图:
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIiaAtH21ibayLF9Ru8HRb9NthqrqhXsxhUDe8s4HoaVIqqsSzicNYKC3VKWibfjCpAFOzJ8dIbX5ia7sg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高耐压_高频率__驱动大功率_建议选用超结MOS_images\img_001_1afaae7279bd.jpg)
 
   
 
 如下图，显示了基于电荷平衡概念的超级结MOS管物理结构。漂移区现在有多个P柱，用于消除处于反向偏压下的周围N区中的电荷。因此，Nepi现在可更薄和重掺杂，因为其组合结构可对施加反向电压提供高很多的电阻。由于N区变得更加重掺杂，所以其单位面积导通电阻减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIiaAtH21ibayLF9Ru8HRb9NthvAmhwvFUDIM2YAl1G6LBcLSJ4dfzWJK9WkYW2PNwwT3A7bE1zs3Qw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高耐压_高频率__驱动大功率_建议选用超结MOS_images\img_002_7cfc06637463.jpg)
 
   
 
@@ -40,7 +40,7 @@ RDS(on) = Rch + Repi + Rsub
 
 对于给定的阻断电压，超级结MOS管可使用比传统平面式器件(A1 + A3)更薄的epi(A1 + A2)。N区(ND+)的掺杂被P柱(NA-)的掺杂抵消，导致没有斜率。换言之，因为电荷平衡机制，定义阻断电压的只有epi厚度。因此，超级结结构的导通电阻和击穿电压之间存在线性关系。导通电阻随着击穿电压的增加而线性增加。对于相同的击穿电压和管芯尺寸，超级结MOSFET的导通电阻远小于传统平面式器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIiaAtH21ibayLF9Ru8HRb9NtPz6GW7cJSgaa5a3WeLnpwficdCibpBhcia0wu3O8XoThBrdFzp4icibkCzg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高耐压_高频率__驱动大功率_建议选用超结MOS_images\img_003_b81614e8585a.jpg)
 
   
 
@@ -56,7 +56,7 @@ RDS(on) = Rch + Repi + Rsub
 
 　　如下图，比较了具有接近RDS(on)值的两种器件的特征。除Eas和Ias外，超级结器件的每个参数均实现15 % - 25 %的改善。这是因为超级结器件虽然RDS(on)只减小了20%，但其管芯尺寸只有平面式器件的三分之一。更小的尺寸会影响额定电流和功率。大管芯尺寸具有更低的电流密度和更好的散热能力。因此，对于给定的导通电阻，传统平面式MOS管天生比超级结器件更坚固。但在通常用于高压电源转换器的电流和开关频率下，超级结器件始终具有更低的损耗和更高的效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIiaAtH21ibayLF9Ru8HRb9NtaXnlS9LoTPoddons9OIB27jicpCoUuojXvF9qR6k9jkhsxQ7EHKc92A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高耐压_高频率__驱动大功率_建议选用超结MOS_images\img_004_a0aacfb6f179.jpg)
 
   
 

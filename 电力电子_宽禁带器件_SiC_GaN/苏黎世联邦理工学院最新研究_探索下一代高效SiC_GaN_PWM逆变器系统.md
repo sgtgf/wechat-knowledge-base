@@ -6,151 +6,151 @@
 
 2024 年 9 月 16 日星期一，苏黎世联邦理工学院的 Johann Kolar 教授在在英国威尔士首都卡迪夫举行的第二届两年一度的 IEEE 欧洲宽带隙功率器件和应用研讨会 （WiPDA-Europe 2024）上发表了题为“新一代SiC/GaN三相变频驱动系统”的主题的报告。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk0QGu0MynTetNL5B92Y8AgWcPsTgWy4pX6JpG7VYRkA7yYCk8fVfEibp05J0Hbo4RpzOtnrTUUUoQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_000_69594405f2e9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT7msV3YBtIP4vUUjHcl96TsDHeYuStQGJpCSbXnnrqeUC7ehYlSiafTA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_001_aa734ff19bf9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTNe2ia3a1WYicfz1OXyS4yT0Z6BAkpQaRAf1WPO6lyZMnLiaqvFbow8Xxg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_002_4d032dd7e647.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTxiaDekfb85IdUgx692FsywDNpUVdTcTVRCeDMCrtK8s3sobRPyEEnng/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_003_bd0351ebd448.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTcGmwibMkyK6I71nopib4aBYTwwGNPcRvAdAbXIicLu0x6bJoQJwZiaicrGQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_004_09238419133d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTSZCics3KVu9NJCwQpNNOBibxXVegcWJiahvo2cdibX5qDONF84waVqaXYQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_005_d48ef9a7ae20.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTrmW674ia6znzSCaZJiawGRkyjNmYKSgokibjOwgEB7QzCBxc10LFlBhlg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_006_9da6fac70ddb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTjKgt0lFuhd28Wgy9QsOhuibib44LIIDibia9HKOVSpCjIYF2sEvNGSZQDw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_007_291dd54dc7c4.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTpiaef7Vhicr5eLGCuyaYFwiaoDjpy9oarmMFgT8JsUhTUqSTvKicS4zqDQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_008_f568adff4093.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTXibJHtA5T6jaj82rObeCXtVPB1OvH9rUTWXcvvq1crdaLyMbtVAoyRA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_009_2f2bed6534b5.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTajPM3WKLtxRe8Sh4MicPvacEuXSsHeKia7gDsp065f3Oo0OEzwpXkPHA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_010_fe9f4dcf4412.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTz2R6tp3raBZ4NEjCghDE5RqNqEGCvJmdlFjlYvw0GYbgqcmZI0ianZA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_011_8887ac7f9f7c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT6lPJJTmGwf1YJ78XZZF1uXL7RscxJsemxNaicJQ1NuiaxVt7xnKpQicJQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_012_9949c93c01ea.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT85PxjR63wKial0b9ul6EibR6kMQ3YCmTyIxqhHuBfpB0Aohr76v873Ag/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_013_943c8a9610ea.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTEBglbYoiaNg7OQicwRVGKZSqN6IZumy9gkEia7MPjWWicLTUVBpoYJFTmw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_014_814823506a45.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTDxNHULwibE6B0zI2N4ibpyILribnVkhvhSB2wOqEwmGfnYzHFY96t4Vzw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_015_42a45c5b6613.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTe8hPQK6WzsacNTaGMxiav51NX9wnia20ekosdRYBhfaYOSEfZnf8Lmzw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_016_b9a482e58723.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTMKhnhVRMj4qGoB67qSd2dlMicYibuEiasDQkG8Y7xoTiatePrfAsVhSNyQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_017_5d4098dfa0e3.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTANJx9SDLTEvtyl9lenOnwHcfibt7up52ibibiaYr7pBKqbXHXKDvxictSUQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_018_fedce624701c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTMDwZrR9CFUuMHKmUFibNkg3qOvY6EbyhNSQdib8tDsICKd4fYE5geWFg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_019_6ca7d2e0236a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTRA1ezNvtSc3aImNuW9JAwNMrLDTujicrIjQ1kh0h2Nb5uxvbGb9cxGw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_020_d59afc8e68ad.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT8EUwcbPbqlfLdxsZ4OtpIaSv5hXYFY5Y7IPA41rAOs8nmYKDH6jonw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_021_d5b1bb5df8e8.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTncdRFMoqqRYpChicATTjlpAAeXYyyF8IgcibbB3NoLosR8U4zKSLooXQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_022_8ba05d7142cb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTu4OLiaibOCDVtmdqx6vJic1VnEgYDekK9xXvbvSSDv1vATrW6ffiaLQUiag/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_023_94acc6454bc1.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTQWhRpXHBbSaMh5kK4ogibLF3MGJqDv0ico7dsouW2fZ2XibvAicYcz8vDA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_024_6bd0287f607c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTibnaOa6dI1bicqdV2SSrLCzLpfo5CvapnE96DLpqtPbrxwDpibChZYpLw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_025_b8cb645fd394.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTtjJ8O0mHEh5R3m6XmBxdbic9TeJV5k5TLiaUvClN5Aq3xd0gHia6tfJ6w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_026_e7c6e0e6733f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTFVM72sLw7K6JbZ05VmUlZT2TsG7N8hk1X1nKuMcX40lA6omy4a54OA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_027_90e891402bb5.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTHhILBDuzWAETZwU3DB2mbVIf4tr3xF2yw3K4CHBakSTmdJ5HchM1Iw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_028_0ca484274bc9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTNG4ySKQDSGVNv6HhEjibEQfia10X3xSh83ia7WoUkKT5zRXcCDOAHLMSg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_029_73abed83fd38.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTj7DiaYr8zcclZPlkz8gOGeq49bydkWWq0b1WnE1oaBaBzaskeiaVFrWA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_030_99bc1b5198eb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTleHSaCI8RsdZmIhYdVzGicXiaKjWBzQb5LaotdRiarKspeaEiadKlbVHyw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_031_362c20bd54b9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTDFej9qsictofunOJZn2QGHibjl8sHQWtKaVueNyYIx0EepuZictmd2gog/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_032_14165b03b696.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTsjAAuJia5WZdO4J8KKJGYMLFShb4W3jE6nsZmicSrI9f2HiaWyvHWDh6A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_033_172a9e6506e6.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTa1ptRHCyrPTMCwcUna4zdWZ8pILueqI7HkkgQo2Wuk2gpJNtLplnOQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_034_d644984553d8.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT7KkWIYWiaGR0RLxas3b7FhtBow7dazkVmuZHwbb3HKWiadO42bkG0zjA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_035_20038fea4cae.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT5UCec2r9c0bHl6wHNtULXZ9xPoUPREWyU60X2f29YBCKia9rzcOT4yA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_036_7ad50f68243d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTSbWsKO6mgicH5yeHoO0biaI7IdK7DOC1sx2G8GzbgI095w8xLzMOfdMg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_037_3682055adecc.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTmT389bltoNibe9MZ4Nz07PGvicZtHuDRSJAW749fmFuz6icv9bNdkQn1g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_038_5ac9505697be.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTTOmmp8yvicVkKuQxtaNicr5scaQicyRA86DGhucicQVt8QnEM9dMmia3ibYg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_039_5c01cc218f47.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTgIB0qbPIEk6rU6PyIZmX6o29JkBicD81dxhO7AicbKjiav7kMVwXM9qqA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_040_75d85bc8cdc7.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT8zyibFAMJzccSA0c7AJRpBQNGhG0OI7NnkB1O1DsOKY0caRibiaCNQAyA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_041_6aa2c01e8ebd.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTlV8tYwMictyaHz41jD9UgquLz6qFh3qL7h8dRFfhINiciclEXFQ6lyiaibA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_042_92b14a2728d1.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTkaibej9NlWqcZMlbzOCoJyuCGgN0fq9DdWX9RVfxpnbjZUy4QjEe1tQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_043_a459558bb657.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTQWquSGLX4vOu7AOvbSCj5ibfmMGYxAYhqVK4ibGXSxPxu1mlM0rPEgBg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_044_dad3cb9c8fd9.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTqria8h8TRKbUn2mXibLGkXxSiafXMqBIlKoRCR6TazbkeicpAHdebj7EGA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_045_8609afd5801a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTJUh0ygnEdkwEHicVMuic8LMdfBBZWXk0LDQ5J3f0zAoH4Ks3EicKuib9ew/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_046_e0f8bd1f33df.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTVbAfAo177Sz8PJYfxVsbjnjy5iaxoNgjY6MJbnAARYogwchW2Zx5Uag/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_047_c25432f1d8ae.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTJ7tJibM8TmGagXuMyWwIPh43ibfic2CLicfBPZ0K2eAiaLWicOh6JPRUZPMw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_048_21c6a15faba2.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTUYbibDmaY6S8jf1xqUMCf84rwmM7IlDEY1Biaos2xTHQOhTNygFsq7FQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_049_7afa04e2696f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT6oNB3J4xLJHia1z4jK1mSVEoFxD7icz6SmjLiba6fkzOUic0r9ia92KaIsw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_050_221a922f48b7.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTMRTAGl1AMMTX38kS3c03ScyNic2OiaK3kncLZiahtVV8J5Vpz1GEX7rmg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_051_a303487d2667.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTqfWNAohfLxNia7KEyzFe8kvSWPP2eDNDibicOUnCo69KOw53Vicf26ibgqQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_052_2fc03635356e.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTCy5ha8jxE1BOiaHhDjJXKN4EWSQicMibs7RV9F3EibnUAknok1UN5vwVeQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_053_eb46c5c3a7d4.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTsOMdzTBjGxqfibEtlN8vC34omIbhXre7Rrictwz5mEW0VqsS1h4QHYIg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_054_a1b33981b27f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTRGmmk3zoGOHJ1GjY5bwEVcuGCt6viaB0IHpaa0SUib8MqHVec0PaoYKg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_055_156284d3965d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT9sytHGbBkyscnekGT6aKqUPstXHlvwebiarhqGibKlZZtC9uKl9BRbcw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_056_6038e2663378.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTn5OIkuUaIPhkxoGvPHJTZ21yNPRe40zT1zNBiceEMngwEj9yagxXm2Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_057_950daaa6a51f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT3FUkQzkwvOpskdJ3Eg0Byibu0vb5K0EYYq0RMqk6EJgLSgNe5PiaZdNg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_058_b178ad3b5790.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT1GjsJWibWRw4aJMnObmxdIuZJ3l6NGJYibOcHiaPOSafYZDeh9GWsbcrg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_059_65d34956786e.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTpooPsicJzWxOKZT58sJh16c51UFE4ibxK4aah9OtvRM9VYtYcAS77yKw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_060_d0e5ec028739.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTk3m8VpI4mMIbkl3oNTQoe63Z1iacZEBYVFxyP8aY5Cib1Ttjczp0nic4g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_061_5e90e08d131b.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT2wKbdAqpRo3zneFbYVia3FyHxEgVzQxzoibiaQqdbkm4TZ44UARM8zDJQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_062_6797e640b0d4.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT9AQ8SjfhwcOjvOJ8VwGhymAA8iaMpq9Nicue9oAj6s2pXv5GvVb49ysg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_063_8750ee23f74d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFT49695td4TCibrq4Cw9nIBdtfmLH8dNhDa822A8rT55bxPnZSJa2NBxA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_064_1a2eacf28f8e.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTYBmwgwUGk8U9jmGI8rTpdBcexB7icDYeBC2vHzo5INfFUKsVMsxpaUw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_065_ee13ca1f2212.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTJHNy0K7MnNyKbvZrowoxicaSAjUOXntVH7goE24dZgUiamY6vZCbe7Ig/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_066_37faa191e649.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTicgovzgWgDmm2IP3DfRn6DrCEP8BtZBCYicNyibu60KnmGFNVTTvwlfaw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_067_4c05e781a3a8.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTkA6gXF3hegUSrx6CezdAXkK8U18RYxNnHnBOrNUiaCgyaniaMiaOvjuNQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_068_4678d77671ff.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTJenwJiakNvLYBAfVjGGGxZmP9H8UXaM0x6zTibTTunlV89wPvyU265KA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_069_8ea13ef8f9b5.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTsQMsxFIucMN1PzxuV5EB1y91WXk4ATibicD53qvBiamb8VHJJyLz2eRPg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_070_baf7bd8bcb14.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTj9ly39MhkZdWtEYSNQTrcGlKpxb9CX7RhcgKNVjMttibXWGBR09iaDrQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_071_afdd1eed8d4a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtRTtE3x2oicPmTJYczHyRyGAcmVI1icgC1PicGROiaKFahE9ib9OLdRZmwGW40j372rFXQhmqqOSKucA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_072_9c30e198f488.png)
 
        Johann W. Kolar 是IEEE的会士、美国国家工程院院士，以及瑞士联邦理工学院（ETH Zurich）电力电子系统实验室的全职教授和负责人。他提出了许多新型的转换器概念，包括VIENNA整流器、Sparse Matrix Converter 和SWISS整流器，引领了数百万转/分钟电机的发展，并开创了完全自动化的多目标电力电子设计程序。
 
@@ -162,10 +162,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_073_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_074_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\苏黎世联邦理工学院最新研究_探索下一代高效SiC_GaN_PWM逆变器系统_images\img_075_84aa944feb13.jpg)

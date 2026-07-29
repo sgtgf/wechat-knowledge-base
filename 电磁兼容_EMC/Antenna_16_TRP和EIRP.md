@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BcAlkqvG4PN4zT2jQgyJkw](https://mp.weixin.qq.com/s/BcAlkqvG4PN4zT2jQgyJkw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiaMtP47fibR5QlZmabfD30KvPuhc9nAQ5CzpRQpeYSt82V8jdwBZptuFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_16_TRP和EIRP_images\img_000_264a99e13e18.png)
 
 _
 
@@ -29,19 +29,19 @@ ____€2.TRP方程____
 
 假设一个天线的辐射方向图由下式给出R（θ，ф），其中θ和ф是球坐标中的标准变量。R的单位是瓦/球面度（球面度只是一个二维角度单位，球体的表面积等于4\*pi球面度）。总辐射功率是R的球面积分，这意味着我们对θ和ф在每个可能的角度上进行积分：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxia0iamDQy02gpyA2P528WWKa9PMzvBBNiaVbxmnSapvBydpLWnQHWUziaDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_16_TRP和EIRP_images\img_001_99f3b4196c20.png)
 
 在公式\[1\]中，TRP的单位是瓦\[W\]，当在电波暗室中测量总辐射功率时，实际上是在每个角度测量EIRP，然后对整个球面取平均值（球体的表面积是4\*pi），因此我们可以根据EIRP计算TRP：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiarUP2P3MAl9sfpgB3E1C3pZzAslT8FrzfJJgPe9xhsGQnPVziaKfUAAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_16_TRP和EIRP_images\img_002_b36e2e6b2c25.png)
 
 为了准确捕捉天线的辐射功率，我们需要测量其垂直和水平（或θ和φ分量） 极化功率，因此我们可以将公式\[2\]分解为线极化功率的形式来重写：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiaZe8ibTQPbAVWMbLFtDATra61GwOAwOIE6PBuA4ZgoKZlY4ibvmzGEVEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_16_TRP和EIRP_images\img_003_625fd9043a1a.png)
 
 如果想根据一组EIRP的采样值进行数值计算TRP，可以用公式\[4\]中的求和来近似计算：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTmnDTKWaBswMndXLxa5JUwKzhcy1jDUL7BJHJ0H9jFyLFQWPHgtZ43N4iaWriatnzoIicJWzRAkX13g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_16_TRP和EIRP_images\img_004_348680f720bf.png)
 
 在公式\[4\]中，需要注意的是沿θ轴在N个位置对EIRP进行采样，沿ф轴在M个位置对EIRP进行采样（总共N\*M个点的测量）。
 
@@ -53,7 +53,7 @@ EIRP是有效全向辐射功率，也称为等效全向辐射功率，在天线�
 
 EIRP通过下式将无线电发射功率（P\_t）、电缆损耗（可能包括天线失配）L和天线增益（G）相关联起来：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTmnDTKWaBswMndXLxa5JUw1kYtFJsO0gX1LcsPp2xRodrLSEt2sYVltkT0icVSddYmGUrzYft2m6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_16_TRP和EIRP_images\img_005_364cb31347b2.png)
 
 通常电缆损耗L只占dB的一小部分，可以忽略不计。
 
@@ -61,6 +61,6 @@ ____€4.有效全向辐射功率 （EIRP）____
 
 如果天线的峰值EIRP和方向性（D）已知，则总辐射功率（TRP）可由以下公式求得：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTmnDTKWaBswMndXLxa5JUw5yJLsVaU15BvSzmTLC5jHibLIKPKgVm0calibkHGrCZgNxasCjEQxDZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_16_TRP和EIRP_images\img_006_967da8ebe2fa.png)
 
 这样，如果预先知道天线的方向性和峰值角度，则使用上述公式可以大大缩短测量时间。

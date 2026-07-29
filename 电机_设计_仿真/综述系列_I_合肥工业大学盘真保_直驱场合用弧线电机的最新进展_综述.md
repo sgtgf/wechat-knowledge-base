@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/fRGV4H3RfBKQnXQ6lEhtfg](https://mp.weixin.qq.com/s/fRGV4H3RfBKQnXQ6lEhtfg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_000_4fecbf19a39d.gif)
 
 **直驱场合用弧线电机的最新进展：综述**
 
@@ -32,7 +32,7 @@ Z. Pan, J. Zhao, S. Fang, J. Cai and Q. Xu, "Recent Advances in Arc-Linear Motor
 
 根据工作原理不同，弧线电机可分为感应式和同步式两类弧线电机。同步弧线电机又分为转子永磁型、定子永磁型和双永磁型这三类弧线电机。其中，转子永磁型弧线电机包括径向磁通型、轴向磁通型和圆筒型三类弧线电机，定子永磁型弧线电机可分为双凸极型、磁通反向型和磁通切换型这三种类型。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ1798liaKCh2TZDLicf1fOJ3CH3uBAWicDNII6ELJG92JJN07yIzwIYjtKI2P5EdFjeEg9cNcYkOhfDyJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_001_a05708441835.png)
 
   
 
@@ -66,29 +66,29 @@ Z. Pan, J. Zhao, S. Fang, J. Cai and Q. Xu, "Recent Advances in Arc-Linear Motor
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ1798liaKCh2TZDLicf1fOJ3CH39bBx9Z9Dz0K9XzKTKooT4ruIUXP79mVvvFxdIecxDwpk1tBVm6bdXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_002_db32e6f2bed3.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ1798liaKCh2TZDLicf1fOJ3CH3eH3ibMsoOIw8y9ZyXhsKRMqJdyV8nr5pibkCNNa5cgt4fpMfMJiae87wA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_003_0df798ac55a9.png)
 
 **盘真保**，博士，硕士生导师，东南大学优秀博士学位论文获得者，合肥工业大学学术新人，校企联合培养博士后。主要从事永磁同步电机、直线/弧线电机、磁场调制电机设计与控制研究工作，现为合肥工业大学电气与自动化工程学院赵吉文教授团队青年骨干。主持国家自然科学基金青年项目，中国博士后科学基金面上项目，安徽省博士后科研项目，合肥工业大学学术新人提升计划B项目，安徽省重点实验室开放基金项目，青年教师科研创新启动专项A项目，江苏省普通高校研究生科研与实践创新计划项目等7项；参与国家自然科学基金重点项目、面上项目、天文联合基金项目、江苏省六大人才高峰项目等6项。以第一作者/通讯作者发表高水平论文27篇，其中 Trans. 论文20篇，一区TOP期刊论文10篇，中文核心期刊1篇，EI论文6篇；申请/授权国家发明专利7项。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ1798liaKCh2TZDLicf1fOJ3CH3sbQLVqONRTWJqicslov7RIPaFiccO4mPszKusibFfqgPVib03rVH8qJYCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_004_5302029caef5.png)
 
 **赵吉文**，男，1973年，二级教授，博士生导师。安徽省学术与科技带头人，安徽省“特支计划”创新领军人才，HFUT@智能机器人创新中心主任。主要从事电机设计与控制，机器视觉与智能检测，故障诊断，机器人等研究工作。主持国家自然科学基金重点项目2项、面上项目3项，省部级项目及企业项目若干项，获得省部科技进步一、二等奖3项，发表论文100余篇，授权国家发明专利20余项。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ1798liaKCh2TZDLicf1fOJ3CH3dQvDbdHcMYJBStVsicYzpialzBX12LLq5pDg8aib5zric2TTLL3ico1vhjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_005_b4118240e2e8.png)
 
 **房淑华**，博士，东南大学教授，博士生导师。主要从事电机电器方面的教学和科研工作。主持完成和在研的项目：国家自然科学基金、教育部博士点新教师基金、江苏省自然科学基金和航空科学基金等；参与完成和在研的项目：国家“863”高技术项目、国家自然科学基金、江苏省科技成果转化、前瞻性项目、国家自然科学基金重点项目等；主持完成和在研多项企业项目。先后在IEEE Trans系列期刊、中国电机工程学报等国内外期刊以及CEFC、INTERMAG、ICEMS等国际会议上发表了SCI/EI检索学术论文100余篇；申请发明专利70余项，其中授权40余项。获2010度江苏省优秀博士学位论文称号，获2011度江苏省科学技术奖三等奖一项，2018年度江苏省“科技镇长团”考核优秀，获2019年江苏省“六大人才高峰”称号。为多项国家级以及省部级科技项目通信评议人或会评专家，IEEE Trans系列期刊和中国电机工程学报审稿人。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ1798liaKCh2TZDLicf1fOJ3CH3EEV8dXPboKs8V8zu7vPGPR5HIeSPBZIjEfedYgMibSO3vlMyO6ibQdMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_006_6cf969939e39.png)
 
 **蔡锦豪**，男，硕士研究生。2023年毕业于天津工业大学电气工程与自动化学院，获得工学学士学位。自2023年以来，在合肥工业大学电气与自动化工程学院攻读硕士学位。主要研究方向为永磁同步弧线电机的结构设计、分析和优化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ1798liaKCh2TZDLicf1fOJ3CH3IjWwu2V70IKHxaof3JPrEZTiaiaKcEIueEThavoyVDRFp74dfm5sf4Fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_007_92ba8e10b17c.png)
 
 **许强仁**，男，博士研究生。2019年毕业于东南大学电气工程与自动化专业，获工学学士学位；2022年毕业于上海航天技术研究院航空航天科学与技术专业，获工学硕士学位。目前，在东南大学电气工程学院攻读电气工程博士学位。主要研究方向为永磁电机控制策略和电力电子技术。
 
@@ -98,7 +98,7 @@ Z. Pan, J. Zhao, S. Fang, J. Cai and Q. Xu, "Recent Advances in Arc-Linear Motor
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_008_654c2fde68d8.jpg)
 
   
 
@@ -112,15 +112,15 @@ Z. Pan, J. Zhao, S. Fang, J. Cai and Q. Xu, "Recent Advances in Arc-Linear Motor
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_009_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_010_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_011_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -128,15 +128,15 @@ Z. Pan, J. Zhao, S. Fang, J. Cai and Q. Xu, "Recent Advances in Arc-Linear Motor
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_012_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_013_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_014_644d85f1cc17.png)
 
 学会官方B站
 
@@ -144,15 +144,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_015_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_016_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_合肥工业大学盘真保_直驱场合用弧线电机的最新进展_综述_images\img_017_c28b250481e7.jpg)
 
 学会科普微信
 

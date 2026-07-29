@@ -38,7 +38,7 @@ CPU的内部结构
 
 下图展示了一般程序的运行流程（以C语言为例），一般来说，了解程序的运行流程是掌握程序运行机制的基础和前提。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh6qI2qzmjymNib2obIy4PGtFY7UQZ9icoTLAGLRP6LyRF9N7DeLoiacm6Xg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_002_64628b648438.jpg)
 
 在这个流程中，CPU负责解释和运行最终转换成机器语言的内容，CPU主要由两部分构成：控制单元和算数逻辑单元（ALU）。
 
@@ -93,7 +93,7 @@ CPU是寄存器的集合体
 
 我们先来看一段采用汇编语言表示的代码清单：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh69BiaJOqGTOMsboVib26nHbOnFgEg7cib6mo4hsWJPCicQ9FINjzMoArcvA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_003_a3362e57e871.jpg)  
 
 这是采用汇编语言编写程序的一部分，汇编语言采用助记符来编写程序，每个原本是电信号的机器语言指令会有一个与其对应的助记符。
 
@@ -113,7 +113,7 @@ CPU是寄存器的集合体
 
 不过，根据功能的不同，我们可以将寄存器划分为下面几类：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh62ZibGrNtDBpwKdfzFvoLDLrWVicErIia6kicVao90CPcs0CfSEKh3HFSwg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_004_d79b927e675e.png)  
 
 其中，程序计数器、标志寄存器、累加寄存器、指令寄存器和栈寄存器只有一个，其他寄存器一般有好几个。
 
@@ -127,7 +127,7 @@ CPU是寄存器的集合体
 
 我们可以通过一个事例来仔细看一下程序计数器的执行过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh6Bm81iaL4JH1584aIcYCmZvZrszR3382QyeXMoBWSiaicfvrNOtFEL3P2A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_005_066098a0316b.jpg)
 
 这是一段进行相加的操作，程序启动，在经过编译解析后，会经由操作系统把硬盘中的程序复制到内存中。
 
@@ -158,7 +158,7 @@ CPU是寄存器的集合体
 
 下面，我们就以条件分支举例来说明程序的执行过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh6ictlaN9zmEXykwlVVuOykjGFkU5ibwJKjfoAwu9p6tsicY7AyoKGdcJ1A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_006_2a749f873a24.jpg)
 
 程序的开始过程和顺序流程是一样的，程序的顺序流程和开始过程相同。
 
@@ -178,7 +178,7 @@ CPU在进行运算时，标志寄存器的数值会根据当前运算的结果�
 
 标志寄存器的第一个字节位、第二个字节位、第三个字节位各自的结果都为1时，分别代表着正数、零和负数。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh6WomcAsfdiafXbWPxjfFsVX4LpsAhlFZ06AtaZEyPBa096N8libASfxlw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_007_dbd08d422bfb.jpg)
 
 CPU的执行机制比较有意思，假设累加寄存器中存储的XXX和通用寄存器中存储的YYY做比较，执行比较的背后，CPU的运算机制就会做减法运算。
 
@@ -196,9 +196,9 @@ CPU的执行机制比较有意思，假设累加寄存器中存储的XXX和通�
 
 函数的调用处理是通过把程序计数器的值设定成函数的存储地址来实现的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh6t4Cb2VFrlYZ4sCic8FYiab4ow3uYiaibzXzDCnWAZVHyDhHn0NEL5M8zbA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_008_9d63337f82c5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh6InpOkpNsiafzv0drTCUq01pwqbrpkupe4XkXAs7XLTGffO4mj9g3tvg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_009_2d1354fc34e5.jpg)
 
 11
 
@@ -212,7 +212,7 @@ CPU的执行机制比较有意思，假设累加寄存器中存储的XXX和通�
 
 但是，要是想像数组那样，分割特定的内存区域以达到连续查看的目的的话，使用两个寄存器会更方便一些，比如，我们用两个寄存器来表示内存的值。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fUtBqibJmk4R2nqe4YttHlYtayBaK1nh685aQ24Nnmby1n6WFvqgJrZvIr65kh5o6XoVdaOZwpficGvQ6P29nFPA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_010_9d5bd72bc796.jpg)
 
 这种表示方式很像数组的构造，数组是指同样长度的数据，在内存中进行连续排列的数据构造。
 
@@ -235,7 +235,7 @@ CPU指令执行过程
 -   结果写回阶段作为最后一个阶段，把执行指令阶段的运行结果数据“写回”到某种存储形式：结果数据经常被写到CPU的内部寄存器中，以便被后续的指令快速地存取。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一篇关于CPU的入门知识_images\img_011_2f89f10270c8.jpg)
 
 ## 
 

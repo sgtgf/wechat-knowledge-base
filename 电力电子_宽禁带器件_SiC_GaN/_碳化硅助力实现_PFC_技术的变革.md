@@ -9,7 +9,7 @@
 
 **作者：**Wolfspeed 产品市场经理 Eric Schulte
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIrmyWWogWU9YqEqWe2pMSoWYicMdIkWBJvKHANIZZBTRGDXC7ia3aZqoA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_000_06f8c58042de.jpg)
 
   
 
@@ -19,7 +19,7 @@ PFC（Power Factor Correction）是一种技术，即为功率因数校正，旨
 
 功率因数校正技术的原理是在电路中添加电感或电容等元件，使电路中的电流和电压波形同步，从而提高功率因数。PFC技术可以有效地减少无功功率和电网负荷，提高电能的利用效率。另外，校正功率因数也可以减少电力系统的噪音和振荡，提高设备的寿命和可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIeumtfYcf7OG5ciafw9IdCCbjJKTZfVsAibROqogstkEeqtDiaSibfzVMdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_001_7bf6c7a023c7.png)
 
 碳化硅（SiC）功率器件已经被广泛应用于服务器电源、储能系统和光伏逆变器等领域。近些年来，汽车行业向电力驱动的转变推动了碳化硅（SiC）应用的增长， 也使设计工程师更加关注该技术的优势，并拓宽其应用领域。
 
@@ -33,7 +33,7 @@ PFC（Power Factor Correction）是一种技术，即为功率因数校正，旨
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlhniaHEdriaXr3IiaNZEiaicc84r7zQuUiblB0jOPI3BicytFYjo70a2WEr2TVHhZhWbO2licxfialMfOlQWg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_002_faed5e2150f0.jpg)
 
 图 1：这些技术都有各自的优势和最适用的应用领域
 
@@ -53,7 +53,7 @@ Wolfspeed 碳化硅（SiC）器件具有极低的导通电阻，这意味着导�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlhniaHEdriaXr3IiaNZEiaicc84EIAaU6DXApqex0ZOoicEyHCNbzPzia4icqkFOOprHiaPK8qfdDiaNT35mtQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_003_a588612bb40d.jpg)
 
 图 2：Wolfspeed 碳化硅（SiC）器件
 
@@ -69,7 +69,7 @@ Wolfspeed 碳化硅（SiC）器件具有极低的导通电阻，这意味着导�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlhniaHEdriaXr3IiaNZEiaicc84edeKfic5r20X4YkhMfguPykIDqVWPuD7tWBcPsdearfW1VFbA9OTWXQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_004_5176668dbc9e.jpg)
 
 图 3：全桥整流器从简单的无 PFC
 
@@ -89,7 +89,7 @@ Wolfspeed 碳化硅（SiC）器件具有极低的导通电阻，这意味着导�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlhniaHEdriaXr3IiaNZEiaicc84k7ibsNf9iabic767sf5tGgTaQz8dW4tHNDSeKicDWNCvmQXt92oFlicWOYQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_005_ceb7f21efac3.jpg)
 
 图 4：比较无桥双 Boost 解决方案（左）和采用碳化硅
 
@@ -111,7 +111,7 @@ Wolfspeed 碳化硅（SiC）器件具有极低的导通电阻，这意味着导�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlhniaHEdriaXr3IiaNZEiaicc844Twu7yTX4zOicIOzJUcgEyBV2mLVtv6ClWBBSsOgr1tgnn5Sacg3XHA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_006_f272a9e19ce0.jpg)
 
 图 5：碳化硅（SiC）与硅（Si）体二极管反向恢复比较
 
@@ -133,7 +133,7 @@ Wolfspeed 碳化硅（SiC）器件具有极低的导通电阻，这意味着导�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlhniaHEdriaXr3IiaNZEiaicc844fgiavPEWcZFMtGPgKHyic1ib5RJo9X4Yv1qodib3hamOcP3Zv7MyFBCbg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_007_f3fb145fe138.jpg)
 
 图 6：使用碳化硅（SiC）MOSFET
 
@@ -143,12 +143,12 @@ Wolfspeed 碳化硅（SiC）器件具有极低的导通电阻，这意味着导�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pRaJ1XG0AZlhniaHEdriaXr3IiaNZEiaicc84R0WMnrSibUpKlzEzvM4K297q5wBqnXGADQicuibdNxkicy47x5VEzKzutQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_008_4f29088d0195.jpg)
 
 图 7：借助全碳化硅（SiC）MOSFET 的全桥图腾柱 PFC
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_009_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_010_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\_碳化硅助力实现_PFC_技术的变革_images\img_011_84aa944feb13.jpg)

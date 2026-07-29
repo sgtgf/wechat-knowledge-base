@@ -32,7 +32,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/CB90MLwUv2c7KSpibZ2yb7Q9t3MSSp3ibVAUSiarWCfeYEGIv4MyJSUYJ4nNNwFdfDCO8dnZQVZicV3qGI5CpiciaNQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_C这些年发生了什么变化__images\img_002_570fe34dd6f9.png)
 
   
 
@@ -102,7 +102,7 @@ USB 电力传输可编程电源 (USB PD PPS) 变体的推出无疑使事情变�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/CB90MLwUv2c7KSpibZ2yb7Q9t3MSSp3ibVPMzK5JW3psOTvb6oUichkL5sk06rR4a02Bt0utIrAPFWCVLAE6VqgKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_C这些年发生了什么变化__images\img_003_8f58cc36135f.png)
 
   
 
@@ -126,7 +126,7 @@ USB PD PPS 本应是该行业的一大进步，它将以前仅在快速专有标
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/CB90MLwUv2c7KSpibZ2yb7Q9t3MSSp3ibV3iaLTOmGE2URBQ1gRBl8hktsWpmMW5rEyS6TfEmQtFUGEREode481Bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_C这些年发生了什么变化__images\img_004_69c5ab9007cd.png)
 
   
 
@@ -198,7 +198,7 @@ USB4 并没有帮助统一功能兼容性，而且，如果说有什么不同的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/CB90MLwUv2c7KSpibZ2yb7Q9t3MSSp3ibVQtuAcsRobvpT7O6nOEgTrV5wkJGD6iavRDGkibKib2DWLyquSPL8s90Ig/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_C这些年发生了什么变化__images\img_005_ed7a755064e5.png)
 
   
 
@@ -218,7 +218,7 @@ USB-C 产品的起点是 Power Delivery 协议。这不仅仅与充电有关；�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/CB90MLwUv2c7KSpibZ2yb7Q9t3MSSp3ibVgoJn2AwibdNXKOibUKFqthj4NDYckV6EMREXyPHORfcBTeDahYU7dAPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_C这些年发生了什么变化__images\img_006_65baef3cbcc0.png)
 
   
 
@@ -262,7 +262,7 @@ USB 规格每年都在变化，消费者无法跟上。
 
 https://www.androidauthority.com/state-of-usb-c-870996/
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_C这些年发生了什么变化__images\img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

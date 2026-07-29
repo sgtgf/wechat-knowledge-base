@@ -8,249 +8,249 @@
 
 引言：‌利用碳化硅（SiC）和氮化镓（GaN）这两种宽带隙半导体材料制成的三相电力转换设备，具有诸多优异的性能和广泛的应用前景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3A15b4ibgWAHzO8UGJNYCmGTMa1b19P7p1Zt1GjDILdzkia2QvWuONiafg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_000_e9ad82b5f386.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN34qItct8RicR0ForU7XjS7rF9KW45K8tFsaicp5iakk7Hhs9EftqVC0sdg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_001_dbf2cb3b27cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3u9rribibibHNfhjV0kcf7Vd3jeEOPaCEKbicoJSCaqHBB0Zsra9rufPYVQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_002_2ea037f25a42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Viah31zVqBclR9VMwCt6yofZUISXqhsUVO5hc006U8WMc6nMgaIuM2w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_003_78bde74d9fba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3OQl9reQW2sVDlKAOzZjiaiaqR2ibPYiaQ8zW5wq8N7LGeJvbAOzsuSv5EA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_004_942516d9932c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3H1RZqETMeXzAC4ItfrR8GAibq618XiacT3iar189nH9c4xaI619kicuL8Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_005_1d8016bd5413.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3drGt2EgdyS1CtTapgc8icibddHlNcX58e6ZwwECLoaN34AhuIdAYibjZw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_006_ce2c2395dffd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3GdKbHJICrmVVJjDzZvgtQIkiaJ2RKjYja0bMtvdbibFgkTy8GZ6ZEuEQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_007_e9786a54d45b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3T6iaeqicFc0ibZhxUN2Pct5EsnUZsdDLL7MnfZ1ia6PlfGIr9pRTtYiaaeg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_008_392f08dc9ade.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3feRWkFQlp4TcEZpez2I0Ct23U334VeepWviaXVjwXPbI6wlEl2dtUibA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_009_62fff338e464.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3LPjHTma7cJVLVn56Qdy44MYfFicbfAxLIJU39j77rY4uicAYkuDtuP6w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_010_15cd5cd381a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3siaH9PL5QiaGicQf6PrbJj9XFiaibYbu03jADHKjPYGL1rEeeCkNMZ7DPVA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_011_39438e86550d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3bciajG6uuUafQVGZaKCHlNcecSjAQ3mV143Phxm7Dqb79pG35x5YzEw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_012_7695b813fcef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Hfk7ocicByoicfNvQCTlJuPhgsndm1oDy3pvBOCgicznWiaCBTuZ5aEm4w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_013_71d070d5b597.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN35sYVBDmeblnc3y8zocl8DPRXPxmPhnONophtBmuwVqKa5r9NDneKibA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_014_70f9fc98cad9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Rauq0AcxOLDBJ4TUcfjAeiccRDYmTicPgh45oAicEz3hexHFQEDxh9KrQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_015_227e49a0f65d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Ul5uDUyxvl7icr2L0NJnlqscuWckqgkPOtrO9iaxKfhyj0kNIE56b3aQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_016_742d1487932c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3qk7svibd8WNTZ3gXBmctBVeQHnJrNA6TpiaojxEWQsaQ2Aqia2vO1a9Kw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_017_315b5b5ac018.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3yuzoGiaM6rSkVyIwRtA6bhYadeNicn0FJMgqOVjpOadGDLVyPu5nZ0gQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_018_7e7078647cde.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN38RicrRcno2VsantyliamcibQU6S517Riam4tyTKPjlo4Gc1sCr2bRFIpcA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_019_72c1c75f3ff4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3ibaGzyjBbY17q7RvjhX1SesN6LFYdC5vgybQjyyTrvNcTevyox6mWtA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_020_7726ec0325ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3ndibQI0MSdEiaMWMU3ELdYVBT4Utc2nrbfq8TzjCnlEicffvgESliazb8g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_021_7b7a98b4ddb2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3rskXW95tsCtOicbBysJKE2kbJHWem1MfWIcEYpq393RL7SnmicJibLOnQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_022_ad429b2f4fbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3CYAlhJbjRzL6sCp5rppo90RicoGPjqCnDVU5icQufCaTQG6NAjiciazJxQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_023_8d405f0875c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3RtusjCiaIiaLLOFH72eETKrkIAy7TlKvpIhHzXztoMErpspUgkq9JK7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_024_3426343678a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Qxnt1ndyfWyia5uc3JRxjzoibqbQvTbVQeJKnq0LTcibZHkQLkeKeFQOw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_025_c6325f352a1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3VhPzqccQlux2vYyHQZ4D6WRqe1RLwsvcdZlGAroYiaCg5gRrqibibOsibw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_026_0b151e8213b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3a8geTx7AQKKqD0eSDyjjHAFSAt3RibXYrbWrURIPQvY3Th7pGjhFDog/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_027_afe0da950160.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3BQJsvYZvE5BvdvduW1H7QiaicedRNvvrBImicUHN65nOt4kQwmpBtp8ibg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_028_f2ef7f2edae4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3VfcrqvDYO72tia1dJpps1zPSJPaB3Nyjn3DcrzWs1odsYJiattAS75zg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_029_bb0b264b6cf0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3GaIrfWAIaQ689TRR2ul7zrFqqnyDM3rpiccGuGzFcUfpjrplq25yuHw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_030_4bcc94137754.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3nvlrfC0t1la8JxN1lLXaYL7sCdpp8rf421UHzDRToScCLJBhQsNiaFw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_031_6b0ebe1e9ef5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3fKRicn7yS6MtLE4fMpoYHu4USSnOJPvrL0h2BN0VTsm5c454cK1ExfQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_032_76f727b15bb2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3sMvUoMjLKqI4pCHH8fuR7f5ia4Q6Vk8y629ZMiaVhiclf9KHttExLic3ZQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_033_f0c17fbd21fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3juyQbvCMCOYIbEcEibOfa3jcfwJ5iaicnwrF61cfRBw1VW4AQib0dZenicg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_034_97b9cb0b4366.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3oV0SFOrnt4eSMJumIOmZVIZWff5jvSxiavPaIrJljspZP1s9OI0ClNw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_035_61c89f499c52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Qt3Yx2pkO4pgicvxbIl2lT2Kqia4IZSCsUiaJCiaibzCicf9VVZpweu7UicpQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_036_5eb4fe5baa3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3BeBNN6w5MoWU1YmEzdCSZy8y6Y4vF87nJDQRXy8atW0ZMxlCFCCTQw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_037_159685dcd0b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3HuGpUKrEpfLXWWichB8V0Sc6onCZP8lxzJ4SKlnWRcKJIg53dfSA9Jw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_038_3275175f7ff2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3TMln0Q60uAia2EWNkO1hMY3l6f4vWID8Jmf3qRFv4Uadj3lBRdxzUhg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_039_6d5050e6f03f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3NibscfaV20PUUGNeU8BGrH2Qu7g4dFc6p61hs9RySZ4vR3icQSEZhMxg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_040_719b548418f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3oa6udfgiaS6YHR5pMDYGM5JL6xVLX0eekezJqLcfjpO20jStclDUPKQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_041_e8e288586932.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3CWDc2ef45QYefemdw48mbfyNWuK5Nv8a1DS6UmQKyA2aWibjKgicbpkA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_042_27f9de3ce0b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3cleQ2Z5JdBb5mViapE41J19CW0ib4nuGINCL5t9uqFZJ8XrkpG0qGKkw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_043_08b91384784d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3X0ASmeJIgib2ZE3PJWW1JzxbLQQZvViapW7cCs3FhysPzgSV0bK1SMLg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_044_5df17788c085.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3iaIdwvEClYxia0pd6lf52ZRPB81qRBvTTh1COeY9bSrwgCnBjXVx0c3A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_045_7e38227d3ffa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN36cPKzgzRG4mkqIpvQrGxWEdGwCKrD8SLbXDJmWAtK0LiaPZJ5ehUoEw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_046_e01aec7a8cac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3ibibEs9yHjbuLqH2ic35AtIe7V8BLXWq03vZ7cctPiahwzL5rTRLDIIAyg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_047_7e1f3d23a562.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3m6siaQu2TjuLHh2RYJxr8lhsKFgiaDIq1WMN3ewN9Nru0oNFjjm4KcxA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_048_322a2ae245c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN35QvCeRqQAORRCNjTw5TVsu0RcPnM1QHZ4SFgUVFbicIgLxnEibLfQ2NQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_049_698d5e116826.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3sNaGYnsvRU2Okicl2w5sdz1Nvp1fBGwFcnakgkfotiaExIVmfTepYhrg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_050_9f22ac92fdfc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3NSPWRpyeExpeIdgZCxCrRLkOQ3es4YPo5WyIhc5KeDH2VHgeQsI6BQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_GaN器件在三相转换器件系统中的应用_images\img_000_bcad3323b7b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3C4UgIY9nYZSXhF4HHg2jibgOOz7fBcoZ1nOQ83bgkmxNicPzaNR4mZxg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_052_6fb05e7f5e37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3dIz7ia6Xe08iaVNZRoRGEZ0dTZib1JDNm4TBwCZSRvsib4f0qyTKPSBf8A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_053_7ae6891091f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3V1S9NE24B0FeJZkFTm57Qloj2icj7HwfvYfw7qjgjwRCBJSlud8DCGw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_054_778a14491507.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3VyAuQnATbWmrBMI840gYVbVibv7L3aogqYx3D0OW9g8nbtL866YaQlg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_055_7291423c3dcc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3BlTviaVQY2ibrApoeBIqfIEich0qcpf1KTwkjib2dVK3ZHsBXmOtDzcYrg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_056_edbe9a1afbd9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3wbibfP32QCqPibd3Q32g3zrib4K1femrstdeGM8BIOOtLaOIpmDj2Mlxw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_057_78933ba76e0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3HszR4B9p1puZqFt0bxFQXtv96qnqSN9mS0vJJzPt8lkuQ05gNU3aibA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_058_4b59a4b11c40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3BLF9y2U39yR0JEgOOkibuzKAWJRTKH8iaEUTsfv6zSPsBTAA4dI48KKw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_059_1c09f6f14495.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN34xWY6q3pr0malpL0x7vQPZWpyxcialk2jMYwMh9kNn3JOl5Bw1uNdAw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_060_f6efc3cd6b1b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN32NQrwm1OMF9Bqx9oAxXqZH1kibx2cCHATOtD9xO6uxtpic6xQloicB0ibA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_061_bc5aa1dfc268.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3ic7y4V860d9mIonicv2jeo9AtC0ic7ica725t4v7diap8YYqrMNrJSPz3iaw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_062_06c54802da26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3XOk57ehibJgyibzND9WAVZhwQCF5nCmr7ia1AVicn9wIJ51qzBeLrszPTg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_063_ab88389ea7dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN31Aia2svB6tDmPAeVRAPWIsplND2sWRhXrkxwTBsmD4Bpe5c7JKZa6jw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_064_4a579417d30d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3h1oZY94ibeoicjYOaBFYD7iaX6NBxCJdIiaOTfvP2rSib2Lt1nc6sLkocpA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_065_a767e7214ad5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3cDsrB620ialQIeroa5icykCBL8icNMhjVggJFwa0so0ouV4tIw65RyjNA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_066_418d47707930.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3EjDDfqXsf0QwiasZwGj9nYnKrrncV0BIPEiaNFoSXRtibXV3tdhTjJWMw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_067_ee96ead1a0b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN31b3IpaPZxYicG0JuxX3CLWXTgGlkVx6mJRbkq1OWxADvDsdpm8Ex9mA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_068_a50f8da61201.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3741GxEMtttwsbcqbJOPMPxK6TeiaNKibkqWXbl6gTtEhFjcN9GtVAnZg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_069_3b593f3a4111.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3kxfkWv76NZYeWiaCDmWqic5ia2b9YvpUspX3vic4ibrIqqzpcmgBsHwib0LQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_070_ad7c88c2ee3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3hAcxyLHvHQsNY1dR7uicbSB1owicwdaNgfX6Qxq9HRkBkH0o4mibYfxQg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_071_6402d22d8562.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3uoSOx9rfzicqXlP6osfxMRiaGYU7WfSL0e5Z63TKuJLqDepiaNse5zIKA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_072_6001d4919e74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Tw1uvuwNjFSicia0NprnJFyTv4MSMiaehSH5Oux6XhY2HujGOJmPoHKjA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_073_9c3f86826c9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN33J4Hev5bAJ4qfj6ScUBlTlpEMnXm3kBh8ejNVeh2PYiccK7HTXnxRTg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_074_8242c8310b69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3fUcZFTp3HA4z6WYibHE2sFoOnCh6UINtCXTndGicAgib2BfXXB9byXCMQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_075_a81e1ccbf631.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN34I2j965K9FWY8mcLiaMeVS3m2hl1uicqldd3Ll8P7xkapwAicR2chmicWQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_076_28d6b2d5f024.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3Z2IEOiaOjiazibbFDbibLONR5Hgb0ZBbolYD6YW0iaAJbGJ8thDDwHaWYJA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_077_2d0a0285e132.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3ycebRuic4CbGrSa4TCxfI7yeR2W6BDOU5UQcmu7icMXUy0OqaRJGBY4w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_078_914b0689f26c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3rlUCobNJupo3Ny3ol0tUaEr9dRqZXApCR4IMCObQAKQ3YBCySLgxVw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_079_87d76623dc7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN347yh7RbDeZERLHSJYibPibIg4sb9KiccxuTx4hmpRWpglpichfMeBic8lAA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_080_913fdadec153.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN38zRahK4DmCPyu64DfT7BEuCSGYTonyELjsWg1oiaM6qeh43sLXjrC2Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_081_0ea40fa485d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3twlhoISBKaDASe5vxbmJgSGHzFOOC8HpRBYLMEJ3rOAWRNAHFSibvgg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_082_779ec5f5d126.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3SqycrzhYOsxca6KkayG2ftBRLgEsQq0rGD8DkBTOuqQuUO9cZT280g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_083_b6a2dd68390c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN35TKWibIxsQgDHBe7f0ic3deibOXHHWCJEZM1EV4LURhiabkMeu2PTadnQg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_084_6167291bca8b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN398TupZUiaoQheEbvFdbnxZmgaSejUua1pUk41hm8aSJnGdmGRYFgy1Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_085_a9af1adf6e60.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3eSusG7cRj44xMFvo3LATW9UdZMuTlicjrPlAIQtibBu6ibKuibQqPZVaibQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_086_a92efe6c8c1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3sAk1lOnMqJJtpvxEa58sXFeP20ZCxm0ticBrRaJzYichudScX2bMAXpA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_087_3cc096220835.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3PJ66Zrdv3gia8u2xZBRNoDM2hgcgLvvjXUgNIAG5vKicibiau75EoDqpcg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_088_a883b0cbb59a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3RU8rF7XzWad4Pw9qkK48icJP4VDUaxBjiaLHcZCrApHwnOcAZxPSCiczQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_089_51a4e26f3857.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3DU2xWWNGopDmcxJBic7pQckBm9lIWsM9KE91D9fmwDApCOA1jwB8Ucg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_090_817d261ab056.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN33Hgia3zcGxgxVVIwASar981icvO86Xyic5f97yriaJXCEU64BuglicrEBNQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_091_7c25415fe045.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3xBU75R4J2sbdX4iboTdhGCibzibHl6LENUmtFrIvMgqgjS0oOVibwsePhQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_092_bde54232a8c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3IGe5X9Jtw8XRHtBHiaq4N1VkbAK0jCVhSWIedFhRafGZPEUnhCMlr3w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_093_14cd9b3f38f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3wnwBe2XSexuqlR37picX3kpial3bjw81wtCPh2bZH1g5KW9Bic6CQhOqA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_094_1706914f8e2c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3oNw2QvFq5ib1Eu3znFnxEnKhmuNH5jdwI71r4umb5hiaaicf2ibSyLsLFw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_095_011ae487830c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3lic7Slj1p8LdH5VEPRMcicbZbE3bGeiaHQCfzxdLia302UaF2ZlvaXkeZg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_096_c8b50443f81d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3UgGicPVl7iaiaJIRSIBuvAlhz5hFNa9ibqoeuYRr4xsQa8V28Ycc0dZSDA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_097_20985e992f16.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN37hI6naKY2aDgeHmHsWCoUYFJNf3bjFYEpiabZbia75bICaViaialsfiaBibg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_098_8c491b6043ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3tice08HxYQdJosVoRzia4gMyqscR3HjfEqtDkyANo7xt6cMBx0hicFIMw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_099_965e8d1a0190.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3ddUHzkOwEHut9ibcm9BuzKrq87GZ3VhSIzBSibQkDcia0wyQbXjjnV8tw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_100_88f07a481d9c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3PfriaUVTOOaNA8BOFsgFh8PDzSm7f6spCPIpBrs9IFzH7j5ecZAQO9g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_101_2a640551297b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN32eAcIRpjFPD8FytzsJ7SePoFS4rnsDFicSPnCqk1PicAwRIgKGibygLsQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_102_5156538a4055.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3YSVV1Hq6HOJ9fkFssxasia612V5KFOmR4uuicjmicAea1BicOIF3R23Qew/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_103_7661cbb3153b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN30CwRZwPcrKWf9jtXwm2Fv2MGUEhk4Qle55wvBgGv89IvaIqe6X6l4w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_104_348011fa0dd3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3SxmxKUdO8IRLZpC8XfMITFAHkGqfwUtfOzHMj6FIlvSibtJhJ8bgvNg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_105_04d05213af4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3YDia2JHwhLD6zXU4xbgXbs2lSse6MSZdUy1ZTglQdDIYyicl3FW5Y1fQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_106_b4d68d934ca5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3bUVIx5rK2Nc0gbvSQKMNv1ODiaB4W0AOJyas9ULQp5iayY39XakVT55A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_107_289c7cb89949.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3WNrYgFcfeiaEA4zicUaaymnadiadD5QBBY7wb2ufNAV3r3NkIWsvcib80w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_108_2a07b6fc9541.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3PruY4FqjiakPMc9VxibO6tibgElibRLU7icKFlkZiciatABR26Le3JFNkWjaA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_109_92ba66691edd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3oDpY4yacKDjbdU6r7icgLQPXwyzfJObVzYB5bCibtfxWvC78fNzlN8Tg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_110_e7fa7a6f8efe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN325lyxOwEn3HR06QdrJUiacXmbebhDXBYrFho1yWW96utWu4w8Bzyryw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_GaN器件在三相转换器件系统中的应用_images\img_001_b86d112a107a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3uBvlyA4MxLjtPquhj4IGtKQ7gnFdRY9atFyo5C1GuRpnkD3stKVkWA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_112_bda6aac58f66.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3NWicQUMvunbZx7JSia7mrLgRK9HoVtFYZ4UXJqoqDRDDGTib14P8NseYg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_113_b598ae3ccb92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3YvKya523kNqqdwxF7vzpt8PIhugUuKD19gNo6tUwPX32I4aEFlaULQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_114_238e2c779dd0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3o1JkDfbnch8hOmdRDBX5EZAnT9yWVr7wjPc6o2FvVaatRgQamj1noQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_115_5b8c93c79f0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3qGzicrRDRNuzZxwtPyxaqVp3wrFrjPBI888AYBWJ4GEOZvLrc3MicFdQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_116_9e1465c5149c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3JGiaNCptLnkYT5AfiaoOic8hr1XK7FWicEOtlBF0c0xRBrvDlHDzFD2SwQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_117_46ef7e489e0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3QNaicNwARb0KIl5JonqxEmWG9qkEict2Xp5D3qonicqCJViafGsILcQLAw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_118_e99a7a47f60f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3lITiczV4xXOZyxibmSN40iauPrdPIicemkaB74CzbNIWSt7iclwZPMMwWFg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_119_5f6d8a08c36e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN3dlY4jkncia9aYTYAxnib2cew1VWFhhksLrmxJwsszMPRqSmtvq14mf9g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_120_9bc8fbfac5f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnJSmMicM3U6hx7eRDNLiaTN31enSbnffpicdP50M253Q9vuDgW3aW4XwGpB91ID0icziajr9cYiaV2HQBQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_121_d55ed2475eee.png)
 
 SiC/GaN三相转换器是一种利用碳化硅（SiC）和氮化镓（GaN）这两种宽带隙半导体材料制成的三相电力转换设备，具有诸多优异的性能和广泛的应用前景，以下是详细介绍：
 
@@ -292,10 +292,10 @@ SiC/GaN三相转换器是一种利用碳化硅（SiC）和氮化镓（GaN）这�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_122_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)
+![](SiC_GaN器件在三相转换器件系统中的应用_images/img_123_a7ecee98ead9.png)

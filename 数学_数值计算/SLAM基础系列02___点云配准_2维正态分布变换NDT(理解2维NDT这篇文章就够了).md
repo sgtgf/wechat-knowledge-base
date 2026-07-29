@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2veUrXoccTM-TXx2dz1yhA](https://mp.weixin.qq.com/s/2veUrXoccTM-TXx2dz1yhA)
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43umjOxHdEGW9JetNYprn43CgDPUKNlAg0gmowgAcUbgJ2FJfyYkQhBw/640?wx_fmt=png&from=appmsg)**
+**![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_000_3119dfd7ea50.png)**
 
 **一、****二维NDT**的直观理解
 
@@ -11,7 +11,7 @@
 
 由于蓝色散点是分布1生成的，所以可视化后也主要集中在分布1（蓝色等值线）上。橙色散点由分布2生成，可视化后主要集中在分布2（橙色等值线）上。这个图非常直观，散点的分布与其概率密度函数吻合。
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43xN7I6v5tqsC11H2j8twWsHuycIvhJuvpEVTmlRcuBfDch7oXaFtlmA/640?wx_fmt=jpeg&from=appmsg)**
+**![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_001_56db7a9c1f50.jpg)**
 
 500个蓝色的点是由分布1生成的，将其前10个点的概率密度值（在分布1下）和坐标值输出如下，可见这10个点的位置离均值（0， 0）较近，概率密度值都比较大。
 
@@ -51,20 +51,20 @@ f. 知道了这个做法后，我就不猜了，我将不同猜测下，待配�
 
 1.  计算该栅格内所有点的均值q=1/n(sum(x\_i))
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43w9wzynewfL2cdiadosuZh5wQEoBBmRM3aSauXlpgXpyhnkXvrokqg9A/640?wx_fmt=png&from=appmsg)
+    ![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_002_f6c668adba3d.png)
     
 2.  计算该栅格的协方差矩阵
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43RmLXVVR5F9twVO49NSNIPsIYHWru6XYxAf3xIfVC84p4OCjwCA5vBA/640?wx_fmt=png&from=appmsg)
+    ![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_003_33fae2b01ce6.png)
     
-3.  设该栅格内各个点的分布服从正态分布N(q, Sigma)（该假设的根据是大数定律），则对于参考点云的栅格内的任意点x其概率密度为![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43HXGPNnYj1ibiaYeAarJmQucyff2gW127FRBRdqeTO7ha6YhbIONXoYaw/640?wx_fmt=png&from=appmsg)
+3.  设该栅格内各个点的分布服从正态分布N(q, Sigma)（该假设的根据是大数定律），则对于参考点云的栅格内的任意点x其概率密度为![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_004_56eff40302b9.png)
     
 
 **b. 初始化待估计参数**, 待估计参数为变换矩阵（旋转角度Phi, x轴偏移量t\_x，y轴偏移量t\_y）
 
 **c. 使用该估计参数将原始点云中点变换到参考点云的坐标系中**, 变换公式如下，(x, y)为待配准点云中点，(x', y')为待配准点云中的点变换到参考点云坐标系后得到的坐标值，Phi为旋转角，t\_x及t\_y为x和y方向上的偏移
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43mTOWMum2AxWTGjT0FTM8Uo5Hqa6WsfPWdHdz61TMZKM3nDzRW7nyDA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_005_ac22698d4f36.png)
 
 **d. 计算原始点云中各点变换到参考点云后的概率密度值**
 
@@ -72,11 +72,11 @@ f. 知道了这个做法后，我就不猜了，我将不同猜测下，待配�
 
 **e. 将步骤d中所得的所有概率密度值加起来作为目标函数的值，如下**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43mGXcu0jUAmRS4tibLlhxXRiaItmCY9s2I2AjHN0blBCz580UefOLibgVw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_006_63a711005ffe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43dYibp5pxfHRZpGq0biaxsYWGCEuwiaMoHYKdceJB7SXg7icklXNQSEQgEw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_007_884a5ec71649.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43Kekfe9ibtb6YhngUYtdWf9B1Dj6HmTjbMxySsF1ob7hER51ZyyfD7dw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_008_49ab02240518.png)
 
 **f. 使用牛顿法（****梯度下降法****）更新一次待估计的三个参数(Phi, t\_x, t)y，得到一组新的变换参数。**
 
@@ -88,25 +88,25 @@ f. 知道了这个做法后，我就不猜了，我将不同猜测下，待配�
 
 以求min f(x)举例（求f(x)的最小值），现已有f(x)极小点的第k次估计值x^(k), 在点x^(k)点将f(x)做二阶Taylor展开如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43TNURNpepAicTicIuDbe12AhaKffTjJjgHl2zFSbku3DeUNtkiboFQ9A8Q/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_009_66d131d5416c.png)
 
 取其前三项记为Phi(x),如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43GQvaU6ahZUdS2dzv7KEY5tQDPyPZZf2ABzlPaveUwjYt7QwkksBSnQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_010_4889abf0699f.png)
 
 在x^(k)附近可用Phi(x)来近似f(x), 如下，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43aO21kDvFYuB9X215ab3aZibG8y6awbeA6n8COAIfjmG5qgp8vFLegPA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_011_ff7e01599a28.png)
 
 求f(x)的极小值便转换(近似)成了求Phi(x)的极小值. Phi(x)在其极小点处一阶导一定为0，所以我们找Phi(x)一阶导为0的点。
 
 Phi(x)对x的一阶导如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43tXsJgprMq7SBo0NficBLeVF7SQdlNZbPB3MbpMErM1F0licaIDj0lbBA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_012_a8d84446fb4a.png)
 
 令该一阶导为0，便可求得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43gaOics16bngXguKvwTibTMT6njiacUXSDSsLQcBs9UbCgaX3xDAm5MHqg/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_013_aa5e517d4330.png)
 
 该x值即可作为f(x)在x^(k)附近的绩效点的第k+1次估计值，如此往复，直至收敛。
 
@@ -114,53 +114,53 @@ Phi(x)对x的一阶导如下
 
 多元函数下f(x)的Taylor展开如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43picls2OyoicbmM6Ur0PIoyHJ7wrZeickE0pvOzne0xs8TTfSb2J4KAvmw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_014_4da475b2870e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43F25uS79X4CEGc5SiczmPvWtkibnaU5k5CDicLaeiak9Ch2PYEsKjuHdh4g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_015_08f2909c9f11.png)
 
 Phi(x)取其前三项近似f(x),如下  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43a53kt4Lre4NJjFgweiaGIiadianqqfSefIBsBpyKvXKibF63Upic8iapTtsQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_016_13f0abed634e.png)
 
 Phi(x)的一阶导数如下,只对其前两项求导，忽略第三项的求导
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43eia3tWRicd4NiagwfksialBIxsCkSBqvzKszhJ7FqjKy1yg5b7hDEBcZqA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_017_ee6a11d9865b.png)
 
 为求极小值点，令其一阶导数为0，如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43cuFzP98VgfEU4MkpUlAic9hM7yxZqw38jHI5lyUgcHWdrvt9Q4gpJ3g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_018_2268d9a70be6.png)
 
 得到如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43NsGKp6UZmgGB2iaJG5LNYia0Dibn6z5UrrYerODKWx1fepicfiaYC3MgHUQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_019_9fb40a189621.png)
 
 进一步求得x如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43RmIEDkpk9swRibmbiaYPWwibKSs5xRqSlO8kEh9ciaCXKUteRE7icd30BVQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_020_4729a4907998.png)
 
 ### 使用牛顿法优化ndt的目标函数
 
-2D NDT的目标函数如下![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43hH8UshO8L3JYCSicoJ288f810utpibaO7dibHGfa0YtVVbJCd2awIrccQ/640?wx_fmt=png&from=appmsg)
+2D NDT的目标函数如下![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_021_0434f054af63.png)
 
 ###  每个迭代中在干什么
 
 牛顿法意在迭代寻找最有的p以最小化目标函数f。每步迭代都在求解下式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43cr4s0Yyq2eRpOlGm8bSibPu9JrpyhTIkcibaZtsWLdc3kFTzf9jAOJJw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_022_a7e0f277447f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43o9CAIdIibmUT42qwkj4Y2QpAKKrOz77CuaAa6yXlHSz4UggagEtdh1g/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_023_262599708d90.png)
 
 使用求解得到的delta p更新p
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo438IJjZMbJV04U1MRKrlTL53NrO6SDVah3NkJvYAI7veqyw9ydoAt8OA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_024_fcf23bb2719e.png)
 
 ### 细看目标函数的求导
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43CXC800AEVopsXzaPMXFKDqWVqMo3WPeDqRTxnlq7ric8icu4iaKTLv6ibA/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_025_f50ef6704405.png)
 
 **四、简易理解**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43LENyo9VrwuKrrhUHMqTW3ibAef9oG721UUVBK5icDeGspdhHbePZTSCQ/640?wx_fmt=png&from=appmsg)**
+**![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_026_b0dbd652c337.png)**
 
 将旋转和平移简化为只有平移，而协方差和平均值简化为两个方格内的匹配程度，第一行表示的是原始数据，也就是上一帧的情况，第三行表示变换后的数据，也就是当前帧，红色表示参数p，也就是变换情况，蓝色则表示根据变换逆推的上一帧情况。
 
@@ -168,6 +168,6 @@ Phi(x)的一阶导数如下,只对其前两项求导，忽略第三项的求导
 
 **附录：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo43icLCZgoWJicRRBBHXZLDZNaIvuOVNU6bsd9s5ptnybJLIchFEq4F50Mw/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_027_333a2ecd77e1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG43S2lkLnNrtzl5b1uQvBo435RzSQmjGlicctN2kF8GI98pqsTYkiavbTzLVxBwI8oG4SlgOUHAqc1vQ/640?wx_fmt=png&from=appmsg)
+![](SLAM基础系列02___点云配准_2维正态分布变换NDT(理解2维NDT这篇文章就够了)_images/img_028_661af5e91aad.png)

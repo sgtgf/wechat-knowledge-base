@@ -12,7 +12,7 @@
 
 **关键词:**高空飞艇，SiC MOSFET, 高性能, 电机驱动器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiazeluXwnQIephib1iblSquqibNstjsIQ8sGMvoTxVss3gMM7BibCPicuH4gA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_000_32d8c625dbf5.jpg)
 
 **０.  引言**
 
@@ -28,17 +28,17 @@
 
 考虑到电流波动引起的过电压以及功率管关断时的过电压， 取高于２倍的电压裕量， 因此 SiC MOSFET 的实际电压等级计算如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia7emzNGZBqibLfJRywibtEm0qWFIjYteHbIBw05ARYzqHb4WMZjT9PZKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_001_0281295e2970.png)
 
 SiC MOSFET 的电流等级计算如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaFNm83gZO9ZiaU4WlYLjcNQibHddAu5nHazsryjOwlOkQaXyCeQOTbAxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_002_766018b64ba0.png)
 
 其中，Io为输出相电流有效值，Ki为过载能力，选为1.2。
 
 根据以上条件ꎬ选择了 CREE 公司碳化硅功率器件C2M0025120D，C2M0025120D 的相关参数信息如表 １ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaOcO7tTtnGj6uia9aDC7ibKHGXgX1oHVic5lmPu74BYhbxunUOLu5m0gTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_003_0af993efa6b9.png)
 
 **１. ２ 母线电容选择**
 
@@ -54,7 +54,7 @@ SiC MOSFET 的电流等级计算如下:
 
 ２) 容值计算:容值的确定根据下式所得:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaic6xhLznyqMv6PCQUjSR1JbGlNX1wKPSrgzTeMSAqibHK4VvzzGfvv2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_004_60685c698c23.png)
 
 其中，Pmax 为驱动器输出的最大功率，η 为逆变器的效率，为载波频率，fs为母线电压，U为母线电容的纹波电压。
 
@@ -82,7 +82,7 @@ DC-DC 隔离转换器将 15V 输入电压转换成20V 和 \-5V，用于驱动
 
 为了满足驱动器的高效率运行,采用了功率器件并联方式,这样可以近一步降低功率器件的导通损耗。三相逆变桥的连接方式如图 １ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia5JY74LfWlkW6w78vjHvBRwXSlada0yYm7aY4xibaquwuBKjvYMSPhww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_005_fe5bcc00f951.png)
 
 基于 SiC MOSFET 的电机驱动器 PCB 设计分为驱动板和功率板。驱动板设计过程中，信号侧和功率侧走线和敷铜间不可避免地存在耦合电容，因此在进行 PCB 设计时，应该避免两侧在 PCB 不同层之间存在重叠。驱动芯片下方不宜走线，进行开槽处理，保持两侧具有较大的隔离范围，进一步降低耦合电容。驱动芯片输出侧的回路面积尽可能小，减小共源极寄生电感。功率板设计过程中，吸收电容尽可能靠近功率器件引脚，达到吸收电压过冲尖峰的最佳效果。由于此驱动器用于高压，因此在设计布线过程中，需要考虑爬电距离， 焊接功率器件时，将功率器件引脚尽可能剪短，减小封装寄生电感。
 
@@ -92,11 +92,11 @@ DC-DC 隔离转换器将 15V 输入电压转换成20V 和 \-5V，用于驱动
 
 驱动器测试实验平台如图 ２ 所示。额定工况下的相电流波形如图 ３ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaZrolLYaIR748N6oRf2KAPV6bPzqpibWpjoJWrRndBpTRVgLdwibMACFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_006_be987b33da76.png)
 
 额定工况下的功率分析仪实验参数如图 ４ 所示，驱动器的输出功率为 10.82ｋＷ，此时母线电压为 399.9Ｖ，母线电流为 27.3Ａ，因此驱动器效率达99.1％ 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia5zkncD7y83ibJj3iagf8enj8oRA0shWDFf4llibnhuDpJiauic4jtToljKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_007_93e71fee1fa5.png)
 
 SiC MOSFET 的电机驱动器重量为 1.76kg，驱动器的功率密度达 5.68ｋＷ/ ｋｇ。
 
@@ -106,10 +106,10 @@ SiC MOSFET 的电机驱动器重量为 1.76kg，驱动器的功率密度达 5.68
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_008_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_009_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的高性能电机驱动器研究设计_images\img_010_84aa944feb13.jpg)

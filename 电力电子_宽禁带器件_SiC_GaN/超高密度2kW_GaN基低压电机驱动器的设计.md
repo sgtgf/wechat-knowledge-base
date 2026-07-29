@@ -8,43 +8,43 @@
 
 作者：Dr. Edward A. Jones, Marco Cannone
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE6FjibvjZ7ZT7hDia4ibnDTLOj8uattxt96yodFsM8Sp9BerYB1we5dSLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_000_1a4c500dc17a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEh5Ts1V8RC7F8OoGnPYbdfjPnibs4xwTibJYEU2GmrQtmw6KEQVF2gdQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_001_d6913287008b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE9OEic3bEyFZHR7eGYkjo7oEtoSQDTR6vWfFWKhnUMVWdKpznnGwwTeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_002_5ee3f41bb80c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEV3xrNLofHKbRDohZlRm3jVBuCtRbJ34gzb4UmYlczrTa6WrVnsicWrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_003_c689fbce16c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEA9wcgHWQdomYHRDlED6Nv2uw6bibtiarD4a561ByyN53QZzCtnUiam81w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_004_5e4c4a0159e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE4sZiabb6a7OXldZhCTOUlbyTXKl5SiauBR6tfa65qwLX95mhibBH4XDlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_005_0a27aef8e1ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE31hj4fLENtnxJjazq0tPuztdgyOicd8iaDcOtjn77YahRkct2EXAZQOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_006_857c5ee87e8b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdElEvgHQWkHOz5bK7H7t59G2s1drMG6N5MVia6sribLyevrAenic0ZbNpnw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_007_551212671eec.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE1lia7UsLvON17ibYibI1GTaqFhzGlsZEnlQCUPqm5iaLdwJWB7rQxoyDJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_008_a28bef1cac00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE5fnZ4Yj449pKcu0xniahmowTk57wSUGQkP7iabiaOPYgryQxxI8h7qh0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_009_9d613873d175.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEN9MAcT5E5MCUVTkN4H3XOPhoLqHI3SjIdUnINI4UfwhUtjsjljTicbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_010_ef76b639335d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE2hkzmEa5KKnowTf5LzcfcR5iaKA5B5xwMazRYibcvDRZX3LPC0kydNsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_011_cd0becad56fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEibCM4Dnib2kbfu1ibyjuEGeq3hXRIkdX9nTfiaXSzGmZPHibyhA96ic2uJFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_012_a5d6c0c8b2d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEEWBTGfx7wD2RxGw0vNZrrdkdrlEp5X74RmENM3g6z4zEiaLlf2nVFZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_013_1206a8375121.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEc75IiaBXNZxxnprMHpE82xBFslzdBSb4IDZR4xtY9HKdUMicg3SwSTlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_014_160bb1ae9ae4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE9siaKDc0GlzuGmsbrib5acsicJ5TvTnaOGcfdfK2UA0TibJs2eSf8G1HiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_015_e652730f6183.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEhkCsicP2kJUvFZF1Rd4GTZu3JM5eUbBDDkXEGezpUbOAajlIloiawSSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_016_7dbc26e329c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdELASibvCDibz7ecGUFhsyPiceM4S4mJyflkt4PF5xuj8roEN6teyU4QNuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_017_1af17d398c9d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEkAFqgibBe8VXYrIpMcrb7xsLhY2ygjLlnubc8sU85fIicmvwJqnwFic0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_018_86735cf061b7.png)
 
 注：图片报告与文字无关
 
@@ -112,13 +112,13 @@ GaN 器件凭借高效、高频、小型化、高可靠等核心优势，精准�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxR1ZGBlBxtdgECnMTD8ol31ibFmssPznAkKdVkeR21tShuYqDrM7Wz73g/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_019_8c5ce5d9a8c2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRZ3szUe31R9A6C3o4fBIENxzhz8ribeBVpQF1VCoQCp4VPdqrD5qoWFw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_020_aaefa15b0811.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRDq2eEAB4b86loaxw0I9FJaRJKn9QByDdahLicCVWX7Iy4659ujaxkWw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\超高密度2kW_GaN基低压电机驱动器的设计_images\img_021_dabbc29173bf.png)

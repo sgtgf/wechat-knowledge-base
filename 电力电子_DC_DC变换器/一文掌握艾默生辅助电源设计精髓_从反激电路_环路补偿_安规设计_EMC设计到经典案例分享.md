@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/oKTB1C42KZQb2JbDFirddw](https://mp.weixin.qq.com/s/oKTB1C42KZQb2JbDFirddw)
 
-# ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=1 "音符")
+# ![图片](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_000_cbfcb67c3f7d.gif)点击上方名片关注了解更多![图片](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_001_450aa963c624.gif)
 
 #   
 
@@ -12,7 +12,7 @@
 
 文末附26页完整版PDF文档获取方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CENU55CpuPEH0Lia2kL9c3tfxMubA4NCYbreD6VFTiatZia989o8Lb38YNyw/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_002_48891a73a97a.png)
 
   
 
@@ -46,7 +46,7 @@
 
 ## **反激变换器（Flyback Converter）是目前最主流的方案**。为啥？因为它结构简单、成本低、适合多路输出，而且技术成熟。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CEN5qgthcO0nby1piay4apcrYChkbdqDlswXhf4Xw44rcyQY8ZNCFVoyZg/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_003_dff8fecc2d4b.png)
 
 你可能听过正激变换器或者从主变压器取电的方案，但在一次电源中，反激变换器是首选。它的基本工作原理是：
 
@@ -60,11 +60,11 @@
 
 反激电源的核心是控制芯片。文档里重点介绍了**UC384X系列**，比如UC3842/3/4/5。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CENnibUuXicqQYiap8oWqqcJHVRR4LevutdYmjMAc3oskicSicQB8owtadMX3w/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_004_8402a26cdfd6.png)
 
 它们的主要区别在于启动电压和最大占空比：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2t6KDIicxxJT8IAuFADLCPjxZum0b5jkKjTJHox0qmhgpQYLxOERDiaYuRTXjmvBRwTWJCSsV2vGA/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_005_01934b80e51b.png)
 
 **注意**：不同厂家、不同后缀的芯片参数可能有差异，选型时要仔细看手册。
 
@@ -80,7 +80,7 @@
 
 如下是文档中的一个推荐电路，具体原理可查看文档。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CENicVseibJjE25ZSE1cNtG7OVfiaf6YRPw1hwjGHPRAjWNYEQqDRCAPBOOQ/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_006_82231f15438a.png)
 
   
 
@@ -88,7 +88,7 @@
 
 采样方式有两种：**电阻采样**和**电流互感器采样**。如果采样电阻功耗超过0.5W，建议用电流互感器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CENdRAFQl4SoTtw9X5ChRsQJg0My4IzvhTZBJ9kLescQ3UEPvdORaWaRQ/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_007_e3e6962bc0cd.png)
 
 采样电阻的取值要保证**正常工作时不会触发限流**，而且要留至少20%的余量。
 
@@ -107,7 +107,7 @@
 -   尽量用公司已有的磁芯和骨架，降低成本。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CENY3ibQic97OM2OfM5kYDvjwx2B7fzoIzKOK5jDteuuibcuMSBeAxBiaZoYw/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_008_44db2bccc096.png)
 
 ###   
 
@@ -117,7 +117,7 @@ MOS管是开关核心，选型要满足电流、电压、结温的降额要求�
 
 开关管和整流二极管上常常要加吸收电路，用来抑制电压尖峰。常用的有RCD吸收、RC吸收等。文档里提醒：**吸收电路要以最小功耗达到最好效果**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2t6KDIicxxJT8IAuFADLCPrjpFEXcf4t5Q0GZBLCB2KkhdSNu5sp2vDRCMicG5ndKpibWRSRw2LjKw/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_009_9b04c2425afc.png)
 
 ###   
 
@@ -125,11 +125,11 @@ MOS管是开关核心，选型要满足电流、电压、结温的降额要求�
 
 环路稳定性是电源设计的重点内容。如果是**非隔离控制**，一般在芯片的COMP和VFB之间加RC补偿就行；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CENia0RQOZdwydSsiclDnkandQWSgpLO69TOmOZD0rnD7cvLsD3Gue1B59Q/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_010_66e871ba8f21.png)
 
 如果是**隔离控制**，常用光耦+431基准来反馈，光耦前后都可能要加补偿电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2t6KDIicxxJT8IAuFADLCPj9BMEXiaty4NOsurLoUnekPwPtIm4O8HS8Q3kI7jbl0vuIRpeAKibibgw/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_011_d1785366f4bd.png)
 
 ### 6、短路保护
 
@@ -142,7 +142,7 @@ MOS管是开关核心，选型要满足电流、电压、结温的降额要求�
 -   整流模块常用**串联电阻**，电阻要能在MOS短路时自己先烧断，保护PCB。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2t6KDIicxxJT8IAuFADLCP7HF0ZNPia7BskALqXPzNLTuAC5TbJnYqbSVUNZulfvTY8zfLribQIhmQ/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_012_4635acec4a8e.png)
 
   
 
@@ -165,7 +165,7 @@ MOS管是开关核心，选型要满足电流、电压、结温的降额要求�
 
 辅助电源也需要满足整机的EMC要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2t6KDIicxxJT8IAuFADLCPKZ1rFU43HDzIUxtRbx4CqJRX8qM1F14TbaYUcRdqP5BYvN5DcTWd0g/640?wx_fmt=png&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_013_6fa489148520.png)
 
 -   输入EMI滤波要加在监控电源前端；
     
@@ -182,7 +182,7 @@ MOS管是开关核心，选型要满足电流、电压、结温的降额要求�
 
 -   **H1412M1串联电阻损坏**：原因是并联的电容太大，导致电阻在谐波或雷击时容易坏；
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2t6KDIicxxJT8IAuFADLCPuoWP2WSqvibdy2l5PjUN0u8ALg8OUL8iaklic71LuicqhCmxsTJoT2pkfg/640?wx_fmt=png&from=appmsg)
+    ![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_014_aa02f5d65dbd.png)
     
 -   **PSM-A9启动失败**：芯片关断电压临界，供电电压设计得太接近极限；
     
@@ -211,10 +211,10 @@ PDF文档获取方式
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjZ3okPoSl9ZEJzx0ju2CENibKz837A9TqF4jJLic2Gb2ibkziaMSNNuN6SJltDlzj3dU03mxgaOJibD4Q/640?wx_fmt=jpeg&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_015_67e20fa7114c.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjFVD8oFOceaD5xEw5dkxDU4XYBfh3NJjjezLWnhqnRricz0Y4Coia1jT0v7zQmq4nibEM0hRl0kgiaiaA/640?wx_fmt=jpeg&from=appmsg)
+![](一文掌握艾默生辅助电源设计精髓_从反激电路_环路补偿_安规设计_EMC设计到经典案例分享_images/img_016_319746957794.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

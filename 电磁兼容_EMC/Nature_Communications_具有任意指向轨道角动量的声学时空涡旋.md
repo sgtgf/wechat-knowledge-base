@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/As5mRRpVYinumtVldPKLGg](https://mp.weixin.qq.com/s/As5mRRpVYinumtVldPKLGg)
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/ia1BibkItfQXTsgYvzRSHbDc9IWXAmvO3JS7B1bFiaXySQcbtbCWoyl6QOAudiciaxNL9NgOsR1PTZ9P7ibicGW5ye7kQ/640?wx_fmt=gif)**  
+**![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_000_b41e812278b4.gif)**  
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/ia1BibkItfQXT0icEfSDYCXbuibNCdFovHNEcR2eJAMnia7LYZmNo0kRjnj6UiaIiakc4rZNSfGib6amod4zVewzJakXNA/640?wx_fmt=jpeg)**
+**![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_001_d3240ef173b9.jpg)**
 
 欢迎课题组投递中文宣传稿，投稿方式见文末
 
@@ -24,29 +24,29 @@
 
 该工作考虑了两种调控声学轨道角动量指向的方式：第一种方法是在三维空间中直接旋转携带纵向或横向轨道角动量的时空波包，如图1(a)所示；第二种方法是在一个时空波包中结合携带不同方向轨道角动量的涡旋，如图1(b)所示。为了产生携带任意指向轨道角动量的时空波包，首先要给定对应时空波包的数学表达式，然后对其进行傅里叶变换得到其空间频率谱。在空间频率谱中采样出一系列具有对应频率和传播方向的平面波模式，并通过声学相控阵同时产生这些模式，这些平面波叠加后就产生了对应的时空波包。实验装置的示意图由图1(c),(d),(e)给出，由声卡控制的二维声学相控阵可以精密调控时空波包的结构，利用麦克风阵列可以在时空域中对时空波包的声压场进行精准测量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxareytTicoiag0LYHRuJwcIibTXgMMIf6RzgLTPlvSbA1t77TDwuiaiaKsQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_002_4a8261972c09.png)
 
 图1：(a)通过旋转波包调控轨道角动量的方向；(b)通过结合两种涡旋调控轨道角动量的方向；(c)实验示意图；(d)声学相控阵的扬声器排布；(e)实验设备照片。
 
 首先产生的是携带纵向轨道角动量和横向轨道角动量的时空波包。时空波包的等值面由图2(a),(b)给出，所有波包都沿z轴方向传播，橙色箭头给出了波包携带的轨道角动量方向。由于相位奇点的存在，波包的等值面会出现对应的孔洞结构。携带纵向轨道角动量的时空波包的截面振幅和相位分布分别由图2(c),(e)给出，其中振幅表现出环形分布，相位表现出螺旋分布。携带横向轨道角动量的时空波包的截面振幅和相位分布分别由图2(d),(f)给出，其同样具有环形的振幅分布，而相位表现出时空涡旋特有的刃型相位位错。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIx7Hmd0j3LyMGGYL4eD4EzDicJ0WL7TibyM2hrbj0XCpUmbfmjeOUwGU1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_003_84eeaba77050.png)
 
 图2：(a)携带纵向轨道角动量的时空波包等值面；(b) 携带横向轨道角动量的时空波包等值面；(c),(e)携带纵向轨道角动量的时空波包截面振幅和相位分布；(d),(f)携带横向轨道角动量的时空波包截面振幅和相位分布。
 
 为了改变轨道角动量的方向，第一种方法是对携带纵向或者横向轨道角动量的时空波包进行旋转，通过调整旋转的方向和角度对轨道角动量的方向进行调控。在该工作中，以将携带纵向轨道角动量的时空波包围绕x轴旋转45度为例，旋转后的波包等值面如图3(a),(b)所示，可以看到轨道角动量的方向也旋转了45度。图3(c),(d)和(e),(f)分别给出了波包不同截面的振幅和相位分布，可以看到在其中两个截面中分别具有螺旋和刃型相位位错的相位分布，分别对应于轨道角动量的纵向和横向分量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxDVOR0jbnx8Mh7B0UGvXQODicKu3anjXOLdUxRogViaeKQtY0jHU3pzvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_004_fd6066302493.png)
 
 图3：(a),(b)旋转后时空波包的等值面；(c),(d)三个方向截面的振幅分布；(e),(f)三个方向截面的相位分布。
 
 第二种调控声学轨道角动量指向的方法是在一个时空波包中结合两种携带不同方向轨道角动量的涡旋，通过调控两种涡旋的相位分布，可以改变对应的轨道角动量分量的大小，从而调控波包携带的轨道角动量方向。图4给出了结合两种涡旋的时空波包的等值面和截面声压场。由于存在两种涡旋，在波包的等值面上出现了两个孔洞。当两种涡旋围绕相位奇点一圈的相位增量均为2π时，此时轨道角动量的方向与y轴和z轴夹角均为45度，如图中橙色箭头所示。另外，如图5所示，还可以在一个波包中结合三种不同的涡旋，从而可以实现在三维空间中任意调控声学轨道角动量的方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxj7c6WJDfsBIOLXOwhFVD3reK8QghicHpo2K7aPdHXPsaZuEtia61icDmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_005_1516650f2ecf.png)
 
 图4：(a),(b)结合两种涡旋的时空波包等值面；(c),(d)三个方向截面的声压场分布。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxyvnlcCtgsEibUdOdPUQJSp7VrWXjzZ5Iic2RlXBTtqWAwpMxibZSpiaYicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_006_ebdc7e1bb914.png)
 
 图5：(a),(b)的结合三种涡旋的时空波包等值面；(c),(d)三个方向截面的声压场分布。
 
@@ -60,10 +60,10 @@
 
 https://doi.org/10.1038/s41467-025-58154-1
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxkL3gyZmJhkhicYRTcsEsRSHFibM6PRIicyx8oqkiba9uTEGMtvhPlkghdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_007_6548162f60c5.png)
 
-                 供稿：课题组![](https://mmbiz.qpic.cn/mmbiz_jpg/PDNYolnGcl7zYgSqgy27lQHBQ6ghFPqfSxU3fvPE0hKFZnK8sVZ2nE64Kk9ZUpCzPvCFpHXTX6aqhZe3GqPcGQ/640?wx_fmt=jpeg)
+                 供稿：课题组![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_008_2c7beed69c3b.jpg)
 
 免责声明：本文旨在传递更多科研资讯及分享，所有其他媒、网来源均注明出处，如涉及版权问题，请作者第一时间后台联系，我们将协调进行处理，所有来稿文责自负，两江仅作分享平台。转载请注明出处，如原创内容转载需授权，请联系下方微信号。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl4PVqDwPeuuHCaDHXWDgUic8RyPbSicWIA2Eibrd2AfsQr4mREunHDicIDMribzGBviaCd5xJzDuMmeDstQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature_Communications_具有任意指向轨道角动量的声学时空涡旋_images\img_009_4fd784cdcf51.png)

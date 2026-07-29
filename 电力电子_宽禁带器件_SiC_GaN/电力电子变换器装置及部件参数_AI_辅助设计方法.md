@@ -43,7 +43,7 @@
 
 引言部分围绕电力电子变换器设计流程，系统梳理了各环节中AI方法的研究进展、关键技术路线及其层次化演进。基于此，本文将电力电子变换器的典型设计流程归纳如图1所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNgH4hFWB3Q9WmXctXXDCCsUpvvw1CfL35HT4JgtN3JnffUU6bLL28yqaHKyzmBOMOHakwSkTh4GRBJu15icOgLyKCuqkiaMcnb8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_000_939c150ee2c9.png)
 
   
 为进一步说明AI方法在具体设计任务中的应用形式与实施效果，本文自本节起将选取变换器电路参数设计、调制参数设计、控制参数设计和功率器件封装参数设计4个典型环节开展案例分析，重点展示相关方法在实际问题中的建模思路、实现过程及应用价值。
@@ -54,11 +54,11 @@
 
 DBSRC结构如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7mfwmpS5LReCQtQVxr41NyliaH95TFP48ZibTw5SMApDBewpEicBAx8EjSyhQhATRPRY1t3NdgoXuibGJ8uumBk1G5WCPK0Bicib9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_001_c3c3a0bba1c4.png)
 
 输入侧和输出侧均采用全桥结构，中间通过串联谐振腔与高频变压器连接。高频变压器实现了初、次级之间的电气隔离与能量传输，其变比为n∶1。uAB与uCD分别为初级全桥和次级全桥的交流电压，ir为流经串联谐振电感Lr、谐振电容Cr及变压器初级的谐振电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUKFyc2RoFkicgcQgMaatTnnCnnOGhhoq2WA5Kwic3icBpaU6AW4HLXTU8vb6RTKibqlzESPn4bcSpxGt6ZibibCY23KRP2j7B4Ns38/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_002_44a32f380d8f.png)
 
 EPS调制方案如图3所示，包含两个自由度：内移相D1和外移相D2。电压转换比定义为K\=nUo/Uin。为实现电压匹配，当K≤1时，D1作用于初级全桥，当K\>1时，D1作用于次级全桥。为了实现更宽工作范围内的灵活调节，进一步引入开关频率fsw自由度，即EPS\-PFM。
 
@@ -68,29 +68,29 @@ EPS调制方案如图3所示，包含两个自由度：内移相D1和外移相D2
 
 对于宽范围变换器的设计，需要综合评估DBSRC在各运行工况下的整体效率表现。为此，将电压范围和功率范围等间隔划分，分别选取m个电压参考点和n个功率参考点，并为每个工况点ci，j设置相应的权重wi，j。由于变换器在各工况下的效率与调制参数的选取密切相关，需首先确定该工况点下的最优调制参数组合（D1，D2，fsw）\*，并将其对应的最大效率记为该工况点的效率结果。因此，DBSRC在宽范围运行条件下的加权效率可以表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOkrmVVAGLChGVodY4eH51QAD050qKwLLEuWKYVwTiaF4yibGlO46G40Riam9sPVdOOoUBZTytrTZof5SXv4JaQeeQFrHWwRalg7s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_003_cd92e91dcec1.png)
 
 式中：x\=（Lr，Cr，n）表示待优化的电路参数，η\*（x，ci，j）表示在该工况下经调制优化后获得的最大效率。  
 
 为简化效率建模，只考虑功率器件和磁元件损耗，忽略其他部分损耗。磁元件损耗可以表示为式（2）。其中，磁芯损耗采用基于Steinmetz的经验模型进行估算。对于绕组损耗，考虑到高频条件下集肤效应和邻近效应会引入附加交流损耗，因此引入交流系数kac进行修正。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSf6yCPQ1qOkERScpsl0xeTfS3ibKtHm3iboEqeuNRoaKlspLxRbVuYW4ibMt3TXPnhZia3fpYhhzJqsyTZW8iaEB9tCib0DSkKrffE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_004_64e570e4ae28.png)
 
 式中：α、β、kc为Steinmetz系数；fsw为开关频率；Bm为最大磁通密度；Ve为有效磁芯体积；Irms为绕组有效电流值；Rdc为直流电阻。  
 
 DBSRC产品平台选用IGBT功率器件的型号为SGTQ50V65UFCR3S7，其损耗可表示为式（3），主要由IGBT导通损耗、开关损耗及反并联二极管导通损耗和反向恢复损耗构成。相关参数均由器件数据手册获得，并结合实际工作电流、电压及开关频率进行计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpORibZmM1UNtkh8bTM61j2QnAHp6T2DNSXicfqsXlibLQ69l79X3stibshfiaRzS9Nicwq6R8IOqSA16y8eZtLFcOWkibGLUve75B2KLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_005_263a22965ea2.png)
 
 变换器的总损耗和运行效率分别如式（4）和 式（5）所示。结合式（1）可完成不同电路参数组合在宽工况范围内的性能评估。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPv1IGaDzkgew0Sia18bIKKxO4JGxGfHsrEfVw0E3YhSIfbdUZJWpzDvibZMPicUPYrXXVO2iarmeIuFnjzNQsy2cHVb10IjjjicZJo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_006_97e12611db1a.png)
 
 2.3　基于DRL\-DE的参数优化方法  
 
 针对宽范围DBSRC参数中电路参数、调制参数、效率指标强耦合的特点，本文提出如图4所示的DRL\-DE混合优化框架。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLjaO1fdZOTuUepCQB132TUy0cS2gBdsLhgCA5lR5lHwH1UHpqHCRMeV8VwCnrOo8BhPTpOD7kX2ibDdWEldjH3UNM980XShec/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_007_df140c117148.png)
 
   
 在该框架中，外层DRL是电路参数优化的核心，选取PPO算法作为优化器。智能体通过与系统模型进行交互，在给定状态S下输出对应动作A，系统模型执行该动作后返回相应奖励R，智能体再根据奖励反馈不断更新策略网络参数，从而实现优化策略的迭代改进。在本案例中，状态由各工况权重系数组成，用于表征对不同工况下变换器运行效率的侧重；动作定义为待优化的电路参数，即Lr、Cr、n；奖励则定义为归一化后的宽工况加权效率。  
@@ -103,22 +103,22 @@ DBSRC产品平台选用IGBT功率器件的型号为SGTQ50V65UFCR3S7，其损耗�
 
 训练总步数设置为40000步，其奖励曲线如图5所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLss8OvC1j3uKHX7qicZAulk6dLPpUAxnKVbMibsQmwnQxWL1m6yhF86Xj9koqSOslzeUfhwW9fuV9dyLVCuK5ib8aicNAGvTwxXM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_008_cb9e1dd01c0c.png)
 
   
 奖励值在训练初期迅速上升，随后逐步趋于稳定，收敛情况良好。由于每次训练的状态均随机生成，奖励存在轻微波动。  
 
 训练完成后，设定300V、6.6kW为重点工况，并将其对应的状态输入智能体，获得设计变量如表1所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNicicsicKzpzs6M3ANaosBfJj6lFUseyCicvn4qFzlBk6kYlmD8XYyqtrFiahAvxL9a82Xnh2nMaF99CF9ucT8K68xTicCOCCQyzujU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_009_36c482b18b67.png)
 
 基于阳光电源6.6kWOBC产品平台，重新设计并打样了变压器及谐振电容小板，实验样机如图6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpORWxXHUQZgGkiabrEyolG8YnNB6YCn3YibAFybTdiawOfbrtMCrFrBljwULw1MQBB9spia7ae9IhgBeLib1TEPwHuChcBiaI294yZm8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_010_fe4aa02daefa.png)
 
 在300~500V、6.6kW满载工况范围内，对产品平台参数与AI设计参数下DBSRC的效率进行了对比测试，测试结果如图7所示，低压段效率提升明显，重点工况（300V、6.6kW）下效率提升最大为0.437%，宽范围加权效率提升0.261%。与产品平台参数相比，AI针对目标宽范围工况偏好优化得到的参数表现出更优的效率水平。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMnadw6yTOPibkc7TGclqADahjy04PjmeicxLuw5AwYwHib2IUzcCAbyANsicFaSicn79TIvAOWfa1Row9V36eW2yczDx5ZUhQ5ia2kQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_011_c98fbb4e263a.png)
 
 3.调制参数设计案例  
 
@@ -130,7 +130,7 @@ DBSRC产品平台选用IGBT功率器件的型号为SGTQ50V65UFCR3S7，其损耗�
 
 3.2 调制参数优化方案
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP57DfiazAdTKtvzm5RSIyuQWQVXYLgeuIuqHiaYiaauIv2HFaJuvUicRLvbcHiaiahW8Hd0RGMOI5ERA1MtiaCEVy1qYz8dZpxWoACY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_012_2d9f8f6ab944.png)
 
 本文提出的调制参数设计方法如图8所示，主要包括两个环节：一是实验最优调制参数的搜索，二是神经网络模型的训练与微调。在参数搜索方面，针对DBSRC效率随调制参数变化呈单峰分布的特点，本文以理论最优调制参数为初始搜索点，依托自动化实验平台并结合差分进化算法，对各实际工况下的最优调制参数进行快速搜索，并构建实验最优调制参数数据集。该平台由上位机、直流电源、电子负载、功率分析仪和数字信号处理器（digital signal processor,DSP）等部分组成，能够实现实验工况自动设置、调制参数在线更新以及效率数据自动采集。  
 
@@ -138,13 +138,13 @@ DBSRC产品平台选用IGBT功率器件的型号为SGTQ50V65UFCR3S7，其损耗�
 
 3.3 实验验证  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPUcIMYnOaskeF0iccZlYvLz1wV27Ot512zBVHKAERUvJA2QlxHxr3s3pro65fn5mABbTUTKjt7b1l6SHR9qpiaL4BUjcUjDDpvM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_013_64f2fb78da94.png)
 
 自动化实验平台如图9所示，DBSRC实验样机主要参数如下：变压器匝比为1（12/12），谐振电感为25μH，谐振电容为140nF，开关器件选用C3M0040120K。  
 
 设置差分进化算法的种群规模为15，迭代次数为12，并基于自动化实验平台开展参数搜索。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO2ia4Ddy5rTGv449SQOozURuibk8JOL3n6CUOkS2OtnOdnE5PVianUfAoDOzcVAzjz9bGFJeehd0ZiagyAgbW9dlUYGqDfsk5qNqs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_014_b5d7af023c87.png)
 
 图10给出了输入电压390V、输出电压范围320~480V、6.6kW满载工况下的实验结果，对比了理论与实验最优调制参数及其对应的实测效率。其中，图中仅展示内移相和开关频率，外移相由闭环控制实时调节，故未单独列出。在输出电压384V工况下，理论最优参数未能实现ZVS，导致效率明显下降。实验结果表明，该自动化实验平台能够在无需人工干预的情况下完成调制参数的全自动搜索，有效提升变换器的运行效率并改善ZVS实现情况。  
 
@@ -156,7 +156,7 @@ DBSRC产品平台选用IGBT功率器件的型号为SGTQ50V65UFCR3S7，其损耗�
 
 4.1 PFC变换器及双闭环控制器架构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPOjZt4DShkPtbs4ct6ksD6F3Y4pKVK9I01EghUTfFW3stSClLQntVicYE7GF3yaYlOzzqFXOYqad2zrQUjLRYiaPXqiaoEzL7beM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_015_3f1c1e1a80d3.png)
 
 OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开关桥臂与一组工频导通桥臂。图11（b）为其双闭环控制器的结构，其中电压外环采用PI控制器实现母线电压调节，电流内环采用QPR控制器实现网侧电流的无静差正弦跟踪，并抑制低次谐波。  
 
@@ -168,7 +168,7 @@ OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开�
 
 控制参数优化框架如图12所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPZUucHSibJNgIu0ibX6xjZoG84keKbH26fKpoqic8RfUFGf4bbNeibcwUAdUyj3Ug1Po7iag0wywSSCoAibsf7LvU55k4q39UboDiaxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_016_b20f020910d5.png)
 
 “构建自动化仿真平台，打通PLECS仿真软件与Python程序的通信链路，由Python自动修改仿真参数、启动仿真运行并收集仿真结果；同时引入差分进化算法，对给定工况下的控制参数进行快速寻优，获取“运行工况\-最优控制参数”数据集。  
 
@@ -176,22 +176,22 @@ OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开�
 
 考虑到QPR谐振增益在较大范围变化时对系统性能影响相对有限，最终选取对性能最敏感的3个参数作为调度对象，即电压外环的比例、积分增益Kp,v、Ki,v以及电流内环的比例增益Kp,i，其余控制参数固定。基于离线优化结果构建训练样本，建立轻量化单输入三输出神经网络，以母线电压Udc为输入，输出对应的控制参数，实现控制参数随工作点变化的自适应平滑映射。训练完成后，将网络权重与偏置部署至DSP（TMS320F28379D），单次前向推理时间小于10μs。神经网络结构如图13所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMqV1F2T76lsHt9dGltjiaib2FXBz31ZaeH1NbIO9A4sPoSNbg5XsABIscXaamgb25FqX31T395SAsBXWeJuY7MrLricIEEb9kDTc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_017_b5033703f7ad.png)
 
 4.4 实验验证  
 
 图腾柱PFC实验样机如图14所示，其输入交流电压为110V，输出直流电压范围为170~220V，输出功率为800W。本文所提方法不依赖于特定电压等级和功率等级，可由缩比实验结果有效推广至额定工况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvrMMfGIa3vdULGic2qeOs23RndKyG5rrj9l3xbuoWxGNOBAXUo23CK0OiaKvez37yFwWHVuKfNI3ngFMmVHiaw6pU773wcXq3GE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_018_d92672abd084.png)
 
 稳态条件下，输入电流基本保持正弦形状，且与输入电压同相。负载切换时直流母线电压波形如图15所示，与基于小信号建模得到的控制参数相比，本文所提方法对应的电压过冲更小、恢复时间更短。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOgPdLiciaLcL3ymrUMxRS5tPaeywjRvPicVDnp6icpQrvC4qCTJYe8t46hCaNSCJ1NLeahRRV2dLiawBvueFlRzRwKicbTU4lgeAgNU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_019_8bbc88eebc74.png)
 
   
 图16进一步给出了不同输出电压条件下负载切换恢复时间的对比结果。可以看出，基于小信号建模得到的控制参数在工况偏离设计点后，其动态性能劣化，恢复时间增加；相比之下，本文所提方法在各输出电压条件下均能将恢复时间稳定控制在约30ms。以上实验结果表明所提方法在宽工况范围内均能保持较优的稳态控制精度和动态响应性能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSco7Xy6HFpHX7naNLZXDFGQHy6Fz0MRnE26MbGBTbT0Pc372etsrMwYSKYnAVjZcz20xQNEYZnl90ib7D3rErn9l1nzEf3ZVo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_020_8e20d70594cd.png)
 
 5.功率器件封装参数设计案例  
 
@@ -201,12 +201,12 @@ OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开�
 
 传统功率模块封装设计方法高度依赖人工经验，现有基于元启发式优化算法的设计方法在采用数值仿真评估时，往往存在迭代周期较长的问题。为此，本文提出一种结合人工神经网络与深度强化学习的多目标自动化设计方法，整体框 架如图17所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQibCgUKJGsaooaWwa5nyyJwfr9sj0zNQSzwCfKHdwsicVJOdQrJdlpbrOElNdoZIG6DsCVxcTl2EFg16kOn9Kiaickr0YuoCa1DI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_021_37c33bf037b4.png)
 
   
 其中，深度强化学习部分采用DDPG算法。半桥式双面水冷模块结构如图18所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMAyy3FMujxbhsOtyOXVQppXfm7pg0efqq8iaiateqTeG5NzzkASkUEUeSbibtcRnBmNNhgFJYckUrHkAibza5uwvwQKQVGeo72e8Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_022_866b1cffc97b.png)
 
 本文选取芯片布局尺寸 d1、d2、d3、d4，基板陶瓷层厚度h1，铜层厚度h2，垫片厚度h3作为设计变量，寄生电感L、芯片结温T、芯片结温差∆T和功率密度ρ作为设计目标，电流I作为设计需求，开展多目标自动化设计。  
 
@@ -218,7 +218,7 @@ OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开�
 
 在DDPG算法中，将设计需求和设计变量分别定义为状态变量S和动作变量A，奖励函数如式（6）所示，各设计目标的权重系数设置为1:1:1:1，可根据不同应用场景进行调整。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM6xSdlgJmtPnJbzhc49eDebvKunHsgkyzM1thrLm9wiaGZfQ3eAbpof7tqMfqibZf8Hwv6mSfveybhpdrrwb1grhC5DvbFl0kNM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_023_55b9a4cc4f5b.png)
 
 式中：Lnorm、Tjnorm、∆Tjnorm和ρnorm分别表示归一化后的寄生电感、结温、结温差和功率密度；w1、w2、w3和w4为相应的权重系数。  
 
@@ -232,22 +232,22 @@ OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开�
 
 6种方法的运行时间随Nreq的变化关系如图19所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicwWAb0Cjd5yhSficTcDZ6qCwOds1pQBWYjdl5WmOBibcPpJedibA8hex4KHQX2Trkds2AM6C184Rp7hKtR311af5wd2R65qWXyk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_024_8d4eba753db5.png)
 
   
 在优化效果方面，本文以ANN\-BS方法获得的优化结果作为基准，与ANN\-DDPG方法的优化结果进行比较，以评估所提方法的准确性。表2给出了设计需求I\=300A时，两种优化方法对应的设计变量。可以看出，ANN\-DDPG与ANN\-BS所得到的优化结果几乎完全一致。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOL8iac9Le5tfsAmBAibAmHiaMCIDdyDRCrAAMRju4UMjJYhWbmtuMkAjhNGjrjjqBCTfjgYFI8RDyKTI81HibNxFfeAOTAvUPTWQc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_025_5e1553692b3b.png)
 
 5.5 实验验证  
 
 根据优化设计结果完成功率模块样机装配，并进一步对其电气和热学性能进行实验验证，双脉冲测试平台如图20所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMHckfIZ7iaf5pVS6Q4HsKJZtiatDrUiaJ5T8BVRawpTbCNzf3KmvtDHWpsCkbyz9cfIRN39rh2ruont9AqQOVdD9iaZ7SBZ9630Bs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_026_7644ec5ff055.png)
 
 对模块回路寄生电感进行测试，寄生电感的实测值为6.5nH，而相同结构尺寸下的仿真值为5.7nH，二者整体较为接近。进行热特性测试时，采用FLIRT650sc红外热成像仪对模块内部温度分布进行测量，测试结果如图21所示，芯片温差小于1.5℃，模块具有良好的热均匀性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOLalLMKnnVCJXouX2PtJ7nCvx0gBIialBuKPjLtApkyTmnhzbCepzh7h9ybicPaJnETTQEwNpoeQO7iaHqq95rShgluIVN46dEdk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_027_1a0d07c00454.png)
 
   
 6.结 论  
@@ -260,12 +260,12 @@ OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOacSVgUNia1ia8kNMoyS6M77UTdX9L750qtl17aK1Xycic07D0ibj1HFytY8YGrTxcTPjEQ0y9S0JMaB6hKic5GUCLIMTnW9dyfz64/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_028_6df2a4e1b36c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMCUzkwVSKCaUFDmkPlH88IWBn6Cvd3RiaHKZudHyKM9NaAXHpBrV0AKicJd67QF98picyo2IEIQpNWQ9Rrare1rmkVw08cm7TCcI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_029_1eae3bd80af8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPgSEQmIsQHmrwzCynUuBHIUAfEOBFNkB6pia1bMpG45eAyoDa6ICW6EGH9RJfj61uLMWM4kNYvcSGJYicMQy5tXg8bKH3M1r4g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_030_9ec9ac66c608.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBGrx2MfeicCmib2tFXYPQBxObtPXHu2LToOdT3SmAfNLzL4n9UwTZQhY53b1lYkn9OibJuqavO16tZ84YliaVpx6Y8JsQl2S8ss4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\电力电子变换器装置及部件参数_AI_辅助设计方法_images\img_031_d9a1fea27b24.jpg)

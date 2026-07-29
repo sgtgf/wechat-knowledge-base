@@ -8,91 +8,91 @@
 
   
 
-# ![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9PtRHsAdtZ7M90yUbPiaa2BBUqTVUjT6JSgOFTSHNnlWqLyo65n5xz8w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+# ![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_002_bf96ea8b6e6c.jpg)  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9eVnZ68t5Qo5YyKyQkmicBYpd12B1kFSEI9RF3icw2LFqwouX8Io8TBNA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_003_28daea52a9ed.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9y63CXV3QPzdpNM8J6SHnEubT7MDFssU3ogfibiaiamnr3geD5wspt0GOw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_004_080f2907fac0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9ZzloooZGR0wY3hW3icD4cKt6STZmiaGXeEIwrpX8XGTOcqkF4Yjg0UFg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_005_4b5d616a9424.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9icN7Irrn7jxtdFDiaI8jYQDRicqAxKmKMgBKcNd6po3MhbpXrnouAxRnA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_006_58d6161670cc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9s6tZUz90UxZyw0W6fO1rg0j7x7H9B9dkmQc6vicjF02nkc8Mt5h08Tw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_007_41c7cc15540d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9QVAviaJ4gUxTFxsOVCiaiabqGluH5oQOsqickNdXrKohNlUJpsJddWpVdw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_008_d82e240cc427.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9h3j1adIgD4kHJ6Q3GfZ37goIMZCbH5QicicXr7YddhFglwLibN8lC9sYQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_009_514d2268a839.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9Kkmtwmme9QvQSkYoA3NmtMcU62szvtMVxhxwriaM4MlXERyu4H2ZtFw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_010_d8f2fd6a3a5a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9dXsFflDHg7w1ujSMH3CzkZUice4N0ugDXAKIQ2kuuibImOqbUPUVG3ibg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_011_cd45788199c0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9pVYAh99g5ccSTzQmpqJLudvmfr65Eib2QxnJBP0yRDWwEEsX2qRDf3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_012_0d039a3e1409.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9o55CXjZibf7fl0ZNubQ5Y8TdRYBs45ic9Wibm4Op3eQtmNMAkky5D5U2g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_013_0a5a7b8a43c8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9hROPdJRyic7C6ojiaIhfNrIY5BzickIbTZnwqd7O5mibxjbnibh6fFjmd6Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_014_7b005ce626cd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9ia7YyrZrRn4PU5Zxy1Iv9UcJM14cVSKDd688h0neMsDrNcpBNT26uHQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_015_4cf8de3bd670.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9KCzeUzkthJbmK2Tib5DZGVBFpkoChyENyKlsW7n2BbMyia6dc1xFNF6A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_016_27e7d47f3c75.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9AyQuIdJjygSqlTicQvOWI2zQiaW1VdYHZ2Usib9uSj0VxVayfs4yANazA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_017_fa7cdfab0f69.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9n8hicX0dZOOkP8YGRKqlyxb6v9pgL5tx6owgy66MsRHomHicP6s2vaKw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_018_c971c36a09d0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9b4erBrKSMOuKIaIYY7ymteiaibAibmlD3YU7Bj4hFDe18ulBUdOyxfFrw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_019_c6dfbd19a51f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9vu1lZxHr8LYkJzC6D0R6HrUpWPtXgttH31TLIqw24Uel3zGVkn38Bg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_020_7c2870a3a58d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd94tsAC2naA2SFozfLj1jGj5zEt71HXNEqFy2NIsb1xfdORF1weyGxxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_021_9e2fba5544d7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9Fw3IQnpdB7QibNRtfI3EBMek52cp32SwwYbrZNE63iaE84mCgaY726RA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_022_d34892e965e4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9pvXfnvuXL1TTj17ctHFEEm5lMkZoul1K15FpiaZA17Y3l78aIDlrIxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_023_57d65ff6c7a0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9m4Ter8icLK1TBELkOkqgeaKkZiaQBlKoZlfjQ3wS5wLevVPBUL9DdMiag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_024_b4c7a9cd402a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9DgnDicWBBJT1RibFyCR95X4gJTrbe0IfpG0IibLElRicYfxNJicaONibHZZg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_025_65b9f146f5fb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9WX0sHibtwkJwicJhumZQ4hQvscOKwWyLswhibia5Y9peE1kSknFFwIiajIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_026_cbaa5427a4e4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9S3P8hbibu2gP0AQ2eHHE7Dz9euop76icFnApZd7eWEkTZh3b1ecuEgpQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_027_a76aea269368.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd985V444u8Q5GDzjBex2sN1VUm6ozUcNq5eUcarWFzBh4D1RBGZIRplg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_028_68e0b20680b4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9bb43HI0Xn6F97bEdmPWcHuegacB7tGMj6Rcl12O1RVx6krpPn8ulgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_029_924d5dd5d6d5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9hKG3dFribRUd6OcdaASZqqS4Us13e21chBrQTbb3sAYoOCZiadq0O3AA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_030_76dd45298b80.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd92iapSjibo3PVuf8TatxCmpYoKhcABlDpVZnN7Kp79ibhqMA2hWmb0ubLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_031_193d22525669.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9GqT7auWDKGqfcLwzrciabxicBeYIfVH8f64yqpRQLDn1H94sIPyaUmBg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_032_2c16fd49bf6b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9x9fdM0ER7hQHnE1OQibGTwLbb1VxYr826icszAO7VianUthsbCxsLgRyA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_033_b7767c5e4fbd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9hDvsULiaLcz53A9ia10zK9GCWlh8CicEV9FMRHYnicbkibunxES80guO1fQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_034_9b79cfa59f75.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9qia4dAg195wDf11u9RruSHfWjeGXyA7BmFrlThVibrI3zPgW0Q6Gak9A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_035_e05d3809aa06.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9gcJRf89n5z0rfj0pJ6abHpqEaIEUK7ZwBicfamjctWUnhKjIUqrOMFA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_036_70456399a86d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9xvUTr81TSfb3lWcH4Qxubftq5ytLib9WdstichyR0s6XClQlrbeicQrfg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_037_aa82620e7878.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9CA2kejFxEREZKOfvXaoYO11GKufTX951AiaArLycZ0jBIppLK2G8FMQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_038_e9c932b24bca.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9LHfAfX7wibmicS1PMIzkNJ8uXmYtPEayTHKwoHJaRjicBdnTmY5S7pbQw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_039_a954c4af1dac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9mia165Psy5ZOAzGJoVwADW0qJrrTMTJJicTJrCFuJ5icw7lJ6aQbibS53A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_040_3e8951daece6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9KkL6S1DYt3OwV2Zib73JjCFKbiaz8D04h36g9WXa8nIJrSzHDTt4luiag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_041_b5dc2c70a067.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9c8qibSE1Bzl1k0cjUgvHiaurXXHoqXdLkR54cibdSxgsJYCvKO65pn1XA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_042_a0b72b863fc3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9r0Wud2KyudY9nBAjPEKX1vwFhvAfw1qvqShyNAsXDsibhVSwdOHHOCg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_043_630339de2233.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHTWbHPD8ibTHyPiamak2Fntd9ia7wYWr9vB8zeZvaLor87s5vbLHCtbzpbD3I8tkQQGaN7oYAlfEbl3g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\CAN总线基础_images\img_044_c3ac51a5b7e8.jpg)
 
   
 

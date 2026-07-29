@@ -10,7 +10,7 @@ _![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yz
 
 **0****1**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J2xm7AicXW479gKmPOx7qkibphj7M11YtgxCTChQ3rVN3kicv3SeroWgw5UuTCPsmYlzTw1ZlDLHh1Aw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_002_3a409082d395.png)
 
 初识BIOS
 
@@ -26,7 +26,7 @@ _![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yz
 
 **02**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J2xm7AicXW479gKmPOx7qkibphj7M11YtgxCTChQ3rVN3kicv3SeroWgw5UuTCPsmYlzTw1ZlDLHh1Aw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_004_3a409082d395.png)
 
 基本作用
 
@@ -46,7 +46,7 @@ _![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yz
 
 **03**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J2xm7AicXW479gKmPOx7qkibphj7M11YtgxCTChQ3rVN3kicv3SeroWgw5UuTCPsmYlzTw1ZlDLHh1Aw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_003_3a409082d395.png)
 
 实际操作
 
@@ -66,17 +66,17 @@ _![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yz
 
 下图给出了一些常见品牌的机器开机时若要进入BIOS时需要连续点击的按键，仅供参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBROtMdhscBeqkt6icT7foOLXTglVPyxqgjRIATKibiaUtHibiaKLEjxGicznZw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_005_d4784789bb38.jpg)
 
 注意：一些其它非品牌的电脑也可以尝试一下在开机后刚出现画面时，连续敲击“Delete”键。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBR3TINbvOT0JmtOYIPVmvZ23E6DbBM3BZ88Uia6J4IywliauBhV7YXd2Mg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_006_a0adbef19419.png)
 
   
 
 进入之后，可以看到这个界面。（以联想某旧机型为例）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBRSHpyF2x8TdMRMicKy1VqsZ7mTuFL5kbyfvQftBRzbQbyjTjaltOSYvQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_007_0afb78d8a5dd.jpg)
 
 图中红框内为多个选项卡的选择界面。我们可以用键盘的“←”和“→”来切换不同的选项卡。
 
@@ -112,7 +112,7 @@ _![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yz
 
 **04**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J2xm7AicXW479gKmPOx7qkibphj7M11YtgxCTChQ3rVN3kicv3SeroWgw5UuTCPsmYlzTw1ZlDLHh1Aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_008_c2b1a30d4069.png)
 
 新版BIOS展示
 
@@ -130,17 +130,17 @@ _![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yz
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBRcCMvElnCtM8NMnAzwPQMAqKnJUVosvcYXlFn9r3LDia1MaibI1JevQWg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_009_0ea1f5b2ad49.png)
 
 微星主板的BIOS
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBR5jdbRJvNBuQnfK5F6HvBkuTp0owWvV9iaLic23qgkqV4cREJ9MTMLhZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_010_9bfdc5c5d63f.png)
 
 华硕主板的BIOS
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBRQpwxUefLBcN7Vk6gN56tVMfblsTIqJNyJbCH6dEVI3EWr8ib3F5pcrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_011_3aefdc0ba1a3.png)
 
 以上展示的两款新的BIOS界面，虽然加入了一些新的功能（比如可以调节风扇转速等），但是其基本功能还是和旧版本大同小异的。
 
@@ -148,7 +148,7 @@ _![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yz
 
 **04**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J2xm7AicXW479gKmPOx7qkibphj7M11YtgxCTChQ3rVN3kicv3SeroWgw5UuTCPsmYlzTw1ZlDLHh1Aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_012_c2b1a30d4069.png)
 
 值得一提
 
@@ -166,13 +166,13 @@ UEFI相比于传统BIOS也更加多功能、更加方便、更加兼容。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBR1ctKjicVmo98EH3aCIw3z1Glqn4DEVnAH0JuDRy9KVQba4icSBKJjopQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_013_d42423fb8094.png)
 
 **温馨提示**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2Up7KZUDoYSPkVbPrVE1YWvaNhsbiahBRQLsNBruKsOic8kuYrBwxslN7H6Kfc5RshDxRPkVgmUMfVCJGqR1u2Nw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\BIOS是什么__images\img_014_a8d008c54c37.png)
 
   
 

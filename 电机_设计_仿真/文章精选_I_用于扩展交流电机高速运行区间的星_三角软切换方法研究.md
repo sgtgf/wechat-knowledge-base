@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ltnAVnq9hfDRQxsGOtYIHg](https://mp.weixin.qq.com/s/ltnAVnq9hfDRQxsGOtYIHg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_000_4fecbf19a39d.gif)
 
 ****Study of Star-Delta Soft Switch to Extend AC Motor High Speed Operation Region****
 
@@ -34,7 +34,7 @@ Y. Shuai, D. Jiang, Z. Chen, Z. Liu, H. Sun and P. Li, "Study of Star-Delta Soft
 
 In traction application, speed range of motor is an important index for motor drives. In AC motor control, the maximum speed of the motor is limited by the output voltage capability of the traditional three-phase inverter with star connenction of windings. Switching the star connection to delta connection in high-speed range can extend the speed range. In order to extend the speed operation region, star-delta switch proposed by many literatures relies on mechanical relay, which needs a dead zone of tens of milliseconds and seriously affects torque output. Besides, the traditional method will cause current overshoot during the switch transient process, decreasing the device security and reliability. Aiming at the defects existing in the star-delta hard switching, this paper proposes a star-delta soft switching method. Without adding extra power electronics devices, DC-bus capacitor is used to provide the path of zero axis current in the transient process, which helps to achieve the smooth torque output and zero current switch in the transient. Experiments have been done to validate the performance of the proposed method. The switching transient from star to delta connection in the motor drive can be much more stable than hard switching method.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179E8iaVeTsud9aV4aGp4zMA27afmKkyabAsuvyW47KbxpQPr6iasXtngcmficvw0VtAZnkx9yNpnRAOg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_001_514056dbea97.gif)
 
   
 
@@ -44,27 +44,27 @@ In traction application, speed range of motor is an important index for motor dr
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179E8iaVeTsud9aV4aGp4zMA2oW26kkRQuxjbzCqcQz5C1PE0KANoaw1t5TPSTGXbviannctfWKkgw2w/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_002_b7d22838fd48.gif)
 
 **Yixuan Shuai** (Student Member, IEEE) was born in Wuhan, China, in 2001. He received the B.S. degree in electrical engineering in 2022 from Huazhong University of Science and Technology (HUST), Wuhan, China, where he is currently working toward the M.S. degree in electrical engineering.  His research interests include converter topology, control strategy and modulation method for ac motor drive and active magnetic bearing.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179E8iaVeTsud9aV4aGp4zMA2wcia7oM22cdbCZokiaBvLBlHFa4VGkw4z2wPZjb9P4QcAbxasp6u1pmw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_003_3f393b71453c.gif)
 
 **Dong Jiang** (Senior Member, IEEE) received the B.S. and M.S. degrees in electrical engineering from Tsinghua University, Beijing, China, in 2005 and 2007, respectively. He received the Ph.D. degree in power electronics and motor drives in 2011 in the University of Tennessee, Knoxville, TN, USA. He was with the United Technologies Research Center (UTRC), East Hartford, CT, USA, as a Senior Research Scientist/Engineer, from January 2012 to July 2015. He has been with the Huazhong University of Science and Technology (HUST), Wuhan, China, as a professor, since July 2015. His main research interests include power electronics and motor drives, with more than 100 published IEEE journal and conference papers in this area. Dr. Jiang was the recipient of six best paper awards in IEEE conferences. He is an Associate Editor for the IEEE Transactions on Industry Applications and the chair of IEEE Power Electronics Society Wuhan Chapter.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179E8iaVeTsud9aV4aGp4zMA2BTVCeCgcmN4yacOsZoNEusPa9piawU7aTLxe81qjL5OzBStUJC9LBaQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_004_d3f36f688e50.gif)
 
 **Zhuo Chen** (Student Member, IEEE) was born in Zhejiang, China, in 2001. He received his B.S. degree from at Huazhong University of Science and Technology (HUST), Wuhan, China in 2023. He is currently a graduate student in Zhejiang University, Hangzhou, China.  His research interests include motor drive, power electronics and converter topology.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179E8iaVeTsud9aV4aGp4zMA2F8iaVf5buSvhNbCnxKNgbfyCa8le6SvY5VM8pEUO5TiceGQCQFrnlNjQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_005_49fbafcf19a4.gif)
 
 **Zicheng Liu** (Senior Member, IEEE) received the B.S. degree in Hydropower Engineering from Huazhong University of Science and Technology (HUST), Wuhan, China, in 2011, and the Ph.D. degree in Electrical Engineering from Tsinghua University, Beijing, China, in 2016. During Otc. 2014 to Mar. 2015, he was a Visiting Student at Purdue University, West Lafayette, IN, USA. During Jun. 2016 to Sep. 2018, he was a postdoc researcher at Beijing Jiaotong University, Beijing, China. He is currently an associate professor at HUST. His research interests include multiphase motor control systems and transportation electrification. He is the vice chair of IEEE Power Electronics Society Wuhan Chapter.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179E8iaVeTsud9aV4aGp4zMA28yEHnDCegfajQgHhGUF6r2cTTzibfVXNrGibTmnYaOcI4eLhG6STFK7Q/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_006_ba66c532f0ab.gif)
 
 **Haijing Sun** received the Master's degree in School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan, China, in 2019. He is currently working in Wuhan Second Ship Design and Research Institute. His research interests include the noise and vibration reduction of motor and advanced motor control algorithm.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179E8iaVeTsud9aV4aGp4zMA2Hr25lYH8sTDEglia5aibTH45SCLodhunqva2w1rvgxwZvr0huBvKy1dw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_007_2b448d960d3f.gif)
 
 **Peng Li** received the Master's degree from the Department of Electro-technical Theory and New Technology, Huazhong University of Science and Technology, Wuhan, China, in 2011. He is currently working in Wuhan Second Ship Design and Research Institute. His research interests include the control of PMSM and health management of electric drive system.
 
@@ -72,7 +72,7 @@ In traction application, speed range of motor is an important index for motor dr
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_008_654c2fde68d8.jpg)
 
   
 
@@ -86,15 +86,15 @@ In traction application, speed range of motor is an important index for motor dr
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_009_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_010_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_011_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -102,15 +102,15 @@ In traction application, speed range of motor is an important index for motor dr
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_012_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_013_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_014_644d85f1cc17.png)
 
 学会官方B站
 
@@ -118,15 +118,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_015_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_016_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_用于扩展交流电机高速运行区间的星_三角软切换方法研究_images\img_017_c28b250481e7.jpg)
 
 学会科普微信
 

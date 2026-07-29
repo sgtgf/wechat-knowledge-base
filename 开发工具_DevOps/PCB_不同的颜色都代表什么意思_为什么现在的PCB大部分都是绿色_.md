@@ -26,11 +26,11 @@
 
 **白色PCB** 在各种环境下**看起来干净利落**，越来越受欢迎。但由于白色PCB**容易隐藏走线，所以白色PCB仍不是首选**。但白色 PCB 在黑色丝网印刷中看起来对比特别明显。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBYrKGiajefLC8VoxBJFHsVZX2iaN7vEtpj9bb27Tzy2DrrQhnlwlBm8JQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_002_b9b64c3b9a74.jpg)
 
 白色PCB
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBEAicGmc437gwmiaLGsU4VYAk6adxhr0UJMpur48jFII7UeicCDvxvibPJA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_003_293f9b0e7e8e.jpg)
 
 白色PCB
 
@@ -38,11 +38,11 @@
 
 之前用**黄色 PCB** 比较多，但现在已经没有那么实用了。黄色PCB可以快速满足风格、清洁度和可见性等不同需求。黄色PCB有一个明显的缺点：**与走线和丝网印刷的对比度差**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBKc7LRLrsnAooNsfEibpgibBadDnwgxFN8G5LgwVqEscoIXbH5iaLW3SkA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_004_db80399ebb79.jpg)
 
 黄色PCB
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBow6SmWErhiaaxHQtS4SZ391T6z2x5PXY1PL2BUEoHGqOBcHdnuIgYhQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_005_4db01cbd6bac.png)
 
 黄色PCB
 
@@ -50,7 +50,7 @@
 
 **蓝色 PCB** 被认为是用于标签的厚板，因为它提供了**显着的丝网印刷对比度**。这种PCB 颜色不像绿色 PCB、黑色 PCB或白色 PCB那样引人注目，但蓝色 PCB 是PCB 颜色的首选，因为它提供了极好的审美选择。蓝色 PCB 安装在 LCD 上是比较好的，因为蓝色 PCB 不会产生鲜明的对比边缘和明亮的背景颜色。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBzYlyAHIBWerNpWPl6dUW3q0r9wyo6sjpgty5911slKnS4ZuicMF0YHg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_006_8d8d45a0dca8.jpg)
 
 蓝色PCB
 
@@ -58,7 +58,7 @@
 
 由于**红色 PCB**的一些优势，许多 PCB 制造商热衷于采用红色。红色PCB提供了**极佳的可视性**，并清楚地**定义了迹线**、**平面和空白区域的对比度**。丝印在红色PCB的映衬下显得非常漂亮。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBhln2dyriaUBQVTkQsicnkBZJWpFIoFJmzyKgTnWzcL8MToeR7jicSuWiaw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_007_126adb6df9f1.jpg)
 
 红色PCB
 
@@ -66,7 +66,7 @@
 
 **黑色 PCB** 与白色 PCB 一样受欢迎。这两种PCB 颜色产生低对比度，可以**轻松标记重要组件**。但是，黑色PCB和白色PCB的主要缺点是特定细节可能**会聚光并有小阴影**。这个阴影使追踪变得困难。因此，在各种高温应用中不宜使用黑色PCB，因为黑色PCB可能会**使丝网印刷变色**。而且，黑色PCB板是钴和碳的混合物，**导电性可能会比较差。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBb09Irt8FDo3vebnU0klDrliavmptQ4aIzjReIDdicYiaUnHw7S3R8Q4eA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_008_7458cd676678.jpg)
 
 黑色PCB
 
@@ -86,7 +86,7 @@
 
 而使用其他pcb颜色主要是为了区分不同的产品样品。在公司的整个阶段，从研发到产品落地，取决于PCB的各种用途。**实验pcb板颜色可能为紫色，按键pcb颜色为红色，电脑内部pcb颜色为黑色。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBfia3u5ZGnGFJFBPVlwJkJm16ULCeahricQiaiceQRcicJAB9FialQTzdzAZA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_009_bd7f231479e4.jpg)
 
 下面列出了几点选用绿色PCB的原因：
 
@@ -112,7 +112,7 @@
 
 焊接贴片时，必须通过在焊膏、贴片和背面的AOI上刷锡来检查。这些工序都需要光学定位和校准，**绿色PCB底色对仪器的识别效果更好。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iapXlcghssnVJFicBdpHrSPVickx90PQ4lBKR2ZrwX1FVia4WCCMVhHGzRFWianWTvKhCpywuoPJkUxMawO4wGSvzMw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_010_8acfff071ee3.jpg)
 
 绿色PCB
 
@@ -134,9 +134,9 @@
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_011_2e84b7ba26c6.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_012_51d069a6484e.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_013_5fb296583be4.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_014_1f30148044c0.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_015_c5bc86d0867d.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_016_b38438d4de46.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_017_1d54e9fe0aef.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_018_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_019_de88c48250d0.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_020_3b83df2d253b.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_021_db521919e8d9.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_022_aea384ea417e.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_023_f4924e7a240a.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_024_a58db91dbb3b.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_025_f0edc68b0c53.gif) ![](PCB_不同的颜色都代表什么意思_为什么现在的PCB大部分都是绿色__images/img_026_3c93e54afedf.gif)
 
 ## 
 

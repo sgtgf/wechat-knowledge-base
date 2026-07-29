@@ -10,15 +10,15 @@
 
 大家好，我是王工。
 
-大家在画板子时候，是不是经常找不到合适的封装，有时候又懒得画![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHMnehicrkRlY5v2ma2OBhy6licFtBwmibsr86bHxUOmZNbaS8LyTvYiak9Q/640?wx_fmt=other&wxfrom=5&tp=webp&wx_lazy=1&wx_co=1)
+大家在画板子时候，是不是经常找不到合适的封装，有时候又懒得画![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_002_cc815c1f7245.jpg)
 
 下面给大家分享3个封装库，基本上常用的封装都能找得到，还带3D模型的！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHIqyEHwhK7XPWdVmRnPlKDusRjB5j8MwvXSyUnu2s75YuIu2zToFrdg/640?wx_fmt=other&wxfrom=5&tp=webp&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_003_ba1df890008f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHwggLm0U0A4rqkqPGic0BZlPwKJViblYISwianIZVLa3sjRIYFDz8jViaGw/640?wx_fmt=other&wxfrom=5&tp=webp&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_004_2a22e3934573.jpg)
 
   
 
@@ -26,53 +26,53 @@
 
   
 
-下面放出部分封装的截图，让大家看一下![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1KicX3sregak3y8awwmCDFNHDQEMicyHecPibMXvgNTs4kWLqMcB2aics8VInVIaGYj8V6UmLqF6w8n7w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+下面放出部分封装的截图，让大家看一下![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_005_1768ef614414.jpg)
 
   
 
 电阻器的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72HsDPbyRXghCHeG7A4paK6OL1ndNjz9rbfYxM4Rj0ASDxO9bDDgic9Ag/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_006_25136beb90f8.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt723SCLsKObsRzO65sF1D7qAdq5kKsiaT1iashRqGQX2fSdqszIhWaSshrg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_007_720980119cc8.jpg)
 
   
 
 电容器的封装（部分）  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72kq0eFetCIxxsn71Ny5WnyVE4jDYQ86g2WURsMKKGEgHLKVxfGAwhMA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_008_2aa65788353c.jpg)
 
   
 
 接线端子、电源插座的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72X8tPk8ibiaa02NdlDAGwD3ib8vgjsFejfLxOSfIUN2PQahhx4fFmytm6A/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_009_9dec22ebeb83.jpg)
 
   
 
 常用IC的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72naV0PQYToYUnvBOKhia072l8tZOABygHQht3uhufqAKSNzAgR1anQ5w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_010_78d2f8f6b24b.jpg)
 
   
 
 常用晶振的封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72nozSlbL3iaWxQP6pia4W7S3K9oLA4rtNq5efLtiaem6pia2a5wv3icDzqMg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_011_bcc1da413bdb.jpg)
 
   
 
 其它封装（部分）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1JUCjTBzfvOmghYA2ZDYt72IGlpKZ6EiavJQq3f79giaXwVibsQSpuvs3tXpU7ic8DSnDAWYZhdNpz5yQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_012_f5a84ec99354.jpg)
 
   
 
 **关注微信公众号：硬件笔记本，扫下方二维码添加管理员微信，并备注“****3D****”，即可免费获取封装资料。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_013_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\Altium_Designer超全封装库（带3D模型）_免费分享_images\img_014_d5dcc7ecfdf3.jpg)
 
 ## 
 

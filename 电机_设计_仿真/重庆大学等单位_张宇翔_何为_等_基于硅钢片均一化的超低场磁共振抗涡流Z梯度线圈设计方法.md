@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QrHibLgalBZmeEtF7tYtwXSnibmNbSJ2olIKHicRguSPvniaobkXa6jZK2hM9hfX2ibSEGPFxj33ecphw/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_gif/WRO0RgZZ75QJAkfmoBLHoWRP2TAwUaHB74ic6HGUYXvlbQ5WzKZ30UMqgXsQa5msvPbFjLU9GGpoT7QmriaTajPg/640?wx_fmt=gif&from=appmsg)](http://www.njyxdq.com/)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\重庆大学等单位_张宇翔_何为_等_基于硅钢片均一化的超低场磁共振抗涡流Z梯度线圈设计方法_images\img_000_aee40b401544.png)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\重庆大学等单位_张宇翔_何为_等_基于硅钢片均一化的超低场磁共振抗涡流Z梯度线圈设计方法_images\img_001_4cbe5da63430.gif)](http://www.njyxdq.com/)
 **阅读提示：本文约 3800 字** 
 > 在超低场磁共振成像设备中，铁磁材料（抗涡流板、铁轭等）会对成像目标区域梯度磁场产生影响，且在梯度线圈工作时，这些金属部件中感应的涡流会导致成像伪影。为解决上述问题，重庆大学研究团队提出一种针对永磁型超低场磁共振设备的抗涡流Z梯度线圈设计方法。首先对线圈外侧的铁磁材料进行等效简化，随后提出一种梯度线圈的参数化设计方法，通过对线圈结构进行参数化表达直接对Z方向梯度线圈的最终绕线结构进行优化，同时在线圈外侧设置反向电流绕线控制系统涡流效应。最后，通过有限元仿真与实验验证了模型简化的准确性与所设计Z梯度线圈的抗涡流性能。
 **研究背景**

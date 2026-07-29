@@ -8,51 +8,51 @@
 
 作者：Ehab Tarmoom
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsg91F2DYaUEUDDjgOdQJZZ0flw6Z2NkBEwptacOrvOsRnPyDqc6CyAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_000_7a2e5c18fab1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsGNu3vUJvOCKGzSmI9SOICHkC2kGbAsN9jI08Vqxsd2kAyLlicE2Reqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_001_0cf4b9da91c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvswkDkRe3DTGef3fKqwPjGctOcNFVkhex2yAiajROQlL19EZ076DwtHoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_002_155634091f3f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsaMgxuUiauicVYK964GYhVChEO7NjiaVV9OZxnnVRydSBxyOm45JolPFdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_003_2744e4269cbf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvssRmuicllvGeAkpkTRiaE14ADlBZ8aajspyMNUk67j8KwMEevHfjuoxYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_004_283f0ebfd895.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvskNOyLQnicWvXjymbF5GbjcpqRNiaIcMV7zy4ymLocBiaKycAucGQaKnDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_005_ffd8331fb3b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsRkQUQibNYtHZafncHM2FNy2HrQjn7T5YCPBWSJPSGonhiaEsaLFT5HUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_006_ec61945b1049.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvseBbmfXc0Z4vAdibR6yrYFeNicn1UeibIHR16b69TMLzcbe8ZdUmQ7PWsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_007_d44f9ceb3bb5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsb3hdIic2AadqDyu2EJzXXvyxDqpM0rulhDf8xdAvppzS0SHpL2QNEkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_008_c6320ee0d113.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsicaic3ARIkdqIJFIBUSaF6tDibrzqzpcB3vpic9MzK6Sp7QlWfxrGnDWdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_009_866b5f8f04b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvszicsRLVzW9qRA1F6TkFs72ojhb8Mg2kRZ7cjPQJHfZ8gxULW314jqfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_010_4937e22e3a7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsHf26XNwW2vPibR3kYnrq3MbmlFzrpso5nroLNq0icXnianRXOUCD3XZiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_011_dffa390ab011.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsZo6RXvTgU0rYG8ia2RF65mooxD4m1fZKVUd57GAsSftU0ru5KBT4WOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_012_c2a8c7cb2b31.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsIH7ul3POgibJkiaJicwP9oic7dGBBYrZ2Vx0uw7w2IsTK0xYgusxlJA4ZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_013_97cc5eab34f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs9iczibS4ibeic987pWA8CLmibDib8vicsSTzO0uProKsZVg9EtiaG4oFeTeDAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_014_6274e2951fe8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsMjkR3d7MtJjBghGBs3NGrS5ibvSCyAiaFiaQmiaVAgbh0k15TqojaLjPKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_015_9239aa83e148.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsFJ3RGoYbqLe3w3xcXckmH2JTibAfTJQu2jmZb1xJ0drKico8bQHseMtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_016_a208ab9056ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvswFcGf2uRjK6H6icRdbtdM8C3dap4CWlyiaNUYBicQKhrCULjLbU155H8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_017_318903cb68d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsFO8L3yNKTUYJXEqb5m1lBkhjQMCBEb65wuydJTwOxbTThfJ4R2Gulg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_018_53f2165a28ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsdcMffBoNiaO26EiaAz858wESfDTicxq4WxMgXk2e1yiaPMkdyMcrvuGjWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_019_de88781553f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsibNaTKmuDKG6oFbSVPTeyDzWGib30qdyH486jls1rHnubAfFibnRygibGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_020_8fe3570079e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvszwPVaPsVPmknFq6vaIRCCe1jcDewmUOR78O3iaCs8EqtoLSYtYfTSlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_021_e1e0dbeef2cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs32cABWicFqQLrQUibMARjgsoBAbyvQUujYyFd2BSOicvezMG27QLFQK8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_022_e7aaa1b81751.png)
 
   
 
@@ -133,13 +133,13 @@ PSMT mSiC MOSFETs 通过材料革新、封装集成和系统优化，重构了�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=t77ao96h&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_023_070499dc7af3.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=mh06mxt7&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_024_e32863a160fd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=zcsymlzn&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\使用PSMT_mSiC_MOSFETs提高效率并降低成本_images\img_025_62e8e29ca3ec.png)

@@ -60,7 +60,7 @@ As shown below👇
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/qpib25W6eS1WudP5ThGhQ395gCJgS0TK8CQk8rE6GItqibtfO3y8FS84NMpREicVgqtWLUDKN9WtzFVub5dEicNW0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Anapole（无辐射偶极子）和BIC（连续域束缚态）_images\img_000_7e8981f3055a.png)
 
   
 
@@ -120,7 +120,7 @@ As shown below👇
 
 偏振调控：TE偏振下保持anapole₁，TM偏振下可切换为双anapole（anapole₁ + anapole₂）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/qpib25W6eS1WudP5ThGhQ395gCJgS0TK8BAyzqm7SmdibDAicBkibSDTc7XjeRLmkwEKqTCQzOLCCJicBMdUYibhW4sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Anapole（无辐射偶极子）和BIC（连续域束缚态）_images\img_001_5b6894afbc3d.png)
 
   
 
@@ -138,4 +138,4 @@ As shown below👇
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/jtjDkMeibtpcP5C3OHCmVIva7n4PCib3R3lp4vVEiaBibZF3PvfGxGDnEWZ1cxe0UJOY0bdodYGvSnqRKA1omH7cmA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Anapole（无辐射偶极子）和BIC（连续域束缚态）_images\img_002_263f0379c386.gif)

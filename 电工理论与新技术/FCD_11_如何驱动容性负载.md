@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/UZ00-IMbl8cXM6HAdekzyw](https://mp.weixin.qq.com/s/UZ00-IMbl8cXM6HAdekzyw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSIIV3NXGkTicnX13NHfVSTWqRNicJPibdmDZku8SqkYedetteaNGv5YS52kEt6SDibKak6S3Oj2fwZ0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_000_1505bb8c4260.png)
 
 ___**★★★**________Load-2---容性负载________**★★★**___
 
@@ -13,13 +13,13 @@ _撰稿：Timothy  校稿：Timothy_ 
 
 ____€1.应用示例____
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSIIV3NXGkTicnX13NHfVSTWxSYh7Q42Il8CbIpY3wvWaZj9MAM3JdO0656Hic7PgCztyzbbCy2icI7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_001_9dcb56ec248f.png)
 
 **_图11-1：汽车容性负载驱动示例_**
 
 在像**_图11-1_**这样的汽车应用中，许多非车载ECUs都有输出大电容来稳定输入端的电压，由于这些模块必须能够在输入电压出现跌落、尖峰和开关噪声时可靠地运行，因此需要电容器组来帮助储能和过滤，这些电容可以从数百uF到mF不等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSIIV3NXGkTicnX13NHfVSTWBZFgxBOJdx1FF9BQNobP1sYHpe4mg8RaEiaLvlKG6tfQSZsicd3w2gUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_002_5aedda8b94fc.png)
 
 **_图11-2：工业容性负载驱动示例_**
 
@@ -29,15 +29,15 @@ ____€2.容性负载充电____
 
 当电压施加到不带电的电容上时，电容将吸收电流，直到其电压等于电源电压（传送门：[Capacitor-2：电容的充放电](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247486349&idx=1&sn=aea138def18a342f551c1c60650c2901&chksm=c3354112f442c8048df792682360ef745b8f6320f5cd894f94b600443c7916c9d0e26dbe3709&scene=21#wechat_redirect)）。涌入电流的大小与电容两端的电压随时间变化的速率成正比，由此产生的涌入电流可以通过方程1进行计算，如**_图11-3_**所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4kGrQ18icWic5FMnyyUdk1c7B3ph6lTY93a8VfRSiciaheflnz0pMkoJrlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_003_5694313b52c9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSIIV3NXGkTicnX13NHfVSTWeHV15dAGvA0rAQl5fU5pia7QewEsaEibdZDEsONtichuyftbYJOHG9Vicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_004_941650a898b9.png)
 
 **_图11-3：电容式负载充电图_**
 
 当开关闭合并且电压首先施加到电容时，dV/dT由**_图11-3_**中的开关使输出电压上升的速率确定。根据该速率，浪涌可能非常高，并且仅受开关输出和电容器之间路径中存在的寄生电阻和电感的限制。在没有任何限制Iinrush的情况下，这些高电流可能导致输入电压下降，甚至由于所需的高电平功率而崩溃。在**_图11-4_**中看到，其中用高dV/dT对电容器充电会导致浪涌电流达到峰值40A，引起黄色输入电压明显下降。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSw44ib4DrdlANUeHLH4wyPpcl3tLHj9zpjxibApsodCDu4FuVjMkYahPrR8DltUQ6x3pKwBMRgbibOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_005_5ef7de029b12.png)
 
 **_图11-4：涌入供应下降示例_**
 
@@ -55,11 +55,11 @@ ____€3.涌流缓解____
 
 如**_图11-5_**所示是容性负载的一个简单建模示例，该电路显示了一个开关的简化模型，该开关使用10uF输出电容器在24V下驱动500mA直流负载，该示例的电缆寄生参数为100mΩ和5uH：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSw44ib4DrdlANUeHLH4wyPpPAtxhE6T61qKsbCmMqaLkmp9f3pTibVt2sHvSfERqVIcIzvdRyPBDtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_006_ca754c87dd1a.png)
 
 **_图11-5：不受控制的电容器充电示意图_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSw44ib4DrdlANUeHLH4wyPpRzpibrmDzR0QOsr9sxrMr4YVXl8dUlh04gj305PiatejuiaXGPMuJLCvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_007_58298aa42bf8.png)
 
 **_图11-6：电容器充电波形失控_**
 
@@ -67,11 +67,11 @@ ____€3.涌流缓解____
 
 需要找到一种方法来限制这种电流，同时不影响系统或导致电容器充电时间过长，一个简单的解决方案是串入一个12Ω的限流电阻，如**_图11-7_**所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSw44ib4DrdlANUeHLH4wyPpL1XXnrJHFeSh71kNTKcVemYXVqFrNibBV84TPronzP0d0lN22XBklMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_008_8dc5fd94d029.png)
 
 **_图11-7：串联电阻电容器充电示意图_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSw44ib4DrdlANUeHLH4wyPppNYpk5a6UJ42Ph3qPfCvyuI56Y8SWR6HGzwPLJheibYC3CxFWKxd9SQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_009_e9dad971dbd2.png)
 
 **_图11-8：串联电阻电容器充电仿真_**
 
@@ -79,7 +79,7 @@ ____€3.涌流缓解____
 
 智能高侧开关可用于驱动大电容负载，通常高达4mF，智能高端开关能够通过电流限制对容性负载进行线性充电来限制涌入电流，对电容充电时，智能高压侧开关会识别过电流事件，并将输出电流箝位在可调设定点。**_图11-9_**显示了TPS2H160-Q1在电流限制设置为1A的情况下为470uF的电容充电的情况：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSw44ib4DrdlANUeHLH4wyPp6WLwh0rsmuL6QR5Suia2GOEq622AlE7fYeUZAVicZX43OOFzEzeTiaT1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_010_dd31d1dd5198.png)
 
 **_图11-9：TPS2H160-Q1 1A电流限制_**
 
@@ -87,7 +87,7 @@ ____€3.涌流缓解____
 
 如果觉得1A浪涌电流过大，还可以灵活地将电流限制进一步降低到500mA，如**_图11-10_**所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSw44ib4DrdlANUeHLH4wyPpuwkwRts2WTDpicnOOfziciaB6IpkZjkXVqXrapNU2d61cdianCVJuSc34w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_011_2b7d050d5593.png)
 
  **_图11-10：TPS2H160-Q1电流限制为500mA_**
 
@@ -97,11 +97,11 @@ ____€4.电容器充电时间____
 
 回顾电容充电的方程，可以预测浪涌电流限制期间的充电曲线，由方程1计算充电时间，得到方程2。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP43ICL4kZC6TTdDWBQLs1Y94eN2K4beCYHtBMK8XkccVqrFV3Od97PNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_012_3dd23c7b27c0.png)
 
 方程3表明，方程2对于描述**_图11-9_**是准确的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4zFPLgDx27jS7NuSqicKFfqwa9D1TiajavmtkreVvxLQ4iagF8QWGwTbDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_013_15ebcfae64cc.png)
 
 方程2表明，电流极限设定值越低，对负载电容充电所需的时间就越长。重要的是调整该电流限制设定值，使其在不显著延长充电时间的情况下在安全限制电流之间适当平衡，这种平衡必须通过查看特定的应用要求（如系统启动时间）来确定。
 
@@ -109,43 +109,43 @@ ____€5.散热____
 
 对于大电容负载，在电流限制期间，智能高端开关必须考虑热问题。当给电容充电时，智能高端开关通过调节智能高端开关内部MOSFET的栅极电压来限制Iinrush，回到等式4来对电容充电：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4fsQiaIjRYc6jc5maXmN3tlibbpvLLBydogC5icXnvV4tduFK82GyCbpnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_014_8c84e6f20fd3.png)
 
 对于调节的常数Iinrush，电容需要看到常数dVCAP/dT，这意味着电容两端的电压必须线性增加，而不是在没有电流限制的情况下出现接近瞬时的电压增加。施加在电容器上的电压是VCAP，在等式5中示出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4yGXLQnBiczia120icrTHKiavtysBkMULnWhia1Ue8NBsIstkXibwXXG2wV1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_015_50bf3f23707b.png)
 
 在常数Vsupply的情况下，方程5表明，如果VCAP线性增加，VDS必须是VCAP的倒数，并且线性减少。因此对于恒流电容充电，智能高侧开关VDS在下降到0之前，其初始值等于Vsupply，而VCAP同时增加以达到Vsupply。**_图11-11_**显示了这个过程，TPS2H160-Q1将大（470uF）电容负载驱动至24V，充电电流限制为500mA。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTqU7gU5awcCuIHbXJSqZg68tqevmWMSWAmP9CGPVbpszVo6iasnpXXmlbrnqicmk7T5UbztSmBbkEw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_016_c209d8cf809c.png)
 
 **_图11-11：VDS充电电容_**
 
 智能高侧开关将输出电流限制在500mA，因为电容上的OUT1电压从0V线性增加到24V，VDS从电源电压向0V缓慢反向降低。在该充电期间，智能高端开关中的功耗Pdis由等式6计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4iapKGic8KtTribwiaaDmezjcDk7MbSwBwKibKiaJbiaEy9oxMF5u5siadZKT0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_017_569b0ffb2a51.png)
 
 电流现在是有限值的，不再是未知的涌入电流，因此方程将考虑ILIM而不是Iinrush。由于ILIM是恒定的，并且最初VDS＝Vsupply，因此峰值功率耗散发生在脉冲的开始处，在等式7中给出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4ia21noJVlUzic2pvOmqoJtQF5p521xzrlzVYRqhHbEhHzK0d1o00TaSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_018_8b97d4c32665.png)
 
 当电容充满电时，VDS≈0，因此Pdis≈0，对于第一近似，充电期间的平均功率耗散在等式8中给出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4P7hpBxhSibTxcg5Y0IURIJtgx9G4iaaAHFibGnvfmbNQWiasBopcCLtibQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_019_27b9295989a4.png)
 
 该平均功耗在等式9中计算的充电周期的周期内产生。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQuPnQayUYdZueIictK7OoP4ibqkw0TR0skX9bzBwkJicFNKqDHh4cv9n3DZHO8lRlB4ZzpGxibVy8VWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_020_be09a0028b5f.png)
 
 在**_图11-11_**中，峰值功耗为24V×500mA=12W，平均功耗为6W，充电时间为22.9ms，为了可靠运行，FET必须能够在充电时间内散热。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTqU7gU5awcCuIHbXJSqZg6lwy9x9UxH5KMZB6LmNUyK0V59EWup0T6Tmv5mQpSTu1jd0092iaYZww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_021_21485b7b7066.png)
 
 **_图11-12：TPS2H160-Q1 1A充电_**
 
 **_图11-12_**中当电流限制增加到1A时，峰值功耗增加到24W，平均功耗增加到12W，但充电时间减少到8.8ms，较高的电流限制相当于较短脉冲的较高峰值功耗，而较低的电流限制等同于较长时间的低峰值功耗，**_图11-13_**是多次触发了热保护机制，绿色Iout有短暂关闭现象。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTqU7gU5awcCuIHbXJSqZg6OOd0OLZr1x4rYDmhoVKOIlY7FIuSibOZlmPuuNvfiaSfFMvrHahydicGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\FCD_11_如何驱动容性负载_images\img_022_fbb7c4fdadf9.png)
 
 **_图11-13：TPS2H160-Q1驱动电容时热关断_**
 

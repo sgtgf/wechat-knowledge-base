@@ -64,13 +64,13 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190433?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbOiaKCJTQ7ia6N16nibOtmauKPPHyfjuvJ5atqm7R1e1ASuD4vxVcFBOicA/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_000_466bcf546401.jpg)
 
 图 1  RNSE模型结构图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbAare8plEkK3KAc3NIana8sMDA96v1q9HicGfClibricISkYazHy91YiaBg/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_001_8b400b07bfa8.jpg)
 
 图 5  0dB的Babble噪声下的语音增强语谱图示例
 
@@ -78,7 +78,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190433?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbdDDhRYMqCBQsdjz1Jfde7oiaM9rZYbMT9bAexY7PTmicWmMwuZEibr78Q/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_002_6d17199a19b1.jpg)
 
 **蓝  天**
 
@@ -86,7 +86,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190433?viewType=HTML
 
 E-mail: lantian1029@uestc.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbibycj29zic7kCzbJePVmAlfIbIUHKGGSczUicfvpCsEGbFmHIia1RuNjSA/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_003_4628160823e0.jpg)
 
 **彭   川**
 
@@ -94,7 +94,7 @@ E-mail: lantian1029@uestc.edu.cn
 
 E-mail: pengchuan@std.uestc.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbvzSe0ic7w6ibz99ibW31KSBEGfvA5XujIyG9ZNkL32YtXeh9QhZLA3pibw/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_004_c642b0df354f.jpg)
 
 **李   森**
 
@@ -102,7 +102,7 @@ E-mail: pengchuan@std.uestc.edu.cn
 
 E-mail: sen@std.uestc.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbDqY65g8vB59KVviaNxRzjnNJlsYia6nOuYQFCiaNykySf5MASM8YkDbsw/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_005_9636fa7207d3.jpg)
 
 **钱宇欣**
 
@@ -110,7 +110,7 @@ E-mail: sen@std.uestc.edu.cn
 
 E-mail: yxqian@std.uestc.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb8O8rY02ZF5PaeOjaiawOdpeOcpbEZmBD5Tvb5U6picfwgYnjmiaLaVy8Q/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_006_db7745354533.jpg)
 
 **陈   聪**
 
@@ -118,7 +118,7 @@ E-mail: yxqian@std.uestc.edu.cn
 
 E-mail: chencong@std.uestc.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb3gGxRMCZETeibcK7xxbkwgzvUSw4MR7JM7UcSvmLFMxnliboRxNZQxEA/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_007_0a5c9e632f45.jpg)
 
 **刘   峤**
 
@@ -342,49 +342,49 @@ http://www.aas.net.cn/cn/article/id/17555?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb68vtXJ6COpAefPEfGhuC6ic4hibCspg3YwhNdPGTG6oDkL8G4YicfL26Q/640?wx_fmt=png)
+![](基于RefineNet的端到端语音增强方法_images/img_008_09a781fbaad1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbRlmk3lLWQEtFDWQHtocOVxPdeeXW5AynsJzXxRvxlq1ssFyHqUSzaQ/640?wx_fmt=png)
+![](基于RefineNet的端到端语音增强方法_images/img_009_cfe19e604b1b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_010_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_011_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb520QPUSLBlaIc5mluubUoG2oXJAnhAPNDCWaYKnbfG1lEHnBBrYh6w/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_012_3101bca809fd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_013_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_014_1f2fe63c8714.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_015_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_016_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbnVcgI9FKGP8BjfE9gib6cT5j99zmtxHCsfOGwcqyqgjqep19YULzpCA/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_017_1b9622e62b43.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_018_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_019_1f2fe63c8714.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_020_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_021_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjbuRmkdpibw26mT48YS3nnlqDFCxTl3dnJKp4IFtVLlsjvdIgvVIlxhHw/640?wx_fmt=jpeg)
+![](基于RefineNet的端到端语音增强方法_images/img_022_40a27809871c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_023_1f2fe63c8714.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46ib8gDTl0TwP7wg3ibBQAzjb2NFicZH8IJ1Ms95Tdzc0MPGY3pFEyYSTTUmcqSzpeI15nPhDywewp6w/640?wx_fmt=gif)
+![](基于RefineNet的端到端语音增强方法_images/img_024_1f2fe63c8714.gif)
 
 **长按二维码｜关注我们**
 

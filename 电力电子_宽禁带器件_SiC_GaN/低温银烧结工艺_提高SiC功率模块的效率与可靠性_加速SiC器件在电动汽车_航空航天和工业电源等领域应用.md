@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5bIhZaX-KYW\_aRdXf66vsQ](https://mp.weixin.qq.com/s/5bIhZaX-KYW_aRdXf66vsQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2Eia04biaicFgCahhhoCuXZqjMfxtuicR1Sol3AaNPpcIwyPQT1InyGL1xAcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_000_e5d3ce36a5c0.png)
 
 “
 
@@ -17,7 +17,7 @@
 
 **银烧结技术凭借低温工艺与超高可靠性，成为解锁SiC潜力的‘银钥匙’。**爱仕特基于此技术开发的碳化硅模块，已在多个应用场景中验证其性能优势，为行业提供高效、稳定、可靠的解决方案。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrc7fRchVz2pEriaMSKLIFZiaPhAHBSFoNnwUgmqIoNaomE37cRQgpnVlWkBmOMfIpXaicxG9c3kSsb2g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_001_d8015ef12a83.png)
 
 随着新能源汽车、5G通信、高端装备制造等的蓬勃发展，这些领域对功率器件的要求越来越高——既要有更高的效率和可靠性，又要寿命更长，制造步骤尽可能简单易行，还要满足无铅监管的要求。这些都对焊接材料和工艺提出了更高、更全面的可靠性要求。
 
@@ -29,7 +29,7 @@
 
 银烧结技术利用纳米银颗粒在低温（<250℃）下致密化形成导电层，兼具**优异的导电性、散热性、机械强度**三重优势，完美适配SiC器件的严苛需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiajG5RZjgTwMNjoq0og7cglZBT0sDpN1hgv9oMp1tVkF7oDzxNoPrbvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_002_9fe5cb6ec981.png)
 
 ▲银烧结互连示意图
 
@@ -85,7 +85,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaR8T9DoibSwfs3a3wQfVAAgVzVkmC9QDv4f3YZXMxdlqMFGVelZoYvVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_003_00d8192a6e31.png)
 
 ▲钎焊与银烧结工艺对比
 
@@ -123,7 +123,7 @@
 
 **· 加压烧结：**通过低温和压力辅助烧结，孔隙率<3%，支持双面散热设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiasZXctK662HqbegaZuefKTwibBhO6UJPBc5wd3zRibej2cWbs9QianXPug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_004_eacc9573add6.png)
 
 ▲银烧结技术工艺流程
 
@@ -135,7 +135,7 @@
 
 **· 银铜复合结构设计：**芯片底部通过银烧结（高导热）、顶部铜片烧结（低成本高载流）与铜线键合（大电流互联）的复合设计，实现SiC模块的超高热-电-机械性能平衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2Eia2Dld6wsQbG8qgyfqQn6K5f280Ce3EdJ01lEOCuAG9fUQViaGeqmEb8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_005_801185041b85.png)
 
 ▲SiC模块剖面图
 
@@ -160,7 +160,7 @@
 3.  某车企实测数据：逆变器效率提升至98.5%，续航增加8%。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaLNFNZxmpbEM7ucnjxsn8v3L0r3x8rhWF9a2eLmtN9mGqNNaRgFfHFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_006_f896f39596b1.png)
 
 ▲ASC800N1200DCS12产品介绍
 
@@ -179,7 +179,7 @@
     能耗降低12%，年维护成本减少30%。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaxmoREETibW4MfwUHvxGLqGz8LY52ic0V9sZhGK5uEMUn9If15yMbgA5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_007_50caf2c07202.png)
 
 ▲ASC600N1700ME3产品介绍
 
@@ -196,7 +196,7 @@
 2.  通过MIL-STD-810G振动测试，200℃真空环境下寿命超10万小时。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaX1oict7Qb3Gvz1UTJjKs716icLtaIgxRudsqlYjiaEuW6Vdbr8FD2ibzeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_008_d532f20b533b.png)
 
 ▲ASC600N1200MD3产品介绍
 
@@ -228,10 +228,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_009_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_010_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\低温银烧结工艺_提高SiC功率模块的效率与可靠性_加速SiC器件在电动汽车_航空航天和工业电源等领域应用_images\img_011_9bbc7b9b15a2.png)

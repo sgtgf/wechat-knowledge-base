@@ -13,7 +13,7 @@
 
 一.车载充电机（OBC)介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslU2YLeGmDglNssatWcicvqJbaE8Ac5sMG727ST9aIu7BnODmLz7bML2EfGFdzmIZMnwV5krVGWQ2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_000_d92b28baaa76.jpg)
 
 图片来源：网络
 
@@ -23,7 +23,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9icc3uiciakaywaSsgWt8rHBAMO5LgT3ria1keETLa3egKjKtUG9FvicU1OsNn1lIicyUDBHg0acQjJRwDexuZOOGibHQ/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_001_0885abbb94e5.png)
 
 此外，‌碳化硅器件的应用还涉及到OBC的设计形式，‌包括双向OBC的设计。‌双向OBC的前端通常是由一个双向AC-DC转换器组成，‌后端则是一个隔离型的双向DC-DC转换器。‌在电动汽车车载充电机应用中，‌CLLC谐振转换器采用软开关来提高效率，‌初级侧采用零电压开通（‌ZVS）‌，‌次级侧采用ZVS+ZCS相结合，‌以适应充电和放电模式下的高效率和宽电压范围需求。‌
 
@@ -103,7 +103,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJjR8bibP5yARjtgib6TBiahYWE5vdEnvNPpOOePpyLaj9yicVQy6fny9seA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_002_eb4875f04121.png)
 
 OBC功率发展趋势
 
@@ -131,7 +131,7 @@ OBC功率发展趋势
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJlQCjHsBhMK8Mk1ZmoMtxNIGs0G88ib577gG6aFhGINGEd6zK3dLicm1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_003_db6ca34f5064.png)
 
 碳化硅的物理优势
 
@@ -147,7 +147,7 @@ IGBT的局限性：IGBT的开关频率较低，导致磁性元件和无源组件
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJrRNjibDPIIHIdiaMIowzTjOrVtKMcCho6fhMNpZnibDic5XxwENIVP5PZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_004_019eb29f6506.png)
 
 碳化硅功率器件的优势
 
@@ -183,7 +183,7 @@ IGBT的局限性：IGBT的开关频率较低，导致磁性元件和无源组件
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJ9pfRVdOafzvBkJHUicw722zkzlK7OpoEibNGg7Z5HGKtlJQ56BBib4FRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_005_bf47d2a5a9b2.png)
 
 双向OBC支持新型车联网的案例
 
@@ -197,7 +197,7 @@ IGBT的局限性：IGBT的开关频率较低，导致磁性元件和无源组件
 
 通过调节输出电压，双向OBC能够适应不同的充电场景，确保充电安全。例如，在电网充电模式下，OBC将交流电转换成直流电为电池充电；在车辆到电网（V2G）模式下，OBC将电池的直流电逆变成交流电反馈到电网。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJteNgjc6lF5wiaNMznhRibpyegAX1dqPutrJNLcrkYVf3gTSr57fGL9AA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_006_25d28144ab33.png)
 
 双向OBC前后两级架构
 
@@ -213,7 +213,7 @@ IGBT的局限性：IGBT的开关频率较低，导致磁性元件和无源组件
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJRia1icvwO7YwyGrt96BkYWJKqdZ0bDGx8OrnCqEoedojyCibc1gG6zdng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_007_62b612085936.png)
 
 碳化硅基双向OBC
 
@@ -223,7 +223,7 @@ IGBT的局限性：IGBT的开关频率较低，导致磁性元件和无源组件
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJE4qVgfiaL8lt3o7lea9TU4Lib53MgTibVVYUXib9YlAfF3P1kO79CVSiawA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_008_2e7bcd3b522f.png)
 
 爱仕特碳化硅功率转换解决方案
 
@@ -235,7 +235,7 @@ MT4系列(TO247-4)碳化硅MOSFET
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJILicFZlsiabV4WkpxAMfROLXJzpdl1nuGRpQKMxalu0AZ9A6W3KrsTHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_009_f2b21da77f66.png)
 
 爱仕特MT4系列碳化硅MOSFET介绍
 
@@ -249,7 +249,7 @@ MT4系列(TO247-4)碳化硅MOSFET
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJRcYLI4A3Uw8Zibe0zIlRbNqeUib45N0f9SahyTicgeS9gt0gkOD3Dqv0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_010_712b4a727e2c.png)
 
 爱仕特MT7系列碳化硅MOSFET介绍
 
@@ -257,7 +257,7 @@ SM8系列半桥模块
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJRpeScW28LhZAl7rPsd7DiaZicOvImwrFmKcicPqrFpRYcE1XClRdk5QlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_011_a075d4bf1214.png)
 
   
 
@@ -271,7 +271,7 @@ SM8系列半桥模块
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJ7nRnpK6kSib2DF5kHZzynq5yeoRxNxYbdYm7xbdjwB7T50wJtJnbthA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_012_cb6f78348de7.png)
 
 向充电器电路图
 
@@ -279,7 +279,7 @@ SM8系列半桥模块
 
 D21系列三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJLVD6kkq8pVv3QWg3rBKkekaVrHMlWlQ4PBxCGLiamGVyL5zN67O3iaxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_013_e4be32566614.png)
 
   
 
@@ -287,7 +287,7 @@ D21系列三相全桥模块
 
 **该模块内部搭载了6颗1200V/80mΩ爱仕特自研的第三代碳化硅芯片，具有开关速度快、功耗低、抗干扰能力强和高可靠性等优点。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJJE4T6dCtVlbkoziaMhymRRZHbCjibj8ywia6CeMHciadcviayJZUYll1TWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_014_a91de92389c6.png)
 
 1200V/80mΩ D21系列碳化硅功率模块
 
@@ -305,7 +305,7 @@ D21系列三相全桥模块
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJZGkc3pBGjlvXJWmI0ErxVPwBRUovpR57DUHc24zYPepjIDIG4mLP3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_015_3e1eafca3273.png)
 
   
 
@@ -313,13 +313,13 @@ D21系列三相全桥模块
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJK47u5dnxnwCbiaDnjtQpulnOibbvczOyFDsEvGWLRCR0wbJJzIx9MBDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_016_711ecc9710e1.png)
 
   
 
 高温稳定性：宽温度范围下（-55°C至175°C）的稳定运行，适应各种环境条
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJohLxaic8ubOA0KicBzticRLt4oZqRa3e4XaMBF1iajzV3YYeictj3BK6aVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_017_030201e8f18a.png)
 
   
 
@@ -335,24 +335,24 @@ D21系列三相全桥模块
 
 SiC MOSFET的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFZLtlmbZVB5gJKoUKBUIxfV0Y0qCCC3o52MoX9dwCpp0DljXGXp8ia9g/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_018_9eb7fe2cf4a2.png)
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFb7icK2Bcu7Nzhic8pGyHgx9GatV7OUgTeMj9FWDb8DH5jGljI5HLYj6w/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_019_c022bf8ead38.png)
 
 SiC器件产品矩阵
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF3JY7ibN73Ex95UySwHHZjibwLVcjpnrb4zdibx9cQ1SicxaEUdzlY9Na7Q/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_020_aea4de4932e9.jpg)
 
   
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF0JyEv91mTKPkRvz9fLd8OOGuMjkGV28ZAVicmAD6bUI9lIMlv4cp1RQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_021_64919ade5e9c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFbpBO9rG7uY5rEmlARCJMOXvLj3VYq3U5OhZX5pH3YWiawJcNLv5YQsw/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFncYjXvS8iad1T9k5ouhnkcQl9jFlAvMJ7RSia5gIhqknsJUv0reg3ZsQ/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_022_e10c740fd088.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车载充电机（OBC）的技术迭代_碳化硅（SiC)器件助力6kW_30kW_的产品_images\img_023_36a37c038b89.png)

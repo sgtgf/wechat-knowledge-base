@@ -80,13 +80,13 @@ p规范型非线性系统, 预设性能, 有限时间性能函数, H∞跟踪控
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH474Rsrt4ql6hLy844miam5OjgqMWk4kIjARfQyOt4adjicBWDrvvQIju7kNxtK3MoCmd2Td0ohia0qXw/640?wx_fmt=jpeg)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_000_41ca960244d4.jpg)
 
 图 3  无外部扰动时状态x\_1
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH474Rsrt4ql6hLy844miam5OjOHkIRdbaT3ZCibmNyFZthYtr44clOfucWeqic1Ws6qGblpJLVQIGaL9A/640?wx_fmt=jpeg)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_001_1ff1380d609f.jpg)
 
 图 6  存在外部扰动时状态x\_1
 
@@ -98,7 +98,7 @@ p规范型非线性系统, 预设性能, 有限时间性能函数, H∞跟踪控
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH474Rsrt4ql6hLy844miam5Ojdymfft7VzpiafmRn4TYibHzHG98UeCBicDlyE0Mh5YUyaicSp6CwRVnuug/640?wx_fmt=jpeg)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_002_a1b606cacd4b.jpg)
 
 **李小华**
 
@@ -368,49 +368,49 @@ http://www.aas.net.cn/cn/article/id/14171?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH474Rsrt4ql6hLy844miam5OjQojcRM2yTFk2oc0HKkVEnFeeRCAayIJDVE4Tf6hZYCFHYVdQoozocg/640?wx_fmt=png)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_003_32d5af352ad3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH474Rsrt4ql6hLy844miam5OjFFx8fVsWw9VBak6tfl2hZoBEzibrARZibJicJQHywhoVxJibicuDEMRZxkg/640?wx_fmt=png)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_004_1873cdf12d69.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_005_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_006_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH474Rsrt4ql6hLy844miam5Ojq0NbknH2SvwGfF0ib2jbK023rpdkQnyMMicmmTT5kUqe8fxPf9025YmQ/640?wx_fmt=jpeg)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_007_a1bd9a1ba777.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_008_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_009_788f3b39e762.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_010_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_011_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH474Rsrt4ql6hLy844miam5OjB4wuJ9b0CR9jS4RRO9vEicyhG0xhNYzUvXw01sqqXYm44mricEmf17xg/640?wx_fmt=jpeg)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_000_9ddd57ecae24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_013_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_014_788f3b39e762.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_015_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_016_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH474Rsrt4ql6hLy844miam5Ojib47JbFZ6ibhtVRHoteiaMqq770R6wAeRv7SQOGt8DxSq0P2avVgTTgYw/640?wx_fmt=jpeg)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_017_643a37165b72.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_018_788f3b39e762.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH474Rsrt4ql6hLy844miam5Oj0aibsAI6zzJteAib0HiabtcIn0LXjz6gLA3vbqLvUODM09auSQVRhqGsw/640?wx_fmt=gif)
+![](一类p规范型非线性系统预设性能有限时间H_跟踪控制_images/img_019_788f3b39e762.gif)
 
 **长按二维码｜关注我们**
 

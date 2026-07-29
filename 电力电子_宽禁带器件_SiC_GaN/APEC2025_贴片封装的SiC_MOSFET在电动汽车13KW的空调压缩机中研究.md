@@ -8,49 +8,49 @@
 
 作者：Yuequan Hu, Zongzeng Hu, Fulin Zhang
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRibKmNyflYF9ib2NvIFuYPPwg0E1hbVj3I30sVaWSBdCBjibbHHRg3B4FA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_000_8fa747208a64.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRh51L8rt9OZWuo509I7ptUWMibt9E95ZD2Dic8PDbg8QNiasjRHmk0Zp2g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_001_c1ae56cfcb49.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRhUciaKFdUBiakTvLtOURw3PkGHmKxYQJYibZ085hRtwQoZc8iakasbPRWQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_002_1658ade51026.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRrDO2Lpnb01DGxXdhbWMdC3zKq9P8zzGJGft2gTYU7AUEicBtmbp2v2g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_003_37d7f50d995f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRNMmkN7qDW1cyuIcbMZsOEuQJLezBFJFSHgBKGX5qv1AqHoLGicC57rQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_004_84a5acfff9f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR7d7iaicwbdspyU5cWojMmDfV9GBLYdibrYrAwkjKPXjC4mLzUw92mcHNg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_005_a0224fd8a526.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRTQXOjiciaTbv1RAEAhZpqmGwmR7QZ5Re4sQiaibEJr7Fm88Aa1tFAKGRFg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_006_289887e2eb9c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRLcc8f4hmyws45DcNMSkOex93x1tJ8EqJ45Cr0vm6018iauuKGxrFgQQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_007_92c3a73b5f87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRA4J1qftPOZ0icTKZ0qwgOEUsIFB4M6hyha1FSibGCH4TyCEeib6tQwk5A/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_008_e31a946c8a82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRsvhy5x6lKpcbEBRfzPsZlOPWiblicuaKDGbkwt2MoGX36TEAXpoib2Xnw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_009_3cd483ba5f47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRIrkmxiaYFTAFj3Ay2nvxYh24CLibDtuJ98HG5Sz2l70uP6ILskbT1QRg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_010_ce19d9adc486.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRRJHyZVUxrYUS4SIkXDIHXB2oFy95V45yVXeHhsPgHian3AmyW4AHEJA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_011_c687bd696a51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRb5IUaPTvoIdmPEgG3NpPEMIuqMeGqO5GnJVex0ZVVJZAibzcjPKkfiaw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_012_19c958e3686e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRcpDpuLaw2icXHRQzbcicD98lbJKRsJj2rib0C98qZ9ia7m30lTCkXSBG1A/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_013_703439ca4968.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRAhjwKBCeUAWM1obSjwsuJgkibUDb2WWBWWjU0u1qNufC3MNSHR9xtPw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_014_dd13b3b74c91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRhLt0q81EcW2lkTsoicqKPIA3IcwmNOJDl1cTp8uVCIIWv2rQV1FIPhA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_015_a6fdc086da13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRGNK8QXibI6fUwKsOnJIgFt7eWnv7VmWsdELWiaAejp2TMJiaV5tY0EZVw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_016_164b9abaee35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRKnT1TPRPORmPNfeY66u49AicQRRbQDia5fYsG6FN3ic6VROdblFqbI8ew/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_017_dfa35a784de9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRaXgDgPhKVibKutALuynLXibTxdePEN9xMaGrYpyKicoQLPOUVIpOibmLwA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_018_027aa32af265.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR3mqHFpaCjLpSKTRLlq9KJNhEkGhBBuUBnFwibUemHwPUM0mCKYvNjVw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_019_0dea376ff7a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRSX0gHYicyI7nns59n9mSzplH6sgAsBpPZMQV0R5IEShoCj92bGOsvUg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_020_e4ec288ab168.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRU8k0mpD3OMbXic5IVQ5icJspHUcBYtSSXZywR2FJib9DZUG5vdXVtAhQw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_021_3d0999d6aaa8.png)
 
 注：文字与报告无关
 
@@ -115,13 +115,13 @@ SiC MOSFET 通过 “高效率（增续航）、高频化（小型化）、耐�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrU84ibicicicsicj2J9Fs51HDFMP2FRe5yEEyUsvZ3WeewjvrompQoiavAcng/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_022_8e4af0f56388.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrEx2bhlT70XicQQY90UlP2VkLtQ8jzeiaXRwgn9hW19P2GrRHvJrfAgWw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_023_eb2a92f816b1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrJDuYEwRky5LsqXfllSXfyxjZUPJ8tk3ibjAFEfyBfd9C87tFQyH8pXQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_贴片封装的SiC_MOSFET在电动汽车13KW的空调压缩机中研究_images/img_024_3b19e3ac6027.png)

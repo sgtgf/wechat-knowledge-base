@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLqA311o5QPWAIQOFs8qZoKBbOcgRazq4ic9Lic8RoVtHysX2d2q0Mlicm29SEagKKibDrYZbTPgdot8w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PFC功率因素基础知识_images\img_000_50491ad5395b.jpg)
 
 这个效率怎么理解呢？对于电阻负载，流过电阻的电流和电压相位一致，所以cosΦ=1；对于感性或容性负载，流过它的电压和电流总存在一定相位差Φ，cosΦ<1，其中与负载两端电压垂直的输入电流分量IsinΦ这部分不做功，在输入电源的内部和输入线路的电阻上消耗功率。
 
@@ -30,7 +30,7 @@
 
 加滤波电容后，只有当电容充电时，整流二极管才会导通，因此，每只整流二极管的导通角都小于180°。由于电容滤波后输出平均电流增大，而整流二极管的导通角反而减小，所以整流二极管在短暂的时间内将流过一个很大的冲击电流为电容充电，这对二极管的寿命很不利。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLqA311o5QPWAIQOFs8qZoK8Yibnt23pQgTPwgic2dtveBptAoWUUMpztJQ10A3g18fDDgdMTMibNOnQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PFC功率因素基础知识_images\img_001_ce4a7d8993b6.jpg)
 
 三、功率因素校正
 
@@ -38,7 +38,7 @@
 
 ①逐流电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLqA311o5QPWAIQOFs8qZoKCTLHbaNswerenlaqZQw4dP03aZLdxdMHafg74oC1dBzGVG3xAhfqKA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PFC功率因素基础知识_images\img_002_cd751432f7fb.jpg)
 
 如图，C1、C2容量相同，电路特点是C1、C2以串联方式充电，以并联方式放电。设VDC峰值电压为VP。
 

@@ -13,13 +13,13 @@
 
 关键词：碳化硅器件，SiC MOSFET，PSpice 仿真模型，驱动电路，Buck 变换器，双有源桥
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsOzxWMAQtqKKYhaf1KElwLEU1VVMs4p5Xu0PfLhKK7VmqkQ9VrmicxyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_000_6894020d546d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsgMWREkiatF8a0voCYhjZ1Y7ETQm3nc0aSTNicAV3UibYhzqll2hUicqldQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_001_a4781b9dbac8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIstrQiaT1Oj5A25YRwDB07PeTzQAdQoc3Zcib70Uicib7ZFbVibTwgk7W5cTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_002_ed6fd85074fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsHSYU3EjudHpUquMvX6qMuia9bIlicvux5PU5IaSwy22YAiah9LIoDqmrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_003_7417f2f51924.png)
 
 第一章 绪论  
 
@@ -29,7 +29,7 @@
 
 近年来，碳化硅(SiC)材料因其优越的物理特性，开始受到人们的关注和研究。自从碳化硅1824年被瑞典科学家Jöns Jacob Berzelius发现以来，直到二十世纪五十年代后半期，才真正被纳入到固体器件的研究中来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsvnrqXQB5XAAkhuePP4q9uqnSLBibV0Wt4JPS5p9TP2PiaXClpBrBpndw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_004_3e78e764c519.png)
 
 二十世纪九十年代以来，碳化硅技术得到了迅速发展。图1\. 1所示为SiC与砷化镓(GaAs)、传统Si材料的物理特性比较。  
 
@@ -57,7 +57,7 @@ SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍
 
 表1\. 1所示为1200V功率等级下，各类功率器件的特性比较结果，参与比较的SiC  MOSFET是GE(General Electric)公司的GE12N15L。需要指出的是，这些功率器件都为TO-247封装，且IPW90R120C3耐压仅为900V，但它已是所能找到的相似功率等级下，特性较好的Si  MOSFET。从表中明显可以看出SiC MOSFET与Si MOSFET及Si IGBT在特性上的差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIszPKsHXxMh0fIwjn1SAwA2QqVFj8nib02xSQBLu2EoXtmHx45ojPhgDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_005_e8702dba4a4c.png)
 
 1.2 碳化硅(SiC) MOSFET 应用技术研究现状
 
@@ -71,11 +71,11 @@ SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍
 
 由于SiC MOSFET器件特性与传统的Si MOSFET有较大差别，SiC MOSFET驱动电路也是一项研究的重点。相比于Si MOSFET，SiC MOSFET的寄生电容更小。以CREE公司量产的CMF20120D为例， 其输入电容仅有1915pF ，但与其功率等级相同的Si MOSFET  IXFB30N120P的输入电容有22.5nF，两者相差超过十倍。因此，SiC MOSFET对驱动电路的寄生参数更敏感。另一方面，目前量产的SiC MOSFET的驱动电压范围为\-5V~+25V，建议驱动电压一般为\-2V/+20V；而传统的Si MOSFET的驱动电压范围为\-30V~+30V，建议驱动电压一般为0/+15V。因此，SiC MOSFET与传统的Si MOSFET相比，安全阈值很小，驱动电路的一个电压尖峰很可能就会击穿GS之间的氧化层，这也是驱动电路需要精心设计的另一个原因。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs9NIGA11bfNYaaialKDTuhOpCZiadA2DB6PA5OV0icubXXplSRojvCtiacg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_006_9b2cb915e51d.png)
 
 目前，罗姆(Rohm)公司为其量产的SiC MOSFET设计了专用的驱动芯片。另一家SiC  MOSFET生产厂商CREE也提供了关于驱动的相关资料。图1\. 2所示为CREE公司CMF20120D技术手册上提供的驱动电路，采用光耦隔离，驱动芯片采用IXYS公司的IXDI414，-VEE与地之间需接入多个电容，以抵消线路感抗对驱动波形的影响。然而datasheet中并未给出+VCC和-VEE的电源解决方案，且IXDI414可提供14A的峰值电流，而实际应用过程中，驱动电路一般很难从驱动芯片中抽取14A的电流，故这款驱动芯片并非很合适。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsLrSn5ZtcaePCvvASWBvFoUmh53kmLgDRXBNNesr9PXq3e2wYILicFpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_007_c99c9edde680.png)
 
 图1.3所示为CREE公司提出的另一套驱动电路方案。采用的驱动芯片是IXYS公司的IXDN409SI，可提供9A的峰值驱动电流，且给出了+VCC和-VEE的电源解决方案，明确了光耦的型号，具有较高的参考价值。
 
@@ -89,57 +89,57 @@ SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍
 
 1.3 双有源桥(DAB)研究及应用
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsN3puwa9o6kMia06tpCIvjUiaib6YywBsEbK44F3k29sroa4DPfJmPeVBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_008_e9345cce80e3.png)
 
 双有源桥(DAB)作为大功率隔离双向DC-DC变换器的一种，其拓扑最早由DeDoncker于1988年提出，电路图如图1\. 4所示。DAB主要应用于HEV中蓄电池侧与高压直流母线之间的双向能量传输、航空电源系统及新能源系统中，与其他大功率隔离双向DC-DC变换器相比，DAB的最大优势是其功率密度大，且体积重量相对较小。DAB结构对称，两边各由全桥结构的拓扑构成，可实现能量的双向传输，且能实现两侧的电气隔离。开关管应力较低，且没有额外的滤波电感，仅通过变压器的漏感作为能量传输单元，变换器可实现很高的功率密度。电流纹波不是很大，对输入输出侧的滤波电容的要求不是很高。DAB在一定功率范围内可以实现ZVS软开关，这样DAB的工作频率就可以设置得较高，可进一步减小变压器和滤波电容的体积，提高功率密度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsMcbLz58hhMSZwofYYjLbx1dvniblyDNeU08Jic2EKgwdiagPwNrmVNSLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_009_dbe9d05c13dd.png)
 
 传统的DAB一般采用移相控制，其控制方法如图1\. 5所示，其中φ为移相角，变压器原副边匝比设为n。当功率从VL流向VH时，开关管Q1、Q4超前Q5、Q8；当功率从VH流向VL时， 开关管Q5、Q8超前Q1、Q4。但传统控制策略下的DAB有诸多问题，比如软开关范围窄、轻载 时功率回流现象严重、电压输入范围窄等。
 
 为简化分析，这里只讨论VL\>nVH 的情况，当VL＜nVH时也有类似的推论。以半周期为例， 如图 1\. 6 所示，任意时刻电感LS 上的电流可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsJw8Q5pM0ViaCax7YvgDz4Cw2bRB5Ngvwt7dOEk1H9eErTm8Whkpibcdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_010_d890083197da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsfj0JrprtKoRsP5PUO4ISbyiafP3U7qqr0GfDN3zibOwiboT1iaLIffXNDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_011_b5ae4d68e560.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIszWUbnozxEJAe5ooEiceSDT94wfC90p7Rhk1FpLCwJyImCnmGib3FmsEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_012_6acb12317fc6.png)
 
 (1) 软开关范围
 
 如图1\. 6 所示，t=0 时刻开关管 Q1、Q4 开通，t=δ 时刻，开关管Q5、Q8 开通，Q2、Q3、Q6、Q7 管的分析也类似。为了能保证开关管实现ZVS，需要满足以下条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsFFxHHI8u4COicKDFbuCiaSC1MMfMSAbDOPaBaHuRUSIrn934jgJoOmHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_013_ceb80e949a98.png)
 
 结合式(1.2)~式(1.4)，可得对应关系为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIseRsAVuWlmdHCQcFkiabKrmJTV7tsIHo6Kzw9MQUNA519dSB2wN3EPVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_014_4e892055bc23.png)
 
 可解得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsb56PDVCtrrbToPDpNY9CM3SyLb7mNpKXZuiaQy6BsxMWSFYe9ZHYAqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_015_d0cf153845c4.png)
 
 其中原副边电压比d=nV2/V1。对式(1.6)进行标幺化处理，可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIssoJ3BtA5LjvicoeBvJFVOxBYDwrxY6bSb5cBWmS3CL7VXe7ZibZnV7rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_016_2da1b9011cfb.png)
 
 并结合式(1.9)，可得负载IO 与原副边电压匝比d 的关系图，如图1\. 7 所示。可见，采用传统移相控制时，仅在原副边电压比d=1 时可以实现全负载范围内的软开关， d 距离1 越远，越难实现软开关。且随着负载变轻，软开关范围变窄。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsZSeF8prHibZyMI8lOJOXy56GXAlicpvib2LUrzzia6GYicP7p1ibiaGNQib9Qw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_017_10c0d2c65cc1.png)
 
 (2) 功率回流
 
 功率回流是指DAB在功率传输时，电感Ls上的电流和原边侧电压存在相位相反的阶段，导致功率流回电源中。如图1\. 8(a)所示阴影部分所示，在传输相同功率的前提下，这部分回流的能量会增大电感电流的有效值和峰值，从而增大变换器的损耗和电流应力。尤其是在轻载时，这种现象更明显，如图1\. 8(b)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZhQWpKPziaNNWG35fLqLOBg0CBmiae29jVL62zV7Wwgo9N8qoAsn0nt1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_018_4e34bf909e85.png)
 
 根据图1\. 8，这部分回流的功率可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsVOeH2qEvSYCibo4xCrIACjicTPKMvSBle2AO4ic4GwVtkicbPW5PU0VuqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_019_99b2dcbccda3.png)
 
 根据式(1.4)，可得回流功率的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsNXzrJibiapWeq66AfjSKUDeze01IibfYjLmaSstOLTMDfNTibqYgnTCYYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_020_d1e6544e940a.png)
 
 由式(1.4)可知t=0时刻的电流表达式，当负载很轻时，对应于很小的移相比δ，此时iL(0)很可能为一个正值（同样，此时也无法实现软开关），由式(1.12)可知，当iL(0)>0时，其对应的回流功率所占的比例会更大（这里假设V1\>nV2的情况）。如果nV2与V1相差过大，或者外加电感Ls设置不合理，这种现象会被加剧，即在原副边功率传输阶段，就出现功率回流的现象，如 图1\. 8(b)所示。
 
@@ -179,11 +179,11 @@ SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍
 
 传统的MOSFET建模方法可以分为器件物理模型建模法和等效电路模型法。物理模型建模法主要依据固体物理学的相关知识，通过对器件的半导体方程进行求解，可以准确地描述器件的内在物理特性，故这种建模方法适用于器件物理层面的分析、研究和设计，但计算量大，并不适合于实际的工业应用。等效电路模型法是根据器件的一些外特性，将器件描述成由一系列基本单元组成的电路。这样，器件的外特性就能用各种电气元件进行描述。在这种建模方法中，电气元件的归纳可由解析公式或经验公式导出，这种方法相对简单，更适合实际的工业应用，PSpice即是基于等效电路模型法开发的仿真软件。本文将采用等效电路模型法，根据SiC MOSFET的外特性描述，建立基于PSpice的仿真模型。 PSpice仿真软件中自带的Model Editor给MOSFET的建模带来了极大的方便，一般通过Model Editor构建的MOSFET模型加上外围电路，即可构成满足一般仿真需求通用仿真模型， 如图2\. 1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsaibBPia8xb64icQFmbgdtOrRp0XM1icM1c6uO0VqgtVIe50sARO4h7NJQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_021_5a1149215e5d.png)
 
 Model Editor提供了三种MOSFET模型：MOS1模型、MOS2模型和MOS3模型。其中，MOS1模型具有简单、易理解、参数含义直观的特点，但缺点也显而易见，电容模型采用Meyer模型，不考虑电荷贮存效应，仿真精度不高，其基本模型如图2\. 2所示。MOS2模型考虑了部分短沟道效应，是基于几何图形的分析模型，电容模型采用Ward-Dutton模型，考虑了电荷贮存效应。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsS6uqJWE0KG7mJPQNRBBaMYniaRzoaU4KcthgryITc6T3ibR8QH0KpwDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_022_48d231296485.png)
 
 MOS3模型为半经验模型，适用于短沟道器件，运算量比MOS2模型小得多，在Si MOSFET建模中得到广泛的应用，常用的外特性曲线参数提取法就是基于这种模型构建的。本文基于Model Editor提供的MOS3模型，并结合外围子电路，构建能准确反映温度特性的PSpice仿真模型。
 
@@ -191,7 +191,7 @@ MOS3模型为半经验模型，适用于短沟道器件，运算量比MOS2模型
 
 图2\. 3 所示是文献\[17\]中提出的适用于10kV SiC MOSFET的PSpice 模型，该模型由内核M1 及外围电路构成。内核M1 和体二极管DBODY 由PSpice 自带的Model Editor 构建，描述N 沟道MOSFET 的基本特性；温控电压源ETEMP 与温控电流源GTEMP 可补偿SiC MOSFET 的静态特性随温度的变化；温控电阻RD，RG，RS 用以补偿温度对导通电阻RDS(on)及内部门极电阻RG 的影响；寄生电容CGD、CGS 可描述开通和关断时的动态特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsSb1mnZqJKO5kw5j4La4sVm7W47tRkzVGgWwic01WbLW8iaicwB4X7TO7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_023_b5e221a447f9.png)
 
 若仅在该模型上进行参数微调，构建适用于CMF20120D 的PSpice 模型，经验证，不论静态特性还是动态特性均有较大误差。主要原因有：
 
@@ -215,33 +215,33 @@ SiC MOSFET的静态特性建模主要包括基本MOSFET单元M1、体二极管DB
 
 从CMF20120D的技术手册中可以得到图2\. 4所示的转移特性曲线，根据转移特性曲线可得各个电流测试点下的跨导gfs，即gfsID/UGS，如表2\. 1所示。Model Editor将自动提取出沟道宽度W和跨导系数KP用于建模。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs7zeiadIa4xCCOCa0TBf27tPStUjKrVHxfz1sC784s921Xr9eS4S954w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_024_449856bf92e3.png)
 
 转移特性曲线：
 
 同样的，根据图2\. 4 所示的转移特性曲线，可以得到25°C 时转移特性曲线上电压电流的对应关系，提取5 个参数点，如表2\. 2 所示。输入Model Editor 的相应表格中，将提取出零偏压门限电压VTO。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIstM48ButgsNBicEO8jqVLxib0RfO1SC7mKPxiatDtAUOU2FuV40bKZK2uA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_025_074826c9a710.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIstsGsVxh1s8atu8FDRXA0upoSYhvhU1prCicT5xPBhRt2ia0S9exagZag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_026_7d66ae5f5b7a.png)
 
 导通电阻： 
 
 Model Editor 中仅需提25°C 时CMF20120D 的导通电阻典型值，从技术手册中可知，CMF20120D导通电阻典型值为0.08Ω，如表2\. 3 所示，即可获得漏极电阻RD 的值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsXsw5DkJb8Ola4FX2wQDmbFseCpYwglicOaFya49IsGbMrV2NJ4Kpfyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_027_b975d6678869.png)
 
 零偏置漏电流：
 
 为获得漏源并联电阻RDS，需从CMF20120D 的技术手册中获得零偏置漏电流的参数， 如表2\. 4 所示，这里仅需提取25°C 时的典型值即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsWqQ1RDcFUyHGCb3c7Ng5GcdhiazPbU85QvKIluvModVqnTCejQ02qtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_028_ce56acd13bc5.png)
 
 开关时间：
 
 如表2\. 5所示，技术手册中提供了一定测试条件下上升下降时间的数据，从中提取出Model  Editor所需的参数，如表2\. 6所示，从而可得极电阻RG。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsxEnOaxCnh6ta8ONk38EdoEMiaSIVuaFNpZyYF4J5RIGVRbvLNiccHkYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_029_6b95f55f07d9.png)
 
 2.2.2 体二极管DBODY 建模
 
@@ -251,15 +251,15 @@ Model Editor 中仅需提25°C 时CMF20120D 的导通电阻典型值，从技
 
 从技术手册中可得如表2\. 7所示的体二极管正向特性数据，提取出Model Editor 所需的正向电压、正向电流参数，可得饱和电流IS、注入系数N、寄生电阻RS 和噪声系数IKF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIst4Ba2cNXibgBtvciaicPejL60V5M1mzuicJXnSibyHX7Cicd4PARNkh0TmqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_030_94632dd1824d.png)
 
 结电容曲线：
 
 由于M1模型及DBODY模型都有对结电容的描述，为避免重复建模，仅对DBODY模型中的结电容参数进行设置，而不设置M1中结电容参数。根据图2\. 5所示技术手册提供的寄生电容曲线， 提取出相应电压点下的电容值，如表2\. 8所示，从而可得零偏PN结电容CJO、梯度因子M、结电势VJ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsvaFVQl1oR6qhVkKVzc5pmhEp3NOALofaCVicI5ibwrMlrEl38rGONqBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_031_7b43c1c7f05f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsxDC5riaD3km1t44Mbavpm7cv4LfK6kdvUfgqOnH9xVPNL6r9KnxkTlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_032_90f21ad1a8df.png)
 
 反向击穿电压：
 
@@ -269,7 +269,7 @@ Model Editor 中仅需提25°C 时CMF20120D 的导通电阻典型值，从技
 
 从技术手册中可得如表2\. 9所示的体二极管反向恢复特性，从中提取出trr、正向电流IF、irrm等参数，从而Model Editor可得到25°C时的渡越时间TT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsogTmLnLUCOIiaReJJm4Oh4A7fBDOcPJ0SBcS0nc53MgVcr58ebWdPhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_033_36f7ec932805.png)
 
 理论上，利用Model Editor提取出的参数模型在一定条件下是可以较准确反应SiC  MOSFET的外特性的。然而，从以上参数提取的过程中也能发现，这种建模过程提取的仅是25°C时参数值。故当温度发生改变时，其对应的模型外特性变化将由PSpice默认的温度补偿参数来决定，如导通电阻Rds(on)、转移特性曲线等。换言之，仅仅通过Model Editor构建的SiC  MOSFET模型，并不能准确反映温度变化对器件特性的影响。而在实际工业应用中，器件不可能仅在理想的25°C附近工作，故建立一个能准确反应SiC MOSFET在各个温度下外特性的模 型是符合实际需求的。
 
@@ -281,11 +281,11 @@ Model Editor 中仅需提25°C 时CMF20120D 的导通电阻典型值，从技
 
 从CMF20120D的技术手册中可以看出，随着温度的上升，Rds(on)的值随之上升，如图2\. 6所示，而当温度下降时，没有相应的实验数据做支持。为了能建立宽温度范围内SiC MOSFET的准确模型，在恒温箱中对SiC MOSFET CMF20120D进行测试，可得其导通电阻约在107～109mΩ，呈现负温度系数。为了简化建模过程，在图2\. 3所示的模型电路中，将RD与RS组合成为Rds(on)，对其进行数学处理，采用二阶拟合的方式可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsp8GIoMbkDTcqicz6iaFt2nNHIpZEm03oTsMKGyMbkOZdmjDiadX7yTe7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_034_fbb6f42ab65d.png)
 
 其中，R(T25)表示25°C时MOSFET导通电阻的典型值，可由CMF20120D的技术手册中查得；T代表仿真温度，TC1和TC2分别为拟合比例系数。通过RD与RS对CMF20120D导通电阻的修正，可以使模型符合datasheet中Rds(on)随温度的变化趋势。从其变化趋势可以看出，SiC MOSFET的导通电阻Rds(on)对温度的依存度很小，即使温度上升很多，导通电阻仍不会有很大的变化， 这与传统的Si MOSFET有很大的不同，也就意味着即使是在较高的工作环境或者较差的通风 散热条件下，采用SiC MOSFET的电力电子设备仍具有较高的转换效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs2RkmY3ZRQLlkWVzI6BKrhryUPYQuia1yMic6j46Qlm2re7BSiceRY72tA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_035_f06c9465bbdc.png)
 
 2.2.4 温控电压源电流源建模
 
@@ -295,37 +295,37 @@ SiC MOSFET的转移特性曲线对模型的静态特性、动态特性都有很�
 
 从CMF20120D的技术手册中可以看出，25°C时的门槛电压为2.5V，125°C时的门槛电压为1.8V，如表2\. 10所示，但PSpice默认为\-1mV/°C的线性变化率，与实际器件的特性不符，因此需要加入温控电压源ETEMP补偿。文献\[17\]中仅采用了线性拟合，但考虑到实际的仿真温度从\-25°C到125°C，变化范围较宽，并且经实际测试，在低温时CMF20120D的导通电阻呈负温度系数，采用简单的线性拟合后，模型的转移特性曲线与实测曲线之间仍有较大误差。因此，文献\[17\]中的方法并不可取，需要对其加以改进。经仿真测试，把ETEMP设置成温度的三阶函数，即采用三阶拟合的方法，与实测曲线误差较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs8vaQWSzGrSb4jsd8uXsLezL5Lzvs4WnCsVSWvGbiasIoyZXIibrn0aCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_036_6623fd90a390.png)
 
 其中T表示实际的仿真温度，T25表示25°C，VT1、VT2、VT3分别表示三阶拟合的比例系数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsib61AfdD2GArz5AKDFP47uCnv5J7WDOibew5Nkg0lDQ0OFtPeBN1IWDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_037_7773f5189a81.png)
 
 (2) 温控电压源GTEMP
 
 从图2\. 4的转移特性曲线中可以看出，跨导在MOSFET开通时会随着温度的增加而增加，即为一个正温度系数的值，而PSpice默认提供的温度补偿公式如式(2.3)所示，是一个负温度系数的值，因此需要修正。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsHibTy8b9KyGdUYqHYic5ul1zjfYsMQZbXDUlpGL3Vzo5DVMQbIrOdZwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_038_4ee596b00dc4.png)
 
 其中KP(T25)表示25°C时的跨导系数，由Model Editor的参数提取得到，T表示仿真温度。
 
 图2\. 3所示PSpice模型中的GTEMP即为补偿温度特性的温控电流源，采用与PSpice类似的表达式，构建温度补偿公式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsd9zvpUVSsiaGkG7aBKmZsmGuEWvWliapZ9b5ZXuaJKyedPJF5dFSibZsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_039_a28d28ee3753.png)
 
 其中I(T25)表示25°C时的漏极电流，T表示仿真温度，TCI1和TCI2分别表示修正系数。
 
 2.2.5 SiC MOSFET 静态特性验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsFyOhV8CyCicv4YXmynqDTmfia9UyI51EREM8l339bkWummWicY2FJ0AhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_040_07ff6ad4bcb7.png)
 
 经过Model Editor的参数提取以及Rds(on)、温控电压源和电流源的温度补偿，可使CMF20120D的PSpice模型满足datasheet上的转移特性曲线、输出特性曲线等静态外特性曲线。图2\. 7所示为使用PSpice进行静态测试的实验电路，设置好PSpice的仿真步长、温度、截断误差后，改变驱动电压VGS，可得图2\. 8所示的转移特性曲线。从仿真结果和技术手册提供的数据资料来看，PSpice的仿真结果基本与测试结果吻合，说明温度补偿起到了较好的效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsTNoc4t9fiaoMggsPbBMN4MGBpoHImkFdrNUQP4dvJ1wupiayMrcNLA5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_041_d18d6f35f7e2.png)
 
 改变VGS与VDS可得图2\. 9所示的输出特性曲线，仿真温度设为125°C，从仿真结果和技术手册提供的数据资料来看，PSpice的仿真结果基本与测试结果吻合，说明温度补偿起到了较好的效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIshsSnGldics5Kdk6j1acV9Onsiapm6Qt1MAq5YEeoHEdZ3sV6YSNH313w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_042_0d3dca8df4f5.png)
 
 2.3 SiC MOSFET 动态特性建模
 
@@ -335,21 +335,21 @@ SiC MOSFET的转移特性曲线对模型的静态特性、动态特性都有很�
 
 2.3.1 寄生电容CGS 建模
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs90HwyGFBAxfLmbmWgnBcVnw67k1KZEU4pUL2Y33AgGPEGX05q04uFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_043_cccb1e6d5931.png)
 
 根据CMF20120D技术手册上提供的关于CGS的参数，即可设置CGS的大小。需要指出的是，传统的建模方法和文献\[17\]中的建模方法均将CGS的设为恒定值，这是因为一般的MOSFET开通采用正压，而关断采用零压。然而，绪论中已经提出，对SiC MOSFET而言，为减小漏电流、 保证可靠关断，需采用\-2~-5V的关断电压。当VGS两端电压为负时，GS之间的氧化层电容会变大。这会增加SiC MOSFET开通及关断时的电荷量，从而影响开关速度。因此，需要对图2\.  3所示的PSpice模型进行修改，加入一个开关S和附加电容C’GS，如图2\. 10所示。当门极驱动电压VGS<0时，并联上一个辅助电容C’GS，从而使VGS\>0和VGS<0时，有不同的电容值与之对应。
 
 2.3.2 非线性电容 CGD 建模
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsqF2ibibhVhn0cv87LoJ9iaqV1GeTmbfG3Tsgt0BJJ0zBGx9IwcZOtia5eQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_044_3200e04c1fde.png)
 
 非线性电容CGD的设置对MOSFET动态特性的影响很大。图2\. 11所示为CGD电容典型值与漏源电压VDS之间的关系，从图中可以看出，随着漏源两端电压VDS的下降，尤其是在SiC  MOSFET开通的时刻，CGD的电容值有一个迅速上升的阶段。为了能够较精确地描述SiC  MOSFET的开关过程，需引入一个子电路对非线性电容CGD进行描述，如图2\. 12所示。SP与SN分别为理想的P沟道和N沟道MOSFET，根据DG两端的电压高低情况，起到开关的作用；两个串联的二极管DGD1和DGD2仅设置结电容和反向击穿电压的对应参数，用来描述CGD电容值随电压变化的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsRA6W1U98To9HqicbtKGOhXSBF3rluqWD7lh7o85yK9Rcd6dA5IFbSmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_045_c2c5a0abc00a.png)
 
 众所周知，二极管上的储存电荷可由以下表达式描述：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsLwsZR0UVvXv7RY7o2SVt77wq2r3ld6qzsqLo3QTIeB9UjOjPYDfCPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_046_9b31345459d4.png)
 
 其中，各参数表示的物理意义如下所示 
 
@@ -381,7 +381,7 @@ m \------电容梯度因子；  
 
 至此，关于CMF20120D 动态特性建模基本完成。表2\. 11 所示为原模型与所提出改进模型的参数对比。经过对原有模型的改进和完善，模型准确度有了较大的提高。对该模型动态特性的验证将在下一章中详细说明。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsIia6c4Q7T7OtKcczuVEeKKcwMOPXAibJK4DLUiaUTzDchkdYia0WBPm8kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_047_341414143a22.png)
 
 2.4 本章小结
 
@@ -407,11 +407,11 @@ MOSFET驱动电路的输入端可以看作是一个容性网络，故MOSFET导�
 
 然而对于实际的驱动电路，因其分布电感的存在，在高频工作的情况下，其寄生电感会与MOSFET的输入电容发生串联谐振，其串联回路的品质因数如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsCoIIDFb3Mib79TKquICZ7JkwhTwxaJHBFYsfEz1bCoR3DVSW3g9BnnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_048_d20e52a87a2b.png)
 
 其中Llk为串联回路的寄生电感，Ciss为MOSFET输入电容。而对于SiC MOSFET而言，其Ciss比Si MOSFET小很多，故SiC MOSFET对于驱动电路的寄生参数更敏感，也更容易产生振荡。虽然增大电阻Ron可以有效抑制振荡，但从图3\. 1中可以看出，增大Ron会同时增大RC网络的时间常数，减小驱动电流，MOSFET开关速度变慢，从而增大损耗。另一方面，为了保证可靠关断，减小寄生参数振荡所产生的影响，SiC MOSFET需要采用负压关断，因此需要驱动电路采用双电源供电或者采用一些特殊结构产生负压，这也是与传统Si MOSFET不同的地方。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsPxeGamWWyHHAQDM9ZNQ65LqicZu7qs1mSW6pyJfuQmQ3d1rwmh73zGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_049_0ff26fee6124.png)
 
 综上所述，在普通Si MOSFET驱动要求的基础上，对SiC MOSFET驱动电路的额外要求是尽量减小驱动电路的分布电感，并且采用负压关断，防止误导通，增强抗干扰能力。
 
@@ -419,19 +419,19 @@ MOSFET驱动电路的输入端可以看作是一个容性网络，故MOSFET导�
 
 当两个MOSFET在电路中构成一对桥臂时，同一桥臂上的MOSFET一般工作在互补导通的状态，此时MOSFET的GS两端很容易产生振荡。如图3\. 2所示，以上管M1开通时为例，当M1开通时，其DS电压迅速下降，而M2承受的电压迅速上升到母线电压Vin，其电压上升率dv/dt直接与M1的开通速率有关。虽然此时M2已处于关断状态，但Cgd2会对这个快速变化的dv/dt产 生响应，其产生的电流为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsIyKyeibPicY3l5tfKXoEuTmddMs9MdOV86t7IBFfalvuMcaeaERl4qvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_050_11e32c53c45d.png)
 
 考虑到分布电感，该电流在驱动回路中产生的响应为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs63w5n6tBtJIuYo8xuJQULmBNxDymyr03RibSmBG5TmNeZxz7aW4w74w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_051_41a89d18d969.png)
 
 其中L2为M2驱动回路的分布电感，Cgs2为M2的GS两端电容，t为M1的开通时间。由式(3.3)可知， 这是一个二阶阻尼系统，且分布电感越大，产生的振荡越剧烈。同理，当下管开通、上管处于关断状态时，也会有类似的现象发生。在MOSFET高频开关时，若该振荡的幅值超过了MOSFET的门槛电压，则MOSFET会出现误导通现象，从而使同一桥臂上下管直通，造成MOSFET损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsFCjCO9P5UeHp5MicXlzXJ60aBqPu5Fqld5BSdZk5JTO1wG1W26xKT1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_052_f52ca588998d.png)
 
 为了能尽可能缓解同一桥臂上下管互相影响所产生的不良后果，在设计驱动电路的PCB时，应尽量使驱动芯片接近MOSFET，减小驱动回路中的分布电感。由式(3.3)可知，若分布电感很小，直至接近零，则可改写为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs0hVDiauetUCJUgPBmLtovQXYJf4UBfHbK6PicB11YUfsFyWOrrueWMicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_053_1adc5578a0fe.png)
 
 由二阶系统退为一阶系统，呈指数形式衰减，可大大缓解这个问题。
 
@@ -439,7 +439,7 @@ MOSFET驱动电路的输入端可以看作是一个容性网络，故MOSFET导�
 
 对于SiC MOSFET而言，负压关断显得尤为重要。由上一小节的分析可知，SiC MOSFET由于本身输入电容较小，更易受驱动回路寄生电感的影响而产生振荡。但另一方面，以CMF20120D为例，其驱动电压幅值范围为\-5~+25V，负电压的安全余量很小。如果采用负压关断，虽然可降低误导通的风险，但也更容易因振荡而使SiC MOSFET被反压击穿。因此，仅仅采用负压关断并不能保证SiC MOSFET能在桥式电路中安全工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsPNSyFsp7yibsIs7orqz8WdUtHEEIiawMrUcYJkRkYA30pJiasB90ia8MUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_054_44a17cec1fcb.png)
 
 图3\. 3所示为MOSFET桥式驱动电路的一种解决方案，在驱动电路中外接一个PNP三极管， 即图中的Q1、Q2。当驱动V1或V2为高电平时，三极管BE端被二极管箝位在0.7V，三极管不导通；当驱动V1或V2为低电平时，PNP的基极和集电极电压几乎为零，三极管不导通；如果VGS产生振荡，则振荡电压将使PNP管导通，振荡能量迅速通过反并二极管和PNP管回路泄放，从而避免了振荡引起的MOSFET误导通。
 
@@ -457,7 +457,7 @@ MOSFET驱动电路的输入端可以看作是一个容性网络，故MOSFET导�
 
 5)构成桥臂时，应注意可能产生的误导通现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsibHUobmibRjeXdTsZRRqIJOMTvqACjAoRHbBSu8Dy5DXJWh6o18UiauPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_055_b6fda9765c09.png)
 
 在本文中，分别需要在Buck电路(单管驱动)和双有源桥(构成桥臂)中使用SiC MOSFET， 故根据不同的应用环境，分别设计驱动电路。 
 
@@ -475,15 +475,15 @@ MOSFET驱动电路的输入端可以看作是一个容性网络，故MOSFET导�
 
 3.2.1 实验及仿真电路参数规格
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsCdNBJPbeDAN4iad3bNSaSkmuq8OCCSvUHufprOLm7CvGwgB5yMCrOxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_056_ff4d0205bae3.png)
 
 图3\. 5所示为搭建的Buck变换器实验测试样机，由控制电路、驱动电路、滤波电容、滤波电感组成。滤波电感的设计要求是在30A电流下不饱和，且电感值尽量大；散热器采用大面积铝板组成，以保证做温度测试时尽量处于恒温状态；低温测试在\-25°C的恒温箱内进行，高温测试采用不锈钢电热板，整套测试装置的结构图如图3\. 6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsQl1je3srsVTp1ib2FLN7ic7LcOclyqjYaW3dxEaBwqLjFibrRJtBIjCAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_057_8f063842fe57.png)
 
 采用的SiC MOSFET的型号为CMF20120D，SiC Diode的型号为C2D20120D，滤波电感的大小为580uH，输入输出滤波电容的大小均为220uF，另外并联2.2uF的CBB电容滤去高频分量。 变换器占空比控制在0.7~0.8之间，工作频率100kHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsJ1JJzvmyQ4aoJ0H4nyU1XP66mgDmHdxCCkvibNHicrLht4sj3RicYy8Ig/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_058_dc9f62cd99fb.png)
 
   
 图3.7所示为PSpice的仿真电路模型，其中L1、L2、L3、L5为电路板线路寄生电感，R1为线路等效电阻，R3为电感等效电阻，R4为电容等效串联电阻。为保证PSpice仿真电路与实际测试电路尽量接近，从而验证模型的准确性，需对PSpice仿真电路的参数进行估算。根据实际电感进行估算，等效串联电阻为84mΩ；根据电解电容的数据手册，需加入4.7mΩ的等效串联电阻；考虑到图2\. 10所示的模型中未加入G、D、S三个引脚的寄生电感，应根据实际的PCB布局情况加入几纳亨的寄生电感。配置好PSpice的仿真温度、步长、截断误差等仿真环境参数后，即可进行仿真。
@@ -492,21 +492,21 @@ MOSFET驱动电路的输入端可以看作是一个容性网络，故MOSFET导�
 
 分别在不同的电压点、电流点及温度点下对实验样机进行测试，并与相同测试条件下的仿真波形进行比较，图3\. 8为600V/10A工作温度75°C环境下，MOSFET开通过程的实验及仿真波形。图3\. 9为该条件下MOSFET关断的实验及仿真波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs7T2lP7ae10t8QOP1ee1e6KmHYIhobicsluyMy1GaDicjbQNauJ6iaiczmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_059_f2d5e4948569.png)
 
 从仿真和实验的对比结果可以看出，本文所建立的模型可以非常准确的反应开通和关断时MOSFET的电压电流波形。在其他测试点下，也均有较高的符合度，实验及仿真波形在此略去，仅给出实验及仿真数据。表3\. 1~表3\. 4所示为在各个不同测试点条件下，实验及仿真波形的电流上升、下降时间的对比结果。由表中数据可知，除了在个别1A的测试点下，误差超过10%以外，其余各点的误差均在10%以内，故所建模型达到了较理想的结果，因此该模型完全可用于工程应用中的系统分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsTBRZawLicbznabz38kYX5mvrECUJKwAAaNrOten7FmJs4mlUtrMOia2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_060_f9fc8ef56b56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsU3viadicKKE9HEp9ribT4CV9fwW2pLZTiaVenPice3Pu9oMrkHx9P962b3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_061_044409dfc2fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs5gTt6x4P3AMYU4Gxt4nW0AwsD7SNicOKh9LkicIB3Z3xwVrdhN4a3dlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_062_58a687d7cc5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsjn799ibejA1NvycnLe6F8icuicYsb74feIE3Z3JVSDGQibCyztqCTckn5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_063_7ede6559a1ad.png)
 
 利用测试波形中电压和电流的积分，可以大致估算出开通和关断的能量损耗。考虑到电流探头和电压探头本身存在不同的延时时间，为保证积分结果尽量准确，需补偿电压、电流 探头之间的延时差。采用的电流探头型号为TCP0030，从其数据手册中得到的信号延迟时间约为14.5ns；电压差分探头型号为LDP6002，信号延迟时间约为22ns，故在做积分处理时应补偿8ns的相位差。对实验波形和仿真波形分别做积分处理，可得两者的比较结果。图3\. 10和图3\. 11分别给出了各个测试点在\-25°C和125°C时的损耗比较结果，需要说明的是，CMF20120D在125°C的电流降额很大，故测试电流为15A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsE2J6wKiauKjkYINuHaLUPn3ASbYsDtibpBDXQn0ECl1y5XN9ySdKnnHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_064_5553104d9347.png)
 
 从两者的比较结果可以看出，PSpice仿真所得的器件开关损耗和实验测得的开关损耗非常接近，误差都在10%以内。即使是在\-25°C的低温环境，该模型仍具有很高的精确度，具有很宽的温度适用范围，适用于工程应用中的效率评估。
 
@@ -514,15 +514,15 @@ MOSFET驱动电路的输入端可以看作是一个容性网络，故MOSFET导�
 
 在Buck变换器样机平台上对相似功率等级SiC MOSFET和Si MOSFET的开关损耗做对比，可以明显看到SiC MOSFET在减小开关损耗方面的优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsibUHTE47YicIEnFuMJwqgDAiciayJxWB3ZqOX9tMXQYphoiaLmcJbxo0kicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_065_3ed2364b1e51.png)
 
 表3\. 5所示为SiC MOSFET CMF20120D以及Si MOSFET IXFB30N120P部分参数对比，SiC  MOSFET的寄生电容参数均远比Si MOSFET小。在600V10A、常温25°C的测试条件下，MOSFET的电压上升时间tr-Vds、下降时间tf-Vds、电流上升时间tr-id、下降时间tf-id如图3\. 12所示。可得CMF20120D的开通损耗约为182.4µJ，关断损耗约为107.8µJ，而IXFB30N120P的开通损耗约为326.7µJ，关断损耗约为370.1µJ。可见，使用SiC MOSFET后可大大降低器件的开关损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIshK7tF67uzMYlbaAKfq1PL8CwsRW8icCxjqO9CjqpHmCXrLIvuicCajibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_066_f1e899488d73.png)
 
 图3.12所示为300V2A、输出功率600W条件下，两种不同功率器件的Buck变换器分别在50kHz和100kHz条件下的损耗对比。对于SiC MOSFET，当频率增大后，损耗增加了将近2.9W； 对于Si MOSFET，频率增大后损耗增加了约5.3W。分析可知，增加的损耗大部分是由MOSFET的开关损耗及Buck变换器中电感的磁芯损耗带来的，两者相差2.4W，约占总功率的0.5%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsV4ZbMQMMUJzlhsDiaFIRk7tGLJAzrla5xATdFWjx3qPTe9CvWjvxuGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_067_a892e8a3d198.png)
 
 两者之间的差异是由SiC MOSFET和Si MOSFET开关损耗的不同导致的。可以看出，随着电压电流等级的增加，SiC MOSFET和Si MOSFET两者开关损耗的差异将更加明显，SiC MOSFET带来的效率提升也将更加显著。
 
@@ -546,35 +546,35 @@ Mode I (t0 < t < t1)  
 
 t0 时刻前，原边开关管Q1Q4 导通，副边开关管Q5Q8 导通，能量由原边传递到副边，如图4\. 2(a)所示。t0 时刻，开关管Q1 关断，而电流iLs 方向不能突变，故Ls 与开关管的结电容发生谐振。此时，电感电流iLs 一方面给Q1 的结电容充电，另一方面给Q3 的结电容放电，如图4\. 2(b)所示。设开关管的结电容为Cs，则谐振角频率为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsL8K97FZWfuLK9Y7tmOV7ZJEkUyx1bcw2zyE35MJHB7pd4schbmXGJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_068_e6151d8f411a.png)
 
 特征阻抗为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsm7D46IK1cP3CuicqdLtSboABwhft4YAVSv8dcycBkQoAG94Hv2npV8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_069_387925ea6580.png)
 
 故此时电感电流可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsGSp7nQp1zuDlofP1IjxZiam3G48PTHQHRQCvnPnZODmkicKEIQMSASfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_070_196d89eee2af.png)
 
 当Q3结电容电压谐振到零，该模态结束。为保证Ls所储存的能量足够使开关管结电容电压谐振到零，从而实现软开关，需满足谐振能量条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs5UBu04CRWRkwIbtYgQbG6GtECcz84PLuhAzkRy9yKhRmUKlMONMQ3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_071_b59e802cd25e.png)
 
 Mode II (t1 < t < t2)  
 
 t1时刻开关管Q3结电容电压谐振到零，其反并二极管导通，如图4\. 2(c)所示，此时加在电感Ls两端的电压为\-nV2，流经电感的电流可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsDbllUILS0PASnjoP1JQLQoaQp4Fy2716yElWvmlbY6q7EtnUB7IYJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_072_4602034a5c4b.png)
 
 在这段时间内打开开关管Q3，均可实现其软开关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsPy8BjXU1s1bianBAB4FUasjsicItXfMuIKYuOEjicLrNup4De10BaUIDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_073_c90437b5a1b5.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsk0KnuUmVANoLV5suy8nS0jibefRGdiaqDUcLibxZ5zMSqDEDJGoZicKxWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_074_0198fa2509e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs90hBZAze815GRjQ50dYtTQYs5LBkCFyEAspIaeAHzoVEYrMBZ1fpsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_075_f217cdc230a9.png)
 
 Mode III (t2 < t < t3)   
 
@@ -584,23 +584,23 @@ Mode IV (t3 < t < t4)  
 
 t3时刻开关管Q4关断，电感Ls与开关管结电容发生谐振，谐振参数与模态1相同，如图4\. 2(e)所示。此时，开关管Q4结电容谐振充电，Q2结电容谐振放电，为Q2的软开关提供条件。结电容电压谐振到零所需的时间为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsUbbjInzykiarmv440ibyHfsLkmUApHvMCicqMH1vs3mctnEsgeBAESYVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_076_5e7dd850ceda.png)
 
 Mode V (t4 < t < t5)  
 
 当开关管Q2结电容电压谐振到零后，其体二极管导通，如图4\. 2(f)所示。此时，V1与nV2同时作用在电感Ls上，其电流表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsicF9KpbK0QlsWMzkZC4pb2rt7vhAtXEIic5RlUMV30ugTGwmmiawGAnYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_077_979cff93aa83.png)
 
 Mode VI (t5 < t < t6)  
 
 在该模态中，电感电流将由正变负，其变化率与上一模态相同，如图4\. 2(g)所示。电感电流变化到零所需的时间为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsW84bQUQpDibRbZOm4b8ia8x7R8g8APWdSAHPmyVr1iabmjvxTafqq0xzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_078_3a54e236ccfb.png)
 
 故死区时间td 的设置应满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIssiakwuGjfDWiaiaMfHhHzBlAgfRLUbCMicyVaDT82ialawzAUlKBPLbBd0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_079_2c88af964e02.png)
 
 t5时刻开关管Q2开通，只要保证电感电流未经过零点前开通Q2，即可实现Q2的ZVS。当开关管Q5、Q8关断后，该模态结束。  
 
@@ -612,7 +612,7 @@ Mode VIII (t7 < t < t8)  
 
 Q6Q7结电容电压谐振到零后，其反并二极管导通，为Q6Q7的ZVS开通提供条件，如图4\. 2(i)所示。V1和V2共同作用在电感Ls上，其电流表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs6hPktGibrzO327xgyVRVFia6icduVIgm5Noe5oUsmoHPAz3gJGKVW5xicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_080_d5804c4e6816.png)
 
 Mode IX (t8 < t < t9)  
 
@@ -622,53 +622,53 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 根据式(4.5)、(4.7)及(4.10)，并由对称性iL(t0)=\-iL(t9)，可得输出功率表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsbjmLwP2TWBVFiclqwmBovLSQIXAY9Ko8AxfJicXCg78ZwiaicxjzzQickHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_081_6c27dfb9d274.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsFj3h3gib6nn4MWBprToC4oxnc01SA1KicgnicgXqnRU0j0wnBDRbXe0xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_082_f8e1189f840e.png)
 
 4.1.2 变换器特性改善  
 
 正是由于引进了一个新的控制量，改变了DAB变换器的特性，从而能有效改善传统移相控制在软开关范围、功率回流、输入电压范围等方面的不足。为简化分析过程，在上一小节的基础上，忽略变换器的谐振模态，可得如图4\. 3所示的简化波形图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsDLyyhfPicAp0JShujoKqOKlN6wmb74ROt04PMj0B7lanZsaQ4c31xYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_083_24364f436103.png)
 
 (1) 扩展软开关范围
 
 根据之前的分析，为使Q1Q4Q5Q8实现软开关（Q2Q3Q6Q7的分析类似），需满足以下条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsYE0PjG6PV7TEoaPibANRjCjv587vNVLgw6IO7Fl7KB7shcfVj4sZ0rA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_084_645c8094ad94.png)
 
 由上面的推导可分别得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs8lJuibeLXSSNUQuptiboYMZOYZMdQAgdEfHetCiacNjSSI67MGEvfic30Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_085_98c36dab2e78.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsJZlb1sPT5KYVP25UTz8fwgloIAukOe0B4vjVbhQUyCDIlKExUM8Vmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_086_106ea85e733e.png)
 
 将以上电流表达式带入式(4.12)，可得软开关范围
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsAwSRXlGrPhXXJlE4srWyXEOu7lvmOKnibPImW1ibTs0oerrIJgDJlia4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_087_c50faca15309.png)
 
 其中φ=π(D2\-D1)，τ=π(1\-D1)，d=nV2/V1。
 
 当τ=πd (d<1)或τ=π/d (d>1)时，且D12，可达到的软开关范围最大。此时软开关可在移相角φ>0的全范围内实现，只受负载轻重的影响，而没有移相角的限制。将此临界条件代入输出功率的标幺化表达式(4.17)，可得图4\. 4所示的软开关范围。可以发现，引入一个控制量D1后，可明显扩展软开关的范围，尤其是原副边电压比d不在1附近时。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsJp903FVtZsnlSMLZsMXIaTJiaEFbumxdPOmHq0SFbAiblMx0D0CKTDpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_088_271b798f451f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsCm3caFMYDq6f7C7Etd0RxA3uxEjRiaAyENkFedKiaQ3uiaapTt8pfZYcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_089_fe96a2501424.png)
 
 (2) 减小功率回流
 
 轻载时，传统移相控制会导致功率回流所占比例很大，如果还不能实现软开关，那么将进一步降低变换器的轻载效率。根据功率回流的定义并结合图4\. 3 可知，当加入一个控制量，即内移相角D1 后，其功率回流可表述为t2 至t2’时间段内电感电流iL和变压器原边电压v1 的积分，如下式所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIsY8fPpxDKE7XPm5o0bMvrQL0FUSV9wqQC4HeibicDjh8faCbqktodibeng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_090_d611af9837c3.png)
 
 类似的，对式(4.18)进行标幺化处理，令
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLFqcd9Seo9ib7aU0ibRkLIs2kTcK2YKr20vvGbicgjicPryQecWNFVev9ZZNZhscficibzkQPVq2VCOww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_091_93571e010c0c.png)
 
 则可得标幺化回流功率IQ 与内外移相角D1、D2 的关系，如图4\. 5 所示，其中令d=nV2/V1\=0.9。 从式(4.18)可以看出，当V1(1-D2)=nV2(1+2D1\-2D2)时，其回流功率为零。故在图4\. 5 所示红色轴线附近，功率回流都较小，若能合理设置D1 与D2 的值，使之尽量分布在图所示红色轴线附近，就可以很大程度上减小功率回流的大小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZhvZv3fmXiadDBoKQ9FIjZbQNtNwT2rLGeZiaawHFiaAnuXw97IBibxEwzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_092_00f4c7e1dace.png)
 
 然而，根据式(1.12)可得传统移相控制方式下回流功率与移相角δ 的关系。由于只存在一个控制量δ，故当输入输出关系及输出功率给定后，δ 的大小也是固定的，也就是说回流功率的大小也是固定的，并不存在调整或减小的可能。令式(1.12)功率回流量为零，可得δ=(d-1)/2d，可以发现当d>1 时，在整个功率范围内，仅在一个功率点下，有回流功率Qloop\=0。 如果d<1，则δ 为负值，没有实际意义，那么整个功率范围内，不存在使回流功率Qloop 为零的功率点。
 
@@ -680,25 +680,25 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 由式(4.13)~式(4.15)的分析可知，内移相角D1的设置可直接影响到电感电流的波形。式(4.11)和式(4.13)分别表示输出功率及电感峰值电流，但这两个表达式不利于化简和求导，经数学处理，改为以下形式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZNiaeGtBcFPRBG384IwmackP47p9qk5fVdoWDyu2hicalxeGmKFZNkpdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_093_4ca70ccbbad3.png)
 
 将输出功率P的表达式代入式(4.21)，消去变量φ，可得电感峰值电流Imax与τ的关系，并对该表达式求导，可以得到当τ满足以下关系式时，可使Imax取得最小值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZ8be8RVJYHykQiaibBxbPicj1xCHTAH2OwDwFebibrbTvoicLGdldubSutcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_094_886cc032c55d.png)
 
 由以上两式可以看出，当变压器变比n、工作频率fs、电感LS、输出电压V2确定后，使电感峰值电流最小的τ的最优值不仅与原副边电压比d有关，也和输出功率P有关。故增加的控制量τ可以一定程度上减小流经电感的电流峰值。图4\. 6(a)和(b)分别为d>1及d<1的情况下，τ与原副边电压比d以及输出功率P的关系图。
 
 当确定工作频率fs，输入输出电压V1V2，变压器匝数比n后，设置电感LS，可得输出功率和电感电流峰值的关系，如图4\. 7所示。从图中可以看出，改进后的移相控制方式对电感电流峰值的抑制作用是有条件限制的，并不能保证在各个功率点下都能使电感峰值电流最小化，超过某个功率点后，其峰值电流反而会比传统移相控制的峰值电流更大。改变LS的大小可以明显改变两者的交点。LS变大，可以同时减小传统移相控制和改进型移相控制的峰值电流，并且使交点前移；LS变小，两种控制方案下的峰值电流都会相应增大，并且使交点后移。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZWsVupWibGwe04ahMpbGfib7ran2iald4CqrFEXicKUt6kZreLjE2m5FRgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_095_92acb017ea59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZA35FnyR4LCO4ficNYBiaFmQNSN9afRyial5j8tj01lBGpkZV4rbWSG3Og/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_096_96cdfba889cc.png)
 
 4.1.3 损耗分析  
 
 为了能对变换器在改进控制策略下的损耗分布及开关器件所占的损耗比重有个大致的了解，需对DAB做损耗分析。结合图4\. 2给出的模态分析，DAB损耗主要包括开关管的损耗和磁性元件的损耗。开关管损耗主要有开关管的导通损耗、硬开关时的开关损耗和死区时间内体二极管的导通损耗；磁性元件主要是隔离变压器与电感的绕组电阻损耗和磁芯损耗，各部分损耗构成如表4\. 2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZxRr73LKicAsTv6ztJT155bjwiaOARuSjTU3KxvSkvvTp2wwJDu7rWtPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_097_76e50a532de3.png)
 
 需要指出的是，虽然根据前面分析可知，DAB的八个开关管均能实现ZVS开通，但如图4. 4所示，理论上仅在原副边电压比d=1时在全负载范围内可实现软开关。当负载较轻时，不能实现ZVS开通，故在损耗分析中，仍加入了开关器件开通损耗的分析。
 
@@ -706,13 +706,13 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 开关管的导通损耗可由下式计算得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZakXL1jG557ibGw4ooSEr8PmjqsqcUDkrpy4ticCNAIeicib4FWMKtyiaicfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_098_d8f17b7f8703.png)
 
 其中Irms是流过开关管电流的有效值，RDS(on)为开关管的导通电阻。
 
 考虑到DAB低压侧桥臂Q1~Q4和高压侧桥臂Q5~Q8可能使用不同功率等级的开关管，故变换器开关管总的导通损耗可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZhqtw4ibFAIicZedpaEEmtWMJX5ohJoeyHIZeIZia0NpmxpibziavnIOFcFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_099_240abc4ffa0f.png)
 
 其中Irms\_p、Irms\_s是流过原副边开关管的电流有效值RDS(on)\_p、RDS(on)\_s分别是原副边MOS管的导通电阻。
 
@@ -720,41 +720,41 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 据文献\[46\]可知，开关管的开关损耗可用下式进行计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZUORc5dcjpAv1dCKjZ9KFEclJBFCHssNE2pcjXDafNHcLk45b1yQ8eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_100_da778e64387e.png)
 
 其中ton和toff分别为MOSFET的开通和关断时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZABm9PzIpRHWqtpLftyGrqeW3XiaibujsWUtQQY9RSInGcFk5rcpxNSpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_101_b58ad8552b8b.png)
 
 以开通过程为例，MOSFET开通时，其瞬时电压电流波形示意图如图4\. 8所示。其中Uth为MOSFET的门槛电压，Usp为米勒平台电压，ton为开通时间。由式(4.26)可知，知道开通时间ton，即可求得开关损耗。开通时间ton可由下式计算得出
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZSv6IibMTQeQVI9YZZDkFAj5ia8tbea8tpppCFGetRicUENUAlKBRyFAxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_102_ffc633fbcd8c.png)
 
 其中Qg(sw)可近似认为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZoYzCuLWV1LsSOQa8rGwV5Q7l3LQ3nWjiaSLVLCicSUVjRr0u4dxPiaPTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_103_2b06e8f60125.png)
 
 开通时的驱动电流Idrive\_on可以用如下公式进行计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZ3iaEYfdiaWz2iahKkouica0LT0ToUHwFovqQlYgJYkeicibPlYfNY58P4Baw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_104_8daec249cbd7.png)
 
 其中Udrive为驱动电压，Rdrive为驱动电阻，米勒平台电压Usp可近似等于MOSFET的门槛电压Uth。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZLzqXda5K5dA8nsXbaypNzdW2Sz3QqwiaK4QvibDsY6Jd8ldkkhpx1Qsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_105_06f799f512a2.png)
 
 同理，关断时的驱动电流Idrive\_off和关断时间toff可以用如下公式进行计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZ63e4h3YncvhhQAict8gBcqBzqsV4K0k48otL7klrUxG7WOz3o0Lzfvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_106_01281730429e.png)
 
 根据图4\. 3给出的波形示意图，可得MOSFET的开关损耗表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZIlA15P5LsAabvQLY6DHkwfnkAPuo0qjQA8afaTyeMyMVKeztMmp0vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_107_49c7032b9667.png)
 
 (3) 死区时间内体二极管导通损耗  
 
 根据图4\. 1所示的模态分析可知，在t1~t2、t4~t5、t7~t8时间段内，都是MOSFET的体二极管续流导通的模态。虽然这些模态所占时间比较少，但考虑到Si MOSFET和SiC MOSFET在体二极管上的特性差异非常明显，故仍有必要对该模态下体二极管的损耗进行计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZibrzWx1M9ped1zVIomIy3eE0jhkaxicmjXfYJHibc9rWBiaiaUssYw5YLqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_108_19edeb8dde96.png)
 
 其中VF1和VF2分别为低压高压侧MOSFET体二极管的导通压降。 
 
@@ -762,17 +762,17 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 由于变压器和电感存在绕组电阻，流过电流时会产生损耗，绕组电阻产生的损耗可以用公式(4.34)进行计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZXJeZriaF7re1SS317zTrdn8rlICIEoQDg7Q0g6p7MKU4kxs43jtSGWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_109_d9aed755293c.png)
 
 其中Rtr 和RLs 分别是变压器和电感的绕组电阻，ILrms 是电感电流的有效值。绕组电阻可以用如下的公式进行计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZIcic1ibpULEnuPMaUHP6Qy1cNJhHpzCdYUJJzcyAtn1E1czYkquOia3ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_110_356a31a92711.png)
 
 其中ρ 是铜线电阻率，A 是绕线等效的截面积，l 是绕线长度。
 
 绕线长度一般可以用如下公式进行计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZGbzv8URQG4nctyl5sAxD3GRHy2UAdnS33m4gfHFZ5RicstLziaFlGRMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_111_195c47f2c771.png)
 
 其中n 是绕组匝数，MLT 是平均每匝长度。 
 
@@ -780,7 +780,7 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 磁芯损耗的计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZc5N8wiaJoyMicMfj8Hc48CBwMLia1ZiclChYhngHpYFjXIDQY3h9eEe0kg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_112_1fee5fca500a.png)
 
 其中PCV为磁芯单位功率损耗，Ve是变压器电感的有效体积。
 
@@ -808,11 +808,11 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 4.2.2 导通损耗及高温特性  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZhjsh0tp3ibncEyB0xwKMOlz5EBmzxfLnfrY2PEhhvgf0PmuHBdoYK4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_113_e2a73afbbadf.png)
 
 如图4\. 9所示分别为CMF20120D及IXFB30N120P的导通电阻在不同温度下的比较。可以看出，SiC MOSFET的导通电阻不仅在数值上远远小于相同功率等级的Si MOSFET，且SiC  MOSFET导通电阻受温度的影响非常小，在25°C时，IXFB30N120P的导通电阻约为CMF20120D的3倍；当125°C时，IXFB30N120P的导通电阻已经升为CMF20120D的5倍多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZql6aLPibXKvQESxIGqN4Mfvpzuutq1DvIl7ia4wxJM4extz8ic3UTSegg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_114_5ea398c5d902.png)
 
 在输出功率1000W的条件下，根据式(4.24)，计算可得高压侧MOSFET在不同温度下的导通损耗，如图4\. 10所示。从图中可以看出，随着温度的升高，CMF20120D的导通损耗几乎没有变化，但IXFB30N120P的导通损耗不仅比CMF20120D大很多，而且随着温度上升，导通损耗也随之大幅上升。因此，对于DAB变换器而言，采用SiC MOSFET不仅可以大幅降低MOSFET的导通损耗，并且随着温度的升高，SiC MOSFET给DAB带来的效率提升将更加明显。
 
@@ -822,7 +822,7 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 4.2.4 变换效率  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZniceGZZxGz7uXVQiaQ4qA1lmyu2VFp8jrn4WibILzPzAVylibmtJDibl8tQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_115_055f9f705b42.png)
 
 综合以上分析，可得输出功率1000W时DAB变换器各部分损耗分布情况，如图4\. 11所示。需要指出的是，DAB低压侧均采用Si MOSFET IXTQ82N25P而仅在高压侧采用Si MOSFET和SiC MOSFET进行对比。
 
@@ -832,19 +832,19 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 根据之前的理论分析，搭建一台1000W的DAB实验样机，采用改进移相控制策略，DAB规格参数与前一小节相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZu7md7gL9USqBUWdqictg2tVrRfddia4pTyTKno2oNZZcbIGPkPPUMdOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_116_b5634a6b2d2f.png)
 
 图4\. 12所示分别为输出功率450W时，高压侧采用Si MOSFET及SiC MOSFET时的软开关波形。从图4\. 12(a)中可以看出，当采用Si MOSFET时，开关管Q6的DS电压还未完全谐振到零， 开关管已经开通；而从图4\. 12(b)中可以看出，在相同功率等级下采用SiC MOSFET时，由于其寄生参数较小，所需的谐振能量较小，故已经完全实现ZVS开通，验证了在DAB中使用SiC  MOSFET可以扩展变换器的软开关范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZBdHfBRpa0Uqa7a2XJF3FDnZpmibQkIyNcpmgAAmPcic6BOp6JtcHkfbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_117_d8dc0d7fb7ce.png)
 
 图4.13所示为DAB变换器在各个死区时间下的效率曲线。随着死区时间的加长，变换器的效率随之降低，这是因为死区时间越长，就增大了SiC MOSFET体二极管的导通时间。当死区时间在100ns~150ns时，变换器效率下降很小，虽然SiC MOSFET的体二极管导通损耗比相同功率等级下的Si MOSFET大很多，但由于体二极管续流模态所占时间少，故占总损耗的比例小，几乎对变换器效率没有影响，与理论分析一致。当死区时间继续加大后，发现变换器效率迅速下滑，其原因如图4\. 14所示。如果死区时间设置过长，当流过MOSFET的电流过零后，仍未开通MOSFET，则反向后的电流将重新与结电容发生谐振，从而导致MOSFET无法实现ZVS开通。因此，DAB变换器的死区时间不应设置过长，尤其对于SiC MOSFET而言，因为寄生参数相比于Si MOSFET小很多，将更快的完成谐振过程而进入电感电流换流模态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZ3BmZaw0icEV0bvOVWOh9nvdtxEyXjDZ8rKG9gAf851LNVGDFMJrP3eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_118_bd8aeef663db.png)
 
 分别对使用SiC MOSFET和Si MOSFET的DAB变换器进行效率测试，效率曲线如图4\. 15所示，满载时使用SiC MOSFET的DAB最高效率为96.98%，比使用传统Si MOSFET效率提高了0.62%。随着DAB变换器输出功率的上升，两者之间的效率差越来越明显，这与图4\. 11给出的损耗分布及理论分析也是一致的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZoGmfdUf6Hicbck5IgB6FZW8xtN0eFCdib8agaA7n0YB4UTfaYmXrjzrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_119_8db7b3b76064.png)
 
 4.4 本章小结
 
@@ -874,13 +874,13 @@ t8时刻，Q6Q7开通，实现ZVS，如图4\. 2(j)所示。t9时刻开关管Q3�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJHBTCdADHv18QiahAiaFlHTRlibob4tEaAibUuMT523iaOA0gUE9Ie19LHww/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_120_bc3508057f21.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJ58q3XFGUX82hld8uW530iacQXKNpBeEjcDyqyAJ68ibgibv0xjnicdqSqg/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_121_253091499e1c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJpYcXLicHZJX7Cqx7QH3IXZUrWCTAUdmbCKxDJIFcNufSXy7WutebaIA/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_应用技术研究_images\img_122_611d8476f357.png)

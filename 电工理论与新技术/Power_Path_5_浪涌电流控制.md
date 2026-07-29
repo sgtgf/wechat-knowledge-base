@@ -5,7 +5,7 @@
 
   
 
-______![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFgiargFP5ayfCQZAd79fUpsc1pkaiavibCZYArOfnOrS0BYo7icOk3gBAibA/640?wx_fmt=png)______
+______![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_000_47dafc7de8d9.png)______
 
 ____**★★★**______Power Path-5---浪涌电流控制______**____**★★★**____**____
 
@@ -17,7 +17,7 @@ _____________€1.浪涌电_______流的危害______
 
 浪涌电流可能导致上游电源电压下降，如果该电压还为其他子系统供电，则子系统可能会出现故障或复位。在**_图5-1_**中，开关被启用，这会在输入电源上产生快速瞬态电压（dv/dt）和大电流尖峰，然后导致Vsupply电压骤降，当Vsw\_out继续打开时，电压骤降是可见的。Vsupply上的电压骤降导致DC/DC关闭，Vout衰减，直到Vsupply恢复到正常工作范围内。该场景演示了一个负载上的浪涌电流如何导致其它负载经历重置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZnZh1AELicwjRLl2wm0nFsnsw3h3ZicqB85oxNTibd7oM32R2zZsy9qUCQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_001_3b0bb3ff7c59.png)
 
 **_图5-1：Vsw\_out上的涌入电流，导致电源下降和复位_**
 
@@ -31,13 +31,13 @@ _________________________€2._________________控制浪涌电流的常用方法
 
 缺陷：与电源串联的电阻限制了负载的电流，纯电阻器会将峰值涌入电流限制在VIN/R，这种技术将通过电阻器耗散功率，并限制负载在通电后可以汲取的电流。但由于效率低，该技术通常仅限于低电流应用（通常远小于1A），**_图5-2_**显示了一个用于限制涌入电流的串联电阻器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZnJxe04bXfvYWcZIpE28POTbtYLHbzTHdI5ZiaDu5D28ibIz4xxYHbbAeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_002_630331fa49a2.png)
 
 **_图5-2：使用串位电阻限制浪涌电流_**
 
 如果串联NTC，当电流未流过时，电阻将处于高值，当通电时，高电阻将允许少量电流通过，这将开始自加热NTC自身并导致电阻下降，逐渐允许越来越多的电流通过负载，直到NTC完全打开。由于NTC性能严重依赖于环境温度，因此它可能不适合需要宽工作温度范围的应用，**_图5-3_**显示了如何使用串联NTC热敏电阻来限制浪涌电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZnhkfokdrMicqpJjRicRebNVRCZ8Fv8xHvicSmfWMD5KcaLrA3PWUJVCWhw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_003_60c2260718de.png)
 
 **_图5-3：使用串位NTC电阻限制浪涌电流_**
 
@@ -45,7 +45,7 @@ ________________________€3.________________转换速率控制________
 
 控制开关接通的速率可以直接控制输出电压上升的速率，浪涌电流计算式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WWia8L8FwBOnO2GzPOtEGvrO53ekO1ra4ic0XzbNYeZt6VxSbyGKbvRgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_004_fe8a428339f4.png)
 
 则对于给定的固定Cload，降低开关速度（dVout/dt）会降低Iinrush。
 
@@ -53,13 +53,13 @@ ________________________€4.________________RC时间常数________
 
 对于分立电源开关，应对浪涌电流的一种常见方法是插入一个RC网络，以降低MOSFET的开关速度，（传送门：[SCD-19：RC时间常数的计算和使用要点](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247492540&idx=1&sn=f33cd6438b0b008800a3f28d0c77ab75&chksm=c336a923f4412035252c1fdaddc7ea541a82e8625e5e970c194a6acea158f72e808854292a42&scene=21#wechat_redirect)）如**_图5-4_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTqU7gU5awcCuIHbXJSqZg6Fia6jEPVib2Uia55STm97zOeV2zbibbex87oJEVmjRw21x96YVsicSIh9GQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_005_b507f079fca5.png)
 
 **_图5-4：具有RC上升时间以限制涌入电流的分立MOSFET_**
 
 这是一种通过RC时间常数控制开关速度的简单方法，虽然速度可以降低，总开启时间可以增加，但注意dv/dt速度是非线性的，因此浪涌电流也是非线性的。开始开关将缓慢接通，并随着开关完全接通而呈指数级增加，基于RC的浪涌电流见**_图5-5_**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQUeuic4I0mictzETeBkhnoPkSvoBFhDKgn25aLMu7SnskvOicyLJ6eTFxQfAn9GUNshTTHTuLMm8Zug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_006_c8595ebba771.png)
 
 **_图5-5：基于RC的浪涌电流。_**
 
@@ -67,13 +67,13 @@ ________________________€5.________________线性软启动或dV/dt________
 
 许多集成电源开关具有线性控制输出电压上升时间的功能，这些开关具有固定或可调节的上升时间。在所有情况下，线性地控制输出电压上升时间意味着控制恒定的dVout/dt速率，在这种情况下，如果Cload是常数，dVout/dt是常数，那么Iinrush也将是常数，如**_图5-6_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQUeuic4I0mictzETeBkhnoPkKUOIsl2ayXWCxXxmYTsHXqZ1Fh0Bd0CGmOQ3JZLzGuvZ1lNjxT8rQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_007_7aa07b38e3ad.png)
 
 **_图5-6：测量负载开关的线性dv/dt，以限制浪涌电流_**
 
 与RC时间常数方法相比，线性软启动有几个优点，包括可以精确计算浪涌电流。在某些情况下，可能同时有最大浪涌电流限制和最大开启时间要求，在这些情况下，如果RC时间常数需要很长时间才能接通，或者浪涌电流太高，那么线性控制方案可以满足这两个要求。如果不能满足下述等式，那么除了改变设计架构以消除这些限制，或者转向更小的Cload或更低的Vout之外，就没有其他解决方案：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WMvSSuyoV6HYSQIytgYESUreGWNXghKAfRvXffHQostWicVrosEM0bOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_008_43dfbb1752aa.png)
 
 ________________________€6.________________恒流/电流限制调节________
 
@@ -83,11 +83,11 @@ ________________________€6.________________恒流/电流限制调节________
 
 在**_图5-7_**/**_图5-8_**中，线性软启动为输出保持恒定的转换速率，而当负载在2.5V下开启时，恒定电流限制将改变其转换速率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZnaIfqKDBj8CDJZMpb585dDXmqYTb8ezs62qibLaEo9ib3aOLRVDHsn4CQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_009_d9db6a6d7505.png)
 
 **_图5-7：线性软启动或者dv/dt_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZneACvMpeeeLDnt9VrbPIPUVC6xicbwerHLQjiaGGCG3qnPxCC00cVibLWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_010_afb88d12154f.png)
 
 **_图5-8：恒流或者恒流限制调节_**
 
@@ -97,6 +97,6 @@ ________________________€7.________________散热________
 
 为了尽可能快地打开开关，但保持对开关的保护，有一种使用热调节的方法，这在输出电容大或未知的情况下（例如驱动板外负载）非常有用。一旦开关结温上升到指定水平，器件就开始控制浪涌电流，以保持调节的结温，这将持续到负载电容完全充满电，或者超时，如**_图5-9_**中所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQUeuic4I0mictzETeBkhnoPkdDAwOB8dvwWlo0uQFJI0wdwKFiaSVLNicDs4P7LQmSdy2tjEibgtjzM1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_5_浪涌电流控制_images\img_011_8f66094b729f.png)
 
 **_图5-9：使用4-VVIN，输出电容为30mF。_**

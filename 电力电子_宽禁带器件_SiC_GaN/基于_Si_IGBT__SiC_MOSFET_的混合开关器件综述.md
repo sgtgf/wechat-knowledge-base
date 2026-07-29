@@ -24,7 +24,7 @@
 
 面对大电流应用的需求,为解决这一问题,SiC/Si混合器件开始出现。最初是简单的 SiC Diode/Si IGBT混合方法,并不能充分发挥SiC的优势,还可能带来剧烈的开关振荡。近年来,各国研究人员不断开展 SiC MOSFET/Si IGBT混合开关器件(Hy-bird Switch,HyS)的研究,能够实现 IGBT的零电压开通和关断,有效结合 SiC MOSFET的低开关损耗优点和 Si IGBT大载流能力优点,各器件损耗比较如图 1所示,与纯 SiC器件相比成本也会大幅下降,特别适合用于同时需求大电流、高开关频率、高功率密度的车用电机控制器、大功率无线充电、多电化飞机和电力电子变压器等应用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOuYTbNYXVCyWzXVZJOiaI83icWrOvefTpqrmwazg6IxnwtIp48bdE5Zc0yMoKiaBgp0tNPicibaVGqfmbEFkVG2L1mpyibbibRTfibjQ8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_000_97aaed5376bc.png)
 
 本文综述了基于 Si IGBT/SiC MOSFET的混合开关器件,分析了相关的门极驱动时序、门极驱动硬件设计、电流分配优化、功率模块设计、变频器设计和成本分析等设计要点。  
 
@@ -34,11 +34,11 @@
 
 常见的 4种门极驱动时序如图 2所示,时序 1是理想器件的驱动时序,Si IGBT和 SiC MOSFET的开关时序与门极驱动时序相同。一般情况下SiC MOSFET的门极电容远小于Si IGBT,开关延时也很小,门极驱动采用时序 2可以达到与时序1类似的开关效果,但可以简化电路。如果HyS由独立器件组成,回路中将存在较大的寄生阻抗,Si IGBT的开关过程将有较大的延迟,门极驱动可采用时序3实现ZVS,能够减小SiC MOSFET独立开通载流的时间。一些门极硬件设计不能很好地抑制Si IGBT的米勒(Miller)效应,需要采用时序 4驱动防止Si IGBT误导通,这种方法会带来较大的损耗,有违HyS的设计初衷。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOHEzibsSgJ8BiblRz9a6T0koZxvrSgSC3V1YSQia61zfSia1aiam4EcMCkUgvKmmWIhdiaTXlGLhOnfwYJAsvc5D17S7PjibTGOW72Qc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_001_21fe5225e74e.png)
 
 参考文献\[27\]给出了另一种驱动时序,通过降低 SiC/Si配比来降低成本,如图 3所示。在这种时序中,SiC MOSFET先于Si IGBT开通,在 Si IGBT开通后立刻关断,并于Si IGBT关断前再次开通,在 Si IGBT关断后再次关断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOibao067MWtRueoiaE7m7BBNo4W2f4LYvbgP1VJJrpVuPbgCXH0QsOGvicVWjSXTxnpQmjd75gzicMaAkiabphgmrXGwueMr5l5g1s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_002_9e4aeea1f584.png)
 
 图3中SiC MOSFET只在HyS开关瞬态时间内处于导通状态,降低了SiC MOSFET的导通损耗。然而,这些损耗完全转移到 Si IGBT上,多出的两次开关动作及由此导致的换流过程会引起总损耗的增加,与时序1相比其效果较差,还会引起稳定性问题。  
 
@@ -52,17 +52,17 @@
 
 文献\[19\]采用带有米勒钳位功能的门极驱动芯片ACPL\-332J来改进硬件电路,实现了较好的效果,带有米勒钳位的门极驱动电路如图 4所示。该芯片内部具有米勒钳位功能,能够在Si IGBT关断的情况下降低门极回路阻抗,降低感生电压峰值,从而抑制米勒现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOLCUjUddibADpmdh2uTf3ca87Zibcq7HYXOPcvGlju3ickdTtEf4bh0r8V306r3icXGoDujkRSQwAzWLAzw3sBzKA8nBdAJEJfLDs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_003_a6ad5efa6121.png)
 
 为降低驱动复杂度,该电路对于SiC MOSFET使用简单的HCNW3120进行驱动。文献\[19\]将该电路用于一款1200V/200A HyS模块的驱动,在600V/200A下的双脉冲实验关断波形如图 5所示。  
 
 图 5中使用了带有米勒钳位的驱动芯片后,HyS实现了快速关断,没有明显的拖尾电流,更接近纯 SiC器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNvKVUmibicnrFyqoiaKwKKLjYPpiaw4vjhdvuMU8ib7YD1bfPFYicM1AF8Inx2SVbkYO2tAyWwN03TtDibwoa5Xhdhd4eOTww8kTmXdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_004_96a5c789e1d5.png)
 
 与不使用米勒钳位芯片的驱动电路相比,其瞬态特性见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNzBnianhic8aVH7ib9kytmibQx3Q7aJuUOxHagqGS4MqYCYV0Oqiav80t4tNpkHj9V1Nh93gQhtib3F3Y8ySATzDiciarbz21Dwr7tupI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_005_0bc754f0a35f.png)
 
 文献\[11\]讨论了门极驱动与器件短路耐量的关系。如果降低 MOSFET的驱动电压,HyS的整体短路耐量将有所改进,但损耗会大幅增加。  
 
@@ -80,31 +80,31 @@ HyS器件内部电流分配优化过程中经常使用SiC/Si配比参数,低配�
 
 受 Si芯片限制,该模块的设计目标为支持芯片结温 175°C,首先选取了有关的封装材料,具体见表2。为了进一步降低寄生阻抗,该模块使用超声波焊接技术连接 DBC与功率端子和信号端子。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFM13v51CPEAhAC2DoibNrWoJnaPOxsSFqFlMtVLAeyW6h4wEDMEwyLyDrhoKJqiaxeiciccsmbvV9PXYQTWC0JtH291rfib17WJq4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_006_67e34796d5d8.png)
 
 在模块设计阶段,采用了基于遗传算法的自动布局优化方法,对设计空间进行有向性搜索,充分考虑了寄生电感、并联芯片的均流、体积、散热、门极信号与主回路的解耦。最终布局的图案如图 6所示,模块样件如图 7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7hx8SgXyr1lajXxSDDyFB0yko0WnVxA75rPPZibiblbkriblLZAKpAh9DZf168IwL9IX80Q9x0bMP1V3vvHoMak4MXqe8xToR4Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_007_7c1e3215bb6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMrpt7wOeTfL4wzibTjNv3LkicuO2jo4avyNXX5Vcibzj4a3yhia7wnkUd0xh1DEKZJicBTaP8VoZS65kgZbIP4JN2l2BgfSllJkJCk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_008_be4fd1b4a951.png)
 
 为了验证布局优化结果,作者采用有限元软件Q3D抽取了杂散电感,杂散电感如图 8所示,并采用双脉冲测试的方法检测了模块的开关特性,其结果与设计一致。该模块用于本文第 5节的 3.4kW无线充电变频器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1iagtEHdX7m0hkUsl0Us555t72CUYZTvFFZytj1I5KS6nZ9IjgicUsjfS6ibiaOC4MszQJN1efjsMhVZs8btw2JPrLlZ9AzLhuicU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_009_018c83f6a1c1.png)
 
 除了设计开发混合开关模块,还可利用现有的SiC MOSFET模块或 Si IGBT模块,用母排进行器件间的连接。此方法需要良好的母排设计才能尽可能降低相关寄生阻抗,散热设计也需兼顾不同器件间的平衡。图9给出了 IGBT模块与MOSEFT独立器件的配合案例,图10给出了SiC MOSFET模块与Si IGBT模块的配合案例,具体的母排设计细节和连接方法可以参考文献\[15\]和文献\[29\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPIIAjR37Fxk4HVxg4qBpxhibPn8PTUdNgEsoPGWn09TTWZku4p5EIWQNVuEofNJDblJsQbzLm103GyaU3XXJrXliaicHVHXRah7M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_010_2120e2f53426.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMmf9l96Sg6KLTjiajRnX9CTfJHJPpOmoTYI7oN3JQOPBsLM5ArAGlcpuMonwXr6XrpMlOjJDCW7QDciakbDGqH61dAibtDcXc5yA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_011_8a1b398fb7cd.png)
 
 对于高压 HyS器件来说功率模块是必不可少的,高压模块的应用对象功率普遍较大,还需要考虑局部放电、散热等一系列问题,很难用独立器件完成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM3x0vmsl7cn7kkOCv738P8Y8WiakCWQia0aPHFb7ACaHlkbp0Ss9hE8wZiaMJA2C0Hh4dgYq9zicycCLRb7vySlfx6l6HuVmT8VVk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_012_e18299ba1c5f.png)
 
 图11和图12分别给出了3.3kV HyS模块和6.5kV HyS模块的布局案例。这些文献还验证了高压 HyS的高速开关特性,有望用于未来电网。因为高压芯片的电流普遍较小,普遍需要大数量芯片并联才能达到所需要的电流,其特性有待进一步验证。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPbtltbpQwZJrf5TXVhHrqLnGgAb02pEiaewsYwgSoLWyYsb0Jd7BrKVpY2SQKPteUc6Od3GmibP6tTdoqSxNsb7jJFpJ3podUXE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_013_ca30914a7fa2.png)
 
 5.基于 HyS的变频器  
 
@@ -112,25 +112,25 @@ HyS器件内部电流分配优化过程中经常使用SiC/Si配比参数,低配�
 
 第一例是 3.4kW无线充电用逆变器,如图 13所示,详细的设计和测试可参考文献\[23\]。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMbWCtX05814hYU6GVvzk0xc5Hgo1UbZIQFqYB0U4mPoTF1PnGL65MkH6f28T22TBFhzia7Ie9E283Sb4amj5OTmfQ6am8T2jAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_014_1fa9f7410277.png)
 
 该系统使用2个HyS桥臂模块实现H桥拓扑,运行于50kHz,峰值功率达到 3.4kW,部分波形如图14所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKzM42pMYlFaf0h792tKv4IuXoJ9BEwODIbhkPArLeicGnVOk8RAtyXQrRDNLnuwrhGGhg2IBvGUqlsavyPvIFBibLxGibTdZQtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_015_490bb5ab6372.png)
 
 在测试中 Si IGBT良好地实现了 ZVS,系统损耗较低。  
 
 第二例使用独立器件搭建了Boost变频器,如15所示。该系统使用650V的SiC MOSFET和 Si IGBT实现了1∶5的电流配比,运行于20kHz。该文献还对 HyS变频器的电磁兼容特性进行了测试和分析。相关电磁兼容的研究可进一步参考文献\[23\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNdFQ9Ff9gkET8Nib3w28rRqUPQB6SpNQpsKicNSRU9509VNTGyseXVEt4iaXy8AicNFiaB4OWWHNTJtNrjHylNicCrRZMMhBzsLiaayk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_016_7e54860aed68.png)
 
 第三例是采用强制风冷的三相逆变器,由 3个HyS桥臂模块组成,实现了30kHz开关频率,功率达到5kW,如图16所示。在后续的水冷升级版硬件中,该系统达到了15kW。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMwibBzRWOILo1NB6YReLOopwshbgqvU7EcU4hCyAcjunGZKibS27IZ1tnKhwxpEg30NibtBMyrWxV8UET9vhvzbwYoAV7cMQEW6I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_017_0ecc30b03709.png)
 
 第四例采用了三电平 T型模块,如图 17所示,由 SiC MOSFET模块与Si IGBT模块配合组成HyS,设计目标是100kW的变频器。文献\[17\]中对单相器件进行了测试,实现了28kHz和17.5kV·A运行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPIQ08p2XIiauo1Ds4TpnIduqxNBHuFA0IfPloeTgaZAoItFMqia97Y9qegyTXUEiabtEXIYJB5s4nlncib2aTDUIhcnHBpubvW124/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_018_900b0afaad4b.png)
 
 以上几个 HyS变频器都展示了 SiC/Si混合开关器件的优异特性,在SiC器件产品价格降低到接近Si器件之前,该类变频器有一定应用前景,特别是对于同时要求较高开关频率和中、大输出功率的应用。  
 
@@ -138,30 +138,30 @@ HyS器件内部电流分配优化过程中经常使用SiC/Si配比参数,低配�
 
 相比于纯SiC器件,HyS的最大优势来自成本。文献\[21\]中对比了现有SiC MOSFET和 Si IGBT产品器件的价格,分为独立器件部分和模块部分,如表3和表 4所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMNaOB5doxg3IlcTUSianZjLmlbrOeSvhxFyBCtIfqx5jnVC3KAntiaY6CIgQmkFS8L4G6ABNSVd8lPt9M8nMC87xSxOoUdBOAlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_019_caefcc2463f1.png)
 
   
 从表3和表4中可以看出同规格 SiC MOSFET器件的价格是 Si IGBT器件的 5~8倍,图18给出了更为直观的对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO1ZQ5N0Ju4gGatnWZmcRPo9bguRoyKnyotqbjUic3QtoGFXd68KCQgHsTjHSoVYVZbEaicCsicyicjk2IicUxpnUZJVCI6n1icrsWlU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_020_a92401b01a30.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNQJpQZDJMIPJUMialNWYczt6IqauWZxHLKkxLGaSswNPEvdj6OLNEXZugJOXiaDv30dYcFLKjc7ITictMEIhacRzeibY2DA6ib8d34/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_021_3d2cdcd70efb.png)
 
 对于中、大功率应用,单器件1200V/800A纯SiC MOSFET模块的成本为2500$左右,1200V/300A HP1封装的三相纯 SiC MOFSET模块成本为7000$左右,对于许多应用来说仍难以接受。使用HyS器件能够大幅降低成本,达到纯 SiC MOSFET模块成本的 1/4左右,如图19所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNeoBAXdL8nz5jN7k4W0Gn2VSNeXCgW6SSfjCyJc8RObicWul4FU4y9rLQCIsibv39QSmX0NkUnhFKgE3OsxcMsDsddDefUic4UsY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_022_df705e329c2a.png)
 
   
 文献\[25\]尝试使用更低的SiC/Si配比,达到1∶6,使HyS器件的成本更接近Si IGBT器件。然而这种配比缺乏相关散热验证,需要进一步验证变频器的性能。对于高压 HyS,成本预测结果与低压模块类似,高压混合器件价格如表 5所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPZTHQsUibtdcHFo2Qv9f7sODLEvicucrI8qcta8YzLEKhwQNZkAHBWw3XpzDfIY20qOJFYUEQCOSCbdddYRd5hHpyPs2sS5PJG0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_023_ec99a7706226.png)
 
   
 文献中普遍缺乏商业化高压 SiC芯片成本的准确数据,还需要在实际应用中进行核实。
 
 由于HyS需要使用更加高性能且复杂的门极驱动芯片,在讨论 HyS成本问题的时候应该注意包含这一部分。HyS所需门极驱动芯片的特点主要包括大驱动电流、高dv/dt抑制能力、短时间延迟、具有保护功能、具有米勒钳位功能等,一些常用驱动芯片的价格见表 6。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMfzORa7a4zdRKB7cu8kLFlDgLBpDt5KOLcrdiavzMBuRMw6OgODtIK86wL8cxgKEJQP7LERIhU0P1k8ZtVyzmCpHyEiaChkcuPY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_024_bb037c979bff.png)
 
 7.结论  
 
@@ -175,14 +175,14 @@ HyS器件内部电流分配优化过程中经常使用SiC/Si配比参数,低配�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpP1wmeD6ZeibjxCYvRy1KicgWLE4mHg9w4D0Ue6ZLNsXWojxic1N5EmdJdEFZhyVTS7w2wiazMqV6CwOxINDBK7uZBIThfqtKiafGA0/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_025_c7b5a85a99d2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOkpQ6ibIpYCiaby1S7zwV3aYn9BPVl2xq1OsXFrf610bL97HeetWXh2f5IN3OYGbckJLNG9WTWEcURxAJAOuwqbE8TdmFlcAszM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_026_30f8d240b47b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSMSTaicjqglxwF7KzHPiaUo4ibFcCMX97yplSP4Y1ECgqPI2sVVxknxChHqVtbQiaGBy8DFdkxmJ1rECKTQpSeaemb8ZEnKs6rSQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_027_a458570560bc.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXwU3DqFqV5ImV70wp5kIF2Um0PnictEm6C2UibEVI686UQicIB9ftI85dXialRkW0EEIbGQBrticgN4N9f9SKNmn2GcMqLibV1JSB0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_Si_IGBT__SiC_MOSFET_的混合开关器件综述_images\img_028_ee773ebf3670.jpg)

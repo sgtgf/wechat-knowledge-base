@@ -18,7 +18,7 @@ MOS管可以并联吗？当然可以，但是这里有一个最大的问题就�
 
 Rds(on)越小，电路的电流传导能力越强，发热和损耗自然就少了。咱们常用的方法就是把多个MOS管并联使用——这样相当于把它们的导通电阻"并联"起来，整体Rds(on)就能显著降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx08sF8F212oSQv95CxbhZkryFyX9kYoR3Q1KITWK3B839kQnokccGbNQ/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_002_26c5e0845353.png)
 
   
 
@@ -30,9 +30,9 @@ Rds(on)越小，电路的电流传导能力越强，发热和损耗自然就少�
 
 如下图，一个200A的管子单价4.51元，两个成本就是9.02元；而一个400A的管子成本为13.9。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0Ip2QPP4jLMmCXF3xenibYlQrFAKuppb1xbHtRpP2wdmliamsyjcRSq6g/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_003_43faa53a2676.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0TiclEm3Hf1iaVNG98Gs0eOTxp0PUdsfsBicQ8dSYxPXEHmicnrVYA9el7Q/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_004_6f07acea5f92.png)
 
 算下来一台设备可以节约4.88元。看起来相差不大，但如果量产几千、几万台设备，这个差价将会被无限放大。
 
@@ -60,7 +60,7 @@ Rds(on)越小，电路的电流传导能力越强，发热和损耗自然就少�
 
 当一个MOS管开始导通时，会在源极节点产生快速电压跳变，这个变化可能通过另一个MOS管的寄生栅漏极电容进行耦合，在栅极上引起振荡，甚至损坏驱动芯片或MOS管本身。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0tFCCyb076IfdgY1ZibZRCy1pxITTnzXg6EWMzyKCUTByLuANYsicEhyg/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_005_731b03f063b7.png)
 
 不必要的耦合路径，单栅极加电阻
 
@@ -68,7 +68,7 @@ Rds(on)越小，电路的电流传导能力越强，发热和损耗自然就少�
 
 因此，当 MOS管快速导通和关断时，可能在栅极节点上引起振荡，并最终损坏栅极驱动器或 MOS管。为了抑制这种耦合，每个MOS管应该在栅极与栅极驱动器的共享连接处之间放置一个单独的电阻器。这样可以防止电压脉冲耦合回输入端，引起振荡甚至损坏器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0uaGXBYYKwh54pmiaMlHdiaUK6X4B0ey0kXj7FSg1KkZKaa7vm27zRbxA/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_006_2ebb6ba7612a.png)
 
 改进后的电路，每个栅极加一个电阻
 
@@ -84,13 +84,13 @@ Rds(on)越小，电路的电流传导能力越强，发热和损耗自然就少�
 
 把MOS管尽量彼此靠近放置；保持栅极走线一致，直到接近MOS管（更大限度降低外部信号耦合对 MOS管产生不同影响的可能性）；各栅极走线长度要合理相近（虽没有要求完全一致）；栅极电阻放置位置不重要，但建议尽量靠近MOS管（以便限制信号在 MOS管栅极内外耦合的可能性）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0q3pPfd4ND9KFADoiaibq7bLN4zT783plPezaFkhfjgq5654VicjLjssZw/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_007_07fc78ff1d31.png)
 
 错误的栅极布局
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0WhhwD7CnXP5VvnMWBlWialSHGS5mCTIVgjB3qXdQnGdrtapqfhjyKjg/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_008_372c9e24f7e8.png)
 
 推荐的栅极布局
 
@@ -98,13 +98,13 @@ Rds(on)越小，电路的电流传导能力越强，发热和损耗自然就少�
 
 为尽可能同时开关MOS管，尽可能将MOS管的漏极和源极的连接尽可能的相似；漏极和源极建议使用多边形敷铜而不是走线，尽可能的加粗大电流通过的路径，便于电流相对均匀，放置分流不均引起另一个管子发热严重。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0ibLyhRDFzlvxq04S6iaUq4CJI9IQJsKF1R6r0iaJ3Ds1ibfea81RUCSoRg/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_009_ec61cb2ed1cb.png)
 
 错误的漏极和源极布局
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0g9IflQj7RdiaV15Wm5LibEIkH6TL36cuoMF3cceBSic22M8uUsaY42KRA/640?wx_fmt=png&from=appmsg)
+![](MOS管可以并联_但随便并联等于烧钱_images/img_010_63a7e6ef42e5.png)
 
 ## 
 
@@ -128,7 +128,7 @@ Rds(on)越小，电路的电流传导能力越强，发热和损耗自然就少�
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjAibVIhHVt3yXrTqSa9wZm2o7mRIXS1x2kJxib2Bo4pdzrliaNsgV2FIFkaLGt3czYuPRUGePz9AqTQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjAibVIhHVt3yXrTqSa9wZm23QZw7KqPdZ2z45x3C67iaphsb4aicwtqxubaHth4KtQXuS1DZgtUibRVg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)
+![图片](MOS管可以并联_但随便并联等于烧钱_images/img_011_dc74fdedef56.jpg)![图片](MOS管可以并联_但随便并联等于烧钱_images/img_012_071d2a9c610a.jpg)
 
 ## 
 

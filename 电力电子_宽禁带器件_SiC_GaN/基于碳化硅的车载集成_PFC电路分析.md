@@ -11,7 +11,7 @@
 
 **关键词：**车载集成充电；图腾柱；功率因数矫正；SiC
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHoUUWSr0sgRTDZWE12srVjAafhHAoN2Q67Aw8K4AibjW71LAt8VX9ibJw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_000_7f23df522e0f.jpg)
 
 随着能源问题以及环境问题的日益严重，以电能为主要动力来源的电动汽车得到了广泛关注。电动汽车通过电动机将电能转换为动能\[1\]。因此储能系统及动力系统是电动汽车的重要环节。目前常见电动汽车电池的充电器有两种：非车载充电器和车载充电器。非车载充电器功率等级高，适合于快速充电。其缺点是必须在固定的地点充电，因此不方便。车载充电器功率等级较低，适用于慢速充电。车载充电器的优点在于方便，在任何有电网的地点都可使用。其缺点在于增加了汽车的体积和重量。因此，小体积，轻质量的车载充电器是电动汽车的必然选择\[2\]。
 
@@ -23,13 +23,13 @@
 
 传统的车载充电器及驱动系统框图如图1所示\[10\]。充电时，首先电网电压通过 PFC 电路，将交流电转化为直流电，然后再经过 DC/DC 变换器供给电池包充电。对于驱动系统而言，电池电压经过 DC/DC 变换器转化为高压，然后再经过逆变器来驱动电机转动。充电系统与驱动系统完全分离。整个系统需要的半导体器件及被动元件较多，导致这个系统体积大、质量重、花费高，不利于电动汽车的快速发展\[11-13\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHiczNlLuSITEFeZFQBUibadibpXSNA9ujfQ2jZhPh5Bz0jAkcykMhAAfWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_001_52df83b1bf92.png)
 
 **1.2 车载集成充电器**
 
 车载集成充电器及驱动系统如图 2 所示。充电时，电网交流电压通过整流桥变为直流电压。然后通过复用电机绕组及逆变器实现功率因数校正功能。最后通过 DC/DC 变换器将电压调整到充电电压供给电池使用。驱动电机时充电过程将不会发生。因此，这种复用机制不会影响到电机驱动系统。通过复用驱动系统原件，充电过程将不再需要额外的器件搭建 PFC 变换器和 DC/DC 变换器，从而，减少了半导体器件及被动元件的使用，能够减小系统的体积，重量及花销。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHEqnQjaahJsCVbCCYMPoJDdic8XLyWOplGjsRbiciboTFkEMtibI0INdUxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_002_0af15a963ecc.png)
 
 **1.3 新型的车载****集成图腾柱PFC变换器**
 
@@ -37,7 +37,7 @@
 
 新型集成充电拓扑结构如图 3（b）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHcZkTL9nLcLjI8cwD8YdMLvvwt7bqZ96n76jzkun87hvRMUHDsLjFXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_003_2c1159c55770.png)
 
 由于电路结构非常对称，输入电压为正值或是负值电路的工作模态基本相似。该电路的控制信号也非常简单。每个半桥的两个开关管互补导通，同时带有很小的死区时间来防止整个桥臂的溃通。文中只对输入电压为正半周期时进行模态分析，输入电压为负半周期时只需调换开关器件的序号即可。当输入电压为正时，该电路有 4种工作模态如图 4所示。当脉宽调制信号（PWM）的占空比小于 0.5 时，电路工作的模态顺序为（a）\-（c）\-（b）\-（c）\-（a）。当PWM 的占空比大于 0.5 时，电路工作模态顺序为（a）\-（d）\-（b）\-（d）\-（a）。每个模态的详细介绍如下：
 
@@ -59,32 +59,32 @@
 
 该电路为交错并联的图腾柱结构，能够有效降低输入电流的纹波和总谐波失真（THD）。因此，该电路能够实现高功率矫正功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHIvicZQGkaOQbNa9nR1AoYINOczUeATVktc3ELnyHTItO4JWsNOWD96A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_004_ff5fc454d695.png)
 
 **2 仿真分析**
 
 为 了 验 证 方 案 的 可 行 性 ，特 利 用 MATLAT Simulink 搭建了仿真电路，并进行了输入电流和输出电压双闭环仿真分析。闭环控制框图如图 5 所示。内环为电流环，外环为电压环。一个 PLL模块被使用去产生输入电压参考信号。两个简单的 PI控制器被使用来实现好的动态性能。部分参数如下：输入交流有效值 vin\=220 V，输出电压为 Vo\=450 V，开关频率为f\=50 kHz，输出电容C\=1 000 μF，电阻负载R\=200 Ω，输 出 功 率 Po\=1 kW。仿 真 测 得 功 率 因 数 PF=0.98，THD=0.3。仿真波形如图 6 所示。从图中可以看出，输入电压与输入电流同相位。输入电流波形非常平滑，说明该电路具有很好的功率因数校正功能。同时，由于电压环的作用，该电路具有一定的调节输出电压能力。因此，该电路非常适用于电池充电系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHvODicyick2v7xJwdjNhXxeo6SqBFghiaGhfibOUZE4KoXwUGakLDNibJzZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_005_33529ee41f68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dH7EBickMSozb0n4z2icWuu4orhocO6EJZ5HlhYTrmibD4XibYxohhLdsseA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_006_5f1393eb0ea2.png)
 
 **3 实验分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHxZ7Dj7D1tbUStZEkrBmTLPtbC9jwpeRDJZMyiaYMrgU6VodapYcBsIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_007_3430f1711fc2.png)
 
 为了验证电路的性能，一个功率等级缩减的PCB 电路板被设计并进行了验证实验。实验参数如表 1所示。实验波形如图 7所示。从图中可以看出，输入电流波形很好的跟随输入电压波形，实验测得功率因数为 0.98。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHQibiakQWU0hibP8OjzupkkkOUZFvR1jYAoppuUj7TLZUX8SianURQk0MBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_008_ead9d6406114.png)
 
 **4 结 论**
 
 文中提出了一个新型的基于 SiC 的车载集成充电器电路拓扑结构。并对电路的工作模态进行了详细的介绍。该电路对电动车的驱动系统复用程度高，只需额外添加一个二极管半桥即可实现功率因数矫正功能。最后通过 MATLAB 仿真及实验验证了该电路的可行性。该新型电路图谱结构能够实现很好的功率因数矫正功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1ZXcN1QV4WY1ibcBVNd4dHeFZwPvGObtRP4IRJWMEaz16oabiapVuhbKgBuH4QE9AdNlC4Xib6BjOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_009_a3549a4ff4fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_010_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_011_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的车载集成_PFC电路分析_images\img_012_84aa944feb13.jpg)

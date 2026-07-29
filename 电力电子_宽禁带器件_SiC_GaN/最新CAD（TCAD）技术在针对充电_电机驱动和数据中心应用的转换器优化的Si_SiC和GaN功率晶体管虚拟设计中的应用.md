@@ -10,55 +10,55 @@
 
 Michael Schenkel, Keunsam Lee, Ricardo Borges
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsZuV9ZC0iab7QLnWup42lXXsUm6xVfF6oBGLyX6YByZJfJblRS7k8Ofg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_000_3ebf9c5b64ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsmZ6uajwdJzVbIyfkxOzbzsES5ic4w9gFFANzjOsZfTiapR0KmeV6iaPiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_001_849e83315e1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs3LSOKeSzuCED0knNKK8SIlonFOkZibJzG0ZfVP3JeI4xUeo9RbOHaVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_002_4dd1f15514b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsuDfAQXc5HOPS5S63NBIe1vianJcO8r4s03GWODMEiazhFcfk6gPtEvEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_003_97d1e69c5d13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsFcjB5bm1Co0tD1qfPkwNtqAibpVAfeuHAaKHibvHIgBibEFWQanicVEDzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_004_16179d829f49.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsYcic2lzib0vYia5930077Nel54UdYyUJiankV4ooEG3iaT6P2OcO2c9pXcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_005_bc60fce14e82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsKpSZKIKrI0spskgJB9zjAib49rjRHu0P4Q7eHvaUfLQ8NAby2fpjhyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_006_9fbe1e566a3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsKlnm3HaBU5owSpUgKlbEt7VTVnic9BkzZoib5NoGrSbM2WfABB0fRh4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_007_8fff8c46b2f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvskh3d7ibgVlyEkpM068iaKNMeO1L2SdhgCFFy7kXMfTDVVmDqfg4t0uSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_008_16fa80095f44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsBAl7DQMw6Sc4WqKWEhgcsibTtOibZSZvyTp5KUvnUo5ZTJKGwIzpzDcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_009_b42b24468b7d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsPrS4cRAVIOFh0sAre378UqCOHsx73EZAftaKM4dYZX51IvHDGssianA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_010_caec4d7df2fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsekpVhpG3rtPFOUqJsOD6Us8eiaGoSnWpT04a2uRiaA2FMT2bfE4nibYgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_011_8068d9109599.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsq19sU7zTH1NhxIaxOvtVBdcZicVUWMAn3HmHaAQynghzf8A2aHefQBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_012_182e0e3dcdad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsHA8YVI0PLkTpia4PticeiauPOb4Yz90s5DPqR9Ef4SFTznB6bAw4hZrkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_013_599afb0edbdb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs0AFmV5RMWga8dHq3OKbzR7MNicCUq0icJqI48683XVBGyjz8amM5vq9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_014_371284183b36.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsaIhJkVqNH0Ko5cHSFfJicR64ECYBVcg5MiaVqqUyZfJBKAzyHFhDepRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_015_4726e7ead5eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsy8feF2ymvMa4oL9ibKDKiab8Yn2PRSmibAxz7YLe6YDyCZLu8KD0XH4bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_016_50c6353e8242.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsibJQmeaHXBegibQZPRicndobSKaRoM0Fibwczuybfnzgm99Ijw9YZ40tww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_017_8476ed0411fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsW5fFmppelh1D6tJG8Jp2s43O0LibeOVumExnricM95eseSXNvjFjAT7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_018_7bdb81f75c24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvscXVeT38rWYgSq1ABnicEevIEyLHljB6tdBBkgnQgSia0saZT2nU8UXQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_019_bbd485ccfa3a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvseSyzuA4O2fXv5PRJndwMXHATXk0Va2efW00CxtCn7sHjf6NrPsvuDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_020_ff0ea9f64df1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs4yhmz87y3o6E5DuMKCzP3TQ36X8duwdjD7fkurziaXiaglSZR63LxyKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_021_3a9ef592956c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsuBkmWm3d593Tkx9uZw2DnmjqdR9jUiaPrwicSN1fh23qIfg8ky4b2UoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_022_d87452546240.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs6nhqAxXEWIkBZ9dP7ln9nbu4q9yDRRTyCOw0VXIAia1kJ1kWOpwCiahA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_023_2816098b286d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsKJgz6MCYtVq3V5hYFIPCRQmQYrkLGqhumicgIbFXyWNkDwNRmpORUxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_024_d99101fda1de.png)
 
   
 
@@ -181,13 +181,13 @@ TCAD 是半导体器件从 “经验驱动” 向 “机理驱动” 研发转�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=t77ao96h&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_025_070499dc7af3.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=mh06mxt7&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_026_e32863a160fd.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=zcsymlzn&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\最新CAD（TCAD）技术在针对充电_电机驱动和数据中心应用的转换器优化的Si_SiC和GaN功率晶体管虚拟设计中的应用_images\img_027_62e8e29ca3ec.png)

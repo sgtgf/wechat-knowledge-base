@@ -19,57 +19,57 @@
 
 **正文:**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicQk7U0pX1icicYN1Tm9cG56pKxfFzRDaXyeoLo6gQj7iaNnBkGfLOoRrww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_000_01d5e57b26b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicrx963oE1pF4JsGlEjbbo0heLRVYRMtesl9SbxIsV3oRtrDpFVAr0Kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_001_358a6a7dc587.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicLSnUWaCadic36kE8jZSgczXzpzPiaXa4frvkPicKN7XNa63nCMQ9ca4bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_002_38196329634d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicRoe49YZFbQEGywMyic879FVib6vg3ovseNIvnHJKp6ndMod67ntXmqpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_003_5120b0fa5c7a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicibTemAftpiboNzlNzOmvXU1qLxVBeQP5YnErfAUsXRw4zvzDLCR6JPzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_004_e288e49224be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicD9LJ5jn3j2lg9rQiaIeBP8Kq9WmsSrvAa5JWsHPvcDnCRTIdHqCtYjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_005_792cefee20e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicqQK3FAEFwXa4Yl4tiahF1UdTHxSS9wJVRQ6PyXbNuDwCvI0rBFI1ibSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_006_84adc0c92c3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicS6gSdPE3HzqV6YaicpGPhj8g6x53ZlD2GxZS3liamZO4evpw8JKJzDow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_007_ecad1cda495c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicyeAPe4icS8gFKKeR5WZmRA09thfvRVQoGEpvVgSNIEkmyg0qiclpm0Tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_008_e701fed72bb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicibnc4xOUz1k55o7wXPegvEeVhrVPEibUfm5pwr8cwIXxWWpd7OicShjkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_009_9e7d2fb53085.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicw8FIfkh5rFVaFF9gBrr3WeBW6Ukibj8pLicVa32QXxSNiaL5icguysDibMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_010_6e5043173e77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicl797lib90hCvXv3af2Zbpx5tmH7ypA01jtDfPs4TibPQ60OCIhYtES0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_011_8e6e0faf028f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicf4HxBiaL9BjMAPObz99ZHUt7kSHHaYzicNWfoib5PAJtB3jHpzsF40afQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_012_71cc1550c591.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUic8lib6Z5CdTuHtbqWX9alXT6lGiatwH9Fo7KE3mNiaAkbSXZx2VGkGNsKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_013_49e4f57e9a83.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicjWoc0MeQcx9HF5P5ZpdZvib1Eh95V6rZZO646DNKKK30uPNKoZ1o2Tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_014_7d459f028b44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicSr9MlsOiaJbliaRGf96u2icCkx0qVd7QvI7AHLREngPV9846qUS1r2sqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_015_348a9a66ea97.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicWCicSG3ibeRw7vB6szbdKibWU7SNJ1RnGxTtgics5cVMoW2yqm84kjlOibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_016_b561d58e8338.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUiceNbGh12AbtLSjQxE6O156FE0BuUbXu6icchsZcyoXOxgQAjknv5QZAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_017_83cad2d59e34.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicIlgSrGQxtHvPUhpYmhib2L9X9478fzVNgt0QiaaFDokYJ7icLgg5lHflw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_018_f5aea04599de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicH8TzicJ2ukLVtiaTMegicqZetZOniawINsb8qtkV2YFRYo73tkgeBGvy1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_019_ed49947146de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicVQFg1hCEzFmVRm6cZGttIfPfsibSRCKNwUUPwW402j9koyaoZBQhb0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_020_53a7033ff9ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicuPRGsf19NyhrG4lOFeTJdKYuSZKpUXiaEqxe6bmfI8cXmLG2jRj2Hzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_021_d2d4bae9109f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicChlL7H5LG31CAhEOaKZQ9L6iaP0kWuibftlm8nPsicYicX6GyXjH2hyf0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_022_bb594ce7fe0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicM4yt9sK8K63bvAC4hJcuGe4URhLyWSCdFwBMbdJ7tTdDtXPoOjNREg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_023_9bf3c8f3056e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicfU5n1zTSRiaXHAmDZbZmpicG7DwBCnibgtN28BkmE6OlgjgEneX3rJjRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_024_3031ab15ce5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVB4XPXoR0KnkYs9lAuSUicKkDQTDGf9AoBzMDibYYKxZZaPadsjibOqrjFAxXx29HnCUuEe3pUYpfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_025_590bef1ab2d4.png)
 
 图片来源：意法半导体
 
@@ -95,4 +95,4 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_026_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用STM32G4并基于碳化硅MOSFET适用于30KW充电电源的AC_DC解决方案_images\img_027_84aa944feb13.jpg)

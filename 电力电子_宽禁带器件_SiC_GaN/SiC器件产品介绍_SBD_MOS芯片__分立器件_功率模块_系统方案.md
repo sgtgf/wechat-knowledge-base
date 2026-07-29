@@ -39,58 +39,58 @@
 [10种封装的国产碳化硅(SiC)功率模块产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506538&idx=1&sn=4a8539ec965684adb8780f52e80b723b&scene=142#wechat_redirect)  
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=142#wechat_redirect)
 
-![图1](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEabKD5jnRAhRKibt6Y376rrSB7fcOspmF42jA7OgCGNj6Jsme0icqVc5Q/0?wx_fmt=jpeg&from=appmsg)
+![图1](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_000_074263acb0f6.jpg)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEOoJKs1xMTRyof2BibyiaJVBE0xlIGSiblo6VFibWAib8yyPkzIJ0LlzscqA/0?wx_fmt=jpeg)
+![图2](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_001_fea77c901f1b.jpg)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEGAxiaVwRJO9w1iaxZ6BFSicUxh0akuh6H1vTb5R0DC626j6Xx5G4Rr0Gg/0?wx_fmt=jpeg)
+![图3](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_002_fb498814512d.jpg)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE7BuefY1hm0g10mOJ4dRUd8p6zVt4xIysS1GxXJ8IdEa7qfQQicw4gXg/0?wx_fmt=jpeg)
+![图4](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_003_73da7af4eeda.jpg)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEKet9D73109p9t5kTbHl07AuWSERMlDROjYejCsIIsl64YbS273oiagw/0?wx_fmt=jpeg)
+![图5](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_004_fbc121e5cb48.jpg)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdErVHaQxENiaC2PUfCIl7FQfbOjIoxEL0dBKRa3URJTndpar5OuCtriagQ/0?wx_fmt=jpeg)
+![图6](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_005_fc04250c0712.jpg)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEFOAvkxeW48vxhpUqzNonQL2KyISQhsymUyicjicAGjTYGvVsoDw9Qticw/0?wx_fmt=jpeg)
+![图7](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_006_b5b29bb150f4.jpg)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdER7zMNeNAhvOy9zTkYjibHAUxBibM1qq0t8IhsKBb6phhyr2Io364oJhA/0?wx_fmt=jpeg)
+![图8](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_007_24e30b026cd2.jpg)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEYIWfIRiaoRR4HCxR80GMaKLBcHQVaNyT1GicspjqpwmwSU88xYOkbMPw/0?wx_fmt=jpeg)
+![图9](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_008_9742e79a85bc.jpg)
 
 图9
 
-![图10](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdENouia33GpUPAUDSGXyE9us38EMyjw0TpRuvKtAicG5k5VgubaocTb7Cg/0?wx_fmt=jpeg)
+![图10](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_009_8de1a961a090.jpg)
 
 图10
 
-![图11](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEwQGYe1a6ED7zhE6yzicGW3iaryaG8qeoPVV3fmw1Kn3DHED4QxicibznRA/0?wx_fmt=jpeg)
+![图11](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_010_02cb3cbef4e9.jpg)
 
 图11
 
-![图12](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdE3lLDlHqKDyBFdxQv7wcZU9MNibSKbU6PuiaXpopZaZNr0gAB9SPry9pA/0?wx_fmt=jpeg)
+![图12](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_011_3dcbcae2a949.jpg)
 
 图12
 
-![图13](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEE29x6qbiaHibfcPjES8nibPgc0SqGiaibfZGFoK0jPoKDqLroBibwUReBalg/0?wx_fmt=png&from=appmsg)
+![图13](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_012_163b92d172f9.png)
 
 图13
 
-![图14](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIM8ydwQvrlZXDkKpvXvdEExiczH2pn90uctYJTNwPTJ70Mc2C9BN1TGedDIT35k4e21FJpvWUzUA/0?wx_fmt=png&from=appmsg)
+![图14](SiC器件产品介绍_SBD_MOS芯片__分立器件_功率模块_系统方案_images/img_013_92c2a42d83cb.png)
 
 图14

@@ -23,19 +23,19 @@
 
 **1.1 电容器参数设计需求**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsBRsOMz3dVkp9ibGFsYrENBiav2yGgJZZqw75E8uKwEGeupjcvuuaBjyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_000_1d14121ada57.png)
 
 电容器容值需要根据电机驱动控制器的性能要求在设计阶段进行选择。电容器的设计与所需要匹配的电机驱动控制器有直接联系，确定电容器参数和电机驱动控制器系统级参数之间的函数关系，对于最高限度实现电容器的功能有重要意义。电机驱动控制器的电力电子拓扑和等效电路如图 1 所示，由图可知电容器和功率模块的连接关系。根据线性电路理论和电力电子学理论，可将该系统的动静态响应看作由动力电池构成的电压源和由电机三相绕组构成的电流源共同作用的结果，其中系统的动态特性主要由电流源决定，因此应用叠加原理对该拓扑进行简化，得到如图 2 所示的等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvshI1ysMk81ootRZ1dKicmqzfe2W8OdOaNHOK8jia2JJ29mWlnhEPTJklQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_001_1bf5985c4995.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvstxBHzy612nC45oQ6atGOGvaSQU5UGyl47iaftOd3meLsIZdiaFWZu3mA/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_002_98fca7db731a.png)  
 
 流入电容的电流在其两端产生了电压波动。电容器作用为：吸收逆变器输入电流中的纹波电流组份；平抑电容器两端的电压跳变。电容器关键设计参数为容值、额定纹波电流和杂散电感。通过对电容器作用的机理分析，对图 1 拓扑进行分析得到式(2)—(5)，可以获得电容器参数的设计需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvs3PrVPhTWL1o6Xicnz7icNfO2CY9uqZTvuFqdjaIXWwIlEZpb6LA08Hag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_003_f6def8501ae7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsmNFdX4Sz2EBjYhNfpkzzdibo3T8zcpNGtj2wUSXCImpFUEnj1fExICQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_004_5d1a1420d278.png)
 
 通过式(2)可知，iinv 中开关频次的高频谐波尽量多进入电容支路而非进入电池支路，需要容值使电容支路阻抗足够小；如式(3)可知，容值要足够大，使电容支路电流中的周期和非周期分量引起的电压波动满足电能质量要求。
 
@@ -49,19 +49,19 @@
 
 目前国内电动汽车控制器采用的电容器容值往往大于根据式(2)和(3)计算出的结果，主要是因为电容器需要满足吸收控制器输入纹波电流的要求，如式(6)所示。行业中通常用 C/I 值(用 kC表示)表征电容器提供纹波电流的能力。对于常规的薄膜电容器 kC在 3~7F/Arms 范围内。对于电容器吸收纹波电流的参数设计也转化为电容器的容值要求，即当前电容器的主要问题是纹波电流吸收能力不足，限制了系统工程师选用更小容值(从而更小体积)的电容器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvswuVSsZdf0icf2rs3eiaXhicBrxWyOxJfdB3QrKPoibOt9hDJtJYs0rxciaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_005_e55090f8ce0c.png)
 
-Rth 为电容器热阻。根据对该式的分析，得到了提升电容器吸收纹波能力的 3 种技术手段：通过新材料研发，提升电容芯子最高耐温；通过电容器优化设计降低电容器 ESR；通过新型电容器结构和封装设计降低电容器热阻。本文选择第 3 种技术途径，采用一种改进电容器封装结构，通过铝制壳体的采用和集成模块水冷散热器降低了电容器内部热点到环境的等效热阻，如图 3 所示。图 4 为典型的模块冷却用 pinfin 散热器，改进结构电容与模块共用此冷却结构。![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsyXRcMYicldPiaXVgibOMMHn1Iv6FIciaAO5Oe3C7xZfvZ0E1yj6TOwEiaicw/640?wx_fmt=png&from=appmsg)  
+Rth 为电容器热阻。根据对该式的分析，得到了提升电容器吸收纹波能力的 3 种技术手段：通过新材料研发，提升电容芯子最高耐温；通过电容器优化设计降低电容器 ESR；通过新型电容器结构和封装设计降低电容器热阻。本文选择第 3 种技术途径，采用一种改进电容器封装结构，通过铝制壳体的采用和集成模块水冷散热器降低了电容器内部热点到环境的等效热阻，如图 3 所示。图 4 为典型的模块冷却用 pinfin 散热器，改进结构电容与模块共用此冷却结构。![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_006_c4bb7d14e5fa.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsOvfxR7Jv2QCLXslncvjAD4MgVYaQdOyQHhfKWRSiaYTwrpkPAQ40oUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_007_1ce441a63e16.png)
 
 **3 仿真验证**
 
 本文通过仿真软件建立了普通封装电容器与改进封装电容器的物理模型，通过电容器的热仿真考核在相同电容芯子发热量、相同环境温度下 2 种电容的温度分布，以用来评估改进方案的优化效果。建立了包含电容及母排、散热器的模型。为减少网格数量和计算时间，将母排正负极板之间的绝缘膜忽略，同时忽略母排与电容连接处的结构。采用 CFDesign 软件进行仿真，选用两方程湍流模型进行计算，忽略辐射换热。电容器损耗为 2.98W，环境温度为25℃，改进电容器冷却介质为水，入水温度为 25℃，体积流量为 0.33m3/h，出口压力设为0KPa。实验结果如图 5、6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsrkDtFtX705pqGRmiaOCuh79z34myOnUthbTSxVmn8koY6KqNc4WMVrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_008_dd5fcba2c89c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsFJB9EVAMYBiaggNCUib80ia5q4YOpu8313YBzUich6EQM5Jtcb87kQLiaibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_009_a084e992218d.png)
 
 通过仿真发现，在相同损耗下，改进电容器平均温度较普通封装电容器平均温度下降 30.7%，电容器热阻(以仿真结果中芯子最高温度为计算基准)下降了 54.5%，可以看出，改进电容结构较普通封装结构，电容器的功率密度有很大提升。
 
@@ -69,33 +69,33 @@ Rth 为电容器热阻。根据对该式的分析，得到了提升电容器吸�
 
 **4.1 实验系统及测试工况**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsTKmdwHHfzzTdLxx1QywEibbO2Lf093zwoyiaCFZ8AWqjdZibe9PEiappnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_010_55663f814f19.png)
 
 本文通过数值仿真的验证证明了方案的可实施性，因此试制了电容器，容值 700F@100Hz，耐压 450Vdc，允许最大纹波电流有效值 180A(持续电流@20kHz，环境温度  85℃，无水冷)，如图 7所示。为了测试改进电容结构对于电容性能提升的效果，建立了图 8 所示的实验系统。实验系统包括测试电容器、高频电流装置、恒温水循环系统、温度采集系统、流量计。高频电流为电容器提供电流，电容器发热产生损耗，恒温循环系统为电容器提供稳定的冷却循环水，流量计用于测量冷却水流量，温度采集系统用于记录埋布于电容芯子间的温度传感器温度，其中温度传感器使用 Pt1000 热敏电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsOk2hAeTyQnukNSVbvGzicfFnS1LdkQ74WkxbHIdDib7nBrmzicCRGzx2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_011_a6e888d8798e.png)
 
 实验工况如表 1 所示，表中：I 为实验中输入电容器的纹波电流有效值；Tair 为实验环境温度；Twater 为冷却水温度；Qwater 为冷却水流量。工况 1为传统电容器封装后在自然冷却条件下运行，工况2、3 为在原有基础上改进电容结构，集成模块水冷系统，与模块共用散热器。实验通过监测电容芯子的温度值，在电容芯子允许最高耐温的条件下，测试改进电容性能提升的效果。测试电容器内部包含 8 个电容芯子单体分别编号为 1—8 号电容芯子，电容芯子分两列布置每列 4个电容芯子，在每个电容芯子上布置 6 个温度传感器，实验结果采用测试的 6 个温度点的温度平均值。如图 9 所示 1 号芯子 6 个热传感器埋布位置：1-1、1-2、1-3、1-4 号位于电容芯子高度的中心位置，在圆周方向布置，每 90布置一个热电阻，1-5、1-6号传感器位于芯子的正负极出线处，其他电容芯子布置与 1 号芯子相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvs7Mn0xJldIM2qTYGwM2ZXcIrzGn6RUn3ISDP8WqWzA3iavgsI7Jicia0XA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_012_b684e878d95c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsRqmiaOwWgqSMIGMj3JRHRMicI36C9Ouw8kbz23qibfT9uEHnYPNaJwWnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_013_4e1481fa7229.png)
 
 **4.2 实验结果分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvssgiaenlhteoe8gcicQZDxBibKzRarhgCcbyCBsvEZGNyKyuiaAs0TEJibDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_014_2d492b77cb2d.png)
 
 工况 1 和工况 2 输入电容器的纹波电流有效值相同，电容器产生的损耗相同分别采用自然冷却方式和水冷方式对电容进行散热，在稳态情况下得到每个芯子的平均温度如图 10 所示。实验结果表明：电容芯子内部每个芯子平均温度不同，芯子温度最热点存在于靠近在正负极接线柱处的芯子(即芯子6、7)处；工况 2(水冷方式)较工况 1(自然冷却方式)电容温度有明显降低。由于测试温度采集点较多，为方便进行数据对比，采用受干扰较少的 1 号芯子编号 1-1 的热敏电阻测试值进行对比及实验过程中芯子最高温度值进行分析，结果见表 2。通过对比可知，以最高温度计算热阻对比，采用水冷方式较自然冷却方式，热阻降低了 72.4%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvscFQkQWCo0E4H1rzePBLHqAhpCgM5omDcxUe2u3fHorpDXvQUN27sDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_015_28e169ad3ff8.png)
 
 以 1 号芯子编号 1-1 的热敏电阻测试温度为基准，采用自然冷却方式和水冷方式调整电流值，使两种工况 1-1 号热敏电阻阻值(稳态温度)基本相同，结果见表 3。根据测试结果，电容器吸收纹波能力从 180Arms 提升到 398Arms，水冷较自然冷却纹波电流提升了 2.2 倍，kC从 3.89F/Arms 降低到1.76F/Arms。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsHNmgyuLCNxz9q1Lw4JCTb1kVQoEAtWGv63CN6Pyfce3LqsSZKbldtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_016_bb3c31b2e9ff.png)
 
 将本文试制电容器与国内外多家电容器供应商的典型产品性能参数进行对比，如表 4 所示。可以看出，本文试制电容具有最高的 C/I 值，即最高的纹波电流提供能力，比容量普遍低于对比产品，这是由于该电容器采用了具有抗振动冲击能力的带有加强筋结构的金属材质壳体，同时带有安装孔位。体积因此大于常规产品的塑料壳体。但这种设计不再需要在电容器外再增加一重控制器壳体的保护，兼具了控制器壳体的功能，体现了结构复用的设计理念。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvsBOoB7CZZZWGb3MZDGNFtjLTzsQF2oURkNpViaTcdqBMNKPE4pLLqr4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_017_e22f33ac8730.png)
 
 **5 结论**
 
@@ -105,10 +105,10 @@ Rth 为电容器热阻。根据对该式的分析，得到了提升电容器吸�
 
 制造与 SiC 模块共用冷却系统的电容样件并进行测试。结果表明，改进封装电容器在相同损耗下较普通电容器热阻下降了 72.4%；吸收纹波能力从180Arms 提升到 398Arms，纹波电流提升了 2.2 倍。与国内外多家电容器供应商的典型产品性能参数进行对比，改进电容器具有较高的纹波电流提供能力。通过测试同时还发现，电容芯子不同的位置温度分布存在差异，为以后优化电容器芯子内部排布提供思路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvshgicPiaEfkdGicSQQ6jy8fQ0bB7cntXmOQibxv6svZXy5PDwYHmE8INWyQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_018_bbfd3e8fe2d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_019_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_电机驱动控制器用金属化膜电容研究_images\img_020_1241954b1b67.png)

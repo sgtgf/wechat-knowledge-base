@@ -5,7 +5,7 @@
 
 作者：薛亚飞（西安理工大学）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG7hSxAMLibd8WoE1YRibPCfQkAugic6e3xMf8Lud30HEgk1tLZibWqDvg4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_000_d944eee5580a.png)
 
 1\. 绪论
 
@@ -15,7 +15,7 @@
 
 随着技术的不断进步以及应用场合的不断扩大，硅（Si）功率器件性能已经逐渐不能满足应用需求。近年来，以碳化硅（Silicon Carbide，SiC）为代表的第三代宽禁带半导体材料的出现，为器件性能的大幅提升带来了机遇。大家普遍认为SiC材料是目前适合大功率、高频、高压和高温应用的综合性能最优越的材料。随着Cree公司向市场上提供了1700V电压等级的SiC MOSFET（Metal-Oxide-Semiconductor Field-Effect Transistor）模块，GE公司在用于汽车的 SiC MOSFET 和 SiC 二极管也有了很大的市场，行业专家们都开始预测这种宽禁带半导体将有很好的市场前景。Yole 预测到2023 年SiC功率半导体市场规模预计将达14亿美元。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGP4avkdq0XsfPSaibAvUjLc6FShc2JcFtqCic7fBibxglibmIJJ2YWQh7dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_001_9c8963e38543.png)
 
 如图 1-1 所示，SiC 材料与 Si 材料相比，具有高能带、高饱和速度、高导热性和高临界电场强度等特性，是高频、高温、高功率密度场合的理想选择。SiC 材料的禁带宽度约为 Si 材料的 3 倍，这决定了 SiC 器件可以承受更高的电压，同时，由于禁带宽度高，SiC器件的本征载流子浓度低，高温下的稳定性更好；SiC 材料的临界击穿电场强度更大，表明 SiC 器件可以作为高压大功率器件；SiC 材料的饱和漂移速度更高，更适合高频应用；SiC 材料的热导率约为 Si 的 2~3 倍，可以满足温度更高的应用场合，减小散热器的体积和成本，提高功率密度。得益于 SiC 材料的固有特性，新一代SiC 功率器件提高了应用能效，同时也提高了工作温度。
 
@@ -25,7 +25,7 @@
 
 目前，SiC 功率器件已进入应用推广和大规模商业化阶段，其中发展最好的是SiCMOSFET，它在智能电网、航空航天、新能源发电和轨道交通等领域应用越来越普遍。效率和功率密度是系统应用中人们关注的重点，SiC MOSFET 作为第三代宽禁带半导体的代表性器件，具有低饱和压降和低开关损耗的优良特性，让我们离目标又靠近了一步。SiC 材料的高耐压意味着同等电压等级的功率器件，它可以做的更小；高温特性好就可以减小系统散热器的成本和体积；开关频率的提高则可以提高系统的运行效率以及减小系统中电感、电容等元器件的体积。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGcRj7nx3bX2TThbg1ibicf010AtzNreN9jOgwUDzTicnkYaz4Zib6mBsibTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_002_dfad066c1c49.png)
 
 如图 1-2 所示，目前 SiC 器件广泛应用于风力发电、太阳能发电、轨道交通、电动汽车、特种电源、数据中心等场合。新能源电动汽车代表着环保、代表着未来的出行方式，它的发展带动了电池技术、充电技术的高速发展，电动方程式也随之兴起，同时，Yole分析师揭示汽车制造商在未来 5 到 10 年内采用碳化硅。总的来说，SiCMOSFET由于具有高频、耐高温、低损耗等优点，它必然会克服 Si IGBT 在高频大功率电力电子应用场合的不足，成为中高压电力电子系统的首选功率器件。
 
@@ -83,19 +83,19 @@ SiC 器件的研究主要包括 SiC 芯片的设计、DBC 布局的优化和封�
 
 SiC MOSFET 作为功率开关管，其优势主要体现在耐高温、耐高压和高频特性。传统的 Si 基功率 MOSFET 虽然也有很多优点，但是由于它在导通时不会出现电导调制效应，其导通电阻相对较大。为了提高 MOSFET 的功率特性，功率MOSFET 发展的主要目标是解决功耗和耐压之间的矛盾。但是，Si 基 MOSFET 由于自身材料的限制，很难达到这一目标，所以新材料器件成为突破口，SiC MOSFET 可以在保证低导通电阻的情况下达到高耐压，甚至可以达到 6500V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGZn8GuH4lwSYQeQH8sbeibI80gU4stlZdA9Gohwf63u2RSpEOaJ8EjxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_003_95bd8f220f20.png)
 
 如图 2-1 所示为 SiC MOSFET 的器件结构示意图，可以看出，源极和漏极分布在上下表面，电流在垂直方向流动，这样的纵向结构有助于减小面积并提高器件的耐压值。对于芯片来说，面积增大可以降低导通电阻，但会增大开关损耗。
 
 SiC MOSFET 的工作原理与普通 MOSFET 类似：①当栅源电压Vgs≦0 时，栅极下方的 P 型区表面多子为空穴，即使在漏源极之间加上正电压，P 区也不会有载流子移动，器件保持关断；当栅源电压 Vgs>0 但小于阈值电压时，栅极下方的P 型区表面还没出现反型，器件依然关断。②当 Vgs 满足阈值电压 Vth时，栅极下方的 P 型区表面就会形成N型导电沟道，只要给漏源极之间加上正电压，就会出现漏极电流 Id，此时SiC MOSFET就会处于导通状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGmxUVNiauqxt57zOAzicb46M7jzF2k9icDg7ZRicl5l4KzWKysdfbtJ4Ngw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_004_951e2a5cc76b.png)
 
 如图 2-2 所示，为本文选用的 CREE 公司的 CAS120M12BM2 SiC MOSFET模块及其内部电路图，可以看出里面是一个半桥结构，上下管的漏源极间有反并联二极管，该模块封装有功率端子和辅助端子，前者来承受高压大电流，后者起对器件的控制作用。
 
 1）转移特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGwTge7N8qsSsTNI4c8kY1zORSFJC8b0CasQQUb1Bu3k6JaibAs98dViaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_005_eb2908331cbd.png)
 
 SiC MOSFET 的转移特性是指漏极电流 Id和栅源间电压Vgs 的关系，表明栅源极电压对漏极电流的控制能力。如图 2-3（a）所示为 SiC MOSFET 的转移特性曲线，其斜率称为跨导 gm，该曲线与横轴的交点即为器件的阈值电压 Vth，可以看出随着温度的升高，阈值电压呈下降趋势。  
 
@@ -105,11 +105,11 @@ SiC MOSFET 的转移特性是指漏极电流 Id和栅源间电压Vgs 的关系�
 
 3）C-V 特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGnS7iaia1qvUdericryJibYK4oBR21tqkLpx0v1xgDu1n6ibLsu18g6OeJaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_006_446c59558b30.png)
 
 SiC MOSFET 的寄生电容会影响器件的开关过程，如图2-4 所示，为CAS120M12BM2数据手册中的 C-V 特性曲线，描述的是器件寄生电容与漏源极电压的关系。可以看出，输入电容 Ciss基本维持不变；输出电容 Coss 随 Vds增加而变小，斜率较为平缓，在Vds≈400V之后趋于常数；反向恢复电容 Crss在 Vds<20V 区间变化剧烈，之后就趋于平缓。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGByCfrAOW4Ff4rvL6pakqqwS2TRGTSmbMR8KnDer5RCzdAIiczJOrXSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_007_6a0e2a0d5297.png)
 
 SiC MOSFET 的电容关系如式（2-1）所示，可以看出，因为栅源极电容Cgs 由栅氧化层电容主导，基本不受漏源电压 Vds 的影响，且数值比栅漏极电容Cgd 大很多，所以曲线上表现出输入电容 Ciss在 Vds变化时基本维持不变；漏源极电容Cds和Cgd实质上都是是器件寄生 PN 结的结电容，前者是漏源极之间，受漏源极电压影响；后者是栅漏极之间，受栅极电压和漏极电压的影响，因此，在曲线上表现为 Vds在20V 之内变化剧烈，漏极电压的变化引起了栅漏极电压极性的改变。
 
@@ -117,7 +117,7 @@ SiC MOSFET 的电容关系如式（2-1）所示，可以看出，因为栅源极
 
 深入理解 SiC MOSFET 的开关过程，是器件应用的基础，包括驱动保护电路的设计及各种场合的应用。SiC MOSFET 的开关过程与 Si IGBT 类似，同属于压控型器件，现在将它的开关过程细分为八个阶段进行介绍，如图 2-5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGpc5a5ybrHJ1glODlibFkrGHs5fUKiaYhkPDcYgRvXbs6aK2mKcHCTnRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_008_0b97b4bbf4b9.png)
 
 1）开通过程
 
@@ -125,13 +125,13 @@ SiC MOSFET 的电容关系如式（2-1）所示，可以看出，因为栅源极
 
 阶段 2(t1-t2)：在 t1时刻 Vgs开始满足 Vth，SiC MOSFET 的导电沟道打开，漏极电流Id从零开始上升，t2时刻 Id达到最大值。电路中由于寄生电感的存在，变化的电流会在该电感上感应出电压，从而导致 Vds下降。在这期间，电流的上升斜率近似为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGY4UicricnTg8B4TBLBSicE9e1ZsSQKIyIQt4IT0ibBicew0LiaSe0pjOvh2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_009_c3787c33d828.png)
 
 其中，gm是跨导，Ciss是输入电容，Rg,on是栅极开通电阻，Ls是源极电感。
 
 阶段 3(t2-t3)：从 t2时刻开始，Vds开始下降，Vgs 出现米勒平台，直到Vds下降到通态压降时，该阶段结束。在此期间，电压 Vds的变化斜率为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGnuos4rib2IkvQH4xiaow5nfDBWGrsvs6DbJwxibgIibT3my5rN4DQMhTlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_010_db37a78d7bda.png)
 
 式中，Cgd是器件的栅漏极电容，VMiller是器件的米勒平台电压。
 
@@ -145,13 +145,13 @@ SiC MOSFET 的电容关系如式（2-1）所示，可以看出，因为栅源极
 
 阶段 6(t6-t7)：在此阶段，Vgs 维持米勒平台电压 VMiller 不变，Vds 从通态电压升至母线电压。由于 Vgs 不变，故 Vds变化速率不变，可近似表示为下式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGOBFUhHM6mdrKt2Sic4nCxkfhkQVtgQmhKJTGfLrAW31jEjiaRD3CfiajA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_011_c83247899ab8.png)
 
 其中，Cgd是器件的栅漏极电容，Rg,off是栅极关断电阻。
 
 阶段 7(t7-t8)：从 t7时刻开始，Id开始下降，由于电路中寄生电感的存在，变化的电流会在该电感上感应出电压，从而导致 Vds的过冲。在此阶段，Id斜率可近似为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGTsaLO0ZAPicuhtY2z4Y1dK5rcxkVzQRvHpiccMyCeXmW8lAvV2Xea5Pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_012_5ca3af6e7814.png)
 
 阶段 8(t8-t9)：该阶段 Vgs 由 SiC MOSFET 的阈值电压Vth逐渐下降至负压。
 
@@ -165,7 +165,7 @@ SiC MOSFET 的电容关系如式（2-1）所示，可以看出，因为栅源极
 
 在表 2-1 中列出了 CAS120M12BM2 的关键参数，它们的具体含义和应用时的注意事项解释如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGbgQThTFsABkYqhqjlL1rPBHDwsrGOHSNEapibFuLHIjugT5Ygx8q18w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_013_17d22a41d4d6.png)
 
 ①VDSmax：漏源极允许的最大电压，在栅源极回路短路时，漏源极之间的最大阻断电压，超过此值器件可能会因过压而损坏。
 
@@ -199,7 +199,7 @@ SiC MOSFET 的电容关系如式（2-1）所示，可以看出，因为栅源极
 
 SiC MOSFET 由于其高开关速度和低开关损耗，被视为Si IGBT 的一种替代品。为了充分发挥 SiC MOSFET 的优势，SiC MOSFET 的驱动电路需要满足一些特殊的要求。首先，SiC MOSFET 和 Si IGBT 有相似的驱动方法，当然，由于性能的差异它们之间也存在区别，SiC MOSFET 的栅极耐压不对称和寄生电容小、开关速度快等特点，给驱动电路的设计提出了更大的挑战，其中最大的挑战是需要克服由开关过程中过高的di/dt，dv/dt 导致的 EMI 问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG7QDBSlicb7Q9zJWDrUFdia380N6vaicLSibHMcr1R83hXHq9IZmpLmoEPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_014_cc85d1a791d4.png)
 
 在表 2-2 中列出了 Si 功率器件和 SiC MOSFET 的栅极驱动差异，从表中可以看出，SiC MOSFET 的设计要点（相较于 Si 功率器件）有两个：①驱动电压（栅极极限耐压）不对称，其饱和导通需要提供更大的栅压；SiC MOSFET 的最大负向耐压小，内部栅极电阻大，在有干扰电流时，容易造成误导通或栅源极击穿。②SiC MOSFET 功率模块的寄生参数更小，开关频率更高，对驱动器的设计要求更高，在高速开关情况下，必须要处理好器件的开关损耗及死区设置问题。
 
@@ -213,7 +213,7 @@ SiC MOSFET 由于其高开关速度和低开关损耗，被视为Si IGBT 的一�
 
 在开关频率较高的场合下，必须充分考虑开关频率对驱动功率的影响，栅极平均驱动功率 PAV可由式（2-6）得。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGZCHJ3NPSQQW6ecal4FkdicXt3zLLicsQ1bibXb2pPq4RBgj3OuDljIqDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_015_9e9a09a686eb.png)
 
 式中，ΔVgs 表示栅极正负压之差；Qg代表栅极电荷；fs是开关频率。
 
@@ -221,7 +221,7 @@ SiC MOSFET 由于其高开关速度和低开关损耗，被视为Si IGBT 的一�
 
 2）栅极电阻选择
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGwN8HbMsEkAW2A0uiaYgskdq4plOicxhz0BcovTP3EZ97zPqvt2QmMHoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_016_37f8866590d6.png)
 
 栅极电阻的大小直接影响着器件开关过程中对输入电容的充放电速度，如表2-3所示，选择较小的栅极电阻虽然可以减小器件的开关时间、降低开关损耗，但同时也带来了开通电流尖峰、关断过压尖峰以及 EMI 等问题。因此，选择合适的栅极电阻对器件的开关特性尤为重要，需要选取合适的阻值来尽可能取得上述问题的折中。
 
@@ -233,7 +233,7 @@ SiC MOSFET 由于其高开关速度和低开关损耗，被视为Si IGBT 的一�
 
 大功率器件的成本比较高，故发生故障后造成的损失也巨大，尤其是大功率的SiCMOSFET 模块，它的价格十分昂贵，保护器件的安全便显得十分必要。对于功率器件来说，最常见的失效模式是由于过流引起的热失效，这会造成器件的毁坏，其中，最常见也最危险的就是短路。这时候，对短路状态的检测和器件的安全关断便显得尤为重要。本文对 SiC MOSFET 的短路采用 Vds退饱和检测，在检测到器件发生短路后，采用大电阻对其进行关断，从而保障器件的安全。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGkiacWdO03yumljDcI8ukb9aJuEmveianwHFk8lhjvNIJCzOgJJoavk9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_017_f648296b7226.png)
 
 如图 2-6（a）所示，SiC MOSFET 完全开通后，它的饱和导通电阻Rdson基本保持不变，此时当器件流过电流 Id时，漏源极会出现一定的压降 Vdson=Id\*Rdson，这个电压与电流成正比，因此该电压就可以反映 SiC MOSFET 的过流情况，利用这一特性，可以对器件的电流状态进行检测并实施保护。但在器件开通时，电压的下降需要时间，不同功率等级的SiC MOSFET，其开通时间不同，因此存在检测盲区。如果器件一开始就处于短路状态，在检测盲区内不能实现保护，这会威胁到 SiC MOSFET 的安全。如图2-6（b）所示，为本文的保护电路框图，来实现 SiC MOSFET 在短路情况下的关断保护。
 
@@ -245,7 +245,7 @@ SiC MOSFET 由于其高开关速度和低开关损耗，被视为Si IGBT 的一�
 
 接下来，将详细介绍可变栅压门极驱动结构的电路组成和工作原理，该驱动电路主要由三部分组成，如图 2-7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGtM5V2LZLSl1QVMOn7PNcZ9ibrIkzzibcsu6KTkDEHAvN1V2BGibWIwMvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_018_0f243689d82d.png)
 
 （1）电源部分：24V~24V 的隔离 DC-DC；24V~20V 和24V~5V电源；
 
@@ -259,7 +259,7 @@ SiC MOSFET 由于其高开关速度和低开关损耗，被视为Si IGBT 的一�
 
 SiC MOSFET 器件数据手册中给出的推荐栅极驱动电压是+20V/-5V，因此在本文中，选择+20V 和+5V 作为驱动电源来产生四个栅极驱动电压（+20V，+15V，0V和-5V），所以利用+15V 和 0V 作为中间电压值来优化 SiC MOSFET 的开关过程。如图2-8（a）（b）所示，开通时栅极控制电路由两种工作模式组成，分别产生+20V 和+15V的栅极驱动电压。通过打开开关 Q1和 Q4来实现+20V 的电压；通过打开Q1和Q3实现+15V的电压。同样，用两种工作模式来控制关断过程，如图 2-8（c）（d）所示，通过开关Q2和Q3、Q4的组合，在关断过程中实现两个栅极驱动电压（即-5V 和 0V）。可变栅压门极驱动结构可以在开关过程中动态调节 SiC MOSFET 的门极电压，从而缩短开关时间、减小开关损耗、减小电流尖峰和电压尖峰、抑制 EMI，优化其开关特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGfbktvk6JAtA2LGM1ux32TONXRptoV1ob3R6fpuHtNZ8QNQNzWePmvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_019_d092cbe308a2.png)
 
 2.3.2 可变栅压门极驱动的工作原理
 
@@ -267,7 +267,7 @@ SiC MOSFET 器件数据手册中给出的推荐栅极驱动电压是+20V/-5V，�
 
 1）动态开通过程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG7j9F6LIUOjsN2rzMz1CAHLJIPEfLCplmoTcEIggEutkPtKMfIpb6CA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_020_4e75a08610bd.png)
 
 图 2-9 描述了 SiC MOSFET 的动态开通控制过程，当输入PWM信号在t0变为高电平时，控制 Q1和 Q4开关闭合，为 SiC MOSFET 提供+20V 的高栅极驱动电压，然后，产生高栅极电流对输入电容 Ciss=Cgs+Cgd进行充电，栅源极电压Vgs 开始上升。当Vgs 在t1时刻达到阈值电压 Vth时，器件开始导通，漏极电流 Id 开始上升。在时间延迟td1之后，Q1和Q3 开启，用较低的正栅极电压+15V 来减缓电流、电压变化率。一段时间后，Vgs 达到米勒平台电压，漏源极电压 Vds开始下降，并且由于二极管的反向恢复特性而产生电流尖峰。在 t3 时刻时，Q1和 Q4 开关重新打开，Vgs 再次恢复到+20V。最后，SiCMOSFET在t4处完全导通。在器件开通期间，电流变化率 di/dt 和电压变化率dv/dt 的表达式如式（2-2）和（2-3）所示，可以通过施加不同的正栅极驱动电压来调节开通过程中的电流和电压变化率，进而抑制开通电流尖峰。
 
@@ -275,7 +275,7 @@ SiC MOSFET 器件数据手册中给出的推荐栅极驱动电压是+20V/-5V，�
 
 SiC MOSFET 的动态关断控制波形如图 2-10 所示，当PWM信号在t5变为低电平时，Q2和 Q3开启，产生-5V 电压通过 Roff对 Ciss 放电。Vgs 从+20V 开始下降，直到它在t6下降到米勒电压，Vds开始迅速上升。在延迟时间 td2后，Q2保持接通后，Q3关闭，Q4导通，产生 0V 电压直到 Id在 t8下降到零。在此期间，由于 Id的快速下降和回路中存在的杂散电感，Vds 会产生电压过冲。在 t8之后，再次打开 Q2 和 Q3开关，产生-5V的栅极电压，以防止关断状态下 SiC MOSFET 的误导通。在器件关断期间的电压变化率dv/dt 和电流变化率 di/dt 的表达式如式（2-4）和（2-5）所示，可以通过施加不同的栅极驱动电压来调节关断过程中的电流和电压变化率，进而抑制关断电压尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGuSV31NH7VOoXMMwphGsJiaxib6xH2s4Pxu5EhdZnAYtvxU5UBXlHlXmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_021_d41b2ed4defc.png)
 
 该驱动结构相对于传统驱动结构的优势：
 
@@ -297,7 +297,7 @@ B.可以动态调节 SiC MOSFET 的工作状态，更精细化地控制器件的
 
 SiC MOSFET 并联均流问题主要包括静态均流和动态均流，静态均流是指器件在导通状态下的电流分配；动态均流则是指器件在开关过程中的电流分配。在大电流的应用场合，如果直接使用大功率的模块，以 SiC MOSFET 为例，如表3-1 所示，相同电压等级下，电流等级越高价格越贵，且货源越稀少。在器件出现故障的情况下，维护成本越高，甚至采购不到同型号的器件。因此，较小电流等级器件的并联扩容便显得十分经济且灵活。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG8IMHdSzQhYZDyOd7icKSasKZxRdKBLsu4lvydjsADnhwMdxalib1h8Xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_022_4a36234ff20f.png)
 
 但是并联时不可避免地会出现支路电流的不平衡，这必然导致功率器件更大的降额使用，这样就造成了功率器件性能资源的浪费且会增加并联的数量，提高了成本；同时，电流不均可能会引起电流、电压振荡或者是并联支路的某个器件承受较大的电流，严重时可能会超过器件的安全工作区，引起功率器件失效，进而威胁到整个系统的安全，因此，对并联均流的研究十分必要。
 
@@ -313,7 +313,7 @@ SiC MOSFET 并联的降额率会随器件参数分散性的增大而增大，由
 
 器件的导通电阻 Rdson 主要影响并联 SiC MOSFET 的通态电流一致性，也就是器件的静态均流，并不影响器件的动态电流均匀性，换句话说，并联Rdson不同的器件，开通时电流一致，开通过程结束后 Rdson大的将获得较小的通态电流。导通时器件的电流和导通电阻的关系如式（3-1）和（3-2）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGsDW5Tm3Lpxjzmib5vIzK1DxV6Bib7KnHQmU5gyvwLtMq32muxx0cNt6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_023_139efc480cca.png)
 
 式中，I1、Rdson1为支路 1 中器件的电流和导通电阻；I2、Rdson2为支路2 中器件的电流和导通电阻；IL则为总的负载电流。
 
@@ -329,17 +329,17 @@ SiC MOSFET 并联的降额率会随器件参数分散性的增大而增大，由
 
 接下来将会用到 LTspice 的电路仿真来辅助分析，具体的仿真电路如图3-1 所示，可以看出该电路基于双脉冲测试电路，将双脉冲电路中下管用两只SiC MOSFET并联来代替，SiC MOSFET 模型由 SiC 器件供应商 CREE 官网提供，型号为C2M0160120D（需要说明的是：由于官网上没有提供 CAS120M12BM2 的模型，这里仿真所用的SiC MOSFET型号与第五章实验所用器件型号不同，但这里只进行规律分析，该模型满足需求），而且图中画出了并联支路上的多种寄生参数，包括共源极寄生电感Ls、漏极寄生电感Ld、公共回路寄生电感 Lp以及驱动回路的寄生参数，接下来进行具体分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGQDzeKurW65MlPiaE1VuAknahvB0e8OI1fsLiccjoT4zYPaSn7CGchqJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_024_382dc32ecc0a.png)
 
 1）源极电感 Ls 
 
 在 SiC MOSFET 模块并联应用时，共源极寄生电感 Ls是影响电流均匀性的关键参数。如图 3-2 所示，其中展示了 Ls与栅极电压 Vgs 的关系，可以看出Ls对Vgs 有负反馈作用，因此它主要影响并联 SiC MOSFET 的动态均流特性，而对静态均流几乎无影响，因为器件导通后电流变化率 di/dt 非常小，在 Ls上产生的压降也很小，所以在通态条件下不影响分流情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGNX83KVFkR1ddLp2NqeLXZJIiaVNJhoqA43fESsialq04xbvECYoMdFAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_025_4c81bc4e5a68.png)
 
 在饱和区，两条支路的电流差异可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGLD89WMtTnyESibyzUXpdD6AaNProrCyibibSfDIqxaGScmXWZFOzDzxNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_026_40fbb74f2df6.png)
 
 其中，gm 为器件的跨导，iL 为总负载电流，id1、id2为两条支路的电流，Ls1、Ls2为两条支路的源极寄生电感。
 
@@ -347,35 +347,35 @@ SiC MOSFET 并联的降额率会随器件参数分散性的增大而增大，由
 
 在 LTspice 仿真电路中将两条并联支路上的 Ls 设定为不同的值（Ls1=1nH，Ls2=10nH），仿真结果表明 Ls 对静态均流无影响，主要影响开关过程中的电流均衡，如图3-3所示，影响结果与上边的理论分析相吻合，Ls 较大的支路开通更慢，Ls较小的支路电流产生更高的电流尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGibhNEIFBV2FQiceEiaejFC1lO0ico05lB3GRHB6RuyibhaznWsMJ2aCyXwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_027_e9e96ccbcee7.png)
 
 2）漏极电感 Ld
 
 漏极寄生电感 Ld 同时影响并联的静动态均流，首先来分析它对开关过程的影响。漏极电感 Ld和二极管的寄生电容 Cp形成谐振电路，在导通后的短时间内引起振荡，振荡频率可表示为式（3-4）所示；同时，SiC MOSFET 的导通电阻Rdson与支撑电容的等效串联电阻 RC作为阻尼电阻，阻尼系数如式（3-5）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGqu86NPb2Qx4mlBMSQ9SF3VfcBea8YnU8kOnJlr1JibgyJ7y8H5Vx3HA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_028_793bcc788c9c.png)
 
 在关断过程中，SiC MOSFET 的漏源极寄生电容 Cds会进行充电，在关断后的短时间内，Ld 和 Cds 形成谐振电路，振荡频率如式（3-6）所示；此振荡的阻尼电阻是二极管的等效电阻 RD和支撑电容的等效电阻 RC，阻尼系数如式（3-7）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGjc6pJ7vN3MPpvOhl67Y05qTCSkFv5xVcOUxr4REewkviceEicefrWiagg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_029_afea941d055f.png)
 
 可以看出，漏极寄生电感 Ld 主要影响器件在开关过程中电流上升/下降之后的波形，其中，Ld较大的振荡频率小、阻尼系数小，因此，在开关过程中，较大Ld支路的电流过冲大，且振荡幅度也较大。同时，Ld 也会影响并联支路通态的电流分布情况，在感性负载条件下，器件导通后电流开始上升，漏极电感量大的支路电流上升更加缓慢，图3-4为两并联 SiC MOSFET 的通态等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGx30iaks8oVJbia7E0bzwHxrrF1OFLGk1ic0icPdwhCxrxCWwxYPu0ztbiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_030_25dd6d5472f3.png)
 
 在并联两个 SiC MOSFET 的情况下，根据并联支路电压相等，且等于电容上的电压减去电感 L 上的电压，因此可列出等式（3-8）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGccZMwp2NrIoL4L3q03Qd1ZFGuXTVSsWZETacdEDPwST0ia6Nk0VcwhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_031_4845bef1db31.png)
 
 式中，di/dt 表示器件上的电流变化率，Rdson 为导通电阻，id 表示器件上的电流，Udc是母线电压，L 则为负载电感。再结合 id1+id2=iL，在 Rdson1=Rdson2 和did1/dt=did2/dt 的条件下，id1 和 id2的电流差可以表示为式（3-9），这意味着不同的Ld导致不同的导通电流，较大的 Ld获得较小的通态电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGA7Z340u2uW0LWHw55pQ6W3KgFOFoqyPesqEFrajRnU9gvJG5pvTfJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_032_990784038f53.png)
 
 在 LTspice 里设置仿真电路中的 Ld1=1nH，Ld2=100nH，仿真结果如图3-5 所示，可以看出，Ld主要影响了器件的静态均流，对动态均流也有影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGibNpDDGhvB8mNAUo8ibAMSdic5PpJSHE1yQzaRKzBZzRP71nzmf4uwlQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_033_3da0fec9d57f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGSiaK3S4edRhiaFRfOEEY4z35zeicMtkvdm3UGoFBhkkCVaO77wKzpuSdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_034_c8bfc2506aa5.png)
 
 其中，图 3-5（a）中的两条曲线在导通状态下存在明显差异，Ld较大的支路通态电流较小；在图 3-5（b）开通波形中，电感较大的 Ld2支路在电流上升之后，电流大于Ld1支路的电流；在图 3-5（c）关断波形中，两条支路的电流也存在差异，由于Ld2的电感值比较大，它的电流下降完成之后出现了明显的振荡现象，也引起了对应栅极电压波形的振荡。
 
@@ -383,7 +383,7 @@ SiC MOSFET 并联的降额率会随器件参数分散性的增大而增大，由
 
 在电力电子系统中，回路的杂散电感是一个关键参数，我们在设计时应该尽可能地减小功率回路的寄生电感，因为该寄生电感会引起电流、电压的振荡，给功率器件乃至系统的安全工作埋下隐患。在双脉冲测试时，Lp 除了引起振荡之外，还会导致功率器件的关断过压尖峰；对于并联应用，公共回路寄生电感 Lp，同样也会引起振荡和电压尖峰。仿真时设置其他参数不变，让功率回路寄生电感 Lp 增加 100nH，仿真结果如图3-6所示，可以看出，在功率回路的公共杂散电感 Lp增加后，并没有造成并联支路间的电流的差异，但是它带来的是电流波形以及栅极电压的严重振荡，是器件应用的一个安全隐患。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGPJ8Zj28QulTYMxCcwsLBrZaWibdHZmHhxMsgPa4GibDQltDNlAC7knNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_035_f7bbadcef3bd.png)
 
 3.1.3 驱动回路参数不一致
 
@@ -393,31 +393,31 @@ SiC MOSFET 并联的降额率会随器件参数分散性的增大而增大，由
 
 在导通时，漏极电流由 Vgs 决定，关系如（3-10）所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGIQ15yRXaVnhcDd2ics8T5bLhoFccA6gG7fMh9njgqZmwicJiaCDK4HMvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_036_df763dd16cb4.png)
 
 式中，id表示漏极电流，gm表示跨导，Vgs 代表栅极电压，Vth是阈值电压。
 
 在仿真电路中设置两个器件的关断负压一致，开通电压Vgs1= +20V、Vgs2=+17V，仿真结果如图 3-7 所示，支路 1 的栅极电压更高，因此在通态时支路1 的电流上升更快；开关过程中，器件 1 先开通而后关断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGkFsr9CBcqef1MW40gfCjN1jBKicUWylD2J9JkkbwSdeRuVzV4V0dVhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_037_2aa10c0c27d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGHWlAd0I7RgibReBI6EgkWHafL0vzz5aAyk4ld4pgKX0c5xpPbibR778w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_038_979482fb9dd1.png)
 
 2）驱动电阻 Rg
 
 SiC MOSFET 开关的本质是驱动电压通过驱动电阻对栅极电容的充放电，栅极电阻小的则驱动峰值电流 igpeak 大，在 RC 充放电回路中对电容的充放电速度块，器件的开关时间短，igpeak计算如式（3-11），式中，ΔVg是驱动正负栅压之差，Rg表示栅极驱动电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGsjrLia2spUm4JHKDDNrWcYKHofsR0PjeNNzY2zia0jbQgKOxw9D9AIdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_039_4a50b13db91c.png)
 
 在仿真电路中设置两并联 SiC MOSFET 不同的驱动电阻，Rg1=10Ω，Rg2=15Ω，结果表明 Rg 对静态均流无影响，但是对动态均流影响大，开关过程如图3-8 所示，由于Rg1较小，该支路开关过程均比较快，在开通时承受较大电流而关断时的电流应力较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGJTaMD5ibqzLbGWSsrVpEBaHdFuF1iawDwyKRsmyRLbpcDaoic1fS7jDPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_040_04508eae20d6.png)
 
 3）栅极寄生电感 Lg
 
 在 SiC MOSFET 的栅极驱动回路中增加寄生电感 Lg，这个电感会影响驱动电压对输入电容 Ciss的充放电，造成的结果便是栅源极电压 Vgs在 LRC 回路中产生振荡，但是，Lg引起的 Vgs 振荡对并联电流影响不大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGpcCanianwsia0E7w8eWbiblIBIkN9en3ReiaGfkV0GUzDok1v3JhiaiayWaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_041_c9a9b3c04abb.png)
 
 仿真中将两条支路的 Lg设置为不同值，Lg1=0nH、Lg2=30nH，仿真结果如图3-9所示，总的来说，并联电流均匀性对 Lg不太敏感，当两条并联支路间的Lg差异很大时，其中Lg较大的支路，栅极电压出现较大振荡，也引起了该支路轻微的电流振荡，同时开关响应也出现轻微延时。
 
@@ -427,13 +427,13 @@ SiC MOSFET 为压控型器件，器件的开通关断实际上就是对栅极电
 
 在仿真时，保持支路 1 上器件的参数不变，给支路 2 上的SiC MOSFET栅源极外接1nF 电容，仿真结果如图 3-10 所示，可以明显看出，SiC MOSFET 的开关过程对Cgs 十分敏感，首先表现在栅极电压的上升/下降速度慢，从而导致了开关过程中电流的不平衡。由于 Cgs2 较大，该支路开关速度较慢，根据 3-10（a）的开通波形，Cgs2 支路的器件开的较慢，它的电流较小；而在 3-10（b）的关断过程中，Cgs2支路的器件关得更慢，则承受更大的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG8eZN3CNqOtR8q9baUS1ZgrqEkeOsdYjHZS4ElVica8KTXYia5eGXOIMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_042_dbd83c7d99f1.png)
 
 5）驱动信号延迟 tdelay
 
 在并联应用时，器件的开关控制信号通过驱动板到达器件的栅极，需要经过栅极电阻、导线及其他电子元件，这个过程会导致控制信号到达各并联器件栅极的时刻不一致，从而使得并联 SiC MOSFET 模块在不同时刻开启、关断，主要影响了并联器件的动态均流，先开启、后关断的器件在开关瞬态承受更大的电流，严重时甚至导致器件失效。在其他条件一致的情况下，将支路 1 上的器件栅极信号延时 10ns，开关波形如图3-11 所示，可以看出控制信号延时对并联器件的动态均流影响很大，支路1 的器件由于控制信号的延时，开关响应均较慢，从而在开通时分得更小的电流而关断时分得更大的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGFicqIzfSbXAu3yonUlQpEPibv2jriafr4N3icGakZMHviaYdSBTCWbGT5Nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_043_0dd297d92eba.png)
 
 3.1.4 温度不一致
 
@@ -441,13 +441,13 @@ SiC MOSFET 为压控型器件，器件的开通关断实际上就是对栅极电
 
 在仿真中设置 1 号器件温度为 25℃,2 号器件温度为 75℃，图3-12 展示了温度对并联电流分配的影响结果，可以看出，温度对导通过程中的静态均流影响较大，2 号器件设定的温度高，Rdson增大，电流上升慢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGeV7kLsrg76R0wVLUkT9Vv2Fq1YpkkH3P3iapPcHhickrPbKeFatx6Q2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_044_d87bea00e50c.png)
 
 3.1.5 并联均流的影响因素总结
 
 前面对 SiC MOSFET 并联电流均衡的各个影响因素进行了单独分析，明确了它们各自的作用机理与影响效果，分开来看可能并没有那么清晰直观，现在就对这些影响因素进行整理汇总，如表 3-2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGX7icZrzFrKG2X3Icr7LjicDPvsC2GDtPloWcxeiarTpQnXd4KAfvHdryw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_045_ae4ad9991106.png)
 
 综上所述，SiC MOSFET 模块在并联应用中，器件自身、功率回路和驱动回路参数以及温度都会对并联支路的电流分配造成影响，因此，解决并联应用的均流问题，就要从这几个方面出发，有针对性地进行改善处理。
 
@@ -461,35 +461,35 @@ SiC MOSFET 为压控型器件，器件的开通关断实际上就是对栅极电
 
 对于 SiC MOSFET 的并联应用来说，功率回路的结构设计较为复杂，需要根据不同的器件封装和应用场合来具体设计，接下来根据本文选用的器件来设计相应的并联结构。首先来分析该器件的封装结构，如图 3-13 所示，从靠近辅助端子的一边起，依次是半桥拓扑的正极、负极和交流输出端。图 3-14 为 SiC MOSFET 功率模块的两种摆放式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGjJZ9BvGFibuN7Os3z4wBYTIECj7ZtJpvPSEiaR4kWOhaXU8Vgh8F65BQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_046_7f2b34926310.png)
 
 本文中采用铜排来连接 SiC MOSFET 的主回路，对于半桥SiC MOSFET功率模块来说，包括正极、负极和中心输出点的连接，为了尽可能减小寄生参数的不一致，设计了三种并联结构并对它们的电流分布进行了仿真分析，同时，由于实验中需要用分流器来测量电流，设计了分流器的连接件。如图 3-15 所示，为本文设计的三种并联结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGpbSicdTwx0sXD33HJBZAfLcL7xkAV1GUc5fomA1NnfcMVgRg5iaoXRUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_047_0aa41e74a2c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGT6FY5RVITpPAsfHHGNXHEhPWR8J2lqhDlsqwA1IjxGJYiccSQfWE2qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_048_44100891fa72.png)
 
 为了精确测量 SiC MOSFET 上的电流，本文使用的分流器型号为1M-1，如图3-16（a）所示，它的阻值为 20 毫欧，带宽 800MHz，满足 SiC MOSFET 的电流测量需求。与非接触式的电流测量设备不同，分流器的使用需要将它接入到功率回路中去，因此本文设计了分流器的连接件，如图 3-16（b）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGTicBJrMhqbb1AdgUNq0hGYspI6P6tSXP0Fqa8hfk9gWarBMUmvgQW4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_049_0561a8a05173.png)
 
 3.2.2 并联结构的仿真分析
 
 采用 Ansoft Q3D 分析所设计的并联结构的电流分布情况，首先把在SolidWorks里面画好的三维图导入到 Ansoft Q3D 中，然后将其材料设置为铜，进行网格划分、定义信号入口 Source 及信号出口 Sink，设置相关参数后进行仿真分析，最后得到三种结构的电流分布情况，如图 3-17 所示为 3 种并联结构的仿真结果图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG7B2f3lfDFqQfBwdFN9VJJgy7YhQU8eOiaIx5Tu5u7S1Lc317OmN87RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_050_286ee2b30058.png)
 
 可以看出，图 3-17（a）中的结构电流分布较为集中，但它两边的电流还是对称的；图 3-17（b）结构由于面积较大，它的整体电流密度较小，仅在拐角区域有电流集中现象；对于图 3-17（c）的结构来说，电流分布对称且密度介于前两者之间，同样在弯折区域电流较为集中。
 
 如表 3-3 所示，总结了三种并联结构的优缺点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG8ibdIvgdAEZ1uNtgl9YHa6Yic2vyHI0ib9L8Y7Q9FzX3MicdgbghjB4pag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_051_bf8bff8a23f5.png)
 
 3.2.3 本文采用的并联结构
 
 经过上边的设计分析，本文制作了两种并联结构，平面对称结构和立体对称结构。如图 3-18（a）所示，为平面对称结构实物图，用于本文的并联实验分析；图3-18（b）中展示的立体并联结构，则在实际中可作为功率单元来使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG1nhRrVRbJVpbZqu7q1UYJg99OZOIoolGHVh1h1JF7I0BTpFUicnJUibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_052_7488d21fe119.png)
 
 3.3 本章小结
 
@@ -503,7 +503,7 @@ SiC MOSFET 为压控型器件，器件的开通关断实际上就是对栅极电
 
 并联应用中，从驱动器与功率器件的对应关系来看，SiC MOSFET 的驱动方式主要包括单一驱动器（一个驱动器同时驱动多个器件）和独立驱动器（一个驱动器对应一个器件），如图 4-1 所示。显而易见，前者的驱动信号及参数是绑定在一块儿的、几乎没有自由度，而后者的驱动器相互独立、各驱动参数可调节。接下来，针对它们各自的特点，来具体分析下这两种驱动方式的优缺点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGXTLJxc5bPf7ZRn3TrulsN4cE2zLJPZnRzv3PCfBicJ5Fe5wVrNqUU8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_053_4c7587fff58d.png)
 
 首先，我们来介绍单一驱动器的驱动方式，它可以非常容易地实现并联器件在驱动层面的统一。用一块驱动板同时驱动多只功率器件（SiC MOSFET），这样做的好处是节省成本、驱动一致性好。理论上讲，在栅极引线长度一样的情况下，它们的驱动信号必然是一致的。同时，由于需要同时驱动多只功率器件，因此在这种驱动方式下的驱动器需要提供足够的驱动功率和驱动峰值电流。但是，美中不足的是，它仅仅能满足驱动信号的一致性要求。如果是在器件和并联结构一致性很好的情况下，这种驱动方式无疑是最好的，可是实际应用中情况复杂，结构中较难保证理想的一致性，而且，就算刚开始器件的特性一致性较好，但随着器件不断工作，各个器件的老化特性也可能出现差异，在这些情况下，单一驱动器下的电流一致性必然受到影响，而且通过更换器件或改变结构来实现电流均衡成本昂贵且较难实施，因此，从驱动层面来补偿器件、布局结构带来的电流不均便是一个切实可行的方法，经济便捷。
 
@@ -519,7 +519,7 @@ SiC MOSFET 为压控型器件，器件的开通关断实际上就是对栅极电
 
 SiC MOSFET 作为压控型器件，它的开关过程主要关注三个电气量：栅极驱动电压、漏极电流以及漏极电压，因此，对于开关过程的检测也必须要从这三个量来着手，图4-2所示为检测方法的汇总，下面来对它们进行一一分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGVheb33DJ7AYgsr9oGXE61SI7ygZ8EkSysORNYOCibsiafE4suLG4eicibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_054_981136f16e52.png)
 
 1）栅极检测方法
 
@@ -537,25 +537,25 @@ SiC MOSFET 作为压控型器件，它的开关过程主要关注三个电气量
 
 中大功率器件在封装时一般都会存在功率端子和辅助端子，功率端子用来承受高压大电流，而辅助端子则用于弱电的控制。本文使用的 SiC MOSFET 模块也有功率端子和辅助端子，在器件封装的过程中，功率源极和辅助源极之间会引入寄生电感LSs。当器件在开关动作时，会出现特别大的电流变化率 di/dt，使得 LSs 两端产生一定的电压VSs，计算公式如式（4-1）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGpjE4nA61t9ZQxDKLiablLwL5TZJ0EjAb7S6EC0ibYMQlqzXfouicbh6ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_055_c09a5977c83b.png)
 
 如图 4-3 所示，是用 LSs 来采集 di/dt 的示意图，可以发现一个问题，对于本文采用的驱动结构来说，LSs 上的电压除了和高的 di/dt 相关外，还与SiC MOSFET 的辅助源极电位相关。用非隔离的 LSs 来感应 di/dt 时，由于本驱动中的源极电位切换，栅极电压会在开关电压变化瞬间产生一个小的毛刺，可能会影响造成误采集，这种情况需要避免。由于这个毛刺和栅极电压的变化是同步的，因此，只需延时一小段时间检测即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGeHUN7D9ibvZBcHJvHmk6ErtwJsrXCQP05B0HPFmom2icc4iaGibym9BiaicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_056_b8145dfe21c6.png)
 
 2）di/dt 的积分电路
 
 LSs 感应的是流过器件的电流变化率，要得到更准确的电流信息，只需要对其积分即可，如式 4-2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGddwevwlAybnX0lYoXBWD69fcpD7z4kicpToGibquptsrDWVetuia2m3qQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_057_19bc8f6b2354.png)
 
 通过 PSPice OrCAD 软件对所设计的积分电路进行仿真，仿真电路如图4-4 所示，积分电路所用的运放为 TI 公司的 LM7171。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGxKMNGsINEqTCQZbtd49l2Gamibf4hFoTu7ehCbiaFM1bTAicS0ia6bXBug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_058_0421fee056b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGzIGwMibjaxibpzXDEutqDyBY9463AmtyqmibPqnick8t9Dl4foLoear6Cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_059_6c8feec32a86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGYcJ0xeodXaDKEQ3Tmjyib1Ly9iaJ2gUYXSicjty48uhia6d8kbOegbShjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_060_c6fc10ed2894.png)
 
 仿真结果如图 4-5 所示，可以看出在仿真的理想情况下，本文设计的积分电路完全符合要求，不管是在导通状态还是开关过程中，其输出均可以较为理想地复制出器件漏极电流的变化趋势，因此，可以初步证明该积分电路在电流检测上是可行的。
 
@@ -571,11 +571,11 @@ LSs 感应的是流过器件的电流变化率，要得到更准确的电流信�
 
 前边提过，SiC MOSFET 的并联均流主要包括静态均流和动态均流，静态均流采用调节栅极驱动电压来补偿，而对于动态均流，则需要有针对性地处理。开关过程中的电流不一致主要表现在电流开始上升/下降时间的不一致和电流变化率的差异，因此可以从这两个方面来着手进行补偿，补偿方法如图 4-6 所示，通过延时栅极信号来补偿电流延时的不同；通过在开关过程中切换栅极电压来补偿电流变化率 di/dt 和电流尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGqaAEa9BE34p5dgXiaUickicFDwygOfKnbJGibsv7ubXKNpCH7udqW1b4AQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_061_eec582eb876f.png)
 
 当 SiC MOSFET 并联支路电流的变化沿不同时，我们通过补偿器件开关信号的延时来进行改善。如图 4-7（a）所示为延时补偿示意图，当发现电流上升/下降沿不一致时，可以利用驱动器给响应较快的器件一个相应的延时 tdcom，使该支路器件在延迟tdcom后再执行开关动作，从而将它们的电流变化沿调节一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGg6s1icPfmrNuHcwe9EK35I15ZeyibfxR7eC2gGjSibXicVuTF97XHRg9IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_062_a2fc5e1723c0.png)
 
 在并联支路电流变化的起点相同后，电流不一致体现在电流变化率上，进而带来的是电流尖峰的不同，如图 4-7（b）所示，在发现电流不均后，通过切换不同的栅极电压，从而调节电流变化率及电流尖峰大小。在开通过程中，当检测到电流变化率的差异大于设定值后，将电流变化率较大支路器件的栅极电压由+20V 切换到+15V，降低该支路的电流变化率，在它的电流达到峰值后栅压切回至+20V 正常导通；在关断过程中，当检测到电流变化率的差异超过设定阈值时，将变化率较大支路的栅极电压由-5V 切换至0V，减缓其电流变化率，在关断结束后再将栅压调回-5V 来负压关断。
 
@@ -591,33 +591,33 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 上边介绍了本文主动均流的控制过程，接下来在 LTspice 仿真软件中对延时补偿和切栅压补偿方法进行仿真分析，添加 CREE 官网提供的 SiC MOSFET 模型，与之后实验的SiC MOSFET 型号不同，这里仅讨论该方法可行性。仿真结果如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGAnBvb5opFJDhVe02n9JAFdwuRXKqVx4Khm5DGnS4dRwh5Zl3V9gVoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_063_d8ef9e4e6815.png)
 
 如图 4-8 所示，由于要验证提出方法对不均流的改善效果，首先需要制造不均流情况，设置并联器件的栅极电阻不同，这样两条并联支路的电流出现了不均流现象，开关过程中的电流没有在同一时刻变化，而且开通过程中的电流尖峰也有很大差异。
 
 对并联电流不均的调节首先从调整电流变化沿开始，如图4-9 所示，开通信号延时2.7ns，关断信号延时 10ns，从仿真结果可以看出，关断过程的电流一致性相较于调节前明显变好；然而，延时补偿后开通过程两条支路的电流上升沿重合，但是它们的电流上升过程和尖峰仍有差异，这就需要通过接下来的切换栅极电压来改善。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG2s1SfHoiatEic6gUaicslGZsCrKBarTTCia6wLOAS0uHMFmpuFthGIUWJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_064_838a5cfd28a7.png)
 
 如图 4-10 所示为切电压补偿后的仿真结果图，可以看出，驱动电压在两者电流出现差异时从+20V 切换为+15V，从并联支路的开通电流波形来看，消除了上一阶段的电流斜率和尖峰差异，两者的峰值电流趋于相等，美中不足的是，在尖峰之后的电流仍没有重合，但是就切电压方法而言，它可以起到均流改善效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGayZsGhrrtLRMk5bw5RJ9kXuQ6v8Y2opnAumPmK0YgP9UeazFwCjU4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_065_e1ed5d84be4f.png)
 
 经过上边的分析，在第二章设计的可变栅压门极驱动结构基础上，本文提出了一种栅极延时补偿与切电压补偿相结合的主动均流方法，如图 4-11 所示，图中展示了两并联的情况，每个 SiC MOSFET 有一个驱动器和和均流检测模块，当检测到并联支路间电流不一致（延时差异或变化率差异）时，通过可变栅压门极驱动对并联支路电流进行相应的补偿，使它们的电流均衡度得到改善。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGqiav5AtaChzxMsflZ776TrjgWXpHsGqE0NGYyzpx5uKCibfKLHAKKIjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_066_646caddde768.png)
 
 4.3.3 多个器件的主动均流控制策略分析
 
 本文对 SiC MOSFET 并联应用的均流特性分析研究，主要是在两只管子并联的情况下进行的，虽然均流特性的影响因素和改善方法是相似的，但是管子数量的增多会增大均流控制的复杂度。此时，便需要合适的均流控制策略，就目前而言，多管并联均流的控制策略主要包括主-从式控制和链式控制策略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG2w4FgU9mzsDrjqjCicHw9j4N85NPCgo2kZibaUIIeux6jXO3WC3HRiaKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_067_211f58a01e55.png)
 
 如图 4-12 所示为主-从控制策略，它的工作过程是：选择并联支路中的一只SiCMOSFET 为主，则其它支路的器件为从，设置主器件的开关电流为参考量，其余从器件的开关电流则为变化量。主器件的驱动器将其开关电流信息传递给从器件的驱动器，从驱动器再结合自身的开关时间量计算出开关时间差异，并在下一个周期到来时调整自身的开关策略从而实现与主器件的同步开关。对于主-从式控制策略来说，除去信号传输的延迟，各个从器件的控制延时基本上是一样的，因此，并联器件数量的增加并不会导致均流改善时间的明显增加，且它的参考信号始终是统一的，但是由于并联数目的增加，其信号接线的复杂度会增大。
 
 对于链式控制策略的来讲，如图 4-13 所示，所有的 SiC MOSFET 没有主从之分，每一个门极驱动器测量其对应器件上的电流，并从它旁边一个器件的驱动器上获得参考信号，参考信号主要包括电流的边沿信号和斜率信号。驱动单元根据所接收的参考信号，控制下个周期的开关过程，这样经过一级一级的校正，经过多个周期之后，再确保均衡的电流分布。这样的链式均流控制最大的好处便是可以很方便地进行器件数量的增加，但是均流改善过程的快慢与其并联器件数目成正比是其缺点，并联数量越大，均流校正时间越长，而且它的参考信号依次传输，数量越大、时间越久可能会导致参考信号的准确性下降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGEdoDibkpbcRt1ic3gMiac9qpBe5H99bENyGhkbRAc5jZLLDPZKvf36Bjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_068_504d4f79e80d.png)
 
 经过上面的分析，可以看出主-从式均流控制策略虽然在多器件并联时系统的连线复杂度会增加，但是正确的参考信号是精确控制的首要前提，由于链式结构在参考值传递过程中可能会出现误差，因此在并联器件数目增大且空间有保证的情况下，主-从式均流控制策略是更好的选择。
 
@@ -633,17 +633,17 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 为了验证所设计的 SiC MOSFET 驱动电路的性能，将设计的电路连接到测试平台进行双脉冲实验。图 5-1 为双脉冲测试原理和实验平台，所选的SiC MOSFET型号为CAS300M12BM2，耐压值为 1200V，额定电流为 300A，该模块为半桥结构，在实验时将上管负压关断，只用它的续流二极管，对下管施加双脉冲信号，测量其开关过程中的特征参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGdRTPxVVmqM49BicTT1VtmvicoGmlIRI3nIGQLQ8PFrhiaC0Atd12URn6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_069_0199ceeec8a9.png)
 
 实验中，设置直流母线电压 Vdc 为 500V，负载电感 Ld为300µH，双脉冲第一和第二个脉冲高电平时间分别为 180μs 和 10μs，中间间隔为 10μs，第一个脉冲结束后电流上升到 300A。为验证可变栅压门极驱动电路的优越性，采用对比的方法，将传统驱动电路与可变栅压门极驱动电路在相同栅极驱动电阻 Rg与栅源极电容Cgs条件下，对实验开关波形进行对比分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGxHd1Wen9cCl6d2pUGsDTbWVIoiasA39icZhO9CKCm8eKMCK01qOkVAicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_070_cbe65d10978c.png)
 
 如图 5-2 所示为 SiC MOSFET 的开通波形图，从左到右依次为栅极电压、漏极电压、漏极电流。从图中可以看出，由于可变栅压门极驱动在第二个阶段变为小电压，所看它的漏极电压和漏极电流的变化率降低，同时在几乎没有牺牲开通速度的条件下，它的开通电流尖峰更小。
 
 图 5-3 为 SiC MOSFET 的关断波形图，从左到右依次为栅极电压、漏极电压、漏极电流。从图中可以看出，传统驱动与可变栅压门极驱动的关断波形相差不大，但是可变栅压门极驱动的关断电压尖峰略小一点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGTcPhuZdwZ2tWgZxd4sA4TyGohANwwntlupJJEPesqkp3kA4KoBYBGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_071_52c0c06f5c61.png)
 
 可以看出，可变栅压门极驱动结构相比于传统驱动可以在几乎不牺牲开关速度的前提下，降低开关过程中的电压、电流尖峰。
 
@@ -651,13 +651,13 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 如图 5-4 所示，为短路测试电路拓扑结构和短路实验波形，用粗短铜片把上管的SiCMOSFET 短路，给下管一个单脉冲信号，这样下管开通瞬间就处于短路状态，以此来验证保护电路的可靠性。从图 5-4（b）短路测试结果可以看出，开通信号到来1µs 后，器件开始关断，关断电压尖峰为 1.1kV，电流最高上升到 1.13kA，本文的保护方案可以在短路状态下可靠地关断 SiC MOSFET，保证器件的安全性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRG08mM9Ag9uGZIicuBYnAOlhk6ic6FnNTibrnySBhwC5aXfzKfh1Uibufqkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_072_9c70ba8040ed.png)
 
 5.2 并联均流的影响因素实验
 
 为了改善并联支路间的电流均匀性，其影响因素首先成为重点研究对象。并联均流影响因素的实验测试依然采用双脉冲测试方法，由于所测试模块为半桥功率模块CAS120M12BM2，它的并联测试电路拓扑和实验平台如图5-5 所示，其中展示了回路中的多种寄生参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGkuN2zX7gbOzuFveD08poD7myxicnP9Kbk9potxm3nj6AOHsE3K9n6Jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_073_fd75f0ddc1da.png)
 
 本文主要研究的是两个 SiC MOSFET 并联问题，在实验中通过示波器采集了4个量，其中，1、3 通道分别代表 1 号器件的栅源极电压 Vgs 和漏极电流Id；2、4 通道分别代表2号器件的栅源极电压 Vgs 和漏极电流 Id。
 
@@ -665,7 +665,7 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 并联功率器件的驱动方式可选择单一驱动器和独立驱动器，前者为所有并联器件共用一个驱动板，后者则每个功率模块配一个独立的驱动板，这两种方式各有优缺点。在其他条件完全相同的情况下，独立的驱动器由于只驱动一个 SiC MOSFET 功率模块，因此，它所需要的驱动功率就比单一驱动方式下所用驱动器的要小，因此驱动方式的选择主要影响器件的开关延时。图 5-6 展示了单一驱动器和独立驱动器下的关断波形比较，可以看出，在同样的栅极电阻情况下，前者的电流变化延时明显大于后者。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGZAuYlhzCZwicgc7QtagRg0TRo5o2PzHMO7iaPX5OrbPMFia44Gx0I3iaWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_074_53ddd3d46864.png)
 
 由于独立驱动器可以灵活配置驱动参数，本文选取这种驱动方式来进行并联均流的影响因素实验，通过两块相同的驱动板，采用控制变量的研究方法，每次改变一个影响参数，得到各参数对 SiC MOSFET 并联的影响效果。
 
@@ -677,7 +677,7 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 设置 1 号器件的驱动电阻 Rg1为 15Ω，2 号器件的驱动电阻Rg2为10Ω，栅极驱动电阻对 SiC MOSFET 并联的静态均流无影响，对动态均流影响大，图5-7 是两并联支路驱动电阻 Rg不一致情况下的开关波形图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGJiavXo2GvfZ9T7yjiaYxtbmRQ2lP9xdbYn8ia7RaEibEaMwcqFibY8kK4ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_075_b62ca32ffe7c.png)
 
 可以看出，由于 2 号器件的 Rg2较小，对器件栅极电容的充放电电流较大，因此，它的栅极电压对控制信号的响应速度较快，在开通过程中，2 号器件先达到阈值电压，电流先开始上升，经过一小段时间的延迟后，1 号器件的电流开始上升，图中两者的电流变化斜率有差异，在电路中，并联支路的总电流是由负载电感决定的，1 号器件电流上升到一定程度后分担 2 号器件上的电流，此时 2 号器件上的电流值会下降，最终趋于平缓，开通过程完成；在关断过程中，2 号器件先关断，电流开始下降，与此同时，由于电路中的总电流不能突变，1 号器件就要承受较大的电流。
 
@@ -685,19 +685,19 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 开关过程中影响电流变化延时 td、变化率 di/dt 和电流尖峰。在开通过程5-8（b）中，1号器件的驱动电压高于 2 号，因此在同样的驱动条件下，1 号器件的栅极峰值电流大，先满足器件的阈值电压，电流先开始上升，并会有较高的 di/dt 和尖峰；在关断过程5-8（c）中，由于 2 号器件的 Vgon2较小，因此其栅极电压先跌破阈值电压Vth，器件先开始关断，电流开始下降，此时 1 号器件会承担更多的电流，当 1 号器件的栅压降到Vth时，它的电流也急速下降，最终完成关断过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGq4kq4hrO6hvY1GJvfzfLcn7F8gDEUMBK3sXDWjQX0LyeQ3nPOxA0YQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_076_a0ec9bb3f8cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGrYUaUX8wxoibJlWkCrx2Iue57lfRpNeNdnIdTDTNyTdKtOibaEYx0kMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_077_b3ebd3de7735.png)
 
 3）栅源极电容 Cgs 
 
 保持 1 号器件的栅源极电容不变，将 2 号器件的栅源极外接6.8nF 的电容，实验观察栅源极电容对并联均流的影响效果，栅源极电容并不会影响并联支路的导通电流分布，而对器件的动态均流有较大影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGodmuDkTXas4yG6XZB44gULOJaJsElaXksloln85WxLiaYygbVFhFpFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_078_9d98c2579888.png)
 
 图 5-9 是栅源极电容不一致对并联动态均流的影响效果，由于2 号器件通过外接增大了栅源极电容，因此，在 5-9（a）开通过程中，1 号器件的栅压上升快，首先满足开通条件，电流先上升且斜率较大；同样，在 5-9（b）关断过程中，1 号器件的栅源极电压下降较快，先低于阈值电压 Vth，电流先开始下降，此时 2 号器件的电流开始上升，当2号器件满足关断条件后，它的电流也开始下降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGY1tCzJxtJyIEd9z1EFsXqy0czfSjRDh7Msy28aD4B8eBYovMA0ibe6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_079_8ef9e6271e17.png)
 
 同时，本文也做了栅极电容不一致对 Si IGBT 的并联均流影响实验，结果如图5-10所示，可以看出，在有 6.8nF 栅极电容差异条件下，与同样情况的SiC MOSFET并联相比，Si IGBT 并联在开关过程中的电流差异相对更小，由此可见，SiC MOSFET 的并联均流特性对寄生参数差异更加敏感。
 
@@ -705,21 +705,21 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 实验中保持 2 号器件的驱动信号不变，将 1 号器件的栅极驱动信号延迟50ns，驱动信号的延迟差异造成的直接影响是栅源极电压的变化时间不同，实验结果如图5-11所示，由于 1 号器件的栅极驱动信号慢于 2 号器件，2 号器件必然会先于1 号器件开关，先开通的器件电流先上升，后关的器件承受更大的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGjBicTaa8YRE5tibWFhAwLfdewqh8PG9iaiasClZn9MOndB9Qh5JoLsu4JA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_080_65b69aa8d6d6.png)
 
 图 5-12 为 Si IGBT 驱动信号延时对并联动态均流的影响效果，在驱动信号100ns 的延时差异下，相对于 50ns 延时差的 SiC MOSFET 并联实验结果，电流差异相近，由此可见，相比于 Si IGBT，SiC MOSFET 对驱动信号的延时差异更为敏感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGJXI77ANcYZcGjRSh9yHz9cIpPkMIComH4N1YH76HIOqibUicNDtf7Qow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_081_a756438dd26b.png)
 
 5）栅极引线长度
 
 本文在独立驱动和单一驱动方式下，做了两组关于栅极引线长度对并联均流的影响实验，实验中保持 1 号器件的栅极引线不变，增加 2 号器件的栅极引线长度，两组实验的引线长度增加量相同，结果如图 5-13 和图 5-14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGRpErFzQfUQVnNbkic3I1JBAUDqE9LfKmMiauH1gibQzzBWonyibCN4JDWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_082_67fb485fa32c.png)
 
 在单一驱动器方式下，为了和独立驱动器有相同的开关延时，减小其栅极电阻，改变栅极引线，得到栅极引线差异对并联均流的影响结果，实验波形如图5-13 所示，可以看出，驱动引线的不对称最直观的是对两个并联支路的栅极电压Vgs 产生了影响，2号器件的栅极引线较长，因此在驱动信号跃变的时候，1 号器件会有一个较为明显的快速响应，而且，栅极引线长度的不一致对开通过程影响剧烈，导致了严重的栅极电压振荡（由于两个器件的栅极信号接在一块儿，振荡也相互影响），进而影响了电流波形的振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGWok9IFD2EVMSEGbkFnweNzLW7OVJOt2ckqQEhAXMEeicRM6iaajj3hbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_083_273f829db20e.png)
 
 如图 5-14 是独立驱动器方式下的栅极引线差异开关波形图，可以看出，栅极引线的长度对 SiC MOSFET 的开关过程中的栅源极电压有影响，从而影响到了并联支路的动态电流分配。开通过程中，在开通信号到来时，栅极引线较长的2 号器件栅极驱动电压响应较慢，这种情况下 1 号器件会先导通，承受更大电流；关断时会先关断，但两者区别不是很大。与图 5-13 相比，相对于单一驱动器方式的栅极引线增加，独立驱动由于各器件的栅极相互隔离，因此栅极引线的差异对栅极驱动电压造成的影响没有前者那么大，但它的电流存在轻微延时。
 
@@ -731,7 +731,7 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 共源极电感 Ls不影响并联的静态均流，而对动态均流有较大的影响。在实验时保证其它条件不变，增大 2 号器件对应支路上的 Ls2，实验结果如图5-15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGEuo7fY5Yd5zOa9PUGwXTsgIHibQk5hWibEJfzuMuMDZPXropTjUbzYBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_084_8561772976df.png)
 
 在图 5-15（a）开通过程中，Ls 较大的支路 2 上的电流上升斜率较缓，且最终的电流尖峰更小；在图 5-15（b）关断过程中，Ls较大的 2 号器件的电流下降速率较小。由于两条支路电流的差异，在长时间的运行后，可能会造成器件温升的差异，这不利于并联支路的电流一致性。而且，随着共源极电感值的增加，器件的栅极电压出现更剧烈的振荡，这对栅极来说是一个隐患，多次触及栅极承受极限后可能会造成器件的栅极失效，进而影响到系统的稳定性。  
 
@@ -739,29 +739,29 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 在实验中增大 2 号器件对应支路上的漏极电感 Ld2，如图5-16 所示，为功率回路的漏极寄生电感 Ld对并联 SiC MOSFET 静态均流的影响效果，可以看出，2 号器件由于Ld的增加导致了其通态电流的上升速度的减缓。同时，由于器件导通时的电流上升速率受到影响，在关断时刻以及下次的开通时刻，两支路的电流都是有差异的，进而呈现出开关过程中的电流波形不重合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGhhab2ausWHibOuiacUnZV2DVtcHw9bEe0W2wATicOg3LNQ5DzsnbLHKuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_085_6d3f3bc5cb1f.png)
 
 3）公共回路寄生电感 Lp
 
 如图 5-17 所示，为公共回路寄生电感 Lp对并联电流的影响实验波形，可以看出，在开关过程中两个并联器件上的电流出现不一致，主要表现在电流变化率di/dt 的轻微差异，同时，Lp的增加引起了严重的栅极电压振荡，尤其在图 5-17（b）的关断波形中，出现了较大的栅极负压尖峰，这很可能会造成栅极击穿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGMQfm2GvpPXj5jAe94hLlZqtR5NdvfIgibTk6tjS2ugAn4mgjfXE0LIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_086_7dc377c00af7.png)
 
 5.3 不同工况下的并联均流情况
 
 除了器件本身、驱动回路参数和功率回路寄生参数对并联电流均衡度的影响外，在实际中具体的工作条件也可能会影响到并联支路间电流的分配情况，因此，本文还进行了下面的实验研究，包括不同母线电压、不同负载电流情况下的并联支路电流分享情况。首先在图 5-18 中展示了 600V 母线电压、180A 负载电流工况下的不均流实验波形，其中，5-18（a）为开通波形，5-18（b）为关断波形，以此作为基础，通过改变其母线电压或负载电流大小来与之进行比较，从而得到工况不同对并联电流的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGwrg4QicnboTcbMicEXliaQaeMKNaVbDOczfIGCwEnuFrPfT1gdtmkBjJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_087_db7246cd8dc5.png)
 
 5.3.1 不同母线电压
 
 保持回路的负载电流不变，在母线电压分别为 300V 和200V 的情况下进行实验，结果如图 5-19、5-20 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGUZDhlbLrc8XLmicCYtOKOW8R3r2iboGB1EaDibGHamb9SyhMml8Lj16IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_088_d1b85d318d69.png)
 
 图 5-19 为 300V、200V 母线电压下的开通波形，与图5-18（a）的600V电压下开通波形相比，可以看出，在负载电流相同的情况下，随着母线电压的降低，并联支路电流的一致性变好，而且栅极电压的振荡受到抑制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGNiaAiabktqaP3aCVSdeBePqGQ0JltSEjp3AibuZFQ9TFP3jZb4hrZBnbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_089_c29b758d4959.png)
 
 图 5-20 为 300V、200V 母线电压下的关断波形，与图5-18（b）的600V电压下关断波形相比，可以看出，相比于 600V 母线电压，在 300V 电压下的关断电流一致性更好，因此，母线电压越低，并联均流情况越好。
 
@@ -769,21 +769,21 @@ LSs上的电压对应着电流变化率 di/dt，因此，如果检测到LSs上�
 
 接着，本文研究了在 600V 母线电压下，不同负载电流对并联电流分布的影响。实验设置母线电压为 600V，通过改变第一个脉冲的时间，从而改变负载电流的大小，不同负载电流下的并联开关波形如图 5-21、5-22 所示。图 5-21 为600V 母线电压下，负载电流为 120A、60A 时的开通波形，与图 5-18（a）中 600V、180A 工况下的开通波形相比，可以看出，在母线电压相同的情况下随着负载电流的减小，SiC MOSFET 开通过程中的电流依然有很大相对差异，只是由于负载电流的减小，支路的电流值差距小一点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGqY7cxo5n4MWV8RFUewJ3CEQn34SwvdcRR0y8UPUaKICDFXoCxicDy6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_090_09f164a40a41.png)
 
 图 5-22 为 600V 母线电压下，负载电流为 120A、60A 时的关断波形，与图5-18（b）中 600V、180A 工况下的开通波形相比，可以看出，相比于180A 负载电流，随着负载电流的降低，SiC MOSFET 的栅极电压振荡明显减小，且关断过程的电流一致性更好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGU6QcHfaJUQ3K7zuFIyVOIWRPzW1cvmtncy2mBiak5QgJrmQlYANcQSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_091_2730513567c2.png)
 
 5.4 并联主动均流实验
 
 在实验分析完并联均流的影响因素后，接下来针对不均流的情况，利用本文提出的均流方法来进行改善，改善过程如图 5-23 和 5-24 所示。如图 5-23 所示，为开通时的均流补偿过程，可以看出，图 5-23（a）中由于栅极信号的不一致，导致了电流延时和电流变化率的不一致，通过补偿栅极延时，得到图 5-23（b）的改善波形，但它的di/dt 和电流尖峰仍有差异，需要接下来的切电压补偿，经过栅压调节后，得到图5-23（c）的补偿波形，此时，并联支路的电流一致性很好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGAQYBLiaqcMkbFDthXelZ6uleG2pgn7OOmBk3ibPqaicwicCY3WHfRk2MQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_092_4fc7b10f1402.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGUjM7TUdu6wDNyf9K1xAFDdg7gqoVKpsRfMhjaSjaavA2Oy8LcBWnwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_093_23cdaed9ca91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmEcjVvTshzwzCZpMolnRGuhI8WWpRPdqqx8Q0bIUnQXKfsIvroa0dWqYibMCCn6ET9Wm3G7cFryA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_094_70a062a3d21d.png)
 
 如图 5-24 所示，为关断波形改善过程，可以看出，由于两条支路的关断延时略有差异，因此通过栅极信号来补偿延时，改善后的电流一致性明显变好。
 
@@ -821,14 +821,14 @@ SiC MOSFET 将在未来的大功率、高温、高压、高频等应用场合发
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiahHY93hS9sVhQbJicB3yu1p2EzqNhSicic9KUP5bWDFuEs5HrgBq6GpncQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_095_2adfef47b8b4.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiadr1zvTneRoaXvksADMzkObY7DGndXehDddqmkZQmHSTCniaQHZicibE8A/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_096_8dfa46ca4104.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiaeOqRtFcDArvPtSZx1wmqXjSQPvsD3ltVdA4KhKv12zXHlXklkw8ibqw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_097_12573778b4a2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiajVfvepZuwVjmCc2woBhbQhiapibic1aE4gULukk0XDXBXfwrDwGeLichKQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET并联主动均流方法研宄_images\img_098_d88fa5d673a3.jpg)

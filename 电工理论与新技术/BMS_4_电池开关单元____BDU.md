@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/H2eVBWI5PSCx6OkCcGMnMA](https://mp.weixin.qq.com/s/H2eVBWI5PSCx6OkCcGMnMA)
 
-____**____**____![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScRicFDBt1vuxbMzrk0Msuo32gpwyD3WNNyvTAmG0icXJYiaJLceXiaVl80I5ibLU5gVaAmgAZtmSeusQ/640?wx_fmt=png&from=appmsg)★★★____**____**__________BMS-4---BDU__________**____**____★★★____**____**____
+____**____**____![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_4_电池开关单元____BDU_images\img_000_78a69d480a3c.png)★★★____**____**__________BMS-4---BDU__________**____**____★★★____**____**____
 
 ______撰稿：Timothy  校稿：Timothy______
 
@@ -17,7 +17,7 @@ ____________________________________€2.____________________________________传
 
 如**_图4-1_**所示，智能BJB架构具有几个明显的优势。它明确地区分了高压域和低压域，所有高压信号都直接在BJB中测量，从而使BCU完全成为一种低压设计。电池包监测器使用专有菊花链接口，支持分立式电容器隔离，因此无需使用昂贵的数字隔离器器件。菊花链通信还具有额外的优势，无需收发器（如CAN）等任何其他元件，也不需要额外的MCU来控制和驱动通信协议。将电池包监测器放置在BJB中或其周围可以立即访问高压信号，并且不再需要将多条长导线连接回BCU，测量电流并执行分流电流检测。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTpibPtponAWYLOfQsnmaia3t3OU25clPFzLsGh0FqZCy1pdVJZEIuxtqDtI4fVUvWjrYq82ydLEswg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_4_电池开关单元____BDU_images\img_001_31f869d1f060.png)
 
 **_图4-1：传统BMS架构与智能BJB架构比较_**
 
@@ -27,13 +27,13 @@ ____________________________________€2.____________________________________传
 
 3#：同步电压和电流测量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibv8fJnSpe5yMOPRopAFjxNcXiavvYkMicC4aCEMC7ibIpUVHxkeTDTMPdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_4_电池开关单元____BDU_images\img_002_49a8e7f38d69.png)
 
 **_图4-2：完整的BMS简图_**
 
 从**_图4-2_**和**_图4-3_**就可以看到BJB包含电流（过流保护）、温度、绝缘检测，高边低边继电器驱动器控制。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibiafW9AACRfAjtYy3YgLIr3cGXLRYm2IloJdibXhcyQDv1x9o127mlliag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_4_电池开关单元____BDU_images\img_003_3a8428a1a9d0.png)
 
 **_图4-3：智能BJB部分简图_**
 
@@ -41,7 +41,7 @@ ____________________________________€3.____________________________________BDU
 
 智能BJB通过电压、电流和绝缘电阻电池包监测器帮助直接测量电池中的高电压，典型的电池包监测器中提供多个电压和电流测量通道，可测量保险丝和接触器两端的电压，并检查BJB中的隔离电压，**_图4-4_**为简化版系统图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuib7fun3Nia7eEYOXgCvThrBhpFr2DN08UH0hqibuHG0KFXwn6HlQuQ5pgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_4_电池开关单元____BDU_images\img_004_c78cacf2c350.png)
 
 **_图4-4：简化版BJB系统方框图_**
 

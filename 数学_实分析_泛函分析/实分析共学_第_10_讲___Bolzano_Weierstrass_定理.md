@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_1Hts2-N5cnAiY74doIyLA](https://mp.weixin.qq.com/s/_1Hts2-N5cnAiY74doIyLA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/sVzeakRoocubGWHtDlTnxEXAMLqBhm7JXetE6yqSpI603Fv26Icu5bzZHuAW7nllmLTzaNw8Q6BPjKGdgTmSYfq3oIqmFhGf9wX6lcxeLaE/640?wx_fmt=jpeg)
+![](实分析共学_第_10_讲___Bolzano_Weierstrass_定理_images/img_000_99eec86aeb25.jpg)
 
 在上篇文章《[一图看懂Bolzano-Weierstrass 定理](https://mp.weixin.qq.com/s?__biz=MzkzODgwODczMw==&mid=2247537760&idx=1&sn=4e872ff1f10b3ebd89ed247ee9d8146c&scene=21#wechat_redirect)》中，已经做了详细解读，本文算是一个小的补充，总而言之，它是“数列与子序列”里非常核心的一条结论。
 
@@ -283,4 +283,4 @@
 
 我把这张图的做成中文分层笔记版。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvHe9Fut8WNaaibUtyXvwM5IibhPynZ7rp2FXpiby6KFXzjwamypoibooHsrgpK7CyC4BwrnARayGZoG3KHePXyMnVVMQqiaQgMw6eA/640?wx_fmt=png&from=appmsg)
+![](实分析共学_第_10_讲___Bolzano_Weierstrass_定理_images/img_001_af0ca7af486e.png)

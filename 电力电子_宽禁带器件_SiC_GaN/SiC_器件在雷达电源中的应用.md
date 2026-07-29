@@ -23,7 +23,7 @@
 
 功率 MOSFET 的特点是低导通电阻和高速开关特性，而且构造简单、成本较低。因此，功率 MOSFET是十几 V 至 800 V 耐压范围最主流的开关器件。但其耐压不够高，如果提高器件耐压将增加元件厚度，导致器件导通电阻增大。耐压 100 V 的 Si 金属氧化物半导体( MOS) 的导通电阻仅为数 mΩ，而耐压 800 V 的Si MOS 的导通电阻一般达到数百 mΩ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnlUMkxJO566rxBar7qewibBHosuCs9BCGqoHMwnSYEVL4jticTHbrqUKg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在雷达电源中的应用_images/img_000_aa2437eacfdd.png)
 
 与普通 Si 材料功率半导体相比，第三代半导体SiC、GaN 材料在绝缘击穿电场、饱和漂移速度、导热率等方面有着显著优势。表 1 给出了 SiC 材料和 Si 材料的基本特性对比数据。从表 1 中参数对比可以看出 SiC 材料的绝缘击穿电场比 Si 材料大了一个数量级。在相同耐压的情况下，SiC 元件厚度约只是 Si 的 1 /10，而器件越薄，器件内部电流流通距离越短，导通电阻越小。SiC 材料的饱和漂移速度比 Si 快两倍以上。饱和漂移速度的提高决定了 SiC 器件适合更高频工作。因此，采用 SiC材料功率管能够提高电源开关频率，从而使磁性元件实现高频化、小型化，提高电源系统功率密度。此外，SiC 材料的热导率约是 Si 的三倍。热导率提高后，器件内部产生的热量就更容易释放到外部，从而降低对冷却系统的要求，同时可以大大提高功率电路的集成度。且 SiC 材料开关器件的热稳定性更好，在高温条件下的损耗变化比率优于 Si 材料器件。但 SiC 功率器件在某些应用中并无突出优势，例如其宽禁带特性使得 SiC 二极管正向导通压降比同等级 Si 二极管高 0．3 V 以上，造成 SiC 二极管在低压小功率场合应用时的通态损耗比 Si 二极管大; 另外，SiC 材料和复杂的制造工艺导致目前 SiC 器件成本稍高。
 
@@ -43,7 +43,7 @@ SiC MOSFET 适合高电压开关工作，在 600 V 以上耐压条件下与 Si M
 
 目前，商品化的SiCMOSFET有600 V、1 200 V、1 700 V系列电压等级。国内厂家已推出单管封装的1 200 V 耐压 SiC MOS 器件。此外，目前市场上已推出SiC MOSFET 和 SiC SBD 集成在一起的 SiC 大功率模块，包括 1 200 V/180 A、1 200 V/300 A 等规格。如图1 所示，模块内部电路为半桥拓扑结构，采用符合商用同类 Si IGBT 的封装结构，方便原位替代。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnTfLiaAEyIqOLicuLWVg1s0BR7ppC1bBDL6x03IweFViasDibt1Jia8vUGag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_器件在雷达电源中的应用_images\img_000_614781d774b6.png)
 
 除以上两种主要的功率器件外，还有高压 SiC PIN二极管、SiC 金属场效应管、SiC 结型场效应晶体管、SiC 双极结型晶体管等不同器件类型。总之，目前国内外的研究机构和公司在 SiC 材料生长和器件制造工艺方面已取得长足发展，相关 SiC 器件产品可满足电源高频化应用需求。
 
@@ -55,7 +55,7 @@ SiC MOSFET 适合高电压开关工作，在 600 V 以上耐压条件下与 Si M
 
 有源相控阵雷达阵面 T /Ｒ 组件要求供电电源具有低压大电流输出、变换效率高、动态响应快等特性。同时，由于安装在天线阵面上的电源受到体积、质量和工作环境条件等诸多因素的限制，对电源功率密度、可靠性也有严格要求。现阶段，地面用阵面电源输入通常为三相交流 380 V，机载电源输入为直流 270 V，输出电压根据负载需求不同一般为 8 V ～ 48 V 直流电，单个阵面电源组件的功率一般为 3 kW～10 kW。为降低电源开关损耗，电源主电路拓扑多采用移相软开关电路，如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnR3icAJxIAw4SlY6Gibic6O09DibGeL2ia46zZ8ybQyoopicTVy5aNHmf3uRQ/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在雷达电源中的应用_images/img_002_1da54caa7553.png)
 
 基于 SiC 功率器件的优势和阵面电源高功率密度、高效率、高可靠性的技术发展需求，可采用 SiC MOS 作为主开关管提高工作频率，降低无源器件体积，实现电源高功率密度目标。
 
@@ -75,7 +75,7 @@ SiC MOSFET 适合高电压开关工作，在 600 V 以上耐压条件下与 Si M
 
 大功率高压开关电源是大功率真空管发射机的关键部分，它的指标和性能直接关系到雷达发射机的性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnUkInfmqUKfTF9PzVZ7qPFbF4mMeaGb8ibPEBbUasMD2bz4ay7FyAxww/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在雷达电源中的应用_images/img_003_697c73bc42e5.png)
 
 图 3 给出高压电源常用的串联谐振型主电路拓扑。常规主开关器件 Si IGBT 由于存在电流拖尾问题，开关频率一般约为 20 kHz。与 Si IGBT 模块相比，全 SiC 的功率模块产品高频开关损耗显著降低，开关频率为 5 kHz 时全 SiC 的功率模块比 IGBT 模块的开关损耗降低 40%左右; 当开关频率为 20 kHz 时，IGBT模块开关损耗显著增大，而相同开关频率的全 SiC 功率模块开关损耗降低至 IGBT 模块的 54%以上。由于其较低的开关损耗，在相同工作条件下其电流流通能力明显优于同等级的 IGBT 器件。因此，可以证明高压开关电源中应用全 SiC 的功率模块产品可以降低器件开关损耗，并且可以通过应用新型 SiC 功率器件提高电源工作频率，减小变压器体积和质量。根据现有器件等级条件，开关频率可提升至 40 kHz～100 kHz。高压变压器次级绕组的整流电路使用的 Si 快恢复二极管存在反向恢复电流大问题，而 SiC SBD 具有耐高温、反向恢复电流几乎为零的特性，可极大地提高整流电路性能，减小开关损耗，减轻冷却系统压力，提高产品的可靠性。目前高压电源输出电压高、输出电流小，整流管的正向导通压降对整流管的损耗影响有限，可完全使用 SiC SBD 替代 Si 快恢复二极管，以有效减小开关损耗。
 
@@ -89,30 +89,30 @@ SiC MOSFET 适合高电压开关工作，在 600 V 以上耐压条件下与 Si M
 
 本文设计了一款采用 SiC MOSFET 和 SiC SBD 器件的高频开关电源，电源实物如图 4 所示。电源的主要电性能指标为: 输入直流电压 520 V( 1±15%) ; 输出直流电压36 V; 额定输出直流电流130 A; 体积为300 mm×200 mm×35 mm。其中，输出高频整流二极管选用国产的 600 V/50 A 的 SiC SBD，管压降 1．5 V; 全桥变换器主开关管选用耐压 1 200 V/导通电阻 80 mΩ 的 SiC MOS器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnuEAuoJrmGqpHPqWiaiaCq2rvBhtHHvxQ0IEB7W07Yt86rFib7xL64DrJw/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在雷达电源中的应用_images/img_004_9f4936e09c37.png)
 
 与 Si MOSFET 相比，SiC MOSFET 的驱动要求存在差异。因此，在电源应用中关键问题是需要解决 SiCMOSFET 的高频驱动电路设计问题。通常大功率 Si 制MOSFET 驱动的开通和关断电压幅值为 10 V ～ 15 V，实际应用中为保证电气隔离和电路可靠性常采用脉冲变压器来产生相同幅值的正偏和反偏电压，以省掉外加驱动电源。而 SiC 制 MOSFET 由于其材料和沟道结构 的特殊性，推荐采用+20 V左右的正向开通电压和－2 V～ －5 V 的反向关断电压，且正反向电压的上升下降边沿时间应尽可能短以减小对漏电流的影响。常规的变压器驱动方案输出的正偏和反偏电压幅值相同，需对反偏电压进行调制。本文基于 SiC 制 MOSFET高频驱动要求采用了基于光耦的驱动电路方案。该方案如图 5 所示，主要包括 X1、X2 两个隔离直流－直流电源模块和光耦 U1、驱动器 U2，其中 X1、X2 分别产生+18 V 和－5 V，并由 U2 根据光耦 U1 输出信号产生不同幅值的正偏、反偏电压，保证驱动电压上升沿和下降沿的快速性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsn7ibwe7NLBP6XFuAx9QUZ5rplTAu6xutPTDibic9ZgE8oibm7EN8Sp1auwg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在雷达电源中的应用_images/img_005_d4554f129c99.png)
 
 通过对比可以看出，图6a) 中脉冲变压器可产生±12 V 的驱动电压，满足普通 Si MOSFET 管的驱动需求，尚不适合 SiC MOSFET 所要求的+20 V 正偏和－5 V反偏电压的特殊要求，而且该驱动在电压正负转换过程中的上升、下降时间为 350 ns 左右，相对于 200 kHz以上的开关周期来说速度过慢，需减小驱动变压器寄生参数。图 6b) 为采用光耦驱动电路产生的电压波形，符合 SiC MOSFET 的正偏、反偏电压的差异化要求，且电压上升、下降时间为 40 ns 左右，满足高频应用需要，可以满足 SiC MOSFET 在高频开关电源中的驱动要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnkJUEu3viajkQpTWEcyYfVShmbN5HCEfEQRJcvQ84EBeRWzuJSTKdPtg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在雷达电源中的应用_images/img_006_86e40aaa4850.png)
 
 图 7 给出了开关频率为 270 kHz 时 SiC 管的驱动电压( Ch1，5 V/格) 和变压器原边电流( Ch2，10 A/格)实测波形，时间轴为 1 μs/格。变压器原边电流波形与采用 Si 功率管时基本一致，波形干净，没有出现明显的高频振荡，保证工作可靠性。经过测试，在原有100 kHz 工作频率上，采用 Si MOS 管测得的最高效率93．8%，应用 SiC 功率器件后电源最高效率约为 95．2%; 提高工作频率至 150 kHz～ 300 kHz，电源在半载至满载负载范围内效率曲线平稳，能够维持 92%以上，加权效率高，电源功率密度可提升至原状态的 1． 3 倍以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnM7laMmWzKCvlA5SoERl21BV5SzJw01HJ3Intoay3UFUiae5ZtsOCrAA/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在雷达电源中的应用_images/img_007_d94bec431d2b.png)
 
 **5 .结束语**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmZFa6FRhTFDSOoh2nDVDsnN0n6stskAmEBicOibQoE8xZYLAf4YHJMibnqBhXhPkD40x4N5Npsh9aaQ/640?wx_fmt=jpeg)
+![](SiC_器件在雷达电源中的应用_images/img_008_35478e6418e3.jpg)
 
 本文通过梳理 SiC 功率器件特性，分析其在雷达电源中的应用方向，设计基于 SiC MOSFET 的电源样机，对 SiC 功率器件的高频性能进行测试。对比实验数据，SiC 器件的应用能降低电源损耗，有利于提高电源功率密度。从雷达电源实际应用的角度出发，SiC器件在耐压、高频损耗、热稳定性等方面具备可靠性优势，并且已有国产化系列产品，适合雷达电源的高频化应用推广。但需要注意即使采用 SiC 器件，电源系统损耗仍随着电源组件开关频率提高而增大。因此，在设计中应兼顾功率密度和系统效率指标，合理选择开关频率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_器件在雷达电源中的应用_images/img_009_7c22e3b9a287.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_器件在雷达电源中的应用_images/img_010_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_器件在雷达电源中的应用_images/img_011_1241954b1b67.png)

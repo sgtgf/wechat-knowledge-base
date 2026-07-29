@@ -35,7 +35,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjicJToyKEmozRdMjr3u66dK5DOdTIvuXMmN0ZvELib7uCAzWBHIaYYTxX7KaibZzatRiczBoQ2M6tnLw/640?wx_fmt=png)      ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjicJToyKEmozRdMjr3u66dKtoH80VZ7XVJVs2JpN2NtuE9XYXwSqGhb70Tr4EhWN5EK2uibcnH7Pbg/640?wx_fmt=png)
+![](cadence介绍及快捷键大全_images/img_002_af29407e8a36.png)      ![](cadence介绍及快捷键大全_images/img_003_db62d004c0bd.png)
 
          orCAD原理图软件                  Allegro PCB软件
 
@@ -63,7 +63,7 @@ Cadence 是一个大型的EDA 软件，它几乎可以完成电子设计的方�
 
 PCB设计：PCB Editor,进去选Allegro PCB Design GXL。文件名后缀是**\*.BRD**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjicJToyKEmozRdMjr3u66dKy0rFqxBx5LgVkrDEe3jm7thpG3rjo1e9I0LKJF6DCQyCGgBBWGK5sw/640?wx_fmt=png)
+![](cadence介绍及快捷键大全_images/img_004_d85c7e2773d5.png)
 
   
 2、原理图库文件
@@ -72,7 +72,7 @@ PCB设计：PCB Editor,进去选Allegro PCB Design GXL。文件名后缀是**\*.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjicJToyKEmozRdMjr3u66dKP0CZfmyLkm5ropCTibaOw5kMq96QoiagogCPMt8qb8rM06qoqNgvpa0A/640?wx_fmt=png)
+![](cadence介绍及快捷键大全_images/img_005_c58d125fc7f7.png)
 
   
 
@@ -86,7 +86,7 @@ dra和psm是PCB封装，可以直接使用，pad是封装用到的焊盘。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjicJToyKEmozRdMjr3u66dKT3hyvTcQicrWWIiaMTDDqADEGakrGFpTDpyI4mQ9Zgt3D4c28dYOb4Eg/640?wx_fmt=png)
+![](cadence介绍及快捷键大全_images/img_006_fcbf4e54c7c5.png)
 
   
 

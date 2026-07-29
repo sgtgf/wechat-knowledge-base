@@ -14,7 +14,7 @@
 
 在实际工程应用中，良好的PCB布局设计对系统性能至关重要。为了充分发挥功率器件的开关特性，同时避免各种干扰因素，我们需要特别关注layout设计，尤其是如何减小回路中的寄生效应。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgeKRicCiciakG9G8GfK5Tt1qgibgz9NbiahB6lHibWR0sgISJicx8DTUdWQayJibjq79wh1uOENjPibXKPTRQ/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_002_5df9c3f0d2a3.png)
 
 在layout设计中，有三个关键因素会直接影响电源的工作性能：
 
@@ -40,67 +40,67 @@
 
 以下是InnoGaN Layout设计指导
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgF0u4xn1Phf2mxmm1goxiaGScDQZ1puJNoz3NHmZxXOwpLWD0kiaaXfKA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_003_f6cd220b1a7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgj2JH1NPgyDJfApAXe517Ae7v5tUULsyDRMpLCU1ibedWrYRw1wfF3nw/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_004_1033981b55ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgjnuLicyjSQXkATY1Hib7JEfUPVBicLvWkbaerszFFBYY68uCrgqomiausA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_005_b0d258256aaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgyvNTcPM0zniaiaBsUSwEY5z6CqB80m328jjwkyqmGsXdWqWRvIVBpNgg/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_006_c88a2fe159a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgpUugQG7kBYd9kk25n751ue4AXibibnflgdRkUOMfhAGxRg2c8YYVEiaIg/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_007_32c1510ebad5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgWEBp9NDBUx9ICxI8Z4hcWqaK7NXKV2dP8AEGqUyOqYzEv5kxkp8UrA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_008_5e16f2738057.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgfSpXXAxZHGaXzH2iclcfdyIxs6T5VticB8KnnNgm8uMMqIxrjE5LZ3Bw/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_009_7c092387f70f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgk4SqpsErWwsiaWCX7iasSfZvSjgFjIQFjFdfWDeUASMdry8Rsx8dLIpw/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_010_2bd3b1987044.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgDgiaKVXluNmAEJvjoFC25icn9LffcwweiaaDmMibRJRpHZX9ibseC6VSU6Q/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_011_aec176522a34.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgub8jaO14eZc8wibouyK9pEkNBeWdx0DtsD6bIOib6XWiab7UVQPician7xQ/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_012_a3c0dd768347.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgdsZlMicVdLhxkaEbfTTticVicsQShYAz04X89JT6LbNkINMibNsdiavjBOw/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_013_ef4e093dfd18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsggmzOP2ZZb7BvcGTt7pgs8oLdeQlDlk8BdbtgrRn0YZoib2uySAozIWA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_014_5ebf4b7fb28b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgAY8cXxAx2pcKAjibBjDW9GYvv3yefPCHtkOFbbMlhontLuy2KSpB2Eg/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_015_1daa3eff2c15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgaasqchdAjRghKQdJrhcSGUvuUsXY6EAHGbTuWRK9zoRnNBQRj2scRg/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_016_874e05313c11.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgoSAJ4TU6O1QGmiaibPe0LLyaeJEfw1fZHibl7uwF8zUYg34OxgIzoPd4w/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_017_05a4bdcd6feb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsggQXx1MxtEWpnPLNEd1NN42OQialQFEExRW1E07IQZJibCWO6XicVuAGzQ/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_018_8381d89da008.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsghJ5kKVyzPMQ8FDQGBu0iazeqdYp3g32Gfuk1OXgKoicU9xU6Ivh7uPtw/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_019_fecdebdac714.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgBXXKn8j2f9LnuicuTX2ibkbibBx3aLJNJzDc0iadiazGBibA5LLsclUfib85w/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_020_96de3f669aba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsg9EEILKibpYN2EtPBGtibyKPVZIcyyqVXD6Em9ibu7HEJvZJk1icM3Hd1eA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_021_debb50492aee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgXYuXobt9aoHpGQxicW4hfE8MuP1SmOgicRI0yIicerTlPT9Q68kgEpaKA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_022_a557180e652e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgEf82CPC9Au55B3B7gnwMX0X66Imlme7kHjPyMNTdvPdkDnuCEgekYQ/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_023_5e625543d929.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgTHVh5yH5HEuwVBicO1gTp9GGs9QUQU8NY0eWvICdDGsWcLCw9q9S4lw/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_024_016054f3c390.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgU6ibktWajSuRMtkVcugXGHe7qiaqAyLhOwXqYicdfYAPBPDE4jo92PdeA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_025_aa3a6acfabf5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgccsrSDSIMNLFjnuBFQM8vsp5cia0sgJDuQlrbtwyPuYIS7FpgcCjPaQ/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_026_173153b43c2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgCk9r1vXGFmSEHnMdZicSXMIRBx0mLqSQPOUISDYYuytpYytRHX4J48Q/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_027_15424fae371c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsghibJJbyp4b3LYNnibkrOibVrPMzMu9d8FC6gRZPvZ9mKNVcncnXJEwYYA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_028_c025a9e74513.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgApA92Qib4ax4y1SbqxqztSUk2iamgjaAnABWicX1NvxbiclicfbxdpyA2rQ/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_029_87ca5a791b05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgAFosicsUvaiatYQbLu7JUKEic5Ug35JbDJgOXZcy7KkZTNNic7O5WOrUpQ/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_030_8f9d3d1afe45.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsg9yhU2PVSicmiceGnfjZ4gOUD3YqHjZRkCgoPKLHKUvg027sibwdKib4gew/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_031_03260055a6ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgZRajWxMzctzv93HPGZkYHgT6DUial8DTMIeCgScdrLt8UZtlvDXVjjA/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_032_36bd539e6edd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhCV1p3BbWicJw2PabpeEgsgwQL2ho6eJRDnT9fuIDVfe4GLTMMTz3icgOlibm4F0qVbalEktiaL3hRSw/640?wx_fmt=png&from=appmsg)
+![](大厂开关电源layout指导_images/img_033_48e5f50df431.png)
 
 PDF来源英诺赛科，感兴趣的朋友可以查看他们的官网。
 
@@ -116,13 +116,13 @@ PDF来源英诺赛科，感兴趣的朋友可以查看他们的官网。
 
 推荐阅读（点击图片直接进入）
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](大厂开关电源layout指导_images/img_034_8f872b8ba8ee.png)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](大厂开关电源layout指导_images/img_035_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](大厂开关电源layout指导_images/img_036_8f8c22b4fa63.jpg)![图片](大厂开关电源layout指导_images/img_037_d5dcc7ecfdf3.jpg)
 
 ## 
 

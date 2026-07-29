@@ -11,7 +11,7 @@
 
 关键词：单相逆变器; 调制策略；高频开关；碳化硅器件
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5E0DjO5YusOj7lALDFqxibhFmAmpO0jfkdCnRToPic3g1mMyttyKYKTzw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_000_d724e0899490.jpg)
 
 1、引言
 
@@ -21,7 +21,7 @@
 
 图1为单相逆变器原理图，其中SiCMOSFET型号为C2M0080120D，系统输出采用LC滤波结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5icsBJF8O0N9u6aGRdSSeRoBgZkt3usvZ7wAmHaJ4bvdx1d82HDAErSQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_001_ef645f059307.jpg)
 
 图1 单相逆变器原理图
 
@@ -29,7 +29,7 @@ Fig.1 Schematic ofsingle-phase inverter
 
 系统调制策略如图2所示，调制波与载波进行比较，产生双极性PWM驱动四个SiC开关，S1和S2互补导通，S3和S4互补导通。根据图2可知，当电路工作模式改变一次，开关器件切换4次，开关损耗较大，不利于效率的提升。由于开关器件高频切换，为了避免直通，通常在同一桥臂的驱动信号中加入死区时间，导致输出电压中含有低次谐波，造成输出电压和电流畸变等问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5M7Aqa9pOYibEzvvqcHBY2333wuYuibjruic5ZSvR1GjvZc3x7IJraMKag/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_002_bf6a13742e26.jpg)
 
 图2 传统调制方案
 
@@ -37,13 +37,13 @@ Fig. 2Conventional modulation solution
 
 以图3和图4中蓝色虚线框所示的桥臂为例，由于死区的加入，开关管S1和S2在死区时间内同时关断，此时，由于电感电感电流不能突变，仍会保持上一时刻的状态，当电感电流IL>0, 如图3所示，输出电流由S2的反并联二极管续流，桥臂A点电压被管钳位至0 ,其小于实际的电压，进而会造成输出电压UAB小于理论值。当电感电流IL <0时，如图4所示，此时输出电流经S1的体二极管续流，桥臂A点电压被管钳位至直流母线电压Vdc，其大于实际的电压，进而会造成输出电压UAB大于理论值。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5KS4ibj1S2rddB8UDAOL11rCnQicIpfCna3M5lcvZJ5kW7UsUKbu84ZkQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_003_4ed1869b47dc.jpg)
 
 图3 加入死区后的工作状态(IL >0)
 
 Fig. 3 Operation state considering dead time (IL >0)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5xWdxCJibY9rgdwyuYMibicyicurDhs4fkuvOebRVuokN3kyv7ocTavUFDw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_004_f321ceee0d85.jpg)
 
 图4 加入死区后的工作状态(IL <0)
 
@@ -51,19 +51,19 @@ Fig. 4 Operation state considering dead time (IL<0)
 
 值得注意的是，开关器件存在等效并联寄生电容，电容两端电压不能突变，当IL <0时，此时若S2关断，开关S2的并联等效电容C2将通过电感电流IL充电，开关S1的并联等效电容C1通过电感电流放电。类似地，当IL>0时，S1关断，C2通过电感电流放电。该过程持续时间相对于整个开关周期来说很短，可近似认为充放电电流保持恒定，设i1和i2分别为输出电压上升和下降时的电感电流值，桥臂输出电压的自然上升时间t1和下降时间t2分别为:
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5OZhJeicbwncNIRRic32wETHPJiatGJuMJkcAcf9JE6Ljtaq6viceOY0QfA/640?wx_fmt=jpeg&from=appmsg)(1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_005_6685cfa6389a.jpg)(1)
 
 以电压上升过程为例，当上升时间t小于死区时间td，即当上升过程完成时，开关器件仍未导通，此时，桥臂电压自然地上升至直流母线电压Vdc，如果上升时间大于死区时间，死区时间结束之后开关S1立刻导通，输出电压将会被拉高到直流母线电压。所以桥臂输出电压的波形会受到死区时间的影响。
 
 为了解决上述问题，本文设计了一种改进的方案，如图5所示。和图2调制方案不同，当电路工作模式改变时，开关器件切换次数由4次减小为2次，减小了开关损耗。同时不存在桥臂直通的风险，无需加入死区，消除了死区引起的负面影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5TiaOW7AibPU5WmScxIzgibxvhfjdS06iaTKtlh5dfjwu7U08icyibwM31tpw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_006_cf2991130fa9.jpg)
 
 图5 改进调制方案
 
 Fig.5 Improved modulation solution
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5IWuoC2xuibGdVzfexU5r3jquCZxlBMMZ7acrAAWpfpCCSdkjO4icUOTQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_007_f29a6eb791d9.jpg)
 
 图6 上半周期工作模式
 
@@ -73,11 +73,11 @@ Fig.6 Operation mode during half positivecycle
 
 下半周期，开关S1和S4始终关断，S2和S3高频切换。当S1和S4关断且S2和S3导通时，电流路径如图7(a)所示，此时输出电压为Vdc。当S1、S2 、S3和S4全部关断，此时电流通过S1和S4反并联二极管D1和D4续流，电流路径如图7(b)所示，此时输出电压为Vdc。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5RPmEVLQ5VXokErtXUlPFkKLzxpTf7x7usgDvO1GwlACSCiaiapejPqgA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_008_ef9c99f8b4b2.jpg)
 
 (a) 模式三
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5NRXh9r1SNHamS2bw6wbgDw0kSmUnRMIYfGmDnPE1icGre0o71ZddxuQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_009_260920e1161c.jpg)
 
 (b) 模式四
 
@@ -99,7 +99,7 @@ Fig.7 Operation mode during half negativecycle
 
 Table I. Relationship of operation modes and switchingstates
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5Q8LG7aGiamo2YKVoIALXInsAmBa6LfeWk9NagKWJDgLyQlThxrasAow/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_010_ef9365fcc375.jpg)
 
 表中：UAB为桥臂输出电压，P为正半周期，N为负半周期
 
@@ -107,15 +107,15 @@ Table I. Relationship of operation modes and switchingstates
 
 为了验证本文提出方案的有效性，搭建了SiC逆变器系统实验平台，SiC开关型号为C2M0080120D，SiC二极管型号为C4D20120D，实验参数如下：直流母线电压200V，开关频率100kHz，输出滤波电感0.5mH，滤波电容9.4μF，调制度m0.8。图8为传统方案的实验结果，其中(a)为驱动波形，(b)为放大后的驱动波形，由图8(b)可以看出，工作模式每改变一次，开关管切换次数为4次，以t时刻为例，电路输出从Vdc改变为Vdc，此时开关S1和S4由导通切换为关断状态，S2和S3经过死区时间延时后，由关断切换为开通状态。图8(c)为四个开关器件所承受的电压波形，由于死区的影响，开关管在开通或者关断时，其两端电压存在明显畸变。在死区时间内，若输出的电感电流正向流动时，则桥臂输出电压小于理论输出电压，如图8(c)蓝圈所示。当电感电流小于0时，桥臂输出电压大于理论值，如图8(c)红圈所示，这导致了输出电压波形畸变，如图8(e)所示。此外，由于死区时间的影响，传统方案输出电压较低。图8 (d)和图8 (e)分别为滤波前和滤波后逆变器输出电压的波形及FFT分析，可以看出，由于死区的影响，输出电压含有大量低次谐波，严重影响输出电压波形质量。而且，传统方案中开关切换次数较多，系统开关损耗较大。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5c2zeMyWgSicWCZI8Vf2aWyQRgKa6BfXsRDbPKT1xqUqRKD3TK7oiavBA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_011_ff3336ee0997.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5XEsTbia6DSXoDaMuesrAp0jb2IibgsrQj4bNe372mDJIaPU0tCuzty9g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_012_b9ef3f2ce922.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5K4JyiaTLgRtarStbBvmK7Sicuua1uOYOTX3WB4GrUGTnbbic0YMqYl87Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_013_5149f04fd38c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5ZgJYFWRMwaSoJxf4WsNich0cNzXbItGOXF07nd7GN9YBBiannkOccuRQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_014_bd8d5ee98b67.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmWHys8XYXcgiaSDBYU6D2Q5w5eLAT1mbP1ZxCWuC3nrZY2wlqWzyNIfovtuP6PKzSdR4ZibAXDUr0w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_015_18b528e3a5aa.jpg)
 
 图9为改进的方案实验结果，根据图9 (a)和(b)图可知，无论是正半周期还是负半周期，同一桥臂的两个开关器件不存在直通的风险，无需加入死区，避免了死区带来的负面影响。从图9 (b)可以看出，当电路工作状态改变时，只有两个开关管状态发生改变，以t时刻为例，输出电压由Vdc向Vdc切换，此时，开关S1和S4由开通向关断状态切换，S2和S3在模式切换前后保持关断状态。此时电感电流通过二极管续流，相比于传统方案，开关切换次数减少一半，损耗减小。另一方面，开关无需加入死区时间，开关在开通或者关断时，两端电压V1~V4波形无畸变，如图9 (c)所示。同时，输出电压电流波形正弦，与传统方法相比，输出电压低次谐波含量明显减小，验证了方案的有效性。
 
@@ -129,10 +129,10 @@ Table I. Relationship of operation modes and switchingstates
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_016_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_017_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高频SiC_MOSFET单相逆变器调制策略研究_images\img_018_84aa944feb13.jpg)

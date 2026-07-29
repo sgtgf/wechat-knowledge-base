@@ -9,11 +9,11 @@
 
 **目录：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwqhzQR6OUHfVpaJibZvUKe5ibqtHRKLqib7ZBYhANkNB3Pdf136wzuvC4g/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_000_cb65515e0701.png)
 
 **应用资料：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTweQvt1ZLicE5oo5Zzjvl3Omiay1AfHm7FALiaX94oKUn0KqKI3zgOBPVzg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_001_0a4352420327.png)
 
 **1  OBC DC/DC 中 SiC MOSFET 应用场景**
 
@@ -23,7 +23,7 @@
 
 由于车载用电设备大部分为低压供电，所以动力域还需直流 DC/DC 变换器将高压动力电池的能量变化为低压，为 12V 负载系统及 12V 电池供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTw8GQWUVTCorFPSyF4wDEI7US9q3aEvDA9iaicusYUibJe35LbSUmpc64Cw/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_002_9685086d6969.png)
 
 **1.2  400V 电压平台** 
 
@@ -33,23 +33,23 @@ OBC DC/DC 系统中 SiC MOSFET 应用场景目前新能源汽车动力域高压�
 
 在 400V 单相交流输入的 OBC DC/DC 系统中，不论是 PFC 输出的直流母线电压还是 OBC 整体输出的电池电压，其波动范围都在 Si 硅基 MOSEFT 可以承受的电压范围之内。然而，随着对系统功率密度要求的逐步提升，传统二极管整流桥 Boost PFC 电路不能再满足效率和散热的要求，无桥 PFC 如图腾柱 PFC 在逐步成为业界主流。在图腾柱 PFC 拓扑中，可以利用碳化硅 SiC MOSFET 高频开关、反向恢复低和导通电阻小的优势，大大提升系统效率和功率密度，如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwvCE2P0VSISCiaZcTkOnMwH6tO8R4TLmZwUrf95ofcNdro6CdF5rqKgA/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_003_e0a4f17d7d7a.png)
 
 图腾柱 PFC 通常由快桥臂和慢桥臂组成，快桥臂由 SiC MOSFET 构成，通常开关频率可高达 100kHz。慢桥臂开关频率为工频，即 45-65Hz。对于单向 OBC 而言，慢桥臂可使用二极管。对于双向 OBC，即需要高压电池反向向电网或负载馈电的场景下，慢桥臂需要使用 Si MOSFET 或 Si IGBT 以支持能量的反向传输。为了进一步减小纹波和前级滤波器的体积，也可采用两相快桥臂交错并联的方式。图 3 和图 4 以双向 OBC 为例，示意了 SiC MOSFET 在图腾柱和交错并联图腾柱电路中的用法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwg5nsibS9PfsC6xibYvwicu4H2Q76qC3VibgDic0Kc7QwskSedQSkXiausQsg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_004_b6ed249207b7.png)
 
 **1.2.2  400V 三相 OBC 系统中 SiC MOSFET 应用场景**
 
 对于三相交流输入的 OBC 系统，其 PFC 输出的母线电压通常可能高达 900V。在这种情况下，考虑到高耐压与高效率的要求，通常选用 SiC MOSFET 而非 Si IGBT 作为开关管。OBC 的 PFC 及与 DCDC 级的原边侧都需使用 SiC MOSFET，如图 5 所示。图 6 展示了以 400V 电压平台，11kW 双向 OBC 为例的系统中 SiCMOSFET 的使用位置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwdnZIUibw6hibOtHwrQHgzL92EwL0JIz4dN7clDYo1Uh8oK3B3HqRLREQ/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_005_e2b25a509da7.png)
 
 **1.3  800V 电压平台 OBC DC/DC 系统中 SiC MOSFET 应用场景**
 
 在相同充电电流情况下，电池电压从 400V 升级到 800V 后充电速率可以加倍。为了满足大功率快充，动力域也需要持续向高压化演进。当动力电池电压平台升级到 800V，OBC 及 DC/DC 电源产品都需要从 400V 等级提升到 800V 电压等级平台。此时不论是单相或三相系统，OBC 的两级和高压转低压 DC/DC 高压侧的开关管都需要使用更高耐压的 SiC MOSFET 器件以满足系统电压等级的要求下，如图 7 所示。图 8 以 800V 电压平台下三相 OBC 及移相全桥 DC/DC 拓扑为例，说明了系统中 SiC MOSFET 的使用位置**。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwATy4TaH5phqeGNrB57qCELg912hubqD85SY5PjtLMDkaK4Ptibzlmeg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_006_cc7c67cfd329.png)
 
 **2 SiC MOSFET 应用特点**
 
@@ -57,7 +57,7 @@ OBC DC/DC 系统中 SiC MOSFET 应用场景目前新能源汽车动力域高压�
 
 如前文所述，SiC MOSFET 在 OBC DC/DC 系统中的应用场景多为高电压和高开关速率的场合，因而在开关时的 dVds/dt 比普通 Si MOSFET 显著增加。以桥式电路为例，在上管快速开通、下管关断时，下管的 Vds 会升高，此时电荷通过米勒电容 Cgd 转移至下管门极，会造成门级电压出现一个小的尖峰。根据厂家和沟道技术的不同，SiC MOSFET的阈值电压一般为2V至5V。如果在这一过程中串扰造成的电压抬升幅度超过了SiCMOSFET 开通的阈值电压，可能会造成下桥臂的误开通，从而导致上下桥臂直通，造成系统短路损坏等严重后果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwFk9TQgJicQ3Gib9C60xO1j4Kg5DJJxxWOrR5EpA1lcZUMQ3sgvYa8n6g/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_007_f447083cd671.png)
 
 **2.1 SiC MOSFET 驱动选型及设计要点**
 
@@ -65,25 +65,25 @@ OBC DC/DC 系统中 SiC MOSFET 应用场景目前新能源汽车动力域高压�
 
 驱动 IC 一般是通过拉电流 (source current)和灌电流(sink current)来给栅极电容充放电，从而实现 MOSFET或 IGBT 的开关的。为了实现 SiC MOSFET 快速开关的特性，以达到更低的开关损耗和更高开关频率，通常会需要更大的驱动电流。驱动芯片手册通常会标注其能承受的拉电流和灌电流的最大能力， 下图 10 展示了 TI 双通道隔离驱动芯片UCC21530-Q1中对拉灌电流峰值的描述。一般来说这也对应着驱动芯片输出级 MOSFET 的饱和电流。但是实际系统中最大的电流往往与供电电压、驱动电阻与驱动回路寄生参数等参数相关。图 11 展示了开关过程中驱动回路栅极电容充放电的路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwyrF5HHu31kq4gO7lFahGP8x7loMcUibZgrzKcJ0hQcJDrcz0YCP34fA/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_008_89387e97fb8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwa6GFgibN9PxkHeuxzicp3tfTaLtavqr9P7vecVic2niaicU7kjtjloVdNrg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_009_33297ae80b1a.png)
 
 MOSFET 的开通过程与对管 MOSFET 体二极管关断同时发生，所以开通速度有时受限于体二极管的反向恢复特性。另外过快开通容易造成串扰，引起对管的误导通，因而需要加以限制。而 MOSFET 的关断速度只取决于驱动电流本身。更小的关断电阻可以增大关断电流越大，提升关断速率, 降低开关损耗。如果希望通过外围电路实现更快的关断可以使用如下图 13 的电路接法。在开通过程中二极管阻断了流过 Rgl的路径，外部栅极驱动电阻为 Rgh。在关断时，外部栅极驱动电阻为 Rgl 与 Rgh 并联，驱动电阻更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTw1MhXibVibYWdxVWkCnwWibicicD6hGInycXW5YuYkrcia420Cjzruh0gqW0g/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_010_17789f61dbcc.png)
 
 **2.2.2 负压驱动**
 
 为了规避开关过程中产生的桥臂直通风险，通常 SiC MOSFET 需要使用正负压驱动，即通过负压关断确保关断过程中即使出现小的电压尖峰，也不会超过阈值电压致使 MOSFET 开通，如下图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTw8cGWe2BNTGIuia5bt7HenricLO3vpMYMNqrfu7rsWf26fTKfia7bHPmibQ/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_011_e23ae4c800bf.png)
 
 **2.2.3 米勒钳位**
 
 另一种常见的防止 SiC MOSFET 误开通的方式是搭建米勒钳位电路或使用具有米勒钳位功能的芯片，如 TI的单通道隔离驱动芯片 UCC5350-Q1等。如图 15 所示，米勒钳位功能主要通过采样栅极的电压并与阈值电压相比较，当栅极电压低于阈值电压后比较器反转，使得内置的米勒钳位 MOSFET 导通，形成一条低导通阻抗的路径。这条低阻抗路径可以将 SiCMOSFET 栅极有力关断，从而避免误导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwuBSEc6ZibVJQfnjqF4VhVT8ISupElfnichCQAtDd9wUxI2YlEb5gw8AA/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_012_81fa512956cb.png)
 
 设计米勒钳位电路也需要注意驱动芯片需要尽量靠近开关管。如果布板不够优化，米勒钳位回路过大，可能会由于走线上寄生参数的影响，使得低阻抗路径不够有效，反而会增大栅极震荡。
 
@@ -103,7 +103,7 @@ SiC MOSFET 具有高功率密度的特性， 一般会使用较高的驱动电�
 
 为了避免此类问题，可采用隔离供电的方式给 SiC MOSFET 驱动供电， 常见的方式有全桥谐振电路等。业界主流方式为用双路低边驱动如 TI 的 UCC27524-Q1 的两路输出直接驱动变压器实现隔离供电，如下图 16所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTww5lv7a1QK3kmoKLyFax59bY1jiaiaFMxswqG8X2ZcmOtsaDGiasIaqErg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_013_d28a4375565f.png)
 
 然而，使用双路低边驱动芯片如 UCC27524-Q1 驱动脉冲变压器，搭建隔离供电电路有以下几点局限性：
 
@@ -119,11 +119,11 @@ SiC MOSFET 具有高功率密度的特性， 一般会使用较高的驱动电�
 
 LLC 拓扑中，变压器漏感可以作为电路的一部分参与谐振，因而不需要刻意优化。这时变压器可以使用分立式绕法 。这种绕制方法的分布电容可以做到低于 2pF，漏感参与 LLC 电路谐振，便于系统 EMI 整体性能的优化，且 CMTI 可以做到高于 150V/ns。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwic7wYEk0icSg8CRicBdcFicEMSLjz5LQTcYm28vVt4NM4zhz1xuN5ZFVeg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_014_575a7dae8092.png)
 
 另外，UCC25800-Q1 设计时不需要额外来自 MCU/DSP 的输入信号，因此不受主控芯片布板位置的影响。直接通过调节外部电阻即可调整开关频率，外围设计简单。同时，其输出级专为驱动变压器类感性负载设计，天然承受负压与反向电流的能力更强。在 LLC 电路变压器副边侧，仅需使用两颗二极管，相比于基于双路驱动的方案节省了两颗二极管的成本 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwclfbB4MuN3yFwHErySSibSVLB9yEZDWiaKSJCBjeIlSZMdrKujGvI0wg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_015_e42da1809c8d.png)
 
 开环的 LLC 控制器需要工作在固定的输入输出电压条件下，因此前级需要增加 Boost 或 Sepic 电路使UCC25800-Q1 的输入电压稳定，具体可以参考文献\[16\] 中 UCC25800-Q1 评估板的设计方案。
 
@@ -141,7 +141,7 @@ TI 最新一代的开环推挽变压器驱动方案为 SN6507-Q1。除了推挽�
 
 • 开关管斜率控制和展频功能可以进一步减小系统共模噪声，优化 EMC 表现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwy2UYs9n72SafnmyqnkFazibuibmLhjia4maUWY87HibmxPQkicHEhLiaPZ4g/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_016_aed9768e19f0.png)
 
 需要注意的是 3.3 小节和 3.4 小节的介绍的 UCC25800-Q1 和 SN6507-Q1 都为开环的变压器驱动方案，因此其输出电压范围会随着负载变化产生波动。如果需要达到小于 1%的精度，可以通过基准电压源如 TL431-Q1或 LDO 芯片 LP2951-Q1, TPS7B84-Q1等再进行稳压。
 
@@ -149,10 +149,10 @@ TI 最新一代的开环推挽变压器驱动方案为 SN6507-Q1。除了推挽�
 
 针对 OBC DC/DC 系统对系统尺寸和功率密度越来越高的要求，TI 也推出了内部集成平面变压器的 IC 方案UCC14240-Q1。芯片同时也内置了 MOSFET 并集成了控制环路，因而外围只需很少的阻容元件即可完成电路设计，大大减小了总方案的面积和高度，也有利于产线的自动化生产。同时，UCC14240-Q1 还可以配置成为两路输出，适用于 SiC MOSFET 驱动这类需要正负压供电的应用场景, 满足了 SiC MOSFET 负压关断的需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmK76mwia3JRDTmTUicCgrZTwzgEA4g1eRHJq4v0FOBkK7TobOStOicXRmJ4kFicIjHwUyIkULlD5VXGg/640?wx_fmt=png&from=appmsg)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_017_55dc78265f29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_018_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_019_3ade3c3d8599.jpg)![](OBC_DC_DC_SiC_MOSFET_驱动选型及供电设计要点_images/img_020_84aa944feb13.jpg)

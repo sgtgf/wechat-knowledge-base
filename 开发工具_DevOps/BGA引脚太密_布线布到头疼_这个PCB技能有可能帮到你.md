@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Tfocl-1u5Gy8gRNZ-bXHhg](https://mp.weixin.qq.com/s/Tfocl-1u5Gy8gRNZ-bXHhg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_001_9011be9decf6.gif)
 
   
 
@@ -12,17 +12,17 @@
 
 咱们以iPhone6SPlus为例，这是拆盖后的图片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTV7tNFTnVOCzaavcbYueqWTnicKVTSDnpxWOzrV7xWc4eLNBX8vf7dbPA/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_002_20cd8702dbb6.png)
 
 这是板子正面图片，主要IC包括：LDDR4，调试解调IC，功率放大器模块，**包络追踪IC，还有一个可能是6轴陀螺仪和加速度计的组合。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTVcJiaHRQOZWg1lgrHQhtZINlOxN0KSoOuwAsXbKd6IBm7afnCe0IFicfw/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_003_c548f9b4c272.png)
 
   
 
 这是板子背面图片，主要IC包括：NAND 闪存，Wi-Fi模块，NFC控制器，电源管理IC，音频IC和功率放大器模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTVvMuVg1iaAA5SPtBvjmjRvwquNSukpf9ZMYibuic8ZlN0vedcDiawf985bA/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_004_d10842a830e0.png)
 
 甭管是智能手机、汽车里的各种电子设备，还是搞AI的硬件，信号跑得飞快，线路挤得满满当当。这对咱们PCB工程师是个大考验，对生产这些电路板的工厂，要求更是严苛。  
 
@@ -40,13 +40,13 @@
 
 那**盲孔**和**埋孔**啥时候上场呢？主要就是板子上实在没地方了，线路又复杂得要命，通孔一打下去，背面的走线全给堵死了，这时候就得请它们出马。目前大部分的便携式产品中，**0.65mm 间距以下的**BGA封装，都使用了盲埋孔的设计工艺。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTVuVdodegYK0IoCOGzSvIz8nRqkffF4YaqqZ5SiaYWEbFictXdp1Bdr8ug/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_005_5d30b46493f5.png)
 
 **盲孔**：你可以把它想象成半截子的孔。比如，我只想从板子正面连到下面的第二层，那我就只从正面往下打孔，打到第二层就停，绝不捅穿到背面去。这样一来，背面那块地方就干干净净，可以走别的线。一个两个省不了多少地儿，但像手机主板上那种成千上万个连接点，用上盲孔，省出来的面积可就非常可观了。
 
 **埋孔**：顾名思义就是孔完全埋在板子内部。它只管内层第二层和第三层怎么连，或者第三层和第四层怎么通，跟板子的顶层和底层都没关系，从外面根本看不出来。它和盲孔一样，都是为了让多层板里面的线路走得更顺、更密，把最金贵的表层空间给腾出来。用上埋孔，能减少信号受干扰的可能，保持传输线特性阻抗的连续性，还能节省走线空间，所以特别适合高密度、高速的电路板设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTVSILc5cmPUWlS2GicVL7QdadKLu4YHMeTHKoqj1vGVt6AGEFDxeLBaVw/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_006_6b88308ce660.png)
 
 02
 
@@ -54,7 +54,7 @@ HDI板简介
 
 说到这儿，就不得不提到**HDI板**了。这名儿听着高大上，其实就是用**上面所说的盲孔、埋孔工艺**。它的核心就两样：**微孔**和**细线**。注意啊，有埋孔的不一定是HDI（老式机械钻孔也能做埋孔），但HDI板里的埋孔，肯定是激光钻的微孔。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTVPpZT3PLJLUzA1vXJsPzXNhjjlEMC4V1jAfevTicUW32cHu09F7eI8fA/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_007_ec67d4d73cb7.png)
 
 咱们在嘉立创官网上可以看到，这里还有**一阶**、**二阶**这个词。这说的不是板子有几层，而是**制造过程有多麻烦**，得经历几次激光钻孔和压合的循环。次数越多，阶数越高，能做的线路结构就越复杂，当然，做起来越难，成本也蹭蹭往上涨。
 
@@ -62,13 +62,13 @@ HDI板简介
 
 一阶：一阶板就是先钻通L2-L5，再压上第1和6层外层铜箔，接着用激光钻出表层到次外层的盲孔（L1-L2和L6-L5）。整个过程只有一次压合和一次激光钻孔，因此称为一阶。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTVBKrNDX4gaZF4X6S9pK9aDpuNa6E8VJnxbby2nyia9puwmrMY2LL6iczQ/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_008_56ecb36d875f.png)
 
   
 
 二阶：在制作二阶板时，先钻通L3-L4埋孔，再压合形成L2-L5中间板，第一次激光钻孔L2-L3和L4-L5盲孔，然后第二次压合L1和L6，第二次激光钻孔完成L1-L2和L5-L6盲孔，最后钻通孔连接所有层。‌整个过程需两次压合和两次激光钻孔，因此称为二阶。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPFYSNUWCfdfbQQIJcdhTV2vT7vkFyyfkApNTVQ2yxn8v7qn6XXU0SAwZVDick1ZtGBf174XfNMUQ/640?wx_fmt=png&from=appmsg)
+![](BGA引脚太密_布线布到头疼_这个PCB技能有可能帮到你_images/img_009_bd74be7cd0d8.png)
 
 既然HDI盲埋孔这么好，为啥不是所有板子都用？**最实在的原因就一个字：贵！**  
 以前，一个盲孔的成本比通孔能贵出50%甚至更多，埋孔就更别提了，翻个两三倍都是常事。而且生产周期还长。所以对于很多对电路板大小要求没那么苛刻的产品来说，**稍微把板子尺寸做大一圈，可比用盲埋孔省钱多了**，这是大实话。

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/UH\_7CqSvRyX0dDiKYF1VgQ](https://mp.weixin.qq.com/s/UH_7CqSvRyX0dDiKYF1VgQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvWqzesx6PA2BzPf1yzl9mu6sOiaqqKEJDRiajmV5zKcoBfASPI2kL6ibLkCSZVJ2dFibmJzq43FIhA3INkgoa2ibJIRTic6I8Dcdj80/640?wx_fmt=png&from=appmsg)
+![](方阵都可求_Jordan_标准形吗__images/img_000_5e3e6181dcef.png)
 
 答：
 

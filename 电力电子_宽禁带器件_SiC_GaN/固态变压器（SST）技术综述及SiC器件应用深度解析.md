@@ -7,11 +7,11 @@
 
 固态变压器（Solid State Transformer, SST），也称电力电子变压器（PET），是一种利用先进电力电子变换技术和高频磁性技术，实现传统工频变压器基本功能（电压变换、电气隔离、能量传递）的新型电力变换装置。与依靠电磁感应原理、在50/60Hz工频下工作的传统变压器不同，SST采用“电力电子变换+中频变压器”的结构，在效率、功率密度和控制灵活性方面具有显著优势。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMzYw1kic0cCPibkRnicibRz7w9MzS9RWElrbdhvCg2Ylxhtay8piafwEEcVicbcY12HMEdgqQNibx46DOCDlicYmwQ2f1TGYa7bhmTwas/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_000_622b7deca2e1.png)
 
 SST的物理基础实现了根本性跃迁——以“可控的半导体开关过程”取代“被动的电磁感应过程”。其核心在于利用碳化硅（SiC）、氮化镓（GaN）等宽禁带半导体功率器件构成的主动式高速开关电路，将输入电能先进行高频调制与解调。根据变压器设计基本原理 V ∝ 1/f，将工作频率从工频提升3-4个数量级，可使中间隔离变压器的磁芯体积和重量锐减最高达90%。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0X5vibOLyZGmAgMNx8qOJmibZZqkdn2mUicxvG9OOOeAbjdf1sJH2ytFxIb99hAwtc4Rlclp1Q0gSIo44VQS3p2qEBAbCv65RviagWU7xcib6Ios/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)**图片来源:网络（台达SST核心技****术）**
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_001_bc92205b31c9.jpg)**图片来源:网络（台达SST核心技****术）**
 
 SST不仅实现了电压等级变换与电气隔离，更具备了潮流控制、无功补偿、谐波抑制等“智能”属性。业内形象地描述：传统变压器是“固定汇率的货币兑换点，只能按固定比例换钱”；而SST是“带智能风控、实时汇率调节、多币种自由兑换、跨境支付的全能银行”，实现了从“被动硬件基础设施”到“可实时调控、可智能交互、可灵活适配的能源智能终端”的跨越。
 
@@ -211,41 +211,41 @@ DAB天然具备电气隔离与双向功率流能力，移相控制策略在宽�
 
 设计研发SiC SBD芯片+分立器件，已量产电压：650V~1200V~1700V,电流：8A~100A的碳化硅二极管，自建6吋兼8吋SiC晶圆厂。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPwro0UyCYoD23PMo23Jo75zAyL8Itlx37jIAotLhBfblPaz1nuZP6EnjVB5Qiak2ZicRqvVcde3qrycplpcibgjctQ31YoHY2fxc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_002_cfb2749453e4.png)
 
   
 
 SiC SBD TO247-2封装的产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJwThmF6SA2GBxUB2Oz5gw7fHwgLkegofkyZAtJLPibyHpwX4vQkUoM8iczhWDhlMGCwKFTawPlvrAk4sfmricObtXIWG04SEHPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_003_ffd73513be58.png)
 
   
 
 1200V100A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO2SC37OJvM3MDkO0y6oouz9L1bJsrszYbDOOtcAXC4Oj4KyUyicaUJJtHZYz2mGViaHsnUVPSaPSOn7Soziaf8tOIXEH2YvEiaJN4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_004_d753deef0ae4.png)
 
 1700V75A产品关键参数表
 
 2\. SiC MOSFET器件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPsu2icSoy8zibddK7nIMMGwDj2cPcWfwFibbQA2icibtztiapKtjmW3g6DmsZiciazpDsx3SBtCSF5CsXx5jTfHxXZTzzAnZFFebMQ7JY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_005_dfc5265be2d5.png)
 
 设计研发SiC MOSFET芯片+分立器件，已量产电压650V、1200V、1500V、1700V、2000V、3300V,电流：1A~300A的碳化硅MOSFET管，自建6吋兼8吋SiC晶圆厂。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM2Xa8Ix0C9iaPSP7k6Gk11GTjrk5OGKCsR5icicYhHIBLv73GYuFGbiadjfCREziaE01UFx3qY95cSVsJYJsumfgSebnelJ1xwMviag/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_006_018091ff0e03.png)
 
 650V典型产品：内阻12毫欧、电流150A
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNF9Mv5gXPb1L70ic2LEME1WFiccdEx5xKKNAxkdr8PCIzyCL9rMVYFKJqicI28JLk5ibYbgDEtYEZtTmibGdYFGJTdnd0gq3aPcQnc/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_007_d99d1482e493.png)
 
 1200V典型产品：内阻10毫欧、电流150A、驱动电压+15~+18V/-5V
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM2rCpAUzBmzuJHgE1KYtIgAKax1xyWuQ79zG5aWkckkG6XP3mfcXbcibXgMu2MhJh3VaK8ujx6U2l7ictt75Micfib09I9czjdeqQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_008_ca0f806e1467.png)
 
 1700V典型产品：内阻14毫欧、电流120A、驱动电压+15~+18V/-5V
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjPu4OiaC3ESiamLV8M2yEFliaDbDESWAtKWJMb6icJtKvPnOFwZxXXTu9YQQCk6V06O0R45BJMyNN38Iqffadu1sL0CfJfBvJQwM/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_009_f254359546b4.png)
 
 3300V典型产品：内阻40毫欧、电流80A
 
@@ -253,41 +253,41 @@ SiC SBD TO247-2封装的产品拓扑图
 
 自建功率模块封测工厂。SiC模块电压等级从650V~1200V~1700V全系量产，封装齐全，满足车规级和工业级要求，电流30A~1000A，产品拓扑多（半桥、全桥、三相全桥），也可定制规格。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOFzP0FsrLee7Twlglco7u9ACAFx48dbZjktfnJS43uadc8RGawndWOjibtwYsAk74DicdbDxtY5YUPcCue66tlwhTawqZibRa4PQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_010_74c68cb9d588.png)
 
 第四代碳化硅MOSFET平台产品线。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNrTjST1QopeFgxm9Xib4wtVNIVlJ0jWQNSbjWN3fn4RDD8JxRIlXacXOzWtIwKkOffZdUR01qYDroVGsQAWaYMu9gZxJSaLakM/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_011_3546e0af6b9d.jpg)
 
 典型应用模块
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNNN6u9T9xebVNZHKWMVB86ShKB4k2h7vfX7uZzgCctwXnZc9tibYbe2Q6EyZdpficYDzQ4nTPgeNkW2zqz74iafuZs9vWxfkfvMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_012_3bea9c20e016.png)
 
 62mm封装外并二极管的模块拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPic8FBShXhibkrRGQDCwxx8JDjdnWcNjC58QL61gDRI039pVTLt6e6Jk7rv6g580XVVKNcYBwuekx0FBFPGhEI7DCeibVaFBzib4Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_013_6be4b8f8cdcd.png)
 
 1200V600A模块关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMxvFU1Pib0THwzDpIBavXWx7rOeicjiaic1GyIyVABKg9ibyZs9Q3BibW0o18PE8u7V3BXuHa3ZdEkpuXmtjnJGOL6y48KGQ3THJMlo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_014_1e5f21b6e9d2.png)
 
 模块二极管特性表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7bjicYApHwOO2l5icbNviattfbm6muevloC9831AMOciawCak9ANkv1VouExjibOmNlGHUbViciboDwUCwHic45kExwGhofibe2xseib2c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_015_30de42631587.png)
 
 ME3封装外并二极管的模块拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNs0VXPOBoVibNGcIAUpdUbwRpQhH9iao3rgUicjbKf6cttKXiaNCaq4zXEiaBW4u86s6uJ1o7ClYeCnEnHacaQPdMwlse49uN79DWc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_016_0f7be6e41f17.png)
 
 1700V600A模块关键参数表
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNLxFwQ33WEQMK0pnJJKKfhnTwKKn5FAqShFqibaxEaLwIgbibeVYR4Xoyx0SCibEI79xVTYPq005xlp7HIvXvgClxO3RaU6hGWsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_017_4b16aee2da82.png)
 
 模块二极管特性表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPeUBg2nprgxUFahFe5ibq5I5iadNHgDqawjf7vianXFibTYkeonlM7UwDr6D6tlicbLf4eB8l2QLegZw95NoaaklELIyPVDHS7p7icg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_018_d8015d805ad7.png)
 
 十、SiC器件选型指南
 
@@ -445,14 +445,14 @@ RC缓冲器在漏源极并联可抑制电压尖峰和振铃；
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPeMSn3gXlDt08RSl53sia42KL2vc1VwD2fialnhibFQmxgLJqAFib4PniaIkicyJ49j365MYEnbYicQ0kSgkO01z55uAChMFLIdoiaj2g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_019_bd3b1297416b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4ZawxmntsGGILYSTosxrj3WMQYHvJypYUuiaWwAEYBXOVaNbNstJ1RZVb3nZn0hTlNnXicGib9MibVhK9qEkYzP92L81nBGiaMQhM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_020_3e41e45dd451.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtgCibSEiaB0WEAHuBm2MCKCBibK5fT4ZsCEegyzTxpcDpk0ic2mbH4z3yVdEdES64VvkWWlNZoib8H4wibECHd2IKbl8IVskpa0eG0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_021_6039b7ee1c95.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOlVIsHHkHFicBicQeWEgLurD2ECwrzN2RILWbibqE0UzlNl5hYBUEfgqJYU1wrJZAODeyib0Gdkm1Efz8gqda4tHDIG1jRicExEtVo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）技术综述及SiC器件应用深度解析_images\img_022_45caf66c91b0.jpg)

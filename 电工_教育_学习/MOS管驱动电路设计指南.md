@@ -22,7 +22,7 @@
 
 文档首先详细讲解了SiC MOSFET的结构特点
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaztkK6CiclmkvuRaUQofEa6JGicygRMNdr4rlI8lEycnPtfE7sDiazKIbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_002_177ca33cb74c.png)
 
 平面型和沟槽型两种结构对比
 
@@ -32,7 +32,7 @@
 
 这些内容我公众号以前已经写了很多，这里不再重复说了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa43uia9zakunjB27mluefRI8j5s13gPjgAaHYau2Z3710EuncWHyQ0Kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_003_996da202aee3.png)
 
 寄生电容等价回路
 
@@ -48,7 +48,7 @@
 
 SiC MOS管开关快是优点，但也带来一堆头疼问题：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaRhyLmvOVFvJUiavVSibJUicCuoqvHBaia6hGX4Gfibl0jF9F2FhKXL4Cicdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_004_8dc3787f9bbd.png)
 
 同步整流方式 BOOST 回路
 
@@ -57,7 +57,7 @@ SiC MOS管开关快是优点，但也带来一堆头疼问题：
 -   **开关损耗大**：开关频率越高，损耗越高，器件发热越大。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaGjf5sV0ZLRicRmsV6Gb8jcqRypEiaG42HfuOkHoknvkEIVE1xvWNb9ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_005_6e9e2d484b39.png)
 
 器件的损失波形
 
@@ -66,7 +66,7 @@ SiC MOS管开关快是优点，但也带来一堆头疼问题：
 -   **浪涌电压**：关断瞬间，可能产生很高的浪涌电压，一不小心就超压炸管。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaJb9U0W9GBqW55mDvs39k52wubUibD2jh9TeLic1WKJcaPwWaN7QMEibXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_006_09a300d1b21a.png)
 
 VDS 浪涌波形- RG\_EXT 特性
 
@@ -76,7 +76,7 @@ VDS 浪涌波形- RG\_EXT 特性
 
 一是"正电压上升"（由米勒电容耦合和回路电感引起，可能导致自导通）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa2hI3UgrXWy2FShAXKrEpGHG1mAJR5ShUIq9jkGibibwQNcoP3hYRO3IQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_007_5087c18d626b.png)
 
 栅极-源极电压的动作示意等效回路图（LS 侧导通时）
 
@@ -86,7 +86,7 @@ VDS 浪涌波形- RG\_EXT 特性
 
 二是"负浪涌"（电流换流时源极电感效应将栅极电压拉低）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa4GEF8GOkTEPQGgyyVLOxbO1EvKSJko9CGBiawxkpZJIXdsteJOpxOCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_008_5657b2ba2fdc.png)
 
 栅极源极电压的动作示意等效回路图（LS 侧关闭时）
 
@@ -103,7 +103,7 @@ VDS 浪涌波形- RG\_EXT 特性
 
 MOS管在不应导通时，因栅极电压异常升高而意外导通，这种现象通常发生在半桥电路中当一侧开关管快速导通时，通过米勒电容(Cgd)耦合使另一侧管子的栅极产生正电压尖峰，若超过阈值电压(VGS(th))就会导致上下管同时导通形成短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaxgcxtYSYvBgtFdLaw9KEXfSGZagJmibH42kyYpW0XNf8GVRTV0iaJh0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_009_89f2e4097f6c.png)
 
 自导通时的 LS 电流
 
@@ -117,7 +117,7 @@ MOS管在不应导通时，因栅极电压异常升高而意外导通，这种�
 
 1、普通MCU那点输出电流根本带不动 SiC MOS管，必须靠栅极驱动器IC来放大信号。栅极驱动电压是确保功率器件可靠工作的关键参数，ROHM的SiC MOS管推荐使用15~18V的正向驱动电压(VGH)和0V的关断电压(VGL)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaUfYjQuLXWED8xLjKWA4V2dAicNYD6JjOU8LNhF1yseZbXHQRMBRgUeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_010_6cc9a41d78fa.png)
 
 LowSide 型”栅极驱动回路概要
 
@@ -129,7 +129,7 @@ LowSide 型”栅极驱动回路概要
 
  在大多数时候，咱们的栅极信号源的微控制器 (MCU) 的 GND电平与功率器件的源电平（VS\_HS,VS\_LS）往往是不同的，为了施加最佳的栅极-源极电压，需要对 MCU 信号进行电平转换。这也是栅极驱动器的重要作用之一。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaYocibZ3BnF2ufV3RvRRwImQmGLCJwxicqUBQMVicicq5YUABFLchl6Kxbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_011_c26792d8c6ec.png)
 
 电平转换”型栅极驱动回路
 
@@ -139,7 +139,7 @@ LowSide 型”栅极驱动回路概要
 
 在高压大电流应用中，主电路可能达到几百伏电压和几十安电流。如果控制系统和功率电路之间没有电气隔离，一旦发生故障可能导致漏电甚至触电危险。因此必须使用带隔离功能的栅极驱动IC，这样即使功率侧出现异常，也能有效保护控制电路和使用者的安全。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaJAjrkUFib4QB4F9N4t31nmJgicELVk9AIHd3iaszPYGCJkXbkmldibl5Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_012_b63e7e7eea97.png)
 
 “绝缘型”栅极驱动回路
 
@@ -155,19 +155,19 @@ LowSide 型”栅极驱动回路概要
 
 光耦隔离：光耦合由一个发光元件（发光端）和一个受光元件（受光端）组成，输入光耦合器的电流信号通过内部元件转换成光信号，并从发光端传输到受光端。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaUvRUdMTH54iaoyaXD6NicQEVGrIDRhBxuRcdbbSX7T1UR3buHlATSibbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_013_18ae09e023dd.png)
 
 光耦隔离
 
 磁隔离：这种方法在输入和输出端使用线圈，在隔离的线圈之间传递信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaxQLY3mxF0fUzRB57PUd1bBpYVo8bvpnYbCVfV6p7KH0EhqSlcAdMicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_014_59698a01667b.png)
 
 磁隔离
 
 容隔离：使用 SiO2 电容、实现输入侧(Transmitter)和输出侧(Receiver)的绝缘、在被绝缘的电容之间传递 AC 信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxavCricV1UFfMtHRMUFbUJI7DfuvSJX3e0rgicfzdicURiatibOQjXmllMianQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_015_205b53486af1.png)
 
 容隔离
 
@@ -187,7 +187,7 @@ LowSide 型”栅极驱动回路概要
 
 案例有元件选型依据和计算过程，并附有完整参考电路图，照着抄作业也能少走弯路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa6FX1ibEZZpqDtBoYGNuqMnlevVYzCle7L6ggicd1g7l1alTkLMbKdCQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_016_06e4aa125327.png)
 
 SCT4018KR 栅极电路图示例
 
@@ -221,11 +221,11 @@ SiC MOS管性能强，但驱动设计得仔细——电压、电阻、布线、�
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1sr0kLVdbfEJJFneWHVibia1JDiczKhUcFUVcP67kGuVqCCxrRmfA0xZib4A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_017_94c73c518e3d.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjmwtF6nMUAQqAa1cyEdlvL3NYQBBqsVhlXicpGsSN3s8GxXDtribFvaq668JcbrraxY8tAmCibN0iaJA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=o4zljwmu&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjmwtF6nMUAQqAa1cyEdlvLOiasB7xzWboEIvUYzElWJprquOpg9xDHKiaZ0G8LeW13BDyGR3oUGP1Q/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=8kynb692&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_018_018f3800a5e9.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计指南_images\img_019_b742df5d3a52.jpg)
 
 ## 
 

@@ -7,49 +7,49 @@
 
 约束能量最小化（Constrained Energy Minimization，CEM）算法由 Harsanyi 于1993 年提出。其设计思想源于数字信号处理领域的线性约束最小方差（Linearly Constrained Minimum Variance，LCMV）波束形成方法，核心目标是在保持目标信号响应不变的前提下，最小化滤波器输出的总能量，从而最大程度抑制背景干扰。
 
-假设高光谱图像为![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaJOhZicjLbacuNnKdSg6BSV2BtAVvhI9BWibUBN11IONY7Jbvz0xn2A2A/640?wx_fmt=png)，其中![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Biaf5W5rVFTSQL80Sj2jVXicklIZbZSpBvsPGiaibxGzSyUOiaTiayWwoOZxxw/640?wx_fmt=png)是图像中的第_i_个像元；假设感兴趣目标光谱为**d**。CEM致力于寻求一个滤波向量**w**，使得目标经过该滤波器时输出为1，即![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Bia0mIbGVstqGbXIVibcQZHg0I9CQBluiaNzQByWcqmpVib3ckibDIZfLvCHg/640?wx_fmt=png)。而背景经过该滤波器的输出尽量小。
+假设高光谱图像为![](约束能量最小化（CEM）_images/img_000_146759c0fd5a.png)，其中![](约束能量最小化（CEM）_images/img_001_76559d906714.png)是图像中的第_i_个像元；假设感兴趣目标光谱为**d**。CEM致力于寻求一个滤波向量**w**，使得目标经过该滤波器时输出为1，即![](约束能量最小化（CEM）_images/img_002_56a346691908.png)。而背景经过该滤波器的输出尽量小。
 
-对于像元![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Biaf5W5rVFTSQL80Sj2jVXicklIZbZSpBvsPGiaibxGzSyUOiaTiayWwoOZxxw/640?wx_fmt=png)，假设其经过滤波器后的输出为![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaELCaZ6iakwibL3cxOxExv9cvyRNpIr6VAN9twLsUZPPYpxWFKWsiamY3g/640?wx_fmt=png)，即![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Bia2lcTQUe0gibRRZ8h5WBqSWRHHnEtZpia8cT8C40kkApeEPN6NBxAEM4Q/640?wx_fmt=png)，而像元![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Biaf5W5rVFTSQL80Sj2jVXicklIZbZSpBvsPGiaibxGzSyUOiaTiayWwoOZxxw/640?wx_fmt=png)的输出能量通常用![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaXVuCzOGoDrfPg3MRCr11iccR4Zl30dSzBTTAezDOiawVynlFKpe5oXdw/640?wx_fmt=png)表示。因此，对于滤波向量**w**，所有像元的平均输出能量为
+对于像元![](约束能量最小化（CEM）_images/img_003_76559d906714.png)，假设其经过滤波器后的输出为![](约束能量最小化（CEM）_images/img_004_1a135c963135.png)，即![](约束能量最小化（CEM）_images/img_005_c62493df3b10.png)，而像元![](约束能量最小化（CEM）_images/img_006_76559d906714.png)的输出能量通常用![](约束能量最小化（CEM）_images/img_007_49ab18925634.png)表示。因此，对于滤波向量**w**，所有像元的平均输出能量为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaMUXeQQ4CeRtPTID9tl4QPK7aIgIiaPAM61j0oGd7I5pRuMyH4SGW19Q/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_008_a6094581e341.png)
 
 记
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiahoghGWShyasBS7drriaZgQNPZ0Zia0Y1892MfWtyMyM71S7ZccM1lt7A/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_009_caa6c48fd86b.png)
 
 则CEM优化模型可以表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaFfy1tK5mHCLKVhAAcYhJXzTxdLJn4Rf0QpG5xibCMgPDr44k5vTGufA/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_010_7570ecee7958.png)
 
 模型（1）为等式约束的二次优化模型，可以用拉格朗日乘子法对其进行求解。
 
 首先，建立优化模型的拉格朗日函数为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Bia9shDMLR3Ms632LkEpWCwLy9UUogPBDprZYJFkR0icIzRlRov2SvFNtw/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_011_b8b751dd9913.png)
 
 上式两边对**w**求导，得
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaVy1nZgxP8OocU0NiaufyyOICaelVbsAicY06cLianDhuEQNDFXguQAYwQ/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_012_b1511fa8b33e.png)
 
-模型（1）的最优解必然在偏导数等于零向量的地方达到，因此，令![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiapeSCcxfmib5FYib8S0Lmb9CE2FfslvdXR3qNzBkjGoAtUsdj0rOjiaicUQ/640?wx_fmt=png)，可得
+模型（1）的最优解必然在偏导数等于零向量的地方达到，因此，令![](约束能量最小化（CEM）_images/img_013_ebc033b84b96.png)，可得
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaWAjb2GXuvAyWzsaHQKQCDjG0RzMCJxgWsabJlnN6SRTibFVmXXyMGMA/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_014_7bbf461172da.png)
 
 从（4）可以解得
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaLNogWRKEUn4JHqV75Y8dY1RDIiayuibpqJ8oR9Vmd636ZVy7YW4u5j1Q/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_015_efb11fcf262d.png)
 
-将上式代入约束条件![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Bia5m2qia8jk4UFO7C6adjWf7j82wdcwExzRNF84tPDJ84x5elw1AeqlEg/640?wx_fmt=png)，可得
+将上式代入约束条件![](约束能量最小化（CEM）_images/img_016_2236614aaf5b.png)，可得
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mDHat77xqZZgFWYsR1wOiaaDOVFKUfyAeXHib8nyrniaWfo1SsoQkPEILLkGJdsTQRjCflZyD2k4SwGA/640?wx_fmt=png&from=appmsg)
+![](约束能量最小化（CEM）_images/img_017_5af4edef8f86.png)
 
 将（6）代入（5），可得CEM的滤波向量解为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiabQ5X11Du9Rq4o1Ty5M70Z6405fDbIzbvUCjrp1yylFhPEvMMELbAibw/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_018_b10f19caf1f0.png)
 
 将**w**作用于原始数据**X**，即可得到感兴趣目标**d**的检测结果_Y_，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2Bia0YvAwtQKMAuVV2OTHM2qdxkJWdKQLOjGMREnhjhVwnMDj7aUZSEpOw/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_019_3c3661a46251.png)
 
 注意到，_Y_是一个_N_维行向量，将其变形为相应的矩阵，即为小目标在图像上的分布图。
 
@@ -59,7 +59,7 @@
 
 此处不妨插入一段历史往事：早年我曾提出一种解混方法，先提取端元，然后计算单形体各条“高”的方向，并将像元往这些方向上投影，从而分别获得各个端元的丰度图。这一思路当时得到了我的授业老恩师童庆禧院士的赞赏，他甚至专门组织了一次小组学术会议，为该方法命名。最终，有两个名称入选：端元向量法与端元投影向量法。童老师更倾向于前者，而我当时更偏爱后者，觉得后者更贴近方法的技术细节。但如今回望，感觉姜还是老的辣，老恩师的命名更加简洁、精炼，恰到好处。不过，令人遗憾的是，这项工作后来被某大学的一位S老师拿去，作为主要内容在国外发表了文章，并据此申请了国家自然科学基金。不巧的是，这份基金申请材料最终落入我手。记得当时我给出的评审意见为：建议该老师离开学术圈。遗憾的是，S老师并未采纳我的善意建议。不仅没有离开学术圈，反而一路灌水，如今已是教授、博导，桃李满园。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC124TZhfSEejTETIbAR2BiaTWlacIHXgVU2gkjUH2JsrFS7TWiaTRKHCuicQ81tmBUk6ib3Fh83S0PicA/640?wx_fmt=png)
+![](约束能量最小化（CEM）_images/img_020_9f2f2a092e8b.png)
 
 图1. 端元投影向量法。混合像元分解本质上也相当于各个像元在相应方向的投影
 

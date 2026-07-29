@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/SnwcWZy3OoxNVHEpfNU2HQ](https://mp.weixin.qq.com/s/SnwcWZy3OoxNVHEpfNU2HQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgJK9FA7uKcL6eR9Z0NNb3WFhjlpYeJpXjm8x4s4HY3DIjrWPeWjfuJA/640?wx_fmt=jpeg&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_000_200096ef0b70.jpg)  
 
 《碳化硅功率器件：特性、测试和应用技术》是2021年机械工业出版社出版的图书。本书介绍了碳化硅功率器件的基本原理、特性、测试方法及应用技术，概括了近年学术界和工业界的\*新研究成果。
 
@@ -29,23 +29,23 @@
 
 本书面向电力电子-新能源技术和功率半导体器件等领域的广大工程技术人员和科研工作者，可满足人事器件设计-封装-测试-应用专业人员的知识和技术需求。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgA1gl2cGh5ygjibS6mWI8icFUvWga7Cbb6oLI35PRttFzomr5LKC9AsJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_001_21a0d1e1817e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgGVC1OAde6vj3X0hL7iaYmO4icd0ribXGk8kVlOgQMl8L49wicTZKTbWiaEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_002_075fcc8a3b80.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgYKiaiaZYiauC2SAibRFYaw505BTj7PbYFHwgWDRLX0RF3PjZvo4YkNwrmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_003_ad6850a321b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgznnrtK13WzBEclZDTqJXOvokxOR8zaIhjQFUjlh6NdOKHxfxhrX14A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_004_15135d72ac37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEg7YybATjXNOXicQEO6XelHoLVficeDfYkg1TK7icLtqd1bEvjeNDqmUpJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_005_948496e4001c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgSwlk4aL27Uu68bwmITWo8RkuPeaHYfT0axrMuMyBfmLQFZnyzF8qdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_006_4460e595b5cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgpsVGKzUrGX8RibpoKpjCCUxImm8icyuDWdXlfm4iblBXw9bOTNhZDHZ0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_007_d9b96acf1a6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgo62g5k1FjRtQqXZnntGbpMTkHCZS29UQY4B1DCyvyrIEssN7m5Tw4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_008_f3f4e57de192.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEg1BApGiaY4xVJqd10cEQ34LqibXj0xsCPj9bv8HVc5VXXZKjW4tG2LyibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_009_1e72838746c1.png)
 
 功率变换器是电能利用的重要装置，在生产和生活中发挥着重要的作用。功率变换器的核心是功率半导体器件，很大程度上决定了功率变换器的性能。经过近几十年的发展，功率半导体器件已经形成了覆盖几伏到几千伏、几安到几千安的庞大家族，常用的功率半导体器件类型包括MOSFET、IGBT、二极管、晶闸管、GTO晶闸管等。
 
@@ -53,10 +53,10 @@
 
   作者致力于功率半导体器件测试、评估与应用技术的研究和推广工作，特别对SiC功率器件有深入研究和深刻认知，精通器件测试设备和测量方法。在多年的研究工作中，作者深深地体会到掌握功率器件原理、测量原理与设备、相关应用技术对更好地开展相关研究和提升变换器特性具有重要意义，同时还了解到广大科研人员和工程师对了解和掌握SiC器件相关知识和技术的迫切需求，本书正是在这种背景下编写的，旨在帮助读者深入了解SiC器件的特性和测试方法，明确可能存在的应用技术挑战并掌握应对措施。这样既可以帮助科研工作者快速掌握本领域的最新重要成果，为科研工作提供坚实的基础，还能够帮助广大工程师更好地应用SiC器件，推进行业的发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaAWSXFuaSXvia8PjQ4udicW16iam0v4kcOic7u4fWpxTjEPwjXovUs1FfWJpnBPeaEvSrPIib71iafKQQ/640?wx_fmt=png&from=appmsg)高远，现任泰科天润应用测试中心总监。中国电工技术学会电力电子专业委员会高级会员及青年工程师工作组委员，第三代半导体产业技术创新战略联盟产业导师，泰克科技电源功率器件领域外部专家。2008年保送进入西安交通大学钱学森实验班，2012年和2015年于西安交通大学分别获得电气工程专业学士和硕士学位。毕业后加入台达电子从事未来先进电源技术研发工作。主要从事功率半导体器件的特性测试、评估及应用的关键技术研究工作，致力于推进功率半导体器件教育在高等学校普及和推广先进功率器件在工业界应用。发表学术论文8篇，授权专利4项，出版专著《碳化硅功率器件：特性、测试和应用技术》，收录于机械工业出版社“电力电子新技术系列图书”和“半导体与集成电路关键技术丛书”，并列入“十四五”国家重点出版物。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_010_64192f030a18.png)高远，现任泰科天润应用测试中心总监。中国电工技术学会电力电子专业委员会高级会员及青年工程师工作组委员，第三代半导体产业技术创新战略联盟产业导师，泰克科技电源功率器件领域外部专家。2008年保送进入西安交通大学钱学森实验班，2012年和2015年于西安交通大学分别获得电气工程专业学士和硕士学位。毕业后加入台达电子从事未来先进电源技术研发工作。主要从事功率半导体器件的特性测试、评估及应用的关键技术研究工作，致力于推进功率半导体器件教育在高等学校普及和推广先进功率器件在工业界应用。发表学术论文8篇，授权专利4项，出版专著《碳化硅功率器件：特性、测试和应用技术》，收录于机械工业出版社“电力电子新技术系列图书”和“半导体与集成电路关键技术丛书”，并列入“十四五”国家重点出版物。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_011_ecce5de33065.jpg)
 
 -   **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
     
--   ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+-   ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_012_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件书籍分享_碳化硅功率器件_特性_测试和应用技术（附电子版）_images\img_013_84aa944feb13.jpg)

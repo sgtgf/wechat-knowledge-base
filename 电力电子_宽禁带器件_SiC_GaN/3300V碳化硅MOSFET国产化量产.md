@@ -7,11 +7,11 @@
 
        第三代半导体材料具有更宽的禁带宽度、更高的击穿电场、更优的热导率、更高的电子饱和速率以及更强的抗辐射能力，更适于制作高压、高温、高频、抗辐射及大功率器件。目前在高压大功率器件领域，SiC材料最被广泛看好。随着轨道交通技术的发展，人们对车辆的节能、噪声及轻量化等技术指标提出了更高要求。高压全SiC MOSFET器件技术的日趋成熟恰好能满足轨道交通发展应用需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnsCda6yzkWYibBtBqwudw2G5JmsmdibT1HNdGjD3LkUpNpLQZAlv5c1oWiaot6eE6ibVI1XMgkH4J61w/640?wx_fmt=jpeg&from=appmsg)
+![](3300V碳化硅MOSFET国产化量产_images/img_000_1d144cd7490f.jpg)
 
       碳化硅器件在电力电子系统中应用越来越广泛。在国家的双碳目标下，新能源领域的产品节能化，碳化硅MOSFET器件在众多产品上慢慢替代传统硅IGBT器件。在新能源汽车上的应用成为最好的案例。通过将硅基IGBT替换成碳化硅器件，不仅可以改善器件的整体性能，降低散热设计难度，而且可以降低整车的整体的成本。虽然碳化硅功率器件比IGBT这类的硅功率器件价格贵，但由于其损耗低，重量轻，可以有效增加整车续航能力，从而降低整车成本。碳化硅功率管，电路简单，而且开关频率高，从而可以使用更小型、更轻量的磁性元件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnsCda6yzkWYibBtBqwudw2GbR7nMMhSqibvyRclkPAqkNibt3uVWO5aR6V5cMAgFXFTdae5nMa70icJw/640?wx_fmt=png&from=appmsg)
+![](3300V碳化硅MOSFET国产化量产_images/img_001_2486337abc09.png)
 
 常规碳化硅器件的耐压在650V-1200V-1700V的较多，3300V这种高压的产品，难点在于产品设计和生产工艺。器件在应用上，也有很多要注意的。
 
@@ -41,7 +41,7 @@
 
 **封装示意图：**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmGRdfiayRibCvuNum6ZdGlGltIcPzkwtzrs9GtOk853Pn5A2y1qicKI1ibRqHNzdibTvSO7vicpjDpYQ0g/640?wx_fmt=png&from=appmsg)
+![](3300V碳化硅MOSFET国产化量产_images/img_002_dabf36412df0.png)
 
 **产品应用 ：**
 
@@ -63,11 +63,11 @@
 
 **产品参数：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnsCda6yzkWYibBtBqwudw2Ghs36n2WYNp22QuAZKOOYcyIHmLF7KxNv0bmUK8v5n144AgicrJkB5IQ/640?wx_fmt=png&from=appmsg)
+![](3300V碳化硅MOSFET国产化量产_images/img_003_68d9a4974c39.png)
 
 **产品图：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmGRdfiayRibCvuNum6ZdGlGlonOlYju3Y3wWkUFF2Qa4a4NPKpbNMPkJvMJlLhR9qgW5hEUr4ictJ1A/640?wx_fmt=jpeg&from=appmsg)
+![](3300V碳化硅MOSFET国产化量产_images/img_004_fd3ff16dbd6e.jpg)
 
 **产品规格：**
 
@@ -77,7 +77,7 @@
 
 ****新产品和新产品:****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnsCda6yzkWYibBtBqwudw2GVO3vBsKGos0rQPxSyWicNVgYYKsXTn254xjCT8gosBGFtcQicKPFHo2g/640?wx_fmt=png&from=appmsg)
+![](3300V碳化硅MOSFET国产化量产_images/img_005_70e7cda2d415.png)
 
 **产品应用参考资料：**
 
@@ -90,8 +90,8 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](3300V碳化硅MOSFET国产化量产_images/img_006_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](3300V碳化硅MOSFET国产化量产_images/img_007_3ade3c3d8599.jpg)![](3300V碳化硅MOSFET国产化量产_images/img_008_84aa944feb13.jpg)

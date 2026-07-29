@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/oc1CrkKotliXKTrNKU0Qgg](https://mp.weixin.qq.com/s/oc1CrkKotliXKTrNKU0Qgg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRgyibE9PLhAm9F6M9xxsYHKicGtssfoUQ3jyH1IKc1o5qZZQLfOicsJFgBnkia1fUSPeGiaPB9nicnsiaRQ/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_000_4199c7c248c1.png)
 
 ____**★★★**______SCD-7---MOS管驱动MOS管______**★★★**____
 
@@ -11,13 +11,13 @@ ____**★★★**______SCD-7---MOS管驱动MOS管______**★★★**____
 
 ____________€1.NMOS驱动PMOS____________
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0ZhFaYOh4vQM3IwZg5zmZfic0PUwOQKSpT4L4S8CRWFOdsibxk6mJUqty7Q/640?wx_fmt=png)_
+_![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_001_02c11a0e30a2.png)_
 
 **_图7-1：BJT驱动PMOS电路_**
 
 根据上节说到的PMOS的自驱效应，将开关SW从BJT更换为MOS可以得到如**_图7-2_**所示的NMOS驱动PMOS电路。R1为偏置电阻，R2为Q1的栅极电阻，也是一枚分压电阻，R3为Q2的栅极电阻，R4为偏置电阻，其中，R1，R4必要，R2，R3为非必要。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0Zhr6GthfCEBAtJicCuictAN1IvrKp9K5ZUEQMmIa7kXLI8DV8hacPIodEQ/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_002_604fca2300a8.png)
 
 **_图7-2：NMOS驱动PMOS电路_**
 
@@ -27,7 +27,7 @@ ____________€2.NMOS驱动NMOS____________
 
 因为NMOS经常用作低边开关，而NMOS的低边开关很容易驱动，所以一般都不需要额外增加驱动电路。如**_图7-3_**是带电荷泵NMOS驱动NMOS的高边开关，但很不常用，如果板级有额外高于Vin的电压Vdd，则可以去掉Charge Pump，直接使用分立开关控制Vdd和G极的通断。如果Charge Pump支持en使能，那么就可以去掉去掉G极驱动NMOS，直接使用GPIO控制Charge Pump的en，使能Charge Pump，输出高电压，干路MOS导通，不使能Charge Pump，不输出高电压，干路NMOS关断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0Zh8KZEc9VNiaeXAVoS1etFNPLs2duKGIkD27tFlIwibstbxQhlYa1Kjc8g/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_003_2dffd4e10377.png)
 
 **_图7-3：带电荷泵NMOS驱动NMOS高边开关_**
 
@@ -39,23 +39,23 @@ _设计分析：_这里如果选用NMOS，则需要有高于12V的电压施加�
 
 _器件选型：_根据VDSS＞12V，IDSS＞10A，Vin=12V，G极施加电平可以自取12V，并且增加MOS驱动电路可以做到可调，所选PMOS的VGSTH可以比较宽泛，但要求VGS耐压大于12V。对于选用的驱动NMOS，PMOS的G极电流本就不大，可以选用普通的小信号MOS，并且耐压＞12V，成本低廉。这里选用Nexperia的PMOS：PXP010-20QX，NMOS：BSH103BK，相关参数如**_图7-4_**至**_图7-6_**。注意选用的PXP010-20QX，其-1V＜VGSTH＜-0.5V，-0.5V与GND-0V比较接近，这里存在一定的隐患，我们可以选用PXP9R1-30QL，其-2.5V＜VGSTH＜-1V，距离GND-0V比较远，导通关闭的界限比较安全。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQzFk2AX0ibYM3jCFrpibxHJGqA7n9SjVO9Wicve884ibKpzYwtLMP980ITAwtw1YVdrlTibybWbokc3lg/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_004_90c90b0e6eef.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQzFk2AX0ibYM3jCFrpibxHJGfibS35TPkFmiat9pqwyiaTwHLDAic4rgvLEwpzdU9Pyun4QEqjOsb1NQibg/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_005_2216eb60fbc7.png)
 
 **_图7-4：PXP010-20QX电气参数_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQzFk2AX0ibYM3jCFrpibxHJGpicRmhsmv1vlSTic5s5xxmIDPNNdgGp8Jort1dyXKyDo7cYfCxsjCDow/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_006_fca8feb37d66.png)
 
 **_图7-5：PXP9R1-30QL电气参数_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQzFk2AX0ibYM3jCFrpibxHJGgac1kwEibpYId8226iaS27F2uuRAdNiatjOGHAEbp55jQ1h42klBZy6hQ/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_007_a626186901b7.png)
 
 **_图7-6：BSH103BK电气参数_**
 
 _设计结果：_Ctrl输出3.3V高电平时，Q2导通，R1和R2组成分压电路，当R1远大于R2，Vg-Vs≈12V，PMOS导通；Ctrl输出0V低电平时，Q2关断，此时Vg-Vs≈0V，PMOS关断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0Zhickic3icpneRmY5FiaQK4KSbF58xLz7WWahQ8RD9icxlE3EpkdnIGG2gLQQ/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_008_b5b20d56381c.png)
 
 **_图7-7：设计结果_**
 
@@ -63,7 +63,7 @@ _功耗和电流泄漏分析：_根据**_图7-7_**，通常使用一个单独的
 
 ____________€4.使用举例____________
 
-____![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0Zhqbnh9dB3L2RgHLDzdk7L7ODfCOTyFnFeVAo2IIVYC3pSaqbFwuyWGQ/640?wx_fmt=png)____
+____![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_009_5cd536ff7e10.png)____
 
 **_图7-8：驱动实例_**
 
@@ -73,12 +73,12 @@ ____________€5.背靠背驱动拓扑____________
 
 **_图7-9_**显示了使用分立P通道MOSFET实现的双向电源开关，在栅源之间有一个额外的电容有助于控制两个电流流方向上的涌电流。然而，P-MOSFET比N-MOSFET价格普遍更贵，Rdson也普遍高。该电路对MOSFET没有热保护，因此，需要考虑大电流散热问题，提供更高的设计裕度。**_图7-9_**为共源极示例，共漏极驱动也类似，可以回顾之前共漏极的基本驱动（传送门：[SCD-4：如何用双MOS设计分立式负载开关？](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490402&idx=1&sn=65f5039866a53eea5f7a7e302d1df78c&chksm=c33551fdf442d8ebd88891c0a23b0dc16cab833aa06872d8c79ff8469203378d6b4eb1fbc46b&scene=21#wechat_redirect)）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0ZhlLTkgia1KNcVbEzpzva8fzp8oibk177jqSxAQ49kp4Lsbz6edF1rP5XA/640?wx_fmt=jpeg)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_010_c3332f18bd88.jpg)
 
 **_图7-9：NMOS驱动背靠背PMOS开关_**  
 
 使用NMOS驱动背靠背连接的N通道MOSFET的双向电源开关如**_图7-10_**所示。充电泵电路提供足够的门驱动电压来打开两个N通道MOS。尽管实现提供了低Rdson和价格较低的N-MOSFETS，但复杂的驱动电路占据了更多的板空间，也引起了对电路鲁棒性的关注。与**_图7-9_**类似，该电路也不为MOSFET提供热保护，因此需要考虑更大体积的MOSFET以获得更高的散热设计裕度。**_图7-10_**为共源极示例，共漏极驱动也类似，可以回顾之前共漏极的基本驱动（传送门：[SCD-4：如何用双MOS设计分立式负载开关？](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490402&idx=1&sn=65f5039866a53eea5f7a7e302d1df78c&chksm=c33551fdf442d8ebd88891c0a23b0dc16cab833aa06872d8c79ff8469203378d6b4eb1fbc46b&scene=21#wechat_redirect)）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvpwwgPg5Vyteicicu3kia0ZhOweKCia7nmHbnd2Q8dnTDYfb6gGnyLBng1eS3asGRj7yfMyNNubzs6A/640?wx_fmt=png)
+![](SCD_7_教你如何使用MOS管驱动MOS管_images/img_011_15a0ab07fc39.png)
 
 **_图7-10：NMOS驱动背靠背NMOS开关_**

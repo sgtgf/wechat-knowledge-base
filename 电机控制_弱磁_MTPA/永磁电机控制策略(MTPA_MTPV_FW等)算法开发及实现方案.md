@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/eLWfxUkP1BJfDHkEzUZPig](https://mp.weixin.qq.com/s/eLWfxUkP1BJfDHkEzUZPig)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxwfYJLc7hK9Q3DKj71ia05ibicZPajUIBd45KJyibwqNS1QqTnJ9C7ohRgQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658227&idx=1&sn=01213ca1b75e26081b2c06dd5aaea234&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_001_14151717c2c4.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658227&idx=1&sn=01213ca1b75e26081b2c06dd5aaea234&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_002_e532dba355d8.gif)
 
   
 
@@ -29,51 +29,51 @@
 
 根据
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKEfIkYECd5yWtIhoD0lum7RXqIia3joKdzMyypD7dmQMQ1AQd4a47xyA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_003_d67dab7f2910.png)
 
 给定
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKgJlNDYUZqJLb5ngHiaV99JWgxfpiastucISjL3MlL3AEIGhOgurMEuOA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_004_09977319b0ec.png)
 
 得到
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK0keJeNhhgbq6NqcuKuFQ7yIXwqLGd5dNgkx2yPHoALzicyn1VjalxZw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_005_8a45f3f30916.png)
 
 在给定的定子电流绝对值下的最大转矩可以通过以下公式找到
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKNdWumicH3hqOqIAjJb9zBq9nnSGfiaQE5meHvEnKXgoIo5ZN6JLRlKxA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_006_0d1df9eba872.png)
 
 得到
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKbvgyHwtSDcfKCKb7RQN8nDvvFYpP9cLQZX93UZMd9td0nNQfss549A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_007_06aa235b917c.png)
 
   
 
 因为  90° ≤ β ≤ 180° ， -1 ≤ cosβ ≤ 0
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKCOSeG8vk9d4QBGplvMdkHPWtBRzp0FfcicpPKkWR1ysyg2yvnKpDQ8w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_008_ad1846d54581.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKoyuRcicuicpfppyp7ib0cJTibNvF0HJa3YsAKtywuYO4ThodUMS4IO976Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_009_476f3089e7ef.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKV71DIfgH5m8iawKuDNYuibnPtQIbdwKXPDaXicBJUriaORia6qahDh9V6TQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_010_069824afd827.png)
 
-将 ![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKxs4b4U97xtNJoaAtRmQrapP5131do4GbTmGcCD9ibwwJ2lNWITy9zYA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1) ,  ![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKme2HOeZXbl7WPzyW60HRoxNZkoX1knibnjmN1ekdXl9ta28rmHJIHmA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1) 代入 ![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKTibiaf2WmicycJx2U0WPicicMhPcqr7rMyxK8GpUTqLhokvGhjLMICMAibnQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1) ，得到 ![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKzABLfxylBD0GdUIcRRSyUzAPrER3bcsuEwtWCkR0iasia3SzB2qaichgg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1) ，因为方程非常复杂，所以用MATLAB等数值工具求解。
+将 ![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_032_3f646572fa2b.png) ,  ![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_012_f131496fe606.png) 代入 ![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_013_caea8ec24b7b.png) ，得到 ![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_014_fa8a49cd2c11.png) ，因为方程非常复杂，所以用MATLAB等数值工具求解。
 
   
 
 当永磁同步电机转速升高时，反电势也随之升高，但逆变器的输出电压受到限制。根据永磁同步电机稳态模型方程：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKkaAYVEXynLgGmr0kWPjkeftS37qSgQ1oicm63eic6PXiatAzLBHjTib7dg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_015_548055f9c6f1.png)
 
 忽略定子电阻压降，考虑电流限值和电压限值
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKGaLDNBuvojZI3WCaq5iat4IDOIqun9OpenoMQ9urDgIvLf525LvFaaA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_016_2116768a2405.png)
 
-如下图所示\[1\]，作为设定点的 ![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKxs4b4U97xtNJoaAtRmQrapP5131do4GbTmGcCD9ibwwJ2lNWITy9zYA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1) , ![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKme2HOeZXbl7WPzyW60HRoxNZkoX1knibnjmN1ekdXl9ta28rmHJIHmA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1) 必须在电流极限圆和电压极限圆内，随着速度升高，电压极限圆会收缩。
+如下图所示\[1\]，作为设定点的 ![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_011_3f646572fa2b.png) , ![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_018_f131496fe606.png) 必须在电流极限圆和电压极限圆内，随着速度升高，电压极限圆会收缩。
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKFWA8uaBc47CY1EhjAuRsUFemqgDQ7ysGNQ2D3UZxpkCIuksH77OBrw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_019_e2d149c0d9ab.png)
 
 **不同条件下的电流极限圆和电压极限圆**
 
@@ -81,19 +81,19 @@
 
 利用MTPA的思想计算PMSM的MAP，计算步骤如下：
 
-1.读入电机参数：![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKdwibp1uYQibSQxIxHGOFw5kXWCjZCqj6hub3n0iaFXonuswNg4EC2Z9Lg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKlmAdvjicTeZAPJG9j8G6zF1Ribcer5EntvzbWZxtNrzE2ZlfKmPHUzmQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKVVM4pFvqiazP1h4llXCF0UOKFSic9NbyViaalauHzic9VdfDBiciadjKOPvQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKePFZTAicQIRicRGk9oqs9XYg6BpKNmTxn3Rz4ticXTnn9QnLcQqeTticXw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，极对数![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK9Y0icQd7tJ7bUsCB6AX2sJv32Httjapicic9ylhibS51XBK2OYpTmczCPQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，电流极限值![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKjdm90RdaMPDXOS2iamjIBXGMXibbMqPud7ibKTtbOcAhfCbFyycj6eA5w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，电压极限值![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK7CKsMmmlpuJOA3FTM1zaFbIMC7W0ceG5yMTZU7qiayLCNB2NHPeVDxw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，电机转速极限值![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK4qIPa9V6OyPDzQMT5TgEIjFpoOV8nLWECcDJUfgbzMfUcIxLiaNCqrg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，功率极限值![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK5kMmPcoqFLywa3lmI1NZnsWqsRq7iczlibdM5M9C7ibPTtLeln8Emw94g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)。
+1.读入电机参数：![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_020_60a224a48431.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_021_01edb869bc8f.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_022_150ceb81fd19.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_023_87c375bf13ff.jpg)，极对数![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_024_44f854366be8.jpg)，电流极限值![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_025_b2ac439c5c2b.jpg)，电压极限值![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_026_16d759cbb704.jpg)，电机转速极限值![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_027_ec074c13db56.jpg)，功率极限值![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_028_511ccfd82cfc.jpg)。
 
-2. 电机转速从0按照一定步长增加至![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKvdDtRM5sOJbnFMJDEibKKq1EcZLQGo49ILMIYjFC2994zMqCpF1Zk8Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)。
+2. 电机转速从0按照一定步长增加至![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_029_2ffe066f92ce.jpg)。
 
 3. 计算MTPA转矩点：
 
-· 电机电流从![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKhHkLzFsSoQeBukmjFlosZ6YruykNrBEXUgeVTQ0UthJpaib98exkdwg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1) 按照一定步长增加至![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK8lX0LjB0k8nLrao0xMf88P826KYkLiauhN5bibXV4NFxgvf9IoiaIDqPQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1) 。
+· 电机电流从![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_030_830514215eb8.jpg) 按照一定步长增加至![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_031_fda8a4acf4f9.jpg) 。
 
 · 电机电流角从90°按照一定步长增加至180°。
 
-· 根据电压和转矩方程，计算![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKxs4b4U97xtNJoaAtRmQrapP5131do4GbTmGcCD9ibwwJ2lNWITy9zYA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKme2HOeZXbl7WPzyW60HRoxNZkoX1knibnjmN1ekdXl9ta28rmHJIHmA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKPg70cThc3FERDbHnkibVlRxT5c6SPR0e6tcukOjVDZiarDyxPrIDje4Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK6GKkbRXjx1GibXUqPAoxU7Aw8ux8SeibYTJe1QpZd5MuiaVSw9o2rB4icg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKCR9vWfkfoKGTdPXAgntGYwe4BNTxZZzBjFbNDxCbty1CWLZB9HTbOA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，找出转矩![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKJCLU3pCJy8qydS2Z0gCbNW99nibuTobDqUqeTyLiarEIeYGGD0KRUefA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)最大的点。
+· 根据电压和转矩方程，计算![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_017_3f646572fa2b.png)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_033_f131496fe606.png)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_034_0d30a641f4f9.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_035_b0275a61673d.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_036_b9d869e5e407.jpg)，找出转矩![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_037_2fe713bb83ae.jpg)最大的点。
 
-4\. 记录和计算：![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKSicgrpRfm8CyHW2iazZz8M5hn9CibKBU0RNNJjEK4dEqJdM9BM3OfDib9A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKxs4b4U97xtNJoaAtRmQrapP5131do4GbTmGcCD9ibwwJ2lNWITy9zYA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKme2HOeZXbl7WPzyW60HRoxNZkoX1knibnjmN1ekdXl9ta28rmHJIHmA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKhHgVygLwp5lrZCV9WJbkt9YN2Utqia1w7rZ1lR5GXOTe7xYJag2WGbw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKPg70cThc3FERDbHnkibVlRxT5c6SPR0e6tcukOjVDZiarDyxPrIDje4Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK0MC8icicoHUWl8ZmhOgyW6OrD7mYp5SJ1npdiaCsicz3yNfvdthOFw6q4g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKbgliaGOFRExlpefMic5HPYBmdKUvY2GSg24PpNjP0Locxmt5MtM1fr4Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，电子电压![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKPl8rlVlqo2Q3zYu9ToXbC1Xc57SUyIEZzer1tLQicWeU22icza0wA1Cw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)，输入功率![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKN4pibqibbiaRotZEaGVRpeXSKNNAD0vnkEgic4Q7KS2NnOotYGcgdlQuXg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)，输出功率![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK0e0OlxzOopVNI706M5mFfSCf0tTXdibPZQHZPiccjbzO9HicMzaFicNufQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)，功率因素![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKw0r2iadHrzQf3DbNibeenMjlia1qIUFQKowibZe8vCwGphu6XTX63RdGNw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)，效率![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKll9oTA303qN7w2nrGj3qOucqZPIicI3Rs5wicynQZ88ejMH8YAfIuppQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)。
+4\. 记录和计算：![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_038_45ab131bb1b9.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_039_3f646572fa2b.png)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_040_f131496fe606.png)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_041_362f9744ec68.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_042_0d30a641f4f9.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_043_3c2bbb282b49.jpg)，![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_044_4ce1a6192cf8.jpg)，电子电压![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_045_0c0a304ad599.jpg)，输入功率![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_046_f2b11dd0644e.png)，输出功率![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_047_5378e5c74498.png)，功率因素![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_048_e1f0d8f2bc65.png)，效率![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_049_23743c7d5f26.png)。
 
   
 
@@ -103,21 +103,21 @@
 
 **计算结果如下：**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyK6VmibyQnibtncficn1ZFO9aDSHAzaGlGyJiczUgPJz8UdjNicKTTxeiaqkzg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_050_70335ecc63ce.png)
 
 **x轴: 转速(Hz); y轴: 定子电压, 定子电流，转矩，功率 (电动工况)**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKLyByxcohewjEXpdm9T8F7ZEu6O8ibcOBNYiaxvxfHPpzzBREj4M4xfmA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_051_e1a405944a56.png)
 
 **X轴：d轴电流，Y轴：q轴电流（电动工况）**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/jruY7EUUotqdVYKzxDbxAE8E0MibAiaMyKw4fdIVrWbgv7lUHYE9HVjUCXib5icdewPPUhEicf6ic0WSTzGa376NHXZQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_052_0732794bb4b1.png)
 
 **X轴：d轴电压，Y轴：q轴电压（电动工况）**
 
 为了帮助大家深入理解永磁电机控制策略和掌握基于数学模型的永磁电机控制器的Simulink搭建方法并完成相应的算法开发，西莫特邀上海熠速信息技术有限公司高级工程师许为老师全新打造了永磁电机数学建模及控制算法开发研修班课程，从MTPA（最大转矩电流比）、FW（弱磁）、MTPV（最大转矩电压比）得到定子电流最优控制轨迹，进一步详细解读永磁电机常用的几种控制策略的原理到数值解法再到算法开发的过程实现。培训共分12部分，力求完整覆盖到永磁同步电机及永磁无刷直流电机控制系统相关建模仿真及算法开发等方方面面内容，为学员在实际工作中电控领域的学习和提高需求以及各种相关应用问题的解决提供更好的帮助。相对于西莫之前的电机控制研修班课程，本次培训更加聚焦于以电机控制系统建模仿真为依托深入解读和实现电机控制算法开发的过程，从基本电机控制的基本原理入手，进一步详细全面系统地帮助大家深入理解和完成永磁电机控制系统数学模型的建立，并结合典型的控制算法实例讲授来提高大家对永磁电机控制的认知，了解更多关于永磁电机控制的应用和未来发展趋势：
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEohg4Ucqg7pFaKlK082RvuibjTJSpNbJh6a0Dn6QTdK0fFFSD36icFR8mw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_053_456d15dab7d3.jpg)
 
 欢迎对永磁电机控制仿真及算法开发有迫切学习需求的朋友扫码报名，关于本次培训的详细情况介绍如下：
 
@@ -188,7 +188,7 @@
 
 可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEo5ZDficM7twjeYFZwTgnvLCaplfz9QsTTNOWNdHyjbwINftDWxmk3OPA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_054_42c0a76bd665.jpg)
 
 **增值服务**
 
@@ -223,28 +223,28 @@
     
 -   报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVAgHHz8bTt6xsRmjb3cyQZbUIdK7iaBvZllT5DsmVKjpQlibVASfRmoBEnSAxmicWxap2SXFtt69icXQ/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_055_f9ce906c696c.png)
     
 
 其他事宜咨询，请联系会务组负责人张老师，电话：18516258619欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_056_0cfebd1d514d.gif)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxF4IDicN6icoibHub2UQVcjDuMO0ZtSVR1YVvdnics5dP5YZx7ibvpwyDczw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658223&idx=1&sn=fe89f2ddfb905b6abf9641c8c74fe27e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_057_d3c397500f0e.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658223&idx=1&sn=fe89f2ddfb905b6abf9641c8c74fe27e&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxTkELSPpD63HeTZcBQ1mEnpFNwJEBJib2zyLERNO0drj5ziab4McIHLXQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658235&idx=1&sn=ea513ab4961c967a53418e97fe47b9ed&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_058_4ab183148154.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658235&idx=1&sn=ea513ab4961c967a53418e97fe47b9ed&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKv6t5UJe8wFyiaqZ90kCfoiaLTDLry2AZEmlCEicOPVibxnKrYf7ZKvxIhndIAmdzsrk28sXcdBI9co9w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658218&idx=1&sn=5d2f8c0d5d10356a1e5e56f4fcef11fb&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_059_93902657947e.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658218&idx=1&sn=5d2f8c0d5d10356a1e5e56f4fcef11fb&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKv6t5UJe8wFyiaqZ90kCfoiaLhtT9wu9fvm3HM9fjxhG3HrbpnHYKhJOXReVNicHvnnQpV7C80yeckUw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658229&idx=1&sn=0bf1dfb4ffbc8bc866863076f49af9a8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_060_0c3a5340ef95.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658229&idx=1&sn=0bf1dfb4ffbc8bc866863076f49af9a8&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxsEXTlwtGfsHKkpZERsJAxbx188AR3icY3e5k8aaCmSzyYh2akibC1JSw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658121&idx=1&sn=7cf6e4b756408d14b94b862588414780&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_061_b6e6efeb71b1.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658121&idx=1&sn=7cf6e4b756408d14b94b862588414780&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKsVuAzKYgsaiajzSsgRcchqxRTOClqfnNrwg1eqAnnB9P6tQ2abVrwy6rAFRve80csEJYeG5wR0bTw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=1&sn=7e9b903c177a4d7b6873a0b57537c2cb&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_062_93c494ca100c.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=1&sn=7e9b903c177a4d7b6873a0b57537c2cb&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_063_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=2&sn=71d533c66e7a95dd3937c318920f34d8&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_064_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658205&idx=2&sn=71d533c66e7a95dd3937c318920f34d8&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_065_cb8185f2cf41.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_弱磁_MTPA\永磁电机控制策略(MTPA_MTPV_FW等)算法开发及实现方案_images\img_066_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

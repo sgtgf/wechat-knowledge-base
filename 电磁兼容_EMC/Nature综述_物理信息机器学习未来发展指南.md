@@ -5,7 +5,7 @@
 
 **Physics-informed machine learning**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RkqvU1giaESJGuJK1tWwWVD2XnibX9LP11ia2ANicg4qfHRCEODrHkH1SIE4ic2TibiatvJFfrsxBpmr8b3Jyt2rButAuGgSicgAE9hAU5cdAEX6Vqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_000_3333d5218507.png)
 
 > 大家好，我是科研X博士。本文是笔者为本学期 **AI for PDEs** 课程备课所整理的论文精读系列的第 2 篇。上一篇我们精读了 2019 年 JCP 上的 PINNs 开山之作，这一篇接着读同一团队两年后在 Nature 子刊上发表的综述——可以把它理解为 Karniadakis 团队给整个 PIML 领域画的一张路线图。系列内容将持续更新，欢迎关注。
 
@@ -23,7 +23,7 @@
 
 如果你刚进入 AI for Science 领域，这篇综述是最好的起点之一；如果你已经在用 PINNs，这篇解读会帮你看清自己在这张地图上的位置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RkqvU1giaESIITRicMx3tdcoxBeddwW5icnxcwg4Cgd0Ah3XWq3qoTUubZFsUUOP4icyE4iccoaTzE76E7AkSIw3wnskvAGezwo4HTgG2nqNiam78/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_001_1c3cfb9232b5.png)
 
 * * *
 
@@ -130,7 +130,7 @@ Bayesian PINNs (B-PINNs)
 
 这篇综述最重要的概念贡献之一，是将 ML 中已有的偏置分类框架（observational / inductive / learning bias 是 ML 社区的标准术语）**系统地应用到 PIML 语境**，给出了清晰的物理嵌入路径图：**物理信息可以通过三条路径嵌入机器学习模型**——观测偏置（Observational Bias）、归纳偏置（Inductive Bias）和学习偏置（Learning Bias）。
 
-![Box 2: 三种偏置](https://mmbiz.qpic.cn/mmbiz_png/RkqvU1giaESKNWmt6WOw7fdwPx34uMKzDVMWqU3Z9icOj0HCTeYKFR4pfBmtRribbItNIRhcFzoXwx8ibNvClmnItWB0QLMeicntay8VfxTxAf5A/640?wx_fmt=png&from=appmsg)
+![Box 2: 三种偏置](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_002_f741fb65e6ce.png)
 
 Box 2: 三种偏置
 
@@ -205,7 +205,7 @@ Dirichlet/Neumann/周期边界
 
 修改网络结构使输出精确满足边界条件
 
-![Fig. 1: Physics-inspired NN architectures](https://mmbiz.qpic.cn/mmbiz_png/RkqvU1giaESJnH9tNfswxhicC6oI1xHtbvpMYnNz5HQzEiaTqTVHq51FNJ3Lz2aWQmGjiclNTicQ4MLIB2yPWj8a7fiawb5DGvCJeB3mSyrEuqUicg/640?wx_fmt=png&from=appmsg)
+![Fig. 1: Physics-inspired NN architectures](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_003_c24c29c2f3a7.png)
 
 Fig. 1: Physics-inspired NN architectures
 
@@ -227,7 +227,7 @@ _Fig. 1：物理启发的神经网络架构。(a) 用协变组合网络预测分
 
 论文在 Box 3 中给出了 PINNs 的完整算法描述：
 
-![Box 3: PINN Algorithm](https://mmbiz.qpic.cn/mmbiz_png/RkqvU1giaESLAryice7lqYOTbgYicOYibwXXfmEicJx5BhCTeTcE0sokkT0MiaaiawENfo5B2tQTgECDUANPsRHdttVdPgdFstFFbxTzo8vS3Dk0Pc/640?wx_fmt=png&from=appmsg)
+![Box 3: PINN Algorithm](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_004_e866174b61bf.png)
 
 Box 3: PINN Algorithm
 
@@ -420,7 +420,7 @@ FNO
 
 ### 5.1 咖啡杯上的三维流场重建
 
-![Fig. 2: 咖啡杯流场推断](https://mmbiz.qpic.cn/mmbiz_png/RkqvU1giaESIpAmh6R9vcwI6icCeRXkrCYictKw9b3lWcrNX7sWZSEBlia2rqzMwUO60DXQdLQiaBEbe1bC8iaTXGAL5McIpDrrYhDmCweUu6bHKc/640?wx_fmt=png&from=appmsg)
+![Fig. 2: 咖啡杯流场推断](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_005_24fa4619c681.png)
 
 Fig. 2: 咖啡杯流场推断
 
@@ -430,7 +430,7 @@ _Fig. 2：用层析背景纹影成像 (Tomo-BOS) 测量咖啡杯上方的三维�
 
 ### 5.2 心血管 4D-Flow MRI 数据增强
 
-![Fig. 3: MRI 血流重建](https://mmbiz.qpic.cn/sz_mmbiz_png/RkqvU1giaESKaQmaSI40Ezk4L34EVwksXg8ny76yqu61ZY9OibC7LfWVmKtwhIS0Z0Zryu5OvIxAN3HezJrUKYdicuFgEqjibfzQTicFGg5a6MnI/640?wx_fmt=png&from=appmsg)
+![Fig. 3: MRI 血流重建](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_006_7c95c8a253f8.png)
 
 Fig. 3: MRI 血流重建
 
@@ -440,7 +440,7 @@ _Fig. 3：用 PINNs 约束 Navier-Stokes 方程对猪主动脉的 4D-Flow MRI �
 
 ### 5.3 等离子体边缘湍流诊断
 
-![Fig. 4: 等离子体动力学](https://mmbiz.qpic.cn/sz_mmbiz_png/RkqvU1giaESLoib7zicniavfC49q72ZXNZcz0HwBzA2aYhPzNqPO7v7shwxiaTulAx7UQrMcxk6b3R2SsQWqdxFOICK5F8c5W7gRnrdmKKrXZqX4/640?wx_fmt=png&from=appmsg)
+![Fig. 4: 等离子体动力学](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_007_38df16668958.png)
 
 Fig. 4: 等离子体动力学
 
@@ -450,7 +450,7 @@ _Fig. 4：磁约束聚变装置中的边缘等离子体动力学。上行是参�
 
 ### 5.4 高维亚稳态跃迁
 
-![Fig. 5: 亚稳态跃迁](https://mmbiz.qpic.cn/mmbiz_png/RkqvU1giaESKcic25uutZ5Kj5PxlpYw4f1uj7LSZntSTmia0ibmTIcKaSkONNSTV3PC3GUOrGBn90BEqw3sVMmXg6ibwJdtgoGeMtTGz9P9MvSN8/640?wx_fmt=png&from=appmsg)
+![Fig. 5: 亚稳态跃迁](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_008_74464de2c4ad.png)
 
 Fig. 5: 亚稳态跃迁
 
@@ -674,7 +674,7 @@ NTK 自适应权重方案和 causal PINNs (Wang et al., 2024) 让 PINNs 的训�
 
 ### 10.5 论文没有覆盖但后来快速发展的方向
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RkqvU1giaESIwCfa2VM44aeGHMKNJ4VicvaLEA3sY1bicCZ7scwIgjSLRgh7wdSGUguadhCr2okdibXibjG455ZsiciccC5hL6vUKh4rALv0rR7Xgs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Nature综述_物理信息机器学习未来发展指南_images\img_009_9dd03ae4e39d.png)
 
 * * *
 

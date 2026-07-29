@@ -27,7 +27,7 @@
 
 SiC 模块具有高频、高压高温的显著优势为充分利用 Sic 性能，一些新型的低电感低热阻封装不断出现，然而，这些封装主要在电压1.7kV或更低的模块上应用，对于高压功率模块封装优化设计的研究很有限。键合线型功率模块仍然是高压模块的优先选择。功率模块的结构如图1所示,可以看出,模块的内部封装结构是由芯片、焊锡层绝缘基板上铜层、陶瓷基板绝缘基板下铜层、焊锡层、铜基板组成的 7层堆叠结构构成，其中陶瓷基板起到电气连接及绝缘作用，内部灌封硅凝胶防尘绝缘，外部封装外壳提供电气绝缘及结构支撑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsly6oViabWTQPZm2Ntdtc0mymSHlnVR0iaDMk3BblsKl9lezzOMmGGpJavXWdexewHQMuLZtvw1iaFKA/640?wx_fmt=png&from=appmsg)
+![](15kV超高压SiC功率模块封装研究_images/img_000_33b9e182db3b.png)
 
 具有不同电位的绝缘基板上、下铜层构成的金属电极,相隔一段绝缘距离覆盖在基板陶瓷上灌封绝缘材料同时包裹绝缘基板铜层和陶瓷基板。因此,绝缘基板铜层、陶瓷基板和灌封绝缘材料构成了不均匀电场下的“三相点”绝缘结构。
 
@@ -45,7 +45,7 @@ SiC 模块具有高频、高压高温的显著优势为充分利用 Sic 性能�
 
 利用绝缘耐压测试仪对 4 组样品的基板上层铜皮和底板施加 50 Hz 交流电压，以500V为间隔逐渐提升电压等级,直至样品击穿失效,得到的结果如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsly6oViabWTQPZm2Ntdtc0myy2ltPk2Jm9IAPL890losJ6aKFSr1z9ibKvSewlKPI4Qs9WCKZTL9Hrw/640?wx_fmt=png&from=appmsg)
+![](15kV超高压SiC功率模块封装研究_images/img_001_50f2c23fbd77.png)
 
 A组样品(0.5mm)分别在7kV,7kV,7.5 kV发生击穿失效;B组样品(1mm)分别在11kV，11kV，11.5 kV 发生击穿失效;C 组样品(2 mm)分别在12.5 kV,13 kV,13 kV 发生击穿失效D组样品(3mm)分别在14.5 V，14 kV，14 kV 发生击穿失效，同组的样品具有相对的一致性。
 
@@ -53,13 +53,13 @@ A组样品(0.5mm)分别在7kV,7kV,7.5 kV发生击穿失效;B组样品(1mm)分别
 
 典型耐电压与陶瓷电气距离的关系曲线如图3所示。随着陶瓷电气距离的增加击穿电压不断上升,但是增加的幅度逐渐放缓，其中主要原因是受局部放电的影响。随着施加电压的增加和电荷注入的增强,基板铜层、基板陶瓷和灌封绝缘硅胶构成的不均匀电场下的“三相点”绝缘结构处的最大电场强度超过外施电场强度，电场畸变越来越严重，发生局部放电将难以避免。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsly6oViabWTQPZm2Ntdtc0myFVLydUsoC3cXlibCBiaOHHIHnGnG8XYLiahIibbgaMTkFJYCibMHBf1HF3Q/640?wx_fmt=png&from=appmsg)
+![](15kV超高压SiC功率模块封装研究_images/img_002_c5d7c410cc12.png)
 
 **2.2.2 不同灌封绝缘材料对绝缘耐压的影响**
 
 持续地增加陶瓷电气距离并不能获得线性上升的耐压能力，且随着陶瓷电气距离的不断增加不可避免地带来封装体积的扩大与陶瓷开裂的风险，不利于提升功率模块功率密度。为探究灌封绝缘材料对耐压能力的影响，分别使用了瓦克 612硅胶(介电强度>20 kV/mm)瓦克915HT 高压硅胶(电强度>30 kV/mm)硅油与环氧树脂进行灌封。同样方式对3 组样品(陶瓷电气距离均为3mm)进行测试直至样品击穿失效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsly6oViabWTQPZm2Ntdtc0mySCfHvPjBnbLyuRUYSTBPM29dSgDRmtqLBp2aQBAxJLzaqWfjXPAbbw/640?wx_fmt=png&from=appmsg)
+![](15kV超高压SiC功率模块封装研究_images/img_003_693aedbc5529.png)
 
 测试结果如图4所示，瓦克915HT 灌封测试击穿电压分别为 13.5kV，13.5 kV，135kV环氧树脂灌封测试击穿电压分别为15kv，15kV，14.5kV硅油灌封测试击穿电压分别为 13.5 v，13.5 kV，13.5 kV。
 
@@ -71,7 +71,7 @@ A组样品(0.5mm)分别在7kV,7kV,7.5 kV发生击穿失效;B组样品(1mm)分别
 
 同样方式对3组样品(陶瓷的电气距离均为3mm)进行测试。结果如图5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsly6oViabWTQPZm2Ntdtc0myDQB2RbCAVc3J9g64n5tx4pUZbzLYW9bMAn7eQkaBabwiadEAQZEyAxA/640?wx_fmt=png&from=appmsg)
+![](15kV超高压SiC功率模块封装研究_images/img_004_83216648ad9f.png)
 
 密封胶涂敷测试击穿电压分别为 14.5 kV，14.5kV，14.5kv环脂涂敷的测试击穿电压分别为 14.5 kV,14.5 kV，15 kV聚酷亚胺涂敷的测试击穿电压分别为19.5kV,19.5kV，20kV。实验结果表明,3 种涂敷材料均对样品耐压能力有一定能力的提升,尤其是高介电强度的聚酷亚胺(介电强度>100kV/mm)，同等条件下将样品的击穿电压提升至 19 kV以上。
 
@@ -85,8 +85,8 @@ A组样品(0.5mm)分别在7kV,7kV,7.5 kV发生击穿失效;B组样品(1mm)分别
 
 此处研究了超高压SiC 封装中局部放电产生的机理通过研究不同的陶瓷边缘电气距离灌封绝缘材料以及陶瓷涂敷材料对局部放电的影响探究了减少模块局部放电，提升模块绝缘耐压的方法。实验结果表明,模块耐压能力会随着陶瓷电气距离的增加不断提升，但是提升的速度逐渐放缓，灌封绝缘材料对高压模块耐压能力的提升并没有非常显著的改变，陶瓷表面的改进涂敷可以显著的提升陶瓷基板的耐压能力，尤其是聚酷亚胺的涂敷极大地提升了陶瓷基板的耐压能力。在此研究基础上，此处通过优化设计，研制出一款15kV等级超高压SiC 模块模块绝缘耐压能力超过18.5kV。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](15kV超高压SiC功率模块封装研究_images/img_005_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](15kV超高压SiC功率模块封装研究_images/img_006_3ade3c3d8599.jpg)![](15kV超高压SiC功率模块封装研究_images/img_007_84aa944feb13.jpg)

@@ -7,7 +7,7 @@
 
 近日，本教研室在高增益天线智能设计方面取得新进展，提出了一种基于物理信息神经网络（Physics-Informed Neural Networks, PINNs）的介质超表面逆向设计方法，能够自动设计出提升天线增益的介质结构。相关成果以“Inverse Design of Dielectric Superstrates Based on PINNs for High-Gain Antenna”为题，发表在IEEE Antennas and Wireless Propagation Letters。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAwmBIjoyzY1biccicsibyDUhnfVOOonPJxmiarQrHoGLyUteQUJ8VKb7vfvrz0OtKqPA36g8Wu0vcBLupPzhogFzkYia99V6HHFd3E/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AI自动设计_无需训练数据的高增益天线智能设计方法_images\img_000_80ab2e95b2d7.png)
 
 高增益方向图示意
 
@@ -31,7 +31,7 @@
 
 因此，如何利用人工智能实现自动化、高效率的电磁结构设计，成为当前的重要研究方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsA5TPTKPxQwyaoZuficzzpMPJ2YRiadsMRnb2EZq7QQZp6D5ezqyO1sx1cYcwPSiapxZKCtnLIgHZt70JwGhXDV1V3ZtTH7agAsico/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AI自动设计_无需训练数据的高增益天线智能设计方法_images\img_001_ab6925f0c0f1.png)
 
 本文提出的高增益天线逆设计过程 
 
@@ -59,7 +59,7 @@
 
 这种方法实现了电磁结构的自动生成式设计，避免了传统设计中大量的参数扫描和仿真计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBibklMf2oiaf2gqYHibicFW8Bb8KRpTfYHnacsOticTPOEOJicXdMlLiah65kZMMrk55qlzUttHLW6GjuLDnS9pD4sCGjLF5tDsLdwEo/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AI自动设计_无需训练数据的高增益天线智能设计方法_images\img_002_340a8faa44fd.png)
 
 物理信息神经网络结构 
 
@@ -83,11 +83,11 @@
 
 值得注意的是，与许多深度学习电磁设计方法不同，该方法不需要预先构建训练数据集，避免了数据生成带来的巨大计算开销。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDW7MQWkGYwse77kQ5cs7xakhO2X46mqPBZjPlS7jytYETa9ibn7lJC9wzibeGPp6gLTM2TFpkkZPUmX7wyaRZ2avzQexUIdNSnU/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AI自动设计_无需训练数据的高增益天线智能设计方法_images\img_003_f6e3e1077646.png)
 
 逆设计天线罩的场聚焦效果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCrJcvnmTXVc85Micf6IFk3yOLGzePm3HbZw8OqTcGicNdQh9OxPlKk7m2aGyAahKxHDKIiboMI1QRSK3LVHDIMF8Mgkse4lPIEv8/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\AI自动设计_无需训练数据的高增益天线智能设计方法_images\img_004_08293eb09a04.png)
 
 天线增益提升效果 
 

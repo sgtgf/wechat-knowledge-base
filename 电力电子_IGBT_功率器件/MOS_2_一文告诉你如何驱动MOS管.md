@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Bu1kaHbabO7k9f5n7aC9zQ](https://mp.weixin.qq.com/s/Bu1kaHbabO7k9f5n7aC9zQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQK4Pofpj62jC54oYZpayCK27cVict7FMomEhX6ua3xwaia8BiciaxqibicSIpA/640?wx_fmt=png)
+![](MOS_2_一文告诉你如何驱动MOS管_images/img_000_90b268761157.png)
 
 __**_★★★_**_____MOS-2---MOS管驱动电路_____**_★★★_**__
 
@@ -13,7 +13,7 @@ __€1._NMOS/PMOS的基本驱动电路_
 
 如**_图2-1_**所示，左边为NMOS基本驱动电路，右边为PMOS基本驱动电路，对于NMOS来说，Ctrl In为低电平时，NMOS不导通，Ctrl In为高电平（高于Vth）时，NMOS导通。对于PMOS来说，Ctrl In为低电平（VDD-Ctrl In<Vth）时，PMOS导通，Ctrl In为高电平（VDD-Ctrl In＞Vth）时，PMOS关闭。两者的区别点在于NMOS的使能电压以GND为参照，而PMOS的使能电压以VDD为参照，这一点需要格外注意。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987a2FyKolMjTWiaKKK3r9heribz0w3u76lqVibGnDsYn6CSaj8kiaJcZ8gP7w/640?wx_fmt=png)
+![](MOS_2_一文告诉你如何驱动MOS管_images/img_001_39043819e271.png)
 
 **_图2-1：NMOS/PMOS基本驱动电路_**
 
@@ -29,11 +29,11 @@ __€2._NMOS/PMOS基本驱动电路升级_
 
 为了确保这个短暂的电流对于器件来说不会太高，如**_图2-2_**所示需要在输出引脚和MOSFET栅极之间串联一个电阻器Rg（栅极串联电阻）：通常1000Ω或者100Ω是一个足够大的值。但这取决于你的电路。可以使用欧姆定律计算从电阻器获得的最大电流：I=V/R，当使用的电阻越高，MOSFET开启/关闭的速度就越慢，如果你想快速打开和关闭输出，Rg取值就要考虑减小（3.3Ω-10Ω）甚至取消。
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiaY62hXusIcletfuTeA0icfYyb0LSGZ8YnUWjKibHwgVSPKENwuPUtbwrmTfLRKZymGbLVOhUv88bg/640?wx_fmt=png)_
+_![](MOS_2_一文告诉你如何驱动MOS管_images/img_002_bb8c385294e2.png)_
 
 **_图2-2：带Rg的MOS驱动电路_**
 
-**_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiaY62hXusIcletfuTeA0icf7FXXqdg1lxic7emJNGTMhvicOLkSzia1W8wWFCwaibgjfwK8elDhZ7NLzQ/640?wx_fmt=png)_**
+**_![](MOS_2_一文告诉你如何驱动MOS管_images/img_003_d1df68c502ab.png)_**
 
 **_图2-3：不正确的Rg放置方式  
 _**
@@ -48,13 +48,13 @@ ____€3.选驱动__MOS管的考虑项__
 
 #3：导通条件则是外部施加的VGS大于1.5倍VGSTH（称为过驱动）。电路的直通电流小于MOS的漏极电流ID的最大额定值。耗尽型器件在VGS=0V时也有漏极电流流过，是正常导通器件，所以不太适合在开关电路中使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSeZChtVHPnDGN531h7iaNicjiczxN0cd0scXkUxPpdDJ8KPYID8S3p10LrNCTX5KsX3uDwd6hxyeLew/640?wx_fmt=png)
+![](MOS_2_一文告诉你如何驱动MOS管_images/img_004_68c6b998d1bd.png)
 
 **_图2-4：NMOS驱动等效_**
 
 如**_图2-4_**所示，建议负载R放在高侧，避免负载产生显著压降（开通时，S极电位接近VDD），影响GS的电平，导致NMOS开启关闭受影响，这在后面SCD系列里面会再次讲到。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSeZChtVHPnDGN531h7iaNicjy6UCGiad6aicZOjqFMpQicg6UEpUZQRwoYS4lh39aMxicgHYEzIknibwlhw/640?wx_fmt=png)
+![](MOS_2_一文告诉你如何驱动MOS管_images/img_005_ce40e7e1ce60.png)
 
 **_图2-5：PMOS驱动等效_**
 

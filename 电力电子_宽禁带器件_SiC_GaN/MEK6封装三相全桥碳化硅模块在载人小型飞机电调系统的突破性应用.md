@@ -9,11 +9,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetR1abD3IJdibK9UUqnscqPA5oHZ99gmibFHq2U1k7GiauRDAv7BjrvQ2JA/640?wx_fmt=png&from=appmsg)
+![](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_000_38074c79be07.png)
 
 该奖项旨在表彰在新兴应用领域实现实质性客户进展与产品应用落地的优秀企业与产品，标志着爱仕特在航空领域的技术实力与商业化能力获得行业高度认可。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHreRLkI9KJsF3jHMnasicrb1OsAw6rVLpLEa1uAQcZicxnO3ZZania0Sm0kibUFmI7xhPAN3aBpZvn6wAw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_001_388de03d187c.jpg)
 
 本届评选以“新应用场景实质性突破”为核心标准，覆盖飞行汽车动力系统、具身智能执行机构等前沿领域。爱仕特ASC400N1200MEK6B作为载人小型飞机电调系统的核心部件，通过三大技术优势满足航空级严苛要求，实现了从实验室技术到实际飞行场景的跨越。
 
@@ -23,15 +23,15 @@
 
 对于载人小型飞机（包括eVTOL、电动固定翼、小型直升机等），其电调系统与传统无人机电调在原理上相似，但在性能、可靠性和安全性方面的要求极为苛刻，属于航空级标准。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aI1DL4IbUEibY5W1e4XD3sW4G5gK0Xj2fzAmhVjGvsZbwbfZgn7uclg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_002_df5381bb7070.jpg)
 
 **eVTOL（电动垂直起降飞行器）：这种飞行器可以垂直起降，适用于城市空中交通和短途运输。**
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1xgQQMIdTibxxztMkHMwLgg1icKWOrlEIrUuge9WTl269XUdX2yvpiaicQQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)**
+**![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_003_552219c1a0ad.jpg)**
 
 **小型直升机：直升机以其灵活性和垂直起降能力，在军事、救援、运输等领域发挥重要作用。**
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1Lmzg6iaRo5VRoBQNza4Z7tuKfvyRSdQukIqB9OzP0iaBwC0vWs9xwT3Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)**
+**![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_004_ae74ad013dda.jpg)**
 
 **轻型固定翼飞机：这种飞机适合短途飞行，常用于个人飞行、旅游和商务飞行。**
 
@@ -41,7 +41,7 @@
 
 **这几种方案中，除了燃油方案需要的是燃油发动机，其他三种方案采用的都是电动机，也就是说电机与电控是低空飞行器的核心动力单元，也是其动力系统的重要组成部分。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv12KH00F5icUNHnUJU9m0JFomk3FXZhvMwMD2A3ySzNQ6GjunZUFzkVOQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_005_5119f503dcfe.jpg)
 
 **目前的载人小型飞机主要以eVTOL和直升机为主。 一般来说，eVTOL会采用多电机方案，通常采用6~12个电机，停用1~2个电机的情况下仍具有飞行能力。 其垂直推理系统主要有垂起电机、电调、REU、电机冷却系统，以及螺旋桨组成，相比电动汽车，电机的数量更多，冗余度也更高，因为多冗余度的动力架构设计可以提升电动飞行器动力架构的安全性。**
 
@@ -101,25 +101,25 @@ MEK6封装的碳化硅模块，是三相全桥架构，采用平底板封装，�
 
        **R****DS(on)** **：2.5~25mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskCNlWONiazGoLKiao211JsetduG2TWWW9gYmWOK2U58nSwVhiaFwVBaYjX0DVzzDTYyxgPQ6oxHRh0Q/640?wx_fmt=jpeg)
+![](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_006_9844247d9144.jpg)
 
 MEK6封装系列的模块产品选型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetgJ9unQu2LmLSBWx9m0Jia079pSoqscrH6uFtlUE5SSx0WsOwWJBI8Sg/640?wx_fmt=png&from=appmsg)
+![](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_007_ff8770f4392b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetD9JfyM0lV7Rzo4WFHEjFBVzQz2ah8XZYlFYfsr7PWdwgHicVia5oV6gw/640?wx_fmt=png&from=appmsg)
+![](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_008_53fcd2f9184a.png)
 
 ASC400N1200MEK6B（1200V400A）产品拓扑图和参数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211Jsetdg0828ArmH7pMvBuBlw6TV0kOl8ShyeMXyEv2KztibU5lSTSEdWZh8Q/640?wx_fmt=png&from=appmsg)
+![](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_009_ee25a8cc0c35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetyjGGibUE2qHFEjo4xwzyBwFYGoSgTBEhuq264IlTbs3Au0dwHic9RplQ/640?wx_fmt=png&from=appmsg)
+![](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_010_0e9e663f680c.png)
 
   
 
 ASC200N1700MEK6F（1700V200A外并二极管）产品拓扑图和参数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetfyqsbkyL7of6RFtMOFfksw6lLUFD0r1s0RJrIxkLVv7zLuGtia7S0aA/640?wx_fmt=png&from=appmsg)
+![](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_011_a59d2d0c4c9e.png)
 
 MEK6系列模块的尺寸图
 
@@ -189,11 +189,11 @@ SiC模块正逐渐成为高压、高性能eVTOL和电动飞机的标准配置。
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbcHG5xq4HHP5PuezMwHCpSW0pibQ8h3kzZNPkexnE8SWpoa2K7SeW87g/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_012_4bf3e84afc6b.png)
 
 SiC功率模块的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbbnzia3cqNVicMY7UL9R6WQGdGIStCgibllBicZoyIVs5vOibp3kSVFufOsg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_013_023ad3c69c10.png)
 
 ✈总结
 
@@ -205,11 +205,11 @@ SiC MOSFET器件在航空航天领域具有广泛的应用前景，可以提高�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbg7mbSTRq6xxdalQFicZl9juNGuSbwttzgj2bcTVWEcMMGArafeOy2Sw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_014_a7f07e72d68b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbMr2gmicAdQbfntmnNrC0DIkQWRRoRHwXp0x3DrkgrvrfvqSxbiby4YGg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用_images/img_015_4b745341563e.jpg)

@@ -41,115 +41,115 @@ PFC电感是功率因数校正（Power Factor Correction）电路中的核心储
 
 有源 PFC 电感需同时满足‌大直流偏置下不饱和‌（承受基波电流）和‌高频低损耗‌（承受开关纹波）的双重严苛要求，常选用铁硅铝等磁粉芯材料 。其电感量设计需根据工作模式（连续 CCM、临界 CrM 或断续 DCM）、输入电压范围及输出功率精确计算，以防止磁饱和导致电路失效 。‌‌
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOVY0y44GrLqPT5bOrl6DNKiagu7XfT6briagUmNEPjKEPYpIH85G7iaRricpUtv4WJR1K5VvbfCuhKxY76cDfpeQgtShBkHhjUiaA20/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](PFC电感计算_images/img_000_00e824751721.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVN3NSC0mqeffRmTvkTqQ9gy87LGNf5zktib7kPSRf4ngwsq98UWqEib4bZdhMUckxV6tOndB7U9VIdgWklqKYgibD4gKpQic1bP1k/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](PFC电感计算_images/img_001_132f12b215b3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXVNP6SW6yXdTicicuDaA218icXflhiarPDJKiaIx4icjJXAahNHaEvwSnPSVh53AJxnqPzOBErA7SLoI5N7CdAOAIO8qq3f4FcNY6ibU/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](PFC电感计算_images/img_002_922cf698dee4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOWibibZ2icToicXibb5PdvCdDDmLMP7W27xeo4DCX9qOiaBaDDI17iaOjLO1Apb841WprQ5uowa9cfXv3QZtV185wl19VqOSqJgWLKpgs/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](PFC电感计算_images/img_003_dcb263469e06.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXO0cJc3Bb6Luh4iakX8jQ1JezdMrC21Ckq2T24ibLeMnma4mJKXGr8Iicc9fOt9Vibsafm2n1sofoZk7dx8DNABcGwT6HYV3FWBbk/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](PFC电感计算_images/img_004_8e311c1773fd.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVlKia9HxJicTYwnZrupiaZtKp2NSREP6HquBX3KDJVh0uiadGSZcRZtuyqbhiaq0K95Y1Q9bMkicNibY3w9kgmrwPJpRVS5IfvIpmh6g/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](PFC电感计算_images/img_005_dfee4ca3391a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXF6d8o28k9AVkYmRvWmNtqpcg6J42GicBvsbQqef2sf6KepojZkM0ib7fcXo5fmj0yvDrtcZT0dHycjYlgxibQibxLgLib26u1yVzw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](PFC电感计算_images/img_006_d4af3bddddc5.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOUgtoy7tJ70WuXQIFjQZOQv8Y3WuW16iclnCG1SsTBzGum8LZO6SN5a2kMLrYeiaYwjiatcU51zfK9A6yM4V1yszfWptpAnyPEKqA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](PFC电感计算_images/img_007_d2c2551a4829.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXU5yBku8EjX9NkJFx5icmd70IEWiaOKJ5micBibN6xV8nLV4vTqOYQuyRyWHAZGbgIbsJH8kHSo22Z66EdMxQkXAvWOXLXwaNRSLk/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](PFC电感计算_images/img_008_486ceef1496a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOUvwdia1C0FiatzYQXgAUDJ4jPMpFeJuEX2cLk3kxUtQJgFNo4nvpj6aJFRpFffmWl3q80uPT7H0rPUyTEhaJc7Oxkw9nn7vcH6A/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](PFC电感计算_images/img_009_2af9f94874a2.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOUG1S04XSiaQGZ0qvfIZZNNX30umVZB5uNW7xoTZIwZHs4Yjpu6jIkkmpS8pqQBRiaN2ic9VgwicFjho6AdyF12Rm53UTXke3oRs78/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](PFC电感计算_images/img_010_d00802b57f32.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXB72kzjzrEDwYlYF2uSRKfMkHdYCVqnDiajdvWX7PTtuDys0TfVpoId6zpjRaL3mQo98JCrgZC53wNcI0kSNhIw8ar9qibgudmU/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](PFC电感计算_images/img_011_af196940d804.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVf7voZEw6wjpHZu29icIsniatic3ian2Jgk86icFXBevnge2arkUly3khx1JpyJhptCrDqgKiaaKGhLUIBDjqDNLK7dDKlxRAZOtBN4/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](PFC电感计算_images/img_012_a6da8eaf3473.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOVaAPV90tvUSGjlpdXWbABiaIqfyiaGohX7aqn6TgaSLG9dYvKAf1CRqXS6c33n9SUSIZQwccoROYgIVgzAAiaUwhGq7GhNSTBXVg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](PFC电感计算_images/img_013_d6341f5ce44a.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOWCiaQtYFowWlyRBsZ2l78rTMX6bib7JrwxAeN7DrvFkmAHu6pbqLNeKpcqyGG7nAfgBBIToickssIOXIhXOOFovh7KibD3Jr2nEx0/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](PFC电感计算_images/img_014_66e66988ab77.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXibXfdEk0UwESYdgIBMaAuCRs2RMM16tPR7H5TYWzETJZMWiaAuKibcWBtmgGHjzL5vGsjuzQnEM5gDf5cnRv4gxJ8UkwDodQKWI/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=15)
+![图片](PFC电感计算_images/img_015_fd530722c542.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVpjpVfwQSBu85N23xXewBOzKUUHQa1gykicyAOpCvcsibBSUhicibJZPWREficgcPwaSWMYjV0Rko1wdFmlGM0wfDJahSicibx7GCoFE/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](PFC电感计算_images/img_016_e779af37c2d2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXOPw88rMnsDI5D7whH0sLXvC1Jib4e96n5sPf1r7lynZSbaLy8m7WOrPMWElq08z1rC082JNUiaZZiaxBbq7olTsA7GAIYFtFJQ0/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=17)
+![图片](PFC电感计算_images/img_017_206be6198a77.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVKMZcichFJOYXOAjmnicaeAibgOzxiaCQRqlk78tMqCZw2MpFqH8M461l2dibVeCjm1GEPjDicHE8FoWliafqF7laB1e70coFh2icbUTQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](PFC电感计算_images/img_018_c7ee21f4c449.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXBNmlD7pVDB2Eonjk6afpP8lhxj7ZrhrlrgsAia1emJxa1vPBUotyogthVyQsehuQCUmFtXicBAXWzqypyKtwpB0loQv1xL8ZxI/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](PFC电感计算_images/img_019_f44b62b8a271.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXhHxepVI30ywjQsichibVSaTXq6uPD5jRmribNIBpfDuGVAUn6ElticTW4sanKWrlH61tSpLl73QIFUAO7QibMvE1Mvke4EIIUWRas/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=20)
+![图片](PFC电感计算_images/img_020_1d6c97730bcd.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXsLh6DMKuoCfpDF7Cm6MeKqHVNGd2wlTlbLdIDrSCZClCTy9u2bX5njzWKMW2zjoZXTNlibuzpLSLweic2UGfCnNZvZmicpXu4fo/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](PFC电感计算_images/img_021_1ba381dee9bb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOV3Jbch3hyj6drjYYch0cGPdDaic6joMJOqByH8jSkn7s5uGHRt71LUhcoicyI5eSfDB5hymUDtwClHibdCnvxibOR5awYQkXXSr9E/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=22)
+![图片](PFC电感计算_images/img_022_15fef007a894.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOULYvxPw0jrtvicKOUCTjeY7eFgNIa8ybGCxkMIraKLZoiaHjWTCMhhvHkaHK5EF5xTo0O50WQcrnCFnaGpNOQcmwXoRkHldozUc/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=23)
+![图片](PFC电感计算_images/img_023_3797959428b1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXe2WWMAS0eXLCbrJdIHdg65ibnViaUAzRIe7bmibiaPjAzNIPb3WMX9OEpCIibJRPyjf9bAdb57VmX0yXxJEuIbqBrImW99CNR6bJk/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=24)
+![图片](PFC电感计算_images/img_024_f63bfcb220a8.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXc7UbS1CGuiaov8biciazyyaXuwYcia5AwSMCW8xRib11kAqjrZugBkkSLDXgaPRzcIUd5pp77zBpHrIibnPzJGaEk8TLCMDjlJa95M/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=25)
+![图片](PFC电感计算_images/img_025_c036468dad6c.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOWhSRPhgT6AV5Tlsns0qwGBqyviaaD4Ryme233ZbUZ7Q9SA3y8nribICmAV8sSRWcSibibsiaZGewo954pSP8cuNxlIaE2WcdjJ6ALc/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=26)
+![图片](PFC电感计算_images/img_026_bfb946027c99.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOWacyWQdAuAWwEn70xvc4XNuV6A6KpWEFb3lpf70tWqe0xjhtt8NA8lqgNhSKCBVAt7Yxsb4GlK89YDJVWakSZG5gqBiaW0iaI8o/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=27)
+![图片](PFC电感计算_images/img_027_5f4920d1d26d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNV55qMnSKk7A02YXic132TpZbibISrV8ibMqT5ia05MELrMO2gC1lmHD4OFyAQXbuVPDA3pEpYicpXjSzCPZhcwdxicoleskHQCJ8dw/640?wx_fmt=png&from=appmsg)
+![](PFC电感计算_images/img_028_b021db46090a.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXliaMn8lK6yoZ4MhUBoaQXeLuss81F4jo6WqXV0ArEYvKoH1mdstkRhrttvlkAYOOTWw2lWYYuoJBwxqMF3fJ4ichpoVrSatK2Y/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=29)
+![图片](PFC电感计算_images/img_029_378300f31b63.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVA0iaIrbW1V6nlRgh8ApvOGAzeZucTtkUoqzQO7OiaVuRb22bFPVOeUSfO8RUUDNdiapu3HribdYtUyicSGge5zAj4VcQL54RbzLPw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=30)
+![图片](PFC电感计算_images/img_030_e801711957a9.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVMOL9MMqs7nxMS06rgz7fzrL7aey4jWdfOQJlFcUKej9pqCuFtxiaAllXXCGSmzSIHEthSL5Njh1LAIxeVbnYvcstVrLZKPUqc/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=31)
+![图片](PFC电感计算_images/img_031_41117e6db920.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPkJf5zycCzxMONFPK8XJxF2p8K6khp3Pu63IlkTrPWRI7v2zKZC83vmY6pcIQ0X6DEMx9d88HxfXK4xdCna5qYgGiaCHEUmUxA/640?wx_fmt=jpeg&from=appmsg)
+![](PFC电感计算_images/img_032_3b8ec60f9274.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOUbiawfb249ZoyM7aC5EgTl4hNOrmq6Z8a5AicjEAcoG5jkeFzLIJ3tVX7zN5jbAOCZX3iaI27GT3MrJKtbZ6XuYz7EUHic6pkBLoo/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=33)
+![图片](PFC电感计算_images/img_033_a3c7648c8bc7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOX7iaibpT6LAzwvjIRKF8Yf15ibtM6zhxbZgGiauAOX4LBdd0h4TPeHJwwuA8gu2UvYmKicbQXuvBYwYX00sRSWSaQSUmSpT6rgeHB4/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=34)
+![图片](PFC电感计算_images/img_034_128828216be6.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXfCTibg5MGpulRAKdBKn8GM5VbzeOF6HnWHHKrMGIVjS1AOVoAV7D7ic71RKIGrMhxDOZ5vqQfYMaWzCvCe08RB2PicscmjASSmE/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=35)
+![图片](PFC电感计算_images/img_035_cc139bcf5c4d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXcwjSVpptP4VyxJNiaZ5ASkAvOvIeuZDK8pBIzTBiclyDPgIY5TMlfFhL27ovSpONmMibpnicDPsCgoETsWclgyicuVl4YW0aML50E/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=36)
+![图片](PFC电感计算_images/img_036_0492a4282bad.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOU7yKlFCWb2aQibzG6ibASPmrqsXBlNFB7B1sBVqh62kwHG0R3YdtIDNmcalPVBQBjb0mviasicOORwzRPrLxUbuyicmPYGYhicR5ibAI/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=37)
+![图片](PFC电感计算_images/img_037_3a1291d318b1.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXiaNtnQgwhMHatDeVGoPBX56w46vWf92mLjdkX2gECDaqhSq6f33ZdzDv1J4ksZdJaDZKLmPZDDSSjY146iaNyWjCC1J4laejLI/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=38)
+![图片](PFC电感计算_images/img_038_1421256f7bd9.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXMibuaouDW8bycg1QFzNEWPzPnmg9QVDCgev5pia6YAaicGhWDyQjJrDOsEI6L0XicURkgjalGo5agJXw83QQORNRO1GJJicYibmwGA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=39)
+![图片](PFC电感计算_images/img_039_4e9eee3b7fba.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOUID2OnkZO5MpfvjospoicjyDiarib9HgXKlx1bdSEknXdjmicZn7T1zXPpl32LatE7pbupqP5CRIxQdL1abesbHb1yjRalZMzkOYA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=40)
+![图片](PFC电感计算_images/img_040_00ca261eeac0.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOU31StGKMlkgicSaqpQVCico7e6mjLwEzlK552JyZ5qXBKABdjvvT6KBFkHFc7ibMHSvBvUPTGicCicaAIicgbbNL7S97wkegMaFE7icA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=41)
+![图片](PFC电感计算_images/img_041_679bc4650005.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXjeKrAhLhiaoeV7ZrGMc4GuDib2f2HWIlvGfibhNgCI8DYUO5FMiaOhExn1XLFqibWS1aK7LDMBBZoM8xsAzcZPKdHicxU1E8QfXicRw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=42)
+![图片](PFC电感计算_images/img_042_a77433a8c4c5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOW0XrRFOeIVz3yJVDAdb4mAegibCic4IwcKsdju7l8P9Jx8wKg8kfNjFeAictDdGsoiaoLZHx6ia5lgQNkA7tztSPBd977KwYnFtiaWo/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=43)
+![图片](PFC电感计算_images/img_043_6530ff11903a.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOUVQEINZSeaKunS4nmTtjqHDhvNEGCgEgfxfmYODAXzuUo8b58m59IvdBotjSNWo7VSo2rFkrsHUbLCuZV0RBTrjGMzQpZnWLc/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=44)
+![图片](PFC电感计算_images/img_044_6a816193c4c3.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOUg6CTZNaEmO8icv92GXmeia2ZRon1fwkM8gu0J7X3x04fk2u93ANcqibiakfAZbJ1OsSCY9XvnkDCEhO0akaADrzibu2meQS4E6BqQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=45)
+![图片](PFC电感计算_images/img_045_7907eef71a51.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOVqQ9hWia6Vu03nwbOUVTp603BkA4UnxhlKgfOicr4n4II6rgadj0hdJ3g0iciaL8jFzYcztooRQ3miapbsGx4LpkxmUzTm6s8U4icLA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=46)
+![图片](PFC电感计算_images/img_046_9a0368d4a506.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOVJhcMNVdAvzcCNB9GmX0y2Ngke0yrutQWh8vChLHQPtdDx8gibRicSmlcKLfpOaheUd0t4MBD09ibDEtTxoMkfq7BK8fg7q0Rq0o/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=47)
+![图片](PFC电感计算_images/img_047_748ae9545b95.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOWBp5C0GmqVgd6EQ0TiaNJo7rQ1aGT9dW2RHnRLdXibTiaS0uRzcsibBLzykNYgI44UjZpHSI65LKabtsbsYWPjrl1q58Eb245HOcg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=48)
+![图片](PFC电感计算_images/img_048_40fd1da2bf87.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXtdp1gsbH0c9Z1zeOFtvCjIFmpmwmabwRc135qoRH9gkjRXEgMRDSjBxYahwUpvB0jia0nTq3NzVDYMoz386ImHaqhib4snGLCQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=49)
+![图片](PFC电感计算_images/img_049_ac9c5364529b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXwuU25KdJO5vFgaCaBEU07SpjF9kTdgicA82gxLTGGlcmay9d8tWousQ7zJKhBWsiczlM8K4RGmsUVwWqialPX2mXJ8wN8bk1qUE/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=50)
+![图片](PFC电感计算_images/img_050_bc00dd0cb28e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOV4SaoYgfqpjKia6397Z6bVsRPXwlnZuA1AMkyHQMtgbT95lrkbTYGZ69kw3UibAZb4iawcibpABCmj6K1icN4Vetdugaq2QRwvRsX4/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=51)
+![图片](PFC电感计算_images/img_051_b0c19e5c4634.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOXTScpiaIfVamA3KXpURWamzaAYYYz8UicJSZVc91qRXozibmflmiaB9ibQMKgKUVcE0CHrDPj9SsjOYMG9hQJ9ZMHUtcJcxq8geyao/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=52)
+![图片](PFC电感计算_images/img_052_3bc33aad61d7.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9viaj5bIsfOXu0hPoiafeibfmEmy37ReKubQqmEBvicrriaiceyKDt03Th4TZibticebLvKvHXNibicBGueVejaI0m0a3gAN5ljUWcVbib3YpiaWFnLHMBo/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=53)
+![图片](PFC电感计算_images/img_053_35691fe073b4.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9viaj5bIsfOUkRFXGJnbUBCxxrVsk6SfN21fVGNqVvVvpBGZjia0lVLOfFPQxjvg4eRyY8ABtXKXiagLG3DUoaN6y9POZ8BnLcxwu8ejjZ47hg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=54)
+![图片](PFC电感计算_images/img_054_39bd31968425.jpg)
 
 注明：  
 
@@ -157,12 +157,12 @@ PFC电感是功率因数校正（Power Factor Correction）电路中的核心储
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOZNFkzDFctW2L8FHEVrHI8YxBNVicyI9Ey0jia5M4eyaTmFMUnMGDudkFz1k4cDf4yNjqW6iboVkR2XqIhqyJichDOibt35k39bUAo/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](PFC电感计算_images/img_055_da194447cd09.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNv5tm7ll0CPYA5nJIdVpwiaWQeetBbQd7rZ0WZn8lcpHlw7GSiaws3RpWRRudibbicgbPSM11J4R3QJdyPC6BGuSzkMe4mKkY9O5Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](PFC电感计算_images/img_056_945c2e88dd74.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOcS50kUDGSRuH3y7SoyxgA7wibtElaqr7dN2CZs0RuYUu3ibJ1J4soo8n7zqKLoVf3h9ic6Hdd67WjQLtoeuxpNK1iab6ACnT1fKM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](PFC电感计算_images/img_057_482da0378a66.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjbibyVpTIP0FMmLQUcWjTqz9Hiaic2tudEjprTchlwYrV8RKWeAkCwFcj03qMfTHicUkALAiallJANJKVyD3ibVPjMeygNq1ruH6oA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](PFC电感计算_images/img_058_a141923eff3d.jpg)

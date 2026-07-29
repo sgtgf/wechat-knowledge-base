@@ -22,7 +22,7 @@ Rubik's Cube 有超过  种配置，最多只需 20 步即可还原。但如�
 
 ### 2\. 示例 1：矩形翻转谜题（Klein 四元群 ）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuj8ud49SBiaD6An085M28ac4BSVb1C3pFAG0eKcgnZaIcTSzy4iaKZlDxckicoG92U8lefu9Oiaic9Picye2HqVWDLqlTZoaNmbibAGY/640?wx_fmt=png&from=appmsg)
+![](可视化群论___第_2_讲_凯莱图（Cayley_graph）_images/img_000_d801072ceb77.png)
 
 （此Cayley 图示例，展示了通过翻转移动在不同配置间的路径）
 
@@ -171,7 +171,7 @@ Rubik's Cube 有超过  种配置，最多只需 20 步即可还原。但如�
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRooctmef2CLCpt9NcRQesXicA5mAxyicDAZXGOKQ1mnnPJYl6a7DTricAAxm2ntRN6zGYqGTBGAqaEwbPKITDvIrye11zeVrokrb4Peg/640?wx_fmt=jpeg)
+![](可视化群论___第_2_讲_凯莱图（Cayley_graph）_images/img_001_cced29eb8f24.jpg)
 
 这张图其实是在把 **Cayley 图** 讲成一套“画地图的方法”。  
 它想表达的核心是：
@@ -811,7 +811,7 @@ Cayley 图的规则是：
 
 我画一个**更规范、更清晰的“6 节点 Cayley 图示意图”**（用文字/布局方式表示）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuImp2FZY6SnNcERA7omQw40xVBxdNt3FjNJA0uiaIaAUgoKGrLoNwJtJCwAHoEnZVG61N4RPyMfpsK7Hjg5RzCChE33K6wWicx8/640?wx_fmt=png&from=appmsg)
+![](可视化群论___第_2_讲_凯莱图（Cayley_graph）_images/img_002_4941e2eaa504.png)
 
 # 为什么这个  又同构于 
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/PzE\_hm9X-2YgT1iS9mJTTg](https://mp.weixin.qq.com/s/PzE_hm9X-2YgT1iS9mJTTg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTiah5rXLdlYGdViavjB4pXQicAr1NAMIRVTxzstLiauqJydrhGPZxk5HNEHTThpTvQhlLvDj0QhsblWw/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_000_7b66eacdfc4e.png)  
 
 ____**★★★**______Debug Note-3---无法读取I2C地址______**★★★**____
 
@@ -15,19 +15,19 @@ ____________€1.问题背景____________
 
 该器件对外一起只有四个引脚：SDA、SCL、INT、RESET，其中对外输出中断引脚INT兼具器件地址设定功能，将INT上拉至VDDIO，地址为0X8A，INT无上拉，地址为0X88。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSFBxOmEbw2wulmr4BiciaQXbzzW13MwibAxlthtERNJrZia8bw1ZMRqmSBHUUibk6iaD6PjbcErfaef02g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_001_d9a97fe7877e.png)
 
 **_图3-1：控制线部分原理图_**
 
 在上电启动之后，连续运行Linux地址查询命令，如**_图3-2_**所示，查询地址为0X45（7位地址，按8位即0X8A）。
 
-____________![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TREJuaP9icibic6t8qx0tSD5NohjXJULu8dyicxSOwgNZoEttylu0eCdJiasP3icZsWMomQ9lYpvXtKDLug/640?wx_fmt=jpeg)____________
+____________![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_002_65136d985f08.jpg)____________
 
 **_图3-2：读取地址为0X45_**
 
 断电再重启，然后运行查询命令，如**_图3-3_**所示，会偶发检测到地址跳变为0X44（0X88）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TREJuaP9icibic6t8qx0tSD5NofF7fhvT4sbwhMPM2jSuMvLdRlNxd2th3XgEu7r4CsnUVGE1rYB7Mpg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_003_0d865a8fc3ac.jpg)
 
 **_图3-3：重新下电上电后读取地址_**  
 
@@ -39,7 +39,7 @@ _前端设备的高低电平影响_
 
 因为INT引脚是兼具I2C地址配置，如果INT存在初始拉低等情况，就会影响器件判断地址，在Application里面讲到：TP2912A通过在复位期间捆扎INT引脚来提供两个设备地址，0x88或0x8A。引脚上的上拉电阻器使设备地址为0x8A，如果电阻器不存在，则内部下拉电阻器的设备地址将为0x88。在选择设备地址时要注意，在判断复位期间，一些前端芯片可以强制驱动INT信号的逻辑低或高。在这种情况下，设备地址的检测可能是错误的，因为前端芯片驱动的逻辑电平与上拉或下拉电阻器无关，如果无法避免这些情况，则如果设备地址选择正确，则可以通过读取寄存器0xfe中的设备ID来实现软件工作。
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREJuaP9icibic6t8qx0tSD5No96rl6rQmwp7ljWaoBRCP557nN2giaOylibWicTop2a93QcMoTJib0W26vw/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_004_dc4b9dda0d8d.png)_
 
 **_图3-4：推荐INT Mode下读取地址程序_**
 
@@ -57,17 +57,17 @@ _时序排查_
 
 考虑到是上下电过程中触发地址误判，不断电情况下地址不会变动，所以会不会存在这样一种时序情况：在VDDIO还在上电的过程中，器件就开始读INT的配置，此时电压临界。测量器件上电时序如下**_图3-5_**，其中C1是DVDD（1.2V），C2是RESET，C3是1.8V，C4是XTI（27MHz晶振输入）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSFBxOmEbw2wulmr4BiciaQXbib38qibicIfNHSZib40enej7vicdnNiaxQPIWDtfKKGSicpVQ3u3IGohGQveg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_005_cd012c4f98bb.png)
 
 **_图3-5：关键信号上电时序_**
 
-从图中可以看到，在XTI还在起振时，DVDD还处于上升阶段，此时芯片逻辑核心可能还没有开始工作，逻辑核心影响了器件读I2C地址。Application里面也提到了这一时序要求：由于POC（上电序列）功能在上电/断电事件期间在芯片内部操作，因此对每个电源树的上电和断电序列没有要求，复位应在晶体振荡器稳定后至少10个周期保持低电平，如**_图3-6_**所示：![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREJuaP9icibic6t8qx0tSD5Nokvh9JyeU7mJX06k9LQuCyIR6Idj1wWGUNBwVSHXiaWKwtoJvJ1uHDSQ/640?wx_fmt=png)
+从图中可以看到，在XTI还在起振时，DVDD还处于上升阶段，此时芯片逻辑核心可能还没有开始工作，逻辑核心影响了器件读I2C地址。Application里面也提到了这一时序要求：由于POC（上电序列）功能在上电/断电事件期间在芯片内部操作，因此对每个电源树的上电和断电序列没有要求，复位应在晶体振荡器稳定后至少10个周期保持低电平，如**_图3-6_**所示：![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_006_302cece5432b.png)
 
 **_图3-6：Application推荐Reset操作_**
 
 为了验证这一猜想，首先触发一次0X44地址，然后不断电，给RESET一个复位拉低，然后再读地址，看地址是否会恢复到0X45，当然这里也可以使用手动复位，将RESET引脚手动接一下GND。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREvXTxRHobfPicIhPWhkKGtmrjLT7fDPeMSaJ8awPic6TkricYaOiazSiaYMVUiaicQGJYlL9sdbm4YETqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_007_098785643a39.png)
 
 **_图3-7：不断电验证地址恢复_**
 
@@ -77,7 +77,7 @@ ____________€3.如何修正____________
 
 修正也很简单，如**_图3-8_**所示，前端SOC在上电之后10ms将Reset拉低，拉低时间≥10us。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREJuaP9icibic6t8qx0tSD5No1ASUJsunXic5FlKWyoZRMKEQYjibRKfDiasN8MmADubRntfclwxaUnjFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_3_设备I2C地址跳变_images\img_008_777dbed385e4.png)
 
 **_图3-8：复位时间预估_**
 

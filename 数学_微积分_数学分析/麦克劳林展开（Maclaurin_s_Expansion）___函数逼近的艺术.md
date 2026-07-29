@@ -36,7 +36,7 @@
 
 麦克劳林展开本质上是**[泰勒展开](https://mp.weixin.qq.com/s?__biz=MzkzODgwODczMw==&mid=2247486511&idx=1&sn=7bdd02f420cdadad55e217a27fc428cf&scene=21#wechat_redirect)（Taylor Series）在  处的特例**。你可以通过下面这个动画，直观感受多项式是如何随着阶数（）的增加，从原点  开始向外延伸，像藤蔓一样“包裹”住原函数的：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sVzeakRooct337fwwdbAfEib4yLkGaD8TjFAGSON98Uvj7Uibu40Y3Mial1yCSquLh7vvAD6aafOGL6qNPoicu6mPTzHue35gBX96YicmaNOBibkY/640?wx_fmt=gif&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_000_cde9832008b8.gif)
 
 > **观察重点**：当项数  较小时，多项式只在  附近贴合原函数；随着  增大，贴合的有效区间越来越宽。这就是数学分析中常说的“收敛区间”。
 
@@ -72,7 +72,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvfOYtWRAUvaYkQkHYZhrIrBEQzAhibjLiaM8JurnxFUPFZWeaI8avvTbXqfSibHpbqP90F46vmibibP7ibrSp9Yo6u52oL77IYfC1Q4/640?wx_fmt=png&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_001_7bede534a791.png)
 
 这张海报用一句话概括就是：
 
@@ -86,7 +86,7 @@
 
 # 一、为什么要把函数翻译成多项式？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuKgOglSgIkhINqcZ43F1pE9rQyf8jqUq2KE1wYIl1iam46gKQJ2mlldAs2aeaBKiaibTpr72MM6NtPBfJgv2ia69sm1x4ibmV31Wes/640?wx_fmt=png&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_002_f2acc1181578.png)
 
 海报第1格把多项式称为“数学翻译器”。
 
@@ -114,7 +114,7 @@
 
 # 二、麦克劳林展开的核心思想：匹配函数在  的“特征”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctqibEc5Ts312mTZ1Wicicic5c1leygGj5SsTFowKj7bq6LoyNiaT7pRu8eiaOxapkLiaR9W4qQv6Z4iauxs0ibxHMov3MIkjjhUYuWqibB8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\数学_微积分_数学分析\麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images\img_000_da68f35992ec.png)
 
 海报第2格把函数在  处的信息比作“DNA”。
 
@@ -132,7 +132,7 @@
 
 # 三、第0步：先匹配“位置”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvdSzoPiatDWO58FLfm9krsmp9DUVVW7msjDg6y9tfOVTNj2SKJnBnVr1yAytGhdmNCiayHbeTYVPJiaNmz3riaZ4Dd13S7Mkic3WXI/640?wx_fmt=png&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_004_b64d492c2f99.png)
 
 先从最简单的常数多项式开始：
 
@@ -156,7 +156,7 @@
 
 # 四、第1步：再匹配“斜率”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocscDrPN3noOpBs13q2UkOaOS9PLiaWMKiaTnDxbvRK9UFAkv1p3Pt5aV1FlJFnzy6wL0xlZreW0GQfibd2lwju8yVza6lZl4GER64/640?wx_fmt=png&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_005_ceb4153f949b.png)
 
 接下来加入一次项：
 
@@ -184,7 +184,7 @@
 
 # 五、第2步：匹配“弯曲趋势”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocurPZPQGfJdpRCRnX3PtFTF6NCtksyZeHfePSlPicMgMHF35OPKFt7Zn8MXbweXDP5wcBLgHiaeoz8q6yVyuX8mmSqib1AOopU4C0/640?wx_fmt=png&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_006_e449be13984e.png)
 
 直线只能模仿位置和方向，却无法弯曲。因此我们加入二次项：
 
@@ -256,7 +256,7 @@
 
 # 八、图中的“藤蔓收敛”表示什么？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvt4Via7GCbkia6aSO18XzUJRGt8YaMKLSz1DBeEZrWfZPLYia3QsRaic1rlfbDvCzfMu9QeO5IoFZzpnZia7icqGicibNscSwo5QdPLro/640?wx_fmt=png&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_007_198670bb7c13.png)
 
 第 6 格画出了不同次数的多项式：
 
@@ -289,7 +289,7 @@
 
 # 九、三个最重要的麦克劳林展开
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctqpmHYiarjcur9Z858FPFtWPjibEQ42qdLT7gCc2LWhObPvgvxhZ2jy5FoibF5jFwnlzz1d5EHHFIYchGw5vaNxXgdnW7ksdMXm8/640?wx_fmt=png&from=appmsg)
+![](麦克劳林展开（Maclaurin_s_Expansion）___函数逼近的艺术_images/img_008_090a88ccc630.png)
 
 ## 1\. 指数函数 
 

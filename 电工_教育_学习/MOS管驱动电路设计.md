@@ -12,7 +12,7 @@
 
 下图的3个电容为MOS管的结电容，电感为电路走线的寄生电感：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPt0uibKictOshQWs2Xug7GVz4wNGjHEx9uvPhKh6zfClxJJ4oHWibrUutw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_002_0c507adc22b6.png)
 
 **如果不考虑纹波、EMI和冲击电流等要求的话，MOS管开关速度越快越好。**因为开关时间越短，开关损耗越小，而在开关电源中开关损耗占总损耗的很大一部分，因此MOS管驱动电路的好坏直接决定了电源的效率。
 
@@ -26,7 +26,7 @@
 
 比较好的方法是使用专用的MOSFET驱动芯片如TC4420来驱动MOS管，这类的芯片一般有很大的瞬间输出电流，而且还兼容TTL电平输入，MOSFET驱动芯片的内部结构如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPSnyW2j18b1AbrDgORC8yOIkibXJF5WIn1IHfL5WuEdshuotzRQQ5jGA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_003_44c270bac776.png)
 
 **MOS驱动电路设计需要注意的地方：**
 
@@ -40,11 +40,11 @@ TVS可以认为是一个反应速度很快的稳压管，其瞬间可以承受�
 
 综上，MOS管驱动电路参考：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOP8XPO66JtmwQbk3Dlxk27KFl0ZRVNjIbnIOQWuYf0G0cLXKaW9JO21Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_004_9becbc82b3af.png)
 
 **MOS管驱动电路的布线设计：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPcOicdkwqkBJbqiaYAKn7pBicAAhqorWJlLRicoYNtegJDT6GGllYBiaOLqw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_005_0ff85cbde5cd.png)
 
 MOS管驱动线路的环路面积要尽可能小，否则可能会引入外来的电磁干扰。
 
@@ -52,7 +52,7 @@ MOS管驱动线路的环路面积要尽可能小，否则可能会引入外来�
 
 **常见的MOS管驱动波形：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPfa3STRkDYj8YlNy7tyhQXWx4exOfFTJn9sxtriawuFxLwSIibvicPlvdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_006_06e34e5928f4.png)
 
 如果出现了这样圆不溜秋的波形就等着核爆吧。有很大一部分时间管子都工作在线性区，损耗极其巨大。
 
@@ -60,7 +60,7 @@ MOS管驱动线路的环路面积要尽可能小，否则可能会引入外来�
 
 **高频振铃严重的毁容方波：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPAWDelNbo2ibicjo2HpFwFjvQpVnQOa2eazk5ckPO5ZmaTkfyL5Y0KroA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_007_a64f06a0057b.png)
 
 在上升下降沿震荡严重，这种情况管子一般瞬间死掉，跟上一个情况差不多，进线性区。
 
@@ -74,13 +74,13 @@ MOS管驱动线路的环路面积要尽可能小，否则可能会引入外来�
 
 **打肿脸充正弦的生于方波他们家的三角波：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPZ4ZvNVe2B4yhUvWicoiaDCR2k2ZqobpaiahIcpEQMW1n2YsiaZdZ3TuakA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_008_0f34344f4840.png)
 
 驱动电路阻抗超大发了，此乃管子必杀波，解决方法同上。
 
 **大众脸型，人见人爱的方波：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPbTROmIDaJxZgSxlBkBObG3KTssZicegHYiaCYWc1MBgVke0TS3EeqDyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管驱动电路设计_images\img_009_571ac56642e5.png)
 
 高低电平分明，电平这时候可以叫电平了，因为它平。边沿陡峭，开关速度快，损耗很小，略有震荡，可以接受，管子进不了线性区，强迫症的话可以适当调大栅极电阻。
 

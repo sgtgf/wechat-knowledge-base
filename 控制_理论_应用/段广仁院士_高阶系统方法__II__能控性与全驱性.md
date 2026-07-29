@@ -42,13 +42,13 @@ _**[http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200369](http://www.aas.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH01KuVHdAH4wFayzGjPsXj1ZHDxG6klCJ5oHiaJuuY1pkAdlL9BWDKkYuNyOQS3V77icDTQgH5nY26Q/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_000_c881853193b4.jpg)
 
   
 
 **_作者简介_**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH01KuVHdAH4wFayzGjPsXj1wtiaYNkQHdk0YGWxHL9c41kVibAlBnWDhibSxSTqzHdibcXiaiaiaMft72mvA/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_001_f056fb0dd210.jpg)
 
 **段广仁**
 
@@ -146,21 +146,21 @@ _CJCR影响因子 2.793_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH01KuVHdAH4wFayzGjPsXj1eRnGQDc0goWWaAOxsfIQVLtNNbwxaAXPiaYonKsqDsiacJ6cwULQOAaw/640?wx_fmt=png)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_002_e96f767c74e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH01KuVHdAH4wFayzGjPsXj1NP1Zn3xUOXsfkB2L3xnQuDvYPjT9HyFIqINJT6A5D1nicLaQKKWlSeQ/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_003_b621f4179fda.jpg)
 
 **JAS《自动化学报》（英文版**）   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH01KuVHdAH4wFayzGjPsXj1eRnGQDc0goWWaAOxsfIQVLtNNbwxaAXPiaYonKsqDsiacJ6cwULQOAaw/640?wx_fmt=png)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_004_e96f767c74e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH01KuVHdAH4wFayzGjPsXj17wfnJzFludRYhPZ00muibTMpibzvv01oTl8waVnN6KNNrGwZ0F6Gt4JQ/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_005_5f70ce5b46fc.jpg)
 
 **《自动化学报》服务号** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH01KuVHdAH4wFayzGjPsXj1eRnGQDc0goWWaAOxsfIQVLtNNbwxaAXPiaYonKsqDsiacJ6cwULQOAaw/640?wx_fmt=png)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_006_e96f767c74e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH01KuVHdAH4wFayzGjPsXj1Cl7ibdBhJCFpSicr09YdxJMQGykTs1ZwwE4Oloo6RHTeMUfYG7MTEg2g/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__II__能控性与全驱性_images/img_007_5a318c2096b1.jpg)
 
 **《自动化学报》订阅号** 
 

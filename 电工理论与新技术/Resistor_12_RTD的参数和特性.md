@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BkJcuog9-fFKFkl5xs6Mxg](https://mp.weixin.qq.com/s/BkJcuog9-fFKFkl5xs6Mxg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfWBvrQPFb5icNdAH7rrgC9fJvCXksiaZBbz4aoWtHWuye2tnyicRvZrpCOicxMzXCoRhibUoR6oZHpFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_000_4e079ed4a9dd.png)
 
 _**_★★★_**_Resistor-12---RTD的参数和特性_**_★★★_**_
 
@@ -17,7 +17,7 @@ _€1.RTD的R-T曲线_
 
 RTD的测温范围为\-200℃～850℃，精度优异，单个RTD的线性度非常好，非线性<满量程的4.5%，如**_图12-2_**所示基本符合简单的一次函数曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfWBvrQPFb5icNdAH7rrgC9ZAKkHD3NdtFIHUlu6Snd1SkkHOf4dcmEAULjRSCQa5jmoXIYaic5IqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_001_8184634911db.png)
 
 **_图12-1：RTD的典型R-T曲线_**
 
@@ -31,9 +31,9 @@ RTD的测温范围为\-200℃～850℃，精度优异，单个RTD的线性度非
 
 在测温电阻中，作为自古以来广泛使用的温度传感器，有时也被称作Pt100，有符合JIS和国际标准的白金绕线型温度传感器。此产品使用白金线，所以价格很贵，但是它的耐环境性，长期稳定性好，符合国际规定的计算公式和温度-阻值换算表。**_图12-2_**展示了几种RTD的形态：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKY6fQBRDTGAqJsgUOaEiaBONUzMibn3B31VN8Wfj697ctjZtZUhO2ichuQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_002_31cf800e9bf9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKDMCHOZtSNQ2IggOrQxM2QEkJibPLeC1knTbGzoISztvNk5ca1E4z9xA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_003_c8c08435ad40.png)
 
 **_图12-2：RTD的几种常见形态_**
 
@@ -41,7 +41,7 @@ _€2.RTD的特征_
 
 RTD的线性精度高，例如Pt100的温度公差，等级A：±(0.15+0.002 |t| )℃，等级B：±(0.3+0.005 |t| )℃。根据Pt100等进行规格标准化，阻值和T.C.R.的种类很少，前提是均在自身发热低的条件下使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfWBvrQPFb5icNdAH7rrgC9A1QMKeAubgBahicTqibupicYzCS1UP0kLYV7NDLYx3ice6eaeQj2DnpWVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_004_1cb468fb613b.png)
 
 **_图12-3：比值-环温线_**
 
@@ -51,11 +51,11 @@ RTD的表示方法：常用的表示方法为PT100，即表示0℃时100Ω的阻
 
 T＜0℃：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNs8coZslqUVuEW8Rlx0A9NFIjK5EvdYFK15RFISWLY21hM0b9ibJib0IA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_005_fa90a27a97ab.png)
 
 T≥0℃：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNYHnd9NzjhCuLGyiar912TlicCFZibuliaUvsRQrib4g1FFU1LbGc0iaichr5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_006_39ba7c25a251.png)
 
 其中：
 
@@ -69,7 +69,7 @@ T=温度，单位为摄氏度（°C）
 
 RTD的温度-阻值曲线方程用卡伦达尔-范杜森系数表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNduQb5bicNG8bty9l5OuRauBoAajwq334Ocvv5V6ILNwibVSXYhWyGWbw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_12_RTD的参数和特性_images\img_007_c75c4a744c97.png)
 
 其中：  
 

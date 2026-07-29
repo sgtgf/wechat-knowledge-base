@@ -30,23 +30,23 @@
 
 考虑寄生参数的SiC MOSFET短路电路图如图1所示。虚线方框内部为包含了体二极管及封装内部寄生参数的SiC MOSFET，包括内部栅极电阻RGI，内部引线电感LGI、LD1和LS1，寄生电容CGS、CDS和CDG。外部参数主要是栅极电阻RGO，驱动、器件以及主电路之间的线路杂散电感，包括器件管脚连接电感LGO，LD2和LS2，母线电感Lloop1、Lloop2，短路时的拓扑等效电感Lsc。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUjnnyGoLOYvUNibqcBjFkU8A03o0X3pria6fHKRvibrzic9W3RqtUIWV2oA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_000_a80f2383f564.png)
 
 短路过程大致可以分为3个阶段。关键波形如图2所示。在t0时刻之前，器件Q处于关断状态，电压源VDC作用于器件Q，功率环路中没有电流。t0时刻器件开始导通，发生短路故障。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU5E1yrCJWeW4POS96RqeX2I77dbicicwaiaKubTicqMYUF5h4hcJzAD3DqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_001_08d8421bdb34.png)
 
 1）阶段1(t0—t1)：开通延时阶段。t0时刻，驱动电压开始由负压升至驱动正压VGS，器件栅源极电压vGS开始上升，栅极电流iG主要给CGS充电。
 
 此阶段电路的微分方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUwXGhGxrThrdiaMNYDbbgnwLroGdpCr9yiaIMicOhH3Xm5O3NiaGSy0ObVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_002_117c7da9fb66.png)
 
 式中：RG=RGO+RGI；共源极电感LS=LS1+LS2。在这一阶段中，器件栅源极电压vGS低于器件阈值电压VTH，器件沟道还处于关断状态，主功率环路中几乎没有电流，t1时刻，当vGS达到阈值电压VTH，此阶段结束。
 
 2）阶段2(t1—t2)：vDS电压下降阶段。此阶段是短路电流上升的第1阶段，电流变化率逐渐增大。t1时刻器件沟道开始导通，主功率环路电流迅速增大。电流变化率主要与器件栅源极电压vGS、跨导特性g、电压源VDC及功率环路杂散电感有关。非常高的正向电流变化率会在功率环路杂散电感上形成明显的正向压降，此时器件漏源极vDS是电压源VDC与环路杂散电感电压的差值，随着电流变化率逐渐增大，vDS逐渐降低，电容CDG和CDS放电，由于寄生电容放电环路阻尼很小，这一过程会引起振荡。正向的电流变化率在共源极电感LS上形成的压降还会对栅源极环路产生负反馈作用，导致栅源极电压vGS的变化率降低。此阶段电路的微分方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUp4hzrEnFOKGVqauIlbTbVPbgtyeFJKCYLL8dZBUvkmB5bQJ0gvZCog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_003_ce98da971bca.png)
 
 式中：
 
@@ -56,7 +56,7 @@ Lloop=LS+LD1+LD2+Lsc+Lloop1+Lloop2，即功率环路杂散电感总和；iD为�
 
 在实际检测器件电压时，器件电压检测点为图1中的点G1\-S2和点D2\-S2，考虑短路时的电流变化率及杂散电感，测得的电压v'GS和v'DS可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUiatg1dD8ctTmUToY8PMp7U6kC7LOPiaVyGYX5UyxiaJVLhlxdKGSI6dkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_004_1b68e96a394b.png)
 
 可以看出，器件短路过程中，由于剧烈的电流变化和寄生电感的存在，测量到的器件栅源极电压v'GS和漏源极电压v'DS会明显高于器件芯片电压vGS和vDS。如果漏源极电压变化过程产生振荡，也会通过电流振荡的形式反映在电压测量点之间的寄生电感电压上，并叠加在器件端电压测量结果中，类似的现象同样会出现在器件正常开关过程中。这一类现象会影响器件栅源极电压和漏源极电压的检测结果，进而影响基于电压检测的短路检测方案的可靠性。
 
@@ -64,11 +64,11 @@ Lloop=LS+LD1+LD2+Lsc+Lloop1+Lloop2，即功率环路杂散电感总和；iD为�
 
 本文提出的短路保护电路拓扑及驱动电路板安装图如图3所示，图中包括SiC MOSFET模块、栅极驱动板及PCB罗氏线圈。短路检测电路主要包括PCB罗氏线圈、无源干扰抑制电路、比较器及控制芯片。本文基于CREE公司1700V 300A SiC MOSFET模块CAS300M17BM2进行短路保护电路设计和实验。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUJcrP0iadS3Ql3AX3WFBpTrdASHLA0QpjHibSQriaE46aFLCgvItkxFwWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_005_be677854d586.png)
 
 罗氏线圈是一种电磁感应线圈，当穿过罗氏线圈的被测载流导体中的电流发生变化时，罗氏线圈两端会产生感应电压，感应电压大小与罗氏线圈和被测载流导体之间的互感以及被测电流变化率成正比。PCB罗氏线圈是由多层PCB板的铜线和过孔构成的。所提出的短路保护电路工作过程如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUXbneibomfTSa3uZIgru3uyfs1AImrS3tib5XNF4CZxwaNhFb8u2nMkJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_006_34052d2aa6d6.png)
 
   
 t1时刻之前，器件处于关断状态。t1时刻器件开通，经开通延迟后器件电流迅速上升，这一过程电流变化率较大，超过了设定的电流变化率阈值，控制芯片接收到故障信号。但由于持续时间短，尚未达到故障参考阈值时间Tref，不触发短路保护。t2时刻开始，器件处于负载电流上升过程，电流变化率很小，低于设定的电流变化率阈值，无故障信号。t3时刻，由于发生短路故障，器件电流迅速上升，电流变化率较大，超过了设定的电流变化率阈值，控制芯片接收到故障信号。t4时刻，故障信号持续时间达到参考阈值时间Tref，控制芯片诊断发生短路故障，发出关断信号。经纳秒级电路传输延时后，器件在t5时刻开始关断。t6时刻器件完全关断，短路故障被切除。
@@ -79,131 +79,131 @@ t1时刻之前，器件处于关断状态。t1时刻器件开通，经开通延�
 
 本文根据CAS300M17BM2封装设计PCB罗氏线圈，如图3所示。两个PCB罗氏线圈分别安装在半桥模块上管漏极(3号端子)和下管源极(2号端子)。PCB罗氏线圈结构如图5所示，为了尽量提高罗氏线圈互感值和保证绝缘间距，将PCB罗氏线圈设计为马蹄形状。每一匝线圈由PCB板的顶层铜线、过孔和底层铜线组成，并在多层板的中间层增加了两层回绕层。中间回绕层可以消除垂直于PCB板的外部磁场影响。将罗氏线圈设计为闭合的对称形状可以消除平行于PCB板的外部磁场影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUgtMJNEibUWqtiblh4lRQJ4gXMnVRDWPjsxichYibdc4oiasbnPBoBoaAOgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_007_39196306503a.png)
 
 为求解所设计的马蹄形PCB罗氏线圈的互感参数，需先求解每一匝小线圈产生的感应电压，再求和得到总感应电压并求解线圈等效互感。图6将小线圈分为两类，第I类是在半圆形边上的小线圈，第II类是在矩形边上的小线圈。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUuyGTbsgwfuvXz6n3hkJcuLgNF8QsRoKu3lLsZAb0vH9jQmSBjAjSFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_008_e76e15e733c8.png)
 
 如图6(a)所示，对于1/4圆形边上任意一匝I类小线圈，设其与圆弧形圆心水平线的角度为2a，a∈\[0,π/4\]，被测载流导体中心到小线圈内径的长度为2rcosa。对于小线圈截面上的任意点m，设其与内径的垂直距离为a，a∈\[0,w\]，m点与载流导体的距离可以通过余弦定理得到，可以近似表示为2rcosa+acosa。则待测载流导体在m点产生的与小线圈截面垂直方向的磁场强度大小为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUFoDibuT0I85WIxWY0mUnF5JxjPZQaNOeicxLCntTcdDuWvCPVKc7rXOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_009_dc80253c5252.png)
 
 式中：i为垂直穿过罗氏线圈的载流导体中的电流；u0为真空磁导率。通过对小线圈截面内磁场强度进行积分，得到待测通流导体产生的磁场穿过小线圈截面的磁通，如果待测电流为交流信号，则这一匝小线圈上产生的感应电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUK3FRlqsZBxkIfcR83lzyr3ULvmicL8U1jqUgACVdhpyxSMqRyOfpXpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_010_070f0c2badc5.png)
 
 式中：h为PCB板板厚；di/dt为载流导体的电流变化率。对所有I类小线圈产生的感应电压值进行求和，可以得到I类线圈产生的总感应电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUOhqeAcoqkKZLcWTXQM0yrGajfyHlFRHphsa2icpzV6EnRhrAX3ug82Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_011_b5957cfdea92.png)
 
 式中N1为1/4圆形边上小线圈的匝数。对余弦序列进行求和，可以先利用欧拉公式将余弦部分转化为自然指数，再对转化后的自然指数等比数列进行求和，并取结果的实数部分，得到结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUZdClw6btR2u7YCh1sukYmnic0k0at1MWLBo9X4VTFIfjb6j4ibXj22kQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_012_a9e7667aff2b.png)
 
 如图6(b)，对于矩形边上任意一匝II类小线圈，设其与矩形边垂线的角度为β，β\[0,π/4\]。载流导体到矩形边的垂直距离为l/2，载流导体到小线圈内径的长度为(l/2)cosβ，对小线圈截面上的点n，设其与内径的垂直距离为b，b∈\[0,w\]，n点与载流导体的距离可以通过余弦定理得到，可以近似表示为(l/2) cosβ+bcosβ。载流导体在n点产生的与小线圈截面垂直方向的磁场强度大小为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUbzwgTMciafykUM1TzX6s74Byy7sMWlTTwJECnsKQEgpvdF30W1Lyv4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_013_e464d583b458.png)
 
 通过对小线圈截面内磁场强度进行积分，得到待测通流导体产生的磁场穿过小线圈截面的磁通，如果待测电流为交流信号，则载流导体在这匝小线圈上产生的感应电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUWq8wR8BF5iaxrd0Y3uxlcWuoibcIZStWGnu0qAlU0ZqgRbZY424QsKrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_014_05c660a4d167.png)
 
 对所有II类小线圈产生的感应电压值进行求和，得到II类线圈产生的总感应电压值：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUhSbD2bFlEAw6RoXu4Q3sawKmxGNGsLNLILYKUT8qVBMxkIiaBbBzsTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_015_502b14534ed2.png)
 
 式中N2为矩形边上II类小线圈总匝数的1/4。同样利用欧拉公式和等比数列求和公式对余弦序列进行求和后得到最终结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUfg6MibG87xfW4Yt9D6vyAUBu32RqN06grD0OlN2uKGZMXzFdnicZqVTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_016_90cadda2fa71.png)
 
 将式(8)、(12)求和得到所设计的PCB罗氏线圈的理论总感应电压值，并求得其理论互感值M：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUqc4Y8Vz7h6g3GNRBAn8Wu6xFGvKLxHPP4vbfiblibufETkQbJTZGDGBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_017_1f4a739e3478.png)
 
 将图6中的几何参数，以及匝数N1=30匝，匝数N2=17.5匝，设计板厚h为3mm代入上式，可以求得所设计的PCB罗氏线圈的等效互感值约为6.37nH。将所设计的PCB罗氏线圈在Ansoft Q3D中进行仿真，得到仿真结果互感M为6.26nH，与理论计算结果接近。
 
 3.2 罗氏线圈输出阻尼设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUpJD7RjRuViaDDtZxZAmsB0TtkdelCgr7ia4N2jRpshibnJutgdfXruxIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_018_a6aab609a030.png)
 
 图7为包含杂散参数的罗氏线圈等效电路，其中：M为罗氏线圈互感；Rs为罗氏线圈内阻；Ls为罗氏线圈自感；C为寄生电容；Rl为外接负载阻尼；i1为等效变压器副边电流；i为被测电流。由等效电路可以得到其状态方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUTMBelPbR4ahEUzFXKCiciaic6iaA9rySLT6NiacckWvibzoIe4YOkeicts4LA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_019_008ba638be32.png)
 
 联立可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU8vcHUhNg1sLHnSMiblzyCbFcyQIQX8EibfcFvBrqIOq0B76icF8TVUN3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_020_740ea34dac9d.png)
 
 如果将被测电流i(t)作为系统输入，罗氏线圈输出电压vo作为系统的输出，则罗氏线圈的传递函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUicAptccuDpYoOPicvUSDw26FaTvj4cPrwbSOfaa9eh7nQyxq20sF68nA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_021_d6167f49b5f7.png)
 
 将Q3D仿真得到的PCB罗氏线圈自感1618nH，内阻1.71Ω，寄生电容1.49pF代入上式，并代入不同的负载阻尼值，得到如图8所示的不同负载阻尼情况下罗氏线圈的波德图，可以看出当负载阻尼较大时，罗氏线圈的相角才能在较宽的频域内保持在90度处于微分的工作状态，并对系统有一定的阻尼作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU1ClZIg2dMeUAYqYg6LJKQ2rk2PsUb6NjsT3kM6hEnLjLa2LgjT40eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_022_876d70e2d44e.png)
 
 为了减小寄生参数的不利影响，改善线圈动态性能，需要进一步优化负载阻尼取值。如果将等效变压器输出电压e(t)作为后级等效电路的输入，输出不变，得到由寄生参数和负载阻尼组成的二阶电路传递函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yURpRwNyNeLeFMzjpjGzSTBiaHLeic6qcXmDMNdZvso18kgw8LgKbMslTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_023_19c2649a62f6.png)
 
 由于器件电流i通常接近于斜坡信号，则二阶电路的输入信号可以视为阶跃信号。为了使二阶电路阶跃响应快速、稳定，要求系统处于欠阻尼的工作状态，阻尼系数取值范围ξ∈(0, 1)，上式的ξ可由下式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU56lFnwyx2K6vqSEicc3dRciaItxMltr7emfdSCSZH0wLWIgzzziasysfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_024_261dcdda3835.png)
 
 取ξ为最佳阻尼系数0.707，可以求得最佳外部负载阻尼的通解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU0faMB4JynAISPnK2iaK57tX2iabH1LxwAY2ewgy8100LR7wszcm280sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_025_54ba73cc97f3.png)
 
 若要使上式成立，寄生参数需满足条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUiaNdEFefLZSq8M3Uavv6ic4Jh2MpribGlgSmXCWk3CVnLO1grsWKxGvfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_026_31ffede62460.png)
 
 代入寄生参数值得到最佳理论负载阻尼为740Ω。图9为不同负载阻尼Rl情况下罗氏线圈等效电路的单位阶跃响应，可以看出，选择最佳理论负载阻尼时，可以得到稳定且快速的阶跃响应结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU5EXEvpiaUtibDoO4SZZ5a2NRmNlsmB6Q47tBeiah50DuJ606SQ3HZk1bA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_027_abad288f1ce5.png)
 
 3.3 干扰过程分析及验证
 
 由于器件硬开关开通过程电流上升阶段的电流变化率较大，且伴随持续时间较长的电流振荡，这可能会导致短路保护误动作，需要抑制这一干扰过程的影响，以避免保护电路误动作。本小节对不同工况下器件开关过程中罗氏线圈输出信号的频率特性进行分析，提出利用不同工况下输出信号频谱特性的差异来抑制干扰过程的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUNibAqfcHkNYp2aFVXx5E7v5lzPjxOwnYwTtiaP7d1iaTC3ryxgNiavt4pA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_028_d53b3b59b381.png)
 
 图10(a)为感性负载半桥电路的电路图，图中：Ql为半桥桥臂的下管；Qh为半桥桥臂的上管。下管作为主动管和分析对象，寄生参数包括端子杂散电感LD、LG和LS，内部栅极电阻RGin，寄生电容CDG、CGS以及CDS。将上管简化为3条基本的电流通路，包括体二极管D、漏源极寄生电容CJ、导通电阻RDS(on)。此外Lloop为环路集总杂散电感，Lload为感性负载，RG为外部栅极驱动电阻。
 
 开通过程电流振荡发生时换流过程和漏源极电压变化过程都已结束，上管处于关断状态，寄生电容CJ参与振荡；下管完全导通，漏源极电压为0V，寄生电容CDS被旁路，CDG和CGS并联简化为Ciss，栅极内部电阻RGin和栅极外部电阻RG串联合并为R'G，并和栅极杂散电感LG串联；环路杂散电感Lloop与漏极电感LD串联为L'loop。将电路化简后得到如图10(b)的等效电路。其中栅极支路等效阻抗可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUSbt8QtWJuVj1KcUjS5ibpK3f4wJlAhNXFKqrFq0zQnx42dH6KVibvf8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_029_bf9ed5b88452.png)
 
 其中谐振频率ωON为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUGpwJ9eQMfFAiclY6iahxeqv6lVI83zLkzkTDDrLhibh15SHDKq6kibG6xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_030_35299e8b901d.png)
 
 图10(b)虚线框内的支路可以等效为一个阻尼：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUfzexsWjTktYDgombBKU6upaXgu5z2BOO32hlz9AVhuJASu5xt6Jp5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_031_c56f7910b841.png)
 
 图10(b)可以进一步等效为如图10(c)所示的电路，电路阻尼Req1由等效阻尼Req和器件导通电阻RDS(on)串联组成。可以看出，硬开关开通过程电流振荡相当于一个阶跃信号v(t)作用于上管寄生电容CJ和环路杂散电感而产生的振荡，下管导通电阻RDS(on)和栅极支路是该环路中的阻尼。
 
 表1为相关寄生参数取值。通过上文中的公式及参数进行计算，可得等效阻尼Req1=0.073Ω，由于该阻尼很小，阻尼谐振频率ωd近似等于谐振频率ωON，求得理论振荡频率ωd约为20MHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUDA6f0qsHYSWbPzvm0XeQJ5yblfLyUYiciaT2733yy9lfdYBI6HMhUltw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_032_750178cb1855.png)
 
 半桥直通短路过程中，上下管都处于开通状态，漏源极电压都处于变化状态，上下管的漏源极寄生电容都处于充放电过程，同理该过程相当于一个阶跃信号v'(t)作用于上下管漏源极寄生电容串联等效电容以及环路杂散电感，引起振荡。驱动支路和其他等效电阻都作为振荡电路的阻尼Req2，阻尼同样很小，对谐振频率的影响较小。可得如图10(d)所示的等效电路，其中等效电容为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUsVZVWT4hp0K1J6wgangHEvL4NQVYcl3eehTh9BhmEwQiaFicpV6Y7oSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_033_f5776f015fb5.png)
 
 阻尼振荡频率ωSC为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUvBe41yzSWos0xVAyWYcOU7zHvSypAqlKSSaHXQgrdVoUDpGrJFMOwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_034_8c2f2376b408.png)
 
 寄生电容参考表1中漏源极电压为母线电压1/2时进行取值。根据式(26)可求得短路过程理论振荡频率ωSC约为28.5MHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUHuTuVycX9Ay4Am5aAaNianSVQBjs5P8udILbPtyeibtoz79q8Ruvzmhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_035_b75a258cbea5.png)
 
 图11为不同实验工况PCB罗氏线圈输出信号。上图为器件硬开关开通过程，分为电流上升阶段和电流振荡阶段两个阶段。下图为1s短路过程，罗氏线圈输出电压较大，伴随振荡过程。将不同工况的PCB罗氏线圈输出信号进行频谱分析，结果如图12所示，硬开关开通电流上升阶段及电流振荡的主要频率分量集中于19.5MHz附近；1s及更长时间短路的主要频率分量集中于2MHz以下，短路振荡过程的频率分量集中于28.7MHz附近。实验波形频谱分析结果与理论分析结果接近。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUibcoStSBiazB0RsVvtR9c7k8X9a5NicPY8jBhphtzYqQs5T0h3ZAAmaSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_036_845353b3146d.png)
 
 对比理论计算和实验波形频谱分析结果可知，振荡过程的频率分量远大于需要保护的短路过程的基波频率，因此利用频率分量差异来区分不同的工作状态是可行的。
 
@@ -215,7 +215,7 @@ t1时刻之前，器件处于关断状态。t1时刻器件开通，经开通延�
 
 首先对PCB罗氏线圈互感参数进行测试，表2为不同母线电压1s单管硬开关短路实验结果，根据电流变化率和输出电压可以计算得到平均互感值为6nH左右，和仿真、理论计算结果接近。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUNyWhJ8mnmUYxTrA4ZACjFEro290z1lEU2f4ib02nvN8jI2KDn1oYvWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_037_10703612d773.png)
 
 4.2干扰抑制电路验证
 
@@ -223,25 +223,25 @@ t1时刻之前，器件处于关断状态。t1时刻器件开通，经开通延�
 
 图13、14分别为600、800V硬开关开通过程中罗氏线圈输出信号及控制芯片接收到故障信号的情况，未经过干扰抑制处理的罗氏线圈输出信号幅值较高且伴随振荡过程，控制芯片会接收到持续的故障信号，这可能会引起保护电路误动作。而经过干扰抑制电路处理的罗氏线圈输出信号不仅电压值被抑制到了较低的幅值，也不再伴随振荡过程，比较器没有发出故障信号，避免了保护电路误动作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yU3bDNLrK951bHNtlvKr7CMShXuD07QAQr1iccHmZKDmgXEg3px5nP4yQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_038_dd07f05697aa.png)
 
 4.3 短路保护功能验证
 
 接下来利用不同的短路工况对所提出的短路保护方案的功能进行验证。首先验证电流变化率检测电路的可靠性，为保证设置的电流变化率阈值的有效性，尤其是低电流变化率下的检测精度，将电流变化率阈值设置为0.2A/ns进行测试。通过调节母线电压控制短路电流变化率，实验结果如图15所示，实际触发故障信号的最低电流变化率约为0.19A/ns。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUeicUJTZlGz7rZRt346ark2oM7sg9mibtef8hRnHaIkgB6Z1eagdDLYHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_039_5138edfbc579.png)
 
 其次验证不同短路工况下短路保护方案的可靠性以及所设置的参考阈值时间的有效性。图16为不同母线电压及不同保护参考阈值时间Tref情况下硬开关短路故障(HSF)保护结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUFuLUtLmoicRT0qdcpbfRK7OwPIAjegJQQHr4RVacGWSiastbKYPge4AA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_040_501d8f780205.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUtYjvQaSO4dEZDFZDicTa28g5GicRVDRicgYlibESSkpicnjxBugF47XgMEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_041_4d1e585d79eb.png)
 
 图17为不同母线电压及不同保护参考阈值时间Tref情况下负载短路故障(FUL)保护结果。由图可知，在不同的短路故障类型和母线电压情况下，当设定保护参考阈值时间为150ns时，器件均于检测到故障信号后240ns开始关断动作；当设定保护参考阈值时间为300ns时，器件均于检测到故障信号后390ns开始关断动作。其中增加的响应时间主要是控制芯片和驱动推挽电路的传播时延。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUNFVS5KiaiaRkZtCuj9BVWwFgCmKBUictTlkzmJD8gBTulmBia7Y4yLSqGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_042_c066d5eab59f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskDUrJ64vFSnBweTgr7x4yUfdpRzvp1rx14UgLO2XI7ib7ib2kgxXNRbaOsSB99LXuchWBAprxicMurw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_043_9ad83ff22771.png)
 
 通过上述短路实验测试，可以看出本文提出的短路保护方案可以准确响应所设定的电流变化率阈值和故障参考阈值时间，提供快速、准确的短路保护，且保护动作的响应时间几乎不受短路故障类型和母线电压的影响。
 
@@ -259,10 +259,10 @@ t1时刻之前，器件处于关断状态。t1时刻器件开通，经开通延�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_044_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_045_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于PCB罗氏线圈的SiC_MOSFET简化短路保护电路研究_images\img_046_84aa944feb13.jpg)

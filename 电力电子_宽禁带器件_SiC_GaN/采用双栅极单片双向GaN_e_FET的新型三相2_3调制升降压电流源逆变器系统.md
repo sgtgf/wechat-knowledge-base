@@ -8,165 +8,165 @@
 
 作者：M. Guacci, M. Tatic, Dr. D. Bortis, Prof. Dr. J.W. Kolar
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNQDcTkrVKCQsueAibyeQ5UHspEuGbffgVyE7yl2fjQa0LJMz9vrpLgqUWq9X4iah0S5TRUT5BqCTTPPNOKGhroDUMyVcsicicAHYs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_000_4ef95abe5575.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPzs5Ph6oGwOlrNNgW1ic3bvMGt2b33wwAtiboqylffKzcXCkfgSib31P1KniabQO4AwLNDCIbY90SUEo7jrgLzLBFtmzNviax5iaMk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_001_90dd1a7dfacd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNOW8sYLKOiaPUgdHblYYGWqlrGFqrze5dOR32YRxpmtwICt0ZRWtOeneMK2qEhdCxhDvoKEicgRshxL8o84GCw8Ao2hy5ndDnfE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_002_f8aa812ce247.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM6fcTr6ibiazfxgxvLuAOxicKzvicic9u4qz6UqMoUcm7zMb89SOGdHMu2BOZXPW7xSjLUl0eH0IuEjMftw5qG3feVDtEIvz1sK8E4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_003_491d8c85eff9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNYbhwGHV1Otx6ekWWYtKK0DWZ3qqTzvCT7kTFb7sicQWSl5g6Qv6CJ9ibvHp9x9X9AVyzC89fC2Nyp9JfZDhw3MAsLibyGJyC6vU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_004_61680fc9761a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMknMKUbMYu2EZaxenLNr4Y9Mamp9K0yhSzAaOZTJWx4Nct2qiaXUicf70h4icCGQvWPwJhJ3KSf2Jnq3gLQnlib0WrtBObz4tkiajc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_005_f6494cf3f674.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN8Q7o0qKrXANRRwib6xmMib92cAajmSgxoPDV9KvW6BA3LoDic2Ocibw1ogpbMAf0lSiaPIicwA5xtt2lhAbIQxicXvSPj4ZNficib1Rrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_006_b7e328854b3f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMkpbRNNpNDj3vvT186zWedt0j6bvqrIINnuiaeYGqLN5e4SiaxbqB4E7Eat3dVM71C81nTfNHPNpjFgb92iaxYZCicsJibq40KoLT8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_007_1c09d34636e3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNERExhK699M5ybL4YiaZoNVTapJMlPHQia4KHFqEmNtgyLDHNKic4ib3GqdCLE4K3icKibRJic1T1DWjoQVbBUnxoibRmKuYITydLN1U0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_008_c38e4fa1ca56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO9K7oTAeft95jrszrvrjKV4HpCRCCg2IBZU7L5U6iaFdPoI0NYnfZIe91VTw98U0Cbm97w9WXy3JcRYic9DoCPNtQUrpvw0JTjI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_009_ac380aaf07e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOaBkFXW1ezlj0enFamiaEKvXVhNIOYgeh4POyUGxxiaIdeaE9OH4Z3VGBbPiasSSMBB6BJia0X6uHutqGVP2nUjWNeIOnqlt36678/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_010_db8db8f4a569.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM2vkCjicLJstbicQUVtnuHs4eCHurXhUBASB3KialAzhGtwhcQ5vicwA85y6zZhUugqFtr4Qu55JdwFOWErkx4a0JsSOsJyHYKVs8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_011_6e69e7686abe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOVZQhwKb8jv0yXianTZmfIl2JmqErS1I1I4Gqqic0cOjAMibzQ0nH97RXefXpbfhaQwP1BCejB4ib608Ym9NmiceR2r7usibS3Vfic6Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_012_f04ed25f68e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMfkKsYpb3uthlbGxaX78SvQ2fMZ0d9UHOR5sxajbx05jDnJqZcgfLwLLiayLvFrOdgJxM9q6NWbETQndc5JRIKk2GMqpFMmXJ8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_013_016dd00d91b9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMN3sdRnFgnJNqS5aCTuXbEWN3fLcn90s6xYERwh2mibQXWOgx3kianoaibOzXNyEewUUTtH0ohmb7SZpXVAZGlFbRpYPmHicMFiaYI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_014_b6e788f20d81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNoicnLlzicawLQkFxGWeLwjWlDgUyEEychwricUDHlP10bTXpfjeG1eAIUByx1ycjxDicKpeBv7BlpbotwtA3ticWYWpcr16Isq33Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_015_79e6ffc5f9bf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMFHOU7VTB9DUf9k19FlRjD0CY1ZtkiawamokyoBv6Ux3jibvksMX1kYn46gJM6s9PN8dxwztKXgibfoXeTVsIWr5Lyrnsr7NhMf0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_016_a500d21d441b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOC7uQdl2LKkb68M2qCHNibxAWhuze5uwejNqyNPvsYJZiaZG3YX0a2eWic5RanP0eAMjDxrpsFnUg7MibwUFPVbuvBz5l8frKqjgc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_017_edbe1a71e635.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM5m8MTuwYhkQnDQX9icplGbhibqv4O4P7CB7H3DYjYRvDFSvA67iazibGVzw7664cOH8jFzthVqVEaB5QBbg43eicM6HoezvvBIB4E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_018_3206181a261b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtbfDfSel4ibMVDLkAzwYjwF8C9jiag7naibCrFkOzoLNS1gUdsjhgb8GIR97lHpXCvOY6ibzicmiaGBibhVa3YqzZibqZl0XlNRvpVVM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_019_73a047ce1fca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOG6nOiaXgqZWmlacjiaFGGnaOu1h1ibiaiaUNY4qh62ENThm9OMj0krf2A8O6fJYJN7ZUqRDpWyVaGapwdj7t0kiatnaanu5w9qdGzI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_020_9b8c8acda15a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPq2CxI2z130dk7JafRJUTfVuOnPCH6eOrhZpSwBhJVXm8BObl8qUSWaydFs90ib8OOwiaEdwGOdxQqiatH8rvtmIL8c1uU8v2QP0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_021_00de8ab36258.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNhHt3VicEg8EjKzvxsAeXfYUfR6edBoHb8eMuhnwRC0R6lNk15ibAwaX504lMesWVNq58kHKXEfOfx3tibCRA6pzn8H5WhPrH7OM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_022_96980c66bda3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO6W5ubiaypU1mg8OiasR64IR87ow4gHQTg3ibQxBicnHML4XohSXWRSzibEkZ86CHnibFt6axHMpLsGW4AJ4w3w72xKyqopQ2bkXKzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_023_0df71cf1c5a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOkVPg2TicJJ5ibYhC6PCAKtngsKkaWaAClkP1fchfTTXwubfOuDD2MoteDzVSXDqqWQ8ibj2oltfO11IKoO0cLkDiba5dU9KQQAEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_024_311f92a3d297.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLZE1FpkNgRYk1SZ1T2fKqV5BU3icd35eyEbBvnaKgzEMe2QVFIrrNuUUP6CNic4JsXXAsasNlDwsrMETdd5Ead6ribxR1Ed1aCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_025_55bb6ab77c39.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM2ibDDPpWC6BoNgsvkibZriaSftHn8U1oAHnpiab1kheFYhAe2GAdmt2WErKEvfYKkbTAsrK5UjLoibaV8BNc4ibF46HE8LicvufHh6o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_026_6ffe03281373.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPMZE2qnVYlmE8puzT8gfvXbp92xJRibJUcLQZch9QsTn2t58ja0N2SHp5wdIU5NDRTRoxohXOVaZYsicUibia2ZjTDwGbE24Tf4F8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_027_0203654b61bc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP2DHq5HzCV0wOSyHIwiaMxB8QPs3Z3xTgwfnmxiasQloUv1rUMMoyrLsUO8vbYMTj839aiaHWrB6kbPODqwib870OftWhkroXVZVs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_028_344ccfd807ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMl6sRfDa3pADvCT8vYibRiaXo6CsMNI7FZ9Be7QEFxiaibIvH9rgUWTpvNNx3Cicsy0zg8p4OPrC5ib93GcHvDc7zDciahoQthxdibTXU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_029_3a79d6e4e383.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM17xorQm490pAz6xTuQVp44MPaIy4xyrpZY597nEN2YRAZAMSKjdhbRLcvddzxicJI0Pqao17yM3MBuSCzvCzSnx6ZZfjM9yias/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_030_1675e5222a0b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNZibdak2ZOUWgNyN2DGd9TkLrJuyrRJar4aOpnb0AJ10a7mKSgGAQ19LWDia3tES9fddwaYSnFtUo4LZAicRGJXkE4AAmebU3dXo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_031_a824097c1425.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN2aeLEGUsL9Rco3GqiaIQ0fh0jroDWs04lp3SBQjjVribyyI2QjrSSM3Jiaq1zKUBo2lJrpxy9a7TumxG0iao4nDHojFXlrYZCDibE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_032_1d908f995a99.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOC2VjENfp7Fu45fE9tg9ASt0EPyic0p35h8YlZ0aCEm8Un8sUHRcoicGt5m4FiczDYzCWxZXkWQtEEuyb8FSPLhphug9OqwpMPKk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_033_a44c6a83f6b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPOYCecf65xenibgHibRicVD9icZAMN9np7TFs2CovAj8K7DSr5XiaqO3ician6kJBLlKLqEJOWoERnb9nvMxW1EdeeuxoJjia7v86SdL0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_034_5e062873d88d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOaZG0icgStbygYHAVdmHiauwgI5ic9JT4MvHbGBEmrwWySrLmQCMOibicWGG4notV1fzXhKeiaWkE84pvrtiaaZnKSJuZn1Int3jxSZ4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_035_c93636512d9b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkpUE6loPhZLgHdMxDMpOOPwvpPNwjn6l5aeSVic8OkhvNIfzibicAyoMvsBibeTK8MXiaLNciaXpCOV2TobbAd4Wk7pShkiaTDEz5Ok/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_036_d7005b678c0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7XxaNc4YfA6GI4aCbbDIXjVy9k7DicoKDBJLs3O7c3LOlV04vKJibeEQlmgdM1Iic18EbDMjhvQ26rKmp6IOozGfBeGVxuUIKJ4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_037_5c914314274f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMxLzvSFj0XU7Cia89ib9yVCcNibs7uc08M4g5DUUNqTpSic6LriaiaiaDPbYmPiaTkstTzVuZummhicogZuooOvSBO0D5B5QTohJMiapWtU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_038_f4c93c57ccc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM780tgS2bWIAbFr8EusC0qEkHZfs0tnSCr3l5ibowvTRcFDM16NTyYjmgI4lEoQOlcFde8AIrGkG0AKfQyricGibuHRBnBvHKAaU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_039_d83b3ad8dba3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN8iacrLQ2TFKL4q50STRSxbYghzK6WVk0h8DsmXdpibvEoibOHTA3Wf7XsB7u5FQ11MmUyiaZPwNwKYSSumz0kaO3HTuXuooPKlec/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_040_e481055d9100.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOmdoWta1cct0Qtx8R0Qa0VPK1ZHQwRRZL92h0pvBCB1U7XtPIMmTz38N5oePST2uPZicB8ehHwN4jNx3icIyqviaRSL9icxMa932E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_041_fda170a98508.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOpxvTEweSCWdWLcKlPcqe6ULcF8xg2aMj0ky3Pzjqf8cFUibG848CU7nXGibWgItcWV7QMA20IaicXP0E7g9hrcXbe1OsVk5yT1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_042_6efa320b38b4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPTjiaZm5G1WRcHY5UkzJGg3t3Kq8Y8AQEicg5ib9namv6xDnQDLYjQGicQQSwT7HMs3YGc4o3pqt1v2kxthesEZRjWiaOVDzRx16xk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_043_5194da2d9412.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpND1qB5FPp7ibshxiaia2dbHa7EibHLgrOZT82NexAj28gXoG8a0BZLe6I2ibp527LXdQATreDlgQbjd4tQSW3zP1J1SHVv3Mr9DEsM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_044_097b7cadcc5c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNGXfbcjyOIibVVeKicUC2iciaEdWMJ39NnOTL8JJQhTv90CT55pOWibicy8eoAXrgicLRK7vEuJu51Cw1D25gBicsOaA8pSX2VGbVudHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_045_d0601a11bada.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjoVlMO0XBm7oWj2n4DILeiaSqPQXsViblxxqkSjXEyfrYYCqzPSMMBlBssygd8OTFK2RaOOybDjfZNsgCz0sM99QsWgkSB5oy8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_046_9e3722bc708d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOf8WAyHETQO78kz0pG83Zooic0KsSxPtgDXn3NRnYibADmHw4iaIiby2kWPtEAev3QBQmkIucpdEN3R7U7jQdzXGwN2t7NbibtdHyo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_047_0887e1e6cdbb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN8sSUtImMia5lUkr3ibMxBPfXoLv2oVjY5NUsibUKiayvwZ3Bx2ZlJ84nlsTxlAGPlNbep6OyoCxcThZDw0MlTTZpNkdic6RpHah6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_048_842c416f431a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBB0GFUeJZyyjoJDrTvNcMOaW5zVnyVu6h5700c11IG4sMr6hgvAMdvdb3oJNrW1LX8Yo3OWwseUiaZia2RR5ofEumTibDgib0p1Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_049_f672ef755774.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM39nVMTUTo6gOg91SVrjLWwtEJ02Lcak3YMqSMCYtIC9Y4fNgHpqVk3x2lvK4YfU076Zux1zL9Q45ib8K8R3nkbhyDib7pqKJrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_050_4ab29e31365f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNv33mDqiblVlGX2ueV7iaR1ziaqMibZl01AMvdoMdWWibZ1xoNDgAB5cYmLxaq4SiatZjxjNRsUxywPWlVbP9niaG7JwQ4pERPdFZibWc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_051_481b97a36f3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNY2JIw9TnhmY0NqdwcU2TMB3YweHJB0D2zfvAXIZJDQOpv6QWJG7ewia9uZXsBWHMVEEAseXLLdab8Qt7ovicMRaRlWrE0By6Cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_052_e425ef2a797d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdJlwXNDZ9zzjuH4zt6OKb9SrjRLQf2OFATTtBAMlibMqWCPOpFibspNuHdHQicm2XpNIicrTgs80XyKMCkNCtia8zicEheoJDuLib5s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_053_5e7d345d623d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMM11Aia7WFLAySMdhqEwgB77y2XkKbbkkssLtdDKddfP6PEUNkxgswf1NJuAveY95hmZ3meEutT1az9MbAhRMXAVer0hUUUiaEI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_054_fe346c836818.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNGEb40WNupBGhKBzSjX9auuxlw5KibzAmpOhDGemHj3txLoqIZU1QEuHruGUaCUqicLMaAeqVEbhmibx6mJycwZ9wtHbibibze7FTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_055_5f9730b0d8a6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPtM63x80npYX6Lz3iaK8Tajl5TDKyOt9Pk8cM11K9Hialy3ia3fqShE2Y7NHUpp6R5Z5OOX2YK9hiaePOfjicx2Fwek5dJWngibudxM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_056_4f91e16836a9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPMNmwAgBmnBiafAtiaQ8ibWCOwYXHia9rF55aZba6E2tjzc1Eicu7tndGjMicZhiardDZBibLR7iawibn0HoOZtcH286rhBqDkGE52XH0bc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_057_be3b12d977b7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM9qnkGPdv3KxhmVRqY9OuJo9RicHf6BSKE3FjnWFVwf6XZks2aJXXBFg8pDUxJ69B4KMpm0FYZQs8qNlgLHbdeYJsBvYvheGqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_058_a649b6d6c317.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNfWH7X4eMmTGyU8c2oVr6tO2csd9qPt3YryChekNibK2kfXPicsqRRXDhxy5wVSzUksDeb8Wnl0dvBtxkadIh85iawep158raouI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_059_e80aadd64f72.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNHzqKvQUK4MjXAicfwP5Uf4SBtPKJIDBFRibE8ZYYsuXjPBdwNicU9UHbbYEtnSUPBXNnVP8AW9MuAibpxG4mzb7I9bLRl25Xwq8k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_060_81d8f55a7eec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMRTkiaRgJn5A2VYHPQzbO1eUlAtlWUrOoicTzzDma9XVpXiamEKExJRXkuAIF4vfodh3jwlyOciabNPQFvq9eLx4M9QF6C0eRicicYE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_061_b459d043b9ef.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOdHnicd3mex2FuMRGIeNZ1xOuPXsxLZzUxxpRsOoV8tpFTbn2O98URSiajBLtc1sLaiajmWRlINaFBZLhLNNOfnCCMbCBpOEXiccs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_062_b7bd08a86bb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNdBofla00UeZ0rFZNPgnpeZK4f8fEK87GibunTkgOWR4KibjRxgOzED8icI3CjeOeibdbQGBn4Q9F2cxHLEj0u1fqlFGr6dSotUoM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_063_39991c425ba3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN1YHkAdCsOpfuletD8hnXzN9Uuth7UicicCdJicIOaPfaOms7eoibdBcedx05OATzPz5SX2764fdwMmo1JnzLGTMFCNhEOVAsHMjo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_064_88e6a1086e0b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN2SqfBl21uONtqUMUfelWOl58Dpr4osNwEIibZWKV9lSxMUqb8CFJUyTc5CtCBu3KSiat40C6FBIWJuEw2DSU3jAQeyE2BZFgRo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_065_ef6d651aaa39.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNrwYM0h3eYXTPicmsTcD8p1SfCbblWRibd4IlCpzDeKTdetwpA1OicCU4cCuBZsNT6W7N0DD8A2rwhcCx5iarYsquQ0DgdfTGvTek/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_066_7999157bc9ac.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOWnDnOcPickso9S5B9fo3J6QpXXV5060K984gebD8RJVsSEufhoJpx7CanegCpqlFQHuLBYKTtVpiblm6vm1ibQvxy9r2pVEKW8o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_067_073daaae1f1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUtqUq8nBJppcFQGiaicWocc9V6ic1j6pAEYlGribgIehboqTMEQEFnYjzN3lr4e3J1qFIrqVGKcmP8rvXxArbKephwm5sK2O3qd8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_068_426cb99b6727.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUuVHiaz4CQxc4ich87By3v6VJZj9KG4km5AuKiaVIhibl86bkQUexuficGpNEDcjkibd1wf9mppfy3rOMNTV1me6b7SBQThXiaaN0Mc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_069_17ec47419751.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPzC5XVw8qVRn7mymJQGyhJo61VuCeJwm4GkPEzCWtiaian1QZx8XLaPHRKYL2miaic9czkvZHn2LHhoHLGD8SKM4Sc7HDyvxcj80/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_070_919fd270a4b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPer1FWe0RYXZxR1Y8u80tw8O2CV6VfBUwEUkYFicg4eOyDxsz8JJRoTqQiciaeLb1TBGsia2NKicgwia1duAeHvKly8r8CkjYpic4mSs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_071_3cb818d4fca5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOBDRfTcdf4ySLb4K9prcGUVs9DcqaHBy9gUDH0huWg7icIViawTSFGVGIMhxSwibgEslu6e8g2hiccIAAlnQBiaMIHIg4WoQcmaNFI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_072_fb8a0e6e2f47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMs5ZLVjwcqicQNTVNAmm0CYbmaqSLTrsMvzXGOoGrYU1wv93MhffEAJMSXWibkIzhs6Be8ibibbr3MCTvw3fI4Yh7uqibk84ueun1k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_073_ddeed9826f8f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJoqsZgOLlzIULnjMgWrk2dgfuazthdibFUEx99ePibu9ZHia7sI7Y3NDcUhxkUB8ibTa4dH71ia1BAGhW2EGGBic48jHJ9SMneKDNY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_074_0752ffdd1d57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNWiarawgF7ujBTOluTficbZibrs1cVe2nenLrq8xjkunJnn4m6iaiaPWNdT0JzFv7ib0Sgrlhc62YVT758qatFLVAoKEaWIuNQRicPv0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_075_21cdd5f830b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNs0CkB0icaHWDZDK2Z1f7IAXsicyQ5d5xNcpJBO2QhJDbDL9Do6lKSrqcxNtWHk3OmlakYJ322CbjcVe4ylibSWAWpJxy6RxrfkM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_076_4fa47b602be9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPMnrtFFzQ3HZRgkjfbTXf2iafKe4VszjjOLviaHvmr51At0fJgia1zo7W3u1EcQ5AKmqPiaFRhJLl8SnMVKkPmibbXvobdPficZm0lw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_077_56809fc00eb8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPy1VT2Q8DS2s517NLlyBRqQvYNLibibh1ZRW6qmbbPibOnJaibiamHFfldiaukbJqruRsicAgnYciaHYYTNzlwhnmU0rqm4GMaWYEhxNk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_078_a9eaae05e0db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSDk0zDhgqG6mficnsJhmYK8ZRiaXBZLviaPAUHIgkS2U1jgnCxWTia3rWwf7wdiaSnicHkJMNOWjb8GwmLLK4pqiaAb4nvmLJP4icXk4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_079_a59abcf20501.png)
 
 注：文字与图片报告无关
 
@@ -332,14 +332,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNJmpzOtqBKZWkVJpjbKNsyb6b59ibbxmCicyoDL417QTZ3IvIPYIsQydib0pU68vkmEfx9VFYIaEWDJwEV6V3yibLbffTUbXunnzc/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_080_4a6102af1acb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtKJwicymKib05F9WRvkxoNtXw4G884vwSZaVbCsTnpAI1mhzztScibLic7aE9waXVDgia1HFw7Fvd2HTgLZvWshlef0jzMCCm6zxQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_081_e5568607ecff.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMyPSx4klpJiby7DCZicXv5NHFsv3ThZysfrS9hoNbrhcSS6icjbBh7tIUG6kf0piaaicLsLXCjVPRHhgFAVicVGYAib56RxNmsmdLarc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_082_3d6aace54225.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM89ZvQuL7LBDnnLsNibquSdjdN4noVSib3XY6T7skOVMTVDqweMhLMfEO87UmfxvJibwNm7MPuQLZicYtzDPxsf6AkQQ0G0VseuAU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用双栅极单片双向GaN_e_FET的新型三相2_3调制升降压电流源逆变器系统_images\img_083_aa1e0cb73f64.jpg)

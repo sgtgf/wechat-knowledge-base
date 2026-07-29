@@ -19,7 +19,7 @@
 
 SiC MOSFET 导通电阻小，导通和关断损耗小，体二极管的恢复损耗也非常小，驱动电路简单，易于热设计，可实现小型封装，有利于电路节能和散热 设 备 的 简 化、 小 型 化。 同 时， 与 Si IGBT 相 比，SiC MOSFET 既具有高频特性，又可承受高压，还无拖尾电流，在未来有可能替代 Si IGBT 成为主流电力电子开关器件。与 Si 器件相比，SiC 器件的耐压等级如图 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBfv8EX8tia9zBrlEqvGe17R17DCrfvbToEM3nKZeGw4lhOteu7ugbwRg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_参数体系及测试方法研究_images/img_000_a4a51dd01d74.png)
 
 SiC MOSFET 不同于 Si 基器件的特性主要体现在以下方面 ：
 
@@ -109,7 +109,7 @@ SiC MOSFET 参数体系中的热特性参数包括 ：结到壳热阻 Rth(j-c)�
 
 对照 SiC MOSFET 参数体系，对现有国内外测试方法进行了适用性分析后得到表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBymR3yHNlDspadTgltzLAVDn5C0Lftt7FIsCkhwqjlWrAIOFoVFJV9A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_参数体系及测试方法研究_images/img_001_cab37c2568c5.png)
 
 通 过 表 1 可 以 看 出，SiC MOSFET 有 大 量 的 参数 需 要 更 新 或 补 充 测 试 方 法， 本 文 仅 针 对 与 SiC MOSFET 阈值电压漂移等自身特性有关的参数进行测试方法的分析。
 
@@ -161,10 +161,10 @@ SiC MOSFET 参数体系中的热特性参数包括 ：结到壳热阻 Rth(j-c)�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_参数体系及测试方法研究_images/img_002_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET_参数体系及测试方法研究_images/img_003_3ade3c3d8599.jpg)![](SiC_MOSFET_参数体系及测试方法研究_images/img_004_84aa944feb13.jpg)

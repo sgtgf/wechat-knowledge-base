@@ -27,7 +27,7 @@ Xiaochen Ao, Mu-Sheng Liang, Shuyu Li, Yinchen Wang, Bing-Zhong Wang, Ren Wang
 
 出版信息：IEEE Antennas and Wireless Propagation Letters, 24(7): 1814 - 1818, 2025; DOI: 10.1109/LAWP.2025.3548051 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUwia5BDNrhezZwsVABDjgiaqUZYUwW9BkZINGjDFKEbHxtX0VrV40MHPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_基于时间反演的分布式无线功率传输系统_images\img_000_4b896bf349ce.png)
 
 论文摘要
 
@@ -53,19 +53,19 @@ Xiaochen Ao, Mu-Sheng Liang, Shuyu Li, Yinchen Wang, Bing-Zhong Wang, Ren Wang
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUFFjQkiaIcT1V0d8aJsFdw8ACywGlwsaRXcMKx3U4ZXsXAMXB730zvWg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_基于时间反演的分布式无线功率传输系统_images\img_001_81617a1dc049.png)
 
 DTR-WPT系统框图（以一个节点为例）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUMfR421U9s9za7OIj6aj2DIkV92XbBkGCx6fIqWP4aX5zvISzuqG3vA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_基于时间反演的分布式无线功率传输系统_images\img_002_5275dc9e4c91.png)
 
 时间反演聚焦实验。(a) 三个节点环绕接收天线的实验设置。(b) 时间反演聚焦实验示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnURrqBYOLzrAK7vAXLENf6Y6dFg2Bgf15m5L0j2GqCd8CUF7ngj3jLDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_基于时间反演的分布式无线功率传输系统_images\img_003_abf094f888ea.png)
 
 接收功率分布图。定位网格由10x10个1 cm²的方格组成。(a) 有线相位对齐下的聚焦功率分布。(b) 无线相位对齐下的聚焦功率分布。(c) 无相位对齐下的聚焦功率分布。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUfNzOHazbVQdIpnxMF4Tx4ict5ibgykUCBErflMn0L4RRmrgwM6SJscmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_基于时间反演的分布式无线功率传输系统_images\img_004_147be9d8fbf6.png)
 
 不同情况下的接收功率和空口效率。
 

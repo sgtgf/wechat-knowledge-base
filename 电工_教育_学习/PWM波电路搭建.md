@@ -10,7 +10,7 @@ PWM波通常用来作为驱动信号，除了使用驱动芯片，自己也可�
 
 大概思路是由三角波发生器和直流电平分别送入比较器两输入端进行比较。如下图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKn0OpyeIibUZHeVsbM3lVNwZnG2QU53TvmoUEXuicCMYWCJ9Fc6OgE1dYloOOL8ia3V7U9EEzMk8olA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PWM波电路搭建_images\img_000_e0f8fa75f32b.jpg)
 
   
 
@@ -20,13 +20,13 @@ PWM波通常用来作为驱动信号，除了使用驱动芯片，自己也可�
 
 当5脚＞4脚的电压，输出端为高，等效电路如箭头所指，R3、R5串联后与R1并联，再和R2串联分压，参考电压计算得出V1=9V。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKn0OpyeIibUZHeVsbM3lVNw5Jv3kH6C8gmvA7ujzcNiclTmLOhiadhwmXbk2yNlQen2sqyx58TKdicdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PWM波电路搭建_images\img_001_7eac1ae961ed.jpg)
 
   
 
 当5脚＜4脚的电压，输出2脚为低，等效电路如剪头所指，R2和R5并联后与R1串联分压，参考电压计算得出V2=5V。 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKn0OpyeIibUZHeVsbM3lVNwgTFO2IrOBA7JZibJGFDaohhB8PDGBoRtz4At0soCiapJgGgGHpeiczTPw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PWM波电路搭建_images\img_002_ee3519ff3473.jpg)
 
 这样就实现了输入端随输出端变化而变化。
 
@@ -48,7 +48,7 @@ PWM波通常用来作为驱动信号，除了使用驱动芯片，自己也可�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKn0OpyeIibUZHeVsbM3lVNwV7wACNe5hHIgNg3pRS7uPmN0QKD5AwI0WdWv0O4ady0aYB6AV6VINA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PWM波电路搭建_images\img_003_af70eaaa3696.jpg)
 
 电容充放电是非线性的，电阻本身是线性的，所以直流电平不能采用电阻分压的形式。
 
@@ -56,4 +56,4 @@ PWM波通常用来作为驱动信号，除了使用驱动芯片，自己也可�
 
 把三角波送入比较器负端，直流电平送入比较器正端，比较器输出端便可产生PWM方波信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKn0OpyeIibUZHeVsbM3lVNwbjoQuX6SzaezQicg64otzXj0Otdn1P1RCzqqQeAUwYekFQR5zx7n8NA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PWM波电路搭建_images\img_004_4c4b97424924.jpg)

@@ -7,9 +7,9 @@
 
 相比硅基材料，碳化硅具备更大的击穿场强、禁带宽度，更高的热导率、熔点、电子/空穴迁移率和饱和漂移速度等特点，这些优势决定了碳化硅器件耐高压、耐高温、低导通损耗和开关损耗的特性。于是，在光伏、新能源车、储能等领域，碳化硅基功率器件天然就具备对硅基功率器件的替代趋势。随着近些年新能源车的爆发式增长，以及400v平台向800v平台的升级，碳化硅既有现实的蓬勃需求，又有潜在的应用前景，自然成为了当下具备投资价值的热门赛道。除了这些主流应用场景之外，碳化硅在高温、特种电源领域也开始大显身手。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/UQaOVAnbjia69AJ0nRDVMJxZoYkG5KhN3N5LkdHl3ia7IF1NiaVdgps1LhLBTjibMiaF8l6bUlfDicUOOD9A7xC5x02Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在高温_高频_高压等特种电源大显身手_images\img_000_5b4dbeb3abcf.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/UQaOVAnbjia69AJ0nRDVMJxZoYkG5KhN35Ze61YWosTL0BsdW6YjcYicRku1OcFHu64KFxhDqseW4LyUicA5mUjZA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在高温_高频_高压等特种电源大显身手_images\img_001_b47d0f782994.png)
 
 碳化硅功率器件的应用与优势
 
@@ -21,7 +21,7 @@
 
 其中，电源产品是高温钻井设备核心，关系到钻井底下电机运行、信号传输等各个方面，电源的质量直接影响钻井设备的质量。由于地下每1000米温度上升30℃，随着各石油公司在更深度钻井方面需求不断提升，高温模块和电源的需求也不断增加。SiC的导热率大约为硅材料的三倍，熔点约硅材料的两倍，理论结温高达550℃以上，天然更适合高温的工作环境。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/UQaOVAnbjia69AJ0nRDVMJxZoYkG5KhN3EyLy3JwK3HZ9EaA7a0oyBmu3484QVtyX9X05GIlhkRAGTI3MY8aroQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在高温_高频_高压等特种电源大显身手_images\img_002_54a11fc880c6.png)
 
 石油勘探电源产业链
 
@@ -45,7 +45,7 @@ _**技术壁垒：**_在电路设计上，很多know-how需要长时间摸索，
 
 特种行业电源要求可靠性高、应用温度范围宽、适应严酷应用环境、抗干扰等优良特性；另外，不同应用领域对特定指标有特殊要求，如：星上电源的抗辐照特性，导弹电源的纹波噪音等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/UQaOVAnbjia69AJ0nRDVMJxZoYkG5KhN3lPE2sBZhnicCRibVEAibXiaLiaViamehnrbysQmcMX0zMiaVAE9d4dQ2jxw7g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在高温_高频_高压等特种电源大显身手_images\img_003_0ece7a44961b.png)
 
 特种电源可靠性要求较高
 
@@ -53,6 +53,6 @@ _**技术壁垒：**_在电路设计上，很多know-how需要长时间摸索，
 
 **总结**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskMj8XJ9BrP9VaDarvCKPQojW26GdHg83TLBrGeMVZAHSyOCPrXmeVEJnKxCDMmlTetPdgxwPO5Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件在高温_高频_高压等特种电源大显身手_images\img_004_f591b01044d5.png)
 
 碳化硅器件在高温、特种电源是当下性价比较高的投资赛道。首先，电源系统应用场景广阔，凡是需要调整能量的制式与属性并输出为电能的场合，都需要用到电源。其次，从设计到材料选择到工艺，均具备较高的技术壁垒。第三，赛道竞争较小，目前200℃以上电源国内范围属于空白领域，230℃及以上全球范围属于稀缺领域。第四，商业模式比较健康，可参考上市公司新雷能，新雷能 2021 年特种电源收入8.8亿元，毛利率高达60%。第五，相关企业可从电源产品入手，获得稳定现金流，再培养碳化硅模块和芯片业务。

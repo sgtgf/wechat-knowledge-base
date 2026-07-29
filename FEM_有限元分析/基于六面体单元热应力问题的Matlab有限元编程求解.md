@@ -93,7 +93,7 @@ InterpolationMatrix=zeros(8,8);%求解节点应力应变的插值矩阵
 
 推荐大家关注我的原创视频课程里面《[Matlab有元编程从入门到精通](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247550237&idx=1&sn=c0d259918b2f780b2c8d9869444d2801&chksm=eb93a9f5dce420e3c84059579329caf3191c2931c7dc9b564dfc19d49b16f5a0bcdcd1a4fc0f&scene=21#wechat_redirect)》目前加餐到第35期。我还会持续更新，强烈推荐学习者订阅。
 
-![](基于六面体单元热应力问题的Matlab有限元编程求解_images/img_019_aea80b19dca9.other)
+![](基于六面体单元热应力问题的Matlab有限元编程求解_images/img_019_aea80b19dca9.jpg)
 
 **上新优惠价****（限1****0名）**
 
@@ -107,7 +107,7 @@ InterpolationMatrix=zeros(8,8);%求解节点应力应变的插值矩阵
 
 ![](基于六面体单元热应力问题的Matlab有限元编程求解_images/img_020_b95c1c9ad6df.gif)
 
-![](基于六面体单元热应力问题的Matlab有限元编程求解_images/img_021_7cf3da41e2fb.other)
+![](基于六面体单元热应力问题的Matlab有限元编程求解_images/img_021_7cf3da41e2fb.jpg)
 
 **本课程为matlab有限元编程专题课**，课程主要以**案例的形式进行讲解，**中间会穿插案例中所涉及到的**有限元基本理论**，案例不局限于力学问题的有限元求解，还会涉及**传热学、电学**等问题的有限元求解。
 

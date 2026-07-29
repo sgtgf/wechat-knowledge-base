@@ -16,13 +16,13 @@
 
 我的思绪瞬间被拉回了那些烽火连天的岁月。想当年搞那个3000W的AC-DC电源，才几十安的电流，就让IGBT和MOS管轮番上演原地爆炸。那动静，清脆响亮，余音绕梁，恨不得整栋楼都能**免费共享**我的绝望。爆炸过后，耳朵里的嗡嗡声还能当半天背景音乐。我就是这么被硬生生炸怕了，才弃明投暗，躲进了弱电控制的安乐窝。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqtW72z2pOwfzcEV8RPJKXjNy9OLcoeFlr1bKz1ybic4oxgSWWK2oEdsA/640?wx_fmt=png&from=appmsg)
+![](过210A电流_PCB该怎么设计__images/img_002_1ea9a9691753.png)
 
 所以，坦白说，210A这个量级，我亲自上手操作的经验是零。心里头第一个冒出来的念头就是：“这电流，听着都心有余悸，非得用PCB吗？这成本不得飞到天上去？”
 
 但这位兄弟随即补充道，这是用于光伏逆变器产品，IGBT这类功率元件的电流，并非全部由铜排承担，而是需要先在一块主PCB上进行汇集和分配，再通过端子导向外部铜排；又或者采用两个110A的模块并联来达成最终的大电流输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqcuIT6gfwQIp9goz1OG3xDY4pUiaHicwjUntggDdKY05dcZXT0BKhHib2A/640?wx_fmt=png&from=appmsg)
+![](过210A电流_PCB该怎么设计__images/img_003_bc41a416e3d5.png)
 
 于是我发了朋友圈，看看有没有做过类似产品的大佬，借鉴一下经验。咱们电子圈的兄弟们就是给力，各路大神纷纷献计，好几十条评论，点子多得能装一箩筐。我下来也赶紧查了一下相关资料。
 
@@ -36,11 +36,11 @@
 
 在开始聊具体方案前，咱们得先对210A这个电流有个感性的认识。它不是简单地把线画粗点就能解决的。发热惊人：根据焦耳定律：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh36LJhqWAh8zS4Q4qkY42yvSY16PpdEl3bnTNOf7mibkeEOTbhwPBwOzkxZMvxvU6ErlMZwQKJtYA/640?wx_fmt=png)
+![](过210A电流_PCB该怎么设计__images/img_004_4e9b9abb3d12.png)
 
 -   发热考虑。发热量是和电流的平方成正比的。210A的平方是44100！这意味着，导线上一丁点的电阻都会被放大成巨大的发热功率。温升30°C的设计目标，做不好，板子直接变电炉丝。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqFBwyyFpdBnM8BZjibCrbQ6USfY6vN7XsaY88icPWicKVlGoicCeGicKSeVg/640?wx_fmt=png&from=appmsg)
+    ![](过210A电流_PCB该怎么设计__images/img_005_65c8d61bed69.png)
     
 
 -   **成本飙升**：常规的用加厚铜箔、开窗上锡等方法，在几十A电流时还能hold住。到了200A级别，很多非常规、高成本的PCB工艺就得用上了，比如**嵌铜块、夹层PCB、铜条贴装**等，这些都会让PCB的制造成本指数级上升。
@@ -60,14 +60,14 @@
 
 -   **加厚铜箔，加宽走线**：这是最基本的思想。常规PCB铜厚有1oz(35μm)、2oz(70μm)等。对于210A，可能需要用到**3oz、4oz甚至更厚的铜箔**。同时，线宽也要大幅增加。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqtBuE6warwR9Xpzho7aRHtG0OJsxo7bF0OSRCeg2zCwCLq6VVllIicEQ/640?wx_fmt=jpeg&from=appmsg)
+    ![](过210A电流_PCB该怎么设计__images/img_006_03158d0ddc8d.jpg)
     
 -   **开窗镀锡（露铜上锡）**：在走线表面去掉阻焊层（绿油），然后镀上一层厚厚的锡。这相当于增加了导体的截面积，降低了电阻，同时也改善了散热。这是非常常用且性价比高的辅助手段。
     
 -   **多打过孔（Via）**：如果是多层板，用大量过孔将顶层、底层甚至内层的铜箔并联起来，可以有效增加总载流能力，并帮助热量在层间传导。注意过孔也要做塞孔或者镀厚铜处理。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqibicDe8gfwXP8ib4Eic8QSTK6CmAwypFhzWs1Eka4IP4ZzBNjuRtdq25WQ/640?wx_fmt=png&from=appmsg)
+![](过210A电流_PCB该怎么设计__images/img_007_55a5ba5edbd7.png)
 
 **点评一下**：这套组合拳在几十A到百A出头的场合很管用，但对于210A稳态电流，可能有点吃力。温升可能不容易控制在30°C以内，而且会占用巨大的PCB面积。
 
@@ -80,17 +80,17 @@
 -   **嵌铜块/嵌铜条**：在PCB制造过程中，在需要走大电流的位置预先铣出槽，然后将一块厚铜块（或铜条）嵌入并压合在PCB内部。这样，电流主要通过低阻值的铜块流通，PCB铜箔只起到连接和均流的作用。这是从根本上解决问题的方法。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqUBUcAJg0pYiap2GuUHHl3967XDDqLyZnx7KS3hMt34ll9fcQiaLdLjdQ/640?wx_fmt=png&from=appmsg)
+![](过210A电流_PCB该怎么设计__images/img_008_ea7b92e88a50.png)
 
 -   **表面贴装汇流条**：PCB制作好后，在表面开窗的位置，通过SMT（表面贴装技术）或手动焊接的方式，贴上一段成型的、厚实的铜条（汇流条）。这相当于把一个小型铜排直接集成在了PCB上。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqcG2HC56eArLcB9icQjsNI0eMtvpPa7B3Ho6oQHaPFklvyouXf3gPNIQ/640?wx_fmt=png&from=appmsg)
+![](过210A电流_PCB该怎么设计__images/img_009_071672c162ff.png)
 
 -   **铝基板+激光焊接**：一位大神分享了一个骚操作：用铝基板，在需要的位置焊接铝块，然后用激光焊接把铝块和铝基板的焊盘熔在一起，甚至烧穿表层，让铝块和铝基板本体结合，利用铝基板本身优良的导热性和增加的截面积来导流。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqCFsxgKdqvdd4GwZPvvh2F9pO5ZhwicC3XI6T84rQdiaCvCdiaiamicBRrmw/640?wx_fmt=png&from=appmsg)
+![](过210A电流_PCB该怎么设计__images/img_010_2f72af7cf822.png)
 
 **点评一下**：可能镶嵌派方案性能最好，能真正满足210A@30°C温升的苛刻要求。但缺点是**工艺复杂，成本非常高**，需要和PCB板厂进行深度沟通和定制。
 
@@ -109,7 +109,7 @@
 
 -   **“仿真一盘”**：这是评论区最简短但最硬核的建议。对于这种极端情况，**不能再凭经验来算**，必须借助工具。使用SIwave, Ansys Icepak, COMSOL等电磁-热协同仿真软件，可以精确模拟出在不同线宽、铜厚、镀层、环境下的电流密度分布和温升情况。在设计阶段就能规避风险。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqYrsbOEmIMlFyVXwfEbH0e9oMx3t0YBaJdNN6AVufibc122XFGRibMdAQ/640?wx_fmt=png&from=appmsg)
+    ![](过210A电流_PCB该怎么设计__images/img_011_0edbde23a0ea.png)
     
 
 03
@@ -120,9 +120,9 @@
 
 **1、热量从哪里来？**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh36LJhqWAh8zS4Q4qkY42yAcWVsYzX8TxicVthEoT1UXWoiaTThxHvnNJB6B8fFV2knRknBVPkMTcg/640?wx_fmt=png)
+![](过210A电流_PCB该怎么设计__images/img_012_00b34e9c78e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh36LJhqWAh8zS4Q4qkY42yL8vMBLlHNyox9DjFURbtdUqHw2jW4Sta4IffTS5D09icwdFMpBPF0cw/640?wx_fmt=png)
+![](过210A电流_PCB该怎么设计__images/img_013_86faa9b7b9f1.png)
 
 ρ是电阻率，L是长度，A是截面积
 
@@ -152,9 +152,9 @@
 
 2、一份40多页的《开关电源热分析与计算》PDF文档。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgvYxFZReRhsq4mnvh7z6iahDdJMBxicYlv5INlib8APQuXxElv43tmzbVI3km9MwjSK9CrQmwXRZ1Sw/640?wx_fmt=png)
+![](过210A电流_PCB该怎么设计__images/img_014_c5d8345a836d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg3QVSiaE9tr5mh7xFj51DRqPMkLF4wgwTgDF6eNM11o9JPjYefWVafatTRDVx0pnLUrDds4n0u0FQ/640?wx_fmt=png&from=appmsg)
+![](过210A电流_PCB该怎么设计__images/img_015_a9657d39671d.png)
 
 如何下载《**热设计资料》**，更好的学习计算热设计相关知识
 
@@ -168,11 +168,11 @@
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgvYxFZReRhsq4mnvh7z6iahcEEXbTs7YeGhwGUolJnkicE1OK1icf6PZ4ULtXdYa4Via9fewAFja6KfA/640?wx_fmt=png)
+![](过210A电流_PCB该怎么设计__images/img_016_a96fb7138192.png)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgAFibFfm4S1VuGsch8Qar2k92Q3jmo6tZdLgDmRdk2yLDOje5gNa16LFGico9pjztv4FLmglnTXSrg/640?wx_fmt=jpeg)
+![图片](过210A电流_PCB该怎么设计__images/img_017_749d0b2e70f2.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/RH9sWjHxX-8iH8qRKNv0gw](https://mp.weixin.qq.com/s/RH9sWjHxX-8iH8qRKNv0gw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBWxcVXRNvfuAFm87G9QopsmBOrWfa96AGKfG6iaL4bdugLK1Tpthg2ibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_9_晶振标准的布局布线推荐_images\img_000_19a604c62d69.png)
 
 _______**_______**★★★**_______**_____OSC-9---晶振的Layout_____**_______**★★★**_______**_______
 
@@ -51,7 +51,7 @@ _6#：过孔_
 
 ________________€3.________保护器件________
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRzyB1lkOXpDWDzhOibFribPicvSIEylKsb3LcnFW2PYsn9iaJg1PSiccLOVzLXbnWJJZGkl11iajTvIU9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_9_晶振标准的布局布线推荐_images\img_001_f25b5d24e23f.png)
 
 **_图9-1：晶振增加ESD保护器件_**  
 
@@ -61,28 +61,28 @@ ________________€4.无源晶振Layout示例________________
 
 顶层：**_图9-2_**所示，晶振顶层的最好策略是铺铜包地（如果有的话也可以连接其他大面积GND铜皮，也可以独立GND铜皮），效果比走线包地效果更佳。铺铜之后，打上过孔阵列，与其它层的铜皮进行良好连接，形成一个密集的GND三维多层法拉第笼。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRzyB1lkOXpDWDzhOibFribPicLOuK8QiciapiachUanG1Le5uqWcLtOicCadiaOUMWTG0LYOZeeicVs2lAwBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_9_晶振标准的布局布线推荐_images\img_002_c703458e6039.png)
 
 **_图9-2：无源晶振顶层走线范例_**  
 
 中间层和底层：因为晶振底下的投射区域不能走线，不包括GND层和POWER层（GND层完整覆盖，POWER层也完整覆盖，不用挖空），所以就将投射区域的GND过孔用铜皮连接成shape，其他层也类似如**_图9-3_**处理。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uAjFbLsM4nBrQoWnCKuwiau7tia02oe9fOd8UT0niaXqBDEYe1puYdjQQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_9_晶振标准的布局布线推荐_images\img_003_084cef054a86.png)
 
 **_图9-3：无源晶振中间层/底层范例_**
 
 ________________€5.有________________源晶振Layout示例________________________________
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTNp8zxlmrzWGb7b0tMLLzZao0npoJZoWMfjXAiaInBODUSol2p8Ic8WThlaIItpzAQibw0HT4ibyblA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_9_晶振标准的布局布线推荐_images\img_004_3f2463ec9cd7.png)
 
 **_图9-4：有源晶振电路_**
 
 顶层：如**_图9-5_**，去耦电容靠近晶振的电源管脚，有源晶振同样建议使用铜皮GND包裹策略，时钟信号直连，尽量不要过孔换层。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRzyB1lkOXpDWDzhOibFribPicfxfAGvhvia4MKfFazwtQ0GEGTQeXr6tGaC6Q1gnYZuVzTaibdgpdCjUw/640?wx_fmt=png)**_图9-5：有源晶振顶层走线范例_**
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_9_晶振标准的布局布线推荐_images\img_005_330a133d56d1.png)**_图9-5：有源晶振顶层走线范例_**
 
 中间层和底层：GND铜皮覆盖投射区域，过孔立体连通。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTMk7KibaNqZolu2YLianto5uaGqiaIoib305tibMgOx3qEBUyBKk1non6h6ftOCuh4Sf8p3QZialWeoJcg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_9_晶振标准的布局布线推荐_images\img_006_1378377763db.png)
 
 **_图9-6：有源晶振中间层/底层范例_**

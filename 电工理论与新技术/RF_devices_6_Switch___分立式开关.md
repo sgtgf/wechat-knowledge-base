@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/bmjg5LC91jV\_ZZJqMmOcSw](https://mp.weixin.qq.com/s/bmjg5LC91jV_ZZJqMmOcSw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ8blfDJicuGPz5fP6YPa0ZetdwicD9KZN2TueyjpqPKzuvNRRVia3ZsuA3rDdcMPzF3mc6hhs8tqRjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_6_Switch___分立式开关_images\img_000_405fc26a6b2d.png)
 
 ____**★★★**______SWITCH-1---分立式开关______**★★★**____
 
 引言：分立式开关也叫射频传导开关，作用是将多路射频信号中的任一路或几路通过控制逻辑连通，以实现不同信号路径的切换，包括接收与发射的切换、不同频段间的切换等。开关产品组合包括单掷开关 (SPST)、单刀多掷开关 (SPNT) 和多刀多掷开关 (NPNT)。这些开关产品采用多种技术，包括SOI、pHEMT、GaN和PIN二极管等，性能出色，适用面广。射频传导开关产品的主要种类有移动通信传导开关、Wi-Fi开关等，采用RF SOI的材料及相应工艺，广泛应用于智能手机等移动智能终端。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQFricic3mQK0Ckx54B8cKY1LyohKs4UfS9V18KAdRWGCen4573qhvNyQbGeDpzcFD7rwWfvWomCewA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_6_Switch___分立式开关_images\img_001_66519bbbaf78.png)
 
 **_图6-1：RF Switch按路径分类_**
 
@@ -17,7 +17,7 @@ ___€1.原理和结构___
 
 射频开关的工作原理如**_图6-2_**所示：当射频开关的控制端口加上不同电压时，射频开关各端口将呈现不同的连通性。以单刀双掷射频开关为例，当控制端口加上正电压时，连接端口1与端口3的电路导通，同时连接端口1与端口2的电路断开；当控制端口加上零电压时，连接端口1与端口3的电路断开，同时连接端口1与端口2的电路导通。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSyibOLxKVtxDWJ12MbQ1FeL83BzERLhh0scxYZibBmgWHN6E79QLXdeIngGbblLwnv3kFCnvcPc5LA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_6_Switch___分立式开关_images\img_002_7688c970f941.png)
 
 **_图6-2：最基本的单刀双掷开关_**
 

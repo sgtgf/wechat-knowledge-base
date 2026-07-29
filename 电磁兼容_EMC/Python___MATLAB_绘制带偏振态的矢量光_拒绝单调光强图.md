@@ -17,9 +17,9 @@
 clc; clear; close all;
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0oTUiaJxSpUD63mqWUh0e0sPkJCydCrHwneMPVR61icnTNmm24zxC8CbHSUY6GGj08M50fEPPzETgbMMDxAxfpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制带偏振态的矢量光_拒绝单调光强图_images\img_000_0f4020260a1c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0oTUiaJxSpUD63mqWUh0e0sPkJCydCrHWC6OlA8WNvRwn93AaXCswwiaRAvb0hnQCA1ycdOvvC2syiajIUxOdCYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制带偏振态的矢量光_拒绝单调光强图_images\img_001_2df981912561.png)
 
 * * *
 
@@ -29,6 +29,6 @@ clc; clear; close all;
 import numpy as np
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0oTUiaJxSpUD63mqWUh0e0sPkJCydCrHoQATIc182gVZIlZxvLz4Ko0Wl6zXVnXZobffhVH5PtwthVXafhHKaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制带偏振态的矢量光_拒绝单调光强图_images\img_002_9200f157aa55.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0oTUiaJxSpUD63mqWUh0e0sPkJCydCrHmZGKJSXP4J2ckZvEIRZXmFsFrOEicSpQCaG8F9CKTM0vNVe7bJIo7kQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Python___MATLAB_绘制带偏振态的矢量光_拒绝单调光强图_images\img_003_d81bd6ec6bfb.png)

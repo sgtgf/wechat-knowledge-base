@@ -47,54 +47,54 @@
   
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=142#wechat_redirect)
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9DNAdM6S5GBuJicedRhnibWIB7ibK6ojZftPrykiayBy669BWL5icyr0ib0m6O4hhBiaZRjianVnzQYVJoiauyiaHw3n3R0RWPvFuwaicEk/0?wx_fmt=png&from=appmsg)
+![图1](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_000_5ac07b1527e1.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSiaaIN0roOY9GibSeyt4P2XNBvKe9lHgNEz7XpDMFIyBa8NwvuHCVUTfFJWNLPGciafjBXsibYNwVRo8lnsLTBgczt62kjII9Yh8/0?wx_fmt=png&from=appmsg)
+![图2](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_001_550a5d89e14e.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP96TyUuVRcezrvvm7e5V4biaB37SxH4PuZB7o3N6czFrJecicKEn8JSecibNUJkdaTwo8byIicjibtLrsbpEB4GVRGYOCKHj4BsqB4/0?wx_fmt=png&from=appmsg)
+![图3](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_002_f05dd1f6c05e.png)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO9Z9UqB9WvjArfjbml9N0H6ItMLxjZ2O882ERiabtCYg6rJaROFjJ8iajXPPVzDHuquDuUtQ1Iia16EY3Po0rAXdICfAo7nM6v74/0?wx_fmt=png&from=appmsg)
+![图4](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_003_987ff94cf9dc.png)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOkkg3ZlVibcdR3Yuiayl9n9fm0c5CGZ5hNBAtGQIMNqhIQjCXc9r3dakTIxYD7tNRMyeolPVWBS0dKyDFDeHk3mbcicJzhPvmCU0/0?wx_fmt=png&from=appmsg)
+![图5](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_004_1dd72458240e.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPg4W3aosMichibBHCyCW8aQC8vhykHc8fYhPUEWdfN0eunS5tTjEvubibEvFP33jKhAPaYh6WFSKxzNMOOmmibfaolMR4YnzcldLk/0?wx_fmt=png&from=appmsg)
+![图6](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_005_d0a0be4e551b.png)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvwmpfCSSqC8qKnPaZiacFGp8wNFvrAQgIVIicMziciaLa9R9BZYiaVicQudgAz4Ljh7JLkDUJVvVoOycJCEWMKgD9gZOMfb2CicKy3k/0?wx_fmt=png&from=appmsg)
+![图7](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_006_39673ba40b07.png)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNrqL6CmwFpdEZ1sfMofkX3aapynqRZdne7UdxKFw1icMBd0F0GiayCzicWbwPECcJLknFicay4fwqn6m0S7p1ib56lgnDbKOkUHcVE/0?wx_fmt=png&from=appmsg)
+![图8](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_007_46ba9626014f.png)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP90CH4hRY7iarNbRVBOr0q1CnXnUbt7XXSU9xCJKTuaQlglrPohhCUjdDSds6joWlna2KJGLgKqibic60SY1d5iciasEpYVzBhUZfw/0?wx_fmt=png&from=appmsg)
+![图9](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_008_08ab95b9b0a3.png)
 
 图9
 
-![图10](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM24VL4KurxcIzQiapZn9JnwqicfnPOQxTIf1nHtjG4ay4cRJePaFVDMj4b31SGAF1qKMX41936IumHO4iaYbCBUdYhAyFd03XX9U/0?wx_fmt=png&from=appmsg)
+![图10](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_009_fd713a9ac2dd.png)
 
 图10
 
-![图11](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjibBq7zPWSc5GMHicXib1kicnGWwpOdVmood9uSyK51KxicPCet0pjSvULWoqp00UFSJn34WkZibUfg93kJJHNz7Gicbaam4BqtmDjQ/0?wx_fmt=png&from=appmsg)
+![图11](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_010_f97ca0ae4ed4.png)
 
 图11
 
-![图12](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjB48GU2OibR3ic1YNN2ticggLjT2Y2kNuHia75ZokNFZEIwb4xM3K0vAXNYdYmpCHAEyVJRG1mTHLXdkqo0hwHhIgCEj1p3bo8OM/0?wx_fmt=png&from=appmsg)
+![图12](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_011_657b2d81f259.png)
 
 图12
 
-![图13](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOhjicYjZnoby7Be3eMu0PddHLKZBARABtoA8SUfICBZk61QsiaA9ZTceM2KI5icW7lWDpzQhvDgzaAP2EG56vqtSg7fLmd3FmHto/0?wx_fmt=jpeg)
+![图13](SiC_MOS_模块_深度赋能新能源与工业领域_images/img_012_447af2993196.jpg)
 
 图13

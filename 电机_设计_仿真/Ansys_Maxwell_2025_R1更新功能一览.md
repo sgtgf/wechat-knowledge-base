@@ -12,13 +12,13 @@
 
 如果尝试打开 2023R1 之前版本软件创建的项目，新版软件会提示无法打开，请使用 2024 R2 版本软件将这些项目转换为 Parasolid：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVc2qD0AJ90PXqMIdNLFYCTl1LK0l0JV5KZVeic3TOSloh1wCgmYEq6wXw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_000_05f6f5ebeaa0.jpg)
 
 ## 2空间矢量脉宽调制（SVPWM）激励
 
 新版软件新增支持空间矢量脉宽调制（SVPWM）激励，可直接在 Maxwell 中选择创建。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVcNFTZwMwmgM3eR3PhXRIPTausNlyf1S8Jib2drQxMDf1ugyGaxs6KYmg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVclGasRu4nFxmWpARn7Bf17ZibD5DecRS8m0WcYPR2wPB21sJa5VYZicFQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_001_119e6696fbbc.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_002_fa112a277a1a.jpg)
 
 更详细内容可参考帮助文档：Maxwell® Help：Setting Up an SVPWM Excitation
 
@@ -32,13 +32,13 @@
 
 对于涡流场，新版本软件可通过设置直流激励支持考虑直流偏磁情况，需要注意的是，“直流(DC)场”仅支持 3D 模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVcIyzRjK8C3XxHDp4wCThyh8fmOcI1Im178n10rAwjI10IGBHWQBq6Vg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_003_543aaecf2501.jpg)
 
 电压、电流激励均支持设置“直流(DC)场”
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVc9EJZSOzbavcviaVId0RZHnBKmKicHtYounnjzbLkCSDgFY4icqfbnmhrA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_004_d98dacd0087c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVcicdH0CGsFUpj20wymLXk5CQouxGcx6E5bqBOvSszjYsxrvoY4aXeZBw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_005_fe7af97ab0d9.jpg)
 
 详细内容可参考帮助文档 Maxwell® Help：Including DC Fields in a 3D Eddy Current T-Omega Solution
 
@@ -46,7 +46,7 @@
 
 二维以及三维涡流场分析中，软件支持从 FFT 数据中获取数据集作为涡流场的激励，本次更新对这个转换过程进行了优化，提高了转化效率
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVcqG2icXTR1Iy5GZ1EgicEKbibdr1IEHnRaKl02UG2zIziaDAjialgF08CPEQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_006_e5c8e818a9cb.jpg)
 
 详细内容可参考帮助文档 Maxwell® Help：Using Eddy Current Excitation to Generate Harmonic Losses
 
@@ -54,7 +54,7 @@
 
 求解瞬态问题时，之前保存了所有实体的求解结果，为了节省磁盘空间以及仿真时间，当前版本软件可设置只保存我们关心区域或者实体的求解结果！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVczXKHoOQcQqGEycNVib6xcdA0VkBZ8hmVu5qFdYCgu0ZKFReaia9kFYkg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_007_0973169f0e41.jpg)
 
 详细内容可参考帮助文档 Maxwell® Help：Save Fields on Object/Face List
 
@@ -77,11 +77,11 @@
 
 当模拟中有运动时，运动域和静止域界面上的网格可能会变得非共形（即界面两侧的节点不在相同的位置）。这需要一些插值 / 映射技术来将字段从一边映射到另一边。根据用于这种映射的方法，界面上的场量可能会因数值误差而出现局部热点（该处场量明显高于周围区域）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVcKsEIwOQxhohrhqcbUv7dWXoourjBfiaJ1PW1JpNMnU8wyGNNwpI7ZXg/640?wx_fmt=jpeg&from=appmsg)该功能可用于提高求解结果的平滑度和准确性，从而使模拟更加稳健和准确，新版软件支持了斜槽模型。
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_008_f130013a6c56.jpg)该功能可用于提高求解结果的平滑度和准确性，从而使模拟更加稳健和准确，新版软件支持了斜槽模型。
 
 该功能是 Beta 功能，需要勾选**Tools > Options > General > Desktop Configuration > Beta Options**中的 Continuum Air\[2D\]选项
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVc8C5VXpAhM6ib9dvO8k3Zl4QYlPjGpBGDtEiaNWRdK4TrVy8wavYoiahBg/640?wx_fmt=jpeg&from=appmsg)更详细内容可以参考 Maxwell® Help：Improving Reliability of Results for Airgap Modeling of Electric Motors (2D)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_009_e4225c7b403d.jpg)更详细内容可以参考 Maxwell® Help：Improving Reliability of Results for Airgap Modeling of Electric Motors (2D)
 
 ## 11涡流场 A- 求解器补充新特点（Beta）
 
@@ -91,10 +91,10 @@
 
 支持导出走线中的感应电流，以导入 ANSYS RedHawk-SC（SoC 电源完整性和可靠性软件）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVc7289YIJAl6AdvPyYWZSExXNR9aCxFAYSBBGqAEyDpUhYahhWFrIUVw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVcyyEWaI8fnUf4vNfXEVDTqSptz6KuY9O2h8tFTYP3cPTzbtOJTckNnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_010_70936a41f8c3.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_011_e0377dd22c16.png)
 
 该功能是 Beta 功能，需要勾选**Tools > Options > General > Desktop Configuration > Beta Options**中的 Maxwell Export ECAD Induced Eddy Current 选项
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSrX5vAEnGmaX8ECq1czwVcbkPxmOtTISNLiaeTjsiarO1K3vPA7Ln86pCUQ2ZYVJicfs5YOZkx7zKicw/640?wx_fmt=jpeg&from=appmsg)更详细内容可以参考 Maxwell® Help：Export Layer-Induced Eddy Current
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell_2025_R1更新功能一览_images\img_012_a9b695db581c.jpg)更详细内容可以参考 Maxwell® Help：Export Layer-Induced Eddy Current
 
 作者|斗沙片刻

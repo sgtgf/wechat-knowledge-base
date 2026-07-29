@@ -5,7 +5,7 @@
 
 碳化硅变流器是一种电力电子装置，其工作原理主要依赖于碳化硅材料的特性。碳化硅材料具有高热稳定性、高功率密度、高效能、尺寸小以及长寿命等优点，这使得碳化硅变流器在高温、高功率和高频率的电力转换场景中表现出色。
 
-碳化硅变流器利用碳化硅材料优势，在高温、高功率、高频率电力转换中表现出色，广泛应用于新能源汽车、智能电网、轨道交通等领域。虽具高效、高温稳定性等优点，但成本高、技术门槛高、稳定性相对较差等问题仍需解决。![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnF7SfACoJLA05GZiaGgqbq7T3xwVpWdY1gVs7GXj3ice3OEj4PSs6FLLh4TPF4cByethFD41eicgdjw/640?wx_fmt=png&from=appmsg)
+碳化硅变流器利用碳化硅材料优势，在高温、高功率、高频率电力转换中表现出色，广泛应用于新能源汽车、智能电网、轨道交通等领域。虽具高效、高温稳定性等优点，但成本高、技术门槛高、稳定性相对较差等问题仍需解决。![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_基于SiC器件的电力电子变流器研究_images\img_000_8d7978971465.png)
 
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/xrWe8N4187ojdFkibZYZk83XrUMmRzW65OJ82yKM5dPLQ8OiayPmq3QcIZy8ZbjfdOUdwFsr9iafkHYiakhaNzbncw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1 "基于Sic器件的电力电子变流器研究_01.jpg")
 
@@ -75,8 +75,8 @@
 
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/xrWe8N4187ojdFkibZYZk83XrUMmRzW65D6UPlgSnxssR6X5LjAls07X2lctPfeXPeHxLdOqITOoxZibCic4ngzag/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1 "基于Sic器件的电力电子变流器研究_34.jpg")
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_基于SiC器件的电力电子变流器研究_images\img_035_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_基于SiC器件的电力电子变流器研究_images\img_036_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京理工大学_基于SiC器件的电力电子变流器研究_images\img_037_84aa944feb13.jpg)

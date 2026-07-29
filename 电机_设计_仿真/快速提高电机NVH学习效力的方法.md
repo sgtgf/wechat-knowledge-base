@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Ra18oPa\_I8E8egzudOaraQ](https://mp.weixin.qq.com/s/Ra18oPa_I8E8egzudOaraQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXiabprO7bP85PRtKicCzqRrib1GPmSyibF2XKlCe5UI5AZXeFvovOdcvWB5tjGA94YvynUasm0Q4iaAHg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638697&idx=1&sn=2af55dfd6d9b17c7901ae9540668941f&chksm=88bc2266bfcbab701222e2b5c54db94dc4837f74aaa9d11feae336c50f427ad3cbd48ea10247&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_001_0dc7fca87f8b.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638697&idx=1&sn=2af55dfd6d9b17c7901ae9540668941f&chksm=88bc2266bfcbab701222e2b5c54db94dc4837f74aaa9d11feae336c50f427ad3cbd48ea10247&scene=21#wechat_redirect)
 
 历经杭州、上海两地培训的成功举办，“电机NVH问题的机理和测试仿真”研修班苏州站宣传伊始就得到大家的积极响应和热情报名，可以看出，时隔近一年，大家对这个西莫精品培训研修班期待已久，目前报名人数已经突破80人！很多已经报名的学员最近也经常询问为了能达到一个更好的学习效果，开课前需要进行哪些方面的准备呢？这里给各位学员一些建议：就是在培训前，如果有条件的话，可以复习（预习）一下陈世坤教授的《电机设计》，陈永校、诸自强、应善成教授编著的《电机噪声的分析和控制》，И•Г•舒波夫著、沈官秋译的《电机的噪声和振动》，谭详军编著的《从这里学NVH》，JacekF•Gieras等著、庄亚平等译的《多相电机噪声》等等（同时感谢以上各位专家学者的著书立说为我们的培训提供了相应的指导和参考内容）；这些书籍可以说都是电机NVH理论与电机设计方法相结合方面非常经典的代表作，也是深入掌握电机学科内容，提高结合考虑振动噪声影响因素下电机设计能力必备的参考书和基础教材，至今也没有多少人敢说掌握了这些教材的全部内容就是因为电机本身真的是一门有深度和综合性非常强的学科，电机NVH理论及设计方法的应用更是莫测高深；如果您之前对这些书都有看过和学习过，那对于参加我们的电机NVH研修班将打下一个很好的基础。
 
@@ -13,7 +13,7 @@
 
 ‍相信“试听”过几位老师的初步的讲解后，大家已经对参加本次研修班更加非常期待了，欢迎各位在电机NVH相关领域有迫切学习和提高需求的朋友扫码报名：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUo9NxUNnfbvN0QYiapKFNSOSUcBliaib7en59hVmqISQKTiajqzuLQ3vRnLGHYMujKomRIJsjbqIfBLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_002_27e2e07ca014.jpg)
 
 关于本次培训的更多详细介绍，请看下文：
 
@@ -75,7 +75,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWrQDkqiaYTuuck2CO2lSibfMJqyPhvQb4WGiaXFHAwL0AKTnowzLNe5G0icbEnCSVU7O7qAMiaeSdiaY9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_003_7918d13004f3.jpg)
 
   
 
@@ -113,12 +113,12 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUO6jutIzMPstCVWDbzolFBwJMJoHmxpLupfhyEppyzxhJO2tDsbOpLHwxQxkHMib6ePVc5sKsBylA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_004_08291f42acf5.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWmlpw4vUa1OuvHzvAKdaWOTZrSoPvd99FwwHy9RVFGr3EBgu2ILznhC1ibibWLRbVDyUib88MWd45Wg/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638641&idx=1&sn=56ef83f3a0f1849c88c922f0a0438397&chksm=88bc223ebfcbab281c5322e34c464ae54ecabbc494a1dea3af074679e212ccebce8d2fdb09d0&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SjVGCooKxGROHpK5vr7vHtFK5urPw3ZjcibzH9ibXJ5ceytdKhPtiaibfiaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWvxzMiaa5X4quYDYwqzOjuKrmxm6ZYic49RCwcw3LTKIrBXStP5ahEJ9Cia6ErbWFwkiaBGnTM1nRbNQ/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638555&idx=1&sn=5bb05da205ac86ec3cd0fe98d78f90a7&chksm=88bc23d4bfcbaac26ee0b2bcea4040013bc7c8d1d9d7a7dc55fd79696a5c1b369c56b45550ad&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638687&idx=1&sn=678a38c49059781bd16dc6e188ec8819&chksm=88bc2250bfcbab4632fd42f8735e24b0672046475b68765752bfb89eba2a76172f457167851e&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_005_0cfebd1d514d.gif)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_006_e5da65a9e669.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638641&idx=1&sn=56ef83f3a0f1849c88c922f0a0438397&chksm=88bc223ebfcbab281c5322e34c464ae54ecabbc494a1dea3af074679e212ccebce8d2fdb09d0&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_007_5dce360821c6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_008_786e76db50da.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638555&idx=1&sn=5bb05da205ac86ec3cd0fe98d78f90a7&chksm=88bc23d4bfcbaac26ee0b2bcea4040013bc7c8d1d9d7a7dc55fd79696a5c1b369c56b45550ad&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_009_18f5302d1f9a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650638687&idx=1&sn=678a38c49059781bd16dc6e188ec8819&chksm=88bc2250bfcbab4632fd42f8735e24b0672046475b68765752bfb89eba2a76172f457167851e&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_010_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_011_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_012_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\快速提高电机NVH学习效力的方法_images\img_013_d960d0948cf9.gif)

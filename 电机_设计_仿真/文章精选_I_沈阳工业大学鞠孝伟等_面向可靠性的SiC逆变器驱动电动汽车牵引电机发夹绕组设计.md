@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8brafLRik3DzOPDrAysF1g](https://mp.weixin.qq.com/s/8brafLRik3DzOPDrAysF1g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -40,33 +40,33 @@ X. Ju, Y. Zhang, Z. Xue, Y. Cheng and S. Cui, "Moving Towards the Reliability-Or
 
 With the development of high-frequency and high-voltage traction machines (TM) incorporating hairpin windings (HW) and SiC inverters for electric vehicles (EV), both the interturn voltage stress and temperature within HW are rising, increasing the risk of partial discharge (PD), and presenting significant challenges to insulation safety. Therefore, this paper addresses this issue and proposes potential solutions. Firstly, the paper examines an 8-pole, 48-slot, 6-layer HW TM to highlight the unique characteristics of this winding structure, and explains the uneven distribution of interturn voltage stress and temperature. Subsequently, a high-frequency equivalent circuit model of the HW TM prototype is developed. The error of simulation and experiment is only 5.7 %, which proves the accuracy of the model. Then, an improved HW scheme is proposed to lower the maximum voltage stress by 29.3 %. Furthermore, the temperature distribution of HW TM is analyzed to facilitate a detailed examination of the impact of temperature on insulation PD. Finally, the partial discharge inception voltage (PDIV) of interturn insulation, considering temperature effects, is calculated and verified through experiment. The paper proposes a reliability-oriented design method and process for HW TM. It demonstrates that the reliability-oriented design can achieve PD-free performance in the design stage of HW.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3tdp6HYlSBxRPEibgw9njh6ZOgmibrahtuzBYAMCWXbX3eeMdgqxAlHfA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_001_947c3b5107d3.gif)
 
 图1 SiC逆变器激励下车用扁线绕组驱动电机的关键设计问题
 
 Fig. 1.Key issues of hairpin winding traction machine driven by SiC inverter.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo33aa62NaM11qCM1fIqx2WqDVCLJvlgwWzbD9icczt8yqzYF8RNlmDlEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_002_c4c4a22ce72c.png)
 
 图2 扁线绕组高频等效电路模型
 
 Fig. 2. The high frequency equivalent circuit model of hairpin winding.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3t2icySvQ3FiabO8Z0acvxs6aicFq4dZOic4TTTvdgYKTGrIRnibicLAZIapA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_003_065684c77364.png)
 
 图3 考虑温度影响的绕组PDIV测量与计算
 
 Fig. 3. PDIV measurement and calculation considering temperature influence.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3dxfoyLY9hQKMFsb9Pudd3jiaR3GSK4B07jqNf4XHZZibAfHK4HMiaDISA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_004_86c4c202bec6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3684PN1EUTLSSry1apybfIicrf0xULMk24sw8LSibV3JC0KLxibX5vTEDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_005_f8ebc29fc4c0.png)
 
 图4  三相Hairpin绕组牵引电机的匝间电压应力测试与初始放电电压测量平台
 
 Fig. 4. The interturn voltage stress testing and PDIV measuring platform of 3-phase HW TM.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3znrOhgCtkQ4qBE9BUFLyufUGuibQWGjzOtoYIYWyY0FeVljbwsuMOpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_006_e9cd724bb9f1.png)
 
 图5 扁线绕组驱动电机可靠性导向设计方法和流程
 
@@ -80,23 +80,23 @@ Fig. 5. A reliability-oriented design method and process for a HW TM.
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3crhUZl9X74EhiakxiaH2QQaVjEWBA7kyoLKa8dibmtV3UAC6pzxHuOFgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_007_738cd4398bf2.png)
 
 **鞠孝伟**，分别于2014年和2017年获得沈阳工业大学电气工程学士、硕士学位，于2022年获得哈尔滨工业大学电气工程博士学位。现为沈阳工业大学电气工程学院讲师，硕士生导师，IEEE Member，中国电工技术学会会员，中国电机工程学会会员。以第一/通讯作者发表IEEE TIE、TTE和中国电机工程学报等SCI/EI检索期刊和国际会议论文10余篇，授权/申请发明专利7项，主持国家自然科学基金项目青年基金项目1项，辽宁省科技计划项目1项，参与包括国家自然科学基金重点项目、国家重点研发计划项目和企业横向项目若干。主要研究方向为：电气化载运装备用电驱动系统的设计、分析和优化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3nAxyMdtckrwBnkS9Msgr8IxMCTQvyNcjqmuLbBIGh4hkviauE1sRAvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_008_3a0f86740e37.png)
 
 **张岳**，于2011年获得沈阳工业大学工学学士学位，2014年获得浙江大学工学硕士学位，2018年获得了英国贝尔法斯特女王大学博士学位。现为山东大学“齐鲁青年学者”特聘教授，博士生导师，中国科协“青年人才托举工程”入选者。主要研究方向为：高功率密度高速永磁电机及其能量变换系统、大功率高可靠特种风力发电机及其控制技术、特种电机及其控制系统的多学科协同优化设计方法。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3qDtTtoOg7183cTiaaZ0OibJICLMsEVzwAcJfnkv8b9fzQWFMFZwWm9sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_009_974c7b9cf5ff.png)
 
 **薛志伟**，于2020年获得天津城建大学电气工程学士学位，目前在沈阳工业大学电气工程专业攻读博士学位。主要研究方向：车用驱动电机绕组可靠性设计研究。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3MGtUQvSfvAibZKtM1XksfKF4CYDqVu2hsaSB8uymNyJIn1NrU5UPH9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_010_382545ee78f0.png)
 
 **程远**，分别于2002年、2004年和2009年获得哈尔滨工业大学电气工程学士、硕士和博士学位。现任哈尔滨工业大学担任教授/博士生导师。曾在法国 Vélizy 的 Groupe PSA 研究和高级工程部门担任研究工程师，后来担任动力总成电气化工程师，负责汽车电气化和电机创新。现为哈工大青年科学家工作室负责人，哈工大重庆研究院先进特种电机系统中心负责人。IEEE车辆驱动与动力技术委员会VPP TechCom委员，法国华人汽车工程师协会理事。主要研究方向包括：电动汽车驱动电机设计、控制、优化，新材料新结构电机，宽禁带半导体驱动控制系统，复杂多物理系统建模，混动车辆构型、控制及能量管理优化策略等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178KH9eBe5uWUS6aoSkJgVo3Rlq6A5KtzF1SjbBocqagynBvyfP6Qrribdc00aD3C0NHOeVSAHwqeow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_011_08d04d3c52a7.png)
 
 **崔淑梅**，分别于1987年、1990年和1998年获得哈尔滨工业大学电气工程学士、硕士和博士学位。现任哈尔滨工业大学担任教授/博士生导师，新能源车辆先进动力与能源黑龙江省重点实验室主任。曾获得国际汽车工程师协会SAE交通环境卓越奖，教育部通用汽车中国高校汽车领域创新人才，台达环境与教育基金会中达学者。中国电工技术委员会微特电机专委会副主任委员，电动汽车专业委员会和全国汽车标准化技术委员会委员。主要研究方向包括：微型和特种电机的设计与控制、电动汽车的电力驱动系统、混合动力汽车的控制和仿真以及电机的智能测试和故障诊断。
 
@@ -104,7 +104,7 @@ Fig. 5. A reliability-oriented design method and process for a HW TM.
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_012_654c2fde68d8.jpg)
 
   
 
@@ -118,15 +118,15 @@ Fig. 5. A reliability-oriented design method and process for a HW TM.
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_013_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_014_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_015_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -134,15 +134,15 @@ Fig. 5. A reliability-oriented design method and process for a HW TM.
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_016_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_017_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_018_644d85f1cc17.png)
 
 学会官方B站
 
@@ -150,15 +150,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_019_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_020_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_沈阳工业大学鞠孝伟等_面向可靠性的SiC逆变器驱动电动汽车牵引电机发夹绕组设计_images\img_021_c28b250481e7.jpg)
 
 学会科普微信
 

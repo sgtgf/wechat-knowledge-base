@@ -15,7 +15,7 @@
 
 第三代半导体—SiC（碳化硅）具有宽禁带、高饱和漂移速度、高热导率等物理特性，因此基于SiC材料开发的功率开关器件相较Si（硅）器件阻断电压更高、开关速度更快、工作损耗更小、工作温度范围更广。目前，三菱电机、CREE等半导体厂家已面向市场推出1200V/800A等级、1700 V/300A等级大功率SiC-MOSFET，随着市场需求扩大和工艺水平提升，大功率SiC模块价格也将逐渐降低，可以预见未来Si-IGBT或被SiC-MOSFET逐步替代，因此及时开展SiC-MOSFET的应用研究工作十分必要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8xVLiatGTAFVRlAicOWktSZ0VJsOz1zYMic4cTCpkQFJT2SVXDjZeyaGgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_000_58b66018567e.png)
 
 **1 SiCMOSFET 基本特性**
 
@@ -25,7 +25,7 @@
 
 Si-IGBT虽然阻断电压高、通流能力强，但其为双极性器件，工作过程存在少数载流子积聚现象，造成开关速度相对较慢，关断存在拖尾电流，开关损耗过大等问题，制约了Si-IGBT工作频率提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8LNrIdqt9oiajjwnkJA97icxSDSbVwTl0ERaEtIf8oAQm3bWVhScALG5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_001_4eba24a4a545.png)
 
 图1给出了SiC-MOSFET内部断面示意图，其结构上与Si-MOSFET类似，但外延层和衬底均采用SiC。得益于SiC材料的高绝缘击穿场强、高热导率等特性，高压条件下SiC-MOSFET外延层可以做得更薄，以使其兼具高阻断电压、高开关速度、低通态电阻、低热阻等优点，适合高压、高频工作场合应用。
 
@@ -33,11 +33,11 @@ Si-IGBT虽然阻断电压高、通流能力强，但其为双极性器件，工�
 
 SiC-MOSFET与Si-MOSFET同样作为电压控制型器件，开关动态过程受内部寄生电容影响，虽然二者的内部结构一致，但是各参数存在差别。图2为内部简化等效模型，可根据厂家提供的输入电容Ciss、输出电容Coss、转移电容Crss等参数，表述各极间的关系。其中，输入电容Ciss与驱动电阻RG共同决定驱动电路RC常数并影响器件开关速度，输出电容Coss影响器件开关损耗，转移电容Crss带来米勒效应及电路桥臂串扰问题。根据图2得出式（1）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8lNRPofyP7xnjriccibqAyA2Ow0rbI6UzCibmDHdFT4tNXuDAsS4ykvbSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_002_af9a5efa674a.png)
 
 通过SiC-MOSFET内部简化等效模型可对其开关过程进行分析，如图3所示的理想开通过程分为4个阶段：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8Mj0XR0NYtn8OhAnVfxmRFsOCSl39ia4AHxSflOlZ0GXrnZsjXdsbdeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_003_641dd8dbaa46.png)
 
 t0~t1：t0时刻，驱动电路通过栅极电阻RG对电容CGS充电，栅源极电压VGS开始上升，期间漏源极电压VDS、电流ID均无变化，此段时间近似等于开通延迟时间。
 
@@ -63,7 +63,7 @@ PG=QG×ΔVGS(±) ×fs（2）
 
 此外，基本驱动电路还宜根据实际应用情况设计驱动电源欠压保护、脉冲信号互锁、驱动故障反馈等基本功能，保障系统运行安全可靠。图4给出了一种基于驱动信号电磁隔离的SiC-MOSFET驱动电路方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8icT05N0f4DugqjcfgdZF6UAViaPV8BpV049NAcwiaZndiciaxviabiaibx886A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_004_00bfdd31062f.png)
 
 **2.2 漏极电压有源钳位**
 
@@ -73,25 +73,25 @@ PG=QG×ΔVGS(±) ×fs（2）
 
 其中，对瞬态电压抑制二极管（TVS）的合理选型是保证电路正常工作时无误触发，当出现漏极过压的异常工况，驱动电路能及时有效实施保护的关键。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8QOdcZn3pT9gcJjV7BRIt4PSrWNHFLgVclHQq5dTSib3v6ZbSpgFBc6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_005_1dff9d726791.png)
 
 **2.3 桥臂串扰抑制**
 
 大功率桥式开关电路中，快速的开关动作会使桥臂串联的上下管间形成较严重的串扰问题。当串扰电压超过SiC-MOSFET的栅极开通阈值电压时，将造成电路波形混乱甚至引起器件失效。图6给出了上管开通时对下管的串扰示意，上管SiC-MOSFET1开通时，下管SiC-MOSFET2的漏源极电压VDS将被抬升至母线电压，此过程中的dVDS/dt将在下管栅漏极电容CGD上形成大小如式（3）的米勒电流IGD：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8zGowbTSU2nV6HskLuibNFcwjUmzy9YvUicPGexoVrCwdiboN2wzibYHpSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_006_f20b89e4e83c.png)
 
 米勒电流IGD分别流经栅极电阻RG、栅源极电容CGS2条支路，根据KCL（节点电流定律）计算如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8WIYGcwKqeLfJnsH0V67h2QeeKdFFk90TefNvnViaRvteuCTed36JhicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_007_99ab8ed20f73.png)
 
 上管SiC-MOSFET1开通过程中，下管SiC-MOSFET2栅源极间的串扰电压VGS(crosstalk)计算如式（5）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8WsneGJp0Rhy7FyoKd5f6FvqTcPZKTHjTibMUGRfcT9BcmNxGNmibTJHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_008_86bfae6a33ad.png)
 
-（5）式中：α—漏源极电压变化率，即dVDS/dt，高压工况下栅漏极电压大小近似与漏源极电压相等，因此可近似认为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8g5ec3HvfbPFy6UN9BtajcsEqg2moevulYVHib6QrKOvmXmobeA7kib1Q/640?wx_fmt=png&from=appmsg)；Ciss—输入电容，Ciss=CGS+CGD。
+（5）式中：α—漏源极电压变化率，即dVDS/dt，高压工况下栅漏极电压大小近似与漏源极电压相等，因此可近似认为![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_009_02acbadb330a.png)；Ciss—输入电容，Ciss=CGS+CGD。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o80otm7lYKmq7hqhtRTKs5Degia6gNKibmzTSKVIQOXmO18sDH59VL3CGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_010_8ed65e9c073c.png)
 
 以上分析了上管开通时对下管的串扰现象，其产生的串扰电压极性与栅极驱动电压相同，容易导致SiC-MOSFET误动作；而在上管关断过程中则会对下管产生与栅极驱动电压极性相反的串扰电压，严重时会造成SiC-MOSFET栅极反向击穿。
 
@@ -105,7 +105,7 @@ PG=QG×ΔVGS(±) ×fs（2）
 
 ④增加栅极有源钳位电路（米勒钳位电路），如图7所示在开关管栅源极增加PNP三极管吸收电路，当桥臂中的另管开关动作时，产生的串扰信号将驱动PNP三极管导通，钳位本管栅极电压，从而起到串扰抑制作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8rhbyjavTywmj0Lpqs7icXeKIllqTAXRvyibroemrTsKl6mDUTLeB1kKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_011_621cec6c3932.png)
 
 以上给出了抑制桥臂串扰的几种方案，在实际应用中还需结合产品具体情况，从系统最优化角度综合考虑。
 
@@ -123,9 +123,9 @@ PG=QG×ΔVGS(±) ×fs（2）
 
 针对大功率SiC-MOSFET应用，可采用基于镜像电流的过流检测与保护方案，如图8所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8Kmpvfj3IXwn7LWRLFzlicxCG9RV4oVmHiaBOGBswic3DxYd3UialrEAPLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_012_94aa5349b6e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8bkJ69Y0Ie4yErmbGHlqrmwNsvibC0HqIoPqLRtm7JWYQ86jVdCKLibHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_013_58789ed57430.png)
 
 t1~t2：t1时刻，SiC-MOSFET漏极电流ID达到过流值ISC时，镜像电流IRS（IRS=ID/N）经电阻RRS采样触发比较器IG1状态翻转，使其输出高电平脉冲信号驱动三极管VR导通，从而将SiC-MOSFET栅极电压VGS进行下拉，并在t2时刻将ID控制在ISC以内；
 
@@ -139,23 +139,23 @@ t3~t4：t3时刻，通过驱动处理单元进行彻底保护，给入SiC-MOSFET
 
 试搭建如图9所示双脉冲测试电路，测试不同驱动电阻情况下SiC-MOSFET开关特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8RxDhHb4jt2M8mVWYfL6B32mO792QbbrRhomn1FCyxV2DZJicdzkQ1Ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_014_765105aed758.png)
 
 从图10测试波形看出，与Si-IGBT相同的是，随着驱动电阻增大，器件开关过程时间延长，漏源极关断电压尖峰降低；与Si-IGBT不同的是，SiC-MOSFET开关过程中栅极电压无明显米勒平台、无明显关断拖尾电流、二极管反向恢复电流Irec非常小，开关波形存在振荡。
 
 由于SiC-MOSFET跨导值较小，米勒电容相比栅源极电容小得多，米勒电容充电时间非常短暂，因而开关过程中栅极电压的米勒平台并不明显；MOSFET 为单极性器件，工作过程无少数载流子积聚现象，因此关断时无类似IGBT的拖尾电流；反并联二极管采用SiC-SBD（SiC肖特基二极管），其一方面具有Si-SBD关断快速且无反向恢复现象的优势，另一方面采用SiC材料解决了Si-SBD反向漏电流大、阻断电压低的问题，适用于高压环境；SiC-MOSFET开关速度非常快，开关过程漏源极电压变化率很大，导致米勒电容快速充放电引起波形振荡，因此其应用电路设计需要对系统杂散参数更加关注。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8ibdpjdKKIedFFek9CibXcJqjbticRsE9HFLB6FlqFicwgzTkaWTsdqW0IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_015_1020b250cfec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8BXCKRVf8JjmE49DTnmM5UWKibsHQLSEodCrrrCicuf39SvXoNp23Pr2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_016_01c2ce133bb6.png)
 
 功率器件连接母排的设计原则是，通过对主电路杂散电感的控制，保证功率管在最大工况下所引起的电压峰值不超过器件自身安全工作电压。通过图11（a）所示双脉冲试验可知，在母线电压600V、最大电流892A的情况下，SiC-MOSFET关断电压尖峰达908V，满足1200V/800A等级器件应用要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o81tRLsdSyHgDHzvOGoKTYDuFVd5owyVgc3X0F2CGewPSbn7WDvPab8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_017_ce568f8c5d69.png)
 
 按图11（b），通过测试不同电压下器件开关过程电流变化率di/dt、漏源极电压变化值ΔU，按式（6）计算电路等效杂散电感LP。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8jCHG6KDU6OE4Ap5ibJp1Y61Eous3GcicInic6MNkR5wNkKp2XfgnBia6MQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_018_4790675855bf.png)
 
 在母线电压200 V、300 V、400 V下，测试计算出LP分别为118 nH、120 nH、102 nH。因此，对于该1 200 V等级SiC-MOSFET应用在最高母线电压600 V、最大电流800 A的情况下，其连接母排设计应控制等效杂散电感值小于100 nH。
 
@@ -165,19 +165,19 @@ t3~t4：t3时刻，通过驱动处理单元进行彻底保护，给入SiC-MOSFET
 
 按前面2.4节所述镜像电流检测方案实施过流保护，如图12（b）所示，发生过流时，保护电路在t1=1.6 μs内将栅极电压拉至0 V附近，实现SiC-MOSFET软关断，有效抑制过流，再经过约t2=6 μs后驱动处理单元器件将SiC-MOSFET彻底关断，完成过流保护。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8QkdeU6RicIsGKT8skgrG1haWeicNpGSTMJReUia3VMDDjG6TfW8oHQZeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_019_d5a537e8f07f.png)
 
 **3.3 测试干扰问题**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8nUucGB71dEd9Zd8A5udRocqFkzuCd7Z5DMsQvhMgnw3EXGuRdEeJUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_020_3df3a8863629.png)
 
 对栅极电压测试电路进行等效分析，原理如图13所示，示波器所读取电压VScope可按式（7）计算。采用高精度示波器及无源电压探头测试SiC-MOSFET驱动波形，发现测试过程中波形振荡剧烈，如图14（a）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o82f2M3btaPM1XPL1vblIcHe0oLmFJD9Wbbv4yibA4XhAzQFepwszjXVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_021_d88049ae9ef9.png)
 
 式中：Rprobe为探头等效电阻；Lprobe为探头等效电感；IScope为信号电流。可见，测试干扰主要由探头寄生阻抗Rprobe、Lprobe及信号电流变化率dIScope/dt引起，由于SiC-MOSFET开关速度很快，导致dIScope/dt较大，因此在相同测试工况下降低探头寄生阻抗可有效减小测试干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXxv5xP2DXQyG6ItNft7o8Z2ZOH9gEbucqA7wXZarrqrQpykSfOZdoC2DGXBP1lVr74kX4QerhCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_022_a815cc7023e6.png)
 
 如图14（b），通过缩短探头“探针-地”间环路长度、减少环路面积，波形振荡问题大为改善。
 
@@ -185,8 +185,8 @@ t3~t4：t3时刻，通过驱动处理单元进行彻底保护，给入SiC-MOSFET
 
 本文重点研究了包括漏极电压有源钳位、电路桥臂串扰抑制、过流检测等在内的大功率SiC-MOSFET模块驱动关键技术，通过双脉冲测试验证了驱动及保护功能的有效性，为后续大功率SiC-MOSFET器件的应用提供了技术依据。同时通过本文分析及试验可知，由于SiC-MOSFET开关过程漏源极电压变化率很大，容易带来波形振荡等问题，也将对其工程应用造成一定影响，后续在应用电路设计中还应注意对系统电路杂散参数的严格控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_023_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_024_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大功率SiC_MOSFET_模块驱动技术研究_images\img_025_84aa944feb13.jpg)

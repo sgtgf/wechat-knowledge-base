@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/lkIK1piu8A1LJXyW4fOkfg](https://mp.weixin.qq.com/s/lkIK1piu8A1LJXyW4fOkfg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0strAPcEV18zyeU1pqcHE3g0ToCqX7UZ5HiaIab8hZ84Rw6SsrboZMfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_000_4d9fe6503d63.png)
 
 _**_★★★_**_Resistor-3---贴片电阻的功率降额_**_★★★_**_
 
@@ -13,7 +13,7 @@ __€1._表面贴装电阻器的温升_
 
 对于引脚型电子部件，这些部件所产生的热能，都由部件表面散热至大气当中。贴片电阻器等表面贴装电阻器所产生的热能，几乎都散热到印刷电路板上。另外，由于印刷电路板易传热，因此贴片电阻器周围的部件也容易受热影响。**_图3-1_**是针对已实施散热对策与未实施的电阻器对比图，施加相同功率时的热能图片，即使部件配置相同，不同的电路板，电阻器的温度就存在很大差异，由此可得表面贴装电阻器的温度管理非常重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdjpJvLMGvn52W6ek0eNJwtuL7wKsut3yrFjK1dcX5rl4jUBo5RCoMGKf2BE7VAcTkjdHgdB8kew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_001_7766ff445d9e.png)
 
 **_图3-1：电阻器温度根据电路板是否实施散热对策所产生的差异_**
 
@@ -29,11 +29,11 @@ ___€3._表面贴装电阻器的发热与散热__
 
 表面贴装电阻器通过焊料等接合材料贴装在印刷电路板上。_**图3-2**_显示贴装在印刷电路板上的贴片电阻器的主要散热途径。散热途径可以分为三种：第一种是接触的印刷电路板等的热传导(以下称“传导”)，第二种是空气对流传递(以下称“对流”)，如自然对流或强制对流(风扇)。第三种是红外线的辐射。分别对0402尺寸与0805尺寸以及2512尺寸的贴片电阻器施加功率时，其散热途径的散热比如**_表3-1_**所示。我们可以得知贴片电阻器的散热，有90％以上都是对印刷电路板的传导来进行。另外，贴片电阻器的热能容易传导给印刷电路板，相反地，亦能解释为何印刷电路板的热能容易传导给电阻器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRC5qRD2kWYqia45c6WvzDAeGfFeZqibwDm6ujFEXA6WTwxeibqv0raxiaNVs86U2SyUBwicarg6CbBCdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_002_12dc527826f7.png)
 
 **_图3-2：三种热传导路径_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdjpJvLMGvn52W6ek0eNJwzHrRjsiaVSb3EKJ5UK6GDRianGCfysDBXT88oCVBibG5cWNibxicLvYT5rA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_003_fac49846697b.png)
 
 **_表3-1：各散热途径的散热比例_**
 
@@ -43,19 +43,19 @@ ___€4._电路板布局与贴片电阻器的温升：__
 
 下面是将0805贴片电阻器，额定功率0.5W，贴装在3种散热性各异的印刷电路板的状态。在室温环境下，每个电阻器施加0.125W(额定功率的25%)功率时，电阻器端子部位的温升状况∆T如**_图3-6_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRC5qRD2kWYqia45c6WvzDAemc8DdtAfDd5MyicCbUcic8IFgk8gWUK73n1KmR2ZaG5km3VQyAoTPbrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_004_cb843ea9aca6.png)
 
 **_图3-3：电阻器：1个,布局宽：0.5mm_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRC5qRD2kWYqia45c6WvzDAezYsn2jEdydaQqiaf2vYvr0WrhOibR7Ubt6Uv5dX4IX0fhhXzK4M10E5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_005_28a3f1f9aba5.png)
 
 **_图3-4：电阻器：1个,布局宽：39mm_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRC5qRD2kWYqia45c6WvzDAeeubJmfkEFYuKnVnjIDQ83k4ribq6yicf20oxsIlwaNanhg7az6Mpq9ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_006_d2d7b9e65402.png)
 
 **_图3-5：电阻器：8个,密集贴装_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRC5qRD2kWYqia45c6WvzDAeyZdiankmB9TTdTFN3iciavNqyRsiaicwoAL0OWOkFvNjabnicFe2nJibZGkpQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_007_81095a518171.png)
 
 **_图3-6：贴片电阻器随不同电路板布局温升的示例_**
 
@@ -63,7 +63,7 @@ ___€4._电路板布局与贴片电阻器的温升：__
 
 使用**_图3-7左_**的布局，改变施加功率，用热成像测量印刷电路板与电阻器的温度结果如**_图3-7右_**所示。另外，在进行热成像测量前，对印刷电路板的温度测量部位与电阻器均做事前处理，涂上黑体喷雾(温度测量位置在热像的白线上)。我们可以得知对电阻器施加的功率越大，电阻器的温度就越大，而且印刷电路板温度也会越高。另外，两个电阻器间的印刷电路板温度(**_图3-7_**的红色箭头部位)与电阻器上升的温度几乎相同。这是表示电阻器的散热导致印刷电路板升温至与电阻器同温，两个电阻器间无法再散热的状态。综上所述，表面贴装电阻器的温度，不仅取决于施加功率所产生的自身发热，而且也取决于印刷电路板周围部件所产生的温度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRC5qRD2kWYqia45c6WvzDAezKZRB5CIpsrKawW1TWZXAcOa3WyPQeo8qUPUjXnySPqMFDp3JWNBrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_008_9de2ac32466e.png)
 
 **_图3-7：通过热成像观察温升的示例_**
 
@@ -85,7 +85,7 @@ ___€6._功率降额曲线的使用方法：__
 
 (4)施加功率为0.1W，因此电阻器的额定功率至少要在0.1W÷0.5＝0.2W以上。 0805尺寸的额定功率为0.25W，因此可在此电路上使用。 接着使用“额定功率的30%以内”的设计，和上述方法进行比较。施加功率为0.1W，此为额定功率30%以内的数值，因此贴片电阻器的额定功率要在0.1W÷0.3＝0.34W以上。
 
-计算结果得知，不能使用以上所说0805尺寸贴片电阻器。一般额定功率在0.34W以上的最小尺寸为1210尺寸，因此如果使用这种设计，则有必要使用更大尺寸的贴片电阻器，通过有效地利用功率降额曲线，就可以使用合适的贴片电阻。![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRC5qRD2kWYqia45c6WvzDAewofDaauT76u51JlaMzt9PAhdWFiaRzyk70pLR2kehLVB7puGBnzzqCw/640?wx_fmt=png)
+计算结果得知，不能使用以上所说0805尺寸贴片电阻器。一般额定功率在0.34W以上的最小尺寸为1210尺寸，因此如果使用这种设计，则有必要使用更大尺寸的贴片电阻器，通过有效地利用功率降额曲线，就可以使用合适的贴片电阻。![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_3_贴片电阻的功率降额_images\img_009_03afedde9956.png)
 
 **_图3-8：贴片电阻器的功率降额曲线(例)_**
 

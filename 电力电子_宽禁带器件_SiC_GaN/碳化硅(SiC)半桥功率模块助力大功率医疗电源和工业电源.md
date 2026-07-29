@@ -7,7 +7,7 @@
 
 在工业领域需要各种节能和高效的产品和应用方案。凭借高耐压、高节温特性，SiC器件，特别是模块正在输配电、工业变频、轨道牵引、可再生能源等领域为实现高效、节能、轻量小型的电力转换设备做出贡献。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KLs4iaiabTvia04Zib38qsVBy4ukVvUKCMicx4O3OEwKRRzwgFibPx8icKXicog/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_000_360c8a656424.jpg)
 
 碳化硅模块在大功率电源中应用有一定的性能优势，相比传统硅基IGBT功率模块具有更高功率密度、更高可靠性、更高工作结温、更低寄生电感、更低热阻等特性。在需要提升系统功率密度、使用更高主开关频率的尖端电力电子设备的性能升级过程中，现有硅基IGBT配合硅基FRD（快恢复二极管）的性能已无法完全满足要求，需要高性能与性价比兼具的主开关器件。
 
@@ -40,7 +40,7 @@ SiC功率器件的主要特性可以归纳如下：
 
     SiC的临界击穿强度比硅高约10×。此外，其漂移层（导通电阻的主要来源）厚度是硅的十分之一。这样可以大大降低导通电阻，进而降低功率损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KDJvQomic4WSBjsc1QlmChwLQVnUibdYfxib9bQGJFriap3r2qwgFPGTlicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_001_6ee8d77207ac.png)
 
 与基于 IGBT 的功率模块相比，SiC模块具有以下几个优势： 
 
@@ -70,7 +70,7 @@ SiC功率器件的主要特性可以归纳如下：
 
 爱仕特推出了为新一代车规级SiC模块—DCS12系列，该产品采用半桥式结构，工作额定电压范围为650V-1700V，工作电流范围为400A-1000A，契合大多数新能源汽车的使用场景，给即将到来的高压高功率时代注入新动力。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KwhOhbX9nAnHVY11WG00v0y0ib0Gjz9kJZqRMpA4C9ACqHmQUsM3Xp5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_002_9725cdee12d0.png)
 
 **DCS12模块特点：**
 
@@ -82,7 +82,7 @@ SiC功率器件的主要特性可以归纳如下：
 
 在工艺设计上，爱仕特DCS12模块系列具有以下优势：  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KBVEAL4icWoGiciaNkfI8jTfwg1GvLVC21Cfszzy0cL0bbctNnlmwUwmCw/640?wx_fmt=gif&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_003_8af024221981.gif)  
 
 ●散热架构优越，整体可靠性强：DCS12模块一方面优化水道结构设计，通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻，最高工作结温175℃；另一方面，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，模块可靠性进一步提升。 
 
@@ -92,11 +92,11 @@ SiC功率器件的主要特性可以归纳如下：
 
 **2.   Easy模块**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskibxsh2ghyttzsibFPKIm53K0JFFm3Ltdjke7ZKhffNE617ic8DrXj3xmwhibIaCxH0PBpNGhs1tg3jg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_004_10c51a3910a7.jpg)
 
 爱仕特碳化硅功率模块EasyPACK和EasyPIM模块，为适用于储能系统（ESS）这样的快速开关应用，有助于提高太阳能系统的额定功率和能效，并满足对1500V DC-link太阳能系统与日俱增的需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KfyVesoLnsLwrk2uuTSUo1oNgQBPCoB4pPOCmOERibGJe34XDu6Xyk6A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_005_8c3808262079.jpg)
 
 **Easy模块特点：**
 
@@ -108,17 +108,17 @@ SiC功率器件的主要特性可以归纳如下：
 
 4\. 集成NTC温度传感器，易于系统集成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KXMOmS2ibWD0yXdtxy1l7xap5q7zOqVUkE1kDr7xGW7usJm5NzI1QDYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_006_0387469cab5d.png)
 
 EasyPACK封装
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskibxsh2ghyttzsibFPKIm53K1hvrJOCu9fACYn7Y4wzvAwMCibQf2YH1NKTvAxztQYR1aQk9TKAhyeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_007_26fe7a83fd16.png)
 
 EasyPIM
 
-**3.   Econodual模块![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskibxsh2ghyttzsibFPKIm53Kyt4vIPFicM9lzKzRP6sricdakI4RCJSvIQDPs9pxlT9IQ4TlFuSGCe1g/640?wx_fmt=jpeg&from=appmsg)**
+**3.   Econodual模块![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_008_6982bb61fd5e.jpg)**
 
 **Econodual模块特点：**
 
@@ -130,13 +130,13 @@ EasyPIM
 
 4\. 常关功率模块，零拖尾电流，寄生电感小于15nH，开关损耗低。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KSM9BZQuITYI0VS1xyne6Cicqvhj3YYTYRQg6nYhiar8j8za2BQV0vOTQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_009_c34033b61b1c.jpg)
 
 **4.   62mm半桥模块**
 
 爱仕特全碳化硅62mm封装模块。该产品突破了硅IGBT技术在62mm封装功率密度极限，为碳化硅打开了250kW 以上中等功率应用的大门，扩展到太阳能、服务器、储能、电动汽车充电桩、牵引以及商用感应电磁炉和功率转换系统等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxCjAia7DxZNWtTbLXzMKqfLfLsqzW6s5GDNkM3UmuIGsvJmW8kPdS8j70JROVp7YRXRaT3rkiaYlzrug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_010_7fc4cd1daa28.png)
 
 该模块采用成熟的 62mm 器件半桥拓扑设计，同时采用了全焊片工艺以及自建不同熔点焊片体系，保证了焊料层稳定性及可控性，提高了器件的耐温度循环能力。
 
@@ -150,7 +150,7 @@ EasyPIM
 
 3\. 适用高温、高频应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KKibHWaflV8JTtjoz1FUjdSWSY06dRmX2bcw7kxyibHVdZDAgjxVYTWpQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_011_36020e36bde5.jpg)
 
   
 
@@ -164,7 +164,7 @@ EasyPIM
 
 爱仕特34mm封装碳化硅模块具有高过载和高耐温循环能力，采用了全焊片工艺以及自建不同熔点焊片体系，保证了焊料层的稳定性及可控性，提高了器件的耐温度循环能力和可靠性。该产品搭载爱仕特新一代SiC MOSFET芯片，较低的开关损耗和导通损耗，可以最大限度地减少冷却器件尺寸。在高开关频率下运行时，可使用更小的磁性元件。其对称模块设计，能够实现对称的上下桥臂开关行为，使得产品具有更低寄生参数及开关特性。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KZPklFAOEnicMXiaXmFXbUSVRxbib0N95iaxYGPcAzDw9MByksicRNPxWpYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_012_ecbd4d0ddde1.png)
 
 爱仕特34mm封装碳化硅模块采用成熟的34mm器件半桥拓扑设计，具有高功率密度，允许使用相同的结构尺寸来增加逆变器输出功率，延长了器件使用寿命，提高了系统可靠性，为终端客户提高了产品竞争力。
 
@@ -184,10 +184,10 @@ EasyPIM
 
 SiC器件在不断发展，其优缺点也在不断被认知，随着产品应用更加多样化，下一步的重点将是大幅度降低成本，实现更多商业应用，同时努力提高电力电子设备中其他元器件的协调性和一致性，从而最大限度地发挥SiC器件的优势，尤其是在系统可靠性方面。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_013_7c22e3b9a287.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_014_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)半桥功率模块助力大功率医疗电源和工业电源_images\img_015_1241954b1b67.png)

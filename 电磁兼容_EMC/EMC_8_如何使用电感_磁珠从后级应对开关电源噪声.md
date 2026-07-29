@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/e7vLjhYz7YbW1faa9ozBUg](https://mp.weixin.qq.com/s/e7vLjhYz7YbW1faa9ozBUg)
 
-__![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvXqZ5aoc4W3IibVmHOSmjXn6ibX54POH9tdR7oQicPAnzlczNnAw0AibJaA/640?wx_fmt=png)__  
+__![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_000_2297d1cd6313.png)__  
 
 ____**★★★**______EMC-8---开关电源噪声的应对______**★★★**____
 
@@ -21,13 +21,13 @@ __€1.电感的频率特性__
 
 3#：频率越高越难通过。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTxMREFADYahjjl1uo2U6D101bxSlNpAZiczy0d4aVRoGa25dnwIZ1XUCc9xBDgbFoetZxRtAGrgfA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_001_d378ce6562f9.png)
 
 **_图8-1：电感的频率特性_**
 
 在理想电感器中，阻抗随着频率的提高而呈线性增加，但在实际的电感器中，如等效电路所示，并联存在寄生电容EPC，因而会产生自谐振现象。所以在谐振频率之前呈现电感本来的感性特性（阻抗随着频率升高而增加），但谐振频率之后寄生电容的影响占主导地位，呈现出容性特性（阻抗随着频率升高而减小），也就是说在比谐振频率高的频率范围，不发挥作为电感的作用，电感的谐振频率可通过以下公式求得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz7jUDibh7wdXoKB3OuibiaYyHHNWIeP9yEVcgwF7GemAzB3GICMAdlD9bQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_002_c8a12a2b1ac2.png)
 
 除了主体是电容量还是电感量的区别外，该公式与电容器的谐振频率公式基本相同。从公式中可以看出，电感值L变小时谐振频率会升高。电感的寄生分量中，除了寄生电容EPC之外，还有电感绕组的电阻分量ESR、与电容并联存在的EPR（等效并联电阻），电阻分量会限制谐振点的阻抗。
 
@@ -47,7 +47,7 @@ __€2.使用电感降低噪声__
 
 用于降噪的电感主要是绕线型的，虽然单独的电感串进电源路径中，依据电感的SRF之前的特性，可以阻挡一部分叠加在DC上的噪声，但实际电感基本上用来构成𝜋型滤波器，如**_图8-2左_**所示，𝜋型滤波器在低频段通过电感和电容发挥低通滤波器的作用，然而到了高频段，由于电感会表现为电容、电容会表现为电感，如**_图8-2右_**从而使𝜋型滤波器起到高通滤波器的作用，因此无法获得噪声消除效果，这一点需要格外注意。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OSzic5iaOu9b3rVGLXWHv38vg4abicNcPJ2k37H7laWz6TdXsOWbwjXmCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_003_693f0661474b.png)
 
 **_图8-2：𝜋型滤波器在高频时变成高通滤波器，无法获得降噪效果_**
 
@@ -55,11 +55,11 @@ __€2.使用电感降低噪声__
 
 一般来说，较大的电感具有较大的阻抗，会显示出优良的噪声抑制效果，而IC工作所必需的瞬间电流要由电感器和IC之间的电容器提供。根据
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSz0NJcVJdP9hsrBcXAKAxkG1FnAbOzc9nSLia07eib4vxicr9PcbquHXTiaTFILk9WGq7LTNL0mQDWyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_004_d1f82214d2f0.png)
 
 L增大，这种电容器必需的电容C会变大，所以，不推荐使用过大的电感。（C为接地电容必要容值，ZT为IC必要的电源阻抗）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSz0NJcVJdP9hsrBcXAKAxkJhS1INkR2yfRDSWboBSzXFNkiby1hfhWc8ZcqNPy6hkgT5Nj0fFTa4A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_005_711c59c34716.png)
 
 **_图8-3：与电感器结合使用的电源滤波器的结构L型/π型_**
 
@@ -71,13 +71,13 @@ _阻抗-频率特性_
 
 铁氧体磁珠的频率-阻抗特性与普通电感不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz2ibftVGBEPedpCs8J8GN38Ix9kgkIgaFzdgCB3XTTicdZun9fWXqFO9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_006_be57edae7ab5.png)
 
 **_**_图8-4：电感的阻抗-频率特性_**_**
 
 图中X为电抗（容抗+感抗），R为电阻分量，Z为阻抗=电抗+电阻，电感的阻抗-频率曲线较为陡峭，Q值较高，高阻抗频率覆盖区域窄，不适用于独立适用滤去普适的的电源噪声（噪声频段宽泛）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz9ZuMFgnGbv7PHbhff7GGX0o1Je6C9LIwqAaicDKXzmKLapHvyNSHiaSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_007_22c229867071.png)
 
 **_图8-5：铁氧体磁珠的阻抗特性_**
 
@@ -85,23 +85,23 @@ _阻抗-频率特性_
 
 _直流特性_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzfDoeEeB0RCHibMA7KxxvItUt7oInQqhCAIKNEhiaNNmppbEibdibicMcy8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_008_fa8d17fd1029.png)
 
 **_图8-6：电感的阻抗特性和直流叠加特性_**
 
 如**_图8-6_**，普通电感可容许较大的直流叠加电流，只要在其范围内，阻抗不怎么受直流电流的影响，谐振点也几乎不变。相比之下，**_图8-7_**铁氧体磁珠对于直流电流容易饱和，饱和会导致电感值下降，谐振点向高频段转移，会导致滤波器特性变化，因此需要特别注意。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TRicTPfAWYicrKJeicD4CxwzZdyg7vbd7IBoXJkRM8qZNblZ5kh19aQrsK4licSvibd7v2Mvu9BqUnuV7A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_009_8c46ccd385a2.jpg)
 
 **_图8-7：铁氧体磁珠的阻抗特性和直流叠加特性_**
 
 _感值-频率特性_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEz9VARSo1ZoqB3q7lia0MibGN5NDPKABdFkhv6lTibiadVjxNTYzkjhD7JMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_010_9527e2d5b36f.png)
 
 **_图8-8：电感的电感值和频率特性_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzvmT64jdTYeibviaMwtNgj0LYHqGuYUS8ciboFKmLibZKCxIXRsbw4WLHHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_011_680b466661b8.png)
 
 **_图8-9：铁氧体磁珠的电感频率特性_**
 
@@ -113,11 +113,11 @@ ____€4.___使用磁珠降低噪声_
 
 如**_图8-10_**中的曲线，电抗X（容抗+感抗）降低并存在与电阻分量R交叉的点，当超过这个被称为“交越点”的频段后，铁氧体磁珠将起到电阻的作用，具有将噪声转变为热的功能，这是与内置绕线型电感的滤波器之间的巨大差异。而在更高频段，则与绕线型电感相同，发挥高通滤波器的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTvoTBa3bniby6X5lI8uhIEzGrInJt6XNfshYdgRZaNXPyM30ZhLYE6DkbpA3Jduw7EIVcghOcP98A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_012_0846158eb0a7.png)
 
 **_图8-10：铁氧体磁珠的频率特性和交越点_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1Oy25nHVq47nRGd3muibeXCa0nFic1xBV47FVtGjdbsrOGHfSSk4KjNVOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_8_如何使用电感_磁珠从后级应对开关电源噪声_images\img_013_82f86fb4a464.png)
 
 **_图8-11：随频率变化铁氧体磁珠的除噪动作_**
 

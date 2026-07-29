@@ -8,35 +8,35 @@
 
 作者：Chen Wei, Jianlong Chen,Zongzeng Hu,and Fulin Zhan
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWXDIo5aAHicTwxft4aODyTxUZtfS8AwVEuTq2twbfeP08JEicM4mrL1wQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_000_5cd7aad3f296.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW4hcfcmWTL086GjdzibGvc0ZzeYmDic6Vw10a3jgbwQn40zaTzdHJneQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_001_1ea0b9bdcb36.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWSY7gzqLNl7MB3ybbzn6OnB5WEdmwIA7R9eQFxyNHUfbicFR250JFqWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_002_383626ef8727.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWl2cWVGAXjkVETPzv7EBE54wukvPNCvYylG0vttkvCO1863XNPnjGAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_003_35521945c815.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWsQYU72AyPViaatibavps4tMW73442Hftm97OqUaCQCnzmGiaIG4ERsROg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_004_b1dfd4c27d5d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW6E5z3YTz1EibFHeoHZqSdpoOQKxnIMfJa9tSdUjeUj5sWf5CvMrJ2qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_005_4ad76d8e0b0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWclZJ8kv0HjKia0iaoBw9AEZ6QiaLibYgUBfxUjuiba0MxVuGgu4y8LgczFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_006_33eb86a613a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWQfLt59WsvV6sibfJhQCumxBQvrUwnXPIzmVRWNbIVVNiauay2oS18jbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_007_f96e966ddd1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWnHNRBDj2eyoXU0VOh7BAokxcUSC88zPPiaMVgqTyyVsibRcnyXOwkO5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_008_023d78452d56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWPTytxI7QEoLiccsdtC00Dq5vres4mhVgibibYibHI8ZtXaSnyEPteodbPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_009_d596409baf8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWZRRba4wRQIx7OBbMseZ78db5XCFtIkpCo6Vvwr3zho5MTKMV8lia9Fg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_010_4690f57b3323.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWJgq8AtkOvTN0Gq2lzsiaRzq0sS292dhpibWWNRMyL3a3UyA6hR6qsXZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_011_4ea8e67eef51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWv3JcqrvglB6uO4AzcicmD2Ca3wYqBF35yls58IKCsIJVCiaBELz5piaUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_012_2736b40b1b87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW1TwYRj16nDUrQzItx3r0gV9Id2WrsQw65Np9Az1QYFCaoUV8a37kgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_013_eac09462c815.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWyN163GX8c0CmqOQSbJEribULic5FS3h6Rfox3rcmgW4I7Dj9bH7ylOWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_014_930d29007f2c.png)
 
 注：图片报告与文字无关
 
@@ -280,13 +280,13 @@ SiC 器件价格是 Si 器件的 2~3 倍，推高系统成本
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMstnaQiaTkoib9V2GelkRkIK8IPc1LGl8C8Niay8F44iatJouvzUArEyMvA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_015_91456e8b6f31.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMt2TgmZia18AqibiagQmVic5qpsfB5icelOViarfK2bjticOsAbb9qTXib8xMqQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_016_831bd9d36972.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMmcGwwzZmGKuxOauG2AHP5c4WnsEBSuibbJEaZibyXzc1HfrfqicxXRWKg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC的60kW_LLC变换器采用新型变压器设计_images\img_017_3a0ad97a3f9d.png)

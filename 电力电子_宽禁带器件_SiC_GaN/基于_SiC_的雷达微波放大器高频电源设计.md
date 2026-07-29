@@ -11,7 +11,7 @@
 
 **关键词 ：**碳化硅场效应管；微波功率放大器；高频电源
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hKxg14e3s91Ow9htsoBYfKgwiacPLuQJG3iaJT2FEKGJFiczljMgMXfJZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_000_88f88b91d30d.png)
 
 **1. 引言**
 
@@ -31,17 +31,17 @@
 
 雷达诱饵电源的高压部分使用了原型 3.3 kV SiC MOSFET 和来自 ASTSIC 的联合封装反并联3.3 kV结\-载波肖特基二极管。这些器件被表征为获得静态I-V特性、与能量相关的输出电容以及用于导通和关断的开关能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hdSMpmdc9qD3aia3p7dK8XwQIxIxA0libFC51WfqEviaZHJ06RcK15NuOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_001_024abe42666d.png)
 
 在室温和 125 ℃下测得的静态 I-V特性如图 1所示。如图所示，通过将栅极电压从 15 V 增加到20 V，导通状态电阻显著降低。因此，与可能需要最大 15 V 的栅极驱动的标准 Si-MOSFET 不同，对于最小Rds（导通），建议高达20 V的栅极驱动。还建议关闭状态电压的负电压不要超过\-5 V。
 
 **2.2 动态特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hFyXCwBAiaIic83yrn1e2iaiaKyECXkAsbNNytnw2lDGYux3sJLndqhH8qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_002_8822286bba9a.png)
 
 使用标准箝位电感双脉冲测试来提取动态开关损耗与漏极电流的关系。特征设置和典型波形如图 2 所示。两个不同宽度的栅极脉冲用于在不同的漏极电流下切换器件。当被测器件（DUT）关闭时，共封装器件的内部JBS二极管用于续流电感器电流。电源电压设置为2.5kVdc，脉冲宽度增加，以实现高达1.7A的开关电流。使用的开/关状态栅极电压为 Vgs=+18V/-4.7V，开和关栅极电阻分别为Rg.on=10Ω和Rg.off=5Ω。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hAguVOlHMw58zX0zC1UEpoX56daoCn1GnyWbciagIAnpcZDMu9cqyQ8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_003_2d5d254b0f8e.png)
 
 接通和关断能量曲线拟合，MOSFET和二极管的能量相关输出电容（Coss+Cd）如表1所示。应注意的是，电感器、上二极管和 MOSFET 的能量相关集总电容以及任何寄生板电容估计为 150 pF。显然，该电容非常高，因此在曲线拟合时必须考虑到这一点。对于100 kHz、2 A和2.5 kVdc的硬开关操作，每个设备的开关损耗将为 41 W。尽管这比硅器件的预期要低得多，但它仍然是 1 kW 电源损耗的重要组成部分。与这个数字相比，在桥式拓扑结构中，每个SiC器件在2 A和100 kHz时的导通损耗（50%时间导通）为1.2 W。导通损耗和开关损耗之间的差异有利于转换器拓扑结构，该拓扑结构在所有条件下都能保证零电压开关，即使在均方根电流增加方面会有损失。
 
@@ -49,13 +49,13 @@
 
 **3.1 电源拓扑设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hPNQs3OIboPyibdDc9JbVk2oOuYFRoVkhk24fRTib43jgKCicVJkg2iaUbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_004_5d15485ed7c2.png)
 
 级联方法的简化示意图如图 3 所示。
 
 电源电线的阻抗约为 100 Ω。半桥由 3.3 kV SiC MOSFET和肖特基二极管组成。两个高压陶瓷电容器分开2.5 kVdc电源，开关在变压器初级上施加+/-1.25 kV、100 kHz的方波。高频变压器由机械加工的铁氧体磁芯制成，具有设计的低磁化电感。通过高磁化电流确保高电压 MOSFET 的零电压开关（ZVS）一直到无负载。这消除了开关损耗，并最大限度地减少了噪音，如果将噪音耦合到附近的控制电路中，可能会导致转换器故障。请注意，与 90 pF的半桥输出电容相比，变压器还具有非常高的绕组内电容\-200 pF。在没有 ZVS 的情况下，由于变压器绕组内电容引起的损失将是由于 MOSFET 电容引起的损耗的两倍。ZVS 是以适度增加的传导损耗为代 价 的 ，因 为 SiC MOSFET 表 现 出 低 的 Rds（导通）。变压器输出上的中心抽头整流器对方波进行整流，并创建到低压电流调节级的中间未调节直流链路输入。第二状态降压转换器工作在 125 kHz。平均电流模式控制用于提供47 A的电流限制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4h8l5k7aNj4sL1qytD9ljiaauDVHu2hcKjiafunBRmiaYMR9fXDvZWfn4TQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_005_d1ccd27be530.png)
 
 转换器的辅助输出包括：1）光接收机功率和MPA 前置放大器功率；2）用于固态 MPA 的栅极电源。这些输出通过多绕组自耦变压器与主高压降压变压器级联产生，然后是整流器和后调节。线性调节器用于 1），而双向栅极驱动器电源 2）使用功率运算放大器产生。
 
@@ -67,7 +67,7 @@ SiC半桥的栅极驱动是该转换器中需要高绝缘性和 dV/dt抗扰度�
 
 简化的栅极驱动电路由于稳态功耗和空间的限制，不能使用利用电阻分压器或高压FET的标准启动电路。相反，使用了图5所示的方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hISBBJPRh0nFMuAiacQsRM1LvDEAoOrNkic7Mh5WibJ1yR0RvcqATawRgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_006_6122d2556153.png)
 
 高压电阻网络用于从2.5 kVdc汲取400 μA，以将大容量电容器充电至由齐纳二极管 D1 确定的阈值电压（间隔 I）。在间隔 II 开始时，D1 导通，使得以 PNPN 配置（类似于晶闸管）布置的Q1和Q2开始导通，并且即使在D1停止供应电流时也继续导通。这类似于晶闸管的锁存操作。Q3通过 Q1和 Q2的锁存导通而导通，并且功率被施加到控制电路，开始半桥转换器的软启动。大容量电容器中存储有足够的能量，以确保控制和栅极驱动电路中每个点的电压高于 UVLO 极限，直到间隔 III，主变压器上的辅助绕组开始为半桥提供控制和栅极功率。该电路的一个特点是必须循环关闭2.5kVdc以重置启动电路。
 
@@ -75,19 +75,19 @@ SiC半桥的栅极驱动是该转换器中需要高绝缘性和 dV/dt抗扰度�
 
 表2总结了电源主要组成部分的详细情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4heh7s0bc52VveJK7HHA6QicBibJ67OKG6leKmqEM1ict07tTgDRdGR5FLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_007_99faf6c9b2b9.png)
 
 整个电源的台式测试，以验证电气设计。主变压器采用道康宁 3-6753 封装，以纳入因密封剂引起的绕组内电容变化。将整个高压部分浸入 25#变压器油中。供应仅操作短时间，以防止温度超过25#变压器油的闪点，从而降低流体的介电强度。电源的工作波形如图 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hyHX9sicvdXfKzwwBvDBcZLiccLXO4NDGEe1WVomIribq2gSUjVNGHGMUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_008_04cc0a5386c4.png)
 
 图 6（a）显示了满载情况（Vin\=2.46 kV，Vo\=22 V，Po\=1.1 kW），而图 6（b）显示了低负载情况。如图所示，ZVS 是在高负载和低负载下实现的。系统效率与负载的关系如图 7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hqWHxAHPgl7mJl51gDeVDGKUHgzWjGgLxichB6cZ8Tmibxib5jnXKD1awQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_009_7e25a108cd47.png)
 
 该测量包括 SiC不调节转换器、低压调节降压转换器和用于测序的串联低压硅 MOSFET。降压转换器和半桥级独立测量的效率和损耗（不考虑控制功率）如图 8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnBw57fcc6ic1wLPUsSwOj4hQLPpLMicNw9jvTRV6AlsjQbxvd9QBibryyNpubtJAZ8q4yvbFtRe456A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_010_4a1dbf009a86.png)
 
 如图所示，半桥级的峰值效率大于97%，这主要是由于 SiC MOSFET 特性和 ZVS。整个转换器的整体效率受到第一转换级中的高电流整流器和低电压高电流Si降压转换器的限制。
 
@@ -97,10 +97,10 @@ SiC半桥的栅极驱动是该转换器中需要高绝缘性和 dV/dt抗扰度�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_011_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_012_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_的雷达微波放大器高频电源设计_images\img_013_84aa944feb13.jpg)

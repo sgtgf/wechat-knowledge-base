@@ -18,13 +18,13 @@ OTG 是"On The Go"的英文缩写，可以理解为“安上即可用”。USB �
 
 开发板要作为 USB Host、USB Device 两种角色，可以使用 OTG 插口：它可以根据硬件电路自动识别自己的角色，切换为 USB Host 或 USB Deivce。
 
-OTG 插口有多种形态，常用的有 Micro USB、Type C，如下：![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNiciadggVkfNrCRaKricBmCFR00GBYpcAia7TZkeCnHWG62mdXj2XTTmzSA/640?wx_fmt=png)
+OTG 插口有多种形态，常用的有 Micro USB、Type C，如下：![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_002_17a23a792d76.png)
 
 ### 1.1 Micro USB
 
 对于 Micro USB 插座，它有 5 条引脚：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNElk62sIM6aaVu8OeicRkJBiaVuoBzghIh9fibUa4hGLTFlf3RjZ2fMjPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_003_62dccd057750.png)
 
 引脚作用如下表所示：
 
@@ -59,11 +59,11 @@ GND
 
 开发板作为 USB Host 时，需要接入一个"OTG 转换器"，再连接 U 盘。如下图黑色的转换器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNB0zjauicyhlOKIx18xstHP0ibt2icicYu3WltOFbDUic4IJE59llHicsRibpA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_004_374ae07edeae.png)
 
 OTG 转换器的内部电路很简单，就是把 ID 引脚拉低：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNdZXUxIvTTD03icpJF0oXOuSmzmSBSVyQEl7xiaTmZYMUBlS6t8nqibR1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_005_7505ae7306ff.png)
 
 这个转换器插入开发板的 OTG 口之后，OTG 口上的 ID 引脚就被拉低，软件把开发板转换为 USB Host。
 
@@ -71,21 +71,21 @@ OTG 转换器的内部电路很简单，就是把 ID 引脚拉低：
 
 Type C 插座里面有两组完全一样的信号，Type C 数据线无论正插、反插，都可以使用：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNTQyCeibSwicBCHAW6E8Oq3ibbCkicZw0P7bh5RzrzXrwl1d8mGjTtU34cQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_006_9a5f6fc86a17.png)
 
 Type C 插座有如下信号，在 USB2.0 协议里我们只关心红框里的信号：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhN9qzIQTiaDzZjutZugkBYwcCfTVDJJlib72t3gxosLnQvfLOrhU2ibxzLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_007_e0a5abfd82b9.png)
 
 开发板作为 USB Device 时，跟 PC 上的 USB 相连，PC 的 USB 接口只有 VBUS、DM、DP、GND，所以开发板的 CC1、CC2 引脚跟 PC 的 USB 口并无连接，它被板子上的上拉电阻拉高。
 
 开发板作为 USB Host 时，需要接入一个"OTG 转换器"，如下图黑色的转换器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNjEXWwwevqnNU4XFqT9T6gXVKtIye67bxickgnQX0ScubrgicKn076Iibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_008_5f754a45c757.png)
 
 如果不考虑兼容 USB 3.0 协议，上述转换器的电路图很简单，把 Type C 插头里面的 CC 引脚连接 5.1K 欧姆电阻到 GND 即可。如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNDWAsJ3qO2P54NNrmdsA7Eyul84GWGs7o8Db1rEhcX7V90TK8poFBbQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_009_477454e7d045.png)
 
 ## 2\. OTG 接口电路
 
@@ -104,17 +104,17 @@ Type C 插座有如下信号，在 USB2.0 协议里我们只关心红框里的�
 
 当 USB\_OTG1\_ID 低电平时，说明 ID 引脚被拉低，这时候 AO3416 截至，EN 引脚使能，SY6280AAAC 对外供电，USB\_OTG1\_VBUS 有电压，开发板作为 USB Host 对外供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhNXtiahMXuymIvA8LxcZV9ceLULaa8Bic9FMwrpxdFznwVBSSHOiclAh0iaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_010_8e5fad1d9127.png)
 
 ### 2.2 Type C
 
 如果不考虑兼容 USB 3.0 协议，可以使用如下精简电路：CC1、CC2 作为 ID 引脚。原理和上图类似。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhN7bfHiasbwiavaUtbKsy4t8BfvkmREX8opBpRSiamsX2eUa57g7VE9e4NQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_011_0c1521feafc5.png)
 
 如果要兼容 USB 3.0 协议，则需要加入专用的芯片，专用芯片检测到 CC1、CC2 状态后，发中断给主控，并通过 I2C 将信息报给主控，主控再控制供电引脚：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgOqXkrmv7Yl3d9ibxZQqPhN228QyCSZFpr0YJ7tEYj5es0K5OYYFqKewHUuicpTQsz5fwsUgz4ib6ibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\OTG_硬件检测电路_images\img_012_658b51e297ec.png)
 
 **参考：**
 

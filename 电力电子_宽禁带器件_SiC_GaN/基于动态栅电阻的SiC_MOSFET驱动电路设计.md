@@ -23,7 +23,7 @@
 
 1\. SiC MOSFET开关过程分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibfm4W71ics7PfY8CBrXzyUeaCk277VHbTbxUntjd9QiaibbwupeM46EXMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_000_2723eb422941.png)
 
 对于 SiC MOSFET 驱动电路设计，其开通与关断 2 个过程是设计关注的重点。以图 1 中的SiC MOSFET 典型的开关过程为例进行分析，其中开通和关断过程各自可以分为4个阶段。
 
@@ -33,7 +33,7 @@
 
 阶段2（t1—t2）：当Ugs＞Uth时，SiC MOSFET沟道被打开。漏极电流Id从零开始增大，t2时刻Id达到最大值。由于功率回路中寄生电感的存在，变化的电流会在寄生电感上产生压降，这使得 SiC MOSFET两端电压小于母线电压。在此阶段，电流斜率可以近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib3tZGBIfZ34U03GRiasHxbmu0SRqNkXHs2iaplxQhAElMZZH27SlvI1yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_001_ec9ff285f607.png)
 
 其中 Ciss\=Cgs+Cgd
 
@@ -41,13 +41,13 @@
 
 另一方面，栅极电流ig,on的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibYapwic5sjZX1qjRT1AtcOwDLf6pQCzNwribbBQUv4PmXFUSd3xH6lVuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_002_158f7b956a09.png)
 
 式中：UMiller为SiC MOSFET的密勒电压；Rg，on为开通电阻。
 
 阶段 3（t2—t3）：从 t2时刻开始，Uds开始下降，产生密勒电容效应，Ugs停止上升而出现平台，直到 Uds下降到通态压降时，该阶段结束。在此阶段，电压Uds的变化斜率为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibRU48ZT2IiaiaUhNppweO6TEhptiahb49cumDM9T67D7fXWm38wPB4JwXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_003_8a4369c0ac04.png)
 
 阶段 4（t3—t4）：该阶段为过驱动状态，SiC MOSFET 已经完全开通，Uds和 Id不再发生变化，栅源极电压 Ugs在 t4时刻升至给定正向驱动电压值Ug。
 
@@ -61,17 +61,17 @@ SiC MOSFET的关断过程相比于开通是一个相反的过程。
 
 阶段 6（t6—t7）：当 Ugs下降到 UMiller时，此时 Ugs维持密勒平台电压 UMiller不变，Uds升高。由于 Ugs不变，因此 Uds变化速率不变。在此阶段，Uds斜率近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibibUl7U4ic3gZRNJZTmkfE4by9mEDsV3Vtauu12VsVfJ4Fu2sOHb1icDfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_004_31f1dcf8b94d.png)
 
 ig，off的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibZDoIZXsibBWzQdJH5XcDhvUeelLibF2xUthkN7mE5FjNOF6qUGvvaOWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_005_8c4a6161c6b1.png)
 
 式中：Rg，off为关断电阻。
 
 阶段7（t7—t8）：该阶段随着Ugs由UMiller继续下降，Id也开始下降，由于电路中寄生电感的存在，变化的电流会在寄生电感上产生压降，引起 Uds继续上升，超出母线电压。该阶段与开通时阶段2 类似，当 Ugs下降至 Uth以下时，SiC MOSFET 完全关断，该阶段结束。在此阶段，Id斜率可近似为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib7PRH80twY4X7NyUvfsTC1MuicqVxFRdMVPPozUrpcCICXWODSY4Y3nQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_006_a75a90ff56cd.png)
 
 阶段 8（t8—t9）：该阶段 Ugs由 SiC MOSFET 的阈值电压Uth逐渐降至负向关断电压。
 
@@ -81,7 +81,7 @@ ig，off的表达式为
 
 鉴于传统驱动电路的不足以及对 SiC MOSFET开关过程的详细分析，本文提出了一种基于动态栅电阻的驱动电路，结构示意图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib1uicefribctabje5q9rkicDZ98MlOGibxlIDBHYhJT0n7KaATX4olVlw9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_007_4560b17efd0e.png)
 
 本文提出的动态栅电阻驱动电路主要由1个控制器（FPGA）、2 个缓冲器单元、4 个 MOS 管及 4 个栅极电阻组成。其中设置 RG，on1＜RG，on2，RG，off1＜RG，off2。MOS 管在整个驱动电路中主要起开关作用，通过切换 MOS管来接入不同的栅极电阻；而缓冲器单元是来推动 MOS 管工作的。控制器FPGA则是为驱动电路提供控制逻辑的。
 
@@ -99,25 +99,25 @@ ig，off的表达式为
 
 为了验证所设计的动态栅驱动电路的可行性，本节利用双脉冲测试平台进行双脉冲实验。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib9gIicwPFAzBgIUw7T4Z1eRCvqOIWnVK3TqvJuwE3sQLPH8hBZGY0xLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_008_f9693f6cdae3.png)
 
 如图 3 所示，双脉冲实验平台由直流母线电压Udc，1200V/300A SiC MOSFET（Cree）以及负载电感 L 等组成。实验中上管只有续流二极管在起作用，因此上管施加负向关断电压。下管为测试的对象，因此对下管的栅极施加双脉冲信号，从而获取开关过程中 SiC MOSFET 的开关特性。
 
 实验中，直流母线电压 UDC＝500 V，负载电感 L＝100 µH。 具 体 的 实 验 参 数 为 ：RG,on1\=10 Ω, RG,on2\=20 Ω, RG,off1\=5 Ω, RG,off1\=10 Ω。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibDSh49xZKH0SQO97lr2YAzj7srojPhSyP15Sszuz2wyXX2ricLv1HYWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_009_6595b765a24b.png)
 
 图4为传统驱动电路与多等级动态栅电阻驱动电路测试下 SiC MOSFE 的开通波形。其中图4a与图4b分别为传统驱动电路下Rg\=10 Ω和Rg\=20 Ω的开通波形，图4c为多等级栅电阻驱动电路开通波形。在传统驱动电路中，随着栅极驱动电阻的增大，开通电流过冲减小而开通时间却被增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibctOJWWG2XlRTuYGBt7vBicQYRiaNia9rSOSwYdb1jQy41ESeXgeM8ziatA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_010_1ba679cd9c4c.png)
 
 图5给出了传统驱动电路与等级动态栅电阻驱动电路的开通波形参数对比，可以看出，多等级栅电阻驱动电路很好地兼顾了开通电流过冲和开通时间，有效抑制了电流尖峰，同时也缩短了开通时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibsy5TibAIaRacvPDOPib477NZMA8sv0td19Tp8rqyk0ckCbdOYxx4BfRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_011_8f1e24fd915c.png)
 
 图 6 为传统驱动电路与多等级动态栅电阻驱动电路测试下 SiC MOSFE 的关断波形。其中图 6a 与图 6b 为传统驱动电路下 Rg\=5 Ω 和 Rg\=10Ω 的关断波形，图 6c 为多等级栅电阻驱动电路关断波形。在传统驱动电路中，随着栅极驱动电阻的增大，关断过压减小而关断时间增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib0etCxWiadyldibVmlmfrHknuhg5Eyicb6jP2kyMc8CP8w9f7cbrAuJTibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_012_8d0eac43a888.png)
 
 图 7 给出了传统驱动电路与等级动态栅电阻驱动电路的关断波形参数对比，可以看出，多等级栅电阻驱动电路很好地兼顾了关断过压和关断时间，有效抑制了关断过压，同时也减小了关断时间。
 
@@ -127,10 +127,10 @@ ig，off的表达式为
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_013_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_014_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于动态栅电阻的SiC_MOSFET驱动电路设计_images\img_015_84aa944feb13.jpg)

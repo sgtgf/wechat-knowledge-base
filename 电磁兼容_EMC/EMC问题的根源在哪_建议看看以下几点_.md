@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCxU1dzxa1yGDVSxya0MQWuEHZHN1jXZzPqBvuo7zbdwGzRMrIgLZ9D7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_002_83f071a26bc1.png)
 
 如上图所示：在高速的PCB设计中，时钟等关键的高速信号线，则需要进行屏蔽处理，如果没有屏蔽或只屏蔽了部分，都是会造成EMI的泄漏。建议屏蔽线，每1000mil，打孔接地。  
 
@@ -32,7 +32,7 @@
 
 由于PCB板的密度越来越高，很多PCB layout工程师在走线的过程中，很容易出现这种失误，如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCx13liaFicmx3iaF4SmOI7MH5kCG4V5AKB7XXdFcX1S8r2NaAEsdanbOiaug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_003_f57ea9539f8b.png)
 
 时钟信号等高速信号网络，在多层的PCB走线的时候产生了闭环的结果，这样的闭环结果将产生环形天线，增加EMI的辐射强度。
 
@@ -42,7 +42,7 @@
 
 规则二提到高速信号的闭环会造成EMI辐射，同样的开环同样会造成EMI辐射，如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCxQ0TrZjg3S8PGOqsMR8NDCkQDdt4IhicKjJzEeOL87rY0pbr7MHqJsnQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_004_2b66526a0729.png)
 
 时钟信号等高速信号网络，在多层的PCB走线的时候产生了开环的结果，这样的开环结果将产生线形天线，增加EMI的辐射强度。在设计中我们也要避免。
 
@@ -52,7 +52,7 @@
 
 高速信号，在层与层之间切换的时候必须保证特性阻抗的连续，否则会增加EMI的辐射，如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCxUHuSib7mrvCjq79RNXO89hSae1tLedXicBG7oK6eSkh8ssAZQdzVAfRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_005_54997165455e.png)
 
 也就是：同层的布线的宽度必须连续，不同层的走线阻抗必须连续。
 
@@ -62,7 +62,7 @@
 
 相邻两层间的走线必须遵循垂直走线的原则，否则会造成线间的串扰，增加EMI辐射，如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCxhbwAx25wWOibghnB5RX4ibPiajaKevQv14bIlZWWHuNdFmrfGTC3Y8jwA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_006_f3ea66163ad0.png)
 
 相邻的布线层遵循横平竖垂的布线方向，垂直的布线可以抑制线间的串扰。
 
@@ -72,7 +72,7 @@
 
 在高速PCB设计中有两个最为重要的内容，就是线路板特性阻抗的控制和多负载情况下的拓扑结构的设计。在高速的情况下，可以说拓扑结构的是否合理直接决定，产品的成功还是失败。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCxB0wG5FDPEEZj2903oM2lBf9RCwW4KZ0YAdic9rmp7oRcicLQgCC875eQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_007_fe5803682e61.png)
 
 如上图所示，就是我们经常用到的菊花链式拓扑结构。这种拓扑结构一般用于几Mhz的情况下为益。高速的拓扑结构我们建议使用后端的星形对称结构。
 
@@ -82,7 +82,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCxAZIGtHDtv0qStypt6phGhiaZA8xCX5mlb58QOzo9icrP9L3NkLlGUM2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_008_12e99efb3edb.png)
 
 检查信号线的长度和信号的频率是否构成谐振，即当布线长度为信号波长1／4的时候的整数倍时，此布线将产生谐振，而谐振就会辐射电磁波，产生干扰。  
 
@@ -92,7 +92,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCx0fXXEyor3Xkvqf8BzZxx6eVF4331CHaiahzTVsUA1hS4bgoY5K2cgFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_009_38255e0db922.png)
 
 所有的高速信号必须有良好的回流路径。尽可能的保证时钟等高速信号的回流路径最小。否则会极大的增加辐射，并且辐射的大小和信号路径和回流路径所包围的面积成正比。  
 
@@ -102,7 +102,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6DKZPxhkkIWStGfpNZQIZBf3d9yBnicCxwbMqMpsJX84p3wTb2kiar8vJCeibmkPPobCv5kwsrziatKElhxlrg4YNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_010_bbac92d629bf.png)
 
 退耦电容的摆放的位置非常的重要。不合理的摆放位置，是根本起不到退耦的效果。退耦电容的摆放的原则是：靠近电源的管脚，并且电容的电源走线和地线所包围的面积最小。
 
@@ -135,4 +135,4 @@
 
   
 
-****觉得内容不错的话，欢迎分享，点赞，在看**![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FN0h1dvAiaKt7ITP9EYBbIyOGvA1H5PkiaL9NQSoDNoq7Y5kBH8qNziaIYhBZyFibBqNXRHh3ZukzICvg/640?wx_fmt=gif)**
+****觉得内容不错的话，欢迎分享，点赞，在看**![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC问题的根源在哪_建议看看以下几点__images\img_011_642a876b39bd.gif)**

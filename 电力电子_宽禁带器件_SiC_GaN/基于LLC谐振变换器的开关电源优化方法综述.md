@@ -21,15 +21,15 @@ DC-DC变换器的发展方向之一即高频化，频率的提高伴随着诸多
 
 1.1 LLC 谐振全桥变换器的工作原理
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNO4KbfbngtAiblB9lHwY0NU0JOllSOVh279icY1WLrXkd8AsicSBlPm7FpGGmOYjQ7JthtR9iapvhlfp4ESNGB6iaiaAgfJ8OaibWjbo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_000_bd639c50f63e.png)
 
 相比于传统的串联谐振变换器和并联谐振变换器，LLC 谐振变换器既具有谐振电流随负载轻重变化的特点，又具有小范围内拐点频率的调节即可实现输出电压的调节的特点。虽然其设计结构复杂，但由于芯片领域控制器的发展，LLC 谐振变换器逐步成为最受欢迎的主功率拓扑。LLC 谐振变换器有 2 个谐振频率，其中一个是由谐振电感 Lr和谐振电容 Cr形成的谐振频率 ƒr，另一个是由 Lr、Cr及励磁电感 Lm形成的谐振频率 ƒm，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLbV2Cl4C6IcaMhlIWD3lcEPbnLRwibh3sfibOiclNXD8ic4ria6fG5iaUQWlYLQiaUvnsXHLwakiaTicia6VGjzAJlT5GVHROjj2h1iaa9s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_001_816b99084e76.png)
 
 LLC 谐振变换器的开关频率 ƒ 有 3 个变化范围：ƒm<ƒ<ƒr，ƒ=ƒr，ƒ>ƒr。当 LLC 谐振变换器工作在 ƒm<ƒ<ƒr范围时，整个变换器工作在感性模式下，其电流相位滞后于电压相位，在驱动信号到来之前，开关管并联的体二极管已提前导通，零电压开通 ZVS( zero voltage switch )得以实现；当谐振变换过程中励磁电流与谐振电流相等时，整流二极管零电流关断 ZCS( zero current switch )得以实现。以可控器件下全桥谐振变换器为例，分析 4 个工作阶段。可控开关管漏源电压及栅源电压、原边谐振电流及励磁电流、副边电流波形如图 1 所示，可控器件下 LLC 谐振变换器电路拓扑状态如图 2 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPLEEW15s7yS09gYWialxpWtyXw53lOhRhHKxib1mBArbdLiaNE3CgLh9mfdohyS4MicSrHlDJx8aV2x3GQN72UzRIqGCOq7OYicibk4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_002_f03d37c40c74.png)
 
 阶段 1( t0~t1 )，ir\>im，即谐振电流大于励磁电流，此时变压器一次侧有电流流过，即二次侧存在导通电流。由于励磁电感两端受到变压器侧的钳位作用，参与谐振的仅为谐振电容和漏感，因此谐振频率为ƒr，一般取 ir\=im，即 t0 时刻作为整流端对应开关管的导通时刻，t1 时刻作为整流端对应开关管的关断时刻，编写驱动程序可进一步减少电路的开关损耗。  
 
@@ -53,7 +53,7 @@ LLC 谐振全桥变换器具有高效率、高功率密度、电气隔离、较
 
 2.1 变压器绕组结构方案
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMUboX5KibLv2ukWFLB3iaRxRAWzBjn7r7ZCHl4qaic8BKC2xwT8giaqgJPXYnwFbXvBmhtBcmMACBhGXTpJL81ic5HricBiaXBNFDQz4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_003_b664a7369753.png)
 
 LLC 谐振变换器中的变压器绕组结构方案以平面变压器、矩阵变换器及整体设计为优化侧重点，不同前沿优化方法对应的实验样机数据见表 1。  
 
@@ -61,7 +61,7 @@ LLC 谐振变换器中的变压器绕组结构方案以平面变压器、矩阵
 
 2.2 控制及拓扑优化方案
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZcsIbDZHXSXTFc1K4HsN38bBazQbhGEfyUpZtF5lhaflFZeGWm7ra8iauxgiaM9YCiaXAcJKUL8mhLTTmiaPEWZxBcyyJiaZUicNsI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_004_4a485999ab38.png)
 
 控制及拓扑优化方案主要从改进控制、设计新谐振网络参数及抑制共模噪声出发，以实现减缓冲击、增大输入电压范围、降低电压纹波、精确化设计参数并提高变换器功率密度等多种目的，不同前沿优化方法对应的实验样机数据见表 2。  
 
@@ -69,7 +69,7 @@ LLC 谐振变换器中的变压器绕组结构方案以平面变压器、矩阵
 
 2.3 依据调研现状所得见解及验证
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPzeQW1kQXcicAWA1HAP9Wr1CYJoEZ7DGaUh4BlGuBVI1zuYNXBWeibtJ6xVcEuVTjm4rBl7BCBQEKEIDSFgJ9icHjiaDQ6u0FjeFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_005_e0f885fa2a49.png)
 
 近 5 年内国内外研究 LLC 谐振变换器的优化方法时大多集中于电路拓扑、控制方法及磁性元件 结构的优化。  
 
@@ -77,35 +77,35 @@ LLC 谐振变换器中的变压器绕组结构方案以平面变压器、矩阵
 
 当网络谐振参数确定下来后，精密化磁集成器件制备工艺是制作 LLC 谐振变换器的核心，需要采用恰当的物理模型分析测算，以保证器件的精密度。以 APR 平面变压器磁集成模型为例，通过建模分析物理模型参数与谐振参数的关系，再结合磁心绕制参数 Aσ和 AL的函数关系式，计算实际施工参数，即一、二次绕组匝数 N1、N2 和气隙厚度 lG。由于 Aσ是与铁心和绕组结构相关的“每平方转的特定漏感”，只取决于所选的铁心和线圈绕制的几何参数，因此在简化假设的基础上其表达式仍能提供相当准确的结果，具体为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMNeqT8eoqKSTFkib9DzjV5YtyUEgqic5rIHicjwtGFMS45wb5yuOkd6UnrecrGUgMKr7EBvEdhGy6HRvIStHJN8QATpXuUicHmkZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_006_208173246ea3.png)
 
 式中：μ0 为与磁心相关的介质系数；lW 为栅格( 图中黑色隔板 )的宽度；dW 为不包含磁心厚度的磁心内部空间长度；dS为栅格的间隔长度；dH为不包含磁心厚度的磁心内部空间宽度( 磁心内部的上半部分或下半部分的宽度 )。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOxPSHQ7xRLjTblPGNn9vjaG6LeSLNAIerxibqJWC6jViaEdGicBSiaSBBAyIHuIqAGo5Ro62sB9Qn98iaosWZp30iakaOHCk8rhibCrs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_007_de62a3eff395.png)
 
 变压器结构三视图如图 4和图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPMicb9tactYOa4UMcJBA0QQXXl7zMFzsHZqNFUFic7pqRQUBvwibDPYnHhib6pXad7Ol58OLhzs3VRR4JyVk1BRvQhJmr9IpGW5nI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_008_2365f5c98222.png)
 
 经典的三明治绕法(一次和二次绕组交错绕制)可以有效降低漏感，但会增大寄生电容。寄生电容的产生是由于磁心绕组绕制的导线之间存在电压差，寄生电容表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOiafgS7WyibEpWJeC2WnYk0bUC4cicdE0sd5CwQia9sUC0hhwUCuibic6pdRhJVXOShguf8rSElmhUkxfqrlOdW5xVLRTvibxyl9gNyE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_009_7599a495273d.png)
 
 式中：a 为常数；S 为截面积；k 为介质系数；d 为截面距离。若不控制寄生电容，则当能量转换时存储于寄生电容中的能量便会以尖峰的形式释放出来。仅针对变压器装置本身，当拉开绕组距离时，寄生电容数值减小，则漏感又因分布不均而增加。当绕制过程无法恒定控制绕组中每根导线的距离时，漏感和寄生电容数值便较难控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNGjAtU65FDtIJGcLk9YzDcCiaO95Eu7S1Uh0Tr5Ayo0Ta1jPrZRZQ6f94hvYHgm1orcoic55MV8BWn4aX9DxnyWZJDciaC3EZvRs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_010_94b16c23b4c7.png)
 
 采用多层 PCB 技术的平面变压器结构如图 6所示。由于每层 PCB 自身携带的铜片可以充当铜线绕组，且精密的 PCB 工艺可以保证铜片等距分布，因此可以通过调整绝缘层的厚度确定精确数值的漏感及寄生电容，方便 LLC 谐振变换器的量产化，但因整体装置成本过大且铁心的高度不可能无限增大，所以寄生电容的数值难以控制到最优。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOoC63sYDenWht87BCRibrfgFfHUibbFdgzrNx9PGW5d5GSuq2VVwVHxghF76Wx9AFdzeqWnafK1okhicWlfPoRGL40Qja4WiaMzIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_011_cc698b34e783.png)
 
 采用架空单层 PCB 结构并围绕中心磁柱绕制的平面变压器如图 7 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpON6hwQhAzkOSBxCh4deszCfTDRl0GnqSGbbnP63rcEZNn4K7icQ3VNWDLjwBTp1icjMdNolrziaIU76I7XUHHqKNnkArGq0f2P0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_012_69392a6f3d41.png)
 
 则可以在电压增益确定的情况下，选取特定品质因数下的电压增益三维曲面与电压增益平面相交的特定曲线函数，如图 8 所示，将漏感与谐振电容的计算公式代入，并采用“预测\-修正\-校正\-修正”等方法求解漏感最小值的最优组合点；依据最小漏感、谐振电容与励磁电感且针对“每平方转的特定漏感”Aσ的公式进行绕组绕制，固定磁心的长和宽并拿去栅格间距(结合一、二次侧交错绕制法)，在经济成本最小的约束条件下确定内层绕组与铁心的距离、最外层绕组与铁心的距离；根据变比严格控制绕组匝数与间距的选取，并等距绕制每层绕组(保证变比的前提下匝数尽可能少)，选取性能优良的绝缘介质材料，保证漏感达到最小值的同时寄生电容数值较小，使得磁集成器件的磁损和热损降到最小。采用经验法选取谐振参数与运用特定曲线函数法选定谐振参数后的对比如图 9 所示，经验法的输出电压振荡时间长且振幅大，输出电流振幅也明显，输出电压纹波较大，为 2.31%；特定曲线函数法的输出电压振荡时间短且振幅小，保证确定电压增益和最小漏感值的同时输出电压纹波较低，为 1.03%。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMj97qlQibyBqMQn6DIbC586AJR90TVS3OOkmC52RuDCkYIaSPHGUxTxSMLDNmMN3xB15O7zcAuiaBsAZ6pic8UDDibUDhAW5UgDnc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_013_4dbbc7026db0.png)
 
 3. 发展趋势  
 
@@ -129,7 +129,7 @@ LLC 谐振变换器中的变压器绕组结构方案以平面变压器、矩阵
 
 本文主要介绍了 LLC 谐振全桥变换器的工作原理及变压器绕组结构和控制拓扑等优化方案的最新研究进展，从降低电路损耗和磁路损耗出发，探讨了同步整流和APR 磁集成模型下平面变压器对电路的影响，最后依据第三代宽禁带材料及电磁兼容性展望开关电源的发展趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMJwPOqKE1ia7dpcyQ4yO1P0I2Wv3uJZgWwicicfe5hmbgNFib6ZFiaSE4aic05UU8Jp9AdAweqib81GSYicHSg6pZC5yfrlgVeMtVzIaU/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_014_fe6f13696028.jpg)
 
 图片来源：网络（LLC谐振开关电源500W（48V10.5A），采用PFC+LLC拓扑结构）
 
@@ -139,14 +139,14 @@ LLC 谐振变换器中的变压器绕组结构方案以平面变压器、矩阵
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPwIGkwX9MZvq4Ubuz6Mw91Fs4icWicdX75nJzH84p5IQVJ5NoSCTHnszrzbPE2eQ2rd5hzbMPfXsGBlGoUHzMZ30cf9S9pHnmuY/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_015_95d15f35faca.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNL7yOJJ0RZJApM9yf64xx1pQu9DhoQwKYUgvMGyZZzgmtyS3PEtcLiaVhgTRGOpmGiacWuKbDTby7PrQlAkAibjVDY2Wk28HGcSA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_016_f37b920a64a6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM8vNv8SgtYU0eZXs0Q10oO3nnhpeXDZCwXGJjiaNPVDpQN5BRkrOpgMTdKqMcO8e8yic29cs5XllX0cqvqBhLW9Q9WWcQQxLzuY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_017_17407a97e661.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM3TgxOf2D9zw5gpq1hmsdoQ01VYNNOpauicVfc5sctYmNHZ0bsxqSKD5qKibQRO056a0IJNd3gQ1GopMTXicia0MtfV462juic3xR4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于LLC谐振变换器的开关电源优化方法综述_images\img_018_9b36701b8427.jpg)

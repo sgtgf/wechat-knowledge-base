@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/iJfa0h\_SCwB\_WPJ6cix8zw](https://mp.weixin.qq.com/s/iJfa0h_SCwB_WPJ6cix8zw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIv9FcUnx7rqLyn5tBavk70h7d0RqbDgfnWKicUVl09OeBx3hKaM9d93g/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_000_4206e0441a49.png)
 
 ____**★★★**______Power-3---电流的感测______**★★★**____
 
@@ -15,11 +15,11 @@ ____€1.__检流电阻方式__
 
 使用检流电阻方式如**_图3-1_**所示，控制器内置比较器具有最大检测阈值Vsense(max)，检测阈值可配置（例如当ILIM引脚接地、浮动或绑定到INTVCC时，最大阈值分别设置为50mV、75mV或100mV）。电流比较器阈值设置电感电流的峰值，产生最大平均电感电流Imax，等于峰值小于峰峰纹波电流∆IL，所以要计算检流电阻值，使用以下公式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1IL5XZRZpzfdOXrqtPQxSaW81UnRmQCLDqSzLoRcSg1qyx1xXiaFk6BBA/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_001_6fc123ccf970.png)
 
 每个通道的Imax实际值取决于所需的输出电流Iout(max)，可通过以下方法计算：（此处以双通道为例）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1It1iacNAn1Ja7icrYTiacG0qRIxNlu9PhLicxRw0BRhblWiaNwTENQs8wmRw/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_002_4b2f36e5ba4c.png)
 
 当在低Vin和极高电压输出应用中使用控制器时，由于满足增压调节器的内部补偿，最大电感器电流和相应的最大输出电流水平将降低，典型性能特性部分提供了一条曲线，以根据工作负荷系数估计峰值电感电流水平的减少，实际Rsense选型回看（传送门：[Resistor-15：检流电阻的选型和使用](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247488290&idx=1&sn=98a860e43d131ee1c8e6ac4c2b66a503&chksm=c33559bdf442d0ab3422a547079a70053c7891bed1c67470fa77096199690b394da1cffbac79&scene=21#wechat_redirect)）。
 
@@ -27,7 +27,7 @@ ______€2.__DCR方式____
 
 对于在高负载电流下需要最高效率的应用，控制器能够感应到电感器DCR上的电压降，如**_图3-1_**所示。对于大电流电感器，该电感器的DCR可小于1mΩ，在需要这种电感的大电流应用中，与DCR传感相比，通过检流电阻的传导损失可以降低几%的效率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQPEOWRgB4K2DFc25unytMXicyTlCIKK55cwQ0WzvOsU2MtYAlQOPalhAGPo5ZPLs1D1CDcR4sHEUg/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_003_98b1b47214e4.png)
 
 **_图3-1：检流电阻和DCR方式的补偿网络_**
 
@@ -35,25 +35,25 @@ ______€2.__DCR方式____
 
 使用电感值计算电感纹波电流值，目标总体感测电阻值为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1IL5XZRZpzfdOXrqtPQxSaW81UnRmQCLDqSzLoRcSg1qyx1xXiaFk6BBA/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_004_6fc123ccf970.png)
 
 为了确保应用程序将在整个工作温度范围内提供全负荷电流，请选择最大电流感应阈值（Vsense）的最小值。
 
 接下来，确定电感器的DCR值，如有，使用制造商的最大值，通常为20°C增加此值以解释电阻的温度系数，约为0.4%/°C，最高电感温度\[TL(max)\]的保守值为100°C。要将最大电感器DCR缩放到所需的感测电阻值，使用分频器比：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1Iw2WRjsDALfI700fm4RSm7FRuTssJia2Ju9g6lyu2spjkViapTaSVpsqg/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_005_225c5a8580d9.png)
 
 C1通常选择在0.1uF到0.47uF的范围内，这将使_R1|| R2_上升到2k左右，减少了可能由感应针的±1uA电流引起的误差。等效电阻_R1|| R2_被缩放为室温电感和最大DCR：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1IJJsqXInjrYAib2E4oM7NCNx9ic4V7p1WkMkbbnqfHepjcW4h1oZmqhcQ/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_006_18be16741340.png)
 
 感应电阻器的值为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1ISBxedKtX4r14qleEticy17ibnhziaom793wQEn0GG2OoceX9zgRegoDew/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_007_a77d113c8da8.png)
 
 R1中的最大功率损耗与占空比有关，并且将在Vin=1/2Vout的连续模式下发生：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1I1pDePRIYj2XG7GKCFX5ekibBe2U6lqGEQnK08HfoOuiaNd9ROibDMdALw/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_008_c3d73eca6964.png)
 
 需要确保R1的额定功率高于此值，如果在轻负载下需要实现高效率，则在决定是否使用DCR传感或感测电阻时，需要考虑这种功率损耗。由于R1产生的额外开关损耗，DCR网络的负载功率损耗可能比使用检流电阻略高，但是DCR传感消除了传感电阻，减少了传导损耗，并在重负载下提供了更高的效率，这两种方法的峰值效率大致相同。实际上，电流检测精度受到基于温度的DCR变化的影响，在一些控制器中，电流放大器可以编程以满足一般电感器的更多应用，即使其DCR不能满足上述要求。
 
@@ -61,19 +61,19 @@ ____€3.检流位置____
 
 如**_图3-2_**所示，对于采用DCR的检流方式，检测点位位于输出端：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS6lnicyiaZeN9ibwGDFxFYxibCj2DrnE5iaXVUUVYZ7qjsicrCgmg9seffNXicaRck6KxxmnkGZRsvHnibow/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_009_fcedcad63a86.png)
 
 **_图3-2：降压拓扑DCR方式_**  
 
 在早些年的时候，对于采用Rsense的方式，如**_图3-3_**所示，电流采样点有三个位置，1--->开关回路，即与高侧MOSFET串联，2--->续流回路，即与续流二极管或低侧同步MOSFET串联，3--->输出端，即与电感器串联。这里不再详细讨论三个位置的差异性，因为涉及到峰值电流模式和谷值电流模式，并且芯片技术进化到现在，Rsense方式的位置基本都在电感端，即**_图3-3_**中的3号位或者**_图3-4_**中的1号位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS6lnicyiaZeN9ibwGDFxFYxibCxoW0vAx21dCEMFcIVxITBBEygJMcn5nVbGqpb8gCpVNnGMrjuBQdDg/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_010_f1eddbdc2ef6.png)
 
 **_图3-3：降压拓扑Rsense位置_**
 
 而升压拓扑的特殊性，检流电阻的位置有1--->输入端，2--->输出端，因为控制器本身需要消耗一定的功率，所以升压拓扑的Rsense放置位置是在1号位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSbweqczic1pticzuBxBJSJ1IxFWhxOiaOKVeh4EwIAEyKhVCSy6feUoT4w635UT0NxWeoGpn7Ag10yQ/640?wx_fmt=png)
+![](Power_3_如何感测外置开关的电源控制器输出电流_images/img_011_3527403ed24f.png)
 
 **_图3-4：升压拓扑Rsense位置_**
 

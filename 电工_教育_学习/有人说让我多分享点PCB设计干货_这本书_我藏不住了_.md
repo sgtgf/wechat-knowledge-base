@@ -19,11 +19,11 @@
   
 所以今天，我要给大家推荐一本2025年4月刚出版的PCB新书**《PCB设计智造实战指南》**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9Ozkt1icyP9aiboc1t3CYF9V0XkHZntiaSoV3qZ0aYdVRSe9jINtVP7v8uHg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_002_8fdcc6c8a727.jpg)
 
 **这本书在当当网的定价60元，今天我要免费包邮赠送5本书籍给大家，送书方式见文末。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9Oz8tENia98qicOAwzMfia7xgpiagZQZn7221x7BF213aAtyg51WMXMkny5mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_003_722ad9ba149f.png)
 
   
 
@@ -39,17 +39,17 @@
 
 废话不多说，直接上图吧。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9OznWeiaW49t30SsbkDhSpWSIoCL61GibgKqOnYGrCWNFbvSMGqLzILiaZNQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_004_f8a8851853cb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9OzzDhpibyGaptvydLI2xDtZalOZibYGWLcuDXibuKiaeZtliaLicwPrP4Zl35w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_005_af57cafa18d2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9OzT8uAleLOVJoxYnek0n6O2qpNFhJQmnRO0kNzhWwwMxK8PJO5icw848w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_006_682b095d7a0e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9OzyturQJa5z0nmbibt9Gial4arhQYVAQ2wjpyDlmydiaibkpyW0cqAH0dTRQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_007_623677555962.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9OzichibYRI9Cg9mJE2v1DcBKkVJImsK4ctc2QFszDVN1viaAqJEu9QwoJVA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_008_9c0dec2c9eae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9OzFjHticYcNTJibhIWyxGyyywodqNfLbNkzUW2h9bS5OKJLAs9YkkiaHj0Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_009_49e72caa7873.jpg)
 
 从装帧来看，这本书就展现了专业品质。采用全彩印刷的工艺，图片清晰度和色彩还原度极高，完美呈现了PCB设计的各种细节。纸质手感舒适，翻阅时不会有反光问题。我们可以把它放在工作台最顺手的位置，作为日常设计工作的设计参考。
 
@@ -73,13 +73,13 @@
 
 老规矩，本次准备了一种方式抽奖，**「公众号设置星标，并且留言评论」**，点赞数量排名前5，各送一本书。感谢亲爱的读者朋友们，你们的支持也是我持续更文最大的动力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh5iaJK8zukb4aicvLbyjg9OzfiaoG5KSV8cCQs7avbR8hB0yyt916am8jAPmds1xiaibugyq27wDN7fug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_010_1ab65523454c.png)
 
 为了避免中奖后失联，提前加我微信：woniu26a ，也欢
 
 迎关注我的视频号。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_011_a85b21328497.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_012_4a2f0c78080d.jpg)
 
 **本次开奖时间为 2025.6.6 12:00（领奖截止时间：2025.6.15 20:00）**
 
@@ -93,9 +93,9 @@
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_013_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有人说让我多分享点PCB设计干货_这本书_我藏不住了__images\img_014_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

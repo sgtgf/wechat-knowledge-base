@@ -56,7 +56,7 @@ PCB是否会有变形？
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNLTBoicFqUoiaxu67bST2WicqS0kDSicqTteWoITjwH9Z38Ke0lWNDL6G1P7uWib6XA6bZezMh423yR6g/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_002_a3c3554b8b3a.jpg)
 
   
 
@@ -76,7 +76,7 @@ PCB是否会有变形？
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNLTBoicFqUoiaxu67bST2WicqzPrqglPHFlsTXicjB4aia1Ow1icXJdNzZ5GNjLPV2OwRr0ibwCyvNniaiaRA/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_003_7c2d5c8d4e51.jpg)  
 
 **5、电源线和地线**
 
@@ -84,8 +84,8 @@ PCB是否会有变形？
 
   
 
- **![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNLTBoicFqUoiaxu67bST2WicqDmaZ3RZD12o1Y129xIxHMP78c0GuCvHBkk9qTdlDE44Ioo1zv0SAJQ/640?wx_fmt=jpeg)  
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNLTBoicFqUoiaxu67bST2WicqzIWNz4W7icjBQH8kbdgEzzNTTjO2HXkicgXrbI00P2TbQicPqFtBgsTLg/640?wx_fmt=jpeg)**
+ **![](PCB设计经验之谈_images/img_004_e897fc79ae41.jpg)  
+![](PCB设计经验之谈_images/img_005_685a8c390703.jpg)**
 
 **6、数模分离**
 
@@ -93,7 +93,7 @@ PCB是否会有变形？
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHNLTBoicFqUoiaxu67bST2Wicqrj3qicLRfmkvCo1s45yTcOeHW0bHOHktF4boIZRdSXtNbJT11Tc6euw/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_006_f0aa6cd44039.jpg)
 
   
 电路板布线的基本知识既适用于模拟电路，也适用于数字电路。一个基本的经验准则是 使用不间断的地平面，这一基本准则可降低了数字电路中的 dI／dt(电流随时间的变化)效应， 因为 dI／dt 效应会造成地的电势并使噪声进入模拟电路。数字和模拟电路的布线技巧基本相同，但有一点除外。对于模拟电路，还要另外一点 需要注意，就是要将数字信号线和地平面中的回路尽量远离模拟电路。这一点 可以通过如下做法来实现：将模拟地平面单独连接到系统地连接端，或者将模拟电路放置在电路板的最 远端，也就是线路的末端。这样做是为了保持信号路径所受到 的外部干扰最小。对于数字 电路就不需要这样做，数字电路可容忍地平面上的大量噪声，而不会出现问题。
@@ -180,7 +180,7 @@ PCB是否会有变形？
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHOItSibF9SJ8QasnW1GKDgufs5UZZQDvHLe7iaPPN51QOPt7eapY6XEbEoqNibOriaENqPbyJYF6g6MqA/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_007_22a57e563c5a.jpg)  
 
   
 
@@ -193,7 +193,7 @@ PCB是否会有变形？
  （3）同层时钟及高速信号中心距需严格满足3H（H为走线层到回流平面间距）；相邻层的信号严禁重叠，建议也满足3H的原则，关于上述的串扰问题，有工具可以检查的。
 
   
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHOItSibF9SJ8QasnW1GKDgufgkFjhHnfaXplYySxAc9ZddB0ZlyOcp74WYxvUImWEAibNHnmtHibHh1A/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_008_c281c9996995.jpg)
 
   
 
@@ -203,7 +203,7 @@ PCB是否会有变形？
 
 **布线约束：层分布布线约束：层分布**
 
-RF PCB的每层都大面积辅地，没有电源平面，RF布线层的上下相邻两层都应该是地平面。即使是数模混合板，数字部分可以存在电源平面，但RF区域仍然要满足每层都大面积辅地的要求。![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafiaBUEXBmXkTnlccg3zw5BgENyflO0viatQDq5tJNE3ulCnvfiaNTjXdPGg/640?wx_fmt=jpeg)
+RF PCB的每层都大面积辅地，没有电源平面，RF布线层的上下相邻两层都应该是地平面。即使是数模混合板，数字部分可以存在电源平面，但RF区域仍然要满足每层都大面积辅地的要求。![](PCB设计经验之谈_images/img_009_1949b870f840.jpg)
 
 RF单板的层叠结构
 
@@ -213,10 +213,10 @@ RF单板的层叠结构
 
 （1）走线要求尽量最短，不走闭环，不走锐角直角，线的宽度一致，没有浮空线。  
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafiaaJAObcUcFYolKib5TDufUm7ibNib6PIAlK4ic9TKcicU2dOD7uCCb5qjwGg/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_010_4213cad0c409.jpg)  
 （2）焊盘的出线方式要合理。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafiadI5GnCRytOEhm5eyg8enb8UTGmkSiaDW2bxWJlmTribA1AzdO22OeQfQ/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_011_2d30b9db70e0.jpg)  
 布线基本要求图
 
   
@@ -273,7 +273,7 @@ RF单板的层叠结构
 
 调整各组内滤波电容方向，缩小地回路。如图15所示的三个滤波电容，接地偏向于相关的RF 器件方向，尤其是高频滤波电容。
 
- ![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafia2pHFe8d8AuVTY6EYWxmWeyZIlEpC8EtT0CJRibAdlIAcqbKibwYN4BcQ/640?wx_fmt=jpeg)电容的接地图
+ ![](PCB设计经验之谈_images/img_012_7aead04df421.jpg)电容的接地图
 
   
 
@@ -297,7 +297,7 @@ RF单板的层叠结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafiaQDL3ic5PkgQ7jD4058rogJic5NU5qicORV9Rtdmet7gia4EZtSh6I8nTTA/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_013_ab6aad46dbd6.jpg)  
 
 **布线约束：通用规则**
 
@@ -307,7 +307,7 @@ RF单板的层叠结构
 
 微带线至屏蔽壁距离应保持为3H以上。微带线不得跨第二层地平面的分割线。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafiaDWwxQYSpZOzhgxhYnBBxx375u6PMUEuEicDQ97YJOiahGLlqcItRJcdQ/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_014_99c4aa4a641c.jpg)
 
 微带线结构图
 
@@ -325,7 +325,7 @@ RF单板的层叠结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafiaEEyrhnJREFQ9uH1eQtytw0STqkiaJeHtdVS3d1XBvc35uxhlv6yVEpA/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_015_36e3b31106e2.jpg)  
   
 
 (5)除特殊用途外，禁止RF信号走线上伸出多余的线头。
@@ -344,7 +344,7 @@ RF单板的层叠结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMCDcMdNebmaKibw8GCPoafiauvsN3TLABCp3TZk64OmMg9X2MicxUzhwvJBPic3Dxkp5sZpSyPtibneHQ/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_016_fb922dc70c17.jpg)  
 电源线与射频过孔布线图
 
   
@@ -401,7 +401,7 @@ RF单板的层叠结构
 
 即相邻层的走线方向成正交结构。避免将不同的信号线在相邻层走成同一方向，以减少不必要的层间窜扰；当由于板结构限制（如某些背板）难以避免出现该情况，特别是信号速率较高时，应考虑用地平面隔离各布线层，用地信号线隔离各信号线。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDic4B6BtQSrHU6NxKjCiclm3zk5fOgBxss9evRQLicfibDochtDjibovLJOBQ/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_017_10375bbce823.jpg)
 
   
 
@@ -410,7 +410,7 @@ RF单板的层叠结构
 一般不允许出现一端浮空的布线（Dangling Line),主要是为了避免产生"天线效应"，减少不必要的干扰辐射和接受，否则可能带来不可预知的结果。
 
   
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicVzpjmQ5XNpLc7y77fRZ5jvPDabNnMicnfz6BZIFrLacJflP5FE5H4Ug/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_018_33930b711a70.jpg)
 
   
 
@@ -432,7 +432,7 @@ B. 对于点对多点（一个输出对应多个输出）连接，当网络的�
 
 星形和菊花链为两种基本的拓扑结构, 其他结构可看成基本结构的变形, 可采取一些灵活措施进行匹配。在实际操作中要兼顾成本、功耗和性能等因素，一般不追求完全匹配，只要将失配引起的反射等干扰限制在可接受的范围即可。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicFuI13oPqIRLlNtcmkekAYxE5oAqojjsqSJAybjdM1DjX1Bjh2gEmeg/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_019_1ee24d69e8c7.jpg)
 
   
 
@@ -440,7 +440,7 @@ B. 对于点对多点（一个输出对应多个输出）连接，当网络的�
 
 防止信号线在不同层间形成自环。在多层板设计中容易发生此类问题，自环将引起辐射干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicNEqf9Gktb10W99AlYuK1HU39bW3Vy980jQygQuZUJIN7hCeWkDdrMw/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_020_08715f164da0.jpg)
 
   
 
@@ -448,7 +448,7 @@ B. 对于点对多点（一个输出对应多个输出）连接，当网络的�
 
 尽量控制分枝的长度，一般的要求是 Tdelay<=Trise/20。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDiczqtAmtUianNu9RxFiapY2Wxibjs14iawpcrMI7YFEn0HPW16ScQzMdRDLQ/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_021_a112220352d8.jpg)
 
   
 
@@ -456,7 +456,7 @@ B. 对于点对多点（一个输出对应多个输出）连接，当网络的�
 
 主要针对高频信号设计而言，即布线长度不得与其波长成整数倍关系，以免产生谐振现象。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicVyfHfhMbfAibyRB69u246icnZadicQVqqIsoJsVFaKB22R5C0dWjZko9Q/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_022_3a89fd49bf99.jpg)
 
   
 
@@ -464,7 +464,7 @@ B. 对于点对多点（一个输出对应多个输出）连接，当网络的�
 
 即短线规则，在设计时应该尽量让布线长度尽量短，以减少由于走线过长带来的干扰问题，特别是一些重要信号线，如时钟线，务必将其振荡器放在离器件很近的地方。对驱动多个器件的情况，应根据具体情况决定采用何种网络拓扑结构。
 
-**![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicE227oFzKb1zBZkALF9PBoO2RWZmfmA5OLA2WAIvDUIj9suvicrIhIkw/640?wx_fmt=jpeg)**  
+**![](PCB设计经验之谈_images/img_023_1b46c3d900e9.jpg)**  
 
   
 
@@ -472,7 +472,7 @@ B. 对于点对多点（一个输出对应多个输出）连接，当网络的�
 
 PCB 设计中应避免产生锐角和直角，以免产生不必要的辐射，同时工艺性能也不好。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicuxNNLQcJPOAR3miarDTtxOgwbfYsrwcsicyia1NGSeqiaxR9rGR1ggBarA/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_024_6088322d43ca.jpg)
 
   
 
@@ -480,9 +480,9 @@ PCB 设计中应避免产生锐角和直角，以免产生不必要的辐射，�
 
 A. 在印制版上增加必要的去耦电容，滤除电源上的干扰信号，使电源信号稳定。在多层板中，对去藕电容的位置一般要求不太高，但对双层板，去耦电容的布局及电源的布线方式将直接影响到整个系统的稳定性，有时甚至关系到设计的成败。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicnzSwA7c13vUgcghQ3ekZ5RsRvkibBCia8Y907LOWfI6NHYxzRAiaFjicHQ/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_025_3353014612ad.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicdouABLfJY2ey2jW4bZqibR1mmhmHic95LZChHWlDHmfUWtsdAFHDq0FQ/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_026_a3b67c24e4be.jpg)
 
   
 
@@ -500,7 +500,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicibTia0802Q5l3BBsV1kicm4d6JXJVQGoOd8fGsGibKrDYv4yYl4UBKpnKw/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_027_74b41d150bc6.jpg)
 
   
 
@@ -510,7 +510,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicdlcicdWxl33M7AsrlfJ8LVdviaLK6sxPaDhNlwbTESTXGw6OclRWjWTw/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_028_4377795ac094.jpg)
 
   
   
@@ -519,7 +519,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicJC5EGGwogQSEX5MGAeCAICzcpMZWhhwkE224y3vUN4libLpxWhJJrSA/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_029_afd12700f6dd.jpg)
 
   
 通常是将孤立铜区接地或删除。在实际的制作中，PCB厂家将一些板的空置部分增加了一些铜箔，这主要是为了方便印制板加工，同时对防止印制板翘曲也有一定的作用。   
@@ -536,7 +536,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicibTia0802Q5l3BBsV1kicm4d6JXJVQGoOd8fGsGibKrDYv4yYl4UBKpnKw/640?wx_fmt=jpeg)
+![](PCB设计经验之谈_images/img_030_74b41d150bc6.jpg)
 
   
 
@@ -548,14 +548,14 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDicicGqc8sMITmEDdKw3ja3jfa7aZBt1ucEdGZrmVTgcKY8tTdmNBeib9vQ/640?wx_fmt=jpeg)  
+![](PCB设计经验之谈_images/img_031_86ca11416954.jpg)  
   
 
 19） 20H 规则：
 
 由于电源层与地层之间的电场是变化的，在板的边缘会向外辐射电磁干扰。称为边沿效应。 解决的办法是将电源层内缩， 使得电场只在接地层的范围内传导。以一个 H（电源和地之间的介质厚度）为单位，若内缩 20H 则可以将 70%的电场限制在接地层边沿内；内缩 100H 则可以将 98%的电场限制在内。
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHMPICJk2A0DHRgzLgaXdqDic71v1D9XFLx6xXy9ZhFwGfSVzBjD0OH0gGByYX554pXLLicrLBtNfaEA/640?wx_fmt=png)
+![](PCB设计经验之谈_images/img_032_199f184e2620.png)
 
   
 

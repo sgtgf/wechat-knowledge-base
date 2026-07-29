@@ -6,15 +6,15 @@
 
 自嘉立创铝型材公模外壳上线开始，就获得了海量客户好评。低成本、高颜值的铝合金外壳谁能不爱呢？虽然嘉立创铝型材公模外壳无论从价格，还是从品质方面拿出去都是非常“能打”的，但由于型材外壳是机加工件，对于海量DIY客户来说成本压力还是比较高，那有没有一种成本更低的方案呢？
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP29yXfw0Omib9OdM30PBBNVf6iaYjAia3JNBNOyjzxarlU9duvhutjoZWJgFa1ggYEC6DlEiaCazSD3GQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB免费打样算什么_现在连铝合金型材都能白嫖了_images\img_000_82cfb1716427.png)
 
 有！那就是“免费打样”！即日起，嘉立创FA铝合金外壳业务每周三开放领取“免费打样券”，错过只能等下周三！！连续狂欢三个月，打样铝合金外壳产品外观，包工包料只要“0元”。（文末有福利）
 
 **领免费打样券**  
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP29yXfw0Omib9OdM30PBBNVfRt6Viasj5sqibeGoGwtA8FOOPtviboBPIcn4ALzmgU30tiaR7tiakibiaTpwA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB免费打样算什么_现在连铝合金型材都能白嫖了_images\img_001_2284e08443f4.png)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP29yXfw0Omib9OdM30PBBNVfUBRAmAGBG3EJKtgZBcEcAf4lCIjGqmY4IxXK2iaoLqTdMNngH78vVnQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB免费打样算什么_现在连铝合金型材都能白嫖了_images\img_002_71e232f5c902.png)
 
 **领券活动时间**  
 
@@ -58,7 +58,7 @@ https://ke.jlcfa.com/housing/05
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP29yXfw0Omib9OdM30PBBNVfdtmlbP22IibzrsrPPIHmoiaiciar3RyQCnPjpMO3ib78IicXpzialZAmSiak0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB免费打样算什么_现在连铝合金型材都能白嫖了_images\img_003_d262333424da.png)
 
 **升级免费+包邮券方式**
 
@@ -70,7 +70,7 @@ step3：好友通过该邀请链接登录即可（被邀请客户不分新老客
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP29yXfw0Omib9OdM30PBBNVfdK0raXUdlFaasQWe9UbLDe51GxdBaoibJkjUI9qpd3Q9IfA7ZTV1sYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB免费打样算什么_现在连铝合金型材都能白嫖了_images\img_004_25e9658227f2.png)
 
 **不会结构设计怎么整？**
 
@@ -84,7 +84,7 @@ step3：好友通过该邀请链接登录即可（被邀请客户不分新老客
 
 如果您还有其他设计问题或者工艺相关的疑问也可以加入嘉立创FA铝合金外壳官方的设计交流群，与海量工程师一起交流铝合金外壳设计。  
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/xiaAvb1LvMP29yXfw0Omib9OdM30PBBNVfhQGibcd0T2G5OjoglXCcKUKmWSw66ERKmHYRm6tiaUlH4kJlh2HgdSjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PCB免费打样算什么_现在连铝合金型材都能白嫖了_images\img_005_99d76c9f9007.png)
 
 **关注我们**
 

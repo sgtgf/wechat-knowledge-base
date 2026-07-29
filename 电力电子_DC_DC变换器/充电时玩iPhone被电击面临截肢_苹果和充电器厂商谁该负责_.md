@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHSx4tCjqaeO0Wx2JQzo0TnAAzWxSAph0yuw093JNKdOUYGPWc3aFPRJlJzEsmFDsZqibDV3rS5Y1kA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](充电时玩iPhone被电击面临截肢_苹果和充电器厂商谁该负责__images/img_002_a2b839cf9761.jpg)
 
 (图自：大海热线视频截图)
 
@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHSx4tCjqaeO0Wx2JQzo0TnAnXbINqdntyLDxNHGu4ibfYkRbaOObicN8F0g989Ymiaqx7IBpH2FFYD2w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](充电时玩iPhone被电击面临截肢_苹果和充电器厂商谁该负责__images/img_003_9e182e6784ac.jpg)
 
 (图自：大海热线视频截图)
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHSx4tCjqaeO0Wx2JQzo0TnAcpjib65ZE0O5riaL1ia3ohdWbmonl98a9UtFdBicZmS37VcibdyybIhlocw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](充电时玩iPhone被电击面临截肢_苹果和充电器厂商谁该负责__images/img_004_97b598fd542c.jpg)
 
 (图自：大海热线视频截图)
 
@@ -50,7 +50,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHSx4tCjqaeO0Wx2JQzo0TnAqALFVHWpKYLuYoR85aRvWRNIA8rvamyCibztefibj8wLcnZoclibwDGVg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](充电时玩iPhone被电击面临截肢_苹果和充电器厂商谁该负责__images/img_005_e96ef014794a.jpg)
 
 (图自：苹果官网)
 
@@ -94,7 +94,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GFk2abHRMHSx4tCjqaeO0Wx2JQzo0TnACfUDNV6u2We5TkCaQ82eW9Xsib5JibxYoMJbtj1Rxze98rNdU2pgT9fw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](充电时玩iPhone被电击面临截肢_苹果和充电器厂商谁该负责__images/img_006_ea208835d6af.jpg)
 
 图：芯片之家拆解正品和山寨MacBook充电器发现，山寨产品不但保护器件几乎没有，还存在大量安全设计隐患
 

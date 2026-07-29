@@ -19,23 +19,23 @@
 
 碳化硅材料作为第3代半导体材料，是目前应用于大功率、高温、高压功率器件的商品化最好的材料。相比传统硅IGBT,碳化硅MOEFET电子迁移率更高、击穿场强且属于单极型器件，开关损耗和导通损耗极低。目前空调压缩机控制器主要使用的功率器件是硅IGBT，但硅IGBT在高压情况下的损耗远大于碳化硅MOSFET，尤其是压缩机工作在轻载工况下，控制器碳化硅MOSFET方案的损耗可降低至硅IGBT方案的一半以下。而车用空调压缩机通常工作在轻载工况下，可以极大发挥碳化硅MOSFET的优势，从而减少空调热泵系统的损耗，有利于电动汽车的热管理，降低整车电能的消耗，提高新能源汽车的续航能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzF4QqXAxO1HB4hDu8zxibewyz4pxIcHLa6vaxNdnFUdtUPdZVic6bYYfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_000_29bdc199fdb2.png)
 
 **2 器件损耗对比**
 
 汽车企业为实现电动汽车的超级快充，需提高电动汽车的充电功率。提高充电功率就是提高充电电流和电压，大电流充电存在缆线粗细、电阻散热和成本等问题，所以很多企业开始采用800V高压快速充电。若使用DC/DC模块降压后给空调压缩机控制器供电的架构，能量损失较大。故汽车企业开始使用与充电电压相匹配的800V高压平台，即乘客无法直接接触到的设备输入端都使用800V输入。故此处碳化硅MOSFET选择C3M0075120J，IGBT使用IXGA20N120B3。两者都是TO-263封装，额定电压均达到1200V，满足800V高压平台使用要求。器件基本参数如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzlhPgYYd9d1ibxV1IsUuibHlVg0Rd7mY6wqibHvuARVLE6W4U4we44S8dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_001_662f7544e11e.png)
 
 由于功率器件的工作特性和外部电路是强相关的，所以在使用器件时器件手册只具备参考价值，需要进行双脉冲测试获得器件准确的开关特性。双脉冲测试电路原理图如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzSqatDT00JbTw5VeuH7HsC25E5LxuCia8tmvN4cUP13JVJEbFJQu9hHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_002_5925a7fb2ae4.png)
 
 双脉冲测试是一种基于半桥电路形成的功率器件测试方法，而压缩机控制器是一个三相逆变器，所以此次测试选取控制器电路三相桥中的W相作为测试桥臂，构成双脉冲测试电路。上管外接空心电感作为感性负载。上管给关断电压，使用其体二极管，可以测得器件体二极管特性；下管给两个连续脉冲，第1个宽脉冲测试器件的关断特性，第2个窄脉冲测试器件的开通特性。因为第1个脉冲结束时电感电流通过上管的体二极管续流，所以第2个脉冲开始时会发生体二极管反向恢复现象，因此双脉冲测试能真实地反映出器件在三相桥电路中的工作特性。
 
 设置测试母线电压为800V，加热台温度设置为25℃，保证结温处于设定值，驱动电压为15V，门极电阻为10Q。通过Matlab对双脉冲测试测得的数据进行处理，得到碳化硅MOSFET不同通态电流下的开关损耗数据，将其与硅IGBT数据手册上的数据一起处理后得到两者间的开关损耗对比图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzK2o46sQ89pPAYqJkzVbuJMkhveEqrFV32s0NWggRSpYXAghSmEYgtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_003_e23e38addfe0.png)
 
 碳化硅MOSFET和硅ICBT的关断和开通损耗如图2所示，Ion为通态电流。可见，在800V电压下，碳化硅MOSFET与硅IGBT相比，不管是关断损耗还是开通损耗都是碳化硅MOSFET的损耗小。随着通态电流的增大，硅IGBT的开关损耗急剧增大，而与之相对的是碳化硅MOSFET的开关损耗增长幅度较小。硅IGBT的关断损耗远高于碳化硅MOSFET是由于其存在拖尾电流；开通损耗高可能由体二极管的恢复电流带来。测试结果显示碳化硅MOSFET在开关损耗上的性能优于硅IGBT的性能。
 
@@ -47,26 +47,26 @@ PLECS仿真软件具有热建模功能，可以使用双脉冲测试测量得到
 
 使用PLECS仿真软件建立系统电路图。因为器件是用在空调压缩机控制器上，故可建立三相逆变器模型，负载选择阻感负载。三相桥使用三相全桥模块。使用PLECS模块库中的散热板、热阻、连续热源构造系统热环境。对双脉冲测试获得的器件参数结合各自数据手册上的信息进行器件热建模后，将C3M0075120J和IXGA20N120B3的PLECS热模型分别导入到碳化硅MOSFET三相模块和硅IGBT三相模块中。图3为器件热模型。散热板模拟的是控制器的水冷散热器，热容设置为200J/K。连续热源模拟的是水冷液的温度，设置为35℃。母线电压使用800V，模拟电动汽车的800V高压平台。根据压缩机的工作需求，输出电压设置为450V，电流范围选择2~20A。根据压缩机9000r·min\-l的转速要求设置逆变器基波频率为600Hz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzrDUZnZ0noMLdNkiaaq5pHQrDCzp5h7ersfXqnvvznib70N6ayaKTdQJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_004_e3a9dfc10609.png)
 
 图4为仿真对比结果。可以看出，应用碳化硅MOSFET的控制器输出电压稳定，在不同的输出电流时，器件仿真结温低于硅IGBT的仿真结温，并且随着电流的增大，两者间的差距逐渐变大。更低的温升意味着控制器有更低的损耗且能够工作在更高的环境温度下。碳化硅MOSFET在仿真效率上一直高于硅IGBT的仿真效率，保持在99%以上，符合双脉冲测试得到的开关损耗较小的测试结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzJjGI07CFibBXQYibKG1Ta4sFmpnJnGPkduGSwpJicYEK9G6TXcFicnOVUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_005_d5073aa16f3e.png)
 
 **4 实验**
 
 为了验证在实际应用中使用碳化硅MOSFET的压缩机控制器具有较低的损耗，也就是控制器拥有高效率，这里搭建了电机对拖平台。电机对拖实验能够模拟电机带负载的工况。分别控制两台电机扭矩和转速，可以测得不同转速和扭矩下的控制器效率。电机对拖实验控制电机转速为9000r·min1，输出扭矩范围在1~7N，以对应压缩机工况。通过上位机读取控制器在不同电流下的对拖效率，控制器效率如图5所示。可以看出，压缩机控制器对拖效率都在99%以上，有着和仿真相似的极高的效率，稍低于仿真效率的原因可能是实际电路的驱动回路中存在一些杂散参数。但上述对拖效率结果已经能验证出碳化硅MOSFET控制器在实际应用中确实有极高的效率，有利于电动汽车的热管理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRz7tiaYbPCiaQ1iaqNfweGkHsJWgRxWw0YONhedClKOPW6U1SxxyRhP6lug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_006_2ef64622c43e.png)
 
 **5 结论**
 
 针对电动汽车热管理的问题，通过选取适用于800V高压充电平台的碳化硅MOSFET和硅IGBT，对比两者间的器件开关损耗。通过PLECS系统性仿真和电机对拖实验得到控制器效率对比分析，最终验证了碳化硅MOSFET使用在压缩机控制器上提高了压缩机的效率，有利于电动汽车的热管理。不仅如此，传统的1200V硅IGBT方案由于开关损耗较大，散热问题严重，因此一般限制在15kHz以内。采用碳化硅MOSFET方案后，可以通过提升逆变器开关频率，以减小输出电流的总谐波畸变率，从而减小压缩机的谐波损耗，提升压缩机的效率，进一步提高空调热泵系统的效率，更有利于电动汽车空调热管理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_007_ea8f01f5441e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_008_0c8706e5b149.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅MOSFET在电动汽车热管理系统中的研究_images\img_009_1241954b1b67.png)

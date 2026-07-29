@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Rm-3Hfg9he5z9VX1SPybcQ](https://mp.weixin.qq.com/s/Rm-3Hfg9he5z9VX1SPybcQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWdXicccRyoA0ae8L5UwUgMQfwuQpwQnLibibm5NqjxVbzgR54swxcLvzyRtWfBzZE6oVG4aSYPPsMiag/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662961&idx=1&sn=ec7fd93b567b7b0909f0b60e7defb3cf&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_001_8e56e577436a.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662961&idx=1&sn=ec7fd93b567b7b0909f0b60e7defb3cf&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_002_e532dba355d8.gif)
 
   
 
@@ -17,19 +17,19 @@
 
 作为之前“电机原理及设计通解”研修班电机仿真篇的进阶培训，本课程涵盖了最近关注度非常高的Ansys Motor-CAD、Ansys OptiSlang以及Ansys Maxwell三大热门仿真软件，分两天全面介绍它们在电机设计和优化分析中的使用方法和高级应用技术，并结合多个实例深度讲解，使学员能够快速掌握软件操作技巧和方法。本次培训我们全新打造了第四版教材，主要增加了多物理域轴向磁通电机快速设计案例介绍，和结合扁线油冷电机涵盖改善电机NVH的多目标优化设计案例，以Motor-CAD软件为核心应用工具结合OptiSlang及Maxwell软件进行全方位的详细讲解，相信会成为学员学习的一个重要的补充和有力的保障。第四版教材的设计效果图来啦：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NViavHRy24TCtofYiciaFHOuLaSdMlibpoHxbE6tdUmnlvgBl9iapD0ibp8BQFcA9N38F2nLLDFUJficeSnwCvMJ8X3ibQes9bbXTNAvDUuMhOArd14/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_003_974111b4a1ea.png)
 
 这本课程学习配套使用的专业辅导教材将在本周末送到各位参加培训学员的手中，相信由几位业内专家共同精心编著的全彩印刷的教材将对大家课后巩固学习起到非常大的帮助作用：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TBDVic4C7Df4icbYTicTOibabDL6eZhaq8bS8OAns76NwdP2XStyMykkwju64hwBPPKAZxxCl83L0ULN5BRdzVuLRfag1uVBrz7Ribs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_004_57ceeb05412b.png)
 
 这本干货满满的教材，将伴随着您参加的两天培训的课程，记录更多宝贵的经验和收获，相信这又将是一次让大家满载而归的学习之旅！说了半天，大家不要忘了参加培训报名的快速通道就在下方海报中的二维码哦！扫码报名提交联系，锁定参训名额：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TBtWm87FiarnEeQqkyA5HicDy0CCGgjAkj09WtE1ibOneqicBFjGD43qKlN62EiceRw7qiaNPsyiaiaC5TZibwYeTOYGGR7vu8P63xu8oicA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_005_615a8c83d9b2.jpg)
 
 如何使用Ansys Motor-CAD全面评估电机电磁、热、力学以及NVH性能从而高效完成电机方案设计的全过程？如何运用Ansys Optislang进行电机方案设计的优化分析与改进？如何应用Ansys Maxwell的仿真建模及系统分析功能开展电机性能计算？扫码报名参加本次培训，您将在以上三个方面的学习中得到快速提高：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TD2PlAXMnt7WrwceSKgNkiaDuqiaRzL3G70MWuf13EWOXEu4kKRW7AQy5Cibroogpdd2MDZrdicFDpkjH6d4DiajzetoOnm4842lK8U/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_006_004ae228ded2.jpg)
 
 请已经报名和即将报名的学员注意知晓下面关于本次培训的最新通知，已经确认参加的学员，我们给您的报名回执填写的邮箱发送了正式的确认函，请大家注意查收。本次培训的报到事宜小编这里给大家一些温馨提示，希望各位学员能在杭州培训期间，学有所成，收获多多！
 
@@ -65,7 +65,7 @@
 
 2、培训会务处根据您的报名回执，预订了研修班席位、培训资料、住宿房间(如您之前选择由我们帮忙预订），敬请您提前订好机（车）票，按时报到参加。请您在指定报到时间现场通过**姓名、学号（请于报名回执填写的邮箱中确认函邮件中查找）**快速登记签到，领取培训相关资料和学员证：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NViavHRy24TBGnn5DbHeS7f4zzdhBmGlcIcUYDDmM5uUxuAxsutVEhiaaQR3CcvtBLQuIFzztUwh7sxNxEHDabkd2VRLS2Y1Lwa8B5ltguN7w/640?wx_fmt=png&from=appmsg)学员证是培训入场的唯一凭证，请妥善保管
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_007_a66144a9932f.png)学员证是培训入场的唯一凭证，请妥善保管
 
 3、咨询电话：18516258619
 
@@ -93,7 +93,7 @@
 
 本课程培训一年仅有一次，有提升电机仿真能力需求的朋友请抓紧时间扫码报名联系确认：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NViavHRy24TASibNN9T5ykyjz3jlTjKv1USReGdFRzJaA1dYCOCc98E1urOXqPO974C9NGtF4JKy4jNBhrqxxvPcnmeGD8HKHxicSx6bKribVKw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_008_6e36b3d95c60.jpg)
 
 关于本次培训的详细介绍以及最新培训大纲的更新内容如下：
 
@@ -173,7 +173,7 @@
 
 电机多物理域设计与优化分析培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TALS2icgM6EL4cVJydEoc9mdJxk1SnTW9d8LtHy1TVy3KQ5xNxibuoTeEYhQlrqwSSlIXYjYoJmjUxysYJzZodWmyYicKTTnf8Ht8/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_009_47daa652c5fa.jpg)
 
   
 
@@ -212,21 +212,21 @@
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWdXicccRyoA0ae8L5UwUgMQvjeG8c6iaPO9JMD4QgickTwx1wIuZPibf0go6T54r18ZqONk3oxUBvK1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_010_52bd8a908606.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_** 欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_011_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/NViavHRy24TDZVuHNRibG2BVMPZfEW353fqFDewg7Vibic7mlUiabXMOWShiaj0zeCUlOOlCxbxDe3NGoVVIt3RVCISiaWBHE9u6icpNpWglnCwMhfM/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662937&idx=1&sn=6fea92103cd5f1816be449157547f37e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_012_7b6a733a79eb.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650662937&idx=1&sn=6fea92103cd5f1816be449157547f37e&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUyV1lJmiaWbMbwdNXw5cYhFrNnm9SpvGj5dNvyQDHwfovw0ohmxdFMpP6pjib6dQDHJxqKZQeibYGNw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663057&idx=1&sn=7fcc1cab7ee3e69f647e17ab41c3be4a&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_013_95de1aeb3c9f.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663057&idx=1&sn=7fcc1cab7ee3e69f647e17ab41c3be4a&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVHpuIlP1V0YxafMPVegZyoMVlYicMsJHiawaq6ZBOiaicbSTXHkN9al4lLl0ibfPS8ubZmZCAwdSoyOVA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663101&idx=3&sn=d7c5273145ee0c23cc83dd89f798891c&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_014_f50ea9ed665f.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663101&idx=3&sn=d7c5273145ee0c23cc83dd89f798891c&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_015_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663101&idx=4&sn=fdf2d7ff793bfcaf89db9695453c9a69&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVskrXjialSZ9qgaLGeJSfv5DS2mA0kLD49u2TxFXibKibuzMd8yHYia4cdq2oBn9x5v3G2MkvEYtPdmQ/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663101&idx=5&sn=2f72332834c6d4caecb65f53a4c757b0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_016_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663101&idx=4&sn=fdf2d7ff793bfcaf89db9695453c9a69&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_017_3cb2f23b4a53.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650663101&idx=5&sn=2f72332834c6d4caecb65f53a4c757b0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\轴向磁通电机多物理域设计_扁线油冷电机NVH优化分析____你关心的内容都在这里_images\img_018_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qB29wVwahM5-pA5WDZCi5A](https://mp.weixin.qq.com/s/qB29wVwahM5-pA5WDZCi5A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFdbm8hugc33PEJw3opiaajiaBPbYVrqmFpuUTYYdibtInmp5SwNDfNffvQ/640?wx_fmt=png)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_000_088b22dd6e73.png)
 
 点击上方**蓝字**关注我们
 
@@ -36,7 +36,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c170534_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFQn6YnoonGa32IzZ2VVklRrH7Tib3rWdWnCNV2ickuVwLLZnbMw2MUwMQ/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_001_a0e20c32e32a.jpg)
 
   
 
@@ -44,7 +44,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c170534_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFicEhXjk43FMcpIdWkzhMRCbclqCd1l9vfK4UBcUjfIDIa6mnsvt10Zw/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_002_f2f62ba1b7cf.jpg)
 
 _图4 真实轨迹和WMF-UKF、8-CMF-UKF、5-CMF-UKF的估计曲线_
 
@@ -52,7 +52,7 @@ _Fig. 4 True and estimated tracks using WMF-UKF, 8-CMF-UKF and 5-CMF-UKF_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFe6kgHN5iajuGNg47QXASe1rae3wqGIY7DrzDvJMCfpngebrSpxEm3FQ/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_003_fe196713946e.jpg)
 
 _图5 位置融合估计的AMSE曲线_
 
@@ -60,7 +60,7 @@ _Fig. 5 AMSE curves of position fusion estimates_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFicMibMvBu4pqVOz4icUySLEjbZgeOTqJnrfsWibPqicN15GicZ7QyTib6QibBw/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_004_b53395e32892.jpg)
 
 _图6 带不同Hermite多项式的WMF-UKF位置AMSE曲线_
 
@@ -72,9 +72,9 @@ _Fig. 6 AMSE curves of WMF-UKFs with different Hermite polynomials for position_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeAC3fd5a4iaqBHOd9TkiciagS1Ikrcvw9EkqvpbDeiaHyEoOxWf5XEMFXialcokEtSvSwc0kk5I17QsXK/640?wx_fmt=svg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_005_b98c84f946b2.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFALRZ41O16Ar6ICymgW1y3OQCFBhB1dkwAJ5EP3FUPh0oxDP35P0exA/640?wx_fmt=png)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_006_e33d0295d8a8.png)
 
 **李 云**
 
@@ -84,11 +84,11 @@ _Fig. 6 AMSE curves of WMF-UKFs with different Hermite polynomials for position_
 
 **liyunhd@sina.com**
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeAC3fd5a4iaqBajPibFibNaXYSrTcApnKHyxnK0NoRxuSRqzRfmEARjrw01uiaeJ0XgTI0UgAeZnTBEF/640?wx_fmt=svg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_007_dbb53b5857e3.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeAC3fd5a4iaqBHOd9TkiciagS1Ikrcvw9EkqvpbDeiaHyEoOxWf5XEMFXialcokEtSvSwc0kk5I17QsXK/640?wx_fmt=svg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_008_b98c84f946b2.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFNntEd3KiaUDDiaoUmu8qFibCHwtmOJOlR0ic8MnM4qPO16qQeSjx2g36wA/640?wx_fmt=png)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_009_1965aa08bfae.png)
 
 **孙书利**
 
@@ -98,11 +98,11 @@ _Fig. 6 AMSE curves of WMF-UKFs with different Hermite polynomials for position_
 
 **sunsl@hlju.edu.cn**
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeAC3fd5a4iaqBajPibFibNaXYSrTcApnKHyxnK0NoRxuSRqzRfmEARjrw01uiaeJ0XgTI0UgAeZnTBEF/640?wx_fmt=svg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_010_dbb53b5857e3.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeAC3fd5a4iaqBHOd9TkiciagS1Ikrcvw9EkqvpbDeiaHyEoOxWf5XEMFXialcokEtSvSwc0kk5I17QsXK/640?wx_fmt=svg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_011_b98c84f946b2.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFa1cibKpQoALmg84hdrpRIMPxRUAY2CGYibIASapKj6zPg19sNUcvxPjg/640?wx_fmt=png)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_012_a44b88d18a1d.png)
 
 **郝 钢**
 
@@ -112,7 +112,7 @@ _Fig. 6 AMSE curves of WMF-UKFs with different Hermite polynomials for position_
 
 **haogang@hlju.edu.cn**
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YxIQukGy92EeAC3fd5a4iaqBajPibFibNaXYSrTcApnKHyxnK0NoRxuSRqzRfmEARjrw01uiaeJ0XgTI0UgAeZnTBEF/640?wx_fmt=svg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_013_dbb53b5857e3.svg)
 
   
 
@@ -198,49 +198,49 @@ _Fig. 6 AMSE curves of WMF-UKFs with different Hermite polynomials for position_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFp9Dqopwxrhgcq7lRQ12C4icMAEibbElpebQJia4OSic3uvRLrRWI3Qfx2Q/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_014_3a56b3dd0bb8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFq9fC97ewG0M4HojRfHicwViaMQpo8SOJ9Kqp48sFEHgmsyw8JKWU5ePw/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_015_e671e187e7e0.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_016_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_017_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFbH3C56vpJGWE56cZWQDjdJUlVSEIMF2P32GKem8VTiayDkppyfMD7WQ/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_018_10af9734de12.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_019_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_020_e1b223dbf2a5.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_021_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_022_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFdzfr7cNMurTrpse9uloPTRBrv4VICia2DCSyEuojH7La2wriaaibRRedQ/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_023_03b9b55629d2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_024_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_025_e1b223dbf2a5.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_026_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_027_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFiboYJB87on3bWVddFUKZ63ejIOiamibjhnUs5uRMtCicibB1fhQtsgyDk5Q/640?wx_fmt=jpeg)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_028_0a2942ad4e13.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_029_e1b223dbf2a5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45A3hFqfH8l0gnHAYuQCGhFn94BDicfzBicrIbQ5YGJ0CIxT6mqwjSRJgiakyRuVwZ7sVQITHPlHOzng/640?wx_fmt=gif)
+![](基于Gauss_Hermite逼近的非线性加权观测融合无迹Kalman滤波器_images/img_030_e1b223dbf2a5.gif)
 
 **长按二维码｜关注我们**
 

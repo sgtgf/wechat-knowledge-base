@@ -42,7 +42,7 @@
 > 3.  在代码段中定位到入口函数的地址，让CPU从这个地址开始执行。
 >     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5osN88lByDeWWtdbHGiafTFZOxL59CE6OBnWvTmbJTzdQpibGuiatdGcuZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_000_057df388b787.png)
 
 当程序开始被执行时，就变成一个动态的状态，一般称之为进程。
 
@@ -53,11 +53,11 @@
 
 那么，我们定义一个变量之后，这个变量放在哪里呢？那就是内存的数据区。内存是一个很大的存储区域，被操作系统划分为一个一个的小空间，操作系统通过地址来管理内存。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5opqxjG0ubcasfGa29ZXY7bccLYurFuxibMoNGibKDhDzM6SYPuoj1HWgw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_001_f30667476346.png)
 
 内存中的最小存储单位是字节(8个bit)，一个内存的完整空间就是由这一个一个的字节连续组成的。在上图中，每一个小格子代表一个字节，但是好像大家在书籍中没有这么来画内存模型的，更常见的是下面这样的画法：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oshXkfq8zXIicQIEdyNs6b5iaHeb3GefHGnSOo9mb80LKWsbdhuq5Vf7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_002_8301c786e5c1.png)
 
 也就是把连续的4个字节的空间画在一起，这样就便于表述和理解，特别是深入到代码对齐相关知识时更容易理解。(我认为根本原因应该是：大家都这么画，已经看顺眼了~~)
 
@@ -67,7 +67,7 @@
 
 在计算机中，数据一般都是在硬盘、内存和寄存器之间进行来回存取。CPU通过3种总线把各组成部分联系在一起：地址总线、数据总线和控制总线。地址总线的宽度决定了CPU的寻址能力，也就是CPU能达到的最大地址范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5ok8DpPEZRQ3RQMTvR14ddhmmxWVLKeex89ug33eKPfbcBp6WHJyQNnA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_003_d175c4bd1a79.png)
 
 刚才说了，内存是通过地址来管理的，那么CPU想从内存中的某个地址空间上存取一个数据，那么CPU就需要在地址总线上输出这个存储单元的地址。假如地址总线的宽度是8位，能表示的最大地址空间就是256个字节，能找到内存中最大的存储单元是255这个格子(从0开始)。即使内存条的实际空间是2G字节，CPU也没法使用后面的内存地址空间。如果地址总线的宽度是32位，那么能表示的最大地址就是2的32次方，也就是4G字节的空间。
 
@@ -91,7 +91,7 @@ int a = 20;
 
 类型是int型，值是20。这个变量在内存中的存储模型为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oWslNoonbH3eUXURd5PWxtDibwHPtJJFr7z3AXlQ8JMicw1qiaRxjMK6XA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_004_f8281ab675bb.png)
 
 我们在代码中使用变量名a，在程序执行的时候就表示使用0x11223344地址所对应的那个存储单元中的数据。因此，可以理解为变量名a就等价于这个地址0x11223344。换句话说，如果我们可以提前知道编译器把变量a安排在地址0x11223344这个单元格中，我们就可以在程序中直接用这个地址值来操作这个变量。
 
@@ -144,7 +144,7 @@ int a = 20;int *pa;pa = &a;printf("value = %d \n", *pa);
 
 在内存中的存储模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5of9yCicBycENSdkKUMzpyE4XR1KXu5y9kAq9icFHsj5rW2ysQUPkiaWuiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_005_4c2816b66cae.png)
 
 对于指针变量pa来说，首先它是一个变量，因此在内存中需要有一个空间来存储这个变量，这个空间的地址就是0x11223348；
 
@@ -202,7 +202,7 @@ int a = 30000;int *pa = &a;printf("value = %d \n", *pa);
 
 根据以上的描述，我们知道printf的打印结果会是`value = 30000`，十进制的30000转成十六进制是0x00007530，内存模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oibhbj7h8JmIYiaiazjUibQwMhVzFlNcEMPXCzyf0fmmdaCc1W2LgqBXG0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_006_aca50bf262b4.png)
 
 现在我们做这样一个测试：
 
@@ -234,7 +234,7 @@ int a = 20;int b = 20;int * const p = &a;
 
 内存模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5o2JibfST9ZIhKBOj0vqEr8IePicK2Bpwicwp1Ir80VejPWhqaR6oXicgqeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_007_3de1bed01da0.png)
 
 这里的const用来修饰指针变量p，根据const的性质可以得出结论：p在定义为变量a的地址之后，就固定了，不能再被改变了，也就是说指针变量pa中就只能存储变量a的地址0x11223344。如果在后面的代码中写`p = &b;`，编译时就会报错，因为p是不可改变的，不能再被设置为变量b的地址。
 
@@ -277,7 +277,7 @@ int a = 20;int *p1 = &a;char *p2 = (char *)p1;
 
 内存模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5o9BibyfJmUEXJeGmoj1ibbh6oFUBBbBic9zqMicRNH2RWM8EAWwrVZ0A57Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_008_b5f298328c34.png)
 
 p1指针指向的是int型数据，现在想把它的值(0x11223344)赋值给p2，但是由于在定义p2指针时规定它指向的数据类型是char型，因此需要把指针p1进行强制类型转换，也就是把地址0x11223344处的数据按照char型数据来看待，然后才可以赋值给p2指针。
 
@@ -327,7 +327,7 @@ int *p = (int *)malloc(4);*p = 20;
 
 内存模型为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5om6BPmn4V4teedD89ufLvP9he344rE9A54GxYEHge534v3H5ocwdokQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_009_14f70300eb88.png)
 
 在堆区申请了4个字节的空间，然后强制类型转换为int\*型之后，赋值给指针变量p，然后通过\*p设置这个地址中的值为14，这是合法的。如果在释放了p指针指向的空间之后，再使用\*p来操作这段地址，那就是非常危险了，因为这个地址空间可能已经被操作系统分配给其他代码使用，如果对这个地址里的数据强行操作，程序立刻崩溃的话，将会是我们最大的幸运！
 
@@ -360,7 +360,7 @@ char *name2 = "zhangsan";char *p = name2;while (*p != '\0'){    printf("%c ", *p
 
 在while的判断条件中，检查p指针指向的字符是否为结束符'\\0'。在循环体重，打印出当前指向的字符之后，对指针比那里进行自增操作，因为指针p所指向的数据类型是char，每个char在内存中占据一个字节，因此指针p在自增1之后，就指向下一个存储空间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oUOicK7c2YcDkQkqDLicCk5nYz1WaCBZj3uK8wFX8nkViaufRLKXria9aDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_010_f0816402c983.png)
 
 也可以把循环体中的2条语句写成1条语句：
 
@@ -370,7 +370,7 @@ printf("%c ", *p++);
 
 假如一个指针指向的数据类型为int型，那么执行`p = p + 1;`之后，指针p中存储的地址值将会增加4，因为一个int型数据在内存中占据4个字节的空间，如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oejIaMRic2qr9ZO5UHWPH5H3r7ClS9ib7U4QmHOUNaoTpicKvK9mN7gndQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_011_122e8856e5c4.png)
 
 思考一个问题：void\*型指针能够递增吗？如下测试代码：
 
@@ -398,7 +398,7 @@ int *p1[3];   // 指针数组int (*p2)[3]; // 数组指针
 
 第1条语句中：中括号\[\]的优先级高，因此与p1先结合，表示一个数组，这个数组中有3个元素，这3个元素都是指针，它们指向的是int型数据。可以这样来理解：如果有这个定义`char p[3]`，很容易理解这是一个有3个char型元素的数组，那么把char换成int\*，意味着数组里的元素类型是int\*型(指向int型数据的指针)。内存模型如下(注意：三个指针指向的地址并不一定是连续的)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5omnyBnn9sdwAuPFRZDUUcgibCavwg5UsTreDRhnNic7y1oGVNHeXU9Uiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_012_9084c5bab707.png)
 
 如果向指针数组中的元素赋值，需要逐个把变量的地址赋值给指针元素：
 
@@ -410,7 +410,7 @@ int a = 1, b = 2, c = 3;char *p1[3];p1[0] = &a;p1[1] = &b;p1[2] = &c;
 
 第2条语句中：小括号让p2与\*结合，表示p2是一个指针，这个指针指向了一个数组，数组中有3个元素，每一个元素的类型是int型。可以这样来理解：如果有这个定义`int p[3]`，很容易理解这是一个有3个char型元素的数组，那么把数组名p换成是\*p2，也就是p2是一个指针，指向了这个数组。内存模型如下(注意：指针指向的地址是一个数组，其中的3个元素是连续放在内存中的)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oPEJOLicTRKWQltWELvHXa3yGF11wwHNic6D7Flv5CSJibUSxl4KNZy7Xw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_013_386dcc6f51d9.png)
 
 在前面我们说到取地址操作符&，用来获得一个变量的地址。凡事都有特殊情况，对于获取地址来说，下面几种情况不需要使用&操作符：
 
@@ -431,7 +431,7 @@ int a[3] = {1, 2, 3};int (*p2)[3] = a;printf("0x%x \n", a);printf("0x%x \n", &a)
 
 答案是12个字节。因为p2指向的是一个数组，这个数组中包含3个元素，每个元素占据4个字节，那么这个数组在内存中一共占据12个字节，因此p2在加1之后，就跳过12个字节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5o6szATiblmgqyIRbBJHCyia7D6DNSkDfRfwy9bFxrb7jibz4d0ZAKbx5vw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_014_a66feb0d9fc9.png)
 
 #### 4\. 二维数组和指针
 
@@ -473,13 +473,13 @@ size of Student = 12 1: 0x4c02ac00, 0x4c02ac00 2: 0x4c02ac0c
 
 在执行`p++`操作后，p需要跨过的空间是一个结构体变量在内存中占据的大小(12个字节)，所以此时p就指向了数组中第2个元素的首地址，内存模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oIUrWVMylNkAicCCp5DNjIqNDnicscmBXcOjqGia6jTvIcKszic3dryiadgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_015_74bf9ffb03e7.png)
 
 #### 6\. 函数指针
 
 每一个函数在经过编译之后，都变成一个包含多条指令的集合，在程序被加载到内存之后，这个指令集合被放在代码区，我们在程序中使用函数名就代表了这个指令集合的开始地址。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oZVqkqUzdjYgByD7Gd0LRZIw4zaCBnHK2jHTic1PbV1ia1zJdP8uEJq6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_016_6f30034bf9c4.png)
 
 函数指针，本质上仍然是一个指针，只不过这个指针变量中存储的是一个函数的地址。函数最重要特性是什么？可以被调用！因此，当定义了一个函数指针并把一个函数地址赋值给这个指针时，就可以通过这个函数指针来调用函数。
 
@@ -529,7 +529,7 @@ int add(int a, int b) { return a + b; }int sub(int a, int b) { return a - b; }in
 
 这条语句不太好理解:`int (*p[4])(int, int);`，先分析中间部分，标识符p与中括号\[\]结合(优先级高)，所以p是一个数组，数组中有4个元素；然后剩下的内容表示一个函数指针，那么就说明数组中的元素类型是函数指针，也就是其他函数的地址，内存模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WC13ibsIvG3Z1bQiaSzo5N6GgZ7jYQ7V5oG5UFEzUxzS3bqQ3acUWyRRPaq76c6ex3xOReMoZLv5kV7Aia1YdudIw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_017_c99a799bb771.png)
 
 如果还是难以理解，那就回到指针的本质概念上：指针就是一个地址！这个地址中存储的内容是什么根本不重要，重要的是你告诉计算机这个内容是什么。如果你告诉它：这个地址里存放的内容是一个函数，那么计算机就去调用这个函数。那么你是如何告诉计算机的呢，就是在定义指针变量的时候，仅此而已！
 
@@ -546,7 +546,7 @@ int add(int a, int b) { return a + b; }int sub(int a, int b) { return a - b; }in
 
 另外还有一点嘱咐，那就是学习任何一门编程语言，一定要弄清楚内存模型，内存模型，内存模型！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言指针_从底层原理到花式技巧_用图文和代码帮你讲解透彻_images\img_018_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -40,7 +40,7 @@ GD32 是国产单片机，据说开发人员来自ST公司，GD32 也是以 STM3
 
 GD32 采用二代的 M3 内核，STM32 主要采用一代 M3 内核，下图是 ARM 公司的 M3 内核勘误表，GD 使用的内核只有 752419 这一个 BUG。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZeulh6Y7ocr29ha1uvIzqD9W4WaWkkacIJhaF5syG1EwqRticH4REAvxg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_002_542ff3935029.png)
 
 #### 2、主频
 
@@ -70,13 +70,13 @@ Flash 擦除时间：GD 擦除的时间要久一点，官方给出的数据是�
 
 从下面的表可以看出 GD 的产品在相同主频情况下，GD 的运行功耗比 STM32小，但是在相同的设置下 GD 的停机模式、待机模式、睡眠模式比 STM32 还是要高的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZeWNicYEHDee12rWrguAuQd0sHtndOFjVib8BFibLIanVHUdVHAGTzZ2iaibA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_003_da25d2e61769.png)
 
 #### 6、串口
 
 GD 在连续发送数据的时候每两个字节之间会有一个 Bit 的 Idle，而 STM32 没有，如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZeB5OSRI7m0NcDFpR6CXic5PpCPzRFSrAqF8g4ZsGFLFSXT1PlVJXvEYA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_004_ca5256349e10.png)
 
 GD 的串口在发送的时候停止位只有 1/2 两种停止位模式。STM32 有 0.5/1/1.5/2 四种停止位模式。
 
@@ -86,7 +86,7 @@ GD 和 STM32 USART 的这两个差异对通信基本没有影响，只是 GD 的
 
 GD 的输入阻抗和采样时间的设置和 ST 有一定差异，相同配置 GD 采样的输入阻抗相对来说要小。具体情况见下表这是跑在 72M 的主频下，ADC 的采样时钟为 14M 的输入阻抗和采样周期的关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZeWK8fpdviasnPXI36CFYiaCjZn4iaMONZLBK9EzFmIqD7ktXFE0XJP0uqw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_005_23ec1ec07c2d.png)
 
 #### 8、FSMC
 
@@ -96,13 +96,13 @@ STM32 只有 100Pin 以上的大容量（256K及以上）才有 FSMC，GD32 所�
 
 GD103 系列和 ST103 系列的 ram 和 flash 对比如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZebSgVTNdF3cIFAwPa8hJyunHp8BXqa9SOpLWztVcJ1UwSchiaic5oe0Cg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_006_4df7ee34bec9.png)
 
 #### 10、105&107系列STM32和GD的差别
 
 GD的105/107的选择比ST的多很多，具体见下表：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZecnhsYuib3CWwkuUNYPcnmYvDgLTWNibF08rCrJaAgASmjNduIS7Zt89w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_007_cd4e41571764.png)
 
 #### 11、抗干扰能力
 
@@ -124,23 +124,23 @@ ESP32 是乐鑫公司推出的一款采用两个哈佛结构 Xtensa LX6 CPU 构�
 
 相比于 STM32 的一个大家族，ESP32 虽然也代表一个系列，但目前来说，这个系列的成员还是比较少的，我们看下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZed4uCffyRMnbYVToibawicFVYrZBL1u9WicFyW5uDbTLeL9spupCtI0OZg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_008_03f0088b5573.png)
 
 资源如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZeRDDIjicl1VluKujvwClHZwXicILgAwsicafw7j8XVtLdNPsgVq14ibFAQA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_009_51d8894b558d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZevMfdxhz1Jq6a9y557d2Y4EZhAMqKNx54TDRxEWbUVOCibY5yoZr330g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_010_3f15a13800ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZec1QofFL8l2SlOJjWk9RZ5GxasugUMGK3BXicUomsPHiaOLiaY1SGRPxbQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_011_ae32c1b5c7e4.png)
 
 功能框图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZeDww38m6R1hbpicOTWsJp840DeavAX5GaRCvxtP2YY8fzhh415LeJKjA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_012_a2f2d962c3b5.png)
 
 模块（非芯片）的引脚分布如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hgnOITBSQYu9xVeBYbBreoD7U1ZXLZZeCm0UfhcxXWKsqlZePIr44GEFUibG0fQibqIOrUMz9VEpyAEckjkmxQiag/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32_GD32_ESP32_的区别_images\img_013_aab263cdb571.png)
 
 ESP32 这个模块的 IO 并不多，估计也就 30 个左右（芯片有34个，但是模块中外接 FLASH 用掉了一些）。但是你会发现它有几个特点：
 

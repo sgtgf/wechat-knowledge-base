@@ -14,7 +14,7 @@ MOS管因为其导通内阻低，开关速度快，因此被广泛应用在开�
 
 一、电源IC直接驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTY9fmicGoQ6xC5cNN1nKeAH13cTwDFMCIJNpPLaj9FFAcSVWcUWqfJgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动电路介绍_images\img_002_79b18097a732.png)
 
 电源IC直接驱动是最简单的驱动方式，应该注意几个参数以及这些参数的影响。  
 
@@ -28,7 +28,7 @@ MOS管因为其导通内阻低，开关速度快，因此被广泛应用在开�
 
 二、推挽驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTxwC0rao5m0ibbJyoLBSGMPEPtCY91ZeZq9DfxhTNRp9UFt9hELibUo9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动电路介绍_images\img_003_2213a9dae3b5.png)
 
 当电源IC驱动能力不足时，可用推挽驱动。
 
@@ -40,13 +40,13 @@ MOS管因为其导通内阻低，开关速度快，因此被广泛应用在开�
 
 三、加速关断驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTDWU03VYkBuXqyKG02rSojbEzoxYeHwibtMnB7a1iaeLfo6ujXst8AUUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动电路介绍_images\img_004_2ed5e09153fb.png)
 
 MOS管一般都是慢开快关。在关断瞬间驱动电路能提供一个尽可能低阻抗的通路供MOSFET栅源极间电容电压快速泄放，保证开关管能快速关断。
 
 为使栅源极间电容电压的快速泄放，常在驱动电阻上并联一个电阻和一个二极管，如上图所示，其中D1常用的是快恢复二极管。这使关断时间减小，同时减小关断时的损耗。Rg2是防止关断的时电流过大，把电源IC给烧掉。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTYIJaiaP8xiaDURoiaxIvJDdicmImxfzPKNSvcVpgOeWP996skmUNJq3a5g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动电路介绍_images\img_005_9868b9e63c98.png)
 
 如上图，是我之前用的一个电路，量产至少上万台，推荐使用。
 
@@ -60,7 +60,7 @@ MOS管一般都是慢开快关。在关断瞬间驱动电路能提供一个尽�
 
 四、隔离驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhRO0cuyWiacxK8NMJDCx5wTEYvk40rvLmwJib2r4S0QuDKYT3ca2AlOcNLkhKFb9qye6CECn72Ix3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS驱动电路介绍_images\img_006_b2816c385d8d.png)
 
 为了满足高端MOS管的驱动，经常会采用变压器驱动。其中R1目的是抑制PCB板上寄生的电感与C1形成LC振荡，C1的目的是隔开直流，通过交流，同时也能防止磁芯饱和。
 

@@ -8,49 +8,49 @@
 
 作者：Andrea Bianchi - Stefano Carboni
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQrbG5XV1Eo9ATlIwKlDT29h9qBUSPSuCun5ibXBeKMjVn4nQBXibOyFeQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_000_43d4fd8138cd.png)
 
    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQRic0iboicDLcp9npGF6cSuktFibOeicJ5hWt8YckwhMgOd1Ia6mnGcIxang/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_001_ff2f77bc672b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQtsAtZAL2EjYvhqC8SiaeiaSkOrKbSCl4PCG6fz4OkRvuL6MXxkSt4nbQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_002_c90802721312.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQmeuZqGrnrzpwL0J6YPLtZPC4mRV2icibWBoAMH8064ibjagnLEeyq90Aw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_003_1c8fb2baa694.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQSQiaR9NicnbiaNvmaoWACJOxia9EKDI6gEAyRNwIV5ILhABfsImG3yIePg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_004_293bbf95120f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQYQib6uG3fbRJdQWCGJEJAicNM1iaMpPYBibic9qJJ2ppRpib85Hzmia1ribKCg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_005_e55a3a28faf2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQEjM7c5icwK0icF2iaAJomqmAkteDNjH2r83aNpHf8DYRLoBFuHTwTH2uQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_006_7c2343da422b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQ186xRzSuPibNlBqkh4d0aC84GyAA8McrdSqib3vW57Jb6aDN7gzCnIKw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_007_8670e1262443.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQdUEsxcIRumNIJ4nXicZGdt6QiaV5Do8JAJqSjInnppOLkgEjdAQwaUaQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_008_358dace7a8b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQAMaQGgK6e77B8ZyH7iaKXcgcyZEv7emSwia3nIap5wGzjDMTvZtsZOPQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_009_c4cd6f42e803.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQzqhv8d7JPY9siaQwu5rhr4ulCThPlYjiaAkKMfBRPM8jwtgSXKw2d3iag/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_010_39c9da74fb02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQlauMdfLVCwciaglsnNLvLDtFOTDKGNSxicHiaN0ZttETpNtGHkn5FibPcw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_011_0a61f10d2b9d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQNZ0W2CABy2K6Kq9v5neVLdoCRWiczUcocVf1vIxniaeCPDSO9wk96Tjg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_012_b8e75a30069d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQKDa80yLicoGtGeJvNFmT5d31kWM7IIThnUqeL2l40jicQ1z9BJdvjSwA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_013_9eb37c44ad2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQZLhQH5lkicjYqibr1FOTDjEWJJq2DiaWiclHj38HDgibic41rhEUvkf1DzeQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_014_28705bf1060d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQwmhj998TjDFP7WqzGAFtkwjic05VnJBuHHXibGUSzDlV6D0picziaKuXAw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_015_63ea4fbbf49f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQibLUywiaNIE0a1pBKHRGL5U0WffE1B6To7kF0ZNPDR4wr1GJicpXOUgMg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_016_91aabfe04d26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQuKFicUJWGXIXZddibQibgJDYKKxKhqznWfzHaDpbNZsGkWB3c49vNCLEA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_017_716a8313ea80.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQEoicic8HMEEbcyPmAcicPPmSjJAHQ41RoP7E8BaMZicXW3yNTGrXpUzZHQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_018_26cd4d896529.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQnTTVGlauQmEDic0SJe6HDZQIWmhonob44UicxZ2pjcRaORO83K07g2Og/640?wx_fmt=png&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_019_b9441557354b.png)
 
 注：文字与报告无关
 
@@ -186,17 +186,17 @@ SiC MOSFET的高速开关（dV/dt 可达100-200V/ns）会与线路寄生电感�
 
 SiC MOSFET在电动汽车双向充电中面临热循环、电应力、长期退化等多重可靠性挑战，但其高效与高频优势不可替代。通过封装优化、驱动保护设计、系统级拓扑创新及严格的可靠性验证，可显著提升其在V2X场景中的稳定性。未来，随着材料工艺进步和智能化技术的应用，SiC MOSFET将成为双向充电系统的核心支撑，推动电动汽车从 “交通工具” 向 “移动储能单元” 转型。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQkjTk7hlExZd3zpIKObjkI1ia7iabsQC3oSSrcapZlfsRzggwRf7ibtPCw/640?wx_fmt=jpeg&from=appmsg)
+![](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_020_9889c5befa18.jpg)
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_021_c183cb963a26.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_022_8f591e696cb3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC_MOSFET器件在电动汽车双向充电应用中的可靠性分析_images/img_023_454d0867bee7.png)

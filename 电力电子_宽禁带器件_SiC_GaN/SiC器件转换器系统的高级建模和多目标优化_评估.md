@@ -8,225 +8,225 @@
 
 作者：Ralph M. Burkart & Johann W. Kolar
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaRNwkagM1bicp5zbAa2Txu0J4Y2yFOorZfpk9X4AqKyWjoH2XibibsguuA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_000_098279132045.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia1sxI891yKRUwaM0yyUJYmtbsQSiciaYUfuiaGkB1luufiaMR0cAP9gUgzQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_001_02edc83fd5f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaET86uTI3SGicBo3ZC0ibaajRiarOvQfIIKfibzvkia9pWYagt0p9c7OuH6A/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_002_ac74cfcde103.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaZSBvAAYLAEgiaWJqR1XRLxnjrKrf23zzGHxpCAIZJMBUL96RVMWaLUw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_003_38002bd5f067.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaDMhJ2uq9LzwiajSNv9qML6ibREOxCVKjmGk5Z7mwrFsXDIqFHlibBWic4w/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_004_85779c44b292.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaEVC0ndHibynTp4IXXnhkv3czkSv9E1BvBaesOC7tznXW1SbQeBtDnzQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_005_de1b7a344735.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iabQP4t455gdf59GibAsBsBZo4EwYVhbfRsjx8icJxjA37tOm9yPJtLfyg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_006_b10a14bdd1c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iamyI4KY84HIf3E0e3jSlPibhHDhAiaqWhoWJzm3D2h1ftibEqN6EibibL86g/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_007_ff24b1265103.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaxhW0yPTEWVicgQAILXvtCiaibFribt8UkAVyRLy8icNDibuLMMAqDTFWia3og/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_008_72954c47e497.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iauRsUH48mPO1icLnUUEOmQZw4pYdrcK9hkfE3bwf4r4WaTrtoxiaHAevg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_009_7617c5614be7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaYBWtNS7N0lOfic5Xgu7uQ4qTdYAu1IbibY6mISB4U4FH1Qibxu9ic1azcw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_010_83cdebe786e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ianBOicIvib4P7SymP9OWuDOrh1xEnD2FmicMM8J8NTRmVN6KnvOicricHd9w/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_011_8c223dba634e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaREUBFUicKaRicHTdef1trShJtUDJm0Mnmd0UO5BavxlGN8Tu9eW4r6TA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_012_7f0794522eda.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iarBoZ44fp7ciawtWpMvYkQknicG8W99icDT8ibsmPvvMzUeHvJqgPQBg94g/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_013_13146153cd95.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaP29dTkhK6AhrRM265HicwAM9Mibr8fiaBhHHgZwOAb48fEXFSPsHd26KQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_014_cd5c7db3b15f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaOjoMVsQVpTmePBuO50IPtYNPXXYQplRrKpU5uqKNoVRBvpeKtDR72g/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_015_a384560f8752.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iavibgnc00vCcib6YHvq0emdWYSVsLygWmt1c2k9C0ibicwehicXRcR1OL65g/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_016_5d69364f603b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaysx002HUUCp1bOUC0SmVMyXPadKq43JdSezFwpPtdCViaSUJLkEYA4Q/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_017_676e32295e10.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iamEjaUVbQ3XV8LObibQVuLialRDeDlOhm8ic3iaDZkrYIHUTNGqjf57pgKg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_018_3427c3715195.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia6sCJwKT4RdmRHgAvpDnnUk6yeLPes6dwPCALvvGycRypkrgGibpDHRQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_019_df805c517175.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaAyAiaTUluRNibZTibWfbd9Ryqe7Xib6VbxVSBarXQCVTJ82Zec44w2XuUw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_020_08e2560f695e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaXGo999xZGqP4f97gdEicVp8gFHib1ozsPINMJMT4kpvqrKiaAuWfobIiaA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_021_e8c7ec219191.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaDTBbGcJUdd7beTMLYV4M5FfSm6u2nl8zC9hvibXAlEPH76Bng3xYSqw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_022_1a17f37c2924.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaAEIic2yqiczdwhMq9y0jtFTxMrG92pYDCIlXic0GZia5Z4T8pObR8247eA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_023_6a6f765b4f35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iayw6JPngOibA7GTmFpjswaxWnoP040ibUQeNWdvkzv2Yur6D8o1siahcWA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_024_7b671e52d930.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaSQR0NwbuyT0mMzdnbiaZB6zkgIZ1ZXpcjfXdDOM9tteU5YYqkBeNycA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_025_81e332067651.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaOqd5WwdjS6KCBj7QIgyUAayicApDHniax8GEA7WzicjOhSFyOVuQSyOicQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_026_180b810e9d77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iakbKXdnzibu0flhAugLWtXY83XfuIInhy7wmCulsOmqQImXiawXocobmw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_027_c5d51ef0eb1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iabjPgc4HjOribNuebsNicdCd1M933Aok5ovLxzlkn7s25LUDY57VdSBhQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_028_b4a32b7ec1ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia5cBlXqHy0dtjFdqvGUcWogGmOfAFkIosyBth3Xqfg2qudSl5SY5m3g/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_029_82f618258e69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaDEJfQbljwM7LPKhNV52ZfhjANxttjkyXNdSZaKxxIQhYCqgrFLNklw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_030_77ab4c7d01a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaejDdBKlX09hNUZPLsj8gfE9DpzXMuGyAYYicM6ibxfn8FbtcXuKP5gpw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_031_32b6ba11a75f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia3icRESK99UHM7PEK3tkzNXzGn62MnHj7Jn4ZQh5ouRG5Sb7IpIoOdyw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_032_374ab8c2f7d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaZDa362GZ6L2BNSjJyjFQYheUBXHRete7vptlX1l1arFnmVXR0e6L2w/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_033_3add08cf6294.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iakI51rkO2ehhTE2otxq4pgLibLiag2qS66EZKUrHyDOxibFdx3hCXIrkibw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_034_d4ce8bef350d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iam9jtdZMte8nGpWeia14J6nQr7SCdwJKptt3V3Ubz2RiaNvKJcyKgoyaA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_035_c17d9f5e16bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaVClHzKIFGgxeMCtCF0pPQ6tlgHMoyO0FqF8DExCdccQpaxdntacoBQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_036_f963ae386c64.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaiazWxqHzIPaPYIs8HEr7jBYO0l00ceeibcgCVZO3sWOdibiaia8RibiaiaSU0w/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_037_bbbb1104601f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaAWObn6PtSUuK9uQ9yjkhN6pqqheb0toopSd6AhMSO1OicdJzXhvgByw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_038_2f0c08b8aa36.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaoMH1HcvGF64ZUBaPgh1mM6qv3b4djS0Gxx7NQ5ibNeMK0lC9rTTp2pQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_039_77c755fdc902.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iau2VtTQGUd9yQft9ptG7wjfohNuQm1mj1usBjl6FTHxqL6ptgYs9JTw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_040_9dfb7104d54d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaGkVcygsWWvjicWMib5v4W8siarhxibeUHaeT1bfmBUSmjDXGnIG67EfObQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_041_189e7ecbd3b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaaqV6licOriaNRZR4eWqGW239j1rb8ssEBXmqV25dh9EJNAoYYKHEQsEg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_042_dcf9e7386b31.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaNibcKNHos15CmpHuc4p1ZvGVReQGMGmwLngicxXdfUhZCFuRD73Y5iaEQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_043_e72ce1edaa51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaZFHUduRbzoaTO5icUpnOJSW6qo5PFT7jqkibUs8WkiaasiaYwhg5Tm7rwA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_044_b6995573bb1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaS7ZKbnngUkh3vZUPhdduUAuSgbXrtLuRNqX7xhzTsyYGUVAIFGnsUA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_045_e9c728223b96.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia0L4xveFNSfoRczdS5b60qTxdLPGN4AyeVwBEOBACUVE7E50VzxMxicQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_046_cbbc90cdf269.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia3yU6icDIhO81zh1hXxEYol1O9QcibfG2ST383670DePqeDqt2vo8zBeg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_047_9caa575bcc21.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iauqNEAiaskt8KJia7eLYrL7jI7ZoF9GuMOER31aGAuBbVxmcR2icAp1fJQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_048_5cf890deab35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia7foibXT89vcfjWv4aNqK9sXnKt6SDKaicOClTkS4YvkdnicKh2UxWmdxw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_049_b1110367c6ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iapk09ZpjFMhqiarNtARyGJxVFstNgP1ok2zVMNNMvb2sAhpZrFXQj7Dg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_050_57f0fbc6d6b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaTZZOS8AAFBdFbRzEMntllIxq9lQax7zLGM8H0eqhicTDOqiaTkDLWxuw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_051_fbc765bee513.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iau6rIHJhSicdzB0ocfFeFfjicG69E2ibMdE3ZLeSNNBBdSZaFZicngkkWJA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_052_8e4eccaed5d5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaibJEVwITyH1T8oMSDrZp13Z61UApCLSm7K87Z9EFG673KBcrykHyQsg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_053_91fabed04e6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaO13zWIulTz7icHs1kdIsGxpgYQ1kaUdBIhdn3fbmTyIN01nrqu7eV4w/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_054_94d81dcfad93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iauMiaC9aPJg0J4gJBMvvpjQPXrXTDmiazXcc5VCjXuPzvm9MicFOGfjUiaw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_055_a824c1540971.png)
 
 v
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaHiaS2MicaJGon7wUdXtaicAibReks9asPaD7ZBMMnsUIgQibO8zamoic2DLw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_056_cd2731c4519f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iayXIbviaCmCAD4VBoibISm6gob8t9fKcI97smVViaeGZicggAvb7usuJlww/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_057_656e052abc84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaxCcDBIuEhGibMohiaHRqBU1hUK7WtzbXDGfswOKib1AKEwO6j00b9Qscw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_058_15b84f912e76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iazCHsSsyEMMfvByJDEXF6BfSCMZszXE4S4gTnZbiblMGhfvF3mtM6lMw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_059_fcf2e7012924.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaBrm9fPE0dSkcmIrYmZYYHlg1ibHDfnxQZMmhrYzicLf0YLyjCZu1n85A/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_060_ce6fdd6a1b30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iakp1apWvhLhXopcoYibT37Mr4M9pUM6aGALlfjGzKzwhqiblmMySUtVeg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_061_27e201a21cf2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaTNAE2zypEXllSdussvdhnUvvd5Ja64D4iaZlopyLjZOhqnJRhPK6OAA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_062_2891c3fc72c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia5kwibD929ZESprYH4Pa0uxQNBt4j4QI3ficeicuGQvdkd5d0yiba4557iag/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_063_8e3e7d0d2e06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaBgaAU259HHK5LlnCOiaKOcOKev2Fs8osyrHFySYvv4riaIdl4shGyicibA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_064_2fefebab35a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iatlKYa0xHiciaw4ZeubckkibHFgEiagMibEH7iamcyXNNJgPuUKguXeXE8vWQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_065_42337320ea1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia9ibCxAFuA0CGOPbQrbTZ4o7UxPDPbHQwJFLtyia7n4410JLnJwhf3Ogw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_066_56f8c173203a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaKyLFgcsnSPiatkqWTNUxzicMQiadkOZfetIJvYtL7oHPLw0EGzpicqvDcA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_067_306dbe7fb2c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iakf43HLIvwX9hfcBmLJdIgPcxOG5ZnsLjDU0OST6NghP61fiaV70AIsQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_068_4a15540d1eed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaIX9JOJInUtfGLibJib0vhsSL8Qe6zUg9YjfKQA72MDCEJbNGZS0yRuyQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_069_cfe9cdca2ede.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iawaBJcM194EiciaRWKBrIUfsTLvG98O3DRMmcOI6g7MZQ8JxuiaeBghtFg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_070_a78e4d1d5a93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia9hdoGUX6Yfpo10ZMBibyv3voXH57uNVzHLiajWXsic9V38zWksl3ftorg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_071_14d9c8eb3205.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaNEEDSN1IKWkk0cUKDuhMPicWSn32RpuVnkwh4Lv95BianW4Cqv7UEeEw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_072_7f46d1199abc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaLblhRxfrQVmTzBbumUsN8Z5QK8TdUzpSXfSO3KNaxrHArWnTEaKHnA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_073_51705795f33f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaj3Z44dOUO4rMTHKqASHrhevs4rr27nr0LfS68Ym5RDJQcibEfbz48jA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件转换器系统的高级建模和多目标优化_评估_images\img_000_79349f5a1879.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaiceuRMUgaQrqiavMMq1ZsVITCKKdsBMGWt0p2WdoHudiaMgs4Iia82FB8g/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_075_f218f7cadd15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaPP47BNsYZmicnkz9gKCibRPk2TQlpKkUZyFtSZaWrrCTAmEB4bhVhn2Q/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_076_29dbf11b2371.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaq49wmZicrFKklJ7AdniaoBAhZlJ2KYdhszD3WI7M99WF2o3TFnqAxic4A/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_077_e57aaf8476bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iajicwNLfwNaIiaf88tVoY179Dppd3avZmZzGWbibdt1p5kH0a4FEJZwm5w/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_078_df801edf9f0b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia8Utiagc7hPglwlHia8vRmtG32YDHVQDwuibdgicvFq5z3zGGh0GCr8fT2A/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_079_9fd9fd0c60b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia9BSQ2Ujdzibx1Dv58A2CDJuhoz8WX9zpKoWiaSf4BX0XFQiarj1LsKmgw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_080_424de9c6090d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaFtkGC7zUcgbgwQYiajdh3uIVdNpicNtVvXSE5oE1Y8U13mXHg8ssBNibg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_081_ebb52592bdce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia1WDtLsOicuSubvvvmbK4fVJ2bHAppgordsDpJDnZIvz0qCDfXORXibaQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_082_2e108ce517f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia8GFsDDplgA1Zia2S2I5oPhlE9w8QCbfcMh8s63jgqFDibIjbDGv5cOew/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_083_d2c23df30f6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaToEnGHdmT2fU8EH4olDuP3LNpqlGTaibkHfiaXFhBqHD0AGLNY7lymdA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_084_bc59b1160d0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaWrCnfQbwk4cMyBPcbibNtVicM0CrET0pxyn3BeAaiaXCHf7ibJ9o54s4icA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_085_c77db2062d44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaesxFYnNVXnia3PtCN3BtVXc5BVO3Ktu0SQ30VLoib2m7T3OWcBOq4Bibw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_086_d05457e4ad4d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iahuoYzsdhiaWNRjlnl8NKKZLj3eoB8WnXXia4NMvvncnx5pPADD1sEn4w/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_087_3fd725abc927.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaGw4bC9dXd4ibxF6yRUkBDzzEnLCKmxibicTMFuPUG45ZhcFwpbwhkplGw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_088_b482aa31bd44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iabGzMUtegVfVnWaKHiaD12jz7zhmJedUPhukptKtMnWSDS4HffWticLLg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_089_4a94db27690c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaUlJSFmC3KMcuNb6EaJZRrnKGnosXdGZXQCPTgtWeImFv5Qnwre2DlQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_090_ee45e6cb47ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaLw3EDhMA789M0plr9kKBDjzA0bp7sSmfhZFKfJ44pOnaRrFd3LmQhQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_091_83951914391e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia6iaw8xvRmAZqUKRunxaqfKncLPEr10v109D7XSpIKheXquF1HRZX8PQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_092_7565ebc0106b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaZdMCLicmhJK6Nt7WH8OK5cgZjcz1tjCSiacrE94JGXr61g0IJKfPrHjA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_093_694317ad2eda.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaQHcUqiakOYF2Z08p4AsShUfrrExmwjrqfHd5oP1YkQIVKicrM6iagN1Rw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_094_9262345addba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaKlia3fGTdmMHIrRu0bUCoFoiayW007DHhIOsqTyroall0nbablbLxkgg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_095_99c78c40a49b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaDRNW4bd1ibnUtiaEpcGm0dwWQKbKLsSlToZSYPseCmKeTicwQsAe1Zjwg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_096_52031a523af7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia2a4hKKjjgeOlr6lNFsTmnKvibRRcu7ZAYbPKKrw8A7RMvicPZUgQf3QQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_097_9cc90a7993d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iazo3CB9S8m42oFTQa3VJBIwzZbDKmvZINEWxe4uJwYAGiakvyKGicIIvg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_098_82365c9c2dfc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaGmhzjGxRTc9lHVztamO0lAa7xF6tNKvCGia4bTkbqf08SE3HKNuLcfw/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_099_209ca3bdf23b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaXE5qvfCRqFbDgozbzDHSOeTEBia4xSPuTeRt71NibKPrcPcyh0VAdcpg/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_100_650893265375.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia4zycJdT9wpGfK41zbp0Kicn40VibrdL3u4nJQqmN8ciaDtWlyzWfFVZ0A/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_101_64436116cff4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia0Fsthicic07pmwQ198havQKP3shNMhBBiaaCQv45Ut6Ziaq12NKACDLAbA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_102_5e61c7149e4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaeG4HLp6uIVFCpq7OWDnl2U0OTYMEoksK3iaLEDzWa8db92b7BficIaKQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_103_7adad5d21022.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia5VJPxVr68FHG18UJm5ldel61lL53q2fhBbRsicqy9f2jbDtsKslwACQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_104_1621fcf105e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iafZZRQDXmsTf9qeDiaPCicfz2fzelxq7icVb03EzmbicUU92pYupN5oKUvQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_105_29781579e850.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaAW8wva5SP8YM5kzicdiaiagiau6fDA4CAtXJ1tmy7KHaxwnvXbDC94N1gQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_106_5578e0929050.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia6sgEsA1IAicO6X00Pa5gPaSLTxxVic09XnH5EOfoAIPzaofX1u9VFGew/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_107_afcfb3003291.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3ia2RZ76RhJlvZeLdDaSbkSLFQ7pTVbVX80nuNatOX1yfjll36RXMHACA/640?wx_fmt=png&from=appmsg)
+![](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_108_1b6b031ee558.png)
 
 注：文字与图片报告无关
 
@@ -397,13 +397,13 @@ v
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iayTyJCdwUJLUqpluSia06tuYcVnQIO2hHvUKdj7AMoJ98lwh7Zbqry9g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=79)
+![图片](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_109_78f202032be1.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iaC82Z4hz4icAa3ntibyE5BakK7XXq7vzqZect7UOqiad3zKfhpoD8lia2Sw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=80)
+![图片](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_110_a29bf1d591cb.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmChK4ibzBN1ZqDPLdgOrv3iagHUgv9blIHEEWy7cbELqSoZlBknKQXqkRNcEkg2hAd3x3vWfJLxL5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=81)
+![图片](SiC器件转换器系统的高级建模和多目标优化_评估_images/img_111_333567273b89.jpg)

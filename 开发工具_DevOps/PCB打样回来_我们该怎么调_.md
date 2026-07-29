@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhmm6vl5tAFyuZn6lQ7ah2nxhWEj9ob8sQycozGb0hQ8ySJ0GwlSgJYricic3x7TXHQHzljmgXQxxNQ/640?wx_fmt=png)
+![](PCB打样回来_我们该怎么调__images/img_002_ac01cf693459.png)
 
 调试中的PCB电路板
 
@@ -38,7 +38,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhmm6vl5tAFyuZn6lQ7ah2nNlGD68phEWPBeUQMia38R7IWIFFtqlj5eUsx7ManfEThg50uFKa8x9Q/640?wx_fmt=png)
+![](PCB打样回来_我们该怎么调__images/img_003_cf0ae9a2c1d7.png)
 
 电路板元器件安装
 
@@ -54,7 +54,7 @@
 
 **故障排查方法一：电压测量法**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tNoh31rhM3jETib8tqdLkZMfqkSVibp6JV55q5K7VrUxjMIJjwUbwrVfyWodMawTZ7Z2XmeiaicicDBuww/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB打样回来_我们该怎么调__images/img_004_72fad801a976.jpg)
 
 测量电压法
 
@@ -74,7 +74,7 @@
 
 **故障排查方法二：信号注入法**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhmm6vl5tAFyuZn6lQ7ah2nZmL48KgCVDibfuEQxYJMGdGHTsygF8ibxnVsYrq4CJs6wnw2EGGGcO3w/640?wx_fmt=png)
+![](PCB打样回来_我们该怎么调__images/img_005_7a4493e747dd.png)
 
 信号注入法
 
@@ -94,7 +94,7 @@
 
 **故障排查方法三：其他**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhmm6vl5tAFyuZn6lQ7ah2nME6L6iag97JMbUs2argY6hJ1BBOQvCnvosUETYjtU7gVRQMoRrFbzlg/640?wx_fmt=png)
+![](PCB打样回来_我们该怎么调__images/img_006_e3b936692132.png)
 
 PCB电路板外观检测机
 
@@ -108,7 +108,7 @@ PCB电路板外观检测机
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhmm6vl5tAFyuZn6lQ7ah2ndyn3uGqUPU2TWCJM3iblVwJnxXHrLhRqRoibicNJSkAsfqfhx054zQ8Ig/640?wx_fmt=png)
+![](PCB打样回来_我们该怎么调__images/img_007_54c2ccc260f9.png)
 
   
 

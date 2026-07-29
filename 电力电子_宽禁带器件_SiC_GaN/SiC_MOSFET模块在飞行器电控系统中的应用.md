@@ -15,17 +15,17 @@
 
 **低空飞行器主要包括以下四种类型：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aI1DL4IbUEibY5W1e4XD3sW4G5gK0Xj2fzAmhVjGvsZbwbfZgn7uclg/640?wx_fmt=jpeg)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_000_5c90d24d4176.jpg)
 
 **1.  eVTOL（电动垂直起降飞行器）：这种飞行器可以垂直起降，适用于城市空中交通和短途运输。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aaPHlWjbkO0OHF7HVoQ81ZEa5SmEGb8pUYI1QoXggK6D7WUFWXalAQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_001_f3ff6eea9b45.jpg)
 
 **2.  无人机：无人机在低空飞行中应用广泛，可以用于航拍、物流配送、环境监测等领域。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1xgQQMIdTibxxztMkHMwLgg1icKWOrlEIrUuge9WTl269XUdX2yvpiaicQQ/640?wx_fmt=jpeg)****3.  直升机：直升机以其灵活性和垂直起降能力，在军事、救援、运输等领域发挥重要作用。**
+**![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_002_1944ff8cd469.jpg)****3.  直升机：直升机以其灵活性和垂直起降能力，在军事、救援、运输等领域发挥重要作用。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1Lmzg6iaRo5VRoBQNza4Z7tuKfvyRSdQukIqB9OzP0iaBwC0vWs9xwT3Q/640?wx_fmt=jpeg)**
+**![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_003_2842e6899418.jpg)**
 
 **4.  轻型固定翼飞机：这种飞机适合短途飞行，常用于个人飞行、旅游和商务飞行。**
 
@@ -35,7 +35,7 @@
 
  **这几种方案中，除了燃油方案需要的是燃油发动机，其他三种方案采用的都是电动机，也就是说电机与电控是低空飞行器的核心动力单元，也是其动力系统的重要组成部分。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv12KH00F5icUNHnUJU9m0JFomk3FXZhvMwMD2A3ySzNQ6GjunZUFzkVOQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_004_4068a872f243.jpg)
 
 **目前的低空飞行器主要以无人机和eVTOL为主，拿eVTOL来说。 一般来说，eVTOL会采用多电机方案，通常采用6~12个电机，停用1~2个电机的情况下仍具有飞行能力。 其垂直推理系统主要有垂起电机、电调、REU、电机冷却系统，以及螺旋桨组成，相比电动汽车，电机的数量更多，冗余度也更高，因为多冗余度的动力架构设计可以提升电动飞行器动力架构的安全性。**
 
@@ -56,7 +56,7 @@
 
 电控方面，由于目前电机大都采用的是400V电压平台，功率在60kW左右，推力电机功率可达80至100kW，峰值功率可达105至110kW，远超电动汽车的电机功率。业内人士表示，因为充电功率的提升和电机重要减轻的要求，未来还将逐渐过渡到800V电压平台，因此，电控核心元件，比如硅基IGBT等功率器件，将转向SiC器件，SiC功率器因其优异的性能和特性，正逐渐成为研究和应用的热点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1rdSLCxC6I4EpCmgEv9ic2sLI8TUhx70B63mKZw0qwGkhPgWzDYKCReA/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_005_ee219846c7db.png)
 
 SiC MOSFET器件是一种新型的半导体器件，具有更高的开关频率、更低的导通电阻和开关损耗，以及更高的工作温度和电压承受能力。这些特性使得SIC MOSFET在航空航天领域具有广泛的应用前景。   
 
@@ -74,7 +74,7 @@ SiC（碳化硅）MOSFET模块相较于传统硅基MOSFET和IGBT模块，具有�
 
   
 
-  ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1JyfcGBqaAERIibFsAWFGSibVbSUkhpI1Jicv53wQ51DNiaTf2hgdhh9sPw/640?wx_fmt=jpeg)
+  ![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_006_cefd68d231d1.jpg)
 
 以下是SiC MOSFET模块的主要优势：
 
@@ -104,19 +104,19 @@ SiC MOSFET模块的开关频率可以达到甚至超过400kHz，这使得它们�
 
 MEK6是一款1200V400A的三相全桥模块，采用平底板封装，总重量约300克、以下是模块参数图。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1u4UQMb5wGLT6a358QzwpfC5YANITHpWDXib8p7liaEGYW8N3XZXeoyYA/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_007_714e101f8979.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv10ThLljT2TEvia2by47cT7tFXKgsNFoRRJ5pfPly6RiahjHMHTgrOqWeQ/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_008_2b8f7f601710.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv18I5xzaPImKB4o7RDkfrmVwbpeicdmKiat0BEwtXLVLeicXUM8nL2WCVQg/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_009_1cc318915089.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1iauQl1b4Em7n4DIMbnrmWN5fU52SlwLPPFunH7eSLYEuawvbFULEe6w/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_010_079803679cf1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1TxrQzJYLvv6YnKXJJuQ7rpBELCK7icrryQB8xJk1MWmFgsHAUuLNYxQ/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_011_aeb99807c1cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1vTLn4cnZqbZgsiaxhLC0HjaWibbFTCMZr07MiaibQGYcQBetzr5fPN3fSw/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_012_f443f163c353.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1mADj6m85j6x8EHsaZ7ibUsI8Ln77P6VdQiaUO1IE89kVIo2JdUmd8XBg/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_013_01fca85ec132.png)
 
 综上所述，SiC MOSFET模块凭借其低损耗、高速开关能力、高温性能、减小系统尺寸和重量、提高系统效率以及适用于高开关频率应用等优势，正在逐渐取代传统的硅基MOSFET和IGBT模块，在现代电力电子领域发挥着越来越重要的作用。
 
@@ -134,7 +134,7 @@ SiC MOSFET器件在航空航天领域具有广泛的应用前景，可以提高�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_014_24def2a8f5ae.jpg)
 
    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
@@ -142,7 +142,7 @@ SiC MOSFET器件在航空航天领域具有广泛的应用前景，可以提高�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_015_a7ecee98ead9.png)![](SiC_MOSFET模块在飞行器电控系统中的应用_images/img_016_9bbc7b9b15a2.png)
 
   
 

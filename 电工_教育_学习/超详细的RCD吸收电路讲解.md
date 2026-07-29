@@ -18,7 +18,7 @@
 
 **快速过一下反激基本原理**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aibzM90eslX4eEjibibapECfBkguTwkuPNdC11ricfqKZbnZIic6lkQ4rRwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_002_fd29751d2448.png)
 
 1、 其实在图片之前还有一个EMI模块。但是不在本次系列的讲解中。
 
@@ -42,13 +42,13 @@
 
 一般我们称为RCD吸收电路。   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aBrTCXQZf7HibQwF3Rp08HoEGlGLXry8npCj8RTmeflGpLulbVRChVVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_003_c033caff38e7.png)
 
 RCD的出现是为了解决原边MOS关闭的时候漏感能量造成原边MOS应力过高的问题，这句话我慢慢解释。
 
 1、现实变压器不是理想的，像98折的充值活动一样，原边绕组（原边线圈）充了100块钱，但是到副边只剩98块钱了，中介吞了2块钱。这中介便是漏感，漏感通俗的定义是无法耦合到副边的感量。顾名思义，测量也非常简单，通过短路输入绕组，再测量原边的感量，由于输入绕组短路，磁芯磁路被短路，耦合到副边的能量都被短路了，还能测量出来的便是漏感。如下图表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138ankfBia2e5touMVtuZVKzZM02XXYcWFFF2rYdCwZkVoo3H2icUmcHGIPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_004_babb6ecfd58b.png)
 
 2、漏感存在又会造成什么问题呢，好问题，给提出这个问题的小朋友点赞。
 
@@ -62,23 +62,23 @@ As we all know 电感的电流不能突变，假如mos关断的一刻，漏感�
 
 3-1：如下图，在整系统没有开启前，三个测量针的位置都是311V，R1会吧C1两端电压维持一致都是311V，变压器原变也是导通的，也是311V。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138anGOLM0CnNbU6m226m3o5QTSAfCJiaZjX0vlRPfm29lnYRJWnusNxIbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_005_740a840e10d9.png)
 
 3-2：如下图，在MOS导通的时候，mos的d极会被拉到地，也就是0V，变压器原边两端形成压差，电流线性上升，同时漏感是串联进去的，也存在漏感电流线性上升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aBSmTpJxIeBoSg2aCukEH1uvYcM9obBZ5m2oGZMukOMia7u783XBZYpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_006_c8cd86274af1.png)
 
 3-3：MOS由导通变为关闭，变压器储存的能量转到副边，而漏感的能量，无法转移到副边。漏感电流方向不变，还是从右到左，而MOS已经关闭了，当然关闭过程也是瞬间完成了，在MOS的DS间的阻值逐渐增大时，MOS漏极的电压也逐渐升高。当升高到311.7V，D1就会导通。   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138av4yzrz4ic39PRgbXJDlh0m7jBTJuxS2a9HTcOYI4p0GqJu4bh9EI2PQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_007_5e560cd7f45f.png)
 
 3-4同时也由于副边的反射电压，会在输入电压和反射电压叠加形成MOS的电压平台（这个后面讲，现在先讲RCD部分），漏感尖峰时叠加在MOS平台电压之上的。当MOS漏极电压比C1的下面的电压高0.7V，二极管通道，漏感电流这时候就有去路了，而且C1有储存能量的能力，不用憋屈在MOS上了。由于二极管导通了，漏感存储的电流流向C1,C1的电压逐渐升高，直到漏感能量完全释放完。   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138a0ZqObtozbwS3nAN6Tvdr36BafBjyicx7zozO5l6QqiacO4kXaxkPEIjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_008_80ee6a593e88.png)
 
 3-5 漏感能力释放完之后，MOS漏极的电压下降到平台电压，二极管截至。直到下一个周期MOS管导通再关闭的时候，漏感尖峰比C1电压高了才能重新导通。在重新导通之前，C1上面的电压会被R1消耗，逐渐下降。直到下一个周期漏感尖峰电压重新充电。如此反复。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aW8TtbBl9lQT8VC0F83pDLz7r3mClDVR7grRicsC8UwppndG1eWc8AjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_009_38b6f8848d8e.png)
 
 **总结：**
 
@@ -94,11 +94,11 @@ RCD有关公式汇总
 
 一个简单的表格是这么创建的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjRX2HpKtcibPQnvdqa138aE3fwgTGbAuYVnzP84RjONHfI7u4fcE5pVYojdCIibjb2jY2oJJpFQOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_010_ed6c74539afa.png)
 
 原文链接：https://blog.csdn.net/Cuxiaoweiba/article/details/128120780
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\超详细的RCD吸收电路讲解_images\img_011_4700b023e565.jpg)
 
 ## 
 

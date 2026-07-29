@@ -12,7 +12,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgh8dB5a1W5UIARJj9Zwia0SCjVkS2icAdUU4gCfeSaGyiaiaSKTEQpiaJ8cL6b2PWdCibvLO67OIkcWH1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AD画板_如何提高工作效率__images\img_002_0b8046974483.png)
 
 完成后的PCB  
 
@@ -48,14 +48,14 @@ PCB设计过程中的一些快捷方式有助于提高画板效率。
 -   **E+M+C** 点击空白处可迅速找到PCB上想要的元件。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgh8dB5a1W5UIARJj9Zwia0SdoMaicVZZ9vmk6ibPFFASdo37boicabCu8oGBDIwLxXE9Iic8v2KiaTbS3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AD画板_如何提高工作效率__images\img_003_b2ffcf9cf042.png)
 
   
 
 -   **J+C** 弹出对话框输入元件位号，可直接找到元件位置。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgh8dB5a1W5UIARJj9Zwia0SZbBbZvN35KRGZknyauNQiaSBvqIAmJjfb7WLaE3Ataic0JjCLzEVaUkw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AD画板_如何提高工作效率__images\img_004_722a83273767.png)
 
   
 
@@ -149,13 +149,13 @@ PCB设计过程中的一些快捷方式有助于提高画板效率。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgh8dB5a1W5UIARJj9Zwia0SSdFEgSybmmibEwkBk6dR0PdjZUHbRUPeAaqN6nNhKWVibEYS1E06jPgA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AD画板_如何提高工作效率__images\img_005_8937182cde7d.png)
 
 焊盘设置前（插件直连）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgh8dB5a1W5UIARJj9Zwia0SFILVicuoJDLOjCwZIEl6Miam2DDgnB1QjDRhJtibHibjWnBNpCTUTOIiazA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AD画板_如何提高工作效率__images\img_006_f9e3916121c5.png)
 
 焊盘设置后（插件花焊盘）
 
@@ -171,7 +171,7 @@ PCB设计过程中的一些快捷方式有助于提高画板效率。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjcFPticRElZK6qUu9fTicgjVAxE6TcuFnTwGgqFh5tNuCKEYuwcZfNsYpAYysQJF8rdk1o6nbRF2gQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AD画板_如何提高工作效率__images\img_007_834c7a6fe4d0.png)
 
   
 

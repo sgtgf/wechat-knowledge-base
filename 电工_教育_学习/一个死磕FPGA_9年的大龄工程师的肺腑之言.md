@@ -212,7 +212,7 @@ ZYNQ和SOC的应用领域并不广，还有很多人没听过这种东西，导�
 
   
 
-深入理解底一层次，可以更好地使用高一层次。该法则可以适用于所有编程语言。![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+深入理解底一层次，可以更好地使用高一层次。该法则可以适用于所有编程语言。![](D:\电脑文件\公众号知识库\电工_教育_学习\一个死磕FPGA_9年的大龄工程师的肺腑之言_images\img_002_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\一个死磕FPGA_9年的大龄工程师的肺腑之言_images\img_003_d5dcc7ecfdf3.jpg)
 
 ## 
 

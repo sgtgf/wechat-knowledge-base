@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xlbLndmUUZTgaqSuIX1y5A](https://mp.weixin.qq.com/s/xlbLndmUUZTgaqSuIX1y5A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCeiafY0ic3YFlGtOZ8QddWwdPIuCBSPiaib9AewicUbcbC7MWrOQ6KDkVzMkQ/640?wx_fmt=png)
+![](DC_DC_11_双电感式升_降压DC_DC拓扑_images/img_000_6b46edcc92a7.png)
 
 ____**★★★**______DC-DC-11---升降压拓扑______**★★★**____
 
@@ -15,7 +15,7 @@ ____€1.__SEPIC__
 
 SEPIC Converter，即Single ended primary inductor converter：单端一次侧电感式变换器。允许输出电压大于、小于或者等于输入电压的DC-DC变换器。输出电压由主控开关（三极管或MOS管）的占空比控制。这种电路最大的好处是输入输出同极性。尤其适合于电池供电的应用场合，允许电池电压高于或者小于所需要的输入电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSA16nLicBMphgnRmbw2qIdHZKMzMGvT56Abzaib63M1X8BV1uvUPiadgmBplXN8Rx7VUQws7jUn5r9A/640?wx_fmt=png)
+![](DC_DC_11_双电感式升_降压DC_DC拓扑_images/img_001_2a1c538bb9ed.png)
 
 **_图11-1：SEPIC_**  
 
@@ -23,7 +23,7 @@ ______€2.__ZETA____
 
 ZETA转换器，也称为反向SEPIC，它与SEPIC相类似但是不如SEPIC那么受欢迎，其原因在于这类转换器需要一个会增加电路复杂度的高侧驱动器。ZETA变换器可看做是Buck-Boost电路和Buck电路级联而成（传送门[DC-DC-1：DC-DC的原理以及构成](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485524&idx=1&sn=236d06b9479150e0aef493fb8833744e&chksm=c33542cbf442cbdde104ff64eb329816b302d5251071afd1880f26cf5dcfdc90acf9de8c3fa8&scene=21#wechat_redirect)）。。基本拓扑如下**_图11-2_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSA16nLicBMphgnRmbw2qIdHEA7NjfdyM7iahgGicGvZ4E2sanicTYLZibHO1K0WcahMWh7b7kl0ZZBWLg/640?wx_fmt=png)
+![](DC_DC_11_双电感式升_降压DC_DC拓扑_images/img_002_5325c26cfa64.png)
 
 **_图11-2：ZETA_**
 
@@ -31,7 +31,7 @@ ______€3.__CUK____
 
 Cuk变换器在输入和输出段均有电感，可以显著减小输入和输出电流的纹波，输出电压的极性和输入电压相反，输出电压既可以低于也可以高于输入电压。Cuk变换器可看做是Boost变换器和Buck变换器串联而成，合并了开关管。基本拓扑如**_图11-3_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSA16nLicBMphgnRmbw2qIdHLial8Yrgqlqq1yticmgVPBUVN2B7RPiaINUlvURdUZ7rpgpMHibNAtcgXA/640?wx_fmt=png)
+![](DC_DC_11_双电感式升_降压DC_DC拓扑_images/img_003_434f7ddc4f7d.png)
 
 **_图11-3：CUK_**
 

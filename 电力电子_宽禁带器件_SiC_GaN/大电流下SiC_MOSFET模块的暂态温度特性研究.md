@@ -11,7 +11,7 @@
 
 关键词：碳化硅（SiC）；金属氧化物半导体场效应晶体管（SiC MOSFET）；温度特性；模块；大电流
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3Fib3AkGPExhicicMBZChWpk0FJibUfWRu3ArMhtWQxNIKPkRMwk9jq87lw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_000_be80dce18aa6.jpg)
 
 0\. 引言
 
@@ -29,7 +29,7 @@
 
 在进行实验测试前，对SiC MOSFET暂态过程中的主要参数随温度变化的特性在理论上给出分析。首先，温度变化直接影响的是载流子的本征激发，具体来讲，随温度增加，本征载流子的浓度会逐渐增大，而本征载流子影响阈值电压的变化。阈值电压Vth的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3Nj6E71rZqichcTAhIyT09hpbMUyelocIHTpkibicIosqrrVACPONUZMIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_001_ed3e2ade3074.png)
 
 式中：εs为相对介电常数；k为玻尔兹曼常数；T为温度；NA为掺杂浓度；ni为本征载流子浓度；Cox为氧化层电容；q为单位电荷量。
 
@@ -37,19 +37,19 @@
 
 温度的变化除了影响本征载流子浓度之外，还对电子迁移率有影响。文献\[10\]中指出，在600 K以下，温度升高，界面态散射迁移率增加，反型沟道电子迁移率μni增加。SiC MOSFET中，跨导Gm代表栅极电压对漏极电流的控制能力，与反型沟道电子迁移率有关，其表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia35R27R31LQ9EWPnrjpFSpbicFwguPDrEh9J25proesRzLmbOfqIbwNxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_002_1e462871a14f.png)
 
 式中：Z为沟道宽度；μni为反型沟道电子迁移率；LCH为沟道长度；VGS为栅极电压。
 
 由式（2）可知，随温度升高，反型沟道电子迁移率增大，跨导随之增大。跨导对于暂态特性的影响，直接体现在米勒电压上，表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3VyZroibLRuZV7nPQphX5YnwK1GicXYUrhFz61n9xRZSvgqfkImtY3SHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_003_7cd454a4872d.png)
 
 式中：Vplate为米勒平台电压；IL为负载电流，感性负载下可视为不变。
 
 综合式（1）~式（3）的理论分析，温度升高，阈值电压降低，米勒平台电压降低。这两个参数直接影响开通和关断速度。以开通过程电压下降时间tvf和关断过程电压上升时间tvr为例，表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3Uo9Fmd9tLicG0iaH4IKf2OKcvwrWXXIK1YL1iadDEB8ZfmkrbS12y42Ig/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_004_393e23e993dd.png)
 
 式中：Qgd为开通过程中对米勒电容的充电电荷；Rg为门极电阻；Vdriveon为正向驱动电压，对SiC MOSFET一般为20 V；Vdriveoff为负向驱动电压，一般为\-5 V；Ciss为输入电容。
 
@@ -59,11 +59,11 @@
 
 对半桥模块通过双脉冲实验来测定其在不同温度下的动态参数特性。双脉冲实验原理图如图1所示。半桥模块的上桥臂始终保持负压关断，等效为反并联二极管，下桥臂加双脉冲信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3iaHgVCgRw3BPPib9aOKibf0HBc3U7w5f01DqQpmHKpuia69WyNF3uiakl9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_005_cc39bf9a0ee3.png)
 
 基于图1中的双脉冲原理图搭建实验测试平台，包括功率回路、驱动回路和测试环节3部分。功率回路半桥模块选型为1200V/300 A模块CAS300M12BM2；负载电感为150 μH空心电感，以防止大电流下引起饱和；直流母线电压为400V，并联4 700 μF电解电容提供瞬时电流，紧邻模块并联100 μF薄膜电容滤波稳压。驱动回路选用Si8285作为隔离芯片，选用ZXGD3006作为栅极驱动器，通过DSP产生双脉冲信号。测试部分示波器型号为MDO3024，带宽200 MHz；电压探头型号为TektronixP5205，带宽100 MHz；电流测量采用罗氏线圈CWT/UM/1/B，带宽30 MHz，量程300 A。双脉冲测试平台实验电路图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3CSbM1JdjukUodxJKGGpMTKWIR8vUMECm7vHPqzyWxAqujBsN9GH7cA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_006_a0596bb41f9e.png)
 
 为尽可能达到接近实际工况下的测试效果，将功率模块、驱动板、负载电感、母线电容均置于温箱内部；DSP以及示波器等置于温箱外。测试条件为：母线电压400 V，考虑模块通流能力和罗氏线圈量程，负载电流为50~150 A，整个实验平台环境温度为\-20~60 ℃。
 
@@ -73,7 +73,7 @@
 
 在\-20 ℃，0 ℃，20 ℃，40 ℃，60 ℃的环境温度下依次进行50~150 A 3个电流等级的双脉冲测试。给出测试波形，并对其中的开关时间、开关损耗以及电流电压过冲、电应力等主要的暂态参数在不同温度下进行对比分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3rpcicketYaUkRglPMLM2aaQV8tlgcUbe6HoKh7POlz2F9Uyiafict6fFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_007_6b78f86e70be.png)
 
 首先，图3、图4以150 A电流等级为例，给出了\-20 ℃，20 ℃，60 ℃ 3个温度测试点下所得的开关波形。对图3、图4进行定性分析，得出如下结论：在150 A电流等级下，随着温度的升高，开通过程加快，而关断过程变慢，并且在50 A和100 A电流等级下有相同结论。为给出更具体的定量分析结果，从开关时间、开关损耗，以及电压、电流变化率3个角度给出具体的参数变化。
 
@@ -81,11 +81,11 @@
 
 首先对不同温度下开关过程的时间进行测定，以IEC60747-8中给出的标准测定时间tdon，tdoff，tr，tf为例，不同温度下的开关时间测试结果如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3ZlV5Hk7nfeTxlfW8ZTNSqUg3FJt8iaOZ9FCr4MhHmpDnozibEn7QkGiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_008_523b914acec5.png)
 
 表1中将延迟时间和上升、下降时间分别测算。随温度升高，开通延迟时间tdon和上升时间tr呈下降趋势。关断延迟时间tdoff呈迅速上升趋势，下降时间tf则基本保持不变。这与1.1节中对上升和下降时间给出的理论分析结果相吻合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3yvFAdLhEDrWQQ60LcHFFW2aH1KZO9CgRlomWghKj33kRaMBp7dpZAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_009_6d38013ebb12.png)
 
 为给出更直观的分析结果，将开通、关断总时间ton，toff实验结果进行汇总如图5所示，其中，ton\=tdon+tr，toff\=tdoff+tf。从图5中可见，随温度升高，关断总时间从550 ns上升到617 ns。开通总时间从258 ns下降到223 ns。从变化绝对值的角度来看，关断时间相对开通时间有更高的温度敏感性，并且这一敏感性主要体现在关断延迟时间上。
 
@@ -93,11 +93,11 @@
 
 开关损耗作为直接影响效率的关键因素，其温度特性具有重要意义。以150 A负载电流为例进行损耗测算，如图6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3EyPFcA476F6Hzyb3ib4LEc2Ptu4skXYpkA0GHGs5VvLGEt0siaGNuibZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_010_0210de7cfc00.png)
 
 由图6可知，在150 A负载电流等级下，温度从\-20 ℃上升到60 ℃，开通损耗从3.15 mJ下降至2.49 mJ，呈明显下降趋势；关断损耗从4.04 mJ上升至4.22 mJ，呈缓慢上升趋势；由于开通损耗的降低幅度更大，总损耗从7.19 mJ下降到6.71 mJ，呈略微下降趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3VAHJbmuB7W2GVKcl9hThAZk86Avx8tMhUqFqdib6oiayD3pX74e8GPXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_011_6ed3fbc34a81.png)
 
 为表现不同电流等级下的温度特性变化，绘制50 A和100 A下的开关损耗如图7、图8所示。表现出的特性类似，温度升高，开通损耗减小、关断损耗增加，但增加幅度较小，总损耗略有减小。随着负载电流的增大，损耗增加，特别的，关断损耗对电流等级的敏感性大于开通损耗。因此50 A下开通损耗较大，150 A下关断损耗较大。
 
@@ -105,13 +105,13 @@
 
 除去最直观的开关速度和损耗之外，开关过程中的电压变化率dv/dt、电流变化率di/dt以及其导致的电压、电流尖峰也是影响驱动性能的重要参数。考虑到测量精度，以150 A负载下的实验结果为例进行测量，以开关过程中的平均电应力作为测量标准，di/dt和dv/dt数据处理所得结果如图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3zV8UlzWpZJzD7RwpiaibYI2AIXDXBlFicwicM2oQtjLLq4Z6ibYlwFDqhHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_012_13aab33512b6.png)
 
 由图9可知，在150 A电流等级下，随着温度从\-20 ℃上升至60 ℃，开通过程中电流变化率从1.93 kA/μs上升至2.37 kA/μs，电压变化率从4.08kV/μs上升至6.25 kV/μs；关断过程电流变化率从2.27 kA/μs下降至2.13 kA/μs，电压变化率从3.22kV/μs下降至3.02 kV/μs。随着温度升高，开通过程电应力迅速增大，关断过程电应力有所下降。这与上文中温度升高，开通过程迅速加快，关断过程略有减缓的结论相对应。
 
 在电应力测定的基础上，对150 A开通、关断过程电压、电流尖峰在不同温度下进行对比，如表2所示。结果以比例形式呈现，基准值为负载电流150 A，母线电压400 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3LabxbC0H4GDuElODcVlB9icSS3uac4AXUnvvxJNrLxXG0AdTSAoFLeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_013_8e22eb92729c.png)
 
 从表2中可见，温度升高，电压过冲略有减小，电流过冲则呈现明显的增大趋势。通过电应力分析可知，开通过程的电应力随温度升高快速增大，关断过程的电应力随温度升高逐渐减小。对应的，随温度升高，开通过程中的电流过冲呈现明显增大的趋势，而关断过程中的电压过冲则略有减小。由于电流过冲较大，实验负载电流设定值仅增大到150 A。
 
@@ -125,10 +125,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_014_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_015_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\大电流下SiC_MOSFET模块的暂态温度特性研究_images\img_016_84aa944feb13.jpg)

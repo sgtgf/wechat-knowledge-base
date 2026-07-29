@@ -7,39 +7,39 @@
 
 作者：Dereje Woldegiorgis, PhD
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFIWA5SDAGVmY3ficVZ6xShQKEUcZLnKx9RA5tS4ExOgGJrlj2Ngbe01g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_000_4b0e5df0b9ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFlicDae4DRyfse2v4ecjxHo8X5icickPves02jOWyibA8DZfnaG32XF922w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_001_2adcc9b4d7b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF8FKhTFvALZTyeEnKNBh0ypjjoPtrJpBccGzjQ0oKrCODicQViaCgqKkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_002_6a8795eb9087.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFN0bF0GzqcJ5gxjKiaQNmj1GGPH6VniaGUo15H1Qfnh7Lm37M96P1m2Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_003_ec52acc76617.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF5gdQHbIxg4myiay3FSibBzPU6UBytVrVNskwwtrER9aW3sh3zBtDiauag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_004_11c650d96ad6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFbW9oMem8cTSr4D8P8hIialqzRPg1AYLP28rqb4oLib1C9YjkK8ibVvR2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_005_5802b6fd3eb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFdhx6labNT1Mzq1PPyT2slRaZVS9PicUWQBMGRPYUJjnsqRmyK12r3mQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_006_4863c2e1a360.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFkM15yMZyk9cciak7nmiceb3z3yo8bM1uRSlgica2SzFN8v1p1UW7JlYvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_007_ffdd43f1c22d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFEkDZfnv4PXDiaLVlDWeSENSET1caKuYdMokiaTIJfXr5El8WmjG6IM4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_008_44e64bb1b64a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF7iaBaK41enaJx3Dk4Osw6c0XaAWDjwjx6U3HicJgiaYGJ6eQpDiaQibtJEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_009_73fd488f872a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFAX1JF0eRUPY3SEk9hrakcZSRDcTrekTX0vghn5mjf1uhsB6bMIWGicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_010_84de0317ac6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFstzqVflPdgmsjRm0Z76k1iaZqlYibrtZjCArMLZJLKUticZeZYSfic8SwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_011_cc04241dbc41.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFeribN3E8YiakyUNPXriaCMV9jc8tLXWnh17pgNMjvNMY8nSrfbbCXRmIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_012_bb1af17185bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFW4h4ebdCFwcs2tJlIf0kK3MibPiaUh1xicvj2tYKcBvSk65DbkdexMQAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_013_b661d802936e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFCic2SBPFfCdVuMiaqx4ywCF9ZmW3RfLZ4uzCm562NBT8HGmkQwic3ibtAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_014_1fac5e838597.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFnNyPlYO1ia5lIkjXKSQOSezovico4NPnBichwWD9ykdQ3RWRB1HjVfJWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_015_77329249b2b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF9l8X9SglkbAgupKR0ic6sicTmdPuxeGrcaianWdZgvXAsph9fwVHne2Cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_016_e031d9122791.png)
 
 注：图片报告与文字无关
 
@@ -57,7 +57,7 @@ PCB设计对碳化硅功率模块的载流量有着**至关重要甚至决定性
 
 原理：根据电流公式 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFDVsuZwBBn5wlaIvyOU4stMRLibNuCUuQJYsgNb1lDXoJVlV1iandKYtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_017_e73be3eb8a32.png)
 
 （其中I为电流，ΔT为温升，A为横截面积），载流量与走线横截面积直接相关。
 
@@ -170,13 +170,13 @@ PCB设计对碳化硅功率模块的载流量有着**至关重要甚至决定性
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxR1ZGBlBxtdgECnMTD8ol31ibFmssPznAkKdVkeR21tShuYqDrM7Wz73g/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_018_8c5ce5d9a8c2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRZ3szUe31R9A6C3o4fBIENxzhz8ribeBVpQF1VCoQCp4VPdqrD5qoWFw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_019_aaefa15b0811.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRDq2eEAB4b86loaxw0I9FJaRJKn9QByDdahLicCVWX7Iy4659ujaxkWw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\了解PCB设计对碳化硅（SiC）功率模块载流量的影响_images\img_020_dabbc29173bf.png)

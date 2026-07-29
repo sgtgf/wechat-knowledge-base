@@ -12,7 +12,7 @@ Source、Drain、Gate分别对应场效应管的三极：源极S、漏极D、栅
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FNvOMHh1nLfCpB5chrImnA4j7P0ELSAzxNfibrBt2vBrvkCg0mdWQ03K0cbhLoKLJaibKaTN0IhWnUw/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\内阻很小的MOS管为什么会发热__images\img_002_c8ae5503896f.gif)
 
   
 
@@ -211,7 +211,7 @@ MOS管数据手册规定了热阻抗参数，其定义为MOS管封装的半导�
 
 **1）NMOS管防止电源反接电路：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0MzTMmGRruicLc1JXysWKnDPaVicTV91dCcbJAgEvkb6ehY1qZz54kfcg/640?wx_fmt=jpeg)
+![](内阻很小的MOS管为什么会发热__images/img_003_92870bbec497.jpg)
 
 -   正确连接时：
     
@@ -229,7 +229,7 @@ MOS管数据手册规定了热阻抗参数，其定义为MOS管封装的半导�
 
 **2）PMOS管防止电源反接电路：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0aKOs4ybYqcVCicKQsJEiaS8ibDicr2Viaw7EIWJ5fiaF8vwljibnYZ9V1JlOA/640?wx_fmt=jpeg)
+![](内阻很小的MOS管为什么会发热__images/img_004_0e9eb0d1ef87.jpg)
 
 -   正确连接时：
     
@@ -269,13 +269,13 @@ MOSFET/IGBT的开关损耗测试是电源调试中非常关键的环节，但很
 
 一般来说，开关管工作的功率损耗原理图如图 1所示，主要的能量损耗体现在“导通过程”和“关闭过程”，小部分能量体现在“导通状态”，而关闭状态的损耗很小几乎为0，可以忽略不计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0qfGX6lxPn4Liaku2CRtHQjOHwAbH2FgZvI4md75Z4zcDm6btCcXoDqw/640?wx_fmt=png)
+![](内阻很小的MOS管为什么会发热__images/img_005_d3b31390a8e4.png)
 
   
 
 实际的测量波形图一般如图 2所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0RaKN6MibFTRLbTEuDziar8JHxQ2fhKqNCU6RDrbJg8yPwFcZTN4WrspA/640?wx_fmt=png)
+![](内阻很小的MOS管为什么会发热__images/img_006_8043f8eb5cb9.png)
 
   
 
@@ -295,7 +295,7 @@ MOSFET/IGBT的开关损耗测试是电源调试中非常关键的环节，但很
 
 **但对于PFC MOS管来说，不同周期的电压和电流波形都不相同**，因此功率损耗的准确评估依赖较长时间(一般大于10ms)，较高采样率(推荐1G采样率)的波形捕获，此时需要的存储深度推荐在10M以上，并且要求所有原始数据(不能抽样)都要参与功率损耗计算，实测截图如图 3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0rduvgmsY8KnXiatxcMcTlSt4ISRia3ic0w8TvopJ8qs8D7HYhR36JD9EQ/640?wx_fmt=jpeg)
+![](内阻很小的MOS管为什么会发热__images/img_007_1a7c152c8088.jpg)
 
   
 

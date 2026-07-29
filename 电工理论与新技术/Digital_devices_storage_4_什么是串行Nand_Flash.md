@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ZB54L3f4h4Ua9iAbTKwRIg](https://mp.weixin.qq.com/s/ZB54L3f4h4Ua9iAbTKwRIg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMHxN11yqa0EqS81bAQztteXfcMmv0crBf9oEN9iap6udV5tZUneQWHCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_devices_storage_4_什么是串行Nand_Flash_images\img_000_06395e445870.png)
 
 ____**★★★**______Storage-4---串行Nand Flash______**★★★**____
 
@@ -17,7 +17,7 @@ Nand即Non-Volatile Memory，非易失性存储器，是一种最基本的闪存
 
 Nand Flash的结构原理图见**_图4-1_**是一个8\*8bit的Nand Flash的原理结构图，可见每个Bit Line下的基本存储单元是串联的，Nand读取数据的单位是Page，当需要读取某个Page时，Flash控制器就不在这个Page的Word Line施加电压，而对其他所有Page的Word Line施加电压（电压值不能改变Floating Gate中电荷数量），让这些Page的所有基本存储单元的D和S导通，而我们要读取的Page的基本存储单元的D和S的导通/关断状态则取决于Floating Gate是否有电荷，有电荷时，Bit Line读出‘0’，无电荷Bit Line读出‘1’，实现了Page数据的读出，可见Nand无法实现位读取（即Random Ａccess）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OiahgSq0HWpXoFicT0Db8D2f0VkjQW2z1CJe1PbyVPZJ9jcUwCYkYiaPdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_devices_storage_4_什么是串行Nand_Flash_images\img_001_949d9cf29683.png)
 
 **_图4-1：Nand Flash的单元结构_**
 
@@ -31,11 +31,11 @@ Nand Flash具有较快的擦写时间，相比Nor Flash具有较高的存储密
 
 Nand闪存基于扇区（页），适用于存储连续的数据，如图片、视频、音频或个人电脑数据。它可以作为裸片使用，也可以带管理接口一起封装起来统称为托管型设备，包括eMMC、UFS、NVM（SSD）。闪存设备由2048个区块组成，每个区块有64页，Nand闪存块的编程和擦除次数是有限的，比如每个SLC Nand块的编程/擦除次数是10万次。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNLxwd95yVXzlGCM9e7V1rxmhznDbLJXyH7AJF1QaA6PAKxQNNvJhVrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_devices_storage_4_什么是串行Nand_Flash_images\img_002_cf80987ae0a3.png)
 
 **_图4-2：Nand Flash的区块结构_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSsXOXK4LS8Rw45eRsxuXMJxZjAYOibN3XjrMica8W85ug2yz3FKZRAspiaoVjsHQE2rdnibh1UZ96ZCw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_devices_storage_4_什么是串行Nand_Flash_images\img_003_56fc747da41b.png)
 
 **_图4-3：Nand Flash的分类_**
 
@@ -43,7 +43,7 @@ Nand闪存基于扇区（页），适用于存储连续的数据，如图片、�
 
 ## ____€3.颗粒类型____
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snN8IKvrEOcgOgv4SjnbbeCIibU9XuPibMyXbrAjxc1quKHIfP7rNGyQmoA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_devices_storage_4_什么是串行Nand_Flash_images\img_004_1ebbd8c7e90b.png)
 
 **_图4-4：多层单元（QLC），相当于每个Nand单元的存储密度更高_**
 
@@ -59,7 +59,7 @@ _结构_
 
 **_图4-5_**是SPI Serial Nand Flash的结构，通电后自动初始化设备，数据逐页传输到单元阵列或从单元阵列传输到高速缓存寄存器和数据寄存器，高速缓存寄存器最接近I/O控制电路，用作I/O数据的数据缓冲器；数据寄存器最接近存储器阵列，用作闪存阵列操作的数据缓冲器。Serial Nand Flash存储器阵列在基于页面的操作中被编程和读取，它在基于块的操作中被擦除。高速缓存寄存器用作缓冲存储器以启用随机数据读/写操作，Serial Nand Flash还使用一个新的SPI状态寄存器，用于报告设备运行状态。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSsXOXK4LS8Rw45eRsxuXMJiacPjoUAk9cIKXhQMXTiahQRiaVa9LwGuUal5Qwu7L4yhnSlyXvsKrUmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_devices_storage_4_什么是串行Nand_Flash_images\img_005_0d1d29281159.png)
 
 **_图4-5：Serial Nand Flash基本结构_**
 

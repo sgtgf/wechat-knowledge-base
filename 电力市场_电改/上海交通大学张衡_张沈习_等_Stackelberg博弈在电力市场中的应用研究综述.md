@@ -1,8 +1,8 @@
 中国电工技术学会活动专区
 CES Conference
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QUELzyia2HfFibfYbwZhggsU5EcwnpsU7LvmFMqMyKOLhVr4BHB3t0XVbClGhqib0g8lebhuYg5YgTw/640?wx_fmt=jpeg)](http://www.acces.org.cn/) 
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QUELzyia2HfFibfYbwZhggsUPEzh2ia1VSChk5Lnvvc1vw8lkBxoibg3vGpy2DfMmHgjhA9YuGwLv27Q/640?wx_fmt=png)](https://www.icwpt-conf.com/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QUELzyia2HfFibfYbwZhggsUbsF708uvP34cHGc83rTuMZfdQzibpTMxndkOzUUhbpXwkSUbv5AnAhA/640?wx_fmt=jpeg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力市场_电改\上海交通大学张衡_张沈习_等_Stackelberg博弈在电力市场中的应用研究综述_images\img_000_3fedf359efcc.jpg)](http://www.acces.org.cn/) 
+[![](上海交通大学张衡_张沈习_等_Stackelberg博弈在电力市场中的应用研究综述_images/img_001_fd0327aaf47a.png)](https://www.icwpt-conf.com/)
+[![](上海交通大学张衡_张沈习_等_Stackelberg博弈在电力市场中的应用研究综述_images/img_002_208b6611e643.jpg)](https://www.fafee.org.cn/)
 > 可再生能源并网常态化、储能投资商业化、需求侧管理多样化、多能互补成熟化等在电力系统源、网、荷侧引入的利益主体不断增多，而受自身规模、所处市场地位不同造成了决策次序的差异性。此类问题可以采用具有主从递阶结构的Stackelberg博弈进行描述，受到了国内外学者的广泛关注。通过总结现有研究成果，明确未来亟需解决的关键问题和挑战，能为处于不同决策次序的利益主体参与电力市场竞争提供理论依据和方法指导。
 **作者介绍**
 张衡

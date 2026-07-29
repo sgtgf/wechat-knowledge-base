@@ -28,7 +28,7 @@ PCB的制作非常复杂，以四层印制板为例，其制作过程主要包�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fib63XCdRYmDkF0O7ibVsvBb2G7oq8icAzOT4bG2js9yflkoYTzjZol4v6A/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_002_9b166dfc3270.gif)
 
   
 
@@ -44,7 +44,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibgMRdE630q83byJicn5LGKm6Q4w8DCOP32O6rTo2rEbeckcnibnJa9ia1g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_003_ccba9ea81e30.gif)
 
   
 
@@ -52,13 +52,13 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibJPcibrcdo5wDhBRwXV0sUEO8b4EfXVSaD9IE1QYfWSmBvc4CNEA8tUg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_004_1b5877ae062c.jpg)
 
 3、内层PCB布局转移先要制作最中间芯板(Core)的两层线路。覆铜板清洗干净后会在表面盖上一层感光膜。这种膜遇到光会固化，在覆铜板的铜箔上形成一层保护膜。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibQoqpJQNxiaWW88lfqibDSygeGaf0OIGbTfcqWVIB4icByPJ90HdfBkjuA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_005_880eb8be7ab3.gif)
 
   
 
@@ -66,7 +66,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibeVt9AXpMJO2jrp2pHv5z7z5MTC9LiaYu2UNENhqSnlFmv1VdH9v9Ofw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_006_cf4ca2ccbf7e.gif)
 
   
 
@@ -78,7 +78,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibhlxCSUo6wH8l8kpJSVTod78vFsY2C8uCaQ5PkCGpzm946iccdDj9Mvw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_007_41873c3b4d17.gif)
 
   
 
@@ -86,7 +86,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibIaicqe3vF1a9jibMD7cXAK8P9icqZFeT346GYgYVa8GT4tBRickTm5bNkw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_008_805b2f39bcd1.gif)
 
   
 
@@ -94,7 +94,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fib3OXgZOfxdzJ86Jbs8qaPOguZ8y8BObQJNpoM5cSO6icIpmkVcSFSsHA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_009_b92b772db8c9.gif)
 
   
 
@@ -102,7 +102,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibjia0lbt0lib66KHZqMf87LvukhgP38gMIdg0IFhyia3f4RmCHr3jpRYpA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_010_0bad8445fa28.gif)
 
   
 
@@ -110,7 +110,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibIicO8cibZUWCOFOepdOZwiaBSEjxibMF68a0vVSwYXicT8dfBIibn9YOGTYQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_011_75ef732cb90a.gif)
 
   
 
@@ -126,7 +126,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fib1p0x8vpXKrRLibHHNBfMQ4whH8jv2lhtqicZAFR3JXkjAWmb126HsPKQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_012_34ff93278097.gif)
 
   
 
@@ -134,7 +134,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibI36qq2k2uNnKcicczI2Asv5eeSXic3e3hE7lk6678XSU5cS4b7DB7wMg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_013_848fe72eda44.gif)
 
   
 
@@ -154,7 +154,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibBb3mJA4jFPQoRgHPGvleJ7Yj0BYCjQTkib9M3eu41FxHrOmVgJ2jHGQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_014_f7af679723f5.gif)
 
   
 
@@ -162,7 +162,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibZakqtiallkWoBTbILuN84Cib1aPzoTBsYvpoS0zD9mTBgPWPebQAOe5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_015_d27f1fa87895.gif)
 
   
 
@@ -170,7 +170,7 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibskP2JUqI5hII7vfAtkTTJ9MF1ku2NIicaN4ibfA1yRB6LtdicGFT7paVw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_016_a5f1c2aa0563.gif)
 
   
 
@@ -186,19 +186,19 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibPUDibq8SIzDRTGucUdI0eCzGkF1IRHoV3muNZgDwqkARUK2dsKlxJ2A/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_017_6b930cff448a.gif)
 
 固定PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibG2NzRkrY96n86dYWwmrgcVMvWtTJ9meicya9YBEZ1bXmUfjEu7TqRNg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_018_449327109a7e.gif)
 
 清洗PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibxSdWAP40xwoh92vy0axoeRliabjRT2jmEKD6ybCSMoEvP8icTXEicAx1w/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_019_06204960891f.gif)
 
 运送PCB
 
@@ -218,15 +218,15 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibh5J8Iiba2B0KEZAHvuiaPhN3OckTRXsQ4LCjSjY3bL5bNAC3ia9DmOxZQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_020_b33cfdc3f45c.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fib2c9c5U5KgyEzcuicgDWBzL2nv8d9IKMbla0KBYfcZQUHKfFGDWDa6bg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_021_eeab38d3acf3.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibIvFPj3oC4oQwfDPs9nEdSvUpxHJe5icEzsBJYtKG92YEea6KH186WFA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_022_3afd3b2d05dc.gif)
 
   
 
@@ -242,15 +242,15 @@ PCB制作第一步是整理并检查PCB布局(Layout)。PCB制作工厂收到PCB
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibPMibbWNVQy2icmcbiaTorM0lmWthz90APSrnXicSgZlXNhWAhgicYFzf34Q/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_023_3919ca852746.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibpSqkOEkyKjbsM0CNToIctGyoSb9yibWyWSwwNZBKoI0VTcYyahv9niaQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_024_7cd855929a9a.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfl3yhV9yoYUVO7tWBLU38fibm11ibj7VrtCH9qicymVlDWicEWbTDud5ibkkexlicDcoUUPaHDZaGBJ5h1g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\干货___揭秘PCB制作过程(附动图)_images\img_025_7aff991d11d2.gif)
 
   
 

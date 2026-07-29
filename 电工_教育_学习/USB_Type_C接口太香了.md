@@ -12,7 +12,7 @@
 
 **********Type-C接口**********它不仅是业界通用的连接器，还能通过一个接口同时传输**数据和电力**，甚至支持视频输出。今天，我们就来聊聊USB Type-C的基础知识，看看它为什么能成为现代电子设备的“万能接口”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOcbiaDxlAia3XygWg5Yx6n2xFEhuvtzCDicTznWic3WxODHWyuLAd6mFp63g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_002_ea3edfa63f90.png)
 
   
 
@@ -36,7 +36,7 @@ Type\-C的最大特点就是**多功能**。它支持通过单个接口传输数
 
 USB标准一直在升级，速度越来越快：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOc019LY7u0N54k1oFwwTMgmmJlQapDI6Eljf1yr14eKudg7TicNqXQ6YA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_003_0e09051d6959.png)
 
   
 
@@ -44,7 +44,7 @@ USB标准一直在升级，速度越来越快：
 
 **USB Type**\-C的供电能力也在不断提升：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOcyoAgk03Gt1v2oY7LmGlEgXeicxD3Ct08ztG9acWxOCC33icqpoOPrlIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_004_c072073632db.png)
 
 这意味着：
 
@@ -56,7 +56,7 @@ USB标准一直在升级，速度越来越快：
 
 ## **咱们设计产品中可能会用到视频信号的传输，这就要用到咱们的全功能Type**\-C，也就是它的24个pin全都要用上，它是具有12Pin引脚所具有的全部功能，且多了一个USB3.0/3.1高速传输功能。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U757C7UPUUq5ymJcMRO9EsJzuwFVKicMR1ELSUrTRrOQ5ICA1fw2qpdRg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_005_6f55981d4a5a.png)
 
 ##   
 
@@ -94,7 +94,7 @@ Type-C 的正反插原理
 
 引脚排列，对称设计，支持正反插
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOcm9LDnCxV3t4iapV5ibFA2icRZJ7GU8bYRO6dYYlJQsz6dd3DFTv5xH9Eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_006_7f2aadc6a6c0.png)
 
 ## **USB Type**\-C的接口有24个引脚，**上下对称**，所以正反插都能用。下面对引脚功能进行简述：
 
@@ -104,13 +104,13 @@ Type-C 的正反插原理
 
 **
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgsG3bKJSLDfTO178GDzhh7dbWGHiaeROs5NUGgAYvUBI3R6zBhYFvzjpS1RrMSs8noWUHWicicLrvqQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_007_2b89ee124ea1.png)
 
 ### 母头/母座引脚定义
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U70fnr2SJNuEYrIGAyeq6FLo4ZX940ibzib4iaLjRBtCXO29SCibzePmVNyA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_008_591ef44cf6b8.png)
 
 ### 公头/插头引脚定义
 
@@ -143,7 +143,7 @@ USB-C 规范中引入的配置通道 (CC) 逻辑块提供电缆检测、电�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOckv8icoaBua7iaxEwq1kjD09k900ibGkDf3PotqxdabNRZR2UUbNPgOugQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_009_359e7dd15708.png)
 
 DFP 的两个 CC 引脚通过电阻 Rp 上拉，而UFP 的两个 CC 引脚则通过电阻 Rd 下拉。当 DFP 处理器检测到其中一个 CC 线路被下拉后，DFP 就会知道已建立连接。
 
@@ -174,7 +174,7 @@ Rp 的值决定载流能力。USB-C 原生支持 1.5A 或 3A。DFP 可以�
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbR7gLHibpDE1YFh8RMzXibJA9HKLic7VdjAJYzXdOgHO7T1a0R62tVWpaq3Hiateb2ZicLpq54yBdKjA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbR7gLHibpDE1YFh8RMzXibJSSzaiczyyCxVwNibExcDbFlbLmh8PZWkwOkmM4wzpbrmN33BHzkhZLnQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_010_d490c65aab74.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\USB_Type_C接口太香了_images\img_011_5127858a268f.jpg)
 
 ## 
 

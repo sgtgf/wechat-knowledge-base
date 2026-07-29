@@ -14,7 +14,7 @@
 
 **那有没有什么好的解决方法呢？**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1IuI2NoculFXoss3f41uQjyz3dpyTiaqpCeheGWtgHS9Sia9wRcABjZ5p3MKwia7YTlKZrIGpk3ibyGQw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](听说你还在一个个的手动调PCB丝印__images/img_002_e4767f3cc509.png)
 
 生产时PCB上丝印位号可以进行显示或者隐藏，但是不影响装配图的输出。按快捷键“L”，按所有图层关闭按钮，即关闭所有层，再单独勾选只打开丝印层及相对应的阻焊层，即可对丝印进行调整了。
 
@@ -26,13 +26,13 @@
 
 （3）保持方向统一性，一般一块PCB上不要超过两个方向摆放，推荐字母在左或在下，如图11-21所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaIOiciaUx3s32bqic1QJiaJ7SpaPMZqwPC0UZ7Po14qIY0jVyXs4mRYOia39Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](听说你还在一个个的手动调PCB丝印__images/img_003_a12675fc6bce.png)
 
 图11-21 丝印位号显示方向
 
 （4）对于一些摆布下的丝印标识，可以用放置2D辅助线或者放置方块进行标记，方便读取，如图11-22所示。
 
-　　![](https://mmbiz.qpic.cn/mmbiz_png/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaILN6nthibvA4P6dZNOOG6G1H6qibm1DDbGgwQc6JM9G2SCSXqFfKEF6dw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+　　![](听说你还在一个个的手动调PCB丝印__images/img_004_e29efee86b01.png)
 
 图11-22 辅助线及方块
 
@@ -50,13 +50,13 @@ AltiumDesigner提供一个快速调整丝印的方法，即“元器件文本位
 
 （3）“标识符”提供向上、向下、向右、向左、左上、左下、右上、右下几种方向，可以与小键盘上的数字键进行对应。通过对“元器件文本位置”命令设置快捷键的方法，想让其快速地把选中元件的丝印位号放置到元件的上方时，在小键盘上按数字键“5”和“2”就可以完成此操作，如图11-24所示。其他方向摆放类似。例如，按数字键“5”和“6”放置到元件的右方，按数字键“5”和“8”放置到元件的下方。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaId2pcT89ic90ECSOcSy53HKNOqlYpibQ7GBo0TfJxJu5TaKJRWhSMTQSQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](听说你还在一个个的手动调PCB丝印__images/img_005_2673ba6ebfc9.jpg)
 
 图11-23 “元器件文本位置”对话框
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaIGdPncTSXUpItickeuDBT7gRclxvwiaPwptBzf40VwqDI5MbQviatXLXcg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](听说你还在一个个的手动调PCB丝印__images/img_006_3ece3071c1bc.jpg)
 
 图11-24 丝印位号快速放置到元件的上方
 

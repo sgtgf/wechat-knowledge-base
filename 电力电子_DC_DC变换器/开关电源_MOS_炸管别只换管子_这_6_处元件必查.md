@@ -13,7 +13,7 @@
 
 MOS 炸裂后短路大电流会连锁烧毁周边小元件，只更换 MOS 无法根除故障，必须逐项排查周边电路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyzqgyiaFfgnSiazLXcIzj39m5MYpahr4v52TeGjB1D5T9TQCy3xfJLuia4pgYw09pIQaUPLYUL2JKYplUSvCs8kNn28WU2zYb2rAc/640?wx_fmt=jpeg&from=appmsg)
+![](开关电源_MOS_炸管别只换管子_这_6_处元件必查_images/img_000_a282e4c1552e.jpg)
 
 MOS 管炸管主功率回路标注图
 
@@ -29,7 +29,7 @@ MOS 源极对地会串联小阻值采样电阻（常见 0.1Ω~0.33Ω），用于
 
 短路瞬间超大电流会直接把电阻烧开路，电源芯片失去电流采样，上电持续失控，换新 MOS 依旧会烧毁。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6Luyy2yW1zX6iaHtUU7DgkLia7UXvZh8Somw4FQeecG6SVwUramn95vianGIfwc1GL0mEE9Zvsg5AqEQzgmYwnbA28Ou3YiaqlSecaSzw/640?wx_fmt=jpeg&from=appmsg)
+![](开关电源_MOS_炸管别只换管子_这_6_处元件必查_images/img_001_2d5302acde3c.jpg)
 
 周边易损元件识别图
 
@@ -45,7 +45,7 @@ GS 泄放电阻并联在栅源两端，用于释放栅极残余电荷，阻值�
 
 若二极管击穿、电阻开路，尖峰电压会持续冲击 MOS，长期使用极易再次击穿，维修时必须全部复测。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyzPPdt8T42WJON08fse2SlTDNvmQo57swvyEZ3MccAyNKCdcmiae55zo30H3SJ6FB0exOqsGiaPUD4yZAST3P2JtunpFnwd9MjPQ/640?wx_fmt=jpeg&from=appmsg)
+![](开关电源_MOS_炸管别只换管子_这_6_处元件必查_images/img_002_872f41f076d3.jpg)
 
 RC 尖峰吸收电路原理图
 
@@ -61,6 +61,6 @@ MOS 短路的大电流极易击穿 PWM 电源芯片，芯片内部驱动单元�
 
 可先用低压直流模拟输入供电，短接启动电阻触发电源，测量主输出、辅助供电电压，数值稳定无波动，再接入市电正常使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuyzdWIO9YppnFDANyOcP6tWhH2VdsSFbKqwRbLM5E9t07F6wUtHdQchCtoSKmaZ1Pj1wh5D7q4woEb9NDJnTQAC7cD0vsJSjUxw/640?wx_fmt=jpeg&from=appmsg)
+![](开关电源_MOS_炸管别只换管子_这_6_处元件必查_images/img_003_9f0aa4b26152.jpg)
 
 维修后低压预测试流程图

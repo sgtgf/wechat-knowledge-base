@@ -7,20 +7,20 @@
 
       **公司拥有全自主知识产权，已申请25项专利技术，采用6英寸技术已量产20余款650V~3300V全系列SiC MOSFET产品，并建立起车规级的SiC MOS模块工厂，可为客户提供整套应用解决方案。产品应用于新一代移动大功率充电机、车载双向OBC、新能源汽车电机控制器及动力总成系统，DFN8\*8和DFN10\*12超薄封装MOS管适用于电动车充电器-大功率PD快充等小体积产，是高速成长的高科技技术创新型企业。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80Up5Q1p9hUlXJiajicdJmuCAffxc2MGGpjwGiaCroUgribib9GLmOlg8daoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_000_1378559479b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80obO7S72VAoicaWBH5dAsOE5eX31JlY4la76bamYh4D5vOHib2Pczia4KQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_001_264bc3bb26e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80lvicDUNU9AjgbTLsiaaFByFMNM4dbqtqM3mOwhcvHOOV6EWtK36HRFrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_002_6a5bf7382083.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80xQiaKd4FjGkdUb8OsbD2kOTlTrf4icliaicXfOzaAiapQAkZ9vmGwkKvt0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_003_f71d567b2b9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80myDwMicFhxE2kKHDX4Lzk5TibE1PHDgl4ToInaeb0OstgtlxibP8IQRyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_004_a05d0b41cbb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80H8Ck9hH2rNO8jnrLMgNMiaWpufr8YY3wbvnbkWc07T81ibKou9joSBKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_005_96c3fcf253b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80ibKmNEWYBvLrvut34xBPH3FVUtY2NqtE9GMJZSGYGT95LicurW2604KQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_006_c1d399631158.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80OgjevKsYBsyF0a0CAbibiaWDnGiaMcSn1YGbpm4VH2RCYPXLDYIqibhPqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_007_168eabcbfe8b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwEv17DC0NADAEux5g0O80RYETHF02G6JZEOKdyrKAS7co1f4U4WBWUp9qJYWyWuMHAtM5V0G48g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅模块驱动板_DWC3驱动板_images\img_008_b88fd483bb2a.png)

@@ -13,7 +13,7 @@ RGB（Red, Green, Blue）颜色空间是科研绘图中最基础、应用最广�
 
 RGB 颜色空间利用三个颜色分量的线性组合来表示颜色，任何颜色都与这三个分量有关，而且这三个分量是高度相关的，所以连续变换颜色时并不直观，想对图像的颜色进行调整需要更改这三个分量才行。自然环境下获取的图像容易受自然光照、遮挡和阴影等情况的影响，即对亮度比较敏感。而 RGB 颜色空间的三个分量都与亮度密切相关，即只要亮度改变，三个分量都会随之相应地改变，而没有一种更直观的方式来表达，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVm2rfxxeKsaiac4oYjgFLR4WYq7buYGKOvqwfibmmuibISU8auLU7W1k5V1fiapibv4XjI2EAJRVXVd8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Matlab代码_科研绘图的颜色空间_images\img_000_dfc66677917d.png)
 
 **典型应用场景**
 
@@ -21,7 +21,7 @@ RGB 颜色空间利用三个颜色分量的线性组合来表示颜色，任何
 
 与MATLAB绘图工具默认色彩模式的天然适配：无需复杂的颜色空间转换即可直接使用，RGB模型基于笛卡尔坐标系，R、G、B分别代表红、绿、蓝三种颜色的强度，取值范围通常为0-255。当自由调配这三种颜色时便能得到各种色彩的图像，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVm2rfxxeKsaiac4oYjgFLR4SsKoQQ8IRwCjibOeNP3cLqAw7xWZsc1ShRRa8e2TfFeLezLwmjDuxVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Matlab代码_科研绘图的颜色空间_images\img_001_ce847b7617b6.png)
 
 **配色规范要求**
 
@@ -31,19 +31,19 @@ RGB 颜色空间利用三个颜色分量的线性组合来表示颜色，任何
 
 HSV和HLS通过对RGB颜色模型进行变换，将原本的平面直角坐标系转换为一个圆柱坐标系。HSL颜色模型的顶端是白色，底端是黑色，可以用一个双六角锥体来表现。而HSV颜色模型可以用一个倒六角锥体来表示，锥体的顶点是黑色。下图来自英文维基百科，展现了RGB是怎么转换为HSL和HSV的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU5mP21XGKy2rhN9A5HWQ64CYhLWwJkQy5t2x3Ouvib4NszuFsNcOgpFvXH08x0FRbJUwjusoAJA3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Matlab代码_科研绘图的颜色空间_images\img_002_2c3acb8222b6.png)
 
 **HSV颜色空间：热图对比度优化**
 
 HSV（Hue, Saturation, Value）颜色空间，也称为HSV（Hue, Saturation, Value），在科研热图和密度图的制作中发挥着**不可替代的作用**。HSV通过将颜色分解为色调（Hue）、饱和度（Saturation）和明度（Value）三个独立维度，使得科研人员能够**精准控制色彩的视觉对比度**，特别适合突出数据极值差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVm2rfxxeKsaiac4oYjgFLR4MKtp1eibtRN4YIBAEYTbQqVGibmVDyAlfYjX7jF5tBsy105f1StzqCdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Matlab代码_科研绘图的颜色空间_images\img_003_dd7031a7d582.png)
 
 用如图所示圆柱体来表示 HSV 颜色空间，圆柱体的横截面可以看做是一个极坐标系 ，H 用极坐标的极角表示，不同角度的颜色基调不同，S 用极坐标的极轴长度表示，颜色从俯视图的半径来看，圆弧上的点表示该处颜色基调，半径上的颜色就是从纯白色到该色调颜色过渡过程中不同位置的饱和度，圆心颜色饱和度为0，接近纯白色，圆弧上颜色饱和度为100。值越大，颜色越饱和。V 用圆柱中轴的高度表示，不同高度代表着当前纯度的颜色的亮度。
 
 Hue 用角度度量，取值范围为0～360°，表示色彩信息，即所处的光谱颜色的位置。表示如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU5mP21XGKy2rhN9A5HWQ64UG2ZIrEZpBYXLyXrNz1X2V0qPJhZD9YPrH7M8eq06ULw72jice7OiaHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Matlab代码_科研绘图的颜色空间_images\img_004_93fd2b739f5b.png)
 
 颜色圆环上所有的颜色都是光谱上的颜色,在RGB颜色空间中 颜色由三个值共同决定，比如黄色为即 (255,255,0)；在HSV中，黄色只由一个值决定，Hue=60即可。
 
@@ -59,11 +59,11 @@ HLS（Hue, Lightness, Saturation）颜色空间在多组数据散点图的色彩
 
 HLS 和 HSV 的区别就是最后一个分量不同，HLS 的是 light(亮度)，HSV 的是 value(明度)。HLS 中的 L 分量为亮度，亮度为100，表示白色，亮度为0，表示黑色；HSV 中的 V 分量为明度，明度为100，表示光谱色，明度为0，表示黑色。即在HLS颜色空间中，需要调整一个颜色从白色转到该颜色再转到黑色，仅需调整L(Lightness)分量即可，而在HSV空间中需要同时调整S和V分量，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVm2rfxxeKsaiac4oYjgFLR4IVEPQtvuU2xxeKuFaAMmYQBhflMKcHLibqZBwBmkNL8NC4BKeDRUDLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Matlab代码_科研绘图的颜色空间_images\img_005_aacb2dc82573.png)
 
 在应用场景上HLS与HSV空间相同，可以根据科研绘图的需求调整颜色空间的使用，具体效果如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVm2rfxxeKsaiac4oYjgFLR4BfMcILv1H6o8hYJK7gEBBSdpJLDN8Cxepb7crMnxf535UgPb9AoPHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Matlab代码_科研绘图的颜色空间_images\img_006_2dfcc02f6ff9.png)
 
 **三种颜色空间的通用公式转换**
 

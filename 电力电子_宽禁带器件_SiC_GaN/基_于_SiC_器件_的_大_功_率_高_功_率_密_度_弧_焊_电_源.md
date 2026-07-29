@@ -25,19 +25,19 @@
 
 弧焊 电 源 的 技 术 要 求 见表 1， 其中 逆 变 频 率 指SiC MOSFET 的控制信号频率，能效指弧焊电源的电能转换效率，即输出功率与输入功率的比值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdyrhANme0DJgKf0gH2gy6iaXPnO9oia3LdtKQCXDtvT1eb2LwcN3CfyJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_000_91b1db02385b.png)
 
 为了使焊机输出适合焊接的低压大电流，弧焊电源主 功 率 电 路 采 用 全 桥 逆 变 拓 扑， 需要 驱 动 电 路 为逆变器的开关功率器件提供驱动信号，此外，为保证弧焊电源在工作状态下的安全，电源需对输入电压、输出电压、电流以及对电源功率器件的温度进行采样监 测， 以下 给 出 了 根 据 弧 焊 电 源 的 设 计 需 求 所 设计的主电路及其驱动控制电路的拓扑及原理。 
 
 1.2 电路拓扑及原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdxR4icdUnhlUjus46EWRY1S4SVViazgJmzqObGI892QjLcn1XRibOzhoCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_001_718f1aba8a8f.png)
 
 图 1 为弧焊电源的主电路拓扑，从左到右依次为三相整流滤波部分、高频全桥逆变部分、高频变压器、高频 全 波 整 流 部 分 。380 V 的交 流 工 频 电 经 三 相 整流器整流及滤波后，输出约为 540 V 的直流电，此时全桥电路中的 SiC 开关器件在驱动信号的作用下，以约为 100 kHz 的频率在开通和关断的状态中切换，将540 V 的直流电逆变为高频交流电，再通过变压器将该高 频 交 流 电 进 行 降 压， 之后 通 过 全 波 整 流 滤 波 输出适合焊接的低压大电流。
 
 三相整流器采用继电器接触器控制系统组成的软起 动 和 电 荷 泄 放 电 路， 以提 高 弧 焊 电 源 中 工 作 时的安全性和稳定性，其电路图如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdrA1I1M8ewjW0xEYiar5dBiaSxwtpEkIbCxO8ibSjvCKzHEBBSEJq6YDXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_002_d139e4e62df6.png)
 
 电磁干扰（Electromagnetic interference， EMI）滤波器未在图1中画 出 ， 单相 整 流 器 采 用SEMIkRON公司的SkD 145/16整流 模 块RC1， 直流 侧 接 滤 波 电 容C1（1000 V，0.1 μF），之后连接图2所示的软起动电阻（R1，R1-1）、 接触 器CA3、 继电 器K1、 主电容泄放电阻（R3，R3-1）、接触器CA4 以及继电器 K2。主电容的直流母线接高频逆变器。主电容采用铝电解电容（C2，C3，C6， C7）串并 联 组 成 。 继 电 器 控 制 电 路 由 一 个 12 V电源模块（U1）供电。
 
@@ -47,7 +47,7 @@ SiC 全 桥 DC/DC 变换 器 部 分 包 含 高 频 逆 变 器 、变压器、
 
 SiC 全桥 DC/DC 变换器的逆变器部分共有 4 个SiC MOSFET，需要 4 个驱动芯片为 SiC MOSFET 提供驱动信号。图 3 为逆变器驱动系统的结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdXt4UoaOheZjevVmoj6U9zaFfV1xRRcmQCee6woV1vrsLNe0fwoZEfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_003_6aecbdb67b8f.png)
 
 SiC MOSFET 的栅 源 两 极 添 加 电 荷 释 放 电 阻 和瞬态 抑 制 二 极 管， 用来 防 止 MOSFET 误导 通 和 栅 源极被击穿。4 个驱动芯片采用 3 个电源模块供电，由于全桥逆变器的 2 个下管共地，因此驱动下管的 2 个驱动芯片共用一个电源模块，2 个上管则各自采用一个电 源 模 块 。 驱 动 芯 片和 MOSFET 连接 时 ， 驱动 芯片的正负输出端各通过 1 个 1 Ω 的电阻连接到 MOSFET的栅极，MOSFET 的源极连接到驱动电源模块的地线上， 这样 可 以 输 出 正 负 值 的 驱 动 电 压 。 单 片 机 控 制线与 驱 动 芯 片 连 接 时， 同一 桥 臂 上 的 2 个 MOSFET的驱 动 信 号 进 行 互 锁， 即上 管 的 驱 动 信 号 连 接 到 上管的 正 输 入 端 和 下 管 的 负 输 入 端， 下管 的 驱 动 信 号连接 到 上 管 的 负 输 入 端 和 下 管 的 正 输 入 端， 这样 可以防止同一桥臂  的 2 个 MOSFET 出现直通。
 
@@ -55,7 +55,7 @@ SiC MOSFET 的栅 源 两 极 添 加 电 荷 释 放 电 阻 和瞬态 抑 制 
 
 弧焊 电 源 的 采 样 部 分 包 含 输 入/输出 电 压 采 样 ，输出电流采样以及温度采样，采样电路如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdtAJvA97NQd3W8XYEybfhMNL7KMH4E64DciaKfVRfEzXw3blActlz37w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_004_2add5087d1da.png)
 
 电流 测 量 电 路 采 用 外 接 霍 尔 传 感 器 的 设 计， 通过 2 个运 放 搭 建 的 有 源 滤 波 电 路 和 电 压 抬 升 电 路 ，对信号进行调制。电压测量电路采用隔离式运放通过电 阻 分 压 实 现， 后端 接 一 个 差 分 比 例 电 路 和 一 个有源滤波电路对信号进行调理。温度测量电路采用负温 度 系 数 热 敏 电 阻（Negative temperature coefficient thermistor, NTC）温度 传 感 器 ， 同样 提 供 外 接 的 端 口 ，传感 器 固 定 于 散 热 器 上， 用于 对 半 导 体 功 率 器 件 的热监控。
 
@@ -63,17 +63,17 @@ SiC MOSFET 的栅 源 两 极 添 加 电 荷 释 放 电 阻 和瞬态 抑 制 
 
  2.1 样机结构布局
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdOMLHvrnNtb9TSbcOuVicpIKydmCX9vIXGicibHCxgrv0U5s2Hjm92Ntfw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_005_02619831a668.png)
 
 图 5 为根据弧焊电源设计要求所设计的样机结构布 局 。EMI 滤波 器 作 为 整 个 PCB 板的 输 入 ， EMI滤波 器 前 接 带 漏 电 保 护 的 空 气 断 路 器， 后接 三 相 整流模 块 及 其 控 制 部 分 电 源， 三相 整 流 模 块 安 装 到PCB 板上正面，EMI 滤波器放到同样位置的 PCB 板背面，用铜柱挑高固定。EMI 滤波器向下连接软起动电路、 电荷 泄 放 电 路 和 主 滤 波 电 容 。 直 流 母 线 连 接 到SiC MOSFET， SiC MOSFET 安装 到 PCB 板正 面 。 SiC MOSFET 下边 放 单 片 机 及 控 制 驱 动 电 路 和 电 压 、 电流、温度测量电路。SiC MOSFET 输出侧连接到中心抽头高频变压器，变压器中心抽头作为输出端负极，变压器 2 个短线连接到高频整流模块，高频整流模块与 SiC MOSFET 安装到同一个散热器上，同时高频整流器模块的铝散热器直接作为电源的正极输出。 
 
 2.2 样机结构设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdZXia3ZXOkdic5lpuCh53HZRRo335TKiczVibztZ2BwKYSlnnG63cYibcnNA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_006_ced48bb275db.png)
 
 基于以上对样机结构布置，制作完成的 SiC 弧焊电源 PCB 主板图如图 6 所示。图 6 中左侧为三相整流部分，右侧为 DC/DC 变换器部分。输入电压测量电路 布 置 在 控 制 器 左 侧， 输出 电 流 和 电 压 测 量 电 路布置 到 右 侧， 同时 温 度 测 量 接 口 也 布 置 在 控 制 器 的右侧。2 个总线接口均放置到控制器下方。4 个 SiC MOSFET 的散 热 器 采 用 U 型散 热 器 ， 该散 热 器 下 接 SiC MOSFET，上方接 2 个二极管整流模块，同时该散热器作为弧焊电源输出的正极。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdp7t2B73ehA3HPGTEiaCf4yrZKnbSBbHU8ldqYWUb0gbx5PSJzkspvaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_007_551994c9e4f1.png)
 
 图7为最终研制的弧焊电源样机。总体按照左侧三 相 整 流， 右侧 全 桥 DC/DC 变换 器 的 形 式 布 置 。在三 相 整 流 器 中， EMI 滤波 器 、 整流 器 及 其 散 热 器 、软起动及电荷泄放接触器、主滤波电容以及继电器、控制 电 源 等 均 集 成 到 电路 PCB 板上 ， 空气 断 路 器 外接到 三 相 输 入 侧 。 在 全桥 DC/DC 变换 器 中 ， SiC MOSFET 和输出整流二极管放置在 U 型铝散热器两侧，采用同一个风扇进行散热。此外，由于输出功率和电 流 较 大， 导致 主 变 压 器 尺 寸 较 大 ， 难以 集 成 到PCB 板上，因此主变压器进行外置安装。
 
@@ -87,45 +87,45 @@ SiC MOSFET 的栅 源 两 极 添 加 电 荷 释 放 电 阻 和瞬态 抑 制 
 
 使单片机生成有限双极性的脉冲宽度（Pulse with modulation， PWM）调制 信 号 进 行 测 试 。 采 用 泰 克MDO3014 示波器从 SiC MOSFET 的栅源两极上直接测量驱动电压，试验结果如图 8 所示。所测波形从上到下 依 次是 S1～ S4 的驱 动 波 形 。 4 张图 分 别 是 不 同占空 比 时 的 驱 动 波 形 。S1～ S4 驱动 信 号 波 形 时 序 正确，上升和下降速度很快，S1～S4 信号直接没有明的互相耦合影响。MOSFET 上管占空比固定，下管的占空比可调。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdV31IsekSW15nqQFMZHFlnS9DZ0tCfggXhEiblmNmTgO16u2vSdx81gw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_008_5861f35b99c0.png)
 
 图 9 给出了驱动信号的上升沿和下降沿的细节，上升 沿 和 下 降 沿 均 不 超过 76 ns， 可实 现 对 电 源 开 关功率器件的精确控制。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdajVqCOtLtZ3IiaxABTMuMFplKywESP8SNZ1HA2QleNL0lGzvEarZeyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_009_d3914dab32c0.png)
 
 3.1.2 全桥移相调制测试
 
 图 10 为全桥移相调制的驱动波形试验结果。从上到下同样依次是 S1～S4 的栅极驱动波形。S1 和 S2 是左桥臂，S3 和 S4 是右桥臂，右桥臂比左桥臂滞后了一定的相位，4 张图分别是不同之后相位的试验结果图。S1～S4 信号同样没有明显的耦合影响，波形清晰干净。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdMicvZ1I5R23tqrL8qRibbrQV994UpK8HEicFCO27pzfYQs2UuM5ZQGaeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_010_bcc94faba009.png)
 
 采用 60 V 的直流电源对弧焊电源在以上 2 种调制策略控制下进行逆变测试，测试结果如图 11 所示。从试 验 结 果 可 以 看 到 移 相 控 制 时， 逆变 电 压 波 形 较为干净清晰，零压时与 0 轴重合，而有限双极性 PWM控制 时， 当逆 变 电 压 较 小 时 ， 有较 大 的 谐 波 ， 逆变 电压增大时谐波减小，但会一直存在，且零电压时无法和 0 轴完全重合。从单片机生成波形的角度，移相控制具有确定的死区时间插入，可靠性较高，有限双极性控 制 需 要 通 过 控制 PWM 的占 空 比 调 节 值 来 保 证死区的出现，可靠性较低。综合考虑下，决定采用移相控制作为弧焊电源的调制策略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdzfSKReEG3BC5WChibtJBpXPcqcxdqaRcN80LHtKvXicylP8vQF5PEaYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_011_3483b5bdf5f9.png)
 
 3.2 开环测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdJuSA3apzX6sicU6lF0a0xG4BPZsT39lFqqyqEibEzS4dHicsvKTU7Pl0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_012_b5593e159b91.png)
 
 试验平台包括三相电源、空气断路器、弧焊电源、负载箱、万用表、电流钳以及示波器。图 12 为测试平台的连接图。弧焊电源通过空气断路器连接到自耦调 压 变 压 器， 从而 连 接 到 三 相 电 源 。 负 载 采 用 低压大电流的负载箱，采用万用表测量电压，电流钳测量电流，示波器测量输出电压波形。
 
 在空 载 条 件 下， 首次 通 电 先 逐 渐 增 大 输 入 电 压 ，以测 试 弧 焊 电 源 工 作 是 否 正 常 。 测 试 结 果 为： 首次通电测试，电压增大到 318 V 时，电源指示灯亮，输出侧显示电压为 77.17 V；直接上电测试时，全压直接上电后， 电源 指 示 灯 亮 ， 输出 侧 显 示 电 压 为 77.17 V； 多次上电测试时，弧焊电源均能够正常工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdibRheJ68JLiauhF4NOZic9Qxoa6ka4UQPy4wVTxKTK2cyPzKdgAEwxNNQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_013_47d3d5fe47d0.png)
 
 图 13 给出了示波器采集的弧焊电源在空载和带载条件下的电压波形。图 13(a) 为空载时，输出电压为77.1 V，图 13(b) 为带载时，输出电压降到 36.2 V，同时在空载和带载条件下的电压波动也处在合理范围内。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdA1RqPlZwXNpu0XXcUqXSsETGcj9j3wdocUSicibQUMo9S8DlFQIJhPwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_014_41a74ac7d987.png)
 
 此外， 由于 弧 焊 电 源 的 所 有 器 件 集 成 在 一 个PCB 板中，这会导致弧焊电源的热量集中，进而影响电源 的 安 全 工 作， 而电 源 的 散 热 效 果 与 电 源 的 结 构设计 密 切 相 关， 因此 电 源 的 结 构 及 散 热 设 计 至 关 重要，为检验弧焊电源的散热效果，需要对工作中的电源的各个器件进行温度测试。电源内部的损耗大部分会 以 热 的 形 式 散 播， 对于 研 制 的 大 功 率 高 功 率 密度弧焊电源，因其集成度高、内部空间有限，会使热量更加集中，而该电源的高频逆变器部分以及高频整流器部分散热压力最大，因此，应重点关注电源中 SiC MOSFET 和整 流 二 极 管 的 温 度 ， 图 14 为弧 焊电源在轻载和重载状态下的热成像图，在这 2 种负载条件下高频逆变器、高频整流器及其散热器中的器件温 度 都 很 低， 且其 余 的 器 件 的 温 度 也 在 其 耐 温 范围之内。 
 
 3.3 闭环测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdib1IvjHFLFj7mj3fmnfibVc7m88mE8gS2AgeJvIPj327oTtgewicoI03w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_015_70b4ead413d9.png)
 
 图 15 为文中所研制的弧焊电源在直流输出下的电源外特性曲线，在输出电流为 0～500 A 的范围内，研制 的 弧 焊 电 源 可 实 现 恒 压 平 特 性， 且输 出 电 压 控制精度高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslD9lCia4vg1D7zZK5SmNXtdcDic79kic0M6GFAdOOXlgom3gPLfiaBQmRNM8NPEMiacsSrPl4M3UUEOiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_016_c9da28f68fea.png)
 
 图 16 为文中弧焊电源在额定输出功率范围内的能效 曲 线 图， 由此 可 知 ， 研制 的 弧 焊 电 源 的 能 效 随输出 功 率 的 增 大 而 递 增， 当输 出 功 率 为 2.5 kW 时 ，弧焊 电 源 的 能 效 达 到 额 定 效率 86%； 当输 出 功 率 为20 kW 时，所研制的弧焊电源的能效达到的最大值为88.49%。
 
@@ -145,13 +145,13 @@ SiC MOSFET 的栅 源 两 极 添 加 电 荷 释 放 电 阻 和瞬态 抑 制 
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_017_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_018_3e86d23c0841.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于_SiC_器件_的_大_功_率_高_功_率_密_度_弧_焊_电_源_images\img_019_9bbc7b9b15a2.png)

@@ -3,33 +3,33 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Ttx5GJdlT3uTmEF3KdArEw](https://mp.weixin.qq.com/s/Ttx5GJdlT3uTmEF3KdArEw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6Fvj7W1CtZibib1iaszQc2rbG6kyicibPfzgYWxAia9jPsYTh6FNg8KVATvRBTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_000_2c5a7390daf9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvZNm4ArqXI9PztWug543ricDLrMsMdHvOyKcRLOvgWrqDpzI2xrYdH0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_001_33d4dbc153ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6Fvy8ekGAmxGAZyeiaLaOlCC8Cia6uHCAjqA3pSYfOEhI7IRqtkUSFJ6V8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_002_f211884e4d15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvTA9Nh8xJG0LOpBJLV2dYEg3T8lzsxxibzR5IsMZ4XQJsftOWJsXCCRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_003_678c877b3d9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvJM0fm8qhtibv4510ABjuoib853Z4ic8ic97DgSG2lAb8WxFicv9fJfOvjSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_004_ed260fb597eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvdeE13ya45gg15ibxfDcXyRKbmCXFIx5JMpVyN8eJ9I3j1cMRibC41eQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_005_f3a60ab25813.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvVJlozhB3icic5rGdia58qEWOSp9W0SPtR1QWbwbyLOopobD939kXoiacMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_006_21da6d98ddf4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvslsZlITdSt8HUvrn5BxoL88609fQb3BKvhiaylNzISkU3eUfcgdHI6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_007_a840a7c57790.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvvpO39ntP8TAAbPwtGahlxCWBMClEIibQWbqDsbia1skIquQjDmNBYdvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_008_db0163d3d539.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvInpBfEsVgUzBibKzl1Jshosc87TpdakicX21NKLdMNU25zEvy3yZDmOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_009_436463b355e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvK1I02G5tyzbrgXWSLSPdNcAj1vo2p5erZKIRdXMbT03UoGk1ricxicjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_010_c32e4b6637e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvgE7dXBDyV0TfdqzjJMpmOTKoWj2CrAanKrq2uF3YjY0ldGzSdiclxeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_011_d950175ba3ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk657YTFBIgNibaR5hSJC6Fv4mlLKCnn9icQBEtCDhEbSZlWyAAAzdvDGPfUbibKXhoRWPVCSqZDm2uQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_012_67dc1d1e17d1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk657YTFBIgNibaR5hSJC6FvpPVZVctfLE7iaNoJDsGnBzHXn4uhfiamiagwWtGua5Q2y77HVB79KZbhw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOS在汽车OBC的应用__images\img_013_e542dfad57dc.png)
 
   
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/C\_LfE9fCFI2frKjT6Yfs3w](https://mp.weixin.qq.com/s/C_LfE9fCFI2frKjT6Yfs3w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIacLXLcZ42xwXyj2smib6TibKNwJ8xKhNswoRrQ2d9llwqrafmpWhpKSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_000_2532c99a17d9.png)
 
 ____**★★★**______Power-1---同步降压控制器______**★★★**____
 
@@ -15,13 +15,13 @@ __€1.拓扑结构__
 
 如**_图1-1_**所示，外部电源开关同步降压控制器即指第5部分，为1和2的合并体，3和4部分外置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26368F5F2FibMttlXdFYpM0Zq9DKM0GZib5gIFbrvGLIb8RUgFibYbibtibTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_001_f956faba6145.png)
 
 **_图1-1：外部电源开关同步降压控制器结构_**
 
 如**_图1-2_**所示是一个单相（单输出）的外部电源开关同步降压器的结构图，顶部栅极驱动器和底部栅极驱动器分别驱动开关MOS和同步MOS。这样的结构带来的好处就是输出电流可以做到很大，外置MOS使得散热非常好，控制器基本不发热，当选用MOS的RDS越小，整个电源效率越高，热耗越小，散热也只需要对MOS进行处理，缺点就是整个供电模块体积会变大，Layout要求也比较高。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIeBRx6LfJerrWbIWs6obTbJK0PBeSUwYzB49NxutWkIuNib3dCicdZvWg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_002_c4678ec7cf56.jpg)
 
 **_图1-2：单相单输出_**
 
@@ -33,7 +33,7 @@ SW：电感器的开关节点连接，该引脚的电压摆动是从低于接地
 
 INTVCC：内部调节器输出，作为上管VGS的增量电压，需要使用较大容值（最低2.2uF）的低ESR钽或陶瓷电容器将此引脚与GND解耦，且注意Boot电容的值。（传送门：[DC-DC-19：如何设计Buck变换中的自举电路](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490899&idx=1&sn=b1ebb4a1fac6ac454c017974e74fbd75&chksm=c33557ccf442deda372737283284d77df99ce58fde03b3f5982cf36587ac2888274c3a7f707e&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTDvgGz5rIFTyMz88rd1EJGc2T22WMnlGCE0EwOsc8YrVdWr8GXoRib6MCm4oricETYK8QvVSKY6b0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_003_a45431f4b532.png)
 
 **_图1-3：同步降压控制器结构图_**
 
@@ -67,9 +67,9 @@ _功率MOSFET和肖特基二极管（可选）的选择_
 
 主开关占空比Dm=Vout/Vin，同步开关占空比Ds=(Vin-Vout)/Vin，最大输出电流下的功率损失：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIUl4t70D7PIHZ7ngpKfJPNnzc6IMT1Zzrt6icseyjiaKXdKsibqwnut4ng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_004_7a038fbea0e3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtImkDqESbuKawI77ctcuhtWszerM27la3pJPeEjgerwb1VicIWoBtI8wA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_005_28f39a07d2be.png)
 
 其中δ为Rdson的温度依赖性，Rdr（约2Ω）是MOSFET的Miller阈值电压下的有效驱动电阻，Vthmin是典型的MOSFET最小阈值电压，f是工作频率，Im是持续输出电流。
 
@@ -81,7 +81,7 @@ _最短开启时间_
 
 最小导通时间Tonmin是控制器能够打开顶部MOSFET的最小时间持续时间，它由内部定时延迟和打开顶部MOSFET所需的门充电决定。低占空比使用时可能接近这个最低准时时间限制，应注意确保：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtI3nnsxVr34nIbzSLicNXTiamPyU5mazaW99JVdyG2SGdNTHEcgaYm4mLg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_006_2034d6878b2c.png)
 
 如果占空比低于最小时间的范围，控制器将开始跳过周期，输出电压将会继续被调节，但纹波电压和电流将会增加。
 
@@ -99,14 +99,14 @@ ____€4.开关MOS和同步MOS选型____
 
 5#：温升，Rdson
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26Z8ITaicsGCwDDFdfee2MQhog9bLEucpJZ9f6XMB5n3ArCdjjEmlfI9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_007_8b61e809325c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26XvoNjGia2nBR9842mt45jmXibraJJVpzibXrWNuenShGM7Gxw9KmgltRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_008_c4b057594949.png)
 
 **_图1-4：NMOS-1特性_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26P2NakHIMptuwZWv6Ax3mdykDWHiasrgjqseUFdCXGYIR5jDnjeywRXw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_009_c140e5f5bb76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26FOss0cWB9bm3YzmhZ1Wc5UQfjia4LdCC2X3YPoSyHTlCEcV1C4uGHNA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_1_外置开关同步降压控制器_单相单输出_images\img_010_0fd796f424dc.png)
 
 **_图1-5：NMOS-2特性_**

@@ -3,27 +3,27 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hy6IdHJC8CJE-tGFX5pB0w](https://mp.weixin.qq.com/s/hy6IdHJC8CJE-tGFX5pB0w)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_000_7aee9f5e0b9f.gif)
 
-[********![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV5CjJ3O99USyGSFKDbXmDWKDzSmnZEyRJztTQCoTfndg93fz5GAywnKKsPAP2g9O7aicYaGuQJxLw/640?wx_fmt=jpeg)********](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650647076&idx=1&sn=161b7ed50ef19acbf22f73b9696d2e0e&chksm=88bc012bbfcb883d777df314b9ef9f35e98f4d385835af473d11f6b5cc7d5486eea0d24ac0e8&scene=21#wechat_redirect)
+[********![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_001_a1f0dfe62be6.jpg)********](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650647076&idx=1&sn=161b7ed50ef19acbf22f73b9696d2e0e&chksm=88bc012bbfcb883d777df314b9ef9f35e98f4d385835af473d11f6b5cc7d5486eea0d24ac0e8&scene=21#wechat_redirect)
 
 “电机原理与现代控制技术”研修班是由王松教授主讲的电机控制线下基础培训课程，自招生开始以来得到了广大西莫会员朋友的高度关注和积极响应，优惠报名活动将在本周五前截止，请有电机控制迫切的基础学习需求和提高愿望的朋友抓紧时间确定是否参加。
 
 本次培训用的辅导教材目前已经准备就绪，将在本周末送到各位参加培训学员的手中，相信这两本厚重的培训资料将对大家课后巩固学习起到重要的帮助作用：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVPnpjWHR0EckeFcibLqAZlicAxxokfhicXvwux4DnXocp2oiaP915OIlXjSqJgrEcxqS6rgh1b8aff6Q/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_002_c558a309cb9b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXxpuY6uibf5cicbSE8ZxdvHsEAXGqEmibYmQAWk6XTzmrRUib3206O3A7icoZn3ZRWyO1qNo0IIHgibVLQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_003_23c929742267.jpg)
 
 确定参加的学员，我们已经给您的报名邮箱发送正式的确认函，请大家注意查收。还想要参加本次学习的朋友不要忘了培训报名的快速通道就在下方海报中的二维码，扫码报名联系，锁定参训名额：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWFuK7nsyeXJn2SDcb3ia6kvr4roz0nw0kfMcQ7MJ1bicWEzAuqvdTia5anWbBcvSfs6EXOGwQEMibqTQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_004_53366d8a46cb.jpg)
 
 本次培训的具体内容介绍如下：  
 
 授课背景
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_005_9804512d6c06.gif)
 
   
 
@@ -39,7 +39,7 @@
 
 课程简介
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_006_9804512d6c06.gif)
 
   
 
@@ -61,7 +61,7 @@
 
 授课老师
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_010_9804512d6c06.gif)
 
   
 
@@ -73,7 +73,7 @@
 
 授课对象
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_007_9804512d6c06.gif)
 
   
 
@@ -89,7 +89,7 @@
 
 课程收获
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_009_9804512d6c06.gif)
 
   
 
@@ -101,13 +101,13 @@
 
 课程大纲
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_008_9804512d6c06.gif)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXxpuY6uibf5cicbSE8ZxdvHsIP2GHytv66veLiaicz5jcD7MoFwdialHKWFeLbCaskP6Gy8WlBOr2ibJ3w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_011_5bba986a5eff.jpg)
 
 可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程安排一定的软件讲解与操作练习，并在课程结束之前安排互动交流环节，现场答疑和交流。
 
@@ -115,7 +115,7 @@
 
 增值服务
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_012_9804512d6c06.gif)
 
   
 
@@ -141,7 +141,7 @@
 
 培训课程费用及报名
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWhqV9LRMPpNjqTqTjl1EhFe2XujeqCoT7A3g9e2X7v8vib9mkJ3ZjSScnoIskKtxHudMBRjZfsSpVg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_013_9804512d6c06.gif)
 
   
 
@@ -155,13 +155,13 @@
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVibZOM9zH80XCicRsXIBQRnFKegYR493b6pHFDF0PHOAQrJCSIl1Gvx1I24yrFVibCwWASKY9Ud4AqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_014_24a944c66666.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_** 欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_015_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXQq2hiaXPjVHp10oib8cOwc4VzRDltPY9m3LoesyAC8PmS4aBKIvaw7lxqicqRhYb8XY8CoWZsQicHkA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650647192&idx=1&sn=dee029fe6dbd695dd297dafdf9f6e53a&chksm=88bc0197bfcb8881298660c03112d25ccab42e36660c1012961b4dd84dadb9dc625197380657&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_016_d1770cca8eca.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650647192&idx=1&sn=dee029fe6dbd695dd297dafdf9f6e53a&chksm=88bc0197bfcb8881298660c03112d25ccab42e36660c1012961b4dd84dadb9dc625197380657&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_017_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_018_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制红宝书即将再现江湖_更有PSIM专著免费相送__images\img_019_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

@@ -7,7 +7,7 @@
 
 # 一、这张图到底在讲什么？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvZLBEIy4JN3vmes47ibiayK4ia0uCOe3ComHdeJUVkBYem07iaVIjXqibdribQHZ8XHEl8LicZjT2AdjbFh7tasprO4iaSh3q34Ukc6As/640?wx_fmt=png&from=appmsg)
+![](雅可比矩阵（Jacobian_Matrix）__局部灵敏度表_images/img_000_00751d15ce98.png)
 
 这张图想表达一个核心思想：
 
@@ -42,7 +42,7 @@
 
 # 二、什么叫“灵敏度”？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuicBuLmfVNolBBUGAyvtZxicYQn9bibGVNTSOTldG7CZ7y8ksqQCCTDsLBkMS3vianfX8ic32kAnickgJervZicN9icFB1ffgpoicWGM7A/640?wx_fmt=png&from=appmsg)
+![](雅可比矩阵（Jacobian_Matrix）__局部灵敏度表_images/img_001_6e9181173818.png)
 
 图中提出的问题是：
 
@@ -122,7 +122,7 @@
 
 # 五、怎样读懂矩阵中的每个数字？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctR50wtfHTZh6T6L9gkqUEVUMibR9BJicJia4u5Foeic4rj6dnLGGvIRx79bsKWH2RtcKThGO0XVg3ic5HA9WsA0yXccZ2SaDd6F9wk/640?wx_fmt=png&from=appmsg)
+![](雅可比矩阵（Jacobian_Matrix）__局部灵敏度表_images/img_002_2c7fbcea5276.png)
 
 ## 1\. 第一行：输出  的灵敏度
 
@@ -313,7 +313,7 @@
 
 # 十、为什么图中特别强调“局部”？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctiaq83DOGkn4umuCPJaJzsdE7O4dmcmYTicLeCib1OnD1Fdxl0HN4Zh6bW6a9KG1ibySg9wvOxsMtwicas3MFyDwicUskeenajeDDd8/640?wx_fmt=png&from=appmsg)
+![](雅可比矩阵（Jacobian_Matrix）__局部灵敏度表_images/img_003_4ecc52a04f28.png)
 
 图中有一条弯曲的公路，并使用放大镜观察一小段。
 
@@ -366,7 +366,7 @@
 
 # 十二、下方的蛋糕例子
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsv5D9icovm7PAVicPict49FI2CZpVwZDWvIJ77ezjg0gYRxnU0Q9HOpr1IMzD87tEIViaNDSibwMygvDGacCGe433DYvE9ic5DVnKSM/640?wx_fmt=png&from=appmsg)
+![](雅可比矩阵（Jacobian_Matrix）__局部灵敏度表_images/img_004_e4a854f7a835.png)
 
 图片最后把汽车换成做蛋糕。
 

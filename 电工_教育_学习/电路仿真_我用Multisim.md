@@ -12,7 +12,7 @@
 
 **文末附下载链接获取方式**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2xzrX0eSIFibicG2TghPWRwNsYMQe75ERv69AhdHiasZF8aZ8ayvSaqWow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电路仿真_我用Multisim_images\img_002_04228f32a04a.png)
 
 首先，简单介绍一下Multisim。
 
@@ -33,19 +33,19 @@ Multisim是美国国家仪器(NI)有限公司推出的以Windows为基础的电�
 
 1、软件启动
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2LDcaabP7XvpECubEoYFMNQZ34LXrmiax52W6MJrLWm4SQ072Hez78xQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电路仿真_我用Multisim_images\img_003_0314dbb5aeb6.png)
 
   
 
 2、整体界面  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2vGabb4HolyoCqNibgLVMicSNwtOKzoeJzJ7iaSqBXHFdAjmPcSRHs3iaiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电路仿真_我用Multisim_images\img_004_e221655ff278.png)
 
   
 
 3、最上面的菜单工具栏
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2q9IUZRjKOeSb6GQM0JQGahqnYmNBaKTC15mxvmnuy8fV7A2kWpIBHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电路仿真_我用Multisim_images\img_005_57a3600b5821.png)
 
 4、元件选择（常用的元件还是比较多，但是集成芯片相对较少）  
 
@@ -53,7 +53,7 @@ Multisim是美国国家仪器(NI)有限公司推出的以Windows为基础的电�
 
 包含万用表、示波器、逻辑分析仪......  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2xpibM0zHMXZl3llJ8pEI4lJlRPibfsXxiaRJToHyUItsdn8GqaJibMwStw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电路仿真_我用Multisim_images\img_006_31fd5347d566.png)
 
 后台回复“**Multisim**”，即可获取百度下载链接。
 

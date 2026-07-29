@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/61-ZX8-rS2Shw8PmGKXp0Q](https://mp.weixin.qq.com/s/61-ZX8-rS2Shw8PmGKXp0Q)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_001_9011be9decf6.gif)
 
   
 
@@ -28,9 +28,9 @@ Type-C接口的种类与功能
 
 这是最简单的版本，只包含VBUS（电源）、GND（地）以及CC1、CC2引脚。它适用于只需要通过USB取电而不需要数据通信的场合。CC引脚用于PD设备识别和功率协商。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U7icQl0tVrYxqo5WDUNog2OQ6GKWib7gibibDxNHjicKDRDGbiamL6hv8p8olQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_002_010ebfa3d8f6.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgsG3bKJSLDfTO178GDzhh7g0snZUCysnb5gLvdTNQe9nKrm7In4tt19ufLJwKVwdl5k90VSmcChw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_003_4eeae79066dd.png)
 
   
 
@@ -38,9 +38,9 @@ Type-C接口的种类与功能
 
 在6引脚基础上增加了数据线（D+/D-）和SBU1/2引脚，支持USB 2.0数据传输、PD快充以及部分视频传输功能。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U7Xia84rswnEibHwQmTXUjyT5HBaficsQicOo8GrIHLQlZRMDKa5lncU5nyQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_004_68d17260728a.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U7ROWwAjMBjSM3tvvpxlzNCxCoibYtviaf2xhp0m8UQV92DWtdTJibFj7Cw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_005_635e072a8151.png)
 
   
 
@@ -48,15 +48,15 @@ Type-C接口的种类与功能
 
 这就是我们常说的全功能Type-C，它在12引脚基础上增加了完整的USB 3.0/3.1高速数据传输所需的所有差分信号对。只有这种配置才能同时实现高速数据传输、视频输出和PD快充。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U757C7UPUUq5ymJcMRO9EsJzuwFVKicMR1ELSUrTRrOQ5ICA1fw2qpdRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_006_1d803eb12c39.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgsG3bKJSLDfTO178GDzhh7dbWGHiaeROs5NUGgAYvUBI3R6zBhYFvzjpS1RrMSs8noWUHWicicLrvqQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_007_ab342a5d182d.png)
 
 ### 母头/母座引脚定义
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U70fnr2SJNuEYrIGAyeq6FLo4ZX940ibzib4iaLjRBtCXO29SCibzePmVNyA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_008_7f6abfab0e48.png)
 
 ### 公头/插头引脚定义
 
@@ -82,7 +82,7 @@ CC引脚的关键作用
     
 -   **受电端（Sink）**：如我们的设备、U盘，其CC引脚应通过下拉电阻（Rd，标准值为5.1kΩ）接地。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPktTI5yu022oC3HlGjHpt05YK4EicqmEicBJWRs8PktWz2rjAicibLhEt9wJHPUgz4UpDZdhSVnWiaxg/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_009_93f7ecc6159e.png)
     
 
 当两者通过C to C线缆连接时，供电端会检测CC引脚上的电平。如果检测到被下拉电阻拉低，就会识别出对面是需要供电的设备，然后打开VBUS开关输出电力。如果检测不到下拉电阻，则认为对面也是供电端或连接异常，保持VBUS关闭。
@@ -97,7 +97,7 @@ CC引脚的关键作用
 
 在作为受电端的产品Type-C接口电路中，**必须在CC1和CC2引脚上分别添加5.1kΩ的下拉电阻到地**。我们在样品板上飞线添加这两颗电阻后，问题立即解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPktTI5yu022oC3HlGjHptdhNNicDMyfwWqUXVmiau1mO5RjxttcMOib1lqThia7e2eiaIg4KxQfibaehA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_010_0910addbef70.png)
 
 测试时，不能只用传统的A to C线，一定要用C to C线完整测一遍。画原理图做检查，也要把CC引脚电路当作必查项。
 
@@ -105,12 +105,12 @@ CC引脚的关键作用
 
 推荐阅读（点击如下三个图片分别进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRnEclicce8icmY2Iibicic1bZicEvb4zqqcaxqibn4g0MaBfiaZv3TlxecCv8gw/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=27)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561890&idx=1&sn=4fd14261f9dcadcedf7fc2454707818e&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_011_8a81b152200e.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561890&idx=1&sn=4fd14261f9dcadcedf7fc2454707818e&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRefz57EqtooVELnOnBUyvYHfiamuVicoWgrYpooXuJHhnU3Kqiavdnvv2Q/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=28)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561879&idx=1&sn=c52935989030351a5dad4d9aa91d7504&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_012_b944ca83b113.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561879&idx=1&sn=c52935989030351a5dad4d9aa91d7504&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRibI3baT1Jljt2v4ewYYCtIP5IL4W6zCLbf20A4B2MzRhv1vftsysKmA/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=29)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561530&idx=1&sn=17ec3e2817c30d0cb8480e84a98e933f&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_013_e481c7330971.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561530&idx=1&sn=17ec3e2817c30d0cb8480e84a98e933f&scene=21#wechat_redirect)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgPktTI5yu022oC3HlGjHptYyicop42QGicIfrojNWqMicbcQpGrCCURUunqAXEEZHE63YQJKJiah0f2Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_先把这个5_1K电阻圈起来_images\img_014_425101a496b8.jpg)

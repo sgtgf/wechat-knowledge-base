@@ -27,7 +27,7 @@ Department of Electrical Engineering, City University of Hong Kong. 
 
 Doctoral Thesis, https://scholars.cityu.edu.hk/en/studentTheses/active-janus-sources-theory-design-and-application 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98xiamqkWenPRqtZ4x1xPibqB1ALOZSOfsQZNKNy4EBlt2IjbicBV7mBnJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_港城大博士论文_有源Janus源_理论_设计与应用_images\img_000_091f02ef7716.png)
 
 论文简介
 
@@ -39,11 +39,11 @@ Doctoral Thesis, https://scholars.cityu.edu.hk/en/studentTheses/active-janus-sou
 
 惠更斯源以其定向辐射特性而广为人知；而雅努斯源——一对共置、正交且具有90度相位差的电流源与磁流源——则以其准各向同性的远场辐射方向图和在波导耦合方面所展现的近场方向性而著称。尽管惠更斯源已广泛应用于天线与超表面领域，但雅努斯源的应用迄今仍十分有限。现有的雅努斯源要么局限于理想电流源模型，要么是被动散射粒子，这阻碍了它们在定向器件中的高效利用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98Y7rj05GrYAI7WtdPIhkMrXwiaIyp01LjksjP4yjDicXzySBhIs5aXC5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_港城大博士论文_有源Janus源_理论_设计与应用_images\img_001_b0a4175b518c.png)
 
 三种定向源（圆源、惠更斯源和雅努斯源）：（a）近场方向性的物理表征：自旋角动量、时间平均功率流和无功功率。（b）结构配置及其对应的近场方向性。
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98Oiaup2Deqz6mjRqlZUxRwutjkvrUaFnH2PPRSXUic6lrqQjMrUuao9Aw/640?wx_fmt=png)
+ ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_港城大博士论文_有源Janus源_理论_设计与应用_images\img_002_fe5d285ddcce.png)
 
 由电偶极子（蓝色）与磁偶极子（红色）组合构成的有源定向偶极子源：（a）由两个相位差为90度的正交磁偶极子组合形成的圆磁偶极子。（b）由同相的正交电偶极子与磁偶极子组合形成的惠更斯偶极子。（c）由相位差为90度的正交电偶极子与磁偶极子组合形成的雅努斯偶极子。
 

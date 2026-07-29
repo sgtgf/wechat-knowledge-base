@@ -12,7 +12,7 @@
 
 答：满足产品功能要求、减少调试时间，使产品满足电磁兼容标准的要求，使产品不会对系统中的其它设备产生电磁干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlI6eQIIS7dKOUQJwyEAGNzCnC6drMibYkfia6uKnlLXic1LAzS8iaB6iafeWQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_002_a50726f4f3e3.jpg)
 
   
 
@@ -182,7 +182,7 @@
 
 答：首先，EMI的测试包括近场探头和远场的辐射测试，任何仿真工具都不可能替代实际的测试；其次，Ansys的PCB单板噪声和辐射仿真工具SIwave和任意三维结构的高频结构仿真器HFSS分别可以仿真单板和系统的近场和远场辐射，以及在有限屏蔽环境下的EMI辐射。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlInNr8AI34CQGeUzE2LMmAlDM0aFmCZ5ZsJlcMvjZuKMm1IpRa9Cb8Sw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_003_3b4d552e4d46.png)
 
  仿真的有效性，取决于你对自己设计的EMI问题的考虑以及相应的软件设置。
 
@@ -194,7 +194,7 @@
 
 答：Ansys的工具可以仿真从直流到几十GHz以上频率的信号，只是相对其它工具而言，1GHz以上的有损传输线模型更加精确。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlI3ibAsDdmxLkvMb5aIb1nyrR7FZ5OibCBUt0yIGy1CmuCN6GAnvMbjm2Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_004_355b701ed347.jpg)
 
 据我所知，ADS/HyperLynx主要是做SI和crosstalk的仿真，以及一点单根信号线的EMI辐射分析，目前还没有PI分析的功能。
 
@@ -434,7 +434,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlI9icqrXwaiciaHGZYfFUicvyhtMoCDrYl6xwqs12HeGaGMl11DbibLbqm3rQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_005_3739608ea871.png)
 
 **37、在EMC测试中发现时钟信号的谐波超标十分严重，只是在电源引脚上连接去耦电容。在PCB设计中需要注意哪些方面以抑止电磁辐射呢？**
 
@@ -518,7 +518,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlIxSMf6PxzI6zxJoWpnYsaLnTVtico2kz1IGOTgm47a8pvf5AXl7u34lw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_006_dad05f64d5b4.jpg)
 
 **47、请问什么是磁珠，有什么用途？磁珠连接、电感连接或者0欧姆电阻连接又是什么 ？**
 
@@ -650,7 +650,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlIFYVrJmjgHKnp4MnQj6QB5mhHzicysicV3PrIP73FN6PicEG3vqeQibrbqQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_007_52ed2d1410f0.jpg)
 
 **55、电磁兼容的一些基本问题：认证中经常遇到的一些EMC问题。**
 
@@ -776,7 +776,7 @@
 
 答：是的，机壳要尽量严密，少用或不用导电材料，尽可能接地。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlIliadtVfPtl9ceQgVlbIeKe6b1jQhRJgaGJ9tmpYL40cdc5YJxcxGbPA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_008_5d219ea38375.jpg)
 
   
 
@@ -792,7 +792,7 @@
 
 而静电放电等瞬态干扰是一种脉冲干扰，其频谱范围很宽，但时间很短，这样频谱分析仪在瞬态干扰发生时观察到的仅是其总能量的一小部分，不能反映实际的干扰情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgfABxlq2SQxc39JlHX8hlI08QW1E6kd2Eqib4fOWfGdkibLJtSCian5hWNHwhgVgFvWD69V8VdyogDA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\70个EMC_EMI经典问答_images\img_009_64a256578d8e.jpg)
 
   
 

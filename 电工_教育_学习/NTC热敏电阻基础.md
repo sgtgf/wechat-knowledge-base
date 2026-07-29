@@ -42,7 +42,7 @@ NTC热敏电阻是以Negative Temperature Coefficient的首字母缩写命名的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQAQLaQTXMdjw8aQc5Bl76hlEZ24Ba3uybEfP0nibhbOarYNtFUT6cP6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_002_c28667e03da1.png)
 
 图1 : 半导体的导电性
 
@@ -84,11 +84,11 @@ NTC热敏电阻的电阻值是在有足够低的自热（由于施加的电流�
 
 特性曲线由以下公式描述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icKia8kBkJ8hd2WOuibCd5S6xbQHBQJARuZOwMIgEqaE102a3fNBZs2aAFDkWoI6Fk8iaxP9icklRpotRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_003_4ba56c635568.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQMqfsRicUIgqn13g0qwOGg1egjXnyHMXgC9HDvy7FibgdRMqQUicSMgXuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_004_26c209d98f81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQ3FN2Gt5a1pzpOTOe4ycAc1Rh6OSwhbw193IXIR1Ix6UgIZTgS6zYjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_005_d20fc2272bcf.png)
 
 图1 : NTC热敏电阻的R-T特性
 
@@ -101,25 +101,25 @@ NTC热敏电阻的电阻值是在有足够低的自热（由于施加的电流�
 B常数是表征NTC热敏电阻的单个值。B常数的调节总是需要两点。B常数描述了两个点的斜率。  
 如果选择的两点不同，B常数也会不同，所以比较时请注意。（见图2）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQH4MiaLqG6Hd0R1HrSeyG8sAXcgdwStMnF5TxhicUtZibKy1BnkDeiatbkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_006_258828413997.png)
 
 图2 : 2点选择的不同B常数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icKia8kBkJ8hd2WOuibCd5S6xbyCA2ibUSdZu4pGgHcTtxsiaDmiaSG6TlYIVetL3ElEicfWXkVzlnenzESQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_007_99774e6f5169.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQhD2MtIBFYk7JIbn1zUSSl4uFVwtdHfeEn3WhpwWSRYEhIVQHmgFakA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_008_9fe47364f63a.png)
 
 将上式（参考电阻 − 温度特性）变形后
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQLj4RYSP4VqAPTsZu3sMKRCZsNtftvXzxGPLib9YtkcOqH90ibVuCgq7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_009_0b170d63f165.png)
 
   
 
 如图3所示，1/T（T为绝对温度）与阻值成对数比例关系。可以看出，该关系近似于直线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQGBgqoTjJZiaVTwJBt0FDibT9zaFX1ejh5y9nXX7E6LA3xicKibab7N5yJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_010_e1ffbbcce7ab.png)
 
 图3 : 横轴为1/T的温度特性
 
@@ -127,7 +127,7 @@ B常数是表征NTC热敏电阻的单个值。B常数的调节总是需要两点
 
 NTC热敏电阻的V-I特性如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQsDqxX7KtZPvXRam15MFRzqcXM1D4KOicicm5ZZRMMEH5KGaib2g268h0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_011_618e40a2a099.png)
 
 图4 : NTC热敏电阻的V-I特性
 
@@ -146,15 +146,15 @@ NTC热敏电阻的V-I特性如图4所示。
 
 NTC热敏电阻在单位温度下的变化率为温度系数，由以下公式计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQsn0ZthuZ3M5TibxGTRjAChdkkPEbPwswFoBBmIy246o69zmvKWYBf1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_012_9f3c8c3c8673.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQnvsH2egx3iafYibjEBLxar1KrYBbFMBwiceoyC6cCMYsDIBK9HhAxCRBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_013_438ba7d68540.png)
 
 Ex）靠近50°C，B常数为3380K时
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icKia8kBkJ8hd2WOuibCd5S6xb1GeibnCzLguYibXYesXmm8Pw74ZpLsATWfxdS554ibRVE4Mnz8gPMQ3NQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_014_0fa6d1a8cb3f.png)
 
   
 
@@ -162,15 +162,15 @@ Ex）靠近50°C，B常数为3380K时
 
 由此，电阻温度系数由下所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wOjke8xO2icKia8kBkJ8hd2WOuibCd5S6xbG7wZ2lyiaeSsja9H8Z51OaEZ01FF6LLMFKQz1jqHq5pbWzibaU47eSsw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_015_b062da7921a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQeBQyxw0b09hFsR9k7Z93ibHHQHXiaicXKt8qXHPtbzAwHKibMJLAG0yezw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_016_7410c5d4a3fb.png)
 
 **热耗散常数（δ）**
 
 环境温度为T1的情况下，当热敏电阻消耗电功率P（mw）后其温度变为T2，则以下的公式成立。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQ9vw9EicfjkwNDe0aAUufjA0iaQHZt1j6GRlxicFVib0P3810kuj2yBznjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_017_d519eaa20a52.png)
 
 热耗散常数δ是指在自发热条件下提高1°C温度所需的功率。  
 热耗散常数δ由“功耗导致的自热”和“散热”之间的平衡来决定，因此根据热敏电阻工作环境的不同而变化显著。  
@@ -178,7 +178,7 @@ Murata定义了“单位元件的热耗散常数”这一概念。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQh3TfM9TaPJB4514XWgHyOiclhqTYUVNLXbuQn8cFX1WtRzjmnszvV6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_018_1ff15d042edd.png)
 
 图5 : 贴片NTC热敏电阻的散热状态**热时间常数（τ）**
 
@@ -190,18 +190,18 @@ Murata定义了“单位元件的热耗散常数”这一概念。
 
 当保持在一个温度（T0）的热敏电阻暴露在另一个温度（T1）时，温度是呈指数变化的，经过时间（t）时的温度（T）表示如下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQVTnCS3jlWNJPrqkWOX52kJHQRXNGwDvHQmZ7tCRefbGDBCWs2bRwTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_019_936f0195de7c.png)
 
   
 
 这就是为什么τ被规定为达到63.2%温差的时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQoJcRPiaMyZq0apC6dX81FZfApOQWmdtgJrVDezaqLQlTUglYATBAD0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_020_64699779bab6.png)
 
 图6 : NTC热敏电阻的热时间常数  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQic0YcCwiagZZXSbpVrf5KueqVaZYohWcGu6VPEZdCKfCg63TnzLU4gbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_021_8a9e267e9d4c.png)
 
   
 
@@ -210,7 +210,7 @@ Murata定义了“单位元件的热耗散常数”这一概念。
 可直接施加到热敏电阻的最大电压。当施加的电压超过最大电压时会造成产品性能恶化甚至毁坏。  
 此外，由于自发热，元件的温度上升。需要注意元件的温度不能超过工作温度范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQd3uRD4kofUDbV4bBqMr8U5dhOLyI9YICyJYrHSPdtDaErEzHZqKAtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_022_490c9b0a2234.png)
 
 图7 : NCU15型最大电压降额
 
@@ -224,7 +224,7 @@ Murata将最大工作电流、最大工作电压定义为施加时自发热为0.
 
 故施加电流 /电压超过最大工作电流 / 电压时并不会造成热敏电阻的性能退化。但请注意元件的自发热会带来检测上的误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQtvqEaaZSbuGAW8bZEeve7fknJQuT66Kwnh26DicicLhjm0KhUBj6FdXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_023_5aec2428a512.png)
 
 图8 : 散热差异导致的最大工作电流 / 电压的变化
 
@@ -245,7 +245,7 @@ Murata将最大工作电流、最大工作电压定义为施加时自发热为0.
 
 在自发热可忽略不计的电流（电压）下测量的电阻值。作为标准，建议使用最大工作电流。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQMkB2mZLN7bgQGmXOj0yRuLuo3U75tujH2JcYLE76ic6Vwo9EZ36xBjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_024_cf846f645735.png)
 
 图9 : Murata的电阻值测量方法
 
@@ -270,7 +270,7 @@ NTC热敏电阻测温回路
 
 SimSurfing : NTC Thermistor Simulator（murata.co.jp）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQfDW6iaxFAiaASibs8BhrPYCveP7kbrAD8YPibqVaz9gkUQ9S3Evzk2ryRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_025_1e1a639ed84c.png)
 
 图1 : 电阻接地和热敏电阻接地电路的输出特性  
 
@@ -282,7 +282,7 @@ SimSurfing : NTC Thermistor Simulator（murata.co.jp）
 
 输出电压可根据线路图而变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaVKLDPI7jzHgKfHQnBjUDQuTaOpjSe5qc38NrId2G276ibmAGvj0zneld05XSZkkNWEsqvYmvANLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_026_da8ca809596a.png)
 
   
 
@@ -292,9 +292,9 @@ SimSurfing : NTC Thermistor Simulator（murata.co.jp）
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_027_27e4e85ce630.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_028_26e7c42e5929.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_029_86e7b1720ef8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_030_607a9b5809f6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_031_c337f32f2ad2.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_032_845d28096f90.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_033_2e2b5ebc409a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_034_16e467ebcf07.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_035_ebed19ebd456.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_036_de9b387fc9a9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_037_fb5805018722.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_038_25764f7ff52f.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_039_f992681cd3b5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_040_d13d18656a84.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_041_fbbfff43554c.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC热敏电阻基础_images\img_042_05704500a9db.gif)
 
 ## 
 

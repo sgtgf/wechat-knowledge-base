@@ -5,13 +5,13 @@
 
 碳化硅（SiC)是由硅（Si）和碳（C）两种元素组成的化合物，其晶体结构稳定、硬度高、热导率大，属于宽禁带半导体材料。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaH5iajKmHztiaaweFtVRktuKichl2N4lO5GHbr34sRbWS8eRmnibNWHO743iaexxtIVNUjM43YWl4iaxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_000_44183ebf226a.png)
 
 在半导体领域，碳化硅以其宽禁带特性脱颖而出，非常适合在高频、高压、高温的工作条件下使用，性能优于传统的硅基半导体。此外，其低电阻率在高压应用中尤为突出，能提供更低的导通电阻，有效减少能量损耗。碳化硅还具有高机械强度和高刚性，能够承受高机械应力而不变形。密度方面，碳化硅相较于其他高性能材料更低，有助于减轻设备整体重量。在特定条件下，碳化硅的非线性导电性使得其导电率随电场强度增加而迅速上升，这一特性使其在避雷器等特殊电子元件中大放异彩。  
 
-![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/newemoji/Party.png)碳化硅器件的优势
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_001_1c72c0c18fca.png)碳化硅器件的优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaH5iajKmHztiaaweFtVRktumpRHpNYZQJIKDeoy0UEHBDul9grCOxj3EBmx6mPzQz7iaqyD9Zz1b9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_002_2c950be3dfdf.png)
 
 1\. 新能源汽车
 
@@ -55,13 +55,13 @@ SiC在高温（600℃以上）和核辐射环境下仍能稳定运行；在**航
 
 采用SiC器件，首先，它能大幅降低电力电子器件如电动汽车和太阳能逆变器中的能量损耗，从而提高系统整体效率。其次，由于其尺寸小、重量轻，碳化硅器件可以实现更紧凑的设计，节省空间并减轻装备重量。此外，耐高温和高电压的特性使得碳化硅器件在恶劣环境下具有更长的使用寿命和更高的可靠性。尽管其初期投资较高，但长期来看，由于能效的提升和维护成本的降低，碳化硅的总体拥有成本可能更为优越。特别是在极端气候和环境条件下，如深空探测和海底设备的应用中，其耐高温、耐腐蚀的特性显得尤为重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaH5iajKmHztiaaweFtVRktuFpbOgFSK8nlCFOdrlqoicvZslJOFMgKGmBdnHeMlNrHIDMWUk7rnA9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_003_676b76b3ddce.png)
 
 中国碳化硅行业的竞争态势愈发激烈，犹如一场没有硝烟的战争。据统计，中国在碳化硅行业（材料商+设备商+器件商）的厂家高达800家以上，行业之间呈现出激烈竞争态势-“内卷”。  
 
 “卷”并非意味着一味地追求低价竞争，向下卷成本，卷价格，而是一种在激烈市场竞争中求生存、求发展的策略，向上去卷产品的专业性+高品质，卷质量，卷服务。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmaH5iajKmHztiaaweFtVRktuTl49cgpCeDPbqZhOdSXricZrJUsXzMVBjMeReEf0uVUW4o9la4wNPGw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_004_dc7a4abcf649.jpg)
 
 ⚙️ 行业内卷的核心原因  
 
@@ -145,11 +145,11 @@ SiC在高温（600℃以上）和核辐射环境下仍能稳定运行；在**航
 
 下表：2023-2024年碳化硅衬底价格与产能变化趋势  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaH5iajKmHztiaaweFtVRktu57ibeicB49BYmyHYv0Lypd1nUibx3fPuj6QmnFtiaUIFZNmAM5DjyhpJrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_005_d90a66d8ee2c.png)
 
 下表：不同尺寸衬底的技术经济性比较  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaH5iajKmHztiaaweFtVRktuH6L09td7647XFEv8E3gbsOuiaibQnd8LsXpCdxFGiaAicfciavYuEoibAOZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_006_df71d7b56981.png)
 
 💎 结论：破局需“技术+模式”双轮驱动  
 
@@ -165,13 +165,13 @@ SiC在高温（600℃以上）和核辐射环境下仍能稳定运行；在**航
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkzM4nJZfIC5QgFfribRYKyjbkqtsIt2eIPXkibANybG66UoupfWrOwVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_007_5148264e0d9d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsBrKtVqic7bg0L03u2LcaOD95aUegJVoYxOwib1bEuX4eESgvK7RMrMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_008_b4862f61cfaf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqECTcGj3ia0RmTNR8afGnIARTia9BmzdfiadGhabibhxVeBEaUFZX5aHdCew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC行业_内卷__破局浅析_images\img_009_ed358d59c69e.png)

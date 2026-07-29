@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/rJli1IlONn9QYmb9i0V5bg](https://mp.weixin.qq.com/s/rJli1IlONn9QYmb9i0V5bg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电磁兼容_EMC\新手避坑_老手自查_这份图文EMC指南太实在_images\img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电磁兼容_EMC\新手避坑_老手自查_这份图文EMC指南太实在_images\img_001_cfc30a4da041.gif)
 
   
 大家好，我是王工。
@@ -23,7 +23,7 @@
 
 比如说电源滤波这个老生常谈的问题，文档里就画了两张对比图：一张是正确的接法，电源线必须先经过电解电容和那个小小的104瓷片电容滤波，再进到MCU的VDD和VSS脚；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgGPx2NMjUC986HaHjr783Bz7xR1q7DoXEGNvbFpHiaUveVTvmS3EAsHYkZEwbbH3icKqT5mpcwxpwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\新手避坑_老手自查_这份图文EMC指南太实在_images\img_002_21a5aaae2977.png)
 
 另一张是错误示范，电容被晾在走线旁边，成了摆设，电根本没被滤干净就进了芯片。建议也可以把电解电容换成钽电容，容值别小于10uF。这种表述，新手看了能照着做，老手看了也能会心一笑，检查一下自己有没有无意中犯过这个错。
 
@@ -41,7 +41,7 @@
 
 ### ****第二部分是CS（传导骚扰抗扰度）**，考察的是你的设备抵抗外界射频干扰的能力。文档列出了测试等级和标准，然后给出通用的改善方法，比如给电缆加滤波器或磁环、优化电源滤波电路、注意PCB敷铜的方式等。特别实际的是，它还针对“触摸按键”应用给出了专项优化建议，因为触控在干扰下容易误触发。它建议可以在触控通道上串联一个电阻，阻值在510Ω到5.6K之间调整，同时软件上也可以增大触发阈值和确认次数，让按键更抗干扰能力更强。**
 
-### **![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgwdX20YBCtFIIQssmJ3FELRKpMCuJFJ3XzTFjr307D8RE5WwwBkWu7BBfmMkj0qMhcLTPZ98vAibQ/640?wx_fmt=png&from=appmsg)**
+### **![](D:\电脑文件\公众号知识库\电磁兼容_EMC\新手避坑_老手自查_这份图文EMC指南太实在_images\img_003_e14b4abd4e3e.png)**
 
 **第三部分是EFT（电快速瞬变脉冲群抗扰度）**，模拟的是电网里开关频繁动作时产生的一连串尖峰脉冲干扰。这部分再次强调了电源滤波电路的正确布局是关键，一定要避免电源和地形成大的环路，把MCU包在环里。同时，软件上也要配合：没用的IO口设成固定输出状态、通信协议里加入容错机制、把看门狗定时器用起来，这样系统受到干扰后能自己恢复正常。
 
@@ -67,10 +67,10 @@
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgwdX20YBCtFIIQssmJ3FEL4ib0ClXg9KmoTw5bx1vWy7so2LM6fick9WrRqsPtN6uRD5HFOgQ2y0zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\新手避坑_老手自查_这份图文EMC指南太实在_images\img_004_2c172aa106d8.png)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgwdX20YBCtFIIQssmJ3FELYtjA7MOaY9o7NdbRPIrbRfVxsMVsSbaA1K4eZyo04Wk66YuWSspZgg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\新手避坑_老手自查_这份图文EMC指南太实在_images\img_005_e79a75006a6e.jpg)
 
 注：文档源于赛元，版权归原作者所有，此处提及的PDF仅用于学习交流，请勿用于商业用途。

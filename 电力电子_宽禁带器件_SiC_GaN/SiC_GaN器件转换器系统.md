@@ -8,389 +8,389 @@
 
 作者：Johann W. Kolar & Jonas E. Huber
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH3ZLYdOR5L9H04zu1rMYT3d0BMQibMEKcAibXhoMxnZ1O8MOkxOCWPibcw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_000_3b8593b70d57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHtgeTtmFic52SSiaNEWgoXlFcltBgiaQQicMjzbGzEXLKYyHvCN1ibmExF0w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_001_ed0b8c47c287.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHWKs47JuP5psoHjicnZdyw8Vjq8K2zKTicUIj3zdFiaSRicAoeibZk8ZaL8A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_002_9678cdaf1b05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHZPEh7mjE90SwUq1LlWrfayXLjubbK7BdQhlOv8rGb8ib1q36pHtq1kQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_003_0d19c6b5ea87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH4griatbicDwg5BdgsLhxpLeCqbh0l9OWB7rj9WKk748FZRrqULNELLYw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_004_fd76ba842414.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHEbpLLvtFNPsLib7afNG2k8gmribN42JRR8MzW2tYtezyvOSicRBDQ52dw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_005_700438ac30c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH2KibgBJsaVicbo6CaBdyrUJUiaAMiaBtnkc1YHzIWmFed1mzicCSlF1OQRw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_006_ed38c347d244.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHxsPHg9fC0QOES9w2v7GC7j817ruVWziaobKIQUF3qQqKhxa3sD7CW3w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_007_2a7c198db8c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHWrlSeT5JUvv2XnbmyDRbh6dR8bmlUjw0o8a4zhhAwESuVgVZYjKRnw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_008_17984279b5d5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHYsicH1rVVxSsKbGiao7wLLjGkImiaYlMLlOJPia5V5e2YDkg6lWyuvbKmQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_009_895f8aaa41ba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHqaibVH6PU5eW41COYPTNCwBIEY6toTnmzysPaTpQULA2sqcEiaFCmTxg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_010_766bf5bd5a27.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHhEeuswHt8VzPLPCrv8YRMg0gHafRgZhhgy2GXxh6y5DZsdDgs0ye2A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_011_a2a1bb09120f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHSbVxx2UPxvS5RKPaDB2mBhy9hbKojLxtyLSicgbGrKQVjhVEso4PMmQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_012_0875fcea94fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHGASA7JqialL4Afia7oknBdibnRXTbLatWEAUcT4qxvxoRveIPkEccABbw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_013_6bcde40f3050.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHvkx9icmpBqCNuYjUskaic5icGkv720XFgHE1xOf6Ria62lhibgNLibDoW0OA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_014_c24892e0d483.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHwZjMDu8HObEPtCxevvhDP6IGrItS3ic5pbw8iasBQ34a50PksDuENuOQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_015_6a5499198037.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHQWFiaicQjRxqJIIQFXrZWuTI0L2KQYtibtxcPawtiaJGAHssEZYqzgic8FQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_016_0a4ce4f281b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHmbRfjz3KYE8NVPSLXcEnrGHbjfic8NbQ9nP3oaSdcqdtsfuqAnUqKDg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_017_cd322bd54310.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH0Ip2ZQVBe81DXuBAiaUXk3Ysbd9VjPpkoo9ddofnSR8N6ortg8k0rfg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_018_8babd18995f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHjgicOEhdrW2etZYRQ29UibQRcpANFMrs3n1GSkXogvebuuYXqGToL1bA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_019_80c46669cb8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHiccAWO7a7kiaLhicxQia0SxCFGNOH5C0LT5EQ4RAuiaV2Smq1IQuGJCt0Wg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_020_27a254487bbe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHsGXPLZ4PwzMYAoblofwxojWuwaZ7ZUYgNCzRrIjDgYu5PiarnMjrW8A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_021_a870caff8ef2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHM987vXn22LtA6Jhia7IJib916UZyI1aRgLiaDZ6micxzz7fn7sXx5FicnibQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_022_f8f9ed0c004d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHHicle7Bf5F8K9ZKNVic4kepx1FwGiasSpBmCkHEqhWOzUj1ODsGCiae5bQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_023_7d1a7fd21b4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHhFnUGibSKBKzH3GoevU3nic5DcKTNHsWvfrmbwKMppJn7LtCGq6h5Izw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_024_a3fc67fdf17b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH2RMO8vnPuDXican0EVrK3Tmn8AcBvtVASrLXaID3dWRdic3ukA1RrKBA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_025_a88effb99153.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHFe9BR1ZSgLibzAxrlUvP9SWUK8sUQ09Ze9K5nQiahMmkAARA8ZZU3XAQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_026_02a121f43e78.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHZfWhh7zdHPGxWrN3j1iaSYBKfibF1MTgOjicWEESqD6dSaVgH5lc4GOiaA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_027_3bf94a38fae4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHFNBI1OmG3eSzuRspJ21lRF2kdb3n8ZaRia3OgmUm1ZGqfa3gFZicNmeA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_028_3c628509073b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHfVetlGz0D39lOg5Vp6wic5yPjyQ5RBk6KoL8PNUlDBPGstwCqInn7icQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_029_1de352d1ed51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHtaGibNvprticKCExugJV6Nb5ibhkjJa0YQb1icuUudzr7Aap9KWnHeI8WA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_030_b411c3faea82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHkgAtZicf1skranaAmIiaTHDknqrIRgn1CictDJPdE6nCmWdBFTBjH89oA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_031_97dbfdeb9cb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHUhyam9SLvGJ8BtfjE9H6mOIKRJIL42H9SLNY3mjheUJwK7icqTfjLIQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_032_d56c6ad3133b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH7MXJdibhic4qspJK1gomO2icfR2R79Qk1KUVPicXA4xibMSnZhz9JXM6rPw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_033_8e9e1bc1b624.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHhSo2TiaBYibVMTv8YApcmNFA4nOtOwpy8WHYUCs2wbsGGMLdvEvbl6tA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_034_a86a74101396.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHBcuAKJYHmhYGeAux3Vbic4ZX9YAv3DcKIbtOug1PR6HYguT4AAP4L3Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_035_e7bf8bf6ec27.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHEAoykjMUFXxeJ3MBGOd1dpnqjMQLsNsaoDvlxcNEb3BibF1uicsj7ib5Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_036_a37000e3dbc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgKQPGgkIH7jcw6stCUFVW3hbsdgvEVxJ07oZvdicm6hYLQh5yblRibGw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_037_0cbeee4c1e6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHwIqutxyczGEkZKSjnIW10OY8Nyq2DoY2vn8u1M9XZFypCgYAf63QCw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_038_a90e77579a69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHxqBcE0D4aiaibfqQnemCOyGqfaIDLL9IiceEkb6IU5ctoR9z3PI21TwJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_GaN器件转换器系统_images\img_000_1bc59df9aaf3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH775nq5SU4mnnpG6I81IdFrEmmFFP2pqGxLyFibFO7ytTMM13teg9Oxw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_040_5b7a9314b42c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHSsNpybuiada3DeCPhT9SS5yC9hL70UbyGvg19y4iaFdGECAtB3vegkrg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_041_d393471033ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH4SjNLBvxPwQmUSZLM4bscj41hDdXdv6EPibcEQuCLO86L9sXAtZbn5A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_042_e073af63cb7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHzzSooLu0gIXj7a3jjNLmDzDgUAjlu58qaG4kIAofebnACT3th2KdicA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_043_686a685ae575.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHicpQMIYEOoasNhUVzr5ea4KCbtIOgHVhZAWmSySrGokd1KqUy5Jb2QQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_044_a7ded3418b46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgia4Ry6Il8OTwD4NTEZC18Oas8W4icnCicmAF4h74CexvjLuFklyY8klw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_045_8782cb2eac01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHdEZbkiaH1RlpmwicZXWSlzfkoUQ2oqRbTk9YicxvDwK5p6ADoDVIzb58A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_046_eb84b2c63e1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHVrXpAdbMpGzvXlpKRwaEBQ8olJXApdu0SmzC1Bcf4lCjKHwLnKujuA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_047_d49ac62957af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH3oPo07o3u3q8YGkicCvia9XtM53FWgQM0X6amK3KJxIfHxsrSibpKYdibQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_048_220bc1df0b2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHJoyKD0tdS6N8gdNich7yfbviaWOxbPrkAYYBQDlLoWYgOdib06mxf0taw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_049_b98caa007f56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH2qXbmnMZP4qpna95yiaakBiaw6nvia7y7NdCVUiaeQJ1mAeZtfxeSjWPLA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_050_3acdd842978c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHuoEUkbHOykTMw67GEPvsy3B0CYrqzMjT7NDezdjWlpu1Axg1dd0Rfw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_051_42f4d5b841a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH0ls1fCJTZxppBAz6yVZ9vpbaayAAe3tUUH7H5yHITOlbUZ5gHJOuzg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_052_dd2d07393ee1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHWY0hbV21SyoSodxUDSYxPc8Qia0yKzOwGaUvnYOQYFxK8Vy794m9whg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_053_3b0fd55167fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHNKsp8egvOIBt635CaLSq6FkQXblmJC6iaI2gzBHaESeywLgYIw03oGg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_054_b22d0c492a55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHhpnCibnBWVUpKDtsRUYKZCIlQ43zTYHyyYEcONFL7FMJ9IibI2kOBU3Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_055_658ac6be37f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHnqz4OGhSzibEcPtOF1bceNibLcMhABQQDx4GaGltPQLxia9lgPRGDibOtw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_056_388a731d1ced.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHTDXHWGkfNVzEUNkg8ibTHAUPNKmRTibWP7xWUOQsjEx1M9rQZvckxPqA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_057_4eb34ae1a732.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHFe4rakV3iacUHywCiaKZCxcV9RU7XokBCXyHGzoqnCM2lxLX0Kq945Zw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_058_001291c2dd8b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHP6nemSxkia0L1ficicjST5sOzqvvT7kFxrupCibcZQH5bSmM7Jlkic53sPA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_059_17169662dd32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHPRfdJ3FRCtmkSeV759uDmXwxRpCjJ49SbVl9D9TFlvD7asfib0D1EZQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_060_330f93e08661.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHEgE5Srs5gSpjhUNLDPLbKM6uqVKFx5Caghib8q2L5ibiaXTCCnKxUOIvQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_061_4f7134a6165e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH1vaFmDmCuVvxF82Yo3j1gVO12m43sNWXtwnM9WpUJsu71jm7W3u4kg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_062_a0930c2b3ddc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHcX6z2SwteEph925Gbc30P5lk5jKcRibYicia6N3bqeOsNB7PLsOkOg8ibg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_063_3fafd503f955.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHKSvJ3V6AxozCXZYTh8VVgIkKgeeic3o83t7QwXkg8yu9ic9D6mPqLT7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_064_f87c84a66ff6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHZFZa3OCRGZc9QBCf8BBzcfj2699EUwe28IBvBgQVU9bsM5ic4lujRaw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_065_9a064ce6c22f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHibHFCVLFC6x4VFDCnTfl3iazny0cWUqTABPtvX4QhbL9j5VWCtGglyzw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_066_9553e203731f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHYyokCD30yYV3jtfAkD9zeWWYSC7Q34cE75rykoWZ1NEQDYqc1CWAdg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_067_71e118188796.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH8nMwKZKjGcGgH3NFu6sQicUPZ5Esat49UWU3fQLY61gL0RVLlqibmrBA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_068_04aac46fe5cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHEdfDYeTSm3ByGibtYnArmBdJT3dLS8FEbFkz3icanicSBQNSZLPYPHgGA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_069_c9acdc1ce27e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHBW76bq6GjiaqIth1Orb82vsxwH8qApuSFWWETlU417Lz56NbF1C87ng/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_070_319f754357bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH58DsaxVlnn7bgfSfIicz6Vsq5IlicPk6Cv8av0mN0g4CgtdSxs9ptSRA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_071_4f88d64fccd0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHsLMLiaO1wynOqvGAnSB9sWiaYsZzOxPktnfUAPOwZIavu8KKBt7dzlpQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_072_fd11f5f2394c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHtvHdM5Qmd7vLRsicxFVuq5yp5JDZlDFeGf9zZhNc7b7vpdhvXibZV5EA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_073_aafbaf7b8622.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHaNxy9EBiawEDVoqCO9PvF32Hk9pUtDgHae7d7O7jUTrVGuNDZ9kGrpQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_074_7c81ad29c67a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHMAJDWvibDuHxUSfBbibw1cyHW1jM5bYibxb34FkvicXQjTTBD3ER3zyHDg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_075_7f45d811539f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHCD2qy911YjDj0yx3n8UicAPCOz9xvfktY9aibyIudbiaVsV7BavLtUW0g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_076_c61be44b55c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHOhQPpnWMvOC5aekpgHEhvDvQMB7XaBKjyKErJI5nL2VxHb2Q406BwQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_077_9d7a4a84e944.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHoiaVRkSib74gz0GTQufiazf1C3icGtzwrwiaUDg6QpXSkGFj6nlhaVdyPbA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_078_bf38a5a6c13c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHv01MRsLMOf2L1kCrO71JnibN6IwiaH7Y9uiaYu7byUe7jTTibS45mrpokA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_079_aada01ecb459.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHxMujj2ibBMib0AsztJaudMpHLZluHu6RZq1JfDiciblUpw5fn0gJphzU6Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_080_6dd7002a48ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgJ7Bqahs51dIV3Nup9FveRmje2uhOKWuppsGTep9ibsapVuPXMx27TQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_081_03a01a7ff290.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHBSjiaXQsrDlPE3ZN1u7jHwEIXeVqylkNo4w7Nmsm2byTN1d9OlIlucw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_082_f5f6ab352955.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH38ibHDFWuuoLiaIdqliaj9KHqvkQXN0kpFbOvzImZ8KEL754F7zFRZKgg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_083_cf73bc3ceb86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHvEletwJ2tm6BibhibcibUia7raxmbn4UZbr1EP9bQb3rYtibX56Uo8zK1sQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_084_1e0a8314fbc3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHBcNjHzzibMPkAGcAr58icHLniaOoZFFicqhC0SePxBJ4oPictdFGahjmHqQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_085_b3145ec42114.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHtqZddmaiaXiawZicOZhyLJFnhiappCnxSgEpNib80FWEZTTHGbIAaHRrjFw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_086_efdc7da8f3bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHeXOO17gOicZue6KSM31lBmxnyiczKialJAm3hwdNiclyasqNXvOuY9QGOA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_087_4b6e2ee9561f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHlYRnUS2IEnxv3gsHItviaWkQkCGEfKjRib8YDzum0jN6ibP3PzbUlEWiaw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_088_c60f75a41f3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHICuhjj1g95QNCvE6l4DP4dJyvwL4RAntUxFb948wk4Dn3z0ibafEyPg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_089_1dd5b39e7b14.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH8TOPrdgBAnjwAdYia6fTZqBsLO9hD9ZYDRguLStJfy2xsqN5CxkQuMw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_090_796fa21ef582.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHjgyBTIYmlaNTFDTDtmhvGeHGelELwPjrrtHWHVJia1oUYnw6XibiclJbg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_091_62965605aa11.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHfIezQ0j9KgrLsMuUezmNCMwCCNVib3ibKpzLJl7RznkQO3k15vz8ZJ6w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_092_5cf43010be25.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHQstL4D9mEhVsnYw1rtuyn8HU2iaaC9SyFiciaVHtcafr90p2Bu59Gghaw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_093_379b7fc33413.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHKZAwoBeb688y0MAhGib7aJRlkPFtZyl4Ia3hIQcpKYB5xq0glpesAow/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_094_633603a8d9a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHZOibHevXg92QIwKKYeEgQCFkdpdFmcJpagpMegz8YutllaL2jTYegYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_GaN器件转换器系统_images\img_001_e01354fd6682.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHIkqHyrlEf9IVVEonA3ZiaTOp03g0R6DiaGnWvrWDYcAVr1zHBjteN1GA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_096_2a0dba294e63.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH5jaDgXg9UvTiaHSSicRL7jCIgm89dicclVP4z9EBaGImx1E6KbJtCY2iaA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_097_0986a7a2682a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHiaIfSibYL1unbhFQ7JWE2qkv9EHXCHVV8gpXC9odYUEiaCDOtkuBprF1g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_098_2b4bd4d8027e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHOcZt2IQF4g4RgiaVZ364BhLOU3J4QcbcsLKov7nPicFrOwRZbejpostA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_099_534a69e95258.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHHq3ofh5hWpzZTQuLicNlooeCJyMEIuY7FakTH5Zn7dv7dusp2f8LTsg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_100_75dfc5b755f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHFaIMx5TvIPm9jqkFryNcqBv7EV5U0Q5bXsRs1r3QVkFmGVRZ3wu1Zw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_101_36baff533285.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHnju4HibRal7DuBw3CjpEkRtZAguMACH1H1jrTaibnAbqyA2zA5ljsqgw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_102_298f3abc270b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH5hbibPibMFKxI5W6xIx5mKNcgergnc5ybEvYIGdPibh1j4R6iaankMsQ9g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_103_3958e8b0e317.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHLIDq9wX2BB2060zMIIpu8rH08sicp2zUjwcH5LZsSmLmfY11sqJNI7A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_104_72d0e4fdabd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHziay70G5wLcsw4qKdFct2oVdYCEibd4ib1AicFibibXkFDEL4R8BY2DsdoTg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_105_710e5d18ddd6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHRpGysCeuCbhkPxZPNA14WnGkqp2UXdZaWE3QLRf7EfLLDtc4dJFLSg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_106_6c60d7439437.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH0ARYpD2lRyXGOs06MXrzInVYgxOiaU6Gq1yYcmUHBiaxkJNqNGdgXcvA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_107_0c711d60b086.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHuU5Iub5y47SOicstpNMLDF6uv4ZAJGg6KhWqmPiaUGicBf9ib1a34KVpKg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_108_b9739ca5c9df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHe7Zps57vwkZ9DR0Su79NVfgVGzloplZ22FI1nVBiaZLvndE8niaOHzVA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_109_016a418774ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHQZrFtMCrZBtEonvXYpAUTzMQuiaCAGgjnG1oticRzVaQAagm5Y6SHQpA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_110_fac2ba5b6779.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHQWePrslk2EcPYUnK3ngkHlLHRlLjtvpbxgPedUfpiboyqUJrGibtAbTQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_111_426407c64554.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH9CzLjx3LNAQKHLAvqBUg0skauMFbYGLhFxJT0yJCdsjtNWqpffLYyA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_112_5a5331d4b811.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHxh3wEEtUb0QhcgZrk8kJOJTATbR1OewXVABvYmCkLBHS0zTHB2F4GA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_113_f26690d58d41.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHTibxxNfAdRGRNdpiaTytR038hGbad0P46jiadlHWpp4Gyibf2rUMDetUjw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_114_9361eea2e7c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHOdHx9ico55H2YMq1rHQAUHnJxShytsxCWRy0MSuOk0l71YTN2SKygZA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_115_10d5c2415cd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHuPzZvBOJw8ewhMjtcOB8aibu50m7khP4ibKMyTvGXjbAvOyXZ4DwzsjA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_116_aec8fb6d4f04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHxwb7SwINUDN8wqicuwjqdyLD2RZlibibLg4fABQrKic5iawLq0tWBbpas4Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_117_0fd52ce80f88.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgN7zhpicovAtMuO1F8WgCy7PmQYV1HdXgLymkJs08dT31tB86qxkuDA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_118_d6177b7785ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHu6HkxnggbXtjLFC1QsHUnTNjibM3wDDxTNv7Ehm4Ra06j4ibLOyPV8jw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_119_c7a10399ccb9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHDeglRdKnIiaFJVgX8nBPYtsL0WwbhRBjdyJqWiabfDpcfJnfnbiaEjz5A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_120_80fbbccd80a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHWRAnB9fwpFgxyHVK2yvClZpd5SSZmEovnPFGgz66upeic1TG1Jg8Iicg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_121_4dfb227ce70b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHUcY24HITVxC84l56jtWHicTM9yGCKxdyaicAscNv1Vicz7LUm6w9g48ibw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_122_b661872a74dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHL5jaLdpKeEbicSnxjy9hGWbXLWWj3T8JLN1QMgKtNCYWmwwS9fbfVHg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_123_e23fde8720e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHhdxtUtOFxMHP5xFllQaE3XBTsEmntF5SLJt4ceGDgD7frh4Ho5Kezw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_124_a482586809e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHJkqFD1vsulPiakI1KDnEY5IRTepNuvuyK08w2k9qialsYFg1iauwG3piag/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_125_4e8d67b59ac0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHic5T7F4lHVLXR7Vmt9BTrZ7oZqGIJcmVbEL4gSjPicrdibjPk7XMg8TVg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_126_44eb6fdfd414.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHwNFa6vY33NflhntZNVguK7y7sysu9e5hYOqicfjVzfTQibicjGKWpZr3g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_127_792bc39e6a68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHKGN7ndHgCGBMkRasEjXrFcEC4rlhRuhWngRxzsq6smnTjZ6vc0vNBg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_128_9bc8a41233e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHE21I1yfia2XS2VAicNMPXGje8SfBqOn0liaMeNDtNF8K9RK41Gr9Vib5qA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_129_78f350df3247.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHlA44YR1G9WPxRGU3Sx0EX4frKzYnAvZZF2HicTIlydO40pm6xsFDicXA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_130_43ee9b746f2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHKjZwIBXszTgG78VJzTgqxMvlxurOQ4AzalNpahEhjGLDaibCHWhI8HA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_131_6aad1e651cba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHV9KyCcgVEYREm41gu7Ftao7o5xWTSoWUW8CWGgTV5eAE0kF8MQia1VA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_132_faf5a6692efc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHGbv9bWzFibkKKBSdsGHxM3wicV9icnaRxeWEicgehouYOlstSog98FFKEg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_133_1039f9e312db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHm1LCGUqRrfWdhxRXHY0Yw7FKU0Kbl8Ox7qkzYgNgaGuTA7icRrERoibw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_134_a22c4e95fe72.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHNuliasYTzMoThcCpkIlicHicAwENws16AG9aSSiciaq8CvNZWtgy3corXGg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_135_361c3db9c37e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHOicnMT0n1icFreEPniaXJ2dWfHMVnWBHYwaSWeUV74Ya5zjPVFpJNsx4g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_136_dd48c358d852.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH9RdeK1PPHftNwlr8rh77Km9kqq9BO6PcibicvsruWduLdWrsEe2ggZwA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_137_642a4bbfca93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHAfBzf4AAmPr1KDZ5hicsNyDa28ibqCQfu0Mrpu8mNOHSsn6d7ejltlSA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_138_060fe08e62a8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHEAHGMOzKzJw0nG3VAe9d4TKiah1G614pULdb9zXkVBReibNc4Y2w19Ng/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_139_438a9be32924.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHiblCdMiaDUj5TahtsM2hMlMmdwA2AmiciclDNDg1tgQqAQZZfBickXTOptw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_140_ce737d30774f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHZxhcHr7HuSIzo5ibiaZ89P0SHN2HMLEa8CHibfJHBzMlc2wZraicTbcmEA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_141_72ab912d3c5a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHTnYUfp1PADJPXCMp15QrCmV7iaMLcZJGTWgzKAvyeYUUgrWrgfib8PxQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_142_cb242409603d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHIlZaNQH94zynL2icoq9kD6dJrHFatjgy8ZKMNgV0khZzlLRQ4zjq1AA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_143_5bba99f9067d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHegpPaLiba4kZO4IhCw3ZUmao6BhFR5d2mf5xfUbkRc4Y5hc7f9S84icg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_144_aaf02594cd37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHE6DrnkiaeHhAClfe7TBgiaFGecoXlRO9AbLsiakTtvNRIF8p1JGtdeKIg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_145_906098110fd5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgFGAsKEibvT9HtmVXRcJIDtXNIZ0ic8BNOMiarVkPhxoY48kRHsPJ6niag/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_146_ac7458048a56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHsiaL1mn8ibcJTreoho0Nt7EhjjHTiaPBuoU5GEj0PIydicTve9fkdfSuAA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_147_844c4677fcdc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHouBFufLqQe6Uh2cjt8uRiaoB3FmBriceJouO4ooOVf0DicGBOic2XVVC6g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_148_2a27e1b1ec37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHKKbGaLYBhYm8nDQSmoJks9M8TL8SsuibTsGUkNZPsK5N7pgOx12ftpA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_149_f3425ee8e8ed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHYia5QeknllPCJYryAKV59q7oVloK6YeOeS7Ciccsde9YC5RVhqdIxebw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_150_ec7b8fe90978.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHRaCia4ia4P7fEhqgTJ9aFJ12yto7bnf6x1P8221Mpy57wQo7HESTIKwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_GaN器件转换器系统_images\img_002_3ed50a1302c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHMyLFlpYg1VsyYLCGAMqu05RJjSXc5H7KBZqH6SDkRSkPbNmSmt3ic4w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_152_219daa84fa04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHscTejTtefDbhDtSwzS0G9t9RF7hNdELoYclJ1YAvvahwEiccE2kb4MA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_153_7c42c73318a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHXqdX5pACt2MLyHX4V5bDDtIlOiaEPZbtfFicp2gXm6bnQvxpgseHACtQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_154_027190ce9800.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgY2kDQL2bbyxI7nrgogZft7ibVjPoAOy1PR0anfErmfpdhqoAyABR8Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_155_ba1393031c76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHILHWbZf9F5vxXbMb43u4wVI51sibhOMWswEyfYphFTsxStpuauiauzIg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_156_7432ecec8521.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgUxXr29v1L6uTTVwz3SanxOzExY0B5CbThnXVMnmYJ5STVT7JQ41UQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_157_57c0e4cd3a23.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHicQ6bqenZ7CDaCbe8L6N71YTicZxLQKJGwlIU1en7qUJ7C145aYUjF8w/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_158_ff2dd3d000f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHLibichQMXvibwOlicL61kVZpE9bdSibrng5FPfGXQYbJgeSp082ZLhk0X3A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_159_94a83d863962.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHUNhllYmVPpXu4rUenAhv42HQGB8zZic2F8WSWfyegWw59erkGHicjEjQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_160_900811d7f112.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHSRgXvffBqgQvSVDLhy1nT0Qtj5oeqHBg8398NbPKnYAIQmyKicKIiaMA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_161_81c544730f37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHhWYFCTicpvEGbF2faYMvYiblkQicgBVXF5cZXBjs3A5BfHFJIXvnYibDPg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_162_4495a80f039e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH3yfSSYODiaZAPe1up2Pyk1tOoiabaRjLcnQEgKPkXAfOzIqTOaTVlnlQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_163_57115840f76e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHwNH4JRFLpk4ic8rrH424j1qcsnBaOF6paRxzE2dV7bgeaHkqmotk6Kw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_164_92bffc3c58cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH1IFRwx7WW9PYOsiasLMwl0XOzx2kuGZeEV3fBbdNDUkmexmOZql6WSw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_165_0df55b9984fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHvCSmwuCfiaVoJuib1fw3e23l6vkEfj0ADd1cyVjQiaZO1iaXktAKRzes3g/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_166_00dd7aea2ad7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHNJF6aouNX69Ln1hexCosibW8d0RTJXEzPOmlIoM7bXsXe5fEhdZGM2Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_167_d5516fa39135.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHThCMMCHtMffNzRNM4c0g2geEibDnXDrFeGII5VBq8sQItHgEKzxibMgQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_168_2d0e7f3214c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHgbs8929HmrWqsDmuLDur1dLib8AKtBtsHibO8osEic2uPicmx6PW8biaUCA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_169_29276c4f2281.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH7uOE0OjWEFfmWzEBxse0kemiaPyqQ90XichUm98HydTlq97cSHHXL8kw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_170_d4f0bde2b8a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH5xDOZPpwVicwl3eF926NgCvZ813ibLqKKxyweXWiayh10zibWXP6iaHg6rw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_171_6be37c97dd13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHicAG1AQ2JeFOg6licM1u0t8Wa3Jgj9Ixsz1B2LoQ6pDtRN9AmZD86iaYQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_172_dd49bd89fabb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHqFaMgPksuRfY3QbUxbdiaicEl0yUpdCoHWeFjDRMadVGRibJ6wN1Vxibdw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_173_9b5652f2a338.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH13ysr13ItHSh3T4xSic1L3KnKsTa5sJGYyXN45qeSOThOSNvaFhz9nw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_174_1ea5f93311d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHdpAKQMzzhPibFhrQTBgbfLfqicLRA9I1l0MkjthA3bKz5icW2jNYM9ALA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_175_ef29f12ac945.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHR0YNsTzx8FQI8rTc0yIAiaYXlOoIKssFqricTPFe357cs3heicwVSNSJg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_176_1c06211fd36f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHWEjKde5b5sGQ6EzUburN71ov7O18wsyOeyysEmbkZotnu0qY2Nb7Lg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_177_1300fad573f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHMka6uyxIqSicrfXWVG12JyGSMvkdFypIib6qCOh8zhcguNf8bNjcOW4A/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_178_9ce5168f8b05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHrE6ZAQg2V0XCicB2EGhV7lXEzESA8ydZicansiaDOBX7hFZnOch179uqA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_179_069c2c05085e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHQVkeopwKcZPJgBU64nlriaKl2eIvmCnP6VldYZnsHiblkEflYibpsq7Dg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_180_147864a8ef61.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHWqLhKlCM5ENxszkxhWDArnF4YdqhD5MJZKBXiaMdWHHYAUyGb1icr8yA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_181_1fbc7be9fee6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHuKLqKzFMPibll3KcjfqBp42BKEIg4MyKtUPvrI3NKxuwru2VDbP4fFw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_182_baf255a17a1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHY0hKhv3ticNtu2zxbj26xkb2Wmnz0QkxASbLv7ARRYVaXMmHQQCEkJA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_183_154f6ad34acd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHxvdibP76Pxlzia7nO6HNtWiaibDeYiap7shXDXo8iazsbdMHuKyezJhmic2PQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_184_c14e7ccca695.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH8v9C3yDoBMJNDtia1EHw2muBVnYDfX1WFXgrl3TEVQylicNCtPoTQoEA/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_185_727669028697.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHl66iamSGaWmI2djlRXCYzgtEn5MJJFeujuXYrVR6oNb6a5UDEJziaovQ/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_186_b5e3989177f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHh60yia2z7kJrbplNrKVR4PiciaqmNWLPR7VSovO2Mhic0EiaHLmZtkiauibYw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_187_da8054a57001.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHHCMHJ4JK1YZiaW0TYYd7wOWRicSvna5u3cyS5yXtatqponLcWWXoQjJg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_188_0a4cf13bfd32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHCu66ouqZ2gnaWAYicYqvd5691qtPVtTDEbPVIqS16n1OfYcichFNHI2Q/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_189_8cb3e61283a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icHCTrJm3jqhHBr1Zo6hXiaiad1xkuDSPavleGRibhwUEpbsuMqw3ldG5fibg/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_190_bf0d17e8058f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIUZ7VCmxoFiaJT7Vo1x8icH9jDrc6f5ZlBibnNqIoP5nEsgGO9Fjm9STbgxuJCfD1sAicaicibarBtibqw/640?wx_fmt=png&from=appmsg)
+![](SiC_GaN器件转换器系统_images/img_191_98d8e3e453f3.png)
 
 注：文字与图片报告无关
 
@@ -603,14 +603,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQ33WZCZcOjyiavickVdt04DBBgSI1etFPSDwRv7cKss2ffJnRjBD9gicMw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_GaN器件转换器系统_images/img_192_6ff32ab25430.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQ34EuYreXINYRj1QTOPe5MK1fo9zYe2IOUSnEkNVhoWg2vq7jtzIPTQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](SiC_GaN器件转换器系统_images/img_193_83f706b778c6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQPjKfz19D6kiblTD34HrTWDJ4z6qm0ib9HzjY69picCn1YjsmX73GPxEiaw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](SiC_GaN器件转换器系统_images/img_194_95f0b89ba48a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQHtem1wN3MrqVlIE8sNvjBeglYib41kibzKJ0jvHcWt9cgdgUOZ0sJWhQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](SiC_GaN器件转换器系统_images/img_195_89fb3b5af377.jpg)

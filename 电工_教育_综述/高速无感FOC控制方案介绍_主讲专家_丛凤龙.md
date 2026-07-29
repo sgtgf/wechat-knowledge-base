@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/DyrDY3T1pXl6T4-Zyo26gg](https://mp.weixin.qq.com/s/DyrDY3T1pXl6T4-Zyo26gg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWXtbaCZ4lWtj85RUYw1BAF4R0EffJiaaP2qB1gbSbtCmjffwGdnXzYrdzTgEwJlJwRvFt5HOaXwBA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660608&idx=1&sn=87dc3b6bfdeccd1c0d0889fc26bb3f25&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_001_22436ae276dc.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660608&idx=1&sn=87dc3b6bfdeccd1c0d0889fc26bb3f25&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_002_e532dba355d8.gif)
 
   
 
@@ -23,16 +23,16 @@
 
 研讨会将在微信群开展，采用主讲人视频直播授课的形式，并有互动答疑环节，欢迎大家踊跃报名参加！扫描（长按识别）下方二维码添加西莫会务为微信好友并主动联系说明参会需求，直播开始前一小时截止报名，请大家务必抓紧时间行动哦！以免错过宝贵的学习交流的机会！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWAiatrOYQKsmF6LY59UA6STvBIJzUhiax8Z2W0icj2drvyrp8aoicxW4DvVWQRDjj7p7MNqxRQJSVrPA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_003_a4027e178157.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_004_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIU7nicrB8bYfhk0AzZDoibIc5dYfkc1hM1tjSWBUxNErxicXRUDw7mibSQJmKd6P0kD2Fc33SQj0EnicbA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660505&idx=1&sn=06e1712ece2e850b99e62fa35332cccf&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_005_c08475c763b2.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660505&idx=1&sn=06e1712ece2e850b99e62fa35332cccf&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV7lEBfnoEz6D5uMDaAqCcUVvVYDG7JqgPyRhT5uMNpcbknLQb9XGUoSpnjN3hicq90HoicicX9PJyXQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660677&idx=3&sn=459240a6ceeab8f9e60c13fca714a66a&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_006_c7dd7f3ba0c4.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660677&idx=3&sn=459240a6ceeab8f9e60c13fca714a66a&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660677&idx=4&sn=1ab8c6930b19824fc3b98c760274330a&scene=21#wechat_redirect)  
+![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_007_96b548e7fe70.png)[![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_008_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650660677&idx=4&sn=1ab8c6930b19824fc3b98c760274330a&scene=21#wechat_redirect)  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWAiatrOYQKsmF6LY59UA6STTW8zE52ibNTyBGGxFP4tCrIs72kDOCAUp71LeusXY21WKgq5ibQjKz0w/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)点击**阅读原文**，直达论坛活动地址  
+![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_009_34c91a484c21.jpg)![](D:\电脑文件\公众号知识库\电工_教育_综述\高速无感FOC控制方案介绍_主讲专家_丛凤龙_images\img_010_64bd90de404b.png)点击**阅读原文**，直达论坛活动地址  
 
 ****觉得好看，请点这里****↓********↓****↓********↓************

@@ -9,7 +9,7 @@
 
 摘 要：随着碳化硅功率器件技术的不断发展，碳化硅功率器件发展优势明显，将逐步成为未来主流功率半导体器件。多家公司推出了多款碳化硅MOSFET，但是对于高压应用的碳化硅MOSFET驱动产品还处于半空白状态。文章针对 Ａ 公司FF11MR12W1M1B11型碳化硅模块的驱动进行了研究与设计，在满足碳化硅驱动电流的基础上，增加了有源钳位保护、退饱和保护、故障信号反馈功能。有源钳位保护电路中具有动态有源钳位设计，在MOSFET关断时，降低嵌位电压来快速保护MOSFET，静态时抬高嵌位电压防止误动作。退饱和保护电路检测到故障后可迅速关闭驱动，并将故障信号进行反馈。通过双脉冲测试，验证了文中设计 的驱动板功能，对FF11MR12W1M1B11型碳化硅模块在后续项目中的应用具有重要意义。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRdZUQ6Va5RZsgX6s3icxVFUzrJaWFzvqX7jyvc9X4F2YibaDFIN2r6CHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_000_f7c587604733.png)
 
 关键词：碳化硅；驱动电路；有源钳位保护；退饱和保护；双脉冲测试
 
@@ -35,7 +35,7 @@
 
 （５）驱动电路带有源钳位保护、退饱和保护、故障信号反馈等功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR1X9ddj6L8Mslvj74keZ0JDF0VWf8Jw06wUzPbgLktbetaQrDjf6B2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_001_d83763974f74.png)
 
 FF11MR12W1M1B11型碳化硅模块驱动电路组成如图１所示。本设计由驱动 供电电路设计、驱动电路设计、有源钳位保护电路设计、退饱和保护电路设计四部分构成。
 
@@ -45,23 +45,23 @@ FF11MR12W1M1B11型碳化硅模块手册中栅源峰值电压UGSS为-10V/20Ｖ，
 
 驱动功率可以从门极电荷量QGate、开关频率fin以及驱动器实际输出电压摆 幅 ΔUGate计算得出，本设计的fin为30KHZ，QGate为0.25μＣ，ΔUGate为20Ｖ，驱动器平均输出电流Ｉ为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRMSFbicZeF9zD8ZT1HXicfBruudhw9LicDZpB3RJpRdndicF2QMvgpwsdJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_002_577332c35aa9.png)
 
 驱动功率Ｐ为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRP2DlfvFyezXej3e45Nic9fbHcmBSdmDOibeAChic16ml5wd4gicA5NEL0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_003_96fa2e1b97fc.png)
 
 经计算，Ｐ 为0.15Ｗ。
 
 本设计供电芯片选 择 Ｂ 公司的碳化硅MOSFET驱动器专用DC/DC电源，该电源模块输入电压15Ｖ，输出电压15Ｖ、-5Ｖ，驱动功率２Ｗ，符合本设计驱动供电需求。驱动供电电路如图２所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRYYOpmgM1G9elnoH7KN5KvqiaL8Vrwv1UoIfeU1PtZZo62NbOC0JRQNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_004_e275de1f094e.png)
 
 2.2 驱动电路设计
 
 FF11MR12W1M1B11型碳化硅模块手册中的参考驱动电阻为3.9Ω，内部栅极电阻1.1Ω，驱动电压－5Ｖ／15Ｖ，Ａ 公司测试板采用1EDI60H12AH型驱动芯片，此芯片可提供10Ａ 的峰值驱动电流，但是 驱动板没有有源钳位保护、退饱和保护、故障反馈功能。因此本设计采用Ａ公司1ED020I12-B2型驱动芯 片，此芯片驱动电流为±２Ａ，带有退饱和保护、故障反馈、故障自锁功能。为满足碳化硅驱动电流的要求，需要使用外部放大器，本设计采用分立NPN/PNP放大晶体管组成互补输出电路。选用ZXTN2010Z型、ZX-TP2012Z型晶体管，组成的互补输出电路持续驱动电流可达4.3Ａ，尖峰电流脉冲15Ａ，满足本次设计碳化硅驱动电流需求。驱动电路如图３所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRKQ8giblVwv9QzHaiaQDItuiaWuUlMbbgULmBcSSicS4OibM0S2jDao4OfOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_005_b3e882dab7b7.png)
 
 2.3 退饱和保护电路设计
 
@@ -77,19 +77,19 @@ MOSFET关断时，当母线电压高于TVS管有源钳位电压后，钳位电�
 
 整个碳化硅驱动板设计如图４所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRcQc1LsQmMW2vURx8xb9u2rsKx1YWKyIXOTUC5qEWBJ6WrRbgwhgsjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_006_d393f9083cd1.png)
 
 ３ 碳化硅驱动板测试
 
 对于设计的碳化硅驱动板，需要进行双脉冲测试来评估驱动板功能和性能。 双脉冲测试如图５所示，用电感Ｌ将碳化硅上管短路，上管驱动加-5Ｖ关断，下管为测试对象，驱动板驱动下管进行测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRvQGjmDynAlfLpucXbmBd9H2SPhj4lrNpOcTLTQ2q48icA8YicLs9vREA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_007_85c166c576ba.png)
 
 3.1 驱动测试
 
 测试条件：母线电压610Ｖ、电 感66.4ｎＨ、ＰＷＭ单脉冲宽度５μｓ、脉冲频率30KHZ。驱动测试结果如图６所示，黄线为碳化硅门级驱动信号，绿线为母线电压，红线为电流。单脉冲宽度５μｓ，电流96Ａ，与理论值92Ａ接近。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRGiafiakC9fZ7JiaZ59FogeqS5WmngIdjRUsN6ZGAib9bvkmae7bwZ1J1Dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_008_e129aa133213.png)
 
 3.2 有源钳位保护测试
 
@@ -97,13 +97,13 @@ MOSFET关断时，当母线电压高于TVS管有源钳位电压后，钳位电�
 
 测试条件：母线 电 压610Ｖ、电 感66μＨ、ＰＷＭ单脉冲宽度５μｓ。有源钳位保护测试结果如图７ 所示，黄线为碳化硅门级驱动信号，绿线为母线电压，电压尖峰630Ｖ，门级驱动信号下降变缓，触发了有源钳位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRbjluVscwrUpoicHHjsxYIiazsXB6HWPP4c6KoNuUuIZwiaApe3Q1OGvSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_009_a28f6cb1d8fd.png)
 
 3.3 退饱和保护测试
 
 测试条件：将图５中上管直接用导线短路，母线电压528Ｖ、ＰＷＭ 单脉冲宽度３μｓ。测试结果如图８所示，黄线为DESAT电压、绿线为碳化硅门级驱动 信号，红线为母线电流。 短路电流值320Ａ，短路保护时间2.53μｓ，短路保护动作有效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRCgPk6g5ibaJGpialUGZERvdzEpxQkaLBRIxWxQ0UicoI5AcWhm8JibAILA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_010_6ab48ec349e6.png)
 
 ４ 结束语
 
@@ -111,13 +111,13 @@ MOSFET关断时，当母线电压高于TVS管有源钳位电压后，钳位电�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrU84ibicicicsicj2J9Fs51HDFMP2FRe5yEEyUsvZ3WeewjvrompQoiavAcng/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_011_8e4af0f56388.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrEx2bhlT70XicQQY90UlP2VkLtQ8jzeiaXRwgn9hW19P2GrRHvJrfAgWw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_012_eb2a92f816b1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrJDuYEwRky5LsqXfllSXfyxjZUPJ8tk3ibjAFEfyBfd9C87tFQyH8pXQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_驱动电路的研究与设计_images\img_013_3b19e3ac6027.png)

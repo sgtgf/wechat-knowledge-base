@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/3eKWrhlPCoUiUxI0xAm7XQ](https://mp.weixin.qq.com/s/3eKWrhlPCoUiUxI0xAm7XQ)
 
-___![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZZTLMIcesu0s1G6XBMD5ic7m8RFB39PTW5SDQDGK06Xy79wgNkIFuupw/640?wx_fmt=png&from=appmsg)___
+___![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_3_增益Gain_images\img_000_9c2049313384.png)___
 
 ____**★★★**______TCS-3---Gain______**★★★**____
 
@@ -23,17 +23,17 @@ ______€2.___放大器增益___
 
 放大器增益是放大器输出功率与输入功率比值的对数，用以表示功率放大的程度。亦指电压或电流的放大倍数，放大器输出与输入的比值为放大倍数，单位是“倍”，如10倍放大器，100倍放大器。当改用dB做单位时，放大倍数就称之为增益，这是一个概念的两种称呼。电学中分贝与放大倍数的转换关系为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQMIR4xJnL1wEDUebCJWTIyJoMLiatjXghYt9TY7EcDrD4ntsIicPMFeeLcZg8fI0lOvTF2cMxfYVJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_3_增益Gain_images\img_001_5af0f056f0d5.png)
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQMIR4xJnL1wEDUebCJWTIyDKsxCD98ib7nzpS7Libu3GnutGeiaZutGy2wLIbX0Ntzv1RJvTnoR2iaxQ/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_3_增益Gain_images\img_002_c6d1dc5ac8f3.png)**
 
 分贝定义时电压(电流)增益和功率增益的公式不同，功率与电压、电流的关系是
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQMIR4xJnL1wEDUebCJWTIytzVqdriakAUicbiaVqot718nicVEM3xy8cDtwdjDIXpPQ1jeibdoogcb7LA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_3_增益Gain_images\img_003_79e818701e15.png)
 
 代用之后，两者的增益数值就一样：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQMIR4xJnL1wEDUebCJWTIynP1AxZ4HhhWfWMER8C4mjzYlF11AfI1qcmHNtXqx5z702QL1l4jfEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_3_增益Gain_images\img_004_76056275c398.png)
 
 电子系统的总放大倍数常常是几千、几万甚至几十万，一架收音机从天线收到的信号至送入喇叭放音输出，一共要放大2万倍左右。用分贝表示取对数，数值就小得多。放大器级联时，总的放大倍数是各级相乘。用分贝做单位时，总增益就是相加。若某功放前级是100倍(20dB)，后级是20倍(13dB)，那么总功率放大倍数是100×20=2000倍，总增益为20dB+13dB=33dB。
 

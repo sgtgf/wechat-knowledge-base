@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QrHibLgalBZmeEtF7tYtwXSnibmNbSJ2olIKHicRguSPvniaobkXa6jZK2hM9hfX2ibSEGPFxj33ecphw/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电力系统_配电_微电网\_新能源发电_专题特邀报告专家_EI收录_9月哈尔滨_第二十届中国电工技术学会学术年会（ACCES_2025）_images\img_000_aee40b401544.png)](https://www.acces.org.cn/)
 ** 
 “新能源发电”专题
 ACCES 2025

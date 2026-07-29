@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/IY3c\_Wtap3LBKkwx88YQlg](https://mp.weixin.qq.com/s/IY3c_Wtap3LBKkwx88YQlg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMFCpTrOkm2wsLaKmfrBiclRP9kB6kNFK1wbO0T9B2HORuUre0n7qaRUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_000_f5220c308a9d.png)
 
 ★★★__TCS-13---直扩____**★★★
 
@@ -17,33 +17,33 @@
 
 这一串连续的伪随机码称为码片（chips），其每个码的持续时间远小于要调制的信息位，即每个信息位都被频率更高的码片所调制，因此，码片速率远大于信息位速率，这是DSSS实现频谱扩展的关键。DSSS通信架构中，发送端产生的码片在发送前已经被接收端所获知，在接收端，用相同的扩频码串行将信号解扩，把展宽的信号还原到原始状态，在一些IEEE 802.11标准中，就使用了DSSS技术来调制信号。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTD47fribv6Ck4yeSmvOZXTkoUK3L1UsiaMM9QfbCuACicZj3OF1rsRlegokA3P2EAsHFhqkvRtavyZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_001_374d87965e42.png)
 
 图13-1：扩频解扩示意
 
 伪随机码直接加入载波调制器的数据上，因此调制器具有更高码率，用这样一个码序列调制射频载波的结果是产生一个中心在载波频率、频谱为((sin x)/x)²的直序调制扩展频谱，如图13-2所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS7DBiamfghcCNjx48BOlglCYGtvaHBQGZnCsDZKXZicwPQW04jzbFEdj7FROAgza3owub3Kj2staQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_002_a20eba601635.png)
 
 图13-2：直序调制扩展频谱
 
 频谱主瓣（零点至零点）的带宽是调制码时钟速率的两倍，旁瓣带宽等于调制码时钟速率。图13-2是直序扩频信号的典型范例，直序扩频频谱形状上发生一些改变与实际采用的载波和数据调制方法有关。图13-3是一个二相相移键控（BPSK）信号，是直序扩频系统中常用的调制类型。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS7DBiamfghcCNjx48BOlglCxG6DwZzVZekXLrFK1Sqnp0gkPgsEdJFQnI3RrQyycxJAiciaPOtNIt7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_003_8c8b71f9abd2.png)
 
 图13-3：扩频示意
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TS94bI10jJj9lRec4aTYiczI8kqg2QXZPEfOxnz6qQynnFAM2fibMp7QhR6yHTnOZ80JWtr0K8noHNQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_004_590bdc99d5c6.jpg)
 
 图13-4：扩频示意
 
 扩频因子SF：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRFTNAnG9yktuMx3mmtrqEJ5FhGciacN1I1Q9MZicxYlttOZKETUN8IGibFu71Fl0vgJscJ93eMe29nA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_005_2be938837726.png)
 
 处理增益（Processing Gain）定义：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS7DBiamfghcCNjx48BOlglCibmLYzHWjW1c7zvEKLxw6m48fYz1kW5QNUnVmlpOAlTn4U83cQLJeEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_006_9f78020aba84.png)
 
 其中CR是Chip Rate，码片速率，BR是Bit Rate，即原始数据速率
 
@@ -59,11 +59,11 @@ ___€2.DSSS数学过程示意___
 
 首先，原始信息数据经过常规的调制方式，如二进制相移键控BPSK、正交相移键控QPSK等）进行调制，将信息加载到载波上，得到调制后的窄带信号s(t)。扩频处理将调制后的窄带信号s(t)与高速伪随机码c(t)进行相乘（或模二加，取决于调制方式）运算，假设原始信数调制后的信号为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1vosxuD4x5fFialy0odAicoToTxsu0ibOkSYwyQkAD8Ho8FicmP9A3vibGGxlyrgWnpOZBiaa33bxLpnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_007_f1fdc2ea18c1.png)
 
 伪随机码c(t)取值为±1，则扩频后的信号：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1vosxuD4x5fFialy0odAicoK8LIbjMVPZPZYd6XZsLuqgo1ZvibmpmqO3UOdx9b44mLCIdnFWUxp9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_008_67b2c2b50ab3.png)
 
 由于伪随机码c(t)的码元速率远高于信息数据速率，使得扩频后信号Ds(t)的频谱被大大展宽。
 
@@ -75,7 +75,7 @@ ___€2.DSSS数学过程示意___
 
 解扩：在接收端，接收到的信号Ds(t)首先与发送端相同的伪随机码c(t)进行相关运算（相乘后积分）。由于发送端和接收端的伪随机码完全相同且同步，对于有用信号部分，经过相关运算后，扩频信号恢复为原始的窄带调制信号，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1vosxuD4x5fFialy0odAico4Zsf1FbArNvgJVqu5gC3jz6oBXFSIrXWtF7w2TVuaZXIC7Rla4hIpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_009_81c13e156676.png)
 
 （因为c(t)平方\=1），而对于干扰信号和噪声，由于它们与伪随机码不相关，经过相关运算后，其频谱进一步被扩展，功率谱密度降低。  
 
@@ -95,19 +95,19 @@ FHSS中载波在一个很宽的频带上按照伪随机码的定义从一个频�
 
 跳频信号的发射频谱同直序扩频有很大差别，如图13-6所示，跳频输出在整个频带上是平坦的，而不再是((sin x)/x)²包络。跳频信号的带宽是每个跳变信道的带宽的N倍，N是频率间隙数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAXdsnIkGlFqfzsrrLNy0dyB0h1WlnbsI5NbB7AngJT8wFoDp50zUpJndHh6e9RpvS5g31uJVnCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_010_1dc4d447f773.png)
 
 图13-5：FHSS示意
 
 在数据输出端，信息分散在f1-f5五个载频上。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS7DBiamfghcCNjx48BOlglCT802GJ5nOjTIQKxibduBA4y8z9g9VwYMwD890icN9EMctulNBibqsDcQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_011_02a4af22eece.png)
 
 图13-6：FHSS频谱示意
 
 #### ___€4.___时间跳变扩频(THSS)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAXdsnIkGlFqfzsrrLNy0dYzuiaib4skO4KD57E9fmcV91WwqSnSa8ZkDiaLnPM0P8gt9lWJGGSU7XA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF术语与概念_13_扩频___直扩DSSS_images\img_012_e9035fdd5a36.png)
 
 图13-7：THSS频谱示意
 

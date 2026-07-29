@@ -8,147 +8,147 @@
 
 作者：Johann W. Kolar et al.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVorubys6sYsgPQ1qbGvknLSZLecokJ6lhOMUibHWVtK6614LDkibnTE9NQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_000_769daac1c7db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoFxlBaNFpFvZz7fFpFHqbNQOrCZ8iblPu7xWX99o4lq8iaH86FxsnmQZg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_001_797fc9f0c4ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoOXremg5fRXI0hppMvmTx1ksMhydkRXvkvXTaMv7d0f9gMMWu74VJlg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_002_98d0e0787d54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo8SPicNXe0FoJUnhpo3ibdtwtibBaPzpGnPWkd5Ety0aDic1uxCM3cdoakA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_003_8b5e1a49e22e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoTF6IG0rlWhO1cJyMMODr3uZBFKA2y4K2hvEMhic1ogfGzoicMjsaiaozQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_004_55da73b659cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoDcsHBIT8qOiaBtq0o1hxIp6XxxegKKh0IQbkFZ3g1TVMrsquDTiaflGA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_005_8244b6d4a2e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoKtexialSpbjrFYaQxxaRTG3fvp8ELD5OaKNP4AHYkfJTibqcQmttVBIA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_006_a5ba8e655e57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo3L0fLRLZmBRrFeglJfWh8NCqn6Um0DxWtCRH7I21jwkVcgHicO1Qibkg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_007_f4c6ea6c0acc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVowicOCMEcFMqt2goFxXRUUiakUHJick4VNoibnFdIV4LdicTdYX2sEN21vWA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_008_7f7c1eb4e2be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo2onfmdRObib7FaD2z2TvHWR85QEnAc9p90Or6VS3Oh4dc3rMrrx5a5A/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_009_77bfe0aad628.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoibJCvPAFbicTibiarjzPKd4gIicbObSdicxw1CiajJubTdiavCv2toTX95fz0A/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_010_52012746d562.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoKSvhurkZTlD66H0ur7vsJ7jjXNmhzmIiasFvvUOF31SudmnGUNQgFBw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_011_51879e009d47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoc5JPaQgEZ3WBEJSxspkUEp4E3ccmlymmSWS5zoF0F0xlbcL4DjS1Hg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_012_ae596861f63d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoG8ZFAfhloxF7SjYdvsCDCKCD2V8Icl8ia56Kcyuw2NVqapnRia1jU5vA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_013_005f3142165a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVomHvLpOesvwnj88Rsb4twGGqDXLHTSy6CI9KsF6wr8kHORKvc9zHsfw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_014_d926827ce7d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVop6iagQKWqr5mm3sQL75TbHEjzjt7DgvTKN8pQfwvBic7u9GKT1WibNDyA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_015_8f7357f87ecb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVopZbLWKuZJ0zUZgTm07TL7b02LK7O7zmF7McYBVCsqicYrsA1LzZWFsw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_016_285f751a02c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVooS0zRWlFojwyEruWwTlgKAuicuwPNDjFeQe4Zba2f3sQbs43ENGnc1A/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_017_49a068007eb0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoWS6unOS4VgIPkRhaHLl1BfuiabiaBtcQN3f2QFQPKzzww3klEGQb4JVQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_018_d50889bda210.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo6vwmaH7FaJgRXQfoqLOYx2fOx6mE94J4re8o7vkfeT3YBv5esCNicJg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_019_21ed71bf6448.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoPP4BArpMwgqW1icOpNibLAJDQ8Mwt7dThfNXV4ibiazZP0pFt7nBJeYiaaA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_020_f17dec45970c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoqI5cQowWDaaS0IShVeSmOQia0Mkn7aibibGFagKYkLkkhQNKIMJUiby6YQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_021_8fe8d1fb1368.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVokTBHpicGv6QnaPJBQBMULOA3yrhZ01fUS69ypTibvVn1rlGqPTExWUibg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_022_343faa37f0ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoPVL80c6Hrokw2Vphhjxj2l7Qt7oxxwe6SvaQT35COV50o30F5NAdsw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_023_edb6e7b5305c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo0T29B98w2zQwMPXVJsGl0Y1ANsDs8u1ibbI9uATibtEbHW3dicy4ex1pA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_024_9c9d255a9be8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVomFFcCtjMQ86hcGTMyzmlFf8WkO9EcGH3iccjLFFrOdnsia5vvujFChjA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_025_84faed835969.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoTDalUDdnUPwn32mzZ38dw0xibdnoFZr3qr9TOhHFHpciaAGabmJ0XCQw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_026_3f7ed16732da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoriak5sroeb6HicIANfv6dHWJVFhPTQK85mYRksQ2FX1UcMIPPPicIDqjQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_027_3660a08d7103.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoahvFenyVe5ssQQZ1oxYcfhJic29PtNUGv5NroqcicJdcAiatfUBpoMjFA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_028_03d93ca07a9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoqDlgMXibics3ZYaOCpsKPvoa7mMYBVtvWF5zR4W0l9NiakV9IxGtsKhoA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_029_d64b2c2d4130.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoSut0icsjsNiarIibWyWsHJHo1v86UnSqwgVWSOEZFe2dgJby286FhZiacw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_030_2b796f3c3886.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo2jYiatnZnZxms0yqLmNMdicicreSFcpia40ibTZibDsJDicqFx5cNQiab94RJw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_031_f403775c2eb7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo5ZZ4xTicPF2xlB83ej39uZFEw49Yb8FLLBMaU6vwWMBkRfIpoQuRxkQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_032_3879ba06e9c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo1UPiaxuUEbXtnYNL4XHEYchMWhd9yicPZ2k1hibtia6Fwr7UnjeqQv14og/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_033_c885c88ec518.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo1qxXNMjzhYIylNmYWXOCyu90mQO1DK6dAqFL9T6bFtFyrszQxViaV6g/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_034_991f361980bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo9cU9biaDLpGNXxoOcpHMAiad6OfGQiaZicUibPkJlJpEQBWr6f6ucEnBsoA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_035_b90e97935354.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoNekOc8wWVcSINianMzQTyKtjl5hr8BBZgVTOa9m71rV8RepbVp27CAQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_036_d3284478b94c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVorWrjBp2hezLMsSmHBicJNQKsEIrOghDgmfSbXLlN81Incg233ZCEltQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_037_2447e0cb2a3c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo6bwOIt9C6Khf4icDCeXmR6ll2lRDuJeFWa2z7LDg9A4uqXpsb9ND45g/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_038_921689fc3f85.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo2VwNAD7Yr7fCQUD5hib9tdAuuxpLytPhHnUyKwToWW4GV034MpOGSoQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_039_0fe53b9cef00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoVynVlMhicTyVsdSvs4wibvjWx8uaU5CDfSJwBaKugPw5KFej50ibLEqeA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_040_7eddd4d960ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoVTLvB3FhDicMGTKHmQFVibkUBy8qodq3PhURicLtwY1yiaEv4158acQoDw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_041_71089f219b4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoBuFSLeglKc3RVDicBiaAT6oB3wBcy8MACuOHo4SamI6Ria4T7gZhOGOUg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_042_a045f00de54e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoxqcV6RsiaGgpxPj1ib3luxS6TVibTtUro8pmTrRDKsVZsB50SLKfiaMEhg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_043_fd965eb0dc92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVongoBPSx6icCS4ibRNKUzdTkJIWsvPDX0ct49qSryIA0o22mpedAsUWIg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_044_25c2c7ea1c49.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVotUPVShKb9OicR8yam88OKukl5I5ZJtSgyDAsA6WicZcZoeMGqprmh7Qg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_045_30ad144fc2c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoqzjkZbib2UMrU9aqRStvmmZdficL4rRfYQ867cEAhmxwFMQw4FOz8l5w/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_046_0d811e851e7d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoAlbfS2KfUspib149iaNfYxX2gcsy1gn3G6mgJW3Kk35Z3VQGUhwaVsYg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_047_5d8534e42058.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoaziaaicgLuibxWCbrNUVkJ0S6cicRORfeFQt0vK7dW3oCGiczDZysr9SrUw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_048_95add6b5af49.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoaDM10K1zXw8IPVibFCx4tAmIl3Hf5fL1Ul7QXWLXDJQE0ZEPjI5WOnQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_049_d54ea3dda221.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoGeLGMPgaG1kIh61TaQ7Uq0I6LRSpgtfVlbicbicjZZQLyXujcAeskZ1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images\img_000_1091ca0020a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo1dhuNB8ickCmE1Mw1Tic2TF8h4ibbYr2ibX69uFy8Fu5W66SfkcT3zmIpg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_051_211214d17cdb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo5L8mMqG83CuY6YFXicwXibPeBgcagwSibNcrdYhx0DueibCsbwNGNTMUaQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_052_b9a0c60d8857.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoyFneNn4UbBnNQtHBAicrKUZkkzksDXBeicWpduM4OoGcnSicKAG7UoXwg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_053_ed15989fea2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoOYCQOFOQEJR1BQjkTECGSdzgxklLvnvl6BOvLGJ6HQz3icX6uBnibTcQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_054_6ba5e911da18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoPKUxsIZYHcgU51yrIhNRyQloOIkjNCFOFjSnmWficOqs8oZpPiawRkrA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_055_157f5f1cbe7f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoZlRoO20NmDyMk5RicN9er7lQOgKoVleucDajqKTAE238zFfbFkAicDiaw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_056_6098160a2233.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoStyj0iadEvBAgr7OhplicEiaVuwo9kQdNR7cq8E745ncIYxmVX5qO9qAQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_057_4d0b5a973768.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo3JMp4D0ea72tKZwhX6cK1FiaDTE1JaYaJCUhOO2Qk3LliagZXY8ibSfWA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_058_616ed0b83637.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo29wZ6Jkn25Em7e81vub3AsEmyaQtoDX2ZzjeLWyfgicfGZDIyTo57oQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_059_3dfd9a950862.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoZOJCLxtp4Lr6XEuLSY9HlD2hyDKwvD1FGeBRzfeYxDFXZ6iaYTsm0zQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_060_83ba1948695f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVowJEetiadd6549A9ZyWTR4XVwchyRrR6BhSGeWV1BCmW4nukaSAIhOibA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_061_792ca7025f13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVolBDQPCh9bkORnI47s25gL6hzNYn1uz3IWibTZhbhKEqT6GGdxvyrL7g/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_062_f31b07d7bc4c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVopZfkBFp7rQ1EQy6qRwhbpDiavO36ggRYfUEMoxBewWRHGb1EiaYMPRqQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_063_6c1386f6023e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo16jFBq3CadHQosaliaCwfVITgcmdiaCMYia6F994wmHtkuU3LaYIZQ6Mg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_064_2b54ea8bba95.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoro6ibRTSsUfqIhFd76y1lGXMyBYiaqUAfmIod2nTd7FwHJI2Rqx4Y9OQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_065_d7acf124d584.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVorATmFnpkczKcOePfxxpx4Cs4MtTjic7hPGqd1BqjtfaFTgj7rL1ibynQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_066_931208884730.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVo7yeIJLWS4T02ANuy1G4Y9fSPHZUKw2HUxTj6rhXK4EAmMt5RC4z6jQ/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_067_b90b430bd12e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoo3BnMicMSbfaGYbymcvdSFDdOiaXKV9WfXZNxot6PMgUYGHcjiafYrUnw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_068_f5696f03ffc9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVodvfy16lIY1OfUybGk3s4e0TaB0V8hPicM4a6zSIxm67xficO2Q4ibiaWpw/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_069_fe13c1dd1f7f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoSgB5KIKHAHDkQ5fDxsB1iaia2dazuxmSjdzLVjd35mhU3pTicFGgm6KAg/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_070_183ccbbcc96a.png)
 
 注：文字与图片报告无关
 
@@ -200,7 +200,7 @@ GaN器件/SiC器件单片双向开关不仅仅是又一个新器件，它有望�
 
 在实现单片双向开关的道路上，GaN和SiC各有优劣，瞄准不同的应用领域：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQzQHZTGPXqAbzLqotkGVoib4h8a3N4pDkbYbsyK4OT0ib9mscBIuq7iap3L8cuhTUd2A1cOTWLJ5AA/640?wx_fmt=png&from=appmsg)
+![](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_071_b016a8310991.png)
 
 挑战与未来展望
 
@@ -224,13 +224,13 @@ GaN/SiC单片双向开关远不止是一个元件级的改进，它是一个“�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzECgJIrkkOTLnrYREFFLxbEibVf0tGjds67CKxXdcwttG9cZEy7yxB8w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=79)
+![图片](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_072_7eecf8f813e7.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzAfYianD9Syb0siar5zFQuiaNSElicGe9n7SdrxTUbA4ByCG1H8TKNFjIPw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=80)
+![图片](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_073_ad32664025e6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzHad8VssiaT5NiaqYCxqTA4Ilx4RRxbRoS7pKXPIf1pk8qBtqAVOXFFFQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=81)
+![图片](GaN_SiC单片双向开关器件__电力电子创新的驱动因素_images/img_074_a50c198b2bda.jpg)

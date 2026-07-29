@@ -5,11 +5,11 @@
 
 一、官宣：碳化硅写入十四五规划
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iafSqeqPMXh2SqFHUTIJq40WcuMYVE0cSoPaQDRTELAarVQKvNQwNYbw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_000_96beeadec366.png)
 
 2021年3月13日，新华网刊登了《中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要》，其中“集成电路”领域，特别提出碳化硅、氮化镓等宽禁带半导体要取得发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iaH5GK1Z9Vd3C60SdFOsicDPIzp9icKy3pWdIezgPxnZxE6UzZF68XF0dg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_001_e2f3acee1fa9.png)
 
 碳化硅和氮化镓都属于第三代半导体宽禁带半导体材料，能够在“十四五规划”中提名，足以说明其重要程度已经上升到了国家的层面。相信在国家的助推下，国内将迅速形成适合第三代半导体发展的环境，前景十分值得期待。
 
@@ -17,7 +17,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iahxC6dcqKLbaZnYHYniakMkwHN6XV2u6t3QDdAMjicE8CIK0Yar0Bwn0Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_002_fa2394bcb860.jpg)
 
   
 
@@ -37,7 +37,7 @@
 
 碳化硅（SiC）是碳和硅的化合物，碳化硅单晶材料目前采用物理气相输运（PVT）法，在超过2000℃的高温下，将碳粉和硅粉通过高温分解成原子，通过温度控制沉积在碳化硅籽晶上形成碳化硅晶体。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iaQGsWBtI5cZHCk6TUSbF1CH4TKCiagkso6YJ6EWC1Kr0Q6lowuibLlicNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_003_647be715e829.png)
 
 作为第三代半导体材料，碳化硅（SiC）与硅（Si）相比，介电击穿强度更大、饱和电子漂移速度更快且热导率更高。因此，当用于半导体器件中时，碳化硅器件拥有高耐压、高速开关、低导通电阻、高效率等特性，有助于降低能耗和缩小系统尺寸。
 
@@ -59,13 +59,13 @@
 
 **五.碳化硅MOS管，DFN8\*8超薄封装在PD大功率快充的应用资料**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iaibEKcrAxGQaevFUIibOic3EMfHmNeuH74goZZC8wNVjZdaibbg2RMfHwKA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_004_c53e48b647f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iaRVQqkgzybz1FQgmKWvvoDDVAjYTQVTUBVznJh2aOMbuN0mxZPic8bGg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_005_3a055414db0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iaDzoLdUQn8E0o7Ezbe25EZB1dMicCBY3NkhTlMKeNA9Ry3KH3IcpHEog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_006_847836cf97ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNeAK58qVsLzEwp17JFB0iaWYNZwAGDmhicibWzfx1ucfV5su8KvKRRwGKAxx7AvSmgsOOiblDUxHiapg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅写入十四五规划_新能源汽车和PD快充市场成为第三代半导体突破口_images\img_007_fad290129bfe.png)
 
 因此，碳化硅在消费类电源领域的关注度越来越高，并逐渐成为了大功率快充产品的核心竞争力。
 

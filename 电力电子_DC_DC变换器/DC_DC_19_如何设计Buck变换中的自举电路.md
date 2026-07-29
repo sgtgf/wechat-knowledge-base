@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Y4JVt2ih8ybgkv7qb-7oEw](https://mp.weixin.qq.com/s/Y4JVt2ih8ybgkv7qb-7oEw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLjx9JpIPHWLrSbd4tz6OfD5Av7XIRpjT5mibmETsO8lphDeIKDq4RPicg/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_000_925b00dfa320.png)
 
 ____**★★★**______DC-DC-19---自举电路设计______**★★★**____
 
@@ -19,23 +19,23 @@ ___€2.自举电路的工作过程___
 
 如**_图19-1_**所示，在电荷泵型升压电路中，基本部件包括二极管和电容器（自举电容器）。二极管通常作为IC中的一个元件内置，只有自举电容器连接在外部。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpBy794eB4hlHNibVL4ib8bELRT6QyjRj8aFYzWffia3tzVd1XtXhQibaNsQ/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_001_02bb4fe4c019.png)
 
 **_图19-1：自举电路拓扑_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpGyWBNOoauTzeO0ib8lYBSewiaNxQqicMnlsfuyWolognP4ja74fa1AeNw/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_002_bdb035930519.png)
 
 **_图19-2：Q1关闭，Q2导通时的电流流向_**  
 
 如**_图19-2_**所示，当Q1关闭，Q2导通时，半桥的开关节点SW被拉到接近地电位（GND），此时Vin通过D给Cboot充电。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80Dpiago6AgOXGKZTVbFIVNKfUFRJvEamciaVbnflvDTGwkpGcHPrXyLwiaCw/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_003_8f4048c08145.png)
 
 **_图19-3：Q1导通，Q2关闭时的电流流向_**
 
 如**_图19-3_**所示，当Q1导通，Q2关断时，半桥的开关节点SW被拉到接近电源电位（Vin），自举二极管D将开始阻断。在这种状态下，高压侧栅极电路与供电轨分离，并且仅由自举电容器供电。此时已经被充满电的Cboot两端电压为Vin，但是不能突变，所以此时VH点的电压=2×Vin-VD，达到上管Q1的导通阈值。上述过程中SW和BOOT引脚上的电压如**_图19-4_**所示，其中Vf是内置二极管的正向电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS0ox7NSiaGiaXy3JoRCr5V0MAXKhgLuRan4S0kiaLiasBBF4DicB543JQjk7NBabRegY3LhCoOhSnq9Tw/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_004_ccb08b07ceb7.png)
 
 **_图19-4：SW和Boot处电压波形_**
 
@@ -49,11 +49,11 @@ ___€2.自举电路的工作过程___
 
 在**_图19-5_**中，内置二极管的阳极连接VIN，BOOT电压可以增加到2×VIN-Vf，高侧N-chMOSFET的栅源电压差最大为VIN-Vf。当VIN-Vf超过VGS额定值时，高压侧N-ch MOSFET将被破坏。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpQetP1Y8KOm352yFn9EbBpygDASaficwZjYyUAnF2SP8PWQ1lv9eT6pA/640?wx_fmt=png)**_图19-5：考虑防止超过VGS额定值的方法_**
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_005_a11a9eb6d84b.png)**_图19-5：考虑防止超过VGS额定值的方法_**
 
 如计算中所述，该BOOT电压可能超过高侧N-ch MOSFET的栅极和源极之间的击穿电压VGSS。因此，在设计具有高输入电压的产品时，如**_图19-6_**所示，将大约5V的内部电源连接到阳极，以使BOOT电压保持在栅极和源极之间的击穿电压以下。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpX2dsX1tyGh2ticwMpxTXpL2rlHmmlZyBdeibiaSAKR5h2CvETgNkZNdTg/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_006_4eca00ee3ee0.png)
 
 **_图19-6：内置单独供电电源_**
 
@@ -63,7 +63,7 @@ ___€3______.自举电容的计算和选型___
 
 对于自举电容器的最小电容，请遵循每个数据表中描述的电容，使用小型陶瓷电容器作为自举电容器。有必要考虑陶瓷电容器的直流偏置特性，并确认实际电容与数据表中描述的电容相符。DC偏置特性是指由于施加在陶瓷电容器两端的DC电压而导致的电容变化特性。通常，随着DC电压的增加，电容趋于减小。此外，电容的变化也取决于尺寸。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS0ox7NSiaGiaXy3JoRCr5V0MFHviaSFWAwEUgSGibo8vAgI77gkkx1mKLTJVxBBbicWJoGMC325M046tA/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_007_804a41fe85fd.png)
 
 **_图19-7：陶瓷电容器直流偏置特性实例_**
 
@@ -73,7 +73,7 @@ ___€3______.自举电容的计算和选型___
 
 电容的适当值可以从以下等式中获得。当高侧N-chMOSFET导通时，存储在自举电容器中的电荷被消耗用于栅极驱动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS0ox7NSiaGiaXy3JoRCr5V0M6HNaRb6ibmFLc6u7TFPKcX3XMIpC2iaKKib4cLGSl8mN6oN5n6OQHy0Tw/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_008_accffdb60e9a.png)
 
 QLOSS：N−ch MOSFET导通时消耗的总电荷
 
@@ -87,23 +87,23 @@ D：开关占空比
 
 这里BOOT和SW之间的电压变化（ΔVBS）、自举电容器的电容（CBOOT）和QLOSS的关系表示如下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS0ox7NSiaGiaXy3JoRCr5V0M9Uy7s0qHibzLfk2VhU8cSC00oGsFabA9IjORAh0W6ibPvqWfakJjCcew/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_009_3a8a4e517053.png)
 
 考虑到需要将ΔVBS保持在0.1V或以下，方程式可描述如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS0ox7NSiaGiaXy3JoRCr5V0M5V8oh2IxXhP0M4wyjI4IF6aBHI03ibWibUsKNFv50OblRJC1TicTuQzow/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_010_26fd66a4906c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpGsT10pd9WibYmIyhhtEppmE6bJbrIDDcknyMibic0eqMT7qhxyJSmcjbw/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_011_de491d3b0705.png)
 
 **_图19-8：确定CBOOT所需的电路图_**
 
 作为示例，使用QG＝10nC、IBOOT＝10nA、D＝0.3和f＝1MHz进行计算。根据等式(1)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS0ox7NSiaGiaXy3JoRCr5V0M5dEnRvXWqkTtW4RHe4ts6icAibRuH1I0prznVZ1jFdqZTXYD2NQGORGw/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_012_06b642b22cf9.png)
 
 当在等式(3)中代入该值时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS0ox7NSiaGiaXy3JoRCr5V0MBJf4Txz9RX0KIcr4Zpiapzh6ZPraosMibR8A8pEgDDYlRdGh4PFBOqQA/640?wx_fmt=png)
+![](DC_DC_19_如何设计Buck变换中的自举电路_images/img_013_38011af4bd6e.png)
 
 因此，Cboot应为0.1uF或更大。然而，应使用数据表中描述的电容，因为它们是根据从这些方程获得的结果设计的。
 

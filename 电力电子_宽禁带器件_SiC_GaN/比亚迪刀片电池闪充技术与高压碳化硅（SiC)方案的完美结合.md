@@ -5,7 +5,7 @@
 
 比亚迪刀片电池闪充技术的核心是**第二代刀片电池 + 全域 1000V 高压架构 + 兆瓦级补能系统**的协同方案，实现 “5 分钟充 400 公里” 的补能体验。这一技术对电驱电控提出了**高压耐压、高频低损、大电流承载、高可靠冗余**的特殊要求，而**1500V SiC MOSFET**正是满足这些要求的核心器件，可显著提升系统效率、功率密度与可靠性，是闪充时代电驱电控的 “标配”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPBibOXDkuib03b13NYBkxJ5usWcgrbz2T8ewuNCibbCdOmcIUCEP9utAwUpcdsqRRuO9uVbzf8OImiacr8dllVHYd5ZCKVceeOMEs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_000_8f80119d0e01.png)
 
 ### 一、比亚迪刀片电池闪充技术：原理与市场优势
 
@@ -15,7 +15,7 @@
 
 ####   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMXdStdpfm6ibp1AB3l0W9C8Ihw16PDoRClpIgb8Hd9nYlmUIFOrlRwU8yyUEsxLvPODgD2Z3WtpawmcibzXDmUABOwDYewyevia0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_001_068d4fcd2013.png)
 
 ####   
 
@@ -57,7 +57,7 @@
 
 2\. 市场应用优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP1Q0BceuSPwRY3A3JyeFGPM5q4WwQ9L2Mb7icUlGST2Uj4iaqX2iaI9fpTYGQiboLkKN6bY5ma3OQ6sR8I479iacbHCheyVGvWVKdA/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_002_48218ff27b1c.png)  
 
 补能效率革命：10%→70% 仅 5 分钟，9 分钟充至 97%，接近加油体验，彻底解决补能焦虑。
 
@@ -131,7 +131,7 @@
 
 ####   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN2StUqhh2UYic7uX4NcTjjmaTLLibVcEWLDyhZdsoIduLCpsrZbdjBh8mafxq8EUTIJKiaIzxhOw3xn4WhUpSMtDXSic5gBYqrDXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_003_870b5fa3e91d.png)
 
 ####   
 
@@ -139,7 +139,7 @@
 
 ####   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPR4rKqtqooCpRaMicM9rFsS914pGwJp6DJMeQrkkaHGn8Biam0Ktw0oQIMDfEbOsumSGwBrac3j9V1dWknuxibU2iaX7Nrk5f3xW0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_004_2d41909c83b4.png)
 
 ####   
 
@@ -183,7 +183,7 @@ SiC MOSFET 性能表现
 
 3\. 与比亚迪闪充技术的协同价值
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjxQzIdDd5j4bOictMfJhus8ib5MdlyicibG0IMH4jzREcf2gD2EQw6oibrvxfo3ziaq1eQyoUzaqxM1JF4yTvqxibBr2I8oj5OmiaialU/640?wx_fmt=png&from=appmsg)高压平台适配：1500V SiC 器件解决 1000V 平台耐压瓶颈，实现电池、电驱、充电机的全域高压协同。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_005_495d9d41ca3f.png)高压平台适配：1500V SiC 器件解决 1000V 平台耐压瓶颈，实现电池、电驱、充电机的全域高压协同。
 
 闪充效率最大化：低损耗特性让兆瓦级充电功率持续输出，避免因器件过热导致的降功率，保障 “5 分钟充 400 公里” 的实际体验。
 
@@ -217,14 +217,14 @@ SiC MOSFET 性能表现
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpM4Qc49VYgMQ8sXDshwtibZ1lFncibkjOn2WKIyUuSMedjqS7rLmg7Q7jw5u5kjcUkO5ddbGSbgjEhicTxXEGEpyfR6CoLPwn2rm4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_006_77bcd5bfc088.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOEMBuSnXARgibcqCUMpA7JehSXTiaCExE5svKJChGKcn0TP1uZlHquOP4pCiaxOf8YAt0QmicprV9vib0tiaA9ibpzGSmqAc30ricYBYY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_007_87812fbab8e3.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNElXRr0RtyiaFq0yFr2drR5auSRIY76uO5JvibKDWnV0o8XBUyGqficvBw8iaG9vGnDX44QPyIz7NGxhViaIichrt6877Rs0aR8G9lY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_008_16d99ff71856.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM0l2xyibGrsk7Gc0FAibwcVTbNJttmVLGTbPs9txVpibWicsJMnDib70OBzoAc1QGJ4ibYAN3GpicjtdEibOgFEMQ3vwLY1d1ndO8KBvc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\比亚迪刀片电池闪充技术与高压碳化硅（SiC)方案的完美结合_images\img_009_629f258a684f.jpg)

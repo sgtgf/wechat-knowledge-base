@@ -15,25 +15,25 @@
 
 我已经将 Ansys Maxwell 2019R1~2025R2（最新版）的官方文档上传到了 ima，除官方文档外，没有其它良莠不齐的资料。朋友们可以扫码加入，目前已有90+朋友加入！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSGCVcJ7Eib99MZBKo1tGMwcw5jMFErYOUEqsyR4EShdkcJ1m5Cj1MsRqh6durWVmfshBRfJZZNicsQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\当Ansys_Maxwell帮助文档遇上ima_images\img_000_d28d8f1a2de2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSGCVcJ7Eib99MZBKo1tGMwcY9ic7oXlreTDqSjEQVqXDhOayfpUr3eIBtC9w019t4DxbovPuu18h3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\当Ansys_Maxwell帮助文档遇上ima_images\img_001_67a87e722c44.png)
 
 ## 究竟能力如何？
 
 ima 迭代很快，前不仅大版本迭代到了 2.0，支持点击引用，从而跳转文档对应部分。这对我们来说十分必要，有时候我们不仅需要答案，还需要点进文档对应部分仔细研读，得到更准确的答案，同时也防止 AI 自己脑补过多内容。我们在提问时候，要选择具体版本进去，然后再提问，这样提问更具针对性，比如我选择的是2025R1版本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSGCVcJ7Eib99MZBKo1tGMwcGzzQicPh0VGsaGHcgB8ouFrdqW9W3dickRiaiaP0KWsfbKBjHhVAwzLK4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\当Ansys_Maxwell帮助文档遇上ima_images\img_002_0bbeee7f9107.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DSGCVcJ7Eib99MZBKo1tGMwcniaLbqfxcvDE7AHpuB2qiaPWXXJSibkicukW51Z13EFiahicwVmPw3PticENA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\当Ansys_Maxwell帮助文档遇上ima_images\img_003_a799b4a2d9a0.png)
 
 下面我准备了一些问题，来看看 ima 回答得如何。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSGCVcJ7Eib99MZBKo1tGMwcUx1H2JxUCR1Fjfm59UI7BHQCpc6NFDOcSzaHJak35luQKp1ldKDREw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\当Ansys_Maxwell帮助文档遇上ima_images\img_004_1d0e92c063ce.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSGCVcJ7Eib99MZBKo1tGMwcRnOjbLZhianDvBH91I6IHRfdHJhmBmD1IaHf2LKyPz8d2bSibNS3orvg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\当Ansys_Maxwell帮助文档遇上ima_images\img_005_c82ae219f2a2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DSGCVcJ7Eib99MZBKo1tGMwcic4iaKoqCmaAx028rRWZrIAK0JxicPn60oqRR4nhHibSv0ic7yZbkKqbrVg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\当Ansys_Maxwell帮助文档遇上ima_images\img_006_c1c674869359.jpg)
 
   
 

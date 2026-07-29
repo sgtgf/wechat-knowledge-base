@@ -12,13 +12,13 @@
 
 不知道大家最近看新闻没有，前不久，国务院正式批复了《四川省国土空间规划（2021-2035）》，在这份文件中，将四川定位为“我国发展的战略腹地。”并且国家在此前相关会议中，明确提出要“建设国家战略腹地和关键产业备份”。这意味着，围绕供应链安全的投资将在四川大大加强。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhibm1FIJ8fGpLv9kMNO24mwpZVcLng3yuND4CT58vFvdYmPHrwXaE0PQXibwnicUeqIBmiaViatIlp8aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\重磅_TCL集团_巨石集团_正威国际集团_中集集团_格力电器_威华股份等万人大厂集体迁移_images\img_002_47961e97c5a6.png)
 
   
 
 这话太官方了，简单说：四川要雄起了，很多沿海的大厂都开始陆陆续续向内陆转移，而成都作为四川省会，西部中心城市，将会迎来新的机遇。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhibm1FIJ8fGpLv9kMNO24mwYN8yCdmbJ8DN29sSNXiaq13stGxzetOxLxC7rjRxrZNlTpe2mjyEu3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\重磅_TCL集团_巨石集团_正威国际集团_中集集团_格力电器_威华股份等万人大厂集体迁移_images\img_003_e5edb68d8d48.png)
 
   
 
@@ -60,7 +60,7 @@
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\重磅_TCL集团_巨石集团_正威国际集团_中集集团_格力电器_威华股份等万人大厂集体迁移_images\img_004_854de1eb795d.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\重磅_TCL集团_巨石集团_正威国际集团_中集集团_格力电器_威华股份等万人大厂集体迁移_images\img_005_17c99fedbed1.jpg)
 
 ## 
 

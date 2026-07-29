@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/o2QPoDK0eRgeN7LvkBsP7Q](https://mp.weixin.qq.com/s/o2QPoDK0eRgeN7LvkBsP7Q)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZB65SHQQj1iagIBgL3U6eF7iafNLtGXWk9VCSa2T321YhR6GbnibqBtw21A/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_000_cb8abf528bda.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZB65SHQQj1iagIBgL3U6eF7iafNLtGXWk9VCSa2T321YhR6GbnibqBtw21A/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_001_cb8abf528bda.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBiciarSGzdZRyFH8t3u5JibFYZ8emu9To3GLN0ANysakgd8GnPYibic7qrww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_002_fb2f6f935b82.jpg)
 
   
 
@@ -74,21 +74,21 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190780?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBUOB7zkicrfY7Z6XGuQ6n4ZRsV8hJQvZ6pwysXfAibpqwE7UdgzOGoBOA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_003_89bd6389e328.jpg)
 
 图 4  合成图像加高斯白噪声分割结果对比
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBu8uZJvKzkjwndOTWDaLWwPlGjmlmODp32iamUzBcxoYtR1pU8pkVkkQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_004_d4828c118e21.jpg)
 
 图 5  合成图像加椒盐噪声分割结果对比  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZB7AlnFEOMRia4ZPj7bBlfhvXGIwLBp3fV6AcRXeeruISLHDvyqNk4T3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_005_c82948e2f78e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBzCDoicUQdibYZDXl9vZxpfq1Et0aljtumKXwr7UmLzZcuLVYmibbIBl1g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_006_2ec4d5340185.jpg)
 
 图 6  自然图像分割结果对比  
 
@@ -100,7 +100,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190780?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBKiayln2xCz95rRWaIjK3U9KfUUBENBReljzfx8mKYoOBAibV8o6UumbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_007_79bc1faebf70.png)
 
 **徐胜军**
 
@@ -108,7 +108,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190780?viewType=HTML
 
 E-mail: duplin@sina.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBqbviafX2pic3QcCwtcgEM8ls3A1ePicIQKoIIROViczGTQ2Xbe2C2M8y4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_008_d5ddd7f2ba4e.png)
 
 **周盈希**
 
@@ -116,7 +116,7 @@ E-mail: duplin@sina.com
 
 E-mail: 13572978250@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBCA1e4HAMoPGPIVunfxJ9II1MkGHPPn2xy2Pq8xHksP7J7mRTyb1ufQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_009_3ab478542fde.png)
 
 **孟月波**
 
@@ -124,7 +124,7 @@ E-mail: 13572978250@163.com
 
 E-mail: mengyuebo@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBsQk10RvG90hhjeS9SF4HA1CpkgZSeshnWicbhWg8ShVXO7DLhpGHrgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_010_23a1fe351c6a.png)
 
 **刘光辉**
 
@@ -132,7 +132,7 @@ E-mail: mengyuebo@163.com
 
 E-mail: guanghuil@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBMLvO9ftBBRnjaqrZY3sic2lXZH3xM0XB9oaWY72iaSzUtRKqTdurLGWA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_011_902cddb8fd68.png)
 
 **史   亚**
 
@@ -386,51 +386,51 @@ http://www.aas.net.cn/cn/article/id/16831?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBsMu1fO7OTHr5JWC7yibP2Kbl9ADlhKicHHoK4p3uxPuGPb2Qm73L3bVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_012_9d4e678a1b3a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBp6RQauRROxHQS5kZTTwCzTETh7h2xaRiaGPBxUXKoZc2D8E7uKUfJgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_013_60f9de6ff871.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_015_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_014_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBdWGtquicaswxiaAwkbrMwlcec6fzib0SicxHwn6KsYNsQa521Cc8Ww0XVQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_016_8b84564f71bc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_017_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_018_a49283128f98.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_019_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_020_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBlIatF3V5yX8UIib7HHGJ4t6eNG2f8s1HanwJl7avEtcdFlkibZupkcng/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_021_e10f592a6d96.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_022_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_024_a49283128f98.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_025_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_027_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBzqzNXThHAw8yM8tRibTUibncicD2IuS6jPowTTdXgcFdL5BR02lGT1bCw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_026_408b1c050dcf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_023_a49283128f98.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46LDbMS1SErAp2IjBnbh0ZBl6JCOlVkH7kuOl7bTDyo8ld5aupXWVU61ydOlQwJAXxFlFxMqypSVQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于多节点拓扑重叠测度高阶MRF模型的图像分割_images\img_028_a49283128f98.gif)
 
 **长按二维码｜关注我们**
 

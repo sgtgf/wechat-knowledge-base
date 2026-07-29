@@ -14,13 +14,13 @@
 
 1、遵照“先大后小，先难后易”的布置原则，即重要的单元电路、核心元器件应当优先布局。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7v6R8IU3eQicibQBu92HeO6IBP1SVUjQBJrQMRlcfg4xspAqPqZgXEMO4Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_002_cec91120a113.jpg)
 
   
 
 先大后小，先难后易
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vwEtnfvhmI6gqY2soa6DwoDrUbBoPbXGy0cfIGknM26qzT781zOfQHg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_003_7f1a536d740d.jpg)
 
 上图中1是因为机械结构决定电源与接线柱在这里。
 
@@ -32,59 +32,59 @@
 
 如下图， C8到C11都是在VCC与GND之间的去耦电容，在原理图中并没有办法体现出它们的位置要求。但是PCB中们应当布局在芯片电源的输入引脚附件，例如31与32脚附近应有电容，18与19脚附近也应有电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vBhIyibZPVxSHIwKvkLuFkhs8A3C8GfolWvlibn1oicYebsldkkYJRCnaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_004_d5e6ad6e7814.jpg)
 
   
 
 错误示例，并排放置
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vKp5cDOQIRhwn1ZZSN3sQmeOPSEN9OjibR9s7yBCd2tNpO7diaN7Tnj3w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_005_607e95d3cd8f.png)
 
   
 
 正确示例，靠近芯片电源输入脚
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7v4zMbial3sRqtyowWyib8qrzUrvOxFTA5IQxCTtUIu7jnnDNnysCb9Mbg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_006_667013836983.jpg)
 
   
 
 3、元器件的排列要便于调试和维修，亦即小元件周围不能放置大元件、需调试的元器件周围要有足够的空间，弄得太挤局面往往会变得很尴尬。如下图R7与C7，如果先焊接周围的器件的话，R7与C7就很难焊接了。（这里也说明了焊接的顺序很重要）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vkLnRBuoIkyEY27WjeCG3P9Y1MMUyPFLD3bXbiaiaD2hmFT6XhB7TtdnA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_007_eadf7131a773.png)
 
   
 
 4、 相同结构电路部分，尽可能采用“对称式”标准布局；按照均匀分布、重心平衡、版面美观的标准优化布局。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vmN8kLbF3xEWa4NxYtLkgzutptv6xMibL7FKpKibSnPVv5DOaFWsQumsQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_008_9ab269274b13.jpg)
 
   
 
 均匀分布、重心平衡，布局要整齐
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vicgtSDoACyhA3Sfu09R1fTdziciblT9QWxczMjvjiatYibAGSIicpNs4f4Ug/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_009_37af610a3614.jpg)
 
   
 
 5、同类型插装元器件在X或Y方向上应朝一个方向放置。同一种类型的有极性分立元件也要力争在X或Y方向上保持一致，便于生产和检验。（如需要人工确认器件极性，可能要生产成本会上升）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vsv7Ewyk1OeViaAorscfz7GGmv3lfFFPZJIp8dM3tOXDlQqLMLjWFAfA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_010_88712fbc73f8.jpg)
 
   
 
 6、发热元件要一般应均匀分布，以利于单板和整机的散热，除温度检测元件以外的温度敏感器件应远离发热量大的元器件。除了温度传感器，三极管也属于对热敏感的器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7v6Ltnh6GIJbhmzN0Aa0pOLPic7iamdNsEh4icsTvmY7LMwrOLJKwJGIMHg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_011_ffd005bde643.jpg)
 
   
 
 7、高电压、大电流信号与小电流，低电压的弱信号完全分开；模拟信号与数字信号分开；高频信号与低频信号分开；高频元器件的间隔要充分。元件布局时，应适当考虑使用同一种电源的器件尽量放在一起，以便于将来的电源分隔。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vy9mWNOtQvSicQB21k96zktA2KTruG2pHtXy8MibMafibNKheqNSEMcXTw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_012_cc075bffeadf.jpg)
 
 PCB布局示例
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vORnVqduDvSv9tZ3Hia1cCaxw6a9wGhjljbzGibfCYnFlQDgndPaO2acA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_013_b83adc4665e9.png)
 
   
 
@@ -117,13 +117,13 @@ PCB布局示例
 
 可以在原理图中先找到运放模块的器件，按住ctrl选中。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vfl51qcA1vM7TnmkSTsPTndJpiaxPLgRBQ5IRC48f5ianoaTIDk5icUzfQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_014_89385b6d2d61.jpg)
 
   
 
 则PCB中，这些器件也已经被选中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vGnsQFF1zwSCXvjxksibGZoJJ4FO8Uo6CJgUzyAgUHj6or9dR76wwTlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_015_96dad9602aa8.png)
 
   
 
@@ -131,37 +131,37 @@ PCB布局示例
 
 观察预拉线的情况，已知每一个器件都有一个公共的网络叫做VB，可以按住ctrl选中网络属性为VB的一个焊盘，则VB高亮，例如
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vUSMmL8osLF7jVYoErpVXkyUzOziaXcAlMP59W9fSrIHUfwBcqrK8RXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_016_b26f2d372763.jpg)
 
   
 
 调整后编程如下布局
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7v4jkSY9jOohTJv4mBXlDNRYNvClsOFgMmEKaccE8Vx9AIbloeGebiapQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_017_1ac0f70a843f.png)
 
   
 
 观察原理图中，Q1接R6，然后把R6也拖拽过来
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vTHMfxZlkjsxZYWEGbHS9EDyBLCE2a57WAByTNcGvsAhZp1Hrsia9ImA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_018_cfc89b3f3105.png)
 
   
 
 其它器件以此类推
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vZic0YFWREUyseqkx9kSVcpYCBoOoSPEL6hibs95vqvibk3AXsicw6Va6BA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_019_94f9301eff79.jpg)
 
   
 
 然后布线就可以比较顺利
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7v5NdhgNotX1LQ0qF4Xml1P1m5L3ChofvMkFVLXtM82mOZTqVMd3hyPg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_020_5693f9fdd575.jpg)
 
   
 
 **4、低频双面板布线示例**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7v0NWxVq0gUNMAricf4UUpmkdDgiamd9jxxLzHRrL1OLxufbMSm90UTFvA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_021_2414c06187f3.jpg)
 
   
 
@@ -173,11 +173,11 @@ PCB布局示例
 
 2 走电源线，两种电源，VCC与VCC3.3。可以专门为电源线设置一个宽度规则。电源类的线也应当少走过孔，若确实需要，可以多个过孔并联
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vicQcReqTjI6bsJL4tNC1sOE7juQ4LwfTODRIFNBX57xP59Eq9J02m5w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_022_21abfd48f137.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7veFXiaLtxWiaLhtjicvw5y72JPREE1agbJxo2dMjHZx5re0u7nbia7fh5IQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_023_74ff28c5101e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vC4116nG9cmM03K4bT1Bq6ELQicJziajDSKypd6lPjC60BibicETHiaKhIcQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_024_1a7451ca0fc3.jpg)
 
   
 
@@ -193,7 +193,7 @@ PCB布局示例
 
 水平线与竖直线走在不同的层
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vMRngT5Q2Jm6ZUgyWxcrTvGibzJmFjbUgvsKLwB9yQL4s7rScC21o0tQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_025_9969115306de.jpg)
 
 可适当调整器件的方向来方便走线。
 
@@ -201,7 +201,7 @@ PCB布局示例
 
 目的地相近的线要整齐。可以采用交互式多根线连接工具
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7voia8yvFzMjvHQyDBosostdbd9tmusbDeZft2KwHJ0ot87XU6L3Ffw7w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_026_871cd869b7ec.jpg)
 
   
 
@@ -209,9 +209,9 @@ PCB布局示例
 
 如图飞线交叉了。可以绕圈。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vIAN9WrRMc27YuqtQWPyGE2icTnufCJaoFibEnxg70Su7GBFGSiaU1TOvA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_027_e22afa0ed2ca.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiapPWee1sNhepgredYE1L7vWrBojv0NjpIFAM6ich16ibNZPdCNvtSicAMkZpK2h8pmbZZsykwuNiaUAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\分享几个lay板的小技巧_images\img_028_5fcadcb73c81.jpg)
 
 \-End-  
 

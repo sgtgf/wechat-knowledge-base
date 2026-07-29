@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURXX8pr0ZQ1P2uBTFRl36mHyeOquS5zXgseiaxX6NVfegYpmj6bbEV8OoA/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_000_bbf0d25dd043.jpg)
 
   
 
@@ -34,7 +34,7 @@ DeepMind 研究科学家 David Pfau 在论文发表后感叹道：「为了分�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURXUplXn76tp9u5viamgcumeb13LE6e0MwLqJBGajrbTgcamfZZib03wicVQ/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_001_399d0c705963.jpg)
 
   
 
@@ -54,7 +54,7 @@ DeepMind 研究科学家 David Pfau 在论文发表后感叹道：「为了分�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURX8uCXkmERn4J4xu8ypJMI5wfF6H3MialCJALL99PkwLIfmGDbwlwkNkg/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_002_b76887705f99.jpg)
 
   
 
@@ -70,7 +70,7 @@ DeepMind 控制团队负责人 Martin Riedmiller 表示：「人工智能，特�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURX7sxgsL1y99L8xOGVKc5Jwkzj6utzDK4A6mE9ib8TaCehrcX28obDtMA/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_003_4280ef4a3877.gif)
 
   
 
@@ -94,7 +94,7 @@ DeepMind 提出的模型架构如下图所示，该方法具有三个阶段：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURXyXW0X8jX51Pw4qCvzOKWLxQVwDqBiazHIoLVCrXBmSDhIyfaNIiccn2A/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_004_7aa5645ee8af.jpg)
 
 图 1：控制器设计架构（controller design architecture）的各组件示意图
 
@@ -124,7 +124,7 @@ RL 算法使用收集到的模拟器数据来找到关于指定奖励函数的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURX0jBqAG4uptiankmMT3ZibUFgsSzgRjbLm0Wg7UTfq76ZKx9cPuVFWxOw/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_000_06b037121e09.jpg)
 
 图 2：等离子体电流、垂直稳定性、位置与形状控制的演示
 
@@ -138,7 +138,7 @@ RL 算法使用收集到的模拟器数据来找到关于指定奖励函数的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ov16uqdyiageQRumwibMURXIvvVdFgBVMvpFicoreUOsS5v32OmEsSRCUU9Jt2DueLYYDPOkxia6ccg/640?wx_fmt=png)
+![](Nature_当AI学会控制核聚变反应堆_images/img_006_b4c346751dfa.png)
 
 图 3：控制演示
 
@@ -152,13 +152,13 @@ RL 算法使用收集到的模拟器数据来找到关于指定奖励函数的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURXBCLe9dqtRHAqHhqmFwgDPy0Lukib298bCZP6icEUQI9v1Orz3946S9bg/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_007_5fb36b9543aa.jpg)
 
 图 4：整个 200 毫米控制窗口内对 TCV 上两个独立液滴的持续控制演示
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURX0iapo6a0vNEdmicDD37yx6tT27O12uH8cyhbAoicibtSn3MY3qiaOuz4NUw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_008_d4a97f8ec148.gif)
 
   
 
@@ -246,49 +246,49 @@ https://www.wired.com/story/deepmind-ai-nuclear-fusion/
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ov16uqdyiageQRumwibMURXfTgntl3fApica0OzsibzXvJBLuOHCib8r7r6aZm5EiaxD3AJxl4yKc1vsA/640?wx_fmt=png)
+![](Nature_当AI学会控制核聚变反应堆_images/img_009_1632fbf1d0e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ov16uqdyiageQRumwibMURXibpF1sWGzrqIshQyK88PderJqdof1ljShKibFxf0p4iaAOQqibZCm0p5LA/640?wx_fmt=png)
+![](Nature_当AI学会控制核聚变反应堆_images/img_010_f48ad6e2d261.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_011_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_012_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURXicfoJiaQjUucPxqCMibUESKMZ1Gb4nlAyLJWvzDzcabrXS2uLpzp3oZlg/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_013_035f2a9d62a1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_014_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_015_83d520a1c2a7.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_016_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_017_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURXiclRASpUr3N9h5qWqoWuM7lB5D1wTF7Sf2ZGSgXuiaMPJ4LECAXM9icbg/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_018_e08775e6e006.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_019_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_020_83d520a1c2a7.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_021_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_022_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ov16uqdyiageQRumwibMURXH2g3u1QALK28NkicKEozYG7eMZS8mv2hr46t3BES14YMGWg0UmsqJUg/640?wx_fmt=jpeg)
+![](Nature_当AI学会控制核聚变反应堆_images/img_023_a585648929e2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_024_83d520a1c2a7.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47ov16uqdyiageQRumwibMURXBjBqc7YHAPdsbTfnAMKAOMzIvXrX2GPAJ7xA39oSj9GXAzzMdz29uw/640?wx_fmt=gif)
+![](Nature_当AI学会控制核聚变反应堆_images/img_025_83d520a1c2a7.gif)
 
 **长按二维码｜关注我们**
 

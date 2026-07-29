@@ -27,20 +27,20 @@
 
 -   假设你有一组向量，放在一个矩阵V里（每列一个向量）。
     
--   Gram矩阵G = V转置（![V^T](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tPXSacdwA8pTpMMibPp0IfFKAaFPlFLE3ibZtibAHM6ibIfIbEJgiabpFkow/640?wx_fmt=png&from=appmsg)） × V（矩阵乘法）。
+-   Gram矩阵G = V转置（![V^T](通俗易懂的Gram矩阵讲解_images/img_000_ad7d2f64a668.png)） × V（矩阵乘法）。
     
 
 -   “转置”就是把行变列（像把表格翻转90度）。
     
--   乘法结果的每个元素![G_{ij}](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t3TJubAZE7yqnOFruK4nkm832MhdFYmGJMSTeHupd4D1uqwKnAmtM0A/640?wx_fmt=png&from=appmsg) = 向量 i 和 向量 j 的内积。
+-   乘法结果的每个元素![G_{ij}](通俗易懂的Gram矩阵讲解_images/img_001_47d2c5eb4146.png) = 向量 i 和 向量 j 的内积。
     
       
     
 
--   如果向量是行向量，就![G = V × V^T](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t0ydpFChLfEhum45SgBsiaSaemjGa9mhSct8PBTDFVCElpIqMgaffewQ/640?wx_fmt=png&from=appmsg)。
+-   如果向量是行向量，就![G = V × V^T](通俗易懂的Gram矩阵讲解_images/img_002_acf9c660ed4d.png)。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tconLR3LB9xiacOK0YGwxLnbPJmFiaCecShHTpAYXbCDI7V5eWcAfdwUQ/640?wx_fmt=png&from=appmsg)  
+![](通俗易懂的Gram矩阵讲解_images/img_003_0bd53e7c866e.png)  
 编辑
 
   
@@ -55,36 +55,36 @@
 
 ![$A=[\,v_1\ \ v_2\ \ \cdots\ \ v_n\,]$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tSWicv43FtLDC0flRnxGMHOweKicj4VicKib0Jl1ABrJmc1ZYFCrbHTY9sw/640?wx_fmt=png&from=appmsg)
 
-左边是 ![$A^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5th6GSYu8hQVJ4GwTOyM5RREv7iafahT2buN7KKEE21qECLIQz95FYbxQ/640?wx_fmt=png&from=appmsg)，也就是把这些列向量转成行向量：
+左边是 ![$A^T$](通俗易懂的Gram矩阵讲解_images/img_004_b24e937bc13c.png)，也就是把这些列向量转成行向量：
 
-![$\begin{array}{c} A^T= \begin{bmatrix} v_1^T\\ v_2^T\\ \vdots\\ v_n^T \end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tamUz1DGyBAudhbBcB8F3okN3qz3gTCwuWEpe3qUBfgiaLsMicpstJDaw/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} A^T= \begin{bmatrix} v_1^T\\ v_2^T\\ \vdots\\ v_n^T \end{bmatrix} \end{array}$](通俗易懂的Gram矩阵讲解_images/img_005_ee038e44e117.png)
 
-然后图在算：![$A^T A$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5thLoFgCkqc3AwNibOlDBpnzrEQDKTWeibmTRJIDksqWcPVDW2yvvc3PBA/640?wx_fmt=png&from=appmsg)
+然后图在算：![$A^T A$](通俗易懂的Gram矩阵讲解_images/img_006_69f95e08fc02.png)
 
   
 
 * * *
 
-## 2）为什么 ![$A^T A$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5thLoFgCkqc3AwNibOlDBpnzrEQDKTWeibmTRJIDksqWcPVDW2yvvc3PBA/640?wx_fmt=png&from=appmsg) 就是“格拉姆矩阵”？
+## 2）为什么 ![$A^T A$](通俗易懂的Gram矩阵讲解_images/img_007_69f95e08fc02.png) 就是“格拉姆矩阵”？
 
 矩阵乘法的第 (i,j) 个元素，是“第 i 行”点乘“第 j 列”。
 
 在这里：
 
--    ![$A^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5th6GSYu8hQVJ4GwTOyM5RREv7iafahT2buN7KKEE21qECLIQz95FYbxQ/640?wx_fmt=png&from=appmsg) 的第 i 行就是 ![$v_i^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tDaDrPdtsdfrwdojpicDq86enO84KmAf6wzpHes57xRqickGmqmdzDICw/640?wx_fmt=png&from=appmsg) 
+-    ![$A^T$](通俗易懂的Gram矩阵讲解_images/img_008_b24e937bc13c.png) 的第 i 行就是 ![$v_i^T$](通俗易懂的Gram矩阵讲解_images/img_009_79f429bc4898.png) 
     
--   A 的第 j 列就是 ![$v_j$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tW357R0v59DPOOnr3V1NwMAd9wy7WjPzIvNQelJDFpribuPTj6rlvjDw/640?wx_fmt=png&from=appmsg) 
+-   A 的第 j 列就是 ![$v_j$](通俗易懂的Gram矩阵讲解_images/img_010_3a87f153a5e8.png) 
     
 
 所以
 
-![$(A^T A)_{ij}= v_i^T v_j = \langle v_i, v_j\rangle$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tstfkml2hn8IpZbKrssVLIxIG8PUuKdUWfeYicibgUz4SicndURibdIGaXg/640?wx_fmt=png&from=appmsg)
+![$(A^T A)_{ij}= v_i^T v_j = \langle v_i, v_j\rangle$](通俗易懂的Gram矩阵讲解_images/img_011_5cd387d391b0.png)
 
 这句话就是格拉姆矩阵的定义：
 
-> **Gram 矩阵 G 的元素 ![$g_{ij}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tSKmwy1iaTgNKQMWSZpNemg5SmarJgDFkeh3xboEHLnXzIlaJwUaEcicg/640?wx_fmt=png&from=appmsg) = 向量 ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tD9HNxDR2s31YtBt430qfDFOABMUhhoTKudouxbXQL8f2b5WyveFwdw/640?wx_fmt=png&from=appmsg) 和 ![$v_j$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tW357R0v59DPOOnr3V1NwMAd9wy7WjPzIvNQelJDFpribuPTj6rlvjDw/640?wx_fmt=png&from=appmsg) 的内积。**
+> **Gram 矩阵 G 的元素 ![$g_{ij}$](通俗易懂的Gram矩阵讲解_images/img_012_ae400c2ec160.png) = 向量 ![$v_i$](通俗易懂的Gram矩阵讲解_images/img_013_fb82d421f0e4.png) 和 ![$v_j$](通俗易懂的Gram矩阵讲解_images/img_014_3a87f153a5e8.png) 的内积。**
 
-图右侧那一格格小方块，就是把所有 ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tD9HNxDR2s31YtBt430qfDFOABMUhhoTKudouxbXQL8f2b5WyveFwdw/640?wx_fmt=png&from=appmsg) 和 ![$v_j$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tW357R0v59DPOOnr3V1NwMAd9wy7WjPzIvNQelJDFpribuPTj6rlvjDw/640?wx_fmt=png&from=appmsg) **两两“点一下”**，填成一张表。
+图右侧那一格格小方块，就是把所有 ![$v_i$](通俗易懂的Gram矩阵讲解_images/img_015_fb82d421f0e4.png) 和 ![$v_j$](通俗易懂的Gram矩阵讲解_images/img_016_3a87f153a5e8.png) **两两“点一下”**，填成一张表。
 
 * * *
 
@@ -94,24 +94,24 @@
 
 记住内积的几何意义：
 
-![$\langle v_i, v_j\rangle = \|v_i\|\,\|v_j\|\cos\theta_{ij}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5txQ9uYzu8gyWjtADEM7aeVSatZhRicibwSE6RZicodRsjSicJZgaUbZSZFA/640?wx_fmt=png&from=appmsg)
+![$\langle v_i, v_j\rangle = \|v_i\|\,\|v_j\|\cos\theta_{ij}$](通俗易懂的Gram矩阵讲解_images/img_017_5d45cf10c1ae.png)
 
 所以格拉姆矩阵每一格都在回答一个问题：**这两根向量有多“同向/相似”？**
 
--   对角线 ![$g_{ii}=\langle v_i,v_i\rangle=\|v_i\|^2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tUaibS4K3PRxiaZBWqCYMVu7XvNDaFPHH2iaJKtnmFwRAwD0zGVjpeov0A/640?wx_fmt=png&from=appmsg)   
+-   对角线 ![$g_{ii}=\langle v_i,v_i\rangle=\|v_i\|^2$](通俗易懂的Gram矩阵讲解_images/img_018_98b6e15819c5.png)   
       就是每根向量自己的“长度平方”。  
       图里对角线方块颜色“很纯”（同色），表示“自己和自己匹配度最大”。
     
--   非对角 ![$g_{ij}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tSKmwy1iaTgNKQMWSZpNemg5SmarJgDFkeh3xboEHLnXzIlaJwUaEcicg/640?wx_fmt=png&from=appmsg)（i≠j）
+-   非对角 ![$g_{ij}$](通俗易懂的Gram矩阵讲解_images/img_019_ae400c2ec160.png)（i≠j）
     
 
--   若 ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tD9HNxDR2s31YtBt430qfDFOABMUhhoTKudouxbXQL8f2b5WyveFwdw/640?wx_fmt=png&from=appmsg)  **正交**（90°），cos⁡θ=0 ⇒ ![$g_{ij}=0$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tD3srzRdzuvZaYYt3v7t6iaPJ5b2KnTYlZOm7pYOEqIZKXJ7L3jmyHFQ/640?wx_fmt=png&from=appmsg)   
+-   若 ![$v_i$](通俗易懂的Gram矩阵讲解_images/img_020_fb82d421f0e4.png)  **正交**（90°），cos⁡θ=0 ⇒ ![$g_{ij}=0$](通俗易懂的Gram矩阵讲解_images/img_021_19dddbc10476.png)   
       这格就“很弱/接近空白”（相似度为 0）。
     
--   若夹角小、同向，cos⁡θ>0 ⇒ ![$g_{ij}>0$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t2Dz5GskJDeuUKWz50GicIJmvjiaAWRBeJRJ1DrNvBHRM8mEgqph9HJgw/640?wx_fmt=png&from=appmsg)   
+-   若夹角小、同向，cos⁡θ>0 ⇒ ![$g_{ij}>0$](通俗易懂的Gram矩阵讲解_images/img_022_6990418d37f1.png)   
       这格就“大”（相似）。
     
--   若反向，cos⁡θ<0 ⇒ ![$g_{ij}<0$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5ttCs3tSxNQompsHBzS40rhtg905g78PvC9SBdY6GTbYRzv3gVtAjgyA/640?wx_fmt=png&from=appmsg) 
+-   若反向，cos⁡θ<0 ⇒ ![$g_{ij}<0$](通俗易懂的Gram矩阵讲解_images/img_023_b7a66c288265.png) 
     
       
     
@@ -124,19 +124,19 @@
 
 ## 4）格拉姆矩阵有哪些关键性质（机器学习里很常用）？
 
-设 ![$G=A^T A$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t1F44pW6nMSB1YKDos9z2FgiaCOC3tic0syKrtHD06uEqSqOvulickkzNg/640?wx_fmt=png&from=appmsg)：
+设 ![$G=A^T A$](通俗易懂的Gram矩阵讲解_images/img_024_a7ce1de59e37.png)：
 
-1.  对称：![$G^T=G$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5txiaMAzAJdLWia2dLPolNUxGdPnMIkA3mU9R9gkQE9fc9B3dzibQPMSibeg/640?wx_fmt=png&from=appmsg)  
-      因为 ![$\langle v_i,v_j\rangle=\langle v_j,v_i\rangle$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tnia7D41U1TjMCyEc0LqH4D78oQy56xTVSOMPZZkBcyNdWIGdqBHwFuw/640?wx_fmt=png&from=appmsg)。
+1.  对称：![$G^T=G$](通俗易懂的Gram矩阵讲解_images/img_025_830026ebe9bd.png)  
+      因为 ![$\langle v_i,v_j\rangle=\langle v_j,v_i\rangle$](通俗易懂的Gram矩阵讲解_images/img_026_25a161091fad.png)。
     
 2.  半正定（PSD）：对任意 x，都有
     
-    ![$x^T G x = x^T A^T A x=\|Ax\|^2 \ge 0$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tS2Fhgs8xuudExYDS51xc9gNw3ar8Cnf1pDH8bmEVwKtrtfw3PdKIicg/640?wx_fmt=png&from=appmsg)
+    ![$x^T G x = x^T A^T A x=\|Ax\|^2 \ge 0$](通俗易懂的Gram矩阵讲解_images/img_027_98e9ac4ba4e4.png)
     
     这点非常重要：很多优化问题靠它保证“碗状凸性”。
     
 3.  秩不超过维度：  
-      如果每个 ![$v_i\in\mathbb{R}^d$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t1ibuZK5Xh8SfwThSfJYdDfcWQMic0eeqEDKeUsMahssbpHkpY3icfsE2Q/640?wx_fmt=png&from=appmsg)，则 rank(G)≤d。  
+      如果每个 ![$v_i\in\mathbb{R}^d$](通俗易懂的Gram矩阵讲解_images/img_028_7cf764bbf256.png)，则 rank(G)≤d。  
       这意味着：就算你有很多向量，它们的“独立信息”也被空间维度限制。
     
 
@@ -146,13 +146,13 @@
 
 ## 5）它在机器学习里常出现在哪？
 
--   线性回归 / 最小二乘：经典的 ![$X^T X$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tia42gwhPQiaPefCV5Krp3ER8z5MFiavAfTNsbU1J9z0YxSMLGtjFIUBVg/640?wx_fmt=png&from=appmsg)（这就是 Gram）
+-   线性回归 / 最小二乘：经典的 ![$X^T X$](通俗易懂的Gram矩阵讲解_images/img_029_bd714698ceaa.png)（这就是 Gram）
     
--   核方法 / SVM：把内积换成核函数 ![$k(x_i,x_j)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tGEzzxWkMuAIQ9xAujvJAJkuL1OeWTbYyDDErvQh3UvW4w2pWrcVRAw/640?wx_fmt=png&from=appmsg)，得到“核 Gram 矩阵”
+-   核方法 / SVM：把内积换成核函数 ![$k(x_i,x_j)$](通俗易懂的Gram矩阵讲解_images/img_030_5f34c67eb841.png)，得到“核 Gram 矩阵”
     
 -   相似度矩阵：用点积/余弦相似度衡量样本之间的接近程度
     
--   PCA/协方差相关：中心化后 ![$X^T X$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tia42gwhPQiaPefCV5Krp3ER8z5MFiavAfTNsbU1J9z0YxSMLGtjFIUBVg/640?wx_fmt=png&from=appmsg) 和协方差矩阵只差一个缩放
+-   PCA/协方差相关：中心化后 ![$X^T X$](通俗易懂的Gram矩阵讲解_images/img_031_bd714698ceaa.png) 和协方差矩阵只差一个缩放
     
 
   
@@ -165,7 +165,7 @@
 
 设 A 有 4 列（对应图里 4 种颜色的竖条），每列是一个 2 维向量：
 
-![$\begin{array}{c} v_1=\begin{bmatrix}1\\0\end{bmatrix},\quad v_2=\begin{bmatrix}1\\1\end{bmatrix},\quad v_3=\begin{bmatrix}0\\2\end{bmatrix},\quad v_4=\begin{bmatrix}-1\\1\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tpzQxnTnxefa9qPictBfXpiaFglSrzQ167ruDO6b9tSaD4Z5u9rXK2frQ/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} v_1=\begin{bmatrix}1\\0\end{bmatrix},\quad v_2=\begin{bmatrix}1\\1\end{bmatrix},\quad v_3=\begin{bmatrix}0\\2\end{bmatrix},\quad v_4=\begin{bmatrix}-1\\1\end{bmatrix} \end{array}$](通俗易懂的Gram矩阵讲解_images/img_032_c5f28e3649a9.png)
 
 把它们并排放成矩阵：
 
@@ -173,43 +173,43 @@
 
 * * *
 
-## 2）格拉姆矩阵 ![$G=A^T A$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t1F44pW6nMSB1YKDos9z2FgiaCOC3tic0syKrtHD06uEqSqOvulickkzNg/640?wx_fmt=png&from=appmsg)：每个格子就是一个“内积”
+## 2）格拉姆矩阵 ![$G=A^T A$](通俗易懂的Gram矩阵讲解_images/img_033_a7ce1de59e37.png)：每个格子就是一个“内积”
 
-![$G=A^T A,\quad g_{ij}=(A^T A)_{ij}=v_i^T v_j=\langle v_i,v_j\rangle$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t6q4MMvKtnKcob6kGTgO38hDkaudjkoWOz1rRdpmAJoQpVfib4f1e23g/640?wx_fmt=png&from=appmsg)
+![$G=A^T A,\quad g_{ij}=(A^T A)_{ij}=v_i^T v_j=\langle v_i,v_j\rangle$](通俗易懂的Gram矩阵讲解_images/img_034_94fc902951e2.png)
 
 我们把所有两两内积都算出来（这就是右侧方格表每个格子的数）：
 
 ### 先算对角线（自己点自己 = 长度平方）
 
--   ![$g_{11}=v_1\cdot v_1=1^2+0^2=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tpKKehGhFoqWcBcZFQWT2dgbRGVa3aGNbFtZUU3hnYUpia9FpjunYBJw/640?wx_fmt=png&from=appmsg)
+-   ![$g_{11}=v_1\cdot v_1=1^2+0^2=1$](通俗易懂的Gram矩阵讲解_images/img_035_7939573ad5f4.png)
     
--   ![$g_{22}=v_2\cdot v_2=1^2+1^2=2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tN0BP4qjWh3uk6ic7QYVaiauUiaibribER5JEmu2oRkibldLzTyxpYOibjX3CA/640?wx_fmt=png&from=appmsg)
+-   ![$g_{22}=v_2\cdot v_2=1^2+1^2=2$](通俗易懂的Gram矩阵讲解_images/img_036_51bfa79f50bd.png)
     
--   ![$g_{33}=v_3\cdot v_3=0^2+2^2=4$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t5icSU2sxxgnuib2GMC7omAvk4HvwVvh35wbEQia9nt6SZh3new1qsdZVA/640?wx_fmt=png&from=appmsg)
+-   ![$g_{33}=v_3\cdot v_3=0^2+2^2=4$](通俗易懂的Gram矩阵讲解_images/img_037_409858a057a1.png)
     
--   ![$g_{44}=v_4\cdot v_4=(-1)^2+1^2=2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tVq4bR6SO1x6nYWzhoFgJz2Clzn2PJe4bMDCKIYYqFrR406rk7f48rA/640?wx_fmt=png&from=appmsg)
+-   ![$g_{44}=v_4\cdot v_4=(-1)^2+1^2=2$](通俗易懂的Gram矩阵讲解_images/img_038_5fb30ee7d71b.png)
     
 
 ### 再算非对角线（两两相似度）
 
--   ![$g_{12}=v_1\cdot v_2=1\cdot1+0\cdot1=1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tw2mFeTvelxIiaBwRLO9tayqaBgo5oicQhQm9IZJC8EA1y8XniaN6nxn6A/640?wx_fmt=png&from=appmsg)
+-   ![$g_{12}=v_1\cdot v_2=1\cdot1+0\cdot1=1$](通俗易懂的Gram矩阵讲解_images/img_039_4d3c7eecc316.png)
     
--   ![$g_{13}=v_1\cdot v_3=1\cdot0+0\cdot2=0$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tqsU2hqrLJxqjMNiaY6HfUdwupzaBSLQ3wekXa6F1icPy55K5piajgct2Q/640?wx_fmt=png&from=appmsg)
+-   ![$g_{13}=v_1\cdot v_3=1\cdot0+0\cdot2=0$](通俗易懂的Gram矩阵讲解_images/img_040_12daeaaf28ef.png)
     
--   ![$g_{14}=v_1\cdot v_4=1\cdot(-1)+0\cdot1=-1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tLyCA1athFEGibfd1jqq1CnOKexKic1yicDxpTkyhYXRr9CsZict5Dshh6g/640?wx_fmt=png&from=appmsg)
+-   ![$g_{14}=v_1\cdot v_4=1\cdot(-1)+0\cdot1=-1$](通俗易懂的Gram矩阵讲解_images/img_041_988fbbfc9ac2.png)
     
--   ![$g_{23}=v_2\cdot v_3=1\cdot0+1\cdot2=2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tibGs4CPpK3Cic4JcMx7o6mxWibBGRzsxF6466XWJf32OjaZXIy4wWb5Gw/640?wx_fmt=png&from=appmsg)
+-   ![$g_{23}=v_2\cdot v_3=1\cdot0+1\cdot2=2$](通俗易懂的Gram矩阵讲解_images/img_042_33c030f6a9ac.png)
     
--   ![$g_{24}=v_2\cdot v_4=1\cdot(-1)+1\cdot1=0$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tyYzN5qib0DqK0cnhcsks2ibavWqse8Oh6HjSuicCjcOpzTvzLjAPibfeQA/640?wx_fmt=png&from=appmsg)
+-   ![$g_{24}=v_2\cdot v_4=1\cdot(-1)+1\cdot1=0$](通俗易懂的Gram矩阵讲解_images/img_043_eab24dca6a23.png)
     
--   ![$g_{34}=v_3\cdot v_4=0\cdot(-1)+2\cdot1=2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t6ibNuvFiaoz97ia4Wm2r61kdCQSRlnvxInascKIw8rSWuGNosa5K6jdPQ/640?wx_fmt=png&from=appmsg)
+-   ![$g_{34}=v_3\cdot v_4=0\cdot(-1)+2\cdot1=2$](通俗易懂的Gram矩阵讲解_images/img_044_494a1cc3605d.png)
     
 
 于是整张“方格表”（Gram 矩阵）就是：
 
-![$\begin{array}{c} G= \begin{bmatrix} 1&1&0&-1\\ 1&2&2&0\\ 0&2&4&2\\ -1&0&2&2 \end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tlvwy8L7XF0pS0yMUzwTLr1jx1Uyz9Tv4toM6TUia0iawD38d2OeibjG0w/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} G= \begin{bmatrix} 1&1&0&-1\\ 1&2&2&0\\ 0&2&4&2\\ -1&0&2&2 \end{bmatrix} \end{array}$](通俗易懂的Gram矩阵讲解_images/img_045_43738d6a1d3d.png)
 
-你看它天然就**对称**（因为 ![$v_i\cdot v_j=v_j\cdot v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tO9yFIzhPSH06FsnKiaf4rAz1fOmzbdPZc83ldc4Af3vqXjUW89aQeLw/640?wx_fmt=png&from=appmsg)）：左下角就是右上角的镜像——这也和图的方格“左右对称感”一致。
+你看它天然就**对称**（因为 ![$v_i\cdot v_j=v_j\cdot v_i$](通俗易懂的Gram矩阵讲解_images/img_046_c39461874d64.png)）：左下角就是右上角的镜像——这也和图的方格“左右对称感”一致。
 
   
 
@@ -219,7 +219,7 @@
 
 内积和角度关系：
 
-![$v_i\cdot v_j=\|v_i\|\,\|v_j\|\cos\theta_{ij}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tKV7ZqwyxbGC7s8tbxibQXhSicGD6Kk3tN8bXGNvBKg8slYGzIibke8SAA/640?wx_fmt=png&from=appmsg)
+![$v_i\cdot v_j=\|v_i\|\,\|v_j\|\cos\theta_{ij}$](通俗易懂的Gram矩阵讲解_images/img_047_08921ca910e8.png)
 
 所以：
 
@@ -232,13 +232,13 @@
 
 我们甚至能算出角度（用余弦）：
 
--   ![$\|v_1\|=1,\ \|v_2\|=\sqrt2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t8rsnPVEcdIrOeqtPGdAhbwHtLlD9qic4mFkeuADk5LqczJTsicqc0MIA/640?wx_fmt=png&from=appmsg)
+-   ![$\|v_1\|=1,\ \|v_2\|=\sqrt2$](通俗易懂的Gram矩阵讲解_images/img_048_eaf337fd9714.png)
     
-    ![$\cos\theta_{12}=\frac{1}{1\cdot\sqrt2}=0.707 \Rightarrow \theta_{12}\approx45^\circ$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5teZG16Kxg2yibsVstDYTsqicbyhFGfKtrBQKtgErZuuZboeXuqYIDjSQw/640?wx_fmt=png&from=appmsg)
+    ![$\cos\theta_{12}=\frac{1}{1\cdot\sqrt2}=0.707 \Rightarrow \theta_{12}\approx45^\circ$](通俗易懂的Gram矩阵讲解_images/img_049_d93c62059f1b.png)
     
--   ![$\|v_4\|=\sqrt2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t8cHyRyg0WnYibuxaau4NMdMs8OQzxcgx834iavCyST1D46fCTTBdGBBg/640?wx_fmt=png&from=appmsg)
+-   ![$\|v_4\|=\sqrt2$](通俗易懂的Gram矩阵讲解_images/img_050_7ab7639cdf61.png)
     
-    ![$\cos\theta_{14}=\frac{-1}{1\cdot\sqrt2}=-0.707 \Rightarrow \theta_{14}\approx135^\circ$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tjSKF85W7YnFrDR83uQELrtibPrB7ia05LJMsOiaSwLvoBFfjIh6kGu1JQ/640?wx_fmt=png&from=appmsg)
+    ![$\cos\theta_{14}=\frac{-1}{1\cdot\sqrt2}=-0.707 \Rightarrow \theta_{14}\approx135^\circ$](通俗易懂的Gram矩阵讲解_images/img_051_33cd35173468.png)
     
 
 所以 **Gram 矩阵就是“角度 + 长度”的编码表**：  
@@ -250,20 +250,20 @@
 
 ## 4）为什么机器学习里爱用它？一句话就够
 
-如果把 ![$v_i$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tD9HNxDR2s31YtBt430qfDFOABMUhhoTKudouxbXQL8f2b5WyveFwdw/640?wx_fmt=png&from=appmsg) 当成样本（或特征向量），那么 G 就是：
+如果把 ![$v_i$](通俗易懂的Gram矩阵讲解_images/img_052_fb82d421f0e4.png) 当成样本（或特征向量），那么 G 就是：
 
 > **样本两两相似度矩阵（用内积做相似度）**
 
--   在线性回归里：![$X^T X$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tia42gwhPQiaPefCV5Krp3ER8z5MFiavAfTNsbU1J9z0YxSMLGtjFIUBVg/640?wx_fmt=png&from=appmsg) 就是 Gram（决定曲面形状、可解性、病态程度）
+-   在线性回归里：![$X^T X$](通俗易懂的Gram矩阵讲解_images/img_053_bd714698ceaa.png) 就是 Gram（决定曲面形状、可解性、病态程度）
     
--   在核方法里：把内积换成 ![$k(x_i,x_j)$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tGEzzxWkMuAIQ9xAujvJAJkuL1OeWTbYyDDErvQh3UvW4w2pWrcVRAw/640?wx_fmt=png&from=appmsg)，得到“核 Gram 矩阵”，不用显式进高维也能做相似度
+-   在核方法里：把内积换成 ![$k(x_i,x_j)$](通俗易懂的Gram矩阵讲解_images/img_054_5f34c67eb841.png)，得到“核 Gram 矩阵”，不用显式进高维也能做相似度
     
 
 图中**“点最多”**其实是在强调：**每个向量里有很多个分量**（图里用一串黑点 + 省略号表示），而 **Gram 矩阵里的一个格子**，就是把这“一长串点”**逐个相乘再全部相加**得到的。
 
   
 
-我就拿图里最典型的那个格子——**左上角 g11**（黄色行 × 黄色列，也就是 ![$v_1^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tULVESXIpwQmnYBCrjy0zVCQlMVLUdovSKAvxqwmJjTMulB9iaern8Kg/640?wx_fmt=png&from=appmsg) 和 v1）来示范：这格对应的“点”（分量）最多、最直观。
+我就拿图里最典型的那个格子——**左上角 g11**（黄色行 × 黄色列，也就是 ![$v_1^T$](通俗易懂的Gram矩阵讲解_images/img_055_db20d6c3d8c8.png) 和 v1）来示范：这格对应的“点”（分量）最多、最直观。
 
 * * *
 
@@ -277,7 +277,7 @@
 
 ![$\begin{array}{c} v_1= \begin{bmatrix} a_1\\ a_2\\ a_3\\ \vdots\\ a_m \end{bmatrix}, \quad v_1^T=[a_1\ a_2\ a_3\ \cdots\ a_m] \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tATDSKqUPSlNJy8HeeqNnHgBmTa4KuF6ShmYDmQzL8Aiagr5T3ddbUwQ/640?wx_fmt=png&from=appmsg)
 
-这里每个 ![$a_k$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tnFISGHibiaODOjiad782Ixes8LzibaMf7ibwlzXMXEUYHlyhSJqI3bKV1RA/640?wx_fmt=png&from=appmsg) 就对应图里的一颗黑点（省略号表示中间还有很多颗）。
+这里每个 ![$a_k$](通俗易懂的Gram矩阵讲解_images/img_056_e4e29e14858a.png) 就对应图里的一颗黑点（省略号表示中间还有很多颗）。
 
   
 
@@ -285,9 +285,9 @@
 
 ## 2）“一个格子”是怎么来的：逐点相乘 + 全部相加
 
-右侧 Gram 矩阵 ![$G=A^T A$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t1F44pW6nMSB1YKDos9z2FgiaCOC3tic0syKrtHD06uEqSqOvulickkzNg/640?wx_fmt=png&from=appmsg) 的左上角格子是：
+右侧 Gram 矩阵 ![$G=A^T A$](通俗易懂的Gram矩阵讲解_images/img_057_a7ce1de59e37.png) 的左上角格子是：
 
-![$g_{11}=(A^TA)_{11}=v_1^T v_1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5twEczNPgtibZ89TI7icmVf0bSTh2BWV9BricEVMJNa6cia0ib8pCMH1nC6kw/640?wx_fmt=png&from=appmsg)
+![$g_{11}=(A^TA)_{11}=v_1^T v_1$](通俗易懂的Gram矩阵讲解_images/img_058_cbee6afc3ec1.png)
 
 按“点乘”的规则：
 
@@ -295,7 +295,7 @@
 
 也就是：
 
-![$g_{11}=a_1^2+a_2^2+\cdots+a_m^2=\|v_1\|^2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t32ELkSXBRBNw3z6C0iagKhibGiauTwYEic2UfyqwhUWfRrfTpF0F0laTuQ/640?wx_fmt=png&from=appmsg)
+![$g_{11}=a_1^2+a_2^2+\cdots+a_m^2=\|v_1\|^2$](通俗易懂的Gram矩阵讲解_images/img_059_c2277aeeeab3.png)
 
 **这就是为什么对角线是“长度平方”**：因为自己跟自己点乘，就是“每个点自己乘自己，再求和”。
 
@@ -307,11 +307,11 @@
 
 比如第一行第三列那个格子（黄色行 × 青色列）：
 
-![$g_{13}=v_1^T v_3$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tD23pI7aicDhh17jldQ2HoegBn3qlWOkQCQGttibibESxiaEbiagprFg9uibw/640?wx_fmt=png&from=appmsg)
+![$g_{13}=v_1^T v_3$](通俗易懂的Gram矩阵讲解_images/img_060_0066e3a6557d.png)
 
 如果
 
-![$\begin{array}{c} v_3= \begin{bmatrix} c_1\\ c_2\\ c_3\\ \vdots\\ c_m \end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tkiaX1WsmEYxBYAySEiaI2J3IXgicq6Lg83bp8Le0UEdYRAn4I1azJJu8Q/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} v_3= \begin{bmatrix} c_1\\ c_2\\ c_3\\ \vdots\\ c_m \end{bmatrix} \end{array}$](通俗易懂的Gram矩阵讲解_images/img_061_1592df5510f8.png)
 
 那么：
 
@@ -329,18 +329,18 @@
 
 ## 4）一句话把图讲透
 
--   左边：很多行 ![$v_i^T$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tDaDrPdtsdfrwdojpicDq86enO84KmAf6wzpHes57xRqickGmqmdzDICw/640?wx_fmt=png&from=appmsg)（每行很多“点”）
+-   左边：很多行 ![$v_i^T$](通俗易懂的Gram矩阵讲解_images/img_062_79f429bc4898.png)（每行很多“点”）
     
--   中间：很多列 ![$v_j$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tW357R0v59DPOOnr3V1NwMAd9wy7WjPzIvNQelJDFpribuPTj6rlvjDw/640?wx_fmt=png&from=appmsg)（每列很多“点”）
+-   中间：很多列 ![$v_j$](通俗易懂的Gram矩阵讲解_images/img_063_3a87f153a5e8.png)（每列很多“点”）
     
--   右边：每个格子 ![$g_{ij}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tSKmwy1iaTgNKQMWSZpNemg5SmarJgDFkeh3xboEHLnXzIlaJwUaEcicg/640?wx_fmt=png&from=appmsg)  **把这两串点逐点相乘再求和**：
+-   右边：每个格子 ![$g_{ij}$](通俗易懂的Gram矩阵讲解_images/img_064_ae400c2ec160.png)  **把这两串点逐点相乘再求和**：
     
 
-![$g_{ij}=\sum_{k=1}^{m} v_{k i}\, v_{k j}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t0VicNCNU3o8nOLa1ZYvhD54K9OrAibibH3akgVXicmwPYT2clHIpn114NA/640?wx_fmt=png&from=appmsg)
+![$g_{ij}=\sum_{k=1}^{m} v_{k i}\, v_{k j}$](通俗易懂的Gram矩阵讲解_images/img_065_d215e58deca5.png)
 
 下面我们来把第一行完全展开成“第1点×第1点 + 第2点×第2点 + ……”的形式，和图里的颜色位置一一对应。
 
-“第一行”在图里就是：**最上面那条（黄色那条）行向量 ![v_1^T](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tNK6n0oJAMeLZtGSsktYicrd7WOd4rE4UMicvEWwHQvkEYKA5PXR15V1w/640?wx_fmt=png&from=appmsg)** ，去和中间矩阵 A 的**每一列**依次“点乘”，得到右侧 Gram 矩阵的**第一行**。
+“第一行”在图里就是：**最上面那条（黄色那条）行向量 ![v_1^T](通俗易懂的Gram矩阵讲解_images/img_066_fd64447121ad.png)** ，去和中间矩阵 A 的**每一列**依次“点乘”，得到右侧 Gram 矩阵的**第一行**。
 
 * * *
 
@@ -356,13 +356,13 @@
 
 也就是：
 
--   第 1 个格子：![$g_{11}=v_1\cdot v_1$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tb1icVFbufD58PqB2AILzkEeTQR2FvkaRcbbwtyyOSxia6hzZBfibLcIMw/640?wx_fmt=png&from=appmsg)
+-   第 1 个格子：![$g_{11}=v_1\cdot v_1$](通俗易懂的Gram矩阵讲解_images/img_067_92842c79051b.png)
     
--   第 2 个格子：![$g_{12}=v_1\cdot v_2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tia1oldia1POurtYVKDIqHs4fVribXnCWxFYG6sonFzGxO5ia1tNhK0S2mQ/640?wx_fmt=png&from=appmsg)
+-   第 2 个格子：![$g_{12}=v_1\cdot v_2$](通俗易懂的Gram矩阵讲解_images/img_068_e7c20ec82e2b.png)
     
 -   …
     
--   第 n 个格子：![$g_{1n}=v_1\cdot v_n$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tgrpE3fxjJxOcoPx0uHMp0EEic2gM78p6tt6bBibBficIKUCRNXOGhibykw/640?wx_fmt=png&from=appmsg)
+-   第 n 个格子：![$g_{1n}=v_1\cdot v_n$](通俗易懂的Gram矩阵讲解_images/img_069_8c283b24d114.png)
     
 
   
@@ -373,11 +373,11 @@
 
 假设每个向量有 m 个分量（图里黑点很多 + 省略号）：
 
-![$\begin{array}{c} v_1=\begin{bmatrix}a_1\\a_2\\\vdots\\a_m\end{bmatrix},\quad v_j=\begin{bmatrix}b_{1j}\\b_{2j}\\\vdots\\b_{mj}\end{bmatrix} \end{array}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5thexnyWfs1JlBLSBzZt0U7gQia7uicEstkwGSMzILezXDk4K4fBicKYnicg/640?wx_fmt=png&from=appmsg)
+![$\begin{array}{c} v_1=\begin{bmatrix}a_1\\a_2\\\vdots\\a_m\end{bmatrix},\quad v_j=\begin{bmatrix}b_{1j}\\b_{2j}\\\vdots\\b_{mj}\end{bmatrix} \end{array}$](通俗易懂的Gram矩阵讲解_images/img_070_3a9e60808040.png)
 
 那么第一行第 j 列的格子：
 
-![$g_{1j}=v_1^T v_j = a_1 b_{1j}+a_2 b_{2j}+\cdots+a_m b_{mj} =\sum_{k=1}^m a_k\, b_{kj}$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5t7DqDTWVqSSnlRICLMRWKGticKMfEO2bPdVo9bicAzqTst4iaoaqiawdnTQ/640?wx_fmt=png&from=appmsg)
+![$g_{1j}=v_1^T v_j = a_1 b_{1j}+a_2 b_{2j}+\cdots+a_m b_{mj} =\sum_{k=1}^m a_k\, b_{kj}$](通俗易懂的Gram矩阵讲解_images/img_071_0f62f3752989.png)
 
 这句话对应图里的动作就是：
 
@@ -393,7 +393,7 @@
 
 第一行第一个格子（黄色×黄色）：
 
-![$g_{11}=v_1^T v_1 = a_1^2+a_2^2+\cdots+a_m^2=\|v_1\|^2$](https://mmbiz.qpic.cn/mmbiz_png/jlXjovro0tr1uwASOx0ic5v1NfialU2v5tLmzcts5n5LjQTcKCwxJVmjViaxzKx4vg5d9rEBh1YaYAJTYA1jfGjpQ/640?wx_fmt=png&from=appmsg)
+![$g_{11}=v_1^T v_1 = a_1^2+a_2^2+\cdots+a_m^2=\|v_1\|^2$](通俗易懂的Gram矩阵讲解_images/img_072_8fca7976a0e5.png)
 
 所以第一行的第一个格子永远是“黄色向量的长度平方”，通常也会是这一行里最“显眼/大”的值之一（图上常用更强的视觉强调来画对角线）。
 

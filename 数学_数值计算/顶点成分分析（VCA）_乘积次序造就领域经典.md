@@ -7,7 +7,7 @@
 
 要了解VCA，我们必须从高光谱领域的第一个端元提取算法——纯像元指数（Pure Pixel Index，PPI）谈起。PPI最早由高光谱遥感先驱之一Boardman提出，算法思想简洁明了。尽管如今PPI在端元提取中已不常使用，但毫无疑问，它开创了从单形体结构进行端元提取的先河。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXibH02n2knVexPuAvsb11tmqiatph027JPPLfuZmibWnKuicxk29KDwPI1g/640?wx_fmt=png&from=appmsg)
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_000_2adeee2089ef.png)
 
 图1\. PPI示意图。当把所有的散点投影到橘色虚线时，A和B分别位于两个端点，其它散点都分布于二者之间；当把所有的散点都投影到紫色虚线时，A和C分别位于两个端点，其它散点都分布于二者之间；因此，仅仅通过以上两次投影的话，可以得出A的PPI为2，B和C的PPI均为1
 
@@ -15,25 +15,25 @@
 
 PPI思想简单、操作便捷，但也存在明显的缺点。由于其投影方向的选取具有随机性，导致端元提取结果存在一定的不稳定性。尽管可以通过增加投影次数来缓解这一问题，但这也不可避免地带来了更高的计算开销。尤其是在投影次数有限的情况下，某些端元可能始终未被投影到端点位置，从而无法被成功识别。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXP9ib6UPra9G66FOy2NI6U4tM0AyzGyCAia4JCwJ3RQAIe7icqyeicrubYg/640?wx_fmt=png&from=appmsg)
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_001_12255e28f33d.png)
 
 图2. 正交子空间投影示意图。在得到第一个端元A之后，把数据投影到该端元的正交补空间，从而消除端元A对后续端元提取的影响
 
-为了克服PPI需要多次随机投影以及某些端元可能无法被识别的问题，研究人员在PPI中融入了正交子空间投影（Orthogonal Subspace Projection，OSP）的策略。对于给定的高光谱数据![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXjkSquaZXRIv2yAh9rhafWQHu5Ria9kR7eyEsGlAe9pDTkVtIEbsCzGg/640?wx_fmt=png&from=appmsg)，假设已经得到了图像中的k个端元，该策略通过如下步骤得到图像的第（k+1）个端元：
+为了克服PPI需要多次随机投影以及某些端元可能无法被识别的问题，研究人员在PPI中融入了正交子空间投影（Orthogonal Subspace Projection，OSP）的策略。对于给定的高光谱数据![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_002_d33f6e74ac86.png)，假设已经得到了图像中的k个端元，该策略通过如下步骤得到图像的第（k+1）个端元：
 
 （1） 正交投影
 
 首先将数据投影到已知端元矩阵的正交补空间，从而消除已知端元对后续端元提取进程的影响
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXVB3ge5WuoJUtYV5tlU6doRqVcnW0lyZpg6l2okmq7NYFmY4tJwibLag/640?wx_fmt=png&from=appmsg)
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_003_fb82ddcecf70.png)
 
-其中，![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXKMicfmCQRic0fBjl88mXWzCWiaOqDOb0LkvQndOqDm7Qia6oibxn8upk9uQ/640?wx_fmt=jpeg)为E的列空间的正交补投影算子。
+其中，![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_004_c32d80eeda94.jpg)为E的列空间的正交补投影算子。
 
 （2） 随机投影
 
 随机选取一个光谱空间中的单位向量u，并将正交补投影后的数据Y投影至该方向，得到一个包含N个元素的一维行向量Y
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXpzpokHOZcFGm3jBcuAaibzZKWTA8EA4U88rztjiaBeUHXxpLNYYM4pPQ/640?wx_fmt=png&from=appmsg)
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_005_999f252d86b8.png)
 
 （3） 确定端元
 
@@ -45,20 +45,20 @@ PPI思想简单、操作便捷，但也存在明显的缺点。由于其投影�
 
 实际上，VCA可以被视为PPI与OSP的有机结合，其主要操作与公式（2）并无二致。但VCA的核心贡献在于，其作者发现了（2）中乘积次序的玄机。在揭晓答案之前，我们首先给出矩阵乘法的计算复杂度定理
 
-**定理1（矩阵乘法的计算复杂度）**对于两个实矩阵![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMX5TsyfZJl9lrDKPABT84icicWn5lJGG95kaUFzYGv0MyhYxvBBgrFMxYA/640?wx_fmt=png&from=appmsg)和![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXrfDWm1t2TaOYibmU2fWiczwkZ9xc9RYTkYq8xx3MmlZvA2AO0XibFxhLw/640?wx_fmt=png&from=appmsg)，其乘积![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXxXBfdRUQnA8p8tQwjYRM07gibUW9BZzCJJJcUQoiaQ2MNN1cyQe5ibUlA/640?wx_fmt=png&from=appmsg)的计算复杂度为：O(mnp)  
+**定理1（矩阵乘法的计算复杂度）**对于两个实矩阵![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_006_adb9ebc50fc4.png)和![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_007_1fa3cf062ef2.png)，其乘积![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_008_9907d0daa179.png)的计算复杂度为：O(mnp)  
 
 假设待处理的遥感图像数据包括L个波段，那么前面融合OSP的PPI算法中，计算复杂度主要由前两个步骤构成，其中公式（1）的计算复杂度为  
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMX5oWlXZ7IbDomGgkZE8deNNic8WjibIIgmcPE9aHjdtZPictk07yooYWwg/640?wx_fmt=png&from=appmsg)，而公式（2）的计算复杂度为![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMX8L98Rx4UmDn2WkWurxPK7zKm5Ft9qnaGMU2iaM3x6MSFl4GH16ibIEQA/640?wx_fmt=png&from=appmsg)。因此，总的计算复杂度为
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_009_60dda10ea874.png)，而公式（2）的计算复杂度为![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_010_cf1a3ca9d25d.png)。因此，总的计算复杂度为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXhnFXekvqom9VKbicnJpzd2K9z6s4e4QEyIsL4ZsgAHmUdaWYru0xaxA/640?wx_fmt=png&from=appmsg)
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_011_36a919f90aa2.png)
 
 然而，VCA的作者精妙地发现，公式（2）也可以表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXrW4ic6icYM3DnP1TA5EhjMtmCqBGzIt72g4WoJSORVDHK56hG2w2NdWw/640?wx_fmt=png&from=appmsg)
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_012_18f7b90c60cc.png)
 
-即，可以先计算![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMX6HMYQWic7sorLFjuWE446yBpu5o2VwBrbDFW14BYKV3utXndc9PBUmQ/640?wx_fmt=png&from=appmsg)，其计算复杂度为![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXeHWj4WQaYuvvoK7xgydp4k4kkr7iadn2rzjGD6zId2FKGf56n98JDRQ/640?wx_fmt=png&from=appmsg)。然后再乘以矩阵X，计算复杂度为![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXc8AgZJicwnH4nKTbCenNzGica4rrzelGMcDK71C6JnePgBOWncmzszuQ/640?wx_fmt=png&from=appmsg)。这样一来，算法的整体复杂度就降为
+即，可以先计算![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_013_c1ba1e053f7f.png)，其计算复杂度为![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_014_977f457c83bd.png)。然后再乘以矩阵X，计算复杂度为![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_015_5d7703da4a2e.png)。这样一来，算法的整体复杂度就降为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mC8jMC4YUwJTbehAHSxtPMXzh6xEG9FcPVLlHWCttl77RMB4YfDOYjLGB4YvhibY238rsWcGPgiaEGA/640?wx_fmt=png&from=appmsg)
+![](顶点成分分析（VCA）_乘积次序造就领域经典_images/img_016_d6a4bfb90e3b.png)
 
 比较（3）和（5）可知，在忽略低阶项的前提下，仅通过调整矩阵的乘积次序，算法的计算复杂度就降低了整整一个数量级！
 

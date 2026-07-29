@@ -5,7 +5,7 @@
 
 充电模块介绍  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDDYzpM8ysUlqxzkl31BmlKWZ55C37MONnjaicW3gibHAxw7mTNDtGGYlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_000_b9f08020bcc8.png)
 
 充电模块的定义‌：充电模块是新能源汽车的核心部件之一，主要负责将外部电源（如电网、太阳能板等）提供的电能转换为适合电池充电的形式。它通常由几个主要部件组成，包括输入端（整流器、滤波器）、控制部分（MCU、驱动电路、传感器）、输出端（DC/DC转换器、变压器、滤波器）、保护电路（OVP、OCP、SCP、OTP）、通信接口（CAN总线）和用户界面（显示屏、指示灯）等‌。  
 
@@ -47,21 +47,21 @@ SiC器件的高频特性尤为突出，开关频率可达100kHz以上，比IGBT�
 
 热管理性能方面，SiC材料的热导率（4.9W/cm·K）达到硅材料的5倍，配合更低的导通损耗（SiC MOSFET的导通电阻仅为同规格IGBT的1/10），使充电模块的散热需求大幅降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDF7eS7GyibwxbPTic1e4SVuUgPobatNU53YMn1Ofr1eyicKI1SFWyrXGUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_001_7be72a3d00e7.png)
 
  1.2 IGBT技术演进与适用场景
 
 绝缘栅双极晶体管（IGBT）作为成熟的功率半导体技术，在第七代产品中通过微沟槽工艺和薄片加工技术实现了性能突破。华润微电子最新推出的第七代Trench FS Ⅶ系列IGBT，在650V/120A规格下，将导通压降（Vcesat）降至1.55V，总开关损耗（Etotal）较上一代降低15%以上。这一改进使IGBT在中功率充电场景（如20kW以下交流慢充和40kW直流模块）中仍具成本优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnD6PkSribr0SHPjPiaMPKdcylHOvxozbVGkZC2sDRuXPxibtRsa3yicicN5Cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_002_eaf98d33dfb7.png)
 
 IGBT的鲁棒性优势体现在抗短路能力和电流冲击耐受性上。其导通压降的正温度系数特性更易于实现多芯片并联，在15kW以下充电桩中应用广泛。然而，IGBT的固有开关损耗限制了其工作频率（通常<30kHz），导致充电模块中电感、变压器等磁性元件体积较大。更关键的是其关断拖尾电流问题，在关断过程中产生10-50ms的电流拖尾现象，增加高频开关下的能量损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDLzOEO1lCEBpP9icQSM2OLJicv8tXyBZA5advWKuceZExiageoYqwTx2Dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_003_346caacfba35.png)
 
 表：SiC MOSFET与第七代IGBT关键参数对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDkiaeaB0XI70KuktFS1SLpHibCDRoLr5WERoDSlxVicKXrVvZ7Ur6HYOlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_004_6298ff1f567f.png)
 
 1.3 技术特性对比与互补关系
 
@@ -77,11 +77,11 @@ IGBT则凭借双极性导通机制（电子与空穴共同导电），在大电�
 
 超快充解决方案是SiC器件的核心应用场景。在“兆瓦级”超充网络中，基于SiC MOSFET的40kW模块并联方案已成为技术主流。该方案支持200-1000V宽电压范围输出，完美兼容400V平台乘用车和800V高压平台豪华车型（如小鹏G9、保时捷Taycan）。利用SiC器件的功率分时共享特性，可根据车辆电池剩余电量、充电时序和实时电价进行动态调配，提升设备利用率30%以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDuHEP2DAF2P0JJfiaXLpce8mrAMFBVlhk1at20A1rGa2N99cEkq3V8dA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_005_c911e5932ec6.png)
 
 在双向充放电（V2G） 领域，SiC MOSFET的反向恢复电荷近乎为零的特性，使其成为实现高效能量双向流动的理想选择。光储充放一体化场站采用基于SiC的 “三网融合”架构（充电网+微电网+储能网），通过750V直流母线连接光伏发电、储能电池和充电终端。当电网负荷高峰时，系统可将电动汽车电池中的电能回馈电网，单台车每日可提供10-15kWh的调峰容量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnD4rWN9YFFfrlw3wqdCFzl3CGqltX6CXfXk99DibvUo826IKa52omFGqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_006_99b40d69bde8.png)
 
 高防护设计是户外充电模块的关键要求。SiC器件的高温稳定性（工作结温达200℃）与特来电的 全防护”封装技术结合，开发出IP67等级的液冷模块。该方案采用全封闭金属腔体设计，冷却液直接流经功率器件基板，较传统风冷散热效率提升50%，同时隔绝粉尘、盐雾侵蚀。英飞源2024年液冷模块出货超2万台，市占率达90%。
 
@@ -89,17 +89,17 @@ IGBT则凭借双极性导通机制（电子与空穴共同导电），在大电�
 
 在成本敏感型充电站，第七代IGBT仍具应用价值。在二三线城市布局的20kW以下交流慢充桩，采用华润微电子650V/40A IGBT模块，结合三电平拓扑设计，在保持95%转换效率的同时，将模块成本控制在SiC方案的60%。该方案特别适用于夜间谷电充电场景，实现电网负荷的削峰填谷。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDcqwRGxuQAjBLCZjN8RI07kzRpyVH2dhpibuibdkibuEicEUgpvs30ny8Gg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_007_8a1769732e5b.jpg)
 
 高可靠性要求场景是IGBT的另一优势领域。在公交场站、港口物流车等连续作业环境中，充电设备需满足>98%的可用性要求。智能充电弓系统采用IGBT+快恢复二极管组合，利用IGBT的抗电流冲击能力（短路耐受时间10μs），配合 两层防护主动安全体系（BMS报文解析+充电过程实时监控），在台风、雨雪等恶劣天气下仍保障可靠运行。青岛温馨巴士场站应用表明，该方案使充电事故频率降低100倍以上。
 
 表：不同充电场景下的器件选型建议
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDIh5xkoLP3LawVdzm3AbjTvkZ8J5t4iatUiaz76yozcPBRYhCedJzh85w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_008_cbf48b23c91f.png)
 
  2.3 混合应用方案（下图产品来源：苏州新纽元电子）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDL3VlscKFIZDJyj6EpdrQJfKGfnAiaZXKp52zKyibwAWj6Gj9mmqbf8lA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_009_3684fb1c552f.jpg)
 
 在柔性充电系统中，采用 “SiC+IGBT”混合方案。该方案在PFC级采用SiC二极管，实现150℃高温下的高效整流；而在DC/DC级使用IGBT模块，利用其电流线性控制能力实现电池的多段恒流充电。通过动态阻抗匹配技术，系统可根据电池SOC状态自动切换充电模式，延长电池寿命30%以上。
 
@@ -147,7 +147,7 @@ SiC MOSFET的开关速度极快（<50ns），需配合传输延时<50ns的专用
 
 封装结构创新方面，TO-247-4引脚封装成为行业趋势。相比传统三引脚封装，新增的开尔文源极引脚将驱动环路电感降低60%（<10nH），使开关损耗进一步降低15%。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDFWcZpicDG6ap04uW1a9QQgibB50HQM5UF1d0oia1oNrDzhGAEDicltm2zQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_010_7044a613032f.jpg)
 
 散热路径设计需遵循 “双面散热”原则。
 
@@ -279,7 +279,7 @@ AI混合模型赋能智能运维：
 
 表：充电模块功率密度迭代路径
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm92GxQKUF6qkgnZQtqytnDRdnkUKhodENnNQQ5ib82UibpgYt8jgdYGDJkh7upajWEI3cnNTYYkQgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_011_947c292b1404.png)
 
 5.总结
 
@@ -287,13 +287,13 @@ SiC 器件（SBD+MOSFET+功率模块）与IGBT器件的协同应用，是技术�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkzM4nJZfIC5QgFfribRYKyjbkqtsIt2eIPXkibANybG66UoupfWrOwVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_012_5148264e0d9d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsBrKtVqic7bg0L03u2LcaOD95aUegJVoYxOwib1bEuX4eESgvK7RMrMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_013_b4862f61cfaf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqECTcGj3ia0RmTNR8afGnIARTia9BmzdfiadGhabibhxVeBEaUFZX5aHdCew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC)器件与IGBT器件在充电模块领域的应用分析_images\img_014_ed358d59c69e.png)

@@ -7,15 +7,15 @@
 
 SiC和GaN是目前具有代表性的第三代化合物半导体材料。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaibw3jQ21NsvqYOLq1CKZAvGEia1NiaJmNtUHYyVRicJs5fobKHVbOtxT2A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球SiC巨头_Wolfspeed_将申请破产_对国产SiC半导体厂商的利与弊分析_images\img_000_5f0521effef6.jpg)
 
 SiC凭借高禁带宽度、高击穿电场强度、高电子饱和漂移速率和高热导率等特性，使其在电力电子器件等应用中发挥着至关重要的作用，并被广泛应用于新能源汽车、光伏、储能、智能电网、工业电源及轨道交通等领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSa6MBztGT4OPjStj3DsAsxah6uiaZEv54sZMTm9CxOdKdwibj37zcGpsJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球SiC巨头_Wolfspeed_将申请破产_对国产SiC半导体厂商的利与弊分析_images\img_001_48ede265eaa9.png)
 
 Wolfspeed‌介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSagx9PdEeu1Gsf9AyPqKW0Xl1Xxku6rGRriayBZRB5erkJ1bYFIXtHcsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球SiC巨头_Wolfspeed_将申请破产_对国产SiC半导体厂商的利与弊分析_images\img_002_05380ab0d1a4.png)
 
 ‌Wolfspeed‌是一家专注于宽带隙半导体技术的公司，主要生产和销售碳化硅（SiC）和氮化镓（GaN）材料及器件。该公司成立于1987年，总部位于北卡罗来纳州，产品广泛应用于电动汽车、快充、5G、可再生能源、航空航天和国防等领域‌。
 
@@ -45,7 +45,7 @@ Wolfspeed作为全球最大的SiC衬底制造商之一，其破产标志着美�
 
 垂直整合模式（IDM）：比亚迪半导体、三安光电等厂商构建全产业链布局，覆盖衬底、外延、芯片到模块封装，成本较进口低30%，供货周期更稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmgPezOmXrhQQtXACNj9fSaib4GIB2jmlC7lrXTLYftvHhpGMmyT2Jv2jibuMMdyKZt1PoglSYDUVsw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球SiC巨头_Wolfspeed_将申请破产_对国产SiC半导体厂商的利与弊分析_images\img_003_6738e69701e1.jpg)
 
  3. 政策与市场协同效应
 
@@ -105,13 +105,13 @@ Wolfspeed的破产既是全球SiC市场格局重构的转折点，也是中国�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球SiC巨头_Wolfspeed_将申请破产_对国产SiC半导体厂商的利与弊分析_images\img_004_80a84da559fb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球SiC巨头_Wolfspeed_将申请破产_对国产SiC半导体厂商的利与弊分析_images\img_005_b6e0b6fba87c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全球SiC巨头_Wolfspeed_将申请破产_对国产SiC半导体厂商的利与弊分析_images\img_006_018eedab2a70.png)

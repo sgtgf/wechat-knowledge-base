@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/MJ6E8cmG1AybRxleZMJkOA](https://mp.weixin.qq.com/s/MJ6E8cmG1AybRxleZMJkOA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRM3MaibBumV9TCZgU7rEspfaH9nuF10zSR4v1sXaTgyxLUafoq8ey663A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_8_隔离度Isolation_images\img_000_899b0abf98fa.png)
 
 ____**★★★**______TCS-8---Isolation______**★★★**____
 
@@ -11,7 +11,7 @@ ____**★★★**______TCS-8---Isolation______**★★★**____
 
 隔离度指标使用很广泛，有天线隔离度、复用器隔离度、多工器隔离度、屏蔽隔离度等等。**_图8-1_**显示了彼此连接非常紧密的多个频段，例如Wi-Fi 2.4GHz和GPS L5都落在低频段和中高蜂窝频段之间。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTfrZTP46ia7WGk00upJsH3wcwgeiaYXN4SwXk9ice6eyIpws8BVgCq59Xiaa1FdHwEExErN9cqSic2ULg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_8_隔离度Isolation_images\img_001_d4112e500d6e.png)
 
 **_图8-1：智能手机设备中使用的多个频段_**
 
@@ -19,11 +19,11 @@ ____€1.隔离度定义____
 
 隔离度（Isolation）是指在一个多端口的器件或系统中，一个端口输入的信号在其他端口出现的衰减程度，通常用分贝（dB）来衡量。例如在一个双工器（[RF devices-10：Duplexer（双工器）](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247494958&idx=1&sn=8b5d5e76cc2459d46dd3d72314a3f95e&scene=21#wechat_redirect)）中，隔离度表示发射端口的信号在接收端口的衰减量，从数学公式角度，隔离度：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMAJEJHxia9cFwhiacCkiayYzdvS4DbZsGTZLzWfWWnkl3Kxl4Tnrsj5TXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_8_隔离度Isolation_images\img_002_ad5799d6dace.png)
 
 其中P1某一端口输入的信号功率，P2是另一个端口接收到的来自该输入端口的信号功率，隔离度越高，表示端口之间的信号隔离效果越好。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT6Kv3TWYMkvkav33nWiaozOuPVdxUwpDXval7vGIDkXpjzYarp9mvib9ez1dj24JztQ3etQmIsr35g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_8_隔离度Isolation_images\img_003_a610d973f11f.png)
 
 **_**_图8-2：双工器_**DPX252501DT-5124A2隔离度曲线&数值_**
 
@@ -39,7 +39,7 @@ ________€3.____测量方式____
 
 在射频系统中，常用矢量网络分析仪VNA来测量隔离度，将VNA的端口分别连接到被测器件的相关端口，通过VNA发送测试信号，测量在其他端口接收到的信号强度，从而计算出隔离度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTn7Fic3TRic9ldSRcIRpK2p0EZgKEZx9Je0ZOph5TKa1vbSJIgDrmAKGJ8uR5zbZ3YpZ3dtPMam6jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_8_隔离度Isolation_images\img_004_c841ff77eeb5.png)
 
 **_**_图8-3：双工器_**隔离度测试_**
 

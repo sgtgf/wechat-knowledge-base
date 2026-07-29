@@ -21,7 +21,7 @@ Hugo Bergeron, Laura C. Sinclair, William C. Swann, Isaac Khader, Kevin C. Cosse
 
 出版信息：Nature Communications, 10, 1819 (2019), DOI: 10.1038/s41467-019-09768-9
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUHlEYibAG4OR4h2Cib0b02fCmPFN46TvtdN0iavicKWrlgZfxEHoHLIOKPqhSBraw9SFQvvaRiaK1rF5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_飞行四旋翼实现光学时钟的飞秒时间同步_images\img_000_43b4b0192bfb.png)
 
 **论文摘要**
 
@@ -37,15 +37,15 @@ Hugo Bergeron, Laura C. Sinclair, William C. Swann, Isaac Khader, Kevin C. Cosse
 
 (3) 空气湍流引入的时间同步误差。
 
-_**![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUHlEYibAG4OR4h2Cib0b02fCNjSLV9KMwhibK6Evy9lOHKBHANhgv2C8v1r9l74Upc7XllstauZK7BA/640?wx_fmt=png&from=appmsg)**_
+_**![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_飞行四旋翼实现光学时钟的飞秒时间同步_images\img_001_e55cea5d4906.png)**_
 
 图1. 基于移动平台的O-TWTFT验证实验配置。(a)两套光学时标通过折叠光路与搭载于四旋翼飞行器的移动反射器实现同步。光信号在两个地点（A和B，都在屋顶实验室）之间做偏振复用处理后，用跟踪望远镜向空中引导。(b)主站点A的架构示意图：包含重复频率为的光频梳A、重复频率为的传递光频梳X、腔稳激光器、支持光通信的相位调制分布式反馈（DFB）激光器以及数字信号处理器。远端站点B除仅配置远程光频梳B外，其余结构相同。此外，站点B的数字信号处理器通过反馈信号，控制光频梳B以实现两站同步。其中，灰色线：光纤；灰色椭圆：50:50耦合器；蓝色椭圆：波分复用器；D：平衡光电探测器；黑色虚线：射频信号。(c)补充影片1中的图像。实时输出系统启动后的计算时间、往返传播距离、闭合速度以及链路状态。(d)额外实验装置：用来在0-4公里自由空间里，将两个站点和一个固定反射器同步。装置中配有扫描延迟线，专门模拟高速接近的效果（细节看插图）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUHlEYibAG4OR4h2Cib0b02fCiap3sr5VMQwSKt4uRlhTgmM90jhBGpejqVdmGdoHkJ9YqPBsJROKVEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_飞行四旋翼实现光学时钟的飞秒时间同步_images\img_002_d33e4a8ccd33.png)
 
 图2. 采用扫描延迟线实现4公里的同步。(a)飞行时间和接近速度是从O-TWTTT数据里得到的。接近速度的变化范围为0~24m/s。在主动同步时，标准差为1.1fs。所有数据的更新速率都是2.2kHz。(b)放大后的视图。在时钟的时间偏移中，浅蓝色线为整个时间段的情况，黑色线为主动同步时的情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUHlEYibAG4OR4h2Cib0b02fCCT6Vas6fb5VR2VjmKM59KEgGLJZRpHvQMCYjg0eEnblzu5sdFsIR2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_NC_飞行四旋翼实现光学时钟的飞秒时间同步_images\img_003_5381dea4c9a5.png)
 
 图3. 四旋翼无人机链路的同步结果。图中展示了由环路外验证通道测量的飞行时间（光程）、接近速度以及时钟时间偏移。时钟时间偏移数据分为两类：以~2 kHz更新率记录的主动同步时段（灰色点），以及以10 Hz采样率记录的全时段数据（浅蓝色点）。后者清晰显示了长时间信号衰落期间时钟的漂移现象。在~2 kHz更新率的主动同步状态下，标准偏差为3.7fs。
 

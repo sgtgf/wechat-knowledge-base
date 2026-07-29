@@ -7,7 +7,7 @@
 
 碳化硅（SiC）器件凭借其卓越的物理特性（高击穿电场、高导热率、高电子饱和漂移速度），在光伏逆变器和储能系统中展现出显著性能优势：提升转换效率（光伏逆变器最高可达99%，储能变流器可达99.3%）、提高功率密度、降低系统损耗（最高可达50%以上）和缩小体积重量。这不仅推动了光伏和储能系统向更高效、更紧凑、更可靠方向发展，也为其应对更高电压等级（如1500V光伏系统、800V电池平台）、提升电能质量和支持电网稳定提供了关键技术支撑。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWQBTxjnuITJUYSwDS04qEzwXOxW8pUWb7iaGWkZY4TtypvjZoULFicJEw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_000_a2e129fa29f1.gif)
 
 图片来源：网络
 
@@ -15,7 +15,7 @@
 
 1\. 光伏逆变器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWjPxoPxy7lmJVXDicgSBjiaJsl0wTlFg63dO4BDjNJVhlr2cwZgTgxI1Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_001_42474c7f1a15.jpg)
 
 图片来源：网络
 
@@ -33,7 +33,7 @@
 
 市场应用领域：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWhrQ5XagYUMFEQeWkV2NrCnZS0zSia34QY4gexS3kkcWurFKz8ibMqibDA/640?wx_fmt=jpeg)图片来源：网络
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_002_abf2c0cc128e.jpg)图片来源：网络
 
 集中式逆变器：主要用于大型地面光伏电站，功率大，成本优。
 
@@ -43,7 +43,7 @@
 
 2\. 储能系统（此处特指电化学储能系统）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWUPVK2iaN0F5kPp8ugZtOzhqyuDHDUvjg2dkkDAS9YbJNNX2RGfKWiaIg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_003_9ca1d6567884.jpg)
 
 图片来源：网络
 
@@ -61,7 +61,7 @@
 
 市场应用领域：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW09SnGNkib0gHG1iccnb37nvILv5F3e1sySOmicGsmcDPuOuXJRJx1KUZQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_004_4de068fe0edb.jpg)
 
 图片来源：网络
 
@@ -73,7 +73,7 @@
 
 下表概括了光伏逆变器和储能系统（侧重于储能变流器）的主要特点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWXMawlyUNib3sv5ibnyPrD9kKDZgI9rstRb1QTF87qoqGveIs8j8JgCpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_005_bd13bb36a1ad.png)
 
 二. 碳化硅器件的应用优势与应用案例
 
@@ -99,13 +99,13 @@
 
 光伏逆变器领域：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWtY7iaFYtWNxI1ejZEHTXrRTYD57VLZpyibnpkaN9OKEERHQiaYsOFrbzw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_006_5999d4cc279d.jpg)
 
 图片来源：阳光电源
 
 阳光电源：其光伏逆变器采用SiC器件，实现了99%的转换效率，并助力其全球市占率提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWzgaXJqibJic6AP61TyKnwYXjgwpQYlFbE1ib9r0vRsJPlW8hjRmnycickQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_007_3043b1e2d4a5.jpg)
 
 图片来源：固德威
 
@@ -113,25 +113,25 @@
 
 储能系统领域：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWbeiaD8XMB1TO8GwUiaLma1UswXEh7VibibFWPkVic38klMr6EsOBDLwQJcg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_008_55822568603b.jpg)
 
 图片来源：阳光电源
 
 阳光电源：其PowerTitan 3.0 AC智储平台采用全碳化硅PCS，最大效率达99.3%，系统综合RTE突破至93.5%，并实现了更高的能量密度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWeBnTjgwicZQ5E0qbqiaQB0ZKn2UZkRqF40ghWl0ySLriaPZshiahv2c37w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_009_290a5b092e97.png)
 
 图片来源：锦浪科技
 
 锦浪科技：发布了50 kW、100 kW、230 kW三相储能逆变器，采用碳化硅MOSFET和三电平拓扑，最大效率达98.7%，主要面向欧非拉的工商储场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWSRwXVcW2YoCeicBmiaQGWAoT1xuuFtibdS49k1KdqouHPJKcK9M1tkn6w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_010_9e09fd476e76.jpg)
 
 图片来源上能电气
 
 上能电气：发布了全球首批 2000V 400kW+组串式储能变流器，满载效率99.0%，已批量用于沙特PIF四期2.6 GW光伏+储能项目。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWFXTibQ7Pm1mD2AesDlonrEicnibhicWZjWokX9YEuiasL6fMj7fQeDld9zw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_011_27a6d982f861.jpg)
 
 图片来源：固德威
 
@@ -143,7 +143,7 @@
 
 **爱仕特量产的MT4系列SiC MOSFET、DT2系列SiC二极管和MEP系列SiC功率模块已批量应用于光伏逆变器。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWePl8LZWRrXzOMDpffecoDXd5jDDh2gdlwBtjckbiaibrXSHZI2zf4jIw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_012_b3af9dc99cdd.jpg)
 
 ▲光伏逆变器应用
 
@@ -155,7 +155,7 @@
 
 爱仕特量产的MT4系列SiC MOSFET、DT2系列SiC二极管和MEP、MEK6系列SiC功率模块已批量应用于储能系统。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWwicRr98NicCoAia4fcGyy2WPZUGkiao8wzMBehkgcd7ia30FO3TMt874yFg/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_013_10cfc0219009.jpg)
 
 ▲储能系统应用
 
@@ -167,7 +167,7 @@
 
 应用优势：碳化硅两电平方案可实现更高耐压、更高开关频率，弥补了IGBT两电平的效率问题，大幅减少了开关器件的数量。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW67JMqY6MGG1hZib8laa4r2vzb3oCe75aa9CicSroexDc71rE3oNue8vg/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_014_92c84b246bb5.jpg)
 
 ▲储能PCS的SiC两电平拓扑方案
 
@@ -179,7 +179,7 @@
 
 应用优势：适用于中高功率工商业储能，需兼顾效率与电能质量的项目。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWNbte5BT5eQrLOlqL4XAcqkVHEBVT20iaSsrTGx40KicC9reRkJE5Q1uA/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_015_db72c2d73935.jpg)
 
 ▲储能PCS的SiC三电平拓扑方案
 
@@ -231,24 +231,24 @@ EMI/EMC的考量：更快的开关速度可能带来电磁干扰（EMI）挑战�
 
 SiC MOSFET的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMFcibJnhfFxNicYIYXYXSGK2dXX6FHRpTWmXcyPvgAkzrXBZ4e4WqmcOA/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_016_68c0e997d4cf.jpg)
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicM4o0jmomHkL8mX3CVghBm3XWkYHmjJMseCntDZWtzibyVe4jKYq4SJfw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_017_dc51886ee06c.png)
 
 SiC器件的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMkaMoOk5mHv3WiaqYRaWpPgoSTYSVic86loHRaoYFyOvSWuzpic81aQ1Zg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_018_bf8bbcde7b09.png)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMBib8sAdvEvIOK3GhTcAffEeJKpOwmWxJ6P3aSr8vdCgkxHAgyE72vFQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_019_d5a6e1c24035.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMaVA7uawXzx95z7Sy8KmTOpaUnUJflTZnLGAoSEpP9BRddmuicCYJIZg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=20)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMp4AQ6QVAj0fUy5riaYWaQLp3RiboKel9fg1g2Nrm3Tia6wcMv7NXtKFgA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_020_c1cacdd2ef91.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅(SiC)器件在光伏逆变器与储能系统中的应用及产品介绍_images\img_021_60dad70c0cf9.png)

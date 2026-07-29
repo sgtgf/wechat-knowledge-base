@@ -28,7 +28,7 @@ IGBT综合了以上两种器件的优点，驱动功率小而饱和压降低。�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/o7Ga4OEtPsI7cJxIjBVa46ntxOGia9pHuPwWbI58AKbsNt77ZlPRYt2VbXKXfqd5Weoic24DIictcj52ghJAGIlgQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_002_c5e72eba656e.png)
 
   
 
@@ -42,7 +42,7 @@ IGBT有N沟道型和P沟道型两种，主流的N沟道IGBT的电路图符号及
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/o7Ga4OEtPsI7cJxIjBVa46ntxOGia9pHuWSNUW6WfytxxDebju1wumS94zh9bgL8lrjSpR205VYlLE8cD3yObPQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_003_215a0f54e47f.png)
 
   
 
@@ -58,7 +58,7 @@ IGBT有N沟道型和P沟道型两种，主流的N沟道IGBT的电路图符号及
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/o7Ga4OEtPsI7cJxIjBVa46ntxOGia9pHuJ3gaRMOkfv8Pqf9F22X9axr2iavboqZhicToiaM4ASB7562YfzPLC7QpA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_004_aded6894038d.png)
 
   
 
@@ -68,7 +68,7 @@ IGBT与MOSFET不同，内部没有寄生的反向二极管，因此在实际使�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/o7Ga4OEtPsI7cJxIjBVa46ntxOGia9pHucEsQUDzjvicgvQeW409Tg5PZtxUNVbA261PruzPJLYPGicsrxS4Uq6xg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_005_f67b89845bd2.png)
 
   
 
@@ -156,7 +156,7 @@ IGBT静态特性曲线包括转移特性曲线和输出特性曲线：其中左�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhSljELaUkFVytyqk03agI5fqTG9Gb2icn0HUiaZKzlvR60XP3rkrVCNxdc5BYLtLUDlMF83hxQ0pNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_006_3bd8773080fa.png)
 
 **（1）转移特性曲线**
 
@@ -178,7 +178,7 @@ IGBT的转移特性曲线是指输出集电极电流IC与栅极-发射极电压V
 
 **当VGS≥VGS（th）时**，栅极G和衬底p间电场增强，可吸引更多的电子，使得衬底P区反型，沟道形成，漏极和源极之间电阻大大降低。此时，如果漏源之间施加一偏置电压，MOSFET会进入导通状态。在大部分漏极电流范围内ID与VGS成线性关系，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/o7Ga4OEtPsI7cJxIjBVa46ntxOGia9pHulXqPYuoSG6e0WZsQeY3gnH6mL7RibvAqgC4Ansuebg7yBhn1vUC4NpA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_007_0cfbcd7120c7.jpg)
 
 这里MOSFET的栅源电压VGS类似于IGBT的栅射电压VGE，漏极电流ID类似于IGBT的集电极电流IC。IGBT中，当VGE≥VGE（th）时，IGBT表面形成沟道，器件导通。
 
@@ -194,7 +194,7 @@ IGBT的输出特性通常表示的是以栅极-发射极电压VGE为参变量时
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/o7Ga4OEtPsI7cJxIjBVa46ntxOGia9pHujw0eZmxbfYLgnQgVqIJftag5EbZF77fffEQCzXzbNlbicoMTBnkl4fA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_008_77989ba29a0a.jpg)
 
   
 
@@ -220,7 +220,7 @@ IGBT的栅极-发射极电压VGE类似于MOSFET的栅极-源极电压VGS，集�
 
 MOSFET与IGBT在线性区之间存在差异（红框所标位置）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/o7Ga4OEtPsI7cJxIjBVa46ntxOGia9pHud0weDOGZKd5aiaiaQZ99FU2XFqOcWBKmwicgQDcQXZzwvlxfTvOLXdiaNg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT基础知识_images\img_009_b8900b9fb515.jpg)
 
 这主要是由于IGBT在导通初期，发射极P+/N-结需要**约为0.7V的电压**降使得该结从零偏转变为正偏所导致的。
 

@@ -8,21 +8,21 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqfCiaacDwoI74Nib6So09DrP0CN7hKMibnXutkSKFBzD1wCX3tiaicrmSKIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_002_328ae5cfdf19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqHOBWxbnh87icqzqT469zH49ChcbuJTZGJaOhgCgL4g5rOAyicc9ddyZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_003_fd33c6c098f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqpmGBbtiaM45T0m9g4vgfWcj5ibb7pF3Vic4QVHZW9pvqXJEzeCpIvggtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_004_de0fbe12a04f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqKiaSkIJU3LltDCG8BvpOu7LHSImhTVsyqKZHoEicCiaqyOJmnXhlYTbicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_005_fbcbedf4ebf5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqbI25L9OxlwVgDEDXwbjSvdILicEJm0tuZGGV8ZeVzsGse6n2gviaEE4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_006_966761c522be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqoXyTibIUK4oOfyEqpJSuCib3bibbgic1C19zzf9DpgeMjsSQicpicYURddqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_007_7ab1d6caa4bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqmsuUPJ5DzvSKdJaicNswwONAKyiaMncmpSTHFPPZBqKJxibODKfsrkW8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_008_e4db6d345ddd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\到底该用P管还是N管__images\img_009_4700b023e565.jpg)
 
 ## 
 

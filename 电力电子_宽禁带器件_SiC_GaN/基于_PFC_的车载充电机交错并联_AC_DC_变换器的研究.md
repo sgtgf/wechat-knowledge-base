@@ -24,19 +24,19 @@
 
 2.1拓扑结构
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFtd9KCBtnE9RT99O9XfDKHsWgJicMX5nqka8iaib4u4rlwOj6wicpjMkmJtU1vhOcgkN5XeIomfzI0k5GHIo9IHdCYbY979sAu5E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_000_08206f185811.png)
 
 PFC\-IP\-Boost的电路拓扑结构如图1所示，该结构由两组并联的Boost单元组成，分别是主单元（由高频开关管G1、G2和低频二极管S1、S2构成）和从单元（由高频开关管G3、G4和低频二极管S1、S2构成），它们通过输入交流电源与输出直流母线直接连接，无需传统桥式整流器。输入交流电压为uac，接入两组Boost单元的交流端口，而输出直流母线电压为Udc，由支撑电容C稳定。每个PFC\-IP\-Boost单元通过交错控制策略（一般相位差180°）实现电流纹波抵消。关键元件中，L1和L2为两相独立的输入储能电感，iL1和iL2分别为两相 电感电流，总输入电流iac由两相电流叠加而成。这种设计通过无桥结构减少导通损耗，降低输入输出的电流纹波，从而缩小滤波器的体积。  
 
 PFC\-IP\-Boost电路可以看成是两个相同结构但相位角不同的无桥Boost电路的并联，分析其工作状态可以只分析其中一相，单相无桥Boost电路在正半周的工作流程如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP6gdfwu0Qiat58ibwyqkzVcwibAeFibiaTVKTAb7x8FJibowUvralhyeqiaSgDhAkMdic2H055qibwurVleJqXqBaAuaUmsAGqUxDibAcfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_001_3e602b2ee589.png)
 
 当交流输入电压在正半周期内时，Boost电路会工作在图2（a）、（b）两种工作状态，并且会在这两个状态之间来回切换。当电路工作在图2（a）状态时，iL经过G2和S2形成回路，电感L充能，电容C会向负载释放能量。当电路工作在图2（b）状态时，iL经过G1和S2形成回路，此时交流电源和电感一起向负载释放能量，电容C充能。同理，当交流输入电压在负半周时，电路的工作状态和开关导通状态相反。  
 
 2.2PFC\-IP\-Boost等效电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMH6Og50d9BWLvFgvibgZJRZzmQZw1x3hGbxvNiagzLc8KE28PtjyhYDPPY4qe0u5G4soyr778DopO9hGL0e6f2DiakyoQkYcIxTM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_002_a1d33406b50f.png)
 
 在无桥Boost变换器中，交流输入电压存在正半周和负半周，由此无桥Boost变换器的工作状态可以化简为如图3所示，在正半周期时，G2作为控制开关，G1作为同步开关；而在负半周期时，开关功能相反。  
 
@@ -52,23 +52,23 @@ MPCC的核心思想是基于系统的离散时间模型，预测未来一定时�
 
 由基尔霍夫定律可知，控制开关导通和关断时，正半周期和负半周期的电路方程分别由式（1）和式（2）表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMLxJX4S4yxHZILic5tao5NKulia0abJUic5REUqxcmicr9Biat7rNEq7hRwsKzg8ZXsmWK1A4HPicWDqZViaaL7y3G6nlibJOnmCGcKVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_003_2c19c92ab1ea.png)
 
 根据开关的导通/关断状态，式（1）和式（2）被整理为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN8M6TZhmGpM2DTeJV8g2k3JiaQfcsbGz2TsPWB6kOWLTJGOY9kjrWPgC57JcJ7FSAnvkVLkF7SqctzSEviaS0TDdIRQJKWylbiak/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_004_42b6dd8649ad.png)
 
 此外，将欧拉定律应用于采样时间ts内的电流变化表达式di/dt时，它可表示为如式（4）所示的离散时间模型：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOsoGxvqc0gtqMHhV3XVibS2IGXFAIS1kS35Cnqc4Uw7WAjH5HJSkceQricBibAT9PuiaLKX7q8G0icPIYuxx2SGpzUT3BgurfCgSwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_005_45d256588dda.png)
 
 通过式（3）和式（4），下一周期的电感电流可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN91cd1CFmDGS8JPY6sibJDAEFSpNc99gwmHwXsUfpEvGYpk8PqcCSshpFRIA0JVRZvU7su0ZQKw82TxwNWoLzSq6HXqOdvCwCI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_006_4ebd53b369d8.png)
 
 基于式（5）预测的下一周期电感电流iL（n+1），MPCC的导通/关断成本函数定义为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNbdIs3JWqXAs8yZE55NRzeHyJiceKWUCgFvicVsz6zXp9hicny2DBdMOhyH3LUibcIhmUmH3hUKvD2nK14cj1g396JSCVHF6eibokE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_007_3f533b593907.png)
 
 式（6）用于衡量预测电流与参考电流之间的误差程度，根据当前电路状态和模型预测出下一个周期的开关状态。  
 
@@ -86,13 +86,13 @@ MPCC的核心思想是基于系统的离散时间模型，预测未来一定时�
 
 如负载电流为idc，前馈增益为K，则输入电流参考值iref可表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpORyF0tAEjHXtUMP41dobTKFVbI5oRxSLyf55bgRxKSaVmKFG46L4y5oQic3EaaXoiaVHwma8WsWxB4mjVVIyJcCiaibwQzGppAicfI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_008_941f6ace3291.png)
 
 式中：ibase为电压外环的输出；前馈项Kidc反映负载的动态需求。  
 
 4.PFC\-IP\-Boost控制器设计
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOQL11mFO2mK5QyG3qPaiae5UNjMYohCLHWnDZrEpRhtaLWcmiblN3TaOVX46Dv8GmduAMe21Ugtm3P0tCgDSwUCXXj6l97aj1wA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_009_05c306f0652a.png)
 
   
 图4所示为基于所提控制方法的两相PFCIP\-Boost变换电路。其核心控制架构包含两套独立的MPCC模块，分别对两相开关元件进行控制。系统通过输出电压Udc对参考电压Udc\_ref的实时跟踪，负载电流前馈控制器动态生成交流输入 电流参考信号。iL1、iL2在独立MPCC模块的调控下，实现高功率因数正弦电流波形。通过调节其中一相MPCC模块的采样时序，实现两相交错运行特性。
@@ -101,7 +101,7 @@ MPCC的核心思想是基于系统的离散时间模型，预测未来一定时�
 
 根据L1的开关导通/关断状态推导出其下一时刻电流的表达式为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNwPgANlzhmXmWSsCABJHgP2JgojxunwqDOrHGSDnzNIRNib4Xfd3oo9CIyVLtFSia86u8mlQ7GMiaCfsff33WHVb3xbw9KY10yew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_010_a447693f55cd.png)
 
 式中：n1为当前周期；n1+1为下一周期；tL1为L1相MPCC的采样时间。  
 
@@ -109,35 +109,35 @@ MPCC的核心思想是基于系统的离散时间模型，预测未来一定时�
 
 同理，根据L2的开关导通/关断状态得到其下一时刻电流的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNVQL6iaX3SJn6PPQ11cxfcY0CdhSt2LYnSUuyH9gJ7OYpQTHxM7RbqibTJfxwz9qDxV1IpP0waVhgaMJPFibOjQpaKg8EMcL3b4k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_011_5029f8dfb0e9.png)
 
 式中：n2、n2+1和 tL2分别为L2相的当前周期、下一周期和采样时间。  
 
 基于前面推导的L1和L2相电感电流表达式，得出L1相和L2相的MPCC成本函数为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM6nCACSnNT0rChCgQtMlIJ5NicniagmEelPTMw4ZN3ZyrxRE2t317iazrj6otzysWq4c2ibicZl5ZgV0Xibq8mibq1flmO4GVHvA0Cb8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_012_05a6efdc1c63.png)
 
 其意义是通过计算预测电流与参考电流的差值绝对值，来衡量预测电流与理想参考电流的接近程度，差值越小说明预测电流越接近参考电流，相应的开关状态越优。  
 
 图5展示了PFC\-IP\-Boost交错控制方法下的两相电感电流波形，其斜率特性通过图例中的时序基准实现动态匹配。图中实线对应开关导通状态下的电感电流斜率，虚线则表征关断状态下的斜率变化。进一步解析了开关周期波形特性，其中iL1和iL2基于表格中的采样时间，在离散时间模型中预测未来值并与iL\_ref进行误差比较。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOgC1f7M87uMfMtthtsvG3iamQh7KCLH1BrxCNbx42PxrMf1ibtT5ib6kbfNic0yqCeUJNTj7YicK7J63J6EBtzLBp3zY0BBQ8cfm5s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_013_5fbfc6682419.png)
 
 通过调整权重因子改变L2相的采样时刻，这种基于时序延拓的交错控制机制等效于传统载波移相策略的数字化实现，使得各相开关状态独立变化，从而有效抑制桥臂寄生电容电压释放引起的电流过零畸变。  
 
 图6展示了多相交错控制策略中电感电流的开关周期波形及时序采样机制。其中，Ttotal表征两相开关周期在时间轴上的同步对齐周期，其相位起止点呈现重叠特性；MPCC动态调整D的参数，TL1和TL2分别定义为第一相（L1）和第二相（L2）电感电流的完整开关周期，且二者满足一定采样时间的权重比例关系即TL2\=ZTL1。各相导通时间被划分为DTL1与（1−D）TL1（L1相）、DTL2与（1−D）TL（2L2相）两个互补时段，双通道采样信号动态调整采样时序，在互补时段内实施离散化采集，该设计通过匹配Z值参数提升了电流采样的时序分辨率，从而精确表征交错控制下电感电流的动态特性及相位周期差异化的协同效应。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRoB7fka789pfaLRBvEMmJLibPMEtgpybgdvpsGQFZFGm6RSEwvdACffcnsQ1y56icDkfGlHiaW7d7043AepicsriaCaEHia09TZTS8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_014_b392eeddd8d7.png)
 
 4.2负载电流前馈补偿器  
 
 负载电流前馈模块与MPCC的协同控制流程如下：前馈项Kidc直接叠加至电压外环输出ibase，生成瞬时参考电流iref，使MPCC的跟踪目标实时反映负载需求。当负载突增（如从满载切至半载）时，idc瞬时减小，前馈项立即降低iref，驱动MPCC提前调整开关占空比，避免因电压外环延迟导致的母线电压突增。前馈补偿通过抵消负载电流低频分量，降低MPCC跟踪误差，进一步提升输入电流正弦度。根据系统稳态功率平衡关系如式（12）、（13）所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpgxv3UG24eK8pmvWKLaVW2icpx6gNg135JyzzUF2zWYIhriaicayoHXVECE5AwG5UBCib127uNnicXaQib6L7A91hTzbhNghFHfaWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_015_a1fd4b28dbc3.png)
 
 可推导理想前馈增益为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMgn6icTDHaqTlB7LKVNp06MVs58jnyEXakiab6yMfCUDzEich86xjM3ia4f1DSk4hUpzra5Da8N0ePdfmp3aW1zW7Tv6R9QXk6jQM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_016_c7b20142d48e.png)
 
 确保负载功率变化时输入电流参考值同步调整，从而加快输出电压的响应速度。  
 
@@ -145,23 +145,23 @@ MPCC的核心思想是基于系统的离散时间模型，预测未来一定时�
 
 为了验证车载充电机前级AC/DC的PFC\-IPBoost变换器MPCC的可行性，在Matlab/Simulink中搭建了仿真模型，通过MPCC控制器与PR控制器的仿真对比，得出各相电感电流以及输入输出电压电流波形。PFC\-IP\-Boost变换器的仿真参数如表1所示。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMmVR6ZdUlwkicQueyTpOJjBPE6dicE2WibrH0sLzSNicRCPgibG0a3QmIFqD4YQCPa7U9SUzTkWYldv2U7NfCV7NSpHfcx2brvic2lQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_017_0c2ff25bf69e.png)
 
 MPCC与传统PR控制在电感电流过零处的畸变对比如图7所示，图7（a）、（b）分别对应MPCC和PR控制，图7（a）中MPCC的电感电流在过零点处较为平滑，无明显畸变。相反地，图7（b）PR控制中，电感电流在过零点处出现一个超过±5A的电流尖峰，MPCC对电感电流过零尖峰的抑制效果更好。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOt5uTAbwZ43Nv6tdqib8YXRm8JFQJUJaUVJlLE36aib4Ua5qicsfDia24PjZFuwHfREhrRJSFicOofnNHJUdIBxiaT8lTdMgQbbaesQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_018_23146aacaeef.png)
 
 MPCC两相电感电流交错波形如图8所示，在交错时间采样控制下，两相电感电流实现两相交错运行特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMoJHQJD5bcfCH16Hz6g2XXWhUPVOOTal8NhwwgyhdHgqFRlRVHIPaIuYCub5s6nBBLBGWicdy4L5oDBkUJK9ZciaF39TOTMZQE0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_019_c1a0ac4da3d3.png)
 
 MPCC输入电压和输入电流波形见图9，电流iac波形与电压uac波形保持高度同步，电流波形接近理想正弦曲线，无明显畸变或高频噪声。其功率因数PF\=0.99995，THD\=3.115%，远低于5%的标准（我国颁布了有关谐波限制的国标GB/T17625），说明MPCC有效抑制了谐波分量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM6icBNawQ6icC69bg72ickvJf9uMrhyhSFqrQSlCeRRV6UMWibVBOxhEm8MrrDAufGUjNF2INKoODIXL8LGSLILrY3JjJHkfGej88/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_020_fd5fd23eea05.png)
 
 当交错并联无桥Boost电路在t\=0.2s时从满载突降至半载的情况下，PR控制与MPCC的输出电压的瞬态响应过程如图10所示，PR控制下，在负载突降后，输出电压出现显著超调，峰值电压较稳态值升高约5%，并伴随持续振荡，恢复至稳态的时间约为0.23s，波动持续至t\=0.23s后逐渐衰减。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOR09hL3vjvR7l7ibVYeoT1IaCtn4askJ29ibArrT2aVibJGXRTZchRoxQArvvnkGDLnN8ibMjWBBbfk8W261qAlIsNdppHV7kic09Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_021_e2929db02e94.png)
 
 相同负载突变下，由于MPCC增加了负载电流前馈器，输出电压超调量低于1%，且在t\=0.205s内快速收敛至稳态后波形趋于平滑。通过上述波形分析，PFC\-IP\-Boost采用MPCC对电感电流过零畸变的抑制效果比PR控制更好，并且在增加负载电流前馈之后，MPCC在应对负载发生变化时，输出电压有更快的响应速度和更好的稳定性。  
 
@@ -169,7 +169,7 @@ MPCC输入电压和输入电流波形见图9，电流iac波形与电压uac波形
 
 本文针对车载充电机前级AC/DC变换器中含PFC的传统无桥Boost变换器拓扑存在的电流过零尖峰及动态响应滞后问题，提出了一种基于MPCC与负载电流前馈补偿的复合控制策略，通过动态交错采样机制灵活调节两相开关时序，并 对负载扰动实时补偿。相较于传统PR控制，该策略显著抑制了电流过零尖峰，将总谐波畸变率降至3.112%，功率因数提升至0.99以上，并在负载突降时使输出电压超调量低于1%，恢复时间缩短至5ms。本文研究的拓扑结构及控制策略为高性能车载充电机的设计提供了一种新思路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMeTiaE72kFLOAuhWzFZQzeaHvO9TOn8hNia8BN55Bo1cH0LP6CV3vBOkxb639NRzMicR7ibqohHdf1NGGr1baeZibezsWjr3unH1Mo/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_022_2324894fe3cf.jpg)
 
 图片来源：网络
 
@@ -179,14 +179,14 @@ MPCC输入电压和输入电流波形见图9，电流iac波形与电压uac波形
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPh7rGkDmf6kj1cF5jM0tZLQgiapMg7pt6ue1bxzmmO5BdpfRnicibSA0QjtUQAYyBRjkpIsIB1VQuCTic8PBLZoA2VzOPKowXzXUw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_023_08bebccc1672.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOeBibEqGiamEWib7xia2eUWWBwMdIqQQLUgQJPog3oceTTMdUefZGZ7B5p0a25YrBbymnMHw6hVzVFab60QSbpfHTJ0gsZscIic0oM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_024_c0ce24f9da13.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPs9icStbCflvtvyP1cy7HZYeBpWibwJ9B7ziclQGJjEfju6fiaBy76WvOzsQ4lqbKYn7oYjh3qrn7O1J9yibNecEOT1ickgQuhXCYvQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_025_05153e6e2f40.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNvB2HxPfOGwXXa0VYLy69M7ft1TeKBj8yWRUXyQicu1k8aOuvVU1OvaPiaP4JWXn2DAlonPxjnumXfn21KdApf5qMKHTA7yWia4k/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_PFC_的车载充电机交错并联_AC_DC_变换器的研究_images\img_026_465e217ab7fe.jpg)

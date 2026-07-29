@@ -15,37 +15,37 @@
 
 直接开拆，控制器正面
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2OibID58BI3qZAhalLk3qkiaoysEhDaZrZ7fIUe8JEBdzahmicYJbQM6Pkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_000_3320226fec72.png)
 
   
 
 拆开后PCB正面  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2Ox3PBtLQr8kFiaOic7LMXBOScE1vEc5NGVyfgGQuViaU6LWqwoqjY4aDzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_001_532d89f99084.png)
 
   
 
 PCB背面  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2Owszpibcy0ib0BwThq2cMUicW5hMfhlY8wLmkoDSwoUyDGAVlWNRzeicibQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_002_afd53cdfc044.png)
 
   
 
 LED灯部分AC-DC电源IC型号LY6018。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2Op32sG6BQNckONCAvdnWt3N2qaZGIvofJiavleGkRCStAjKAMib8dgfCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_003_5f8e4432b6a1.png)
 
   
 
 电机部分AC-DC电源IC型号LY6021, 两通道LED控制IC型ED360N.  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2OTWMhBDwePCAQ6PjIZnc2HNr9e6ib1ozKK10IDLCV7BZpB4Sk4WpT0mg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_004_42863b923279.png)
 
   
 
 主控MCU分（被磨干净型号了），MRF310无线接收IC，S4614双通道MOS管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2OFs7gEKCicX4GZKrIlTMickXaEiaQEibHFUDuMcuH2nnF4lotoem5zSPgNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_005_1fe6ba97e586.png)
 
 通过拆解后的PCB画出其对应的电路原理方框图。  
 
@@ -53,23 +53,23 @@ LED灯部分AC-DC电源IC型号LY6018。
 
 1.AC-DC部分电路：把输入的AC交流电转换为隔离的直流安全电压，控制器有两个转换电路，一个为给风扇电机供电的24Vdc电压， 另一个为给LED供电的36Vdc电压。 分别采用LY6021 和LY6018 方案。这两款IC都是比较老式的DIP8封装了，没查到是哪个品牌的，只找到对应原理图。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2OsA86xa1bzFCtWziaA2fialjkVHQGNXvAIeBtOXtWibPMuHiaJRdAf0tl8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_006_e9ebb86664b0.png)
 
 2.灯部分：比较简单，通过电源进行电压变换后出来的38VDC电压，搭配36V LED光源接到两通道的LED驱动IC上，MCU可通过输出两路PWM对其进行调光和调色温。
 
 3.电机控制部分：大概原理为通过MCU输出6个PWM信号控制三个两通道的MOS管依次上下导通，从而对三相电机进行控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2O5V18SRP1WTZqshVvCPx0k8J2X2THyjlvEB0MBX1mSIjO2w7fgn9e5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_007_b01364e5ee38.png)
 
 由于之前没接触电机这方面，只能一边拆解，一边查资料学习分析了，为搞清楚原理干脆把电机也拆了，才略懂一二。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2OZql5oTaGZicXyG2RnuRJXQKACvlYBUdKhUT6RjEdHxG4elJxib5KSVHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_008_69c43058dd7f.png)
 
 电机里面只有线圈的，没有霍尔元件，电机类型是直流无刷电机BLDC类型，电机控制方式为无霍尔器件FOC控制方式。  
 
 控制BLDC的关键就是确定换相的时刻，主要通过检测电机线圈产生的反电动势来获得转子的位置，还要检测电机转速、电流大小等信息作为反馈输入，需要采集电机相电流，对其进行一系列的数学变换和估算算法后得到反馈量，然后形成闭环控制，对软件算法的要求比较高。有兴趣的朋友可以自行了解学习BLDC,PMSM,FOC相关理论知识。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflFbq7hPtWsN4og9T2lNN2Ok8LFDSLAqhoYibbUeS40tt6c40kAicic7bxz25VKRibypDKMQ0iavGYbbrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\拆解DC风扇灯控制器的电路分析_BLDC控制算法你了解吗__images\img_009_f97dea418cd1.png)
 
 总结：  
 

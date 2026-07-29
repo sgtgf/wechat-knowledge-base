@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Jc9fMRy5Kr7BNCIx03quWg](https://mp.weixin.qq.com/s/Jc9fMRy5Kr7BNCIx03quWg)
 
-___![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMwXLD2r9SVH4UxTbbTiaIWps2HsX455D677J45rEZcOcp1A3zesic1BAQ/640?wx_fmt=png&from=appmsg)___
+___![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_5_S参数_images\img_000_b319b1f62a9a.png)___
 
 ____**★★★**______TCS-5---S参数______**★★★**____
 
@@ -15,7 +15,7 @@ S参数也叫散射参数，通常表示为频率的函数，散射参数或S参
 
 可以使用矢量网络分析仪 (VNA) 直接测量S参数，如**_图5-1_**显示了双端口网络的示例，其中入射波量为ax，反射波量为bx，其中x为端口。假设被测设备是线性网络，因此适用叠加性。S11表示从端口1反射的功率比（b1/a1，而 a2=0）。S21表示从端口1传输到端口2的功率比（b2/a1，而 a2=0）。对于诸如缓冲器之类的单向设备（端口1作为输入，端口2作为输出），S11是描述输入阻抗匹配水平的输入端口电压反射系数，而S21是正向电压增益，描述频率响应。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQOIRISXLEbCtryJ4Xde7RHk2nyId0QAvQ1aZ5AHRB5jaiceSv9fic4mib6H18aicR4c5dnQh2dZfgwWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_5_S参数_images\img_001_2d82af28d0d7.png)
 
 **_图5-1：双端口网络信号示意_**
 
@@ -37,7 +37,7 @@ S11表示端口1的反射系数，反映从端口1入射的信号在端口1反�
 
 反射系数：如前面提到的S11和S22，它们从功率角度描述了端口的反射情况。在天线设计和测试中，通过测量S11（假设天线为单端口网络）来评估天线与传输线的匹配程度。当S11的值很小（以分贝表示时为较大的负数，如-10dB或更小），说明天线对入射信号的反射很小，天线与传输线匹配良好，大部分能量被天线辐射出去。（[RF 术语与概念-4：驻波比VSWR](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247495198&idx=1&sn=4ffed69046c9113fdf52b198772d1446&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98u1Lypyg1fTPhnmicE5W9ricib9XZFPGibpHxZ7aMWTMOfkQrS1tNMgqGiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_5_S参数_images\img_002_4d255ce273a6.png)
 
 **_图5-2：2.4G/5.8G天线的VSWR_**
 
@@ -47,7 +47,7 @@ __________€3.____将S参数扩展至多端口和差分设备______
 
 可以将S参数框架扩展到任意数量的端口，其中有意义的参数数量等于2N，其中N是端口数量，由于摆幅和共模抑制增加，许多集成电路具有差分输入和输出。射频采样ADC通常具有差分射频和时钟输入，可以进一步扩展S参数框架以支持差分端口。对于差分端口，必须区分共模波和差模波，如**_图5-3_**所示，两种模式具有相同的入射振幅，但差模入射波具有180度的相移，而共模波具有相同的相位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQOIRISXLEbCtryJ4Xde7RHl4rHb3OrmchmlQqsgzDJYU9c7D8I9SXEF7bgQnNnu5dvQcbgbomIFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_5_S参数_images\img_003_c94ae48c82e1.png)
 
 **_图5-3：差模波与共模波_**
 

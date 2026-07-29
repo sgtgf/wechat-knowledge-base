@@ -30,7 +30,7 @@ TDK使用积累的材料技术及积层工艺，提供不同尺寸的贴片NTC�
 
 其基本电路是与NTC热敏电阻以及固定电阻进行串联的分压电路。CPU及功率模块等安装在发热部位附近的NTC热敏电阻的电阻值会随温度上升而下降，因此分压电路的输出电压会发生变化。该变化输送至微控制器后将会保护电路元件免受过热造成的影响，或进行温度补偿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyibPmEd9jg93AgNBibIxFvZvKcwnibgzYdp7fvl4wDaKcWialMybebLIduw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_002_93b45705aff7.png)
 
   
 
@@ -48,7 +48,7 @@ TDK使用积累的材料技术及积层工艺，提供不同尺寸的贴片NTC�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5Hyh5h4VibZNu5EXsbSwOCImWB7UMjRtVen93HBAJElf8QNxwbv4AjyXCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_003_f47d916b9146.png)
 
   
 
@@ -64,7 +64,7 @@ TDK使用积累的材料技术及积层工艺，提供不同尺寸的贴片NTC�
 
 NTC热敏电阻由固定电阻RS与分压电路构成。若流过过度的电路，NTC热敏电阻温度将会上升，电阻值将会下降，从而将抑制微控制器的驱动电压。使用的电路元件为小型SMD贴片式的NTC热敏电阻以及电阻器，因此直接贴装于电路基板或发热部上即可起到有效的温度保护作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5Hyib2ADepNINDry2icocpkqrg9C7p3PpA9iaH18ktKyf93Fkp65bpTrHicqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_004_3960d39dd06f.png)
 
   
 
@@ -86,7 +86,7 @@ LED器件中作为发光层的半导体PN接合面会发热。该温度称为接
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyibUbbUIWnA5UYnLZclJNHLbNrLqzPd4wbRKicYuJeyAKZsjheFKyicsuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_005_270aa06df2da.png)
 
   
 
@@ -100,7 +100,7 @@ LED器件中作为发光层的半导体PN接合面会发热。该温度称为接
 
 用于电脑存储装置等的HDD是对于温度极为敏感的装置，当温度过高时出现错误或故障的可能性也会提高。为此，其会通过温度传感器对温度进行检测，当超过规定温度时，将会通过风扇进行送风冷却。虽然使用NTC热敏电阻与固定电阻的温度检测电路精度不及温度传感器IC，但优势在于成本极低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyyEfrkAKTHKt44CB2EUKQVNCBZ7fdT0kc2zclzWbBkj9duCMItRO1jA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_006_a01e66746d0d.png)
 
   
 
@@ -114,7 +114,7 @@ LED器件中作为发光层的半导体PN接合面会发热。该温度称为接
 
 将数据写入HDD时，是通过记录磁头产生的磁力，将其以磁性方式记录在盘片(磁盘)磁性膜上。写入过度时磁头会发热，从而会对磁头器件造成不良影响。为此，需要使用下图所示NTC热敏电阻，通过温度检测电路控制流过磁头的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyyjocCELdVwTZEKagibAAictibQhKiaRicy06SKWlT95qibRCtayLhOqnKkIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_007_3bbb5ec901c7.png)
 
   
 
@@ -128,7 +128,7 @@ LED器件中作为发光层的半导体PN接合面会发热。该温度称为接
 
 POS收银台的收据打印机、条形码/标签打印机等使用有用于打印热敏纸的热敏打印机。热敏打印机磁头温度与打印浓度呈相关关系，温度越高，浓度则越高，温度越低，浓度则越低。其根据检测的热敏磁头温度，通过改变输送至热敏磁头脉冲电流，并控制电压，从而使其保持一定的打印浓度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyNoe19iaVCdNmFS86BsibyRsLTKfdrtbWJ28Msyp6NibfHnKr6bN9g4mrg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_008_26a28282f6b6.png)
 
   
 
@@ -142,7 +142,7 @@ POS收银台的收据打印机、条形码/标签打印机等使用有用于打�
 
 用于智能手机、平板等设备中的LCD(液晶显示器)液晶物质存在温度依赖性，其对比度会因环境温度而产生变化。因此需要根据环境温度调整驱动电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyiaOa02vvpVFcoicKOVSh3hibvm8wuAqojFahtw2JoVpNQQSiaRk5DeVzaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_009_ea1858d94b9c.png)
 
   
 
@@ -156,7 +156,7 @@ POS收银台的收据打印机、条形码/标签打印机等使用有用于打�
 
 在电脑等电子设备中，若要产生基准频率(时钟基准信号)，则需要使用利用晶振的晶体振荡器。晶振温度特性如下图图片曲线(红线：无温度补偿)所示，呈现以基准温度(通常为25℃)为拐点的3次曲线，振动频率偏差(纵轴)随温度发生大幅变化。而通过在低温范围与高温范围分别插入与晶振温度特性相反的补偿电路便可缩小振动频率偏差(蓝线：有温度补偿)。该补偿电路为模拟方式，低温范围与高温范围的补偿电路分别由NTC热敏电阻与电容器、电阻构成。内置温度补偿电路的晶体振荡器称为TCXO(温度补偿型晶体振荡器、Temperature Compensated Xtal Oscillator)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyBohsU2qb7cc86G6YExy9Yl14j172gAyGn1NMvZQkEOkR1uKmBTCibyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_010_4d2b0808472c.png)
 
   
 
@@ -174,7 +174,7 @@ POS收银台的收据打印机、条形码/标签打印机等使用有用于打�
 
 压电电阻型半导体压力传感器拥有小型、高灵敏度等特点，但传感器器件压力灵敏度会因温度而产生变化，因此需要补偿电路。下图为组合了NTC热敏电阻与固定电阻的补偿电路示例。利用热敏电阻电阻值随温度发生变化的特性，通过改变施加于半导体压力传感器上的电压实现温度补偿。除此以外还设计有其他各种补偿电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyszlIPrBMvWldZVibTreYTMAxMVEYlduySSibzaDYXia0Ct9eYvFXHodyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_011_df71b17d54e6.png)
 
   
 
@@ -198,15 +198,15 @@ POS收银台的收据打印机、条形码/标签打印机等使用有用于打�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5Hy79UyU74MdPicR0krt69WNmW7JurRQprfibicxJveib5t9ym9z5wRjQNrxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_012_cf48d1a2e20f.png)
 
   
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_013_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_014_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_015_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_016_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_017_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_018_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_019_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_020_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_021_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_022_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_023_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_024_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_025_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_026_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_027_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\NTC基础及应用_images\img_028_3c93e54afedf.gif)
 
 ## 
 

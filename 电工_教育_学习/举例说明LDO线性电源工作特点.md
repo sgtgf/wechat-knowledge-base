@@ -8,7 +8,7 @@
 
  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKUsvTUtQd1PAoOSotTrI4633ppb4SygqznbJZjicCJia7cKibvO1t93bCxmBTClslnwsW1X2xMHNcMg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\举例说明LDO线性电源工作特点_images\img_000_b9417f67521c.jpg)
 
 R1的作用是为稳压管提供＞2mA的导通电流，将基极电压稳定在15.7V。
 
@@ -34,4 +34,4 @@ LDO线性电源优缺点
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tKUsvTUtQd1PAoOSotTrI466Tx9UnxLLoDOGb3zKZo1Ye0D1iadLStX47MV6LOpXOTskToqALM9z9g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\举例说明LDO线性电源工作特点_images\img_001_2a8570c59104.jpg)

@@ -10,7 +10,7 @@
 在将MOS管接入电路之前，对其进行全面的测试显得尤为重要。这是因为MOS管，作为电路中的关键组件，其性能直接影响着整个电路的稳定性和安全性。MOS管具有三个关键的引脚：漏极、源极和栅极。若使用存在故障的MOS管，可能会导致漏极与栅极之间的短路，这种短路不仅会损害电路，还可能引发一系列连锁反应。例如，漏极电压的反馈可能会影响到栅极端子，进而通过栅极电阻传递到驱动电路，最终可能导致驱动电路的进一步损坏。因此，通过在使用前对MOS管进行细致的测试，我们可以有效地预防这些潜在问题，从而确保电路的安全与稳定。  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKoCQyzwJhq42BicOZrEgY6EJajicnq3m7iaPQwx4bQkKzPkTc6iaDmgflwmg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_000_34ff89fd8646.png)
 
 #   
 
@@ -55,14 +55,14 @@
 3、当探头连接被颠倒时，万用表的读数应显示为“开路”或无读数，这是MOS管正常工作的表现。因为此时二极管处于反向偏置状态，任何非零读数都可能意味着设备存在问题。  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKoia2F92eia8iaGcMY5ScET8BaDON6S3B3rqTX5kpRUA4G0lp6u8clMmqbg/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_001_85f02879c29d.png)  
 用数字万用表测量NMOS管的质量情况  
   
 
 对于PMOS管，测量方法与NMOS管类似，但需注意极性。确保万用表处于二极管模式后，将红色探头与PMOS管的源极相连，同时将黑色探头接到漏极。此时，体内的二极管同样处于正向偏置状态，万用表应显示出相应的电压读数。若读数异常或无读数，则可能表明该PMOS管存在问题。  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKoicPjsjYK2U751ELamhL9uZtOmUFxSBajicQNS7IXrcmR7pIeBTgC9oew/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_002_0cb310a1dd15.png)  
 用数字万用表测量PMOS管的质量情况
 
   
@@ -77,21 +77,21 @@
   
 
 3、最后，将万用表测得的读数与PMOS管的数据表进行对比。若电阻读数小于数据表中的数值或为零，则表明PMOS管可能存在故障。正常情况下，仪表或万用表应显示数据表中的标准电阻值。  
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKoNmYtWlEz932s6ftqffhdz7BWjwgT7tZPOlLslUalib1slxgFKRiahZiag/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_003_fd140854ac74.png)  
   
 
 用万用表测量MOS管的好坏时，需要注意端子间电阻的影响。在测量栅极与源极之间的电阻时，你实际读取的是R1的值，而非高电阻。移除R1电阻后，电阻读数会相应升高。
 
 此外，还可以进行连续性测试来辅助判断MOS管的好坏。首先，打开数字万用表并选择连续性模式，将测试引线连接到MOS管的端子。保持几秒钟的连接，并观察万用表的反应。如果蜂鸣器响起，那么这可能意味着MOS管处于不良或损坏的状态。  
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKo4mhMB3RiacZX82GqVNx7BAQxLp8SZLyFnV46FkEnsLUicKiayXogibXQyw/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_004_c12a0e07761a.png)  
 将测试引线按照电路图所示连接到MOS管的各个端子，并保持几秒钟的连接。观察万用表的反应，若蜂鸣器保持关闭状态，则说明MOS管状态良好。  
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKoVJUKsFiav50ibV9kmHq2wMKvGh6olXdjn2rzjjvE5ODZicd9Qao6G9StQ/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_005_ecbf80a84c8e.png)  
 组装一个电路来测试MOS管的好坏，我们首先需要了解MOS管好坏检测电路图。
 
 对于N沟道MOS管，完成连接后，按下开关，若LED灯亮起，则表明MOS管状态良好；若LED灯不亮，则说明MOS管可能已损坏。同样地，当你按下开关时，若LED灯熄灭，则MOS管状态正常；若LED灯保持亮起，则可能表示MOS管存在问题。  
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKontE0Yyv4fcOhrY1aibAeDvqaiaLWm1LibOqCk8RIZpjic4E3wXicAkSiaBcA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_006_3310bddd395c.png)  
 P沟道MOS管的好坏检测电路图与N沟道MOS管类似。在完成连接后，若按下开关导致LED灯熄灭，那么MOS管状态良好；若LED灯亮起，则可能表示MOS管已损坏。同样，按下开关时，LED灯亮起意味着MOS管状态正常，而LED灯不亮则可能预示着MOS管存在问题。  
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKopNuyWfH8XNHSzM1ONl7cgtV2QbnzpurB6eLgPgnn3ictcria6Cqdp9Rw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_007_aa8d0301b61e.png)
 
 资料来源:网络
 
@@ -99,15 +99,15 @@ P沟道MOS管的好坏检测电路图与N沟道MOS管类似。在完成连接后
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskepQco9huegL3WgvuV1wKoPGHwte9rYeXr262O1T0K0eydqWhxYjvneqLBEUgSRzyHMIk0mEiasRg/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_008_754bd427674c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskepQco9huegL3WgvuV1wKoXlsVXnIteGC8rDibWdMLqUjoIncf5Nlc1R1PBLiacEHkqNcuJgVeU1tw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_009_15633dd827d6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskepQco9huegL3WgvuV1wKoGgFhDkA0k43nibOJVPpKCWGnZqKicXGNwlKRP2maJkB951PvK9xibmy5g/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\如何测试MOS管好坏_详解万用表测试方法_images\img_010_8c98ce29b611.png)
 
 #

@@ -24,7 +24,7 @@
 
 2\. SiC-MOSFET 在电动汽车上的应用优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEU6uWpJ8ZHg7DGrXSkfUGR6FYAfeWALPiaT8SUZovUicNy49sqKrP0qeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_000_a3065b0f402c.png)
 
 SiC-MOSFET 作为功率半导体在电动汽车领域的主要应用场景如图 1 所示，包括用于驱动电机的牵引逆变器、DC/DC 电源变换器，以及用于交流充电的 OBC 及非车载充电设备，如直流快速充电站或无线充电，并已在部分电动汽车上实现了应用。
 
@@ -56,7 +56,7 @@ OBC 是将动力电池与外部电源建立联系、进行电力传输的重要�
 
 为了更好地评估引入SiC-MOSFET导致的成本提高情况，建立相应的SiC-MOSFET逆变器和转换器的成本模型。以电子元件分销商DigiKey 的价格作为参考，对比硅基 IGBT和SiC-MOSFET在汽车上应用的成本，逆变器的总成本如表 1 所示，逆变器与转换器的总成本如表2所示，OBC 成本如表3所示。综合来看，以 SiC-MOSFET作为电动汽车功率半导体的成本较使用硅基IGBT的成本高。未来，随着技术的进步及 SiC 量产带来的 成本下降 ，SiC-MOSFET 很有希望取代硅基 IGBT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEPjicxBbEJzXfqmmTZdbJibLibIWgziabn1lHsRNxzHN9t22D0wVx5ibfPRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_001_d087341e31e5.png)
 
 3.2　可靠性问题
 
@@ -72,7 +72,7 @@ SiC-MOSFET 体二极管的反向恢复时间短、恢复损耗小，具有很好
 
 在体二极管工作时，电子与空穴的复合所释放出的能量导致堆垛层错在基晶面位错处蔓延，直至蔓延到芯片的表面，如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEpEkZbbubEy80ZKPV2lLCBNUTOzKguVQibsonfgfYTCkcN81ttiaCdbrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_002_800895993d04.png)
 
 图 3 所示为无层错缺陷器件和有少量层错缺陷的 SiC-MOSFET 芯片在导通模式下利用红外热像仪拍摄的对比图像，图中温度代表了电流的密度。从图 3 中可以看出，有堆垛层错的区域温度远低于正常区域温度，这是因为层错缺陷导致该区域导电能力下降，流过的电流很小，几乎没有产生热量。
 
@@ -88,7 +88,7 @@ SiC-MOSFET管芯面积小、电流密度大且抗短路能力较弱，因此对�
 
 SiC-MOSFET 和硅基 IGBT 的换热器的热阻由底板的导电热阻、传热面的对流热阻和扩散热阻组成。换热器的理论最小热阻（即热极限）可以通过换热面的性能极限和最佳底板厚度实现。随着散热面积的减小，换热器中的扩散热阻增大，如图 4 所示 。 SiC-MOSFET 模块的换热器由于散热面积较小，可能不满足所需的散热要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEhnme6A3iaQlgMibB7xxaO4DIWWMX5xC3wmj4QwjMJDEb3htcjDJic8wYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_003_5094f5eedb43.png)
 
 4.　车用 SiC-MOSFET 发展趋势
 
@@ -98,7 +98,7 @@ SiC-MOSFET 和硅基 IGBT 的换热器的热阻由底板的导电热阻、传热
 
 此外 ，还可以通过微型化来提高SiC-MOSFET 的良品 率 ，进而降低成本 。 SiC-MOSFET的良品率与芯片面积的关系如 图 5 所示 ，良品率随芯片面积的增大呈显 著下降趋势 。 而为了提高器件的通流能力，大电流规格下的器件常具有较大的芯片 面 积 ，对器件良品率造成影响。 因此 ，在保持大电流器件性能不变的前提下 ，应尽可能地设计小面积芯片（即微型化），以兼顾高性能和高良品率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEe55N54zavibn6y1cevzItSHWUz6x0j8MNTmxS9icEL5ImyTn7ib3DYyiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_004_56adf98071bf.png)
 
 4.2　先进封装技术
 
@@ -106,13 +106,13 @@ SiC-MOSFET 和硅基 IGBT 的换热器的热阻由底板的导电热阻、传热
 
 近年来，基板的叠层构型出现了新趋势，嵌入式基板将芯片和基板都埋入某种载体中，芯片和嵌入基板均使用双面银烧结进行连接，由此实现双面散热。嵌入式基板、双面空冷散热的剖面构造如图 6 所示。其中，顶部和底部嵌入基板与散热器的结合面均使用热界面材料，可改善导热并减缓机械应力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEqNib8lVQoVmibuOqnFvn16vjdQg0dLrS0rlxoZaC0ib0ySUZDtmicXcRyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_005_df6abdb0dc54.png)
 
 4.3　多芯片集成
 
 2018 年 ，三菱将肖特基势垒二极管（Schottky Barrier Diode，SBD）与SiC-MOSFET 集成到同一芯片，形成较低的碳化硅SBD 正向压降和较高的电流输出能力，可在一定电流范围内避免 SiC-MOSFET寄生双极体二极管导通和双极退化问题，其结构如图 7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaErtBpXnibk21F43FLTBnTKK3Pib95fYhibh7pOgd2MnVqmpMwlVovMxOEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_006_28f02a72045b.png)
 
 集成芯片较传统 SiC-MOSFET 芯片面积有 所增加 ，但相 比 SiC-MOSFET 外置 SBD 的方案节约了 SBD 芯片终端区和划片道区面积，可以布置更多芯片，从而具有更大的电流能力。三菱据此研制出 6.5 kV SiC-MOSFET 芯片和对应的全碳化硅模块样品 ，相较于传统的 6.5 kV 硅基 IGBT 模块 ，大幅降低了导通损耗 、关断损耗和开关损 耗 ，总损耗降低至原来的 1/10；与外置 SBD 的 SiC-MOSFET 相比 ，导通损耗和 开关损耗分别下降了18% 和 80%。
 
@@ -128,13 +128,13 @@ SiC-MOSFET 和硅基 IGBT 的换热器的热阻由底板的导电热阻、传热
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_007_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_008_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车用_SiC_MOSFET_的应用与技术发展综述_images\img_009_7038903c64cb.png)

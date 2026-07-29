@@ -5,17 +5,17 @@
 
 随着全球对可再生能源和清洁电力系统的需求不断增长，光储充一体化市场为实现能源的高效利用和优化配置提供了创新解决方案。在此趋势引领下，碳化硅器件凭借其高频、高效、耐高温、耐高压等特性，可以实现节能降耗，小体积，重量低，高功率密度等特性，在新能源汽车、光伏储能、轨道交通、智能电网等工业电源领域具有明显优势，正在加速替代传统硅基器件‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoiabkMZ1fvibdJp9VibACAIydSAH0GdgiccJfFdju5bhLXomWrgHmcaRLlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_000_70a5972b4752.png)
 
 SiC MOSFET管的封装多样化，常规分插件（TO-247、TO220F)和贴片(DFN、TO-263、TOLL）封装。贴片封装的器件在小空间内提供高度可靠的电源设计的能力正在成为许多领域的竞争优势，包括工业、高性能电源和服务器应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoN4ROveQD2D7zk7LRHjL2ZC4Rw15CRAKxFfcbCmu0MFFdNEIKPMCGjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_001_63429a6a58e0.png)
 
 TOLL封装MOS的应用及优势
 
 TOLL封装的英文全称为Transistor Outline Leadless，顾名思义便是无引线功率器件。该封装外形相较于常见的D²PAK（TO263）封装而言，其小体积更小，更贴合PCB板，同时具备低封装电阻、低寄生电感、低热阻、低电压过冲、高电流等特点。非常适合用于大功率、大电流、高可靠性等应用场景，它在电动汽车、储能、电源、逆变器、光伏等产品上广泛应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoibwKRCV0EeHMF1KicTDTeiaic4JQicf31Xb9z4FCM0dEIy0fAM1AcqGIqLA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_002_c9ab9fdb0c97.jpg)
 
 TOLL封装SiC MOSFET是一种常用的封装方式，它具有以下特点：
 
@@ -41,35 +41,35 @@ TOLL封装SiC MOSFET是一种常用的封装方式，它具有以下特点：
 
 TOLL封装的SiC MOS产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoBD24OUY3pYZkWzzu1Y8Jfg1cibSRBrh3j03hJEF8bInUdibicIC2an09w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_003_3931e02ff75c.png)
 
 产品图  
 
 650V产品线（内阻12mΩ-内阻35mΩ）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPruX7cmRoGbnDsg8PnZNKHSPj632BviaD7xCOJcUzTsGRbaHALG7UUIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_004_19ce5d40c07d.png)
 
 650V，内阻12mΩ的产品资料
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACooiaeEJTydlsUWuPXRhDD41o3aPXV3qsFiaRfRbsibticPguBHMV6SVjCeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_005_0bfe946aa78c.png)
 
 650V，内阻35mΩ的产品资料
 
 1200V产品线（内阻16mΩ-45mΩ-80mΩ160mΩ）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoFXIH5bOiawyKYDsjdPNBLGXynWZHvpq8jLUGkpPSETwMdwEGe5XtA5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_006_9153aa402841.png)
 
 1200V，内阻16mΩ的产品资料
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACohqPpCV8m5etkY0TxZdUq46McBSG9Q204xVN3GhQuCnH6FCslgzePcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_007_bff88b06da04.png)
 
 1200V，内阻45mΩ的产品资料
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaAConsrFRLNaZaseQiaFygzel1EGm3hz0YDP9AkbKgLTUR8Wy4SpvFgBKqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_008_680d07c3b851.png)
 
 1200V，内阻80mΩ的产品资料
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoQx4bncj5bQSnlmVjVbOZAicy1SPhfCxmicpH1RnFx7fjPW6zeQjE25cQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_009_78c328bfd7b2.png)
 
 1200V，内阻160mΩ的产品资料
 
@@ -87,7 +87,7 @@ TOLL封装的SiC MOS产品应用领域
 
 ⑥电机驱动器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskQ6datkmicRYDdNL05kiaACopAjm85kem74x3CAibTpRr8r2QpPfz6PlzDn7SaSIu6alXkTjDNtB2Lg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_010_40d44c7c7328.jpg)
 
 总结  
 
@@ -95,12 +95,12 @@ TOLL封装的SiC MOS产品应用领域
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_011_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_012_098b8a0c0930.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TOLL封装的SiC_MOSFET_images\img_013_3a3df320c8e4.png)

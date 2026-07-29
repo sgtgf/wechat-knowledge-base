@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电机控制_直线电机\安徽大学宋俊材_陆思良_等_基于杂散磁场信号螺旋曲线投影变换与ResNeXt_18的永磁直线电机偏心故障诊断_images\img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2600 字** 
 > 近年来，永磁同步直线电机在高精密直驱场景下受到了广泛的关注。本研究提出了一种基于杂散磁密信号立体螺旋曲线投影变换与ResNeXt-18深度学习框架相结合的方法，以实现偏心故障的非侵入式精确诊断。
 **研究背景**

@@ -34,7 +34,7 @@ A、
 
 电源电压的要求一般在±5%以内。电流需要根据使用的不同芯片，及芯片个数等进行计算。由于DDR的电流一般都比较大，所以PCB设计时，如果有一个完整的电源平面铺到管脚上，是最理想的状态，并且在电源入口加大电容储能，每个管脚上加一个100nF~10nF的小电容滤波。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasRz1ds0FZMic24ibSkc86IyMV5x52wPdibia7M7W4zicmqxicdjJzD3uNyg04lyy4OHArdK1CU9VSmXQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源DDR硬件设计技巧_images\img_002_ab73f22517e4.png)
 
   
 
@@ -48,9 +48,9 @@ B、
 
 参考电源Vref要求跟随VDDQ，并且Vref=VDDQ/2，所以可以使用电源芯片提供，也可以采用电阻分压的方式得到。由于Vref一般电流较小，在几个mA~几十mA的数量级，所以用电阻分压的方式，即节约成本，又能在布局上比较灵活，放置的离Vref管脚比较近，紧密的跟随VDDQ电压，所以建议使用此种方式。需要注意分压用的电阻在100Ω~10kΩ均可，需要使用1%精度的电阻。Vref参考电压的每个管脚上需要加10nF的电容滤波，并且每个分压电阻上也并联一个电容较好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasRz1ds0FZMic24ibSkc86IyB97voFGenSicXxmPibSb7osVicuhMyAtEPobk8g9eXooyvujJFUUVutEQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源DDR硬件设计技巧_images\img_003_135ea4813316.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasRz1ds0FZMic24ibSkc86Iy35YhI6vm1MkEOL6kCNtoLGnQyXoiaPeoBgCuXtCX8zZnfzyjqYvF9cQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源DDR硬件设计技巧_images\img_004_9321fa4e18b8.png)
 
   
 
@@ -74,11 +74,11 @@ DDR3可以采用Fly-by方式走线：
 
 一个DDR3设计案例，来分析对比采用高阻抗负载走线和采用主线和负载走线同阻抗两种情况的差异。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasRz1ds0FZMic24ibSkc86Iy78bfE4k0ag5pOee2DicbxQehicNvKVicyKhOqWrYSXSicfTQInQG982BsQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源DDR硬件设计技巧_images\img_005_753bea7dc976.png)
 
 如上图，Case1采用的是从内层控制器到各个SDRAM均为50ohm的阻抗设计。Case2则采用了主线40ohm,负载线60ohm的设计。对此通过仿真工具进行对比分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiasRz1ds0FZMic24ibSkc86IyJEl1Zh0YVBMcXg8hRsH7CmGt5DJkJDRlcXMrfVKw6Pc3PHsyr1gtKA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电源DDR硬件设计技巧_images\img_006_04bcb558d46b.png)
 
 从以上仿真波形可以看出，使用较高阻抗负载走线的Case2在信号质量上明显优于分支主线都采用同一种阻抗的Case1设计。
 

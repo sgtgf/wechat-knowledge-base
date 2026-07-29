@@ -1,0 +1,559 @@
+# 国内外31家BLDC直流无刷电机供应商汇总（附名单）!
+
+原创 电机新视界 2025-03-05 16:12 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/2AMwdZhcyxok7JCHBWx-lg](https://mp.weixin.qq.com/s/2AMwdZhcyxok7JCHBWx-lg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s52G6UU2VicLvdgSzP3oMJmlWFrQKy6eKucRu0CxZHCZfNWkDOD1dhibbjnqcgSWPlib8Odjq2vlz2A/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+
+来源：智能汽车俱乐部
+
+  
+
+汽车微电机系统由微电机、齿轮箱、微执行器、微传感器、微控制器等部件组成。其中微电机用于实现机电信号或能量的检测、解析运算、放大、执行或转换等功能。可以搭配各种齿轮箱以达到改变输出速度和转矩的目的。汽车微电机系统的电机一般分为有刷电机和无刷电机，今天来了解一下直流无刷电机的相关知识。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_gif/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHmAzffO7lGkicbwYTE1tXQgdWx5Q7DUuo1NlchMIEk9o4m5JL7JLZIVw/640?wx_fmt=gif&from=appmsg&wxfrom=13&wx_lazy=1&tp=wxpic)理想L9智能座椅
+
+  
+
+**一、什么是直流无刷电机**
+
+  
+
+直流无刷电机(Brushless DC Motor，简称BLDC)是一种不使用机械换向触头(碳刷)的直流电机，而是通过电子控制器实现换向取代传统带碳刷的直流电机，所以又被称为电子式可调速直流电动机或电子式换向直流电机。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibbicCoiaAXiaZAS9ricwgMdGsWLJtUVn96wQs2GhX9CTiaOT1xnYEARvrqsFaf2wkHKibk91OTPuXP17XSug/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图源搜狐智能建筑电气技术杂志
+
+**特点：**
+
+-   外特性好，能够在低速下输出大转矩，使得它可以提供大的起动转矩；
+    
+-   速度范围宽，任何速度下都可以全功率运行；
+    
+-   效率高、过载能力强，使得它在拖动系统中有出色的表现；
+    
+-   再生制动效果好，由于它的转子是永磁材料，制动时电机可以进入发电机状态；
+    
+-   体积小，功率密度高；
+    
+-   无机械换向器，采用全封闭式结构，可以防止尘土进入电机内部，可靠性高；
+    
+-   比异步电机的驱动控制简单。
+    
+
+  
+
+**工作原理：**
+
+  
+
+无刷直流电机的定子是线圈绕组电枢，转子是永磁体。如果只给电机通以固定的直流电流，则电机只能产生不变的磁场，电机不能转动起来，只有实时检测电机转子的位置，再根据转子的位置给电机的不同相通以对应的电流，使定子产生方向均匀变化的旋转磁场，电机才可以跟着磁场转动起来。
+
+  
+
+如下图所示为无刷直流电机的转动原理示意图，为了方便描述，电机定子的线圈中心抽头接电机电源 POWER，各相的端点接功率管，位置传感器导通时使功率管的 G极接 12V，功率管导通，对应的相线圈被通电。由于三个位置传感器随着转子的转动，会依次导通，使得对应的相线圈也依次通电，从而定子产生的磁场方向也不断地变化，电机转子也跟着转动起来，这就是无刷直流电机的基本转动原理——检测转子的位置，依次给各相通电，使定子产生的磁场的方向连续均匀地变化。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH4mDiavSpeiaBmJbSTuwnqcFuNBP1QmAgURYkPPvxmxYU32eSAWXQ2hSQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic "1655865654371594.jpg")
+
+图2：无刷直流电机转动原理示意图
+
+据市场分析，一般的家用轿车需要微电机 20-30 个，而每辆豪华轿车则需要59个之多，除了核心发动机外，无刷直流电机凭借低噪声、长寿命、方便集中控制等优点被用在汽车雨刷器、电动车门、智能座椅、汽车空调、电动车窗等部位。随着其调速技术的日益成熟，性价比会越来越高，它在汽车电机驱动的各个环节中的应用会更加广泛。下面小编整理了行业里做汽车直流无刷电机的厂商们，一起来看看吧！  
+  
+
+**国内**
+
+### **1、浙江方正电机股份有限公司**
+
+_https://www.fdm.com.cn/_
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHlrGJ9fyngricUiaFLIgTQuQFFJFrtR7YmwH4MUN1SYSkM9z9IiaKSqm8Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+###   
+
+### 浙江方正电机股份有限公司成立于1995年，2007年12月12日在深圳证券交易所正式挂牌上市。公司系新能源汽车驱动电机、微电机及控制器、汽车控制系统领域领军企业，业务涉及新能源汽车、缝制机械、汽车座椅电机、汽车电子和白色家电等多个领域。公司总部在浙江丽水，同时在上海、深圳、湖州、越南等地拥有数个研发、制造基地。方正电机成立以来，秉承“技术为先“的理念深耕细作，以“驱动世界不断向前”为使命，致力于成为电驱动领域卓越并且受人尊重的世界级企业，以创新的系统性方案和可靠的质量，为我们的业务伙伴、员工和股东创造共同的价值。  
+
+  
+
+### **2. 上海鸣志电器** 
+
+https://www.moons.com.cn/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHibnoIE2dYRBM0JHH3swtd59RhEeEnnEOXTnGUAhnuwl8icgObmYej7lw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+鸣志是一家运动控制领域综合制造商。公司成立于1994年，20多年来，始终秉持对专业应用技术和国际化科学管理手段的追求。从工厂自动化专业部件到智能LED照明驱动器，从大型工厂设备的智能管理系统到汽车通信设备的控制执行机构，致力为客户提供各种解决方案，不断追求创新和高品质。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHOgrzaUYqcFP56J8hzgdM73sc5IVNNXicwAzPKOEAwuibZLEOYEubg5FQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### **3. 江苏雷利电机**
+
+https://www.czleili.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHGMqnV886Wzic9gnIWfsbSgbcvMvicj3S7I5pmUJicJYS6ea05JV1xaKQA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+是一家具有广泛影响力的电机产品研发设计、生产制造型上市企业，年电机出货量超2亿台。已经形成以微型步进电机、同步电机、直流有刷电机、直流无刷电机、微型水泵等多种电机产品为主导，配套相关精密结构、驱动控制设计和制造方案解决的综合业务能力。目前雷利的产品在家用电器行业已经具有较高的影响力，并持续推进在汽车零部件、工业、运动健康等多领域的协调发展。
+
+### 
+
+### **4.德昌电机**
+
+https://www.johnsonelectric.com
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHuOJWgebUsaicKc5hZFypN2dEckXycPibTTkF6C0EvnJUVUia7H5qfRMvg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+德昌电机控股有限公司(港交所：0179,OTCBB：JELCY) 是一家成立于1959年的工业公司。德昌电机是香港第一家制造电机的公司，巅峰时期是全球最大微型马达生产商，该公司在1984年7月11日于香港交易所上市。它的主要业务是设计、制造及经销微型马达产品。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHQIAIjHPRhClOWpSenvBSTIwsibmW8ulRW2ib2Drbt8SWayAJDISMXdiaw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### **5. 捷和电机**
+
+https://www.cclmotors.com
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHiaZU9Rq0TyAzKrY2au5uprWEIndXial0lyF7AHiaemSuNA3hrpa4CmzAA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+捷和电机集团可以在全球范围内，提供独一无二的工程解决方案，可以满足特定应用的需求。公司旨在为客户提供量身定制的最佳电机解决方案，并提供具有竞争力的价格，获得客户的全面满意。
+
+  
+
+捷和电机的产品已经成为各种设备解决方案的选择，包括多种永磁直流电机、无刷直流电机、齿轮电机、驱动器、罩极电机、通用电机、感应电机、编码电机、线性启动器、驱动桥以及高质量标准的控制元件。 
+
+###   
+
+### **6. 宁波恒帅股份有限公司**
+
+http://www.motorpump.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHSIMTTld6jcfuqSrTw29O4zFuib7ib4NEQwgEo1k2RvMVJxbJ976pWMXg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+恒帅股份创建多年以来，始终驻足于汽车微电机及相关产品。伴随近数十年全球汽车工业高速发展，恒帅股份前瞻性地关注法规、环境、功能新需求，创新设计贯穿到产品每一阶段。  
+
+  
+
+恒帅股份自制模具、工程塑料成型、金属成型，电机、传动、泵及系统等的全自动装配线、单机自动化和软件开发，制定了严谨的流程，使得产品线延伸得到有效管控；同时专门设计应对局部和小批量组装的便捷可变换的生产线。
+
+  
+
+恒帅股份成为宝马、奔驰、通用、本田和现代等全球汽车制造商的长期合作伙伴。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHHR8IOBLvBYbiadhcfrtQeksRwx2y3uWjej1f4Ezr4szSuYrG58o84FQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### 
+
+### **7. 东莞市维斗科技股份有限公司**
+
+https://www.videtech.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH6LcQibVciblaaW4zh4FCSw5dVStQVqA37JOic6mVjtU77HqvH1CICvftQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+东莞市维斗科技股份有限公司创建于2009年7月，注册资本6279万元，旗下拥有控股子公司广东维斗东方科技有限公司（专业生产汽车座椅马达、雨刮器马达、玻璃升降马达等)， 和全资子公司东莞市源开鑫精密科技有限公司〔专业生产金属齿轮、减速箱、蜗轮、蜗杆&精密五金件)，维斗集团是一家集“研发、设计、生产、销售高精密光电器件（电磁阀、切换器、自动光圈)、微型电机”的国家高新技术企业。其产品广泛应用于汽车、视觉显示、智能家居、医疗器械、工业自动化等。
+
+### 
+
+### **8. 山东山博电机集团**
+
+http://shanbomotor.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHYXVR5LRSGiacDvltss6zzBNDG6ibwctZDuWlia25AD0Y81ibzuias2kPibEw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+博山电机厂是1942年建厂的军工企业，具有研制、开发、生产各类中小型电机、电器和机电一体化产品的硅厚实力，为中国的国防事业和机械工业做出了重要贡献，多次受到中共中央、国务院、国防科工委和原机械部的表彰山东山博电机集团有限公司作为山东山博电机集团的核心企业，旗下有八个控股子公司，设有技术中心和5个专业电机研究所。
+
+  
+
+山东山博集团各企业生产的微电机、车辆电机、齿轮减速机、交流电机等产品,广泛应用于军工、航天、航空、交通、能源、矿山、冶金、机械、轻工、纺织、医疗器械等各个领域。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHMssbrcV93C0ArrJGiaxTOHUib8wHeCXzCFZMz5qJSwN2hQDnyNB0d6fQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+###   
+
+### **9.常州三协电机股份有限公司**
+
+http://3xmotion.cn/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHJiblXNRf27X5WVTVTocuaTOsqS1icXn3wic7KFOcYibbKwz1VseNocxS2Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+三协电机是一家设计制造电机产品的专业性公司，我们能够根据客户的要求供应以及定制包括有刷直流电机、无刷直流电机、直流齿轮箱电机、混合式步进电机、交流伺服电机以及驱动器、控制器在内的各种高品质产品。
+
+  
+
+产品将应用在汽车制造、新能源自行车、太阳能、医疗、自动门、工业自动化等领域。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH7wtBsiaOhG7xbXwKZaibic9ZgKnYFPHQVdcgCnIZiauibMkTeIKMG3no27w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### 
+
+### **10\. 深圳恒驱电机有限公司**
+
+https://www.hengdrive.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHo6nogKwR65d4sfKlWfAib9BubN64iaoLcMVksuTsxC51CYEoZ3WBL7Tg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+恒驱电机是富士康科技集团控股子公司；专业生产无刷直流电机和永磁同步电机。
+
+◆注册资金4900万元，深圳工厂面积10000平方米，新工厂筹建中。
+
+◆独特的新型专利芯片，内置驱动控制电路与直流无刷马达集成一体。
+
+◆按标准通用原则设计制造直流无刷电机，目前拥有36个系列内外转子无刷电机，直径07mm~300mm，功率由0.1W到10KW，转速60~150000转，参与制订中国直流无刷电机标准。
+
+◆广泛应用于新能源汽车关键部件系统、机器人和自动化、医疗康复设备、智能家居、消费电子、电动工具、农业植保等诸多行业。
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHUe39Lc0T0ChKtNE9Pn6MX1GN7LgzyDLG3NWvDf1zlQBcNLLfSj1icfA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHdw6qibchicorBna7YkuHz9qDOqx3uiaYOIrdmsm9GGITLUd3f1DeyVr1A/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### 
+
+### **11.宁波精成车业有限公司**
+
+http://www.nbjingcheng.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH2CSZ5u5H2vXogNt71icmvden81b8DWN6DRNJpHwO3ydeAAQB5Ria2LzA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+宁波精成车业有限公司，创立于1998年，是一家专业从事各类车辆后视镜镜面驱动器、折叠器、微型直流电机研发、制造和销售的民营股份制企业。占地面积23000平方米，员工600余名。拥有精密完善的生产设备和技术力量雄厚的研发队伍。镜面驱动器年产能3000余万只，微型直流电机7000余万只。
+
+  
+
+2008年，成立了宁波精华电子科技有限公司，专业研发、制造和销售汽车前照明调光电机。同年，成立了宁波精成电机有限公司，专业研发、制造和销售各类汽车摇窗电机。
+
+### 
+
+### **12\. 深圳市仓兴达科技有限公司**
+
+http://www.constarmotor.com.cn
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHTEBrjka1tqZwWliaddd3pDFicics1tYnFfjyk05aiaowxIhx6GTIAolqMg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+深圳市仓兴达科技有限公司创建于2000年，是提供一体化的微电机产品与解决方案的民营高新技术企业。公司总部位于深圳市福田区车公庙天安科技创业园大厦，拥有深圳光明微电机厂、重庆涪陵微电机厂两大生产基地，总面积约7万平方米，主要提供直流无刷电机、精密空心杯有刷电机、声波电机、微型伺服电机、直流减速电机的生产及定制服务。
+
+  
+
+激光雷达在智能汽车应用中主要作用是测距，大多数激光雷达传感器会连接到一个旋转它们的驱动马达，激光雷达的视场完全取决于电机转动它的角度。仓兴达高精密无刷电机可满足激光雷达对电机高精度、长寿命的要求。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icrlIsZGPBvwcJxu3VgQmwtFo3m6EZPj1bZmxCv5KVtiaicssiarAosKiarmTmgiaicibjEGR3s9KoJl8kQCsDfdayo5gA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### 
+
+### **13\. 常州精控电机电器有限公司**
+
+http://cn.jkongmotor.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHSza9kIKofOEUkefVWnpibYaRz72X21xnHOOgyN8VeJsnGuqV3949IVA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+常州精控电机电器有限公司是一家ISO9001的专业生产企业。成立于2011年。是中国常州的一家专业生产厂家。生产能力每年超过100万台。本公司主要提供三大类产品：混合步进电机、无刷直流电机和直流电刷电机。  
+
+  
+
+专门生产交流伺服电机、PM步进电机、主轴电机和电机驱动。电机已出口到美国、德国、俄罗斯、土耳其、巴西等30多个国家。
+
+  
+
+精控电机向主要的制造业公司出售了自动化、医疗和护理设备、3d打印机、包装设备、信息技术、家用电器产品。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHqoP7vF3Nm925bfsxRCCKXHhEbpU56SHiaJG1ZbGmv9fYib3Uc0gfjyqQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### **14\. 深圳市金茂展微电机有限公司**
+
+https://kinmore.com.cn/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHeDoEI23WJISVPiaIfanbyTay0wichdBcFYWPAgcI9M0SGibQMSia1bLwFw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+深圳市金茂电机有限公司 是一家致力于直流电机，无刷电机，减速电机的研发和生产的制造型企业。我们整合先进的电机和齿轮箱技术，提供电机相关的定制化驱动解决方案。
+
+  
+
+金茂展电机多年以来大力深耕于汽车零配件的研发与生产，目前在汽车零配件领域的应用主要有ETC电子节气门，EPB电子驻车系统 , 中央控制门锁，汽车空调挡板，电动后视镜，车载屏幕支架等等。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icrlIsZGPBvwcJxu3VgQmwtFo3m6EZPj1AHc05Ro7ohfmgq9bjibZx3zZetyMJKhstRoPCjaaMeIzTUH9OxWH61g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### **15\. 深圳市华创升电机有限公司**
+
+https://www.hcsmotors.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHaic99icLxJDHVtiaSIiaibiazOwV5NF1clZTCLxFnAnClalHZosXt1icqia3yA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+广东力华机电有限公司的前身是深圳市华创升电机有限公司，成立于2003年5月，为了拓展业务于2017年10搬迁东莞市虎门镇。
+
+  
+
+力华公司是一家专业开发、生产、销售直流电机的企业，目前生产的产品广泛用于汽车、机器人、小家电、医疗器械、电子礼品、电动剃须刀、电动推剪、电吹风、电动修眉剪、电动牙刷、按摩器、电子门锁、电动玩具等以及电脑周边办公自动化设备，并可根据客户要求设计特殊性能的产品。
+
+  
+
+力华电机多年以来大力深耕于汽车零配件的研发与生产，目前在汽车零配件领域的应用主要有ETC电子节气门，EPB电子驻车系统 , 中央控制门锁，汽车空调挡板，电动后视镜，车载屏幕支架等等。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHhNJmmTAKFquiazRvjibA4p7uds5b8zvZpvuDQCXtYfnZ8q0WSRyTibv5w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+### **16\. 深圳市唯真电机发展有限公司**
+
+https://www.wzmotor.com.cn/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH3Vc3Nfhna9V3Ny7FOdhs9ibkiadnLyy3UaCQZPHwvYPs0r3yoyueuWQg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+深圳市唯真电机发展有限公司，国家高新技术企业，超过二十年的专业开发和生产微特电机经验，具有很强的技术开发能力和制造能力，在深圳、合肥拥有2个生产基地，已获得40多项国家级专利。产品广泛应用于无人机、服务型机器人、汽车系统、视听音响、办公设备、通讯设备、数码相机、家用电器、办公家具、电动工具、医疗器械、智能家居（智能门锁/智能窗帘）、安防监控、智能电机继电器、个人护理、银行设备、航模、卫浴电器、平衡车、电动车、自动化控制设备(Auto-control equipment)、仪器仪表(instrument)等众多行业。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHmXrP5kXEHtbHB9ia9ia2ssKkOWCntaGjVPiaWicSdn1b93zLpArv4Xu6AA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+**1****7.深圳市力辉电机有限公司**
+
+http://www.power-motor.cn/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHufiabiaicI67Gb0CG10lmsjo1pYEK7xe04JtnZ8icKHApK9KX2Zjic2gicdQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+(力辉电机) 成立于2001年，是一家可靠的微型驱动系统制造商。成熟的驱动技术、丰富的电机应用经验和完善的定制平台，使力辉电机成为各领域应用开发项目的理想合作伙伴。力辉电机致力于通过提供卓越的差异化产品，帮助我们的客户在市场竞争中获得成功。对于需要保证电机性能和大批量稳定供货的企业来说，力辉电机是可靠的选择。我们为许多行业提供电机定制服务，包括智能家居及家电、汽车、医疗保健、智慧农业、工业自动化、电动工具等领域。
+
+  
+
+力辉电机可定制多种电机方案，包括通用交流，有刷直流，无刷直流和齿轮减速电机方案。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHaaMmKGSLCHQY3uomdW0VZaCKOqkh5Cu4mFIibDOh3E43akXBTvd56NA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+24V电动公交电池冷却水泵无刷直流电机
+
+## 
+
+## **国外**
+
+**1、博泽**
+
+https://www.brose.com/
+
+**![图片](https://mmbiz.qpic.cn/mmbiz_svg/BA8GZZ2EGwUMRmEDbiahSLe0wXPgRCjOliaZRbMZwGiblCicibxZWCwMvWT6nK9ia4Sb7STgZmbj7MsCWXfcPpuNK2aEoHFUEsIMe2/640?wx_fmt=svg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)**
+
+  
+
+博泽集团 1908 年成立于德国柏林，是全球发展较快的汽车零部件供应商之一。博泽集团的客户分布广泛，包括 80 多家汽车制造商和其他汽车供应商。全世界有超过 26,000 名员工，在中国拥有约 3600 名员工，在中国六大汽车产业重镇（上海、北京、长春、重庆、武汉和广州）拥有 11 处驻地。博泽集团在玻璃升降器、车门系统、门锁模块、电子制动系统（EBS）电机、变速器执行电机、空调鼓风机和冷却风扇总成方面有较强竞争优势。
+
+  
+
+**集成电子元件的无刷直流电机**
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHHcz71m678GYbVibdKnAK0iaibLCUibpNFnwORQjYzC1n2lIwQkLE1zyiaNg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+-   用于新一代座椅调节器的高效电机  
+    
+-   调节速度可变，控制范围极广
+    
+-   出色的声学表现，使用寿命大幅延长
+    
+-   通过更高的功率密度优化空间布局
+    
+-   通过总线控制直接集成到电子架构中
+    
+
+  
+
+### **2\.   杰必机电**
+
+https://www.cebi.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH9GKhgmzwfuR83gMnatl6LLeC0HiaPurg6NnARxwicIIOCTnkcYXFo9rQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+Cebi 已成为执行器和洗车系统（包括泵）的全球领导者，以及温度传感器和门锁的欧洲领导者。我们的产品范围涵盖温度控制组件和微电机，例如温度传感器、风扇电机、各种应用的执行器和齿轮电机。
+
+### 
+
+### **3\. 电装**
+
+https://www.denso.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH8SzI514Y58djFve8yEUyKmBibSlndUBVqHH2IoFgdJTX1XnfBVebBXg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+电装公司，是世界第二大的汽车零部件供应商，总公司位于以爱知县为中心的中京工业地带。电装起先是丰田汽车内部的电气零件部门，在1949年分割为子公司“日本电装株式会社”，截至2023年，公司已成长为在30多个国家设有据点的跨国集团，全球拥有约17万名员工，销售额约为6兆日元。
+
+### 
+
+### **4.   美蓓亚三美**
+
+https://www.minebeamitsumi.com.cn
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHr9ibYt42RhVIYq6jfyqHEEFl6WGt541UDZsTjZGyHfJoKpXUNMR1KXA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+美蓓亚三美株式会社成立于1951年7月16日，总部位于东京都港区东新桥，经营项目有轴承等精密技术业务、电子设备、小型电机等电子产品业务汽车产品、产业机械产品、住宅产品等。
+
+  
+
+美蓓亚三美的直流无刷电机、具有小型、高转矩、低噪音等特性，适用于汽车、家用电器、办公机械、住宅建筑等多种用途，满足客户轻量化、节能的需求。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHJBvxEyACVqKz4laVmyHrAZVS3SLOYib8Ak3Y3OPjwExYkxyJhIuIolg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### **5. MITSUBA三叶**
+
+https://www.mitsuba.co.jp/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHMgicBlRqGU9qxB2LXnicAQLMLL4aIzUGiab8k5xuIPRbklKw5oyL15FqQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+三叶株式会社成立于1946 年 3 月 8 日，主营产品是雨刮系统、起动机、电动助力转向电机、摇窗电机、座椅电机等，截至 2020 年 3 月，员工总数超 28,000 人，主要客户包括宝马、本田、马自达、三菱汽车、日产、雷诺、铃木、丰田、大众集团等知名企业。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHqRwn9To0ZjYCQdW3ENN7TsyvbkyibUOlngwnJ4fYEHwjUyBGxcicmpPA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### 
+
+### **6. 五十岚电机制造株式会社**
+
+http://www.cn-igarashi.com/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHm0f5Vb72CmF5lHPCV81OzRrh87DpefwCOsSzYWz5Wibicr1vgqUIuOKw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+五十岚电机制造株式会社成立于1952 年 1 月 19 日，致力于小型直流电机的开发、制造、销售，国内的地址是深圳市龙岗区园山街道保安社区横坪公路77号仁信大福工业区。  
+
+**![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHSbgz5icFo6wic4jbz4531tALQrUZvlbSjEph6D8Yq6wRskPvppPzwLEg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)**
+
+### 
+
+### **7\. 意法半导体**
+
+https://www.st.com.cn/
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH6tjV7QhNGmenrqQpPMfUZYpibDkWWPI2JlN3Cllr7D55xiaUHGG2YDEA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+意法半导体成立于1987年，是由意大利的SGS微电子公司和法国Thomson半导体公司合并而成。是一家国际性的半导体集成组件制造厂，总部位于瑞士日内瓦。
+
+  
+
+无论是什么应用——从低压流体泵、底盘和安全设备的三相系统，到 ePowertrain的高压牵引逆变器——无刷直流 (BLDC) 电机最适合 需要长期连续工作的应用。这需要复杂的控制算法，以及比有刷直流电机驱动更高的计算能力。 新能源汽车 (NEV) 需要遵守更严格的二氧化碳排放标准和安全功能要求，从而催生了起动发电机 (BSG) 和 电子涡轮增压器电机等 轻度混合动力系统的电气化，以及用于纯电动汽车 (BEV) 的超高效三相逆变器。 
+
+# 
+
+# **车规无刷直流电机：**
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHzr6kxLB6g6GG9iaWvjhOsnfPtIJ8ib2UU5yA3w6KibB66r9ibTHVuXg0eA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+### 
+
+### **8\. 科阳 KEYANG**
+
+https://www.keyang.co.kr/front/main.do
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHkYbEXl2mJq00XlQicdwFIbgRAmucr4jcZv1kT5wX2X5f4ibDpqoibKN9A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+KEYANG ELECTRIC MACHINERY 总部位于韩国，主要从事工业工具和汽车零部件的制造和销售。该公司产品包括无线工具，研磨机，锤子，钻头，切割工具，规划工具，抛光工具，拧紧工具，压缩机，焊接机等工业工具，以及直流（DC）座椅电机、车窗电机、用于动力传动系统的电机等电气设备。该公司的客户为现代汽车及其他整车厂商及其他零部件供应商，其产品销售于国内及海外市场。
+
+###   
+
+### **9\. 艾斯湃纳**
+
+https://www.aspina-group.cn
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHP36mQVU0aMyDmdYcqicxwEQgI3zcpqKmicZFBSP79sIVznia8DibrJeIGA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+东莞信浓马达有限公司成立于1994年3月2日，是由日本信浓绢丝股份公司通过其全资子公司信浓香港有限公司投资设立的日资企业。目前投资总额为111468万港元，注册资本为42590万港元，占地面积约6.5万平方米，厂房建筑面积约5.5万平方米，宿舍建筑面积约3万平方米，员工约1800多人。
+
+  
+
+公司的主营业务是研发、生产、销售电机、风机、泵及相关产品。公司有专业开发设计团队从事运动控制技术、光机电一体化、马达、自动化装置等相关技术的研究开发。公司产品广泛应用在办公设备、医疗设备、家电、住宅设施和汽车等多个领域，主要有步进电机、直流电机、交流电机、多面镜电机、汽车用电机、风机、泵等七大类，100多个品种，数千个型号。产品通过UL等国际认证，除了在国内销售外，产品大部分销往日本、美国、欧洲、东南亚等国家和地区。
+
+  
+
+**10.尼得科**
+
+**![图片](https://mmbiz.qpic.cn/mmbiz_png/zhkKn4GLhJ0O05iaYXPiaFDa5eX0sImdCyc8LXMBguYLZwj9Qjm8BSJeFUgvzkDYMxbeEibgchFUo6khEwMEZflFA/640?wx_fmt=png&from=appmsg&wxfrom=5&tp=wxpic&wx_lazy=1&wx_co=1)**
+
+尼得科集团旗下子公司的业务广泛覆盖了从消费电子产品到工业设备、汽车零部件、新能源储能等多个领域，并且在多个领域展现出显著的技术优势，具体表现在以下几个方面：
+
+  
+
+1\. 无刷直流马达技术
+
+  
+
+   - 节能：尼得科生产的无刷直流马达以其卓越的能源效率著称，能在运行过程中减少能耗。
+
+  
+
+   - 寿命长：通过采用无刷设计，减少了电刷磨损导致的故障和维护需求，从而延长了马达使用寿命。
+
+  
+
+   - 噪音与振动控制：尼得科在降低马达运行噪音及振动方面进行了基础技术研发，提供低噪音、低振动的产品。
+
+  
+
+   - 小型轻量化：其产品具有小型化和轻量化的特性，适用于各种空间有限或需要精密运动控制的应用场合。
+
+  
+
+  
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+
+扫码报名了解变压器会议
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)

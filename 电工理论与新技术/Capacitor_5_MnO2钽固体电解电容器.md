@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hbmGp-mIF-f\_bpnsYjGpWg](https://mp.weixin.qq.com/s/hbmGp-mIF-f_bpnsYjGpWg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPLUE93chZrJyxLOsUeLC853eGKrq51w9GahlgE3r3bUxOS4IXgDGdEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_5_MnO2钽固体电解电容器_images\img_000_cd89d9006a3c.png)
 
 __**_★★★_**_Cap-5---钽固体电解电容_**_★★★_**__
 
@@ -13,11 +13,11 @@ _____€1.各类电容的适用分布_____
 
 一般来说，电容器用于以下目的，由于每种电容器类型的特性不同，适用的应用存在不同：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfWBvrQPFb5icNdAH7rrgC9w2BpkG8edFlFBh1DQtzC5g82HLRtsUFRvf0S4Rs4b45gGSW4xLHM6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_5_MnO2钽固体电解电容器_images\img_001_8b4afb277ad8.png)
 
 **_图5-1：各类电容分布域_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPhNrStPjOMpia9E4tjpd2F7HxKMw49fAWTpIG3rg2DNYQoJwTCyRTJBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_5_MnO2钽固体电解电容器_images\img_002_7637175b4f1d.png)
 
 **_表5-1：电容器各类型简易对比_**
 
@@ -25,7 +25,7 @@ _____€2.钽电容的特性_____
 
 钽电容器电容范围可达数千µF，对于MnO2固体钽技术，传统的固体电解质为二氧化锰，但导电聚合物类型由于其较低的ESR和降低的点火特性而越来越有利。另一方面，二氧化锰型在高温机械应力下具有稳定的电气参数，因此高可靠性和较长的运行寿命的应用仍主要使用可靠性二氧化锰型作为主要的钽固体电容器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGfOjQM1GeUOnftlkTqXAExEy9grCArz7Gz85spmkbolj49L78aGyUicp5pMuTG9dcBoEM8hxIianw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_5_MnO2钽固体电解电容器_images\img_003_ebf227abfa1e.png)
 
 **_图5-2：钽结构，用正极材料（锰或聚合物）划分钽电容器的类型_**
 
@@ -45,6 +45,6 @@ _________€3.钽电容的使用_________
 
 纹波与ESR值成比例增加，与CL值成反比增加。在铝电解电容器的情况下，ESR值非常大，因此陶瓷电容器通常是并联（ESR越并越小）的，以稳定和优化输出电流。**_表5-2_**推荐了升压和降压的Cout容值：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPL6YhU3sePTo1d0iaZibfyNXqBArdEEbcUebKg15F0bOvwchcFDqrYztQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_5_MnO2钽固体电解电容器_images\img_004_0ba0bd1ab143.png)
 
 **_表5-2：推荐使用钽电容容值_**

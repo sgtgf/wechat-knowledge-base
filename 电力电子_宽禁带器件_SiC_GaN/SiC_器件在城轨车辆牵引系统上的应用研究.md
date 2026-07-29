@@ -25,23 +25,23 @@
 
 应用全SiC器件后，变流器功率模块的集成度可得到大幅度的提升。图1为3 300 V/750 A全SiC器件，内部电路形式为双开关管半桥电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxAT0YtlVQVuRs0LmKqJicWZcI2zA7ks5LUORT29UkgO386ee96T6aK7w/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_000_d0bcdad8743f.png)
 
 图2为城轨车辆SiC器件变流器功率模块的基本方案，采用6只3 300 V/750 A全SiC器件实现6相桥的功率组件设计，可兼顾考虑变流器的架控模式输出和车控模式输出，其外形尺寸为620 mm×300 mm×205 mm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxib2iaBrfpBM3Q72vGFL9tKGhHeibGqIt2k1iaG6hDQN8tRiaukUd3JjLe9w/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_001_3420cb4d0373.png)
 
 3300 V/1500 A 硅IGBT器件的外形尺寸为140 mm×190 mm×48 mm，内部电路形式为单开关管电路。图3为IGBT器件城轨变流器功率模块的基本方案，采用6只3 300 V/1 500 A的IGBT器件可实现3相桥的功率组件设计，但只能实现牵引变流器的车控模式输出，其外形尺寸为620 mm×340 mm×260 mm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxYuSib7ibBhhSmia6cjQPI9IqIMD3PZZyxddXXmOapgQ3LcG8fSHaCxE9w/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_002_5c556e61581f.png)
 
 表1为SiC变流器模块和硅基IGBT变流器模块的主要参数。从表1可知，SiC变流器模块与硅基IGBT变流器模块相比，集成度得到了大幅的提升，体积可减小30%以上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxE4EFV2c2Opy8Lq9AxgOLEw9ZBy47a53jvZBoLQrZfnERp17bOSnoYg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_003_61fbf3f006e6.png)
 
 应用全SiC器件后，在同等电流输出能力的前提下，SiC变流器功率模块的开关频率可得到大幅度的提升。表2为SiC变流器模块和硅基IGBT变流器模块的损耗对比。以某线路190 kW电机车控平台额定电流工况和最大电流工况为例进行对比研究表明，在变流器模块总体损耗基本相当的前提下，SiC变流器模块的开关频率可提升至2 kHz，而IGBT变流器模块的开关频率为500 Hz。同样，也可采用适当增加开关频率并提高变流器模块输出电流的策略，或者适当增加开关频率并简化散热设计，冷却方式由强迫风冷简化为自然冷却的策略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxuz2yEybcgvxEz4RHoaOzPxEYnY3sUDAltx4RX1sL7pjwLj84e3UZZw/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_004_ac58f5218a1e.png)
 
 另外，针对SiC器件的高频应用，变流器的直流环节滤波电容也可进行有针对性的优化设计，重点降低电容的等效串联电感(ESL)和高频段等效串联电阻(ESR)，扩展电容工作频率带宽和允许温升，散热方式由油式变更为干式无壳，电容的重量也可得到较大幅度的降低。
 
@@ -51,7 +51,7 @@
 
 同时，开关频率的提高，变流器的输出频率也可适当提高，牵引电机的极数可由4极变更为6极，可通过减少定子线圈匝数及优化布局，并充分利用SiC模块的电流输出能力，适当降低牵引电机的气隙磁场强度以达到减薄电机定子铁心、减小电机的径向尺寸、减小电机的体积及重量的目的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx9QibuibgkmO6m9ibTFdiahqpZdtrFPFhVATojKQo0xEoYXb8aTMB2S4ibUw/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_005_e10b77087fc6.png)
 
 表3为某线路B型车190 kW电机应用SiC变流器后的参数对比（牵引电机由4极变更为6极）。对比结果表明，牵引电机的质量可减小85 kg，体积也得到了较大幅度的降低。
 
@@ -61,7 +61,7 @@
 
 对于传统的城轨车辆牵引逆变器来说，一般采用低速度段异步调制，中速度段分段同步调制，高速度段单脉冲或者三分频的调制方式，而对于SiC牵引变流器，鉴于SiC器件的高频特性，可采用全速度范围内异步调制或者多模式PWM调制控制算法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxa18QfFqEpoCNYofgibpPbTBQc4gzpTKUqoM6hDpMjfRW0khGZjobbQA/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_006_147ceec19a6d.png)
 
 图4为SiC器件工作在2 kHz开关频率时进行全速度范围扫描的仿真波形，从波形可看出，控制系统工作稳定可靠，验证了相关调制算法的可行性。
 
@@ -77,13 +77,13 @@
 
 设计SiC器件的高开关速度使得开关过程中的di/dt和dv/dt均大幅提高，在不增加dv/dt输出滤波器的情况下，3 300 V全SiC变流器模块逆变器侧的输出dv/dt在10 kV/μs以上\[7\]，如果不加以控制，会产生严重的电磁干扰（EMI）问题。以高频共模电流对牵引系统的影响为例，图5给出了SiC牵引系统对EMI影响的对比仿真。结果表明，SiC牵引系统与IGBT牵引系统相比，因高dv/dt的影响导致的共模电压和干扰电流显著增大，牵引电机的轴承电压和轴承电流明显增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx3rT63DQzx5icZoy9TFTRWaJg7w1jRwmTPs8ibAgbNr9aI3Jq3qbiaqicVg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_007_4e380535a4e5.png)
 
 **2.3 高dv/dt应对**
 
 高dv/dt对牵引电机绕组的绝缘带来了严重的不利影响，可能会加速漆包线、绝缘环等绝缘件的老化，因此对电机的绝缘设计带来了新的挑战。对dv/dt的控制除了适当增加SiC器件门极驱动电阻外，通常采用在逆变器的输出端增加L-C-R滤波器的方法，仿真表明，采用增加L-C-R滤波器可明显抑制电机侧的过电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxyyYHZ8aSEPCgibRhrFCINTAKqLP126OXq3zpWPWOB1fAwmL12g7ZUGQ/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_008_89d9a017f2dd.png)
 
 **2.4 高温应用**
 
@@ -97,7 +97,7 @@
 
 城轨车辆SiC牵引变流器的主电路如图7所示，P端和N端为DC 1500 V电源输入端口，KM1，KM2和R1组成充电短接单元，L1为直流滤波电抗器，C为直流滤波电容，Rch为过压斩波电阻，BC1和BC2为电流传感器，BV1和BV2为电压传感器，INV为含过压斩波功能的SiC变流器模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxR3AFYscOOm7Uc8dDpFicJgMIFAj8ick5zmlst28IOGmtW3StYzkAdcQw/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_009_5c0eb1fb5b0d.png)
 
 在牵引工况时，DC 1 500 V直流电经充电短接单元和LC滤波回路给SiC变流器模块INV供电，经过DC/AC逆变 ，输出2路VVVF三相交流电，每路可驱动2台并联的230 kW牵引电机实现架控模式，同时SiC变流器模块也可根据需要将2路输出并联后，驱动4台并联的牵引电机并实现车控模式。在制动工况时，牵引电机制动产生的电能经SiC变流器模块整流后反馈回直流电网，直流电网不能充分吸收时，则通过制动斩波电阻Rch消耗多余的能量。控制单元通过检测BV1和BV2的电压实现系统的过欠压保护，同时通过检测BC1和BC2的电流实现系统的过流保护和接地保护。
 
@@ -105,9 +105,9 @@
 
 参数牵引系统主要技术参数如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxCVRD8qeYPSVc09HsBibPkxaeET2hB0XfntyHeicobFblM9ZXnash9aaA/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_010_ab41b80218ab.png)
 
-           ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxAegIxp5t64cLCJRX4PqQDrhH5dxdPCMsViaCkXk7Z207mMWESQl0y9Q/640?wx_fmt=png&from=appmsg)
+           ![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_011_6ef7ad338e2d.png)
 
 **4 试验验证**
 
@@ -117,22 +117,22 @@
 
 图8为城轨车辆SiC变流器温升测试示意图，图9为城轨车辆SiC变流器温升测试结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx0G7aObvhPph5pZRqoqKtD6SHSiahK62ftW1ar8UbQHdd9JGx7GQxVPg/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_012_98b531d125cc.png)
 
 在换流工况下进行换流试验，城轨车辆SiC变流器在最大输出电流为840 A，变流器持续工作20 s，未发生故障保护及器件损坏。图10为城轨车辆SiC牵引变流器换流试验结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxDoRvVlmWhHsGfrVl1zBQRQ6CqGkoIdvVibLjQtSSjgdzjia2HJu8dQHQ/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_013_48f0e6e8f12c.png)
 
 在变流器带载输出的情况下，对城轨车辆SiC变流器进行负载短路试验，使用接触器进行负载短接。试验结果表明，变流器在短路工况下能够正常保护，未发生其他系统异常和器件损坏故障。图11为城轨车辆SiC牵引变流器短路试验的试验结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx1GnZKqk4FAqZk6EzjJeofM3mmXAWUXQTiaiciaDRywB0VAxibiaYib2NVYQQ/640?wx_fmt=png&from=appmsg)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_014_80c259556eb3.png)
 
 **5 结语**
 
 SiC器件的优良特性为城轨车辆牵引系统的设计带来了诸多好处，可显著提高牵引系统的效率，并大幅减小牵引变流器和牵引电机的体积和重量。当前，满足120 km/h A型车牵引系统要求的SiC牵引变流器已完成了地面试验，试验结果表明，该牵引变流器完全能够满足实际应用需求，并且在温升方面留有足够裕量，后续还将进行进一步的装车试验和现场运用考核试验。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_015_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_016_3ade3c3d8599.jpg)![](SiC_器件在城轨车辆牵引系统上的应用研究_images/img_017_84aa944feb13.jpg)

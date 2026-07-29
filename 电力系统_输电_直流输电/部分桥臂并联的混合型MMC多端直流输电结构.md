@@ -14,9 +14,9 @@
 
 CES Conference
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKfc1o71fvWhILqtULa3AMUfVy1BIibVr7CJa183L2Yibsricm1hzwEu6Rw/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228950&idx=1&sn=fa8e263d8d5a3d3cfbe4be0ff922a4eb&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_000_d867196c7be6.jpg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228950&idx=1&sn=fa8e263d8d5a3d3cfbe4be0ff922a4eb&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKb8gdL7I1KqJKW92Ccktg0zzlpGM4AP6HqDH3jpv8wgpKWYXMr5iaNbQ/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228018&idx=1&sn=ee7e1b5d99de2ff1f9be8b0d364cdb91&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_001_618eed4c1f5b.jpg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651228018&idx=1&sn=ee7e1b5d99de2ff1f9be8b0d364cdb91&scene=21#wechat_redirect)
 
   
 
@@ -56,7 +56,7 @@ CES Conference
 
   The four terminal DC transmission system with the proposed hybrid MMC topology is shown in Fig.1. If a pole-to-pole fault occurs on the DC line, the MTDC system will feed current to the fault point. With the proposed MMC topology, the DC fault current can be blocked and the fault on the DC line 1 can be isolated selectively.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJK5xJRgUOqn9qgdUbTiaMno0wpEh4W8NuR3NNwVXWMAEIicpk1CDqRXOVg/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_002_276b7b5d0bfb.png)  
 
 Fig. 1. DC fault protection scheme for MTDC system with the proposed hybrid MMC topology.
 
@@ -64,7 +64,7 @@ Fig. 1. DC fault protection scheme for MTDC system with the proposed hybrid MMC 
 
  The proposed hybrid MMC topology is shown in Fig. 2. The parallel FBSM branches are connected to the DC line 1 and the DC line 2. The components of the FBSM branch 1 are indicated by subscript 1 and the components of the FBSM branch 2 are indicated by subscript 2.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKsNe7AVaXX9EHKFV7DFLHJykSJeUykMdhCDuD4sdMfrY8hLT4wDvghQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_003_78b8353ec314.png)
 
 Fig. 2. The proposed MMC topology with partially hybrid branches.
 
@@ -72,21 +72,21 @@ Fig. 2. The proposed MMC topology with partially hybrid branches.
 
    The results of the branch reference voltage can be calculated as follows.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKXF4g6nN5IlKiaHTxxvuDxW5IjNubrL85JCE3rabDibEvTOYN0gzN3TDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_004_0d3017065707.png)
 
   In the case study, the DC line 1 has a DC bipolar short-circuit, and the FBSM branches connected to the DC line 1 are completely blocked after 5 milliseconds. Fig. 3 shows the currents which flow through the branches. The currents flowing through the HBSM branches rise before the fault current is blocked. As the FBSMs connected to the DC line 1 are blocked, the currents flowing through those branches decrease to 0. And the currents flowing through the remained FBSMs can return to normal operation after a period of fluctuation.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKU3PHiaNEjIT3RqV8QtzLbTHnhd5FV6cHDpmCoc9m0NdRYIXicHSdaiatg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_005_c8b474d4e3ae.png)
 
 (a)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKuhAKyEsPuicCMezcgnHLUicia20WpvWvzda7UO3iau1u6pRyZa8k9GA13A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_006_2d3188b8ba7e.png)
 
 (b)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKcUQOYkoMmNT1qbA2vNnhfJQkkxGfQBwcYCSLNLCfHFcLvYBHHpCiaJw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_007_953f9380625d.png)
 
 (c)
 
@@ -100,7 +100,7 @@ TABLE I
 
 Topology Comparison
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKDyblJra0TedVGt15oqGmz756TaHlcq1gCoTicicmrtpPiaFe1L5t3Dneg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_008_3b59e3655729.png)
 
   
 
@@ -180,13 +180,13 @@ DOI: 10.30941/CESTEMS.2021.00016.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKVibAhkRXxMJt05y9jWPHwOHJic0KyHGlhiaEOYSPicCahVw2a5K2oVvg4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_009_8ca1905e6a54.png)
 
 **Yongyang Chen** (S’19) was born in Hefei, Anhui Province, China, in 1996. He received B.Eng. Degree in electrical engineering from Wuhan University, Wuhan, China, in 2017, where he is currently working toward the Ph.D. degree. His main research interests include the modular multilevel converter and dynamic analysis of power converters.  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJK5wh7vcHfC37jYvkcUtb8bhtMSUDLrGNVTwsdF7BDYdql0BzO6XunRQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_010_8ed25739715a.png)
 
   
 
@@ -194,7 +194,7 @@ DOI: 10.30941/CESTEMS.2021.00016.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKP7U8FZZoZhVlLJrn4ia2z5UWqVaeUfFn5icrgKSmrQDwFkDPF23lrtVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_011_b52b258b6c83.png)
 
 **Meng Huang** (S’11–M’13) received the BEng. And MEng. degrees from the Huazhong University of Science and Technology, Wuhan, China, in 2006 and 2008, respectively, and the Ph.D. degree from the Hong Kong Polytechnic University, Hong Kong, in 2013. He is currently an Associate Professor of the School of Electrical Engineering and Automation, Wuhan University, Wuhan, China.
 
@@ -208,7 +208,7 @@ DOI: 10.30941/CESTEMS.2021.00016.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKkDg9O3pxjoLmppXAqFKZ2tRCAnUKlUaFX0Ohwlp3kcwo03lSyCJ0yw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_012_6e1d423fafc9.png)
 
 **长按二维码注册参会**
 
@@ -218,7 +218,7 @@ DOI: 10.30941/CESTEMS.2021.00016.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKiaDEWTawOQNyibIibS2Hl3gXB3OeOCZhtSzicb0VBEy3soVXmFCX6WPhJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_013_1670b8d4960c.png)
 
 **长按二维码注册参会**
 
@@ -260,7 +260,7 @@ DOI: 10.30941/CESTEMS.2021.00016.
 > 
 > 官方微信号：CESTEMS
 > 
-> ![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178bshX9EHBcNIFgWibDj4VlHRfWwcwD39zubP9HbOnLzgYwjkFzpVU7gFhkpcs6NsS7n9JdC9mdOicg/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_014_4b990264d47f.jpg)
 
   
 
@@ -272,15 +272,15 @@ DOI: 10.30941/CESTEMS.2021.00016.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJK1ay3ibZHibUnM9324BH9tsHXBYaCIa7wdWgwyRKYNsaNKiamEPvogKWgg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_015_47128a87823f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKJeAK8tZX2VBSZFTKLL9ib8CTt7oNa59PUfNEO0ibSvI9YQrrRQ1iccaiaw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_016_e1c2e52fd460.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKs0kNZJsub2DNU1P1p3ib1wfZ6SKFLBFrSMBF0SLjcsPdZBYkHUFP4WQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_017_57085905c7e9.jpg)
 
 学会官方微信
 
@@ -288,15 +288,15 @@ DOI: 10.30941/CESTEMS.2021.00016.
 
 电气技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKHaX1m9ZmWDdcmMLcY9SxI7wvzhCLZwQ4H5s6iadDY2Bln8lOSzfx11Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_018_40de848746c7.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJKsIERCicGONicY4THzvzqrtvkUd4ZblggT8I93sg6CIhzsDRcbGrJBTUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_019_c740ade3d1f7.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibL6Vq9FDYPBbothBZeEWJK7JSWn7UgwBfvmtOwvFcdhBoCZrxM4yCtduYTSOZJQjfichQuNrFMQHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力系统_输电_直流输电\部分桥臂并联的混合型MMC多端直流输电结构_images\img_020_c6c1ab223959.png)
 
 学会官方B站
 

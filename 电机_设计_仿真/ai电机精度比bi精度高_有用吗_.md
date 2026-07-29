@@ -1,0 +1,40 @@
+# ai电机精度比bi精度高？有用吗？
+
+原创 电机新视界 2024-06-05 17:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/Z1vdekDJjm9JJBqlKdtXtg](https://mp.weixin.qq.com/s/Z1vdekDJjm9JJBqlKdtXtg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+
+  
+
+来源：屹高CNC
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iah9f1g3QlHJqWfBmVQ6sPhL0mYk5iciaBE5PcuDwDwRc0Vk1qia0oUyWPsH9yAP2Z7JJkxiayMl7xyZmzT9hCVuF4Q/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+
+    FANUC OIF系统，伺服电机编码器从原来的αiA1000升级到αiA4000，脉冲数从100万升价到了400万。bi编码器从12.8万脉冲，提高到了100万秒冲，那么机床精度会提高吗？
+
+   我们先了解下一般机床的传动图，如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iah9f1g3QlHJqWfBmVQ6sPhL0mYk5iciaBEaWiawEvJnslkWRQKL8E0jhcHVxdGtq3oekXc47iblMricWEKN2Vk33nEQ/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+
+**机床精度能提高吗？**
+
+需要我们做以下数学运算。
+
+机床丝杆的螺距10mm计算，当机床需要移动0.001mm，我们的编码器是多少脉冲呢？
+
+αi编码器以前需要100脉冲，现在是400脉冲。也可以说，以前1个脉冲，机床移动的距离是0.01微米(um)；现在1个脉冲，机床移动距离是0.0025微米。
+
+而我们机床加工零件的精度，98%以上都在10微米（1丝）以上，我们的滚珠丝杆精度C0级别，在1米距离只能达到9微米。所以FANUC系统自我的提升，并不能提高目前机床加工精度，需要提高我们机床机械本体的精度及稳定性。
+
+  
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)

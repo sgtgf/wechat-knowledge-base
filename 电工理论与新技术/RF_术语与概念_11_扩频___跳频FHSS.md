@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/yZZhTtrd9CIZECrcw09weA](https://mp.weixin.qq.com/s/yZZhTtrd9CIZECrcw09weA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRM160JKFOghTdAsN4Hm1IvkqOfFdtUZ9rDI2ZMmJ3Auy8EDxVrAPHBjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_11_扩频___跳频FHSS_images\img_000_15ee973a614e.png)
 
 ★★★__TCS-11---跳频____**★★★**__
 
@@ -13,7 +13,7 @@
 
 ___€1.工作原理___
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSVG5bL7EEgjwmD4d5JG483zI6piboxJAg2riaxIH8IAq4WfGMI7j9ibuakdUBBoaOqj6YIBH9j2icQEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_11_扩频___跳频FHSS_images\img_001_ca1985c0a54a.png)
 
 图11-1：跳频示意
 

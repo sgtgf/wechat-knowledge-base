@@ -5,7 +5,7 @@
 
 ****内绝缘”通常指封装内部实现了电气绝缘，常见的是“绝缘基板”型封装（如LFPAK、SOT-227、模块类）或“全塑封”封装，其散热面（金属基板或外壳）与内部电路（漏极/源极/栅极）之间是电气隔离的**。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNzboK6Y6XNewRLTjWaxNBDKreLrl0IpCrIPRN7oNdj8NzKUA6aNcgAd0ic4ZNNqNk8ldj9pZN90D0FrmMnO2Q8iaZ1tmnbsts2s/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_000_24f9e85614ba.jpg)
 
 **这与常规的“非绝缘”封装（如TO-247、TO-220、TO-263，其散热背板与漏极连通）形成对比。  
 **
@@ -78,19 +78,19 @@ DBC/AMB陶瓷基板（绝缘导热）
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPCMjDvFQAJVEyQspgkbI0EfHjvLfB00BXjGZFmaAwl3DjTvicyokpc0l033a89LwadSD4YK1CdqxgjfB7QtYjzrymcHEIc7dQs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_001_1bc236f5d0ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUkjs09ibHGwWpHfpIFVsCBr7CbSicYTG13x5hTAy0L51N5yf4yAJ4KjpQqmXnPtKDZsyJGNRurCq7VW92mPDymQOyre2NMbc5E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_002_783b88d61816.png)
 
 内绝缘型TO-247-4封装SiC MOSFET产品列表
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPcYlOkmiafibYpCXSFAnrToSUWSgiaMy3tKuu5o8g5iaC0QPtUlLGhAicFPNdibqBp1wjhiarQ5wLEp19dIPqnPNXAcCvjgUZsoT9aCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_003_4ea6f24ac512.png)
 
 常规TO-247-4封装结构示意图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtQ6LBVPXh8bgIRehQibLc5foOp4kicr9GLnQAaQMbSZib5yE8XaoZ9T16fZibV3TGzY5jsia1Y9t4xbhnlW6LPibJ3mbFbOtibWzKQs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_004_42ed38f67763.png)
 
 内绝缘型TO-247-4封装结构示意图
 
@@ -102,31 +102,31 @@ DBC/AMB陶瓷基板（绝缘导热）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMoibwy308kqnOqfb3UK5iaiaS4MzXu76uep4DM2suwXdad6tu5867UC55icz5codW1picMWG9BjVXB2YRqu11G6scIE8pvE35u8kC4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_005_7fa3aef3b623.png)
 
 在2025年推出了2款内绝缘型TO247-3封装的SiC MOSFET产品线，内置SiC SBD芯片，电压650V和1200V，内阻12mΩ、16mΩ和45mΩ，电流150A、115A和60A。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM20LUL78XJicE9gN5I8wXdMl8KDZ8pKbXyNfqiaaHU9PbVWRnNFASicEIKffHp6GuDialGGsGWKlOt14cuN7oK9Fmib9ibOWINew28E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_006_26e013d62c23.png)
 
 内绝缘型TO247-3封装产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO8DibiaViawPTfNaicy1A1dk6FRFYxFuVFiaxfmYibCnWbK34dVrdcUxXF36W1TDeOdzv8PEexPic8ibmHQGgVpJfFRic9uibBrjDxGDczM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_007_bb603117b9e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMUYxgsdicsZsLTRZXn0QiabfJR7QD9EnBmGuHSzP6j6Rnicep0dicElIqedwWl134iceOs6BPy5vRldEFibU9FhQhhgtKktQLU8yGmM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_008_5e916ab4b8d2.png)
 
 650V150A产品参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMoZTqyOqrJbgnEfBAeMX1XxIdISTNx8MRL07RWfdoJxSToGwicibWrh1iaQImokQ4YcQibDyMgN4Wx9SGGdLgSJHGjib91N1d2IVNI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_009_acc99a0a30e1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPcFiarCCR1IzfNuBHnvDcV80EmuqKghH3ibHYIHYLEHEsh3dwBzSnsFLfu2Ja8LLnKdIQIicsWLBqffOk2UAm12s8l4khSdgV99I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_010_eac4931eee3b.png)
 
 1200V115A产品参数表 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOX5n7gPArEf6XQrYxnnpUV9d7cxBV1axjWialu2c9AwfH7ibE6h9R6DDibTzBicjvBictR1W91d1r6LVEmQpOn3wwleRBsnELPMnia0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_011_1f64b7e1d52b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNfpWVEKGlTO8Mia6N2CGF7ZIELvELVH4jicxKe46LwHpBNk2V76k5KP7PYo5KuicYDhatEDM6ZicL5BaIlmuoaIibzvb8CpAEiaTFKc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_012_68289959e081.png)
 
 1200V60A产品参数表
 
@@ -374,7 +374,7 @@ BOM成本低，但装配成本高
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkAy1M8MxOvB4JCoicClRoib9DvjH8bwl064QibI9DortQn5ib63D2c9lPwsbUp7335sGLL0u0r7b2LXvmFAqCUEvVUwYJaEU0hN0/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_013_b04bc6413fb4.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -382,7 +382,7 @@ BOM成本低，但装配成本高
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMSCJiaKfMouZBK05N93IiaHRQTYrEzLDIK2XZXMCCSUBAbxp6uTsMpevGibNial2gicdkzcY5WwZDIWicfwSPRdR4RyxCefh2ROBpSY/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_014_b65a8150f7d9.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -398,7 +398,7 @@ BOM成本低，但装配成本高
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNHluWKG94eKbYEEgDwodK45INsgWhflrStLY2Ngh8ibVte18sgbnKJRx0iaasRA7Vthft9etO0ZgPNc4GHAsolliaCz5yEGwgwA4/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_015_deedf14ee32a.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -446,14 +446,14 @@ BOM成本低，但装配成本高
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMMDib5nwmRmCwSFzlNFic5cGuiblIBlkNoLC4DoZt4mdp4dqqSkycfZGubgWAice2wed2Wbjp5iaZh4ribWqHKQMibIINh0SEcHTRtiaE/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_016_1370c2f4c3c4.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPLS0cD76tVdLxq2kM5OhLf2OZuKKqtRLRow95oQpIT5iclYqRqT6sgTkib5Q66NQ06bo0fAbTHJOehAV4A6jpaulyiaWcQRd3eWY/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_017_8702a4e0246e.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpO3gRzKibXQhQAWFiaaO7zUXzYYuJcicl1n9GEiazZQxsAibOPSG2n55dQWbse9P8lpzicia1BuR1tYGdPwZmMBnjx6n05Xgg7kZtZiauw/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\内绝缘型TO247封装内置SiC_SBD芯片的碳化硅MOSFET产品应用介绍_images\img_018_4dec8d6a0dc3.jpg)

@@ -3,17 +3,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/JegRwnGiWoqFs4YO1QzI-g](https://mp.weixin.qq.com/s/JegRwnGiWoqFs4YO1QzI-g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zLm8uoRjGuHh5cqXg6CMia08JN5PSPahkHh0zkbicuPpxKITbmtBgSic874mhXDZSicxV7rE3eB5T6IJSQuMuk48baYvbEUjcxpsuZNGfBQoQQk/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_000_63780c853d69.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icrlIsZGPBvxJkIzbDKrJibSCic2nwxEtZFczPvfWl38s60eiaAXCUFPLz2jdDcPRwQagic9n27v3ByAJral7WDNukA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_001_60578ea864a0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_002_ff1b5ac71683.gif)
 
   
 
 7月13日（阿格斯）讯—美国无稀土永磁龙头企业Niron Magnetics正式官宣，与日本高端精密电机制造企业Aspina签订长期定向供应战略合作协议，双方将联合研发、落地完全摒弃稀土原材料的新一代电机成套解决方案，为汽车、航天、工业自动化等多赛道提供低碳、供应链自主可控的电机替代路线。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/AeTUY9Gyu2R4B23DGBsUxQVpSib6e7MZpkfGt735p7ictUS5XO7LDvmhicZSLibR5Be9PKa1RdspWib6YYpd0iaVMIRdsIF8PW7iaoOhiaqnXo4RW6c/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_003_8a3ec615798e.jpg)
 
 来源：Niron Magnetics官网，由AI工业翻译
 
@@ -27,7 +27,7 @@
 
 过往行业数据显示，传统钕铁硼永磁电机中稀土原料成本占比可达整机磁钢部件60%以上，且全球超85%中重稀土产能集中于单一区域，地缘政策、出口管控极易造成车企、航天企业生产停摆。而氮化铁永磁方案可彻底绕开稀土采购环节，从源头分散供应链风险。 
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/AeTUY9Gyu2RYdQDdkBqI2gyyiblKxRKuia0PibfHnLXkMHWJmiaOP9bCTtyjSNHBibh5mknfibv8Q7BAvHTd2Fx872cKocpRbn0m5cKjSjQIGIVzg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_004_c7c5465b385e.png)
 
 图文无关 来源：Aspina
 
@@ -39,7 +39,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvzCicwE6E7yzMGz3DibTwSbibFwhicFUQzaTJGhoyVEdiabCKbCSLKUvdZr2zU4YiaPY0gak7jUP7LSUPMg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_005_59d8d7cfeff1.gif)
 
   
 
@@ -51,7 +51,7 @@
 
 **会议推荐**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zLm8uoRjGuHJaGlBWRZGatBjop7EXJjYZxDWgInucO2PMXUpfglFPpEFfu7TXNxQtaEpyUasdofqJDSGnmtGylpDmksPHfoWYN3JspnlR24/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_006_2437f26f39f4.jpg)
 
   
 
@@ -65,7 +65,7 @@
 
 **分布图领取**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvz9xUDIf01f64D7ctTCN6WiaiammhnnN0EtAo1GKYdPAnE51T0b62MEAKw6Vqia8ia0EW9zREUGTjabVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_007_70840a1d148e.png)
 
   
 
@@ -75,4 +75,4 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvzuyialExZBEap3PXnoorHtawsGgxJuz4W5zKMFNdOpfb6GhtyAvn0fKw8DOibzvDibqOjDCjAuNXsRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\Niron_Magnetics_携手_Aspina_达成无稀土磁铁电机供货合作_images\img_008_e77875993583.png)

@@ -38,7 +38,7 @@ MOSFET栅极电路常见的作用有以下几点。
 
 首先说一下电源IC直接驱动，下图是我们最常用的直接驱动方式，在这类方式中，我们由于驱动电路未做过多处理，因此我们进行PCB LAYOUT时要尽量进行优化。如缩短IC至MOSFET的栅极走线长度，增加走线宽度，尽量将Rg放置在离MOSFET栅极较进的位置，从而达到减少寄生电感，消除噪音的目的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXYr6EoVjvvO6AanNL8oqRslR15MjfS0z75a7SJ3oqE70WcKQRmZSPaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_002_dcb81409a386.png)
 
 当然另一个问题我们得考虑，那就是PWM CONTROLLER的驱动能力，当MOSFET较大时，IC驱动能力较小时，会出现驱动过慢，开关损耗过大甚至不能驱动的问题，这点我们在设计时需要注意。
 
@@ -48,7 +48,7 @@ MOSFET栅极电路常见的作用有以下几点。
 
 当然，对于IC内部驱动能力不足的问题我们也可以采用下面的方法来解决。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXX5aDbEPhDnOo47WVpkKfribuEMB6Qf060RNEdydAj1O8QsTicgEdibvsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_003_8aa8f3883c7b.png)
 
 这种增加驱动能力的方式不仅增加了导通时间，还可以加速关断时间，同时对控制毛刺及功率损耗由一定的效果。当然这个我们在LAYOUT时要尽量将这两个管子放的离MOSFET栅极较近的位置。这样做的好处还有减少了寄生电感，提高了电路的抗干扰性。
 
@@ -58,7 +58,7 @@ MOSFET栅极电路常见的作用有以下几点。
 
 如果我们单单要增加MOSFET的关断速度，那么我们可以采用下面的方式来进行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXNKAE7M55qbGtenBrAUk4NgLW5asrF6ntSzQVriaibJD12MkkxU9yW9Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_004_72b981a53514.png)
 
 关断电流比较大时，能使MOSFET输入电容放电速度更快，从而降低关断损耗。大的放电电流可以通过选择低输出阻抗的MOSFET或N沟道的负的截止的电压器件来实现，最常用的就是加加速二极管。
 
@@ -72,7 +72,7 @@ MOSFET栅极电路常见的作用有以下几点。
 
 再来谈以下PNP加速关断电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXUbicVCz73QTibU9kK74uClwW7QjKXCL9ufWArBDlqBw2lBSz8a8uficFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_005_0a2ada7755f3.png)
 
 PNP加速关断电路是目前应用最多的电路，在加速三级管的作用下可以实现瞬间的栅源短路，从而达到最短的放电时间，之所以加二极管一方面是保护三级管基极，另一方面是为导通电流提供回路及偏置，该电路的优点为可以近似达到推拉的效果加速效果明显，缺点为栅极由于经过两个PN节，不能是栅极真正的达到0伏。
 
@@ -82,7 +82,7 @@ PNP加速关断电路是目前应用最多的电路，在加速三级管的作�
 
 当源极输出为高电压的情况时，我们需要采用偏置电路达到电路工作的目的，即我们以源极为参考点，搭建偏置电路，驱动电压在两个电压之间波动，驱动电压偏差由低电压提供，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXqmvlicCdj2iaK2d48oibWVScM0aTcdhibGI585PzS356qlooaibPRz3KGmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_006_edcda69dff1e.png)
 
 当然，这个图有点问题，不知道有没有哪位大侠看出来？
 
@@ -90,7 +90,7 @@ PNP加速关断电路是目前应用最多的电路，在加速三级管的作�
 
 这个是正确的图纸。供各位参考
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXXiaf16sEibc5PaTIa1XdwurEkvdsVErQc0EbcAriaPYlHJhGJtFvtzCJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_007_a45d46f0c791.png)
 
   
 
@@ -98,7 +98,7 @@ PNP加速关断电路是目前应用最多的电路，在加速三级管的作�
 
 为了满足安全隔离的要求或者提供高端浮动栅极驱动经常会采用变压器驱动。这种驱动将驱动控制和MOSFET进行了隔离，可以应用到低压及高压电路中去，如下图所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXic3gIYlPricBK7P5ISC5QvkibdRF555Uia9vQmuIIewSxvM8duWcRrKfXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_008_2b6e7a3c0aab.png)
 
 变压器驱动说白了就是隔离驱动，当然现在也有专门的驱动IC可以解决，但变压器驱动有自己的特点使得很多人一直在坚持用。
 
@@ -112,15 +112,15 @@ PNP加速关断电路是目前应用最多的电路，在加速三级管的作�
 
 下面上一个实际的自举逆变图，供参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjbznGZ6DmykTJzp7jNCyjXHxs9RSibeGYH9kbN2A0Av77dbSOlfkONI1U6OUMA6bSN0cQ6ZEMF4ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_009_b59bab8bc033.png)
 
   
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_010_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_011_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_012_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_013_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_014_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_015_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_016_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_017_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_018_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_019_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_020_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_021_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_022_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_023_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_024_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\MOSFET栅极应用电路分析汇总（驱动_加速_保护_自举等等）_images\img_025_50889e54acde.gif)
 
 ## 
 

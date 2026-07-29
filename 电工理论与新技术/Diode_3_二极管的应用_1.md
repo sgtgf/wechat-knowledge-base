@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qQwhwaBQ9lKhe-zZXtb\_Yw](https://mp.weixin.qq.com/s/qQwhwaBQ9lKhe-zZXtb_Yw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTiah5rXLdlYGdViavjB4pXQicLBJl6QYRFSricREaVHrKr7IiaJz13ibKUNqNTkPa1sz1EqOKLfVA1goMw/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_000_41c39a2037db.png)  
 
 ____**★★★**______Diode-3---二极管的应用______**★★★**____
 
@@ -15,13 +15,13 @@ ______€1.___电源防反___
 
 在电源干线中串联二极管是实现反向电池保护电路的最简单和最经济的方式，如**_图3-1_**所示。（传送门：）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0Klu32bmmDkianVPzMuiaIIKTtuiclwWcXeuibW6qjK06SYhRRqfBO4uMOyRLQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_001_0c991ca0da4a.png)
 
 **_图3-1：串联二极管_**
 
 通过考虑给定温度下二极管的正向压降Vf和负载电流Iload，可以容易地计算稳态导通损耗Ploss：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhChrjCrVhRtbHzYPhib2icmBXn2xsdWG551eyktSurgCylEIebXrtTfz9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_002_c19c0f812237.png)
 
 从这个方程中可以明显看出，用于反向极性保护的二极管仅适用于相对较小的负载电流，否则功耗增加过多，对系统的效率产生不利影响。因此在实践中，二极管被用作负载电流约为2-3A的反极性保护，除了二极管在给定封装中必须能够耗散的功率之外，还必须考虑其它方面。
 
@@ -31,15 +31,15 @@ _抛负载（Load dump）_
 
 二极管的浪涌电流能力是通过IFSM参数规定的，该参数通常定义为脉宽在8ms范围内的矩形和正弦脉冲，而抛负载峰值电流可以持续400ms，甚至更长。反极性保护二极管的选择必须根据具体情况决定，考虑脉冲持续时间、所选TVS二极管和交流发电机的内阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCe9k0ZClqPVMPp3SADxAlqf7MOGF0VGlCwiawTaticBbR0VaibmrCeSALicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_003_c0f7174d63c0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCJ9KWD1Z8rAntsMhpR55flic2ENPcAEutN1HEc3tEDNfzqWRLUdvwo8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_004_000d795d9d8e.png)
 
 **_图3-2：表征抛负载时未抑制的测试脉冲波形及参数_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCe8ITBeuaIuUKr3IF5Iw0YXj0fYGEGxoZ8yySnBGE2C9licsABuKgdsgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_005_cb631d5fbb21.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCVhqjo2jFCkvp052euQoQlN32icNPeaqbRdPWAFVMY2xFZKBtZ0jusqw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_006_cd35c16bc96a.png)
 
 **_图3-3：**_表征抛负载时受抑制的测试脉冲波形及参数_**_**
 
@@ -47,7 +47,7 @@ _蓄电池断开感性负载_
 
 ISO-7637-2还描述了当感性负载与其它负载并联时，与电池的连接中断时会发生什么，感性负载将在负载两端产生负电压，根据**_图3-4_**所示的测试脉冲对该场景进行测试。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCp6iaZPZPYoZoy6mHypdVmxMicL7IteMl9mBUacaHI7RK6Vgkr6jKwCfQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_007_869edbd0c956.png)
 
 **_图3-4：并联感性负载场景_**
 
@@ -55,9 +55,9 @@ ISO-7637-2还描述了当感性负载与其它负载并联时，与电池的连�
 
 另一个需要考虑的要点是二极管的漏电流，特别是在高环境温度下，二极管泄漏电流会增大，这可能会对敏感负载造成应力。因此一些设计者使用恢复整流器而不是肖特基二极管来控制泄漏电流。但是由于PN结的原因，恢复整流器具有高的正向电压降，降低了反向极性保护电路的效率。而最新的SiGe二极管，这种新的混合技术产品结合了肖特基二极管的优点和恢复整流器的低漏电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCw4vIFycaIoy3Eia83WENT1q49iaKKRLqf1TZOIJxibMeR6pXNXZSb1uUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_008_8977d8dbc5ea.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCup5jhnwwb2kf5uTJSiaucdKsSsNd9PHRoIBEINKWv2LFZgPMtp60Hrw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_009_d28da7b669bc.png)
 
 **_图3-5：用于表征电池与感性负载断开引起的瞬态的测试脉冲_**
 
@@ -65,7 +65,7 @@ _________€2.___或门______
 
 **_图3-6_**是具有两个电源的系统示意图，通过电源冗余提高了安全性，主电源和备用电池通过两个OR型二极管相互隔离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSUaicMyXrp5OC8HI33k1kGSE382ibic7hk1VBQ1KfCNX7UqJFRYEibuHjT3ic8O1GoSwyJksbTEhoaY3w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Diode_3_二极管的应用_1_images\img_010_299616574cc5.png)
 
 **_图3-6：主电源和备用电池通过两个ORing二极管相互隔离_**  
 

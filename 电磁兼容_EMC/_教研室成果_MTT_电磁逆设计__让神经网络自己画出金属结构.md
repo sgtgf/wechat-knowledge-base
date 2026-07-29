@@ -23,7 +23,7 @@ Institute of Applied Physics, University of Electronic Science and Technology of
 
 出版信息：IEEE Transactions on Microwave Theory and Techniques, 2025; DOI: 10.1109/TMTT.2025.3628729 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWk0WKYwiaIKrBPsfGhtCKnpmxUCacNSE0zTIXfoB1AZibPeIIS1gcqM3avMCRWbREXpwddricGAtiaIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_电磁逆设计__让神经网络自己画出金属结构_images\img_000_4e6f3c75c77d.png)
 
  逆设计为什么这么难？
 
@@ -43,7 +43,7 @@ Institute of Applied Physics, University of Electronic Science and Technology of
 
 我们提出了一个新框架：用物理信息神经网络（PINN），在不依赖全波仿真算法的情况下，直接优化金属结构的边界。在该方法中，结构形状不是离散化或灰度化，而是用傅里叶参数曲线来表示完整边界，用少量参数就能描述丰富形状。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWk0WKYwiaIKrBPsfGhtCKnpE9WWz5Y8z99ImMgzvaWPTbOL3mOaPlG8WfqOt3nHRhqU766IrRzIAA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_电磁逆设计__让神经网络自己画出金属结构_images\img_001_1ce9c4f40a1f.png)
 
 一种傅里叶曲线
 
@@ -72,7 +72,7 @@ Institute of Applied Physics, University of Electronic Science and Technology of
 
 因此结构边界会像“会动的橡皮筋”一样逐渐朝目标收缩调整。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWk0WKYwiaIKrBPsfGhtCKnp17ibmCMlf2dZaZ4ty5jqC5Kjf9L6eN9HYaicjoiaK0uUTGzYpDeNHn19g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_电磁逆设计__让神经网络自己画出金属结构_images\img_002_2fbdc5733a60.png)
 
 该方法的架构图
 
@@ -86,7 +86,7 @@ Institute of Applied Physics, University of Electronic Science and Technology of
 
 PINN 只用 1 小时就设计出一个新结构，使边界场误差从 35% 降到 5%。最终形状与产生参考场的金属形状并不一致，但仍能生成几乎相同的场。因此，电磁逆设计的核心是：形状不唯一，功能最重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWk0WKYwiaIKrBPsfGhtCKnpXgPnrxDJcbuZykeZ99pmLp1nVYVx3d6R4ygAOp3B1NZctSpgckictCg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWk0WKYwiaIKrBPsfGhtCKnpk8ExuCn24LRLuFh7ZuyXklXiaicov7F0D9SM3rS2biciaptbuJFceiboA2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_电磁逆设计__让神经网络自己画出金属结构_images\img_003_b3a0288341ca.png)![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_电磁逆设计__让神经网络自己画出金属结构_images\img_004_fb6828ec1a77.png)
 
 初始结构与最终结构
 
@@ -94,11 +94,11 @@ PINN 只用 1 小时就设计出一个新结构，使边界场误差从 35% �
 
 无相位问题是工程中更常见的情况（比如方向图）。在解决这种问题时，PINN 的误差也很小，仅为 3.6%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWk0WKYwiaIKrBPsfGhtCKnpbTfPrpF6mibzBaAjhhlpS67ymMgZPax8QOndfOmrmNcxiaCXdmlyAnibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_电磁逆设计__让神经网络自己画出金属结构_images\img_005_d6524d8b04c5.png)
 
 几种算法的无相位逆设计结果比较
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaWk0WKYwiaIKrBPsfGhtCKnpicPWrp4ib2EPfzJ6OYFaV8CQHLbtP8Pmdj9kolXW5FZJNEY3iaGiaBzfOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_电磁逆设计__让神经网络自己画出金属结构_images\img_006_0765fd4d98eb.png)
 
 几种算法的速度和误差比较
 

@@ -12,9 +12,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DuahxhS3D2F4D3SYek6urncUe76Pdk3DgALLRSWvIj4Tl1FWQ10ArWxickC56Kc8tqLVTa9AnLz91w07icoiaeIBw/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管开关电路设计_用三极管控制会容易烧坏__images\img_002_b2dcf68a4501.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DuahxhS3D2F4D3SYek6urncUe76Pdk3DgALLRSWvIj4Tl1FWQ10ArWxickC56Kc8tqLVTa9AnLz91w07icoiaeIBw/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管开关电路设计_用三极管控制会容易烧坏__images\img_003_b2dcf68a4501.png)
 
 **MOS管开关电路**
 
@@ -22,7 +22,7 @@
 
 # 我们一般会用一个三极管去控制，如下图！  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiajeZxAmepQDWpQ87ibthm5UjFXQj7mvFvhVKIF2cUAKH1syoLgmzGuMsN6sOCN2beh3jm6f3qy44g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管开关电路设计_用三极管控制会容易烧坏__images\img_004_c4216fa73845.png)
 
 MOS管开关电路
 
@@ -32,7 +32,7 @@ MOS管开关电路
 
 电流路径如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiajeZxAmepQDWpQ87ibthm5UxY9D4vbaLy1OMevicONdYFADWvbSIcFmnicvibVldMwXeWCbDPS8Mypaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管开关电路设计_用三极管控制会容易烧坏__images\img_005_f3aafafacddd.png)
 
 后端电流路径
 
@@ -40,13 +40,13 @@ MOS管开关电路
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/DuahxhS3D2F4D3SYek6urncUe76Pdk3DZmM8TRs111y0CyGjsCMU6syJSSX6OBWDxEK1UZHxp3a1ThxfQmZRDg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管开关电路设计_用三极管控制会容易烧坏__images\img_006_6f155b080461.gif)
 
 # **如何改善这个问题呢？**
 
 有两个方式，一种是在后端串联二极管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiajeZxAmepQDWpQ87ibthm5UAys2A1PpEPQr7ZxowQicSptvnkj5IHOEdcW3cH2icDicicHTEYgYic2uHGA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管开关电路设计_用三极管控制会容易烧坏__images\img_007_179ac52516f2.png)
 
 防止后端电压电流串扰的电路
 
@@ -60,7 +60,7 @@ MOS管开关电路
 
 另外一种，便是后端串联一个同规格的MOS管！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiajeZxAmepQDWpQ87ibthm5UPERLzJJNr9gaPOfUgZ9ls8ApeHWkaZBcYPfGhS0y6djuYJVPFa394g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管开关电路设计_用三极管控制会容易烧坏__images\img_008_18b4b7bdcfa0.png)
 
 防止后端电压电流串扰的电路
 

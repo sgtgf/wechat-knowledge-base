@@ -29,31 +29,31 @@
 
 电池充电阶段如图1 所示，电动汽车电池充电的过程可以分为三个阶段：预充电阶段、恒流充电阶段和恒压充电阶段。三相CLLC 谐振变换器可以通过切相策略，工作在半桥运行、三相运行和全桥运行和模式来覆盖电池充电的三个阶段，使变换器在全负载范围内保持较高的效率运行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMmaHCrytGKosR6HydLgGCziar743cF5HdkjqdRsz2PSXUnJOSxh81UXAUEQYQHA7fNBbVmOfCbYsCc09iaJGIHr1u66OEl4kjzY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_000_805dec642152.png)
 
 1.1三相运行模式  
 
 在恒流充电阶段，谐振变换器以三相模式运行，三个桥臂驱动信号彼此相差120°，每个桥臂的上、 下管驱动信号以180°互补导通。拓扑结构和驱动波 形如图2 所示。图2 中，Q1～Q6 为一次侧开关管，S1～S6 为二次侧开关管，TA、TB、TC 为变压器，Lrp、Lrs 分别为一、二次侧谐振电感，Crp、Crs 分别为一、 二次侧谐振电容，Ts 为开关周期。在此阶段，变换器为电池提供恒定的大电流，使电池电压迅速上升。 通过三相模式分担负载，降低开关器件的导通损耗， 从而提高效率。同时，谐振电容以三角形联结方式， 有效地解决了三相CLLC 谐振变换器的均流问题。 此外，由于谐振电容没有直流偏置，有助于实现平稳的软启动过程。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5icGia667kBW1gzGJ9D5siaS9MwrwyqdnEuOXMK3BGmZUFic9P6Mg2icTyg1FyEmyMFeCaIBH5gRpyTE77jOom11Fo1gLJWEbFLKM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_001_657e73638cea.png)
 
 本文采用的变压器电压比为1∶1，一、二次侧结构完全对称，故谐振电感Lr\=Lrp\=Lrs，由于谐振电容采用三角形联结，其值为星形联结的1/3，故谐振电容Cr\=3Crp，三相运行模式时，谐振频率fr 满足
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOm1XbYXIVTKW2FVXm4JR9m7UzOtAuS8ibfIOS93PFGhn4JEzjZQwl2AIm1jbuRSpsAPev9mmyKaKUH8ia1Up1V6RoH9xCjhKzQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_002_f2a0c7098a56.png)
 
 1.2全桥运行模式  
 
 当电池容量达到70%～90%时，为防止过充并降低电池的热损伤风险，充电过程进入恒压阶段。 在此阶段，电池电压保持恒定，充电电流逐渐减少， 最终达到轻负载状态。图3 给出了恒压充电阶段的拓扑结构和驱动信号波形。在这个阶段，C 相的一、二次侧桥臂停止工作，其他两个桥臂的驱动信号以180°相移的方式导通。此时，拓扑结构类似于全桥谐振变换器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjdj8ExrLiaVqzkT8A1AQHNPYWE2wBib12IUCicW7vxGRJhgt5K7sEdvLCEibgGMfQZuFFcYq8EJ0fLiacw3ickXV4ROum3SSdFxAPU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_003_1b086d7de1c9.png)
 
 图3a 可知，当变换器切换为全桥运行模式时， 其等效谐振电感Lr2 和谐振电容Cr2 分别为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNwWLfjib5SHfW2jnNdZI9RnFl0po3E4OPDO8Ky4DxYUO6Wg5W0dEx4XJQVzTWEtw2lvnvU6mC4Kicf9X188icnpmoUMyRDEn1xjY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_004_822ede0d88c0.png)
 
 故此时全桥运行模式的谐振频率fr2 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPoGc0ic3hJUBmRMyhUMReV5jYgNvdREuPyibDETszeuaFkBIksUf3AMoMFT2tt5pmDbpvjrB9pBou2AXKIT563bXD89rbmibZHicU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_005_a351315cbb8a.png)
 
 对比式（1）可知，三相运行模式和全桥运行模式的谐振频率相同，因此切相后谐振变换器无需改变开关频率。  
 
@@ -63,11 +63,11 @@
 
 当电池完全放电时，其内部的化学状态可能变得不稳定。如果直接用大电流充电，可能会对电池造成损害，甚至带来安全隐患。因此，预充电阶段通过提供低电压和低电流逐渐“唤醒”电池。图4给出了预充电时的拓扑结构：在关闭C 相的基础上， 保持B 相的Q5 导通，Q2 关断，此时拓扑结构类似半桥电路，变换器的增益为全桥变换器的一半。通过半桥运行模式，能够有效地将电池从完全放电状态恢复到正常状态，为更高效的充电阶段做准备。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOMc7hGF9PFExV9z0jsicdy1pKstsEM1PPhuq54ZufiblnlBoibcmDFhcX5qAXcj4b33B5yuQ4XPWLwP5OUFDZc0pes6ia565fxDYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_006_0eca0060f61b.png)
 
 半桥模式在全桥模式的基础上，进一步减少了开关器件和驱动电路的数量，且谐振频率仍保持不变。因此当负载更轻时，切换到半桥运行，可以进一步提升变换器的效率。三种运行模式参数的对比见表1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNNsfkXaicPL5oFhrVyKvqdvzUxCKf2SGl1d8iabzxuyBUBV5a9x9iaedyKLsiaaaNJicoP1bUP66bPo4Vz7KZeQRZmeXDibcCeFdd0k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_007_64d423520370.png)
 
 2.基于扩展谐波阻抗模型的SR控制  
 
@@ -79,73 +79,73 @@ SiC MOSFET 的体二极管具有较高的压降和较长的反向恢复时间�
 
 图5 显示了SR MOSFET的理想导通波形。通常情况下，当流入SR MOSFET 的电流为正时，应使其导通；当流入电流为负时，应使其关断。由于流入SR MOSFET 的电流近似呈正弦，在电流开始和过零时幅值较小，因此轻微的导通延迟或提前关断对变换器效率的影响可以忽略不计。因此，SR  MOSFET 可以与一次侧MOSFET 实现同步导通，通过计算导通时间ton，确定SR MOSFET的关断时刻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOibheDMNzjTrkWkWGWZDZV1Oico0GWGQxn44iclQYUibbtnkXJ70bAtZiaibny4B6JUiaZAkOReM6sbpibXdmp3c1dQmDckp7wfTlhP3E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_008_2b6bd4f299c0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMcN7NlJo6KLmIeT3EOr7LSib73dN0KAfiahhfeo78MsRCicMzAS7jBfa6ichZNe90z3jJv8OCy4Wwia9K33eSZ3GDrAMB6icTYwTVJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_009_406f390ec5a4.png)
 
 2.2 三相模式同步整流分析
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMzlJyz4bsV6PzhRsYXTRWA9OS9MUqwhlE7ibCS6WQUXUibB0U1s174aWOeBkevQHqMxvXNFiawicUlAEEe72B1ZVB9pLhMoUO0oWY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_010_6e50cc65d2f3.png)
 
 图6 给出了变换器在三相模式时基于扩展谐波的等效电路模型。图6 中，Req\_3ph\_k 为三相运行模式下二次侧折合到一次侧的等效负载，Z1k 为二次侧谐振电感Lrs、谐振电容3Crs 和Req\_3ph\_k 的串联阻抗，Z2k为励磁电感Lm 和Z1k 的并联阻抗，Z3k 为谐振变换器输入阻抗。其输入信号为阶梯型方波信号VAN(t)。 三相模式输入电压波形如图7 所示，VAN(t)可以被拆分为两个频率和幅值相同的周期性方波信号VAN1(t)和VAN2(t)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNcAY2O2YS6MG9cscEmdU1Gfpou9646IpfsCJbyOibXNJKpAYNbGhbLgs8GWntcNZ4eZPUja9Eia0lcCrtEl9aLC3t4qtIXxlCeU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_011_0aaa0f9ecb77.png)
 
 对VAN1(t)和VAN2(t)分别进行傅里叶级数展开可得
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPY1xNO7gjggpgt6A5xXvRza1ibGJm7Oicibp8556Ao5jStksoYAib5kfOicYXvFeyzq74vBlk8jfvg3geUibWiaBcoEUC1ELPrPubibl4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_012_f52e87215ddd.png)
 
 式中，ωs 为变换器的工作角频率；Vin 为CLLC 输入电压。  
 
 图8 给出了经过傅里叶级数展开后，仅考虑基波、9 次谐波和99 次谐波时的波形与原始阶梯波VAN(t)的对比。可以看出，随着谐波成分数量的增加，重构的信号逐渐逼近原始方波信号。这表明，引入更多高次谐波能够更准确地还原原始方波信号，故其相较于FHA 模型的计算，在偏离谐振点时依然会有较高的精度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNrG77ttVncB5ibcsBKHoJLXQErlCTazHnOJKiaXB0NXiaTE72jqEcLAtYA0RH785H0Cn2x7ekEVhSwMCX4BcAiby1d9nQ0eOvMmiaM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_013_9f6ac58a2a63.png)
 
 根据图6 所示的三相模式EHA 模型，可以计算出阻抗Z1k 为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPbu62s9OnodEZWMBMqWXNJViclOTDEa7aoKjXQwIdG0AlliaH2EfLtJ6BkO1KrYoPWKGlbjRya4mKPiaL7S8Sm8XZrLicoY6kPODs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_014_802778ca29b6.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNc2TyV6TjRBrKGzIh0m2nW5voV088ccfYK86YtbyGfG2QAdymTSAR5iapqW9QRd92iaIIzvbAvYpJbdeS0RFtZoZK7oARGzTkUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_015_bdf805bafd77.png)
 
 式中，Ro 为输出负载。
 
 Z1k 的阻抗角θ1k 为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkP7eNjRltzuk6byXq0dqmHZ7hekp6DdqGBtp8zhlfqGMCm0dmhIdttfxX2V66HMsDYkk5JylkxQXuNT7953mYY5X2CObcibicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_016_136705941de8.png)
 
 阻抗Z2k 为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM7ATMp07UxK5hmaEyHFyMHzBH3emoI4tBOwL5zIOJ6D4YxZa6G1dMvA6pcqobMECyxLbamuCATYP6xYvibbXEXzXV7NUFTH9RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_017_782977997e98.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOJIagy9vbjj3iaeD055H7Tnyujk0fOZaibAzZFI9zibuuxNCgwApzZRttR7N8bdcnGKRBYcYIw84oTsnw15VTibQWmhl56bFJr75k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_018_048199181bfc.png)
 
 Z2k 的阻抗角θ2k 为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNiczLWDykTYbXRcMe8HmuNcWBe7lTe3PHmwdYsSagSa4Mb7icu4PKNg6Dd6A2JbHAsibsxwqAVCbmic8dZkIzxh8FdVlPCf0iaMskc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_019_b55082bae699.png)
 
 阻抗Z3k 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP6EibEPCYFSs0C4UicdNfKQmkWxIsN4wibKNnoLLHwGqibEBqtdU4w9VRIoQypLHyC74g2aXPctjRQpHDaicBfXhK5LU7rBsdY1xrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_020_dc7ad6b9de9a.png)
 
 其中
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNElNnLNlouxDTGXEsr8rqCpqwxjNM4iaccW6YYibOMtibTXFxMTB1Z3mUuRmlCdOufchH8sciaFiaGvHlwc0SicSKQtVKibicia7QjG7iaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_021_070f408c7c7c.png)
 
 Z3k 的阻抗角θ3k 为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOvcqZLtC5wV2FbhttbddnrqkBYkqqqVp8PAicRTgu7RBZaIF8Ic4AmoGtWf48pV4nUtQAlNpbsptYJrAr9nibU1GoLjnWIsm45o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_022_a20c43e9a8d5.png)
 
 不妨设输入阶梯波电压的相位为0°，则可以根据扩展谐波阻抗模型，计算出二次侧等效到一次侧的谐振电流i′s为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO5TmWfujD6EJrLvTGY9m8xkJtVXePJaDc9vxc77niareQBcM8iaIQGeyfWymBnxnQH5ht1o3lJ4iauicwR77DAYkZCs4WicllxuIe4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_023_bf3ae9c043d6.png)
 
 通过叠加定理，可求解时域下二次侧谐振电流为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNt2oo91jHCYHavr1BQk2yaiaQWTP3HiaxBVWOfedGZPjaNlJT4ibzmiaS3zqDHEpCC8hcEaT5Ooib6ibQUz1mJTOFmib4hH5R0yfRsibM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_024_0f96d1585d1c.png)
 
 式中，Is 为谐振电流的有效值。
 
@@ -153,67 +153,67 @@ Z3k 的阻抗角θ3k 为
 
 设二次侧谐振电流的过零点与SR MOSFET 开通时刻的相位差为ϕ，结合图9 所示三相模式不同频率SR MOSFET 重要波形可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPeh80yd6FB1a8d7DJR2WZKzNIs6RzOrnOIDwhkI5nKibicZicO28wxlx39n71NN2pdhVt4ghJI7fQnc0NxicA5Kp8fnyaj3hAPzf4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_025_aed7bcec2c0d.png)
 
 式中，fs 为变换器工作频率；tdead 为死区时间。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPPdtRJwbiaS46YkWa65cibgf4qicOcUTvoffia861tlNNn52UdInEAmeNoQhyibMXiaicazkFibVBMM5o8rOO58icosrZpQWaMr92uQoRk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_026_6fb5ff00a593.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNwmacOxCKjfVMjuibcZSiaGOvPduBfWlfjfhAb0uzVd5P66mzoib1Wg27ZqYMBsnOWH7EcNImIU0Yia8HxSRlLDYSKcJw2Flew3Pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_027_f38acc9c9bd6.png)
 
 由式（7）～式（19）可知，θ由变换器谐振参数和等效负载决定，当谐振参数确定后，导通时间ton 仅和开关频率fs 和输出负载Ro 有关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNh3dNf92UWq7VgSTqZibCjH9CE56z6dCo0FWgWzC7U1jQXCt4EJPMxiau2KVbiafesdfRW80viadYJfU8NXaEE11eVRkI6L4hF1BQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_028_667b0e56980e.png)
 
 本文所设计的变换器参数见表2，代入式（19）可得到导通时间与开关频率和输出负载的关系如图10 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMs41FiajmrcUvWtuogA7jYBBTbxoAVnsemsQl3hkBKMJyYKD9iam1fL5XEgGcJyxBeCHsr5E6ZWiaaHIIXFsMOTVmDt6mpRATcD8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_029_95f7ae712786.png)
 
 2.3全桥模式同步整流分析
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOMWzcGibVNpicyby5xg4s5FicrOTS7psJg42Vua1MztjEpIfpw1J4SPaJjBPCBmVRRDO9sppaHmtGyv8icwUBmjHNRpP6uUic1LYF0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_030_8d814aeb860b.png)
 
 图11 给出全桥模式扩展谐波阻抗模型。图11中，Req\_fb\_k 为全桥运行模式下二次侧折合到一次侧的等效负载，Z1k\_f 为二次侧谐振电感Lrs、谐振电容1.5Crs 和Req\_fb\_k 的串联阻抗，Z2k\_f 为励磁电感2Lm和Z1k\_f 的并联阻抗，Z3k\_f 为谐振变换器输入阻抗。输入信号VAN 为方波信号，经过傅里叶级数展开后，得
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOFWanGoluaBgYacIHKbMl6ic1icVPJPrPmekuwIsaDvIjgZQc6wZibbZEV5S2oxv7oYrNn58u4Myuzs7tfdDM0MsdaHYxyulZ8h8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_031_07ae681ec0cd.png)
 
 Req\_fb\_k 表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOK36LoZte22ibVYrxuvq9iciaqrbgUvocakRb31frCQIv2fsoF7QicjsN1mPLA4VIDv7qBPtqMKrhKvtwpX60BcKnDYtQQmX8g7NA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_032_9880b4891156.png)
 
 通过对比三相模式下的扩展谐波阻抗模型可以发现，在切相后，全桥模式下的一、二次侧谐振电容减小为原来的1/2，而谐振电感增大为原来的2倍。根据式（7）～式（19）中关于三相模式阻抗的计算方法，可以进一步计算全桥模式下的二次侧谐振电流为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO3ia31s9fUTcXnHfPBiagEJC43LDbUiaUwo94gnfaAaickvpRfAS3VmQLicotHWrp76HhGBmicYMZ8OLSBMEzR3yniajHreW6LYiaicWf8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_033_75f54d625d0d.png)
 
 同理，可以令i′s( t) \=0，求解出全桥模式下输入信号和谐振电流的相位差θ′。  
 
 令i′s( t) \=0 可以求解其过零点，从而得到全桥模式输入信号和谐振电流的相位差θ′。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdBMe5gFsHFslbp2H8ibloic4sVg7D0rq3wmxFN4pJovXRkiagUNvv5fpGrqT5OYSbUjBdjZ00Biatqb1zllnInrfia8iazKGJlqKQo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_034_8ee392e6bc3d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPoU7hDhdiaeaHzBoKOicibZcH6wJoakD9P3bVh3KduARRruV6XODdzKJHsIV53J2hNhzIibGZvoSVXd0iaRcjOYYXkCibLQE4lSNSRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_035_9b9f14a2e24d.png)
 
 结合图12 所示全桥模式不同频率SR MOSFET 重要波形，可以计算出不同频率下全桥模式的导通时间ton\_fb 为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLopiaVEoLk3ibMfXZS8oYm5JibiaW43ypLQHjzL6kRAKKYDiaTMFztZLRlbVcgxx64pgibNLvad7Ouc0MV3lxW4RVoxyDJmbjDlEicY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_036_20aa272726b7.png)
 
 由式（23）可以得到出全桥模式下导通时间ton\_fb、开关频率fs 和输出负载Ro 之间的关系如图13所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkQeicP7tG5vlNJx9pP3grOTJBCmsWibqDPicdylyM94y7boxL1t4ibSj5jzmLGrFYeJLykobcWPJFaLH7yEr1tkmPymtYytSHdkE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_037_7c50f1422ab4.png)
 
 2.4半桥模式同步整流分析
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOxsnQ2Vic9IQDoIkOl44j91qCxZ2DykEJhriciavXibSMzpAmtARevq8C6t9FUVtPNb09iblsm2DSibcQcXSGWFBSjINxNQONHRZ2Yc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_038_fb0431fbcef0.png)
 
 半桥运行模式下的EHA等效模型如图14所示。 图14 中，Z1k\_h为二次侧谐振电感Lrs、谐振电容1.5Crs和Req\_hb\_k 的串联阻抗，Z2k\_h 为励磁电感2Lm 和Z1k\_h的并联阻抗，Z3k\_h 为谐振变换器输入阻抗。Req\_hb\_k为半桥运行模式下二次侧折合到一次侧的等效负载，其值为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOuMr4MfXgSjw8PZFlG8NkFVicKrrfJyrJ6icQQtSwmfZFibNg9FX8cOC14bxKP2aCAEoJLSy2DEZ9S6iakMqhTmfvlL5YDwUmOic1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_039_7274f6e80a5b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSRI2d48uISgsiavtTIYKcIqia9LC85ZcvNLK3n7F1QuY8GjWq4KCr4LY646mIvof49aaRCiaVH771hicicyztDlTQF7jYBDWn1zFY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_040_5e923b909a2a.png)
 
 半桥模式输入电压波形如图15 所示，输入信号经过傅里叶级数展开后，可得VAN(t)为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMlr0Bw8swYA2ibg2tPSHfvf6uFBpT9ahZkp5M1emBLkVtiaia3icGlXFIGU2ribygx40CQaBTyNYpkZLqZEnac2Ia0hW7KdATHs1B8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_041_c92edcedb8b9.png)
 
 通过对比图11 和图14 可以发现，除输入方波的差异外，两种模式下的参数完全一致。此外，由于输入电压幅值对谐振电流过零点的最终计算结果 无实际影响，半桥模式和全桥模式的计算结果保持一致，导通时间ton 相同。因此，后续分析和计算将主要针对三相模式和全桥模式，半桥模式不再重复讨论。  
 
@@ -221,7 +221,7 @@ Req\_fb\_k 表示为
 
 基于上述分析可知，计算导通时间ton 需要进行大量复杂的阻抗和三角函数计算，尤其是在追求更高精度的情况下，引入更多次谐波会使计算量成倍增长。在高频系统中，这种计算不仅会占用大量处理时间，还可能因计算误差导致系统运行异常。表3 列出了叠加不同次谐波时DSP 运算量的对比，直观体现了谐波阶数对计算复杂度的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOicuibWuqLoJ5Cy4jvvD2drolNOl92TD2YqC9lt4T1GTkW65T8WZIwcUg7Hicw6wa7VX0VbFH4RRGP38CoRvHDJTdFyWiaGqmmYJ8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_042_3f02ba6af1a8.png)
 
 由于ton 本质上只与输出负载Ro 和开关频率fs有关，通过对这两个参数进行预先的数据拟合，可以显著简化实时计算的复杂度。通过将复杂的在线计算转化为简单的函数调用操作，极大地提升了计算效率，同时增强了系统的实时性和可靠性。  
 
@@ -229,55 +229,55 @@ Req\_fb\_k 表示为
 
 由图9 可知，当开关频率fs 小于谐振频率fr 时，SR MOSFET 会早于一次侧MOSFET 关断；而当开关频率fs 大于谐振频率fr 时，SR MOSFET 的关断会 滞后于一次侧MOSFET，每个周期的导通时间显著延长。因此，在过谐振情况下，为了避免因死区时间过短而导致SR MOSFET 产生额外的开通损耗，甚至可能引发上下管直通的严重故障，需综合考虑SiC MOSFET 的上升时间tr 和下降时间tf 以及满足其寄生电容实现完全充放电所需时间，设置一定的延迟开通和提前关断时间。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPVxzNPQibUtVlicKib2qY3ygoySIAXkiabqAvQSrMNJ7micPn4Z4XrgKTpU3BduXicJjqfSP5E4wUOxft9HiccYIojBF7382GtjqQJqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_043_0e76ff221978.png)
 
 表4 列出了本文样机所使用的SiC MOSFET 参数，其寄生电容特性如图16所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOamno9XQIY3lia7qT1kwhj9Eb75cjY9ZmrhxKYP62te1Pic0YfwQpcEbBnWw7ygmdpfzhuDnuUcsBOn3gZ1ILWicyW70A8bYDKiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_044_e7a107405579.png)
 
 为了实现寄生电容完全充放电，需满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPhL00Vq0auZ6L4kSDsvoB2k01W6iaOh4EeggDeicbX1DBL6UqhQhr9hQTJ8ibEU1yy09Ol6ZwyhN4E0ZhwRdO8ONJaw2DznQcY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_045_4797c5d1b41c.png)
 
 式中，tA 为SiC MOSFET 实现完全充放所需时间。 由式（26）可以求得二次侧SR MOSFET 实现零电压软开关（Zero Voltage Switching, ZVS）的最小时间。
 
 此外，栅源极两端电容Cgs 也会对SiC MOSFET的开通和关断时间产生重要影响。如果同一桥臂的驱动信号所设置的死区时间过短，可能导致两个开关管同时进入线性工作区，从而引发直通现象。 因此，需综合考虑Cgs 的充放电时间tB，以避免因死区时间不足而导致开关管严重发热或直通故障。 同时，开关管的开通延时时间td(on)和关断延时时间td(off)特性也需要考虑在内，故SR MOSFET 的最小延迟开通和提前关断时间为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNgvTCvE2lOr3HrAXibAlbwibwDKFHhNN0CbONVLEVsb25LMYm2NFXGTmd00JNYce9Pu8pmPBumK5jvhmnJ0tHNKRM1TibueJKV1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_046_b679eea62a1b.png)
 
 为了提高拟合精度，本文利用Matlab 采用三阶多项式模型进行分频段拟合，当开关频率fs≤fr 时， 拟合函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMIuGibyn3aia78sBjo6TDSrxd0UQ9sibVg5sUedE3jghow50zlCO5P0bErmzcHWBlzMY76a0Vqetudu7ZJq3cMKb3sfBNz7RKxew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_047_6f2d9b477f05.png)
 
 系数矩阵A为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPOI5hhDXcdsUjfMFHT7UFia3YMriaCbjj5zx3sAP7pl5E7DYGnic9kb4emMlD6MG888KnI5ah2aEbD0RUkpwBKz8kpZlygedQicHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_048_fe2380c4c2aa.png)
 
 系数矩阵B为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPmOo0YmGGgQM6OcAdrbxQibPSI5dYtYvWoeAj8xCHqkJAIvnTiacWuNO3XC1ChrjeCSq8FBaqy0hxpBPEYAOkkoVktRUF5849A0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_049_fd97f0e9ba32.png)
 
 3.2全桥和半桥模式SR拟合模型  
 
 同理，全桥和半桥运行模式下，当开关频率fs≤fr 时，拟合函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPhEiacg9OaTV58TjyWPaOhMwghtRe62hROBa3aYWMuTllpbX323BGA7mzZm0icrkXIhKicjWwINOnxIFLc1hdJlvRTrNq5McBibSY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_050_06835eac01a2.png)
 
 系数矩阵C为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPFw6OJDJEeIbgLOH40H8NsY7iaPqDqWiaXcSRzORTThGUOSqrpH6YeJnrU2ujfHOJ4NM0GohZH2aVFZuHicicEFnoAtZaUmq75Zn4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_051_592971196cb9.png)
 
 系数矩阵D为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPNMgXyfC7Lib797Np69joI42px76EGBFl4xmEvayh4ubYMbhCkKzBcnj8yAYb8RoWL8dPXySUhd8gQR1iclNbB2OGUPX2wvEO9s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_052_a2dc41c29b36.png)
 
 3.3拟合模型精度分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPs9yeTVF1lB2E9bN8JBu7WskxKzMwdxKRLPRiaxicReiafGib2NhPt4y3bIS6PpLP2KicjUzmThJB0h7ibQ7lgJ6Le9fCmlrKPEk6zo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_053_0c3045e0d405.png)
 
 图17 展示了三相运行模式下SR MOSFET 导通时间的拟合模型计算结果与实际计算结果的对比。从图17 中可以看出，拟合模型与实际计算的导通时间高度吻合，证明了拟合模型具有较高的精度和可靠性。在图中标注了误差最大的点，该点对应负载为600 Ω、频率为302 kHz。此时，实际计算的导通时间为1 401ns，而拟合模型计算的导通时间为1345 ns，误差为56 ns，误差率为3.99%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPUOOzLN0W3iaJ2U5RolQh81W3gmbuQIsicTTkNJP4hf0DHhiazQ9Oy3K8YE2OcO42I8XaoyZ86Egu4v8wQlk1icicpsMC59an7gYbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_054_743b78c6d3f9.png)
 
   
 图18 为全桥和半桥运行模式下SR MOSFET 导 通时间拟合模型计算与实际计算结果的对比。从图18 中可以看出，拟合模型同样与实际计算结果保持较高的一致性。在标注的误差最大的点上，对应负载为600 Ω、频率为298 kHz ，理论计算值为1394 ns，拟合值为1354 ns，最大误差为40ns，误差率为2.87%。  
@@ -286,53 +286,53 @@ Req\_fb\_k 表示为
 
 所提出的基于扩展谐波的三相CLLC谐振变换器同步整流控制流程如图19 所示，首先，系统通过DSP 的中断服务子程序对输出电压和电流进行采样，进而识别当前变换器的输出负载Ro。接下来， 系统根据当前的负载情况选择相应的工作模式和控制策略。具体来说，工作模式可选择三种类型：三 相模式、全桥模式及半桥模式；同时，控制方式可依据系统需求选择适当的类型。一旦工作模式和控制方式确定后，系统将根据变换器当前的工作频率fs 和输出负载Ro 利用拟合函数计算出二次侧MOSFET 的导通时间ton。最后，导通时间值会通过 增强型脉宽调制（Enhanced Pulse Width Modulation,  EPWM）寄存器进行更新，从而调整一次、二次侧MOSFET 驱动电路的波形。更新完成后，系统将等待下一次中断服务程序的触发，以继续进行动态调整。通过该流程，三相CLLC 谐振变换器能够在不同工作模式下实现高效的同步整流控制，从而提升 整个系统电力转换的效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOFro2OFRlMP4tswqNs4RZYLT0tic621aklYGiaoRObZRssdpicaKVaxQvBeh7eTHDp97qRKw6DvA6IQRIOkT8R6Wz4WpULicywrq0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_055_8e1ad8fae116.png)
 
 4.实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNoRibqicalZXibbjXVXz0eicOemGGWeHyk67v0UuYNjPBO8BrL27yYXgL9nvwlvdADI3WaUdkpuKnrTa9S572FoBRSxo8ZriaIVa7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_056_8061bb5b9fc0.png)
 
 为进一步验证所提算法的可行性，搭建了一台 三相CLLC 谐振变换器实验样机如图20 所示。为了减小变换器的体积，采用了三相磁集成变压器。一、 二次侧开关管均采用了Wolfspeed 公司1.2 kV SiC器件C3M0040120K，数字控制器采用了TI 公司的TMS320F28335。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSrcY5x3C3cuOicW1t2viah8W3Uze6EshZzIPpCdymtqib6oicYmI88w3Jov6zMckb9tCxcYMOG2ebRjch6z6OYBbngEpl2voYwUU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_057_28da4f194f38.png)
 
 图21 给出了不同运行模式下的效率曲线。可以看出，与传统控制方式相比，切相策略可以显著提高变换器轻载时的效率。三相模式、全桥模式、半桥模式的动态切换如图22 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPyuN3pjMaCDV8NvRKLVLT2yY5qYic18uDVrWICBdZwaNIamTv9gQBxMwHYMYmaIy0ETdxllF2jb6sVU4gJBFyhiadMHdgVVXNcM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_058_241a27c7a3e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZVBYzV8azChib3hxFIIAEEma1Pqosn8jwJkOdIcMcSiaj51WiaLodxIJ6PDbYMl2tdR94yslfkwpicEoRx9gBM4cib73BLvicrhook/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_059_bbd1e2a617a8.png)
 
 图22a 显示了当负载从10%变为25%时，变换器从半桥运行模式切换到三相运行模式， 模拟电池从预充电阶段进入恒流充电阶段的过程； 图22b 显示了从满载变为半载时，变换器从三相运行模式切换到全桥运行模式，模拟电池从恒流充电阶段进入恒压充电阶段的过程，切换响应速度较快。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpVpEmFxgtWgbicyV2Dxn5AU5uHxxoNibE3nzYgEoNZwHg5vRsCQ61zfuCI8sCruftzqj9AHWibYE4XeVdz4QYeRC68taIObAadg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_060_581d68384039.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNdBDEq4Zv8IyUQKtjnohUSjjcOsZKLFWN9MRhcbNtLCXDRle5EQhfmNnm2JkCrXRw5XvdfsYoMQrrqjfa34ibWDvuSib9dC1cbU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_061_6419758c40c2.png)
 
 图23 展示了在三相运行模式下采用本文提出的SR 控制时，不同频率下的波形，其中输入电压为400 V，负载电阻为64 Ω，输出功率为2.5 kW。实测波形与理论波形相符，均出现了延迟开通和提前关断现象。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOePQuFQgiaMYqwC6CLRSiaOlZObPcfLQKR8FMpH1gibRBUs9vcGpUCotpZQc4OIjJnUibtkrxsY6FmMpSqMhew2EqynxU5HfhSVjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_062_3399348e3c2e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9U9W2iah0ZmJWibPnBTdAibQtI2P2L6SE6k5iaJNRKTk7ZepaeVCoblnDFv5gBf7ND4Vz9yiadnejPFNbTqvzEDAV96HnZge6f4oQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_063_1a494bb5d08f.png)
 
 为进一步验证所提SR 控制的有效性，图24 和图25 分别展示了在全桥运行模式（输入电压282 V， 负载电阻64 Ω，输出功率1250 W）和半桥运行模式（输入电压253 V，负载电阻64 Ω，输出功率250 W）下的波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNqyum05IX9dkrglPmFD4Xl54mfBnIUJD8YvLF36mnhlXeictQ4ibh6Pciapyr1libvwCgvltskm9atoAjsLLJ5DU76NsDanqicdib5c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_064_bb85c04bff21.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNr67kQ0icRPMHEAhhj6ynUmcEs6iaLkcE21qhsm1NKEko4MbWc80A4eDBy4jYELeyH5bFpBibxCYlQHFXHX0Rah1kt9tBZElHM54/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_065_a95e579d394c.png)
 
 可以看出，当开关频率高于谐振频率时，二次侧SR MOSFET 会在整流电流过零点之前关断，使部分电流流经体二极管。然而，由于这些延迟和提前关断时间处于死区时间内且电流值极小，导通损耗可以忽略不计。实验结果表明，所提出的SR 控制适用于切相策略后的所有模式。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOGuOKbELG6NjF6qYibBlrOooa16icZVucQXFDF1rXahwgOzKFI4BLttnv57Q96dBBGXnIyOLMu50ABHyEVmaUNg35mdWNtQquZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_066_630054c3027a.png)
 
 图26 给出了采用SR 控制后变换器不同模式下的效率曲线。对比图21 可知，采用所提SR 控制后，三种模式下的效率均有所提升。为了更直观地说明SR 控制在不同模式下提升效率的效果，表5 列出了各模式下效率提升最显著的点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO7aCCHXSh7qLneRKFk4WgmnZu9yQg61uRNxatFhML7eIqORYGaRdfJg1cjCQOnhblRt08pBW4Wic8ZT7yv4iclRKTOVg1KWyyXo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_067_54b08b249e85.png)
 
 此外，采用同步整流后，不仅可以提升效率， 还能有效缓解SR MOSFET 的发热问题。使用同步整流前后SR MOSFET 温度对比如图27 所示，本文在输入电压400 V，频率300 kHz，功率2.5 kW， 室温10.3℃的测试环境下，对比了同步整流前后的SR MOSFET 温度分布，当运行稳定后，采用同步整流前整流侧最高温度为91.2℃，采用同步整流后整流侧最高温度为66.8℃，温度降低了24.4℃。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBbhY3Jyn7UovJMEboJicOPbiauZcCTLlkwqacp0oicgNaFHLn78mvaQJHx8qGKm0o0b0mZQ2ug8KnFyZwFqO8vw0ptgVAYfBKHo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_068_de9ce04ea409.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkco7yllORBVjTMuibDqIhJeia2uicJWbNibcaGiavkDPfbhbxf4QLJC2srXc8A4TM8g9qUDHyQh028qicInCp4v9bYCsH1UDVXEut4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_069_274d26e7a56c.png)
 
 5.结论  
 
@@ -344,12 +344,12 @@ Req\_fb\_k 表示为
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNmcU8RbCZxictFcAaKJ2Q05Coibibm1zPjYAgGQkZJ7YjyiaNFsdueRKwxWQIDOSubku62AFN6EbcLbnEQ585eePq1iasDTWAM5VeQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_070_e124dd3af138.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPmR1ibv4ticPHZKpo2gKen4Wdr86xRh9V4aibyRQOpBXLIH0uTBknQhNeyNnBrtUErA9gCRzheN2YWyQJYiad1klhYteJvDUiboQs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_071_cbb65758dfe7.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOEeE73wUYKXqD7EEE3Zj4zUnFJjUkYjQpxe27aVqrzlls3vIUsmpiargwwLhJZxPkg0yLHeoWUFLdPJFibNKq3wibG9VQy3DK9a0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_072_1dca4d9e4309.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMECrK64U1icrhJ1vMSL0Lxz84ZYtGzt9rca29xAUnic27wicA1DrNPtPLxaSibDpnHexv3MP3zCQ1buryPnicVibB4q8AL2dKfGMoWI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于扩展谐波的三相_CLLC_谐振变换器同步整流控制_images\img_073_26cea4d3c578.jpg)

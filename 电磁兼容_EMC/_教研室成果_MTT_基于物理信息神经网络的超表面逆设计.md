@@ -25,7 +25,7 @@ Institute of Applied Physics, University of Electronic Science and Technology of
 
 出版信息：IEEE Transactions on Microwave Theory and Techniques, 73(2): 844 - 853, 2025; DOI: 10.1109/TMTT.2024.3435970 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUXXRmJvkUZYsSzb4LvHuF7ObJZlD0SejqIIHRqDDO0bZibEJEdltDySA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于物理信息神经网络的超表面逆设计_images\img_000_6ffa78f67ffe.png)
 
 论文摘要
 
@@ -51,23 +51,23 @@ Institute of Applied Physics, University of Electronic Science and Technology of
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUXO8gIeKST2SI2YbAgGbu9VrzuBfpXfrbxlnph13aXhJxUbOia5ZLNVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于物理信息神经网络的超表面逆设计_images\img_001_d1aa9e7e799d.png)
 
 超表面单元细胞的PINN模型。此图展示了EAM-PINN的整体架构，包括主网络、子网络和损失函数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU4SfzXJfJdlPjpKLXXxL1oGYulBCm3Mia05mK4tLZFqkCfMAGia4d9xWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于物理信息神经网络的超表面逆设计_images\img_002_bbd538f5c80b.png)
 
 基于本文方法逆设计的20×20单元AMC有限阵列。(a) 前视图。(b) 后视图（PEC接地板）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUOlibPTjH2ngFGb5NYYZOUibL4ly8l8lfnYNcWm8nUI9WVdbSuKAfjsrA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于物理信息神经网络的超表面逆设计_images\img_003_418bfd11f7c9.png)
 
 所设计AMC的实测反射相位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU42uFjr92Lk2TNcPpYbZJLicUcrsSAqZFESJaiagH7ps544eDSNjXfOeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于物理信息神经网络的超表面逆设计_images\img_004_a7e5acfbb86a.png)
 
 基于本文方法逆设计的20×20单元FSS有限阵列。(a) 前视图。(b) 后视图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUkL8wGtSNKWykriabkviaDHkaaf0DuibmlbOaQTh3uqCiaotiaftmpN4yFwg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于物理信息神经网络的超表面逆设计_images\img_005_55b7195dbddb.png)
 
 所设计FSS的实测反射相位。
 

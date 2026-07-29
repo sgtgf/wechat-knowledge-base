@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaDicHJT9ETKGK39cH7UTcuIwCSl9BdcXHXia0xVPlZqyLBE6jAg6VAsSBZhjGiaq1NUtzh5XJofRxuA/640?wx_fmt=png&wxfrom=13&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaDicHJT9ETKGK39cH7UTcuI00cr6RfCAicnIiboHGNTI2QExTic6Oc5Y3Sr4ttgOPYhibRwUibicesGHbcQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaDicHJT9ETKGK39cH7UTcuILgyqicMiannrz69OKdmPBQcw6ozvfoIvsKEmxxexiamFsrR5Nqvvr6Xlg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaDicHJT9ETKGK39cH7UTcuIq331ttuXtajeibFcOyQQgXAnKxDfJTquLYPOAPyiapMu3edksQwGXlcQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5ciaDicHJT9ETKGK39cH7UTcuIyNRUBA1WWb1sqxV6NicaAOUQ46LtdD36kxwZ0KRfWWdTql3hIGiaZM7A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU芯片原厂(TOP_95)_排名不分先后_大家用过多少家的__images\img_002_a49d5b0ffc09.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU芯片原厂(TOP_95)_排名不分先后_大家用过多少家的__images\img_003_0d99a282e936.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU芯片原厂(TOP_95)_排名不分先后_大家用过多少家的__images\img_004_9aa8424a5246.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU芯片原厂(TOP_95)_排名不分先后_大家用过多少家的__images\img_005_33cf580a5bcc.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU芯片原厂(TOP_95)_排名不分先后_大家用过多少家的__images\img_006_9126d7c79d95.png)
 
 注：排名无先后，来源，ittbank公众号
 

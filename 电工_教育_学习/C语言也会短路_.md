@@ -32,7 +32,7 @@ C语言短路现象算是C语言的基础吧，不过有时候代码写得不规
 
 **执行结果：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc8VpJEyqXkyOuwa2Tz00icicrqjywH1184qJu0TeTWIu6McS3R0zH6phjyT4BHsMkATbgZuGtBheJLg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言也会短路__images\img_002_cd770801b0fc.png)
 
   
 
@@ -56,9 +56,9 @@ a || b || c
 
 **执行结果：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc8VpJEyqXkyOuwa2Tz00icicrTcgqtjxjtAyc5cSJ9DWZuyZLPvNibc2ichAavjDgXxSBWH4WWDibrv5BQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言也会短路__images\img_003_75b45758bb18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言也会短路__images\img_004_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\C语言也会短路__images\img_005_d5dcc7ecfdf3.jpg)
 
 ## 
 

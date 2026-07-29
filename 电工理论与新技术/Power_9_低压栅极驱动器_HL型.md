@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/s-GRbNrYO2UCmKZY6OYupg](https://mp.weixin.qq.com/s/s-GRbNrYO2UCmKZY6OYupg)
 
-____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIMf9a6MziaqaQeadw8E7PxR4O3atUiavxhhFckqjlSeZ4jq3iboAjicbDLQ/640?wx_fmt=png)**________**★★★**______Power-9---低压栅极驱动器______**★★★**____
+____**![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_000_49db25ddd687.png)**________**★★★**______Power-9---低压栅极驱动器______**★★★**____
 
 _撰稿：Timothy  校稿：Timothy_
 
@@ -13,7 +13,7 @@ ____________€1.驱动结构____________
 
 HL型也是以半桥配置驱动两个N沟道MOSFET，支持电源电压高达140V，高侧和低侧驱动器都可以用不同的接地参考来驱动MOSFET，从而提供出色的噪声和瞬态抗扰性。其强大的0.8Ω下拉和1.5Ω上拉MOSFET驱动器允许使用大栅极电容的高压MOSFET。附加功能包括UVLO、TTL/CMOS兼容输入、可调开启/关闭延迟和贯通保护。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQZbBgkPZzKHB2hAvQ2JhVqDAHMbnhcYcVQYRA6aa3qwbDGfJibvtJbuw91uOSWo7ULg0Q9bnHaNtQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_001_f05aa239ae07.png)
 
 **_图9-1：HL两态驱动典型使用样式_**
 
@@ -21,13 +21,13 @@ TOPIN：顶侧驱动器的逻辑输入，如果TOPIN是没有偏置或浮动的�
 
 BOTIN：底部驱动器的逻辑输入，如果BOTIN是没有偏置或浮动的，则BG保持在低位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREvXTxRHobfPicIhPWhkKGtic9snxyfVqia85kFtR4ymtvpWaSLhKSia0Sgbx3DMabNJWSPhlsibEUG6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_002_9ff2281b786c.png)
 
 **_图9-2：HL两态栅极驱动器内部结构_**
 
 HL型栅极驱动器具有两个接地参考的低电压数字信号输入，用于驱动半桥配置中的两个N沟道功率MOSFET。输出BG被驱动为高或低，在BGVCC和BGRTN之间摆动，这取决于BOTIN引脚，类似地，输出TG在BST和SW之间摆动。每个通道都由其输入引脚（TOPIN和BOTIN）控制，允许独立灵活地控制输出的开启和关闭状态，但不允许TG和BG输出同时变高。具有出色的噪声和瞬态抗扰性，包括开关节点（SW、BGRTN）上的大负接地差容限（−10V），对称设计允许半桥输出是输入逻辑的反相或非反相。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TRGVXXdBMXNzCFVSIfibDrvrw2VWoX5KqQ50SskDBd3AuUaubnW8Ic5DHL7GibzdUaibyRB539yRPFUw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_003_a8a449329954.jpg)
 
 **_图9-3：半桥驱动IC的基本连接形式_**
 
@@ -37,13 +37,13 @@ ________________________€2.______________驱动逻辑__________
 
 HL栅极驱动器采用两个具有固定转换阈值的逻辑输入，当TOPIN上的电压大于阈值VIH（TOPIN）时，TG被上拉到BST，使高侧MOSFET导通。该MOSFET将保持导通，直到TOPIN下降到VIL（TOPIN）以下。类似地，当BOTIN大于VIH（BOTIN）时，BG被上拉到BGVCC，使低侧MOSFET导通，BG将保持高电平，直到BOTIN下降到阈值VIL（BOTIN）以下。对应的VIH和VIL电压电平之间的滞后消除了由于开关转换期间的噪声而引起的错误触发，但是应注意防止噪声耦合到输入引脚（TOPIN、BOTIN），特别是在高频和高电压应用中。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREvXTxRHobfPicIhPWhkKGt7v6C6KzZs8LmJcAdLUADWSZic6IlcGreZoFAcJLaEgNQibuEDVQ07vgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_004_38fe9f6f796b.png)
 
 **_图9-4：两态栅极驱动器时序图_**
 
 当TOPIN/BOTIN引脚浮动时，从TOPIN/BONTIN引脚到SGND有一个内部1000kΩ下拉电阻器，如果输入未被驱动，则保持TG/BG默认状态为低。PWM控制器IC可以利用TOPIN和BOTIN输入引脚来在开关调节器应用中执行不连续传导模式（DCM）。**_图9-5_**表示了输入和输出的逻辑关系：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSFBxOmEbw2wulmr4BiciaQXbpMF4v1gjGJe1eWTVqmClQSRrZV14lwgU30NWykdO3l9R8cOx07fGibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_005_fe41821f111a.png)
 
 **_图9-5：输入和输出的逻辑关系_**
 
@@ -67,13 +67,13 @@ ________________________€3.______________功耗__________
 
 驱动器的功耗主要由外部功率MOSFET的栅极电荷提供，下列公式成立：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQ6AIT6efzRRgXEZlekcN4vqpvcqYbeDV9jibiaTTYZicF1qdtX5V7TzqicBeIWSLOvFFmBhbUvxeLzcQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_006_60818d166476.jpg)
 
 fsw是开关频率，QGHS和QGLS分别是PVCC驱动电压下的高侧MOSFET的栅极电荷和低侧MOSFET栅极电荷。
 
 考虑具有一个高侧MOSFET（BSC50NE2LS）和一个驱动电压为5V和开关频率为500KHz的低侧MOSFET的降压转换器应用，功率耗散是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCD2U9TEqm2oxLQ2uQ6x7Lc25Y40mibDA7ibztsPjEa9IsiaQhNvHUQ1K8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_007_da8e1b1377f3.png)
 
 驱动器本身也有少量功耗，在300KHz的开关频率下，驱动器的功耗在10mW的范围内，该功耗由IPVCC\_300kHz乘以驱动电压（5V）得出。
 
@@ -101,18 +101,18 @@ ________________________€5.layout示例________________________
 
 VCC和PVCC的两个去耦电容，以及BOOT电容，都放置在驱动器所在的底部，为了与低侧MOSFET具有非常好的热耦合和非常小的寄生电感，使用多个过孔将驱动器的露焊盘连接到GND，GND最终是低侧MOSFET的源极。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSFBxOmEbw2wulmr4BiciaQXbsgSLdCIoXujyUKLkt0vNgSuOptSbuafalTLvAOgoEibHbRZrESd72Sg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_008_beef16ed32e8.png)
 
 **_图9-6：5相位电源示例_**
 
 如**_图9-7_**所示，从高侧开启到高侧关闭和低侧开启的过渡时间非常小，VSW引脚的下降沿在4ns的范围内，同时完全切换高侧栅极所需的时间在6ns的范围内。由于噪声，从VSW/PHASE节点识别高侧MOSFET关断和低侧MOSFET导通之间的死区时间可能很困难，参考由低侧MOSFET栅极信号在其克服1V值时给出，在这种情况下，死区时间可以估计在6ns左右。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSFBxOmEbw2wulmr4BiciaQXbNibp8wSNtbCJ8jPhzZ3Pibe984bhpPSRw3pKiaofZs371B61wEM36TcDg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_009_1fe94697a998.png)
 
 **_图9-7：TURN OFF_**
 
 从低侧MOSFET开启到高侧MOSFET打开的转变如**_图9-8_**所示。在这种情况下，VSW/PHASE节点的上升沿在4ns的范围内，考虑到低侧栅极何时跨过1V阈值，死区时间的持续时间更多地在10ns的范围内。在高侧MOSFET的上升沿期间，可以在低侧MOSFET栅极上看到尖峰，该尖峰通常被理解为感应导通的标志（在VSW/PHASE节点）。大多数时候，由于封装或走线连接的寄生电感，栅极上的尖峰只不过是尖峰，换句话说，尖峰不会立即转换为在低侧MOSFET的VGS上的尖峰。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSFBxOmEbw2wulmr4BiciaQXb2Fiag5DXlCcKR700iax0JzKx5SicicfHHVy2fJTIAT9MhgwVC5Z8qk54kA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_9_低压栅极驱动器_HL型_images\img_010_59077037a0e1.png)
 
 **_图9-8：TURN ON_**

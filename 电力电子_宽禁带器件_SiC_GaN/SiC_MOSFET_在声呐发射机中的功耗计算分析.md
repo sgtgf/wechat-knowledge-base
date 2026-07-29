@@ -19,17 +19,17 @@
 
 1\. 功放逆变电路器件选型  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOevr0SnTpo8pK6diaUQze4wMfF8Iw434S0yv3NPJUMOcg3p6redEvkHrvqAhfrj8x49X4TU74xibp8VNkkribc7sKKWGvQ4E0icZQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_000_6b12b8f0e5b5.png)
 
 发射机功放逆变电路等效结构如图1所示，功放逆变电路采用单相全桥拓扑，滤波器为LC带通滤波器，发射机负载等效为电阻R。
 
 假定输出功率为P，则负载电流峰值Im为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOiaVP159o7qWuUaWXuYM92ScmIPw6C8JRLNDzXBHCe73hOFnMeQ9knxNvzia8zAiaEYWFSjUcsZVcfbGnEyTJGNjq6Q0eEia3Jyia8/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_001_78369e210bf4.png)
 
 假定发射机输出功率P\=1 kW，负载R\=30 Ω，直流输入电压Vdc\=300 V，则所选功率开关器件的最小耐压和电流值需满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNx9ich6lLQvtQ7dyaRbaHF59qZrPKD7UBTrbDibXXzoDGOe8BlEUDqSaCFjiaQUPA5yr56gwhZ2icActouvQWNI2G9D4baoqD7Dto/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_002_3717ea17b5a2.png)
 
 式中，VCE(min)为功率器件最小耐压值，ICE(min)为功 率器件最小电流值。  
 
@@ -45,22 +45,22 @@
 
 根据数据手册上典型伏安特性曲线近似线性拟合功率器件，其反并联二极管导通时的饱和电压Vt、VF-t和电流It、IF-t的关系表达式为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOO41smZArZdTQHP0YERp5OPwFYyRBhtgeL9TRXibZSjg0VcJT4chIGicF6NbjUfTg9es1kY6Vc3Sdmr6ZIfwOXM2ibPSU2kLW594/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_003_a2b84dfec092.png)
 
 式中
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNab0xTjMdyswtvAxCE34XDicWYrgzeNTD5VOsUN1HygCFt3IKu27WN6n41DCMiaPX4Cp06nS3VyOIfJQpJ7lzCmvIA1aia3Gt4vM/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_004_4a01e54feba3.png)
 
 式中，VCE0 为初始饱和压降，VF0 为二极管门槛电压，VCE2、VCE1、I2、I1、VF2、VF1、I3、I4可从图2伏安特性曲线图中读取。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMT1uqcpGEHUXx0GaeyAxXHgxOuCoIGTibX0cqTK98hJtXEH3Kq5P89pesvMwT8YN9Z2c8lsxdTg2rmG7WOD50rxAOnQlz58iaiaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_005_ddab1adf67cf.png)
 
   
 VCE-Tj为设定结温下功率管管压降，VCE \-Tjmax为最大结温下功率管管压降，VF-Tj为设定结温下二极管管压降，VF\-Tjmax为最大结温下二极管管压降，可从数据手册参数表中读取。
 
 由式（3）~（4）可计算出功率器件及其反并联二极管的通态损耗表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNE3UHzLEibfOx18CheIOelTepoYOricKKena6WuibGNSl5rcvjuTw0EN2nwWnXHfFsbxa673wq7O1vhjjqC3OicK1dd36YvjAv0gI/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_006_e8a5e2918ad4.png)
 
 式中，D为占空比函数，T为一个调制周期。  
 
@@ -68,21 +68,21 @@ VCE-Tj为设定结温下功率管管压降，VCE \-Tjmax为最大结温下功�
 
 开关损耗包含开通和关断损耗，可根据数据手册上开关损耗曲线近似线性拟合得出其表达式。一 般开通能量损耗曲线中包含二极管反向恢复损耗。 进行线性拟合得出能量损耗表达式为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO8ZWpoE490noGb3db3XABlI46syicIbnHhibPtoj0L5Ap67yaF4GyUjvcfX0sh3eZrg1icPSIytwu32v8uqjl1E7RAXyDg64jmgE/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_007_2c3187e75468.png)
 
 式中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNKxMZuibyrHXG8PrericegOsqTRKwrhTc2uSpoMv9E8ISRTenjXMumlh7Tc8fDYjHGmbrEuP5CWJ0NZo6EyFRS1hu715seIycY4/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_008_7d573b3d85fb.png)
 
 Eon、Eoff从图3 中读取。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMxd3yzUgUpoYqWOaByjRh6BAknkd1uVK1ZMnibMvG9BTo6D5hpPgC6ibmialdcdFRtFeHBX7mS9e5Jydtny3aiclJwsD0ib7Ww9RzQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_009_95ed1893317a.png)
 
 Eon-Tj为设定结温下功率管开通损耗，Eon-Tjmax为最大结温下功率管开通损 耗，Eoff-Tj为设定结温下功率管关断损耗，Eoff-Tjmax为最大结温下功率管关断损耗，可从数据手册参数表中读取。
 
 当开关频率远大于调制频率时，一个调制周期内的开关损耗表达式可写成连续形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTMAbibicLKShhd2LRRD7jMHiaRgCic5miaibAXVUrLT30DiaDRR8rSibsv7rvYPO3tyibqjQoIjuTXSJIarSj8Jrb4hmCUWHYU9DzEwtg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_010_a409d5dd1f35.png)
 
 式中，fsw为开关频率。  
 
@@ -90,55 +90,55 @@ Eon-Tj为设定结温下功率管开通损耗，Eon-Tjmax为最大结温下功�
 
 声呐发射机功放电路为一个单相全桥电路，常见的调制方式为单极性SPWM、双极性SPWM、单极性倍频SPWM 等。本文仅分析双极性SPWM 调制时器件及电路拓扑的损耗。图4 为单相全桥电路一个桥臂和导通器件与输出电压电流的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNutAn1MZcr9qHvhy5KyV30HIfW9JkJ9AB87MlbZG8IXFXjFtFFcnnHjCUa5X4Z7TAv29YrL7pGmZlEM2XBY8fAkNpg1JibbXfE/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_011_bf86033ec6ee.png)
 
 对电流通路进行分析，可得出不同状态下的器件损耗， 如表1 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpML545dnibIPQcK0L4gehZVfgWaQsqhXSYmBLohc3WnW0o0egEpGktibaf0R6YLnR6fmFVDBoEJLDEmhr7ymiclwBtYNCLEoxqHz0/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_012_e8e12bf78417.png)
 
 采用双极性SPWM 算法的调制函数表达式为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNQgY8xssZwzkZO6tYMibQhezGoh9ttSibfySLqzgHywa5AoEOFB2x4vV9akfRlDOZCXGib4jNtnwdaNoDz3Zv9ujM2Gm4hq1B09k/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_013_2147484a41e3.png)
 
 式中，m为调制度，θ为相位。  
 
 根据文献\[3\]可推导出功率器件P状态时和N状态时占空比为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibZ27GwRqktGHfPicHvoE5y4jNiaEcXTicgNvJdE1a0NAXjur48hToiaZRomwGum7m1QzAlbNKUjsLgzibqNodMhNicAwic5MG9vCSl4/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_014_c1bbbe09feca.png)
 
 结合式（5）、（6）和式（11），可推导出采用双极性SPWM 算法时的器件通态损耗表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPK8ibGpPH6OicibfSDjFBiar8yqfwkedcuLMUIjKRso36bwo0NaUjYVXyRLVwibJIIQ4jLKp9Eic6tMjolZyLLnMRLql8Vbr2nwAcVc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_015_12a8580c1a46.png)
 
 由上式可知，器件通态损耗仅与调制系数、电流幅值和功率因数角有关。  
 
 从前文分析知，在i > 0 时只有V1 产生开关损耗（二极管反向恢复损耗计算时已包含在功率管开通损耗中）；在i < 0 时只有V2 产生开关损耗。由于结构对称，V2 产生的开关损耗与V1 相等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMX90zr64g5LSsz4E6DiaK86D7xCCZU5tvXiaSbD9EhQvmq6XyODFhmugoEXfHcXKKwM0nTPicia0t4s6LqicciaPEarsv1owlSzTtibs/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_016_feea19b62183.png)
 
 从式（14）中可以看出，器件开关损耗仅与开关频率和电流幅值有关。  
 
 由式（12）~（14）可推出功放逆变电路总损耗为 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNlsfEaKpb321HMqVrc8X7Hy5zg35z5vnwOF6Yfb4oYEmJOSCYuYiaVNXGW3b6p85XOricZ479koMWRPHHZYlXfK0dMeibydfrrlY/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_017_7558717bc090.png)
 
 3\. 功放逆变电路损耗计算分析  
 
 查询功率器件IKW15N120H3和C2M0080120D数据手册上相应的特性曲线及参数表，根据前文式（3）、（4）、（7）、（8）计算相关系数，如表2、3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNIYlWYjdla6A0UMsZTCpNOP5gxCicr4iau8Mp6cZqpjw9JqjsfwQLSm0UU4s59CqpY0D3dBRXiaOO0f1QibWQ9Zhiavm5ibpOIfvnb0/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_018_8227f75243b0.png)
 
 在Matlab中创建Si IGBT和SiC MOSFET的损耗表达式，代入拟合系数进行计算。由式（12）、（13）计算不同功率等级时V1管、D1管的通态损耗柱状图，如图5所示（m\=0.9、fsw\=50 kHz、φ\=0）。 从图中可以看出，在固定开关频率时，随着功率等级的提高（即电流幅值增加）功率器件及其反并联二极管通态损耗增加，相较于Si IGBT，采用SiC MOSFET器件可降低通态损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOYficAibk6wa2cNs4Yv6GWIe0RDoxEs44ibzMzOCgPoEPxH1Etu2pp2NIjzWXZdUUpjtqKHUMMQt055qqoxcxbFHNyTrDPwSUj7c/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_019_f921005f7948.png)
 
 由式（14）计算不同开关频率时V1 管的开关损耗柱状图，如图6 所示（m\=0.9、I\=8A、φ\=0）。 从图中可以看出，在相同功率等级时，功率器件开关损耗随着开关频率的增加而线性递增 ，SiC MOSFET 产生的开关损耗远小于Si IGBT 所产生的开关损耗，优势明显。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMoCiaHpdNTIVWLS3xtm7Mia1ibrmAz4IOoTyyT7XA84GVI7mj8icBDkPLvCnCRZj9MSrwV4uWjeS1NNia474gjphSUAepgfibTVztG0/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_020_98e062c8f9b4.png)
 
 由式（15）可计算不同功率等级和开关频率下功放逆变电路的总损耗，如表4 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPQUxeiaGbMNAKZ0WpCDNbAdIRonmoMrZPY1AkVSbqkhU243al5IahvqS2iaOKkpccSjcyWX38phlbdibzQk5gMWhucFSPTAyxE4c/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_021_cadc971f0521.png)
 
 从表中可以看出， 相较于Si IGBT，用SiC MOSFET 时，随着功率等级和开关频率的提高，损耗减少量增大，功放逆变电路的效率显著提升。这进一步说明SiC MOSFET 更加适合用于高开关频率和大功率场合。  
 
@@ -146,11 +146,11 @@ Eon-Tj为设定结温下功率管开通损耗，Eon-Tjmax为最大结温下功�
 
 发射机功放中功率管的损耗均转化为热量耗散在空气中，无法进行精确测量，因此，我们通过功放效率的方式进行试验对比。按图1 电路形式进行试验，除功率管外，其他条件保持一致，实验条件见表5。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMUUY4JnwbItrhFkb3PXtiaAgdjSSYz7HlFXTzuMJT60iawTM2JjmTWiaqjrzTEVCwgm8ZpdCrLgF3rG5LXwibAvickhaPhGYk0c02w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_022_1a726d22faef.png)
 
 测量负载两端电压U，计算输出有效功率P0\=U²/R，测量发射期间输入直流电压Vdc和直流电流Idc，计算输入功率P\=Vdc×Idc，计算出效率η\= P0/P，实测参数及计算结果见表6。从表中可看出，相同实验条件下，采用SiC MOSFET 器件后，功放效率可提高，与理论分析结论一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPVnvJnMCa2LG1gxicOOuUUP4WDZCKiaJPP8DE2qGsbO0Omcl1W1s8zxevvgfrbL1FZhkma1nNVjdjtKOrOicPVSz9KS5Y0RJ4SN4/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_023_bedce63b55c7.png)
 
 5\. 结论  
 
@@ -162,7 +162,7 @@ Eon-Tj为设定结温下功率管开通损耗，Eon-Tjmax为最大结温下功�
 
 综上，从降低损耗、提升效率维度，SiC MOSFET应用于声呐发射机中可完全取代Si IGBT。文中对全桥电路进行了研究，结论可推广应用于半桥和推挽等声呐发射机功放电路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOyt9jKWsgHgdH38CpibSFV9oIObH525YDSUwNuxmTEtXgIddUJbEsphYQYicpcEs58PO8Urias7kmDSDxfPhdibgvfo3kn98gia3Qk/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_024_3d6b2cc3c8f4.png)
 
 图片来源：网络
 
@@ -172,14 +172,14 @@ Eon-Tj为设定结温下功率管开通损耗，Eon-Tjmax为最大结温下功�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpP3J9wW3Qjy8ShWcWbyLq8GroWDkOkRCWZgqEjB34ehUWkhdbmyv2DQZWIOCffsCTUnHPTMic0UaExibh6EpUsry8JyOM5OLfA9w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_025_5a869c9b18e8.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMtatXxJlK3Nb3NZaic7ia1cOAFPVVv5CXW0Wm6iboa4Niaw5UeD1tJiacoa6uUI6kbUlN3eqbIpPIxRQM8licQw0Hr07NDoyK3RLrcI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_026_80f34a1b9fb3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUBpI5jJM7H8ODM87DTz1icfia1ibrJFcbPnOMfiaNXqyns4eNx6icUj7Rhu1Ymvn5NBe7hxwBJicDiaPicdalw7ic5AaXcLKkImbxic4Kc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_027_283da619e55f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPV3cWiaWtJUiczsMibkr2ROhz6IfZia4YibqJHuDKIGHKiacbdHNHp9SN1er0TlybNNeJSkL1orZm35JRco9wBmOibDXBMvwXCQKg75w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](SiC_MOSFET_在声呐发射机中的功耗计算分析_images/img_028_ad36cfc6e711.jpg)

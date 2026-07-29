@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Xj-9\_ywLlhbz40tYOxoJlQ](https://mp.weixin.qq.com/s/Xj-9_ywLlhbz40tYOxoJlQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKIiaX2giaftiaWyrqOEicZY4ddS1czoao3ha5zQovia0iaDFXibVWM2LGrurTUH49G8dfiaHHvmrpnJIgmQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机与控制学报_正式加入OSID开放科学计划_images\img_000_5b30045276b2.jpg)
 
 《电机与控制学报》从2019年8月起正式加入OSID（Open Science Identity）开放科学计划。在文章上添加开放科学二维标识码（OSID码），可以立体化展示科学研究成果，突破纸刊载体的局限性，为读者和作者提供一个功能强大的科研成果展示及学术交流平台。
 
@@ -41,7 +41,7 @@ No.2
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ntbAhyk4TH8rxwQeJR4ZNN58jwQybKAcRdKiaU52ArwOLlHIURgg5OibDow7uBqTIbbMHvwSSOLG8HaFXMUGbTAg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机与控制学报_正式加入OSID开放科学计划_images\img_001_b50cee3b0d51.gif)
 
 **电机与控制学报**
 
@@ -51,4 +51,4 @@ EI Compendex收录期刊
 
 关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKIiaX2giaftiaWyrqOEicZY4ddKwpwlDmsYMr2IovO0SGiade0u27kqFf7Yn4m41lLzgAENPiaGDoda3fA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_电机与控制学报_正式加入OSID开放科学计划_images\img_002_79bbfa9b62f0.jpg)

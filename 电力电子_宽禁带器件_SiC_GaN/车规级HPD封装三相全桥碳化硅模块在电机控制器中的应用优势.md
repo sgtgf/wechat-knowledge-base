@@ -7,7 +7,7 @@
 
 #   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMPSClez5SliaDUlKibo1FRxGqbdRXVRIWQ7S0doTUibsChNcJ1w5V3nOwppVG0QWvcSmNJglUic3Fdx0QH27eQ5LAglFc71Ul53uk/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_000_49e0fdae372d.jpg)
 
 # SiC器件在新能源汽车中的应用优势  
 
@@ -21,7 +21,7 @@
 
 #   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPcCVcd2ko0mqoScvX4glXFpNKEf0UnbV5WNN1LDjL00svsFtgicasnUR4h0rabuAoHuadibIOuxG2k6An1MkK4O9VFTFw6YkytQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_001_61f0947053af.jpg)
 
 HPD（High Power Density，高功率密度）封装是专为高压、大电流功率器件设计的新型封装形式，搭配碳化硅材料的固有优势，使得HPD封装的三相全桥SiC模块，相比传统硅基（IGBT）模块、普通封装SiC模块，具备更优异的综合性能，尤其适配新能源电机控制器的高要求工况。
 
@@ -43,7 +43,7 @@ HPD（High Power Density，高功率密度）封装是专为高压、大电流�
 
 HPD封装针对碳化硅器件的高频、高功率特性进行了结构优化，完美契合三相全桥拓扑结构的应用需求，其核心封装性能的优势体现在：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpODSzs8s7bxsm8VqZJ8W26sJDOxv1K4mMDdVCSAq3brojk7tIUfRr3g2aEJ5R03v5YuBAPVT8QQPibAfBrI8FdHFia3lUaBMUBes/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_002_76e6a797fa86.jpg)
 
 HPD模块芯片布局图
 
@@ -81,35 +81,35 @@ HPD模块产品 ：
 
 HPD封装的SiC模块，应客户需求，按功率端子做了长端子和短端子；按散热方式做了水冷散热（**PinFin）**和风冷散热（平底板）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOlyCRiaY4rkNMs9ZsibxmzbOLxhiae0mZH7n76FhZwHOn2aHOjcIV7mic0RFsnEnvEZINrtCHYDrhoVNOM8TPg8Lr8aFDd9OEuzL4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_003_3f94a8a758ca.png)
 
 模块的拓扑图（常规端子）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1UMwhicUibiaE271p3icnKvZfm5PBfEaibgMt9jITEzar1I2r2k5c9yXA1d1059MbY8YU8kWwoRv7dx2JIAp9byPHictNmArKPyW8I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_004_abc949411583.png)
 
 模块的拓扑图（长端子）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpP4wTWyM4SwFPU7USJx5fs6Q6sNfeHX3e0Xhcnn2ia48bKE1icPxHWIksotae7HicjxNXic7BJhEDwdcQ4pHf5sS5kaJSAtMqYZO9k/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_005_2e2f4f2c655b.jpg)
 
 模块的实物图（长端子）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNTJoIAViadwEQ9LLcuFtkexFLibziaT9gibNdImcTBKWf1tnPB8enlGZtjMPhCEJbaLql700OwJMexoQ3OxT4u7MTYiahqeTB2Tibx8/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_006_392b325e7e1c.jpg)
 
 模块的实物图（水冷散热）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPJQ0FNibOCOGt5ia32iaM50sQQUzq5ibhOPloUvB74Zblsw3RqrSdibnHMX6IrWcuTiaa48gulhxibqhlbYHGk1Jxric0vWJEJribFAiakM/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_007_0700de9ddd4a.jpg)
 
 模块的实物图（风冷散热）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOxSbNyx5rg68Ox4VPWo9awVLrEflboKj1egFeia0cBtLps1WO2gzZBiavEHqwUXMr2zeicunP6jwjQ7vcfZ1E0sJBWL8JY87RRIc/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_008_ac5ca7eb26c5.jpg)
 
 HPD模块+驱动板（驱动板是自主开发，方便快速测试验证）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOLDcBNxWpF1AmgHukHlmb2Jp1icxSge6GPpHQWmWrUa1v8Dgan7Y5bicpnA78czpdsI4b4Y2HFZFiaQ4aUywl49O4iaRIiatzKxyrA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_009_8c948b4e5ce5.jpg)
 
 模块+驱动板的实物图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMRQKwUYaAGDQBpYctnqS9l2kiax1mFT1zH5ejcCNpN9M9biauxBGLdMeNgYTuzS606bB14pWTf8qKWdhZuciaZcqkqCTMgoYR454/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_010_8d5b09835665.jpg)
 
 ## 第四代SiCMOSFET技术平台产品线
 
@@ -123,7 +123,7 @@ HPD模块应用场景 ：
 
 #   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPpWFzxA5DCaxhTIKOic5rxmaKHYAwmeGYjP54CTgwBIic5e7ySpsibgM32iaRqdAhY4I3q2a7OMhGgZyn9ZjQ7QUZ2ABgTouJPBNo/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_011_95ce1d06f866.jpg)
 
 # 总结
 
@@ -131,7 +131,7 @@ HPD模块应用场景 ：
 
 新能源电机控制器是驱动系统的核心，功率模块则是控制器的“功率心脏”，其性能直接决定了控制器的效率、可靠性和体积。HPD封装的碳化硅三相全桥模块，凭借SiC材料的低损耗、耐高温、高频特性，以及HPD封装的高功率密度、低寄生电感、高可靠性优势，应用于电机控制器中，可实现效率提升、体积缩小、响应加快、可靠性增强等多重价值，完美适配新能源领域的发展需求，也是你设计电机控制器的优质选型。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMWZObHWnd6ibGxmvGhrQn1vPLp77gj7ldKYicxBDMPllYd3tWfXH7G2ZcWzVOJLjRUgy3aibdY3Anu0dHDkCdQd3KRSQNrSQydbs/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_012_2230036a9599.jpg)
 
 未来，随着碳化硅技术、封装技术、控制技术的不断升级，碳化硅电机控制器将朝着高效化、小型化、集成化、智能化、低成本的方向发展，HPD封装作为适配高频、高功率场景的核心封装形式，将在其中发挥重要作用。
 
@@ -141,7 +141,7 @@ HPD模块应用场景 ：
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkAy1M8MxOvB4JCoicClRoib9DvjH8bwl064QibI9DortQn5ib63D2c9lPwsbUp7335sGLL0u0r7b2LXvmFAqCUEvVUwYJaEU0hN0/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_013_b04bc6413fb4.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -149,7 +149,7 @@ HPD模块应用场景 ：
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMSCJiaKfMouZBK05N93IiaHRQTYrEzLDIK2XZXMCCSUBAbxp6uTsMpevGibNial2gicdkzcY5WwZDIWicfwSPRdR4RyxCefh2ROBpSY/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_014_b65a8150f7d9.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -165,7 +165,7 @@ HPD模块应用场景 ：
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNHluWKG94eKbYEEgDwodK45INsgWhflrStLY2Ngh8ibVte18sgbnKJRx0iaasRA7Vthft9etO0ZgPNc4GHAsolliaCz5yEGwgwA4/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_015_deedf14ee32a.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -213,14 +213,14 @@ HPD模块应用场景 ：
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMMDib5nwmRmCwSFzlNFic5cGuiblIBlkNoLC4DoZt4mdp4dqqSkycfZGubgWAice2wed2Wbjp5iaZh4ribWqHKQMibIINh0SEcHTRtiaE/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_016_1370c2f4c3c4.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPLS0cD76tVdLxq2kM5OhLf2OZuKKqtRLRow95oQpIT5iclYqRqT6sgTkib5Q66NQ06bo0fAbTHJOehAV4A6jpaulyiaWcQRd3eWY/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_017_8702a4e0246e.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpO3gRzKibXQhQAWFiaaO7zUXzYYuJcicl1n9GEiazZQxsAibOPSG2n55dQWbse9P8lpzicia1BuR1tYGdPwZmMBnjx6n05Xgg7kZtZiauw/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\车规级HPD封装三相全桥碳化硅模块在电机控制器中的应用优势_images\img_018_4dec8d6a0dc3.jpg)

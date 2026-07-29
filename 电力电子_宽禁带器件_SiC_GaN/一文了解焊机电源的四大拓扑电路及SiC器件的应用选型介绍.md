@@ -5,13 +5,13 @@
 
 SiC MOSFET器件及碳化硅功率模块在工业电源中的应用前景非常广阔，主要得益于其卓越的高频开关能力、高耐压与高可靠性、高效率与低损耗和高温特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwENiaHgCfLjlUIc1fbkiaNmcF0KlOeLIBGQugUZibArzdHDeHWmyENwtpPA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_000_0570c6a1d57c.jpg)
 
 SiC MOSFET器件及碳化硅功率模块在工业电源中的应用可以显著提升电源系统的性能和效率，降低损耗和成本（产品小型化）。
 
 本期就重点介绍下SiC MOSFET器件及碳化硅功率模块在焊机电源中的四大拓扑电路及SiC器件的应用选型介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFDE6WEjpF1bfTXpKZjYCic5wQOJ6iaiaPcjmSXxDGOiaQeexK7Dp93KNdYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_001_2031f65e772f.png)
 
 焊机电源中的功率器件对比
 
@@ -21,7 +21,7 @@ SiC MOSFET器件及碳化硅功率模块在工业电源中的应用可以显著�
 
 以500A气保焊机（NBC-500SIC）为例：每月可节省电费约614元，设备增加的初始投资回收期**仅需60天**，长期使用成本优势显著。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEyZqDa0oUpp2qFaVqib2OK6p5Kib0ArAdKCEYyiaM2etFtU1ma1RNKjeIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_002_33e18a70ebe0.png)
 
 碳化硅焊机与IGBT焊机性能及经济性对比  
 
@@ -47,7 +47,7 @@ SiC器件核心价值：降低开关损耗，提升频率至70kHz以上，从而
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrflMQC3xa2Feux3Kbq81bWtSic1Y7roiaZRWsHcPFW0clrxwaUh25roVHaMk76bPvWENeibd5tnbLPrQ/640?wx_fmt=other&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_003_91c336f62ffd.jpg)
 
 爱仕特SiC器件选型推荐
 
@@ -61,7 +61,7 @@ SiC器件核心价值：在成本敏感型应用中，实现效率与价格的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEKT0xqsPWl6jdwsVXz0eJvpz7eyClETxshlkdpX4A3RaA1DqRCib42vQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_004_40d0b69ba60b.png)
 
 爱仕特SiC器件选型推荐
 
@@ -75,7 +75,7 @@ SiC器件核心价值：SiC器件的高耐压（≥1200V）特性天然契合推
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrflMQC3xa2Feux3Kbq81bWtlffs2eFO6yicoJpaZygY9FqEJ6Jcs07rgNviaCygvkq2hwQGSEic3cncQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_005_574d0c1efaac.png)
 
 爱仕特SiC器件选型推荐
 
@@ -87,13 +87,13 @@ SiC器件核心价值：SiC器件的高耐压（≥1200V）特性天然契合推
 
 SiC核心价值：利用SiC的低导通损耗和高速开关，进一步提升本就高效的正激拓扑的功率密度和轻载效率。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrflMQC3xa2Feux3Kbq81bWtVB4cpiaicP4roWBEutzWYeMLp1qZYHC65FVxfpVVkc8WtyJ96m1v9ypg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_006_59d1ff6365d4.png)
 
 爱仕特SiC器件选型推荐
 
 应用焊机电源的碳化硅器件产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrflMQC3xa2Feux3Kbq81bWthWB25j5hQmNVq5oPkFfzLM4RfrdTibEKefFNKL81ZgynFjc7NQxTrsA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_007_27edd3687398.png)
 
 爱仕特SiC器件推荐方案汇总
 
@@ -101,19 +101,19 @@ SiC核心价值：利用SiC的低导通损耗和高速开关，进一步提升�
 
 1200V的SBD的电流20A-100A，主要推荐TO247-2封装，封装有多种选择，可以采购裸芯片自主封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEVtYLQVYxQuatnVIOLnTtoPNrkrWwWJtPqAfR6ol0zgzQibw0Z8XR3MQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_008_b50728197df4.png)
 
 SiC SBD产品TO247-2封装及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEwVfe5M5GvOStQg1cH1uF195lvicmUrZ8XcQBzicI7qMibYiag0VJIViajtg/640?wx_fmt=other&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_009_6c0da6ced828.jpg)
 
 SiC SBD产品参数表：1200V20A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEdicWOcczzjtUDFnGGKMvf6a0LCpqsxPqPOVhfWby9PtpYuxdib8d2iaZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_010_9cfa9b2e2d97.png)
 
 SiC SBD产品参数表：1200V30A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEZbjbLiaAOA2Sh28EH7UIVXO2YL9byM9UOY81YwCOUXqKWz8Me3mUbHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_011_e2edad3cfc82.png)
 
 SiC SBD产品参数表：1200V100A
 
@@ -123,23 +123,23 @@ SiC SBD产品参数表：1200V100A
 
 1200V的SiC MOSFET的电流20A-250A，主要推荐TO247-4封装，封装有TO24-3、TOLL、TO263-7、SOT227、DFN8\*8等多种选择，可以采购裸芯片自主封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwE2DaNOuQBu8oVVYzdbZEhic2jQelbgmC30rWyHbADlhVZfxiavlLwibdnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_012_4ca588d0b8d5.png)
 
 SiC MOSFET产品TO247-4封装及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEocOpTEUOq9okBcnyL4TYQMuLuu51f0eZjicOkcqZowYYib6nSnrGURgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_013_40d3b7da17e6.png)
 
 SiC MOSFET产品参数表：1200V32A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwE3iaKib32bZnRVRXLMF3bRg0ic15ibds1bpN9AhXjjFwsYVfhMsHkf1iarxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_014_066aa49de6b0.png)
 
 SiC MOSFET产品参数表：1200V60A
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJF4XybFMvtfea9pywOXeNOeL6csia9zrKnwCNxxbpgQSOD7HsHPITTaBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_015_c5a1c4eb75ee.png)
 
 SiC MOSFET产品参数表：1200V75A，驱动电压+15V兼容+18V
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmYC8TdHYZco8xxgfSseRwEFr5lc45AnEXSTyJRlIfL3BDbSIhYr9TLTLKA8ViciaVA8J3hICib3U3VA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_016_4bb591fe3c79.png)
 
 SiC MOSFET产品参数表：1200V115A
 
@@ -165,31 +165,31 @@ ME2（34mm）封装模块
 
          RDS(on) ：4~80mΩ
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFRBOXu8QdibII85tJW6ocibvW1w1ZsTQKia335Fz2T8re7U2ZkqSibF8eYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_017_b62b5926866b.png)
 
 ME2模块产品封装及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJF0uUsGfBtVNQgM5eoMgIib6R4MibXObcYUH9GRWgZHdWzoJQpxUO1uHYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_018_e7db236d4452.png)
 
 ME2模块：1200V,90℃电流82A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFLibp63bNoABam0Yj5KKGOSoEfCCAbEIGichnWq4sjDfrHsfgiby0YsLzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_019_88013f98d745.png)
 
 ME2模块：1200V,90℃电流110A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFWMr5xV7WtyI3rJs87Bzg7PiaFibDibe8Hg6ROCib1PibFytIcFUnfZj0bgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_020_37982fb16ec2.png)
 
 ME2模块：1200V,90℃电流130A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJF3qSVbC5PVfQucgAZSAhbkMreicnEt9IaCZ4DmEBZzUq4Uw2DgialAbcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_021_84b711b714d7.png)
 
 ME2模块：1200V,90℃电流160A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFiabg6LiaqrvSl3CiaM6icQwp8nQoRH1dI116seKpoh10IchWN8WAT10AqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_022_101e6eea580e.png)
 
 ME2模块：1200V200A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFWEBL2WRFdbj9kyLoeunvr1UUaia1Fcox5v4iaVYw06poHJB8zficBtjkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_023_bda2c0157ed5.png)
 
 ME2模块：1200V300A参数表
 
@@ -213,29 +213,29 @@ Easy-2B (EasyPACK™ 2B) 是Easy封装家族中的重要成员，专为1200V等�
 
              **R****DS(on)** **：3.3~80mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFSkjzqiaiaCsdlhNSic6kZicRickABcNZ6EibK29hIMF7PjWt04BUA4ibdrpRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_024_7e025964be2f.png)
 
 MEP模块产品封装及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFiaDlVvCAMF1An8uQTtblO8aVMb0NOapjAxEicRYiclIslR6yzheQic4Mmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_025_3b5ee3314d96.png)
 
 MEP模块：1200V,100℃电流130A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJF1KcjcX6L233AnOlNsANw6iaEl5WgyofPU22Ub80wBVRI9PgNxjPiawsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_026_ae9f826b5e44.png)
 
 MEP模块：1200V,100℃电流160A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFsMVBfBTsrgEic0Rv6pyQa1TEINjodQQPyy3TLOlZXpYnlCksOPJ82WQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_027_5636b81505b5.png)
 
 MEP模块：1200V,90℃电流210A参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFo2rib6uOBxyTgQg4yeQ7BPNFFPnwf0JxIQjL2Hw5yzpalljE0vYZ0YA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_028_ec6b82b61443.png)
 
 MEP模块：1200V300A参数表
 
 碳化硅器件焊机电源典型应用场景
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIv1ibB5ja5Rr1Zk7iaeTUJFUWFauUvlgMpDPriclaYGIIBwZkTtbibdYeeCIHGUgTjXWc1wxtY3gOXg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_029_051f7fcd827c.jpg)
 
 高端工业制造：航空航天、轨道交通、船舶制造等对质量和效率要求极高的领域。
 
@@ -257,14 +257,14 @@ SiC MOSFET 和碳化硅功率模块正在引领焊接电源行业的 "高效化�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ILnqiaiabsaGgdiaUxSazXzMI3qcrW6Wy7U4cZ7ibKDkiccZ1fvUicDz2N9RQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_030_8c7e1ce5a1b0.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIvDuHqMqw4NzkBLww55AokZ79ddHOF2VV3K8L19g4mVAcYVyBqNrYJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_031_b5a7d087f54a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIeJibUoHo0j34QnibONuR7PBvtN4bQKpbxC3Qz8GwYpdtMF3AU6zibghcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_032_3c83fb393d7a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIPb5XNpOqLdKiaHtibOic2VBC3WV34acRiaVe8Je0EnHroDlNh0cEC9EM7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解焊机电源的四大拓扑电路及SiC器件的应用选型介绍_images\img_033_6fd1b38e24d0.png)

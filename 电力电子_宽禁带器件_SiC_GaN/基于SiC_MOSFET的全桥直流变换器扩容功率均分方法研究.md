@@ -25,13 +25,13 @@
 
 功率半导体器件是各类开关电源系统的核心器件，器件的性能从根本上决定了系统的工作频率、效率以及可靠性等。其中以Si IGBT以及Si MOSEFT应用最为广泛，但由 于Si材料性能限制，二者已经无法满足大功率场合下系统对于高频、高压的要求。随着 材料技术发展，以SiC材料为代表的宽禁带半导体器件逐渐占领市场，相较于Si器件， SiC器件在禁带宽度、临界电场强度、热导率等方面有着更优异表现，SiC材料与Si 材料的性能对比如表1-1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Ou9K9xw2GHiaGR0dnTHoibJEVgcpOSfv1oTNF7zX8FqxuBmmibtDLaGMqw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_000_77329b376fb5.png)
 
 SiC器件中以SiC MOSFET器件发展最为迅速，由图1-1可知，相较于Si MOSFET， SiC MOSFET工作频率以及功率等级都有着显著的提升，使得其在高功率密度、高温、高 压等应用场合下有明显优势。 
 
 将SiC MOSEFT应用于直流变换器中，在提高系统工作频率、电压以及功率等级的同时，可以有效地降低系统损耗，提高功率密度。由于SiC晶圆生长周期、器件封装 等因素，导致现有SiC MOSFET通流能力弱于Si MOSFET，因此在某些大功率场合要求下，基于SiC MOSFET的直流变换器需进行系统扩容以满足功率要求。一般而言系统的扩容分别可由器件串并联以及拓扑输出串并联四个方面进行实现，但无论是器件串并联或拓扑输出串并联都不可避免地存在着输出功率不均分的问题，因此如何实现基于 SiC MOSFT的直流变换器扩容功率均分具有重要理论意义和工程应用价值。本文分别从 器件并联和拓扑输出串并联两方面对直流变换器扩容功率均分问题进行研究并给出具体 的均分方法。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Omd8ZdiaFicoKmYDbExDs6WzzOkwJrl2QtMC2A9lStZHSTAS9NicIbEbSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_001_05015d1d4e27.png)
 
 1.2 国内外研究现状
 
@@ -39,13 +39,13 @@ SiC器件中以SiC MOSFET器件发展最为迅速，由图1-1可知，相较于S
 
 由图1-2可知自19世纪50年代晶闸管诞生开始，历经半世纪发展已有四代功率半导 体器件面世。其中有关SiC MOSFET器件，虽然1824年SiC材料已经被瑞典学者 Berzelius发现，但由于成本以及制造工艺等限制，SiC材料并没有得到广泛应用。直到 1955年，Lily提出的升华法实现了高品质SiC晶圆制备，SiC制备技术迅猛发展，SiC 材料开始被应用于各个研究领域。1991年，美国Wolfspeed(原CREE)公司推出了首个商 用SiC晶圆，20世纪初，Infineon公司发布了第一款商用SiC二极管，由此SiC材料在功 率半导体器件领域应用开始迅速发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OMgKBHK7iaOI6lzlZpgLwqWjRVShjpLGxyCVGDK96Zd8DqhdHgibKXInA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_002_0e7f75ee05ea.png)
 
  随着SiC材料制备技术的完善，SiC晶圆尺寸不断改善，2010年Wolfspeed和Rohm 公司开始推出平面栅型SiC MOSFET产品，其中Wolfspeed公司采用双注入MOSFET 技术路线进一步改善晶圆尺寸，所推出的产品晶圆尺寸从10μm降低至了6μm，导通电阻 也由12mΩ.cm²降低到了3.78mΩ.cm²，并于2011年推出了市场上第一款功率SiC MOSFET“CMF20120D”。2015年Wolfspeed公司基于已有技术进一步提出了中心注 入的SiC MOSFET结构，进一步降低了SiC MOSFET的导通电阻。目前SiC MOSFET 仍处于快速发展阶段，市面上的SiC MOSFET产品耐压与通流能力不断提高，2019年ABB 公司完成了电压等级3.3kV，通流能力100A的SiC MOSFET器件的研制，Wolfspeed公 司推出了电压等级3.3kV，通流能力45A的SiC MOSFET产品。相对于国外SiC功率半导体器件的发展，我国对于SiC功率半导体器件研究起步较晚，2012年，西安电子科技大学基于4H-SiC型材料研制出了一款耐压等级850V的SiC UMOSFET器件，但并 没有达到可以投入市场使用的水平，直到2017年，比亚迪微电子团队研制出了两款适用于新能源汽车的电压等级1200V SiC MOSFET器件BF930N120SNU与BF960N120SNU， 二者通流能力分别为30A与60A。 
 
 为实现直流变换器系统扩容，可以将通流能力低的SiC MOSFET单管器件并联，组成并联模块用于变换器中，通过提高单个模块的通流能力来提高直流变换器系统的电流等级以实现系统扩容的目的。理想条件下，同型号同批次的SiC MOSFET器件参数完全一致，此时SiC MOSEFT器件不存在并联不均流问题，然而实际应用中，因SiC MOSFET 生产工艺等因素影响，即使是同型号同批次的SiC MOSFET器件，参数之间亦存在差异， 此时Si C MOSFET器件必然存在并联不均流问题，文献\[29\]对同型号同批次的SiC  MOSFET器件参数分散性进行了讨论，最终得出了同批次SiC MOSFET中各器件的阈值电压、导通电阻以及跨导系数的分散性较大，且随温度的升高，导通电阻和阈值电压的分散性随之增大，而跨导系数基本不变的结论。文献\[30\]对SiC MOSFET并联运行时，器件阈值电压存在差异情况下各支路的电流特性以及器件损耗进行研究，最终得出了阈值电压小的器件开通关断损耗均较大的结论。文献\[31\]通过仿真和实验分析了SiC MOSFET漏极与源极寄生电感对并联支路动态电流影响，最终得出了SiC MOSFET源极寄生电感差异 对器件并联各支路的动态电流有较大影响的结论。文献\[32\]在Psipce仿真软件中搭建了含寄生电感的SiC MOSFET双管并联双脉冲测试电路仿真模型，使用该模型对SiC MOSFET 各个寄生参数发生变化时各支路所存在的不均流现象进行了仿真分析，最终结果表明， SiC MOSFET所有寄生电感中，源极寄生电感Ls的增大可以有效抑制器件阈值电压分散性造成的并联不均流问题。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0ObWYz0IfRHUe11GWbmTPy3O2XXYFCyQdic836ZMdZcEUIkxWYzeAic1yA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_003_5f297990ff21.png)
 
 上述三个方面中，采用外部均流方法进行强制均流得到了国内外学者的广泛关注和研究，根据所使用器件的不同，均流方法共分为采用无源器件进行补偿以实现均流与采用有源控制实现均流两大类。文献\[37\]在建立SiC MOSFET数学模型的基础上分析了SiC  MOSFET并联不均流的影响因素，提出了一种使用多个共用磁芯的耦合线圈串联，利用耦合磁通约束来实现SiC MOSFET并联均流的方法。文献\[38\]通过检测SiC MOSFET开通关断瞬间源极电感电压来得到SiC MOSFET电流，在此基础上通过动态调节栅极驱动 电阻来实现模块并联均流。文献\[39\]针对SiC MOSFET与Si IGBT并联混合开关(SiC/Si  HyS)提出了一种可变驱动电压的SiC/Si HyS驱动电路，对SiC/Si HyS中的SiC MOSFET和Si IGBT分别采用不同的电压进行驱动，该方法成功提高了混合开关的工作可靠性同时 也为SiC MOSFET并联均流提供了新的解决思路。文献\[40\]便提出了一种驱动电压可调的 SiC MOSFET驱动电路，实现了并联各SiC MOSFET栅极电压的独立调节，并且采用线性自抗扰控制(LADRC)算法，提高了器件驱动电压的控制精度和响应速度，有效降低了 SiC MOSFET并联不均流现象。文献\[41\]提出了一种主从栅极控制驱动电路，该方法将并联SiC MOSFET分为主器件与从器件两大类分别进行控制，从器件栅极电压以主器件栅极电压为基准通过闭环控制实现并联器件栅极电压一致，从而实现SiC MOSFET并联均流。文献\[42\]提出了一种无需数字处理器的用于SiC MOSFET并联的驱动电路，通过调节控制信号延时时间和驱动电压实现SiC MOSFET并联均流。本文针对SiC MOSFET并联均流问题，开展了SiC MOSFET并联均流影响因素及抑制研究，以期解决SiC MOSFET并联不均流问题。 
 
@@ -53,41 +53,41 @@ SiC器件中以SiC MOSFET器件发展最为迅速，由图1-1可知，相较于S
 
 直流变换器拓扑分类如图1-4所示，可以分为隔离型与非隔离型，非隔离型直流变换 器以Buck、Boost及其衍生拓扑为主，这类拓扑无变压器结构、体积小、成本低但源荷间 无电气隔离、安全性较差，一般用于低压小功率场合；隔离型直流变换器具有隔离变压器结构、根据变压器类型不同可以分为工频与高频隔离直流变换器，工频隔离直流变换器由“工频逆变模块+工频变压器+整流模块”组成，高频隔离直流变换器由“高频逆变 模块+高频变压器+整流模块”组成，与工频相比高频隔离直流变换器体积小、重量低、 功率密度高，自高频隔离直流变换器诞生以来，已衍生出多种拓扑形式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OINmSW5xyaHF5ick7f2lHlphwYvzW9lz6Nriabq405M2iaIGySZd7MicNdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_004_fa070f916fa1.png)
 
 (1)单端正激变换器 
 
 单端正激变换器拓扑结构如图1-5所示，将变压器T放置于Buck变换器二极管与开关管之间即为该拓扑。单端正激变换器，结构简单、仅使用一个开关管、控制与驱动均较为简单。但由于变压器T相对较为简单、开关管较少、控制简单，适用于中小功率场合。 由于变压器T仅正向磁化，存在磁饱和问题，故需要加入磁复位电路即变压器附加绕组 N3来进行变压器磁芯复位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OPXF2tvS9LFJBSRSnDdZASWP8DicRGtWWicvmc1CfAdSP9yrJr7pTIeIw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_005_4f67babffc7f.png)
 
 (2)单端反激变换器 
 
 单端正激变换器拓扑结构如图1-6所示。将Buck-Boost变换器中的电感置换为高频变压器即为此拓扑。单端反激变换器结构简单且仅需一个开关器件，控制简单，适用于各种小功率场合。与正激变换器相比反激变换器高频变压器T前后级同名端相反，在S1 的不同状态下T磁化方向相反，不存在磁饱和问题，无需磁复位电路，但由于变压器T 取代了电感作用，故变压器参数设计复杂。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OTt7VEeGBDOxkiajFbznCh03fiaI2SYykTqvkhAWmfbXFmC9NQ4zbric6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_006_570a47b7ce83.png)
 
 (3)推挽型变换器 
 
 推挽型变换器拓扑结构如图1-7所示。将两组正激变换器反向并联即为推挽型变换器。 推挽型变换器电路结构相对复杂，变压器T原边具有两个开关管S1、S 2。拓扑工作时，S 1、 S2交替导通，变压器T磁芯双向磁化、无需磁复位电路且变压器利用率高，但当开关管关断时将承受2倍的电源电压，电压应力高，一般用于低电压大电流场合，且磁芯结构复杂，制作困难。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OcVicXX3iaicYC67dYshOibuwibTibCpxXzSORy5z6IgiaibjJicicI6Lxt59uOFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_007_6a9dee79b45e.png)
 
 (4)半桥型变换器 
 
 半桥型变换器拓扑结构如图1-8所示，变压器T原边逆变由“电容桥臂+开关管桥臂” 组成，副边整流可使用不控全桥整流电路或全波整流电路。半桥式变换器结构简单，工作过程中变压器T原边绕组有持续电流流过，磁芯利用率高，拓扑效率高。但是半桥型 变换器桥臂电容体积较大、电压利用率较低，且开关管桥臂切换过程中存在直通风险，需 加入死区时间来防止，故一般用于中压大功率场合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O9oFGlibJQ6y92krLm3mMcFXf9saqnnaC10Jvw4nWq2nibPgOiaFKMLauQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_008_2bd51ba53854.png)
 
 (5)全桥型变换器 
 
 全桥型变换器拓扑结构如图1-9所示，将半桥型变换器中的电容桥臂更换为开关管桥臂即可变为全桥型变换器。全桥变换器结构较为复杂，但由于其开关管电压应力相对较小， 且效率高等优点，被广泛应用于中大功率场合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OUkxTdXCuicrR6ep4V2aOcibic4xT7F5Vp70FpJLS26mMTUUtqEhAKgs0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_009_4d168a2a1a45.png)
 
 上述隔离型直流变换器优缺点如表1-2所示： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OSflHh1icaNZ1avjPYY0jHEOcAgPBxNYkJ94oLaFKFVoD6TuicXeXKNibQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_010_4bd7a481c6c6.png)
 
 在上述高频隔离型直流变换器中，全桥型变换器受到广大学者青睐，并推出了一系列全桥变换器衍生拓扑，其中以LLC谐振变换器和移相全桥变换器应用最为广泛。文献\[53\] 提出了一种复合式全桥三电平LLC谐振变换器，通过在全桥变换器中加入LLC谐振网络 实现了前级功率开关管ZVS以及后级整流二极管ZCS。文献\[54\]提出了一种基于软开关 工作状态的三电平半桥LLC谐振变换器移相和变频相结合的混合式调制策略，通过在工作过程中切换调制方法，实现了LLC谐振变换器全程软开关以及宽范围输出电压。文献\[55\]提出了一种适用于宽范围输出的复合谐振型全桥变换器，通过在全桥变换器变压器原 边串联电容构成LC谐振网络，使全桥变换器可工作在Boost、LC谐振以及Flyback三种模态下，通过模态间的转换扩宽了全桥变换器电压输出范围。文献\[56\]基于全桥变换器提 出了一种带辅助双向开关的LLC谐振变换器通过所添加的辅助双向开关，使全桥变换器 可实现在较大的励磁电感下的高电压输出以及高效率运行。文献\[57\]基于拓扑重构思路提出一种多模式双LLC谐振变换器，并设计了一种适用多模式双LLC谐振变换器的脉冲宽 度频率调制控制方法，实现了变换器运行过程中4种增益不同的模式间平滑切换。文献\[58\] 提出了一种采用中心抽头箝位电路的移相全桥变换器，通过使用由“两个二极管+电容” 组成的中心抽头箝位电路，解决了移相全桥变换器后级整流桥电压超调问题，同时提高了 变换器效率。文献\[59\]提出了一种开关频率随负载功率变化的移相全桥变换器的控制方法，该方法以损耗最小化模型为基础，根据负载功率求出调整最优开关频率并以此控制变换器 输入阻抗的净相位，实现开关管ZVS。文献\[60\]提出了一种由“两个移相全桥变换器+LC 谐振网络”组成的ISOP系统，其中LC网络电流可随负载变化而改变，重载时LC电流 增大，从而实现重载工况下的ZVS，最终实现了宽范围负载下移相全桥变换器ZVS。文 献\[61\]提出了一种半桥LLC谐振变换器和移相全桥变换器的IPOS系统，通过解耦思想发 挥二者优势，实现了IPOS系统的高功率、宽电压范围输出。 
 
@@ -127,27 +127,27 @@ SiC器件中以SiC MOSFET器件发展最为迅速，由图1-1可知，相较于S
 
 含寄生参数的SiC MOSFET器件内部结构如图2-1所示，其中DR为SiC MOSFET的 反向寄生二极管；Cgs、Cgd、Cds分别为SiC MOSFET栅源极寄生电容、栅漏极寄生电容 以及漏源极寄生电容；Lg、Ld、Ls分别为SiC MOSFET栅极寄生电感、漏极寄生电感以及源极寄生电感。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OZ9vYuPn3qTM4ASkS5gq6Kst8tJUiah3uibgyqTgVNN0da5BdhMFic5k2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_011_b1c0f2daca78.png)
 
 2.1.2 SiC MOSFET静态特性 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OhfZy3sSYYA7iadtImMFD079XMIKoCRHF8awdloELT3WDEV82MiancBiaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_012_f5d7cd246ac8.png)
 
 SiC MOSFET器件的静态特性指的是在特定的工作温度条件下，器件在稳态工作条件下，各个特征电压、电流以及寄生参数之间的关系。本文选用Wolfspeed公司型号为 C2M0080120D的1200V/36A的SiC MOSFET单管模块作为SiC MOSFET并联均流研究对象。表2-1为C2M0080120D的器件参数，图2-2为C2M0080120D静态特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OibAYmoO5nVRPFcWia7IYU0h6aJhFybicChL5Rq3jHPNZicVWiapXsFnvDaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_013_edfd1fcaec39.png)
 
 如图2-2(a)为C2M0080120D的输出特性曲线，它描述的是在恒定工作温度TJ下，SiC  MOSFET漏极电流id、栅源极电压ugs以及漏源极电压uds之间的关系。由图可知，当栅 源极电压ugs一定且大于阈值电压Ugs(th)时，SiC MOSFET处于导通状态，此时SiC MOSFET 漏极电流id随漏源极电压uds增大而增大；由于SiC MOSFET导通电阻Rds(on)随栅源极电压ugs的增大而减小，因此当uds一定时，SiC MOSFET漏极电流id与栅源极电压ugs成正比例关系。
 
 如图2-2(b)为C2M0080120D的转移特性曲线，它描述的是在恒定漏源极电压uds作 用下，不同工作温度TJ下SiC MOSFET漏极电流id与栅源极电压ugs之间的关系，其物 理含义为栅源极电压ugs对漏极电流id的控制能力，由图可知，SiC MOSFET漏极电流id随栅源极电压ugs的增大而增大，具体控制表达如式(2-1)，图中曲线与横轴的交点为器件 的阈值电压Ugs(th)，可得结论：随工作温度的升高，SiC MOSFET的阈值电压呈下降趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OXz0So14tP3EJBCETaye5iamKQVA2TL0YMjHUr6StRezILEEp1e1aiaGA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_014_4ff47b785cbe.png)
 
 其中gm为器件跨导。 
 
 如图2-2(c)为C2M0080120D的C-V特性曲线，它描述的是SiC MOSFET各个寄生电容与漏源极电压uds之间的关系。图中Ciss为输入电容、Coss为输出电容、Crss为反向恢复 电容，各电容与器件具体寄生电容之间关系如式(2-2)所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OzAwwUaj8RZwKxPNicKBhgODY2jS6icx1iaCXKaOjujQC1PL5iaP07vicIow/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_015_f3606ad0a846.png)
 
 由图可知，随漏源极电压uds增大，输入电容Ciss基本保持不变；输出电容Coss缓慢减小；反向恢复电容Crss在1V<uds<5V区间内剧烈变化，随后与输出电容Coss保持相同斜率缓慢减小。因此可得结论：SiC MOSFET寄生电容中，栅源极电容Cgs受漏源极电压uds变化影响最小，漏源极电容Cds与栅漏极电容Cgd受漏源极电压uds影响较大。 
 
@@ -155,45 +155,45 @@ SiC MOSFET器件的静态特性指的是在特定的工作温度条件下，器�
 
 SiC MOSFET的动态特性又称为器件的瞬态特性，主要包括开通瞬态与关断瞬态。为 探究SiC MOSFET的动态特性，需要考虑SiC MOSFET各个寄生参数在开通关断过程中的影响。本节将SiC MOSFET置于双脉冲触发电路中进行分析，双脉冲触发电路如图2-3 所示。其中SL为被测SiC MOSFET，DH为续流二极管，CDH为续流二极管寄生电容，LLoad为负载电感，Rg为SiC MOSFET驱动电阻，ug为SiC MOSFET驱动电源，UDC为直流电源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OeFhXLKyWSWiaZk4RCBkTJhxDgyQkwVfS6myHMuGKb7Mj8sF3lV73Vpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_016_0d61b30805bf.png)
 
 SiC MOSFET的开通关断过程均可分为四个阶段，其中驱动信号ug、栅源极电压ugs、 漏极电流id与漏源极电压uds变化波形如图2-4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OLN3bBW1b6fj4ccGT3gjJ9Ih93YDLbMUag3aIxyib6o4GVW8TC6Oej1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_017_6e4f8eb5f23c.png)
 
 (a) 开通过程 
 
 阶段Ⅰ(t0-t 1)：t 0时刻，栅极驱动电压ug由0转为UgH，通过驱动电阻Rg给SiC MOSFET 输入电容Ciss充电，此时器件栅源极电压ugs缓慢上升，至t 1时刻ugs达到阈值电压Ugs(th)， 此阶段结束。在此阶段SiC MOSFET处于截止区即仍为关断状态，漏极电流id维持为0， 称之为开通延迟阶段，此阶段栅源极电压ugs变化如式(2-3)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Oz3y8Vtr8iaDZ7sia9CsMOmcica7YoUEXpic0Md4q24VRic8KyyuBrKfyPKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_018_2a563160f82f.png)
 
 阶段Ⅱ(t1-t 2)：t 1时刻，栅源极电压ugs达到阈值电压Ugs(th)，SiC MOSFET开始导通， 驱动电压ug与阶段Ⅰ相同，仍维持UgH并通过驱动电阻Rg为输入电容Ciss充电，栅源极电 压ugs持续上升至米勒平台电压Umiller处此阶段结束。在此阶段中负载电感电流ILoad开始 由续流二极管DH换流至SiC MOSFET，漏极电流id开始上升并最终等于ILoad，由于续流 二极管关断后其寄生电容CDH将开始充电，导致id在换流结束时会存在一向上的电流尖峰，此尖峰为负载电流与CDH充电电流的叠加；同时i d的上升会在寄生电感Ld与Ls上感应出反向电压，导致漏源极电压uds由UDC下降至U L处。此阶段漏极电流id与漏源极电 压uds变化如式(2-4)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Oa7mZM21oFm98MBxkBN6GspBibewy7wZocouSKShBiacqhwhshyvfyBBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_019_99a7de10990a.png)
 
 阶段Ⅲ(t2-t 3)：t 2时刻，栅源极电压ugs达到米勒平台电压Umiller处，换流过程结束， 漏极电流id达到负载电流ILoad处。此阶段驱动电压ug与前两个阶段相同，但由于米勒效应，此时ug通过驱动电阻Rg向栅漏极电容Cgd进行充电，即ugs被箝位于Umiller处；漏源 极电压uds缓慢下降至导通电压Uds(on)处，SiC MOSFET完全导通，此阶段结束。此阶段 栅极电流ig与漏源极电压u ds如式(2-5)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O69iacOR4huWNSUG84W38yZgmtIEbPw9tSJRUYLBl4JLZ3xesBO8pWtg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_020_00a9d448f0ce.png)
 
 其中uDH为续流二极管两端电压。
 
 阶段Ⅳ(t3-t 4)：在此阶段，SiC MOSFET已完全导通，此时驱动电压ug与前三个状态 相同，米勒效应结束，ug的通过驱动电阻Rg向栅源极电容Cgs充电，即栅源极电压ugs开 始由米勒平台电压Umiller上升至UgH处，此阶段结束，SiC MOSFET开通过程结束。此阶 段栅源极电压ugs与栅极电流ig变化如式(2-6)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OTQ2a2AFdbCDWAq74mCiaicIT23tjdopVAOamJ9zSI6PicNWfs3WzDwqhg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_021_0a520849b6bc.png)
 
 (b) 关断过程 
 
 阶段Ⅰ(t5-t 6)：t 5时刻，驱动电压ug由高电平UgH阶跃至低电平0，在此阶段中，输入电容Ciss通过驱动电阻Rg进行放电，此时栅源极电压ugs开始下降，至t6时刻降至米勒平台电压Umiller处，此阶段结束，在该阶段SiC MOSFET仍处于完全导通状态，漏极电流id与漏源极电压uds保持不变。其中ugs表达与开通阶段Ⅰ相似，如式(2-7)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OGfvnG1pKuLw7kk6nX0aJzRUd5d0KK6HSlT1XeIz6xibz5XkyFd4DEMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_022_b5efbdb1723e.png)
 
 阶段Ⅱ(t6-t 7)：t 6时刻，栅源极电压ugs下降至米勒平台电压Umiller处。在此阶段， ugs由于米勒效应影响，被箝位在Umiller处，此时栅极电流ig仅由C gd放电维持；漏源极电压uds由导通电压uds(on)开始上升至直流电压UDC处，该阶段结束，由于ugs=Umiller，所以uds上升速率保持不变；同时在该阶段中续流二极管电压uDH随SiC MOSFET漏源极电压uds上升而下降，且CDH放电电流与负载电流叠加，会使得SiC MOSFET漏极电流id略微下 降。其中栅极电流ig，漏极电流id与漏源极电压uds表达如式(2-8)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OIylL1akFFJ0OjQ5wibgL8VER9ACbIHrSSYwQaTDAJzgvfAfibfL8Oj0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_023_d15cf7a8b498.png)
 
 阶段Ⅲ(t7-t 8)：t 7时刻，SiC MOSFET漏源极电压uds上升至直流电压UDC处。此时米勒效应结束，栅源极电容Cgs通过驱动电阻Rg放电，栅源极电压ugs由米勒平台电压Umiller处开始下降至阈值电压Ugs(th)处，该阶段结束。在此阶段中，负载电流由SiC MOSFET换流至DH，漏极电流id开始下降，二极管续流电流iDH开始上升，由于寄生电感Ld和Ls， id下降会其上产生与直流电压相同极性的感应电压，使得uds产生电压尖峰，该尖峰由感应电压与直流电压叠加产生。此阶段漏极电流id与漏源极电压uds如式(2-9)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OVwdG6STDlsEsxXJRFTlwXkbWaIVHDpICIK54m4GvibY2f0C7mbg1QVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_024_d2da2aa63d7c.png)
 
 阶段Ⅳ(t8-t 9)：t 8时刻，栅漏极电压uds=UDC，漏极电流id=0，此时SiC MOSFET已完 全关断，此时负载电流全部流入续流二极管即iDH=ILoad，在此阶段输入电容Ciss仍通过Rg进行放电，栅源极电压ugs由阈值电压Ugs(th)处下降至0V，该阶段结束，SiC MOSFET关 断过程结束。 
 
@@ -209,7 +209,7 @@ SiC MOSFET并联不均流现象，主要分为两大类，分别为静态不均�
 
 为验证各因素对SiC MOSFET并联均流影响，本节在Pspice仿真软件中搭建如图2-5 所示的SiC MOSFET双管并联仿真模型用以分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O9NHQVlpyibETsNOvQe2Htfr0WbTsWFKVLu0oQKPugXwzg4xU1uEZTjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_025_46098728e898.png)
 
 2.2.1 SiC MOSFET器件参数差异性  
 
@@ -219,7 +219,7 @@ SiC MOSFET并联不均流现象，主要分为两大类，分别为静态不均�
 
 由2.1.3节SiC MOSFET开通关断过程分析可知，阈值电压Ugs(th)对漏极电流id影响 如式(2-10)所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OY8LubL1HicLj7vLp2T5WodaF3pukicMHb4KWqEtmWt4XNemT39IPYn9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_026_20d9f2ca4db7.png)
 
 假设并联SiC MOSFET其余参数保持一致，开通过程中，各支路器件栅源极电压ugs以相同速率上升，阈值电压Ugs(th)较低的器件率先满足开通要求，漏极电流id最先上升， 即开通过程中Ugs(th)较低的器件，id较大，所在支路电流较大；在关断过程中，Ugs(th)较低的器件将最后满足关断要求，id最后下降，即关断过程中Ugs(th)较低的器件，id较大、所在支路电流较大。 
 
@@ -229,7 +229,7 @@ SiC MOSFET并联不均流现象，主要分为两大类，分别为静态不均�
 
  与阈值电压相同，不同SiC MOSFET的导通电阻Rds(on)同样因生产工艺等原因会存在差异。导通电阻Rd s(on)对并联器件开通关断过程中漏极电流id影响较小，其主要影响器件完全导通后各支路电流分配，即并联器件静态均流。在器件完全导通后，漏极电流id与 导通电阻Rds(on)关系如式(2-11)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0ObLOE3sQf48zzibmGniazxKAhX23yx40QAnddK1UuEicCTzPs7Mlz2r04w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_027_93c6b09c388d.png)
 
 其中，iR与RdsonR为并联右支路的器件电流和导通电阻；iL与RdsonL为并联左支路的器件电流和导通电阻。由式可知，导通状态下，导通电阻Rdson较小的器件所在支路电流大。 
 
@@ -241,19 +241,19 @@ SiC MOSFET的漏极寄生电感Ld由功率回路布局中线路电感与器件�
 
 漏极寄生电感Ld对SiC MOSFET并联静态均流影响。SiC MOSFET并联仅考虑漏极电感Ld电路图如图2-6所示。当器件导通时，根据基尔霍夫电压定律可得式(2-12)： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OQ1l0zHiaLLvzHsguaxN3g6VrFcFx1lDibBB4tzPjlj0X8MEeAClLIdkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_028_e26a8df74809.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OQ9gruYREVfuwAoep7ibniaQKRcdTUSwa1G6icjF6zayRcvafGUpErpBicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_029_2d7ed848493d.png)
 
 其中LdL与LdR分别为左右支路SiC MOSFET漏极电感，idL与idR分别为两支路的漏极电流，RdsonL与RdsonR分别为SL与SR的稳态导通电阻。
 
 假设并联两管其余参数完全一致，即RdsonR=RdsonL=Rdson，并联两管漏极电流变化率如 式(2-13)所示，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OnTRw7mG0BV7jAy071KvHwRsiaKl0DbIWJgg2bnRKMgHGuVUjdjUVAhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_030_6b4404a7e239.png)
 
 idR+idL=iL，可得式(2-14)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O0jS5yEA51riboMribBKcnn4HwGQ2aUccKB9wp5tNnSvltQ6BnWWaHH3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_031_693e80805f38.png)
 
 由式可知，并联SiC MOSFET的静态电流差与漏极电感差成正比，即器件漏极电感 Ld越小，所在支路电流越大。 
 
@@ -261,27 +261,27 @@ idR+idL=iL，可得式(2-14)：
 
 在Pspice仿真软件中对漏极寄生电感差异进行仿真，设置LdL=1nF，L dR=10nF，仿真 结果如图2-7所示，其中idL为左支路漏极电流、idR为右支路漏极电流，由图可知导通状 态下，漏极寄生电感Ld越小，所在支路电流越大，即idL>idR；开通关断过程中Ld大的器 件所在支路电流振荡幅度更大，即∆id R>∆idL，与理论分析一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Ofq6gukzKQKjqycsDxKmCMpBfiagA0p9uhj67evnZUEFZnGWlKdaFXkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_032_c594b8f606d8.png)
 
 (b) 源极寄生电感Ls 
 
 源极寄生电感Ls组成与漏极寄生电感Ld相同。源极寄生电感Ls对SiC MOSFET并联静态均流影响与漏极寄生电感Ld结论相同，均为电感数值小，所在支路电流大。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Olst8RBw5XRyBXcMNw5SrM6MBbgckquBdHk9CBp9jpgEh76yC2Eo0vw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_033_4be47a906956.png)
 
 源极寄生电感Ls对SiC MOSFET并联动态均流影响。由于Ls同时位于功率回路与驱动回路中，因此Ls对开通关断过程中各支路电流有较大影响。图2-8所示为考虑Ls时SiC  MOSFET的驱动回路示意图，可以看出源极寄生电感Ls在SiC MOSFET开通关断过程中对栅源极电压ugs有负反馈作用，具体如式(2-15)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O63GIiarvqcSTIKicRGC4yPTEshzbGqD9cbxeA9xFePAAbibJfZ4Bm4D3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_034_64141f8de534.png)
 
 假设其余参数完全一致，将式(2-15)代入式(2-1)，可得开通关断过程中并联支路漏极电流id差异表达式(2-16)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Oe3neNR7Y4OPiaY1ke9jSXAZjbjsqZuQxkVw3A6PiciaSicBl5WTHzAUcicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_035_0f4b3d50fed2.png)
 
 其中gm是器件的跨导，iLoad是总负载电流，idR与idL分别为右支路与左支路电流，LsR与 LsL分别为右支路与左支路SiC MOSFET的源极寄生电感。
 
 由上分析可知，源极寄生电感Ls通过影响开通关断过程中栅源极电压ugs大小从而影响SiC MOSFET并联各支路开通关断过程中漏极电流id的上升与下降。Ls小的器件对ugs的负反馈作用小，在开通过程中，ugs先一步到达阈值电压Ugs(th)，id开始上升，所在支路电流大；在关断过程中，ugs同样先一步到达Ugs(th)，id开始下降，所在支路电流小。可得结论：Ls越小的器件，所在支路开通过程中电流越大，关断过程中电流越小。由式(2-15) 可知，∆id与∆Ls成正比关系，即并联支路动态不均流程度随Ls差异增大而增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OEQ8fpkkox9QNsQns4AEX7R6REXUZSzZemzjianibPZjGZrQn3ahERajw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_036_3416b1490e4b.png)
 
 在Pspice仿真软件中对源极寄生电感差异进行仿真，设置LsL=1nF，Ls R=10nF，仿真 结果如图2-9所示，其中idL为左支路漏极电流、idR为右支路漏极电流，由图可知SiC  MOSFET导通时，源极寄生电感Ls小的器件，所在支路电流大，即idL>i dR；开通过程， Ls小的器件，id上升速度快，所在支路电流大，即idL上升速度快；关断过程中Ls小的器 件，id下降速度快，所在支路电流小，即i dL下降速度快，与理论分析一致。
 
@@ -291,33 +291,33 @@ idR+idL=iL，可得式(2-14)：
 
 驱动电压ug同时影响着SiC MOSFET导通状态下的漏极电流id大小与开通关断过程 中的漏极电流id大小。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OxiaFiblic2EGcFExdUJZ7yL8G25MZjCfbibmQbEwMangqibZpygX9FIzfKw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_037_8a6af2ca4a08.png)
 
 驱动电压ug对SiC MOSFET并联动态均流影响。图2-10为驱动电压ug作用示意图， 忽略SiC MOSFET寄生电感，开通关断过程中驱动电压ug与栅源极电压u gs关系如式(2-17) 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OSKibnj8r1Ak5JFxPOljlU9DkVaKBeJSqOIXkO712iaQakzockATaqG3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_038_246cd916c8b9.png)
 
 将式(2-17)代入式(2-9)可得开通关断过程中驱动电压ug与漏极电流id关系如式(2-18) 所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OehkFfl1AeFFjthoLxI24merpiaWGKPYXDZpHibZwjHE3FfmkZOeuicziaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_039_daf049a76c01.png)
 
 由式可知，驱动电压ug直接影响SiC MOSFET开通关断过程中漏极电流id大小，结合图2-4 SiC MOSFET开通关断波形可知，开通过程中ug越大的器件，输入电容Ciss的充 电速度越快，栅源极电压ugs上升速度越快，id上升快，所在支路电流大；关断过程与之相反。 
 
 驱动电压ug对SiC MOSFET并联静态均流影响。当SiC MOSFET导通时，ug与栅源极电压ugs关系如式(2-19)所示 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Ot55U46TL1K8I14nXDBwOZGdXYCiaJVUATT7lVeQFHMdiac5UibIf5TWCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_040_bc476037c157.png)
 
 由图2-2(b) SiC MOSFET输出特性曲线可知，SiC MOSFET漏源极电压uds一定时， 漏极电流id随栅源极电压ugs的增大而增大，即并联器件其余参数一致且导通时，ug越大器件，id越大，所在支路电流越大。 
 
 在Pspice仿真软件中对驱动电压ug差异进行仿真，设置驱动电压ugL=18V，ugR=20V， 仿真结果如图2-11所示，其中idL为左支路漏极电流、idR为右支路漏极电流，由图可知， SiC MOSFET导通时，ug大的器件，漏极电流id大，所在支路电流大，即idR>idL；开通过程中，ug大的器件，id上升快，所在支路电流大，即idR>idL；关断过程中，ug大的器件，id下降慢，所在支路电流大，即idR>i dL，与理论分析一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OtnKx1dyUWw9Yer6de4stsQuZsVUrbMfMXpiay7EapnlfRZDFUiaiawnMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_041_ba86c95fce89.png)
 
 (b) 驱动电阻Rg 
 
 驱动电阻Rg一般由SiC MOSFET栅极寄生电阻与驱动回路栅极电阻共同组成，SiC  MOSFET开通关断的本质过程是驱动电源通过Rg为输入电容Ciss的充放电过程。Rg通过控制ig峰值来实现对Ciss充放电速度的调整，ig峰值如式(2-20)所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O3yfYm4gsB3qUDM8LuNrdBiaZGaVGwibXbH0Og3h5UJFuqrf0cEX59O9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_042_264ad0a1cec2.png)
 
 其中∆ug是驱动电压正负之差。 
 
@@ -325,23 +325,23 @@ idR+idL=iL，可得式(2-14)：
 
 在Pspice仿真软件中对驱动电阻差异进行仿真，设置RgL=10Ω，UgR=8Ω，仿真结果如图2-12所示，其中idL为左支路漏极电流、idR为右支路漏极电流，由图可知，开通过程中驱动电阻Rg小的器件，漏极电流id上升快，所在支路电流大，即idR>i dL，关断过程中 Rg小的器件，id下降快，所在支路电流小，即idR<idL，与理论分析一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0ORyWPQCROSsnFqMmUwZf5qzhz0dplzmE3eLsVoicSuoOQtCGE5k0ic7SA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_043_e3d2a9ca5b05.png)
 
 (c) 栅源极寄生电容Cgs  
 
 栅源极寄生电容Cgs作为SiC MOSFET输入电容Ciss的主要组成部分，且由数据手册可知栅源极电容Cgs远大于栅漏极电容Cgd。因此SiC MOSFET开通关断过程中对Ciss充 放电可等效为Cgs充放电，Cgs大小影响着栅源极电压ugs的变化速率。即Cgs对SiC MOSFET 并联动态均流有较大影响。假设其余参数一致，Cgs较小的器件，开通过程中ugs上升速率 快，漏极电流id上升快，所在支路电流大；在关断过程中，ugs下降速率快，id下降快， 所在支路电流小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O9bgF3x36ryzwy7hKgvnibkoBsrTX4zAhKD24MG55azWsASyIYYk20icQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_044_d0df7b25a2b5.png)
 
 在Pspice仿真软件中对栅源极电容差异进行仿真，设置CgsL=1122.5pF，C gsR=2245pF， 仿真结果如图2-13所示，其中idL为左支路漏极电流、idR为右支路漏极电流，由图可知， 开通过程中栅源极寄生电容Cgs小的器件，漏极电流id上升快，所在支路电流大，即idR<idL； 关断过程中Cgs小的器件，id下降快，所在支路电流小，即idR>idL，与理论分析一致。
 
 综上分析，可以得出各参数存在差异时对SiC MOSFET的并联均流会产生的影响， 参数及主要影响结果如表2-2. 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OsJrU2fWYr3UvqibIJ6VQayLdepPU0DaHicyqAsP14ZWiaX3pCf4LXuk6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_045_d4a600bd4a45.png)
 
 由上表可知，SiC MOSFET并联运行时，静态均流受导通电阻Rdson与驱动电压ug影 响。其中驱动电压ug为可调因素，可通过调整驱动回路供电电源来实现并联各支路一致 性；且由图2-14 C2M0080120D漏极电流id与外壳温度Tc波形图可知，SiC MOSFET导 通电阻Rdson为具有正温度系数的温变电阻，即温度越高，Rdson越大，所以对于SiC MOSFET 并联电路静态均流而言，器件本身具有自动实现均流的特性。而对于动态均流，除导通电 阻Rdson差异对其不产生影响，剩余全部因素差异均对其有影响。由此可得，实现SiC  MOSFET并联均流即需实现SiC MOSFET并联动态均流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OicNzLHUKcvhuXEh3yCJhbqYyeXibD4zIpE1awsTVrS9kGWMoKyeHgjqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_046_97b3f49c6a65.png)
 
 2.3 SiC MOSFET器件并联主动栅极均流方案 
 
@@ -351,19 +351,19 @@ idR+idL=iL，可得式(2-14)：
 
 漏极串电阻均流法为通过在SiC MOSFET并联各支路器件漏极串联阻值相等且远大 于SiC MOSFET导通电阻Rdson的高精度小电阻，以此实现SiC MOSFET并联均流。漏极 串电阻均流法原理如图2-15所示，其中Rc为串联于SiC MOSFET并联各支路的高精度电 阻，其阻值选取需满足远大于SiC MOSFET的Rdson的条件。其均流原理为器件完全导通后，SiC MOSFET漏极电流之比可近似表示为等效导通电阻之比，如式(2-21)所示，当Rc 远大于Rdson时，SiC MOSFER并联支路漏极电流id之比近似为1，即实现了SiC MOSFET 的并联均流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OKhhl0BrOrFDL1zZoMZmaG7K8av2mTLJcR8PxJV88LcYLxQCicFic3E4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_047_02420dda8193.png)
 
 该方法仅需高精度电阻即可实现均流，可行性高，但串联电阻Rc阻值越大，损耗越大，具体损耗PRc如式(2-22)所示，且仅可实现SiC MOSFET并联静态均流，对于其他因素造成的动态不均流无法解决。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OmTEb0aCYGlQNQ1mhTzicGSMBNVd5BcQzDBWWqK8N7iaPMyxb4G5dzA5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_048_a384644e2242.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OeJZsmXdF5Rdhs47yJkiaBEMwCUcv7aBkUAy3ibEa63A8CkRTmBUaWV9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_049_65ff2eb58844.png)
 
 2.3.2 耦合电感均流法 
 
 耦合电感均流法为通过在SiC MOSFET并联支路之间串联耦合电感，通过耦合电感互感产生反向磁通并作用于并联支路，并以此实现SiC MOSFET并联均流。其原理图如图2-16所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0On7T1lxF2RrNRy67icC7RZBq5eqhiarXN0ajVMpnwRDMibia2xnApl1QeMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_050_07d2b6fa941c.png)
 
 耦合电感均流法工作原理为利用并联支路不平衡电流∆id=idL-idR所产生的差模分量在 磁芯中产生的反向磁通来抑制不平衡电流。即当SiC MOSFET并联支路电流分别流入耦合于同一磁芯上的两个匝数相同的线圈时，将在磁芯中产生方向相反的磁通，假设两支路 电流大小方向完全一致，此时二者于磁芯中产生的磁通ϕL＝-ϕR，合成磁通ϕ M＝0；实际 应用中由于各种差异因素影响，id L≠i d R，那么所产生的磁通ϕ L≠-ϕ R，此时合成磁通ϕ M≠0， 合成磁通ϕM在线圈中将感应出相反方向的电动势VM，由法拉第电磁感应定律可知，V M在线圈上所生成的电流iM=-(i dL-i d R)，即电动势VM将在线圈上产生与不平衡电流∆id大小相等方向相反的电流iM 。 
 
@@ -377,7 +377,7 @@ idR+idL=iL，可得式(2-14)：
 
 在Pspice仿真软件中就控制信号对器件漏极电流id上升下降时刻影响进行验证，设置右路延迟开通30ns、延迟关断60ns，仿真结果如图2-17所示，其中图2-17(a)为开通波 形，图2-17(b)为关断波形，ugsL、ugsR分别为左支路SiC MOSFET栅源极电压与右支路栅 源极电压，idL、idR分别为左支路漏极电流与右支路漏极电流，由图可知，当右支路SiC  MOSFET控制信号上升沿延迟30ns时，其ugs与id上升时刻同步延迟30ns，当右支路SiC  MOSFET控制信号下降沿延迟60ns时，其ugs与id下降时刻同步延迟60ns，即通过控制 SiC MOSFET控制信号上升沿与下降沿的阶跃时刻可实现SiC MOSFET漏极电流上升下降时刻控制。与理论分析一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OHFthuibR9Sbh14wUj4J2VPic2RxFSocS17LKdicgK4hv8uoECPsDDchTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_051_21c04b77dda9.png)
 
 由2.2节分析可得，源极电感Ls栅源极电容Cgs等参数通过影响SiC MOSFET栅源极 电压ugs与漏极电流id上升下降时刻从而造成SiC MOSFET动态不均流。由上分析可知， 通过主动调节SiC MOSFET控制信号上升沿与下降沿时刻可实现对ugs与id，因此本文提 出一种主动栅极控制均流方法，通过检测并联支路差异电流，调节SiC MOSFET控制信 号上升沿与下降沿延迟时间，以此抵消差异参数造成的SiC MOSFET并联动态不均流问 题，实现SiC MOSFET并联均流。 
 
@@ -385,11 +385,11 @@ idR+idL=iL，可得式(2-14)：
 
 关断过程与开通过程类似，因Ls与C gs等参数差异导致idL滞后于idR，对右支路控制信号下降沿延迟Off-Delay时间，使idR与idL同时刻下降，以此实现关断过程SiC MOSFET 并联动态均流。以idL<ion为计时起始点，idR<ion为计时终止点，该时段即为漏极电流上下 降时刻差Off-errors，此时刻差即为右支路下降沿所需延迟时间Off-Delay。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OXTbu7Lr9JHhkoF2fD2OHLjG53HAuyu5w5PFT3LXFys88vns6Kg5TibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_052_d43f1564c632.png)
 
 以SiC MOSFET并联两管为例，具体实现框图如图2-19所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OayzTJnyMdMZZYpPASX5oAicLBywHPcuPevQeAsWiaqNvNbpQTeku5EMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_053_14d0c79b68a2.png)
 
  首先通过漏极电流id检测模块采样两支路电流，将其送入开通关断延时计算模块， 分别计算出上升沿延时时间Open-Delay与下降沿延迟时间Off-Delay，随后由延时模块对 各支路SiC MOSFET控制信号上升下降沿进行延迟，随后作用于驱动芯片用于驱动各支 路SiC MOSFET。其中延时计算模块与延时执行模块以及驱动芯片等均在本文所设计的主 动栅极控制驱动电路中，其中延时计算模块与延迟执行模块为控制信号处理环节，二者由数字控制器实现，为保证控制精度与驱动电路体积要求，本文选用可编程逻辑器件。将其集成于驱动电路中，与驱动芯片共同完成并联SiC MOSFET驱动功能。
 
@@ -397,23 +397,23 @@ idR+idL=iL，可得式(2-14)：
 
 在Pspice仿真软件中搭建图2-5所示双管并联双脉冲触发电路进行SiC MOSFET并 联均流方案仿真验证，表2-3为SiC MOSFET并联均流仿真验证参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OTA88mWicrlfc4GMu8d9BbiaP7Ko0fiaXzrfL5UeCOCuRM5cynR2WFGDOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_054_48faf48b634c.png)
 
 图2-20所示为无均流措施时SiC MOSFET并联仿真波形，其中图2-20(a)为开通波形图，图2-20(b)为关断波形图，ugL、ugsL、idL分别为左支路SiC MOSFET控制信号、栅源 极电压以及漏极电流波形，ugR、ugsR、idR分别为右支路SiC MOSFET控制信号、栅源极 电压以及漏极电流波形，由图可得，在表2-3差异参数下，SiC MOSFET并联运行时存在 严重的动态不均流问题，开通与关断过程中左支路漏极电流idL均超前于右支路漏极电流 idR，这将导致开通过程中idL>idR，关断过程中idL<idR。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OffZZG3kaBXTuABicz8pH0k8PoSmZbkyBfw9A4F16yf5WicpW8z0Vz4lg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_055_eb203a5fcfd1.png)
 
 图2-21所示为采用漏极串电阻均流法时SiC MOSFET并联仿真波形，分别在并联SiCMOSFET漏极串联1Ω电阻，其中图2-21(a)为开通波形图，图2-21(b)为关断波形图，ugsL、 idL分别为左支路栅源极电压以及漏极电流波形，ugsR、idR分别为右支路栅源极电压以及漏 极电流波形由图可得，SiC MOSFET导通时idL=idR，即实现了SiC MOSFET并联静态均流，但开通关断过程中左支路漏极电流idL仍超前于右支路漏极电流idR，动态不均流没有得到改善。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OAhzsAKIf6Jt89tx7mAXAvI77hc7JWcYtd0mEXVMkq4oSzSsq0W5uFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_056_70594bc85e47.png)
 
 图2-22所示为采用耦合电感均流法SiC MOSFET并联仿真波形，在并联SiC MOSFET 漏极串联互感系数M=0.7，感值为5mH的耦合电感，其中图2-22(a)为开通波形图，图2-22(b) 为关断波形图，由图可知，此时开通关断过程中并联两支路漏极电流基本同相位，即实现 了并联SiC MOSFET动态均流，但SiC MOSFET导通时，漏极电流发生振荡且∆id由无措施的0.5A增大至2A，即加重了并联SiC MOSFE静态不均流问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OCpGqRR3hg6Z6LSEYmqgcmvG2aqsulUnE31OSUv57LRalfO5u7zicQzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_057_7639c31b6ceb.png)
 
 图2-23为采用主动栅极控制时SiC MOSFET并联仿真波形，在不改变功率回路参数 基础上，通过主动栅极控制闭环调节，此时左路SiC MOSFET开通信号被延迟约23ns、 关断信号被延迟约50ns，其中图2-23(a)为开通波形图，图2-23(b)为关断波形图，ugL、ugsL、 idL分别为左支路SiC MOSFET控制信号、栅源极电压以及漏极电流波形，ugR、ugsR、id R分别为右支路SiC MOSFET控制信号、栅源极电压以及漏极电流波形，由图2-23(a)、2-23(b) 可以看出，此时开通关断过程中两支路SiC MOSFET漏极电流基本同相位，SiC MOSFET 导通时，漏极电流差∆id与无措施时相同，即实现并联SiC MOSFE动态均流同时不影响SiC MOSFET导通电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O0icLPWQEJEHB2mSDbA01kbk74WTq1jcyqb8sD5g6QNXOegkPJGoFOYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_058_66ec2873e5c1.png)
 
 2.4 本章小结 
 
@@ -429,15 +429,15 @@ idR+idL=iL，可得式(2-14)：
 
 本文选用移相全桥直流变换器作为扩容功率均分研究对象，如图3-1所示为移相全桥 变换器拓扑，由前级逆变全桥，高频变压器以及后级不控整流桥组成，其中四个SiC  MOSFET(S1、S2、S3、S4)、四个并联外接电容(C1、C2、C3、C4)为前级逆变功率器件；谐 振电感Lr用于实现软开关功能；高频变压器T传递能量的同时实现源荷间电气隔离；四 个SiC二极管(D1、D2、D3、D 4)、输出侧滤波电容Cf、滤波电感Lf为后级整流功率器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OngXVFlW9YGicasWlIxggIDNpQUZWpJjRAYiaunOSsYZKJIcztuU12wng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_059_3075761ba4aa.png)
 
 移相全桥DC-DC变换器控制信号波形如图3-2所示。其中GS1、GS2为超前桥臂开关 管控制信号，二者互补，且需加入死区时间以避免桥臂直通；GS3、G S4为滞后桥臂开关管控制信号，二者关系与超前桥臂开关管控制信号类似；θ为移相角，θ∈(0°,180°)。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OaKiaAA7T2X1cXIw0PPia0afPpRNCF1nEwh895mlCgC8ltDS0sdAcKYXA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_060_e8b9d5c45fb9.png)
 
 移相控制本质为通过控制移相角θ大小来改变移相全桥直流变换器在一个周期内的有效导通时间，从而实现对全桥直流变换器输出功率的控制。S1与S 4为全桥直流变换器正向对角管，当其控制信号GS1与GS4为高电平即正向对角管同时处于导通状态时，移相 全桥直流变换器输入直流电源UDC向负载R供能，当其控制信号GS1为高电平、GS4为低 电平时，移相全桥直流变换器为截止状态，此时UDC无法向R供能。S2与S3为全桥直流变换器反向对角管，二者作用方式与正向对角管类似，此处不在赘述。移相控制下全桥直 流变换器输出电压uo与输入直流源UDC关系如式(3-1)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OBTq5C79bkF9uQXbzXibh5gmSqs8FbaNJibd2uwB5ibXByUqrrkskwp2HQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_061_8b07c87bcfdf.png)
 
 移相全桥DC-DC变换器共有十二种工作模态，因其为对称型拓扑，所以正负半周 期工作原理类似，因此这里仅介绍正半周期的六种工作模式，将其分为t0-t6六个时间 阶段，图3-3分别为六种工作模式的原理示意图。 
 
@@ -447,7 +447,7 @@ idR+idL=iL，可得式(2-14)：
 
 工作模式III(t2-t 3)：此模态为正半周期箝位续流模态，功率流向如图3-2(c)所示，t 2时刻S2寄生二极管D R2导通，S 2电压被箝位到零，满足零电压开通条件。但该时刻变压 器原边电流i1仍维持较高水平，为防止超前桥臂直通，在S1关断与S2开通之间需加入死区时间td1，且td1应满足(3-2)式。此时U C1=UC3=UDC，UA=UB=UAB=0V，UCD=0V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OP8pia1jMS06IiacMOvljTnHfPu0Elhc5I31Vm0btBdMHuRM0Du4s13WQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_062_5209f5b2319f.png)
 
 工作模式IV(t3-t 4)：此模式为正半周期滞后桥臂谐振模态，功率流向如图3-3(d)所示，t3时刻开关管S4关断，关断时U C4=0V，S4实现零电压关断，此时前级逆变侧电流流向为 Lr→N1→S4→C3、C4，由电流流向可知，此时C3与Lr谐振放电， C4充电，变压器原边电 流i1逐渐减小，t4时刻U C3降至0V，UC4升至UDC，此时UB升至UDC，变压器原边电压 UAB=-UDC，变压器副边电压UCD=(N 2/N 1)×U AB=-(N 2/N 1)×UDC，电压反向。但由于Lf等电 感存在，变压器副侧电流i2方向无法突变，电流仍通过D1、D4流动。由于t4时刻UC3降至0V，S3反向寄生二极管DR3开通，使S3具备零电压开通条件，工作模式IV结束。 
 
@@ -455,17 +455,17 @@ idR+idL=iL，可得式(2-14)：
 
 工作模式VI(t5-t 6)：此模式为正半周期电流反向增长模态，功率流向如图3-3(f)所示， 该时刻S2、S3导通，由模式II与模态IV可知，二者均为零电压开通，此时变压器原边电 流i1开始反方向增大，此时前级逆变侧电流流向为UDC→S3→N1→Lr→S 2→UDC， i2=(N 1/N 2)×i1，随i1增大i2也等比反向增大。t 6时刻i2反向增大至io，后级整流侧D1、D3关断，仅余D2、D4导通，后级整流侧电流流向变为N2→D1→Lf→C f、R→D2→N2，直流 输入源UDC开始向负载R与输出滤波电容Cf、电感Lf供能，开始负半周期功率传输模态。 负半周期工作原理与正半周期类似，此处不再赘述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O4l3ulRRsTkz2TODwXS06F2OLWCXicMDQybBdQ0RVBib82KiaibJ3w8H8Fw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_063_2a5c85946da2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OsnZtJmEGtPwfp7BPzjEUaibYM9YZFsbQgib9h2YDjF8rCVyMcncnWlvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_064_f56effa2caf8.png)
 
 3.2 基于SiC MOSFET的全桥直流变换器输出并联均流控制方案 
 
 拓扑输出并联是系统扩容的方式之一。图3-4为全桥直流变换器并联输出拓扑图，上下两桥输出滤波后并联作用于负载R上。此时输出电流电压关系满足式(3-3)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Oia8bCnqbZcEWTRwtHhxTDvCDZDQUQDFib4yrA8qCczeNicJQgL6VpQvAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_065_b43250599a2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Oo6p3ETgScwYkKLUQHoG7W466Ou4YcuicasVKYEnh6JSbUqzaibpDMTPg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_066_4aedd100b84a.png)
 
 3.2.1 全桥直流变换器输出并联不均流原因分析 
 
@@ -473,29 +473,29 @@ idR+idL=iL，可得式(2-14)：
 
 工作模式Ⅰ：此模式为全桥直流变换器输出并联拓扑能量传输模式，简化电路如图 3-5(a)所示，在此模式下并联两桥对角开关管S1、S4或S2、S3控制信号处于交叠区，对角 开关管均为导通状态，两桥均处于有效导通状态，此时并联两桥的直流输入源UDC通过 各自前级逆变全桥、高频变压器与后级整流全桥直接向各自输出滤波电路与负载R供能。 此时全桥直流变换器输出并联拓扑电压电流关系如(3-4)式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OG69cv0z8kNtC9ZYnAhSyicXcuwC94HMHFwphtbicdOZh0jxOTQ6XXF6Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_067_1372c570558d.png)
 
 其中kT=N1/N2为变压器变比，kTH、kTL分别为并联两桥变压器变比。
 
 工作模式Ⅱ：此模式为全桥直流变换器输出并联拓扑能量截止模式，简化电路如图 3-5(b)所示，在此模式下并联两桥对角开关管S1、S 4或S 2、S 3控制信号处于移相区，此时 对角开关管状态为一开通一关断，并联两桥的直流输入源UDC均无法通过前级逆变全桥 向负载R供能，并联两桥均处于能量截止模式，负载R由输出电容提供能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OwZlLZy8jYvEnia9IYPHB6zlDRQHcsVathT9cgzPDFO8ZUCcAFolxl3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_068_690a91f5a643.png)
 
 由图3-2移相控制原理波形可知，全桥直流变换器输出并联拓扑两种工作模式持续时 间与两桥控制信号中的移相角θ有关，两种模式持续时间tⅠ、t Ⅱ如式(3-5)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OPxMADa0n2SM6JmUjByKGfLZicE5DiaLDic7PcnuZsmK2slgZgvghqkvDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_069_c1b9870ed7e9.png)
 
 其中T为开关周期，由式(3-4)、(3-5)可得全桥直流变换器输出并联拓扑两桥输出电流关 系如式(3-6)。理想条件下，上下两桥参数完全一致即ZH=Z L，此时ioH-ioL=0，两桥输出电流无不均分现象；实际运行中，上下两桥参数必然存在差异，即ZH≠Z L，此时ioH-ioL如式 (3-7)，因全桥直流变换器输出并联拓扑两桥输出电压Uo强制相同，则由功率计算公式可 得，此时上下两桥输出功率PoH=ioH×Uo≠PoL= ioL×Uo，即并联拓扑间因输出电流不均分而 导致输出功率不均分现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OetXdNPsBndyDJ0KEun4h5t3KpLpkqeMWLS7ta44T0ic0rZfeYx5gdsA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_070_0cf112805761.png)
 
 下面以并联两桥SiC MOSFET驱动电压ug差异为例，进行全桥直流变换器输出并联 拓扑不均流现象分析。由2.2节分析可知，SiC MOSFET漏极电流id受驱动电压u g、栅源 极电容ugs等多种因素影响，由图2-2(a)器件输出特性曲线可知，漏源极电压 u ds一定时， 漏极电流id与栅源极电压ugs呈正比例关系，并联两桥SiC MOSFET驱动电压ug H≠ug L， 此时两桥输出电流关系如式(3-8)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OOjIS2YzQI1BRq9fbV1Dib0bQEok9Qxnx4sJPQE3zKFI4OLmauxzMGSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_071_a8a274b0ddbb.png)
 
  其中k T=N 1/N 2为变压器变比，gm为SiC MOSFET跨导。此时并联拓扑输出电流关系如图 3-6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O4z6IAAEdMJlhqA6m7F5BUZ0pibtrTdHHYzMdjROq8egtbACp9ibNQxRQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_072_6dd0b6139551.png)
 
 由上可得，当并联两桥SiC MOSFET驱动电压ugH≠ugL时，并联两桥输出电流差∆io与驱动电压差∆ug成正比。结合图3-5全桥直流变换器输出并联拓扑工作模式可得结论， SiC MOSFET驱动电压影响系统损耗进而影响全桥直流变换器输出电流。
 
@@ -503,7 +503,7 @@ idR+idL=iL，可得式(2-14)：
 
 在Pspice仿真软件中搭建全桥直流变换器输出并联模型对以上理论分析进行验证。 图3-7为器件参数差异时全桥直流变换器输出并联波形图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OpUfByQD9pIJB7szpM7gKFemwHgCQ5rgtp42ew6LLgO9vVN14JicRApQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_073_5b876203171e.png)
 
 图3-7中io为输出总电流、iH为上桥输出电流、iL为下桥输出电流、Uo为输出总电压。 图3-7(a)为无差异参数波形，可以看出此时i H=iL，上下桥输出电流相等，不存在输出不均 流现象；图3-7(b)为驱动电压差异时波形，设置上桥驱动电压UgH=20V、下桥驱动电压 UgL=15V，由图可知，因UgH>U gL，导通状态下，上桥器件漏极电流i dH大于下桥器件导 通电流id L，因此两桥输出电流i  H>iL；图3-7(c)为驱动电阻差异时波形，设置上桥驱动电 阻Rg H=10Ω、下桥驱动电阻RgL=20Ω，由图可知，因RgH<R gL，上桥SiC MOSFET导通速 度快，上桥相对有效导通时间长，因此两桥输出电流i H>i  L；图3-7(d)为导通电阻差异时 波形，设置上桥导通电阻Rd sonH=80mΩ、下桥导通电阻RdsonL=200mΩ，由图可知，由于Rd sonH>RdsonL，导通状态下，上桥电流i dH小于下桥电流idL，因此两桥输出电流i  H>iL；图 3-7(e)为栅源极电容差异时波形，设置上桥栅源极电容CgsH=2245pF、下桥栅源极电容 CgsL=1122.5pF，由图可知，因CgsH>CgsL，上桥SiC MOSFET导通速度慢，上桥相对有效 导通时间短，因此两桥输出电流i H<iL；图3-7(f)为源极电感差异波形，设置上桥源极电感 LsH=1nF、上桥源极电感LsH=20nF。综上可得，当全桥直流变换器输出并联上下桥器件参 数存在差异时，并联拓扑输出电流均存在一定程度的不均分现象。
 
@@ -513,55 +513,55 @@ idR+idL=iL，可得式(2-14)：
 
 由式(3-6)并联两桥输出电流公式可知，全桥直流变换器输出电流io除了与阻抗大小 相关外，还与移相角θ、变压器变比kT等有关。由于变压器变比无法改变，故可通过改 变并联两桥移相角θ大小，对两桥使用不同移相角PWM信号进行控制，以此抵消阻抗造 成的差异。假设此时上桥控制信号移相角为α，下桥控制信号移相角为β，则此时全桥直 流变换器输出并联拓扑工作模式由图3-5所示两种增加至三种，工作模式Ⅲ简化电路如图 3-8所示。在此工作模式下，上桥与工作模式Ⅰ相同为功率传输模式，下桥与工作模式Ⅱ相 同为功率截止模式，即此时上桥输出电流ioH如式3-4所示，下桥输出电流ioL可近似看作 0。通过合理调整工作模式Ⅲ时长即可实现并联两桥器件参数差异时输出电流均分。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OD95kL9GfWXnCk9LUDrW4MFfHZ1IbhCmnOXkj9Eh13CHeTYPgPIG7pQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_074_5fd6ad990b6e.png)
 
 此时三种工作模式控制信号作用区域如图3-9所示。其中GSH1、GSH4为上桥正向对角管控制信号，GSL1、GSL4为下桥正向对角管控制信号，红色区域为工作模式Ⅰ、蓝色区 域为工作模式Ⅱ、绿色区域为工作模式Ⅲ。三种工作模式作用时间如式(3-9)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OHHf05sbx3fQFRTXibCDE2gQ6yUCiaJYxk6TPzxzsKBVkvg1yNHW1RTvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_075_4d5557750516.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0ObibtdpfAzsMjBzE3L8kqaibdpXTJVI79PktIy6EHcqic4EfHPhw9MrTMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_076_e99435eb4562.png)
 
 此时并联两桥输出电流io1、io2关系如(3-10)式 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OUyZxZxk5PQguvShEcGAv6akWZJN61IKHiaBFs1kfEeef7eCUucQgicLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_077_d85a4eb68201.png)
 
 由上式可得，当合理调整工作模式Ⅲ时长，使α与β满足式(3-11)时，即可抵消由参 数差异等引起的全桥直流变换器输出并联电流不均分问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O0oT5wdlSa5ybzzsW2lyY3Q1Em1x3mVyywRG3jgHibC5xaYXdcLRvLjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_078_bbfe535ed994.png)
 
 为实现全桥直流变换器输出并联均流，上下两桥采取不同移相角PWM信号进行控制， 本文提出一种主从功率均分控制策略，即针对并联两桥采用不同的控制目标分别进行闭环 控制，通过各自的闭环控制得到两桥移相角α、β，以此实现全桥直流变换器输出并联均流。 
 
 主桥所采用的电压闭环移相控制原理如图3-10所示，通过采样负载侧的电压Uo与给 定电压Uref作差后得到电压误差∆U，将误差∆U送入PI调节器并经限幅模块后得到PI输 出，将PI输出送入移相角转换模块中，得到最终所需的移相角θ，随后对50%占空比PWM 信号进行移相处理后，通过隔离驱动电路作用于主桥前级逆变全桥的四个开关管，实现电压闭环控制。从桥所采用的电压差闭环控制原理与之相同，通过采样两桥输出电流，以 ∆I=0为目标进行闭环控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OoIfa9a8odhIWBjgUDzuW06bibwlfofPQ37v2PETrt79Ufand1z4HiaSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_079_c5588b2b8688.png)
 
 将上述两种控制方法共同使用即为本文所提出的主从功率均分控制，将其应用于基于 SiC MOSFET的全桥直流变换器输出并联拓扑，其控制原理如图3-11。由此实现全桥直流 变换器并联输出均流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OOibRZasw6JFoCGDT7sLdJWyaibhyP0Trw9LL1YJJfzu6LuIk1qicy7Xicg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_080_104d1412e202.png)
 
 3.3 基于SiC MOSFET的全桥直流变换器输出串联均压控制方案 
 
 实现全桥直流变换器扩容，除3.2所述将拓扑输出并联外，还可以将拓扑输出串联， 通过提高输出电压等级来实现系统的扩容，图3-12为全桥直流变换器串联输出拓扑图， 此时输出电流电压关系满足式(3-12)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OvWmFzNHC4hOQ7c3Dsw4MzicI6kCSrjRaTCYgGtaiajagbH4NYcqZj7zg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_081_08174f6e1c52.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OFqKLzGezM6QBia3YsPGk7IHRapfDsH4ucGAxAK2vFvhNunOzy3y1B3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_082_006b986b8b3f.png)
 
 3.3.1 全桥直流变换器输出串联不均压原因分析 
 
 全桥直流变换器输出串联拓扑与输出并联拓扑相同，当两桥控制信号相同时存在两种 工作模式，简化电路如图3-13所示。工作模式Ⅰ为能量传输模式，全桥直流变换器输出串 联拓扑输出电压关系如式(3-13)，简化电路如图3-13(a)所示，工作模式Ⅱ为能量截止模式， 简化电路如图3-13(b)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OcWSO8bF0ZMNrqsMEXK5a8uBSmRgyZtnialeaSFfWRrViahGicziasNicFWw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_083_f4a3e04d3f74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OLAiaybnBrICAzW4zXdmWeeKMXQfIheEdNibMsjW4kgnn77vbfAicejKkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_084_f7fbd75865ef.png)
 
 将式3-5中模式持续时间tⅠ、t Ⅱ代入式(3-13)，可得相同控制信号下，串联两桥输出电 压UoH、UoL关系如式(3-14)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OnFOICZnehL7dW1elUqPwG64Ctfhw6gw61dnzLtKXw5Xt8ZLxwK5yLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_085_6cd4683fddee.png)
 
 与输出并联拓扑相同，输出串联拓扑两桥输出电压与阻抗、移相角、变压器变比等有 关。当两桥参数完全相同时UoH=UoL，不存在输出不均压现象，当两桥参数存在差异时， UoH-UoL如式(3-15)所示。当变压器变比kTL=kTH时，两桥输出电压差∆Uo如式(3-16)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O8DJkBqBn0T7XAS167702wNgxldjagxhmkPNU2oVRicgmibalGfrluiaBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_086_bea77dd2056d.png)
 
 其中T为开关周期，参数存在差异时UoH-U oL≠0，因全桥直流变换器输出串联拓扑两桥输 出电流io强制相同，则由功率计算公式可得，此时上下两桥输出功率PoH=io×U oH≠PoL= io×UoH，即串联拓扑间因输出电压不均分而导致输出功率不均分现象。 
 
@@ -569,65 +569,65 @@ idR+idL=iL，可得式(2-14)：
 
 假设串联两桥除SiC MOSFET导通电阻Rd son以外其余参数完全相同，此时两桥变压 器原边电流幅值iT1=kT1×i o=kT2×i o=iT2。当正向对角管导通时，变压器原边电压幅值U T如 式(3-17)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OlVyVSFJVzhOib4GLArANpggugH2tKTiaYiaeMfKSSNgCpLibkD7ptqR5Jg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_087_748f0031ec8d.png)
 
 由于此时串联两桥除SiC MOSFET导通电阻Rdson不同，此时上下两桥变压器原边电 压关系如式(3-18)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OKYibkNI70eLlXZFrKnq94hgia5oY3yKtGY9hmy4E8KibmWocaAicXXmt7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_088_c80702ccedd0.png)
 
 式中RdsonH、RdsonL分别为串联两桥SiC MOSFET导通电阻Rdson。
 
 此时串联两桥输出电压幅值关系如式(3-19)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OI84Ocf1GGxgibibdjTFVIg01wOfN4KAfR5wicV8PAQ0lbz6VZhIxfZG9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_089_62fdc03e1f0a.png)
 
 输出电压Uo、变压器原边电压UT1与器件电压Uds波形如图3-14所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OmjOVr7llcMicIRr1abbnv6zmeugycGuuJhNfOnPlkJN5j8ibtPwmhVVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_090_187ca7e09ca7.png)
 
 由上分析可知，当串联两桥输出电压差∆Uo与SiC MOSFET导通电阻差∆Rdson成正比， SiC MOSFET器件差异导致串联两桥阻抗差异，从而造成全桥直流变换器输出串联不均压， 与3.2.1节结论相同。 
 
 同样在Pspice仿真软件中搭建全桥直流变换器输出串联模型对以上分析进行验证。 图3-15为器件参数差异时全桥直流变换器输出串联波形图，其中Uo为输出总电压、UH为上桥输出电压、UL为下桥输出电压、io为输出总电流。图3-15(a)为无差异参数波形， 由图可知，此时UH=U L，上下桥输出电压一致，不存在输出不均压现象；图3-15(b)为驱 动电压差异时波形，设置上桥驱动电压UgH=20V、下桥驱动电压UgL=15V，由图可知， 因UgH>UgL，上桥SiC MOSFET导通速度快，上桥相对有效导通时间长，因此两桥输出 电压UH>U L；图3-15(c)为驱动电阻差异时波形，设置上桥驱动电阻R gH=10Ω、下桥驱动 电阻RgL=20Ω，由图可知，因RgH<RgL，上桥器件开通速度快，导通时间长，因此两桥输 出电压UH>U L；图3-15(d)为导通电阻差异时波形，设置上桥导通电阻R dsonH=80mΩ、下 桥导通电阻RdsonL=200mΩ，由图可知，因R dsonH<RdsonL，上桥器件导通压降小，整体电压 损失小，因此两桥输出电压UH>U L；图3-15(e)为栅源极电容差异时波形，上桥栅源极电 容CgsH=2245pF、下桥栅源极电容CgsL=1122.5pF，由图可知，因C gsH>CgsL，上桥器件导通速度慢，上桥相对导通时间短，因此两桥输出电压UH>U L；图3-16(f)为源极电感差异 时波形，上桥源极电感LsH=1nF、上桥源极电感Ls H=20nF。可以看出当全桥直流变换器输 出串联上下桥器件参数存在差异时，串联拓扑输出电压均存在一定程度的不均分现象。综 上可得，当全桥直流变换器输出串联上下桥器件参数存在差异时，串联拓扑输出电压均存 在一定程度的不均分现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OrvvtmbZM7h01AshNkNGgmMeZHTtJrqBKDUW01ZvxCibcKLVXuCvicBVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_091_3054fc3ac527.png)
 
 3.3.2 全桥直流变换器输出串联均压控制策略 
 
 为实现全桥直流变换器输出串联均压，与3.2.2节全桥直流变换器输出并联均流控制 相同，可采用本文所提出的主从功率均分控制策略，如图3-16所示为本文所提主从功率 均分控制用于输出串联拓扑原理框图。由于全桥直流变换器串联输出时两桥间强制相同变 量为输出电流io，因此主桥控制目标为输出电流io稳定，从桥控制目标为各桥输出电压相等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OQywPTk7y7p0icRrkzzeI1Yjeic1IjO3QlUZGmIFwiaiaDBfnvxcB9oe2Dw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_092_6e8a1c041931.png)
 
 此时全桥直流变换输出串联拓扑上下桥控制信号移相角不同，其工作模式由两种增至 三种，工作模式Ⅲ简化电路如图3-17所示。通过调整工作模式Ⅲ时长即可实现串联两桥 器件参数差异时输出电压均分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O1UhKDxC5OM6Byu0xCqgEjBB88TxQCDEcWG6ibsGgEmvKGDvIk5JonjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_093_7d8726db0bb4.png)
 
 当采用不同移相角控制时，并联两桥输出电压差如(3-20)式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OuYKGjO2L3IcG5ha2MNPodd9KBuicJOf9us5Fa6MusdjzLWClrFMlWAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_094_b94d175b4f70.png)
 
   
 
 由上式可得，当合理调整工作模式Ⅲ时长，使移相角α与β满足式(3-21)时，即可抵消由参数差异等引起的全桥直流变换器输出并联电压不均分问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OUZgbcibSLhic4Sd1vFFPickDPe4ViaMfnyCEM0eLsGiaibkPtkF3SKumqmIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_095_18d305bfb5fe.png)
 
 3.4 全桥直流变换器输出串并联均衡方案仿真验证
 
  仿真使用Matlab/Simulink，通过对Rdson差异而造成的串并联输出功率不均分现象进行所提出的主从控制策略的可行性验证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0O7EKHiaHCLAu5HJ1TDE0B8JwL4iaVvBw9JRcem4BksE8DzVb8L5RVOVPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_096_f51e8ef464c6.png)
 
 表3-1全桥直流变换器串并联仿真参数表。
 
 图3-18所示为全桥直流变换器输出并联均流仿真波形，其中图3-18(a)为无均流措施 输出电流波形，图3-18(b)为主从功率均分控制输出电流波形，io为输出总电流、iH为上桥 输出电流、iL为下桥输出电流，由图可知无均流措施时全桥直流变换器输出并联上下两桥 输出电流iH≠iL且存在较大的差值，当采用主从功率均分控制时全桥直流变换器输出并联 上下两桥输出电流基本相同。图3-18(c)为无均流措施输出电流差波形，图3-18(d)为主从 功率均分控制输出电流差波形；由图可得，无均流措施时两桥输出电流差∆i=0.85A，电流 不均衡度达到了5.3%；主从功率均分控制时两桥输出电流差∆i=0.005A，电流不均衡度降低至0.003%，由此证实所提主从功率均分策略对全桥直流变换器输出并联均流的有效性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0Os1p6bGLWicbLgah2IATTibJVlk1dWvkaicFBcpPGLR4Ob9TPFtia3VFqJg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_097_b8f821c159c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OQyrxd77x26H4qn41rNymzA0Elf8OVvvUiaB2yYI3icTzomhMTYtwl2Tw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_098_687f2e965b85.png)
 
 图3-19所示为全桥直流变换器输出串联均压仿真波形，其中图3-19(a)为无均压措施 输出电压波形，图3-19(b)为主从功率均分控制输出电压波形，Uo为输出总电压、UH为上 桥输出电压、UL为下桥输出电压，由图可知无均压措施时全桥直流变换器输出串联上下 两桥输出电压UH≠UL且存在较大的差值，当采用主从功率均分控制时全桥直流变换器输 出串联上下两桥输出电压基本相同。图3-19 (c)为无均压措施输出电压差波形，图3-19(d) 为主从功率均分控制输出电压差波形；由图可得，无均压措施时两桥输出电压差∆U=7.5V， 电压不均衡度达到了3.75%；主从功率均分控制时两桥输出电压差∆U=0.1V，电压不均衡 度降低至0.05%，由此证实所提主从功率均分策略对全桥直流变换器输出串联均压的有效性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskqkwGukguicKsYoznAzCN0OPSaYqTQyYPaGictqQGBLW6hghvF6nhkibeAM4JwsNMciaQatatuNR92cA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_099_2f4c48955ead.png)
 
 3.5 本章小结 
 
@@ -637,11 +637,11 @@ idR+idL=iL，可得式(2-14)：
 
 4.1 系统实现方案 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMntPicoGDJza3AI2wPZADvXby395T7Awl8DPc1ZygkdpL4uBaSBJAUibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_100_1677aabb6abe.png)
 
 本文直流变换器系统由三部分组成，其中两套全桥直流变换器为主功率拓扑，SiC  MOSFET驱动电路用于驱动SiC MOSFET模块、基于TMS320F2812控制芯片的控制电路 控制策略。系统整体控制框图如图4-1所示，其中两套全桥直流变换器拓扑输出可进行串并联，用以实现系统扩容。系统实验样机图如图4-2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMxuHUW1M509URO3jEcGN19aISVZCW9m3ibiaNruZQ3F4fkGpF30gYetVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_101_fe11430d6197.png)
 
 4.2 系统硬件设计 
 
@@ -651,7 +651,7 @@ idR+idL=iL，可得式(2-14)：
 
 本文选用了两款SiC MOSFET模块，分别为用于SiC MOSFER单管并联均流验证的 WolfSpeed公司1200V/36A的型号为C2M0080120D的SiC MOSFET单管模块以及用于搭 建全桥直流变换器的Infineon公司的1200V/50A的型号为FF23MR12W1M1\_B11的桥臂 模块。本节所设计的驱动电路需满足二者的驱动要求。其中C2M0080120D阈值电压为2.4V、FF23MR12W1M1\_B11阈值电压为4.5V，FF23MR12W1M1\_B11驱动条件更为苛刻， 故本文设计的驱动电路以满足FF23MR12W1M1\_B11为主，由FF23MR12W1M1\_B11的 数据手册可得其驱动相关参数如表4-1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMpSPkXK8ohCYiaW9ZljNcxINzMTfbticy1jiaeD5MCw7gYD3GHYSibibsdcg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_102_84da0ab49489.png)
 
 (1)驱动芯片的选择 
 
@@ -661,7 +661,7 @@ idR+idL=iL，可得式(2-14)：
 
 由于SiC MOSFET应用于高频场合，需要更快的开通关断速度来减小开关损耗，即 相较于Si MOSFET需要更大栅极电流ig为输入电容Ciss充电，使其栅源极电压ugs快速抬 升至阈值Ugs(th)。SiC MOSFET开通过程中所需的栅极电流平均值Igave由下式(4-1)可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMOYszKuDV4mFEcpxqT0YibfiandHc7xljOCmctBX7TKIHyD4avMGu4x8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_103_332ac9090448.png)
 
 其中，Qc为SiC MOSFET总的栅极电荷；tr为上升时间；td(on)为开通延迟时间。
 
@@ -679,25 +679,25 @@ idR+idL=iL，可得式(2-14)：
 
 综上分析，本文选取Altera公司MAX3000系列中的EPM3064atc44-10n作为实现主 动栅极控制功能的控制器件。其体积小，仅有13×13mm，可更好地集成于驱动电路中。 EPM3064atc44-10n的参数表如表4-2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMf1qQ0bt7xq127V6n4SCbtz3iaUqDcPk1QZvicYkhxxBF44j2FZRk4ib8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_104_3e4ba8fc1d88.png)
 
 由表4-2可知，EPM3064atc44-10n可用I/O共有36个，满足主动栅极控制信号引脚 数量需求。由2.2节分析仿真可知，主动栅极控制对于PWM开通关断延迟时间为 10ns~100ns，芯片运算速度等级为1ns，满足所需的最小时间长度。故本文将EPM3064atc44-10n集成于驱动电路中用于实现主动栅极控制功能。  
 
 (4)主动栅极控制驱动电路的实现 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMV3aAuELjPtm5zF20wTGFGH3pUEtKcqGHm2r75yjsY38AVUmdKrgRgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_105_79dfaabbfd6c.png)
 
 综上，最终基于驱动芯片ACPL-333J、IXDN609SI以及控制芯片EPM3064atc44-10n 设计了一款具有主动栅极控制的双路SiC MOSFET驱动电路，电路形式如图4-3所示。 两路PWM信号与并联支路电流信号id共同输入EPM3064atc44-10n，在EPM3064atc44-10n 中实现PWM延迟时间计算并进行延迟，随后将延时后的PWM分别送入驱动电路。 
 
 以上路驱动电路为例，EPM3064atc44-10n输出PWMH通过输入电阻R1H后进入隔离 驱动芯片ACPL333J，随后由ACPL333J输出进入功率驱动芯片IXDN609SI，最终经驱动 电阻R1H-R4H作用于SiC MOSFET栅源两端实现驱动。其中开通电阻为R3H、R4H并联， 关断电阻为R1H-R4H并联，IXDN609SI供电电源选用20V，其经由限流电阻R6H以及C2H和稳压二极管DZ1H组成的分压电路，最终形成+15V/-5V的驱动电压。图4-4为所设计的 驱动电路实物图。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexM026L9ibY2YicTnJhbzSoPKaoqUBxvbWahImmxWr5u07dZGg7W1DQyfgw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_106_b954614979e5.png)
 
 4.2.2 全桥直流变换器硬件设计 
 
 本文直流变换器系统采用全桥直流变换器作为基础拓扑，为满足扩容需求，以表4-3 所示参数为准进行设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexM8gBla668dbPVUQXouhDGTiaqejZcKFhd1M05v9sMsQwfebJkEZ9u1Aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_107_b732ce1cd407.png)
 
 (1)SiC MOSFET模块选取 
 
@@ -715,7 +715,7 @@ A.变比kT确定 
 
 为保证高频变压器的效率，一般将原副边变比k T设置得稍大，由表4-3可知，本文设计的全桥直流变换器为降压型直流变换器，故kT的最小值应满足当变换器占空比D与输入电压Uin均为最大状态时，输出电压Uo可达最大值Uomax，即kT应满足式(4-2)： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMxbF9zn4SHUAjg4MkjKak6lCmcf4tVapnP2comk3Q5C8uJJXwet0oGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_108_fa27cca826f5.png)
 
 其中，Dmax为变换器最大占空比，在此应等效为移相全桥变换器最大有效工作时间占比， 即移相角θ=0时，但考虑到死区时间等因素，此处取Dm ax=0.95，代入式中可得kTmin=1.583， 在这里取kT=1.6。 
 
@@ -725,7 +725,7 @@ B.磁芯的选择 
 
 AP法是设计变压器磁芯中常用的方法，通过设置变压器最大磁通密度Bm及最大电 流密度Jm来计算磁芯截面积Ae和窗口面积Aw，以保证变压器正常工作时满足磁芯不饱 和以及绕组不过流的基本条件。AP法选取变压器磁芯应满足如式(4-3)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMMJeT6FjKmcL69X3qEePiatOI0csiaY9biaic1MRz39SrJlxD71aP8CwsAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_109_a636b92db5fb.png)
 
 其中kf为波形系数，本文变压器输入输出电压为方波与阶梯波，取kf=4；k w为窗口系数 一般取0.3~0.5，取kw=0.4；PT为变压器容量，取PT=2.5kW；fs为开关频率，取fs=50kHz； Bm为最大磁通密度，取Bm=0.1T；Jm为最大电流密度，取Jm=4A/mm2，将其代入式(4-3)， 可得Ap=78cm4。故本文高频变压器磁芯选用EE85。 
 
@@ -733,7 +733,7 @@ C.绕组匝数的设计 
 
 变压器副边绕组匝数计算公式如式(4-4)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMrEytS5qLtLwia5PBgITS0WEGRK7oAGvswJIicNrRcQe0pWa5AL85iaEXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_110_f5c5dc827fd5.png)
 
 其中，Ae=1.24cm2；Bm=0.1T，代入式(4-4)可求出副边匝数为4.81，这里取N2=5匝， 原边匝数为N1=kT×N2=7匝。  
 
@@ -741,17 +741,17 @@ D.原边导线面积计算及导线与线径选取  
 
 变压器原边绕组导线电流I1 v计算公式如式(4-5)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMiaiaqZ4UnKNPw42XzicPjjTa6CaKaOLD35gXDJiczgSbDbtwAR46WCVueg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_111_07e295b1f8ed.png)
 
 式中η为直流变换器效率，这里取η=95% 
 
 变压器副边绕组导线电流I2v计算公式如式(4-6)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMa32icX3EoaPFNZXBLSAicPnkziccvnlde4rns260128DPE21ibib0jph2Tg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_112_e7f02d7918e1.png)
 
 由此可得变压器原副边绕组导线面积如式(4-7)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMGMDt05tNibCuE8b53tPC1nIu0N33D1ibJGBqcAuPae01icBXggsrMOO8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_113_d9d50d1647c6.png)
 
 本文高频变压器绕组导线取铜导线进行绕制，由于高频交流电存在集肤效应故在绕组 导线线径选取时需考虑铜导线穿透深度，f=50kHz时铜导线的穿透深度为0.2955mm，通常要求导线线径小于二倍的导线穿透深度，即绕组导线线径不得超过0.591mm，这里选 用0.3 mm线径铜线进行绕制。
 
@@ -759,7 +759,7 @@ D.原边导线面积计算及导线与线径选取  
 
 移相全桥直流变换器软开关由谐振电感Lr与SiC MOSFET漏源极并联电容Cds共同 实现，能否实现软开关取决于Lr大小，L r过大会导致占空比丢失，过小则无法实现软开 关功能，由于滞后桥臂软开关实现难度远大于超前桥臂，故以实现滞后桥臂软开关为准设 计Lr大小，具体计算如式(4-8)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMDabo7sMuOjGIDX5jLWwVMH4a0NAh2vwoKDSuicts6FuiayQth0d7fCjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_114_77b12185f6a1.png)
 
 式中，Lr为谐振电感；IN2为变压器二次侧电流；漏源极并联电容Cds取47nF高频薄膜电容，将值代入式(4-11)可得出Lr≥58.75μH。经测量，本文高频变压器原边漏感为1.2mH， 满足谐振电感要求，无需外加谐振电感。  
 
@@ -771,13 +771,13 @@ D.原边导线面积计算及导线与线径选取  
 
 SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064atc44-10n实 现，具体程序流程如图4-5所示，程序开始首先配置I/O口，分别将采样的支路电流以及 PWM信号输入，随后根据采样的电流计算出控制信号所需延迟时间，并将延迟时间作用 于输入PWM信号，最终将延时后的PWM信号输出，程序结束。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMwArBPfLsNLr1GBvgNwNAzYLFm7DmccMIRP60PhXcDQYwibUVCMIRjlg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_115_8c66ba8fea09.png)
 
 4.3.2 直流变换系统主程序 
 
 直流变换器系统控制算法主要通过中断程序实现，故主程序中仅对所有变量以及寄存 器进行初始化配置。具体流程如图4-6所示。程序开始首先禁止所有中断运行，然后进行 初始化配置，包括所有变量、定时器时钟、中断向量地址表、CPIO口、事件管理器EV 以及ADC模块等，初始化配置结束后清除所有中断标志位并使能中断，开启中断并等待 中断请求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMsxHiboPzJQHWxF9GL6ndKQ42EUCbOACKiaoAbibpiaibbia9Ev3pfeI0vW6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_116_24b3f9d37668.png)
 
 4.3.3 直流变换系统中断子程序 
 
@@ -785,17 +785,17 @@ SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064
 
 本文所提出的主从功率均分控制策略是基于移相控制实现。首先需实现移相控制算法， 由上文可知移相控制共需两对互补PWM波，本文利用TMS320F2812 EV模块中的全比 较单元来实现，具体实现原理如图4-7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMFFTn0tE7iaJGgpEzeM1PQNWpAe9Z9ibicc9zuxCicLaz3IpibKtmAO3IeKw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_117_ee56aeefcca2.png)
 
 其中T1CNT为EVA的定时器1计数寄存器，CMPR1、CMPR2为全比较寄存器，二 者分别为开关管S1S2与S3S4生成PWM波，当CMPR1=T1CNT，开关管S1、S2的PWM 波发生电平变换，CMPR2与之相同，因此改变CMPR1、CMPR2差值便可控制移相角θ 大小。为保证四路PWM占空比为50%，一个周期内需为CMPR1、CMPR2进行两次赋 值，两次赋值分别在EV定时器1的下溢中断与周期中断时进行，两次赋值之间的关系如 式(4-9)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMxAKQlqLsBuicnuTB0SeXQRg9C3Oxcheq8u453rhgRF9z7IBBuLAlqYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_118_f06416bdb4b9.png)
 
 (2)主从功率均分控制策略中断流程图 
 
 如图4-8所示为主从功率均分控制策略中断流程图，算法实现共使用三个中断，分别 为移相角计算所需的ADC中断以及移相控制发波所需的定时器周期中断和下溢中断。首 先进入ADC中断，采样主从桥电压与电流，分别送入主从桥闭环控制器中进行计算，随 后由移相角计算模块将控制器输出转换为主从桥移相角α、β，接下来根据中断标志位判 断进入周期中断或下溢中断完成比较寄存器数值计算，最后完成数值装载，中断结束。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMDicnTJokibYg5Hticwm1hdtibDk2xiccrYecj6LxXCSyWyYP3aEWuFeYq8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_119_835c16f5f49e.png)
 
 4.4 本章小结 
 
@@ -807,13 +807,13 @@ SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064
 
 为验证所设计的主动栅极控制驱动板可行性，将两只C2M0080120D并联放入双脉冲触发实验平台中，实验数据如表5-1：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMD49RLlZgM2edicZXo2QGqeg1hLIhQZlShia5Tu84R4nq8CY0IOlySPyg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_120_2ee1d3664727.png)
 
 如图5-1所示为SiC MOSFET并联主动栅极控制均流实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMzfVibOLNmh1lwRHLEHTpJwalj24taBVOyK78dpOQoIe7icYo5fm1PMwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_121_badad43dd9ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMhiaeicicp6etUIicvmvJq4CoT1zu7kpZbfE6TaIicj0AeHgdiaLTLjYtJWkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_122_bde92d125977.png)
 
 其中图5-1(a)所示为 无均流措施时并联SiC MOSFET开通波形，图5-1(b)所示为无均流措施时并联SiC  MOSFET关断波形，图5-1(c)所示为主动栅极控制下并联SiC MOSFET开通波形，图5-1(d) 所示为主动栅极控制下并联SiC MOSFET关断波形；图中idL、idR、ugsL、ugsR分别为并联 SiC MOSFET两支路中左路开关管漏极电流、右路开关管漏极电流、左路开关管栅源极电 压与右路开关管栅源极电压。由图5-1(a)、5-1(b)可以看出在无均流措施时，并联两支路 SiC MOSFET开通与关断过程中漏极电流均存在差异，此时左路SiC MOSFET漏极电流 id L开通与关断时刻均滞后于右路SiC MOSFET漏极电流i dR，即栅源极电容Cgs与源极电 感Ls等寄生参数差异导致了SiC MOSFET并联时存在动态不均流现象；由图5-1(c)、5-1(d) 可以看出加入主动栅极控制后，因闭环控制右路SiC MOSEFT驱动信号上升沿被延迟约 40ns，下降沿被延迟约60ns，此时并联两支路SiC MOSFET漏极电流开通与关断时刻基 本一致，即通过主动栅极控制对驱动信号延迟时间的调节抵消了Cgs、Ls等参数差异导致 的并联SiC MOSFET动态不均流，实现了SiC MOSFET并联均流。
 
@@ -821,21 +821,21 @@ SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064
 
 为验证全桥直流变换器扩容功率均分方案有效性，搭建了由两台移相全桥直流变换器 组成的输出串并联实验平台，表5-2为一台移相全桥直流变换器实验平台参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMYVIfWmL0HcVvVnlZpibRfRBswwLDeTibmgkbslf8heycH24kDARfe0Ag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_123_c4f485937541.png)
 
 5.2.1 全桥直流变换器移相控制闭环实验波形及分析 
 
 如图5-2所示为全桥直流变换器电压闭环移相控制实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMlWeDVr7VX3QM6O23VZkZTTalib4LQk0mV60Ra57cdgOUjBzHFEnFgicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_124_f23381c4770a.png)
 
 图5-2(a)所示为输入电 压Ui n=180V时输入输出电压波形，图5-2(b)所示为输入电压U in=200V时输入输出电压波 形，图5-2(c)所示为输入电压Uin=260V时输入输出电压波形；图中Uin、Uo、UTR分别为 全桥直流变换器输入电压、输出电压以及变压器原边电压，输出给定Uref=100V，由图5-2(a)、 图5-2(b)、图5-2(c)可得，当全桥直流变换器输入电压Uin由180V逐步升高至200V与260V 时，全桥直流变换器移相角θ因电压闭环控制由10%逐步升高至20%与50%，系统有效 导通时间由90%逐步降低至80%与50%，使得全桥直流变换器输出电压Uo维持给定电压 100V，由此证实移相控制对全桥直流变换器输出电压控制有效性。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMH1rsZ1TnicKpP7ZlNjn851mGHtmiaD02icSHUdRlK0zWAx1HHKZJic1pKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_125_e2a9acbf194d.png)
 
 如图5-3所示为全桥直流变换器100kHz工作频率下电压闭环移相控制实验波形。图 5-3(a)所示为输入电压Uin=240V时输入输出电压波形，图5-3(b)所示为输入电压U in=300V 时输入输出电压波形；图中Uin、Uo、UTR分别为全桥直流变换器输入电压、输出电压以 及变压器原边电压，输出给定Uref=100V，由图5-3(a)、图5-3(b)可得，所设计搭建的移相全桥直流变换器在工作频率100kHz下，输入电压Uin由240V升高至300V时，输出电压 Uo维持给定电压Uref，且，变压器原边波形无过大畸变，由此证实所搭建的基于SiC  MOSFET的全桥直流变换器高频工作状态下移相闭环控制有效性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMFldVrIkTPf65rRkRB2zaZXedqc8EvtGC0M5edzf4M0Us9jIAT0Is7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_126_ebe71ddcb5ef.png)
 
 如图5-4所示为全桥直流变换器电压闭环移相控制负载突变实验波形。图中Uin、Uo、 Io分别为全桥直流变换器输入电压、输出电压以及输出电流，输出给定Uref=100V，由图 可得，当负载突增50%时，全桥直流变换器输出电压Uo在波动后可稳定跟随给定电压Uref，由此证实了在电压闭环移相控制时全桥直流变换器输出电压在负载突变时具有良好的稳定性。
 
@@ -843,7 +843,7 @@ SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064
 
 如图5-5所示为全桥直流变换器输出并联均流实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMYWeUH5weNpibNKCojvQNNgH66LdhABd3ib0piaic9jaDLbnDYYdFTXPvoA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_127_ec80531030e7.png)
 
 图5-5(a)所示为无均流措施 时全桥直流变换器输出并联系统输出电压、电流波形，图5-5(b)所示为主从控制时全桥直 流变换器输出并联系统输出电压电流波形，其中Uo、Io、IL、IR分别为总输出电压、总输 出电流、左桥输出电流以及右桥输出电流；图5-5(c)所示为无均流措施时开关管漏源极电 压波形，图5-5(d)所示为主从控制时开关管漏源极电压波形输入电压，其中UdsLS1、U dsLS4、 UdsRS1、UdsRS4分别为左桥S1、S4开关管漏源极电压以及右桥S1、S4开关管漏源极电压； 图5-5(e)所示为无均流措施时全桥直流变换器输出并联系统输入电压、变压器原边电压波 形，图5-3(f)所示为主从控制时全桥直流变换器输出并联系统输入电压、变压器原边电压 波形，其中Uin、UTL、U TR分别为系统输入电压、左桥变压器原边电压、右桥变压器原边电压。 
 
@@ -851,7 +851,7 @@ SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064
 
 图5-5(b)、5-5(d)、5-5(f)所示的主从功率均分控制波形，此时全桥直流变换器输出并 联系统中右桥采用电压闭环移相控制，左桥采用电流差闭环移相控制，右由图5-5(a)可知， 此时系统输出电压Uo=100V，Uo=Uref，即右桥电压闭环移相控制实现，左桥输出电流IL=8.14A、输出功率PL=814W，右桥输出电流I R=7.96A、输出功率PR=796W，总输出电 流Io=16.1A、输出功率Po=1610W，实现系统扩容，并联两桥输出电流差∆I=0.18A，即左 桥电流差闭环移相控制实现。由图5-5(c)可知，此时两桥控制信号不同，左桥移相角θL 大于右桥移相角θR。由图5-5(e)可知此时左桥有效导通时间大于右桥有效导通时间。由上 分析可得，当全桥直流变换器输出并联拓扑采用主从功率均分控制时，通过调节并联两桥 移相角改变两桥有效导通时间，从而减小了由于器件参数差异而导致的两桥输出电流差异， 即抑制了全桥直流变换器输出并联不均流现象，实现了系统扩容功率均分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMzRVZKo1hHKkuGN0Tm5FIIEaAxe3VPQDcziaqgbzIa1IqadB2I17CdUg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_128_5e881c080b18.png)
 
 将全桥直流变换器输出并联实验数据分析整理如表5-3所示。由表可知通过采用主从功率均分控制策略，全桥直流变换器输出并联系统功率差额由131W降低至18W，系统 输出功率不均衡度由8.3%降低至1.1%，即主从功率均分控制实现了全桥直流变换器并联 系统功率均分。
 
@@ -859,7 +859,7 @@ SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064
 
 如图5-6所示为全桥直流变换器输出串联均压实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMUyFkqaSphsY71Q18rWpbFwItP1xEvw8Cc53h1A4N2MSVkp5TSKH8zg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_129_39c756e743e8.png)
 
 图5-6(a)所示为无均压措施 时全桥直流变换器输出串联系统输出电压、电流波形，图5-6(b)所示为主从功率均分控制 时全桥直流变换器输出串联系统输出电压、电流波形，其中Io、Uo、UL、UR分别为全桥 直流变换器输出串联系统总输出电流、总输出电压、左桥输出电压以及右桥输出电压；图 5-6(c)所示为无均流措施时开关管漏源极电压波形，图5-6(d)所示为主从功率均分控制时 开关管漏源极电压波形，其中UdsLS1、UdsLS4、UdsRS1、UdsRS4分别为左桥S 1、S 4开关管漏 源极电压以及右桥S1、S4开关管漏源极电压；图5-6(e)所示为无均流措施时全桥直流变换 器输出串联系统输入电压、变压器原边电压波形，图5-6(f)所示为主从控制时全桥直流变 换器输出串联系统输入电压、变压器原边电压波形，其中Uin、UTL、UTR分别为全桥直流 变换器输出串联系统输入电压、左桥变压器原边电压、右桥变压器原边电压。 
 
@@ -867,7 +867,7 @@ SiC MOSFET并联均流主动栅极控制策略由所设计驱动板中的EPM3064
 
 图5-6(b)、5-6(d)、5-6(f)所示的主从功率均分控制波形，此时全桥直流变换器输出串 联系统中右桥采用电流闭环移相控制，左桥采用电压差闭环移相控制，由图5-4(b)可知， 输出电流Io=7.82A，I o≈I ref，即右桥电流闭环移相控制实现，左桥输出电压U L=101.3V、 输出功率PL=792.2W，右桥输出电压UR=98.5V、输出功率PR=771W，总输出电压Uo=200V、输出功率Po=1564W，系统扩容实现，此时串联两桥输出电压差∆U=2.8V、功率差为 ∆P=22W，即左桥电压差闭环移相控制实现。由图5-6(d)可知此时两桥控制信号不同，左 桥移相角θL大于右桥移相角θ R。由图5-6(f)可得此时左桥有效导通时间大于右桥有效导 通时间。由上分析可得当全桥直流变换器输出串联拓扑采用主从功率均分控制时，通过调 节两桥移相角改变串联系统两桥有效导通时间，从而减小了由器件参数差异等因素导致的 两桥输出电压差异，即抑制了全桥直流变换器输出串联不均压现象，实现了系统扩容功率均分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrsL4mCTxG1NA4ticPIcexMXZ108fO3dFsEomc9M60lOiaOSNic6EwWFfU9ZTstuUpd4wjoFh14Qyaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_130_a0a409cd0c3e.png)
 
 将全桥直流变换器输出串联实验数据分析整理如表5-4所示。由表可知通过采用主从功率均分控制策略，全桥直流变换器输出串联系统功率差额由191W降低至22W，系统 输出功率不均衡度由12.4%降低至1.4%，即主从功率均分控制实现了全桥直流变换器串 联系统功率均分。
 
@@ -899,10 +899,10 @@ SiC MOSFET相较于Si MOSFET有着更优异的性能，能更好地满足电力�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_131_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_132_a7ecee98ead9.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC_MOSFET的全桥直流变换器扩容功率均分方法研究_images\img_133_9bbc7b9b15a2.png)

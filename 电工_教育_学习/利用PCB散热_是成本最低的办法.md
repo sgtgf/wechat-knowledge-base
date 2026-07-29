@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt2O1tN1KibURVogDjwzUfAMXCEvwtsFxNg1vUtU79giaTezMH6hicpA693A/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_002_48d9d4333434.jpg)
 
 对于电子设备来说，工作时都会产生一定的热量，从而使设备内部温度迅速上升，如果不及时将该热量散发出去，设备就会持续的升温，器件就会因过热而失效，电子设备的可靠性能就会下降。因此，对电路板进行很好的散热处理是非常重要的。
 
@@ -16,15 +16,15 @@
 
 **1 、加散热铜箔和采用大面积电源地铜箔。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt2nTRCvmOQDpnkePZzicIXwa30URT6ibsW3AXDFn8kT9WZoAWsNRUC3oIA/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_003_2de272b3afd1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt2hlNFia5icc5UPOF7b6vvkIRncUMv5d6je4vayGS8W0RIQriceKpjlN13g/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_004_c61ed75dfa8f.jpg)
 
 根据上图可以看到：连接铜皮的面积越大，结温越低
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt2Elxz5X3V1C4zzLWs6eAUZcV3Yja2pHZCXWScIjYjVxicao6FhT0Wfibw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_005_5dba4b14ecad.jpg)
 
 根据上图，可以看出，覆铜面积越大，结温越低。
 
@@ -34,13 +34,13 @@
 
 热过孔能有效的降低器件结温，提高单板厚度方向温度的均匀性，为在 PCB 背面采取其他散热方式提供了可能。通过仿真发现，与无热过孔相比，在器件热功耗为 2.5W 、间距 1mm 、中心设计 6x6 的热过孔能使结温降低 4.8°C 左右，而 PCB 的顶面与底面的温差由原来的 21°C 减低到 5°C 。热过孔阵列改为 4x4 后，器件的结温与 6x6 相比升高了 2.2°C ，值得关注。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt2ibKWWOGqyIAhMNLE8Af1G9312icjMGaoNU6cbpZ5MP67jnxwAsDSZ1xg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_006_ee5db80b066f.jpg)
 
   
 
 **3、IC背面露铜，减小铜皮与空气之间的热阻**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt20DbLuzibnCGOhDic86T5bBOt2xB4FQd9k72Y7tfZESScXNZpTMLBDXpA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_007_9206f64a678b.jpg)
 
   
 
@@ -48,7 +48,7 @@
 
 大功率、热敏器件的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt2txbbibhoqpUZwBRQbCN47GBhEIRJGzhgAlqVauoSEvoWvRSGEtgjJ7Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_008_66b0eb28d586.jpg)
 
 a、热敏感器件放置在冷风区。
 
@@ -66,9 +66,9 @@ g、将功耗最高和发热最大的器件布置在散热最佳位置附近。�
 
 h、元器件间距建议：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHP72XNETKVHIq5BQ54xuqt2VIsFiclDR8ibTYrNN8yJbHNVqIdjMFvnBOWYuXE8A35hg8mM8VukOEQg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_009_354bc9c41d94.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_010_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\利用PCB散热_是成本最低的办法_images\img_011_d5dcc7ecfdf3.jpg)
 
 ## 
 

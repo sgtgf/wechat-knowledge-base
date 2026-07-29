@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ORkzwczHvoDIuj1d2llxOQ](https://mp.weixin.qq.com/s/ORkzwczHvoDIuj1d2llxOQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26ljUOmQaUpY7SicJicpevrr5d67UPO1uCYSatWrJXRqTCDoEaKqoKVWhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_000_45ce69dc3e12.png)
 
 __**★★★**___BJT-3---晶体管开关电路计算实例___**★★★**__
 
@@ -13,7 +13,7 @@ _€1.开路集电极开关_
 
 **_图3-1_**是NPN和PNP开路集电极开关，从图中可见，负载Rload均串接在集电极一侧。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKTm4TkOWtbh7WOnBO3bUicZ7eANTiagjWviaibaMiaQ90JR4GjqZKVIpmcLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_001_d5c3af9cffd3.png)
 
 **_图3-1：NPN和PNP开路集电极开关_**
 
@@ -27,11 +27,11 @@ _设计背景：_
 
 控制端为MCU的GPIO，高电平3.3V，VDD为3.3V，设计一个LED驱动电路，除了可以控制LED的亮灭。LED为ROHM的SMLZ24BN3TT86，相关参数如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfVLrN04W9qhVjBIHN8pwQSALmcwgM08wI343T9PBm6OvVL006j3ibKRaObIkcOSalhW52BA74uVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_002_bf9e4429d436.png)
 
 **_图3-2：LED的最大额定参数_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfVLrN04W9qhVjBIHN8pwQ3EjP4ERPX1Gtrxp7rNVAXyPv2AgiaLrxD0LZ8NnUCt9ez1aVmfK8www/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_003_b3692a7093da.png)
 
 **_图3-3：LED的标准参数_**  
 
@@ -45,11 +45,11 @@ Vceo＞3.3V，Vcbo＞3.3V，Vbe＞3.3V，Ic＞30mA。
 
 可以选择通用的小信号晶体管，此处以LRC的型号L2SC5635WT1G为例：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfVLrN04W9qhVjBIHN8pwQ3t4JmKAGsxFPcuib9icUibe4ibdZlubfNJvKN7WDVU8Oal0Z3nR7UzDBxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_004_e5484d963afb.png)
 
 **_图3-4：L2SC5635WT1G最大额定参数_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfVLrN04W9qhVjBIHN8pwQzh5cC5B2ywCIeIwgBKQ5euC5uhjmJCL3YGicKKhEn34Pd31OibeOorbg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_005_a2fb544d8257.png)
 
 **_图3-5：L2SC5635WT1G电气性能参数_**
 
@@ -71,7 +71,7 @@ _设计方式二：负载路径上增加限流电阻R控制Ic_
 
 因为LED压降已经占去3.3V，对于VDD=5.0V，R3=85Ω，hf=50，Ib×50×85Ω=1.7V，临界Ib=0.4mA，计算饱和Rd=（3.3V-0.6）/0.4mA=6.75kΩ。取Rd≤6.75kΩ（越小越深度饱和）即可，如**_图3-6右_**所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRzsUhYoPz16FKnt6iajBCS0d1R6SD4G1VkgAZJnYMfaNibXyu7GUcRglm5QUQVo09ZKBLaffIlFVtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_006_7886b6a2419f.png)
 
 **_图3-6：两种方式设计参数（小电流LED不推荐左图）_**  
 
@@ -85,7 +85,7 @@ __€3._损耗_
 
 _€4.开路发射极开关_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRbdxfnf6CaHuib5kmx2iaicxKg3jrm3vPKZ66NrKRKMf0yyrVUD8KicQp8aCIticZrEp2ebt7TqcWlzPg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_3_如何计算晶体管开关电路_2_images\img_007_9e117a97b33c.png)
 
 **_图3-7：NPN和PNP开路发射极开关_**
 

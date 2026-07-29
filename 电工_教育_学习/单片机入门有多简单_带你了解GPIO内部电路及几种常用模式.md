@@ -12,7 +12,7 @@
 
 一、GPIO内部结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPA2LIC4DFUWX51wvSf3PliaUlrCO1JNGdShb6lgYlRunD7JB3ibAnFbqg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_002_9ac8bb3de601.png)
 
 我们在使用GPIO的时候，可能不会去想为什么通过写代码或者操作寄存器就可以控制一个引脚的高低电平。
 
@@ -20,7 +20,7 @@
 
 我们想要想控制一个GPIO口的需要操作7个寄存器，分别是CRL，CRH，IDR，ODR，BRR，BSRR，LCKR 我们对GPIO的操作本质上就是在对这些寄存器进行读写操作，以下是这些寄存器的名称：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPMknwx5rzrLfZHgaPw4XXLic9LN93uIPFgac5ucib3icYNPOMRBkYnDOIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_003_e5486e16428e.png)
 
   
 
@@ -101,7 +101,7 @@ GPIO共有8中输入输出模式，分别是：上拉输入、下拉输入、浮
 
 浮空输入模式下，I/O端口的电平信号直接进入输入数据寄存器。也就是说，I/O的电平状态是不确定的，完全由外部输入决定；如果在该引脚悬空（在无信号输入）的情况下，读取该端口的电平是不确定的，通常用于IIC、USART等总线设备上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPmNBrK5RgZo7Tqx0KCszUAIGv29KssuicrBibswbXibDrem6R0KUsCnkRQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_004_2e8d75b6f38d.png)
 
   
 
@@ -109,7 +109,7 @@ GPIO共有8中输入输出模式，分别是：上拉输入、下拉输入、浮
 
 上拉输入模式下，I/O端口的电平信号直接进入输入数据寄存器。但是在I/O端口悬空（在无信号输入）的情况下，输入端的电平保持在高电平（并且在I/O端口输入为低电平的时候，输入端的电平也是低电平）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPicCoPOCYjASbLIQ5v2cViaBEibgp0Zn1VnWd7NtJEy2armnVdJ9MibZ2Bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_005_9dfaf40b84f9.png)
 
   
 
@@ -117,7 +117,7 @@ GPIO共有8中输入输出模式，分别是：上拉输入、下拉输入、浮
 
 下拉输入模式下，I/O端口的电平信号直接进入输入数据寄存器。但是在I/O端口悬空（在无信号输入）的情况下，输入端的电平保持在低电平；并且在I/O端口输入为高电平的时候，输入端的电平也是高电平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPgYfyjicIO4Dvicxb7NhIKcnT1L4VeQGAgxLJtiadytHh4ib1GYDcbkGxzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_006_3dba76d76302.png)
 
   
 
@@ -125,7 +125,7 @@ GPIO共有8中输入输出模式，分别是：上拉输入、下拉输入、浮
 
 模拟输入模式下，I/O端口的模拟信号（电压信号，而非电平信号）直接模拟输入到片上外设模块，比如ADC模块等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPk6YTXsZQ1QamKjMVtm3Rklicl5wYXWragGuuV7RKK4ak9gCV7KyIqTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_007_f4a81fd86a32.png)
 
   
 
@@ -151,7 +151,7 @@ GPIO共有8中输入输出模式，分别是：上拉输入、下拉输入、浮
 
 推挽复用输出模式，与推挽输出模式很是类似。只是输出的高低电平的来源，不是让CPU直接写输出数据寄存器，而是利用片上外设模块的复用功能输出来决定的，常见采用推挽输出模式的一般为片内外设功能IIC的SCL、SDL。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPz6CZkC9UFgGRzORonhpmpoALAUwLUh0GTKpQQPGHuCqD9GDREev5Jw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_008_5118e523b9c8.png)
 
   
 
@@ -159,7 +159,7 @@ GPIO共有8中输入输出模式，分别是：上拉输入、下拉输入、浮
 
 开漏输出和推挽输出模式的区别主要是开漏输出只可以输出强低电平，高电平得靠外部电阻拉高。输出端相当于三极管的集电极，适合于做电流型的驱动，其吸收电流的能力相对强(一般20ma以内)；推挽输出可以输出强高、低电平，连接数字器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPW80PGj7QY654VicoWicnA3e75aOe6jHia9DUgUP0wUQrFUe3tdqBPtDMA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_009_36f58e997e13.jpg)
 
   
 
@@ -167,25 +167,25 @@ GPIO共有8中输入输出模式，分别是：上拉输入、下拉输入、浮
 
 在固件库开发中，操作寄存器 CRH 和 CRL 来配置 IO 口的模式和速度是通过 GPIO 初始化函数完成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPc7y7K8yw3Fs84iax5QibuRCeln4uKO9zrUbicl1rzSmPOPcsCepo0Xx0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_010_330f3cfb6c14.png)
 
   
 
 初始化 GPIO 的常用格式是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPwibibd0ZNmOosf3GdsxiccgOlQkjvN815tvo2Hfyj1bJPg86OiaU8iadcFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_011_110ce3d3cf77.png)
 
   
 
 IO 口速度设置有三个可选值：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOPaJEiaGicvZyXgW3JOJ88d5icQkX2l2FREqjiaibCahQcSS1Mg4ZibZU6bM3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_012_5beee33397b1.png)
 
   
 
 模式则有8个可选定义如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglylDM6sZx8ia2F9yQSdFOP3ffF1rxwu4Y1WCeBShBrlbiaUohMTlsWDxYUYDGtgonhUwAY95fnwsA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机入门有多简单_带你了解GPIO内部电路及几种常用模式_images\img_013_f86e7f72db72.png)
 
 # 五、总结
 

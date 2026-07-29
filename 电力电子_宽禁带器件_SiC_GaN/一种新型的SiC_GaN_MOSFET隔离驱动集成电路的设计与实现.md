@@ -17,76 +17,76 @@
 
 现有技术中的隔离变压器存在副边SiC/GaN MOSFET导通保持电压不稳定和负压关断尖峰的问题。 本文提供了一种磁隔离的SiC/GaN MOSFET驱动集成电路，旨在解决现有的副边SiC/GaN MOSFET导通保持电压不稳定和负压关断尖峰的问题。 驱动集成电路包括隔离变压器、前沿脉冲开通电路１、前沿脉冲开通电路２、后沿脉冲关断电路１、后沿脉冲关断电路２、钳位缓冲电路、脉冲前后沿生成电路和SiC/GaN MOSFET，脉冲驱动结构图见图１。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfn8PcmYjdM4kteC1aAXb9Un9AuSGs29gVXf614UzFJoQh2Jlw46lV0Dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_000_38d44ca3038f.png)
 
 １. 工作原理
 
 工作原理分为 ４ 个过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfn4f58XzAtd3AotrupBdmsWs0YYLpET9BQfCj1foXZX9vXpCATeiaELBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_001_eb8538624755.png)
 
 过程一见图 ２。当隔离变压器 Ｔ１ 的原边绕组接收到一个正电压脉冲时，隔离变压器 Ｔ１的副边绕组同时感应出一个正电压脉冲，二极管 Ｄ１ 导通，开关管 Ｑ１栅源电压反偏，开关管Ｑ１ 关断，二极管 Ｄ２ 、二极管 Ｄ７ 、二极管 Ｄ４ 反向截止，开关管 Ｑ２ 栅源电压正偏，开关管 Ｑ２ 导通，隔离交压器 Ｔ１ 副边感应出的正电压脉冲通过二极管 Ｄ１ 、电阻 Ｒ１ 、电阻 Ｒ３ 、开关管 Ｑ２ 、二极管 Ｄ３ 给被驱动SiC/GaN开关管 Ｑ３ 的栅源结电容 Ｃｇｓ正向充电至 Ｕｇｓ，被驱动SiC/GaN开关管 Ｑ３ 导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnkoXQ17DALcVswQHItQn212I1RT917BBmiafbuNwgtqWOD1bpq0ibNRzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_002_d5cb42a40b98.png)
 
 过程二见图 ３。 当隔离变压器 Ｔｌ原边正电压脉冲消失时，隔离变压器 Ｔ１副边绕组电压为 ０，二极管 Ｄ１反向截止，开关管 Ｑ１和第二开关管 Ｑ２的栅极电压为 ０，开关管 Ｑ１和开关管Ｑ２关断，被驱动SiC/GaN 开关管 Ｑ３的栅源结电容 Ｃｇｓ上的电压 Ｕｇｓ无放电回路，电压 Ｕｇｓ被保持，被驱动SiC/GaN 开关管 Ｑ３保持导通状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnNyszBICWPlFsbzPY0rgFjDwltXhicwhnk78pp3ZfEPdmDm6dYuRnDiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_003_049e8318a86e.png)
 
 过程三见图 ４。 当隔离变压器 Ｔ１的原边绕组接收到一个负电压脉冲时，隔离变压器 Ｔ１的副边绕组同时感应出一个负电压脉冲，开关管 Ｑ１栅源电压正偏，开关管 Ｑ１关断，开关管Ｑ２栅源电压反偏，开关管 Ｑ２开通，隔离变压器 Ｔ１副边感应出的负电压脉冲通过二极管 Ｄ３ 、开关管 Ｑ２ 、电阻 Ｒ３ 、电阻 Ｒ１ 、二极管 Ｄ１ 、给被驱动SiC/GaN 开关管 Ｑ３的栅源结电容 Ｃｇｓ反向充电至 Ｕ'ｇｓ，Ｕ'ｇｓ的方向相对于 Ｕｇｓ为负，且电压被稳压，二极管 Ｄ６ 、电容 Ｃ１ 和二极管 Ｄ７ 钳位在－５ Ｖ， ｜Ｕ'ｇｓ｜≠｜Ｕｇｓ｜ ，因此，被驱动SiC/GaN 开关管 Ｑ３ 负压关断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnibdtWQ0UKNiaSE83agib686ZnSORx2VhnsNibE99r9Tibf3u67mhE9PuQqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_004_dfbc15c9a542.png)
 
 过程四见图 ５。 当隔离变压器 Ｔ１ 原边负电压脉冲消失时，隔离变压器 Ｔ１ 副边绕组电压为 ０，二极管 Ｄ４反向截止，开关管 Ｑ１ 和开关管 Ｑ２ 的栅极电压为 ０ Ｖ，开关管 Ｑ１和开关管Ｑ２关断，被驱动SiC/GaN 开关管 Ｑ３ 的栅源结电容 Ｃｇｓ上的电压 Ｕ'ｇｓ无放电回路，电压 Ｕｇｓ被保持，因此，被驱动SiC/GaN 开关管 Ｑ３ 保持负压关断状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnEmwKqWpibmTicAD47UUPM6WyTv42VyFU9WHa1bAicKjX7oZiaytAMVyXYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_005_19cf4a2662aa.png)
 
 如果采取现有技术通过普通Si MOSFET的体二极管对被驱动SiC/GaN 开关管栅源间的电容 Ｃｇｓ充电，则普通Si MOSFET 的体二极管的反向恢复损耗将拉低电容 Ｃｇｓ电压，影响被驱动的SiC/GaN开关管的导通。 详细证明过程，根据式(１)可知，反向恢复时间越长、反向恢复电荷越大。传统Si MOSFET的体二极管的反向恢复损耗越大。 表 １ 列举几种常规100Ｖ 的 ２ 个 Ｎ 沟道 Si MOSFET的体二极管反向恢复损耗损耗。 根据查阅相关 650ＶSi MOSFET和SiC MOSFET器件手册和式(２) 计算，得到表 ２。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnFA1z2O0584giaW8EvZticDLdO5b5CeSEcpSibJlrlTCr7M81LUatUOiaEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_006_5708fee4abbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnTI3oCibELJTNcOicUwUia47zBVu6Yicwic2ttyQco7p5Cl4yeBEG2t6pt4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_007_cdb19e627109.png)
 
 式中: Ｖｒ 为反向电压，取值为 ２０； Ｉｒｒ 为反向恢复电流； ｔｒｒ 为反向恢复时间； Ｑｒｒ 为反向恢复电荷量； ｆｓ 为开关频率，取值 100KHZ。
 
 MOSFET栅源驱动功率 Ｐｇｓ的计算:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnhbfibF75ehdZcbA4ib2ibYbl3eGOsmhkoPggDwg7pUpe7kf9A2eN7ncFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_008_92419cdd8417.png)
 
 式中:Ｕｇｓ为充电电压，取值为 20V。
 
 如表 ２ 所示，传统Si MOSFET栅源间电容 Ｃｇｓ容值是SiC MOSFET栅源间电容 Ｃｇｓ容值的几倍到十几倍，因此，充电二极管的反向恢复损耗导致被驱动SiC MOSFET栅源间电容Cｇｓ电压相比被驱动Si MOSFET的下降程度更大。 例如，选择表 １ 中体二极管反向恢复损粍最大的 ＩＲＦＩ４２１２Ｈ－ １１７Ｐ 的Si MOSFET，给表 ２ 中储存能量最小的 ＩＰＷ６ＯＲＯ３７ＣＳＦＤ Si MOSFET的 Ｃｇｓ充电，结合式(１)和式(２)计算，经过 ＩＲＦ１４２１２Ｈ－１１７Ｐ 的体二极管反向恢复后，得到 ＩＰＷ６ＯＲＯ３７ＣＳＦＤ Si MOSFET的 Ｃｇｓ电压值 Ｕ′ｇｓ≥１６.２５ Ｖ，如式(３) 所示。 由此可知，即使在极端情况下，普通Si MOSFET仍然能够保持足够的导通电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnS9DMEIFUU1E9wXaXF20dbqD9RQBoXLUribYto9VzIcpKr6wHDRfaOMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_009_687949cd540c.png)
 
 另一方面，选择表 １ 中体二极管反向恢复损耗最大的 ＩＲＦ１４２１２１－１１７Ｐ 的Si MOSFET，给表 ２ 储存能量最小的 ＩＭＺＡ６５Ｒ０８３ＭＩＨＩ SiC MOSFET的 Ｃｇｓ充电，结合式(１)和式(２)计算，经过 ＩＲＰ１４２１２１－１１７Ｐ 的体二极管反向恢复后，得到 ＩＫＺＡ６５Ｒ０８３ＭＬＨ１ SiC MOSFET的Ｃｇｓ电压 Ｕ′ｇｓ＝ ０，如式( ４) 所示。由计算可知，即使选择体二极管及向恢复损耗最小的ＦＤＳ８９１４１ 的Si MOSFET，给储存能量最大的 ＳＣＴ３０３０ＡＬＨＲＣ１１ SiC MOSFET的 Ｃｇｓ充电，Ｃｇｓ两端的电压将从20V下降至 ０，因此，该方案可以解决SiC MOSFET反向恢复产生的损耗问题，降低正向充电二极管的反向恢复损耗。
 
 ２. 仿真
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnOIGibKYJYBoTCSNBoB1b6oeWByd1UibpP48GgM34LsVJicDax2WbAWy1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_010_e403a19e1aae.png)
 
 图 ６ 为采用脉冲边沿驱动SiC MOSFET管仿真原理图。 驱动信号经过①②④⑧取出上升沿ꎬ并产生一个持续 １μｓ 的15V驱动小脉冲，并给MOS管电容充电，如图 ７ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfn5smca1MVlFYwS4MmaaViaC953DJahiaRPmCtAh8XZuadF5yECwh1DLUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_011_5a1cc23c4749.png)
 
   
 另外①③⑤⑦⑨，取出驱动信号下降沿，并产生一个持续 1μｓ 的15V驱动小脉冲，并给MOS管电容放电，见图 ８。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnmCYcabeks5f94BTqwic2RvhyPGFSpIp1wVhqWE6rYibjatX77L4p0CjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_012_73eb18a32ee5.png)
 
 当变压器同名端的上升沿脉冲为高电平时，电流流向二极管 Ｄ１ 的同时，也会流向MOS管 Ｑ３的寄生体二极管，因此，有两条回路给 Ｃ３(代表驱动MOS管GS结电容)进行充电，当变压器同名端的上升沿脉冲变为低时，MOS管 Ｑ３的体二极管(寄生体二极管反向恢复特性较肖特基差)会反向恢复电流。该反向恢复电流会将之前充入MOS管结电容的电荷放掉(MOS管结电容小，则存储的电荷少)，因此，会发现MOS管的驱动波形脉宽平台的电压降低，具体可见如图 ９~图 １０。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnDPvZliceEqbRCo0KibBNHj6Xz7aPcuk7RmZjVMicPlautchdVONBB3hiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_013_e86577a77545.png)
 
 ３. 实验
 
 如图 １１ 所示，通过实际测试了驱动SiC MOSFET，由此可知，在极端情况下，被驱动SiC/GaN开关管在脉冲消失期间的无法持续导通，必须解决这一问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnh8Cd8uyzPVP4ibR3PtK8j0rfCIg2xy9a3PAsicTu56AfKMic14JrABRaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_014_ee2888ce4b02.png)
 
 本文选择肖特基二极管替代普通SiC MOSFET中的体二极管给被驱动SiC/GaN 开关管栅源结电容 Ｃｇｓ充电，原因在于肖特基二极管不存在电荷储存问题(Ｑｒｒ一 ０)，如式(４)所示。因此，能够极大降低体二极管反向恢复损耗， 确保被驱动SiC/GaN开关管在脉冲消失期间的稳压持续导通，见图 １２。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqRN6QQBaypjPwPLxibtqfnSpMTtP0y4VKWWstVbZk1v9Tjys6a7FichGiagzAwGQKCBEAV1eJnMogg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_015_06ca995d111b.png)
 
 ４. 结论
 
@@ -94,10 +94,10 @@ MOSFET栅源驱动功率 Ｐｇｓ的计算:
 
 **说明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_016_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_017_a7ecee98ead9.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一种新型的SiC_GaN_MOSFET隔离驱动集成电路的设计与实现_images\img_018_9bbc7b9b15a2.png)

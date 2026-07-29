@@ -19,7 +19,7 @@
 
 想要实时、准确的测量 SiC MOSFET 模块结温并且不对模块进行破坏性处理，TSEPs 法是唯一可行思路。不同于传统意义上的传感器法，TSEPs 将模块自身作为传感器，通过测量和温度有关的电参数变化情况来反映模块结温的变化情况。常用的 TSEPs 有：小电流通态压降 Vds\_L、开通阈值电压 VTH、关断延时时间 td\_off 和大电流通态压降 Vds\_H。从灵敏度、控制策略影响、硬件侵入性三个方面对上述常用 TSEPs 进行对比分析，其结果如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiard9vTn7oMCoQeZiaLxVyUouofTjkvQe6skNyPgzFGia4nHibMnc9EI9uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_000_91e5d577f988.png)
 
 与功率模块温度相关的半导体参数有很多，但是可以作为 TSEPs 监测功率模块结温的却屈指可数。对于 SiC MOSFET，由于栅极氧化层SiC/SiO2 界面态存在缺陷，其阈值电压随温度变化会产生随机波动，因此 MOSFET 阈值电压和与阈值电压直接相关的关断延时时间作为 TSEP 监测 SiC MOSFET 模块结温的效果并不好。小电流通态压降法在测量时需要通过停止变流器的运行以注入测量电流，所以对控制策略的影响较大，并不适合功率模块结温在线监测。因此，大电流通态压降是唯一可以直接用于 SiC MOSFET 模块结温在线监测，并且对控制策略和电路拓扑结构没有侵入性影响的 TSEP。
 
@@ -31,19 +31,19 @@
 
 SiC MOSFET 大电流通态压降表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaJQmUSicxF7ENqhkAMWKQVcQtDibK4NBDr3KM8b5TOdK7fjzAGoq9vtYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_001_b885673d9486.png)
 
 其中，p 为元胞节距，LCH 为沟道长度，ɛOX 为氧化硅介电常数，tOX 为栅极氧化层厚度，以上半导体结构参数为常数。μn 为 MOSFET 载流子迁移率，VTH 为栅极阈值电压，以上值只与结温有关。因此，对于同一 SiC MOSFET，在同样的电流面密度 JC 和栅极驱动电压 VG 下，其大电流通态压降 Vds\_H 只与结温相关。
 
 为了得到这个关系，采用文献所建立的SiC MOSFET 模块热\-电耦合模型，对不同温度下的大电流通态压降进行仿真，其结果如图 2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaYWUSkF070ryAmGOyUpThiafE885eYeHITsIdKaUNECibjhPXfGiaBgaaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_002_59ea6f84b8b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaib3czmprQNLjJ0zJhYqz2icDE4nPOY4ovvHKppOjTEFAoiatKDTGA3MCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_003_e70a79e40f7b.png)
 
 假设结温每升高 20 ℃，对应的 SiC MOSFET模块通态压降增量为△Vi，则结温由 40 ℃上升至60 ℃时的电压增量为△V1，结温由 60 ℃上升至80 ℃时的电压增量为△V2…以此类推。那么在一定的栅极驱动条件下，其△V1 ~ △V5 随漏极电流的变化关系如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaPtDiakWLIhicNCVqeGJ894TqcyHA8cVcqAVEqSBoSpzeIiaBfU9ibhBe5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_004_12fef753a00d.png)
 
 由上图可知，当结温变化增量相同时，相对应的电压增量也相同，这就意味着在一定的漏极电流下，SiC MOSFET 模块的大电流通态压降随着结温的上升而近似线性上升，并且随着漏极电流的增加，其上升斜率增大，监测温度的敏感度也会随之增大。因此，只要在离线状态下得到不同漏极电流下的通态压降和结温之间的线性关系，就可以在变流器的运行状态下反推实时结温。
 
@@ -51,17 +51,17 @@ SiC MOSFET 大电流通态压降表达式为：
 
 传统的单脉冲标定平台如图 4 所示，不同于双脉冲平台，单脉冲标定平台采用电阻负载，其目的是为了尽可能的保持 SiC MOSFET 模块漏极电流恒定。对图 5 所示的全自主封装 1200 V/40 ASiC MOSFET 单相半桥模块进行单脉冲测试，其结果如图 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaj4ud9JrpNavOCnhm7k6PbHNjibkIslqF9iaNvlotCwVdxkfcYyhLFQjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_005_7fd8988f1e5a.png)
 
 由于漏极电流是由直流母线电容板放电形成，即使是电阻负载，其电流值依然会出现衰减。以标定 40 A 时的通态压降曲线为例，在不同温度下找到漏极电流为 40 A 的时刻，记录此时的通态压降值即可完成标定。然而，随着漏极电流的变化，想要保持采样位置不变是十分困难的，理论上来说只要保持漏极电流恒定，40 A 时刻不管出现在单脉冲持续时间的任何位置，其通态压降值应该都保持不变，但是实际上并非如此。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaQKRurGouYnzFCauk18iauw9VyOvxdmvKPys5awkdkSgOfFXltf37G7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_006_38cd2ce6757b.png)
 
 图 7 所示为 40 A 漏极电流出现在不同位置的时刻，以导通时刻为坐标原点，以导通时间作为x 轴建立一维坐标系，则 x 坐标值则代表出现给定电流的时刻，例如：当漏极电流为 40 A 时，x \=50 则代表漏极电流为 40 A 的时刻位于 50 μs。对于同一漏极电流，其出现在不同时刻时的 SiC MOSFET 模块通态压降值如图 8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia65o9XkXlInutNPXGBw0lzZlgfwa4L235iaicgn8VjKCgia9GIfeF83qRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_007_c5cd360bfa0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiahk6C5UsiaHH8ZEVZdYgjqaz5aqLaj9TsQWjnTJHkR5OZArRMVbuWqag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_008_ce7d55d07aa8.png)
 
 从理论上来说，SiC MOSFET 模块大电流通态压降值仅与结温和漏极电流有关，对于一定漏极电流，无论在何处出现，对应的通态压降值大小应该不变。而出现如图 7 所示通态压降漂移的原因主要有两个方面：
 
@@ -69,11 +69,11 @@ SiC MOSFET 大电流通态压降表达式为：
 
 2)由于单脉冲标定导致的结温升高，从而引起的通态压降值上升，对于同一电流值，出现位置越靠后说明整个单脉冲周期内的平均电流越大，因此发热将会越严重，而对于这种情况则需要尽可能的缩短测量时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiahicdKiaqjia3EoyicbcIghFgNY8ujBibCPfmFeUyHtF4Onuv4zW9hxvpVnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_009_e0322bf68a3c.png)
 
 为了权衡以上两种情况，对于 SiC MOSFET 模块单脉冲标定的脉冲持续时间则需要谨慎选择。采用热\-电耦合模型对SiC MOSFET 模块单脉冲温升进行仿真，其仿真原理如图 9 所示，对于不同的脉冲持续时间下的温升曲线如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiazLziaEft1h6P6lJ5qXborENJGNlfNX0UpWY7Ko9258ZvhdXCJo5ZWXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_010_634dcbaebef2.png)
 
 由上两组仿真数据可以看出，随着初始结温的升高，单脉冲造成的温升会上升。但是综合考虑的话，其影响最严重的时刻还是在标定初期，初始结温较低的时刻。为了减少自发热的影响，必须在短时间内使得其通态压降值稳定，同时必须要降低 SiC MOSFET 模块的损耗以降低自热。
 
@@ -81,7 +81,7 @@ SiC MOSFET 大电流通态压降表达式为：
 
 对于 SiC 基 MOSFET 模块来说，其开关损耗占主导地位，因此如何消除其影响是设计低自热标定电路的关键。当开关损耗是在 DUT 开关瞬态产生的，如果在功率回路中串联一个辅助开关来控制功率回路的开断则可以避免 DUT 动作从而产生开关损耗。基于此思路，本文设计了如图 11 所示的一款低自热标定电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaQz27jZj35b30mLW3wURbTvD7qMEKvZ15STnhIO6vAHhWrn68L014DA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_011_68669e6614d0.png)
 
 由其控制脉冲可以看出，整个全桥标定过程由四个部分组成：在第一阶段，被测器件 S1 在该阶段内保持常开状态，其目的主要是消除开关损耗和减少 Vds 稳定时间，在标定时刻通过开关 S3对功率回路进行切断；在第二阶段，刚才进行开关动作的 S3 为保持关断状态，从而进行自然冷却，S2 保持常开状态，并通过相应的开关 S4 来对整个功率回路进行切断；在第三阶段，被测器件S3 保持常开状态，通过开关 S1 对其功率回路进行切断；在第四阶段，被测器件 S4 保持常开状态，通过开关 S2 对其功率回路进行切断，从而完成对S1~S4 的低自热标定。
 
@@ -89,15 +89,15 @@ SiC MOSFET 大电流通态压降表达式为：
 
 **4.  实验验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaQIOsg389rtOWycMIdM1ErW894ynYKvjic2dfRvy68UDd4TE7ZzeEwUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_012_0ed069e32867.png)
 
 为了验证上述分析，利用 SiC MOSFET 模块热\-电耦合模型建立了上述低自热标定电路的仿真电路，如图 12 所示。在不同的脉冲宽度下，采用该方法在 25 ℃下的结\-壳温升如图 13 (a)所示，相比于单脉冲标定，其自发热降低百分比如图 13(b)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiahDwMbhFwlLPJrzzdN1M7Hp9dOaQqYkdDyrzpZG8E2kSXpubZMnOPRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_013_0f4577036305.png)
 
 图中实线为传统单脉冲标定在不同的脉冲下温升，虚线代表的是本文提出的低自热标定方法在不同标定脉冲下的温升，可以看到相比与传统方法，本文提出方法对于不同脉冲下的自发热抑制有很好的效果，自发热最大下降 34 %。采用低自热标定法重新对漏电流为 40 A 时的 SiC MOSFET 模块不同位置通态压降进行测量，其标定结果如图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiad5Rf36oQ7wD9mIb6LFmwrgjlvPmB2UtNFa2qpGMicSTJMlaU9hSBn7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_014_de24bc5077a4.png)
 
 相比于传统的单脉冲标定，本文所提出的低自热全桥标定方法对于同一工况的 下 的MOSFET 大电流通态压降标定结果误差最大值由原来的 333 mV 减小为 94 mV。本文所使用的SiC MOSFET 模块漏极电流为 40 A 时，其大电流通态压降温度敏感度为 12.34 mV/℃，换算之后采用本文所提供的标定方法导致的结温监测误差由最初的 26.9℃降低为 7.6℃。
 
@@ -107,10 +107,10 @@ SiC MOSFET 大电流通态压降表达式为：
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_015_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_016_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于大电流通态压降法的_SiC_MOSFET_模块结温标定方法研究_images\img_017_84aa944feb13.jpg)

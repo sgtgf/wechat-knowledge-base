@@ -18,14 +18,14 @@ IGBT，中文名字为绝缘栅双极型晶体管，它是由MOSFET（输入级�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNqfzsOqz8SmF8yicWQHbbEWlsI1iaNqOp6NKgDTF4I3OicsHq1rjTjtiazw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_002_41d247283460.png)
 
   
 
 IGBT 的静态特性一般用不到，暂时不用考虑，重点考虑动态特性（开关特性）。  
 动态特性的简易过程可从下面的表格和图形中获取：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNmucdzkVictsLMnTUlGBhdmz2pEjFQIZoIP8BVnYiaAL8qfywH2TlBZRA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_003_7ccf00fe9c3f.png)
 
   
 
@@ -70,7 +70,7 @@ trv为DS端电压的上升时间和关断延迟时间td(off)。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNnL2ib7cvIoFlnpTmWBJkKsQfu5mp6PYoJy2m2vCcQVzFVKoUfnG8RBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_004_d2aa805dbe95.png)
 
   
 
@@ -82,15 +82,15 @@ trv为DS端电压的上升时间和关断延迟时间td(off)。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlN7XnkAEZhZ1G6bwgLrDb178uy5AjNiaFLzmyL47c6FVPgL34ah1OLcyA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_005_f0e4987e4960.png)
 
 **关断过程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNA7rsMkBPPqDaetM3bYptIbiaibf3JyZjgHhC3wmmUYl2tWicwQF7Bs5zQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_006_73046e585b83.png)
 
 尝试去计算IGBT的开启过程，主要是时间和门电阻的散热情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNVicjWic0bMdefib18boWEN8sjooBdDicuicsJcNep2MXmiac6GuyCYYGEM3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_007_208476b355aa.png)
 
 C.GE 栅极-发射极电容  
 C.CE 集电极-发射极电容  
@@ -98,7 +98,7 @@ C.GC 门级-集电极电容（米勒电容）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNlnYQPzdI6ujk7hNib1sWSJCkyXnvR59ok8Aow3KThUdb0FxiaaCUdsPQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_008_3f3417b199aa.png)
 
 Cies = CGE + CGC 输入电容  
 Cres = CGC       反向电容  
@@ -107,7 +107,7 @@ Coes = CGC + CCE 输出电容
   
 根据充电的详细过程，可以下图所示的过程进行分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNxl5eXquTk87JyZ2QticGV6mwr8QWhhLUIEz1gPDnslFybQTGsctEibBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_009_0add3faddd1c.png)
 
   
 
@@ -115,7 +115,7 @@ Coes = CGC + CCE 输出电容
 
 对应的电流可简单用下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNGrMCV9zv6qP2Vca6d3W6F6MRQ5McmOqaqSPr4aYdDAufxaNKGvKUzQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_010_fa390926be4e.png)
 
 第1阶段：栅级电流对电容CGE进行充电，栅射电压VGE上升到开启阈值电压VGE(th)。这个过程电流很大，甚至可以达到几安培的瞬态电流。在这个阶段，集电极是没有电流的，极电压也没有变化，这段时间也就是死区时间，由于只对GE电容充电，相对来说这是比较容易计算的，由于我们采用电压源供电，这段曲线确实是一阶指数曲线。  
 
@@ -139,7 +139,7 @@ Coes = CGC + CCE 输出电容
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlN2C4My1IYPPfqd7ry9uCJiaYj3OBxiafSmcfSCYV06XibwGAC5AESVoTxg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_011_036a2855822b.png)
 
   
 
@@ -149,7 +149,7 @@ Coes = CGC + CCE 输出电容
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNCMgRyRYyEicibqZGvKXcicrWibkj8dU1iaIKxI7Mh3FxZrnEFWGxVv0pLicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_012_adc51671cf97.png)
 
 利用RC的充放电曲线可得出时间和电阻的功率。  
 
@@ -162,17 +162,17 @@ Coes = CGC + CCE 输出电容
   
 很多供应商都是推荐使用Qg来做运算，计算方法也可以整理出来，唯一的变化在于Qg是在一定条件下测定的，我们并不知道这种做法的容差是多少。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNUYI0fgYVhod3TRdprAL2TIuHibPyMcQDiaW63L11FviaxicsnXlkqPLg9g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_013_b3a8512d7467.png)
 
 我觉得这种做法的最大的问题是把整个Tsw全部作为充放电的时间，对此还是略有些疑惑的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNuyuaicoLdAWQjQgdPUZ4eknjYqVNmGYiaExRsGfMTI7wqD7B7BGBExmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_014_357fe6da5a61.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNnfRqIe0GPwJ8Gxnj2zfgr83U0Wno84FFF6PvlFiadrZeAUzGyOXBWbw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_015_f8450a697efa.png)
 
 说说我个人的看法，对这个问题，定量的去计算得到整个时间非常困难，其实就是仿真也是通过数字建模之后进行实时计算的结果，这个模型与实际的条件进行对比也可能有很大的差距。  
 
@@ -194,7 +194,7 @@ Coes = CGC + CCE 输出电容
   
 栅极驱动的改进历程和办法（针对米勒平台关断特性）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNmgXfBJlLQkxoK3LZlPL0vicHakdPFIALZ4a6VnJoB90DpAD2pdHaBug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_016_c2bd244120bd.png)
 
 前面都讲了一些计算的东西，这次总结一些设计法则。  
 
@@ -206,7 +206,7 @@ Coes = CGC + CCE 输出电容
   
 栅极电阻值大——充放电较慢，开关时间和开关损耗增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlN305e2vib4zXMGxyY5D6QiaYPEQ7icCdo4s5oZozxEODLpgts4RoFZDGMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_017_04e5e34b2151.png)
 
 一般的：开通电压15V±10%的正栅极电压，可产生完全饱和，而且开关损耗最小，当<12V时通态损耗加大，>20V时难以实现过流及短路保护。关断偏压-5到-15V目的是出现噪声仍可有效关断，并可减小关断损耗最佳值约为-8～10V。  
   
@@ -218,14 +218,14 @@ IGBT内部的续流二极管的开关特性也受栅极电阻的影响，并也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNtLBkksLPbwLKguuxVVAWvRtPMb48w9edqr6vMsocZM5UhWTh7x1grQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_018_4f22c3dcb260.png)
 
 **栅极电阻与关断变化图**  
 
   
 栅极驱动的印刷电路板布线需要非常注意，核心问题是降低寄生电感，对防止潜在的振荡，栅极电压上升速率，噪音损耗的降低，降低栅极电压的需求或减小栅极保护电路的效率有较大的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNcxiaYXmDPeMlvsgicRzUqWvibkzpOu3hBBXvYEVa7ncyL9xRX46AJrcQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_019_24561834cfb2.png)
 
 **措施**  
 
@@ -235,7 +235,7 @@ IGBT内部的续流二极管的开关特性也受栅极电阻的影响，并也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNaadMMNCR8NxNx6ghwm7ydAIgV83EO7go74crr43D3d1u0tRhcfouVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_020_c4988c38c33b.png)
 
 当控制板和IGBT控制端子不能直接连接时，考虑用双股绞线(2转/CM小于3CM长)或带状线，同轴线进行连接。  
   
@@ -251,7 +251,7 @@ IGBT的开关会使用相互电位改变，PCB板的连线之间彼此不宜太�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNvwTQr2iaPU7zH6Mia28BfTU8hpicM2F1yA06QlJKYd8RZzDbGfDYotaJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_021_425b8020a14f.png)
 
 由于IGBT等功率器件都存在一定的结电容，所以会造成器件导通关断的延迟现象。虽然我们尽量考虑去降低该影响（提高控制极驱动电压电流，设置结电容释放回路等）。但是为了防止关断延迟效应造成上下桥臂直通，因为一个桥臂未完全关断，而另一桥臂又处于导通状态，直通炸模块后后果非常严重（最好的结果是过热）。  
 
@@ -263,13 +263,13 @@ IGBT的开关会使用相互电位改变，PCB板的连线之间彼此不宜太�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjghEO6GOUchG5j9Y7XXyDlNnyMDnpXbuvH7vvPleoZabC8ZRUaZ0QRic7DS4MicicrDMWG8jhqYcibqkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_022_108e93b9eb37.png)
 
 在汽车电子应用中，特别要注意环境温度对toff的影响很大，使得toff延长，并且栅极电阻的加入也是的关断时间受一定的影响，因此需要进行调整。  
   
 IGBT栅极引起的问题列表（红色部分圈注的）：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfm9MN6CNKYbORVzYDsgJ3JrJMZqTibP5D2IMrb7kP4GRiaibneWH19kcsjiaMicSUbhJPSMogNeH7kp9bQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\IGBT驱动电路介绍_images\img_023_afe2aeafc03e.jpg)
 
 ## 
 

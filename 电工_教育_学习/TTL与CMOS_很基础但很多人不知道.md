@@ -16,7 +16,7 @@
 
 OC门是采用晶体管搭建的电路，流（电流）控元器件。而OD门的功率损耗一般是小于OC门，为什么？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgAqRHJAgLqy5KeFTKAehE2icayYV3x1RZV1C7LDVEdg9hibENlcEQgm09Y7ibdHLd2jszYzg8nlDV1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TTL与CMOS_很基础但很多人不知道_images\img_002_3394372dab28.png)
 
   
 

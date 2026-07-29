@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RL8H0Sh7CsvL8yWZx36enf2spUD6KdqGvfBKgrfbagmvuIhregvZS8ujBgtB2M0uUKQpBDfCbQ9g/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](西南交通大学张滨山_张泽恒_等_基于钳位电路的LCC_S补偿型感应电能传输系统抗偏移方法_images/img_000_a9e3716689d2.png)](https://www.acces.org.cn/)
 阅读提示：本文约 2300 字
 > 在感应电能传输系统中，线圈错位难以避免，耦合变化导致系统的传输功率不稳定。为了保证供电灵活性，系统需具有容忍线圈宽范围偏移的能力。为此，西南交通大学研究团队借鉴模态切换的思想，提出一种基于钳位电路的LCC-S补偿型感应电能传输系统，用于增强系统抗偏移性能。
 **研究背景** 

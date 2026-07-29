@@ -4,7 +4,7 @@
 > 原文地址: [https://mp.weixin.qq.com/s/IXMa4J2xlB2INb1CpUIrTA](https://mp.weixin.qq.com/s/IXMa4J2xlB2INb1CpUIrTA)
 
   
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXuBVMiayAHp3WlBDoCiclM0qw5cDUoTU860bZvmqiadfEAibNPEVh6eCvicy2iaENVQfFkNepNVHau3IAQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___IEEE浮点数标准_images\img_000_4aec1e0910f8.jpg)
 
 想象一下，你在探索宇宙奥秘的旅途中，需要计算从地球到火星的精确距离，或是正在模拟全球气候变化，需要编码实现异常复杂的数学模型。在这样的科学计算中，你将频繁地处理大量带有小数点的数值，这些数值可能极其庞大也可能微乎其微。为了能在计算机中高效、准确且一致地表示这些实数，我们需要一种统一的规则，这就是 IEEE（国际电气和电子工程师协会）制定的浮点数标准，即著名的 IEEE 754 标准。今天，我们就来深入了解一下这个神奇的数字表示法。
 
@@ -20,7 +20,7 @@
 
 IEEE 754标准定义了浮点数的三个基本组成部分：符号位、阶码位和尾数位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXuBVMiayAHp3WlBDoCiclM0qqrJRrNbH5F5P3sY9ibye93JN4HxFsSxNibiclhDw7xLTOqD3ibprqACT6g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___IEEE浮点数标准_images\img_001_2aa575119557.jpg)
 
 1.  **符号位**：这个位用来表示浮点数的正负。就像数学里的正负号一样，0代表正数，1代表负数。
     
@@ -115,7 +115,7 @@ IEEE 754标准还定义了一些特殊的浮点数值，比如无穷大、非数
 
 综上所述，IEEE 754标准为我们提供了一种精确、高效且统一的方式来表示和处理浮点数，为全世界的计算机科学家和工程师提供了统一的交流工具。它在太空探索、气候模型、生物医学研究等无数的领域发挥着不可或缺的基础作用。通过理解这一标准，我们能够更好地理解计算机是如何处理数字的，也能更有效地编写和优化我们的代码，进而更好地驾驭计算机的算力，揭示那些隐藏在数字背后的自然规律和现象。希望这篇文章能够帮助你更好地理解IEEE 754浮点数标准。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___IEEE浮点数标准_images\img_002_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

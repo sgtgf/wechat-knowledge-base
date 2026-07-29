@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ETf8CUSZYDLpnFZNdiD6pA](https://mp.weixin.qq.com/s/ETf8CUSZYDLpnFZNdiD6pA)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](新手友好_MOS管参数原来可以这么理解_images/img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](新手友好_MOS管参数原来可以这么理解_images/img_001_9011be9decf6.gif)
 
   
 
@@ -24,7 +24,7 @@ MOS管主要用在哪些地方？
 
 **1、电机驱动**：无人机电调、电动车控制器、工业机械臂等都需要精确控制电机转速和扭矩。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSX4myMjkSFNxHTMWUffeT9buCAiciaZiaMbETecRsKSqJF4KAXOZ2v6w3iaQ/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_002_96e69d575919.png)
 
 **2、电源转换**：手机充电器、电脑电源、车载逆变器等开关电源中，MOS管以高频开关的方式工作（通常几十kHz到几百kHz），效率可达90%以上。
 
@@ -44,15 +44,15 @@ MOS管主要用在哪些地方？
 
 其次是电流上限，它分两种情况：一个是长期能承受的直流电流，另一个是短时间内能扛住的脉冲电流。像电机启动那种瞬间大电流，只要持续时间足够短，管子其实是允许的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXsa2Q9GEZc0KJwWPq2SCP1TC2hRw2K5ntMM3ib9SqKQU4nKaoGjFO6FA/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_003_706c2029519f.png)
 
 再就是温度，这是管子最怕的。它内部沟道温度一般不能超过150℃，就算平时存放，温度也得在-55℃到150℃这个范围里。
 
 最后这个雪崩能力是亮点。咱们驱动电机或者电感的时候，关断瞬间不是会有很高的反向电压吗？以往都得外加吸收电路来扛。现在好些管子自己就带这个雪崩耐量，能自己吃掉这部分能量，这样外围电路就能简化不少，可靠性也上来了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSX6YZU0PtoQLo4mOA7qg7tNbzicyPBiaroYZAlLPStrzGibvf3iaoj5F3UCQ/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_004_01095625a367.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXfZzoxFQK36QsDNWg8Z5FOicj30Eib4Fk7ICabXrLjMHXVoFwCaUbRtlg/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_005_7d21b35dc277.png)
 
   
 
@@ -60,11 +60,11 @@ MOS管主要用在哪些地方？
 
 先说静态表现：IDSS和IGSS代表它关得够不够彻底，这个漏电流当然是越小越好。VGS(th)是让它开始导通的门槛电压，一般在2-4V左右。最关键的还是RDS(on)，这个导通电阻直接决定了它导通时发热厉不厉害。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXJicBU1BFC8SkQp7M0a1BegEicJAUwxaTiaGChmZSIgiar8gJ135xE6ZRsA/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_006_56f2a2ee12af.png)
 
 动态表现就更实际了：输入输出电容会影响它的开关速度，栅极电荷Qg大小决定了咱们驱动电路该怎么设计。开关时间那些参数（ton、toff这些）则直接影响它能跑多高的频率，以及开关损耗有多少。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXJd9Hh8YWU8X95jbTrUno5F2OJPakk9Fg1ebTAjfhvFJwDzZkXaeP1A/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_007_ec1e44d8117c.png)
 
 还有它自带的那个体二极管也要注意：正向压降影响导通效果，反向恢复时间trr在高压高频场合特别关键，恢复慢了会产生额外的损耗。
 
@@ -76,11 +76,11 @@ MOS管主要用在哪些地方？
 
 热阻Rth这个参数很重要，它直接反映了管子把内部热量传导出去的能力。数值越小，说明散热性能越好，咱们设计散热方案时心里就越有底。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXd7NY9F8J0cric4EmGNTP1ibun8icG674TvnX1Gsloic1TAhbxNmROWuTFg/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_008_4552fc63afcd.png)
 
 安全工作区SOA更像是给咱们画了个安全操作范围，横轴是电压，纵轴是电流，里面还考虑了功耗限制。设计时必须确保工作点落在这个区域内，超出边界就容易出问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXt9PATf7odyBMInAziastFlBrn3quiaI7TicLqsibzickicKFFsqMn9hON1ng/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_009_1a2c33651aaa.png)
 
 降额设计这几点建议很重要：电压电流都留出20%余量。特别注意的是，虽然管子标称最高能到150℃，但实际设计时建议控制在125℃以下，温度降下来，可靠性才能真正提上去。
 
@@ -90,7 +90,7 @@ MOS管主要用在哪些地方？
 
 再就是一定要按最坏的工作条件来考虑，别只看典型值。比如环境温度最高的时候、电压波动最大的时候，管子还能不能稳定工作。散热设计宁可保守一点，余量留足了心里才踏实。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSX0byk4WvQFztXUTtqkLDnFJMBWNsrsLT5xwv2z2roPunYiaF9WRJqXBA/640?wx_fmt=png&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_010_19f6a9ec42c0.png)
 
 最后温度的影响绝对不能忽视。像RDS(on)这种参数，温度一高就明显增大，实际损耗会比室温下测的高不少。选型的时候得把这个变化趋势考虑进去，否则高温下可能就扛不住了。
 
@@ -110,8 +110,8 @@ MOS管主要用在哪些地方？
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXBunHVC5jlNyfyiaaKpLLAvJNkibLfpTLRf5XvDOqVZYzOzxHic2EPFmtQ/640?wx_fmt=jpeg&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_011_a8de0f15041d.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhv77auKIx5fQ50o31wDxSXonc33dgRx8BW49BILVSjGWkT5bd7ibOrzRHKVHibLamDoT3E09SarkjA/640?wx_fmt=jpeg&from=appmsg)
+![](新手友好_MOS管参数原来可以这么理解_images/img_012_c534684ecd12.jpg)

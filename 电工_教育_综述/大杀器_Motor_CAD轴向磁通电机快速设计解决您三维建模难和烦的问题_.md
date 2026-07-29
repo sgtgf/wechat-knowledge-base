@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/UJ0xh-ayjrjUpoj5lDmyFg](https://mp.weixin.qq.com/s/UJ0xh-ayjrjUpoj5lDmyFg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_000_7aee9f5e0b9f.gif)
 
-[](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650655813&idx=1&sn=470ab17e91ec67dcb325edee1084e391&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUYQT7KWmKb9o2gvt8PJOVxq8ibF3Q1tIWvqRyWXOFjjJmb8BYQ1ibNlMicsdOeW6aEvmiby26j6tRicpQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656111&idx=1&sn=c03532d73e75287ce6dd36e7c3004102&scene=21#wechat_redirect)
+[](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650655813&idx=1&sn=470ab17e91ec67dcb325edee1084e391&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_001_70c4fa4684e7.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656111&idx=1&sn=c03532d73e75287ce6dd36e7c3004102&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_002_e532dba355d8.gif)
 
   
 
@@ -15,49 +15,49 @@
 
 轴向磁通电机又称为盘式电机、PCB电机等，相比于径向磁路电机具有结构紧凑、转矩密度大等显著优势，适于使用取向硅钢片、非晶材料等，目前主要应用于新能源汽车、电梯曳引机等场合，随着技术的不断发展进步未来将在电动摩托车、机场吊舱、运货卡车、甚至电动飞机等领域有更广泛的应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWbib84oL2OqDwDicmyIIy8l5DgfST5KLZ4eYLgef8SC4GNsCheHVx8vuJdoUWorqa9LHYjyYmEBuZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_003_2b657350c684.png)
 
 来自https://yasa.com/technology/
 
 利用Motor-CAD的最新版本，已经可以完成YASA的轴向磁通电机设计了。在2025版本中，Motor-CAD增加了轴向磁通电机快速设计功能，可以方便使用者快速评估定子-转子、定子-转子-定子、转子-定子-转子三种拓补类型的电机：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4pibwkrp7RVNgfibIROZF9estPMrLfYldQULYD65zvHdFR6kz1ywk6iar1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_004_91b97e2e7252.png)
 
 定子-转子的拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4pibuQWZoR6Nia43pFJXFWKmtq0mtOeOZiavlIUbgw97s6M0t3UStkPb3yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_005_a1f68286e199.png)
 
 定子-转子-定子的拓扑结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4pEI9sgHq3lVWWBTYA2onNFAJDC7XyuPDMHzib5fDDGfcpvO42IeRlJ8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_006_11332a76e8c5.png)
 
 转子-定子-转子的拓扑结构
 
 为了方便使用者更好地理解轴向磁通电机的拓扑结构，软件提供了线性视图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4p5z2poOx5QGdDHYnWIlkjwPic58xCQ41SxkibyLzgcib3HVCkfhyLIaNow/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_007_4260a07b9cfd.jpg)
 
 进行轴向参数设置后可以生成3D视图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4pyxgChDqicq2Y7PtcHkcMRarnyjQxhbRSFcPsrUfdL0H8tBQFzCAvRWQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_008_d2da9ac46fb2.jpg)
 
 通过设置绕组，导入软件自带的软磁复合材料和定义计算工况后就可以开始进行设计方案的分析了：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4pMf5BvRKWbTtk1OckUCusxWaQHjTiaLoGSjibm2bAbPXibpWswWVgQgTLQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_009_1de94c168f34.jpg)
 
 磁密云图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4pa8G7A2f0ej4CicFP6xPWAPSdCFQDOzbxLXrQ7rq7XuMkfibiatAsstL9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_010_1f066917d96b.jpg)
 
 损耗云图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXNIm8kBFDiaLxS6eNw52M4p0CW8ibCyMQvCR2MS5Pia1aS1ZFAV6uY2G6t25sTeF1vWXUxLrw2L5RuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_011_b288f2154874.png)
 
 效率Map图
 
 那么，如何具体应用Motor-CAD软件更好地完成轴向磁通电机的快速设计计算呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV7HbydpYCiar6QZFYbzdrL6KriaUZCoCiawBtVy8qngfXtGcAaolkywc0dBkSV6WiaM1l9Za8weeMfrA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_012_487526962247.jpg)
 
 本月22-23日，西莫将联合北京天源博通科技有限公司倾力打造新一期电机仿真专题进阶研修班，为大家提供深入学习Ansys Motor-CAD电机多无物理域设计软件的机会，并结合多个实例深度讲解，使学员能够快速掌握软件操作技巧，并详细介绍最新版本轴向磁通电机快速设计仿真的计算方法。欢迎扫描上方二维码报名参加本次培训！关于培训的更多详情介绍如下：
 
@@ -137,7 +137,7 @@
 
 电机多物理域设计与优化分析培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXibjjK3ketZ0HsS6s7ic3p5n0srbDsiaiamEw1vWBTTCNu8y8emCMjPU7lQw4WWfJxFUQHOTzodAOcaQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_013_b1dd9681adb8.jpg)
 
   
 
@@ -175,23 +175,23 @@
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUW35uNlS7GicAw3ICicumXHAVxNMO9mibQeu7v7OAQTKjE2oPW9z4XhltEAI0U9aq3n9ZBM8zB67diaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_014_3e95c2c347ed.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_** 欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_015_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWW3AbWzXiciaFURIdM7BETSibq71ibjF8whqGdibDiaTaSAicnmCJesz70HCD61bVZoQYhnCA02HjD5KHpg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656196&idx=1&sn=33751127755bbf09420ffb5d38be67e7&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_016_a34c69e7c1ba.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656196&idx=1&sn=33751127755bbf09420ffb5d38be67e7&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIV2ysltfpNN1sHwYuXwtkbZHps4p83T50HG731GCwX6WicJf2licowAn01mNaVreFStqO2ibwgY8uZwA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656231&idx=1&sn=5ed8b3a1e2e582309f2dc9e790fd2b97&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_017_407db5cc95a2.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656231&idx=1&sn=5ed8b3a1e2e582309f2dc9e790fd2b97&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVNcIUT6GuypbB19OZCfibVWWHoXkAW5f6Q8agluTycI4TlDprAeHan5xqC8tV1ibVwYZuY7Z2ZiafibQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656297&idx=3&sn=bc1b6ab3390fce27f442b3e9374e1289&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_018_6852f02e9cfd.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650656297&idx=3&sn=bc1b6ab3390fce27f442b3e9374e1289&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_019_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_020_64bd90de404b.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_021_cb8185f2cf41.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\大杀器_Motor_CAD轴向磁通电机快速设计解决您三维建模难和烦的问题__images\img_022_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

@@ -72,11 +72,11 @@ SPI/I2C接口具有硬件简单、软件编程容易等特点，但目前大多�
 
 现在大多数的单片机系统配备串行EEPROM（如24CXX、93CXX等）用来存储参数。如果用1片FRAM代替原有EEPROM，**使它既能存储参数，又能作串行数据通信的缓冲器。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIda7Wyda7ib7COTA8kr6X6JmgDRQOf2CNyBVWeUHnuQUI0bIjwEBA8Ilvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU之间是怎么来通信的_images\img_002_8d31d831484d.png)
 
 2个（或多个）单片机与1片FRAM接成多主-从的I2C总线方式，增加几条握手线，即可得到简单高效的通信硬件电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdaTM0yCXtJkT80ibudWk0ovVu6j5oF2QpDSEEmKNVfvceMyvD7RF3sZvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MCU之间是怎么来通信的_images\img_003_10e127bb0c38.png)
 
 在软件方面，只要解决好I2C多主-从的控制冲突与通信协议问题，即可实现简单、高效、可靠的通信了。
 

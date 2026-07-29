@@ -5,7 +5,7 @@
 
 # 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/cKMPJZcQE7icpfnQkIPKuR5PWWu99IwfOl6GARCEmDJiaUiaEut6moQvW6TOLg3zKUouxvBR49HkAz0ORt2TYXcYA/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_008_0ee7c6280fa6.png)
 
 # **基于反向传播的近-远场变换技术突破：单站RCS测量**
 
@@ -34,7 +34,7 @@ H.-W. Zhang, Y. Guo, X.-W. Huang, and X.-Q. Sheng, "Back-Propagation Near-Field 
 
 * * *
 
-## ![](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE7icpfnQkIPKuR5PWWu99IwfOrB0bpo4phF54giaJS9uLicdcMYg52TcvXgGRGx5qYEtnPMaqlIZJ8AjA/640?from=appmsg)
+## ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_001_34137e2a66e2.png)
 
 ## **当家有话说**
 
@@ -140,7 +140,7 @@ FIAFTA需要高维矩阵求逆，复杂度O(M³)
 
 **时反原理基础：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79eRqGNxZkWfZgQ3B1WBnekLEWaRyEEjL7QdibNOpA7s6aTVQwplePjPmy16eczCUyfZh9Oas3hm5A/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_002_844d92d3e3b1.png)**
 
 基于时反原理，电磁波在线性、非色散介质中的传播过程是可逆的。在频域中，时反操作等价于传播算子的Hermitian转置：
 
@@ -210,7 +210,7 @@ BP-NFFFT仅需要两次矩阵-向量乘法：
 
 ### **3.1 平板标准目标验证**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79eRqGNxZkWfZgQ3B1WBnek1BicQnbttiblLIfUWxwX4P4Jnw8zLNBJ5JKFkEViaZlUUbOl4mL2aqHdw/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_003_cf9140d8ac5d.png)**
 
 **基础验证参数：**
 
@@ -388,7 +388,7 @@ SIE（表面积分方程）解
 
 **无人机模型测试：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79eRqGNxZkWfZgQ3B1WBnekpqMDp2DVFO7Av79MlhLvcsLPJJuoJRlFBRzSdKazicicl8js6sMo795Q/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_004_9a335b742746.png)**
 
 **参数项**
 
@@ -428,7 +428,7 @@ D = 25m
 
 **S型进气道和B-2模型：**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79eRqGNxZkWfZgQ3B1WBnekeEibPMYYBV0ibQfZ9335sfB9K0QQ5kDw899rgwnZ1rCnbZF5mOFHhh7w/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_005_def1d2188966.png)**
 
 B-2模型
 
@@ -490,9 +490,9 @@ BP法显著更快
 
 图12-14展示了最具挑战性的测试场景：
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79eRqGNxZkWfZgQ3B1WBnek3k0Jod3eIqkiareliaiabrTXlhQJzpiclYEd2twibeqlj3mkuiaa5abNHicEA/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_006_9adbfd5cc412.png)**
 
-**![image.png](https://mmbiz.qpic.cn/sz_mmbiz_png/cKMPJZcQE79eRqGNxZkWfZgQ3B1WBnek2YdUBzLiacHQG3SOAV5MOWYKcTf7gWU1fObhCcR9IAZR965IQId0qmw/640?from=appmsg)**
+**![image.png](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_007_177f4840c47a.png)**
 
 MIRV模型
 
@@ -674,7 +674,7 @@ MIRV模型
 
 **如果内容有帮助到你，请给小当家一个赞，谢谢！**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/cKMPJZcQE7icpfnQkIPKuR5PWWu99IwfOl6GARCEmDJiaUiaEut6moQvW6TOLg3zKUouxvBR49HkAz0ORt2TYXcYA/640?from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\北理工_单站RCS测量数据如何高效近远场变换__当家带你读新文__images\img_000_0ee7c6280fa6.png)
 
 * * *
 

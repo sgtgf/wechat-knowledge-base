@@ -7,7 +7,7 @@
 
 当前市场对电力电子系统的需求可以概括为“三高一低”，这直接驱动了对高压大电流SiC器件的渴求：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF5KORnkkDXBN4pibBV4wvHvTQQty3qYTtUUUxy51ib6gjz9xKARWqlicXQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_000_a319455db55d.jpg)
 
 图片来源：网络
 
@@ -21,7 +21,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFUP8ibDXhTg1snUbiaoLTCTWK65yPwu7zwCFX6dCpqNzrDxqd2FwTLNxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_001_ec0fdcb78e06.jpg)
 
 图片来源：网络
 
@@ -65,9 +65,9 @@
 
 ### 三、 高压大电流SiC器件产品及特性分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFjg9KeFaicvEIA9jr3OgB0TsDEYg9libS9NeqXDzMwcbVgPwSJnl7MhCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_002_92f54901e297.png)
 
-#### 1\. 高压大电流 SiC SBD（肖特基势垒二极管）![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFOJ3Xw1icdccEmCQPyrKbul1gfbFko5j7KdoLj4l9dnTQX4SLkcRYOUg/640?wx_fmt=jpeg)
+#### 1\. 高压大电流 SiC SBD（肖特基势垒二极管）![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_003_c752a8e48966.jpg)
 
 #### 1200V/100A 单芯SiC Diode
 
@@ -97,11 +97,11 @@
 
 #### 2\. 高压大电流 SiC MOSFET
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFgtj3co1X8RTcWjo5TuOUzpVKTANbrcg8iblkUbgiasO84el2FByP87YQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_004_b3a7babd4221.jpg)
 
 1200V/10mΩ SiC MOSFE
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFEVmGjqBR4VhS8rDOnKYWRooyqJD3nrDj9Svm7dbGOWhvOTibe5w1KQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_005_d1cf667c62c4.jpg)
 
 3300V/80A 大电流SiC MOSFE
 
@@ -127,15 +127,15 @@
 
 #### 3\. 高压大电流 SiC功率模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFSOGWVibBUZSxJwLXGJRnib7xPvPgS6xRciaG4R0Pt8Guph4vfMJfWGvBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_006_7dfe4f23cfb9.png)
 
 1200V1000A的HPD封装的模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFHcqFEgHnXsddWW9Fys6qYdkwvKac2q2VG1BLia7Ucq2fKQbxTCtxu9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_007_e51028196407.png)
 
 1200V1000A的DCM(DCS12)封装的模块
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFEnlmoicAFfojhBD9FiaQbBGtgCyy6TN6nR8hFKT3ecEQxDBIdAgOaQqQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_008_dd9275071d4f.jpg)
 
 1200V1000A的Econodual封装的模块
 
@@ -159,13 +159,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFo7RrK6Mv3NcM8dSoT2gx3SDuvndy1viaPbgDT30ibHLIiaheS6VBVsicqw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_009_a81b7bb2587b.jpg)
 
 以下场景是高压大电流SiC需求最旺盛、意义最重大的领域：
 
 #### 1\. 新能源汽车：主战场与价值高地
 
-#### ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFBQBYJTqAuUyM4h0FIpqLAE429pCVSgIQkKu19XkCHSXxe6rB6UkYKg/640?wx_fmt=jpeg)  
+#### ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_010_50a2971e06fa.jpg)  
 
 #### 图片来源：网络
 
@@ -185,7 +185,7 @@
 
 #### 2\. 可再生能源发电与储能：规模效应下的效率博弈
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFN0atdBDPx2a8BElDgvDxQ2anH9deGgBbUic8MM6Ud03PmysUATDD91g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_011_af1bf706e404.jpg)
 
 图片来源：网络
 
@@ -209,7 +209,7 @@
 
 **高频加热/焊接电源：** 需求是**超高功率密度和频率**。这是SiC的传统优势领域，硅器件根本无法胜任。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFz6X512b67D9pyyibFsbUYhKfskGQrkrXKOUGns0QsyCmq8CnoeGOndw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_012_35815816c222.png)
 
 图片来源：网络
 
@@ -227,7 +227,7 @@
 
 **通信基站电源：** 需求是**高效、宽温域工作**。SiC的高温特性非常适合环境温度变化大的户外基站。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFbnuOPlZgVIvkXvtyaqhibxzibG08OmXjyUCHQ7JicHOS15QDYD2jttSAg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_013_9a370c7cd5d6.jpg)
 
 图片来源：网络
 
@@ -235,7 +235,7 @@
 
 ####   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFH67YLPcwNB4HSJLdwQkW36Fuxax4TO024hSBYrp3PkjDkSMd5ZUa6w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_014_4e1e654abde5.jpg)
 
 图片来源：网络
 
@@ -267,24 +267,24 @@
 
 SiC MOSFET的封装大全
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfFQVcxTpMycCYb4icy5og6hZnGQlCKcRVhu7LxthLBQupPB4yv5tFAms4avicc2mPEoBdKy9o6t0sg/640?from=appmsg&wxfrom=12&wx_fmt=png&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_015_9b7e0277b14b.png)
 
 SiC功率模块的封装大全
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfFQVcxTpMycCYb4icy5og6h01uwAXEhw0PjQ8sM7Gb9Q3pOSRGdkJibv2cqp4tSP136sySClY95yLA/640?from=appmsg&wxfrom=12&wx_fmt=png&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_016_fd6191b753f5.png)
 
 SiC器件产品矩阵
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFbyewmLsQLqvQfvjnDOwZ0mnk4iavRNOBUP13AhRBrBkIALIXG9KQKPg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_017_fd013fae9893.jpg)
 
   
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRxP32XZKwPpITicjzLG2zcBibZlFFZfJ0I2icQIglRjkqaz4bq3AibhusBw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_018_3e1f223e7e2c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRDm7hI6Z58XaOib9IJ1yCdCPC0CwMZMXWBLOqLOXPRIl125ic73IeyIkg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=20)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRRg5ic3h2onLMdazZecH5jsT9LuK9rwWlkfeXmjS0VUCiaibRQaeasaEYg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_019_3591bbd7848b.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流碳化硅(SiC）器件的产品优势及应用领域_images\img_020_355137d3f077.png)

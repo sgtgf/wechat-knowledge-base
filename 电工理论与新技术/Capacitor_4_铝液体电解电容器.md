@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Ra87lynoB-hzzeyxT166Jw](https://mp.weixin.qq.com/s/Ra87lynoB-hzzeyxT166Jw)
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0agwLDquc7XqhxIqbLckzaXSZHXTXKPlTsMFWiaZApTrknV8fl3OLdyw/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_000_714a731c966c.png)_
 
 __**_★★★_**_Cap-4---铝液体电解电容_**_★★★_**__
 
@@ -13,23 +13,23 @@ __**_★★★_**_Cap-4---铝液体电解电容_**_★★★_**__
 
 ___€1.铝液体电解电容___
 
-___![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTGfOjQM1GeUOnftlkTqXAE3ADMWhobFSOmHj0uK34Fzuwo00mLavcKpqkq3PGudqWlZWdBDYtCMQ/640?wx_fmt=png)___
+___![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_001_fce047a0b4a9.png)___
 
 **_图4-1：电容器按属性分类_**
 
 如**_图4-2_**，电解电容器是根据将在电极表面电化学生成的氧化被膜作为介质来使用而取的名称。铝(Aℓ)，钽(Ta)，铌(Nb)，钛(Ti)，锆(Zr)，铪(Hf)等金属可生成绵密而富于绝缘性的氧化被膜。电容器中目前已被实用化的金属包括铝，钽和铌这3种金属。在阳极的表面生成的氧化被膜只有在其被生成的电极成为阳极的时候才会呈现电气绝缘性，发挥介质的功能。因此电解电容器从原理上来看，是具有极性的电容器。
 
-**_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSSm7T6qo5vTzc7Tsa2FokAnpZcn9Bo7UMMbiaVarRz6PvibOEjhgr4LDA/640?wx_fmt=png)_**
+**_![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_002_d0499f0d7a76.png)_**
 
 **_**_图4-2：电解电容器的原理图_**_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSOr4ibaKEHfxibjmzpialJFdiangq3p87krlJZ2OhWSIUnXGHoHf20u8TIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_003_f1043ca37596.png)
 
 **_图4-3：电解电容器的种类_**
 
 钽非固体电解电容器限定于非常特殊的用途 ，产量也非常少因而在提到电解电容器时，可以认为是指铝电解电容器（非固体和固体）与钽固体电解电容器（下称钽电解电容器）这两种。铝电解电容器与钽电解电容器的特点和差异如**_表4-1_**所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSVFnwmyluPnlphQmr0Y97IoJgNMuJH3myM1aCJP6uwJ9icbSr2xRGQ9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_004_ed8af6e2b451.png)
 
 **_表4-1：三种常用电解电容的特点和差异_**
 
@@ -43,13 +43,13 @@ _____€2.___铝电解电容器的故障__
 
 可以按照以下所**_图4-4_**示的方式来大致区分故障模式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSWVSjhIrtqVadv3bC9e07gD9pMicAOZIY8dXqgZ1hrPcl7A0woMD37EQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_005_1720f8c9fe62.png)
 
 **_图4-4：故障模式分类_**  
 
 劣化故障是其他电容器上几乎很少有的故障模式。铝电解电容器其故障率会随着时间的经过而增加，最终导致全部故障（开路）。致命故障会导致电容器的功能完全丧失，因而很容易判断故障，但是劣化故障时，由于其特性是慢慢地发生变化，因而在哪个阶段判断为故障，会根据所使用的电子设备的要求性能而存在差异。劣化故障时，从规格书和产品目录规格值偏离的阶段为大致标准来做出故障判断。各自的故障模式和发生要因以及与故障机理的关系如**_表4-2_**所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4PFGDh9sRZ47P24n3o8gKVRLCu1KgRT1KYicibnE1ibrnABQD8EtdCtkuYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_006_15d8af7e2dab.png)
 
 **_表4-2：铝电解电容器的故障模式和故障机理_**
 
@@ -61,7 +61,7 @@ _______€3.___寿命设计____
 
 电解液的渗透速度，在温度每上升10℃时其速度就大约增大2倍，总结为“10℃-2倍定律”，40℃到140℃左右的范围内成立。因此可根据式1来求出该电容器在使用温度下的预期寿命，此外在简易地求取时，可以使用_**图4-5**_ 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRGDTu6mzcLbdqAuphOySNJUK82Q2ibtMicRkvEZGA3dzbhBdrlhuS1LXCMuqECXjS79eF2NysxNVZg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_007_836c9fd5abd9.png)
 
 L：实际使用时的预期寿命（小时）
 
@@ -71,7 +71,7 @@ L0：该电容器的保证寿命（℃）
 
         T0：1) 叠加额定脉动电流来规定耐久性时该电容器的范畴上限温度 + 额定脉动电流设定时的发热［5℃］（℃）；2) 施加额定电压来规定耐久性时该电容器的范畴上限温度（℃）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRDJibQibj9CXybTx80s5AV4PiaqEhzNpVEFEUzwTFiblyosnOAzEMyyr9mrwhodoFNSicV5pyb7Yxealg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_008_5ff6a0d5b586.png)
 
 **_图4-5：降额寿命时间简易换算表_**
 
@@ -79,7 +79,7 @@ _____________€4._______设计示例______
 
 使用背景：设备的预期寿命（要求寿命）在24小时连续运转下使用10年，每天运转8小时下使用10年，电容器的周围温度为65℃ （确认在背面和周围没有发热的零部件），寿命计算：考虑在105℃下使用2000小时保证品时：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRGDTu6mzcLbdqAuphOySNJL7IeQLE69vcE1Q2HSncJnicP6YROwicviaOu0UojgmXkCicBxh7ianYbKBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_009_e38251e6a7ce.png)
 
 即使用温度65℃下32000小时的预期寿命
 
@@ -89,7 +89,7 @@ _________€5.___电路设计考量______
 
 在使用铝电解电容器时，如**_表4-3_**所示，电路设计上成问题的包括以下７个种类：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSey1UEXXcspGsmpevPicIibP4M6MTaUHKpu8c19qKWu65PvjL5KX3ZWEA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_010_a369b54145e3.png)
 
 **_表4-3：铝电解电容选型考虑因素_**  
 
@@ -119,13 +119,13 @@ _________€5.___电路设计考量______
 
 并联使用或者串联使用２个以上的电容器，将2个以上的电容器并联连接时电容器的电阻值是接近电路电阻的值，因而在有的情况下会导致电容器间的电流失去平衡，致使脉动电流流向部分电容器。请充分考虑布线方法，让脉动电流均匀流向各电容器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSPaXTice6quO4Z67YJCRDtuUibrIQ5t3ZhiaMBgQ5o5IfBvjtKGiak6ShCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_011_aaaaabac54d2.png)
 
 **_图4-6：推荐粉色连接方式_**
 
 安装部位：在进行铝电解电容器安装部位的设计时，需要考虑以下项目。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSenkPlSlcdnZc7Lpgjfnb50GYpVRZ78TUqjGiaWFBNfiaO6j701bM4m2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_4_铝液体电解电容器_images\img_012_083e28dd8091.png)
 
 **_表4-4：铝电解电容安装考虑因素_**  
 

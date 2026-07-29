@@ -52,11 +52,11 @@ H无穷控制理论最初是从频域入手进行研究，并在1989年转换到
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZr3qXjQgfjiaspQm9h86LFxXpEeLIP4w4COw2nzPd6cyd1dia3bPJic5VA/640?wx_fmt=png)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_000_f3cae56b7142.png)
 
 构造出基于系统特征参数的H无穷范数精确解析表达式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZujzde8xUVg2FGNUWibUx1ONfu336qmnSsFNakNILtlPh0nssxziaZwXg/640?wx_fmt=png)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_001_c77ced8ea0ee.png)
 
 其中f(•)是由系统参数确定的函数。
 
@@ -68,7 +68,7 @@ H无穷控制理论最初是从频域入手进行研究，并在1989年转换到
 
 表1 H无穷范数分析（a=2）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZoTqx5PCibuLWVEyGibmIVkIfdXmNibKU0ibESD2UGDdQ62w9VdTnOI6LHQ/640?wx_fmt=jpeg)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_002_0a854167c350.jpg)
 
   
 
@@ -78,13 +78,13 @@ H无穷控制理论最初是从频域入手进行研究，并在1989年转换到
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZ2Ca1E1OYdMmWQiahYDtRdm0JRkFGJwxicb6FzXuI198oz0PyVz8TmNSA/640?wx_fmt=png)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_003_81881a09604c.png)
 
 刘秀翀，东北大学信息科学与工程学院讲师. 主要研究方向为系统稳定性分析，运动控制，电力电子与功率变换，电机驱动. 本文通信作者. 
 
 E-mail: liuxiuchong@mail.neu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZEtNe4T2NCK8dbYiblM0GjDERCIH0GrMFPb1Kr5oYRVHW5guvk3xISRw/640?wx_fmt=png)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_004_83536401a405.png)
 
 王占山，东北大学信息科学与工程学院教授, 博士生导师. 主要研究方向为稳定性分析, 故障诊断, 容错控制, 非线性控制理论，智能自动化基础理论. 
 
@@ -182,21 +182,21 @@ E-mail: wangzhanshan@ise.neu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZKeaSb8zR09icn1oZsaPOmnq2KaAAM8J4jg3ty4cuK2RkVhbbxNMeo9A/640?wx_fmt=png)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_005_6cff11be2bb7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZ90oLbAtBjhwdicRPqNwjiaM7mHvYrEKqhib0fawBQ4cKgSn1AAezVOTYw/640?wx_fmt=jpeg)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_006_2e032b34d3ea.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZKeaSb8zR09icn1oZsaPOmnq2KaAAM8J4jg3ty4cuK2RkVhbbxNMeo9A/640?wx_fmt=png)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_007_6cff11be2bb7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZFibom6F3XfJY65So4jb9TJlD2DficBZFnOrMXjGCTrCVYB8O2Y0cJBYw/640?wx_fmt=jpeg)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_008_21757fc230c4.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZKeaSb8zR09icn1oZsaPOmnq2KaAAM8J4jg3ty4cuK2RkVhbbxNMeo9A/640?wx_fmt=png)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_009_6cff11be2bb7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46P7piadnI7FPU5GiatckSUcZycaGAIOMQIcP2icibapqyxNvSFKpmrkKcyJKaQw5yP4Qibicecaw8mDbHg/640?wx_fmt=jpeg)
+![](东北大学王占山教授等_系统H_范数计算_Lyapunov函数的直接优化方法_images/img_010_8cec0357cc10.jpg)
 
 自动化学报订阅号
 

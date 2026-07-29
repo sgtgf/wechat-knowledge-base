@@ -11,7 +11,7 @@
 
 关键词：轨道交通；SiC MOSFET；牵引逆变器；电磁干扰；电机侧过电压；轴承电压；仿真
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzWlDvqmb1rmUMyqA72N54rRgFGVqV9KSODYbFBb1ibRYv2Zn09cKfUWQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_000_f15ce4974b20.jpg)
 
 0.引言
 
@@ -21,15 +21,15 @@
 
 1.1 电磁干扰分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzBjQjmV1j6x1nRc8ic18190z9MQH3VHGaASswwIw8m571RfuGIibFbAzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_001_e8e6fa48582d.png)
 
 图 1 为典型的城轨牵引逆变系统电磁干扰电流流通路径，其共模干扰简化等效电路如图 2 所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzpHKRwUMP1ukfElUHISguKM4lsghW0mmQ4M93ZBFZs0GRaiceXsEYjqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_002_37ca8792ca70.png)
 
 由欧姆定律得出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzpryXcRv34hdJkHNibbZ8jsibVKoNVrtpRHHkWT7LnS00Vo9ewP6iagEiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_003_487435d22653.png)
 
 式中：Vcm 为共模电压；Ic in 为直流输入侧共模干扰电流；Ic out 为逆变器输出侧共模干扰电流；Z1 为直流输入外部回路共模阻抗；Z2 为逆变器输出外部回路共模阻抗；Z3 为逆变器内部直流输入共模阻抗；Z4 为逆变器内部交流输出共模阻抗。
 
@@ -37,39 +37,39 @@
 
 不改变现有系统其他配置，采用 SiC 逆变器后系统典型差异主要体现在共模电压方面。逆变器产生的共模电压为典型阶梯式的跃变电压，幅值与直流母线电压相关，并随着开关器件导通状态的不同而在 0、1/3 倍、2/3 倍和 1 倍直流母线电压间不断跳变，其频谱特性与梯形脉冲电压类似 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzUUeteCeYhYwEKiaYXWicb40rLHS5vqtms0bw4dOzhEfaYrhhqbo7kLibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_004_71128be0b7d6.png)
 
 图 3 为典型梯形脉冲电压波形，图 4 为该梯形脉冲电压的频谱边界。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzWtaUAicYYEAm2seMpXfcriaiaYNLibbzs0A5eVIRl5x1dxWTic2FlKicMh3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_005_c94c431650bc.png)
 
 在图 3 和图 4 中，部分物理量计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzG9rYsS52xmQbJ8oOIKzc41oY4mvY3nnav2A908iasrIjEVnmwFlGZTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_006_3c1e72f28cc3.png)
 
 式中：A 为脉冲电压幅值；T 为脉冲周期；D 为占空比；tr 为脉冲上升时间；tf 为脉冲下降时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzibiciclYgPib1zK6LUDKHPpQpib9wqCprofibzep4icL2y2iaw97C689ffxFxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_007_8dee6531e979.png)
 
 图 5 所示为当梯形波相关参数取不同值时的频谱边界。由图 5 可以看出，梯形脉冲电压频谱主要与脉冲电压幅值、开关频率、脉冲上升时间（或下降时间）、占空比相关。其中，占空比影响低次谐波幅值，脉冲上升时间（或下降时间）影响高频分量；开关频率影响全频段频谱幅值。当牵引逆变系统采用 SiC 器件后，由于开关频率和开关速度的提升，造成共模电压频谱边界提升明显，尤其是高频谱分量。SiC 变流器与IGBT 变流器共模电压频谱对比趋势如图 5(d) 所示，其中蓝线和红线分别类似于 IGBT 和 SiC 共模电压频谱边界，若 SiC 牵引逆变器开关频率为20 kHz，开关时间为0.1 μs，IGBT 变流器开关频率为2 kHz，开关时间为0.5~1 μs，则由图 5(d) 可知 SiC 变流器在 1 MHz 以上频段干扰将比 IGBT 变流器增大 30~40 dB，SiC 牵引逆变系统产生的强电磁干扰会通过传导和辐射对变流器内部或其他车载敏感设备产生严重影响。
 
 1.2 电压变化率 du/dt 及过电压分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzGSkNmaua6ibib9258lgRGhrAIRqP0V0TmDKibzzq5qUeloWyFBxvicb8sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_008_9bfedec09ec0.png)
 
 牵引变流器采用脉宽调制控制方式，输出为一系列的脉冲方波电压，具有很大的电压变化率。由传输线理论可知，当电压脉冲上升时间与脉冲波在线缆中传输时间相当时，会在电机端产生过电压。高电压变化率和尖峰电压会严重影响电机绝缘寿命；据统计，在 PWM 变频调速领域定子绕组绝缘失效和轴承损坏占了电机损坏的较大比重。当牵引变流器采用SiC器件后，由于 SiC 器件更快的开关速度，使得电机端会产生更大的电压变化率和过电压，上述问题因此更加凸显，甚至影响列车的安全可靠运行。图 6 为采用 PWM 调制方式的牵引电机逆变驱动系统简化模型，当逆变器的脉冲电压经过较长的线缆到达电机侧后会产生反射，由于入射波和反射波叠加，从而在电机侧产生过电压，单个脉冲电压在电机侧形成的过电压等效波形如图 7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzfpZgzlGhiaDuMY4oqHzjrkzBeerBKVuAgBerMw2ljDjBwEoplvnqbAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_009_3d0a20688689.png)
 
 脉冲电压传到电机侧产生的过电压计算公式如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzDJCnaPJMrlat4LKMkMZLCOY8057WP9DcLVnhTMiaj8Ir34vtHPmr94A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_010_0c515481ddb8.png)
 
 式中：Vpeak 为电机侧电压；lC 为线缆长度；K 为电机端电压反射系数；v 为脉冲波在电缆中的传输速度；tt 为脉冲波在电缆中的传播时间；Vdc 为中间直流电压；LC为线缆单位长度电感；CC 为电缆单位长度电容；ZL 为电机阻抗；Z0 为电缆的特征阻抗。
 
 由式 (7)~ 式 (11) 可知，脉冲电压通过线缆后在电机端产生的电压与脉冲上升时间、线缆长度、线缆分布参数、电机反射系数相关；在其他参数不变的情况下，脉冲上升时间越短、线缆长度越长，电机端电压越大；通常轨道交通用电机电压反射系数约为 0.9。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzGNg69tGu4kKia42DGfPZKWU9X2a2ykvyFp0HECDiafF9icDg8wJLdNUhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_011_4d7f3863a14e.png)
 
 当牵引电机动力电缆单位长度电感为 0.5 μH/m 和单位长度电容为 47 pF/m 时，在不同脉冲上升时间和线缆长度情况下，电机端产生的过电压理论计算值如图8所示。
 
@@ -79,15 +79,15 @@
 
 电机端过大的电压变化率 du/dt 一方面对电机绕组间绝缘设计带来挑战，另一方面可能使得电机轴承对机壳电压过高，从而出现轴承电腐蚀问题，影响轴承寿命。图 9 为典型的城轨牵引电机轴电压高频等效模型 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzl7CUtTTW7ZcLFaWjSPFX6jO1sEzsrI21KxMLWE42wbeW8Q6IdewMqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_012_79cbfa3b1758.png)
 
 图 9 中 涉及的 Cb 和Ct 是由油膜形成后产生的电容，其大小与电机转速、载荷变化、油脂状态相关，两者是随工况变化的动态参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzIsHExXqVFicZaiajvfQvunBzJxDk4Ln92odV9vtK2tXE60PAVHuPsiatw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_013_6e41ac287c5f.png)
 
 搭建图 9 所示的轴电压高频仿真模型，等效分析采用 IGBT 和 SiC 器件时车载牵引电机轴承电压；仿真建模时逆变器采用 SPWM 控 制。 其 中，IGBT 器件的开关时间为 1μs，开关频率为 500 Hz；SiC 器件的开关时间 0.2 μs，开关频率为 2 kHz，模型中分布参数通过阻抗测试估算获得，高频参数如表 1 所示，仿真结果如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzdIYmUcO5TWVSNu6LmIzQfsIcH55VMuRPyAuBibvK3aaic7j16w8HDVzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_014_b1c3393c0b13.png)
 
 由图 10 可知，基于 SiC 器件的变流器相较于基于IGBT 器件的变流器，由于开关频率和开关速度的提升，牵引电机轴电压峰值和尖峰频率都会显著增大。
 
@@ -95,35 +95,35 @@
 
 以某城轨变流器模组作为具体的承载平台，搭建基于Si基IGBT 器件（FZ800R33KF2C）和全 SiC MOSFET（FMF750DC66A）的试验系统，进行电压和电流对比测试，试验条件如表 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzHzGBbnwLRH39Y98hhxDz7Ktic7WribdUdFYA28YeDFEzsabqBEoE8dsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_015_566eb20556e7.png)
 
 采用高精度示波器、高频高压差分探头和共模电流探头，对模组的输出电压和共模电流进行测试。电压测试结果如图 11~ 图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzuxrYbw5DD7nAZQSXZ6TPDwiadR15x6wAIyzWusjkfPxWm4UksOzRBjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_016_0798b5fd2263.png)
 
 其中，图 11 为 IGBT模组输出的电压波形；图 12 为 SiC 模组输出的电压波形；图 13 为 IGBT 模组输出的电压波形上升沿和下降沿的波形；图 14 为 SiC 逆变器模组输出的电压波形上升沿和下降沿的波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRz5G2TQLKMiaeyFJtFMibLQFnO0JZvRRqnvxX9LRuCWsoEFtcktFAzzIUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_017_180ef32f7de3.png)
 
 由于功率开关器件开通时间或关断时间会随输出电流的大小而变化，因此实际系统输出电压的上升时间和下降时间也是时变的，为此使用 MATLAB 软件对 1 个周期内模组输出电压的上升时间和下降时间进行概率统计，并计算对应的电压变化率 du/dt 分布，计算结果如图 15 所示。由图 15 可知，IGBT 器件受二极管反向恢复的影响，其模组输出电压的上升时间分布范围为 0.3~0.4 μs，下降时间分布范围为0.9~1 μs，而 SiC 模组的上升时间 / 下降时间则集中分布在 0.1~0.3 μs，故 IGBT 模组输出电压的电压变化率 du/dt 分布在 1~4 kV/μs，而 SiC 模组输出电压的电压变化率 du/dt 分布范围为 5~8 kV/μs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRziabxdZhUa9UXURgicd97icJxYwTYpnibprejMOwibgm5LBoYoylg5Zby0dA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_018_7f215a14394f.png)
 
 图 16 为基于不同功率开关器件的模组输出共模干扰电流波形对比图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzl0XFltGn0Q9m2VyxSianOA2ibTXNDicKFam9gm3vFYzqOFDpSLg5B1GYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_019_93c441d9b689.png)
 
 由图16可以看出，由于 SiC 器件比 IGBT 器件在开关频率和开关速度上有较大提升，使得其产生的电磁干扰（特别是 1 MHz 以上的高频干扰）显著增大，部分频段干扰电流可增大 30 dB，与理论分析相符。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzZI6icibvt0YA9gXhyIe1cmlmQbibMOtJfibYibsiaEf8dwlWZFODj5Ysrm6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_020_ab7e28d8a7e6.png)
 
 图 17 为 SiC 逆变器输出端和电机端之间线电压实测波形，图 18 为电机端线电压开关时间和电压变化率du/dt 统计数据。由图 17 和图 18 可知，采用 SiC 器件后电机端电压振荡较为严重，振荡频率为1.5 MHz，峰值电压可达 2.75 kV，与理论分析一致。电压的高频振荡一方面会产生较强的电磁干扰，另一方面也会增大电压变化率，此时电机侧的电压变化率du/dt 增大至7~10 kV/μs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzHGpMMFiagzWoN8oCqKss7Aw8DGSQlh7TROvhzjHeXqKuEREeAPE5RUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_021_3249ac8f11c9.png)
 
 图 19 为基于地面试验平台测得由不同牵引变流器驱动的牵引电机对应的轴电压波形。由图 19 可知，采用 SiC 变流器驱动的牵引电机对应的轴电压峰值比采用 IGBT 变流器驱动的牵引电机对应的轴电压峰值增大1倍左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzyWkrMMxrl9YYYCicdx67lPdv1icam3jQRXhNJ3qDM6TKjBYmHtzPAWQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_022_dda1572ccfe3.png)
 
 3\. 高频负面效应抑制对策
 
@@ -135,7 +135,7 @@
 
 ②根据上述的理论分析，SiC 变流模组可通过增大外部回路阻抗或减小内部并联阻抗的方法抑制共模干扰。因此，在主电路直流输入端和交流输出端可采用并联共模电容和串联共模电感的方法实现共模干扰抑制。根据 SiC 高频干扰特性，进行滤波参数优化，相对于 IGBT 变流器主电路滤波设计，SiC 变流器主电路滤波的频率范围应往高频偏移10 倍，滤波重点关注频段为100 kHz~10 MHz；图 20 为 SiC 变流器主电路滤波前后共模干扰电流对比。由图 20 可以看出，通过合适的抑制手段，系统干扰得到明显降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzua13SXleWmZMz1JZHnHB8PicribhxUvAhCxJCa9IZjK0Tz3gre3OYEyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_023_d07ed1d33724.png)
 
 ③逆变器输出端到电机的动力电缆可采用屏蔽线，并且采用双端接地，同时建议采用屏蔽电缆夹实现屏蔽层 360 °环接接地，从而有效降低牵引逆变回路产生的低频磁场和高频电场干扰。
 
@@ -151,15 +151,15 @@
 
 ②加强电机绝缘，满足 SiC 器件高电压变化率du/dt 和过电压要求，这需要对电机绕组匝间绝缘和对地绝缘进行全新设计，会增加电机成本和体积重量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzyyFObSpBbJdD8IsSxNHmemEzs34AVdY5K950OFUDEiaFcbrPVHC8KWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_024_9e8a1559da0d.png)
 
 ③在逆变输出端增加du/dt滤波器（见图 21），该方法可显著降低电机侧的电压变化率 du/dt 和过电压，从而保护电机绝缘性能。图 22 和图 23 分别为 SiC牵引逆变系统增设du/dt滤波器（Lf=60 μH, Cf=0.22μF, Rf=30 Ω）前后实测电压波形对比图和电压变化率 du/dt 统计数据对比图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzrib5GewPmxlrcvV75Y3pVun9x6d5gA7UBTOceaGoS3CbU29gNIQnvfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_025_3db7e0e8c5ad.png)
 
 由图 22 和图 23 可知，增加 du/dt 滤波器后电机侧电压变化率由增加前的 7~10kV/μs 降低至 1~2 kV/μs，过电压由 2.75 kV 降低至 1.75kV，抑制效果明显，电压变化率及过电压与 IGBT 器件相当；但增设的滤波装置存在体积重量大，损耗较高，影响系统效率的问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzmbuhKiaiaibibGY4RMBxCuUxC0l661vjDzjgqNuS5WzgSiaxsiaXcfG25b6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_026_223eb19f3139.png)
 
 3.3 轴电压抑制
 
@@ -177,10 +177,10 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_027_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_028_0fc2146c10d8.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于全_SiC_MOSFET_的轨道交通牵引逆变器高频负面效应分析及其应对策略_images\img_029_3a3df320c8e4.png)

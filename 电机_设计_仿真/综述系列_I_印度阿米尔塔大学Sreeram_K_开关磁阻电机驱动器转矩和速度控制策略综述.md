@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ckbURXUMarySib26U01nmA](https://mp.weixin.qq.com/s/ckbURXUMarySib26U01nmA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_000_4fecbf19a39d.gif)
 
 **开关磁阻电机驱动器转矩和速度控制策略综述**
 
@@ -56,19 +56,19 @@ S. K, P. P K, J. Rodríguez-García and C. Álvarez-Bel, "A Comprehensive Review
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibe5ZeGEdND9E1ShoPRsm3c4LNzUZreSxVtiaib9sCrP32UlUGSS5JD50IpMybKSH3VvsdiaJDpUdzfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_001_ffe8b420298c.png)
 
 **Sreeram K**，他在特里凡得琅 APJ Abdul Kalam 科技大学 Rajagiri 工程技术学院完成了电气与电子工程学士学位和工业驱动与控制硕士学位。他正在阿姆里塔普里校区阿姆里塔工程学院电气与电子工程系副教授 Preetha P K 博士的指导下攻读博士学位。他在国际期刊上发表了五篇论文。他还在国内和国际会议上发表过论文。他还获得过三次 IEEE 最佳奖。他的兴趣领域是电力电子、电动汽车 (EV)、电机和电能质量。联系方式：sreeram@am.amrita.edu。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibe5ZeGEdND9E1ShoPRsm3c5qyLT1Yn3AJdoAQk9Q3ztCFlYf5t7burPN4cVUwgmTXd3KKLSqzMhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_002_5a40f11b8a6b.png)
 
 **Preetha P K**，她在特里凡得琅工程学院完成了电气与电子工程学士学位和电力系统硕士学位。她在阿姆利塔普里的阿姆利塔大学获得博士学位。Preetha PK 博士现任阿姆里塔普里阿姆里塔工程学院电气与电子工程系副教授兼副系主任。Preetha 博士是 IEEE 会员和 ISTE 终身会员。她在期刊和会议上发表过多篇论文。她的研究兴趣领域包括电能质量、电力系统控制和电动汽车 (EV)。联系方式：preethapk@am.amrita.edu。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibe5ZeGEdND9E1ShoPRsm3cGibsudNBm7vz8PK7K0I15FaQDhnv1TcubjDVnfbhe16te9d4tela6ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_003_cd95b339b991.png)
 
 **Javier Rodríguez-García**，拥有电气工程硕士学位和工业工程博士学位（西班牙巴伦西亚理工大学）。在佛罗里达大学（美国）电力中心公用事业探索国际研究实习后，他在能源工程研究所担任研究员长达 15 年之久。在此期间，他参与了多个国际（美国、欧洲和南美）和国内研究项目和咨询工作，并获得了公共和私人资助，如欧盟-DEEP（欧盟）、DRIP（欧盟）、DROP（美国）和厄瓜多尔智能电网项目（南美）等。他感兴趣的领域包括电动汽车充电管理、能源效率和管理、需求响应、智能电网和能源市场。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibe5ZeGEdND9E1ShoPRsm3c9SNKo8Bck8HMzV0JJDVICVQUlo9oTYRGMIlicibq83WribI56KsjgicvdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_004_ca9e33a23e24.png)
 
 **Carlos Álvarez-Bel (M’80)**，1954 年出生于西班牙昆卡。他分别于 1976 年和 1979 年获得西班牙巴伦西亚理工大学电气工程硕士和博士学位。1989 年以来，他一直担任巴伦西亚理工大学教授。他的专业活动一直在电力能源系统领域的公用事业、研究中心和大学框架内进行。他参与了西班牙和国外（美国和欧盟）电力公司的许多项目和咨询工作，涉及负荷建模、标准市场、微电网等领域。2015 年，他参与了由美洲开发银行资助的厄瓜多尔智能电网项目，根据智能电网定义设计了该国最相关地区的五个配电网络。
 
@@ -80,7 +80,7 @@ S. K, P. P K, J. Rodríguez-García and C. Álvarez-Bel, "A Comprehensive Review
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_005_654c2fde68d8.jpg)
 
   
 
@@ -94,15 +94,15 @@ S. K, P. P K, J. Rodríguez-García and C. Álvarez-Bel, "A Comprehensive Review
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_006_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_007_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_008_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -110,15 +110,15 @@ S. K, P. P K, J. Rodríguez-García and C. Álvarez-Bel, "A Comprehensive Review
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_009_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_010_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_011_644d85f1cc17.png)
 
 学会官方B站
 
@@ -126,15 +126,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_012_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_013_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_印度阿米尔塔大学Sreeram_K_开关磁阻电机驱动器转矩和速度控制策略综述_images\img_014_c28b250481e7.jpg)
 
 学会科普微信
 

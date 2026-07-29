@@ -4,27 +4,27 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/-HMvCNLwtS5ILKCiSZLrhA](https://mp.weixin.qq.com/s/-HMvCNLwtS5ILKCiSZLrhA)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&tp=wxpic&wx_lazy=1#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&tp=wxpic&wx_lazy=1#imgIndex=1 "音符")
+![图片](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_000_33e02dabda91.gif)点击上方名片关注了解更多![图片](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_001_91367d2769bf.gif)
 
   
 
 如果你经常接触电路设计，可能会发现一个现象：NMOS管的使用频率远高于PMOS。接下来，咱们来看看几种常用NMOS电路的应用场景。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvALP9XUics4tqJWjXh6TtjymGoWAgPWtXEbXtp32kTvXgpBUr7oEO3SA/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_002_45f5a52b6446.png)
 
 用NMOS搭建电平转换电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvOaxVoWNCjy6sG8E0PS57rvt9FYc4sQY3JPbEXsSKfWDQhUtKpa3pBA/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_003_c34635da957a.png)
 
 用NMOS点亮一个灯
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvIIBhyvEqGBCg5VYbBgHCz2H6wZU9YFVHhiazSmXkxn4R6lyp9TS5edQ/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_004_7c3ff85d19f6.png)
 
 用NMOS驱动继电器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvPUzI489ibicV2O3H0j1QzXI99fGEUOb9ugvj6kZyx4AO1mibIS7CecicVg/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_005_b1d9bb669c4e.png)
 
 ### 
 
@@ -48,7 +48,7 @@
 
 咱们来百度一下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvmrDTAxSl807OVqFX8PTjzq5He949C2GialwzZ4RaVw4vhWqRBQxr4xQ/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_006_e0a9275bcf7a.png)
 
 -   **NMOS** 依靠**电子**作为载流子，其迁移率约为 **1500 cm²/V·s；**
     
@@ -57,7 +57,7 @@
 
 大家一看就知道，电子的迁移率几乎是空穴的 **3 倍** 。这个差距，可不是工艺优化能轻易弥补的，它是硅材料本身的物理特性决定的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvjTzDDsfb4JGrVkv4UI65Ps4BAy1ibTuEqXCR5iczU41PNyCfN0NmHBQQ/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_007_4381ece965a6.png)
 
 你可能会有疑问：同样是载流子，为什么电子和空穴的速度差这么多？
 
@@ -79,7 +79,7 @@ NMOS的优势
 
 在相同的器件尺寸和栅极电压下，NMOS能提供更大的导通电流。这意味着在驱动同样负载时，NMOS可以做得更小，或者在相同尺寸下提供更强的输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvlTOXP5E2UjdHodaWcmzCvMdLUd9S82rohSkArquX9GKTlFNiaDlbDmA/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_008_b9a613b048d4.png)
 
   
 
@@ -93,7 +93,7 @@ NMOS的优势
 
 由于导通电阻RDS(on)更小，NMOS在导通状态下的功耗更低，系统效率更高。这对电池供电设备、高密度电源模块来说尤为重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZv7OykY57QWNm36OqKWNiaY0MJhOtFOtqJBtZL1HNn56nJwsXFia3RicqHQ/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_009_41377f5d3c28.png)
 
 了解了NMOS的优势后，在实际设计中我们还需要注意以下几点：
 
@@ -126,7 +126,7 @@ MOS管使用时需要注意哪些？
 
 ### 雪崩击穿是MOS管最常见的损坏原因之一。当漏源电压超过额定值V(BR)DSS时，器件会进入雪崩状态，电流失控、温度飙升，最终导致热失效或闩锁效应。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZv796whhqBpcayAn3jBQtCl3Cnniakt0srZJV0NSZSTFrZ4SsTYWXibfVw/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_010_ecea9cb87cf7.png)
 
 ### 3、额定电流  
 
@@ -140,7 +140,7 @@ MOS管使用时需要注意哪些？
 
 ### 栅极是MOS管最脆弱的地方。即使漏极电压没超标，栅极也可能因为耦合到高dV/dt信号而产生电压尖峰，击穿氧化层。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvaBA2MwrmS8YNqnNjLuFtJYbQj0YwJDtRWHtKC1vTxOEIxT0cp7RrIA/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_011_c3abfe275afd.png)
 
 ### 这里也提到了一些**防护措施，大家可以自己下来看。**
 
@@ -150,7 +150,7 @@ MOS管使用时需要注意哪些？
 
 ### _SOA（Safe Operating Area）区指的是MOS管的安全工作区，_它划定了电压、电流、时间和温度的安全组合。一旦越界，器件很可能瞬间报废。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZveQCDc5VwW1n1C0FQjtXc1uMjp2F0WcgVQstsXzNw7AAhG4jtuysibYw/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_012_0c1e06d7d9d0.png)
 
 ###   
 
@@ -158,7 +158,7 @@ MOS管使用时需要注意哪些？
 
 ### _MOS管内部自带一个体二极管，在同步整流、电机驱动等场景中常会导通。但这个二极管有反向恢复过程，如果配对MOS管开关太快，可能引发巨大的反向恢复电流，损坏器件。_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvMnMXGBRaqAia1YPyUWhLDO0SicxYaiav2L2eQaVNibX9MCyXAo7qJUj05A/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_013_0686f314505d.png)
 
 ### 针对这个问题，文档中提到了一些注意事项和应对办法。
 
@@ -168,7 +168,7 @@ MOS管使用时需要注意哪些？
 
 ### _MOS管发热甚至炸机，有很大一部分原因是驱动问题：可能是驱动参数不合适，也可能是驱动PCB布局有问题。尤其是高频大电流回路，寄生电感会带来电压尖峰、EMI和效率下降。_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvdpOR6SVUpeUaH0hqdBz77xcy5xYbrvaA2giaXTiaYHhPJJZ4osfutNEA/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_014_9c408bd61903.png)
 
 ### 文中提到了一些PCB布局的原则，大家可以仔细读一读。
 
@@ -179,7 +179,7 @@ MOS管使用时需要注意哪些？
 ### _为了扩展电流能力，常需要并联MOS管。但并联后动态电流不均可能让某个管子坏掉。_如何平衡呢？这里讲的跟我之前写的一些内容差不多，这里就不赘述了。_  
 _
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvm3BbRb8W82qnhKxm9rrU6DZKkf9825uicfSFr9AFRm3bYMWmFHloqiaA/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_015_32130a2614cd.png)
 
 如何下载《使用功率MOSFET进行设计》，更好的学习MOS管基础相关知识
 
@@ -193,8 +193,8 @@ _
 
 ## 建议复制粘贴过去，就不容易码错字哟！若名称输入有误，系统将无法通过校验，因而不会返回结果哦。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvLriaiazdicsvicZEp8EPv4DeOgZdMCV88CW9OFlmdib3wicpeQSmdSmzz9yQ/640?wx_fmt=png&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_016_9cc7284e1d3a.png)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvKq0icahGTM4VSWAk5nhU1rtXlVlzj85lwn7uD6DNjm6QrgIAyU1aWmg/640?wx_fmt=jpeg&from=appmsg)
+![](都是MOS管_为什么NMOS比PMOS受欢迎__images/img_017_2919a71ccfd7.jpg)

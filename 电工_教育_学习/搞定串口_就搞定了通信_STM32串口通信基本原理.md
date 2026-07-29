@@ -18,7 +18,7 @@
 
 一般情况下，设备之间的通信方式可以分成并行通信和串行通信两种。并行与串行通信的区别如下表所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8gLzxiacT4L3UicnNP31lSefsVsar1h7vWVj00Hy6zlsj8wjibakrXGs3A/640?wx_fmt=png&random=0.8928622091449137&random=0.7510056079795531&random=0.9740748364737917&wxfrom=13&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_002_504e5a4dc1ce.png)  
 
 **串行通信的分类**
 
@@ -31,7 +31,7 @@
 -   全双工：允许数据同时在两个方向上传输。因此，全双工通信是两个单工通信方式的结合，需要独立的接收端和发送端。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8w5xsshEjS9qTLfwltFNlCH7h0YibUoqTBeaeLgZaNqAMNjbT95CMYvA/640?wx_fmt=png&random=0.3615833830522639&random=0.5670646722318733&random=0.6284205751699046&wxfrom=13&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_003_192b27a0fa5d.png)  
 
 2、按照通信方式，分为：
 
@@ -48,7 +48,7 @@
 
 **常见的串行通信接口**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx86mSxzwqoWBIdoStoriaYIjUPLs0zRy8FIaX9XiadRvug88zP03bRY5TQ/640?wx_fmt=png&random=0.7754712693989652&random=0.4681521834322375&random=0.738603340770932&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_004_aa3450e25bd2.png)  
 
 **STM32串口通信基础**
 
@@ -63,11 +63,11 @@ STM32的串口通信接口有两种，分别是：UART（通用异步收发器�
 -   TXD：数据发送引脚，数据发送。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8jw9lShwHUd5DkRCcZcVVg7icZz0gA9ia3EViaBmACfWon3v8fREQf2wdg/640?wx_fmt=png&random=0.7997045920579915&random=0.6229098409030742&random=0.9041043494478296&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_005_7aaffe7003b3.png)  
 
 对于两个芯片之间的连接，两个芯片GND共地，同时TXD和RXD交叉连接。这里的交叉连接的意思就是，芯片1的RxD连接芯片2的TXD，芯片2的RXD连接芯片1的TXD。这样，两个芯片之间就可以进行TTL电平通信了。STM32与51单片机串口通信相关实例，请移步此处:[STM32与51单片机串口通信实例](http://mp.weixin.qq.com/s?__biz=MzI1MDg4OTMwMw==&mid=2247496701&idx=1&sn=760e29269b76c85739ea0bd45172de2a&chksm=e9f9e6c5de8e6fd3bdc01af92afa0860b7af0b11376ea025e4105b65ef5f3da0a28319b260e4&scene=21#wechat_redirect)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8hyFyL5xk98MPoesFNyxSDYttpv17icl9g6wojFHbol6Ivq6OuxQNJNg/640?wx_fmt=png&random=0.7525703658253555&random=0.16072139215733672&random=0.0915185571858903&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_006_bf3cf2c91392.png)  
 
 若是芯片与PC机（或上位机）相连，除了共地之外，就不能这样直接交叉连接了。尽管PC机和芯片都有TXD和RXD引脚，但是通常PC机（或上位机）通常使用的都是RS232接口（通常为DB9封装），因此不能直接交叉连接。RS232接口是9针（或引脚），通常是TxD和RxD经过电平转换得到的。故，要想使得芯片与PC机的RS232接口直接通信，需要也将芯片的输入输出端口也电平转换成RS232类型，再交叉连接。
 
@@ -82,11 +82,11 @@ STM32的串口通信接口有两种，分别是：UART（通用异步收发器�
 
     RS-232通讯协议标准串口的设备间通讯结构图如下： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8R6AUAZVWmqreMYBmAibIuSic6kaGo8l998unozFjcHfG6mwq0R0L8EkQ/640?wx_fmt=png&random=0.1789785780721278&random=0.11505957467100103&random=0.630381622116003&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_007_5a86580ee701.png)  
 
 所以单片机串口与PC串口通信就应该遵循下面的连接方式：在单片机串口与上位机给出的RS232口之间，通过电平转换电路(如下面图中的Max232芯片) 实现TTL电平与RS232电平之间的转换。STM32与PC之间通信实例，请移步此处:[STM32实例-用按键控制串口发送数据，文末附代码](http://mp.weixin.qq.com/s?__biz=MzI1MDg4OTMwMw==&mid=2247495643&idx=1&sn=d48c4d6dba9aaa909d47ae8e74521851&chksm=e9f9fae3de8e73f565824ff3a5d3377094e8e8fee51281a20a2910caf78121f3b93645af874f&scene=21#wechat_redirect)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8xljdFRj8ibmey0JqrRbq3KUPf9E1WBlLI8wr0qxI162jk8SgYibvPrWQ/640?wx_fmt=jpeg&random=0.05879448468596582&random=0.5049477466779533&random=0.7741282508367102&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_008_9c689b0feb0b.jpg)  
 
   
 
@@ -94,7 +94,7 @@ STM32的串口通信接口有两种，分别是：UART（通用异步收发器�
 
 台式机电脑后面的9针接口就是com口(串口) 在工业控制 数据采集上应用广泛上图中，最右边的是串口接口统称为RS232接口，是常见的DB9封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/K9mVOHgVt7zHwHPfh1Vic2eALKLXGAnhrqm7hQ9pzCu5gBsfEP3FvHIibo7IFh7szFZQuLlD6mhfGSnOibV1kCaiaA/640?wx_fmt=jpeg&random=0.5237277321570675&random=0.30033931919670653&random=0.38156676613218&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_009_38b6b780e51d.jpg)
 
   
 
@@ -117,13 +117,13 @@ RS232的电平标准 +15/+13 V表示1 -15/-13 表示0。
 
 在单片机与上位机给出的RS232口之间通过电平转换电路(最上面图中的Max232芯片) 实现TTL电平与RS232电平之间的转换，PC串口与单片机串口连接方式图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/K9mVOHgVt7zHwHPfh1Vic2eALKLXGAnhrrD4lBe8gd7p4ulBBLJuoB9M5zgo3InWTokib8xQHSDRar4x0btQiauaA/640?wx_fmt=jpeg&random=0.21517369060161218&random=0.17518769274141577&random=0.38864109152689763&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)注意这两个DB9：DB91是在电脑上的 DB92是在单片机实验板上焊接着的。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_010_bdd6ff64de5b.jpg)注意这两个DB9：DB91是在电脑上的 DB92是在单片机实验板上焊接着的。
 
 这里的交叉连接的意思是 DB91的RXD连着DB92的TXD。
 
 DB92的RXD连着DB91的TXD这样交叉着连接，如果电脑没有RS232口 只有USB口，可以用串口转接线转出串口，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/K9mVOHgVt7zHwHPfh1Vic2eALKLXGAnhrTfvX0bngmiao81VKVWd6FXsgg3yEmnSicFFQ0fJc5mldQH65FGOH351Q/640?wx_fmt=jpeg&random=0.002328836181489491&random=0.3712904747640382&random=0.831276874110993&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_011_7b2291697f18.jpg)
 
   
 
@@ -133,7 +133,7 @@ DB92的RXD连着DB91的TXD这样交叉着连接，如果电脑没有RS232口 只
 
 下图为上图的内部结构：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/K9mVOHgVt7zHwHPfh1Vic2eALKLXGAnhrxYG0x2kyw80UgyakdX2W7T6iaUROsjQveoUEKMFfXSK1gqXMMYjiagUA/640?wx_fmt=jpeg&random=0.36935203196618027&random=0.763969145843924&random=0.4685643614520407&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_012_b03d4d1366c6.jpg)
 
 用串口通信比USB简单，因为串口通信没有协议，使用方便简单。  
 
@@ -168,7 +168,7 @@ DB92的RXD连着DB91的TXD这样交叉着连接，如果电脑没有RS232口 只
 
 **串口通信过程**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8YuxBqMnh7DAKODliawlUBSQk4dZA74MBgG7N7rH0a7GDyD4dK0o4jzQ/640?wx_fmt=png&random=0.28728331235115334&random=0.1988046981769871&random=0.36309111109314296&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_013_be4a82ac4e0f.png)  
 
 **STM32中UART参数**
 
@@ -178,7 +178,7 @@ STM32中串口异步通信需要定义的参数：起始位、数据位（8位�
 
 UART串口通信的数据包以帧为单位，常用的帧结构为：1位起始位+8位数据位+1位奇偶校验位（可选）+1位停止位。如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx85uK7xTDre2Yy3HP0jeZOIH5vqicsb6TtBQgxoOOhAGmicthlXGtltnLA/640?wx_fmt=png&random=0.5278709605995167&random=0.5414898972536155&random=0.29970901074184386&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_014_24e69d3d4b4c.png)  
 
 奇偶校验位分为奇校验和偶校验两种，是一种简单的数据误码校验方法。奇校验是指每帧数据中，包括数据位和奇偶校验位的全部9个位中1的个数必须为奇数；偶校验是指每帧数据中，包括数据位和奇偶校验位的全部9个位中1的个数必须为偶数。
 
@@ -188,7 +188,7 @@ UART串口通信的数据包以帧为单位，常用的帧结构为：1位起始
 
 **UART（USART）框图**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/U8odMdLACJl7YDROfvbMsqiaZ8O8uqFx8P2AHNc5WyJrU59HibibTqiajyEKSPlI9MpooQ0jAOElC0JlzHt5lPzFsg/640?wx_fmt=jpeg&random=0.03668150668541115&random=0.5176179692953851&random=0.37460688486322335&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_015_5b39fb00eb93.jpg)  
 
 这个框图分成上、中、下三个部分。本文大概地讲述一下各个部分的内容，具体的可以看《STM32中文参考手册》中的描述。
 
@@ -202,9 +202,9 @@ UART串口通信的数据包以帧为单位，常用的帧结构为：1位起始
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_016_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_017_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_018_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_019_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_020_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_021_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_022_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_023_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_024_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_025_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_026_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_027_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_028_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_029_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_030_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\搞定串口_就搞定了通信_STM32串口通信基本原理_images\img_031_50889e54acde.gif)
 
 ## 
 

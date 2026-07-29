@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ittf\_QA\_XSYbpuXgn8sNMA](https://mp.weixin.qq.com/s/ittf_QA_XSYbpuXgn8sNMA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiauJApxoqreictqHMTk0FwgNlqqGSSnib0ZIHHrFfcwUgVFjFX9yAxhAgIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_000_c734e08c4753.png)
 
 _**_★★★_**_Resistor-8---热敏电阻的形态_**_★★★_**_
 
@@ -11,21 +11,21 @@ _**_★★★_**_Resistor-8---热敏电阻的形态_**_★★★_**_
 
 _€1.NTC的各种形态_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKEzcUM4BicnP6VMJPRZdEDRFyv6MS9PaYDDPib0kcicxlQFsHPyY7JvlHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_001_2073888c79c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKy9ge0FQBVhwgYwKaZXrQP7CVFPJW6icICEK6aaYJHULJLdWufyVGr0g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_002_7ce5acac810b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKrl96nvsdwoovFzRJ3v6HDa7Hta3NVQjCzxOSwunHJO8icAOuISmfGkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_003_57b7754faac9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKeSFic9kN7pZLZ4ZZjJ8LicibIh2qxzbaFLYibAMxA7x2urXTicN3ce5FDjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_004_288ac3434e75.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKevqq8ZmftxibstXibSbQiaRdCua7GMLDsEz6ClDLR3sYrkLwg9g43ke7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_005_5d5b3668006a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQK4WPcOf8LSvVW3fZhHvFBPNvqrql76jEZFoCM1F8ysicJtZU2gzhw1aQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_006_ffceef8d62f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQK1XxSeHBEib9CNnlRIEKkB8RQ5YqgclTIPPLWoaWlJr3PlK3o6IDdUXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_007_bcfb39217170.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQKybxAtbkkrM98Y6LwZjpCKdCWcb8ic2TKTY1QfnUKuMhKPIKicye5rLjg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_8_NTC的形态和注意项_images\img_008_d1982487835e.png)
 
 **_图8-1：NTC形态合集_**
 

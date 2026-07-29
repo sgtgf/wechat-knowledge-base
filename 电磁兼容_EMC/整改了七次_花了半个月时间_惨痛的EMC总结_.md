@@ -26,7 +26,7 @@
 
 有备无患的工具：陶瓷电容、Y电容、镊子、铜箔胶带、亚胺胶带、铁氧体磁环、笔记本电脑、充电器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIcsuaTwqtfjmst0c1ia4O1Wybsd86y8yCPwyEuF0XmHDldnnqZwiaadPSMakWccJ2IhY07hW4Sya4w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\整改了七次_花了半个月时间_惨痛的EMC总结__images\img_000_c1f51a0a03e0.jpg)
 
   
 
@@ -126,4 +126,4 @@
 
 用于电磁兼容测量，包括电磁辐射干扰测量和电磁辐射敏感度测量。五面贴吸波材料，模拟开阔试验场，电波传播时只有直射波和地面反射波。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIcsuaTwqtfjmst0c1ia4O1WEwdblmC5W8f5VKqXrQpX10kUgcJn6zdoGXMrv11bHY3v1sticnkpyFQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\整改了七次_花了半个月时间_惨痛的EMC总结__images\img_001_7418ce7117f5.jpg)

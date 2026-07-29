@@ -18,7 +18,7 @@
 
 这样做的目的是增大共模回路的阻抗，使得共模电流被扼流器所消耗和阻挡(反射)，从而抑制线路中的共模噪声。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCT0ibYgByLIlib0xJDHYdJczw0LIS6PHibiaYKZUdII7EAmZA9LxHqYmx2Cw/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_002_867062930b39.png)
 
   
 
@@ -40,9 +40,9 @@
 
 1) 共模电流通过共模线圈，磁力线方向相同，感应磁场加强，从如下图磁力线方向可以看出—实线箭头表示电流方向，虚线表示磁场方向
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCTZ5vClF176SdYWsvc8ibSqo2sNn127FUl5bbO0icdkT6mAvm3lEUDbBuw/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_003_c533ebddc709.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCTB0sfAhFW5eibqAqcu7lWUeP0jWlQde0MibScJ17BMc2Dic19IMev5tvLQ/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_004_125bbeefb2e3.png)
 
   
 
@@ -50,23 +50,23 @@
 
 下图红色线圈产生的磁力线穿过蓝色线圈，同时蓝色线圈产生的磁力线也穿过红色线圈，彼此相互感应。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCTqWRypEgEe8cVcg0zjzj676hybS0XDBicbBia0bTs712ZoaqB0NmcTGeA/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_005_2242a42cf329.png)
 
 从电感的角度来看，电感量也是成倍增加，磁链代表了总磁通量。对于共模电感，当磁通量是原来的2倍时，匝数没有发生变化，电流也没有发生变化，此时电感量增加为原来的2倍，意味着等效磁导率变为原来的2倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCTpohBa6w8SwyGVzs2r1BjEzZ2ZEw6EvcdZoEsiajze2MdcFQa30euLoA/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_006_10099ae3f443.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCTdEv3fWiavKsbf845XfxpibSA11iaINOalMUMHk9yUTtS6MXfTsDhFHstQ/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_007_74c0e3a19bb2.png)
 
 等效磁导率何以增加一倍，从下面的电感公式来看，由于匝数N不改变、磁路和磁芯截面积由磁芯的物理尺寸决定，因此也没有改变，唯一就是磁导率u增加了一倍，因而可以产生更多的磁通量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCTGhdQMJmgQdgK9tJ2SBI58EwFarKV952Az417liajjJq4zuUibL4fwU3w/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_008_0940bf119359.png)
 
 所以，共模电感在共模电流通过时，工作在互感模式下。
 
 在互感的作用下，等效电感量被成倍增加，共模感抗也会成倍增加，因而对共模信号有良好的滤波作用，也就是将共模信号用大阻抗阻挡，不让其通过共模电感，即不让此信号传输到电路的下一级，如下是电感产生的感抗ZL。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHTxNzmcbT6TSArvOJJuKeCT7qHurib1UUc6gaIZgbf6hVLCtwDUxpW16HZA1VxqTB7hiahcX9grhPXg/640?wx_fmt=png&wx_co=1&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC整改中_共模电感的使用原理_images\img_009_21cd9928997e.png)
 
 _Z_L\= ω_L_ = 2π_fL_ ，_Z_L 就是感抗，单位为欧姆 ，ω 是交流发电机运转的角速度，单位为弧度/秒，_f_ 是频率，单位为赫兹 ，L 是线圈电感，单位为亨利。
 

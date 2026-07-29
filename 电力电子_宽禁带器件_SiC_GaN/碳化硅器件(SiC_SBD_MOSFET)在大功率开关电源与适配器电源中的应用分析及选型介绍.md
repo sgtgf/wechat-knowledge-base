@@ -13,13 +13,13 @@
 
 该设备由主功率电路、PWM控制电路、单片机控制电路和辅助电源构成。主功率电路通过整流滤波、高频逆变及输出整流实现电能转换；PWM控制电路调节脉冲占空比以维持电压稳定；单片机和辅助电源分别负责参数监控及系统供电。分层式电控箱设计通过可调节层板分隔组件布局，独立散热风道与插拔式结构优化了空间利用率和维护便捷性，解决了紧凑场景下的散热难题 。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36kzYzKLG66fIniajGGFKHeibfdoXFAU1mktmwpDJ5oHB0VhJl8YnCeiamA/640?wx_fmt=jpeg&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_000_ac4a85d025aa.jpg)  
 
 适配器电源：又称交流电源适配器（AC-DC Power adapter）是将输入的交流电源转换成输出的直流电源的装置 。该装置一般由外壳、电源变压器和整流电路组成 。其工作原理为将输入的交流电通过变压器变压，经过整流器变为直流电 。
 
 电源适配器作为电子电气设备的主要能量来源，尤其是小型便携式电子设备及电子电器产品的电源设备，其广泛配套于手机、路由器、笔记本电脑、液晶显示器、音视频播放器、游戏机、医疗器械、灯具、安防摄像头、机顶盒等 。随着消费者对电子产品性能要求的不断提高，以及电子产品呈现便携化、长续航等特征，故对其电源适配器在能源转换效率、功率密度和稳定性提出了更高的要求，同时也推动电源适配器向智能化发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36TsQvxezx3dEawJLXlH7BBUPjv2icB4szZPMP4iakfPm2M1SONOpbXqzA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_001_337f07aa3766.jpg)
 
 核心区别在于，适配器电源通常是完整封装、即插即用的独立模块，为特定设备供电（如笔记本、监控摄像头）；而开关电源的概念更广，常作为内部组件集成到更大规模的系统中（如服务器机柜、工业设备）。
 
@@ -27,7 +27,7 @@
 
 表概括了开关电源和适配器电源的主要特性：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36ibLU6JLo6Jx8nsGPORKa5ibFmjflmwHrqscJlXXYIkTaFJ79JtRyrPpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_002_277ea81fd037.png)
 
 1.3 应用领域
 
@@ -107,19 +107,19 @@ SiC肖特基二极管（SBD）：
 
 SiC MOSFE产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36a92dAzOqa9HzrQ1mAHOqrIeqGJTd5HlbIjSpkeyeLiagMeEtP4NT00w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_003_81252e0481b4.jpg)
 
 封装多样，电压650V及1200V的产品选型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36CPF30hD1EOtJmSm0Fiag77sFSWtMyDQ0ZnTEL6icliaibHI6jFtsJqAdicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_004_bfc7f0d8a51b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB366GCBDZjrFFzpAjqPR62JtmgykadeibibRbAmbbIktqHQ6mHAicEmsDqpg/640?wx_fmt=png&from=appmsg).![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36fffNQFPN7tQnHeBbQHxpX4uuf1EhcrYQw0P0jcYvLyTqiacIej7OMRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_005_9aef758e5928.png).![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_006_5f1cb8de9545.png)
 
 SiC SBD产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB363nZ4e5HcuNKPTMpr3XMISTGnDKpP9x6Maejurick5Ab0LkQ4TrR78Ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_007_67673772eaa8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36tT0U46Uz2xjsA8ZOgeLb5Ob2ALQrIcOOnx7TicXwkdy98mD2jicwYFicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_008_17ec7beeeb27.png)
 
 注：所有规格的SiCMOSFET和SiC SBD器件，均有对应规格的芯片销售。
 
@@ -211,7 +211,7 @@ PCB布局：
 
 3.3 知名厂家应用案例
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36eUBvTCxdDX5gtAZwCYllrKtyuicsMAu5uSM3QKqib1NI4viakj53W8wqA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_009_2feaa2dec843.jpg)
 
 **梵塔产品**图片-来源：充电头网
 
@@ -219,7 +219,7 @@ PCB布局：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36l5I0C18uKx1aHAwabZicURU5WkPRTq7LCrlh9q2VsHIOPv0s5dPypEQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_010_b58417bbb984.jpg)
 
 机械**革命产品**图片-来源：充电头网
 
@@ -231,7 +231,7 @@ PCB布局：
 
 在高端适配器（如笔记本快充、显卡电源）中，也开始采用“SiC MOSFET + PFC控制器 + LLC控制器”的方案，以实现小体积、高效率和高可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknpeK0Dibxvq9k33aiaoTB36DjibeWRuzE4aZsu3zicO2QvK1gKV3CxbwehOiadaWc2VaEx8PE6ZHczpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_011_78617036a2d5.png)
 
 图片来源：充电头网
 
@@ -273,13 +273,13 @@ PCB布局：
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbg7mbSTRq6xxdalQFicZl9juNGuSbwttzgj2bcTVWEcMMGArafeOy2Sw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_012_a7f07e72d68b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbMr2gmicAdQbfntmnNrC0DIkQWRRoRHwXp0x3DrkgrvrfvqSxbiby4YGg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_013_4b745341563e.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbRLfWib8MjibZPVbIpQcgibL1jsyV1JC3sJNzzQbsfuSWXh7BR4Egbs0Cw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件(SiC_SBD_MOSFET)在大功率开关电源与适配器电源中的应用分析及选型介绍_images\img_014_b7d119e7bb92.png)

@@ -5,7 +5,7 @@
 
 SiC（Silicon Carbide）模块，即碳化硅模块，是近年来随着功率电子技术的不断发展而崛起的一种先进半导体器件。由于其具有高温工作能力、高开关频率、低损耗等显著优势，SiC模块在电动汽车、风力发电、太阳能逆变器、工业电机驱动及高能效数据中心等领域有着广泛的应用前景。为了确保SiC模块能够稳定、可靠地工作在各种恶劣环境下，封装技术显得尤为重要。本文将介绍SiC塑封模块的几种封装类型及其特点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbSWP3U4ib2cQP3DIZpry5CKatzITGgL53YKufw2tfq7qCDGJKa6Bcc0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_000_3ce9776fb7b3.png)
 
 以下是针对SiC塑封功率模块的封装分类、产品特性、应用领域及产品介绍及优势的系统性分析，结合最新行业动态与技术进展：
 
@@ -15,7 +15,7 @@ SiC（Silicon Carbide）模块，即碳化硅模块，是近年来随着功率�
 
 结构特点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6Gb9V9oyTlXOqCSULF16I9Z7eh3H0HXW8icnaRMpyiaibn35GmT5sCWwLHVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_001_d1073949d8de.png)
 
 丹弗斯：半桥模块
 
@@ -31,11 +31,11 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 2\. 全桥塑封模块
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6Gb9WBU2sS87BC9PZIvTGKGQib6rHbP78Y6ak8IODPScJ9uNXekWB5TSHQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_002_8077e3afe5fb.jpg)
 
 芯动半导体：全桥塑封模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbWwk5XSZ1ZABMtD9QZDb9C8QUxmz4yp26uCMAicSHG4vM6Bh3LQibVXqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_003_6b5b7b5e1519.png)
 
 芯联集成：全桥塑封模块
 
@@ -53,7 +53,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 3\. 二合一/六合一集成模块 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6Gbl6Z9cLXibcsm10PTZNGW6sMFVn6sBbzUVcj1NRm90UFMvtR8w0X7Orw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_004_018530dc2160.jpg)
 
 创新设计：罗姆“TRCDRIVE pack™”采用二合一封装，主电流与信号分离，Press-Fit引脚免焊接。  
 
@@ -61,7 +61,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 4\. 紧凑型工业级模块 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GblZyL9w5XDutic8gKOzROXQEb7FwTceib2smXpV7dMUH5HOAj0Kib5IsdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_005_e6385f636b54.png)
 
 示例：Qorvo E1B封装系列（半桥/全桥），导通电阻最低9.4mΩ，热阻0.23°C/W，替代多颗分立器件简化设计。  
 
@@ -71,11 +71,11 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 核心场景：塑封模块的高频特性提升电机控制效率，CLTC工况效率达98.6%，延长续航里程。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbSAic8ibf4ZKggx018eMRqcDicIYFD5pQ32gPLlI3eJ1AlT3tKianEaAnTg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_006_16113c849889.jpg)
 
 小米汽车采用塑封模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6Gb75FImgD37pphSrbb2ocFIL9spssNoBN5sM6D3XWAEtBSQmyQqaoGvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_007_7f08ff60cce4.png)
 
 比亚迪汽车采用塑封模块
 
@@ -83,7 +83,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 2\. 800V高压平台电驱系统
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbmYoM4x8agSSmJpgo3Ik93LupRfy88a5ejHwflRZ0R9RcyejJl41eNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_008_e64a34e2596f.png)
 
 小鹏汽车800V碳化硅平台
 
@@ -93,7 +93,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 电动汽车充电桩、光伏逆变器、储能变流器，利用高开关频率减小无源元件体积。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbXdgJ3WExicD2IEQBoLpRYautiaSb4jFBpQ2Q09ib7SiadpIZzOoTE78YwQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_009_b1456b859bb5.jpg)
 
   
 
@@ -119,15 +119,15 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
   
 
- ![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_61@2x.png) 四、产品介绍
+ ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_010_1e5bed1cf2d9.png) 四、产品介绍
 
 爱仕特专注碳化硅器件（SBD+MOSFET+模块）的设计与研发，自建的晶圆厂和模块封测线，完整的产品线为客户提供优质服务。简单介绍下塑封产品模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbY6LMLj8azR0KA4ut16mljdz56KALSoODPIZzXV2Gnaxbh56bgW3Gaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_011_2e4a5a704089.png)
 
 1.DCM封装半桥模块（DCS12模块）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbVdspp62wAmpHDRC2ohicfBicEyscwicmgTB3aZiaib9j76Qdib5J3y0ueXsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_012_440385cb91cd.png)
 
 **产品特点：**
 
@@ -145,7 +145,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
           **R****DS(on)** **：1.3~6.2mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbsYne4Zjgfwu1IgRxtPRCsHExPhEa6nS3Er1iaV77eLQ1Utl0T9uwTmg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_013_51a88d62fdcc.gif)
 
  **DCS12模块优化水道结构设计，在提升散热效率降低热阻的同时，提升系统可靠性。通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻。另外，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，可靠性进一步提升。**
 
@@ -153,7 +153,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 2.SMPD封装半桥模块（SM8系列）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbbaNicfILsVhXIUzqptyEibgBI4ZEiaMZWzextkY3tibGDyoTxGSfpll2dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_014_d08135d50f63.png)
 
 产品特点：
 
@@ -171,7 +171,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
 3.IPM封装三相全桥模块（D21系列)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbaQXd85UpmEDh1s6DT3ou4GKsVHl2bY4TNGs6HxMGbhe1M7cChy8l2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_015_9ffec2020ef1.png)
 
 产品特点：
 
@@ -189,7 +189,7 @@ Si₃N₄ AMB陶瓷基板增强机械强度与导热性。  
 
              **R****DS(on)** **：80mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnINhVrepfoiajptUiaaTG6GbtIlC7WWvPmSFXTE9dKR9oM0W3wNLGe5nFfdJhhdlRmM2S4sJlELEGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_016_b2753e8d8542.png)
 
   
 
@@ -215,13 +215,13 @@ SiC塑封模块凭借高功率密度、低损耗、高温可靠性，已成为�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbhtiaRmYHTp4bDWkMosreWEkStrP0Cg41Vm84LnHXyNzX5oT80mzweicA/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_017_1fefb9f77e8f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGboharT27juBiadHBOIA4TcgxwHsqNQeRHbBSFaTsnT8DZEsFVB7Mh71A/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_018_2eb3ebdc7460.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGby1ADIqA7dRFfffghDzG9l5QkG9EE78A5k4JxgWOoSER53hFAhCOpNw/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC塑封模块的产品介绍_images\img_019_bac2258f72cc.png)

@@ -22,7 +22,7 @@
 
 2\. 机箱全貌
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg1wQ1AcQXj2AeRUrDPwjxpz3u1zzya69D0cfMFaiaN9icRar3LQ67mFtSmbLHruXICGOTusL5WpAcA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\华为交换机拆解_学EMC基本操作_images\img_002_5c29d7b371ad.jpg)
 
 这个机箱是有一个上盖的，上盖与机箱有较大（很大！）面积的金属接触，可惜忘了拍图。印象中上盖整体盖住了机箱的左、上、右、后四个面。
 
@@ -30,7 +30,7 @@
 
 3\. 电源输入和AC/DC
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg1wQ1AcQXj2AeRUrDPwjxpLYmCkaerKWY1O8z2pK3oyZNFQ7q4icAicyVv62obmM2Uic9HWqibA8wVXQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\华为交换机拆解_学EMC基本操作_images\img_003_129c1ea2cede.jpg)
 
 电源输入的地线直接接到了机箱外壳上，而没有接到AC/DC上，也就是是说，将机箱这个大片金属当做一个比较完美的静电放电回路（对浪涌之类的试验应该也有好处）。AC/DC电源输入插座上方的蓝色器件应该是一个压敏电阻？
 
@@ -44,13 +44,13 @@ AC/DC输出直接接到了主板上（PCB电源输入和工作地）。
 
 5\. 主板与机箱的连接
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg1wQ1AcQXj2AeRUrDPwjxprBh3LP8WBg8ibZeOFDuP6icXSIBkiaG5vBib9BftIicrbfbLUrsTMgncyxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\华为交换机拆解_学EMC基本操作_images\img_004_77919312c59b.jpg)
 
   
 
 可以看到，用于固定主板的螺钉下是大面积的裸露铜箔。拆开主板，下方的机箱壳体是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg1wQ1AcQXj2AeRUrDPwjxpib05RLOXhLCNicnU2dCrVgIFlQE3NNjfY1KnMGiaw3ZBg2F77rSLwTktw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\华为交换机拆解_学EMC基本操作_images\img_005_f1ac3981be87.jpg)
 
 每一个安装孔都凸起一块较大面积。相应的，从机箱底部看，安装孔部位是凹陷的。
 
@@ -64,7 +64,7 @@ AC/DC输出直接接到了主板上（PCB电源输入和工作地）。
 
 6.1 焊接在主板上的接插件与机箱外壳良好搭接
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg1wQ1AcQXj2AeRUrDPwjxpQtX7ehUMYbPYXZunpia7q10QaloOoRHJziabt7P12xDCPNNywNBhgpsQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\华为交换机拆解_学EMC基本操作_images\img_006_b41f446fae65.jpg)
 
 图中机箱外壳在接插件孔处有弯角，与接插件簧片良好连接。这时将接插件外壳直接连接到PCB的工作地。
 
@@ -74,7 +74,7 @@ AC/DC输出直接接到了主板上（PCB电源输入和工作地）。
 
 此时接插件外壳在PCB上使用单独的地平面（多个与机箱外壳接触不良的接插件外壳共用地平面），然后一方面在PCB上与工作地之间跨接电容，另一方面通过上文所述螺钉和大面积铜箔连接到机箱外壳。PCB上的接插件地和工作地通过机箱共地。在PCB上这两者不直接连接（两者之间有电容连接）。这样，当对着此类接插件进行静电放电时，静电将首先通过机箱外壳泄放掉，而不会跑到PCB的工作地上。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg1wQ1AcQXj2AeRUrDPwjxpKRtjKgBicSovKkfZl4RsE3IP2uegERZMl39Y1gAnia6v5W4KDic3es2SQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\华为交换机拆解_学EMC基本操作_images\img_007_80fb79de171d.jpg)
 
   
 

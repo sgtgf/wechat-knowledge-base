@@ -28,7 +28,7 @@
 
 这些拓扑中的任何一种都可以通过在耦合元件上分开接地来简单地隔离。如果不需要，也可以完全移除耦合元件，但是这个通常只适用于较低的电压/电流和较慢的开关边沿效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOV7BiazmXDysQA5mJSddEcC4eU508HqJusTDV6bkpuAwBfANm0rfRJYVQ/640?wx_fmt=png)
+![](半桥DC_DC电路介绍_images/img_002_4a4474bcd4e9.png)
 
 半桥直流-直流转换器中的两个示例驱动级
 
@@ -64,7 +64,7 @@
 
 主要还是取决于驱动级提供的电压。当FET 直接放置在输出电流回路中时，这些系统的输出电压可能会非常大，尤其是在升压所需电压的变压器耦合系统中。这些更先进的材料在散热和热管理方面提供了其他优势。下表总结了何时应根据 Vgs 值和额定电压使用不同的半导体。请注意，其中一些可以在逻辑级别深入切换到 ON 状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOVUv25Mvq8nbUscJJbhbQz0mNByvTpNWWkFXhKvdtV84C2GNhGhOV24A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\半桥DC_DC电路介绍_images\img_002_6e9b8b39253c.png)
 
   
 
@@ -72,7 +72,7 @@
 
 下图显示了具有标准电源输入 (85-265 V AC) 的系统的示例半桥 DC-DC 转换器框图。为了安全起见，该系统使用与交流和整流直流电源的隔离，并将电压从整流高直流电压降低到中等输出电压水平。这种类型的设计可用于产生标准电压电平（例如，24 V DC、48 V DC）。这种类型的系统将用于服务器电源、电器和工业电源等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOVqSrL275YEQUg51U1rC0l9HH3tSd7uOlmkU3iaQFRRkPmaS4BibM5B7jA/640?wx_fmt=jpeg)
+![](半桥DC_DC电路介绍_images/img_004_962c6c2771d0.jpg)
 
 半桥 DC-DC 转换器框图
 
@@ -80,7 +80,7 @@
 
 带反馈的半桥驱动电路如下图所示。这只是上面显示的标准半桥驱动器拓扑的扩展，但带有一个反馈环路，该反馈环路由电流检测放大器 (CSA)、光耦合器和 PWM 发生器上的检测输入实现。变压器可以根据负载要求升高或降低电压，电感和电容（L 电路）执行与在较低电流下运行的标准 DC-DC 转换器相同的功能。下面的示例在电压模式下实现降压转换。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOVVzNfiahiaA1tCVGnR53YgCofwpm2LhZqqqGBEm8Xfib8GF92jUaPjIS9A/640?wx_fmt=png)
+![](半桥DC_DC电路介绍_images/img_005_9d40032feb10.png)
 
 DC-DC转换和调节部分
 
@@ -94,7 +94,7 @@ DC-DC转换和调节部分，可以用作电源中的稳压器部分，在上面
 
 下面显示了一些示例半桥隔离式 DC-DC 转换器设计。要注意耦合元件可以将栅极驱动信号或电源耦合到输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOV6KWrOEXmkCic3RYPFaqaoibTzicvHc2s2YpthgWh3pLggjy1vHE1dOHYg/640?wx_fmt=png)
+![](半桥DC_DC电路介绍_images/img_006_4bc9ba4b8f49.png)
 
 半桥隔离式 DC-DC 转换器示例
 
@@ -118,7 +118,7 @@ DC-DC转换和调节部分，可以用作电源中的稳压器部分，在上面
 
 在栅极驱动耦合电路中，隔离通过三种可能的方式实现：使用光耦合器、变压器或在栅极驱动电路内部使用结隔离。应使用的确切方法取决于功率如何跨间隙耦合。如果只是栅极驱动信号，电压/电流较低，则光耦合器或隔离结将是合适的。光耦合器可用于仅耦合开启驱动器组件的使能信号（上例左下方），或者 PWM 信号可使用光耦合器或小型变压器跨隔离间隙耦合（右侧的两个电路） 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOVO1JOicVrr0tKaYHF8daxz0IZL3TFmafE9ibb1eutDarfxEVlB2bia1qpg/640?wx_fmt=png)
+![](半桥DC_DC电路介绍_images/img_007_3fa49a10fe7d.png)
 
 带光耦合的半桥隔离式 DC-DC 转换器
 
@@ -130,7 +130,7 @@ DC-DC转换和调节部分，可以用作电源中的稳压器部分，在上面
 
 如果电源直接耦合到输出端，它将在变压器的初级侧切换，然后耦合到输出端。地平面间隙需要以典型方式直接放置在变压器线圈之间。下面显示了此实现的示例，其中电源完全由 V\_IN 网络提供。这里就可以解释初级侧半桥驱动器实现通常会出现在隔离电源设计中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOViaK7AH4WOIsUt0HCRqPDIMqEfibp3hjC2nJpeLfcYnh2ZVfmHANDzMCg/640?wx_fmt=png)
+![](半桥DC_DC电路介绍_images/img_008_b444fdb76244.png)
 
 在变压器耦合半桥隔离式 DC-DC 转换器中实现隔离
 
@@ -154,7 +154,7 @@ GND 网络还需要与安全电容（例如 Y 型电容）连接在一起。电�
 
 按照这些要点，可以为半桥 DC-DC 转换器设计规划 PCB 布局。PCB 布局的每一级都应像任何其他电源布局一样进行布局和布线，以帮助降低噪声。在半桥DC-DC转换器设计需要隔离的情况下，必须在与元器件和信号相邻的层中使用地平面区域，仅在 PCB 布局中的光耦合器/变压器元件定义的间隙上分割平面区域。PCB 中变压器耦合的示意图示例如下所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgnicusJMFVOsDyIOTt7ubOVKe4pdLLClic67Ak3zEemnXKxSibqXq7cI6qeCL97hF4puDSFQWItKMCQ/640?wx_fmt=jpeg)
+![](半桥DC_DC电路介绍_images/img_009_ac04eaa15286.jpg)
 
 布局半桥 DC-DC 转换器的粗略布局
 

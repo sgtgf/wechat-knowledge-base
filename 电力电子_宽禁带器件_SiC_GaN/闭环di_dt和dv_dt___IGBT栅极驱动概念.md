@@ -8,133 +8,133 @@
 
 作者：Y. Lobsiger, J. W. Kolar
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLpcqnfSZvJmO8b3zbmdyCAnrfSziciafpyXHEnBoKZKvZKdpHM4xUds6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_000_b0002fd19836.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLIDsjfpZCAZ3KTEJicuKcicbu6WEicEx7ysAhRBDuvzwXP076yr6RAEibyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_001_0cef5f051b0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLCMy1zfia5une0Bj1gQb3s3yymX7icr1F72jdW10SwjVoDBGqZGUcRfpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_002_1a1b00fc8fd8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxL7HsCcnhS0FBNhPj5kChict3kUfDXDViaLccYjQRAECoPObeibdicgribwRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_003_ff0a489d0609.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxL3Hia5peS3ZO8IalrfVt5T8XH4pVP0TcI77cHZEaCUIfoNgvCEicU0q3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_004_bf1e0dc8acb1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLRTJMYIGQUttcgotXnZnoeWgXPLSmwjibn8j5ZHjDPpv2U4ODVNpibicSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_005_d96920511333.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLG8N8wjKP0pwibxGZFYicabXKhvpGAIiareeP8RciavDDET1kNE6viaocQJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_006_b1a81b6734cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLRicX76RAqvhyY64q6JFIiciaYeruPch9Dk5RqQ029CfD1iamgicyW8CUibKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_007_00e39eaadec7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLFluzpuMLnmnfYlN29QS0AQZjWZEDc0GNp8RXicyT79PFHXF50KE5x8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_008_fd409af76e4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLPOWbSrdBuAYPH5obGiaJibNWib0afaIucGZJwL3GpwzuiagD35LEaypBXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_009_56fde99d5af4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLaFCr37bfuJqhKo65OHter0AEVp94OLQlgRWpEX54X7sJiatRSnW4guw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_010_a1415737c866.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLm4a18rI0UiaibB5A27Tras2Tnib2L3esTCkcgvV1Ozwd9QgYpC8icYJIFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_011_a3c882636092.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLcFaUqG8WHnSicia6muyia0WNeYW8bt3UMBoum9aZO14LIneVCiau8qGM5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_012_e40a19b932a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLHId5quZBRmicp04iaba2UnuJtCG8YKFeiaibiabVVh5jrS4g4a4DhonbfaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_013_0d3406a1a81c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLrYPA3QLicd5diaJvuJ6ZkB0BNQ97GX3l4WYlcvLCvUN9fXIzHibUnwHpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_014_c58b811c0251.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLZzDvaxUL4bPfPhSS9zZN2nW0kqg28uPY5twJ2TUg0es2MldQOHInzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_015_4026824323db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLzbTsBgBvVS4M2Kric4lqJSpLJITMRAESnELvpmHTI4PRLmLmetovwqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_016_fd0c97e2d672.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLWgGqI0XF2jPDGnhLibsT4CqqoNFY6WUK67IQbpeic68y8VVdVicooIBFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_017_20333b05d55f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxL8Y62QqNbFdBPJhic8OOVzlqtB9kjicDWibic6UmAvJJAH3DmC83AmpDI8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_018_798237a9a05d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLOUsPKYepH5dg2V9tWYpiaDh2nEonu8XI9vDFzvf1hyGe2Vh9SFib728A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_019_0be187c4081b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLR4pKIRtjg3rGNicE7VfNc9VGiahxPMWFfNWSm7e3ibGkdTkNH2GmLvc2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_020_062d3ab500e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLpIUr7RicW6C7dumsd8lKGlvAedwDejD8txEKKtibdg7EncrKmicFiabOJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_021_d86ef5b6bc85.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLia1CkuuuzzEjUKHQibQv1ibr9b4DRWLf4xNDGmWER7j8T8NyjTLjr9hEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_022_c6b0e02eaa81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLYonlcTeeicbWcqy2LBOPe1fiaq2UytgRbTs00ibHZQoZibV7zRG3lAORHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_023_a1e80fd6e79c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLEwjmib15oNBzseibRQqxDDibiaj0AOux5rZvLibavibtEp21QWIep3ricx8zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_024_ded1b62a8928.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLSE8Vm9oLLaG6B62ItkhO2aicpcJDfgeqVga60RRqo0JrNn1e4nbEj8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_025_1ab727ac9d39.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLaGNhrZ591Rnu452hZpbOicSbQ7VQ6yX4pOfXVRxewWt9bbyeovw0cFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_026_07a622208e86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxL04iaajMDWxtrfKRbwQpYouUK7xQeoW3XibLQW13f7AKibb0UeRHJHrzIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_027_8be18beea862.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLed0j5EfGicYsLuHg5mzltDibTSlvjGX9LoTbkDLg8uJInibTYibkI3YHPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_028_9e0f363c95d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLLZ8sH9WepH0keDJqqY1OCNqewx2lTZBmWibQRRicY7wmpPpRHNfaiaiczQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_029_4fc364223177.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLia2Br8EX4XRLNX6casMarrc79RRP6H388Ja1pczbzrNxdGVxLUFtLHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_030_4bfb5e3978d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLSeKORXVcOpeR441LPGYc9qYxY8bNtHMFRQGyh2LjZcbxF15V3RgZtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_031_b6bdf0bb27b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLQtpUnpdPvibD6EKoLDjE0MRN3MPkTVoSlqEdAn1d19GROmgelOWAldw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_032_583207130e28.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLXhIEDuaGX5yNXB5uEXBf2RONYSrNGia8Ibxib9ZJlo7KhIx6jObymsJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_033_a6c8d2da6048.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLa1Q6kFewTqrRbstKZxF2KubAoB8LPmy9Rjeu46OfGVR2JlrpeLIZiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_034_b5d3a980aeb3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLRMiavSCqltenicPAa1j7nUkHMWJHvXE86JLXU2NgcHaLHMDEdUwyvAnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_035_63e84f742b59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLjUr1mFHjhfia3WeO4sTMWibLADbZFBrCUpo8IOX40LsztvKYaR8RBoEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_036_d58646698be1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLBgsMbgtX3L34aeyVtW9eCWoApLNSg4ricKy0g2KzLWAic7aX5tVibGk5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_037_72aca87b516e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLB2QfuCibvvJbicZ8Fb7G9YY4Hib5ib2NiaFTrWW2t38aP7MuthhVs7yicaHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_038_4f2382d773c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLACMianibGhPQyVz8fwaJTX0BJr5SNWiawibibGhKtic0DN9JamKrbvN6mz0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_039_8c69411d3c65.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLibjQS7ajyYg8TlmLWMxicFb6qxpx2bDXKGIZCgVSSGBBMcz7L6BEb4Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_040_66e405e66f53.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLrqibYY4pr0YETJxbS0S86wABLw71UojDWpbytaOPwLeHOORV6ckI7Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_041_3263dc8908d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLTWicULCPbKJDrCTgSbgiakoVC6VpaoFGHnfrKZicRzvw5oicbeU27adwDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_042_ed752ebbef9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLRDtVDGq9picNFa726PUfOkwqdwRf0yPOjIAnGPrrROzrw17D5YcQWGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_043_680a102b7a91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxL99waicdJ48wibuRBx3OsmCf82eJoJxLqCRXicF4dq7uFbrjJNL2XkZJPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_044_fd8417b6cef5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxL9KO3KdSloTdujwVM3wje8R9v3nPNxJ1F3oZrYqoE2xdRUNs5Kms4gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_045_9d75a76af077.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLnGTDp1dEfPS0TpHwMtE6z0Rn8AkxXeIubY0W8ehFQEibylDhPM6ewkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_046_525a7b749303.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLxrr2cHUwANncLDBI8vWKl0CENk799648KWDWm0qBOXU8ibPiaxQLuPZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_047_4ff1ced2bcba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLTtm4fzjTS2HicWmAOsVib1h8EgykYyIts5yo1o1oXV5oqPiaJSZxIXPhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_048_1539e05798d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLgcuht0LNOu7NCkE0xGBdQ1qElLKHpibicYCCgTduaOhtHKyp7WKO2kQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_049_f61ec1f8ebab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLAhSyNicE5TqqgVfvVFb6yWIegWxM0EwwFoG6cpicETRAfS9G3ibpGSib2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_050_8b22c3a0f334.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLr2kL8UGtCNWnmH0NnknggibOTcXpzic5FicfvZrYicmUiajLuG0pFmv2N5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_051_8230fb52664c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLiccXhZibzskEmzXrMIaOS2uZOevoqMXqQDtuEPfk76TvV9QTnfmdT8Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_052_5e8c1446a00f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLiag1Ic9QajpAqf2yUtiaZDnvMTMNbMn6NA4cjjnwice0rhv5wEicoYibRrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_053_e836c4d41419.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxL9wT1MN4BrObqbickOs0zqEJgicEkZoexIpFh12AcuunyRtPicQeqAicuYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_054_66797c97b12e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLmXYFCTTo9ElzGBKCSSAOId9Pm4oJEowiaMgLEnpwgC6hWYANYXgzB3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_055_624d73d09040.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLNJ0j9D1o4bus0Yg2Lno64BichXibKPjkF7qVBeCGiaibScib2puAxCpqFWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_056_753dbe05b29c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLnvNK44g7MvxQLD3FicpPXFWP4ajmU5lP5eia03tBRobibgDumQAk2eVow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_057_1f8376629809.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLmdGBRknlIqudrecGzrMMmtsQOYg3RH9xvfibibRWQ10PvNARWX6yOI2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_058_e59768461a50.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLTmshxcla4lRNWJztPibuL8Dia1A0WG1Fg5Ww7ZSTom2chicXgticWxDEQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_059_9a08b381f568.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLrmql7QDuSrMN0DCgEdjyLBRgUiaLkywtM4NaHhkwLRZ1n8FbTEHKCibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_060_7562a3f5a4e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLJeXkoFCYZseDdT3qDkQpG8I12Bwt2iaT2qZyMH0yxDvfpvKYh0vIicMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_061_842b5a0d0ece.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLib5Uj6fSNiadGoOUfaicibyibFx2dK5v7gQlPhIDy5S0z6rk2eTOb3ic0gtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_062_dfd19f8c171d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLZQas47bsOaSWZccll6K9CUUonBria1qn6SDhndNN15nnWibdmgZibd4cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_063_7b6f4b5a7cfb.png)
 
 注：文字与图片报告无关
 
@@ -270,7 +270,7 @@
 
 闭环驱动 vs. 传统开环驱动的核心优势总结
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTSAqDRU0iceSRvADJRTpxLcIVWq3VXGiciaSWcLr9jMDRPrNmO4uOCuAytTia7HYnOyZpKc7tbrDVww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_064_0d2917fdb1d8.png)
 
 ### **应用场合**
 
@@ -310,14 +310,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN962syCez2GwH9zibMsCJqQLm0V7VWNJMSpvOEqJ7YwfBX6r8O0BMOiaoNA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_065_bbc726564754.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96BUFnyohLKjwzxVZHlwERpQdicPdAzYpoRJId9yN53SRRjKIXVqiawMZg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_066_0f726e672e8b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96nKmkuEHvatjNxx28cI7aEjOmQZtovVp2AqCTVDq2voloPovOYfMVjg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_067_a234b669c262.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96fJZogicnjiblicfW37ictUcc92OBEqdxagSiblFFM1FnsoujHZA75xWaQ9w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\闭环di_dt和dv_dt___IGBT栅极驱动概念_images\img_068_79c51c4b3cc2.jpg)

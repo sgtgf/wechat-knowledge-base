@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/G7\_aaWY\_MM0rOTQW2CXgqA](https://mp.weixin.qq.com/s/G7_aaWY_MM0rOTQW2CXgqA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQibT2fKfScC6GiblhibFOhYyCkwvFTp3vIaH5ublib9WZnwt0dq8icAmgwMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_000_adee0efda362.png)
 
 ____**★★★**______Antenna-9---Direction______**★★★**____
 
 引言：天线空间辐射强度随方位、俯仰角度分布的曲线图形，叫做天线方向图。天线方向图通常是一个三维空间的曲面图形，可用来说明天线在空间各个方向上所具有的发射或接收电磁波的能力。天线的辐射功率在某些方向大，有些方向小，天线的方向性是指天线向一定方向辐射电磁波的能力。对于接收天线而言，方向性表示天线对不同方向传来的电波所具有的接收能力。天线的方向性的特性曲线通常也用方向图来表示，为了表示方便起见，在工程中常用归一化方向图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQYn76KIFiaDf6l2qFpf4aPftRjfpuJvLqia3S7MOZOw2FeZzyTgkCNvtibBLSE7PPrn11UNY26y3QEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_001_55220b1ea95c.png)
 
 图9-1：偶极子H面和E面方向图示意
 
@@ -17,13 +17,13 @@ ___€1.天线的方向性函数___
 
 天线方向图指在离天线一定距离处，辐射场的相对场强即归一化场强的大小随方向变化的曲线图，一般是三维的立体方向图。但通常情况下，均采用通过天线最大辐射方向上的两个相互垂直的平面即所谓“主平面”来表示。 在超高频天线中，通常采用与场矢量相平行的两个主平面：E平面和H平面。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQULfdZ7R11TgWJrYQ90cXzla3xGmppcGkI5JL1F02rkvbqMtYBqicD1rzVK4NSRlota362tVHB2TQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_002_9d94e6f74899.jpg)
 
 图9-2：“一条”电磁波线
 
 E平面就是电场矢量所在的平面，H平面就是磁场矢量所在的平面，置于球坐标系中如图9-3所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSsK2GPMjggvcslOyRPp705KkHH3Y7iag3P75MwDmBQBSc6FgLLnLiaibY6D2jBs1o5iaFqiblTRKWquZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_003_22f4accd614e.png)
 
 图9-3：球坐标系
 
@@ -33,11 +33,11 @@ ___€2.___天线方向图
 
 完整的天线方向图应该用如图9-4所示的球坐标系下的三维立体方向图来表示，但在计算机辅助设计普及之前，三维空间的立体方向图绘制复杂，工程上常用包含主瓣轴的剖面图来表示，此时，方向图的表示一般需要用到两个相互垂直的剖面，我们将其称为主平面方向图，如图9-5中的xz面和yz面。图9-5a和图9-5b所示为极坐标系中电场和功率的主平面方向图，图9-5c将图9-5a的主平面方向图改成在直角坐标系中用对数（或dB）刻度表示，这样能够更详细地给出旁瓣电平。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ3r5VHAB4Iic4EGfcTUViagA7uavibLib3deNOXJOUeg80MBlH8bUrnTmjYmuId7iaxmCXS7ibfbEOOoEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_004_66cf38fc6a91.png)
 
 图9-4：三维场方向图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ3r5VHAB4Iic4EGfcTUViagAxCWB1V1RSDesHQ3nQtjYSVoYOFPnBpkBtYgQznv3BdmwZTvQZoibZ6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_005_8d1a705e16f0.png)
 
 图9-5：主平面方向图
 
@@ -49,7 +49,7 @@ c：直角坐标场方向图
 
 按半功率电平点夹角定义的波束宽度称为半功率波束宽度（HPBW）或者-3dB波束宽度，按主瓣两侧第一个零点夹角定义的波束宽度称为第一零点波束宽度(FNBW)，如图9-5所示这两种波束宽度都是重要的方向图参数。每单位立体角内由天线辐射出的功率称为辐射强度练单位为W/Sr（瓦/立方弧度），辐射强度可以由下式定义：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ3r5VHAB4Iic4EGfcTUViagAoic2Zvj6NibfH8zs4cOOP7k01HV1F8iaceq2hL2P5WCNYxAmGFNZDD3QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_006_f464b86faa88.png)
 
 可见，与坡印廷幅值S反比于距离的平方不同，辐射强度U与距离无关。
 
@@ -57,7 +57,7 @@ ___€3.___主瓣和旁瓣
 
 方向图通常都有两个或多个瓣，其中辐射强度最大的瓣称为主瓣，其余的称为副瓣或旁瓣。主瓣瓣宽越窄，则方向性越好，抗干扰能力越强。主瓣两半功率点间的夹角定义为天线方向图的波瓣宽度，称为半功率（角）瓣宽。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQYn76KIFiaDf6l2qFpf4aPfdBPvAMhBpQsBRG4F9GjBQFria5XgBPA1SaqoQlgqjtwIq1O7GlbOjEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_007_3e8bb878e53a.png)
 
 图9-6：主平面方向图
 
@@ -67,7 +67,7 @@ ___€3.___主瓣和旁瓣
 
 旁瓣电平(side lobe level)：指离主瓣最近且电平最高的第一旁瓣电平，一般以分贝表示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQHGQf0WBwXo3aeb2RiaLHj6Sa6s5J9umGjO6eQ4DGtPunfdRuHIVW52A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_009_bcf6f75647ce.png)
 
 图9-7：主平面方向图
 
@@ -75,15 +75,15 @@ ___€4.___天线前后比
 
 天线前后比（front-to-back ratio）是用于描述天线定向辐射方向图的参数，如果天线具有唯一的最大方向，则前后比是最大方向的增益与相反方向的增益之比（与指定的最大方向成180°），或者天线的前向辐射功率（电平）和后向辐射功率（电平）之比，记为F/B，该参数通常以dB为单位给出，天线前后比越大，其后向辐射（或接收）越小，天线定向接收性能就好。对天线的前后比有要求时，F/B的典型值为（25-30）dB，特殊情况下则要求达（35～40）dB。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQHGQf0WBwXo3aeb2RiaLHj6Sa6s5J9umGjO6eQ4DGtPunfdRuHIVW52A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_008_bcf6f75647ce.png)
 
 图9-8：主平面方向图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSQQfLaQyiabvGeTMKbPcd6hfI8iaXjlOyBLdhIAS1qemfXqTqbUBRbictTibXajcDSHdfbIQj0icCichYw/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_010_16b9443fabfc.png)  
 
 对称振子是一种经典的、迄今为止使用最广泛的天线，单个半波对称振子可简单地单独立地使用或用作为抛物面天线的馈源，也可采用多个半波对称振子组成天线阵。基本半波振子天线的前后比为１，所以对来自振子前后的相同信号电波具有相同的接收能力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSsK2GPMjggvcslOyRPp705phnXxc8ib2Lx9HcaiaZB0JWNVfI4moRs2WaQSn1ApXibDXalrBK2PaCVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_011_c9eff8aed5e4.png)
 
 图9-9：电基本振子立体方向图
 
@@ -93,7 +93,7 @@ ___€5.___旁瓣抑制
 
 天线主瓣上面的旁瓣不仅浪费了天线辐射的能量，而且会对相邻小区形成干扰，这些旁瓣应该尽量抑制，尤其是较大的第一副瓣，一般要求旁瓣信号低于主瓣15dB以上，部分可以实现20dB的抑制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSsK2GPMjggvcslOyRPp705goxyHyNl7DNSOv8FasQoEJIu6ruiacbtUJyqjVRaT0D0ibq6wrCibIvjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_9_天线方向图_images\img_012_9a622f209286.png)
 
 图9-10：旁瓣抑制
 

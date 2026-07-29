@@ -14,9 +14,9 @@
 
 CES Conference
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibaYpttNwjchtLCRgrFTB8zRNzKiauJfFUMLOnBshkPYzxaBRruMDH8rA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_000_22ff52e88642.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibUrFMOown4p7s4ot3yw4o9HahYcj8ULwlnq9Dmg3C802Y5a0AtT4ZDg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_001_829ce8efbc75.jpg)
 
   
 
@@ -48,19 +48,19 @@ CES Conference
 
   Hybrid Excited Flux Switching Machines (HEFSMs) unique feature of high torque density (**_T_**den )of Permanent Magnet (PM) machines and flux regulation capability of wound field excitation machines. Due to aforesaid unique features, stator active HEFSMs are preferred for EV/HEV applications. In this paper a new Segmented PM Consequent Pole HE-FSM (SPMCPHEFSM) with flux bridge is proposed for EV/HEV as shown in Fig. 1. The developed SPMCPHEFSM exhibits improved flux modulation and flux regulation capability (as shown in Fig. 2 and Fig. 3) at reduced PM usage (suppressed PM volume by 46.52% and PM cost by 46.48%) and eliminating stator leakage flux. First, SPMCPHEFSM is geometric optimized (GO) for investigating influence of leading design parameters with key performance indicators such as flux linkage (**_Φ_**_pp_), average torque (**_T_**avg), cogging torque(**_T_**cog), _T_den, average power (**_P_**avg) and power density (**_P_**den). GO is opted based on objective function, constraint, and boundary condition as
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibfMoYrJZfgAfFPc8K7HKkuJ9B0miaxDqzXQPdAQvsBibeiazgG9FKib5noA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_002_cec9a9a54fcc.png)
 
  The overall GO process sequentially optimized rotor and stator. Comprehensive performance analysis reveals that the developed SPMCPHEFSM show improved **_Φ_**_pp_ maximum up to 9.11%, improved **_T_**avg maximum up to 23.63%, truncate **_T_**cog up to 18.9% whereas **_T_**den and **_P_**den are boost up to 23.55% and 89.72% respectively.
 
 ##   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibk7FpARdGVjkMfItRQg2xEXhGavP28PhfmsJ4LibxQ1LcA1ytMKyLRHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_003_7c9cbf4ddcf6.png)
 
 Fig. 1. Proposed SPMCPHEFSM topology.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibbHIXlZx54f2EI7D5hdGKjIXupFXcFYVfYLxoGW84BVGMxOrbjuWuag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_004_f683a4e2ed75.png)
 
 Fig. 2. Flux linkage under different excitation source.
 
@@ -132,7 +132,7 @@ W. Ullah, F. Khan and M. Umair, "Design and optimization of segmented PM consequ
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibdtBb4Hkm5QOWRy6AWmIIGr280Lh4ExMClialQicwuyHsgib5XVYKIJAeg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_005_ae422d586794.jpg)
 
   
 
@@ -148,7 +148,7 @@ He is a graduate student member IEEE, and member of Pakistan engineering council
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ib5ot0iazlbZpzDVwZGF15KlXjFZkCiccfHvgibCCCaqn5K3w2E52mECPLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_006_7c39b600d35d.jpg)
 
   
 
@@ -164,7 +164,7 @@ He is a member of IEEE-IES Electrical Machines Technical Committee.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibrgLXnZgo8PVNfMsX7k46ibJh0GVVj5iccCWLdDxE3gSZPwgFn7zXJUzw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_007_80038b686e60.jpg)
 
   
 
@@ -180,7 +180,7 @@ He is a member of IEEE-IES Electrical Machines Technical Committee.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibbCwP96LrbETkfCPokNkNFzoNsfsV6w7yLEpaS72FgAdUAmAic54xQvg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_008_17ce4428b33b.png)
 
 **长按二维码注册参会**
 
@@ -190,7 +190,7 @@ He is a member of IEEE-IES Electrical Machines Technical Committee.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibQmZ2z2q31GEibtJa7YUHHO0Z858MEhDnEo3xgMp2k8Wx4SxX28bJ0Rg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_009_f38b219d0fcf.png)
 
 **长按二维码注册参会**
 
@@ -230,7 +230,7 @@ He is a member of IEEE-IES Electrical Machines Technical Committee.
 > 
 > 官方微信号：CESTEMS
 > 
-> ![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178bshX9EHBcNIFgWibDj4VlHRfWwcwD39zubP9HbOnLzgYwjkFzpVU7gFhkpcs6NsS7n9JdC9mdOicg/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_010_4b990264d47f.jpg)
 
   
 
@@ -242,15 +242,15 @@ He is a member of IEEE-IES Electrical Machines Technical Committee.
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibPHhERb4CCriammGHiaImuRAmny8fX8OUpKSBkndwGfx9D26Db78lmf7w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_011_678f4849d479.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibtiamYDqxQ5btI8uHUxybo7alyqLyJkAgL9IPQyCnycNmOZ3yL2MjJzA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_012_9d98f4e83658.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibp9HAUSc1ux3EjNVEI1xLxlIAlwq7rTn8dWI6ib5QdkUicedHA7AevoKw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_013_d38a824986eb.jpg)
 
 学会官方微信
 
@@ -258,15 +258,15 @@ He is a member of IEEE-IES Electrical Machines Technical Committee.
 
 电气技术
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibiaJ0zvcA2JYjnHY5H4KPWMicR26yZgqVc4gbLYmkLbpfaok7uZQ4VjTA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_014_5d99349000be.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5ibBHb7gv4JgZA327f7rZgrOvdZDN0hTw6vvuOCN13qOjicYUcEic7NeDVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_015_64878a901a04.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ17ibdciayK3pEEoTKm5Z8DTb5iberbsia1nluhTmk5U8M4mkJnZiaGibhJiciaO2160XXyQJxGQY3aoMPKibKYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EV_HEV应用的分段式_交替极永磁型混合励磁磁通切换电机的优化设计_images\img_016_49079aad96b6.png)
 
 学会官方B站
 

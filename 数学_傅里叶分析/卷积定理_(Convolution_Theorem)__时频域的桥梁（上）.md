@@ -61,19 +61,19 @@ _(其中  代表傅里叶变换)_
 
 为了让你更直观地感受第一步中“滑动、相乘、积分叠加”的物理过程，我们可以通过下面的图片来观察时域卷积是如何生成的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsze9qFKABdRxrxRsnff1Ftp1ibahXzhZaCOWKwp9CkXnQwwA93M6vq86s4recG4oBmQTyyBFbV1ibjLXGb10leGmA3452JKT4ew/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_000_798a402671dc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuZRWC1Dos0KdJAC8kmnZApKx02nTpMiapPYhRoe4Hq5rr5L5fWl7ic8D9t5JibjAj2mibHlhartIicLpFZwrgc0CWpgyjlBNdm37uE/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_001_40f35566ec90.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvVUWYJ52FNSvKqdBVjxo0JNK6Bm6qYN0IOgI0qlMia1mpC0mObvHHhgMrNyl1niaWhZhV6Kggb9Xqa3hHhLvaSXyjVOCM04tzSo/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_002_b53461e2e6e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsMTgAs1QzHm2SLlsEGkocpxlVYL089bmxtDuWhIb2Jb8icP66h0icQor6pptR4aZxPDIzMoKZ2bpuszBAjBOQjlViauRaWJfOZZM/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_003_7984dc962bf7.png)
 
 * * *
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvRtbdEOMmzO5uEAKlSAJiaE4ph0muB0LMeQCsyWPKQZYwyANmU8k2IKopCYCqtQj4iamczSh9uib4iasU8g17FIR68jegkLgxgRic0/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_004_a6a16b845658.png)
 
 这张图是在用**“左右对照”**的方式，讲一个很重要的结论：
 
@@ -147,7 +147,7 @@ _(其中  代表傅里叶变换)_
 
 ## 三、图中的“吃药”例子是什么意思
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuOibZcyfWcfwic6pXglCjgicvQHUflYGDftrgz16sMbeplHnKEU5K5pASbbdsDcpast5sfvicJrf2rZ9Vyz3do7gjmJYoEqZzh2JQ/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_005_6ad73ad8d55a.png)
 
 左边上方用的是一个很生活化的例子：**吃药后的药效曲线**。
 
@@ -220,7 +220,7 @@ _(其中  代表傅里叶变换)_
 
 ## 五、右边在讲什么：到了频域，事情突然简单了
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsOpwmkXYHkKLsd9H2mwYiaQPK5o7YCibwtafBdSVhq9ooFY82u5qYcmHNmPlaCE3q7sJfKF6kMJUtLFdlmr9S6p1puhyseUt9jY/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_006_d37f0f9a7418.png)
 
 右边写的是：
 
@@ -303,7 +303,7 @@ _(其中  代表傅里叶变换)_
 
 ## 七、中间那条“桥”是什么意思
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsicQy0FWia1bPSyLn2BVFSHm47qiadE9gHxDuJeNrRichGT6yOw23UzL79nxyXoQ1ibSq3EzxplzqDv9YLOqlCU9lhUDYRhARMicficY/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_007_ef3f0a216d7d.png)
 
 图中间写着：
 
@@ -348,7 +348,7 @@ _(其中  代表傅里叶变换)_
 
 ## 八、右下角的 FFT 又是什么
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvSg3G7bcIvVOStgTbMnFicSDrBXGqWv9Sv58maFwmAQI4eWEyT0nsibd7294YMEICRvP7FPPcdreicF0lianXP6JHcoFibESViaZib6A/640?wx_fmt=png&from=appmsg)
+![](卷积定理_(Convolution_Theorem)__时频域的桥梁（上）_images/img_008_0cbf2d17f2f3.png)
 
 图右下角写了 **FFT（Fast Fourier Transform）**。
 

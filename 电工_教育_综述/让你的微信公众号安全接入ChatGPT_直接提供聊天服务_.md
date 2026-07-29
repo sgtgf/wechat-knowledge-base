@@ -5,7 +5,7 @@
 
 本号作为**第一批开通了ChatGPT聊天服务的公众号**，也愿意把我们的经验、知识、乃至于走过的弯路分享给有需要的朋友。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz705wroXqgCggbvk9GFre1X52ksBGGwsfV2XxRMEdvWXKQn3S0VtCPRtl2qSEzhtgfMBedPxgCLxfw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\让你的微信公众号安全接入ChatGPT_直接提供聊天服务__images\img_000_9289584adfa8.png)
 
 **你是否面临这样的问题：**  
 
@@ -48,7 +48,7 @@
 
 4、增加了提问间隔限制，这个主要是考虑到接口返回速度问题，之前很多用户上一个问题没接到返回，又接着问了好几个问题，这样让接口返回消息有点乱
 
-5、支持微信公众号付费购买ChatGPT提问次数服务，虽然目前都是免费的。![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz705wroXqgCggbvk9GFre1X5tU84REdqYQ7zwecVwgG5oMagXo9dVEkHmSicxibsny5m2TOEMbllMq9g/640?wx_fmt=png)
+5、支持微信公众号付费购买ChatGPT提问次数服务，虽然目前都是免费的。![](D:\电脑文件\公众号知识库\电工_教育_综述\让你的微信公众号安全接入ChatGPT_直接提供聊天服务__images\img_001_ac43448fa11c.png)
 
 这也是公众号能否进行ChatGPT聊天服务的**关键**！
 
@@ -123,7 +123,7 @@
 
 可由我方进行设置开发，直接交成品
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz705wroXqgCggbvk9GFre1X569I09YKUH1Sicuafm9nCZGSOQic5UC5AzKWfTdzeU4sbZ27kkI9sc9AA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\让你的微信公众号安全接入ChatGPT_直接提供聊天服务__images\img_002_d059dc3a6c3d.png)
 
   
 
@@ -135,7 +135,7 @@
 
   
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/WibGDxG2Lw21LQ6TRT4QSct2z5HjuLT4NsP9cnj2NGxln9HPnUicoDhaTh8LNoxc5SF8pBf8yjFicI5xjQW6nBa8A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](D:\电脑文件\公众号知识库\电工_教育_综述\让你的微信公众号安全接入ChatGPT_直接提供聊天服务__images\img_003_7790baea0150.jpg)**
 
 **ChatGPT收费系统测试：**  
 
@@ -153,7 +153,7 @@
 
 包括次数耗尽后弹出购买链接功能  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz705wroXqgCggbvk9GFre1X5512mTL0wkqOGVZgbW9cNQsc8en8PUV4pwkUmBNia27ZXvgL5zwGiaZcg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\让你的微信公众号安全接入ChatGPT_直接提供聊天服务__images\img_004_6155d19f8017.png)
 
   
 
@@ -167,4 +167,4 @@
 
 **有任何问题，欢迎随时联系沟通。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GywXmfiawz72aT7pfYZ0FXmJRfABcldpyzQTzYk9dToeCibazICOVgriaYMlul22jSTQOCqUsU1QRKGqyMWcPqgNw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\让你的微信公众号安全接入ChatGPT_直接提供聊天服务__images\img_005_ebe784ed3b1a.jpg)

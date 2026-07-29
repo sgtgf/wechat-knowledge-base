@@ -4,17 +4,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/KNnz4GDJrd4bY4943PEWkQ](https://mp.weixin.qq.com/s/KNnz4GDJrd4bY4943PEWkQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_001_9011be9decf6.gif)
 
 我之前写了一篇关于沁恒CH32M030芯片的基础文章，当时主要介绍了它的硬件资源：电机控制MCU、电机预驱、PD快充、模拟处理，这些功能全都塞进了一颗芯片里，集成度很高。文章发出去之后，后台不少朋友留言、加微信，表示对这颗芯片很感兴趣。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaczdxfLjGzL09Z3cCE4JoQyxVajZEtfic6BZGm4ibd9PcrGojQoXEgATHognCNAX2mKcEVAcNgUW9LpSoYJZliccsy49YnjBrg2fs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_002_e9b994137326.png)
 
 不过当时主要聊的是基础型号。  
 
 后来我发现沁恒在这颗芯片的基础上，还有两个专门针对电源应用的型号：CH32M030K9U7和CH32M030C9U7。总的来说，M030在电源方向有明显优势：**可编程灌电流动态调节DCDC、支持高压输入、双PD PHY**。这些特性让它非常适合**可调电源、双C口适配器、双C口充电宝**这类产品。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeybnNB2w73HiaaXeiaKFX8wia7ianzjLsa2eYSrR7OVCOiaYKINlskTTOicmjxKsVibeB4wIuvWXCAegp3FQdGECsYeD825kDTEC8iavE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_003_af977a2cdc06.png)
 
 今天咱们就聊聊这颗CH32M030在**电源应用**上到底有哪些让人惊喜的地方。下面逐个拆解。
 
@@ -28,13 +28,13 @@ PMOS用起来简单，但内阻大、成本高、可选型号少。NMOS内阻低
 
 在一个系统里，做高边开关的 NMOS 源极是连着输出端的。假如输出要给 28V，源极电压就是 28V，那栅极就需要一个比 28V 更高的电压（比如 32V 甚至更高），才能让栅源压差在安全范围内尽可能大，从而把导通电阻压到最低。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeztO4KdQctbrYl16gRnn5EWozuWHA72twDUBfYTA6qwic272fr6412Y2MURSxNswVSMCUlwatsSIKkDwiayRM4C2c6meic4KoZJ0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_004_abb2d14ad92f.png)
 
 通常怎么解决NMOS驱动电压问题？
 
 电机驱动里常用自举电路，成本低、方案成熟。但它有两个硬伤：**一是受限于电容充电机制，需依赖周期性低侧导通以刷新电荷，导致占空比受限，上管一直导通的话，自举电容充不上电，栅压维持不住；****二是只适合半桥/全桥拓扑**，如果只是单纯做个电源路径开关单向导通，不需要开关动作，自举电路根本用不上。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadyqP3iaaEo5ic1mr1wGGQFVSZfqBVDHXZkL2EdR9nbibtRXCLzYiafB0BMLjXjxqRyLKSjmb0mWAwtusaSSbZr1wZjVQBeDIstsKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_005_af6c04baa7ca.png)
 
 另一种方案是加电荷泵芯片或升压DCDC，能解决上述问题，但要多一颗料。
 
@@ -42,11 +42,11 @@ CH32M030的做法很硬核：**内部集成了2级电荷泵**。
 
 它利用PB14和PB12这两个引脚，通过外部飞电容C1、C2把电压逐级抬升，最终从**HVCP引脚**输出一个 **VHV + 2倍VDD5** 的电压（扣除一点点内部二极管的压降）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacJwiamkWFx4cz657AiaITXetwNYoibXibUQMQxLbicOPxyWmx3PpDEbPKrXPr1srZMHZIjCIs6FMp0GM2gOF0zOY3fZRfgp7v2ibkuk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_006_fc9a2f4f1d1f.png)
 
 什么概念？假设我们做 28V 的电源输出，VIN是 28V，内部VDD5是5V，那HVCP就能输出38V以上的绝对高压。这个电压足够让源极已经顶到28V的高边NMOS，依然拥有充裕的栅源压差，NMOS完全导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaficteyiaGcMOWAEJU2a7tu0ziaUUicDaDfmoQaIcXA1ICczsJcspr6tSryuPb1P7swBy89LFcnDxXA2kOpicbkwDqtr6tTyFywNeuE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_007_29c6a9ba4dc6.png)
 
 而且芯片内部集成了高压LDO，24V 甚至 28V 直接进去就能用，外围只需要在VIN引脚上并个10uF电容，不需要额外的高压降压芯片。
 
@@ -64,7 +64,7 @@ CH32M030的做法很硬核：**内部集成了2级电荷泵**。
 
 此时建议配合外部G-S稳压管（Zener）使用。因为导通瞬间负载可能是0V，依靠稳压管钳位，绝对栅压随源极浮动，而栅源压差死死锁在12V或15V安全区。这套打法专治极限高压输入下的主路径MOS。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafACSLlLGWa70pEI4WKrzlebkDkw1zvczDAibHmj16KpyoIcNMicrKTGulzyeXvAtD2e0rEoyQQRmPSXGh5H2KveAQs2OXDzBDN0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_008_4370ffe919b4.png)
 
 **第二种，分压驱动（主攻中低压高侧 / 低侧 MOS）**
 
@@ -76,7 +76,7 @@ CH32M030的做法很硬核：**内部集成了2级电荷泵**。
 
 把对应 IO 配成输入模式（巧妙利用其输出结构），输出低电平时，引脚内部会串联一个约 120kΩ 的电阻再下拉到地。这个内部电阻和外部上拉电阻形成精确的分压网络，不需要外挂稳压二极管，就能直接把 HVCP的30多伏分压，降到一个绝对栅压比如 15V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafrV2X3qtRa75xicFM6f5YiarjMIQPyvMGebfBhPHnQ0jNNNxkxZ7rlJibajicWAicLlywVVcgDF5CKMNu7e0gjWcsogh53P6micKWFY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_009_b5b966d35088.png)
 
 用15V的绝对栅压去驱动源极5V的高边MOS，此时栅源压差恰好是完美的10V，管子彻底导通，且零发热、零过压风险。
 
@@ -90,19 +90,19 @@ CH32M030的做法很硬核：**内部集成了2级电荷泵**。
 
 CH32M030内置了**2组10位的可编程灌电流模块**。这东西说白了就是一个高精度电流源，可以从外部引脚吸入电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaefqjPqWOo3erqY2JzIx2QhYTeuVScc0P6icSBysFb3bjh02N814ictXcSqMGibYdicyjTQaFZtjmt6ysUSasQfbY38AS0MCwePOFc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_010_10bd859e8f02.png)
 
 怎么用？用在DC-DC反馈回路上。
 
 大部分DC-DC的反馈FB引脚，都是通过电阻分压网络设定输出电压。如果把ISINK模块直接连到FB节点，让它精确地抽走一部分流过上分压电阻的电流，FB点的电压就会改变。DC-DC为了维持FB电压不变，只能改变输出电压来抵消这个电流变化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafNC9QO9SnnLglsmFEIkYbggHibr1e3lgVhsGTK0f0kx27hC6EUC3tm25n8yeGfzicJzFEXMmXsbBWVUEX3URcdMdD35sNt9bG7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_011_5bd86c0fa7e5.png)
 
 这样一来，**软件通过设置ISINK的吸电流值，就能直接、连续地控制DC-DC的输出电压**。
 
 手册里写得清楚：**ISINK支持10位精度，单位电流值（1LSB）约0.244uA，最大输出范围约250µA（1023×0.244uA）**。如果配合82kΩ的上分压电阻，每个LSB对应的电压调节步长就是：0.244uA × 82kΩ ≈ **20mV**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niae3SmNw3eyvzalEfU0ZyYyR6f4OiasHibQjm3WLsfY7pLu3aQ0j3GXb3oNXpucNH4to9cUbWMw80opftnicbWCHwrrNJficRVmRukU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_012_999badb86a02.png)
 
 **20mV一步**，做PPS可编程电源调压绰绰有余，完全满足USB PD 3.0规范里最小20mV调压步进的要求。不管是数字电源、可调电源，还是锂电池组做精密的CV/CC充电，这个功能都非常实用。
 
@@ -114,7 +114,7 @@ CH32M030内置了**2组10位的可编程灌电流模块**。这东西说白了�
 
 想象这几个产品形态：**双C口快充适配器**、**双C口充电宝**（一个口充电、另一个口放电，甚至两个口都双向）、**双C口可调电源**（一个C口输入申请PD电压，另一个C口输出可调电压）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacNttu0dZ26MWqJWicNPgWSpOu8ia24icvvcnNEn0lFD571P23GAfNyOajGbNAnCDJ8icDxWdG8e12yxOvGr1l22LIDsJBXTHs2S7M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_013_cc49172bd32d.png)
 
 这些产品以前怎么做？至少需要**两颗PD协议芯片**。如果要支持PPS，对外部DC-DC的控制还很麻烦。
 
@@ -126,7 +126,7 @@ CH32M030内置了**2组10位的可编程灌电流模块**。这东西说白了�
 
 C1口作为Sink，通过PD协商从充电器申请一个20V电压；外部DC-DC把这20V降压到目标值；C2口作为Source，通过PD广播告诉设备自己能输出5V~20V的任意电压档位；而ISINK模块就负责实时调整DC-DC的输出，精确对应到C2口请求的电压。整个闭环控制，一颗芯片全包了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadUtRQxKVpF0Px7kSP4tkAARUr19uNhKKtxC3PDqG5IWQehonrCoW2VCnQDrCTt3ibBgTwNOcRSku9jnt4Bn7cW6wicibReZ2ekVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\续集_这颗国产MCU_一颗顶六颗_把电源方案拉到新高度_images\img_014_b45c4f960818.png)
 
 硬件上，Type-C口直接连MCU引脚，反馈直接连ISINK，除了功率MOS管和DC-DC这些必要的外部元件，协议控制和调压反馈基本都被芯片内部搞定了。做硬件的都知道，少一颗芯片就意味着少一堆事，这个方案确实省心。  
 

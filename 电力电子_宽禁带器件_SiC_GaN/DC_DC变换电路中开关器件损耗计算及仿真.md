@@ -11,7 +11,7 @@
 
 关键词：DC/DC变换；损耗；碳化硅MOSFET；仿真
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbwsibvfjO4Fuk732LWvJUFHmkypJS41SuXdmQgFwjDmReDFJhla248TQ/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_000_fd3ae7ca9e3d.png)
 
   
 ０. 引言
@@ -24,7 +24,7 @@
 
 电路的拓扑结构如图１所示。逆变部分拓扑为单相 Ｈ桥，主要由SiC MOSFET及与其反向并联的二极管组成。SiC MOSFET具有双向导通特性，即当栅源极 电压大于开启电压时，无论漏源极电压Ｖｄｓ是正值还是负值， 沟道均可导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGb8D76lKXX6mbHndNzRbVOJJvb93ibMcqttKuaHQjkr7ia2CNk8YbRAibtw/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_001_15b42b13f91b.png)
 
 SiC MOSFET模块主要工作于开关状态，并周期性地经历各种动、静态过程。 每个过程都会产生一部分损 耗，这些损耗相加就是开关器件的总损耗。MOSFET 总损耗主要由导通损耗和开关损耗组成。对于整流部分的不控全桥整流，损耗主要是整流二极管产生的。二极管一个工作周期从开通到通态再到关断三个阶段造成的功率损耗，主要分为正向导通损耗、通态损耗及反向恢复损耗。
 
@@ -34,29 +34,29 @@ SiC MOSFET模块选用科瑞的CAS300M12BM2， 考虑实际应用时有过载工
 
 （１）导通损耗。 额定工况下，SiC MOSFET模块的导通损耗与MOSFET的导通压降、导通电流及占空比有关。导通电阻ｒｄｓ＝7.5ｍΩ （结温150 ℃），逆变输出电流峰值Ｉｏ 为150.64Ａ，Vds０＝2.5Ｖ （MOSFET结温150 ℃开启电压），则MOSFET的导通损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbHgwhbGiasgAaN1z2cqUra4qhQkpOx5o3qQ2ounT2ubtIYoticPTstxrQ/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_002_072b446c1071.png)
 
 （２）开关损耗。随着开关频率的提高， 开关损耗在整个器件损耗中的比例也变得比较大。开关损耗包括开通损耗和关断损耗两部分。在给定的环境条件下，器件导通或关断时的能量损耗可通过间接地将电流和电压相乘再对时间积分得到。单次脉冲开通损耗 Ｅｏｎ＿ｎｏｍ＝5.8ｍＪ，关断损耗 Ｅｏｆｆ＿ｎｏｍ＝6.1ｍＪ， 母线 电 压 Vdc 为540Ｖ， 则开关损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbC1oczkR0JWmib7kI7VIy43Sa3Pqq9JibXHURFagRm8MRhTKXh89ocmOw/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_003_ef3710df22ff.png)
 
 （３）二极管导通损耗。二极管开启电压为VF0，二极管导通电阻rD为2.3×１０-³Ω，则二极管导通损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGb88T2Aa8tcSTibfl48gictfUoRj6hjbdxcLNk21kKFdT4QLvDgFHLh4Uw/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_004_80387da2208e.png)
 
 （４）二极管开关损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbdpfMFH99RpoGQqiaQ0hnZzuPHlzSqTaYCGbTVjmicfXmeLZHJDOaZQKw/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_005_849a170872c4.png)
 
 由于二极管开关损耗很小，因此 Ｅｒｅｃ＿ｎｏｍ取0.35ｍＪ。
 
 （５）SiC功率MOSFET单管损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbzdyJFPmvkuyCB3RFibzOBhVFveOoyLxdibOEXgPh6cpecuD5AZEPI6oQ/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_006_148bf11dcac7.png)
 
 整个直流模块中逆变部分总损耗为933.88Ｗ。 考虑不同过载工况下的MOSFET模块的损耗计算结果见表１。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbVQ4UPHwQuk0oQQjdZSw9bhR2T5dlrOyIDh1BtPe77iaACS3JA1MHDSA/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_007_d90818b8c624.png)
 
 1.2 整流二极管功率损耗计算
 
@@ -64,23 +64,23 @@ SiC MOSFET模块选用科瑞的CAS300M12BM2， 考虑实际应用时有过载工
 
 （１）正向导通损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbuo3EcXgic90DbkKmpEsFMARkNfeJKhm3MjpjUrWsaKrwhEyJ9u0TSWg/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_008_ce679fcec061.png)
 
 （２）反向恢复损耗。
 
 反向恢复时间为285ns， 关断时反向峰值电压 VRM为23Ｖ。由于整流二极管 是自然换流， 其反向电流并不明显，因此反向峰值电流IRM为30Ａ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbpwSbfgTnbIhH9ptgia5LZ6vfic2sl8QlwrXedC2lkVIiaSkOTqORbg48A/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_009_eccb3b98f277.png)
 
 （３）通态损耗。
 
 整流二极管在 25℃／25Ａ 时的通态压降ＶＦ＝0.3＋ｒＤｉＦ，导通时间为0.01×１０-³ｓ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbZiciblibOLiaSVzQISy9AuDrUEsFTBszPAEUC1JMYRDicqDDEtNrNibwC0bw/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_010_239f68f95bfe.png)
 
 综上可得，单个二极管总损耗PT＝72.04Ｗ。整个变换电路中整流 部分总损耗 为72.03×４＝288.12Ｗ， 见表２。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbsSbSz9XTiaz4rBHo3s1yKdyulu12NA6WyMAEFQA6a2dvQtH3yHCYg7Q/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_011_96e708895465.png)
 
 ２. 模型损耗电气仿真
 
@@ -88,7 +88,7 @@ SiC MOSFET模块选用科瑞的CAS300M12BM2， 考虑实际应用时有过载工
 
 单个DC/DC模块的主要电气参数见表１。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbIDzEqGBopNob2kAVpxu2RiaKnKfTLzjoh0Pwnno17QI9KsghAnJUzJw/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_012_5325a2ceba7e.png)
 
 由于变压器变比为8/5，且单相整流输出为DC270V，因此得到额定工况下变压器输出为AC300V，变压器输入为AC480V。考虑过载工况时输出电压不变。
 
@@ -96,31 +96,31 @@ SiC MOSFET模块选用科瑞的CAS300M12BM2， 考虑实际应用时有过载工
 
 基于PLECS仿真软件，建立DC/DC模块主电路和移相调制模块的模型。根据ＣAS300M12BM2和 ＭF600U12NK7器件数据手册，建立MOSFET和整流二极管的热模型， 并将特性曲线导入热模型中，如图２和图 ３ 所 示。逆变器采用SPWM方式， 开关器件采用CAS300M12BM2  SiC MOSFET模块，开关频率设置为20KHZ。 为了验证算法的准确性，将仿真步长调 整为一个开关周期的1/100（500ns），在不同负载电流情况下进行ＰLECS仿真计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbibnxgjUvWsYOwmFbtdliavWicOABkp8c3DKElHdMlcRjNT2ph2qHkkhYg/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_013_54166cf0bc60.png)
 
 2.3 仿真波形
 
 额定工况下，左上桥臂MOSFET和整流二极管的电压、电流仿真波形分别如图４和图５所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbtJYLvic2GPiakm4YrWuB8q8MB6WLOnrj8Js5Whicwm0zRXyquTicc3FDRg/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_014_abcac4294271.png)
 
 2.4 损耗计算结果
 
 根据仿真波形，直流侧电压为DC540Ｖ，输出为 DC270Ｖ，滤波电感为0.02ｍＨ，滤波电容为0.2ｍＦ，得到的不同工况下的损耗见表３。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbibT37k7WLt3rGTCRpc8BbmxbZqx7rCickXhaHw6hgUOaic2QUTAQWMmoA/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_015_86ded2b9cd38.png)
 
 ３. 对比分析
 
 根据以上计算得到的MOSFET模块损耗对比见表４。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbwaBXfMC8agRibt2ic6V7ZsZ8rqs329mxfYpiaDTticGrq2G2hb9817LDVA/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_016_0b16c5d55ba0.png)
 
 额定工况下MOSFET损耗仿真值为222.3Ｗ， 由于变压器是理想变压器，反向 二极管电流几乎为０， 因此损耗较 小， 忽略不计。 但在理论计算时MOSFET损耗为233.47 Ｗ，反向二极管损耗为9.35Ｗ。 总体来看理论 计算值比仿真值高11.17Ｗ。逆变部分总损耗 可 考虑 以仿 真值的1.2倍裕量作为散热设计依据。
 
 整流二极管损耗对比见表５。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbUQVoh3CmhrnXwnIdoB0hicv96lgqmqETadOe6SRVzk0s1uunGgpUDYw/640?wx_fmt=png)
+![](DC_DC变换电路中开关器件损耗计算及仿真_images/img_017_1a077324ec34.png)
 
 额定工况下整流二极管损耗的理论计算值 为72.04Ｗ，仿真值为69.7Ｗ。 计算值包含正向导通损耗、 通态损耗、反向恢复损耗。其中，正向 导通损耗值较 小；通态损耗与仿真值相差1～2Ｖ 左右；反向恢复损耗计算采用的是峰值电压与峰值电流，结温为125℃，相对仿真值有所增加。仿真值依据相应结温下的开通、关断损耗进行估算。整流部分总损耗考虑采用仿真值的1.2倍裕量作为散热设计依据。
 
@@ -130,13 +130,13 @@ SiC MOSFET模块选用科瑞的CAS300M12BM2， 考虑实际应用时有过载工
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLctSOgkLp0wYGRh6ogEtprlrykhP7ZPaic178FjTRjurqZwUUI2516Pw/640?wx_fmt=jpeg)
+![图片](DC_DC变换电路中开关器件损耗计算及仿真_images/img_018_e858a7548fe5.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKL1eCUWavTWkiaTBkTTMouZ2nYhgwYRfXD6HR9pIqED10dtKyCLokSYwA/640?wx_fmt=jpeg)
+![图片](DC_DC变换电路中开关器件损耗计算及仿真_images/img_019_96adbed023b8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLBsdvAKfrlibOa3IymdDueNAdKnsdtKkAqp5tNib1XLEDc8PIvG4XgVSQ/640?wx_fmt=png)
+![图片](DC_DC变换电路中开关器件损耗计算及仿真_images/img_020_9519b811a4ce.png)

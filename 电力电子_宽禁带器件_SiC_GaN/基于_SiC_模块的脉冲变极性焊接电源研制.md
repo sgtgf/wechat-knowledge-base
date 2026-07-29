@@ -32,7 +32,7 @@
 
 1.1 SiC 模块性能分析
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPA00KocjXrkNphC7U2nJADBv3woXbrIny19Rgg0xSsgwYpuia8NU0wZNGEXXE5Jlicmh9GFZdo8PTFE4qfQMLlrtdRLHgENJno4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_000_f45a667a975f.png)
 
 表 1 列出了同功率级别的 SiC 模块与 IGBT 模块的各项性能参数. 其中开关损耗测试的母线电压为600 V，电流为150 A；开关时间测试的母线电压为 600 V. 为便于比较，表中开通时间 ton 为导通延迟时间 td(on) 与上升时间 tr 之和；关断时间 toff 为关断延迟时间 td(off) 与下降时间 tf 之和. 开关损耗Etotal 为开通损耗 Eon 与关断损耗 Eoff 之和. 具体性 能分析如下. 
 
@@ -46,7 +46,7 @@ SiC 模块工作大电流时在关断瞬间会产生很高的电流变化率 d
 
 1.2  功率主电路
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMxNqwOuGUQ8oZQS6sR7j7g7EGUmAHxYKgRQS1ia8fx6E4M2DPiclDr91KPoibXvSqicfmc28IrmB5HJSXvTSaT1pzm34icbewUTr7I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_001_0d40efc61289.png)
 
 研制的基于 SiC 模块的脉冲变极性焊接电源功率主电路拓扑结构如图 1 所示，主电路拓扑由三相整流、全桥逆变、全桥整流、半桥逆变、高频起弧 及滤波等部分组成.
 
@@ -58,7 +58,7 @@ SiC 模块工作大电流时在关断瞬间会产生很高的电流变化率 d
 
 基于 SiC 模块的脉冲变极性焊接电源总体结构如图 2 所示，主要由主功率电路、数字化控制系统、交互系统及焊接机器人控制系统组成. 数字化控制系统包括 ARM 最小系统、电源模块、隔离输入输出模块、SiC 模块驱动电路、输出采样及信号调理电路、过欠压保护、过流保护、过热保护等部分组成，主要为了实现输出电流、电压反馈的闭环控制并实现故障检测与保护、通信等功能，为了满足高频逆变控制系统的控制精度、控制速度及多种功能需求，ARM 最小系统采用基于 ARM Cortex-M4的 STM32 MCU，其优异的运算能力以及丰富的外设资源不仅能满足控制系统的速度及精度要求，还可针对所需功能进行相应拓展.交互系统同样采用STM32 芯片进行控制，主要为了实现焊接参数自动 生成、焊接过程实时显示实际焊接参数、对焊接过程的实时控制等功能，其通过 CAN 总线与主控系统进行通信，并在总线上搭载焊接机器人控制系统 实现机器人焊接系统的总体集成.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPAYv3B0Met79SqesfUVic4vZXJV2IuQMALBh5Wcfrd3DBldtlQLYBYmbfYeWVbEDnkboSCwzb07zZ8asXicdiaYepKPk9bZ2OCnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_002_51733d35492c.png)
 
 2.2  SiC 模块驱动电路设计  
 
@@ -66,7 +66,7 @@ SiC 模块以其极短的开关时间、极低的开关损耗、较强的通流
 
 针对上述问题，文中提出了一种 SiC 模块的驱动电路，其驱动电路图如图 3 所示. 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM1q6ujqh9YZesssX18MyU40EnlzGcyNRX2xwBzGG1SftkIqvibvpOUNLvkRC1lwtUdmZicnibwicxk5w7MqtzVDDGskQt8anHMdD4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_003_354df189b250.png)
 
   
 二次侧 VCC2，VEE2 电压分别由与原边供电隔离的集成 DCDC 为PWM 信号提供+20 V/−7 V 驱动电压，CLAMP 引 脚将栅极电压经逻辑比较后输入到逻辑钳位电路并泄放串扰电荷，漏极通过快恢复二极管 D2 与退饱和检测电路连接以检测漏极电压，过流时通过逻辑电路使栅极输出负压关断 SiC 模块以防止器件损坏，短路保护判断时间可通过消隐电容 C4 与消隐电阻 R10 调整以适应不同型号的功率器件. 故障信号可通过上拉输出到控制系统 MCU 以实现软件 监测，可通过控制 Reset 引脚电平以复位退出保护状态. SiC 模块下桥驱动使用与上桥相同驱动方案 ，图中不做重复绘制.  
@@ -79,7 +79,7 @@ SiC 模块以其极短的开关时间、极低的开关损耗、较强的通流
 
 3.2  焊接流程设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN5moCQs3zvTMQuD5M5nCIvMTcaFptebaXyrsSzRsYI0gicK69ANGYIIgPVoKoMwzlz8K64icdoSsVwiaicItWgBzqwu5HaVpkouyk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_004_96044e0a2e58.png)
 
   
 图 4 为脉冲变极性 TIG 焊接控制程序流程. 系统通电后，首先通过数字交互面板根据工艺要求设置对应的焊接模式、焊接工艺参数，所设定参数通过CAN总线实时发送至主控系统，若未设定参数则根据上一次已存储参数进行焊接参数初始化. 初始化后系统会实时监测焊枪开关状态，若 ARM芯片对应引脚检测到焊枪输入信号，将打开保护气体送气阀开始提前送气. 由于次级逆变默认正向输出，将打开初级逆变 PWM 输出，输出空载电压并开启高频起弧电路，通过反馈的电压和电流值判断是否起弧，若起弧成功，将进入正常的焊接程序并开始进行数字化波形控制，实现输出值动态调控，保证可靠的焊接过程与电弧能量的精细控制. 若出现断弧现象则再次进入起弧阶段；当检测到焊枪开关输入信号关断后，主控程序进入收弧阶段，开始逐渐降低电流输出并延时输送保护气体，终止焊接过程.
@@ -90,30 +90,30 @@ SiC 模块以其极短的开关时间、极低的开关损耗、较强的通流
 
 测试平台包括焊接电源、模拟负载电阻器、力科 HDO4000系列高分辨率示波器以及相应探头.所研制的脉冲变极性焊接电源直流输出模式下电源的外特性曲线如图 5 所示. 在焊接电流输出值500 A 以内研制电源可实现恒流陡降外特性，电流 输 出控制精度高.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMqb4vbpcQk0SE7LjF0RA0q67Af1K8ibk72dFtmQxKMy79BXPL26I7xichBGdFDZDURpWNRTC4yWicXCOMDHgegRIlicLicUIB08qew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_005_fb84ea020689.png)
 
 所研制的脉冲变极性焊接电源可实现多种功能波形特性输出. 实测的焊接电源的直流输出、脉冲波形输出、变极性方波输出及脉冲变极性输出波形如图 6 所示.其中，图 6a 为直流 500 A 时输出电流波形，图 6b 为直流脉冲输出波形，基值电流 200 A，峰值电流 400 A，占空比为 50%，频率为 50Hz；图 6c为变极性方波输出波形，频率为50 Hz，正向峰值电流为500 A，反向峰值电流为 500 A，占空比为 50%；图 6d 为三段式脉冲变极性输出波形，频率为 50 Hz， 正向峰值电流为 300 A，正向基值电流为 200 A，反 向峰值电流为 200  A，占空比分别为 40%，30%，30%. 从输出波形来看，输出电流波形规整，过零点速率极高，脉冲切换电流无尖峰，波形与设定值一 致性高，电源具有良好的控制精度与动态特性.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpML3mULLEcAtcktt4WpXxnFARj68LTz04d5q5Mq2o3HAItPdtM7HV9FJ2IEKRQrr2h9056OicdVJ8J8Yfj9XH6IyMBEO1589NrM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_006_5c0f24b3e5ca.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBVsGmdQbKo4XUepiav28aSqeel7mJicvn8gbn7kyP9cpxyUfic6XTibtBXMljfXPPAJ6icHbYIgIwkAicYxJt1jQ8rQtjxS032m1uM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_007_1d8fbbb0ded4.png)
 
   
 4.2  电源输出波形测试  
 
 对比了基于 SiC 模块的脉冲变极性电源样机与采用相同主电路参数下的初级逆变频率为20 kHz 的试验样机的动态特性. 其中，初级逆变使用BG150B12UY3-I 型 IGBT 模块进行搭建.两台样机在直流阶跃输出条件下的阶跃响应曲线如图 7 所 示，在额定电流 500 A 直流输出条件下基于 SiC 模块的电源样机的电流上升时间 tr 为 399 μs，而 IGBT逆变样机 tr 为 2.029 ms，且采用 SiC 模块的脉冲变极性电源输出电流无明显超调，电流波形更规整，电源的动态响应速度得到了大幅提升，电流控制精度更高   .
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXCQmIFyR0hu4QdlibCCaCCuiabwBLByDicRK7xEiaQG152iaRFibc7VGIvuRHQoXMh5WyHBxcLxicOV6EDS0SgKWqCicyoxLeOvddVZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_008_de65b71c61c1.png)
 
 4.3  实际焊接工艺试验  
 
 焊接试验平台由基于 SiC 模块的脉冲变极性焊接电源样机、焊接机器人、保护气体供气系统等组成，将样机应用于 VPTIG 焊接工艺中以验证电源的实际焊接工艺性能. 焊接试板为 AZ31B 镁合金板材 ，板厚为 6 mm，焊接机器人焊接速度为24 cm/min，采用氩气作为保护气体，保护气体流量18 L/min，变极性脉冲电流的频率为50 Hz. 为对比脉冲变极性波形各参数对焊接工艺的影响，设置了两组对比试验，焊接电流波形参数设定如表 2 所示.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNCI7Bp1LLibQkPWJu86qEQUEjBzFzo3HSVRZNNAxBMkFhwTlR6OI856Zkiae8Xq4Dac8Bw279upJ8ROTkibck6HIiaQiarmdTqrD90/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_009_7a2c246d1f70.png)
 
 两组焊接试验过程的起弧容易，时间短，焊接 过程非常稳定，无断弧，无飞溅，所获得的焊缝形貌如图 8 所示. 从图 8 可以发现，焊缝表面光滑，成形均匀，阴极清理效果好，焊缝无明显缺陷. 通过调整脉冲变极性输出参数可有效控制焊接热输入，集中电弧能量调整阴极清理宽度，可根据实际焊接需求调整电源输出参数得到优质的焊缝   .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOYicSpGA0OTJaeC5HhiczvfiatqAYkIlIgqshG43VE5xAxibKz0RY2qXLu26RpPvXejOvjQiaGVapuoN6ibZ86ohX0kZ5FDUic9r0IaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_010_9ffe6aa84cec.png)
 
 5. 结论  
 
@@ -123,7 +123,7 @@ SiC 模块以其极短的开关时间、极低的开关损耗、较强的通流
 
 (3) 基于SiC模块的脉冲变极性焊接电源具有良好的控制精度及优异的动态响应性能，焊接过程稳定，热输入量控制效果明显，焊缝成形良好.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpN23Tccoy3TnDtGgHz8NMoTDr3DbyrGtNpbhP73ORSre7G8QcZ0QL6erWibgEDsMvxUfjB4H9XK1WTjT8aOJ4OorwbRxJP2ia0ia4/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_011_27d2d4c71ba9.jpg)
 
 注明：  
 
@@ -131,14 +131,14 @@ SiC 模块以其极短的开关时间、极低的开关损耗、较强的通流
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpP1wmeD6ZeibjxCYvRy1KicgWLE4mHg9w4D0Ue6ZLNsXWojxic1N5EmdJdEFZhyVTS7w2wiazMqV6CwOxINDBK7uZBIThfqtKiafGA0/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_012_c7b5a85a99d2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOkpQ6ibIpYCiaby1S7zwV3aYn9BPVl2xq1OsXFrf610bL97HeetWXh2f5IN3OYGbckJLNG9WTWEcURxAJAOuwqbE8TdmFlcAszM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_013_30f8d240b47b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPSMSTaicjqglxwF7KzHPiaUo4ibFcCMX97yplSP4Y1ECgqPI2sVVxknxChHqVtbQiaGBy8DFdkxmJ1rECKTQpSeaemb8ZEnKs6rSQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_014_a458570560bc.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXwU3DqFqV5ImV70wp5kIF2Um0PnictEm6C2UibEVI686UQicIB9ftI85dXialRkW0EEIbGQBrticgN4N9f9SKNmn2GcMqLibV1JSB0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于_SiC_模块的脉冲变极性焊接电源研制_images\img_015_ee773ebf3670.jpg)

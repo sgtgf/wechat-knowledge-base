@@ -5,7 +5,7 @@
 
 **作者：**孙俊彦（硕士学位论文）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUpATXv6tjhVlfELIAv4URia7hhsNrlCbq8xl2fVjMt5Fb4xbvAEgyYtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_000_205cd21bfc0a.png)
 
 **摘要：**相对于传统电阻热效应加热或火焰加热的方式，感应加热是一种节能、高效、 安全、环保的先进加热技术。经过几十年来电力电子技术的进步和发展，大容量、 高工作频率、高可靠性的感应加热电源成为现今的研究热点。本文以兆赫兹级  LLC感应加热电源为研究对象，采用新型宽禁带半导体SiC MOSFET器件，研究比较分时控制和并行控制下SiC MOSFET的关断损耗，对实际的超高频感应 加热电源研究很有价值。同时锁相环技术在超高频感应加热电源中必不可少，本 文通过FPGA实现数字锁相功能，并改善了根据负载谐振频率变化动态分频的性 能，从而扩大数字锁相环的锁相范围。 
 
@@ -25,145 +25,145 @@
 
 **第1章  绪论**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUWKjJuabRxukkiazSYxI3aqpkcsqeJwKMqIpxAEkNzZaH0PIsaHFhShw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_001_43ca9f30d139.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUeomsw2hf71csGbkeSEtp26SCxOzCsVRMoPn2eT0icIzOyianeY7icCcYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_002_668131bd96a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUIuGSusiaAXAKvvhTRavETBDHBIKDibUYCpGUqK45ZUlWoJ6DWsuon8Ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_003_052ae8331750.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUZzqGeD4x1ETic73P5sW3FYUpK40aFQMNR5EsAxLNChRBxdsgIn48KFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_004_a41d9336315f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUCvIx8OoRunjicE8ImDLgYSqX1rjY4N9iaT7LIibCIjcIxicFrhQYUblDEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_005_f0356c8cef40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUlcgfl7SfvP08zcyTHBNcjSGkLejYbnClJBsmddQmic4NRgb02Epdc4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_006_19953a37fa36.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU5SHr7zMLQ40Z9ZAHsQ0iaqVH1gbThqksicFAeJsibDtwrrUmnzpXicT0wQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_007_299c7eed642d.png)
 
 **第2章  感应加热电源拓扑及原理分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU0nJT2aHrBElFSfy6WEArZpd6ia0OBvpicXNCaKt1eX4xj7qa6wEf1fRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_008_30ca3af859d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUjyCqnjrRf5b3oKC0nzCMwW7GH4ujqufphzeNiaA4JjmoIAhWq69ozLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_009_3a9f3da37f99.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUdnCXqyzkrxUrLRXaUdecNkNMiblg0adgBicJb694Q4SGced6YS751fhg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_010_e5b93df81116.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUYOibOwVTqEdZ36ATlNtuzEx08s3ibhgmhibqicesymDD8yNjGl7dEsHLDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_011_d328f5b87c13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU3ibwbzWvlQ1u9Vxudkrj4CYK7icp2QQzhicTia6D7Ot3FpDFiapJTJG9ibGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_012_87d5e2b29d2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUibuFRkgtmJDibSLAX1Oe73AfD0xib2icSicYW7V2zaztpao4aO94WePibc2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_013_b091dc42292b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUB6hJU7dQZQib9zibiaMTa9OQlQnMiaql6BScYUueX3ZicLPLqMKN2YgIxicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_014_06cd55a1c600.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUOFWWKt1SqLEutWU634zicicfJe81pdmQuicib06G6c48NwrD7Qo1qxrpDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_015_e372961bb335.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUoNth0cOSDtgGydfyyd2UJKmdEGr1Tu2bGg87WQEeK4psCwK9csVaWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_016_29888f9cd411.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUX9ZrjTAibELSt5xpmwloofT79AflqxDEharRV9TSBhqgsL6FWr5OiaMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_017_2a9a299fae03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUAIZlZY7Sib2q0kdMxRra6ZJloHsoH7QsNTBqibfSFTricpcFub8NBiaWYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_018_8dc2c8af4bdd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUugicAASEkls0LR264os4VtZhX56niak8wYA2DFW3R8lIibLUPWiaXMyntg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_019_bde1fcdadbb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUXoYanrlvwfUfJURyZtk1Xia0QnHZIlicRYiaZaiapEgYR1guqavL9BRh3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_020_c1a87d798b63.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU05ClRLHAgBMTzuLa1lVfczDybSrBRb8cKhzyM4w7rYgvoznGfQRTUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_021_25285522f7bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUMBvadrEyw0zIr8eFewluhqUbDScf79t5CgCL6SJJibArXMgElAa27sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_022_7298f6a77f81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUyMg56ZOZAdFKabkrv7ov6siaCFYdawhy39S5juwkU0ZjKwrPiaRBcnPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_023_a00e126e9d2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUmzkUMql3aArWiaOGXiaDgNFgrJMTzYHhgkUqLicK11G1DlVnqVjgff5Ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_024_89f38a33e535.png)
 
 **第3章  控制电路设计**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUXKOtnO0nMibbVrDfEJOoVYP7jmvDW9pWicplOUHpRibXaNoxelmuUcibvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_025_fbce97c1a474.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUkoubxhv0YjmghZP5BkKmLGI1Q0gMCicpFsEeGgibCeAO6SYJ5g2KY3ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_026_55ec1694d92e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUJD0oCJ6GX12qYB70gcVKMLpmZRbChMRedwun1EKqbTUsUlJQ2703bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_027_ce1101acf713.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUeaSAicyBFpAeTgLDaM9C56HdnB4jjtpQfHqNibJjJgGk7oWhm718VcRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_028_2b36875bf648.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUeWAq1PC9euJLtrajJWO1icKIdF4xB9XHbZjEZdPibqkgNe0eBicdrDA4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_029_29eb6438f280.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUfQQqib7tTkq2WMx1ib1Sic0vZXjg4je3nLI5czDoIQwuhficBjia4IRZTVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_030_7551a076e54c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUTicYNxOdvGyWYEy75OGnx2umbRiaaZdpD9uSjaTJusJIfkPWBHLfSmFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_031_7b4af91cc881.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAU65txEWDKgQcUX0jb9Ask88Xg7VzmV1YM8jib17Wia9AWYM6oAXSXwZGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_032_85f29a92a19f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUfB8GjIqT0pmHsMR8ZGZf8NLTaZOWDZA8jeP6grJu73icKsGMWviaOc5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_033_60d71f32ed48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUAksgrIvn0ibTeTvBYZibJiaab9EcX8sZsjAmGks2OiaibSqAdChHdAeicTAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_034_704ff07ffec6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUic2hs6ANOO7iciadlYf9tnQOIQW7FhhAWbrwZaFicpNoCZBkLlicjld7icFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_035_70fcbc4396ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUEmFqJxTbsWXSibX1ibzXBsq0tNDnEpXiaEn64twHGKPgIvI3lZa1WiaCyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_036_32692bcee94e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUzWqP7eWzVwmQyIg5MP3CYhKKlibpibXMKibMd67wkF4PiaibUEzIgMgDbqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_037_b62112cc5a51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAURruGApl2ZsuOXjPVztOzm3RRA8Gzlnur9uwicwkBZe3zG03rXoRbpKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_038_615253da5315.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUoocIRU9FYib5jqe6426jMXDJiamF1QRibJBiaYia3bK2sgGYbiawkXW5ibibhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_039_a555a2ac59be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUKNg8fKTUQ1ibW0COl4hmDctwHlcl3EDibSol3PvTdcLiceFAAIUSV5bfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_040_a0e8c0c13d3c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUZAibaCZmfu0oorPx1TwSib5bY54ibB2owv6l3HHzSiaZZ5bu5TF1Fd9icyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_041_f12f83fa08f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUaLjL8MghN0nCFhCWP9H2bRVoCDzzgcNpV495KtILAtTRgBVaKhQZ0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_042_c482c16b5e1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUt4TmUFDXfYvicj7fk48RjlZtVPCHfMIbjeJ7Uhc2C9vVibnknmN900Mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_043_6414b21b6fac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUj5Yia52yt9fYeT6KTibvYNaWo2ZSyWE1Lo3BPDxMSiclxuTyaCDG6wrTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_044_fc7fe0cc485e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUxXquTKbWoCLJBQellQKT3E3eHj9FpEia3tybPQ8ww65zAhLQ1LTAQqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_045_6ebbe1d63035.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUtUW2YW4icZ5YIv46qhicLdeDiczttKyczrboliauhvLCgp5sPe4gp1aEGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_046_76c047120a77.png)
 
 **第4章  样机设计方案**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUPdVOpUs3KcIbRgngCq2rGRIIbibak7w3Q4YoyYYpbeUhKV9P6yCQZsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_047_0065b6eabc05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUV7wNT95pphibUicvpttkMCsGbKpraMTFtnJ4nqjZuRDk1AZPJ2V6XnUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_048_c7dd4cdf560b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUADxibGX6CDaZ3BYibhEIvLZiasWoWTFmg2cKzhxQKkia0a9tdD57fWQic4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_049_6f02d83296d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUeHJbA6jcMeibYzPagj65oP4A2x2z3ib3jbFVD8CXzomFycMEicnBVia1yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_050_aab62bee4cbe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUsia8zqiaJLibg5NLNCdlZWaibGuXZgRq6PCVh5nqN88FxQ3ibOfUCIBy8ibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_051_7f0a3e8a1d4b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUE8OjDf44iczdGicMyoFhQ8m4yVDqpF6WWwruibVtr3QnHibND2da5FSoDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_052_536e480e93c2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUA9iaCG2Jk9AgX5hNRdOSRAyAJFbcDaZmxyBhm0kxyK1cfvIcjxUSSaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_053_a3a6e0e78eef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUgBZI2Zj5KPUicosulh6auLeViamdyRibF2RFAU0icspicSVzodPyJzbAJBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_054_2a1154bbdb2e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUy0q5klxSqRFRHl0QNkjqHVrZicubIwyZkmKBFU8ulbJ4nQo7v6ulmyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_055_82dcc8b47fe9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUMIgy5egMRxWPBI1N16oibWuiaO6xuNpCGH6Jc6a2CrVibpoCeZ8kiaqOLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_056_22bc7984d379.png)
 
 **第5章  仿真与实验验证** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUVeoHC6EIKShxLdzMoByRFbJZMuyKjOiaXe6Q3L4icLvOibXa5qItbPEJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_057_56f007267513.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUOl8cwoyNB4fl8xlAaic6weOtjxsiauztibZKsGYTzViakYTp21c8WwlcxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_058_98d50f4e0455.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUK5RHdokWkaXhrE1PHnkdia1cKIQia0gENsxpNwQBHottpA1fjCapSqUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_059_5af4f3c89ce2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUIObpymibt9ylANv2B7Z175LyFVIJvsCxcyDZScDh5VndODyGXYNItLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_060_1f473be3a047.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUDYqmNInhO9biaUeK8FxEvgHr3CsruOxbWRHhd2u1lgFTiatdApuaia4CA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_061_860f540da7c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUmKYJ96xSGI5GRiauDhn1dQ0t3zE4hFMxE6qkic9aYMqniaRIrYzHBeeEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_062_1c94f57cee04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUoiawO0PUTGZVTakwWnLUwAjSKFND7qibDeOW321sPA9ItU3t0hvOENrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_063_ce0d89b2ca01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUicDtt5kjUIfTUgD0nUQUoMkSPgU2ibYqeXr5aZQ2Fu58TvUDlsKUKtfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_064_de823d566931.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUZCfDetb9ZTzBFXa2VMk7Eu7juqZEia1mMMqZicFdSmA8JN24u1FWDbHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_065_f797bbc1a19c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskecwtZFtP3BgicqOytaNKAUdbtxboLxlcZgXyty37dkLPaVm92k1j3HcrWnJiaiclIzfYIBjntw6SXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_066_63e7b761f0f5.png)
 
 **第6章  总结与展望** 
 
@@ -197,10 +197,10 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_067_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_068_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\浙江大学_基于SiC_MOSFET超高频感应加热电源研究设计_images\img_069_84aa944feb13.jpg)

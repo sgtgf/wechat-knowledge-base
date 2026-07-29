@@ -10,7 +10,7 @@
 
 眼前这张“蜘蛛网”似的电路图，其实是反激电源的核心拓扑——别急着划走！它背后藏着的正是反激电路的工作原理，以及工程师最头疼的传导与辐射EMI问题：从怎么产生、到如何抑制，这张图都给你讲明白了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLBO7xGZk43wnTAMTiaicw3r96hB3j7ZarQNmiaBjQUWPyd8v5JkKRibIFUojAsmGDeia3e8uuaYE17ag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\偷偷说_MPS的EMI资料库让我有种相见恨晚的感觉_你们试试就懂__images\img_002_852dfbf7fcea.png)
 
 别看线路交错有点唬人，其实只要有人带你捋一遍，很快就能摸到门道。这张图可不是随便画的，它直接出自MPS最近一场重磅研讨会，MPS举办的第八届“新能源汽车电源与EMI优化技术研讨会”，请来了佛罗里达大学的王硕教授和MPS的技术专家。做了五场主题演讲，深度覆盖了新能源汽车的48V电源架构创新和EMI优化解决方案展开。
 
@@ -22,7 +22,7 @@
 
 演讲主题一：新能源汽车48V系统MPS创新解决方案
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLBO7xGZk43wnTAMTiaicw3rgesriaiazKHwqdJG95DNdhjyqjrgTVcJcNr5zdRyPbzUpzLDYvWAVq7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\偷偷说_MPS的EMI资料库让我有种相见恨晚的感觉_你们试试就懂__images\img_003_9e487342b6ce.png)
 
 **👆****点击查看精彩视频与课件PPT**👆****
 
@@ -54,7 +54,7 @@ LLC、Hybrid Buck、Buck这些主流拓扑，各自有什么优缺点？具体�
 
 （以一个48V-12VDC/DC变换器为例）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLBO7xGZk43wnTAMTiaicw3rjpFQS7BKIKicLwibhmMiaoC2LrHYAS3BAVe0uk2bppsVfLlAW6VT0Xkuw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\偷偷说_MPS的EMI资料库让我有种相见恨晚的感觉_你们试试就懂__images\img_004_cb4c8b0c26c4.png)
 
 **👆****点击查看精彩视频与课件PPT**👆****
 
@@ -84,7 +84,7 @@ LLC、Hybrid Buck、Buck这些主流拓扑，各自有什么优缺点？具体�
 
 演讲主题三：使用安全增强型电子保险丝守护**48****V** **汽车配电系统**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLBO7xGZk43wnTAMTiaicw3rNG11Mag0dIvrokuVsYemD7oDxpZwBLHIq0WlRDhrkQMX54Ioa8Ompg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\偷偷说_MPS的EMI资料库让我有种相见恨晚的感觉_你们试试就懂__images\img_005_2840a3cd9a80.png)
 
 **👆****点击查看精彩视频与课件PPT**👆****
 
@@ -111,7 +111,7 @@ MPS安全增强型E-Fuse是如何工作的？它如何帮助设计更安全、�
 
 **演讲主题四：反激变换器传导和辐射电磁干扰的分析和抑制技术**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLBO7xGZk43wnTAMTiaicw3rFxJT3MZURib5cibFM7EYOH0jBEchJc1Y6aVUniabibQaER6ZzLEzFMtszg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\偷偷说_MPS的EMI资料库让我有种相见恨晚的感觉_你们试试就懂__images\img_006_2d15cd2a4b91.png)
 
 **👆****点击查看精彩视频与课件PPT**👆****
 
@@ -131,7 +131,7 @@ MPS安全增强型E-Fuse是如何工作的？它如何帮助设计更安全、�
 
 **演讲主题五：电力电子系统由PCB** **接地布线导致的高频电磁辐射的分析与抑制**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLBO7xGZk43wnTAMTiaicw3r7po0WFia4PeLu3ZKxceXH77CiaJW2eZBOIt5FoKaiaedDOYXj3vEMBkVw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\偷偷说_MPS的EMI资料库让我有种相见恨晚的感觉_你们试试就懂__images\img_007_2c07b73a220c.png)
 
 **👆****点击查看精彩视频与课件PPT**👆****
 
@@ -153,4 +153,4 @@ MPS安全增强型E-Fuse是如何工作的？它如何帮助设计更安全、�
 
 什么?看完有疑惑?点击阅读原文传送门进入MPS 官方论坛，一键提问:MPS工程师24小时为您解答!
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLBO7xGZk43wnTAMTiaicw3ricfSbmFMK7wpleNzK7dEZn8m9N7Ls0grBng0HYQsiaYrfgNT3YRhvGnw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\偷偷说_MPS的EMI资料库让我有种相见恨晚的感觉_你们试试就懂__images\img_008_1e587eff47c9.png)

@@ -8,19 +8,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvNiaow3q9j3BQUQL3gJpKVmu7ibrQg1wbqzhJgQwt3cJm9a38qaLb7OEg/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_002_467022e5ebb8.png)
 
 **摘要**：CAN的BusOff源于错误帧的积累，而错误帧这个东西，是一个接收节点 认为数据有误 故意打断通信，好让发送节点感知到 并重发报文的设计。注意这里边有个“我觉得你有病”的认知陷阱，让CAN的诊断变得近似玄学。本文**分享一种用CAN波形的幅度和脉宽信息来精确定位错误帧来源的方法，**来自知乎的大灯。
 
 我们先从基础的讲起。CAN节点的电路一般如下图所示，MCU内置了**CAN控制器**用来将MCU的数据封装为CAN帧格式，同时它也负责CAN帧的校验和错误帧的处理。控制器封装好的逻辑报文经TX RX送到**CAN收发器**，将逻辑信号转变为真正的总线差分波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvAYdmKxFwR1YzLibmNIkrXhqibo5WicEvzg7CMJgSLvfF2B1ZIb4bZibyJA/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_003_9ab73f210721.png)
 
 # 一、CAN物理层
 
 也就是CAN收发器干了啥？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYv4WHnk0ANF88PROWBTVsIraL0jzTicj8ut9cbOPDHUibPnjryNYr5cWoQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_004_6e41890dacf4.png)
 
 一个典型的双节点CAN网络的物理层等效电路如上图，两颗120Ω终端电阻并联呈现总线电阻60Ω。黑框里是A、B两个节点的**CAN收发器（Transceiver），它只负责电平转换。当总线静默时，收发器内部的2.5V电源经15KΩ电阻把CAN-H和CAN-L都拉到2.5V，总线这个状态称之为隐性**。当节点A想要驱动总线的时候（TX=0），它同时把内部的上下两个MOS管导通，整个网络的电流流向：节点A的5V电源经二极管、24Ω、两颗终端电阻并联、24Ω、二极管回到节点A的地，总线这个状态称之为显性。CAN总线上的电压实际上就是终端电阻的分压。从节点B来看，CAN-H就变成3.5V，CAN-L变成1.5V，拉出了总线 H - L = 2V 的差分电压，大于0.7V的判断阈值，节点B就认为收到了一个显性（RX=0）。大家可以算一下分压值以增强记忆，后边会用到。
 
@@ -38,7 +38,7 @@
 
 回顾完物理层，咱来看链路层，CAN帧的标准格式。当发送节的MCU将TX由1变0的时候，CAN收发器将CAN-H拉高&CAN-L拉低，接收节点收到了H-L>0.7V的压差后，接收节点的CAN收发器RX输出由1变0。下图是一个节点接收到CAN波形后解码出的RX逻辑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvNW8p0wNAicIQSKtgvvGT3ya46WicmicGpcXe9rD1OJLSCQcNCJgsMyC9w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_005_330e5b937e34.png)
 
 一帧报文里边有比较关键的几段：**仲裁段、控制段 、 数据段、CRC段、ACK段**。
 
@@ -70,13 +70,13 @@ ACK段是由收到该帧的CAN节点回复的确认（Acknowledge）。注意 �
 
 来看一个两节点案例：若节点A发送0x9E报文到总线，从节点B收到的总线波形和逻辑侧波形如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYv3H6sicVgAJbQt65z8RuXMySRDZfSNvSsbiaGSWTE9GYmicKYmECO5GP7Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_006_00bd0308bf64.png)
 
 黄线为CAN-H，绿线为CAN-L，蓝线为节点B的逻辑侧RX，紫线为节点B的逻辑侧TX。可以看到，**作为接收方的节点B，总线拉差分电压拉出显性的时候，收发器将RX拉0给到MCU。在节点B想要回应ACK的时候，MCU将TX拉0，CAN收发器在总线上拉出了一个歪斜的显性（歪斜是因为测量点的寄生电感影响）**。RX在ACK位置的0，是收发器TX=0驱动总线显性之后 回读到的0。
 
 再看一个比较真实的车上波形，CAN网络上大于4个节点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYviczN6Tib9edgP8U5B4Qgdd2XYibt6bXK5jwKicIb1j83voicubA8avwdJpw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_007_70e4d3c79dff.png)
 
 黄色是CAN\_H，高电平表示显性0，绿色是我们挂示波器这个节点的逻辑侧TX，低电平表示显性0。箭头A~D是一帧完整的CAN报文，箭头A ~ B这个过程中，我们挂示波器的这个节点和另一个节点正在进行优先级仲裁，根据我们之前讲到的物理层的分压原理，两个节点同时驱动电压会高一截。在箭头C这个bit 该节点想发隐性1但发现总线是显性0，那就说明有另外的节点在发送更高优先级的报文，我们这个节点会主动退出发送，成为接收节点，并在箭头D点校验成功后回应ACK，等待报文结束后这个节点再次参与总线仲裁，成功抢占总线如E点所示。
 
@@ -90,7 +90,7 @@ ACK段是由收到该帧的CAN节点回复的确认（Acknowledge）。注意 �
 
 位填充规则是CAN协议的灵魂，简单来讲就几个字：逢五补一。当发送节点想要发连续5个bit的显性0的数据，会故意插入一个无意义的隐性1；当出现连续5个bit的隐性1，会故意插入一个无意义的显性0，如下图的紫色bit。如果发送节点漏填了这个0/1，或者这个0/1被干扰成了1/0，接收节点就会判定为“**填充错误**”，向总线上输出“主动错误标志”——连续六个显性0，故意破坏这一帧报文，发送节点感知到总线错误之后停止发送这一报文的后续部分。你说巧妙不巧妙？连续6个显性0本身就是破坏“逢五补一”规则的，被拿来当错误标志回给发送节点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvjUARORSBuHxOA9grKopicOkpzpehP77S1ad7Qicibx1FburTHx6qmbo1Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_008_14c81f5f78b5.png)
 
 假如原始数据是0x00，二进制0000 0000，发送节点发到0000 0的时候发送节点会先插一个1，再发后续的000，成为0000 01000，共9bit长度，接收节点也会在第5bit的0之后预期一个无效的1，解码时抠掉。
 
@@ -114,7 +114,7 @@ CAN网络的幅度和电流可以为我们提供更多维度的信息，此所�
 
 我们先来看一个正常帧，我们叫它节点A吧，它内部有终端电阻，蓝线为H-L的差分电压，紫线是我们节点A的CAN-H引脚电流，输出为正，输入为负。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvzhKmNLAVLNxmfibnKV1eQicwqsd3IufyxdWTibJayZaGXTCOwibmicLiaTSA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_009_75055d757fd2.png)
 
 先看蓝色的总线电压波形，从0x83到END之间是一帧正常波形，注意看帧头有多级台阶，帧尾ACK位置也特别高，这是正常的，可以理解 当多个节点同时驱动总线就会导致60Ω终端电阻上的分压高于2V。从这些台阶来看，可以判断出网络上至少有5个节点。为啥？先看报文中部的幅度，这肯定是只有一个节点抢占总线之后的波形，往前有两级台阶，可以认为A、B、C三个节点同时抢占总线出现了第一个高台，然后节点C优先级仲裁失败退出总线，A、B节点继续抢占出现了第二个台阶，之后节点A成功抢占到了总线优先级，发送中间的数据。最后的ACK位比3节点驱动的第一个bit更高，说明至少有4个节点在驱动ACK，再加上节点A，网络上至少有5个节点。
 
@@ -126,7 +126,7 @@ CAN网络的幅度和电流可以为我们提供更多维度的信息，此所�
 
 我们将示波器的差分探头和电流探头挂在接收端，下图黄色为H-L的差分电压，蓝色为接收节点的输出电流，RX为收发器将H-L差分电压转换出的逻辑波形，MCU内部的CAN控制器会根据RX的0/1来解读总线。TX为接收节点的发送逻辑，MCU将TX拉低的时候收发器会往总线上驱动显性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYv4u89X55eRrPMrBwMZmiauU9ibFKoAmCPRBn35tD1G6INWkabSjq1AWUA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_010_b27ea593304c.png)
 
 我们已知500kbps的每个bit宽2us，注意上图紫线TX在2 ~ 4箭头之间出现了连续2us \* 6=12us的显性0，说明我们挂示波器的这个接收节点在此刻往外输出了一个“主动错误标志”，那一定是接收节点在此之前认为总线出现了错误。我们来往前看，箭头1~2之间总线差分电压和RX逻辑侧都只有10us/2us=5bit的显性0，帧前边都是长隐性1，这能有什么错？一个可能是我们碰到了传说中的过载帧，这个东西本应该很少见了；另一个可能是接收节点把对方来的正确报文认成了错的，这10us被接收节点认成了6bit，**错误的采样点+硬同步（帧头对齐）做得稀烂的国产MCU更容易出现这样的帧头报错。**
 
@@ -138,25 +138,25 @@ CAN网络的幅度和电流可以为我们提供更多维度的信息，此所�
 
 下图我标出了两个节点的输出bit流，红框是“主动错误标志”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvJc7LRRvE2DtBF0MXVYx7hpUx2MIcDOlT6c6k3NG0yu0HzeNjUM6Ifg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_011_aadee81c9401.png)
 
 仍然是这个两节点网络，仍然是这个稀烂的国产MCU，我们来看这个错误帧是怎么个情况：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYv0td4nwFSoibCxRkLFrakAdmsXzsnwCykXuOtsfic2UUAvXib5Nzax3ibVQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_012_aad2a121b860.png)
 
 这一帧的DLC=0x01，也就是只有1byte数据，数据区之后就是CRC区，我们的“主动错误标志”就发生在这个区，观察又没有填充错误，那就是我们挂示波器这个接收节点认为发送节点出现了CRC错误。但我们看到黄线在“主动错误标志”中间出现了凹坑，意味着发送节点还是想继续发隐性，并不认为自己有错，直到发现这一位被“主动错误标志”覆盖为显性才感知到位错误后抛弃后续报文。
 
 原因最后定位到：过小的采样点+过大的再同步补偿宽度SJW让时钟误差逐步积累，这颗国产MCU的重同步又做得稀烂，把正常报文错读了一位导致算CRC错误。最后通过调整采样点和SJW宽度减少了这种错误的出现频次，得到正常波形如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYveVPe6Vwzxe7WJoHXMNmzPSkypMa6bPeg1b7xDVsx3DDDNUcQWm8w7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_013_e037e67757cc.png)
 
 我们再试着从差分波形来分析一个错误帧：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvvGjelKtFbDMpt50FnFW62FLibZ4yCPLrTTWric6IC8Yj5N69b8AOtrog/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_014_9bb260f502f8.png)
 
 错误发生在CRC区，我们放大一下，看看各节点都发生了啥：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvpccIcdibkicfPV7ZvuYzMhlO9rsWa7iaiccW4Y2tOcW776RFP7SmhN7KCA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_015_adf979135c90.png)
 
 从每一个台阶往前画12us的方框，得到每个节点输出的“主动错误标志”，分析可知：这是一帧节点B发送的报文，节点A认为它的CRC算错了，节点C凑了个热闹，三者一起形成了这个12bits长的“主动错误标志”。那，节点A为什么会认为CRC有错呢？大概率是因为之前的数据读错了一位。这么好的波形也能读错？是的，我们无法判断节点A所在的位置波形有多差，可能分支上没有终端电阻振铃很大呢？我们只能相信节点A不会乱搞。另外，采样点偏差会导致节点对噪声额外地敏感。
 
@@ -164,11 +164,11 @@ CAN网络的幅度和电流可以为我们提供更多维度的信息，此所�
 
 来看一个A B C三节点CAN-FD错误帧的案例，节点C发，节点A、B收：黄色是H-L的差分电压，绿色是节点B的逻辑TX。0x0677和0x0176是两个错误帧。FD区波特率设置为2Mbps。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYv4CVJcMp164JrJFzVibghRS4lUibxRfuAdLBXibAysEfoO8bh03BDEOcVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_016_39ed25ec4c0e.png)
 
 放大0x0176帧的细节：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvbW71zpedfWF7ArnEYibHUjmfgxWLJBv5gqASBRJePd158heroJddQbg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_017_b73a955681d4.png)
 
 -   标尺A B之间时间长度约0.8us，由一个2Mbps FD bit的0.5us + 一个CAN-FD的TDC(300ns)组成。
     
@@ -185,27 +185,27 @@ CAN网络的幅度和电流可以为我们提供更多维度的信息，此所�
 > 
 > ”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvYh0ia2QFDEkysNMXhzunXB0R1asUgFdDzCahQJH3HJBrkkKaPqMt94g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_018_b19e075597fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYv9rrm8S9QDcU47OWrQBYHiaZbNmgOIhGOoUc2XTxomfYrQCEY6Q6I26A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_019_7bd091c8d110.png)
 
 再来一个案例：CAN-FD采样点设置出错导致节点B把节点A发送的CAN-FD报文当CAN来解析出错。
 
 黄色CAN\_H，绿色CAN\_L，蓝色L-H反向差分电压，紫线为节点B逻辑RX，青线为节点B逻辑TX。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvHpatJIkf6xry3ZbGBYtRkUTiaH6wQibf2s1VPAQNBCpW1CNYOtzb88cA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_020_f164eecee0cd.png)
 
 注意看0x00前后的数据段，这一段是CAN-FD的2Mbps速率，节点B因为采样点设置错误读错了BRS这一波特率转换标志，仍按照标准的500kbps去解析节点A的2Mbps速率的数据，对RX信号2us一个采样我用黄色箭头标出来了，可以看到这恰好是6个连续显性0，违反“逢五补一”的规则，故而接收节点B在箭头2~4之间发“主动错误标志”，打断总线通信，告知发送节点你发错了。箭头2~3之间，发送节点A恰好也要发显性，所以节点A此时还没感觉到不对。箭头3之后，节点A想要拉隐性，电压出现一个坑，却发现总线还是显性，此时节点A判断出现了“位错误”，开始输出“主动错误标志”，想告知接收方放弃我这一帧报文。箭头4的位置节点B释放“主动错误标志”，箭头5的位置节点A释放“主动错误标志”。
 
 如果数据比较巧，恰好能满足逢五补一的规则，那这种错误形态会在发送很多数据之后才会出现，但最晚也会被CRC拦截：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYv1kKiaKCXvNeJXWVK7LibZicRR4zRsxy0DGia8TEAy7ODlianLMh92DmyNYQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_021_2f06ab662035.png)
 
 补充知识：CAN-FD网络各个节点的采样点必须完全相同，高速率导致对时序敏感很多，这一点与CAN网络容许一个范围显著不同。上边这一帧的BRS位怎么读错的呢？再一次违反直觉：CAN-FD的采样点影响发送节点的驱动波形！用示波器可以轻松量出FD的采样点位置。
 
 看下图，CAN-FD报文的控制段中的BRS位（Bit Rate Switch）明显是短于前边的FDF、R0位的，采样点不匹配的话很容易读错。因为-FD的速率翻转是在这一bit的采样点位置发生的。比如采样点80%的2Mbps CAN-FD网络，BRS这一位的宽度为2us_80%+0.5us_20%=1.7us，而不是2us。接收节点的采样点如果设置大于85%就会错过整个BRS位（2us\*85%=1.7us），从而导致如上的BRS位读错的问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/f80N5WPNTbx2mMV1WVU6cR9SBVIia7eYvX5N7amMfG2bCsNQWjDLjyuE7cLdCKricMesU3ibSue7nJAzsv4gRpfKg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_022_5ca38055611e.png)
 
 以上，就是示波器升维破解CAN错误帧/BusOff的经验分享，总结一下：
 
@@ -226,9 +226,9 @@ https://zhuanlan.zhihu.com/p/588125387
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_023_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_024_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_025_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_026_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_027_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_028_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_029_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_030_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_031_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_032_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_033_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_034_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_035_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_036_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_037_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\升维打击_用示波器排查CAN的各种错误帧_images\img_038_3c93e54afedf.gif)
 
 ## 
 

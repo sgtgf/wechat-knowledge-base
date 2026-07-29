@@ -13,80 +13,80 @@ Si/SiC/GaN功率器件作为电能/功率处理的核心器件。
 
  分享一篇达宁波新半导体-张海涛博士的关于三种功率器件技术路线对比的文章，张博士在宁波达新半导体有限公司任副总经理，拥有丰富的半导体器件研发和制造经验。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxXiaFeHiaDrsUENKoiaIRfKoQwu3tXodulIlGUbYYTTLCMic46lBPRezs7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_000_6ecf903bd04f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx0PNjUf96Dyp7UysFr9xcD86e7vtlIlrHW5WTE465mMMLDxtoPICCUg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_001_4433d556b705.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxAjVWEVkTBibY3zlAKq9hK23zuhQ56eVZubzHaAyJYHWo5RQdrwIU1zQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_002_e30e05d46469.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxmWuZ289AExic5ekupwRfaCYXA3CGNmV1o2UdibkTeZg0jPaiaQ5GtKuMw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_003_66ddb3f734e2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxdwwiacZImsGB95KnI6S3dWg6ZWBwsrIWRaV7SOryGhxibZcW1j9YF4hA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_004_d0cdca91c247.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxjLaBokaWiaukeVCrPGHyxGE5UBK5FwAFnOaVm46T95mJpiaI14NmL1Dg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_005_e34a4e08b173.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxDkqG8FvH3dFsYbxxq8rVIXoxIhGU8RORMiaLvyNYMeH74SpETUPe0Ew/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_006_a4bd99364110.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxQtblfEcy1Jk7GqEYkxBfhL8GiczUJt0Nx5s5T8c7V3XdrpoQLmtibm0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_007_d72a89c82312.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxAKPianfPniasOX5YSSKGKloBxGPFAM719zg5ldO90c6nNGTZrDmJs5Hw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_008_2200413326f8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxIL8RDfg6fvczLU6ibsIHpcHLibopDwdo4xruPPXL9ujIpPJXCV5BZPnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_009_494e68db51fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxq4gvDQU6xWuOco6aI2JD4pVN3bOyMEgRqyXurY44zMvZ4pTAsILX6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_010_f810e9204573.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx9Vb7mDUXp5zLbLU4CcP94mdOKOJ0n9SpTXfxhiaibHxBAcA8iblph1jWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_011_667c1d7edda9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxjuzpwanS1gCOGWYqOiaz4p8ibdmUJZhwyNwAN1q8Sujql3UzS3yHghFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_012_8eb689f38ecf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxnl18MArekXgMJydhmib4uqNfERdoAXag80dqAaGCUapRJpSbCEmNALw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_013_57c7962fa7ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx6gXC7dzPOFTmKkVPTrlh0XowwpOyldA0RArCokozq6iaP3yRCRdwrxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_014_b35326cedcd7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxP734PbH2JWYaB7tKIDIT4aKAlKWkoT6HPADic3ynuB8CremDamBichvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_015_2313090d94af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxZNmvH7VED1XbaiaYGXVanBINqV1WTqokx3C1xXsUW8pBicQoRzicNd8xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_016_6caaac52ee64.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxiaQkiaeg7HI3WK9uY9bNPMQlSwlwHrHQrrqV1MelQ5A6aP9DzEZ0Esibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_017_f6059f2931d5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxHqXhz5fejQibVfWmogBmuOFSibIvPAMglspEvH7jkfrYRu6dFueA6X5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_018_658e1da6169f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxS5tUe44zuY0C7GCJ5CZRq6cVSkONMots3HNuSHZul2f3Edhkbzk0Pg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_019_c2757ea20a34.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxzhR0st5A2MjoibB42dutYvCjQAcnos4RpbqTAD2TYzC1yticv3IAicjSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_020_9bed89a3ba42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxAJbicLbOkBUBibmjqj95J9a6xc72QL0vgxk2bvB9t3wNzfNGftQXGMIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_021_1eab3b31844e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxHSKzOI4wJfB2tNzvGvWwJ0XMbnVg7ic1kZlMZtIWMnaMGOw59xUFic1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_022_5e524f3052c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxl0lyIia0rARBzugNSc7p1jHkW42ECLqAHiaibJM09MbzomJFRGrKEicdsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_023_ded0e53f3045.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxI71HQw2m4N5nhYykI7ztVo70bFMGup3LW8DJXDQnhallG7Dt1aNvoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_024_a0afa6e4d9fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxaeH5wIwlXQbm1H6QWLEiczubBNMiccFUvnKwpp3EvhibPz9JoYU3jG26w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_025_c9dd1198867e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxtQTm2TRg0RiaLlicXk2TLVibRQZVnEh1lYh4CYB5nnLRWzZvDWkIia6a5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_026_e0135717c8c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxZCicGXtibcYL6Hv2F9CwJovF6moBr2HhvV0k6wOvFib55HdAwuAktjbuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_027_ceaf10729328.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxEp4YuTtCibAaP3QFtM1RDk7bo5tKI3jvuPUkib3V4uAeOxTX6neC9kAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_028_bdc2af1f7854.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxX2Pm0uXCH2j3bcVfBVDPnMJUbw0gVibmicILkK8ErYG3fUqJu30Iw4ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_029_c4b91f9302ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxJqQJX6OPYMfGQicVzshefp2wPLSzkRSibTibEoiaz3W7PkysCbNoR2XApg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_030_387ba9738c79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxzjHudUbIv8Jvy4tKWVRYHs6gsCxvzBAwOj5h4WbZVniaia4BdKgAWWMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_031_d7fdf222f9f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxV8skoV68l6NvlyAzcl9DJhgVV0tbyIp7z4ibiamN2G7aU67dfpLmbZRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_032_0d7e02ea0cba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxZa4GI6bAzbCibo5O3SF0SxRWib6mUibvfbz1ZqlLhrLtxlMvNnuZBKAlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_033_8fdbe4fb153e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxibNSPW68OicZialtaqnO3otPzCaXJR53d0ZCzosTS9aLPpPj0gNicJgyQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_034_8e88068666b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxjribm3S697DGgdWibe3bic69M7m3ziceJibVbfrjkWvnAtBOeiaxkYiaEWMYg/640?wx_fmt=png&from=appmsg)半导体功率器件是电能变换装置的关键部件，深入了解其结构特性和材料工艺，有助于提升工程师设计水平和产品可靠性。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_035_a6d27e47e521.png)半导体功率器件是电能变换装置的关键部件，深入了解其结构特性和材料工艺，有助于提升工程师设计水平和产品可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_036_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_037_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\Si_SiC_GaN功率器件技术路线对比浅析_images\img_038_84aa944feb13.jpg)

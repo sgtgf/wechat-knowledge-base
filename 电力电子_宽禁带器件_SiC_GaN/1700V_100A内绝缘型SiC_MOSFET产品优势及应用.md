@@ -23,11 +23,11 @@
 
 通道（Channel）：通道是源极和漏极之间的导电路径。在碳化硅MOSFET中，通道由碳化硅材料构成，具有较高的载流子迁移率和耐压能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpnbE0A3CaHEFYQ2wibnmslgf3JUoYbsJPxc4UKsw3rNKD9q25SbuR8Aw/640?wx_fmt=png&from=appmsg)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_000_92ecac1244bb.png)
 
 1700V100A外绝缘产品图     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpyKJoexZWkFaxKH8I9YLuwFpibdy3sIlBWF460hWo7y1TvkYbTaGhyug/640?wx_fmt=png&from=appmsg)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_001_62b026e47b52.png)
 
       1700V100A内绝缘产品图
 
@@ -37,7 +37,7 @@
 
 内绝缘就是使用特殊的封装工艺将承载芯片的框架与MOS管背部散热片相互隔离的一种新型封装，最终目的是将MOS管的漏极与其背部散热片之间达到电气隔离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWp8rod4NYKRaCoKvMRWdoQHBd4DTnwEicFkAibTBEA92LyOwUH77f4lHag/640?wx_fmt=png&from=appmsg)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_002_3476dd15d326.png)
 
 图片来源：海飞乐技术有限公司
 
@@ -45,7 +45,7 @@
 
 制造结构简单，‌隔离方便：‌内绝缘MOS的制造结构相对简单，‌便于隔离，‌这对于集成电路的设计和制造是非常重要的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWp4pKbVanJfv3hvx7FzcQNfmAARfelHcAPiclKgbqbHJzwt2pfxt1tMdg/640?wx_fmt=png&from=appmsg)图片来源：海飞乐技术有限公司
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_003_fc68eb50af3a.png)图片来源：海飞乐技术有限公司
 
 ‌外绝缘MOS产品的总体热阻＝芯片热阻+芯片下焊料的热阻+铜支架的热阻+导热硅脂的热阻+绝缘垫的热阻+散热器的热阻。
 
@@ -59,9 +59,9 @@
 
 ASC100N1700MT4i为内绝缘碳化硅MOSFET，产品耐压大于1700V,内阻28毫欧（电流100A），产品驱动电压建议+18V/-3V左右。应用参数如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpqZBwLSJYkmRu5essrbdQicUiaYccWH9EQjrJ448ia3p9rKfaic40E3aib4w/640?wx_fmt=png&from=appmsg)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_004_2a61058172f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpQ70nC7fttz0M3PFC3ScJXJaPLNh5cqlib0eIIIVAicgJIwic7oXyP9g5Q/640?wx_fmt=png&from=appmsg)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_005_48b9c4c376fa.png)
 
 ASC100N1700MT4i内绝缘优势：
 
@@ -73,7 +73,7 @@ ASC100N1700MT4i内绝缘优势：
 
 4、 提高可靠性 ： 避免因为绝缘粒因为高温或破裂而产生的可靠性问题 。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpulIHgTicePcadfXZ8XbDozOo6QrhKHJTLS4p0lgju01JNf7jNs6ImZw/640?wx_fmt=jpeg)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_006_6cff80d09290.jpg)
 
 **四.SiC MOSFET器件的应用**
 
@@ -91,8 +91,8 @@ SiC MOSFET器件的应用非常广泛，‌涵盖了电力电子设备的多个�
 
 综上所述，‌SiC MOSFET器件以其优越的电气性能，‌在电力电子设备中扮演着关键角色，‌不仅提高了系统的效率和可靠性，‌还推动了相关领域的技术进步和应用发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_007_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_008_3ade3c3d8599.jpg)![](1700V_100A内绝缘型SiC_MOSFET产品优势及应用_images/img_009_84aa944feb13.jpg)

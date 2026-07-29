@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/o0gKySEn8V\_Fzl6mWJROIA](https://mp.weixin.qq.com/s/o0gKySEn8V_Fzl6mWJROIA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -40,7 +40,7 @@ M. Cheng, Z. Cao and X. Yan, "Dual-Negative-Objective Coordinated Control of Bru
 
 This article proposes a dual-negative-objective coordinated control strategy for brushless doubly fed induction generator (BDFIG) based wind power generation system under unbalanced grid voltage. To alleviate the mechanical stress and impaction on rotating shaft, the negative control objective (NCO) of machine side converter (MSC) is set to suppress the ripple of electromagnetic torque. While the NCO of grid side converter (GSC) is selected to suppress the oscillation of total output active power or the unbalanced degree of total output current for BDFIG generation system. In comparison with traditional single converter control scheme of the MSC or GSC, dual NCOs can be satisfied at the same time due to the enlarged freedom degree in the proposed improved coordinated control system for back-to-back converters. The effectiveness of proposed control strategy is validated by simulation and experimental results on a dual-cage-rotor BDFIG (DCR-BDFIG) prototype.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17icycOR1mG1jOora7UYbbXflVewvv1Qk4ehk06agXRe82PEjhsMGTI9PXZEGq6YOIucl3WEQFnld9g/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_001_b127ff5a4b55.gif)
 
   
 
@@ -50,15 +50,15 @@ This article proposes a dual-negative-objective coordinated control strategy for
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icycOR1mG1jOora7UYbbXflXtjbdrtlicGrVKZIDvcBoNLUgX60IQYtHf9rIicVgnFaZKnz6WO7dqjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_002_a57bf9182432.png)
 
 **程明**，分别于1982年和1987年获东南大学学士和硕士学位，2001年获香港大学博士学位。1987年至今一直在东南大学任教，现任东南大学首席教授、博士生导师，是IEEE Fellow和IET Fellow。主要从事电机理论、风力发电、新能源汽车驱动控制和伺服电机系统等研究。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icycOR1mG1jOora7UYbbXflN4MkyNKDhrySzmvnDmPGc4ShBUDOwT9ibDwS7tmTqYVRpEP1wWqibl3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_003_f9dd1eba3ce1.png)
 
 **曹政**，2017年获中国矿业大学电气工程学士学位，2023年获东南大学电气工程硕士学位。2023年至今就职于苏州汇川控制技术有限公司，担任电机控制算法工程师，主要负责高压变频器的电控软件开发工作。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icycOR1mG1jOora7UYbbXflGg03kKAaBatnP2nRib9Uu5DYGjQxaYB6G0aWnRHYmFVOia0taibKysTWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_004_678f809d76f6.png)
 
 **闫晓鸣**，2015年和2018年获东北大学学士和硕士学位，2022年获东南大学博士学位。2022年至今，就职于南京师范大学电气与自动化工程学院。主要从事无刷双馈电机和永磁电机的建模与控制研究。
 
@@ -66,7 +66,7 @@ This article proposes a dual-negative-objective coordinated control strategy for
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_005_654c2fde68d8.jpg)
 
   
 
@@ -80,15 +80,15 @@ This article proposes a dual-negative-objective coordinated control strategy for
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_006_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_007_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_008_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -96,15 +96,15 @@ This article proposes a dual-negative-objective coordinated control strategy for
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_009_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_010_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_011_644d85f1cc17.png)
 
 学会官方B站
 
@@ -112,15 +112,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_012_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_013_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_东南大学程明等_电网电压不平衡下无刷双馈感应发电机的双负目标协调控制_images\img_014_c28b250481e7.jpg)
 
 学会科普微信
 

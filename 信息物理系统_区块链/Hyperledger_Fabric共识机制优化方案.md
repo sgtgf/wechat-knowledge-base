@@ -20,7 +20,7 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190516?viewType=HTML_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAIPBYYAg7p3ibE0JQktvMc350FzD7Q7sm4YqkYvyE48umVqyH0blEUhQ/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_000_e1c227cf9254.jpg)
 
 _图1  主流共识算法_
 
@@ -30,13 +30,13 @@ Hyperledger 是Linux基金会于2015年主导发起的开源项目, 其子项目
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAL09hwa29r8eenv7eJVMvGZ4g6vS5wbIo1kJo7Fx0hBJF8BwNc84LbQ/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_001_c5168ffaceca.jpg)
 
 _图2  Hyperledger fabric项目_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAumBiaUHJOop5wAWtZTicYTFk6EyELrrzClNuQBHnYBG1wI6IMZI2AGqw/640?wx_fmt=png)
+![](Hyperledger_Fabric共识机制优化方案_images/img_002_8be7a9f80e6d.png)
 
 _图3  Hyperledger fabric共识机制_
 
@@ -66,7 +66,7 @@ _图3  Hyperledger fabric共识机制_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47H4FLJia2icn34oh31o3rDQASwxZYUC7VTclFAnp9gW8QQ70QKsN4CicBMticLqMtQnSP9CY1eCp0QwQ/640?wx_fmt=png)
+![](Hyperledger_Fabric共识机制优化方案_images/img_003_3eb3406c4f55.png)
 
 _图4  优化后的Hyperledger fabric共识机制_
 
@@ -76,9 +76,9 @@ _图4  优化后的Hyperledger fabric共识机制_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX8nN2aOJ85MezXlhwLrT6gUVnNlQSdmic4Q3PdmCkyB32LKEDKMz49Wib25rHPqZuR3d86Gw5BGgG/640?wx_fmt=svg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_004_968abcb77a46.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAjL7YicbvicXcGTL6pXBFsxGSvEDpIGHej1fZxZNBsUg0yPhc0q58QBicg/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_005_2740dc13ff6b.jpg)
 
 **孟吴同**
 
@@ -86,13 +86,13 @@ _图4  优化后的Hyperledger fabric共识机制_
 
 E-mail: mengwt@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX8nN2aOJ85MLoyq48XGaa3R4YgQtzk5wec5zI9HCRZu4CG4ibEDOia95JmRR2k6hwlicYt6Hy4EWlF/640?wx_fmt=svg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_006_e94f042dae2e.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX8nN2aOJ85MezXlhwLrT6gUVnNlQSdmic4Q3PdmCkyB32LKEDKMz49Wib25rHPqZuR3d86Gw5BGgG/640?wx_fmt=svg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_007_968abcb77a46.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAzJZbNTKE4E8Ay3pGEdYJWJ7FvSXxSia768m2Bjjo6LiajMhribSoQod4w/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_008_8a071e5fb639.jpg)
 
 **张大伟**
 
@@ -100,7 +100,7 @@ E-mail: mengwt@bjtu.edu.cn
 
 E-mail: dwzhang@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX8nN2aOJ85MLoyq48XGaa3R4YgQtzk5wec5zI9HCRZu4CG4ibEDOia95JmRR2k6hwlicYt6Hy4EWlF/640?wx_fmt=svg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_009_e94f042dae2e.svg)
 
   
 
@@ -192,49 +192,49 @@ E-mail: dwzhang@bjtu.edu.cn
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQATFYPl6ZqgibicBKpZg8JSpgVQtzNy95bOiaTiba2IMIWfs83Y7WraiamH6g/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_010_a1d9f8aa5c9a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQANHpHxwHCRC2QGmibXhXECplcNpaUYg3s4UxkMKXaIBdib7qN7gEcQcfA/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_011_4f2c320f937f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_012_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_013_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAHcVJO08VygLaM2hs2LW9LnCNFo2UROpR02CpzNDsoo4wp4fIrqwp2Q/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_014_993c24fe3172.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_015_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_016_a1796a8d5112.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_017_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_018_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAiaYqEZ9Ud2obAuOZGVtygd3MHDjHLtBpJm2ticyQcOljZpTKPx2CeNjQ/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_019_7202c785bd58.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_020_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_021_a1796a8d5112.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_022_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_023_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAnRP4EvMmWKrnyKfu5eEOxhvAwmS92WrkcibQUHHBNkrNibia1YbWJY2cQ/640?wx_fmt=jpeg)
+![](Hyperledger_Fabric共识机制优化方案_images/img_024_9226db296982.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_025_a1796a8d5112.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47H4FLJia2icn34oh31o3rDQAuBPbVQdg5MYff3bgrzmFicPFP2whwPibodnianuQFhvBtMQWYGwd2Pu8w/640?wx_fmt=gif)
+![](Hyperledger_Fabric共识机制优化方案_images/img_026_a1796a8d5112.gif)
 
 **长按二维码｜关注我们**
 

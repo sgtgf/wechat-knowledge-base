@@ -153,7 +153,7 @@ _注：一个经典的日常观察是**香烟的烟雾**。刚从烟头冒出来
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocv38NGiaLgpPOic9ca1XyNLOic4trSYHDoXuxcwsUrhEkxRlj7Jlkt3yDJn5agAWyGHqR26oZ8Lh0rG3L85ibXvjnHZ3Vzo7H9fJEU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\雷诺数（Reynolds_number_）_惯性与粘性的博弈_images\img_000_779ae2c488a0.png)
 
 海报直观地展示了雷诺数的物理本质——**“惯性力（Inertial Forces）与粘性力（Viscous Forces）的对决”**。画面的一侧呈现了平滑、秩序井然的**层流（Laminar Flow）**，另一侧则是充满漩涡、狂野混乱的**湍流（Turbulent Flow）**，中间融合了核心的数学公式 。
 
@@ -190,7 +190,7 @@ _注：一个经典的日常观察是**香烟的烟雾**。刚从烟头冒出来
 
 > **流体的“冲劲”。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuqbN1P2kE4f9rJlMvG4u9XoQicmxD7CSZuUUibEfiaCdn49JxvfYVnaVsHWnMRq6WicOeXkBqxzd3ic2mzPH8ejEd4DIKLCbzPVKdo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\雷诺数（Reynolds_number_）_惯性与粘性的博弈_images\img_001_af79bac2ae14.png)
 
 图中左边那个气势汹汹的小水滴，就是在代表惯性。
 
@@ -453,7 +453,7 @@ Navier–Stokes 方程中的黏性项是：
 
 # 七、图中“三种流动状态”是什么意思？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocu9b6vMggGABqMdYUYYfeggrWaROMPYRfSY533ibtLibGtSJpf0GA54MYM5rtwFuElndkM4cicHDEg8muqhemzmCqI70plSIONXiaY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\雷诺数（Reynolds_number_）_惯性与粘性的博弈_images\img_002_bb66d31087c3.png)
 
 图片中把流动分成：
 
@@ -701,7 +701,7 @@ Navier–Stokes 方程中的黏性项是：
 
 # 十二、图下方最重要的概念：动力相似
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvEykxiahu4of8YDFj15rgtic6CEWHywCZibicGddwgxfYib7SdicydZr0yQv2ibYJic3KOfGXI3EzzOEaDQh3qKDNo4GtHsc4v6Numm4E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\雷诺数（Reynolds_number_）_惯性与粘性的博弈_images\img_003_c3ba0fe338e3.png)
 
 这可能是整张图里工程上最厉害的部分。
 

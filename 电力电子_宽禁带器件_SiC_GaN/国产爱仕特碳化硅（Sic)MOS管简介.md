@@ -5,7 +5,7 @@
 
 **碳化硅MOSFET，英文简称SiC MOS。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeBZMRj76VDUwibVTxmUfoiaFbjFxiaNAeRzRgZicCFPmU7fzH5wNibD9NLHw/640?wx_fmt=jpeg)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_000_b2bc1e85ae4c.jpg)**
 
 **碳化硅MOSFET具有高频、高压、高温性能，是目前电力电子领域最受关注的宽禁带功率半导体器件。广泛应用于新能源汽车、工业、医疗、交通、消费等行业的电力电子设备中，直接影响着这些电力电子设备的成本和效率。因此，实现更低的开关损耗和更低的导通损耗一直是功率半导体行业的不懈追求。**
 
@@ -19,15 +19,15 @@
 
 **插件碳化硅MOSFET产品是市场通用器件，可用于各种PFC和桥式整流电路，应用市场主要包括：汽车OBC、DC-DC、充电桩、空调变频器、光伏逆变器、UPS、大功率LED电源、通信电源、各种工业设备电源等，功率从几百瓦到几百千瓦不等。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeG8UFzN3w69S8Daa8S3qqVZ5mql0fCdeIbf0hqvyxnTjKQicmqbmNt8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_001_f18bdea1b3e4.png)
 
 **TO-247-3封装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeMpCqib6n9Pibb5mpTgbD7l5H7oug4uUibU7fAStbgcRVuicqhIEEgoF9gA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_002_2cd247574154.png)
 
 **TO247-4封装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeDzvOsrbSVIdnjNxTicUywl4n2TF1KiazUxAo3TOSjdAibsBYyEUKCWfeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_003_24c401a1157e.png)
 
 **TO220F封装**
 
@@ -39,15 +39,15 @@
 
 ****贴片封装碳化硅MOSFET产品，主要用于各种小功率电源PFC电流或其他整流电路，功率范围主要在0~3000W，电视电源、家电电源、手机适配器、电脑适配器、新能源汽车DC-DC转换器、小功率OBC、微型逆变器等。****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeFWhW5vrsJvzZIERPtqXCbRJ51WtaS9SD2KAibr5cgjfWZRVxTUmKaYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_004_061d9dce83a4.png)
 
 **DFN5×6封装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soexbn6TryIZeNxFbWqOtBBDflJUcquo2oweOdzHrcbGxJMXfuhYJZk2w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_005_c5f3ebe799c8.png)
 
 **DFN8×8封装**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soe3TktwzWAQruichxN8wyj4o2UoMjA2gpCYG1b57S6UnynsrFLibVP2xbQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_006_defa6c67f663.png)
 
 **TO-263-7封装**
 
@@ -55,49 +55,49 @@
 
 ****TOLL封装是一种具有小体积、低封装电阻和低寄生电感的封装形式，常用于MOSFET。TOLL封装的优点包括小体积、低封装电阻、低寄生电感、低热阻等特点，使得它非常适合用于大功率、大电流、高可靠性等应用场景。****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soe5eZc645llKU4XyAATS1cVrVYjgVPKNic9bCmA5zjfjNoAYDWwbfu9Xw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_007_439a14833ff2.png)
 
 **TOLL封装**
 
 ******TOLL封装的MOSFET产品已经广泛应用于电动自行车、电动摩托车、锂电保护、通信电源等终端客户。TOLL封装的碳化硅MOSFET产品最大电流可达100A以上，主要应用于类似动力BMS、逆变储能、低速电动车、电动工具、无人机电调、潜航器电机等大电流应用场景。******  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeQb6a6Xpje8OHIAZvxppxcn4wNwq0gmL4WnDKWpNsM48rple8NMQHxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_008_ca718a6cdfd6.png)
 
 **SOT-227封装**
 
 **半导体行业的技术发展方向可归纳为更高的功率密度、开关频率，以及更小的导通压降、开关损耗、芯片尺寸、模块体积。越来越多的器件开始追求精细化，对元器件体积的要求也更加严格，SOT-227封装就是一个典型例子。****SOT****\-227封装装置应用面较广，体积介于单管和模块之间，属于内绝缘封装的一种，可封装的电子元器件有：整流二极管、快恢复二极管、igbt、电源模块、厚模电阻等。该封装散热良好，抗震性能优异安装方便。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeKDU9XfiauApZnZw03Lkg4NU8MGPwy8Rnfce4n1Dp4nhcfoof3FUTHrg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_009_79b23f338348.jpg)
 
 **在实际应用中，**带辅助开尔文源极管脚的TO-247-4封装更适合于碳化硅MOSFET这种新型的高频器件，它可以进一步降低器件的开关损耗，也更有利于分立器件的驱动设计。******TO-247-4封装的碳化硅MOSFET，避免了驱动回路和功率回路共用源极线路，实现了这两个回路的解耦。同时，TO-247-4封装的开关器件由于没有来自功率源极造成的栅极电压衰减，TO-247-4封装的开关速度会比TO-247-3封装的更快，开关损耗更小。****因此，当您在使用碳化硅MOSFET进行新方案设计时，为进一步减小碳化硅MOSFET器件的开关损耗以及便于驱动回路的布局设计，建议选择TO-247-4封装的碳化硅MOSFET产品。**  
 
 **2.碳化硅MOS管产品选型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soe9n5XDL9ruzBasckLNzNbX0ChNiaPgEibfQIvUzrMlEe1ApRsdsibyQibIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_010_e36e7cf67f1c.png)
 
                                                 **650V耐压产品选型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soen3JdZLXGXHbV7fO5yEibFplHebpMoqHY1YPR5WVN1icJhs5vNQ3yXsBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_011_ac307251688d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeptC73WUKMav42AiboRGQic6PZiacYCHrQHr86Ebu2UCLj6TdsJYbdGnwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_012_c266dcab8a47.png)
 
                                           **1200V耐压产品选型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeo7jLia2E6WN0gwZXtkrWN8tIeQC4iaBibEQN2VuHBykczjD8tdOrdhCTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_013_6bec7a13ae3d.png)
 
                                             **1700V耐压产品选型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soelyROiadM3ibic2XDaW0KON9ciarc6tEFlsIjuzpEibn6VozLdZgCHKj4QHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_014_61e0a875ce79.png)
 
 **3300V耐压产品选型**
 
 **爱仕特的碳化硅MOSFET包括电压为650V至3300V的一系列产品，非常适合工业和汽车应用，比如牵引逆变器、车载充电器、快速充电站、DC-DC转换器、高端PFC、SMPS和辅助电源，以及UPS、太阳能逆变器、焊接设备和工业驱动等。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soegib0NLZHZlWHajcapfuQo44ggfx34Gu1GU9kWARqzBgr8lN08hocQPA/640?wx_fmt=png)**
+**![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_015_11aa0c8084c4.png)**
 
 **碳化硅器件的电压等级也在增加，1.2kV、1.7kV已经形成市场规模，3.3kV和6.5kV正在走向市场；实验室还在往上提升电压等级。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeC0ib4Lat36Ag0IsLXA9r1JpwKjzNXpZw1LibV7W9ch6I9LBjEgQJhJRg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_016_4604a4251483.jpg)
 
 ****SiC MOSFET以各种分立式封装和裸片形式提供。****
 
@@ -105,11 +105,11 @@
 
 **进入车辆领域并打入每个级别（Tier1）的汽车电子大厂的供应链都需要获得两张票，第一张是由北美汽车产业所推的AEC-Q101(离散组件)可靠性标准；第二张门票，则要符合零失效(Zero Defect)的供应链质量管理标准ISO/IATF 16949规范(Quality Management System)。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeE6aicqPazODHWS3jGicqRJB0lvXLpO0OteekGyqLiahTgngv8YOWnocibg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_017_adfc74a6f4bf.png)
 
 **AEC-Q系列认证被公认为车规元器件通用试验标准。AEC-Q系列就是其中一个必须要通过的验证。车用电子主要依据国际汽车电子协会(Automotive Electronics Council，简称AEC)作为车规验证标准，AEC-Q101(离散组件).**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeiax9T7bBwQg7iaJY3F4pWM885LKj9mAr2ufxcqicK7vibomjnA1CMvfJzw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_018_50635d92e51b.jpg)
 
 关于我们
 
@@ -123,16 +123,16 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_019_cd2fc29ed793.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_020_35fc065fe60a.png)
 
        专注SiC MOS管和全碳化硅功率模块的研发和销售。MOS产品具有更快速开关响应、更低损耗的特性，完全满足车载充电机对高效率、高功率密度、高可靠性的要求，有利于加快光伏产业发展，助力双碳目标的实现。随着新能源替代加速，逆变器向高效率、高功率密度、高可靠性等方向发展，具备高功率、耐高压、 耐高温、高频和低能耗等优点的SiC功率器件将迎来发展新机遇 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soe90AXqYE2up39vTlYpvL9ibPytuU1cw0S1TzZiaWRgOicJQk7exJ6jkYcQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_021_b35e48f74a1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_022_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产爱仕特碳化硅（Sic)MOS管简介_images\img_023_770831a45f05.png)

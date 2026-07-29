@@ -56,7 +56,7 @@ USB传输协议是于1994年由Compaq、DEC，IBM，Intel，Microsoft，NEC以�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTe1p7oHpMURsVVRgrVAjFLibaTDibOog1qMO0TYzp5d6OyoTZibnJ4tKjZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_3_0_USB_4被正式取消_开启全新命名方式_images\img_002_40cd84ebf19e.png)
 
   
 
@@ -82,7 +82,7 @@ USB-IF解释，因为USB 2.0的传输速度只有480Mbps，如果也同时变更
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgVRqq08NxiaSVkUXzmW9JTeucBH63kk0BbPHbArHtra7r7RiaIPVTj0MsEhIuib6GPG6gxebBOvwhicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_3_0_USB_4被正式取消_开启全新命名方式_images\img_003_64246d0bd727.png)
 
   
 

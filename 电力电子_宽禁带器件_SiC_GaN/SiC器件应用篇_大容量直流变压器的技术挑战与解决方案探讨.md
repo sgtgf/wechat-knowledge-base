@@ -9,99 +9,99 @@
 
 分享一篇来自哈尔滨工业大学李彬彬和王宁两位老师有关《大容量直流变压器的技术挑战与解决方案探讨》的专题报告，供大家参考学习，以期促进本领域的交流和技术进步。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeRqDP2WjmNT5qGEftEOCJsyo3z8zI5bydF2m8gtOdrSFicMkKnKPxT0Q/640?wx_fmt=other&from=appmsg&wxfrom=5&tp=webp&wx_lazy=1#imgIndex=0)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_000_ea3bb10dc92f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeeb3OdKDJ93PLciagS9WicxvLJVv58M7O2AkiauXdYkjZnBWRVGqQlrjXQ/640?wx_fmt=other&from=appmsg&wxfrom=5&tp=webp&wx_lazy=1#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_001_a487b0390c50.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeoKUg2Jr1ME7Q5UpOtJKPqpGPyc2ILakjbAf1WKMeol4dEzCb4S0peQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=2)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_002_9076c47c2bed.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEejcJxwUmbh888xJQyDzGFfWDZBxqqibqKeORvAPr7XkoRaBLFgCtiamrA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_003_578f99909783.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeBic0niaX9OHT4y73ial9ltW7uRONFyZeIDnRrlNgDQSOhONVq6NK0J6icg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_004_ebca145138de.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEe8N96ZVtm0ZTVyeuptyjJTZpfc5qGLUmnDsXueGturzMsQic5jCy9N1Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_005_9deb296457bf.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEejbC3Rbv9H0lRiat3vqdCdPbvica7X8OpAuvRwtYLA1flGJo7W2BYm6uA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_006_240c6dfa5b59.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEevTKUGgkHaQ0hDdUy35NlgTAXpvCInaQ55hqOlyyD8XecHzpEuCpkcw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_007_fbea2389c60e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEejbXnUhnTvqodz5lEvfdEZzkPPOcia1duicbIBk02icvEG6CDpEOty1sXg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_008_02cffc75e94c.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEehYQwBXBBxMpKwx4fCISgZ0N9EcTicKiaficfH541UPVicx4ib9xaKiaqNgyA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_009_3044fcf68497.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeFjMIgM3JUt1cBBJEw8uicHQWEVkL5WavxSJnk5HhvickM47QQ1qIicnrg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_010_a67f7d09c250.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEe35icPtxibocQZPuGicq1qI9WRSjDSj8hbdJDDa09KwDbAcmgEDlfI90Dw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=11)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_011_3ed65730f885.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEe2d8FFDQwzEmreNtpOeMYBOVu4mib0MU0s1nmxT6WeICsdVaC7ju4Qcw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_012_1501faa6ebcf.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeraRkme0ibxlzNwib8gr70PV3Xon9YtNrRRXkTndHhyGHAgduciaxeFoiag/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_013_ca2c8cbe0b27.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEesUB4nZvw8KnEicRtMJMrOibibHq5yL9FGJkYQNzMicCPuB1LYoJ4Mgm2gA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_014_35b3a819edfa.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeJZaFba4sWhEXTzZnBXCHWsTQucSAwTtpy3V2qJTZXJ8CSLGzXgPicMw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_015_88781fe6ac66.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeDvgibhQQNQP3MBr9OTpYWMfkg6tzspC4DkMWOLriagicVj26HWZz43pnA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_016_ae92c884f660.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeXBU3LiczjddLNx58JAb5hx5kicVO3xGeYKBE4Nq1A4Iq6uWzUFh0L8Eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=17)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_017_d73c2cc0996c.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeLzc9XABicgEWa4R947KuOQo7Jh7tu7zyY45jh28A2DApZicR7wx2turg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_018_801bca1c96f7.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeqb1FnbdCJh5o5r5YicjZnKjOBq2k7RIic1Nl9Pe3yrZFlmvQp7K43l0g/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_019_1f0a9966b62d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEepF6AdEcJXXw5iaDkL6SsfKZq0ulrZqIJHyhIFXyRib0VCNADvpMico6MA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=20)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_020_319fb943c6be.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEe8I4VRTtF9MuSW2ibUUJ8erk1IX0riaF3DUL4sdkMK4V9w8DauBf1Engw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_021_75a57781c86d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEes617vMt67DaoUNTfNUrgnhhLykeQt4bN8TprkpknibYbVu14jX6Tnww/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=22)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_022_30f4670e212e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEef2dGnULbZa8IOdhYRiae18IOJlviaHUAsNZGbHbMibXDSID23S1V1kV7Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=23)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_023_6de5e6515ecb.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEe7cLLynPiac6F6wA5qdLwYcUy6snvDUPPDk8scvmrzlNWmn6fYBb9pGw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=24)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_024_848e556ce333.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEebVwFIJlXEfamEKnSWwLhTtn7uKGe0rVcdlicKJ791ygsVoOj0I5UlQg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=25)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_025_ec07f96918ae.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeTFJGTQ2riceic4WrsuoKqDjzVqY6ldgP81apVYFiceicTshfDc9sUw1GMw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=26)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_026_17023a82fb4e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeG4rnRsVnA214wzxKPv6onVo3QvIiacayFIjqNsbicadsp3bYltPSDvrw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=27)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_027_94cf2bb10b59.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeyRFbZA0PWlXzXard6Oaicv1cTBdYhtHdF2lynhh3oTZ3TSnzAtMAVIw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=28)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_028_e3f5732baefe.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEehlxGPOqBs52fibe1uvhvsDXbecdxGD9IzJIxCgI3y1hz9zxiafkvToqQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=29)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_029_6584b0bfcda6.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeaHq9CpTl8H0HDIwxsBSUjfnMS6Ne7DNw1a0H67ThsRufxDmD33Sk7g/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=30)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_030_02b0cb3f91eb.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeUcKYMJvlia5VnZ8iaicwsiba1429oIibJIPpBxGjImm2UusyjeckrAqnnOA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_031_c145af108157.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeOtX5e1NW73uKbYmchhmDXb5twcCo1DRLUicHvficBHZ2E46x3mLXsMjA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_032_5359d00f9885.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeqoTXwB6SFFKJcK2M8JCY36YoWlpqpZvT3f0cqia9dgssxibYDuXO7EmA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_033_aa9b5baa7f27.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeCmI0ofUuu3NK0OvMQ9vibUPoyYwF2ICf9dicUsNPfMmWNBibicW7F1nDWw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_034_22982fb29b2e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeibuSh6lU8uw6EqkC5NiaT1OcrTvzjAn2N74uMju35qy265YDAicxkAAiaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=35)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_035_f5856364660f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeGJsIRERjmwp6BRNkmm1Tibzs1TQXqwLiaq3iaY1gCuE96nLfGWNtlKzxw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=36)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_036_b8e828a50d45.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeDjXBwibBRmcsSMKJO0nibbPSYlfd4wumkSXU3okdFdb8fLnXMCeib7nnA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=37)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_037_6633b32b0205.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEefLyic699aRgvsvoXq9IY0o9FjuqtCPsZoITYcyicjiaCNhk97Pp45cjlg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=38)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_038_e62eb78d36a6.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEerqFUavfT0dOvhuWw7pDBNETCic8BVU39g02H3nF24LDSc56icTOfexlQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=39)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_039_9bf3623e3b92.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeOxxCXG4F9AMGnMVKgGRnXU4Js7hMQCb2NIibSDB6pkgmtJE85icRtB0g/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=40)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_040_ecee5963131c.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeuhFyiaxogrkNLNQfgrQlxKxDkI8W5j2HptvzRC2MrRbIdIQLuNCZrdw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=41)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_041_16255d8b70e8.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeicZzqZW7mTVCPnY28r2LicbNS0iblaGibK5oNTiblXV3So2SL7pfJgtblMw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=42)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_042_d25c1177acfb.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEe2JYBHkCMiclLkj1D961jLYHdmZbicUDhw1zic21Lqa3dRMnwuMsf5Uqkw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=43)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_043_2e39fce79225.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeic73EQ6nYrxKl3wtvL8j6bxBOgbSpmrSLX9dSjftebZDxxYJhqpHRVQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=44)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_044_3d9a37a41bee.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEeJqvoWslwE64CWemL6oBZCEYTSOTpCNSbRibZUt4cKIDrN6869OChMRA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=45)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_045_2fd1a7c4a0ef.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/WLpC4YuhDC6qdbTbDay1j09H3nOficdEe6nyrksGCiaBzAOXezjGIxhgvPl9x2hfcycH7syYa6fD919Brn3DZz8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=46)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_046_05332eb86736.jpg)
 
   
 
@@ -281,13 +281,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3ibmJv3H5l3Wo4BbhLla8Y0epqibDGeIvkrrEoQMkHxACRbIxK6EKJcIgnbV8ATRGTgTcIY2UxkYA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=79)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_047_797839f292b1.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3ibmJv3H5l3Wo4BbhLla8Y03lXbxJONAZWNzOSOWxlUU2ZaZlvly1nrJDUYv1qn9cvemZIp4qT0w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=80)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_048_668cf038af77.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3ibmJv3H5l3Wo4BbhLla8YTZAwwpjIKlM4aHWPYDibafHy9jw6fHr52th6wicGTqsYUsnTkLOvPmCQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=81)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件应用篇_大容量直流变压器的技术挑战与解决方案探讨_images\img_049_41e4d58f7b79.jpg)

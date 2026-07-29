@@ -5,13 +5,13 @@
 
 SiC MOSFET，即碳化硅金属-氧化物半导体场效应晶体管，是一种基于第三代宽禁带半导体材料碳化硅（SiC）的功率器件。相较于传统硅基器件，SiC MOSFET凭借碳化硅材料的高击穿电场、高热导率等特性，具有耐高压、耐高温、开关频率高、导通损耗与开关损耗低等显著优势。它能大幅提升能源转换效率与功率密度，是实现电力电子系统高效化、小型化的关键元件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpM8zXgiboGUp8iapriaChTkyCoNMG4vh7AxzNa68vibwGMaWg7ZRHnWOMjXZJaE6092cyTibUrDPEj1j0BBrGXQLD3yXuKQnNF3ns7Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_000_cffb45915571.jpg)
 
 图片来源：网络
 
 目前，SiC器件主要技术路线包括平面栅和沟槽栅结构，已广泛应用于新能源汽车电驱系统、车载充电器、光伏逆变器、储能及数据中心电源等领域，市场正快速发展，国产化进程不断加速。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPOLSEsxibmmJnxZ06o3R3hIop9uMpzltmIN41cgU5bgnYF1yZTlsGPO6xssPVLwXUViaN7QJpBxqxOROBibjE2UyNjpS0icO8sEj0/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_001_22c7c265d9e4.jpg)
 
 图片来源：网络
 
@@ -19,21 +19,21 @@ SiC MOSFET，即碳化硅金属-氧化物半导体场效应晶体管，是一种
 
 TO-247 是高压大功率 SiC MOSFET 最通用通孔直插封装，分为3 引脚（TO-247-3）、4 引脚开尔文（TO-247-4/4S/4L） 两大主流形态；二者散热架构完全一致，核心差异在于是否独立开尔文源极引脚，直接决定高频硬开关损耗、栅极振荡、EMI 与整机效率，是光伏、储能、直流快充、大功率工业电源、车载 OBC 的主力封装。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP5ia02nq6aGkfic6hWvvJ8v1Dnrm7EgPyYGsibFao4WziaR3yjCDX46ib2nibzVCDUgIYS840JUXElgy8NuATxH4rUvlA6HibejHnEIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_002_437c610628d3.png)
 
 TO247-3封装的实物与拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNFPR9Jr3CADibhjk81d1Lib5WhG1E4F08rW8nBSfMRuBM4m47oK2Cfg4K7lvQFenaDob5GFd27tdLtUpm672a3d2Qe4XGmc4HUo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_003_0a6eef65e8eb.png)
 
 TO247-4封装的实物与拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPfc5UEK2DjsNZZRmty0STFb6ao0icyyogRa2EHlBfsuMmLd7JS5Y1eEbUhibaiaSPDccDBspdD53gAdEyKlH4d2gdeZHhj5Gjoo0/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_004_c39b7e57c045.jpg)
 
 TO247-4S封装的实物与拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPPk2wvnXPLRReIMf7bFSkpDmNlP0GdDk2fCxLCIKYUqxib61sxvEv0sTqhRzNVXqq9fQtPMAjqIVA5HqAK74TXBaS5zq63EDic4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_005_5407c88ea375.png)
 
 TO247-4L封装的实物与拓扑图
 
@@ -61,27 +61,27 @@ TO247-4L封装的实物与拓扑图
 
 TO-247-3（3 引脚：D/G/S）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMgic7bGMOG5ctmCKPrluIt1hrTcgWJNWic8Yb5wBR3iaYjbBmYicA6yu8l5tEgdRUsoXIwX9BPNmtjZV8YNLcuiciaI4aEbGvKbJ3icQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_006_b5fbf57e968a.png)
 
 源极 S 引脚同时走大功率主回路电流 + 栅极驱动回流，引脚与内部引线存在寄生电感 Ls（8~12nH）；开关瞬态大电流 di/dt 在 Ls 上产生反向感应电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNdV7A7ZRwmMWLCFwTPuiceZTBiaGiaYOCIibkg6MreFmic5xAleJrVKO77bm3SQicDBlIG84rYGyzfhgwO0yS8cCqIW6I8EaLToTqho/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_007_ba00cab8e873.png)
 
 有效栅压VGS =Vdrive−VLS，驱动电压被抵消，开关速度变慢、损耗上升、栅极极易振荡、易发生桥臂误导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMmldg8ClhP2aibdePD0xZbRfZhr3OawXbly9gyrhgicF8ERcjjMmhG5fMfjIONDknKgUEMl5zwJO6DafYmwQ1wZ5pmopONibzhUg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_008_db7dadc41b34.jpg)
 
 TO-247-4（4 引脚：D/G/ 功率 S / 开尔文 KS）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlMYj3CXAFicRr7m88ZVfIlgKNtd8pSkJIhKWic6WicfIUXyThF76Kna2LF7BcGzcTUiaKLT3sxqkZBGwHPb8u6I66XicLDniaBajQI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_009_31cf7535c406.png)
 
 独立开尔文源极 KS仅做驱动信号回流，无大功率电流流过；功率回路与栅极驱动回路电气解耦，驱动回路无 Ls 压降干扰，寄生电感降低至 3~4nH，彻底消除共源电感对 SiC 高速开关的负面影响。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOvQejNfASH6PgibZorqjXdJ9iaDBkfKleSUJKteebVUNzvsjwFw5vAicBbUzFhGp0icPRgAjicjg022K4VpbS0TicSTpWQibwQe3eYsc/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_010_a38e599fbccd.jpg)
 
 开通损耗对比
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMr8XjdUsYvTwUibKIz5pc7Q7rIicT9VG0zU6zWGxhXrFSxDzLajs5Hbk6ZfIhWXTWpibyrzTxmppztRAfdFSFAiaYooLicCk0nwmEs/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_011_2f08092643ef.jpg)
 
 关断损耗对比
 
@@ -233,7 +233,7 @@ TO-247-3 适用场景（低频、软开关、成本优先设备）
 
 案例 1：60kW 直流快充模块（TO-247-4，1200V SiC）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNZcArcicKYlZz9NR2sXAwQX8FZTWjia2hOUWfTtDLibjSZaaziapuP4PhdCv2S06DYoKHgh0HQtUAiaEdoWUZbFGkUWc9ybcOXwdJU/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_012_f9b9b8a026d0.jpg)
 
 1200V60A 45mΩ TO247-4封装SiC MOS参数表
 
@@ -261,7 +261,7 @@ Eon 损耗降低 42%，整机满载效率提升 0.9%，单模块散热功率减�
 
 案例 3：3kW LLC 储能逆变辅助电源（TO-247-3 650V SiC）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNaZibU5mZdMbrZUjpgs3t3X7Ix4slCg2dSpXDocCySFAJogcRfxviahLn1AAmAibOMYJPib2ibFte1YpgjtM9icEIlRib7oy1icIuCUfs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_013_5171b887175c.png)
 
 650V60A 30mΩ TO247-3封装SiC MOS参数表
 
@@ -323,19 +323,19 @@ LLC、谐振软开关、低频 Boost
 
 单相 220V 系统（服务器、户充、户用光伏）：母线峰值 450V → 650V TO-247；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOv2KKpbAliaCxHpd3KXic8aibyE4ibrlx4gU0QMUle6hFrl8FnyyDANyOB08ez7ofXnAJL5USBL17Ma3I3VCKOVZa52BevvmZzeUk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_014_caf65135d2c7.png)
 
 650V150A 12mΩ TO247-4封装SiC MOS参数表
 
 三相 380V、储能 800V、直流快充：母线峰值 900V → 1200V TO-247（市场主流）；
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNDxFWJDZEtopeMAcCOttEhGFsfPLGH4m6MWGvuVrmX4s4g98ic8YCjDZiboGvwM2Tode9SjOylZWlkhxu9yLAVVFy45npg5tr8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_015_751483c3db5c.png)
 
 1200V250A 7.5mΩ TO247-4封装SiC MOS参数表
 
 集中式光伏 1500V 母线、高压工业电源：1700V TO-247。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNFZS4yzSySWxqGbeWAxuLNBHkGUXVgjlZxHDB8yV6dEa68FUV1lNsLs7V3RD7b6s2XYlPRelnicwoic1hRBdxZ0sPziaETVxcU40/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_016_768e472cdf5e.png)
 
 1700V120A 14mΩ TO247-4L封装SiC MOS参数表
 
@@ -445,7 +445,7 @@ TO-247-3：开关振荡大，需增加滤波器件，预留更大 EMI 调试空�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMG7PHYeeuEAjFFtzQoIt4ZGWtibzcdI6iarsTCU3XvZpmicL1Q3D3icQporBGEibfeiaLLcxwcNyc1XLyGfV5w79SOAB6j4QRW4WKRY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_017_abd393c227d3.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -455,7 +455,7 @@ TO-247-3：开关振荡大，需增加滤波器件，预留更大 EMI 调试空�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpONiafQO306II3aOAiaFjupvZuqzmAg5fZW7tHUNDBGlQ7ibzicRE44t9ECzUjf2DGqUza49Z0UOjjmernJpX5WqQut875v6IG91LA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_018_9d07f39c9e3c.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -481,7 +481,7 @@ TO-247-3：开关振荡大，需增加滤波器件，预留更大 EMI 调试空�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOiamnJiboK9k3AsBlgsFb0DQ7LvswNNcXvSCgZF2jtcQ6nKJib2HiaticBTAntbic1HfmF3vjUTSkwog3OQMN1J4koaeZhTwYnrhEiaw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_019_260d0706b102.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -529,10 +529,10 @@ TO-247-3：开关振荡大，需增加滤波器件，预留更大 EMI 调试空�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOYf8wwbdeN2Fccp72wiaWDdzcg4iaLxUHEPMnzGoO0QFubXRtRJ1uYeMicRd8fAib0Qz940Dp00cKictenlnZ9v3fXqJDOAquuJRFo/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_020_bbdffd197cec.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNmaP2QficgrgKQFQXTHAzz6mqJTl7vrRR7rq1223MOlzZWvvWibWcAVymgrkcOadba13AicBwoUGqD0V5zmoJwtib3MGVutTcAoS8/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_021_821b659dcfe6.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNPENV9qicOmaZtic8cBy5ib41ibaWrLQIvFAVpVmZbEicZROVjwbcMUDRIuCjFlpjc43vlEuddfWdtJlMcbwb28ib4Uyftj7ia35UnBU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\TO_247_3___TO_247_4封装的SiC_MOSFET应用与设计解析_images\img_022_78cdd8393c77.jpg)

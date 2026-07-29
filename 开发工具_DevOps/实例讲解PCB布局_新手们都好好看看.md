@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFMkGpuINzdL1HcicU70rGG7jUdyeib00ZN85L7MICx6SxAVeUlrsT4rfwA/640?wx_fmt=png)
+![](实例讲解PCB布局_新手们都好好看看_images/img_002_2bb4813a30c1.png)
 
 图1：采用非反相配置的OPA191原理图
 
@@ -24,7 +24,7 @@
 
 图2所示为他首次尝试设计的布局。红线为电路板顶层的路径，而蓝线为底层的路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFM5s9uIxaSXfYE7icn0U8Qtly4TkVf1h15etxfT2tkUicoNBtlDDa4lwVg/640?wx_fmt=png)
+![](实例讲解PCB布局_新手们都好好看看_images/img_003_f376296f1c8c.png)
 
 图2：首次布局尝试方案 
 
@@ -46,7 +46,7 @@
 
  图3显示了移动每个部件和导孔从而改善布局的方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFMQJzrU8PneJKUsiaQnPsAv9Kbjtq4JcxjMX0gW79VWibGcY0jUUvCZurg/640?wx_fmt=png)
+![](实例讲解PCB布局_新手们都好好看看_images/img_004_dd1d64afc05b.png)
 
 图3：改进布局的各部件位置 
 
@@ -56,7 +56,7 @@
 
 图4所示为我们的最终布局。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFM2U1Iw6Tfb6ibeRAfCeZ8EZicSjlvRmP8yyjlUrWnibEgVBibcmKSPVY74g/640?wx_fmt=png)
+![](实例讲解PCB布局_新手们都好好看看_images/img_005_c9658bb2af28.png)
 
 图4：最终布局
 

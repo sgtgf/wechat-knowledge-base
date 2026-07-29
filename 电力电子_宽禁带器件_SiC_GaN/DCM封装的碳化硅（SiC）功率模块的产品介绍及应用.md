@@ -7,7 +7,7 @@
 
 DCM（Direct Cooled Module，直接冷却模块）是业内首创的一款针对车规级功率模块的封装设计，由丹佛斯（Danfoss）率先推出，其后丹佛斯硅动力部门与赛米控合并成立了赛米控丹佛斯公司（Semikron Danfoss），该技术得到进一步发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslENibS3AewXf3HuCmLicoCsH1pDH6rCF3yvs36IKwso1hI0gldVwJKAy9jrHB9laiaiaz8Pqia2157kaw/640?wx_fmt=jpeg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_000_f85a0edc98f3.jpg)
 
 # 图片来源：丹佛斯DCM™1000 功率模块
 
@@ -17,7 +17,7 @@ DCM封装模块，特别是与碳化硅（SiC）技术结合后，已成为高�
 
 为了更直观地展示其核心特性，请看下表：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHTvYLJ1nfdhiaj9GJjCqYTeiaHf3vHwEMd1Vj3GUw0GcpKwAkyTPx6Krw/640?wx_fmt=png&from=appmsg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_001_9cd8d5d6d5e0.png)
 
 2\. DCS12模块产品介绍
 
@@ -37,23 +37,23 @@ DCM（DCS12）半桥模块特点 ：
 
               - RDS(on) ：1.3~6.2mΩ 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHFAC2uVknuf7aqLov8xrPCLiaL5GwfhlkInLfF7Z45iag0B9Oep10Oibibw/640?wx_fmt=png&from=appmsg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_002_2e149287574a.png)
 
 DCS12模块产品与拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslENibS3AewXf3HuCmLicoCsH4e3IOhyR9giaOGpKfLdxo9kn15hkmblGRQI7a2ExkXZ3d8tBSyFvOaA/640?wx_fmt=png&from=appmsg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_003_845b4a57d32c.png)
 
 1200V800A模块参数图
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHBuumJzwfWVmiaicctnjVPoPeFy5s2US0qM7BfZbsEaYCvw7hAncj1hicg/640?wx_fmt=jpeg)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_004_dd0aac7d719a.jpg)
 
 模块外框引脚图
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhat9PfASpTax8uNk1mEbR8lryAJO2y5XrHCbeniaeBS3NKaaT2cd2njicA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_005_93c646746f3b.png)
 
 模块+驱动板实物图
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaLy0rGQudkuVX1v911NaXSpquwpxGfGiaicP2vs1fyraRGfR2kDtq4tIw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_006_1301f7e000d0.png)
 
 模块的重量
 
@@ -75,13 +75,13 @@ DCS12模块的应用领域：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHxicNBkbtXcUKd0kiclbmicNoic7AYOLtMAHj7vsMI1em9N9jybFkzxuXEw/640?wx_fmt=png&from=appmsg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_007_b3c23dfde6db.png)
 
 DCS12模块性能优势 ：
 
 散热架构优越，整体可靠性强：DCS12模块一方面优化水道结构设计，通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻，最高工作结温175℃；另一方面，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，模块可靠性进一步提升。   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rtBc8oz8dbeYaQ4icGLkdoROJTgicxKCOqiaaG2A287QoHAsVUdmic11Ffhg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_008_9f43ef074168.gif)
 
 密封性良好，杂散电感低：DCS12模块的封装是一次铸造成型，其密封保护可以确保逆变器在机械冲击和潮湿环境下仍然可实现稳定可靠的性能，允许极限温度循环以及更高的结温来提升功率密度；此外，模块结构紧凑，利于降低模块的杂散电感，进而降低系统杂散电感，并充分利用SiC器件的高速开关特性，以降低电压过冲的影响。
 
@@ -95,19 +95,19 @@ DCS12模块性能优势 ：
 
 新能源汽车主驱逆变器：这是最核心的应用领域。DCM封装模块特别适用于800V高压平台的高性能电动车、赛车、超级跑车以及商用巴士和卡车。其覆盖的功率范围（100kW-500kW+）能够满足从主流车型到顶级性能车型的需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHRiaS6QJSMZLj30IrvfmhfrctsmJpXu6DHupQb5dWho51aOtODDB7mcw/640?wx_fmt=jpeg&from=appmsg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_009_4790461eb01d.jpg)
 
 # 图片来源：网络
 
 光储系统：随着光储系统向大功率发展，DCM封装技术也应用于此领域。例如，330kW光伏风冷组串壳封模块、250kW储能液冷组串壳封模块等，用于提升能量转换效率和功率密度。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHib3FFUdM8KCQhib34D8vqnesAO8fBfVUPmicibwNb5ic0ljAYp8SJHib12QA/640?wx_fmt=jpeg&from=appmsg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_010_3147a972e93e.jpg)
 
 # 图片来源：网络
 
 燃料电池能源转换系统：DCM封装模块的高效率和高可靠性也使其适用于燃料电池汽车中的能源转换系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslENibS3AewXf3HuCmLicoCsHbx3Vk6Ccm6UPVKq5OTibP1jDzQae78hZCj9Un5LBs3z1GeL0j3rBTNA/640?wx_fmt=jpeg)
+![](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_011_3671d8c9c6b2.jpg)
 
 # 图片来源：网络
 
@@ -167,20 +167,20 @@ SiC芯片渗透率不断提高：DCM1000等平台已从硅基IGBT逐步向碳化
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqicTtSTicLPK0mAMDnUQjE4EtmTaRzj8Ff20ibZxMCGh1oiblgMTuBappJQ/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_012_1831ab7144f7.png)
 
 SiC功率模块的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqEP5935oL8szufNbWF9liaXgftIPGrQPWKk3O4T1uUCibibAl4oFuxOTDg/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_013_cd65001d8a5b.png)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_014_664e638da8b1.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=20)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_015_088fa32e70e8.png)![图片](DCM封装的碳化硅（SiC）功率模块的产品介绍及应用_images/img_016_ffa4127b996e.png)

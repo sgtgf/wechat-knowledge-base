@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/NvwC7TQG0PDLhyCL45uDlw](https://mp.weixin.qq.com/s/NvwC7TQG0PDLhyCL45uDlw)
 
-_____![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZSO1u2gN0VJcyIEWYeoOHAOKhLficDSpibnUyj7ScHapGvNDGc5vQKR8g/640?wx_fmt=png&from=appmsg)_____
+_____![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_000_f1d5b86620c9.png)_____
 
 ____**★★★**______TCS-4---VSWR______**★★★**____
 
@@ -13,11 +13,11 @@ ________€1._____定义___
 
 VSWR/SWR（Voltage Standing Wave Ratio）驻波比全称为电压驻波比，是衡量传输线和负载之间阻抗匹配程度的一个重要指标。它是指传输线上电压最大值与电压最小值之比（传输线波腹电压与波谷电压幅度之比），又称为驻波系数，驻波比。当传输线和负载完全匹配时，驻波比为1；当负载和传输线不匹配时，会产生反射波，导致驻波比大于 1。从数学公式角度，驻波比：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMSeKXK1P6z8via8PPicAVhG51KXa4BiaWql7DGrARXXAA1OA8jp9WLUOgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_001_845ad3ad5fe9.png)
 
 其中Vmax是传输线上电压的最大值，Vmin是传输线上电压的最小值，也可以通过反射系数Г来计算驻波比，公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMMLnyrVLlm2ySxN4hGoHrUkF5v0XicJ602Nj9HpwicMtEq3m2BAFw8GWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_002_fd48d32ca832.png)
 
 其中反射系数Г表示反射波电压与入射波电压之比。
 
@@ -47,11 +47,11 @@ ___€5.天线驻波比___
 
 天线驻波比（Voltage Standing Wave Ratio，简称 VSWR）是指天线系统中传输线上的驻波电压最大值与最小值之比，它反映了天线与传输线之间的匹配程度。驻波比=1时，表示馈线和天线的阻抗完全匹配，此时高频能量全部被天线辐射出去，没有能量的反射损耗；驻波比为无穷大时，表示全反射，能量完全没有辐射出去。**_图4-1_**和**_图4-2_**为天线实测的驻波比图值，两种单位形式。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO980ML68jp4ialtgPNyKib7avFFClknr3kgAJwIP4nHNNZsUJD3cXMvibY4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_003_bb4dbd82c410.png)
 
 **_图4-1：2.4GHz频段的VSWR_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98u1Lypyg1fTPhnmicE5W9ricib9XZFPGibpHxZ7aMWTMOfkQrS1tNMgqGiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_004_4d255ce273a6.png)
 
 **_图4-2：2.4/5.8GHz频段的VSWR，S11形式_**
 
@@ -59,11 +59,11 @@ _VSWR原理&影响_
 
 当射频信号在传输线上传播时，如果天线与传输线之间的阻抗不匹配，就会产生反射波。反射波与入射波相互叠加，形成驻波，驻波比就是用来衡量这种驻波的大小。驻波比为1时，表示完全匹配，没有反射波；驻波比越大，说明反射波越强，匹配程度越差。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYJfAZibtKR3amiaE0uUfPsFfdqnqbtO4SiaY6AEaUJKLPMVZGdLvMWr0xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_005_c841e77d4491.png)
 
 **_图4-3：2.4/5.8GHz频段的天线频点特性阻抗_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYsIdjtyQn7NDTQYtezVKrPr89n9HicBZq3C01oQaPXTaia1IPZxcAASzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_006_dd5bcf09a34e.png)
 
 **_图4-4：2.4/5.8GHz频段的VSWR_**
 
@@ -85,6 +85,6 @@ ______€6.___VSWR与回波损耗___
 
 Return Loss（回波损耗RL）指的是射频输入信号功率与反射功率的比值，单位为dB。在理想情况下，天线与射频电路的阻抗完全匹配，完全没有反射功率，这时的回波损耗为无限大，但是在工程上阻抗不可能完全匹配，因此反射功率是一定存在的。最差的情况是输入功率完全被反射，此时回波损耗为0，计算公式为：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMZ2X8wA5Fw9GwoPKSnvqufKhnJ50YoJKMcosACn9QXcRbZagYChWOuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_007_6b5f370ee76a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMadI7wvhOicTqia7icA0Rml0410zajV7yUwFOYWX0SgCxpFPkcHmbqUI1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_4_驻波比VSWR_images\img_008_19cdca2b33c6.png)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/C47ZQSFpe0oj1YLBwjUTCg](https://mp.weixin.qq.com/s/C47ZQSFpe0oj1YLBwjUTCg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZH64WRg2mSrjnkeBq77c07RWbYxP58fUXgPra8ZBJIRydvfvYu4E2zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_2_噪声因子和噪声系数_images\img_000_c19329f1ffdb.png)
 
 ____**★★★**______TCS-2---噪声______**★★★**____
 
@@ -17,7 +17,7 @@ __€2.噪声因子__
 
 在射频领域，噪声因子（Noise Factor）是一个非常重要的概念。噪声因子F是一个用来衡量系统中噪声对信号影响程度的参数，表示由于系统引入的噪声而导致信噪比的恶化程度，它与噪声系数（NF）密切相关。噪声因子的定义为输入信号的信噪比除以输出信号的信噪比，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98DBGBK3Ja8n771kKDIIia7R8huF6ANp1UgicJXn2SxvRDU94TCTpT7iayg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_2_噪声因子和噪声系数_images\img_001_b2d5aefcbd80.png)
 
 其中SNRin表示输入信号的信噪比，SNRout表示输出信号的信噪比，Sn和Si分别为输入噪声功率和输入信号功率，Sno和Sio分别为输出噪声功率和输出信号功率。
 
@@ -25,7 +25,7 @@ __€3.噪声系数__
 
 噪声系数，即Noise Figure，是射频设备性能的关键指标，一部分噪声来自外界的某个地方，但是有一部分噪声是由组件（DUT）本身产生。除非设备工作在绝对零度（摄氏零下273度） ，否则物体本身总会发出这样的噪声（底噪）。在大多数情况因为噪声强度不大，不足以干扰正常的信号而被忽略，但有些情况下不能忽略这些噪声。对于这种情况，制定了一个规格来测量、管理、控制这种类型的噪声，这个指标被称为“噪声系数”，噪声系数表征的是设备内部噪声大小。在无线通信中，噪声系数是一个重要的指标，它可以帮助我们了解和优化系统的噪声性能。例如，在接收机设计中，需要尽量减小噪声系数以提高接收机的灵敏度。噪声系数则是噪声因子的对数表示形式，单位为dB：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlRe1JsLCYjicc2wsmRk55kHibp2dBwMIzweEoOiaEiaFnHrGdtyahKoWibRPSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_2_噪声因子和噪声系数_images\img_002_e00d01e8a0d8.png)
 
 __€4.如何评估噪声系数__
 
@@ -73,9 +73,9 @@ ____€8.__级联噪声系数__
 
 级联系统的总噪声系数，计算式为：
 
-____![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9AaqMdZU2aMPb30UkCWIhapG8pqUrVgqbyGvQMPicy7nXhXdhUJFFKPg/640?wx_fmt=png&from=appmsg)____
+____![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_2_噪声因子和噪声系数_images\img_003_3c88213d7264.png)____
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQrgknIdCwqQKNKdRAiaKk5fOGUW6CGLkPZAjvnXIbGYybOLnTSKJSiaN5QAHCdkDR3ANJCOlM0O6RQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_术语与概念_2_噪声因子和噪声系数_images\img_004_349118ec0785.png)
 
 其中，NF为整个系统的噪声系数，NF1，NF2，NF3分别为第1，2，3级的噪声系数，G1，G2分别为第1，2级的增益。
 

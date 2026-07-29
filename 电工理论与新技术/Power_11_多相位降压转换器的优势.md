@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/mrSzTWcOBee94FQ6i0fjvQ](https://mp.weixin.qq.com/s/mrSzTWcOBee94FQ6i0fjvQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIA8lRLHd6akT5SRmYc96JBGMVYu4LBhiaM5fYU4J1pflN6Okg8aWE68A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_000_4a44ed7494fa.png)
 
 ____**★★★**______Power-11---多相转换器的优势______**★★★**____
 
@@ -13,11 +13,11 @@ ____________€1.结构组成____________
 
 **_图11-1_**显示了一款二相电路，由该电路的波形（**_图11-2_**）可以清楚地看到各相互相交错，这种交错可减少输入和输出纹波电流。另外它还减少了PCB或者某个特定组件上的热点。实际上，二相降压转换器让FET和电感的RMS-电流功耗降低了一半，相交错还可以降低传导损耗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMq4XKiaM6VZCduRYIFbqBPsG3urFp5OXHx3GG7Yre71yicGbNDtGjNFCLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_001_1622c0cb6e44.png)
 
 **_图11-1：二相降压转换器_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMq4JIuibpvicRmAias3xaZsXZImFjoZTRL9ZvcXogEkdMFt0Mib8dicFCu7oQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_002_37a397a9e790.png)
 
 **_图11-2：相1和相2的节点波形_**
 
@@ -29,19 +29,19 @@ _____________________€3.__________输出纹波电压___________
 
 输出滤波器级中的纹波电流抵消可带来比单相转换器更低的输出电容器纹波电压，这就是为什么首选多相转换器的原因，方程式1和方程式2计算出了每个电感中所抵消的纹波电流百分比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRGVXXdBMXNzCFVSIfibDrvrqwyNeeicuRCHHh87iawTvU8JEXVDZ26nrD1nDfUeAvfiaiaGw9ic88qgJuA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_003_fbc17888828d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRGVXXdBMXNzCFVSIfibDrvrGY0wXrb3fMWQY2kJ8KXY9KrasicoZsVcQibxd8wwdLpxmvcnDYPENiaFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_004_a80ab648a85d.png)
 
 其中，D为占空比，IRip\_norm为标准化的纹波电流，其为D的函数，而mp为m的整数。**_图11-3_**为这些方程式的曲线图，例如20%占空比 (D) 时使用2个相，可降低25%纹波电流。电容器必须承受的纹波电压大小，可通过纹波电流乘以电容器的等效串联电阻计算得到，很明显，最大电流和电压要求都降低了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSib9ND4Q2CEJUgOf8QibArA2ibxxEL0n3Oa6Xe8835pLClHT5jbjAvsIMoQf1ibqAibib5BM6hFBSywpmg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_005_d6e7603d18be.jpg)
 
 **_图11-3：标准化电容器纹波电流为占空比的函数_**
 
 **_图11-4_**显示了25%占空比下一个二相降压转换器的仿真结果，电感纹波电流为2.2A，但是输出电容器电流仅为1.5A，原因是纹波电流抵消，50%占空比下使用二相时，电容器则完全没有纹波电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMqJ4KIaFI8miaewz27IWAYDrzKmBOZ4R2V6CNFLoJrxvnticslEK8CWhcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_006_53ceb14431d6.png)
 
 **_图11-4：D=25%时，电感纹波电流抵消_**
 
@@ -53,15 +53,15 @@ _____________________€5.__________输入RMS纹波电流抵消___________
 
 如果连接转换器的输入线存在电感效应，则输入电容器将所有输入电流供给降压转换器。要仔细选择这些电容器，以满足RMS纹波电流要求，确保它们不会出现过热状态。很明显，对于一个50%占空比的单相转换器来说，极限输入RMS纹波电流一般固定为50%输出电流。**_图11-5_**和方程式3表明，使用二相解决方案时，25%和75%占空比时出现极限RMS纹波电流，其仅为25%输出电流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRGVXXdBMXNzCFVSIfibDrvrJtuL9737KibxH89umzI5eFj9lXIFZIMxXic9IyExYzA747pnjSNnMArA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_007_d20c943112cd.png)
 
 相比单相解决方案，多相解决方案的值更明确，只需使用更小的电容，便可满足降压级的RMS纹波电流需求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSib9ND4Q2CEJUgOf8QibArA2ic0Tx91fI8bsaalJw1oVpojOiaZXzxF0X0xHFhF5vicZu2rl84PjMEFjw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_008_0c5f106e05c9.jpg)
 
 **_图11-5：标准化输入RMS纹波电流为占空比的函数_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRGVXXdBMXNzCFVSIfibDrvrXu1TUUY4JOkZO4l12aiaypvlEOHtRVCTaqSibog0FT553BibVKsib32QAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_11_多相位降压转换器的优势_images\img_009_4a31ad2e0b4d.png)
 
 **_图11-6：VIN=12V，VOUT=1.2V，LOAD=40A_**
 

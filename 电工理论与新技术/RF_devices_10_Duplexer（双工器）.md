@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/lEjzKsNLKOlaaqxYrZzFyA](https://mp.weixin.qq.com/s/lEjzKsNLKOlaaqxYrZzFyA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarOMQjHo7cTP7FlSo7NfqkACWdiac1kuCQ1cUO16Uia7fu3TITrnFeyk3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_000_051565873f46.png)
 
 ____**★★★**______Duplexer-1---双工器______**★★★**____
 
@@ -19,11 +19,11 @@ ___€1.什么是双工___
 
 全双工通过频分双工 (FDD) 实现，半双工通过时分双工 (TDD) 实现，如**_图10-1_**和**_图10-2_**所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSVG5bL7EEgjwmD4d5JG483bUaKicorcyuFmsRTPuT22gzibR7jAZBOicPoPSpJp84I7uv9NH5cduuxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_001_fd64603fa011.png)
 
 **_图10-1：TDD_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSVG5bL7EEgjwmD4d5JG48325FJ0xwiaHEZ19mvgfpCv8jYYNTmOQ98NTglTr2zWjlzDQTUQFGcZjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_002_3a3acbe7f387.png)
 
 **_图10-2：FDD_**
 
@@ -45,7 +45,7 @@ ______€3.双工器的分类______
 
 由低频（Low）侧端口的低通滤波器和高频（High）侧端口的高通滤波器组合而成的收发双工器，这是最常见的收发双工器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZGjv13ft3nKTbsia6fzHG935dD54N4eic2iaUEAYiaV8xvNeXE8fp3SqLFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_003_ed096bd2e317.png)
 
 **_图10-3：低通+高通双工器_**
 
@@ -53,7 +53,7 @@ ______€3.双工器的分类______
 
 由低频（Low）侧端口的低通滤波器和高频（High）侧端口的带通滤波器组合而成的收发双工器，这是Wi-Fi收发双工器中常见的构成。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZ4UlqU4qloZOiatLGBsicKaPg1BPveO7LJsttX6RAuNY9CV1b6Wxh8bIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_004_385bb9853ccb.png)
 
 **_图10-4：低通+带通双工器_**
 
@@ -61,7 +61,7 @@ ______€3.双工器的分类______
 
 由低频（Low）侧端口的带通滤波器和高频（High）侧端口的带通滤波器组合而成的收发双工器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZ0hB7EX9p8qEEMyF6s0Kicc5vvk7bAUqDc42lWxTBPsTDRqZpkbvfrSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_005_100a0dda0392.png)
 
 **_图10-5：带通+带通双工器_**
 
@@ -71,21 +71,21 @@ ____€4.双工器的路径混合____
 
 双工器的路径混合有如下三种方式：输入分离双频；输出混合双频；输入输出双工。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFPU3OaRkcCg038YcELJicAy0SlOMiaXlpM6m7f8wnTX5NcdeIfB0x5c7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_006_1971a90b4255.png)
 
 **_图10-6：输入分离双频_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFIsxiamQfgvC6PKibrfiaPP4EoHQMOesicgibPxPHz1bmFNJCC7icicUC9LZgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_007_6f4d8c60a604.png)
 
 **_图10-7：输出混合双频_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFiatdgLkz6qaCQuhpDkBCaPUQJvicjiayxC9ibaq9rZ6OWw66SAMqVpekOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_010_991b5bd6e008.png)
 
 **_图10-8：输入输出双工_**
 
 ### 以GPS为例，GPS系统由多个卫星组成，这些卫星不断向地面发送包含时间和位置信息的信号。地面上的GPS接收器接收到这些信号后，通过计算信号的传播时间来确定接收器的具体位置。由于整个过程是卫星向地面发送信号，地面设备接收信号并进行处理，因此GPS定位是单向的‌。此外，虽然存在双向通信的卫星导航系统，如北斗系统，但北斗系统的双向通信功能主要用于短报文通信，并不直接用于定位功能‌。**_图10-9_**就是一个典型的前端GPS接收链路，GPS信号在经过两级LNA放大之后通过双工器DPX251606DT，分离出L1和L5频段信号输入给GNSS芯片进行解析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziareO8TcTG6sv101JwhzCm69pic9bV8O7khFic45CmFvmy5CveIpgBCHHFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_009_5db3b7ad962b.png)
 
 **_图10-9：双频GPS_**
 
@@ -93,19 +93,19 @@ ______€5.工作过程______
 
 双工器能够将TX路径和RX路径连接到一个共用天线，所以双工器又称天线共用器，是一个比较特殊的双向三端滤波器，双工器将微弱的信号耦合进来，又将较大的发射功率馈送到天线上，当发射机和接收机的频率不同时，可以认为是两个滤波器组合在一起，一个滤波器用于接收，另一个用于发射，如**_图10-10_**所示，有些双工器不标发射和接收端而只标LOW和HIGH。双工器通过使用滤波器来区分输入（接收）或输出（发送）信号的频率，隔离发射和接收讯号，从而保证两个不同的信号源之间不会相互干扰，保证接收和发射都能同时正常工作。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFiatdgLkz6qaCQuhpDkBCaPUQJvicjiayxC9ibaq9rZ6OWw66SAMqVpekOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_008_991b5bd6e008.png)
 
 **_图10-10：接收发射同时工作_**
 
 当发射机和接收机的频率相同时，滤波方法不起作用，在这种情况下，使用回环器（Circultor），只有一个方向可以通过信号，如**_图10-11_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZHFwpj0Hy4qLBwWGlS92oG6JjupDlUKuCbic6vn83tdbBOTyhSRg1MXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_011_6d9b7271cd06.png)
 
 **_图10-11：回环器_**
 
 如**_图10-12_**所示，没有双工器，无线接收机和发射机都直接连接到公共(单)天线，发射时大部分信号会经过天线，但有一小部分信号会溢出到接收通道。在大多数无线通信中，接收路径的设计是为了响应非常低的信号强度（手机是uv级），即使溢出的信号量非常小，在LNA的放大下，对接收路径的干扰也会相当严重，在最坏的情况下甚至会损坏接收机里的LNA。接收信号时接收信号的一小部分可能溢出到发射器通路中，接收端的信号总量非常微弱，它不会损坏发射器路径上的器件，但是发射路径上通常设计来增强信号，所以溢出的信号被放大器放大，叠加到本身的发射功率，这种干扰会变得更加严重。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZXlEj1NdXPlibVuGUdb8QLoOD7ibNbT5dYCcDMJ7X36ngVmyFnM1kFT5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_012_ccee08bf4204.png)
 
 **_图10-12：发送信号溢出_**
 
@@ -115,9 +115,9 @@ ___€6.性能评估___
 
 就结构而言，双工器只是两个滤波器的复合体，因此双工器的特性是基于滤波器的特性。在大多数移动通信中，传输频率和接收频率之间的差距并不大（FDD），所以双工器的关键要求之一，就是如何将接收器的频率和发射器的频率分开。理想的双工器要求是有非常尖锐的频率特性，没有任何重叠，但在现实中，避免不了一定程度的重叠，如**_图10-13_**所示的双工器在1400MHz左右就有一定宽度的重叠，对于这个区间的频率信号，双工器没有任何作用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZtPMu3AxURjBg0lzFnhU5pVbMoYnyWCAibbicXj1jjUrsuliboKic8Pk9fQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_013_44b9648e5672.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZ1yibrC8hsZXDuXmZOKat73lB8RI3SVcMaFcNpBdtJfuuHGspmtLsCnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_014_db0ef4410b87.png)
 
 **_图10-13：DPX252501DT的Low Band和High Band存在交叉_**
 
@@ -129,13 +129,13 @@ ___€6.性能评估___
 
 ### 通带宽度：Band Width，简称带宽BW，通带宽度是允许信号通过的频带，单位为Hz。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFic3M1ia2TicLUMdEOMu9ScYkRDic6fsn9ickUP3jicQz9g18iaRnzKar5LOSTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_015_6a81150f7fe9.png)
 
 **_图10-14：参数视图_**
 
 隔离度：双工器的设计使得每个滤波器不会出现通带加载错误，测量从一个RF端口路径泄露至另一个RF端口路径的功率量来评估隔离程度。两个RF路径之间的隔离程度越高，泄漏越低，如果隔离程度很低，信号会彼此混入，导致干扰，或导致接收器减敏，必须对接收滤波器输出端的发送信号实施大幅衰减。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFic5FutsP4csk95iaG3wtvvJr1G0ySbowYyGQPfPiaia6yTDhrktMvPQzHCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_10_Duplexer（双工器）_images\img_016_cb4bcc725d60.png)
 
 **_图10-15：不同频率的隔离度_**
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/zW2OEIXAO8wu8Q\_ch0GCdg](https://mp.weixin.qq.com/s/zW2OEIXAO8wu8Q_ch0GCdg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTiah5rXLdlYGdViavjB4pXQicD0via3CrS5GiaflmUtuxluy6wkFEvDEVNgwnARIkum2CelriaMoNwxxfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_000_84b63bde9445.png)
 
 ____**★★★**______Debug Note-1---无法读取I2C地址______**____**★★★**____**____
 
@@ -21,7 +21,7 @@ _总线器件过多_
 
 考虑到一个I2C上挂载了三个从器件，分支和节点过多，并且走线也不短，所以怀疑是从器件过多导致Cload过大，无法和远端通讯成功。于是摘掉和另外两个器件的互联电阻，再次尝试，依然无法通讯，并且测量得到的波形质量并不差，如**_图1-1_**所示，我们向地址0X8A发送命令，却没有ACK回馈，说明并不是总线负载电容问题。（传送门：[I2C-2：基本协议](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485586&idx=1&sn=194afa016012d56904a501b6e2a259be&chksm=c335420df442cb1b06d55f756d7b82affd79e40ea0cf3f57a12a4124717dd893adf9e3d5bf5d&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TTiah5rXLdlYGdViavjB4pXQicBicbG3IeyRVVrDuG5OfPibySW5dLoUCDZpiaUzs82otbL7Sf3r7edbiaOw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_001_1d5d8929eff2.jpg)
 
 **_图1-1：向设备发送读写命令波形_**
 
@@ -29,7 +29,7 @@ _复位操作_
 
 虽然上电后复位Reset就为高电平，但是尝试在从器件启动后再复位一次，再尝试读取I2C地址，依然无法读到，侧面说明和时序没有关系。为了验证无法通讯是不是器件本身的问题，将其与MCU断开，直接飞线I2C通过盒子连接到上位机，发现可以读到地址，并且读写寄存器均正常，如下**_图1-2_**是逻辑分析仪抓取到的波形图，有明显的ACK标志。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TTiah5rXLdlYGdViavjB4pXQicu7zpc2KjtWBOCxc7UqiacId9CibKYaOhe7kE0z5MeXxG3xLMovhOrqaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_002_8df711c1294f.jpg)
 
 **_图1-2：与上位机通讯抓取的读写波形_**
 
@@ -39,15 +39,15 @@ _主器件I2C参数_
 
 那么主器件I2C涉及哪些参数呢，总线速度100KHz（标准），400KHz（快速），1MHz（超快速）、Data setup Time、Data hold Time等等这些参数可调，如**_图1-4_**抓取上位机和器件通讯成功的波形，测试的Data hold Time大概为560ns，远远大于**_图1-5_**器件手册中的10-250ns，说明手册中的此参数标注和实际不符，而MCU端I2C配置的是100ns，所以才通讯失败。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQZbBgkPZzKHB2hAvQ2JhVqgQUub4xdw9t2u0iayibtCFSfJfkHWEaUSIPfCVAbC1LV1nukfFHETIdQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_003_b0596921d95f.jpg)
 
 **_图1-3：与上位机通讯波形时间参数测量_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TQZbBgkPZzKHB2hAvQ2JhVqd9nw8m0BXtNLO6x0jrA3ELnndhuoFontWC9nicHrdCm3mQ0L45wWakg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_004_a0b5170608b5.jpg)
 
 **_图1-4：与上位机通讯波形时间参数测量_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiaCyCoQZ3ZawTQrNibEibukxdGIJQPiaEDibz3WDWsoJM3icicaF5AXa376O6Nj4QYjcibfKA4ay1lgK6Aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_005_e596e8ad4d81.png)
 
 **_图1-5：器件手册I2C时间参数_**
 
@@ -55,26 +55,26 @@ ____________________________________€3.如何修正___________________________
 
 如**_表1-5_**联系原厂核对修改后的参数，修改主机I2C设置的Data hold time即可。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREJuaP9icibic6t8qx0tSD5NoJRJDcKnM75zb8N6ImOskqVaYhqy5oibxsW7hWWbs7pCNk7BYW1eum8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_006_ce20e6302ed5.png)
 
 **_图1-6：更正后的时间参数_**
 
 ________________________________________________€4.总结________________________________________________
 
-对于支持不同通讯速率的I2C设备，高速率的往往可以兼容低速率的，比如1MHz-I2C的A器件，它可以接收来自100KHz、400KHz、1MHz的速率信息，但是如果与它互联的B器件只支持400KHz，那么B只能接收A发送100KHz、400KHz的信息。而100KHz、400KHz、1MHz的时间参数都有差异，在调试时不仅速率要匹配，与速率相关的时间参数也必须修改以保持兼容，因为芯片里面的I2C收发器ADC转换速率与频率f息息相关，而ADC转换速率就决定着这些时间参数。![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSfqib4iaOTicBJ1IVOdeIxcokAbClatTElVzv6sibRiasTZKF5IZXZ84niabr8yicZxD5icMKx3ghSzkeFkA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+对于支持不同通讯速率的I2C设备，高速率的往往可以兼容低速率的，比如1MHz-I2C的A器件，它可以接收来自100KHz、400KHz、1MHz的速率信息，但是如果与它互联的B器件只支持400KHz，那么B只能接收A发送100KHz、400KHz的信息。而100KHz、400KHz、1MHz的时间参数都有差异，在调试时不仅速率要匹配，与速率相关的时间参数也必须修改以保持兼容，因为芯片里面的I2C收发器ADC转换速率与频率f息息相关，而ADC转换速率就决定着这些时间参数。![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_007_3cd21c77f3da.png)
 
 **_图1-7：I2C主从机基本结构_**
 
 从**_图1-8_**可以明显看出，三种速率下的数据保持时间和数据设置时间均有明显的差异，以上述参数为例，Data hold time实际为560ns，说明器件仅支持到快速模式，但实际设置为100ns，而器件并不能支持这么快的采样速度，所以无法识别Bit位，因此仅仅保持SCK一致，通讯也会fail。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2bW7icT9ku03kicHr9vGpKgUicbd7fUbBTP4ONjSZ9RpPAoibNDxCqSNbK2A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_008_c5c7179dba9b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2bW79HWlPzIIrTzD0ibaLYNRISv1KwWicLuYwtzD3iaWsJcgAoaFnpfRl9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_009_66ad76546452.png)
 
 **_图1-8：几种I2C模式的时间参数_**
 
 另外有的器件支持好几种系统时钟（Syetem Clock），这时候其I2C时间参数可能就以System Clcok为单位，而不是直观的us/ms，如**_图1-9_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TShAuyBPS2iaoR0gicicMX9F2b8oECvyvSExHu5YnoiaSiaicLXxd1ZcMg0qu10E8Y8Bia8GK270yaLAric6A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Debug_Notes_1_无法读取I2C设备_images\img_010_283e4394756e.png)
 
 **_图1-9：和系统时间挂钩的I2C参数_**

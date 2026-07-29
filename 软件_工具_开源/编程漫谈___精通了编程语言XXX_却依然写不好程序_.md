@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/NPMU5UC0dM2yI47S-W5tEQ](https://mp.weixin.qq.com/s/NPMU5UC0dM2yI47S-W5tEQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVU5kRp8KHeOfUzAq0FvViaNUtdWy8QOHceu4pHANutiboRB0tSWOVRqW44l4AyOX6M1vQxQHDaX3NTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___精通了编程语言XXX_却依然写不好程序__images\img_000_f846a1a00138.png)
 
 当谈及“精通”一门编程语言，如C/C++、Fortran或Python时，许多人误以为只要全面掌握其语法构造、函数调用和数据类型，就能轻松应对所有编程挑战。然而，真实情况往往并非如此简单：纵使你对某门编程语言的每个细节都了如指掌，仍可能会在面对实际编程任务时，在空白的编辑器页面前感到无所适从。究其原因，在编程世界中，“精通”远不止局限于语法知识，更关乎问题解决策略与实战经验的积累。
 
@@ -34,7 +34,7 @@
 
 ## 编程七步法
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVU5kRp8KHeOfUzAq0FvViaNU1CbH7Oibao3o6icHsNYsIcPjG3Hja8mqdoqh9AkdID3VgXJO7HMpmOlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___精通了编程语言XXX_却依然写不好程序__images\img_001_561fb96fb00c.png)
 
 为克服以上困难，可以参考一套「经典的编程流程」，该流程分为七个步骤：
 
@@ -55,7 +55,7 @@
 
 总之，想真正编写出优秀的程序，除了扎实掌握编程语言之外，更应重视提高分析问题、设计解决方案的能力，以及对实际应用场景的深入理解。唯有如此，才能在精通一门或多门编程语言的基础上，进阶成为一名杰出的软件开发者。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\软件_工具_开源\编程漫谈___精通了编程语言XXX_却依然写不好程序__images\img_002_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhKN9NibKUk4Iee2akT5cdXhMLfscfphjLGWdJuKl1mqdaniawV7KmHAWozfqCXW2G3aRacibnJKDia8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LVDS原理及布板技巧_images\img_002_a0d91744989a.png)
 
 原理图  
 
@@ -80,7 +80,7 @@ LVDS也易于终端匹配，通常，一个尽可能**靠近接收输入端的10
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhKN9NibKUk4Iee2akT5cdXhfFRUVImaUyGw6xCyHPcuvZMQOpo3mESiaaoyZhAFfUdQPiclt5kLvXaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LVDS原理及布板技巧_images\img_003_b986dea4427c.png)
 
   
 

@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Cp24MIxLJ88gpRCNfb-52w](https://mp.weixin.qq.com/s/Cp24MIxLJ88gpRCNfb-52w)
 
-       碳化硅（Sic）器件具有更宽的禁带宽度、更高的击穿电场、更高的热导率、更高的电子饱和速率、更高的抗辐射能力……特性。产品通过工业级、车规级可靠性测试，应用于太阳能逆变电源、新能源电动汽车及充电桩、智能电网、高频电焊、轨道交通、工业控制特种电源、国防军工等领域。其具有高速开关和低导通电阻的特性，即使在高温条件下也能体现优异的电气特性，大幅降低开关损耗，使元器件更小型化及轻量化，效能更高效，提高系统整体可靠性。可使电动汽车在续航里程提升10%，整车重量降低5%左右，并实现设计用充电桩的高温环境下安全、稳定运行。![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VD0ZYpvlK3Giav6LgBcQEWZwBPE9RriaJqmCiadONx7xgOrDWG9rO3cjdog/640?wx_fmt=png)
+       碳化硅（Sic）器件具有更宽的禁带宽度、更高的击穿电场、更高的热导率、更高的电子饱和速率、更高的抗辐射能力……特性。产品通过工业级、车规级可靠性测试，应用于太阳能逆变电源、新能源电动汽车及充电桩、智能电网、高频电焊、轨道交通、工业控制特种电源、国防军工等领域。其具有高速开关和低导通电阻的特性，即使在高温条件下也能体现优异的电气特性，大幅降低开关损耗，使元器件更小型化及轻量化，效能更高效，提高系统整体可靠性。可使电动汽车在续航里程提升10%，整车重量降低5%左右，并实现设计用充电桩的高温环境下安全、稳定运行。![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_000_0cbb53861949.png)
 
       **********一、**SiC-MOSFET的特征************
 
       通过与Si功率元器件的比较，来表示SiC-MOSFET的耐压范围。目前SiC-MOSFET有用的范围是耐压600V以上、特别是1kV以上。关于优势，现将1k以上的产品与当前主流的Si-IGBT来比较一下看看。相对于IGBT，SiC-MOSFET降低了开关关断时的损耗，实现了高频率工作，有助于应用的小型化。相对于同等耐压的SJ-MOSFET（超级结MOSFET），导通电阻较小，可减少相同导通电阻的芯片面积，并显著降低恢复损耗。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VD0KqfuzKYQibaX1QQYFbWL3hhqhzAmm0UBTKWn8nWHhu6k2UDJE8Uutg/640?wx_fmt=jpeg)下表是600V～2000V耐压的功率元器件的特征汇总。
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_001_ed41cd9b11ac.jpg)下表是600V～2000V耐压的功率元器件的特征汇总。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDsibTQcoCvoHR1bdOhGicTToHNiaavXEfpzt0UeEwCeXribfPvVFuwCy1KQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_002_33827c6735fb.jpg)
 
 雷达图的RonA为单位面积的导通电阻（表示传导时损耗的参数），BV为元器件耐压，Err为恢复损耗，Eoff为关断开关的损耗。SiC已经很完美，在目前情况的比较中绝非高估。
 
@@ -19,7 +19,7 @@
 
 下图是各功率晶体管的结构、耐压、导通电阻、开关速度的比较。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDEq4G6qpaN6B3ocpgrzbZVZiaqQSbgKmdNwmHlHDRq6sMEAjgyKDwmDw/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_003_b92df96b2c7e.jpg)
 
 使用的工艺技术不同结构也不同，因而电气特征也不同。DMOS是平面型的MOSFET，是常见的结构。Si的功率MOSFET，因其高耐压且可降低导通电阻，近年来超级结（Super Junction）结构的MOSFET（以下简称“SJ-MOSFET”）应用越来越广泛。
 
@@ -27,7 +27,7 @@
 
 这张图是各晶体管标准化的导通电阻和耐压图表。从图中可以看出，理论上SiC-DMOS的耐压能力更高，可制作低导通电阻的晶体管。目前SiC-DMOS的特性现状是用椭圆围起来的范围。通过未来的发展，性能有望进一步提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDR2K7z9GrMqQJpPc57G7kYjqk01TBq98XEhraiatcZm5yL11OBVdFpxA/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_004_9553c7e68adf.jpg)
 
 ************三、****SiC-MOSFET与Si-MOSFET的区别****************  
 
@@ -37,7 +37,7 @@
 
 SiC-MOSFET与Si-MOSFET相比，由于漂移层电阻低，通道电阻高，因此具有驱动电压即栅极－源极间电压Vgs越高导通电阻越低的特性。下图表示SiC-MOSFET的导通电阻与Vgs的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDkvqDfrsqJLwReLV091UO6ICxfRTJ1icicuW7IwdPPXiaqicSjwWLsBe2qQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_005_0a02625aec4b.jpg)
 
 导通电阻从Vgs为20V左右开始变化（下降）逐渐减少，接近最小值。一般的IGBT和Si-MOSFET的驱动电压为Vgs=10～15V，而SiC-MOSFET建议在Vgs=18V前后驱动，以充分获得低导通电阻。也就是说，两者的区别之一是驱动电压要比Si-MOSFET高。与Si-MOSFET进行替换时，还需要探讨栅极驱动器电路。
 
@@ -45,7 +45,7 @@ SiC-MOSFET与Si-MOSFET相比，由于漂移层电阻低，通道电阻高，因�
 
 SiC-MOSFET元件本身（芯片）的内部栅极电阻Rg依赖于栅电极材料的薄层电阻和芯片尺寸。如果是相同设计，则与芯片尺寸成反比，芯片越小栅极电阻越高。同等能力下，SiC-MOSFET的芯片尺寸比Si元器件的小，因此栅极电容小，但内部栅极电阻增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDu8X4VZc0vbXu97YurwkFgJ4CEngd6Kt6GXD9G6b3JVIdKubhvLJjgw/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_006_eeff085d6a0e.jpg)
 
 这不仅局限于SiC-MOSFET，MOSFET的开关时间依赖于外置栅极电阻和上面介绍的内部栅极电阻合在一起的综合栅极电阻值。SiC-MOSFET的内部栅极电阻比Si-MOSFET大，因此要想实现高速开关，需要使外置栅极电阻尽量小，小到几Ω左右。
 
@@ -57,7 +57,7 @@ SiC-MOSFET元件本身（芯片）的内部栅极电阻Rg依赖于栅电极材�
 
 Vd-Id特性是晶体管最基本的特性之一。下面是25℃和150℃时的Vd-Id特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDsYozYomJ6xxCxe00Yc84k2V8n9biblpiaqFgkWWjn6czjWHbzjI94icFg/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_007_be5798342e15.jpg)
 
 看25℃时的特性图表。SiC及Si MOSFET的Id相对Vd（Vds）呈线性增加，但由于IGBT有上升电压，因此在低电流范围MOSFET元器件的Vds更低（对于IGBT来说是集电极电流、集电极-发射极间电压）。不言而喻，Vd-Id特性也是导通电阻特性。根据欧姆定律，相对Id，Vd越低导通电阻越小，特性曲线的斜率越陡，导通电阻越低。
 
@@ -73,7 +73,7 @@ IGBT的低Vd（或低Id）范围（在本例中是Vd到1V左右的范围），�
 
 众所周知，当IGBT的开关OFF时，会流过元器件结构引起的尾（tail）电流，因此开关损耗增加是IGBT的基本特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDpnznNprAyJA15c9pficpzCRDjEIdZpXibbhPYMgNbwT6RjtwcibJibBUBg/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_008_219b7cdef681.jpg)
 
 比较开关OFF时的波形可以看到，SiC-MOSFET原理上不流过尾电流，因此相应的开关损耗非常小。在本例中，SiC-MOSFET＋SBD（肖特基势垒二极管）的组合与IGBT＋FRD（快速恢复二极管）的关断损耗Eoff相比，降低了88%。
 
@@ -81,7 +81,7 @@ IGBT的低Vd（或低Id）范围（在本例中是Vd到1V左右的范围），�
 
 **与IGBT的区别：导通损耗特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDYx6a88xJvZmNVp55lmBibcRPovDv1xLYU33O41cbTZ3c4DeWDAUz7QQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_009_f1e0ca03d08d.jpg)
 
 IGBT在开关导通时，流过Ic（蓝色曲线）用红色虚线圈起来部分的电流。这多半是二极管的恢复电流带来的，是开关导通时的一大损耗。请记住：在并联使用SiC-SBC时，加上恢复特性的快速性，MOSFET开关导通时的损耗减少；FRD成对时的开关导通损耗与IGBT的尾电流一样随温度升高而增加。
 
@@ -91,7 +91,7 @@ IGBT在开关导通时，流过Ic（蓝色曲线）用红色虚线圈起来部�
 
 ************四、****体二极管的特性****************
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDeK4ctYoBWFpzIDiaT9erEvsvtNxAsayibN5VibJrUVicLJFv4ZTZKnASIw/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_010_7ca111eb00b9.jpg)
 
 如图所示，MOSFET（不局限于SiC-MOSFET）在漏极-源极间存在体二极管。从MOSFET的结构上讲，体二极管是由源极-漏极间的pn结形成的，也被称为“寄生二极管”或“内部二极管”。对于MOSFET来说，体二极管的性能是重要的参数之一，在应用中使用时，其性能发挥着至关重要的作用。
 
@@ -101,13 +101,13 @@ IGBT在开关导通时，流过Ic（蓝色曲线）用红色虚线圈起来部�
 
 在给栅极-源极间施加18V电压、SiC-MOSFET导通的条件下，电阻更小的通道部分（而非体二极管部分）流过的电流占支配低位。为方便从结构角度理解各种状态，下面还给出了MOSFET的截面图。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDOp1C253v53InZFK6PDRRot9Gs5m3j6tWjaicDUFqpvVk3Xx44Ubslww/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_011_eeb7e96c2920.jpg)
 
 **********************六、****************SiC-MOSFET体二极管的反向恢复特性**************
 
 MOSFET体二极管的另一个重要特性是反向恢复时间（trr）。trr是二极管开关特性相关的重要参数。MOSFET的体二极管是具有pn结的二极管，因而存在反向恢复现象，其特性表现为反向恢复时间（trr）。下面是1000V耐压的Si-MOSFET和SiC-MOSFET 的trr特性比较。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDAyD89v9uZp3QUB9IGXtnicrgrzljV7TVp9ahRicyLXib3pcGI6PmLtx6A/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_012_ea9852d0cc01.jpg)
 
 如图所示，示例的Si-MOSFET的trr较慢，流过较大的Irr。而SiC-MOSFET 的体二极管速度则非常快。trr、Irr均为几乎可忽略的水平，恢复损耗Err已经大幅降低。
 
@@ -119,13 +119,13 @@ MOSFET体二极管的另一个重要特性是反向恢复时间（trr）。trr�
 
 下面是演示机，是与功率Power Assist Technology Ltd.联合制作的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDj035dFZa927ZBFqLbiawEKaqVXqFl6faxf5OTCeFlYeNVYhlKCnenvQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_013_08f80ad461ef.jpg)
 
 全桥式逆变器部分使用了3种晶体管（Si IGBT、第二代SiC-MOSFET、上一章介绍的第三代沟槽结构SiC-MOSFET），组成相同尺寸的移相DCDC转换器，就是用来比较各产品效率的演示机。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDZiby78QTzVEYJbUgyBicmtwdNaTKmuMYNyyyE0uBFNZY6LJqccv6UDCg/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_014_bf260a4478a9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDXWkiaLq9bSK2I9VndTNrbVicFucNbzN7EsuOxiaQCWHOJHbOUCGqpQAzA/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_015_7836e6d6348d.jpg)
 
 首先，在SiC-MOSFET的组成中，发挥了开关性能的优势实现了Si IGBT很难实现的100kHz高频工作和功率提升。另外，第二代（2G）SiC-MOSFET中，由2个晶体管并联组成了1个开关，但由于第三代（3G）SiC-MOSFET导通电阻更低，晶体管数得以从8个减少到4个。关于效率，采用第三代（3G）SiC-MOSFET时的结果最理想，无论哪种SiC-MOSFET的效率均超过Si IGBT。
 
@@ -133,7 +133,7 @@ MOSFET体二极管的另一个重要特性是反向恢复时间（trr）。trr�
 
 脉冲电源是在短时间内瞬时供电的系统，应用例有气体激光器、加速器、X射线、等离子电源等。作为现有的解决方案有晶闸管等真空管和Si开关，但市场需要更高耐压更高速的开关。针对这种市场需求，利用SiC的高耐压和高速性能，实现了超高电压高速开关。从高速性的角度看这是Si IGBT很难实现的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VD0vxxdNAiaIfzyicjpQwNiapZVu6AdPkrsGIsvUxUemfodWBERx5iczQE9Q/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_016_497dae2e80b2.jpg)
 
 超高压脉冲电源：
 
@@ -141,13 +141,13 @@ MOSFET体二极管的另一个重要特性是反向恢复时间（trr）。trr�
 
 应用案例：(1)荷电粒子加速器；(2)医疗用设备电源；(3)等离子发生器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDlP5UVvYIIica39XnXjKusFlHLdJsg3P27jx9XCRgbonjMm7VaichamnQ/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_017_5df5e45a66df.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDuEdodxt9aS4jNz1qZT65X0z8VBk6UDhR9OFmUUEIzyemaGE7ibB8zeA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images\img_000_02fd085ad661.jpg)
 
 1～10kV随机脉冲发生器：13.2kV SiC开关
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmibGDTkQSz6ajGeLLicot0VDAy71IT4hqqlGH8qV1XX1z0TTl68dGPehaqv41HriczcIyTaGRdnnYFw/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_019_b93c675058e5.jpg)
 
   
 
@@ -165,10 +165,10 @@ MOSFET体二极管的另一个重要特性是反向恢复时间（trr）。trr�
 
 ‌**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_020_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_021_a7ecee98ead9.png)![](SiC_MOSFET和Si_MOSFET_IGBT的差异与应用_images/img_022_9bbc7b9b15a2.png)

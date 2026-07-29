@@ -25,13 +25,13 @@
 
     下管开通时门极信号的电流动作如图１ 所示，其中，ＶＧ为门极信号，ＲＧ为外加门极驱动电阻,ＲＧＩＮ为开关管寄生电阻，ＣＧＤ、ＣＧＳ分别为开关管栅漏极、栅源极寄生电容， ＩＤ为漏源极电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHW9KXUFawIHyNu5uFTSYnuNJkJP20ZMwv19VsDBVbAm7loHIo7PnJ8DA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_000_0238c5aecb90.png)
 
 为使下管导通， 对下管门极信号ＶＧ施加正电压， 下管栅源极寄生电容（ＣＧＳ＿ Ｌ）开始充电， 下管栅极－ 源极间电压（ＶＧＳ＿ Ｌ）上升， 当到达门极阈值电压（ＶＧＳ（ｔｈ） ）以上时，下管漏极－ 源极方向流动的ＩＤ 开始增大， 同时上管源极－ 漏极方向流动的ＩＤ 开始减小。直至上管的ＩＤ 减小为零, 此时上管寄生二极管关断， 中间点的电压（ＶＳＷ）开始下降， 上管漏源极电压ＶＤＳ＿ Ｈ上升， 同时上管的寄生电容ＣＧＤ＿ Ｈ、ＣＧＳ＿ Ｈ开始充电。上管的ＣＧＤ＿ Ｈ、ＣＧＳ＿ Ｈ 在充电结束后， 下管的ＶＧＳ＿ Ｌ到达所定的电压值， 下管开启动作结束。  
 
       随着上管漏源极电压ＶＤＳ＿ Ｈ 的变化， ＣＧＤ＿ Ｈ 上会形成电流ＩＣＧＤ， 该电流方向如图１ 所示， 分为ＣＧＳ＿ Ｈ侧流动的电流ＩＣＧＤ１ 和门极电路侧流动的电流ＩＣＧＤ２，变化开始时ＩＣＧＤ主要在ＣＧＳ＿ Ｈ侧流动， ＩＣＧＤ１ 计算如式（１）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWUNpCavO4LcznDxkLJ9ZPM2efCnvYFBahed6HjDY9OoaEXOraCkoWNA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_001_b8ac764176fc.png)
 
 下管开通时式（２）和式（３）所示的电压尖峰会使ＶＧＳ＿ Ｈ被拉高即串扰电压， 如果这个串扰电压的幅值超过了上管的开启电压阈值， 上管将会部分导通，上下管之间将流过直通电流， 增加两个开关管的开关损耗， 严重时会导致器件失效。
 
@@ -43,7 +43,7 @@
 
     本设计选用国产芯片HRGD4033作为碳化硅MOSFET 驱动电路的门极驱动器， 采用零压关断的方式。该芯片在一个封装内集成两个完全隔离的驱动器， 采用施密特触发器输入， 具有高电磁抗扰度、可调死区时间等特点， 其性能参数如表１ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWLtzwy9N2mibwm5icpcwuv9LvTNMma5HcbTCv2nOQFvZTK7wxzl2icibVibw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_002_636c59b4e6a0.png)
 
 由于该芯片内部未集成米勒钳位电路， 为抑制串扰采用外接无比较器米勒钳位电路的方法。
 
@@ -53,7 +53,7 @@
 
 为此本设计采用一种无比较器的米勒钳位电路作为串扰抑制电路， 其原理图如图２ 所示。       
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWSNp48tAFEtUibiaxcfcOosmuz1yvf6z3fgV3lsicymyJTRmP3icQXdgSLA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_003_d44b1725731a.png)
 
 该电路的特点是无需比较器， 可用SiC MOSFET的栅极驱动信号驱动。其电路动作过程如下：
 
@@ -69,17 +69,17 @@
 
    晶体管Ｑ６、Ｑ１０ 的外围电路如图３ 所示， 发射极－ 集电极间压为ＶＣＥ， 基极－ 集电极间压为ＶＣ１９，Ｑ６、Ｑ１０ 的基极－ 发射极间电压为ＶＢＥ 约０. ７Ｖ， 流经基极的电流为ＩＢ， 集电极电流为ＩC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWdw0TgtB2nYytWuictmANicUmyvr0cWaZf83Bt04kbc1SOAmuKicWZwndA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_004_a35e43c07698.png)
 
  各元器件的参数设计流程如图４ 所示， 希望钳位的正浪涌幅值ＶＣＥ设定后， 根据图４ 完成各元器件参数设计。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWpEJQDS4QYSWHhbDMtPGdRsZYqu6bn21zJGicawmzQLmV0hiaymB0CYdg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_005_c849f1bbaff6.png)
 
  希望钳位正浪涌幅值ＶＣＥ设定后， 可求得ＶＣ１９ 如式（４）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWCYeibE7P5LAAQQibKpptsMmCeTPJialHYe0rlTGpiaGKrLyTwia0h8OyPug/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_006_db06661d3f59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHW9mM7UXexIMe8LzG2jwdXJicR1iasGfiaeYk9AXfdWndgo3kVaU0rQqcKw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_007_d76e3a5e45ab.png)
 
 此时测定正浪涌值， 若小于设定值ＶＣＥ则调整结束， 若大于设定值， 则减小电阻R18阻值， 按图４ 步骤重新调整电阻电容参数， 直至正向浪涌值小于设定值ＶＣＥ。
 
@@ -87,11 +87,11 @@
 
     为验证外接无比较器米勒钳位的SiC MOSFET串扰抑制驱动电路的串扰抑制效果， 搭建了SiC MOSFET双脉冲测试电路， 其原理图如图５ 所示。图中， 上管ＱＨ 和下管ＱＬ 均为型号EC650N100S9的SiC MOSFET，上下管采用相同的栅极驱动电路。实验中仅给下管栅极两个触发信号，而上管的栅极触发信号始终保持低电平, 因而上管栅源极两端电压ＶＧＳ＿ Ｈ的变化完全是由下管的开关动作引起的串扰电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWqesNusm5cLbsMvl0pQE8sHHJVQlM7FjZwE0uzXp3SCcib4PyU8SQgwg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_008_9eec2fe4feec.png)
 
      由串扰产生机理可知， 增大栅极驱动开启电阻，减小关断电阻可以减小串扰电压， 因此本设计栅极驱动开启电阻取10Ω， 关断电阻取5.1 Ω。为避免因PCB布局的不同而影响测试结果， 保持功率电路不变， 实验中输入电压取270Ｖ， 实验环境如图６ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWG2lYA3QNIAqC0thgIlZNQP9icYLco1BF0jJB0uFExHUgP7vHdxKhU8A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_009_30b10e12d382.png)
 
     型号为EC650N100S9的SiC MOSFET开启电压为2V， 其输入电容Ｃｉｓｓ为２. ３ ｎＦ，为防止SiC MOSFET误导通， 因此本设计将预期钳位正浪涌幅值ＶＣＥ设置为1.5V；晶体管Ｑ６、Ｑ１０ 选用HB772 － ＧＱ，ｈＦＥ设为３０， ＩＣ 设为2A。
 
@@ -99,7 +99,7 @@
 
      基本驱动电路（不加无比较器米勒钳位电路）的测量波形如图７ 所示， 图中ＶＧＳ＿ Ｈ 为上管栅源极电压， ＶＤＳ＿ Ｌ为下管漏源极电压， ＶＧＳ＿ Ｌ 为下管栅源极电压。从图７ 中ＶＧＳ＿ Ｈ的波形可知， 此时串扰电压最大值为4.753Ｖ， 已超过SiC MOSFET的开启电压阈值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1MdS6c7nQpMuCKbjgDlHWezJHXpWwAQVia0slPEibc0L7F9jzsjich9CqTPUiciaDvPUfzfAicY2Sp74Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_010_d5da38423a86.png)
 
 串扰抑制驱动电路（外接无比较器米勒钳位电路）的测量波形如图８ 所示。由图８可知， 外接无比较器米勒钳位电路后， 不影响SiC MOSFET的开关特性， 但对串扰电压的抑制效果非常显著， 串扰电压最大值仅有1.078Ｖ， 比基本驱动电路降低了77％， 有效减小了上下管直通的风险。
 
@@ -109,10 +109,10 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_011_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET串扰抑制驱动电路设计_images/img_012_3ade3c3d8599.jpg)![](SiC_MOSFET串扰抑制驱动电路设计_images/img_013_84aa944feb13.jpg)

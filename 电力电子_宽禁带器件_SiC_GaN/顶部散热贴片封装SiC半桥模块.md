@@ -7,17 +7,17 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHc2cFIIe5UnYRuPQBogJNa3ibKaXDAFRhYLXUp3CibzEtv2gGq33SdSSBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_000_a947a67df914.png)
 
 SiC功率模块凭借其高温稳定性、高能效、高功率密度、高频适配能力、低损耗，等性能优势，在电动汽车、 工商业储能系统 、 航空航天和电力电子系统等多个领域都有广泛应用。特别是在电动汽车中，800V架构的电动汽车电驱系统基本上都会采用SiC功率器件，这有助于缩短充电时间，减少热量产生，提高电池寿命‌。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHcvsc5q0PIOeaB5AxibKkTngXcKL18ibHLUwTY8IEdF5RVfT2LzbdAlAwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_001_27ce2627f075.png)
 
 随着碳化硅器件尺寸的不断缩小和功率密度的显著提升，SMPD封装的SiC模块的性能优势明显。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHckKgJAVspibgvLZEicJviaFtkIdo3x7QPgyg2fDZPw0jMhA96exQYGAc3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_002_ac2127775b57.png)
 
 SMPD是一种贴片封装技术，具有尺寸小、重量轻的优点，能让应用系统更小巧、更轻便。对比传统插件封装产品，安装更经济、简便的特点。另一方面，SMPD封装的抗振动和抗G力也更强，可靠性更好。由于SMPD模块内部采用DCB(陶瓷覆铜层)绝缘，所以多个模块可共用散热器，简化了热管理设计，因而能更好地实现新能源汽车、便携设备、飞行器等应用场景对高效率，又更紧凑和轻便的追求。
 
@@ -37,11 +37,11 @@ SMPD是一种贴片封装技术，具有尺寸小、重量轻的优点，能让�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcPCiaqHecb0C1V4jxMa3DC0tiaVumFTxQMXsmYbpTQd0xwFkibz3ucOqlib6RU8XAc0v1k8gepic9Dq4g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_003_4fbd46ca30ec.png)
 
 ▲爱仕特SM8模块介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcPCiaqHecb0C1V4jxMa3DC0kuSVkZMGEbtI3UVBOICpnnsaonrJgSbkcPR3p5U9hwRP3icvJjofC8w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_004_9cab69658201.png)
 
 ▲爱仕特SM8模块参数
 
@@ -81,7 +81,7 @@ SiC材料先天优势带来高耐压与超低导通电阻Rds(on)，导通损耗�
 
 内置NTC温度传感器，可实时监测芯片温度变化。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcPCiaqHecb0C1V4jxMa3DC072ibJRa9bOT6h8nHP0XTeLWJ4FMK6omy2pmsVvciaDldVye7liaZ8zwFg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_005_e193bc8b17f8.png)
 
 ▲SM8模块剖面图
 
@@ -111,7 +111,7 @@ SiC材料先天优势带来高耐压与超低导通电阻Rds(on)，导通损耗�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcPCiaqHecb0C1V4jxMa3DC07C45sfELJyabaIKBNYsrAiaTc5usSgOCJB2AkzG4yfhhlKL66Pwo8fg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_006_d3b6cf37f0e1.png)
 
 ▲双向充电器电路图
 
@@ -131,7 +131,7 @@ SiC材料先天优势带来高耐压与超低导通电阻Rds(on)，导通损耗�
 
 车载充电机 、便携储能充电器、电机驱动器、光伏逆变器、硬开关和谐振电源、直流斩波器、DC-DC转换器、感应加热器 、       温度和照明控制……等领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHcOLiazuLvS6EOTbVINwOPCFMG9bFOX40YQXN3JWYPEhMkUeBiasNezIDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_007_4ab4261d8c60.png)
 
 总结
 
@@ -141,10 +141,10 @@ SiC材料先天优势带来高耐压与超低导通电阻Rds(on)，导通损耗�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_008_80a84da559fb.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_009_a285c2b1805a.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\顶部散热贴片封装SiC半桥模块_images\img_010_018eedab2a70.png)

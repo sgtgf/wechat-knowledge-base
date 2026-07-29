@@ -8,121 +8,121 @@
 
 作者：Johann W. Kolar et al.Johann W. Kolar et al.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz3arDUseQPMkOqqz6lypkQwaCpWJQ7fVtvGeGibGc7zwiccicqSWLqN51Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_000_976932de4068.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz6LQ21piafn1naCyibkXCklq18rJEjobOyv1ibJACCVVDsLvPptAqBOrwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_001_c348c624c6ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz5bVDUGF0LqAf6fxib4PTutPT0K6XHo7HgLQhhvibUCLvj0Mo5ibdT8zHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_002_39101cb0fed2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzWOLbBbDKCTvV0BwGdCOBUNPBKzCiatOVYBQ6UxOWhicxZbvic3jkXgb1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_003_c32a9131cebc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzmp5IRRCo7pHaxRribbLzib8Xsq4rk7nV5DOHbPkjDcrvNfnR0ic4Xk0Fg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_004_23ac0cdd473c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzbEtbbyibicd771U3nrc9wibMwhaZZfpVcQNo6wpy2ZRfpvWXXy0bAkzBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_005_1a157967e620.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzGFubDvBVU0S7TlqGk4q4VaViaqsNFSxad10MibKDLwqaYklK6RE4Dz6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_006_83e346f3acff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzD6IArCjQ6egsiaeUDLH616WrzV1FkogmvOVc5HGR0Skevb5Db4DNjXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_007_c9ae32c4a46a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzBOz5Uk154eRicOx8NbDGt2CA1Smot3LTIRAGECsg8rAlAf8LMYduIDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_008_ec0f210a2976.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz0kcfp3ZaVAqHjzVjWFmnbo17EoWSQvibj1RwPHpaicGDa2wRWbXO9HQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_009_1dadc5c8400b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzliboia60LiabrrsLsSIm40hoguYAPYdm2dvCuyaSaCib4AV80IB5RlsCeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_010_216369e965b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzK81jjjj83KyR0whllTib0rAc8jDf1AQrSBL24aicfz2libKHUqWDEz0oQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_011_71190e773a20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzTokCrtJ5kMy5PvCWia9mOKUg5iaJxmJDoAvXeppDFjbhRPppBWWPHGrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_012_6a9bb0407479.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzavheicG72nwKkcviaWaOfiamoLhbXNIuK5bs0vsV1WBmFBE8abTobIUyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_013_05aa825c20cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzWlInKlf7MUMtxmauHQGRrtfy6Hcy1FiboIQPjce6L7aibpmACT2VY7Lg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_014_4f974c495c62.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzVaicJmO303ojdOTI9pVRJpdOd6ZdOg1zf0GcoiaHeH6aOlBlVejPswmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_015_5dc0ec98d698.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzc4dClicvt49O5sp7c4vH6MUu2FFLTBXTsibsjKK1msbADHxN8hthM0Rw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_016_8ea3057728ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz8fPuVloAiaD323ZyXm8HBUm12WAvF3cKUic3Dmpiatjft1IwKk6weFFxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_017_af7167efddfa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzqEE7Cjq8cLsica2IVvUT7STwHSWdIxw6QEFUkH4MKVLt9GGeO8ibBBFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_018_3e5e361ce44e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzSz3zaQaKyQibAwMjOsNnbXvKEEJMcstRjAz3vxe39JhHtQPXnytjavA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_019_037745a3db11.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzsIjqybt5pjdicMibIPkmCUfXtw1q4ljTGDADquVufoVQvWsnRoUEEsuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_020_566bd2cc80cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzIKDqia8BKibmOYU0xB1BlEPQiaadOiaLwibRFL0FdwXGV7nYftd8HOkYeSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_021_d9065b634f48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzDIFkO1kkxLP2b80P46RtDhZe0bCYVWPA165zX9XkuDhVG2Uaic1zf2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_022_0a1db76026d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzLxPnXl9giaRkWYV7EPXgVHblicGUGSg20vMPy66ibiaMD69MQkMwTlichDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_023_fea3a76b314f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzQWSk5R4tg9XKtvnmia9wzBhuhAJzrLOuuHXWUDibqwqmzicGKbjecFGfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_024_f61d2af95866.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzB11WIsSdy1VZrN7KSFqIXF2vsk084E0nicN7uBvKiaFlWSuaibLIEXvkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_025_98185d71dc39.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzyicqN4DnaIJ6KEPZpt0r7TLbDqGJuoAkeshiauVja9mia8ynCXLbdiaoeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_026_6c51dad2b0d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzJzPyN18TclwMzSJntv4H4kAjpZKDIAKdoKCp3fW7EOO345u5NZ4ZZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_027_1a83f009f2dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzO2yChsxBEQ7hEg39wPTGD5JMOx0qDxiauDEWia7vaGSKb7DqpPbdDT4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_028_3a3c1278e338.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMztyBVG5KJ07dUaeGj5ounn3hXES10FndowLvM4vUX1AGZWZDLribBafw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_029_09db0bbdcf25.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzmo6grLFLsvOViccote6PPACuXeA6vsdQpZO32TibbJKMO7w2wKro0Xvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_030_230c064bd957.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzUVpUz2srbX2b0KDjMiahCYEexZicMpKSYw2BJfJWLhCNT3WiaA2wZ1NCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_031_a7b3bb9ff46f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzLykf8sFhCzBMFDoNehcAprCYr90D6VorRkibyVqvQcWRMy89flyLWOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_032_723a24f37f06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzPB3VvMDCT1cMfdiaJj0mVeGJv8fncQcouJicJXyU4B0vTDRibGEJIAepw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_033_7e63515c413a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz8HCcBVpbOalwvr3AMdteeTcqicLIuYiatfNYPeX5WdicciceK8kLCVmcBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_034_31efadfd37bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzmibUcUibeDWBGa7mkShbnsMPQcLX53xiaWLia0ZmQQOSLpSwfX3IWMxibtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_035_ff9c3f38cb19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzVOODDDqmrORYCw0eEZqUmYuP5sOgofsc4gibJrEX5Ezf0ZfEOQqa8jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_036_0ec07362f34f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzialdFPVQDrOMkO2RUYda8HU6BzpMx7IwZ7qtlFmsJQz3NVspCHHOXGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_037_99534ec01615.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzQnyeOM3eR2WCu3KRUGfbKP4NpR6LX3r47efL4fF2SjoOSlWrNcaCLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_038_d27c09f2d8da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzncxxnhvgDaRBJBnVxQ6Sxh0icjibJlpiaoNDmU1ISFB5vQUicjagRl1BKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_039_77442e77d0d7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMztKYVFd1rFBiaOrBEib1dLRSblb84bX45TJHk3icI4A21FOogsAHePHOzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_040_ce76a320a861.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzAQCEDnL50YVuiaZCmj5IkiaeU6c87OsicnFytOzhic1PBiciaKlaIxIpIEibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_041_44b8adc9a255.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzHqJKRWpzDPyTogOqPEzPmcJicjw1cVPm5WJib3y0hjNZGYDMibDMFoicFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_042_334c64e4eabd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzYDgiaa3icicrv3CwGibVjv93IAAI0iafIIT6DwB8G2aXOrrh98fVZ0icI4tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_043_57ea3ad81f63.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzJib9wakcib77taib21ciar4aCL59de77pXS7xwGwQ8eYGN9Ml7d1NgIiafg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_044_d02f17815de2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzw9l8DeMUbicmtQSx40CcYicm6JgbPyj64s798FXBDj9bGzYUJ8JglH5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_045_9c9be0e6caf6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzWdkSHMs4lrmFI6HHNDu3nic5piab19Cv0lQgSbj3VtFTotjMsUkoqicew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_046_4c6506730428.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzQl8MUvIic2xTELsxy93dCpib1B35WLOooyqfOVKtd7aHRDIPLQUaFDIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_047_9b788e5ab0b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz7iaZWGx2BibvcsghLPfebarDKmaYJfK0F4zo5gxr2b1m2bPleprWhibTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_048_907e99376c67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz6tG3qzJ12LPpY6M56Ys29icmVKGmp0ib9LjficaIDY4PSLAz0wdh8ibX0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_049_9fe73bb1efaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzTia5tlOwBq7pffgUTEVOgJOoH8Z61icjMbMRGPLUanYEQTAkdSQT6rcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_050_b1333ec9e548.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzw9WZUeSV1h8UDRIpZ67ibvSOufE65EI4x2xjxDibUVIkFc3yWg8RibXlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_051_bb413a3af98d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzr0zT5iasfSgAhBaA0S5sCgVAibUBDm1g2JNENS4CkvReDqxt4wWeylvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_052_53195634e493.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzgLMpQ0rcUWIlGYDbibKP6Pds5BgwnLU8x2fxoGVQa3gqQl9axzfjTgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_053_853f4cc0e7f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMz1EUNcMbDwLPffAofibZK0ZfmqSeyQgUPWzaM4rsE3QlyTzro6KUkibibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_054_e67a909f18cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzdoSicwibGNdpc1t1HO6q26IX7bZ6rSibeyjpYibc6Dxmj6kNPlcfod1ib3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_055_2db81b79c207.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzhWr67icVRZvy5LHNHKSjZRr5wpdhqEqnG61KuiczEW84vhxMbFVQd53A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_056_d1711b1131ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzBhYaIYYppQicj9Xbpqich96OjIasBtBboqjM9uzUiczMobMFgAB5Wm6zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_057_20dae62507d0.png)
 
 注：文字与图片报告无关
 
@@ -132,7 +132,7 @@
 
 传统的三相变频驱动使用硅基IGBT或MOSFET。SiC和GaN作为第三代半导体，带来了革命性的进步：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzhn6jJHlPXe8nxicTw1VQCVc4ff9A3tCLuDib3ojcVeuVQNct1aVjEGQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_058_157af773fab4.png)
 
 **带来的系统级收益：**
 
@@ -209,7 +209,7 @@ SiC/GaN器件的高性能对驱动电路提出了严苛要求，驱动设计不�
 
 虽然同为宽禁带，但两者有各自的最佳应用场景：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskicXsUPkScibBCr7xJKpyicMzpLLq9dJFmDicO56f8qzKtpJcCd1uvricdRCVQcia6bPWEfJSxFy6yEQtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_059_a48e244b0bfe.png)
 
 **简单总结：**
 
@@ -256,13 +256,13 @@ SiC和GaN技术正在飞速发展，未来将看到：
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4AwTP5DSvmZFZic3xkAFulqWKwibNHHHunic2jibEIJCEude2yzqbxmbFC0icLKzqGqyHIgMKlPNLBsg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=79)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_060_830574cf7334.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk4AwTP5DSvmZFZic3xkAFulK1JsN7fzVv69cZzICyIicEu1uds62TLoQrEafiaJ7gOlzDaTicLLDRKuQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=80)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_061_cc337b07a1c1.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk4AwTP5DSvmZFZic3xkAFul7cRQBZmiaViborNv5SwzDlc5ce90NEeTjBdUoaBzzWV8eia2Pkq1wDLZw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=81)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新一代SiC器件_GaN器件的三相变速驱动器系统_images\img_062_81c96dd11135.jpg)

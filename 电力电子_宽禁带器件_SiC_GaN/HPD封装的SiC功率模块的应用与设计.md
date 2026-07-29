@@ -7,13 +7,13 @@
 
 HPD封装起源于英飞凌对新能源汽车电驱系统的深度技术积累。2015年前后，英飞凌推出第一代HybridPACK™ Drive封装，主要针对硅基IGBT模块设计，旨在满足电动汽车对高功率密度和可靠性的需求。随着SiC功率器件的兴起，英飞凌在2019年推出兼容SiC的HPD封装版本，通过材料优化（如采用高温聚苯硫醚PPS材料）和工艺改进（如双面银烧结技术），使SiC模块的结温耐受能力从175℃扩展至200℃。这种封装形式本质上沿用了IGBT模块的三相全桥拓扑结构，采用灌胶工艺和标准化引脚布局，便于车企在现有电驱动平台上快速导入SiC技术。目前，HPD封装已成为全球功率半导体行业的标准封装之一，被广泛应用于800V高压平台车型和eVTOL航空器等领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwRVicggpfMXPrHGssPx4aKjFCGCic6PTW8Kt9EK29z1EQ71icmWeX2NfrQAMm4VibsCI8GQunf3LulQ/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_000_8614f1d5ee73.png)
 
 HPD封装模块外框图
 
 比亚迪半导体在2020年推出的首款车规级SiC模块就是典型代表：1200V/840A三相全桥结构，采用HPD封装并规模化搭载于“汉EV”车型。随后在2022年，该公司又推出第二代HPD封装的1200V/1040A SiC模块，功率密度提升近30%，展示了HPD封装在功率扩展上的潜力。这种封装之所以被广泛采用，一方面因为它能复用已成熟的IGBT模块生产线（如焊接、键合、灌胶工艺链）；另一方面其机械结构和散热设计与传统水冷系统兼容，大幅降低了整车企业的系统重新验证成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwRVicggpfMXPrHGssPx4aKEID2loYqVbuXwQsFVp3yfKGINGbDhOdHVErbF86h76srlJvHc5mNAg/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_001_b4eb42fbc426.png)
 
 SiC器件在新能源汽车中的应用优势
 
@@ -23,7 +23,7 @@ SiC器件在新能源汽车中的应用优势
 
 HPD封装模块的特点
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLnu57BEnoXiaAWMZlykmQJqtGd5BEem48qIPKziaPrC5VRha8Nv4LAcaA/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_002_94672a065bd8.png)
 
 HPD模块实物内部图
 
@@ -41,21 +41,21 @@ HPD模块实物内部图
 
 HPD封装模块的产品介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLCMwBekIiaWcVcBU4FgN8JnQtKSQ4iaicicLzqpQJ2o9icEb8OH5VFAic1HvQ/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_003_bd43ea2ae49d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLuv4m96gtKhfCEKdaB6J2rFIib6X6P9NT17t8KMiayTJFH1EEpMYXNXhg/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_004_3515077d1880.jpg)
 
 产品实物图（标准款和长端子款）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLTJL1hmkvKt4sV98CdpTA4zEHfIu1WS5o73TZRy9m26WrbQRhflYYng/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_005_6e7b8ef4870f.png)
 
 产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLWuaicc88fap0egmQvSV1bMmWtZMuzERXLRS0I1UM5D9FyP2wQtHAU7Q/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_006_58355f589d9e.png)
 
 产品尺寸图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLBTRbHicu7jvRLtHPs3CIRg3GhoKLpV3sbz2QSRyG5cGxI38ROeb2H6g/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_007_067cb7a3bdb5.png)
 
 平底板产品尺寸图
 
@@ -69,7 +69,7 @@ HPD封装采用紧凑的平面设计，模块体积较传统封装缩小20%，�
 
 HPD封装支持SiC模块的高结温运行。英飞凌第二代HPD封装（HPD Gen2）的SiC模块持续工作结温为175℃，短时扩展结温可达200℃，累计持续时间100小时，满足汽车频繁加速等极端工况需求。其散热设计采用直接水冷结构（Pin-Fin或Wave散热基板），配合AIN+AlSiC陶瓷基板，热阻较传统封装降低30%以上，可快速导出芯片热量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLdIPXwEKHLTeyvjbbFOknCriauJJLSIfEc7HY8lQmVvgWlYSwbXQNRBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\HPD封装的SiC功率模块的应用与设计_images\img_000_3eed2b1fb36e.png)
 
 针对SiC芯片的高温工作特性，新一代HPD模块通过双面烧结工艺和AMB活性金属钎焊基板实现热性能突破。以比亚迪1200V/1040A模块为例：
 
@@ -97,23 +97,23 @@ HPD封装的标准化引脚布局使其具备灵活的功率扩展能力。通�
 
 HPD封装目前仍是中高端电动车电驱系统的优选方案，特别适用于400-800V电压平台。其三相全桥结构可直接替换原IGBT模块，简化系统重构。例如比亚迪汉EV、唐DM-p等车型采用自研HPD-SiC模块后，实现续航增加5-8%和零百加速提升0.5秒。但需注意的是，2023年后新上市车型（如蔚来ET9）已开始转向半桥模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLbpic53joiaicmplzf3E6Tl3MT3jMdO2yb74I3e1dzwgicEyl2Dzb17Rkog/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_009_d19e7df354e2.png)
 
 2\. 800V超充基础设施  
 
 在直流快充桩领域，HPD模块凭借高耐压（1700V）和多芯片并联能力占据主导地位。爱仕特推出的1700V SiC HPD模块支持350kW充电桩应用，其铜底板直接螺栓安装的封装特性，更易适配充电桩的强制风冷散热环境。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLEtvvtYOExaSokkMcYlicVCVHLD9GZD5iaAHIw0eNDJicltv3ZU0X6ZMEw/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_010_4712fd6e7173.jpg)
 
 3\. 工业电源与轨道交通
 
 针对光伏逆变器、储能PCS及机车牵引变流器等场景，Microchip推出的SP6LI系列1700V HPD模块整合了“Augmented Switching”技术，通过可编程栅极驱动器优化开关轨迹。该设计将电压过冲抑制40%，同时减少电磁干扰，满足了牵引系统对高可靠性>100万小时的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLR5QicnE273ibzXvqpiarcTtt8kzqrAgTFibMxHicmibH0e0dqVsRpO9WcjcQ/640?wx_fmt=jpeg&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_011_1aeca08345a4.jpg)
 
  下表概括了HPD模块在不同应用场景中的性能要求对比：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwRVicggpfMXPrHGssPx4aKhjaic5Ity5VWSQibmLWFcnq5TibyErBfDukSAAjmLxff77DZQqmh2KPUA/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_012_480b64e63564.png)
 
 HPD模块方案设计的关键要点
 
@@ -163,7 +163,7 @@ HPD模块方案设计的关键要点
 
 ⚙️ 技术挑战与行业演进趋势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLiaEUYIy661ABXUvEqSaZefWoibAbcjucLNkuq9MlMrabt5gZPu6ABxKA/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_013_2d21b82a9b2c.png)
 
 尽管HPD封装仍保持一定市场份额，但杂散电感偏高和双面散热瓶颈正加速其被半桥塑封模块替代。2023年成为技术拐点：比亚迪、蔚来等头部车企纷纷转向半桥方案，其核心优势在于：
 
@@ -177,7 +177,7 @@ HPD模块方案设计的关键要点
 
 1\. 与新型封装融合：如爱仕特科技的LPD封装的三相全桥模块保留HPD散热底板，采用叠层架构设计，杂散电感仅2.5nH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnPQECgic32HLcf6AmtktdKLwWDiano3EbsfdUk5h1fzVRVN5qmtIDpTsmYbGTw5mposPu4yKuZfdkQ/640?wx_fmt=png&from=appmsg)
+![](HPD封装的SiC功率模块的应用与设计_images/img_014_52d95783de09.png)
 
 2\. 专用场景深耕：在充电桩、机车牵引等对封装兼容性要求低的领域，HPD因结构坚固、维护便捷仍具生命力。爱仕特1700V HPD模块已获充电设施企业订单。
 
@@ -199,13 +199,13 @@ HPD封装的SiC功率模块凭借其高功率密度、低寄生电感和耐高�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](HPD封装的SiC功率模块的应用与设计_images/img_015_98dde421a5f5.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](HPD封装的SiC功率模块的应用与设计_images/img_016_84b8b7bc4579.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](HPD封装的SiC功率模块的应用与设计_images/img_017_05333b5cc08e.png)

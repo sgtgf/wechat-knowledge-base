@@ -29,7 +29,7 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tIS3QvoBPFmsWZdLgTN53y457BZfLARl1yDtddGHTlsJIkqQb6MpkkA/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_000_2b35b9c04973.png)
 
 ### **
 
@@ -43,13 +43,13 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
 **
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tuCA53JJs9Pwtcux5wofOW5kqILW6F3SqQzvyYTib0amLyTlV2Aiciav7A/640?wx_fmt=png&from=appmsg)**
+**![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_001_79c958030574.png)**
 
 1\.  1700V1A的产品：采用TO220F封装，驱动电压12V.
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t6GlGZuGgs2Nr0dKawW6Aw8icF3kHM4DLuAlWMSXcxoShwqX7dhCGHVw/640?wx_fmt=png&from=appmsg)**
+**![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_002_ce25259d44c7.png)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tQQJwbzOT4ZPUeSVvO4TL933EF1pzK56NjDELjsKRBNL3ElrWgNicFMA/640?wx_fmt=png&from=appmsg)**
+**![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_003_33a35db6790a.png)**
 
 ### ****1700V1A(内阻10000毫欧）的产品封装与参数表****
 
@@ -59,16 +59,16 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
 2\.  1700V5A的产品：采用TO247-3和TO263-7封装，驱动电压12V.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tV9EZIW6iaWLxmcdj1mqbq0XG1N5cHl2iaVnzM8XibLb00micMNDib3QkSZg/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_004_6b1778fd2ee6.png)
 
   
 
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tlK1UDayo0UgxTjFE5JKCQIreHyyU1fp0LbpuwkopQhpB2m3WOELzCg/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_005_07053a7398f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t42ibps9WfCJjsEQct31MEDu2smmhhmyVsfN3v8OgNWF2SnC0zJuMH2w/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_006_2d36e5e9ce7a.png)
 
 ### **
 
@@ -82,9 +82,9 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
 3\.  1700V40A的产品：采用TO247-3封装，驱动电压18V.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4ticlia25Jld7FQReYINyicbWkOqqFnibjziapFaIibjq3SXrC683j4ACTKicbg/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_007_52949f5b4f8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tU4L8vpI7mLXsFpXJaYb7HVeUgib92moO4s0xN1pvniazxqGicDgWMalVw/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_008_e1e8a34c8cd0.png)
 
 **
 
@@ -106,13 +106,13 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
 4\.  1700V100A的产品：采用TO247-3、TO247-4L和TO247-4i（内绝缘）封装，驱动电压18V.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tX007ic28U4VT92B3N5R8nricEhZxYCQibJJhIlmpPaSTKkE0H6k1CqvPg/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_009_ba9a20858aa7.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tXSXCsiauQsKNc3d7N1xZqq0TB889eHlKKESa6RmMTiagLq7RpXaFPXIQ/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_010_7f9d88dd11e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tyXmjiaulP5xugJATgv3OAY57ribLMiablxnFvfoN6nQkCxZWRcVMghWdA/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_011_57e24cf60845.png)
 
 **
 
@@ -128,9 +128,9 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tn8VNuLw8a3aSBcnefsKr5jmCYZWvw61393QXoJXlpJ8EcyhO6an4dQ/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_012_5a0d1cd8047d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4txckFvq80pdZ1ZdkYbztDLZW1SuNibogHendmVlCE09gLBkoMASONscA/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_013_05555341cd8f.png)
 
 ###         **###         **1700V100A(内绝缘）的产品封装****
 
@@ -162,9 +162,9 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
 5\.  1700V120A的产品：采用TO247-4L封装，驱动电压15V兼容18V.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tZnKZC1UDL2KRZJGnxyiaQpNoXPhY2hnSrrbk6CPWjzDca95Z8N2nqNA/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_014_34dd6a06aa73.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t4X6WWIL3iaOG5zoK3oicwYtQOPpmoJbKhqibkGpANkR0f3qCLvWicDq1lw/640?wx_fmt=png&from=appmsg)
+![](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_015_374832a275ff.png)
 
 **
 
@@ -245,24 +245,24 @@ SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET�
 
 SiC MOSFET的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6JBRRzI0GUujE9clCxktgOwy46nDby8baG4l9q1ic9PhAr4koF2U6yGRA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_016_c97e9ed89004.jpg)
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6JAWan7DrHtQLs3SkyC4lqFo4XjVzS3AT4uaBEibvAmQxe2492nLJWj5Q/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_017_a4db26c9dfa9.jpg)
 
 SiC器件的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6Jw9PcFBosViaR2G0ydXia6BpFiboBxFhMKEpcEHK6mVcmDYxlqickROx3YA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_018_48b99abc2614.jpg)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6J14jkAHcY1dKhibWHBU7IenSycj6WVlM7QfZ9ILVbMTKMRCrPFUVAI0g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_019_a38dcbabfb9d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6JLWzXIZutcJeUeOibsLfOyJBpHZ7qjwia2klcJ0hqPKZnIZpUKoEAic5fw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6J7aJJ6OZhJicF03pZ6IRmh73FjUYLzBSnksKNyF6k27UkstZlbmKuFRQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_020_6a39f77f058c.jpg)![图片](1700V_SiC_MOSFET器件的产品介绍及应用解析_images/img_021_9fb25edc15d0.jpg)

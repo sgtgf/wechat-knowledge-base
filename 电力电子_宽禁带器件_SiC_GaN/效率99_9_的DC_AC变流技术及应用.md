@@ -23,86 +23,86 @@
 
 宽带隙功率半导体充分利用碳化硅（SiC）器件结构的优势，为高电压产品带来了极具吸引力的优势。与传统的硅（Si）功率半导体相比，SiC MOSFET具有更高的可靠性、在高温环境下的出色工作、高速开关和低导通电阻的特性。SiC MOSFET适用于大功率且高效的各类应用，包括工业电源、太阳能逆变器和UPS。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTzW9Yzh4A4VzdhVn19Zlroz3lN2NpC99ZZwZf3TGyx0frKauKWSKlicOZic0EJQeWHhsaQuLpsopA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_000_1910d5280ca2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFE4aG6icfyv0BhtObTlGJv9BCD2JSWkbicTiau9nCvNUtN2r7oCHPgwg4rQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_001_2ed88b9f5c5a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEYtWEhaVzQkKfJRrYYsKKEYEWoibGP2lJfn7XEcIU4m7jNTQYiaG0nvSg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_002_c2802eaf4546.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEYib9AibibxkgA0dOG4xDAXArbAdLjjNiaxmLaic9HEyuhiamLdp9j8Vw5eTw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_003_a0adfd0228b0.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEwBkQ3icclHr38oV6mic80lX7ZaBTxG1JQQsYUMfmI1LtR2TXEmQ3JTcQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_004_ff879f406bca.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFE8zSup1FyJtoyDRLZdTIW8ISk3YENjbQ3tiatJhrCrI5lnBmp8QqKNjw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_005_de83fb1024b6.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEXBjLibvWheEG2JyP4wiatR3dvn1FhxJ3O4yPC2EwYLbAicQYmDWGhJlNQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_006_a22ee4a1277d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEfbRztu6YiaRfwnUmr5fBYzmAwjYzibKXNK3fbqsTYiav6TNGtL6D5bPWg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_007_18d38b85dc85.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEz03uGibsOyuuu1radibnibkKdL83WQ7aicSPXkoeTEonQUBy0TWTITNbWQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_008_a3b30c4b1402.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEiaAiaQKfBVgZcMnKCibLXicKz3C0VrZFswLiccmLEhEmlGYX34sBxfnuoug/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_009_ee2be98046c5.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEhhgp1QLbibwcdH5iaely0eMpiaGAo87zJfsaYMDjV3er5SekKicafohkTg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_010_cea0587fab4a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFE2PIJ42SbHssENt3rFpGPAmzib0pbMJexprmAReWcDcL7FnuFZ1dZK5Q/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_011_3b707b481c02.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEMQvOicaqpBfr44B7aicTyD8iaNQz7JfsNPy3oZgnBwaias29nKvAicQkHJQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_012_bfaee4660d05.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEYiblge9HBAib2grCfJwfa0sFwDicXRMiaZ7A79PCyrvCicua1pg5DxuiblsA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_013_b038aafa5fa4.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEzxTibT1ibw25ibRnKvCG564icQy4k2IxVThMmZ0XW23Ozjicypltl8RnnKA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_014_19587099d7db.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEHxBamLXcCK3RrGENSG4v2XjM8ib3StJBToqUPns9B1xiaQ8iblp5dyF5w/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_015_6e57b37e1281.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEBmiaDajupSEaT7yO3gX9oaN0SnVWDvgxXWdFzBQ0PLt6tBbByrEBunQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_016_8995cbc51661.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFE4ic5B6Jpv6icHmBbAuiaibAnic7RkO9YorP0U6E1D2UBqaEuSjZia5VVxX7w/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_017_11272d162f93.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEKvZJD9rT9FXpr1T8DUFOxKkyankkYlm84q5OQxrbV831ZkQsFicxY7g/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_018_c994655a4c92.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEgoTA6JvbFgfkeZicAQA6ZKyeohoibJlKsCIPkDJjs8P1LfecaOXX5MHw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_019_a487fde45ebd.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEw6FB3xibd7Dib69lJWLmBxetEY6BZibfG0UX4wwgXxMwIyFicBbVBQBiaug/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_020_171555a25815.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFETYuBIAG4Smtp0R0dIbQGaoUkiatnxgd6DfNiaibSOr2Z3QH5XtMfKDIiaA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_021_f790a90d8f2d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFENEXAy1icL53xdW0tI82yLibtDZhZicX4RA30bF7BxcJ0ic7ibvTnlGGJKqw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_022_0005d51b4327.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFErlUwPXS5IuicJHgjlgiaxC26YYfiaGKau4NZ2cqFMOic9UHfxgvN79a3BQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_023_32f2115f2be6.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEXwsVTh2XccBBHDugF6oN6H58JlkAr24PLq03CMjLePj593ZLEd3bjw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_024_97356ab8903b.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFETvS2tsIawwEF6WqPPRpFIO2iamXeZIvxHbelvos8gcYbLVqTicSgz74w/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_025_3489f441360b.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEPxSe5eQ79rgu1TM330I0owXjU9YDzLTQlOt6Xlq0JllWI11Y0mMWnQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_026_70c2cd4bc1ba.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEmJlIyJibmEIqoXdIAL0kCXicD0tMR1oFH347qBcBWl2TsJNkrKIQsPbQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_027_ea9f60e17d4f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEE1kticIhgbsf2zznsb0AO6lwexQibmJiaXLjiasHDTiarFh04ZG0uglNDWg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_028_199162bba5d6.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEBBEFddQW2eCViaZiceGtp3p0xtMV4ujK4upnC6xAs06gFPIrWeRFnBDA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_029_6bd3485580bb.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEl4nusw9n2yglCV8m8DibQibrxUG96iced85nnKlPFYtK3hu1sMqANJOaQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_030_5bbdff6d2b33.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEFSkrFlEwnexJ7pa71dwy6zicJ29VyR8Dug3vJQWJ1VWulSicR4PJYvOg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_031_fece667ce115.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFENED01Stia2XslIk2P0n9WC8EFv7O6A0PGh6HZKk1lWeycbRI0IMw8dw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_032_5a8a7c157e4f.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEiabybaia37zia3GP0zAzyGCXKu9CaXD45M7OkWE13GYVDeSialsn3qskJA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_033_d4fba2444a9a.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEAQqSObxQYO6cJnibORRur3Dm8LxdswPfcTjVgicGcmsoNzxicwO77d79A/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_034_1dea22a5dc8e.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFE384jRcUQGukxdzMNvUVZRicYK7nkBczB26XYLGic59sEFdeHCDicMk4Sg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_035_2fff942e5eda.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEouTr1YtD2LEZtHribIAjz1axLdudJHRs98asOSiaqG8TdGI2PyX6ianpw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_036_b458b8b66e95.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEcooHIdSicOoyXibu3bL1jCibNaAIIrmeuxeC40KqZVH6XibeOyNV1QbCSg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_037_4e368ba1fbd4.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFECjwFHxGI7d7KMoFclCJGB4JSlEPV1rJdiaHXt9ZW26DDBV6qYDf8mqA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_038_32932f4afa22.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFEqlUUibLqiadBvWibSpNFOuHxUXzJ7wQXfq8D5aXicnGLzwJQCibIsOtu92w/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_039_8abd86839254.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFE36VNf7RQnuh1K4YZzvVibpxRxusSrMNWPAlTpWLic3fCIwKyiadyGh7RA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_040_cd60ff056ba7.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9bwhXZWoFDgmzt5e7wReuzu9P8TRPfFERaeTQpuaIyaljicJmZG8kvBsY1yukatK848ZiaoKb3bLy2mbicdTBaMfQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\效率99_9_的DC_AC变流技术及应用_images\img_041_e2169992a61e.jpg)

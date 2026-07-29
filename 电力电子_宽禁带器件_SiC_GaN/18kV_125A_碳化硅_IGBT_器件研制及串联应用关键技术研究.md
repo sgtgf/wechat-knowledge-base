@@ -28,13 +28,13 @@ SiC IGBT 器件研究主要有美国CREE 公司、日本产业技术综合研究
 
 1  18kV/125A SiC IGBT 器件封装结构设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoXbgcTxibNLHUSQEGxQVWAtcguLhicIYut1ibfibNoIRBia1hfcicxm2hc6wQ/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_000_0c2b29bb97ea.png)
 
 由于所采用 SiC 芯片的额定电压和额定电流分别为 18kV 和 12.5A，本文提出先将单颗芯片封装成独立的子模组，然后采用 10 只子模组并联封装成 18kV/125A SiC IGBT 器件。图 1 中给出了器件实物图，采用压接封装结构，各子模组整体沿中心对称布置，考虑到预留足够的绝缘间距以及便于安装，子模组中心距为 45.7mm；器件尺寸为 287mm××216mm××51mm。
 
 器件外壳所选用的材料为不饱和聚酯玻璃纤维材料片模压塑料，具有良好的机械性能、防爆性能及导热性能。由于万伏级碳化硅器件尚无标准封装形式，也没有相关绝缘设计标准及参考依据。参考低压系统内设备的绝缘配合标准，外绝缘尺寸按照电压等级 20kV、污染等级 2 与过电压等级 3设置，电气间距取脉冲瞬时过电压与稳态电压下电气间距的最大值，考虑适当绝缘裕度，管壳爬电距离设定为 125.8mm。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoKaJC6RP7v0qzhIwZDibDc3xhAo30oc4szNuUVDSHZiaBKTSHBHT0z6Zg/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_001_cf2bc580ff55.png)
 
 子模组整体及内部结构设计如图 2 所示，充分考虑了高压绝缘、低感封装以及高效散热的设计需求。
 
@@ -52,47 +52,47 @@ SiC IGBT 器件研究主要有美国CREE 公司、日本产业技术综合研究
 
 为保证所研制的器件能够耐受 18kV，搭建了图 3 所示的绝缘实验平台，分别对子模组框架、子模组及管壳开展了绝缘耐压实验研究。为了能够尽可能地接近器件的应用工况，分别测试了阻断(直流)及正极性重复方波作用下的局部放电起始电压及漏电流特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoAEZNpB89fmvYxCMDWB3Nyh13W7cao6aX7oesKVYV7sIFyom9VQOPbQ/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_002_f2ac7b86e908.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACofic9XotmtuN3gj7lsibvjtPkiaNVTvSmFBiaUsb3DZkfowyYeRZ5fRs9pg/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_003_ca81c82b0dbc.png)
 
 实验中所用平台可以在最高为 40kV 的直流、方波等不同电压下进行局部放电测试和高精度漏电流动态监测(分辨率 nA 级)，实现了对器件封装绝缘结构以及单子模组耐压能力的快速验证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACodT24d9pe6rkjGwVHXSiaarQqJYo6liblNmL3HaSia5lBVtesPWPvEf3Gw/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_004_aef61156f17b.png)
 
 此外，实验中验证器件管壳以及子模组的框架的绝缘性能的实验布置分别如图 4(a)、(b)所示。需要说明的是，针对子模组的框架的绝缘实验，所用的实验样品为包含 DBC、硅凝胶及框架，但不包含芯片的子模组，以尽可能接近器件内部实际的封装绝缘结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACom8swDvoR4tO8Qp5oRL1yVxcLylYeGCpJGGdoxNIzeQ9usrUVA50L2A/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_005_0f03f561d3ba.png)
 
 当外施电压为 18kV 时，直流及正极性重复方波下的局部放电实验波形及电压和电流波形分别如图 5(a)、(b)所示。需要说明的是，图 5(b)中出现的脉冲电流信号是重复方波的上升沿和下降沿对应产生的位移电流信号，并非放电信号。从图 5 可知，管壳在 18kV 下均未出现放电信号，满足 18kVSiC IGBT 器件的绝缘要求。而表 1 中给出了随机选取的 4 个管壳样品在直流和方波电压下的局部放电起始电压测试。实验结果表明，18kV IGBT 器件的管壳的局部放电起始电压均大于 18kV，满足器件绝缘耐压要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoxGk2WMtS9XSnSV5eicbuslcZibIBZB5lbrXnYPConsjkv5n9fD9F4iaKw/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_006_6b7770cbcc55.png)
 
 此外，针对不同不含芯片的子模组框架进行直流和方波电压下的局部放电和漏电流测试。结果如表 2 所示。从表 2 中可知，所有子模组封装绝缘结构样品在直流 18kV 下的平均局放量小于 10pC、泄漏电流小于 0.2μA，满足 18kV 器件封装绝缘要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoOdfgkUMwzwRhud2RxiauxuzwicWcXTZKfFOhe2d8TV3SNOtXINNJ2E3w/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_007_f469abd8c985.png)
 
 2.2 子模组及器件静态特性
 
 采用静态参数测试平台对含芯片的子模组及18kV/125A SiC IGBT 器件的静态特性进行了评估。实验结果表明，单芯片子模组 18kV 直流电压下的集射极漏电流范围在 6~10μA，验证了 SiC IGBT 子模组的封装结构和芯片在 18kV 电压下具有良好的静态耐压特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACowageqdicXRmzAKGN5RCnOVl75UqQbpyjgMic1yErS7q7IwnhMOib5gXVA/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_008_bd3f29b0da21.png)
 
 单芯片子模组的典型输出特性如图 6 所示。由图可知，18kV SiC IGBT 子模组的阈值电压为5.26V，饱和压降 VCEsat 为 9.8V。为了保证 18kV/125AIGBT 器件 10 只并联子模组的电流均衡，筛选出 10只阈值电压及饱和压降尽可能一致的子模组，封装成 18kV/125A IGBT 器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoX0CQ7UXBYzWeZrkN53BUAEGCNAuNShh3IFfWM2wDGCsOtKqEULyrug/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_009_4e4e7b8127f2.png)
 
 采用器件静态耐压测试设备对 18kV/125ASiCIGBT 器件的静态特性进行测试，实验结果表明，器件在 18kV 直流电压条件下的漏电流大小为69.66μA，未发生过压击穿失效，验证了所设计的器件的整体耐压性能。此外，测试得到不同栅压条件下 18kV/125A SiC IGBT 器件的输出特性曲线如图 7 所示。由图可知，器件的饱和压降为 9.5V，阈值电压的结果约为 4.95V。
 
 2.3 子模组及器件动态特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACo5WfnxWZAicic5NR59iazcALnoNfiaOXv5iafjJjdRoTVIycrxiaqXyYgBianw/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_010_d6b03def1f85.png)
 
 为了验证 18kV SiC IGBT 单芯片子模组及器件的动态开关特性，研制了图 8 所示的 IGBT 器件开关用驱动板和图 9 所示的器件动态特性实验平台，该平台的最高电压为 20kV，最大电流 1000A，测试所使用的示波器及探头如表 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACorEF2mycCASXzVtsvXib4icsiczXqh67lMVbaXf2AkiaT6nULvGRxmTSWicw/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_011_5c26a928b704.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoaLXxzrJr5cymnAlscT36M9jNGH3NrQbMNeEHnVWBljMe8IwhNN02gA/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_012_04d35b6fb21a.png)
 
 考虑器件的实际应用工况，在进行子模组及器件开关特性实验时，实验电压设置为 12.5kV，电流按照额定电流来考核。
 
@@ -100,15 +100,15 @@ SiC IGBT 器件研究主要有美国CREE 公司、日本产业技术综合研究
 
 驱动板开关电阻采用多个电阻并联，且开通和关断电阻独立可调。在测试实验中，综合考虑开通和关断过程中的振荡特性、电压电流过冲特性以及开关速度要求，最后选取单芯片子模组的开关电阻约为 90、120Ω，无栅极电容；器件开关电阻约为20、33Ω，栅极电容 200nF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACokSfU068lrOcKWKHH17F5K6PpjrDbgUGznAV1d2cKomfUJqZWZOsFDg/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_013_7e7c6f0d16eb.png)
 
 针对单芯片子模组的动态特性的实验条件如表 4 所示，对应的动态特性实验结果如图 10 所示。由图可知，SiC IGBT 单芯片子模组在 12.5kV 条件下具有良好的开关能力，在第二次关断时，器件的稳态电流达到了 15A，提取单芯片子模组开通时间为 1.38μs，关断时间为 3.46μs。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACoancu8STIjU2FrWbkfDV9YzV9TQniaJnDhTCiakyNgtHLfHL2jsPD6ujQ/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_014_31da3663703f.png)
 
 为了保证 18kV/125A SiC IGBT 器件可靠关断，本文对子模组进行了筛选，按照阈值电压0.5V饱和压降0.5V 的参数筛选要求，保证并联的 10 个子模组在表 4 所示的实验条件下均能可靠开断，同时动态参数尽可能地接近。经过筛选后的子模组封装成 18kV/125A SiC IGBT 器件，器件的动态特性实验结果如图 11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQ6datkmicRYDdNL05kiaACo6lQDvoCibxhjhHlp6F4JLknLicJrtj8T7MVpibPZNUcVT99YWTJfDvxQw/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_015_2b95c60ccc7f.png)
 
 由图可知，所研制的 18kV/125A SiC IGBT 器件第二次开通时间与第一次关断时间分别为 2.04 和 4.49μs。第一次和第二次的关断电流分别为 60 和 130A，器件第二次开通瞬间电流峰值为 88A，第二次关断电压峰值为 13.07kV，由测试数据可知，18kV/125A SiC IGBT 器件可以在13kV/130A 实现良好关断，且开关瞬态电流和电压过冲均较小。
 
@@ -118,31 +118,31 @@ SiC IGBT 器件研究主要有美国CREE 公司、日本产业技术综合研究
 
 3.1 串联均压技术
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmcoWyUiaZISEic1Pgmgg1GRm98EiaklWosOFd93nicNw1EasZ1mBejLmr2MXZkWhXCXTfrgU1HiagkvEw/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_016_b453392a659d.png)
 
 功率器件的串联均压技术按照均压原理可以分为被动 RC 缓冲均压、主动模拟均压和主动数字均压。表 5 中给出了上述 3 类均压控制技术在均压效果、成本和可靠性方面的优缺点。
 
 对于 SiC IGBT 器件在柔性直流换流阀应用场景，被动 RC 缓冲均压是适应柔性直流换流阀应用的理想均压方案。SiC IGBT 器件串联不均压分为静态不均压和器件动态不均压，并分别通过静态均压电阻 Rs、动态均压电容 Cd 和电阻 Rd 实现静态和动态电压均衡。相应均压电路参数取值范围如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmcoWyUiaZISEic1Pgmgg1GRmb46j5O2aCD1icAibqR8COiaqN15qpncuIh9RhfKVMyzR4oc8YpnMWt1PQ/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_017_df8785495158.png)
 
 式中：δstatic、δdynamic 分别为静态和动态电压不均衡程度；VCES、ICES、IC 和 ICRM 为阻断电压、漏电流、集电极电流和重复峰值电流，相关参数可以结合器件的特性测试结果得到；Ls 为寄生电感；△Vs 为电压过冲；△t 为暂态 vCE 间的时间差；Ton 为通态时间。
 
 3.2 换流阀半桥功率模块特性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmcoWyUiaZISEic1Pgmgg1GRmfOfNGDULtrKiaiaFIyxictOGMuIMwIyoMtB2X1HMeJMCyY7Ywv7m2KC8g/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_018_6dba1ef0e46a.png)
 
 为了验证 RC 缓冲均压方案在柔性直流换流阀中的均压效果，按照直接串联器件阈值电压±1V、饱和压降±1.5V 的参数选型要求，选取了 4 只 18kV/125A SiC 器件，在实验室搭建了如图 12(a)所示的24kV/125A 换流阀半桥功率模块，并搭建了图 12(b)所示的动态特性实验平台。基于该测试平台，完成了半桥功率模块的 1min 耐压静态试验和开关能力验证试验。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmcoWyUiaZISEic1Pgmgg1GRmicK2IZticwe7Psx2OobxTt6sJ27rv9jriaU6E2jNYALyFpBEdeqN6WH0w/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_019_25c74cc91c75.png)
 
 图 13 中给出了半桥功率模块应用验证的实验拓扑，在进行 1min 耐压试验时，所有器件的栅极端与发射极端间施加恒定电压 VGE=-5V，使得器件保持阻断状态，直流电源对电容 C 进行充电，电压逐渐升至 24kV，耐压持续 1min，监测两串联 SiC器件 V1 和 V2 电压，之后放电回路进行放电，若IGBT 正常工作，则通过静态耐压试验。图 14 中给出了实验过程中施加 24kV 下的耐压试验测试结果，1min 时间内，V1 和 V2 工作正常，两只器件的静态电压较为均匀，不均衡程度仅为平均电压的0.4%，证明了所研制的 18kV/125A SiC IGBT 的耐压能力以及 3.1 节中给出的静态均压电阻的均压效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmcoWyUiaZISEic1Pgmgg1GRmcCNe23YzmJcZ8KhhMytMYarG6BZPiasDpjlicuUOwiaFP5stDbquNTtag/640?wx_fmt=png&from=appmsg)
+![](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_020_49eafcac2c19.png)
 
 而对于 24kV 换流阀半桥功率模块的整体开关能力以及换流阀半桥功率模块中串联 IGBT 的动态均压特性的验证，采用图 13 所示的双脉冲测试电路，首先通过直流电源对电容 C 进行充电，电压逐步上升至 24kV，然后断开充电回路，对被测 SiCIGBT 器件 V1 和 V2 下发双脉冲触发信号，关断前的栅极–发射极电压 VGE=+20V，而关断后的栅极–发射极电压 VGE=-5V，实验时同步采集开关过程中 V1 和 V2 的电压以及回路的总电流 Ic 的波形，相应的双脉冲实验结果如图 15 所示，由图可知，通过实验完成了半桥功率模块电压 24kV 以及电流130A 的开关过程，被测 SiC IGBT 器件完好无损，验证了研制的 18kV/125A SiC IGBT 在串联应用的开关能力，且实验测试得到的关断最大电压不均衡程度仅为平均电压的 15%，说明 SiC IGBT 器件动态均压方案的有效性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmcoWyUiaZISEic1Pgmgg1GRmNib0WTSJXuFpu2sya9fGO4CsHd7Pmbx70gKKWibgH5XPLI0K4NqHia7uA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images\img_000_0c465460b393.png)
 
 4 结论
 
@@ -156,12 +156,12 @@ SiC IGBT 器件研究主要有美国CREE 公司、日本产业技术综合研究
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_022_6e67a7a43c84.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_023_098b8a0c0930.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](18kV_125A_碳化硅_IGBT_器件研制及串联应用关键技术研究_images/img_024_3a3df320c8e4.png)

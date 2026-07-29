@@ -14,7 +14,7 @@
 
 最近一段时间，不管是微信公众号，朋友圈，小红书还是B站，都被deepseek霸屏了，都在讲Deepseek是如何的强大，如何的智能，如何的方便。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhQMMWzAy7MXGJVQemf5ITWwafeibG8iaeQJNkeKIhV970Wy4AaQmdicXzYSpYdJn1HwQzVrzFFn9eibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_002_4ba71e450a2c.png)
 
 我也体验了一下，确实像大家说的那样，这极大的提高了我们的工作效率，也将会一场颠覆性的变革。
 
@@ -28,13 +28,13 @@
 
 咱们做硬件的，当然比较关心它能不能提高咱们行业的工作效率，之前我用了一个比较简单的电路，让Deepseek来分析一下，[点击如下图片可查看](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247556515&idx=1&sn=5bb57a3d7de9a2916f4e738c89fa8a9a&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhQMMWzAy7MXGJVQemf5ITWX5YcAhnxApPsibq6CibsZHy2SVsBRvLF9q6JhYciaJolOPfYz7KDfUic1g/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247556515&idx=1&sn=5bb57a3d7de9a2916f4e738c89fa8a9a&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_003_a611ab46bb8e.jpg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247556515&idx=1&sn=5bb57a3d7de9a2916f4e738c89fa8a9a&scene=21#wechat_redirect)
 
 分析结果看起来还挺像那么回事，但是一些比较重要的参数选型，计算，它可能就不是那么的专业了，所以在咱们这个专业性比较强领域来说，仅供参考。
 
 Deepseek AI的原理涉及以下几个方面，简单说就是开发者通过大量数据训练模型，数据越多，越接近真相本身。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhQMMWzAy7MXGJVQemf5ITWV9YS3X540cdWjqlL8SoXGQDG650gVrGQ5AygkpnGicJBAF1e7EV92qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_004_c5284b425a89.png)
 
 因为开发者不是咱们做电子的专业技术人员，所以对电子电路的认知程度不够深，就不可能像咱们这样专业。
 
@@ -50,7 +50,7 @@ DeepSeek被誉为“AI界的拼多多”，之所以这样比喻，那是因为�
 
 除此之外，相比OpenAI，DeepSeek也确实展现出较强的竞争优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhQMMWzAy7MXGJVQemf5ITWjHictGgheRMaliaUFibmyOgan7vcuUNXDiaGkyB1rDq1rAIK7WN7V87FIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_005_3b4aa3bb20f7.png)
 
 人红是非多，Deepseek突然火起来，最眼红的就是漂亮国，它的尿性就是看不惯谁比他强，谁强打谁。
 
@@ -70,7 +70,7 @@ DeepSeek公司‌，全称杭州深度求索人工智能基础技术研究有限
 
 DeepSeek好像几乎没有花过广告费，就有很多人免费给他打广告，甚至突然一下就冲到第一了，相比那些砸钱几个亿，几十亿的大厂，花了大价钱却没有看到回报，任谁谁心里都会不爽。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhQMMWzAy7MXGJVQemf5ITWpXfSVyUdIdQTO704Ra24Wp4y4J4aWvsY8DZdPvgTNEPPyyb8b5LOKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_006_2d20dd8697a8.png)
 
 AI的竞争其实也是人才的竞争，还记得天才少女罗福莉吗？她曾是开源大模型DeepSeek-V2的关键开发者之一‌，后来被雷军花千万年薪直接挖走。你能保证其它人才不被挖吗？
 
@@ -84,15 +84,15 @@ AI的竞争其实也是人才的竞争，还记得天才少女罗福莉吗？她
 
 推荐阅读（点击图片直接进入）
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_007_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_008_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjia2pJfdXSG8zvMsLMXvpectSFUicEKyqKMllRjibuIDK6yMmS5hE3zGVPvEr8PXrOb5ogdg4yLrZ6bg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_009_ca2e00928ebe.jpg)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_010_14ab8bae56cb.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的Deepseek_我要泼一泼冷水_images\img_011_ad3a24691364.jpg)
 
 ## 
 

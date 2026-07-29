@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_sgjxa\_NPrneVhuBXnN\_LQ](https://mp.weixin.qq.com/s/_sgjxa_NPrneVhuBXnN_LQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_000_4fecbf19a39d.gif)
 
 ****Speed Identification of Speed Sensorless Linear Induction Motor Based on MRAS****
 
@@ -34,7 +34,7 @@ X. Tu, X. Hou, J. Zhao, S. Yan and Y. Xiong, "Speed Identification of Speed Sens
 
 In the linear induction motor control system, the optical grating speed transducer is susceptible to strong magnetic field interference. What's more, it may reduce motor integration and raise device costs. Therefore a speed identification method to replace grating speed transducer is studied in this article. This speed identification method for linear induction motor mainly adopts Model Reference Adaptive Method (Abbreviated as MRAS) and Popov Hyperstability Theory. The research content of this paper can be divided into four parts. First, the mathematical model of the motor based on the model reference adaptive system structure is deduced. Second, the adaptive law of the estimated speed is solved by Popov hyper-stability theory, which ensures the stability of the system. Third, the simulation model of the linear induction motor speed identification control system based on model reference adaptation is built in the MATLAB environment. Finally, the simulation test and analysis are carried out. The simulation results show that the speed identification control system can track the actual speed of the linear induction motor well in the no-load operation and the load operation, and the stability of the system is guaranteed in the full speed range.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178dcTShWwKOeVUcbnryic1Y7iaFb9oPPuYXDBysKBQlwFgicUD2FSILDX5wsIvIaPOHGNSP8XBmJ7VTw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_001_5ccf2339d7c8.gif)
 
   
 
@@ -44,23 +44,23 @@ In the linear induction motor control system, the optical grating speed transduc
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178dcTShWwKOeVUcbnryic1Y7HyD1kZ8CwIQn8UCClpYYUsxckZdd8S7F4nNzm3ByQicKlQZRLwYruXA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_002_bf89ec2a7ac8.gif)
 
 **Xuan Tu** was born in 1997 in Fujian, China. She received the B.S. degree in Automation from Xiamen University of Technology, Xiamen, China, in 2019. She is currently working towards her M.S. degree in Control Engineering from Naval University of Engineering, Wuhan, China. Her current research interests include control and optimization of speed sensorless linear induction motor system.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178dcTShWwKOeVUcbnryic1Y7Ql5CucMhyhhQXddJSOZVlfMAlWaHUib7ACvJGzR8wJQuG1cSv4AFSLQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_003_53c465de511d.gif)
 
 **Xinguo Hou** was born in 1972. He received the Ph.D. degree in Electrical Engineering from the Naval University of Engineering, Wuhan, China, in 2011. He is currently a professor of the Control Engineering major in the Naval University of Engineering. He has authored or coauthored over 50 papers. His current research interests include fault detection of power system and equipment, signal detection and processing.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178dcTShWwKOeVUcbnryic1Y7PnrSoebleJLniaBkA99BHTibRviciaPIKI0B1BcM52aeqBoCRIFTJgYicjw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_004_dbfcee02ab2b.gif)
 
 **Jinghong Zhao** was born in 1975. He received the Ph.D. degree in Electrical Engineering from the Naval University of Engineering, Wuhan, China, in 2011. He is currently a professor of the Electricity Engineering major in the Naval University of Engineering. He has authored or coauthored over 50 papers. His current research interests include power electronics, electric machine design, and its control.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178dcTShWwKOeVUcbnryic1Y7q9uL2eO85n6bZ1iapvyaeFvqZ0AibtQnGLa5gQJZib0fEAcOlKDG8JHibg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_005_9f774fd582e8.gif)
 
 **Sinian Yan** received the B. S. degree from Shandong University, Jinan, China, in 2014, and the Ph. D. degree from Huazhong University of Science and Technology, Wuhan, China, in 2020. Currently, she is a lecturer in Electrical Engineering from Naval University of Engineering, Wuhan, China. She has work on magnet design of motor.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178dcTShWwKOeVUcbnryic1Y7uI69Ttl2g3yJKPtEzrLNZREI4A3wnjHzwzdFpT9zPqtfk4N9Eics2Eg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_006_d1dffe9abcd8.gif)
 
 **Yiyong Xiong** received the B. S. and M. S. degree in electrical engineering from the Naval University of Engineering, Wuhan. Currently, he is a lecturer in Electrical Engineering from Naval University of Engineering, Wuhan, China. His current research interests include power electronics and electric machine design.
 
@@ -68,7 +68,7 @@ In the linear induction motor control system, the optical grating speed transduc
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -82,15 +82,15 @@ In the linear induction motor control system, the optical grating speed transduc
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -98,15 +98,15 @@ In the linear induction motor control system, the optical grating speed transduc
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -114,15 +114,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于MRAS的无速度传感器直线感应电机速度辨识_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

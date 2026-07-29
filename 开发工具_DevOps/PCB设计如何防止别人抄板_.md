@@ -30,7 +30,7 @@ PCB设计中，在通过重重关卡完成PCB设计后，最重要的就是版�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhjAO1aOvDEprR6ZvqQHTibdImumKQHQvnJyAKqjdG75z25MwbVmOZwOia2Wo3LN1bvyccNsq6q0hnA/640?wx_fmt=jpeg)
+![](PCB设计如何防止别人抄板__images/img_002_329742f5d677.jpg)
 
   
 

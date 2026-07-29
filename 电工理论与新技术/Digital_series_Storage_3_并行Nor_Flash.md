@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/kQH9U3kBCazysCpuKevF9A](https://mp.weixin.qq.com/s/kQH9U3kBCazysCpuKevF9A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMINlVjp5o8157icAQJdsnRBl4zJbsicmXapQKVmKPtZwtXRxX9FPUsLlg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_3_并行Nor_Flash_images\img_000_869fa41d1afa.png)
 
 ____**★★★**______Storage-3---并行Nor Flash______**★★★**____
 
@@ -17,7 +17,7 @@ ____**★★★**______Storage-3---并行Nor Flash______**★★★**____
 
 Parallel Nor Flash已经很接近DDR了，它有单Bank和多Bank体系，其中多Bank体系结构可以实现同时读写功能，更快的有效编程和突发读取时间，非常适合要求高性能和低功耗的应用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8gnjQibf8XNAAD3TCe0z204pNgxadpxVo9V2Vqt7IOtdBLEEqVmsH6Ekw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_3_并行Nor_Flash_images\img_001_d1a51e73a965.png)
 
 **_图3-1：Parallel Nor Flash的典型结构_**
 
@@ -25,7 +25,7 @@ Parallel Nor Flash已经很接近DDR了，它有单Bank和多Bank体系，其中
 
 Parallel Nor Flash数据和地址接口遵循JEDC规范，读写接口在引导和统一扇区架构中提供，配置为x8、x16。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSYG45QxbSkr4YV1VqCvbKEVMpbUc0iaD2mnL5KbgbbmFfxIm9B0BaJT4DRXaicmEo1Soia9LQn3B0qQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_3_并行Nor_Flash_images\img_002_8ded355dd724.png)
 
 **_图3-2：Parallel Nor Flash的简图和基本引脚定义_**
 
@@ -39,11 +39,11 @@ Parallel Nor Flash的传输速度评估和串行不太一样，串行一般使�
 
 MCP，即Multi Chip Package，多芯片封装，将多种存储芯片封装成一个芯片，体积小节约PCB空间，简化电路设计。MCP解决方案组合为嵌入式和无线应用程序的使用提供了灵活的选择和快速的上市优势，凭借较小的占地面积和向后兼容的引脚，客户可以选择不同的密度来满足其经济高效的解决方案。如**_图3-3_**和**_图3-4_**基于Flash的MCP方案有两种：Parallel Nor-Based MCP--->Parallel Nor Flash + Pseudo Static RAM (pSRAM)和Nand-Based MCP--->SLC Nand Flash and LPDDR2。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSYG45QxbSkr4YV1VqCvbKEMb6Oico81vhK7Yxkiblh8FfLptZKvsfXU2Voj6XG4QFAyhc8mnlLKOOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_3_并行Nor_Flash_images\img_003_4998a052fafc.png)
 
 **_图3-3：Parallel Nor Flash + Pseudo Static RAM的MCP_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSYG45QxbSkr4YV1VqCvbKEiabamgrHichVYBCqd2gvmDTRL4FSQrTH1CQPP9ibDpThpMt8EGEV4CmhA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_3_并行Nor_Flash_images\img_004_fa0b5f446333.png)
 
 **_图3-4：SLC Nand Flash and LPDDR2的MCP（NAND x16+LPDDR x32）_**
 

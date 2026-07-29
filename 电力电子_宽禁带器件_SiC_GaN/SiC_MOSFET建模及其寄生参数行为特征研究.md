@@ -21,32 +21,32 @@
 
 考虑SiC器件寄生参数时，其等效电路可由图1（ａ）所示电路进行描述，电路包括栅极电感Ｌｇ、源极电感Ｌｓ、漏极电感Ｌｄ、栅源电容Ｃｇｓ、栅漏电 容Ｃｇｄ、漏源电容Ｃｄｓ以及栅极电阻Ｒｇ（ｉｎ）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNML54eBRLeFGShR58BGe8EgcajyTGJiaVwDqzQInbKuPprxQBcFYLdIibQk9KD8gDicfQK5atsMjdbDnxjuMyacu2xF6A75iavicyc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_000_3191c3e035df.png)
 
 对于特定SiC MOSFET器件，栅极驱动电路对器件开、关特性影响较大，一般而言，栅极等效驱动电路可由图1（ｂ）进行描述。其中Ｒｇ＿ｉｎ为器件内 部栅极电阻；Ｒｇ＿ｏｕｔ为外加驱动阻抗，器件总的驱动电阻 Ｒｇ＝Ｒｇ＿ｏｕｔ＋Ｒｇ＿ｉｎ；Ｉｇ、Ｉｇｓ、Ｉｇｄ分别为栅极电流、Ｃｇｓ电流以及Ｃｇｄ电流，Ｖｇｓ＿ｏｎ、Ｖｇｓ＿ｏｆｆ分别为栅源极驱动的开通电压和关断电压  
 
 1.2 SiC MOSFET开通过程
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMCajibiar9nJksicPGoXaSfUVj53goUvIAPtxGen1CJCXK7chicicdTaI7o0Dcgtohot6k05HIm0EicGJQZqv3HibMw3dbiahicxQ4XrFI/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_001_074c36c25ce9.png)
 
   
 SiC MOSFET的开通过程如图2（ａ）所示，其中Ｖｇｓ为栅源电压，Ｖｄｓ为漏源电压，Ｉｄ为漏极电流，ＶＤＣ为母线电压（漏极电压），Ｖｇｓ（ｔｈ）为器件导通阈值电压，Ｖｇｓ＿ｍｉｌｌｅｒ为米勒平台电压。由图可见 SiC MOSFET开通过程可分为 ４个阶段，即开通延迟阶段（ｔ０～ｔ１）、电流上升阶段（ｔ1～ｔ2）、米勒平台阶段（ｔ２～ｔ３）以 及饱和导通阶段（ｔ３～ｔ４）。  
 
 开通延迟阶段（ｔ０～ｔ１），驱动电源对MOSFET输入电容Ｃｉｓｓ＝Ｃｇｓ＋Ｃｇｄ充电，由于ｔ０时刻Ｖｇｓ电压为Ｖｇｓ＿ｏｆｆ，因此该阶段栅极电压可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9jqU3VPia7UBbqcz8picW2at3uzxwM0VHBH731zsFLL9YTP8xOiaJXyJhCdko7sXlxYOSFRJV3kVpymxljzwxdmZgPe0FibAGGBc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_002_4bae920385a3.png)
 
 开通延迟阶段维持时间可表示为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNxr3KfbPWGephhd4wek8pb8eAdWlxqX15XuyV2TSPJGibicgT6T5bK7ZkyYaLxPtly6rkHKAbUKooOPgibcz8Pg54qrkfO0YfN6c/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_003_f5ea190932a8.png)
 
 栅极电压Ｖｇｓ达到阈值电压Ｖｇｓ（ｔｈ）后进入电流上升阶段（ｔ１～ｔ２），电流上升阶段驱动电源继续为Ｃｉｓｓ充电，栅极电压上升趋势仍由式（１）进行描述，而该阶段维持时间可由式（３）表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMNQSbrBEea7GbNZ8k1tCt2EBicQEp91welYiaQKVp4ArxWJA4HbLXsQr7hULecAAphicx9GVibnFLbuKJ1vtIa6MyTpOP1j6426Q4/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_004_a97ae89b19c4.png)
 
 在米勒平台阶段（ｔ２～ｔ３），驱动电源对米勒电容Ｃｇｄ充电，同时，漏源电压 Ｖｄｓ逐渐降低，最终趋近于饱和压降 Ｖｏｎ，该阶段栅极电压被钳位为米勒平台电压，同时米勒平台持续时间可表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRY2z9rRlJIDrClwOp8bY4jXtYh3EsnhRdyiaWJzfsxCgI4s1v0nMEPLicrJmXX2zEFHVLNAt2VoKGcuJ8qMqw2S5b9mDMzvDAU/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_005_c67d71f16d66.png)
 
 在饱和导通阶段（ｔ３～ｔ４），驱动电源为Ｃｉｓｓ充电，Ｖｇｓ缓慢上升至Ｖｇｓ＿ｏｎ。  
 
@@ -54,43 +54,43 @@ SiC MOSFET的开通过程如图2（ａ）所示，其中Ｖｇｓ为栅源电压
 
 SiC MOSFET的关断过程可分为关断延迟（ｔ５～ｔ６）、米勒平台（ｔ６～ｔ７）、电流下降（ｔ７～ｔ８）以及截止（ｔ８～ｔ９）四个阶段，其波形如图 ２（ｂ）所示。在关断延迟阶段（ｔ５～ｔ６），栅极电压Ｖｇｓ可由式（５）进行描述：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMxJ03CDjGJ2NxzrUUPhibQZbecDCpLmwnZ9zlgATNB4AvJk8iallGQgHXMVjibibwFCtfX62x65qstlVNxicEt4iavUS2wPIba8lHyg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_006_17b103e8d286.png)
 
 该阶段持续时间为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNBhLmTbOanPxet5EmcyibnOCrib1ibDFo6rfPP0DdichHOEAHw8lq9ibrPFMjXCF9iaTPDYTJia5Q1alQ0769stibfiaSKhZ4zbLcmiae0w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_007_e30f863dbfa9.png)
 
 在米勒平台阶段（ｔ６～ｔ７），栅极电压被钳位为米勒平台电压，米勒平台持续时间可表示为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMGzMrMaz4j802IreFiawFjhlY0ejFHHFpuZBDpqLOd42p4Mm3YCWsrFlfbMJ9SBWKNhweZsKVqJeibocubwYbDp8exQP1mO0b78/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_008_6f7980391c44.png)
 
 在电流下降阶段（ｔ７～ｔ８），栅极电压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNuGwMrjQjp9Xea7yFXSf2XNiaP1Tnr1wWfc1YL4MlFSiaDaSpSbJpwiaxd3sodmE3bDaUvdhUic79Ix363cG6RUSZy047TpSJibicbQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_009_fbd6801862e4.png)
 
 持续时间如式（９）所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNZPiciasdtU3EMPBhDCqk0hasPrw7ibzttN2YknCxO0lpCa4AV6IJCNcrSseljssylhdXRnfy9WCwliav8NNaJKVia0ibLKBEUib5wUc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_010_1ad1021e6abe.png)
 
 在截止阶段（t8～t9），栅源电压近似以恒定斜率下降至Ｖｇｓ＿ｏｆｆ。
 
 ２.SiC MOSFET寄生参数模型仿真研究
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOmG79cxHL8Pk4NkQT3QiaSO9drQVLUWVGCAkuDp5K5QxNOVDSHlsu6EMxylH8Tuujo3w9rAH357ATKXAbnaqs7Uvd8P76LnCcM/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_011_04a7629729a9.png)
 
   
 基于厂家所提供的器件仿真模型，在LTspice软件中搭建了图３所示 SiC MOSFET的双脉冲测试电路，以此研究门极驱动电路及各寄生参数与器件开关动态特性的作用机理。  
 
 2.1 栅极电感 Ｌｇ对器件开关过程的影响
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNVvfVy0ib3rf1xPxiaTNlhu9ic5qHdKqK7N07JlTW7RwRjuGQvarHxXiarAWwlSj1x4Sxn0q4JWhhfGmNnn3HwsOVRSz6Ss5ImXXQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_012_f0f91971cda7.png)
 
   
 在栅极电感Ｌｇ＝０ｎＨ、10ｎＨ、20ｎＨ、50ｎＨ条件下器件的开通、关断波形如图４所示。由图4（ａ）、图4（ｂ）可见，Ｌｇ增加将导致栅极电压 Ｖｇｓ振荡 加剧、超调增大，因此工程应用中应对驱动回路进行合理的布局以尽量减小栅极回路电感，同时可考虑增加栅极电阻，以此增大ＬＣ振荡阻尼，抑制Ｖｇｓ振 荡。此外，由图4（ｃ）～图4（ｆ）可见，Ｌｇ的增加对漏极电流及漏源电压影响不大，仅对开通过程中漏源电压的下降波形略有影响。
 
 2.2 漏极电感 Ｌｄ对器件开关过程的影响
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPPNXNaDtSLL9paPT6I0wWknVQgmshoRhcWEWIwKIjtnTSTsa1GbibwbBOTaluS9AF5WcQa4CffleMpNEOKFqg3POicm0IWSBWlc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_013_90597b91a558.png)
 
   
 在漏极电感Ｌｄ＝０ｎＨ、10ｎＨ、20ｎＨ、50ｎＨ条件下器件开通和关断波形如图５所示。由图５可见 漏极电感Ｌｄ的增加使得器件开通及关断过程中的 栅极电压、漏极电流以及漏源电压的振荡有所加剧，因此，工程应用中，应尽量降低Ｌｄ值。  
@@ -99,7 +99,7 @@ SiC MOSFET的关断过程可分为关断延迟（ｔ５～ｔ６）、米勒平�
 
 源极电感Ｌｓ＝０ｎＨ、10ｎＨ、20ｎＨ、50ｎＨ条件下器件的开通和关断波形如图 ６所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPLQXL6WEkrt18Ficmt2DwlEdxAQERLmVVQ2gnTtWXYKzkkGdVAR9Cxlah446n02iatlNbr6mbQDwiamSsS6IGWSXmVA8tTjEP9QI/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_014_8e74b05d63dd.png)
 
   
 由图6（ａ）、图6（ｂ）可见，随着Ｌｓ值的增大，栅极电压的振荡和超调现象加剧，同时在器件关断过程中，有明显的延时关断现象。如图6（ｃ）～图6（ｆ）所示，对漏源电压及漏极电流而言，Ｌｓ增大时漏源电压及漏极电流的上升、下降时间均有所延长，但是漏极电流振荡有所缓解。  
@@ -108,11 +108,11 @@ SiC MOSFET的关断过程可分为关断延迟（ｔ５～ｔ６）、米勒平�
 
 在栅源电容Ｃｇｓ＝０ｐＦ、600ｐＦ、1200ｐＦ、1800ｐＦ条件下器件的开通和关断波形如图7所 示。如图7（ａ）、图7（ｂ）所示，随着栅源电容 Ｃｇｓ的增加，SiC MOSFET栅极电压的振荡减弱、超调减小，但开通、关断延时时间有所增加，该延时可能导致开通、关断过程中器件损耗增加。如图7（ｃ）～图7（ｆ）所示，漏源电压及漏极电流的上升和下降速率均有所降低，使得器件损耗有所增加，但是器件开通时所承受的电流应力明显减小而更有利于器件的安全可靠运行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNmiaesz42yz7lzSkggn2ib349JAibWTQFIgYkpvlCPchUPSIBibDPUkCgLsujNibXKEPduorgWECF0buKM3MYbYQyROsyibwgav7rdk/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_015_c1ecdce2dd93.png)
 
 2.5 栅漏电容 Ｃｇｄ对器件开关过程的影响
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN7ZRu3wyMZ9ZG9LiabIMymIWOibiaL1pSkYJjNH4c1YIoUlKyhjFrtCSmVaIGj7UibquZAKs32u4yZP9z5AXiahXcic0icW1SOMkJc5c/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_016_235150d0c606.png)
 
   
 在栅漏电容Ｃｇｄ＝０ｐＦ、10ｐＦ、20ｐＦ、50ｐＦ条件下器件的开通和关断波形如图８所示。如图8（ａ）、图8（ｂ）所示，栅漏电容增加使得栅极电压上升、下降速率有所变缓。如图8（ｃ）～图8（ｆ）所示，随着栅漏极电容Ｃｇｄ的增加，漏源电压Ｖｄｓ及漏极电流Ｉｄ变化速率均有所降低，同时米勒平台持续时间增加，导致器件损耗增加。  
@@ -121,26 +121,26 @@ SiC MOSFET的关断过程可分为关断延迟（ｔ５～ｔ６）、米勒平�
 
 漏源电容Ｃｄｓ＝０ｐＦ、100ｐＦ、200ｐＦ、500ｐＦ条件下器件开通和关断波形如图９所示。如图９（ａ）、图９（ｂ）所示，在开通过程中，随着漏源电容Ｃｄｓ的增加，栅极电压振荡与过冲加剧，但关断过程中Ｃｄｓ的增加将减弱栅极电压Ｖｇｓ的振荡。如图９（ｃ）、图９（ｄ）所示，开通阶段，Ｃｄｓ的增加将减小漏源电压的下降速率，同时使得漏极电流过冲加剧。如图9（ｅ）、图9（ｆ）所示，器件关断阶段，Ｃｄｓ的增加使得漏源电压上升速率变缓，同时使得漏源电压Ｖｄｓ和漏极电流Ｉｄ的振荡幅度变大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMDicIEukaOicibfE0eR8eCLYcKn6FGgEJicjlfwLwPBZpdqN5XicSa34FjzTejyYyHWWT2x3ZxljapphuvZm8uA9FYxrn5iac3uWsRI/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_017_b421106ff692.png)
 
 ３.栅极电阻对器件开关特性影响实验研究  
 
 在器件设计与生产过程中，厂商基于目前工艺技术水平，已针对不同应用场景对不同系列器件产品的本征参数进行了优化设计，就器件应用而言，一般无需对寄生电感及寄生电容参数进行修正设计。实际工程应用中，驱动电路方案已经确定的情况下，改变外部栅极电阻阻值是对器件开、关特性进行调整的最为行之有效且最为直接的方法。因此，本文实验部分仅考虑栅极外部电阻对SiC MOSFET开关特性的影响。基于图３所示双脉冲测试电路，搭建SiC MOSFET开、关特性实验测试平台，如图10所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMq9dB3fkRZtmgYibR39cgkaianoQW1CL9Y8pg0PYJ8vuFq7iaAaMsR3WR42WE1GGlPLSXZWcSMr1EhraaFibynAGGlE086GM7ySOs/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_018_35d19a0da237.png)
 
   
 实验中所测试的对象为CREE公司型号为C2M008012D的SiC MOSFET器件，实验平台直流输入电压VDC为400Ｖ，负载电感L1为400μＨ，负载电流Ｉｄ为10Ａ，栅极开通电压为＋20Ｖ，关断电压为－4Ｖ。图11所示即为外部栅极电阻分别为5Ω、10Ω、15Ω以及 20Ω条件下器件的开、关特性波形。
 
 实验结果表明，外部栅极驱动电阻的增加对SiC MOSFET的开、关特性产生了 显著影响。如图11（ａ）、图11（ｂ）所示，外部栅极电阻的增大使得栅极电压的上升、下降速率明显放缓，从而导致器件开通、关断暂态时间延长。如图11（ｃ)～图11（ｆ）所示，外部栅极电阻的增大使得漏源电压及漏极电流的 上升、下降速率变缓，从而导致器件开关损耗增大。但是，增加栅极电阻可有效抑制器件开关过程中漏源电压及漏极电流的振荡与过冲。因此，在高压、大电流应用场合，需合理选择外部栅极电阻阻值并进行实验测试，以此降低器件所需承受的峰值电压与电流，确保SiC MOSFET运行于器件安全工作区。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNiaG5rmdicU13ndjsOPicSIic9mKuLIsfwuMcK9f5mz0DBX4HLPOrXl6QlicF3hKzPz46HJkb02LbBG4CMFNpd9lhDtc4NSdFBBNwg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_019_a7d8f43b8ed6.png)
 
 ４.结论  
 
 本文搭建了基于SiC MOSFET的双脉冲仿真与实验测试平台，研究了不同寄生电感、寄生电容以及栅极电阻作用下SiC MOSFET的开关动态特性。当寄生参数数值逐步增加时，寄生参数对器件开、关特性影响如表１所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPRQ2EmmCZaBhejBuAibNPQkVeTdWXvyIr6UQd4qqSangSiaq1dA9fTqj5lTLrwXSic8xz8JlSvRdfS4eP9EDH8DxmrbnKI0eALMo/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_020_df7c47bafd37.png)
 
   
 ①栅极电感主要影响栅极回路，电感值增加导致栅极电压振荡加剧，但栅极电感值的增加对漏源电压Ｖｄｓ以及漏极电流Ｉｄ的变化速率（ｄＶ／ｄｔ和 ｄｉ／ｄｔ）无明显影响；漏极电感主要影响主回路漏源电压Ｖｄｓ以及漏极电流Ｉｄ波形，其电感值的增加导致漏源电压与漏极电流的振荡加剧；源极电感对栅极回路与主回路波形均有影响，其主要影响在于使得开通、关断波形有所延时。  
@@ -157,12 +157,12 @@ SiC MOSFET的关断过程可分为关断延迟（ｔ５～ｔ６）、米勒平�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOacSVgUNia1ia8kNMoyS6M77UTdX9L750qtl17aK1Xycic07D0ibj1HFytY8YGrTxcTPjEQ0y9S0JMaB6hKic5GUCLIMTnW9dyfz64/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_021_6df2a4e1b36c.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMCUzkwVSKCaUFDmkPlH88IWBn6Cvd3RiaHKZudHyKM9NaAXHpBrV0AKicJd67QF98picyo2IEIQpNWQ9Rrare1rmkVw08cm7TCcI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_022_1eae3bd80af8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPgSEQmIsQHmrwzCynUuBHIUAfEOBFNkB6pia1bMpG45eAyoDa6ICW6EGH9RJfj61uLMWM4kNYvcSGJYicMQy5tXg8bKH3M1r4g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_023_9ec9ac66c608.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBGrx2MfeicCmib2tFXYPQBxObtPXHu2LToOdT3SmAfNLzL4n9UwTZQhY53b1lYkn9OibJuqavO16tZ84YliaVpx6Y8JsQl2S8ss4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](SiC_MOSFET建模及其寄生参数行为特征研究_images/img_024_d9a1fea27b24.jpg)

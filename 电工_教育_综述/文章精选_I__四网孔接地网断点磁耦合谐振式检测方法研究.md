@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/MPTp3izxXcaX53JWmDxpNg](https://mp.weixin.qq.com/s/MPTp3izxXcaX53JWmDxpNg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_000_4fecbf19a39d.gif)
 
 ****Research on Magnetically Coupled Resonant Detection Method for Breakpoint of Four Mesh Grounding Grid****
 
@@ -34,7 +34,7 @@ W. Chen, S. Wang, X. Yan and Z. Ye, "Research on Magnetically Coupled Resonant D
 
 Magnetically coupled resonant technology is a novel method for solving the breakpoint locating of power grounding grid. But the method can only detect breakpoints of a single mesh grounding grid at present. In this paper, a magnetically coupled resonant detection method for four-hole grounding grid breakpoint is proposed. Firstly, the equivalent circuit model of the four mesh grounding grid with two types of breakpoints, namely edge branch and intermediate branch, is established. The input impedance and phase angle of the system are obtained by analyzing the equivalent capacitance and equivalent resistance in the model. Secondly, the magnetically coupled resonant physical process of grounding grid faults is solved via HFSS software. The magnetic field intensity and phase frequency characteristic curves of four mesh holes with different branches and positions of breakpoints and different corrosion degrees are studied, and an experimental system is built to verify the feasibility. The results show that under the condition of grounding grid buried depth of 0.5 m and input frequency of 1∼15MHz, and there is an inverse relationship between equivalent capacitance and distortion frequency, the phase angle is positively correlated with the degree of corrosion of grounding grid, and the error of signal distortion frequency can be positioned at 5%. This paper provides some ideas for the application of magnetic coupling grounding grid detection technology.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178CtrWs7zwWygAVX6SgeZS5kSc38Z1rwxdLMZib6WlibJEvFzqib6l8pKO7yTZ4jOYWWwnGgNrbPHSHA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_001_26d839af3633.gif)
 
   
 
@@ -44,19 +44,19 @@ Magnetically coupled resonant technology is a novel method for solving the break
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178CtrWs7zwWygAVX6SgeZS5ib32Dlt5JxQiaViae6uJzib4mQE4x8rbNCCqjnhuicmuW2NHicsf7icepSFHQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_002_f84c1ac8c8c4.gif)
 
 **Weihua Chen** received his B.Sc. degree, M.Sc. degree and Ph. D. degree all from Liaoning Technical University in 2002, 2006 and 2016, respectively. He is currently an associate professor at Liaoning Technical University. His main research interests include the radio energy transmission technology and research on key technologies of mine electromechanical equipment.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178CtrWs7zwWygAVX6SgeZS5Fw01JuxnYn4aQtSWlsFacyLBAbtibiavTiaKIbbia0RnLWPzrJJq1uib1OA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_003_ca1500485bdf.gif)
 
 **Shuai Wang** received his B. Sc. Degree from Liaoning Technical University in 2020.He is currently a M.Sc. candidate at Liaoning Technical University. His main research interest includes radio energy transmission technology and electromagnetic coupling.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178CtrWs7zwWygAVX6SgeZS5hXpUcBMRF3v4iaw6vNib2yK37mxfOSO2BAoIHtr9tZePMpnRVkkBgQ5w/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_004_1d03038d56ed.gif)
 
 **Xiaoheng Yan** received her B.Sc. Degree, M. Sc. degree and Ph.D. degree all from Liaoning Technical University in 2005, 2008, and 2016, respectively. She is currently an associate professor at Liaoning Technical University. Her main research interests include radio energy transmission and electromagnetic detection and imaging.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178CtrWs7zwWygAVX6SgeZS5vg4KDas7xmY4Hhhv3lwEQuGibOccj3ichibH2C3iaUQ4W24RLh0PrtVaDg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_005_3d49bb9caf9d.gif)
 
 **Zhiquan Ye** received his B. Sc. Degree from Tianjin University of Technology in 2020. He is currently a M.Sc. candidate at Liaoning Technical University. His main research interest includes radio energy transmission technology and electromagnetic coupling.
 
@@ -64,7 +64,7 @@ Magnetically coupled resonant technology is a novel method for solving the break
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_006_654c2fde68d8.jpg)
 
   
 
@@ -78,15 +78,15 @@ Magnetically coupled resonant technology is a novel method for solving the break
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_007_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_008_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_009_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -94,15 +94,15 @@ Magnetically coupled resonant technology is a novel method for solving the break
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_010_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_011_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_012_644d85f1cc17.png)
 
 学会官方B站
 
@@ -110,15 +110,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_013_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_014_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I__四网孔接地网断点磁耦合谐振式检测方法研究_images\img_015_c28b250481e7.jpg)
 
 学会科普微信
 

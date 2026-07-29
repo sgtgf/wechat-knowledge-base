@@ -18,7 +18,7 @@
 
 近日，由阿里巴巴平头哥举办的首届玄铁RISC-V生态大会在上海举行。中国工程院院士倪光南在题为《推动RISC-V生态建设，与世界协同创新》的演讲中表示，中国厂商正在全力推进提供强大算力的RISC-V方案，“可以毫不夸张地说，今天RISC-V是中国CPU领域最受欢迎的架构，中国芯片产业和整个芯片生态将会越来越多地聚焦于RISC-V架构，中国的巨大市场将成为支撑RISC-V的重要基地。”
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHRwZEGQDmaqTRGc0Y20TOA0w4dO02C1LI9LXiciafDmH0hZicSvdBUib3ibwCRvWdImduJu5FafvQmTEaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倪光南_RISC_V已成为中国CPU领域最受欢迎的架构_images\img_002_e3b3309c3786.jpg)
 
 图：玄铁RISC-V生态大会会场，倪光南院士发表演讲
 

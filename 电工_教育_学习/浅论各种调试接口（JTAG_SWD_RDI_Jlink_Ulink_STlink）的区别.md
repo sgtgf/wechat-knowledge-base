@@ -21,7 +21,7 @@ JTAG（Joint Test Action Group，联合测试行动小组）是一种国际标�
 -   TDO：测试数据输出，数据通过TDO引脚从JTAG接口输出；
     
 
-JTAG协议在定义时，由于当时的计算机（PC机）普遍带有并口，因而在连接计算机端是定义使用的并口。而计算机到了今天，不要说笔记本电脑，现在台式计算机上面有并口的都很少了，取而代之的是越来越多的USB接口。所以，目前市场上已经很少看到它的身影了。![](https://mmbiz.qpic.cn/mmbiz_jpg/X23tkgsWvFnB6XhncCsdTsDLxkVOHtiaUP6UKZv6R2CuzgWndAoe75HdhUrC3qXzOgfRXugibwGKVyV3ibO4LL8vQ/640?wx_fmt=jpeg)
+JTAG协议在定义时，由于当时的计算机（PC机）普遍带有并口，因而在连接计算机端是定义使用的并口。而计算机到了今天，不要说笔记本电脑，现在台式计算机上面有并口的都很少了，取而代之的是越来越多的USB接口。所以，目前市场上已经很少看到它的身影了。![](D:\电脑文件\公众号知识库\电工_教育_学习\浅论各种调试接口（JTAG_SWD_RDI_Jlink_Ulink_STlink）的区别_images\img_002_3450d85c1b1b.jpg)
 
 ## 二、SWD接口
 
@@ -35,7 +35,7 @@ SWD和传统的调试方式区别：
     
 3.  在大家板子的体积有限的时候推荐使用SWD模式，它需要的引脚少，当然需要的PCB空间就小啦！比如你可以选择一个很小的2.54间距的5芯端子做仿真接口。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_jpg/X23tkgsWvFnB6XhncCsdTsDLxkVOHtiaUe83ZBTibm2HCohZLw37KCU5DiboMd15ianLW4XicqO6sur8MHrOEDQNWibQ/640?wx_fmt=jpeg)  
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\浅论各种调试接口（JTAG_SWD_RDI_Jlink_Ulink_STlink）的区别_images\img_003_febfdcb9df83.jpg)  
     
 
 ## 三、RDI接口
@@ -48,13 +48,13 @@ SWD和传统的调试方式区别：
 
 J-Link是德国SEGGER公司推出基于JTAG的仿真器。简单地说，是给一个JTAG协议转换盒，即一个小型USB到JTAG的转换盒，其连接到计算机用的是USB接口，而到目标板内部用的还是jtag协议。它完成了一个从软件到硬件转换的工作。
 
-JLINK是一个通用的开发工具，可以用于KEIL、IAR、ADS 等平台。速度，效率，功能都很好，据说是众多仿真器里最强悍的。![](https://mmbiz.qpic.cn/mmbiz_jpg/X23tkgsWvFnB6XhncCsdTsDLxkVOHtiaUuXeiarcp8rialRXz4J3DW1VBcR2WCI9yDeTJzat4uDOZ60LARFAQETkw/640?wx_fmt=jpeg)
+JLINK是一个通用的开发工具，可以用于KEIL、IAR、ADS 等平台。速度，效率，功能都很好，据说是众多仿真器里最强悍的。![](D:\电脑文件\公众号知识库\电工_教育_学习\浅论各种调试接口（JTAG_SWD_RDI_Jlink_Ulink_STlink）的区别_images\img_004_5a90efd731cf.jpg)
 
 ## 五、ULink仿真器
 
 ULINK是ARM/KEIL公司推出的仿真器，目前网上可找到的是其升级版本，ULINK2和ULINK Pro仿真器。ULINK/ULINK2可以配合Keil软件实现仿真功能，并且仅可以在Keil软件上使用，增加了串行调试（SWD）支持，返回时钟支持和实时代理等功能。
 
-开发工程师通过结合使用RealView MDK的调试器和ULINK2，可以方便的在目标硬件上进行片上调试（使用on-chip JTAG，SWD和OCDS）、Flash编程。但是要注意的是，ULINK是KEIL公司开发的仿真器，专用于KEIL平台下使用，ADS、IAR下不能使用。![](https://mmbiz.qpic.cn/mmbiz_png/X23tkgsWvFnB6XhncCsdTsDLxkVOHtiaUoplVuDO0fKF2iaLp5UeYDicX66HDt3mIVmaKC2BuGhGSRSdPGn9KbObw/640?wx_fmt=jpeg)
+开发工程师通过结合使用RealView MDK的调试器和ULINK2，可以方便的在目标硬件上进行片上调试（使用on-chip JTAG，SWD和OCDS）、Flash编程。但是要注意的是，ULINK是KEIL公司开发的仿真器，专用于KEIL平台下使用，ADS、IAR下不能使用。![](D:\电脑文件\公众号知识库\电工_教育_学习\浅论各种调试接口（JTAG_SWD_RDI_Jlink_Ulink_STlink）的区别_images\img_005_e26d577aeddd.jpg)
 
 ## 六、ST-Link仿真器
 
@@ -68,7 +68,7 @@ ST-LINK是专门针对意法半导体STM8和STM32系列芯片的仿真器。ST-L
     
 -   编程性能：采用USB2.0接口，进行SWIM / JTAG / SWD下载，下载速度快；
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/X23tkgsWvFnB6XhncCsdTsDLxkVOHtiaUJyvaD09BbHsUf6UIaNIIibAuIjK5dyhwJkJNRI25ItDaPx8j5Pr2wsA/640?wx_fmt=jpeg)
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\浅论各种调试接口（JTAG_SWD_RDI_Jlink_Ulink_STlink）的区别_images\img_006_6383a0fdd4fa.jpg)
     
 
   

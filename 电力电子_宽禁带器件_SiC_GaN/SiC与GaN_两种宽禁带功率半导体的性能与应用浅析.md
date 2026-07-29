@@ -5,13 +5,13 @@
 
 以碳化硅（SiC）和氮化镓（GaN）为代表的第三代半导体材料具有更宽的禁带宽度、更高的导热率、更高的抗辐射能力、更大的电子饱和漂移速率等特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5KJIWPeHhJZ5GB511GOYxzEmwkQYXcd18WdOgQTCRnYopLDRLydJKRA/640?wx_fmt=png&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_000_a3973a7a71fe.png)
 
 随着现代工业更高功率、更高频率、更小体积的应用需求，仅仅通过改变器件结构，将无法突破半导体材料本身性能的限制。而第三代半导体材料——宽禁带（WBG）半导体可以突破传统硅半导体材料的极限，从而研发出性能更为优越的半导体功率器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5eghsh44DEZDNkbYKZyjqvkfEBcxdHnHloWnWFEjdr9wjweiclzIIOSw/640?wx_fmt=png&from=appmsg)碳化硅（SiC）和氮化镓（GaN）器件具有高击穿电场、高饱和电子速度、高热导率、高电子密度、高迁移率等特点，逐步受到重视。已经在智能电网、电动汽车、轨道交通、新能源并网、开关电源、工业电机以及家用电器等领域得到应用。并在多种应用上替代硅基器件SJ-MOSFET和IGBT器件。
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_001_61db095c2531.png)碳化硅（SiC）和氮化镓（GaN）器件具有高击穿电场、高饱和电子速度、高热导率、高电子密度、高迁移率等特点，逐步受到重视。已经在智能电网、电动汽车、轨道交通、新能源并网、开关电源、工业电机以及家用电器等领域得到应用。并在多种应用上替代硅基器件SJ-MOSFET和IGBT器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5WE1bkUguRaxgUiap7eGLUSw7HRsOiaZSJ92ctrWyfszoSHTFbfZQMibbA/640?wx_fmt=png&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_002_c472ee60609b.png)
 
   
 以下分别以碳化硅（SiC）和氮化镓（GaN）两种第三代半导体器件的性能优势、应用领域、典型案例、方案设计及发展趋势的全面分析：
@@ -30,11 +30,11 @@
 
 2\. 应用领域与典型案例
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5GQySLcPOwyu9jmxc81w0oZHDjFshICJyZdAutNfTgC0t6mQkFN5n2Q/640?wx_fmt=png&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_003_1b0f1fa33aba.png)
 
 电动汽车电驱系统  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5mYjGH2RKWM54jCgxdVp26cu6DLMjggSicnVNVPxrDv1s3KJ3A3ZJibJA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_004_8d4553dd9c76.jpg)
 
 牵引逆变器：特斯拉Model 3采用SiC MOSFET，使逆变器体积缩小5倍、重量减轻3倍，续航提升5-7%。比亚迪、小鹏等车企也在800V平台中广泛应用SiC。
 
@@ -46,17 +46,17 @@
 
 光伏逆变器：阳光电源采用SiC模块，效率提升0.8%，降低LCOE（平准化度电成本）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5iaLhAm60CVFQpAtEXIRsykiaiavbRUmon7IxkmZR5ZnRicWDWsy09dl5xA/640?wx_fmt=png&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_005_9b005c2e8704.png)
 
 智能电网
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5POxoiaESBbLmrPx7N2Tf9QKcHUUwZsjn3YvAWe8cCKq0cUE8061KSiaA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_006_654a4a3cbb7a.jpg)
 
 SiC用于高压直流输电（HVDC），减少线路损耗15%以上。
 
 工业电源与轨道交通 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5I4pJibiaz0zhZovnkgYhJtlc9Z3OG7BevgxY2043tcvCxCl1Sc0Af5sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images\img_000_3c9f314d8322.png)
 
   
 应用优势：器件耐压达1700V以上，适配高铁牵引变流器和智能电网。  
@@ -89,7 +89,7 @@ SiC用于高压直流输电（HVDC），减少线路损耗15%以上。
 
 消费电子快充 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5MW6UBcqMiak8BSMBZeiaxTLsn8icxcpgiclG03iaReMc5vUEKdt2u6BQYXQ/640?wx_fmt=jpeg&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_008_7c00df22e310.jpg)
 
 USB PD快充：苹果、三星采用GaN方案，65W充电器体积缩小50%。氮矽科技DXP8001FA集成GaN开关管与控制器，效率超95%。
 
@@ -101,7 +101,7 @@ USB PD快充：苹果、三星采用GaN方案，65W充电器体积缩小50%。�
 
 车载电源系统  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5KZgKGicVLFHuX0Q3dQK2y1gD480lsRlTicbEYaWZQExFfwFVE2jxnOHw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_009_b7924309bd4e.jpg)
 
 应用优势：OBC（车载充电器）功率密度达1.2kW/L，重量减轻50%。  
 
@@ -109,13 +109,13 @@ USB PD快充：苹果、三星采用GaN方案，65W充电器体积缩小50%。�
 
 激光雷达（LiDAR）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5f4ZPLrQAnkL25kxJa9rv9Hm7U6P50iaERo8ITlXvrKf7mYIRvqwANzg/640?wx_fmt=jpeg&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_010_f479dcc6ffeb.jpg)
 
 GaN驱动电路响应速度<10ns，提升点云分辨率。
 
 数据中心与通信
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5yexS6dtDl7ODjA8ZFNw6Gp1VTNhia2IwH3sg45sEkmhIvSfMict4oNkQ/640?wx_fmt=png&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_011_cbf042dd4e64.png)
 
 服务器电源：GaN用于48V转1.8V POL（负载点电源），效率>95%，磁元件体积减少60%。
 
@@ -131,7 +131,7 @@ GaN驱动电路响应速度<10ns，提升点云分辨率。
 
 📊 三、SiC与GaN关键性能与应用对比  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe5zCQssGCT77ia62EDZC3Y4Egpye1AEWziaSzFK4KVr2BSds28QyMMficTw/640?wx_fmt=png&from=appmsg)开关频率和损耗‌：
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_012_db102cf66280.png)开关频率和损耗‌：
 
 ‌GaN‌：具有更高的电子迁移率，因此开关速度更快，适用于高频应用场景，能够显著减少开关损耗‌。
 
@@ -151,7 +151,7 @@ GaN驱动电路响应速度<10ns，提升点云分辨率。
 
 应用场景对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn0NofNQB8Q1VTNczQunHe59uJCTfCN4ccoyADacrgfNEic0wWTyGJl4Rog01fniaQoUrGORlibvl5Tg/640?wx_fmt=png&from=appmsg)
+![](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_013_4ff7732d9dd7.png)
 
 ‌高频高功率应用‌：
 
@@ -195,13 +195,13 @@ GaN以高频小型化优势占据消费电子快充与车载OBC市场，通过�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkzM4nJZfIC5QgFfribRYKyjbkqtsIt2eIPXkibANybG66UoupfWrOwVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_014_5148264e0d9d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsBrKtVqic7bg0L03u2LcaOD95aUegJVoYxOwib1bEuX4eESgvK7RMrMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_015_b4862f61cfaf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqECTcGj3ia0RmTNR8afGnIARTia9BmzdfiadGhabibhxVeBEaUFZX5aHdCew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC与GaN_两种宽禁带功率半导体的性能与应用浅析_images/img_016_ed358d59c69e.png)

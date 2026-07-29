@@ -10,7 +10,7 @@
 
 这种电源IC的直接驱动是最常见、最简单的驱动方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqVGXBHRUrUZ2SWlVkU94b87Aonick4fdaT7fNqdmTV0LIoL7tYelpOXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这几种MOS栅极驱动电路有点强_images\img_002_25a112c1772f.png)
 
 图1 IC直接驱动MOS栅极
 
@@ -28,7 +28,7 @@
 
 这种拓扑增加了开通所需要的时间，但减少了关断时间，开关管能够快速开通，避免上升沿的高频振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eqicso7IojESm9lQdbKC8uVTaSUGibXcVYQWU2508EDfRDicicrVSGJ1qGlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这几种MOS栅极驱动电路有点强_images\img_003_0ab6fb154bb5.png)
 
 图2 图腾柱电路增强驱动
 
@@ -40,13 +40,13 @@
 
 其中D1通常采用快恢复二极管，缩短了关断时间并降低了关断损耗；Rg2的作用是防止电源IC在关断时因电流过大而烧坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqKQS1Xltt6T9bKqyp5aaUHcq8hDrCYpyIDIv2fNLyxHkG6IylOIA2Vw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这几种MOS栅极驱动电路有点强_images\img_004_dbff41bc5410.png)
 
 图3 加速MOS管关断电路
 
 图腾柱电路也可以加速关断，当电源IC的驱动能力足够时，图2中的电路可以改进为下图这种形式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq63nz8u6kBBXrfQ8EY8oYUKqPFdiaH4zYCibL2hQtdTicVuhd3rxwzkrww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这几种MOS栅极驱动电路有点强_images\img_005_3101c2aa58c0.png)
 
 图4 改善型加速MOS管关断电路
 
@@ -60,11 +60,11 @@
 
 使用R1的目的是抑制PCB板上的寄生电感与C1形成LC振荡，其设计目的是隔离直流，通过交流，同时防止磁芯饱和。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqqQTicPKrePdIY9okJMHoLBgvuGmmwz0q3CsLicMRBS8QbiacKibJEVJoHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这几种MOS栅极驱动电路有点强_images\img_006_af162195d0cc.png)
 
 图5 高边MOSFET驱动电路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\这几种MOS栅极驱动电路有点强_images\img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

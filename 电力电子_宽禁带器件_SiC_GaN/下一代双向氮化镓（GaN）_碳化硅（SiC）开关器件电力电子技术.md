@@ -8,129 +8,129 @@
 
 作者：Johann W. Kolar et al.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOzGAgMPxIs9nHe5ibleGeGpCgxNEKSw6rCaI4eWzS8b6W6I7XfkSZxv1h7dyOFsH7VHib1smqoXLoyzSUAyMSp3z6memWiar2RmY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_000_7d5ff952c982.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPlKUBxAQERFH9jVOuZiaB5ibmsVgt2I9m45Unkicbl0wIvuz8OzqIT4KB081T0YKzE8e54FdpiaL7XufEliaicV6cO7hEuejmx4C6IM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_001_d8c7993e3e86.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPyCricvpvUODzjqGK50lhiaHxPxdaw3fyBFPvaibVv7wAj6VPjhPFNyJzmVasr7qsCECeia9rMvANWLc6mNBVc3sCcKSSwRDA64dM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_002_7f36afc1d1f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOMNzjtDicdkHDEvkGWQbVfWJ3KWkNfRfY5ZepGUSaWNK1KQrE5w9REd2nQRUEIhiaJjSs6prYlF47C0XkN4fFib7TrbqwjlHCxnk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_003_289c73154d2a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN2b7GMwI7dL7suJnh7y97ledg0pLHOgzBqeM5fkoRWibzFInUYFxCngXibXCvjmEzW3s9GFGuMlO5b5M63nNbkgBAHPUyxPezDY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_004_ff3b10d342f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUNle7T2smM72ta5PDlcQmq1xt2bapiaBHfBP2BJhBNgkbSfBnVaDdWs3PysfMiatf6kiaJdIdZ3f2jrBhxAjPiaD9D3YVBTCIhnE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_005_bf6b3ba25124.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNcd9ia1KPRjGxWA6AZuzmWTQUHzrZYE0WZWnib19m11alf7o4Dj6835eB1vOT5TghibOUhmPkdyBibFWuia0bZpKagzMVUYQ9oCicDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_006_f36fa8da4dc7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9oNibQRWia42TxdBiatfwTzrR0bGJcCyNsjP0ygicoOBcrvouXpMiaNAib2uSWVDoQhzgv68w9ekN3DD01ysTwNwkNNKjI7YO3ICws/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_007_385a669994a3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXQHadlTaJBkp6oSY5raiaqT9CZnmsnF2vL3iah92PZzQialwDls8JibicKiaFkm7ALODLPE9GYRheFJ5zgiacNVV9HqcVe4iadOHfA1o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_008_61ac24f93716.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMahRfbRDMYOC3KX9ZzMv5DCkbakQWIeibZxUgPiaI57T0b6w3dLvBQdGHbFYDHq7FSoNFf4YGn2OhR1gzicgX67ftXpicKqZiarfQE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_009_52617b6731b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOE7naDUActwoiaYFMwjOhtUmMBGV8ibd5raskXAJjYnI9GtMREeAiahU1t64escll74zvqKhHkJ8RTyDuu4ic9OCAyKspo31iavcm0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_010_ec9a3d82e68f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPYRd3WoLBRQnCq5rY01pfU2IpNkksRKZic78hWDibeiaMSwTe8STEv0syL0sX4l18V7MWHhnGFkiaTXhHPmh748q5YGj1JEbtdZUM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_011_21bf0c98b5bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPREsvMSDADwGELHm8lVZBAYEamvZF2dZzorLk2geLC7GKXbQe6v2ia2XOAtp1yiauDABmgkNgEH3UhLNKkyjLs5QiaUoRliaBNEHM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_012_09f222a3a3da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPtNsab6cjNuLMXy9PicMJqfMgvpR5WkaYtjSeibL1zuowORPNJUVKt17PiclqJwzMBPzhAt3vBudoMOJh736QnJgac7Zq8JbxL6E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_013_611506757962.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOwB1wa4nQxVI8sJQjQXqEBhfW9orFq0qRBJmibyveBlZzkZDWWAzX8RTuK9xQHcM4e8za6gOIW5RiaYhRKkjknKCSRT7eKHJhyM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_014_c24a780bf25f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMOeuo8WfliaPMd87IqKeoPccNdHkODkSszZrxCcHqyT4yFcNicLeyxerrUzCEKichRxqrfY4XKFGAMWSXKqr1gvoKecty4hC6ic0s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_015_04db7069d5e1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOicuChPj8u22HfaEDmdibB6qnX5eer4gIy3UBNVzmG2wvcBq962VLI8pDjxkgqJwDUic9ibSL0ml4IsEgVUuZrN7ibPbAwdbtTXZuo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_016_990246a60604.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMUfI97iaWqxPFVYbIBkVibibbhNDJ7rTXIme17Vyvict5EZbWSxgKBPpVW2ibQpFOMicAEKXCGPgTiaS1CicfyPXJyvGWaFdK0GvRmGPM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_017_7e5c85d910f0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO3ygap4CjLIeuJ4cYUeZKb2Hb9Ot1gLaOypDRt3Poic8pyu2dKWNvSp12iaQxEqriaAJm46Vr1JT69zsBaWRSbOk3T8TftIbwYdk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_018_3f9a3a2339cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP1kMhvM5HNfMw9d7GPpAjZX92Lc4icyQia4vuQMAiavZvb9CTy0cv1rIBib6MBrBIP9jJ63ibCCZ9fljMiaSu6ScP89hCzoGzlCJ6cI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_019_979b9d826e84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPpYVoUhSIxM3OrhHRXzOJUpMR3usq71nDBl8z5vVNk7ZBiahncOYacKxmCvDdyPnwVdNOHdjicnFzFHxy2Irs40Rsicn8a9bkRRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_020_abee2c05d253.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMVFFsldFIRzHcGWFaKUZ5WSDWiaMfYjib4Ft13JcC5uK72dNPRkAFXgYMrqMQWrVEhMiaiaXSyicBu0Cibd4CmJNbrT2QIYO51sI9ZY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_021_f1098b6d4dae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOvrET4ATdYjXsZxXzicxn7ibNanich0btjKgEW11PsEAyEI1ictGLlp1BAY5LArkSspKw4mwemhIZNrUDtG2G5UM3ibnJ5WAP3gphY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_022_719e95a1a994.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjuDeJyISlR9tbiafdsC1cH4iczFcktmpMZkI8qYfOufV06XNkbsVHhcraDiarPXy3cznCDz9wemQeFicjTuyqjnOAW8eaOCFfBkU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_023_1b31cf527343.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPPxDROicxXX4j2sOcK03cMLX7RKmHOFXricwTG1tEmyqGEcau6zXVSV6ncIwFU4AuUiap7xlv6ic6NQMmk3aRNlmhb8hMl4XyjTWs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_024_c45715db6a4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPbgpAibojHJeGabQEJIjicbQYDFT5IzohCrc5iblRfnTekjV0NdGvdqw9xQDwCftmq2JkicUJN5kB03Dyric4xmIj0DrvMpgcsqhhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_025_0ef9f249b15d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMw6xs4EkjhN8EwQhxuvusOL2x8qpflNBsw41hfeB238EASYpGI2jVicgKMZZvsjiaZYO6WAQk9XAIh5GqxOVBomdFWtWFZEcMuI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_026_3f43ed91f5c2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNAMKv9SZiaCtvBpE0G5FYIwe7VuLojXhfjjrOHiahunKePn1RXJEoKY05Qo4yCXGcsZM0CHgy1vBahMs7E6lr0icNxTdtHOiaxm8I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_027_bcabe70db682.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMvTPFJT7Exq6oEWvFpgHgM7qZS59MwmRrTdAQxXSnvBdS5iak5u3v6tvicLH16Tj0eUicHVu0zK6RWmdH1t2NiblsstSo7v7dloiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_028_26084210c435.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjIDnju0UZ7oEDibdYK4DySWBWqFeibJp5k5Biazq4Jn5bs68icfTzsW43iaTYrKItyZszJdOVCw0CNB9M6Ah6cBu0XKS3kcMEzE64/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_029_80ffb2bc2c2a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMxeF1RK1fhqDErX2Ilwoiag106SANqcSiblVicDp8cChicT1brda1Gic8HGVwlXkOOpkjFfaUOicEibXReiceSibG5EKPUEbbTUdiaAgK34/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_030_9c0ded036733.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPoCjGO9q2H0jdlGZo2KrGmMu1qCKZ70iacN3rCdZ9pqKUgXItFybl7sbmUqfvGict4OrzSmzHulBbkxiavmhdL4qU6iaibC8Gs0hjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_031_b72b977fcd5e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO8vWgGXCsGeRVzVgSA5XIf6YZrMaZm7C1xdr2Ssch1W1ytUjuBGD024uzKKhWgDMjjxmp2YJgk4PgRCxpMCAg9Do5LN7LTLy8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_032_8c4fb47cf2a6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMZtGuyrC4xiaAic8aicjygayxuBicPPS9w5VLJ5oG77ibRmicLTAjibcywvcr8WOIUhf4X8Ik14U79iasWSge8ejV1X2M2ChQ0hfmwRnc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_033_31cd016190cd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpModyT3hYjwcn8JJvefBkAFlibaKySKyic1PiasbsO6iadJ8iaa6v43dbxFfbXZibSUJI6VkDT5ILYLbNJPNpLuvbXp7icBHZ10PuCcAs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_034_5b506c49b2e8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNfqiatT3AaL9v2nT4suyd1npIISSw02n5Y1HuJMx7k2hcleyOU26uBFBw8Q3SjNeLIM2JOf3KbAgVWtBhHN0tIu2BiaPg5l331w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_035_2c738a8a292e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO7wPW8sUTlkotvcYMbYoKxSPprFgnOgKiayFOHb3xmwlx99hFZzRAjKeYFL6nPqciadauKuaCWMVTPMeoZnzZ5gU2HEqj1hKlibI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_036_2bf2af0f4e1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMd3W4n9NnghEbhZtIoEqTszkCWhfE6jLSESDZE5EGxN1vQbxxeNwwKYOSmt9AlGamVXrSx0bJmZHTtAbP1CsUOxdLcibNEfwoc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_037_71e6db4115e5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPkCmE3RM8tiaWlvP2jGaR5LlOpKMtkuSpxxUMGddUPns3bibqsFqvaibqPNRlrYawxwiaicgrpC7Kc96aAjpRz2JSYcHEKQ35I9X7I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_038_29eb332cec58.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN7lLMAtyEabpN8F0FNg5GicgCJZYWyPiapLmCncB44Yf7u5tPtHRyUFNj7LPXBUNlP0RfYRsJZFic2IBD9qmR9LLn96l0rMlTTbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_039_85bfab6c06d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOfcrxnQvpbSoVDef1sLwibTqzIDjtGjyyGSOgdl4cVfY0LicHMOmLnadfnc1bJqlFJBzJfgf7JXgNx7qWFXDfStPwnkPkbCsXvI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_040_b13969cdfdcf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO2J1UHJdSAAEPuK9O86wSLRV4Gvia4LKvWIibD3pwqqPWSvr3o9ZXHQSJFwshLC0H9bBY5gGZK6S2uWdAicVjnIc0pBUqk9iaxKYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_041_d3052f6d99b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMibVXG25Dy4YyCnJyFgM2mj23J0V8fiaw9BlKibzXicEaibaY7aweTOn3wULT0oqntcWUmxw4yck6IwgvQicuQOhfcGR75FgCQibqsDE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_042_ccd847b27f21.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjvoNiaRKNPibzcgNcVSDKXJIibetGXIdzLUVdHwhiauuiazCxOWkXwqPWbj00JrLtUXy6XfRIW7qS7p5ud62VEvRQfrbdeZ2GLBIk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_043_cd406f419b51.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNicmT9ywb1kGSV1cUZkVj6n06Ob7t96QoLj6RyENqsiaxMlElibZFa34TZehg7GnSjeM3onX5ry75d21CS2emelnQ9VzjWvy6TEY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_044_9f9d398ee45b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOmFF4nuoAlmbgiaos2CWesicbNNpcqusgZmcdOX51ibzIr1Z7vClXwHQ4C2dUTZ31zvf875JbcelKFT11iaTNZ348xsjiaaCYMIVvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_045_0963772d5f6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMka07yp66PHdXicrVxeMw2pKPqj3Ih4OW5vaj4iblLeT3iabN95ZHq4a0l5m7O3bxibdV0uzw73lvD0Nw9r5oSGtMTY9UKt56pNU8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_046_521bae7bbb6d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOts7mW7shHMnqWezMleDLaaO641AVgI0GjpnYuMrs9rDM69SE1ECt42yiajib6cSK91D6ziaO6zPmicM83AQvcsl3nJD9Dt1ibcUkY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_047_d4bded93f92c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSURewToGEQsMGOqASxe2uBrXxwTpCm2ZsCL0EmjW9WhhqJunaLib3wOmw0rnGiaSs3Qa29SSp4PMYicRLRXyhb0icOHLs3kL10gE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_048_efda731b4bf7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPGXSMYp4BryTYFAyzEr55hJEwexAicHNBFvXkTNowSGB8fNta1AnEhDeek8ovaHslgaM85evkBR2K9CT80OtiaYHSPtHYwswXibs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_049_7a275053e4d6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMsGgw81xl4vJrIniaHEEIgXSiauIic1WqTePcMtA1iczxR0sH1mvv0FM4XXiaVCOKNIRwAhF7omhEa3BLoibt4GOzibLyeNqprJzArnI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_050_483791852987.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMBsHB7OHtUAOTwLlIibMc1kjZMVt6Q3iakibwokBgGVU8v5SniblCEvxkribaz3kR9WSh2HAhefPII9xTIWQxJpTwqUScWicV8QTWOY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_051_7759b73e45a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOhjczYGI1LahFcXX7S0EY3jPEFlVHH51SbPfckXBVK4jwsXIc8DjmBTVPRRwjL91CwuFkV9hWrv4zlE3Eg4ggYlg2InOiaROF4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_052_e5d1b7501d62.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPcWYmeHaMLACiaxlrKBibScUD5O4RqOiahslZic7swTYcj2GkrKiaK7oExeNkKFcvhDFcgBbjf1epRSkuFVzIzgwJ4w0zRqbK8vFpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_053_aeff5df4396a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMBFG2XJBHHdjQVBONavLHjkrZbbTm4LxCliaAxM1RnLZS9dFnCYtgOIS58exDGLvkJom9d5Q1OpgXibj5t3Pic3ogX5Mlpa7ib6kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_054_1dea29871116.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMCsgYj0govFXsF52tNqQMfuib9icy1cuu4z2nSQFw5VWO91Ececs4Sv5FEPUy6TRKMXgicBomOHtPUvEoKwMqGUVe054H4SibC2zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_055_54c50a1486b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUycl71C4Mjx7JP5ORCYWoCXbEShW1aPRq97hnwpr9kJOOZqibprib3Hicur7ualwZAjAgyGlSxQfJWZ5YibxRjZ3TiaWkq1glG44k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_056_775ba9a09f69.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9xWgDbF3L7lTvVntqQSjIHGOlZ5eOAiaZic8VvWJ9xzaXnn2aoGPgMrbsiby4HuwD1NAKhgfuDcdXiaDs6uvoVWgbmzyTXXJiccMY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_057_e380a365ef59.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMlTsyfMk7VQRk8fJ4YuQISsYhlx9jC5h3kUiboBtHOn6iaicQj4BsaLkibXGswWtIxDVTQnVYNaSuRLnw9OT0GHTxs6r3CPzOpo7c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_058_de194b6fae55.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNKiatDOAaib71Dxw3JjicbUYpVpqdBhdXV5tFjcdcYsl1xtQwXwNTpEMeT0C0iaia1o9DLRTAcKr9dCFOlZGhxyOXS8yxZeiaIG7NAk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_059_e82d2c5ad9a0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5gduz2YqR7Z82DsADeBXLLKia72ytEYyAq1ibPn6DhXVIysFG6fff8lzzuwcnibKWia9MotoZibC2kUpCSiavGYpiaHsVk4NjlcV1Zo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_060_8a046574f7d3.png)
 
 注：文字与图片报告无关
 
@@ -168,14 +168,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOSINPpjkEg6gkS3ibfkH6YQySeGxicAD4UPL3pPM4uicTy9Oxjr5ZvMibYbGGlErphHqO8jPTAjp4AyHS0XH5ZgNkiaMsl5Yr9j6t8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_061_0518c40b6c91.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOO0mot4od6icyo5dicxdQiaScKJxUwl5CEbd8RIm3QPn92zUt90jmq8n03qOVceQf3Mty80bibicsicysFk7EEIerBQM3YcHiaiaxkpibI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_062_cc3fb60f4179.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOpl8v8DMHMQKZDUUlibqtxiaHibrMBicIicAcia5RiaIPK7NHRqTIaKic0sPK8tSAc2BVK34scwXn3d9oRibxkPP69xjrH6UcQGGMV25Gc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_063_b0f195d9de69.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNVQEzVXNKq1CksV0BehGasQvgz436jibuXJHIKibVbU5Iq9634khFvuxyImic7lbHoNoyPg4LHViatFo07o0FFia1tuxtd5dj05Nyw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\下一代双向氮化镓（GaN）_碳化硅（SiC）开关器件电力电子技术_images\img_064_fc65fd712a7e.jpg)

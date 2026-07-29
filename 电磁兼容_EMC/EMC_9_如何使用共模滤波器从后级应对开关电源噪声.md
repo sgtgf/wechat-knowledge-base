@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/NO3K\_1oc1F\_g809YsBWIJw](https://mp.weixin.qq.com/s/NO3K_1oc1F_g809YsBWIJw)
 
-___![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSgfWB8HTEZWSlLytVhHkTvADcLmJqTT6rSA79HiaZcuSID4ibIynDl3875UFpOd75vbRlrlgdokxFw/640?wx_fmt=png)___
+___![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_000_cfeb5a914308.png)___
 
 ____**★★★**______EMC-9---开关电源噪声的应对______**★★★**____
 
@@ -13,19 +13,19 @@ _____€1.电感的频率特性_____
 
 从严格意义上讲，共模滤波器并不是电感器，而是磁性器件，是降噪中的重要部件。如**_图9-1_**所示共模滤波器的结构是两个绕组绕在一个磁芯上，相当于两个电感组合在一起。当绕组中流过电流时，磁芯产生磁通，针对急剧的电流变化，起到使共模电流不易流通（扼流）的作用，从而消除共模噪声，这与电感的自感作用相同。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OrPt8uxYEdrcyia9hND8SQmQkJeCQ0z6Vd8ohYmvUMK8l86l7TT3rYUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_001_440457893214.png)
 
 **_图9-1：共模滤波器的结构示意图_**
 
 共模滤波器可以基本上实现“共模电流不流通、差模电流流通”的作用，如**_图9-2_**，关键在于这两根导线沿同一方向绕在一个磁芯上。差模电流是在两根导线上往复流动，因此磁芯产生的磁通方向相反，磁通抵消，不能起到扼流作用，而是直接通过。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1O2iaS6O2lm1ez2MuHnloib2n6EdfOmT0S1JSwMcY1QLS0PdySYibG0sibuw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_002_2af2a75fff50.jpg)
 
 **_图9-2：共模/差模电流与磁通_**
 
 相比之下，共模电流的流向相同，因此磁通量增强，电流不易流过，也就是说，共模电流＝共模噪声难以通过，从而被滤除，下**_图9-3_**是作为开关电源的输入滤波器使用的示例。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1Oze6h4gqziaRxG3PdpsIj0jRkzjSFHlPoicsjeZ4Tbps4hsFeia8tfBYwQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_003_ff15bc27e7da.png)
 
 **_图9-3：开关电源的输入滤波器示例_**
 
@@ -39,13 +39,13 @@ _串扰_
 
 串扰是因电路板布线间的杂散电容和互感，噪声与相邻的其他电路板布线耦合（传送门：[EMC-3：噪声的传输和放大](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247492022&idx=1&sn=6710559a799bd27c4dcbd38d3f55f172&chksm=c336ab29f441223ff9822267f241ede07b9a21afe7c591d1788117e74acdaeb286d133ee02bc&scene=21#wechat_redirect)），有些PCB板布线布局，会因串扰而导致滤波效果下降，下**_图9-4_**是LC滤波器的图形布局和部件配置带来的串扰。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRDD7QAmjfnGGT4xVqB5ibAUqzpEkowJ719icVfRwDSicU8ls6FyI3iadsDxwmKjgp3bPoAqx4oXXkNkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_004_a91cf8f448f2.png)
 
 **_图9-4：不正确的LC滤波器布局_**
 
 在**_图9-4_**的布局示例中，Vin线路中有LC滤波器，滤波器后的布线与含有滤波器前的噪声的布线相邻，因此噪声因串扰而耦合，滤波效果下降。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRDD7QAmjfnGGT4xVqB5ibAUTlauqbNgaJcHapibuTz0HwsVSIt86A3iatwm85wgdsvtb3uCs6aa8L3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_005_8e2e01f91dca.png)
 
 **_图9-5：建议的LC滤波器布局_**  
 
@@ -55,13 +55,13 @@ _地线反弹噪声_
 
 从**_图9-4_**的示例中可以看出，在组成𝜋型滤波器的电感前后所配置的电容器，其某些接地方式可能会带来地线反弹噪声。在**_图9-6_**示例，如箭头所示，来自接地线的噪声经由电容回流，并去到了滤波器外面。（使用了消除高频噪声用的铁氧体磁珠，使用π型滤波器时，噪声源自GND）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRDD7QAmjfnGGT4xVqB5ibAUibMXibhgvcsYoIl9l6ouerNg01mzoiaR69wpYY0Cibaap6bVEnR9xluNoQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_006_3af15cd0958e.png)
 
 **_图9-6：电路板布局引起的接地反弹示例_**
 
 在这种情况下，为了避免噪声直接传播，可利用增加过孔（Via）的寄生电感的方法，经由过孔（Via）与接地平面连接，改善效果较好。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRDD7QAmjfnGGT4xVqB5ibAU4HVAxiaGeO9iaJpHBQQ0n0oupUeKLnHbzKYXpHkcQZMibm9icS3ibr0d0uQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_007_156a55f32e96.png)
 
 **_图9-7：改善示例_**
 
@@ -105,7 +105,7 @@ _________€3.关于RC缓冲电路的补充_________
 
 为了降低开关节点产生的尖峰电压，可考虑增加RC缓冲电路（传送门：[DC-DC-20：如何设计缓冲电路去除DC-DC的开关节点噪声](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490998&idx=1&sn=9f76e199f3dfccf004707ad41c665d73&chksm=c3355729f442de3f3314decb2b9683786a388d7730f193aaa86f27d38ed2e6c854bd1b37de56&scene=21#wechat_redirect)），整流二极管（同步开关MOS）OFF（高边开关ON）时，RC缓冲电路可将二极管的接合部、寄生电感、寄生电容、PCB版图的电感中积蓄的电荷放电，并通过电阻转换为热，从而降低尖峰电压。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRj6X5288RP12jcOX57FicpiaSXib5kO8Vf1TtjgUfIg7PW6fyMGffTia4qk7wHHibFzhBGFhsOSibiaIL3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC_9_如何使用共模滤波器从后级应对开关电源噪声_images\img_008_fc25a16c03f0.png)
 
 **_图9-8：缓冲电路将噪声转变为热_**
 

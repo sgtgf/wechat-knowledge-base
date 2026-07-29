@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/mbZKINntKlWl2T5rSK2Tyw](https://mp.weixin.qq.com/s/mbZKINntKlWl2T5rSK2Tyw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRGDTu6mzcLbdqAuphOySNJpy2xpVrtMyXc9wyUVSCjIIeEL19EjYNg8XWa3hib2D0kSvVsKgeumpA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_15_检流电阻的选型和使用_images\img_000_9f8733f2702a.png)
 
 _**_★★★_**_Resistor-15---检流电阻的选型_**_★★★_**_
 

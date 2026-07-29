@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/HjJeo5jxSYTrv\_kQAp75KA](https://mp.weixin.qq.com/s/HjJeo5jxSYTrv_kQAp75KA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -36,7 +36,7 @@ P. K. Kesavan, U. Subramaniam and D. J. Almakhles, "Laboratory Implementation of
 
 This paper, evaluate the effectiveness of a proposed speed loop pseudo derivative feedforward (PDFF) controller-based direct torque controller (DTC) for a PMSM drive against the performance of existing PI speed controller-based DTC and hysteresis current controller (HCC). The proposed PDFF-based speed regulator effectively reduces oscillation and overshoot associated with rotor angular speed, electromagnetic torque, and stator current. Two case studies, one using forward-to-reverse motoring operation and the other involving reverse-to-forward braking operation, has been validated to show the effectiveness of the proposed control strategy. The proposed controller's superior performance is demonstrated through experimental verification utilizing an FPGA controller for a 1.5 kW PMSM drive laboratory prototype.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibul0QQ89Nia4DcpryK4UXZrvauAldsicIPlTEYq2joPT1XVicAibk3FhMRco7k13JtQNLib2GaBDPQ8icA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_001_8e520b09f54a.gif)
 
   
 
@@ -46,15 +46,15 @@ This paper, evaluate the effectiveness of a proposed speed loop pseudo derivativ
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibul0QQ89Nia4DcpryK4UXZrNTyibOPtibXmhwNDNbh8ekLniaqM98CTUjNFic3bna5RDGB4ag3jcVo2OA/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_002_82438e74a233.gif)
 
 **Prabhakaran Koothu Kesavan** (Senior Member, IEEE) received the B.Eng. degree in electrical and electronics engineering and the M. Eng. degree in power electronics and drives from Anna University, Chennai, India, in 2011 and 2013, respectively, and the Ph.D. degree in electrical and electronics engineeringfrom the National Institute of Technology Karnataka, Surathkal, India, in 2019. He was a Postdoctoral Fellow with the Hydropower Simulation Laboratory, Department of Water Resource Development and Management, Indian Institute of Technology Roorkee, Roorkee, India, from September 2019 to December 2021. Later, he worked as a Senior lead Engineer- Electrical System, Aerostrovilos Energy Pvt. Ltd associated with Indian Institute of Technology Madras, India. Currently, he is working as a Postdoctoral Researcher with the Renewable Energy, Prince Sultan University, Saudi Arabia. His research interests include nonlinear control, control of power converters, industrial drives, power electronics applications in renewable energy systems and power conditioning.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibul0QQ89Nia4DcpryK4UXZrE71PELubYmIY6wfVEQE9AHleZYkJPibuPChWyiayWLh5hruIzwK29gdw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_003_ba437228e0e5.gif)
 
 **Umashankar Subramaniam** (M'09-S'18) Associate Professor and Distinguished Researcher in renewable energy lab, Communications and Networks dept., College of Engineering, Prince Sultan University, Riyadh Saudi Arabia. He co-established the Renewable Energy Lab (REL) and directed towardsthe Renewable Energy and EV related research and projects as per the 2030 vision of Saudi Arabia and united nations SDGs. He is also a part of 2030 international steering committee for global ranking and Global Distinguished Expert at Global Education Policy Network towards sustainable development goals. He has over 16+ years of teaching, research, and industrial Research and Development experience. He held positions like Associate Professor and the Head of VIT Vellore and a Senior Research and Development and Senior Application Engineer in the field of power electronics, renewable energy, and electrical drives.He has published more than 250 research articles in national and international journals and conferences. He is also involved in collaborative research projects with various international andnational-level organizations and research institutions. He is also a member of IACSIT, IDES, and ISTE. He received the Danfoss Innovator AwardMentor, from 2014 to 2015 and 2017 to 2018, and the Research Award from VIT University, from 2013 to 2018. He is a Senior Member in IEEE, and Member of PES, and ISTE. He is an Execom Member of IEEE PES Saudi Arabia Section (R8-Gulf) from 2021 and Organising member for IEEE PELSYS 2021. He held positions as Vice-Chair - IEEE Madras Section and Chair - IEEE Student Activities from 2018–2020. He was an executive member (2014–16) and Vice-Chair of IEEE MAS Young Professional from 2017 by the IEEE Madras Section. He is an Associate Editor of IEEE Access, Heliyon-Cell Press, AEJ-Elsevier,Frontiers in Energy Research and Guest Editor in Springer-Nature, MDPI Energies and as a Chair/Co-Chair organised many international workshops and reputed conferences like ICSDI21, ICEES21, PEREA20.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibul0QQ89Nia4DcpryK4UXZrRUAKBTvJoykN8O1D9d5F5iaboYDjN4g2ECqoJMthXhl1ibEzzRFTalEQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_004_a84282fbd87b.gif)
 
 **Dhafer J. Almakhles** (Senior Member, IEEE) received the BE degree in electrical engineering from the King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia, in 2006, and the master's (Hons.) and Ph.D. degrees from The University of Auckland, New Zealand, in 2011 and2016, respectively. Since 2016, he has been with Prince Sultan University, Saudi Arabia, where he is currently the Chairperson of the Communications and Networks Engineering Department and the Director of the Science and Technology Unit. He is also the Leader of the Renewable Energy Research Team and the Laboratory at Prince Sultan University. His research interests include the hardware implementation of control theory, signal processing, networked control systems, and sliding mode.
 
@@ -62,7 +62,7 @@ This paper, evaluate the effectiveness of a proposed speed loop pseudo derivativ
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_005_654c2fde68d8.jpg)
 
   
 
@@ -76,15 +76,15 @@ This paper, evaluate the effectiveness of a proposed speed loop pseudo derivativ
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_006_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_007_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_008_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -92,15 +92,15 @@ This paper, evaluate the effectiveness of a proposed speed loop pseudo derivativ
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_009_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_010_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_011_644d85f1cc17.png)
 
 学会官方B站
 
@@ -108,15 +108,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_012_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_013_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_基于速度环伪微分前馈控制器的永磁同步电机直接转矩控制器的实验室实现_images\img_014_c28b250481e7.jpg)
 
 学会科普微信
 

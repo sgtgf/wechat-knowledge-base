@@ -213,7 +213,7 @@ Jacobi迭代法和Gauss-Seidel迭代法都是有效的数值计算工具，尤�
 
 ![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_005_7ea1bd427cbc.png)
 
-![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_006_552ee99c53ad.other)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_006_552ee99c53ad.jpg)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 

@@ -34,9 +34,9 @@
 -   如果函数满足利普希茨条件，那么当你把这个“对顶沙漏”的中心点放在曲线的**任意点**上时，整条曲线的其余部分，**永远只能落在沙漏的外部（白色安全区）**，绝对不可能穿透进沙漏内部的“超速禁区”。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocv7SPNIL1IvW16ktzDc0LlxNv5HtLr4AJtldeX39qtqO6jSAB90Zqn9jUx2t6fcWiaxBLpNGTyZM4y5eyuyViaWfy3fctJyibzhfE/640?wx_fmt=png&from=appmsg)
+![](利普希茨条件（Lipschitz_Condition）_函数变化的速度_images/img_000_1a5d67fd8aea.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooct8eTXjX5BloTjC31V84nINJRclTpDwEC5th93ZB4VTStyyZdtXeeYvJW2FHMPOrCzX7ZOQ74sn0FQuc4ApLCnk9XfwgbSiaUCA/640?wx_fmt=png&from=appmsg)
+![](利普希茨条件（Lipschitz_Condition）_函数变化的速度_images/img_001_7b13865c3329.png)
 
 ### 第三层：数学语言（严谨定义）
 
@@ -125,7 +125,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocujusTyDBHh3DalvYzgnKmOicxwNyOQAjiaynjxeNy5p7xuicUFtB2LOR149fqpgrgD8Vynia5hDXliczE8AnmUOKBgZpjDWibnjLBSU/640?wx_fmt=png&from=appmsg)
+![](利普希茨条件（Lipschitz_Condition）_函数变化的速度_images/img_002_37b282d113dd.png)
 
 这张图想说明一个核心思想：
 
@@ -168,7 +168,7 @@
 
 # 二、汽车限速类比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctygbll1xNruG1qEY3vNQO5vrO1yo6hc3roFmz638eOLJhRD4ib32j60RVTK0splAn6B0TCIlBxRlkXX0CiaBRubS3BMtaojDXTE/640?wx_fmt=png&from=appmsg)
+![](利普希茨条件（Lipschitz_Condition）_函数变化的速度_images/img_003_b51e30b1c7f3.png)
 
 图片第一部分用汽车限速来解释。
 
@@ -207,7 +207,7 @@
 
 # 三、几何意义：所有割线斜率都被限制
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocv8chwa1n2gUSU1dJT2Z5X3ISh150IB6veKKn8XPQibTE5YyKOYwNZyMMtiaG6MTbyzoo3Px1EWKeJvboLGpiaGVcFsKeicvd2lSt0/640?wx_fmt=png&from=appmsg)
+![](利普希茨条件（Lipschitz_Condition）_函数变化的速度_images/img_004_6b7c2582bab7.png)
 
 取函数图像上的两点：
 
@@ -280,7 +280,7 @@ Lipschitz 条件要求，对任意 ，
 
 # 六、Lipschitz 常数并不一定唯一
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctibUhl2HadR1HJm1Eia3cYf5EW3aUcdZjyLj2r0DNgEZFGubnCqtLL71CQpgSVuSpYfiaxibuB3kNUSyFbiaib37iaaMtbicEKdm5G8iaA/640?wx_fmt=png&from=appmsg)
+![](利普希茨条件（Lipschitz_Condition）_函数变化的速度_images/img_005_6c6e50ff49de.png)
 
 若某个函数满足
 
@@ -403,7 +403,7 @@ Lipschitz 条件要求，对任意 ，
 
 # 十一、连续、可导、Lipschitz 之间的关系
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsII1BxJ6PBfzqsdj8Dvh5tPmBVnETc60Lu57lma4JrqqHrbNgJLyAymmZL2KIS5Eia04etf1n96mfdvrMzqldwltN3ZHILGuick/640?wx_fmt=png&from=appmsg)
+![](利普希茨条件（Lipschitz_Condition）_函数变化的速度_images/img_006_add0599ea7e9.png)
 
 图片中的表格想表达三种性质并不相同。
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/R1Lj6BlAlmTGQ0rvfMHJNw](https://mp.weixin.qq.com/s/R1Lj6BlAlmTGQ0rvfMHJNw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -42,19 +42,19 @@ Sensorless control of switched reluctance motors (SRMs) often requires a hybrid 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39g4opq92jNPowrYuTia9tbzYsB96Fia7YVI60jkQfImXx0XxNcoZWM0Lnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_001_d03194d55853.png)
 
 图1 三相12/8 SRM无传感器驱动系统框图
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39gjlv0T7nAppWJrY41yHaKjicvHpbkKk1uAEGnnhBcDLiaUibeaUOeOsx8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_002_c9ebd2ad98c3.png)
 
 图2 基于IPLL的SRM 无传感器控制框图
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39gf3vibcB4BeNQhEsFiceBk1a6fcFClfO0FypI4ukWFQicpwmicic3DMgwyCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_003_7983af4b1fae.png)
 
 图3 传统方法与本方法在低速运行区间的性能比较
 
@@ -66,27 +66,27 @@ Sensorless control of switched reluctance motors (SRMs) often requires a hybrid 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39gmzdsk6PjoAGtibvMuOxGbNUxicDmj1JDb2iaNfbGmIeicr64gKA3CaBX6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_004_da7cb378faeb.png)
 
 **陈子峰**，英国纽卡斯尔大学硕士。目前正在香港科技大学（广州）可持续能源与环境学域攻读博士学位。主要研究方向: 交通电气化, 电机驱动与控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39goyFZnSRhPDbgq40icw5mGicSXfWd7cjrtt85dKiarh821MWiawhm5r44Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_005_c507d6f8f1eb.png)
 
 **林锡坚**，广东工业大学硕士。目前正在香港科技大学（广州）可持续能源与环境学域攻读博士学位。主要研究方向: 电机驱动和电池管理系统。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39gyYPj7vYZYfueXquEhxyF96Kn0mPfdjm8QAffDhNicb6SKgicTic4fgfZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_006_386271a1104f.png)
 
 **纪华昱**，华南理工大学硕士。目前正在香港科技大学（广州）可持续能源与环境学域攻读博士学位。主要研究方向: 交通电气化, 电机驱动与控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39gu9Jfh2h6jCPFOtCW54y5LkGqt9rhmibSsAXMqh8S2arFNNrcL7VvyKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_007_65b20fd0987a.png)
 
 **李泽华**，西安交通大学硕士。他自2023年起担任Energink公司CEO和CTO。目前正在香港科技大学（广州）可持续能源与环境学域攻读博士学位。主要研究方向: eVTOL应用的功率转换器和电机驱动器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39gvTLvpX4ibsenzsiciba3GficygpjD4G4qv189drIO8rA05QQql0Bia3H2yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_008_83a05c6098af.png)
 
 **赵航**，分别于2015年、2017年和2021年获华中科技大学学士和硕士学位，并在香港城市大学获博士学位。他于2021年在香港大学担任博士后研究员。他目前是香港科技大学（广州）机器人与自主系统学域助理教授及香港科技大学联聘助理教授。主要研究方向:电机与驱动、电机驱动在机器人中的应用以及电气化交通。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibvKxLT2wns6B6bY2Dfp39guBn1jkjI1X7StGMKlI0V2MUfial1dUrI8tI6DibcyZakyfxuEmd3oX4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_009_015275a7ad59.png)
 
 **肖殿勋**，分别于2016年和2018年获哈尔滨工业大学学士和硕士学位，2021年于麦克马斯特大学获博士学位。他目前是香港科技大学（广州）可持续能源与环境学域助理教授及香港科技大学的联聘助理教授。在此之前，他于2021年在麦克马斯特大学汽车资源中心担任博士后研究员。他同时担任IEEE TTE的副主编。他于 2024 年获得 IEEE IAS Myron Zucker 学生教师奖学金。主要研究方向:永磁同步电机驱动器、开关磁阻电机驱动器、大功率转换器以及用于交通电气化应用的电池管理系统。
 
@@ -94,7 +94,7 @@ Sensorless control of switched reluctance motors (SRMs) often requires a hybrid 
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_010_654c2fde68d8.jpg)
 
   
 
@@ -108,15 +108,15 @@ Sensorless control of switched reluctance motors (SRMs) often requires a hybrid 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_011_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_012_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_013_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -124,15 +124,15 @@ Sensorless control of switched reluctance motors (SRMs) often requires a hybrid 
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_014_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_015_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_016_644d85f1cc17.png)
 
 学会官方B站
 
@@ -140,15 +140,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_017_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_018_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_香港科技大学陈子峰等_基于惯性锁相环的开关磁阻电机增强型无传感器控制及转速范围扩展_images\img_019_c28b250481e7.jpg)
 
 学会科普微信
 

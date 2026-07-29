@@ -24,13 +24,13 @@
 
 1.原理图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicofkUeLSWThFLzWvga9ph3fM6jtRawk5oicvv2JavZOZEaC7rKibSZH7yw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_002_5c006c26cbe4.png)
 
   
 
 2.PCB 3D图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdico2G3Vh2OkuboLJgiarXwNTwzsTbdwEcByk5MK0wgNSOWvd4dKRdErGhg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_003_fd04b4cef986.png)
 
 **三、辅助电路部分讲解**
 
@@ -90,11 +90,11 @@
 
 **1、典型电路设计（来源于数据手册）**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicoFicDpY3aQ1CPJzPIvHRcbGZkRZFH7b4ztbnfofZc5mSZbN77gDRj3Bg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_004_598d95d5597e.png)
 
 **2、引脚功能（来源于数据手册）**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicod5xEuB9usFbhk2fJH8qibb6H5m389ZvS4ibQqaTJ2hhwzutuoia4E0DQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_005_562ece1eef2c.png)
 
 ★VCC为芯片的电源输入，手册中给出的工作电压为10~20V。（这便是需要boost升压到12V的原因）
 
@@ -116,7 +116,7 @@
 
 首先看下IR2104S的内部原理框图（来源于数据手册）。此类芯片的内部原理基本类似，右侧两个栅极控制脚（HO和LO）均是通过一对PMOS和NMOS进行互补控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicoic5VSWZkK0Z1ia2Yy7OXFNGRHac5pJbQjDxB4HE3o6lj8MGicw3JGnKzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_006_b633be9958c3.png)
 
 **自举电路工作流程图：**
 
@@ -126,11 +126,11 @@
 
 （1）.第一阶段：首先给IN和SD对应的控制信号，使HO和LO通过左侧的内部控制电路（使上下两对互补的PMOS和NMOS对应导通），分别输出低电平和高电平。此时，外部H桥的高端MOS截止，低端MOS导通，电机电流顺着②线流通。同时VCC通过自举二极管（①线）对自举电容充电，使电容两端的压差为Vcc=12V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdico4wD5S93SlR1rQ2Hiby39AtmYepLQH8wNAlODupiaqiabDbIBmydErch0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_007_7872a14efd24.png)
 
 （2）.第二阶段：此阶段由芯片内部自动产生，即死区控制阶段（在H桥中介绍过，不能使上下两个MOS同时导通，否则VM直接通到GND，短路烧毁）。HO和LO输出均为低电平，高低端MOS截止，之前加在低端MOS栅极上的电压通过①线放电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdico30oiaDFrPiaO5XlIcXIAtuPRmJVCIibHmabcVrmdxBvA9MTxsgicTv3PiaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_008_89849972c737.png)
 
 （3）.第三阶段：通过IN和SD使左侧的内部MOS管如图所示导通。由于电容上的电压不能突变，此时自举电容上的电压（12V）便可以加到高端MOS的栅极和源极上，使得高端MOS也可以在一定时间内保持导通。此时高端MOS的源极对地电压≈VM=7.4V，栅极对地电压≈VM+Vcc=19.4V，电容两端电压=12V，因此高端MOS可以正常导通。
 
@@ -140,7 +140,7 @@
 
 补充总结：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicoueWjTDKicvaicQSJr37vEFakNEOJLQy16YgzHfVK5V0Zk2jKWIBocBzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_009_03aee676c59d.png)
 
 ★因此想要使高端MOS连续导通，必须令自举电容不断充放电，即循环工作在上述的三个阶段（高低端MOS处于轮流导通的状态，控制信号输入PWM即可），才能保证高端MOS导通。自举二极管主要是用来当电容放电时，防止回流到VCC，损坏电路。
 
@@ -152,9 +152,9 @@
 
 时序控制图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicohp10YnOYvPqzj9vxc1amPDeuLgibvuLEbvpKjJ2YVeVoCgeC94mRHzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_010_763dfdb2d926.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicoPu5MU17BQ5RAzQXmyPDOFLFqbeu0AjY1MmJibUM40JXO7VVOCrGkibBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_011_32b6f51765dc.png)
 
 简单看来，就是SD控制输出的开关（高电平有效），IN控制栅极输出脚的高低电平（即H桥MOS管的开关）。
 
@@ -164,7 +164,7 @@
 
 **以上面设计的电机驱动板为例，驱动真值表：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjFKrCyy8979jXfe10mPdicoUpWibpjYxelnb6fia5b0BtwbEuRRibz0kiajzRCAvb2ibUefKoj2qfx2WaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电机驱动解析_images\img_012_c3d893996d7b.png)
 
 改变PWM的占空比，即可改变电机的转速。
 

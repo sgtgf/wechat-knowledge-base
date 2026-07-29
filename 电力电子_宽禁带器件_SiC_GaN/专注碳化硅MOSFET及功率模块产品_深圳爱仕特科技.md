@@ -15,36 +15,36 @@
 
 **碳化硅器件的应用范围**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKUzb2W8NaoDWXYoLQORG4w8mWK55jf9ZdkcSoCIqN30zjokTv2JuPkg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_000_bca0f98d223b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vK4Olyx34sEhePCQjHLtApVKQXv1nCVvkPicB098kicLv8yT7tpaqh98Mg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_001_a2a319fb2241.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKLf0JxcUsMJJzcrDEE6Z51HlZV4sLLge9rxS3vU2XS2nfQqE2pnPXgw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_002_3b1ee2425951.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vK2dEKQ3j9Bf0ZAImEg6l98RlFaZSiaCSZF4R83k0X3BLtxhKt7c4zkjQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_003_eeb5a388728f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKovWPXl9F8ASo5vpbscicVSdwCTIZF6jeH4iaRJPhMJicRclWvXQWbfyTg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_004_c330d04dfde2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKFPQSDX5NaQK3Ros2LXaFPQdjADYwlibwCk0PGOzVfmTUyzWJyHqGKKg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_005_1a0c5a4601e1.jpg)
 
   
 
 碳化硅MOSFET及功率模块的应用资料  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKdrTcAicp5hkltdjQgMIuXJNsdq3cLE5c5kICicksa2HgPwvTR9SXfc1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_006_3b3e736d8c6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKwiarmmg47L2xia8pEUjjceynNnGNEL0WBRLoP1vKxiaUicgeibqVKWK4zmg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_007_6abe21bb4b42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKNpM5icPwsTmvBbsUXYjae3tHgPklQ40rKMvPhhKuOuhWELxwdxChoPw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_008_f2dd5ed05f7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKPkQemYdAHWGCUyhj50OQ4PgJbOVdSHx9mGgYg6CDDtFK5t9etjhsCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_009_e817f5ae4219.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKg6goOHAXzVUWXbhR4Nfe3NVaQZjP2CuTolT9Qb8Qd5iaJDxkl1TFaDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_010_8e384ea348e9.png)
 
 **深圳爱仕特的产品分类**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vK4odlLuLaibC0qC8sjmwiauACWiciak2NmftxIoUUwcJG7jFwKYew2zRb8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_011_b76de7a5c00f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKpDkeicgNErUv5mTjf16eOR5Faaa1dnDqcibAQp2Z4zkGccp8ndB88rkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_012_a5b283421bf8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZtyYnaT1T6iaV8B3Lxw1vKRcictC7hI5F6ElFklDH3lVGsQBXIfmf3eLJx0yUV7dDKr1NibliaSa6kg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\专注碳化硅MOSFET及功率模块产品_深圳爱仕特科技_images\img_013_87d91563631f.png)

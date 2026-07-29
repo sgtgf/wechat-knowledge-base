@@ -3,31 +3,31 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/GMMc6v1KO3bqxwiODmpi1A](https://mp.weixin.qq.com/s/GMMc6v1KO3bqxwiODmpi1A)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV7dice1KyVRcaiaXW9zXxognEIKMXsIlZbgdO3fibtmQSJ9gu1ISuHFPicPITRrRsodnr9pfz6cwgmHA/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637115&idx=1&sn=b580b07bcb6956c30cf5dddde6b6630d&chksm=88bc2834bfcba122aed1b012df54e323a7fad34606b768b59edbc940a4e65aa5273e63abd5f0&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_001_1cea51b0191a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637115&idx=1&sn=b580b07bcb6956c30cf5dddde6b6630d&chksm=88bc2834bfcba122aed1b012df54e323a7fad34606b768b59edbc940a4e65aa5273e63abd5f0&scene=21#wechat_redirect)
 
 2021年10月23日在上海江苏饭店，西莫第15期培训“电机NVH问题的机理和测试仿真”研修班火爆开启：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDB2aoExuGlvM1SYwicFZZcRv1hqoRBC0tZlmyPZafnRR0WeEvSEV0xgjQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_002_03c4ad6f7a3f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDB6PHKppuEDtnUdzrB2Ng5Df6Ze6NaPickR7fmNUuw1jwhnelwuo7evLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_003_8179f8427af8.jpg)
 
 来自全国各地的约70家公司企业及科研院所、近百名学员参加了本次课程的学习，这是盛况空前的一次培训活动，成为了西莫去年的年度盛会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDBxniaMvibsibADNahRuOibDOAP55HZqngR2v81ey8mMHPpjEeR9xcjeUjyQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_004_700cf925ca51.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDBag65LgsTmwYOAufnfTaHj9G29icloKRCIVmYPiaP4aDnicOYQpy9a9kgQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_005_15207b1ec3ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDBlwWiaYEmMDntFDBsEk5TSazhHbjs3ZCdhZPibo8eeWN7SZIP1t0FXVpA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_006_d61a9c47034c.jpg)
 
 三位来自不同领域的顶级专家组成的金牌导师团队联袂奉献了为期两天的精彩教学内容，课上的技术答疑和互动交流环节，大家热情高涨，在紧张和热烈的气氛中度过了一个充实而又有意义的周末：  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDBROIXiccAG62oh1Or0tDoPgWEPDM0yVKF0aaH1c9EBDfCFqoZ7oJHYibg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_007_32ca928eb6b5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDBSle2sibt0wGrO0dge5vFWQ9sj9Uz1sTEFYKaUSDbKJ6T8OlzhDAaBcw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_008_87471f30b1d7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWxjNkfIGBZcC98YtX0ETDBYspCHpkNtDYDibicpEMTWl7248AiabX8edD1mdJ9Khny1KSnA9eHxMO1g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_009_4a9086d3f0f8.jpg)
 
 时隔已经有快一年的时间，我们将在苏州再次安排电机NVH的基础培训课程——“电机NVH问题的机理和测试仿真”研修加强班，在保留之前西莫原班培训导师阵容的前提下，再次邀请更多Ansys专家加盟授课，为了让大家更好更多地掌握学习内容，培训也由两天升级为三天，打造行业顶级师资阵容，着眼于解决电机设计在振动噪声等方面需要注意的问题，同时对先进仿真工具的高阶应用和解决方案进行详细讲解。
 
@@ -435,14 +435,14 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUO6jutIzMPstCVWDbzolFBwJMJoHmxpLupfhyEppyzxhJO2tDsbOpLHwxQxkHMib6ePVc5sKsBylA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_010_08291f42acf5.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_011_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUR45xL8r8tp5SgR0ibmib70SjVGCooKxGROHpK5vr7vHtFK5urPw3ZjcibzH9ibXJ5ceytdKhPtiaibfiaA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVmst8wTFXCMxc7nY0oia7icyU8icIJFLOBFR5IcdF2iaVcQLqIrbEgM7t25fPy0zmxGcMIXvU7WJribeg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637003&idx=1&sn=2eef780384f30d4d9878d352beeeca22&chksm=88bc29c4bfcba0d2e6296d9aba6365947f0e1f20e85f38febfd1b2363f0438dab143a85189f8&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_012_5dce360821c6.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637136&idx=1&sn=9bfd14c8340036eb1567a6807ed3572c&chksm=88bc285fbfcba149f4989c264210f389f95878f5ca987454b95319014690a68d41155eac25fb&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_013_18f5302d1f9a.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650637003&idx=1&sn=2eef780384f30d4d9878d352beeeca22&chksm=88bc29c4bfcba0d2e6296d9aba6365947f0e1f20e85f38febfd1b2363f0438dab143a85189f8&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_014_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_015_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_016_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\独家解锁电机NVH的秘笈在哪里__images\img_017_d960d0948cf9.gif)

@@ -25,7 +25,7 @@
 
    以上间距只是给大家提供一个参考，不同的制造商也会有不同的要求。
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/gL4jYIkA5cJkIGwzGZxjUZtL5VpXNiaW6MGU5DQn3UM3QCDw01IRd6wKJ47KU3Vd4YXPdu2ibTs69wlguun2c3gg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](PCB设计时别忽视_这11个细节__images/img_002_3847ffa7e45a.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 ## SMD元器件之间的间距大小
 
@@ -35,7 +35,7 @@
 
 如下图所示：**DIP和SMT元器件之间要有足够的间距**，建议间距为1-3mm。不过，现在大部分都会使用SMT工艺，DIP比较少了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3NgPcBvQX4nK9j5RKq0DjqoCgIt9wQVvRj3oCmtOic6qIzJTNAyR2SMlQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_003_5732c750c8da.png)
 
 SMD-DIP
 
@@ -43,13 +43,13 @@ SMD-DIP
 
 **去耦电容**是用来滤除电源信号中高频噪声的电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3NGsyE8AibgfAU2QpZn2ia9Dl36HbtyWP5mKc1NbLCEibkLSXJrQOeDTLUg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_004_a3c81eedb870.png)
 
 去耦电容
 
 **在 PCB 布局上尽可能靠近集成电路(IC)放置去耦电容**。IC有多个供电端口时，每个供电端口需要匹配一个去耦电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3N25fuawO0RnT9iaeiaQDvjT4HWVu1lT8TwujdKqia88mLLso7tYG7V5pbA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_005_b5d33c9cff0b.png)
 
   
 
@@ -64,7 +64,7 @@ SMD-DIP
 -   将**元器件放置在靠近PCB板的区域**(以免拆板时损坏元器件)。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3Ng6yYXJ5knRL9MGOia89Ho4YTeLQMlXickwkEWib78ch7PPyS852KdWqSw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_006_393497e2e8ac.png)
 
 PCB组件
 
@@ -72,7 +72,7 @@ PCB组件
 
 例如一些**串行的SMD焊盘**需要相互连接，需要**通过蛇形路由设计**，而不是直接桥连，并且需要注意宽度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3NUwawcWOlKuKmePYXgI4UkNPqWHYk4ONiabeOjElOcs7ZiakCIA7FK1jA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_007_3fe074faa704.png)
 
 蛇形路由设计
 
@@ -80,7 +80,7 @@ PCB组件
 
  很显然，**散热越好**，元器件的工作性能就越好，因此PCB设计工程师需要注意如何设计和布局PCB，**防止热量在某些区域堆积**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3N2wOrasvVgIg5OBQd50oJRwkodiaElLVXD3VYXUbFtLgyvLW6ewwib5Aw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_008_339fc88058e4.png)
 
 焊盘的热量耗散
 
@@ -94,7 +94,7 @@ PCB组件
 
  **泪滴**是额外的铜，具有某些特定形状，用于 PCB 布局，以**提供额外的强度，使通孔足够坚固以承受热应力和机械应力**。尤其是焊盘或过孔与迹线连接处的区域，或宽窄之间的迹线布线时。例如走线线宽的一部分从 10 密耳变为 4 密耳，则必须在过渡点添加泪珠以减少任何潜在的应力或细线裂纹。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3NEvZLKWMkaWWeXGibwo3QGwF8uhleXO6iclmu2oe8eMZZTOydrTIquicsg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_009_a3f170aaa0ad.png)
 
 PCB泪珠
 
@@ -113,7 +113,7 @@ PCB泪珠
 
 **连接到焊盘的的每条走线应具有相同的宽度尺寸**。如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3NaviapsTx8huLQ6cicU5XWfIUdV2BXccMCTFh0Wy193B7k7CFcoJdJkdw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_010_ff8ed2d6a66f.png)
 
 焊盘之间走线宽度一致
 
@@ -125,7 +125,7 @@ PCB泪珠
 
 例如上图芯片的两个引脚是非功能焊盘，但是存在于芯片上面，如果没有连接到电气接地，可能会导致信号干扰。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3Ncg8kQeHosMJwdp4ABiaaSnxx7FOdH13NmwJbict4KAnkpDKTCMuVibrkQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](PCB设计时别忽视_这11个细节__images/img_011_57c2572245d6.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
 ## 未使用的焊盘
 
@@ -137,7 +137,7 @@ PCB泪珠
 
 **保持走线或组件与 PCB 板之间的间距尽可能大**。尤其是单层PCB，纸质基材大，贴近基板的元器件或走线容易受到机械应力的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/gL4jYIkA5cLMxTOA6XHdvbYJpHmZbX3NQQyHRgVxbG0uog89WCzS1A0C4ffJMC5gNNicNge0Cr9sAuIxlfwwLeA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB设计时别忽视_这11个细节__images/img_012_7dcd1e891d55.png)
 
 走线到PCB边界
 
@@ -169,15 +169,15 @@ PCB泪珠
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](PCB设计时别忽视_这11个细节__images/img_013_c270758cd48d.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpQvHwjHHqyVg59KzponKUXpOg5ynXzOHs40lCXUaWtovFsNlZm4MgicA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
+[![](PCB设计时别忽视_这11个细节__images/img_014_a43ff79f2147.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
 
 \-END-
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](PCB设计时别忽视_这11个细节__images/img_015_854de1eb795d.jpg)![](PCB设计时别忽视_这11个细节__images/img_016_17c99fedbed1.jpg)
 
 ## 
 

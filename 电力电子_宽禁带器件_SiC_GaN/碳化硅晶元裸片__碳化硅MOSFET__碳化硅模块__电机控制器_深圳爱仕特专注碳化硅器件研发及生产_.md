@@ -11,7 +11,7 @@
 
 # SIC 裸芯片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3Aluqt0Rsp0X4icgbHznKrqUzVWmMLj4nsCdoXaoZOsxFKuXNJtOpTO1icBdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_000_43f88b29a937.png)
 
 **芯片特性**  
 
@@ -21,7 +21,7 @@
 
 最低内阻15毫欧
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqoHX2c8iaSIF2gQAK8vNiak1M75N3XaJUoWdyCXNn6kOZmebyvTOWcb9Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_001_65cab1118f99.png)
 
 **芯片特性**
 
@@ -37,13 +37,13 @@
 
 满足车规级要求：按照AEC-Q101标准测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3Aluq5BBHZibqcN0rW30Db8VWvciawEEfH3zOhJpo08ibjIUb68VSe9awyVrlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_002_057e05a6a2f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqnIncreTf55z8BYht79mSTq9JGlqZv7yCplWEmOcY1ibL6V0J4eDJ77A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_003_aa4d73f5e8df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqTz0mm2hY1wiaZrOxov2sfYemvPldDrGz13OSDgekRpzY9DibiaNYaqkzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_004_b3e73b0baf97.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqtVnzicOzBRLPkLyRia7npFicmbff7KVZeo72FzpC6YvUgucTnrluUh6Hw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_005_cdb5fed715d3.png)
 
 **SiC MOS模块**
 
@@ -61,34 +61,34 @@
 
 2.5KV绝缘电压
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqzdXgle2g7r9HTze2T8qlYicHicDOT7a7dFV7exPOqHOc0mqGd65OLJzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_006_92627b866c55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqKSN0rDkftDQ4dpo1tXpwLKicAz8WfnjBzzt7e99j888daHsZmIicrFMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_007_19b316f67bac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3Aluqcq8kcNua5kLverObibXh10T1WTMxKkPtE02jicXtcM2sibdXIMqJeJhIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_008_78af2b1de1b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3Aluq8vxubHf0WfhiblVg0OD8fjLFqdtE6KSQ7ytqLwERqltGYWSGzurK1Ig/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_009_390062bfe069.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqOv6iam6YWaEn5sJa69AsKq0eoGTYPQUIpCxUusShErCMUHex0DuL1nw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_010_b19048a039b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqBjEiaZNKic0nMVBneHJ3iaL0upCnOCG0ep1aI2bgGO1xXpeFO52KibDa5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_011_f311530197d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3Aluq0C7cuDwcVCic1quz8fYxX9icpqhvvZ1x7SicLLAz8oWCUgmMJpGEuj2GQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_012_39d1e7e28f48.png)
 
 基于SiC MOS模块的系统方案及整机
 
      团队多名在知名新能源龙头整车厂从事十余年系统开发工作的资深专家，拥有丰富的车规级系统开发经验，结合我司全SiC MOS功率模块特性，可为客户提供驱动板、上位机及整机样机供研发测试使用，便于客户工程师快速了解我司SiC MOS性能优势，加快前期工程验证进度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqjAZZYmPAX0QVpic7icTSlKUKIBicbzTOjYZ7e32bSNVqibB982u5SoHCqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_013_68c3f64fb741.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVAkZX2cvYgdnQBzD3Aluqic5V4ekfTRoQiaRKdtNG9rcpLggrYgz9yzEVOwggtpRu6YqdduiajQj9Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_014_2634ab537866.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqaavibVVB4iaGm88afLLu2x17zWmibjwpcBDa1RiaMSRldvyzKkPlIpkZiaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_015_fb0aa0a2a89a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqJicz2jqdFibmjAWwWFTv1FctaorPbYgPEvt4Ck3xOFaQAJ4ic1KAJEIfA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_016_0a30e0e38acc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqiaseaxRjmX2T7Y0NUy81sTgGJRQehB6okpn2UyXJJ23HEJIZCic602Rw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_017_f2e17eaa03fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVAkZX2cvYgdnQBzD3AluqzAYOVKiaVx2QAC1EoGwZCqe6oicnvn7tNLdUzVI6sPA0Xca1dHeXDXYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅晶元裸片__碳化硅MOSFET__碳化硅模块__电机控制器_深圳爱仕特专注碳化硅器件研发及生产__images\img_018_b7d02eedffbd.png)
 
 可定制产品规格及参数，总有一款适合您 ，期待您的咨询。

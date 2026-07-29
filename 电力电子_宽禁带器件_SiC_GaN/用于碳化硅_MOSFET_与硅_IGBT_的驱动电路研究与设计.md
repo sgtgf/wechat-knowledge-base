@@ -67,7 +67,7 @@
 
 如图2-1 所示为N 沟道增强型硅基MOSFET、N 沟道增强型硅基IGBT以及N 沟道增强型碳化硅MOSFET 的基本结构图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9cfPQ8awvwXNW0DdDOPIJWpY8gKt0MNekt6EULAkVylp3r9nJHlz8Ht4KicibWVBQRVFBbZWOwfS68ciawsZyvictdPibgzaFpk4c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_000_fd39538ce208.png)
 
 从图2-1 中可以看出，绝缘栅双极型晶体管（IGBT）在结构上为四层结构， 比普通硅基MOSFET多一层体区，这一层体区的载流子具有电导调制作用，可以 使得IGBT在高电压和大电流下的压降比普通MOSFET要低很多，因此高电压和 大电流是IGBT的一种特性，目前可以达到的最大电压为6500V。但是这一层载流子的存在也会带来一些缺点，如IGBT 在关断的时候，这层体区载流子会引起电流的拖尾，从而降低器件的关断速度，同时在一定程度上增加了关断损耗。
 
@@ -75,7 +75,7 @@
 
 2.2等效电路图与工作原理
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN2l1QsyroM073LYQk32ETzDmRXEEibP86yAz4UkAnxIRgwTQM7M96R2joKd1p6b6fSyVarmkMr5yz7KX0eiasZvDkZAdGyAZt4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_001_2c4cac5e6f36.png)
 
 如图2-2 为器件的等效电路图。从等效电路图中可以看出，绝缘栅双极型晶体管IGBT相当于一个由场效应晶体管MOSFET 驱动的厚基区、耐高压、大电流的双极型晶体管GTR。简单的说IGBT 是以GTR 为主导，同时MOSFET为驱动器件且具有达林顿结构的双极型器件。  
 
@@ -83,7 +83,7 @@
 
 作为宽禁带半导体，碳化硅MOSFET 在给定电压下，单位面积的导通电阻较低，这也是碳化硅MOSFET 与普通硅基MOSFET 的关键区别。碳化硅MOSFET的导通电阻由几个内部电阻组成，包括沟道电阻RCH、结电阻RJ和漂移区电阻RDRIFT。 如图2-3 所示为某类碳化硅MOSFET 的具体产品在不同VGS下导通电阻随温度变化的特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNSTV6wlBqXJF6xK5YOlu4j39c23Gsn8yrv6c1VWFlCJt0HegmbjjJQzicve4Up3g7BcILf8L55r5lES7TRsqribI8Egp9aTBgbY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_002_9bf212a738ae.png)
 
 在碳化硅MOSFET 的内部电阻中，RCH具有负温度系数（NTC），并且在VGS较低时占主导地位；RJ和RDRIFT则具有正温度系数（PTC），并在VGS较高时占主导地位。对于VGS\>18V 时，导通电阻具有明显的正温度特性，但是在VGS较低期间，特别是在RCH为主导的VGS\=14V 的情况下，RDS具有负温度特性，其电阻随着温度的升高而降低。而对于普通的硅基MOSFET，当VGS\>VTH时，RDS始终具有正温度系数。  
 
@@ -95,7 +95,7 @@
 
 IGBT 的转移特性是描述以集电极\-发射极电压为参变量，集电极电流IC 随栅 极\-发射极电压VGE 改变而改变的关系。硅MOSFET以及碳化硅MOSFTE的转移特性描述的是在漏极电压一定的条件下，栅极电压与漏极电流的关系。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOxUy2cAAyic1P3xAG7BxkN5Qr9YEDQBS7uiaEg2eqmw73mAOViautkcQZJjyjtZ6FSSQNflH27ZLePeINhVjjOv1ZCK1Ks32lHJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_003_dc28bc5da9b2.png)
 
 如图2-4 所示为硅IGBT、硅MOSFET 以及碳化硅MOSFET 的转移特性曲线 图，三者的开启原理一致，当VGS/VGE小于开启阈值电压时，器件表面无法形成反型层，即器件表面没有导电沟道，此时器件处于关断状态。当VGS/VGE的值大于阈值电压时，随着VGS/VGE的增大，器件表面逐渐形成反型层，由此形成导电沟道，ID/IC从零开始上升。从图中不难看出碳化硅MOSFET 的跨导系数最小，沟道迁移率最低，VGS较高时才能获得低导通电阻，为了保证碳化硅MOSFET具有低的通态损耗，其驱动电压要通常高于18V，这也是碳化硅器件与硅器件的不同之处，对于硅MOSFET与硅IGBT，其驱动电压通常不会超过15V，但是目前为了与硅器件对齐，碳化硅MOSFET的驱动电压通常也会设定为15V。  
 
@@ -103,7 +103,7 @@ IGBT 的转移特性是描述以集电极\-发射极电压为参变量，集电
 
 如图2-5 所示为器件的基本输出特性，对于IGBT 为栅极\-发射极电压VGE一定时集电极电流IC与集电极\-发射极电压VCE的关系，对于MOSFET 则为栅极\-源 极电压VGS一定的条件下，漏极\-源极电压VDS与漏电流ID的关系。三者的输出特性差异主要体现在线性放大区。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMexAeniaobDvhofr4y4ffz06rkCVEVRRw0VpkShYLJWbia4m6ic5briaTzN9hynNuoqFZeUDwySWbicmW19NmMB1Br1LdtR8LMIe5I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_004_8fbd3ba4e595.png)
 
 在线性区内，碳化硅MOSFET器件的ID相对VDS呈线性增加，而由于IGBT在线性区有上升电压，因此在低电流功率范围内，MOSFET导通元器件的电压更低(对于器件IGBT 来说,它是集电极间的电流、集电极\-发射极间的电压)。根据欧 姆定律，当ID一定时，VDS越低，则导通的电阻越小，特性曲线的宽度和斜率越陡。 所以当用电传输设备的功率和电力传输需求从低电流功率到高电流功率的范围比较大时，IGBT的导通效率并不高。  
 
@@ -119,7 +119,7 @@ IGBT 有0.5V 到1V 的切入电压，这会导致小电流的时候，IGBT �
 
 IGBT 的动态特性主要描述的是IGBT 开通和关断特性，由于寄生电容CGC与CGE与存在，IGBT的动态特性会受到寄生电容的米勒效应影响。在实际工程中通常有许多办法降低米勒效应的影响，例如降低导通期间从P+注入的空穴数量百分比，提高缓冲层厚度等。IGBT 的开关过程如图2-6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMA3gZIPgGbvolLkDW5u9M6C9icW00IupicRj7C7q1ZV9PCQMCgYgyJxQURH1cdvlHh7zHpORzqYpeaBcquIBB41d4FsLib6hgAr8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_005_13b576299a0d.png)
 
 IGBT的开通过程与普通硅基功率MOSFET类似，包含三个时间段。第一个是开通延迟时间，即VGE上升其幅值10%后，IC上升到10%ICM的时间；第二个是电流上升时间，即集电极电流IC从10%ICM上升到90%ICM的时间；第三个是电压下降时间，即集电极电流达到最大值后，集电极\-发射极电压开始下降，电压下降又分为两个过程，第一个为IGBT 等效电路中功率MOSFET 单独有效时的电压下降过程，第二个为IGBT中功率MOSFET 与PNP 晶体管同时使能时的电压下降过程。  
 
@@ -131,7 +131,7 @@ IGBT关断时通常会给栅射与发射极之间施加一定的负偏压，这�
 
 碳化硅MOSFET 的导通过程由4 个时间段组成，如图所示2-7。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOGMyD4l7Clicic0EOiabQWmibqrxelvUjibpric6AXwHYvVGmSKUnb7ZZrqpy22LLRSFJTeGZ0FXla2DicPJkSicEMGe8ovxibhRE3tx9o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_006_95de563f0502.png)
 
 (1)t0→t1：驱动器收到开通信号后开始输出正向驱动电压，此时VGS从VEE上 升到VTH。此时间段内，由于VGS仍然低于VTH，所以ID和VDS基本保持不变，IG则瞬间达到峰值电流，此瞬时峰值电流IG（SRC）主要由栅极驱动器的大容量电容器CVDD中存储的电荷提供，此阶段内大部分电流用于给CGS和CGD充电，这一过程通常也被称为“开启延迟阶段”。 
 
@@ -143,7 +143,7 @@ IGBT关断时通常会给栅射与发射极之间施加一定的负偏压，这�
 
 碳化硅MOSFET 的关断过程实质上与前面所述的导通过程的顺序相反。栅极驱动电路的作用是吸收大量峰值电流，能够使碳化硅MOSFET 的CGD和CGS电容尽快放电。此外，关断期间的栅极驱动器的阻抗必须尽可能低，使得MOSFET 栅极保持低电平。由于与碳化硅MOSFET的阈值电压VTH的值较低，通常需要将碳化硅MOSFET 的栅极电位拉到地电位以下，而且栅极驱动器的灌电流能力也必须比额定源电流大得多，关断过程如图2-8 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOXeQsryZbqAwf2APVM9w21NTu4Ga3FxXIjnVlkSdvZCRDRXDqQ2Ofq2H5icuGibktzcFUCfg3hrcoVOfcibmIvtIJia7zaplO4iczM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_007_f20bb62fcecd.png)
 
 (1)t0→t1：VGS从VDD下降到VGS（MP）。灌电流IG主要由CGD和CGS中存储的电荷提供，而栅极驱动器的大容量电容器CVDD由VDD充电。漏极电流ID保持不变。随着VGS的降低，沟道电阻也随之增加，从而导致VDS略微增加。  
 
@@ -169,11 +169,11 @@ IGBT关断时通常会给栅射与发射极之间施加一定的负偏压，这�
 
 对于绝缘栅双极型晶体管IGBT 而言，一般有正向偏置、反向偏置以及短路安 全工作区。IGBT 的正向偏置安全工作区（FBSOA）如图2-6 所示，是指电子和空穴电流在导通瞬态时流过的区域。正向偏置安全工作区由最大集电极电流ICP、最大集电极\-发射极电压UCES和最大功耗决定。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8G4wXUCsmQsKzVicXBgWnEfGLjwhFtz28yEmhzYlZyYtnqhtJdXpFzhRGdYqemmv3ibTF45GRu8aou6s7ibzWeO8k51FeExjts8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_008_0458aa678680.png)
 
 IGBT 的反向偏置安全工作区如图2-7 所示，其主要描述的是在IGBT 关断的时候，由于IGBT 在结构上比普通MOSFET 多一层体区，这个体区的载流子会造 成拖尾电流，从而导致集电极电流依然存在的现象。IGBT 的反向偏置安全工作区 （RBSOA）由反向最大集电极电流、最大集电极\-发射极电压和最大允许电压的上升率等三个因素共同决定，最大集电极\-发射极电压和最大允许电压上升率越大， 则反向偏置安全工作区越窄。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOQL3HnNDKtTPIqY0Gs0YeToXxgUd59SUiaUdibTeLUibnMqIDnk9ahILiaAZvOZkOPjWib0uV8MicNSy9fHB2oCgWl45IgWwyXic2CRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_009_585ebbca903e.png)
 
 2.6.2碳化硅MOSFET的安全工作区  
 
@@ -223,7 +223,7 @@ IGBT 的反向偏置安全工作区如图2-7 所示，其主要描述的是在
 
 驱动器是控制器与功率器件的接口，一个结构完善、功能齐全的驱动器包括驱 动信号的传输电路、故障处理电路和DC/DC 隔离电源电路等。其中信号传输模块包括信号输入电路、脉冲调制解调电路以及功率放大电路。信号传输电路可以很好的过滤掉外界因素产生的不稳定毛刺信号；脉冲调制解调电路可以很好的实现控制信号与主电路的隔离功能；电平转换和功率放大电路可以很好的实现整流与提供驱动器件所需的电压电流。驱动电路的整体架构设计如图3-1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM7CbdtRyia8u9Oibng3P12M1icTXQ1hmIbPZrsSK4K3udNgiaG7Qr6lvoGKnx575BCIOkqfZiaBvuZLcb8OmpV9MpPTtBFlNO2lCL4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_010_37f26dff53d3.png)
 
 其工作原理为：当驱动器发出PWM控制信号时，首先由信号输入电路对输入信号进行筛选，过滤掉异常毛刺，然后由脉冲宽度调制电路、隔离变压器、脉冲宽度解调电路组成的隔离模块对控制器与主电路进行电气隔离，再由故障处理电路对于可能出现的短路、过温、过压、过流、欠压等异常进行处理，正常则由功率放大电路将驱动信号转化成+15V 的栅极电压对IGBT 或者碳化硅MOSFET 进行开通，若发生异常，则将驱动信号转化成\-5V的栅极电压对IGBT或者碳化硅MOSFET进行关断。
 
@@ -245,7 +245,7 @@ IGBT 的反向偏置安全工作区如图2-7 所示，其主要描述的是在
 
 在实际应用中，由于工作环境的影响，控制信号经常会产生一些短脉冲信号， 这些短脉冲信号并不是控制器正常产生的开通与关断信号。如果不对这类短脉冲信号进行处理，就会干扰IGBT或碳化硅MOSFET正常的导通与关断功能，情节较轻的会引发器件的误导通，情节严重则会烧毁器件，甚至影响整个系统。因此， 需要设计信号输入接口电路来抑制这类短脉冲信号，即当输入信号的脉冲宽度低于指定的导通与关断脉冲宽度时，驱动电路对于此类短脉冲信号不予理会。目前施密特触发器被广泛的运用于脉冲整形，所以可以利用RC滤波电路结合施密特触发 器设计具有短脉冲抑制功能的信号输入接口电路，如图3-2为设计的具有短脉冲抑制功能的信号输入电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMwdqofkStkfa27hyA44aPjlJNyWTKVm6bzA0FLChtZicPcPhAPJKP9iaWmE1Hhunph9ZMKEmWMMJ6Inq6n4Ru7vCTWMS6424l08/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_011_a2ae349911c6.png)
 
 施密特触发器是由美国科学家奥托·赫伯特·施密特（Otto Herbert Schmitt）于1934 年发明的一种特殊的门电路。普通的施密特门电路一般都只有一个正向阈值电压，而施密特触发器的主要特点之一就是它具有两个阈值电压，且为一正一负。 这两个正向阈值电压通常被分别称为正向阈值电压和负向阈值电压，正向阈值电压是指在输入信号从低电平逐渐上升到高电平的整个过程中使电路状态发生变化的输入电压，负向阈值电压一般是指在电路输入信号从高电平下降到低电平的过程中使电路状态发生变化的输入电压。正向阈值电压与负向阈值的电压之差则被统称为回差阈值电压。这种特殊的门电路被广泛设计用于脉冲整形，即当输入电压出现微小变化(低于某一阈值)时，不会直接引起输出矩形脉冲的周期性改变。通常也可以利用施密特触发器状态转换过程中的正向电压反馈作用，把边沿输入电压 变化缓慢的脉冲周期性输入信号变换为边沿很陡的正向矩形脉冲周期性信号。通常触发器输入的矩形脉冲信号只要幅值大于正向阈值电压Vt+，即可在施密特触发器的两个输出端得到同等输入频率的正向矩形脉冲周期性信号。  
 
@@ -253,17 +253,17 @@ IGBT 的反向偏置安全工作区如图2-7 所示，其主要描述的是在
 
 开通信号能够抑制的短脉冲时间宽度Ton为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOOqldia9XTRlwlMHVzjicicaIDaibQu2buOE6ossyVkBoyeH5bUG7iblNdvuoDteZUPYjdnCKf9kbZFqYYuPdCrl5sJCSFBiaNp8cCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_012_04a211d09c8d.png)
 
 关断信号能够抑制的短脉冲时间宽度Toff为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMWiaHhmuXVREgqa0EaibS9YbHN3UGh3cPXgGiaexGFuYSF07ASf4dExfVicApLTN0icdbfL6x8NmGBcCvjDmhuIicicEfBMXg3YkCy6I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_013_fc5edd632b06.png)
 
 3.4.2脉冲调制解调电路  
 
 IGBT或者碳化硅MOSFET的驱动电路需要具备隔离功能以实现控制器与主电路之间的隔离。若选择直接耦合，不仅会在应用上影响电路的正常工作，同时会 给维修人员带来一定的危害。常用的隔离方式有光电耦合器隔离、光纤隔离、电容耦合器隔离以及脉冲变压器隔离等。本文选择脉冲变压器隔离的方式来实现控制器与主电路的隔离，其具有隔离电压高、成本低以及共模抑制比高的特点。变压器隔离分为无源和有源两种方式，无源驱动是较为简单的驱动方式，其通常是通过外加栅电阻或电容的方式来改变驱动电路对IGBT的栅极充电速度，从而达到改善驱动效果的目的，其结构简单、改善程度有限、为直接驱动且无需驱动电源。因IGBT的栅电容极大，其开通与关断需要较大的能量，所以本文采用有源的方式进行隔离，其原理如图3-3 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZ40gxTobGeDPSoKSek5y7MdDW4on5w1jPf832R3XYx7KmYErm9eO7oEolyXicZiblFgEiacB4FvumFxsjQeO9jgMIOINx8icacT8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_014_87cfa234e27c.png)
 
 有源的方式是通过脉冲调制电路来捕捉输入信号的上升沿与下降沿，在捕捉到输入信号的上升沿时产生正的脉冲信号，在捕捉到输入信号的下降沿时产生负 的脉冲信号，输出的正负脉冲信号经过变压器隔离传输后，通过脉冲解调电路实来现信号的还原。输入的驱动信号经过信号调制电路后，变为正负脉冲进入变压器，再通过脉冲变压器的耦合并由信号解调电路还原成原有的驱动信号，从而实现控制器与主电路的隔离。  
 
@@ -271,11 +271,11 @@ IGBT或者碳化硅MOSFET的驱动电路需要具备隔离功能以实现控制�
 
 脉冲调制电路的工作原理为通过捕捉输入信号的上升沿和下降沿来产生正负脉冲信号，从而实现脉冲的调制功能。脉冲调制的实现有多种方式，常见的有微分脉冲产生电路，其通过电容的充放电可以将输入信号变为正负脉冲信号，本设计采用如图3-4 所示的改进型微分脉冲产生电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOYwuibzjibXWX28XNQFe1PtibJKdiajWJvHTiaSAukTI13PH0vqicCHVKhib17gYX92RUCnmprH5knuu4DqNAn1PcdHvwM6NiaZW4EibSc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_015_e93657af72cc.png)
 
 其原理为：当输入电平由低变高时，U1 反向器的输出电平由高变低，由于电 容C1左侧为正电压，右侧为负电压，则U2 的输入电平被钳位至低电平，所以U2输出高电平，此时电容C2开始充电，U3 的输入电平变高电平，当C2充电到一定 程度时，U3 输出高电平，此时U2 与U3 输出的电平相等，因此变压器左边的正向短脉冲电压持续时间由电容C2与电阻R2的时间常数决定；当输入电平由高变低时，U1 的输出电平瞬间变高，由于电容C1两端的起始电压为0，使得反相器U2的输入电平为高电平，所以反相器U2 的输出电平为低电平，受U2 电平的影响， 此时U3 的输入电平变为低电平，最终U3 输出高电平，因此变压器左边的负向短脉冲电压持续时间由电容C1与电阻R1的时间常数决定。其输出波形如图3-5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUOVn0b6Ns7BCVetTSFmYWMRXZDkagmQmBj1clBfYQ4UmFCsIbDsKevYMPtJ68UurwQ1s2sNbIssJxQ3wCXNhuH55lp8iaCicKo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_016_3b79e0fa506b.png)
 
 3.4.2.2脉冲变压器设计  
 
@@ -285,7 +285,7 @@ IGBT或者碳化硅MOSFET的驱动电路需要具备隔离功能以实现控制�
 
 由脉冲变压器一侧传过来的高低短脉冲信号，需要经过解调电路重新还原为初始输入的PWM 信号。通过比较器和RS 触发器可以很好的实现信号的解调功 能，设计的脉冲解调电路如图3-6 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP4T7DeL9Rc5wcYK3hiaMpKics1pgicg000Q6xYne4SKzNX5ibdNbicWH9zWD0IAaPNaTQffcvmFhPUQuzDgWNQmjDfY0BMF27oZw10/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_017_00cdfc3591df.png)
 
 脉冲解调电路的工作原理为：正负短脉冲信号与通过电阻网络的电源电压作用在比较器的正负两端，当正的一端的电压大于负的一端电压时，比较器输出高电平，当变压器右侧的电压为上正下负时，比较器U1 负端电压小于正端电压，此时比较器U1 输出高电平，U2 的作用与U1 恰好相反，U1 与U2 的输出在经过RS 触发器后在Q 反输出端输出初始的PMW 控制信号。 
 
@@ -293,7 +293,7 @@ RS触发器的原理为：把两个与非门的输入、输出和终端进行相
 
 脉冲解调电路的信号输出波形如图3-7 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM9Xo9ShibX0p3e4RCOawjPDjclheQATrPyKD9GicjTSyZgDic0e7V9xkCIHQU3zjVc0Yhia18mSkGZqzI1Vx6PmbdGrEQDWL1jobE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_018_36ef53c849ae.png)
 
 3.4.3栅极驱动电路  
 
@@ -303,7 +303,7 @@ RS触发器的原理为：把两个与非门的输入、输出和终端进行相
 
 在一般推挽电路中，比如输出级推挽电路，电路的基本工作原理是把电路输入 的信号进行放大，虽然可以完成推挽电路的工作，但为了保证器件在整个周期内的运行，必须使推挽电路输出大小和方向相等、相位方向相反的两个双极性信号，即可解决所谓的电路倒相问题，完成倒相可用的电路，但这无一不是增加了互补倒相电路的工作复杂性。互补倒相电路可有效克服单极性电感原件在倒相时导通出现的稳定性问题。比如当电路输入正电压时，双极性电路中的NPN 晶体管导通，极性相反的PNP 晶体管自动截止，当电路输入负电压时，PNP晶体管导通，极性相反的NPN 晶体管自动截止，即不管变压器信号如何的变化都能自动地完成推挽电路的工作。推挽电路的主要优点之处在于结构简单，同时开关管和变压器对磁芯的利用率都很高，推挽电路每次工作时，两只对称的中心功率开关管只有一个管子导通，所以开关管的导通损耗小。本文采用了漏源极性相反的MOSFET 组成互补推挽放大电路，设计如图3-8 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPibtHajGWll8EGTjQHSOiapsMtHxZ218qAJ09O3wVmBVPXrHOYSScwImuMh2B8KNdRCltwRddZGQP1VcmxdYBkFrqOZwdCEMz2E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_019_027b844b5110.png)
 
 工作原理：当输入的脉冲控制信号为高电平时，Q1 导通、Q2 截止，此时器件门极电容的充电速度由栅极开通电阻Ron的大小决定；当输入脉冲控制信号为低电平时时，Q2 导通时、Q1 截止，此时器件的门极电容放电速度由栅极关断电阻Roff的大小决定。根据Q1 与Q2 的轮流导通情况，器件开通与关断采用不同栅极电阻，且开通时栅极电压VGE/VGS为+15V，关断时栅极电压VGE/VGS为\-5V。  
 
@@ -323,13 +323,13 @@ IGBT 和碳化硅MOSFET 的过压失效主要有两种。第一种为IGBT 的
 
 由于栅极\-集电极（栅极\-源极）的极间存在米勒电容，当IGBT 或碳化硅MOSFET发生短路时，集电极电压和电流会迅速增大，其产生的位移电流会对栅极与集电极之间的米勒电容进行充电，从而导致栅极电压急速上升，当超过栅极的击穿电压时，栅极就会被击穿，从而造成器件的永久性的损坏。面对这类异常，通常会设计栅极钳位电路来保护IGBT 和碳化硅MOSFET。常用的栅极钳位电路一般包括二极管钳位电路、稳压管钳位电路以及TVS 管（瞬态电压抑制二极管） 钳位电路。本文采用两个稳压二极管进行双向保护，由于驱动电压选择15V/-5V，所以选择16V 和6V 的稳压二极管反向串联，设计栅极钳位电路如图4-1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMGafke9BDWnc4dNGo4JiagiaOeW1UyaouSH1S8VXRhFF0ib4oZKicdFWicUGrYibPlS5B9wVpTABduV1evDXobWl6SKjYfaAMdGAics8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_020_e9443a270301.png)
 
 4.1.2集电极\-发射极（漏极\-源极）过压及保护  
 
 在IGBT 或碳化硅MOSFET 的开通瞬间存在浪涌电流，在关断的瞬间存在尖峰电压，此外寄生电感以及瞬时电流过高都会带来电压过冲。在IGBT 或碳化硅MOSFET关断过程以及二极管反向恢复过程中，在功率回路中寄生电感LE会产生很大的浪涌电压VLS，此时IGBT和碳化硅MOSFET会承受的很大的尖峰电压，这会导致IGBT的集电极\-发射极电压VCE 或者碳化硅MOSFET漏极\-源极电压VDS超过安全工作区而使得器件处于故障状态，同时尖峰电压的大小也与直流母线电压VCE/VDC相关。所以通常需要设计集电极\-发射极或漏极\-源极过压保护电路对器件进行过压保护。集电极\-发射极过压或漏极\-源极过压保护电路通常采用缓冲保护电路，缓冲保护电路一般分为无源缓冲网络保护电路和有源缓冲保护电路。其中无源缓冲网络是利用电容、电感和电阻等元件来吸收寄生电感上的能量，典型的无源缓冲网络如图4-2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN31OJIoWZhhqQsYkYOj71dGwMyE27pzUZwgqsOiaNxzP7xxUr2tG8Hnht2AKA49Z27lDKuXCr1C5o80Gtd0L1KqvSSlsv7NVRo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_021_9b362939d160.png)
 
 4.2过流故障类型及保护  
 
@@ -345,13 +345,13 @@ IGBT 和碳化硅MOSFET 的过压失效主要有两种。第一种为IGBT 的
 
 （3）镜像电流法检测：将器件模块内的小部分单元和一个检测电阻串联，然后并联在主功率器件上。通常电阻的取值被控制在较小的范围内，这样通过检测 电阻就可以反映流过功率器件的总电流大小。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM2uCN3u6qxoy42D9BXhQypQdkNL1J7javImF0KR9po3BtWsnUTGFQoghSNh6JAhBGRbNrm9K4z9aZf85cnAEibiaSv0uu0UesNM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_022_0489cb6f3862.png)
 
 4.2.2短路检测保护电路  
 
 短路检测保护电路：由器件的导通特性可知，漏极电流会在IGBT 的集电极发射极或碳化硅MOSFET 的漏极\-源极之间形成压降，当功率器件发生短路时，功 率器件的电流会迅速上升，IGBT的集电极\-发射极，对应于碳化硅MOSFET 的漏极\-源极，两端的电压差会逐渐升高，此时IGBT 或者碳化硅MOSFET 会迅速退出饱和状态，所以IGBT 或碳化硅MOSFET 的短路检测可以通过监测集电极\-发射极或漏极\-源极两端的电压来实现。通常可以采用退饱和法检测IGBT或碳化硅MOSFET是否发生短路，即通过VCE/VDS 与一个参考电压Vref 进行比较的方式进行短路检测。但是器件在开通和关断的瞬间，VCE/VDS 是超过正常电压的，所以在器件开通和关断的瞬间，该检测应该不起作用，设计VCE/VDS 的短路检测保护电路如图4-4 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM4BRgnJ9wzfTJGA5GAwiaYuDrCRWDZzZYibu9fibFwI6dclrEolblNLMibStT2lV0d1V3MJ8fickOn9GYeiaGYUzzmF5WjcVsUy5FSI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_023_79a211642c2a.png)
 
 其工作原理为：当器件正常工作时，Q2 的输入脉冲PWM1为低电平，Q2 处 于截止状态，C1 上的电压被D1 钳位至IGBT/碳化硅MOSFET 饱和压降处，电压比较器U1 的输出为低电平，U2 的同相端电压低于U2 的反向端电压，短路信号输出无效；当发生短路情况时，IGBT/碳化硅MOSFET 的饱和压降迅速上升，D1 的钳位作用消失，U1 输出高电平，此时U2 比较器的输入电压高于Vref2，输出高电平，短路信号输出有效；之后，PWM1变为高电平，U1 的状态变为低电平，SC状态由有效变为无效持续的时间由电阻R4、电容C1、电阻R5 与R6 的分压比决定。由IGBT/碳化硅MOSFET的导通特性可知，在IGBT/碳化硅MOSFET 开通和关断的瞬间，VCE/VDS会超过正常电压，所以需要设置消隐时间，由于IGBT/碳化硅MOSFET 从截止到导通需要近1us 的时间，消隐时间由电容C1、U2 的比较电压Vref1决定；而在IGBT/碳化硅MOSFET 关断时，MOS管Q2 导通，电容C1 通过Q2 放电，使得IGBT/碳化硅MOSFET 退出饱和检测状态。  
 
@@ -359,7 +359,7 @@ IGBT 和碳化硅MOSFET 的过压失效主要有两种。第一种为IGBT 的
 
 对于IGBT 或者碳化硅MOSFET 这类被广泛运用的功率器件，由于开关频率高，会导致器件的发热问题比较突出。正常的温度范围是保证器件正常工作的前提，温度和散热是系统运行中必须要协调的两大因素。如果器件的热量不能及时散出，则随着器件的运行，温度不断的升高，必然会损坏IGBT或者碳化硅MOSFET。所以需要设计IGBT 或者碳化硅MOSFET过温保护电路，设计的过温保护电路如图4-5 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNicDBxKxtL61iaJBZoibQHfJoOY2dtxs8eicGry5zO6rWfVBLnz3MrJKWlTbia0LEnaVc08fyTicG4Z1Nx8aXbjxvYVANibMzNiafm3xY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_024_4f76173e3067.png)
 
 过温保护电路的工作原理为：采用具有负温度系数的热敏电阻R1，温度正常时R1电阻值较高，此时比较器正的输入端电压大于负的输入端电压，比较器输出高电平，当温度升高时，由于R1具有负温度系数，所以电阻R1的阻值会降低，当达到一定温度时，比较器正的输入端电压小于负的输入端电压，此时比较器输出低电平，即触发过温保护信号OT，然后反馈至输入控制端。  
 
@@ -367,7 +367,7 @@ IGBT 和碳化硅MOSFET 的过压失效主要有两种。第一种为IGBT 的
 
 在IGBT 或者碳化硅MOSFET 的电路故障中，电源欠压故障同样不可忽视。当电源电压出现欠压时，会导致IGBT 或者碳化硅MOSFET 的开关速率降低，从 而影响IGBT或者碳化硅MOSFET 的运行，如果没有保护电路进行反馈处理，那么整个系统可能会因为欠压而无法正常运行，进而影响系统的稳定性和安全性。所以工作中需要对驱动器的电源电压进行监测，确保正常的电源供电。设计IGBT/碳化硅MOSFET 欠压保护电路如4-6 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOP7SiaLLTOlo0Kb6eqZKibrT5g4Z6SOjkyJtk2VuaC47HMDQG1O6TFcUqlgdbIVq6uBcAbdbER3kl2T47HZbL7PAzq9XCnicV6zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_025_6c2238ae9792.png)
 
 由于本驱动电路在开通时会为VGE/VGS提供正压，关断时会为VGE/VGS提供负压，所以欠压保护电路包括正压检测电路与负压检测电路。稳压二极管Z1取3.3V，Z2取12V，当正压高于12V 且负压高于1.6V 时，Q2 导通，比较器U1 负的一侧输入电平为低电平，则比较器输出高电平，电路正常工作，当正压低于12V 或负压低于1.6V 时，Q2 截止，比较器U1 负的一侧输入电平为高电平，所以比较器输出为低电平，电路出现欠压，输出欠压有效信号OV，然后反馈给输入控制端，关断器件以保护IGBT/碳化硅MOSFET。  
 
@@ -379,7 +379,7 @@ IGBT 和碳化硅MOSFET 的过压失效主要有两种。第一种为IGBT 的
 
 在过流保护中，当导通器件出现短路过流时，由短路保护电路输出高电平有效 的短路故障信号SC；在负载过流时，由负载过流保护电路输出低电平有效的故障信号OC；当电源电压出现欠压时，由欠压保护电路输出低电平有效的故障信号UV； 当温度超过器件正常使用的温度时，由过温保护电路输出低电平有效的故障信号OT。当出现任意故障时，保护电路会输出低电平有效的故障信号Q，由于输入控制脉冲信号与Q经过与门后连接到信号接口电路中，当故障信号Q为低电平时，最终连接到信号接口电路的脉冲信号也会变为低电平，即会发出关断器件的指令。保护电路工作原理如图4\-7所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNXgrE6HtqxhUMuw0e4BgDczrIstsOCxibVeEtmicPkTjvtFiaqgJ5NXSl6tqUOKvGcG8tK8HBuJjTicLicpmTxo6f7lU4LDqBL7VCc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_026_1b8479f9f462.png)
 
 当器件在运行中收到外界干扰时，无论出现过压、过流、欠压或者过温，都会 立即触发故障信号Q，从而使信号接口电路的输入控制信号立即变为关断信号，从而关断器件以保护器件。  
 
@@ -407,7 +407,7 @@ IGBT 和碳化硅MOSFET 的过压失效主要有两种。第一种为IGBT 的
 
 根据设计初衷，考虑到电路的简单实用性、两路输出电源，最终采用半桥控制 器/栅极驱动器LM5035、输出稳压芯片LM7815 以及LM7905 进行驱动电源电路的设计，设计的隔离DC/DC 变换器如图5-1 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMVV8XCgYoruu64YkDU5dPmOaGjQo3Us8pOpGQgAvsYm9OeNHGOB7ZGKkGxxicGuw7Z76R3Dm55twSLZ4ckZUhsJ02Ah3oLxURA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_027_e5ed05ab26e4.png)
 
 本文设计的隔离DC/DC 半桥电路采用了LM5035 芯片实现振荡、控制和驱动 等功能，采用LM7815 和LM7905 实现稳压输出+15V/-5V 的输出。变压器一次侧为半桥变换电路，正常工作时，LM5035 的HO 与HL 两个引脚输出两路互补的PWM 脉冲驱动使两个MOSFET 开关管交替导通，变压器的二次侧经过稳压芯片LM7815 与LM7905 实现稳压输出。 
 
@@ -437,23 +437,23 @@ LM5035 为半桥控制器/栅极驱动器，其可以实现半桥拓扑功率�
 
 调制解调电路主要实现控制器与主电路的隔离，脉冲调制电路将输入的PWM控制信号转换为正负窄脉冲信号，脉冲解调电路将正负窄脉冲信号还原为输入的PWM 控制信号，在Saber 中搭建脉冲调制解调电路的仿真主拓扑如图6-1所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPRiaYr4Hicrc7Tfgic72dQE1slib9hJoCjTsWJX4ibW1cpvfZ6dmibNA7awZKkFwdOqN24JicAribrCjwPlK339lEKQ66AA5HZeJnAKeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_028_9dbb6c35ca0e.png)
 
 设置仿真参数为：输入PWM 脉冲初始电压为0V，脉冲电压为15V，脉冲宽度为20us，脉冲周期为40us，仿真时间为130us。仿真结果如图6-2 所示。  
 
 脉冲调制解调隔离电路主要利用变压器实现控制器与主电路的隔离，从仿真波形图可以看出，PWM 信号经过调制电路、变压器、解调电路后，基本和原有的PWM 控制信号一致，即实现了隔离传输的功能，符合设计初衷。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMwcSZRrll79fRq3kdIDpeC4pM3F5s8eFDIgecysFXakiahQsvcejqQ4eBdQtkzXiccDjCGLxsOO066nDYfyicVBrAOzS75buuFFE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_029_dc5ae2797b10.png)
 
 6.2功率放大电路的仿真验证  
 
 经过调制解调电路后的PWM 控制信号并不能直接作用于功率器件，而是需要经过电平转换与功率放大电路将PWM 控制信号转换成器件所需的电压和电流， 功率放大与电平转换电路的仿真主拓扑如图6-3 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMcKhrpEict20aQdFntQqGRlSx0biaSibYHV93ZIplCugvnvRiaPe0C6gCD3LxOvhibLyGWXyd8eTM0C6j2b2aM82ib4xibryNa6NEY8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_030_c192f229a64d.png)
 
 设置仿真参数为，输入PWM 脉冲初始电压为0V，脉冲电压为5V，脉冲宽度 为20us，脉冲周期为40us，仿真时间为130us。仿真结果如图6-2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMNibZFiaNRgPX8JLGZGNtSDkfmQhcsdCJpjJmecAibdVDfZ30nic1erKZvmaVpcjfuiam14GFVibMf5f3eQibeZ4HgfdGIhsW03iaiaz1I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_031_efec08f4b32d.png)
 
 根据仿真波形图可知，PWM控制信号经过功率放大电路后，为器件提供+15V/- 5V 的电压输出，当输入PWM 为正脉冲时，对应于开通器件，此时输出为+15V 开启电压，当PWM 为零脉冲时，对应于关断器件，此时输出为\-5V 的关断电压。  
 
@@ -461,11 +461,11 @@ LM5035 为半桥控制器/栅极驱动器，其可以实现半桥拓扑功率�
 
 仿真完脉冲调制解调电路以及功率放大电路后，在Saber 软件中搭建硅IGBT在感性负载下连接驱动电路后的开关波图，仿真主拓扑如图6-5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPw6OTOooczPPssThmGiasuE5F3MN68qWrK8Fwkho7hE3oLnIe0eibN9KqicRQKF4XATYy147pXhTLRM07DrYfe1bUnOM1d462sPs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_032_289260c3dcf4.png)
 
 仿真测试的IGBT 模型为Infineon 公司的IGW40T120 器件，设置母线电压为300V，杂散电感为180nH，负载空心电感为75uH，驱动脉冲宽度为20us，驱动脉冲的周期为40us，初始电压为0V，脉冲电压为15V，仿真时间为80us，PWM 控制信号经过驱动电路后作用于IGBT 的开关波形如图6-6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTLNgKVVVly5ficPdhvf3picAicibzRAut8nTWjJ3QeaJua164sXNGsnrxSdpNKhibTOogFb363kjysic3rkicvcJlC0GfhbLicQv3y8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_033_aa60686e5117.png)
 
 从仿真波形图中可以看出，当输入PWM 信号后，经过驱动电路，可以正常驱 动IGBT 的开通与关断。其开通时间在几us 数量级，关断时存在拖尾电流，关断时间比开通时间更长。  
 
@@ -473,11 +473,11 @@ LM5035 为半桥控制器/栅极驱动器，其可以实现半桥拓扑功率�
 
 在Saber 软件中搭建碳化硅MOSFET 在感性负载下连接驱动电路后的开关结 构如图6-7 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNwvSIgAiaeEUiaaTWofc1DmXDj2W41aa6Z9fQDicT88HlFiaUuMaInQKI7M8icFVqHJww6mBPFOiahtzwhPfr7eia0FCaD6m4ZZjpmT8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_034_ca200a2fc839.png)
 
 仿真验证的碳化硅MOSFET 模型为Cree 公司的1.2kv/40A 的C2M 系列，设置母线电压为300V，杂散电感为180nH，负载空心电感为75uhH， 驱动脉冲的周期为40us，初始电压为0V，脉冲电压为15V，驱动PWM 信号经过驱动电路后作用于碳化硅MOSFET 器件的开关波形如图6-8 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNyNjpsakITu2lCu19T6uxhvMHUF998pmQGFNRePb2mibPIw6hzcVWZJdiaxfym34GYcSTp8ib6U1lBy1liaMrfic9wopf51KR1wYB4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_035_04989707d9ed.png)
 
 从仿真波形图中可以看出，当输入PWM 信号后，经过所驱动电路，可以正常 驱动碳化硅MOSFET 的开通与关断。其开通关断时间都在几us 数量级。  
 
@@ -485,17 +485,17 @@ LM5035 为半桥控制器/栅极驱动器，其可以实现半桥拓扑功率�
 
 在前文中提到，器件在运行中会受到外界的干扰而出现各类异常，现对保护电 路进行仿真验证，以过压保护电路和短路保护电路为例进行具体说明，仿真器件选择硅IGBT。首先在Saber 软件中搭建过压保护电路的仿真拓扑，如图6-9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNJnoIpqCib1PJX8PTLWcfEswApHQYv5aANfqzysf5Q3kZlUeXGiatic9aMncm5MmRwShibTbP9Uia0m05Aeiaeq15AEFoFjdUEozYRE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_036_fc457422fa33.png)
 
 设置仿真参数为：PWM 的脉冲电压分别为20V 与\-10V，从仿真结果可以看 出，VGE 经过栅极钳位保护电路作用后不会超过预设的电压；从保护电路设计那一章节可以知道，在器件开通瞬间会有浪涌电流，在关断的瞬间会存在尖峰电压，此外寄生电感的存在，瞬时电流过高时都会带来电压过冲。仿真结果如图6-10 所示，可以看出在吸收网络作用下，消除了VCE 的尖峰电压。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPunbdYQMLib6LYvs6EOpTzjOhjibTG5ticMaTG94icu4RYWibaiaCMc7ee0a4ZVzibuzSvpXo7YF0Zl1zqvCxI7OsKHfKiaxXjc6N82aY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_037_2516993af712.png)
 
 在Saber 软件中搭建短路保护电路的仿真模型，仿真主拓扑如图6-11 所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMX0URPPysAP3CdFsoohvBnp9VuCaf4Kxq2xAZ4yp8ib7n1kia0tX0aUB0UxT1qN5DDOZeRZclzDtWicyFp5TlrVMfo4qA0fyubp8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_038_edecb6b6f6a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPRlLWtHlyhJYroZTbvxCUAGmib8ia923MTVQ9AcLD0Z2FCN2PHv3HTp9PpkbxHfaibpWWmSKrfwG2ic2gfnmo4b6W7cliblaSx65Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_039_893d8e03c2ee.png)
 
 仿真过程中以桥臂内短路(直通)为例，在仿真过程中，可以清晰的看到，当开 通信号来临且器件处于短路状态时，器件先进入饱和区后迅速退出饱和区，此时通过检测VCE 两端的电压，即可进行短路检测。当器件发生短路时，在经过消隐电路的消隐时间后，触发短路输出有效信号SC。  
 
@@ -521,7 +521,7 @@ LM5035 为半桥控制器/栅极驱动器，其可以实现半桥拓扑功率�
 
 本文所设计的驱动电路与国外的驱动芯片产品相比仍然有很大的提升空间， 可以通过对回路参数的比对，对驱动保护电路的相关参数进行优化，同时在电平转换与功率放大电路上进行改善来缩小差距。在保护电路上，可以对不同故障的保护电路进行整合，同时加入相关反馈信号，能够在出现故障时，迅速定位故障并解决相关问题。此外在隔离电源的设计上，也可以更新最新的稳压芯片，来减小电路的发热和损耗等问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMZQiaQfyYiaclUq4dh8DvfKQo1RIQoWchSM6URhwYyNVVOVjzHRovXcsGibYgHl7RjedahxkwoVrI3iagQzPFbUJroibvWQbXHOe08/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_040_2f124a70b9d8.jpg)
 
 注明：  
 
@@ -529,14 +529,14 @@ LM5035 为半桥控制器/栅极驱动器，其可以实现半桥拓扑功率�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciakK6zIjF5qlcSnF1iavjkjHMxt7kkQL56t2I0VkMMGPHAlYCdcic10UQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_041_b24bc7497825.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciaeWPoukpPSoodzkAIEebeRqm1uPL6FbiaWJpjkn1uQXDBpck2ibQk5pA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_042_1b064bdd1973.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViczk316DvZLAIY5ODl8oOr06x638bzC5wceE3licVx8yia9wdFO7GB1bnQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_043_6952ae7d1ca5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbVicbz7NgK7j4g1MCoaClV4h1ic8eof2OicIvGKvhVLkyjc7LGo5V6Q8sWaQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于碳化硅_MOSFET_与硅_IGBT_的驱动电路研究与设计_images\img_044_2437350b2e09.jpg)

@@ -5,7 +5,7 @@
 
 在《[Heine-Borel 定理的通俗生存指南](https://mp.weixin.qq.com/s?__biz=MzkzODgwODczMw==&mid=2247537792&idx=1&sn=37d2d188dfbb5bc5708f41a4bf3c1aea&scene=21#wechat_redirect)》中，我们已对此定理进行了探讨，本文算是一个小的补充。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocudlTD8EQZd1DWem3Q5gHUm6XjpsuM7A22icpEnaDW7BWz5siafqLoXicdmk3IdshrE4OHrlXEP51g1xWUc1S4pkECQTibeIO24Rib0/640?wx_fmt=png&from=appmsg)
+![](实分析共学_第_14_讲___Heine_Borel_定理_images/img_000_b9aa4dfcf3cd.png)
 
 这张图讲的是实分析里一个很重要、但名字听起来像两位老教授联名出道的定理：
 
@@ -281,4 +281,4 @@
 
 我把这张图整理成一份更适合复习的中文分层笔记版
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvKrQt5nd3cic0EB3hRgicZuOictjF3LsskrapiaFibHic4ib8YpgHwQLJsDNqDeHKooxxr8PAXHU1APMk5ra8rdNjAJSibQAxwyLfJFZg/640?wx_fmt=png&from=appmsg)
+![](实分析共学_第_14_讲___Heine_Borel_定理_images/img_001_1bc3f6193daa.png)

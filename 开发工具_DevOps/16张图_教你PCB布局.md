@@ -14,55 +14,55 @@
 
 **2.**布局时要注意结构中的限高要求。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgq8ibDXURUmkgjZmxswCnywvpEFrsMjK3eYwiacD2WANI8QRHjLxHazXQ/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_002_a0248f718062.png)
 
   
 
 **3.**如果要布局美观，一般按元件外框或者中线坐标来定位(居中对齐)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgkRicyEopibMAtTf38C245wnj1s5WYNUDFDUWALq8ibG8zDem6ctHv7U6w/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_003_492cecb121a9.png)
 
   
 
 **4.**整体布局要考虑散热。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgzVBZ1yj4WD1RygSDvOAOGia6tHOsOcGvPEZMCOTu5liaBCp285jPVRuw/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_004_3a4e6fa43980.png)
 
   
 
 **5.**布局的时候需要考虑好布线通道评估、考虑好等长需要的空间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgQ87UMh9nleW5JJOgoCRESyFqGbibGqEFZtu1RLO1JAs77KgNG4N3nOw/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_005_9e0c12834b92.png)
 
   
 
 **6.**布局时需要考虑好电源流向，评估好电源通道。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxg8xf24yxPf1hb3ym5IUw3tP7AIYuDEjpykpen9ic8IEBWqlwhHVtulhg/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_006_fcafec5e8376.png)
 
   
 
 **7.**高速、中速、低速电路要分开。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgMx429Oyk4iavEzYQk7olw5Q1QDjcuxBWHmdG0Bz42iawb1581iaeoaWXw/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_007_d6ca528a2611.png)
 
   
 
 **8.**强电流、高电压、强辐射元器件远离弱电流、低电压、敏感元器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxg5Iylv3aej3BEqjdQS1ZE8Ymvwm0XaWbYhjeyReZicOg7GOibkpxAL1aQ/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_008_5a21c6bd3c03.png)
 
   
 
 **9.**模拟、数字、电源、保护电路要分开。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgXhBic8s2rmSerf1ebHkGZgciaptJYyceL4fW8XdHttpscKubXqUoica0A/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_009_2448f323b145.png)
 
   
 
 **10.**接口保护器件应尽量靠近接口放置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgI4WshldtbxQIglFkqtjpNiaEez24yDOicYASVGKEQKERYAO1PfiaoRlgg/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_010_16ea9b6e9874.png)
 
   
 
@@ -77,19 +77,19 @@
       
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHSuMvxbZGOZskAsNzMtkIS9kmvrMUsiaFgX1TxQo1G0tr5o4rUkj8slHgESDp9THDDoibDgXTbZrjpw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](16张图_教你PCB布局_images/img_011_79d70d7b86fe.jpg)
 
   
 
 **12.**电平变换芯片(如RS232)靠近连接器(如串口)放置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgSBJGyUIRQ84xbLq7UHR5W4SqM3UI2Xnz12eKluaNoF1dJpKkGW6REw/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_012_105308dee945.png)
 
   
 
 **13.**易受ESD干扰的器件，如NMOS及CMOS等器件，尽量远离易受ESD干扰的区域(如单板的边缘区域)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgibAsh53iasXhzKUuukWQ3icMG80xdBH2tsB47JaOsWcu3F5sCFibfoU1Jg/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_013_360a474d90d5.png)
 
   
 
@@ -110,19 +110,19 @@
     晶振距离板边和接口器件是否大于1inch。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxg0hohDwILXuW6PrryW3YntCAHuNgGAZy0vaU6tknkltLXr731umQjNg/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_014_2eb3aa7a7a5b.png)
 
   
 
 **15.**开关电源是否远离AD\\DA转换器、模拟器件、敏感器件、时钟器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgSsU5TMeXaHicgevS1OW34gpghp7EXiaDaN1fAibgLMsV1K2HfNAFQEAkw/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_015_56d94fd05da8.png)
 
   
 
 **16.**开关电源布局要紧凑，输入\\输出要分开，严格按照原理图的要求进行布局，不要将开关电源的电容随意放置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxgXSia1eAVF9r9ZXziccxgRlRbKSVLyXLCKS5Wek0iaV7XhBk4OIVuENASg/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_016_9cb442b72acf.png)
 
   
 
@@ -139,7 +139,7 @@
       
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia8c6ibWNUbxWBtKGtfpibOxg8vBHwBykOj1rEAictUFLIWoPc05icVHtchwFAKJsq1JQ0xJ9LtiaHQRJQ/640?wx_fmt=png)
+![](16张图_教你PCB布局_images/img_017_2f0cee1c3a56.png)
 
   
 

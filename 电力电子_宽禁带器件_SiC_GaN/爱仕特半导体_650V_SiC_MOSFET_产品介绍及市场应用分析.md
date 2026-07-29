@@ -5,11 +5,11 @@
 
 随着第三代半导体-SiC MOSFET器件的工艺持续成熟、碳化硅芯片成本稳步下行，650V SiC MOSFET已经成为替代 600V/650V 超结硅MOS、低压 IGBT 的主力器件，广泛覆盖 400V 直流母线功率变换场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPfNsnX1ZCjLEWPjnG0ooiaDkMIPEUX5xcWc3lZZrsThYWI7sqf3ssbSSrD8j9TSdkkYWULmYkVsZQn5yaHzVHXSJ3JM2Vavv4k/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_000_f27cadb57e2d.jpg)
 
 爱仕特半导体（AST）为国内主流碳化硅MOSFET芯片设计企业，已实现 650V~3300V的SiC MOSFET量产化。 产品封装齐全、多规格导通电阻，覆盖工业级 + 车规级需求。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMTpWZlbagsshnY5fnpBPsKIOesqqML7wqHwPQxibYw4ZWAcwRGNHh2PElxfdumnossbibeQQ4c0zG6ia0odnp0yvhyscBAamccEY/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_001_6e62dadbd882.jpg)
 
 本文结合650V 碳化硅 MOSFET分立器件产品线，从器件封装选型、驱动设计、SiC 固有特性、细分应用场景、系统替代优势完整展开介绍。  
 
@@ -19,7 +19,7 @@
 
 SiC MOSFET 相比硅超结 MOS / IGBT 核心优势
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPV9gOQCnRwSrlg4j3GdBAYUq6Z2RibP1KsDvRXy51Giacsk64a1cPerjBLnBTM0ibDf0gKrHAfPQzXtoUicw1lmianvSLj9dWTicFZk/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_002_c310d3bade7b.jpg)
 
 图片来源：网络
 
@@ -37,7 +37,7 @@ SiC MOSFET 相比硅超结 MOS / IGBT 核心优势
 
 二、 650V SiC MOS 产品线 —— 封装体系与选型定位
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO8YEeygo4uLx3589aPiaqXWfeaIDPtgwYxaW0t2Y1LkIFO7VYatHsic3xQlA3dMaV4TJUkicHy2sXK4XFpjrxYX77EkWKGPRks1k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_003_51140ebb1d95.png)
 
 爱仕特 650V SiC MOSFET 通孔插件中大功率 + 贴片中小功率完整封装矩阵，覆盖几十瓦至几十千瓦应用，主流封装分类：
 
@@ -45,13 +45,13 @@ SiC MOSFET 相比硅超结 MOS / IGBT 核心优势
 
 1）TO-247-3L（3 引脚）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPzeIEQ0R3f2ZuEGP9eV2clLwk2EP8oeclnAW74dtyOCoCwWLw346X2WMibia4icX6JyhGO9NVWDlwN0qBj0UpT9FUOyHTGbGFFTo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_004_ec277b7708f1.png)
 
 TO247-3封装的拓扑图
 
 代表参数规格：650V36A（内阻60mΩ）、650V60A（内阻30mΩ）、650V150A（内阻12mΩ）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMsvx7XNyJBzvniasPvrjcUyavX2ibHDEglnVBXR4dKBb2eDx2jkD9eUzlJG8IeES5JVjxiaC9y9uAeIRPdnHOw7pQdQ1fCCLDT2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_005_bf7116fc4c45.png)
 
 650V60A关键参数表
 
@@ -61,13 +61,13 @@ TO247-3封装的拓扑图
 
 2）TO-247-4L（4 引脚 Kelvin 开尔文源极）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMe7kb4rTHicvIJkUTBVf8vySNtHDhborMSInymvv8HRDricUQ3z047wiaOxaFo0Af19esKr3xCdo1YPsvkljvotcUSepFvEnoK5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_006_94ede106213e.png)
 
 TO247-4封装的拓扑图
 
 代表参数规格：650V36A（内阻60mΩ）、650V60A（内阻30mΩ）、650V150A（内阻12mΩ）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPgtad2vh5nFstnJ2ibZgXwm2ZJ5uKsg9cHicZCEssC2jE7UibU4ZPCBQt3IECKVqGz1rmkcazhgN8LMgqGuSfBEkSMZqkIrts7GM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_007_fbacb5105059.png)
 
 650V150A关键参数表
 
@@ -79,13 +79,13 @@ TO247-4封装的拓扑图
 
 TO-220F 是一种‌**全塑封、直插式、三引脚功率半导体封装**‌，核心特征为‌**无金属背板、自带电气绝缘**‌，可直接安装散热器而无需绝缘垫片
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO856fJNUgwIlHXaTBtUeGiazuBQ4JRFoD9pPvB4LOBFPTYAaGpTYSqCpKUXz1OUpg70s9wyYaryraVeX5XZUeLlENdSf9IsB1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_008_ef477486ac25.png)
 
 TO220F封装的拓扑图
 
 代表参数规格：650V36A（内阻60mΩ）、650V25A（内阻88mΩ）、650V20A（内阻180mΩ）、650V15A（内阻260mΩ）、650V8A（内阻360mΩ）,驱动电压：+12V/+15V/+18V,支持0V关断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOLg67CicrvXJhWwuBDbp43FWsFnuibCRPCqYKUCE0ytibl2XtbAfDIiaqibVuQsx96ydA6Nic6xAPDUcEDicOMalJpjmcSVgAvmUNRSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_009_b1a91172af1e.png)
 
 650V25A关键参数表
 
@@ -99,21 +99,21 @@ TO220F封装的拓扑图
 
 PDFN5\*6封装代表参数规格：650V8A（内阻320mΩ）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQBsXa6xkgQ7AbWarn7o3sYTUmEt5wHC4jgrfjSJZbiauJ4JpjBic6iatYSViaJsFXNVdzvYy1YU82zFVh17u0oQIk66X6nfnZ1Eo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_010_4d18fcf872fe.png)
 
 PDFN5\*6封装的拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTVC2GX6nOGsG0WHXUl6hnQsDADGIE2al5KVVdD5BmMSrBBgnrxQe9doBd2PibkWZTJJITpScaMjibO4WbibVO5X5JBbIqes3Liaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_011_7c97bef9a2f1.png)
 
 650V8A关键参数表
 
 PDFN8\*8封装代表参数规格：650V60A（内阻35mΩ）、650V36A（内阻60mΩ）、650V25A（内阻72mΩ）、650V8A（内阻320mΩ）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZXict0Fico5fRC7FRymcfGibM5RNtpdicfFR8w7cScLzCXofbnNIyibGKrGkSbfTRZIn0gPFDicQ9n0ic2qO00K17Aia3OuuI97RXbBM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_012_ea2b14089ba1.png)
 
 PDFN8\*8封装的拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMrrib8BPNzQnHGBgBhdTYpljKzhsxjNVASKJXoobRAK75D6A0YW7HDAXWoPwVbWn9HT62GHBufFws9bYHxiascVVVDW8v6KXPO4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_013_cdeb73703163.png)
 
 650V25A关键参数表
 
@@ -125,7 +125,7 @@ TOLL封装采用双边扁平无引脚封装结构，且背面金属焊面更大�
 
 代表参数规格：650V150A（内阻12mΩ）、650V60A（内阻35mΩ）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPRQsE2TqOJQKTrb2RcNnfMJUzxOt8NxRbbW3uLM9pshX9iblPiaTXKfdxicnibrSSRTqqReib3EZZOLrgDOxOialYmFtaibNPhKjlvqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_014_f98624ac8ef1.png)
 
 TOLL封装的拓扑图
 
@@ -141,11 +141,11 @@ T2PAK是顶部散热表面贴装封装‌，核心价值在于‌打破“散热
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM9VNHObjWDzX6CZ6w6TgJ5HhFxoHg0SHG20WgMGQdjfCc4Mafy8ak7DcjxEGPOMGn8pSlzCoQXVd3Du1nolNFPgo292lPD5wE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_015_7cd394a7ae9c.png)
 
 DT3PAK封装的拓扑图  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpFiaGlyz5JLc1xoBNWx6boECBpAanibJSAgVUd6fRZb5sJ3Cib4sOMgyj9H74aokXPx54OQgU6JBrsOdwv0NQJq6rc9KCKib51Us/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_016_5477d647db3e.png)
 
 650V60A关键参数表
 
@@ -157,11 +157,11 @@ TO263-7（D²PAK-7）是一种‌7 引脚表面贴装功率封装‌，核心价
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPH8vE6zYG858WnJ1BPveRicxEeZD7icYNBd3AticzSJvsWFvqU2l54JXF7ibRfNLblSfibKrOOVgQQSHL0Iprh2iaPBEXC9LXoLZNr8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_017_46bab4d18010.png)
 
 TO263-7封装的拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOy5Wle6mHbLTfB1IIuY68laMRz1qiaxwX517iaibxTia6F41nPnrjZO8hzej4XibRgBUfZhGToWFCd4XEhkTzUJpbvp1Nl8GnVAels/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_018_15ed76ce16e0.png)
 
 650V60A关键参数表
 
@@ -171,11 +171,11 @@ TO263-7封装的拓扑图
 
 TO252-3封装代表参数规格：650V20A（内阻180mΩ）、650V15A（内阻260mΩ）、650V8A（内阻380mΩ）,驱动电压：+12V/+15V/+18V,支持0V关断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNViadVV6ZRuNw1KqCDNISPGRa1H1MYrtQwSJt69omgRmXWI7AIPy5I366MZWiarqicR8T7ePJFxtgNfN5uK2tGZuQEnc6ib5yrIibk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_019_84259f254693.png)
 
 TO252-3封装的拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNibWoicI7Hn5WqfoDQjVTmhFQtmNNpMvja6WZOwFic5u18O5kHGIs0QYTbCIT6aJAHuG3ic1H0icZibaib2ztPZXP7oDS7rJBhokpXibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_020_528ff8a5fd78.png)
 
 650V20A关键参数表
 
@@ -183,7 +183,7 @@ TO252-3封装的拓扑图
 
 380mΩ → 260mΩ → 180mΩ → 60mΩ → 30mΩ→ 12mΩ，工程师可依据功率等级、散热条件灵活选型；同时同步推出 650V SiC 功率模块，面向更高功率等级电源设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPcgTiaB1tw4tkMgscT82CwcoOicDvUWrNg2Dq43vPMyibNCpzsrC70XutHQKeB5lZ2kwCcjkRQFxpx54dEJibHVwociaMDgVf5MJicY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_021_4320f6888a10.png)
 
 三、驱动电压规范与工程设计要点
 
@@ -379,12 +379,12 @@ SiC 方案优势：
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOzd87WAU0E2mXAFL4NnBbKiaO1yWTJB3Y31iajevOohmZRzCAib27oIMGOSDL9WHCiasIAjHHeFWPqMjOjVEVXiadQ1dGYOl5PCdw8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_022_babeda294084.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMp1xEwjBCIqCer8ST7HlEss7F3qXEat39MxMVTbPQJxrll9HqX4JFzanGODdiciaDEMblETkicjibGrV7XTkaLggqa2qZWGM2WFqM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_023_580426e2b137.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMiadyk8Xly5ePIZsZSVzmjFBzibp9C9uGYHricOtPvlJicGB2ZtP1xVRCMI3rUVa9dRyLDqwkF2JqicNicgD1lluOAX7A1yyOg1aicjw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_024_9e1839753105.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPvxfPo6Bgf9sDwJTLAibHFBnymvk6wboKicZ3EdGQqMg4C3ib512bMJOJQSKOhvwdlJH7CjctZ95l1OpehDwkbQVLEnBLXl1Po1Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特半导体_650V_SiC_MOSFET_产品介绍及市场应用分析_images\img_025_83a6193931ef.jpg)

@@ -25,7 +25,7 @@ Junjie Shao, Shan Yu, Ren Wang, Chunlei Zhang, Bing-Zhong Wang
 
 出版信息：IEEE Antennas and Wireless Propagation Letters, 24(7): 2019 - 2023, 2025; DOI: 10.1109/LAWP.2025.3554726 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUOxA0wpicic4GnjTxeFicHjgy8E4DnPBSIXVascNKyUJbvb3H3zib4gezQQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_具有俯仰面扫描能力的方位面宽角扫描阵列_images\img_000_ad70fe3d754f.png)
 
 论文摘要
 
@@ -51,19 +51,19 @@ Junjie Shao, Shan Yu, Ren Wang, Chunlei Zhang, Bing-Zhong Wang
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUa4PbE7DJNPZsUG9neL303Hh8iaXMKIlA1ibkk5n3nPvpypHEIxuiayDrA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_具有俯仰面扫描能力的方位面宽角扫描阵列_images\img_001_228e195718be.png)
 
 天线单元。(a) 三维几何结构；(b) 顶帽单极子结构；(c) 侧视图；(d) 俯视图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUnQQJEUUeT2QNX5ylk1WeaPcA2qhztBJibZvWtwJj6JNCRV5GaUmQG3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_具有俯仰面扫描能力的方位面宽角扫描阵列_images\img_002_3003816a7be6.png)
 
 (a) 内部端口示意图。(b) 去耦结构。(c) 无去耦结构的阵列结构。(d) 带有去耦结构的阵列结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUVvgkHia92iaA2wll33HicYv7vY9wVeSMPHyrxPKCibicr9aKlviacic2cBPsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_具有俯仰面扫描能力的方位面宽角扫描阵列_images\img_003_760769e1ef50.png)
 
 制作出的阵列实物和测量环境。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUZFPwZZuHh6Ie5s6KsiaAvmibrl57zAic3bKEGjK4nFLZlwGPxJ5RW9jSA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_AWPL_具有俯仰面扫描能力的方位面宽角扫描阵列_images\img_004_4c017a348ff9.png)
 
 在3.5GHz 下，归一化阵列扫描方向图的仿真与实测结果对比。(a) 方位面同极化。(b) 方位面交叉极化。(c) 俯仰面扫描 (ϕ=0度)。(d) 俯仰面扫描 (ϕ=60度)。
 

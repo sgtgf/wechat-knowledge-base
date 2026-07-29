@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/duVxn0HisdmZNjYP\_m4e0Q](https://mp.weixin.qq.com/s/duVxn0HisdmZNjYP_m4e0Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRXMZPa0EXyzJrQqfDy6SLJHrWibbQhk8MxuO2l4p1JGcA7c7qqMPA0DCKWaDiafD7kL0WRBnhgQX3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_1_EOS的含义与模型_images\img_000_067bb7768e2f.png)
 
 **_★★★_****_EOS_****_\-1---EOS的含义与来源_****_★★★_**
 
@@ -43,7 +43,7 @@ __3.EFT（脉冲群）__
 
 跑飞，系统不断复位，数据出现混乱。_**表1-1**_对比了三种类型的差异：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSDL27fAHoJ59aDDIKj2NKDWfew1ic9ApLNle5jW1Q2jUvlFSbhLd2aqqG6DwIC8VPmZSichKDEGZ3g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_1_EOS的含义与模型_images\img_001_8e5fdb6ff6a5.png)
 
 **_表1-1：三种类型的对比表_**
 
@@ -53,7 +53,7 @@ _€3.EOS的两种模型_
 
 ESD的模型我们选取IEC 61000-4-2测试标准（关于ESD的测试标准和用例后面会专门章节补充）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSBLaZJIra4icr02rdyCCDzibAvLHQ9a17mSg6VS4TRld2DayIx3SAUicj8d0ewMuAuWNttZaC79Oib5A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_1_EOS的含义与模型_images\img_002_cc74829f00c9.png)
 
 **_图1-1：ESD的测试模型_**
 
@@ -61,7 +61,7 @@ _**图1-1**_是ESD的电气模型图，从图可知静电释放的最尖峰脉�
 
 2.Surge的模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSBLaZJIra4icr02rdyCCDzib6MoKLpjL6J8gwQbp6hhhANkDEOnBPR9af1sXLsl9Pqia2suoCYm2MUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\EOS_1_EOS的含义与模型_images\img_003_c4f69bcc7d6f.png)
 
 **_图1-2：浪涌的测试模型_**  
 

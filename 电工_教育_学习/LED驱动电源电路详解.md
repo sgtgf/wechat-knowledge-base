@@ -26,25 +26,25 @@ LED电源有很多种类，各类电源的质量、价格差异非常大，这�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlESq0aW8ys7TicVNCSyDicmNJnNELW8xVdogoTIYib3Xhcibwiaonv5Goiaxnw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_002_bbdacec531a0.jpg)
 
 图1：开关恒流隔离式日光灯管电源
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlEx45HUtenaToFfYjUc527pMzibwF8ibTvuSKYLdWRuUicNma4As5ERwchg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_003_d27aaf458f40.jpg)
 
 图2：开关恒流隔离电源原理图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlEKErsPvLoA5fgibdthcCM5u85LMf6IZTG5xK4BABW5uJqngIja2U7j1Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_004_eb147196f5be.jpg)
 
 图3：开关恒流源电源
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlEUTRFxwLnI9KTQywQeOO7Sun2vicQ31kDn2momCWMymbw3tMAWxd9MXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_005_96dab852c897.jpg)
 
 图4：开关恒流非隔离电源原理图
 
@@ -64,13 +64,13 @@ LED电源有很多种类，各类电源的质量、价格差异非常大，这�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlEfeVTba0LMBFxxicW6wibcT0ffvibAEjIhUpchSyoYdjegl0yzqWhuwibWg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_006_dc1b13a0ce03.jpg)
 
 图5：线性IC电源
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlEhIQPD0eIRLicNcvZHsBDMPYZalOWPyKwJvx6A3qR7hBicliaFhFlEeHcA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_007_7326a255559a.jpg)
 
 图6：线性IC电源原理图
 
@@ -88,13 +88,13 @@ LED电源有很多种类，各类电源的质量、价格差异非常大，这�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlEXmnkgarnVibYMBDOfje5r6yYicPIaNLEJrMotzq1KX53qy1wzITdMFkA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_008_c8aed6a13a05.jpg)
 
 图7：阻容降压电源
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3nJjpKuusmdX8ckvA95Oo29XdZ5tkDlELOR0kKyWKkIibicv437c6FDvSUzKf4m8cmhbgxa0G5g8zePyYdPRY5JA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_009_7acac154334d.jpg)
 
 图8：阻容降压电源原理图
 
@@ -112,7 +112,7 @@ LED电源有很多种类，各类电源的质量、价格差异非常大，这�
 
 以3W小球泡和16W日光灯管为例，各种电源成本比较：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgyA3y8qRbs7DIE286GUsd08HHbRPMex770Gjgok8gZNcibRErLN9eST6zNOcCbmFuaJhILE7FSvjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_010_e9a61f32fbd3.png)
 
 可见，不同类别的电源，其成本差异是非常大的，其中过认证的开关隔离源最贵，阻容降压电源最便宜。
 
@@ -120,7 +120,7 @@ LED电源有很多种类，各类电源的质量、价格差异非常大，这�
 
 各类电源性能之比较：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgyA3y8qRbs7DIE286GUsd0RwY4FNYI5NibPGv06l9nneMMdphKEbgflU853d6uMO3Oceibz5suq8QQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LED驱动电源电路详解_images\img_011_f01898c9e85a.png)
 
 在中高端市场，开关恒流非隔离电源仍是市场的主流电源，厂家一般会在结构设计上进行防高压隔离。而在低端市场，大部份厂家是采用阻容降压电源，也有部分厂家采用线性IC电源(要求厂家有一定的设计能力)。
 

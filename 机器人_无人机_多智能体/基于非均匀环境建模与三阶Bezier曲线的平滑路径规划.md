@@ -6,11 +6,11 @@
 
 点击蓝字，关注自动化学报！
 
-![](http://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6ajib3a1w6icsYewKMp9StoML2C2plP1VZscz1n0eibI7GuFDKiaC5QKrAQ/0?wx_fmt=gif)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_000_0b2cc6cb6425.gif)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6ksgibOqSKhlJLw4WHSGrHz5OyMeyXsUUNhtLRC77GmBXHHichX9TuLGA/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_001_50ca330faae6.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6WAnVOIZ1JgGl0v6JJPe1icbJhST9eVibpBDz9utxOiaB2W8wX5jpgcTIA/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_002_e2819f1ecb9b.png)
 
   
 
@@ -20,9 +20,9 @@
 
 大型科学装置规模庞大，结构复杂，涉及元件类型与种类众多。在装置中使用的辅助工装体型庞大，装配任务繁重，仅仅依靠工作人员规划工装的运动，往往导致人员和工装的重复劳动，造成装配效率低下。图为美国NIF装置的实物图。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6Qj99FGCPRU88mwTFbulM5LdUsV10M7GKzKqCBjV59HeFAcH2BeaRDA/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_003_db470fdb1218.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6Bf8SiaKcr11kTRyUaunMhKk2wHuFhTUUFw0ib4hxO8nIy0BVoibPlEhOw/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_004_22f680ce1b80.jpg)
 
   
 
@@ -34,15 +34,15 @@
 
 利用Minkowski 和对障碍物进行膨胀，建立工装的C-空间。然后，采用线性四叉树结构以非均匀划分的方式建立环境模型。四叉树建立环境模型结果如下图所示。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6BDoXmojbTP9jMqHVAX7Qsia9BXFEChMBWCauP6ibu2YTiaLq3FPLsiaAvw/0?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\机器人_无人机_多智能体\基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images\img_000_08a56fee0ab7.gif)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6W0HgyrLqib5h402Cq5dV8mLIoK0KicwQ5PKPNL134XurtfC84zzHYib8Q/0?wx_fmt=gif)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_006_9179679a632c.gif)
 
 利用改进蚁群系统算法规划工装的运动路径，然后利用Bezier曲线建立转弯单元连接蚁群算法搜索路径点，获得一条曲率连续且满足曲率上界的可行路径。工装轨迹的规划结果如下图所示，能够满足工装的各种非完整性约束，提高工作效率。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6iaiaghZoqZ7gGib3J8QD4YEIKPaDqasIl12gsnznh6QbEC6MK6eUAsQdg/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_007_ebe34e223ad5.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6TMrg6u3icDgibNvN5BVB5ic01Eo6G2vjia2haxUJPqdUicMNtcLou56Cb7A/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_008_aa516aa70064.png)
 
 _**引用格式**_
 
@@ -50,7 +50,7 @@ _**引用格式**_
 
 **作者简介**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6frp3qch9AZVPnv46ibaiaCLUaed1WEcYZ2fm7Z8q13Yxcy2ykVSlHHcQ/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_009_2c34fd60eadb.jpg)
 
 **卜新苹**
 
@@ -62,7 +62,7 @@ E-mail: xinping9102@126.com
 
 **作者简介**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6DIJiat5Ur3DLIoK2VibnEtHECdTiaEcFicAOAuu0wHbELeC8JFJuRtsXBw/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_010_451367ac745b.jpg)
 
 **苏虎**
 
@@ -74,7 +74,7 @@ E-mail: hu.su@ia.ac.cn
 
 **作者简介**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia66HQWPKYOghPrqia7aMqfduibuTYDsa6xY9u88LaDP6JJicfybMOcUBC0A/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_011_a700761172b1.jpg)
 
 **邹伟**
 
@@ -86,7 +86,7 @@ E-mail: wei.zou@ia.ac.cn
 
 **作者简介**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6CCTbIvtr84cF1atMClooenGTf85hXgpKE0exzibQ0uDpWvUibz1NYa6Q/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_012_f917ec300d26.jpg)
 
 **王鹏**
 
@@ -98,7 +98,7 @@ E-mail: peng\_wang@ia.ac.cn
 
 **作者简介**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6Nx8XBiawN9FMuMrXpZlJLud1RssDhEVRfXgfSdNwvPl2OWxqfCVFic5g/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_013_75f54ff91e0c.jpg)
 
 **周海**
 
@@ -124,25 +124,25 @@ E-mail: a687097@163.com
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6AWziawuKJbIYRowJkVKuCWICdhxV9LblliblWrflzE6hM6vL1HnKicWBA/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_014_938a1cd75324.png)
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia67f5eD1picb2icfWAK5lOqJghJGTKPXIa9an2icx67pcHMlJDDtYJibtEKQ/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_015_64150f543a44.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6MTRhFR4sfAebt2ZEtnP3CRYjWaIVTyYju9aaGbAMqRnRoprzW88tnA/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_016_d77aae896548.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia67f5eD1picb2icfWAK5lOqJghJGTKPXIa9an2icx67pcHMlJDDtYJibtEKQ/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_017_64150f543a44.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6bTbSJnOA9Z11KeAIyA73Fsfrx6J6Au4HkriarovYE9sXRsBE6jBs13g/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_018_67719f4148f5.jpg)
 
 自动化学报服务号
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia67f5eD1picb2icfWAK5lOqJghJGTKPXIa9an2icx67pcHMlJDDtYJibtEKQ/0?wx_fmt=png)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_019_64150f543a44.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6Q5XvxPzKhVSwibh9IiaubCCrqdV2vAFGofTUxQCkkKiclGFChico5LlTIQ/0?wx_fmt=jpeg)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_020_2ebd08217a75.jpg)
 
 自动化学报订阅号
 
@@ -162,6 +162,6 @@ Email: aas@ia.ac.cn（日常咨询和稿件处理）
 
 http://www.aas.net.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45D7xeGVIDCyvicoZ8Ne5Xia6GYgr5noTRa53PTmGrondACPLWhJicPJPQmnydhtr7H94SbicA7Ln5tLQ/0?wx_fmt=gif)
+![](基于非均匀环境建模与三阶Bezier曲线的平滑路径规划_images/img_021_c7096f77028c.gif)
 
 **▼点击阅读原文**

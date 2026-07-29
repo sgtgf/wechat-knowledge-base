@@ -23,7 +23,7 @@
 
 碳化硅器件的产品线：SiC SBD/MOSFET晶圆片+分立器件+功率模块+应用方案=全产业链IDM厂商。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96LIrmHvet503WjfDfwLt7e5ZYPH0uQDBgyttLbeeGNaArWKhNBqeMRQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_000_daabeb11ceee.jpg)
 
 ### **从SiC SBD/MOSFET的芯片设计~晶圆加工~模块封测~方案应用，完整的产品线对产品品质的保证、产品供货周期短、还可协助客户方案的开发及调试。**
 
@@ -31,31 +31,31 @@
 
 ### **碳化硅肖特基势垒二极管，简称**SiC SBD**，是一种利用碳化硅材料和肖特基接触原理制成的单极性功率二极管。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96oXBWAfic4rz0gj9O20z8hWT3ibicyOnyxd2pq4ctpbu2xz0cxib4XaU1QA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_001_a522eb4f203e.jpg)
 
 ### **
 
 SiC SBD晶圆产品图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96KLulkpbwsxTngNaJaIeRxmpicBvN2RCpTwB4hAjpwveXroofCl7zGBg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_002_6b7e596c3000.jpg)
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96cEubfKMayFTmiabluibwEg3CXHOYmOC0qJAqEsIF3HuhmVW1vv8KEiaZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_003_66b4afafddad.png)
 
 产品封装及拓扑图
 
 ### **产品电压：650V~1200V~1700V，电流：8A~100A。有自建晶圆厂，均可提供晶圆代工及裸芯片服务,可采购SiC SBD芯片封装多种规格的分立器件。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96QjFEx4ibiaCsgv0YRanCic2JNlEAI707j4TNR1icKJJQyKrVOt4BVEibabg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_004_1f9b33026399.png)
 
 1200V100A的碳化硅二极管参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96ibE13WLDan14ibB7SRIRI37icvUyU9RxGyQDeOAJ07oY4lSAPyJib7IpHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_005_2c05f38b231e.png)
 
 1700V75A的碳化硅二极管参数表
 
-###  **![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrfyPWV6J1Y3T0P5mwG1MJX83hlvHstGdTKj0s8XRxhxgC4C5LI4IbrQTZhRrMD5D5889ot4ZnKb0A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96V4rmOkVsLMTrIfkiarsjYpvAU17NApG0Bcj4tCvIKC6K7IcawJ9tVIw/640?wx_fmt=jpeg)**碳化硅二极管应用场景
+###  **![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_006_37443d5a6775.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_007_b46730555002.jpg)**碳化硅二极管应用场景
 
 ### **2.碳化硅MOS管（SiC MOSFET）产品线：**
 
@@ -67,29 +67,29 @@ SiC MOSFET在开发与应用方面，与相同功率等级的Si基（MOSFET/IGBT
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96TI4NDrvCgyg3zPxIAUic8SGCic1gs4h8u4ibPJaa2goRFPT1EN3bxRJMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_008_0fd93569cc9a.png)
 
 SiC MOSFET晶圆产品图
 
 2.2 SiCMOSFET的电压等级
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96oR5Jgeh2micn12eVA78A4gmibMRLKXkuHuNMPmV6yia9ZBWvN3zM51tAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_009_f368cccfe0cf.png)
 
 SiC MOSFET的电压范围目前已经达到了650V~6500V，市场上也在开发10KV的产品线，验证周期比较长。‌ 国产SiC MOSFET的电压主要在650V~3300V，碳化硅半导体材料因其优异的物理性能，在新能源汽车、光储充、智能电网、轨道交通等领域受到了广泛关注‌。
 
 650V产品线：内阻12毫欧~1欧，电流5A~150A,封装多样化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96mxUwpicc9WibUWHoJ7zjv3Q9my23EpOhBd9PlUewqj9Yg6f4gjXaiaSvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_010_ffc621fafe00.png)
 
 1200V产品线：内阻8毫欧~160毫欧，电流20A~200A,封装多样化。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96RPMm0Keic05BrWtQujibEQLhgpsdN8GPWpqY2F7qd5JWGlRPv07JrB7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_016_c2430b3542b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96unWdw1SBFxLFAzmicB5qqPRyyF60j6Yl0kh63CT17bzQtjbQfFjOsyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_012_1c77f99a9364.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96OjezlalnYLAia6ec4SnA8I3iaObn7FInFbu5f0TyBBfQJm7zSyhfRwqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_013_2893cc129c06.png)
 
   
 
@@ -97,9 +97,9 @@ SiC MOSFET的电压范围目前已经达到了650V~6500V，市场上也在开发
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96E3LggllSAVOgZsVFFtEAQDM84eHh1MqiagkBbg1oB2V8hH6qyTLQ1LA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_014_01a4a7d28d68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96HNexdMYWAyjM6rPWCmbZ0j69qWRKI7OMkvJfkMq8F527CJ9DJrVLMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_015_f62655cd6c6d.png)
 
   
 
@@ -107,9 +107,9 @@ SiC MOSFET的电压范围目前已经达到了650V~6500V，市场上也在开发
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96RPMm0Keic05BrWtQujibEQLhgpsdN8GPWpqY2F7qd5JWGlRPv07JrB7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_018_c2430b3542b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96icFsMUR5FasKru2WnMtkGicpbvUpXJqgfcDicf3CN2hZVZm47JaJdiaHMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_017_73fe21eee1bf.png)
 
   
 
@@ -117,9 +117,9 @@ SiC MOSFET的电压范围目前已经达到了650V~6500V，市场上也在开发
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96RPMm0Keic05BrWtQujibEQLhgpsdN8GPWpqY2F7qd5JWGlRPv07JrB7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_011_c2430b3542b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96YBEDqvlJ1oWqnTOichPzzAqaITXhzzIgynqhZiaDOEVAa6lHpJQtX4Kg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_019_63fb4f7a1a61.png)
 
   
 
@@ -131,17 +131,17 @@ SiC MOSFET的电压范围目前已经达到了650V~6500V，市场上也在开发
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96BmREe9jt4lypIEwTlDgSSBIAibyCPdNoM6pcHass4QAib5j37LAqW6Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_020_34bd07d154b2.png)
 
   
 
 产品在新能源汽车、电动重卡、超充设施、工业控制及eVTOL等前沿市场均取得突破，已成为推动关键领域国产替代的核心力量，展现出强大的市场竞争力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96BIMzKldjbvicrbWUsJ6hkk3s57SAXeMdB7TJQaXZsl7uGXH72I6z6Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_021_9b1ea59ef2f6.png)
 
 TO247-4L产品封装及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96gHCjUpjn5BtEe1LscU1VIQRnxZ2I7pbraGlgRDdyjTIjk1lLkEicdwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_022_403ed71719b7.png)
 
   
 
@@ -149,7 +149,7 @@ TO247-4L产品封装及拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96axDSxbAYQhJnJJRW38GSnNx9fOicXnF4T4qSElfZLnIqJDLVRQ1undQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_023_098d3c591183.png)
 
   
 
@@ -159,7 +159,7 @@ TO247-4L产品封装及拓扑图
 
 按照安装在PCB板上的方式来划分，SiC MOSFET管封装主要有两大类：插入式(Through Hole)和表面贴装式(Surface Mount)，还有一种类似模块封装的SOT-227封装。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96HoUoWT3EG41ZnRuMzEHrmZjo8wTicKBibdEnoTcB2y0G6w7DnWNzSwnA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_024_dd1af4cd4475.jpg)
 
 SiC MOSFET产品封装图
 
@@ -169,7 +169,7 @@ SiC MOSFET产品封装图
 
 插件SiC MOSFET产品是市场通用器件，可用于各种PFC和桥式整流电路，应用市场主要包括：汽车OBC、DC-DC、充电桩、空调变频器、光伏逆变器、UPS、大功率LED电源、通信电源、各种工业设备电源等，功率从几百瓦到几百千瓦不等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96rcQzrZn9lwYxhQqwuzywAfAlvZ5D5icP1iaXMtR5Az5XicKhgSBmAgCGA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_025_87626761f59e.jpg)
 
   
 
@@ -195,7 +195,7 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96sdic9qbBicEKxrlwtUEic6UIDlrhhPCweicnOWiacsiaJG9iaMZTbUu7WjLgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_026_562acbecdaa5.jpg)
 
   
 
@@ -211,9 +211,9 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
     
 5.  HPD系列的模块：产品耐压650V~1700V，内阻1.3毫欧~6.5毫欧，电流400A~1000A,有长端子的产品，模块底板有针式散热底板和平底板，满足车规级要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96yJPHsNVw9xSKsGjFBhia2TtYnOZ9icDf42WZXnmJtTxuR6e22PtVfic8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_027_c975ee4c4b6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96FfuEcYevaeL6WEq8s7E0LwTZ9tYmx8ADELpLqYooMcMj1MN5539GmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_028_92cfff78f214.png)
 
 1.    
     
@@ -221,9 +221,9 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 1.  MD3系列的模块：产品耐压650V~1700V，内阻1.5毫欧~8.3毫欧，电流300A~800A,模块底板有针式散热底板和平底板，满足车规级要求。
 
 3.    
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96hBPeLajWU4u9FkNhz2bWFoS7tVbXO2IfibFClv9neZ0bSTraZDTAqIA/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_029_81e1af5718b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96wFFAfic1gk5ATB8S3UK6Y32fXDPgCAsrKE4lHPxIIRibOEPzYOGggJsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_030_07e6ad089602.png)
 
 1.    
     
@@ -234,9 +234,9 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 1.    
     
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdBhkNHcobtH6qxH5nRAl69iaEtn93IiaEP6X1cSE9hbtAasQdGnwqFrAOjQU0aHB5JtHxWBiaMXlTiaA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_031_8ebdb80d3e6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96rfwH8yPoKJDvxMIK3rpNp4zwEmKzYtX1WUkWSbUaQCFsKva79kOqUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_032_5e60e44523fc.png)
 
 1.    
     
@@ -255,7 +255,7 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
 1.    
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96hHkeSic6h6NzXO2ia0kVc7j1szplqrMXcRg1YeVacy2piaaicZlwhGBeiaw/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_033_1d184cc14a7d.png)
     
 
 1.  D21系列的模块：产品耐压1200V，导通电阻80mΩ、可支持30A电流，尺寸为42\*23\*6mm。该模块内部搭载了6颗1200V/80mΩ碳化硅芯片，具有开关速度快、功耗低、抗干扰能力强和高可靠性等优点。
@@ -266,9 +266,9 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 6.  MEP系列（Easy-2B封装)的模块：产品耐压650V~1700V，内阻3.3毫欧~80毫欧，电流30A~300A,支持半桥/全桥/H桥/三电平等多种拓扑结构。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96nibH24aK4G6ghEhp4TrZWYVfJeTMjOLNSCs9cfNl4nvtVaKdibAocicSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_034_b694013472f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN961icU995SEJko2HI8TW5IN8OQzhclaHWQp52GR7tXW11DuyicsSiaSfYOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_035_3fa3766e990b.png)
 
 1.    
     
@@ -277,9 +277,9 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
 1.    
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN962pr81iaJ7ldvuekIia4HdbpAjwCSbMV8Dpsyt0fA6fbYr2mgh9WGibvTw/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_036_d7e78c438de6.png)
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96KqRNAzdu8exyRFbPFI4KspMIcDpj9vGCKyKIjiaRbSIEz3lVVMDbOWg/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_037_7218a33db075.png)
     
 
 4.    
@@ -289,40 +289,40 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
     
 2.  DCS12系列(DCM封装）的模块：产品耐压650V~1700V，内阻1.3毫欧~6.2毫欧，电流400A~1000A,满足车规级要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96B5OSeFXQ75VEs1gjibBuNdONBszRX39qmIfWWtaJniawJASofyr2d7fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_038_4488bf7308cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96PBiaonrVoobqgnSQnCMDr5VP12agOFuHV6IEA95yXk8Y83vtQYyZNDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_039_211583be6f6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96Ew13y7y3Fpmq5uoOBy6TYhOMNwZicvPG41fkK23AuwFCMJzTw98yqlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_040_471e1ed3870e.png)
 
 1.    
     
 
 1.  MED系列(EconoDUL封装）的模块：产品耐压650V~1700V，内阻1.3毫欧~8.7毫欧，电流210A~1000A,满足车规级要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96qGN0icYPtvAgtV3aoOqrSwyaGb7EskF2tg9wG90N1eORqiaI9eCajFEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_041_d05b1a729305.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN962hib5VDR4OChGgPbF4HUAoQON9XyTjAdQH0SyIXCoIicLWMrSPAF1qIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_042_8e96f43d9e95.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96YykykeN1zNGMeFHW4TUY6ZyEwvZg6YuB3SFgwgib3WQRn0RaT24HemQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_043_eb077831acc0.png)
 
 1.    
     
 
 1.  ME3系列(62mm封装）的模块：产品耐压650V~1700V，内阻2毫欧~80毫欧，电流30A~600A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96xibWFHWHmGuBGuyBnfPrIL59UVkJyhVc1VcQwzKMPfsucRlnzzGdgCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_044_818c1257b7d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96okzsAkW0aicEvUJGib4dnBukkt0CqSibMJh2cheBRkzJsqECZRmGPQpog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_045_77d0bcb01b29.png)
 
 1.    
     
 
 1.  ME2系列(34mm封装）的模块：产品耐压650V~1700V，内阻4毫欧~80毫欧，电流30A~300A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96ruQlupb8LoSyfEuZC69ztNr7M1eaWD4Lia1aAQ5v0PwicV8kwxLia8DUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_046_bf1a5c8cf9aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN963vJslHa9nJufc26vSX8AR3am8IFHaiaia2zd7g3yIfwQEmNUqrpTx7Lw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_047_82f6dc7dd443.png)
 
 1.    
     
@@ -336,7 +336,7 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
     
 5.  由于SMPD模块内部采用DCB(陶瓷覆铜层)绝缘，所以多个模块可共用散热器，简化了热管理设计，因而能更好地实现新能源汽车、便携设备、飞行器等应用场景对高效率，又更紧凑和轻便的追求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96JWXCGH2ibMH7oaibHibB3UcIsx5YTtc7F0W2rcBicmrZLFVTdk3lvopARA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_048_803ae5551342.png)
 
 1.    
     
@@ -345,11 +345,11 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
     
 2.    
     
-    ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN963RzrDAgoy6jQCXooOXYJNWyicgDoOsFUekjP32NRNjUKU6FpGTMzZGQ/640?wx_fmt=jpeg&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_049_ebd9af769d63.jpg)
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96ClicgtVjPA5SgEjAW1tNG8kMqNLABtj8qTg3AANM6QeoROZ0mzruaQA/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_050_0a1d915f9034.png)
     
 
 1.    
@@ -374,28 +374,28 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
   
 
-1.  ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96GT5jxkaHoAlF0bAe8dd9leFzgJEW3N35p4NCXib37BNUZWbqia9q58ibg/640?wx_fmt=png&from=appmsg)
+1.  ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_051_094535adc850.png)
 2.    
     
 3.  3.直流变换器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96AFicrbuTEN6Tj2xLkrrias5awIs6pqe26iako3x7UgSGs6bbUdkjMzVSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_052_5b25e71d2eb3.png)
 
 4.快速充电桩
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96Jz2lVo4OWJO27uSPLiaTa5Ee4W9xCtId5wZdmbzGVicXib69mLyq7jbDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_053_8c968b498639.png)
 
 5.光伏~储能
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN964SZHc9pAKIcRkv5ribztyRZI83968NzDgeZ72rLnwkB3HJJjBp7wJSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_054_d68c7453cb95.png)
 
 6.PD快充
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96Qibyu75IWicYdPBppLj7mcBjIcR0hKqKCuxibnqkWzNdNicS0CEiamRhHvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_055_d0045a3f29ab.png)
 
 方案应用：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN96Pygic1VJ6CTdFg3auhqgVSqDibvWRUdjr1dvdibwK31yRUSarUnGjcjqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_056_a3b1061c4be0.png)
 
 ### **四、SiC器件特性与选型要点**
 
@@ -413,7 +413,7 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
 **选型对比指标**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYAXz9mzUz7UAUaeic057hhUzIVOa9oib3tMLreM850kDYudGbE5CwAm46qJiawUZV8ssNy9VOaqm3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_057_b4ca1d108285.png)
 
 #### **2\. 碳化硅 MOSFET管**
 
@@ -441,7 +441,7 @@ SOT-227封装介于单管和模块之间，产品具有模块体积小、热阻�
 
 **选型对比指标**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYAXz9mzUz7UAUaeic057hhWnUZUT2kvLZkfJWzoSmWX0ZDUdwV2AdfAsGpMKFbuJBcwvKTFQUotg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_058_805018c81e82.png)
 
 #### **3\. 碳化硅功率模块**
 
@@ -619,7 +619,7 @@ PCB布局黄金法则：
 
 **国产碳化硅技术的成熟是这场变革的加速器**。它不仅仅是提供了一个替代供应商，更是通过**更具竞争力的成本、更敏捷的服务和更可靠的供应保障**，使得碳化硅解决方案的“性价比天平”加速倾斜，从而推动了其在新能源汽车、新能源发电、工业升级等核心战略领域的**规模化、平民化应用**。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibTqbvoqNnuKvW3ykfyN966aPAyCOLZfJNVw1YUtTpUmlNALlicKZm6Dl9WfrxJiciatIldxJtiajqVg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_059_b74c2e618f62.jpg)
 
 对于开发者和决策者而言，现在评估碳化硅，不应再局限于“是否需要”的技术问题，而应着眼于 **“何时采用、如何用好”** 的战略和工程问题。采用国产碳化硅，正成为在性能和成本间取得最优平衡、并保障供应链韧性的明智选择。
 
@@ -627,10 +627,10 @@ PCB布局黄金法则：
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ILnqiaiabsaGgdiaUxSazXzMI3qcrW6Wy7U4cZ7ibKDkiccZ1fvUicDz2N9RQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_060_8c7e1ce5a1b0.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ItLId8zqpJos4IMia2PBDvUSvia2o4X0HYlvKdoyUoLCvK4VO8bsbB3cw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8IbEgqKw0cRU4I17JSrkmjCMNDbeW4K5evEUknm4u1exbK2HqMs4KGnQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_061_204c2f1964ca.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产碳化硅(SiC)器件的产品选型及应用设计_images\img_062_2f1fc104157a.jpg)

@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QWmGOSN0jyiandZn7eSGrmIqAmV5r4DHHQ3PbdCXI8uiaSpgdhc4KkGdncSDstkcWMr14u8PT0pMrA/640?wx_fmt=jpeg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75ROOquoFprd2mM4XdnRF0JUqsDVrL55mpORDkgEHYtWU7DoPa2mE5bXtIFa9e0zricG7HUpiaSvlr7A/640?wx_fmt=jpeg)](http://www.eitrt.org/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Tr05UibUFebfZH9XOmpmYeVKnpOCr0Xr6lIicSbBeoeicZDfecrAYiaPphbYd94ekPwYxJjvPrxRcLYQ/640?wx_fmt=png)](https://www.icwpt-conf.com/)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\上海电力大学刘蓉晖_刘锦坤_等_基于双曲余切变换的Halbach阵列表贴式永磁电机转子偏心气隙磁场解析模型_images\img_000_fa8d0ca0a3e9.jpg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\上海电力大学刘蓉晖_刘锦坤_等_基于双曲余切变换的Halbach阵列表贴式永磁电机转子偏心气隙磁场解析模型_images\img_001_20dfdbaaa341.jpg)](http://www.eitrt.org/)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\上海电力大学刘蓉晖_刘锦坤_等_基于双曲余切变换的Halbach阵列表贴式永磁电机转子偏心气隙磁场解析模型_images\img_002_eadffead456a.png)](https://www.icwpt-conf.com/)
 阅读提示：本文约 2000 字
 > 精确计算气隙磁场是设计和分析永磁电机的关键。Halbach阵列永磁电机具有良好的转矩输出特性。转子偏心会对永磁电机产生不良影响，准确获得其偏心气隙磁场分布具有重要意义。采用双曲余切变换解析计算Halbach阵列表贴式永磁电机转子偏心气隙磁场，并利用回归评价指标对所获得解析结果进行评估。该方法较边界摄动法在大偏心率下有更高的精确度。不同偏心率下气隙磁通密度、不平衡磁拉力、齿槽转矩的解析结果同有限元结果吻合，验证了解析模型的有效性和正确性。
 **研究背景**

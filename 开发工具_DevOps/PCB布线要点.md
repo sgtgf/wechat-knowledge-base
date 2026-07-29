@@ -50,7 +50,7 @@ c、有阻抗控制要求的网络应尽量按线长线宽要求布线。
 时钟线是对EMC 影响最大的因素之一。在时钟线上应少打过孔，尽量避免和其它信号线并行走线，且应远离一般信号线，避免对信号线的干扰。同时应避开板上的电源部分，以防止电源和时钟互相干扰。  
 如果板上有专门的时钟发生芯片，其下方不可走线，应在其下方铺铜，必要时还可以对其专门割地。对于很多芯片都有参考的晶体振荡器，这些晶振下方也不应走线，要铺铜隔离。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2EPB2IVa7RydjuWNribJL9pBSRyb7SA7CbAbrw8NOPTmwFJ77jOphS4Q/640?wx_fmt=png)
+![](PCB布线要点_images/img_002_86330fd38aab.png)
 
 ### **4、直角走线**
 
@@ -68,7 +68,7 @@ c、有阻抗控制要求的网络应尽量按线长线宽要求布线。
 
 （2）对于数字电路的总线布线来说，布线拐弯呈现钝角或圆角，布线所占的面积比较小。在相同的线间距条件下，总的线间距所占的宽度要比直角拐弯的少0.3倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2dpHIkGOXr6hxpXMemyXfBDyjIkfyG5cI28kXZ1pxQ2fvOplEnjrSYQ/640?wx_fmt=jpeg)
+![](PCB布线要点_images/img_003_fa51fc3f5bbe.jpg)
 
 ### **6、差分走线**
 
@@ -95,9 +95,9 @@ c、有阻抗控制要求的网络应尽量按线长线宽要求布线。
 成对出现的差分信号线，一般平行走线，尽量少打过孔，必须打孔时，应两线一同打孔，以做到阻抗匹配。  
 相同属性的一组总线，应尽量并排走线，做到尽量等长。从贴片焊盘引出的过孔尽量离焊盘远些。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2bKBmE1GVHqoXcG9CIOCNHjIkxDZXgVsibictOltWnUbEgeLMbyyj838Q/640?wx_fmt=png)
+![](PCB布线要点_images/img_004_6fddc2d8d901.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2maMaFogJVMIWgFHzSvn6QhZWQYeZNM09TPGbsiazPPvPBBKBlakQwoA/640?wx_fmt=png)
+![](PCB布线要点_images/img_005_6d5950da2326.png)
 
 **8、电源、地线的处理**
 
@@ -112,13 +112,13 @@ c、有阻抗控制要求的网络应尽量按线长线宽要求布线。
 
 对于导通孔密集的区域，要注意避免孔在电源和地层的挖空区域相互连接，形成对平面层的分割，从而破坏平面层的完整性，并进而导致信号线在地层的回路面积增大。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2icefeIzTGZpQFVkicN5FIc0Ep7q6wibI08xKnZzKgpMOriaNq3icNDx3ywA/640?wx_fmt=png)
+![](PCB布线要点_images/img_006_28c53bd64962.png)
 
 地线回路规则：  
 
 环路最小规则，即信号线与其回路构成的环面积要尽可能小，环面积越小，对外的辐射越少，接收外界的干扰也越小。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2pg9licfuYpWtJNXTkdLfyDbPBkBdqU1hzqDKBG7x9dzrqfjV1oUO8jA/640?wx_fmt=png)
+![](PCB布线要点_images/img_007_6415dd13499e.png)
 
   
 
@@ -128,7 +128,7 @@ A. 在印制版上增加必要的去耦电容，滤除电源上的干扰信号�
 B. 在双层板设计中，一般应该使电流先经过滤波电容滤波再供器件使用。   
 C. 在高速电路设计中，能否正确地使用去耦电容，关系到整个板的稳定性。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj2zRAWvJBl7vqicag96Bq3dj4bgRaIkdh78SsyaO6L7poyLGfmSbt4QPQ/640?wx_fmt=png)
+![](PCB布线要点_images/img_008_56367995d5a5.png)
 
   
 
@@ -176,7 +176,7 @@ C. 在高速电路设计中，能否正确地使用去耦电容，关系到整�
 
 为了减少线间串扰，应保证线间距足够大，当线中心间距不少于3倍线宽时，则可保持70%的电场不互相干扰，称为3W规则。如要达到98%的电场不互相干扰，可使用10W的间距。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj22jhCWjLDlibOmMNwf7ff0Vy8qdyicJAeAmA1Jm47rrlA4Vic2VM5PA48w/640?wx_fmt=png)
+![](PCB布线要点_images/img_009_1e2bfd03bf0b.png)
 
 （1）时钟、复位、100M以上信号以及一些关键的总线信号等与其他信号线布线必须满足3W原则，同层和相邻层无较长平行走线，且链路上过孔尽量少。
 
@@ -186,14 +186,14 @@ C. 在高速电路设计中，能否正确地使用去耦电容，关系到整�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj29oL8CWpFDT4mj7GoibFdlpl7Rqb0yVKATecjhgl8LaAWRv4mu26jqYw/640?wx_fmt=jpeg)
+![](PCB布线要点_images/img_010_bf036a44ed44.jpg)
 
   
 
 主要是为了防止不同工作频率的模块之间的互相干扰，同时尽量缩短高频部分的布线长度。  
 对混合电路，也有将模拟与数字电路分别布置在印制板的两面，分别使用不同的层布线，中间用地层隔离的方式。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaJpkia85ZWbSHvF4tLtsdj23C4icJzKoLy1xC2k1RNvHIaGUw4clOFI6DwywpZTic9Uea9yKFS5RUsw/640?wx_fmt=png)
+![](PCB布线要点_images/img_011_c07c47680710.png)
 
 ## 
 

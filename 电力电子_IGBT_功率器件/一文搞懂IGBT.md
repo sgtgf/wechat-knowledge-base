@@ -32,7 +32,7 @@ IGBT综合了以上两种器件的优点，驱动功率小而饱和压降低。�
 
 IGBT最主要的作用就是把高压直流变为交流，以及变频（所以用在电动车上比较多）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmCcPclWyTGSf1gKudLMdMIZiapIj1ZeibeKPMm424MZ5WicsPsjMzFpNcYrTk57EiaXiab3iaic1aRCMibA/640?wx_fmt=png)
+![](一文搞懂IGBT_images/img_002_f18c8d27a8a1.png)
 
   
 
@@ -52,7 +52,7 @@ IGBT最主要的作用就是把高压直流变为交流，以及变频（所以�
 
 IGBT有N沟道型和P沟道型两种，主流的N沟道IGBT的电路图符号及其等效电路如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmCcPclWyTGSf1gKudLMdMSIr5GrsVjkA33icibRyzzWCqg3dt0sBCPXgOGbn6hGQwOerMF7mPjiblA/640?wx_fmt=png)
+![](一文搞懂IGBT_images/img_003_1099e4398001.png)
 
 **所以整个过程就很简单：**
 
@@ -62,11 +62,11 @@ IGBT有N沟道型和P沟道型两种，主流的N沟道IGBT的电路图符号及
 
 当栅极G为低电平时，NMOS截止，所以PNP的CE截止，没有电流流过。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmCcPclWyTGSf1gKudLMdMsn0HBkKtwaBSziaPNGJZJGTiakiayAAWta8mpfHRL70wVDpkApSGniciaow/640?wx_fmt=png)
+![](一文搞懂IGBT_images/img_004_b011a390bc37.png)
 
 IGBT与MOSFET不同，内部没有寄生的反向二极管，因此在实际使用中(感性负载)需要搭配适当的快恢复二极管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgmCcPclWyTGSf1gKudLMdMpibYTIGJWTnRNCjrEM27qzrGJYo1CQ53594QIKiax5SerNPCSPOvUDxw/640?wx_fmt=png)
+![](一文搞懂IGBT_images/img_005_af1c7d271b24.png)
 
   
 
@@ -170,7 +170,7 @@ IGBT与MOSFET不同，内部没有寄生的反向二极管，因此在实际使�
 
 IGBT静态特性曲线包括转移特性曲线和输出特性曲线：其中左侧用于表示IC-VGE关系的曲线叫做转移特性曲线，右侧表示IC-VCE关系的曲线叫做输出特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNGJZ1Tiadu02BzhsQ8X5u8jZAnuUQ71kqLzKia5FdLzpaLR39vHQwuQetzzj2py6zMc0QGSeNfPqIg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](一文搞懂IGBT_images/img_006_8825ae1ecc81.png)
 
   
 
@@ -194,7 +194,7 @@ IGBT的转移特性曲线是指输出集电极电流IC与栅极-发射极电压V
 
 当VGS≥VGS（th）时，栅极G和衬底p间电场增强，可吸引更多的电子，使得衬底P区反型，沟道形成，漏极和源极之间电阻大大降低。此时，如果漏源之间施加一偏置电压，MOSFET会进入导通状态。在大部分漏极电流范围内ID与VGS成线性关系，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgmCcPclWyTGSf1gKudLMdMqVia0LmyKgVPlgcfcAEXrZLwZUHA3O6dPgdxKz8icxLNkJJ1tB5gIt5g/640?wx_fmt=jpeg)
+![](一文搞懂IGBT_images/img_007_93b411c5f5c3.jpg)
 
 这里MOSFET的栅源电压VGS类似于IGBT的栅射电压VGE，漏极电流ID类似于IGBT的集电极电流IC。IGBT中，当VGE≥VGE（th）时，IGBT表面形成沟道，器件导通。
 
@@ -208,7 +208,7 @@ IGBT的输出特性通常表示的是以栅极-发射极电压VGE为参变量时
 
 由于IGBT可等效理解为MOSFET和PNP的复合结构，它的输出特性曲线与MOSFET强相关，因此这里我们依旧以MOSFET为例来讲解其输出特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgmCcPclWyTGSf1gKudLMdMa5qnY5aOOm5xfk0b5aac0w4ZNglxHnNh0IpMdicKAEnZayo1Y5GIJTw/640?wx_fmt=jpeg)
+![](一文搞懂IGBT_images/img_008_c8ebe1280093.jpg)
 
 其中当VDS>0且较小时，ID随着VDS的增大而增大，这部分区域在MOSFET中称为可变电阻区，在IGBT中称为非饱和区；
 
@@ -228,7 +228,7 @@ IGBT的栅极-发射极电压VGE类似于MOSFET的栅极-源极电压VGS，集�
 
 MOSFET与IGBT在线性区之间存在差异（红框所标位置）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgmCcPclWyTGSf1gKudLMdMkAgCWDM1p7lVRcerx3iaSuljKgcNr8RgtYtyyk4OMawnMIrHCGM7qbw/640?wx_fmt=jpeg)
+![](一文搞懂IGBT_images/img_009_8d699f1978b1.jpg)
 
 这主要是由于IGBT在导通初期，发射极P+/N-结需要约为0.7V的电压降使得该结从零偏转变为正偏所导致的。
 

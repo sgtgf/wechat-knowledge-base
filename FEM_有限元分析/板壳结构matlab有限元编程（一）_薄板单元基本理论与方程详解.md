@@ -193,7 +193,7 @@ Mindlin/Reissner 理论其中比较典型的有三种：①Reissner理论；②M
 
 后续系列博文将继续介绍Mindlin板单元的有限元基本理论，以及板单元和壳单元的Matlab编程实现，包括静力分析和模态分析。推荐大家关注我的原创视频课程里面《[Matlab有元编程从入门到精通](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247550237&idx=1&sn=c0d259918b2f780b2c8d9869444d2801&chksm=eb93a9f5dce420e3c84059579329caf3191c2931c7dc9b564dfc19d49b16f5a0bcdcd1a4fc0f&scene=21#wechat_redirect)》目前加餐到第35期。我还会持续更新，强烈推荐学习者订阅。
 
-![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_043_aea80b19dca9.other)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_043_aea80b19dca9.jpg)
 
   
 

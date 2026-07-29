@@ -58,7 +58,7 @@ BCM：电感电流连续工作模式（周期结束时电感电流刚好降为0�
 
 直流变换：DC-DC
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lXic1P2Lqf5c4vNz0IKuuTQibuY1O4UAvestRKPlMTlkfZrgCMszuYHCw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_002_13de0d09c21f.png)
 
 这就是最基本的BUCK电路。
 
@@ -72,13 +72,13 @@ BCM：电感电流连续工作模式（周期结束时电感电流刚好降为0�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lFlMEqBfWiaaCc1hXG9wM065buI5E4cmgM5EicJXTcicmC2ZuYibc96CicdQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\关于BUCK_BOOST电路的内容_我整理了这些干货__images\img_002_52a912c1ce14.png)
 
 当开关管断开时电路图：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lY8VXPz9SgkBIFEFicrOJBykib7WwKibyCLNnP5Smibs6EjYa3aWuvZnpRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_004_7aeb6ab4d333.png)
 
   
 
@@ -104,7 +104,7 @@ BCM：电感电流连续工作模式（周期结束时电感电流刚好降为0�
 
 首先是在导通期间，这时候的电感的电压大小是Uin-Uo，电感的电流会从最小值上升到最大值（这里的最小值一定是大于0），即ILmin->ILmax。所以在导通期间电感的增量就为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lI2otCoNbNABicGNzPGEts2Rd3nkBFgLIxJFVVf00CnVMia0xBM3MFyKQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_005_b4dcdecdf213.png)
 
 （插入公式没找到而且很慢）。
 
@@ -112,15 +112,15 @@ BCM：电感电流连续工作模式（周期结束时电感电流刚好降为0�
 
 当开关管变为关闭期间，这时候电感的电压大小为-Uo。电感电流就会用即ILma’x->ILmin。减少量就为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lDPGLnlVqILibKicwlxXuBlG2WNgF6nnNNAP1bOapW7IJz84rFwvhN0OA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_006_69427a37df79.png)
 
 当我们这个BUCK电路是一个稳定电路的话，它就会保持稳定的开关，所以在开关管导通和关闭期间电感电流的增量和减少量是一定的
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lT5ymkwoDBrfmia40sB9GOVgsCXbiaGYLsmeSMugTVVRyIuLPIdtib13Ug/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_007_47d46fcf6f4d.png)
 
 整理之后就可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7l4jrumwD7vtQG9T57fHQm7B7LXHia8Y3IicYlRm3PVI2UCfiaFYYHJsiaAw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_008_a625847e5d54.png)
 
 根据上面可以得到，我们这个输入的电压是输入电压在乘以占空比，即开关管打开的时间/周期。而且Ton≠Ts，所以输出电压的一定是小于输入的电压。这也就是BUCK电路的原理。而且输出电压的大小是可以操控，我们若使用PWM波来驱动开关管，那就可以通过修改PWM波的占空比来修改输出电压的值。
 
@@ -146,23 +146,23 @@ BCM：电感电流连续工作模式（周期结束时电感电流刚好降为0�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lFc17DjNoJG9CNwxCU2APAkoP50w8cOlPHmcdstTKPnlveGfsggp9Bg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_009_af4553362ab8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lvgibFHyjOKMicPbEprQNMvcpbQriaY4icvUt3tbrjk4olbiaNO6dAbauqgA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_010_38d59ce81144.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7l1MiaKkbcoeRHKO1XTJy4cmPoK7GY4e7icpib2b8IUNKicBlPicibzq9KN2qw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_011_aeb8730833d6.png)
 
   
 
 首先是在导通期间，这时候的电感的电压大小是Uin-Uo，电感的电流会从最小值上升到最大值（这里的最小值=0），即0->ILmax。所以在导通期间电感的增量就为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lI2otCoNbNABicGNzPGEts2Rd3nkBFgLIxJFVVf00CnVMia0xBM3MFyKQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_012_b4dcdecdf213.png)
 
 当开关管变为关闭期间，这时候电感的电压大小为-Uo。电感电流就会用即ILma’x->0。减少量就为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lDPGLnlVqILibKicwlxXuBlG2WNgF6nnNNAP1bOapW7IJz84rFwvhN0OA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_013_69427a37df79.png)
 
 当在闲置状态下，也就是IL=0的时候，就相当于开路状态。
 
@@ -170,11 +170,11 @@ BCM：电感电流连续工作模式（周期结束时电感电流刚好降为0�
 
 当我们这个BUCK电路是一个稳定电路的话，它就会保持稳定的开关，所以在开关管导通和关闭期间电感电流的增量和减少量是一定的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lT5ymkwoDBrfmia40sB9GOVgsCXbiaGYLsmeSMugTVVRyIuLPIdtib13Ug/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_014_47d46fcf6f4d.png)
 
 整理之后就可以得到
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7l4jrumwD7vtQG9T57fHQm7B7LXHia8Y3IicYlRm3PVI2UCfiaFYYHJsiaAw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_015_a625847e5d54.png)
 
 DCM工作模式下会使电路带载能力降低，稳压精度变差，纹波电压大。所以通常要求BUCK电路在CCM工作模式下工作。
 
@@ -188,7 +188,7 @@ DCM工作模式下会使电路带载能力降低，稳压精度变差，纹波�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lDIh0lw4eKteYPCwX3ibgrNgN6v8rbN9apt3ia0NGvtNHCwia8wPvt8ibmg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_016_9eb274e147a0.png)
 
 电感阻碍电流变化，通低频，阻高频，通直流，阻交流；
 
@@ -206,7 +206,7 @@ DCM工作模式下会使电路带载能力降低，稳压精度变差，纹波�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lGQMBGJ44hjJNKCAUszGdgIfQX5BMSbUb4enUrrahtakmHNTIGCO6CA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_017_0d75b19c5ad7.png)
 
 此时电路应该时这样的。二极管的作用是防止电容对地放电。
 
@@ -220,7 +220,7 @@ DCM工作模式下会使电路带载能力降低，稳压精度变差，纹波�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lIlLEObs2ia2zg1rzGxQSicq2CdkGs1uFwn4jB3pDrJ4U6GAa8ic0CG5Dw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_018_eb90aa8f6d2e.png)
 
   
 
@@ -248,7 +248,7 @@ buck/boost converter 升降压转换器
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7lKEX90WYYo1picuFgyYcScAicR9nhIxW7VFMFeT9UtPSK4gwxpPEFy3Mw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_019_4fefb76703dd.png)
 
 这就是buck/boost converter最简单的电路图。
 
@@ -262,7 +262,7 @@ Uon=Uin-Uq（通常情况下忽略Uq的压降）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7l3Iee6pibgB3cGjSxgeo2y0G6icUxdpsiaLvKs4QLtqRKQ5TtAqLq8lgJg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_020_98da3d7940c7.png)
 
 当开关管关闭时：
 
@@ -272,7 +272,7 @@ Uon=Uin-Uq（通常情况下忽略Uq的压降）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3ibbhhytvylHRvhOrzctnFQeF5DECQn7l7DwXh0TvQAbLhnibaDicKqSzn7G3VedwzwPolHYa9NfaAibxciauPdlXgw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_021_140248089834.png)
 
 所以Uoff=Uo-Ud（二极管的压降一般也是忽略不计的）
 
@@ -360,9 +360,9 @@ Uo=（D/（1-D））\*Uin
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_022_58147eba07eb.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_023_9b53a964efd5.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_024_75db8c1036fb.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_025_0b6ae33611dc.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_026_365c6cd9f8bb.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_027_2da1ccbac0ae.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_028_7446ffe5e3b8.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_029_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_030_3352ab08e99b.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_031_0f89804cd7eb.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_032_f506b795c6ac.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_033_97df29bd0f50.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_034_d7c6fe8cd645.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_035_19e2f7b6262a.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_036_08d092bef8a0.gif) ![](关于BUCK_BOOST电路的内容_我整理了这些干货__images/img_037_50889e54acde.gif)
 
 ## 
 

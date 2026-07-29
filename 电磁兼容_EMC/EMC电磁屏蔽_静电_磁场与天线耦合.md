@@ -12,7 +12,7 @@
 
 不管什么电子产品，EMC始终是其需要面对的问题，EMC全拼是Electromagnetic Compatibility即电磁兼容性，EMC分为EMS（electromagnetic susceptibility）电磁抗扰度和EMI（ Electromagnetic interference）电磁干扰两部分，一个是评估产品自身稳定性的，另一个是评估产品对外噪声水平的，都是产品质量的重要指标，本文以手机为例，介绍EMC、静电浪涌的基本原理以及常见解决措施，有助于指导工程师PCB layout以及解决实际EMC问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMu3G8pQrU4WMiafkJKmy8UIgxqAiaBerRL8oQpCGk4QIVrxJbiazL4moX6g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_000_395ecf3406ca.png)
 
 万事万物皆有干扰，有干扰才有抗干扰，解决EMC问题就有3大方向，围绕这三大方向，可以幻化出非常多的解决措施，太极生两仪，两仪生四象，四象生八卦，八卦千变万化。这3大方向分别是干扰源、干扰传播路径、干扰受体。
 
@@ -38,7 +38,7 @@
 
 如果受害方阻抗大，那么产生的干扰也会变大，这就是高阻抗电路更容易接收噪声的原因之一。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuC1oPqpObkcCz9U5Vk9Q8qyjAuu4tn8icd0aH7IKLiaZib5bZQlWZvakaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_001_8c486915e452.png)
 
   
 
@@ -55,13 +55,13 @@
 5.  在干扰源源端滤波。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuk34icKtYPaeofnmXtqXTwicIfXjHITVyEVz9M8YLGKLW5gaKpXoibwLfA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_002_a2307fffb5d6.png)
 
 2\. 磁场耦合
 
 有爱必有恨，有电容就有电感，二者是对偶器件，磁场耦合就是基于感性的耦合，也叫感性耦合，电压小电流大，当导线流过电流时，会产生磁场，磁场会通过互感作用于受害线路，进而产生干扰，这就是磁场耦合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuuaXxsqmo8gJJRp1qGmXONvo6tpr27BJHahysKGw8HdX8AHHlibtQBVQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_003_48e3b15888d0.png)
 
   
 
@@ -88,7 +88,7 @@
 
 偶极子天线对电压敏感，环形天线对电流敏感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuoZNgricoXZuFtibY4CIeyt3u7DkIxwTpF7t299icIzuEcpAHmvY2wm9uQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_004_4001a9fc8923.png)
 
 4\. 偶极子天线
 
@@ -98,11 +98,11 @@
 
 在天线前面加入LC滤波器，既可以抑制高频谐波降低EMI，又可以做阻抗匹配实现最佳发射功率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMukdFPjGKIkQkMA8oonZ8cmCQibwrlND0RQJx9ZnAPhib8HKevYpS6ib11w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_005_a8135760b441.png)
 
 我们在走线时也要避免出现单独线头，这种线头可能成为发射或接收天线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuibCiaGr7HhxQibuGfrubTmibazeJQbzsrp7iaHmSqHR9eqjatReBMdlibx9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_006_37059adb7a90.png)
 
   
 
@@ -112,7 +112,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuIE0nJCbuGxDCRBibHdtDOOR2wAdHNzvIBicmEvh5Kt0O6LJlKyFozg8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_007_aa8920032838.png)
 
 5\. 近场与远场
 
@@ -120,7 +120,7 @@
 
 近场与远场的分界线是d=λ/2π，λ是波长，当天线距离小于d时是近场，大于d时是远场。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuRlcjP1PgSLIVp06TsFrFJqJcHbP8s1exoibYCqXYC1M0JchrXc1BRug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_008_a091a4ec8089.png)
 
 图来自村田官网  
 
@@ -128,7 +128,7 @@
 
 环形天线近场范围内磁场更强，磁场随距离衰减更快。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMulxY7yL3DRKDnLjf6gViaxw8HlqQEYWyEgILS64ZOyMwehyQFG7x45Uw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_009_979a7c90d160.png)
 
 但不管是偶极子天线还是环形天线，在远场范围内，电、磁场随距离衰减速度一致，此时的波阻抗为377Ω，这是重要的参数，后面会用到。
 
@@ -144,7 +144,7 @@
 
 而衰减损耗是利用高频趋肤效应来衰减电磁波，和屏蔽材料、频率有关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuPibicaqkrtCCFbMsiaN103Z8icjgFp60DNyzNIVOhHjKltPTJWeIicO2KibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_010_68238126724f.png)
 
 前文提到过远场波阻抗是377Ω，而铜板等屏蔽材料是高电导率材料，其阻抗非常非常小，10MHZ时，铜的固有阻抗大约只有1mΩ，相差了30万倍，铁的阻抗也非常小，远场波阻抗与屏蔽材料阻抗差距巨大，产生反射，因此单看反射系数，就可以达到100dB的衰减效果。
 
@@ -152,7 +152,7 @@
 
 从下图也可以看出，使用更厚的材料，衰减损耗就更多，屏蔽效果也越好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuRD2VclWwSOXNsjtOMyEhnlIxj6qluDq5sic4Qmv1Go2LUXtqhhLTV5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_011_b7b891177eb1.png)
 
 图来自村田官网
 
@@ -164,7 +164,7 @@
 
 从下图可以解读出，相同频率时，铁比铜趋肤深度更小，即由于铁的磁导率高，衰减损耗更大，衰减损耗引起的抗干扰效果更好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuM29DQDhcTk56MPv390XHkdU8OhIOD5ibZ5naSvM5xpE9Y32wMl7hRicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC电磁屏蔽_静电_磁场与天线耦合_images\img_012_bec7d8cd77a9.png)
 
 从上图还可以解读出，频率越高，趋肤深度就越小，因此高频时即使用非常薄的金属材料就可以实现良好的屏蔽效果。
 

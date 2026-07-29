@@ -5,13 +5,13 @@
 
 碳化硅MOSFET模块在工业电源中的应用前景非常广阔，主要得益于其卓越的高频、高压和高效特性‌。碳化硅MOSFET模块在工业电源中的应用可以显著提升电源系统的性能和效率，降低损耗和成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibjbGBrqUTlAJ50zoibhvMXnrexUB7OA18dEkfPHmQKdL6eOcSYADvNug/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_000_94ad1d5fc6ad.jpg)
 
 34mm封装模块介绍
 
       34mm工业标准封装产品，具有更多灵活性和可靠性，主要应用于工业焊机、电机传动、UPS电源、高频开关、大功率变流器等工业领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318YbehjyFFe7IEUzkVlrE9PQHdzGazIz2eQFhvFsNWTkxHicX3WrAAa2g/640?wx_fmt=png&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_001_bb4fe7e8ee07.png)
 
 34mm封装模块外框图
 
@@ -35,31 +35,31 @@
 
          **RDS(on) ：4~80mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318kayNkt0q7kHHPvrWyQZVrnM96sQDXo0GJaY0S9dHehGVWkRkrJlINA/640?wx_fmt=png&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_002_77f8a8f74f18.png)
 
 34mm模块参数表
 
      34mm封装碳化硅模块**采用成熟的34mm器件半桥拓扑设计，具有高功率密度，允许使用相同的结构尺寸来增加逆变器输出功率**，延长了器件使用寿命，提高了系统可靠性，为终端客户提高了产品竞争力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318plVYriaeoMgoHLtychqbVkE1Ok0tw9dqveVglIOreRPsMUzWuIrCp6A/640?wx_fmt=png&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_003_497fc20fccbb.png)
 
 1200V300A模块参数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318HcnEw3JnpcPibbianmyOfSjYv02uib0yxwBncGFUIsIWUODpc5FWJVlEA/640?wx_fmt=png&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_004_7c385214b428.png)
 
 模块拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318enGpdjicd9CMwzPmaVch0VY3sfuUbK8K3M2PQM0rwmibMRYnbQPOoJgg/640?wx_fmt=png&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_005_91deaa54b420.png)
 
 模块尺寸图
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318Ig6RhvESDiahu5uk9UgzqC9LdakpwFsCzvvPCsNUm0a4L8E9EQtqqwQ/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_006_f33c934f5e29.jpg)
 
 62mm封装和34mm封装实物图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318VnibiaZ9icOrL7bToO31xs6FR9eWNcod74UXwlMmqqphK90uUYfMAC0Ag/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_007_e326982cd4fe.jpg)
 
 模块驱动电路参考图
 
@@ -97,7 +97,7 @@ SiC方案优势：  
 
   拓扑：双相交错LLC，输出48V/1000A。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If3186UxgtTkpwzZ2Ef7A8wicTVM62IIyCbHLyeEsrbhoBnmMpBUy5N18GmQ/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_008_80289ac87a0e.jpg)
 
   
 
@@ -117,7 +117,7 @@ EMI抑制：通过软开关技术（如ZVS）降低高频噪声30dB。  
 
 拓扑：全桥谐振逆变器，开关频率200kHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318wuD94SC42bqCbicFTFlVwbc5miagblmnTyre01du1gGqibWP6ZldC50RQ/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_009_c5408d28c9a2.jpg)
 
 3\. 不间断电源（UPS）  
 
@@ -135,7 +135,7 @@ SiC方案优势：  
 
 拓扑：三电平T型逆变器，支持并网/离网无缝切换。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If3188Gqx1ib5UTKOjxm9aJgfDamrtpGzd3u9DamaJ6tFqhKz8BsGFalDUug/640?wx_fmt=jpeg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_010_a8006b592eaa.jpg)
 
 4\. 工业电机驱动（变频器)  
 
@@ -155,7 +155,7 @@ SiC方案优势：  
 
 拓扑：两电平逆变器，输出功率150kW。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318djjqv38ibXZGPdJnhic6QEoL1YOpnDK8TYxHUVmjaHcBfiavuf7wWc3DA/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_011_6e3e143a9036.jpg)
 
 5.焊机电源 、感应加热设备  
 
@@ -163,19 +163,19 @@ SiC MOSFET器件在电焊机应用中的优势主要体现在提高效率、降�
 
 SiC MOSFET在电焊机中的应用不仅提升了焊接效率与稳定性，还通过其独特的技术优势，如高工作频率、低导通阻抗、高耐压等，为电焊机行业带来了革命性的变化，成为现代工业智能制造中的最优选择‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318ibjnlV4G8cmgRjWYN7P5Yt4K6XYetgzar0M05BZF8Z5DtKj0sVaI1gg/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_012_4e5997f710a9.jpg)
 
 SiC MOSFET(1200V60A,8颗）
 
 现代工业智能制造，需要高端高性能焊机和机器人组成自动焊接生产系统，对焊接工艺过程进行精细控制，传统基于IGBT设计的工业三相逆变焊机，开关频率停留在10-30kHz，已经不能满足设计需要，SiC MOS因其在高效能、高频率和高温性能方面的独特优势，可提高开关频率到100kHz以上，SiC MOS器件是目前最优的选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318WEqEGLXxvBlTb1PXf3zXhwyKGjFOHpcK0a2M8RtFVxUWUQD1ibmibzBw/640?wx_fmt=jpeg&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_013_dd4feaf1fe39.jpg)
 
 SiC MOSFET模块（34mm模块，2块）
 
 采用SiC MOS功率器件设计的逆变焊机，动态性能更好，效率更高，更小巧轻便。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318m9BwtGdBXHDJ9ERZ2ib1xecY8laVGasC20cqMZNFyGzjYq0sXvpPURQ/640?wx_fmt=png&from=appmsg)
+![](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_014_0ab65d7cd04e.png)
 
 新型功率开关器件 SiC MOSFET模块设计的感应加热电源，由于SiC MOSFET功率器件的性能优势，无需外部再反并联续流二极管，简化了电源整体结构。所设计的驱动电路实用性强，能够满足功率器件稳定高速开关的要求。采用带延时补偿调整的定角锁相控制策略，实现了频率快速自动跟踪的目的，使逆变器始终工作于低损耗的小感性状态。  
 
@@ -213,10 +213,10 @@ SiC模块在工业电源中的核心优势
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_015_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_016_3ade3c3d8599.jpg)![图片](34mm封装碳化硅MOSFET半桥模块_助力工业电源（焊机逆变_感应加热设备_高频逆变器_不间断电源）的高效化和小型化_images/img_017_84aa944feb13.jpg)

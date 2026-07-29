@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/4iEMN9QBWmcy4-0wPezV3w](https://mp.weixin.qq.com/s/4iEMN9QBWmcy4-0wPezV3w)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_000_ec559f3ff72e.gif)点击上方名片关注了解更多![图片](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_001_909e8086e918.gif)
 
   
 
@@ -12,7 +12,7 @@
 
 反激变换器（Flyback Converter）因其结构简单、成本低、能够实现隔离和宽范围电压输出，在中小功率开关电源中应用非常广泛。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGu7ShrC5tsCnRLqviaadDDmSGpibQ2ELiaKNUMRVefZqoLcdWyWcaExnLA/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_002_845c3930551e.png)
 
 不过，在实际设计和调试过程中，咱们也常常会遇到各种问题，比如启动异常、电压不稳、噪声过大、温度过高等。本文将结合 Fairchild 半导体（现属**安森美**）的相关资料，梳理反激电源的基本原理、关键设计要点，帮助大家更好地理解和应用反激变换器。
 
@@ -24,7 +24,7 @@
 
 反激变换器的核心是一个带有多组绕组的变压器（更准确地说是耦合电感），通过开关管（如MOS管）的导通和关断，实现能量的存储和传递。当开关管导通时，电能存储在变压器的初级绕组中；当开关管关断时，能量通过次级绕组释放到负载。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGOuC3icubSancxeAicWG5AkGZX1BbM4Q5kiadSMiap5MQKY2oibcYqstjkmg/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_003_e07e3efddf11.png)
 
 典型的反激电路包括：
 
@@ -49,7 +49,7 @@
 
 变压器是反激电源的重要器件，设计不当很容易导致饱和，进而损坏开关管。如下这张图有一个例子，可以计算出变压器的饱和电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGVpyWUZZK6jWbkiaNTbSlGaKydsqChiaiazNT2r7LnJnGoDIAQp40qH1BQ/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_004_ece31e06fd4c.png)
 
 如果计算出的饱和电流低于IC的限流点，可以采取以下措施：
 
@@ -66,7 +66,7 @@
 
 Vcc是控制IC的供电，必须保证在空载到满载的所有情况下，Vcc电压都能稳定在要求电压范围内。设计时要注意：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGrn7qKKtcedDoSNfU7s2blXY4nK8uR2kgnTHLyIYico0B4c8zicq70x7g/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_005_517d61ba6b07.png)
 
 -   选择合适的Vcc绕组匝数
     
@@ -81,7 +81,7 @@ Vcc是控制IC的供电，必须保证在空载到满载的所有情况下，Vcc
 
 开关管关断时，由于变压器漏感的存在，会在Drain端产生尖峰电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGYiamT938T9NStfu2A1SKAXwkCSTx4jNccOd5ZPnW9xhUE2tsvnSt1eA/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_006_77a50fdd9b6c.png)
 
 降低Vds的方法包括：
 
@@ -100,19 +100,19 @@ Vcc是控制IC的供电，必须保证在空载到满载的所有情况下，Vcc
 
 ### 为解决重载或容性负载下因Vcc过压保护、内部限流点过低或电流上升斜率过大导致的启动困难，可采取调整Vcc绕组/整流参数、提高限流点或增大初级电感等措施。
 
-### ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGSufwSMkrCXeDjjbd0vjs37uLXYCOiasZkGwhXELXWgzGzPyLzB5107A/640?wx_fmt=png&from=appmsg)
+### ![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_007_27c782c84d2d.png)
 
 ### 5、短路功率过大时
 
 ### 为解决短路时仅靠内部限流保护导致的开关动作持续、输入功率大增及Vds过高问题，可通过快速触发反馈脚OCP以迅速关闭输出、减小峰值电流及避免反馈脚电容过大的方式进行优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGiaJV8d8icULwq2PPENrEDfeAGoRyrA0ozVDfrh4t9Ap5L3j3eTnNgdeA/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_008_1cb118b0bbab.png)
 
 ### 6、如何处理可闻噪声
 
 噪声主要源于变压器磁芯振动及陶瓷电容的压电效应，可通过变压器浸漆固定、钳位电容改用薄膜类型、增加斜率补偿电路以及调整Burst频率以避开人耳敏感频段（2kHz~4kHz）等措施进行降噪。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGkiaawMVulyicc3ja9ia5IicicFNXovmHZ1uVicYU588MPqz4AvhCCo4mnbGg/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_009_2fded8be3dcf.png)
 
 ### 7、PCB布局注意事项
 
@@ -125,15 +125,15 @@ Vcc是控制IC的供电，必须保证在空载到满载的所有情况下，Vcc
 -   IC的GND引脚尽量大面积铺铜，帮助散热
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqG4VaVNXNVNxd0BGxGn2ypm8GqBcOqNEWPicw6Fy2g6DwMrvbZKm8eibGA/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_010_666638f7e0bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGagI3qCSFMpsBzJfXYAicyruqEQjPhKgeSlowdErKkFqaRUsm52oZZJg/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_011_236dad54af34.png)
 
 ### 8、阻容选型要点
 
 对于关键元器件选型：输入大电容需按1~3μF/W并具备低ESR，输出电容需低ESR，反馈补偿电容需X7R等低温漂材质，电流采样电阻需为无感类型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqG4IsYI1RobQ5Kwvp2ibS4pbEc3w00zwEDaHTgIoJRZIZia3AEDEb2cq3Q/640?wx_fmt=png&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_012_35f9b9e677b1.png)
 
   
 
@@ -155,10 +155,10 @@ Vcc是控制IC的供电，必须保证在空载到满载的所有情况下，Vcc
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqG2q4YoF9JicfpU2ehrL93ILOo2YFgY64oRdW5jHhUI52lcPo4TAwKPvA/640?wx_fmt=jpeg&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_013_eef06637e65c.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGZcpibVblhMBIE5iaTovvBYBrazgE4Qt8T4J8vJUcicqkWrZR7egp7kgGA/640?wx_fmt=jpeg&from=appmsg)
+![](告别玄学调试_反激电源从设计到debug的实战精华_都在这篇里了_images/img_014_c30d31b73568.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

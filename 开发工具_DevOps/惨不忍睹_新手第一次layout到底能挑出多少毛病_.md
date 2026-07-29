@@ -20,9 +20,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJLzuWY3bwfAC9SwicOIDC5lN55tJUg82DiayicicsyWQdVriaTzhLblFv24Q/640?wx_fmt=png)
+![](惨不忍睹_新手第一次layout到底能挑出多少毛病__images/img_002_55b8271b9073.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjga69Bx3viaAU91S8TwSFibaJKkt9OHrP5FVJVVI4t2p8mSciaPoK6U1t1Y1u1WEZ0ViaNrDe1T0kp5lg/640?wx_fmt=png)
+![](惨不忍睹_新手第一次layout到底能挑出多少毛病__images/img_003_36978b0c6212.png)
 
 **网友A：**  
 给你的建议：   

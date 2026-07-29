@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/j3yOsm9-4kx4pH92DqGSCQ](https://mp.weixin.qq.com/s/j3yOsm9-4kx4pH92DqGSCQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjM7yrCShRZJYdZ1Xv8AFECibjrnoARtibUvvU1Az5IlXBdBniaAic6XsgZ6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_5_什么是并行Nand_Flash_images\img_000_3348d142f42e.png)
 
 ____**★★★**______Storage-5---并行Nand Flash______**★★★**____
 
@@ -13,13 +13,13 @@ ____**★★★**______Storage-5---并行Nand Flash______**★★★**____
 
 并行Nand Flash的结构如**_图5-1_**所示，虽然eMMC也是并行Nand Flash的一种，但二者不能混为一谈，接口和遵循的标准都不相同。
 
-____![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSBicN5EfJ9eDgJicfDBfeQ8g93pIU0hFKY1K3AiauptY2JXpAZYRBNxlfaI29QuHGhz1lJtibhgugtibQ/640?wx_fmt=png)____
+____![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_5_什么是并行Nand_Flash_images\img_001_0476f7e5c14d.png)____
 
 **_图5-1：并行Nand Flash基本结构_**
 
 ## 并行Nand Flash由存储阵列、页缓冲器、编码器，地址计量、数据缓冲器、逻辑控制器、接口几大部分构成，同时容量的扩展也支持多片叠封如**_图5-2_**。增强的体系结构和接口，支持高速缓存程序功能，允许在将数据寄存器复制到闪存阵列时将数据插入高速缓存寄存器。当长文件被写入存储器时，这种流水线程序操作提高了程序吞吐量，还实现了缓存读取功能。当连续页面必须流式传输时，此功能可以显著提高读取吞吐量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLNZASr7unaPtYYibljovr44mjN0A0TsAGqMUCaibfRvO3FjgVGy8HhibCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_5_什么是并行Nand_Flash_images\img_002_c2bfe3a24aae.png)
 
 **_图5-2：双片叠封的并行Nand Flash_**
 
@@ -49,7 +49,7 @@ R/B#：就绪/忙
 
 ## 并行Nand Flash非标/ONFI标容量可以做到8Gb，顺序读取速度可以做到25ns。它还结合了从一个页面到另一个页面的回拷贝程序功能，而无需将数据传输到外部缓冲存储器或从外部缓冲存储器传输数据，从而允许优化缺陷块管理，例如当页面编程操作失败时，数据可以直接编程到同一阵列部分内的另一个页面中，而无需耗时的串行数据插入阶段。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQW3YIeagibUhHZzofAnF65tgtNKdfHF7MLEPibsVA1ypvv2cWRoNMpKTYD1bOSXHAprFyakLd0ZMyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Digital_series_Storage_5_什么是并行Nand_Flash_images\img_003_b2c07d036d95.png)
 
 **_图5-3：SLC Nand物理结构_**
 

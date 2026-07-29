@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/t4sa6uFAOcqYpR6Iyr3H\_g](https://mp.weixin.qq.com/s/t4sa6uFAOcqYpR6Iyr3H_g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFaplrceUKN4aia6a5bXhvibCJibibXRhBUI6veQV0t7tjk6F7zSibgezVYNg/640?wx_fmt=png)
+![](Power_Path_2_电源开关_1_images/img_000_3f7244b77db6.png)
 
 ____**____**★★★**____**__________Power Path-2---电源开关器件__________**____**★★★**____**____
 
@@ -17,7 +17,7 @@ __€1._器件总览_
 
 电子保险丝eFuse和热插拔控制器提供额外的输入电源路径保护功能，如电流监测、限流、欠压和过压保护，以及过热关断。这使得这些器件非常适合用于热插拔和瞬态场景，避免损坏系统器件，这些保护器件有助于降低系统维护成本，并使系统的正常运行时间最大化，如**_图2-1_**是几类器件的功能概览，实际功能由所选的具体器件型号决定。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFv0xicfJ8tGylheTsNEYe9pUT5m6O9mc1Lweyvk8r6qavpSA843vgQEQ/640?wx_fmt=png)
+![](Power_Path_2_电源开关_1_images/img_001_5a0ebccb313c.png)
 
 **_图2-1：各类器件基本性能一览_**
 
@@ -25,7 +25,7 @@ _€2.使用路径_
 
 如**_图2-2_**所示是几类保护器件的使用场景和环节所在。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFPeZibdkwRiceLicBqNqItb9qV4vfzqFsFLpJuhYslZ8UbRE3wCEcFqXcg/640?wx_fmt=png)
+![](Power_Path_2_电源开关_1_images/img_002_8d9ffc4d5cb6.png)
 
 **_图2-2：典型的电源开关用例场景_**
 
@@ -33,7 +33,7 @@ _€3.负载开关_
 
 **_图2-3_**是集成FET负载开关，用来打开和关闭电源轨道的电子开关，当内部场效应晶体管打开时，电流从输入流到输出，并将电源传递后级电路。当器件启用时，可以通过调节外部CT引脚上的电容来控制输出电压Vout的上升时间。当器件被禁用时，通过快速输出放电QOD（quick output discharge）来控制Vout的下降时间。当器件关闭时，QOD将输出拉到GND，防止输出浮动或进入未确定状态。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFr6gTyOxiadxXbUrfDQGnHDuiaTLpzKIRnm8CLhMcBIVc3xA0Sialh2ibLw/640?wx_fmt=png)
+![](Power_Path_2_电源开关_1_images/img_003_0e0411f1aa98.png)
 
 **_图2-3：负载开关简图_**
 
@@ -45,7 +45,7 @@ _€4.电源多路复用_
 
 **_图2-4_**是集成FET电源复用器件，它允许系统在不同的电源之间无缝转换，如果主电源出现故障，电源多路复用允许系统切换到备用电源，比如电池，以维持系统继续运行。电源复用还可以为在两个不同电压下运行的子系统提供两个不同电压电平之间的切换。在这种情况下，为了防止反向电流从Vout流入Vin通道，反向电流保护（RCP）功能阻止电流回流流过体二极管。电源多路复用也包含可调的电流限制，如果电流超过了开关设定的阈值，该开关就会给输出通道限流，防止电流超过限制。此外如果电流限制使器件达到较高的温度，热关闭激活关闭开关，直到它能够在安全的条件下再次运行。与负载开关类似，电源MUX开关也包含浪涌电流控制，以防止大的瞬态电流事件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS2vWjTz2KkQuwuayTqxMSFF48BiaRiaQIbTxCEiasgM0NL3awv470uibtKPtwltQ4AkicvZ5N4hHsArJg/640?wx_fmt=png)
+![](Power_Path_2_电源开关_1_images/img_004_490bb3f60d61.png)
 
 **_图2-4：**_电源MUX简图_**_**
 
@@ -57,7 +57,7 @@ _€5.eFuse_
 
 **_图2-5_**电子保险丝是集成FET的电源保护开关，在故障事件时提供电压和电流保护，这些事件包括短路、过流、过载、过压、欠压和过温。在类似短路的瞬态事件中，通过eFuse的电流增加得非常快，设定电流阈值后，eFuse能够实现快速跳闸，在不到200ns的时间内关断电流，避免电源和负载受到短路损坏。如果在输入Vin上发生过电压事件，eFuse会监测内部FET的电压，然后钳位输出电压，直到输入低于过电压阈值。eFuse还具有内置超温保护，如果结温超过150°C（典型），可关闭FET。在温度下降后，eFuse要么保持关闭（锁存关闭）或尝试重新启动（自动恢复），eFuse提供了许多类似负载开关的附加功能，包括可调浪涌电流控制和反向电流保护。
 
-_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZndLF1ciaH006sCD7O6bEZMHNC2Oibl7YW3tQngUWD4q6G073BG2icuS2Tg/640?wx_fmt=png)_
+_![](Power_Path_2_电源开关_1_images/img_005_246f708f3907.png)_
 
 **_图2-5：eFuse简图_**
 

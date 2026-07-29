@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjharjic2wHhAAAClkJJDC6dg2p6QibwUDJjMV2c5jgfQQ49EHSl0med6YqAAcggzdo2g3YVtR1KqjBA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_000_504a4232fbc8.png)
 
   
 
@@ -26,7 +26,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia4ObQial0icJMFOgjHW2ITAzrEhNPPib6iasGaKGAnhucJcAjCxicb7JRnIRw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_001_d34ea1ecb2fd.jpg)
 
   
 
@@ -34,7 +34,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia4SLEq2ibNPlicz07JbeiajZGFIPlDnhicko9aTuEMnRzjW1odmqcIoj2ldA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_002_cc944db17f0c.jpg)
 
   
 
@@ -42,7 +42,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia4odXUP7PRoZDzyA40TScRZXZXZhR6nTWHMcVicLicUhAp33kT74058SAg/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_003_ca6554ab079f.jpg)  
 
   
 
@@ -50,7 +50,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia4h0ZW5as3opGZP2PY8Ozozqg5Vq2lEUxEl4zlGicAsUPYW6pV7E5y9DA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_004_bdec7f5503e9.jpg)
 
   
 
@@ -58,7 +58,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia4z0hpGI7SxEA0f2iaScA4fTeA07L9WpYf2cCn8cz6tkzTKKjia8NNlg7g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_005_a467564f50b6.jpg)
 
   
 
@@ -66,7 +66,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia4UsM50td5LaNPOue39eSOfc44vDic0ibclD8RAg0byxibc7jic8Ucd3BITQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_006_36c220a3d11d.jpg)
 
   
 
@@ -74,7 +74,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia4PibKqSIibnzblkPLvnKaHwE01iaMf7hwCQLKzOUz456CyrIQ3BIVfzNIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_007_5171832da8e4.png)
 
   
 
@@ -94,7 +94,7 @@ USB协议定义由两根差分信号线（D+、D-）传输数字信号，若要U
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iayzTbicUDics6qZ66A0iaKPwbYp5Lic8iabia48rlYp9W2gZLP2EiaFuDQEatATq05BLKDyBI4Lduiab7zkylZoD3WRpCw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB_接口电路设计常见问题_images\img_008_9e2e8b5a20c2.jpg)
 
   
 

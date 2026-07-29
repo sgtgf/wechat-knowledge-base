@@ -13,82 +13,82 @@ Nikolay I. Zheludev教授现任南安普顿大学光电子研究中心副主任�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dMhndVZW7PnMcz1qWbRlnDPejSGOIqkswLsDywWuJRohzup6iaJyZicLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_000_2f39c4d33743.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dbMMNiccBWlMZicMsF9vaGGtic29BrKXvqLJo6g5Jy9LITpEhn5zDSDeCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_001_8d2eaedcc0ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dIIpGapYTFG6IZicl1mJrOjy4CjnHpmiaWnzKBqS6G2BBE3JtSrIEZj7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_002_a1ac3e7aaad4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dvXv4kW4n6ibdJBONLmZQ72bVXfo4oS1JVIyicTMVn0bkmniccx21xzbicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_003_bfdf598c70eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dhOgAGMEDN4TqNkHzcJP5pbnj6ZtCZdzDOT5TialoOwZe6qDc1ibLjKww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_004_b21a6dfad1d7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2duNvrOMIT0GXjZxicib0XshRY3oibExfM8zR1kxaISA4hLu6tAodDtnnVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_005_4c4872325b20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2d0X70IE00h77dxdqa98oSqibVfIc4LRP5qYM6ckUdJner5pueN1j7HFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_006_0fd039bf20dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dugPFrhickUVc2JibZaW4b72DK7owzZboiamHicsg8AKQPQ96CyNjP5hkuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_007_da9ee36e2524.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dbqZ3TrRibUoRIAxwg3yP8LWBjTwAPn67icJubksGCYpBkUzmDzCpomBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_008_0619912b8a06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dUNe4ibcAlrIQkDU1ZwcR3ktiaPjoHcUoo8mFay8qLCQU7UcqaHVWKAYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_009_b608342ea974.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2de9udWP1xticaicspLk4oqMR9tuLsKRo5DISOMrOYGq7J8B7oObnwr3xQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_010_7bddefa818a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dQnic04RiaUEPicibRYmJJP8vF35kRIYpbSF20ZbDZxnrbicraaNKqIeUvqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_011_61885b00fe56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2d57UTESTicHeialIeiaRoycIwm06GUa1WPwBp6ibgdZrZgp9mG2LiaiaHukYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_012_966c0a617c57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dY6RWibsRZNDzOtEZUviclSia11ib7eKgO5j1kKgnpqutsW9Q4m3mKHCPiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_013_6f082c22d00f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2d974oDwWqmxYZWZ9J1qNJAQT08hc5ds6h6nfqRC7nI17xkaWQ8m9YBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_014_33dbe1026963.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2d5uNkdnDGL89qibDUUlib8EnWXSRibNWU2HZnXB6eibM4vnTRPAzw644qLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_015_be1d72e69d5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dMQrmSDkdfjaEVFxbvia3JAQxb7lPUbPw0fDuCPicDyPuUdf9QfdwLK2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_016_430c527f3a3d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dMEfk22BRQDIyN91CpdRNM6FzTV8LBEe06DbuHWjysRmFVrtF6ewN2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_017_530bee88b00a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dkPNZGRFShBebCoHsHvOq8baDbUlMkKW3BvT57R5z4mlTCsUcvNibbLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_018_193c22641647.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dMcn6LF6Bicwl1rqJXZgic1LWGfsf6fS9AnBkEOpbP6F9cUApysexKD6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_019_f930f07ba5a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dk3VRicmsKDWTEHhS8jgGKFrERcG1enxMONlPAP6icKbWDMFWUAVCTGwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_020_d4ef9d4353b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2djQWrIz6PZqEFvPAibepIM7HnkV16S8gGkaUZic2rib2ZypKOS1f4SFJIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_021_35315b25aa8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2ddZI8t4B3tskmpOG0jMzB8bbq4ZNCKOfmiadJY3u2ia8Lchbxia04lqNRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_022_5f0c3e74b51d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dslaEkB7Yp0l9ibMd1xY7cvH7hAnSgicia6OvtefLrvROM3HeXPyeVib4XA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_023_e21e94a977c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2d1ib73tJHxJGW5Q3YQAHwEiabd1RgbYMLm1ney26dwBpG8iaZlOEPaRKicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_024_167b6e1d071f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dpVmHhpOUKRG21CH68bmC0CU8icnxZNOuSRFuSibWiczJwQSo8bmfzGNYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_025_fcef0710e8bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2de9S3alJHmJ2BlOK6BELS8e9SBF5nXyDibU8XPp6KRUmEEO1GkSuKpTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_026_8eb7c16407ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dy62PsWC3epmpYXoKa1Usq8feuYFqH920rXibianR96kicnSHicG8PPWibnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_027_7ccbce7a6cde.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2doOGjiahkKE79icIv9qJ6WBZPSvrII0Uk4VAFt2V7aepQ12pjNquWDlIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_028_0e49a59ad1d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dQMQxAHJfhPiaAKia22alabDPf2aibOo0fLLxbR6AlSLpesHMoKTI14n0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_029_36c4a987bf74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dSnMiaVxicwuUyhniafM7sESicHBsc5PJzKTsNybnTg4GLAnKkSwyPmMc9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_030_b0d04abc1cee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2d2Pn0H9WRQCO6nQLsrwojAEXc6h8aBgMWAdmQWc2qJHEibWgCJxeBhiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_031_b8f36275d71f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dhgWSs8UXo031rEib2b5XkoOn3nP64ysicnbc73CicpePB2xdicz8CdvWVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_032_424c31d42489.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dz1ZQLSTSZJvlfVzibibwptpWqk5So5xqDlgibddJlGQPbe3E3y4cZOJ1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_033_e63ed4d4e11f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dgsVlib7PLV0IZT7YoW1sWJo7nSdPNmB6NVbALibOUEpeFfAyj5kk2odw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_034_92b085a7244f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dUhAgh9WdFnqGeMicr0WTRfMkOZia5rTo8LibuMzbfT0G2zUdXiapa6Zfng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_035_04daa9fce157.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dicHqT0rh0I1nbtvlFplKaokibTnsa5vQAoSdggdF4FPrFUMap3gX7PiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_036_c6103e23de80.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2drcOS9ZfFibyZb7QCjCJqicGAiagGYBqzyxr6zvPg1d13sBKguQ04aHNwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_037_ede2beeb10df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2dbEET7XZV9mKcyibibDRP4G35dDfJbkr5UnhHkt8s1gibn3DsuFIzZsLuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_038_755452352e3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaU7mlsFGQoBo4fts0gMhG2d75ebSz3ZGkoCIKySP5ezOyahZjWUoOWFxwXuo7N4XFwogyIaL3dIMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_英国院士Zheludev报告___环电动力学新闻_images\img_039_9980a710ae8c.png)

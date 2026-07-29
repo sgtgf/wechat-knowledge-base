@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/UgwXbAmd4q-tyBDPPbbgdg](https://mp.weixin.qq.com/s/UgwXbAmd4q-tyBDPPbbgdg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRGDTu6mzcLbdqAuphOySNJJwScicictYLhArmU3NoiaicDM6icyecqnoeWZC8oq3VRtuiaicMpn9PMEedRg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_000_49aeb87f6df9.png)
 
 _**_★★★_**_Cap-7---铝固体电解电容-1_**_★★★_**_
 
@@ -15,7 +15,7 @@ ___€1.导电性聚合物铝固体电容的结构___
 
 虽然铝固体电解电容与铝电解电容器的基本构造类似，但两者最大的区别在于电解质。铝液体电解电容器使用隔离纸浸电解液，而铝固体电解电容使用隔离纸浸导电性聚合物。
 
-___![](https://mmbiz.qpic.cn/mmbiz_jpg/JGbdHe4j0TTgKWAoSArAnU4NMWeiauoxSn7zTNSHPo3yEty6VRvuEGdtexFsCtBHY2hMez1x8YQ5XESgzrwnibyg/640?wx_fmt=jpeg)___
+___![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_001_52dba2d476da.jpg)___
 
 **_图7-1：聚合物铝固体电解电容的结构_**
 
@@ -25,7 +25,7 @@ _寿命：_
 
 对铝固体电解电容实施耐久性试验, 可观察到静电容量随着时间的推移而减少最终变为开路模式。铝固体电解电容的故障要因多为容量减少引起的磨耗故障。磨耗故障（寿命）的发生时间取决于使用时的周围温度，纹波电流流过时产生的自发热。预期寿命的计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRP2PoleDlmmudXLXmiaiaqOLpVGXsbTLohxSap0xeksGz4KhemBzYlwsHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_002_4b39157a1b6d.png)
 
 Lx：实际使用温度〔Tx〕时的预期寿命〔h〕
 
@@ -65,7 +65,7 @@ _________€3.导电性聚合物铝固体电容的使用_________
 
 在设计电路时为了降低线路阻抗、广泛使用包括铝固体电解电容在内的各种电容器作为备份电容器，去藕电容器。具有超低ESR和小于电解电容器贴装面积的铝固体电解电容，不仅可取代电解电容器用于去除开关电源电路中的纹波噪音发挥平滑电路的作用，还可用于滤波电路，去除因小型、数码化引起的噪音。因铝固体电解电容的温度特性变化较小，所以能在各种环境中实现稳定的设备动作。综上所述，铝固体电解电容的噪音问题较少，有利于缩短设计时间和实现小型化设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRRjoNiaicOUfJgCLXfc7rp9IN4Ie2UtT28n0BrWictoFZhY32HhlUaibteQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_003_627475c049fd.png)
 
 **_图7-2：各种功用_**  
 
@@ -73,7 +73,7 @@ _浪涌电流的抑制方法_
 
 当**_图7-3_**电路使用铝固体电解电容时，因铝固体电解电容的ESR极小，所以可能会流过极大的浪涌电流。请务必将浪涌电流控制在10A以下。当10倍铝固体电解电容容许纹波电流值超过10A时，务必将其降至10 倍以下，以免浪涌电流超过10A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRVEqjCtMoychPXK1J8dngiaGFk7ia1hb5rFiaw8DztlNjtbHwVSxv6WKTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_004_1b1ab277355a.png)
 
 **_图7-3：大容量电容使用_**
 
@@ -87,7 +87,7 @@ _利用充电电池驱动的电路_
 
 在使用电池，充电电池驱动的电路电源线上，通过连接具有超低ESR性能的铝固体电解电容来实现高性能化和小型化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRibz3iaOI1yktol7rs4GyYpPMyzLdVXXKEOO5gDRw0h7EqUrSd8ngugCQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_005_aad6040b0b10.png)
 
 **_图7-4：防浪涌电流使用_**  
 
@@ -99,26 +99,26 @@ _无保护电阻时的浪涌电流_
 
 当**_图7-3_**电路不连接Z（保护电阻），电源Re=0Ω时，大致可通过以下公式算出铝固体电解电容的浪涌电流：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPuO8LSnAsiaFmlQal91src98TJaqAHC3aybfGYsNejhiapaI8LwArw3xg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_006_232e77de812f.png)
 
 例如ESR=65mΩ，供应电压=20VDC时的浪涌电流如下：  
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRP6sYRFTWd12BgOibMXGocsSrM756ajlhnf3yeZaS1GqamtibbVn8aFuxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_007_ede8c52459e9.png)
 
 _急速充电的电流抑制_
 
 因铝固体电解电容具有超低ESR，所以放电负载阻抗极小时，可能会流过瞬间大的放电电流。对充入铝固体电解电容的电荷进行短路放电，也可能会流过极大的放电电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGRgLa6uWduVq4luc9WiaFuvHzbkgvUiaTtTIkGZfDsksolYEFuLgMJ3QGA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_008_3c5184d93622.png)
 
 **_图7-5：放电等效电路_**  
 
 放电的等效电路如**_图7-5_**所示，放电电流的概算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRP1fxCF800DHI1yMS14PrO1pcSLM27oEb9c4KcAktgCyuJBVuiaia8DGIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_009_c6235bf7ac87.png)
 
 例如ESR=65mΩ，充电电压=20VDC，Z1，Z2=0Ω时的浪涌电流如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPnTGwnkKvOUI439fKkkiax9WmNaAF6XADBfqLXJwHNMrIKy67ZvXmE7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_010_1a7bcd20142b.png)
 
 当铝固体电解电容用于急速放电动作时，请参考上式务必在放电峰值电流小于10A条件下设计电路。但是当10倍铝固体电解电容容许纹波电流值超过10A时，务必将其降至10倍以下。
 
@@ -128,7 +128,7 @@ _并联铝固体电解电容和铝电解电容器时的注意事项_
 
 通过**_图7-6_**所示基本等效电路的数值，算出流入每个并联电容器的纹波电流。以100kHz至数MHz的频率来考量时，**_图7-6_**所示等效电路大致可简化为**_图7-7_**（电容器想定容量值为10μF以上时）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGR5v1qIiboLWf88hbCNhyu312sS5riaTdbREhqCMicTOMIpDmbmO2HrCmBg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_011_5dc7d16d1684.png)
 
 **_图7-6：两电容并联_**
 
@@ -142,12 +142,12 @@ ZC：电容器容量成分的阻抗
 
 当**_图7-6_**的每个Zc在100kHz以上频域为10μF以上时，阻抗极小并被忽略，实际流过的纹波电流值如**_图7-7_**所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTXjaNXponSLbsu0VBVnEGR8B8eicEYZjPfRPMqsW4PMkgxbxCagLWUFKdhK0aN5lZiaLm5Jtu6uV8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_012_67e3c003d020.png)
 
 **_图7-7：等效电路_**
 
 纹波电流值计算公式：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTNAB8KPY3bUQvDicZru1sRPPGdeBRpj9D43icv981UcjOzZKj8rvibTQkbwZZxOY8BwWibPZGS3CTIbw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Capacitor_7_铝固体电解电容_1_images\img_013_7942643f667d.png)
 
 虽然铝固体电解电容的容量值为1/10，但是却流过了73%的纹波电流。铝固体电解电容和铝电解电容器并联时，会有较多纹波电流流过铝固体电解电容。因此有必要选用有足够额定纹波电流余量的铝固体电解电容。

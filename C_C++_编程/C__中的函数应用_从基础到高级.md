@@ -79,4 +79,4 @@ Lambda表达式特别适用于需要简短函数的情况，如在STL算法中�
 
 ![](C__中的函数应用_从基础到高级_images/img_001_6ef3ad7402cc.gif)
 
-![](C__中的函数应用_从基础到高级_images/img_002_e0e13542b86c.other)
+![](C__中的函数应用_从基础到高级_images/img_002_e0e13542b86c.jpg)

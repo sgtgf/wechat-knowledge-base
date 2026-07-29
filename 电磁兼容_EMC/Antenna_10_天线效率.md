@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/YLWKLpe8yS7BMXRlwe-pnw](https://mp.weixin.qq.com/s/YLWKLpe8yS7BMXRlwe-pnw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQ28ZKTgv3icvJTkuTqFOMgP7ibbCdDWqDyUWHzCXf6pKjhNvdiaNsO6bew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_10_天线效率_images\img_000_192c6f16000c.png)
 
 ★★★__Antenna-10---天线效率____**★★★**__
 
@@ -13,27 +13,27 @@ ___€1.天线效率的定义和计算___
 
 由于天线系统中存在导体损耗、介质损耗等，因此实际辐射到空间内的电磁波功率要比发射机输送到天线的功率小。天线效率就是表征天线将输人高频能量转换为无线电波能量的有效程度，定义为天线辐射功率和输人功率的比值。假设分别用Pin和Prad表示天线的输人功率和辐射功率，天线效率通常定义为天线辐射功率与输入到天线的总功率之比，用百分比或小数表示，其计算公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaY1hkvqhjWbCRiafYKm5kejz0KrxMvOZnGed77bUQPfuUoIECb8f7EwGw/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_10_天线效率_images\img_001_1ea09044fb0d.png)  
 
 其中η为天线效率，Prad为天线辐射出去的功率，Pin为输入到天线的总功率。输入功率包括辐射功率和天线自身损耗的功率：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYSyT5MUXLNJySzsrqn65jiaOiafhiardz1Tx22dOgnaEWhW7iaIgS9H5kww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_10_天线效率_images\img_002_aafad4898057.png)
 
 所以天线效率也可以表示为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYSh5zOMc2XEgAfzpL7tHk5ekfjdwXBic4qXJhuiahR1JXgb5JvGX3BPTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_10_天线效率_images\img_003_9aba8c337b14.png)
 
 当效率引用dB作为单位时：（[RF 术语与概念-1：单位初识-1](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247495050&idx=1&sn=242bc93b7c0d2ea22f7b8014e3063e66&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYUxOC94S2CSDf7ndrntmvPtUltZcjbpyBRTKpOP2xLMWVBL4WRBFicTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_10_天线效率_images\img_004_871da8771a31.png)
 
 所以天线效率dB单位和百分比η单位换算如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYhDFWHEyD6GXj2IlxHuibLksGJpzwoPlNeTHZXpxdnbibMRSt5GcEvXtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_10_天线效率_images\img_005_92d77df5a625.png)
 
 当天线效率为100%时，等效效率0dB，当天线效率为1%时，等效效率-20dB，也就是说天线效率用dB衡量时，是一个负数，越接近0dB，天线效率越高。如图10-1所示，天线本身是一个频率响应器件，所以在不同的频点（频段），其辐射效率也不同，甚至差异颇大。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYFbpEmOwdMAMTXI0XS4bC7rpynDLgD15yKW8IJZslTI9X2jgXWzfbzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Antenna_10_天线效率_images\img_006_3e384ce7aaa5.png)
 
 **_图10-1：天线效率仿真图值_**  
 

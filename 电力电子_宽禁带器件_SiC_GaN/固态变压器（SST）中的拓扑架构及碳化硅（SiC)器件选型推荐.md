@@ -5,7 +5,7 @@
 
 固态变压器（SST）在国内火速发展，并非单一因素驱动，而是‌AI算力爆发带来的供电架构革命‌，遇上了SST本身的技术代际优势，在核心器件国产化带来成本大幅下降的催化下，叠加国家政策的强力扶持，共同开启的一个确定性极高的千亿级产业趋势。它正从“锦上添花”的创新技术，转变为支撑未来AI和新能源发展的“刚需”基础设施。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPC3GQog28ovnfk8RjLLOo2Tv6QC7RVsBnW2jRJnXG7y1ib8eOaibX9LWqLAfAO0LTdILhIRTCgSRSoQWsgCproNCwqEwVksicJ0w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_000_cc3231b6fd7e.jpg)
 
 图片来源：网络
 
@@ -15,7 +15,7 @@
 
 固态变压器（Solid State Transformer，SST，又称电力电子变压器 PET），以第三代半导体功率器件 + 高频隔离变压器替代传统 50Hz 工频变压器，将电能变换拆分为多级电力电子变换链路，在实现电压变比与电气隔离的基础上，集成电能质量治理、双向功率调度、故障限流、交直流多端口互联功能，是新一代 “电能路由器”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOiaSI4lwBJMJqLlEDTXMzU9GHCvPsJpxjoR1zalibNwBrxCsNEVkCGoAJxpNfWbcj7OugSohmFNu9KIsqs1CLzl8HS8WqLwVHy0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_001_94af09187794.png)
 
 图片来源：AST
 
@@ -27,7 +27,7 @@ AI 数据中心高压直流供电
 
 10kV 中压直降 400V/800V 高压直流，省去多级工频配电链路，适配机柜 48V 直流母线，解决传统配电占地大、损耗高、无法兼容储能双向交互的痛点。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpP3GM8HOdM0t77NrAEhsziaJW8bTu3rSibZib8UPXQMIticjbzibia5vawQQqpM9gwvI6iaN82GnCf2aCDCvOUeMdp7y2mPZOsThj2Y0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_002_53812ccdb079.jpg)
 
 图片来源：网络
 
@@ -35,7 +35,7 @@ AI 数据中心高压直流供电
 
 中压直降 800V 直流，直接匹配动力电池电压，替代箱变 + 多级整流方案，单机功率提升至兆瓦级。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMtIZ9wmNjgGl3FEkZ4UHT9GQdO13Qpq8JCb0w2j8f1F3nkSCT5pWQmpu23cGBzLJJTMcBygzIEcEzmPNgpcXV6qoTwqODloHk/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_003_1e518f6ea496.jpg)
 
 图片来源：网络
 
@@ -45,13 +45,13 @@ AI 数据中心高压直流供电
 
 轨道交通牵引、船舶电力系统、柔性直流配网。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPjYhoyx966xwJeMHnViceyQdwWibKaHw7rmee6vLM9GaAoOEVfJxicOXBxTFicMiaWPnSQxWbC47V8uW8T59G54g3BmCicey9GdnKno/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_004_4a8ffd5a871e.jpg)
 
 图片来源：网络
 
 二、三级式 SST 整体架构及核心优势
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMNDwXWDoAM9PXy2J8z0j8QOibxPB2yn24hIiaYEhISWIqO2SM8jru0YFK1WaQYqqawhj50ePZ79TtmmuY6OibDNdSJyRicGHYXLhE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_005_2411e028841e.png)
 
 图片来源：AST
 
@@ -95,7 +95,7 @@ AI 数据中心高压直流供电
 
 三、第一级：AC-DC 整流级主流拓扑 + SiC 器件选型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNsrmPp5zWBfRSQtP3MiauRI4yJ4VFu7Pm5a53zGrYnWqStlEdqYufpKIsxzxgh32fQvhNWC5RaTdppJNrRoLHnDJNA1aofsBgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_006_a88335b68f82.png)
 
 图片来源：AST
 
@@ -159,51 +159,51 @@ SiC 零反向恢复，完美适配无桥 PFC 双向硬开关工况；
 
 当前10kV级SST批量交付的主推配置。依托三电平中点钳位的分压特性，单只开关管仅承受半数母线电压，因此1200V SiC可稳定支撑1500V直流母线，单管实际工作电压约750V，降额比例达62.5%，充分满足宇宙射线FIT与开关过压余量要求，可靠性冗余充足。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPJ3yXnKkhuQZgO9FdvR0At9l5bZudWvVhgnSdm7h0fd6lyYkLLNqeKuibR65FFuia1gvz3hXfiaogRsS2btwSMcp5VswO2niaAia1Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_007_7054d5bd3e77.png)
 
 Easy-3B封装的三电平模块拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM11PLHVLmKffLgkrFqHviaXia3vbebtWy6eYn2wo9rCrvcWYTia86IFdfA3ajpL3HXoE7bJRyZCsdMbDT0Ao0yE9WUAdnRTbce48/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_008_9d604cf9655f.png)
 
 1200V380A产品关键参数表
 
 1700V电压 ME3/MED系列半桥模块
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOwCo31f95PUJYCQT56DjfACe0mjMfsrfT0icTqSgiasE1xATF6AjDM6cpp7KwOibdjTPF4rMF6kDyGia3f5V07bjG3LGC6yZOWibPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_009_b944f4575ffb.png)
 
 62mm封装模块产品拓扑图（外并二极管）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPGqHPZIpeJm67ialD0mGHjNtBuXokG3EicoGhd2yYYCYUyQ1wBN2EjA8DsvaqTE2IwSxunNEtoFoeFHtib2T1icBy9QK1pG1iafhPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_010_2aac16b8cc33.png)
 
 1700V300A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP1Wxt08KsFOMozSGtcNgTw3vrlHaianwqWCkjjQDmvl8uibxnztY0efE7OkHe0JC6ibqPpnICjAXL8liaoRDTGUicGoxiaCNgVW1mJc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_011_8906d4397eef.png)
 
 62mm封装模块产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPoZXTspLmVJv3gficn3Hmoq7P28bhHDu7SoUYys0KH4Xbdm4BCZ7g7MYDFFO2wX6fbiaavn791zE8PDKicas6GcHB74ZOhcciaEk8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_012_3966487d113b.png)
 
 1700V600A产品关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPHQXTj18bbUQ4iacnADV0kAvvZNDV7heyMiaO1dLAdwdoDPKic02npy9O8rmPly0QFAjQVuZibW6kcW6fr1SGd6LgqTnKPdD0PLaY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_013_4cbdd1276ed6.png)
 
 ED3封装模块产品拓扑图（外并二极管）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNMQNqdyrVAKMtrAcs79IneiccniasHVf9YN9HX6SXT8n1fpGF6xgOKxNTKYTzKezsH1RysYl6EsORFXLT5mwZ7Ldywua8fNiasXc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_014_3e9f41075718.png)
 
 1700V300A产品关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN02sDAuAesia7E70icjCA0XJsNwgVpq7mSOHWeF4vgM86BSD1K8svJk1IhlkI7Sia0LObJxomib8F030eiaLfOFgdybkfsAQAib5P7Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_015_b79e2d4f3336.png)
 
 ED3封装模块产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNDiayZ831iby8BIxaicD1vwWD8gj8Ymafkx8Ywo1EB0EOia6ibXl7eyz2Okdce5n5XuQickZ1ylmIpm7vf6GBLRLkibovfniaEDega5e0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_016_77f7eec9b05c.png)
 
 1700V1000A产品关键参数表
 
 四、第二级：隔离 DC-DC 变换级（SST 核心）主流拓扑 + 器件选型
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOlZMmxRPepTbOhrgORlGGFQkrmfcic9cT6zxoJK8KQiafzHdaoEfOddyf0iam8AxdnORnic6Tqb09hZIc2NQa3vVyvQaEicIGHXW6k/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_017_cdc0f0627dcd.png)
 
 图片来源：AST
 
@@ -263,59 +263,59 @@ ED3封装模块产品拓扑图
 
 **中小功率子单元：**TO247-4/SOT227封装分立器件，开尔文源极设计降低驱动干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPv4V4aB9J3SQrAtnn9VAIZmUDmABs0nnktpCEs1qCtWB6CIKaz1BDbzAc4VicVS0ict2QUGiaQdfxsYlaYic7P0nlIYYK4hRQgJSM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_018_678ea5809d9c.png)
 
 TO247-4封装产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOb6ReQyeRA619WOUw60TtntgFfnHxSAamMeEf53Ml2acHX6pP2Kugeia39xQiabUJstQaPAjfBo0Wkej1j7x4Oaa7dn0lLJiaic0s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_019_e87d8ae7f0ec.png)
 
  1200V115A产品关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMvYlEt8Lvmj9Miaaozcb6TRq27ybMV9VAicxUO9DMI87TH6YFyyHlDkOGCt5Dolb7jUfcQFB17oGTBjI0HriaK3NTDuE97fiaWoGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_020_fbc694f2187a.png)
 
 1200V150A产品关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO50SibC3EfQXC2liafhasSghn8BHjskasFY45Xv7iazvcnVF6gOZd47b6ia6Eo4WAMickGzb7BKEnWbXlVVibPh2RybxIKx1icflVBE4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_021_e8cfe7c51a7c.png)
 
 SOT227封装产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN0IzKhQfrocC3iayFkjqYHVA3x93nIyt0oQ3hwUn27omibIDuictLkVSUSAT19X65828GFdeu8oXh65oXOt3aPLYib0icfsJsW9QtY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_022_3752e053b373.png)
 
 1200V250A产品关键参数表
 
 **中大功率子单元：34mm/**62mm封装模块，低热阻、高电流密度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMIZqkJD1uTCzYhC47HIIwjiaVCQkCuNIevTHXM2cicUMzRV2WibsrlfKHibwXEsaIanhric2cbnKbwlaAibGeJLfmcrdZRUha4UDOF4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_023_f4a82960c435.png)
 
 34mm封装模块产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP6fhqM5sibax89X4Dsu6lwh2fCYCmWUyzrmDqnX3N19hibytm3vNNwBaokbbrk6Jnz3ZnEDQxa5SKFYOwaUYRwkCZc0WrzyRibkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_024_49f6bdb786f4.png)
 
 1200V300A产品关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNYA5SGGgX2vRJQlZibiaDYTUtwQwUqTfWLrm7XV68R9sPgib9FKEEbMCibOQMueZqLVkDlsKpNlCagHWK9V9SibpppJhhpn97nmmVo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_025_d499c7620105.png)
 
 62mm封装模块产品拓扑图（外并二极管）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUPthNPcGawje4q6VAlhX4DPXTpIrNmKZZgZGt7eLs3GK0JZk3uY6TjPYdwhebHREicleml0ZVHqhg62yUuzB09vx4OkgKbYzk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_026_715246a53681.png)
 
 1200V600A产品关键参数表
 
 **工业标准封装场景：**ED3封装模块，兼容性强。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpObGoz0hUUpZXBqpYQBRDGO7dniavbWUBGaALmZqZQ4BOc04Ockm1SrRM1qM4K3epg8AGbEzB9zTKic5CTWYmE88yciaJxFKFyPow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_027_01a32fa3e22b.png)
 
 ED3封装模块产品拓扑图（外并二极管）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPacbsAhDlz5MWJVc7H4NzK8lgNvdxOlAPn8IESkeM5nTxelgE3rNW46mCHXccecsQXbhePic6FagKo1XFdQs4ArtMKfR3XRxpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_028_0ab38d8dcdba.png)
 
 1200V400A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkHcHxDbRp8tpyMojCRNe83XtvHpibicQeBTfCA1Ap2c7shMQ06lv1WMxldTEkIibNEdeUdib4LmwtQ030NOs7ffgTvyo3G1Seqm4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_029_9b327319fb0f.png)
 
 ED3封装模块产品拓扑图（外并二极管）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMxvxE4I1icETfvU3NzLibA10iajkE9iaTiaibJd2LoslHujGMr8pUMkAjoYFEMziceJaItlw9M5icJUVvicjvckHVFWtj56g582VVpnnlM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_030_b4b9b3d553fe.png)
 
 1200V1000A产品关键参数表
 
@@ -431,7 +431,7 @@ DAB/CLLC 保证全工况软开关，把开关损耗压到最低；
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPmD79kKIlqS1BEicO6d3aKENSd6ZWpibHB8u60WCpUtyeBnkunNfSj50PCUTVoG6wAlTHviaPLloAUbuVDuzPks7dbPkoBBw2W7E/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_031_aeaf26edc708.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -441,7 +441,7 @@ DAB/CLLC 保证全工况软开关，把开关损耗压到最低；
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMEu7zd4JAN0unp9SfgRvBpRTKn4cYibscF4cIRmVxVhPeDTzicVf7YkNBJPqqDu2krLznvt5RzMp9Qq3ZcSBszhI5UMAsQcialGg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_032_1c1c9375cbea.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -467,7 +467,7 @@ DAB/CLLC 保证全工况软开关，把开关损耗压到最低；
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMAXJEDvoR0dHtZo8boh5mnUHk6qd4X4RsxdsObREKjbRF8zicl3C1icCulkMzbGCNd2c00WWVbuq0xKK52FicU61ibIhogIjJuNq4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_033_afef3cd8252a.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -515,12 +515,12 @@ DAB/CLLC 保证全工况软开关，把开关损耗压到最低；
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPedLuGicRkwLsJCG4uTIETAOibO8nh11jOZiaq01LvM6H08lb2vS6KWLPFwpy8j5bLBtfBQWLLWqSxxOUtcerTCxut96P2uyvPsU/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_034_52b6d6873884.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
     
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMlOX346xohTM9ic78ra09kIWMU1uibmBphanBibgibfMgfH6ib7BFOMzdXOFicNfx6MC0nVcQWDqHRH69pWfIoP77S2zy00wic7RWUj8/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_035_767dc3f42f3f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOD1MuUWt6Cs5GHWAia28ia4X4qJbS8syuZXfq77a5fMfsTo4eynElKqcKWJNzR0bwMvkkW0rESSISL4mp2yaQsbu6jkLyppz60Y/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器（SST）中的拓扑架构及碳化硅（SiC)器件选型推荐_images\img_036_9b796e7bc782.jpg)

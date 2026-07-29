@@ -15,19 +15,19 @@
 
 微分/积分：对est微分或积分，结果仍然是乘以一个常数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6Uzn2S5AAyT93M0FJbUEguG2XbRSoJibpmhAKn54ia3se7BdvdMmeywtJEG5NibScj5dePCBPnLG4u6OMd00lSvYuonibgOkQwqfQTpC51YWZyY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_000_29c2895dcf57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6Uzn2S5AAyTtbqKB7DUJKKql1UzstkkoPYV8qyzwnUURbX1O9DkdpicERrsarib6ZO4qxR8BHicarHqArpwGnVqNMia1aKQNTno6m8JrWFZnic50/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_001_7921ed3ff30e.png)
 
 正是因为指数函数经过运算后“还是它自己”，因此如果我们能把复杂的信号 f(t)分解成一系列指数函数的和，那么对信号进行微分、积分或通过线性系统，计算就会变得极其简单。而事实正是如此，就如所有的数可以用单位“1”叠加和分割来表示，所有物质都可以用基本粒子来构成，所有的信号都可以用指数函数来叠加形成，指数函数就是构成信号的“原子”。信号的本质就是变化，而指数函数本身就是表示变化的基本数学模型：递增、衰减、恒定不变或震荡（正弦余弦函数本身也是指数函数的特例，可以转换为指数函数的和与差）。可导函数在某一点附近可以展开成泰勒级数，也证明了指数函数确实是信号的基本“原子”成分。
 
 根据欧拉公式（科普文章较多不再赘述）当est指数t为时间且s为复数时，如果复数的虚部为0实部为负时，表示的是一个随时间衰减的信号(下图左上角s=-0.8，系统稳定）；如果复数的虚部为0实部为正时，表示的是一个随时间递增的信号(下图右上角s=+0.2，系统不稳定）；如果复数的实部为0只有虚部时，表示的是一个幅度不随时间衰减或递增的振荡信号(下图左下角s=+j，系统稳定）；如果复数的实部和虚部均不为0时，表示的是一个幅度随时间衰减或递增的振荡信号（下图右下角s=-0.2+1.4j，系统稳定）。因此复平面上的一个点就代表一个信号成分，这就是为什么变换要变到复数域的原因，它把一个无限长的信号成分压缩映射成一个点，以静示动，没有比它表达更好更简洁的形式了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAyR2kJasKEeXdjTQ32UR1e5icrHdg5z0sLLyOHKR8OuTmicuJ7yyNkiccD2iczNcPzJGo84Iqp29LqEIE2rkG73iaPCZtTnWsGNQgOYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_002_3bfced483328.png)
 
 因此指数中的s取复平面上不同的点时，该点对应的信号就是各种有不同衰减或递增系数的振荡信号。因此完全可以用复平面上各点对应的数值大小来表示各种信号成分的多和少，成分越多数值越大，成分越少数值越小，拉普拉斯变换体现的正是这种思想。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAySlic7jp0087D3zKWhv0BMgyGd8uWpKceIFRo1CsWIBEQfm5LGLpPsuVHibUSNmfte2icIHVibYfXklcfJ6Cs6gFExZUnQTOibZIhvc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_003_70d0cfa7338a.png)
 
 # 二、 信号合成：从“有限和”到“无限积分”
 
@@ -35,7 +35,7 @@
 
 基于指数函数的完美特性，我们可以用多个指数信号来拼凑一个复杂信号f(t)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6Uzn2S5AAyQAibicBJyqVESwTQFpCDI8SVH2Y1DhwGNfFYhkAFRzCfhctYCoWX0fecgm5jJRAKeEbKH4rz0EHHt1Se94gLeTgr0t72HjF5Fics/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_004_dc7dec7141fb.png)
 
 其中，每个eskt是一个复指数函数（sk = σk+jωk）：
 
@@ -45,19 +45,19 @@
 
 权重系数 Ck，表示这个成分在信号中占多大比例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6Uzn2S5AAyQRTIAG2U6g3HNjqeQ6kBYfRsrov8CTYZbKb00QeOdF7smnYVOiczic9BzULWzFb2iaTcl4Jr6VfCaAdOiavTGFMUD5xXxsSIkXOLI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_005_e7d2a4f49abc.png)
 
 第二步：推广至积分形式
 
 显然，用有限个成分来合成信号是不够精确的。为了完美表示任意信号，我们需要无穷多个成分，且s的取值要连续变化。这就引出了拉普拉斯逆变换的积分形式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAyROwZ7ba6R0jKbRbVwIV7UXxNtgRVjw4adR5PcFicogpB0iaRT37RyNCxS3WrqfVRlhTCsGI66DrX48D1BEuT59TTPWqgIE3Anjs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_006_e34e02a17cb7.png)
 
 # 三、 拉普拉斯变换：如何求各成分“权重”？
 
 既然信号可以表示为est的积分，那么给定一个信号f(t)，我们如何求出它的各成分的权重分布F(s)呢？这正是拉普拉斯变换要做的事：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAyQ1rOVgWGm8zZt9xj3OiatrG8JALAibKgYt3r7Wf1LDDibSKroxesZePov9ZWngFqkkBuQak113qGm9azl9mDpN0BSQG2yjicGzblw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_007_197f5317b6e7.png)
 
 复平面上某一点s0的积分含义：
 
@@ -73,7 +73,7 @@
 
 零点 (Zero)：分子为零的点。在零点sz处，说明信号中完全不包含**e\-szt**这种成分。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAyQTc5cow4TFSwLjicMUOkaRlMvrW8te0JFaJokIzKO8PJo5V4uWecxH9AdzibbP6J0e7UuFkVsgibJUAFAvb2P2Dvl6ty6fVYwyEc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_008_2935c0d525db.png)
 
 # 四、 傅里叶变换与Z变换：特例与映射
 
@@ -81,7 +81,7 @@
 
 在拉普拉斯变换中，强制要求信号“既不增长也不衰减”（即实部σ=0），则 s退化为jω。代入公式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAyRIrq34UomNYt8L06c4hdNr6XgrbBv14bkicDl2k0LbPLRhmOD01gUAKzZHGkW32lbAeQsNdqiclOKdOg8e5FhLzFfTibU0hhXLug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_009_e2168931e806.png)
 
 傅里叶变换就是拉普拉斯变换在复平面虚轴（s=jω）上的取值，它忽略了衰减，只关心频率，反映的是系统的稳态。
 
@@ -97,7 +97,7 @@ s平面右半平面（σ>0）→z平面单位圆外部（∣z∣>1）。
 
 Z变换公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6Uzn2S5AAyQB6NlxzCz62z4b2AZgLWQYMSkdWIsgXicub9dsXI9OEq5VvurbT9h9AY6mSlxLaSEUIUUPqR7ARD3GJQTGZV3V9pyPzuxyiby0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_010_b6a592b3d9be.png)
 
 # 五、 为什么要搞这些变换：变换视角化繁为简
 
@@ -115,7 +115,7 @@ Z变换公式：
 
 在时域中，计算线性系统的响应y(t)=x(t)∗h(t)（等于输入信号和冲击响应的卷积，原理不赘述，网上可搜索查询）需要复杂的积分运算：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAyRPicwHCW1icVI3QD3uqVzyVRF6X4fGV6nKx5rwMAibSD3KmcXYSrnCpzaPVUrZnWSLqE685yeYaNLn7hWsE2ZXKXlVQ1rpGUDQhE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_011_ef280e61a0bf.png)
 
 这就像用一把钝刀切肉，效率极低。因为对于每一个输出时刻t，你都需要把整个输入历史x(τ)和系统冲击响应h(t−τ)重新“卷”一遍。
 
@@ -133,7 +133,7 @@ Y(s)=X(s)⋅H(s)
 
 根据拉普拉斯逆变换，输入信号x(t)可以分解为无穷多个复指数信号est 的线性组合（权重为X(s)）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAyRMaVTsxic6TAOjbnZ9SuNzyWsaZQCia3rTvriaFS6aiaHzasZxWccXiahrw8KaB5ffWo6MUTRtznBg5Gxs4eTV6fIdco6orMMABZBc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_012_d4cedc1848ee.png)
 
 注意，这里的s是复数变量，遍历整个复平面。
 
@@ -141,7 +141,7 @@ Y(s)=X(s)⋅H(s)
 
 假设我们只输入一个最简单的信号：x0(t)=es0t（即频率为s0的纯振荡）。根据线性时不变系统的特性，以及指数函数的微分不变性，系统的输出 y0(t)必然也是同频率的指数函数，只是幅度和相位发生了变化（即乘以了一个复数H(s0)）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/6Uzn2S5AAySOo0YB6ic5KHwjzKDWqJZjSwe2EEjXfrjrpib7ibrpKbnOl9y6MSxicHf0IxKaic7TMREgES0djxYNRrxtAoIHKlNf0xiaGAibdibaR8Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_013_5d7ac51f1ae4.png)
 
 这里的H(s0)就是系统函数在s=s0处的取值。
 
@@ -149,7 +149,7 @@ Y(s)=X(s)⋅H(s)
 
 由于系统是线性的，输入信号的“和”会产生输出的“和”。既然输入x(t)是所有X(s)est的和，那么输出y(t)就应该是所有H(s)X(s)est的和：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6Uzn2S5AAySCxINP7OY4kWsX5ud8ERs9k1AcBKRYS3E1paaBx5QM3jp3wPvOh4NYTufNuicqaFoopzkweU6kVXh8CjHsWl2YtNjOFqUnDwes/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_014_92b8ace51018.png)
 
 对比拉普拉斯逆变换的定义，括号里的H(s)X(s)正是输出信号的拉普拉斯变换Y(s)。
 
@@ -161,7 +161,7 @@ Y(s)=X(s)⋅H(s)
 
 求解一个高阶微分方程，比如
 
-![](https://mmbiz.qpic.cn/mmbiz_png/6Uzn2S5AAyRAMQ52RBnXIvH26O49nqYlibsSwF2SgEkJzwL41msibws81jN0e2ic1M1Rqz1YoOo8xOvBjjQViah5A5vslcJicN6vY7HkhAicmWqeI/640?wx_fmt=png&from=appmsg)，
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\十分钟搞懂拉普拉斯变换_傅里叶变换和Z变换_images\img_015_4b09ff96e83e.png)，
 
 需要寻找特解、通解，处理初始条件，过程繁琐。
 

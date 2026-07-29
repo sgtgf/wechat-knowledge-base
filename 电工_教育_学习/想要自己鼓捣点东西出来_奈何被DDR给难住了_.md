@@ -16,7 +16,7 @@
 
 最近想要自己鼓捣点东西出来，设想的是先做好方案，画好原理图和PCB，然后在嘉立创打样回来焊接调试，在做方案的时候才意识到，可能会被DDR给难住。因为平时只需要设计方案和原理图，公司有layout工程师负责画板，我们不用自己操作，最多参加一下评审。这玩意儿看着简单，但真要自己去动手的时候，可能才知道没有想象中那么容易。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgG591tUAPwNsZzC6OmjwsdITT0oQNvBD9s44D52Zpd2GcEKulc1n76gbuNLT17ToVvsOTfJhzniaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_002_e30cb496268e.png)
 
 我想着，跟公司的layout同事交流一下经验，在这里顺便捋一捋DDR相关知识，跟大家一起分享一下DDR基础。为了提升文章的可读性，咱们还是分几个小点来写：
 
@@ -35,7 +35,7 @@ DDR主要起个什么作用呢？它是作为 CPU 和存储设备（如硬盘）
 
 因为硬盘的读写速度较慢，无法直接与 CPU 高效通信。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhpYph1xo7IyGIjRnpPds11nGlAicVkB2HugtXPXK9T9FodszZDbCET2qUU8dePpeTXky1wt0U4lOw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_003_180471a172a1.jpg)
 
 DDR是存储器的一种，关于存储器的一些基础知识，大家看看如下链接：
 
@@ -58,7 +58,7 @@ DDR的版本迭代经历过SDRAM、DDR1、DDR2、DDR3、DDR4和DDR5，预计DDR6
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgG591tUAPwNsZzC6OmjwsdrcmfKMZ5b5FoRiaibpZYqu5JOmPF7kYmCiauhFZwQ8aa12licsibibpeyrfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_004_e2f16485e967.png)
 
 虽然今年已经是DDR5上市的第4年，但DDR4仍是目前市场的主流，打算以DDR4进行讲解。
 
@@ -70,7 +70,7 @@ DDR的版本迭代经历过SDRAM、DDR1、DDR2、DDR3、DDR4和DDR5，预计DDR6
 
 **2.1 DDR4的命名规则**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhzFmzVgmQFdRbYR3RicZjEzHrwOp8YhicjKIUwsmoOlL316JQicibfGxaNItlmZ5SSCorATtDlsTnVAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_005_991d440786a9.png)
 
 1.  **MT**：代表制造商 **Micron Technology**。
     
@@ -95,7 +95,7 @@ DDR的版本迭代经历过SDRAM、DDR1、DDR2、DDR3、DDR4和DDR5，预计DDR6
 
 我们以最后一组红色圈出为例来计算一遍：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg33HxhibhzA4zr5T7Zpe4UESQqJjzw7jnASVNAYTJ3q5rntqVl05eQeqxkH6eQ7BxdqEjcjmlOP7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_006_e9f052ba40a9.png)
 
 DRAM颗粒的容量 = 位宽  × 地址数量
 
@@ -133,9 +133,9 @@ bank选择线为2，BA\[1:0\]；
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg33HxhibhzA4zr5T7Zpe4UEOU4I6BicgYfTWjRHiax0sfReWQpiavN0ot2qywSdZ9iaeEP2MLKKian5n1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_007_450579b08462.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg33HxhibhzA4zr5T7Zpe4UED0ThLXtrzytKnAssGMNmgKSQypoAUGTspFSTw0Biclu1YoaSDeyrSDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_008_a33f37aa6e74.png)
 
   
 
@@ -155,7 +155,7 @@ bank选择线为2，BA\[1:0\]；
 
 DDR4封装(有78球和96球，7种尺寸大小)封装(Packages)：4/8bit芯片采用78球FBGA封装，16bit芯片采用96球FBGA封装。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg33HxhibhzA4zr5T7Zpe4UEum49Et2Fz9f45icptUmwY1zVVJvajPUhqtFacp7ic7xZWOCfwgfxy29g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_009_5a8dfebf8bf5.png)
 
 尺寸:13.2mm X9mm
 
@@ -165,7 +165,7 @@ DDR4封装(有78球和96球，7种尺寸大小)封装(Packages)：4/8bit芯片�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg33HxhibhzA4zr5T7Zpe4UEUpw4azdICOSIxZH5CNGFnFJZKNZpt4uiaJNqCaiaKLcPyFPR33FMBBXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_010_69296f50e77e.png)
 
 尺寸:14mmX9mm
 
@@ -189,7 +189,7 @@ DDR4封装(有78球和96球，7种尺寸大小)封装(Packages)：4/8bit芯片�
 
 2、地址线布局布线需使用Fly-by的拓扑结构，通过串行连接每个内存芯片，从而减少信号反射，提高信号完整性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia2pJfdXSG8zvMsLMXvpectuO6LEs4LXicuYcbndj3heyzD3sGVPYz9hbc6NWo3olm5gicjRBMlmw9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_011_32c63e056489.png)
 
   
 
@@ -197,7 +197,7 @@ DDR4封装(有78球和96球，7种尺寸大小)封装(Packages)：4/8bit芯片�
 
 1、阻抗控制。PCB走线阻抗必须要严格控制，否则会出现数据通信异常，或导致电路性能下降，这个阻抗跟PCB线宽，线距，线层，板材还有其它相关因素有关。通常信号线中如果是差分线，阻抗应该是100Ω，如果是独立的线，单端为50Ω。这个需要专业的工具直接计算，以保证信号完整性‌。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg6icZYjibrWD82IiaU4vjPdlJMSoj1vciac6iax8DhicqsicWXQaLLwkg74hMWwcEV3VknF0Pj5gukGlgiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_012_07a17a300d51.png)
 
   
 
@@ -221,13 +221,13 @@ https://www.jlc.com/portal/q7i37381.html
 
 3、这里有个细节要注意一下，实际走线长度=芯片内部长度L1（数据手册会有标注）+ 芯片引脚之间的走线长度L2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhp1N2WPH6FELotnfqv4qqLsuic1k43sOHJOibdUZD6aHrpAicYAxDJSorPpk3YY1DBnLrgYlz0FD5BQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_013_7a1f4fcc568a.png)
 
   
 
 4、做等长的时候要注意一个3w原则，相邻的信号线，中心间距大于线宽的3倍，还需要对敏感的差分线做包地处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhp1N2WPH6FELotnfqv4qqL5DvHXvCMBSibYiboqxW2iaB3aEXQhNapQOevmZsiaQkkrZulUmJl6BJk6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_014_b1fb6a67b7d9.png)
 
   
 
@@ -251,11 +251,11 @@ https://blog.csdn.net/weixin\_43199439/article/details/142467998
 
 再来看一下他们针对BGA封装的一些工艺指导，通过以下图片对比，明显可以看出嘉立创的盘中孔工艺相比传统工艺的优势（图片都有文字说明）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg6icZYjibrWD82IiaU4vjPdlJq2s7qAuZkibtvd2jzCeicibicPoSugCT3oauBOAp0tSJ3j22IzO3BoZJ6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_015_c5896ad0a7ba.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg6icZYjibrWD82IiaU4vjPdlJNp9QgIBc4x3RAyQYUf5CibSkib6OzmqgwcsppC1T5nVvfcibvicHLURftA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_016_6c7223fb1988.png)
 
   
 
@@ -263,15 +263,15 @@ https://blog.csdn.net/weixin\_43199439/article/details/142467998
 
 可能还有不知道盘中孔工艺的同学，我这里再解释一下，简单说就是直接把过孔打在焊盘上，中间再用树脂塞上，然后表层和底层用电镀铜的方式把孔盖住，这样孔就看不见了，贴片时也不用再担心传统工艺的漏锡问题了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia2pJfdXSG8zvMsLMXvpectdJLlFb492u5Vod83N9SWmSqjiapmqnzWKf85b5icWubKudbia3UTCq98g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_017_43f7329c6688.png)
 
 不用单独打过孔，也更方便我进行PCB走线，这又大大的降低了我的布线难度。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia2pJfdXSG8zvMsLMXvpectricYwDC8USvFTGXiaKYbLOLkrIYGZZGLqicuzrDmLoFv9Qek1SxrcKLwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_018_b2d52db2555f.png)
 
 而且板子实物的表面看起来也更整洁，美观。大家可以看一下嘉立创官网的晒单，这个板子采用盘中孔工艺，过孔很少，整个板子看起来很清爽。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhZRnvKBbZzdYGFudERPz4mmf392raf11ACUxzDxwjaAm1vbMI4yxfXxMib5M9MsKicE6Og4WAjtBzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_019_1ffa3d18dd54.png)
 
 好了，今天的分享就到这里，咱们下次再见。  
 
@@ -293,15 +293,15 @@ https://blog.csdn.net/weixin\_43199439/article/details/142467998
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_020_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_021_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
   
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_022_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\想要自己鼓捣点东西出来_奈何被DDR给难住了__images\img_023_d5dcc7ecfdf3.jpg)
 
 ## 
 

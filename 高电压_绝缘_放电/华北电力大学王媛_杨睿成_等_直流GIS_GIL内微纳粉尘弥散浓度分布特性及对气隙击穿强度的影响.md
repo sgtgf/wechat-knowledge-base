@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QrHibLgalBZmeEtF7tYtwXSnibmNbSJ2olIKHicRguSPvniaobkXa6jZK2hM9hfX2ibSEGPFxj33ecphw/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_gif/WRO0RgZZ75QJAkfmoBLHoWRP2TAwUaHB74ic6HGUYXvlbQ5WzKZ30UMqgXsQa5msvPbFjLU9GGpoT7QmriaTajPg/640?wx_fmt=gif&from=appmsg)](http://www.njyxdq.com/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\华北电力大学王媛_杨睿成_等_直流GIS_GIL内微纳粉尘弥散浓度分布特性及对气隙击穿强度的影响_images\img_000_aee40b401544.png)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\华北电力大学王媛_杨睿成_等_直流GIS_GIL内微纳粉尘弥散浓度分布特性及对气隙击穿强度的影响_images\img_001_4cbe5da63430.gif)](http://www.njyxdq.com/)
 **阅读提示：本文约 2300 字** 
 > 在气体绝缘全封闭组合电器/气体绝缘金属封闭输电线路（GIS/GIL）的制造、运输、服役过程中，会不可避免地产生并积聚微米级及更小尺寸的金属粉尘，这种微小尺度的粉尘难以检测且其弥散运动特性呈现随机特征，是诱发气隙击穿的潜在威胁原因之一。
 > 

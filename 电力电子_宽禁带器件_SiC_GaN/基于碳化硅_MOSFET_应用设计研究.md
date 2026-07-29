@@ -21,7 +21,7 @@
 
 1\. SiC MOSFET 电路模型
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIbdJaZA4XNMsfE85g2ibu0zSy3zLJU5dnzBNuB2LK2rxL7HLmg1vq2GA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_000_1b8abde7d15f.png)
 
 采用双脉冲测试电路建立模型来分析SiC MOSFET 功率器件的开通和关断过程。如图1 所示, 图中虚线框内参数代表存在于封装内部，红色虚线框表示SiC 功率器件V2，封装内部有栅源极结电容Ｃgs、栅漏极结电容Ｃgd、漏源极结电容Ｃds、栅极寄生电感Lg、漏极寄生电感Ld、源极 寄生电感Ls以及栅极内部电阻Rg; 蓝色虚线框表示续流二极管D1 封装内部的寄生参数为：结电容Cf、阴极寄生电感LC 极寄生电感LA 及其通态电阻Rf；R 为主动开关管驱动电路中栅极电阻。其中，V1 与D2 模型分别依次对照V2 与D1，双脉冲测试中V1 与D2 理想情况下应处于截止状态下。 实际电路中的寄生电感采用有限元 仿真软件ANSYS Q3D提取，结电容在器件数据手册查询。
 
@@ -29,7 +29,7 @@
 
 2\. SiC MOSFET 开关特性原理分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI3icICCPF4JCDdr2aNjBbxOacAw3TSp2ShFftlxPhqwuN5UHzhfFEnqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_001_160c6e7e400c.png)
 
 如图2，t1 为开关管截止状态，SiC MOSFET栅源极驱动电压 vp 为VS，栅源极电压vgs 为VS。t5 为开关管处于导通状态，SiC MOSFET 栅源极驱动电压vp 为VG，栅源极电压ugs 为VG。开通过程为t1 至t5，关断过程为t5 至t9。 
 
@@ -39,11 +39,11 @@
 
 t1\-t2 阶段为开通延迟过程，此时驱动板驱动电压对栅源极结电容Cgs 充电，V2 栅源极电压uGS上升， uGS 在t2 时刻依然未超过V2 开通电压值Vth。其过程数学方程式表示为如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIKUodibdVP41q0nkgThKlibcYuqKoRKPhlYriaNQHMT9DP4uMAic3QdE0zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_002_8f8f1428194c.png)
 
 t2\-t4 阶段为漏极电流iD 上升过程，此时iD 极速上升，漏源极电压uDS 开始下降，续流二极管D1 电流iF 及V2 漏极电流iD 之和为输出侧电感电流io，故电流iF 急剧下降至0，漏极电流iD 上升至Io。其过程数学方程式表示为如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI51qP2cemRSJFuFRmYJv0CgOoxIibkNFw5puaqNkK4FpIeozTA85rgOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_003_f7dfecab03bf.png)
 
 gs 为SiC MOSFET 的跨导，RF 二极管导通电阻，VF 二极管导通压降。 
 
@@ -51,25 +51,25 @@ gs 为SiC MOSFET 的跨导，RF 二极管导通电阻，VF 二极管导通�
 
 t4\-t5 阶段栅源极驱动电压uGS 上升至VG，漏源极电压uDS 下降至SiC 器件的导通压降电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIiaIGdTlIVBJ964tJNDxLoXNGq3IycFDEya8bQrzQDghE47EddicKwqWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_004_07ea2a3943c1.png)
 
 在t2\-t4 时间段SiC 器件有开关开通损耗，为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIJJ73dnZL4hLdcwXsWgibuwXWybYYnficoLHrdl9ZjRc2iczIY2huut7PA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_005_25ebc9311841.png)
 
 （2）V2 关断过程（t5至t9）
 
 t5\-t6 阶段为关断延迟过程，此时驱动板驱动电压变为0 或负值，栅源极结电容Cgs 放电，V2栅源极电压uGS 下降，uGS 在t2 时刻到达V2 米勒电压Vmil。其过程数学方程式表示为式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIA7ibYcQads3vEmzXLficsGvlq7yXm4hGUj5f4YM8kbX6IoW0HibrjxbWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_006_2fd6e60352b3.png)
 
 t6\-t8 阶段为漏极电流iD 下降过程，此时iD 极速下降，漏源极电压uDS 开始上升。双脉冲试验中可以近似认为io 为恒定连续电流Io，故续流二极管D1电流iF 及V2 漏极电流iD 之和为输出侧电感电流io，故电流iF 急剧上升至Io，漏极电流iD下降至 0。其过程数学方程式表示为如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIXnMxK2L3Hzgia88icMxicGEBJXIic20R2aBbcDO1qSdO8mugjovfaFHxJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_007_65b1e9291143.png)
 
 t8\-t9 阶段栅源极驱电压uGS 下降至VS。栅源极结电容CGS 放电，SiC MOSFET 器件的沟道电流为0，此时SiC 功率器件的电压/电流可能会存在振荡现象，其由主电路中电感与器件结电容之间谐振引起的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDINAibDP5uXDBZ0VRzFJPJQwXgqbf52K8hZRWsf0iasYbEAviacOOhib9Yjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_008_6cddb4ac9d02.png)
 
 其中Rloop 为主电路回路中的阻抗。
 
@@ -79,13 +79,13 @@ Ciss\=Cgs ＋Cgd，Coss\=Cgd＋Cds 以及Crss\=Cgd。由以上可得uDS 及id,
 
 在t6\-t8 时间段SiC 器件有开关关断损耗，为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIe9EWte5e1BM2DXwR0VeEcf0CMSGxdQvxWANXsfUJ9IzyVvSicpo3sbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_009_f840db5f64f7.png)
 
 3. 双脉冲试验测试分析
 
 试验采用双脉冲测试电路，如图3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDItgHwjPEbyDicdCuqicKicKfPafNKxZSwEbibpaWEUxnB8gHdDDgfy6O2zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_010_0908649e714e.png)
 
 双脉冲电路中，SiC MOSFET 功率器件采用BSM600D12P3G001，ROHM。母线电压Udc 设置为DC630V，负载电感L 为80 uH，主动管V2 驱动双脉冲宽度为10 us/10 us/5 us（开通10 us，关闭10 us，再开通5 us），被动管V1 驱动一直保持低电平，最终输出负载电感电流约70 A。 
 
@@ -93,17 +93,17 @@ Ciss\=Cgs ＋Cgd，Coss\=Cgd＋Cds 以及Crss\=Cgd。由以上可得uDS 及id,
 
 图中通道1 为主动管V2 漏源极电压，通道2为被动管 V1 栅源极驱动电压，通道3 为主动管V2源极电流，通道4为主动管V2栅源极驱动电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIDt29k5xAChZ1KpzvG7rgMM0Xecgmdc6iafjicRkhU6bM9FYeyicx7V1qQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_011_bdfafa481409.png)
 
 为满足整机电感电容参数优化条件，保证高开关频率，故对栅极驱动电阻在2 Ω以下调整。 设置栅极驱动电阻为1/0.5Ω进行测试，有表1。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI4EadVpu9D9p0yPXD7Tvy2qgibR6YlqueN8kx4uv857ibPhHVv5SR55aw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_012_0974ec78dc78.jpg)
 
 由表1 可知，减小驱动电阻，开关损耗会明显下降，开通过程中：被动管V1 栅源极驱动电压峰值缓慢升高，主动管V2 源极电流尖峰电流增加， 串扰问题变重；关断过程中：被动管V1 电压震荡峰峰值显著升高，被动管V1 电流波动震荡峰峰值显著增加，关断过压及震荡现象变严重。故在确保高开关频率及低开关损耗状态下为抑制关断过压及震荡、串扰现象，驱动电阻应尽量选大。 
 
 为保证驱动关断电压不损坏SiC MOSFET 功率器件，对栅极驱动关断电压在0 至\-4 V 调整。 设置驱动关断电压\-2 V/-4 V 进行测试，有表2。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIxbjDiaYCyicMIic35Lp8j0GkeHYXsdVdC1DjjjiaLC3XKRFKeouO34yBlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_013_3ebf8693da69.png)
 
 表2 可知，加大驱动关断电压负压，开关损耗会明显下降，开通过程中：被动管V1 栅源极驱动电压峰值降低，主动管V2 源极电流尖峰电流显著降低，串扰问题明显改善；关断过程中：被动管V1 电压震荡峰峰值降低，被动管V1电流波动震荡峰峰值降低，关断过压及震荡现象减轻。故在确保功率器件不损坏情况下，减小驱动关断电压可明显减小关断过压及震荡、串扰现象。
 
@@ -117,14 +117,14 @@ Ciss\=Cgs ＋Cgd，Coss\=Cgd＋Cds 以及Crss\=Cgd。由以上可得uDS 及id,
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ILnqiaiabsaGgdiaUxSazXzMI3qcrW6Wy7U4cZ7ibKDkiccZ1fvUicDz2N9RQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_014_8c7e1ce5a1b0.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIvDuHqMqw4NzkBLww55AokZ79ddHOF2VV3K8L19g4mVAcYVyBqNrYJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_015_b5a7d087f54a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIeJibUoHo0j34QnibONuR7PBvtN4bQKpbxC3Qz8GwYpdtMF3AU6zibghcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_016_3c83fb393d7a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIPb5XNpOqLdKiaHtibOic2VBC3WV34acRiaVe8Je0EnHroDlNh0cEC9EM7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅_MOSFET_应用设计研究_images\img_017_6fd1b38e24d0.png)

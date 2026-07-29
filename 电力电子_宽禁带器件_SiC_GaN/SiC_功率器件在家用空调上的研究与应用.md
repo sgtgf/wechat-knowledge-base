@@ -13,7 +13,7 @@
 
 **关键词：**家用空调，SiC 器件，小型化，可靠性设计
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXdD8j57H21epg6Fpk2N1pmQCZwVTbiaVPH9yCoJsgEjeMnK298ODXBDw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_000_c2568056a15a.png)
 
 **1.引言**
 
@@ -31,9 +31,9 @@ SiC功率器件具有的耐高压、耐高温、高频性、低阻抗、低损�
 
 SiC 器件与 Si 器件对比分析，主要从材料性能、器件性能、系统性能等三个方面相比较（如下图 1 所示），SiC 材料具有禁带宽度大、饱和电子漂移速度高、存在高速二维电子气、击穿场强高等材料性能优势（如下表 1所示）。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXbmCU4fRfPZ6JBgiaD54MBExmVGwcpIueLpiaMLY8ib4vgwWicFfYgpG4TQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_001_d98ecc8e8018.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXA0hARraxRj3ciaicQXxNuzfKqdhoVwgUf2sX7cqiakib5ibQWDLS4doZN0Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_002_5352d87dcf82.png)
 
 SiC 材料比 Si 材料具有这些材料性能的优势，因此 SiC 器件与 Si 器件相比，SiC 器件具有耐高温特性、开关速度快、通态电阻低、耐高压等特性，进而使得 SiC器件对冷却系统要求低、辅配的电容电感体积可减小、能量损耗小、输出功率高，因为这些器件优越的性能，让整个控制器具有了小型、轻量、高能效、驱动能力强的系统优势。
 
@@ -49,7 +49,7 @@ Si 材料 IGBT 兼有MOSFET 的高输入阻抗和GTR的低导通压降两方面�
 
 SiC MOSFET 由于材料特性，漂移层的阻抗比Si器件低，SiC 的绝缘击穿场强是Si 的10倍，所以能够以低阻抗、薄厚度的漂移层实现高耐压特性，且不需要进行电导率调制就能够以高频器件结构的MOSFET实现高耐压和低阻抗。表 2 是SiC MOSFET与Si IGBT基本参数对比，通过对比，我们选择罗姆 SCT3060AL做为本方案的研究器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmU46nysGTOXfm2qgn8tE051D2JicAtdY64QxmFJ1IjDFq8BR02icyB0TUPMhBUa79dNsnrmsp7T5Iw/640?wx_fmt=png&from=appmsg)
+![](SiC_功率器件在家用空调上的研究与应用_images/img_003_c32678a24f40.png)
 
 **2.4 SiC MOSFET专用驱动芯片选型及其要求驱动芯片选型注意：**
 
@@ -61,7 +61,7 @@ SiC MOSFET 由于材料特性，漂移层的阻抗比Si器件低，SiC 的绝缘
 
 表 3 中是驱动芯片对比，经过评估我们选择罗姆驱动芯片BM61S41RFV-C做为本方案的研究器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmU46nysGTOXfm2qgn8tE05KhQ32tx3PoWuoBo1mQ4HmicUqslPXW50xlAUu7xWhxsbicAvVphDjGkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_功率器件在家用空调上的研究与应用_images\img_000_1c146e9feab8.png)
 
 综合评估：
 
@@ -73,7 +73,7 @@ SiC MOSFET 由于材料特性，漂移层的阻抗比Si器件低，SiC 的绝缘
 
 ④驱动芯片 BM61S41RFV-C 输入结构，VCC1推荐使用范围 4.5V～5.5V，欠压自锁电压UVLO是4V（典型值），而提供的高电平是 5V，即能保证驱动芯片输入侧正常工作。VCC2 推荐使用范围16V～24V，欠压自锁电压 UVLO是 14.5V（典型值），而提供的高电平是18V，也能保证驱动芯片输出侧正常工作，如下图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmU46nysGTOXfm2qgn8tE05bEY9PfAOkC5GgzAXPxvnXxcJdiajD2stVOjl3Sr3uibX2icBT242AJeag/640?wx_fmt=png&from=appmsg)
+![](SiC_功率器件在家用空调上的研究与应用_images/img_005_6b0f6634476a.png)
 
 2.5 SiC SBD、SiC IPM的选型及其要求
 
@@ -81,7 +81,7 @@ SiC MOSFET 由于材料特性，漂移层的阻抗比Si器件低，SiC 的绝缘
 
 SiC 材料抗高温特性和频率特性，均优于目前的 Si材料肖特基二极管。因此在未来电力电子技术对高温、高压、高频的需求而言，SiC SBD 无疑是更加合适的，本研究方案选择罗姆 SiC SBD，即二极管SCS320AHG，SiC SBD 与 Si FRD参数对比如下表 4；SiC IPM 选择PSF15S92F6-A（三菱）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmU46nysGTOXfm2qgn8tE05LFia0cmciaTYV9dXn8icApYEyPc6SfN86lu3f1ZiazExEUoZ3UibkMOljLg/640?wx_fmt=png&from=appmsg)
+![](SiC_功率器件在家用空调上的研究与应用_images/img_006_198d27d2c83f.png)
 
 总结：从上表中可以明显看出，Si 材料的二极管正向浪涌电流值是190A，而 SiC 材料的二极管正向浪涌电流值是87A 和104A，SiC二极管抗浪涌能力要比 Si二极管要差。
 
@@ -91,7 +91,7 @@ SiC 材料抗高温特性和频率特性，均优于目前的 Si材料肖特基�
 
 SiC MOSFET 的漏源之间的导通电阻伴随栅源电压 VGS 增大而减小，且减小趋势明显，因此在实际使用中，获得更低的导通电阻以降低损耗，所以在不超过临界栅源电压前提下，尽可能使用更高的栅源驱动电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmU46nysGTOXfm2qgn8tE05vBZLr4xK9axz3viaYD3KkQlV76wicCJWskzZvHUC8TTotaCXD0HgyIPQ/640?wx_fmt=png&from=appmsg)
+![](SiC_功率器件在家用空调上的研究与应用_images/img_007_65d14b8c98ea.png)
 
 图3是所选器件SiC MOSFET（SCT3060AL）datasheet 中给出的器件输出 特性曲线，由于模块（SCT3060AL），栅源极电压最大值 VGS（max）为 22V，为既保证 SiC MOSFET 能充分导通，又防止因栅极氧化层过压击穿而损坏，VGS 的选择应该 4V～5V 的裕量，再因为 SiC 功率 MOSFET 的导通电阻随栅极电压的增加而下降，到18V 以后，导通电阻随温度的变化基本稳定，因此本文选择驱动开通电压为 +18V。
 
@@ -105,7 +105,7 @@ SiC MOSFET 的漏源之间的导通电阻伴随栅源电压 VGS 增大而减小�
 
 （3）随频率升高，效率降低，损耗升高，故频率也不能太高，如下图 4所示。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXV6a3qfmfEIVia6V6OecQy7jWVe3FGAc5XsrxhibADnq836icVo5c3fSLw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_008_730429f87b4c.png)
 
 **2.6.3 驱动电阻设计**
 
@@ -113,7 +113,7 @@ SiC MOSFET 的漏源之间的导通电阻伴随栅源电压 VGS 增大而减小�
 
 （1）由于驱动回路中不可避免的会存在杂散电感LG（SiC MOSFET 的栅极回路引线电感），高速开关过程中LG 会与 SiC MOSFET的栅源极间电容 CGS 和驱动电阻RG 发生RLC串联谐振（如下图 5 所 示），会引起 SiC MOSFET 的栅极与源极之间的电压 VGS 的振荡。因此驱动器设计过程中，栅极驱动输出端和开关管距离应尽可能小，以便减小 LG，且合理选择 RG 以降低 VGS的振荡，可以通过公式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmU46nysGTOXfm2qgn8tE05zrPWO8Xkbz7KoOCLQHUibwTydOTf6Tly3RnAehGSgFGrpV2boJtbicHw/640?wx_fmt=png&from=appmsg)
+![](SiC_功率器件在家用空调上的研究与应用_images/img_009_398b02b8f072.png)
 
 选择合适的栅极驱动电阻值。
 
@@ -125,15 +125,15 @@ SiC MOSFET 的漏源之间的导通电阻伴随栅源电压 VGS 增大而减小�
 
 取平均值 RG≥21.89Ω，即线路总电阻 RG 需≥21.89Ω才能避免串联谐振；
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXztxTGbrk4zOJUF2VegSF9kp0j1fwlOl5gplB91S6TB3TM8qINspBag/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_010_cf7739c082bf.png)
 
 （2）SiC MOSFET 栅源极驱动控制回路之间的电阻 Rtotal 主要由三部分组成，Rtotal=RGon+RDriverH+RGint。最小栅极电阻值受栅极驱动器最大输出电流 IOUT\_max 的限制，线路总电阻需满足公式：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXnNuJyak6zngicLzph86fbPwxOIp4oicdicICtxqC7dtgZEibuIr2YibENAg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_011_e3cdab39ae53.png)
 
 对于所选的驱动芯片BM61S41RFV-C，IOUT\_max=4A，代入计算得出，线路上总电阻Rtotal\_min=18/4=4.5Ω（IOUT\_max=4A），即整个线路上电阻需≥4.5Ω；即需同时满足；
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNX2q7yjLrAyZErXSkKuCbHJRcHFWVukylaniaygGIrPZbXo0hwkxPkdicA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_012_ee151f270ed0.png)
 
 其中：
 
@@ -155,7 +155,7 @@ RGon 为外加的驱动电阻；
 
 电感取值与纹波电流相关，保证电感取值让纹波电流在规定范围内，90°最大功率时纹波电流最大，因而只要评估在低电压 90°的电感取值即可，又因为一般 外机控制器一搬有限流功能，电流值有最大限值，按实际限值代入计算，以 1.5 匹变频外机为例，在电压160V～265V 内，最大电流限制不超过 8.8A，按如下电感公式实际取值 8.8A 代入计算：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXPCz3gyVdNeYAcLDPu9ACG3ibkTMkjAKZWx64HTnOibEj4JnZGyMn0yPQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_013_3b4e126dd22c.png)
 
 开关频率 f：一般取60～80KHZ，本方案取 80KHZ  
 
@@ -167,9 +167,9 @@ RGon 为外加的驱动电阻；
 
 本研究方案通过计算，设定 PFC电感感量值是200uH，过程见下表 5，下表 6。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXX45KNeUnGQKXwJJUbqR9tPjcB0TibEqzBWLiaZ5bNDgjc0FZIDCWibHYQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_014_b77a059d4ffe.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNX18yJoTBS43KsNoKAsmgtQVsBZT9QxVc3hkobPQvo5BoicyZibpjlwQyg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_015_9e689449e0f0.png)
 
 **2.8　用SiC器件设计PFC驱动电路时，需注意的设计要求**
 
@@ -191,7 +191,7 @@ RGon 为外加的驱动电阻；
 
 因为 SiC SBD 的抗浪涌冲击能力比硅的 Si FRD 要差很多，如本方案所选的 SiC SCS320AHG（Rohm），正向浪涌电流是104A，而成熟方案中 Si VS-E4TU2006FPN3（威 士）是190A，而在空调非正常工作中状态下，如负载短路或电压跌落时，PFC 输出电压低于输入电压，会产生较大的冲击电流，一般需要加旁路二极管，给电容提供充电路径，避免大电流直接流过升压二极管 SiC SBD，从而保护升压二极管和PFC电感，起到保护作用，如下图 6中 D3 所示。在开机瞬间，因加 PTC 电阻保护电路，开机瞬间的大电流，经过 PTC 电阻限流，不会有太大冲击电流，但开机之后，就会断开 PTC 电阻，因此在空调开启之后遇到负载短路或电压跌落时一般都加一个旁路二极管，若不加则需要实测，冲击电流有多大，再根据实际情况评估。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmU46nysGTOXfm2qgn8tE05NmlVO5Kd2gHktbSYibdffsmt9AK0FZRQB0AwQ2AmF6oLlficuh1SA7Gg/640?wx_fmt=png&from=appmsg)
+![](SiC_功率器件在家用空调上的研究与应用_images/img_016_58059153011b.png)
 
 **3.2 驱动电阻电路设计**
 
@@ -207,7 +207,7 @@ SiC MOSFET 的栅极阈值电压比 Si IGBT低，阈值电压越低，越容易�
 
 （2）我们所选的驱动芯片有米勒钳位功能，能给位移电流提供从栅极到关断电位驱动口的低阻抗通路，可将栅极电压钳位在关断电压，从而较好地抑制尖峰电压，如下图 6 所示，将驱动芯片的 MC 网络端口与SiC MOSFET 的栅极相连接，当主芯片通过 PFC-IN 端口给驱动芯片关断的低电平信号时，驱动芯片 OUT 口输出低电平，延长小段时间后，MC端口呈现低电平，钳位住SiC MOSFET 栅极电压，避免栅极电压震荡引起误导通。如下图 7 是驱动芯片内部示意图，在关断时，通过内部比较器将栅极电压钳位住。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNX6hiat5VZrIHpLXM1o4EpMJOWKd69O5EtKvUNCxWW8BEE8mkj7qCb8WA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_017_0c42b0ce9ec9.png)
 
 **4.PCB 布板注意**
 
@@ -219,9 +219,9 @@ SiC MOSFET 的栅极阈值电压比 Si IGBT低，阈值电压越低，越容易�
 
 下表 7～表 9，是成熟外机（Si 方案）与本研究新外机（SiC 方案）从效率、功率因素、温度、控制器尺寸、成本等各维度的实测数据对比表。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNX7hVPoojHqUeaxp87IDlNRJBjTtBg7KXvcqY5VT61pibVxvfgjrS3FRA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_018_9450345c1e0f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskhuYaLoWrITSib5rfGpveNXLpaIEdt6VGLwg2te5W8v3pHichn0BZvB75GOl1fTQ3SKJn9GGQRqibRA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_019_4e951aad4d26.png)
 
 **6.结论**
 
@@ -239,13 +239,13 @@ SiC MOSFET 的栅极阈值电压比 Si IGBT低，阈值电压越低，越容易�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJHBTCdADHv18QiahAiaFlHTRlibob4tEaAibUuMT523iaOA0gUE9Ie19LHww/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_020_bc3508057f21.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJ58q3XFGUX82hld8uW530iacQXKNpBeEjcDyqyAJ68ibgibv0xjnicdqSqg/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_021_253091499e1c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJpYcXLicHZJX7Cqx7QH3IXZUrWCTAUdmbCKxDJIFcNufSXy7WutebaIA/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC_功率器件在家用空调上的研究与应用_images/img_022_611d8476f357.png)

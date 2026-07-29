@@ -8,73 +8,73 @@
 
 作者:Johann W. Kolar et al.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerMJYf4ibPRtklBQXqafOm94xRuJYbvBNa8PNMBOc4On8x2jCDklSBkQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_000_81d6074d39b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eerp8fvGVxxHjaWribZuEo86D24Nl71UMo5w92e84s5Bx3RhXRSxNF6MKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_001_728a3d376eed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerDYJWZLDibzOtPyg3QpVz2q28cSIkiacqibj9kYR4zpmZs3G0kY9rEib3cQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_002_f103d5b9d1db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerQEMia3roBtcQia5rpiaKdSL2OoqKZGibsib1ECWLugUryrto4u1vicMFB6zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_003_e8d0e7ba530e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer7dlOKgN1gC8WbcJF9oSC0o9j6dPtMPDpzcpeyoY4PxWff7GJ0tNGtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_004_f4665742743c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerxWwzo044C4n16034RDU0d623QtxA6TbziaTBlIBcw87d7KtLebqvnsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_005_0c0b02816d80.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerTLiaBkmlnMDAe6GI0EHyNGfialkUoeYELmichfszRaOMQzIcwCmzicQVaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_006_70241d71260a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eern0EvK1zqNZX1URdnKTp3V1Hneb4NKDJ65aB1EIUdBlsFPVOPOh9Anw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_007_a214d956d5c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerYfH0zSdbKsXZ9xiaMNjFW6iaNaGlwF659gLBXp3XYleZHUtCYuUPtqGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_008_5843d517364a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerRuNgV4RWfBDS4kvCjtQft64WRhu7zTaahVqHhRTkrtFdCOb7xc1coQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_009_518e4acfd37a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerQoaRRzmpMOWFgwkOsDEN84Vv1HTNmicUHI5XSHiaZRNfxYL8m8X6PzeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_010_fe0d16a1b2f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer5fhffrX8WlZrWVrCjnfbUia76uEkhInd9acwqjAibYHpZ3RouVHYsS8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_011_49f7dd2695d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EeryNI4bluqu3MkcnibumegkQjZuNiaVjGM1wX80R4biaDvMqg6WBHYB6cibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_012_6a447ad6566f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EereAicqrBMjuY4M2PRsq0b80pibeDac7kibj5eYgydb42KYLZOja8liabyicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_013_2e719ddc9e7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EersGW15ziaQKxWkZCbNBwMIWI8wNqnAibkbegmjlVrHD12BPpU8URVePwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_014_a57cb52e60a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eeric6q4E4Zce8atLReiajWvgiaI2PqWwIK0cDpLKCI36YMiarXibQIiaUtVuxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_015_8582909c6c78.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerEBmWLAY3ZJZIQibeqP8LwzZicQ6TTZ8g5U1hDxGbcwiaTnI7qEZnKGnoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_016_159864075a4a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer65bibMjjOVDricuIkqxpLlyN3pbvOib1f2gRWpeJibIiceRl6kLzGsXTD9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_017_c10db65cb743.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer4ftQfk9Bag4uMrrnd27ZSK1UfPWmXAstah4tFXTYIcjFJQOibDjWM5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_018_e9177f244da0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer2VnKUtGg2XCgP6cWRJiawL6bUBSkDmPNZeqal5ev8AlB9ibP3dNuHb1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_019_2b6da67f2294.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerJZKtIf7wnDQibBj5xKNomn83mmHeBvoJGZBoOwvNA0blPvdNshFHHew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_020_f1268980a6a9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerbhaPfUicOE4N1McSmH030DtvrFKiay3w42H80FOQ4gj5Hib8Wd0h5zqYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_021_6ff255bdb401.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerKQqkuYYqv10uv0FyfMObzVhSJyPk1NjDEERKb0xIxqImLKDvxAoFyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_022_2dfa20142ffe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EeruhrDOlib0gfM6RaSbAp1qISUnFenIVWicibY7fkTvVbzOsrZuToDuIrQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_023_2febda6cde96.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer5wyRWPePLm5lGp75fSuNqkMy0CWa5BRic2FlIXKcDczSLAoyqmLudeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_024_0c82e57770f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eerec5DVz1lOxbR6507icEZ7K0ammvtVdr53Gic0Avm6VwEuKRXTQ4pvstA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_025_b48dcb599c20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerjlAVMMgflpfAtXRwayCvPQQfHlGKlASpJbAoqJ8gUsMohHgibV4xU0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_026_747557c879c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EernpI3xmMNTmp8wMhVudhEAHNL6nCUut1qwmoYiaI1FibJ2JJmdeKESlnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_027_2980d785ecd1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EeribZynLFtULYKkJia1kRN38iaad8iaaL0BVA2jGUscHjoocOwKwaiaUZCq3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_028_c1646a785673.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerNDlTfgia4BBZBH1icpu24JhsVmpasZzeV7hcbTiczMKmJSaVZUwozRPqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_029_ac5e3c6518d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer963kibVUO972wR6n0BPvEgb2hU8ysEkibgib9PsalEAYcY5GmAickCb3ibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_030_56ea5d685e53.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EervzZn5vvK7jrHZUot52ibyRgRQUsbtXMYzNlKAgK7paiapdRFic8Y2gicDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_031_24879b196836.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5Eer945s1FlIyzibNtc5BHJZ3Nx5IxLLZRVjE8rITGjR6cBicCIWryNFUymQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_032_29506d724008.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerJl0Re7eo3Gos8huqOyxu688wpmQcY85jrTrQHibMQDpxIsuxJ0gF5ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_033_69421c626abe.png)
 
 注：文字与图片报告无关
 
@@ -143,7 +143,7 @@
 
 e-VTOL的核心是电推进系统，它相当于飞机的“心脏”。这个心脏必须满足极其苛刻的要求：**极其高效、极其轻量化、极其可靠、功率密度极高**。传统的硅基功率器件在此已接近物理极限，而**宽禁带半导体代表——碳化硅，正是破解这些难题的关键**。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerRIh6f0hoNjALo3tYRmsRPtvYdpJZGzkIOMkJGOc03bnOqic9aYAc4og/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_034_73ef7e5e8c8e.jpg)
 
 碳化硅器件主要应用于e-VTOL的**电推进系统**和**配电系统**中，具体体现在：
 
@@ -172,7 +172,7 @@ e-VTOL的核心是电推进系统，它相当于飞机的“心脏”。这个�
 
 为什么e-VTOL非用碳化硅不可？其优势直接对应e-VTOL的痛点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn6MR36tWbkq6NXicDPo5EerNUX8tOaOnvVBnUibdXbDLTgT9ibDSYjFd6Nicuyf5wWKGeiboLIW2t4TNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_035_ff0969a27979.png)
 
 ### 六、优势总结：碳化硅如何赋能e-VTOL的未来？
 
@@ -204,10 +204,10 @@ e-VTOL普遍采用多旋翼/多推进器的分布式电推进架构来保证安�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhS5ic0dWPejLuibDvK8b6h7epzSf3tYRL0wjvUgfAQY0TY8UFJZzrDSYA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_036_12731a7dacf2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhoKDyeGNKBofI9EmFbafEDzMYo7r0cWR1Ej2KJQh2Ro2N9PicnkXWibmw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl80w6AOkAEV2WTTqQ6EiaIhCwGFXDYicD06SUeicCgbnRGWkj6lygYib4oADKG4MXhszu8GtP7aRL4Iw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_037_ffd8fe265781.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\e_VTOL飞行器_城市空中交通的未来_images\img_038_5d3458568657.jpg)

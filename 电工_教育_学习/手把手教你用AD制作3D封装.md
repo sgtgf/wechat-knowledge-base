@@ -20,13 +20,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4Nibibvgh68jJVTdXibhIUbTWyWvsEfnAutR7oajZpBSPMyohtANtuZ5AEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_000_cb1e3a4d1afb.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4Naz2Sc4wfqVE0TwrVJAbyAyN7oE9XWTuzIaoFLIiaibAdeN1d9LaXP47Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_001_c6d2d34167ac.png)
 
 上图为PCB库中的贴片电容的封装。
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4NNVflxFVNdbiaFkFLPwVwkdMWn14btIMdUtYfY5sQtNjzJCa35ZKCSlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_002_0558c84fdbf6.png)
 
 上图为贴片的3D效果图（看不出来，因为没有3D封装）  
 
@@ -46,7 +46,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4NDPBe8YQ1IPCyP2v3x5Gc6bul1AruzzKjLnUWO1Ql9SuHiaLsGtCia2Wg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_003_d5aed6cc7ee6.png)
 
   
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4NsDBniayaMeUk7EEjkNylmGVkAJSicO3LibZpeKl96auuBCpbXnYzbqbGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_004_18ecc16ac107.png)
 
   
 
@@ -86,7 +86,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4NvXpYUDLj9o0t6E1cbOrZ9Yyosm4FTqvuSBQb2vdqlBgIvypw0icQ80Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_005_95a8f66a2b27.png)
 
   
 
@@ -96,7 +96,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4N43G9esgLAUbGDyuf2mqoSwdmVN9VE870ApL2Ca9hkvuSC8LCQNNfibQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_006_b50596fdf9ff.png)
 
   
 
@@ -106,7 +106,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRbegbZFBSewmhWtkyNDT4NTibEvYqK1NvwPlYibEqESXeu78A29t5fozyvlsIiaKLY44C2rhsQ37vXQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\手把手教你用AD制作3D封装_images\img_007_6b50b6a3410a.png)
 
   
 

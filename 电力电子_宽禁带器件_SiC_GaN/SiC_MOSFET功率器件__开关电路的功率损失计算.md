@@ -5,27 +5,27 @@
 
 **文章来源:**罗姆半导体（ROHM）
 
-**摘要：** 确认电源电路的设计没有超过各设备所容许的损失是很重要的。怠慢这个的话器件可能会导致热破坏。该应用笔记中记载了使用 SiC MOSFET 的开关电路中开关动作时 SiC MOSFET 产生的功率损失的计算方法。![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe70YgMeEia5GdNVnfc65RSUicviatFakuhObo7rDMwW8NPsFNnDfjDhZAg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+**摘要：** 确认电源电路的设计没有超过各设备所容许的损失是很重要的。怠慢这个的话器件可能会导致热破坏。该应用笔记中记载了使用 SiC MOSFET 的开关电路中开关动作时 SiC MOSFET 产生的功率损失的计算方法。![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_000_14a1502d6f4d.jpg)
 
 **损耗測定电路**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0LcUBv5pqC58y7VMclQFm8AJHwadmrhicz5RGtA3V3Yhh2PRxKIbUt8w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_001_a9e15094ed69.png)
 
 作为测量功率器件开关参数的标准方法，有双脉冲测试。测量 电路如 Figure 1 所示。双脉冲测试通过感应负载和电源进行。 开关元件的负载大多使用电感器，为了与此条件相同，测试电 路也使用电感器。电源用于向电感器供给电压。信号发生器（G） 用于输出驱动 SiC MOSFET（Q1）栅极的脉冲。散装电容器（C1） 用于陡峭的供给瞬间大电流。这是为了补充电源的响应性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW01WpEQO1McicMEDOGaO3dc0Whz5kdUq9mqibBtibiapbdQwJa7NqHHlUXfQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_002_546bf2d9dcbc.png)
 
 Figure 2 显示具有代表性的双脉冲测试波形。最上面的波形是 栅极驱动脉冲，在最初的脉冲下降边缘测量截止参数，在第 2 个脉冲的上升边缘测量导通参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0ibwI9Uxp5T8Lu8AlFsHyvJhclfGl3FiaVUQGGmxropex0Q6V3yqHhqtw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_003_7aad4038dff2.png)
 
 Figure 3 中显示了关断部分的详细内容。从 VGS 下降到 90%开 始，到 VDD 下降 10%为止，定义为关断时间 toff。并且，在这 其中，将 VDS 下降到 VDD 的 90%为止的延迟时间 td（off）、VDS 从 90%到 10%的变化定义为下降时间 tf。（注：VDS 的 10%和 90%的表达与 IEC 60747-8 相反。）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0icsYrPZdqEruIibJGib6RAnt4Iao3JSFg6aKdIXYibAV27ibPyiaynxUuBuw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_004_70e1f1176e6f.png)
 
 Figure 4 中表示导通部分的详细内容。从 VGS 上升 10%到 VDD 下降 90%的地方定义为导通时间 ton。并且，在这其中，VDS 从 VDD 的 10%下降到延迟时间 td（on），VDS 从 10%到 90%变化 的地方定义为上升时间 tr。（注：VDS 的 10%和 90%的表达与 IEC 60747-8 相反。）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0eOlduweQIRvkAYXm7XQ357p5gvfhNShvxYVPRzZAI4BmwRicYn6IuCA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_005_33153d4486a4.png)
 
 接下来，参照 Figure 5 说明双脉冲测试各步骤的电流流动。
 
@@ -43,34 +43,34 @@ Figure 4 中表示导通部分的详细内容。从 VGS 上升 10%到 VDD 下降
 
 根据 Figure 6 的波形，计算每个区间用 Q1 消耗的电力量。首 先，在导通 ton 及关断 toff 时间（开关时间）中消耗的电力量 WSW 可以近似于式（1）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0eMfa052Vm1rc23KMMx5icxEDvicyhicpj7aMjJIWfics8cHro7EwLibzK2g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_006_76eb30a522dd.png)
 
 接着计算导通时消耗的功率。因为 Figure 6 在 TON 的区间 Q1 导通，所以 VDS 成为 Q1 的导通电阻和 ID 的积。导通电阻的值 参照数据表。功率 WON可通过式（2）近似。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0HJy7YKDkTIbQvNoiaqvaibtibIiaq2UHaHp7HXj6ojRvTShuKEa16qhGuw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_007_cac4b6738420.png)
 
 接下来是 Q1 关断时的功率。Figure 6 是 TOFF 的区间，Q1 OFF 时 ID变为零，功率 WOFF变为零（式 3）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0iahBEXq6974tc50694iaux0yYvU09cLoJQOJggs0B4hhiaAXE7qemZ6Ww/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_008_fca22ad034c9.png)
 
 Q1 的全部功率可以通过式（4）求出，成为式（1）到（3）的 总和**。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0SibdlbBVCtLCiaJm7nsrSky3hXklrTlgibsPVj64RvLRZfKibNKQBeHVIg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_009_36a2351b463c.png)
 
 另外，Q1 的功率损失可以用公式（5）计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0nUefhRiaQHpJYb9vibx1H1xVkt4he7yINQ4lQvTficB5ohWrLCR07abRQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_010_0675dde8fc02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1Rz7fwmAIv9F9bx3TdEW0UcSWph5K1GsnslfxXuRbbQjs1Zaq4ia9HWKgp6crdanlVwuUQcdia4ng/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_011_fd05ddcc0a08.png)
 
 如上所述，损失是通过对电压和电流重叠的部分进行积分近似来计算的，但其他资料中也有不同的公式。例如，这个重叠的部分有时会用更简化的公式来计算三角形和梯形的面积。在这些例子中，即使简化了计算结果误差也很小的情况下使用。
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_012_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_013_3ade3c3d8599.jpg)![](SiC_MOSFET功率器件__开关电路的功率损失计算_images/img_014_84aa944feb13.jpg)

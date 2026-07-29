@@ -12,7 +12,7 @@
 
 关键词：栅极电压延时；温敏电参数；结构函数；碳化硅 MOSFET；热阻
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsNViaxPia9c8Iwo6haS25qQZaMIka4CtqANmibhvYoYQzEYZM4yOtU5d1g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_000_6e8581f027d3.jpg)
 
 0.　引言
 
@@ -42,13 +42,13 @@
 
 由于 IGBT 器件开关速度低，在关断过程中产生的振荡基本都在 250 μs 内 （6 500 V 的高压大功率模块由于漂移区更厚，会带来更长的关断拖尾时间，延迟时间可能会高于 250 μs），对于碳化硅 MOSFET 器件，由于其开关速度快，所产生的振荡剧烈，不仅采样延迟时间长，而且关断瞬间的过压尖峰也容易损坏设备的驱动和采样回路。本文以 T3ster 测试设备和 CREE 碳化硅 MOSFET 器件为例 （如图 1 所示），分析关断瞬态测量电压曲线，将用示波器测量器件关断波形和用T3ster 设备自身获取的波形进行对比分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsHVSmG0Bo6ozZ9zm3q5pwY9syDpbPZcxCJmGibAs6KhNMRRtCLLkwRBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_001_295e61e92da7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsz93DjM0zWjuv2MAgo737d3icry9499hML1nJ1FT54A93WqIianHiaTBxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_002_c43ca07a8b95.png)
 
 从图 1 可以看出，示波器抓取的测量电压漏-源极电压 VDS （红色曲线） 在 519 μs 左右才逐渐稳定，此时采样的 VDS 才能准确反映器件结温，而热阻或功率循环试验结温监测过程中会根据设备自身显示的 VDS 波形来设定测量延迟时间，此时设备显示 VDS 在延时 96 μs 后已经稳定 （如图 2 所示），但实际上这个位置测量的 VDS 并没有达到稳定状态，如图 3 所示 VDS 稳定点 519 μs 处的电压值与96 μs 的电压值有近 200 mV 的偏差，监测的结温会不准确。显然传统的电参数法在关断加热电流后通过测量电压 VDS 来监测器件结温的方法已经不能适用碳化硅MOSFET 器件的高开关频率特性，需要对电参数法进行优化来准确表征器件在关断瞬态的结温。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsRibia55HHbrbNL7RyS08V5RCicrspfrDTouJf7vSiaHgHibxWHsRSQNnfjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_003_a0f230e761f5.png)
 
 3\. 基于电参数法的结温监测优化方案
 
@@ -60,61 +60,61 @@
 
 碳化硅 MOSFET 开关控制逻辑实现方法如图 4 所示，辅助开关控制加热电流 Iheat 的接通，通过对栅极电压 VGS 的开启时间进行一定的延时以达到设定方案试验的功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqseec8BoP7d3xic0uugJgxFtIag55nO3oyBedYkxQZLjdGqicvMoU04CJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_004_59ed2e4d1e02.png)
 
 3.2　栅极电压控制时序介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqs9wiaqxAg0AHccA7yicVoibK2NsFGSt3fniaqXmHJpTUiaLTf9qKUy8C3kicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_005_de279663d851.png)
 
 栅极电压控制时序如图 5 所示，控制信号 Trigger在 t1时刻发出关断信号，即触发信号置低电平，在 t2时刻关断加热电流 Iheat，在 t3 时刻驱动将栅极电压 VGS 关断，VGS 从正电压切换到负电压，通过这种方法，实现栅极电压在加热电流关断后延时一段时间再关断。
 
 3.3　栅极电压延时关断方案仿真验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsksp1lLmvib3793Nw8vvM86CEv7XnmBqL6nWFHMRxqzW8e7klxSF31CQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_006_2f20d703f633.png)
 
 通过上述碳化硅 MOSFET 开关控制逻辑方案，搭建仿真电路，验证栅极电压 VGS 延时关断对测量电压VDS 振荡的抑制作用。仿真电路模型如图 6 所示，Gate Delay 电路为带栅极电压延时功能\[如图 6(a)所示\]，NoTime Delay 电路为不带栅极电压延时功能\[如图 6(b)所示\]，采用 CREE 的 C3M0120100K 器件作为电路仿真的芯片模型，U2、U4 为被测器件，U3、U1 为陪测管，由于电流源无法工作在开环模式，所以与实际应用电路相对应，设备在被测器件关断时电流源需要切换到另一只 MOSFET 陪测管上，栅极电压波形如图 7 所示，红色曲线为被测器件 U2 的栅极电压波形，蓝色曲线为陪测器件 U3栅极电压波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsaFeictqslg2bsYpiccia4jsd8Y2Ash5btcJz5H5dUxPzQQYvC7Lt7dt4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_007_5fcba7fa422b.png)
 
 对仿真电路模型进行分析，被测器件 U2、U4的 VDS仿真波形如图 8 所示，蓝色曲线为栅极电压延时关断后的 U2 的 VDS 电压波形，红色曲线为无栅极电压延时关断后的 U4的 VDS 电压波形。从 VDS 波形可以看出，具备栅极电压延时关断的 U2 的 VDS 波形振荡很小，且快速稳定，而无栅极电压延时关断的 U4 的 VDS 波形有一个很高的电压尖峰，并且持续振荡一段时间才稳定，这是因为不带延时功能的电路在切换到陪测管 U1时，U1从截止区到饱和区需要一定时间，这段时间器件 U1 和U4 均处在高阻状态，电流源会出现短暂的开路状态，导致 U4的 VDS 电压迅速上升且持续振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsTYbC3hutPkXvoXpQSmiaLtGvmUibwzOQGjgE9YZukvkWztPKjx3UFprQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_008_353d95fd62a6.png)
 
 3.4　栅极电压延迟关断波形试验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqspRicXnribPTDUiaBib3v50KxBPx4eN243bXN6nXtmy81X7HnQoej0k5l5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_009_7b404633fa65.png)
 
 通过上述仿真分析，进行试验验证。本次采用 10μs 的延迟时间进行栅极电压 VGS （黄色曲线） 关断 （如图 9 所示），测量 CREE 碳化硅 MOSFET 器件的 VDS （绿色曲线），从图 9 可以看出，器件从加热电流 Iheat 开始关断到测量电压 VDS 达到稳定时间在 19 μs 左右，且未出现之前在关断稳定过程中持续振荡的现象，此时测量的 VDS 能准确监测器件结温。
 
 4\. 采用监测器件结温的传统方式与栅压延时关断方法的热阻测试对比分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsOjyctR1v9sTb61jRW0JWqCjKXYqFUNmMZ8n9ibsYRjDsyY0pu3H2X1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_010_3be42c8c35b3.png)
 
 通过上述试验结果证明采用栅压延时关断方法能准确监测器件结温，并对器件电压振荡有极好的抑制作用。由于结温监测的准确性对热阻测试结果具有决定性的作用，因此通过碳化硅 MOSFET 器件热阻测试来做对比以验证分析传统的结温监测和栅压延时关断结温监测 2 种方案对器件热阻测试结果的影响。器件规格型号如表 1 所示，测试原理如图 10 所示，首先通过在恒温箱内通测试电流，以获取器件温敏参数与温度的线性曲线即 K系数曲线 （如图 11 所示）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqslb2WmcY0S4pLnaMW6aEribzJkeDiaJNJKicibChbmsCbHp6jsR1dWzuSRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_011_373e897e9014.png)
 
 在器件热阻测试阶段，通过恒流源给器件通加热电流，试验器件主动发热，在达到热稳定后，切断加热电流，施加负栅压对器件进行关断，同时对碳化硅 MOSFET 的体二极管通测试电流，测量体二极管正向电压随温度的热敏参数，并转换为器件结温，纪录降温曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsNLKGia6ueBYjGto0VAbWEwa8PmTqkw1qNrVJ0uNPMZuSe16xmF2sF2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_012_fef5d547b084.png)
 
 为保证测试结果具有对比性，将传统的热阻测试方法和栅极电压延时关断的热阻测试方法的 2 次试验条件保持一致，如加热电流、水温、水流量、开通关断时间等，测试条件如表 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsgZVBYe6TomwzAuicjBWiaMyInk710iakZM2Q4ZctLdjhhlGhnm3RlrIKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_013_dc8c28698ef2.png)
 
 将测量的数据还原成温度与时间的曲线后进行回归补偿，得到的 2 次试验降温曲线汇总如图 12 所示，深红色为不带栅压延时关断测得的降温曲线，深蓝色为 16 μs 栅压延时关断方法测量的降温曲线。从 2 条曲线回归补偿到 t0 时刻器件结温可以得出，红色曲线 t0 时刻器 件 结 温 比 16 μs 栅压 延 时 关 断 的 器 件 结 温 高 出1.367 ℃，而器件结构函数曲线获得的器件稳态热阻也是不带栅压延时关断功能的器件比 16 μs 栅压延时的器件的稳态热阻值高出 0.003 7 K/W （如图 13 所示）。2 种方案测量的器件结温和热阻的差异都是由加热电流关断瞬态测量器件的 VDS 差异造成的，下面对测试结果的差异进行原理分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsdLWcMe4WRyzKMjB44gdjP1wstlzczobGGg7yyHxXND7rdw9U98ibbIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_014_2e503e7c7873.png)
 
 从前面 3.3 节的验证结果得知，栅压延迟关断的方案测量的结温是器件的真实结温。通过对图 3 示波器显示波形进行分析，由于加热电流关断后测试电流是通过碳化硅 MOSFET 的反向体二极管，所以关断后测量器件两端的 VDS 为负值，负值仅代表方向，因此无栅压延迟关断功能测量的 VDS 的绝对值比实际需要测量稳定的 VDS 的绝对值小。根据 K 系数曲线负温度特性，VDS值越小对应的器件结温就越大，因此测量的器件结温比实际值大；而热阻测试在降温阶段是实时采样 VDS 来监测结温的，最终稳态阶段 2 种方式器件都会稳定在初始温度，所以对于无栅极电压延迟关断方案的热阻测试，根据式(1)器件热阻计算公式进行分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsJeBLBAR17Aw81JicQbOL7JbJFNY9ra1mz70tiaJtE6NTMNHcyX3szicHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_015_7c9890fb8969.png)
 
 式中：Rth 为器件稳态热阻；ΔTj 为器件结温差；Tj0 为器件 t0时刻结温；Tjs 为器件初始时刻结温；DP 为加热功率。
 
 由于 Tj0 偏大，ΔTj 就会偏大，而 ΔP 恒定，导致测试的器件 Rth 偏大；而采用栅压延时关断的方法测量的器件真实 Tj0、ΔTj 和 Rth 都会比传统结温监测方法测试的值小，因此 t0 时刻监测的结温差异最终造成器件稳态热阻值的偏差，如表 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrbrrd9ozuIaxdZWLdWzqsg3Fvv7CM08LC0NIYuZBicCKxXNvtHYD1VRlCA6F0ibE7w87jfWdPRTxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_016_22bd7ea827f6.png)
 
 同时结温监测的差异也会影响到其他采用碳化硅MOSFET 体二极管作为温敏参数的可靠性试验中，例如功率循环试验，传统的结温监测方法会导致器件在加热电流关断 t0 时刻测量的芯片结温高于实际结温，这会使器件每次功率循环实际结温未达到设定值，试验应力更为宽松，从而增加了功率循环次数，带来器件寿命更长的假象，无法评估器件的真实寿命，影响器件实际应用的可靠性。
 
@@ -124,13 +124,13 @@
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_017_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_018_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅_MOSFET_基于栅压延时关断方法的结温监测技术研究_images\img_019_7038903c64cb.png)

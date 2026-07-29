@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/QmPWxzLgRLgmo4qvKX4FEw](https://mp.weixin.qq.com/s/QmPWxzLgRLgmo4qvKX4FEw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_000_4fecbf19a39d.gif)
 
 **高速永磁同步电机绕组交流损耗建模：方法、挑战与展望**
 
@@ -34,7 +34,7 @@ K. He, W. Zhao, Z. Wu and J. Ji, "Modeling of AC Losses in High-Speed PMSM Windi
 
 （1）建模方法  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icS5lM9NlWcR95tKIH7pLZMNI21bbjVXwxfEXSd0bnnRQhib6vRM7SR6sMicZAYtick7ls0dzR0jrtIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_001_77dd312b826d.png)
 
 （2）建模挑战  
 
@@ -80,25 +80,25 @@ K. He, W. Zhao, Z. Wu and J. Ji, "Modeling of AC Losses in High-Speed PMSM Windi
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icS5lM9NlWcR95tKIH7pLZMYSrKTVGAiagpOTMA2SibLPv62GucmoFpSJtNA4XenOk4KiaqY29rficgicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_002_7560fd65349f.png)
 
 **5**
 
 **作者介绍**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icS5lM9NlWcR95tKIH7pLZMPFVLQlc1x6Psia0LrlyicanWeHnvF7HarJAa4UpWic6xWFicvsrjQQZ2yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_003_dc3959dc539e.png)
 
 **何开炜**，2021年毕业于大连理工大学自动化专业，获学士学位。现于江苏大学控制科学与工程专业攻读硕士学位，其研究方向聚焦于永磁同步电机的高频交流铜耗建模与计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icS5lM9NlWcR95tKIH7pLZMCaCdb3UshQsXpJXib5hnjTE4St5cpglwWr7vjzfJiaJBw28jeotjjH4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_004_f744ee5d4181.png)
 
 **赵文祥**，博士，教授、博士生导师，国家杰青。现任南京工程学院副校长、江苏大学高效能电机系统与智能控制研究院院长。1999年和2003年分别获得江苏大学电气工程学士和硕士学位，2010年获得东南大学电气工程博士学位。承担国家自然科学基金重大项目、国家科技重大专项等20余项国家级、省部级科研项目，第一/通讯作者发表SCI一区论文60余篇，获国家技术发明二等奖1项、省部级科技成果一等奖3项。曾赴香港大学、英国谢菲尔德大学交流访问。主要研究方向包括电机设计、建模、故障分析和智能控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icS5lM9NlWcR95tKIH7pLZMbTUddS1MCM3vw2ZcPV4GEglViaEzic2uzb0OFBuBlHyngCviavSTmB8AQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_005_6b475740d6e9.png)
 
 **吴中泽**，2010年和2013年分获东南大学电气工程学士和硕士学位，2017年1月获英国谢菲尔德大学电气与电子工程博士学位。毕业后，于2017年1月至2018年8月在英国华威大学华威制造集团（WMG）担任电机研究员；2018年8月起加入英国巴斯大学先进汽车推进系统研究所（IAAPS）机械工程系，任特聘研究员。后于2020年8月至2021年1月转任该研究所讲师。吴中泽教授自2021年3月起任职于东南大学电气工程学院，主要致力于电力推进系统用先进电机与驱动技术的研究。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icS5lM9NlWcR95tKIH7pLZMHCZ2CLEQevjnpl0LRYQzIjWdtwKFEfW3MlhuDbprHhnN96FAGV3BLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_006_8983913fd26c.png)
 
 **吉敬华**，博士，教授、博士生导师。于2000年、2003年和2009年分别获得江苏大学电气工程学士、硕士和博士学位。自2000年以来，一直在江苏大学电气信息工程学院工作，现为该学院教授。2013年至2014年，在英国谢菲尔德大学电子与电气工程系担任访问学者。主要研究方向包括电机和电机驱动。
 
@@ -110,7 +110,7 @@ K. He, W. Zhao, Z. Wu and J. Ji, "Modeling of AC Losses in High-Speed PMSM Windi
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -124,15 +124,15 @@ K. He, W. Zhao, Z. Wu and J. Ji, "Modeling of AC Losses in High-Speed PMSM Windi
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -140,15 +140,15 @@ K. He, W. Zhao, Z. Wu and J. Ji, "Modeling of AC Losses in High-Speed PMSM Windi
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -156,15 +156,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\综述系列_I_江苏大学赵文祥教授_高速永磁同步电机绕组交流损耗建模_方法_挑战与展望_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

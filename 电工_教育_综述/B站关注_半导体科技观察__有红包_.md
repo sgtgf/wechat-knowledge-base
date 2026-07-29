@@ -27,6 +27,6 @@
 
 3、参与用户，审核通过后随机奖励**红包。**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWgMKDJSic8ibuqBQ7d7YxwAJGzHCl39WlwKciaxrQmnDAoAWzePhg4tu3xmUib7cpTS4Cob06pApDbtrQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\B站关注_半导体科技观察__有红包__images\img_000_b745b3cbdb7b.gif)
 
 **参与活动、领取奖励，请点击阅读原文**

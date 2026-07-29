@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/WLRjVCapTUh6UC9OfOdCGg](https://mp.weixin.qq.com/s/WLRjVCapTUh6UC9OfOdCGg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLViaOg8RMOX2DlfU5ez88BNlS2s7cZTJ6YHxw3KWL39pbwufI8mzcx2eA/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_000_5b288f01081a.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLViaOg8RMOX2DlfU5ez88BNlS2s7cZTJ6YHxw3KWL39pbwufI8mzcx2eA/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_001_5b288f01081a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVXdr9Ze4RBe9dx32ONuicVl46OThUvh5p8GKicUL6ylsua5FcIlnIFSGQ/640?wx_fmt=jpeg)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_002_7c7ff44fa8e2.jpg)
 
   
 
@@ -86,19 +86,19 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210434?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVmysfGnNpYHIeGyWPmj1xohXS3CxMwq0WbiaWMEdPwxEg0RroicIbY13g/640?wx_fmt=jpeg)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_003_3ed7c62c48e7.jpg)
 
 图 1  L2RALDA, L1RALDA, L2ROLDA和L1ROLDA的收敛性分析
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVr7ic4l5KAfpGKBsXjny3OicGkGZZYvyMeHVibNtVpe2Hqa73HUIlaHhJA/640?wx_fmt=jpeg)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_004_75ce69e22c82.jpg)
 
 图 2  L2RALDA, L1RALDA, L2ROLDA和L1ROLDA的错误率与参数的关系
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVO4htLHIsFu5SibbUg11VA8xViaK3qe037JibUWtibUwppmTzafDibB3pHicg/640?wx_fmt=jpeg)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_005_79aac3e581fa.jpg)
 
 图 3  数据集上不同方法随维数变化的错误率
 
@@ -110,7 +110,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210434?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44D8tchRCnL8lwBY69LicyLV1ey1NhTwlQZyHnD2ol8VfsGAuvBD7RoZ3TvcicQTaw0s3QC7hQMicJjQ/640?wx_fmt=png)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_006_390f60e2ef68.png)
 
 **梁志贞**
 
@@ -118,7 +118,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210434?viewType=HTML
 
 E-mail: liang@cumt.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVxjRG2ygnnxl6BibiaXHtOB42iaibGb9Im3pUIj4f8Z4vh74vGm331hyLMQ/640?wx_fmt=png)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_007_e0c1fd856bcd.png)
 
 **张   磊**
 
@@ -326,49 +326,49 @@ http://www.aas.net.cn/cn/article/id/17127?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVwlKFibeLr7Pr8jCPgnplMoeaFTCjytkoRqUF4p1uyVicJ8xkl1mVIt6w/640?wx_fmt=png)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_008_058c64cd8082.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44D8tchRCnL8lwBY69LicyLV3hvHUBLq8YD8P1YtOp3dvGPdaZFZjibxEqUv9Tmhosibk1ayCsI5LJPA/640?wx_fmt=png)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_009_dda459a5fba8.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_010_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_011_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44D8tchRCnL8lwBY69LicyLV7QU97xU7AQS6wVwlaiaE6c5GG0bJCx0J4ic6iblvHLedqG8ia5ER9TDiaBw/640?wx_fmt=jpeg)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_012_981453e23c1c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_013_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_014_6a54d0796eb9.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_015_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_016_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVqwv5nH9Bc5LqIuOjU31nzcFV5IdWWekWvB6ibCI9iaPCNUMp6rKBDiabg/640?wx_fmt=jpeg)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_017_ed4d4fa6ce3b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_018_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_019_6a54d0796eb9.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_020_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_021_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44D8tchRCnL8lwBY69LicyLV05bkdKHamjj8zowX9bzwZ2k36wjOTafsRYDp5UXaQLDNqcL7aANtibw/640?wx_fmt=jpeg)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_022_f62e4178c440.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_023_6a54d0796eb9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44D8tchRCnL8lwBY69LicyLVLEIVAsDpTUPXJOQH0Y7WdWvgBbI3H6y7TfhoZicSvgPlGCXY1RmQicHw/640?wx_fmt=gif)
+![](面向Kullback_Leibler散度不确定集的正则化线性判别分析_images/img_024_6a54d0796eb9.gif)
 
 **长按二维码｜关注我们**
 

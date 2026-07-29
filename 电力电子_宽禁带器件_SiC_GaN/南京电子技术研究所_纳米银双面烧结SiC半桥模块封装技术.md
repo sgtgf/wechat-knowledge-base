@@ -29,7 +29,7 @@
 
 半桥电路是构成逆变电路、脉冲宽度调制（Pulse Width Modulation, PWM）整流电路、多电平变流器等众多电力电子电路的基本单元，因此本文以 SiC金属氧化物半导体场效应晶体管（Metal-OxideSemiconductor Field-Effffect Transistor, MOSFET）半桥电路为研究对象，开展纳米银双面烧结工艺技术的研究。SiC半桥电源模块的原理框图如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvsibwq5ezl7D2EJaCVbAjCUmPbmP8WyRv9jzmO7eO21gGodn2JjqWiauQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_000_1930dc464320.png)
 
 SiC MOSFET裸芯片选用基本半导体公司的BC1M032120，其额定工作电压为1200 V，漏极电流为84 A。芯片的漏极、源极采用纳米银双面互连技术，降低大电流传输路径的压降，芯片漏极通过纳米银有压烧结与基板互连，芯片源极则利用成型焊片通过纳米银无压烧结工艺与封装基板连接。为了降低封装热 阻及材料间的热膨胀系数，选用氮化铝DBC基板和钨铜底座。
 
@@ -37,7 +37,7 @@ SiC MOSFET裸芯片选用基本半导体公司的BC1M032120，其额定工作电
 
 整个模块的装配拟采用图2所示的工艺流程，芯 片底部粘接采用先进连接公司的有压烧结纳米银焊 膏，芯片表面与成型焊片的粘接采用先进连接公司的 无压烧结纳米银烧结焊膏。首先，在氮化铝DBC基板 的上表面丝网印刷一层纳米银焊膏，在空气中预烘烤 干燥，去除多余的有机溶剂。然后，使用自动吸取设备 将SiC芯片置放于纳米银胶上，并使用烧结压机进行 有压烧结；在SiC芯片上方，用点胶机将纳米银无压烧 结浆料涂覆在芯片和基板表面，用以进行银成型焊片 的无压烧结；栅极采用引线键合实现芯片与基板的电 气互联，与外部连接的端子在回流焊炉内使用喷射式 点胶的锡银铜无铅焊锡膏进行焊接。最后，采用硅胶 将模块封装进行绝缘处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvatTicCHYcEM094VaozAxmxc138nTCbBLMQ5UDcJ4WjFTS7xbiaC5XAibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_001_6cf6f3df104e.png)
 
 **2.关键工艺技术**
 
@@ -45,21 +45,21 @@ SiC MOSFET裸芯片选用基本半导体公司的BC1M032120，其额定工作电
 
 成型焊片设计和制备是纳米银双面烧结的核心技术。成型焊片的设计应综合功率器件的焊片尺寸、电流传输特性、最大结温等因素，通过热机应力的仿真及优化得到。而且成型焊片的加工和制备要求对后 续互联的可靠性也至关重要，需要对焊片的镀层体系、 结构形式、内在应力等展开相关研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvVibOs1GsjAlKb9JicPlEAX5cALEQ8le3VycwYdFfrYxLUQ5Qtich4DhdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_002_3e275eceaffb.png)
 
  热机应力仿真模型如图3所示。为了更好地在 模型上应用边界条件并节省计算时间，仿真时去除了远离芯片的基板边缘区域并在基板下面增加了 一个2 mm厚的冷却板。对于热边界条件，模块的初始温度为175 ◦C，室温为60 ◦C。在冷却板底面增加 20000 W/(m2 ·K)热传递系数且将其余表面设定为隔热。散热时间为1s，1s后提取并观察互连层的温度以及压力分布。
 
 将成型焊片设计成穿孔结构形式，这样不仅可 以起到压力释放的作用，还可以作为扩散沟道满足无压力烧结纳米银胶料的氧化需求。如图4所示，在 ANSYS中构建了3种不同的芯片互联方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvvIO5n2VdhBOaaEZxxZaBMuvrnf6K71RR8nG2Xic60EswEnhEzG5gibiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_003_2befeff9cd71.png)
 
 3种方案的仿真结果对比见表1。从仿真结果可 知，3种方案对散热后的最高温度几乎没有影响，但增加开口可以有效释放应力。对于本项目采用的芯片， 圆形开口（方案二）与十字形开口（方案三）有几乎相 同的结果。针对圆形开口焊片，通过改变其厚度进行应力优化。由优化结果可知，成型焊片上的最高温度保持恒定，而芯片面以及DBC面上的最大应力会随着 成型焊片厚度增大而上升。然而，太薄的焊片在处理过程中很容易变形，会对可靠性产生影响。综合考虑 这些因素，最后选择厚度为100 µm的焊片。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tv1WOicVAvRlw6qQmQAhAN0vMDz4m508uFMLJSyI6iatkWjIeOvPMGYGoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_004_42f5f76517e5.png)
 
 SiC芯片双面烧结的热电仿真模型如图5所示。由于银具有最低的热点温度、良好的导热性和抗氧化性以及优异的烧结能力，所以仿真直接选择了银焊片，厚度设定为50 ～ 300 µm。作为热边界条件，环境温度为60 ◦C，半导体内部生成的热为 10.5 W/mm3，DBC基板较低一侧的热对流规定为 20000 W/(m2 ·K)。图5给出的是100 µm厚焊片的温度和电流密度分布。由仿真结果可知：在所定义的输 入功率下，产生了大约113 ◦C的峰值温度，位于芯片中心；最大电流密度则集中在焊片与芯片的接触边沿及焊片拐角处。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvsSLSRjZH2gSRknSWea2qGSuWicdJlgmOhUBzicx81qe18icIlD2VM2Z4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_005_a9f83e10c756.png)
 
 使用超短脉冲激光对银焊片进行蚀刻处理形成所 需的开孔形状。较高的激光功率会导致边缘不均匀并 有烧痕残余，适当减少高功率激光重复次数并增加低 功率重复次数可以避免这个问题。为了便于后续的成 型处理，将银焊片加工成图6（a）所示的引线框形式， 通过框架边沿的定位孔可以在成型处理的过程中借助 销钉来固定焊片。焊片成型工装如图6（b）所示，经过 激光处理的框架形式银焊片被放入下板内，下板的挖 槽与成型焊片最终结构匹配。中间接口是折弯焊片的 冲床，并配备了压件、弹簧等成型工具，成型时借助上 板压紧来折弯焊片。
 
@@ -69,11 +69,11 @@ SiC芯片双面烧结的热电仿真模型如图5所示。由于银具有最低�
 
  氮化铝DBC基板与SiC芯片互联的纳米银焊膏 通过丝网印刷工艺进行涂覆。采用厚度为80 µm的 漏印网版，根据纳米银浆粘度以及印刷厚度和均匀 性要求，对丝网印刷过程中刮刀的前/后向运行速度、 压力等参数进行优化，使得印刷纳米银浆的厚度为 (100 ± 10) µm，高度均匀性小于15 µm，满足大尺寸 SiC芯片的有压烧结要求。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tviaMF0p9PfKl0BtWy7eBaTWFGF5G2DOz7BibAV9pib0bzvp5Xdtb1cAong/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_006_104dafcc9101.png)
 
 用于成型焊片无压烧结的纳米银焊膏采用先进的 喷射式点胶技术进行分配。喷射式点胶为非接触式点胶，可以最大限度地减少胶滴的拖尾，获得更小的胶 滴间距和更优的涂覆焊膏一致性。采用10 × 10胶 滴矩阵对排布的间距参数进行优化，直径为430 µm的 胶滴（点胶头大小为300 µm）的优化结果如图7（b）所 示。随着相邻胶滴间距的减小，纳米银胶的平均厚度 逐渐增加，而表面粗糙度呈下降趋势，当胶滴间距小于 300 µm后，表面粗糙度变化较为缓慢。点胶后焊膏的 厚度和其表面粗糙度是一对相互矛盾的参数，通过图 7（b）的曲线可以发现，相邻胶滴间距为300 µm（即相 邻胶滴的重合比例为30%左右）时可获得最优的点胶效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvZaAYbQXl0knicVGf8oiapURXliaZvsPlhkZf1bDibVhFibO2kE9Uqs7F9UQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_007_f73cd5877cec.png)
 
 **2-3.纳米银烧结技术**
 
@@ -81,15 +81,15 @@ SiC芯片双面烧结的热电仿真模型如图5所示。由于银具有最低�
 
 运用田口试验设计方法对影响纳米银焊膏无压低 温烧结质量的工艺参数进行分析研究，获得了最优的 无压烧结曲线参数（表2）：干燥温度为90 ◦C，干燥时 间为10 min，烧结温度为250 ◦C，烧结时间为30 min， 烧结气氛为N2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvNQtynoOPCf2f1bP99swNSLBuOVibXvmQrfSMFjY9CAPGtKpG0Lic40xA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_008_90bc06ca5f6e.png)
 
 图8为纳米银有压及无压烧结剖面显微结构图片， 有压烧结的孔隙率和致密化程度明显优于无压烧结。有压烧结的烧结层厚度约为22 µm，无压烧结的烧结 层厚度约为200 µm。对纳米银有压烧结的芯片进行 剪切强度测试，结果大于22 MPa，芯片在剪切试验过 程中都出现了芯片碎裂，这意味着有压烧结界面的剪 切强度大于芯片材料本身的强度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvVySxtvSu7j4DrYOj2P4TeozNI41Txkv6N0FSSzVlPYibRoyQkRM9gJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_009_455cff3d76e1.png)
 
 对田口试验的烧结温度和烧结时间交叉匹配9个 分组样品，对银焊片与DBC基板的剥离强度进行测 试，测试结果如图9所示。由测试结果可知，所有无压 烧结样品银焊片的剥离强度都大于5 N，银焊片通常 在烧结层脱落之前就已断裂，满足产品设计要求。从 测试数据对比可知烧结的最佳工艺参数为：烧结温度 250 ◦C，烧结时间30 min。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvLWHUia9azBYbjbne3PzvSqxBKyFFSy6hJWQDGTmwH6qDEVnsNGPfESg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_010_06c20cb438a3.png)
 
 **3.性能测试**
 
@@ -97,14 +97,14 @@ SiC芯片双面烧结的热电仿真模型如图5所示。由于银具有最低�
 
  采用三线法对半桥模块中芯片的静态特征进行检测，图10（a）、（b）分别为样件的输出特征和栅极泄 漏电流。由测试曲线可知，该芯片的栅极泄漏电流< 1.5 nA，输出特性曲线与芯片手册一致，因此双面烧结 前后芯片的性能未发生明显变化。对半桥模块进行双 脉冲测试，图10（c）和（d）分别为模块的开通和 关断波形，模块开通关断的电压和电流分别为1 200 V 和84 A。开通时间小于125 ns，关断时间小于75 ns， 开通和关断的速度非常快，而且开通关断过程中电压 和电流波形无过高的震荡和尖峰，漏极的电压过冲6 12.5%。开通关断过程中的基本参数及损耗和SiC功 率器件的手册值相差不大，能够满足使用要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1AXYgFwcBYOlu2P8hp6tvZOicrbPLh3Z2Niap5KpLqu6bjBcDWgZaCxxOQvKQiaeztlhPibSQvHAHXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_011_e758b55d87fd.png)
 
 **4.结论**
 
 本文采用银成型焊片并结合纳米银有压和无压烧 结工艺技术实现了SiC芯片的双面烧结互联，满足高 功率电源模块大电流传输对低压降及高效散热的需 求。文中重点论述了成型焊片设计制备方法、纳米焊膏高平整度点涂及纳米银无压烧结等关键技术。本文的研究工作对SiC功率器件及纳米银烧结工艺技术在 高功率电源模块及射频前端模块中的工程化应用具有 重要的参考价值。后续仍需要对纳米银双面烧结技术 在高温环境中长期应用的可靠性、高温银扩展风险等 方面开展进一步的研究，并结合先进集成封装工艺技术开展相关的应用研究。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv5ysLdiaW96X2Gc8cElM2j0tVFNnhbkSPYIhDVYbzRz3k0cLT3PdHFWg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_012_6e0d5c49a49c.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIDa65NThz7icmXgD9ukickv9ibtj9UXrU3X3QeRWc2zECfiaJzSLa0Jdovw5FbjI5QJ8icQcBDPYjFHQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\南京电子技术研究所_纳米银双面烧结SiC半桥模块封装技术_images\img_013_a070b6585631.png)

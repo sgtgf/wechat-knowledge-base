@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/O-xKYaKk5L8UkzV23HrTJg](https://mp.weixin.qq.com/s/O-xKYaKk5L8UkzV23HrTJg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRgyibE9PLhAm9F6M9xxsYHK8vLWZVaFSbvMp41Mgxx07TysmwGleUY3kH9I7UL89TicgBZa2xDgnkg/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_000_51e964a3af24.png)
 
 **_★★★_**_SCD-9---NMOS用防反接电路_**_★★★_**
 
@@ -13,7 +13,7 @@ ____€1.___复杂工况_
 
 对于不太熟悉汽车电子产品设计的工程师而言，可能会疑问为什么汽车电子产品的防反电路设计需要特殊考量？如**_图9-1_**所示，汽车电源系统是极其恶劣的系统，数以百计的负载挂在汽车电池上，同一时刻这些负载的工作状态各不相同，也无法确定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubsNqjZDEFLKEib2LlBCia2N7OBLlI9CpzFurgBrnIsodajsMWSicA6W01A/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_001_74098e887d68.png)
 
 **_图9-1：复杂工况现象_**  
 
@@ -23,15 +23,15 @@ ____€2.___复杂测试_
 
 为了覆盖这些汽车电源线上可能存在的各种脉冲干扰，行业协会和各大整车厂纷纷制定了相关的测试标准，用来模拟电源线瞬态脉冲，比如ISO7637-2、ISO16750-2，还有奔驰和大众等车厂测试标准等。由于防反电路是产品最前端的电路，它将直面这些严苛的瞬态脉冲。其中，以下瞬态脉冲和防反电路的设计息息相关。它们有的负压可达-100V，长达2ms，有的电压可能跌至4.5V，并持续100ms，有的甚至在汽车电瓶上叠加交流，电压频率覆盖15HZ至30KHZ，幅值可达6V，例如**_图9-2_**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubK8JhSyWtZ5cibCvKYIaic5IFicoWZqOsKmnVTHib8mVriaUFBhTs8WHrCCg/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_002_c82f2fea62f1.png)
 
 **_图9-2：ISO7637脉冲测试模拟波形，负压可达-100V，持续达2ms_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ub0PiaNHf8G8L7dQRVBXgsDCY0w5dFibGOTF3y5S4qAB7ibvSW81lYdMIlg/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_003_365a590661ef.png)
 
 **_图9-3：ISO16750电源间断测试，瞬时跌落可到4.5V，持续时间100ms_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRXS7lZouMick3KJaqncf3ubvtjyguNYuaIcNI4iatYE8BCpicYeDupdpe7EpNzPmIaLRDZ7qBx0lyOg/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_004_dd52f7d84ef8.png)
 
 **_图9-4：ISO16750电源测试，叠加交流电压幅值达6V，频率15HZ-30KHZ_**
 
@@ -39,13 +39,13 @@ _______€3.____NMOS防反接___
 
 防反接的使用原理是NMOS的自驱效应，正常接入时，自己驱动NMOS打开。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0KlunzhHC3AfCWUohyuSxJiaN8R5fwGFFYIXgLjq14XulawUgt4USq9pD2w/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_005_a3b5db471a56.png)
 
 **_图9-5：NMOS防反电路_**
 
 如**_图9-5_**所示为低侧端NMOS防反接保护电路，当接口电源正常接入，因为MOS管存在体二极管，所以MOS的GS两端电压=VIN-0.7V（体二极管压降电压）。这个电压大于MOS管的VGSTH，MOS管即导通，并且LED会被点亮，提示电源接入正常（也可以将LED反接，在接入不正常时，LED会点亮提醒），导通后体二极管相当于被短路，0.7V的压降便不复存在。当电源反接时，NMOS的GS两端电压始终是负值，MOS无法导通。其中Rg是降低NMOS导通时的脉冲电流和分压，稳压二极管D是避免当输入电压过高时导致GS两端电压超过额定值，损坏MOS，假设GS两端电压过高，D会进入反向击穿工作模式，那么在一定反向电流范围内反向电压不随反向电流变化，以此来稳住GS两端的最大电压值不超过额定VGS。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0KluxvbhMeGp6OxEv2iadQ8cKMIxMRhS2pWvv6s6UYWdUf57PELribE31PUg/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_006_e68acbcf6df4.png)
 
 **_图9-6：优化后的NMOS防反电路_**
 
@@ -67,13 +67,13 @@ _______€5.____二极管防反接___
 
 二极管防反接电路比较简单，如**_图9-7_**，和MOS管防反接电路相比，优势在于电路简单，成本更低，缺点就是二极管导通压降比较大，并且是电流越大，二极管发热量越大，虽然有低压降二极管（肖特基二极管），但电流越大，发热量越大的线性规律没有改变，因此二极管防反接仅仅适用于电流不高的电路，一般大于1A就不再考虑二极管防反接。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0Klu32bmmDkianVPzMuiaIIKTtuiclwWcXeuibW6qjK06SYhRRqfBO4uMOyRLQ/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_007_75087ca48ac8.png)
 
 **_图9-7：二极管防反_**
 
 _______€6.____继电器防反接___
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT5ByjQrmUX1BXRdQPB0KluqcYDiaL6rBlsMaibNpWh3z2hUcqstDJVMthWIMOaf561cE9b0KJCicHew/640?wx_fmt=png)
+![](SCD_9_如何使用NMOS设计防反电路_images/img_008_43cb5938ef6e.png)
 
 **_图9-8：继电器防反_**
 

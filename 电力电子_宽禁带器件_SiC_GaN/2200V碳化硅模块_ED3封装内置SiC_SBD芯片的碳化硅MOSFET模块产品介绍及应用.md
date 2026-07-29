@@ -5,7 +5,7 @@
 
 在电力电子领域，随着碳化硅技术的成熟，对模块的功率密度和可靠性要求也越来越高。EconoDUAL封装正是为满足这些严苛需求而设计的标准化功率模块，尤其在要求严苛的新能源、工业驱动及牵引等领域表现突出。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMVsCuwgb6XBogpweOlw8wE0uyfATFGjHgek9Bk3gWWdZhdrzp26cCf0FMpYzs8f3vL9vaprXicYrk0UiarwSSzmzoNYmSaSrJUU/640?wx_fmt=jpeg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_000_18affbc6e1ae.jpg)
 
 ### 一、碳化硅赋能：EconoDUAL封装的核心优势
 
@@ -55,11 +55,11 @@ MED封装模块的特点
 
 MED封装模块的参数
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNqA9SaDkQeQgiaReEYcksXhM9ADJxLESgojOyYxWRghGOXYkGYzQbdFiaBXBvhAyVdGzV24HHh2FCaEcvxPj4FrF6BJNSYPDRzs/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_001_0f37146c9c13.png)
 
 MED封装模块拓扑电路图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOd9FyS5pWHhEZ74Dctxgdh8mBQtSKBkWENBnQJPlG6jzIjwPibaVttw078vUItW1ymV7XV2mJLwowNojN2CDDSmhcRwas7RovQ/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_002_2c37f1398c3d.png)
 
 ### 
 
@@ -67,37 +67,37 @@ MED封装外并二极管模块拓扑电路图
 
 ### 采用第三代碳化硅MOSFET芯片的封装的产品线，电压650V~1700V,电流210A~900A。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPhyCibLse1DlFCXq7y19YBodib3OzN7w2EicFfwSZnicfHFAich0cMthjVQWyBqnibSxPKXj8CHfuTw0rEUWyNNPq94Qsbj3iaoptFIw/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_003_a3b3e7b291ef.png)
 
 650V800A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPZW5uOE8o4k8oNZZw8BtIUuH6f8UR36gCSjVKvv4icyySicCYwVChjuWk9pHFtvqgibaFQM3675X4uOa8Z6W7tcZEto72lLj820M/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_004_2c7663b67163.png)
 
 1200V800A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMrNPSfAbP8n6O7D463U4PXrXpM5pW4HGXawywI6OrpMdHT0mNqmZxJoJibWxWLIak2N1kXmbIwDcuT8Yn63eqdxGJibVK55psiaM/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_005_fce2fac3ddff.png)
 
 1200V900A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNnicy4BXuUuPyMbibOZ5K3ZBm8GptHKcYxpEl9bO7KlUeHyFLgTFBgCAfdH0GK4gR7Gx1Piajk78lDVtCiciabThjnkfyx20gicAaWk/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_006_07c40ffac953.png)
 
 1700V800A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPw5QG3fPiaMuvgqTqXccYQRmib5s52Y5RJkX0sItcDOV6tDH4YibzMSOqsAicZpcXKMiaKl1ibwIxiapCGibHl2zr32e5NrWg8iaVOwsia8/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_007_9b313c996f38.png)
 
 1700V900A产品关键参数表
 
 采用第四代碳化硅MOSFET芯片的封装的产品线，电压1200V~1700V,电流1000A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOQ8ouEWPHfRxaUtvCKtKHsgPl0YY0ahqU6zWCnVUq5QIgc56cfvP9QIX2j6iantrnrXy0icT686zvdOTR1urrX67ALeo3ShNujU/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_008_04d23a201921.png)
 
 第四代SiC MOSFET产品线
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOIHiaabVI1H56jcVH6XNPTpa6dGx0Oj4Dsia4mTsGQ0WmGN6odDveNHdANyzOCv9yAKsrZ8ll9VzZbDTfpkibWly1pL8u9ge66tU/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_009_66be6d25e448.png)
 
 1200V1000A产品关键参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMA4Npqxt0RN8wREhHo3zickwASHFicdaK4icwwqYUP235OGul1gOsFsKacBCEL2WC7MkhWcXmjA6pGf4TGAzq2dMrtXgjMNpM6C8/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_010_d75266d501c7.png)
 
 1700V1000A产品关键参数表
 
@@ -107,19 +107,19 @@ MED封装外并二极管模块拓扑电路图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUoia8rUdlC1o40vJk99SMocyMtUfFby6DrY8gQN0bQXwPaTI4Vsicer0RbCJYvNocufn3TBbxFHLHib9wqjJOiaia0icPe1cSAdgbY/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_011_591b8f3105a3.png)
 
 1200V1000A产品关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMc6ChBEjiceaodOia7IOLdFkXT6e4ejY473R0X8cpnAlWKUMezvZ3cue3sl8w2hWzAdUTLQJ1925H3B7m504CptX9gEWlvF9joI/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_012_30b3e4c9817e.png)
 
 体二极管特性参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNy1moHYPbUemOlAm43zrcTgLibI5oMCIia4HE8vBCn86P4TX5I8Vam4NFf4ibpN3tia0DicCl6W1sSC5VAWsGHn7MyVzxdR93g5UjY/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_013_0d84fea17b25.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOsK2rIo5TQ1e2GXQUU34jTKnsdgSORPTgBwVFHPSLmJRaEf9XrW5mFMJ7714rLFsT6QWxTdMqj6Exe413tKUXoZ8aDkscPXWw/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_014_b3a7f84c2837.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMETa6Xet43jVzjJcOQnnxibZ0fNLtjicjXNDvBTA5KibwqMjDWZ2leeA1zhibFpyuz9pnafZ2dWbeBC5Q47XJf0CGcTLcwwznbMU0/640?wx_fmt=png&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_015_80d3d6d2b5d1.png)
 
 ### 模块实物+驱动板
 
@@ -129,7 +129,7 @@ MED封装外并二极管模块拓扑电路图
 
 **电动汽车主驱逆变器（800V平台、数百安培相电流）**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMyeTT419oxiakVHeCp8M15Z1SD0hpaCgkRXv5gb1iboTgSgibppoiavxPzufQ5tAG5yjncc0mUBlCJFfZNr4T44ib8Q14uNeKfk7yM/640?wx_fmt=jpeg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_016_cc6c07872634.jpg)
 
 图片来源:网络
 
@@ -137,7 +137,7 @@ MED封装外并二极管模块拓扑电路图
 
 ****光伏与储能变流器（1500V直流母线、数百千瓦至兆瓦级功率）****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOic7KJH1zraXiaAC52DictFFrsKgChlzUmA8zibbnYXxZyno0Lxaj7R7ibfH9hpYvxs9tqKO4XJH6P3lyjCMy9fgxLhrxA32SX35FM/640?wx_fmt=jpeg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_017_2509c81f65aa.jpg)
 
 图片来源:网络
 
@@ -145,7 +145,7 @@ MED封装外并二极管模块拓扑电路图
 
 ****工业大功率驱动（690V及以上电网电压、数千瓦至兆瓦级电机驱动）****
 
-******![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpN7Rq0HxG753aWLkD8T0LoCFiaM1RFEVflEDvnhpQ1Oz2zuPKvey2ZKYFNYv1wSJybz2oMWAibswSibrZdOMbSPYnegTKA1HXqnR0/640?wx_fmt=jpeg)******
+******![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_018_d746130a42e5.jpg)******
 
 ******图片来源:网络******
 
@@ -153,7 +153,7 @@ MED封装外并二极管模块拓扑电路图
 
 ****牵引与商用车（轻轨、地铁、电动重卡的牵引逆变器）****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMcAplUSJMyAQnTAHsibo0TeWlHyW7VRLonqDCxb6S8SaGp5QQP6RibHrvdBkLQsh2iaibydd64w5mU6pF3A5b71hvkBhuuOWMp3e0/640?wx_fmt=jpeg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_019_33e54591b2ed.jpg)
 
 ******图片来源:网络******
 
@@ -161,7 +161,7 @@ MED封装外并二极管模块拓扑电路图
 
 ****大功率UPS与数据中心（高功率密度、高输入功率因数要求）****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNEm0I9tjdRcP9jKfunfS8vnBdmc9b72wDFmvq4AWXojcQrr0pWWvdPt5fKGMDLiamE1uuMlf9dRngFYicJwPIZj2PTMgpjcwibDM/640?wx_fmt=jpeg&from=appmsg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_020_986ddbffb542.jpg)
 
 ******图片来源:网络******
 
@@ -169,7 +169,7 @@ MED封装外并二极管模块拓扑电路图
 
 ****直流充电桩模块（800V/1000V高压快充平台）****
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMsf9gylrIaGkRK3TeRpAd6AndAVNMyTR469GCKflfciaatibn9f4bZmibXcWoe5aib25cgIRsAb93zicGlMiazmISw2YfDbRsgyD1sU/640?wx_fmt=jpeg)
+![](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_021_2662ece9142a.jpg)
 
 ******图片来源:网络******
 
@@ -201,7 +201,7 @@ EconoDUAL封装凭借其**低杂散电感、高效率散热和高集成度**，�
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKm10y9f4hB8ZWukcYWycD5l7RDcnabLJtmJLwBgTjibUCl7fibsXdnOrGUzSRLdRHSia3KddkyVm54ldnUpUm2VuLp1fNuw1qD0/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_022_ed2bdb417be8.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -209,7 +209,7 @@ EconoDUAL封装凭借其**低杂散电感、高效率散热和高集成度**，�
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMSoiaic7Je2zCu2hMWpibDHTNTrLmcokibYjmeuZ40VVE6XYhmMmFeIhNuIM0njerFbJnxgWiash6akzSAv0R3hNtm3thk7IFP6zt0/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_023_9607367cdfd8.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -227,7 +227,7 @@ EconoDUAL封装凭借其**低杂散电感、高效率散热和高集成度**，�
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOw4YayJknffb31fKLa4xsFwvUwKBJnWpAyyMtd9VTcDp2eYhdtyicvXagiaDcKAZibTyjRIEbtI25bfUyibeOZRxowicB3ic6mwDImI/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_024_7658b5918e24.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -275,14 +275,14 @@ EconoDUAL封装凭借其**低杂散电感、高效率散热和高集成度**，�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOK6gGKADla1RUJLJ0oUwAxrha8y7M7HgHVQAl1Vlia7h3Oma20d4ib99Cem1y9k7A9aDsYNgHM7IC3Yib9SWZBf606ehPc7OBoIs/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_025_e0533a51d3fa.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNMRpyN80lsN2FnABb1UMQia7NMWMzYkS9fcmNex0zsgAwHxwUzZwXP3npvmDtRffF8U8ibq2aBKcOXhLibavvreEqItqqNbfwbzI/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_026_eb23a1e51d7e.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPe58icPZkcicOQ3rMsmTarOiaUB6phib4rAwxtLUOSWdDLiaFD0SpZWBPiaveX7DQMTmwV384j7iccOJOp2LUpiaQjNc9yCPD8xD4Ib70/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](2200V碳化硅模块_ED3封装内置SiC_SBD芯片的碳化硅MOSFET模块产品介绍及应用_images/img_027_a9c22235f3f1.jpg)

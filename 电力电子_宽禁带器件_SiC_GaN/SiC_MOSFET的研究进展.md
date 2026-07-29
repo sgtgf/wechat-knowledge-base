@@ -24,7 +24,7 @@
 
 以硅为半导体材料的主流时代已经过去,以碳化硅为主要材料的宽禁带半导体器件已经开始登上 半导体器件的舞台,碳化硅材料以其比硅材料更为良好的物理特性和特殊的物理结构,SiC场效应晶体(SiC FET)相较于Si场效应晶体(Si FET),具有显著的优势,主要体现在更高的击穿电场、电子漂移速 度、导热性等方面. SiC的临界电场强度是Si的10倍,这意味着在达到同样的击穿电压时,SiC器件所需要的漂移区厚度大大小于硅器件,从而使得SiC器件的漂移区电阻减小. 这种特性使得SiC FET具有更高的耐压能力和更低的导通压降. 在SiC半导体中,电子漂移速度是Si基半导体的两倍. 电子移动得 越快,设备的开关速度就越快,从而在开关转换期间降低功耗. 此外,更高的开关频率允许使用更小的磁体和电容,这对于提高系统效率和功率密度尤为重要.SiC的导热性大约是Si的三倍,这意味着SiC器件可以在更高的温度下工作,而不会像Si那样受到温度的限制. 这种优异的导热性使得SiC FET能 够在高达200℃的温度下工作,而Si的典型工作温度限制为150℃ . 结合这些优势,系统设计师可以设计出更高效的产品,同时使产品更小、更轻,最终降低成本. 尽管与同等硅器件相比,碳化硅器件更贵,但如果考虑到使用更小的无源元件和更少的热管理带来的成本降低,整体系统成本可降低20％ . 综上所述,SiC MOSFET在高功率应用中非常有利,如要求高电压、高电流、高温、高导热性和较轻总重量的应用场景. 金属氧化物半导体场效应晶体管和肖特基二极管(在分立和功率模块封装中)是利用SiC的主要 技术. 这也就使得SiC材料的器件更加受到半导体功率器件科学家的关注. 目前SiC MOSFET已知的结构共有200余种,其中最为常见的就是3C-SiC(立方堆积结构)、4H-SiC(六角堆积结构)和6H-SiC(六 角堆积结构). 由于4H-SiC的原子结构较为特殊,这使得4H-SiC具有相对其余两种材料更宽的禁带宽度,如表１所示.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnYakWOFSZ0E1TulnUlYibPzrEtTic1q8Ha0aT4oxZKhFnruGXN9oiapyBw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_000_06eec12b2458.png)
 
 我们可以根据表１得知3C-SiC、4H-SiC、6H-SiC三种结构的性能参数,看出4H-SiC结构对于其余两种结构来说,具有更高的禁带宽度、临界击穿场强等优势. 下面将分别介绍三种结构并根据具体的实 际应用,举例说明为什么4H-SiC结构成为了第三代半导体的新星材料.
 
@@ -34,11 +34,11 @@
 
 2020年,美国科罗拉多大学博尔德分校的Fardi等对3C-SiC MOSFET进行了二维器件仿真,其结构如图１所示;并与基于一维分析理论模型的计算结果进行了比较. 该设计需要改进较大面积的掺杂剖面,以避免局部高场强区域导致快速击穿. 结果表明,除了三极管和MOSFET饱和区之间的过度外,一 维模型计算结果和二维模拟结果基本保持一致. 从阈值曲线中提取的有效迁移率显示,该值约为通道中局部低场迁移率的一半,即116~106cm²/Ｖ·ｓ,而不是200cｍ²/ Ｖ·ｓ. 仔细观察发现,这是由于反转层中电荷的减少,而不是迁移率的实际减少,栅极、沟道和体之间的电容分压器是原因,亚阈值理想因数也证实了这一点. 并分析表明,给定所使用的参数并假设衬底足够薄,600V的3C-SiC MOSFET可以具有比4H-SiC MOSFET低两倍的导通电阻,这是由于其更高的沟道迁移率和更小的击穿场.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnv6Hp3sPTVspN0bZpObhRJ1sMR48sHz2Nt2yVAH4m2zBwzgY5rZ3yNQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_001_384010ccf0a7.png)
 
 2021年,英国诺丁汉大学工程学院的Arvanitopoulos 和英国考文垂华威大学工程学院的Antoniou等提出了一种新的3C-SiC MOSFET结构,结构示意图如图２所示,这是一种新的S-J JFET的工艺,用于可行的垂直3C-SiC-on-Si-n- MOSFET,其打破了关于材料这一方面的限制. 通过同质外延生长P型电导率薄层,而不是利用离子注入形成P区,然后通过非均匀的过度补偿形成P型区. 他们通过TCAD软件建立了该模型,确定了一个相对较宽的安全电荷不平衡窗口,从－65％ ~－45% ,可以适应最终掺杂浓度值的不确定性. 此外,按照S-J JFET 工艺的设计流程不仅能实现3C-SiC-on-Si-MOSFET技术,而且还 能在较为广泛的温度范围(300Ｋ≤Ｔ≤473Ｋ)下实现较为优良的导通状态、高通道迁移率值和正向阻塞能力的潜力.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGndic025kPHJLibkJZZticpZRWncBwgdEaudwwP43VyA3WbCmGRndicjItcw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_002_540d0bd00c26.png)
 
 类似于以上几种3C-SiC MOSFET的理论设计方法,能够实现高迁移率和高阻抗击穿场强,所提出的工艺可以适用于许多集成电路半导体元器件中.
 
@@ -48,7 +48,7 @@
 
 2021年,Chen等提出了一种新型结构,结构如图３所示. 其是一种不同浓度浮动超结4H-SiC MOSFET(DC-FSJ MOSFET),通过TCDA软件进行仿真,这种结构不仅能达到理想的击穿电压,还能有 效降低损耗,其与传统垂直的MOSFET的结构和静态特性相比,DC-FSJ MOSFET具有更高的击穿电压和更低的正向比导通电阻. 这种结构采用多外延技术,在外延层形成浮动P型结构,然后,增加电流扩散层(CSL)以降低电流的损耗. 对浮动P型结构深度、外延层浓度和厚度进行了优化. 这种结构不仅可以实现超过3300V的击穿电压,还可以降低正向比导通电阻. 在相同条件下,DC-FSJ MOSFET的Baliga数值比传统垂直MOSFET提高了27％ . 正向比导通电阻比传统的垂直MOSFET低25％ .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnDs1hTNPM98RibexUlVJSB9b65Ws7jNak4PQqiarmqDGdU5qeMlIF80gg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_003_34ece4893c96.png)
 
 同年,美国纽约州立大学理工学院的kim等通过利用沟道注入的方法使得P阱变得更深, 1.2KV 4H-SiC MOSFET的电路稳定性有了很大提升. 他们提出使用通道植入的方法来实现该结构,为 了进行通道植入,在4H-SiC(0001) 衬底中,以４°截断塔晶格面(11-20) 方向将４°的倾斜角调整到4H-SiC的晶格面(0001)方向. 在正向导通的工作条件下,此结构的4H-SiC MOSFET与传统的MOSFET具有几乎相同的正向导通电阻. 这是近些年首次提出并通过应用沟道注入形成深Ｐ阱这种结构,使得正向导通电阻和抗短路时间之间的关系得到显著的改善,并为更高电压的4H-SiC MOSFET 提供了新的研究思路.
 
@@ -56,7 +56,7 @@
 
 6H-SiC MOSFET是一种基于6H型结构的碳化硅材料制造的金属氧化物半导体场效应晶体管,是一种多晶形态的碳化硅,其晶体结构属于六方晶系,结构如图４所示. 这种结构具有较好的晶格匹配和热稳定性,适用于制造高性能的功率器件,通常我们使用物理气相沉积(CVD)、分子束外延(MBE)等方法以获得高质量大尺寸的SiC晶体. 由于其结构和物理特性较为特殊,使得6H-SiC MOSFET主要应用于变频驱动,电力逆变等领域中.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGn6f4efhDEwIKC7IsmCAJ63Ny8u1mPhxLWXVYufoq9IXqrbnsSxZOyzQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_004_a4d10e020c21.png)
 
 2019年,ABB瑞士有限公司的Cabello等提出了一种基于硼的替 代栅极氧化物配置的结构,以提高SiO2/SiC界面性能,实现能够提升6H-SiC MOSFET沟道迁移率的物理模型. 他们使ｎ-MOSFETS的栅极掺杂工艺应用于6H-SiC MOSFET带隙中,可以有效提高6H-SiC MOSFET中的场效应迁移率. 虽然提升效果在6H-SiC MOSFET中不是十分明显,但 是考虑到场效应迁移率中主要限制因素是能量接近倒带边缘的NIOTS 的存在,可以得出硼处理对NITOS还原还是有效果的,也为4H-SiC和3C-SiC结构研究进展中提供了一种新的研究思路.
 
@@ -64,7 +64,7 @@
 
 从表２可以看出3C-SiC MOSFET、4H-SiC MOSFET和6H-SiC MOSFET这三种结构的物理特性和各结构的优缺点.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGne7hvZx3qsw3zTNFfeMt95V9JSoTUogsIz4Adq4EiaOqKWmiaiasHow5IA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_005_cec8594e66c6.png)
 
 我们可以从表２中通过分析得出,虽文献\[25\]当中的6H-SiC MOSFET工作最佳温度在360Ｋ,但与文献\[29\] 当中的4H-SiC MOSFET工作温度相差不多,与传统的MOSFET对比开关损耗降低了77.78％ . 文献 \[30\] 和文献 \[26\] 相比在同等的击穿电压条件下,文献 \[30\] 当中所设计的4H-SiC MOSFET性能更加好一点,具有更低的正向比导通电阻. 文献\[23\]当中的4H-SiC MOSFET击穿电压可以高达3300V,并且正向比导通电阻与传统的SiC MOSFET相比降低了25％ ,可以投入到工业生产当中. 从文献\[29\]和\[30\]当中看出,虽然文献\[29\]的4H-SiC MOSFET击穿电压相对较差,但其可以工作在更高温度的环境条件下,并且正向比导通电阻更低,具有更低的开关损耗. 综上所述,之所以4H-SiC MOSFET作为SiC MOSFET当中主流的研究对象,是因为其凭借优异的物理特性,成为众多科学家更为青睐的研究目标.
 
@@ -76,23 +76,23 @@
 
 植入外延型MOSFET可以通过低掺杂P型外延层来增强通道迁移率,避免注入损伤器件. 来自日本国立先进工业科学技术研究所的Shiomi等提出并制作了一种新型外延沟槽结构的SiC MOSFET,并将其命名为IETMOSFET,其横截面结构示意图如图５所示. 他们分别使用高质量的 P－ 和 Ｎ－ 外延层作为沟道和沟槽电流的拓展层(TCSL),其可以提高电流扩散的沟道迁移率和体迁移率,避免离子注入引起的损伤和杂质变化. 在此利用现有的离子注入和外延MOSFET( IEMOSFETS)开发的离子注入和外延技术来保护沟槽底部和具有高迁移率的相对低掺杂的外延沟道层. 他们通过优化栅沟槽结构下Ｐ区 的几何结构,获得了 1.8~ 2.0Ω 低导通电阻(Ｒon )和1200Ｖ以上的击穿电压(BVDSS ). 为将来能够获得更高压、低导通电阻的外延沟槽型SiC MOSFET提供了新的研究思路.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnDUqXyUaibpTctrgRIJNcWiap4Srkn7GYCCXzic2SKlorRLtfbdUz25DTg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_006_881fefdbcb81.png)
 
 2.2 注入沟槽型MOSFET
 
 2021年,重庆大学微电子与通信工程学院的Ran等为了降低功率损耗提供了一种新的研究方法,设计了如图６所示的结构,分别为SiC沟槽MOSFET和3D HJD-MOSFET.HJD的价带为1.73ｅＶ,导 带为0.45ｅＶ. 电子势垒高度FBN(约1.48ｅＶ)由费米能级Ef 和导带Ec决定. 当器件正向偏置时,这个势垒高度会导致一个小的正向电压(ＶＦ ). 相反,当器件反向偏置时,它会导致高击穿电压. 而势垒高度DEC将控制寄生二极管处于导通状态,产生大的导通电压(VPN ). 此外,在与HJD同侧围绕栅极氧化物的结构中以及栅极氧化物下方引入了高掺杂P＋层,以提高栅极氧化物的可靠性. 它可以减轻栅极氧化物和HJD附近区域的电场浓度,减少栅极层区域与漂移层之间的重叠,实现高BV和快速开关时间. 通过对其载流子迁移率和HJD同侧的栅极氧化层周围以及栅极氧化层下方包裹的一层高掺杂的Ｐ＋层进行优化,以减轻电场浓度,提高栅极氧化层的可靠性改善了SiC MOSFET的电特性,实现了与具有相同导通电阻水平的传统功率器件相比,HJD-TMOS的击穿电压提高了23.4％ ,米勒电荷和开关损耗分别降低了43.2％和48.6％ . 这些数据表明3D SiC MOSFET在电力系统具有很大潜力.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnpMFnC5tZhfekHfcEnKoiaJ46gLyXCGp1LkKmuIye984rbGibR9WsKsoQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_007_1968821084ac.png)
 
 SiC平面 MOSFET器件因为通道迁移率较低,导致其仍具有相对较高的比导通电阻(Ｒｏｎ,ｓｐ ). 另外, SiC沟槽MOSFET器件可以实现更低的Ron ,这是由于没有JFET区域、更小的单元间距和沟槽侧壁上更高的沟道迁移率. 然而,在阻塞状态下,SiC沟槽MOSFET器件在沟槽角栅极氧化物中受到高电场的影响,这可能导致器件的可靠性出现问题.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnYu6J6JrS0cMtS7bjsHeYraqGecWqJf0HNf0dicCSPUIvS6ia7ictFurCA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_008_fef905dab295.png)
 
 为了实现SiC MOSFET更高的开关速度和更低的开关损耗,提升SiC MOSFET的性能,2023年浙江大学微纳电子学院Wang等研究了栅极漏极电容(Ｃｇｄ )和栅极漏极电荷(Ｑｇｄ ). 由于筛分效应增强,Ｃｇｄ和 Ｑｇｄ随 Ｎ 注入区(Ｗｓｐ)的增加而降低. 与SiC双沟MOSFET器件相比,优化后的SiC MOSFET器件的Ｃｇｄ降低了79％ ,Ｑｇｄ降低了38％ ,Ｑｇｄ降低了41％ . 使用所提出的结构可以实现更高的开关速度和更低的开关损耗. 其结构如图７所示. 利用生长在Ｎ漂移层顶部的Ｐ型外延层(图７(ａ)中的 Ｐ-ｅｐｉ)来保护沟槽底部的栅极氧化物. 所提出的SiC NITMOS器件基于自对准Ｎ型注入技术,加入Ｎ型区域(图７(ａ)中的Ｎ-ｉｍｐ),并通过Ｐ-ｅｐｉ层传导电流. 沟槽侧壁与Ｎ-ｉｍｐ(图 ７(ａ)中的Wsp)之间的横向间距可以通过自对准过程精确控制. 为了减小Ｐ-ｅｐｉ层造成的耗尽宽度,扩大电流传导区域,引入了相对较重的掺杂电流扩散层(图７(ａ)中的CSL). 利用Ｐ＋区实现了Ｐ-ｅｐｉ层与源之间的短连接. 与浮动Ｐ型屏蔽区相比,接地Ｐ型屏蔽区可以有效降低栅极氧化物中的最大电场,提高器件的开关速度,提高器件的短路能力,有助于提高器件的性能和可靠性. 考虑到当前的制造能力,器件的沟槽宽度(图 7 ( ａ) 中的TW)、沟槽深度(图７ ( ａ) 中的TD) 和单元间距分别设置为 1μｍ、１μｍ 和３μｍ. 该通道的长度为0.4μｍ,电子迁移率为40ｃｍ²/ Ｖ·ｓ,另外,在沟槽的侧壁和底部,栅极氧化物的厚度为50ｎｍ. 　 　   
 
 接下来进行列表对比外延沟槽型和注入沟槽型SiC MOSFET的器件性能,分别从击穿电压、导通电 阻、电容等方面进行对比. 　 　
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn2bfOIoGBsmMafZYy3VxGnRK0iboSOPJib4ibS8gwIp5NjmCJDYbhqAWlwCUDYZoFtgPwDG9P90NRXQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的研究进展_images/img_009_7f6f8295f0ab.png)
 
  通过表３可以清晰的看到,目前所有的 SiC MOSFET已经朝着高击穿电压低开关损耗和低比导通电阻的方向发展,文献\[38\]的外延沟槽型MOSFET击穿电压也在1200V左右,但是和文献\[41-42\]的注入沟槽型MOSFET对比之后,发现外延沟槽型比导通电阻明显低于注入沟槽型,但是外延沟槽型开关损耗高于文献\[41\]的开关损耗,性能总体来说不相上下. 文献\[40\]注入沟槽型SiC MOSFET的击穿电压达到了1.7KV,对比于其他的注入沟槽型MOSFET来说击穿电压很高,而且比导通电阻低至1.59ｍΩ·ｃｍ²,开关损耗也比较低,性能总体来说要优于其他的注入沟槽型SiC MOSFET,并且其性能远远优于传统的SiC MOSFET,未来经过更深入的优化和设备的升级,可以得到更加优异性能的SiC MOSFET,并且可以投入到大规模的生产当中去.
 
@@ -104,13 +104,13 @@ SiC平面 MOSFET器件因为通道迁移率较低,导致其仍具有相对较�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIyuRkudQiaNfdEs71HicbaJUtllM09kNhAfJFxY2ZGiaV9mWibh6A1GYdsw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_MOSFET的研究进展_images/img_010_245c527a1674.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIrQXwynl0NGaP6YO71CFOUNHFWlT0gcjWAjK1azdiam38RepJyDOafibQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_MOSFET的研究进展_images/img_011_021c1af932e8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmgdTibG6zhDNGZic2hFib7snIaHALsPp4IyytcIPKezb7uhOMTe0rLQhWVnvLnmNDZmJOKsH8M81vAA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_MOSFET的研究进展_images/img_012_692dcef62208.png)

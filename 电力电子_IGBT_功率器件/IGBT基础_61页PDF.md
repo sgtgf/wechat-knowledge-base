@@ -10,61 +10,61 @@
 
 分享一份65页PDF，讲述IGBT基础，篇幅有限，文末附PDF文档获取方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq8GB7YPwx37XD4Hg4XCM9yWwczskicd9NkgjGxMmpiaibkCVnsZVO83icxQ/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_002_bfe54fa92a7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqicGfbaz70EcKTfq2iaMoiadfjkw5gtufkE5YUxyAXAHflQCJUvicKgtI0w/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_003_05adf9b15981.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqW39vZx3gibH95mpViauO6Z93shgibCNSwpnh0qjtal5krSgvHHawUOJTA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_004_e78f0902cb54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqeDUMcgx4Sj9YhdvW1VttibKic1XpVuIBFZHh4IbYYQj8ZzLWt5icotmQw/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_005_26cca2dcae2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq523xb2fzhKKIVjjgMsRUQfObZ7s4ic5KiaUW2Az4CkJFGPyrCu3miaHTA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_006_2a482281788e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqgopBMBzE1lKn9BicCSJdWPCneMypXZ7PDFl1RYPL9J0bo2jBMNicGwKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_IGBT_功率器件\IGBT基础_61页PDF_images\img_002_238feccfb84a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqKwSkykSQEZY4HtiaSfEush2wl9YleDTujHHaf90gcoMlHx3nSLLgiaibw/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_008_5e9bec59c36f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqDVxD4uHJvy7Q8IofGfkwZ4FR243kSJpWCSmncMbicopsSeI25ibkF3Yg/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_009_f796718b48dd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eqcqq2GvlicjABtOiaCMTov2TWiaLzuFgRZ2Uh5Jlv3LzJk3Uch6r0KuGjg/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_010_ca0f28353c6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqfhWfnnJtLJmJvLOshdLDIgY9DiaNNGcW4xG1TLnmubeeksfXed7ibSoA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_011_4a37b23fd2a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eqc1nCgFZzfJUwCtSjGiaXgQvRpn1vXg5nGMlEGywyk91DQycx7pJIByQ/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_012_b1844959617a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq7Vbreth3QHf2aHd4LiayUU0MYJRPDVt5Ph72icTxVYnS8ZK5EicHU6x6w/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_013_9d5a657c2b79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq2mOGU0ian5yr1mCys5s52dOJ1RahdjobuicZ3BZemokqwYsItbuhfyZg/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_014_a1a1b8365dbf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqWGbr9WdkWouh7Y6T8pvicibvEm2ickhOeGwaQeibW4ESZE4JUI6A9kjDKA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_015_c27ac603af93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eqdv7tCaEbo7lSXmKU6qrRs1oo5Q1s7W4fTLhIFDicsiaAibbZ3YJichwSKw/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_016_7b2f8499e5f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqUEyD3Tq1rcjVWk9iaGaqibQW2dB874bLBMD1uLGszb3GAyH3v1VottEQ/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_017_1d1c4b7918e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq0Ch8ibSVmiaicPROkU9zCl9xXXcyuMryg7sOVhz9YA1KLvYBwia2gHnukA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_018_7b98441a0aa6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqmAria1GAkrkc5KQMBWAIO97xUBGP5BbpBBaeKIoia4V8v9JAOQGZUTeQ/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_019_794fa1ff77bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqlibrboaVQicX52m1iak71LpF7jTlSY3FuVX7wicITPVyrdNO325VH8Jibng/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_020_2101aa289129.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqAvoDcq7vFd9RGeXhU0ocI1FYlsfDnUjhBwupUEh5WA1dqrOl2MY2iaA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_021_e07aa9cf9b2c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq42ic9HKfcaG0j0zrdQFeh4WIB3MGqMFoEuG7v7bXgL8EKV4YvSLIUVA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_022_568c6243045d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqshhbdfStQ0mrVbzMSxG1mILQibNW99AZAb3Hck6julQbJyXFOfcqgcA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_023_de207a3c4019.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eqy1yibyloj3Ol8dZnI9kibGHGudkC4FJAVa7FTYaasKCeLK2gF4fDzWpg/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_024_835480c120aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7Eq8wbkAzwbe8I3QqaZ2bOH7j04PRmoDgicYX2yrH2lPgaMT6sZLibKaJ2g/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_025_45d457f29258.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaWhlDFt5NBerco3lnvJ7EqngZM2nszkkeMYcEnROtArOwWr2VbwmtFdWan8owibc6q6qSBn7RWqyA/640?wx_fmt=png&from=appmsg)
+![](IGBT基础_61页PDF_images/img_026_3b7acab7bee0.png)
 
 加管理员微信号：woniu26a ，并备注“IGBT”，即可获取PDF文档。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6PsiaU2SkLic5a2E6icVYBWmWibhj0xlIjLAKOLsPfRclpgSN4r15Wj2mNRuFo6rmHP5sIFic0ffxvSg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](IGBT基础_61页PDF_images/img_027_0743fb3211da.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](IGBT基础_61页PDF_images/img_028_4700b023e565.jpg)
 
 ## 
 

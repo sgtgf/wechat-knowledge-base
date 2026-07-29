@@ -20,7 +20,7 @@
 
 本案例是一个带RTC功能的工业产品，RTC部分的供电电路如下下图，产品发往市场半年以后，就提示更换RTC电池，远远低于设计寿命5年。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgBZ2bAeny5tdyLRHXicJB7p0Dm9Dt0rBonJBte24xI6CHbPbvMLY2E4aN5gZRk1EUXvtUUUnJyRXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RTC电源上的串联电阻多少合适_串联10K电阻为何电流变大__images\img_002_45f25d713637.png)
 
 图1-有问题的RTC电池供电电路
 
@@ -56,7 +56,7 @@ RTC电源上串联的电阻阻值在网络上的争论一直在，有人说0R，
 
 因此该型号的限流电阻最小值为 R=V/I=3V/3mA=1KΩ；对于电池来说，电阻可以比该阻值大，但是不能比该阻值小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgBZ2bAeny5tdyLRHXicJB7pIAtJ56ibOvYqYeQPMoJaicQeEFaTuWnXMhyJLvDb2cfTyvQ47lYASwvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RTC电源上的串联电阻多少合适_串联10K电阻为何电流变大__images\img_003_acd3f5f872b5.png)
 
 图2-电池厂家的电池规格要求
 
@@ -74,7 +74,7 @@ RTC电源上串联的电阻阻值在网络上的争论一直在，有人说0R，
 
 RTC芯片可以理解为一个电流源，串联一个10K的电阻，当流过电流为100uA时，在电阻上的压降将会达到1V，如果此时电池电压只有2.6V，则RTC芯片的工作电压只有1.6V，如果电池电压更小，RTC芯片获得的电压更低，由于RTC芯片工作电压范围很广，但是需要的电流是基本不变的，为了获得足够的电流，RTC芯片可以理解为进一步降低阻抗，导致电流进一步加大。\*\*\*可能在正常工作模式和备用电源模式之间的切换的逻辑不够清晰，导致使用电池的时候也进入正常工作模式。（此为猜测，没有从厂商的资料中找到根据）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgBZ2bAeny5tdyLRHXicJB7pVicicDZbFCDO8gTSMNWUqqhodF8f7Beic0bpcFzHbs2xku3NOC55ccf7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RTC电源上的串联电阻多少合适_串联10K电阻为何电流变大__images\img_004_20b731afd7a3.png)
 
 图3-RTC芯片的直流工作参数
 
@@ -92,7 +92,7 @@ RTC芯片可以理解为一个电流源，串联一个10K的电阻，当流过�
 
 二极管的主要损耗在于漏电流，因此需要选择漏电流尽可能小的二极管，下图是BAS70系列二极管的漏电流的曲线图，为例保守起见，也可以按照1uA进行估算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgBZ2bAeny5tdyLRHXicJB7pHfYAdvMX39NVxYmGICbn1j5VrLklcXdnerq3IttpBk4U3LhaHAh7icQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RTC电源上的串联电阻多少合适_串联10K电阻为何电流变大__images\img_005_b0bc4600088d.png)
 
 图4-BAS70系列二极管漏电流 /温度/电压曲线
 
@@ -102,7 +102,7 @@ RTC芯片可以理解为一个电流源，串联一个10K的电阻，当流过�
 
 电容的损耗主要也是体现在漏电流，RTC电池对电源要求不高，因此使用100nF的电容滤波即可，漏电流可以评估约0.5uA。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgBZ2bAeny5tdyLRHXicJB7p7cYLmCOrRYlzpPQcgE0xfahfEkFr1np7iaXllf7WgvrwDqzWQsWFbSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RTC电源上的串联电阻多少合适_串联10K电阻为何电流变大__images\img_006_9cb761a4b582.png)
 
 图5- 常见陶瓷电容漏电流
 
@@ -136,7 +136,7 @@ T=150mAh\*95%/（二极管漏电流1uA+RTC电流1uA+电容漏电流0.5uA）=5700
 
 以阳光动力电池CR2025为例，二极管更换为更低漏电流1uA左右的BAS70系列，电阻只串联在电池上，只防电池短路，限制电流在3mA。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgBZ2bAeny5tdyLRHXicJB7pQ4bUHkZbWDHItHz9ibDden7ViaDYXg6tbC710xvm9LiakG6DD9zVq5vgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RTC电源上的串联电阻多少合适_串联10K电阻为何电流变大__images\img_007_7d0547f18b7a.png)
 
 图6- 改善后的RTC供电电路
 
@@ -150,7 +150,7 @@ T=150mAh\*95%/（二极管漏电流1uA+RTC电流1uA+电容漏电流0.5uA）=5700
 
 2、RTC 寿命的评估考虑因素
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RTC电源上的串联电阻多少合适_串联10K电阻为何电流变大__images\img_008_d5dcc7ecfdf3.jpg)
 
 ## 
 

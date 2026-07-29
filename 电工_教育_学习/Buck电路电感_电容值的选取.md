@@ -12,7 +12,7 @@
 
 »如下图示:降压转换器由DC输入电源Vin、导通开关S、续流D二极管（单向导通）、储能元件L、输出电容C及负载R组成。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VKkoUltUmZpZ1eWiaIibslQGnA25FyicVBkzlTtNsEdKhOI5EWvLUlR4Lbw/640?wx_fmt=other&tp=webp&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_000_7814f0913b5d.jpg)
 
 电感有储能并滤除交流成分的效果，储能和滤波的效果是否能满足要求，怎么去选取这个电感？电感有不同类型，构造，材料，参数（它的饱和电流，额定电流等），如何考虑和选取？下面主要来讨论电感的一个选取。
 
@@ -24,7 +24,7 @@
 
 △I=Imax-Imin=(Vin-Vo)\*Ton/L
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VKibGUp9mrUoiaEycXgiaXicvjTQxHblrcKiaw3gkLhwqJBqATGkqiaFtcvibiaw/640?wx_fmt=other&tp=webp&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_001_43a1241556f7.jpg)
 
 断开之后，电感上面仍然有电流，只是电流在减小，减小的这个量就是最小电流减最大电流。  
 
@@ -32,7 +32,7 @@
 
 △I=Imin-Imax=-Vo/L\*Toff
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VKO2z0icib5CfMnvRRiby1z9ubDJAMmpUHh4WImPPt5h6ctHmnKSCBWibUEg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_002_cb9bc5e6f63d.jpg)
 
 无论是增量还是减量，统称为电感电流的变化量△IL:
 
@@ -52,11 +52,11 @@ Iripple=Vo\*（Vin-Vo）/L\*Vin\*fswitch
 
 \=Ipeak(max)-Ipeak(min)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VKIXntxfS3cARR1Qm8T5njVfBgZaHnh1tIxUjcWIupKcE5kFdHQ2m40Q/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_003_67f7eecc5693.jpg)
 
 👉🏻出达到稳态后，在某一开关周期内（电流对时间积分，左边绿色区域就是开关闭合时流经电感的电荷，右边紫色区域就是开关断开时流经电感的电荷）:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VKsuZGArs8bShexLPticVJruBJhHZ06SfiagJHFOCQEdH249yQXYfbPlRA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_004_aa1d2faede28.jpg)
 
 得流经电感电流的有效值（均方根）:
 
@@ -70,7 +70,7 @@ IL=IC+Io
 
 因此:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VKWIEKxmu39IOWIX0ISXyOwaLCnPlU320ao00oR5KHP0dHia43iaVHCQ6Q/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_005_47c301d3c8de.jpg)
 
 Io负载电流通常指的是最大输出电流。
 
@@ -78,17 +78,17 @@ Io负载电流通常指的是最大输出电流。
 
 为了使Buck工作是CCM模式，则需满足，流经电感的电流始终大于0（正向流通）:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VK2hrncHxl7m1vQ28BQw82HSHhSIA57IWtQO56vtO8iac9RuP1PQpg97g/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_006_6fac0f7af63f.jpg)
 
 电感电流过小，带负载能力比较弱，属于轻载模式。如果电流为零，可能会出现不连续甚至震荡的情况，所以当有负载的时候，希望他维持在CCM这样的状态（持续电流模式）。要维持CCM电流，就是流经电感的电流要为正或要一直有电流，这个电流无论多大一直要有，不能停不能为零。
 
 将纹波电流带入到小于两倍的输出电流之后，可得维持CCM电感的必要条件:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcyovibwUzbpf7cc4MACfG2VKoz2PHHX1h01jJicrMeOrBwRxYwtpic5ubuTvnxWfGnGwITDicIiaRrXzAw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_007_b239c14d578c.jpg)
 
 只要电感大于这个值，就以为着电感工作时始终有电流，就是维持了CCM的模式，这其实为我们选取电感提供了一个基本的指向。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcy3EmWzP8caF8Oiciano5J9PPLSnBRiaGMvtN4ayYzo4xtDKGowU0mHXvvicNYJPf6nIZklrw1Uiag214w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_008_54aa188c9a18.jpg)
 
 那是不是只要大于维持CCM这个值，输出结果、性能、纹波就好了，其实不是。
 
@@ -96,23 +96,23 @@ Io负载电流通常指的是最大输出电流。
 
 仅维持CCM的最小电流即:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcy3EmWzP8caF8Oiciano5J9PPcLu15NOPE0g1Ocicp7r3qRQRDo1SDZKicicZys0wWO1b4icSNdNG54Uhdw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_009_56ef538757c1.jpg)
 
 很显然，仅维持CCM电流，纹波太大，不符合我们的要求。
 
 因此电感值要进一步加大，加大到多少？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcy3EmWzP8caF8Oiciano5J9PPInW2jlgE0bhgQUdowiciaibibWprR4T2Dud6Nn6bJ9Wrx7ABJNy9JiahocA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_010_4af3b9a2c71e.jpg)
 
 设计一个Buck电路，这些参数都是我们预先需要考虑的。（后端负载对纹波的要求，设定一个什么样的开关频率，DCDC器件满足什么样的开关频率，是否可调）最后我们会得到电感感值L最小取值:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGSrxPClwXV3zWCdE5gj5ibkoquCQKWzQXibhCD1TOnCcX8TY5GicUpgsGg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_011_36d94770d371.jpg)
 
 其中输入电压，输出电压，输出电流，开关频率，纹波率均为已知量。
 
 通过前式:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGheoH9BHibNibjZhLWZ0WAlWnqLDB3zqA0NhtibPwMlAnbic2ib8iaDvhiavgg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_012_285d1dc2047c.jpg)
 
 ★可以看到，电感越大，纹波越小，同时大感值电感会带来较大的封装尺寸;
 
@@ -122,7 +122,7 @@ Io负载电流通常指的是最大输出电流。
 
 可以在simulink中仿真，通过改变电感值或开关频率观察纹波电流的变化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGDdSmCAavSAZFAANC6SdtmALxvtQIJeGE1aw7VKWYiaLwBeZaF7q1CNw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_013_d958495a51c9.jpg)
 
 \[额定电流\]电感的额定电流要大于流经电感电流的有效值Irms（考虑器件温升），即最大输出电流。
 
@@ -136,7 +136,7 @@ Io负载电流通常指的是最大输出电流。
 
 我们知道电容最基本的一个特性就是隔断直流通过交流。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jG3cL6rxNUoVNaEp1Rhuic6Ca6YfJJ9fnRcVfnKeEom31fLMaxISGdiaag/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_014_f0ed9457394c.jpg)
 
 交流成分流向电容，直流成分流向负载，当然还会存在一部分交流也流向负载，这是我们不希望看到的，因为我们希望有一个稳定恒定的输出。
 
@@ -148,7 +148,7 @@ Io负载电流通常指的是最大输出电流。
 
 极端情况下，DCDC电路中没有输出电容，会发生什么？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jG9WJt60OohPlwaLlFRKXA0hueHNOicndAEAUYSjQJ0LEoBNArHxIPgag/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_015_4e4e8ae55d16.jpg)
 
 DCDC，我们知道直流到直流，是电压之间的变换，功率之间的传递，我们希望一个稳定的恒压输出，那输出电容选什么样的输出电容，它的容值选取多少合适？
 
@@ -160,7 +160,7 @@ Vo=Vc
 
 电容＂配合＂电感电流的变化;
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGtpJcTORl1FibBL09OyVaCGqB7L2yVpTJLtQVQM4MX8F0YGjrDh7uyicA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_016_edc0a267c1bf.jpg)
 
 从上图也可以看到，电容它的电流一直在正负的变化，就是一会电流充电，一会电流放电，只要电容上的电荷不变化，哪怕有基础电荷，电压直流加在电容两端，它上面有很多电荷，达到稳态的时候，电容两端并没有电流（有电荷无电流）。
 
@@ -176,19 +176,19 @@ IL=IRMS+IAC(交流成分)
 
 其中:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGibAnmAmAAa6ZvQRltE8kWbvcLXMG7Tz76ATBBfqGA9Wgrg3ibETBnvlA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_017_aa8cf929848d.jpg)
 
   
 
 👉🏻纹波电流和纹波电压
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGldXMnTu41r78hHhY4YYWYOSFaUVOyBI064oXrSJWtORMmiaAI7dibHicA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_018_cd8c417b9fbc.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGkcfDxCFoGP129WU9wHNjBicibsq0Ocp7ABvCVPTPibla3UvVha6GFAE0A/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_019_e96cd81c08fc.jpg)
 
 化简得:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jG4WXBPcxgyVUmHPmpacnOYwliaT0swKhUIsX1iaPQoqXiaic6FiaTW82APYQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_020_397c00d5064f.jpg)
 
 ★可以看到，电容值越大，输出纹波越小，同时大容值会带来较大的封装尺寸和成本;
 
@@ -196,9 +196,9 @@ IL=IRMS+IAC(交流成分)
 
 将上式继续转换，可得电容值C最值:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGDrUL08mYggC3icBTVyDR738jhshhVicp1zrn6bZ641O3zGSaMIESTCtQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_021_0311678193cf.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGFG3J0PB0fXvsPf47PVL97icibjTQdfBMw9mfbeSqU9SCNYs2G6xTzQpQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_022_f3d8daa73d3e.jpg)
 
 可以看到输出电压纹波与电感电流纹波率，输入电压，输出电压，开关频率，电感，输出电容等均有关系，尤其是后三因素。
 
@@ -220,7 +220,7 @@ IL=IRMS+IAC(交流成分)
 
 ☞LC低通滤波器的衰减曲线图，可以计算带宽，截止频率等;
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwAzd5uKaZsjVunggictia5jGHPvPjS5dNUlHUAnHdibYVlabRtmcB9IS7FN03Nj2oYvj2PjnleNz35w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_023_26c81c5d4efc.jpg)
 
 左图电容、电感的频率特性曲线，电容电感组成的滤波器它有一定的带宽、截止频率，右图是衰减曲线图，这个可以衡量Buck电路到后端低通滤波的效果怎么样。
 
@@ -298,7 +298,7 @@ CM为互容;LM为互感，整个系统里，不同电路不同信号之间又会
 
 无论是断开还是导通的状态，我们都希望它的回路面积小，这个才能达到我们整个所有状态或者一个整体上的互容互感的减小。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwW9O2dOMO3V8ibkWFZDH62kOl1gdAVkJhia7jic2mxaXqdotVfstPibvS8GqutqYquORaJ97FdN6QFPg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_024_dd74ba684986.jpg)
 
 ☞问题
 
@@ -322,19 +322,19 @@ CM为互容;LM为互感，整个系统里，不同电路不同信号之间又会
 
 实际布局1
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwW9O2dOMO3V8ibkWFZDH62kylCdu5AjK05kl774XAicOQYibcZIDibw6Ew7diclfBU6orVHxiaS3zonicCg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_025_6fa1ee1522cf.jpg)
 
 实际布局2
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/TDCFPqmTAcwW9O2dOMO3V8ibkWFZDH62kEAYlA9cMCThPEm05Q75xtGoDBqZP99UcU9u2XsxfTwOnoSjnYwwqaA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_026_51b7b3e4f9a0.jpg)
 
 当我们把电感靠近电容远离，它的回流面积及路径并不会改变，但是这时输入电容远离了，输入电容离得远就会降低动态响应。这时如果没有办法都靠近，优先输入靠近芯片。
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_027_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_028_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_029_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_030_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_031_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_032_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_033_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_034_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_035_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_036_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_037_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_038_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_039_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_040_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_041_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\Buck电路电感_电容值的选取_images\img_042_50889e54acde.gif)
 
 ## 
 

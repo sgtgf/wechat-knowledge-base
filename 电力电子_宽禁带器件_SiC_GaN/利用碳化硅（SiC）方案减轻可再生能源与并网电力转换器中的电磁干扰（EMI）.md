@@ -8,39 +8,39 @@
 
 作者: Sidharth Gupta
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHiaLP40209iahticcGvN7ib5LRS1LNrX6cK4YRqcjKtEGBUkjsib38CdEzKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_000_9bd3c7226152.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHUAyjDV8d2wYsTnUGcfzJu0Anwqdb8WI6NVYq5Q3N4UDG1GSaTS4ficg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_001_4083372e8d75.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHeibM99uytKQaegjrk8pE4jxIndBMY1y3WYWETEJo0VshnHRoT1JAjbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_002_24455672a0c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHSEolFFBL4kZyOBLb1nAvRZoNVUFG9eDUoKabv6RvJicBibic7mQdKrskA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_003_16bc60ed9ed6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvH9kzyOfwaQW01cx6FaSaU6DFtp3froJtqMiaLxyr6RTgF5nUl0QPonqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_004_faa58503e051.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvH6OLJ2NFDnHL1fmjbl2q7UtJ7vCVVk2ZcudPoPWXBw4MCBGvf5REX1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_005_efc064790a1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHbrS9S6kQTRFk3ANhAMsxJRsKmSogPIrngUJGFXgPQliaeJ8nGVRDcsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_006_7d972f555364.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHzQicdqFMp3fribqX2cK4xV7UYm1fMicb6sZebR15vGNsfvhHRpCialnazQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_007_2cdd37fd4042.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHvWMt03Wm1JnH0HfJiaaWpEpdOhvroYC9TTPyXxfLeicykcvIJRLvpLuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_008_e9411e53616b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHHox5j20jEVOvqWEwNL1OORWpvhib4CFNjyc8ezaWGABdwuDLNAzWDdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_009_8fd3c480070b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHweV2yhK4ydXFGQmrufx1fSLiakvOxcyd7QvLQBnv5ljiaZ0dpCFUwUzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_010_f80d1949a87a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHOLibIOpIsIw9YdgZNZK9TK560S01aGPia6I57Lo0BIcvDxtc0QBUyrdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_011_e909ed7dda05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHROia1THiamA7jY5ScB1ibLk65gDMu6icXAyB947GhNdEdKqMwEkjZWyIyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_012_5873b4c3ecd5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHb27wMbAtZKgPe9EicFib4OttlVRibJ1GdcMgOFREPyyoTt5EG672QkHpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_013_9935242622db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHd2x91ka41hzgmmtUnKXiaIiaKzh43leHiaR5wIM7xt2PK3Tb1qDxuFOCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_014_c6b67f8e5971.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvH1YibS4DG54aZdaRmVia8YOKHAVOmZOBdwic7uvXib52U3ORhg5KCIKicwQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_015_a11e994b9e12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnYzaMsGl21wzTTibVncNyvHsQqbFdbQTmmNl9DF9v4icGhiaBBh1cXiaKpZQtbf9Nysdib5vNSgwtJibxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_016_254257a60bdd.png)
 
 注：文字与报告无关
 
@@ -201,13 +201,13 @@ SiC 器件通过**材料革新（零Qrr、低损耗高频化）**、**拓扑创�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=fpgk93w1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_017_fc30c32398d2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=rbg51v2f&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_018_e0542dbbcef8.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=b67ub609&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\利用碳化硅（SiC）方案减轻可再生能源与并网电力转换器中的电磁干扰（EMI）_images\img_019_64c5aef68fde.png)

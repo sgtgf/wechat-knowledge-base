@@ -5,13 +5,13 @@
 
 前文提到，根据提取顺序的不同，端元提取算法可以分为逐个提取型和整体提取型两种类型。而NFINDR就是整体提取型算法中的开山之作。该方法由澳大利亚昆士兰大学的学者M.E. Winter提出，其核心贡献在于首次将下述体积公式（1）引入遥感社区。
 
-假设![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64jyeHsC0M3WBNaLzOCOcEiaVEWxGyHdGBQxzrK2gqyg29ZxuVyYDPBNg/640?wx_fmt=jpeg)是图像中M个线性无关的光谱向量，则在光谱空间中以这M个向量为顶点的单形体的体积大小可以表示为
+假设![](NFINDR算法与一桩历史公案_images/img_000_c8ad3df98e23.jpg)是图像中M个线性无关的光谱向量，则在光谱空间中以这M个向量为顶点的单形体的体积大小可以表示为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw641Qicc86SBd3OS62VOQddLKqn20IHGhAfLErwc1ICgK23R5khUibZLtDw/640?wx_fmt=png&from=appmsg)
+![](NFINDR算法与一桩历史公案_images/img_001_f8af0e35385b.png)
 
 其中，
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64XQibCOWbnzfoOo4QUGjAZviauYicPWTGGlWrBL1EAeKwmRdebAcJibEqLw/640?wx_fmt=png&from=appmsg)
+![](NFINDR算法与一桩历史公案_images/img_002_b4bccf3c7d2c.png)
 
 基于公式（1），我们可以给出NFINDR算法提取端元的主要流程：
 
@@ -30,31 +30,31 @@
 
 （3）噪声问题：由于单形体体积对于图像中异常噪声非常敏感，因此NFINDR有可能会将部分噪声像元判断为端元。
 
-（4）维数问题：从公式（1）可以看出，由于（1）中用到了E的行列式的操作，因此NFINDR算法要求E必须为方阵。也就是说，参与计算的光谱向量![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64ekC9Ll2JEYP0dlS69TENahEnVxnA6Fchy73wBrwFvNxaaCD289MzKg/640?wx_fmt=png&from=appmsg)的维度必须为（M\-1）维。此外，由于E必须为方阵，这也意味着，必须M个像元同时参与运算并且最终必须同时输出M个端元。
+（4）维数问题：从公式（1）可以看出，由于（1）中用到了E的行列式的操作，因此NFINDR算法要求E必须为方阵。也就是说，参与计算的光谱向量![](NFINDR算法与一桩历史公案_images/img_003_5924578ae184.png)的维度必须为（M\-1）维。此外，由于E必须为方阵，这也意味着，必须M个像元同时参与运算并且最终必须同时输出M个端元。
 
 关于NFINDR算法，高光谱遥感领域曾有一起轰动一时的历史公案。几位重量级学者共同撰写了一篇具有广泛影响的文章，其中就使用了NFINDR算法。遗憾的是，文章的内容严重违反了NFINDR算法在维数选择上的基本原则。结合文章中出现的其他问题，可以判断该文章存在严重的学术不端行为。然而，更为令人遗憾的是，文章中的所有作者不仅没有受到应有的处理，反而在学术界步步高升，继续获得更高的声誉与职位。这一现象，无疑给学术界的诚信和公正带来了深远的负面影响。
 
 本人无意于政治纷争，也深知自身能力有限，因此，我们仍然将焦点集中在NFINDR算法的学术部分。为了满足NFINDR对维数的要求，应用中通常需要先对数据进行降维，而主成分分析（PCA）便是最常用的方法之一。从某种程度上来说，降维是一把双刃剑：一方面，它有助于抑制图像中的噪声信号；另一方面，它也可能导致图像中某些感兴趣的小目标的丢失。一定程度而言，我们在[“端元提取的国内首例探索”](https://mp.weixin.qq.com/s?__biz=Mzk4ODA1MDUyOQ==&mid=2247483701&idx=1&sn=bce6dfd57043d03c4edd983dd2c8ca32&scene=21#wechat_redirect)中所提出的如下体积公式正是为了应对NFINDR算法的维度问题。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw645WTib27yMht4ZJ4zbNsGKdv1VyfhrDicibM0FQn8Qib9Z1n3EXxmPzupMA/640?wx_fmt=png&from=appmsg)
+![](NFINDR算法与一桩历史公案_images/img_004_b3f9dc01a1b1.png)
 
-其中，![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64O5XaEoibE6WfbuLBuVsThvl4iaB3ScpuZku7xjZbbqZdfpl3VYCCnpicA/640?wx_fmt=png&from=appmsg)，
+其中，![](NFINDR算法与一桩历史公案_images/img_005_4c2ec345e06d.png)，
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64hA3GEXZ9pLjibHxGlnUVX29hxhjSdMAjRDjKjaooSycFa5X7huQT0Dg/640?wx_fmt=png&from=appmsg)
+![](NFINDR算法与一桩历史公案_images/img_006_8fe1bbd5c990.png)
 
-从公式（2）可以看出，无论像元![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64ekC9Ll2JEYP0dlS69TENahEnVxnA6Fchy73wBrwFvNxaaCD289MzKg/640?wx_fmt=png&from=appmsg)的维度如何，![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64beY6eXk8Ga9290MDF2ONq259hbicpicCMibJm4Bm3Z3YAPNC5XaDzmUuw/640?wx_fmt=png&from=appmsg)始终为方阵。因此，公式（2）的体积公式与数据的维数无关。下面，仅用一个简单的特例，来展示公式（1）与（2）在特殊情况下的等价性。
+从公式（2）可以看出，无论像元![](NFINDR算法与一桩历史公案_images/img_007_5924578ae184.png)的维度如何，![](NFINDR算法与一桩历史公案_images/img_008_1e60c977df55.png)始终为方阵。因此，公式（2）的体积公式与数据的维数无关。下面，仅用一个简单的特例，来展示公式（1）与（2）在特殊情况下的等价性。
 
 图1给出了一个平面上的直角三角形，接下来我们分别用上述两个公式计算其面积。基于公式（1），我们有
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64ib3bXoInicUaibhH281ia4weUFyZtPqOpMBvYwicHhbvgMpaHQicZWfMIFgw/640?wx_fmt=png&from=appmsg)
+![](NFINDR算法与一桩历史公案_images/img_009_9ec55a8eac53.png)
 
 基于公式（2），我们有
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw64kXwiaTMwwOL7IPxjGS0jCReunB4IKVf1flb3aSclRw3y8RxmAUudwPQ/640?wx_fmt=png&from=appmsg)
+![](NFINDR算法与一桩历史公案_images/img_010_46d5dab66b54.png)
 
 显然，二者完全等价。事实上，可以严格证明，公式（1）正是公式（2）在数据的端元数等于其波段数加1情况下的特例，有兴趣的读者不妨动手验证一下，这里就不再赘述。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/zgfThkqk9mBiaxQeaWOtYkt3gA1JDCw642ukSjZhhjTeWia2Nw3R7xXia9EibdTkOXAvrJXcBCh3f0sePwib0pS4XKw/640?wx_fmt=png&from=appmsg)
+![](NFINDR算法与一桩历史公案_images/img_011_4ed3ec828674.png)
 
 图1.直角三角形
 

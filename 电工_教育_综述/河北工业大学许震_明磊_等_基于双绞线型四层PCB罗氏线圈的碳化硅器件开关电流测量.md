@@ -9,7 +9,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_001_be6885177eb2.gif)
 
  **研究背景** 
 
@@ -23,7 +23,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_000_be6885177eb2.gif)
 
  **论文所解决的****问题及意义** 
 
@@ -35,17 +35,17 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_002_be6885177eb2.gif)
 
  **论文方法****及****创新点** 
 
 在设计PCB线圈时，从碳化硅功率器件的物理和电气特性出发，提出其开关电流测量对电流传感器的要求；通过分析PCB罗氏线圈的抗扰原理，阐明回线和屏蔽层抵御磁场和电场干扰的机制；最后，分析对比三种传统PCB线圈结构及其优缺点，进而提出双绞线型四层PCB线圈结构，如图1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic5GwBpveibnwnXKZSVqywIeCSuZnehu7cl2aABT7DSpm5AAAwaRP5cR7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_003_925ead49a0dc.png)
 
 (a) 三维图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic5gfySlwEAugxOJHXJicv3bLPeb3WLdmr2DD257diaCS2y5Umgr3AI6GSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_004_79d22017774d.png)
 
 (b) 二维图
 
@@ -61,7 +61,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_007_be6885177eb2.gif)
 
  **结论** 
 
@@ -77,7 +77,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_006_be6885177eb2.gif)
 
  **引用本文** 
 
@@ -93,11 +93,11 @@ DOI:10.15938/j.emc.2021.12.006
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_009_be6885177eb2.gif)
 
  **团队介绍** 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic5W3MqiaaJyOV7DuPfgKGiazFYIbhcibBaUOLSicVphNdQics1rRuXNKZwqvQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_008_2f881ab2be88.jpg)
 
 **许震**
 
@@ -131,7 +131,7 @@ DOI:10.15938/j.emc.2021.12.006
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_005_be6885177eb2.gif)
 
 联系我们  
 
@@ -145,9 +145,9 @@ DOI:10.15938/j.emc.2021.12.006
 
 下载论文PDF版，点击阅读原文
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic59cM3zHaZeQXJtVUmUHm2oFic0ibMjfBMLv1uo99ibSmRfzrSktViaeNq4Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_010_12c810a69328.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aBfKZwhmpTUCN34YdD3CS1icGJjGbibmiby1fPicCLpjBcCibyFn1ClGwLicrHlpKSwEv7WX6Xxkkm9InTEP8XFgljdg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\河北工业大学许震_明磊_等_基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量_images\img_011_73939f072350.png)
 
 点击图片 关注我们
 

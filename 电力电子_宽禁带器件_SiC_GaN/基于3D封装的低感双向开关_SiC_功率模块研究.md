@@ -23,39 +23,39 @@
 
 商业化双向开关功率模块的现状如图 1 所示。额定电压在 600 V 以下双向开关功率模块的典型封装主要有 QFN.T3A 和 SOT 等，额定电压在700~1200 V 的双向开关功率模块的典型封装主要为T-Type.EasyPack 和 SP3F 等。 可见，现有双向开关功率模块采用传统封装技术时的寄生电感大，难以适应第三代半导体功率器件应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99xDrMd2lcOrrNmz2GdicJ2kPEL40Qg0aj3ibQ9EwPfsHyvOZU2cssjd9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_000_3aa0aa29eff6.png)
 
 双向开关 SiC 功率模块的电路原理和封装结构如图 2 所示。 针对如图 2（a）所示的双向开关电路， 本文提出了一种基于 3D 堆叠封装的 SiC 功率模块袁如图 2（b）所示。 该 SiC 功率模块采用上.下层 2 颗 SiC 芯片组成共源极双向开关结构，具有双面散热. 无键合线的紧凑结构， 模块的尺寸为 29mm\*15.88 mm\*3.12 mm，远小于传统单面散热功率模块或分立器件。 该双向开关为 3 层结构，其中转接层与芯片的开尔文源极和栅极连接， 上. 下层DBC 与芯片的漏极连接。 转接板设置了 246 个直径为 15.7 mil 的通孔，以保证上.下层芯片的功率源极连接。 DBC 为铜\-陶瓷\-铜结构，用于绝缘和导热，双层 DBC 结构可形成双面散热，从而降低功率模块的结-壳热阻。 芯片在转接板的上.下层对称分布， 采用垂直互连的结构以减小功率回路长度，降低功率模块的寄生电感。 功率端子对称分布于转接板，通过焊料层与上.下层 DBC 连接。 模块内部共有 2 条电流路径，当上层芯片开通时电流流经路径 1，当下层芯片开通时电流流经路径 2，具体的电流路径如图 2(b)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99ZF5Sibuh5L7yAreoUNSzImavhHiayKicCeIBnUk0YRd51NhrwtbAmpSOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_001_729dc074f535.png)
 
 **1.2 功率模块的寄生电感**
 
-采用传统平面键合线封装互连技术,双向开关SiC 功率模块的封装寄生电感较大,甚至会超过12 nH,其寄生参数的分布如图 3 所示. 此外,直流母线电容的等效串联电感 ESL(equivalent series inductance)和直流母排的寄生电感也会进一步导致 SiC 器件开关过程中的电压过冲, 增加器件损耗,引起电磁干扰,降低器件安全工作区,进而影响功率模块的可靠性和稳定性。 功率模块的电压过冲 ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99v95P5PR2VUfvlMv5ib0ic9aCdvpUQ9wPhTmJ6MiajD8Kjnv4Z0NbhewQA/640?wx_fmt=png&from=appmsg)可表示为
+采用传统平面键合线封装互连技术,双向开关SiC 功率模块的封装寄生电感较大,甚至会超过12 nH,其寄生参数的分布如图 3 所示. 此外,直流母线电容的等效串联电感 ESL(equivalent series inductance)和直流母排的寄生电感也会进一步导致 SiC 器件开关过程中的电压过冲, 增加器件损耗,引起电磁干扰,降低器件安全工作区,进而影响功率模块的可靠性和稳定性。 功率模块的电压过冲 ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_002_cecb23ade0d3.png)可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH9913xxTicHvSWj2V9nNIhOsS1gGOEa9MK1N3seFGzbicWOluDib21fwjhNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_003_77931a7a2e92.png)
 
 式中院LESL 和 Lbus 分别为母线电容和母线的寄生电感；Ldi 和 Lsi 分别为芯片漏极和源极的寄生电感，i\=1，2，3，4；Lcom 为转接板及其通孔的寄生电感。
 
 基于图 2 所提出的双向开关 SiC 功率模块 3D封装，可以基本消除传统封装的寄生电感，具体换流回路如图 3 所示。 所提 3D 封装功率模块的寄生电感主要由 Lcom 决定，并受转接板通孔的数量和大小影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99wuUic5Ric5LZm3xnyRQ90dGFAyVv6G63j8MpVvDDXCEcgUtqctG2bCPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_004_c080efbfb389.png)
 
 基于图 2 所提的 3D 封装结构， 使用 ANSYS Q3D 软件提取双向开关 SiC 功率模块的寄生电感。根据图 3（a）所示的等效换流电路可以看出，功率模块的寄生电感主要包括 3 个部分：第 1 部分是从功率端子 1 到上层芯片的漏极；第 2 部分是从上层芯片的漏极到下层芯片的漏极；第 3 部分是从下层芯片的漏极到功率端子 2。 因此，功率模块的寄生电感网络 L 可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99Un80icmxpw8KenO3pHJicZOJIfib2q7PBAJ8WCaXSA6UiaRBicGoIdZZKiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_005_7d818d2de347.png)
 
-式中，Lij 和 Mij 分别为模块每一部分寄生电感的自感和互感，i. j\=1，2，3。因此，模块的回路寄生电感![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99o5YoLQOs1WwIyTJW3KYvB7EDkOPyict6qOR2AOkKIQticfyn5L3vQMRQ/640?wx_fmt=png&from=appmsg) 可以表示为
+式中，Lij 和 Mij 分别为模块每一部分寄生电感的自感和互感，i. j\=1，2，3。因此，模块的回路寄生电感![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_006_43c0fe8d9ee3.png) 可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH996R8feaZ6ibPwojPJlrfkQBtOLEqpumd4E8tWz7bwRNbbdpXMTfzdMuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_007_6904ec872604.png)
 
 基于 ANSYS Q3D 的仿真结果，可以得到功率模块的磁场强度分布，如图 4 所示。可见，功率模块的磁场主要分布在芯片附近，也即芯片之间的互联转接板是寄生电感的主要来源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99OF1jH1Z1BKwsXE3xnYNLtOASS39iaA3Peicl5MgoaNzq77LXqlQVyZZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_008_c22e0244d965.png)
 
 计算 10 MHz 交流激励下功率模块的寄生电感，结果如表 1 所示。根据式（3）和表 1，可以计算得到功率模块的寄生电感为 3.9 nH。 可见，芯片的堆叠封装结构显著缩短了垂直换流路径的长度，此外， 折叠和重叠的换流回路能实现较好地磁场相消，共同保证较低的封装寄生电感，以适应 SiC 功率器件的高 di/dt 应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99picTu4V4KnRExib3T5QONhnttYhTXhS4k9hw7ldgPO6A9Z3ryjb5yr7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_009_33f8f8c7b21d.png)
 
 **2 实验及结果分析**
 
@@ -65,7 +65,7 @@
 
 采用 17 毫欧的 SiC MOSFET芯片作为双向开关功率模块的主功率芯片，3D封装的制备过程如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH990oUqF0LkCU6aavm2zfN99lcaBHaB949bPnfkJSuh439F8vl2mcnvqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_010_1629f6cea279.png)
 
 首先通过夹具对下层 DBC.下层芯片和转接板进行定位，然后使用夹具对上层 DBC 和上层芯片进行定位， 再使用真空回流工艺对功率模块进行整体焊接。功率模块整体使用同一熔点的焊料，以保证功率模块结构的稳定性以及焊接的质量。最后，将功率模块的各端子与测试母版连接，进行双脉冲测试。
 
@@ -73,17 +73,17 @@
 
 为了表征所研制3D双向开关的开关特性，基于图 3（b）所示的双脉冲测试原理，搭建如图 6 所示的测试平台，关键参数如表 2 所示 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99ypDGzDIsvRFC0T1XfYscLnOCV5om7BWx87emF2tHC50tlVaYaarlnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_011_60360bb5161f.png)
 
 双脉冲实验平台包括驱动电源.直流电压源.2个待测功率模块.负荷电感.罗氏线圈.电压探头.示波器和信号发生器，2 个待测功率模块串联构成半桥结构，以下桥臂功率模块为测量对象。其中，上桥臂功率模块上层芯片的开尔文源极和栅极短接，下层芯片的开尔文源极和栅极接入 20 V 电压信号，下桥臂功率模块上层芯片的开尔文源极和栅极接入双脉冲控制信号，下桥臂功率模块下层芯片的开尔文源极和栅极接入 20 V 电压信号， 负荷电感为 200 uH。本实验采用信号发生器产生双脉冲控制信号， 使用高带宽的差分探头测量交流端子和直流负极之间的电压，使用罗氏线圈捕获下桥臂电流。
 
 在直流母线电压 300~600 V. 负载电流 20 A条件下开展实验研究，实验波形如图 7 所示。 在测试过程中，驱动双脉冲的时间分别为 5 us 和 2 us。在 600 V/20 A 的测试条件下， 测得双向开关功率模块的开通及关断波形，在关断时刻，漏源级电压上升至 600 V，并伴有 85 V 电压的超调，其振荡频率为 32.26 MHz。 为了评估器件的开关损耗，计算器件开关过程的能量为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99Ot3HGGAibNannZGEXoTNNw2LUP51hR6ImXuojJzuoA2r5ubBs5EqncA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_012_c9378099e607.png)
 
 式中：对于开通过程，t1 为漏极电流 id 上升到 10%负载电流的时刻，t2 为漏\-源极电压 vds 下降到 10%直流侧电压时刻；对于关断过程，t1 为漏极电压 vds 上升到10%直流侧电压时刻，t2 为漏极电流 id 下降到 10%负载电流的时刻。 由式（4）可计算得到功率模块的开通损耗为 310.32 uJ，关断损耗为 1105.7 uJ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJ37KdqFco9n0Rv2nalH99Gu6VNqBJnG29IcstqdehFkIRgicGzwSAgPKpUhxOeOkJnq0kGtF9Pug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_013_72b7a90184cd.png)
 
 可以发现，模块在不同直流母线电压条件下的开关特性基本一致，由于模块的寄生电感小，测试结果没有出现明显的电压.电流过冲，从而确保了模块的可行性。
 
@@ -91,8 +91,8 @@
 
 针对双向开关 SiC 功率模块的低寄生电感技术需求，本文提出了一种芯片堆叠的3D封装集成方法。相对于传统平面布局封装，所提3D封装功率回路具有折叠相消的优势，同时采用无键合线封装工艺显著降低封装寄生电感，实现了具有较高可靠性的高功率密度模块。 本文建立了 3D 封装寄生电感的数学模型， 并分析了寄生电感的主要分布，基于 ANSYS Q3D 提取 3D 封装功率模块的寄生电感约为 3.9 nH。 基于 3D 封装功率模块的制造工艺研制了双向开关功率模块样机，并采用双脉冲测试方法，验证了所提 3D 封装双向开关 SiC 功率模块的可行性和有效性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_014_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_015_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于3D封装的低感双向开关_SiC_功率模块研究_images\img_016_84aa944feb13.jpg)

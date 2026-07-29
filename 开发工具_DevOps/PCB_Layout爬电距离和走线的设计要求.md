@@ -6,7 +6,7 @@
 
 爬电距离：沿绝缘表面测得的两个导电零部件之间或导电零部件与设备防护界面之间的最短路径。如下图所示:
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIsUBJBa82CCEpro2utia6sGhxBEvDMIYIdIgmoJOiaQhpJ5N55ZCx0C12vftJfkxdf4udibw4mpHIDQ/640?wx_fmt=jpeg)
+![](PCB_Layout爬电距离和走线的设计要求_images/img_000_a2363c2f84ee.jpg)
 
   
 

@@ -7,7 +7,7 @@
 
 从硅基 IGBT 器件向碳化硅（ SiC ）器件的转换，绝非简单的器件型号替换，而是**硅基功率半导体触及材料物理极限后的必然代际迭代**，是材料底层性能突破、应用场景刚需驱动、商业成本闭环形成、政策产业战略推动四大核心因素共振的结果；同时产业链成熟度提升与设计门槛持续降低，为大规模商业化替代扫清了落地障碍。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNib5tBhzvkib4s6cQ9KyNrnUGHV6R8J5gd0PtCJ93J7YIRLBLd7SrR6sQC86NWicUdo8Y1VZkqicQuHeKR1X9QkZXHLkicicgjIpFtk/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_000_fd67792239d2.jpg)
 
 一、产品介绍与底层特性对比
 
@@ -17,7 +17,7 @@
 
 SiC器件，即碳化硅功率半导体器件，是第三代宽禁带半导体的核心代表。其材料特性（高禁带宽度、高热导率、高击穿场强）使其相比传统硅基器件，能在更高温度、电压和频率下工作，具有开关损耗低、效率高、功率密度大等显著优势。主要产品包括SiC MOSFET、二极管及功率模块，广泛应用于新能源汽车电驱/OBC、光伏/储能逆变器、充电桩、工业电源及数据中心固态变压器（SST）等领域，正加速对硅基IGBT等器件的替代，是提升能源转换效率的关键技术。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOhPiaR1j0BaYxyZRqhtOvdhYHk8aYZIEKg0QNXHccibtrWAehy3OeaScP4H458e4IiazbuSPWZ442NfXr32NddSYaGow8qQRHC2Q/640?wx_fmt=jpeg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_001_7fe98912f9f6.jpg)
 
 图片来源：网络
 
@@ -175,7 +175,7 @@ SiC 全生命周期成本更优，可通过系统级降本抵消器件差价
 
 典型应用场景
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMpzxYDiahfiatWW6pV0hGEuwAkIZyKZ7iadC7XKusiafib1y586BAAWYYSXZVib0gfeKcK39ESBib84CND44BvackEXBMBzpa6pcxWZA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_002_4ba3755a9294.jpg)
 
 图片来源：网络
 
@@ -207,7 +207,7 @@ SiC 全生命周期成本更优，可通过系统级降本抵消器件差价
 
 典型应用场景
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/w7mE225tvpM8CTwDlO1Ugb2VyNJnqIJ77Nku5suy92yGjoCGCI9wZAWgD45QBpdnVcTFdvPCMOXgmFeKicDiaEUIyn6FAD5tRSZIDgfzlWerk/640?wx_fmt=gif&from=appmsg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_003_b30ee86cc932.gif)
 
 图片来源：网络
 
@@ -355,7 +355,7 @@ EMI 滤波器分级设计：输入端增加两级 EMI 滤波，第一级抑制�
 
 典型案例：特斯拉 Model 3/Y 800V 平台 SiC 主驱逆变器
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOUvTMJ5jaic2KVIUT4Rr24f0tF2D5WWZ79XyVZpIpdce3zpmnnicsZbhNsEQBSM1j18gTXe3XjZwJsuD7oKQekgsBlJpiaQqibC5E/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_004_6de2d50f1701.jpg)
 
 图片来源：网络
 
@@ -385,7 +385,7 @@ SiC 替代方案与核心设计优化：采用意法半导体 1200V SiC MOSFET �
 
 典型案例：华为数字能源 1500V 组串式光伏逆变器
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPxIhWudG7G7ZVlFMEiahrVGEoIGbZ2M6ibzYqxkguO17xcicZy40MA80M8opyf6PEymX70PtK8BRLWYTN5gHlA3Vb2XxHlWwQXRU/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_005_7fd0a0bc7d9a.jpg)
 
 图片来源：网络
 
@@ -411,7 +411,7 @@ SiC 替代方案与核心设计优化：采用 1200V SiC MOSFET 全方案，构�
 
 典型案例：伊顿 9395 系列高效 UPS
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMZbiaAl4znbB1Wese9mSbtWVNtfEeHrY61IWJMIKwTJdZBXpEJiaiaY7kzdGMkCUqCAufnTTWLeSAfNcY0JRHfqpiaRGlNtWKlriaw/640?wx_fmt=jpeg)  
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_006_767bdb3c3396.jpg)  
   
 
 图片来源：网络
@@ -438,7 +438,7 @@ SiC 替代方案与核心设计优化：采用 1200V SiC MOSFET 方案，构建�
 
 典型案例：中车集团 3300V SiC 牵引变流器
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpO2VJbFo31mZJohIib7iaB1n5YqspuajM2D8GKhRIOXQ9xCCg4Ty6Or83Uwcyh8bYiaD2CxGqodrY8PyBjGuJibKTQPq4YKqIaMgib4/640?wx_fmt=jpeg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_007_24976440846c.jpg)
 
 图片来源：网络
 
@@ -462,7 +462,7 @@ SiC 替代方案与核心设计优化：采用 3300V 全 SiC 功率模块，构�
 
 五、替代核心原则与行业趋势总结
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpP4jO9uMeXX51dy32QWq8ej0RWlQoiauDwk7IcwEzQfRO3FuLjOchdsdOnGKCpLUdjoNcAwfMAVYUMyvVGff4xDFXa4JSg64sicM/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_008_61c3593e7ecd.jpg)
 
 替代适配边界：SiC 替代绝非全场景无差别替换，高频、高压、高效率、高功率密度、高温恶劣环境是 SiC 的核心优势场景，替代收益显著；而低频（<10kHz）、超大电流、成本极度敏感、对短路耐受能力要求极高的场景，Si IGBT 仍具备不可替代的优势，两者长期呈现互补而非完全替代的关系。
 
@@ -476,7 +476,7 @@ SiC 替代方案与核心设计优化：采用 3300V 全 SiC 功率模块，构�
 
 1.SiC SBD产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP5g28huRYI7Yicqjib7JlqiaaO8RtzRlPqgQtpG8FKcpXXA5WI8f6iauucRJfutxPiafqAgiaG078L3jdMTibZ0pPIc0IgBHfLJsfZDE/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_009_cc818fd8963e.png)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -484,7 +484,7 @@ SiC 替代方案与核心设计优化：采用 3300V 全 SiC 功率模块，构�
 
 2.SiC MOSFET产品介绍
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNxCNiaICPicdhtZAcICPSctRL402iarPzgDWwv4znaj1H6dsIUYicReK8HIXJ8f1tSNgicYiblY6UBiafIZjiatgPPE9KhH8ZovOfibF9w/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_010_ce952bddbc07.png)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -508,7 +508,7 @@ SiC 替代方案与核心设计优化：采用 3300V 全 SiC 功率模块，构�
 
 3.SiC 功率模块产品介绍
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLVssaBa60zDQjI16nojJYjkZzr6WWJzPBde7UCsnIQDJjjWZHibHlcRK4UXWX0uWVga6QKXyvHIpWibxZf3D2icZnFs0V4foueI/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_011_a8d889a3bb8a.png)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -556,14 +556,14 @@ SiC 替代方案与核心设计优化：采用 3300V 全 SiC 功率模块，构�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMnJhaTref4YdBeIkTRcC8arK8xkyTCIJQcgA8xWyfurH2icDiaIKmGeAAYuic0KJlKCIuHOLTFIeNz34vhZzrVsxHlY9eicmaIv3E/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_012_01b04be116c8.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpORTjSFHrMDXH1sq6W9t5Ro2ic3ZqlgZC5chslPTTeHH2EczibI9N7tHcQZD1F6zkraEoJejojZccyANVms2zRGo3SB40qctOonE/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_013_6cbcb2bddc4c.jpg)
 
 ###   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNMPBCdwIIZ3nCnnWGaXxJKgFib4wzVJ8ianRia6c3ULmDRd3VNqrdLo3XtG6PRcFu7qXrdoXlyvrL0NQwCibicq1BQdfnsUlvyGOac/640?wx_fmt=jpeg&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](SiC_MOSFET_器件与_Si_IGBT_器件技术解析及替代设计指南_images/img_014_6d28e16fd9f4.jpg)

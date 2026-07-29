@@ -5,7 +5,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_000_d8cb52582ba8.jpg)
 
 关注公众号，点击公众号主页右上角“ · · · ”，设置星标，实时关注电机行业最新资讯
 
@@ -13,90 +13,90 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdlAxwKt9A4Ll7MBLQXepexwjNIR53npa6R29vlt6EldX0tKreLOamTA/640?wx_fmt=jpeg&wxfrom=5&tp=wxpic&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_001_74f8feefb1f1.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdCGBCcUE89Dib0aOOpAoJdslwUooiawKzicF5t7fk8ib4WYKicOhFVL0T6mQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_002_f036dc88a3ed.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdSbnqp7pJ1Jwny6IuUDjEKUKtibTZ5ATsx5wCoNTzlRgjoNnGME8Oh5w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_003_ecd575049112.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdpGiaMr8woXpC2jM6YTfyCrp9Wyrs8uAaJMRujYsWmNVlOoqjoPCGZkw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_004_2009992c6fe3.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdwiajYk11KSyD7HwrTHw2Ctnel996WUzDWv2of33O6C3204RTQTyX9dw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_005_4056353b703c.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdlzSiaKnGsHUUEXtMuianbiaWnyhjiapFCmyzE9LKp5jsPvtQR0BiblqtDaw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_006_e35cd9bd90bb.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBds8J3T7Uiaqo21b1OQ3VvVgUQF23qbS7CzPhibfG2N10uygMQN6qX7SUQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_007_d4d99754ae13.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdMU62KB1ibLybUrao5qgnpiby1wlnsQ32iazJqNOQ7MoQO55gGUsBhGbEQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_008_c1d7e50affa1.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdUWmnFkqn6DdLykV6PzJgUBXCyYonbdnaLnoX407Uaic724T0Znv3gSQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_009_ba0f2c341a93.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdOOMXTpl6ic07dCAKrF0qsge0vVn1A6bp6E4sFXee34KbibhM87ic1icdrA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_010_f916750d6574.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdoabH4awnBWVQRBVoyCIfZxkugw61g6QEUicH8LL2uWgoFSGYxRPF66A/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_011_46c452410bd0.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBd7X4C1U6iaCfsBibsicz9ZE6kIodKP4Y75lu5gRWJ6qlNFWgn0x72ibU22w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_012_0dd92b6db09e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBd5CGZRrIIcq91FePoj1KQjS3VOUq3tzkWibNu1fDpVvHTEE0TnhibqJxQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_013_1436e6cc3c44.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdz0vp6genMXCztzIIEPib5Jqqo7YSRRiaarM0YRj6lp3f0Y2Y9YHVDIkg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_014_8a942910fefb.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdVvPDWSnHj7rz84FL9CLhibSYbOEKxf332y1yibgy84EFSqB9fgiaPjWGA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_015_1094a14b2318.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdr2T1WvMGP9vZ8UiaV315OCkicLBFvzC98iaibkGF21gHe4ZzQLkFLhlJeA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_016_b96d20f8358a.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdfNhabSHWqdCibn2Ty37KblyeUPEynPMjN7qkUJoxNEAFysBhtEiaVcpA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_017_51010cd96640.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdLC9uiaXFiabLvG0Iut4x2eSBDIHPe4pxU5B98g5pJPAeicgtZgXv7oddQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_018_acc838cfeeec.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBd7Dbg0QTxEV5IQCnDXp1VQQA1Cz0cm7juaZ5zy25QbsZSKd04ybWVrw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_019_088ea7cd070f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdfC1mKaiaicsWYv1uicsqRj8fG5iaoiaQiaDgvzUEHXFWxm0FSKyMNLgkcgBQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_020_294de4e8db7b.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdmE9303Oqw5X9t3adtEGaBBcyVQ60YKpsMU9bX5yNKBCjcyECFJyXvA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_021_1b989e3a79d8.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdVYRPPMda2RPibtFNTMZeFJQ1L9WQfUVvH1PjoPNicMcqB8AQ1Fr59Wlw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_022_e83242233984.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdVToMq7JNrzdRiaICeWtImqNZSmHakTVm0q4U9u08CHF5NHLbaXQRIPg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_023_3104cf68836f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdv3wHpoWdXddgxDibegOXxY93CNTkANibhJsPCqibwo8F5zB4sNnFJGnIQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_024_3b0fdf299f94.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdFhzpK8BFFZyZXOvlW5ria57lpqP8OfXQOSjZI3wFrDNTUUjwHwoa0wg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_025_2a3cfb4e42ef.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdB0bg5C1aAWBrA2KLgIWiaJsgYechLtibDr6c0tszS8kT8Sc8u8DNqWzQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_026_3d2d485641dc.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdSsU9uayvVIwQ0aMzHCGiaECWMI4tzZc06hRLzF49iauGkeMz4I9axd3g/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_027_af65c636a41e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdgWVbWo5ribsRuSaN3yy06rBnFJCQYXLadnxF96oqoiamfUnlhuibBxsCQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_028_f8dfd5866b1d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdKx4VGuDB6cfMeLJmRh3tiaRunp1CnIGRcqYUgsMV40l93UFqqFRF7Cw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_029_4d79aaa17c66.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdF9nuTP7aYvicU72oQ70dF7icH9iaVBYxiaiaA4xYyZ1Bz62qia8Zic3B9AYMA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_030_47df24bfd550.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdPTf2Ppz9bWE4csTOEoibIeE4zW6Picj2WuIxW3og3qyUxY7eXbHJckEg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_031_dca6c3ca26ad.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdJFcSK1QqzEFCBicTfJkVib6PotQqaQ0GtFsl3XjG2KgKcTzjhLXmAIGg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_032_8081923975e5.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBd2xcBeayekr7h6gDZTs3Y4tvib9ZhIcZBhEdF13EkWQOwriaib1D54oaGg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_033_160641910bc7.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdibADHzPtmSeZbPyxDpAP7MVvSKiayQXQPnj61sAYQwnfiabwAIibNOWKIA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_034_bef54dae00d6.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdfPjyzVibxa8Tsv0vHehoNRxtJ0bJADicjXBia2Ql4ibx9UMCy2eN6UrlPQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_035_5bfe0d25204d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdfxm5atOauJIxe0OKZSBkfibmPYptBTadlY0bHib7ld2IwdLxd04kkUMQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_036_bc5ba3371035.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdc9PjytqHfNBV6e2ZbjibjvQrV3l8CGln1pfs8Fuv89Q81icvWsUf1TSw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_037_0c6efd1e2a08.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdjJYiaAcaMKSuOWNXISWrMV7cicPXa6SJfic5rnQriaufr0wIznTRbOPbnQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_038_a46571f5ce00.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUiaFrs0ltibflL7OPic3wJ6icBdtLNAic5Lt3EdyrPYjobGgpJE6PvibErDvH7N5Hib9YXhoI5icMp57SIAJw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_039_e3049382f91f.jpg)
 
   
 
 关注公众号，点击公众号主页右上角“ · · · ”，设置星标，实时关注电机行业最新资讯  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_040_3ccc50bba2ef.jpg)![](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_041_6eec1b7fb41b.jpg)![](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_042_1798abd6d288.jpg)![](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_043_1862cf7fbcf8.jpg)
 
 添加小编微信，更多资料等你领取~
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\40页PPT详解新能源汽车电机系统_images\img_044_dac57d0b3024.png)

@@ -11,7 +11,7 @@
 
 **关键词：**碳化硅MOSFET；驱动电路；过载保护电路；Pspice仿真软件；双脉冲实验
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDbF49dDzVZKVIOPspJ8R1icDS538gwGeA5qbN3IFztbY5ayibZcialL2kQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_000_888d7ac88d07.gif)
 
 作为第三代半导体，SiC材料相比Si材料具有禁带宽度大，高临界击穿电场强度，以及高饱和漂移速度，因此SiC MOSFET相比Si MOSFET更适合在高温、高功率和高频等特殊条件下工作，成为目前研究的热点。
 
@@ -45,11 +45,11 @@ SiC MOSFET 的器件结构和电路模型与 Si MOSFET 类似，两种器件的
 
 根据以上分析，设计的驱动电路原理图如图1所示，Ron 和 Roff 即为开通和关断时不同的栅极电阻，一般 Roff 要大于 Ron 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDcD6bNyT24iccqU3RQAYGCLheQBFQLYxoqfdPfD96m62cK0kDrQQITtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_001_c3ae917ac4f3.png)
 
 图2为所设计驱动电路的输出波形，高电平为+20 V，低电平为\-4 V，并且驱动电平上升下降速度必须非常快。图3为驱动电路接负载时的驱动电流波形，完全满足SiC MOSFET的驱动要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDTOdS4P6ic9BL7UVq13iaoibVbTicPKEhMrbYysTiaYA6WshptTDuhTWQMHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_002_5f21164ac807.png)
 
 **3 .过载保护电路研究与仿真**
 
@@ -61,35 +61,35 @@ SiC MOSFET具有较脆弱的短时过载承受能力，所以在器件应用时�
 
 漏\-源过压保护电路如图4所示，该电路的作用就是将高而窄的电压尖峰转化为矮而宽的电压尖峰，延长关断时间。其原理非常简单，主要是利用稳压二极管DZ设置保护电压阈值，当漏\-源电压UDS超过保护阈值，则二极管DZ击穿。击穿电流IZ分为2条支路：一条支路直接流向栅极充电抬高门极电压，使器件短暂地工作在饱和区，降低关断过程中的 di/dt，du/dt 及钳位 UDS电压；另一条支路流向Buffer电路的输入端，电流经过Buffer电路放大后流入充电门极，进一步抑制了UDS的上升，钳位效果更好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDW2XpLcMOqFTZibGehe1fIFYWRulUhdR2z1LEluQqpjb1giargHdcqspg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_003_4467af0bd02f.png)
 
 利用Pspice软件模拟双脉冲实验来验证过压保护电路的功能。如图 5 所示，当 SiC MOSFET开通时，电流ID随着时间以UCC/L的斜率增加，电压 UDS为很小的低电压。当 SiC MOSFET 关断时，电感电流通过二极管D0续流，电流ID为零，电压UDS升高为电源电压UCC，并由于线路中寄生电感LP的存在产生电压尖峰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDcdpicibTiar80j2TcXcrXWThtnrylibciaTUs5AH9aQOs2muaAw4ibicWwghw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_004_a908b6655c2f.png)
 
 图 6a 为不带有过压保护的仿真曲线；图 6b为带有过压保护的仿真曲线。通过比较可以看出，过压保护电路会使器件关断时的电压尖峰变得平缓，并且震荡减少，有效地保护器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDUec8dy0EnEh14iaekxaTf0iczxFD1o5hYpYJ9go1qdUzrbzIBhtpIqDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_005_34a89098bea3.png)
 
 **3.2 过流保护电路**
 
 过流保护电路如图7所示。首先需要去饱和检测电路，即器件过流时，需要及时检测出过流信号；其次是逻辑控制电路，由于管子的过流信号往往是瞬时信号，所以该部分应该具有锁存功能；最后就是执行电路，当发生过流故障时，执行电路应迅速将栅极脉冲信号切断，保证器件不受损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlD84OdzXFTB9uR5NXuQUibW52uB0hKoLd1myCdibJJSY7m63B3pSJY6Omg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_006_1dcd0a056a46.png)
 
 1）去饱和检测电路。如图8所示，当被测器件处于正常开通状态时，Buffer电路输出为正电压，二极管D1正向偏置，二极管Dz反向偏置，电流不会通过Dz给后续RC充电，所以反向器的输入是低电平。当器件出现过流故障时，UDS会迅速升高，当超过稳压管Dz的稳压值时，二极管D1反偏，Buffer 电流开始通过稳压管 Dz给后续 RC 充电，使反向器输入变为高电平，从而检测出过流故障，稳压管Dz的稳压值决定了保护电路的动作阈值。当器件关断时，电压UDS非常高，二极管D1反偏，此时Buffer电路输出为负电压，所以不会为RC充电，反向器输入仍为低电平。
 
 2）逻辑控制电路。逻辑控制电路最主要的是锁存电路，如图 8 所示。锁存电路一共有 3 个输入2个输出。第一个输入是来自检测电路的检测信号，当器件处于正常开通时，反向器输出为高电平，锁存器输出为低电平。当发生过流故障时，反向器输出变为低电平，锁存器输出为高电平，将触发后面的执行电路，同时锁存器的另一端可以输出故障信息。第二个输入是手动关断装置，可以手动控制器件的关断。第三个输入是复位端。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDhd08ausGw9DicL4hZSB36EEjibQ2MO62N5HU5E6SeKtfDjNvYic1vHq4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_007_e777020e62a9.png)
 
 3）执行电路。如图9所示，当器件发生过流故障时，检测到过流信号后执行电路必须及时做出响应。首先是栅极电压钳位，过流故障发生时，器件的栅极电压产生尖峰，可能会导致器件的栅氧化层击穿，使器件失效。为了解决这个问题，增加放电电容C1和齐纳二极管D1，当故障产生时，M1被打开，电容被充电至齐纳二极管的稳压值，释放栅极电容电荷。其次是软关断，发生过流故障时电流会很大，器件如果关断太快则会引起很大的di/dt，产生较大的电压过冲，所以M3先打开，Buffer 电路关断，经过 RC 延迟后 M2打开，较大的电阻R2连接栅极，降低了栅极的电压变化率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlD38tS40k8stHv7aNmqnHnB4M5YRW7Q8KCx49Bbykb883gI2axDJWn0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_008_acfdade48485.png)
 
 同样利用Pspice软件模拟双脉冲实验对过流保护电路进行仿真。图10为去饱和检测电路仿真曲线，稳压管DZ的稳压值设为10 V，电源电压UCC\=100 V，负载电感 L\=20 μH。器件在 10 μs 时开始导通，电流ID以UCC/L的斜率直线增加，同时电压UDS随着电流的增大也在增大，在23.67 μs时电压UDS达到10 V，检测信号由低电平变为高电平。图11为执行电路仿真曲线。接收到检测信号时，执行电路及时将栅极脉冲信号关断，避免器件因过流而损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDzkmtRF5zTpz1IN4k06AQET9WpHkkv51nrQJeCevSoWjicWtBeDQ0FXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_009_b2a94154585e.png)
 
 **4 .驱动电路实验分析**
 
@@ -101,9 +101,9 @@ SiC MOSFET具有较脆弱的短时过载承受能力，所以在器件应用时�
 
 图 12～图 15 给出了使用不同栅极电阻时SiC MOSFET的开通关断波形。测试条件为：直流电压 UCC\=200 V，电感 L\=520 μH，测试电流 ID\=25 A，开关器件 SCH2080KE，驱动电压 +20/\-4 V，栅极电阻RG为2 Ω，5 Ω，10 Ω，25 Ω。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDrexx45AVZnJFz98zQkTK2Y4wD0exlrqPGwFz2UpWhbSlYS1INROGzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_010_acb936a4a782.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnIxsCgtibiciaeuYBichlzZPlDDpicibL8eRAJVqydiaX21I2icJIp9ia0AI7wy51LS4K9vdiahdXOkicvUp1HQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_011_17186bf2c917.png)
 
 由实验结果可知，本文所设计的驱动电路工作状态良好，满足驱动电路设计要求。
 
@@ -117,10 +117,10 @@ SiC MOSFET具有较脆弱的短时过载承受能力，所以在器件应用时�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_012_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_013_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\北京工业大学_SiC_MOSFET驱动电路设计与实验分析_images\img_014_84aa944feb13.jpg)

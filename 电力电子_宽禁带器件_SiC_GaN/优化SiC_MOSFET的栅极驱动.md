@@ -20,11 +20,11 @@ SiC MOSFET 工作在低 VGS 下可能会导致热应力或由于高 RDS 而可
 
 在低 VGS 时，一些 SiC 器件的导通电阻与结温特性之间的关系曲线看起来是抛物线 \*（由于内部器件特性的组合）。(\* 这适用于安森美 M1 和 M2 SiC MOSFET。) 当 VGS = 14 V 时，RDS 似乎具有负温度系数 (NTC)特性，即电阻随温度升高而降低。SiC MOSFET 的这一独特特征直接归因于其低增益，这意味着如果两个或更多的 SiC MOSFET 并联工作在低 VGS(负温度系数 ) 下，可能会导致灾难性损坏。因此，只有当 VGS 足以确保可靠的正温度系数工作时（即 VGS > 18 V），才建议将SiC MOSFET 并联工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsYkqk0jrVWh3DjKqlZz8TMKh8gdmzHCnxu2FqrfyWmBoP4vPWzE7onw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_000_29892a57c9d9.png)
 
 新一代 M3 SiC 在所有 VGS 和所有温度范围都显示正温度系数
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsVop9wNpk0ebVBVDUGsunGWtyicTbaB8L7xZoNHgA3iaRkibvckaicakxUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_001_f23a068ed506.png)
 
 栅极电荷
 
@@ -32,7 +32,7 @@ SiC MOSFET 工作在低 VGS 下可能会导致热应力或由于高 RDS 而可
 
 由于我们想测量导通或关断 SiC MOSFET 所需的电荷量，我们的曲线只绘制了 Qg 的增量（或 Qg 的累积或 Qg 的变化）。这个数值也叫 Qg。这可能会引起混淆。我们需要将这张图解读为需要的能量，而不纯粹是存储在栅源电容器中的能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsZ3NXibUG9Ty2H810T8wCOoMJfs8LicFpqf3cSjuL1icSdAt2E0s2Ona4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_002_34120c1aa514.png)
 
 使用负栅极驱动阻断电压主要是为了减少关断状态下的漏电流。这也是由于跨导增益低造成的。使用负的阻断电压还可以减少开关损耗，主要是在关断期间的开关损耗。
 
@@ -44,7 +44,7 @@ DESAT 保护是一种过电流检测，起源于 IGBT 的驱动电路。在导�
 
 动态开关
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGslicXVaY1EC1vLDCWWicLfkBRY7tpsOY6zh3AxJcKDMBfGYtAeusr364Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_003_aea78fded3ca.png)
 
 SiC MOSFET 的导通和关断状态有 4 个不同的阶段。所示的动态开关波形呈现的是理想工作条件的情况。然而，在实践中，封装寄生物，如引线和邦定线电感、寄生电容和 PCB 布局会极大地影响实际波形。合适的器件选择、最佳的 PCB 布局，以及对设计好的栅极驱动电路的重视，对于优化开关电源应用中使用的 SiC MOSFET 的性能都是至关重要的。
 
@@ -72,7 +72,7 @@ SiC MOSFET 的导通和关断状态有 4 个不同的阶段。所示的动态开
 
 栅极驱动器方案
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsI2ibw55m9dAOT1q7He90DlWeAx1mbdElCGPV9R0qrts7tBG6Gup1GXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_004_682293fa320f.png)
 
 安森美的 NCP51705 是一款 SiC 栅极驱动器 IC，提供高的设计灵活度和集成度，几乎与任何 SiC MOSFET兼容。NCP51705 集成许多通用栅极驱动器 IC 所共有的功能，包括：
 
@@ -110,13 +110,13 @@ SiC MOSFET 的导通和关断状态有 4 个不同的阶段。所示的动态开
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsygNw8Sm1iasicdib6ehOKWgpV9ic8c8PE8HvZaVXGnyRYOvCy1ichy4jxrw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_005_4be01a141237.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsqtYBIE39RAf1MlC6RZUmzsibfialllfHfWlc8Ox1sUmDj1z99PmPic16A/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_006_9a9da4a6f262.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsR4Vd6K3FBRfTV0p7fUpfghN4ialScfUyRJteTyZaMu9hFZuA5cX4QAA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\优化SiC_MOSFET的栅极驱动_images\img_007_0da60ad9b2f2.png)

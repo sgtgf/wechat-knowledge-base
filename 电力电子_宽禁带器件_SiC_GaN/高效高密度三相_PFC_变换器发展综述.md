@@ -17,7 +17,7 @@
 
 OBC 的拓扑结构直接影响充电装置的效率、功率密度和可靠性。根据功能划分，OBC的结构可分为两级式和单级式两种类型。其中，两级式结构因其技术成熟度高、综合性能优越，已成为当前行业的主流设计方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOzAl4vJmgY0JRPa7wfiaSEtyGzG8NVNXFITOLFvZibQxNqwLAibiaOUX3HQ9cASBEEfiaB6BTicRlUP66d3CskBRlcTfCK4oVn8Cnd0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_000_996f40d6ad7d.png)
 
 图 1 为两级式 OBC 结构图，其前级为 PFC（Power Factor Correction）变换器，将电网输入的交流电压转换为稳定的直流母线电压；后级采用隔离式 DC-DC 变换器，通过高频调制技术将直流母线电压调整至适配电池充电需求的电压范围，同时提供电气隔离以确保系统安全性。在直流母线处通常配置低内阻的电解电容，用于实现前级与后级的解耦。这种设计不仅允许两级电路独立优化，还能简化控制系统的设计与工程实现。
 
@@ -29,11 +29,11 @@ OBC 的拓扑结构直接影响充电装置的效率、功率密度和可靠性
 
 PFC 变换器主要由输入滤波器、交流侧电感、 整流桥等构成，提高 PFC 的效率和功率密度，本质上即减小上述各部分的损耗和体积。为全面分析高效率、高功率密度三相 PFC 变换器的研究现状，并深入探讨其技术难点，本节对国内外工业界和学术界具有代表性的产品及研究成果进行系统综述，如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMv5uibdBOMvusozH7MV7PjoO6Pk4fPWCZbpKrnYgTF7s47kYT1tibjcaviaINibibVxeYlmG1JwZ1DNhiaYia8bQQk6icWapdHr9ppgS8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_001_8cfee8da4612.png)
 
 考虑到各工作的研究重点不同，样机结构可能存在不完整的情况，所以在比较效率指标时， 不考虑辅助电路和控制电路的损耗，在评估功率密度时，不考虑散热器（效率即可表征散热难度）以及直流母线电容（与 PFC 拓扑方案关系较小）的体积。图 2 中各研究成果可根据拓扑结构的电平数分为3 类，具体方案总结如图 3 所示，包括两电平拓扑、 三电平拓扑以及多电平拓扑，根据工作模式各拓扑还可以进一步分为连续导通模式（Continuous Conduction Mode, CCM）， 临界导通模式（Critical Conduction Mode, CRM）， 以及三角波电流模式（Triangular Current Mode, TCM）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOFFFY8MlJNW3u3hrolaggXj28vbC5nvaHh83ONEon4xCNy5J1qicibgg95BYoichLM3jWkedDBMSWgh92My1YLiaeiaupibe7EBPryI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_002_1b275b9e145d.png)
 
 为了深入研究不同方案在效率与功率密度提升方面的瓶颈，将通过剖析现有技术的优劣势，揭示关键限制因素以及多电平拓扑在高效率、高功率密度应用中的价值。  
 
@@ -41,23 +41,23 @@ PFC 变换器主要由输入滤波器、交流侧电感、 整流桥等构成�
 
 考虑到车载 OBC 双向功率传输需求，典型的两电平三相 PFC采用 Boost 型六开关拓扑，如图 4所示。与单相 Boost PFC 变换器类似，该拓扑在连续导通模式（CCM）下运行，通过平均电流控制方法实现网侧电流的功率因数校正。由于三相六开关拓扑为倍压输出结构，所以在三相 220Vac 输入电压 下，直流母线电压需要设计在 600V 以上，为优化成本，通常选用 1.2 kV 硅基绝缘门双极晶体管（Insulate-Gate Bipolar Transistor, IGBT）器件。但由于 IGBT 在关断过程中存在拖尾电流现象，随着开关频率升高，关断损耗增加，该方案的开关频率一般受限于30 kHz 以内。这导致变换器所需电感量通常在 mH 级别，电感体积很大。此外，IGBT 作为为双极性器件，其通态压降约 2 V 左右，导通损耗较大。该方案效率以及功率密度指标差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZVLZA8xswY6ynIKj46TdPfuLm3eYJLGYK4LB7wqmajbYZqmIwQ1bx02BE8tCC7DYCxh6ygiaPiblsASDI1TXAw6HQSdFLhol5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_003_1f607f034b61.png)
 
 随着以SiC MOSFET 为代表的宽禁带器件在OBC 中的应用，上述问题得到一定程度的缓解。相较于Si 基器件，SiC MOSFET 具备更高的电子迁移率、更低的寄生电容以及更小的体二极管反向恢复电荷，适用于高频工作场景。但由于CCM 模式下器件硬开关，SiC MOSFET 开关过程中的电压变化率（dv/dt）较高，会产生严重的电磁干扰（Electromegneatic Interference, EMI），需通过减缓开关速度的方式加以抑制，导致开关损耗增加，并限制了开关频率。
 
 为实现更高的功率密度，提升 PFC 变换器的开关频率成为关键。然而，开关频率的增加会导致器件开关损耗上升、效率下降，并增大散热器体积。 为解决这一问题，软开关技术被广泛研究并应用。 软开关的核心原理是在器件开通前将其电压减小至0，即零电压开通（Zero Voltage Switching, ZVS）或在关断前将其电流降至 0（Zero Current Switching, ZCS），从而实现零开关损耗。在 CCM 模式下，PFC 变换器的开关损耗主要集中于开通过程，包括主管开通损耗、容性损耗及续流管反向恢复损耗， 而关断过程的损耗相对较小。因此，当前软开关技术的研究重点在于实现零电压开通（ZVS），主要分为两类方法：一类通过外加有源箝位网络在开通前回收开关管结电容能量，使其电压为 0；另一类通过增大电感电流纹波并使其反向，利用死区时间内电感电流对主管结电容放电，实现 ZVS。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNRBiaC4icGKr71JVaHB3z8icrQljrToO6OHcCeEdrIBuvfwtTz26ceice7BYfXibdaSscMFtM6fGc2ZrD8ztSEYC1ibW1Kd8zh64n78/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_004_62c81110e5dd.png)
 
 图 5 为一种典型的基于有源箝位的软开关拓扑， 在原有三相六开关 PFC 的直流母线上串联了一组有源箝位网络。该电路的主功率器件按照 CCM 模式运行，仅在主管开通前进行能量回收。该方法利用反并联二极管的反向恢复能量实现 ZVS，所以需要在主管上并联慢恢复二极管，箝位网络电感具有足够的能量使三相桥臂主管充分放电，但这限制了开关频率。为克服这一局限，文献 \[20\] 提出一种基于空间矢量调制的控制方法，无需依赖二极管反向恢复能量即可实现主管和辅助管的 ZVS，同时有效抑制反向恢复电流，适用于高频工作场景。该方法在三相逆变器中也得到了验证，并通过与硬开关模式的对比，验证了其优越性。然而，在三相四线制 PFC 结构下，该控制方法会导致中性线出现较大的低频零序电流。为此，文献 \[22\] 提出了一种结合对齐驱动信号和额外短路模态的 ZVS-SPWM 控制方法，实现了所有开关管在 ZVS 条件下的定频工作。 此外，文献 \[23\] 将箝位网络串联在桥臂中，以减小换向过程中的环路电感和器件电压应力，适用于三 相、单相兼容的PFC 变换器。尽管基于有源箝位 的 ZVS 方案能够实现软开关，但其局限性不容忽视。 首先，额外的辅助电路元件增加了电路设计和控制系统的复杂性，同时提高了制造与维护成本。其次， 箝位网络对无源元件参数的精确度要求较高，参数偏差可能导致软开关失效，进而影响系统的可靠性。
 
 除有源箝位技术外，临界导通模式（Critical Conduction Mode, CRM）也是一种实现 ZVS 的有效手段，利用开关管结电容与电感谐振，释放器件结电容电荷，从而实现 ZVS。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOqdfFNddTpmp57Ydw1udib9PMwrSbJickr38T275r3JEkrib2l8sxD0edPuHgIGRxqjlGVibVzZHiaffX7eLtcXNGtV7WkIyaEU5Xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_005_604c89b6ecc3.png)
 
 图 6 展示了单相图腾柱PFC 变换器及其关键工作波形，其左桥臂高频工作控制电感伏秒，右桥臂工频运行切换工频正负半周。 当输入电压低于 1/2 直流母线电压时，主管可以实现 ZVS，但是当输入电压高于 1/2 直流母线电压 时，主管结电容电压在谐振过程无法到 0，仅能实现谷底开关（Valley Switching, VS），最低电压为 ，并且相位越接近 90°，谷底开关时的电压越高，开通损耗越大。为了在整个工频周期内 实现 ZVS，可以使电路工作在 TCM 模式。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNhXL6B7HUzpKZjyz5P8BdInEvUCuQphGYHUOkpIoDphN1FvdJIt4cxz2rPtNoiaNblwxjWdyOA6c791iczQfl2XJmhvZercicU9M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_006_7ae15dd3d00d.png)
 
 如图 7所示，通过谷底电流控制策略延长续流管导通时间，增大电感储存的能量，以保证完全释放主管结电容电压，具体延长时间则根据输入电压瞬时值以及谐振回路阻抗计算得到。为了减小电感损耗，通常会以铁氧体等高频硬磁材料作为电感磁芯，在使用时需要注意饱和电流问题。然而在 TCM 模式下， 电感电流峰值为平均电流的一倍，不适合大电流应用场景，在3 kW 以内变换器的效率与功率密度具有优势。为扩展至更高功率，可采用多相交错并联技术，不仅维持效率与功率密度，还能减小网侧电流的高频分量，有助于缩小滤波器体积。
 
@@ -71,27 +71,27 @@ PFC 变换器主要由输入滤波器、交流侧电感、 整流桥等构成�
 
 综上所述，市电三相 AC-DC 变换器直流母线电压等级在 800 V 左右，使得传统的两电平拓扑需采用 1.2 kV 电压等级的器件。而多电平拓扑，特别是三电平拓扑，能够使用电压等级更低的器件（如600 V），在成本控制和系统可靠性方面展现出优势。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP2GxA56GbRKrLebq0VRQoCBJtdGiaJQDCY4b4m2lYA2KsVTBU8fdXLIslS4WXLGTPo5mgrwueKmBFrNuz4dJ0c2ZpIuGb22JvU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_007_7302a523cccc.png)
 
 图 8 展示了 NPC 三电平拓扑，该电路利用二极管进行箝位，将器件电压应力降低至直流母线电压的1/2，对应 600 V 器件应用范围。为进一步提升系统效率，可将箝位二极管替换为可控开关，形成有源中点箝位型（Active Neutral Point Clamping, ANPC）三电平拓扑，如图 9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOib0vKpFS7WVibZtOOGcLqgexK6Bvy00IVMg43damroSmaVf5PG9K6geRS02VBcLq5RcTk7AEbW4NXmGZHQibQRcbfHyfnAdpVOo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_008_98398d40e982.png)
 
 相比 NPC 拓扑，ANPC拓扑的控制自由度更高，支持针对性的控制策略优 化。例如，通过平衡器件间的损耗分布，可降低散热设计的难度。或者使部分器件工频工作，将高频工作的器件减少为两个，降低开关损耗。基于该方法，文献 \[36\] 使用 650 V GaN 器件作为高频管，Si MOSFET作为工频管，在 140 kHz 开关频率下实 现了 99% 的满载效率。
 
 将 NPC 拓扑的箝位二极管替换为可控开关， 同时把其他可控器件替换为二极管，可得到六开关Vienna PFC 方案。在该拓扑中，当箝位开关导通时，输出电平为 0；当箝位开关关断时，二极管导通续流，输出电平为 1 或−1。进一步优化拓扑结构， 将低压二极管整合为高压整流桥臂，并通过双向全控器件进行箝位可形成另一种Vienna 拓扑结构， 如图 10 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN4FsaFqY4NyGyEMhHCxXLffkLRjRrYILM5hc46Smhtu3VGnsd3riaFnXY87O0Hfhoa5CU7S9RQ6z4H05MJfMPmJicA6ic22aVu6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_009_0d2b9c6d06d1.png)
 
 该拓扑结构器件数量最少，在功率 密度要求不高时，其效率与成本具有明显优势。 为实现双向功率传输，需要将 Vienna 拓扑的二极管 替换为全控器件，从而演变为 T 型三电平拓扑，如图 11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMTFsc29ZeCdpIRibfmicnn1Bic6GPFvvm9lhibiaxezegpcNUjuoToPprOc07byQgFwibpSZbTic42l0QCZBJkh2IuuGYwxdW0K2lGy0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_010_b29421b79aa6.png)
 
 在逆变模式下，电感电流反向，外侧 高压器件成为主开关管，低压双向开关变为续流管， 其控制策略与整流模式存在一定区别。在相同器件且效率为 99.5% 下，文献 \[33\] 比较了不同三电平拓扑的开关频率，结果表明 T 型三电平拓扑的开关频率较 ANPC 提高约 1/3，因而能够实现更小的电感与滤波器体积。此外，三电平拓扑也可以工作在TCM 模式，在死区内通过电感电流对主功率管结电容放电实现 ZVS 工作，进一步提高开关频率上限。 文献 \[42\] 系统地评估了 T 型三电平拓扑在不同开关频率下的效率与功率密度，提高开关频率虽然可有效缩小电感与滤波器尺寸，但同时增加的开关损耗需要增大散热器体积，使功率密度呈现拐点。以每相 2 kW、效率预期 99% 为例，其最优开关频率约200 kHz，功率密度可达 15 kW/L。
 
 除上述拓扑外，飞跨电容（Flying Capacitor, FC）三电平拓扑也具有应用潜力，如图 12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNsIRVxicpOKuPAZRHwvhDYJ2SwImE8psnnCLWt5phpHYJHrsh7R3Y9KoEX3fP6iavOMwxlnlCKWIcCAZJh2p7ibvpuC7gnFOTYFs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_011_ccf6c9597931.png)
 
 该拓扑的器件数量与 T 型三电平相当，均为600 V 电压等级，且器件损耗更低。但由于电路不具备自均压能力，为使飞跨电容电压维持在直流母线电压的 1/2，需要增加均压控制策略以及相应的硬件采样电路。
 
@@ -101,17 +101,17 @@ PFC 变换器主要由输入滤波器、交流侧电感、 整流桥等构成�
 
 三电平 PFC 方案已初步经验证了多电平拓扑在效率方面的优势，并且由于其伏秒相较于两电平方案减小了一半以上，在功率密度上具有天然的优势。 因此，当电路拓扑的电平数继续增加，三相 PFC 有机会实现效率与功率密度的进一步突破。为从理论 上论证多电平技术的可行性，文献 \[45\] 针对基础多电平拓扑推导了多电平变换器的统一损耗模型。基础多电平拓扑如图 13 所示，包括级联 H 桥（Cascaded H-bridge, CHB）变换器，FC变换器，ANPC变换器 ， 以及模块化多电平变换器（Modular Multilevel Converter, MMC）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPVyyiaDM0lBHWyFDXCOw2HPDEawlNc2TiclfZkn9gexOibS6OtMEbaQd5h5btSYOxCBHk7OXvfUiaictKqpSKXiculOAAAOgoA0rqt0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_012_d510f3b0e1c3.png)
 
 通过分析发现，这 4 类基础多电平拓扑存在相同的半桥基本单元，根据该基本单元的损耗特性即可建立任意单元的损耗模型。为便于在给定直流母线电压下，评估不同耐压器件的理论最小损耗，进一步引入器件 FoMN（New Figure of Merit） 的概念，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOBq3tmpM61QjYN2910PmgNMJRYyfVMkaNJvrnhrfpPXXmCgibzgZluUXJeE96CGK9iafia4JN61AdzSZQibia7vzv8PY3bAVY6JUlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_013_6dc7366a0346.png)
 
 式中： C为器件结电容； Rds.on为器件导通电阻。统计数据表明，器件 FoMN 参数与器件耐压正相关。 基于器件 FoMN 改进统一损耗模型后发现，多电平拓扑的最小损耗近似与器件√FOMN成正比。因此，在相同直流母线电压条件下，拓扑中的单元数越多，所需器件的耐压超低，电路损耗随之减小。  
 
 多电平拓扑不仅降低电感电压幅值，还可以提高其频率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMI0D1qhB5ibUib8ibv1fzicdrOVtXg8icAbEY8UiceE0lyTexY3dgzFXeALgb6gnZ3kh5icvIS4WdNE1hRo3GYVianLwn7Ft2L7a6eLUM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_014_fe279131f011.png)
 
 表 1 比较了不同多电平拓扑在相同电平数下的性能，包括基本单元数、等效倍频效果、电感伏秒缩小倍数、器件数量及箝位电容数量。例如N电平CHB拓扑，其包含 N−1个基本单元，由2（N−1）个开关器件以及（N−1）/2 箝位电容构成，电感电压频率为开关频率的 N−1 倍，电感伏秒下降(N-1)²倍，所以电平数越多，电感以及滤波器体积越小，PFC 变换器功率密度越大。
 
@@ -131,30 +131,30 @@ MMC 拓扑凭借其高度模块化的结构被广泛应用在中高压电网中
 
 从功能的角度，直流电压母线用于向后级传输功率，那么通过模块化的低压单元输出功率的方式必然会导致多个电位悬浮的直流母线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNk7JAibJlia8hkxhfJfAqDQGl11xxAOLh8BCA6iaVk7QP0UU6Imeg2I7evnF30F0ZIf2DCKIsybibeHUFyvESLqYOUWj0qXyicgia2Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_015_2264892a6ffe.png)
 
 如图 14 给出了 CHB 变换器的拓扑及其功率传输路径分析，其中Usw,1和Usw,N表示CHB单元的端口电压，iL为电感电流。在共同占空比控制下，CHB 的输入功率会平均分配到每一个单元，然后再通过多个直流母线传递到后级 DC-DC 变换器。因此若要实现单直流母线，则需要使功率仅通过其中一个单元输出，该单元的电压等级相应增加为总母线电压。
 
 为了实现单母线，将功率集中到单元 N，并通过Usw,N传递，其电压将提升到总母线电压Vbus ，而剩余单元仅用于控制电感电流，如图 15 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMY767kkPKxM1ibX2dZSoR2kz1b4g6ebZFM59Ygc4hQgT9sib2iblrIoJJxEiaBstRJQVRib4dTwXMVSUsCcWlA5yLfOOeFLO3CSn1c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_016_c6171f36b804.png)
 
 因为电感伏秒被多电平低压单元控制，所以传输功率的高压单元仅需完成整流并产生直流母线电压的任务，所以可将高压单元设置在工频整流状态以降低损耗。 在该工作方式下，输入电压与工频整流桥端口电压之间存在较大电压差，伏秒过大，因此利用多电平网络分担大部分的伏秒，从而减小电感伏秒，缩小 其尺寸。由于多电平网络模拟了电感的作用，并且能够自发完成伏秒的控制，所以将其命名为模块化感性开关网络（Modular Inductive Switching Network, MISN）。该电路其主要包含两部分开关网络，分别 是基于低压器件的高频多电平网络，以及基于高压 器件的工频整流桥。进一步，基于三相四线制的结构即可构造出三相 MISN-PFC 变换器，如图 16 所 示，各相的电感串联一组 MISN 模块，高压单元使用六开关三相工频整流桥。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOSnARfRIjncVkkztuRhsIZmbJU9ASibHiaznCPYf08UDxAnn4x7aQQWapE4UACO5CavTB9jMnfhQQoJCtUR9hKOWfHxOKiaTeYiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_017_d846b56b9e15.png)
 
 图 17 展示了三项MISN-PFC实验样机图片，包括输入滤波器、电感、MISN 模块、工频整流桥、直流母线电容以及控制板。样机满载传输功率 10 kW，输入电压的范围 ，输出电压220Vac±10% ，输出电压550Vdc， 整体尺寸为 18 cm×8.5 cm×2.5 cm，功率密度高达26 kW/L。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPj2kxazQ4zVgQUw4F3ZbwJmBicdzy9UJE5MZC3gvkpibKAEVjMpOdz258Ps2rCXlLu2PANMjlBQSuOribLlwSGQr4Vy0rL6tAuOM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_018_24c7c58de96b.png)
 
 在稳态运行条件下，电路 A 相的关键波形如图 18 所示。由于 MISN 模块高频工作（20KHZ）， 其可以精确控制电感的伏秒，从而实现高效的功率因数校正。从展开图可以看到，当开关频率设定为20 kHz 时 ， MISN端口电压的等 效频率达到了280 kHz，实现了14 倍的频率提升。为了抵消工频整流桥开关动作对电感伏秒的影响，加入非线性暂态补偿控制，驱动 MISN 模块的端口电压同步进行等幅反向切换，以避免电感伏秒的突变，确保电感电流的平滑过渡。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPGykMun3zCQG6x7TZ7fVpibWAY1eTFYpxnm3cLr6MCT2HoIxDYy7CCDsqL4RUUEjlw32icD9FbIKQJesGSC8vmrcp3oTLib1Bf0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_019_02e933607f1b.png)
 
   
 图 19 对比了传统两电平方案与多电平 MISN 拓扑无源元件的体积，由于 MISN模块减小了电感的伏秒，并增加了电流纹波的频率， 所以所需电感和滤波器体积下降明显，计算外加MISN 电容后，整体体积减小约一半左右。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOcsIEu9IQ0lMpyUQia9icTEYxwoDCvtg1gSpZuVxQzrFibzf9W6gibQ8RwCZ30TqBwRptzicSgOYT93ewKhuvC9z7yJibBqWSyCed4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_020_330e6860095e.png)
 
 4.结束语  
 
@@ -166,14 +166,14 @@ MMC 拓扑凭借其高度模块化的结构被广泛应用在中高压电网中
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPeMSn3gXlDt08RSl53sia42KL2vc1VwD2fialnhibFQmxgLJqAFib4PniaIkicyJ49j365MYEnbYicQ0kSgkO01z55uAChMFLIdoiaj2g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_021_bd3b1297416b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4ZawxmntsGGILYSTosxrj3WMQYHvJypYUuiaWwAEYBXOVaNbNstJ1RZVb3nZn0hTlNnXicGib9MibVhK9qEkYzP92L81nBGiaMQhM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_022_3e41e45dd451.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtgCibSEiaB0WEAHuBm2MCKCBibK5fT4ZsCEegyzTxpcDpk0ic2mbH4z3yVdEdES64VvkWWlNZoib8H4wibECHd2IKbl8IVskpa0eG0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_023_6039b7ee1c95.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOlVIsHHkHFicBicQeWEgLurD2ECwrzN2RILWbibqE0UzlNl5hYBUEfgqJYU1wrJZAODeyib0Gdkm1Efz8gqda4tHDIG1jRicExEtVo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效高密度三相_PFC_变换器发展综述_images\img_024_45caf66c91b0.jpg)

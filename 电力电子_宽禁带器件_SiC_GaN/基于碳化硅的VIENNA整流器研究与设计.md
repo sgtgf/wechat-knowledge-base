@@ -19,7 +19,7 @@
 
 2\. 三相VIENNA整流器电路结构和原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicYj5TwXr0wAbWKwh5I8PZjGicmjPMXXiaFJtRWseicxMyIEby6BwKtHsOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_000_844e12dc5eec.png)
 
 三相VIENNA整流器电路拓扑如图1所示，包括输入滤波器、三相不控整流桥、功率开关和直流侧电容。此处不控整流桥为SiC二极管，功率开关为SiCMOSFET，两个SiCMOSFET通过共源极串联组成，器件电压应力小，可靠性高。
 
@@ -33,13 +33,13 @@ VIENNA整流器工作时，桥臂电压UaN,UbN,UcN取决于SiCMOSFET的状态和
 
 VIENNA整流器直流母线电容的主要作用有两个：①稳定直流侧电压；②缓冲交流侧与直流侧的能量交换。母线电容的大小，不仅影响输出电压的纹波，且影响系统的动态性能。由于VIENNA整流器拓扑的特性，输出电压中含有六倍频的纹波电压，直流母线电流纹波最大值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7Hics8kY2vVYCW5P3onn17oLibtLtYRjStn9Xq6JZw4iaN7aUO7QY2wNLfhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_001_38dcb5db4222.png)
 
 式中：Us为相电压有效值；ls为相电流有效值。
 
 极端情况下，母线电流的交流分量全部由输出电容提供，则输出电容最小值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicYMiaWJHcbbzC5Owl0OGfeicHjS7HavOuyJBg0rsbr6jZ9eic5DXIX7rXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_002_c0bfb3dba288.png)
 
 式中：ω。为工频角频率；Φ为相电压与相应相电流的相移，一般取cosΦ=1;ΔUomax为允许的输出电压纹波最大值，一般取为输出电压的2%。
 
@@ -49,7 +49,7 @@ VIENNA整流器直流母线电容的主要作用有两个：①稳定直流侧�
 
 交流侧电感主要影响两个方面：①交流侧电流的谐波；②系统的动静态性能。电感值的大小与系统的开关频率有关，高开关频率能够减小输入电感的体积，但同时会增加功率器件的开关损耗，降低效率。该设计中开关频率折中取为40kHz。根据交流侧电流的最大允许纹波来确定电感的取值下限，根据动态性能要求来确定电感取值的上限：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicmiabUmCg07FgLfltY7FFkZQuFtBV0UbC2yibeh0icVEMkGOt3kaz8BvGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_003_ea105c1ac449.png)
 
 式中：Udcref为母线电压的参考值；Uin为输入相电压；lN为输入相电流的峰值；Ts为开关周期；ΔImax为输入电流的最大纹波值，此次设计中取为输入电流的20%。
 
@@ -57,61 +57,61 @@ VIENNA整流器直流母线电容的主要作用有两个：①稳定直流侧�
 
 3.3.1电流内环设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicT2QRkOz3DsHLqAdZ6Z0pVDjDl0PXFbuNic3kKQdB9j52gib1IxSXbvbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_004_7041a12c467b.png)
 
 所提控制策略为电压电流双闭环控制，由于状态空间模型中d，q轴之间存在耦合，需要进行解耦，解耦框图如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicGRurEerMbAdk7Jwn6ic82sdLRcGUbBdG68eocRBN07dsl2M7S7fl0Uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_005_9981468a2aa2.png)
 
 式中：Kip，Kii为电流控制器PI参数；idref，iqref为电流指令值。
 
 以d轴为例，考虑电流采样和PWM延迟，忽略电网电压扰动ed，eq，可得电流环简化结构如图3所示。图中,Kpwm为PWM的增益。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicXlBqESSAsrBiaVCy8oLAF4tCWFZ9lhjR8pSq7TC6YtWPE0xUc7wmDSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_006_6cfd983410a6.png)
 
 未补偿前的电流环开环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicnicrDjyCBYQM34tj6gYjlib66SvZXUDo8QrGwFHu6PH2j7ctorvvnZgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_007_d0e2a11324b0.png)
 
 电流环开环传递函数的波特图如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HiceW8HiaRfCe1hIqQrbL8D2nRGFiaa66N0EPzGiaQyBZeBl64iaFj7u0EMPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_008_c412993a600c.png)
 
 电流内环一般要求有较快的响应速度，可按照典型I型二阶系统设计，以PI调节器零点抵消电流控制对象传递函数的极点，即Ti=L/R，取系统阻尼比ξ=0.707,有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicvHicObKTNMIYCsvaiafZVrS9eL15CTLoNEv8fQwSic0sgOlxE560afJKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_009_ef0a1ef11fb0.png)
 
 因为VIENNA整流器的开关频率远高于工频，因此，电流内环闭环传递函数可简化为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7Hico67Vq9kbs6Y6YdfTr9690f4axV3wYIibNh07tjxefianFwAdAAK1gQsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_010_d3982f2371c2.png)
 
 电流环闭环传递函数的波特图如图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicXm6ZBAYrfPO4zEIgY4AgFabEWVBNgK3NKcZ703Xs13uQpjel415GDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_011_4f25723e58ed.png)
 
 3.3.2电压外环设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicYaumAQeV9Qaqf7WcmsBJlCiawpmm0tmKibOjf3UFF7dkhUmqHCSbrTvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_012_af4a0703ed53.png)
 
 只考虑电压采样延迟并忽略电网电压扰动和负载扰动，电压环简化结构如图6所示。图中，Kup，Tu为电压环控制器参数。  
 
 未补偿前电压环开环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicfYyQOO45d9w0HRWrTLGkibUmnYJIM2BgKiazA7ZS2lraMNptd6dHZ4icw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_013_2a977b24fa11.png)
 
 电压环开环传递函数的波特图如图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7Hicf4mspuqrxibUxwY17IgNXUyIzHq5NygHJgmDkNgZOutTds4DDfuBkLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_014_a18c903d3625.png)
 
 电压外环无需较快的响应速度，主要考虑抗干扰性，来稳定母线直流电压。按照Ⅱ型系统设计：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicZia8YSwTovm0eDKKUwOPq5lBbMXvRLiciaFticeH4XXfGEeRiaWeialopLgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_015_16953f1eb804.png)
 
 式中：hu为频带宽。
 
 将 hu=tu/(8Ts)=5代入式(9),得到电压环PI参数分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HiccOye541e4Eou3Mtg66P1BibxuXYH7RqbI5bXaoOdo2CGTlYdolYpiaicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_016_7aa941a4442d.png)
 
 VIENNA整流器一般采用双载波，为便于数字控制器的实现，采用载波反相调制。在调制波中注入3次谐波，减小VIENNA整流器电流谐波含量17\]。
 
@@ -119,11 +119,11 @@ VIENNA整流器一般采用双载波，为便于数字控制器的实现，采�
 
 此处在Matlab/Simulink仿真环境中搭建三相VIENNA整流器模型，进行系统仿真，仿真参数如下：三相输入线电压/频率为380V/50Hz，输出电压为700 V,P=17kW,f=40kHz,三相输入电感为420μH,直流侧输出电容为2100μF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicnpIp4813plkDHYEP4NNnyOGaEo1bcpyBricoY4htKVBrv6ibJGWuwZlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_017_518458acfa6e.png)
 
 图8a，b中，三相输入电流为正弦波形，正弦性良好；其中a相电流的THD=2.57%，满足小于5%的技术指标。图8c中，电流相位跟踪输入电压相位，相位差为零，实现了单位功率因数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicCzUljbTMLTz89f9oLnNNFotHt4eAm7VniaPRK0j5xZibYpkGOdEjuQQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_018_3f651b37af16.png)
 
 图9为输出侧的直流电压波形，可以看出，电压稳定在700V左右，纹波电压峰峰值在4V左右，满足要求。
 
@@ -131,7 +131,7 @@ VIENNA整流器一般采用双载波，为便于数字控制器的实现，采�
 
 在17kW负载条件下用电能质量分析仪对输入电源品质进行了测量，谐波含量在5%左右，功率因数大于0.99。图10为实际测得的上、下半桥电压Up,Un和输出直流电压Udc波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVc4mdphw2icZqKbjYiam7HicCRuxCjiaZII4ToP1pBXOmI0mCWwEMaG6j9CZydgfsH6o1ewibicpRObXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_019_bbc82448e970.png)
 
 可见，上、下半桥电压均稳定在350V左右，输出直流电压稳定在700V左右，控制效果良好。
 
@@ -141,13 +141,13 @@ VIENNA整流器一般采用双载波，为便于数字控制器的实现，采�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_020_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_021_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于碳化硅的VIENNA整流器研究与设计_images\img_022_7038903c64cb.png)

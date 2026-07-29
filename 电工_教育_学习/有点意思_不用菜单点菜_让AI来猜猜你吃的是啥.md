@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/D\_wRoteOD4nVSrW9UzLTkg](https://mp.weixin.qq.com/s/D_wRoteOD4nVSrW9UzLTkg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/u3IjerbQOXj0eHBXT4IplJXlGFdsQZTzxJnzHgn1sGiaeT2c2OsJ6CW8JGBRiaZ4ZiaQlHnsCNfLs4e8TvmuiaY4ibQ/640?wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=0)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_000_02569b5f0cac.png)
 
 > ❝
 > 
@@ -23,21 +23,21 @@
 > 
 > 本文以米尔电子的MYD-LR3576边缘计算盒子为例，讲解如何在Android平台部署yolo11s、PPLCNETV2模型实现实时菜品识别。为开发者与研究者提供一份兼具实践参考与技术洞察的模型端到端的部署指南。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SrnMeZcPowaicBM1BPtdCDSv5Zm1Sl0jF6gMWua8sFefibp5eI7j7jN4w/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_001_8ed7a1693f31.jpg)
 
 # 1\. 基本介绍
 
 ## 1.1 边缘计算盒
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SFbEAqSbJibN7M9UrTst7ptD4QQGf58A8LD7Izfdxv4K1mM8DzX4tS0w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=2)**米尔MYD-LR3576-B边缘计算盒是一款基于瑞芯微RK3576处理器设计的高性能嵌入式AI设备。** 该处理器集成八核CPU架构（4×Cortex-A72 + 4×Cortex-A53）与算力达6 TOPS的NPU（2核心），具备强大的边缘端AI推理能力。
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_002_14c2b55b1509.png)**米尔MYD-LR3576-B边缘计算盒是一款基于瑞芯微RK3576处理器设计的高性能嵌入式AI设备。** 该处理器集成八核CPU架构（4×Cortex-A72 + 4×Cortex-A53）与算力达6 TOPS的NPU（2核心），具备强大的边缘端AI推理能力。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SYmib0F4vgHzmY6SRdbeBoBlfHaiaWKRaFrs5qbA62yt6up4qpsR6UmAg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_003_38f35b4c93b9.jpg)
 
 产品标配8GB LPDDR4X内存与64GB eMMC存储，支持双千兆网口、WiFi 6、多路USB 3.0及4K显示输出，提供完整的Debian/Linux软件开发环境。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SJ3SkKHib1cKNENq4ubznYXBIZmPTXxvLvGwvr9T0eeybxlKdE3mFFRA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_004_c621c57e2b29.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SzGBz9Bmtiagia9xExgMkgIWKl5rUwJWF7ib2ibcZRSrnGYEGdXIMCj34Qg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_005_792c235fb59b.png)
 
 凭借其高性能NPU与丰富接口，该设备可高效支撑计算机视觉、智能分析等边缘AI场景，为菜品识别、工业质检等应用提供稳定可靠的硬件平台。
 
@@ -117,7 +117,7 @@ RKNN Model Zoo优点：
 
 登录米尔开发者中心(https://dev.myir.cn/auth/login.html)，在开发者平台注册绑定产品信息，在包装盒侧面会有一个产品型号系列号，可通过微信扫码绑定。 绑定成功后，依次点击我的产品->软件资料->Android14操作系统：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17Szh26I6KEibywCYZa8lceCNdcpNY2zxFCa30fUSj7swavic8E38b4WsBg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_006_ec6238bcb8fe.png)
 
 然后复制提取码后点击“阿里云盘”字样即可打开米尔提供的所有相关资料文件。如：
 
@@ -133,9 +133,9 @@ RKNN Model Zoo优点：
 
 驱动安装工具压缩包位于 03-Tools/DriverAssitant 目录下，解压运行 DriverAssitant工具，出现以下界面，首先点击卸载驱动，然后点击驱动安装：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SC9Awpv7vUyFF0cXckibytnvBWx7vgbbDDsXO4LqgHclhjkS9I9icUknw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_007_51b7231af085.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17S1vUAg2Gtp9zwcuHBOhTxxhgicqv7LuW09Hw8B0bJEjTztE4pq5dcIbA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_008_8e58ae2ffe86.png)
 
 **2\. 烧录镜像到EMMC**
 
@@ -164,7 +164,7 @@ RKDevTool是瑞芯微提供的适用于 RK 系列芯片的 windows 下的便捷�
 4.  此时点击升级固件->固件，选择刚刚下载的Android镜像文件（刚下载的为zip文件，解压出里面的镜像文件）,然后点击升级按钮并等待完成：
     
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SFowibDTibtfvFGAQboPOpPScZ38QjQyR0jUwf4YsZxaibE9rqDGWVXWIg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_009_50e40c4dbdf2.png)
 
 5.  此时已经完成Android系统的烧录。
     
@@ -215,7 +215,7 @@ rknn\_model\_zoo中已经包含了yolo全系列模型，因此yolo11模型的转
 
 转换成功后可看到：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17S7qykQfvyQ0PoBfvbeYHEYBXFphREicCmoHZaoLwnmqAFS3ibibugQfjKw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_010_ed3c2e1fcadd.png)
 
 脚本默认将转换后的模型存储在../model中。
 
@@ -229,7 +229,7 @@ PPLCNETV2网络是Paddle提供的，因此需要使用paddle2onnx工具，先将
 
 # 4\. 菜品识别案例
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SpMkeFZCKCu2MFEJFbdHO2txaFY2KUIDJ9Ciaib5FNkOvcKu4oddkR0jw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=11)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_011_d80449d71720.jpg)
 
 本章将详细介绍基于米尔MYD-LR3576边缘计算盒开发的菜品识别安卓Demo应用。该案例完整展示了从特征库构建到实时识别的全流程，充分体现了设备在端侧AI应用中的实用性与高性能。
 
@@ -282,7 +282,7 @@ Demo启动设备摄像头并开启实时预览，视频流中的每一帧都会�
 
 MYD-LR3576-B边缘计算盒：
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/u3IjerbQOXjK5OvYORCN5bJ770kPIQsmZFicSpK74JHu1AicO93pAzGlJ7DCJBvicZsHtAOGM9kr9QT8RfQFicZkCw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_012_886b1467623d.png)
 
 产品链接：https://www.myir.cn/shows/138/24.html
 
@@ -303,11 +303,11 @@ MYD-LR3576-B边缘计算盒：
 
 赶快报暗号【王工】领取你的专属福利吧！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUUf4OQj3BZoBeNKq0zz4E5pmicIGqMSqaicRB0LMibMWtIWLCNcCSSia7ESA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_013_e2ebe54d63f0.png)
 
 R**K系列****新客活动价**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUULmzDVKSiayLGwcBV8ues6001BeltOdiaKXaTXjgyv8aBJ3NQGFSMSKzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_014_fa34c108b051.png)
 
 🔔 【活动说明】
 
@@ -330,9 +330,9 @@ R**K系列****新客活动价**
 
 **马上扫码添加微信领取优惠**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUU2Jo1Upf5nfSyfiaAdzickIMOfyeNdFf4H7pshd4RPM7Lic0wnYrxBCu7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_015_ccfd4bc2638b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUULK78Qs7e6rTz6xpOwrHicezjRS8B8WF10495QzO7zb2HN76NibQhzQlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\有点意思_不用菜单点菜_让AI来猜猜你吃的是啥_images\img_016_618e46425c75.png)
 
   
  **产品链接：**

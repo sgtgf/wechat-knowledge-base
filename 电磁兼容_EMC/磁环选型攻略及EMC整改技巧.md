@@ -14,7 +14,7 @@
 
 本文将从以下四个方面对磁环进行阐述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9W5Z5UiaDnkphc4sZltjymxCbBBBl0DiaALYJd071YY9GMvyAQNWvuGyg/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_002_f1e70b794eb9.png)
 
   
 
@@ -24,19 +24,19 @@
 
 首先我们来看几张图片
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9IVL3iceoicQzCF4eDET1Ua13pAgpOGUuqYtyuvCI5aQ3yGv7fEE7VpzA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_003_1c7e6613bd3a.png)
 
 图1 显示屏VGA线
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9EmoX4s7z8tVtn0vfkFgJXqPNZkrQj9EYCQGUUBOibIJ9R2t3IdWZ8MA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_004_8b35e5a88d0c.png)
 
 图2 适配器连接线
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA99JR4CpI0jZDWicxZibnGc8gqnFgn7GDguzoDqZvnzeB4D0ickhl1GbMDg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_005_b699f6227412.png)
 
 图3 USB通信线
 
@@ -50,13 +50,13 @@
 
 ## 二、磁环的工作原理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSFG4613hbH5W35KISggZiaephnkhj625hULosIiaiblrl6OEDibj4n9ibKFA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_006_263a3add8eb2.png)
 
 图4 磁环等效电路
 
 如图4，磁环在应用中的等效电路。L为等效电感，R为线缆的等效直流阻抗，C为绕线之间产生的分布电容，这个分布电容要特别注意，它会降低高频滤波性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSeKdClcgup3FTRKzTibqHaibbmEOHXNSIFlz9NdnFy90sxPADVhDAUVPA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_007_2c303ac86c12.png)
 
 图5 磁环的阻抗曲线
 
@@ -64,7 +64,7 @@
 
 如图5，磁环在未饱和的情况下，信号频率越高，其对应的阻抗越高，当频率超过谐振点时，阻抗会呈现下降趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSkkW4eqq8z0liataLXgLJJ39lfZ2DgkFyW7ke5Gp80y1bGPZ6yPiaezlw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_008_a64ca0e07d05.png)
 
 图6 EMC整改常用的扣式磁环
 
@@ -84,7 +84,7 @@
 
 锰锌铁氧体磁环材料的磁导率一般在1000以上，被称为高导磁环。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjCzvibeGvmFQbSJcu2lpsHSL50VPXn3FJerVyREibDEda0j6L6D9xOtpHwozNGryIIeItpmAdRHzsw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_009_651fc8d9477e.png)
 
 图7 锰锌铁氧体高导率磁环
 
@@ -96,7 +96,7 @@
 
 锰锌铁氧体磁环，磁导率很大，这种磁环，通常用来绕制共模电感，抑制电源接口低频共模传导干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9g8g2lGFrrb8hsVutf3PHOcbFl9wYFFyLN8p4SV6ib6A8p6ko9iaty2lg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_010_444a37b37311.png)
 
 图8 共模电感
 
@@ -110,7 +110,7 @@
 
 铁粉芯环用两色来区分材质，常用有-2(红/透明)、-8(黄/红)、-18(绿/红)、-26(黄/白)及-52(绿/蓝)        
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhXRLNnTAoMEfcAtzlV1RNUFia61rU52czQtAnxDxo5ZqXB0y3ZpaUI5X3vE1wfy3rToS2P8wSoo7A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_011_614829801597.png)
 
 图9 铁粉芯磁环
 
@@ -118,7 +118,7 @@
 
 铁粉芯磁环是由碳基铁磁粉及树脂碳基铁磁粉构成，磁导率很低。磁粉和绝缘材料之间有气隙，一般磁导率在20-100之间。正因为铁粉芯磁环磁导率很低，在差模大电流情况下不容易饱和，所以，常使用铁粉芯磁环绕制差模电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9XHln6KtrlgtqCNcGg44S8viatdsYk8icLAHtpZbZcNVicvWDFQjoOQyvA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_012_184b11a9e5c2.png)
 
 图10 差模电感
 
@@ -136,7 +136,7 @@
 
 铁硅铝磁环是使用率较高的磁环之一，简单来说，铁硅铝是由铝-硅-铁组成，拥有相当高的Bmax(Bmax是在磁芯截面积上的平均最大磁通密度。)，它的磁芯损耗远低于铁粉芯及高磁通，有低磁致伸缩（低噪音），是低成本的储能材料，无热老化，可以用于替代铁粉芯，在高温下性能非常稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9yRLuBbcM7tH4vjjjkSY3KYiawlCicQSCIpMoRk1ibgGsx9VicQsuQr7urw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_013_2ae021f9cc90.png)
 
 图11 铁硅铝磁环
 
@@ -158,7 +158,7 @@
 
 相比锰锌铁氧体磁环，非晶磁环磁导率更高，通常10多K甚至几百K，磁导率非常大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9BPicbsIf8G6RmaVSp48Bw0ibCDSqPlzWkL1z5zFcZqR0WyCwLH6yBmsg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_014_157966361ecf.png)
 
 图12 非晶磁环
 
@@ -186,7 +186,7 @@
 
 1、外观选择“尽量长、尽量厚、内径尽量小”的磁环。即磁环越长越好,孔径和所穿过的电缆结合越紧密越好。但在有直流或交流偏置的情况下，还存在铁氧体饱和的问题，抑制元件的横截面积越大，越不易饱和。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9vne7rtWKLT4MuUYQriczc0kHYxUvq4PUjNxOicWQFjdFFWcWuAyneSgA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_015_43d647413c42.png)
 
 **图13 不同内径大小的磁环**
 
@@ -206,7 +206,7 @@
 
 2、磁环对电磁波有条件反射的作用，从而减少了信号传送的失真。磁环套用的位置尽量靠近源头的一端（电缆线的进出口），会更加有效的抑制电磁辐射。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9CmG4xtVcqPeBRnLOUIJTJFFn4CmaKstfIgmcTzpSPRHuicFhR3m4hPA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_016_d5242e4ea7b9.png)
 
 **图14 磁环套在源端**
 
@@ -242,7 +242,7 @@
 
 4、怎样避免磁环饱和？当穿过铁氧体的导线中流过较大的电流时，易造成饱和，降低元件的性能。要避免这样情况，可将电源的两根线（正负）同时穿过一个磁环。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9sibyTFF3Cdib0WmBEaJXiaBUNMnGMf89R7ibeSliboLBldicVCAHKuXG8Qkw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_017_b07270de31eb.png)
 
 **图15 电源的两根线（正负）同时穿过一个磁环**
 
@@ -260,7 +260,7 @@
 
 5、低频干扰时，建议线缆绕2—3匝，一方面可提高穿过环的面积，增加等效吸收长度，另一方面充分利用磁环具有磁滞特点,改善低频特性。               高频干扰时，不能绕匝（因为实际磁环上存在寄生电容,这个寄生电容与电感并联,但遇到高频干扰信号时,这个寄生电容将磁环的电感短路失去作用。）这时可选用长一点的磁环。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9PEp0qsJiarHE8ZdlFjJHlKOmo4zCXicqpQ2f0WBEdBSa8RHjuN3U8f7Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_018_5fcfbd23fa25.png)
 
 **图16 磁环绕匝**
 
@@ -296,7 +296,7 @@
 
 7、磁环易碎，因此在安装的过程中需要进行良好的固定，避免运输过程中的碰撞而导致磁环破裂，我们一般用扎带固定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgj9YLyfIl7vGTckLiaUBYA9jeklNYUiazgFqbs9ibggEgcLEEmQ0EBv916JoC9FSkf5yDCstibibRWicNw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_019_7e87d83afdb6.png)
 
 **图17 扎带固定（然后将磁环固定在设备上）**
 
@@ -310,9 +310,9 @@
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_020_27e4e85ce630.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_021_26e7c42e5929.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_022_86e7b1720ef8.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_023_607a9b5809f6.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_024_c337f32f2ad2.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_025_845d28096f90.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_026_2e2b5ebc409a.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_027_16e467ebcf07.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_028_ebed19ebd456.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_029_de9b387fc9a9.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_030_fb5805018722.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_031_25764f7ff52f.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_032_f992681cd3b5.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_033_d13d18656a84.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_034_fbbfff43554c.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\磁环选型攻略及EMC整改技巧_images\img_035_05704500a9db.gif)
 
 ## 
 

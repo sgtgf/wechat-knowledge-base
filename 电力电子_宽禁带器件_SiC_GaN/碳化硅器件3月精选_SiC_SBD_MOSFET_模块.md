@@ -47,46 +47,46 @@
   
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=142#wechat_redirect)
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNV34NVjPzwGTskoy6BYkSAxvDVzWWOKRfubXWK2YVyM3soTGCCqL41A7kjJwNicXHUq4JBeGF3nJ2XaVzYucbj5aicmS932FspU/0?wx_fmt=png&from=appmsg)
+![图1](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_000_e38da3b4b1f3.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM4BDRvowDbf6HB4yvzd7XgmIRZ90efITczOxqWibd1dPMfg1QroOCwFibmaXW9YDwNtCgIUHibWMPONXqu6WMicE5xm00CDscAMwM/0?wx_fmt=png&from=appmsg)
+![图2](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_001_131238101f15.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNYn5H00xfAJ1XddklskYNrXiax4rXvqrX43CeXicUjQhpQOnrYaGr5Erj19PWel77fuxCQnB3ot0cWdPbwaSFyTT0j87ceoDKaQ/0?wx_fmt=png&from=appmsg)
+![图3](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_002_6719cc2f178d.png)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMnKSapGokzBIokPtjicX3OSlqe4Xa0qibUt4iaiaicAoobCa8Nf5ibY0E7ZwqyNsia777tczYHz1FGRLTDRFOibYSnZia8b74sFLXRP9rA/0?wx_fmt=png&from=appmsg)
+![图4](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_003_e0cb2c705e93.png)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNEZdicH8YDxr5Y7yzAewFQr4n5hEzVhpVsP15dhxlOUZB8ibrX4YGzcHYlsZF8ibPiaIicdOY4WicNtdq7lynxiaicSyVbqaTVjnKibyoI/0?wx_fmt=png&from=appmsg)
+![图5](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_004_a3ed393ec5f8.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPYHkg1X9ibq8YgT1G87zFHEibosVgY3pNj2N7kyVr0EMAgwsQIPZJR0A0vh1qZDPbXicWP5iaZGGKOpwibesnfLY5fp2IyqJibNvsfI/0?wx_fmt=png&from=appmsg)
+![图6](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_005_f6fe0c54426d.png)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOXfvBbKFJsAcQGicoDHr9poxViauLI2I3Ou9vDVHLuEcbIlicjkeWnEpU9H96FlHZ0CuDRePsaq1C9x7x9c39ImzaTLBaYN3xaFI/0?wx_fmt=png&from=appmsg)
+![图7](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_006_ab2f09e7a077.png)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNCw3bUYwu86TerZDT1TesUNz7cVzIePpPatmanbtF5x0Mib7JCcXE5adQvSt7IOibP5HGVxWj8dQhVwqleht0zYtVSB2lciaAxpI/0?wx_fmt=png&from=appmsg)
+![图8](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_007_882b98ac115e.png)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkpThPdw3zl8znZnkB8ZUiaNYFibhiaRy1xb7b2G6rwpOVtHK5iaBaTmicNEV6L8xRxYPtfDQ2HTebTbzhdrfBia7OmXwWkfjqvBddU/0?wx_fmt=png&from=appmsg)
+![图9](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_008_75a7d3548458.png)
 
 图9
 
-![图10](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMGqzuL1yA27lVBYo4FWjmpGFOLfiarC9C4pvwcicdEbJ6tXIRZNnKLru3ykISN0DI4tckAa00MdlRdqWqpnmvc3QXqzADwt82lA/0?wx_fmt=jpeg&from=appmsg)
+![图10](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_009_9f9f0b102aba.jpg)
 
 图10
 
-![图11](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMMYWrMbrqzibcJ2bmgRS49ppou6xz9iaSN2VCFNiax4SWHtugH3RSNGfcpyeYI5IL1QiaKgzAoHBibUzfrWiaTt2W9KSpsrDUiaPFBwE/0?wx_fmt=jpeg&from=appmsg)
+![图11](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅器件3月精选_SiC_SBD_MOSFET_模块_images\img_010_1b1783b49c80.jpg)
 
 图11

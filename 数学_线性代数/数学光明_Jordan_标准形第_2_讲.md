@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wydcJH8dpj0vz16r6KxacA](https://mp.weixin.qq.com/s/wydcJH8dpj0vz16r6KxacA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/sVzeakRoocuHibLCTpFEia246JZAgC3yFOA2ic8uq5LqpZghZPkq9ZPJHPM40UibN9PWGYgOkA7Lb8Dia0ASbibdH2f9BibRTfo2YfHhf5CPHH1j7o/640?wx_fmt=jpeg)
+![](数学光明_Jordan_标准形第_2_讲_images/img_000_5ee895a556fb.jpg)
 
 这张图是在讲：**怎样求一个矩阵的 Jordan 标准形（Jordan normal form）**，重点已经从“先找特征值”推进到“判断 Jordan 块的大小”。
 
@@ -254,4 +254,4 @@
 
 下面是本节课内容的教学海报。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvUmzicdYGoyYqROibiangd2thU8w9RKHAViadjWqibZY7p2KqAxPHMAZ32vibXcW9frEJxiaic5xGdTMf5E5c1zjXcnlepicw2elTDxvII/640?wx_fmt=png&from=appmsg)
+![](数学光明_Jordan_标准形第_2_讲_images/img_001_e301f50e37e5.png)

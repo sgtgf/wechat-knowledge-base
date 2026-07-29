@@ -64,7 +64,7 @@ TVS 二极管的响应时间非常快，通常以皮秒表示，因此这些组�
 
 典型的连接方式是将阳极接地，这样 ESD 脉冲就会传到地里。只要接地区域存在低阻抗路径，脉冲就会从受保护的组件转移开。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fUtBqibJmk4QGKKnicbjXdVY0ic72UkzDrHDAPia8icxBHdTr54JxH8wJlk3OuNqvuu8RXnrhqg42SOvfoHYRc7ASCg/640?wx_fmt=png&from=appmsg&random=0.7656528009333512&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_002_5ea7b951c995.png)
 
 TVS 二极管
 
@@ -74,7 +74,7 @@ TVS 二极管
 
 TVS 二极管有两种类型：双向和单向。这两种类型的 TVS 二极管具有不同的符号，如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fUtBqibJmk4QGKKnicbjXdVY0ic72UkzDrH8rpCiaXbsAMAmCgia4wp1fbiaoxkkwUiakIMGCKgbt8iaNu6xBm2EjkTsxA/640?wx_fmt=png&from=appmsg&random=0.5872167801580079&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_003_83d50a642512.png)
 
 双向和单向TVS二极管
 
@@ -92,7 +92,7 @@ TVS 二极管有两种类型：双向和单向。这两种类型的 TVS 二极�
 
 **除了选择合适的 TVS 二极管外，保护的有效性还取决于 PCB 布局本身。**下面这个示例中2个双向TVS二极管并联连接到下面的示意图中保护的电路。示意图显示了TVS二极管与MAX3485 收发器的典型连接：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fUtBqibJmk4QGKKnicbjXdVY0ic72UkzDrHAeuzhwthevAzYDhN9ibufCa7OFujHbQrtVib6DMeicfTZ6FgF0Eib21tIg/640?wx_fmt=png&from=appmsg&random=0.23097937249141465&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_004_55d2e341ffc3.png)
 
 TVS 二极管连接的典型示意图
 
@@ -112,7 +112,7 @@ TVS 二极管连接的典型示意图
 
 由于 ESD 可能发生在电子设备中暴露的导体附近，因此**最好将 TVS 二极管放置在这些导体暴露于外部环境的区域附近**。下面显示了一个带有 2 针连接器的简单布局示例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fUtBqibJmk4QGKKnicbjXdVY0ic72UkzDrHxPf3hOc5bc3BDc9UgjVplicc0BaRabWKhF32rreFicscWsZnFxs97H9Q/640?wx_fmt=png&from=appmsg&random=0.6351069285968316&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_005_e8483b838228.png)
 
 将 TVS 二极管放置在有接收 ESD 脉冲危险的裸露导体附近
 
@@ -130,7 +130,7 @@ PCB 走线具有一些 寄生电感，可能导致 TVS 二极管的钳位电压�
 
 **如果存在 ESD 危险，则可以将屏蔽连接器与 TVS 二极管一起使用。TVS 二极管连接到信号线，连接器上的屏蔽层直接接地。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fUtBqibJmk4QGKKnicbjXdVY0ic72UkzDrHjia68Va8N3X2AibjFWPiamWN6qoKvLktJtAnSWrdNhiaPf8hLptoVEsaibA/640?wx_fmt=png&from=appmsg&random=0.26627467461724663&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_006_cf0d18df977b.png)
 
 数据线上两个 TVS 二极管的连接示例
 
@@ -148,9 +148,9 @@ PCB 走线具有一些 寄生电感，可能导致 TVS 二极管的钳位电压�
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_007_58147eba07eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_008_9b53a964efd5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_009_75db8c1036fb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_010_0b6ae33611dc.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_011_365c6cd9f8bb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_012_2da1ccbac0ae.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_013_7446ffe5e3b8.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_014_d246b538f592.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_015_3352ab08e99b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_016_0f89804cd7eb.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_017_f506b795c6ac.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_018_97df29bd0f50.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_019_d7c6fe8cd645.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_020_19e2f7b6262a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_021_08d092bef8a0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\胡闹_谁教你这样用TVS管的___images\img_022_50889e54acde.gif)
 
 ## 
 

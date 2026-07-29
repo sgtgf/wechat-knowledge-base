@@ -3,19 +3,19 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/X\_e-6lLH0ajTjwgbMSSfBA](https://mp.weixin.qq.com/s/X_e-6lLH0ajTjwgbMSSfBA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVedzEjdegXVhtBrre3lI3CtDU7GqicNichl5WarZ4XLqcX5Cf3uMruX9g/640?wx_fmt=jpeg)
+![](1200V碳化硅Easy模块应用光伏逆变和工业电源_images/img_000_a6204252b209.jpg)
 
   
 
      随着太阳能电池板的尺寸和功率密度逐步增加，传统的硅基器件已不能满足光伏逆变器MPPT(最大功率点跟踪)电路在效率和发热方面的需求，各方面性能更优越的碳化硅功率器件上场应用成为必然趋势。“相对硅器件而言，碳化硅功率器件能为光伏逆变器带来更高的转换效率、更低的能量损耗，从而有效缩小系统体积、增加功率密度、延长器件使用寿命、降低生产成本。”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVC7rECksa0M4wq85FrtD4wD9MtcqsBZiarNsweqibYib2ib7HefBOfV2VJg/640?wx_fmt=png)    面向光伏逆变器功率更大、效率更高、体积更小、成本更低，以及组串式逆变器配置灵活、易于安装的发展方向，碳化硅器件开发商从多个技术指标入手，持续提升器件性能。
+![](1200V碳化硅Easy模块应用光伏逆变和工业电源_images/img_001_6cc486ff3391.png)    面向光伏逆变器功率更大、效率更高、体积更小、成本更低，以及组串式逆变器配置灵活、易于安装的发展方向，碳化硅器件开发商从多个技术指标入手，持续提升器件性能。
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVwIOJuUEicJB3v0w858zZ1b6fn0UZQfdh8zf8zP6K0BQzlqUltuZgh6w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\1200V碳化硅Easy模块应用光伏逆变和工业电源_images\img_000_aa430c4ac312.png)
 
 **1200V100A  **EasyPIM模块****
 
@@ -25,7 +25,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVVmHYMnibRvOnBTzHXlSXk77USnMe3ouiaqOzj7P4fWQU27iby4EOlPpLQ/640?wx_fmt=jpeg)
+![](1200V碳化硅Easy模块应用光伏逆变和工业电源_images/img_003_14e02cb68c52.jpg)
 
   
 
@@ -103,9 +103,9 @@ l10-500 kW（未来将达到2 MW~20 MW） 用于公用工程系统
 
 3.三相全桥模块：HPD-DWC3-HP1
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png)
+![](1200V碳化硅Easy模块应用光伏逆变和工业电源_images/img_004_d2267009225f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png)
+![](1200V碳化硅Easy模块应用光伏逆变和工业电源_images/img_005_97a113d44f31.png)
 
   
 
@@ -115,8 +115,8 @@ l10-500 kW（未来将达到2 MW~20 MW） 用于公用工程系统
 
       爱仕特在自建晶圆厂，将推出更多优质产品和服务，携手上下游产业，加速能源结构转型和碳中和进程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png)
+![](1200V碳化硅Easy模块应用光伏逆变和工业电源_images/img_006_bcec8ff5081c.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](1200V碳化硅Easy模块应用光伏逆变和工业电源_images/img_007_770831a45f05.png)

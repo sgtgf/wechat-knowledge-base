@@ -28,7 +28,7 @@
 
 USB3.0座子的焊盘和AC耦合电容的焊盘下方必须挖空一层来保证阻抗的连续性，挖空的大小，不小于封装焊盘尺寸。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88Dibhoqejn3jypsYt5MplWLnqxKS7Bu5VAll0rGEQZyR1Tygw7jibZACNljhrzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_002_09a6cf686c01.png)
 
   
 
@@ -36,7 +36,7 @@ USB3.0座子的焊盘和AC耦合电容的焊盘下方必须挖空一层来保证
 
 HDMI座子的焊盘和TVS管的焊盘的下方必须挖空一层来保证阻抗的连续性，挖空的大小，不小于封装焊盘尺寸。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88DibhoqejoSuKNZkejMITI2etldBnE0ibVkNfJCCXqTW6u1HcdXCvp93yCZ440g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_003_ee55fea2fa77.png)
 
   
 
@@ -44,7 +44,7 @@ HDMI座子的焊盘和TVS管的焊盘的下方必须挖空一层来保证阻抗�
 
 PCIE Slot的焊盘和AC耦合电容的焊盘的下方必须挖空一层来保证阻抗的连续性，挖空的大小，不小于封装焊盘尺寸。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88DibhoqeUTjdpQdbQVnTRPibAYicnfyFrHBic0NvWUh9DeC6IrBExcUu8B2D22tKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_004_d469417e7632.png)
 
   
 
@@ -52,7 +52,7 @@ PCIE Slot的焊盘和AC耦合电容的焊盘的下方必须挖空一层来保证
 
 SATA座子的焊盘和AC耦合电容的焊盘的下方必须挖空一层来保证阻抗的连续性，挖空的大不小于封装焊盘尺寸。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88Dibhoqec3sjWD1SbnqX02IFjwze067K0wcEKKgNr2aTeHeBibc6ibxYVibP4TMzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_005_0e7c189ef90f.png)
 
   
 
@@ -79,7 +79,7 @@ SATA座子的焊盘和AC耦合电容的焊盘的下方必须挖空一层来保�
 
 HDMI接口，传输线阻抗差分100ohm，±10%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88DibhoqeU7th81ib2cp4iaXJZT2YicibMVia2NBGAlPWVLvm4FbC7HOdqkv0nN4w9zA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_006_2f450b3251fa.png)
 
   
 
@@ -87,13 +87,13 @@ HDMI接口，传输线阻抗差分100ohm，±10%。
 
 PCIE接口，传输线阻抗差分90ohm，±10%
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88Dibhoqe9wfxSfEYSb41Fh7LjwUuNV8D1IGQ9l6eQSxRrqhQVqIIKPZHBSQYTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_007_f3fcf71d90aa.png)
 
   
 
 SATA接口，传输线阻抗差分90ohm，±10%
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88DibhoqekhxKzXe1q0Y7BFVfuicXU6mvticIteiaqY1jtTJxQHMYOfa5TcDl2o5FQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_008_194de9c90894.png)
 
   
 
@@ -101,7 +101,7 @@ SATA接口，传输线阻抗差分90ohm，±10%
 
 USB3.0接口，传输线阻抗差分90ohm，±10%
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgARiaRlibca6uR0M88DibhoqeMaFgmxianG9w1pmaqjuickWciaTfiak8cickXESOVibpnEMicXUpsRqEnviafA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_009_2dcf05c55446.png)
 
   
 
@@ -142,13 +142,13 @@ https://support.huawei.com/enterprise/zh/doc/EDOC1100304822/16ac287
 
 推荐阅读（点击图片直接进入）
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_010_8f872b8ba8ee.png)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_011_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_012_8f8c22b4fa63.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\大厂PCB设计真传_高速接口这样搞_信号稳得一批__images\img_013_d5dcc7ecfdf3.jpg)
 
 ## 
 

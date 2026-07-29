@@ -19,7 +19,7 @@
 
 为了更直观地理解，我们可以看一下经典的几何结构：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRoocsiaib5niaiaibBxxziaCLaQJHoUJXKZmx1U93nVkjRNWiaJ1YBhgpvuPG5Qic9aD7iakib8oh6DsEibBexpAIX3I3PsMRMEssU4sr7mUrZLU/640?wx_fmt=jpeg&from=appmsg)
+![](斯托克斯定理（Stokes_s_Theorem）__边界与内部的联系_images/img_000_229cbbf2f729.jpg)
 
   
 
@@ -76,7 +76,7 @@
 
 # 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctqiahyfZFqAug5WUgNW7VTlYTqYfPjjNCvc3CEjYd3rWQaysBdibpvhNBWialx0TRXfbgtfg3H7kUzpSs5eOGTTGTlUDVyuUUudc/640?wx_fmt=png&from=appmsg)
+![](斯托克斯定理（Stokes_s_Theorem）__边界与内部的联系_images/img_001_6da1a7d2774c.png)
 
 这张图是在用一个很形象的比喻，帮你理解**斯托克斯定理（Stokes’s Theorem）**。
 

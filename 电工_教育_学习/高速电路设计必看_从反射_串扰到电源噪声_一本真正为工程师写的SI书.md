@@ -4,19 +4,19 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/d3GgpW41XS2k7y9tq1snNQ](https://mp.weixin.qq.com/s/d3GgpW41XS2k7y9tq1snNQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_000_ec559f3ff72e.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_001_909e8086e918.gif)
 
   
 
 大家好，今天给大家分享一本超实用的硬件设计宝典——于博士的《信号完整性揭秘》！文末附352页完整版PDF文档获取方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibxfyzARA5pC3l6y4bqwvzh8v8asNhRBxj4nAGwaYYX8MS7B02Xs8Xrg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_002_3a9950fcbaa3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibpml5ILANtW83mnyoEgLbdIuG9B1Ho83iclECw20zmh8X9MuGywicDzgQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_003_23f07935e3c6.jpg)
 
 如今电子产品越做越小、速度越来越快，信号完整性问题也越来越让人头疼——反射、串扰、损耗、电源噪声，每一个都可能成为项目延期甚至失败的“元凶”。不管是做硬件设计、测试，还是搞系统开发，不懂点信号完整性（SI），真可能踩坑无数！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibkHpaicjicScm6A6BdV09r74MZR90YVBS00gkc5licuZHKxU5hQ2msQ68A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_004_a909e7de13ed.png)
 
 如果你也曾在设计中遇到过信号波形畸变、时序不满足、误码率高等问题，那么今天推荐的这本书，或许能帮到你！
 
@@ -57,7 +57,7 @@
 -   电源完整性（PI）入门与去耦设计
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibTCL68xcWPLTEpQQzeGY60r4ibwJt7ncEY3qcr3F1Nd3Rn4oNibUDMhXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_005_4d29d079dc18.png)
 
 全书尽量避免繁琐的数学推导，侧重于用直观的方式解释物理概念。例如，在讲解传输线返回电流的分布时，书中通过形象的图示，让读者理解高频条件下电流的路径选择机制，从而更好理解。
 
@@ -76,12 +76,12 @@
 第3章 传输线  
 深入讲解分布参数模型，解释特性阻抗的物理意义，分析返回电流的分布规律，介绍耦合传输线的模态分析，并讨论有损线下的趋肤效应和介质损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibsiao8NthaSdGdzjxaeUlbz9KT17bx0Rhe3TiaibrcBN6kaQZ59BwJmATw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_006_92d837f836f9.png)
 
 第4章 信号的反射与端接  
 详细分析反射的形成机制，介绍容性、感性负载对信号的影响，提出端接策略与拓扑选择原则，并说明TDR的应用及阻抗测量中的注意事项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibUcQicQEBysRaXmSWRCAfQwZ3miaLvKKEWrzXjPXMibkszkjH9KwwtLMibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_007_eba29fc52d8c.png)
 
 第5章 串扰  
 阐释容性串扰与感性串扰的产生机理，分析近端串扰和远端串扰的饱和特性，提出减小串扰的常用方法，并讨论蛇形走线对延时的影响。
@@ -95,7 +95,7 @@
 第8章 差分互连  
 说明差分传输的抗噪声原理，分析差分对的阻抗参数及端接方法，讨论差分S参数的意义，并对“松耦合还是紧耦合”这一经典问题给出建议。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibicicGW2qkkUpzxkWyMkJqOEXvFrk1t4BdCpiaOK3nmOgVqk8OSPic6jicwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_008_d23e88eb58ab.png)
 
 第9章 抖动  
 介绍抖动的描述方法和统计特性，分析抖动与误码率、眼图之间的关系，讲解抖动的分类及分离技术，并讨论时钟抖动与相位噪声的关联。
@@ -106,7 +106,7 @@
 第11章 电源完整性  
 阐述电源噪声的来源及其对信号的影响，介绍目标阻抗设计方法，分析去耦电容的选型、配置、摆放及安装原则，并讨论直流压降问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfib0g2AsibzxjoUZ4ObrjtuAcUiaZ7yqKP1ict9u3iaSL3pU019NnnF8L4tGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_009_34fd6b637f3c.png)
 
 信号完整性问题的本质是多因素耦合作用的结果。阻抗不连续会引发反射，直接影响时序；串扰耦合会导致信号畸变和噪声；传输延时差异可能造成时序违规；电源噪声则会引入扰动和不确定性。此外，传输线损耗会劣化信号边沿并降低噪声容限。
 
@@ -132,10 +132,10 @@ PDF电子版获取方式
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibwxZONNtPEgPhXB22XVLA1bSomW8Rxiczo6oIM4u1Lgmt1dB1eO9JWZA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_010_41ce5af38b96.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5bOY5T2tvnmV36D9x724ibeXTQia5Gw4eGgpBwcOXNyuXkoZu531V1kEw/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\高速电路设计必看_从反射_串扰到电源噪声_一本真正为工程师写的SI书_images\img_011_694ada9eb600.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

@@ -36,7 +36,7 @@ DifferenTIal-mode noise is conducted via parasiTIc inductance （magneTIc coupli
 
 差模噪声通过寄生电感（磁耦合）和高di/dt （L × di/dt）进行传导。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfrB1QXOpLfOvXbIN4ibeCxDFek6GOJVb2c0jlabUz8FR7pEF37A6yYSg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_002_23ab02806bae.jpg)
 
 图1.差模和共模噪声。
 
@@ -87,7 +87,7 @@ EMI控制技术
 
 导致电磁噪声和开关振铃的是开关稳压器热回路中的高di/dt和寄生电感。要减少EMI并改进功能，需要尽量减少紫色回路的辐射效应。热回路的电磁辐射骚扰随其面积的增加而增加，因此，如果可能的话，将热回路的PC面积减小到零，并使用零阻抗理想电容可以解决该问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfIRKMc27rofr2M4OwpUKw9m70f5yxVHsyY7cyHUuRqW5vS4E4pOEXlw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_003_2e54bc12868c.jpg)
 
 图2.降压转换器的热回路。
 
@@ -97,7 +97,7 @@ EMI控制技术
 
 虽然不可能完全消除热回路区域，但是我们可以将热回路分成极性相反的两个回路。这可以有效地形成局部磁场，这些磁场在距IC任意位置都可以有效地相互抵消。这就是Silent Switcher稳压器背后的概念。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfuicaYWq9xA0NlzoRfcoOBpic5NW6ubHUmFbkGaCCX7U5g9tLgLKXNwoQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_004_e5842ee345e7.jpg)
 
 图3.Silent Switcher稳压器中的磁场抵消。
 
@@ -107,13 +107,13 @@ EMI控制技术
 
 改善EMI的另一种方法是缩短热回路中的导线。这可以通过放弃将芯片连接至封装引脚的传统键合线方法来实现。在封装中倒装硅芯片，并添加铜柱。通过缩短内部FET到封装引脚和输入电容的距离，可以进一步缩小热回路的范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfv2GWdM804Vc45KuV1v1ZcUBDhjI2kmny5VK5Zeq0xb1xDHnN2sNeog/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_005_91a1a2cb5bc0.jpg)
 
 图4.LT8610键合线的拆解示意图。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvf6K6gibeTsZ5JvfxCHyfPBZJIBuSND7bSjpSVKogjX70iconibGpy7ic8Mw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_006_0492d0b9ec1b.jpg)
 
 图5.带有铜柱的倒装芯片。
 
@@ -121,7 +121,7 @@ EMI控制技术
 
 Silent Switcher与Silent Switcher 2
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfrzXia0LiaibXZFAOaLCo9v7TATnNaFiciaxBZVbhzTEoeFt1juYyTwVaMdg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_007_07af3726857c.jpg)
 
 图6.典型的Silent Switcher应用原理图及其在PCB上的外观。
 
@@ -135,13 +135,13 @@ Silent Switcher与Silent Switcher 2
 
 Silent Switcher 2稳压器能够进一步减少EMI。通过将电容（VIN电容、INTVCC和升压电容）集成到LQFN封装中，消除了EMI性能对PCB布局的敏感性，从而可以放置到尽可能靠近引脚的位置。所有热回路和接地层都在内部，从而将EMI降至最低，并使解决方案的总占板面积更小。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfiacSUMiab2CGdnS8Q8JYzUqvOBbqbPHeWEICjPF0p4LyQX176K5c5t6w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_008_e9ca32671b8f.jpg)
 
 图7.Silent Switcher应用与Silent Switcher 2应用框图。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfHiaq5PsKpa6DkkYUHQiczlyTeGicibhicZ4tYy4PVIbRRVjezdGIBNNhSgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_009_9020a86f0c54.jpg)
 
 图8.去封的LT8640S Silent Switcher 2稳压器。
 
@@ -157,7 +157,7 @@ Silent Switcher 2技术还可以改善热性能。LQFN倒装芯片封装上的�
 
 图9所示的LTM8053集成了可实现磁场抵消的两个输入电容以及电源所需的其他一些无源组件。所有这些都通过一个 6.25 mm × 9 mm × 3.32 mm BGA封装实现，让客户可以专心完成电路板的其他部分设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfsvu0L5DFKenkibMdIlqEpASAotPxom5HLLj0PlNzIPWDicFlGmCH8ibFg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_010_3a7facd48a28.jpg)
 
 图9.LTM8053 Silent Switcher裸露芯片及EMI结果。
 
@@ -167,7 +167,7 @@ Silent Switcher 2技术还可以改善热性能。LQFN倒装芯片封装上的�
 
 典型的高速ADC需要许多电压轨，其中一些电压轨噪声必须非常低才能实现ADC数据表中的最高性能。为了在高效率、小尺寸板空间和低噪声之间达成平衡，普遍接受的解决方案是将开关电源与LDO后置稳压器结合使用，如图10所示。开关稳压器能够以更高效率实现更高的降压比，但噪声相对也较大。低噪声LDO后置稳压器效率相对较低，但它可以抑制开关稳压器产生的大部分传导噪声。尽可能减小LDO后置稳压器的降压比有助于提高效率。这种组合能产生干净的电源，从而使ADC以最高性能运行。但问题在于多个稳压器会使布局更复杂，并且LDO后置稳压器在较高负载下可能会产生散热问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfm5tJhmVnYVGNASP6W3HzbN3k6u74q7VuW1FXmRGKe1veNQMenR1x3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_011_3a22d6f7f32f.jpg)
 
 图10.为 AD9625 ADC供电的典型电源设计。
 
@@ -175,7 +175,7 @@ Silent Switcher 2技术还可以改善热性能。LQFN倒装芯片封装上的�
 
 图10所示的设计显然需要进行一些权衡取舍。在这种情况下，低噪声是优先考虑事项，因此效率和电路板空间必须做些让步。但也许不必如此。最新一代的Silent Switcher µModule器件将低噪声开关稳压器设计与µModule封装相结合，能够同时实现易设计、高效率、小尺寸和低噪声的目标。这些稳压器不仅尽可能减少了电路板占用空间，而且实现了可扩展性，可使用一个µModule稳压器为多个电压轨供电，进一步节省了空间和时间。图11显示了使用LTM8065 Silent Switcher µModule稳压器为ADC供电的电源树替代方案。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhbo9kGZeOBUBtsu1AJWvvfalX3M7VIfgUrpGWWLvIws6v53o3TybibG00PwXKub9e3qQLUNuqpvPA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\聊聊电源产生的EMI_images\img_012_c71f81ee6d8f.jpg)
 
 图11.使用Silent Switcher µModule稳压器为AD9625供电，可节省空间的解决方案。
 

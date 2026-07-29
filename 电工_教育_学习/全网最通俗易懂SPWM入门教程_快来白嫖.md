@@ -37,7 +37,7 @@ SPWM的全称是(`Sinusoidal PWM`)，正弦脉冲宽度调制是一种非常成�
 
 **换句话说就是通过一系列形状不同的窄脉冲信号，相对应时间的积分相等(面积相等)，其最终效果相同**；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aYs0iczibHlYib6VMM0NslqCD6icoP8ibFWfSEDJCCWibYLmSNUQP58sF2zwMtnGO6k22zgHugPV0gZrRuZ0YCyvia4Iw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\全网最通俗易懂SPWM入门教程_快来白嫖_images\img_000_24a6f7090a4d.png)
 
 所以SPWM就是输入一段幅值相等的脉冲序列去等效正弦波，因此输出为高的脉冲时间宽度基本上呈正弦规律变化；
 
@@ -51,7 +51,7 @@ SPWM的全称是(`Sinusoidal PWM`)，正弦脉冲宽度调制是一种非常成�
 
 具体如下图所示，这里会对局部①部分进行简单分析，下面进一步介绍；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aYs0iczibHlYib6VMM0NslqCD6icoP8ibFWfSEo6FUbTEkFWAT3OXy3T0iaIbpYzVJ8ZhUvxib5GyhofHrjf6KearLvXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\全网最通俗易懂SPWM入门教程_快来白嫖_images\img_001_cfd4a09267d0.png)
 
 SPWM波形
 
@@ -66,7 +66,7 @@ SPWM波形
 -   最终结论就是，只要求出**A点**和**B点**位置，就可以求出；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aYs0iczibHlYib6VMM0NslqCD6icoP8ibFWfStkAic4IubAVrLnGEibnJ6YJCVrtDibpIaMmydg8axEAtib4QiaVudXMge4Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\全网最通俗易懂SPWM入门教程_快来白嫖_images\img_002_691222969ab1.png)
 
 自然采样法
 
@@ -82,7 +82,7 @@ SPWM波形
 
 下面取正弦波的正半周期的情况进行分析；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aYs0iczibHlYib6VMM0NslqCD6icoP8ibFWfST44RECNbj4Fib5wiafeG9LRicUqbyZL7CJSf7sx6h6IHaHS6ObquF6JFw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\全网最通俗易懂SPWM入门教程_快来白嫖_images\img_003_6ca2335d5a2e.png)
 
 单极性SPWM
 
@@ -97,7 +97,7 @@ SPWM波形
 -   所以在该周期内，PWM所需要的脉冲时间宽度**Ton**满足：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aYs0iczibHlYib6VMM0NslqCD6icoP8ibFWfSCQ9K34C9fWbUvib7vmMzKlNMG6FEabmIh1MSYBHxpPBepKKcqRDKiaww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\全网最通俗易懂SPWM入门教程_快来白嫖_images\img_004_a16b8b8a2e65.png)
 
 单极性正半周期
 
@@ -118,7 +118,7 @@ SPWM波形
 
 只要符合面积等效原理，PWM还可以是双极性的，具体如下图所示；这种调制方式叫双极性SPWM，在实际应用中更为广泛。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aYs0iczibHlYib6VMM0NslqCD6icoP8ibFWfSfpH1qUnBZu5Qcd2fsWa6ibyeQrQSDjDT3ZbqCJjiamdhib9sTgCdFv8Ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\全网最通俗易懂SPWM入门教程_快来白嫖_images\img_005_bdd4999e7a8f.png)
 
 双极性SPWM
 
@@ -143,7 +143,7 @@ SPWM波形
 
 可能这么说，还是云里雾里的，先看下图；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aYs0iczibHlYib6VMM0NslqCD6icoP8ibFWfSQticXPAkMqQyh5IUbF3ib1H9c0k8qcmF9j3icrzv9Pq6tmia20ciaic2txtA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\全网最通俗易懂SPWM入门教程_快来白嫖_images\img_006_55e4e672517a.png)
 
 STM32的PWM产生原理
 

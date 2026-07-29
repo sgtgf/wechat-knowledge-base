@@ -83,7 +83,7 @@ N-S 方程告诉我们，流动的状态本质上是两股力量的拔河比赛�
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuGJ2qTL6oN4c8DlgrXUAicO4IcpniaKaU8DDic4nKKzT3ysMlpGFaPjubxfaAcMhlUfLRiarEib9wlPVicMqBwtMiaMOicUDTiaU8tH1RM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\纳维_斯托克斯方程（Navier_Stokes_equations）_流体世界的牛顿定律_images\img_000_30a690f87545.png)
 
   
 
@@ -91,7 +91,7 @@ N-S 方程告诉我们，流动的状态本质上是两股力量的拔河比赛�
 
 > **流体版的牛顿第二定律：质量 × 加速度 = 所有力的总和。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooct6FAg4oTe8xvBicDUVT015z3OLKE1TV6dSq1OzP73ibnFTKzEH7pX3icdzIxcAuJANqy00icVgdQcadpGdrgGYUic5crAFJVKpXexY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\纳维_斯托克斯方程（Navier_Stokes_equations）_流体世界的牛顿定律_images\img_001_e4f51e0f4454.png)
 
 也就是图片最上方的：
 
@@ -101,7 +101,7 @@ N-S 方程告诉我们，流动的状态本质上是两股力量的拔河比赛�
 
 # 一、先抓住整张图的核心
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctiaBaYh9q6WLZhH1ACM4A89Cd7lAvCZDxZwylhdib3ibraG4Z0rTmjvveoJkdMFjMBmEssX2HplNPUKD3J5mUzgztUIDELKicQMRo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\纳维_斯托克斯方程（Navier_Stokes_equations）_流体世界的牛顿定律_images\img_002_2443d0790c51.png)
 
   
 
@@ -677,7 +677,7 @@ HIGH VISCOSITYHONEYLOW VISCOSITYWATER
 
 # 十六、图片第二大主题：秩序还是混乱？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuMLKISQ7AbficgMxmbhjv8pAIu4aZo4te6cbicesmzYx27K5gBq11LTBIYKLA8LoLOCicbp9g4mdt0CkD4vhMV00SsmFTeRiceZ2c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\纳维_斯托克斯方程（Navier_Stokes_equations）_流体世界的牛顿定律_images\img_003_3a9f7922626c.png)
 
 中间写：
 
@@ -925,7 +925,7 @@ HIGH VISCOSITYHONEYLOW VISCOSITYWATER
 
 # 二十三、图片最下面：为什么 Navier–Stokes 是“千禧年难题”？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooctK9ic5oXrdtm0BKmT6Z7HthRsI988SQ5mQkxnexGupQ72T4QTNaibicXicdtIg60YUrWBvHzeIiaW3iaeiafSnDR3icGW3SWHaHAMmBico/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\高性能计算_HPC\纳维_斯托克斯方程（Navier_Stokes_equations）_流体世界的牛顿定律_images\img_004_0f38b07d543a.png)
 
   
 

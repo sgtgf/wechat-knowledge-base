@@ -10,69 +10,69 @@
 
 分享一份开关电源的软开关技术资料，共30页，文末附PDF文档获取方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wug7hj3yMwNFvjkZSaymW41oDJuSFvLibMrIf6x9SQCNZFCJ4ticnoEnRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_002_e32c6372b1ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuZBJ6uzTzUq5mfniabsMMYc5jkdnZMjXPMFiakTu6t5n0nz3V0Vaeib2QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_003_6c6eef016b75.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuicChKPiaK20vibIxFPxTFbch8IeL8SU5NjJF4PlGOZaCNYF9ferEG6Gcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_004_120a5e10c576.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuCLNxcwZO1ouW03HLExFV4NxujQm2C1gFHPGHviaMEzU4tcEVUBZOicwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_005_a98568e254a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wupxAZJRuLkwjq5Sf2hNuzddXib02nw8Y36WknggCOR36dMRuz1AjKGog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_006_d0652fd5524d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wudZxzHMUVic5nKP7z7fTy2n6URGVynOxHuRFJmMbWZLYAmulrDOqNWSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_007_b88be3c60c6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuoWBBHpXFLmM6RctfqDXy7SbI31zUlrsicAu3lhXhfBIW91xcmYGJsbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_008_5d2875d6965e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuMdficScI635hsckkqicbiaxF07iavacFFuRDjtibMs6VtrTjGnsdFeooDuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_009_4b36db44e3c0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wucltiaFibjQLziaH0IWzic47OuT6AoyWDcxmnz45AzU0fEJpticicFuYvicd9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_010_bfc84f9a1da3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wupTW0zh4jU3W8fbqZYemkayHtWzFjicAjiccrQ9QpLMPGqnkraXoY1rDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_011_5afcdc8574a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuSZVvmHg00ibxYy4RFSQdDz9M2zRfufqua2tMbV8CkkGoVEP3tAYA24A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_012_1f41a44ec4c0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wutHicqGVDUCebMankuVvvYjUdl5HS7iaM1Rrq8uJbftTv9oZTicSU8PKqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_013_57d2490657ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wu5XQ4XrwlCUndfXP9d2v5UjMZlZsZhVWYlROCXfZRT0wINDpqial6Zrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_014_9f651b967607.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wu1vImz19A6x2ztl9c2yz5WWVsIR8Oib1niafee79taay2ks6gc8o3zPxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_015_3330a783c345.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wu2ngyF0TaGLtnQlMzI4k1Yw72qXe5nf4wIicCraAmFGXIZyYSw8OicPlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_016_8e6465a190e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wueOcSiaUV4VwjNccVicL7e2t1C2t9ictr9sicVKArictcicX9SXUpibAErP00Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_017_d400ea9d7222.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wutcExfEJicibdAvsTS4CibWbxofZ3NiaIO7zWLHL25LtBx5rX2PrVkCjWrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_018_47fc4494fa6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuiaia6cwVIllFJVOUGh3gZyOPf1cvBXJ0bNrgaTuT5OLsxssRuNPmOE7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_019_af22cc9486fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wu7TJYqz8CJNb5bZV1KQicXiawTA45dwXVwZVx2DMnml31UXQhaewbl0pQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_020_e7020c1244ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wu30ZzSlKbI5iaMxWTUBicPkcotGRYDs4ObrsKOfS0cKrn2v5OGQXs9t5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_021_6e7dbb91baab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wug9eq4hXf05JyhnZwXZhXLKyWRMkhTj1hNkVicls8SmekV9LPDIfW2xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_022_1bba9b968c37.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuR2PeZ1hvgd7Z3gWAh3Mkw89J0zTicibIUP4sKdclCYWTC4vSqknUl8IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_023_3af155e81c4a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wu0CxgxwiagsNx1b9cxG7lnc7U17faeerqPicnSJwJib7zGsibvanDe0ibBzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_024_ff46abe0e162.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuu1muiaMfpqK3aGCOODkcZJwlUwQu5qlsFXmqR9TVF9EZGU2iavHldTjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_025_f5493c6169c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuoMKEIQrKqcRWaHB0iba8T0aeQUicxF5MEmpMrQOicKXziaUAbqgJpsggbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_026_f0cd3667070f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wuZvV9T2kFpCtBGkyQ59rtvxZc2w2Hjx6rw4onnQHWwn2GIroGlB5LVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_027_ef9eb49ed2ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wugw08wFVv6BTXLDZ7Qq1hgsS2J4w8PvCgSJKWcul2ZGRmj6t8EB0wdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_028_8250d8d4ebb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wutDQFsb4m0npmeJbbZhFiaM9CSlT6hxjRv2HicA9hekRj8XkhibySrdFQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_029_08400ba99bf5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhUtboyzV50fyhlwiagibF6wu10s0lyWXtWKXarTqIkmwXBIauWXZiaRCxOeQdfA1yeZuBuDw7fbcgTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_030_04eca670c1a8.png)
 
 加管理员微信号：woniu26a ，并备注“软开关”，即可获取PDF文档。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6PsiaU2SkLic5a2E6icVYBWmWibhj0xlIjLAKOLsPfRclpgSN4r15Wj2mNRuFo6rmHP5sIFic0ffxvSg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_031_c88454e14515.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源的这项技术_不是专业搞电源的_给你经典PDF资料你也看不懂_images\img_032_d5dcc7ecfdf3.jpg)
 
 ## 
 

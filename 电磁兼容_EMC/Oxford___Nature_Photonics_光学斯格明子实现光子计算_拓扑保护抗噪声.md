@@ -13,7 +13,7 @@ All-Q
 
 **NEWS**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/u4tC0Vm8LdBeicBklXcG6icTN5UdjONEYAqgxaPWOSkVSCCbE2r6K81SbaTDCe4aCn8icPBHBvg2YKUg30jXrapiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Oxford___Nature_Photonics_光学斯格明子实现光子计算_拓扑保护抗噪声_images\img_000_656b8225bb6d.png)
 
   
 
@@ -21,7 +21,7 @@ All-Q
 
 研究团队发现，“光学斯格明子” 能完美解决这些问题。它是一种特殊的光场，带着 “离散的拓扑数”—— 就像给模拟光场贴了 “数字标签”，能直接对接数字计算；更重要的是，它天生抗扰动，外界干扰很难改变它的拓扑数；而且它的 “空间变化偏振” 是个没被充分利用的维度，能和光的振幅、相位、波长互补，大幅提升信息密度，一个局域光场就能存下任意大的整数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/u4tC0Vm8LdBeicBklXcG6icTN5UdjONEYAT3oB6iaicUwwVaOic7zxAZOSq6CyXShcVFkia0VZ7FFib6Gpppc1efLOvbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Oxford___Nature_Photonics_光学斯格明子实现光子计算_拓扑保护抗噪声_images\img_001_aa26be6a016b.png)
 
 ## 用被动材料让斯格明子 “算算术”
 
@@ -30,7 +30,7 @@ All-Q
 2.  **抗扰的秘密：只看边界，不管内部**最神奇的是，这种材料的运算功能只由 “边界结构” 决定，和内部参数无关 —— 只要材料内部参数是连续的，哪怕内部有延迟量波动、各向异性吸收，都不会影响运算结果。这就像盖房子，只要地基（边界）稳，房子内部的小瑕疵（内部扰动）完全不影响整体结构，大大降低了制造难度。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/u4tC0Vm8LdBeicBklXcG6icTN5UdjONEYAckcwQzlwHiarbaiciau5chIgJCPyicX3GSfAON1xB4HNBjU1s5AA70ZRjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Oxford___Nature_Photonics_光学斯格明子实现光子计算_拓扑保护抗噪声_images\img_002_df439e890554.png)
 
 ## 两大 “加法器”：从常规到广义的突破
 
@@ -58,7 +58,7 @@ All-Q
 2.  **实验验证：噪声再大也不怕**团队用 3 个 SLM 级联做广义加法器，给 SLM 加 “全域随机噪声”（连边界都有噪声），还测试了不同输入偏振态。结果显示：不管噪声多强，广义斯格明子数都稳定；而且同一材料能对不同偏振态区域分别做 “加、减、同时加减”，灵活性直接拉满。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/u4tC0Vm8LdBeicBklXcG6icTN5UdjONEYA6pzsiajvp9G41hM8jMGHkVJwyvnx1l3PCpP9mQeH0Hry4AUv7O0rAdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Oxford___Nature_Photonics_光学斯格明子实现光子计算_拓扑保护抗噪声_images\img_003_9da1b8a5f1b0.png)
 
 ## 待解的难题：离实用还有几步？
 
@@ -81,7 +81,7 @@ All-Q
     ：斯格明子的高效生成、快速检测技术还不够成熟，需要更灵活的光源和集成化的偏振传感器。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/u4tC0Vm8LdBeicBklXcG6icTN5UdjONEYAH3COOPhPmTubnYmnXssrh1A3nYsicNBjaicf3fM7Bl3vfMjxPicMt4vhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\Oxford___Nature_Photonics_光学斯格明子实现光子计算_拓扑保护抗噪声_images\img_004_907b9e3ca12b.png)
 
 ## 重新定义光子计算
 

@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfT9f4iaaRHaico0pfvSc55B7XZDDCQFS8ANLlUXTdAiaiakAicYRFKZTcWpJQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_002_b632a8894a27.png)
 
   
 
@@ -28,9 +28,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfT5lqXGFFBuWIgnd1jpiaqr3g5wwPiaiabs8ox4Keibqmhzrr8R80mkDfZnw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_003_5fb055fa401f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTCK42iczL7NTiaAcgSnr7vNQl2ic7DUibz97icv0XIgLPYfY3efLQCZribDLw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_004_40bcd44fb31c.png)
 
   
 
@@ -42,7 +42,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTAiaqnvYxInrUwOEejj1LKd2janfsIN2fEIsMhUKiaib9fQ0NRE927JCNQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_005_3ecec1eaf9d1.png)
 
   
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTupR6IddIejCbf5UK7wKiaCLianKx92Er06mZ9xaI8epGSqeyrrw0qibCw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_006_aceec2f30ea5.png)
 
   
 
@@ -66,7 +66,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTIdH2DZlxGbgicsImHHoux03FFLZnH7ImT7BJWQX2B9g9xMPKgicuWQKw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_007_cf3df8d3b5d6.png)
 
   
 
@@ -82,7 +82,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTH15zzFLpqeuia8wygYnaGbalwzEIvfB9jJ2yvQ5DrwUOLibvb6bpKHvQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_008_557c8212219a.png)
 
   
 
@@ -98,7 +98,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfT2JcBajLLTL9gXUKqzS9fkRXksQtvvWFBLib94WyFVohIpuY1V3icl5fA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](高速电路PCB布局布线参考_images/img_009_79537ae67993.png)
 
   
 
@@ -114,7 +114,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfT1DXZibwO6Z6zU9U5Adbs4bcEiaSZAs3s501oIia2DPALiaLc9wowXoFIEw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_010_2865f08e2fc6.png)
 
   
 
@@ -122,7 +122,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfT8BQQNU5w8KYa8gVe3UguBegibINopb7Uoz6bqnsXJpyBm14bHqN9UGA/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_011_3b4f8ce98a78.png)
 
   
 
@@ -138,7 +138,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTf8JzDQdJ6N5HFBRuwPIMcRlSsg0c8gqjiaMK1NcMvEYA2tITNQvV4hA/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_012_ba33836c154c.png)
 
   
 
@@ -146,7 +146,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTWEzKkryScCj3iaB48ZFb2wIARtQoXb37sNqJibfXuAyfrk3NeCUSeExg/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_013_052634c493b6.png)
 
   
 
@@ -154,7 +154,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTlsgUGJ9r8M4DqQzjrlDsrDAGcOGYiaOic9t9TicUibC2p4Q0tqNHkKgcOw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_014_6c61b2dfcb93.png)
 
   
 
@@ -162,7 +162,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTw1FQybEoBlicuiaoI7P3iclIJxAcA06cTicx6WIrvEDzQ3P0nDDa2lkm2A/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_015_be3ab092278c.png)
 
   
 
@@ -178,7 +178,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTQEB67GN7zFXYR9icrC1U2b2kRgsJf8gvnibqypxdibZ50UnqkGBfckCuw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_016_8356ebd87e27.png)
 
   
 
@@ -186,7 +186,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfT4WrsbIMWl4o5vtxGyUWG7WpgqecFibXxvCyOTCvGZhYoFsINrjicwM6w/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_017_8ce316998ead.png)
 
   
 
@@ -194,13 +194,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTMWe0kiaRVt3gYGW6TicAB1Xahl1ZYMCdpDP5OQ0ISib6Z4UuONKugMbWA/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_018_b6e83fde37ea.png)
 
 如果有两个走线弯曲，且两者之间的距离<15mm，故此时两者的失长会互相补偿，故此时不用再做等长处理。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTvG5N7H5bxJguA177J1T4srzMcFwNqZ9X0o9CgmR2YgEtr8P4wv5Edw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_019_98e8425ab1fd.png)
 
   
 
@@ -208,7 +208,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTNlqHPuYGhu5UVMko1ic2xltoeN56ZDDLgcQwqCdvjcbIFrspURQQjWw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_020_739b3e0aaec1.png)
 
   
 
@@ -216,7 +216,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTla98LJ9v80yvCIU10aVpdxfoCI9R0OsOAuHJOBJEKaCWe9EuRtNv0A/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_021_3f1d16f0b4e2.png)
 
   
 
@@ -224,7 +224,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTDVbic6WT5EicQ9kXPruaibAdqicZsOUIBmIzE0NQ9ibW1dq9SApHYs11gCw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_022_9808d66c3e99.png)
 
   
 
@@ -232,7 +232,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTooLr7PFjnBFCYSSicRxf1Z2oLkUPib5gdZJmqZV85peicaTHwo8G75Ggw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_023_650b9eb75acd.png)
 
   
 
@@ -240,7 +240,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb1QibMaHhAUD2ibicu8VV73VfTHp4yp20a0kGapTHcNP9IYrgQFcPiaqIPkuAUXmI4Nor0ohU3VEsxLBw/640?wx_fmt=png)
+![](高速电路PCB布局布线参考_images/img_024_1a51504b0a06.png)
 
   
 

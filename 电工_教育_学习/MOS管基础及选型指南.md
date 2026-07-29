@@ -24,7 +24,7 @@ JFET的英文全称是**Junction Field-Effect Transistor**，也分为N沟道和
 
 MOSFET英文全称是**Metal-Oxide-Semiconductor Field-Effect Transistor**，应用广泛，MOSFET一般称MOS管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdaobUMs4ib8MAD9VjT3ywsHiagibcW9wnHeoFibWfsrVTYBj8V6s5Ik7ywAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_002_7b5aaf728b61.png)
 
   
 
@@ -46,7 +46,7 @@ MOS管是FET的一种（另一种为JFET结型场效应管），主要有两种�
 
 每一个MOS管都提供有三个电极：Gate栅极（表示为“G”）、Source源极（表示为“S”）、Drain漏极（表示为“D”）。接线时，对于N沟道的电源输入为D，输出为S；P沟道的电源输入为S，输出为D；且增强型、耗尽型的接法基本一样。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdakFjo4LictOjYDTTAaFkwfVPDRf01MeTVVSzoSTpwO2OBqqlibLPBXOgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_003_8be474468bf0.jpg)
 
 红色箭头指向G极的为NMOS，箭头背向G极的为PMOS
 
@@ -56,7 +56,7 @@ MOS管是FET的一种（另一种为JFET结型场效应管），主要有两种�
 
 由于生产工艺，一般的MOS管会有一个**寄生二极管**，有的也叫**体二极管**。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIda9MoQ9AlnwLtv4Z1mD11LknjI6wLEICgzkVahQ8Z56Dj9huORG5bWWQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_004_c868998f9a87.jpg)
 
 红色标注的为体二极管
 
@@ -82,7 +82,7 @@ N沟道增强型MOS管在P型半导体上生成一层SiO2薄膜绝缘层，然�
 
 当栅极G和源极S之间不加任何电压，即VGS=0时，由于漏极和源极两个N+型区之间隔有P型衬底，相当于两个背靠背连接的PN结，它们之间的电阻高达1012Ω，即D、S之间不具备导电的沟道，所以无论在漏、源极之间加何种极性的电压，都不会产生漏极电流ID。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdabOoXsRQul4gJdS8QWxuibnvGz2OblOhoQ6fIiaYIHplx1HMicuf7eWxSQ/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_005_76fbf87f43a8.jpg)  
 
 N沟道增强型MOS管结构示意图
 
@@ -96,7 +96,7 @@ N沟道增强型MOS管结构示意图
 
 反型层将漏极D和源极S两个N+型区相连通，构成了漏、源极之间的N型导电沟道。把开始形成导电沟道所需的VGS值称为阈值电压或开启电压，用VGS（th）表示。显然，只有VGS＞VGS（th）时才有沟道，而且VGS越大，沟道越厚，沟道的导通电阻越小，导电能力越强；“增强型”一词也由此得来。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdazVaQjun9W1I4hftCwPrqozicWicjbUjgBFYlpByIMBpib6x0H89yibU3ibg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_006_bd55e1b0d25f.jpg)
 
 耗尽层与反型层产生的结构示意图
 
@@ -116,7 +116,7 @@ N沟道增强型MOS管结构示意图
 
 尽管夹断点在移动，但沟道区（源极S到夹断点）的电压降保持不变，仍等于VGS－VGS（th）。因此，VDS多余部分电压\[VDS－（VGS－VGS（th））\]全部降到夹断区上，在夹断区内形成较强的电场。这时电子沿沟道从源极流向夹断区，当电子到达夹断区边缘时，受夹断区强电场的作用，会很快的漂移到漏极。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdaosQCh2veqCxs5aE6tpbRXfY3WoicMExOJQOxzpYN9YkQyDVQbQ1JIxg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_007_1dee1cfab45e.jpg)
 
 预夹断及夹断区形成示意图
 
@@ -180,11 +180,11 @@ MOS管是压控型，有的情况下，为什么还需要在G极串联一个电�
 
 关注Vds最大导通电压和Vgs最大耐压，实际使用中，不能超过这个值，否则MOS管会损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdafMLLDPiamb9JYQM1t5gnGepBqQPy4o7O78IO2EpFVSOgEz9WBUvt1yA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_008_80aa6269eec2.jpg)
 
   
 
-关注导通电压Vgs(th)，一般MOS管都是用单片机进行控制，根据单片机GPIO的电平来选择合适导通阈值的MOS管，并且尽量留有一定的余量，以确保MOS可以正常开关。![](https://mmbiz.qpic.cn/mmbiz_jpg/bbnZlWbymyotxQSicexJfuTHWOVybZSjyehdTDFaZe5RIBlkAfyGxozYuSjnq7V2YxgI5jAtMgibJxo9SicSpibteA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+关注导通电压Vgs(th)，一般MOS管都是用单片机进行控制，根据单片机GPIO的电平来选择合适导通阈值的MOS管，并且尽量留有一定的余量，以确保MOS可以正常开关。![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_009_b7a27a02abc7.jpg)
 
   
 
@@ -192,7 +192,7 @@ MOS管是压控型，有的情况下，为什么还需要在G极串联一个电�
 
 关注ID电流，这个值代表了NMOS管的能流过多大电流，反应带负载的能力，超过这个值，MOS管也会损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIdavVhHbkiaaPYIuqLheFniaDchp3eBL9yjh2YBrxqBe8IV2vsXLkzLy6LQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_010_562987ba7407.jpg)
 
   
 
@@ -200,7 +200,7 @@ MOS管是压控型，有的情况下，为什么还需要在G极串联一个电�
 
 功率损耗需要关注以下几个参数，包括热阻、温度。热阻指的是当有热量在物体上传输时，在物体两端温度差与热源的功率之间的比值，单位是℃/W或者是K/W，热阻的公式为ThetaJA = (Tj-Ta)/P，和功率和环境温度都有关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgicq8gAJTZtTKkAHkVOJIda6Rq5vwxdJ1KGgdhLdxMxmCNoF3wcIEwTDqg5FkPVvzSlFjdsVmD6LA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\MOS管基础及选型指南_images\img_011_8f2d922ef80a.jpg)
 
   
 

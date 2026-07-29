@@ -7,11 +7,11 @@
 
 Ansys Maxwell 的脚本功能主要集中在工具栏的_Automation_ 当中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQC8WZyuKnkC5FB86a6ynwflUgtTcsN4gfmIGH5vbWTcyAb2wlGNZ3NjGdhT0czdsALp7Nx4xL7zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell脚本那些事_images\img_000_e3d695e2be15.png)
 
 其脚本大概可以分为两类，可以总结为下面这个_思维导图_：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQC8WZyuKnkC5FB86a6ynwfibdyLa9vzytEd21fTznTYGKFCibI4Unr1tKW1icI7PKQIjDmBNbAyianFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Ansys_Maxwell脚本那些事_images\img_001_7689ded44054.png)
 
 ## 1️⃣ 基于 COM 接口
 

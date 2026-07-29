@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYllurYNZWicR2l2BLc3KNaoxic7FYoXYz7nLiatMaf7RYtc0ogsYrqBsU65qg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_002_238f7a646b7f.png)
 
   
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluM4p3xRj3dQlnGvbUJnTb8uWibLc3bwqACibJPyL0wZ5W0uH6Pj0kbNvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_003_d7d5bb49b116.png)
 
   
 
@@ -32,7 +32,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluBSqYeVY7ictr7fCdmH52h9ceWLrRwCGRcvxwMufdIJh0udzlqIWWuKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_004_833fe2bfa9d2.png)
 
   
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYllufKAURbLbv4PVK4TLKdIa6iabHVpfJ9fmX0ToSibS5pJUsAJas2lvFqDA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_005_1fff0fee19c8.png)
 
   
 
@@ -48,7 +48,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluFLava0XvVibQLQZFDcQ08ytdmJgpjgIQ7ktSdic2UR9QwI8l4PpjPcyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_006_8803b4441f89.png)
 
   
 
@@ -56,7 +56,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluOWc13bJg69v79V5lic0MLoDZWLLwQNG6jG4hIEx71AkibsxYADPT51rA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_007_dc41ec57fcd6.png)
 
   
 
@@ -64,7 +64,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYllumriaSUswJqzYaFevs8Szf2DXQ23r9geIFbUicia3QgW6fgvjZsbvbsEmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_008_47d178ca9373.png)
 
   
 
@@ -72,7 +72,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluojYEzcEBxbTFdLZxtA0C67N30qVMibia67AImTN2z2dagxJ79Fzibcuiag/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_009_25977fbaf754.png)
 
   
 
@@ -80,7 +80,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluib9mjuRvGBDM5cIkic9icWutWfeo68aB8duytGucFXovBiaBKfib7bicGNvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_010_d69b46c830ad.png)
 
   
 
@@ -88,7 +88,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluboRSqCCHgWEw7YDzoFEfvCEariaicAN8r6S6ByFHYiagmxgJBEHtmLFrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_011_9e6caf1f3931.png)
 
   
 
@@ -96,7 +96,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluGkQyVUuXYHD5Mic0VxV1mlxEFl53dA0AW3JEHfoibfib2ogzGgQMbQIeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_012_06662b9beb38.png)
 
   
 
@@ -104,7 +104,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluNpxuIlZVlo3ga8ercqDjz8IK0kyWsPsU6JrH2OJDt1FvMTpwhGpc3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_013_dac8021f548c.png)
 
   
 
@@ -112,7 +112,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYllu4kgxKv9u64H3ibCkvibkpvqNIxekaRohmZmR95ytayG5NLTibDdbeVdFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_014_5f936804f976.png)
 
   
 
@@ -120,7 +120,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluIwkxnr1EbovcA7eFSsVNp1bImYBRqzTVd1EsgHVK38Nd7JFjq8Dw1w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_015_ffd7d8fa7caa.png)
 
   
 
@@ -128,7 +128,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluRhBWzNgDI8ZUiaticj4zrKNckP9fwgg1CGbX5b9q2JkMLYxKR8tFxJIg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_016_98593007d97f.png)
 
   
 
@@ -136,7 +136,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYllup9XXhgJeL4cP51og4knmibyxicvAA00HZiaLf2ib2LNRvx0rUfQYkSE0NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_017_109ad6e1b576.png)
 
   
 
@@ -144,7 +144,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluG5gJQ9bosiaVd3D0gSSCYiciceHDLcxYMNxWC6ljL8120BshOgjf7c5SA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_018_61e258880fcc.png)
 
   
 
@@ -152,7 +152,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluiaC2uuRTibzwdLiarXt8yDNNJvTHfM4UWEtWviaVRfEvtCuYoZwYXewJBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_019_0847b0d5b4f8.png)
 
   
 
@@ -160,7 +160,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluNcwFEkLa7WYcVETq0aQdWJh2Pv6xk14eRbOop5q0vT9aLvL1jj1R7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_020_e75f5698a486.png)
 
   
 
@@ -168,7 +168,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluicWkUfL3OTkia1eibMFyY9yPVIzuuTHs2aMXLhdZtUG3LCTzJGRsd08uQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_021_c846f6a1e78b.png)
 
   
 
@@ -176,7 +176,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluN8PgVeQ9zwSOibjL8ssia5icJZ11LF4ibcGP64GGQ7IC6ic0hLhicvxARBfA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_022_b4da4a43de6b.png)
 
   
 
@@ -184,7 +184,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluMr1AJMLMYCCnDlltvj4UNKGDnckTEfXnn5F2rvE1wibhGMfdibjuia5XQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_023_ddfe1f03b2a0.png)
 
   
 
@@ -192,7 +192,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluGd3rfPbfVpl5AP0dBT9h5XITfeTr2gibPQ8KrVkNsKk6yc3HXoIib0SQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_024_61631eac0aa4.png)
 
   
 
@@ -200,7 +200,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluJcaAQ5lhpmd80007bYww3RkGd8flFQMTMKicx5Obpz2dugBEkfaAicAQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_025_567c1792a615.png)
 
   
 
@@ -208,7 +208,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluDx3f6b8dTLQS5ABAcq4JasNsGVzMDR0cFibibvnbzug15P49bXibdO25A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_026_605d9a226287.png)
 
   
 
@@ -216,7 +216,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYlluLIka2sEQ5xHgzgzjMmCsywVqvVaKJEBBU427DXvOXYyLOdOzrprpOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_027_2770c219ebf9.png)
 
   
 
@@ -224,7 +224,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg0s3ovhIicWp308azOxYllulgBUBBgmVuaEiaiasno06MKaXicficchFButEBFlaibHxJvA3bJ0QMvibqTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_028_b47d1383fe75.png)
 
   
 
@@ -232,7 +232,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHmT8dTo9rvR0HVbmS8LN41qnWLXqJAEWU3lvR2jU8nuRPAvjNzew47g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_029_e7057184f60b.png)
 
   
 
@@ -240,7 +240,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHkmAQFtcFtuiaw2HnmD6varjEUWLYjaB8tFlXM1BPF6hgicGdDBar6H6Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_030_953d28cae765.png)
 
   
 
@@ -248,13 +248,13 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHBuorzdqwoyFA8Uhc7rvPxpHX2qJBIpQibxuxuw4PxNq680iaZGjT4u5g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_031_3565f3e4b8e2.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHhOEFc3h1DiaW2fZMdOia4CA3iaDSSMT5h6v0Mwwm0CtGf8C6L0aMp7WXA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_032_010fa02ef423.png)
 
   
 
@@ -262,7 +262,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHUjF8MeSOeDzJZjQmAr6yGEicTIKk3PiaHpDDLKpw1qPNz5u50tC5cc3A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_033_98caa0e0471d.png)
 
   
 
@@ -270,7 +270,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHs8vuylb1udHjQlTPq9JpCFJicCJOop9JJiaibJTd5HLWZrica6kJbe90Bg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_034_0316ebe2c523.png)
 
   
 
@@ -278,7 +278,7 @@ BGA专用助焊膏，说是进口的鬼知道
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTH5JOhPib0bVyic3Eq1rcDAsicjFPNLsFzdvp2bYn9FeqMuXDJc5sKiaMhUQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_035_7486bda464cb.png)
 
   
 
@@ -286,7 +286,7 @@ AS
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHicb7eJU32scarrlXibC3jezpdJEjmFvK252oWg2xw9xSmWicY2kLgXEYg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_036_a76cfce0934b.png)
 
   
 
@@ -294,7 +294,7 @@ ATTO
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHqPcFJSoMwqmBgAm8mv6wOgmhRHFYm3f1hejjGouBFz3fmA4L6rsCxA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_037_3201e67c7ada.png)
 
   
 
@@ -302,7 +302,7 @@ ATTO
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHG2gxJNPbenTRicb0G58b4rqXao3S41ghjbvcYyDUB1zUJYic5Hqbvqibg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_038_77a0f0394a42.jpg)
 
   
 
@@ -310,7 +310,7 @@ ATTO
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GFk2abHRMHRiasRSurZ6MvRribSEgLMXTHsIS2PXrDzbLcmYyrD3NF4iaZklaayicRIYukDMLicutC6P7IIQZRxQIwA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用废手机EMMC闪存做了个U盘_装上外壳_完美__images\img_039_9551b9eb2fa9.jpg)
 
   
 

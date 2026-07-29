@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QoMTDoT92GhIdG6LdUmHiazibIJlfMMdWgxLV6nqvtk6PLBHbcM7xj25gQcVBhpJ75HpREN6MYmWHw/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](华北电力大学张波_高远_等_计及IGBT结温约束的光伏高渗透配电网无功电压优化控制策略_images/img_000_5fc0e9bac55b.png)](https://www.acces.org.cn/)
 阅读提示：本文约 3900 字
 > 光伏电源参与配电网无功电压调节是提升光伏高渗透配电网运行经济性和可靠性的有效手段，但光伏电源提供无功支撑会使得光伏电源IGBT最大结温升高、结温波动加剧，进而影响光伏电源和配电网的安全稳定运行。为此，华北电力大学新能源电力系统分析与稳定控制团队提出一种计及IGBT结温约束的光伏高渗透配电网无功电压优化控制策略。
 > 

@@ -10,9 +10,9 @@
 
 如图，为什么在Vce下降前ic就开始上升了呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyZCdD3n4rx4Dx0Idu4XoNcngvGLlLHmDsibmwfjFCwgZuGlBVEqicGbAg/640?wx_fmt=png)
+![](MOS管开关时_电压电流波形的探究_images/img_002_8cfca8754935.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5Hynwsn7yMppcy5VMC3IKRSBFqEyZppoib6H5BKvHnAicgtmZQS7PVyCEdA/640?wx_fmt=png)
+![](MOS管开关时_电压电流波形的探究_images/img_003_6f72ff25c4cf.png)
 
   
 
@@ -42,7 +42,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqFoD2bzVtiaJicLcDrCoEut8RiaSFPrqMJgO1hrKibXA2tj2ia1HqU5QhrMcH4Picd97vLrkgqhAX6WgA/640?wx_fmt=png)
+![](MOS管开关时_电压电流波形的探究_images/img_004_50fb02ed8c1b.png)
 
   
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HySqYQsOLmiaDGpgV1XAhCPonOBMMKDAwxYl2V2LuXa9n7UlLWllBoGtQ/640?wx_fmt=png)
+![](MOS管开关时_电压电流波形的探究_images/img_005_2ae4d171e24c.png)
 
 实现ZVS turn on很简单,只需要在我们开启管子前, Vds上的电压为零就好,这样Ids和Vds就没有重叠了, turn on switching loss为零,没有high di/dt, dv/dt问题,没有ringing !那么如何实现ZVS turn on呢?
 
@@ -72,7 +72,7 @@
 
 一、对于PWM converter ,就拿最简单的两个管子的half bridge (其实也就是buck converter )做例子。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5Hy2DoZzxJQ39MfrnSOFs7YNM8K0Iucqh2PfLuNFfaP6OLTwzlfJeRyMw/640?wx_fmt=png)
+![](MOS管开关时_电压电流波形的探究_images/img_006_3aa88a8ad5fc.png)
 
 对于half bridge实现ZVS turn on ,我们希望当上管Q1开启时电流是流进switching node (vsw)的，也就是图中电感电流为负值，当下管Q2开启时我们希望电流是流出switching node (vsw)的,也就是电感电流为正值。
 
@@ -90,15 +90,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HySMATJp5XCsIZ6mH8X3fD0GFFPHacGNiakHV5dkoMnk0kEyibABbVpvxQ/640?wx_fmt=jpeg)
+![](MOS管开关时_电压电流波形的探究_images/img_007_83b56d9811d8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5Hy0LfQApx3YkUia12ujWickhkIOWB5ONR3NwxMhuGQsGbicdRA4Jy27ib1EQ/640?wx_fmt=jpeg)
+![](MOS管开关时_电压电流波形的探究_images/img_008_10174d9f8a5c.jpg)
 
 二、对于resonant converter ,其实道理类似,我们也希望在我们开启管子前, Vds上的电压为零。那么对于resonant converter的half bridge ,我们希望看到的impedance为inductive ,也就是感性的,这样switching node流出的电流I就会滞后于电压V ,现在ZVS turn on。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HyeicGH5uU16c0CrdiadSyBVCNmNNc5k1wgvMUQ2bia2PFicwPwCrhmiau8SA/640?wx_fmt=png)
+![](MOS管开关时_电压电流波形的探究_images/img_009_68f1f4ffcd7e.png)
 
 这是因为如果电流I是滞后与电压V的,这样在Q1开启之前电流I为负值就会charge Q2的Coss ,同时discharge Q1的Coss ,让V到Vin ,这样Q1就实现ZVS turn on了。Q2开启之前,电流I为正，也会discharge Q2的Coss ,和charge Q1的Coss ,让V到0 ,这样Q2就实现ZVS了。
 
@@ -120,7 +120,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjglpeQ1Xf9ZFAzvmDiaTl5HymwzxIIia7hncpHgwzdic9YibCGM8xQSR0RUNnp17KWlFhicbaKwib7f5S1w/640?wx_fmt=jpeg)
+![](MOS管开关时_电压电流波形的探究_images/img_010_2b35b5d8b01d.jpg)
 
   
 

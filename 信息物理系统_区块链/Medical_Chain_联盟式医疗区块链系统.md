@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/rB\_R52-GelwGkJKvFI-9ag](https://mp.weixin.qq.com/s/rB_R52-GelwGkJKvFI-9ag)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJvTMamWDJmSdwqy00UiaXBagsI6ibpK1oYH85MibMTFXloU4iczXMM2fzZw/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_000_8ab16fbadcc0.png)
 
 联盟式医疗区块链系统（Medical Chain）是一个多节点共同维护与共享的，并且能够防止医疗数据被篡改、泄露的医疗系统。该系统在兼顾患者隐私的前提下，设计了部分医疗信息共享的架构，保证了信息的真实性与公正性。
 
@@ -18,19 +18,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJJ4BgicrJY9zmYx5O3WJ93XjCMMhtaWvgRbN3wYyx7lFyhicfHvrYtLwg/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_001_a64c0d92ee47.png)
 
   
 
 比特币是一种基于去中心化，采用点对点网络与共识主动性，开放源代码，以区块链作为底层技术的加密货币。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJtXQbVXtrsup7fnDF0th2RqjBkRa7klJJAY6bFcsClS3A8PNdYxyD4w/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_002_63c0e444f528.png)
 
 Hyperledger是一个旨在推动区块链跨行业应用的开源项目， 由 Linux基金会在2015年12月主导发起该项目，成员包括金融，银行，物联网，供应链，制造和科技行业的领头羊。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJl6g4xTCmJ2ibzqwIz2QObpp6nZl38MQlUntZBvrV3zIgxJXgPmh5GAw/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_003_c1600ff953f9.png)
 
   
 
@@ -56,7 +56,7 @@ Medical Chain中的区块链系统主要包括存储管理、节点管理和用�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJqzBLRejOibbnuBAmGwuKFJH7qxAyQvg6ibt73SJ64S4oX1rtaynRY5tQ/640?wx_fmt=jpeg)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_004_f2eeb351055d.jpg)
 
 Medical chain数据存储架构
 
@@ -66,7 +66,7 @@ Medical chain数据存储架构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJbWibspBf0k8uOBbvftBAiaDjjI8on5iaaa4KFUPxqG7LT7bDlWRjlSFUg/640?wx_fmt=jpeg)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_005_9151b98f9e82.jpg)
 
 Medical chain节点管理
 
@@ -76,7 +76,7 @@ Medical chain节点管理
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJwsho3bAic3EGEdVTGOj6HXGfejc62QaeOqX0lYNVq5915cNJiba87ibtQ/640?wx_fmt=jpeg)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_006_86bbdd119d89.jpg)
 
 Medical chain角色与权限
 
@@ -86,35 +86,35 @@ Medical chain角色与权限
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJvTMamWDJmSdwqy00UiaXBagsI6ibpK1oYH85MibMTFXloU4iczXMM2fzZw/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_007_8ab16fbadcc0.png)
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJYIibwg1UXMyVoyr75l1Soiapc4nichSuib1kiawo6C8ULeablTE6JJGib67g/640?wx_fmt=jpeg)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_008_8d030c38396c.jpg)
 
 张超,四川大学计算机学院硕士研究生.主要研究方向为区块链.
 
 E-mail:zcsd2668@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJFziaAAkYvprupa8LhnVibqyBwKdTc8sCU2gkP48Y0Kb3WVGlwxGQoyzQ/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_009_ccbfb18a1446.png)
 
 李强，四川大学计算机学院副教授.主要研究方向为嵌入式程序设计，移动云计算，大数据.本文通信作者.
 
 E-mail:liq@scu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJjqGTnibKyfiaMApn77HibQc4iba4th0B9jATSwI3LL1tl3UkQibGuydm7OQ/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_010_06d25bdd0cce.png)
 
 陈子豪，四川大学计算机学院硕士研究生.主要研究方向为区块链技术与机器学习.
 
 E-mail:chenzihao838@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJJEm1qdMgOWzHicCSccl51CyjUmd0jLWQJa2lA7BQrm5vyTqOfJBibnxw/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_011_09a49ba6802f.png)
 
 黎祖睿，四川大学计算机学院硕士研究主要研究方向为区块链.
 
 E-mail:lizuruil63@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJRXlkByIib5aNDd15GVAL2RS0Ysr9r62LmYslyg7MA2rjCZUhkyTHG9A/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_012_8491f850f12d.png)
 
 张震，四川大学计算机学院硕士研究生.主要研究方向为区块链. 
 
@@ -212,21 +212,21 @@ E-mail:sun-zhangzhen@sina.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJTApMzgMND9MzLDoJobR7VyK9M1dcV5KtjhpjKTicdDF6lDichJJA2XVg/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_013_c36b90dd0962.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJkJyVXibmuQDDnbzz1gZ8qDhkpsYKkiaKnLCibbFlmFUiaes6POcV7hU59A/640?wx_fmt=jpeg)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_014_9b34a610beb2.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJTApMzgMND9MzLDoJobR7VyK9M1dcV5KtjhpjKTicdDF6lDichJJA2XVg/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_015_c36b90dd0962.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJwHC5iblsGibVA2VPDXGXz3icic4JApA3t789cwKicZ9j30icNCYibibnnl47TA/640?wx_fmt=jpeg)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_016_488580153427.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJTApMzgMND9MzLDoJobR7VyK9M1dcV5KtjhpjKTicdDF6lDichJJA2XVg/640?wx_fmt=png)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_017_c36b90dd0962.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4631rEPN0zPqRiclfa4AKvAJ6hVS8IS4AZAyx8icN66Lss2EIm7g61E5MVnufLpZtYicECvOzadu2CEQ/640?wx_fmt=jpeg)
+![](Medical_Chain_联盟式医疗区块链系统_images/img_018_42619825a7d7.jpg)
 
 自动化学报订阅号
 

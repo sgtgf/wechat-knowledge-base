@@ -8,7 +8,7 @@
 
 如图，MOS管内部有寄生电容Cgs，Cgd，Cds。因为寄生电容的存在，所以给栅极电压的过程就是给电容充电的过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJ9n7T3ACCtG3m0EQutibjv4qz5fibHXu3CMmvrHgiaSEA52j7MKLVqUiagY3SoRB542PeYCRsysTvHxg/640?wx_fmt=jpeg)
+![](搞懂MOS管_你不得不知道的米勒效应_images/img_000_3cb48961db02.jpg)
 
 其中：  
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJ9n7T3ACCtG3m0EQutibjv4T4vAMW5sNVLEfCHibgKsMnrvKJ1KSM7xVfBAJB5t5YniaaU7c2lt9UdA/640?wx_fmt=jpeg)
+![](搞懂MOS管_你不得不知道的米勒效应_images/img_001_90a9f0d89f6a.jpg)
 
   
 
@@ -46,7 +46,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJ9n7T3ACCtG3m0EQutibjv4gvZiavNPiaGic4dAnuH8NicI0uDwGO5dpAABAic3qca8PDN97rNPrNmKkxQ/640?wx_fmt=jpeg)
+![](搞懂MOS管_你不得不知道的米勒效应_images/img_002_d744ca2bb828.jpg)
 
 ①t0—t1阶段
 

@@ -29,7 +29,7 @@ Ren Wang, Beier Ying, Shuai Shi, Junsong Wang, Bing-Zhong Wang, Musheng Liang, Y
 
 出版信息：Science Advance 11, eads4797 (2025); DOI: 10.1126/sciadv.ads4797 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUb8XLEPK2P6z6V8fPySYYGAOiaD8ruOntibQeRqoATGId5ShIBkqdPpYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SA_混合电磁涡环_images\img_000_2b5c6c37ad21.png)
 
 论文摘要
 
@@ -55,23 +55,23 @@ Ren Wang, Beier Ying, Shuai Shi, Junsong Wang, Bing-Zhong Wang, Musheng Liang, Y
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU1TGAVicWCFpFoxvRR2XVXzVczuJbbWvuruDLdkFDqdafTVtoDSAODsg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SA_混合电磁涡环_images\img_001_6039e7975dfa.png)
 
 图1. HETVs的生成方案：A. 矢量涡环；B. 标量涡环；C. 同轴喇叭天线，具有内导体和外导体，能够产生径向极化脉冲。D. 径向超表面，其E. 由径向排列的超表面子阵列组成，每个子阵列包含两个超表面单元。径向超表面将径向极化波转换为标量涡环，从而在时空环面的极向坐标上诱导出2π的相位变化（由颜色表示）。标量涡环的奇点会诱导出鞍点，从而导致矢量电磁涡环的产生，这些涡旋用电场线勾勒出一个环形表面。矢量涡环和标量涡环表现出耦合的拓扑结构和空间关系，形成了一种电磁脉冲：F. HETV（混合电磁涡环）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUMejXLo8OlzTS0eFbQ9NWtumm4XPM4qNrrRM258oF4FXctTayP4IODw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SA_混合电磁涡环_images\img_002_980336133232.png)
 
 图2. 非对称超表面单元的透射谱函数：(A至C) 相位响应 和 (D至F) 振幅响应。(G) 不同 p 值下的奇点位置。当子阵列排列周期 p 在2.4至7.7毫米之间变化时（对应于在Floquet边界条件下沿y轴模拟的单元周期，也大致对应于径向超表面中相邻超表面子阵列之间的距离），在2至2.2 GHz范围内始终存在一个具有相同手性的涡旋相位奇点。这确保了当入射脉冲处于2至2.2 GHz范围内时，径向超表面能够在每个径向位置将径向极化电磁波转换为时空涡旋，从而形成标量涡环。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUafZdYKS9ic7rIKpJhwqVmvAyIzfwpKz6gdCpW83b5GC8V2XZSOZsDZw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SA_混合电磁涡环_images\img_003_0d5c0b3ea3b6.png)
 
 图3. HETVs的强度和相位表征：(A) 理论、(D) 模拟 和 (G) 测量的涡环脉冲的径向极化电场分量的三维等强度剖面图。等强度面的外层以灰色显示，而涡旋核心表面为棕色以示清晰。(B, E, H) 分别在局部坐标系下显示的四个切片的相位分布图（理论、模拟、测量），揭示出2π螺旋相位。(C, F, I) 分别在 (r, t) 平面上的二维时空电场分布图（理论、模拟、测量），展示了指示涡旋奇点的叉形图案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUfC6QZv8rmTHUJdLHRiayLkCpGU1ibvZ81MNrwo9SCIVLAsy80tG70kpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SA_混合电磁涡环_images\img_004_4899b2dd2fe5.png)
 
 图4. HETVs的矢量场分布：(A, E, I) 分别在 (r, t) 平面上的二维时空电场矢量分布图（理论、模拟、测量）。黑色虚线作为视觉引导线。(B, F, J) 分别是 (A, E, I) 中涡旋奇点附近区域的放大视图。黄色三角形表示鞍点，绿色圆圈表示矢量涡旋中心。(C, G, K) 分别是在特定时刻xy平面上的斯格明子纹理（理论、模拟、测量）。(D, H, L) 分别是与 (C, G, K) 中斯格明子纹理对应的场矢量在球面上的覆盖情况，证实了斯格明子的存在。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUrTjoDkFh9O676JYWHoL2EMAbEGJdrMhhvH8QVibVaGzGsSXqFkgo9uw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_SA_混合电磁涡环_images\img_005_a29527c0cc80.png)
 
 图5. HETVs内部的涡街：(A, C, E) 分别在 t = 0 时，zx平面上的涡街轮廓线（理论、模拟、实验）。(B, D, F) 分别是 (A, C, E) 中涡街矢量场分布的放大视图。相互连接的反向旋转矢量涡旋用红色环形箭头突出显示，其核心用黑点标记，而鞍点用蓝点表示。在标量涡旋奇点附近的几个半波长范围内，相互连接的矢量涡旋表明沿着传播方向形成了涡街。由于实验限制，z方向的测量范围仅限于950毫米。
 

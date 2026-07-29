@@ -7,7 +7,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6Luyy2KP70XfVvR47DTzI8IJzwia4bjWqFRH8gwtxkKibG00jqS0obKJzoKCcNBOCHdN1oxU3J0WYXraW7A7EJQvICTfknkd1JSySZM/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_000_fad28566cb9b.jpg)
 
 * * *
 
@@ -49,7 +49,7 @@
 
 > 这些电子器件在逻辑上应该如何连接？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyyORnqFicmjuJOc428Z0T9RVIvdMbmlZM3n9iabZ3sSZ60Jib87Nfic6gZ0sZZZb04sHy21ggISybQVp8m3c30Wt3B3Ba3VSKBr0Vs/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_001_a325ca0db34e.jpg)
 
   
 
@@ -84,7 +84,7 @@ PCB 是印制电路板。原理图解决“谁和谁应该相连”，PCB 进一
 
 PCB 图会包含走线、焊盘、元件位置、板子尺寸、孔位、安装方向等信息。它更接近最终产品。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyzLUvia4jIuJib9QCITGjmCz1OYictrBbbFjp1jBGVl6mpfUmTJm6zX3vR3sIgb4Szj1OThR5Up5jyfw2uUucqzPVLRJD0lQedMMg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_002_2f5c17585ade.jpg)
 
   
 
@@ -107,7 +107,7 @@ PCB 图会包含走线、焊盘、元件位置、板子尺寸、孔位、安装�
 
 这也是为什么“原理图对了”并不等于“板子一定好用”。原理图关注逻辑连接，PCB 还要面对空间、电流、干扰、生产和装配。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuyxH4T9a9dTmsGXyEMzia9hGpa3JJy6Nh4mynicmib8icH33TTtP7NmPYnkBSdKh5N72tWB2uLf9CQK3xaglX767PNlXnymBNyyNDGw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_003_67739800d4fa.jpg)
 
   
 
@@ -119,25 +119,25 @@ PCB 图会包含走线、焊盘、元件位置、板子尺寸、孔位、安装�
 
 1.把 PCB 线路打印到热转印纸。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6Luyx469ibicvNIgKjn4tRMIwX5nHaIJicibTTkcPPztDJmJUCyeH7G3cOibZleKciciafzdc1YFDj0OqWZDf8hxBsbTD4Bp41WlIpDSSK0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_004_648fbf9a938c.jpg)
 
   
 
 2.转印到覆铜板。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyzCjHlJ6OMia5FnKhib7ibVGdgI01PLahrM5rEH3YWsPgw8oh7yichGgbuicASgMSkia3AjVUKwIWLoq260Fs4mSMpMnsnRXn40kPQzc/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_005_9e7102324c8a.jpg)
 
   
 
 3.腐蚀掉多余铜箔。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuyygVhcCw6doAadgn28weVibIGMxb0R53ibdf5gVrwiclGlyg4H2fgRjJgibdNibXUWrYMQhIpjYdxAia6yAsbjYc4sMA8Am1icahgDQicw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_006_c6627b16f4f9.jpg)
 
 4.清洗、钻孔、焊接。
 
 这个过程能帮助读者建立一个直观认识：电路板上的“线”，本质上是留下来的铜箔。工业生产当然复杂得多，还会涉及阻焊层、丝印层、沉铜、喷锡、镀金、多层板压合等工艺。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyzEGbPGdoGlQibibXFUEYJMSbiaJUWS9OtmMRQ1mIat3wDmnNcsr3mibDicJuVHpMNnnoUdoiaz4RWfmia7GJYJwKXiacicZ0FLazLewDAg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_007_1c04564a9287.jpg)
 
 对入门者来说，不必一开始背完整工艺流程，但要理解一点：
 
@@ -165,7 +165,7 @@ QFP 引脚分布在芯片四周，间距更小，适合更高集成度的芯片�
 
 BGA 的焊点在芯片底部，适合高性能、高引脚数量的芯片。它对 PCB 工艺、焊接设备和检测方式都有更高要求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6Luyza6AmdE5yBT609NC2Ra5C0NJZNAEibWNUJE0fMiaOAy0F6icbS2qOibmlfCA3a2QQXH6X69iclT5zwpV3ib6dfiauhxxNJs6dVY6Y8Tg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\先认识电路板_原理图_PCB和封装_images\img_008_5186f2b84bfa.jpg)
 
 选封装时，不能只看芯片性能，还要看能不能买到、能不能焊接、能不能调试、生产是否可控。
 

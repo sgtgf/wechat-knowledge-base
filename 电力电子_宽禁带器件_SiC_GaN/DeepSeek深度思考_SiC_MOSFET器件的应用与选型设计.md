@@ -5,13 +5,13 @@
 
 以下是一份结合碳化硅（SiC）MOSFET及功率模块的技术应用与市场分析报告，内容涵盖应用场景、选型指南、应用方法及市场前景。报告基于当前技术发展和行业趋势编写，力求为电力电子工程师提供实用参考。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP0PMKyVuN19SVAwsIkWbUpI7ltOVticMHn8sslia5FbhN9zFFxQJqibMZow/640?wx_fmt=png&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_000_d21b59517e7a.png)
 
 一、SiC MOSFET器件的核心优势
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslTUCFPseiagYpfXtCHNatP0sOKre6N1nmcbaZib3yZ7bz3qDYrK9kFbqho76e5eca6YZRJZzQm7eQg/640?wx_fmt=jpeg&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_001_e6da54446335.jpg)
 
 1\. 高耐压与低损耗
 
@@ -35,11 +35,11 @@
 
 二、典型应用场景
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP0Fg7BCGZia2icMqwR349micvAuAfCrEzgNpOBH0eO9aBITND08EKIPEy2g/640?wx_fmt=png&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_002_87b1273e9f46.png)
 
 1\. 新能源汽车 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP09iaSBSvc9oZey9jByrlxlLLvsiasA6ibkOpm2GaBfoL2RiaQZ9ibeIfZhDQ/640?wx_fmt=png&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_003_4ec8a6662c99.png)
 
 车载充电器（OBC）和DC-DC转换器：降低开关和导通损耗，提升效率和功率密度 
 
@@ -47,7 +47,7 @@
 
   - 推荐方案：650V/1200V SiC MOSFET，用于PFC和DC-DC拓扑（如图腾柱PFC）。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP0bwWYfia69SO6uF8W5oLZdBOoTWXicXSdy5uqO3mia1xO5Dn3vvgSvOYwg/640?wx_fmt=png&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_004_aa588a1363c8.png)
 
 主驱逆变器：SiC MOSFET可将逆变器尺寸减小80%以上，提高能源转换效率和车辆续航里程。
 
@@ -55,7 +55,7 @@
 
  - 推荐方案：1200V SiC模块（如半桥模块），替代IGBT，效率提升5%~8%。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP07gOZ32KV1HRAIduVYAvvDvviaJ9rwbiaomibEfMQk4W2zwWnNAqZAfWIg/640?wx_fmt=png&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_005_bf4190ab0842.png)
 
 2\. 光伏与储能
 
@@ -63,7 +63,7 @@
 
 储能系统：适用于大功率储能设备，提升转换效率、减少热损失。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP0jAfDauibme9kvBM1dJkYhesdcy5sTqoB9mcdS1JcOcdYOBBpaJkzbVg/640?wx_fmt=png&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_006_501e3db4d190.png)
 
 组串式逆变器
 
@@ -101,7 +101,7 @@
 
 4\. 充电桩与超快充
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP0CbdYdIIIicOsyVgjTVp8r9NXTX2DMxwA50X5Ziaick7FMicCJJgWF5H8MA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images\img_000_c95e16c9b11d.png)
 
 直流快充桩（350kW+）
 
@@ -117,7 +117,7 @@
 
 数据中心电源：提升电源转换效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTUCFPseiagYpfXtCHNatP0eb1KB06Gwo3Ll1njsTJ1nK3oA98wsVrIrrzaGU2TeibtdW3HlhMMoLw/640?wx_fmt=png&from=appmsg)
+![](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_008_8bfcc0738692.png)
 
 智能电网：优化电力传输和分配，增强电网稳定性
 
@@ -223,10 +223,10 @@ SiC技术正在重塑电力电子系统的效率与功率密度边界，工程�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_009_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![图片](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_010_a7ecee98ead9.png)![图片](DeepSeek深度思考_SiC_MOSFET器件的应用与选型设计_images/img_011_9bbc7b9b15a2.png)

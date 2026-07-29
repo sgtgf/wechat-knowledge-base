@@ -20,9 +20,9 @@ RS232：全双工（逻辑1：-15V–5V 逻辑0：+3V–+15V）。是电子工�
 
 ## RS485
 
-RS485：半双工（逻辑1：+2V–+6V 逻辑0：-6V—2V）这里的电平指AB两线间的电压差。RS485是一种串口接口标准，为了长距离传输采用差分方式传输，传输的是差分信号，即通过AB两根线的电压差作为电平信号。差分信号能有效地抵御外界因素的干扰，因为干扰对两根线影响是一样的，两根线的电压差不变，信号传递也就不会受干扰。与TTL、RS232只能一对一连接不同，RS-485在总线上是允许连接多达128个收发器。![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaTWBxA0w0AmtwCqRUOzXGkEuba67W1NiaBsn1MgjzLKXShK6LRYNOt2icPBaOyicj3Jvo2Miciaa314ZA/640?wx_fmt=png&from=appmsg)
+RS485：半双工（逻辑1：+2V–+6V 逻辑0：-6V—2V）这里的电平指AB两线间的电压差。RS485是一种串口接口标准，为了长距离传输采用差分方式传输，传输的是差分信号，即通过AB两根线的电压差作为电平信号。差分信号能有效地抵御外界因素的干扰，因为干扰对两根线影响是一样的，两根线的电压差不变，信号传递也就不会受干扰。与TTL、RS232只能一对一连接不同，RS-485在总线上是允许连接多达128个收发器。![](D:\电脑文件\公众号知识库\电工_教育_学习\TTL_RS232_RS485电平标准_images\img_002_5b9b55f67131.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TTL_RS232_RS485电平标准_images\img_003_e119ccb9e5f3.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\TTL_RS232_RS485电平标准_images\img_004_4700b023e565.jpg)
 
 ## 
 

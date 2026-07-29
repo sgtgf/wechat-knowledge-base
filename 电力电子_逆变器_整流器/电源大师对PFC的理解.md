@@ -16,7 +16,7 @@
 
 **图1**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgbBKbZ5XtbliatJYCCZabicpibDCSp0lHYTqlSGDLoNax6lOt14OqAxO47Sz6biaPwtibYuAyCtVcgwBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_002_950145dcacb1.png)
 
 **具有感性负载中供电线路中电压和电流的波形**
 
@@ -30,7 +30,7 @@
 
 **图2**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfBq8dvoQkE2mhDCI5icZrv3W7MTty8jDVTmG5bZYdHd1NBgLic8Yss0gkibsdCykqMaaZWsOzKeVxOg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_003_76e26665d519.png)
 
 自从用电器具从过去的感性负载（早期的电视机、收音机等的电源均采用电源变压器的感性器件）变成带整流及滤波电容器的容性负载后，其功率因素补偿的含义不仅是供电的电压和电流不同相位的问题，更为严重的是要解决因供电电流呈强脉冲状态而引起的电磁干扰（EMI）和电磁兼容（EMC）问题。
 
@@ -42,7 +42,7 @@
 
 **图3**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfBq8dvoQkE2mhDCI5icZrv36jFX1SEzBzgkXZkTD8mib6OXZLicjBdia82wwd7ITrEd4P5nusKaWzgrA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_004_2ee108816c40.png)
 
 于以上原因，要求用电功率大于85W以上（有的资料显示大于75W）的容性负载用电器具，必须增加校正其负载特性的校正电路，使其负载特性接近于阻性（电压和电流波形同相且波形相近）。这就是现代的功率因数校正（PFC）电路。  
 
@@ -52,7 +52,7 @@
 
 下面的图4是不用滤波电容的半波整流电路，图5是用了大容量滤波电容的半波整流电路。我们根据这两个电路来分析两电路中电流的波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgbBKbZ5XtbliatJYCCZabicpn4NDIlNwKKvyNtKPd35jJT4iaxMzndiaUvSN9nuj0ic5KXgibLhGXHBgibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_005_35ef704c823a.png)
 
 图4A中D是整流管，R是负载。图4B是该电路接入交流电时电路中电压、电流波形图
 
@@ -62,7 +62,7 @@
 
 结论：在无滤波电容的整流电路中，供电电路的电压和电流同相，二极管导通角为180°，对于供电线路来说，该电路呈现纯阻性的负载特性。
 
-**图5**![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfBq8dvoQkE2mhDCI5icZrv3TLvlG5QvAwJJZCIlib2vWTsOZRibSJNS7Ao7upvf8uPOiamG6PAK9ej1Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+**图5**![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_006_7f4b3477b8b4.png)
 
 图5A中D是整流管，R是负载，C是滤波电容。图5B是该电路接入交流电时电路中电压、电流波形图。
 
@@ -86,7 +86,7 @@
 
 **A(左) B（右）图6**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfBq8dvoQkE2mhDCI5icZrv3DSNARGTaHpPKcejogec2HTvxduZWx7I9pHkUYX0RObQXfCEcVSv3HQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_007_96b38bf15382.png)
 
 为了抑止电流波形的畸变及提高功率因数，现代的功率较大（大于85W）具有开关电源（容性负载）的用电器具，必须采用PFC措施，PFC有；有源PFC和无源PFC两种方式。
 
@@ -94,7 +94,7 @@
 
 **图7**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgbBKbZ5XtbliatJYCCZabicpXiaEicPwaibPRkE6OIe7st2GQibA6yJsbr9iaHiaAuXo5xHEC4Bt7rQWfaVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_008_adf5386282b8.png)
 
 此电路虽然简单，可以在前期设计的无PFC功能的设备上，简单的增加一个合适的电感（适当的选取L和C的值），从而达到具有PFC的作用，但是这种简单的、低成本的无源PFC输出纹波较大，滤波电容两端的直流电压也较低，电流畸变的校正及功率因数补偿的能力都很差，而且L的绕制及铁芯的质量控制不好，会对图像及伴音产生严重的干扰，只能是对于前期无PFC设备使之能进入市场的临时措施。
 
@@ -110,13 +110,13 @@
 
 **图8**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgbBKbZ5XtbliatJYCCZabicpMfuJXaaYcSZXB1cuC6IyyooM0fqx0Ld4MibyAX3TwfbLwLtPicibk9Yow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_009_a2d9ae92b85c.png)
 
 斩波器部分（PFC开关电源）
 
 整流二极管整流以后不加滤波电容器，把未经滤波的脉动正半周电压作为斩波器的供电源，由于斩波器的一连串的做“开关”工作脉动的正电压被“斩”成图9的电流波形，其波形的特点是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/BY66ecdSEWuqU31GlrndmVssibXaqfWWs58ZfYrASfG2wsnSSv8UfqL1nuIecPgjRo1UpqfE4kleUpXaibcJmURg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_010_54251e657af7.png)
 
 1、电流波形是断续的，其包络线和电压波形相同，并且包络线和电压波形相位同相。
 
@@ -134,7 +134,7 @@
 
 **图9**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfBq8dvoQkE2mhDCI5icZrv3KBc3iblYNIibWCbyZvsWE4yfZbQNpbl4qQ8l8D8ZFRJcyOfNiaMesT7Dw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_011_853f0c336994.png)
 
 目前PFC开关电源部分，起到开关作用的斩波管（K）有两种工作方式：  
 
@@ -144,13 +144,13 @@
 
 **图10**
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfBq8dvoQkE2mhDCI5icZrv3J8j7Qib2M2Ct7FaiaNeoR5YnQJIC77OkCrSDmKjKM7Z0qIRbU31tzFFg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)****
+****![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_012_905c94844b1d.png)****
 
 2、 不连续导通模式（DCM）：斩波开关管的工作频率随被斩波电压的大小变化（每一个开关周期内“开”“关”时间相等。如图11：T1和T2时间不同，也反映随着电压幅度的变化其斩波频率也相应变化。被斩波电压为“零”开关停止（振荡停止），所以称为不连续导通模式（DCM），即有输入电压斩波管工作，无输入电压斩波管不工作。他一般应用在250W以下的小功率设备上。
 
 **图11**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgbBKbZ5XtbliatJYCCZabicpUf50YXVgICBaqM8UbM4jM4Zrjne0lCWhEWJOAjCFUxg1tQGzMMf6dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_013_6ddd93cfbfc8.png)
 
 （3）临界导通模式（CRM）或过渡模式（TCM）：工作介于CCM和DCM之间，工作更接近DCM模式。在上一个导通周期结束后，下一个导通周期之前，电感电流将衰减为零，而且频率随着线路电压和负载的变化而变化。  
 
@@ -160,9 +160,9 @@
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_014_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_015_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_016_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_017_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_018_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_019_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_020_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_021_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_022_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_023_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_024_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_025_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_026_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_027_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_028_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\电源大师对PFC的理解_images\img_029_3c93e54afedf.gif)
 
 ## 
 

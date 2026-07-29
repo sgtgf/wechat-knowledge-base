@@ -10,13 +10,13 @@
 
 文章中，为了进一步提高配准的收敛速度和精确度，避免陷入局部极值，在新的配准算法的实现中引入由粗到细的多分辨率策略。在Checkboard测试图像、自然图像和医学图像上的实验结果表明，提出的算法较经典的Active Demons算法收敛速度更快，配准精度平均提高了54.28%，接近最新的TV-L1光流场图像配准算法的配准精度，解决了Active Demons算法存在的问题。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeWibAkWpVUibqCWJSIY3lO4qiapyV5rTkAXfsXicictSw7ZfxqXOGWlG3sLA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_000_275343c283d3.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUedFBIwrzuicEiaurxFFVRCWPCHAe0xfk2oJDvgJBJnx0eMRN1PFh8icgOA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_001_258444ec1743.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUebxpOj4Kv4libPC67xRH1D3DeAhEX8f9Fq86en4pcTjL12EHqMga4eicg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_002_f75975613093.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeg4X7mddP1WJXAybcib9V5yW55icE5WCGlJaB0c1kTmfuq0RE1Fha3YRA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_003_7b230ab31384.png)
 
 引用格式
 
@@ -24,31 +24,31 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeoLDdlrcdQibjF5aCY9ia5AIXn0DBNkAOzAxztguAvIxyrTXQib2NX8qWg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_004_f84b22ea0109.jpg)
 
 薛鹏 山东大学(威海) 硕士研究生.2015 年获得哈尔滨工程大学工学学士学位. 主要研究方向为医学图像处理.
 
 E-mail: xuepeng2016@126.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeE9ib6NibiaECgricMibyMIuSZT3icMjnl9Cc9HibJ0jRLvJXOIIrggibL9EkEA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_005_baea76c0b3ed.jpg)
 
 杨佩 山东大学(威海) 硕士研究生.2008 年获得山东大学(威海) 学士学位.主要研究方向为医学图像处理.
 
 E-mail: yangpei301@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeFsUicc8rJy6icYN15w2J7qojeZA7cKelicljn3ZpELWY5z8VoPXtNNiaKw/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_006_b723ae4b42d3.jpg)
 
 曹祝楼 山东大学(威海) 数学与统计学院讲师. 2015 年获得山东大学(威海) 博士学位. 主要研究方向为图像处理.
 
 E-mail: zlouc@sdu.edu.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUezDObibOmva6ZjT7YPN1J1PABEXPMoibqCW70qa00kjuAS2ST3VRgTGeA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_007_070636e33ced.jpg)
 
 贾大宇 山东大学(威海) 硕士研究生,2013 年获得哈尔滨工业大学学士学位.主要研究方向医学图像处理.
 
 E-mail: dayu\_jia1990@126.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeJsDphhe13qJic6lppPMlYe1zIcjVllrM7Y9o6ia0a3btKiaLUU32dC8Vw/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_008_7c06d63cecb1.jpg)
 
 董恩清 山东大学(威海) 教授. 2002 年于西安交通大学获得信息与通信工程专业博士学位. 主要研究方向包括无线通信技术, 无线传感器网络, 医学图像处理.本文通信作者.
 
@@ -56,8 +56,8 @@ E-mail: enqdong@sdu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUebSLGz1hpP6WibDPLMAd2MwpBdpUrjvRkOibPb8ZschhtG07FM3Jdqe6A/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_009_fc87617cc136.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUenP4F0L8F21rwPWBmtJWpkLXXqoVibK77IPHa5KyvibeQTTic3wfR9MAFg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_010_3e7d3dd74769.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeiauOvP7NPYroWvlDiajVPfRt9jHSLNnVCa1HVgfTfZhkN3bxnxxEOqdA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于平衡系数的Active_Demons非刚性配准算法_images\img_011_0b2a907a25e8.jpg)

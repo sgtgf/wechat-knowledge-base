@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ol024ghUA9FALM0O\_3cK1w](https://mp.weixin.qq.com/s/ol024ghUA9FALM0O_3cK1w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgM2fugkUAQ4Tr6k15VX0SeEqxvXrFzzCJGK3pyRMtmC2R28ictzpwzMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_000_f0caa9b23db4.png)
 
 图源：网络）
 
@@ -11,7 +11,7 @@
 
 近日，一个巨大的黑色圆环悄然出现在大连金石滩上空，它形态规整，在空中缓慢移动，一时间引发了众多市民的驻足拍摄。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzg70skJcwXXksdV0arlwx9zGN8d8mUVDCwJs7UjtViaoFmicEL9oUWTiaZQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_001_472292c4dca1.gif)
 
 图源：xhs
 
@@ -19,19 +19,19 @@
 
 在此之前，还有人拍到这样的：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgyEiaxpzsx39wbp2cAbbALX92ZR6UBM6aOUJQ7VHbGVOkDLBXmNzlUqw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_002_3ff6870d37cd.gif)
 
 图源：xhs
 
 这样的：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgXOE4uXfHtIhbfCxBCGP8xRKbmq2joPEdux5eVypzicohgD0iaB61MtbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_003_350c7ce59ca4.png)
 
 图源：xhs
 
 各种各样的，每年都有：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgfSwchtXgObgo8piaK0AA5JvabibAtXPBTOqrtCscBZFBZj73LLJWHmtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_004_be1ca5f4d710.png)
 
 图源：xhs
 
@@ -45,7 +45,7 @@
 
 下图是老外做的一个专门产生巨型黑色烟圈的喷火器，在 2005 年燃烧人艺术节，内华达州黑岩沙漠进行表演：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgibfq1leibVg58wRqZjeNnHC1G5t2YsTYgDK2ib05UhXYEn7376j4J4S3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_005_64742abb7d39.png)
 
 图源：loupiote
 
@@ -53,7 +53,7 @@
 
 这种卷曲运动持续进行，最终形成一个自我闭合的、像甜甜圈一样的环状结构。环内部的流体不断地从内向外翻滚循环。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgbZn30L3DWXO94SKKZwAByFHwvdlCRItMtwiclRCM9XsIQlHTtcgsr7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_006_248f813a121d.png)
 
 图源：loupiote
 
@@ -63,7 +63,7 @@
 
 烟圈的颜色取决于构成它的颗粒物。在特效表演中，所使用的燃料（通常是柴油或特定烟火药剂）在设备中被瞬间点燃并喷射。这个过程属于“不完全燃烧”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzg9czMUdhaeUJSVdtbCibqjppxNq3dUe7fP4hReYiaCxIJOeDBZnCiacDpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_007_8e174c5525ad.png)
 
 图源：sciencelabhub
 
@@ -75,7 +75,7 @@
 
 涡环一旦形成，其内部的粒子会以一种有序的方式旋转运动。这种旋转赋予了它角动量，使其具有了类似陀螺的稳定性。一个旋转的陀螺很难被推倒，同样，一个旋转的涡环结构也不容易被周围的静止空气轻易干扰或破坏。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzg9micsWyWaKQvAjGFaic20cZaBXPdzOQdpts1zHJjzMXOQ0wEWjgcrWibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_008_89fd7474edba.png)
 
 图源：flowvisaulization
 
@@ -85,7 +85,7 @@
 
 当然，要形成烟圈没那么简单，首先最好是瞬时脉冲式喷射，也就说必须在极短时间内喷射出大量气体，形成一股强有力的气流团。缓慢释放的气体只会形成一缕普通的烟。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgGdlgDQC6BlH4ESHibfGhArSk65Q4XgiaSEEnnKbJicrTUnbpfdkmiaOwjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_009_17eb7160867a.png)
 
 图源：YouTube
 
@@ -95,11 +95,11 @@
 
 黑烟圈并不罕见，世界各地都有这样的报道，实在太多了，随便挑一些给大家看吧。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgMOvV42TqbiczlF15w8ewWnZC7z6lqgyC7I0aia9LeGhHJHlEsazMfmmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_010_26bec10fccce.png)
 
 图源：unilad
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgfsiaQKDRnklbPFQAltDGwxYepO8Mmlx2dbKGKpkdibh9snpmlOBCX6gQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_011_593c98b4ac29.png)
 
 图源：Reddit
 
@@ -107,7 +107,7 @@
 
 另外，一些特定的火山，如意大利的埃特纳火山，以其能“吞云吐雾”般地喷出巨大的天然蒸汽涡环而闻名。这些涡环由火山内部通道的特定形状和气体的脉冲式喷发共同造就。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DpW9vNgx5AnpotpeibtIOBzgPCMSNKFgRR1cHx4vUL7Ria7E6uKLbcuQ8m8FRGnkE8Wj0Z9p5DCm9iaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_012_a183e789fdf7.png)
 
 图源：onlyias
 
@@ -141,7 +141,7 @@ Gharib, M., Rambod, E., & Shariff, K. (1998). A universal time scale for vortex 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaAcvmticp2DoAkzpRuyh0gQrkfXfNN0Pg71J0MpeuqxQOiaI6FuX5XT1SfDhXs6cbebZ5Y9dYHiasO1Lm6yvPyUNw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\大连金石滩_空中飘了这玩意_是啥_UFO__images\img_013_ab113971f9fb.png)
 
   
 

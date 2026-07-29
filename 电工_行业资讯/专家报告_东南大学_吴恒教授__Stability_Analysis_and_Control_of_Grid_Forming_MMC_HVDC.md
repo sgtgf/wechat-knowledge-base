@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/349fdFZzgnYRB24qd-EHjA](https://mp.weixin.qq.com/s/349fdFZzgnYRB24qd-EHjA)
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibKTCfzkXytflDr9pUsLffkj6ESx8d3WQcdEXdFP6TQsVhED9pBfwQSuqEenp2at7O2ibRzOIicMx8Wf0XIJDrGNJ250MKl9IWKtfia8PjeQSaQ/640?wx_fmt=jpeg#imgIndex=0)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651294719&idx=1&sn=ee020b0cd841506ac70bd2a456ea26f8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_000_da40d5620f74.jpg)](https://mp.weixin.qq.com/s?__biz=MzA4MjY0NjcyOQ==&mid=2651294719&idx=1&sn=ee020b0cd841506ac70bd2a456ea26f8&scene=21#wechat_redirect)
 
   
 
@@ -33,63 +33,61 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNdZ7jMQeKNsaeiajcFAIAkp9U8mWM9l5GI9TWXV8gVhyLTGS5XYvVPUfEAJvSGX6ia6RNYtOQG1miaFNy8LNcJ7aibpHPL9clR3T20/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_001_4db08c1c46cd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNe2SgR0yhhoUlfJpJias8dcicI4nTFLGj0ibJrdV6Btc7c42QXrUlicqGeYIXic1aVZZO6QmYPgmicJODT5ae7MRziaa7HBR5APkITUNQ/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_002_66d2fe5de6af.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNcQNSCVzemt9SWT6kIXHsNkjVBiajvYluPibjQOG4RkBibEaZibmtj0OUsBO2SDwPZUictYukadnfUkfTD2eiabjTcS89EJM2jtQRHQ4/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_003_99ac5aa9e200.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNfce2fPZVwflHUdYuqxib2uSialoFaXZbwNxHZibSYJ9Wia0EM8mscXOPo9SWuia2n5BMr0YFS3COHDW6xDecYbfl3XzqVT7cj6d6fI/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_004_c3128209ee0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNcRM8HhpTLmPl5MGoiaXh8wmusElm4xSrhrAdibf9yCHqlPFaRjMoQhFAFdia9jMnNOmMbZKcLbTlXAhrw6SeeibH0C0LCXAUMNKw4/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_005_89e120d58ec5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNes1u86AJQhsOQic10bUhK2IKtgZTeDecpAExKygwCl0zN5sgtz2erKoL3iclJHdc93Rzen6GgLXjWZWnA2JUeNqxQTHPgW2loso/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_006_431ef2005fa0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNfbCUu2JSaLNO9oZuQOp1Ym1rUZAy0EyMooJGe95dm3zhF0pjU03fBbGSXQIOdv061ZPG9de3ibHzLqY7VoKFepsuabYSFqBRsk/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_007_00a9a12aef6c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNfcDzLBl1g4AN2CVmxtWItpsxoZ1ghDOpAZIMaTYGCsGYucGujCUPPY7bfZm1Z2svjj4ibh85rwJ5EoJvwziaYZiaRGuU8uvcUGc4/640?wx_fmt=png&from=appmsg#imgIndex=7)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_008_535d4f156dbf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNdfBGh5kDZLMj6kfklsWqXbianH74ddEuuZAsknsJ4oRqkKZP2nZm5tpXv2Nc0fgDpdJkakyqk4fj5HB5TryLaMfCwJUgbOIa4E/640?wx_fmt=png&from=appmsg#imgIndex=8)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_009_6239aedded33.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNeqzkL5AVX2bOv40IeuzZv91fXCibgHNUerVOuM96tov9ricnXoANAhWXHfvJ3FVLxm1P9wmfchKuAPmq4CS6l4hV1Jw1TF34CCA/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_010_ec740c3146df.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNcq8gRSmCrVBCvcQ8ubPzGTMLqu8BEgh61ZBib5y4neyxHnFP4RoFicicev2ergBmaAw2F5FozHic3wXLFjp3vPTvQzxDjz29fjRcw/640?wx_fmt=png&from=appmsg#imgIndex=10)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_011_e467acb7b4e7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNdQGx4ibjoibdtSGPprcESrRChvkc8lXKqnpPJnJib5HhND7w2UGhRtIy9iacIXJKSR0ZHxyibpPBFFjhib4Wq0bJe7cxrUDcKyOLqrw/640?wx_fmt=png&from=appmsg#imgIndex=11)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_012_73b6dea88b79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNexssEgNiaWadic6xumFRPibaLnGaI7CM0gnAESmdoZAAH8fyyOjGBWEufTuVKicUOJoNY583RSiaNywt2xl9LYTQrE8mSS9iadCN1a0/640?wx_fmt=png&from=appmsg#imgIndex=12)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_013_33561759fede.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNeict5icLm9zazG4Gn8cREDt0mlbeE656cEvauFkOJibNEhW1JhbEXeZnhm9cmxWNXngYk3QnvvPoib1rJbX8HibDSRT2vs6tHut6ZI/640?wx_fmt=png&from=appmsg#imgIndex=13)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_014_67c7c01d26f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNdjTchYzAkQZ5RptetmQeT1vXpZGNOuZNomL3vEzAv2FnagpU58LKcBk85Yaw1JE1evDBoODVfIQcFQIjWFbR50xlCHNXPicozM/640?wx_fmt=png&from=appmsg#imgIndex=14)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_015_b71d89097620.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNeGIwFvOI0fPuibXfqRnoVR14YfIuy7LzibwytrBOC24ISqG0k1COGL4Tu4lpkNy8j1vnY8bueP4Bogh1ycX9fwwicX6KajicP1IvA/640?wx_fmt=png&from=appmsg#imgIndex=15)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_016_88c6e15f3d1e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNerBOZqicDfhLD7mibm6SHY1cSUHGgs86LGMzJ6MTX3B4GNp7aYdq9yJQQzpKlw1JGgwzWD0xRpYnNBRxMnTvedlLNajecNkbWeU/640?wx_fmt=png&from=appmsg#imgIndex=16)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_017_42c6d5f15295.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNc2G7cl73V8czQEwgSuF16F5ib2DMmjpGd2at00WJu0UMaIym9Br1TvOibjFq8nq4Arw6Pwy6g62B72ONwTXGjus5WDC5ZFzDASw/640?wx_fmt=png&from=appmsg#imgIndex=17)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_018_4955d92a028d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNfMUEBz8Tte7HbEpT1dxiaabrnzfhLOnY7ibFWHF5GDcrlO8lQibTCcDq6vO38tbgpGyMpp1fiabLOrz1epQmAdMiaEqnly8Z71fmnw/640?wx_fmt=png&from=appmsg#imgIndex=18)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_019_3e5015e593a3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNffzNsFdyred8XqNrPCvN7YTicmorIgRKuE21hYtoaeibo3yUXRtzCZaHfJeic1vCpbKtEqicQsUwl6Hxyb3M6JY9zqSnjdaRjLf7c/640?wx_fmt=png&from=appmsg#imgIndex=19)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_020_831227c37af2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNfYvzS4lhiaa2V43ww1vvWfMNkmekkqsmG30ajCqae66J5SbicEDRiaCgU3Oiao5iaDUtBZ5WiaN7z9tLnjlUiccR3O5Q6a6DxwZE2Af4/640?wx_fmt=png&from=appmsg#imgIndex=20)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_021_d421a258dced.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNcvbujrRcpILSzrTmFTiaCOicx79icMb3ZlAqP4rGL06BxkSiaLvkoo9aiblSLDmXnoOXrRfRmpzDibjico21ibibicuW6dSsEMyriaMx0YsA/640?wx_fmt=png&from=appmsg#imgIndex=21)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_022_399793d02d26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNfia1XjqaxoEu05FUoLKdPnYU2uVtNvBAzlC7Et6PD78K1xrhja52rZX9BoQyzTUdnqzEPLD53bQTa5DsVmQx1jG85eIrgL8FxY/640?wx_fmt=png&from=appmsg#imgIndex=22)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_023_5bac10e440e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNf5A1fTicn9HRjB9CBMuSoZBkeskeOXPfNHIDfiaE8Z12wbZibfVxFian3icH9vTiaadaTiahmS2OHAvIkQ1P8JsRCbMtg2NqKgtcQM5M/640?wx_fmt=png&from=appmsg#imgIndex=23)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_024_9665a1ce2734.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNeUBeehKnSmQ3hRXgYk0X8UqJHsMjwccgzogXKEEreJMgDmvbicfe67ziceibtGNHA17sjug54fFwwnOFiaj5ZWLsVyF1jshPQbEew/640?wx_fmt=png&from=appmsg#imgIndex=24)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_025_fea4602256ef.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNeKKoMcplXWIy13y82iarJZPYGrxxd6KGmkF1vAjOaAxEDezJLL9ogWbvDlrP2Sng698MPxeU3BE7yq7cNhxnpvhj1UhvIVDJDU/640?wx_fmt=png&from=appmsg#imgIndex=25)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_026_6400c57c349e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNe3aIza1vz31tosBOeEib0KyiaAOicVqiaX1DCloLBibNAHTDvmgfg1jRcwp8vxz4DI4ibpzACMfxQIDP3q2MFo7CsOwWoReib00lddTY/640?wx_fmt=png&from=appmsg#imgIndex=26)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_027_abde4a035dca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WNG6TQDAicNcJZAb9roiciaFaicDC4hkPiatAlJj0ruXBSbE1dkNq0f9BYacYxFvHyBt5nYiaic8w44l0sDByFjROlwluUDJ68gKiajCd7N5T0gf64I/640?wx_fmt=png&from=appmsg#imgIndex=27)
-
-  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_028_e2b903ef772e.png)
 
   
 
@@ -123,15 +121,17 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/WLpC4YuhDC4KIIAtuSib0EO7n7JPmXyqHWwpZJ818NmoLqAAicJCAjIibAmVdQFuavFIaaYMBbsBIia5gNBmzbpQbw/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=22)
+  
+
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_029_1778dfb067bb.gif)
 
 **吴恒教授简介**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/WLpC4YuhDC4KIIAtuSib0EO7n7JPmXyqHWwpZJ818NmoLqAAicJCAjIibAmVdQFuavFIaaYMBbsBIia5gNBmzbpQbw/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=23)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_030_a39db517adc1.gif)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/WNG6TQDAicNcEBmn801EiaeBcMBZazyxj9VwCgHe0yXgKD7Ap7fvPthNfT8dTFbq3DpTWZNOxyqMTicqjbym131RcRoAicicO1ib3xbOwwLBaIVQ0/640?wx_fmt=png&from=appmsg#imgIndex=30)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_031_5e38687ce377.png)
 
 吴恒，东南大学青年首席教授，国家高层次青年人才；发表论文总引用量6800余次，5篇一作代表性论文总被引2200余次；获教育部自然科学奖一等奖；入选斯坦福大学全球前2%顶尖科学家榜单；担任“HVDC与FACTS的频域建模与动态分析”IEEE工作组主席；加拿大、瑞典、以色列国家科学基金评审专家；IEEE Transactions on Power Electronics副编辑 (Associate Editor)。吴博士近期的研究聚焦于构网型变流器的建模、控制与稳定性分析，担任两个聚焦构网型变流器的Cigre工作组JWG B4/C4.93、WG B4.101小组负责人（subgroup leader）；参与了英国电网、丹麦电网、芬兰电网构网型变流器标准起草或讨论。  
 
@@ -139,7 +139,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bEmCWvoibMP4IeG2FuyZ9Z1bSWhkn5S3hjKKoicLfvfoa0shvq1O646PoeSsZrhkhmg2TbXMDb0aWT6RuPArh8sw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&randomid=br7bnwzc&tp=webp#imgIndex=2)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\专家报告_东南大学_吴恒教授__Stability_Analysis_and_Control_of_Grid_Forming_MMC_HVDC_images\img_032_7466e235f0af.jpg)
 
 推荐阅读：
 

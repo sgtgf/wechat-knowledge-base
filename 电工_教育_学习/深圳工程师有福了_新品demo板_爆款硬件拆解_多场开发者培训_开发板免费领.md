@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ucaGVcV6BeVFWZ7XrB2aBg](https://mp.weixin.qq.com/s/ucaGVcV6BeVFWZ7XrB2aBg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaXKya4cpzvyG5ib3ZmNrEMU1PM6Jr9E9Iicr0icRMHauO2KlleLDl2YdiaGVINdD7XGSW3r07icYA5RRQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_000_078d40e89e67.jpg)
 
   
 
@@ -22,7 +22,7 @@
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqwh47sicsF6o5CGaK89XSSBfvjV2MlGm6XlKlYUxPGqlicU2FeHY2GA5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_001_e2a38c58322a.png)
 
   
 
@@ -32,7 +32,7 @@
 
 **elexcon**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqMSguwOgYPNHFdAGVKnCndeo7I36ECfGBiacjfAcL7YB6ZMvuhMFC8mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_002_55009ef7d4c3.png)
 
 elexcon
 
@@ -44,7 +44,7 @@ elexcon
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqy7NF6qnbNQPvLTlg5TYwc5EcTzoJ9tLiaGf5DKASHcicn5pJZd1ibV5lA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_003_68c7c3448c8e.png)
 
 **通关手册** 
 
@@ -58,11 +58,11 @@ elexcon
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqqER9165wX4BWnKzxEErx5qpAvVxpa0U2R5TtsenwdSTXU6NDS09TbQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_004_1650e031c9af.jpg)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqo7uiaf76uX3RtkpuIb3yINbmcqc628Nia8M4MaFtiaAruYU4anPYtMV6w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_005_93ae7f1e2e97.jpg)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqVD3YFSwotIOicRxqDiczibw4E6cQ1Ao54MGUVBnhRZwmw7O8dfRdtPU9w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_006_741968afd03a.jpg)
 
   
 
@@ -70,11 +70,11 @@ elexcon
 
 **「来拆吧」爆款硬件硬核拆解**
 
-![](https://mmecoa.qpic.cn/mmecoa_svg/WmwqjsSBsZKJ7ziac7KKGZEvxm0813LuO48XAP9icNQ1fpfZCPv90I3ruiafTxycqiaFgnw92Nd5rjKl226icQsibUcC6azCia5oIZI/640?wx_fmt=svg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_007_d7e46b3bc6a6.svg)
 
  **X**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqzlz6bMKM6sHJicibc2msj2Nqiapa05q5Ly9vj6wFy8cUB6BFruC0kQ1Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_008_fa7431f8a913.png)
 
   
 
@@ -86,7 +86,7 @@ elexcon
 
 elexcon深度联动电子行业多领域垂直工程师及开发者社群，为开发者深度链接交流搭建起桥梁。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaXKya4cpzvyG5ib3ZmNrEMUVr0nC6FUSaEKMvyHic9l4agAL5XVtky85hrCHcXcAQiao7TO7f35FTnA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_009_639514e91397.jpg)
 
   
 
@@ -96,7 +96,7 @@ elexcon深度联动电子行业多领域垂直工程师及开发者社群，为�
 
 **elexcon**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqMSguwOgYPNHFdAGVKnCndeo7I36ECfGBiacjfAcL7YB6ZMvuhMFC8mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_010_55009ef7d4c3.png)
 
 elexcon
 
@@ -134,15 +134,15 @@ KAIFA GALA专区现场开展多场次技术论坛，涵盖**嵌入式AI、边缘
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqtbabUxL6evBZa5Hfl5LlGr3fqicciaFmXbuFtMM8vFBA5zDb3nW2lOnQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_011_53d03150e744.jpg)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqIUHedkmg0ucmGZBz3nSKobfQiaZ1h4kA7eOe4pZ71kkNSSYYP437gAQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_012_43c5e49c61db.jpg)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqVpL2LvicUe7PET9QTnwEhDA2AQDzgnXFzOsEf6HIZXHtIoDXXrOnB4g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_013_cbba85f04b4d.jpg)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqZdibw0hEhGmMEbcTSsl6yTW1n83doxmickM1W5iaWFfsdSlTZkEBRKiaQg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_014_e177493a82b9.jpg)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqEuM1d1k56ywV28Lrsyw2kcTFTQsdlMsLzicof4TibVyicNGZA0QFAWr4w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_015_73fa170758d4.jpg)
 
   
 
@@ -150,11 +150,11 @@ KAIFA GALA专区现场开展多场次技术论坛，涵盖**嵌入式AI、边缘
 
 **脑力+体力游戏实时battle** 
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqbdv5D6dqQlqNwpFPQefCdRhEtgDCquFN5crsF7mic06UznVZoEaJJeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_016_f7eebd65ad24.png)
 
  **X**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqzlz6bMKM6sHJicibc2msj2Nqiapa05q5Ly9vj6wFy8cUB6BFruC0kQ1Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_017_fa7431f8a913.png)
 
   
 
@@ -162,7 +162,7 @@ KAIFA GALA专区现场开展多场次技术论坛，涵盖**嵌入式AI、边缘
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqVdVicwicXJ8NDKanre0yhqFPqkcBRpwAXiacZpO3GibVXu6vJx0lpECp6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_018_6549dad17383.png)
 
   
 
@@ -174,7 +174,7 @@ KAIFA GALA专区现场开展多场次技术论坛，涵盖**嵌入式AI、边缘
 
 **elexcon**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqMSguwOgYPNHFdAGVKnCndeo7I36ECfGBiacjfAcL7YB6ZMvuhMFC8mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_019_55009ef7d4c3.png)
 
 elexcon
 
@@ -194,27 +194,27 @@ elexcon2025 深圳国际电子展（8.26-28）现已开放专业观众注册通�
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqrFa9WZCiaXYGQo0XkCEFqfuO75ktjV9mjKxpft6kfr6GANX9oL61mWA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_020_de80956f2bd8.jpg)
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAq5JfRZfwdo1SjYBh2rQU6onMNdoVbwXMvooOPFhsLYibpiaYice14FsibVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_021_d38755b6c470.png)
 
 **免费领瑞萨开发板 4选1**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqEvlAhyib4x5Xehv0XdLJX6FQib83yib0oG6zHu5uUI0U0ucPfEn2YeVtg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_022_5e25aad2ba01.jpg)
 
 RA-Eco-RA0E1-32PIN-V1.0是一款基于48 MHz Arm® Cortex®-M23 内核架构的核心板，主控芯片为R7FA0E1073CFJ。RA0E1 产品组是 RA0 系列中的入门级简易 MCU，具有出色的成本效益和超低功耗。 它使用 Arm® Cortex®-M23 内核，内置高达 64kB 的闪存，具有 1.6V 到 5.5V 的宽电源电压范围，可提供高达 32MHz 的 CPU 性能。 RA0 系列非常适合成本敏感型应用，如低功耗、低成本的消费电子产品、小家电系统控制、工业系统控制和楼宇自动化。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqoNXE8eMYbr5XuXGvxVMDduUkECtu6Of324XciasUiaMvKtKMh2CzL70Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_023_056918379b2c.jpg)
 
 RA-Eco-RA2E1-48PIN-V1.0是一款基于48 MHz Arm® Cortex®-M23 内核架构的核心板，主控芯片为R7FA2E1A72DFL。RA2E1 产品群是 RA 系列的入门级单芯片微控制器，基于48MHz Arm® Cortex®-M23 内核，具有高达 128kB 的代码闪存以及 16kB 的 SRAM 。 这款产品采用优化的制程和瑞萨电子的低功耗工艺技术，是业界一流水平的超低功耗微控制器。 RA2E1 产品支持 1.6V 至 5.5V 的宽工作电压范围和多种封装，如 LQFP、QFN、LGA、BGA 和 WLCSP。 RA2E1 可与 RA2L1 产品群引脚和外围设备兼容，特别适用于电池供电应用以及空间受限应用，以及其他需要高性能和低功耗的系统。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAq1K0y3KDyyHUIobroFhHjfz2UibLzsfYAHiaPNkPDPCtG751K4fdv9NEw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_024_129f20036eb8.jpg)
 
 RA-Eco-RA4E2-64PIN-V1.0是一款基于100MHz Arm® Cortex®-M33内核架构的核心板，主控芯片为R7FA4E2B93CFM。RA4E2组是RA4系列中最新的入门级微控制器，基于带有TrustZone的100MHz Arm® Cortex®-M33内核。RA4E2 MCU提供了高性能和优化的外设功能以及最小的封装选项，包括节省空间的36引脚BGA和32引脚QFN封装。这些都满足了对成本敏感和空间受限的应用的需要。由于RA4E2具有均衡的性能、先进的外设功能和可扩展性，它为更广泛的RA系列提供了一个入门点。
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqx9zFezicnvTNib0wSwWrjf19SI1pobiazZq9WibePVwpH77iaFfKkSnFJKw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_025_7358583fd09a.jpg)
 
 RA-Eco-RA6E2-64PIN-V1.0是一款基于200MHz Arm® Cortex®-M33内核架构的核心板，主控芯片为R7FA6E2BB3CFM。RA6E2组是RA6系列中最新的入门级微控制器，基于带有TrustZone®的200MHz Arm® Cortex®-M33内核。RA6E2 MCU作为入门级微控制器，在追求成本优化的同时提供了最佳的性能。与RA4E2组的引脚和外设兼容，使其成为要求更高性能、小尺寸和低引脚数的应用的理想选择。
 
@@ -236,7 +236,7 @@ RA-Eco-RA6E2-64PIN-V1.0是一款基于200MHz Arm® Cortex®-M33内核架构的�
 
 **elexcon**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqMSguwOgYPNHFdAGVKnCndeo7I36ECfGBiacjfAcL7YB6ZMvuhMFC8mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_026_55009ef7d4c3.png)
 
 elexcon
 
@@ -270,7 +270,7 @@ elexcon
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqsYXI1B5wnAsicDUF4uxia3kKTMh2vykq3qiapY7jJdKrZ9nhtLx92qvpA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_027_a8a5e1268d74.jpg)
 
   
 
@@ -298,7 +298,7 @@ elexcon
 
 **elexcon**
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_png/v06FeecIldYodgt4ggjibu4MX9FW2vDAqMSguwOgYPNHFdAGVKnCndeo7I36ECfGBiacjfAcL7YB6ZMvuhMFC8mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_028_55009ef7d4c3.png)
 
 elexcon
 
@@ -306,9 +306,9 @@ elexcon
 
   
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqC6CUhIibyOzKpaajKooFGEp0cvDrwLNrYbQuKT7UPcHxibzosIobFkUA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_029_cd2711723d1a.jpg)
 
-![](https://mmecoa.qpic.cn/sz_mmecoa_jpg/v06FeecIldYodgt4ggjibu4MX9FW2vDAqjJnupNxX7xlEiafFibjrDiawW2KcmxibCpcqyLcuic2XJUdfVUiacuqvU5iag/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\深圳工程师有福了_新品demo板_爆款硬件拆解_多场开发者培训_开发板免费领_images\img_030_0b70069f411e.jpg)
 
   
 

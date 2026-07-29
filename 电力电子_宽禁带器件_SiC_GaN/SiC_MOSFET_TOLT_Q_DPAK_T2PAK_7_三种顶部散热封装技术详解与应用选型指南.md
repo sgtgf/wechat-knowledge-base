@@ -17,7 +17,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMVDLeDjOkhX81Hc24eLQic1yhKzCpJSLiaUvyfVq32ane1Gl6ia7Z4VV9EicCticoke40OP6l50YVoTm12BJ6hCuUzS2ZialH06eTKc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_000_05ea59f7c645.png)
 
 三款封装的核心设计逻辑高度一致：将芯片的漏极散热焊盘直接裸露在封装顶部，热量从芯片传导至顶部引线框架，再经导热界面材料（TIM）直接导入散热器，完全规避了PCB 板材的热阻瓶颈；同时，三款封装均标配独立的 Kelvin 开尔文源极引脚，能精准为驱动回路提供参考地，抵消功率回路电流的干扰，最大程度兼容 SiC 器件的高频开关特性。
 
@@ -29,11 +29,11 @@
 
 TOLT（TO-Leadless Top-cooled，无引脚顶置散热封装）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPHia4L1QNzC8euP38mriaCGLlW8TXmcHPwYxYDZG6sbPCNHlvRcFgYlotxhGLdn3lQib1aUw4IFSycLtdCDvXwbYcamLnQdbgbr4/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_001_a9c92cef7089.png)
 
 TOLT封装产品拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOll7J91SzGcEX4fXnQejZAk7iae7Ocx0E7kYgtt3l2yBMtdAS75tdYjxMjOjo86g9uTA0m1rwUdmhwib3doa5hGPJ77cPy8fdDo/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_002_012b26ec2807.png)
 
 TOLT封装1200V75A产品参数表
 
@@ -59,11 +59,11 @@ TOLT 的局限性主要体现在两个方面：其一，单颗器件的连续额
 
 Q-DPAK（Quadruple DPAK，四方双列扁平封装）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicFzt9bwcibhiaBvGAYj8NXic00IP8WGdCcx4eBW1ks7PNWB0hnvezehicBichVB92ajmwcSgLrmb6mNA1YgAJiaaicBIib1QL6qwiaNos/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_003_8a1c69c294fb.png)
 
 Q-DPAK封装产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOUOBd46QQDNUqwzgPmnxNxf0ygFibQ1JacdB81RtIQNuN1wwR7x14O4YI8ecZb4VTTGfiame3cD1keOunntxiaccT4WtnbtIeDjQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_004_834252b1c00b.png)
 
 Q-DPAK封装1200V75A产品参数表
 
@@ -89,11 +89,11 @@ Q-DPAK 的局限性主要体现在两个方面：其一，该封装的体积是�
 
 T2PAK-7（7 引脚顶置散热塑化封装）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibicB05Xt3WZXRXzjiagWQia1HOTE0jcWWQlW5npS2pu7EyDX3kQAdG8iaadnL31u6rqYIZlsiclOhZSV8o30FjY0wl5elNiaibXHLU8/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_005_4d9206c50281.png)
 
 DT3PAK封装产品拓扑图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNOT8TQA3mJ5YfwvKLSI2KLiaetRIRhsyW4mLk1h34rfrLeawiaOJpjdtBg2Mx5ZYIzr8NoIEez9cJr5pBnB20iaDFxZTyknjkejc/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_006_586fc32b55ea.png)
 
 DT3PAK封装650V60A产品参数表
 
@@ -443,7 +443,7 @@ T2PAK-7 是中小功率成本敏感型场景的标准通用方案：其突出的
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPmD79kKIlqS1BEicO6d3aKENSd6ZWpibHB8u60WCpUtyeBnkunNfSj50PCUTVoG6wAlTHviaPLloAUbuVDuzPks7dbPkoBBw2W7E/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_007_aeaf26edc708.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -453,7 +453,7 @@ T2PAK-7 是中小功率成本敏感型场景的标准通用方案：其突出的
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMEu7zd4JAN0unp9SfgRvBpRTKn4cYibscF4cIRmVxVhPeDTzicVf7YkNBJPqqDu2krLznvt5RzMp9Qq3ZcSBszhI5UMAsQcialGg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_008_1c1c9375cbea.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -479,7 +479,7 @@ T2PAK-7 是中小功率成本敏感型场景的标准通用方案：其突出的
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMAXJEDvoR0dHtZo8boh5mnUHk6qd4X4RsxdsObREKjbRF8zicl3C1icCulkMzbGCNd2c00WWVbuq0xKK52FicU61ibIhogIjJuNq4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_009_afef3cd8252a.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -527,12 +527,12 @@ T2PAK-7 是中小功率成本敏感型场景的标准通用方案：其突出的
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPedLuGicRkwLsJCG4uTIETAOibO8nh11jOZiaq01LvM6H08lb2vS6KWLPFwpy8j5bLBtfBQWLLWqSxxOUtcerTCxut96P2uyvPsU/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_010_52b6d6873884.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMlOX346xohTM9ic78ra09kIWMU1uibmBphanBibgibfMgfH6ib7BFOMzdXOFicNfx6MC0nVcQWDqHRH69pWfIoP77S2zy00wic7RWUj8/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_011_767dc3f42f3f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOD1MuUWt6Cs5GHWAia28ia4X4qJbS8syuZXfq77a5fMfsTo4eynElKqcKWJNzR0bwMvkkW0rESSISL4mp2yaQsbu6jkLyppz60Y/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](SiC_MOSFET_TOLT_Q_DPAK_T2PAK_7_三种顶部散热封装技术详解与应用选型指南_images/img_012_9b796e7bc782.jpg)

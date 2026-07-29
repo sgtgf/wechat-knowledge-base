@@ -99,7 +99,7 @@
 
 # 详说
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctMoZ8MwaiasG0t2SbqV98Hgdk7ULQyH5G0Zf3ic9y4GrUALdKgo0cnGhnFAz7ic8MCTKB58zh0XxIRPbcezjJicltK6abu7D01hicI/640?wx_fmt=png&from=appmsg)
+![](什么是厄米矩阵（Hermitian）_images/img_000_f19b4b0fe2f6.png)
 
 这张图是在讲 **Hermitian matrix（厄米矩阵，自伴随矩阵）** 的基本概念、性质和意义。你可以把它理解成：
 

@@ -65,7 +65,7 @@
 
 一个真正“懂物理”的神经网络求解器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCibnaXTBE6WUdW3aW7QiaUndpk0oibr6KCcGRkOucArCBcOXcuHmb3eo1ap7uwvwkiaEW9bsGOjqe9MlNBrZsxBsyoziaq7jxrcx2U/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP_AI_理解电磁波___一种可泛化的电磁逆向设计新范式_images\img_000_90d5c1f29afa.png)
 
 电磁问题等效 
 
@@ -99,7 +99,7 @@
 
 ·强泛化能力（跨几何结构）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAOibq6nU2rgNle7E3zk3xnRaMTOvSkiahNwzKCNlic96xHtuqNvBKoIbQlF38PxLg5ts6VMWjlJXMldEiaVzhepb4v2pEnb5k0TyM/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP_AI_理解电磁波___一种可泛化的电磁逆向设计新范式_images\img_001_c25238b21392.png)
 
 多头注意力机制
 
@@ -129,7 +129,7 @@
 
 这在工程上具有非常大的意义。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsD1yoxSlWFJgp4ZJ0veIPiacuU9I6icvqK3DXjkwWP2QorZpdPFrPDtnGJxnflibbZxFTZz5S1j7TaicJFbKU7xuXfhLRS8NJKJ2yc/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP_AI_理解电磁波___一种可泛化的电磁逆向设计新范式_images\img_002_d84c9a18c85d.png)
 
 网络整体架构 
 
@@ -151,7 +151,7 @@
 
 👉 AI自动生成结构，实现显著散射抑制 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsD3GAzibklmB7vrWGia2WN0vRbKAiaVkicz0WkkYAA0P3MiaRuhBqqcFibgAOUhE6xibszx9kW13z2hDN96CJejDFMiarOKsJQWicITDux8/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP_AI_理解电磁波___一种可泛化的电磁逆向设计新范式_images\img_003_b0bc4a7b369d.png)
 
 多角度散射抑制
 
@@ -167,7 +167,7 @@
 
 👉 传统方法极难设计，AI直接给出结构解 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCzCKmM3OVTbvRtA8ExNV3X0BwxiaXsf41tycqIlcxwMhNG8ve7xXTOw6B0251EnMcicBCezkuGr6eibWEjLOGwePcbZIPldXUTibA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\IEEE_TAP_AI_理解电磁波___一种可泛化的电磁逆向设计新范式_images\img_004_a03b7579bff3.png)
 
 宽带平顶波束
 

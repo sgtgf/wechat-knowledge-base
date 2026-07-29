@@ -13,187 +13,187 @@
 
 它们专门设计用于处理高功率电信号和控制电力流动，与低功率应用中使用的小信号半导体不同，功率半导体经过优化可以处理高电压、高电流和高温环境。功率半导体的类型包括各种晶体管和二极管，这些半导体器件具有高电流和高电压特性，广泛应用于能源变换、电机控制、通信系统以及各种电子设备中‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltuNJZQ1NZtXRGyQcic19QRQeODc54nbUiaj3csGWneEXibpP0eTiaT4Qbhg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_000_9c56180b27b6.png)
 
 ‌整个电力半导体器件中变化最大的就是功率MOSFET，其中，硅基器件中SJ MOSFET器件和IGBT器件在结构和工艺技术得到了较深的发展。SJ（超结）MOSFET采用基于电荷平衡的器件结构，导通电阻明显下降，在高压应用时优势尤其突出。但是，以宽禁带半导体（碳化硅（SiC）和氮化镓（GaN））形式出现的新材料技术正在提供可改善电路设计人员选择的选择，特性更接近理想的开关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltBqPrPSG49TIaqT8pnPEK5cF9BAlUZs31R7Rncib1wAEkzWTq5icibeibFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images\img_000_dd8b28f9457f.png)
 
 **正文:**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltZrB3ls8GGiaibWZpQ02LIlKaibmLgtBJmyqucRIJtjFyLiaZeyDkeeUdbg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_002_aecec22af3d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltqYd3wuMBrKFyGiblL4OQ4hF92OjVYG4UERrZExp56x8MOffI6ckGNmg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_003_61d965472642.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltepoBLDU9VSPZ3jwxHqMqicP80at1r9V0iboXlufYngMezkfPjBybOYwg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_004_546165f24725.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltwKCYYhicltJD0RGB5cibTzLmUm5gsuEE4ZCerceWuNulw16TZctafFGQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_005_b101669f8f54.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tltkiak3HJqzFJnmPW2z8uFHY5q9ULdmvEO1icibibVaovia0JXjrP4WgQicw7A/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_006_588d88e3eee4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltLJqpVPyia85LamqBqAUaYgWBNoHWtCXficq6hBhiaicyibCPZKLIuZs6Rqg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_007_f99138b7c501.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltnVugFH0ibYVNw7vibTqr3fhrFcicmGWdNVKLzfvibXGNxePPsd0ZuHZjTQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_008_b0bf77602281.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltkWVyxeOcprEOOuL0ticbXEYGiaq5RzS4JK5dficSyxKyLNLubewdz2q5g/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_009_a4b184fc4b69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt1ov7YOlxCeEcDTNcLsOSianYobibq7uW92uxr08U2X2TfJwe0uWYGp3g/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_010_eb24bc89245d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltvzwSQU33DEZLDlLahruYF2tLG495WryibjcOXx8icxDmVATu8UKon04g/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_011_9ca0788cbd78.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltvrKK8gGbbKj9lKiaj1Jb75yycVjrvxrBMV0mmx7RJmZicgdblVTLBnaw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_012_6ba31ba13af6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltZXAzVgtKzUcCnYia87ibQxWHqRTAiaYEfo1L7zzC7EqPzw33HXpric6xiaw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_013_de5b95e817b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltXarzHWI6OvzMhp7sn1wdSZKhAbV4c7n6vSQPKhibNb7tkOXZfTyzHEg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_014_2cb21869fd6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltaZibVEQehZ3jibpA8qEHlia5urV0knRaibDf0eEBJ97qWZqGqDqzqticp2Q/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_015_04589ac05e9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt4E8vyQInDUrcQPstUMGhoeiab2H53V0eAM582rjBgdZc00orqZN4fPg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_016_1786c90f4453.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltBDsKf28lenK4Yk0KlrZBOyHo95mD5ib1hfSZSkswQ2TfqIjUCOJ3GMw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_017_faa7c5f671b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltKeZAhvicz5nibktqDaEsfQKSLXZ0zEGyVvHlsuQA21pumVjuuxib1Lwqw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_018_21dd234efd6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltZTL1m96YyJDsSJf3t6kKGGsBEuG2vheSzY4yVADPFbwchwoc6Il3qg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_019_10a6391a74c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltMiaxxsobb9iaSXBg61oibibYwZRvfm2ksAKhHsoiadpR0KTkKWUfxTO0wFA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_020_5e97a5adfcaf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltbIfypM9XoCh1mzibQm6DndewJosuQhU8OYEIP0f2lc98zVUgHibOqP5A/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_021_a8c2be319a1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltCmRSX3KAEoUJrbflx3oCVnsRnNlwD6LSrZY3JkhrIa28icTNokILiaZg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_022_ac825c98dc7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltLVWZdemwmADwK3cFRl7c0xVBKHnia5NRRUKA28ibyNC952Vibxz4l4QQQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_023_54237d4de965.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt03pxCpYYfOyUGEDocGYxQqNEDLmFNwJkz3icPJJANEnLibXPUjxK2Dhw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_024_f23abdb4bab9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tltm7ZKeTm3Ae0tpCQvnVgM4enic0noVYFic61mvd0NB582CQmSUrjkqdTw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_025_9acded7bc165.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltouUfic9awibZgOwiciatOZMp2AUh6keFBKFW3ASKpokYvRd4lKHyXoj12A/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_026_1fb85667c624.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TlticGliapy0Uiaicp7wkAcMjHONGia48uBTVrWP9gGwiaH1NJeJmK5RtI2yiaqw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_027_3c4294df9446.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltVryiaGpSVAS3ib7dZSbicgu6Jtyur2FDgOibl29EEGDpMmuic3fI9YK3eQQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_028_059790a7bfd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt3mq3Sszcyw2y5BhEhZSwc8Q5Rc32vLuA9ZUumNhYouGJZB6CANTsbA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_029_82c03c3c0857.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tltw9GxPLg64eUdDjNkhiafW6zHwhyqd5qBokwx6PYHGf2Z12syuUNUjPw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_030_2302b02d019f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tltt7CFkTO8d2U5W27yXUedw7WGwRvAhhhqV9C3Iekwicic0UYBnWUrfFHw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_031_d4e4f6c8559d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltlNQ9RcyiabTbCHksgdD98VHQYdfh5XkApluwoTBZZCIuS27KvyEnl8w/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_032_9fe88672c2f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltACjG72VUxYfCkZa6HhRbox2rk2PAQ5bpCBGaUsokGTcHPPUgZyPicWA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_033_23918604ce02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltoFHHrQhz25nGibNkvia87MSP4Oca092ianniaFLUMUicCMuWB1LtkH8820w/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_034_4abd71d61f97.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltvHbWYy21ibfa7xFkcIPqOvia0t3KgJM5mlLtiaYibq36SD3Y8JzhKygUcg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_035_308d3dfe94c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt0SsHhS4nQEbYiaTrl3VjSZpT1qhciaBTsutjuO10mSVKggWsj1gbB49w/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_036_32407f4a32e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltGLvicCzXvCkKog8WlqAl03CuDbIIuAcSS4oiarm6qyYvUXnUrDJ0b5tA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_037_d5d3fe8719cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltW3Iu6ExWSEdvyb6zaCkFss3Ziae50BiathGw8msI3iau2XHic38t2rp9Iw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_038_76078a1ad51a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TlteJTsFT84VzXhDMXgXNRpUibCkr30GU8MsBufnjPktdonHs5f4xAEGxA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_039_44024d7994e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TlticFc1TaWsaRicXGZBAIDgft3qQAb16SocoxOlGUfFHf1xRNN9b17a2bg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_040_2329499cd964.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltRhWe7pBEk5u1kfnHQxyOOF5GXJ1O21QsA1JaymSU20syf8WK0Xib9hg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_041_97579e20cc9d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltcRY4FUrfA3fkuOyW1RcqT3dKTE0N3mocVlIuWyIhvYKDz2qIPfBnxA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_042_a1784e2ded61.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltrFnsvTuJg9vxgYYIp8cqdohjPGzvosaqicicVvEJP5iaRv6SQDicJBCpHw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_043_1df4d6c07346.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltIMEfcJ1dSnn1Q7LrBU6bialQK83nq6ymc7GraV3gYQNGJ33MVcibmD9A/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_044_9fc111fbaee9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltvGMJ3MVB1j54Gsxlw2HTXQApNaksHy7ZufFiaLmEqbBic8E6fC9R4Z7Q/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_045_3dd92bdca6a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltfNulLdthicQibFGDYhjROdl9Xla7N8D9gQIXW6ExPm7LTTPZb7SicbJbA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_046_25256c08fd33.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltVFxkk7WibEsic6X3ciaF9rz3xzwoaUpZKjjiaX0kboF73AUFKtbQ3R5PGw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_047_8cc1caf429f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltJCeaNCwDZwdFdlZ3ARLsPs2L0xmjH1aAvceFkLicee0jA0kYM5VR21A/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_048_29673d7c966a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltMgRs3rU7WPJZngP0kBd8xzmakMqLchriaoZd5YPZQibCVEnbvzUIoJMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images\img_001_8c557261e628.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltfyowdyibMUwGe5EHTrAYIBZskbZjJWII7mc0ulydTvtACTgfhT9sKAA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_050_0dd0f30ac0df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltcHiaFXuMZb0ZnGWhYQWLkGF9aWpZiaEbQhr2Hn8XdVVLKzpmye4ofLyA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_051_4bc40369b762.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltYf9UJc2Euh2LGkLt6c0DkTspVs2KibHrlQaM7gFKpESgFu39N6os8qA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_052_0a7e7c190b33.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt69VqpUukCKkdA0d4FlpAxg4sgInsfKyfDUEJC8MbSUBDTiaB9qkibicXw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_053_3b799c27b075.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltpMscAv4paCnWYzc1Vol6Wad9hLuodla9yrt5Y133Pnhue0EeiaWP2Cg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_054_badcae692b57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt6eHb9iaqQZ6zr5DXiaXODQ7vmF9QzRDjnicsicPDKA2WFBDfSP1ygsibY4w/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_055_60fbd2fcee2b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt5t69Ml7ibwYrXmKVic6JeztG9lWnPPthL2j3zEGy4lUyfcYMblDsWBlw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_056_674f49ae021d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tltiabl9BDUIF07gASc7DoqINziblyZcywPqRaPYJoXlRIrHYLEvLRzSWwA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_057_bfe18483f282.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltI3ENg3yx6vsyBjrGCDQUDmoqRrib2YuicAj2GPEqfZ9oGoNAEwyccIxw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_058_f582ebee3143.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltkXv51GsEPfBRAmNfRZJNYCVxkicBN5bqjBrAs4a5gVOHTEsLWpqYjYA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_059_574bdbba4a24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltoDQfYIBe3NfIqmEdQSiaibnuJeIBr7InWaW7RKIr0lGVqsQz55c2GqqQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_060_107497df375b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt84TWwgdt09071HhFNx72WXUtAlyWH1x1bf6HzSSX9h7z1rFiaNmFSTQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_061_faf39a67e2f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltqyOHwIQJDxlTLKPpNDOtQiagKOz1QJcrx8gT8lgEbxGbKQMcB5Kye6Q/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_062_e66ecf2c47e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltqudoJXPXia21vyxevajGpgdELWwhU1txZ3IuElqEGCGjDPD5iaeIMjSA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_063_7b93136f8378.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltOrMqHm3DcooL6pEQtEoXo4SUtIGeLaBT2eJIho7Mks3nibblIN3ibiczw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_064_a29e16e3ded0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TlteFSBlHH1zbhdOE53kvysp8Z0bicibym2tnRoiafsaFGoaicjHVHW6VTPpg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_065_694a5fbd7873.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt4mB1sr9wKod80y6XPT5fDzVT6nCop2JFslzM11ThsW9NAKFJbdPibibw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_066_43b0e2a4e6fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltlzLZibY2J4iaIq14PUVcKLA3uD2USthQP8K2CyIFmTDYa7bX2CQDZJBA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_067_0a7b61fadd0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltjINWQwNoKhbvGxx6EfTqqXZesBGDnSoicCO3pibXa1PXdcwggfRommXw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_068_c5638d5e7f5e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltEElc8wPdjdtYLX0gibLCxsPCS2pOgfDvXgx1WQMCopJa2Dj7JJThs0w/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_069_1033c20f725c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltQvhJtXDt8hnQM8MzgIjpcXusNWQ7TTYL1CGicNuX8h9u1aE5gwOV0kw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_070_5c65ae03c54b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltKYIzWy3WIGOs2w8jicy4ZVHiaoSsl1YW71mZ0EV62GIoQjibjZAAyKBgw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_071_a56114a4bef1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltkpzQUMB8H8Scuz4xjZxiaax0EQoyQ1QWeAmdWMwMVbqxrmd8cqKZsVw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_072_b0cbb449cefe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltWII6SKeojrCROIM6IkuHu7GlIxGEm7Da6MQtxQnibjvxGpywqKW9FZw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_073_bbd6037cc811.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt5Pt0kiaqG2fzGgEKFnbG67OdCkmFa3ozsrGPibhaQPmbX0Fo1ZpwmrNA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_074_a820b331740b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tltxux56jkgc989kMR7FEaZa2sDkXrkueKpngDFH67TRnUfqPyKFozzUQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_075_b77702193083.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltOiaic3tHzXh1icEicB7doO7FUhb1B72Pv4icI6bAc8QX1Adia4ApCYwPk7Qw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_076_703943ee39aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tltvc5ibdMuHQUKjBSyCUkLyg0tLdQC2a9uLKdCxdNAHC3yvHdia2vwUiclA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_077_008e1479ab26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltiabRPkHE6kqgMqUic1l0hGw9pCF8PHPxoH0SNnywwRUhYhITib1nploJw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_078_5efc4bf6f354.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltxVEicRHyW7vgqyvJfdHcTmNxmUUibQgt6WobIIScnIy3QPHxD8rEm61g/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_079_ffdd1d669874.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltBpeBqWUCMBPLHUBuUuP9J4qVZ62aiamuZbCv1BQ9fv5emO6ZliadO6NA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_080_8374a468f425.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltfvKetjzuaWf0icYibQuPcL2OHqff1rgFtShabS5BpoLEXqh76REmO2AQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_081_599ea6fee023.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltFz6maOhxNJtBOSuH976sJiaPgCSGicUbrNrcmZz6eDZyvx2qwHMLdqcQ/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_082_933384dc0e6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltPdhOfah3qyJxVztgkgUe06U5dgQbsibwrYlK4b6k9YaSCWgUW2yfBDg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_083_d35c21e4e082.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltmicDkFIoJiaj4R2FkuJXicC4Zl4y2fyOp8wA5UOOHWYPMMW66Jbev2Aag/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_084_ae66a16cb811.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TlteCgIrnu7TDfhmpCHQK9E5vfHK4O1sNfTic98IFnnhq7DKsmvwzs5OibA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_085_bbbb4751cc45.png)
 
 文章来源：开关电源-系统应用技术分析和汽车电子-新能源技术的电磁兼容
 
 SiC器件、GaN器件和IGBT器件的主要区别在于它们的材料特性、应用领域以及性能特点。‌  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltzZibaeAKGac2E61iaiabPquCRI44Tch0b25zicwXK9fX24hTPeIwGZXgFw/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_086_9ce584316c76.png)
 
 ‌SiC器件‌（碳化硅器件）的主要优势包括：
 
@@ -205,7 +205,7 @@ SiC器件、GaN器件和IGBT器件的主要区别在于它们的材料特性、�
 
 ‌高开关频率‌：碳化硅器件能够在更高的频率下工作，适用于需要高频开关的应用‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltLY8dvRibu2icYwibng7BGJfzzA9RziadTHGnw1ibOF16eIXO7ooALtHm9aA/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_087_ba8646615292.png)
 
 ‌GaN器件‌（氮化镓器件）的主要优势包括：
 
@@ -215,11 +215,11 @@ SiC器件、GaN器件和IGBT器件的主要区别在于它们的材料特性、�
 
 ‌快速开关速度‌：氮化镓晶体管具有极快的开关速度，适用于需要快速响应的应用‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLsloibTdSDwaGupW6QkJl5TltzgTmUjqiaKJicCHEAhI4xoebSDznIunAFVibJzibwIscfGjAJ7BX6ph37g/640?wx_fmt=gif&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_088_fe93d5d007d7.gif)
 
 ‌IGBT器件‌的主要优势在于其成熟的技术和广泛的应用领域，尤其是在中大功率的电力电子系统中。IGBT结合了BJT（双极型晶体管）的高输入阻抗和MOSFET（金属-氧化物半导体场效应晶体管）的低导通电阻，提供了高效能、高可靠性的电力电子解决方案。IGBT的缺点包括相对较高的导通损耗和在高频应用中的限制‌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsloibTdSDwaGupW6QkJl5Tlt1AiaXQgeUIdaY4qVmK6JT1YbmsFhwf5bt8KElKQX2M0Oe9kXbgDVXhg/640?wx_fmt=png&from=appmsg)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_089_7cfbe53d8ef3.png)
 
 综上所述，SiC器件和GaN器件因其独特的材料特性，在高温、高频、高功率应用中表现出色，而IGBT则因其成熟的技术和广泛的应用领域，在中大功率系统中占据重要位置。选择哪种器件取决于具体的应用需求和技术挑战。
 
@@ -227,4 +227,4 @@ SiC器件、GaN器件和IGBT器件的主要区别在于它们的材料特性、�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_090_3ade3c3d8599.jpg)![](SiC器件_GaN器件_IGBT器件在开关电源和汽车电子中的应用及案例_images/img_091_84aa944feb13.jpg)

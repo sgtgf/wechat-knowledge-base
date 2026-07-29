@@ -10,7 +10,7 @@
 
 硬件工程师应该都用过buck，一些buck芯片会有类似下面的自举电容，有时还会串联一个电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4WJ2BFfnApyD10f06YBIibpud32c1wiaQa4cZKIniaEcV9mmGgW4Y9I6Yg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_002_d6e622f11e66.png)
 
 那么你是否对这个自举电路有深入的了解呢？比如，这个电容的容值大小该怎么选？大了或者小了会影响什么？耐压要求是怎么样的？  
 
@@ -34,7 +34,7 @@
 
 本节重点讲在不同开关模式的功率转换应用中，功率型MOSFET 和 IGBT 对自举式栅极驱动电路的要求。当输入电平不允许高端 N 沟道功率型 MOSFET 或 IGBT 使用直接式栅极驱动电路时，我们就可以考虑自举式栅极驱动技术。这种方法被用作栅极驱动和伴发偏置电路，两者都以主开关器件的源极作为基准。驱动电路和以两个输入电压作为摆幅的偏置电路，都与器件的源极轨连。但是，驱动电路和它的浮动偏置可以通过低压电路实现，因为输入电压不会作用到这些电路上。驱动电路和接地控制信号通过一个电平转换电路相连。该电平转换电路必须允许浮动高端和接地低端电路之间存在高电压差和一定的电容性开关电流。高电压栅极驱动 IC 通过独特的电平转换设计差分开。为了保持高效率和可管理的功耗，电平转换电路在主开关导通期间，不能吸收任何电流。对于这种情况，我们经常使用脉冲式锁存电平转换器，如图 1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4Lg0lozZZu27jnIic7AQXUahmGZfJ11bz7KRXj3lEt3icRO7EdkDFbSNA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_003_51d90d7bc5e7.png)
 
   
 
@@ -48,7 +48,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4MIE4O7bYuqefDv8UwUtHh2whz1Uic0Ipu4yAcmQ3ZYNiaahYcv5d8LWA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_004_deb678bbaf82.png)
 
   
 
@@ -60,11 +60,11 @@
 
 这个电路最大的难点在于：当开关器件关断时，其源极的负电压会使负载电流突然流过续流二极管，如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4Dqia5oW6zMWVicrernHyJavG7feRfMcutBb7A4PseTfdicWW0K96sDiaug/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_005_cbfda9c2d293.png)
 
 该负电压会给栅极驱动电路的输出端造成麻烦，因为它直接影响驱动电路或 PWM 控制集成电路的源极 VS 引脚，可能会明显地将某些内部电路下拉到地以下，如图4 所示。另外一个问题是，该负电压的转换可能会使自举电容处于过压状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4GS1aZu6jUccGk8yFYNS5NzibQGsmT9eCCEJdtvc1qHez8EzNwJn0iafQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_006_43e8931990fd.png)
 
 自举电容 CBOOT，通过自举二极管 DBOOT，被电源 VDD瞬间充电。
 
@@ -76,7 +76,7 @@
 
 如图 5 所示，低端续流二极管的前向偏置是已知的将 VS下低到 COM( 地 ) 以下的原因之一。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4SLxkiaLIiaPiaH5XAribPkeRlFW8rC3YmzZ48qDHRdQJYxicyr6Hc15IK9g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_007_8ac9b81f9607.png)
 
 主要问题出现在整流器换向期间，仅仅在续流二极管开始箝压之前。
 
@@ -86,7 +86,7 @@
 
 Cgs 与 Cgd 的和，称为密勒电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe45MoIW8ysT72MySgGW5WibB81LLOJwYCKgmhUlylButNnDs7xDffhLqQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_008_651aa6db8ec3.png)
 
   
 
@@ -96,11 +96,11 @@ Cgs 与 Cgd 的和，称为密勒电容。
 
 图7显示闭锁情况，即高端输出无法通过输入信号改变。这种情况下，半桥拓扑的外部、主电源、高端和低端开关中发生短路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4yE6N4YDkVKx9x5Th6Jodr2iaq7qTjKa6CxDc1VJalGJVMvd2mjSDU2w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_009_b48bcb48efae.png)
 
 图 8 显示遗漏情况，即高端输出无法对输入转换做出响应。这种情况下，高端栅极驱动器的电平转换器将缺少工作电压余量。需要注意的是，大多数事实证明高端通常不需要在一个开关动作之后立即改变状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4chj2xCrP6C7M0ALE8DSZsfzMU5oMjjqvuZjLQBbibvGcjbWfO12Rdkg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_010_3ba44fc9fc56.png)
 
   
 
@@ -108,21 +108,21 @@ Cgs 与 Cgd 的和，称为密勒电容。
 
 最完整的高电压栅极驱动集成电路都含有寄生二极管，它被前向或反向击穿，就可能导致寄生 SCR 闭锁。闭锁效应的最终结果往往是无法预测的，破坏范围从器件工作时常不稳定到完全失效。栅极驱动集成电路也可能被初次过压之后的一系列动作间接损坏。例如，闭锁导致输出驱动置于高态，造成交叉传导，从而导致开关故障，并最终使栅极驱动器集成电路遭受灾难性破坏。如果功率转换电路和/或栅极驱动集成电路受到破坏，这种失效模式应被考虑成一个可能的根本原因。下面的理论极限可用来帮助解释VS电压严重不足和由此产生闭锁效应之间的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4V6whzbvpmYNXjMBDXDArPnPYunLeWIGjIUMibvtVdviauZEicWJ2eDJaQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_011_577aaab119ef.png)
 
 在第一种情况中，使用了一个理想自举电路，该电路的 VDD 由一个零欧姆电源驱动，通过一个理想二极管连接到 VB，如图 9 所示。当大电流流过续流二极管时，由于 di/dt 很大，VS 电压将低于地电压。这时，闭锁危险发生了，因为栅极驱动器内部的寄生二极管 DBS，最终沿VS 到 VB 方向导通，造成下冲电压与 VDD 叠加，使得自举电容被过度充电，如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4Z0JCmFxI5jupKgIViatXFw8lmxMv9JI4siaCDTlTsPmSJTuic5s6CAPxA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_012_f4a37dd6bdf3.png)
 
 例如：如果 VDD=15 V， VS 下冲超过 10 V，迫使浮动电源电压在 25 V 以上，二极管 DBS 有被击穿的危险，进而产生闭锁。
 
 假想自举电源被理想浮动电源替代，如图 11 所示，这时， VBS 在任何情况下都是恒定的。注意利用一个低电阻辅助电源替代自举电路，就能实现这种情况。这时，如果 VS 过冲超过数据表 (datasheet) 规定的最大 VBS 电压，闭锁危险就会发生，因为寄生二极管 DBCOM 最终沿COM 端到 VB 方向导通，如图 12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4kPoibmgqC7Vn1conETZXic5ZPpGmcibFmwB9l9U7lOrXjHRqMlSHYd7Vg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_013_3dd1cfd473e9.png)
 
 一种实用的电路可能处在以上两种极限之间，结果是VBS 电压稍微增大，和 VB 稍低于 VDD，如图 13 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4VaZj7FM8uHOLiay9XR4dQIuQWn7XnlKAdqdPcUR7I7rjBUT3CqJibwxQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_014_c95867b05221.png)
 
 准确地说，任何一种极限情况都是流行的，检验如下。如果 VS 过冲持续时间超过 10 个纳秒，自举电容 CBOOT被过充电，那么高端栅极驱动器电路被过电压应力破坏，因为 VBS 电压超过了数据表指定的绝对最大电压(VBSMAX) 。设计一个自举电路时，其输出电压不能超过高端栅极驱动器的绝对最大额定电压。
 
@@ -132,7 +132,7 @@ Cgs 与 Cgd 的和，称为密勒电容。
 
 负电压的振幅是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4g0Cnwsr3qJvTvx9m1dVj0h1h8NibOmRKpxckRoFddvrByEq6JRVJ9zg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_015_dcba4ce533e8.png)
 
 为了减小流过寄生电感的电流随时间变化曲线的斜度，要使等式 1 中的导数项最小。
 
@@ -146,7 +146,7 @@ Cgs 与 Cgd 的和，称为密勒电容。
 
 自举电容 (CBOOT) 每次都被充电，此时，低端驱动器导通，输出电压低于栅极驱动器的电源电压 (VDD)。自举电容仅当高端开关导通的时候放电。自举电容给高端电路提供电源 (VBS)。首先要考虑的参数是高端开关处于导通时，自举电容的最大电压降。允许的最大电压降 (VBOOT)取决于要保持的最小栅极驱动电压 ( 对于高端开关 )。如果VGSMIN是最小的栅-源极电压，电容的电压降必须是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4icdzUZLBvLeKXAzag1CAsw2o4GcIeSJOicm6vibpiaRleAUDsthE1f0Gibw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_016_f1a47f943abe.png)
 
 其中：
 
@@ -156,13 +156,13 @@ VF= 自举二极管正向电压降 \[V\]
 
 计算自举电容为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4cGjh18qv7dVePttRdNWYDESjC33rJAicBrDrfwv4qXGnjVYddPAz0mw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_017_0e2899a41c4e.png)
 
 其中 QTOTAL 是电容器的电荷总量。
 
 自举电容的电荷总量通过等式 4 计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4SxOrxeicE4g3ZiamJc27QuJU0enUHGicdQ6IlBv6NxJY49Rv1MX8NHh6w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_018_ab6a486d803c.png)
 
 其中：
 
@@ -218,15 +218,15 @@ ILKDIODE = 10 nA
 
 如果自举电容器在高端开关处于开启状态时，最大允许的电压降是 1.0 V，最小电容值通过等式 3 计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4OOpDickOtVj2okFTZwVgQ6ic9AicJsWlT2Nx8VrPLHC9laDic664y5t1ibg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_019_ff3544a7ab6e.png)
 
 自举电容计算如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4lMVpbx7xh26OYcvqfnHxQiaMsk3tTHNm1DXLoicfnlZtCFfF6qkxOmuA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_020_fdf1468e9aa6.png)
 
 外部二极管导致的电压降大约为 0.7 V。假设电容充电时间等于高端导通时间 （占空比 50%）。根据不同的自举电容值，使用以下的等式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4lH8wPcqrPxSlQmSO6xAc9yNibJ3DRo3HPQOgBSLBh8pP4iakFmp1yCjA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_021_a1b18986db3d.png)
 
 推荐的电容值是 100 nF ~ 570 nF，但是实际的电容值必须根据使用的器件来选择。如果电容值过大，自举电容的充电时间减少，低端导通时间可能不足以使电容达到自举电压。
 
@@ -236,7 +236,7 @@ ILKDIODE = 10 nA
 
 当使用外部自举电阻时，电阻 RBOOT 带来一个额外的电压降：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4fu0EYsxCiaLcWlmiahJTw3sS1NqR28uOPI5iatLqENYniatKldS6cTjIcw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_022_2e3ac294da9c.png)
 
 其中：
 
@@ -262,7 +262,7 @@ tCHARGE = 自举电容的充电时间 ( 低端导通时间 )
 
 在某些应用中，如电池充电器，输出电压在输入电源加载到转换器之前可能已经存在了。给自举电容 (CBOOT)提供初始电荷也许是不可能的，这取决于电源电压(VDD) 和输出电压 (VOUT) 之间的电压差。假设输入电压（VDC）和输出电压 (VOUT) 之间有足够的电压差，由启动电阻 (RSTART)，启动二极管 (DSTART) 和齐纳二极管(DSTART) 组成的电路，可以解决这个问题，如图 14 所示。在此启动电路中，启动二极管 DSTART 充当次自举二极管，在上电时对自举电容 (CBOOT) 充电。自举电容(CBOOT) 充电后，连接到齐纳二极管DZ，在正常工作时，这个电压应该大于驱动器的电源电压 (VDD) 。启动电阻限制了自举电容的充电电流和齐纳电流。为了获得最大的效率，应该选择合适的启动电阻值使电流极低，因为电路中通过启动二极管的自举路径是不变的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4o4GNJu1q69FzRaunltZ5Xl3iaDkiaKtLA9HuM7pSicZbXvV5pAwyC2Img/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_023_c994b568f9c8.png)
 
   
 
@@ -270,17 +270,17 @@ tCHARGE = 自举电容的充电时间 ( 低端导通时间 )
 
 在第一个选项中，自举电路包括一个小电阻，RBOOT，它串联了一个自举二极管，如图15所示。自举电阻RBOOT，仅在自举充电周期用来限流。自举充电周期表示 VS 降到集成电路电源电压 VDD 以下，或者 VS 被拉低到地 （低端开关导通，高端开关关闭）。电源 VCC，通过自举电阻RBOOT 和二极管 DBOOT，对自举电容 CBOOT 充电。自举二极管的击穿电压 (BV) 必须大于 VDC，且具有快速恢复时间，以便最小化从自举电容到VCC电源的电荷反馈量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4HWLCx48NWzdJ423GjMwGgyaA56Voumfqf4DKW59upKKoOp3ibA7BFhQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_024_a564d2fdafb8.png)
 
 这是一种简单的，限制自举电容初次充电电流的方法，但是它也有一些缺点。占空比受限于自举电容 CBOOT 刷新电荷所需要的时间，还有启动问题。不要超过欧姆值（典型值 5~10 Ω），将会增加 VBS 时间常数。最低导通时间，即给自举电容充电或刷新电荷的时间，必须匹配这个时间常数。该时间常数取决于自举电阻，自举电容和开关器件的占空比，用下面的等式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4PJsHI0qes07Tt9CYx8qibmIXSiaBYqW3Ul25NEChibSLibvqourL7tuHuQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_025_da9eb7b02fb0.png)
 
 其中 RBOOT 是自举电阻；CBOOT 是自举电容；D 是占空比。
 
 例如，如果 RBOOT=10， CBOOT=1 µF， D=10 % ；时间常数通过下式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4sxEdzYiaIgLROYIA06riaoMqEibBkrqlURdF99pdXJfgRR3OzTrmb0eIg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_026_a65413aff6de.png)
 
 即使连接一个合理的大自举电容和电阻，该时间常数可能增大。这种方法能够缓解这个问题。不幸的是，该串联电阻不能解决过电压的问题，并且减缓了自举电容的重新充电过程。
 
@@ -290,11 +290,11 @@ tCHARGE = 自举电容的充电时间 ( 低端导通时间 )
 
 在第二个选项中，自举电路的 VS 和 VOUT 之间，添加上一个小电阻 RVS，如图 16 所示。RVS 的建议值在几个欧姆左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4ALUwecYQKDcmqqqzVxgJn8uTibmp8UWVl1RxN7j0roLoU0DmHkYFdrw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_027_02431f5cd27b.png)
 
 RVS 不仅用作自举电阻，还用作导通电阻和关断电阻，如图 17。自举电阻，导通电阻和关断电阻通过下面的等式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe46eDIFF4lCj55a9JwxyAicP3jgNuJ9G9MT3yJE9BGszPc5wyLwCwamaw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_028_0de526883e97.png)
 
   
 
@@ -302,7 +302,7 @@ RVS 不仅用作自举电阻，还用作导通电阻和关断电阻，如图 17�
 
 在第三个选项中，自举电路把栅极电阻重新布置到 VS 和VOUT 之间，并且在 VS 和地之间增加一个低正向压降的肖特基二极管，如图 18 所示。VB 和 VS 之间的电压差，应保持在数据表规定的绝对最大额定值范围内，并且必须符合下列等式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe462NMhicqv7POr6SASgdqN84JHG4bUwYMQja74bH5r9KsDNWVZGo6Flw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_029_6172e346994a.png)
 
   
 
@@ -312,7 +312,7 @@ RVS 不仅用作自举电阻，还用作导通电阻和关断电阻，如图 17�
 
 第四个选择，包括在 VS 和 VOUT 之间，重新布置一个栅极电阻，以及在 VS 和地之间放置一个箝压器件，如图 19所示，布置了一个齐纳二极管和 600V 二极管。根据下列规则，量化齐纳电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4k1GlotBCJS6AcW9GaUxEhQ8dtlBHXllRkvY1cJG6AOpRicnMbUKoLmg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_030_f10d9e9d6ce1.png)
 
   
 
@@ -320,7 +320,7 @@ RVS 不仅用作自举电阻，还用作导通电阻和关断电阻，如图 17�
 
 对于每一种额定驱动电流，计算指定时间内所能切换的最大栅极电荷 QG，如表 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4VlyqNeNcCChLBgl44naicVSI3LGeAZx8PSa7lW8TDmzicIVBIDqkIAzQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_031_63af55fe540e.png)
 
 注：
 
@@ -336,7 +336,7 @@ RVS 不仅用作自举电阻，还用作导通电阻和关断电阻，如图 17�
 
 1\. 所需的额定栅极驱动电流取决于在开关时间 tSW-ON/OFF 内，必须移动的栅极电荷数 QG （因为开关期间的平均栅极电流是 IG） :
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4RF5vjdp0MtJCZmjuchA8mBic3jUV8icrBBjSMlChiantz9mlU0icsPVf4w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_032_75f9c9e54e35.png)
 
 2\. 最大栅极电荷 QG，从 MOSFET 数据表得到。
 
@@ -344,11 +344,11 @@ RVS 不仅用作自举电阻，还用作导通电阻和关断电阻，如图 17�
 
 3\. tSW\_ON/OFF 表示所需的 MOSFET 开关速度。如果该值未知，取开关周期 tSW 的 2%：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4e1PdLFjdK8XZPicnxoud9RjUCbDObnvgfPKPdfFtK1vibJkqlicITicUTQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_033_d52faa416d96.png)
 
 如果通道 (V-I) 开关损耗主要受开关转换（导通或关断）支配，需要根据转换调整驱动器。对于受箝制的电感性开关（通常情况），每次转换的通道开关损耗估算如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4VwK7tdeWovEuKyF5MTRTvQWj884sYOqPZ8VsKL5ibEc7A7OLcxeh8ibw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_034_36f5452cbc17.png)
 
 其中 VDS 和 ID 是每个开关间期的最大值。
 
@@ -356,11 +356,11 @@ RVS 不仅用作自举电阻，还用作导通电阻和关断电阻，如图 17�
 
 (1) 拉电流能力 （导通）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe45BVZS4XSiaz18yNZic0nMfQIicX9BLFG2hOcNr1WTJY7QCib1dXTrAA0rA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_035_71a0d7a61f02.png)
 
 (2) 灌电流能力 （关断）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4fzRM3nmWE6JtoBQ6XkzrWnAwSibj1A57nYNOLHMq6srhWaockuEhkSA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_036_f553db402e48.png)
 
 其中：
 
@@ -374,11 +374,11 @@ tSW\_ON/OFF = MOSFET 开关导通 / 关断时间；和1.5 = 经验因子 （受�
 
 输出晶体管的开关速度受导通和关断栅极电阻的控制，这些电阻控制了栅极驱动器的导通和关断电流。本节描述了有关栅极电阻的基本规则，通过引入栅极驱动器的等效输出电阻来获取所需的开关时间和速度。图 20 描述了栅极驱动器的等效电路和在导通和关断期间的电流流动路径，其中包括栅极驱动器和开关器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4Uw4J3Fy8Sb7heKiaDhEY1rwxSL8ibou5L9ZuZ4pDgowicfeJdDxDrnNuw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_037_cc1db1f5817c.png)
 
 图 21 显示了开关器件在导通和关断期间的栅极 - 电荷传输特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4UtDficTB5CObib5PmqUFUfQv96zWM2y1ASCMicic5sBvLibhFQA6n4oN2fw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_038_4fdd663a6a75.png)
 
   
 
@@ -388,7 +388,7 @@ tSW\_ON/OFF = MOSFET 开关导通 / 关断时间；和1.5 = 经验因子 （受�
 
 开关时间定义为到达坪电压 （给 MOSFET 提供了总共Qgd + Qgd 的电荷）末端所花费的时间，如图 21 所示。导通栅极电阻计算如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4vaWic5WqYwIHJNuiax3Ujbf7RaRGcfL94iaiboVsGxXKTSegHY9bV3oxjg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_039_4b70eabecefe.png)
 
 其中 Rg(ON) 是栅极导通电阻， RDRV(ON) 是驱动器的等效导通电阻。
 
@@ -400,11 +400,11 @@ tSW\_ON/OFF = MOSFET 开关导通 / 关断时间；和1.5 = 经验因子 （受�
 
 可以近似为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4haTBP0ia5b0TQ6zyFmSSYbiaiaibMRxMH1xLickCYlDocaJtxYo9UP95OIw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_040_aa8f802e5e92.png)
 
 插入变形表达式 Ig(avr)，并整理得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4RGGaGSlzG4zqkpHBYXTSmhpOB1DibUHiaKsWOyYCZuibibeUboJ1kqfGDQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_041_ab27afa07cd7.png)
 
 其中 Cgd(off) 是密勒效应电容，在数据表中定义为 Crss。
 
@@ -422,13 +422,13 @@ tSW\_ON/OFF = MOSFET 开关导通 / 关断时间；和1.5 = 经验因子 （受�
 
 关联起来：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe45wIfZhzspeMc2yld9CDcCsjhfAcfFyf47zLEdUcYAaRPOgibaPU3eJQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_042_9a53b495fbf1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4viad544VrdlWaEJfFDXLLbQ9QtVEibYumPYIAGn5ianENTU61pOAOYicmg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_043_8be4fa8c77e5.png)
 
 重新整理表达式得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4dVahdOeBKYOnXCSgGIygrWykic1p1ohtZhkt56ETTvWriahJx84uMABg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_044_fee13754c968.png)
 
   
 
@@ -446,13 +446,13 @@ Qgs=13.5 nC， Qgd=36 nC， Cgd=95 pF， VGS(th) =5 V，VGS(th)MIN =3 V
 
 1)如果 VDD=15 V 时，所需的开关时间是 500 ns，计算平均栅极充电电流：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4FHKejibzasZgb7k8lB5LfhJmQPWniaaic7xm0iagxVODfER8Sjwfr3noQQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_045_9f0f743f6574.png)
 
 导通电阻值约为 58 Ω。
 
 2)如果 dVout/dt=1 V/ns （VDD=15 V 时），总栅极电阻如下计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4LsbuuibOxic3oWicIAMamaFxWurLWlYNvMURA2Diad71woibNh0ia2l1MtKQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_046_c0808f240806.png)
 
 导通电阻值约为 62 W。
 
@@ -462,7 +462,7 @@ Qgs=13.5 nC， Qgd=36 nC， Cgd=95 pF， VGS(th) =5 V，VGS(th)MIN =3 V
 
 如果 dVout/dt=1 V/ns，关断栅极电阻可计算为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe43SC2PP94I1bQib6bHvfnSfuxj4d6uIP3jNyKGNxf5Tm9BG2pwz6QvUQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_047_d721ca6534e4.png)
 
   
 
@@ -476,11 +476,11 @@ Qgs=13.5 nC， Qgd=36 nC， Cgd=95 pF， VGS(th) =5 V，VGS(th)MIN =3 V
 
 动态功耗定义如下：对于低端驱动器，动态功耗有两个不同的来源。一是当负载电容通过栅极电阻充电或放电时，进入电容的电能有一半耗散在电阻上。栅极驱动电阻的功耗，栅极驱动器内部的和外部的，以及内部CMOS 电路的开关功耗。同时，高端驱动器的动态功耗也包括两个不同的来源。一个是因为电平转换电路，一个是因为高端电容的充电和放电。这里，可以忽略静态功耗，因为集成电路的总功耗主要是栅极驱动 IC 的动态功耗，可估算为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4CukueFgHAZJJAmYH54ja0JiaHI9ClRBo0Q72dHmGzfPibVOHZo2ehQBQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_048_c6e19b550f76.png)
 
 图 23 表示计算的栅极驱动器功耗与频率和负载电容的关系 (VDD=15 V)。 此曲线可用于计算栅极驱动器造成的功耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4ZZZ6fRdHZaibxicsRutVOh5rpMh4juRta4rDbqjt9GoVkgrH9hs2q7Ew/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_049_3a107fdb63f1.png)
 
 自举电路的功耗是自举二极管功耗和自举电阻功耗的总和，如果它们存在的话。自举二极管的功耗是对自举电容充电时产生的正向偏置功耗与二极管反向恢复时产生的反向偏置功耗的总和。因为每个事件每个周期发生一次，所以二极管的功耗与开关频率成正比。大电容负载需要更多的电流，对自举电容器重新充电，从而导致更多的功耗。
 
@@ -504,7 +504,7 @@ Qgs=13.5 nC， Qgd=36 nC， Cgd=95 pF， VGS(th) =5 V，VGS(th)MIN =3 V
 
 • 最大允许结到引脚的热阻计算为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JiaP8iase0cPIqKXVBaRnTyM0OQjLQvbe4PWqkdUD8LZxLfwJ2ibbo453U4eC0Yf1MV0QqrhX8xW2qpiaYPfyScVvA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_050_1d502df59bed.png)
 
   
 
@@ -538,9 +538,9 @@ Qgs=13.5 nC， Qgd=36 nC， Cgd=95 pF， VGS(th) =5 V，VGS(th)MIN =3 V
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_051_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_052_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_053_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_054_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_055_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_056_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_057_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_058_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_059_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_060_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_061_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_062_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_063_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_064_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_065_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\栅极驱动_IC_自举电路的设计与应用指南_images\img_066_3c93e54afedf.gif)
 
 ## 
 

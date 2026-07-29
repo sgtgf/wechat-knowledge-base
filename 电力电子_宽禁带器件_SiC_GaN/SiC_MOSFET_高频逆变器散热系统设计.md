@@ -20,7 +20,7 @@
 
 1. 逆变器损耗计算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx3miaic3Pg6tQOuW54P3nN3BnEZ6xSo9eHsVP6yqiaHDicEibRBgHJZQJyfA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_000_fc952cfd70c2.png)
 
 在三相两电平逆变器中，导线等损耗可以忽略，损耗的主要来源是SiC MOSFET和反并联二极管，其拓扑结构如图1所示。功率器件的损耗可分为开关损耗和通态损耗。  
 
@@ -28,7 +28,7 @@
 
 功率器件的开关损耗分为开通时的损耗和关断时的损耗，影响开关损耗的因素有开关频率、直流母线电压、漏源极电流以及栅极外部驱动电阻。计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxrShuRbZc9q3tWlA4WGBYQESiauMLb99rcgjj0Qlh8lzYDrv9jWMZa7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_001_07f9eea9a808.png)
 
 其中：  
 
@@ -52,7 +52,7 @@ K I \_M—漏源极电流对开关损耗的影响系数。
 
  MOSFET的通态损耗与通态电阻、电流、占空比以及结温有关。计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxdHNl8BDbVaQ8uRr09XlKGSWAr4HVbqjWNS0XNO8AXVIzic9UgPCFq6g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_002_efb926e18afc.png)
 
 其中：  
 
@@ -68,7 +68,7 @@ T—调制波的周期。
 
 当采用SPWM双极性调制方式时，逆变器输出交流电压可以近似为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxuqicn2aU4EdrPjP68cCWGrhrVHE66Ic9KGlDQUxv0Um81q0Ws6IiaDrA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_003_06149214fe01.png)
 
 其中：  
 
@@ -78,7 +78,7 @@ UM—输出交流电压峰值；
 
 输出电流可以近似为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxLZCYAibDiaHHxe44uZdFPttQUGibaEbPvD9LJne5glicvuxoyn3F8wGILw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_004_aa44e02a06f1.png)
 
 其中：  
 
@@ -88,17 +88,17 @@ IM—输出电流峰值；
 
 占空比为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx5CbuDgBW1Q7XicTkaIHIdneiauny5xXVpVgy6q7DdmOibTzic7z1R3ahkw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_005_45cd0bfa8d35.png)
 
 把式（3）、式（4）和式（5）代入式（2），得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxgI8kQe6obeV72FPk5voDaJ9TZPR6723KhuHOGgYicoBWMarG3F4ib5MQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_006_9d1b4000530a.png)
 
 1.3 二极管开关损耗
 
 二极管的开关损耗计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx1dnwaib6fZ7lmDtrVU9xY1Niakd0ibwCRia1quGv7sicvoPq4fskFFBpCBg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_007_778c3c6dde0c.png)
 
 其中：Qrr—二极管反向恢复电荷；
 
@@ -108,7 +108,7 @@ UDrr—反向恢复期间二极管两端的电压
 
 二极管通态损耗与二极管导通电压、电流和占空比有关。计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxy74LYibOhboUoXNMS3n663nQeSIWZiaMsBykAYxjcCK68zI4KCAXSt5g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_008_7b351973e5e0.png)
 
 其中：  
 
@@ -120,7 +120,7 @@ D(t)—占空比。
 
 在实际工程应用中，当二极管进行续流时， 可以将二极管近似等效成一个电压源和二极管导通时的通态电阻串联，公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxfuC4wUNCanRicUicFunyxXiavnGAtc9lCOUJErgnVu1lrMWRU5tZt1ZSg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_009_0d8473f9f1d4.png)
 
 其中：  
 
@@ -130,21 +130,21 @@ RD—二极管通态电阻。
 
 当采用SPWM双极性调制方式时，占空比为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx6T7aOIB9fXDteCic7npg91SD0S92pvsZtYDBsvFRe5IUIewsdVpREJQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_010_436d6a73d58a.png)
 
 把式（10）代入式（9），得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx5PMbmSwvS3KDNcr9rzmY8yfRgIUu4FKHGFI2u7ibrFGjQdruzy5FgYA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_011_9bc3b20fd8fd.png)
 
 1.5 总损耗
 
 单个MOSFET总损耗计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxjFkgiaia0jmy49XqyE9UVQHTKk2u3ia7L0VsichI3vsiawfHA3gsrkqmy7g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_012_a8b5f9dc9176.png)
 
 逆变器总损耗计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx6iajRiaCMnNuvU9mBVhkKia3mj9eic7zUqfibw5b6a6QfNIDiaFlts2DxoyQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_013_f45c2df7e43a.png)
 
 1.6 损耗计算结果
 
@@ -158,7 +158,7 @@ RD—二极管通态电阻。
 
 综合分析器件以及散热器的热阻模型，将热阻等效为电阻，器件工作产生的损耗等效为电流源，热阻上的温差为电压，等效电路如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxvvT5klNKDV1Y39OiapRpZF5AhfVqibB8iam5MZuiaEVE0zLbYFnWejgcaw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_014_eacd2f543af4.png)
 
 由于本文采用的SiC MOSFET为TO-247的封装，因此，T j\_M与T j\_D相同，Rt h j c\_M与Rt h j c\_D相同。
 
@@ -166,7 +166,7 @@ RD—二极管通态电阻。
 
  SiC MOSFET单管与散热器之间涂有一层介质，即导热界面材料（TIM），填充功率器件与散热器之间的空间和气隙，使功率器件与散热器紧密粘合。导热界面材料的热导率应大于空气的热导率，空气的热导率为0.0261W/（m·K）。本文选用的TIM为AOS370，热导率为0.7 W/（m·K）。 使用TIM材料可以减小功率器件与散热器之间的热阻，提高散热能力，减小系统温升。其热阻计算公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxM5gIO6ukYA2soCZlgc9SnF32vrFuezMJwVrWicv5SA8PlH6YJhPgCkw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_015_98200e42d905.png)
 
 其中：  
 
@@ -180,7 +180,7 @@ A—介质的横截面积。
 
 本文选用分立元件作为功率原件，使各原件等间距分布在散热器上。采用铝作为散热器材料，使用铲齿工艺制成，相比于板翅风冷散热器、波纹风冷散热器以及直齿风冷散热器具有较好的散热效果。具体方案如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxftWTdc4wDGrLPPSTZQSaAtG99EdoGeiawxFlDLTkwqlkAmDVsWggnoQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_016_a2da2fe66f79.png)
 
 当散热系统工作时，空气被散热风扇吸入，直流冲击散热器，在散热器表面，空气流场将以紊流为主，减小热阻，增强系统整体对流换热效果。在安装时，垂直放置散热器，利用相对较轻的气流形成烟囱效应，使散热器热阻相对于水平放置时减小15%~20%。
 
@@ -188,7 +188,7 @@ A—介质的横截面积。
 
 本文采用强迫风冷的散热方式，故散热器热阻的计算需要考虑强迫风冷带来的影响，散热器到环境的热阻Rthha的经验计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxpWj8pzn6njbicWFfGWEzIjviaa1HdmBJEITGLITCU4vHESZ2xR4RNorg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_017_e0798deb7caf.png)
 
 其中：  
 
@@ -208,13 +208,13 @@ C3—空气换热系数。
 
 散热器外形尺寸及其它参数如表1和表2所 示。散热系统热阻参数如表3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxFa8tupwfib1LIOS3j3E4PEyqb36L1SbMfcJWBrRrKnWHPALv5XRcicTw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_018_8b826da2ccdb.png)
 
 2.5 散热系统温升计算
 
 建立散热系统的热阻等效电路并计算对应热阻值，可根据如下公式计算散热系统各点对应的温度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxaLGNQJSrNxG8ELyIrf7eS6ibUhzcOIQIMlA7HDmHCOqTK0zIN2GBq1g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_019_aa9958b736e1.png)
 
 其中：  
 
@@ -226,7 +226,7 @@ Ptot\_M—单个MOSFET的总损耗。
 
 由以上数据可以计算出散热系统各点温度， 如表4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxtVbNwVaX1kuxeUHLKziaobRy5gInoUzmPJCDho2pfvG1VRibicTWLibEQw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_020_b873ee72d6ef.png)
 
 3\. FloTHERM热仿真
 
@@ -236,33 +236,33 @@ Ptot\_M—单个MOSFET的总损耗。
 
 使用Smartpart进行建模，选用铲齿式铝板散热器，如图3所示。散热器应用铲齿工艺制成，相邻齿之间间隔相等，适合在风冷散热条件下解决功率器件的散热问题，较插片散热器可提升8%~15%的散热效能。采用模块体模拟SiC  MOSFET作为热源，并将其紧贴在散热器上，将块体与散热器的接触面设置为所使用的导热界面材料，并设置导热系数。其散热器系统仿真模型，如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx8PXfMdVTHOveZ5eTibxvVjOicIheGw36R6d5UT7ic49xicXhwjibZNz6RPQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_021_788ffb620d42.png)
 
 3.2 仿真分析
 
 由图5所示的残差曲线可知，残差曲线收敛， 则散热系统稳定，由功率器件产生的热量可以迅速地传递到系统外部，散热系统能够正常、稳定地工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxibdm59nNXAy0HB57ylic7ibNIKpfVoicv2wCOKklicbKEUffEDHD95X4RFQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_022_5d71db4414bf.png)
 
 散热系统各监控点温度，如图6和图7所示。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx7BcWZbRRelBPEj8f5VM6oW3WYUnlgkwYYLmn5TPicEFwkdxTjQxCpVA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_023_c7ae32b729c3.png)
 
 当系统稳态时，散热器温度为58.9 ℃；SiC MOSFET结温约为86℃；SiC MOSFET的壳温约为70 ℃。由以上结果可知，散热系统各点计算值与仿真值相比，误差较小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxJ46COLjyURo6oEZWcibibWQT8TJNb7cdmH8bqbdrvdQZ0DRcAibcPaBuw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_024_266ce0f56189.png)
 
 图8为散热器基板的温度云图，由图8可知， 越靠近中心的SiC MOSFET温度越高，两侧则低于中心。越靠近两侧，离开孔处越近，散热效果越好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zx5g9RFmb8xCnxicBYwMS1ekEiaq8iabzZbs9YwzdLf2n6ykxib1Dp27InQA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_025_051ef109118f.png)
 
 图9为散热系统气流云图。由图9可知，越靠近风扇，风速越快，风速最高可达4.12 m/s，散热器两侧风速较低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxLbiaFr1px7rovOETnKYwKn9gVTibibaTWNGI1bmWKpGzglCXJhbxk3T0w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_026_58d99082369b.png)
 
 图10为散热器压力云图。由图10可知，风扇直吹的地方，产生最大压力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskS3FBqsXgh8BGcWpWXN2zxbfER785RFKYEhTc41ouXtkcB4ibc9GtTflSQOQZRzrgwAqy3ZXBjxAw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_高频逆变器散热系统设计_images/img_027_5c15cc362234.png)
 
 4. 结语
 
@@ -270,13 +270,13 @@ Ptot\_M—单个MOSFET的总损耗。
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSkYzuicY0VXBSlOpFQgAEgVbbBRwEQvuFftFpq9dc5c407t1vgGYSqLQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_MOSFET_高频逆变器散热系统设计_images/img_028_0baa1cd5904a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSQZ8rItVF549RExeyaASEBHibMAhABuxeLC4Z3zx4qR3u9KoVDzNcnAg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_MOSFET_高频逆变器散热系统设计_images/img_029_bdd5d39df81b.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnD11K4e8S5y2oLVGc7IBMSrUMibDLoibdQRFTmIlZgtnh7nVfvz2WPF2pHmsgJvb7fm870t8gGqSAg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](SiC_MOSFET_高频逆变器散热系统设计_images/img_030_8db507bcbdfe.png)

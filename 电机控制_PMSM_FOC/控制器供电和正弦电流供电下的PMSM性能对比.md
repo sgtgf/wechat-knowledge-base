@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/fsbvlAQUV54J2ckg-f4wng](https://mp.weixin.qq.com/s/fsbvlAQUV54J2ckg-f4wng)
 
-![](https://mmbiz.qpic.cn/mmbiz/TPRVzx6PFWOdLyXNbvYZugOs9mlSZAiahTib6aYwdC2GNlfSdpgyRbFnAxvPZIibBl45ZgwaLqXicP1S2shz8Y6UkA/640?wx_fmt=gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_000_0458cc1e8746.gif)**提示**：点击上方"**玩转电机设计**"↑关注我吧
 
   
 
@@ -14,15 +14,15 @@
 
 **电机**，额定功率400W，额定转速3000rpm，表贴式转子，闭口槽。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqUn7Zx0bDqhuL1uyxXvPARs3ZeE1dzKAskUEVicC9mwc6a9iaIqtCmOlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_001_64a29f9548d8.png)
 
 速度和电流双闭环矢量控制模型  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqFsaeEYOWqF60YaaO9z0anuvckc8iaCaX0ykr0hsiazlBg9jF1AEjjf4A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_002_1f10280e2c32.png)
 
 联合仿真模型  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqnazlBIibPsCibEszVdyySCE3icYIeK2pwSVkrGFMSJtibo4uF6yZUiaB41Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_003_ce30bf10d7a2.png)
 
 * * *
 
@@ -30,19 +30,19 @@
 
 **电流**有明显的纹波，谐波含量6.69%。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8Mqmwhj2QichcXHqAwkY05Xew8JflCBwaKuB9DVTibMyPXOnTcJFRZJgYpQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_004_21c23cfad623.png)
 
 **转矩波动**  
 
 控制器供电的电磁转矩由于电流谐波的影响，转矩波动达到了15.17%，明显大于正弦供电的仿真结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8Mq5Q9jOsibrH1QOK7U5L9fX15QLpoleQSDGx86DwliaibzaxMlS2G3NXwxg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_005_98f316492cef.png)
 
 **磁密**
 
 控制器供电的磁密3.04T略小于正弦供电的3.08T（最高磁密达到这么大，作者的硅钢片材料可能有一定的问题）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqicCRdzmVBhxUBJIkchDByP4YTkVOMzxE4pT96lJXJvflUzMDu9DkKTQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_006_8123dc319f49.png)
 
 * * *
 
@@ -50,7 +50,7 @@
 
 铜损计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqmcsF6tIe2B6vyMABUPGWcK1FelEoDEuhbGk6gju0XbYz8ZFFPMWwmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_007_45996863179a.png)
 
 其中Rk是谐波等效电阻，k是谐波阶次。
 
@@ -58,25 +58,25 @@
 
 控制器供电的铁心损耗大于正弦电流供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8Mq5IBriaadBkwc1AIibPrBt1yEibvibhlQVFpg12Q2ibEbgdwicJe7Vysx73kw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_008_8ea14ae3f9d4.png)
 
 **磁钢涡流损耗**
 
 控制器供电的磁钢涡流损耗是理想电流的2.5倍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqPrszjEBN39r2zX618asibXoPBt32IdtkK6Klcw1jY9NNYZbP3VXbAlg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_009_55875ae48625.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqiaRjPjecRYYgzVt5ckn8bDFGwSrawJRLiabON5eMBoznn9bMSqX21vYg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_010_1b60c5af4127.png)
 
 * * *
 
 **原型机验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqAKeib7mAnUHnnnxqj40f4rtvLjTlYnBDgQM9PaQuZS9kSuqkAygnBicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_011_9d6e44bd95f9.png)
 
 **温度**测试结果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chxxNFSvhmBb5QOdRennn8MqRpSw4f1byIDX9uicaomftFchicpnicDWsqoxxwVFCxIrl1f2vyQBTLeMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_012_a1072eebc299.png)
 
 通过温升仿真和原型机温升测试，验证了联合仿真计算的损耗更准确。
 
@@ -96,4 +96,4 @@
 
 长按图片，识别二维码，关注我哟
 
-> ![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=png)
+> ![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\控制器供电和正弦电流供电下的PMSM性能对比_images\img_013_d9a47a7240bf.png)

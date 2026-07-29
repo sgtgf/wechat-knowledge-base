@@ -14,7 +14,7 @@
 
 咱们做硬件，EMC相关知识也是必须要掌握的，遇到解决不了的EMC问题，是一件很痛苦的事情。记得几年前做一个比较复杂的项目，连续搞了几个月，实验室反反复复去了七八次，那段时间真的是心力交瘁。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3AboKH01nY9ADxj5zeDuwdVYmJiaESnkk0EhfpMick1XZv0zjZetOgSEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\遇到解决不了的EMC问题_是一件很痛苦的事情_images\img_002_41e2e048aec5.png)
 
  图源 | Tektronix官网
 
@@ -26,7 +26,7 @@
 
 经常有同行问我："我们公司遇到一些EMC难题，内部解决不了，能否推荐专业的整改机构或实验室？"说实话，根据我的自身经历来讲，身边的企业很少会专门寻求外部整改实验室的帮助。主要原因在于这些专业机构的收费往往不便宜，而大多数情况下，工程师们都是通过持续钻研、反复试验来逐步解决问题的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3HibArmuLGsh89B8S7yzhibEkIPOCX3qr01gGeNrgDlfM5mzwCMq75GsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\遇到解决不了的EMC问题_是一件很痛苦的事情_images\img_003_c5c9101dc56f.png)
 
  图源 | Tektronix官网
 
@@ -335,9 +335,9 @@ X电容和Y电容是开关电源辐射整改的有效元器件
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电磁兼容_EMC\遇到解决不了的EMC问题_是一件很痛苦的事情_images\img_004_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电磁兼容_EMC\遇到解决不了的EMC问题_是一件很痛苦的事情_images\img_005_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

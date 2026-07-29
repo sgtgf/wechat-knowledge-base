@@ -7,111 +7,111 @@
 
 作者：王浩宇（上海科技大学）
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKnvfu1H1rcx2x4OJLUWGicEMKPVMOQ1WSkgTOZ6pd7iaLLR6JaDdHZPw/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic#imgIndex=0)
+![图片](AI数据中心一次电源前沿技术概览_images/img_000_b783139b0125.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH2yiaNnqm4CrzicPJ06nRWxfnxHbGlPLtHaibdIdKGmz1ukNvxHyt7u8xA/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic#imgIndex=1)
+![图片](AI数据中心一次电源前沿技术概览_images/img_001_774247813460.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHc5VsLE6eX2yGaC3BiaJw3xc3dSibr6ByCpoPWtAQvKQZshcuTsVibvW4A/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic#imgIndex=2)
+![图片](AI数据中心一次电源前沿技术概览_images/img_002_c643ea58914a.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHYBtfhkIet9nWfTdcaNn8enN4ck8sCegHkIjKdlMiawXwdrWMnIYazsw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](AI数据中心一次电源前沿技术概览_images/img_003_8241443cea24.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHhMSw3vkwUOhVM1rbI8Z5SOD10Jnf5GKNIN4bX4KTlWSsRNFqle2EVQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](AI数据中心一次电源前沿技术概览_images/img_004_fa479825b561.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHj0RRWicnyJzxuDKx9ib0VkMcHPMJ1BW8xzYvlje8Udibiawu9iaiausLicHtg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](AI数据中心一次电源前沿技术概览_images/img_005_9fef129447cf.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH27EZap5h8ywcGD80blPkNo8mjLK2wCe9ld1yaw42PcDml1ZZP2DNQw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](AI数据中心一次电源前沿技术概览_images/img_006_0d5f4a1d345a.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHfSS9dmTkNzInCicYsWtg2icAKYN9hTd7qapkD0fMfqWXt2pSdChcu5Kw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](AI数据中心一次电源前沿技术概览_images/img_007_9c7a452c0bd1.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHIqorf3F63BkA2ZqqUrsXrlVFNK0SoYORbgFpo0zPf6tVR5rlLNwFaQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](AI数据中心一次电源前沿技术概览_images/img_008_9f1ffdb30176.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH7ObKj9IFg4WrDKv4l0LsUy57icFFJVXaFI0hxxYRaXLA6VWCgK6L60w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](AI数据中心一次电源前沿技术概览_images/img_009_c23305ca1c72.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHShicXicq08saASVdVIW9rbjGK5J5weWYEytDgtMzhhEmC3bd2sJdGE5w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](AI数据中心一次电源前沿技术概览_images/img_010_57c31935c1d3.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHLhToR19tscEMNKOviaBFJjgbiczt5CKUs6rudicH4X1TibrsVvgcDOxurA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](AI数据中心一次电源前沿技术概览_images/img_011_31ab7e56367f.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH6RicOqy9ibmn5ZHfcEibxvmibib0rJTIz6ibeY9CY5ghy4q9eGaNbJ3ickqEg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](AI数据中心一次电源前沿技术概览_images/img_012_71d123902216.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHMXjtSk0MRgCxfPRoTZqtGmde6sibjib3caejE1uJgNmzibACV4icQiaywHQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](AI数据中心一次电源前沿技术概览_images/img_013_11ad24fd2852.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH20iba3WaFDicf1eUr2ibmAKKEoSPvWUvBEAjiaCFhIxpb0cqQHyweabyhw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](AI数据中心一次电源前沿技术概览_images/img_014_81a35f6572e6.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHCscrRSQItoBGzBPBm0ZfsycAgMaRakaDrk7EqdleFfYSP8EpQBRibsQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=15)
+![图片](AI数据中心一次电源前沿技术概览_images/img_015_c80ddea3e774.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHVXFpY89YumqLH9sgDlC55G5fCOGgCvONcuAZbhltVJJWRqE5X420AA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](AI数据中心一次电源前沿技术概览_images/img_016_e48f81265cb2.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHibDiatcEd1KZ2bIibW17CRNyAz4FoHzWPya51VOC8QibfQaCtSuMLO4ibNg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=17)
+![图片](AI数据中心一次电源前沿技术概览_images/img_017_7e82fcd72472.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHpRYSBx4TFqH75hSztMwsH11Pys4VCCpX7Zo7MpT5wtMB1Lm5RichSNg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](AI数据中心一次电源前沿技术概览_images/img_018_a4d0b0244999.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHoib0lO96Qd798MHoeQlzg3xf5qpvLU8aJpuPoDfqJsC2K243pIkAKdQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](AI数据中心一次电源前沿技术概览_images/img_019_dc2a94aa9b68.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHD9T3NXxic2UCIB0o7hmx5atxCy0d7x3Y4515RLnMYxia8Y1BcqgFutkA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=20)
+![图片](AI数据中心一次电源前沿技术概览_images/img_020_d1489f939139.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHwZHmb5mWl8lOg017ic3FHIAZFTj7ictD218oI9zt6Jk3IQUCjYDDtt6w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](AI数据中心一次电源前沿技术概览_images/img_021_de974dd02176.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHAA94KicDvjuoSic1hY2pia4UJwTyb1LyvgaoKZu5ImtA6NIcHtkejkxyA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=22)
+![图片](AI数据中心一次电源前沿技术概览_images/img_022_0e4759f3fcf3.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHwbAJWwicA6mbWr1YsMZQT4AqI61cpDGcuLwXCUZXC4pegLCFk1nbxzA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=23)
+![图片](AI数据中心一次电源前沿技术概览_images/img_023_7b0fe52ceae5.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHiclTUzCPtkMicS12SG2RfOg9Q9ke5IlAO2xHMa7YVmwiahV9xG9PPJCvQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=24)
+![图片](AI数据中心一次电源前沿技术概览_images/img_024_6544f18ecc4b.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHncgEDFMOJ7axTWwe6SBfJAagiciazYic26K8VYj5bvWWwOsnZibiaLKBkTQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=25)
+![图片](AI数据中心一次电源前沿技术概览_images/img_025_ecaf6d415965.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHPiaqrCa4oiaiaicNF3wcIUwTciadMxUZrJq8oYesqrfiboKZTZvFHYLfZnRQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=26)
+![图片](AI数据中心一次电源前沿技术概览_images/img_026_d64b7aa89fd1.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHkKXlVxNGwdITwOcm8PMa3JGJibf5TYx7BN7bqdOK03A7BF9PQic7OqBg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=27)
+![图片](AI数据中心一次电源前沿技术概览_images/img_027_cfdb617bedd8.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHjDF1LaDPRvlrBdNopCpmX2oqtS0Rl2sg1IhU7FibIfR5vw4qaVNa5qQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=28)
+![图片](AI数据中心一次电源前沿技术概览_images/img_028_70d5de30cfe8.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHt7RZm4OOIY590FBuLmyHxgTrN0LDMaxN8ZROibgoUZ9BawxwX82P52w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=29)
+![图片](AI数据中心一次电源前沿技术概览_images/img_029_f7b1bed3dcdc.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHOGpMNd6aLAH13w75nVI9pNze4oSOpbbicjYHPx8hpxFtrO08asiapNYA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=30)
+![图片](AI数据中心一次电源前沿技术概览_images/img_030_5973a3b1b0b1.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHcWrfvGyvN4lXeGtQ6x2ATVkia6m6pdfFPytQRPoHuicLyoiaspM8cshrQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=31)
+![图片](AI数据中心一次电源前沿技术概览_images/img_031_275ffb9394d8.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHF3tF5GIjFlxiadsFwhlUFiaeHpN42Xz8A6qzZJwR6t2kz9setYl5w3rg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=32)
+![图片](AI数据中心一次电源前沿技术概览_images/img_032_bcf6bcd1628e.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH44rnmvMEhMEZaupaiaPXMgqKc5G9uZlibsKXXI6iaAbjLzq8k5C006MMw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=33)
+![图片](AI数据中心一次电源前沿技术概览_images/img_033_31bbc62156ec.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHgplz4REW050rKxuFeqC0zvjQP5YpEeW7Yukc14f6aAEzia6Erzh7y2g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=34)
+![图片](AI数据中心一次电源前沿技术概览_images/img_034_2d8913e27e48.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHLGURnDqDOAF2MLhbhb1IXpuWMwcssSXrLlRHSCIiaE8G4pZ4icPOibkjQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=35)
+![图片](AI数据中心一次电源前沿技术概览_images/img_035_c53d23b0bb37.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHVw2MxTV2n8iczPrQY1QenicUN7XPHC9qsrVXnogKykPZJ0icfjPcl4yDQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=36)
+![图片](AI数据中心一次电源前沿技术概览_images/img_036_4bd9f3329d4a.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHvGLYUgLelvUwOAm8yhplF48dwBeMxnuic7bznYxggHiczLH0DNkzRaQQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=37)
+![图片](AI数据中心一次电源前沿技术概览_images/img_037_71a3da809771.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHTcBlUs39Gsp2toKJCaXP1j1LMdKhkBftXRNdkHPLJRVib2VkkblVE8w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=38)
+![图片](AI数据中心一次电源前沿技术概览_images/img_038_b845ef05be6b.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHkH9xe2s3xMv4oWJAiaCp54CibmbLc1MxhClkytbbJzhvoiaobjc665onA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=39)
+![图片](AI数据中心一次电源前沿技术概览_images/img_039_ac8b3acf673d.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHbGL0nGribxvHEZPHf7vGlvuYa5bMYicevs2XFyAZqZLF7fWNA2tqTCXQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=40)
+![图片](AI数据中心一次电源前沿技术概览_images/img_040_b719a885e8b9.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHucgf6icC7M84FCALXZbzicqauS1jXatY7sa72zrZ6oPIceIOqwtZwWog/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=41)
+![图片](AI数据中心一次电源前沿技术概览_images/img_041_263983453a92.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHqiaVHqFzSyrwj4jww7zicKp1s7YCvRWNydhMwEM3ocnaX2PjWLPicudNw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=42)
+![图片](AI数据中心一次电源前沿技术概览_images/img_042_dfcb9fbabae2.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKMI8WlyxKvcjdOXZnvupsGudX5cSqfqqd5MS9vOkhZYq22TMOV5AIA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=43)
+![图片](AI数据中心一次电源前沿技术概览_images/img_043_0a834ebdd0e2.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHEVw4G4wRJZCMzZFxCibVSIIHLtkEOPibw56OaGNVVmZvnib8Es7lVicvNw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=44)
+![图片](AI数据中心一次电源前沿技术概览_images/img_044_b7dd9b27a771.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH0QwB4AT51DstcA49ib8b6Tt1ncswApvKVeLpk2bTC82txiacnUmBXyQA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=45)
+![图片](AI数据中心一次电源前沿技术概览_images/img_045_fba21e77029f.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKKy9Vpsia2Tgian15LODkcva91ZlawiaGH1EGyFooYTmat2RbGyNqhpFQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=46)
+![图片](AI数据中心一次电源前沿技术概览_images/img_046_ea5c3f88b1cc.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH4pqkqkR0ASft8lBzyzsibaprqhEbeEMg0vOXB9ueILrE5fHDfWAOduQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=47)
+![图片](AI数据中心一次电源前沿技术概览_images/img_047_f17441a97e91.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKuwTCsHqFMq9t34G4y92eb8cYIHPQFZ1EWiaQaopDD5AoWPsksczvicA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=48)
+![图片](AI数据中心一次电源前沿技术概览_images/img_048_5f4e75fff5d6.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHsNpicviaFMvHhCyODBGECxVmyaYN5E1kjWXPzzMsuibia1IjZrj2UW83UQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=49)
+![图片](AI数据中心一次电源前沿技术概览_images/img_049_7bea69da5d4e.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHw1kzFnZBqqmjrRrhicf0EoQic2vlvPyxdEib0ZQwgLPvG3dPkmGYZAVRA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=50)
+![图片](AI数据中心一次电源前沿技术概览_images/img_050_a50b954835d0.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHfTo5DyibcQffg256ukw6QFjibHdqkASj8ic7c7pcNzZdXbKPJ7Vj54Lgw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=51)
+![图片](AI数据中心一次电源前沿技术概览_images/img_051_0a1052be426f.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH2s7b6jmB8WpULrfx52xjBUaMCXvjCytibWrvstyGAleBhPPtRWstIJQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=52)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\AI数据中心一次电源前沿技术概览_images\img_000_7c23e6826a6a.png)
 
 注：文字与图片报告无关
 
@@ -278,14 +278,14 @@ AI数据中心是电源技术创新的最大试验场和驱动力。把握这些
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiahHY93hS9sVhQbJicB3yu1p2EzqNhSicic9KUP5bWDFuEs5HrgBq6GpncQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](AI数据中心一次电源前沿技术概览_images/img_053_2adfef47b8b4.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiadr1zvTneRoaXvksADMzkObY7DGndXehDddqmkZQmHSTCniaQHZicibE8A/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](AI数据中心一次电源前沿技术概览_images/img_054_8dfa46ca4104.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiaeOqRtFcDArvPtSZx1wmqXjSQPvsD3ltVdA4KhKv12zXHlXklkw8ibqw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](AI数据中心一次电源前沿技术概览_images/img_055_12573778b4a2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiajVfvepZuwVjmCc2woBhbQhiapibic1aE4gULukk0XDXBXfwrDwGeLichKQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](AI数据中心一次电源前沿技术概览_images/img_056_d88fa5d673a3.jpg)

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Jr2JJxYeW9yz\_AtKKW3s9A](https://mp.weixin.qq.com/s/Jr2JJxYeW9yz_AtKKW3s9A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -40,7 +40,7 @@ Compared to the conventional permanent magnet synchronous machine (PMSM), the ma
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibTBpSEN5Keic3my0TQazqCXtSCTuaMH43XW0ibibxdpADMlcrqqfD65PY3EKXzAZAeuMVXygBFdzOsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_001_fb87aab0b712.png)
 
 迭代流程图
 
@@ -52,19 +52,19 @@ Compared to the conventional permanent magnet synchronous machine (PMSM), the ma
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibTBpSEN5Keic3my0TQazqCXtlOGqQyjgPtnuQWkcSt52gRBeIIUg9ZhzAVjeT1V0iaA569AiccKodCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_002_ce42aad2289b.png)
 
 **柴嘉伟**，辽宁人，哈尔滨工业大学电气工程及自动化学院博士研究生。研究方向包括永磁电机设计及驱动控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibTBpSEN5Keic3my0TQazqCX2ff0KcbiaBEpyQv0ZjkEkXGJTwj4J8JaMG6LfRwtlricBfprnyCtBdbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_003_dd4eae21b776.png)
 
 **贵献国(Member, IEEE)**，哈尔滨工业大学电气工程及自动化学院副教授。分别于1996年和2000年获得哈尔滨工业大学电气工程硕士和博士学位。研究方程包括永磁电机优化设计以及电机驱动控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17ibTBpSEN5Keic3my0TQazqCXiabUHc2DUDeE6ibRQvNo5kDfnc2SE0vaTHyNiaeIaIl2mxrHEhdJ3URfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_004_3ec0d0c39f51.png)
 
 **高强**，哈尔滨工业大学电气工程及自动化学院教授。分别于2004年和2009年获得哈尔滨工业大学电气工程硕士和博士学位。研究方向为大功率传动系统、高温电力电子、电能质量等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17ibTBpSEN5Keic3my0TQazqCXOEOOX8nUkTbq1Fia1Mf7RLuC1QbWuaMVF7aP7Y3EDs3MOAUhug3qZlQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_005_a9a1daca4fb9.gif)
 
 **徐殿国(Fellow, IEEE)**，哈尔滨工业大学电气工程及自动化学院教授。分别于1984年和1989年获得哈尔滨工业大学电气工程硕士和博士学位。研究方向为电力电子技术、柔性直流输电技术、电机与传动控制技术等。
 
@@ -72,7 +72,7 @@ Compared to the conventional permanent magnet synchronous machine (PMSM), the ma
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_006_654c2fde68d8.jpg)
 
   
 
@@ -86,15 +86,15 @@ Compared to the conventional permanent magnet synchronous machine (PMSM), the ma
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_007_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_008_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_009_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -102,15 +102,15 @@ Compared to the conventional permanent magnet synchronous machine (PMSM), the ma
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_010_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_011_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_012_644d85f1cc17.png)
 
 学会官方B站
 
@@ -118,15 +118,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_013_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_014_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_哈尔滨工业大学贵献国团队_考虑电枢磁场影响的高转矩永磁力矩电机解析方法_images\img_015_c28b250481e7.jpg)
 
 学会科普微信
 

@@ -60,7 +60,7 @@ c、有阻抗控制要求的网络应尽量按线长线宽要求布线。 
 
 如果板上有专门的时钟发生芯片，其下方不可走线，应在其下方铺铜，必要时还可以对其专门割地。对于很多芯片都有参考的晶体振荡器，这些晶振下方也不应走线，要铺铜隔离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAIqazcnLt0CaXPk7QcGsEhHqTg76h4fwOWKXnX47uXPiaIy4hicNpTWmA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_002_aa59c5b570f0.png)  
 
   
 
@@ -112,7 +112,7 @@ c.时序定位精确，由于差分信号的开关变化是位于两个信号的
 
 相同属性的一组总线，应尽量并排走线，做到尽量等长。从贴片焊盘引出的过孔尽量离焊盘远些。
 
-        ![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIACvfeNU0sTTFjZibibV5EEFFFQ2jnb4CEFTDXV8RZWPamtHcU1p4KV8Jw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+        ![](如何画出完美的PCB板子__images/img_003_9242b46a2730.png)
 
   
 
@@ -122,7 +122,7 @@ c.时序定位精确，由于差分信号的开关变化是位于两个信号的
 
 即相邻层的走线方向成正交结构。避免将不同的信号线在相邻层走成同一方向，以减少不必要的层间窜扰；当由于板结构限制（如某些背板）难以避免出现该情况，特别是信号速率较高时，应考虑用地平面隔离各布线层，用地信号线隔离各信号线。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA8QUXbHHhdauaicNHUW9uEoDNUCPpcf89HFR1gERDkbJWKx3VdrzOuyA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_004_bd0b3841aac1.png)  
 
   
 
@@ -130,7 +130,7 @@ c.时序定位精确，由于差分信号的开关变化是位于两个信号的
 
 一般不允许出现一端浮空的布线（Dangling Line), 主要是为了避免产生"天线效应"，减少不必要的干扰辐射和接受，否则可能带来不可预知的结果。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAvurgIWlia1NDr3MSOee26qt1VZ4IsPz9QDibZiatXMTzC3ice01icibiccBuQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_005_214aba03db09.png)  
 
   
 
@@ -138,7 +138,7 @@ c.时序定位精确，由于差分信号的开关变化是位于两个信号的
 
 同一网络的布线宽度应保持一致，线宽的变化会造成线路特性阻抗的不均匀，当传输的速度较高时会产生反射，在设计中应该尽量避免这种情况。在某些条件下，如接插件引出线，BGA封装的引出线类似的结构时，可能无法避免线宽的变化，应该尽量减少中间不一致部分的有效长度。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA88UPN3xaFYANVYSB4OSHxrIQ8q7HjqvQMJavDbOFcWI6OwltfGT2rA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_006_3398f10c2fe7.png)  
 
   
 
@@ -146,7 +146,7 @@ c.时序定位精确，由于差分信号的开关变化是位于两个信号的
 
 即短线规则，在设计时应该尽量让布线长度尽量短，以减少由于走线过长带来的干扰问题，特别是一些重要信号线，如时钟线，务必将其振荡器放在离器件很近的地方。对驱动多个器件的情况，应根据具体情况决定采用何种网络拓扑结构。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAjzVsZKuTYaqSHg5H3l1jriaPM8OwsUuMXsd3S3kRs64jgUibtIhYfq1A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_007_05a60db867aa.png)  
 
   
 
@@ -154,7 +154,7 @@ c.时序定位精确，由于差分信号的开关变化是位于两个信号的
 
 PCB设计中应避免产生锐角和直角， 产生不必要的辐射，同时工艺性能也不好。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAK5HicsmSOhMERdLbiaBu0l7mWmpz0OQQclvlwziaibBezDcib6NiasQlicREA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_008_66d69aaca324.png)  
 
   
 
@@ -166,7 +166,7 @@ B. 在双层板设计中，一般应该使电流先经过滤波电容滤波再�
 
 C. 在高速电路设计中，能否正确地使用去耦电容，关系到整个板的稳定性。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAuBxSYL5LKETHTgOojcyoxMgrGF6CbO100CND1sSibw75JHwNqFxrQsw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_002_72ccb1f0a766.png)  
 
   
 
@@ -176,7 +176,7 @@ A. 主要是为了防止不同工作频率的模块之间的互相干扰，同�
 
 B. 对混合电路，也有将模拟与数字电路分别布置在印制板的两面，分别使用不同的层布线，中间用地层隔离的方式。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAYGicrcIPOicZmuSLxIVpxYBJib89MEYgRqP6jqW88b1KFDERPD4z1RbDw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_010_b8265aecbfff.png)  
 
   
 
@@ -184,7 +184,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
 环路最小规则，即信号线与其回路构成的环面积要尽可能小，环面积越小，对外的辐射越少，接收外界的干扰也越小。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA23mppwpGYrNZowBqpSTUvjnCyO6gXmGsMSPTjWaoPibo9UaacmP7dPQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_011_71317e0c33c4.png)  
 
   
 
@@ -192,7 +192,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
 对于导通孔密集的区域，要注意避免孔在电源和地层的挖空区域相互连接，形成对平面层的分割，从而破坏平面层的完整性，并进而导致信号线在地层的回路面积增大。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAvDOlLOtfXibNVJKJJ8Ifzic76zxFibO57K2Nl74ZbodPtKOBYDwQrQXSQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_012_279200a2560e.png)  
 
   
 
@@ -200,7 +200,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
 为了减少线间串扰，应保证线间距足够大，当线中心间距不少于3倍线宽时，则可保持70%的电场不互相干扰，称为3W规则。如要达到98%的电场不互相干扰，可使用10W的间距。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIARrQA0W9hBYN1MiaU5pd2vlKn6YX3Gyhy9ahVT6Lod4ZGXv5YW2A1kYQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_013_4e5277257795.png)  
 
   
 
@@ -208,7 +208,7 @@ B. 对混合电路，也有将模拟与数字电路分别布置在印制板的�
 
 对应地线回路规则，实际上也是为了尽量减小信号的回路面积，多见于一些比较重要的信号，如时钟信号，同步信号；对一些特别重要，频率特别高的信号，应该考虑采用铜轴电缆屏蔽结构设计，即将所布的线上下左右用地线隔离，而且还要考虑好如何有效的让屏蔽地与实际地平面有效结合。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAGuOYoym1cQypgQtxRz6BtlAw9np4KNMVBudaDgBGoGP0JbpqwbZdmg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_014_c8f8e08e72b9.png)  
 
   
 
@@ -220,7 +220,7 @@ A. 对于点对点（一个输出对应一个输入） 连接， 可以选择始
 
 B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的拓朴结构为菊花链时，应选择终端并联匹配。当网络为星型结构时，可以参考点对点结构。星形和菊花链为两种基本的拓扑结构, 其他结构可看成基本结构的变形, 可采取一些灵活措施进行匹配。在实际操作中要兼顾成本、 功耗和性能等因素， 一般不追求完全匹配，只要将失配引起的反射等干扰限制在可接受的范围即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIANQic1X1J7Y0X48qrULdx2AyUKG47LkS11A25krkA2OfL95vAFeavPUg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_015_205b657fd145.png)  
 
   
 
@@ -228,7 +228,7 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 防止信号线在不同层间形成自环。在多层板设计中容易发生此类问题， 自环将引起辐射干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAayVruHyM0fIvBJu5l3MUaxne09K4Ba0nNA1mnx5lpR0IK7nm3NEAOQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_016_ed7bc1f02d0e.png)  
 
   
 
@@ -236,7 +236,7 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 尽量控制分枝的长度，一般的要求是Tdelay<=Trise/20。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAJ7iaia63DjbgR8IefJ0e4g5m2RNfaE8lvmsRgRiaPeWVyrlr8kpe4VntQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_017_714945cd2f96.png)  
 
   
 
@@ -244,7 +244,7 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 主要针对高频信号设计而言， 即布线长度不得与其波长成整数倍关系， 以免产生谐振现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAzRMAIFWw8pmg3QjeicLibqibX7Nptc501oC3sKMZ0fAxqAxQXxsRLAlRA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_018_b73c0030935b.png)  
 
   
 
@@ -252,7 +252,7 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 孤立铜区的出现， 将带来一些不可预知的问题， 因此将孤立铜区与别的信号相接， 有助于改善信号质量，通常是将孤立铜区接地或删除。在实际的制作中， PCB厂家将一些板的空置部分增加了一些铜箔，这主要是为了方便印制板加工，同时对防止印制板翘曲也有一定的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA8VqwRsEItXBvTO8jRbVF0qzg2lwCkoVydCLC6meRW6vHPXcIBNDYxQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_019_2d09c9a682ea.png)  
 
   
 
@@ -260,7 +260,7 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 不同电源层在空间上要避免重叠。主要是为了减少不同电源之间的干扰， 特别是一些电压相差很大的电源之间， 电源平面的重叠问题一定要设法避免， 难以避免时可考虑中间隔地层。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAzpDk5Nw1EUXZ4dYyHd174lsj4nBnTEXUqdhzdOP0p6zkl5hq5gH1NQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_020_7108b44e448a.png)  
 
   
 
@@ -270,7 +270,7 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 解决的办法是将电源层内缩， 使得电场只在接地层的范围内传导。以一个H（电源和地之间的介质厚度）为单位，若内缩20H则可以将70%的电场限制在接地层边沿内；内缩100H则可以将98%的电场限制在内。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAIbvBBhsJ3tAtG3F9qpwrdH3OYlNx8vg2XmwKxOeACzzOoias06TZwRg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_021_119a344f6dc4.png)  
 
   
 
@@ -278,15 +278,15 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 对于单双层板电源线应尽量粗而短。电源线和地线的宽度要求可以根据1mm的线宽最大对应1A 的电流来计算，电源和地构成的环路尽量小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA0VWwFlXM3OPM1p5fxNNpsKAAlCb2CMT48WY3aibR3pEDdcL87c1U7pg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_022_48fd5c11ba29.png)  
 
 为了防止电源线较长时，电源线上的耦合杂讯直接进入负载器件，应在进入每个器件之前，先对电源去藕。且为了防止它们彼此间的相互干扰，对每个负载的电源独立去藕，并做到先滤波再进入负载。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAtBg5UPpG7bYeTe7kzRN9sSabsS8XCJMottu1JaaNvAhyN1iaUEgIy4Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](如何画出完美的PCB板子__images/img_023_cc54032dc054.png)
 
 在布线中应保持接地良好。如下图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA2sewsZ6VvcDHibQJaicbkWXYSJ5XPCOtKewia5sMmzQzdP4vDUMXzib97A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](如何画出完美的PCB板子__images/img_024_6374d0069338.png)
 
   
 
@@ -298,19 +298,19 @@ B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的
 
 封装：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAqMa8zjJ77JZmw7GplvR13jtQicjcMjgMREypqp2byTiaJtic7tQ7KZmGw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_025_72851c724a49.png)  
 
 引脚定义：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAT4J1IcbmuDxIbwt8LXuLkwjjgnv1DBRzH5v2aOZuxzLgJ4D3fp8iaGg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_026_647d045e3d81.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAAUVJRARwhdep158HB4c4gtskzMJSic7PVd7cibSk1H1od3JW9P8iaLctQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](如何画出完美的PCB板子__images/img_027_9d21ab1adb62.png)
 
   
 
 原理图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAdvGtB6pFRbFXOpcGYk734mOgicGibeHpWiaruKUGds3qwvbjfXHVNEGsg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](如何画出完美的PCB板子__images/img_028_80a2a9f95a1b.png)  
 
   数据线和地址线：
 

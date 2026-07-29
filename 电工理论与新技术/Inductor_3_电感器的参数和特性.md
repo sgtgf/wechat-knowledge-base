@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/YeTjdWUyI6L-lYNXHqIibQ](https://mp.weixin.qq.com/s/YeTjdWUyI6L-lYNXHqIibQ)
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTEIVMoucWHdVFmVuWfkUA0rLZZiaNwfJERPuaLwaVWsx7fyiaxqmA1seScECibkvXibNJBsVoSerVdVw/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_3_电感器的参数和特性_images\img_000_07c8fa18ac0b.png)_
 
 __**_★★★_**_Inductor-3---电感的特性参数_**_★★★_**__
 
@@ -13,7 +13,7 @@ _€1.电感的参数_
 
 **_表3-1_**列出电感器的主要技术规格。本节我们解释电感器的各种特性，但并非所有的特性都被作为技术规格而作出规定。这里归纳了电感器的数据表中规定的具有代表性的技术规格。但是，项目的有无和规定条件会因厂家或商品而有所差异，所以需要仔细确认数据表的附注等事项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicqjp6CibvoegBicPBfgbRXR02sINWqYNNG29UXPIBwnJNEJicIAlXwFlbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_3_电感器的参数和特性_images\img_001_26f5ac7607a2.png)
 
 **_表3-1：关键参数_**  
 
@@ -41,7 +41,7 @@ _磁饱和特性_
 
 如**_图3-1_**所示，电感器在流过的电流超过容许电流（直流重叠容许电流）的最大值时会引起磁饱和，导致电感值减少。电感器饱和时，如上述的阻抗式可知，阻抗变小，流向电感器的电流变得异常大，例如DC/DC转换器上有可能引起效率下降或异常动作。磁饱和容许电流是电感器的重要特性之一。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTgEukcEq6H2CRgmUS1HScQLk2Nl43HpAFDx9lsvx7d1OibZ6yllFWtbGq1bnbhGMG13rsc9V3Z4ug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_3_电感器的参数和特性_images\img_002_3bb66cc32a32.png)
 
 **_图3-1：随着直流重叠电流增加，电感减少_**
 
@@ -53,7 +53,7 @@ _Q 值（品质因素）_
 
 某一频率的电感器的感抗与电阻之比，是表示电感器的性能的指数。Q值越高表示接近纯电感的程度的值。Ｑ值越大，电路中，越能起到纯电感器的作用。以感抗XL除以ACR而得到的值来表示相对于频率有多大的损耗（ACR简化为R）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicJByqATRB7wpa3s0M5SibXtYMUiaXqrzYHjo6SReb39Tr2SFk1PxA2Z3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_3_电感器的参数和特性_images\img_003_0fbced7ba61a.png)
 
 从上式可以获知，如果ACR小Q值就会升高。
 
@@ -81,6 +81,6 @@ _€3.电感的分类_
 
 电感器有各种不同的种类。此外，分类的方法也会随不同的观点而有多种。下**_图3-2_**所示为将用途作为信号类和功率类，各自按照磁性体（磁芯）材料和工法而进行的分类。
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQcKblTYNJbFPCclNwZPC6fXzTNMK3MVLy0Gkjp3W7FicVujrXE18WhD9KEoJ0Wt4QibKXA5Bw1XTSQ/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\Inductor_3_电感器的参数和特性_images\img_004_fda6b35b6bd5.png)_
 
 **_表3-2：电感器的一种分类方法_**

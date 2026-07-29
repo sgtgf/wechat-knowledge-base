@@ -86,7 +86,7 @@ Jensen 不等式绝不是数学家躺在椅背上想出来的文字游戏，它�
 
 # 图解不等式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocugILRbGPG0T0HYJmbUURLs1UhGb0AIqoFv0LxAtRic2iciaZdzFnSlyS5yGwGUyxjlP4ekjNJvialyib7cl7ULibMZaciazr4VXqicuf0/640?wx_fmt=png&from=appmsg)
+![](估界铁三角之Jensen_不等式_images/img_000_115f4d5b4e2f.png)
 
 这张图是在讲一个很重要、但一开始看名字会有点“高冷”的结论：**詹森不等式（Jensen’s Inequality）**。
 

@@ -26,7 +26,7 @@ PCB 接地 是 PCB Layout 工程师一直都会关注的问题，例如：如�
 
 在低压电源和测试仪器中，隔离变压器用于将低压接地与主接地系统隔离，以提高安全性。通过浮动低压侧的地，它避免了来自主电源的接地电流路径。如果低压侧出现故障，这将提供电气安全。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMvmIEaAmqBvQmviaDmxG4DgppxNcDQWbXTiaclwuic0lGg9CnS2M02aI2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_002_4f53f9aaba38.png)
 
 浮地
 
@@ -44,13 +44,13 @@ PCB 接地 是 PCB Layout 工程师一直都会关注的问题，例如：如�
 
 信号地是电路中使用的任何模拟或数字信号的参考，大多数时候信号地等于电源地。但在某些情况下，电路中的信号使用不同的隔离接地来返回信号电流，这导致为信号定义单独的接地，信号地可以在敏感设备和测量仪器中找到。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIM2tC4jAk104GgGaNGcdSkdTxLFBgkzh5tRWRtW0yGuYht0DXjsn57mQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_003_54aa7311ad13.png)
 
 原理图中用于接地的典型符号
 
 在为模拟和数字部分划分电路板时，分离地通常连接在具有模拟和数字轨道连接的混合信号设备下方或附近。 当在混合信号设备下方的模拟地和数字地平面之间进行连接时，它能够以最短的长度运行混合信号走线，并减少干扰设备周边其他模拟或数字信号的机会。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMsG0kn2Sq7x22JnuGIR0r1uQgYsb7DOmEy2HKjPuITW3UqibqOGlX1Lw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_004_9ed562f2b378.jpg)
 
 模拟地和信号地分开接地
 
@@ -58,13 +58,13 @@ PCB 接地 是 PCB Layout 工程师一直都会关注的问题，例如：如�
 
 虚地常见于运算放大器 (Op-Amp)。虚拟接地点（节点）不直接连接到接地（GND）电流返回路径，而是保持与接地参考电位匹配。虚拟接地用于分析运算放大器的功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMN4hGEh1ibUaHTlKvxxJBYSbTriaF5KExOIb1gJgt9gc1LcfUibPOMXfkA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_005_3ffdf85622c8.jpg)
 
 虚地
 
 通过考虑虚拟接地电位，并假设运算放大器不吸收电流，得到以下关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMNUZ8JUeaUTtUqEw59ol7sjJNNuLmbsc4CrxQhAoBurPBCVphKdokyQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_006_c1df01f119a3.jpg)
 
 虚地计算公式
 
@@ -76,7 +76,7 @@ PCB 接地 是 PCB Layout 工程师一直都会关注的问题，例如：如�
 
 PCB 叠层中初级接地 (PGND) 和次级接地 (SGND) 之间的分离意味着我们现在在电路板上基本上有一个隔离电源以及我们的其他重要组件，这些组件可能是高速数字或精密模拟组件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMqJKpdkRTkJ7lWda7x6nDJndq89gjzcHzG8736R8aicNQOW9vENesOFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_007_74a28531eab7.png)
 
 输入功率级隔离接地
 
@@ -88,7 +88,7 @@ PCB 叠层中初级接地 (PGND) 和次级接地 (SGND) 之间的分离意味着
 
 下面原理图中的机箱接地直接连接到电路板，并带有与外壳的低电感接地触点。请注意，连接器上的引脚 3 是地线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMneWf5jnkUN0ksUv7WMPbf2mM9rJGOqa6qFyTxS88jZAFYliczRX2icng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_008_fe3937b6dde6.png)
 
 底盘接地
 
@@ -107,7 +107,7 @@ PCB 叠层中初级接地 (PGND) 和次级接地 (SGND) 之间的分离意味着
 
 必须在这里小心，因为两个接地连接之间可能有直流电势差，在实验室测量时可能约为 10 V。如果接地桥接（例如沿屏蔽电缆使用屏蔽），接地偏移可能会导致大的直流电流流过电缆。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMOqUp5IjicdJ2NzicYXYvNZtuAw4LaqAYKicVe9ygJ7AjeLpmP9fUYdjVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_009_a90496697bcc.png)
 
 多地接地
 
@@ -117,7 +117,7 @@ PCB 叠层中初级接地 (PGND) 和次级接地 (SGND) 之间的分离意味着
 
 在电源系统中，要注意如何使用电容接地以确保接地参考保持一致。Y级电容最合适，你需要消除平面之间的直流偏移，同时提供电流隔离和高频EMI 滤波。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMibm5u34qM4TAxP2liaibk6NOW7Y3z2FickEmLEiamW2LFfZL4KWsaTObQOQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_010_c42f16588034.jpg)
 
 PCB接地电路
 
@@ -129,7 +129,7 @@ PCB接地电路
 
 所有连接到地面的组件都通过公共迹线连接在一起，这在旧 PCB 和简单 PCB 中很常见。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMAbdD9VFs7w6qeTU2pjX9lH93ONsBkLN4AiaMiciagRL7FMzJeTzNxqJYA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_011_b1fe222cc1c2.jpg)
 
 地线
 
@@ -137,7 +137,7 @@ PCB接地电路
 
 公共接地平面是PCB设计中最常见的做法。PCB 上未被走线或元件利用的自由空间被从地面覆盖。公共接地平面显着改善了 PCB 的热特性，也有助于降低电磁干扰 (EMI)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMamsVXP5Zjh6r7xVKdYRLrsKObcQsYvKQUIeMibMD1nicrvh23RhKZhicg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_012_302ffd13f6f6.jpg)
 
 公共接地平面
 
@@ -145,7 +145,7 @@ PCB接地电路
 
 专用接地层用于多层 PCB，组件通过接地过孔连接到接地层。可以在具有 3 层及以上层的密集复杂 PCB 中找到。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIM4f6nCS7d6QxOCXGp7pBibE9DXVYqW6IiasbzQljH4wv97OA9wHeiczm8Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_013_76ff973a2fa3.jpg)
 
 专用接地层
 
@@ -153,7 +153,7 @@ PCB接地电路
 
 在电力系统安装中，所有接地连接都连接到接地母线。该母线连接到接地导体，该接地导体连接到接地棒或接地网。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMux9SkNLicLSh1QWak91fo61Dc3EjjjapWlNaefCEM8wXfyOmDGo2hPg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_014_2d6f29ccd566.jpg)
 
 电力系统接地
 
@@ -165,7 +165,7 @@ PCB接地电路
 
 等电位确保了该区域中的任何导电部件之间没有明显的电位差，并防止在故障期间触电。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMqZeAoTtiamFnaJM7fm3NbCvEdyWjI11UrlBWiaMFIbWzpUTc5DHF41PA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_015_754fb59efe51.jpg)
 
 等电位接地或者接地
 
@@ -179,7 +179,7 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 使用接地层是许多 PCB 设计人员最常用的技术。接地层通常由铜制成，覆盖 PCB 上没有组件或走线的所有区域。一些规则适用于接地层，具体取决于电路板的层数。例如，如果电路板有两层，则规则规定应该将接地层放在底层，将走线和组件放在顶层。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMcIM108iaKqg2sXNvhaWb0iatzWZynPEx5wBERiazgYI6NdQiaNjxEoyH7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_016_c30a985872b9.png)
 
 接地层
 
@@ -189,13 +189,13 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 每个组件都必须单独连接到一个实心接地层以避免接地回路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMoxjjzGWmhcwMOWZwMibVT2QcZVodjhibEicFolQ3ZJPCe0TPgYgSXQ9mQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_017_c24bfe41cd76.jpg)
 
 由连接到接地层的两条迹线形成的接地回路
 
 使用机箱接地时，你可以通过在连接到机箱的接地部分放置一个空隙来避免接地回路，如下所示。电容的使用提供了一个交流接地点。对于需要使用墙壁电源并需要直接返回地面的电气设备来说，这是一种理想的情况。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMibFfIEZ5De7Knjj3TNgxVNhuiaHEEmiapUkkAo5R5V3G9C2z9JDs54lUA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_018_296aad858982.jpg)
 
 消除接地回路天线
 
@@ -203,7 +203,7 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 元件应布置在靠近地的信号层上，以使返回路径短且走线耦合到地。如果 PCB 包含模拟和数字组件，则必须非常小心地放置接地连接。电路板的模拟部分和数字部分应该在物理上分开，但它们仍然需要连接到电源返回路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMJf05ZlDvZ7BIEXnKOTN0DvPVAPoDZh4hJFA7wJjEIXt7H53JUYfwMg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_019_bac2d76c9824.jpg)
 
 混合信号接地连接
 
@@ -217,7 +217,7 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 使用过孔可以帮助你避免接地环路。它们将组件直接连接到接地点，接地点通过低阻抗连接到电路的所有其他接地点，同时还有助于缩短返回循环的长度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMbGMnzLhzaDAPkz3Cxc8iauGJpTdAgqJxYuAZBl8ZkTwCxJoqcMGUsiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_020_a72df41d4bb8.png)
 
 接地层过孔
 
@@ -231,7 +231,7 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 应该在电源引脚和组平面之间 放置去耦电容，以消除由芯片中提供的电压产生的振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMS0TeLW0ZcVVx4QIFVFD3d4QkibEQx0lQuZQROhfmWUlEX2g1gsasuhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_021_1856ac96813a.png)
 
 高频去耦的正确和错误放置
 
@@ -253,7 +253,7 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 无论是单层 PCB 还是多层 PCB ，都需要一个点来将所有接地点连接在一起。这可能是机箱上的金属框架或 PCB 上的专用接地层，你通常会听到将这个公共接地点称为星形接地。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMdrRbc8CTuiawOgfOlHkiadnq5wTerPfwD2cSIrcBIAicsIhKchPVk4kiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_022_040209cbb4d2.png)
 
 始终提供一个共同的接地点
 
@@ -273,7 +273,7 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 你可以使用基尔霍夫电流定律来了解电流将如何通过你的电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMBhDUZSBnmREeXyIkibw7nmUIJIas98Il2LUGB9S8OicqgWylOERknVMg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_023_1d3e33d0e87b.jpg)
 
 确定 PCB 上电流的走向
 
@@ -295,19 +295,19 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 在设计 PCB 的“平面图”时，务必将这些区域隔离开来。ADC 的接地可以连接到一个公共接地点，数字信号可以通过该接地点传递到 PCB 的其他部分。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMFQRlaaNkCFibDicMaWmtg9ehtl4hZl9oJOrv9RohWqNjibIqJ852YbmwA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_024_720408a751e8.jpg)
 
 注意混合信号的平面规划
 
 14、避免接地回路
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMLEE8kKEsLypnoEfoFdXIQmHp2iaWnt7cgVaX7wNtIK0YOgsKXIibhPhg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_025_d8c1fa05c8d6.jpg)
 
 由两个走线连接形成的接地回路
 
 根据经验，“接地回路”一词可以指系统受到接地电位差异影响的任何情况。一个典型的例子是，当两个模块通过一根长电缆连接时，电缆中的返回电流导致一个模块的接地电压明显高于另一个模块的接地电压。不过，这里专门指的是接地回路。例如：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMAibErYBoia9ib2sYwSeo1yCVgyM9Ve8ic99PhzDBBLhK7HpnS3MdyZ6uOw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_026_348c1a078609.jpg)
 
 接地回路
 
@@ -315,13 +315,13 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 接地平面的存在并不意味着不可能创建接地回路，因为 CAD 程序不会阻止你在接地点之间绘制轨迹。但是，如果你始终使用过孔或通孔进行接地连接，那么问题应该会在很大程度上消失：通过将过孔放到平面上，你可以直接从组件连接到接地点，该接地点通过低阻抗连接到所有其他接地电路中的点。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIML5oiaEOU8icumNy7SVqKicpFMNppm13Picjaat8ILrA2F8IFP8yyNAVTbg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_027_83cafe46727c.jpg)
 
 避免接地回路
 
 在 PCB 布局中正确放置组件很重要。可以在组件正下方进行分割接地层的连接，以避免接地回路。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh6YvLJr4fdtKaYZmfDWhIMSOZw20FkEUGzibZn8AQc6IwqbLBib1SbBOt5R0YbibNCUAHNmzvL9zTfA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_028_ecd9c015bccd.jpg)
 
 避免接地回路
 
@@ -329,7 +329,7 @@ PCB 布局上不应有任何未连接的东西。如果你的板上有一个开�
 
 以上就是关于 PCB接地技巧，希望大家多多支持。记得点赞、分享、收藏、转发，评论。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\26张图_讲透PCB接地_images\img_029_524a49306099.jpg)
 
 ## 
 

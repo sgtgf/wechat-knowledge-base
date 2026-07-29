@@ -7,17 +7,17 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHclUwoATtCD23gHeQKicdrkkWFTylKOeicMIL9iadIZL5AoQ2ibTNgiboXWjA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_000_2fdff3cfc81c.png)
 
 碳化硅功率模块作为一种新型电力半导体器件，因其高温、高电压、高功率、高频率的特性，在现代电力转换技术中得到了广泛的应用。它的应用领域非常广泛，包括电力系统、工业制造、交通运输、能源发电等方面。其主要作用是控制和转换电力信号，以提高能量传输效率，降低能源消耗，延长电气设备的使用寿命等。
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHcM9LN2u8rYZVu973YfwHeaGBHgg39d2oUysaHcDoHvyZNpp6FkIzAVg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_001_b8c0432e98fb.png)
 
 随着碳化硅功率模块尺寸的不断缩小和功率密度的显著提升，SMPD封装的SiC模块的性能优势明显。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCr3UufiaH6PvpNLLlB5Ac37KdIsT3NprxuyZ2ibwadEnCQyE3icz1jgSAIQ/640?wx_fmt=png&from=appmsg)
+![](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_002_d3a40a73775a.png)
 
 SMPD（表面贴装功率器件)是一种先进的贴片封装技术，可为众多功率电子应用提供多种设计优化机会。SMPD封装的重量仅为8g左右，通常比同类传统功率模块轻50%，从而实现更轻巧的功率系统。由于采用DCB内部绝缘，因而多个器件可以使用同一散热器，从而减少热管理工作量。尺寸更小、重量更轻的另一个优点是，它具有更强的抗振动和G力能力，特别是用于便携式设备时，可以延长这些器件的使用寿命，并提升它们的可靠性。
 
@@ -39,7 +39,7 @@ SMPD（表面贴装功率器件)是一种先进的贴片封装技术，可为众
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCr48Un7LicMKaXl3lDr5Hf7saH5QO5T2EwficnU8RPQjTdCDNMZibaLBKpA/640?wx_fmt=png&from=appmsg)
+![](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_003_7a60fc850871.png)
 
   
 
@@ -59,17 +59,17 @@ SMPD（表面贴装功率器件)是一种先进的贴片封装技术，可为众
 
         ▲爱仕特SM8模块产品特征
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrHMVFHkrZiciaySw9BPb0mtibFnoianI0nYHcXibczfaOWru3JGt0RWaTkVw/640?wx_fmt=png&from=appmsg)
+![](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_004_c156ce5c9245.png)
 
 ▲SM8模块实物与拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrdfYAS2tG3QucdpBuicicmb9noyX9jWYfmpB71C0Qk8TBklgbIYaiazQgA/640?wx_fmt=png&from=appmsg)
+![](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_005_82b64a931bb2.png)
 
   
 
 ▲SM8模块650V产品参数图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrwTGFOGSwdpBQlbhQIn6fBLfgb59hIxlH6ChZkVZDfNzJPhFKJqqibWA/640?wx_fmt=png&from=appmsg)
+![](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_006_70f5c3e91aff.png)
 
   
 ▲SM8模块1200V产品参数图
@@ -114,7 +114,7 @@ SM8模块性能
 
 内置NTC温度传感器，可实时监测芯片温度变化。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHcHxtwWxf00AGpNmKUv5Pc9J8YxrLdQ0oUCG7YcpgNl2NdPwfUhjV9aQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_007_b1f1441ec2eb.png)
 
 ▲SM8模块剖面图
 
@@ -132,13 +132,13 @@ SM8模块性能
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTuGBwtowqWgFian1lQyHHcVgkxJp5ibo0TSPNfIBIVsw271Vric8f1qoibtu4icAam6ibK6TmaSiaG9QkA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_008_010d17e21bff.png)
 
 ▲双向充电器电路图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrcUAsXDWVQmEVPDgpQ8ZcZgpJBqVrwGbAPSEgDQJz1QMCNdy6AtPKeA/640?wx_fmt=png&from=appmsg)
+![](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_009_e13244e3ab0c.png)
 
   
 
@@ -166,7 +166,7 @@ SM8模块性能
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjS2ibZZFByWMubvBUO5NCrBCyZdLdKiajyfDdvW5Dhof2YdTALo7EReR88yMHyLQYAkmHa0wtdnTg/640?wx_fmt=png&from=appmsg)
+![](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_010_892014df5e19.png)
 
 **应用领域：**
 
@@ -180,10 +180,10 @@ SM8模块性能
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXeTtY8ttSX7uutKLCqyek3RgU1haicZf4aZNz4u9iapFfI5mq8njf37fA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_011_bcb3600f041a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslwRVicggpfMXPrHGssPx4aKYKZzhIunNFH0klMicIYW8Cp6jiaoBM2IMzwia01kic4RNyhXcfhPfcTB6g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXDKKhuCNqQUapzEY96xhPtfI4icy5eTHlncVA1ekGtfI3l5fUJsgNenQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_012_952d642a3af1.png)![图片](SM8贴片塑封SiC半桥模块_具有顶部散热层_集成了NTC温度传感器_适合紧凑_轻便_高效率的应用场景_images/img_013_f3c4c2c8886f.png)

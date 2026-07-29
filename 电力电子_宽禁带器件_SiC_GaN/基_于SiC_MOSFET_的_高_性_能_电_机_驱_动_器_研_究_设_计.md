@@ -26,17 +26,17 @@
 
 考虑到电流波动引起的过电压以及功率管关断时 的 过 电 压， 取 高 于 ２ 倍 的 电 压 裕 量， 因 此SiC MOSFET的实际电压等级计算如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXACY3B3MHkxju1skib0gk5Hn8uWrJPUcuoUURQp6koVWhkL13nSkT7KRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_000_c70dd6fabb78.png)
 
 SiC MOSFET的电流等级计算如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXAD30ulgz75mdoaH6XApVt9qEfrSCQ3RGZt4M1pNWe4NiambPYHhnXBZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_001_289490c0a05e.png)
 
 其中，Ｉ０ 为输出相电流有效值，Ｋｉ 为过载能力，选为１. ２。
 
 根据以上条件，选择了 ＣＲＥＥ 公司碳化硅功率器件 Ｃ２Ｍ００２５１２０Ｄ，Ｃ２Ｍ００２５１２０Ｄ 的相关参数信息如表 １ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXAdEWyobvyyA7jWx99pSmDCK1jeDYW7dzbociar7PibzbrX02otibK24sRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_002_0e731dc5f161.png)
 
 １. ２ 母线电容选择
 
@@ -52,7 +52,7 @@ SiC MOSFET的电流等级计算如下:
 
 ２) 容值计算:容值的确定根据下式所得:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXAkGicic9ZgCXXmialkcDDKdzu50HtnGibziaC4q0kDUBxCRM6jksAAAOTGgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_003_d4e506eb710c.png)
 
 其中，Ｐｍａｘ为驱动器输出的最大功率；η 为逆变器的效率；为载波频率，ｆｓ 为母线电压；Ｕ 为母线电容的纹波电压。
 
@@ -80,7 +80,7 @@ SiC MOSFET的电流等级计算如下:
 
 为了满足驱动器的高效率运行，采用了功率器件并联方式，这样可以近一步降低功率器件的导通损耗， 三相逆变桥的连接方式如图 １ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXAkrSeXVe3tic9WbDZegHlKMJL7CuBhkFwTficIQ6iccjP74SeYWeAYeQIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_004_fa22a1576871.png)
 
 基于SiC MOSFET的电机驱动器 ＰＣＢ 设计分为驱动板和功率板。 驱动板设计过程中，信号侧和功率侧走线和敷铜间不可避免地存在耦合电容。因此在进行 ＰＣＢ 设计时，应该避免两侧在 ＰＣＢ 不同层之间存在重叠， 驱动芯片下方不宜走线，进行开槽处理，保持两侧具有较大的隔离范围。进一步降低耦合电容， 驱动芯片输出侧的回路面积尽可能小，减小共源极寄生电感。 功率板设计过程中，吸收电容尽可能靠近功率器件引脚。达到吸收电压过冲尖峰的最佳效果。 由于此驱动器用于高压，因此在设计布线过程中，需要考虑爬电距离， 焊接功率器件时，将功率器件引脚尽可能剪短，减小封装寄生电感。
 
@@ -88,15 +88,15 @@ SiC MOSFET的电流等级计算如下:
 
 ３ 实验验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXA44hNHFHEscVP8GTqcazLxepFUpqm67OS1zDoFIstQe2U2F5RBa7cGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_005_37e6d3cefc25.png)
 
 驱动器测试实验平台如图 ２ 所示。 额定工况下的相电流波形如图 ３ 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXAW4GLxCt6bib8ortpPcr3LyBRIfUDuU5xbrG1gnic8spQGDDmLeUAHKag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_006_b5f8ad8b5eac.png)
 
 额定工况下的功率分析仪实验参数如图 ４ 所示。驱动器的输出功率为 １０. ８２ ｋＷ，此时母线电压为 ３９９. ９ Ｖ，母线电流为 ２７. ３ Ａ。因此驱动器效率达９９. １％ 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm2X37eu8NnVLxqgBXpwbXA3tVv8WHqjIexib3IVpCoXdib0TWVianQcyhuQ0CnwPNyNjiaS49ibqU3sicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_007_5d4666ebae1d.png)
 
 SiC MOSFET的电机驱动器重量为 １. ７６ ｋｇ，驱动器的功率密度达 ５. ６８ ｋＷ/ｋｇ。
 
@@ -106,13 +106,13 @@ SiC MOSFET的电机驱动器重量为 １. ７６ ｋｇ，驱动器的功率密
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkzM4nJZfIC5QgFfribRYKyjbkqtsIt2eIPXkibANybG66UoupfWrOwVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_008_5148264e0d9d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsBrKtVqic7bg0L03u2LcaOD95aUegJVoYxOwib1bEuX4eESgvK7RMrMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_009_b4862f61cfaf.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqECTcGj3ia0RmTNR8afGnIARTia9BmzdfiadGhabibhxVeBEaUFZX5aHdCew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基_于SiC_MOSFET_的_高_性_能_电_机_驱_动_器_研_究_设_计_images\img_010_ed358d59c69e.png)

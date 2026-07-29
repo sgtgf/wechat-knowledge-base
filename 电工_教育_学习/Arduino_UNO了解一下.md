@@ -42,7 +42,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqXKurL4nn2ob6v7ictbWDXIic0T69jSiaajicGmicW1IJEA5pogpg2K9ia9XA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_002_65287a1ddcd7.jpg)
 
 在实际开始焊接之前，我们需要了解Arduino UNO的各部分功能。大体可以将其分为4个块：
 
@@ -92,15 +92,15 @@ TX / RX LED
 
 首先，我们从MCU以及数字和模拟IO引脚接头开始。Arduino UNO具有巧妙的排针布局，与ATMEGA328 28-DIP封装的布局非常匹配。因此，无需交叉导线。
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqZiaJm9Hlt6h0M7vXnJzB6p1iagxEaFvq2PhClmhSjsVMMBdDZ8QsErfw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_003_66ec8ca9f62a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqqQVRWevpzicbnshEbZrFbpPnPLlicia09dPia5yRic9mk4dIDKfJrt7vDfQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_004_ef41a2fded99.jpg)
 
   
 
 ATmega328起作用的唯一外部组件是需要两个22pF电容器的外部16MHz振荡器。ATmega328P的硬件最少。现在可以通过AVR  ISCP接口与USBasp编程器进行第一次测试。
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqThicyYMWibKS2Vk7oL3r7CyCovOFBmyX3MOpAmgzjl0BrRuJqjj3oHjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_005_eb6b2d67cd46.jpg)
 
   
 
@@ -118,13 +118,13 @@ ATmega328起作用的唯一外部组件是需要两个22pF电容器的外部16MH
 
 我给自己做了一个特殊的夹具，用于将针座固定在适当的位置，从而留出足够的焊接空间。
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqeTSXBBz7FiawTiczAN3rGFCV3hiaW3icwtpUmp7Ok6JEaUEorX5ibcdx3TA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_006_73402888d211.jpg)
 
   
 
 ATmega328由5V供电。Arduino  UNO有两个电源输入源——插孔(7-12V)或USB连接器(5V)。同时它还为外部组件提供3.3V电源。这意味着需要2个稳压器。首先将7-12V转换为5V，然后将5V转换为3.3V。根据数据手册中的建议，我使用了两个AMS1117  5V和3.3V稳压器以及一些电容器。
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvq7ekZGfcSlYr4UOG3ReiaLbVjchsHnevSruFSV30mA4khnCTHhsmRczA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_007_bb92ceabd59b.jpg)
 
 为了简化操作，我将电源电路焊接到了板子的外部，然后将其放在数据线上。这实际上创建了两层自由形式的电路。我省略了自动选择和反向电流保护部分，因为这会使所有过程变得非常复杂。除非您对板子不满意，否则可以不需要它们。
 
@@ -142,11 +142,11 @@ ATmega328由5V供电。Arduino  UNO有两个电源输入源——插孔(7-12V)�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvq9ibtG49L8sSlRRUaFibCJAswzZPYf3xpfU1czwueXryM3SrAmJdTeCQg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_008_692340e4443a.jpg)
 
 如果要在不依赖编译器的情况下通过Arduino IDE上传程序，这一点很重要。好吧，没有它就不会那么酷。原始的Arduino UNO  R3使用ATMEGA8U2-MU，虽然很棒，但太小了，不适合自由形式的电路。我决定选择CH340C芯片。它具有合适的SOP-16封装，仅需四个外部组件——去抖电容器，复位电容器和两个Tx  / Rx线路电阻器。无需外部电容器的事实大大简化了整个电路。
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqS6v1Pu8iaCKCsucnFrC6df2ibfR41ZGmVOicRZmgxouL0ib8lBObPzpErA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_009_6d98c27ef748.jpg)
 
   
 
@@ -164,7 +164,7 @@ ATmega328由5V供电。Arduino  UNO有两个电源输入源——插孔(7-12V)�
 
 我不喜欢那些大型THT LED，所以我决定使用小型SMD 1206  LED来发出功率，L，Tx和Rx通信信号。我很后悔。我先将一个SMD电阻焊接到他们，然后尝试将其焊接到电线。这很棘手。我必须使用低温的烙铁，并尽快解决问题，否则SMD组件的另一侧会被拆焊。
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqqaib80N9L2D82PERqQA0encUCDfL7MBUoNoxKS3eB2fOHpZ7ocvmDlw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_010_94093984fe07.jpg)
 
   
 
@@ -182,17 +182,17 @@ ATmega328由5V供电。Arduino  UNO有两个电源输入源——插孔(7-12V)�
 
 首先，我连接了外部电源来检查电源调节器。所有电压电平都很好，因此我继续进行连接，并通过USBasp编程器将自举程序上传到芯片中。惊喜的是，该芯片在第一次尝试时就进行了通信。那是一个好兆头。外部晶振正常工作，所有引脚均正确连接。最后一步是连接USB电缆，然后尝试上传blink的程序。我们来看看：
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqibSfiaaJLCz8U2VUXl4HlIibmiamu3DF0pgO0UgtxxqzHibFOePKyITFnbA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_011_21eaff0d3bb4.jpg)
 
   
 
 现在，我将其装入透明树脂中，以使其不那么脆弱。
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqDU3SiaFsLDI7xt1IK3nouzuOek59Y6iaqMDRIE0mIzzul7fAiaYOgnWNQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_012_9041cd17a6a6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqKKUR73dhqmib0d5jNsfQPqx8CswmgwFtibVBVibF9VsHHtFnBdWwlYbJA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_013_f1c2fdc6388e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz/nyJUhrkzoHBGr3AaRTygG6MMfU78kPvqwwiaQicwufdBqkP9YCVnt7N4piciacib09c6Yz7GNp1vDviarcGn9GyvUcicQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Arduino_UNO了解一下_images\img_014_b0cf26a22c45.jpg)
 
   
 

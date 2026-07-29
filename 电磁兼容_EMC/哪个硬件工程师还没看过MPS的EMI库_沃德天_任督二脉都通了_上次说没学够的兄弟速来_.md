@@ -18,7 +18,7 @@
 
 课题一：借助电路分析与仿真手段理解EMI
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlxf2RV0wUYDj6EGwJ64oTchru0VibZ79u6bbMQ0hYx6F3mHuh6fsfpFH9c8QG6wiaXKHZgOAXNy1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\哪个硬件工程师还没看过MPS的EMI库_沃德天_任督二脉都通了_上次说没学够的兄弟速来__images\img_002_cd7de6c479eb.png)
 
 ****👆****点击查看精彩视频与课件PPT**👆******
 
@@ -36,7 +36,7 @@
 
 课题二：EMI的噪声源分析与优化方法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlxf2RV0wUYDj6EGwJ64oTl4HEn34cPoaRaMKKfYuiattt0Dia7Emx2o7GsGEfIVIibcVt5MZBSj5rQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\哪个硬件工程师还没看过MPS的EMI库_沃德天_任督二脉都通了_上次说没学够的兄弟速来__images\img_003_fac031cd4d7f.png)
 
 ****👆****点击查看精彩视频与课件PPT**👆******
 
@@ -50,7 +50,7 @@
 
 课题三：反激变换器传导和辐射电磁干扰的分析和抑制技术
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlxf2RV0wUYDj6EGwJ64oT6DMnsHx2Qev5WnROFVrAPclEEu89gkMfkJpa8K9xwQgrYfRQFOJib0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\哪个硬件工程师还没看过MPS的EMI库_沃德天_任督二脉都通了_上次说没学够的兄弟速来__images\img_004_4f1df7763c8a.png)
 
 ****👆****点击查看精彩视频与课件PPT**👆******
 
@@ -68,7 +68,7 @@
 
 课题四：电力电子系统由PCB接地布线导致的高频电磁辐射的分析与抑制 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlxf2RV0wUYDj6EGwJ64oTCpuRNAT4pdgibxNNicbsYjHVXbqsBbjGau2HqxjxpcP3AvbcibUjn996Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\哪个硬件工程师还没看过MPS的EMI库_沃德天_任督二脉都通了_上次说没学够的兄弟速来__images\img_005_7898449ffdfb.png)
 
 ****👆****点击查看精彩视频与课件PPT**👆******
 
@@ -84,10 +84,10 @@
 
 看完不过瘾？更多EMI学习视频，尽在MPS小程序！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhlxf2RV0wUYDj6EGwJ64oTVoh9z9bvIibRTu0ptsGsSg8XMIfRZDBRnPE012hMj6EyPlZ6ankYClg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\哪个硬件工程师还没看过MPS的EMI库_沃德天_任督二脉都通了_上次说没学够的兄弟速来__images\img_006_0567cbe4fa8a.jpg)
 
   
 
 **什么？看完有疑惑？点击****文末“****阅读原文****”****传送门进入MPS 官方论坛，一键提问，MPS工程师24小时为您****在线****解答！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhlxf2RV0wUYDj6EGwJ64oT9b1NkFvdBIsA0saHpnYncpcZ0XdpBeUicj7BS7LD9E2ibiacejLHVSlSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\哪个硬件工程师还没看过MPS的EMI库_沃德天_任督二脉都通了_上次说没学够的兄弟速来__images\img_007_6037b8712b07.png)

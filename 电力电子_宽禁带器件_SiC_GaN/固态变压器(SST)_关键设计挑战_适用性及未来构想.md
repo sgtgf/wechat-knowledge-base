@@ -8,497 +8,497 @@
 
 作者：Johann W. Kolar, Jonas E. Huber
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrfAClbqcPEnv9jaVwlmiaJj0v7Fx1jYQeib0VdYRnicQHnTSs7oUXVysrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_000_99089ecf445f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrql9s06LalNHDUGjUeibSaorGaUWialKicK5zGQk1TCEx4KPPLH95Nia9tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_001_4b1499e0d43f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr94BnWfq0e3XT57hgKG66gCkxdYq1hCRbzkRuBk72nXL3yzMmqzYkDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_002_1a8b310345fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrRgTSJGfNpDNpmMNmcewh6JhdkQYNRwhIAZhdzw2jmN5OdQdaohgysA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_003_88c2dff858a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrBHzISQ5BDuvym6GVKdZ03TXlrWsuNBknUkSONKlBKzGyMu6xQY1zOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_004_90af32b6bce0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrjSBPrVsDibyia6h2rE4tibtiauNKppCTicL6fic9tZEXVG2GrQvgXibVLKjKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_005_ec59bf04ea30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrmaW4b33zvwxZs1yZjq5QDLMCkKLTMzhNF2XKsUUk13VuY8DfuC61QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_006_c13376c654ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr7qndd9Vqp25nrN73sYFmdZuq2n36aCcV8olPWNMUS34JsMiaGxC82mA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_007_b5a3a5c355e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrdn2TK1qvpm2Fz3q2icKzRQ9t6mxE5mRMTvDlvv7miaNsSfFYVchjianRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_008_253323c1cace.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrubfQlhibH5lBVtYRY78PQMY6lMEo87mUEibkbOzucrtzIyFBjOVPEnIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_009_f12d90c56aaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrdianFBJ1K0ZV92icUVb2ibKf06hCiccibibicgLyicGkyL7SicYNXBwQclcvfGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_010_4c3152562b4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrGkmKh8NCHno0fRu5KcSPCulo7oibH6EFlibAmHBZz77FKuviaqvQIfJkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_011_0b31b0af8721.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrcorwAPKeiaA414LKcjIjmPyX57wI5jLuTFKzT5UbHbict9ic7UNbvKLKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_012_221937956160.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr8Sedribcj0Cn2GrKodU2ibT0Cu56olPoJ3ib6wSGyHE9DEEQeV5IwZq9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_013_ef3de1e53562.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrlrfMexcKFGcjMiaianOnFMHkcdGO8U4SoOmdLDDFdAOkibmicibliamLmUXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_014_25690a833760.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrwiahSccLF4vpnicEicynrialnP6unGtZtFtmNTQItmFKNLsbgibESSLM05A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_015_d42aead94bc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrKqEY88ar2W3zYHcmibjCuDmrYfKZ0tSicQfGQvkjTp0q09cCVA0dgzug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_016_57c388834966.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrhUCaTWen1KPCL8a5qMicqGZBMILbKPgwEIzc1L3icPqjPVCeq55jYupw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_017_f8551be833ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrQe1RMo1CibOYStgo6kiak4b1zr3M44gouHEWUPZax7UteickcYJic8ctAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_018_42255429c4d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrBZ1SnpibZ8WFqvHSGs4LvO9y9icBLah0UB5zpVyXo8n1QcP7CpeoALVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_019_c35a3301222b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrlKGbRxSibqr1QQEHic2Eq8MXDqyshcicGb7lI4p4ckvV5G3f2KM5CDlaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_020_337a6dab90cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrGk2gVFZvPwNr7DHMkbrxyjdoC4gKH3icp8NkLaxLIkgic1rkOuMmTibnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_021_1464ebcfbcef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrYXKSMblTdadgI2Puiaf6kvEr2ooZcZIMq2DL4GgBfBwrC78uBJicf9yQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_022_f1e59af9c48e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrpg8cKhyThVuZwzxUiabdrvbCrAlskLUCV2Pv08xkiaMjb37ia9qn1CxYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_023_8291ff77b5fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr2Tib1uedgPLhfXGib3O2uc3cYZsgZk0ZcmtuFsr6vFwQrmAfxAStW77A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_024_5723f3e68b51.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr2q8JtjU6TvKY5IAJVf0PRtnaIw7IcQXkSn2Buia6iaiaVenfsbqlwT8VQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_025_c1e6df63d680.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrvlDaheAuiaTdIXg5iaLNaQ1zxudyAExaib3h7jMvPd1wbvlTuHHSiaTIlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_026_3db4565ffb46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGryicOjpkeJj1etsnyjDp1whD7rxXoJTusGjay6ofKI9FicEg6kbD9XVDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_027_cd493a3f4b33.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrwNp6aX6dB6IFQBcgtTiad4TTSgDwCRrmvibPARmbhhJp3umtLfHxFDuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_028_a7264cf06ad1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrdBPYezd2YC7l7NMm8LjRWhEhmgzlmxnoyjwRZnVE1jxgXN63wYseng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_029_a9c94451b536.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrKePHfibnedQAbLbQ7T1yNxQRQXZ12NRzEWvd81icN5uFFQ21nL457AQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_030_60825c583152.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrF0q3csZYUgDPLuUblT8KnNs616a16mb6OKEicgOaJrfRI6jhDGZhSHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_031_2e5cca0107a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrTOjYRTswp1ia4uth7U0hQMCb3t2j6G5H2FeVOX8u0nfmJPeqYx4nCjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_032_9ca16487b183.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGraRST7a7sa2tT4081sx32DTPcvZyKlyrmsYFsZicpX5XK9TFbpDA9sXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_033_99df719d8592.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrhGsEV1UTmnxdKyYqv6Uo0oIxOHRzhpAuTnto66F56iaByO41Uv2lEqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_034_1fbf75767f7a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrLnVDqBQ4aZwfZxVzzGuUscMHk55nK5IBhzx1o88fIjGMdKo0ssHEaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_035_0f469e475e7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGraNnjA2f05kBYAyicV3WvMjIZpZ92aYvicn6399gzIcdIuZdOdOtg2Tmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_036_d217fc879a6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrUlVRyVAv9mVH6HZqVfAQ87tWUCiaO4PloclJjamjyYjgqRqFdNdJzbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_037_61acdf4c9851.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrIoM1DviceCk7XQbYkGAtIvln5xFY98DWlibRb2wOOWqY6Xh0jQK2devg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_038_e11dead11214.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGribBSJUYQeZVqdlFmZ9FiclFDhwMzKkibpDoiaKicv0p0RicO5gpRZZO0H0ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_039_ca9e18d62d47.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrAR8tfwNqzk6hcaNWlafupCbvFsNCH6aZ2z9IZ32w9iaca2TdCFsMuLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_040_c7030a58685e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr0wS4arlfH1JrdACEYel9947HiaqksGcYP3deiaMQEtd1RAAiaqDL9oib6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_041_6b5e8d1bd8ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrMULYPagticapHicXGf4cV6ATicytiaceEG9KOdduWflUSVPDOh07s4SIEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_042_91967e2eea02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr5CCPcIsDFaLNLojuW7rOujBRibRQLkySAZGDFSNS0GAeC3nF679zicvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_043_ba8716bbd9b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr3yyNWSsSm2P2XXicB2e6GPvZUpUwlYglKNxEDHOEZHkAckcrt8wZDog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_044_52ca49eaa054.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrvOgcNMQPQNOLEDV8d7jKTO37IibJd9IggUibtCXI8icXuwhVSYO0WZFjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_045_e5d86dc86bd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrLmZ5Dk5gPwVZtibQUDSn81eia1k8czaUGFNayUia4CM72lhtzDagNIkGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_046_5e926df3004e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrAKNRKrs4v8hU3811IUy8gYmTxcoJDy69HARAfPQl59qtWRkUKJiakUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_047_8f49cb025535.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGricGSiafKiay44yAEqciaHOK05R2s5K0MMHcXqNSicB5dM9CfkfPZ4mY3jzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_048_fa0dcfac4c3d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGricJT4h7uXtibwa1hC4N0bPT4fL6Oia8ibLnXJkJdffh4Aq6PFqxIBibErrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_049_b6e0144961a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrIINvRlBwic2Kpduhr7yiblQZMmBPE1txnkxkwtZTqy8bUFrvKIISscAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_050_576d75836d24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrVbDiaVqhXUGw5W7hJrYc7cW7vLpRcLsAEZ1Hw9vgKFHlX44Id608Y1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_051_857860794b94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrMia6mAx1ia6ug3sH4vgn7Fe7T4txKvFicQ93MgFSD3PdrLgPV09ggeYWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_052_fa66ee521b77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr6s5KL1btsibF8Iiahvs1UUia2sMwLENicgtoFaibd1OBibfChaxxOoq2JNRQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_053_ed35953723ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrBVD1zDicbSxeCqLodomOzAz2JMHnxb3LoY6ICjQAww4SpjVe76qV41Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_054_41fd278c9109.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrcWldEEibrEIl6d1618Iz5OfpaeC6vdoUw0poERGuLaTg1oPfXSNc0eA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_055_9205bfa8c677.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrFU0dZ89ZQMWKLSfoxf5S87HlfF8f2TFfV87cEfw8qIpP7KguhNib0dQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_056_676ecb99ed78.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrggKia8VbUcbWxLh0GRy1T7Qgnn8n73MJSWZicvDssW7sBqQD1aiacrCrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_057_a4a46ebca6b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrecVALciaEx4ibmBiaiaicxDicqunJsGBufnureq9icwbh6zJFWRkGIXfOgiauA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_058_7cfbf5f74b67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGria7erhLRHh3hDGKx95iaTcyX3bD5BJB37ZyIvk6EYccb37yzPiclHfO6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_059_1cbce69ef8ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrJ8iajZDEXhhQjYNicg3l8RHkiaichPMvIAdfxHzNF4wGA8g8BiazvdUicaWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_060_2a9ba4f388d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrQfVC9yamwUvoicWIzqz0SNcQMJoIsCB1UocqI3t0mImOD3iax2Oee9PA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_061_fb35ba842b50.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrEia2pWWd3rGMxoTfjS54PGHQfxxWLrvZNeVRWQnouGlW8eauCnVmCFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_062_d3dabc98487f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr21ic2icJeibAZ8toGicrOzrsjU23X9t0VymJjnJ6yXBNpeAOWA2YqsF1dA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_063_810f32e99134.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrGSUnGmpUH3gLpSUCButEWZqWVOaNicA3Q9GcjE77ia3Nia0MeFf8uZCqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_064_90502eb43fbf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrn2XsclpvS5fialc9e4mG8Qomvkthfje3bXaV0omEGvPE0vONEwLoOww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_065_1f38ec25eb67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGraaC9PutAv4eVjbYamvV9cLv5CM0XRhktJ1mcw4vRMVrSdwFvJNIMWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_066_480d7657e66f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrF51y9WgR29hfTocezQhUicezTOQX8TvMYyO2cRhQpMFDN0czaicUn5Ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_067_e88c0321cdbf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrMco7exo8OJbwfHxBSQusLQCGlSfklNqjS2RAicNJbd4fRl7JEamGDSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_068_9b4d0d7ab4f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrfqYjfHvCBn2p0S9Maa9SdSD47qTFPA0VkZeGXns3x6QKI22WuiaaBFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_069_0e0cf53869a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrSY4Z8uRMSnfrfia4MX24E8H7DhfeqyTP9njYx9a15FlZibLo5ATVsqCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_070_22876dd8e12d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrtQPkqzO3iaT43JozBiaQn2J2qaDpHOYm339pDXptibONTsm7o4PBzXibbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_071_5dca8a2436f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrv55aC9MvQWxyibQ4axAyOxLyaBZSiacJyeF9o96Louwiaef0mJQIaNVPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_072_a8c4d6645b8f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrTFIAhiaVKicRaJ7lpofAgtaXibjPNz7JNXCliaDrsN1W5hSlqINmYBh2Fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_073_9754206cb58a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrkvYLzsJwdowHVs99uPJaOiahzGvxhjMXIehFTMcUh7Kcx8yvImvLvrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_074_81fa0d7c6b91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrEiclUzMRFO1IBPEXEpNTs7RJj4g1iaUxv9NJpSibtc25pbxWJaKdnJnJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_075_0f824c86867c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrHCM0bU2WavD48ibocwtHBvS8BfNQicibvdSdY8TgGeylNicyziaMaHoOcqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_076_32e02b7574c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrISTYyxVNxwuWY1yPW12gzLjbECzdEl0S8bduQ5S7StMFZ33tia0nDVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_077_df1095f4a825.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrHzzuGWr0bP4bR7EicW11t150iafAicrpAibP1Av2m5JOljw6G2qwRzWarw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_078_99b8ec187b9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrQC7ia2MsvI3b6YTrDwxoC5PicY74CsBNId1W9icW8QorTWtDxpO2dJvVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_079_d8da4dbb65fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrnuJR9iaVOzI9xtiasWCSyGkoXuY64b8mxlwicPxxI4Ypzfxdz8bovfZBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_080_d19aac02a553.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrPRJeF0eKo7oQPtSnZOFo1kIF0dZQO930U7CEdp65jjVo33Syoef45Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_081_042ced6cfe00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrmBDiaIBLw4F7UeYet1rmCv9ib2e6tceQvpZOQR6zt60gkA9mV3tRzRWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_082_1f07f58f7cbb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrhMAe3NW6poQgxAnTgb4OibTIHXCVBy96xibQ0z9TNpjaRU0SVhhUcE1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_083_3c932bc5ebdb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrRRKaaJUaTOXp368AyNymH49wTEXic1wZ81HgHibDicYY2hO75lagqvIvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_084_ad26b7e62af1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGru7D5e66rfIf6l4vunXVfDF2dRmUFGnP2pqyz6ufibT134Bwvfq9Cx1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_085_0df8ccab0f95.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrsCEH7plWDiakGpUoqVOzwiaFmOkCygrUm1GQnzmYUAicRhASmxhm1icYvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_086_bcdf2d69861e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrItyREQBouOQibdAD1MMEp688NWedj5aJFTqZUjPNB6neM8iaiavlDEoVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_087_414651b85d24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrBFvqQvB1zFn8HiajiblSEr5zHdAXkY3r0n2F7OtVeLLLJF53PgA7Szbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_088_a9055b869c23.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGruToFwgH2RKM82hH8R26hVqguLPia4Ux0buHdh2F1DHBtPoAp6h8605w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_089_4629a8ca2340.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrjUg7Q0aDxXbeOfib5B61e4lwLDQKOuZElJahPt1xxhf1dPIgKNw7qmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_090_24fc2f2b1204.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrV4XHygzwfbUL3gYqQqyziaSxOsJ6pib4tf2t64TpCsFOxwrUBDWzNe6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_091_64de948f57d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrQYiaznKIV2mMyW0rx8AKDvGJ9cQZymIwMAmSgqw0f8TPXCFIickpef3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_092_9b2c8c7fda6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrEOLicXt3Jx9PNkiapJjE0VrD5qeFPTBbsbslichgVqibQCEd8KjlVhm43g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_093_97566d562f57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr7FNbnogMaaDvwVtQrT6A3FLWPoPTj9Hwlbf3fKpQW2oNPt9lmdmNRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_094_64f4643c4eb7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrutQOibH1ZK7h2r6q4Z0lASmOMjkFuTLgdxRuEBrw6JTOSJ3TU3A8CJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_095_add48e3240f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrRlHtg2QukXCh3poAhvkUFOMyrmeLOibQGw5BVicDYGeibyQDQJf9XVTHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_096_ec9cec407f09.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr5lb8YicCCuQrYTSyTaZI4dXiasHrMW2tQn0EmKZS3MibvwORQrXpcjDxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_097_2da2b1d7d95b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrtCzIEEkqZ9z23yuHvicJJciawT2cDNtic1F12KMic8Slyzib7h1KichesibMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_098_064a9b9af530.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr3dDtrJiaOVN5R2ALEr3a2R4kyJrXdHAiaHfSVa6fRKvDg4HvWYOsySLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_099_0fc873d306ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr9ribSAOGibOG42BTbFmcwt2AibSs8Hy955nCSVTia0Z2vzlDgIDlDztQSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_100_aa4d3b7457d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrgvmEOY4N3hotDDicWWvNW2QF4wCiaibG7doPvfnHZoUM3LWBWB2Iqladg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_101_53409bea7d2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr6n3LZNKYuYvbU7aDm5U8ek6EQIWaVOKMyBUlkXzPYxYtia86ic7t0lyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_102_cfa368a144e1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrmpTAFeLj7dfqZcNPiaFZib4oLRenRHyiazO2CJNFjIAUhCJO5S8LjJtcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_103_12d557059cb5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrOt9l2YeOLzgeegRgHYQYXbl2Irico2Uh0BbOJvG5lKl1tKflAiat6lzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_104_50907d106f9f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr22j2TqNONmf5Cic5LqkT6OEXOEeGlic5VUIe4icbkuFTmEQg3NbXa2x3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_105_f02da99e3c68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr9DIYCibjG9bXgatVFIxwbm29XnZ4EwN6UCu2Rbx5ASCDDuVcZmHk0Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_106_f39d259d3de4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr4YVtAjxcMiboFrPh0N1Ulho5xrePyTiaePcO53veEyGN2mMLm9h7qv5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_107_4065f93431e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrLlRH3GswpwKjbfXn3bmgZcZ31icUpdqxLhiaFoYfsm6tl541LMaia0Licw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_108_158cb492bca4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrAqOLWnNq9ZibkTyjrGsNLIgFAFZENxickrAssg9Fw2BJyJibsdFDz4deQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_109_2e98382fb6bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrAvP9ZMkPJwtM5oiczv56EwgRficGlaxjFAy5F28Nd7pjpsnkJiaUPAjbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_110_4a72799acb44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrJMw3fsdENrpZJf96Q7w8tQ6I7UHUK7urOFuqWFicMGrGKZsWFH5qhCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_111_b171d293f138.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGroAp0g6vWyCTWQW4CkfLGFTeVxg6icPL4JEox5BP35NA3a9UTmz0ic9Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_112_c491162bd618.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrWsKIUVV4cXUCyLDolm9NsDkaORWUC00KaDJXKty11DNmFTxc0FQQCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_113_0fb081e020aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrMFAt4icVjZNldvhEPyM4iacNrKBy0DOQGXoVs6pJa6GgLUgbWdRvZsDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_114_d6fcb719e1d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrKicF35GKZLiakuUw34kd1u6nl2bB3EdrLMUyaSl3sBRticJwfsojsDbYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_115_59ccbcab8058.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrfRZ9KibQ3utmoZQoic78fQYicbQGOTXIuoqNNTBtvfIcicrvDUn56f6jgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_116_bab38664770f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrGf4Y4MxRdrhhIKvsCiaIKZJKl8cD0TuOlOqlV3RDN82LzKksa80A3ibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_117_40b55aeb7837.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrkg7K8G6XQDeblC4aa0Q7GYmBsfJAAo3aKZ88GmKATBxR6iamASJgl8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_118_3bb3bbcbbb6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrYo3IPGx6zJHAwJGHW1ba9TqGEyjtCc9ichmbxRt8ldwqcAV9EJt8bFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_119_568e37c4e0ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr93yjE8KbzZwckfwic7KoDrxibgyxMDy9jGL6g96bFJtkWLoolo3bNeAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_120_bfd128b9fc9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrY1jBb9bXicWbmpgzW2eiaht0YWNRTVweL74HwanPg2RDSKRH9OkosLWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_121_a2e623e0a0ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrGunS8Zbuvg0iaMYHQob1re7vAbtSyib7SAFgEGqnPMsEjAhzPlI694zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_122_a9f68dff81e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr0ByU7dPXQqL1O4GjWnvOahDD7lTRSNBTnCr7OmEWzv9HkOJiapOn4tA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_123_83051e20e260.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr4LY6v1qyb9mc9uxWibkLJLQEpc3kWicrtNibKibG85EqyUdmArgtL5ibeHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_124_c25b4bc73770.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGroBTyOvMIDTQOjUj6zFnLo6RRSHvvxyDu5VMM4q6CqEoYWR6MJdzv4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_125_1e6d79429505.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrTUUwE3MgpnBfhFq6iaT2sMBOWknMXufDMK5hHyWZQT8uTIVhich3rEBQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_126_3252a360a286.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrbJTW1eicrwMzDzru4iaJfg7pt4QmK2t9sEknCScVMSJYrOdHdNIyMhIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_127_9203da332db9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrSf0Rmh2gaJkubWEicwFELick74ibojcGpkXq1xKwFl92qibibciaUHNOntyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_128_01f5c3e1bdfc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrrHTaicdialKm5N75F0JEvjia5jiamnYqaM0YEialDmzyb2mG7ubXFL24ljA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_129_cf7b66d39a30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrCvXh1hVDkhJrH65amAEcreL4KuN0VNFCmxG6EbHuQiaoI0Ef9f7tDog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_130_0b44a38f951b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGroibWJW04L1mGGAN51IZPFsLGSQWIhj9VRc8nAvmq8U8BPUlKFSAjIKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_131_8d776735d845.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrOdSDRCtpYKUlk7KsVAM8xliapffytJ0ickGibbicrFn9sXFCkUA8sKfSVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_132_b9c77cc7d0d5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrLa6kfF1OtdSv4MZZThXCWkWUqmdH8X551hnYjib7vw30a0RtQH9qYVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_133_7c2b1555d099.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr4Z3TDicUFjK1NRkHJmMSA9S5wep3ynlo8AFZ8ELdrW6oB0QJFVlIVNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_134_2fa83b33e250.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrLMBkJxB7Hn493tMFmG6hg2eJMib9RHHs2t11ChP0TicibgxHcsMYiaibEfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_135_e6280c071c44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrhUgpcmiaY0dKkSicLibibhWibADRqFVON1Yr5U8nhMs1DTNpAjrhP5IxVYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_136_e75131a2010e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrDicKrYSTLOuicDL3iaoibpZibO1Ql288TMQfckEdsMNN5em9tDMjeXUvGzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_137_8388dfbb4024.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrcUIy1dTwgUQI6LicCXUf4MpBpEjj4uScFJWmLibibjev5sUUS5B92tBrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_138_253738c14aed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrO3cPwC0zFOW41Y8jeqTKx1ocWYyhcAt2uIN5gVV0WxwTQumXOhJibHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_139_d1f8b3898312.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrDSgGXwc0KPo8DqibRcMnXHV2fpJxSv63B39s870h7GkUdSnXg8ia03hg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_140_fd384e887530.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrtP3rgR2aRF5WQ0HEJTREp6lia60WVNSaiaok6CBt8GKwyGgRP9XsGiaDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_141_bfd3670b3f59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr1AABkn05Sk7zxzyexqxc4UwznzI0LUicMhJe5eicDUdAH174dKxnySrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_142_009b0d1ca19d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrJCSQibtzOtQU7mjHsN7QwdvOf79Jl2ymM4Ypghacu0gtsFDHpKlePKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_143_558c19611b85.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrcLTjFs3XUT6uAtuVOYgKwrzyu30B7Xm4AshsGE3lUqM4o2qGAsb8Kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_144_f3ff3f123567.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrnmL0kLTOerWuuhQNWmaeZs5N81wRGkZkjHFibu101X6MibtZ7ltWwWXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_145_d07ac26ec169.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrRjdmvkUwtd7dPmcicEhDUFC1ISLn8YMHmTPZ4x2evNGjK8pdPj7YhJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_146_8d93d3a6d0a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrGSMiaJ8PiaEAJm1wY8kXZSMCiajBAqDCRaFw5alFJVczHSTzvZrrkVOOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_147_11eb34604a90.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr4HfvrVqDNUWFhKM35iaS5yEy1SZPlRRTpOp95r81GrhOUNHmnWRVsDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_148_c9a21012b61b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrIgY1k3EAOgNibf1cBJ7ZSz6yAKSzNicdUrcvuib8mJ7Dz2OvfoAibiaB4kQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_149_237c74020f94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr7Q7yicgknrP3XibYaYEZwr6Wcc5WL4QV5Nmy8jA1RQnqVMJmJHyeOPzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_150_24dd4c98f69e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr8GuNpG7iakqd5WqHlniaLibzSJCtar00QRHFfPfUib21T26JPcwoKmIfXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_151_deb7aa81fe40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrCGzgAiciaaCSj0DRTm6iaXEnTvsD44K6ywvEzUJEvX9D7EMbbAwo9cJKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_152_a3589435ee48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrYDG2j40cAFzF7Ptiad3qxQeLa9MaNLAUgtsibGRicX45Mv71ESAYliatDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_153_df647a470679.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrqMZrzzbJfEukq9zxNkwGDkVbgxIx08v6HAlecicU72RZEOy7OGaBqicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_154_7343b8f1b2d7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrnHGKRzcXibhxO6AkxA8BATbT4LwiaqWzPAOoCWicqAvTo1bjqSf6ymHDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_155_72f67acde74e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrZ6folytUOHkMQTX2xO4e0LlUHgQxGWljsDl7JfVNgk1XPoDibfbdgXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_156_e80522e587df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrWjDicYFck86MPpjiarBddx5ljibOW4LlYSicdHeF7RKicNjFDnrF0LZNREQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_157_c0628e79d6eb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrzOMpghqE2c6A6PISkg42zv24HMKMs0R4mFmf9YdeYLIAE5fV1R0WYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_158_570325d184b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGribta9XHSImjmTb5M8GnjHajGVLgwralK5bJvMP3KgMDIqiauBVgiabaxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_159_648b288043c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrZvSoNBaAORXgicmjl3fQhAEjBSwGk8uVOdx6Q3XQLp10WxwkkSnBgXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_160_8b3ebc62eb6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGryaCZ5W675fiaK1Xc2yuicvYoRAib5lKtyichia8TqsQOj7dicrz9nLvklcZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_161_f2d6ef9536e9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrLvYyw6HlVESh1R4wN5OFK6VLGoEqusHMKbvGhneeZB6phMb0kmVKQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_162_14949a5c3b93.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrIE3nwR8pIdCbcTbYNGibyrvxIq7t6hNkOYsq6RUn8vCOJIpJccFPKqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_163_9c4511e0d648.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrqDPrPN1k3s4hpnqGmWXicCBWj2R2qxHibgv9iam1AFN38SOlUdLAavn3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_164_82db33e0965b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr4YG5Ayyt2kqgtwM87rCWUEg6lk0vkdJIziby6ibwVFayvmNFJKsNqBgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_165_d1d34a26fa20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrUCG7RNvZ2ceIlDY3tF5TYfZJTNQyqORH5ss6XCVj61RzyKN7icyakGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_166_8993bdc78fc9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr1PeIrSQOMHVJJHlvM4fLCriakv9wfKjvs8xicuq8qALKXID6FeJlyeXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_167_adba3f44d41d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrBBgtQYJGt9IOfxY20lcoMia8uJiaWtbAogpNibV4niaHialTAbN2HyLRYnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_168_e4de69120e38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrh0ZhYkYALgPmQFibFhBDRz6F5C2BmiabCLEWEUZIhXn69GtcJra3HkWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_169_d85b28537cfe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrBFFMLIwNwibKR3rzIvUxiaFBkvTrZnicHAJDkBnO1jCxX4Fo5icOZib2lhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_170_e88523799e91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrfUgSfiat9O6xiaaCLVVxbyic1X3vkrva5nN7Ba258icj4dW22Kwicmoagww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_171_f7d2ec6978ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrn87aI5dEwVXdpoiaLctIH1xN7sny7mQ1GbyRYNgVOx9BxSO9ibQSxhkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_172_40c6fa7b28a0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrarDBTWBOFOp2iay8FKd2mTBNkMSVzeXX8y31TBRchibedes3YYQJxtPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_173_51aa2c5266db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrvPbmKnBg0A5j1CklcNS5CRmm20xHWnHcm3Vom317Xicw74d7oSKLuvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_174_010712c41ce3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrGVD0VfGrKiaicWUiaEEPqovaWMJxKZ19gRQeGJqs05jCfXgnFJgWcurAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_175_aea68a717ec6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr3bZV8Kc0AVCyQYMicgzwFBwcytTMyUyCImwdhB4x7ibPibwjic9cicWbFww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_176_9947ae1032f2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr3YYfVaFicHayE28XmiaF7b3GG8Jl5zc4KicvHB8oKQgoKN2qXZ7ibZic3iaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_177_29c4634ba177.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrrOrIdxzEiaV1mFHG3jGs40Gjiald7VSG6RCukm2nialpvs7BF7mQyqr7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_178_8b85ff1a31f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrb7ia1aNGWQjR7P6254oW0v2SHIIHn5e4gu3qfSfhI4uZPyjc5u4dOVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_179_48958423b459.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGraJ5q8z6WOK4R82CHnYicjrFMiaHIz9QjBwX1haUmn3kOlwtiaiafRK4iaeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_180_4c2a487e51db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrpv7YqdVIcvd62GQ70Co7QSibWVRLS9uBsWBumWFZRwxr7gcG3rcNpVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_181_a8d6ddd34d12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr89CzhHCfmMxibgOfzkcDUDTGTqZ4ywshjk5r8VM0RoUiaORUiayDHkb1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_182_89dafc30effc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr4Ahu92odOWVPcf9PBrzLVVibx55Ls1dRWp3gGTdmqvCBpvIvWtUGgSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_183_474eda879db3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrpU7YibTwIKkSV3NrAuSZrndFCfnkibBrcdFEcXxIOssFrenXaLQI3Mdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_184_f78278d2b4b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrtN9lcVRGeV2fdnf190yLnKib7gDfkmoiauicb09NXrtBnUjqOzVZLd6Hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_185_2325272cab6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrqTZReXDcYFk5LPUejENW7nAsUSAucNibTJGdk0ibfYv4pJeckNzIZFCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_186_4a8259dac907.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrQInYKtNSqOX5ic66ljnOwRr51FPdv9wJ6QiaUrFNIIY1pUtxXI462kfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_187_91d43a377b1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrkIaibwSBoUGVjfjfYaen1WwG3ODvN2IQiajsL4DgkFm2Tbd9b4rRqp0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_188_615c84012910.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrg2VsWOM0k4jiakbicxgMH5JyPkibTwc2UulASAEX64QqqribJI2TZYa3Gg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_189_8e13d2b7d016.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrkTQIOf7DI4ia7kjDmVO7FiaUmBribsvPeD0p0BkicN4zKVqJqHjMiaIuzCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_190_4bf2d84f0f4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrIhOPTJSW50mP7Ezg3Sc8f9U8DicQX5LZkk7KQpJOqrXu5X8vy1AmySA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_191_4d141e9a4dee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrWR8XHM4TychwJiaDphdMfTrgETIoXbG19CccNHOD9OjWU5VIss2IicDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_192_16141a712d83.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrZhicl0PeQ3Kfh8aNXOt7aZ9QNdhjdWvQTgPM8FKiaxzUJOxWKgFAWOTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_193_6ae50136f8a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrrMJ8GvYktrQnZCyiboCFEykgSMUf5aibOiawuEkPYHflUTD9UnA3REaCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_194_c500f0234243.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr4uVLOmqiaGTic0nvTygEjUwhUYgXMQQhhqZkIeFw21T8VXTLA1expgbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_195_ccedf77603e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrJicGboRxFc8ltghUSRP7f5OjWib1icaib2diaDlOZMWmyfY8shLlvXfbtfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_196_f682d2fc0d0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrKgg591g0LupRNA6WT7CLiaDsfkFicnDhgnOuVswp4o87IT1fTPicQeeIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_197_f72f0d689581.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrqru5icPeHT3zgE8oapsCBzkwIAo7ibzCgsV7RiaKnmyKvQ3pHjfrnBbmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_198_e1fcf547b021.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrWbOsAj3fiaEiaBaFycQOFuzMYuibUG7rcHKzZqKnTicH6OdLRlL40ibXZeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_199_509d24e0f7ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrbg1aH7ZCmibxnyqfo9jveYnwOQ8pAKa2TFUDvoticPU4l5icpMC2aAQyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_200_c1315cf36700.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrFsR9bYn5FPTC4jDe97icMT5ic6DGOyBCYp3gZMnjz65nibO7iaVZxkRl1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_201_2f1d9ba1ae98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrbiblHkGHoI4aknP4vbHWG1e09pwm1ezMcqZRnm9ibKGWiacHX5euhric2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_202_bcdc61975ed8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrlKaeKRjhogXAnUCNNw7lyj6DSGiayicG6KTIqkU1AF9UtZUj43p6MQxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_203_08d16d596ad7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr9LbVBNXlOhcP000aay4H2IK6rA7BDcnJC8WGjLre4dGBX0oHy8aCvQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_204_08bdcdff2128.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrYlk3KnvtJuL2JVSVfmnXRJ7nMlNWUGTVebGRiblzW1icX1Ulia9AGYZTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_205_f0b9e9d30e67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrFZa7BRaLENvAk1T7uU9YCIh12062X5jiaT0Y0piaicyVVG0j4Aw5Z4Rzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_206_ff7222cccb60.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrC26jn6l4lSjNShMhzoqvQZAcia4LxfyUSLp3abGVuKIbnrWBXa1cY4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_207_10e78bf86080.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrTJ0z9ibB6iaSmfg5h6eK5icXlqlOTLm9vpRKgaKHlIrxEbgDyBDOW1y8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_208_32d0df463ecc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrcrUqQUt1TxYAUGrLMgsIySk16akbY6jKqBaTpGbGTaicjMFk5kvAJeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_209_59c797c996a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGribodErnIqVzbKEfDrdL1RmPTvIC304wXW87n8bG28SaHFr5xAj0nDSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_210_7b3b63f60d7e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrK8duNt5UtqY2dCttf2zBQJAtjszyOsRc2dVfxCHL1gsNJYJjTntYqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_211_49dbf90230fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrA4r9OqZgTrOaepg2Zec3icXDm8umZmDoQThFVMsRXMwSmwl3O9zxXpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_212_be105e58332c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGryE6y5FEoYTvz77aoTrZ41A88YGKyhglpLqQynAKpIhrnMfPPG4GWUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_213_d2a950bda52c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrLdzDQeV4b2MicRLC1Ovtib1hPjfQphia0GwD1ZxiceLfaFIiagFia2dI4cJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_214_11609c8d0346.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr9iaMPJe2C3z4PicwYYkZyZc8F1q83bvD03xn5j84Lz71gQwBhFxDIxjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_215_10dae4f545d7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrhSGPXzEkEvyt0aichvic1HfB0deibkTGnr4fx6rUvuxqEQCDQibKaVRdFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_216_b78d52864839.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrdjPQd3rWBkF692uhupibllbOykhxIPaSXZsZKBLGf44yU5bSlruVOPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_217_c37bcbe3e4b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrUe9aicVel9J76gEgGC4orTUUrL3PTv1gUROsCjQDn8eux6eF4G5eZkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_218_7adddd7d03b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrP7uficEu6LOReydSexxoJSj0w0QruSa58nicUP6pUVYTllpoN74gnqnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_219_6e810ec3286d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrRCR2UVltnXdiaanCuJgkUC2W3ibsGGlicEDvPZ95y6CBZcBI2l8RsUPKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_220_d7a2395245fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrFib561RoicicHIh1AcZYKzuiatwHjmGfTIfFM94DpoxiatCiarHYgicWiatRnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_221_6b2858705de5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrFgXnA4Oe0kAlGpPhib3lWqozTeFzKgRbnXdD4R9qFFfCibTibTQpkK3Nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_222_b6a4ddb43a7e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrlIzJ3rgKFXRNAibbywcKqkNWnOyibSPrw1StgyfXYexFN4kJW1esnGoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_223_e7088aba4b26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGra9aZ1gxP1pVQbyS7jwRlZ7NCWJEs96y4NxX7hS9q05jFYfEAl9Ticxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_224_651d54d806af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrKnj0XcHxHVCqh8ttcgfLEaf91XvoHcj34icmM7UGTAqnMYmX1gvuDicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_225_3e56685aae7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrsibkZlmMcVRrThpJYUQR966n4Bgdw3BKd7z9v9SB0sbicZWelFmO7hAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_226_fa335105cfdb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr147K7icgYKGPHapY6jhbWOyiccu6xibca6CRjEg9Izgf6dF2tPT4YdZnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_227_368bd08c2b94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrIQPdZGrViavcm8JpfiaRiakr6UlnZDYgX2wICmaTn1yjRS4eIicZ9WRyYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_228_98b20452374a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGroT0BCw3SibQXr6dkMd3vlgcicaWqcgk30fErH0gwrfic4yThpgcBg71Fg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_229_8e2b3673fdb9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrKWlVvKVfFNMPt7lGdWibibRqSH8mKq6Lxf5lXYFybk01RicHf1FP3JlAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_230_91c2cfce5974.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrVmlKejB4iatJCjEUZLlmSlgIOFqDIsSRqn4fU271tTVKqiawXqARrYibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_231_8fe985948770.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGraTHeCAjmEVpFEvKKLKlCYwvQiabTD3PjSd88rgBrbk9y1W4Gd1qhXNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_232_d87547d58042.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrMI4bOAMHmupiblMJKkcXlAxcoAibNg3KbAoYAshB7MmU11ibkszznz9KA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_233_6ed55bd5f8b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrRP4ccuCOicyHbUOqyNVMR2O9VXwFbW7uRyRU3mKNcJ9YETFzs2OhP9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_234_287aeb2e6a1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrw9OXCsG8oLj3BsEVPpOcM7ic6C9XXchdBbzr1PBBTkJyh6rn6g4RQHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_235_60323f6de16b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrUOIDWibnPRRtFl5wDS4mVyAsogBqhcw8QKmXAoc5BoElDdG5B9DafEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_236_6513ff8eddf9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrqv5uib3TumAOcf0GjFIKo4arJde3LcBJp4ibSvBBymUuKj3jaykdgwVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_237_15f97fdbd37c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr5Jy7Mibb93tWqpibqE3iaZhH6iakicnIatG8MFG8jLVw9yFdJn2AeibgHRYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_238_34e372ca4739.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGroqaXlcH8gPNia9d07hDH0bv2CExpKxFvkzpa73QdRIJianRAKnEecj9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_239_fb137304a660.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrAm4a702KTZgWbicKficczQsdEAJ1ia5pooEZXPpWdDWSwaFFUuiamOgpzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_240_288a1e308313.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrpibYialOmicu0cw2DzK8iaOFRBwtN0bNzkibjibMNwPGxgbTWc7j8PJ8aXHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_241_73cd0adb23aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrEHUb4evGFyZr2DewXuHXoTjASH6Eia2D8bd9F46gymiadQicZQ9rKTqrw/640?wx_fmt=other&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_242_6acd8c16e70d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGr87CzySeIs47vaydyNXj0zuXiawaRfY94DicdyCARpwQC2RJnbwwuqxnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_243_fb883e680172.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGreL81WbiaqfmoZCrB2Pr0xhO25BxUSS0fZic5HBxlGMgPFD54JDhvBJLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_244_d263709df65f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmBchFsMp2szgqoHR62ppGrqrMMTicArZzYrQzicYqibh5YEqSv2XRvZmb3mPpicqbxc5AcdylL6GjKHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_245_f20c6063eb70.png)
 
 注：文字与图片报告无关
 
@@ -616,14 +616,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskEEFxG77Go8L03Jzol7D0Lg0ic7Wmab19oibVpuaia1mQAiaNAgNUWYxUzl8pBcVApUBhPXE26ksVnCA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_246_54d89181089d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0L8E5icdNByzq2nNuCVcPDiazdiaGQfA3ALoWMsqiasxlxpeQsdZzrueM3NA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_247_9f3fbcfdd712.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0L1ARyzQpibNUVjIFsYtsrSvy5wNyvIGtmWAGVyrOwltbkbibAROaO1FyQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_248_bcaa62e5a1e3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskEEFxG77Go8L03Jzol7D0LgBPFSluc8rlZ1V92tCR1DaBHNXvAjVVQ3rQGiaFIfv8cuib5Leh0MxUg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\固态变压器(SST)_关键设计挑战_适用性及未来构想_images\img_249_2d53bebab540.jpg)

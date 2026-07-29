@@ -21,17 +21,17 @@
 
 碳化硅功率模块可以理解为一个 **“性能增强版的集成电源管理单元”** 。它通过把多个碳化硅芯片（主要是MOSFET芯片和二极管芯片）以及其他元件高密度地封装在一起，来实现电能的高效转换与控制。其核心优势根植于碳化硅这种第三代半导体材料**宽禁带**的物理特性，并解决分立器件在更高功率等级下遇到的瓶颈。。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYSwPibnH2Hgl3B7ibpwU0T6daU3vOJ6WrKEvZLCZ6cnher7EicxQKYgd0w/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_000_8eefb7dca013.png)
 
 碳化硅功率模块的优势非常明显，目前已经被广泛应用于电力电子、新能源汽车、医疗设备和工业自动化等领域。在新能源汽车领域，碳化硅功率模块可替代传统的硅基IGBT功率模块，实现电机驱动效率的提高和轻量化设计的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYUNT8faOxB7Tnz8obUJZX2uMVSCOAY5pqlMpFXEFcdialvjMB15E1IjA/640?wx_fmt=jpeg)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_001_27144f655bab.jpg)
 
 MD3系统碳化硅功率模块产品  
 
 MD3系列是三相全桥碳化硅MOSFET模块，是基于客户的要求定制开发的一款款碳化硅功率模块，有风冷散热和水冷散热两种封装，可广泛用于重卡及各种大功率新能源车的电机驱动。作为主逆变器的应用带来了更高的逆变器效率、更小的系统尺寸、更低的系统成本和更长的行驶里程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYpZJgz9n2YISPpfH6tEibgt7SnzensO8AMxL3P4A5Bb4RuU9aSUnMSYg/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_002_0b6952d63598.png)
 
   
 MD3模块的特点
@@ -50,27 +50,27 @@ MD3模块的特点
 
           **R****DS(on)** **：1.5~8.3mΩ**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dY87g38fcDTp1PlXcINNbibzibE8provK5shu5sFW3HJlQDFMnZCkBLLMQ/640?wx_fmt=jpeg)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_003_bff2b84b3d04.jpg)
 
 MD3模块产品图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYWY7JBWkgSFYl16kvErpfv32mPZibnfFagcLa89dumomyYh4UzMySUtQ/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_004_721a5fbb52e4.png)
 
 MD3模块拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYC8dvsiaiaDd3icSUZMaziawxWpYCKA5YLown1AiaDr5Bbhs23P6rCzTH9eQ/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_005_2543d1d329d5.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslByy3kXib2QU5FRk8JBbPOfvNftUKVAPUbiaticQlQvb1KibSrvY2j2KYgloOB9Z1WhQuBgAZlTA0cPw/640?wx_fmt=jpeg)
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_006_f036e0d9ad20.jpg)
 
 MD3模块风冷式外框尺寸与实物图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYxzW4R9Ts8aQicrxjWqou75yg4G08AffqNWszvicq4BYUIeaHsVKibwOMA/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_007_41e56fa6501a.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslByy3kXib2QU5FRk8JBbPOf1scRPOtBEJcVtP9icoSBmhHprib8Z8Vw6BOfCbBvrm1YMQTEaWZmoK9g/640?wx_fmt=jpeg)
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_008_7b16070ac634.jpg)
 
 MD3模块水冷式外框尺寸图与实物图
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslByy3kXib2QU5FRk8JBbPOfvLGDRTUvKOD9Pd24P6qC6kNttPaux8hPE428SM7kOYhfqFHcTRZ2Yw/640?wx_fmt=jpeg)MD3模块+驱动板实物图  
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_009_0680c44735be.jpg)MD3模块+驱动板实物图  
 
 碳化硅功率模块核心优势：
 
@@ -130,13 +130,13 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
 
 碳化硅功率模块的封装和结构多样化，在设计方面需要考虑材料的特性和应用场景的要求，选择最优的结构和参数。同时，还需通过设计优化减少能量损失和热效应，优化器件的电热特性和稳定性、成本等进行综合考虑，合适的就是最好的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYexyoAgcicKYJQmIE946zHAiba2lOwEM47ibcicbibUW1LPXd0JAhQ4r8cXQ/640?wx_fmt=jpeg)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_010_447248de1514.jpg)
 
 基于高频开关能力、高耐温能力、低导通损耗、优异的反向恢复、模块封装优化等优势，SiC功率模块正在以下核心领域快速替代传统硅基IGBT方案。
 
 #### 1\. 新能源汽车 - 主战场
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYGRk9mweibUKGJzKVdF2PEQNmv8TdkuEjEUy9DBH0jsrOZwDfBR31xoA/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_011_e97fac7ca85e.png)
 
 -   **主驱逆变器**：这是价值最高、性能提升最显著的应用。
     
@@ -147,7 +147,7 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYgnrSRuvLFzC4Cu5OCIb4Q5DCIKicvdr4p3L4kVqoEssnNCrJRzj1zMA/640?wx_fmt=jpeg)
+    ![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_012_423fd9a85e8d.jpg)
     
       
     
@@ -159,7 +159,7 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dY9BDWVYPAhAkSzsLsNTbDyhabvrNyUAKe3rP9Gn8fl1u7AcZ15xwIQw/640?wx_fmt=png)
+    ![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_013_5a68f0f62aec.png)
     
       
     
@@ -172,7 +172,7 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
 
 #### 2\. 可再生能源与储能
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYwo31gpxiaJNBDPQeIXB8uPU6lWFN7K0aibErZTn8tMAYec8JQsrh2DFQ/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_014_0242ddec99e0.png)
 
 -   **光伏逆变器**：
     
@@ -190,7 +190,7 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
 
 #### 3\. 工业驱动与电源
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYzibLC0hjyqHu3knQ4dZo87tHhV2xe2mmoK3quyZqdIicoW6p0Nha7Xibw/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_015_05404a01af00.png)
 
 -   **伺服驱动器与变频器**：
     
@@ -203,7 +203,7 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
 
 -   **优势**：提升整机效率（尤其在高负载时），减小体积和重量，对数据中心等应用极具吸引力。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYlE39udmRa1oibEHC8zPjRWUNWCnD1sH3FiaVmnum86NicKEr8iaFt1f6dA/640?wx_fmt=png)
+    ![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_016_d8c2229e89c6.png)
     
 
 -   **工业电源**：
@@ -214,7 +214,7 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
 
 #### 4\. 充电桩
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYFUf0cTKSibUuPj2TSgBdRYJTrtweVTgGQEfKBgrDBJqEBiaib3tn4cN9Q/640?wx_fmt=png)
+![](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_017_24cfc73b22eb.png)
 
 -   **直流快充桩**：
     
@@ -266,24 +266,24 @@ SiC SBD是多数载流子器件，**几乎无反向恢复**。
 
 SiC MOSFET的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRlvQS4ppoiaQk74m20pGgnaYhUzhcnDtroLkAibLk2yiakfb285yiczHcHg/640?wx_fmt=jpeg)
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_018_5fc3d610edbb.jpg)
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRYkK8tjgRfnroIut1KCicTuZEdE6wUK3KHfQorQGSAgq1wib1g6FuGy0w/640?wx_fmt=png)
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_019_17e74e4249ce.png)
 
 SiC器件的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxR4spJ6vG9PJMH0wPeIEMKH6MrkWiaet11N3OCux6ibgOclaZ3HXdORibRA/640?wx_fmt=png)
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_020_b38c820f8d24.png)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRxP32XZKwPpITicjzLG2zcBibZlFFZfJ0I2icQIglRjkqaz4bq3AibhusBw/640?wx_fmt=jpeg)
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_021_b57259e9534a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRDm7hI6Z58XaOib9IJ1yCdCPC0CwMZMXWBLOqLOXPRIl125ic73IeyIkg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRRg5ic3h2onLMdazZecH5jsT9LuK9rwWlkfeXmjS0VUCiaibRQaeasaEYg/640?wx_fmt=png)
+![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_022_1200a8d9bc50.png)![图片](MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景_images/img_023_565f0ddb3bfd.png)

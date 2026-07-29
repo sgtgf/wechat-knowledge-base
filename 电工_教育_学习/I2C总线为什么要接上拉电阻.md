@@ -8,7 +8,7 @@ I2C为什么要接上拉电阻？因为它是开漏输出。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLKtB3MTcY5owMYHwTQIhialIMZibuocicHl9XaVw8Qdn5Lo7S61NU6zyiagYZZxUR69CQ6Xv292ttibpA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\I2C总线为什么要接上拉电阻_images\img_000_ceb2d11227a4.jpg)
 
   
 

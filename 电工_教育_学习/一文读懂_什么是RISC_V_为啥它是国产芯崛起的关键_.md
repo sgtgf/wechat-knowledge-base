@@ -16,7 +16,7 @@
 
 大家首先就会想到**"卡脖子"事件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/4cXGRO3yCxJNPelaADiaY0RnkzQTx2xR41YzUANnCTSN3DqnH2yVRoFibDibldr85YTkIW9hl0PpjuJEdNu6Ql5zQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文读懂_什么是RISC_V_为啥它是国产芯崛起的关键__images\img_000_4de9e13c289f.jpg)
 
 **X86和ARM的IP授权虽然方便，但是不自主和不可控，**
 
@@ -26,7 +26,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/6PYxCJZfNqfryiaqhBRp3kpsT2AOcNd6DK2uUt9HIERacQvu4iaIwn54N4kCn5bhtOiaUTcBMxmKj7SKXleoKpcdw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文读懂_什么是RISC_V_为啥它是国产芯崛起的关键__images\img_001_03304c095582.jpg)
 
   
 
@@ -44,7 +44,7 @@ RISC-V 起源于加州大学伯克利分校。在 2010 年夏季,Krste Asanovic 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHOGLSEHfwUlPZiabXbpbccThK77pbzKYfK9axoyb9ibUe2ZhBWib42v0ezVIR7ybx1CUviaFicHfmFYAPQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文读懂_什么是RISC_V_为啥它是国产芯崛起的关键__images\img_002_81b730834231.png)
 
   
 
@@ -76,7 +76,7 @@ RISC-V指令集是基于精简指令集计算原理建立的开放指令集架�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHOGLSEHfwUlPZiabXbpbccThm5mOaGeAia5ic86ZnepjyT1lNxoJia8R3UEick6pNBy7TMvYmhfA0SCUiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一文读懂_什么是RISC_V_为啥它是国产芯崛起的关键__images\img_003_caf92900aabb.png)
 
   
 

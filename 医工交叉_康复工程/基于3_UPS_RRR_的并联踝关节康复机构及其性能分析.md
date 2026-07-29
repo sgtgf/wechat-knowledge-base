@@ -10,13 +10,13 @@
 
 本文基于踝关节的生理解剖结构和运动特性分析，提出了一种适用于踝关节康复的3自由度3-UPS/RRR并联机构。该机构采用三个主动支链倾斜布置避开了机构的奇异位形，能满足踝关节康复运动需要，同时约束支链和动平台的设计使机构的转动中心与患者的踝关节转动中心重合。图1是3-UPS/RRR并联踝关节康复机构的三维模型。机构由底座、动平台、三个并联支链和一个约束支链构成。约束支链由三个转动轴线相互正交的转动副R1、R2、R3（等效为球副）组成。通过驱动三条UPS支链的移动副实现动平台三个正交方向的转动，从而完成踝关节康复训练。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJJeBe1ffmq4ZdXwN043hqdruKs2q7xKyGV5CSGYiaLLwMCDRM79uP4kA/0?wx_fmt=png)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_000_2496c76400ae.png)
 
 图1   3-UPS/RRR并联踝关节康复机构模型
 
 对机构工作空间的求解表明，机构能很好的完成踝关节康复训练。基于速度雅克比矩阵的仿真分析结果可知，机构具有良好的运动学性能与静力学性能，适合用于踝关节康复训练。利用牛顿-欧拉法建立机构的逆动力学方程，求解出支链驱动力、约束支链约束力与运动参数间的映射关系，并通过实例仿真为3-UPS/RRR机构的康复运动控制和驱动系统的选取提供参考。近年来，人们对踝康复机构的研究越来越深入，成果也逐渐增多，相信在不久的将来，踝关节康复机构的应用将逐渐推广普及。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJXrSaxGhNmA2u7vAeUnOljBQe4XN2A4wxryhGnXqbWfF5xCug0sv84Q/0?wx_fmt=png)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_001_a39b23dccfb6.png)
 
 引用格式
 
@@ -24,37 +24,37 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJG2oWTFq0t7W7WkDhqV95BFK8Ta3O4TSR38r5KIwV2mJ3xhj4NMYklg/0?wx_fmt=png)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_002_0344f2ebdeea.png)
 
 李剑锋 北京工业大学机械工程与应用电子技术学院教授. 1999年获北京航空航天大学机器人所博士学位.主要研究方向为机器人, 并联机构与穿戴外骨骼技术. 本文通信作者.
 
 E-mail: lijianfeng@bjut.edu.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJ9o37rZuj9ibPk0qtiakxsRx84PFRPsrClmOiay025s1ZmY5Xc1ibh9Uxug/0?wx_fmt=jpeg)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_003_7b6350a8f80e.jpg)
 
 徐成辉 北京工业大学机械工程与应用电子技术学院硕士研究生. 2013年获武汉纺织大学机械工程与自动化学院学士学位.主要研究方向为穿戴外骨骼技术.
 
 E-mail: xchde628@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJYutIX7FWXNtO34gRRMCpwHosSA0aIn3Dw2uWZjAMcBlUgfxecvyicSQ/0?wx_fmt=png)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_004_66f938623e99.png)
 
 陶春静 国家康复辅具研究中心副教授. 2007年获中科院电气工程研究所博士学位.主要研究方向为康复设备设计与穿戴外骨骼技术.
 
 E-mail: taochj@gmail.com
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJM0tTlfmArXH2dfbkc0etI9wZQS1ElOicmRFabUujRnmSXyHNXZZYgUQ/0?wx_fmt=png)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_005_c628fbcb02dd.png)
 
 季润 国家康复辅具研究中心工程师. 2008年获首都医科大学学士学位.主要研究方向为康复设备设计与穿戴外骨骼技术.
 
 E-mail: jirun@gmail.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJoX3Lfuk8MxEUjGKWkOHMo2piaAo9av7DQEymw3icmzhPASoCOejfPtDw/0?wx_fmt=jpeg)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_006_064fbfe43d9c.jpg)
 
 李世才 北京工业大学机械工程与应用电子技术学院硕士研究生. 2014年获哈尔滨理工大学机电学院学士学位.主要研究方向为穿戴外骨骼技术.
 
 E-mail: lishicaijiayou@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJKy7rld8QswhwLWISUatsD4Vw78icW766fV6QHbMc5aohxMgqUL9J2wA/0?wx_fmt=jpeg)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_007_0d15649f2292.jpg)
 
 张兆晶 北京工业大学机械工程与应用电子技术学院硕士. 2014年获北京工业大学大学机械工程与应用电子技术学院学士学位.主要研究方向为穿戴外骨骼技术.
 
@@ -62,8 +62,8 @@ E-mail: jmzzj050@sina.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJztUwEibGevffx3LfQyEeZY0wwc0LPG5VKCGibmtHVSxJIic5MURJVftZA/0?wx_fmt=jpeg)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_008_a321940ae99c.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJIt6TftkV9slaiaKbia0r09lnaMEX0rzLCdhTSEaaia5LJQbnhKy6icQbqg/0?wx_fmt=jpeg)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_009_64db1666ec11.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45P9ec1iaYmibaIia0pkn4U1zJ0xHia12a9ibpPswN0tOojIBZZkPOtE8tnciafIr1rndetB2oZuPL5U61A/0?wx_fmt=jpeg)
+![](基于3_UPS_RRR_的并联踝关节康复机构及其性能分析_images/img_010_0dcc8875cb84.jpg)

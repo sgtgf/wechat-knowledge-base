@@ -20,7 +20,7 @@
 
 客户要求主板电源输入两种接口：DC 12V和Type-C两种接口，其中Type-C可以5V供电输入，同时也可以跟TP通信，实现触摸功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiab6dMcJIVgGmibsP7V1ttYOjkIWTUvicic1ez7TrIibDzj7JHukhP4OPhcia6tDvBm1Vp3OPgDxkj9U6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件这么久_烧过MOS_烧过运放_烧过板子_但烧电脑主机这是第一次_images\img_002_b3925f934ae9.png)
 
   
 
@@ -46,7 +46,7 @@
 
 我们设计的电路如下，咱们分三种情况来讲解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiab6dMcJIVgGmibsP7V1ttYOa6xZ1Pcrzt5qZ9Eju4njhddxt9LXMKLQcLa7vfaXrjFhzSRHAX91xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件这么久_烧过MOS_烧过运放_烧过板子_但烧电脑主机这是第一次_images\img_003_8771b9dfe326.png)
 
   
 
@@ -58,7 +58,7 @@
 
 输入的DC 12V把 MOS管Q1，Q2栅极拉高，MOS不通，12V只能沿着下图路径①向负载输出12V电压。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiab6dMcJIVgGmibsP7V1ttYOu7rGicUQSzlRxwj2GpON0No7tKk0jjE8FVgeibIMm7rZdLdndIFMRWNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件这么久_烧过MOS_烧过运放_烧过板子_但烧电脑主机这是第一次_images\img_006_4ef0ad891892.png)
 
   
 
@@ -70,7 +70,7 @@
 
 只有Type-C 输入时，DC 12V是没有输入的。此时，MOS管Q1，Q2栅极被拉低，Vgs＜0，MOS导通，DC 5V沿着路径②进入DC/DC升压后，向负载输出12V电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiab6dMcJIVgGmibsP7V1ttYOt5tGYgOlJI9Ll8RyBUsppyXcYAC12ISDp48PA5Qot5ptakusezKhWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件这么久_烧过MOS_烧过运放_烧过板子_但烧电脑主机这是第一次_images\img_005_3570a9b1873d.png)
 
   
 
@@ -86,13 +86,13 @@
 
 此时MOS管Q1，Q2不通，由于Q1内部有体二极管，Type-C的5V电压无法输出，即5V无法影响12V。由于Q2内部有体二极管，12V也无法影响5V。即互不影响，电路最终输出DC 12V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiab6dMcJIVgGmibsP7V1ttYOu7rGicUQSzlRxwj2GpON0No7tKk0jjE8FVgeibIMm7rZdLdndIFMRWNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件这么久_烧过MOS_烧过运放_烧过板子_但烧电脑主机这是第一次_images\img_004_4ef0ad891892.png)
 
   
 
 分析完后，这个电路设计好像确实没有问题，那么它到底是怎么炸机的呢？有想了解或者对此电路有疑问的朋友，欢迎留言评论或添加微信探讨。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&tp=wxpic&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件这么久_烧过MOS_烧过运放_烧过板子_但烧电脑主机这是第一次_images\img_007_b0b5c38457eb.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\搞硬件这么久_烧过MOS_烧过运放_烧过板子_但烧电脑主机这是第一次_images\img_008_d5dcc7ecfdf3.jpg)
 
 ## 
 

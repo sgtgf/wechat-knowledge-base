@@ -8,81 +8,81 @@
 
 作者：D. Rothmund, T. Guillod, D. Bortis, and J.W. Kolar
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOcprODXPkeAybTNmbWmz4UzR6EkHefoNU0udPUf8CJFUlYpO42VvicT30pia9NwjjEJGNW7bBGKzHZrBAfVYnQ6sHWXPGufuxX4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_000_c8bc609f423b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNwtuib1ojicEjHpw80vY51IALEEibZBYuqNpVmCyUHNiaNYbtiamicertK3klN7rlThWYUDzGSlicE9IRFticMJ1f6cuOz1AdqBziaDetI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_001_a97e5df205ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPrsh1gwdicSnqgrYMEZeTup7xAGIzBOca5jpgLd9FLia1XqoibHa2KfP9bZrTqUUUdG2ichI2iapc86VHAiaYySPqn05rhTaiagRQdTY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_002_14ecc8f31b72.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvnSnwacxmCRAl10Uq8qLT9fGvYXHeeADmaJHm2PaEiaRpAbFojNWe0p2Xtz4rCJbVjq4Kz2XzuEWXKFxr9OAVUjzfY0u27gjE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_003_8061a85067b1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPBunvGeAYxPD9VFGznDNA8ic1ZWePCxfz8LV7CRGefDjTahQcy1uicrsJaPLWdwEsibibOuKzwxOGiaT44XtseekQS16onKh26yD2c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_004_f2c482007ccf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNFqfP6BaGZA7wtBmiawhjmiaNJFCXHpsIPgtib6nuEhY0lgQavrO2bmJcxN1mUcyumdhba0mh7JnVwyMHmL2BL69EcKbZbL6hPXk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_005_7bf5ef64ae39.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNsHdvMhOjmEbBVP18rSIyYicdcy7E227cQEUGLT0A7aXgenNB7iby8WZITwbJj9Tot9tHclvqLLZWARqHVUHhdNEXyxib1DjicE2I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_006_a576f729c788.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMuUnJkibOoRffnt1cer6ZBG3ia5ic7LKIOYJGNHzYeQJAiamlrYQW3Pj4xO2WdQs6kBSxtQPdDRA6JVKNY5h0IMj3qctTt4xHgXiaM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_007_4aafa0d6864e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSSx9j51SShNt448FiaOxKxd3nhvia60gmY0A4yU3Bj1I6EW0BiaYJkctDTzFtYqiadJyMwT1FfjRVnF9icqAn00TedibibQcjZsDfDM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_008_029f9409565f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNj76LA17O82ibok9UeeHOFUqJb8MBkrZoHe2SXpaC3FvInKIMAXJMfl69bwJwY2WXNbMCtAEMEjGk0ZAe1J50icsy1fpTaTPhr0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_009_c2fac6ae0cc4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOibYyjJSa2NJOCDHkIG60susD1EibtpNlsZBaxmrPaQJQ23kxia7KuUTvFRIoNNlXXNz3FXkj4fvRlibWF7pEb5SEibRxibBHjQ0VCo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_010_f37ebf7880bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOBcPibx1FWHymicAcwcnv7X2ibKwMbwIteZogUxC65o5LtNEQ0AeU6agqTKU0GFmgf4PnSI30UAmD7gC91gk6j00TUibCSkgqIO6I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_011_1063381328e9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPnXgdP0gmv6DnJkEvibq6riaCvJQyayG4JJ1TicP6Z0zZXyrsLP7Zu6etb42aF6V35yp5AZNkEUQxjQicHW5W9VCNWdKA5WXSrkvA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_012_4481b723a8d7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMaMRPsfdKgEDgbvD1qQN9iaXo9gqbyhup99BBdu03sWdTRuYbuD0HDHxghUEuLic1ibLKeX1LFkAsLKpd2fqsz1KGVhyibxKIvyhY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_013_3192b373b622.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPUficvCfPKPFCOcYJIyxU9PRQ55wVF0odWMOVmBziagVjyj65vQMXppI7tCFXuWC5YVeIJ120tRNVomCZHicIEaSWpCogu9Om8Gk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_014_ee7ab7c00c75.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMGkd1Kz8YaX94aa9JJw3FtGicwMJpqDtia3ia3jBBnVdHOdKoc3QHB7WvLsLjTVIWkZUrg7lBq6ab1HEu3iaoVdiakIscVWZC0mcSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_015_2be54649e1b3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMFN400WaAia330EVZ2qibpuML85ticQwJHOyRkp6dtFSCKIWiaibUfg8ibjD0CCCIyyE6Ew9bFoQ8U1mcVDibke28FB5vTONp5cPRQVo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_016_4679a58d9934.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOpYSibIVRZCadicyb3VTRYdrZhYR4GH7x3I9MhaRh8knUJ0QGlguCmViaKRdiabU7rYfB5giaiaicypSHdKxib09hGJiaVJ8McFJoUu8jA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_017_4f342b0a8f42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPsn1qyibRiaTARibfFb5czicNb8dialP2UZlpFFeLzicWcKVicz4TjFfCBraaFxPPp2SFXOeyQdvrPF0ol3wgtSX0fVgVStEc9wO5bS0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_018_fd6d8d939226.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOduuB64Fb4JU8zGZ5OGXLzw6xF2r4hKgC1eArG9m9kOickNiaH1odlzEvMa6owbPpfs2GZ9IAe78uO0rics7PSulbME7ylNTrd2o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_019_f1bf8f5de6b8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdJVPJjDAn7R8M4k5lPQvlMicMZY8g5RlXKU3qOprY1O5gymicbUtZNOz3zxYIHcC6SRcBVx4yLJML2U2hEL4xicp6aSgmA2bVRY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_020_d006a0ad7257.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP5KOt0Bd8RvqZSSPNoicMxJCkClkicmKeA4fDzJhdaOujgSTlgh3pCicdG9H8y3PtLibEwrA7nkROuNprcQSsBdZvmDjaRd4QDStk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_021_3ae62c215347.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKYoZ7XS2T0ZIAH8icENzVC9DWmhHp9AmHEgZGAhtYTCWhDEfE5zlZHzJJmLewvLI6sIIlvUsECZ3Y4OmoB0lEPiblCx0p25HJ4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_022_efaa31f32737.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNXicyDJjcRFsNqfhfAicRRRibW7Ru60dy8HIm0zOUXYqwHNURwJF3MM8tf8NmdpbuXSjb3qibCYV4gibQypsNthg9AD68RLpXYC9oA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_023_3eab51549bf3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNfibUMFJa3ticaicrVHuQ4wcsqAIawha1o8Zk7aOWKiaaZaLgatFvz7ytDNibIdxukqicnDzPB2ueGrsKfGaLLuic424ssQRJ7Nkj6G4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_024_d1c62da2d427.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNo6iaFMetWIMHtt10pvzziaHmVY15KGW81DeBOEjKnsCpNqQS3ibwGG43mtb733YHdI52GSNsULgomzTBZE9iaPHhRsda7FYibQXyc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_025_590fb05d7e81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7kYzoeYCnbn3wEib2nicqm0W4JiaDDHrpXTNrIgn0pIRiaTl7LDJ13SR3NegvglNM9GwHlJYlRlykN9CGibmVZTuvCaPBJ96tI1dM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_026_8cf17afb1e04.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO9KHnBgM3mWkz6mtnSkZWEfEGGyNcaExANCmuCBqzGjQ3n9ia7PVbmibN5nb7riak3SO8VvdeA7nJfoGxIBWZ7EVgawU7Axp55QU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_027_b8b463dab058.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPfquEDXa69Ec5e9mmhteJyr6M1GXfqFocLqMiaqnG3zJnjfHlwCRLhTW5zUHde5icm84LiaYZibwJNjic82jHeyVdpa7WIUicaxCdBY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_028_87b8ab46bf3b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOqUDjJ4hVWusLvzYundDvpJibhXTohgYGDDEygjAHBXeWls2B0TibDtO24oye26QaOpnjWVdibdZJvYOdozgn7z2gUhaRbVw7D6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_029_b4ea35e3220a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPZ6u2MZ7N3tkaheiaiaprfcyCYtCjLmB2cahPx7L93m71xz3R6pRqY6Pib93UPc5IYpodIV3lNxOZ1xjDMd3tpygZJ8TRhyUUO3c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_030_49ebe5db85bf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOfcc3f2tsdQkdMayh0UMm9aiboK4tkCWNNJChc5lvKoF2lDAW7aZJYBXlpNYK3FEdseojdZwZx4XgsbFv3znAGc0wtnafKXciaI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_031_e11a6d6ce85c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNia87LVNEqXEV0RibY6b8h10SKrJsFG9DzzJh0cP7qOulIkvzNxolV0QJn4oowxJNxibhZJ9G83uebA23lkDDFT2u2fGfvlYk1vM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_032_ba53d328263e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPOapXCEAgGtN1p10gOKaXQzfZBibUKP0oTAnia0WaP4DSu5bAVB1w931b68mF0XduQaTLAgVBibG11XD3AVAce8Z5ChZPu3F6pms/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_033_f3f124652013.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMJiatCv9cs3GAt2XSHBATNDUFNIr4zdx9tghlUWf3UMe5AqEbjyHZGUhcWZM7gA4Zwia6EzQ63G9zUEhHjSwfu6VKCx4NbgbUYY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_034_f4a125eb2fa9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOzZ0n33tmpr9ibnYEESK8ZroZ6wdgm41B7Rs6amibNodUT715qPwiac9r4wl0sQial2XA3QrMnNRuxdNP139XosIibVibusfO7iaGrRk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_035_2f36bbabad43.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPKfxOThiaDzN5DPVhgPOcJvBphatf5COiacZvTOnvnxpOL6WxGYM3Mj6FR7Bzx8SOxsj46OabHeBPyqDMk04PpLQoQcmusPvox4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_036_5f6ca89ecd32.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO7J6Ry36L3sd18CpH3OibLzZYa45WyeVJY2ib6Q3mibsZ84ZHxibRicv9GFqsRx3hNibt4SyEfJIBofapXo3wtLvQAxUbD64cribRf8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_037_16f92f3b8031.png)
 
 注：文字与图片报告无关
 
@@ -220,14 +220,14 @@ SiC材料热导率高、耐温高（>200°C），在紧凑系统中更易散热�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPvr8ZqR5US9ViaVWlWX78Of3DNjBMXTsLjzOYQLqj8Ee6iaRtxaDdhjsuGs4LafYJich22TPYbnK7WCeZJcvmkaPHkg53fiaLEek8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_038_e212572a8e4b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMb6q4H7J29q8EEovx1ibOtU1vvLTFYqxlqP6vQjRSxnhP4VFdice16LRjOiadkMgRjrumu2ERiaqVYDOibdDAyHsSTp10icz3OFv84E/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_039_298d72e914c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM7a1E47HWDsNpbW1NHxWlvHTbMgSAYjicL4BnNJmyO82GjOeJhjK1cUDuSZCNuZwcPjcVGPglkkLiaY07oicibG9ckBLwCkIbMpCQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_040_c2efe71bc01a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOu6GBtA1iaq0SVlfe00undwLYn0GFID0TYasHVt4TXPe6qvg03m5DCUqbNwVqEYb5DWERNtqribE13weV1ZrpBHUydyVqTHuMSU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于10_kV_SiC_MOSFET的50_kHz软开关单相3_8_kV交流_400_V直流固态变压器的设计与实验分析_images\img_041_c06735221757.jpg)

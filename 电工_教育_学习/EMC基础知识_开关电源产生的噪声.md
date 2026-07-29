@@ -20,7 +20,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhflJuGt11fOIFZtJ9SY4rL3qNOXuEic59DG8smxMib8kYWV8rTYnPPASU7WtKfrnvsIYDX8yibaKLJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC基础知识_开关电源产生的噪声_images\img_002_dac111d25654.png)
 
   
 
@@ -28,7 +28,7 @@ SW1为高边开关，SW2为低边开关。SW1导通（SW2为OFF）时，电流�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhflJuGt11fOIFZtJ9SY4rLKS3iar0RFQzzbodmg4xjGIs6aUZMhicL1YsLMPYBkCs8r012klB7gMXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC基础知识_开关电源产生的噪声_images\img_003_34835f89ce8b.png)
 
   
 
@@ -36,7 +36,7 @@ SW1为高边开关，SW2为低边开关。SW1导通（SW2为OFF）时，电流�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhflJuGt11fOIFZtJ9SY4rLUoVRvYjCUPqMM34MetohGXYD9PJPItNgoJIcYoqe8Jz7YDGznhqDZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC基础知识_开关电源产生的噪声_images\img_004_d95a2a51e9b5.png)
 
   
 
@@ -48,11 +48,11 @@ SW1为高边开关，SW2为低边开关。SW1导通（SW2为OFF）时，电流�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhflJuGt11fOIFZtJ9SY4rLMIibcpEuianOSvEZo0ibQrmUIOf2nJD5Ccu00TUdzcBWHFJlxibsKrF1pA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC基础知识_开关电源产生的噪声_images\img_005_85e1a3270dbe.png)
 
 关于差模噪声和共模噪声，请点击这里了解详情；关于串扰，在这里有详细介绍。关于共模滤波器，将在后续章节进行介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC基础知识_开关电源产生的噪声_images\img_006_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\EMC基础知识_开关电源产生的噪声_images\img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -31,25 +31,25 @@ USB数据在【主机软件】与【USB设备特定的端点】间被传输。�
 -   USB总线上的情形是怎样的？
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcObJn2Pjpu3soJhrwoNXTKnSUkOuCa9TjXHEBWLCG8r2V2WAXhFgGKA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_002_f428aca1761e.png)
 
 包是USB总线上数据传输的最小单位，不能被打断或干扰，否则会引发错误。若干个数据包组成一次事务传输，一次事务传输也不能打断，属于一次事务传输的几个包必须连续，不能跨帧完成。一次传输由一次到多次事务传输构成，可以跨帧完成。  
 
 USB包由五部分组成，即同步字段（SYNC）、包标识符字段（PID）、数据字段、循环冗余校验字段（CRC）和包结尾字段（EOP），包的基本格式如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmc7ZfqQpw9BgWBgnyKv2omFQpA8FXtPQ63GMcyGuHZjI3Iwl1ZK53zzg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_003_c4356a59ee4e.png)
 
 # 1.1 PID类型(即包类型)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcZjDKcb4sjtE277iaic2RcxKQWwC2t9SBagFJn2eTrJxRcCDfeChYZTxw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_004_7dca036f06b8.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcp6q81KqAcZwnRl1bkC80bomyiaELzjQMZOIr2tIfY7NHLChoOEMGzVQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_005_d9e47e166642.png)
 
 # 1.2 Token Packets
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmccibEy2MxI9wa26IfiayKa8I0U5Vw0aJiakEqUxLM1nnADu0tiboicqkEmqg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_006_3730241030a6.png)
 
 此格式适用于IN、OUT、SETUP、PING。  
 
@@ -74,21 +74,21 @@ SOF包由Host发送给Device。
 
 SOF包构成如下图所示
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmc3Q5LIhrAHY7IbibHJxWQaibYKUVSrKtPYvDt7nZA6kCmjexYwtNHmA4w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_007_bcdb023d3ebb.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmclmQziclWynkibz3U1lmicjdtruxSZqBMKB93iaXL1zNwExn6QBdHJk8mqg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_008_72be68b49f74.png)
 
 1.4 Data Packets  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcQzQghFkW9V15Tk5rMcF4Wzo0VBUA9orlXyfSYhFQtibARmLK3n3091w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_009_b0a7b6733a99.png)
 
 有四种类类型的数据包：DATA0, DATA1, DATA2,and MDATA，且由PID来区分。DATA0和DATA1被定义为支持数据切换同步(data toggle synchronization)。  
 
 # 1.5 Handshake Packets
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcDEPdMqtDyyz0libAf5sIpKeFGfziczj3y8YDS9oDsOh0EAiauFMdCptSw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_010_f65df365ece8.png)
 
 -   ACK: 对于IN事务，它将由host发出；对于OUT、SETUP和PING事务，它将由device发出。
     
@@ -115,17 +115,17 @@ SOF包构成如下图所示
 -   【正常】的输入事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmc3ibC4N4TOicIia2TyLpKswVib33PTyukl2Oibg31GtQrww3Ayz9rchjPiaZg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_011_cdfa8d8fb124.png)
 
 -   【设备忙】时的输入事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcAhNkuwyn5RIefZiay9xOyk562cRDPpVUPncAPcEKDQYnpWw8Ld4gyCA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_012_8a70b83b0638.png)
 
 -   【设备出错】时的输入事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcdY26zFUobMibWlEbx7gdUKdPKCerXGOPoupksTpbias0y64zrcFqGiaWA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_013_a18972efb1fe.png)
 
 # 2.2. 输出（OUT）事务处理
 
@@ -134,34 +134,34 @@ SOF包构成如下图所示
 -   【正常】的输出事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcwxcaqmToXibSRdtxnA6pdyH2YrXVLdrwlORT1iaQ8Fd5QDxWsLXAIguA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_014_664b045fb3b0.png)
 
 -   【设备忙时】的输出事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcUDmjobHszuniaMc5w703cjia5biaIK6GsfAWSIoT1YKm5Q7j6DU0EUzCA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_015_c0dd5cbd82ca.png)
 
 -   【设备出错】的输出事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcEDB2F5NwG8HdRvJWvtcXPrgvs5oAfEavctk2kQxmV7iahSn7GcmwCug/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_016_a60386c879e1.png)
 
 # 2.3 设置（SETUP）事务处理
 
 -   【正常】的设置事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcWqpPPkibdOyiapZEX8wPzK7htdAmOlVFbWLiajk2Uic4W9BzKrOTTAIv8Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_017_60613a566f24.png)
 
 -   【设备忙时】的设置事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmckyOf2licRFvWZfxFGd7YMve2f9uiciaibGrUwJrEjnMV3AfY4SCV5sayug/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_018_490aa60b5f13.png)
 
 -   【设备出错】的设置事务处理
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcWqjsH7gyf2alhk8BTkCzKBTRyyNIgrQ82uojyibLSwKRsxUpbN4lRrQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_019_214b9a956c41.png)
 
 ##    3、USB传输类型 
 
@@ -195,7 +195,7 @@ SOF包构成如下图所示
 
 主机从USB设备获取配置信息，并设置设备的配置值。建立阶段的数据交换包含了SETUP令牌封包、紧随其后的DATA0数据封包以及ACK握手封包。它的作用是执行一个设置（概念含糊）的数据交换，并定义此控制传输的内容(即：在Data Stage中IN或OUT的data包个数，及发送方向，在Setup Stage已经被设定)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcMicU6O13dZ9J73NL4ickrrtj4icZ4jW0KiaQWG7MEn2UfoJbRaO9icLwAhg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_020_ebc75161bfb7.png)
 
 # 3.1.2 数据阶段
 
@@ -224,7 +224,7 @@ SOF包构成如下图所示
 
 最后，设备将以下列方式加以响应：当数据已经正确接收时，设备送出ACK令牌信息包；当设备正在忙碌时，设备发出NAK握手信息包；当发生了错误时，设备发出STALL握手信息包。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcuQ1gQedtvaphuFBIOBsjicNrlBWy9EjueicUC80lp7hicsesoYEibYuIEw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_021_240e7f76696e.png)
 
 # 3.1.3 状态阶段
 
@@ -257,7 +257,7 @@ USB 允许连续 3次以下的传输错误，会重试该传输，若成功则�
 3.  handshake
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmc9icVD7ptjaRpL39O7kDsxvw6NWqavBQjhpM2Dorqnw1Mm75G9zRVhiaA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_022_077870f8b84a.png)
 
 1.  For IN Token (即：IN Transaction)
     
@@ -284,7 +284,7 @@ USB 允许连续 3次以下的传输错误，会重试该传输，若成功则�
 1.  Bulk读写序列
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcwL9PcGB5NDegLTCcNaA2NcFlGDqrYRvWuGVOthiaARicSiaOYxlXMahicg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_023_53a518db8fc4.png)
 
 即由一系统IN事务或OUT事务组成。
 
@@ -300,7 +300,7 @@ USB 允许连续 3次以下的传输错误，会重试该传输，若成功则�
 
 中断传输方式总是用于对设备的查询，以确定是否有数据需要传输。因此中断传输的方向总是从USB设备到主机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmchIeAsIjbwX4oOcCl3ich3acfOGic0jNEgURkXrQUjmFtx5VTQL83sxDA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_024_82898af49823.png)
 
 DATA0或DATA1中的包含的是中断信息，而不是中断数据。
 
@@ -319,7 +319,7 @@ DATA0或DATA1中的包含的是中断信息，而不是中断数据。
 
 同步传输适用于必须以固定速率抵达或在指定时刻抵达，可以容忍偶尔错误的数据上。实时传输一般用于麦 克风、喇叭、UVC Camera等设备。实时传输只需令牌与数据两个信息包阶段，没有握手包，故数据传错时不会重传。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/icRxcMBeJfc9e7icaW5GljywtRDHZUvwmcCYcLhq4SgibTa5VMrdOBeRiaDuQIOdETga8AtPpLAJNL5iaa16RTEpffQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_025_9776df667769.png)
 
   
 
@@ -333,7 +333,7 @@ DATA0或DATA1中的包含的是中断信息，而不是中断数据。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_026_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\新手都能看懂的_USB_通信协议_images\img_027_d5dcc7ecfdf3.jpg)
 
 ## 
 

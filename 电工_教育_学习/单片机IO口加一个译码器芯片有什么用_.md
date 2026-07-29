@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRsNplMsPQcbQjDctMRrPvGQwgY0Htuciczm8bn8Tfwa4ECpzHPDtibicWjgfRkoeu9DmIhEr5iaj0glQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机IO口加一个译码器芯片有什么用__images\img_000_baff5634ca71.png)
 
   
 
@@ -40,7 +40,7 @@
 
 如果没有74LS48译码器，单片机则需要7个IO口分别控制a、b、c、d、e、f、g数码管的7个引脚，所以直接驱动占用的IO比较多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRsNplMsPQcbQjDctMRrPvGLLB7Rhicf4YnGiaF8Wbw39zuKrIwzObLtvkNTIltJpicZHSDxWtF2gqng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机IO口加一个译码器芯片有什么用__images\img_001_f7072513dc21.png)
 
   
 
@@ -50,7 +50,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRsNplMsPQcbQjDctMRrPvGjfuX4yWDGc0b9A9XLkGZv5hsn65EIRQYSmutpV6p7jZROzuKtBpORA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机IO口加一个译码器芯片有什么用__images\img_002_c9f3a7ea0bc4.png)
 
   
 

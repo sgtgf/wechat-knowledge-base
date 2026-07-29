@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/QY6ZWr3anM8JdI2VUHKOnQ](https://mp.weixin.qq.com/s/QY6ZWr3anM8JdI2VUHKOnQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZEMiadzgKDcw6MI1HAHbRqCNMralsUKjyy3hrgT8fmfzvTcfuU76MwYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_000_6134c285b36f.png)
 
 ____**★★★**______Multiplexer-1---天线复用器______**★★★**____
 
@@ -17,15 +17,15 @@ ___€2.天线复用器的类型___
 
 下面展示了多种天线复用器使用，它们都使用了单根共享天线，_**图11-1**_三工器分割传输至一根天线的Wi-Fi、中频段和超高频段，同时提供实现最优共存所需的带外 (OOB) 抑制。**_图11-2_**和**_图11-3_**两个天线复用器功能相似，允许多个无线电（GPS、Wi-Fi、包括5G在内的蜂窝网络）共用同一根天线。频段是固定的，但是滤波器却是灵活的，可以实现多种天线复用器滤波器组合。 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNIAAVA2hIdoibwVc3s3HTVSjFZGBzlkiasVIZMspl287cibJUJH4FlI66w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_005_7ccbf8d4d729.png)
 
 **_图11-1：三工器_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNEYehbY9g6BvaqACqAiarO9ZoTAbR85jWNicJAJicrDrlOTTzw2dwGmvZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_002_6acb29da1112.png)
 
 **_图11-2：1.5GHz+2.4GHz+5GHz_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNOyMJ4slDWMrrNfLAZTHf622LcRBkNlI9vRRcpqdcyAeO6rJBzibuAOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_003_227a4f9f4480.png)
 
 **_图11-3：GNSS/WiFi三工_**
 
@@ -33,7 +33,7 @@ ____€3.天线复用器的使用方式____
 
 天线复用器用在射频前端后面，处于天线附近，以简化与天线之间的路由，使用天线复用器之后，无需再使用多个分立式组件，还能减少系统中使用的天线的数量。天线复用器可以将GPS、Wi-Fi和手机频段组合起来，使用一根天线来支持所有这三条RF路径。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMue0fxicjqvXshsxwkBLCjE03BRf7YVpEj9Wapj5QNeQzLl84GGbdQWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_004_6157e8d1982a.png)
 
 **_图11-4：框图中的天线复用器和多路复用器_**
 
@@ -43,19 +43,19 @@ _____€4.天线复用器的使用场景_____
 
 天线复用器有助于单个频段彼此共存，使几个不同的无线电（例如手机Wi-Fi、GPS和UWB）能共用一根天线，如**_图11-5_**所示。通过一个天线传输大带宽，由天线复用器将大带宽分成多个波段，降低了使用天线的复杂性，如果没有天线复用器，就需要使用更多天线和开关。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNIAAVA2hIdoibwVc3s3HTVSjFZGBzlkiasVIZMspl287cibJUJH4FlI66w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_001_7ccbf8d4d729.png)
 
 **_图11-5：利用天线复用器，Wi-Fi及蜂窝中频段和超高频段频率可共用一个天线_**
 
 天线复用器在分离单个低、中、高蜂窝频段、Wi-Fi和GPS（L5、L1）信号方面发挥着关键作用，同时有助消除干扰和降低系统损耗。在**_图11-6_**中，天线上有许多单独的滤波器，此外左侧还有有三根天线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMbeyrWQKAnChhseAljicDnicntVAd608pbrqmEsTWvibicMiaom50ZjxTseg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_006_be1f7800461e.png)
 
 **_图11-6：传统射频结构示例_**
 
 使用天线复用器之后，如**_图11-7_**所示，左侧天线数量从3个减少到1个，左侧组件数量从4个减少到1个，右侧组件数量从4个减少到2个，这种设计降低了复杂性、组件数量和占用尺寸。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMZiag1rO2er1qLGEthHvUNVNTvIAnafBWbKrt2zx8FnvXUhgicz096URg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_007_3d74cae78ada.png)
 
 **_图11-7：天线复用器解决方案_**
 
@@ -65,11 +65,11 @@ _____€5.性能评估_____
 
 和多路复用器一样，天线复用器也需要在滤波器和频段之间提供高度隔离， 如**_图11-9_** 显示了在该天线复用器中测量隔离的B1/B3中的四个滤波器之间的信号隔离水平。通常基于声波滤波器的天线复用器具有最佳性能，它们集成了低插入损耗、多频段共存的地址OOB抑制功能，且共用天线的RF频率之间具有高隔离度，还支持适用于5G、Wi-Fi和UWB的超高频率。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRoPB2ia6HVdblpBNdwibnmkqFMWow2GVreCb8ho7W8EFJyqVxKInQp5HcxSibSpcialqTicvDdbiaG4Ypw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_008_f5903d8b96ec.png)
 
 **_图11-8：B1/B3 FDD天线复用器_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRoPB2ia6HVdblpBNdwibnmkqO8vnLickFocOcYAZzRzoVQnyahP1trumIvdH1b2D2r17Fd0DKicyLWibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_009_e84a1247e0b0.png)
 
 **_图11-9：天线复用器隔离数据_**
 
@@ -81,7 +81,7 @@ _____€6.天线复用器选型_____
 
 2#：输入功率，因为天线复用器靠近天线，信号直接由PA进来，功率较大，所以需要留一定的功率余量。（CW为连续波）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMDUPbo6xed8DmHWXrd9JwsWvxddibgnF8BecmmAvAMq1BXZwAv9JlGnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\RF_devices_11_天线复用器_images\img_010_485debe88dd3.png)
 
 3#：插损和带外衰减
 

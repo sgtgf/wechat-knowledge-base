@@ -13,7 +13,7 @@
 
 ### 1、拓扑结构定义
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPpfIzlehjtQs2bCpYQ0dRqufzuA5Br53FLkRKMqdW9LcJXfyqY3601SMcS9ejcRfY02ia0OewCozFsia1OyNf4Cdiah5PratKob8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三电平全碳化硅（SiC_）功率模块的技术及应用解析_images\img_000_b4cfb17991d8.png)
 
 I 型三电平模块拓扑图
 
@@ -37,11 +37,11 @@ D5/D6 SiC 钳位 SBD：零电平续流通路，无反向恢复损耗。
 
 ### 3.I 型三电平模块产品
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNibApRjWwkxSkFrQjfEuGHyvSTpWB8tYTdW7h3lPmAFdfANujfaGfBS1YyX0P7OkXlR0NXVhJrTYDibHtbVicsWia3XPUknAdawxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三电平全碳化硅（SiC_）功率模块的技术及应用解析_images\img_001_c5f5f90872b6.png)
 
 Easy-2B封装三电平模块拓扑图（电压1200V,电流210A)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPCiaV8B23zMKQVr6O29mU0JYzHb1vsC9lwZOKqVFBsQ1HqL2mujiaJVnwicoKypg6glvpichJv8LmxZzw7SQvqzWC0tkickIvSAXdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三电平全碳化硅（SiC_）功率模块的技术及应用解析_images\img_002_365a3fa54aeb.png)
 
 Easy-3B封装三电平模块拓扑图（电压1200V,电流380A)
 
@@ -287,14 +287,14 @@ I-NPC **独有优势：**
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpO6LL2ibRcmyDTxkibHKWRwuZeRJ6cSwia1SZ1KTmKwLunNNyFeDbaNw17TibyagtM0wSAAaYQA7M5RUUVa5m0iaVXtbz3duV2jVDM8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三电平全碳化硅（SiC_）功率模块的技术及应用解析_images\img_003_f15eff55a79d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPDdPqex8ra8VbYQOzhJ8us9s1r71fu0gnCgPqib3EOyAAysmG9LbEbcELSHCuwK62p0OiaR73balwDnwOSATnnheBtxogUYJxJo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三电平全碳化硅（SiC_）功率模块的技术及应用解析_images\img_004_5a48c3b007fa.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPKDXRYyGgatyIFrEia17SZH3YSelp67OJUuwW9S34tibs8DqRmiam0hFVNib0CKSedqZ7rZdpxNGLf5njfSWy5ia7xaN73RhdZpWQ4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三电平全碳化硅（SiC_）功率模块的技术及应用解析_images\img_005_bc0b667a2a58.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZsfHPKxeDRar9kW20EBic0ulRBiaqF0PMUbISRrgibGG4TV6Obe0f0VdmOoMxJ0M1vVHuK2zGXd5TJK2YiaVWmfFFqRKeO0HicgNA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三电平全碳化硅（SiC_）功率模块的技术及应用解析_images\img_006_29a8c84fb9fb.jpg)

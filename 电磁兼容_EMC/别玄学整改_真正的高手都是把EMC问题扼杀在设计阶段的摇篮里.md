@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/iX2KXKDbzm06H1ZePI-KTg](https://mp.weixin.qq.com/s/iX2KXKDbzm06H1ZePI-KTg)
 
-# ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+# ![图片](D:\电脑文件\公众号知识库\电磁兼容_EMC\别玄学整改_真正的高手都是把EMC问题扼杀在设计阶段的摇篮里_images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电磁兼容_EMC\别玄学整改_真正的高手都是把EMC问题扼杀在设计阶段的摇篮里_images\img_001_9011be9decf6.gif)
 
 #   
 
 之前给大家分享过一本咱们行业的经典书籍《EMC电磁兼容设计与测试案例分析》书籍，今天再给大家分享一本《电子产品设计EMC风险评估》，两本书的作者都是大名鼎鼎的郑军奇老师，本书共415页，文末附PDF下载方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKh6yJL6J40AXkjNnP9zkSORntnkp2fjq89SFxxPw4tiamtul1qEsldPoC0SVshz6uIibW2IbmSoyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\别玄学整改_真正的高手都是把EMC问题扼杀在设计阶段的摇篮里_images\img_002_c8f3eadb5845.png)
 
   
 
@@ -24,7 +24,7 @@
 
 郑老师的方法就是以EFT/B测试原理为基础，逆向思考：当干扰从端口进来时，共模电流会往哪走？我们能不能通过结构设计、PCB布局、电路设计，引导这些干扰信号流向安全区域（比如金属外壳、接地端），而不是串入进敏感电路？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKh6yJL6J40AXkjNnP9zkSLVCEKvRzqEpqTOll2AAKpbDRfU4OlpNLbQJkajfyaUMsxwn6eDYVnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\别玄学整改_真正的高手都是把EMC问题扼杀在设计阶段的摇篮里_images\img_003_55e551c54aa7.png)
 
 书里把风险评估分解成六个具体步骤：
 
@@ -74,8 +74,8 @@
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjKh6yJL6J40AXkjNnP9zkSh1XLbvKbDrdA2iaibsvhGCz4anBjpymPgkraGu79lXR9hzgtpkbIeBCA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\别玄学整改_真正的高手都是把EMC问题扼杀在设计阶段的摇篮里_images\img_004_4224e696a1d7.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjKh6yJL6J40AXkjNnP9zkSf3w4kUDBFMWxx96d9XCL5SwhH8kibQqszpsFB9PgAYlxDP1u9lSz3mA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\别玄学整改_真正的高手都是把EMC问题扼杀在设计阶段的摇篮里_images\img_005_aa05e7cf5928.jpg)

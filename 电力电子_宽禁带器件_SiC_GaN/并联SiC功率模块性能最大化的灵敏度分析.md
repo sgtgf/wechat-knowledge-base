@@ -7,41 +7,41 @@
 
 作者：Antonia Lanzafame Vittorio Giuffrida
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicbPfsia3QNpFuYbDJFnXExk77nkgicNB0zTyck4IFGZW9o9A5GeibjHLkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_000_9de79a917c6a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic37tNj8bCwxm5y4Rr65jOIgZx0D3mWdicoqkQDUqhAzAaUOnED0FPeGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_001_a60818e9c576.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicx1RAqtdrkXibZcpzl6fgmMF7xkVPWVKQeusNhic8Jfs23WLibbef4RAnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_002_84d62558047b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicrGBnngs8wO8CXL3sKQHDBUwcTOPsUOeuw4WE7lqLC9FSANdwGFAdkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_003_ee63e364cce9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic8YrXm6PYdM43mbuKlyGReXiaOXMTKODia5FibKQ68pMAzSEo4T0el5XCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_004_1ca6877e2a59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic5zjF99cL70qiadkmCbrhtaVpgrnh2F3rd8mv1OjWVxGDjoowmbZVBWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_005_b214615fd8ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic1pb6rl47yKL9jbBzseibUhC3DZjOjhcnrwYtMjpeatLfD7M9p5QQZdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_006_42df74520dd2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopiccOwdutFaGO915ytOoSp73fKPdicM2NT24msmAoAl89XiceyqKsMVreeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_007_8fcf31d2e4a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicNGtdXoJicuiaGoKWIN0Pe7RyMPqicZF8Ae8qWrx1icXcAgCLtQINjqbGJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_008_c3fc699b1e76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicvq55D9nE3fQibEynNxEgSP9iaxT9eMwqZhAfVxUkwqmO6T7Ic271VTMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_009_9b269a545341.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicfA87bxrNWPlCp8nMOibFUHMlY4tH5ia67tY3NE8wpgdoR1WUdOQE2B6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_010_dea59cbbc33e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic0NFKWfq5A3U5271Cu2OEnRzLHKhrqaLEiaRRMgnT1jUfrcqIia95XqFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_011_a1f16dc3273d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicJ07pjKYwibBGc3aeCSKkhy5X9fouX4hEeibsIksPFVANCPRwJexdwXow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_012_951a8aef8db8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicYWZl9VkDTHWzzT3dA9ibHrAulic1hOZUXibHhbytdbKr0KGm0ic4E3jfwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_013_209a6dd0bdbf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicQNtZPPTWZUGAxYCysXhsA1fVtib0KeOh5hqabD2gf6TWWL2jRBL7klg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_014_583ddf90565b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic2rjyA0VnqYft9iaYbyPC0GxAzYlVYHRIP5VrbW9mDeSzcWIP65eFpoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_015_c85f6fd357d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicwqynZZpZgLZib6ySGIsOMlUgBzXNibn1s0mHCJdKgNKIaia84hooQn2tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_016_8520b604653d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicmr2PQZ1RP36INukjvnPnZicWL7BYNBuOr2zomgKibictuYmXuNxL1xqFw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_017_888723931953.png)
 
 注：图片报告与文字无关
 
@@ -241,13 +241,13 @@ SiC MOSFET的 `Rds(on)` 具有正温度系数，这是一个有利特性。当
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aJ1MUTicI0GuiauhfoebWumUgU1Qu9ic5Xniaicbkyl3gyFlO0cbmDfmBLiaQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_018_fe069fcfb36e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a8crJ2L7M4OX17Szb34FK5JlibMciajPSibAJ2KVAIic8moa4vRiacc5rbCw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_019_bc2989d2aff2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a48flZW0nqjIpO5FVkvY9NUDp0sHzB0BgvVskic0uVzn30TaNKvXUsVw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\并联SiC功率模块性能最大化的灵敏度分析_images\img_020_3fde635b287d.png)

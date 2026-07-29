@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/HFAUlFTwaugwlmWpBp4NfA](https://mp.weixin.qq.com/s/HFAUlFTwaugwlmWpBp4NfA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR1Hx6DQKMD9bd2mVNmb8kl1nkaLiaZy1M2A2S248o5m5oXdB9CqxLdpxkh5GWkeiawYV6fVDmHC4XQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\System_series_MCU_1_MCU最小系统_images\img_000_b59f8735c6b8.png)
 
 ____**★★★**______MCU-1---MCU最小系统______**★★★**____
 
@@ -11,13 +11,13 @@ ____**★★★**______MCU-1---MCU最小系统______**★★★**____
 
 ## ____€1.MCU最小系统组成____
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjVRfDS0HTmQoPzgzRibM2of2ORQg7ZhSibuwxTN1jtBBfRHeDdC79knd5SdLiclZcxe0icjwc40NQkg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\System_series_MCU_1_MCU最小系统_images\img_001_53cfbec2dc6d.png)
 
 **_图1-1：典型的MCU最小系统_**
 
 如**_图1-1_**是最常见的MCU最小系统，由MCU、时钟、电源三大部分组成，MCU本身内置flash和RAM或者SRAM。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSmAsTTlykRvjrYr73b43xsh72nyLibDDxUJm97I7iauso1aN9LKxUN8E47WribKFsfY6E3DIWsUqLbA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\System_series_MCU_1_MCU最小系统_images\img_002_400d83cfe0f8.png)
 
 **_图1-2：外置flash的MCU最小系统_**
 
@@ -25,7 +25,7 @@ MCU外置flash比较少见，因为使用外置flash的MCU一般制程较高，�
 
 目前嵌入式车规工艺最具性价比的是40nm，也是国内多家车规MCU芯片公司的共同选择，目前MCU芯片的主流工艺是110/65/55/40。XIP Flash和eFlash（内嵌）在带宽，功耗，功能安全，可靠性方面均有所不同，XIP Flash容量相对比较大，但整体性能和可靠性稍逊于eFlash。（传送门：[Digital series-Storage-1：什么是串行Nor Flash？](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247491526&idx=1&sn=c8fdee50014ddf126a8c95f473032692&chksm=c3355559f442dc4fdf22663fa5b4491616b245cab4a77dcf7571c58e4227562d9c93b9284405&scene=21#wechat_redirect)/[Digital series-Storage-2：什么是串行Nor Flash-2](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247491627&idx=1&sn=4777a767a7c7ed30a55600136abe0e7f&chksm=c336aab4f44123a28fd597bc97d09df35e8a3b5cdb89cbd5817f1e20778352296f34e6a3f56f&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSmAsTTlykRvjrYr73b43xsGSicqSHgmpQEXAicR4fJXQibfW74thEZU8K7mbUhAsOayCsmwqNiamWiadw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\System_series_MCU_1_MCU最小系统_images\img_003_470acacb9098.png)
 
 **_图1-3：更高性能的MCU_**
 
@@ -67,7 +67,7 @@ BootROM为该芯片上电后执行的第一段程序, 它支持如下功能：
 
 芯片默认是通过BOOT\_MODE\[1:0\]=\[PZ07:PZ06\] 引脚选择三种不同的启动模式，启动配置如**_表1-1_**举例所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR1Hx6DQKMD9bd2mVNmb8klN9k7w6bNQIyvodWZAFjCrTqgV0u6TARCPDWaLFFtfvdDYwBfm3VInQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\System_series_MCU_1_MCU最小系统_images\img_004_44da687486a9.png)
 
 **_表1-1：启动模式配置举例_**
 

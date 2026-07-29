@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/57TqgQQuibKFdfBJiagVVYCIpfYX1icxPCrZK9syHmBU1LplPC1dLO5swHbz4j6A0BXRnwkgjyqzl3AgmzSWtVrNwQSaISXpBEnGPRCThCc9Io/640?wx_fmt=jpeg&from=appmsg)](https://www.acces.org.cn/)
+[![](D:\电脑文件\公众号知识库\电磁兼容_EMC\辽宁工程技术大学闫孝姮_付鹏_等_基于TFQMR的洛伦兹力势声源MACT_MI图像重建研究_images\img_000_946d3bed8853.jpg)](https://www.acces.org.cn/)
 **阅读提示：本文约 2700 字** 
 **导语**
 感应式磁声磁粒子浓度成像（MACT-MI）是一种基于磁声耦合效应的磁性纳米粒子（MNPs）浓度成像新方法。由于传统MACT-MI逆问题存在成像分辨率低和重建速度慢等问题，该文提出一种逆问题成像新方法，研究结果可为MACT-MI的后续实验应用提供研究基础。 

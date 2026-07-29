@@ -34,7 +34,7 @@
 
 要直观理解为什么奇点如此特殊，我们可以观察复变函数在三维空间中的模长函数图像：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocscu8azQE0FFPcUNvG6Kc3Ld34IIDxI4OWfOoVtoOavVEDIj4DJfH4O40QR9SicFmRYFKd8ib9ib8AHRS7PKxFYciaGvYrHuDeU2Rk/640?wx_fmt=png&from=appmsg)
+![](留数定理（Residue_Theorem）__复变积分的捷径_images/img_000_ee46d5055837.png)
 
 图像中那些高耸入云的尖顶就是**极点**。在远离这些尖顶的平缓区域，函数的行为极其乖巧；一旦靠近尖顶，空间就被扭曲。留数定理告诉我们：**只要你的积分路径是一个封闭的环，不管这个环的形状多么奇形怪状，只要它把尖顶圈在里面，最终的积分值就完全由尖顶本身的性质决定。**
 
@@ -118,7 +118,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvuXxZUdicnEIPwpkcGRP1blYQsOp6KvXB1oB52gMsDFic424NibcblFQFRJystWVnia2mtPVXPrhV7lsNgicxM65UgdhEia18IKuZBM/640?wx_fmt=png&from=appmsg)
+![](留数定理（Residue_Theorem）__复变积分的捷径_images/img_001_521305ac7e18.png)
 
 这张图用“**水流漩涡**”来解释复变函数中的**留数定理**。它想表达的核心是：
 
@@ -149,7 +149,7 @@
 
 # 1\. 问题：闭合曲线包围了奇点
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuUsFN5KrEcnxP52ZA1df5kS2hANia9IChBczCwkq4rOJwBEKMSoXG6sXib43ibLf3Aee9pC5JEHMqENLagR86HFNwiao9Q6Uic6QtA/640?wx_fmt=png&from=appmsg)
+![](留数定理（Residue_Theorem）__复变积分的捷径_images/img_002_506530ebad41.png)
 
 图中有一条闭合曲线 ，内部包围了三个特殊点：
 
@@ -196,7 +196,7 @@
 
 # 2\. 留数：奇点附近真正“剩下来”的部分
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocviaO6edQ3J2jaibqypMrp79wkIog7spbw2cHre2DKEMMbOA6oWuRefhRib68Rsov1ScNz8vcMOKCfPzBvOibForxYwM4u7e7dTOZg/640?wx_fmt=png&from=appmsg)
+![](留数定理（Residue_Theorem）__复变积分的捷径_images/img_003_d79b80ad241d.png)
 
 为了研究函数在奇点  附近的行为，我们使用**洛朗级数**：
 
@@ -253,7 +253,7 @@
 
 # 3\. 留数定理：所有奇点的贡献相加
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocu7EKvFye4cxwpzz3JmLRiaPvb79M6m6VgiaKTZzCb00D7mYqcWIO94AwlicPYEfPC1qTOib7a8niclF5xPMwCCpjtzxiaqcIDgRAb40/640?wx_fmt=png&from=appmsg)
+![](留数定理（Residue_Theorem）__复变积分的捷径_images/img_004_c80daa6b74a6.png)
 
 如果闭合曲线  内部有多个孤立奇点
 
@@ -332,7 +332,7 @@
 
 # 6\. 图片第四部分：用复积分计算实积分
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvRxZ1wJWZdAQmvz12GtEiadadxZvvodJxz3FibJppcvPNKp0g1dtjR5JweYgcicyAicM8Pos6Rbpiciclib4yZ6OGoTEqcZF9iaCTzlJs/640?wx_fmt=png&from=appmsg)
+![](留数定理（Residue_Theorem）__复变积分的捷径_images/img_005_cd390ffb517f.png)
 
 留数定理最厉害的应用之一，是把难算的实积分变成容易处理的复积分。
 
@@ -455,4 +455,4 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctwcQxlFTLIEzVlBjibZibgPWGAffsh29JibFSdPwT7neKBALYBb5rTuIicejdBGcOBIhE5eEOZXL6e6tRtdaN88lvg7Nibysib1yTUw/640?wx_fmt=png&from=appmsg)
+![](留数定理（Residue_Theorem）__复变积分的捷径_images/img_006_325af25052a4.png)

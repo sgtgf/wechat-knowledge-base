@@ -12,7 +12,7 @@
 
 SPI现在已经成为MCU和外围设备之间最常用的通信方式了。它是一种同步、全双工、主从式的通信接口。工作原理其实很直接：主机产生时钟信号，从机跟着这个时钟同步收发数据。允许双向传输，可以在同一时钟周期内进行主从设备的数据交换。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjFXicX5Twlc7uwoexbzX82FrFe8LNCYxaIUJWqcvMbIdM0zXfIfCnWS201BxoaLKpbicjVWkL3T5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_002_607035945210.png)
 
 这种设计让SPI既简单又高效，特别适合需要快速传输数据的场合。不过要注意的是，SPI没有标准的通信协议，不同厂家的设备可能会有差异，所以用的时候一定要仔细看芯片手册。
 
@@ -26,25 +26,25 @@ SPI接口的核心优势在于它的**简单性**和**灵活性**，典型应用
 
 1、传感器数据采集（如温度传感器、IMU），例如：TMP124芯片，它是由TI推出的**工业级数字温度传感器**，主打**高精度+SPI接口**组合，适合对测温有严苛要求的场景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0uNLEPKnpF5XBAghGBt7rr3GCMphribFqHraSlic4q9HE6yRnUl14XuPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_003_de3f799a53a4.png)
 
   
 
 2、存储器读写（Flash、EEPROM），比如小容量的AT25040，常用来存储配置参数和校准数据。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0JANpS5sqwX60ibXNN0k89ku4pYcGp8KmENPFDVtMyydPhvd4B2rkwdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_004_3c16ded39ce3.png)
 
   
 
 3、数字信号转换（ADC/DAC）。比如通用ADC芯片**MCP4921，它是Microchip推出的**低成本12位数字模拟转换器(DAC)**，主打**简单易用+SPI接口**组合，适合需要数字控制模拟输出的场景。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0UVlY85F6sD8oiaFhiaL5NgDdjow2RI7ibsicZWrLGL1duf5RyyHX7McicQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_005_b3109415cca1.png)
 
   
 
 4、显示驱动（OLED、TFT屏幕），例如咱们常用的0.96寸OLED屏，一般有I2C和SPI两种接口，虽然SPI多占用两个IO口，但速度比I2C快很多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0ibwcwFeA58PoLrdV3ib4nzS2SsicVicmle75cia6Clw9qMXczLIakwJuqzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_006_9eaf4a1fbf75.png)
 
 ### 
 
@@ -65,7 +65,7 @@ SPI的连接方式和工作速度
 -   MISO主机输入，从机输出
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0K1AIWHWiacaSKQtXibYZ83xIhibDvIZXlqnmyjdegpSKlicmh3n0RsiaEHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_007_b4fee7d3391d.png)
 
 主机和从机之间的SPI连接
 
@@ -101,9 +101,9 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 咱们来看两张动图
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/qVwr8GXuicLafthk5bx8TAX2giaj3eEcHiaK8dcBkXl9HmRl72BrH5kJRHalzxkEmOv4nM1SjImJRRyiaRusSfvkUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_008_f9a43a33c772.gif)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/qVwr8GXuicLafthk5bx8TAX2giaj3eEcHiaperTLzrdibbXIhibBIk1hgOIxdcXRebyG0j4lGEiactdsrdNfBLflvZMQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_009_c5f3960be8d4.gif)
 
 这个过程中要注意三点：
 
@@ -121,7 +121,7 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 ### **SPI有4种工作模式，主要通过CPOL和CPHA两个参数来配置：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0oT1BfibvNsE0QZMbTNtN0qkkD1SSsgDXXriaTLXTAibMhGB0TsUJhzSCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_010_9b01dfb1fc1d.png)
 
 ### **
 
@@ -141,7 +141,7 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0wnVXRNMIvic1TkVb891jicyXYQmb7udDazlKVhFetRAZssyqL8ibRlWKA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_011_32130fdea198.png)
 
   
 
@@ -157,7 +157,7 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 ### **时钟相位为1，表示数据在下降沿采样（由橙色虚线显示），并且数据在时钟信号的上升沿移出（由蓝色虚线显示）。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0FLQIvFtrLEe3n1pBT6ZbQr7yCrI6Y34qn9DBYxe01MQ1zQBl1NCV0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_012_b53df790f745.png)
 
 ### 
 
@@ -179,7 +179,7 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0wCju3rW1OrK2WvsPWFYAkADIrpiboUBmE2x6NqyOOWicX5V30PfwhCTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_013_c2d2816d8fa1.png)
 
 ### **
 
@@ -205,7 +205,7 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0yEPgPmficppF4nez20c9ick10bm74DbfE0n8LHLyEN7771JKh3icawkbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_014_0a1a57ece776.png)
 
 ### 
 
@@ -217,7 +217,7 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 ### **常规SPI模式：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0NwB1tkWJdb7I6y1EvjDiafdsbLFffvx1YIMHAGraM7a4V85I4lbpqUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_015_eb1f5ff8b2b0.png)
 
 在咱们SPI常规连接模式下，咱们主机必须为每个从设备单独配备一个片选信号线（CS）。当主机将某个从机的CS信号拉低时，这个从机就被选中，此时MOSI和MISO线上的时钟和数据信号就可以和这个特定的从机进行通信。关注公众号：硬件笔记本
 
@@ -229,13 +229,13 @@ SPI最厉害的地方在于它是全双工的，这意味着主机可以通过MO
 
 #### 菊花链模式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0bw6LNH391hl0uBHZD3kmC2ULEWCGyPmP7y29tTSBbhX7iahaecoHPMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_016_ebc06e124cad.png)
 
 在SPI菊花链连接方式下，所有从设备共享同一个片选信号（CS），**从一个从机传播到下一个从机。**具体工作过程是：主机发出时钟信号（SCLK）后，数据首先传输到第一个从机，第一个从机**将数据提供给第二个从机**，这样依次传递下去。所有从机都使用同一个时钟信号进行同步。
 
 这种连接方式的特点是数据传输需要更多的时钟周期。如下图，比如在一个8位数据宽度的系统中，如果要让第三个从机收到数据，就需要24个时钟脉冲（3个从机×8位），而在常规SPI模式下只需要8个时钟脉冲。这是因为数据需要依次通过每个从机，每个从机都会对数据进行处理和转发。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0oTcrMXgpPsoibk9rL2HHgxgvsHr8ZNfiaSLedtVMl6MlUFAiaibQsxJSXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_017_66315ff17674.png)
 
 ### **菊花链配置：数据传播**
 
@@ -261,7 +261,7 @@ SPI接口虽然简单，但在实际应用中需要注意很多细节：
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjAibVIhHVt3yXrTqSa9wZm2o7mRIXS1x2kJxib2Bo4pdzrliaNsgV2FIFkaLGt3czYuPRUGePz9AqTQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjAibVIhHVt3yXrTqSa9wZm23QZw7KqPdZ2z45x3C67iaphsb4aicwtqxubaHth4KtQXuS1DZgtUibRVg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_018_dc74fdedef56.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\SPI通信笔记_基础_动图_时序图_总结_一文吃透__images\img_019_071d2a9c610a.jpg)
 
 ## 
 

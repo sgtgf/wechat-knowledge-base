@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9NpS6LyV7o1CMG9WYCFlliccTFjibWSNnlGehToA9WPp6J4yybN28iaYUQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_000_746dc576aa91.png)
 
 CBTC系统隐患分布
 
@@ -30,7 +30,7 @@ CBTC系统隐患分布
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF930kJ5Zk5iaqw5lfiayskzhOzCa5uGks5GvHlLsHiaKjnuJdTmhHN69jSA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_001_031ff47a509a.png)
 
 构建CBTC复杂网络模型
 
@@ -40,7 +40,7 @@ CBTC系统隐患分布
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9awT3vliaFcqvemuyYQRmGic68J6ibo4KrHib18HMcd45uPrGGYdoKDblZA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_002_46a6b7430ced.png)
 
 构建CBTC风险评估模型
 
@@ -50,7 +50,7 @@ CBTC系统隐患分布
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9icnVX43ItdD1vpvdEOJG1FcIIP39YwqT2JibKQeWhxiaTLWq9DmASrfVg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_003_5b55ff263c4f.png)
 
 半实物仿真平台示意图
 
@@ -58,19 +58,19 @@ CBTC系统隐患分布
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9iavHRHodxxrGKyJtibrM8R3oCfloDKicgicebQArF3UzbUKHyIGIsvbQgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_004_49368d0890e9.png)
 
 董慧宇，北京交通大学电子信息工程学院硕士研究生。2016年获得北京交通大学电信学院学士学位。主要研究方向为城市轨道交通列控系统信息安全。
 
 E-mail: 16120213@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9BKZew57Y0YroNJpVJqVHHPMWbvKP9tGu3uXpXpaice3kEfJ2ZXf44lQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_005_3d53bd852e63.png)
 
 唐涛，轨道交通控制与安全国家重点实验室教授，主要研究方向包括基于通信的列车运行控制、高速列车控制系统和智能交通系统。
 
 E-mail: ttang@bjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9icM6uO9fajsmTSHceAS9vLHTTfrvBB3SeJpkAg9ID2YMwg1J2sDL8nQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_006_0305bc978811.png)
 
 王洪伟，国家轨道交通安全评估研究中心副教授。2014年在北京交通大学获得博士学位。主要研究方向为基于通信的列车运行控制系统的车-地通信技术和地铁系统中的协作调度方法。本文通信作者。
 
@@ -158,21 +158,21 @@ E-mail: hwwang@bjtu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9Jxoq0SkQj6K9TbAQPXh99AoJQRQmqhaJicmAibsiccjfLb0ckC4n0J3qw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_009_8e881cc6ac0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9EOuzdkJ239SdpXtLjGwNcMflWhuLkBibyto301icda0KAp9uhUIrvwBg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_008_6ecc285bd7c7.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9Jxoq0SkQj6K9TbAQPXh99AoJQRQmqhaJicmAibsiccjfLb0ckC4n0J3qw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_007_8e881cc6ac0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9HYRgHZ93wdvJM2ZHTprzLxp5lAiciblcnrfLd0GgoKPUtS9JETOezGTg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_010_e5ce3eea2958.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9Jxoq0SkQj6K9TbAQPXh99AoJQRQmqhaJicmAibsiccjfLb0ckC4n0J3qw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_011_8e881cc6ac0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47AATG4poSTLL8YqUvmcwF9ziaZAV3HicvDbpTnle4lQtibQJwVsn7BuYibGGvPaUNicd2JNk4HmeGIziag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\北交唐涛教授等_基于二维结构熵的CBTC系统信息安全风险评估方法_images\img_012_3aa72511812a.jpg)
 
 自动化学报订阅号
 

@@ -10,13 +10,13 @@
 
 最近存储市场又热闹起来了，DDR4、LPDDR4X 还有 NAND Flash 这些存储芯片，价格是一路看涨。而且不少行业机构都判断，这波涨价才刚起步，估计还得持续好几年。这对做咱们嵌入式开发和智能硬件的朋友来说，可不是啥好消息，意味着产品成本又要往上走了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicvlYP4NchzV3Eayb7UC2H8W653WhlqCM3HIiaD3KAGeMDSxVGqwx3aSfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_002_7d32e770ebac.png)
 
 更有意思的是，现在市场出现了一个历史性的反转：**DDR4 的价格居然比 DDR5 还要贵**，而且贵不少，同样容量的DDR4 差不多是 DDR5 价格的两倍。这种倒挂现象确实挺少见的。
 
 在这种背景下，那些能支持新一代 LPDDR5 内存的芯片平台，优势就越来越明显了。比如瑞芯微的 RK3576，它不仅能直接用上带宽更高、功耗更低的 LPDDR5，本身在算力和能效方面也提升很大。眼看着 DDR4 越来越贵，像 RK3576 这类支持 LPDDR5 的芯片，性价比反而会越来越突出，逐步成为替代 RK3568 这些老一代芯片的主流选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFAJ8BV69LNAw2Hf98RC91CPQ9ibqdBCj0SjYH5zO53qtFTgeuPJUJoLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_003_adbdc3bf5893.png)
 
 今天要跟大家介绍的，就是基于这颗 RK3576 芯片打造的一款高性能开发板——**触觉智能推出的 Purple Pi OH2**。这块板子不光是 CPU、GPU 和 NPU 全面升级，更重要的是它直接搭载了 LPDDR5 高速内存。这样一来，既避开了 DDR4 涨价的供应链风险，又为咱们开发者提供了一个既稳定又高性能的硬件基础，算是真正面向未来的一个选择。
 
@@ -34,7 +34,7 @@
 
 三是模块化设计方便未来升级，非常有利于小型化产品的开发。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapF1Srrd1B8SrhS6jiaBHBD4Xua25tkiajdPUwbJSVMy7CzcT0B30wiaiaaYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_004_4bc1a8db7607.png)
 
 ### **核心板介绍**
 
@@ -44,11 +44,11 @@
 
 **SOM7609-S1：** 用的是LPDDR4/4x。性能对于大部分项目来说完全够用，关键是成本上有优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFH2Kn6Cac4fRvmaFEIfMn2Gaxj473t30a7v2a1ob2Veic5G3Z5kk5Pew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_005_b7a3dfa1cac5.png)
 
 **SOM7609-S2：** 升级到了LPDDR5/5x，带宽更大。如果你做的项目对AI算力要求极高，用S2版本能更好地把RK3576的性能榨干。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFtbq4Zc4Pq2ibw7IPJa5MliaktpsSHLEfhp9WxGcq3c4ibQwm8qdsyYFlA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_006_8cf25ade7f1e.png)
 
 **用核心板的好处，说白了，就是帮咱们把最难、最贵、最费事的部分给干了。像高速的DDR布线、eMMC，他们都在高密度PCB上搞定了，保证信号质量。咱们自己只需要设计一个相对简单的底板，实现具体的功能接口就行，大大降低了开发难度和风险，项目周期也能缩短。**
 
@@ -58,11 +58,11 @@
 
 ### **咱们先来看下底板正面和背面整体布局，十分美观。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6EX22UPUuaUQvDxlwDB0T9sic3G46PZGHnLfnXIULVqoRibn0xhM11DzA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_007_bbd7766863a7.png)
 
 底板正面图片  图源触觉智能官网
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c66pnvYmPsrCaFH1E6dLUUYeIHXtsmA62EVSialHa7p4nTDc4IncYiakicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_008_63466547cd1b.png)
 
 ### **
 
@@ -72,7 +72,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c66BnutBB27OcPvTvp0OoibjMtC9mLgG3Rtq9Z2WJSkibtic7pUIRCwl9aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_009_4d59fadc1c1f.png)
 
 咱们从左到右依次介绍一下这些接口：
 
@@ -121,7 +121,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47XMpbNc9B94mTz4jIwVb52wIsTRJibEPibclh2oEImBDhAJcE8icJt5K9A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_010_679ca9da66ad.png)
 
 眼前这一排就是主板的 **2x20 双排针**，也就是咱们我们常说的 **GPIO（通用输入输出）接口**。它的规格是 **2.54mm 间距**，总共40个引脚，而且**完全兼容树莓派4B**的引脚定义。
 
@@ -138,7 +138,7 @@
 
 这样一来，我们调试的时候，**一眼就能锁定目标引脚**，再也不用像以前那样，一二三四……地低着头一个个数过去了，大大减少了接错线的概率，也节省了宝贵的时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgAFibFfm4S1VuGsch8Qar2kUicN5eVvHZCicnT9oWvVb3nop1wcPboumicZKYu3EyOErex4Qr2gicJmNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_011_8218e9a814b2.png)
 
 ### **
 
@@ -146,19 +146,19 @@
 
 **
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47McniabjeTY6CH2u9tg2FNsicCBqt9NynuvFUibhH4gOKcHOAgux9P79KQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_012_15a6a0dbdded.png)
 
 从这边看有一个比较显眼的黄色方形的插件，可能有些同学会比较好奇这是什么元件呢？在这里有什么作用？
 
 大家经常做产品的，应该一眼就看出来，这是DC电源输入端的保险丝FUSE。结合原理图，咱们可以知道它的具体型号和参数，这是一款自恢复保险丝，**当过流发生时它能自动断电保护电路，故障排除后又能自动恢复，无需人工更换，一劳永逸。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj2vAlyFbfwRLyX3eu7SNN1JC5e3Ey0N9kSEU41fQN9UhXpnzcyLicUICnNGAQnAv3VrpUBpA2JLJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_013_d9c6245e90ed.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47YickjoFbJGVyGEfl5pqSBENDk7aiaW6tKlFugFJ3MibetR0BJx5TDzBicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_014_217cda46961d.png)
 
   
 
@@ -195,7 +195,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47yvAlUDibqgEwz8g0juhnOq539E4L1fQ1ibcZyUS2PS5FeibkbpKeIKHtw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_015_b0bce337e52e.png)
 
   
 
@@ -230,7 +230,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47Ef32JCLQk6LnZQmkAib699jibTpH9Qp7egMSNSXTJvrkK3A5amzgYhKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_016_9a1d5c85f58f.png)
 
 板子背面还有一个TF卡座支持SD3.0，支持高速SD卡。
 
@@ -242,7 +242,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47ja92jZG9zgS7c7NlxydWajvuUqfQ4j4yzGD9QHluaDODZIyjVyejeg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_017_356463fb41ef.png)
 
 板子另一侧的左边为1x5x1.25mm间距米白色贴片卧式针座，用于ADC检测。
 
@@ -266,7 +266,7 @@
 
 它支持安卓Android、开源鸿蒙OpenHarmony、**统信OS**，以及像Debian、Ubuntu这样的Linux系统。选择非常丰富，这样在产品研发和批量生产时，就能大大方便咱们根据需求来灵活选用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgIibaCqiaobwrmgL7lbCloyqh7s8knQLjzFVc0Ps3ib41l6RIvLqV5TCSc9kFTbMjTXu6Ehe1o4CWibQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_018_14e1391d42da.jpg)
 
 **2、资料获取方便：**
 
@@ -274,7 +274,7 @@
 
 像Purple Pi OH2的系统镜像，他们直接提供了百度网盘的链接，Linux、Android、OpenHarmony三个版本随便下，解压烧录就能体验，对新手极其友好。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFyBVXkCfy55xF2ibRaTsjgzAa2pZ6S3WwjdEmgBos2nwwuwH85biak15g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_019_c43339c333b1.png)
 
   
 
@@ -282,7 +282,7 @@
 
 跟着他们提供的文档，搭建编译环境、编译源码、烧录系统，过程都比较清晰。这对于快速启动软件开发，特别是驱动调试和应用移植，帮助巨大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFJUFWV8C4SMjpaZvNzmu63Q5HM6NxQJQQwL8PTrU6NGicR6ic1OjBprYQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_020_e72cd5c9f9e8.png)
 
   
 
@@ -330,19 +330,19 @@
 
 2、然后，添加客服专员13423856106，即可获取全部资料和技术支持！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicvUGj8uwIfAibnrZHVgx9UNdSVj2HDiaHMQrkocc0jvrxz3ob1ibhdghiaHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_021_5eb74c374e17.png)
 
 触觉智能RK3506开发板购买链接：
 
 https://item.taobao.com/item.htm?ft=t&id=894713325273
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicv4QMtpsGEAWGYwB8Xc7l6fJ5P7wXpnSLefibFMRwt9G6AuPSZ53ZO0icQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_022_2b2346e0db29.png)
 
 触觉智能RK3562开发板购买链接：
 
 https://item.taobao.com/item.htm?ft=t&id=739666345147
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicvHQXDib9XGojVic3r3chdJ0wQ9RbtSetCYOGnLiaBFEeTtQlzBhVQufPXg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\倒反天罡_这年头DDR4都比DDR5贵了_老项目血亏_新项目赶紧换平台吧__images\img_023_b30f65585926.png)
 
 触觉智能RK3576开发板购买链接：
 

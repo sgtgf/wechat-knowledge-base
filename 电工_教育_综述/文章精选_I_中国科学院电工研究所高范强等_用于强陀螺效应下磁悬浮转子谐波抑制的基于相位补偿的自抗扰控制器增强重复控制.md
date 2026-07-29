@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/I3nD\_37aMpkHf5ZGVWZMMw](https://mp.weixin.qq.com/s/I3nD_37aMpkHf5ZGVWZMMw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_000_4fecbf19a39d.gif)
 
 ****Enhanced Repetitive Control with Phase Compensation Based ADRC for Harmonic Suppression in Magnetically Suspended Rotor Under Strong Gyroscopic Effects****
 
@@ -40,7 +40,7 @@ Magnetically suspended rotor (MSR) systems have gained widespread industrial ado
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja19mXQyA3dxV5AL8O4R5C4obpBTNVRVeRvJsqq28dJjaL3ZibhGYtvsaYNpscrmNHNk7e4mpTM8iaLCkrichpqOgvsHELzUBIuYKY/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_001_929c05aa91a8.gif)
 
 MSR系统图
 
@@ -54,25 +54,25 @@ MSR系统图
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja0EickKaKG1FuM4kO2BrcibHAGq79z98WgbLCw7qn3diceCgtkS6HF5CznQDK0FMvVsBSyo9ib4kuD6N0HT1vAMe46SmvesYKaIejQ/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_002_b235abd7b045.gif)
 
 **朱宇翔** ，2023年获得清华大学电气工程学士学位。目前正在中国科学院电工研究所和中国科学院大学攻读博士学位。他的研究兴趣包括主动磁轴承和变压器设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/LO7v6QoDja1tliboIAUyD9D22VgFqicso9a5pePqvNQROfs8WicLfX47oqerpZP5DVMgCZ7dUUrH94KayBMWqRqRJtBKJibxcib5ZR2lIDlkkuX8/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_003_0ff06038f17e.gif)
 
 **高范强（Member，IEEE）**，1984年出生于湖北。于2006年获得华中科技大学自动化控制工程学士学位，并于2012年获得中国科学院电工研究所电力电子和电力传动博士学位。他于2012年加入中国科学院电工研究所，目前担任副教授。他的研究兴趣包括大功率领域电力电子转换器的分析和控制。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja027eyPbicgyyOWcAricdeo6RstNTtlX33jiaPu0ZyibeW78kXAwX06Zc7xEJ1MNKW30IezIRblyrF9oqicuLxCbWKH2VwTDAuUGPRM/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_004_9abbe3aae2bf.gif)
 
 **单开宇**，2000年生于中国辽宁。2023年毕业于东北电力大学电气工程专业，获工学学士学位。现于中国科学院电工研究所、中国科学院大学攻读电气工程博士学位，主要研究方向为磁轴承控制与永磁同步电机控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/LO7v6QoDja3yL5EyYm67ibo7Qx9po0sSVQsNJSSzgo2lJBqBYb0tJJS55A9OxFic7FwTLOib7t4szAUHWOPFffnfEvY0Nia04YYlaNHxJuB9HDE/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_005_64d20231bf1c.jpg)
 
 **李子欣**（Senior Member，IEEE）****，1981年出生于河北。于2005年获得华北理工大学工业自动化工程学士学位，并于2010年获得中国科学院电工研究所电力电子与电力传动博士学位。自2010年以来，他一直在中国科学院电工研究所工作，目前担任教授兼副所长。他撰写或合著了100多篇学术论文，在中国拥有20多项发明专利。他的研究兴趣包括电力电子和电磁驱动技术及其在电网、交通、能源和其他领域的应用。李博士现任或曾任《IEEE电力电子学报》、《IET高压》、《电力电子杂志》和《中国电气工程杂志》的副主编。他因对多电平和高压直流换流器的贡献而获得2015年IEEE电力电子学会Richard M.Bass杰出青年电力电子工程师奖。他于2019年当选为工程与技术研究所（IET）研究员。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/LO7v6QoDja1HKibcKeU3ySpzL5f7ukOM4hzwj0tVibnn52GZBweYhJAad64eib48I09XGs6pRVfeEQ0zGf2XkL5BqRlicOjZZIngicVAxiaiab9kVU/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_006_bd416ad3f251.gif)
 
 **李耀华（Member，IEEE）**，1966年出生于中国河南。1994年毕业于清华大学，获电力电子与电力传动博士学位。1995年至1997年，在柏林工业大学电机研究所从事博士后研究。1997年加入中国科学院电工研究所工作至今，现任电工所所长、教授。主要研究方向为电力电子与电机控制。
 
@@ -80,7 +80,7 @@ MSR系统图
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_007_654c2fde68d8.jpg)
 
   
 
@@ -94,15 +94,15 @@ MSR系统图
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_008_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_009_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_010_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -110,15 +110,15 @@ MSR系统图
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_011_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_012_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_013_644d85f1cc17.png)
 
 学会官方B站
 
@@ -126,15 +126,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_014_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_015_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_中国科学院电工研究所高范强等_用于强陀螺效应下磁悬浮转子谐波抑制的基于相位补偿的自抗扰控制器增强重复控制_images\img_016_c28b250481e7.jpg)
 
 学会科普微信
 

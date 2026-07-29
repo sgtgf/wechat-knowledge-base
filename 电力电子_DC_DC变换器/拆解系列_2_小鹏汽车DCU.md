@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Y-LvZXBSjq8kr7EoF8Vqwg](https://mp.weixin.qq.com/s/Y-LvZXBSjq8kr7EoF8Vqwg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScRicFDBt1vuxbMzrk0Msuo75ddSI4lwoTFehgSRPwZKm5ytA8jy0IrGJ0GMM9LcebYzjSlBSMHiaw/640?wx_fmt=png&from=appmsg)  
+![](拆解系列_2_小鹏汽车DCU_images/img_000_939408ced209.png)  
 
 ____**____**____★★★____**____**__________DAS-2---DCU__________**____**____★★★____**____**____
 
@@ -15,29 +15,29 @@ ____________€1.外观结构____________
 
 如**_图2-1_**所示，整机为铸铁锌合金全金属结构件，四角延伸出四个宽大的紧固柱，其中右上角格外偏大。铸铁锌合金结构，整机强度更高，与DAS-1（传送门：[拆解系列-1](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247494103&idx=1&sn=a93085d62197b6085b71673aa38364b7&chksm=c336a348f4412a5e865d262a09a40a4386a04bc5d2c99ee4eefd532d462f369a527986ccefef&scene=21#wechat_redirect)）不同的是并未采用液冷散热结构，而是在上盖分布许多鳍片，以此来增加与空气的接触面积，提高散热性能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMqfq8H2K9UNTo3TcUxgBMZAQx4wZ7zocI4DfuA8ThnzboWEhJIyfRaicA/640?wx_fmt=jpeg&from=appmsg)
+![](拆解系列_2_小鹏汽车DCU_images/img_001_120a60543ce4.jpg)
 
 **_图2-1：整机正面_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMq2dpb8icZsROlTHadicicCA5dRuFaplg5aqhhWZcdQ1cJlNK5SD6y0T9yg/640?wx_fmt=jpeg&from=appmsg)
+![](拆解系列_2_小鹏汽车DCU_images/img_002_ce137a7d75d9.jpg)
 
 **_图2-2：整机背面_**  
 
 **_图2-3_**是主板下侧接口排列，从左往右依次是电源入口、CAN口、串行摄像头接口。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMqnSvK3eG1pKHubXQ3LbW39xbjAYxTumELCiaAr1Vq2HBT3OBqxGiaibP9w/640?wx_fmt=jpeg&from=appmsg)
+![](拆解系列_2_小鹏汽车DCU_images/img_003_00c2d524f6e6.jpg)
 
 **_图2-3：整机下侧面接口_**
 
 **_图2-4_**是主板右侧接口，左边是一个外置硬盘接口，右边是以太网接口  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMq3LZGI9sfmxaaGbCJ0g0biaKAV5S51FJu4dFr9gdHZu1JbcHpMJ7KOlg/640?wx_fmt=jpeg&from=appmsg)
+![](拆解系列_2_小鹏汽车DCU_images/img_004_d52c376968d0.jpg)
 
 **_图2-4：整机右侧面接口_**  
 
 如**_图2-5_**所示，由于没有采用液冷散热，仅仅靠PCBA与上下盖的边缘接触不足以散去产生的热量，所以内部增加了许多凸台，还覆盖有导热硅脂，与PCBA正反面的热器件形成良好接触。在摄像头公座那一排，可以看到上盖的内嵌槽贴敷了一整条较厚的导电泡棉，接地更加良好，提升了信号的抗干扰能力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMqJrGXkVOW5k3Ad3VFicMX5T2xlVG79ZLiadCIKH7YlIcDlBic9leuwbFLw/640?wx_fmt=jpeg&from=appmsg)
+![](拆解系列_2_小鹏汽车DCU_images/img_005_7edd9bd2195b.jpg)
 
 **_图2-5：上下盖内部结构_**  
 
@@ -45,7 +45,7 @@ ____________€2.主板全局____________
 
 **_图2-6_**是主板PCBA正面全局图：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMqgWYbkVHicNnuHLCdtXGv8O48SHEo5JBdcWn3UZtm4DGS1czSvnMglzg/640?wx_fmt=jpeg)
+![](拆解系列_2_小鹏汽车DCU_images/img_006_8e49e3c221aa.jpg)
 
 **_图2-6：PCBA正面_**  
 
@@ -63,7 +63,7 @@ ____________€2.主板全局____________
 
 主板右侧还留有白色卧式调试端口。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSibib2afGFsrusA8O8vm7TMqqTtgOzznQeF1dQNxwpJCAmuM1HVZfN1IT9rqkWHn0zxFcb9aHNv5hg/640?wx_fmt=jpeg&from=appmsg)
+![](拆解系列_2_小鹏汽车DCU_images/img_007_0e44789e4931.jpg)
 
 **_图2-7：PCBA反面_**
 
@@ -89,7 +89,7 @@ MAX20024GGXC/V，来自美信的五通道降压PMIC；20087ATPA/VY，四通道�
 
 _____________€4.局部分布_____________
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuib0XqEslu1ZHOV2SCHZMicHIH1ZTX1ukgrE2dibibFZGul7AR17skLrZSdQ/640?wx_fmt=jpeg)
+![](拆解系列_2_小鹏汽车DCU_images/img_008_eaff9135710d.jpg)
 
 **_图2-8：主系统局部图_**
 
@@ -99,27 +99,27 @@ _____________€4.局部分布_____________
 
 **_图2-9_**是电源的局部图，主电源分为两个接插件入口进入，靠近连接器端布置有两枚6600W的高性能TVS管，来自东沃电子的SM8S26AT。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibIc05FoibcYhS13zibo1yBJzNHswgjM7O8amdR7mflCCTA0XzLnxuEqqg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\拆解系列_2_小鹏汽车DCU_images\img_000_14386ffd24c2.jpg)
 
 **_图2-9：电源局部图_**
 
 经由大电流功率电感，主芯片核心供电为多相控制器+DrMOS，具体型号未知，R22电感旁边布置钽电容和高容MLCC。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibkGZQuhNuxIZjqQhOWtjJyBFn3BuwxgicW4yIskukUowFh57pH3cHCpg/640?wx_fmt=jpeg)
+![](拆解系列_2_小鹏汽车DCU_images/img_010_965216700df7.jpg)
 
 **_图2-10：背面局部图_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuib0RvJIMGzQRrLsPZQ7CZ5E7qZRH0aTLgDrMjTrGwcx3ib9yd7Q4M4rRg/640?wx_fmt=jpeg)
+![](拆解系列_2_小鹏汽车DCU_images/img_011_ba73cfecf9df.jpg)
 
 **_图2-11：背面局部图_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibWJiabe0a2eGibaMVSrIWBvhpQDk9XkSyKJLH1HLLK9wKbFRoquy3uTXQ/640?wx_fmt=jpeg)
+![](拆解系列_2_小鹏汽车DCU_images/img_012_a83663b060a9.jpg)
 
 **_图2-12：背面局部图_**
 
 ____________€5.简略框图____________
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ0WBdtSuFkh6acJTyMMpibSqdicum6gTicj1m0FEBPEXKQjShyTvKVsygsC0HPYR4oYIADmuWWfLjfQ/640?wx_fmt=png&from=appmsg)
+![](拆解系列_2_小鹏汽车DCU_images/img_013_62079182a6a2.png)
 
 **_图2-13：简略框图_**
 

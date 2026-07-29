@@ -23,9 +23,9 @@
 
 关键词：整流模块；SiC；SVPWM；电感确定方法；改进型 PI；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEicesNRK9icMW1RUzfpKl5SkxA4knIckRlPq4ZN5ibsSzm0ia2Uglf82XeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_000_c3f21c83a6a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEY4CFlVWxIjUIVibfCsRoVZHlFnfCQ2DibKa8DnfP7b82fr6q3N5hH3zA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_001_1f10e39bb166.png)
 
 第一章 绪论
 
@@ -53,7 +53,7 @@
 
 到目前为止，无论是不可控器件、半控型器件，还是全控型器件，其采用的半导体材料主要是硅。近年来，基于新型半导体材料的电力电子器件吸引了人们的关注。SiC材料是一种碳和硅构成的化合物材料。相对于 Si 材料，SiC 材料具有 10 倍的绝缘击穿强度，因此可以制作出更高耐压更低导通电阻的电力电子器件，这远远超出了硅材料的极限。相对于 IGBT 牺牲开关频率解决电力 MOSFET 高压时导通电阻大的问题，SiC 材料可以在不改变 MOSFET 高频结构的条件下，同时具有高耐压、低导通电阻的特性。另外，SiC 材料的带隙是 Si 材料的 3 倍，这使得 SiC 材料的热稳定性好，可以在更高温度下工作。目前，罗姆公司生产的碳化硅器件已经可以工作在 150℃-175℃温度条件下。随着封装技术的发展，工作温度有望进一步提高。Si 材料制成的电力 MOSFET，单位面积导通电阻随着耐压值的升高而升高，因此多用于 900V 以下的场合。IGBT 利用电导调制效应降低了导通电阻，但由于少子存储现象的存在导致关断时产生拖尾电流，从而限制了 IGBT 的开关频率。SiC 材料的高绝缘强度允许 SiC MOSFET 拥有更高的杂质浓度和更薄的漂移层，从而可以在不改变 MOSFET 高频结构的前提下，从半导体材料层面做到高耐压、高频率、低导通电阻。高耐压特性使得器件的体积进一步减少；高频特性使得设备上的感性元件体积进一步减小，开关噪声降低；导通电阻的降低使得 SiC MOSFET 发热量减少，对于散热器的要求进一步降低，同时在选择器件时可以留有更少的裕量。SiC MOSFET 开关损耗低、导通损耗低，因此 SiC MOSFET 设备具有较高的效率，可以把 SiC MOSFET 称为高效 SiC 器件。为了说明SiC MOSFET 的高效特性，表1-1 对西门康公司的 IGBT 半桥模块 SKM100GB128D 与CREE 公司的 SiC MOSFET 半桥模块CAS100H12AM1 的各项参数进行了对比，包括零栅极电压漏极电流 IDSS 、导通电阻/饱和压降 RDS （on) / VCE(sat) 、接通切换能量 Eon 、关断切换能量 Eoff 、体二极管的正向压降V F 以及反向恢复能量 ERR 。为了对饱和压降进行对比，将 SiC MOSFET 的导通电阻转换为 75A（和 IGBT 相同测试条件）时的导通压降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEpWDWibjaNAzljoVfiaibx1J1dalTkbwLh2oJYAq9cPhaMiaWQyPnkVZ5gA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_002_a1ca06e48d29.png)
 
 从表 1-1 可以看出，SiC MOSFET 半桥模块的各项参数均优于 IGBT 半桥模块，导通损耗和关断损耗均有大幅下降，可以大幅提升效率。因此，和 IGBT 相比，SiC MOSFET模块具有“高效”特性。
 
@@ -67,17 +67,17 @@
 
 三相半桥电压源型整流模块拓扑如图 1-1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEIwrVU7a8FDbFMROku8EbysdeYZ3t1qeeWDFN0HKdgNOoBpIfToDhOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_003_57fa6dff4c7c.png)
 
 三相半桥电压源型整流模块由六个开关管构成，电路结构简单，属于两电平整流模块，具有网侧电流正弦化、功率因数可控、可以实现四象限运行、不存在中点电压不平衡问题等诸多优点，缺点是相对于多电平整流模块，电流谐波含量高，且对于电网电压不平衡状况比较敏感，通常用于中低压中小功率场合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEKliaomqwVeuW0vicGrMO81CnRIspCDZnCah78eyokckR6zaYibiaAdKMnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_004_3c9ddb6f6993.png)
 
 中点钳位三电平整流模块如图 1-2 所示。中点钳位式三电平整流模块由 12 个开关管和 6 个钳位二极管构成。相对于两电平整流模块，谐波含量大大减少，且每个开关管承受的电压仅为直流侧电压的一半，能量可以双向流动，功率因数可控。但是中点钳位型拓扑存在固有的电容中点电压波动问题；开关管数量多，相对应的驱动电路以及辅助电源数增多；由于输出电平数的增加，空间矢量图的复杂性大大增加，计算量相对于两电平整流模块大大增加。这种拓扑多用在中高压大功率场合，目前国内外已有实用化的设备生产。  
 
 VIENNA 整流模块的拓扑如图 1-3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEQ1vMH11ZVMpF1Ox6AKkE9d7lUGRF4Xnkzq4ggPdn6VsUYCicH0jUN4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_005_65ea9a7d4537.png)
 
 VIENNA 整流模块由三个开关管、18 个二极管构成，相对于中点钳位三电平整流模块，开关管数目大大减少，二极管数目大大增加。VIENNA 整流模块开关管电压应力为直流母线电压的一半，不存在桥臂直通的问题，可以实现单位功率因数运行，电流谐含量少，缺点是不可以实现能量双向流动，存在电容中点电压不平衡问题，空间矢量脉冲宽度调制算法复杂，比较适宜用于中高压中大功率场合。
 
@@ -125,15 +125,15 @@ VIENNA 整流模块由三个开关管、18 个二极管构成，相对于中点�
 
 两电平电压源型整流模块的电路拓扑如图 2-1 所示，为表达方便，如无特别说明，下文所述整流模块一般指两电平电压源型整流模块。其中 ea 、 eb 、 ec 为三相对称电网电压；L为电感，其功能为滤波并为整流模块和电网的能量交换提供通道； S1 至 S6 为开关管，可以为 IGBT 或者 MOSFET 等全控型电力电子器件； C1 、 C2 为电解电容，起着储存能量的作用，并且可以为逆变单元提供电压中性点； RL 为负载电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEXaXb85KLIaicyTcQOdf16icLHPeeTu4uFdFanv2ysoqGrKRvTQHF0FMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_006_57ab79ed64bf.png)
 
 整流模块同一桥臂的两个开关管（ S1 和 S2 、 S3 和 S4 、 S5 和 S6 ）不能同时导通，一旦同一桥臂的上下两个开关管同时导通，相当于在直流侧电解电容 C1 和 C2 两端并联一根电阻很小的导线，造成短路，烧坏装置。因此，同一时刻每相桥臂只能有一个开关管导通。工程中为了防止桥臂直通，通常在软件中或者硬件中加入死区。以整流模块的 A相为例进行分析：当 A 相开关管 S1 导通，开关管 S2 关断时，无论电流ia是正还是负，整流模块 A 相电路均可等效为图 2-2 所示的电路；当 A 相开关管 S1 关断，开关管 S2 导通时，无论电流ia是正还是负，整流模块 A 相电路均可等效为图 2-3 所示电路。整流模块的 B 相和 C 相均可以进行同样的等效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaECajRSYqYVvBaQanGHv5zfjRTgBVuqhAly6gtNnvgK6JiaicwglnQJ4Hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_007_3da6a9aa8365.png)
 
 为方便表示，定义开关逻辑函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaElRpMkCB5hRICFtpoOsUxwoUXc5uaUMF3P9KLQNIBfpOBS8dz61J0Tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_008_33e544a8816f.png)
 
 定义开关逻辑函数后，可以建立整流模块的开关函数模型，下文将详细讨论。
 
@@ -143,44 +143,44 @@ VIENNA 整流模块由三个开关管、18 个二极管构成，相对于中点�
 
 根据开关逻辑函数可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEj3gY8WhxB1p2wsaHzYTiaIKTpZRe44RudhtUic5RePeCHxKoDjFS0yXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_009_cb12397d651d.png)
 
 忽略高频分量后，整流模块交流侧输入电压满足，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEcwSFudFBicRKuy1YUwhLyniclKFt5XNwp2cj7XxS00vvH8iadgUfOL8cA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_010_fda9d977f760.png)
 
 即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE8ZC8GbdKEfEM8c9rBziarfFgrc77ENeTYflMPDpnRZHJqKfykmklBNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_011_77a551766290.png)
 
 将公式（2-2）代入公式（2-3），解得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEuTic7sf7jXWr9e36J0T9Xnt8pgialflfHTfL8ZnAOkHm0TTvcRm8BLVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_012_e5ca033e9673.png)
 
 又因为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEPlbzuPIb5aaIEIiciaueYLS89YBNTRWaDNic2prGTuPhetzF8oLicucXyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_013_bf60bbda92f8.png)
 
 将公式（2-5）代入公式（2-6），可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEyuibAW7DZEK4RPvL8pkhZQ5wt824q548qJDicy2k3a2GBQkCmrMWM9dQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_014_050399fd33f0.png)
 
 对图 2-1 中的U 点采用基尔霍夫电流定律，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEUd4ff41g3uICiafvMib0kcTyS6L184yj91vv2lNUI6AxrlBB4RcURWtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_015_5aef16637fb3.png)
 
 对整流模块的每一相应用基尔霍夫电压定律，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaECORXgvbD5rQ7t2TygyLAIvPCZhQcutn4kru6qpMMHq8TWwfunClQGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_016_f11139d86891.png)
 
   
 对于三相对称系统，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE3zjjqBGfOicjqDr8ibnXpqgqibJTEQ2XV7icDpu6RGODzBLvicm63e4fwcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_017_992e2997c685.png)
 
 综合公式（2-8）-（2-11）可以得到整流模块在三相静止坐标系下的数学模型，用一组表达式描述为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaETggXGy8ibnTnSCEiaXlWRwPFTKpXbVFUtL1B13ydNAwemXKlhz1XzLHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_018_74d23bd4fc9a.png)
 
 2.3 整流模块在两相静止直角坐标系下的数学模型
 
@@ -190,43 +190,43 @@ VIENNA 整流模块由三个开关管、18 个二极管构成，相对于中点�
 
 设空间按照逆时针顺序互相间隔 120°每相匝数为 N3 的三相对称绕组中通过以下单位电流，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEmu5wd6uDN1d5PS8RpLN98DGfKxz3cnJQAhS7QrxpePtGwyd1K3JGibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_019_5eea0d104d1a.png)
 
 另设在空间间隔 90°匝数为 N 2 的线圈中通过单位电流 iα 、 iβ，两者的位置关系如图 2-4 所示。如果两者产生的磁场等效需要满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEK113FwduWodjv8oYsYanBMfmQdicxASPIX4GLVAEicDYCWjfvw5tIuOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_020_fffe947a2011.png)
 
 综合公式（2-13）和公式（2-14），可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEmBHqtsYftTLz68IKBa29PnBAl1RO4OfudFGxG4F0ibrs4XdEmibzagbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_021_5b9d7037ebbd.png)
 
 由于 iα、 iβ均为单位电流，所以有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEETVerNRNt0e78dCvQFg1BbvS9A7AI5AAqEZHQjrQ9wp31PibcwoTW5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_022_3bdd24e510a9.png)
 
 综合公式（2-14）和（2-16），可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE3D8tEiaofhUk1CpxC9gHWKLCvZ2ANdB9s2rJQRYm4QTMrCZwibghCLSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_023_c11477229402.png)
 
 将公式（2-17）写成矩阵形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEI9XiaYLAfNmmuPCyO2kItKy6lMsVfDjicIG6RbAxr8nM5kwNWGeHWXVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_024_5e0215a22975.png)
 
 以上就是 Clark 等幅值变换的推导过程，Clark 变换表述了三相对称单位电流与两相单位电流在磁场等效的情况下，三相对称单位电流与两相电流之间的数量关系。从几何角度来看，三相静止直角坐标系下的三个正弦量分别是同一矢量在三个坐标轴上的投影，两相静止直角坐标系下的坐标大小分别是同一矢量在两相静止直角坐标系两个坐标轴上的投影。对于不产生磁场的量，Clark 变换可以仅仅看做是一种方便控制系统设计的数学变换。与 Clark 变换相对应的是 Clark 逆变换，其把两相静止直角坐标系下的量变换到三相静止坐标系下，Clark 逆变换的矩阵形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE4iao5gkQ0tycRshR8vTQyuWZER5PaDQib8DvLkYLiceI3icSPQ1bg58x1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_025_23ddac518f43.png)
 
 对于三相对称系统，Clark 变换可以进一步简化，考虑到电流的对称性，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEvC61hBCO8EQdjl8sxe2rELyia7iaRIXGbn4icL4hnZGRbCqNhXXe9oJeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_026_f3f6c1c10fd9.png)
 
 根据公式（2-18）（2-20）可以解出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE8wq7CHibgWeEuZUCzV5SgD3BAAFnb3ibr2HjhfZUp20h4uW8579xRRZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_027_4bdc385c7971.png)
 
 同样，可以根据公式（2-19）和公式（2-20）得到简化后的 Clark 逆变换，简化后的Clark 逆变换为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEoQHNVqaEbEu9iaRWduXvvhQN1VbFgZWicjXuesibNwXTiawjOricbwQBCzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_028_117b5fb09ffd.png)
 
 2.3.2 Clark 变换与空间矢量的关系
 
@@ -234,11 +234,11 @@ Clark 变换与空间矢量的定义有着内在的联系，空间矢量的本�
 
 对于电流，可以定义空间电流矢量为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEs5nSrVuQZMNav79GqJHia3agMyOHoZTZiaBIGSdALZv3uiaMzstxTiagxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_029_ca9a8d768b2d.png)
 
 对于电压，同样可以定义空间电压矢量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEQR5uk1VU6rtu9QR4vpqHBUyTkWRB5DRLbSicwp4E9rvleias6SLORbwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_030_3c42876b700f.png)
 
 2.3.3 整流模块的两相静止直角坐标系数学模型
 
@@ -246,25 +246,25 @@ Clark 变换与空间矢量的定义有着内在的联系，空间矢量的本�
 
 对开关函数进行 Clark 逆变换有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEGRuUkljdAVSZ7lVoRDYu7oVREYutYajias7Ku7jDeoKdm7bcn0YPWFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_031_274f591a9483.png)
 
 电网电压进行 Clark 逆变换，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEcAmP35YEJ1BUTYASX0QpttDXglnrW9yEvgpuujXwiaSw8lr7GtNnwXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_032_122d59a51689.png)
 
 对交流侧电流进行 Clark 逆变换，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEWPc41RHncicMsS4TEXOELicGkMYq0wXx3InVOrhNvoRjaqNibI6wqFYOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_033_45c58476cc91.png)
 
 将公式（2-25）-（2-27）代入公式（2-12），可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEvIKKM2oR2akdsdwYMoMbXicia4iarxhfADwKLpMtBCpibyC3zNhGu1LthQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_034_ec4646161269.png)
 
 公式（2-28）即是整流模块在两相静止直角坐标系下的数学模型。
 
 同时，Clark 变换前后存在功率关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEnGS6X26zqkUEp9uWkMia0q1JrNeZbtUODO5ggukYB68meLxFA8uzqeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_035_72500c90caef.png)
 
 2.4 整流模块在两相旋转直角坐标系下的数学模型
 
@@ -274,23 +274,23 @@ Park 变换将两相静止直角坐标系上的量变换到两相旋转直角坐
 
 Park 变换的示意图如图 2-5 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEfOkOfw66GJWSwI40AL4IDxm1yuWLgibRN8dVcahLg7Nhkx0pwYxmenQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_036_cddb9d78baab.png)
 
 两相静止直角坐标系下的单匝单位电流 iα、 iβ在空间产生的磁势为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEDubIjTvZasmzrX3d3sMH7foS6D8bgMpQCiceSkqWQR7vdeKV1diaQQRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_037_6d38103563e5.png)
 
 设某一时刻，两相旋转直角坐标系与两相静止直角坐标系的夹角为θ，且两相旋转直角坐标系下的直流电流产生的磁场与两相静止直角坐标系下的正弦电流产生的磁场等效，则根据矢量相等其分量也相等的原则，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE0mUsZMTcObx9GsciamMSF5LfTuxBMrjiaafuvbICeBa0QmFn1w0TNn6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_038_5224baa4ceb0.png)
 
 公式（2-31）中， id 、iq分别为两相旋转直角坐标系下的 d 轴电流和 q 轴电流。根据公式（2-31）可以得到 Park 变换的矩阵形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaECOUkHzwwMNW1SPg8CCDB8qkmmet1JYrKGG2PI18JjM2SonUXE8c0Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_039_12e5373985c1.png)
 
 与 Park 变换对应的 Park 逆变换矩阵形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEsepnLZur8ibhMLQiabXyfzFtaS6kysTXFvCwV8LEFX1PBqESqWkwQtNQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_040_d6bdcfb4dd14.png)
 
 2.4.2 整流模块的两相旋转直角坐标系数学模型
 
@@ -298,33 +298,33 @@ Park 变换的示意图如图 2-5 所示：
 
 对开关函数进行 Park 逆变换，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEcSgy5X1Fzn40VHzPOxkibiaGQicwIhib6G9kk1ibekk1vMHqQojeoNg06lA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_041_cd75fb41e282.png)
 
 对电压进行 Park 逆变换，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEH5OCwfJNAicjLk2EhkI4HFzVQZOvmR4tORMXVEb40NVqd1YHg9j5W6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_042_92b4be2dc559.png)
 
 对电流进行 Park 逆变换，有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEb2Hhu2fgTZshicw7V55HG9z78Zia3pBcSVq7Fzg0eVFFq27IUAPaGogA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_043_af18c38cb887.png)
 
 将公式（2-34）-(2-36)代入公式（2-28），并且考虑到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEbia0aenqQqtWv5YDibgw0dM2NxOFbLSTI5WfNhYLqWelK8F5hxjiaQUEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_044_47b441138f2d.png)
 
 公式（2-37）中ω为电网电压角频率， t 为时间，φ为 a 相电网电压初始相位角。
 
 则可以得到整流模块在两相旋转直角坐标系下的数学模型为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEXvIu7rbN3EoYVTwx9gXwZFbviav7r91En0vvzeiax6gBYYlwU4wybu2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_045_5524644d278a.png)
 
 Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形式发生了变化。Park变换前后的功率关系为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEhntdoXOa5hjeppskyl3FesA9C3PLBwy5TBtVpKxXeydmPh8pcBy16A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_046_181e5c16b9a6.png)
 
 结合公式（2-29）和（2-39）可知，三种坐标系下的功率关系为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEoMQrrBE8WsdjOm7SRYtUV2LqUGEqicNR4Oog0odkGHxeougd9ak35lQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_047_ee35e68bca0d.png)
 
 2.5 本章小结
 
@@ -334,7 +334,7 @@ Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形
 
 本文采用的不间断电源整流模块控制系统结构图如图 3-1 所示。整个控制系统包括电压外环和电流内环，电压外环用于控制整流模块直流侧输出电压恒定，电流内环分别跟踪相应的 dq 轴电流指令值，从而使整流模块运行在单位功率因数下。控制系统首先采集电网电压信号用于确定电网相位，然后将交流电压和电流变换到两相旋转直角坐标系下。电压外环的输出信号作为电流内环 d 轴电流指令值，q 轴电流指令值为 0。电流内环 PI 调节器的输出以及电网电压在两相旋转坐标系下的数值被送入非线性解耦模块，进而得到两相旋转坐标系下的整流模块交流侧电压指令值。两相旋转坐标系下的整流模块交流侧电压指令值经过 Park 逆变换后送入 SVPWM 模块，控制开关管通断。下文将对控制系统中的各个模块进行阐述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE3cBIv1QuFDj7besI3w4YAGVwx9BYQf3dOdicSxK2ODN2zyHn2yicxRHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_048_6f7f50609ebe.png)
 
 3.1 锁相环
 
@@ -344,13 +344,13 @@ Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形
 
 设三相对称电网电压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaENqkzTeiaJPlWeqANklpE2T7FfVK60CKTcIaJaMyrRQTu5QHj6qlBDLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_049_fce270ae72f6.png)
 
 其中， Em 为电网电压幅值， ω为电网电压角频率。
 
 三相对称电网电压经过 Clark 变换和 Park 变换后得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaELjop2enpsfJ4MlPBKWRdKpuD4Oflb2OxBMP8tgLE9cQ1KNHSQWQsCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_050_4f975a981ceb.png)
 
 从公式（3-2）中可以看出，当θ=ωt+φ 时， ed=Em ， e q=0 。借助于这一特性，可以锁定 a 相电网电压相位角θ=ωt+φ ，并同时确定 b 相和 c 相电网电压相位角。
 
@@ -358,7 +358,7 @@ Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形
 
 实际应用过程中，锁相环可以通过图 3-2 所示的方法实现。在图 3-2 中，PI 调节器的输出作为角频率，角频率积分后得到相位角。当控制器得到的相位角与 a 相电网电压相位角不相等时，e q ≠ 0 ，PI 调节器持续作用直到 e q = 0 。根据公式（3-2）知，此时控制器得到的相位角即为 a 相电网电压相位角θ=ωt+φ 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEw6ZkTGw1bNmQLXXJuaL8dG2c9miaSZIic6vUibgzbNzu6JC1hVMCneVjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_051_6b1e4bd52bc1.png)
 
 需要注意的是，当采用数字信号处理器进行软件锁相时，为了确保相位角在数字信号处理器的表示范围内，应该将相位角的范围限制在 0 到 2π范围内。实际应用时，由于电网电压非理想信号，且采样过程中存在误差，因此随着电压等级的提高，在低压调试下得到的 PI 控制器的参数应该相应减少，以免造成相位振荡。振荡的相位将导致后续的计算结果出现严重错误，严重时可能造成事故的发生。
 
@@ -366,11 +366,11 @@ Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形
 
 空间矢量脉冲宽度调制 SVPWM 起源于电机学，当电机三相定子中流过对称的三相电流，将产生和电流同频的旋转圆形磁通矢量。空间矢量脉冲宽度调制 SVPWM 的基本思想是利用三相整流模块或者逆变器的八个开关状态去逼近电机三相对称电流产生的旋转圆形磁通。电机的定子可以视作理想的电感，根据电感的特性有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEQ52NpsCBUnDXBSzAhLsG56pjMBlRBJK2kSMia5aRLF21GZSn62qDBfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_052_6255fb2127fd.png)
 
 当时间间隔足够小时，上式可以等效为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEk0ykIyRrQE9JKYiavAsMtU84DFHTDAHia6xlxbiaGEs1Vv4kOx2pMoUvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_053_b36ca6d49fed.png)
 
 即只要保证电压与时间的乘积相等，则电感电流的变化量相同。因此只要时间间隔足够小，离散的电压矢量与时间的乘积与连续电压矢量与时间的乘积近似相等，则电感电流的变化量近似相同，离散电压矢量作用时产生的旋转圆形磁场与连续电压矢量作用时产生的旋转圆形磁场等效。这就是伏秒平衡原理，空间矢量脉冲宽度调制 SVPWM 正是基于这一原理。
 
@@ -378,23 +378,23 @@ Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形
 
 根据第二章的分析可知，整流模块每相桥臂均有两种开关状态，三相的开关状态共有 2³=8 种。每种开关状态均对应一个空间电压矢量，且所有的空间电压矢量均有统一的表达形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaENl6DibCliaKdJbqLHf9cxKJOlHvez12y3jgLEy9RfJZCP780ocib1KjoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_054_bcb4adf71ced.png)
 
 整流模块交流侧输入的三相交流电压如公式（3-6）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE0baq0fKKic3gau6AIw89V7p6nibyuqzOwUPQLZlP8m19Arq7fh9hbsUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_055_c6df3f45ac2e.png)
 
 对于每一种开关状态，均可由公式（3-6）得到对应的整流模块三相输入电压，得到整流模块的三相输入电压后均可以通过公式（3-5）得到对应的空间电压矢量。即每一种开关状态对应于一个空间电压矢量。为了方便后续研究，本文先推导出 8 个开关状态与空间矢量的对应关系。限于篇幅，本文以开关状态（100）为例阐述推导过程。开关状态（100）对应的整流模块三相输入电压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEEibxSR145u5XIBdLeGYRFU0N61mPHD3mmS8yFrB2eA6YZiaoTJw5YKfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_056_156448201046.png)
 
 综合公式（3-5）和公式（3-7），可以得出开关状态（100）对应的空间电压矢量为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaExicxcJLvDGt1icickSn1N6QGyTlw4FOGcp2JzhDyBUtU4LLujBH8x6e7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_057_07d9376f3fbd.png)
 
 按照相同的方法，可以得出其余开关状态及其对应的整流模块输入电压和空间电压矢量如表 3-1 所示。从表中可以看出，8 个开关状态对应 7 个空间电压矢量，开关状态（000）和（111）对应的空间电压矢量相同，其余的 6 个开关状态对应于不同的空间电压矢量。在整流模块的控制系统中，当控制系统得到整流模块输入的电压矢量指令值之后，就利用表 3-1 所示的矢量去等效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEUgVcIpC6AEsibg7jo02kZg9ibBgeleAzAMck26iaibjqWUS6dwevR96mCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_058_c991ef2e241f.png)
 
 3.2.2 空间矢量的等效合成
 
@@ -402,94 +402,94 @@ Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形
 
 对于两电平电压源型整流器或者逆变器来说，8 个空间电压矢量在平面上构成一张空间矢量图，如图 3-3 所示。每个空间电压矢量均与相邻的空间电压矢量间隔 60°。为了减少开关切换过程中的开关损耗，每次应选择距离空间电压矢量指令值最近的空间电压矢量去等效。8 个空间电压矢量图将平面划分为 6 个区域，每个区域内，用于合成空间电压矢量指令值的空间电压矢量不同，每个扇区的空间电压矢量切换顺序也不相同，下文将针对六个扇区一一阐述。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE3qCiaAdQzznJ8hH5zUjibmotNChnWzuPnG11sO8k0z5W4GMUAhAF3V5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_059_aaef83afffa8.png)
 
   
 根据公式（3-10），可以解得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEGwQxJzQIdlFVE2cXgXQrm9dKsQ0UK33wBNKOJghqjaNE227wuic2UyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_060_7ad2456bd1c4.png)
 
 采用七段法调制法时，第一扇区内的开关状态作用顺序以及作用时间 t 如表 3-2 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEogJ6C2GXNDLIOxTWKRLMUhicFTMickVupz3MY4JfWZo2ULGv6bS1PlIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_061_674a1b31529d.png)
 
 当采用增减计数模式产生双边对称 PWM 波形时，a、b、c 三相比较寄存器的值占开关周期的比值分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEEzKJdwA10mkENV8aMsIuLj3uJI0MwFAFZG6G4hibkibzW9HMlGfiaeicKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_062_66846b7cca40.png)
 
 根据公式（3-13），解得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEyiaCkVzcwF4AHLhLpxtwNdrC5eztpb5myYS85YoVw1tEpLpU7fxON1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_063_6e21562dc25d.png)
 
 采用七段调制法时，第二扇区内的开关状态作用顺序以及作用时间 t 为表 3-3 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE1uLygFXZyCFNry264rx0D39z4lNP5icFSZxriayiaRYYIVdkjauRZ1bdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_064_b4fe8d84b080.png)
 
 当采用增减计数模式产生双边对称 PWM 波形时，a、b、c 三相比较寄存器的值占开关周期的比值分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEthbboR3xNKeFzCUzOQiabuTap8kBser8ETMqhmvNlf52JcfcCtZr42g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_065_470f69de62cf.png)
 
 根据公式（3-16），解得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEFARb7nauPEK1MygFvw5DpfQOTBQKCl6HUUHicoqK3NMZWRnYRLVvibCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_066_2303eff688d8.png)
 
 采用七段调制法时，第三扇区内的开关状态作用顺序以及作用时间 t 为表 3-4 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEf9voaFiaUKN6bAfVN7HH7almRoCSISBoBRcibnOjesGh6ibayBTaQiapLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_067_a2c7d205f79c.png)
 
 当采用增减计数模式产生双边对称 PWM 波形时，a、b、c 三相比较寄存器的值占开关周期的比值分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEHBZ8MDetyvWx4Fh36Stor2kDytB2CYophVXxiajK9elwRRNT0YF0YXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_068_442efc5fe4c3.png)
 
 根据公式（3-19）可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEKZLDYavB32bhagljrBUr67cwPjmy3Vu9YwSq8lLGsJRh3CGxuy3Ceg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_069_a217266488d7.png)
 
 采用七段调制法时，第四扇区内的开关状态作用顺序以及作用时间 t 为表 3-5 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE7L7GRj1mRRwvicXibibKzkP24GMIC3d3RcB1Pv1JYdG5jl7Jfgib95uHCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_070_5a65c3cce1d2.png)
 
 当采用增减计数模式产生双边对称 PWM 波形时，a、b、c 三相比较寄存器的值占开关周期的比值分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEB3jqqnwAKfg88YhNv9XjGBgWnSTCWwkibH6jRjfuj1Spx4VicQDpGDrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_071_142fff44bd6e.png)
 
 根据公式（3-22）可以得到公式（3-23）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEaZ7UGEB5Lqhucf98z9N9C5QRyYhBhpJqyVJ5iaAibhxyeAGKLvEngibicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_072_5e71d2bf53fc.png)
 
 采用七段调制法时，第五扇区内的开关状态作用顺序以及作用时间 t 为表 3-6 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEsy9oC30ZSj7FegosSMTK26Rydp8NkSCUicDrlRZgQtuJrtcpSibszLrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_073_b3a016feb822.png)
 
 当采用增减计数模式产生双边对称 PWM 波形时，a、b、c 三相比较寄存器的值占开关周期的比值分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEBZ6sPHr4n0ar0bPW7uakIPgic5YkFEQzziaWx3ufqkq32BhjeXumBq6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_074_be36af1ca944.png)
 
 采用七段调制法时，第六扇区内的开关状态作用顺序以及作用时间 t 为表 3-7 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEuZskibSnYE3raibsL4arbNoWaRUXkYPiaiaPRV2PIztAibHedLARQDh9I2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_075_b3f564530def.png)
 
 当采用增减计数模式产生双边对称 PWM 波形时，a、b、c 三相比较寄存器的值占开关周期的比值分别为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE4jHKwvntibDoERrvbBNCyeqrgQWDoCnk34z6ekX4cc3VDSmVwGzxjnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_076_90e4f3ce31b5.png)
 
 以上分别推导了空间电压矢量指令值落入六个扇区内，每个空间矢量或开关状态作用的时间以及开关状态的作用顺序。经过观察发现：开关状态作用时间由三项组合而成。
 
 因此，为简化表示，定义三个中间变量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEtBtKcasmSOU9wT1FN8ZWbYZCuYaXEdPbIg2eRymbLj33UTia8AbxuVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_077_3f5879b8fe16.png)
 
 则开关状态作用时间的计算结果可以统一表示在表 3-8 内：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEzBSfte3w4dfnz4GQAkxt0qZMMAmI06zzvaRqqecPnpfHK5QHRT93Wg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_078_eef28b087c88.png)
 
 同样，定义三个中间变量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE5CdC34tknaOK5dHg88iadibT4Npy5Zn0Mot1xjnMCicTk91JDaPfmhQ3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_079_a7a6b4e761ff.png)
 
 当采用增减计数模式产生双边对称 PWM 波形时，a、b、c 三相比较寄存器的值占开关周期的比值可以统一表示为表 3-9 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEo8MWKCnOw6jhUjKK9zyl0UxScat1icgq7vkDqKNdxV93IVHvJluc5fg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_080_6029c23ca1db.png)
 
 3.3 电流内环控制器设计
 
@@ -497,55 +497,55 @@ Park 变换前后，功率守恒，但是功率在两种坐标系下的表达形
 
 根据两相旋转直角坐标系下数学模型，存在如下关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE28qDQBtu3tooD3liaianMMIOFtdESgIMYwOrmWt0ELf9FOrp9ljB2fkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_081_4041b3fa7ecd.png)
 
 其中， SdVdc= Vd ， SqVdc= Vq ，分别为整流模块输入端的 d、q 轴电压，可以通过三相静止坐标系下的表达式经过 Clark 和 Park 变换得到，具体的变换过程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEEia8yr9gBoGfzDDuQCufJkzA75GT4WG8h1XseiaqzJf21LM0FDVbLurQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_082_252e31443f1e.png)
 
 综合公式（3-31）-（3-33），得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEv1j7uINvKbtEUs9YRfpdDtaXB4B3KxsQXh0QicYIIZVia6A3bKesc62Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_083_7605ab57caa1.png)
 
 公式（3-34）中，第一个方程为 d 轴电流状态方程，第二个方程为 q 轴电流状态方程。从公式可以看出，d 轴电流状态方程中含有关于 q 轴电流的项 Liq ，q 轴电流状态方程中含有关于 d 轴电流的项Lid ，即 d 轴变量和 q 轴变量相互耦合。相互耦合的变量使得设计 d 轴控制器的时候不得不考虑 q 轴电流对 d 轴电流的影响，设计 q 轴电流控制器的时候不得不考虑 d 轴电流对 q 轴电流的影响。为了解决这个问题，可以令：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEiblucvQwx26V88a5DAbuLDmvFpyc9Ca3vQMBXoBLJAzwsmAaChyo48Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_084_b0d8ad623064.png)
 
 将公式（3-35）代入公式（3-34）得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE9rEbUGPibYzObCpSDx1FxHBMpN8VqtKrQbmG2OCNibrvHXXNBSYBI9jQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_085_142e2f52e553.png)
 
 将公式（3-36）写成传递函数形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEiac4lM8TlMj0jrmyIugU6hcqsRqGM4XXVG8WYmwBYvnvYL0lIrvsItA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_086_436ac1011631.png)
 
 dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE1qAdwfhbOXE7L4leoFP5ok9d4uJvv07wU8rKCV9M54ttsIicusjURrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_087_bef459150fbf.png)
 
 考虑数字控制系统有一个采样周期的延迟，同时数字控制系统在下一个周期输出的波形中心相对于周期无穷小的连续系统有半个周期的延迟。因此，设计控制器参数时，应该将延迟考虑进去。由于 d 轴控制器和 q 轴控制器结构相同，下面仅以 d 轴控制器为例进行分析。将上述两个延迟考虑进去后，d 轴控制器结构图变为图 3-6 所示:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaENiaBGI76XOCkYvialaUfswj0V4nvwPm9J2tYibvbN8KHDgD2ySUUPJ4Ug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_088_6b9aa004c12d.png)
 
 由于采样周期很小，因此存在以下近似关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEohX8G1guJxEIbbnrwiaGqPicxdogTM5XJmrmeicd1LSAyTAuCVa92O6dA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_089_2beb4541944a.png)
 
 利用公式（3-38）可以简化控制器，简化后的 d 轴控制器结构图如图 3-7 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEQ4UFQ8I2RW0h8XPNkTVCxe8ze2Qiat1Xyk34xWxYssBT5MUTgTXQ18g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_090_4644de9be522.png)
 
 为了获得较快的动态响应速度，可以令 PI 控制器的零点与控制对象的极点互相抵消，为此需要满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEsNHHOgbwNj5tTicbEljvDfBUM0Zpo5aWrhrwyHGvCNibz99vWl2NtXJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_091_8b6f19ea7075.png)
 
 零极点相互抵消后的闭环系统闭环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEBw3hAms0PmNacUQtBp5Y30tJp4D6huK4CDeibItgIefpGoR6e01PhsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_092_c3a31cf25d13.png)
 
 为了使系统获得较好的动态性能，一般使系统的阻尼比为 0.4-0.8,，本文中令系统阻尼比为 0.5，则可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEYbg9I9opNMn0rnVZT1Y3icMcFNypAPU77R6cViawq8FkzqQZoWZAWNicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_093_d3c765d936b6.png)
 
 值得指出的是：实际的控制系统参数受多种因素的影响，以上计算结果作为一种参考，不能直接应用于控制系统中。在参数调试的过程中，应该从低压到高压调试。调试过程中，应该按照一定的步长依次增大 KiP ，直到 KiP 值满足既定的响应指标，然后逐渐增大 KiI 最终使其动态响应指标得到满足。试验过程中应反复尝试，寻找最佳参数。
 
@@ -553,25 +553,25 @@ dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
 电压外环控制器具有稳定整流模块直流侧电压的功能。当直流侧电容电压发生变化时，通过调节电压外环 PI 控制器的输出，进而调整电流内环 d 轴电流指令值，从而维持直流侧电容电压稳定。当电压外环控制器刚刚切入时，由于直流侧电容电压与指令值之间的电压差过大，将导致电压外环 PI 控制器的输出过大，即电流内环 d 轴电流指令值过大。过大的电压外环输出将导致电流内环的输入误差过大，从而导致电流内环输出过大，通过 SVPWM 环节后，交流侧电流将快速上升。当直流侧电容电压升到直流侧电容电压附近时，电压外环控制器的输入减少。但是由于积分环节的延迟效应以及器件动作存在延迟，不能及时降低交流侧输入电流，从而导致电压外环和电流内环产生过大的超调。直流侧电容电压的过大超调，严重情况下可以损坏直流侧电容，甚至发生爆炸。交流侧电流的过大超调严重情况下可能损坏采样电路的传感器，使得交流侧电感饱和，进而烧坏设备，同时还可能使保护装置误动作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEemvJrys4R4mFTIjCSUsAS1Gq93EzxEerJh2S7qo1ZKe4bGGXibEeP8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_094_ae715df4a624.png)
 
 如图 3-8 和图 3-9 所示，分别没有软启动时，电网线电压为 150V，电流内环 d 轴电流指令值为 6A，电流内环 KiP=4 ， K iI=0.5 ，直流侧负载电阻为 78 欧时，直流侧电容电压的响应波形和交流电流响应波形。由于程序具有过压过流保护功能，交流侧电流在达到 20A 阈值之后开关管全部关断，交流电流迅速下降，直流侧电容电压也迅速下降，整流模块恢复为不可控状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEPLv2Pq0vkAWMYSBV41LRN3dRwRJ3fAl2Ukezy5NlId3icKwlFxgKrOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_095_381ab80ed256.png)
 
 从实验结果可以看出，整流模块启动过程中的直流电压超调过大和交流电流超调过大是不容忽视的问题。在保证控制系统响应速度的前提下，合理的超调既保证了控制系统的响应速度又不会对硬件造成伤害，延长硬件的使用寿命。为了减少直流侧电容电压和交流侧电流的过大超调量，使交流侧电流和直流侧电容电压平稳快速跟踪指令电压值，本文采用了改进型 PI 控制器，如公式（3-42）所示。在整流模块启动阶段，采用积分环节逐渐增加整流模块的指令电流值，当直流侧电容电压在指令值附近时切入常规 PI 控制器，使直流侧电容电压平稳达到指令值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaESqttS43yI7zPmneu64KLiaia8QlAiaXe8mXj2jHNTLa0frxaMXXpa8aPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_096_aa4e663c9371.png)
 
 其中， t0 为 PI 控制器切换的时刻，切换时刻由设定的误差限 Emax 决定。当直流电压指令值V dcref 与实际直流侧电压Vdc 之间的电压差 e(t) 大于误差限 Emax 时，控制器采用带初始值 y 0 的积分控制，控制器的初始输出值 y 0 可以加速跟踪；当额定电压V dcref 与实际直流侧电压V dc 之间的电压差 e(t) 小于等于误差限 Emax 时，控制器采用 PI 控制。为了确保整流模块的输出电流不出现过大的情况，还应该限制电压外环控制器的输出。电压外环的输出限幅值为Ymax ，Ymax 可以限定为额定 d 轴电流的(1.1-1.2)倍。
 
 由于采用了积分环节逐渐增加电流内环指令电流值，电流内环控制器能较好地跟踪控制器的输入。当电压外环的输出达到输出限Ymax 时候，直流侧输出电压降迅速逼近额定值，可以认为此时为控制器切换的时刻。因此如果希望直流侧电压上升的时间为 t r ，那么有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaESYoEwwJMLltRCujuWjhlS2XkTicWdDDkhwiaKO8QeNiaTiafQF2Wjljjicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_097_27b907b31b4f.png)
 
 从而可以求出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEIVOHu1v2ctneP0w09jKjI3NBZic9p3LWljfXEu6RRSyY3GgJvU3bXzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_098_f6e94b7cf650.png)
 
 控制器切换后进入常规 PI 控制器状态，为保证系统正常稳定工作，比例系数 K P 不宜过大。比例系数过大，将导致电流内环 d 轴电流指令值过快下降，进而导致输出直流电压下降到V dcref - E max 以下。此后控制器切换到积分环节，由于积分环节的响应速度慢，需要很长的时间，直流输出电压才能再次上升到额定值附近，且由于比例系数 K P 依然过大，直流侧输出电压上升到额定值附近后将再次进入积分控制环节。如此，将导致直流侧输出电压不停下降上升，直流侧输出电压波动较大。
 
@@ -579,37 +579,37 @@ dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
 根据一阶电路知识，可以知道此一阶电路的响应为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEzoibJlNre1Gj2HfTKrO7Ty3oicbOSNzhX336terenO3foSw0Hg1CjPwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_099_dec59a7d281b.png)
 
 式中，Vdc 为直流侧瞬态电压值，Vdc0 为 PI 控制器切换时刻的直流侧电压值，可以近似认为是V dcref -Emax ，Is 为等效恒流源的数值，RL 为直流负载电阻，C 为直流侧电容值。
 
 直流侧电容的最终电压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEvAlFX3jxxN0enUeVt14icU1ia8uyBeTA13P3O29dDgibdBVhJMqUWmsfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_100_13051375869a.png)
 
 因此公式（3-45）可以等效为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEOBdvOqAyRlQpRHnTjMHsVjGiaAsRVCaLkGV1FDIFJXB5yJHyydKpkcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_101_2a8e75be6f09.png)
 
 根据公式（3-47）可以得到直流侧指令电压与实际电压之差 e(t) ：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaETjhsIiciark5uszyNtJqPGmKupAUX6WkeVSPuQ6bQ9DqhDstd8RhVMTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_102_17d000c9cb79.png)
 
 公式（3-53）中， y(k) 为 PI 控制器本次的输出， y(k-1)为 PI 控制器上一次的输出， e(k )为本次的输入误差， e(k-1) 为上一次的输入误差。
 
 为了简化分析，仅考虑比例环节，根据增量式算法，由公式（3-53）可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaELEgCG72btItDibROZP0dw6kgGCqVrsrCMddj6iavwyicHCiaic8xXkeNOZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_103_3bda5103d950.png)
 
 根据数字 PI 控制器的增量式算法，结合公式（3-48）、公式（3-54），可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEMhrNfickyK70e8K0EY6oDN4pNxS4GcGY400KW8YSgJMnwHE6L3UxOjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_104_583ae4fe6a77.png)
 
 根据公式（3-56）和公式（3-57）解得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEeGjOo2UOoNAP5QhggOkI4TkS0QGEEPjVg0iaM9URxIUSdRMud4EDN1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_105_06b6c999af7a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEibyKqCcqj7zH9GBDEaKceVUHgqsTKrNzlcf4DuicORibrEJW9SCB26ArQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_106_90d7c08d470f.png)
 
 同样值得指出的是：以上计算结果仅作为参考。实际应用中，应逐步调试。
 
@@ -623,7 +623,7 @@ dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
 本文设计的整流模块技术规格如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEwdhibibvwU18Ld7HtWdRctN2xqC2DDA5Wm3ibohm722pqBnCA6fPxibYdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_107_9bd99d759231.png)
 
 4.1 硬件系统设计
 
@@ -637,7 +637,7 @@ dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
 开关管的选择应该考虑电压等级和电流等级，其次还应该考虑开关速度、开关损耗等因素。本文设计的整流模块功率为 5kW，交流输入电压为 380V 三相工频交流电压，直流侧输出电压为 600V。考虑到电压冲击等因素，留有一定裕量，因此选择 1200V 耐压的开关管。另外，取功率因数η=95% ，根据功率守恒原理可以知道：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEMOB0sHg7QX1gwOdCZCNeKx7cKeHeLeErFdECJCqNokicicKpXcbH0C7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_108_aaaf7b5590d6.png)
 
 公式（4-1）中， Irms 为交流侧电流有效值，Urms 为电网电压有效值。对于电流同样应该留有一定的裕量，以保证电路在恶劣情况下能安全正常工作。本文根据实验室现有器件，选择的IGBT为西门康公司的 SKM100GB128D，选择的SiC MOSFET 为罗姆公司的 SCH2080KE。
 
@@ -647,69 +647,69 @@ dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
 忽略电感电阻以及线路电阻，开关管视为理想开关，在稳态时，整流模块的稳态矢量关系如图 4-1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE9soWWHtfz9biahNYMVst09ArPgJTfrJbyibKMC6la6RLDG8JNonIrneg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_109_8aad0cb0cf07.png)
 
 由于整流模块的相电压峰值与直流侧输出电压之间的关系，稳态时存在以下关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEHDrXxuY3ibf8KaxwibOwjPseFbGyxVjjrOBZ5MeUc7760ibO6bWbT9J0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_110_595b690b400b.png)
 
 上述稳态矢量关系限制了交流侧电感的上限值。除此之外，整流模块在稳态时还应满足电流谐波要求。对于三相三线制整流模块，由于三相对称，因此只需选择其中一项对其进行分析即可。三相三线制整流模块的单相等效模型如图 4-2 所示。其中， ea 为 a相电网电压，uAN 为整流模块 A 相输入电势对电网电压中性点的电压值。可以看出，如果知道了电压 uAN 中的谐波含量即可计算出电流中的谐波含量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEd38dyvhHm2qAicJlTvu20y8XfUsGj0nTg2sF8xCQk7HQ8mj7BJLZ1mQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_111_03e521e76a57.png)
 
 将电网电压视为理想电压源，即电网电压中不含有谐波。对于谐波来说，电网电压源被短路，由此可以得到整流模块的单相谐波模型如图 4-3 所示。对于 n 次电压谐波，其产生的 n 次电流谐波有效值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEQjsuRGaNKia0rZ1UurbU6Nia1DWwIpSJ3HCicZMLOlnNOkbSoCLbetOMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_112_00789b34af71.png)
 
 值得指出的是：理论上可以根据公式（4-6）计算出电感的范围，但是实际上无法确定整流模块的交流侧电压谐波成分，因此无法根据公式（4-6）确定交流侧电感取值范围。但是可以确定在某个特定开关周期内电流波形，如果能够找到总谐波电流畸变率和某个特定开关周期内电流波形的关系，便能确定交流侧电感的取值范围。为此，作以下近似处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEiaNKyFq4sIB4iayibwuD35Dx9hbF6DXX9AyjCrARnRLghDiaMqoYiabhq1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_113_b445bf8dfc64.png)
 
 由于空间矢量图中成中心对称的两个开关状态对应于同一相电压的两个大小相等符号相反的数值，如开关状态 001 对应于整流模块 a 相电压 -1/ (3Vdc) ，而开关状态 110对应于整流模块 a 相电压1/ (3Vdc) 。因此可以近似认为，整流模块的交流电压为奇函数。
 
 根据傅里叶级数收敛定理可知，奇函数可以分解为傅里叶级数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEHUCq6Vn2q7xzIeN0sAMBvtx4YX4TBsUoRobLgec8EUN3XjDeAAW6kw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_114_289d33561f56.png)
 
 从公式（4-10）可以看出整流模块各次电压分量的初始相位相同，且与电网电压的初始相位相同，而电网电压的相位与电网电流的相位相同，因此可以推出整流模块 a 相电流为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE0ictYxT6bNS4tWkbCFg1yayuicpz9avEyx0TVdkPiaDPGn3eq1GhN84zA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_115_438656dae043.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEicAk5xrhvibpn7h4Ba7FqicsR25TUzRsQjcibdRE78IEM2UVJXstBXz7cQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_116_e081a147d1fe.png)
 
 为此，我们对基波电流过零点时的电流波形进行分析。由于整流模块运行在单位功率因数状态下，因此当电压过零点时，电流也过零点。当相位角为零时，此时直角坐标系下整流模块交流侧电压指令值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEUfUzvxfmk5saPyn5p4NQUjsx9q76FxwVUfSqLnEDlxn3K9y6icBMgyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_117_06bb5cf8893f.png)
 
 进而可以推出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEw9E8rpuZHntzaZdd6qFofLicYobYje9SzMpwibYoD7JoCftw7kcwrhZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_118_a7717b8006d8.png)
 
 根据第三章所述，电流过零点时，空间矢量指令值落在第五扇区内。在第五扇区内，电流过零点的一个开关周期\[-Ts/ 2, Ts/ 2\]内，各个开关状态作用时间 t ，以及对应的 a 相电感上的电压 uLa 和电流变化趋势如表 4-1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEhiaH4bgGQCw0pCIWiayO3ajEUdibVzzE1SS4sRcCfJbPuDfhvDA5mw3cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_119_26cb1c352f95.png)
 
 表 4-1 中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEzqOvs26yu3ydTPBWl4gM3OEM6l3UjYgBX3eTbicYlgvonVQalLZ15GA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_120_195b4cc3b5f3.png)
 
 观察表 4-1 可知，一个开关周期内，a 相电感电压与时间乘积之和为 0。根据伏秒平衡原理，在一个开关周期内，电流变化量为 0。且由于基波电流为 0，电流每个时间段内上升的数值和下降的数值相等，因此可以得出\[-Ts /2, Ts/ 2\]区间内电流波形如图 4-4所示。
 
 因此我们可以近似认为电流在基波电流过零点的一个开关周期内，电流的最大值即为谐波电流的最大值，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE6sNiaU3zWF7l4p8rYGibAVFtKWNvsRMibWP5EthSGgZvFQnFPMdU6xdpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_121_680abcc7506b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEXmLTVicjMcHwIDVmBIGRW2L1UnBeYE7EbWh9W0esGSkEM0nI0O4UPyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_122_ffa3ebff519d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEib4Oms6um5yWwLX78Gn4hsJuF0ktRVoKI2gtGLyy3YWvTgjJq3gYGQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_123_26ea932f5f75.png)
 
 表4-2中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE0vqZswic4GjyKiaibCZKSrjxXHn9jtgYOXMUicquEwuw0RibOeIImXXjzNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_124_73c830504e1b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEIcVUWar3GfApdYDVdvE7rTdrmda8qjK6iaAOyOw5cgBEjZ7gCuzv73w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_125_123445844af1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaERRuDKZJAeSnh0nCWCK6SDG3mNS2jITYLHSeYdEApNbuoUNibjGH3VuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_126_21e3ec4c7f06.png)
 
 公式（4-35）确定了电感的取值范围，实际应用时，应在确定的参数范围内，按照一定步长选取一组数据进行仿真验证。在满足要求的情况下，应该尽量选择较小的电感，以减小设备的体积。本文分别对电感为 2mH、3mH、4mH 以及 5mH 进行了仿真，得到的电流谐波含量依次为 10.82%、8.13%、5.52%以及 4.44%，因此本文最终选择的电感值为 5mH。
 
@@ -719,7 +719,7 @@ dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
 从瞬态响应速度考虑，可以得到电容需要满足的条件为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEkezhnqOr9NyUB7DwmhgAMlHPiazIBhC5eNPP2trghyd1mu5EG6GXmFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_127_f6b784312d3d.png)
 
 公式（4-36）中，tr 为直流侧电压从初始电压Vd0 上升到额定直流电压Vdcref 的最大时间，RL 为直流侧负载电阻，V0 为带负载时的稳态电压，Idm 为最大的直流侧输入电流。值得指出的是，以上公式计算的结果仅仅是理论计算结果。在实验前，应该利用仿真软件加以验证，以确定满足设计要求的最佳参数。
 
@@ -733,21 +733,21 @@ dq 轴对应的控制结构图分别如图 3-4 和图 3-5 所示。
 
 本文设计的三相电压采样电路如图 4-6 所示。由于是三相对称系统，因此仅需采样两相电压，故本文仅采用两个电压传感器。为了构造中性点，c 相用了一个 250 欧的电阻等效了电流传感器原边的电阻。为了确保精度，此电阻数值应根据实际测量为准。R6、C4 和 R16、C8 分别组成低通滤波器抑制高频噪声进入 DSP 的采样输入端，对于 50Hz的基波来说，其相位延迟为 3.95°，幅值衰减为原来的 99.76%。R4、C1 和 R14、C7 分别组成信号保持电路，起保持信号稳定的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaENGsfSa6l7282qich1b6YsibcUqjib6UFVPS04XLaeExeMhsBVwyc8485g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_128_62324e4c987d.png)
 
 对于三相交流电压采样电路，不难得出以下关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaExg0Xqol75hFf1dZDCiaTLBS3810TIrgjWf1rEgqyMPjUkndwXbFdoqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_129_3707a0844859.png)
 
 其中 u ain\_ 、 ubin\_ 分别为 DSP 采样引脚的输入电压。一旦采样引脚电压超过了击穿电压 3.3V，瞬态抑制二极管 D1 和 D3 被击穿，内阻大大降低，从而保护 DSP 的采样引脚不被高压损坏；当 DSP 的采样引脚输入电压低于 0V 一个二极管导通电压时，瞬态抑制二极管导通将 DSP 采样引脚的输入电压限制在一定水平，从而保证 DSP 的采样引脚不被负压损坏。值得注意的是，在保证 DSP 采样引脚输入电压不超过 0-3V 的前提下，应尽量增大 DSP 采样引脚电压范围，以便进一步提高转换精度。
 
 直流电压采样电路如图 4-7 所示。本文设计的直流电压为 600V，因此采用测量范围为 50V-1200V 的电压传感器 CHV-50P。考虑到 CHV-50P 的原边电阻为 500 欧，原副边匝数比为 5000:1000，不难推出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEqt8nwFeXPTYJsNahFVyGOaHHRjbWea54uStWmEFEQc8jSd40MiaZYdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_130_f13bd9e04d69.png)
 
 三相电流采样电路如图 4-8 所示：考虑到原副边匝数比为 1:1000，不得得出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEkbAFWDuMzn6vdU7Sf0RA7p8DzJh4MWAVKcRqO0H0QlicsVOI4FEFiaCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_131_aab8fede8b7c.png)
 
 需要指出的是，以上均为理论计算结果，实际使用时应根据测试结果对相关公式进行校正。
 
@@ -759,29 +759,29 @@ DSP 的 PWM 引脚输出电压低、电流小、驱动能力较弱，且不具�
 
 TMS320F28335 的 PWM 引脚可以承受的最大电流为 4mA，过大的电流将导致高低电平变化甚至可能烧坏 DSP，然而作为隔离光耦通常需要 10mA 左右的电流保证光耦副边快速导通，因此必须增加驱动增强电路才能驱动光耦正常工作。本文采用 TI 的SN74AC241N 作为驱动增强芯片，驱动增强电路如图 4-9 所示。SN74AC241N 的连续输出电路达到±50mA，完全满足需求。需要注意的是，为了确保上电或者断电时的高阻态，引脚 1 应该通过一个上拉电阻连接到 VCC，引脚 19 应该通过一个下拉电阻连接到 GND。同时，未经使用的引脚应该连接到高电平或者低电平，否则可能导致器件过多的输出错误或者振荡。关于具体使用方法以及器件的更多特性请参考器件手册。另外，为了提升 PWM 端口信号的抗干扰能力，应在每个 PWM 输出端接一个下拉电阻，且下拉电阻消耗的功率不应太大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEic3gia69baAxfI1LEicsiaXwYozhSBXFVxvia3mjGqSSWiaEQtp0w6DCVp1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_132_aff764a487c2.png)
 
 驱动芯片采用北京落木源公司生产的 TX-K841L 驱动芯片，搭建的驱动电路如图4-10 所示。TX-K841L 是具有隔离功能的单管 IGBT 驱动芯片，可以驱动工作频率高达60kHz 的 1200V/300A IGBT。芯片内部集成了过流保护功能，能有效保护 IGBT。
 
 SN74AC241 器件手册指出，在供电电压为 3V，输出电流为 12mA 时，SN74AC241最低输出电压为 2.46V，由此得出供电电压为 3.3V 时，最低输出电压约为 2.71V，TX-K841L 的 14 引脚与 15 引脚之间为光耦的原边，其压降为 1.6V，为了得到 10mA 左右的电流，电阻 R22 配置为 110 欧。TX-K841L 的电源可以采用输出为 24V 的开关电源或者电源模块，47μF 的电解电容起到稳定电压的作用，0.1μF 的瓷片电容起到滤波作用。Detect 引脚通过快恢复二极管与 IGBT 的集电极相连，起到过流保护的作用。一旦出现过流情况，Fault 引脚电压降低，光耦 TLP521 导通，VFB1 从高电平变为低电平，可以将此低电平信号通过或门处理后作为 PWM 引脚的错误触发信号，通过对 PWM 模块故障捕获子模块的配置可以保护 IGBT 不被过流损坏。9 脚和 10 脚之间连接电容用来配置盲区时间，默认不连接电容时盲区时间为 2.5μs，当短路信号大于盲区时间的时候，不管控制器是否有 PWM 输出，驱动器都对 IGBT 进行软关断。R23 为驱动门极电阻，阻值大小可以根据选用的 IGBT 手册上测试条件中的电阻选取，功率计算公式为 P o =QfsΔV ，其中 Q 为 IGBT 需要的驱动电荷，可以从相应的器件手册获取，fs 为开关频率，ΔV 为电压的门极驱动电压的变化量，计算得出的结果应该乘以一定的系数保证足够的裕量。R26 是泄放电阻，防止在未加驱动引线的情况下，米勒效应烧坏 IGBT。18V 双向稳压管用来抑制门极 G 和发射极 E 之间的过电压。电阻 R29 用来抑制干扰。更多更详细的内容，请参考 TX-K841L 产品手册。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEVBRsLD9UIRm4VklKKkSTcK66njZQ4svQwpfnSHhSk6zhghdEYqc3Vg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_133_c529e00906ae.png)
 
 为了验证本文搭建的驱动电路的可靠性，本文对驱动电路进行了测试。驱动电路的测试数据如图 4-11 和图 4-12 所示，CH1 和 CH2 的频率均设定为 10kHz，CH1 设定的占空比为 0.8367，即正频宽为 83.67 微秒，CH2 设定的占空比为 0.1033，即正频宽为 10.33微秒，死区时间设置为 3 微秒。从示波器测量得到的数据可以看出，无论是开关频率、正频宽还是死区，都达到了预设的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEvOXpSvGD455HjOosWfjvvRVLDt32IVrhJMibrWkDU5pGucDibY2GrL2A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_134_6dfc936bf05e.png)
 
 为了确保电路安全工作，驱动信号之间应该加死区，但是死区会使电压电流波形产生畸变，因此应该尽量在确保电路安全工作的前提下减少死区时间。通常根据以下公式计算死区时间 tdead ；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEXGjiaul9ozdbMB5CCLeW0uoSHmyzY69dnYebOyPzLaBoUcD0QuLmE1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_135_311a2e2decd3.png)
 
 公式（4-40）中， t D \_OFF\_MAX 为最大关断延迟时间， t D \_ON\_MIN 为最小开通延迟时间，t PDD\_MAX 为驱动器最大传输延迟时间 ， tPDD\_MIN 为驱动器最小传输延迟时间 。 查询SKM100GB128D 的技术手册可知，在测试条件下，SKM100GB128D 的典型开通延迟时间 t d(on) =175ns ，典型关断延迟时间为 t d(off) =370ns 。查询 TX-K841L 的技术手册可知，典型的上升延迟时间为 0.3μs，典型的下降延迟时间为 0.4μs，因此可以估算
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEic5lGNYTKyPMviaH4tsMWKkS1UaBwRbzd8aCtNOemFXfMNKUS8phiao4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_136_9508a5db9aa0.png)
 
 以上仅为粗略计算出来的时间，考虑到一些复杂因素的影响，实际设置的死区应该大于此值以确保设备在极端恶劣的情况下电路也能正常工作。为此，本文在交流母线线电压为 110V、直流侧电阻负载为 78Ω、直流电压为 270V 的情况下，测试了死区时间分别为 1μs、1.5μs、2μs、2.5μs 情况下的开关情况，分别如图 4-13-4-16 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE1cUTkowDnaDu9hKcB9rN6MrvxT6MLicNDrmKiayy6gFAOsvOx1nf2kOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_137_bc7f7d4a7250.png)
 
 从测试数据可以看出，当死区时间分别为 1μs、1.5μs、2μs、2.5μs 时，IGBT 开关状态正常切换，没有出现直通的情况。为了保证设备在恶劣状态下的安全工作，同时又不会对电流波形造成大的影响，本文选择死区时间为 2μs。
 
@@ -789,13 +789,13 @@ SN74AC241 器件手册指出，在供电电压为 3V，输出电流为 12mA 时�
 
 由于 SiC MOSFET 相对 Si MOSFET 需要较高的驱动正压，同时为了防止误导通需要加负压，因此不能采用 Si MOSFET 驱动电路或者 IGBT 驱动电路驱动 SiC MOSFET，需要针对 SiC MOSFET 设计专门的驱动电路。本文设计的 SiC MOSFET 驱动电路如图4-17 所示。为了达到 SiC MOSFET 的最佳性能，本文采用的开通正压为 20V，关断负压为-4V。为了减少延迟时间，隔离光耦和驱动芯片应选择延迟较小的驱动芯片。本文选择的光耦为 6N137，驱动芯片为 IXDN609，IB1505LS 作为光耦的供电电源，QA01C 作为驱动的供电电源。关于电路的外围电路配置，请参考相关的器件手册。SiC MOSFET驱动电路中，TMS320F28335 输出的 PWM 信号经过 SN74AC241 增强后，送入隔离光耦 6N137。光耦的输出信号送入 IXDN609 进行放大之后作为 SiC MOSFET 的驱动信号。驱动信号并联泄放电阻，防止在未加驱动引线的情况下，米勒效应烧坏 SiC MOSFET。同时还要并联稳压管，本文稳压管放置在主电路中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaETbzicibIl2U7U36g8bz3emFjHdydr7lAyGTd2gmMBlA829lwUMHx2WuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_138_11bdcdffbca7.png)
 
 为了验证本文设计的 SiC MOSFET 驱动是否可以正常工作，本文对其进行了测试。SiC MOSFET 驱动电路的测试波形如图 4-18 和图 4-19 所示，设置的正频宽分别为32.33μs 以及 65.67μs，设置的死区时间为 1μs。从测试数据可以看出，设计的驱动电路满足要求，达到了预期目标。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEk7WIC9U3X3rHvnaEew0OJrq3rZ6j7jibrFCr2lfibSqI6zmLyObyKYoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_139_4f54b2ae9f01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEmsP6a7x2XWMVMUY3Jqb7RE5lz21ugvTmSu5anwtuNbo32XzlEGJDXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_140_ec5a4bcf8f15.png)
 
 4.2 软件系统设计
 
@@ -805,7 +805,7 @@ SN74AC241 器件手册指出，在供电电压为 3V，输出电流为 12mA 时�
 
 本文设计的软件系统包含主程序和中断子程序两大部分，如图 4-20 和图 4-21 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaE88ZT1RibtCticpXRpF9h5NYFcc7hoP2bOCF2amq2jOLEreGqFJwgqk1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_141_0d0d8ebaaf93.png)
 
 主程序的流程图如图 4-20 所示。主程序主要完成系统的初始化、中断向量表的初始化、ePWM 模块的初始化、AD 采样模块的初始化、用于测试以及保护的 GPIO 的初始化、全局变量的初始化等。特别需要指出的是，在初始化的过程中，应该使 PWM 输出为低电平以避免开关管直通对设备造成损坏。在初始化完全之前，不应打开驱动电路的电源。
 
@@ -821,11 +821,11 @@ SN74AC241 器件手册指出，在供电电压为 3V，输出电流为 12mA 时�
 
 程序的运行速度除了和媒介即存储器有关还和算法相关。对于三角函数、平方根函数及其倒数以及除法运算来说，其运算时间要大幅高于乘法以及加法运算的时间。因此通过优化三角函数、平方根函数及其倒数以及除法运算将可以大大减少程序总的运行时间。TI 官方提供了快速实时支持库就是为了优化这些函数的执行时间。在对于运算时间要求比较苛刻的情况下，通过添加快速实时支持库可以起到明显的效果。关于如何添加快速实时支持库，请参考 TI 官方文档 C28x Floating Point Unit fastRTS Library。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEqwcJTmj8z6vCwV7Q6Y7y8wBdaXVKR9wNfmszKgusWQPu8ZXEQAcpTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_142_c89f42a90000.png)
 
 为了更直观地比较代码优化前后的效果，本文做了四次实验：第一次实验程序在RAM 中运行，并添加快速实时支持库，实验结果如图 4-22 所示；第二次实验程序在 Flash中运行，无快速实时支持库，实验结果如图 4-23 所示；第三次实验程序在 Flash 中运行，并将初始化编译段复制到 RAM 运行，实验结果如图 4-24 所示；第四次实验程序在 Flash中运行，并将初始化编译段复制到 RAM 运行，且添加了快速实时支持库，实验结果如图 4-25 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaERoS3PM7u11YmBREHC18rDro9O5j9MJgZJcwoDEGkBaTk9qg8LIIhibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_143_a974fe54e51c.png)
 
 从实验结果可以看出，在程序比较大的情况下或者运行时间有限的情况下，可以通过将程序搬运到 RAM 运行并且添加快速实时支持库来减少程序的运行时间。
 
@@ -841,45 +841,45 @@ SN74AC241 器件手册指出，在供电电压为 3V，输出电流为 12mA 时�
 
 图 5-1 为整流模块启动过程中 a 相电流响应波形，图 5-2 为整流模块启动过程中直流电压响应波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaETSU6l2vcOLm3Fp3TZibIORHlibTZoKZ0T3LyGmz745XViaiajMUbibQuaCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_144_8be3e48fb74c.png)
 
 从图 5-1 和图 5-2 的实验结果中可以看出，整流模块启动过程中 a 相电流过渡平缓，没有大的超超调出现，直流侧输出电压同样过渡平缓，没有出现大的超调，且在大约 0.1s 的时间内系统已经达到了稳态，由此证明了本文提出的改进型 PI 控制策略可以有效解决整流模块的启动超调过大的问题且具有较快的响应速度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaELdEPeaIuO1hSFjJgfv5Hl6pB43FpOl3uzc9OibIAOv86Lnn0JiaKYCuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_145_6928fa213743.png)
 
 图 5-3 为启动过程中 d 轴电流指令值 Idref 的波形，图 5-4 为启动过程中 d 轴电流 I d波形。为了更直观地显示 d 轴电流 I d 跟踪 d 轴电流指令值 Idref 的情况，通过 MATLAB软件将图 5-3 和图 5-4 合并后如图 5-5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaElufQ1HWq3xicnjpOA2ibowdlvTMniaibUGInOzFHNb49gV1q9TKwibJR8IA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_146_e11455686608.png)
 
 从图 5-3 至图 5-5 的实验结果可以看出，本文设计的控制系统参数选取合理，在0.1s 左右的时间里，d 轴电流完成了对指令值的跟踪，且到达稳态后不存在静态误差，与理论分析相符。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEnBsWayuQP7ZlGWB3UytAx0D5BP7biaEVwoBnicdHcp6QB52DRvYJV4ZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_147_96fd08fb92c8.png)
 
 图 5-6 为稳态电流 ia波形，图 5-7 为稳态直流电压V dc 波形，图 5-8 为稳态时 a 相电压电流的示波器波形，图 5-9 为稳态时直流侧输出电压的示波器波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEaCSeNFS3Aou5IQwibF0zIloEvyia4ticrmtQNxngT6sEksnAnrYaf2ejw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_148_1ce8dddacea9.png)
 
 图 5-10 为 SiC MOSFET 整流模块启动时 a 相电流实验结果，实验时交流侧输入线电压为 110V，d 轴电流指令值为 6A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEkau3ERmialnnbCzlFwnvJnLLTxfAhnhiaib4icYyZibuiaksgmvDZYUE8hPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_149_039bfb588524.png)
 
 为了获取总谐波电流畸变率，本文将稳态时的电流数据导入到 MATLAB/Simulink进行了谐波分析，谐波分析结果如图 5-11 至图 5-13 所示。其中，图 5-11 为 IGBT 整流模块稳态时电流ia的谐波分析结果，图 5-12 为 Simulink 仿真得到的整流模块稳态时电流ia的谐波分析结果。图 5-13 为 SIC MOSFET 整流模块稳态时电流ia的谐波分析结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEuwMfBKhyib3H5f4ZYvjjIDzNTqhgjXqURcBh1W5W1xyR145k3yJAAfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_150_a8b788af4f0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEjjmy2ic8XibXSzCju6OQVwJUPHDzmCaCO4UlgCA0RVRTRlbhz361QZuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_151_448ff9592b60.png)
 
 从实验结果可以看出，仿真时总谐波电流畸变率为 4.44%，实验时得到的总谐波电流畸变率为 3.93%，考虑误差的存在，本文提出的电感选型方法可以较为准确地确定满足特定谐波要求的电感大小。由此证明了本文提出的电感选型方法是正确的和有效的，有一定的应用价值。
 
 同时，图 5-10 以及图 5-13 的实验结果说明：本文设计的 SiC MOSFET 整流模块在交流输入电压为 110V，d 轴电流指令值为 6A 时能够正常工作，且总谐波电流畸变率为3.19%，证明了本文对 SiC MOSFET 整流模块的初步实验探索取得了成功。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEoLx7pLiayevqmVAQ9licwvibgzCguAuZiaFdwfibmnYUAib6rPuvBNeoIlog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_152_5401ef92e696.png)
 
 表 5-1 为由 DSP 内的程序测量得到的功率因数和效率的相关数据。
 
 从表 5-1 可以得到：本文设计的整流模块平均效率达到了 95.54%，满足设计要求；平均功率因数为 0.9968，满足设计要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk3fgtWA51ohrLeCXcPVRaEDR1r5wGzARS0Pen6ibBItUpNze3XIEVuaMIiaJ3YtcrL5fC7hibcBJVdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_153_adbe1c392c9f.png)
 
 第六章 总结与展望
 
@@ -897,13 +897,13 @@ SN74AC241 器件手册指出，在供电电压为 3V，输出电流为 12mA 时�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_154_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_155_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高效_SiC_器件不间断电源整流模块的研究与设计_images\img_156_7038903c64cb.png)

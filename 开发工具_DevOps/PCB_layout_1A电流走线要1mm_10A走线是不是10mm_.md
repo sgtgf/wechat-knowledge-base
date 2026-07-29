@@ -30,11 +30,11 @@
 
 PCB板的电流承载能力主要有三个方面原因，分别是走线宽度、线厚（铜箔的厚度）以及温升高度。线宽越大，电流的承载能力就越强。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nwECQvbNjGYURM22U6ALJ34D3lfWREm7O0C0bgdUf4Veb5VyUYBCic6tXvpSn672Hy1W0PmVL0zpoXCuPUypJDw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](PCB_layout_1A电流走线要1mm_10A走线是不是10mm__images/img_002_3936ac595c9d.jpg)
 
 PCB制作的标准IPC-2221规定了一种计算线宽的方式，即通过将一些参数代入公式进行计算，得出所需线宽。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nwECQvbNjGYURM22U6ALJ34D3lfWREm74icN1T3p4CegswkwHArzFwXMPMaiae6qnMhZfFN5WC13RZSTCzSibTqWw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](PCB_layout_1A电流走线要1mm_10A走线是不是10mm__images/img_003_011b62484c41.jpg)
 
 在IPC-2221标准里面，PCB线宽的计算公式中的参数包括：以下几个
 
@@ -54,17 +54,17 @@ PCB制作的标准IPC-2221规定了一种计算线宽的方式，即通过将一
 
 给定的条件下（载流为10A，最大温升为10℃，环境温度为25℃，铜厚为1盎司，走线长度为10mm），通过这三个工具计算来得出的内层PCB走线的宽度约为18.71mm，表层PCB走线的宽度约为7.19mm。我们自己最后也使用IPC-2221的公式进行计算了一次，得出结果与工具得出的结果是一致的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nwECQvbNjGYURM22U6ALJ34D3lfWREm7ViapHpI6EdvzhZeG0UcRiakOx8VBT4PicCg5dUSzPPoM7Y7YAFib1PQsQg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](PCB_layout_1A电流走线要1mm_10A走线是不是10mm__images/img_004_eef74b7ec30b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nwECQvbNjGYURM22U6ALJ34D3lfWREm7dHGUwwHCDvZeuyxZzE2Cia0hBsI3qEonduFF3K7bKrBycpkzk2zSP0w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](PCB_layout_1A电流走线要1mm_10A走线是不是10mm__images/img_005_3abbafe32cb0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nwECQvbNjGYURM22U6ALJ34D3lfWREm7XOvaDsH3tHu29RvTfiaefZKjYhWeGs5gLKXjibmaJcZcdft0qHrnBu1A/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](PCB_layout_1A电流走线要1mm_10A走线是不是10mm__images/img_006_6dc10abf0bec.jpg)
 
 这里我们需要注意的是，即使这些工具的计算结果非常相近，但是在实际应用中我们还需要考虑到其他很多因素的影响，比如PCB板子材质、绝缘层的厚度、PCB走线间距等一些因素。所以，在实际制作中我们需要综合考虑这些因素的影响，并且咨询专业的PCB生产厂家来确保最后制作出的PCB板符合我们的需求。
 
 今天的分析先到这里，得出的基本结论就是1A电流需要1mm的线宽来满足。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](PCB_layout_1A电流走线要1mm_10A走线是不是10mm__images/img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

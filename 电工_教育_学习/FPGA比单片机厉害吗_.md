@@ -30,7 +30,7 @@ _**01**_ 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOmGkWFWBDPFrxJMI6fxEGdibuaqbrDypf1XdRc2OrTkpZN9ibichYcicy2SeOaKROQibJJ4S37P4DrJkCw/640?wx_fmt=png&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA比单片机厉害吗__images\img_002_ed8a59a9b3aa.png)
 
   
 
@@ -69,7 +69,7 @@ FPGA可以处理多种通信协议，如以太网、USB、PCI Express、SATA、H
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ju1DzqX8iaOmGkWFWBDPFrxJMI6fxEGdibh8f1ZoUlH5PbyN8RhzSM6ib8W7sMOj6iaD2c0fXmqcibRsRgxkowicdJhg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA比单片机厉害吗__images\img_003_a0e1b5ae4667.jpg)
 
   
 
@@ -98,7 +98,7 @@ FPGA在数字信号处理方面应用广泛，包括滤波、FFT（快速傅里�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ju1DzqX8iaOmGkWFWBDPFrxJMI6fxEGdibANiaMAYmWgGicLotolc83rkNqV0ibVWp0icUvCiaZ1Kmial86o4YM8z1dPWA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA比单片机厉害吗__images\img_004_b6985bf30d75.jpg)
 
   
 
@@ -120,7 +120,7 @@ FPGA因其高速度和低功耗的优势，被广泛应用于高速图像采集�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ju1DzqX8iaOmGkWFWBDPFrxJMI6fxEGdibTm7JD8HVuUYlcZsw333F6VCdukNJoRXo5aHfEQ1t4QtwmialEjmxdjA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA比单片机厉害吗__images\img_005_11578458ffc0.jpg)
 
   
 
@@ -170,7 +170,7 @@ IC 这个词大家可能一听到就觉得特别高深，不是凡人所能触�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ju1DzqX8iaOmGkWFWBDPFrxJMI6fxEGdibepAf054qHbcv9CTzQtjHFWMMrQBdRl7xxicICfTfLTdCNIKFh9nb6dw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA比单片机厉害吗__images\img_006_fbdfaf61e556.jpg)
 
   
 
@@ -190,7 +190,7 @@ FPGA 验证主要是把 IC 的代码移植到 FPGA 上面，使用 FPGA 综合�
 
 比如电力行业的高速数据采集，医疗行业的高速、大数据量的模拟量采集传输，军工行业的雷达、卫星、制导系统，网络安全、工业控制等等都是FPGA的应用领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\FPGA比单片机厉害吗__images\img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

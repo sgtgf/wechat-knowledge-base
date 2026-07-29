@@ -49,7 +49,7 @@
 
 太阳能是无穷无尽的可再生能源，安全、清洁、无污染。光伏发电与传统发电相比具有优越的便利性，并且对地理位置要求不高，只受到天气条件这一个因 素影响。光伏发电技术的应用，在一定程度上缓解了能源危机。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMNAU2HNYbzS4nslARTETO2YHBJz7ggYmfTRj7t1IX8EDp54gkLTobt6msqab27TyAJRibia01NwIf2woFjZtib6NrAStPsuIyGbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_000_de7b578d4e30.png)
 
 光伏逆变过程如图1.1 所示，通过光伏接收板将太阳照射的能量转换成直流电汇入光伏汇流箱，其中一小部分直接供直流负载使用，大部分电流进入逆变器转换成稳定的低压交流，之后再经过升压变压器转换成高压交流电输入进电网。
 
@@ -83,7 +83,7 @@
 
 逆变器按输出波形可分为方波逆变器、准正弦波逆变器和正弦波逆变器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOq50ibKZYVicRVvs31A3hUdBqZoqkRuCqxeuq6BibtyXJJOkyqA6LHRW6gfkYjGSuym9ALxH7gibV6aOjgvqNr34OWfxSVSWlESVI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_001_94223f27bf1b.png)
 
   
 方波逆变器输出波形如图1.2（a）所示，波形为方波。它的正向电压在向反向电压的转换的过程没有过渡，几乎在一瞬间完成，这样会对逆变器和负载都产 生冲击，不利于长时间工作。同时其电流谐波大、带负载能力弱、效率低下。  
@@ -96,16 +96,16 @@
 
 以单相逆变器为例，按主电路结构可分为半桥逆变器、全桥逆变器和推挽逆变器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOHuHZonqxj82qv7hOn8uxBgfZ1SicZRcPOFhs14Ugme1ia5qqiaMichH5zW66MTzqkicWKrh7CbPLiaMZTO7uqU9fIBTCISPhHJAhibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_002_d8fc33a39a0e.png)
 
   
 半桥逆变器电路拓扑结构如图1.3 所示，直流母线连接两个串联的大电容，通过两个开关器件交替导通，来产生逆变输出。这两个电容的规格必须完全一样， 否则半桥逆变器正负输出将不相等。半桥逆变器结构简单，仅使用两个开关器件，但是输出所得的正负电压是通过两个母线电容分压提供，幅值只有母线电压的二分之一，故不适合在高电压场合使用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkeEvwyHfGOqBogIPpPGI5oOZ1BAS29AkQctMy8mF43Q8j33icB9l7aTveicDeich1J0pia4z3udic6KmTSKEicGmth6PWzIHpIAA6o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_003_6a0730bc8a32.png)
 
 全桥逆变器电路拓扑结构如图1.4 所示，母线电容不再需要，可以看成两个半桥组合而成。四个开关器件S1 和S4 为一组、S2 和S3 为一组，两两交替导通产生逆变器输出。全桥逆变器使用器件数量比半桥逆变器要多，但其输出交流电 压幅值等于直流母线电压，是半桥逆变器输出电压的两倍，所以全桥逆变器更适合高电压场合使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvCnrxGQSJ4vYiaytv5gKVjwuOjc5hX2iblteEA1lrJxd8J3vMOvXGSZPicmIAB13JSBFibvribFOwWlCRoNX1pn21TicIMeCafYh0U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_004_32fd10c09ab0.png)
 
 推挽逆变器电路拓扑结构如图1.5 所示，母线电压通过两个交替导通的开关器件后，再通过带中心抽头的变压器传递到负载侧。如果变压器一次侧和二次侧匝比等于1:1:1，在相同的母线电压下，推挽逆变器输出电压与全桥逆变器输出电压完全相同。但因为推挽逆变器只有两个开关器件，每个开关器件承受的电压 是全桥逆变器开关器件承受电压的两倍。
 
@@ -117,7 +117,7 @@
 
 硅是地壳上最丰富的元素半导体，性质优越而工艺技术比较成熟，已成为固态电子器件的主要原料。其热导率较大，化学性质稳定，又易于形成稳定的热氧 化膜。上述性质使PN 结具有良好特性，使硅器件具有耐高压、反向漏电流小、效率高、使用寿命长、可靠性好、热传导好，并能在200℃高温下运行等优点。 然而，因为传统半导体自身的局限性，硅基半导体器件已经达到了材料应有的极限，现如今的科技水平已经无法再提升它的性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUicopoBBYGJI806IFWNmEfd96jVlVqeGhoAdeibtt52T1oT4ziadZTkUEOpeM5M64iaj258IvJl3j5jibDV52iafP9790O0qqb28jQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_005_00dafec54da0.png)
 
 图1.6 描绘了电力电子设备在重量、损耗、体积、成本和故障率这5 个方面的当前水平和未来趋势。限制半导体器件特性其中一方面是因为器件的结构和工艺限制，另一方面是受到器件本身材料的限制。所以，电力电子技术的进步同样依赖于器件在材料方面的突破。 因此开发新型半导体材料的器件来满足未来需求已经迫在眉睫。碳化硅作为新型的半导体材料，因为其出色的电学特性被科学家关注和研究。
 
@@ -125,7 +125,7 @@
 
 与传统硅材料相比，碳化硅材料具有能带宽、击穿场强高、饱和速度快、热传导率高等特点。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNsbotwojupf6uVw2bprZWhk9NT9ibQOibKMOAV6eTG6QCh04FmpqwsBud7mSpia7yAKdQNuIw93HwicRj4lapFgp4SDwJWkyANialA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_006_0f1a456ac945.png)
 
 表1-1 是几种半导体材料特性对比。碳化硅优异的性能使碳化硅功率器件与硅基功率器件相比具有以下优点：  
 
@@ -183,7 +183,7 @@
 
 SiC MOSFET 与Si MOSFET 相比其介电常数稍小，但电子迁移率差异不显 著。SiC 材料的器件可以减小器件的体积，进而减小器件的导通阻抗。而且SiC器件的温度特性比较好，温度升高对器件的导通阻抗影响较小，所以在工作温度较高的环境下SiC 器件是首选的器件之一。下面是对Si MOSFET 和SiC MOSFET 具体的参数及性能进行对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPbIGQERcicy78JfPMiaQIE971ZM4nrmtNrD5w71jj5X75DpuoibN6R6vpHar2JS8bXZDUeTMmiaG4ngk147dWXrfFse40tCJHQ62Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_007_007de2cad0ce.png)
 
 表2-1为选取开关器件型号及主要参数。
 
@@ -191,7 +191,7 @@ SiC MOSFET 与Si MOSFET 相比其介电常数稍小，但电子迁移率差异
 
 MOSFET 导通电阻Ron影响到器件的导通损耗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO2nqfHQdNtPTZpcPvJ4IwurG5cOlw3xibic97Z73RmdBUdsebJKuDoqPOtSKX772aeXmgSziaK3AUZj7iaOgcZSZurUodGibA770CI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_008_2cace41579d7.png)
 
 一般来说MOSFET 的导通电阻如图2.1 所示，总体是由6 个部分组成。区域1 是沟道电阻Rch，区域2 是栅积聚区电阻RA，区域3 是栅底结型JFET 的夹断区电阻Rj，区域4 是N−漂移区电阻RD，区域5 是N+源区电阻RS0，区域6 是N+衬底电阻RN。
 
@@ -201,7 +201,7 @@ MOSFET 导通电阻Ron影响到器件的导通损耗。
 
 在实际使用的过程中MOSFET 的导通电阻Ron并不是固定不变的，其值还与结温Tj的大小有关。一般来说功率MOSFET 具有正电阻温度系数，因为温度升高会导致多子的迁移率下降，从而会使导通电阻Ron升高。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPXia2SNVdAJ05O7jEdELOWo81ib5rO9UNYOmJDghIeuoria8zAR8UWNmom2U9YvNBYuKWJA2Cw2Jh4UL2hoDVBrRiaiaDAk1UMyQOk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_009_de15eed0c9da.png)
 
   
 图2.2（a）和（b）分别为Si MOSFET(IXFX32N90P)和SiC MOSFET  (SCT3060AL)的数据手册给出的导通电阻在不同温度下随电流变化的关系曲线。
@@ -216,11 +216,11 @@ MOSFET 导通电阻Ron影响到器件的导通损耗。
 
 漏极电流ID和栅源极电压VGS的关系反映了输入电压和输出电流的关系，称 为MOSFET 的转移特性，曲线的斜率也被定义为MOSFET 的跨导，即
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOQXlz5rqHHwzknVw6TUldRwXX8LgbLVEjvsvkZJfsYpZbjchibY2KfmP2HZP7nhqfKLy4eWe7ER2V5ZjWOxLCtJM6KeLcS0lj8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_010_90574b66b3a6.png)
 
 上式表明，Gfs值越大，说明VGS对ID的控制力越强。图2.3（a）和（b）分别 为Si MOSFET(IXFX32N90P)和SiC MOSFET(SCT3060AL)的数据手册给出的转移特性曲线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMUKL81uc3eAmlvDj8pDXUNQIIPXggLlcicBNMB7gcN07QEZFrc0wxnWByayXIPRf2ka748yHayC7PshX6PU12nL5yGSgKf1Lg4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_011_a564971b0c07.png)
 
 在图2.3 中选取栅源极电压VGS范围在7~8V、结温Tj\=25℃，将对应的漏极电 流ID带入公式，可以得出Si MOSFET 的跨导为26S，SiC MOSFET 的跨导为1S。 对于开关器件来说，需要器件在截止区到饱和区切换的速度快，跨导过大会影响切换速度。SiC MOSFET 的跨导比Si MOSFET 要小，有利于工作的稳定性。同时在图中可以看出在相同结温条件下，对Si MOSFET和SiC MOSFET施加相同的栅源极驱动电压，Si MOSFET 的漏极电流要大于SiC MOSFET。所以在实际工作电路中可以适当提高SiC MOSFET 的栅源极驱动电压。 
 
@@ -228,7 +228,7 @@ MOSFET 导通电阻Ron影响到器件的导通损耗。
 
 图2.4（a）和（b）分别为Si MOSFET(IXFX32N90P )和SiC MOSFET  (SCT3060AL)的数据手册给出的输出特性曲线。可以清楚的看出SiC MOSFET 的输出特性曲线的斜率随着栅源极驱动电压VGS 的增加增加，一直到VGS\=20V 都有输出特性曲线。而Si MOSFET 的输出特性曲线在栅源极驱动电压VGS\=8V 时曲线斜率变化开始变缓，到VGS\=10V 时曲线斜率不再改变。输出特性曲线的斜率大小代表着导通电阻的倒数，由二者输出特性曲线斜率也可以看出SiC  MOSFET 的导通电阻要小于Si MOSFET 的导通电阻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjKxsTgN5XHqwWHLWoiceSLIic9gDRoKqZvNzfJWtWiaUvuyWF7PJ5DtTff4SgAC7OaKrBXicy9tDAYaibKBzg59rZ1lfeIl7Mdicog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_012_3a832188fa80.png)
 
 综上所述，SiC MOSFET 的跨导比Si MOSFET 要小，工作稳定性比Si  MOSFET 要高。在工作中可以适当提高SiC MOSFET 的栅源极驱动电压，来获得更高的漏极电流，设计SiC MOSFET 的驱动时可以增加驱动电压以获得更小 的导通电阻，降低系统的损耗。 
 
@@ -236,15 +236,15 @@ MOSFET 导通电阻Ron影响到器件的导通损耗。
 
 MOSFET 的栅极电容会随着漏极和源极间的电压改变而改变，所以为了方便计算和设计，我们可以通过MOSFET 的栅极电荷特性，来计算出栅极开关损耗，即驱动损耗PSW。计算公式如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMHwSp8n6waVgQsod2NJk72JgHuKGcfgOhlODiajibdjc62kya77MjibIOkBa3H7yvjFibD5GumiaNiaXiadtDEbiblZRoGwTqFyecc63c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_013_327a38a551f7.png)
 
 式中，Ug1为驱动高压，Q1为高压时的栅极电荷，Ug2为驱动低压，Q2为低压 时的栅极电荷，fsw代表着开关的频率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPrbJ5ftrCBBega2QEdpt73HLXPiaJhq2CKjJ5u4Z9T5KFDoRXvLJnPL1PBFGQAb9TsPz6WZ3CoUibdGtBGjZkQAKW96CErichlibk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_014_d513ed5838b7.png)
 
 图2.5（a）和（b）分别为Si MOSFET(IXFX32N90P) 和SiC MOSFET  (SCT3060AL)的数据手册给出的栅极电荷与栅源电压的关系曲线。可以清楚的看出在同驱动电压等级下，SiC MOSFET 的栅极电荷要比Si MOSFET 的栅极电荷小很多。取VGS\=15V，对比二者在一个周期内的损耗，如表2-2 所示。通过对比可以发现在相同栅源极驱动电压下，仅仅比较一个周期，Si MOSFET 的栅极损耗就为SiC MOSFET 栅极损耗的6 倍。随着工作频率的增大，Si MOSFET 的栅极损耗会越来越来大，SiC MOSFET 的优势会越来越明显。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO8WMGIzxRBUva81jxxzOmAQaGLddibibGia4sLPmfoMUaqBvyxMRvuUBNBc18w069EfWkvmm0r53E0h9ePFQibGeD3jM5zH3S1FtY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_015_f4dbd67fca2a.png)
 
 2.4 体二极管特性  
 
@@ -254,7 +254,7 @@ MOSFET 的栅极电容会随着漏极和源极间的电压改变而改变，所
 
 图2.6（a）和（b）分别为Si MOSFET(IXFX32N90P)和SiC MOSFET  (SCT3060AL)的数据手册给出的体二极管正向导通的伏安特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPsrbLUy1hxQAF2bHLKSEicjAeic8YvVCdI8e09JuHNwblryfS39bBkRBhIe0ibgGlLE5FuwOgodhpRo36gcBaZtzsv7Gcd7zvZDI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_016_f7fdee886d90.png)
 
 从图中可以看出Si MOSFET 在Tj\=125℃，VSD\=0.35V 时，体二极管已经导 通，而SiC MOSFET 在Tj\=150℃，VSD\=1V 时，体二极管才导通。Si MOSFET 体二极管的门槛电压要比Si MOSFET 的门槛电压要低。取结温Tj\=25℃，可以看出在相同VSD的情况下，Si MOSFET 在和SiC MOSFET 相比体二极管通过的电流要大，长时间通过较大的电流会影响器件工作的稳定性，所以SiC MOSFET 的器件稳定性要优于Si MOSFET。但是在相同电流的情况下，SiC MOSFET 的导通压降要大于Si MOSFET，即SiC MOSFET 体二极管导通损耗要大于Si MOSFET的体二极管导通损耗导通损耗。 
 
@@ -262,7 +262,7 @@ MOSFET 的栅极电容会随着漏极和源极间的电压改变而改变，所
 
 MOSFET 的体二极管从正向导通到反向截止，有一个抽取少子的反向恢复过程。在此期间产生的电流尖峰和电压过冲就会影响到整个MOSFET，如果反向 符合特性特别差甚至还会损坏MOSFET。表2-3 为Si MOSFET IXFX32N90P 和SiC MOSFET SCT3060AL的体二极管在正向导通到反向截止过程中的时间参数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNK8th3an1z5mmXAsGnvamEST6mjtZLFpDOuls4U0XleVkhMK0eIicUpvwcqxXozCm6iaa2iaNIbXibWkQE0ib0tgKA9OMYX8fZDCOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_017_adb5c8acd8c3.png)
 
 可以看出 SiC MOSFET 只有15ns 的反向恢复时间trr，而Si MOSFET 的反向恢复时间trr 需要300ns。在上表的三个参数中，反向恢复时间trr 对MOSFET体二极管的反向恢复特性影响最大。而且体二极管反向恢复时间trr 越长，其反向恢复电流就越大，造成的损耗也就越大。同时体二极管反向恢复时间trr也影响到MOSFET 的开关速度，反向恢复时间trr越小，MOSFET 的开关频率就越高。  
 
@@ -274,23 +274,23 @@ MOSFET 每两个电极间都存在着寄生电容，分别是栅漏极间电容
 
 输入电容：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMdzXjIqZ7ROzRMYEz03fOgBwxCXnvzfRwiasY85sZlfciaERdKySvk5FEBaWPDqv5EpsCZf2Oh8KtS3hGhOrvCzQLnLh8x5Jf0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_018_2557ca8e143a.png)
 
 输出电容： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMAB4ibkwPTib2W9csewSTRXfYDCcoUribSicHn8vcMy2TM0oJyjar5RkiaqsmBtaKL9IxTkDEqofcgAa2RmvdjzBqmRWDia7IbicpdoE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_019_845bc6fc746a.png)
 
 反向传输电容：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOThlTdIqAbWr3F1oSYEUybDpwGicqVL91yicCWHvjuqFN4cvPDGY9ICllBB1ht6S4eg1kicb2axibg5PQEp8Z0h1ib0etVtTg6BYy4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_020_0a69c5e87cb6.png)
 
 图2.7（a）和（b）分别为Si MOSFET (IXFX32N90P)和SiC MOSFET  (SCT3060AL)的数据手册给出的寄生电容随着漏源极电压变化曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPJqo87FNtXBWBmROHkcncHPbvckjmHHdBiaKotJbFNRTm6ubqvfwMc9Hf2GU90YMtHUfCW62Rq4iaZk0Fib09K9c40f2iccuY97T8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_021_357005ed532e.png)
 
 选取工作频率为1MHz、漏源极电压VDS\=10V的情况下，Si MOSFET 和SiC  MOSFET 的各个寄生电容数值如表2-4 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMFnLA3x2eBAlVpy25Hpl5gOCO84SdrCRCx2hzhPrhCRcJiad6kBoo6pkyOUfQXGiaaXTvkicWzJ6EKFE8d7uZbnhk5IcCh4YAoibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_022_c3c3a0343463.png)
 
 可以看出SiC MOSFET 的各个寄生电容均大幅小于Si MOSFET 的各个寄生电容。从而可以判定在高开关频率下，SiC MOSFET 的驱动损耗和开关损耗比Si MOSFET 的驱动损耗和开关损耗要低，同时开关速度更快。
 
@@ -314,12 +314,12 @@ MOSFET 的寄生电感主要由MOSFET 产品的外部封装造成，Si MOSFET 
 
 2.7.1 双脉冲测试实验原理
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP2UhukHl83CQgj7jQErCNS3UFmlqADdOABBhtkgBvZhR7kBjTJZQMyFyCCbibzTiakqNVYxfWbtCkptsnx8fj4phlIhAib6bYojk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_023_456551f62ecf.png)
 
   
 双脉冲实验原理如图2.8 所示，其中U 为母线电压，电感L 可以让电流不能突变，上下两个开关管为待测器件，下管给与如图2.9 所示的驱动电压，在上管 的栅源极施加恒定的负压来保证开关管始终处于关断状态。该实验可以对MOSFET 体二极管反恢复特性进行测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP56KxtZUWFQwdxwGCpVick7EaeDBjLhHgP1syBHicgMgV6KhUy60P2nrbhPq2cJv2PYma63xJ5doEto9swS90ibDhtYxOPxlKZss/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_024_db522be705af.png)
 
 双脉冲实验的工作原理为：  
 
@@ -335,13 +335,13 @@ MOSFET 的寄生电感主要由MOSFET 产品的外部封装造成，Si MOSFET 
 
 2.7.2 Si MOSFET 及 SiC MOSFET 双脉冲测试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPWFc8fJz6XgKJYLfc47YgtpsBzUO17rU10zTX7RQHPw7192IIowic7oeOEkYTemuiaeMmqsHc0KicBfejqfO1uKzibOXg03mibz2zA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_025_5bb99458fab2.png)
 
 图2.10 为双脉冲测试实验平台，PCB 电路板下方为加热台，可以改变温度测试MOSFET 性能。
 
 对Si MOSFET(IXFX32N90P)和SiC MOSFET(SCT3060AL)在25℃和75℃情 况下进行双脉冲测试。将示波器采集到的电流cvs 文件导入OriginPro 软件便于观察，如图2.11 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNTsddKlON8UXYqGEY6dU5KYibYbcMzLD4mg6AHjWBl0XN10KpVMD8ynZ2RZaXnicc61icyxRvBJquufib2HRibTOx4iaEs1dqbAPy7c/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_026_927c5b147d74.png)
 
 可以发现在25℃时，SiC MOSFET 体二极管反向恢复电流很小，其峰值为2.2A，而Si MOSFET 体二极管反向恢复电流峰值达到了22.5A。在75℃时，SiC  MOSFET 体二极管反向恢复电流峰值为2.3A，几乎不受温度的影响，但是Si  MOSFET 体二极管反向恢复电流峰值为28A，和其25℃相比有着明显的上升。  
 
@@ -361,17 +361,17 @@ MOSFET 的寄生电感主要由MOSFET 产品的外部封装造成，Si MOSFET 
 
 全桥逆变器拓扑如图3.1 所示。其中Ub为直流母线电压，S1~S4 为型号完全 相同的MOSFET。Cgd1~Cgd4为MOSFET 栅源极寄生电容，Cgs1~Cgd4为MOSFET栅漏极寄生电容，Cds1~Cds4为MOSFET 漏源极寄生电容。D1~D4 为MOSFET 体二极管，L 为滤波电感，C 为滤波电容，R 为负载。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNJZ9FRT5tqdwxfjoBiabtKhYdxYQuluxs0f1fgDKlHMMCsNrstiaHSVw8IHljqwI6icVglKObQnP9VoVjyhK8Dc59Qibhbia2YsOCM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_027_1713b48aa9ac.png)
 
 3.1.2 全桥逆变器调制方式  
 
 全桥逆变器调制方式大多都采用正弦脉宽调制（SPWM），即调制脉冲的宽度按正弦规律变化并且和正弦波等效的PWM 波形。PWM 又可分为单极性调制，双极性调制。本文采用的是PWM 单极性调制，调制方式如图3.2，正弦波ur为调制波，频率为工频fg，三角波uc为载波，频率为MOSFET 开关频率fs。将正弦调制波ur和三角载波uc送入双电压比较器中，在调制波ur的正半周，当调制波ur的幅值大于载波uc的幅值时，比较器会输出正脉冲方波，脉冲宽度为调制波ur的幅值大于载波uc幅值的时间；在调制波ur的负半周，当载波uc的幅值大于调制波ur的幅值时，比较器会输出负脉冲方波，脉冲宽度为载波uc的幅值大于调制波ur的幅值的时间。这样在一个周期内比较器输出一系列脉冲宽度随正弦波时间变化并等效成正弦波的方波调制信号，即在调制波ur过零点附近，方波脉冲宽度较窄， 在调制波ur峰值附近，波脉冲宽度较宽。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNhIUDkicYpyXpHWg2HxkLGzmJVe6qtOCqlfLicKgP1xI7EZbqZhLUV2eoPRZh6icKEThSAZlsWOoy0RSefMfzDVAn9C5I0rEE9HA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_028_88f453f17712.png)
 
 单极性PWM 调制工作时S1 和S2 的开通和关断状态互补，S3 和S4 的开通和关断状态也互补。在负载电压Uab 的正半周，其工作状态如图3.3 所示。让S1保持导通，S2 保持关断，S3 和S4 交替开通和关断。由于线路中电感的影响，负载电压会超前于负载电流，因此在负载电压Uab 正半周，负载电流有一段时间为正，一段时间为负。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN8agjdztQHV7QZGKqMxdPpaTQZPpW3AXj2iakLmbo4TltsSO0skavv8nKFicstpJLQqaUAKyXCwEO76RGiatmdu3GxOIsiaW8w5K4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_029_3f655769c84a.png)
 
 在负载电流为正的区间：  
 
@@ -387,7 +387,7 @@ MOSFET 的寄生电感主要由MOSFET 产品的外部封装造成，Si MOSFET 
 
 在负载电压Uab 的负半周，其工作状态如图3.4 所示。让S2 保持导通，S1保持关断，S3 和S4 交替开通和关断。同样是由于负载电压会超前于负载电流， 在负载电压Uab 负半周，负载电流有一段时间为负，一段时间为正。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMMicKib5QEOQtXP5aP8UibCPO6RUderR7fuwCXVKXJHeOdZxNmDsAzZc4HaDCOlZC2U07k8R09VARr2v3NuNV5Z8fHicsbOv3lau8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_030_506823989439.png)
 
 在负载电流为负的区间：  
 
@@ -411,7 +411,7 @@ MOSFET 的寄生电感主要由MOSFET 产品的外部封装造成，Si MOSFET 
 
  MOSFET 损耗占全桥逆变器总损耗的主要部分，图3.5 为MOSFET 开关过 程的波形图。Up 为脉冲电压，UGS 为MOSFET 栅源极间电压，UGSP 为密勒平台电压，UT 为MOSFET 开通阈值电压，ID为MOSFET 漏极电流，UDS为MOSFET漏源极间电压。设tg为MOSFET 导通时长，ts为MOSFET 关断时长。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpORD1ugiaIPVKcIPTYTKMFqtHrU2iaT3nGmKTWHo6QpFEXrEPprzMKeZtrZj7qibaHtNSibSWDaVVvK0icEsDVZ4X3QaYyBejFzKsUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_031_9adeec4d493a.png)
 
 按照其开通到关断的过程可分成以下三种损耗：  
 
@@ -419,59 +419,59 @@ MOSFET 的寄生电感主要由MOSFET 产品的外部封装造成，Si MOSFET 
 
 当MOSFET 的栅源极间电压UGS 从阈值电压UT 上升到开通密勒平台电压UGSP时，漏极电流ID从零上升到最大值，此时MOSFET 漏源极间电压UDS还没开始下降，这段时间称为电流上升时间tri。在此阶段产生的损耗为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPJdQheJ7WmxicicU27SGZM6wyicVRKTVaBBod4ibcT8fZudAX7o4EHI83ibgnhCoIIu3cib9P5BbqA0Hkmra306FzS4SpdHhOyqxv9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_032_8c79cc60780a.png)
 
 MOSFET 的栅源极间电压UGS 从到达开通密勒平台电压开始到即将离开密勒平台电压时，漏极电流ID保持最大值，MOSFET 漏源极间电压UDS下降到零， 该段时间称为电压下降时间tfv。在此阶段产生的损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNnJPtRJ9rcLB6C2UTmyMWNlCzlXjgn6icibOYz3MtyaIeCTiamN4sE91BSbjfEdS8NJpzd1y1KSWSeUlRUgbgloY9d4lycBaS82Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_033_6ee636c41dbc.png)
 
 所以在这一个周期内MOSFET 开通过程损耗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNsiaY7BViaDuFUWQBC3tg5MciaOzMlCAerAbju2CEEFjrqhlSjhgZXONJz4uqOy387SeUscXSFyUib00PVyIk74WmHJ71TB4NkUg8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_034_c0211da4e29c.png)
 
 定义MOSFET 开通时间ton \= td(on) \+ tri \+ tfv，则
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMib2kBuv2TfDSfCvw6WnGtEZHFuV0JtKwwTKwJ5hC7uicRejeN0VVyrT3RSH5FMrJL0KR0tvxIjJnDiakYicxm2f04gb8SZOEr8XU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_035_5681e398ba02.png)
 
 式（3-4）只是一个周期的Poff−on，将开关频率fsw带入式计算，最后可得MOSFET 的开通过程损耗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM0dOoadu89CIy0zUUSyL1KG874qQQWUibULYYdu5eMFTugz7swyAgtFN7WVAHKXoXxukq4NxHVuzdgNfN0cXIP5vVk2UmBwWo4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_036_4ba552a39fbf.png)
 
 （2）MOSFET 导通损耗Pon 
 
 MOSFET 的栅源极间电压UGS从开通密勒平台结束到脉冲电压Up关断这段时间称为MOSFET 导通时长tg。之后MOSFET 栅源极间电压UGS 开始下降，当 下降到关断密勒平台时，MOSFET 依然处于导通状态，这段时间称为关断延迟时间td(off)。在tg和td(off)期间，MOSFET 漏源极间电压UDS 始终为零，漏极电流ID为最大值。在此阶段产生的损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7jskDacsibZ4wWicsS1mnNsLUqxNSHwXMeBHHxLX7pdiarh6X7CXensyy51GHmj9c0ku7jRV52oOIkEGVZjGGjtnCRF6exdw7LM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_037_fde197eab7a4.png)
 
 其中Ron为MOSFET 的导通电阻。将开关频率fsw带入式计算，最后可得MOSFET 导通损耗：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPKjoPmnsicZ18ibDPQpJ64ttnh39ZQph4nia2sRZQzhP3YnXjeSr2rsgsfojAqfRKOEpuGM5NkTXPMfhABDGYeXUjvO6fnt88YY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_038_667705d53757.png)
 
 3）MOSFET 关断过程损耗Pon−off 
 
 MOSFET 栅源极间电压UGS 从到达关断密勒平台开始到结束之前（维持在UGSP），MOSFET 漏源极间电压UDS从零上升到最大值，漏极电流ID正准备下降， 这段时间称为电压上升时间trv。在此阶段的损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPhHxCfsO0gyYXAkeFkInMsvIe00mujqmjxOnvnKCJ0r6PzypoMtoztpriaBUn83icibbo8PLLeN526mYI6Fq391t0dVukF7vbkok/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_039_02cf13a649b1.png)
 
 MOSFET 栅源极间电压UGS从关断密勒平台电压下降到阈值电压UT时，漏极电流ID 从最大值下降到零，MOSFET 漏源极间电压UDS 保持最大值，这段时间称为电流下降时间tfi。在此阶段的损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPFtWCVu6FXibWrZUg8wiaulud30iaWxarJuWmfic9cdibIjxn6HdriaiaK6lKjxHoichrMhMR2mVIMxIFflM1BB8D5ukiav8mvuZcmyCpg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_040_f28946a0ca6e.png)
 
 所以在这一个周期内MOSFET 关断过程损耗：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMo1dmfZm9n3BbxDnQh2AMFjUDuH0C2VECzNeGGYSNAgQwXk2hRUlKIW1pzCmj2uYWI2EBHXyHuHoCt6WicTk6zzjy3icPoxtCWo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_041_b9733629237b.png)
 
 定义MOSFET关断时间toff \= td(off) \+ tRV \+ tfi。由于td(off)期间MOSFET 产生的是导通损耗pon，在pon−off中积分为零。则
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPsPloV3w9hyaHJW8uX5wGC6zHqODKyevxey5mo9WtCJDCdGxAJAshAG9kSCiaMr9hrndmJ1eVkAqwFrs2SdRfibibFh0oEBMUZrY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_042_4da80978ca00.png)
 
 同样式（3-11）只是一个周期的pon−off，将开关频率fsw带入式计算，最后可得MOSFET 的关断过程损耗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9Y2fdnwPhJ9WNu7g7IAG9aGpgmezsiaEgWTiah14HpjuhJYrUJt0P0CibFlZrFTApib0stnicAmeG0lRKl3ic5KcNscYWMAkBSaO7E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_043_8311862b60c6.png)
 
 综上所述，MOSFET 损耗为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM93sKF04ribZaF7WwYvsbJpdg2W2wKsncr56ypRGhicpiaS7DWsBhWsOw1OLpmsQWXo00j6uUeolFXtS3okTFYE6nKyI66ZpdCPU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_044_deced1b3424c.png)
 
 3.2.2 体二极管损耗  
 
@@ -481,7 +481,7 @@ MOSFET 栅源极间电压UGS从关断密勒平台电压下降到阈值电压UT�
 
 在MOSFET 关断时，负载电流通过体二极管续流，体二极管正偏，会在体二极管上产生正向导通压降，产生损耗为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOJ4M2KWG1jUFXUecHRVqpGxknnnW3LvHU5077uCFaPeGxYEibASNxrDkbxP0vVrL4iaeUL3NNMtbtp5cUib7Cz1NBw4Yr3NQm9F0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_045_528f84ffef65.png)
 
 其中：fsw为MOSFET 开关频率，IF为体二极管正向导通电流，VDF为体二极 管正向导通压降，tD为一个周期内体二极管流过正向电流的时间。  
 
@@ -490,19 +490,19 @@ MOSFET 栅源极间电压UGS从关断密勒平台电压下降到阈值电压UT�
 
 在MOSFET 开通时，其体二极管从导通转换成截止会有一个反向恢复的过 程，该过程产生损耗为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOwfXRSd3iaod4k7xfFN0TDPhPfp85SibHo2ychTwWwC7JhQHOlXhhkndcvDbRbR8VIsIdbGmlm5DmVaehLdP2mzibcdKPW4EjABE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_046_7df675820390.png)
 
 其中：fsw为MOSFET 开关频率，VDR为体二极管反向压降，一般可以认为数值等于工作时的母线电压，Qrr为MOSFET 体二极管反向恢复电荷，可以在MOSFET 的数据手册中查找到。  
 
 综上所述，体二极管损耗为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO90GK68W0cLCiblbMYKB5EXbCavQlU517Sp5s2aPUWwiaiadGtIWiadRAByaRHdJWHyjiczF23Fp38ibdAvyE6Fv0Dl5JA6xY34T8G4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_047_1b35b374518e.png)
 
 3.2.3 驱动损耗  
 
 全桥逆变器中驱动损耗，是由于MOSFET 栅极电荷影响，在MOSFET 开通和关断过程中造成的损耗。之前在第二章分析栅极电荷特性中已经进行了说明， 损耗公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP3JmQuOOSmypW5CEF23l2t8zztC2ztavN3dOMrW6jLDCDorNtTdVKibrlWsibIbiaYwf7OrdJkia06zeaXzFgQsQDn79XFlVEAaS0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_048_5e0c7fa72e4b.png)
 
 其中：fsw为MOSFET 开关频率，Ug1是栅极电荷量为Q1时对应的驱动电压，Ug2是栅极电荷量为Q2时对应的驱动电压。所有数值都可以在MOSFET 的数据手册中查找到，如第二章中图2.5。
 
@@ -514,11 +514,11 @@ MOSFET 栅源极间电压UGS从关断密勒平台电压下降到阈值电压UT�
 
 滤波电感铁损主要是磁芯损耗，磁芯损耗是磁芯材料内交替磁场导致的结果。 其损耗公式如下：磁芯单位体积的损耗pv为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvqN4ibVTePMicdMrWR3NNmbOoNmanPciaBpLic52TTsiaDibb8jHbrtK0K88H5TSTmkNLFJyj9VlbGXKWBCGC7PyCPZx090sKURrBU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_049_39bff41c2064.png)
 
 其中N 为电感的匝数，∆B0.2IO是脉动电流∆I0为0.2 倍的I0时的磁通密度变化 量。所以磁芯总损耗即铁损为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOC84yF4xiaV22EMHbUQK9tIacu47IFz7qGGEOicicCZ18s3zEMuqaExW1F5qd28bicncaVolkG4uC8vIyfRCMzQZpjI0BZg2ibDtDs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_050_cf6e9c7589b2.png)
 
 其中Ue为磁芯体积。  
 
@@ -526,23 +526,23 @@ MOSFET 栅源极间电压UGS从关断密勒平台电压下降到阈值电压UT�
 
 滤波电感铜损是电感导通时，电感电阻造成的损耗。其损耗公式如下：电感电流有效值为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMGwORkKLwkYL5yy5iap4CLWEjFMjDdiaqNJljU51sNJrbHDgrbRLhibRwbHqLPMg7DicXpMsicTuks1XWiaE74mL1tnhMrvj0ticicMKo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_051_f0dfb0b6bde1.png)
 
 导通电阻大小为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPQO4ic4sWE8VP1tWXYzOWMZicOXDHUdaAtDMVNQXMjpVuhYzQfdPp8ktorftPNNic6jNLazLj2y5CfvINDaKHK1AfEH5GOUXibQiaE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_052_6f6a7362578e.png)
 
 其中ρ为铜线的电导率，ι为电感线长度，S为电感线的横截面积。所以导通电阻造成的损耗即铜损为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPiaJrl4zJ8cwD8zicERibnGSzibRicZfEDHF3WYteq9W0Sp4LjbhmqmytJYULSDgKgGAboXru1hKia8UzUpeVrNTEGJiaicBY8hNicGSibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_053_deefdff02c6d.png)
 
 综上所述，滤波器损耗为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOynz7aXTGfS2Bkb1TlsiaeEibcGqHvVF5kA4M0dj1ahTWO5lQQVuD9G9mic6z1oBufGtcw4QWgkz0lJtBJGdIl9Ycqs9WW8bomO4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_054_cc19dbb95f97.png)
 
 所以全桥逆变器总损耗为上述四种损耗之和
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNpsTQsJcGbmkftSlNfIelibnMVpupbAn8T7LoohIM82EaJuY2bqwNiaKxdOmd5dSqDut1Ig3EUXuSVo8kIadcyFHrZfgV22guRE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_055_539658e0a495.png)
 
 3.3 本章小结  
 
@@ -572,45 +572,45 @@ Si MOSFET 型号为IXFK32N90P 和SiC MOSFET 型号为SCT3060AL。两种 开�
 
 （5）滤波系统消耗的功率小。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNTkrr67K3PMicKySnNwOEXLxPghMthInyGduAiaw5g10XaeLLj4AARYNjXibyRUM0gicmI1Vr0ySGohmvQVRJ697LGzbGztC62D8E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_056_fd6f2a47b05a.png)
 
 当加入负载R 时，滤波器的传递函数可以表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOqiblljVUzG3s2pic9d3TMq22a2lLBJjOkI2TY1MKbqBUGBGQKw76z3ialEspjnfpGXhUn9Kt0DfeyvrlwAeQosTgXTQcmtI8Mw8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_057_87467e966ac9.png)
 
 式中ωL为谐振频率，ξ为阻尼系数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO56rPAChX0OR2Nh3bwUCvv0bgdicGK8F2JvVb45Xrl1YHGaCrviayfpRH7kaIFdVDX4V3Z2RTbTeCxEQ0fyGH3DazhRdm4zodkM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_058_4d4cfbe2daed.png)
 
 LC 滤波器的无功容量P 表达如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPBu5YCNG6VAic24EnvasvA7JnljVmGUSZq2ALnB1pG58z8zK9Mhgf0UGTxhAm1y60XCuxicPgI9ibuq2g9LhIfnSoPzSpOHPgQcM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_059_72ace7537945.png)
 
 通常取 10 倍截止频率为载波频率：10fL \= fs  
 
 则有：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNSFQDMQRW72SKzGawnaHicGlIZEW7QReX4tozGLibpFF8dTwGaiaXWV0Apduhxib1hMfDUibPWYG8PyaIHFcalukl9QfNXiaQXgzk3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_060_8d89f3abcccb.png)
 
 为了间接减少上述设计条件的不利因子，我们计算时取无功容量Pr最小，那么Pr对C 的偏导数等于零。于是有：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO1EwGT0waQVgV77lZiby0370wShTRnF2Oclhic77ZHuNzUmrBO0T8guicwdXXicvRQ22vz4TYBjoYFmgmgXV0yZVEGOc4ZVGzibczM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_061_cef69d24fee1.png)
 
 所以：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNIyiaicibQD1yag18lZ9mIiaIF00dR69XTOmQ7JY4vvU7G1KM0ChdaXo20picPPA0k2qLH6fUWx6dsAMlsxianmQdibiaq8PsZg1DHlSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_062_15369b43f068.png)
 
 由式（4-6）可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOaBib6GjicwSC3H3h9YDHRzlhuWh3Qbm9YtktF9htKka0J3OZtva9AUtpyIAWt7KyOysNib63oOzzWvM5ianpVRMCL7w7KbsZSwyI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_063_c63227cad93e.png)
 
 在式（4-10）和（4-11）中，P为负载额定功率；ωs \= 2πfs，其中fs为载波频率；U为额定输出电压有效值。本文设计逆变器P为2kW，输出电压U有效值为220V，输出基波频率f为50Hz，载波频率fs为20kHz，直接带入公式（4-10）和（4-11），有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPunDp6Fu4qDDyZibw28HdcWLJibeKqaXCpn9jjGFD707JhUueDCbXibbgKdiapOzbHWbYiaVsHrCEh9lMibph7c1VAZzPBTVDEyjMEs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_064_59890244db9b.png)
 
 在保证电感和电容乘积一定的情况下，可以通过适当减小电感值，来减小滤波器整体的阻抗，进而减小滤波器的损耗，所以在已有规格的电感和电容中选取 耐压630V 电容值为2.2 μF的CBB 电容作为滤波器的滤波电容，选取电感值为2 mH的铁硅铝电感作为滤波器的滤波电感。电感和电容如图4.2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTBicqSTOnFV80FlpUtOAgAPIDxmqmlrLXKPyicV7lwqXNibQ8YTVqqFvBye2PoiaZttWlK4wlSruhQglicxccUIsVUMI05GaROnlk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_065_8062c3d2663d.png)
 
 4.3 驱动设计 
 
@@ -618,27 +618,27 @@ LC 滤波器的无功容量P 表达如下：
 
 本文选择EG8010 芯片作为全桥逆变器的控制芯片，其实物图和引脚图如图4.3（a）和（b）所示。该芯片只需要使用单5V 供电，可以设置软启动、死区时 间、输出波形频率可调，并且可以选择单或双极性SPWM 输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNP4ichdHC6LbI6Ps5VMmByOsDbS4w0hhjBhNDRAv0j84D8iaZIztkvIibH2VMyqF8l4OoIxkXRib1ACUrq45noNiahaKbTF7RBu5ib0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_066_85abe3fdf704.png)
 
 同时该芯片采用CMOS 工艺，虽然工艺复杂，但可以有效的降低电路体积、 降低工作中的损耗、对外部环境的适应力强还可以增加电路整体的响应速度。图4.4 为EG8010 芯片结构框图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPxsnNsceQkMaXLpW1icv9G9QBgnibQKqUx5CQFuY38suviccdicib7NZ9f2xoTRoiaSFGy7pnmVvIibNovcrLU6HcVQYXujla9HkFXkI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_067_475b643a23fe.png)
 
 该芯片应用领域非常广泛，除了用于单相纯正弦波逆变器的设计外，还可以应用于不间断电源UPS 系统、中频电源、单相电机调速控制器、单相变频器等。 表4-1 为EG8010 典型参数值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMgv6lOzibwPl97vxUk0EFyxDTJmqXZoqBKnicJicZooXbfa391Ynqe5JIWGXCfgmiaWXHL4lQiat7NjxWicialPyKtJpicjRkVX1NNMS0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_068_953cbe381609.png)
 
 4.3.2 驱动芯片选择
 
 IR2110 是IR（国际整流器）公司生产的最有代表性的控制桥式电路的驱动芯片，只用一个芯片就可以同时控制桥臂上下两个开关器件，具有相当高的便利 性。并且该芯片响应速度快，耐压高，适合绝大多数的逆变电路，故本次设计采用IR 公司的IR2110 作为驱动芯片。图4.5（a）和（b）分别为IR2110 实物图和引脚图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPS5TC4ticwJ4Wgb0yPmKtJEFIo9iaehMy8l8SyfcH49c7iaoic4icAgU05RQVfxv4ibTJYglJs7f2jTRY5E578vib7vua3mBAaNzbejQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_069_d6641b052290.png)
 
 IR2110 应用范围广、工作频率范围大，最高可达500kHz。其逻辑信号端和 功率驱动端采用5V 和10~20V 分别供电，兼容TTL 电平信号和CMOS 电平信 号。逻辑低端输出电平由外部提供电压源决定，逻辑高端输出电平采用自举电路提供，不需要再使用另一个电压源，简化了外围电路的设计。  
 
 IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和关断都会预留延迟时间，保证电路的稳定性。关断延迟时间比开通延迟时间少25ns，既能保 证MOSFET 快速关断，又可以给MOSFET 开通留够充足的反应时间，防止同一 桥臂的开关器件出现同时导通的情况，能有效的避免短路情况的发生。IR2110 典 型应用电路图如图4.6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNJG4FUmn92vkroqHGvHkicwAFic6EiaQQdLiaA1SSlxp9TY9wMoUEspKklY7PfL7iaYYADqACJ2ibichQaHOxDib5YBe1LyicmnjCBJMOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_070_4e3c2999f1c1.png)
 
 图4.8 中C1 和C3 为滤波电容，分别连在逻辑信号端和功率驱动端的外部直流源和芯片之间，利用电容的充电来防止外部直流源因为电压波动而损坏芯片，R1 和R2 是驱动电阻。C2 为自举电容，外部直流源 VCC 在上管S1 关断时通过二极管D 对C2 进行充电，在上管S1 需要开通时，释放存储的电量为S1 提供开通所需要的高电平。C2 的选取需要符合设计需要，如果C2 容量太低，其储存的电量不足以驱动S1 开通，如果C2 容量过高又会导致充电和放电速度变慢，影响S1 开通和关断的速度。在这种情况下长时间工作会影响到整体电路的稳定，甚至还会造成驱动芯片和开关管的损坏。C2 的电容值通常和开关管的开关频率成反比，本文开关管工作频率为23kHz，选取10μF 的电解电容作为自举电容。  
 
@@ -648,7 +648,7 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 驱动电阻对驱动整体的稳定性起到重要的作用。图4.7 为MOSFET 为等效驱动电路图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOb3vicice2DkiaGMicGMJYzM4S5M6NrC3hUMicicvsz0P2pCC802Wibj9wAXVPp3vTWApYS5LlJlpk9BicROavHSHpe1zpSopMtcuKNj0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_071_ab021d91486a.png)
 
 其中，L 为PCB 板线路中的电感， Rg为栅极驱动电阻，Cgs为MOSFET 栅源极间寄生电容，Cgd为MOSFET 栅漏极间寄生电容，Cds为MOSFET 漏源极间寄生电容。  
 
@@ -660,19 +660,19 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 驱动电阻下限值的计算原则为：驱动电阻必须在回路提供足够的阻尼，来阻 尼MOSFET 开通瞬间驱动电流的振荡。当MOSFET 开通时，VCC对栅源极电容Cgs充电，如图4.9 所示。可以写出在s域内对应的方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPIhUd1HTJ26j6Qiasl14L4EvZwmZnQO3bubryspP9WIAaFtEEnQXCy6pCAM4Uvl7UTZpiaDkNaW1yOibhc7Q2L8CuZAsic3uLuL8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_072_bb422783a89c.png)
 
 根据上式可以求解出ig，并将其化为典型二阶系统的形式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMniaib5loK1b206xIkPer7hoTK7kIgohJFGYH7hn4HK7UJxZuiagDrGNK6xgiaHHYCjXEEaTXDyTfRNGicJHnDWC5M5HrBksWjCNY4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_073_bb0802b2a3bd.png)
 
 根据上式可以求解出该二阶系统的阻尼比为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNpTWMAxtPZfoLnia6MXoicmRAGyaCocEzOQMLQLdycg6MQDV59869fZBRgjTZo06IMhtA01trhK3sKk86KNj4tnMRFb3bS1Qu4E/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_074_937fea62ee55.png)
 
 为了保证驱动电流ig不发生振荡，该系统的阻尼比必须大于1，则根据上式可以求解得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPTVCTz5Ciczpugsj29CdziauMDwGTLPKFickTEwGNlRicOqUsYZIsKD3NDqvCCRjUicrUuo2Ro9b6CeqcjRsFqicDSewIEGBGj5Xic5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_075_eecafd650596.png)
 
 由上式我们得出驱动电阻Rg的下限值，Cgs可在MOSFET 对应的数据手册中 查到。  
 
@@ -682,19 +682,19 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 在MOSFET 关断瞬间，其漏极和源极之间的电压会迅速升高产生很大的dv⁄dt，根据公式i = C(dv⁄dt),该dv⁄dt会在Cgd上产生较大的电流ig，如图4.9 所 示。该电流会流过驱动电阻Rg，在 MOSFET 的栅极和源极之间产生一个电压，当该电压高于MOSFET的门槛电压Vth时，MOSFET会误开通，为了防止MOSFET误开通，应当满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOvcLK7xz49NnuDdTgXJKClY9N1hOqtoMkJ743VSwDTtvNZceoMbO3hjumITj1PTziaKcZOkEVoGPq9C3lAw9YianUdgzjRfzrC4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_076_6a81c44a9848.png)
 
 由上式解得：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPG5sZ7TK3ve3bEmhgzia7y9bCAwE8wqqSneq6HQCFIYRqFSicwasR9o6dHP1CC2xgmAVnfNBy8DjOhTz4icrUyRaazq9reTZCKIE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_077_2b9c419753d7.png)
 
 上式给出了驱动电阻Rg的上限值，Cgd和Vth均可在MOSFET 对应的数据手册中查到。因此，综合上述公式最终得出驱动电阻Rg的范围：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMqpuMMrVXAXvZEF2dA5QoBjmhgjofIHJriaXkprJrwbHbvibHWsrFZb3LVe63tjXHwsHAZZfZetAPySFuaHj3XFziaq4aT2pZBjo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_078_8f2afba0847c.png)
 
 把数据手册中需要的数据代入计算，可解得驱动电阻Rg的范围为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjNLuaPNiciah0WXj6cOl4JarrgejnKmuA1w76iaIADTic9TJict77huKslZBI81libkXr3aWSDAicDamvvBEUexAWNM7msxTaY49qfE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_079_bbd69df836fa.png)
 
 同时从上面的分析可以看到，在MOSFET 关断时，既要防止MOSFET 不会误导通，又要保证MOSFET 快速关断，可以适当减小驱动电阻的值。所以结合实际情况，在已有规格的电阻中选取电阻值为5.1Ω的电阻作为驱动电阻。 
 
@@ -708,7 +708,7 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 为了解决这个问题，可以在MOSFET 的栅极G 和源极S 之间并一个大电阻Rg，阻值通常为10kΩ 或20kΩ。如图4.8 所示，该电阻可以在母线有电压而驱动没工作时泄放掉MOSFET 栅极G 上的电荷，从而防止MOSFET 误触发。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMBUIq9yIvZXQicwOzT8t8Qu5hdgYspCgVwqXZEQCQ84UvY6YVy8mo1zzjzSae7JwcnkXvqB4uibW4hoGmamZgnHGNH3PwUr8k0M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_080_888ac36dbf4e.png)
 
 （2）增加栅极电容  
 
@@ -716,7 +716,7 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 为了解决上述问题，可以在MOSFET 的栅极G 和源极S 之间并一个小电容CG，如图4.9 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMsTu9EKsuCiaFjMQVh84PdVzibpFRLj47G1sT2gVcMZEvu9c2A6XHxyvZP5sry2ewBIhiau3cmDia8ErVpAKMpNXSUnTuMiaZ8O6ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_081_fe05c66945f8.png)
 
 首先并联的栅极电容CG可以和驱动电阻Rg构成一个低通滤波，可以滤除高频干扰；其次并联栅极电容CG后，MOSFET 的栅极输入电容等效为CG和Cgs并联,相当于增大了输入电容。在米勒平台时间内，栅极电压维持不变，此时有一个电 流会注入栅极，输入电容增大会增加充电时间，从而减少了dv/dt；同时并联栅极电容CG可以降低开关管的过冲现象，能有效的防止MOSFET 误触发。  
 
@@ -724,23 +724,23 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 在上一小节驱动电阻设计中提到，为了防止MOSFET 在关断时误导通，需减小驱动回路阻抗，来保证MOSFET 快速关断。但过小的驱动电阻会引起驱动电压振荡，为了解决这一问题，可以在驱动电阻上反并联一个快恢复二极管，如图4.10 所示。当MOSFET 关断时，关断电流会从快恢复二极管流过，这样既保 证了MOSFET 的快速关断，又使得MOSFET 栅极和源极之间的电压为快恢复二极管的导通压降，该快恢复二极管选用FR107，导通压降1.2V 远小于MOSFET的门槛电压，有效的避免了MOSFET 的误触发。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPc9lcyqa0x92HkB07JXUl3NGjIJVcA05wlVCUbANP4ec18YPsiay9oMzAweSFiaPQ9k45Pvhichop2dsDuPccDUkyXINCbC0ak9s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_082_5d3bf5598264.png)
 
 4.3.5 驱动测试  
 
 将驱动上电，用示波器采集SPWM 驱动波输出如图4.11 所示。可以看出从左到右脉冲宽度在逐渐变宽，完全符合SPWM 调制的预期。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM19CLX7G4abDVwXESGPWXUYNEiaJjyY8OmrricvVtHUQKeefGHJqpgrq57v2hhoQAVB4auTRicv5n9ZZvPTS30fgUzWqZN2Dogac/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_083_357dccb0face.png)
 
 我们将SPWM 驱动脉冲用RC 进行滤波，如图4.12 所示。其中，R 选取阻值为5kΩ 的电阻，C 选取容值为0.1μF 的电容。得到波形图4.13。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOz0icM6C7owZvo4law2kAVeGhN21HnoFxADiamkgicQMich1QRq6QXlZrnIo9cxjgn5yZyiaZEialrj7a6rX3ic3L4rpGkLFuQdKTfXM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_084_f0c0207a32dc.png)
 
 在图4.13 中可以看出方波脉冲经过RC 滤波变成正负两个正弦半波，该波形就是SPWM 调制的调制波。在单极性SPWM 调制中，调制波应与基波周期完全对应，如果出现相位偏移就会导致输出波形在过零点有个振荡平台。  
 
 图4.14 为同时测量基波与调制波的波形图。可以看出基波与调制波相位重合并没有相位差，说明该驱动完全符合了设计要求，可以正常使用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNP7ZIYFb4wgtEvRSql4AIKvuaeKBGzwbbYzJJFQhVh4XlAgGI2XJXngSDKVrx07mE9ibicDPWnFcwn7lWF7Yl16iaxyGqXKpGdrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_085_998498914ace.png)
 
 4.4 反馈电路设计  
 
@@ -752,7 +752,7 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 本文采用单极性SPWM 调制方式，S1 和S2 所在桥臂做SPWM 调制输出，S3 和S4 所在桥臂做基波输出，此时滤波电感需要接在SPWM 调制桥臂输出端，同样电压取样反馈电路也需要接在SPWM 调制桥臂电感输出端，电路结构如图4.15 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMAE3jLIn5IlCUPUhqW9tpESTiclrvd95sRWraNqpzFlwEnBr6wPiaG0fQ6mCNCcFtAUia07uqExdFYYgzJomnlBZFa4oPgmupjDs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_086_5d5a18bec756.png)
 
 电压取样反馈电路采用阻值为10kΩ 的电阻与阻值为10kΩ 可调电位器并联再与阻值为200kΩ 的电阻串联，200kΩ 电阻另一端接在SPWM 调制桥臂电感输 出端，调节可调电位器的电阻值，可以改变分压电压值。EG8010 控制芯片的引脚(13)VFB 用来检测输出电压，测量出电压峰值转换成信号在芯片内部与基准值进行比较，如果输出电压过高，比较出的差值过大，芯片内部逻辑就会减小输出电压。同理如果输出电压过低，比较出的差值也会过大，芯片内部逻辑就会增加输出电压。 
 
@@ -760,13 +760,13 @@ IR2110 能精准控制其逻辑信号的开通和关断，逻辑信号开通和
 
 EG8010 控制芯片的引脚(1)IFB 是通过采样电阻检测输出电流，防止电流过大损坏MOSFET，电路结构如图4.16，采样电阻选取的是阻值为0.1Ω 的康铜丝 电阻。首次过流检测时间为600ms，当引脚(1)检测到负载电流偏高超出逆变器应有的输出电流时，会通过芯片内部逻辑反馈到芯片SPWM 输出端口，将驱动信号输出电压输出到低电平，进而关断全部的MOSFET，达到保护电路的目的。当首次进入过流保护16 秒之后，控制芯片会重新将驱动信号输出到高电平打开MOSFET，在100ms 内进行第二轮过流检测。若仍然检测出电流过大，控制芯片会再次将驱动电压输出到低电平关断全部MOSFET，重新等待16 秒后再次开通MOSFET，再检测一次电流大小。如果可以正常运行1 分钟以上，控制芯片将保持驱动信号开通。如果连续5 次检测到过电流，控制芯片将直接关断驱动信号不再开通。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOks9jTZWScg54VqBUUC3KogWcrGHm6Aand091Rg14SXggcvKyurxhER7uKaC8h3cUs0vsbv4mNFREytoWnknjTrcsV7Cg16Eo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_087_2b7b35c32858.png)
 
 4.4.3 温度检测反馈设计 
 
 EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器工作温度过高，影响工作稳定性。搭建外围电路如图4.17 所示。温度检测选用25℃时阻 值10kΩ 且热敏常数B 为3380 的NTC 热敏电阻，与一个阻值为10kΩ 的普通测量电阻串联，组成一个分压电路。当工作温度发生变化时，NTC 热敏电阻的阻值会发生改变，串联的两个电阻分压会发生改变。控制芯片TFB 引脚会检测出电压的变化，通过内部逻辑计算出温度的数值反馈给SPWM 输出端口，若检测出温度过高，控制芯片会采取过温保护，SPWM 端口将关闭驱动信号，关断全部MOSFET 保护电路。当温度符合工作要求时，SPWM 端口会打开，逆变器将正常工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPr4QvWyxDtmoWtbulJlKmKU2icyqem0qCnC4iakTq3bKG54S4bC9ezPaQ95Kj6nnxVd7by1acvFQz3ZPYXtJXlTmYhN21nB2SPE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_088_7863d879011a.png)
 
 4.5 主电路优化 
 
@@ -778,7 +778,7 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 （2）电容C1、C2 可以在一定程度上稳定母线电压，防止桥臂MOSFET 在 开通或关断瞬间，对母线电压进行冲击。同时电容C1、C2 还可以起一定的滤波 作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOE5jy5bfJxtLbB20UwEPx1nn0ZmN0XqLun8Sj3fJMfD7FEnwxUhC3TGdBEUKOsmfgGfYdxialHiaGq9BQ8RLInbO1u9oFkPCiaM8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_089_3043115e0f59.png)
 
 4.5.2 增加缓冲电路  
 
@@ -786,7 +786,7 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 常用的缓冲电路有三种：C 型缓冲电路、RC 型缓冲电路、RCD 型缓冲电路。 本文选择RCD 型缓冲电路，如图4.19。当T 开通时，缓冲电容C 会通过电阻R放电，电容C 两端压降接近于0；当T 关断时，快恢复二极管D 将电阻R 短路，负载电流会通过D 向缓冲电容C 充电，对负载电流进行一定的分流，缓解了T的负担，减小了dv/dt。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMZ98Q2yGxXeaqx5dRH2WYseQCG4F5pdhibDMiabEIY5fcH73G9JyMv4xkSfZnuiaBy588NnFsTAmQrwicI6D49wjMibvbyGXWptFA0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_090_d50bd3e4c053.png)
 
 4.6 本章小结  
 
@@ -794,29 +794,29 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 第五章全桥逆变器实验分析及效率对比
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOiclAPYM5xofePnpuGicPP82cDtpokEEtO4wULSibicEWib7BKAW0qP5StKwFJlI3oc64o3DtbEOvg7A0JhyJOjia77dnf5yzIGIccQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_091_91161cb6d741.png)
 
 本章通过前面几章的工作原理，电路设计，参数计算，搭建出实验平台，对Si MOSFET 和SiC MOSFET 的全桥逆变器进行波形的采集、分析及效率对比， 来验证SiC 的优势所在。图5.1 为搭建的实验平台，图5.2 为全桥逆变器样机。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPMY1DaRvUCI08BibK8jFtLcQJ9yMaQMtlKJVrhS9ehu0vJd9dz2Jl5vL6icZibicveomlNoARvgPiacpsgtjqnzvS01b4TYhv98FAo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_092_3f9b8514a5bb.png)
 
 5.1 Si MOSFET 与 SiC MOSFET 在逆变器中工作状态对比  
 
 在进行逆变器整体效率对比之前先分析一下Si MOSFET 和SiC MOSFET 在全桥逆变器中的工作状态，通过对比二者工作状态的不同，体现出SiC 器件的优 越性。选用器件分别为Si MOSFET 型号为IXFX32N90P，SiC MOSFET 型号为SCT3060AL。测试条件如表5-1 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMJwbicN5gLibHS4qI4jQu1wOCicicSsMS1V5n32ib1qOFw5Pv8oRibvib9xYT2N7KFonMbSLnKrHrdC29AcnezBcDxMk3c2uWvwylxNY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_093_362e9ff8c607.png)
 
 5.1.1 Si MOSFET 和 SiC MOSFET 在全桥逆变器中开通关断对比  
 
 搭建好SiC MOSFET 全桥逆变器，用两个探头同时采集SPWM 调制所在桥臂上下两个MOSFET 的漏极和源极之间的电压VDS，波形如图5.3 所示。需要注意的是采集波形的两个探头至少有一个要使用差分探头，因为普通探头的地线和 示波器的地线是连接在一起的，同时这个地也通过电源插头连接到了市电的地线。如果两个探头都使用普通探头，在采集时波形时两个探头的接地将会被短路，导致示波器显示不正确，在电压过高时，甚至会烧毁示波器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPRkhKYeicexOicdwHicEf97s4EOJ3zyKRlOnRjLX1wAmwB2dsKdsMajO1ONvr11HZT7scAvGHNRSOzHV0iaA1SM8amXibsLkKG8mYY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_094_29f84c173904.png)
 
 在图5.3 中，可以看出同桥臂上下两个SiC MOSFET 在开通和关断时都没有振荡和尖峰，电压波形非常干净，纹波也比较小。同时两个MOSFET 开通和关 断互补，符合SPWM 调制。  
 
 其他条件都不变，我们将同桥臂上下两个SiC MOSFET 的其中一个换成Si MOSFET，再次进行测试。同样是采集两个MOSFET 的漏极和源极之间的电压VDS，采集到的波形如图5.4。可以看出，将一个SiC MOSFET 换成Si MOSFET之后，并不会影响到原先SiC MOSFET 的开通和关断，其电压波形依然很干净，没有尖峰和振荡。但是Si MOSFET 在关断瞬间，即体二极管的进行续流时，电压波形有着明显的尖峰，尖峰电压最高可达到母线电压的两倍，会对关断的稳定性造成一定影响，同时也会增大器件的损耗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMtflwfflPU6ymzEAAibJKZBgXdMF72OW3icCRCoutfPFXskQZAIGE8JGLWKInkvTv6TcdOpEric7V1bPVCqZ44gan2GZxL8jSya4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_095_70cc1f50f7f0.png)
 
 通过图5.3 和图5.4 的对比发现，无论是Si MOSFET 还是SiC MOSFET 在其开通时电压都无尖峰和振荡，说明驱动电阻设计合适，在驱动回路提供足够的阻尼，抑制了MOSFET 开通瞬间驱动的振荡。同时SiC MOSFET 在关断瞬间， 电压没有尖峰和振荡，波形比较干净，但是Si MOSFET 在关断瞬间，电压有明显尖峰。在第二章中提到Si MOSFET 的体二极管的门槛电压要比SiC MOSFET的体二极管的门槛电压要低，所以Si MOSFET 体二极管开通要比SiC MOSFET开通快，而且在同电压等级下，Si MOSFET 体二极管电流要大于SiC MOSFET体二极管电流，导致Si MOSFET 在关断瞬间的di/dt要大于SiC MOSFET 在关 断瞬间的di/dt，当di/dt过高就会产生电压尖峰。  
 
@@ -824,11 +824,11 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 在同桥臂一个是Si MOSFET 另一个是SiC MOSFET 的基础上，其他测试条件都不变，只在Si MOSFET 的漏极和源极之间反并联肖特基二极管。肖特基二 极管选取SiC SBD 型号为C3D10065A。参数如表5-2，可以看出该肖特基二极管耐压和耐流均符合实验要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMY4tnL62I8RruOa3zia94RQ8KV2BWppRia2wupoM7GGa0nyTZwfZicydQaDtL61DUMv9BLp1BVyPw3RxzxsrVNibVQSrhSK1GRZzk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_096_ac46a3735a67.png)
 
 采集同桥臂上下两个MOSFET 的漏极和源极之间的电压VDS，同时为了更细致的观察，将示波器采集周期调大，观察MOSFET 更多的开通关断波形。采集 到的波形如图5.5，可以发现SiC MOSFET 开通和关断瞬间，电压波形依然很干净，没有尖峰和振荡，Si MOSFET 在反并联SiC SBD 后在开通和关断瞬间，电压波形也很干净没有尖峰和振荡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOF7OpIXDm0xs0ib1hk08FqShIra7cDibjUOUzFjvV7X21lfgArnN0vu0KLRzzGjvxrrxibVEoB62Rj4v5959FZ3YZU0f9G2EmJt0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_097_ab8e72ace7e4.png)
 
 通过图5.3、图5.4、图5.5 三组测试对比，可以发现在相同的条件下SiC  MOSFET 由于其器件本身的优越性，无论开通还是关断，电压波形都很干净，纹波小并且没有振荡和尖峰；而Si MOSFET 由于自身体二极管特性太差，关断时会产生过高的di/dt，产生电压过冲尖峰，进而增加了器件的损耗，这一现象可以通过反并联肖特基二极管来解决。
 
@@ -836,13 +836,13 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 将同桥臂两个开关管一个是Si MOSFET，另一个是SiC MOSFET 的逆变器， 在母线电压为100V，20Ω 电阻负载下工作1 分钟，用热像仪采集二者的工作结温。图5.6 为采集到的热成像图。可以看出在不加散热片的情况下，即使仅工作1 分钟Si MOSFET 工作结温已经达到了72.4℃，而SiC MOSFET 工作结温只有51.9℃。SiC MOSFET 的温度特性要明显好于Si MOSFET。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPGiavia7W73VJdWalwK2RicBx9UQAXSjBQgqNomq4oB7I4BqCBe3qPARx4jY81icD6jr6BCBDTmicXiamfGokESMKBJyxjwxwnn40uM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_098_f48a903ec667.png)
 
 5.2 Si MOSFET 与 SiC MOSFET 逆变器实验波形分析  
 
 分别搭建出Si MOSFET 逆变器和SiC MOSFET 逆变器进行对比实验，其主要参数如表5-3 所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPqZhiaaI6eFHx0mwVlaeZuYcwcaQVnKXwhJupWEqS5Vxx8icQQyzsTwO5xVpRekvsBV1ZIXEPUpiawnSEexBRPj7XicDo4hPGhWKI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_099_e17a239cd1ee.png)
 
 由于死区时间会对输出电压和电流有影响，在进行Si MOSFET 逆变器和SiC  MOSFET 逆变器带负载实验时，统一使用1μs 的死区时间。 
 
@@ -850,13 +850,13 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 图5.7 为Si MOSFET 全桥逆变器带负载在各输出功率级别下的输出电压和电流波形。可以看出输出的电压和电流都为标准工频正弦波、无畸变，过零点处也无振荡。输出功率为500W 时，输出电压和电流几乎看不到纹波。在输出功率 为1000W 时，输出电压和电流在其输出峰值处可以看到有微小的纹波。输出功率为1500W 和2000W 时，同样是在输出电压和电流的峰值处有纹波，而且比输出功率1000W 时稍大一些。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMcRznPuoE2KoXEhic1PyicdV1vJFPbhKOzNdBPR8a4qPOrv7fc9pkI2PfwibCnWqp7ibEwBbqic5ib5XbzQr4uXCHZ1yk9RpnG852ns/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_100_2a2c5d180b43.png)
 
 5.2.2 SiC MOSFET 全桥逆变器实验  
 
 图5.8 为SiC MOSFET 全桥逆变器带负载在各输出功率级别下的输出电压和电流波形。输出电压和电流同样也是非常标准的工频正弦波，纹波程度和全Si逆变器也十分类似。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPGIzfNPdclERosTfL2fDiauRztWcNpK3ScTpmE216cxCDu0KDicPQ186Fn1zqoq2PneYIqxvib0U4DJpGXdU8lY32bdceCOsyQjY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_101_6499bb5b17e4.png)
 
 综上，无论是Si MOSFET 搭建的全桥逆变器还是SiC MOSFET 搭建的全桥逆变器，输出波形都是标准工频正弦波，波形十分干净，纹波小。但是对于长时 间工作的逆变器，其波形好坏不仅要输出波形符合正弦波，还需要输出波形的总 谐波失真小。 
 
@@ -864,17 +864,17 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 总谐波失真（THD）是衡量逆变器输出波形好坏的主要标准，反映了输出波形的失真度。THD 数值越大，输出波形的失真越严重，高次谐波分量越多；THD数值越小，输出波形的失真越小，高次谐波分量越少。计算公式如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOzNIGuvYiahqh45AW7gTDmGUMDCicNaZjubn4jN4iaMIuxq2ic2AypkfbscdoahMWdKD4KDaQVIWmDjMzGicRrvOC1PdYCp0kGKKYI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_102_8409285e43dc.png)
 
 式中U1 是基波电压成分，I1 是基波电流成分。U2、U3…Un 为整数倍的谐波 电压成分，I1、I2…In为整数倍的谐波电流成分。  
 
 将SiC MOSFET 逆变器输出功率500W 时，示波器采集到的电压cvs 文件导 入MATLAB 中，利用MATLAB 中powergui 模块中的FFT 分析工具对电压波形 进行分析，如图5.9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPI1ju6dia4eaxaztsjdjOGuCxTLqVdHBRDK3Jib1GibNNJyhnaqI1ZosTialaky6viaRxKX8MnWvJDIt4BiaOwBT2MFq0U8GIBW7JJk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_103_ddf7bc8d6242.png)
 
 可以看出电压THD 为2.28%，失真率非常低。同理将图5.7 和图5.8 中采集 到的电压和电流波形依次导入MATLAB 中进行FFT 分析，将得到的数据整理成 如下两个表格。表5-4 为Si MOSFET 逆变器和SiC MOSFET 逆变器电压THD 对比，表5-5 为Si MOSFET 逆变器和SiC MOSFET 逆变器电流THD 对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLOxLjIC0PrtnUZ4lH2D1rZgZTjsyYPdV7DxjatwueK2NhcteAwicra0fdsxyLX1GNEGXxh8lQK83f4HTjCcrVfict6VxGWrlzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_104_c790e3214301.png)
 
 通过上面两个表格可以看出SiC MOSFET 逆变器输出电压和电流THD 要比Si MOSFET 逆变器输出电压和电流THD 要小，输出波形失真度低、高次谐波含 量少，更适合长期工作。 
 
@@ -896,7 +896,7 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 图5.10 为输出功率与效率的关系对比图。可以看出同桥臂两个开关器件均为Si MOSFET 的情况下，其效率最低，效率峰值仅为95.3%，与其他三种情况有着不小的差距。将同桥臂两个Si MOSFET 反并联SiC SBD 后，抑制了Si  MOSFET 关断时的电压峰值，降低了关断损耗，使其效率有1%左右的提升。同桥臂一个是Si MOSFET 另一个是SiC MOSFET 的情况下，其效率在输出功率1000W 以下时与两个Si MOSFET 反并联SiC SBD 差不多；在输出功率1000W以上时，其效率有着0.5%左右的提升。原因在于输出功率越大，SiC MOSFET 器件的优越性越明显。同桥臂两个开关器件均为SiC MOSFET 的情况下效率最高， 效率峰值达到96.8%，而且轻载效率最低值也能高于桥臂两个开关器件均为Si MOSFET 情况下的效率峰值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM3MromrdERFcmXtwFIUc1UDqCtKTrcgfbRPDaPuLDeY8mNmnXfKs1MfLR8aciaLSLtyATVqvd30M3YicxDficiamJiaXKMMP4njkTs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_105_b7cbfeb24526.png)
 
 5.3.2 死区时间与效率的关系  
 
@@ -904,7 +904,7 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 图5.11 为死区时间与效率的关系对比图。可以发现4 种情况效率变化趋势是一样的，效率都是随着死区时间的增加而降低。从整体上看，同桥臂两个开关器件均为SiC MOSFET 的情况下效率最高，在300ns 死区时间下，效率达到97.3%。 同桥臂一个是Si MOSFET 另一个是SiC MOSFET 的情况下效率要高于两个Si  MOSFET 反并联SiC SBD。同桥臂两个Si MOSFET 效率最低。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPnrp6LHV7h8CUibaWj2eNM3CyRHnuNIz7CkDib1vwr88M4EQQQXW38J9Y8lM1evKrzF6Be0R4HZOeKf2yV0fyiatibdKHnE5tdono/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_106_8efd2a841305.png)
 
 5.4 本章小结  
 
@@ -936,14 +936,14 @@ EG8010 控制芯片的引脚(15)TFB 用来检测温度变化，防止逆变器
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpP3J9wW3Qjy8ShWcWbyLq8GroWDkOkRCWZgqEjB34ehUWkhdbmyv2DQZWIOCffsCTUnHPTMic0UaExibh6EpUsry8JyOM5OLfA9w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_107_5a869c9b18e8.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMtatXxJlK3Nb3NZaic7ia1cOAFPVVv5CXW0Wm6iboa4Niaw5UeD1tJiacoa6uUI6kbUlN3eqbIpPIxRQM8licQw0Hr07NDoyK3RLrcI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_108_80f34a1b9fb3.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNUBpI5jJM7H8ODM87DTz1icfia1ibrJFcbPnOMfiaNXqyns4eNx6icUj7Rhu1Ymvn5NBe7hxwBJicDiaPicdalw7ic5AaXcLKkImbxic4Kc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_109_283da619e55f.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPV3cWiaWtJUiczsMibkr2ROhz6IfZia4YibqJHuDKIGHKiacbdHNHp9SN1er0TlybNNeJSkL1orZm35JRco9wBmOibDXBMvwXCQKg75w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于Si_MOSFET和SiC_MOSFET全桥逆变器的损耗分析及效率对比_images\img_110_ad36cfc6e711.jpg)

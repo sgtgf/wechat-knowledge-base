@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RAPY408LiadCVmdsFuH8y55WpYEicgJP1E8OCmwSvF5wPY1brSUPTicaicNvq1G3mPvicNOI04DBmobSA/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\中国矿业大学郑长明_董萱萱_等_基于虚拟电阻有源阻尼的LC滤波型永磁同步电机系统预测电流控制_images\img_000_71a59b4f35cf.png)](https://www.fafee.org.cn/)
 阅读提示：本文约 1600 字
 > 在远距离供电和宽禁带SiC基逆变器馈电的永磁同步电机驱动领域中，由动力电缆行波反射造成的机端过电压问题将愈加严峻，通常需加装输出LC滤波器来改善。然而，LC滤波器的引入增大了系统复杂度，且其会产生谐振峰而影响系统稳定性。
 > 

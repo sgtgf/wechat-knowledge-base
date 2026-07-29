@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wIdbaXMtIzjaJsJ4HAtSYA](https://mp.weixin.qq.com/s/wIdbaXMtIzjaJsJ4HAtSYA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSrfKib8AibPT9IcfgAInIag1lInjOYcV1gZr1iaE016MaCAZod9pWZtKpMlSrUQ8WZ19AWKgNskQJnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_9_images\img_000_3c997df5c85a.png)
 
 _★★★__SMC-9---Case____**★★★**___
 
@@ -17,13 +17,13 @@ Z\_A可以重写为y\_A=0.25-i\*0.25，使用并联电容，我们将沿着Re\[y
 
 然后，阻抗z1可以很容易地与电抗为zL=i\*1.7321的串联电感匹配，这种阻抗匹配过程如图9-1所示，为清楚起见，显示了圆Re\[y\]=0.25和曲线Im\[z\]=-1.732，应该理解图9-1中的点和路径。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSZySoMQu58jMicgzLRYia9rZkv4RFcsiaLvXOsXbS1b5Aw8VOUTzIhfMT58zvOeTyKcaPfUvkia4ev1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_9_images\img_001_81536bfb1871.png)
 
 图9-1：阻抗匹配z\_A=2+i\*2
 
 阻抗匹配网络如图9-2所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLMsHNtpqyhVrVySu1mXamcHFfkXB9JpeIicgPvDxoSJ13gicAZgL13KtGwVTBhIic3ibJAG9AJicz2zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_9_images\img_002_fa68ffd7bd19.png)
 
 图9-2：阻抗匹配网络示例2
 
@@ -33,7 +33,7 @@ ___€2.___阻抗匹配网络图
 
 在示例1中，阻抗可以通过串联元件后接并联元件来匹配，在示例2中，阻抗可以通过并联元件后接串联元件来匹配，图9-3显示了可用的阻抗匹配网络：（传送门：[Smith Chart：史密斯图圆和阻抗匹配-8](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247497321&idx=1&sn=e636bb19293f23386e7bb85f32b45a80&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSZySoMQu58jMicgzLRYia9rZLTsZl25fhTWYqOJDVFogGZ1x2tfXTvibBVOiaY0gTc51MMAbxsI0vwtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_9_images\img_003_990621d510fe.png)
 
 图10-3：史密斯圆图上的阻抗匹配区域
 

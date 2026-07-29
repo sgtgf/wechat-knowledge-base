@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75Rhhv5fr6xTSWy6S1KdYZIibaaNSXntApBCw4kDrfDhNfbD6DQYklgs36Vp3dxLzTlZaun52lBiczMA/640?wx_fmt=jpeg&from=appmsg)](https://cn.comsol.com/events/webinar/%E5%A4%9A%E7%89%A9%E7%90%86%E5%9C%BA%E4%BB%BF%E7%9C%9F%E5%8A%A9%E5%8A%9B%E7%94%B5%E5%8A%9B%E8%A3%85%E5%A4%87%E6%95%B0%E5%AD%97%E5%8C%96-131533?utm_source=11.11+%E7%94%B5%E5%8A%9B%E8%A3%85%E5%A4%87%E6%95%B0%E5%AD%97%E5%8C%96&utm_campaign=cn_MediaWebinar_2025&utm_medium=Demail&utm_content=10)
-[![](https://mmbiz.qpic.cn/mmbiz_gif/WRO0RgZZ75QJAkfmoBLHoWRP2TAwUaHB74ic6HGUYXvlbQ5WzKZ30UMqgXsQa5msvPbFjLU9GGpoT7QmriaTajPg/640?wx_fmt=gif&from=appmsg)](http://www.njyxdq.com/)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\浙江大学张添胤_陈向荣_等_硫化压力对500_kV超高压直流XLPE电缆工厂接头恢复绝缘性能的影响_images\img_000_9e1aca1342b3.jpg)](https://cn.comsol.com/events/webinar/%E5%A4%9A%E7%89%A9%E7%90%86%E5%9C%BA%E4%BB%BF%E7%9C%9F%E5%8A%A9%E5%8A%9B%E7%94%B5%E5%8A%9B%E8%A3%85%E5%A4%87%E6%95%B0%E5%AD%97%E5%8C%96-131533?utm_source=11.11+%E7%94%B5%E5%8A%9B%E8%A3%85%E5%A4%87%E6%95%B0%E5%AD%97%E5%8C%96&utm_campaign=cn_MediaWebinar_2025&utm_medium=Demail&utm_content=10)
+[![](D:\电脑文件\公众号知识库\高电压_绝缘_放电\浙江大学张添胤_陈向荣_等_硫化压力对500_kV超高压直流XLPE电缆工厂接头恢复绝缘性能的影响_images\img_001_4cbe5da63430.gif)](http://www.njyxdq.com/)
 **阅读提示：本文约 2700 字** 
 **导语**
 海缆工厂接头作为大长度海缆系统的关键附件，受硫化加工工艺影响，其恢复绝缘与本体绝缘的性能差异以及交接层界面的存在都可能引发绝缘失效。浙江大学研究人员通过理化性能分析和电气测试，研究硫化压力变化对工厂接头恢复绝缘性能的影响和作用规律，为500 kV 超高压直流XLPE 电缆工厂接头的开发和生产提供理论基础。 

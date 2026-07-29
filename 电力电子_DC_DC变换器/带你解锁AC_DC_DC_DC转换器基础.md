@@ -29,7 +29,7 @@ AC是大小和极性（方向）随时间呈周期性变化的电流。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWsnu2AtRiaogy4EVhCC22f1V1RN4YURZ9Z9hMfDxCsX7NZ1evBGghAqQ/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_002_f7e9e64f03cf.png)
 
   
 
@@ -53,7 +53,7 @@ DC是极性（方向）不随时间变化的电流。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWvCibPQFB8cLXdYIotXiaJotDVmHjOnALTk36C8pR72EkIpGAXSEibjB8Q/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_003_b6862d629a09.png)
 
   
 
@@ -61,7 +61,7 @@ DC是极性（方向）不随时间变化的电流。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWEFuNOK2aIDgyCMfpZhj2VBKWYibG6Z0Adf9DwFyYQPdRXg9SHpcdZmQ/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_004_6433603793be.png)
 
   
 
@@ -85,7 +85,7 @@ AC/DC转换器是指将AC（交流电压）转换成DC（直流电压）的元�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWXibvZ6YT7zZVDWKHsD2FMYnX8v8ul3IRalQ7zibzLRhFxkDOiaCfCjsaQ/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_005_9efca3bb9509.png)
 
   
 
@@ -116,7 +116,7 @@ AC/DC转换器是指将AC（交流电压）转换成DC（直流电压）的元�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWtkf3N3SfBPQiaIdaEdVZWuSowb0kWvyxPRtYO9wmdSkhglyjuxBr8nQ/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_006_04b62fff7c30.png)
 
   
 
@@ -145,7 +145,7 @@ AC/DC转换有变压器方式和开关方式。
 
 **【变压器方式的电路结构示例】**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWl0ibRmWtfbBbaEa86NS6n8M2QdSGl1HqkjtpCprUQtrDlkiaskEzNFvA/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_007_8ce3dd6d9043.png)
 
 下图显示了变压器方式电压波形的变化。
 
@@ -159,7 +159,7 @@ AC/DC转换有变压器方式和开关方式。
 
 **【变压器方式的波形推移】**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWBucdaq9rTw1WsXN7H4731X72iazLYDJzZqhZgNyI17v365ZzhyqCib6Q/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_008_b053ba6a0c8b.png)
 
   
 
@@ -175,7 +175,7 @@ AC/DC转换有变压器方式和开关方式。
 
 **【开关方式的电路结构示例】**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yW3n41bjkYICfOVgwcXgCRehib3ib5Th5AjRib895ib6L1cHuNSjscHL2W4w/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_009_caebff651e85.png)
 
 下图显示了开关方式电压波形的变化。
 
@@ -192,7 +192,7 @@ AC/DC转换有变压器方式和开关方式。
 
 **【开关方式的波形推移】**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yW8kgAvk4wCwgPR91IasO0IScmrprNBoF8VaAooU4ypvicvLyiceSMgySw/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_010_a0d5d69d95af.png)
 
   
 
@@ -216,7 +216,7 @@ AC/DC转换有变压器方式和开关方式。
 
 开关式AC/DC转换器通过确认实际输出的DC电压值，并根据该电压信息对开关元件进行控制，从而确保稳定实现规定的DC输出。这种确认该输出电压值以控制开关元件的机制叫做反馈控制（FB控制）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWmCrGiceDCSo1RHCVytvic7OQPmvXVlAlAiccWBwcqasTAvAB6VSGBwHgw/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_011_4fd68860b022.png)
 
 _**【开关方式电路结构示例】**_
 
@@ -231,7 +231,7 @@ FB控制电路检测实际输出的该电压值是否达到规定的目标电压
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWROibHCPCK65PUia0za5JBnhia8ichNoOibIb62YwE0CtHavaXra8l1sXLBQ/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_012_4e7da3a7ea95.png)
 
 **_【经过平滑处理的输出电压示意图】_**
 
@@ -265,7 +265,7 @@ FB控制电路检测实际输出的该电压值是否达到规定的目标电压
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWRMVKyKY50vGsEAasmraOneexeibniaHtTX5snt4w3phCVAR3R39d64mg/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_013_3fa5216dae8a.png)
 
 **_【PWM方式和PFM方式】_**
 
@@ -319,7 +319,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWzSMbC7Yv9ppAz0oS9GiaK1FSu9niabxfZYfuHbcncmIZNABWrG5icBlicg/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_014_c82d79f1262c.png)
 
   
 
@@ -331,7 +331,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWAALvMCjTjibVMNP6xkzoiaeMCm33qdDKXC7S0vQAXHo5yDZLLCav4KsQ/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_015_4dafa299f14b.png)
 
   
 
@@ -365,7 +365,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
 **【电源IC种类】**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWs9tO8OwjDykkBhIhKI4pAdw8IxMUOXO0qXgZE6yZK1aibDT7J57XSCg/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_016_18648b3fdb26.png)
 
   
 
@@ -392,7 +392,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWBg5QF8qmpBYvgkwHYVzTI7HHmtJnFCV7ZEjicTeDY9ynkTduGu7N2Tg/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_017_cf30b68f0118.png)
 
   
 
@@ -437,9 +437,9 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWp7UDicBNXJuQXEbDdBZTVjHmUtZ2ucCUF7d99QbfLjvFo6BlibAp4BEg/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_018_57c239d8c389.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yW2ib1d6yLiaiaDTTrHuw0Uibzf1OPbj7382icE6ULrnAdMNR8aWSFiaKqLpiaw/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_019_8cb71e217b1e.png)
 
   
 
@@ -479,7 +479,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
   
 简单来说，电压固定型是内置了电压可变型的外接电阻的稳压器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWexjX1GHhRH6iaJRNrCQK5hiaPyNbBE61iaKrBFVWh1m7FwS7NdPvM6ntg/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_020_344eccfe3a69.png)
 
   
 
@@ -499,7 +499,7 @@ VO=\[ (R1+R2) / R2 \] x VREF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWLppr1qWtq81Rp4Ih8XvTDVeoUqbXlI16JhS5FBQicSmwAZr9OiaBneCA/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_021_c338fd185514.png)
 
   
 
@@ -525,7 +525,7 @@ VO=\[ (R1+R2) / R2 \] x VREF
 
 **【按功能分类】**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWHPHl54fvdkprYQhSa2XL8E4vGxWpfw1qm7MibWYMQvXpoibhsxkSNHQw/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_022_d8a64c6fe082.png)
 
 其次，还可分为电压固定型和电压可变型两种。固定型由输入、输出、GND三个引脚构成，内置有输出电压设定用电阻。
 
@@ -534,7 +534,7 @@ VO=\[ (R1+R2) / R2 \] x VREF
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yWCj1gFI660IUdhKkmExicamrBRWaulnqXkgO6JneOh4feooch50WTqXQ/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_023_7a74ae792b91.png)
 
   
 
@@ -579,7 +579,7 @@ LDO是Low Dropout的缩写，是即使较低的输入输出间电位差也可进
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfmGXzow3jmUzJIFbHQFJ5yW7iaTYvza68rjwPZBBjHKFYic7XhO9QasMhNbhiaTd2c0ic0al4f8vhZLoA/640?wx_fmt=png)
+![](带你解锁AC_DC_DC_DC转换器基础_images/img_024_22a6e711f96a.png)
 
   
 

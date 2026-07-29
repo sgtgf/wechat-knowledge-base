@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/STTcuMu7XtJbCe1X91x7Ow](https://mp.weixin.qq.com/s/STTcuMu7XtJbCe1X91x7Ow)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMB8GC60fXm64fLQkdt3ANEICyvLiaSYgBuAcLbm30hrianMIvaoKG7TcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_13_定向耦合器_images\img_000_af14f271a54d.png)
 
 ____**★★★**______Coupler-1---耦合器______**★★★**____
 
@@ -13,7 +13,7 @@ ___€1.什么是定向耦合器___
 
 定向耦合器为了将功率放大器（PA）的输出增益维持和控制在一定水平，将射频或微波信号按一定比例进行耦合拾取，并对PA输入进行反馈，用于控制送信器的功率并具有方向性，所以耦合器系统是一个可调节反馈系统。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNLW2VqMdr4L0CP2UTrGZFRXVggBwAibglMdRv9sobqFlmugM1v1OQ8QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_13_定向耦合器_images\img_001_7228c66553bd.png)
 
 **_图13-1：定向耦合器简图_**
 
@@ -21,13 +21,13 @@ ___€1.什么是定向耦合器___
 
 由于耦合端口与主传输路径之间具有高隔离度时较为有利，因此定向耦合器端口间的隔离度通常较高。目前主要有两种类型的定向耦合器：具有一个耦合端口和一个端接端口的标准定向耦合器，以及具有正向和反向耦合端口的双定向耦合器。此外，还存在其他类型的双定向耦合器，根据耦合至正向或反向端口的耦合端口的种类，这些双定向耦合器被称为正向耦合器和反向耦合器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNiahVaDXacoRbk0QeibedSXvjV8kqPz6axQicc9bLoYUlkXlLCTrhHNX6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_13_定向耦合器_images\img_002_d39c644944a7.png)
 
 **_图13-2：耦合器使用简图_**
 
 耦合器的可使用频段一般非常宽，例如SKY16706-11是一款双耦合器模块（DCM），由两个双向耦合器组成，其耦合路径经过针对2.4GHz和5GHz抑制优化的滤波器进行滤波。SKY16706-11具有50Ω的输入和输出阻抗，内部有直流阻断功能。该双耦合器模块主要用于移动应用，它与3GPP GSM、WCDMA、LTE和LTE-A标准兼容，并在蜂窝部分支持B1、B2、B3、B4、B7、B30、B34、B39、B38、B40和B41频段，还支持GPS/GNSS/ 北斗定位标准。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMAJ8qKOzPcnSOD3icnNXTDg8I6t1PbC287yYHH2RCFJe0Db1mKGhBPyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_13_定向耦合器_images\img_003_d5514f0c5271.png)
 
 **_图13-3：SKY16706-11简图_**
 
@@ -71,7 +71,7 @@ _____€4.定向耦合器的参数_____
 
 4#：隔离度，是主传输线与副传输线之间相互隔离程度的度量，定义为主传输线输入端口的输入信号功率与副传输线隔离端口的耦合信号功率之比，隔离度越高，说明主、副传输线之间的相互干扰越小。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTVl5ibq0dC5sBwiaIgia973hNUu9tf0DlHj7buOeAmmt1okpJW6xAL8czRVjD9KJfzAWo8f02FktkYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_13_定向耦合器_images\img_004_c749c0298423.png)
 
 **_图13-4：定向耦合器的参数示例_**
 

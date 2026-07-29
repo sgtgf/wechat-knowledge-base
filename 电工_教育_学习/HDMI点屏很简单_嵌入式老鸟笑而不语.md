@@ -12,7 +12,7 @@
 
 作为嵌入式工程师，我们每天都在和各种接口、协议打交道。这个领域涉及的知识点和细节实在太多，以至于大多数时候我们只能依赖参考设计快速实现功能，赶着样机交付。如果没有遇到问题，自然皆大欢喜，甚至会让人产生"这个接口很简单"的错觉。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3UAqicpRcmib2Vp3a7dkxv0SakjLibE7yDqSHzWUgLic9YoicJqDvo2Uj59Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_002_20ae471095f9.png)
 
 **图源 | 时光之光**
 
@@ -32,7 +32,7 @@
 
 通过百度百科，可以简单的了解到HDMI接口的定义：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3uYVygse2qanbgVmjtxCJQZldb7dgxibJcg2kzTXvyMmQvRDkdLgqo8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_003_c0a8dcf845ac.png)
 
 **图源 | 百度百科**
 
@@ -55,7 +55,7 @@
 
 **HDMI的接口类型包括**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3kV4YrwonHrGb9icvaDtLfkdkQyj2lXVtEa7nDqr48O5Dkcnmqc3bomw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_004_686c3e0efc13.png)
 
 **图源 | 知乎**
 
@@ -82,7 +82,7 @@
 
 以下是HDMI A接口咱们常用的原理图，19个针脚的具体定义就不一一列举了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkY7BDoibwrGxx3ASwZliaTwIBCgu5VFh8tosKdfNsGVj9ZJlWaicWYMDzUr62v06RicZWMxucnRicoAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_005_a4c50a922e38.png)
 
 **图源 |日常原理图**
 
@@ -130,7 +130,7 @@ TMDS DATA CLOCK+/TMDS DATA CLOCK-/GND
 
 关于这个原理图，大家可以看到HDMI接口的5V供电回路中串联了一个二极管，这一点咱们着重强调一下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgIgMFibwcvh6Xy8WfHNgefemEqBBsIh5ZMT79svK2OIbqhDTfhypYkH2cUQnKhpzOEe5jC4a0zIag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_006_cd7dd4bf3273.png)
 
 这个二极管主要目的是为了防止电流倒灌。
 
@@ -197,7 +197,7 @@ https://m.elecfans.com/article/1976734.html
 
 了解了HDMI的握手过程，有助于我们解决平时在产品开发中遇到的一些黑屏，无信号，****分辨率显示异常或者**无音频等问题。******
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgIgMFibwcvh6Xy8WfHNgefe9lbpI9uE207qlqK0JFuyiaDpu3BYOBpYiaygZMIaM0bxNN83w9XwNLBw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_007_876fa2ff51e1.jpg)
 
   
 
@@ -221,9 +221,9 @@ https://m.elecfans.com/article/1976734.html
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_008_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\HDMI点屏很简单_嵌入式老鸟笑而不语_images\img_009_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 

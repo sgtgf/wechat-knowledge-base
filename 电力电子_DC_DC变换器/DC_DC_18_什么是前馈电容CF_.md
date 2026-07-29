@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/CP8e09AyXnKoSMvcattERA](https://mp.weixin.qq.com/s/CP8e09AyXnKoSMvcattERA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTOJiaw6SNGD35iblQ03rjsBLlLib28t1iaJ1egAuMEdo4aFenibOXPyPwibzKs6S1PKRmW3Suic85gJ1YMg/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_000_0281892f10ef.png)
 
 ____**★★★**______DC-DC-18---前馈电容______**★★★**____
 
@@ -11,43 +11,43 @@ ____**★★★**______DC-DC-18---前馈电容______**★★★**____
 
 ___€1.什么是前馈电容___
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBC802W6AEU8icwV3pHH9erfJdAYQ9433TTKgZLnxlxOQBxDQxZCpbxDA/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_001_b26a20c580b7.png)
 
 **_图18-1：带前馈电容CF的DC-DC简图_**  
 
 对于前馈电容带来的影响，我们将运用方程推导和伯德图来从原理和直观两个角度来评估，将常见的如**_图18-1_**的DC-DC简化为如**_图18-2_**所示的常见的可调电源电路增益简图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfB34egtybOUmeIEHdEjnApLiavIvyvncnic854Bb9fYUVjxA5MgXnweTMA/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_002_64d37f866374.png)
 
 **_图18-2：环路增益简图_**
 
 A(s)为整个电源系统的开环增益，为方便讨论我们假定A(s)里已经包含了输出电容、负载等其他因素的影响。上述电路在不使用前馈电容CF时的输出电压为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBP43Fia9jrToheNpEcgBG5Z3YAHEESTVvLKs1r4x9tIQIOXNgcr30crg/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_003_2524005e9e26.png)
 
 其中，β为反馈系数。其环路增益为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBheYHWGKYOWuNoXZKOZCNk3XQDo6PVSH1CXnbUETAurX82icY3fB4ytg/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_004_3332019a1b6f.png)
 
 可见，通过调节分压电阻虽然可以改变输出电压OUT，但同时也使得G(s)的带宽变窄。合理地使用前馈电容可以提升电源的带宽及响应速度，此时环路增益为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBrlKwsDYDoaSjGWSMStHGNYRYPAd5OHjhlZdXSv8vic5lIibhwk2XTRhw/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_005_26d604265a67.png)
 
 由此可得，CF并不改变DC输出，而是为系统引入了一对低频零点fz和高频极点fp。零点会使相位裕量增加，极点则恶化相位裕量，使零点与极点尽量远离才能获得更多的相位裕量。根据**_图18-2_**所示的传输函数，计算出零频fz和极频fp为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpdJiaic0KZ1P2vj11k5U7iaOibA8cMktkXD38coO9icdeKea3ClYiclnice49A/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_006_e40906158db4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpEhmAEOkvcNsMRDRPPF7ibHib01ZsRZOLNyy5OSbs2rn21K0AcGsAA8oA/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_007_93d922525491.png)
 
 很明显零频和极频都与R1、R2、CFF有关，因此增加或者降低电阻值来优化效率、电压精度或者噪声会改变相升压的频率位置和系统的整体环路，要想保证稳定性，根据建议的fz重新计算合适的CFF，根据datasheet推荐的R1old和CFold计算得出fz，根据需要保持的fz，重新选择CFnew和R1new。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTUqWClmCLP5XxawakW3EPWJWthXHQXS3n8bg1bQs0ggmLxliawsUU1dd2raEkTfatcdCwY9JWv4KA/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_008_83c710835d41.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTUqWClmCLP5XxawakW3EPWxCibWRTTof84gMKCUEiajswelfkbOV9y3RruTqOPp4eGEOUWK9drNItw/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_009_c79620808df2.png)
 
 但CF引入的零极点对的距离在对数坐标里是固定的，因为
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfB6MkFM5AXGqdr4uyRe67XGeR6oRcObHY8ZhoRTnvHn6It2QTY0GDdkw/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_010_7f1331977443.png)
 
 据此可确定，前馈电容在R1/R2越大时作用越明显，在R1=0时不产生作用。而在R1/R2确定的场合，需要合理地选择前馈电容CF。
 
@@ -59,11 +59,11 @@ A(s)为整个电源系统的开环增益，为方便讨论我们假定A(s)里已
 
 #2. 选择的前馈电容引入的零点和极点，使其满足：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBTKICtuWRqM9xfQeX3EpKIH7FGDNm2mTViaeHdqojhuNLaoVMRMicVJXQ/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_011_0a6e6e69144e.png)
 
 化简为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSasyPMiaVguT0Nm4oHypkfBbiax3I34ZpHfRODw5xBCPMWoBq59ib9lZIIzC84CDrKNqyuSscaOZKHA/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_012_83ab373e1590.png)
 
 理想状态下，使用网络分析仪测量时，一个稳定的DC-DC应该有至少45°的相位裕量，这么大的相位裕量降低甚至消除了输出电压振铃，从而防止输入电压瞬态或者负载瞬态期间对电压敏感型负载的破坏。
 
@@ -81,10 +81,10 @@ __€2.设计实例__
 
 对于一个在其控制拓扑中使用前馈电容的DC-DC来说，改变电阻式分压器的值很容易让转换器稳定性降低，但是如果CF随时调节得当，改变这些值便可以维持相同的频率响应和瞬态响应。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpXoIu5vsPib7ibKqwjC5b2y9NLeVBu15XoibJAKicdiapCpq6qWlzAFzI7xQ/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_013_487898d30585.png)
 
 **_图18-3：不同的R1、R2和CF值的DC-DC闭环频率响应_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR6HR3zl1AZWMEOr1AF80DpIH9pGgabOqyicCW31XoTcpQGd7dbVTrR5iabAFoHFbRdiaHvpMgTTuHVQ/640?wx_fmt=png)
+![](DC_DC_18_什么是前馈电容CF__images/img_014_11d40c8be9da.png)
 
 **_图18-4：不同R1、R2和CF值的DC-DC负载瞬态响应_**

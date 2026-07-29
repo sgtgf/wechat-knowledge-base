@@ -72,13 +72,13 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190075?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4514MfIticmLH7eVRFQhIUrj3FD6hYjJwCWuu6oWJIlmYIqssWAuSsZgRSekXlSRTficJ0wSqQXApSA/640?wx_fmt=jpeg)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_000_c6bd4f73fb27.jpg)
 
 图 1  DT CWT域系数幅值的子带内、尺度间、分解树间Chi-plot图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjlrew8sBPk4r1XDG5dYicrQNx6Mf3rDvJlKicRicy4lXBx6Fl9EibM0ibcLg/640?wx_fmt=jpeg)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_001_3964f8b05ec0.jpg)
 
 图 2  DT CWT域向量HMT模型
 
@@ -90,7 +90,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190075?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjuFYgicnzfsvSAeNGkAXZvIh31cxZKkFTR4u3fmbSbibcCH5k3ricCB1HQ/640?wx_fmt=png)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_002_11d07cfcd312.png)
 
 **王向阳**
 
@@ -98,7 +98,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190075?viewType=HTML
 
 E-mail: wxy37@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjYOJJ4mdNnXB9icibbrKDwMSHPeWPswD9DognHibsBRiafn9LOYn0Sbbvvw/640?wx_fmt=png)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_003_06fb72c5c0b9.png)
 
 **牛盼盼**
 
@@ -106,7 +106,7 @@ E-mail: wxy37@126.com
 
 E-mail: niupanpan3333@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4514MfIticmLH7eVRFQhIUrj2CnHJrkDTZlGfvY4iae4DgxpicH5rLJF3FqD7bjFLoaQiaicQsbbVKmibNg/640?wx_fmt=jpeg)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_004_3bb7101cf7b0.jpg)
 
 **杨红颖**
 
@@ -114,7 +114,7 @@ E-mail: niupanpan3333@163.com
 
 E-mail: yhy65@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjAEic3PicAtic2vZicbjCkBm8uUQrXCunHwGXUtBkU7ibhPdO00KNeao63Kw/640?wx_fmt=png)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_005_8322fdcca19d.png)
 
 **李   丽**
 
@@ -372,49 +372,49 @@ http://www.aas.net.cn/cn/article/id/16925?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjcib39lrhqTicLzcRicnMmhf0mCVjZUNGlWsPzK9xKloJiaVfruIicHZVWgA/640?wx_fmt=png)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_006_a5f594d1e6a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjQzcuFxf1vz47UMhqUDYyKCN7ptZ8gIqGfhKzhpDcgoSe4dYT0nDWww/640?wx_fmt=png)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_007_acbda35a92e0.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_008_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_009_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjcnKLPfsDKWtWMAzVDn2tPHQ6FUqvHM60TGJL6B8foVhbDEEqe6PicHw/640?wx_fmt=jpeg)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_010_74637241bd7e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_011_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_012_f7bbcbfa4345.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_013_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_014_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjFU3SicAubdVAv1Q6uJVGkwDz31lBy8txwj38074iciaAc2792dBV6MVtw/640?wx_fmt=jpeg)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_015_a7a27e248e9c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_016_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_017_f7bbcbfa4345.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_018_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_019_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjjWibEw7Kibic9dcr0e8CJtQG6skPvxheBAwYhJu2zJUDXXDF58ibXOPElg/640?wx_fmt=jpeg)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_020_4b437a8d81fe.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_021_f7bbcbfa4345.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4514MfIticmLH7eVRFQhIUrjWM7XVFznFj0bdxnLt35T41LZBzkibcJ4vP3jZJDDydY50LXEX2KwSvQ/640?wx_fmt=gif)
+![](基于多相关HMT模型的DT_CWT域数字水印算法_images/img_022_f7bbcbfa4345.gif)
 
 **长按二维码｜关注我们**
 

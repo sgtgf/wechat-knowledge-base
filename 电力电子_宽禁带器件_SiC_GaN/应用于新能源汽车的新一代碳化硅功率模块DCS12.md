@@ -9,13 +9,13 @@
 
        深圳爱仕特科技有限公司推出的汽车级碳化硅功率模块DCS12，旨在缩小半导体器件使用尺寸的同时，提高逆变器功率密度、可靠性、耐用性以及寿命周期，给高速发展的新能源汽车注入动力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsltqaSthT3lr1PW9r0wnyycP9cMzOMCw0g3Dsq5d1Phd5ibuJrZv3NsPYjhRPBl7NWa9xcusbJ0prg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_000_53fc151eaed0.png)
 
 爱仕特DCS12模块（规格1200V800A)
 
        DCS12模块优化水道结构设计，在提升散热效率降低热阻的同时，提升系统可靠性。通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻。另外，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，可靠性进一步提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLsltqaSthT3lr1PW9r0wnyycHWicwUb9eHlg4bict3quUQv57O2ia1icGmrV81LvxXTpiay6ZO3Q8ASr5qg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_001_a96abdcec221.gif)
 
 爱仕特DCS12模块
 
@@ -23,22 +23,22 @@
 
 DCS12的封装是一次铸造成型，其密封保护可以确保逆变器在机械冲击和潮湿环境下仍然可实现稳定可靠的性能，允许极限温度循环以及更高的结温来提升功率密度。其结构紧凑，利于降低模块的杂散电感，进而降低系统杂散电感，并充分利用SiC器件的高速开关特性，以降低电压过冲的影响。此外，银烧结与铜绑定技术的结合，解决了普通绑定工艺可靠性问题，在不降低电流的情况下实现更高结温下运行，功率循环能力得到提升。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsltqaSthT3lr1PW9r0wnyycSak6WcVQVBKFfdVOkhl1bGAmMJUVVbMQib2soibuM4YFDeXuKGiaSrDzA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_002_d3663835b375.jpg)
 
        DSC12作为爱仕特新一代汽车级功率模块，拥有良好的散热性能、优异的可靠性以及优化的杂散电感水平，同时采用半桥的结构设计也为驱动器的设计带来了比较大的灵活性，可以把驱动器与电机更好的集成在一起。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsltqaSthT3lr1PW9r0wnyyc0MzCvickM8js8pXVxeiaBVbU3ubtibXDKG3YgtXeFiabiaNolhL8j8fricxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_003_34b78540e19c.png)
 
 爱仕特DCS12模块产品阵容
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_004_cd2fc29ed793.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_005_35fc065fe60a.png)
 
        专注SiC MOS管和全碳化硅功率模块的研发和销售。MOS产品具有更快速开关响应、更低损耗的特性，完全满足车载充电机对高效率、高功率密度、高可靠性的要求，有利于加快光伏产业发展，助力双碳目标的实现。随着新能源替代加速，逆变器向高效率、高功率密度、高可靠性等方向发展，具备高功率、耐高压、 耐高温、高频和低能耗等优点的SiC功率器件将迎来发展新机遇 。公司自建晶圆厂，将推出更多优质产品和服务，携手上下游产业，加速能源结构转型和碳中和进程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_006_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于新能源汽车的新一代碳化硅功率模块DCS12_images\img_007_770831a45f05.png)

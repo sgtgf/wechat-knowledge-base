@@ -7,11 +7,11 @@
 
 本次活动聚集汽车行业中制造、零部件、电子产品、物联网、新能源核心技术、5g通信等应用领域，旨在表彰中国汽车行业中具有突出贡献的优秀产品、技术、应用案例及企业，借此鼓励更多企业投入产品、技术创新。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5E35hq9XfBb5qbRAF5KDM16qwUibWy1gKqNMb1ibR0VPf3xGdTO7ib347ibg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_000_3afe40bff704.jpg)
 
 本次评选活动8月29日在中国·深圳举行盛大的颁奖典礼。今年评选共设立4大奖项，本着“公平、公正、公开”的原则，主办方投入了大量的时间和精力，最终，深圳爱仕特科技有限公司凭借其碳化硅功率模块DCS12，一举斩获“维科杯·OFweek 2023 新能源汽车核心技术突出贡献奖”。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EH6mibY34HSZ5EiaPQia1z5rQuW5YhHyO3vxGJ3Fic0Nia6My2juZUoMZ89A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_001_892ad5691cf8.jpg)
 
 **企业简介**
 
@@ -19,7 +19,7 @@
 
 **参赛技术、产品／项目名称：**碳化硅功率模块DCS12
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrc7Xx0mNBzwFfeCmh0GmvstI5SQVZlviafPsQo9T4Iz1jW1GICIib73ySU3ZWQrCZIibRmicIJaAj0gew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_002_ab1057782f81.png)
 
 爱仕特全碳化硅功率DCS12模块产品图
 
@@ -43,20 +43,20 @@ DCS12模块是基于一系列银烧结工艺、并联水道设计、半桥灵活
 
 **爱仕特产品线：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EWSM8h4KWWOq6wrIBCqrc90eXLkjjf5U8nI5QOyE8dw7X6MNlPHqwow/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_003_003b7c8531b4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5Eo9eUBTyxLCQzqnpEBKrwACZNK3xfakLh4ibLibOkPJh0X6zSo35bPIBQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_004_314e07a6a426.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5Exic8KFMmT5ws6YfOT6v8swTV7Viasybh5oC8bQoeU1nLv61TzrrdbIwA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_005_bfb3b6b7ce61.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EiabruIau3ncty54AWGIDiaxuSiaqKENj0KAZmPpCFUD8zj6Oxic9FL6hBw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_006_187d734e75a1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EtR1TXPsASftQgLaibB2HNxC7IKJibsiauicWPLotYtR7eag67prQRSJ4NA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_007_915f95129683.png)
 
       爱仕特科技始终致力于碳化硅核心技术，不断研制技术领先的产品与解决方案，以满足新能源车用市场日益增长的需求。未来，爱仕特科技将继续发挥技术优势和品牌优势，携手产业链上下游共同进步，推动新能源汽车产业和光伏新能源等多领域的发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_008_a526881135ee.png)
 
 声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
 
-                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+                    ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特碳化硅模块荣获_OFweek_2023_新能源汽车核心技术突出贡献奖__images\img_009_770831a45f05.png)

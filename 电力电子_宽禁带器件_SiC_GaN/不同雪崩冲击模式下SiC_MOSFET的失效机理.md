@@ -29,23 +29,23 @@ SiC MOSFET 电力电子器件具有高温、高频、高压的工作能力，可
 
 **1.1 实验平台**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGguMicibsYPeXAaVN8f0jq4fQasvZTjW2sNj0SmxzWeQa3o4MibEb7MywDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_000_2eb39e64fae0.png)
 
 SiC MOSFET 雪崩测试平台和原理图如图 1 所示。图 1(a)为雪崩实验原理，被测器件(device under test，DUT)开通，直流电源 VDC给电感 L 充电，回路电流 Ids 缓慢增加，当电感存储一定能量后关闭DUT。此时，急剧变化的电流产生高 di/dt，电感负载上感应出雪崩电压 VBR(DSS)将 DUT 雪崩击穿，为电流 Ids 提供通路。雪崩电压表达式如(1)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgxPO9qen6hDeysvRF3Uefj7QibxC10GTd7tCuVXUGWPw8n49icsK525ZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_001_6e6bcc6c1a70.png)
 
 DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav 由式(1)可推导出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgAIZdfZCpn3pQibfzFh1M3iaWdCglDM5WAtvaqeMy178zktQ6vdMtVkjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_002_412c4d4382ff.png)
 
 式中：Ipeak 为 DUT 关断时刻流过器件的电流值；VDC为直流电压值。器件在雪崩器件的雪崩能量 Eav可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgG4kRNFFSc5bibzjiaezkkBu60ibu6KnhbicePUoEeSoTN1BkIooJbPNVxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_003_a2b2f9a370e0.png)
 
 本文选用 Cree 公司 1200V-10A SiC MOSFET器件 C2M0280120D 作为测试器件，雪崩测试条件如表 1 所示，测试模式分为单次和多次 UIS 测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgOk0JYmIhewsXIJmFrqktJr7HJcgI8jV9POvibvh8KDjyJTYkRmH2iajA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_004_ab361006572a.png)
 
 单次 UIS 测试用于测试器件的极限雪崩耐受能力，其实验平台如图 1(b)所示，在实验中逐步增加 DUT的导通时间 ton 来增加雪崩电流 Ipeak，从而增加器件承受的雪崩能量 Eav，并采集每次雪崩冲击的工作波形，直至器件失效；重复雪崩测试适用于研究较低雪崩能量下 SiC MOSFET 的失效演化过程，其实验平台如图 1(c)所示，在实验中设定每次雪崩能量为 80%的极限雪崩耐受能量，以 500ms 为循环周期进行循环雪崩冲击，每 10k 次循环冲击后测量 DUT的静态特性参数并实时记录器件的工作波形，直至器件失效。实验中设定VDC为50V，电感L为4.4mH，电容 C 选定为 560μF，用于稳定直流电压源电压并在 DUT 开通瞬间快速放电，为 DUT 提供快速增加的电流，减小由直流电压源外部接线寄生电感对实验结果的影响。
 
@@ -53,9 +53,9 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 为了分析 SiC MOSFET 器件在雪崩期间芯片内部电热应力分布，以研究器件的失效机理，本文基于 TCAD 建立了 SiC MOSFET 二维元胞模型，其示意图如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgeicibrt05ibfIc8OYD8SlthjqEWb0I5glticP8hRIgyJHibdrW1lMoe0Uzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_005_e34aa7a5284b.png)
 
-根据半导体器件设计准则确定元胞的掺杂和几何尺寸使所建立的仿真模型更合理，设定外延层厚度为 18μm，沟道宽度、JFET 区宽度和栅氧层厚度分布设为 0.5μm、2.8μm 和 50nm，元胞的几何宽度为 8μm。衬底掺杂浓度为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgaRzDH2yDwnMdHPe3DkctEcv43UUgia833QdfgZg92NJVlB531Xicm0qw/640?wx_fmt=png&from=appmsg)，漂移区浓度为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgtcbxKicfVd8p4nV3KhnyQ0alhJmzgSic7ZwNcIhvfvDtgQTiaOvyLKJLw/640?wx_fmt=png&from=appmsg)，P-base区浓度为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGg0Qib6PJEbibex9Gq87v8ibpcAnElZKicOP7EjRaC6HibicHn8yS7WeiaAAgDw/640?wx_fmt=png&from=appmsg)。为了反映SiC MOSFET实际工作原理，增加仿真的正确性，仿真模型中采用 Srh 和 Auger 复合模型，迁移率模型、自热模型以及碰撞电离模型，利用Newton 迭代法求解仿真模型。
+根据半导体器件设计准则确定元胞的掺杂和几何尺寸使所建立的仿真模型更合理，设定外延层厚度为 18μm，沟道宽度、JFET 区宽度和栅氧层厚度分布设为 0.5μm、2.8μm 和 50nm，元胞的几何宽度为 8μm。衬底掺杂浓度为![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_006_c489bde60ab9.png)，漂移区浓度为![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_007_f6f8680e481b.png)，P-base区浓度为![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_008_296cb109adc0.png)。为了反映SiC MOSFET实际工作原理，增加仿真的正确性，仿真模型中采用 Srh 和 Auger 复合模型，迁移率模型、自热模型以及碰撞电离模型，利用Newton 迭代法求解仿真模型。
 
 **2. 单次雪崩冲击失效实验及仿真**
 
@@ -63,11 +63,11 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 针对单次雪崩冲击失效实验，实时记录了 DUT的电压、电流波形，当器件不能正常关断时表明器件失效。图 3 给出了 DUT 的单次雪崩耐受能力测试结果。从图 3 可知，本实验中器件处于雪崩期间的雪崩电压恒定在 1740V 左右，这是由于雪崩电压与器件工艺和工作温度有关，而与电流无关。当开通时间增加到 980μs，电流约为 14.4A 时，DUT 不能安全关断，器件失效，根据式(6)计算得 DUT 雪崩耐受能量约为 456mJ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgaaz0iayE2iaoKNpCKic7EBwKiafQnbMAXkFSD9P24vJSHErzbfohkd8y4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_009_f6115e592de2.png)
 
 由如图 3 可知，单次 UIS 击穿失效是一个短暂的瞬态过程，难以测量器件参数变化特征研究其失效机理。因此，需要先确认失效芯片的失效位点并分析失效后芯片内部形貌，来研究器件的单次脉冲雪崩失效机理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgkF2g7yT9ez3ZWq1icUadUWydJhrMhhJWW6lia2eV1qWibicQlicAHkbdDIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_010_d4731858e727.png)
 
 图 4 为对失效芯片开盖图及扫描电子显微镜(scanning electron microscope，SEM)分析结果图。如图 4(a)、(b)所示，失效芯片有源区域被烧毁而终端区完好，失效点位于有源区，因此单次UIS 失效为有源区失效，且器件失效后呈现出小的局部针孔状熔蚀。图 4(c)为失效点的 SEM 扫描图，图 4(d)、(e)分别为失效点横截面 SEM 扫描图，图 4(f)为正常元胞图。对失效点进行纵向 SEM 扫描成像，发现失效点中心元胞被融化，融化中心点位于原 JFET 区域处，多晶硅层与 N-drift 结合在一起造成栅源短路，同时表面铝熔化与 N-drift 相接触导致器件漏源短路。由图 4(e)可以看到，失效中心位点附近芯片内部具有纵向裂缝。
 
@@ -77,11 +77,11 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 **2.3 失效机理分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGggaeebHoLZlQnDnVFjqFb4Mt8pzNm2zcVnmUjdWDmTqIHmFGv1pAqVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_011_f6e5735afdbe.png)
 
 为了分析单次雪崩击穿失效机理，本部分首先基于图 2 所示的 TCAD 元胞模型，利用 MixedMode仿真器进行器件电路混合仿真，模拟SiC MOSFET的单次脉冲 UIS 击穿过程，提取漏源电压 Vds、漏源电流 Ids 和结温 Tj，仿真结果如图 5 所示，器件的击穿过程可分为 3 个阶段，每个阶段中元胞内部电流分布如图 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGggvkFPO8xqu0luHHWGibZ8eeIcxCwMzbadqv3cOzH91st5lbeiayJTYfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_012_be6e15e4b6f1.png)
 
 1）阶段I \[0~600μs\]：正常导通阶段，电流从漏极经过沟道流出源极如图 6(a)所示，器件处于开通状态，电流线性缓慢增加，器件漏源电压降为 0V左右，结温缓慢上升，大约 10℃；
 
@@ -91,13 +91,13 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 由以上分析可知，器件在阶段II晶格温度急剧上升，而器件寄生 BJT 的电流增益 β 随温度升高而增加，流过沟道的电流 Ichannel 如下式所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGg4ZULYaR9LSiaicwN1icdo1ppYClPJuuxoNmpJCuHLOHb91qJRpOYoTK5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_013_4ec9adfcc9a0.png)
 
 式中 IB为 P-base 区流向 N-base 的电流，虽然这个值正常工况下很小，可以忽略不计。但是随着阶段I(即导通阶段)时间的增加，在雪崩期间流过 P-base区的电流增加，从而 IB增加而不能忽略，且急剧升高 的结温使电流增益非常大，最终导致寄生 BJT开通，即 MOSFET 沟道开启，漏源电压下降，进入阶段III。
 
 图5和6为单元胞仿真结果，一块SiC MOSFET芯片具有成千上万个元胞。在雪崩期间即阶段II，最薄弱的元胞率先开通沟道进入阶段III，导致器件Vds 下降至 0V 左右，其他未发生进入阶段III的元胞将退出雪崩工作模式，正常关断。此时回路电流将汇集于最薄弱的元胞，导致该元胞温度再次急剧上升，发热中心点位于元胞的 JFET 区域，如图 7 所示。因此，栅极下方的 JFET 被熔化形成孔洞，而元胞边缘由于热失配发生晶格错位，产生裂痕，最终导致器件完全失效，如图 4(d)、(e)所示。综上所述，单次脉冲雪崩冲击下器件寄生 BJT 闩锁导致器件失控，造成电流集中而引发器件过热损坏。因此，SiC MOSFET 的寄生 BJT 闩锁是导致器件单次脉冲雪崩击穿失效的原因。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgLVl9lrx00DBF3MG6GaQ5o14VicuWN9PlvibKnW86PWwxicsNDiaSsacemQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_014_fe6af639efe8.png)
 
 **3 .重复雪崩冲击失效实验及仿真**
 
@@ -105,9 +105,9 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 针对 SiC MOSFET 进行重复雪崩冲击实验，发现器件经过大约167k次循环冲击后不能正常关断而失效。实验中记录了 DUT 漏电流变化值Idss，导通电阻变化值 ΔRon以及阈值电压变化值Vth的演化过程，结果如图 8 所示，图中三角曲线为文献\[18\]中的实验结果，文献\[18\]中进行了 30k 次重复雪崩冲击实验，其中 Vth与 Ron基本不变，Idss显著上升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgW4nyCUgzFTXSKHKDdibqToXLngUaQbzGT1FQLn43kzl2EuQkicdhoqdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_015_fe255ee9de6e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgicLfzqY7alPsdWdia6fBX93tzuAvLJLuPZdT9mT227nYpogdcbiaRhwqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_016_3841c4b02163.png)
 
 与本文实验中的前期退化结果相比，Vth 和Idss 的变化具有一致性。但文献\[18\]中 Ron 基本不变，本文实验中经过 20k 次循环后 Ron 开始增加，这是由于器件在雪崩过程中产生大量热量，器件温度上升，而器件关断后温度下降，导致器件承受往复循环的热应力，从而导致键合线疲劳老化脱落，如图 9(a)所示，最终使 Ron 增加。因此，本文中的前期实验结果(0~150k 次循环)与文献\[18\]中的实验结果具有一致性，但 150k 次循环后本实验中 Vth急剧下降，漏电流 Idss迅速上升，且经过大约 17k 次循环后器件失效，说明前 150k 次实验的退化机理与最后 17k 实验的失效机理不同。因此，SiC MOSFET重复雪崩冲击失效演化过程可分为 2 个阶段：
 
@@ -117,13 +117,13 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 重复雪崩冲击失效后器件开盖如图 9 所示，从失效点的分析可看到，不同于单次雪崩失效中单个元胞失效击穿孔，重复雪崩冲击失效属于大面积失效，如图 9(b)所示，失效区域在光学显微镜下呈现大量的针孔状的击穿孔。因此，单次雪崩失效机理与重复雪崩冲击的不同，下面将详细分析其失效机理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgSnicjkqXwB9JEzTawAoHib3xia7fnpCRZ8uaZxibbEl45jlPICxzh89YRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_017_9f32bc794acb.png)
 
 **3.2 失效机理分析**
 
 相比于单次脉冲雪崩击穿，重复雪崩冲击由于雪崩能量较低不能开启寄生 BJT，相比于正常导通情况，器件处于重复雪崩工作状态时将承受极高的电压，且器件在雪崩期间产生大量的电子\-空穴对和热量，进而形成热空穴，而热空穴在高电场的作用下严重影响 SiC MOSFET 薄弱的 SiO2/SiC 界面。因此本节首先通过 Silvaco 仿真分析器件在雪崩期间的电场(electric field，E.F.)分布和碰撞电离率(impact ionization，I.I.)分布，如图 10 所示，图片下方的曲线是沿 SiO2/SiC 界面提取的数值结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgT3kTBm75Mxm2wX7tn0AIOzDLYgJiaQiaosXadvRibaiaKfuicm0wrrYvyJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_018_febb697e5a89.png)
 
 由图 10 可知，JFET 区上方 SiO2/SiC 界面处具有很高的电场强度和碰撞电离率。高碰撞电离率几乎覆盖 JFET 区上方的 SiO2/SiC 界面，而沟道的碰撞电离很小可忽略不计；同样的，垂直电场的方向是由氧化层指向 SiC 方向，在 JFET 区上方的电场强度最高，而沟道区域的电场强度几乎为 0 V/cm。
 
@@ -131,17 +131,17 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 考虑到 SiC MOSFET 普遍采用一氧化氮再退火工艺以减低界面态密度，提高沟道迁移率，但这种工艺使氧化层更容易捕获空穴。此外，界面缺陷也会降低载流子进入氧化层的隧穿势垒。因此，当 SiC MOSFET 工作在强电场下时，热空穴很容易注入氧化层，尤其在具有强电场和高空穴浓度的雪崩工作模式期间。当氧化层中注入空穴时，带正电的硅离子会朝远离氧空位的方向移动，继而与后方的晶格氧原子形成方向键，氧化层中的这种结构的转变稳固了带正电的氧空位，从而增加了栅氧化层中的固定正电荷 QF 浓度。QF 浓度的增加将降低器件的平带电压 VFB，如式(8)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgm9uQzorR8FXhEYmyxhog2xjd6lBq9sPPWay6VWk72yAdTK0luqNGwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_019_73c313e26448.png)
 
 式中：GS为栅极–半导体功函数，与栅极材料和半导体有关；q 为基本电荷量；COX 为单位面积氧化层的电容量，与氧化层厚度有关。进一步的，VFB影响器件的阈值电压，如式(9)所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgJ0M4NPriaNqMiafMyXyh5exboACdbxtO4r0vTKEHia93CD1rVwuS2LE6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_020_c1d564f2d74f.png)
 
 式中：F为费米电势，由器件掺杂浓度和温度决定；V0由氧化层厚度和掺杂浓度决定。因此，QF的增加将减小器件的平带电压，进而使器件阈值电压降低。
 
-随着冲击实验的进行，氧化层中 QF 的浓度累积将增加，增加的 QF相当于在氧化层注入正电荷，由于正电荷的作用，沟道处将聚集大量的电子。随着沟道电子浓度的增加，器件最终即使在 Vgs0V时依然存在导电沟道。如图 11 所示，新器件在Vgs0V 时沟道电子浓度大约为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgXsjmEGjbfd4jkCsiawfW51ztWRW0r2so4tGpENvP1vPwOAbLBv1VALg/640?wx_fmt=png&from=appmsg)，器件能正常关断；随着重复雪崩实验的进行，QF浓度增加，阈值电压下降，沟道内电子浓度上升，漏电流升高，当 QF 增加为新器件的 2 倍时，沟道电子浓度上升到约![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGgID7icyWAiblfrlSxpr0Lpn6oUNQSLlGYKRucrW9QJXBSG377oJI7XHnw/640?wx_fmt=png&from=appmsg)，此时器件在 Vgs0V 时不再具有阻断能力，而阈值电压也基本将为零，最终导致器件不能正常关断而失效。仿真结果中 Vth 下降，Idss上升，这与图 8 中的失效阶段II一致。因此，在器件临界击穿后期，氧化层捕获空穴是导致器件阈值电压退化和器件失效的主要原因。
+随着冲击实验的进行，氧化层中 QF 的浓度累积将增加，增加的 QF相当于在氧化层注入正电荷，由于正电荷的作用，沟道处将聚集大量的电子。随着沟道电子浓度的增加，器件最终即使在 Vgs0V时依然存在导电沟道。如图 11 所示，新器件在Vgs0V 时沟道电子浓度大约为![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_021_7884a1a8b4a5.png)，器件能正常关断；随着重复雪崩实验的进行，QF浓度增加，阈值电压下降，沟道内电子浓度上升，漏电流升高，当 QF 增加为新器件的 2 倍时，沟道电子浓度上升到约![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_022_3031fc106e66.png)，此时器件在 Vgs0V 时不再具有阻断能力，而阈值电压也基本将为零，最终导致器件不能正常关断而失效。仿真结果中 Vth 下降，Idss上升，这与图 8 中的失效阶段II一致。因此，在器件临界击穿后期，氧化层捕获空穴是导致器件阈值电压退化和器件失效的主要原因。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslE82W8ug8vbUSpWaDdsZGg3C6cn73gGSryQbkNLvY3dYHLmVnCjZQfOKr5eWFEKK1jrhM48IlibKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_023_05cb6ad59ff5.png)
 
 **4. 结论**
 
@@ -155,10 +155,10 @@ DUT 完全耗散存储在电感 L 中的能量。器件承受的雪崩时间 tav
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_024_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_025_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\不同雪崩冲击模式下SiC_MOSFET的失效机理_images\img_026_84aa944feb13.jpg)

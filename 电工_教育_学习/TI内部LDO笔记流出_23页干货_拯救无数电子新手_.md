@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/95dQgt-2x2HpJsYFcpsm4w](https://mp.weixin.qq.com/s/95dQgt-2x2HpJsYFcpsm4w)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_000_ec559f3ff72e.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_001_909e8086e918.gif)
 
   
 
 在我们设计产品时，电源方案的选择尤为关键。开关电源和LDO是最常见的两种类型。相信大家已经知道一个基本原则：在低压差、对纹波要求高的场合，LDO往往是首选，用起来简单又省心。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfNb9XkEKXHAzklOshmMficuqk31n1MMqIvJTanl4dg0cqx7IQP1RKpxKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_002_66b10d82356f.png)
 
 不过LDO的学问远不止这些。值得一提的是，TI的《LDO基础知识》文档，从压降概念到电容选型，从热管理到噪声抑制，涵盖了设计中的各项关键要点，非常适合工程师参考。无论是新手入门还是经验深化，都值得一读。
 
@@ -24,7 +24,7 @@ LDO是怎么工作的？
 
 想象一下，你正在给精密电路供电，输入电压可能波动，负载也在变化，但输出电压却稳如磐石——这背后，正是LDO在默默调节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfN8oXr7aEuic32fdXnanqVTGlGtdibTl6P7RS1vZe6GI4Xbzo8ibwdib52WQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_003_9e4bc0031417.png)
 
 它的核心是三部分协作：
 
@@ -47,7 +47,7 @@ LDO是怎么工作的？
 
 举个例子，你希望输出3.3V，LDO的压降是200mV，那么输入至少得在3.5V以上。如果输入电压掉到3.4V，输出就会不稳，随着输入一起下降——这时候LDO已经“撑不住”了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfN2pfaQaenKT8uibkSmpNsuzickpgVBMrUVNvUfG4Zz4uRN3aIP9qDEt0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_004_8d8929b89004.png)
 
   
 
@@ -72,7 +72,7 @@ LDO是怎么工作的？
 -   **本身误差**：通常有±20%的偏差；  
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfNW3JZmGfdKTzXGNIM8vuia7P68NUe3iaHeib4twl3XaCLITLk0Z4RzTicYg/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_005_9df41289a00c.png)
     
 
 最后实际可用容量肯定到不了10uF。如果没留够余量，系统稳定性可能会出问题。
@@ -91,7 +91,7 @@ LDO的原理决定了它会发热，发热量由一个简单的公式决定：
 
 举个例子，如果压差3V，电流500mA，那么功耗高达1.5W——这足以让一个小小的LDO迅速升温。一旦芯片结温超过典型值125°C，就会触发过热保护，直接停止输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfN1p25DTbEHtnJnS7ibXc3B8A1nkR3EGe0FH3oAzdBFXvX3snBmeQrAwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_006_812cf69ab618.png)
 
 改善散热的方式包括：
 
@@ -114,7 +114,7 @@ LDO的原理决定了它会发热，发热量由一个简单的公式决定：
 
 静态电流指的是LDO在空载或待机状态下自身消耗的电流。对于智能手表、遥控器、IoT设备等长期待机的产品来说，这个参数至关重要。现在优秀的LDO静态电流可以做到1µA以下，搭配“使能关断”功能，能极大延长电池寿命。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfNOkTVLKVz2UED5n5PX2HjQHFSOF754KcAIqZ49DfKKqCmNI7jOFTic2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_007_a824f042ab0c.png)
 
   
 
@@ -127,7 +127,7 @@ LDO的原理决定了它会发热，发热量由一个简单的公式决定：
 -   **过流保护**：输出短路时限制电流，防止烧毁；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfNzAImCI7V23cdguTBs1b2ibn8RzW4VM4tDjYiaI17dgNNFqWkTT5HxECQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_008_49567a0d8950.png)
 
   
 
@@ -138,7 +138,7 @@ LDO的原理决定了它会发热，发热量由一个简单的公式决定：
     防止方法包括选用自带防反灌功能的LDO，或者在输出与输入之间跨接一个低压降的肖特基二极管。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfNRhgice9Zlc6sClSEYOB8yq6iaoO6C9IaENIvJWtmTdY0vjPCWmslWo3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_009_0db03e8f65f8.png)
 
 -   **过热保护**：温度过高时自动关断。
     
@@ -151,7 +151,7 @@ LDO的原理决定了它会发热，发热量由一个简单的公式决定：
 
 LDO自身也会产生噪声，主要来自内部基准电压源。如果你用它为模拟电路、音频Codec或高精度传感器供电，就应选择低噪声型号，有时还可外接“前馈电容”进一步抑制噪声。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjKthZhKqLPgAUyibbaicjrfNSdicuKuLFs6q8IbatV3mB46VsbcX4Dq7fHJfW6zfa3LZnHGnTTfVicxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_010_eb14592a1dc0.png)
 
   
 
@@ -173,10 +173,10 @@ LDO看似简单，却影响着系统的效率、稳定性和寿命。希望这�
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhKj4QyFFCdZPEtVvG617zbyKggL1um4DAY7pkjtSKqae8pzXdcBExxzxaWu4UJ10g6pykwsWWsPg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_011_f29fa371db0a.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhKj4QyFFCdZPEtVvG617zbgsGkK9Yt92ZiaiccgVfSlAric04UZnedibk2OicNEia4U9jkeDRInWq7gYuQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TI内部LDO笔记流出_23页干货_拯救无数电子新手__images\img_012_5fe30e42ea75.jpg)
 
 注：本资源仅供学习交流，请勿用于商业用途。

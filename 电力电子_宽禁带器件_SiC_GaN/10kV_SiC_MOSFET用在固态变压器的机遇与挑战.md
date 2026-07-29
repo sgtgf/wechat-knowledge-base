@@ -14,147 +14,147 @@ SiC MOSFET在固态变压器中的应用
 
 • 光储充一体系统：在光储充一体的10kV直挂低压配电网中，固态变压器可以实现高效的能量转换和管理，支持可再生能源的接入和电动汽车的充电需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAD5SJ7Akic7qMoVlmicuVgBCf5p8dgfLS0ic38HBTqDUibwmnmxiaGhH4AqQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_000_c82fb8099210.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAxEFBOiaI5Rxmd7SZuZX4qgFs9RGwzTk5WiaKuahjgn2mYPNQlPRRLtHw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_001_f2632b00a9b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQPv7y3d3JX8TWmUZDjqpVBxg5HI97Yd2colZSCEL5jdThsKEN6iauHQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_002_fd6eab95337d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAkx8CrlB2PTpOms9oMO36U9vuiaiaDCbHLnbxpu4ibupicaNiaTs98nEQj7g/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_003_752d2eb549e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicABZw0qicE1GqWolXe6mRTAyzUTM5UQlFBQexKy1qZiaq45VslzEnr7LLQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_004_879cdc948801.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicACc1I2JILDYLCqOftCialxJkgTJj2gT6uOfvicInTquLNcbpGLIcHbibAw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_005_7788e4db2809.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA4Y8zf0OQ2ib4libKdooknDQemuibsHJcEicz1L6iaXN6N00fdIXIfhUBswQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_006_8f8202703657.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA1gqvT4Jr3koefGgNPDHQy2g4icbqBmYntOicoHozhYhagWG0bibPHRKSQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_007_e0515da990cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicARTwvhyC93asjoJuRibLbYesPWib1rHBWo5WVicpfHhO2iaFWMHQ5O56YiaQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_008_7cb9c9e503fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAfj1d4dWB7ZFq4yufgNgaonRStyDj3dyA2lpNvIlJftibUwMZHHkgTibQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_009_fdf5cd2c2953.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtWoicicw5kycpQ6GZTlSP2wlwRia324IlPqzV3nCJ9koSiaiblLNE2lO5ww/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_010_4d4820d1b9b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2nvVTaumiaT3tI6v5QLWzVlWcsF5gsPzEbicrluTqIO7wdjwjic2bUf0Q/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_011_9d0b3b635e07.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVGMpxhUqlx2ovAib2OUsBXLdElDtvUIRoA9UMX2F7b4C0iaFShoMjMXA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_012_3d2b2668c4c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicADiciaSqklwxQyDI7tAr50NJwQKQoV7XjB1qw5F6FiaJCrUSzPKTj0AOUg/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_013_894eb6650818.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAMCgiaLmzIKaPibIzxawpC7vT1YDiarbXpPUNsvicBTsomMG5zeejCEZBnQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_014_d7d89ad54714.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAPc4KibibbMYpMYrOjSFSkTQ8pNT37baa92DZ1Pb2RznUseHofW3RpZmA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_015_fe35676817ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicACrVdX5Zu4cFrS3mOniaXsIubZZZNE5LRrfpVI2SbPYVRia0OnTHvvyMA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_016_29602ed57dfc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAcANkOJxBnvXvKFkXmtDYohHhBIZU0h1Hl745f8iccTJZQm3Pv05njrA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_017_090cb0b01429.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicALauM7uJWWYq5rkhY8rickSjcAS0OjjnTdfmQ1SNib6go5NX7J0HsP1Nw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_018_54923bc1e43c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA8tYl0tFibUzAjsU7TOdtSlsX1kYpTzibfBvwERVsqobCWJqCOYXwNRbQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_019_20b130158685.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicALP3xV09rh0dX1q5NU80sBpiacj5KicDLXZibwtByxfibWhpRu1DVArykow/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_020_e4decdc1f322.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAyWuxJvILH5PhlRFSQ3uvqDxHRgeQHqwSlvkfiaZLPKBWp4np8J6hB2Q/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_021_99347667ed67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArr8WxpS8oZ55HQXglrKekWR7tbfIDib6vBziaiao74QAyRVMWJz6FDtPQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_022_425c76feecb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAoTDlkZLw8KoHSZmQp4FqNic5pQ6FaKgVLHIjic8tcYbgibbVYHSYY8oSw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_023_ee32bdb6d9a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicApDZ7I9x4ibvAgOYYo9QGiaiaJG0pJWhn9Hbapx8L3vskr70Yuf8ArMvMA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_024_fa145d5b9e0a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2DaF8CzErn07Ww1YiaQicpOtzHUia9QJyfrfnzFnCABSiazMutSdFwgTUg/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_025_99587d2f72b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAmEyyJubabZA9P6sBvRkm5XElVLUdpZD52JqOCQYsZpzJyThGwf3s1w/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_026_734b3144d212.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA8L5gericp8ZERb4CCLLbfJzic2UG2NoC76kibyfh0avWHc3n5iagI0YXiaQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_027_5d65b7e80a15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA6q8eTEJZpDCjGRNrVOSxqGjp3lfUIpvxKiazoicQfQncK8CticytDibQMQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_028_9c8708d99dda.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAykiaOCvF8EvhiaaUGjIA1vYCicPqzX80FQiav2ukjJ29OFKUicJKrSTNK8g/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_029_9e1beb6b3fa6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAym3lBXq538ed0hGiaPg24TMryEHPpbcicvcDCSDmEKLvofZLG5syRazQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_030_204a56b72c46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAYEMukXgbIKSXjY1aNc6Jv2tlFyMXJxyUHdvHJoyZnhz6Q2ibJNdCmTw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_031_17035a56b5ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAlfYohlic12JXMajxReqPu861LCcPUpRmGaiaibiaWKibVZLmdUofroVnkzQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_032_7e3931a4dca5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAFR503pIWzlYgNXZ54NZBib2wPPlXfxXWqKN2rbOuygFwHdicbnbSVe7Q/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_033_d92b9248734d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAeyU5jzADIOgZXDicZzykpl6bgcjc6kOn5SXyVTWaDlBUm5CqxsRBZ1w/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_034_16c2bf94a672.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAsOvRIH4o6B0y3I1oYmibU3ibfFBsVLGUpwj036fnks4UDQnWTiabLIOiaA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_035_684f54dc666d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA3hmydNoKDpQ6MCzURlzhCCuFE9rjvJVfvndYw5rNfJibHnzfJxicCq2Q/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_036_ceb5bcbbccf2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdibVrjrqicoWkru4IhGvLgvBdIEicMRouFm1dD8iaveDibkpzzrW6y7zLlw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_037_fdce52855ca5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArUM1uuJlVA728en9jJuwibC04yy15AswhBxztfia9fJa5m9BKJ6n7vVQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_038_413c6069feee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAnZn0fic9icDTjDrUQSSVIs7zopW9qE3wYLefqvXdQyH5ia7DRorVJXRfw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_039_15d7d03c2770.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA3RSPFia6CkpA9tXVgGmVA4JYjKKoDtuL6bP02seiaXJffhaP8heEnxIA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_040_0e9c600c0d9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAlovoIAE7wdX5sOkN5vlU9HEKRRibq5unSsLDlEDW5d7Nwofk9srJvdQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_041_b4432a400f3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKOXKN6Aib5WZKibeKCLcYQvlzuCr92bynaHHeYFDL5gndtl6Hrd5z39w/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_042_fe7f6e3a5523.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAicl9W1ia7QlDHN8iaOA3mM25kwpyXwic9lTuJNwocovSsibGNYsTYj1VJ5w/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_043_0df7cb673088.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQ2IamiaZJicWibibNE6eia5brW8yrxoX1H5T7xTriaNic8XM2MMtU8a2wXzRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images\img_000_500bed3a0e9e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAmRFvHtokjVK89k7qxyEVXIsBaZibnr60Ts11MlJGXG5B7g6Xy8ABbmA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_045_bbc1b8b8294e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVH2MrKFmib42keT2vzyIc4AMxASGHgWrgITkKF9KLVGHQsvj1yL30ibw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_046_c562f0feaa7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdUAZxmSgrE7SSNUN5MViaBThQkGzib7ticuyKGu2Dgf0TAP5QvhQj64Og/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_047_8d342ef7f631.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAYMfBnhzhZqwZLx5P4WuGj2rkTkI89hp3zI52DiaKDS9SdntL1xFkxsw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_048_3ffcf66e0bd1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQXUtrvK9d5NyeJgtibCWqtvKMF8A0vMrThYOGvlebBkbGx8DLMIwk6A/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_049_c9b008a5c388.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtJhIzgPf63uW3qV1vBKYgDicX5ETyuFMrTp85LPgicaebBkBVoWhjA0w/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_050_093cd62b7721.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAl0GecHPKXNfpT9R3NE9fpib0gicu5u70L6icpZqlFNPuFXPb3r1V6iabIg/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_051_a3d99d901349.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAzCueImfcbqpv4e56pTDXtMDMhjtiamJmRMDDIm08weppia4DmQzsfpsw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_052_15909d753a1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAHbnM1wrbhnX3IGIl56bj9cygOxLMHNjMBKZFCPJbgibS5u6EbtIhxsw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_053_614be49efdf9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAJwCciaiaib5oZWLpfib31doccvicg1h6wqLXyE1Bos4ROKVjn4wjRnTVrCA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_054_f495290952ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAMsNR8vaHbNlC2iaiagEl8RraA8njOZWLeS8zetK5LofzTbiadaSpuSOtw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_055_594918547ae2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArgkgLXVshx9bt7QAxkoGDCqicibOHKzgWOmK7XppHJwuviaqtVbfCBz9Q/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_056_41104742fa3a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAChw929Vnu2sYSichNvcbgDMYlURBHLXN60sc9oLURzrUPibdm6NibZRgg/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_057_c399c743576f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAa4mPXEib1ByC8bDsxVqKict8D7NNNj7hpw5hwC3DyxDsibcFBS2slxkYw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_058_2e1abc6d6708.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAfWN6teiaHNyuiaiaykeWzl0QibMNJPQh4XjlnXggpWIU9XDqzvTLpJKzeA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_059_3fb8d5068dbb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAW354se2TojAIYiaq3J6Nco6LlwNsam1TNRYic2myJqxnrY6iahV1wLjGw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_060_f4f3a3411f4d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAh4R2o59PPVCzjB3icLFggAmeRsvTRzaRJa2U6c4a9ryEou0afdlZHZA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_061_4064e34c5276.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAd6Ya7AicC6ARBLqRnlPQAH1769iaYVpNGskIUtrLoJwicteIURUicmhZBg/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_062_ec682bc73148.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAFrTv6FA4LAibpliaYOicMoCWagOXrvk835pEhmqrwgW18pMXtvdoVGAmA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_063_701664c4ad6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAouAUMszhfgtQCr6yAIw6CmH4cXSzPLmfGQhuue4aDrwtL3WNKH7iaiag/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_064_5ff52421b9d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWfBljwPCIbaRhdrkE7bEHqMVks3EX6EOlV9VEngRJwStOzQqarCoRQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_065_cf47d4c81091.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAzicKsiaibZwEomkp7xfkRzUsdj50BRKo97tkpia9FsRBIaMncxev9GDoYw/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_066_efe233e35f79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicATatvYNTAef11x3DrZpTnSfpPYxcoFTlPyaTI9uSL1pbBczib3JkTHTQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_067_bb32c533e26f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicANv65bsJDMJcXwujEtribicGqRUDxIDLVNXBgZBY2ibofWzmfkdeKw2a7A/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_068_9d3aec63de6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA3ibriaw10WYV9Wkw7nnCLITj0icGlK7zyiaKyxbPl2pRqw3EUkkTWcbtyQ/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_069_5b5419999930.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAmKlpBvNXRZzsC3RBc52OEJzlaRlVuXEVAWP7KPk9UiaMJr2GxpBwJGA/640?wx_fmt=png&from=appmsg)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_070_db91879597e9.png)
 
 SiC MOSFET在固态变压器中的应用既面临着诸多机遇，也存在着一些挑战，具体如下：
 
@@ -204,10 +204,10 @@ SiC MOSFET在固态变压器中的应用既面临着诸多机遇，也存在着�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_071_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_072_3ade3c3d8599.jpg)![](10kV_SiC_MOSFET用在固态变压器的机遇与挑战_images/img_073_84aa944feb13.jpg)

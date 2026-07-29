@@ -39,21 +39,21 @@ SiC MOSFET的短路保护策略有很多，主要分为以下几大类。
 
 如果忽略了功率回路的寄生电感，vds近似等于总线电压，则电流变化过程可以近似为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMBgTHR76Ir1WUcPHiavBBXKJHkAnDtesP4iaXeeMDTmBV0rKMXrOj2IfA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_000_7d62c66cabf4.png)
 
 式中，gm 为SiC MOSFET的跨导，它与阈值电压vth和跨导系数β有关；vgs为SiC MOSFET 栅源极电压。vth 可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMGprzYlyicQz7Q0djWpaBySTCHF6dDXW5ShkXnaebz24T37gCWy9Sgbg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_001_d724a05976ad.png)
 
 式中，εs为介电常数；k 为玻耳兹曼常数；T为开尔文温度；q 为电子电荷；NA 为掺杂浓度；ni 为本征载流子浓度；Cox 为氧化层电容；Qox 为氧化层总 有效电荷。vth主要由Qox、NA 和Cox决定。其中Qox主要包括可移动离子电荷、氧化层陷阱电荷、固定氧化层电荷和界面态电荷。这些差异由阻挡氧化层 厚度的Cox决定。 SiC MOSFET的vgs 可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMfODkMkqldH4LPxIlP9TLJDwWvYj5e2rd0xUzMe1jCJRvXEicSBMwZ8A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_002_63fbc7f6a5aa.png)
 
 式中，Ciss 为输入电容。 
 
 SiC MOSFET的vgs 还可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMFtGwgasWliazzdJWPYEnyBZkoEgNAgrsXYVmGGp9OYSxOiaFbTYmxhHw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_003_0cb6c96b8516.png)
 
 尽管SiC MOSFET 在不同短路故障下的短路特性存在差异，但短路特性分析方法较为相似，所以本文只对其中一种短路故障进行分析。以HSF为例，本文选用Wolfspeed 公司生产的型号为C3M0280090D（900 V/10.2 A ）作为待测SiC  MOSFET，其短路电流特性随不同参数的变化分析如下。 
 
@@ -61,7 +61,7 @@ SiC MOSFET的vgs 还可表示为
 
 根据式（4）可知，Ls会影响SiC MOSFET的栅极电压大小，二者呈负相关。不同Ls 对应的ids差异如图 1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMnNuicsCLETSsoGdRR2vBF0Gw4qXueP67tmPSfCVjQyALOVgiaicWBjyrg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_004_1407d2b8ffbd.png)
 
 随着Ls 的增加，ids 峰值逐渐下降， 其原因为电感对电流变化存在阻碍作用，较大的寄生电感会导致电流上升、时间延长，从而减小短路电流的峰值。另外寄生电感的增加，也会使其产生更大的感应电动势，该电动势的增加会降低器件漏源两端电压，进一步限制了电流峰值的增加。 
 
@@ -69,31 +69,31 @@ SiC MOSFET的vgs 还可表示为
 
 根据式（3）可知，Rg主要影响SiC MOSFET栅极电压 vgs 充放电速度，但由于该变量处于指数函数中，对vgs 影响很小，所以根据式（1）可知ids几乎不受影响。不同Rg 对应的ids 差异如图2 所示。 随着Rg 的增大，ids 峰值会略微下降，其主要原因为Rg 的增大会减小驱动电流，进而导致MOSFET 的导通程度降低，阻碍ids 的上升，但阻碍程度相当有限。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMJ7BIibWecvCVAicHUdVNpf3iatDmtG4kHtrTxC37mrfDBEkhIQUzkBfmg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_005_37c6e9e07410.png)
 
 3）不同Tc 下的SiC MOSFET 短路电流特性
 
 不同Tc 对应的ids 差异如图3 所示。由图3 可知，随着Tc 的增加，ids 峰值逐渐下降，这正是由于SiC MOSFET的导通电阻具有正温度特性，温度越高导通电阻越大，ids 越小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMiby9RjibAURC4YLDrWAfTibJWtGnlltalALI2VIgaFMFiaaYkkaldb6sIA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_006_ba1048f4ab8b.png)
 
 4）不同vdc 下的SiC MOSFET 短路电流特性
 
 不同vdc 对应的ids 差异如图4 所示。由图4 可知，随着vdc 的增加，ids 峰值逐渐增加，这点很好理解，根据欧姆定律，电压越大，电流越大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMPibKMNZS5EcAhK6E2uHmLBsPgBoTdBpR3aYRxU2HJHOibr8Y0Iml5jFQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_007_8ab20cdddf47.png)
 
 5）不同vg 下的SiC MOSFET 短路电流特性
 
 同时根据式（1）和式（4）可知，ids 与vg 呈正相关性。不同vg对应的ids差异如图5 所示，随着vg 的增加，ids 峰值逐渐增加。沟道宽度随着vg的增大而变宽，更宽的沟道意味着更小的导通电阻，从而允许更大的电流流过器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMHUCgDL56B79J7lzib6skAbic9fdQHX3xtutjFcnzNoxDFUSu7dYp1wtA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_008_ac540030b70c.png)
 
 6）不同vth 下的SiC MOSFET 短路电流特性
 
 选用同一型号但不同的vth 的SiC MOSFET做对比，不同vth对应的ids差异如图6 所示，定量层面解释见式（1），随着vth的增加，ids峰值逐渐减小。 物理层面解释则为越高的vth 意味着需要更高的vg才能使SiC MOSFET沟道打开，因此在相同的vg情况下，高的vth对应的SiC MOSFET沟道导通程度小于低的vth，即vth 越大，ids 峰值越小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMgIomDDg1nx9fBiaKDmt7giaD5woOcOibcx9cWJRGiaR1U5wKy46EkuEib3A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_009_13f3257cc154.png)
 
 7）不同参数对ids 影响程度大小
 
@@ -101,7 +101,7 @@ SiC MOSFET的vgs 还可表示为
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMQ7tGNHwmCXNltaTibYRA9weO2x655zS9PcrCsqrANBWicSK3OrnMXmvA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_010_f68e7b6296cf.png)
 
 2 di/dt\-PMOS 方法原理
 
@@ -109,29 +109,29 @@ SiC MOSFET的vgs 还可表示为
 
 TO-247-4封装的SiC MOSFET由于引入了开尔文引脚，可以减小驱动回路的寄生电感，提高开关速度，减小栅极电压的波动，降低开关损耗。在开尔文源极与功率源极之间存在寄生电感Lss，该Lss在SiC MOSFET 开通瞬态会产生相应的感应电压vss，传统基于di/dt\-RC 的短路保护策略正是利用了该感应电压来判断短路事件是否发生。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMqKibWEyZHK0YNj3rPr9KbiaLBJL9sKK3ibC7kCytRejqAvsOyD7GicFqDg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_011_3ee99a3c6608.png)
 
 TO-247-4封装的SiC MOSFET正常开通状态波形、HSF波形以及FUL波形如图8～图10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMdbVT01ic4U6Jj0Su19vPk9GkWhZv9XfY6zWK0SRfkzsQ0rBV5YkicX3g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_012_832d34dedd4d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMDC9V5LS8yzZmwSLSyaxEbHXAfWFDxoSiaRl4IxsrDHrfy99UVLyibniaQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_013_45e5b6389004.png)
 
   
 
 2.2 传统di/dt\-RC短路保护原理及其存在的问题
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMWOuIsdDfoabpPyCWU0eGrt02ANhzT6jiaFZTEwicRxXwZASv3b8fShtg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_014_3ad9258c2e64.png)
 
 传统di/dt\-RC短路保护策略电路如图11 所示， 主要包括待测器件（Device Under Test, DUT）、RC积分电路、比较器电路、SR锁存器电路以及DUT关断电路。 RC 积分电路主要包括一个RC低通滤波器用于执行积分，目的是为了在短路故障期间，利用电容电压表征ids，由于SRfCf≫1，所以此时高频传递函数可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMrzZzxz2T3lmgm3hXddkDY1z6h7M0pUZjVQycBHaTFl8AL7g1MbJG6A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_015_5f95f08fb152.png)
 
 式中，Rf、Cf、vCf(s)分别为阻值、容值、RC滤波器输出的电压。因而vCf(s)存储了ids(s)在短路状态中的值。当DUT 发生短路时，vCf 作为比较器电路的输入，与所设的短路阈值电压vthsc 相比较，若vCf＜vthsc，比较器输出相应的短路信号，该信号经SR锁存器电路锁存，控制Soff 导通，PWM 信号经Soff及 Roff 拉至−VEE，DUT 关断，完成短路保护。
 
 传统di/dt\-RC 理论波形如图12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMNnveVRXvH6uiaUnJyPubTBtY8FaX2qzMQdAIYJiaBhpGG3PrcLiaK7xLA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_016_dd7836f7aafc.png)
 
 传统di/dt\-RC 短路保护策略虽然可以将vss 存储起来，并且根据vCf 的大小推断出ids 的值，但是该方法存在缺陷，即HSF和FUL两种状态下触发短路信号的阈值不一致。具体原因分析如下：
 
@@ -145,13 +145,13 @@ TO-247-4封装的SiC MOSFET正常开通状态波形、HSF波形以及FUL波形�
 
 2.3 本文所提出的di/dt\-PMOS 原理分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMwkCpCDmWOHPGtCH9icvjDT9iciaicH3j5llHqnJ8jVBHSlfsMzhu9A4v5A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_017_3f384e7a6f15.png)
 
 图13 所示为本文所提出的di/dt\-PMOS 短路保护策略原理，其中主要包括DUT、RC 积分电路、 比较器电路、数字隔离、SR 锁存电路以及DUT 关 断电路。其与传统di/dt\-RC 保护策略不同之处在于本策略在RC 积分电路与Lss之间串联了一个PMOS器件Sp，利用PMOS 中寄生二极管的单向导电性阻碍Cf 的放电，并且在DUT 处于关断状态时，DUT驱动为负压，PMOS导通对Cf 进行放电复位。
 
 本文所提出的di/dt\-PMOS理论波形如图14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicM4zBcnGmfwnkBOe5ypTSVShV5H6o4Wib0vWfscZ0Q9iaBPuk9jKAlurOw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_018_d0384a626737.png)
 
 具体原理分析如下：
 
@@ -163,41 +163,41 @@ TO-247-4封装的SiC MOSFET正常开通状态波形、HSF波形以及FUL波形�
 
 3 实验参数设置及实测结果对比分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMktRP1nSFcfMnndArZn7qDA0Rk3QvBBIVRKFv2OicoGFcFib6pp2D4jFQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_019_6d0226da05ef.png)
 
 实验测试板结构框图如图15 所示，为常见的半桥电路，Cdc为储能电容，下管为DUT，di/dt\-PMOS保护策略作用于DUT上，为了保证安全且不影响DUT短路性能，上管选用额定电压及电流远大于DUT的IGBT。控制IGBT 及DUT 的开关时序即可模拟出HSF 和FUL 两种状态。测试平台如图16所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicM6BoX5MowPTE9iasxSdTEpIeFBGSguxDNRS0cnZOd6xANxSUiczB9ooow/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_020_a25d7c17226b.png)
 
 本实验中各参数选择为Cf\=470pF，Rf\=330Ω，vthsc\=−2V。DUT选用Wolfspeed生产的型号为C3M0075120K（1200V/30A），IGBT选用CRMICRO生产的型号为CRG40T120AK3S（1200V/80A）。直流母线电压设置为600 V，SiC MOSFET 初始结温设置为25℃。
 
 3.1 HSF 实测波形分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMKPsqlLqo54M9oLoLCnM9O9JgQFlE8hIAG60jcIB2Av8RFyzFSmicjJA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_021_134289ac01ee.png)
 
 图17所示为传统di/dt\-RC的HSF实测波形。t1 时刻，发生HSF，ids 急剧上升。t2 时刻，vCf\=−2 V，ids\=55A，此时比较器电路触发短路信号，该信号经数字隔离 SR锁存电路以及DUT关断电路，造成一定的延时至t3时刻，DUT关断，短路保护完成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMOmx9bWnJX7iax4ibDWSLs1e7UibEgvOMlFiacqpwicxoNg4TGY1Gydpm2Kg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_022_21b27d75cddb.png)
 
 图18 所示为di/dt\-PMOS 的HSF实测波形。 当vCf\=−2V 时，ids\=60A，保护过程与传统di/dt\-RC一致。
 
 3.2 FUL 实测波形分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMt8UTADK4Y0mCAyRqHNKZo4Sic7EYJd0fI3aBASCYM7cI1vgYvn56BpQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_023_5c650ebe2989.png)
 
 图19 所示为传统di/dt\-RC的FUL实测波形。t1时刻，DUT正常导通，ids 从0 上升至ids(on)，vss 给Cf 充电，vCf 从0 下降为一定负值。经过很短时间后ids 稳定于ids(on)，vss\=0，Cf 放电，vCf 逐渐趋于0。t2时刻发生FUL，ids 从ids(on)急剧上升，vCf 从0急剧下降。t3 时刻，当vCf\=−2 V时，ids\=78 A，信号经数字隔离SR 锁存电路以及DUT关断电路，造成一定的延时至t4 时刻，DUT关断，短路保护完成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicM7ZL393ZOEwt5lUoIKz5RLgeA8mPcty9yg9kf00RhSZ3FrRk6DExwKw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_024_224e4cc1a18e.png)
 
 图20 所示为di/dt\-PMOS的FUL实测波形。t1时刻，DUT正常开通，ids 从0 上升至ids(on)，vss 给Cf 充电，vCf 从0 下降为一定负值，但由于PMOS中寄生二极管的单向导电性，阻碍Cf 放电，vCf 保持不变。t2 时刻，发生FUL，ids 从ids(on)急剧上升，vCf 急剧下降。t3 时刻，vCf\=−2V 时，ids\=62 A。信号经数字隔离SR 锁存电路以及DUT关断电路，造成一定的延时至t4 时刻，DUT关断，短路保护完成。
 
 由上述实测结果分析可知，在直流母线电压为600V，初始结温为25℃情况下，传统di/dt\-RC 短路保护策略中，HSF和FUL二者值相差23A，相差率达42%，而本文提出的di/dt\-PMOS 短路保护策略在相同情况下，HSF和FUL二者差值仅为2 A， 相差率也仅为3.3%。由于器件的导通及静态特性均受结温影响，考虑本文所提策略的普适性，将SiC  MOSFET初始结温加热至125℃并再次进行实验， 结果显示di/dt\-RC 保护策略相差率为42%，di/dtPMOS保护策略为5%。对比可知，初始结温对di/dtPMOS保护策略影响可忽略不计。不同初始结温下两种保护策略数据对比见表1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMB6KL2x3NsGLLUzTxvXoSs7DoQRnQQ62yhoD5PPvhd6CFvVUquwiahkw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_025_4af47101c084.png)
 
 初始结温设置为25℃，直流母线电压设置为500V 并再次进行实验，结果显示di/dt\-RC 保护策略相差率为40%，di/dt\-PMOS保护策略为7%。对比可知，di/dt\-PMOS 短路保护策略性能远胜于传统di/dt\-RC短路保护策略，且普适性强。不同直流母线电压下两种保护策略数据对比见表2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMlibDoG8QKz2mxrMsK35MSrRl672ytNhWE5GIX11UswTU4nO806AlV2w/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_026_01f2e2b68ab8.png)
 
 在极端HSF 状况下，vss 最大不超过10V，Cf充放电峰值电流不超过30mA，绝大多数PMOS 都能承受这个量级的电压和电流。且在正常开关状态下vss 更远小于10V，对PMOS的危害可忽略不计。
 
@@ -213,10 +213,10 @@ TO-247-4封装的SiC MOSFET正常开通状态波形、HSF波形以及FUL波形�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMBib8sAdvEvIOK3GhTcAffEeJKpOwmWxJ6P3aSr8vdCgkxHAgyE72vFQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=19)
+![图片](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_027_d5a6e1c24035.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMaVA7uawXzx95z7Sy8KmTOpaUnUJflTZnLGAoSEpP9BRddmuicCYJIZg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=20)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMp4AQ6QVAj0fUy5riaYWaQLp3RiboKel9fg1g2Nrm3Tia6wcMv7NXtKFgA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp#imgIndex=21)
+![图片](SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images/img_028_c1cacdd2ef91.png)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET_的短路耐受时间分析及其基于_di_dt_PMOS_的短路保护_images\img_000_60dad70c0cf9.png)

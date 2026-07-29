@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/LYZ7uDq1fsKJjbpYBbqRxA](https://mp.weixin.qq.com/s/LYZ7uDq1fsKJjbpYBbqRxA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -38,7 +38,7 @@ M. Ghods, J. Faiz and A. A. Pourmoosa, "Winding Function Model-Based Performance
 
 The magnetic flux in a permanent magnet transverse flux generator (PMTFG) is three-dimensional (3D), therefore, its efficacy is evaluated using 3D magnetic field analysis. Although the 3D finite-element method (FEM) is highly accurate and reliable for machine simulation, it requires a long computation time, which is crucial when it is to be used in an iterative optimization process. Therefore, an alternative to 3D-FEM is required as a rapid and accurate analytical technique. This paper presents an analytical model for PMTFG analysis using winding function method. To obtain the air gap MMF distribution, the excitation magneto-motive force (MMF) and the turn function are determined based on certain assumptions. The magnetizing inductance, flux density, and back-electro-magneto-motive force of the winding are then determined. To assess the accuracy of the proposed method, the analytically calculated parameters of the generator are compared to those obtained by a 3D-FEM. The presented method requires significantly shorter computation time than the 3D-FEM with comparable accuracy.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179W2Cww7TzpnNFIOtwsQ7tcIJeiafucdRgIHa9kzsNsg4rezhgePBxjcibuZHUmbCgCg6a2OW0wK2dw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_001_f3f7abc48b0f.gif)
 
   
 
@@ -48,15 +48,15 @@ The magnetic flux in a permanent magnet transverse flux generator (PMTFG) is thr
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179W2Cww7TzpnNFIOtwsQ7tcCge8rJI6iaGmlUFdwLwZnStiaIxWoIAzmLoXH7vicsddg7mpv0mT7uMZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_002_35aae8c23e1b.png)
 
 **Mehrage Ghods**，于2017年获得伊朗德黑兰谢里夫理工大学电气工程硕士学位。他目前在德黑兰大学攻读博士学位。主要研究方向为电动汽车、混合动力汽车和低速风力发电机的新型永磁电机和驱动器的设计与控制，以及可再生能源系统。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179W2Cww7TzpnNFIOtwsQ7tceafKYJUVVn4CNt7h99Jd0EgFlPFAWk9GwOnXh85DsnPHXyagIPJzZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_003_5cbf2f3dafa6.png)
 
 **Jawad Faiz**，于1988年毕业于英国泰恩河畔纽卡斯尔大学电气工程专业，获得博士学位。他目前是伊朗德黑兰大学的杰出教授、伊朗科学院院士、欧洲医学艺术科学院院士和IEEE高级会员。主要研究方向为电机和变压器的设计、分析和故障诊断。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179W2Cww7TzpnNFIOtwsQ7tcm5BGg3Mqhr1QaiakTMRJ0IjAiapA0aPlOdDoAzQJmdmY0HQPqdrgfbkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_004_d4cf65f316e3.png)
 
 **Ali A Pourmoosa**，分别在阿扎拜疆·沙希德·马达尼大学和阿米尔卡比尔技术大学获得电气工程学士和硕士学位。他目前正在伊朗德黑兰大学攻读博士学位。他的研究兴趣包括设计和电力电子。
 
@@ -64,7 +64,7 @@ The magnetic flux in a permanent magnet transverse flux generator (PMTFG) is thr
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_005_654c2fde68d8.jpg)
 
   
 
@@ -78,15 +78,15 @@ The magnetic flux in a permanent magnet transverse flux generator (PMTFG) is thr
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_006_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_007_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_008_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -94,15 +94,15 @@ The magnetic flux in a permanent magnet transverse flux generator (PMTFG) is thr
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_009_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_010_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_011_644d85f1cc17.png)
 
 学会官方B站
 
@@ -110,15 +110,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_012_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_013_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\文章精选_I_伊朗德黑兰大学Mehrage_Ghods等_基于绕组函数模型的永磁横向磁通发生器在直接驱动系统中的性能评价_images\img_014_c28b250481e7.jpg)
 
 学会科普微信
 

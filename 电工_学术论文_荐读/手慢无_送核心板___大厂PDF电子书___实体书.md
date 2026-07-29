@@ -10,7 +10,7 @@
 
 2025年是AI爆发的一年，也是智能机器人绽放的一年。说到机器人啊，它的核心器件就是电机这玩意儿，简单说就是把电变成动力的装置。不管是机器人的行走，抓取和转动，还是咱家里的空调、电风扇，都离不开它。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiabBJeDWiatdWCiazpG4INNwdFJEv9iaHZjqIW0wmY0aCsPcCqjice23jzg7DEPe3Rm9e2BSzSquib7pOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_002_cde1e708a2ae.png)
 
 现在新能源、智能制造这些行业火得不行，电机技术人才也比较吃香，如果还在迷茫不知道选什么行业的朋友，可以了解一下这个方向。
 
@@ -34,9 +34,9 @@
 
 产品图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjjFXicX5Twlc7uwoexbzX82mat8kQSrrope2dwyib4qdGGNOV62YnQdX5reseqgVtdJricgIt4hLeIA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_003_0799790ccadf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjjFXicX5Twlc7uwoexbzX82BNNFL2HSazAV7ZLibRg28gqy9iayZ14PxZkQvMZGnOWYwiba3AYaTg1mA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_004_7dd8d00b6069.jpg)
 
 我特意问过了，这板子成本贼高：黑色沉金工艺，逼格满满；装在86型号铝合金外壳里，全套下来值300大洋呢！我跟他们确认过，只生产100套，抢完就没了！
 
@@ -63,7 +63,7 @@ https://www.wjx.cn/vm/wQgFDPV.aspx#
 
 或微信扫码：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5WS8HNsZ5ScCbvxAmyaLiaQJTvyAwWMdoJudjkicP6sFEia7Lger5vOs7pyRHHwFVVMZuotDgM9dPjibibUj30pq4AA/640?wx_fmt=png&from=appmsg&randomid=urskoh38&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_005_4ffb482f2185.png)
 
 最良心的是他们把硬件软件方案都开源了！
 
@@ -77,7 +77,7 @@ https://oshwhub.com/beauty\_light/cw32l011-dian-ji-qu-dong
 
 开发板数量有限，但是我想大家可能对电机驱动感兴趣，想试试CW32L011K8T6这颗芯片，于是我死皮赖脸要来了10块CW32L011核心板，免费包邮送！怎么领？看到最后你就知道了~
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjFXicX5Twlc7uwoexbzX82zibMDiaWMlazpgK6tAGhia5ibLwjBS7LLoXEKKyS6Plc2elWElibbOG7ibiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_006_c257dd66e9c2.png)
 
   
 
@@ -87,7 +87,7 @@ TI电机驱动PDF免费领
 
 这个也跟电机驱动有关。之前分享过一个TI的电机驱动文档，结果微信被加爆了...实在回不过来，现在直接放网盘了，去公众号后台回复就能领，方便得很！
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjFXicX5Twlc7uwoexbzX82RvV7iclicWeQwIT5r2zia6NVdbFcIf5afQibNEZDSrnxB2sX9QicXT1AOkg/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247555364&idx=1&sn=5d115a7f24518a2cf74463d57896955e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_007_0f65a5cb8d91.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247555364&idx=1&sn=5d115a7f24518a2cf74463d57896955e&scene=21#wechat_redirect)
 
   
 
@@ -97,7 +97,7 @@ TI电机驱动PDF免费领
 
 之前文天祥老师多给我送了几本《开关电源环路》书籍，而且每一本都有本人签名，今天借花献佛送给大家！都是干货，搞电源的兄弟别错过~
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjFXicX5Twlc7uwoexbzX82jsT7icZEMhRia997S1yfdiahhXnia8Ae0aDXKhMvkNp2YV7dHXWyBrJBicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_008_669fd3e1e8d3.png)
 
   
 
@@ -115,7 +115,7 @@ TI电机驱动PDF免费领
 
 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiabBJeDWiatdWCiazpG4INNwdQHqrncE2II4vOoCu2V4iak7zuO1oWI68IGsicSFCHjucl2ULQkYOXysw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_009_cb8454b5ec20.png)
 
 点击发送以后，会自动弹出抽奖链接，即可参与抽奖机会，抽10位老铁送！
 
@@ -139,7 +139,7 @@ TI电机驱动PDF免费领
 
 开关电源控制环路设计书籍，这个在微信朋友圈点赞抽奖，送书方式见朋友圈，免费赠送3本实体书籍，这个需要大家自己出邮费哦。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjjFXicX5Twlc7uwoexbzX82qkvmtCNr7Aic2OTWTkvrh4Bq6cuMtVu3EwJNPfJhibREWibbHgc6BJV0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\手慢无_送核心板___大厂PDF电子书___实体书_images\img_010_13a5f1263d91.png)
 
 **记得先加我微信，方便参加活动，也能确保中奖后及时联系到你！**
 

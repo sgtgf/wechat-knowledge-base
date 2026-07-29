@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/fsrZgNU-mONhUU0eIG3ENg](https://mp.weixin.qq.com/s/fsrZgNU-mONhUU0eIG3ENg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCO0PPcVrWOsJkLyuyY4lau2m8rZ4B1zURdc3pg77Cxp4bL0R6SOxFtg/640?wx_fmt=png)____**★★★**______Power-8---低压栅极驱动器______**★★★**____
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_000_8afe3bd68ca8.png)____**★★★**______Power-8---低压栅极驱动器______**★★★**____
 
 _撰稿：Timothy  校稿：Timothy_
 
@@ -13,7 +13,7 @@ ____________€1.结构组成____________
 
 在SMPS中，如**_图8-1_**所示，（Low Voltage Gate Drivers）低压栅极驱动器 （半桥栅极驱动器）即是2部分。而在电机驱动中，两个半桥栅极驱动器就可以组成一个H桥驱动器，控制电机的转速和方向，在AC-DC/DC-AC中，还充当整流器和逆变器，例如无线充电链路。每一个功率器件都需要一个驱动器（驱动芯片）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26qX6u27trjmsFKUsSDK8zd7cZvcbmk00AZuxOfGibaiaY2DFVCCGuGySg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_001_597f5ebc223d.png)
 
 **_图8-1：DC-DC结构层级_**
 
@@ -25,11 +25,11 @@ _驱动结构_
 
 **_图8-2_**是一个和数字电源控制器搭配使用的半桥栅极驱动器IC内部结构图，其中VCC是独立供电引脚，BOOT和PHASE用于自举设置（BST），PWM来自于数字电源控制器的PWM输入，输入信号PWM参考SGND引脚，TG/BG（UG/LG）状态由该引脚处的电压决定。驱动器内部实现了一个嵌入式电阻器网络，如果该引脚是浮动的，内部电阻分压器会触发高Z模式，在该模式下BG和TG都关闭，Layout时该引脚上的寄生电容应最小化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/JGbdHe4j0TRGVXXdBMXNzCFVSIfibDrvriaGAwGx5mTOYZlS2AU5DofibibrSHslN00K5EZXS72EXCJ87JvbKR2C9w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_002_4ca671d61522.jpg)
 
 **_图8-2：典型的半桥驱动IC内部结构_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREvXTxRHobfPicIhPWhkKGt1FZZAL1Xuf47YoIDGfpcRJEx6J66FwSibF1O2YWwTcuO5KQ9t8glibPw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_003_b16ce8fccb7f.png)
 
 **_图8-3：典型的半桥驱动IC内部结构-2_**
 
@@ -37,7 +37,7 @@ _驱动结构_
 
 而同一个PWM波可以同时驱动多个驱动器，如**_图8-4_**所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQZbBgkPZzKHB2hAvQ2JhVqeejQfiaiaPd18iaTRic3v9e09F2Wl8XKDKKibfficmjG7BOuqoVgRoXLVAZQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_004_13c9ebac7c48.png)
 
 **_图8-4：多驱动器模式_**
 
@@ -45,7 +45,7 @@ _驱动逻辑_
 
 对于具有固定转换阈值的三态PWM输入，驱动器的转换阈值和三种输入状态之间的关系如**_图8-5_**所示。当PWM上的电压大于阈值VIH（TG）时，TG被上拉到BST，使高侧MOSFET导通，该MOSFET将保持导通，直到PWM降至VIL（TG）以下。类似地，当PWM小于VIH（BG）时，BG被上拉到BGVCC，使低侧MOSFET导通，BG将保持高电平，直到PWM增加到阈值VIL（BG）以上。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSziaGlsHExXXCkprvMM0WyibtHoALhXMMia05dRic4hhgYiaM4qXVbK2nicEeSrQln57wQQVC3Ut1JocxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_005_b291f847b7c7.png)
 
 **_图8-5：三态及其转换阈值_**
 
@@ -55,7 +55,7 @@ _驱动逻辑_
 
 对应的VIH和VIL电平之间的滞后消除了由于开关转换期间的噪声而引起的错误触发，但是应注意防止噪声耦合到PWM引脚，特别是在高频、高电压应用中。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TREvXTxRHobfPicIhPWhkKGtwRZbestg0NqCj6jv3o5Jelg0xt5zFKIqN3NkajrRIAVXdibAnia0gyQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_006_d5246a260948.png)
 
 **_图8-6：三态栅极驱动器时序图_**
 
@@ -63,7 +63,7 @@ _驱动能力_
 
 由于功率MOSFET通常占转换器中功率损耗的大部分，因此具备快速导通和关断特性的功率MOSFET非常重要，从而最大限度地减少转换时间和功率损耗。如**_图8-7_**所示，驱动器的典型1.5Ω上拉电阻和0.8Ω下拉电阻相当于10V驱动器电源下的3A峰值上拉电流和6A峰值下拉电流。BG和TG都可以驱动MOSFET的快速导通转变，具有以18ns上升时间驱动3.3nF负载的能力，所以一定要关注所选MOS的寄生电容和Layout电容。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT4NER3vCaK0F0sbJqxhJRnd2zcoibibCCPicM1HnLSd4fVHb5ibABMuNDwL2wjHbu1fNVExRJ1w0oH5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_007_cce2db93c317.png)
 
 **_图8-7：半桥配置中的简化输出级_**
 
@@ -75,7 +75,7 @@ ____________€4.自举电容____________
 
 高侧MOSFET通过自举电路供电，有的内部带自举电源，有的驱动器嵌入自举二极管，因此要完成Boot网络，只需要在PHASE引脚和BOOT引脚之间添加电容。在许多情况下，驱动器经过优化已具备最佳的开关动作，因此不需要外部电阻（串联栅极驱动电阻）。根据高侧MOSFET栅极电荷来选择自举电容，以下公式给出了由于高侧MOSFET的充电而引起的自举电容两端的电压降的准确估算：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhC56ZQwiaz12ibCftKsLkVwAJdu7OfrsuqJeOFziaOYsrlszXaWT2sB5OmA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_8_低压栅极驱动器_PWM型_images\img_008_bf5125e49fd9.png)
 
 ΔVBoot是自举电压的浮动值，这通常应尽可能低，以避免高侧MOSFET的Rdson下降，一般0.1V和0.01V之间的值是可以接受的。
 

@@ -17,7 +17,7 @@ FEMA既然一种工具，在所有产品的设计中都可以利用。现在电�
 
 潜在意味着有可能。墨菲定律：所有可能出错的地方都将会出错！所以我们一定要在产品制造之前，将问题扼杀在摇篮之中。要有预防的概念。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEJ0icFTKibibDicQb2akxpia5sE23erQA6Cmm8MiagcV2n7e8m1t39JbgoDFQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_000_c11f7783c139.png)
 
 一个新产品可能的问题总数是一定，在前期阶段越是投入更多的精力，解决越多的问题，产品最终到客户端使用时，可能的问题就越少。
 
@@ -39,7 +39,7 @@ FEMA既然一种工具，在所有产品的设计中都可以利用。现在电�
 
 FEMA可以在前期分析可能产生的后果，并用一定的形式表示出来。在结果产生后，也可以应用于结果产生的原因分析。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaE8gT1WcRox2oHQelBMIicqL4fW81ic4iaHDbesTuJUTEd3SKWcpa8gxI7Q/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_001_bcff309a0616.png)
 
 后果的分类：功能、性能方面；可靠性、维护性方面；安全性方面；经济性方面；操作性方面；修复性方面；环境方面；公共安全方面；废弃方面等
 
@@ -49,7 +49,7 @@ FEMA可以在前期分析可能产生的后果，并用一定的形式表示出�
 
 FEMA的作用可以是在设计阶段分析可能会发生的事情，通过分析了解原因，形成要做的事。也可以对已做的事分析是什么原因导致。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEdYJ4hovQXxoj2moUT1tibib2J2nfEv1n3RNfzicl7ibib3sdFI2YFWc0cjQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_002_f6c89a3ecfa7.png)
 
 利用FEMA可以有一下益处：
 
@@ -70,65 +70,65 @@ FMEA解决问题的逻辑思路如下：
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEp0LkbbdDB83IialkbjzEtp1wiaEFUFibHr8UP15LPqqwziaLIaeMxAiccWg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_003_debe26a5eb46.png)
 
 ## **3.FEMA在电机设计中的应用**
 
 ### 3.1.  电机的失效模式
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaE5bgjVKtuQkrNcQwSD8wXxibfwuVRBudfbY1odzWVGzWDutZyXJtlboA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_004_18596168ae21.png)
 
 ### 3.2.  电机失效的后果
 
 **功能性：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEbTIlTp3jUGQ9WqNFHnZWEWtuzCKIB1sqibc328LsEXw5VYR1SGVDjTQ/0?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_005_53d606b82ed8.png)  
 
 **性能：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaENjtT7GvwrSeEQr8Eu00bcNfxvxibweKn13xjMerTmQibJt9ubK549XuQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_006_8581176b9dfb.png)
 
 **可靠性：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEvaXFvbmAyOXxwicChvocIykbvwqmib6eEoHURft8TqVj9esFoRdtQFgw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_007_ab87c0455c7d.png)
 
 **安全性：**
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEgoqOISNtu31iaetQnoNwUgUeE8JibyoWUQZibiboeoodrfUleEjnz3xicbQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_008_8919dd74e032.png)
 
 ### 3.3.  电机失效机理分析
 
 利用思维导图做失效机理分析，先从整机性能失效机理分析，再细化至部件和零件：
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEuys80uQM8b4NezKTkaW4APeS6heBnNUdhwJCZhbHkiclFT5vocO1Xag/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_009_64bdc4c02599.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaErgbXbNST24gNAr0hpp31j8SjqibLibWZeQxUSX33qsXiaYPxJwQEz0YDw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_010_bb08c9beab7c.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaES6Xo0V6dL7GFgdibzLiaCUQJoev3CSX16FZyJiaaczan5uhbNJkxqw4Qw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_011_8dc7abd88024.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaErgRFNlV4tW6nOLicNh8Msoaw9tMANjs6K13mUUyyKwtIjlNXia8eSJicg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_012_11c8b5730365.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaE0bpmwLHicX5JGIr2oyeshY2eOIvOA0HwjlWwEuBktGPfrX6SLWRoEng/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_013_b20d5bad365f.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEfUpibQn9fXmshogufQQTOA64AByibibibmXWicKFTqGo6rdhycxo2eZhaoQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_014_f61df0d164f5.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEicNJC80GCibDDll8MSxMaIth2WeFaGncfOEqXuCtLdOVHP74KruJRibLw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_015_e9a0c15c458a.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEtu4LdYwaicFGRJibuNVD71w2nkZq511O0L9FMvEujJNcooRJMu8biasYg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_016_f4b2bde5b6f3.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEFAaicJVicGHMwEiaaUAdiaz4CfWxu9WzXeF7AEicG6AmBd66wP8JSNT2Ticw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_017_a6f33c918873.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEYKQBl9O8OaNIfSgDUCRTWFXoWy5VumECmnXsu9aGYwGTSo2AOJw9VA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_018_ae7903038e4f.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEud3HRxvd5PxtjuyRnialJuVVuWnzKPjUUqxcjsI13pUYKPUDibibR3vKA/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_019_172f4da22f13.png)
 
 ### 3.4.  电机DFEMA表格
 
 最后一步是将前面分析出来的潜在失效模式、潜在失效后果、失效原因机理填入DFEMA表格，并列出当前设计的控制思想和探测方法，最后对严重程度、频度、探测度打分，将三项分值相乘得到风险序数RPN。当RPN值大于50时，由核心小组确定评估是否采取行动。不管RPN的结果如何，当严重度S＞8时，就应该特别关注。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEMjLxWDAZluvVaxjZ611tib3e3GVKBVXhSWe7chRFwROkRpvyYShlADQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_020_59e87297e923.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwXBeeTXib4CBV8xwGNspiciaEpxIv5uvotS0ebz0BZgNhtsickTNuu0eUbZgwHJqCcOGLmic6WBWsgNRQ/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_021_31c4f0181ac6.png)
 
 ## **4.总结与展望**
 
@@ -153,4 +153,4 @@ FMEA解决问题的逻辑思路如下：
 
 感谢你的阅读！欢迎**关注**本公众号，共同**探讨**电机设计，**分享**电机设计经验！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/Zlibib2pr1chxmjGLYKbMOeUZVXKOJANk1IyiaJLga9FwJfx9riaSvV5yyWU3gQMGfjnlJJKb7da2iaK7MbFmO7mk4Q/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\玩转电机设计DFEMA_images\img_022_d7a0fbaac485.jpg)

@@ -27,7 +27,7 @@ Vivaldi天线是一种在宽频率范围内工作的宽带天线。它以发明�
 
 天线由一个金属板中的锥形槽组成，金属板通常由铜或铝等导电材料制成。槽在一端较宽，在另一端逐渐变窄至一个点。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pcvGibbMyzI7foOk8liaiaGXiaIjfiaEQj8ibYWkBKKJoqwBEBE96W3kJJRoibiaIlBRlWe2b7tRwSV9JtcDicXf2q6I45g/640?wx_fmt=webp&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\什么是Vivaldi天线___images\img_000_7a3e91e7f034.webp)
 
 当电磁波通过槽时，会导致金属板中的电子移动。这种电子运动产生电流，进而产生磁场。电场和磁场的结合将电磁波从天线上辐射出去。
 
@@ -43,7 +43,7 @@ Vivaldi天线作为一种超宽带天线，具有多项优势：
 
 2.紧凑尺寸：尽管具有宽带宽，Vivaldi天线可以设计得相对紧凑，这对空间有限的应用非常有益。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pcvGibbMyzI7foOk8liaiaGXiaIjfiaEQj8ibYVN2d7JSjJ8Dxjz75VKrap44Inib2Liaqqkg5WUZk9s5eTUicZYqlVowJg/640?wx_fmt=webp&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\什么是Vivaldi天线___images\img_001_d71cce86ae72.webp)
 
 3.高增益：Vivaldi天线的设计允许实现高增益，特别是在较高频率下，这增强了信号强度和范围。
 
@@ -67,7 +67,7 @@ Vivaldi天线在多个领域都有应用，包括电信、雷达系统和遥感�
 
 Vivaldi天线确实多功能，因其宽带宽、高增益和紧凑设计而在多个领域得到应用。在电信领域，它们对5G和6G等新兴技术特别有用，这些技术需要宽频率覆盖和高效的信号传输。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pcvGibbMyzI7foOk8liaiaGXiaIjfiaEQj8ibYUpFsF4D3QRJgiakxsDbKvRFAaibhPmSuQZHKOOhmvOibqvcSCQUapian7w/640?wx_fmt=webp&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\什么是Vivaldi天线___images\img_002_c8f23284680d.webp)
 
 在雷达系统中，Vivaldi天线用于提供跨宽频率范围的高分辨率成像和目标检测。它们还用于遥感应用，其宽带宽允许在各种频率上收集详细数据。
 
@@ -79,7 +79,7 @@ Vivaldi天线设计
 
 Vivaldi天线的设计确实侧重于几个关键因素，以实现最佳性能，同时最小化尺寸和重量。以下是一些关键考虑因素和设计方面：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pcvGibbMyzI7foOk8liaiaGXiaIjfiaEQj8ibYktzrhagenFwWPUud5oufDgibp7ruk2uNufREShzoVdMbDvfAPmSZoBA/640?wx_fmt=webp&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\什么是Vivaldi天线___images\img_003_a912e8294c39.webp)
 
 1.材料选择：
 
@@ -125,7 +125,7 @@ Vivaldi天线以其宽带宽能力闻名，通常超过10:1，这使其适用于
 
 Vivaldi天线的频率范围可能因其具体设计和尺寸而异，但它们通常用于需要从几千兆赫兹到几十千兆赫兹工作的应用。例如，典型的Vivaldi天线可能从约3GHz工作到30GHz，使其成为Wi-Fi、LTE和5G等现代通信协议的理想选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pcvGibbMyzI7foOk8liaiaGXiaIjfiaEQj8ibYu7Wo3Nu22IA8Dp2IoGTTexsStlRfWCntiazxzSBeyf6M5eDRJBXmckw/640?wx_fmt=webp&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\什么是Vivaldi天线___images\img_004_7fbe60cb4ee4.webp)
 
 能够同时处理多个频率而性能没有显著下降是Vivaldi天线的关键优势，确保了其在快速发展的无线技术领域中的相关性。其紧凑尺寸和平面结构也使其适合集成到各种设备中，包括智能手机、物联网设备和汽车应用。
 
@@ -133,7 +133,7 @@ Vivaldi天线极化
 
 Vivaldi天线以其实现双极化的能力而闻名，这在各种应用中是一个显著优势。通过能够以水平和垂直方向发送和接收信号，这些天线增强了其在通信系统、雷达和遥感中的多功能性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pcvGibbMyzI7foOk8liaiaGXiaIjfiaEQj8ibYGItId2gJgSzqjm8icDYqpMz8lYEkLVtgmrYyrxWlUbthvcdCgSZnCRw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\什么是Vivaldi天线___images\img_005_42f2bcd6c2bc.jpg)
 
 双极化能力允许改善信号质量和可靠性，因为它有助于减轻多径传播和干扰的影响。这在信号可能被反射或散射的环境中特别有益，如城市地区或复杂的室内环境。
 
@@ -159,7 +159,7 @@ Vivaldi天线辐射模式
 
 Vivaldi天线以其有助于其辐射模式的独特设计而闻名。以下是Vivaldi天线辐射模式的一些关键特性：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/pcvGibbMyzI7foOk8liaiaGXiaIjfiaEQj8ibYAicGiaaNhic9VjqEWDOJPPKlHyIOtwKxn56TWVcbeliaibzd7vvALtdNHlg/640?wx_fmt=webp&from=appmsg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\什么是Vivaldi天线___images\img_006_8f1b33e02b4b.webp)
 
 1.端射辐射：Vivaldi天线通常表现出端射辐射模式，意味着它们主要在天线表面垂直的方向上辐射能量。这一特性允许在宽区域内进行有效的信号传输和接收。
 

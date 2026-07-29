@@ -21,13 +21,13 @@
 
 1\. 6.5kV/50A高压全SiC MOSFET模块封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYWaKke8So2n8wDsLiaw9234TXEn6MLo2jQ4qMezxXfn11lV4icXbI7BibA/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_000_9f64ea90b8f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYDgsuO5WtxQGFEMDenSZ0hia7mR7aI4xJUTQO3U9pic4mpI09ypveDOQw/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_001_8f35bf83a90c.png)
 
 针对未来直流用电社区对高压交流–直流变换器小型化需求，团队采用了自主定制的高压封装模块结构，模块尺寸 58mm × 48mm × 38mm，各芯片及电极布局如图 1(a)所示。模块内所用 SiC MOSFET 及 SiC SBD 芯片均采用本团队自主研发的新一代 6500V/25A 高压 SiC 芯片。本文测试模块 2 只 6.5kV SiC MOSFET 和 2 只 6.5kV SiC 肖特基二极管(SBD)并联封装组成。模块内部采用 15mil铝线进行电路连接，封装尺寸如图 1(b)所示，封装后的模块如图 1(c)所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYNyOicB9JI0zk8DicBClBJgJMYYkPUY1ne6eK6KOWrMiau4FYdobdlWFjA/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_002_85bd0d8f2b58.png)
 
 模块内部电路设计如图 2 所示，本模块同样采用四端子设计，在前代模块的基础上进一步降低了辅助源极支路上的寄生电感。
 
@@ -37,9 +37,9 @@
 
 本文随机选取两个本项目组封装完成的 6500V/50A 碳化硅 MOSFET 模块样品进行对比测试，使用Aglient B1505A测试仪首先对模块在常温下的正向导通和反向阻断特性进行了测试。图 3 为两只模块的输出特性曲线和阻断特性曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYicra9zFfU3IC86osE6OC74qUA2ChC0icOOYYtPibU4rSGdWSkorCMBfGw/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_003_315c77762004.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYu46tsHwjAzgJjGlB97j8enDiaZ4lrltmibBSFbvRdJthZiaDyuQBcrtKg/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_004_9b2f89c903f9.png)
 
 图 3(a)为 1 号和 2 号测试了栅极电压 VGS 为10~20V，ΔVGS = 2V 下的输出特性曲线。由图 3(a)可知，在导通压降为 4V 时，两模块的电流分别为36.83、37.4A。
 
@@ -49,15 +49,15 @@
 
 在模块进行封装时，选取的 SiC MOSFET 和SBD 芯片的静态参数接近一致，参考项目组之前的设计，均采用浮空场限环结构作为器件终端保护结构，终端保护结构减小至 80 根，并保持浮空场限环终端总宽度为 600μm，MOSFET 芯片有源区面积约为 37.4mm²。随机挑选一颗用于封装的 6500V/25A SiC MOSFET 芯片静态特性用于对比分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYRHDSzNjiaWDRWbqVAv0245DNUIcRoEAEQImSvwwUDD6B95lfrribBZyQ/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_005_b5c0da22f5cc.png)
 
 图 4 为 6.5kV/25A 碳化硅 MOSFET 裸芯片的输出特性和阻断特性曲线，由图4(a)可知在栅极电压VGS为 20V，导通压降为 4V 时，裸芯片的导通电流可以达到 25A 以上。图 4(b)表明芯片的阻断特性满足6.5kV 的设计要求，并且在 6.5kV 电压下，本次研制合格的 SiC MOSFET 芯片的漏电流大部分小于2μA(图中红圈区域为 6.5kV 时对应的漏电流)，由此可见封装前的基于 6 寸碳化硅晶圆制备的6500V/25A SiC MOSFET 芯片静态特性符合芯片设计和模块封装要求，且较前代芯片在阻断特性上有明显的优化。
 
 下面再进一步分析用于封装的 6500V/25A SiCSBD 芯片的静态特性，正向和反向测试结果如图 5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYpzRGibTricKDVTYkBEjcl79uXsqyDJabrkLZ2sGorKSNoicM942hKZia9Q/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_006_21f56a28ba3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYphEeSUlMibyMYRehibQicC34yyT23lSjoBqsLA0VyiaRqbQBMSh15NibhMg/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_007_d6f1f873e4c4.png)
 
 根据芯片电学性能离散性的测试分析，可知在正向导通电流为 25A 时，二极管芯片正向压降VF的最小值为 3.2V。且在 6.5kV 下 SiC SBD 芯片的漏电流均小于 2A。该测试表明 6500V/25A SiCSBD 芯片静态特性也完全符合芯片设计和模块封装要求。
 
@@ -69,13 +69,13 @@
 
 两只模块在常温和高温(150℃)下的静态特性参数对比如表 1、2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYONXVvRKJYDjok9PVzHLkiaq0O5jEXcC60jPUedl65n9miaPuUWbibvRYA/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_008_27036a6ee4cb.png)
 
 由表 1、2 可知，两只模块在高温下的栅极漏电流 IGSS和漏极漏电流 IDSS均有小幅上升，两只模块的阈值电压均下降，1号模块阈值电压下降47.44%，2 号模块阈值电压下降 18.14%；导通电阻 RDS(on)分别上升 68.18%和 51.83%，二极管通态压降 VF增幅较多，分别为 79.2%和 58.3%，说明对于碳化硅二极管通态压降来说，温度升高反而增大，这与双极性的硅二极管的变化情况正好相反。
 
 上述数据表明：温度上升导致芯片中的载流子迁移率上升，进而引起模块的栅极漏电流 IGSS和漏极漏电流 IDSS增大，两参数的变化幅度也较为接近。温度升高，阈值电压 VGS(th)下降，表明温度与阈值电压呈负相关，其中比较显著的是 1 号模块阈值电压下降较大，达到 18%，造成这种结果的可能是由于 MOSFET 芯片本身存在缺陷，或者封装过程中的键合部位受温度影响较大：如是 MOSFET 芯片内部缺陷导致，则最大的可能性是由于栅氧或掺杂等工艺并未达到设计要求；如果是封装过程键合部位存在不良，则可通过修改模块封装电路结构来适应芯片的温漂特性来改善这种情况。进一步地，为了说明是否由于芯片内部缺陷导致模块在高温时的参数发生变化，对比分析了常温下模块和芯片的静态参数，表 3 为两模块与裸芯片的静态特性参数对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYwCa9DKpT5RwhIXyqbzm4dIfB9NNaDTs9tuHN3ibvKvIFDHRMfYaIatQ/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_009_62a1a1dbe753.png)
 
 由表 3 可知，常温下 1 号模块的栅极漏电流IGSS、漏极漏电流 IDSS 与 6.5kV/25A 裸芯片的相关参数接近，而模块阈值电压 VGS(th)远大于裸芯片的阈值电压，较大可能是模块在封装过程中键合部位出现缺陷，而并非芯片栅氧层工艺缺陷所致。对于2 号模块，其栅极漏电流 IGSS、漏极漏电流 IDSS、阈值电压VGS(th)与6.5kV/25A裸芯片的相关参数接近，对比两只模块和裸芯片的导通电阻 RDS(on)(并联)以及二极管通态压降 Vf，说明模块中用于续流的6.5kV/25A SiC SBD 的静态特性一致性较好，但是封装过程导致的通态压降 Vf 下降幅度较大也说明二极管的封装工艺后期也需要优化。
 
@@ -85,15 +85,15 @@
 
 动态特性测试的主要方法包括单脉冲法和双脉冲法。单脉冲法主要用于模拟断路器中 MOSFET等器件在 2 倍额定电流关断时的工况，用以确定MOSFET 等器件的大电流关断能力；双脉冲法主要用于模拟换流阀等负载呈现感性的电力电子装置中 MOSFET 频繁开关的工况，用以确定器件的工作频率。由于双脉冲法能够展现开通过程中续流二极管的反向恢复过程，因此本文根据 MOSFET 器件后期的工况使用需求，选择使用双脉冲法测量SiC MOSFET 的动态特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYPFXdSibwlLaVBW3BCabBN72L1FZibib2d9Vky5Gz9xnB1qS4c8Ir1f2nQ/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_010_81d9470c825a.png)
 
 双脉冲动态测试电路如图 6 所示，其中：R 为栅极外电阻；Lm为负载电感，图 7 为双脉冲测试的理想波形图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uY1ia6ZrGx5S8MCGS4oBHVWUiaUdfHnQysS3XiancHP0FvQB0YUB5Z6liaUw/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_011_aff155c7f744.png)
 
 双脉冲测试的过程如下：在 t0 时刻，栅极接收到信号源发出的第一个脉冲，被测 MOSFET 开始导通，外接高压直流源电压 U 加在负载 Lm上，电感电流开始上升并与时间呈线性关系，器件导通时的集电极电流上升率可由式(1)求得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYJlVxEB9T2ELiaoiaFYCyPBvjHccKibTD9ibm0IHKzjXEiaKib3W7YaNWklnQ/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_012_23249fcf3a4d.png)
 
 式中：VDS为瞬时漏源极电压；IDS为瞬时漏极电流。
 
@@ -105,21 +105,21 @@ t1 时刻由于 VDS和 Lm都已经固定，dt 将决定漏极电流的大小。�
 
 接下来根据上述动态测试原理，对两只模块进行测试。设置 VDS = 3600V，IDS = 35A，栅阻 Rg =16Ω，VGS =-5/20V 的条件，两只 MOSFET 模块开关波形分别如图 8、9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYnwYc3X2JCrT7Hd5sREhorZ8sVFckl7VMYhGXDxojpsiaKlLeTwuiacaA/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_013_c534f9e3466f.png)
 
 对比图 8、9 的开通关断曲线，两模块的各类波形整体接近重合，说明两只模块在开关过程的动态一致性较好，这意味着并联条件下系统能够保持较好的开关性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYLLaOeHLIYg3BZttrQpsTELd2Tgneskia89ecyH54KXtL4oNtU1faiazg/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_014_ac9941100fc7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uY8CbGGXqia52FSn6vkJ7O0O5TsMUTax97HYZxkXSEsTPPyAGficUnAibeg/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_015_eec13b25eb02.png)
 
 详细的对比两模块的曲线变化，可以发现模块在局部开通或闭合细节方面存在较大的区别：1 号模块开通和关断过程中曲线均存在较大的振荡，之后逐渐趋向稳定，相比而言，二号模块的曲线振荡效应较为平缓，表明 2 号模块在内部封装方面更加稳固，开关性能的稳定性更高，其控制开关过程中电压电流的能力更为柔和。
 
 测试曲线显示：两个模块在二次开通过程中的电流过冲约为 20.4 和 20.7A，幅值大致相近，但不同的是开通和关断过程中曲线上升和下降过程中 1号模块漏极电流 IDS 和栅极电压 VGS 均出现大致5%~20%的不同程度的振荡，持续时间也较长，达到测试过程的 10%左右(0.2μs)。2 号模块的动态开通关断过程较优，震荡幅值不超 7%，而且持续时间也不超过 5%。这些实际数据进一步表明 2 号模块对于电压电流振荡效应的抑制阻尼性能要优于 1号模块。通过测试曲线数据提取和计算可得到两模块在常温及高温下的动态特性参数如表 4、5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYn2eD4L1dTAPcnvicuBica7W3ibunPFZPoLr4TOia9lH9KqYp2gBHuibcicHw/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_016_5fa193cc45be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYn4QClED7wmJCh441jcJvevCCtUEUicwT6X0vBibWKBFMf3ALTn4K08gg/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_017_94deca4ff75b.png)
 
 由表 4、5 可知，常温下对比两只模块动态参数发现：当负载为电阻性时，2 号模块的开通及关断时间和损耗略大于 1 号模块，各项参数较为接近，参数一致性控制在 10%以内，表明模块的封装工艺在一致性方面控制较好，并没有引入过多的随机性因素。
 
@@ -133,25 +133,25 @@ t1 时刻由于 VDS和 Lm都已经固定，dt 将决定漏极电流的大小。�
 
 由于 SiC 模块的正反向特性并不具备对称性，因此在进行高温栅偏测试时，正向栅压设置为 20V，反向栅压设置为-8V，在环境温度为 150℃的恒温条件下，分别测试 84h，并记录各模块的栅漏电流作为判断模块是否失效的参考指标。模块在进行高温栅偏试验时的测试电路原理如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uY2OZlrwOFEACvk6wR3yB9SK49lsym7vibEXtt9hyQLzibVmhy7l9GBMKA/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_018_e91821a0cb8e.png)
 
 从图 11 可知，模块在进行高温栅偏试验时，图 11(a)显示 1、2 号模块正向栅漏电流 IGSS并不相同，分别为 0.2 和 0.1nA，但是反向测试时，IGSS的变化情况一致，均为 0.1nA，如图 11(b)。由于测试设备的精度限制(采集精度只能记录到 0.1nA 级别)，测试过程中栅漏电流并没有发生明显的变化。测试结果说明，两只模块在 150℃的高温环境均有较为稳定的高温栅偏性能，而且其栅极漏电流达到了国际先进水平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYrKLavToEFdxrEdtm8FibdZ6N7BibF2o8ic6COn1Vajyk57PJicCDHQQA7g/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_019_b0a695bd1d5d.png)
 
 4.2 高温反偏测试
 
 对完成高温栅偏测试的两只碳化硅模块继续进行了 168h 的高温反偏可靠性测试，环境温度设置为 150℃，并记录各模块的漏极电流 IDSS 作为判断模块是否失效的依据，测试平台可在电流超过1000mA 时进行断电保护。对模块施加反偏电压VDD=5200V，模块在进行高温反偏试验时的测试电路原理如下图 12。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uY5jw9sklsLQzd4jrD0bed4RfKFsGr0jy7njkzbaWw5ibn3ib7UTPnsXmw/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_020_5b474ca250d0.png)
 
 图 13 中高温反偏测试时的漏极电流曲线可以看出：在初始测试时间段内，IDSS 急剧增大，1、2号模块分别在接近 10、20h 处达到峰值约为 230、250mA，之后缓慢下降并趋于平稳，稳定后的漏极电流保持在 150~160mA 之间，通过漏极电流变化曲线可以说明两模块的高温反偏可靠性较为一致，不同的是 2 号模块达到峰值的时间较慢，且峰值后的下降时间也慢于 1 号模块。在测试过程中，漏电流也并未突变超出测试设置范围，顺利通过了高温反偏测试。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uY89D9kkX3CdroyEOwWb21CiaqribtMEC47grydh4ugich9icKKN3j7uPlpg/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_021_55d544730c6a.png)
 
 两只模块依次经过了高温栅偏和高温反偏测试，其栅漏电流和漏级电流均未发生较大波动，此外为了判断模块在经过高温可靠性测试之后其电压特性是否有异常，本文对两只模块在动态、高温栅偏和高温反偏测试后均在常温下测试了阈值电压，测试条件均为 VDS=10V，IDS=10mA，其变化情况如图 14 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYsKC4WdzmCYrPia4CXnKrbIPQa7FLpxcF1ECI8oajLKKUGgKQAJic3NTg/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_022_5cc62a88f8d9.png)
 
 图 14 显示了不同阶段测试后的两只模块的阈值电压变化情况，曲线表明两模块的阈值电压变化的整体过程较为相似，均在高温静态测试时 VGS(th)较小，之后常温动态测试和高温栅偏测试对于阈值电压的影响很小，变化幅度小于 10%，但最后的高温反偏测试对阈值电压影响较大，其衰减幅度分别达到了 25%(1 号)和 21%(2 号)，总体而言，在本文的所有测试阶段，阈值电压并没有出现较大下降或飘升，可见不同测试阶段的模块电压特性也是较为稳定的。
 
@@ -159,7 +159,7 @@ t1 时刻由于 VDS和 Lm都已经固定，dt 将决定漏极电流的大小。�
 
 5.1 与 ABB 6.5kV Si IGBT 功率模块特性的对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uY7oiaxVG77SdpNxk4oHTOW6J2icqxGQ8QAk1wmbJFjBxxvc6ZqsDQRDAw/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_023_ae7c479bc7d4.png)
 
 本文为了进一步分析本次团队基于 6 寸 SiC 晶圆研制的芯片而设计封装的 6.5kV SiC MOSFET模块的性能，选择与 ABB 6.5kV Si IGBT 功率模块进行了部分参数的对比，见表 6 所示。
 
@@ -169,13 +169,13 @@ t1 时刻由于 VDS和 Lm都已经固定，dt 将决定漏极电流的大小。�
 
 对比了本团队前期在基于 4 英寸碳化硅衬底上制备的 SiC MOSFET 和 SBD 封装而成的 6.5kV 的碳化硅模块的部分参数，本代模块基于 6 英寸碳化硅衬底，同样外延厚度(约 65μm)，并优化了部分设计的 SiC MOSFET 和 SBD，对比的参数性能如表 7。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYf9Gib9Qm8PkF8vfJbebNAibp53SYzBB0rqoKVATz6r683EmcPfla7zmA/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_024_4f2d5c3d60ed.png)
 
 表 7 说明了常温时，新研制的 SiC 模块的漏电流要更小，下降幅度超过 65%；对比常温和高温测试下的导通电阻 RDS(on)，其数值均有了明显的降低，而且前期的碳化硅模块在高温时的导通电阻是本期模块的两倍以上，表明其导通损耗也将更大；由于本次模块封装工艺过程中的键合或焊接部位受到温度影响较大的问题，本期模块的阈值电压VGS(th)均大于前期模块；对比开通时间，本次的两只模块均明显降低了，但是关断时间有所上升；在开通损耗和关断损耗方面，本次的两只模块均表现出更加优异的性能，开通损耗降低了约 33%，而关断损耗降低了 50%左右。
 
 另外，本次用于模块封装的碳化硅芯片是基于6 寸 SiC 晶圆研制的 6.5kV/25A SiC MOSFET 和SBD 器件，与团队前期基于4寸碳化硅衬底研制的6.5kV/25A 的 SiC MOSFET 和 SiC SBD 芯片的测试曲线及参数进行对比。本次流片的器件在结构上的优化主要体现在改变了沟道及 JFET 区和场限环终端设计上，进而优化芯片性能。通过将原来等间距的浮空场限环结合电场仿真进行了环间距和个数的重新设计，修改为变缓变系数的缓变间距的终端设计，一方面防止了边缘效应引起芯片过早击穿，另外通过优化环间距及个数，可最大限度的均匀表面电场，避免因电场集中而击穿。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYEGXc3aHGcXbmMV6icJ7ryOK5cxDjs6tBVo0ialXiagcOicMGrhbiaOylPzA/640?wx_fmt=png&from=appmsg)
+![](6500V_SiC_MOSFET_模块测试与分析_images/img_025_9b0a0513dada.png)
 
 图 15 为随机挑选的团队本次基于 6 寸碳化硅晶圆和前期基于 4 寸碳化硅晶圆研制的 6.5kV/25A SiC MOSFET 芯片的阻断特性的曲线对比，可以看出两款芯片在的击穿电压均超过了 7.5kV(限定漏电流为 10μA)，而且在达到设计耐压 6.5kV 时的漏电流均小于 2μA，但是本次基于 6 寸碳化硅晶圆研制的 SiC MOSFET 芯片的反向漏电流要更小。
 
@@ -187,7 +187,7 @@ t1 时刻由于 VDS和 Lm都已经固定，dt 将决定漏极电流的大小。�
 
 通过和 ABB 的 6.5kV Si IGBT 模块的对比可知国产 6.5kV SiC 功率模块可以在高频工作状态下保持较低的开关损耗和较高的开关频率。 SiCMOSFET 模块总的开关损耗是 Si 基 IGBT 模块的0.4%，其中关断损耗仅为 Si IGBT 的 0.045%，若能有效提升 SiC SBD 的反向恢复能力以及模块的封装工艺则可进一步降低开关损耗及其他各项性能指标。通过本文的测试结果进一步说明碳化硅器件在交直流输电系统及配电网系统具有巨大的优势，未来在环境要求更加严酷和条件下，可逐步替代硅基 IGBT，应用前景广阔。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgGPYQaL3yrcOmMe8Dr6uYDRBBDSHBw3BhR7OfmshGKBp8eNxic44ic4ibJnLQfdqg24IQibe4pBEPxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\6500V_SiC_MOSFET_模块测试与分析_images\img_000_b7fcdf686f16.png)
 
 注明：  
 
@@ -195,14 +195,14 @@ t1 时刻由于 VDS和 Lm都已经固定，dt 将决定漏极电流的大小。�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslJnzzVWGuAfSiaOQlInBibtNrehneG3bRMIeQUYbasLcYhFUnRV8qrcv6ibGpd0rTBLtP0hlL6F25ibQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](6500V_SiC_MOSFET_模块测试与分析_images/img_027_249f6441ffc2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJnzzVWGuAfSiaOQlInBibtN0F4VGGRgYjoQCp5zBGqyQxEGHmTX96McE0LVfI4v20UFpR7Vpgw9yQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](6500V_SiC_MOSFET_模块测试与分析_images/img_028_c106ca191ab2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJnzzVWGuAfSiaOQlInBibtNTia94ibml0fHjQN0DMUI3g6aFNxh02kLOZlkVaJ8Wicwm1aYW8wvQJWrA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](6500V_SiC_MOSFET_模块测试与分析_images/img_029_c253a686243a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslJnzzVWGuAfSiaOQlInBibtN8oSGHaQW40x9xv8l3W5uLUicAudTOcfg3Bg1HdoibZkcGtiaFTiaBTjtCQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](6500V_SiC_MOSFET_模块测试与分析_images/img_030_2995c842b97d.jpg)

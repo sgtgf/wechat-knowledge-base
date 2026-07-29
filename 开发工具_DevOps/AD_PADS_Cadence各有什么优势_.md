@@ -57,7 +57,7 @@ PADS的显著特征：黑底蓝字黄线
 
 Cadence的显著特征：白底红字蓝线
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOmhSFUSEuqf808QpdwARicviacGiaibIfTMS6so4jnssjQiczeJ0ial3cDvqdcrDFn0MwCkaqCKjU8PUCew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](AD_PADS_Cadence各有什么优势__images/img_002_e31c1e51665b.png)
 
 ## **三大工具常见应用企业**
 
@@ -128,9 +128,9 @@ Cadence (Cadence OrCAD/Allegro)
 
 总结：各种EDA软件都有其独特的优势，用户可以根据自己的需求和预算选择合适的设计工具。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ju1DzqX8iaOmhSFUSEuqf808QpdwARicviaoBrLibNG8DdJYPUMuDVp5ibdXynxQhJa6iaWE7libafYRgJiaxicHDqEicaSQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](AD_PADS_Cadence各有什么优势__images/img_003_76db6df29273.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ju1DzqX8iaOmhSFUSEuqf808QpdwARicviaW6ZD7R5vGiaibTiaYj4NTniaZtHM4c4szsCwyU60ahsotH7Iwho74WMHFQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](AD_PADS_Cadence各有什么优势__images/img_004_f34dc42ef883.jpg)
 
 **初学者，应当先从哪个入手？**
 

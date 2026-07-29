@@ -37,13 +37,13 @@
 
 你可以通过下面的图表，观察这两条曲线在坐标系中的相对位置变化：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuUjAXCIbl9udeU5Rw3ibpyBCibLqvXFO5Mar1pqv3X2eF0EnzuRazWqu2rLEQF2xAOghqmsyw7gX3sytCDj0Yvggicxg5OB5RJzM/640?wx_fmt=png&from=appmsg)
+![](伯努利不等式_(Bernoulli_s_Inequality)解析_images/img_000_5da90bca759b.png)
 
 * * *
 
 # II 伯努利不等式图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocubgcvOCqtUw9iaevkOT9TfM5AQrKEc1wqQzoNdILV7bTPNuZK5ynnOIEQg9KsnuR7IrBLdTb26pealRNq7wy1axToblYc8ar9w/640?wx_fmt=png&from=appmsg)
+![](伯努利不等式_(Bernoulli_s_Inequality)解析_images/img_001_1fc226bda153.png)
 
 这张图讲的是**伯努利不等式（Bernoulli’s Inequality）**，它是实分析、初等不等式和极限里非常常见的一条基础结论。
 

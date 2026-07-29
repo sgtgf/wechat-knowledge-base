@@ -11,7 +11,7 @@
 
 **关键词 ：**SiC MOSFET; 开关损耗; 软开关; DC-DC 变换器
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkI9bicb8TPH12XnsWrCgp7iasAudKKqqiaPicawllyYmYKLmeicGyxWNpAtFg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_000_281e52025572.jpg)
 
 全桥 DC-DC 变换器是一种适用于大功率开关电源的直流变换电路,易于实现高频化,它的主电路结构简单,可以通过增加小电感、电容等谐振元件,在开关过程的前后引入谐振条件以实现软开关。 得益于其输出功率大、效率高、控制简单、具备电气隔离等优点被广泛应用于电动汽车、电力设备、焊接电源等工业和交通设备中。
 
@@ -31,7 +31,7 @@
 
 全桥 DC-DC 变换器的拓扑结构如图 1 所示,变换器从左到右依次被分成了逆变网络、谐振网络、整流单元、滤波器及焊枪 4 个部分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIicO3qMRSEIUnW8bhvbVfH6gHMhARW8nnF5XxnQrHCp4ldHutHFfGrWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_001_c127c2efb828.png)
 
 **1\. 2 SiC 损耗分析**
 
@@ -43,7 +43,7 @@
 
 导通损耗可以通过导通电阻计算得到。 当开关处于导通状态时,可能会出现正向导通模态和反向导通模态。 式(1)为正向导通损耗,式(2)为反向导通损耗\[11\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIiaNLaqmrLHuEtOSyK9ma9MynQ3atvhxLsV7W9Kfn1dmzsb3m3T8GgOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_002_f742327ba9ca.png)
 
 式中: Ts 为稳定工作情况下的工作周期; isf 为正向导通电流; RDS 为正向导通电阻; isc、RSD 分别为反向导通电流、电阻;t 为导通时间。
 
@@ -51,7 +51,7 @@ SiC MOSFET 开关管的导通损耗主要取决于占空比而与频率无关,�
 
 开关损耗的简单估算方法\[12\]为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIGV9KZjwG3rCicBKPWviaHVCzXPgmG1vh1xibvjMcKf7Yy7Ngm7azkaavw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_003_7c11e78152c3.png)
 
 式(3)中: VB 为母线电压; IL 为负载电流; f 为开关频率; tON 为开启时间; tOFF 为关断时间。
 
@@ -65,31 +65,31 @@ SiC MOSFET 开关管的导通损耗主要取决于占空比而与频率无关,�
 
 有限双极性 PWM 调制的波形如图 2 所示,从上到下依次是 T1 ~ T4 的栅极驱动波形。 T1 和 T3 的占空比都是 0. 5,依次交替导通。 T1 导通时,T2 和T3 关断,T4 通过调节占空比来调节输出电压;T3 导通时,T1 和 T4 关断,T2 通过调节占空比来调节输出电压。 与传统双极性控制方法相比,有限双极性控制在每次导通时只对一个开关管的占空比进行调节,可以较容易的实现软开关运行。为了实现有限双极性控制,采用 2 个相差 T / 2的三角波,通过分别和占空比以及 0. 5 的固定值比较来生成四路驱动信号,通过 delay 模块生成死区时间,死区时间为 300 ns。 建立的双极性调制模型如图 3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIvu4QqswOlhQbqmIT03icxYbXa1e1ibh5ro3mxT7S8XTV6TQkBY1wrujw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_004_680b782c4064.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIxFicKuS4SsjL3QaTo8OkywUbID0hFpLWQb9z84PibSyrAdXlOfaaAcTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_005_b13eb96e8e39.png)
 
 **2\. 2 全桥移相调制策略**
 
 全桥移相调制的驱动波形如图 4 所示。 从上到下同样依次是 T1 ~ T4 的栅极驱动波形。 T1 和 T2 是左桥臂,T3 和 T4 是右桥臂,可以看到右桥臂比左桥臂滞后了一定的相位,控制该滞后相位的大小就可以控制输出电压的大小。 移相控制的仿真采用一个移相模块再加死区模块就可以了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkI3ic82lY7icANMxan4RWyqubESibNQf5N2L3bicBJAdgU8O8KMTibrxRQx4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_006_ebb8e457e5cc.png)
 
 **2\. 3 增量式 PI 控制器**
 
 全桥 DC-DC 变换器采用增量式 PI 控制器,表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIQ44v0DFyWgPuKl9kUtt6oWEcUrpQXUib44icBYcIibtmU0DvN2lJFECiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_007_b4c0e65b403c.png)
 
 式(4)中:e( k) 为第 k 次采样的输出电流误差值;d(k)为 PI 控制器的输出;KP和 KI分别为比例和积分环节的系数;Ts为控制器采样周期,该周期与开关周期不同,一般大于等于开关周期。 依据式(4),建立 PI 控制器的仿真模型如图 5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIvL8ER9Grx4w9fWHhgY4lLlKNibTheMUQmX4upGjaHD1jQTiaPsA8TicibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_008_ec9823415d68.png)
 
 **3 主电路和开关损耗建模**
 
 为了对 SiC MOSFET 的开关损耗进行仿真分析,本节建立了以 SiC MOSFET 为主开关管的 DCDC 变换器热仿真模型,根据应用需求的考虑,采用有限双极性 PWM 调制策略和 全 桥 移 相 调 制策略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIBW0Y2STYNjm16u8iaTfWDxvLaExXo4jlclR0JLMOE5BkVoprC7tIl9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_009_24ab4db7fb5e.png)
 
 从图 6 可知,主电路模型中,4 个开关管采用英飞凌提供的 IMZA120R014M1H 的热模型,热阻设置为两级,开关管到散热器热阻和散热器到环境热阻。环境温度设置分25 ℃恒温。
 
@@ -97,29 +97,29 @@ SiC MOSFET 开关管的导通损耗主要取决于占空比而与频率无关,�
 
 仿真的关键参数如表 1 所示。 此时 Cr 和 Lr 的谐振频率是 99. 86 kHz,比变换器开关频率略低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIcBL1vrAI43qoKfEkC59b1XujoPcWYVKSkhH6DqmpIoYNicH2Eb953hA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_010_f3252d0328f2.png)
 
 **3\. 2 有限双极性调制策略测试**
 
 **3\. 2. 1 开环基本测试**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIgicYtEHsIulzITvQwR3W5Vm7KAfb93Ss1xFrQAEnQ9jcKHrZVfPb8qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_011_1be5938f16cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIeNFo6licVZsPCqtsiaq4w55fPqiarzkiaAJywQD4Bkibo18NljBkJExMRWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_012_900ef3605e0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIfS6VwuH1iaePn2dWTzg6J9eLPw2khHuBnmXLOCQFBicj0ib7wqUqrr4zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_013_bf15311a753c.png)
 
 首先进行开环测试,将占空比设定为 0. 35,输出电流为 500 A 左右。 测试结果如图 7 ~ 图 11 所示。 从图 7 可以看到输出电压在 40 V 左右,输出电流是 500 A 左右,逆变电流的幅值约为 75 A,励磁电流幅值约为8. 5 A。 图8 中在额定状态下,导通损耗为 33 W 左右,开关损耗为 14 W 左右。 图 9 和图10 分别是 T1 和 T2 的开关波形。 从波形上看,两个开关管在一定程度上实现了软开关,但波形有谐波存在,开关状态不彻底。 图 11 是全桥逆变器输出的电压和电流,可以看到电流波形略微滞后电压波形,负载略微成感性,感性负载是开关管实现零电压软开关的条件,可以看到由于感性较弱,软开关无法完全实现。 因此要想增强软开关的实现能力需要增强负载的感性,可行的办法是增加漏感的大小。 但漏感的增大会降低 DC / DC 变换器的有效输出电压,必须进行平衡设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIaug6kBwamOr7PvQ0MNibl6v2akulHuJBsbvVATmSmyMoZF34aHiabstQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_014_3eff1d890d8f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIopicwGupYpibPx89pxSbPbuOYbEShibavElKYTumCXOI29zicB6DfiabKUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_015_016bfb844431.png)
 
 **3\. 2. 2 软开关测试**
 
 表 2 是 DC / DC 变换器在不同漏感和占空比时的开关状态和输出电流。 从表 2 可以看到随着占空比和漏感的变大,DC / DC 变换器的软开关状态更容易实现。 但随着漏感的变大,漏感会对输入电压进行分压,导致输出的电压和电流变小。 从表 2 可知,漏感在 6 ~ 8 μH 是最合适的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIUBXNJNHpN9ndwwr0iacrprtIzmlRPItzEVb2R87VYl5PNlJ99K0tdbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_016_3e37fa17b6d1.png)
 
 **3\. 2. 3 损耗分布测试**
 
@@ -129,9 +129,9 @@ SiC MOSFET 开关管的导通损耗主要取决于占空比而与频率无关,�
 
 闭环测试的测试条件是漏感设定为 6 μH,KP设定为 0. 000 2,KI设定为 0. 05。 参考电流初始值为300 A,在 0. 3 s 时突变为 500 A,在 0. 6 s 时突变为200 A,图 12 是闭环响应结果,从图 12 可以看出实际的输出电流值可以准确跟踪电流参考值,并且没有稳态误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIE30Xhia13dWWt1LicDxgcibm7ic4eEX9lqygPE0EmVicoCesEpaFdhgJNWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_017_bacd95bf42c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIHH35ef4FXD2ST72CfYRfPJ9QeiadqqKWMB5ic8cicLxMKqbFZZ04ibVqIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_018_130299554aff.png)
 
 **3\. 3 全桥移相策略测试**
 
@@ -139,29 +139,29 @@ SiC MOSFET 开关管的导通损耗主要取决于占空比而与频率无关,�
 
 首先进行开环测试,将移相角设定为 126°,输出电流为 500 A 左右。 测试结果如图 13 ~ 图 17 所示。 从图 13 可以看出输出电压在 40 V 左右,输出电流是 500 A 左右,逆变电流的幅值约为 75 A,励磁电流幅值约为 8. 5 A。 在额定状态下,导通损耗为 47 W 左右,开关损耗为 34 W 左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIgqUibLbptEyLzorfzibzXibuzD0iazp5iauJtCnTLI4Xl8Oedibsolic5alQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_019_87ebe46ffb7d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIjV1pUWoQZU5yDDicJeC9wZfL4LmNg2G4B8BjaQC0NAbfYDiceqokBjag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_020_75267bafe508.png)
 
 图 15 和图 16 分别是 T1 和 T2 的开关波形,从波形上看,两个开关管工作在硬开关状态。 图 17 是全桥逆变器输出的电压和电流,可以看到电流波形略微滞后电压波形,负载略微成感性,不足以使开关管工作在软开关状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIjcXIuIpK1aMcicfkmkMmO1Ynia47MM26EZ4MTfPt6CSUgheMTz8uD1QA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_021_11e105e68be2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkI074YC6ALBryvBqIdQxBpq19okKAvibt5JBw5nzeCxaCNZa1d7yw0AVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_022_6c5f401a3cf0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIC3ITGJNTXbt6vO2kZCSx32SxDM53uAzeaTGTfNCQiazdh70XwRy3yzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_023_4dd90fed1b7c.png)
 
 全桥逆变器输出的电压和电流,可以看到电流波形略微滞后电压波形,负载略微成感性,不足以使开关管工作在软开关状态。
 
 **3\. 3. 2 软开关测试**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkI1GJ7WDSbclicqp2oJDE8N5LeBb4NkFU34pp1ByyNeYMEjl4bG3Ehictw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_024_651d0b89bdc1.png)
 
 表 4 是 DC / DC 变换器在不同漏感和移相角时的开关状态和输出电流。 从表 4 可以看出随着移相角和漏感的变大,DC / DC 变换器的软开关状态更容易实现。 但随着漏感的变大,漏感会对输入电压进行分压,导致输出的电压和电流变小。 从表 4 可以看出,漏感同样在 6 ~ 8 μH 是最合适的。
 
 **3\. 3. 3 损耗分布测试**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIQ3UxiccapdwHNeXvxuAZITMPG7ACKFoGYEVhD0Mc7WuG6zeQ5cWLibhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_025_555de0d44eae.png)
 
 表 5 是 DC / DC 变换器在不同漏感和移相角时的导通损耗(前一个数) 和开关损耗(后一个数)。从表 5 可以看出 DC / DC 变换器的移相控制时的开关损耗出比有限双极性 PWM 控制时普遍大了许多,在非软开关状态时,不存在临界状态,而是直接进入硬开关状态导致开关损耗较大。 导通损耗受负载电流的影响最大,同样比有限双极性 PWM 控制大了很多,大的负载电流必定造成大的导通损耗。 为了既保证输出电流可以达到 500 A,又保证总损耗较低,可以得出在 6 μH 时是最合适的。
 
@@ -169,7 +169,7 @@ SiC MOSFET 开关管的导通损耗主要取决于占空比而与频率无关,�
 
 闭环测试的测试条件是漏感设定为 6 μH,KP设定为 0. 000 4,KI 设定为 0. 1。 参考电流初始值为300 A,在 0. 3 s 时突变为 500 A,在 0. 6 s 时突变为200 A,图 18 是闭环响应结果。 从图 18 可以看出实际的输出电流值可以准确跟踪电流参考值,并且没有稳态误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslfibTJ5Z75cRquBFrd2BMkIL8gvP8MxGaW2P0BTNtqIArRdenaTJFTEcXwYnCibichxCaOOaVn7lViaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_026_497e764e9bee.png)
 
 **4 结论**
 
@@ -183,8 +183,8 @@ SiC MOSFET 开关管的导通损耗主要取决于占空比而与频率无关,�
 
 本文研究有以下两个创新点:①采用英飞凌官方提供的 SiC 损耗模型对开关损耗进行研究,研究结论表明符合预期的理论结果,为 SiC 开关损耗的研究提供了新的研究思路;②通过 SiC 在全桥 DCDC 变换器中的开关损耗研究,证明了软开关技术对其仍具有重要意义,对之后 SiC 软开关损耗技术的发展具有参考意义。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_027_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_028_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\全桥_DC_DC_变换器中_SiC_器件损耗分析_images\img_029_84aa944feb13.jpg)

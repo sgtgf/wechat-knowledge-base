@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/XXPxStHtxVKjZu5f2b\_Mog](https://mp.weixin.qq.com/s/XXPxStHtxVKjZu5f2b_Mog)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCef6a5mFCEq8jzRQj9kv8hmu08O6LKd5ibDjRcwlYQ01uEFv6z1uoJbkg/640?wx_fmt=png)
+![](SCD_1_如何用MOS设计分立式电平转换系统_images/img_000_33538e5ee161.png)
 
 ____**★★★**_______SCD-1---分立式MOS电平转换_______**★★★**____
 
@@ -23,7 +23,7 @@ ___€2.__连接具有不同逻辑电平的设备_
 
 每条总线的电平转换器是相同的，由一个分立的N沟道增强MOSFET组成；Q1用于串行数据线SDA，Q2用于串行时钟线SCL。栅极（G）连接到较低的电源电压VCC，源极（S）连接到“较低电压”部分的总线，漏极（D）连接到“较高电压”部分的总线。许多MOSFET的衬底与其源极内部连接，如果不是这样，则应进行外部连接。每个MOSFET在漏极和衬底之间都有一个集成二极管（n-p结）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8mycAnFFMUBSWkx3oepl8aoCQAibOGc8pkw7OkrVjwMCcJmFZx5FwGicA/640?wx_fmt=png)
+![](SCD_1_如何用MOS设计分立式电平转换系统_images/img_001_bcdf8ff9d832.png)
 
 _**图1-1：连接I2C总线系统中两个不同电压段的双向电平转换器电路**_
 
@@ -59,21 +59,21 @@ _设计分析：_分立式电平转换器MOS选型需要考虑如下几点：
 
 _设计选型：_从图1-1可以看出，1.8V在右，3.3V在左，那么NMOS的VGSTHmax一定要小于1.8V。四只上拉电阻遵从I2C的上拉电阻计算（传送门[I2C-3：I2C上拉电阻的计算](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485620&idx=1&sn=9d1efefbe2efc07f073ae5c5ac810e1a&chksm=c335422bf442cb3d11d48f1b365fe1538e9001d41f42d68b3d870460d95d5a6c6e2269668abc&scene=21#wechat_redirect)），我们选择LRC的LBSS139LT1G，**_图1-2_**和**_图1-3_**为LBSS139LT1G的相关电气参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXDlHZjVuRfaCECN61cBf2bBMnTTxg6TwR5LGXKbIB5P5ibFNds5EgOTQ/640?wx_fmt=png)
+![](SCD_1_如何用MOS设计分立式电平转换系统_images/img_002_bd48a9281a76.png)
 
 _**图1-2：LBSS139LT1G的静态参数**_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXge7Ed8KKYKqicicntAco4XicRrwSTa6TkrNLt8FTam2htFvpGUcfeaZicg/640?wx_fmt=png)
+![](SCD_1_如何用MOS设计分立式电平转换系统_images/img_003_12f62885a626.png)
 
 _**图1-3：LBSS139LT1G的动态参数**_
 
-_**![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXPuVpOIianWJvDhCYVkJ1qQnY6p1W3c7M2422VD3GsFiadZKcQFHibMa7g/640?wx_fmt=png)**_
+_**![](SCD_1_如何用MOS设计分立式电平转换系统_images/img_004_436f7bb4ad90.png)**_
 
 _**_**图1-4：标准I2C时序参数**_**_
 
 _速率评估：_**_图1-3_**里面已经列出了Tdon和Tdoff，对比I2C的标准时序参数（**_图1-4_**）可知LBSS139LT1G能支持到的速率其实挺高的，但是考虑到线路额外增加的Cload，分立式MOS电平转换推荐使用在速率为标准模式（高达100kbit/s）或快速模式（高至400kbit/s）的I2C，不推荐使用在HS模式下，避免使用隐患。**_图1-5_**为设计的1.8v-3.3v双向I2C电平转换系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSsqnagJ6dzOOBzic1pLKMwXex2PqDKpGBxOb6QGSiaBymb9Tzu9x5dicEmfialVqjn0iazrQaxuwehyBA/640?wx_fmt=png)
+![](SCD_1_如何用MOS设计分立式电平转换系统_images/img_005_87685762fd0e.png)
 
 _**_**_**图1-5：1.8v-3.3v双向I2C电平转换**_**_**_
 

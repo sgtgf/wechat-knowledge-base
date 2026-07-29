@@ -11,7 +11,7 @@
 
 依托垂直整合（IDM）模式，实现从芯片设计、晶圆制造到功率模块封装及测试，自主可控，产品线规划科学完整：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJ5VKOXB6c7T3faKAT2Bxxibz2GdkDZVXq516GMh5nvprJgNkHppdY8Cw/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_000_722c7ffb470d.jpg)
 
 **㈠.碳化硅肖特基二极管（SiC SBD）**
 
@@ -25,19 +25,19 @@
 
 产品特点：零反向恢复电荷，极致开关速度，显著降低开关损耗与电磁干扰，是PFC、逆变桥臂的理想续流或整流器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJNxKxY947PicialXAwOnWiaqAcHAgEiaBWibjpCC0AIlfic7JB87UE5dBS3OQ/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_001_f99cb9314d07.jpg)
 
 SiC SBD晶圆图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJ4uQMOyuXJvU7KFszGgubKIib5ZfObWtmxa9HWVcZgsJqo3QJ5Qc6FLw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_002_93cc70ce8bea.png)
 
 SiC SBD产品封装及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJQeUcfex62n9lzBBzWJO6gJZEEvCJZRJDSRCCx56R34TuCrAUsibTD5w/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_003_146b36036bd2.png)
 
 1200V100A的SiC SBD的关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJ0m5B4DKBXkrgWj4TLyJFGmqYxYpoAB8LsiaibFNDCqVeickHLC6njfiaug/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_004_6037e0d1538a.jpg)
 
 1700V75A的SiC SBD的关键参数表
 
@@ -47,7 +47,7 @@ SiC SBD产品封装及拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJicxH34uvVbvj3K8kEujqLpR74KWFB91HCyyhgeWTsOStEQovHOjFYgA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_005_acbaed7093e9.png)
 
   
 
@@ -65,7 +65,7 @@ SiC SBD产品封装及拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJsvibcetkVl56tttdg1Nib8l5JPHzIwA2hzs4MBfhmffCKibmDOH5TlsOA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_006_994a22acef5b.png)
 
 SiC MOSFET晶圆图
 
@@ -73,107 +73,107 @@ SiC MOSFET晶圆图
 
 1\. TO247-4封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJfk1UBcFzWeHiayXGs6g8wAiaDWFZRqCm6HY3SBOuibDiczIYzibfeVFiaaVg/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_007_28375ee2ba82.png)
 
 TO247-4封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJJ8PLUZQiauof2k2j8MVmIbP9lUO3ozId9CoOuGoyKXlqHZUmagxHbzA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_008_28631953c3bc.png)
 
 1200V150A SiC MOSFET产品关键参数表
 
 2\. TO247-4L封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJLXvCcr2yvNQ0faGEngQ1BmQibFzUXNhzECd5H4fQ7OvNicZefqjL5uiaw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_009_985f7bc78bb2.png)
 
 TO247-4封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJx5JYicvCNobcIQwyLjo9ic8ibyCPiaOZxd77ia5PfjAR2VKjgOKI3RX3ODw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_010_cdb35a15e835.png)
 
 1700V120A SiC MOSFET产品关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJzYqPHYAVWXAYvj38LVxZCnZLFFVf8LFFFf2uFO4EaVjllAog2hKVOw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_011_e80785baed51.png)
 
 3300V80A SiC MOSFET产品关键参数表
 
 3\. TO247-3封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJfcSwYpdvgNWvCk5RGwxYpAZIYK068f7iaF7Z4iaYgJ7XKLGe0RwlTdKw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_012_2203a574aa34.png)
 
 TO247-3封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJfPNsYd3ExnfO0WibOyqAx9KpegvWsEEhj057M5VyFca7HatNuhsdm8A/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_013_8bfa5e15849f.png)
 
 1200V115A SiC MOSFET产品关键参数表
 
 4\. TO220-F封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJWXibrolM65yruaa3ANRPWicibaUTFhs3ELTfFYDWtibicPuwN3hk3GQnia4w/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_014_c1e80a22b97d.png)
 
 TO220-F封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJylL5kjtHCTibmzHcVSXv97c8G9Lyoe4ochDSrtMlSs2yEuCtnbHqclw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_015_a6e036b5fd97.png)
 
 650V25A SiC MOSFET产品关键参数表
 
 5\. TO247-3L封装（内绝缘）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJR9sma8ZCUZMwzm3EMwaDPtW5I7ud0ic7KSNxg9SzXzmoXFQBkkflia2A/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_016_81c3c3bb068a.png)
 
 TO247-3L封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJc9F4XhsbfMEibaOg8BibRkdD2OVFsiaCO52DyRHfNvTg6bJaquYwyiaVUA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_017_ba8d4f21ed54.png)
 
 1200V115A SiC MOSFET产品关键参数表
 
 6\. TO263-7封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJXJ8DzElcskQ7ondLf686B21lz0AVnrNOO6U0sAdGCVnZC9C3Totyyw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_018_eae7e01039a9.png)
 
 TO263-7封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJhC5PjvdpbhMk6Pqic4vfNFnD25tDNGEREytNuic537vrtzT39OyzPITQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_019_4bc244d5659c.png)
 
 1200V60A SiC MOSFET产品关键参数表
 
 7\. TOLL封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJZtjtUsT0Mia2ZE4cf4Eia6J9HJ7M9vUiavP2FleoPrWLUMEIencmL92lg/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_020_5b378f609c5f.png)
 
 TOLL封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJfGOcbYz0I5SvaSIMagfHYSk0avj7HTE9zCItqd6spmqSURSEwAX5icg/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_021_0d9c9c09f424.png)
 
 1200V30A SiC MOSFET产品关键参数表
 
 8\. PDFN5\*6封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJsAfdUmVreib92JVkPKtcPCaiaOrPYOlIo4aeK4gZjQqOqClOelzdkwHw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_022_375f921fcb6d.png)
 
 PDFN5\*6封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJ0hGpVcYZA1W6jNZqYF57PNO5yhqjxkQrMzG0wgnu8eWHhE7IX2kg6w/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_023_61340c677393.png)
 
 650V8A SiC MOSFET产品关键参数表
 
 9\. PDFN8\*8封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJLwTAJicpNjog0k8ySKZ4KgTseF0cIn593rU7HgTeGoamcAdAUgXdYuA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_024_143c5e56ffb2.png)
 
 PDF8\*8封装产品及拓扑图
 
 10\. SOT227封装
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJr6nW2bjzaaBgpLeib6s9TdNib01K9nLxCWicYCTdMMQ9vRuuNGexmiaX8Q/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_025_a0a9fa8fd1d4.png)
 
 SOT227封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJRiajkOge54PBWUFT6A0cicUYItsebtjwWTvRqWgCVwdUZrg3wr6nZ40A/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_026_321e80b85217.png)
 
 1200V250A SiC MOSFET产品关键参数表
 
 产品大全
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJ4pVYq4XHW1Qe0q53kM9LKCs1vZUXdzeGBaaylksfhPbfcppjmVib9SQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_027_a4ca24a07532.png)
 
   
 
@@ -197,97 +197,97 @@ SOT227封装产品及拓扑图
 
 1\. HPD封装系列--三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJBe2x3VQoDI2OWyYdMNJMKcaJwmowFE1SicBHKGKOY3MAFC5KeYWOJaA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_028_16456daac3e9.png)
 
 HPD封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJibO7XicvlwCdqkiac7NqfpGfrwalibyNbHvFKqHBE4fGVrDH0iby2CoePPg/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_029_c103a29fd843.png)
 
 1700V1000A HPD模块关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJYAkVbsmT7qOdF6nwpMPkWOW3vpNAHgnWToS7zYFR8jJYGoPOh1I9TA/640?wx_fmt=jpeg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_030_c27682fb8ad0.jpg)
 
 HPD封装模块产品+驱动板
 
 2\. MD3封装系列--三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJ3qGXYHpSAhx2VdJp8QRkLwe35JVbp9ZraM6icOsE6Yvupaj40ORP61g/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_031_0458921d42a0.png)
 
 MD3封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJvUcwVAWajCtibwg3qKcEfzic1wrxRTT1aZarfBoOTb999xeFWasflHWw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_032_92e9a8c551b6.png)
 
 1200V800A MD3模块关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJerY4ZVXul0um6elb2SNGI4MaYM4B8OMaC9QibFWysOtf0ULDmrlVjvg/640?wx_fmt=jpeg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_033_29a81cb6571d.jpg)
 
 MD3封装模块产品+驱动板
 
 3\. MEK6封装系列--三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJGDhtIyxthY4HlGHNZ5mOfZLW52fAJiahiaWVYqpW3aDOR453FEadvuMA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_034_aa6e46725868.png)
 
 MEK6封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJd7liccFRRMx8Ym40qFVI59kSS0LLLPiaDKswUweibBkyLnW15G3JuY4WA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_035_4758f1c6647c.png)
 
 1200V400A MEK6模块关键参数表
 
 4\. D21封装系列--三相全桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJYuHORbPfVj6pnFlCwyADgeESmliaFGRUDB5EvJVECjEVjbZHGoHVRwQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_036_caeb8fd1af72.png)
 
 D21封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJahurg8CE7NAvStyvsbjER0RQh10a01ib2uZTib846lpOKIicLg2grus4Q/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_037_28369398537d.png)
 
 1200V32A D21模块关键参数表
 
 5\. DCM(DCS12)封装系列--半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJ1A2tpn7iasKjCxYpB2x7hYXevZCEP8DAGn2RptFXqVHcBbRvDmbFRkQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_038_94967d08ce60.png)
 
 DCS12封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJx7FZKbpzAyNSxJQPpyiclvpgkjXvf1lytNicibpqX5lnkKc7c6z4TRABA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_039_3a04d316f7f5.png)
 
 1200V1000A DCS12模块关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJiaGCokibibtvIla4W1Gqq3yLBNu9AwCd3P0myWePUrsMHdiaot0eFkT2ibA/640?wx_fmt=jpeg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_040_96723b957485.jpg)
 
 DCS12封装模块产品+驱动板
 
 6\. MED(EconoDUAL)封装系列--半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJLXKZUziaAuaSRcc6sV28mibRqLnOicQ0cCGmcxe0Pc3HMyAAEEDwRh6Yw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_041_d33dcd748cd4.png)
 
 MED封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJTUrgnfaECiamMDgl9yT44YrwJz7LmHUGJRdNQfNGJILicUibRmYDNqfLQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_042_1416ce671975.png)
 
 1700V1000A MED模块关键参数表
 
 7\. ME3(62mm)封装系列--半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJibCMpGOiaHyjKk9ZF2W8ibHpRARoLpd7zjPeScnAiaF8qwrKMzpSKgDZuw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_043_9f2e8a211549.png)
 
 62mm封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJD4gJqOyuJLniakjeaO8srZ5KpYicAyv3oYUWCcagiaUpu3cpcqENibwQVQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_044_d8d5168e431e.png)
 
 1200V600A 62mm模块关键参数表
 
 8\. ME2(34mm)封装系列--半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJLeqIj0U4icOGNLgpM0Sag6Z3Mibfed04wib55bib10wibUOq5Pg8xSXPo0g/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_045_7eac60bcc760.png)
 
 34mm封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJcW8Qo1OJXicicqiapxRqPMWFXZbVONeTqHYhWHG5ewEXggyJ09IEyS0Uw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_046_5de3874073e9.png)
 
 1200V300A 34mm模块关键参数表
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJDxZEPbkV2ib9QaMfpods34niafxeYNRpQgfomF2hmecNJFa8IicoTSVuQ/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_047_8c1fafcd04d2.png)
 
 34mm封装模块产品+驱动板
 
@@ -295,37 +295,37 @@ MED封装产品及拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJS7bYsYSQOIRClgUoo63JPaq3u5hhSmZRuaWohzdFMeIQsaIhCBbXgA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_048_5b7a08cb01a5.png)
 
 MEP封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJMCIicFDTqb6GZmJmf3LruDoSic1v8ovVSNAfKWKyzOlhPFSFvCa8O40Q/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_049_2a6d2827b950.png)
 
 650V300A MEP模块关键参数表
 
 10\. Easy(EP)封装系列--半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJy4bBxKiaMGM3NicG8o9OnrfVpYpvkSEUFAwoxd3yJzkJJIrkhzBhUgyA/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_050_622d79fd5318.png)
 
 EP封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJtzeHtCFbqLoyoWnictBqyqXSnCd1rxueTbTbAxLC98Vo87gbD8NrK9Q/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_051_4a6c6b997521.png)
 
 1200V200A EP模块关键参数表
 
 11\. SM8封装系列--半桥模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJxibShCYI37RlEj9RPwibXOdGCeDlN5WZOPDjqP4BYpUt9t8koyPZy36A/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_052_5ab0388a1fc3.png)
 
 SM8封装产品及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJMFIEj16CcTF8nV5ohRDTWDrTnbC02HqbUic8LrWthbCwISEibBOibFKpw/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_053_7947b6f1b3c3.png)
 
 1200V32A SM8模块关键参数表
 
 产品大全
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJbPsFe9PCAOUjpTtxsYM59iajn3dyEAOfBNIZFcbkm3DqfjBQaKyLW8w/640?wx_fmt=png&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_054_506baf714e39.png)
 
 二、国产碳化硅器件的核心优势与应用场景分析
 
@@ -333,7 +333,7 @@ SM8封装产品及拓扑图
 
 碳化硅材料本身具有 **“宽禁带”** 特性，这使其制造的功率器件相比传统硅基器件（如IGBT、MOSFET）拥有颠覆性优势，而国产器件正将这些优势快速转化为市场竞争力：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJcf929DJ7G7zMia2RIqlJPjlxgDFqY5SqhTwDCe5CiaslFTjicfrBKPPHg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images\img_000_5254fe3f40fd.jpg)
 
 **1.更高效率**：导通电阻和开关损耗极低，可显著降低系统能耗，提升能量转换效率（通常可提升3%-5%以上）。
 
@@ -364,7 +364,7 @@ SM8封装产品及拓扑图
 
 国产碳化硅器件正从“可用”向“好用、爱用”迈进，渗透率快速提升的核心场景包括：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJAAmRAxq9KOXYck167mwWY1ptaeenU8u6D68ttQrDmMcK4SEr74elag/640?wx_fmt=gif&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_056_d7a54ad6eff2.gif)
 
 **1.新能源汽车（主驱逆变器）**：这是最大且增长最快的市场。碳化硅模块能提升电动车续航里程（约5-10%）、降低电池成本、加快充电速度、缩小电驱系统体积。国内主流车企和新势力已大规模采用或计划采用国产碳化硅模块。
 
@@ -378,7 +378,7 @@ SM8封装产品及拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJLNOBCaSfgkSHjPmUTtslGuz5aTeIInsWF1y8QFVhyiceJobCaLXkIEQ/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_057_e4e25811da8b.jpg)
 
 ### 三、碳化硅器件（尤其是国产）的发展趋势
 
@@ -400,7 +400,7 @@ SM8封装产品及拓扑图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJPIwo4NtaXg5icvLDTtYpHl4EI6PMgkIwoqibWuQU61hO7XJgKOyKUusA/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_058_666b1b9263a7.jpg)
 
 3.应用场景纵深拓展与系统级优化：
 
@@ -502,14 +502,14 @@ SM8封装产品及拓扑图
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnW0W5rGLPDrhm090cHI1bQ33WZCZcOjyiavickVdt04DBBgSI1etFPSDwRv7cKss2ffJnRjBD9gicMw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_059_6ff32ab25430.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJeswbyWXHH3zadJjsCnPicbbiast6435QnzLuYvUNUFX9Vrxr7I7W1poA/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_060_d002607562b3.jpg)
 
 ###   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmicD5BSOKdiafkh9a4V8ia4wJtkLT2ANJD2lrGfrlAuQSGHFaNEtKkLFBVicDBbn4tAghkEV4MKibRD2A/640?wx_fmt=jpeg&from=appmsg)
+![](10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用_images/img_061_3c6f701c0362.jpg)

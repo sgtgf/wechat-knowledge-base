@@ -21,7 +21,7 @@ LLC 谐振变换器具有宽零电压软开关（ZeroVoltage Switching, ZVS）�
 
 文献中，通过测量 SR 管的漏源极电压来控制功率管开通和关断，检测漏源极电压同步整流策略如图 1 所示。当漏源极电压低于导通阈值时，说明此时体二极管有电流流过，检测芯片输出驱动信号使其导通。关断时，通过判断漏源极电压的大小，控制同步整流管关断。文献也是通过测量漏源极电压来实现同步整流功能。它有精确的关断阈值和低导通时间，最高工作频率达 1MHz。然而，该芯片测量的最大电压仅为 200V，更高电压下便难以有效工作。文献的原理是类似的，均通过测量漏源极电压来控制 SR 管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1okibV1zs3NKScDUd5D5XXMU2W7NXLjeOPtGZSbjtjQEHF06aFotk6ib6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_000_cbdef00ddf03.png)
 
 上述方法在低电压下是有效的（几十 V），但在高电压下并不适用（高达 700V）。高 dv/dt 下，寄生电感极易影响检测电路的准确性。检测电路也增加了变换器的复杂性和成本，特别是在双向 LLC 应用中。
 
@@ -41,9 +41,9 @@ LLC 谐振变换器具有宽零电压软开关（ZeroVoltage Switching, ZVS）�
 
 正向模式下，所提基于二阶拟合模型 SR 控制策略如图 2 所示。图 2 中，ΔTfor 为 SR 导通时间；fr 为谐振频率；fs 和 ro 分别为开关频率和等效输出电阻；p00～p02 和 q00～q02 均为拟合常数；ton\_Q 和 ton\_s分别为一次侧和二次侧驱动的开通时刻；toff\_s 为二次侧驱动的关断时刻；iLr 和 iLm 分别为谐振电流和励磁电流；iS1 和 iS2 分别为 S1 和 S2 的导通电流；Iref和 Vref 分别为电流参考和电压参考值；PI 为比例积分控制器。Q1～Q4 和 S1～S4 均为 MOSFETs，采用了数模转换器（Analog-to-Digital Converter, ADC）进行采样，LLC 变换器正向运行波形如图 3 所示。由图 3 可知，所提 SR 控制通过建立二阶拟合模型，考虑开关频率 fs 和输出等效负载 ro 的变化，实时计算同步整流管导通时间。一次侧开关管驱动信号和二次侧开关管驱动信号的开通时刻是相同的，但同步整流管关断时刻由计算出的 SR 导通时间决定。因此，同步整流导通时间可根据开关频率或输出负载的变化而变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oGpBAia2k26R1KoxibxBr0mdfgChhbN9kBRDH92XxKIQzSKYyThBkLAhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_001_1199456bc30f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oUMSFeclr9eYicw8aIh2yLPzkPgic2dVCkKavcB1V87zibKWLwvwUibibUdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_002_57082327bd0f.png)
 
 LLC 变换器的输入电压为 380～700V，输出电压调节为 200～500V。在双向 LLC 变换器中，采用SiC MOSFET，充分利用其高电压和高开关频率的特性。LLC 谐振频率在满载 6.6kW 时高达 300kHz。
 
@@ -55,9 +55,9 @@ LLC 变换器的输入电压为 380～700V，输出电压调节为 200～500V。
 
 反向模式下，所提基于二阶拟合模型的同步整流控制如图 4 所示，图 5 所示为 LLC 变换器反向运行波形。此时 Q1～Q4 为同步整流管。LLC 反向运行时，励磁电感始终并联在输入电压两端，不参与谐振，反向 LLC 变换器电压增益特性与 LC 变换器一致。因此，反向 LLC 变换器始终固定工作在谐振频率点 fr，实现高效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1owyLcZL63G2Jh7TIs90j54QkI9bApxnaRg4ic38icibDv6gsGXfgm6QXPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_003_2252f71566ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oibCtnJTey0Tic0A7IEC5lTheibZ4zichTUjHGtyHhPjNsW7RwPyWrabvTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_004_c73876564f6c.png)
 
 通过建立二阶拟合数学模型，考虑输出等效负载的变化，实现同步整流导通时间的在线计算。原二次侧开关管的开通时刻相同，但同步整流管关断时刻由所建数学模型计算出的同步整流导通时间决定。
 
@@ -73,17 +73,17 @@ LLC 变换器的输入电压为 380～700V，输出电压调节为 200～500V。
 
 图 6 所示为 LLC 变换器正向运行的等效电路和工作波形。图中，Vab 为桥臂中点电压，Vin 为 LLC输入电压，Cj 为同步整流管输出等效结电容，ϕ 为同步整流管导通时间。为便于对模型进行分析，假设谐振电感、谐振电容和变压器是理想的，只考虑了基波，并将同步整流管输出等效结电容视为常数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oNSJiaOb7FicBFicSTCSIicEpTOFt9NLUS2wUg7yAgv57Qt7nicffDUDmXxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_005_7b62593cb0bd.png)
 
 图 6a 中，ZRC 为输出等效负载和同步整流管结电容的并联阻抗，其表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oaWP3DkBlFkaVwUbB7H8U5XoHX3lU8OutVDjJIeL568Sv6iabIYEgDdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_006_25f43c5e75e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1o8PPXpXiaBJnt5BzKtyeHaSaFPJalJtcyLKverWzyZgd7NFgVpsHVnZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_007_8ff75a3f7032.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oj7SefseI95Do5EiaLE4FLoCTtmgt7ahAu5Rjcl0U7icT3mtHz7AicNhBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_008_e0f2bdf367a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1o7qttnp3nXFicKRk0Qhe2otibhCAZckxialzXk20wibWwoaqibU8DdGcqUkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_009_4fe912b76d19.png)
 
 **2.2 所提基于二阶拟合模型的 SR 算法**
 
@@ -91,15 +91,15 @@ LLC 变换器的输入电压为 380～700V，输出电压调节为 200～500V。
 
 利用 Matlab，选取二阶多项式作为拟合函数。开关频率小于谐振点时，SR 导通时间拟合函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oSFhJVPOP90pZnhSw2F7A2FklUEKukqrJdxdNWYncMqwgcicCyWc55rw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_010_b0e2c622f545.png)
 
 式中，fclk 为控制器工作频率；Dctrl 则来自闭环控制器的输出。本文采用的 DSP 型号为 TI 的TMS320F280049C，主频为 100MHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oECCSgibOyVuqTASE6NIUdRbyNHDXC82cibzWgt2eBtnj83VIMHN9XnCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_011_1074f0e26d33.png)
 
 SR 运行周期的对比分析见表 1。该表包含了等效输出负载的计算周期。它假设代码和堆栈在零等待状态内存中。从表 1 可看出，使用所提二阶拟合算法，DSP 的 SR 计算周期大幅减少。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1o5pS7F8xtCSSKHUCiagkpCQGVXaddgC4vmNHWAnLIntPF5pUzKwickA1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_012_3f48f83e111f.png)
 
 图 7 所示为正向 LLC 导通时间对比。不同开关频率下，所提 SR 算法具有很高的拟合精度，满载下误差仅为 2.28%和 0.94%。因此，所提 SR 简化算法可实现高效率，同时所需 DSP 的计算资源更少。
 
@@ -109,27 +109,27 @@ SR 运行周期的对比分析见表 1。该表包含了等效输出负载的计
 
 输出等效电阻由测量的输出直流电压和输出电流计算得到。分析温度对输出等效电阻影响，即分析温度变化对输出直流电压和电流影响的分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1olQISic1Enlg5xLk4eMrIKsP8asMLN99UKs4OkhKMspmq3wOGUribHxtQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_013_6ca5b1c2211a.png)
 
-输出直流电压测量采用电阻分压的方式，如图8 所示。图中，R1、R2 和 R3 为分压电阻，其值分别为 5.1MΩ、3.9MΩ 和 47kΩ，R1 和 R2 的温漂系数均为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1ofEykhu3afOj8Uy2H13MMGx08e1bB4f5nv0shtsO35SbhqCwgSv52YA/640?wx_fmt=png&from=appmsg)。输出电压 Vo 变化范围为 200～500V，Vs 为 R3 的电压，经采样处理电路处理后送入 DSP。
+输出直流电压测量采用电阻分压的方式，如图8 所示。图中，R1、R2 和 R3 为分压电阻，其值分别为 5.1MΩ、3.9MΩ 和 47kΩ，R1 和 R2 的温漂系数均为![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_014_291dd375a0a4.png)。输出电压 Vo 变化范围为 200～500V，Vs 为 R3 的电压，经采样处理电路处理后送入 DSP。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1o2kObpRp0iaiaS5ibgaECIWvD5OOWShzwxcDom1xSNazQTXG0vfFFP7qjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_015_87d5281cc545.png)
 
 当温度为 125℃、温升为 100℃时，根据电阻温漂系数可得，R1、R2和 R3的电阻变化率分别为 0.01%、0.01%和 0.001%。此时采样电压 Vs 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1op3frM1CMMU8QiaT9N5zkLYgSFcYCAZ3dUsk4wUbucm32GTE0WTB3QbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_016_c109747e334b.png)
 
 y1 为 DSP 采样拟合电压 Vo\_dsp 与实际电压 Vo 的比值。当 Vo 分别为 200V 和 500V 时，y1 为 0.99093和 0.98826。当温升为 100℃时，输出电压的测量最大误差为 1.174%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1opU0aWb5w8hTJy4HA2wvicnZHBDRB5m0FyqGKKNkgNMON8cHnwd5WdQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_017_db0ec4ff35f3.png)
 
 输出电流测量采用霍尔电流芯片 ACS725LLCTR-30AB-T，来自 Allegro 公司。图 9 所示为该芯片测量总误差随温度变化的曲线，Sigma 表示标准差。由图 9 可知，当温度为 125℃时，电流测量误差最大和最小分别为 0.5%和−0.7%，即实际电流为 Io 时，输出至 DSP 中的电流为 1.005Io 或 0.993Io。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oZdAQejJzm9DR7L4c1QztgJa9Sx4WDFJmicROQkic726smR3bCc0tn6hA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_018_7c4568849a79.png)
 
 式中，Re\_nor 为 25℃下的输出等效电阻；Re\_max 为125℃下的输出等效电阻；Vo 和 Io 分别为 25℃下的输出直流电压和电流。因此，输出等效电阻在温升100℃下的最大测量误差为 1.67%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1ozNpjhooYo2en0GVhrWiabrFLSTB1Q8q1NAiaWic0U4mfwF4uGnM8ibibiaaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_019_57d7b9b08e95.png)
 
 图 10 所示为输出负载存在误差时的分析。开关频率分别为 300kHz 和 270kHz 时，当等效输出负载存在 10%的误差时，满载情况下，SR 导通时间误差仅为 0.58%和 1.13%。因此，输出负载存在误差时，不会影响导通时间的计算准确度。
 
@@ -137,15 +137,15 @@ y1 为 DSP 采样拟合电压 Vo\_dsp 与实际电压 Vo 的比值。当 Vo 分�
 
 图 11 所示为谐振电感存在误差时的分析。谐振电感存在气隙，气隙磁阻远大于磁心磁阻。因此，当温度变化较大时，谐振电感值变化很小。根据图 11，当谐振电感存在 10%的误差，导通时间误差仅为 2.73%和 2.12%，不会影响所提算法的实现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oJaE1Hrub2EKFcj99qJ1ibtwf6kBTYauYrU9TcvgEXwZmoubt52cxFMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_020_002b64b64c92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1onfjIguwjPHlKJcNvbuwwrjTXPhgqz9H58qEQqQZcyO36zgGXjnkCOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_021_6183f264cec3.png)
 
 **2.4 LLC 变换器损耗分析**
 
 图 12 所示为正向 LLC 损耗分析。300kHz 时，相比于传统算法，所提 SR 算法 SR 管损耗减少了 27.7W。270kHz 时，所提算法依旧可减少损耗，提高效率。因此，所提 SR 算法通过减小 SR 体二极管的导通时间，降低整流管导通损耗，提高效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1obLUaUdwsvWx37FhFCqCMmBEicqkibZIBAedgv1CD9Nsx5zX7zdb5atyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_022_3ab7762efa55.png)
 
 **3 .数字同步整流控制反向 LLC 二阶拟合模型分析**
 
@@ -153,31 +153,31 @@ y1 为 DSP 采样拟合电压 Vo\_dsp 与实际电压 Vo 的比值。当 Vo 分�
 
 图 13 所示为反向模式下 LLC 的等效电路和波形。Cjeq 为同步整流管的等效输出结电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oJHTTpMuJ7L6QgsLkmTsv5JCds76icXvXwccRkRS71A3ydLzHSBIvoIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_023_28c5b94b2ff1.png)
 
 由图 13 可知，等效输出阻抗 Zo 为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1otMpQo2rZQH27Ql6Nhj2E6vb5xx67aNM8pvF0y7YHiaPZV4c9KxenFAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_024_b43df33b3450.png)
 
 反向模式下，LLC 变换器始终在谐振点工作。由于 SR 导通时间只与负载有关，可以简化所提算法，减少 DSP 的计算耗时。利用 Matlab，选取多项式作为拟合函数，SR 导通时间拟合函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1orGPOQhvicSJprZQ4Pz6yddmficN43hiaegvRsBkSXAbjcRy3aI0QVbHTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_025_768ca431c013.png)
 
 表 2 所示为 SR 运行周期的比较。采用所提的二阶拟合模型算法，所需的运行周期大幅减少。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oI2tgMic8icO95yLp7hywUkJtktvIxRx1krPPdAQ1FkTP7llQxWLEtalQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_026_3def34de6502.png)
 
 图 14 所示为所提基于二阶拟合模型的 SR 算法和原始 SR 算法的导通时间对比。满载工况下，所提二阶拟合模型和原始模型的误差只有 0.39%。因此，所提基于二阶拟合模型的算法具有很高的拟合精度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oia1viawib3rRUicoMPZKq2vc1kgYhVbzgwoVhhaKjsBVCgmtpuaQeGZVhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_027_6da1cde1d26b.png)
 
 **3.2 参数漂移影响和损耗分析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1o5IfEF0mrZkr0qzicf6wFRko7GJaZyzeWp0y3RRSPPN2gPUyBk8Cr7RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_028_8b5acf14d705.png)
 
 图 15 所示为输出等效电阻存在误差时，实际SR 导通时间对比分析。满载时，当输出电阻负载存在 10%误差时，SR 导通时间误差仅为 0.72%。因此，输出负载存在误差时，不影响所提 SR 算法的实现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oRFUNWa2DqrIDdGMguZSiax2ia06HCjlz8vqhfC3icTyGLZ77GfKp1yiaEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_029_d6ad5bdc1f61.png)
 
 图16 所示为 LLC 变换器反向运行的损耗分析。相比传统 SR 控制，基于所提 SR 控制，反向 LLC变换器同步整流的导通损耗减少了 11.2W，明显提升了反向 LLC 的效率。
 
@@ -185,33 +185,33 @@ y1 为 DSP 采样拟合电压 Vo\_dsp 与实际电压 Vo 的比值。当 Vo 分�
 
 **4.1实验样机**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1offRThggQJurKXGmCQ1aZqkowVMD29f28L0CM4sxhtibLBQckzicC3OOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_030_532f223a301f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1opXPjBfGRjmubTHLq5GWcAAsVq2SpeTDPMYm5HkPIKqyVyMt1xnWMqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_031_6aa724dd0bda.png)
 
 为了验证所提 SR 控制的有效性，搭建了一台6.6kW 双向充电机，拓扑结构如图 17 所示，实验样机如图 18 所示。前级为交错并联图腾柱功率因数校正（Power Factor Correction, PFC）电路，后级为LLC 变换器。采用 Wolfspeed 公司的 SiC MOSFETs（C3M0065090D），电路详细参数见表3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1o8wjgUPpm0AFYp4icbXicXNtkPusmaEicaZwfyPxdZdNqftfRlgWZNia7JA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_032_6e0d0ea408e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oxHAQKrBnbSC5ZJJMx8VNMAFm5VIDQbd4O2icMLDNiag6NsiaUR1aWeGeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_033_b5b646fb5a46.png)
 
 **4.2 所提 LLC 同步整流控制正向运行实验**
 
 图 19 所示为 LLC 变换器正向运行下采用所提SR 控制的运行波形。由图中可看出，开关频率为270kHz，负载分别为 2.6kW 和 6.6kW 时，所提控制可精确地控制 SR 驱动导通时间，降低体二极管导通时间，减少体二极管的导通损耗。当开关频率为305kHz 时，依旧可实现很好的控制效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oS8aEUXmQyvxbZLLXj5kIG3W9PVAdjNicm3KNTo7oSOQXhUs86d4UGcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_034_7b5208d9859b.png)
 
 图 20 所示为 LLC 变换器在负载突变下的波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oQWhZwBdiazZT4UGvx7ib1vyPx7VKhXp7ebvBic70CYTCfPST5vdy8ELqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_035_a7deee25252f.png)
 
 图 20b 是图 20a 中区域 1 的放大图。可以看出，当负载从 4.4kW 突变到 1kW 时，可实现所提 SR 控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1osDJWSpXM0mLUynIobv47WhnXIBT8ibD6bDetZ08Fb8lTn82UUQfqYMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_036_40b13f2e5cfa.png)
 
 图 21 为同步整流算法运行时间对比。相比原始复杂模型，采用所提基于二阶拟合模型的同步整流算法，DSP 运行时间降低了超过 60%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oU5P2elw9mGjF56mOG6rVfZl0BhhYhkSgrmV004I7aIYJiaufvAKhHlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_037_d6faa478f1f2.png)
 
 图 22 给出所提控制和传统 SR 控制的效率对比。传统控制是基于文献，只考虑了开关频率的变化，忽视了负载的变化。SR 管开通时刻由一次侧开关管开通时刻延迟一定时间得到。开关频率小于或等于谐振频率时，SR 管导通时间等于半个谐振周期减去驱动延迟时间和死区时间。开关频率大于谐振点时，SR 管关断时刻超前于一次侧开关管关断时刻，超前时间等于驱动回路延迟时间。
 
@@ -219,19 +219,19 @@ y1 为 DSP 采样拟合电压 Vo\_dsp 与实际电压 Vo 的比值。当 Vo 分�
 
 **4.3 所提 LLC 同步整流控制反向运行实验**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oHRpZJCRc01UoTiae8ytjX4DjKDrDAyPwic9Komatz2L0jXqGcmFMITSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_038_d17c94d568b9.png)
 
 图 23 给出了反向 LLC 变换器实验波形。为实现高效率，LLC 变换器反向运行时，始终工作在300kHz。当负载功率分别为 1.6kW 和 3.3kW 时，所提 SR 控制很好地调节了 SR 导通时间，跟随负载变化。因此，可极大地降低 SR 管导通损耗，提高效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oj0SO25Ey1d88wwTuc1A2ykkawIRmtv5gBaB49qzZuCejywAzc39bbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_039_6d4b508c73df.png)
 
 反向 LLC 变换器负载突变如图 24 所示。图 24b为图 24a 中区域 2 的放大图。当负载从 0.2kW 突变到 3.3kW 时，所提控制可实现良好的负载跟踪。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1oB6y0icjhqibAjoILibDxPdjyHu7dtFQdLVUs9Sc8ia0H37hj1aYpZpQh5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_040_28152c553aa2.png)
 
 图 25 所示为 LLC 变换器反向运行时两种算法实际运行时间。相比原始复杂模型算法，所提算法在 DSP 中的运行时间减少了约 75%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslkPUBqRibADic55I36vibtO1o1sUvPicQwrZdP526AhV24IrPgcpakW2lfUwyKpDoPXLibL9C20Y2X4xA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_041_a272a98bef88.png)
 
 图26 所示为 LLC 反向运行时，所提 SR 控制和传统 SR 控制的效率对比。相比传统控制，满载 3.3kW 条件下，所提 SR 控制效率提升达到 0.29%，具备良好的控制效果，且不增加任何元器件和成本。
 
@@ -243,10 +243,10 @@ y1 为 DSP 采样拟合电压 Vo\_dsp 与实际电压 Vo 的比值。当 Vo 分�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_042_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_043_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于二阶拟合模型的_SiC_双向_LLC_数字同步整流控制_images\img_044_84aa944feb13.jpg)

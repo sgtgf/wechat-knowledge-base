@@ -8,47 +8,47 @@
 
 作者：Ying Liu, Frank Wei, Carter Chen(Iris.Liu@wolfspeed.com)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqictia0VEGb8cWiamDsQibsbFExzHicnpOS36HVHzqic6Mf1rVpePao5KD1EEQ/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_000_1eb8e27f9eec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicrdLlFUT3HvG1bcwibic57ickmMDYn67XKJ2zJQ1D58MZrBF2FAWmZrEiag/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_001_f6af5d46e4da.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicCG5Cy6QHZBrothgiaAhia83wG5ICcLpaz92Z4tARPXqmWAphEGMmmYTA/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_002_ed99285b7240.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicaFvX2ObZbqwIcgJ0yibdA6EE3MjTawRKsJSYS2ic0Uibruhe1KAsicibTGw/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_003_f11705d5f1ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicia3ickV2GjsX7Hn8Uvkt06ydyGPfQlcGdIHqMAVO2Rq7WLenGZYiaLpCg/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_004_eda096764230.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicoicPx2l87HtrIXMH89aqQsSOqRfC8g0WJ4JLuibticwqjhcGiaYkKcaiayQ/640?wx_fmt=png)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqiciaNskVhrTZZc0VOQ0EicbOEexvOnhX9yu8BmPrPqibboIWN25KdicA9o0A/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_005_188d14419736.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicj2b7nx0o4lLceWvOb0Obr9Kxjib2OrlkbNHT1Tic3OUwjicgMl1fQ4UFQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images\img_000_54711455a5af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicicyZqMRrRxRe2jCFMKeH9k7vlLTCRfNX47aLaRRtomyV5BjIACwQ3CQ/640?wx_fmt=png)
+  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqic1AYmMlcEBd1icNiasFrYpVHoc1vZ9Gs2npzRtTu6ibkMc4duHIWTZS5Vg/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_007_ff620d629c55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicWMOBlbeDKBWYiaRwvIlMm0AztNlwbicSkicrYOLh9hiakNAyjBgqLGSBZA/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_008_f4d0df783b11.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicFuFkVBRbg1UiaZEV3OEFRoBKoAjIgZ2CtdF6NsnNBCl5TOSycWzczBQ/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_009_6766ea115168.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicOujK77jIJdSWvqXa8VQ8IEmRicibfWZtQVUEP7wFsVqa7ttCebMQoaag/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_010_68d382454439.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicnxeNHictS88NxVibyADvxOtDY7PNhmvBTv91y8uomDEcoYzVBNs6CM8g/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_011_8f85472d59cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicqeda3wFtPBUrqlr8ia4h9qYBfic5zDpKvByyWeicEeo2iaiaZGwVu442aug/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_012_f16bb442e54e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicynbFiclniauibKMKJBT26ZREibk5C2b6mL00jCBEyywvVwOyxndJDCDcwg/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_013_fa92e8c9bcfb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicVKF9ic9zUbVtNdn9fr0mt5iaj7zrYcjJqm9kcxDMoxSD6XB1aKqL4jiaA/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_014_ad24b860876d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqic98jCC6b8XBqQTlfX3K1urhEsYt3bgChUaTc1SicGfWb2RoVUw8jcEnQ/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_015_9b75576aca67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqictTsCVKDacDO5G8YWjNJyNXVp9sQ5Iy0wKs9ibEjhGBCLTOFsVy7jNMg/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_016_b3f5b032ba83.png)
+
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_017_40d370d6060a.png)
+
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_018_eb230ad2ad3d.png)
 
 注：文字与报告无关
 
@@ -116,7 +116,7 @@ SiC（碳化硅）器件作为宽禁带半导体材料的代表，在高效电�
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskulIjzro5ukFXOq6axQdqicVsfblURCKyHm57XywXXE3xwNPQibpdfPVzMgjf1Yz7QlfEqC72JtKmg/640?wx_fmt=png)
+![](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_019_3700dfe4e49b.png)
 
 ### 
 
@@ -134,13 +134,13 @@ SiC 器件通过低损耗、高频化、高功率密度及高可靠性等特性�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnw0Yktp4walxdzrTSATGk7lK5S9UY4J3yOFsTZ8h3tPDDibchiaKbgvzyX2Qv8iab66ibYBdLZzKYNKw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_020_b9c6afd8efbe.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnw0Yktp4walxdzrTSATGk7QB9UgsuQgWLhmTa6mtKoQdKdMiaIsfOKXDAduJtCpkjCzOdKibBDhOyw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_021_e7eff6835f04.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnw0Yktp4walxdzrTSATGk7exZXKdicB1zREdkaDTlzjRZEicewNaNDe060JrE4OCDkoreJPIxaCeFw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_SiC器件在11KW高效电机驱动器的设计与优化_images/img_022_5c8b35de707a.png)

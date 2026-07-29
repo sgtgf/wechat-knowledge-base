@@ -9,7 +9,7 @@ Word中插入的位图以及矢量图（SVG格式）转成PDF格式总是会变�
 
 ## 2缘起
 
-前不久提交稿件的时候，除了源文件外，还需要上传源文件的PDF版本以及所有图、表的单个文件，且图表文件推荐的格式为PDF。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTG2OTz7RdlgwYBqFuVlpTrvpKhT7LqlPPUXURFSFAmV8VUlnXChHp3Bdn3bclNWSdDP1SzfYOiaBg/640?wx_fmt=png)因为我的源文件是Word格式，因此就遇到了开头提到的Word转PDF问题。在这个过程中除了将Word转PDF外，还需得到单个图表PDF格式文件。后者相对简单，一般绘图软件都支持直接导出PDF，直接在相应绘图软件中导出对应图片的PDF格式即可。
+前不久提交稿件的时候，除了源文件外，还需要上传源文件的PDF版本以及所有图、表的单个文件，且图表文件推荐的格式为PDF。![](D:\电脑文件\公众号知识库\电机_设计_仿真\保持图片原有清晰度___Word转PDF方法_images\img_000_cfeb4d351998.png)因为我的源文件是Word格式，因此就遇到了开头提到的Word转PDF问题。在这个过程中除了将Word转PDF外，还需得到单个图表PDF格式文件。后者相对简单，一般绘图软件都支持直接导出PDF，直接在相应绘图软件中导出对应图片的PDF格式即可。
 
 笔者常用的图片格式包括：
 
@@ -44,13 +44,13 @@ PDF格式的图片不能插入Word中，位图清晰度受到Word设置的影响
 
 尝试更改Adobe Acrobat DC的设置，关闭对所有图片的压缩后，从Word中不论是打印方式生成PDF还是导出方式生成PDF，图片都会变模糊，但如果从Adobe Acrobat DC中导入Word文件，再导出PDF便可解决该问题。
 
-首先打开Adobe Acrobat DC中的创建PDF选项。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTG2OTz7RdlgwYBqFuVlpTrUGgQAV5ospNZHf4PLd2enksYsOVYzEDibRJGnhnwibngakPbgFypfPEw/640?wx_fmt=png)注意这里不要将Word文件拖到Adobe Acrobat DC中创建PDF，因为那样无法更改高级设置，点击“选择文件”后从文件资源管理器中找到对应的Word，导入Word后，打开高级设置。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTG2OTz7RdlgwYBqFuVlpTr0wFquibSE3CSLumV8cXoxKd4iaUPoB7xQYUlHz7T6iaKLdTvWDH87tN6Q/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTG2OTz7RdlgwYBqFuVlpTrH7LFlZ5aVzK4Df3oWzxocsJajVXcSoa3OrTLbl8cLCQUQ9ic4JAsicaA/640?wx_fmt=png)默认Adobe PDF设置为标准，点击右侧的编辑，将图像选项中对图片的压缩全部关闭，并将该设置另存为。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTG2OTz7RdlgwYBqFuVlpTrOhCFQxXMX3qjPcedicrSgpPK1ofl3BzaF6f7QIjMrPkUlibw9JT7p2Ag/640?wx_fmt=png)将Adobe PDF设置更改为刚刚另存的设置，点击确定，之后点击创建便可以保留SVG格式的矢量图的矢量特征，放大后不模糊，并且位图转换得到的SVG格式的图片也没有损失清晰度，SVG格式的矢量图（其中含有位图）也保持了原有的清晰度。
+首先打开Adobe Acrobat DC中的创建PDF选项。![](D:\电脑文件\公众号知识库\电机_设计_仿真\保持图片原有清晰度___Word转PDF方法_images\img_001_0736b8314dbe.png)注意这里不要将Word文件拖到Adobe Acrobat DC中创建PDF，因为那样无法更改高级设置，点击“选择文件”后从文件资源管理器中找到对应的Word，导入Word后，打开高级设置。![](D:\电脑文件\公众号知识库\电机_设计_仿真\保持图片原有清晰度___Word转PDF方法_images\img_002_a4836af9a16d.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\保持图片原有清晰度___Word转PDF方法_images\img_003_2b5ff22ac13e.png)默认Adobe PDF设置为标准，点击右侧的编辑，将图像选项中对图片的压缩全部关闭，并将该设置另存为。![](D:\电脑文件\公众号知识库\电机_设计_仿真\保持图片原有清晰度___Word转PDF方法_images\img_004_3213c6ee76ea.png)将Adobe PDF设置更改为刚刚另存的设置，点击确定，之后点击创建便可以保留SVG格式的矢量图的矢量特征，放大后不模糊，并且位图转换得到的SVG格式的图片也没有损失清晰度，SVG格式的矢量图（其中含有位图）也保持了原有的清晰度。
 
 几点说明：
 
 -   上述设置是为了使得位图以及含有位图的矢量图不压缩，上述过程（从Adobe Acrobat DC导出PDF）保证了纯矢量SVG格式的图片保留矢量特征，也就是说如果图片均为纯矢量图，Adobe PDF设置中保持标准即可。
     
--   位图格式的图片从Word中打印生成PDF或者导出生成PDF与从Adobe Acrobat DC导出PDF均保持了原有位图清晰度，没有区别，但由于Word默认会对位图进行压缩，因此还需要更改Word中高级选项设置，为避免Word源文件传递中设置不同导致的位图压缩，因此建议对于位图文件，也转换为SVG格式再插入Word中。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DTG2OTz7RdlgwYBqFuVlpTrpRNL02X9SKNZiat4v5o3FRHMX20xm51cAWRzFJOEib7Jjiblc2rlpWX5A/640?wx_fmt=png)
+-   位图格式的图片从Word中打印生成PDF或者导出生成PDF与从Adobe Acrobat DC导出PDF均保持了原有位图清晰度，没有区别，但由于Word默认会对位图进行压缩，因此还需要更改Word中高级选项设置，为避免Word源文件传递中设置不同导致的位图压缩，因此建议对于位图文件，也转换为SVG格式再插入Word中。![](D:\电脑文件\公众号知识库\电机_设计_仿真\保持图片原有清晰度___Word转PDF方法_images\img_005_fd71ab2675af.png)
     
 -   SVG格式的图片先导入Viso而后再复制进Word也是一种较好的选择，但这种方案存在的问题是当图片中含有位图时，其中位图的清晰度取决于位图相对于画板的大小，有点小坑，感兴趣朋友可以自行尝试。
     

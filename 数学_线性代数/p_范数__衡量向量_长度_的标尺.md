@@ -28,7 +28,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsY0icNTIa5HKWVPdorq0uiaR0yfib1vc4To5NdTkByRjFXRALpMkjgwXdxMw1NR8kyeBboVZicaCzJkFXuOqp4UhwuXNp1ZrH3CaE/640?wx_fmt=png&from=appmsg)
+![](p_范数__衡量向量_长度_的标尺_images/img_000_38a458e33119.png)
 
 这张图在讲一个很重要的概念：**\-范数（p-norm）**。  
 你可以把它理解成：

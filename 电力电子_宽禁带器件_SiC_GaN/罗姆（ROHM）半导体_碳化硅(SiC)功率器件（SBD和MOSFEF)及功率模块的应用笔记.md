@@ -7,13 +7,13 @@
 
 **摘要：SiC 功率器件（碳化硅二极管-碳化硅MOS管)和碳化硅功率的应用笔记，分10个部分介绍，包含碳化硅半导体的材料.器件和模块的特征，驱动电路，评估板及可靠性，方案的应用电路等，适合新设计人员参考。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe70YgMeEia5GdNVnfc65RSUicviatFakuhObo7rDMwW8NPsFNnDfjDhZAg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_000_e98f7eedef00.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pen5t4KcqBU5X7fZicTP5WtzB9D4XawAibAqngy4iaMq7cVNjMZem7QTebw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_001_e763e437616c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peufK7iahSib47iboV98dLoZWmCdibTRsNPLh688dRBXTVAtSETbo3r3C1hA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_002_c3e80df4e32f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pePUR6OBIhDr5ybUz5daLib9cBg7hQYb4dLiau4OUx3VaMKxtukCAj2Nrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_003_1e2a8807f1bc.png)
 
 **1\. SiC 半导体**
 
@@ -21,7 +21,7 @@
 
 SiC（碳化硅）是一种由硅（Si）和碳（C）构成的化合物半导体材料。表 1-1 列出了各种半导体材料的电气特征，SiC 的优点不仅在于其绝缘击穿场强（Breakdown Field）是 Si 的 10 倍，带隙（Energy Gap）是 Si 的 3 倍，而且在器件制造时可以在较宽的范围内实现必要的 P 型、N 型控制，所以被认为是一种超越 Si 极限的用于制造功率器件的材料。SiC 存在各种多型体（结晶多系），它们的物性值也各不相同。最适合于制造功率器件的是 4H-SiC，现在 4inch～6inch 的单晶晶圆已经实现了量产。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peGTwL8t5eVlFX4FClIibZKoV2BVZ8q48G1hlNfvk3Unlxvv9jtdOCgcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_004_874a48dc2917.png)
 
 **1.2  SiC 功率器件的特征**
 
@@ -39,7 +39,7 @@ SiC 能够以具有快速器件结构特征的肖特基势垒二极管（SBD）�
 
 目前，ROHM SiC SBD 的主要产品线包括 650V、1200V、1700V 耐压的产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peZ624iamb5y5o8WFgurcpO97k12lCCaeyTUkpLJ0lmywFzricfGY70iaCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_005_bb2759f9f222.png)
 
 **2.2  SiC SBD 的正向特性**
 
@@ -47,7 +47,7 @@ SiC SBD 的开启电压与 Si FRD 为同等水平，都小于 1V。开启电压�
 
 SiC SBD 的温度依存性与 Si FRD 不同，当温度升高时，随着工作电阻的增加，VF值会变大，不易发生热失控，因此可以放心地进行并联使用。图 2-2 是 VF－IF特性的典型数据。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pet0IhFNMG2EZYPDsGNKbbpPQG7z2IRZkwyQVWGrNueJvWic0tIbOO5Ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_006_80f67e7c57e3.png)
 
 **2.3  SiC SBD 的反向恢复特性**
 
@@ -57,7 +57,7 @@ Si 的快速 PN 结二极管（FRD：快速恢复二极管）在从正向偏置�
 
 图 2-3 是 SiC SBD 和 Si FRD 反向恢复特性的测试结果。可以看出无论使用温度和正向电流如何改变，SiC 的反向恢复电流都得到了大幅减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pedTPcI7wjezLbcgXJsWxF2N02C7wD0lmoS1YgHGV1IFcgrI0C4hA9mA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_007_94c2e80cab1a.png)
 
 **2.4  SiC SBD 的正向浪涌特性**
 
@@ -67,7 +67,7 @@ Si 的快速 PN 结二极管（FRD：快速恢复二极管）在从正向偏置�
 
 图 2-4 是第二代和第三代 SiC SBD 的结构区别，表 2-1 是典型电气特性的对比数据。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peGOnDTFpNU9NTiap8QrObibCv73FGPwct8I15PfpIdiaZ49F3HzHuDyaYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_008_0ae5acaf5f55.png)
 
 **2.5  串联・并联使用时的注意事项**
 
@@ -87,7 +87,7 @@ Si 的快速 PN 结二极管（FRD：快速恢复二极管）在从正向偏置�
 
 因此，并联使用时不需要附加的均衡电路。但是需要注意使用相同批次的产品，并且尽量使布线电感相等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peSA99ibAFAYfHrRMjUvYIpQuzTKpfjc3h6zftUxGQk0iaeeBL7bqqnGTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_009_6a77fdc66b67.png)
 
 3\. SiC MOSFET 的特征
 
@@ -101,7 +101,7 @@ SiC 器件的漂移层电阻比 Si 器件的要小，不必使用电导率调制
 
 图 3-1 是 Si 和 SiC 的 MOSFET 以及 IGBT 的额定电压范围对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pexSxFe6yqQpKrU9dE0g5r9iaD3iamiaCR3hzicZtrmic5xMCxqdgKaAnm94g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_010_be6df0ad245f.png)
 
 **3.2  标准化导通电阻（RonA）**
 
@@ -109,7 +109,7 @@ SiC 的绝缘击穿场强是 Si 的 10 倍，因此能够以电阻率较低、�
 
 目前，超级结 MOSFET 产品的最高耐压只到 900V，SiC 却能够以较低的导通电阻实现 1700V 以上的耐压。无需采用像 IGBT那样的双极型器件结构（导通电阻降低，但开关速度变慢），就可以实现低导通电阻、高耐压、高频开关等各种优点兼备的器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peSo1dzK6G2BNibDa1gl8stFWOx9RoGx1k61e9oHuCfPibQEvda3cEsXibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_011_f4d4b4ecf649.png)
 
 **3.3  VDS-ID特性**
 
@@ -117,7 +117,7 @@ SiC MOSFET 不存在像 IGBT 那样的开启电压，因此从小电流到大电
 
 另外，Si MOSFET 在 150℃时的导通电阻会上升为室温时的 2 倍以上，但是 SiC MOSFET 的上升率相对较低，因此热设计更加容易、高温下也能够实现较低的导通电阻。图 3-3 是在常温、高温时各种器件的 VDS-ID 特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peoOkPlpZJZBDapEq3a2iaWBWqACpjggrKUvdQUDTibZgNm0x0cptTiajQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_012_aaddc64aa7ae.png)
 
 **3.4  栅极驱动电压和导通电阻**
 
@@ -127,7 +127,7 @@ SiC MOSFET 的漂移层电阻比 Si MOSFET 的低，但是另一方面，按照�
 
 另外，当 VGS=13V 以下时，随着温度升高，导通电阻有减小的倾向，并联使用时电流可能会集中流过某一个器件造成热失控，请注意不要在该条件下进行使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peENvqIicJIYAafxykvibmrsBsAtymLAx4Jcdp8nIbNJhGXUumYl4Xiavzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_013_07fe9f04670d.png)
 
 **3.5  导通电阻的温度系数**
 
@@ -137,27 +137,27 @@ SiC 的漂移层电阻和 Si 一样，在温升 100℃时也有变为大约 2 �
 
 即便是 SiC MOSFET，因为耐压不同、器件设计不同，导通电阻的温度系数也会有所不同。650V 产品的漂移层电阻成分较小，因此温度系数非常小；1200V 产品的漂移层会变厚，电阻成分较大，因此温度系数也会变大。对于相同耐压的 SiC 产品，漂移层越厚的器件，耐压的实力值越高，可靠性也越高，但是另一方面，导通电阻的温度系数也会变大。（图 3-6）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peze5RYCvh7SO71z8VdoyKJmEibpUiaOYXgbfGaJdAtKdsEVDCptLmBwJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_014_857ce1bc3650.png)
 
 **3.6  VGS-ID特性**
 
 图 3-7 是 VGS-ID 特性。左右两个图表是同一个数据，左图的纵轴是对数坐标，右图的纵轴是线性坐标。SiC MOSFET 的阈值电压以数 mA 进行定义时与 Si MOSFET 相当，在室温时大约为 3V（常闭）。但是，为了流过几 A 电流所需要的栅极电压在室温时大约为 8V 以上，因此认为其误导通的耐量与 IGBT 相当。阈值电压有随温度升高而下降的倾向。由下图可知，即便当 Ta=150℃时，只有在 VGS=6V 以上，SiC MOSFET 才会流过 5A 以上的电流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pemUdSHXvtpPkalyn9J3Kcc8KjEHwZD7PnXeiagiaoe0QMqqcWB53icnVWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_015_38bd332e0688.png)
 
 图 3-8 是 SiC MOSFET 和 IGBT 的 VGS(VGE )- ID(IC)特性对比。可以看出 ID(IC) =10mA 时的 VGS(th)的值是 SiC MOSFET 更低，但是对于 5A 以上时，SiC MOSFET 所需的 VGS 会变得高于 IGBT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peMlY0bls0h2eiaweIHxTeRKcUC1Mniar6MW5QibPcr2aohbic0gFN3EYswg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_016_4800b906ab94.png)
 
 **3.7  开通特性**
 
 使用 SiC MOSFET 和 SiC SBD 的一体化封装产品 SCH2080KE，和相同等级的 IGBT 和 Si FRD 的一体化封装产品，分别构成半桥电路，通过感性负载的双脉冲测试（DPT）对开关波形进行了对比。图 3-9 是测试电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe4H1Eac30FicRaconicNCUzzRhV0Wr1FiaHXicu3r9xlmqECK3ofszwG8Lg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_017_e20bdc8df525.png)
 
 SiC MOSFET 的开通速度与 IGBT 和 Si MOSFET 相当为几十 ns。但是，在感性负载条件下进行开关动作时，由流过上臂二极管的续流所产生的反向恢复电流也会以直通的形式流过下臂，根据二极管性能的不同，可能会叠加较大的损耗。（图 3-10）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peyjmVM2icwPLJvH6I0ysusViaxIvthP24ClBNuy8UBmF7Gr6QfmKQNw8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_018_a216bcdfd276.png)
 
 一般来说，Si FRD 和 Si MOSFET 的体二极管的反向恢复电流非常大，会产生很大的损耗。而且高温时该损耗有变大的倾向。
 
@@ -173,9 +173,9 @@ SiC MOSFET 的 Eoff 较小，因此可以实现 50kHz 以上的高频开关动�
 
 开关速度在很大程度上取决于外接栅极电阻 RG\_EXT。为了实现快速动作，推荐使用几 Ω 左右的低阻值栅极电阻。请在考虑浪涌电压的前提下，选择合适的栅极电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pej2KwJe2NzHNLyOYIgTW2HKT7HBCChx6dmCSxQS00uQbeknEkoSUyyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_019_ac40e6f263ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peibHYLeJonJNpZEiaaia6bHAoe6KAwGQQK8UE1qE9ibtNlpM5fLYibyHORKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_020_31628c006f11.png)
 
 **3.9  内部栅极电阻**
 
@@ -183,7 +183,7 @@ SiC MOSFET 的 Eoff 较小，因此可以实现 50kHz 以上的高频开关动�
 
 开关时间在很大程度上取决于外接栅极电阻。图 3-13 是外接栅极电阻和开关损耗的关系。栅极电阻越大则损耗越大，因此为了实现快速开关动作，请确认好浪涌情况，尽可能地使用几 Ω 左右小阻值的外接栅极电阻。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe0ojVYSrKa7Zp943OxXHreCkicww1Z77ia9wr4m4wUqMrglUicOHGDNYHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_021_9ee0c004ecda.png)
 
 **3.10   体二极管的反向恢复特性**
 
@@ -191,7 +191,7 @@ SiC MOSFET 的体二极管虽然是 PN 结二极管，但是少数载流子寿�
 
 SiC MOSFET 体二极管的反向恢复时间和 SiC SBD 相同，不受正向输入电流 IF 的影响。另外，图 3-14 对比了 SiC MOSFET 的体二极管（SCT2080KE）和 SiC SBD（SCH2080KE）的反向恢复电流，当 dI/dt 一定时，两者没有差别。在逆变器等的桥式电路应用中，即使只由 MOSFET 构成桥式电路，不仅可以实现非常小的反向恢复损耗，同时预期可以回避由反向恢复电流引发故障的风险，以及降低噪声水平。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pec21bXODnCgw1ZwqCKJOscUFm1JY9zSrdmYnURVJDcS0k7wFEOXQX7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_022_51bccb249ae8.png)
 
 **3.11   BV（击穿电压）的温度依存性**
 
@@ -199,13 +199,13 @@ SiC MOSFET 和 Si MOSFET 一样，高温时 BV（Breakdown Voltage：击穿电�
 
 图 3-15 是典型的 BV 温度依存特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pezByK4EYB5Nndvb9q2o247sB8MLqmanVegs4rhwDTANIPNuycOd3icOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_023_34bde8017978.png)
 
 **3.12   用于反激电源的 1700V SiC MOSFET**
 
 如图 3-16 所示，耐压 1700V 的 SiC MOSFET 的 RonA 仅是相同耐压等级 Si MOSFET 的 200 分之一，特性有很大改善，因此可以通过不到 10 分之一的芯片尺寸实现 10 分之一的低导通电阻。对于交流输入 200~400V 的工业设备的辅助电源（反激变换器），通过将经常使用的 1500V Si MOSFET（10Ω 左右）替换为低导通电阻的 SiC MOSFET（1Ω 左右），可以通过低发热去掉散热器，通过产品表贴化实现自动安装，在不提高整体成本的前提下，就可以实现小型化、低发热化和安装工序的简化。ROHM 也可以进行 SiC 专用反激控制 IC，以及 SiC MOSFET 和控制 IC 一体化封装产品的提案。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peKI0jBDaasRQaAk46Y3SkDoCicIclPY4OlVibKiaCVrUk0Wt4YIkmOA5Nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_024_b7053c92e275.png)
 
 **3.13  第三代沟槽栅极 SiC MOSFET**
 
@@ -215,17 +215,17 @@ SiC MOSFET 和 Si MOSFET 一样，高温时 BV（Breakdown Voltage：击穿电�
 
 另外，因为第三代 MOSFET 栅极电压的额定范围较窄，请确认第 5 章的栅极浪涌电压对策方法，在规格范围以内进行使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe4OS0iaKMic7PxECCH1eajhneYrJMRl3smtCdnITPlj0HpCJhUOBJGF8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_025_3d91b08f1319.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pef5vic47ztC4eoFS4uhWPUAkLR9dAE13wficR9GmuW9zAqo1YzMGCiaecw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_026_9e99320d1038.png)
 
 **3.14  开关特性的温度依存性**
 
 开关速度在很大程度上取决于器件的寄生电容，因为 SiC MOSFET 的寄生电容相对于温度几乎不变，所以开关损耗的温度特性非常稳定。如图 3-18 所示，开关损耗在 25℃～175℃的范围内特性几乎是平的。图 3-19 是 SCT3040KL 的（a）Ciss、（b）Crss、（c）Coss 的温度特性，可以看出各种寄生电容成分相对于温度变化都很稳定。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pejuTSIToTkq4pj723cXgqncp2PqHjuAo2SsDmdp3PxWzfkBeegyqcyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_027_9cf54d687b18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peaCec03icibyzooomteuibOaMcjBjI3LnZiafOiayjkvz8dIIyZ9AE801ia4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_028_166ece296c5d.png)
 
 **3.15   开关特性的栅极电压依存性**
 
@@ -233,23 +233,23 @@ SiC MOSFET 和 Si MOSFET 一样，高温时 BV（Breakdown Voltage：击穿电�
 
 另一方面，关断时的损耗 Eoff 几乎不随 VG(ON)变化而变化。关断时，因为是由米勒平台电压和栅极关断电压（本例是 0V）之间的电位差来决定给 Crss 充电的栅极电流的大小，因此基本上和 VG(ON)无关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe1s5GAg6iaYmbfUWo2GrCeYRWCuUz1Cbm5Z8eXRWicTStIqHTGBZR70Qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_029_40e5c2753c19.png)
 
 **3.16  开关速度的漏极电流依存性**
 
 图 3-21 是在不同漏极电流 ID的条件下，栅极\-源极电压 VGS的动作说明。无论是开通过程还是关断过程，当 ID 变大时，米勒平台电压都有变高的倾向。因此，当 ID 变大时，开通速度变慢，关断速度变快。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peibDtBnWUADYsLLNTXP49zbia0qXxqdN9ZdlIQvfbFIcbe4DlEeUQNnhw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_030_1c1f277a27b0.png)
 
 **3.17  寄生电感对开关特性的影响**
 
 在 TO-247N 等 3 端子封装中，栅极驱动电路和流过漏极电流的主电路会共用源极端子。因此，源极端子所具有的寄生电感Ls 会随着开关动作时 ID 的变化产生感应电动势，从而对驱动电路产生不良影响。图 3-22 是动作原理的说明。开通时随着漏极电流 ID 的增加，该 dID/dt 所产生的电压 LS・dID/dt 会使得 G-S 之间所施加的有效电压 VGS(real)有所减小，造成开关速度下降。另外，关断时因为 ID 减小，LS在关断时会产生反极性的电压，对关断动作造成妨碍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peabIjnTGPam9XIE8wMgePtGJ9kEKIvqye7DLEax2yFkGFysxibcAJLUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_031_ea44d20b2f05.png)
 
 源极的共用电感 Ls 不仅存在于 3 端子封装的源极端子和内部键合引线，也存在于 PCB 上的布线 Layout。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peoB7MRPiaSvsJtjG9icBHV6YtfUFTyc6lscHe8OicQQcWP2o7URfmpwd8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_032_216e009f36b4.png)
 
 图 3-23 是在 PCB 上把主电路和驱动回路的返回布线进行共用化的利害说明。LayoutA 共用了主电路和返回布线的一部分布线，LayoutB 是从端子的焊接位置开始将布线进行了完全的分离。可以看出在 LayoutA 中 VGS 的抬升较小，ID 的上升速度也会变慢。把驱动回路的返回布线从 MOSFET 的引线端子位置开始，和主电路进行分离后再引出是很重要的。
 
@@ -257,11 +257,11 @@ SiC MOSFET 和 Si MOSFET 一样，高温时 BV（Breakdown Voltage：击穿电�
 
 为了去除如 3.17 所说明的源极端子的感应电动势对开关速度产生的影响，开发出了具有开尔文源极（驱动源极）端子的封装。ROHM 已经量产了 TO-247-4L（4 端子）封装的产品。图 3-24 是其外观图，图 3-25 是内部的等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peUob7oUv8qpkHvuUHCx0nzWcR2PUdPiahGibgIpoP31ibyxV0NkBxGPTMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_033_a94c91734cc1.png)
 
 在该封装中，从 MOSFET 芯片的正面电极上具有不通过主电路的源极，而是通过其他引线所连接的驱动源极端子。这样，即使主电路的寄生电感因为电流变化产生了感应电动势，也不会对驱动电路产生影响，因此可以大幅改善开关损耗。图 3-26是通过 DPT 进行的 TO-247N（3 端子）和 TO-247-4L（4 端子）的开关损耗对比测试结果。两者只是封装不同，使用的芯片是一样的。可以看出因为有了驱动源极端子，当 ID 越大时，开通损耗和关断损耗的改善也越大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peJ0nfiaKlcBOJUX4ne2BLIjfFc9rdk0Adjibr3k47Cbmoth4Z2L1pTfqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_034_6e4a29d0d016.png)
 
 4\. 分立器件评估基板
 
@@ -269,7 +269,7 @@ SiC MOSFET 和 Si MOSFET 一样，高温时 BV（Breakdown Voltage：击穿电�
 
 表 4-1 是 ROHM 发布的适用于 SiC MOSFET（分立器件）的评估基板的一览表。为了评估开关特性，基板采用了半桥结构，可以通过最少的外围器件，进行双脉冲测试、以及 buck 和 boost 拓扑电路的评估。评估基板可以调整开关速度、变更驱动电压，还具有栅极浪涌保护电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peBM1gFC5iakGQcgZeClqO6dsRzEf6ZLSlwTk01OKicZsuZdNsyJatEMaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_035_8e17fc600600.png)
 
 **4.2  评估事例**
 
@@ -277,21 +277,21 @@ SiC MOSFET 和 Si MOSFET 一样，高温时 BV（Breakdown Voltage：击穿电�
 
 这次测试是将 HS 侧的 MOSFET 作为开关侧进行动作，而 LS 侧的 MOSFET 则作为续流侧使用其体二极管。调整脉宽使得 VHVdc为 800V、ID 为 55A~60A 左右，对开通过程和关断过程的波形进行了观察。这些波形如图 4-2、4-3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pezPjBpnumGmooXK5bbS1W7Igm5r4L7gictrYA9s85r9ibawtv05yV2VSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_036_277e3ad1df7a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peDrFAHsD8TicSIbRjjAHmL9qn0T2a08HtPU6TMXhXyDSPtUr1CPA51ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_037_8f91937bb60b.png)
 
 图 4-2（a）、（b）是 VDS、ID 的波形，同一个图中的（c）､（d）是 VGS 的波形，将 SCT3040KL（TO-247N）和 SCT3040RK（TO-247-4L）进行比较。虽然图（c）、图（d）中开关侧的 VGS\_HS 波形几乎是同等的，但是图（a）中的 ID 波形无论是在开通时还是在关断时，都是 TO-247-4L 的动作速度非常快。这是由 3.18 节所述的驱动源极端子所产生的效果。
 
 另一方面，非开关（LS）侧 MOSFET 的栅极\-源极电压 VGS\_LS，通过使用如图 4-1（c）所示的保护电路，去除了应用笔记《桥式电路相关的 Gate-Source 电压的动作》\*1 中所述的正负浪涌，满足 SiC MOSFET 特有的栅极额定电压范围比较窄的使用条件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0ped7ftvPNibzTTjq3P9ibsA2E3eKztgzg38cAc7onzwBicD8UGlLRMdb4Mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_038_2b9828fdfc6f.png)
 
 另外，图 4-3 是开关损耗 Eon、Eoff 的波形。
 
 TO-247-4L 解决了源极端子产生的感应电动势所带来的开关速度延迟的问题，使得总开关损耗减少了大约 35％。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peDzRIibaQOxvu2Nprhko02OibMC20XRcZRZNMtuqeHBjpvQia948PuzM8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_039_5ce3f7f56046.png)
 
 5\. 栅极驱动
 
@@ -309,13 +309,13 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 将 MOSFET 上下串联连接成桥式结构时，高边侧（HS）的栅极驱动需要采用浮空方式，其中一种实现方法是自举方式。关于自举方式的动作过程，很多文献都有记载在此省略。HS 侧 MOSFET 在关断时，通常会有如图 5-1 的实线箭头所示的负载电流流过。此时 LS 侧 MOSFET 在关断时，通过体二极管导通进行续流，因此 Vsw 的电压变为\-VF，这样自举电容 Boot Capacitor 被充电到（VG＋VF）。但是，SiC MOSFET 的体二极管的 VF比 Si MOSFET 大，因此需要注意不要超过栅极驱动 IC 和 MOSFET 的栅极额定电压范围。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peSeyFOXWWr7A650kibtlX7RyGYzgA97j6QQVZm3bJ38ygYVjWdLYGWTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_040_160345d054f1.png)
 
 **5.1.3  通过隔离型电源进行高边驱动**
 
 当将隔离变压器作为驱动 HS 侧 MOSFET 的隔离电源进行使用时，必须注意变压器的一次侧\-二次侧之间所存在的耦合电容。如图 5-2 所示，因为变压器的二次侧（MOSFET 侧）存在快速的 dv/dt 变化，通过变压器的耦合电容，在一次侧的 GND1 上会叠加电压噪声，最坏的情况可能会引起驱动 IC 的误动作。因此，需要考虑 Vsw 电压的 dv/dt 条件，并使用耦合电容尽可能小的变压器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peCJhN2DZqibL7WWibMbMdZUU5x3F4z2DFosCibFDryJcWFn2zO8fiaA4nAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_041_79e4a7779bcf.png)
 
 **5.1.4  负偏压产生电路**
 
@@ -323,7 +323,7 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 另外，对于不能对应负偏压的驱动 IC，通过将负偏压电源 VG\_N 连接到驱动 IC 的 GND 电位上也可以实现负偏压，但是需要注意，当在驱动 IC 内部监视 MOSFET 的驱动电压进行欠压闭锁保护（UVLO2）时，驱动电压的监视电压会产生负偏压部分的降低。详细内容请参考第 5.3 节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peiaWM276jQBa7uQyfrNzNUf8F2FwIVEDgnrtd68sOkGCZre4Pn7MzOwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_042_00785ce99c9f.png)
 
 **5.2 缓冲电路**
 
@@ -335,7 +335,7 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 另外，缓冲电路还具有分散发热的作用。当希望提高开关频率时，驱动 IC 可能会有发热问题，可以通过追加缓冲电路，分散驱动电路整体的发热来对应高频驱动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pePzdYhibTwnewko5SGxHgP5gwqWu7oDOic7OUMkgWzRO3QYcAQFp4q74g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_043_39f414ca1473.png)
 
 **5.3 UVLO（欠压闭锁）**
 
@@ -343,11 +343,11 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 表 5-1 列出了 ROHM 驱动 IC（BM61xxxxx 系列）的驱动电压的监视电压 VUVLO2。SiC MOSFET 的驱动电压比 Si MOSFET 和IGBT 的驱动电压要高，因此为驱动 SiC MOSFET 所开发的 BM61S 系列的 UVLO2 的监视电压也设置得较高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe33hAGxfGgPYg0vAuedQtxusObYfBu9zQlLbsNqbvv2G2Wdzic4ctvcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_044_f7b7e651edac.png)
 
 在这里需要特别注意的，是在 5.1.4 节中也说明过的，对于本来不支持负偏压（VEE2）的驱动 IC，将其按照负偏压进行使用时的情况。图 5-5 是一般性的驱动电路的电源供给方法。图（a）是使用支持负偏压驱动 IC，图（b）是使用不支持负偏压驱动 IC 的情况。栅极驱动电源在接通时使用 VG\_P 电源，在关断时使用 VG\_N 电源，将 GND 作为 VCOM。一般来说，驱动 IC 的 VUVLO2 是以 IC 的GND2 为基准的，因此，无论 VEE2 是否存在，图（a）的 GND2 都是固定的，以相同的电压对 VG\_P 进行监视。另一方面，图（b）中 MOSFET 的驱动电压的监视电压 VMOS\_UVLO2 会如公式（1）所示，降低了负偏压 VG\_N 的部分。当使用负偏压时，请尽可能地选择支持负偏压的驱动 IC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peoIBjicMKPByDuQREvTSmDcrspoOS6gVmIicn0j50D0wgVB4BKa99FZpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_045_a7a2be824ef8.png)
 
 **5.4  SiC MOSFET 的栅极驱动 IC**
 
@@ -377,13 +377,13 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 此外，关于 SiC MOSFET 的栅极额定电压，请参照 8.2 节「SiC MOSFET 的可靠性」。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peNWSicfje9icQUqmTictMzfVypP4Nha5ZMyCz9JRicK0S8uzJdV2ILbeVjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_046_eae2b4001979.png)
 
 **5.6 推荐外接栅极电阻（RG\_EXT）**
 
 决定 MOSFET 开关性能的重要参数是外接栅极电阻（RG\_EXT）。如公式（2）所示，栅极驱动时的峰值电流，是由驱动 IC 的输出电阻（RONH）以及 RG\_EXT、内部栅极电阻（RG\_INT）的总和所决定的。如 3.9 节所说明的，一般来说 SiC MOSFET 与 Si MOSFET相比，其内部栅极电阻更大，因此为了实现快速开关动作，需要减小外接栅极电阻 RG\_EXT 来增大栅极电流。另外，对于在 5.5 节中所说明的栅极\-源极之间的正负浪涌，也会随着 RG\_EXT 的增大而增大，因此选择尽可能小的阻值可以减小浪涌。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0petobT1Zvu1ibvw5ffoagBUlU0YdzP07jib521JWqMyx0libGGnbvdEGkFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_047_ece981ffa478.png)
 
 但是，如果加快开关速度，漏极\-源极之间所产生的电压浪涌会变大，可以通过选择合适的 RG\_EXT 将该电压浪涌控制在额定范围以内，也可以通过追加 Snubber 电路等的浪涌吸收电路对浪涌进行吸收。
 
@@ -395,9 +395,9 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 在公式（3）中为了进行简化，将 Coss 作为固定值对最小死区时间进行计算，但是实际上，Coss 的值会随着漏极\-源极电压 VDS发生变化。数据手册中所记载的 Coss，通常是某个 VDS 条件下的代表值，并不一定是处于最坏条件下的值。使用如图 5-8 所示的VDS-C 特性曲线，取 VDS<1V 时 Coss 的最大值进行计算，可以在设计死区时间时留有一定的余量（虚线包围部分）。实际上充放电所需要的电荷量，是图中实线包围部分的面积，如果在公式（3）的分子中使用这个面积可以计算出更加准确的 tDT。如图 5-8 所示的电容特性曲线是数据手册中肯定都会记载的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pettXpvvicyskYOz8WoNBRRb6YHwZE306yPr8IM1Iuxw73Rx507DZia9icw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_048_a0615865d561.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe1ViadOAgvk2sXjWpdMEuic4xYfCz7sRUFCgCfwfNIZI2mdtGAM5h2MeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_049_ad6a64da35c4.png)
 
 **5.8  误导通对策**
 
@@ -405,7 +405,7 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 图 5-9 是对策电路的示例。（a）通过将关断电压设置为负偏压（VG\_N），这样即使存在导致误导通发生的栅极电压抬升，抬升值也不会超过 VGS(th)。但是，对于 VGS 负压侧额定范围比较窄的第三代 SiC MOSFET 来说，无法这样来使用。（b）通过在 MOSFET的栅极\-源极之间连接 1nF~5nF 的电容，来抑制瞬时的栅极电压抬升。（c）通过当栅极\-源极之间的电压低于一定的电压值时，将有源钳位 MOSFET 导通来抑制栅极\-源极之间电压的抬升。对于（b）、（c）这两种方法，当存在寄生电感时效果会变弱，因此将对策器件尽量靠近栅极端子、源极端子进行贴装是很重要的。在选择器件时，同时推荐选择寄生电感较小的小型封装产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0ped0zzc6Oy9Nc1KTTAMpicfIxg7FZRk4Iiaq9vFMMN9BZKH2j6QSoGP4ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_050_c17451f971b8.png)
 
 无论采用以上哪种方式都各有利弊，根据所使用驱动 IC 的功能，有时也会存在无法适用的情况。请在正确理解误导通产生原理的基础上，选择合适的误导通对策。
 
@@ -417,7 +417,7 @@ SiC MOSFET 的驱动简单，是驱动功率较小的常闭型电压驱动的开
 
 图 5-10 是负浪涌对策电路的示例图。（a）是在栅极\-源极之间连接了对负偏压进行钳位的二极管。（b）通过在 MOSFET 的栅极\-源极之间连接 1nF～5nF 的电容，来抑制栅极电压的瞬时下降。（c）通过当栅极\-源极之间的电压低于一定的电压值时，将有源钳位 MOSFET 导通来抑制栅极\-源极之间电压的下降。对于（b）､（c）这两种方法，和第 5.8 节中所说明的误导通对策是相同的，可以共用。另外，无论采用哪种方法都和误导通对策一样，将对策器件尽可能地靠近栅极端子和源极端子进行贴装，尽可能地选择寄生电感小的器件都是尤为重要的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peMXMzszuObOh5icYocQeAPEr9mibGk8ssHg8bEuzSgG5EEJnDNYkYl0tA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_051_c1175b522028.png)
 
 但是，负浪涌并不是由于单一原因所引起的，而是紧随 VDS和 ID 的变化过程时序，由多个原因所导致的。根据负浪涌产生的时间点不同，需要采取的有效措施也不尽相同，所以首先必须正确把握负浪涌的产生原因。在此基础上，根据驱动电路中有没有负偏压，以及基板 Layout 条件等情况，再采取最为合适的对策是很重要的。
 
@@ -437,13 +437,13 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 另外，详细动作过程和短路电流检测的具体设定方法，请参考所使用驱动 IC 的数据手册或者应用笔记等资料。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pefzWXVqCbibKIulckO98km24SrmcDHRicTbmoiat59ic3U5qvDh79FrI3WQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_052_95bb7ed99025.png)
 
 **5.10.2  具有电流检测端子的 MOSFET 的短路保护**
 
 图 5-12 所示为具有电流检测端子的 MOSFET 或者 IGBT 的电流检测电路。流过电流检测电阻 RSENSE 的电流，是流过漏极\-源极之间电流的例如 1000 分之一，是按照晶胞数量成比例地缩小的，因此即使对于大电流也可以抑制电流检测电路产生的功率损耗。但是，有可能同时检测到桥式结构中由于反向恢复电流等所产生的噪声成分，因此需要根据电路动作条件，使用 RC 滤波器等除去噪声。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peY82mNiamc2HrCeOiaha90NGOklnJV9Ye6I8WZ2ydjSjadibl6K3KQXlTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_053_5d6d2eab8983.png)
 
 **5.11 推荐 Layout**
 
@@ -469,15 +469,15 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 表 5-3 列出了使用不同世代的器件和电路结构时，必要功能和 Layout 的设计方针。根据下表的顺序来决定对策器件的优先级，应该既可以在产品的额定范围以及进行使用，也可以实现高效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peiaHgGJqvX5oaF8aWXWp8WIlIJTpT7pibPe1M9YphxkibSEumQ7ic1P7VoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_054_af428c5cd426.png)
 
 图 5-13 是 SiC MOSFET 的半桥评估基板（P02SCT3040KR-EVK-001）的 Layout 示例。同一个图中的（a）是驱动电路图，（b）是基板安装照片，（c）和（d）是基板布局的 Layout 图。该基板是用来评估第三代 SiC MOSFET 硬开关动作的基板，因此栅极浪涌对策最为重要。所选用的驱动 IC（BM6101FV-C）具有对有源钳位 MOSFET 进行控制的信号，因此将有源钳位 MOSFET（Q2）布置在了距离 SiC MOSFET 最近的位置，并且配置了用于吸收负浪涌的二极管（D3）和旁路电容（C3）。其次，虽然在 Layout 设计中布置了用于吸收正浪涌的二极管（D2）和旁路电容（C2），但是从驱动 IC 到 MOSFET 的较长布线的寄生电感所引起的正浪涌依然会发生，请根据 Layout 情况判断是否需要进行安装。最后，在栅极\-源极之间配置了误导通对策电容（C1）。浪涌吸收器件距离 MOSFET 越远，其保护效果就变得越弱，因此如图（c）所示，推荐在距离 MOSFET 的 2cm 以内进行布局。
 
 另外，如图（d）所示，对于从 Driver Source 端子到驱动 IC 的返回线，在 Layout 设计时将整个驱动电路器件下方都布局成返回线区域，尽可能地使得驱动信号和浪涌保护电路不受外来噪声的影响是非常重要的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peKSMCU4gd0ZFMqqibuianWsndnb71UElfOH7X4rxMLu8xxmAAloUPF2lg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_055_56de38b69a91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peMLRjCzialYVmQ2eMJsQsJ3XGAm8FJcGY59zIw5DvtTQt5iaRE4iaMRjuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_056_d8878a87b9f6.png)
 
 **5.12 MOSFET 串联・并联使用时的注意事项**
 
@@ -489,7 +489,7 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 当器件上所施加的电压 VIN 超过器件的额定值时，为了使得每个器件所承受的电压减半，可能会把器件串联后使用（如图 5-14），但是需要注意，出于器件的特性偏差和基板布线电感等原因，器件上所施加的电压会发生不均衡现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peFPtJXqwiclkpEwg8SroogImqVgqZXdxHwpbHAyDXGz3JyS65VBmNU9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_057_92e60b5b3dfc.png)
 
 在接通电源的初始状态下（一次开关动作也没有进行过的状态），各个器件上所施加的电压和 Coss 成比例，但是一旦开关动作开始以后，由于关断时开关速度的偏差，器件上所施加的电压的不均衡现象会变得显著起来。关于开关速度偏差的产生原因，考虑主要是由以下几种偏差造成。
 
@@ -505,7 +505,7 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 由此，无论是哪种偏差都会对 MOSFET 的开关速度产生很大的的影响，当各个器件发生不均衡动作时，不仅开关损耗会变得不均衡，可能瞬时施加超过 VDS 额定值的电压使得器件的可靠性下降，最坏的情况可能会造成器件损坏。请在进行充分的偏差验证的基础上进行操作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pefkSNHuJkzgs0iaBrxibRZ9UogKSB3rqjwNYVN1TUoUV5aQwbapEJK0Pw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_058_d6878b74622f.png)
 
 **5.12.2 并联使用**
 
@@ -513,7 +513,7 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 图 5-16（a）是并联连接的示意图。为了抑制器件之间开关动作的偏差，对每个 MOSFET 分别连接了外接栅极电阻。当没有外接栅极电阻、直接进行驱动时，由于 MOSFET 的特性偏差和驱动电路的偏差，在开通和关断过渡过程中，非常容易产生电流不均衡现象。（Figure 5-16（b））
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peGSL48DHsMXIeVzP8NtJOaysfNl1DTcLxz1S41OD7S1YtbnjxXHpasg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_059_ead1fc3ebe43.png)
 
 但是，即使连接了外接栅极电阻，由于器件的偏差和驱动电路的不均衡，同样会产生电流的不均衡现象。关于电流不均衡的产生原因，考虑主要是由以下几种偏差造成。
 
@@ -535,9 +535,9 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 另外，在稳定状态下，由于 MOSFET 的导通电阻 RDS(on)会随着温度升高而变大（参考第 3.5 节）， 流过各个器件的电流 ID 会进行自然均衡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peohibkypbznvKWmSZBaOC85W431qaXodbtSr13ITdFiatcwLb8HT4KWOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_060_2d8d648d0c6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peLh5XjgTNVVegMPbavDVzXVo8FAdqRTU0iawcFE0rf2yibJOA4Px6FUVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_061_3ca85bcbc96d.png)
 
 另外，在并联使用时，栅极\-源极电压 VGS 可能会发生罕见的振荡现象。该振荡现象在 MOSFET 开通时或者关断时都有可能发生。如图 5-18 所示，该振荡现象是由于 MOSFET（Q1、Q2）之间的栅极电阻（RG\_EXT + RG\_INT）、驱动电路的基板布线电感 LTRACE、以及 MOSFET 的栅极\-漏极之间的寄生电容 CGD 或者栅极\-源极之间的寄生电容 CGS，在 Q1 和 Q2 之间形成了 RLC 谐振电路所导致的。当 MOSFET 之间没有特性偏差、驱动电路也完全相同时，并联连接的器件以及驱动电路可以同步工作，因此器件之间没有能量交换，不会引起谐振。但是，实际上述两者肯定会存在少许偏差，导致漏极电流 ID 产生不均衡现象，使得 LSOURCE 上所产生的感应电动势产生偏差。这样，在并联使用的各个器件之间的闭合回路中会存在能量交换，从而引起谐振。
 
@@ -545,7 +545,7 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 另一方面，关断时图（b）中的谐振电路在驱动电路侧与 GND 相连，因此包含 LSOURCE 部分的谐振电路相互之间不会产生影响，只有 LDRAIN 的感应电动势所引起的谐振电路才会对 VGS 的振荡产生影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peX982yKkNkL7SH0hXXUyjZdOI43D0OY9VE1OIrOHdOGDhmLI38Pntag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_062_f64c52f133ae.png)
 
   
 
@@ -553,7 +553,7 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peyVvCugGyRYLianNzxmsNBdicHqPfznsgxicgCsxlNM0bbbibHGAdRG15Ug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_063_2545f34c7b0c.png)
 
 **6.SiC 功率模块的特征**
 
@@ -571,17 +571,17 @@ DESAT（Desaturation fault detection）作为最简单的短路保护被广泛�
 
 目前量产的 SiC 功率模块，包括可以构成半桥电路的 2in1 类型，以及可以构成斩波电路的 Chopper 类型。关于 2in1 类型，包括SiC MOSFET + SiC SBD 的类型，以及仅由 SiC MOSFET 所构成的类型，可以根据用途进行选择。图 6-1 是 C-type 模块的外观，图 6-2 是其内部电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peZZ1bGsw1nibYP9y3jCWpywaTtOmBWJ7juPvUcqsibGAtEjLOEk7sPX4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_064_76f9922b091c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peficUIjQ2F4xEPeHbke1K7OEfY7pJppogyyvwNfjgRSnKQYhQibs4fNDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_065_7379ebc98496.png)
 
 **6.3  NTC 热敏电阻**
 
 对于具有热敏电阻的模块产品，可以对模块封装内部的温度进行检测。在热敏电阻的产品规格书中，规定了 25℃时的电阻值和温度系数 B 值，因此当温度为 T1 时，热敏电阻的阻值 Rth（T1）可以根据公式（5）进行计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peQIA2X7gCx7Pibu1mhtva9d7M30ammaGqchD5RLJDUNsjyiau2rz0GCgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_066_1e2570af158b.png)
 
 Rth（T1）：一定温度条件下的热敏电阻的阻值
 
@@ -607,7 +607,7 @@ BT0/T1：热敏电阻所规定的常数（B 值）
 
 图 6-4 是实现温度检测的参考电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peMqh2ia2O2cBdbCnSFy35eXxIjhqPxOfqOzaeIg4zboibO1PicftVOMwmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_067_4d41e3da2a65.png)
 
 **6.4  功率模块的安装方法**
 
@@ -615,11 +615,11 @@ BT0/T1：热敏电阻所规定的常数（B 值）
 
 功率模块具有专门用来进行冷却的散热板，安装时将螺丝按照一定的力矩拧紧进行安装。图 6-5 是功率模块的截面结构。从 SiCMOSFET 芯片到散热板（Base Plate）之间存在焊料、布线、绝缘基板等，因此在散热板上正确安装散热器是非常重要的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peCn7IicW2hos8TYz7kXKywUaLibBRLiasH3Jo2KhTQOhDApsLicNLGj1HMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_068_dd909398b566.png)
 
 安装散热器（Heatsink）时需要注意散热板和散热器之间的贴合性，即平整度。功率模块的散热板看似表面平整，但在安装时会产生应力，实际上是翘曲的。图 6-6 是散热板的翘曲形状的示例。功率模块的长边截面的翘曲最大约为 38μm，会形成复杂的凹凸形状。因此，在将功率模块拧紧固定到散热器上时，散热板和散热器之间一定会产生间隙。另外，即使散热板作成单纯的凸型形状，当在模块或者散热器的安装界面处产生擦伤时，同样也会产生间隙。该间隙会妨碍功率模块向散热器进行散热，产生高于热设计中所设想的温度的发热。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peiadhaqEicSyOp98kFKhYuQD14TqQBZ99ib9iaCpzePmcTqFpA2G6MTZKJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_069_2463fe584083.png)
 
 因此，为了填补这个间隙需要使用绝缘导热片和导热硅脂。有以下几点注意事项。
 
@@ -631,13 +631,13 @@ BT0/T1：热敏电阻所规定的常数（B 值）
 
 为了使功率模块进行开关动作、或者为了检测模块的内部温度，需要在功率模块的信号端子（图 6-7）上连接控制信号线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0per0yyUnhIp2V5uSexrnlZLsIa7N6SlTvAYcIIgZv9L9ibBQl7icvqAicgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_070_f583f9280535.png)
 
 这些信号端子的连接方法，可以使用 PCB 进行焊接，也可以使用触头进行嵌合连接等，当对信号端子进行焊接时，在 PCB 上所需要准备的通孔直径的示例如图 6-8.（a）所示。
 
 另外，当对信号端子进行嵌合连接时，可以使用如图 6-8.（b）所示的触头进行评估。但是，这类产品仅用来对功率模块进行性能评估，并没有实施与插拔次数、振动等相关的可靠性验证。当客户在最终产品上进行使用时，请一定要根据各种不同的应用，实施可靠性验证，然后判断能否使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe2qesYW7xx2BzpCFhKH4K2BZxX2PDmjHFBOrG4VTWGiaa6Z3xVj6gY5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_071_e59434668d49.png)
 
 另外，当使用电烙铁进行手焊时，其焊接条件如下：
 
@@ -649,25 +649,25 @@ BT0/T1：热敏电阻所规定的常数（B 值）
 
 关于 SiC 功率模块（BSM120D12P2C005、1200V 120A、C-type 封装）的开关特性，使用如图 6-9 所示的电感负载进行了双脉冲测试的评估。模块内部的寄生电感大约为 25nH、电路的寄生电感大约为 15nH。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0petVsLgdanlm7jySw5grmhUMbkJkp2RdG4Z0b90uNxukCUzkC1SQTAjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_072_2b8a06ab514a.png)
 
 **6.5.1 漏极电流依存性以及温度依存性**
 
 在 SiC 功率模块中，得益于 SBD（或者 MOSFET 体二极管）的快速反向恢复性能，反向恢复损耗 Err 几乎为 0。另外，因为MOSFET 没有拖尾电流，与 IGBT 相比 Eoff 也非常小。Eon 和 Eoff 几乎是随电流成线性比例增加的（不同于当外接 RG 增大时，损耗的变化斜率）。相较于 Si FRD 的反向恢复电流和 IGBT 的拖尾电流会在高温下变大的现象，由多数载流子器件所构成的 SiC模块在温度变化时，其损耗的变化非常小。在高温时阈值有所减小，因此 Eon 有变小、Eoff 有稍微变大的倾向。（图 6-10）.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peNzDibcpfh9zf9dYzkzllMJ9C7yErddDtZHnWF0HCVAFjcBwG2pmEyqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_073_f69b03cefcb8.png)
 
 **6.5.2 栅极电阻依存性**
 
 当外接栅极电阻较大时，给栅极充放电的电流值会变小，开关速度会变慢。这样会造成 Eon、Eoff 变大，可能无法发挥原有的器件性能，因此请尽量选择小阻值的栅极电阻。（图 6-11）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peDI0vM1j2JMyw2DFD0MJzVES3x8qFJUHktAjKwlEw90DU1wichDhDb6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_074_c91f83f5a340.png)
 
 dV/dt、 dI/dt 的外接栅极电阻依存性如图 6-12、图 6-13 所示。通过减小外接栅极电阻，dV/dt、 dI/dt 都会有所增大。在各种条件下对 ROHM 的 SiC 功率模块进行了测试，到目前为止还没有发现 dV/dt 损坏、dI/dt 损坏的损坏模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pefFCmqWibiaPRpwATPEluysVjrz9eiaubJBWHd5XdnRP6qQcbWib4JGDVkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_075_4bd1e55fd54a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peT66iceuMpjlymjnWHXtnLpo40xSiaCHD5H5luBvdSDpotgyzWzudNwdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_076_fba512c011b5.png)
 
 **6.5.3 栅极偏置依存性**
 
@@ -677,7 +677,7 @@ dV/dt、 dI/dt 的外接栅极电阻依存性如图 6-12、图 6-13 所示。通
 
 第二代、第三代模块对于超出额定范围的浪涌均不做保证，因此请在额定范围以内进行使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peFL4GwMWq2yFeFDiaIicoBroXELzSjoLCU6XA4wicurlNpZBS71RM4oTpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_077_eaf926517ff0.png)
 
 **6.6  与 IGBT 模块的开关损耗对比**
 
@@ -687,31 +687,31 @@ dV/dt、 dI/dt 的外接栅极电阻依存性如图 6-12、图 6-13 所示。通
 
 当选择了合适的栅极电阻时，SiC 功率模块和损耗最小的 IGBT 模块相比，总开关损耗（Eon + Eoff + Err）可以减小 85％（图6-15）。由此，可以实现以往 IGBT 模块所无法实现的 50kHz 以上的高频驱动，可以实现电感等被动器件的小型化。另外，通常IGBT 模块存在开关损耗引起的发热问题，只能按照额定电流一半左右的电流进行使用，但是使用开关损耗较小的 SiC 模块即使在高频驱动时也无需进行大幅的电流降额。也就是说，可以替换额定电流更大的 IGBT 模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0petx9LSibvqJXicHD15jLNjiaGNldIdVB1ibA5fuafQrDJGCwdbDdhATVbaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_078_bf0eeb21a5cf.png)
 
 **6.6.2 反向恢复损耗（Err）的对比**  
 
 在 IGBT 模块中，FRD 的反向恢复峰值电流 Irr、反向恢复时间 trr 都较大、因此会产生较大的损耗，但是 SiC SBD 的 Irr、trr 都非常小，损耗小到可以忽略不计（图 6-16）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peiceQ38G6taNG1IQAqP81qr0J0QeLriadp87yAiawvRD6LTaQGibJ7sgB4g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_079_bf0684e3548b.png)
 
 **6.6.3 开通损耗（Eon）的对比**  
 
 在续流桥臂上所产生的反向恢复电流会在与之相对应的另外一个桥臂上产生直通电流，因此会造成开关动作器件的开通损耗有所增大。对于具有二极管快速反向恢复特性的 SiC 功率模块，其开通损耗和反向恢复损耗一样都有所减小。外接栅极电阻越小，则损耗越小（图 6-17）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe1uLpwsnzx2lGHoK7GPYtapxVQ27e6G5SwrTRWmR0IxZiaAq2VJTRXFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_080_41c198c1782b.png)
 
 **6.6.4 关断损耗（Eoff）的对比**  
 
 IGBT 的关断损耗是由拖尾电流所产生的，因此其栅极电阻依存性并不明显，损耗一直很大。与此相对应的，SiC MOSFET 在原理上不存在拖尾电流，因此可以实现非常快速、低损耗的开关动作。外接栅极电阻越小，则损耗越小（图 6-18）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe9wwicXMkFwwbKlHcQoUC8gyrTU8N5omFIoADC8QS2o4UicoGxcEblcMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_081_36c7f2fcca14.png)
 
 **6.7  误导通对策**  
 
 在半桥结构中，当上桥臂的 MOSFET（M1）开通时，下桥臂的 MOSFET（M2）的续流二极管（外接 SBD 或者体二极管）中所流过的正向电流发生反向恢复，同时 M2 的漏极・源极之间的电压上升。此时产生的 dVDS/dt 通过 M2 的米勒电容 Crss 产生栅极瞬态电流（IG=Crss×dVDS/dt）、该电流流过栅极电阻，使得 M2 的栅极电压被抬升（图 6-19）。当该电压大幅超过栅极阈值电压 VGS(th)时，MOSFET（M2）会发生误导通，上下桥臂形成短路状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe6LyBzOgZduzSiblE0oN5X6icNMNDqV02yVpmHxs3bicckw9Gp2Jl9Gqcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_082_c7bdb3c1d819.png)
 
 SiC MOSFET 的 VGS(th)是按照 ID=几 mA 时所定义的，值比较小大约为 3V 左右，为了流过大电流，所需要的栅极电压为 8V 以上值比较大，实际上对于误导通的耐性和 IGBT 相差不大。但是，当所使用的环境条件可能发生误导通时，和 Si 功率模块一样，推荐采取以下对策。这些对策可能会对开关过程产生影响，因此请在确认实际波形的基础上进行调整。关于使用有源钳位抑制误导通的对策，详细内容请一并参考应用笔记《使用有源钳位的误导通对策》\*6。
 
@@ -729,13 +729,13 @@ SiC 功率模块的 RBSOA（Reverse Bias Safe Operating Area：反向偏置安�
 
 另外，这里所说的 Drain-Source voltage 指的是芯片附近的值（VDS\_INT）、不是封装端子电压（VDS）。请根据各个功率模块所规定的寄生电感 Ls 和实际波形的 dID/dt，按照公式（5）计算出 VDS\_INT。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pePZWgACQtzdkgHlzUD7sWGFVB7MPM4qNKibAwYicicw9TOaTGqicqG0iaOsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_083_f65e60de0582.png)
 
 **6.9  二极管在小电流、窄脉宽通电时产生的 VDS 浪涌**
 
 Si FRD 在通电时间短、并且电流较小的时候，由于漂移层内所积聚的少数载流子变少，反向恢复过程中的 di/dt 会变大，产生如图 6-21（a）、（b）的黑线所示的较大的浪涌电压。MOSFET 的开通速度越快，由二极管所产生的浪涌电压也会越大，可能造成器件损坏和噪声干扰，因此需要将开通速度限制得比较缓慢。另一方面，SiC SBD 不使用少数载流子，其反向恢复电流非常小，因此即使在如图（a）、（b）中红框所示的小电流・窄脉宽的条件下，也不会产生大的浪涌电压。无需限制 MOSFET 的开通速度，因此可以减小开关损耗。图 6-22 是当二极管工作在窄脉宽条件下的 VDS 浪涌波形的对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pebbquEFUdUaB8CvjA6ouGK4xW5QWy9oYJIPBCdVPNibibHt777c33ia6lQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_084_53670edd8f67.png)
 
 **6.10  G-type 功率模块**  
 
@@ -743,11 +743,11 @@ Si FRD 在通电时间短、并且电流较小的时候，由于漂移层内所�
 
 ROHM 开发了极力减小内部电感的 G-type 功率模块。而且该模块还改善了热阻 Rth，通过提高散热性能使得容许电流得到了倍増。图 6-23 是各种封装模块的外观和内部电感的概略值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pevL0tVX3kU1icAvdHibUhgxEbPeNX2icdGyX8DBiaOJibBHoTKZlyAroaDMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_085_84c3663e53e4.png)
 
 图 6-24 是关断时 G-type 和 E-type 的 VDS 浪涌的对比结果。G-type 减小了内部电感，因此在相同驱动条件下，可以抑制浪涌电压的产生。换个角度来看，当按照浪涌电压相同的开关条件（减小 G-type 的外接栅极电阻）进行动作时，与 E-type 相比，可以使损耗减小大约 25%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pefqlClBFJC3fVYo8icbQOF41lzVLMFqaJBFr3gl2LyjYYDtrjCpXKPbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_086_587ec638b168.png)
 
 **7\. 模块评估基板**
 
@@ -755,7 +755,7 @@ ROHM 开发了极力减小内部电感的 G-type 功率模块。而且该模块�
 
 表 7-1 是 ROHM 发布的适用于 SiC 功率模块的驱动板的一览表。驱动板按照标准配置具有模块的基本驱动功能、以及驱动电路的隔离电源、过流保护电路等，因此只需要准备单一控制电源即可驱动功率模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peytoamj8nqvugurDD1cDVVb7ZdbibGYzHOBqbFxMGqay8NkYDicg3cTCg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_087_7190971c822f.png)
 
 另外，以上驱动板是按照短期评估为目的进行开发的，因此对于产品可靠性、适当的爬电距离等并不做保证。当直接套用电路图和基板 Layout 时，务必请客户自己进行可靠性验证。
 
@@ -773,13 +773,13 @@ SiC 模块的开关速度快、电流大，在模块内部或者外围配线电�
 
  增大栅极电阻，减小 dID/dt。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peyQqGNLncL2hSLZkBvb3CZ9iaoFbz7QZT2RZ4G4GJkcia8qVA4F6vqtibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_088_a9ec8ebe3343.png)
 
 图 7-2 是在有无 C Snubber 电路、以及在缓冲电路中使用不同类型的电容器时，VDS 波形的差别。通过安装合适的陶瓷电容，可以抑制浪涌电压和振铃。如图 7-3 所示，ROHM 准备了最适合于评估快速开关动作的 SiC 模块的缓冲电路板。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peyC4dR8lePWj6Hh4fbbghXFcib3SSR0OraZ8c1t478dicG2Tozj1vkC1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_089_96b17842dbaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peDsA9LRQ7iaviaHzHSnC8ez9SmKgnQapIXSc8FvQ7bqNZfdbw4tkoibRHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_090_f13720e8de2b.png)
 
 **8\. 可靠性**  
 
@@ -799,9 +799,9 @@ SiC 功率器件一般被应用于产品寿命较长的工业设备等，因此�
 
 表 8-1 是通孔安装型产品、表 8-2 是表面贴装型产品的可靠性测试结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peWCj0YOMCT51mszLdP9b5DcO25jZh3LAjQdYPEFXooCMV643iayeBZmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_091_1a36b108dfa5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peE9SdbrPZbAYmSYzxfDTuh8VR99nuFn08yibKGUDUoiah1ZsBibsU2vsIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_092_63adae923c3b.png)
 
 **8.2  SiC MOSFET 的可靠性**
 
@@ -815,7 +815,7 @@ SiC 上所形成的栅极绝缘膜多年以来一直被怀疑存在可靠性问�
 
 图8.1 是 CCS TDDB （Constant Current Stress Time Dependent Dielectric Breakdown）的测试结果。CCS TDDB 测试是强制性地在栅极氧化膜上通过隧穿电流，确认当单位面积通过多大的电荷量时会发生故障的判定试验。作为栅极氧化膜品质指标的 QBD 是 15～20C/cm2，可以得到与 Si MOSFET 同等的强度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pej4hJOzcU93xxPTRYbwyT7woib2Xv7Xc7mVfPiczVsquyum9aonLRyRpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_093_e952cb5fd111.png)
 
 即使栅极绝缘膜的品质很高，在 SiC 晶体中仍然会存在很多晶体缺陷，这些晶体缺陷有可能导致器件发生初期故障。ROHM 通过采用独特的筛选技术，努力使这些初期故障不流向市场。
 
@@ -825,7 +825,7 @@ HTGB（High Temperature Gate Bias：高温栅极偏压）测试（+22V、150℃/
 
 以目前的技术水平，在 SiC 上所生长的绝缘膜的界面处会形成陷阱，当施加长时间的栅极直流正偏压时，因为在陷阱中捕获了电子，阈值电压会上升。但是该阈值漂移现象在 VGS=+22V、150℃的条件下，经过 1000 个小时以后偏移量非常得小，只有 0.2～0.3V，是业界最小水平。绝大多数陷阱在施加应力的初期阶段的几十个小时以内就被填充完毕了，因此之后不会再有变动，非常地稳定。图 8-2 是第二代 SiC MOSFET 在 VGS=22V 时的测试结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe3e9fia13ibt4nIgXwfyYOebemWrmzFF8URYzlgdYb6IoM87aTddEib82g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_094_12a544bf50e3.png)
 
 **8.2.3 阈值稳定性（栅极负偏压）**
 
@@ -837,7 +837,7 @@ HTGB（High Temperature Gate Bias：高温栅极偏压）测试（+22V、150℃/
 
 另一方面，对于采用沟槽栅极结构的第三代 SiC MOSFET，其相对于直流负偏压的耐受程度有所提高，即使施加\-10V的直流负偏压，阈值电压也几乎不会下降。但是，如下节所要说明的，相对于交流的栅极偏置，会产生新的制约条件，必须加以注意。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pejv7ibicQHvxecpC9yKQuWNSpY9oIYhS50JMtDsZm95cRrGCCBlElNXTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_095_f87faf6449f1.png)
 
 **8.2.4 阈值稳定性（第三代 MOSFET）**
 
@@ -867,7 +867,7 @@ ROHM 的栅极驱动 IC 是当检测到过流时，可以在大约 2μs 左右�
 
 图 8-4 是 1200V 第三代 SiC MOSFET 和普通 Si IGBT 相比，当施加不同的 VDS 时，接受模拟大气光谱的中子辐射测试的结果（每个点的样品数 n=10 左右）。故障率和施加电压呈强相关性，因此对于 IGBT 来说，额定耐压 1200V 的产品如果不降额到 60%左右（720V），无法在较低的故障率下进行使用。另一方面，SiC MOSFET 的故障率比 Si IGBT 低 4 位数以上非常得低，即使当 VDS=1200V（100%额定耐压）时，故障率也在 1FIT 以下。原因包括 SiC 芯片比 Si 器件小从而被中子击中的概率较低，以及 SiC 的耐压实力值较高具有充分的余量等。这样，SiC 器件无需进行大幅的电压降额，就可以无限减小在高原使用、或者多芯片使用的产品中，由宇宙射线所引起的偶发故障的风险。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peviahywIkyxt0taPkfO83gCCSKAoMdj3Tn9NGQb147DiaQBeoXfBlibTZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_096_8e0699e45de7.png)
 
 **8.2.8 静电破坏耐量**
 
@@ -885,7 +885,7 @@ SiC MOSFET 相对于 Si 产品，它的特点是芯片尺寸可以做得较小�
 
 当以几 ms～几秒为单位使 MOSFET 工作在动作・不动作的状态时，虽然壳温 Tc 看起来是一定的，内部芯片的结温 Tj可能按照一定的幅值进行温度变化（⊿Tj）。由于源极键合引线和 SiC 芯片之间的线膨胀系数不一样，像这样的短周期所导致的⊿Tj 会在键合面上会产生热应力。并且，当超过一定的⊿Tj 循环次数以后，如图 8-5 所示，在键合界面上会产生裂纹，造成键合强度下降。最终，由于源极引线剥离、键合面的接触电阻增加等原因，导致 RDS(ON)増加、发热量増加，造成功率器件发生损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peNo9OZ6Yd8WSh6WucxMDvZdXtHr3fu5icFicYrZvmGuBSFhqicP54bLiaCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_097_0c0f9a3e793e.png)
 
 对于源极引线的功率循环耐量，随着⊿Tj 的增大，使用寿命存在指数性减小的倾向。为了确保 10 年以上的产品寿命，在设计阶段必须采取充分的措施减小⊿Tj（调整驱动条件、选择 Ron 较低的元件等）和充分的散热设计。
 
@@ -895,7 +895,7 @@ SiC MOSFET 相对于 Si 产品，它的特点是芯片尺寸可以做得较小�
 
 表 8-3 是可靠性测试结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peaktEBgdRkibAqO8JwXyF3W7Yz3TlvZb7s8EEJMtq29TSBTeXUcz7ibAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_098_75a4d2cccfce.png)
 
 **8.3  SiC 功率模块的可靠性**
 
@@ -917,13 +917,13 @@ SiC MOSFET 相对于 Si 产品，它的特点是芯片尺寸可以做得较小�
 
 在实际应用的动作条件下，如图 8-8 所示，模块的壳温 Tc 多发生相对缓慢的长周期的温度变化，而结温 Tj 有可能出现急剧且短周期的循环变化。短周期循环的主要原因，包括设备的加速减速动作、根据电路拓扑的工作原理一直发生等不同的情况，另一方面，长周期循环主要是由设备的起动・停止所造成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe4FEEN1KiaPgPtVZtFiaHD5mO9P7CmvX07Nu7KJ6BsPIPBg1DBD5TZmNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_099_f1b171779928.png)
 
 以上功率循环寿命是在设备设计阶段开始就需要进行充分考虑的。特别是出于电路拓扑原因产生的短周期循环会造成循环次数飞跃性地增加，必须加以注意。
 
 图 8-6 是一般性地功率循环寿命曲线。该图给出了平均结温 Tj 为 100℃的条件下，当故障率为 1%时的循环次数曲线，随着⊿Tj 增大，功率循环寿命会呈指数系数减小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pegxmFDbIE6nBmtnic8Sfk7DKs6nDRydhLBCBkePibICGUZh6RduJwBQKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_100_497a59e02abc.png)
 
 **8.3.2 HV-H3TRB （高压高温高湿反偏测试）**
 
@@ -931,35 +931,35 @@ HV-H3TRB（High Voltage High Humidity High Temperature Reverse Bias：高压高�
 
 ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂层材料和新的工艺方法，通过了 HV-H3TRB 测试。在 85℃／85%的高温高湿环境中，施加 VDS=1360V 的高压进行高压高温高湿反偏测试时，IGBT 模块在 200 小时以内就发生了绝缘损坏，另一方面，SiC 模块（BSM250D17P2E004）即使测试了 1000 小时以上也没有发生故障，证明其可靠性更高。（图 8-7）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pee3oU2axp1vjiaOds0197Wia7qJSOanzSyXmgWb3NKGZT4yziaibVvV9tgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_101_bdbeb46d7dea.png)
 
 **8.3.3 SiC 功率模块的可靠性测试结果**
 
 表 8-4 是 SiC 功率模块的可靠性测试结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pedXRsiarWwganBqEBMbSa07O5j4fOMKhdHWcQNsLevGRic9VZrHmINXDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_102_658898c20fb0.png)
 
 **9\. 产品名称的构成**
 
 9.1  SiC SBD（分立器件产品）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peBe1DkYOic5FoEpAT1pPSyKq6sqL4BMLquYIJrYWRhnX0VkktwZkUgBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_103_3a0a371ada6c.png)
 
 9.2  SiC MOSFET（分立器件产品）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peYiaMHCau9AKN4TYCZ7Xdty79anNEuqCEIZicrOJ6ib77aJ7wgsyRVPngA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_104_968657c33aaa.png)
 
 9.3  SiC 功率模块
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pedNaJS1xNNE8dwhU3mjC8yibtYQiconXjpfkktdzTx5SrIFwhQibckeBmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_105_83c9e91a3183.png)
 
 9.4  SiC SBD（裸片产品）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pepEYFWqMkkFVqhBqZx7vwM311nL68smZHmibHCEzoYvjQg4iaOP3EibBOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_106_d021e3ab0510.png)
 
 9.5  SiC MOSFET（裸片产品）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peeb7hPI2tlfdjqEStq0ibKyib0gNPUicU8Se6DrpiclxicPic8qvcqPSpkSUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_107_47a6d980d7f0.png)
 
 **10. 应用电路示例**
 
@@ -971,7 +971,7 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 \*临界模式 PFC 不受反向恢复损耗的影响，没有太大效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe6zXW0qRRgKngvxcJ7evmjVvjKbtIYJ8IP3niaiayvl3ufDnJztiaoq26Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_108_5a467f21f877.png)
 
 **10.2 降压斩波**
 
@@ -979,7 +979,7 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 ・通过高频驱动，实现被动器件的小型化
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peYgRj95pzsTK8Skqesox4mzrfia5gxEoKnFiba9FGp7eYzcGxsLgCUwicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_109_3f417c6ec524.png)
 
 **10.3 升压斩波**
 
@@ -987,7 +987,7 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 ・通过高频驱动，实现被动器件的小型化
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe9DrjQFiaiaq4HQQXSQ8QCA27ZJ2Zu07Y01xpR4GbOhJmLPqg7zaddia3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_110_c8b090cce35e.png)
 
 **10.4 图腾柱 PFC**
 
@@ -995,13 +995,13 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 ・通过高频驱动，实现被动器件的小型化
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe2A1KT9KFdvG6Jx5sHZficJbTTGZz4xZVBxys6ov3Fz7tEOxEpMOX7qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_111_c7743a8e9a36.png)
 
 **10.5 反激式转换器**
 
 ・通过减小导通损耗，改善效率、简化散热器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pest2hr3jicdRyicGdX94qoUmIQibIBNNfwyxpwxPH1Lia6wcJj1cgNUEsVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_112_4df095738752.png)
 
 **10.6 DC/DC 转换器（软开关类型）**
 
@@ -1011,7 +1011,7 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 ・防止谐振型电路在偏离谐振点工作时发生损坏
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe4WKXdMicpPC9Z0E7WDG4nxyjNSlvrej2FLg8UcnBQywpUef7oa3ciafw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_113_7af2658faf12.png)
 
 **10.7 用于功率调节器的逆变电路**
 
@@ -1019,7 +1019,7 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 ・散热器的简化・小型化
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peROhqkAfIImq1pJiavOibibicPU9UVM2ibX87Ht9TeJLp96iboiaL1w3vDia1YQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_114_cd9f585df8a0.png)
 
 **10.8 用于 IH 的逆变电路**
 
@@ -1027,13 +1027,13 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 ・通过减小 Eoff、Err，改善效率、简化散热器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peLRbFedmkBXvHc878t0lEboWiam2Ub5j2rA3F6lhjAoQM2NePDbzKowQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_115_89f3e8a6959a.png)
 
 **10.9 电机驱动**
 
 ・通过减小 Eoff、Err、Eon、轻载时的导通损耗，改善效率、简化散热器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pePesWD3Y54un025WxSUs804yYiaW8Rq1OAYUibtZ6aCtWPzpfMcslw1Ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_116_ec755b19cd10.png)
 
 **10.10 继电器**
 
@@ -1041,10 +1041,10 @@ ROHM 的 1700V 耐压的 SiC 模块为了防止芯片受潮，导入了新的涂
 
 ・相对于机械式继电器，提高可靠性
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pew465StDKTDg1VL4CYFbgqN2EbPlTpntln4rSr1dicEslhNO9N0sk63Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_117_046aefdda6fa.png)
 
-         ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+         ![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_118_0b930decca5e.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_119_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\罗姆（ROHM）半导体_碳化硅(SiC)功率器件（SBD和MOSFEF)及功率模块的应用笔记_images\img_120_84aa944feb13.jpg)

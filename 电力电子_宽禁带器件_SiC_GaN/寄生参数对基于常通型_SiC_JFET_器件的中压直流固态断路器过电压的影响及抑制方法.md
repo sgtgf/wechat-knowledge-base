@@ -27,7 +27,7 @@
 
 由于常通型SiC JFET器件导通时栅源极电压为零，通态损耗极低，雪崩耐量和短路应力强，是快速动作性能直流 SSCB 主开关的理想选择。基于此提出了一种基于3个常通型SiC JFET器件串联结构的 1. 5 kV 中压直流 SSCB［11］，系统结构如图 1 所示。SSCB 栅极驱动电路主要包括电压检测电路、光耦隔离及信号调理电路、微处理器和SiC JFET器件栅极驱动芯片。当直流系统发生短路或过流故障时，微处理器通过处理采样电阻上的电压来判断故障，并向主开关SiC JFET串联结构的栅极发送驱动信号，此时主开关SiC JFET快速切断故障电流以实现故障保护。当故障清除后，主回路中无故障电流，此时 SSCB 被重置，断路器恢复正常运行。下面 简 要 介 绍 SSCB 驱 动 电 路 中 主 要 部 件 的 工 作原理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8ABV3hDsZ2ciboGtOrpRhHT4RsKpR0Y6Fj218UmHelvZtEmQNIecEba7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_000_2e340bf2050b.png)
 
 1）电压检测电路：该电路主要将采样电阻 Rs电压 VRs快速传递到微处理器，微处理器通过故障信号 VRs来判断直流系统是否发生短路或过流故障并使SSCB采取相应的保护动作。该电路由电阻R1、R2，电容 C1、C2和稳压二极管 D1 组成的串并联网络构成。若直流配电网发生过流或短路故障时，采样电阻 Rs会形成电压降 VRs。此时，电压 VRs通过电压检测电路中的电阻电容网络滤波后，在电容C2两端产生电压 VC2，VC2≈VRs。SSCB 驱动电路中的微处理器主要利用电容 C2两端电压 VC2的大小来判断直流故障，因此电容 C2的充电过程必须比电容 C1率先结束，因此 C2<<C1。当电容 C2充电完成，电容C1仍处于充电状态。此时电容 C1充电回路由电阻R2、电容 C1、稳压二极管 D1 组成。当电容 C1充电结束，在稳压二极管 D1 作用下维持电容 C2电压稳定，保证输入微处理器采样电压 VRs值的准确性。其工作原理及参数设计已在前期成果［19］中进行了详细介绍，此处不再赘述。
 
@@ -37,25 +37,25 @@
 
 为了分析寄生参数对 SSCB 主开关 SiC JFET 器件串联结构开关特性的影响，建立了包含驱动电路寄生电感、实际PCB走线寄生电感以及功率回路寄生电感的 SSCB主电路 SiC JFET串联结构的数学模型，其等效电路如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AK6bibVu9ibsIqnDK9NkTZgWYGnib16ZaS4SVeb3t8e9N1EpgzvuR63c3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_001_112826f72800.png)
 
 图中虚线框表示考虑封装结构的SiC JFET器件J1、J2、J3。当直流系统发生短路故障时 SSCB 驱动电路会立即响应该故障并向主开关SiC JFET串联结构中最底端器件 J1 发送负的栅极电压信号 VG。随后器件 J1关断其漏源极电压 Vds1将逐渐升高，且在电容 C1的快速充电作用下直至器件 J2 的栅源极电压达到二极管 D1 的钳位电压 VG，随后 J2 关断。器件J2的关断将通过电容C2、电阻Rg3和二极管D2电路触发器件J3的关断过程，从而使3个SiC JFET串联器件逐渐关断，最终实现短路故障隔离。器件J1 的寄生参数包括极间电容 Cgs1、Cgd1、Cds1，寄生电感 Lg1\_in、Ld1\_in、Ls1\_in以及栅极电阻 Rg1。器件 J2的寄生参数包括极间电容 Cgs2、Cgd2、Cds2，寄生电感Lg2\_in、Ld2\_in、Ls2\_in以及栅极电阻 Rg2。器件 J3 的寄生参数包括极间电容 Cgs3、Cgd3、Cds3，寄生电感 Lg3\_in、Ld3\_in、 Ls3\_in 以 及 栅 极 电 阻 Rg3。 电 感 Lg1\_ex、 Ld1\_ex、Ls1\_ex、Lg2\_ex、Ld2\_ex、Ls2\_ex、Lg3\_ex、Ld3\_ex、Ls3\_ex为驱动电路及 PCB 引线中的寄生电感。为简化计算，令Lg1\=Lg1\_in+Lg1\_ex，Ld1\=Ld1\_in+Ld1\_ex，Ls1\=Ls1\_in+Ls1\_ex；Lg2\=Lg2\_in+Lg2\_ex， Ld2\=Ld2\_in+Ld2\_ex， Ls2\=Ls2\_in+Ls2\_ex； Lg3\=Lg3\_in+Lg3\_ex，Ld3\=Ld3\_in+Ld3\_ex，Ls3\=Ls3\_in+Ls3\_ex。Vgs1为g1端和s1端之间的栅源极电压，Vgd1为g1端和d1端之间的栅漏极电压，Vds1为 d1端和 s1端之间的漏源极电压；Vgs2为 g2 端和 s2 端之间的栅源极电压，Vgd2为g2端和d2端之间的栅漏极电压，Vds2为d2端和s2端之间的漏源极电压；Vgs3为 g3端和 s3端之间的栅源极电压，Vgd3为 g3 端和 d3 端之间的栅漏极电压，Vds3为d3端和s3端之间的漏源极电压。图3为SSCB主电路SiC JFET串联结构导通和关断时的理想电压电流波形。图 3 中 VG为 SiC JFET 的栅极驱动电压（−15 V），VDC为直流电源，VF为SiC JFET器件的通态电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AQOzM0PQGU4yI3FhLNwAiaCj0GPCmpQeAaEANV9y1xj7ibRxYdibDQNVGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_002_22d689bebc17.png)
 
 利用图 2 中含寄生参数的 SSCB 主电路建立SiC JFET串联结构开关过程的数学模型分析开关过程中寄生参数对SiC JFET开关特性的影响。由于数学模型中状态变量多，若采用 Laplace 变换法［20］时不易求解电压 Vds的时域结果。因此，为了使解析计算结果较为精确，本文利用微分状态方程和迭代算法求解不同阶段各个变量的数学表达式，微分状态方程的通用表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AYl97urk9EibyB6t7rPuLfnZTcea73fkia4JlxnoS0PFeiahAuUgbT48Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_003_a79bd170a93f.png)
 
 式中：Ai和 Bi为系数矩阵；xi为第 i个 JFET器件的寄生参数。
 
 式（1）可近似简化为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8Aw8FzsNaO9JiaW7UKN5o5ZrxY1EkDH51qQ91RCNlibkZe2qVGgk6cfWVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_004_fddcc18e5fce.png)
 
 迭代计算流程如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AcjDQb73upBXN3IRZ2gthgFMFbc3wHxD9mZKnZhLMQ3RlMteEvZvS8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_005_574b89779163.png)
 
 首先将各阶段数学方程转换为式（1）的形式，利用 MATLAB 软件计算得到系数矩阵 Ai 和 Bi，再将系数矩阵代入式（2）进行迭代求解。式中，n\=1，2，3，…；Δt 为求解步长；i\=1—4 分别表示 J1、J2、J3 关断过程的第 1—4 阶段，i\=5—8 分别表示J1、J2、J3开通过程的第5—8阶段。虽然各阶段的Xi的表达式不同，但都可以利用该数学迭代算法进行求解。
 
@@ -63,21 +63,21 @@
 
 阶段一（t0—t1）：t0时刻 SSCB 驱动电路检测到短路故障并向SiC JFET串联结构的栅极发射负的偏置电压 VG。此时电压 VG加在栅极电感 Lg1、源极电感 Ls1和栅极电阻 Rg1两端，漏源极电压 Vds1、Vds2、Vds3无变化，该阶段称为关断延时阶段。此阶段 i\=1，可建立方程如式（4）—（6）所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8A9ITJpS7dIucOJ4yXT1JfgVmibsag3AicTtQtZg65WB9EPNc3M8P2oN6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_006_9209ce477e01.png)
 
 式中器件 J2、J3的漏源极电压变化率 dVds/dt\=0。由式（5）得出栅极电流 ig1与输入电容 Ciss呈正相关性，Ciss =Cgd+Cgs，其中 Cgd为密勒电容，Cgs1为栅源极电容。此阶段寄生参数 Lg1和 Ls1越大，即器件 J1 的栅极阻抗越大，Cgd的电流 Cgd1dVds1/dt中越多的电流分量流过Cgs1，则器件J1的栅源极电压Vgs1尖峰越高。
 
 阶段二（t1—t2）：在 t1时刻，漏源极电压 Vds1跌落至米勒平台电压Vmiller，器件J1进入线性区，J1的漏极电流 id1开始下降，此过程电容 Cgd1和 Cds1充电，漏源极电压 Vds1迅速上升。为保持 SiC JFET 串联结构的电流平衡，会有较小的漏电流流过电阻 Rg2和寄生电感 Ls2、Lg2给电容 C1和 Cgs2充电。电压 Vds1的增大会加速栅源极电压 Vgs2跌至米勒平台，使器件J2 进入线性区，电容 Cds2和 Cdg2开始充电。此时，SiC JFET 可等效成一个受控电流源，其沟道电流ich1受控于栅源极电压（增益为gm）。因此，可得到如下状态方程，该阶段i\=2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8ALsSaeibEAnzQgVdrr3uX4gHCNllic8wuSicaDpWE5AUEas6sejPawC6KQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_007_19239f4a6dc7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AnF1yNju36TvLmUdbdWTOUfSDjCRynRFowVfibUJHbLcEjZbmoLCiacFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_008_4466b9bfb63e.png)
 
 式中：X2 为 SSCB 在阶段二的状态矩阵；id1、ig1 分别为器件 J3 的漏极电流和栅极电流；ig2 为器件 J2的栅极电流；ich1 器件 J1 的沟道电流；Vgs (th ) 为 SiC JFET器件的栅极阈值电压。
 
 阶段三（t2—t4）：此阶段电流 ig3通过电阻 Rg3和寄生电感Ls3和Lg3给电容C2充电，当栅源极电压Vgs3跌至 Vmiller后器件 J3 进入线性区，漏极电流 id3开始线性下降。此时，漏源极电容Cds3和漏栅极电容Cdg3开始充电，漏源极电压 Vds1、Vds2、Vds3由 0 开始上升，直至漏源极电压超过 VDC/3 时开始产生振荡，电流id下降为0。此时，式（3）—（13）仍然成立，可列写如下状态方程，该阶段i\=3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AwmJp1FXibh00fUibwUHNIFZkd3Y2qj5Xc0p1FmAL4LAyRibBObsRtZuZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_009_25ee3d5b7f2e.png)
 
 式中：X3 为 SSCB 在阶段三的状态矩阵；ig3、id2 分别为器件J3的栅极电流和器件J2的漏极电流。
 
@@ -89,13 +89,13 @@
 
 阶段五（t6—t7）：此阶段，SSCB 由关断状态变为导通状态，器件 J1的驱动电压 VG由−15V 开始增大。当 Vgs1开始上升达到阈值电压 Vgs（th）时，所有SiC JFET 串联器件仍位于截止区，即漏极电流 id仍为 0，且漏源极电压基本保持不变。此时，可列写状态方程如式（21）—（22）所示，式（4）—（5）仍然成立，该阶段i\=5。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AHpuPP2ibkOQbloh3tBEgwiciaic4SqGU0HtnwbkFxWHz72DfzH9Vs0vAoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_010_1b16e8e4d2c8.png)
 
 式中X5为SSCB在阶段五的状态矩阵。
 
 阶段六（t7—t9）：此阶段，由于器件 J2 和 J3 并未导通，此时电流 id1、id2、id3均保持不变。在器件J2的栅极回路中，电阻Rg2，电容C1和Cgs2形成放电回路致使 Vgs2到达阈值电压。同时，器件 J3的栅极电路中，电阻Rg3与电容C2和Cgs3形成放电回路，可建立方程（23）—（28），该阶段i\=6。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8A3WplriaWU2EpwKuGKwowroKibIN4BtHmBd4dTgLkAJibibRM8I54L87H1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_011_fc8dd681f2cb.png)
 
 式中：X6 为 SSCB 在阶段六的状态矩阵；dVC1 和dVC 2分别为电容C1、C2放电过程中的电压变化量。
 
@@ -103,13 +103,13 @@
 
 X7 \=
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AeIiaf0FfAIoyOL9DicqYyEAknDBrfnf6VHia6x9EBRmgboDLGic0tK2HIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_012_5843a7ed0f96.png)
 
 式中X7为SSCB在阶段七的状态矩阵。
 
 阶段八（t10—t11）：当器件 J1、J2、J3 完全导通后，流经 SSCB主电路的电流为i0。器件J1 栅极电压 Vgs1在驱动电压信号的作用下会进一步上升至 0，器件 J2 和 J3 的栅极电压 Vgs2和 Vgs3也分别在电容 C1和 C2的放电作用下进一步增大至 0。t11时刻，所有串联器件完全导通，SSCB 恢复运行。其式（4）和（5）、式（23）—（34）仍然成立，该阶段i\=8。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AyibIhjHAeEMI8lfricCSudYraXicJEMkHkKzwQ5mpykqL8blpafOs0akg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_013_74e6957fa5df.png)
 
 式中X8为SSCB在阶段八的状态矩阵。
 
@@ -117,45 +117,45 @@ X7 \=
 
 本文利用MATLAB软件对SSCB导通和关断过程中的数学模型进行解析计算，计算流程如图 4所示，计算参数见表1，计算结果如图5—7所示。为了验证上述理论分析的正确性，在 PSPICE 软件中搭建了如图 2 所示的 SSCB 主电路仿真模型，对比分析了不同寄生参数对 SSCB主开关 SiC JFET器件串联结构导通和关断过程的影响。仿真参数如表 1所示，仿真模型中 SiC JFET 器件 J1 的关断信号时延时间设值为 1 μs。图 5—7 中图（a）、（b）、（c）分别为器件 J1、J2、J3 的关断波形图，图 5—7 中图（d）、（e）、（f）分别为器件 J1、J2、J3 的导通波形图。SSCB 主开关选用的是某公司生产的 1200 V/38A（UJN1205K）SiC JFET器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8ACaWxOs5WmUYSKtibKMzDfz1ic1jN2qiawJJicfD3EWodkeiag2B0Q4Y6o7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_014_7f1055dc6f47.png)
 
 为了便于分析 PCB 走线引入的寄生电感 Lg对SiC JFET串联结构的漏源极电压的影响，寄生电感L（g 此时电感 Lg1、Lg2、Lg3均等于 Lg）分别设为 5 nH、15 nH、25 nH 时的 SiC JFET 串联结构导通和关断过程漏源极电压 Vds仿真波形如图 5所示。由图 5可知，栅极寄生电感 Lg会导致漏源极电压 Vds1、Vds2、Vds3分布失衡。在SSCB完全关断后器件J2、J3承受的压降大于器件J1的漏源极电压，所以电感Lg的引入会造成漏源极电压分布不均衡。同时，电感Lg的增大会加快电容 Ciss的充电速度，导致 SiC JFET 串联结构在关断瞬间产生电压尖峰。但在 SSCB 导通过程中，栅极寄生电感Lg对SiC JFET串联结构的漏源极电压影响并不明显。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AMWrLgpDoSPJxGglH5nvpOV7R5u4SmxVtdciaiclFch58pYzLKX0I0Apg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_015_177e7a4d95cd.png)
 
 图 6 为漏极寄生电感 L（d 此时电感 Ld1、Ld2、Ld3均等于 Ld）分别设 5 nH、15 nH、25 nH 时 SiC JFET串联结构导通和关断过程的漏源极电压仿真波形。在 SSCB 关断过程中随着漏极寄生电感 Ld的增大，电压 Vds的振荡显著增大，同时也产生更大的电压尖峰。这是由于在关断瞬态电感Ld的增大加快了漏极电流变化率，引起电感Ld的感应磁动势增大。当电感 Ld的感应电动势方向与漏源极电压 Vds方向相同时（即与漏源极电压叠加产生漏极电压尖峰），易与寄生电容谐振产生过电压。在SSCB开通过程中，电感Ld的增加会使电压Vds的电压尖峰变大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8ARNHWjoBalnibshdOWSraNic2zcec7glXpTEVL81iadd3iaarzicV5ib5IibXg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_016_fdcca383bba4.png)
 
 图 7 为漏极寄生电感 L（s 此时电感 Ls1、Ls2、Ls3均等于 Ls）分别设为 5 nH、15 nH、25 nH 时 SiC JFET 串联结构导通和关断过程的漏源极电压仿真波形。在 SSCB 关断过程中，随着电感 Ls的增大，漏源极电压 Vds的上升幅度变缓，器件 J1 的电压尖峰明显减小，器件 J2、J3 的电压尖峰也有小幅减小。在 SSCB 导通过程中，随着电感 Ls的增大，漏源极电压Vds导通延时时间增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AVNmpEGz1rqzsNeXjVBjnYsicfzN7k0UG87gAfVTVpV1zqYBiazj6BKAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_017_4e6e173baaeb.png)
 
 综上所述，对比 MATLAB 解析计算结果和PSPICE 仿真波形可发现 SSCB 主开关 SiC JFET 串联结构在导通和关断过程中漏源极电压 Vds的变化率及电压尖峰匹配度较高。由于 PSPICE 仿真模型中脉冲延时设置以及文中的理论分析数学模型没有考虑功率回路寄生电感的耦合，导致振荡频率和振荡幅值不能完全匹配，但并不妨碍研究寄生参数对漏源极电压的影响规律。通过上述仿真和理论计算可知：1）SSCB 关断过程中，栅极寄生电感会引起SiC JFET串联结构出现电压失衡现象。2）漏极寄生电感和源极寄生电感是影响SiC JFET串联结构过电压的主要因素。
 
 **4 SSCB过电压抑制仿真及实验验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8ASKW1icyo3xNxBL8MauA0kBzyia609Dtrr1txr6NUJ3sGqB3e5Nrv26Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_018_3308125b374e.png)
 
 为了抑制 SSCB 开断过程中由寄生电感引起的SiC JFET串联结构过电压问题，本文设计了一种基于 3个常通型 SiC JFET 器件（J1、J2和 J3）串联结构的 SSCB，电路结构如图 8 所示。该驱动电路只需向SSCB主开关中最底端的SiC JFET器件J1发送驱动信号即可控制所有串联器件的开断。主电路中每个 SiC JFET 器件的漏源极均并联一个 RC 电压缓冲电路和金属氧化物压敏电阻（metal oxide varistor，MOV），可有效实现SiC JFET串联器件的过电压抑制及动态电压均衡。当 SSCB 完全关断后，稳压二极管Z1、Z2和Z3可实现SiC JFET串联器件的静态电压均衡。为了验证该电路的可行性，在 PSPICE软件中对该电路进行了仿真验证，仿真结果如图 9所示（部分参数如表1所示，寄生电感Lg、Ld、Ls均设置为5 nH）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AicVoM0VHGh43s2XiceffJA9hawTz6DdRtALSwF8TCvgdRXyNXw92S4RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_019_ce999411de6b.png)
 
 图9中实线为优化前SiC JFET串联结构的漏源极电压波形，虚线为优化后SiC JFET串联结构的漏源极电压波形。假设直流系统在1 μs时发生了短路故障，SSCB 快速关断以切断故障电流。此时，器件J1的漏源极电压峰值由优化前的556 V降至优化后的506 V，降幅为9. 9%。器件J2的漏源极电压峰值由优化前的 561 V 降至优化后的 509 V，降幅为10. 2%。器件 J3 的漏源极电压峰值由优化前的 568V 降至优化后的 511 V，降幅为 11. 2%。因此，不难发现加入过电压抑制电路后 SSCB 关断过程中电压峰值明显降低。由于该仿真电路中直流母线电压设置为 1. 5 kV，SSCB 完全关断后，器件 J1、J2 和J3的漏源极电压分别由优化前的476. 63 V、508. 43V，514. 94 V 变为优化后的 494. 96 V、499. 94 V，505. 10V。SiC JFET 器件串联结构的漏源极静态电压分布得到改善。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AGibDHqlvDfsibq1YEPzJtq5pp1icTylJQcQ9KjKl2GMdlicMWtF7foWNAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_020_e1c5a61ec17b.png)
 
 为了验证本文所提出的 SSCB 过电压抑制设计方法的有效性，搭建了基于 3 个 1 200 V/38 A 常通型 SiC JFET 器件（UJN1205K）串联的 1. 5 kV/38 A SSCB 实验样机，样机如图 10 所示。该 SSCB 采用脉冲宽度调制（pulse width modulation，PWM）限流控制保护方法［18］。由于实验室条件的限制，此次实验仅在直流母线电压最大值 400 V 条件下进行，测试结果不会影响 SSCB主电路 SiC JFET串联结构过电压抑制的实验验证。实验样机主要电路参数如表2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AX8TKtCV4tZyPmicvxNvnxXoujPyuKbwPbJBq48egECwYpCG84wlapiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_021_196c0ebfdb1d.png)
 
 图11所示为发生直流短路故障时SSCB的故障响应波形。电压 VDS1、VDS2、VDS3和电压 Vgs1、Vgs2、Vgs3分别为SSCB主开关中串联器件J1、J2、J3的漏源极电压和栅极电压。电流 iDS和电压 VDC分别为故障电流和直流电源电压。在图 8所示电路中，故障电阻 Rf设置为 2. 5 Ω。由图 11（a）和（b）可知，当开关 S 闭合后，流过 SSCB 主开关 SiC JFET 串联结构（器件J1、J2和J3）的漏源极电流iDS从0开始快速上升到约 150 A（约为 4 倍 SiC JFET 额定电流）。此时SSCB 的栅极驱动电路快速响应短路故障，驱动电路向器件 J1 的栅极发送偏置电压−15 V，串联 SiC JFET器件 J1、J2和 J3的栅极电压 Vgs1、Vgs2和 Vgs3分别从0降至−15 V（如图11（b）中栅极电压波形）。此时所有串联器件关断，SSCB 动作响应时间约为 60μs（主要包括电压检测电路检测故障电流的时间、光耦隔离及信号调理电路转换故障信号的时间、微处理器处理故障及驱动电路向器件J1传递关断信号的时间）。在 SSCB 关断过程中，串联 SiC JFET 器件 J1 率先关断，J2 和 J3 紧接着逐一关断，所对应的漏源极电压 VDS1、VDS2和 VDS3从 0 开始上升到约130 V（如图11（a）中漏源极电压波形），且无明显过电压，较好地抑制了 SSCB 关断期间的过电压。当SSCB 完全关断后，电压 VDS1、VDS2和 VDS3均保持在约为 130 V，实现了 SiC JFET 串联器件漏源极电压的均衡分布。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8AYmjrcLUWfzQicLGHRntFngVibQFf5xIUfCCv5TUSibuYH0UIqHULcfZiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_022_3aa07ca628e5.png)
 
 图12所示为发生直流过流故障时SSCB的故障响应波形。在图 8所示电路中，故障电阻 Rf设置为5 Ω。SSCB 所采用的 PWM 限流延迟保护算法延迟间隔Td设定为1. 8 ms。由图12可知，当开关S闭合后，流过 SSCB主开关 SiC JFET串联结构（器件 J1、J2 和 J3）的漏源极电流 iDS从 0 开始迅速增大至约 72A。SSCB 驱动电路中的微处理控制单元为了判断该电流是否是永久性过流故障，SSCB 进入延迟间隔 Td为 1. 8 ms的 PWM 限流模式。当限流模式结束之后，过电流一直存在，则 SSCB 关断，故障电流降为 0。从图 8 可以看出 3 个 SiC JFET 串联器件的漏源极电压 VDS1、VDS2、VDS3在 PWM 限流模式中和SSCB关断时均无明显过电压，较好地实现了SSCB关断期间的过电压抑制极SiC JFET串联器件漏源极电压的均衡分布。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn8KaKwWqRicJf6ZGeeVyg8Aib6aYCnfibqxruE4Bfr5M7AqMo9Kg0X3bqOYXpLJq9uM60vLnSicnDkng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_023_e26ec565fb02.png)
 
 **5　结论**
 
@@ -171,10 +171,10 @@ X7 \=
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_024_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_025_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\寄生参数对基于常通型_SiC_JFET_器件的中压直流固态断路器过电压的影响及抑制方法_images\img_026_84aa944feb13.jpg)

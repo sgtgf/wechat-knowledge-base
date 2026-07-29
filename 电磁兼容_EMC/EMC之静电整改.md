@@ -28,13 +28,13 @@
 
 第四层(bottom层)走线如下(充电接触弹片所在层)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lc17k8AAlj6KD1tDmEXMcy6fbicor8fYmlquNrM6DkaiczxbBPrmSnyP8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之静电整改_images\img_002_bc500c2a27a7.png)
 
   
 
 第三层走线如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lc89RojbicY5Ac6VFXqXDSxZJWIl7PktTe5jaicJMroImPoYufXOq14odw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之静电整改_images\img_003_337715d136d9.png)
 
   
 
@@ -50,7 +50,7 @@
 
 具体优化如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjIkTmBON2OPcdlNvPae0lcJakBJAAFrCUbOURQ2ibcqEZYyWmt1ImibbAeZnicmic9Npiafak18ST5oog/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC之静电整改_images\img_004_5c9a1f5abd5a.png)
 
 # 总结和建议
 

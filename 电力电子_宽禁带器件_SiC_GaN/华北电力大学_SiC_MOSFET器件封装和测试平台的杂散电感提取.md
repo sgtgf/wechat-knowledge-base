@@ -29,7 +29,7 @@
 
 由于SiC MOSFET的快速开关瞬态过程，导致其对杂散参数更加敏感，为了对SiC MOSFET开关特性进行准确分析，需考虑测试平台中的杂散参数。因此本文首先建立了考虑所有杂散参数的开关瞬态宽频电路等效模型，如图1所示，分析了器件封装电感和测试平台功率回路杂散电感对SiC MOSFET所受电气应力的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMlJA0bgIDvxichoMXvVDN5dGnecvAuc2YibNp5xY8ueyPiacygU73WKg1w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_000_a1d2af06a047.png)
 
 SiC MOSFET器件模型中包括栅极内阻RG1、栅源极杂散电容CGS、栅漏极杂散电容CGD、漏源极杂散电容CDS、栅极封装杂散电感LG1、漏极封装杂散电感LD1、源极封装杂散电感LS1。
 
@@ -37,13 +37,13 @@ SiC MOSFET器件模型中包括栅极内阻RG1、栅源极杂散电容CGS、栅�
 
 由于杂散参数的存在，导致开关瞬态过程中器件承受较大的电压和电流过冲。若采用PiN二极管来续流，则在SiC MOSFET开通阶段，当漏源极电流从0上升至负载电流时，由于PiN二极管内部少数载流子的积聚，会在从正向切换到反向的瞬间产生较大的恢复电流，导致SiC MOSFET开通后出现较大的电流过冲。即使采用SiC肖特基势垒二极管，其反向恢复过程极短，甚至可以忽略，但此阶段SiC MOSFET可看成一个电流上升斜率恒定的电流源，会对二极管结电容CD和负载电感的匝间杂散电容CP进行充电。该充电电流流过SiC MOSFET，同样会导致开通过程出现一个较大的过冲。此时，SiC MOSFET的开通电流峰值可近似表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMTMgLE5ql9tAiaHXdrt8icETvOYVpHHhR41sLiaAGvqSj6fHdfABzRvrfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_001_7d105f26674a.png)
 
 式中，CF=CD+CP。
 
 在SiC关断阶段，电流由稳态值下降至0，由于功率回路杂散电感的作用，导致出现较大的电压过冲。忽略二极管导通压降和回路杂散电阻压降，关断电压过冲可以表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMWibDODRyuBTbLjFgrPhN7ibokibIIj6jF4z8YOEgvVCFdqom5e7fTEvsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_002_8b9ba1d99578.png)
 
 式中：dif/dt为关断电流变化率；∆t为漏源极关断电压UDS从稳态值上升至峰值的时间；∆I为对应时间对漏极电流ID的衰减值。
 
@@ -51,7 +51,7 @@ SiC MOSFET器件模型中包括栅极内阻RG1、栅源极杂散电容CGS、栅�
 
 1.1测试平台功率回路杂散电感的影响
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMaeC1FcJ1ztRuuN5rkyxywUoawFBX2RB23c7OCaRjqpTUviamXLCrSDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_003_cf68cb978f58.png)
 
 图2和图3给出了在500 V/20 A工况下的SiC MOSFET器件漏源极关断电压UDS和开通电流ID波形，从图中可以看出随着功率回路杂散电感的增加，开通电流上升斜率略有减缓，增大功率回路杂散电感的同时也增大了电流给回路杂散电容充电的时间，因此电流过冲整体仍然呈现递增的趋势，但是电流过冲相差很小，当功率回路杂散电感从100 nH逐渐增加到160 nH时，电流过冲只增大0.5 A。从仿真波形可以看出关断电压过冲与功率回路杂散电感几乎呈线性关系，当功率回路杂散电感从100 nH逐渐增加到160 nH时，关断电压过冲从87 V增大到138 V，可以看出随着功率回路杂散电感值的增大，电压过冲也随之增大。对于更高电压等级更大功率的高压SiC MOSFET功率模块，其电流等级更高，电流变化率更大，对开关瞬态特性功率回路的杂散电感要求更高，所以为了避免在实际测试和应用中出现较大的电压过冲，进而导致模块损坏或甚至失效，必须减小功率回路的杂散电感。
 
@@ -59,7 +59,7 @@ SiC MOSFET器件模型中包括栅极内阻RG1、栅源极杂散电容CGS、栅�
 
 在开关瞬态电压测量中，对于SiC MOSFET分立器件来说，器件内部芯片漏源极电压无法直接测量，因此很难通过实验分析封装电感对芯片开关瞬态的影响，因此本文通过仿真来分析封装电感对SiC MOSFET漏源极电压的影响。本文固定功率回路总杂散电感为100 nH，改变封装杂散电感值，从而改变其在总杂散电感中所占比重。CREE公司给出SPICE模型，漏极电感为6 nH、源极电感为9 nH。此时比重为15%，从图4(a)可以看出当漏极和源极封装电感在总杂散电感中所占比重为15%时，芯片的漏源极电压过冲略微高于分立器件的漏源极电压过冲，电压过冲相差为7 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMwuPfSppK82fC9LAng0kyO7N3Dx4VEY8ibal0rhNPTWKjkUMJGibfIicrA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_004_1575b0ebd63a.png)
 
 然而相比于简单的TO封装器件，高压大功率的SiC MOSFET功率模块内部结构的互联结构更加复杂，引入杂散电感更大，使得漏源极功率端子封装的杂散电感在功率回路总杂散电感中占有较大比重，进而导致芯片和模块的电压过冲具有较大差异。从图4(b)看出，当其比重提升到60%时，芯片和器件的漏源极电压过冲相差已经高达67 V。可见当SiC MOSFET封装电感在整个功率回路中占有较大比重时，芯片与器件（或功率模块）的漏源极电压差就会较大。在实际应用中，尽管功率模块端子的瞬态电压未超过额定值，但内部芯片电压可能已经超过安全阈值，并带来了功率模块损坏或失效的风险。因此在对器件和模块进行封装时要尽可能减小其杂散电感。
 
@@ -73,21 +73,21 @@ SiC MOSFET分立器件和测试平台功率回路杂散电感提取主要利用A
 
 基于Aligent 4294A阻抗分析仪对SiC MOSFET测试平台功率回路的阻抗特性进行测量。根据图5给出的测试平台功率回路的阻抗测量电路，将SiC MOSFET分立器件与负载电感从测试电路中拆除并将续流二极管用短接线短接，将测试电路中的漏极和源极用很短的导线（忽略导线电感）引出，将导线接在阻抗分析仪的测试端口进行测量。在测量前需要对测试夹具进行开路校准和短路校准，频率测量范围为1~104kHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoM4hNmz59HQwH5MrKRre2ibc99z2NKMSqSuvib3gLLqYqRHS7fO99lcJ9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_005_91d3cc3a3ee9.png)
 
 根据图1给出的模型可以将SiC MOSFET的功率回路采用RLC串联谐振模型等效。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoM0k739zFPPYpyfnVoA6cOvU4ibvibFVS288CqGsn47Io5u85HXYJiccdRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_006_6b9c4cb79f23.png)
 
 图6所示的RLC串联谐振等效模型可表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMHSIXlNL4uJ55En788xPpRhRAw2WoibHZcNQ8zmZSMVG0srlu1gaibdoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_007_e5c1337d7952.png)
 
 式中：Z为串联谐振等效模型的阻抗；R、L、C分别为模型中的杂散电阻、杂散电感和杂散电容；ω\=2πf，f为频率。
 
 将SiC MOSFET功率回路的阻抗测量结果导入MATLAB，然后用式(3)拟合阻抗测量结果，测量结果和拟合结果如图7所示，其中θ为相角。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMz1ibj7pgfibmH5Yib1N6pKRLOtursktuxCnONOSP5MpCjFFNGopKiaHtlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_008_490aefa8b755.png)
 
 根据图7可以看出，调整相应的参数可以得出比较理想的拟合效果，此时拟合模型对应的电感值即为功率回路的杂散电感值。根据图7给出的结果。
 
@@ -97,7 +97,7 @@ SiC MOSFET分立器件和测试平台功率回路杂散电感提取主要利用A
 
 根据上文所述，在关断阶段，电流由稳态值下降至0，由于功率回路杂散电感的作用，在SiC MOSFET漏源极两端会产生较大的电压过冲，关断电压过冲可以根据式(2)计算，本文根据式(2)所述的方法计算功率回路的杂散电感。基于对测试平台的双脉冲实验结果，对SiC MOSFET关断电压电流波形进行分析，图8给出了500 V/20 A工况下的关断电压电流波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMia4L3Uu1Y4ugq5icLtpIqslLCkzVKTOiba0ibtkJibJaDwoicEeBdiaCa8WDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_009_6c6dd86eec46.png)
 
 由图8可以看出，SiC MOSFET关断电压过冲∆Uoff=118 V，∆I/∆t\=6.5 A/6 ns，根据式(2)可以计算出SiC MOSFET器件动态功率回路杂散电感为108.9 nH。上文用阻抗分析仪提取的功率回路杂散电感为100 nH。2种方法提取的功率回路杂散电感值绝对误差为8.9 nH，结果较为接近，互相验证了其方法的准确性。
 
@@ -107,17 +107,17 @@ SiC MOSFET分立器件的封装电感主要由引脚电感和焊接线电感组�
 
 对于SiC MOSFET分立器件的每2个引脚而言：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMVz0YmU6rVNMVsORWibqm9gvXezcohvlXPd3YeJSialKvJyw1C5G33hxw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_010_3741cbb5b575.png)
 
 式中：RPGS、RPGD、RPDS分别为栅源极、栅漏极、漏源极等效电阻；LPGS、LPGD、LPDS分别为栅源极、栅漏极、漏源极等效电感；CPGS、CPGD、CPDS分别为栅源极、栅漏极、漏源极等效电容；RG、RD、RS分别为栅极、漏极、源极电阻。
 
 在测量阻抗之前，首先要对夹具进行校准，频率测量范围为10~105kHz，测量完毕后将阻抗测量结果导入MATLAB中用式(3)表示的RLC串联谐振模型拟合阻抗测量结果，拟合结果如图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMd0PydicDQIuWTHMr0hM3trUyhp8ibpnNuI4GXAB11HU5lo1XJ4672Z6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_011_562b1834e157.png)
 
 调整相应参数使拟合结果与测量结果尽可能重合，此时拟合模型对应的电感值即为SiC MOSFET分立器件GS、GD、DS引脚的封装电感值。根据图8给出的拟合结果联立式(4)—式(6)可以计算得出器件封装的电感值，根据CREE公司提供的数据手册可得其封装电感的标准值，如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMXRzdPwESiczkfa09icI7z6NFbqlJYCmTxJGFvfVxO4kCowxvxfY7j1ow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_012_aa2ccaf83cd0.png)
 
 从表1可以看出测量值和标准值的最大误差仅为3nH，所以本文提出的封装电感提取方法可以用于器件封装电感的提取。
 
@@ -131,10 +131,10 @@ SiC MOSFET分立器件的封装电感主要由引脚电感和焊接线电感组�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_013_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_014_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\华北电力大学_SiC_MOSFET器件封装和测试平台的杂散电感提取_images\img_015_84aa944feb13.jpg)

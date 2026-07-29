@@ -35,38 +35,38 @@
   
 随着技术的成熟和成本的降低，SiC MOSFET器件正在逐步替代传统的硅基IGBT和MOSFET，成为高效、高功率密度系统的首选。
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLMkN7MuoNIg0pKgc0UKX3Iib3u53sibPkaP5yVLO9SJ7ia8zbpfEQdib3Yw/0?wx_fmt=png&from=appmsg)
+![图1](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_000_76142525bf87.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLNlKmRXx4ZFnic5eFJo2icPvzzm5Rj9zpvozpMOb9ZPAcb1KlHeXh6juQ/0?wx_fmt=png&from=appmsg)
+![图2](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_001_3c2de4d9b579.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLCUfS9hkrUk419wbicmnZtAcxR2Tw8XIxNcP3ia00tVEnGTm3ML17GiaEQ/0?wx_fmt=jpeg&from=appmsg)
+![图3](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_002_ee18937ea831.jpg)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLRGeWSRvTBLuiajtVicyQ2U7ejWsagwjcYadeFDpS8Dlk6s36KJfH5Cjg/0?wx_fmt=png&from=appmsg)
+![图4](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_003_d6f43bd30902.png)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL6YZDA7mzibYpyXTjIk3WHwJLa3MzRmOkhESFfBgOs1ABBxmbmAkuntA/0?wx_fmt=png&from=appmsg)
+![图5](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_004_55ef5b2bde3f.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLIWY9zMOwD6r7T32xgIN2nmlFvPJ3OFxQzSJMZTKRicSp7KoicRABP9TA/0?wx_fmt=jpeg&from=appmsg)
+![图6](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_005_e7f2f54bc2c2.jpg)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLL5WOGyEyJRNPAvPGBIicTpdZCZU4SSg40xWNy9ibDVLqc0UlS8ogicMoA/0?wx_fmt=png&from=appmsg)
+![图7](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_006_9b33b2e0b024.png)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLFh8QdWFoJFHqxjk6btfticv71DYhGuh9rVY5W7taNZPPlQWG3ynmm3w/0?wx_fmt=png&from=appmsg)
+![图8](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_007_166b41094f86.png)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLML7sdiaaNhtSz5TAFqfEBnE8sZWc8ZbWkvRndtoSYQaibJvWXlUTdfLA/0?wx_fmt=jpeg&from=appmsg)
+![图9](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\九月双展来袭_期待您的莅临_共同探讨SiC器件的产品及应用__images\img_008_a855d8e9ebd0.jpg)
 
 图9

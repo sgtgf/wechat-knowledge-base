@@ -8,63 +8,63 @@
 
 作者：Johann W. Kolar .
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNutzwbCC0UWaOL1QadDyttexcbKriaGmjP4ibsTeXsjnRZlEgpnYuJianSjlpArImP6ciancUicoHHqvGyxGxhmf6E5Hxrp3Vx2jBk/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_000_9ac08f72ac11.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMqzicXEbxWkEJIrnjOmkCdNmGfzkRRb0CSeiam4lBxtwvDeZhO68qOFWA8BvY7qCbygsnOm64srX3icfdJ7fpd45MLgHQqiauia7ib0/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_001_db1f7e70f269.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO54QmibibVaEQUgWnfo8ib1f5JdQMBibMSCl1e2elcbj9b69mgHU0qhzzeJXuU4XznUgIXtpzI38C6kCB4PQzvaP2CKnfLIlKBQGQ/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_002_d2bb59095daa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpObpXaq0ribicxh5ianQRZhfwI1jyDsrcjviaXXRWGKgh7LxvyZAhyZyJCGqzicDMB1FI7xp8Xhkric5ib04s73KLRVtCI5X51ec4BSfo/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_003_6914ea8397cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPK6aKL0O3DoOicR1gDX0h31lCBqG2ZicGb4RnU9mNib2dL76dtTm8CIG3lLRSVjChRgGzJ9bEgpHf4Q02ibjzUPgIBUurtlkQibQRo/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_004_6f418813d626.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM40AEnLUicREvFmmv55Ez4C6EYugCArl2apApgs4YvKv0F7mAgfUfgEOicgibbwCCKrW22ibp2GwMEco7FH2tUiblTC588CiaglgH10/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_005_5b031dce33a6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP4EaUqOfRicFhJlE1JBultyEUwfmkxoK3erEc2nLCYSKqLx7jzVClWalD7b3iahk37Ywzaiax2wsx1SV3yXF90DvzxZcoMBAhAus/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_006_76b489e1aece.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPMNNh68rFGkVdUwibElkqsKxlrCorrmJk2wS2cuqVVNBneueuoGw4Ya4Z9ibPGs3ibHv2icm1LQnYDgEClFCdaNdxrNlWoShyJicL4/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_007_85eebf1726cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMJhpicQKZ93STufT28Ar8OFaFia7v0dGs91mib5ibfHYDpJUCN2F2JzI7k246XUgXVk8D54Xug6IoKTlFCAKXrxDMaMPDDhuyLRGg/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_008_09434a2a0c17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM1y3XmUjSZlRmNvdC0oaaYOGmguRbzbZznreTS6RgVMoaq7NiajK57iaLA9Zcyr7eMc5lK28eTiajLj7yibh4oDRQJbbx4oneoLUQ/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_009_695f6a11b687.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMz3HEbRnZP64QFFibZnHLClytzb2UwfulDYG9VpzD3DCqBvpicib4HfGJqdA1xlvKFV8Aq91VaeGQUn392ibq394sGrf3pseSTIbE/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_010_467389fae25b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtj9ckfa6Ju713hiciayc8dKEJa9Zbtqiba8NA9HiaPic0OplDvarjxgswz1xJ8ZWmqjMr2W71voRSOPPsEcNvKMyUIqg5OCibC2yaM/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_011_c832ecb1a4d7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOEvEPP3bmG9lcCVCWc19VT5oymXxttCpuUMlpBIkM487S71ZPn5zYickY84ubhwiaJgiaeFb4MoxHoicdcoN4sjEM2R4Gu9vRvmVE/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_012_27a0a7efec60.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPUOJ8UPj8Tz0AyJyT3vYCYsNWic5JVvtdGZ3WyRTuVs6kD9X6FZSor3cmGXgy7C48pIOiblWhdgeYtbkRJSYj0MBqY1zLcoSiboE/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_013_a9e64e528084.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPwxbEqP0xXtcSyLncZxW9nzBj8fddpWBqcASLM7vHvWeR0UQs15vQtWNkP05pKD9wn5AyoDD8LH17tMhZmribpNtwgF03jPibPE/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_014_d8228ec46c95.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOeq7B8n6HNDqrjJJqvribdGZeeCjyhVwzJibgRrwIIq2xxhFqBZUW7NxiaMbdWVps7Oe0P4vMDVPNlSYfFySq8HorBu11ldc5tlM/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_015_730547cbcb00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibicbKRPicvsePJNOLn7vPUHUibH75uUMywccOibQezJLlGyvmTt6t4bt5ibh7pedzXqew4ia03jwVziaxGHrTfJ91WyiaVicgvoBQjnFs/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_016_1675fad6c473.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOUZFGmeUHlygKuwAoskfvfRmP6icPDVFqqJfP0O2REo9RTvDHm6nEvmUvWntJz0p2Qibic1ZF4c6v2rkpXVz5qbcKQZAfOyHFU3E/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_017_4ca3cc127e0d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNI0wWaA1iaWn71OU1UNVVmT9x5M6Ns53icbaZk1eZfamMsNmjSWicuMT8mCKpRd6X2r40jWmfQVzV0UicicdBUVCswmn8b1rMLjmc4/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_018_5323d8f69a32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9rIszOME5M7Wrvuqic5bwxk0YeMmqzOwAicJNiaFlNfBKiadUDqS0zIdcCAdnFCwWeIfS8ZhHicGviax0lpf5acPsuEzay1uCjFDjQ/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_019_d74bd9677ea8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPsDcD1TJ5IaH6lv9WUme9ZZJ5nF4zt39uXw3oUib5XIY0daotvrbHKYa1qmNOhh54GNrXqumvA2icqEic69gib4sNjAwIqCvs4ul8/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_020_30dc2dede4c8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZCH5Vg2U2WKWqXRC0AgTepopWEJmiav7V2IOCLFpcCJYUqGiaX4VQhvIVcHicIl5yg1IjuDaXsb2E8PkRrmJyJ4yjQa9DW0fHfk/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_021_2488ec038839.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMPxDkuRhmICzqKpN3ZJ2cMIlnK12dlcu6QVgHibibJsAH5snsuvFmEHzlhooEDGoqiczGTlib2rgv5R0FMZ4lyOEl2sqPqVkYya0o/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_022_fd897f03859c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNX4RL6kpx1DEzLqgZdHoPDP7ycrOoVGNVO7x0GyDJk1dQ2sCaKTROqiaciafDibaNvBwNwMthfBxztU39ak2qd2bqDszEmvs4PeU/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_023_8ab74a99f6b6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMicFWP4rUHcDuMIwkQ2OECbRUu1ibxhBU3wqvC8a6sC7QN23AO3PlsjtL6lardLY33G1IrODicv6p7ia8nF3sdW2e0yAQYlAoCvFU/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_024_30303fdc0578.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPW9wxT99blk79I4IPPeK4MTK6eSPAiawXBQWZjR4cUtiaS0jUoIQmYNxOwzrEIiaZ5CcntX5K1GgejkzKKdyiadrYLbQdRzoOOzdY/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_025_5137887febc1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMFNStXTicSYsibw4hdIbAxCc0MfL47Q81VViapbv5tXAl80Tssd9QpvYkZPEm9ycf4kXgv506s0OUAOIERicoSDAmoXnfCNJluoKw/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_026_62142fc2171a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM490MZOtyy0OIs6mPyqXibSRdBMPZ870ibewFZ9LDfwsovGGO4MzjqtZDBXGxicBA4iaQNp1OzwoiblwjYyqIYJBwGwRo96z3zx6Ig/640?wx_fmt=png&from=appmsg)
+![](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_027_462dcad6d0d7.png)
 
 注：文字与图片报告无关
 
@@ -237,14 +237,14 @@
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMHxflAf2TpIEqbDFMGoXQbnxp78feibh61JRypr2Is9p0AZicHxia9ygVkRyicP59TfCzGVr129RAutMO8H87Ggian3ywt2f3HWDGo/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_028_71f063a99f57.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNlRGBr5micPQcGrILaFicaHvSCHMEMZoIwZic374rARoIUAJXBOmRb24FQ2SIvBz2Jmz9XV52k3NtXG5ntJ1xMMAgkPxUjRCA9Ak/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_029_27059ab674d5.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKZlrXxC7cnb9YPkOS3bWQUNT8OCJ8ibTdalv8yUGOApphoyQIiaeOHiaJZpTbMhYRcuib8Y1T2R5MdveBdICQuEU8t639btMqARQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_030_baa4a4927e3c.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMd3UFuL2FkCTN2kZheiaiceCFBTbAia9MZMDaoEADvf3WmqUS9NWBkf4lR47FX7j3pibnLTonQJtxMzepPopkQbibrr2rsD3Z8Ndwc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](人工智能(AI)数据中心的固态变压器（SST）概念_images/img_031_1ffbe399a9fe.jpg)

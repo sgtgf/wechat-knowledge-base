@@ -8,385 +8,385 @@
 
 前言：‌碳化硅（SiC）和氮化镓（GaN）这两种宽带隙半导体器件 ，具有诸多优异的性能和广泛的应用前景。本报告分别介绍了器件在三相PFC整流器系统和三相VSD逆变器系统、电力电子设备的应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YicgrgYDq4zuKCjrnsRoynW2kcyF2zl0cOFN2KmBWQUQDSicw1Z0xd4aQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_000_4f69f57cdb9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y4vuBwN7ibocEGUTic9ywFTjHgXuj2AgmGl1IpDaz008uUlIcSS8CSiacw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_001_98ca34626548.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yic21US11MXicEdNic6n0jxj0czUKR9VqOic0t8iaPpEqeiaMViaiaMkicvuIzYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_002_3ae2e0675ae8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ymj6V8c9sibZIlcuaMUtlu1O8rAtUn4vRVKQ8l78yonMeONHKDSWcMjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_003_6cb9b44c36c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yr9r4pjAFiaQZicXVibs2SaRQQ8tfHJxO6we4LNdbeGnM2Ac68D1Xyooibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_004_ad2ddc9bb88d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y2fMj3Xre0bqiaY7ZNkicQGlNTeyt83S9ZxRxkqMRJ7DoMVwpLDUx9p7w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_005_3ae7621c2b0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YtObGYImu4akPfibwrZJicNwf2FaiavhuUyR2bicBRV1Nyg1U66DXaBIZ1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_006_0a5b177b64ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YW5Nh30UMJHCFzbQkJTibaD46UQS6W7rPyTZUE5OxxuGbwCribYGicGa8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_007_fa0b3b32f517.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y4RWMASiceA2xKpL72DcBia9XibHP2AKAwAp7DxDHxuZiczIoPZQiczFKUMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_008_6515b3460f3c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YsrdjdKBdEK9mxD9fsBPlQQyW3ibkfpFm0rGkJNpicPHIH0ibZeSzIoaew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_009_ad915abe8090.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YCwfrH03rbABWC8qYw79UpqTmXzb8bOjia0gp1h4W1I8Zr2gbXDugeQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_010_88bd25bffa76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yvaey6qTyIFpvtRrgsd2icdsZnOjciaXqJkSogntKs7BbK082eKShajqw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_011_2a48c7b37845.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ym0jMSFkWzgAxDFCpH8aeGibGnvZZxibB71GvYIicI01gj0L9T77MZHFJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_012_56c86f5abd4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YmJGR0qGP3WqIukhgqXL2smmKDvkyc92KGSaq3cSbDbvwVHtrc7P3Dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_013_4ffe15d7f38b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YVwTdcr9SkNYG43pKwVQlK6IkNmg3FCNbC52S6VY02CXSwrRQR26Mcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_014_60bde73957c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YDDuLjs1ruC3ySbrCAU5t0ntm23GY9PZhHvdWYStwjKEub9iaMn2W61Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_015_0781477dca7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y8sS4X784nUNVfFN9oSribpDBFLlicLONdGkXaALPHRPXqXh0Zat7ro9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_016_0d42d65c7f1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YLzYgWZHTbMsaAv679ibSdaBARHc020GriaQ0CEciaIB4dVB1bnCYmskfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_017_4fbcabfdd161.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YBa1IY97CLbcU4SI6N9uQznvyJ4j24RAT7ibicAxwqAuZuYpW6nM3hibibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_018_c03645f0da7e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YFRtI9MpgYK5Oobc6N1XeQOcsXonOdAC1BYR62kf8krTYV1FZ2DRicag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_019_3712ec57d9b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YcBltDribqqbZuN7w3Dh2gKuLAiaxicF2kh4xTPSWtKSSD4DLJnkqR15icw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_020_ab2240b6ec27.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YictILjZOy7IC5yb7n63Gz0bB2IjQtRhaFickRNTIBLBTneic8FyP1rV6Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_021_a22ac7fce61e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YVwgFc5NttDI30rzibtfcbiaYichKVbVZpOfJzVyvM9PZPXCRFy9icIlJ6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_022_3acf9ca05543.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YjbHPgFv0tmwmS89CI4O6hvlDSuFfh7X7vWf49RQWEQPwMYCzxlUIoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_023_149de9f733fb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YHOMUxpCEuoviab4icdNEKWv7kwfVwo4Pz3denXyOCEtibCIPwocqpnICA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_024_1977f86b185a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YvV6SXI2icOWQtWTbVmNibiagvn1czzxBiab2iaAX6ic3C7WWK0tQgzYUFKeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_025_78f0dcaebaea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y3l4QuRxicSup7wfn8oIiafcLsfNCH7j36dejaolcMSgMnN3npJ274KLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_026_e6877e1d92ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YH0Q9mOAw5CqMKP4CXsFCGcCS98ia0MB9K5OUjMQtty7sgQNPgPf7biaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_027_ecf7584db278.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y1xUOh8k3qNOzdl1uIiaW2xzUkS4XSnlIaWI052DdTSWL3VZZYJEx99A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_028_99bc7d2b4dce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YAHcbPGE2YLA0nLjJyMZ3STAXg6WlMKuovFAmjw7wFouP1AuYj4AKWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_029_9b8ff4277242.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YjTZ16QEX7AfqKbv6JmyT2gk5fFJZva1oLr7SY9Z4bTkQ15nwldibsibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_030_dc0b8283fe8e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YJcXQofnrlF2CK6IWYGPvicHFvicNLkVcwQGdnVKe0JRnH2fVfvvRxddg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_031_c54491e58091.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YsgLDHDL9aZzkhZOqK97MiaabVOIpkQU4J1GVic8KSymEcR6DXMRrAL5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_032_9ef05d99e487.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ya4vRNibgfdaWk1DRVocWyFBqYYcxsPFEPlCebTOnIicbBXIZiaib2tDibHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_033_7719bb664605.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YjEARM4nJyrtJSHQNIuHOicXj6bvwia7FjEicDhcybXM09My65S4SAEPDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_034_201cab7a0b90.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YsvpFkD8EJrBTKqWhyMy33B3k2T4eiblTm2IA90PqSnYcatfLHzl5rPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_035_2f7bd4db1b07.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YqpTDx545OJOdR9lzU2DMN5SFZToSMItcWbzqjk6J7SiacqAhGcW7dFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_036_94b14c753de4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y04NcFBbs0Sib4AxC6FIPsvpawjdbBlgh6ueOM8Zd15icSiafKm4DHVkCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_037_7c7570aa7889.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yx1usPsx6CqzRSicEve8dw2PwibXuWAro6HPkIobQZBFg21QyBJlkNyhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_038_2adf6f76fa5a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yghg1iaQ674ZuUOxszAH8tE4Rl7kCsPnrG7mDDbHQbzVMwDNIhic3yO8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_039_cf3f2c7d4819.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YGfZszTiaVM6PwQSmVzxgyssfFXtd0dbnojx4pmibyq8OpNke7wrbcy9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_040_651081634929.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YH42oVxQqmSjvrt2w18xAYbwRiadfsPlicTZlpp7euynTNkEPaj6USiaBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_041_6d34a2e22b32.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YuyGAUkZyFZgEloRxKdmBUvtdXIAQOh9nW7LlUIEnLGR0bAU38WVheA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_042_dd8f6e13eb0e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yqvl1tv0xSL7FFegL3AicujopHbE6nmmibdULxp28YVjLuVtXnG8Wiayaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_043_58da9c7f3638.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YGcFg7rJUicHz4D410BIS4v7nyQhNG0fCKpZuuVF0kzibicpZ55jmiccxLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_044_6f5c71ddd1ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y8EErIMugicX59rvkm6Fu4mYRKDzjG3gFWicMuLO3g0YicAxm7RNwYAcxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_045_01281c1d7351.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YQ8AEcc2Gn7IW7aibVV3tzIpMaslZdFBkicNoQmaxQibwoVfuZLVY7lSQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_046_06e68cadc88c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yn9bomaw3xTO5V5nXzfwp3TtzyicmYg772lrFSXzFh5Lzd7z2Fjprhww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_047_c9a7149ddcb9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YEDuCUgwiaF2xdaLjibCX9wjqe1dbYAzjIHjKtsW6Q6GBIR7XYXwlkScg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_048_99c75ffd4567.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y5tHqPlAnhChSicaXK57KJewQziaCmIKDdWRHeD0V2p4vKcibeljHLdz3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_049_bb92d3bca16f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YT5qRGKlYFMWeBiafl0hHZWia6Un8OOMXfYnB4P211ibFMfEvc2DiaEbw0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_050_2d4ef928433b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YpBweypawwz81o9qNtZzIjRm61gnAAqmBH0PS5bTbCVas7MCribVPn7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_051_4129ea0cdc35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YU0viaBcN1XiaM4oseRjSEIcnNrP6NyNiat7UNZjwWOxGMhIVUhicHrpVpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_052_a203a13b0546.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YfcR3iaT36xLFhKuACbLrzjyj1gn8EKKTrB01uVgIpUvy3rygibEdaQibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_053_b0a570a2ddbb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yare3MmgCuv6GnvHIL0QVM7ncltTIIozmoYKoGibawopPR4nqhDZLOIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_054_d06b5b7fff17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YYt5Ta5EQeNcjguyJiadicqkuKVSctXlicJUmvgHFWjz87z2tbibXvb7kiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_055_f712a4ca9f9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YI2DuziceicEgTYn65TFhVEAn7dKWnyKjGkt2nI2KTWlwmzOOq4yob9PQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_056_52de5df73c30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YVNuvickN3fBNC24s0xNiadqLYy2iaDcUTiciazbbPhkB9PicXbric8ySwW1hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_057_f910da281f7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YPqUUx56Zb69lTjwXCkScdnVPaib6ArvDJU2BR6jaZQicF5SAA9CiaI5eQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_058_1890df5d7378.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YC0r5XcTtZIqUdaiaeuicxD5h3lDn2IC28jia7l6JELwWuGV0eFzkfpEPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_059_b1f311a39959.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YpIwnticdibGNsicxLAeqLy3K7SJj1wfx8XOAlKfz4vXGqMGdsmdEbaotQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_060_ddd746ece911.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y13E5JKKyMjwrqFmY6xFPQOlSv3dkdFStej9reHFcibdiaRVdK8nDib6Pg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_061_233086e6b399.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YyhMaXAlwPC7QD6pk3cCVzB8xyUwlo1qJg9Xviaib8Hx7SibVWpPFq61Jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_062_3ba366c75378.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YyulPXkpXK6icBtuauvib8FNia56aicTt627Bic253TMtzDfYflq3ibMtXt0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_063_ec61b0d5dbe4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YWH43AgeYolEk7maI5dfzZibkV2kreDIicyviapACBicH7al6XKUxKEPXPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_064_969eca431ed6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yt9Zk4SFzjTOoQrsOe3nDyicEL58oUxkrAjnU9mlsdcd2pD676EWNqUw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_065_2b0fa0325a00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y1EYXJt8apGOfeFQOkDzHrUfic8rpNHLXjjjH2pNeLZZkQ3ibk0PJibwjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_066_af0afd88c3d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YEypTO25sGd2vXRS0G2l1qDHx2lwCloxQ85vmJ2pBFsaHnjHqaG8NlQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_067_4b7179ab0062.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YkgXtGicCSpeHe8Ou6745jbv2iaMxjlu1ED9NPDicHOdicyHx351KYxO0PA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_068_7ee538d1390e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YxgdWiaFZ2Y5TTEqdR12qa6wOSPZbpSwaaQfQWNrZdbsibuAduF1VVugA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_069_955db12fdb40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YPRBwkAMPMHsT2gLKiaZ4e6OCqcVXISFwpadJMTJ0wW6BsFDhDj340Lg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_070_68510409c8ff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YeDD3OLGb7FFrQicyExlzQqaZpiaHQ0vmRUUtoJeVGeUCznZMUQaQCKjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_071_de560738ffcf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YLEFu0ZzvwEqAWt9skJ1uia6Uxichj2EenibTytBxS7W9DGDiaOHwfmL5Og/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_072_7341a054a2ed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YRb7rC8LhFIXK4pwHXONMcvo4xuHDgTkzicvtasibVWN22AjcwVvChjJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_073_bfd229eb82b6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YOVia0ojWmZFB4Xiaic0AGRspibaH9FFAZkv3oDb61ibZXBpofjibyNRdVuPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_074_cb54a7f22edc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YVyyFXJ4TosibAVYh0yjzfb72ABlo7JGq7mu5ayaxLLC51HH7eb4ChjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_075_20c042f03aa2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YqicDRNDQw2ePiaVib9icPR5oLdj9IcrQPFXbeqP1Kiay2A2Ehyv0pw1Lic3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_076_d3d96034fead.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YSxy3QgosVAIEJyIxeSCGVRZwibuJCs9g8QBRDqXg1QKcRnvHjjJQxxA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_077_df1b50474fe1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YtibJzdJXKIktOInVMt8q6xNksoicjJwzEojyMHr74SFqZNTfVrUR45Tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_078_222027d4d9a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YmXkA0HGOPhDXDxmMMicx2OCt5qk4JI8PGxA5BYXVt03jec0ibJPBicAibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_079_34c1ff035986.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y8tv1cIbf7GF0N1ia6OA7uBxocwqJRl3nNMwCEZNRYqmk6dia43nzsibkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_080_fb15e3979f03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YBrdG1zWgvibxrW3yWwUaib3r9dgvYNzo5A9NpInwJtRibnkHwUQ1wW3Zg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_081_072ed145bc7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YES94ianzBu6k92RMSyLdm2kwxhQTlygsc2vKg8nAribwzvHbKbvFoNyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_082_65370a0444f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ysmq0MHK84RFOh7ocPLKMXfGsE04A0ZFicsDGYx0khewTicaNGDgnA9gQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_083_d4b8b775f5a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YFn1gRZibenYs14E3pk2kcBficegxAF0SDFOcPFBZX6YoEIOdfeLictZkA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_084_1ad0a890077b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YTkNicSznkGTydWrJgzue4GPgTLDpRu6qgv8SNaWNDuM1aVUgjXFv9ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_085_f619bd3c4263.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YnK3x9g5LriaN4RaGGiazUk8RQyjpbHQOic28MrAEss3aHSczyCEtMSvaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_086_e93566ea9d99.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YmJZfNwVwclcOw5xUFibhjo90svvRUUFjml7b0icLFPlBlhkhrrbZs5Tw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_087_55892b9ce1a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YyEMesEmYhvEycLIYAW6QharYVuA95J0QFUyDBHhUdsUBtlhLXMVQHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_088_47f605cbb1ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YUv07elTn2SlrlfHaN9D9o4VJD7GYnbzq688Fedsqb0yLcPLk1sQMdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_089_8ac066439920.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YxFiblvOw550UKIjbmCwicadYh4ZCPFUFv2wiatf783VR3nRE5ibUSLiagBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_090_1fe203f82130.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y7xAbBJ53JrJ9rELdgxibT7zpaQ4j5Rb11BpojIl0C4rcmf7P83pBWWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_091_ba51debad08e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YMorevEDavzEqV8YDO4IcKjhs1qbpnpsRrbzzlmDQWL4EssjnhSA28w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_092_89bb9b02934e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YWKXYWzQWib9zXU4BLhJcicG1UDRgI8EEnUtFYReqjf8pDYicMlqibD9y5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_093_c30b386230c7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YbsbFxdtribXkuq2QUqJ4sAtdbk7yqcia0P0hHFiajCb165L2n7l3bYpjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_094_9a3652c3b8c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yu5GBsIa6lhIwtL2tSPp9zibEUDicUzibAxUpDSVVHZ0rvLiasobDBOQQMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_095_405af5126c1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YibQ2CTrmj3IcVVKxCPEGPkk8t41b0ug1iaFjOc1k47xib1HlSEnOHM6lg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_096_857a7c1617f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yr2iaibsyKNRhlwdQibH3OGeDTPqYCicXKf2ab3wX7sVsFMuEKBtSRcOMbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_097_a293ef1eccbd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YdWkl13MSM199jkxhQJ5W9WQCNt06WSy95Cbqml23MUyrlDIMMImSOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_098_c0a585834388.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y7xOxX2NTsXNhesiaElIKrYADAkyXb4ZY8hqiaQSfpJtnBfr6SiahkpoJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_099_3ebb0abc94c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YMgPhhDjTZhzibw6HNTGxLNADgAqd5xWwYhiaU0LibPLjuPXLQpFq0wUYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_100_77198bbcc020.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y2ubHEheyuBkVPVFEh2v01Sd61a7Xf1bp5eibc14FIyRFgaI9icZwlo8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_101_4f292c3952d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YVwFTozfnx4LWKiarIBqC3lM1icLI5hibcAuQaibNS0ibRuXvxxricfPkxDFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_102_28e18ae5d21a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ye6rgxibAcDn0icRKw6oDRGuU4NBGZrKJEDnMUeuGd3QfdHDv6DibPoosg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_103_ed29c473ebd2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YIoicALma9A4ibFaF1gTiaQrKjwrFqDC8pDCgqgAQSHbVOsAiaKSLYkI0zQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_104_7a1b6c7149d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YALia8WJib0X2VK7q0Kj9annp2o0iacicN6kmImdicz1pIN4gZNicYnOnYKyg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_105_59024efcfc3d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YLs6SYBSPA2WbbREViaTiaib6KibXKEtSU9q2seeufXpKPicubLfODL1xekQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_106_d6ede06ccff3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YyXJaYp9wPtObia1hib6Fiaia2AU0SVR73jlOCPBydnGdicsjCm0R8oIErTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_107_5adc6c5f4ed7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YOPCzXcrI4458jSypmwialiaicjkaJiatp538mzy1sKdL7QFeLPnPytEOew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_108_cc7369b40009.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YLgokXtvut4MKfhjgbiarR1BfwciatUia0z8NGVyDRRJ0icLZQQVrkA4x3g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_109_b3ad8021e89f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y5hGEiajJr5LiaIAyxrGeYk3pia19QXX2PAlRFMOlQZqr6fKJj1kEEj1Gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_110_fc9bd11b539d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y9GjOibXsCOZiaTIrKXiarSpYCZRJyZIpQ1eOgkYxPibfS5LicZnfeoIztkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_111_e861f7741be8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ypak3IYlzVzp5kz9JpLE7EPLakR6LNEPFDjvInBjHyN9zgc2XNGvoyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_112_c93b18aebff3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YiaT5DQbEHQicbcTM6JPj9CJibvPWbZNjj384h5hxjJvFffg1HGOTRmIOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_113_8ffd6e9ec2cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yjcicr2wlicDlWpmKUmlX1JJPPX2b0xOEiaTMXqYAlyae83P0prMibCuUmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_114_8f658d0d39dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y5m3MQaXiaj4hp4vE11jyJNPAIGDYmStH8nNrHAurxAg7kpvjtf02hicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_115_5cfe1b94cab1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y2BiaEVibnnvNgMuUZlb5bkwXtD6sjfMjfYOTwKDTTkngzx617dnJaafA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_116_b500321a15d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YMuX1ZQwu8sCaszQvOm5SnD5L9cyqMyrDjiaMGYJCIUicG5vOkWpEFDng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_117_d0bf6cf103a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YYbgNoLYZzztn0XesriaAsjHa2F0B7QkQSkU06uVKVpsnaZ5xFPQXiaqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_118_b12156e096c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YYB0zEo5UoUndgqPMYHdWS4nMuTTibx5WA9Onr76pgXUNicBotYfvDicBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_119_9e3d1a648c01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YTwfNHOX9Bs3LXxd5icicL5weLAh3AicGWXz1ib1mD9tFYFvmxZFroqibyibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_120_b8aba4267638.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yn0uL3TG55yVAGd83KgbO0TjT1gxxjXTACqQQKSB8TkWUicJ8q6XDlIQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_121_fab8d27c4de9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yw0dEiac2aLqAszR42TSzZl5D0UCY5fT23942u9y2ich0q3ciaQ9lfjGlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_122_3b248371ed7e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y40UpyhQK15jKedar24JcA47pruBDic6ShsE4Yz6pXWH7vVTJeczqDhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_123_92c184af0cc2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ys5RzgmC1VJicBaRvJhYyxjTYTRBSCX8lzQ0rH2iaRZQwic0ykEBgWHGfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_124_748c08cc00d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YT0RAv47A4rjD6ygPyD5QoSkSjcjynO50MeheBnL5iaK3w22M7arEibDA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_125_2dc6db0fea1f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YBrmHkvU8suJ2icRVxJtkpon0DcXNrW6YnguKwuvicxic8XckHiaKyhQDgA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_126_92be375861b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YS4Nna9SbbnJN0Z3icxLjpI2Jz8aTkzHjr9K05TrIBgnPPU2na4iae2TQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_127_185a552a1e46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YYCSxhhjNLL1AicybjIIictVQprUBPxtQEG66Dp9bx5CYpjWQaHCSiceGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_128_7838fd56ae4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YrJJ4khlOofcE9JqTne35Mm30RIZUBkrhDCmEVKLAbD57q7jYACT4Yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_129_77140d4c7b59.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YliaRkuUsicbGmMT0ZZBiaDUVLyR1u5BiaBpFa9FeQDfm2mDjp4SBkK53XQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_130_4950ddb7ed19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YyKre3VnhZibwWMXMQeU0bCp593oTgibA0NpbB5EFhDMyajf0kHH4AqCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_131_45bbd949c20f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yx2cFGQCWgym8hWzTE62btj09oHdQ4GqzPIjI9icwayY5kftSp70r4Og/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_132_1d4e94054c9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YOm154gNxSNGKib7P65esKiaT4icI83RLceBiaes7xFMaW1XtI3P7mRwNQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_133_40faa67f7f00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YOpKnGX2SSuyK2xNVic1aLCBCX9gyGOicRmCia6t2ntRMFdjR1WquG93Dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_134_e60141a84f83.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YVVGbibSfpWuJWZgv58jev6NoBTkgXO51IbeqxJC2fQeeichV2nbKGDTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_135_b04427991620.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YcxeP6uudBic6HibEX3qJuDmiaWMb8AjkyCs0d0HQUqyCakRDJjBib7kR3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_136_9c8ffe6213d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YaIzTMB7rHBkHP19tbwPb88KoUN1p5RAUYxTdeiapib239PRDhsQYB5aA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_137_fb007490d0c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YhsXGUSYaYRl6yXZyfjia678DQmPSusYkKbPxfvzcibQicC5qF9YWeCUkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_138_d9e20b775d00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YVdkq516ibWfibiad902s7ftbvzWB7qk7N0CNQxnoAJJCKE35Qxa9wVAiag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_139_6c1014fecacf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y4edkzTBo4eg0Eyqksicf6N3D1IrYH1yUMHS43IsNRXlYucFeAJXxPBA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_140_6c1cb1442f1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yw6N40AShCkrfibxm6OHiaYNWwsAheCPdl8wx1mooNTPluBYRo58BvbPg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_141_5d92cd69af75.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YOjzA868H3reFtvgSc59Df7jI8Y3cicdnVacaytm113r5zxPUMNoeAiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_142_95c78e421fa0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yt6Wxxf926TiaoLqRA83vcS4Txc6LxmyJAKSWyPJES9hZVwJVDdBlBKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_143_5fea82148fe7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YKEmhWC7LcOLTxbNK3RmBbQPaP5uwiaoArzf2Kw5MR4Vh1BeSj7sBPrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_144_1b7dc0fe4b38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yc4Ju8WibK5kL13M5hazJEvnv1BeV3ia5WFalgJVuIRwd6QAjDWDSnpoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_145_ee06d051b3ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YGibf5aLic7X5RDF3rZqicTGJ0m9vyicY4oeMbBUDYAAt9j3uicJ5lNQ2rfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_146_83482adefb7e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YQTMHQYXkwVBV8grHUibFuyzgJ7MM5fedvc8HwJuMu9I9ol6SOQjPX8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_147_bfb4b0b54051.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YPpiccucktmRV3PPVZGDIsNjNOVZDPo2lcewibLP0IMW0ALUBUnlDO2Cw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_148_5a09ac7be825.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YukHFwCVBeb3zh4a9NALxIGRb4XFagZ7wQgYZm4VX12g12Lphlw5yDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_149_e4cdb3e3ab84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Ynt6LnxcYWEKEynXmlmjn61ykvREkiacv5tosJNQGhQuiaPWj2rYooPcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_150_47839e135164.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YOMaKRclk493g0tl25rgl30njdeQ8sFN6dsK7GGbMSmcS9ZPZwoXDwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_151_814d47a02558.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yic5MaVtEpZxtA8wtFEhKI4EPL7Y84YSnic87VcibF9Ys6bVMIszzBiaTgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_152_dc8a4098bf73.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YuTibhlKLoNY6iaxzo6QKafku0IGQldMnd39TNPAKfSQGszkPM4V9ZbFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_153_094d73b946a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y1uJIGhicUeFgcx8pzOV98Sd8fT3ibXCGBMLu4dhK6WMGn0pauCibDw6Jw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_154_fdda3375107f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yn4zp3RtlZ4jmBArbMytpu5NqyM774kAH6JOj1hfCHk25PBRFUVpZEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_155_4a27ab1984d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YMwZNaRFWibFyVDicralZ9Tv4yfqTiaX8as5rKHLpkVGLgbmmaUuicH7Atw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_156_3b56cd0864d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YRcbcVIZEsS74FAJwDLbw8XGEKmVrIFcCHLicPqMfARgK3dEOmyqVWlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_157_4e2afb409f1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YyV8SygwEic69soLTHye3BCzODMrO2nLXtVQjnvUqmuWRyMpAzuPaAkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_158_d79d434a9073.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yr3tq7TG7HfvTBdJUDDr0CG5EveTjnIGaqv8yicmBIDBGv5YSwS7MqUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_159_252efd6da939.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YEUovPFdiaiaUx25v2m8z5q3DL6Luel58PzY49WxSg8gsZiaiaOkWgNUGibw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_160_e1cd1d658163.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YmeHI3xhOCtPSGWMCiamtYLsnRibNpicXCTicMrMTvQ6aiccUeO3gR7dDiacQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_161_08247eb02f46.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YaVluR3PSN4eXibaVbiaccMPjpnxx9xkmGQyl7BjS18b9wIg7BXvQlePQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_162_f858e2a66ae0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YIC6kEra77kN8q0yDf087Q3cgajmAYR92w3yL5KNeCX4NVsEBzUtnng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_163_f966ecc3c022.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YPpSP3iaDOAZTkGZfxKWVJmE7ho5eA9zfV17VMuxvibcEdLW73OGzPyoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_164_0acda7c3faa1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YutsibsmI9bxqqkK5giaOXqvzmoEvxnOzKZx6f21RyITicvMQVAZFaQaww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_165_bc9004a62de5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yk2dXjWibwadwkLM1wHLwFChM7Gn7mfYqwB3wq3PMoD8kiakjuEwwuXZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_166_ecbe4100205f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YOMwH7k68BSKF5vLDcnYExdSic3mwyjYVnyZAE6oj8IeJSCCnw0UYX9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_167_650652e1129b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Y0XwA38O2MOXfJibUhYe3JmdXO3Pm3ThMeWCObAN9I5tcibtGQSz8dibkg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_168_0b640fc0825e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YylPWB9FMbrUyxX0psodaMetzHX9Wa9lCXfRsbvbeiaFswibgeLR0T0qQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_169_645117bf4171.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YmduiccusQmSQP8UeXlSThflvTIuzyd8TalkKWdibN49fdGLIHLS4fRKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_170_b19cb66cf9ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YqgP3etwe7ecSUfEJnB4oibfxniccCEEsKCu9BRRIJdvq0FNeQ7Ya2hvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_171_d69b9891d6c1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YHGKj8GWHp6SmddD5aoUxicRNy1TrFUMiaia4nhG1ibbETqrHqoNzeDYjfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_172_71ab95c1169d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YbGloaK4S9n47wlkGQUABfV1mbp44Rk6SfaiayqLvdcOtiaINiawdDKGJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_173_f7f8927d3631.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YbcL81mqZUibAZvMdb0dcOuX0eVUea1so7VR6ToJ32YhOILHwIyNOHXw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_174_7bd80e957406.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8Yw69N8WIVHU4mHISSsz43m01bjS3u5tOAXR9kdz4sRcm2OTBjBrExuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_175_791a467283dc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YhGhROR2Bpwaat5tWQ3qrGYc10Czcp6R1qoRE3GNlWVCOAej024KA6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_176_b276efdfe862.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YMeicVj4qSADV2ffA47jSofX9PWiaDQ4NqUALlFIHu1G3IJnP7zX0fOIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_177_8fc5d7b7c262.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YgbniaPnxOhqctYZPD9cAgTcseFrmIQaH4pFWFdib4iaBLg5hc2oTeTxLQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_178_dd84a57ad4c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YCr6ib34TKFYC6OKvnpoPyqMvubvpicNSHWIl3uUvwKTnmbp8eH3mx7uw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_179_f49cc5015abb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YpSV2tnXm1VBs481JxvI5DUIEicenDoqfP1AglJQ3cf1brEfn44YkyyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_180_7653ed181e16.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YwmqM4hbGhF7nxMMz630w12EhMT9nyeaVfkqmicWZiap7JNJ3mvxMuUAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_181_89ee1a6ecf1e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YbeXqJPU8CY6tRwceFzd7PGblmHickyjYayibKecG4rKd8nT6k4s7coqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_182_c53fa9294b6f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YRlxPThv5nN3nXWwvmy2MMdQHiaw5BBVracPyibGGBNVyjTias0chicNwDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_183_04445defbd91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YdY42n4lo7MrjqXCuWumlT3MAujWvDsINS1qffkIcnUNJXOicTibNiaIjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_184_91159b7589af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YJicRmkyQn8VmllaJQ9HuUlVRcu6y7EyEOIWIibU2KCAR5icmRbJLiatf7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_185_5492aaa0c26e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YebptjDswGsVf7jQWFmTsUC4DPFIZkHj9Ytq4aN8kzhTpGV02sJSgdw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_186_2fb5262a6b06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YP2wvItpaHJu8Xf53Cg2bc65vGaroMHdXDQ7IGCwr9Rib1YFgUuLannA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_187_96166c6da545.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmpPgVs171HuOkSQkcvQs8YjBKibroVpTWzJURdHP8Gg3vrvyn4fOgic1iaZUicr3ZtMX6BpKdrnU3LUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_188_eaa07447d962.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y50GlVu8OPBlBT7z8WiaicoFTgrakA20vFDW6lp3K5HyLs06PQCUtdGEj9gEx5wiaKsDuESrMO4pyoBw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_189_7d94623e6a25.jpg)
 
 Johann W. Kolar 是IEEE的会士、美国国家工程院院士，以及瑞士联邦理工学院（ETH Zurich）电力电子系统实验室的全职教授和负责人。他提出了许多新型的转换器概念，包括VIENNA整流器、Sparse Matrix Converter 和SWISS整流器，引领了数百万转/分钟电机的发展，并开创了完全自动化的多目标电力电子设计程序。
 
@@ -434,10 +434,10 @@ Johann W. Kolar 目前的研究重点是超紧凑/高效的宽带隙（WBG）转
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_190_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\第三代半导体SiC_GaN器件在新型电力电子_PFC整流器系统_VSD逆变器系统中的应用_images\img_191_a7ecee98ead9.png)

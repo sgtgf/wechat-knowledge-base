@@ -17,76 +17,76 @@
 
 此外，‌SiC器件的应用不仅限于电力电子变压器，‌还包括直流输电、‌柔性变电站、‌灵活交流输电、‌光伏和固态开关等多个方向，‌展现了其在电网中的广泛应用前景。‌随着技术的进步和成本的降低，‌SiC器件有望在未来的智能电网中发挥更加重要的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1legnib7LfcxQ6ClJx9Mxko65uE19vElXWOicLXs2XnuVOApJCn6m9ggZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_000_feb2cda6c879.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lt6hUt13cZ7XgvRfHsBiaebL8jzDewW0vyCticzRl8wP9dx6aJ7ENV8Qg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_001_4c89a50d4c6c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lsw4CtSCt1buDHGC3UFHt6FMpNASJucJYNP5LwTkriaDFOib9oZ5OJqYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_002_6db3e334ccdc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lnxl8OcRjGEK2yV0KQ2hzb96P9sO8mibAWa5qgkRwVoQYj1ibnVEMHibTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_003_5a8a6a5169e2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lHFEicP1HnJEo0glko7850HDRVP6tUWgB2r4W0LuJoiaHmGYWYUWYW4RA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_004_f579d7f1cec7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lzE9wmvgICfzvwicSiaxuiaXteolQP2ORRtZDBMGRN9YNul1JJngpWZcgQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_005_7b5835ed5bf1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lHV4zobjnpF4CIbQmoqQ7rxGHWQqOqRfflJKGriccxrJ33MYQ5X35rcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_006_08cfe885d0f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lNsY4iaV3dDOnoEx7ozQJzurPibZC3sFoODyVDlVh9gg00m04ru0sGagg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_007_f28bad3aa25e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1laUEW3syhVPO0v7EHIsib7wF4TVibpDeBupiak9Fk1EEARqNSg0RDW6lCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_008_575c4f2ddf17.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lIKS9GI1ndeXgWIPLmdR6ko7rRcQTFJdaGESAKgMvf5E7IhxUQcLcibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_009_314b0c0ee8e5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lUkO0iaxTkFfwUibOgo2vicCcicMYgrQcpfVhAXcw9ISTI59aEoxQxV7LYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_010_ad4308b00437.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lQETUeojPo8KUna54DIKUVyxMXfN0BOa410XuJQzN6ShXUOgTvBAZ5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_011_291b454698c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lG7sVO3bWs85AVoKDwvotPvCYCklhl6ddhM6joKP4icEn5TKP1s3w7bQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_012_eb56e3645dca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lBVZpnG1WDO5XzazNKCvLET4hmH32ibua6wlyHGwbVarzxiaGIyNLvddA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_013_6f3f7accbda6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lmEhRpsiaFkNicN6miaulnUtpJMRn3Qn3jLYxhF3u09BR0LNOBT4a8jYfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_014_aa1ffe6eb444.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lPUmL205ZD5gCRxlFflvGnOEB2VsV5V54UyCeYib8hKMSPdQHFeTeqNg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_015_4bf046825fb7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lexqyxDHzZPG2tNwgcicJibk0ibyPDYF9Lpn4ZyagSpnQ605OOGc90RNUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_016_6bc6d2829988.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lB9RGv2iaWJqMtMTsHxdyMtMhVtLRj7nKzlSKlvUiaWPOc4FoQIWawnow/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_017_92304aef8336.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lNQDQ5wv3iaBOkY7rDhDAPOOVfBJDaF0qUic1D5IhjSibQLUoP8z1MgPgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_018_ff1c6cd75b04.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1l5ZLRicxDe64UVxSa3Iv2FUkRA8pwfsibtiaV5r2QgeQhRyRr5q6bnDbjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_019_3ec891add518.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lKzMibN059lheJiawgfjpxAecnEtISFiayEjy9JiapRfg47R8ibsJn5iboTCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_020_9901889385b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1l0H6VCpuwPhm4pTia6ph0k8MTnx0yYyD2FvmgrpXJNBPSywEMfaqZ0Ag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_021_85c6e9dab200.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1l1y1rMbyUjZcCRHFhRBntEZhNdwxOMNzhu5uIpmA68FxO7NmDhhVufg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_022_227fa1924acf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1ltcsW1owfqk1L2whwq2YHYr84snk6fNFkLexFXTURZnSHjWNfkscP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_023_f7e7ac372058.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lY4uNn2DsCQnXFNCYs0YFXVia17ZSbR9LC0fInRR8IwBk1BzNw8KFdqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_024_aadd70ba3bdc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1l7QmTO9M8gVU1Qtla0bU4JC0Nu14z0onMTnwibsR5KUZGicaVHE7icyFZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_025_f0cf8a0e758b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lQ8D7VtxnOSbMhwXJlibk60Ient3lhbXKte8fJVQB0wO5EILJmHAI96w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_026_3070b824d697.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lt1OmGJNhP4WsqydGqhvme4BFcTjQbMsYWzuyic3FQaKGfVrF9fQ6gnQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_027_b7d238a8eff8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1l7RP33f54CnJw0FJVqjkicy7yZVG6WM6RZsJmiazAznPHpGP7BIFwseEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_028_90eeee674198.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1l6dcte4IEXuFRjtO5wick0icIBaax56f8gyBu28uibbyMUIxd6Rw6zX8Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_029_9489934fd981.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1lHM2Ws4IYWicsYGNT9jKM9yXg4Aut8PuiaMprXicecPMuwED1Qia1Gkf00Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_030_942cd1ee9ec8.png)
 
 专家介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnQ17me83GY7Q34WQOZmH1l0b1pjSaqibRGl5GX7u0RUeQqgrTicYKBpg7icxRxgqQD2JG92SniaRVibkw/640?wx_fmt=jpeg&from=appmsg) 李子欣
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_031_161def64a8b5.jpg) 李子欣
 
 李子欣，中国科学院电工研究所研究员，博士生导师，IET Fellow，主要从事大功率电力电子与电磁驱动技术研究。曾承担广东南澳多端柔直工程青澳±160kV/50MW换流器、云南鲁西柔直工程广西侧±350kV/1000MW换流器、苏州同里综合能源示范工程10kV/3MW多端口电力电子变压器等大容量电力电子装置研发。兼任国际大电网会议CIGRE SC B4中国专委会委员、中国电机工程学会电工数学专委会委员、中国电源学会直流电源专委会委员、北京电力电子学会副秘书长以及IEEE Transactions on Power Electronics、IET High Voltage等学术期刊编委。已发表EI、SCI论文100余篇，获国家发明专利授权20余项，省级科技奖6项。曾获IEEE PELSRichard M. Bass Outstanding Young Power Electronics Engineer Award，天津市“青年拔尖人才”，中科院卢嘉锡青年人才奖等荣誉。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_032_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_033_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_10kV_3MVA四端口电力电子变压器研制及实验_images\img_034_84aa944feb13.jpg)

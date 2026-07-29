@@ -16,7 +16,7 @@
 
 CPU无时不刻的在处理着大量的事务，但有些事情却没有那么重要，比方说数据的复制和存储数据，如果我们把这部分的CPU资源拿出来，让CPU去处理其他的复杂计算事务，是不是能够更好的利用CPU的资源呢？
 
-因此：转移数据（尤其是转移大量数据）是可以不需要CPU参与。比如希望外设A的数据拷贝到外设B，**只要给两种外设提供一条数据通路，直接让数据由A拷贝到B 不经过CPU的处理**，![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZjFVyVFZ5zibazcSTIpqdnOSvHOhab7ibic1e0zn7cUGxtJwsutmvPfVuQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)　DMA就是基于以上设想设计的，它的作用就是解决大量数据转移过度消耗CPU资源的问题。有了DMA使CPU更专注于更加实用的操作–计算、控制等。
+因此：转移数据（尤其是转移大量数据）是可以不需要CPU参与。比如希望外设A的数据拷贝到外设B，**只要给两种外设提供一条数据通路，直接让数据由A拷贝到B 不经过CPU的处理**，![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_002_2c1ede45728e.png)　DMA就是基于以上设想设计的，它的作用就是解决大量数据转移过度消耗CPU资源的问题。有了DMA使CPU更专注于更加实用的操作–计算、控制等。
 
 ### DMA定义：
 
@@ -39,7 +39,7 @@ CPU无时不刻的在处理着大量的事务，但有些事情却没有那么�
 
 我们知道，数据传输，**首先需要的是1 数据的源地址 2 数据传输位置的目标地址 ，3 传递数据多少的数据传输量 ，4 进行多少次传输的传输模式** DMA所需要的核心参数，便是这四个
 
-当用户将参数设置好，主要涉及**源地址、目标地址、传输数据量**这三个，DMA控制器就会启动数据传输，当剩余传输数据量为0时 达到传输终点，结束DMA传输 ，当然，**DMA 还有循环传输模式** 当到达传输终点时会重新启动DMA传输。　　 也就是说只要剩余传输数据量不是0，而且DMA是启动状态，那么就会发生数据传输。　　![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZ2lIicHqD7In285w5JGuAPYWXwDyv1p4qN1iauuLKIwYia8f6AejSkx6eA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+当用户将参数设置好，主要涉及**源地址、目标地址、传输数据量**这三个，DMA控制器就会启动数据传输，当剩余传输数据量为0时 达到传输终点，结束DMA传输 ，当然，**DMA 还有循环传输模式** 当到达传输终点时会重新启动DMA传输。　　 也就是说只要剩余传输数据量不是0，而且DMA是启动状态，那么就会发生数据传输。　　![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_003_727ffcb93223.png)
 
 ### DMA的主要特征
 
@@ -66,15 +66,15 @@ CPU无时不刻的在处理着大量的事务，但有些事情却没有那么�
 
 **①DMA1 controller**
 
-从外设（TIMx\[x=1、2、3、4\]、ADC1、SPI1、SPI/I2S2、I2Cx\[x=1、2\]和USARTx\[x=1、2、3\]）产生的7个DMA请求，通过逻辑或输入到DMA1控制器 其中每个通道都对应着具体的外设：![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZoJ97Tmz5aRJnvz4Beiax2OC1VKGvibGfuMg4GXqWuHiaeU6II1vXsueZg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZErkhmoo2Lj8a9HSkNxibfKZZg3EhRKdERqyZ8vl2FVAmPbjluvKum8Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)**② DMA2 controller**
+从外设（TIMx\[x=1、2、3、4\]、ADC1、SPI1、SPI/I2S2、I2Cx\[x=1、2\]和USARTx\[x=1、2、3\]）产生的7个DMA请求，通过逻辑或输入到DMA1控制器 其中每个通道都对应着具体的外设：![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_004_d33e64390857.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_005_305c4ab26ef4.png)**② DMA2 controller**
 
-从外设（TIMx\[5、6、7、8\]、ADC3、SPI/I2S3、UART4、DAC通道1、2和SDIO）产生的5个请求，经逻辑或输入到DMA2控制器，其中每个通道都对应着具体的外设：![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZdIM8qPtN9fZpytvrjHuKEuAqPt1eIPedDXZH8icrjVZmvA7UcOYGOJw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZlSf7rMYUo1Ky1w3ZK4yAtOrBGibjLuG2U36G6Ksjibic0ZB1M5QibXicVicg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+从外设（TIMx\[5、6、7、8\]、ADC3、SPI/I2S3、UART4、DAC通道1、2和SDIO）产生的5个请求，经逻辑或输入到DMA2控制器，其中每个通道都对应着具体的外设：![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_006_af7800629fde.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_007_4e5c7fabba9d.png)
 
 这些在下方系统框图中也可以清晰地看到
 
 ### DMA工作系统框图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZibPZvic7icgG7Wuciaz0fdgC7c9YcJIWC3g7HSElRibQw1mgk175oV2Kteg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)上方的框图，我们可以看到STM32内核，存储器，外设及DMA的连接，这些硬件最终通过各种各样的线连接到总线矩阵中，硬件结构之间的数据转移都经过总线矩阵的协调，使各个外设和谐的使用总线来传输数据。我们对他来进行一点一点的分析：
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_008_dcfe655d955d.png)上方的框图，我们可以看到STM32内核，存储器，外设及DMA的连接，这些硬件最终通过各种各样的线连接到总线矩阵中，硬件结构之间的数据转移都经过总线矩阵的协调，使各个外设和谐的使用总线来传输数据。我们对他来进行一点一点的分析：
 
 下面看有与没有DMA的情况下，ADC采集的数据是怎样存放到SRAM中的？
 
@@ -86,7 +86,7 @@ CPU无时不刻的在处理着大量的事务，但有些事情却没有那么�
 
 **然后内核再通过DCode经过总线矩阵协调把数据存放到内存SRAM中。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZoQI2Wale1ERNHYDpbZwiaS6hhFiaRjp5jMaV1OsPhm6Xia8byNcymL8mA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_009_e2b7a10334bd.png)
 
 在这里插入图片描述
 
@@ -103,7 +103,7 @@ CPU无时不刻的在处理着大量的事务，但有些事情却没有那么�
 4.  **DMA控制器的DMA总线与总线矩阵协调，使用AHB把外设ADC采集的数据经由DMA通道存放到SRAM中，这个数据的传输过程中，完全不需要内核的参与，也就是不需要CPU的参与，**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZTef8WO4nkjXooGMUiaJHZvvwV7bY9MqtFkSfV1DtIfSExoaPunYSENA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_010_482e1002e8ac.png)
 
 在这里插入图片描述
 
@@ -130,7 +130,7 @@ CPU无时不刻的在处理着大量的事务，但有些事情却没有那么�
 
 ### 仲裁器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZROiccIeoY1Tg0s9SxmWLpZSbc2ibBLm1wFJ3zxbcP5XTfia13201zA2Iw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)**仲裁器的作用是确定各个DMA传输的优先级**
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_011_0410058fdb66.png)**仲裁器的作用是确定各个DMA传输的优先级**
 
 **仲裁器根据通道请求的优先级来启动外设/存储器的访问。**
 
@@ -157,7 +157,7 @@ CPU无时不刻的在处理着大量的事务，但有些事情却没有那么�
 
 8 个 DMA 控制器数据流都能够提供源和目标之间的单向传输链路。每个数据流配置后都可以执行：● 常规类型事务：存储器到外设、外设到存储器或存储器到存储器的传输。● 双缓冲区类型事务：使用存储器的两个存储器指针的双缓冲区传输（当 DMA 正在进行自/至缓冲区的读/写操作时，应用程序可以进行至/自其它缓冲区的写/读操作）。要传输的数据量（多达 65535）可以编程，并与连接到外设 AHB 端口的外设（请求 DMA 传输）的源宽度相关。每个事务完成后，包含要传输的数据项总量的寄存器都会递减。
 
-DMA\_SxCR 寄存器控制数据流到底使用哪一个通道，每个数据流有 8 个通道可 供选择，每次只能选择其中一个通道进行 DMA 传输。接下来，我们看看 DMA2 的各数据流通 道映射表，如表 28.1.1 所示：![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZdTib6H9BlCMQDYXfaX1qmW1TwMaMAl5nm3aDoMPVicxMziajkKqoyZPHg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+DMA\_SxCR 寄存器控制数据流到底使用哪一个通道，每个数据流有 8 个通道可 供选择，每次只能选择其中一个通道进行 DMA 传输。接下来，我们看看 DMA2 的各数据流通 道映射表，如表 28.1.1 所示：![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_012_ecf93140a70a.png)
 
 ### DMA 传输通道
 
@@ -187,7 +187,7 @@ DMA\_SxCR 寄存器控制数据流到底使用哪一个通道，每个数据流�
 
 **每个DMA通道都可以在DMA传输过半、传输完成和传输错误时产生中断**。为应用的灵活性考虑，通过设置寄存器的不同位来打开这些中断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZmG2M1VbPJMXaBUky5ic62eV9PRlibaxUZEttoehYOJHpvbiaG4MrkgsCg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)使没开启，我们也可以通过查询这些位来获得当前 DMA 传输的状态。这里我们常用的是 TCIFx位，即数据流 x 的 DMA 传输完成与否标志。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_013_f34160723de6.png)使没开启，我们也可以通过查询这些位来获得当前 DMA 传输的状态。这里我们常用的是 TCIFx位，即数据流 x 的 DMA 传输完成与否标志。
 
 可编程的数据传输宽度、对齐方式和数据大小端 当PSIZE和MSIZE不相同时，DMA模块按照下图进行数据对齐。
 
@@ -209,29 +209,29 @@ DMA配置参数包括：**通道地址、优先级、数据传输方向、存储
 
 ### DMA中断状态寄存器(DMA\_ISR)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZS0iaXAOP9xuPGaBhdzCKyLRlsGB3ccRd4s3qYK1NiaMyE2O5IywVVphw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)我们如果开启了 DMA\_ISR 中这些中断，在达到条件后就会跳到中断服务函数里面去，即使 没开启，我们也可以通过查询这些位来获得当前 DMA 传输的状态。这里我们常用的是 TCIFx， 即通道 DMA 传输完成与否的标志。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_014_612dee51630a.png)我们如果开启了 DMA\_ISR 中这些中断，在达到条件后就会跳到中断服务函数里面去，即使 没开启，我们也可以通过查询这些位来获得当前 DMA 传输的状态。这里我们常用的是 TCIFx， 即通道 DMA 传输完成与否的标志。
 
 **注意此寄存器为只读寄存器，所以在这些位被置位之后，只 能通过其他的操作来清除。**
 
 ### DMA中断标志清除寄存器(DMA\_IFCR)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZ1icTBh5HomNgBade8XMWIPxLzCUbcZNwyafNhVl3FKXjr4cHfgF8sibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DMA\_IFCR 的各位就是用来清除 DMA\_ISR 的对应位的，通过写 0 清除。在 DMA\_ISR 被置位后， 我们必须通过向该位寄存器对应的位写入 0 来清除。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_015_bf5b2dd815e2.png)DMA\_IFCR 的各位就是用来清除 DMA\_ISR 的对应位的，通过写 0 清除。在 DMA\_ISR 被置位后， 我们必须通过向该位寄存器对应的位写入 0 来清除。
 
 ### DMA通道x配置寄存器(DMA\_CCRx)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZzGKumHn0iapgsGg53iafj8fjzc6Qlgay0UoicicSmzoTpfYaV1pIHCib96w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)该寄存器控制着 DMA 的很多相关 信息，包括数据宽度、外设及存储器的宽度、通道优先级、增量模式、传输方向、中断允许、 使能等都是通过该寄存器来设置的。所**以 DMA\_CCRx 是 DMA 传输的核心控制寄存器**
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_016_530153f62b85.png)该寄存器控制着 DMA 的很多相关 信息，包括数据宽度、外设及存储器的宽度、通道优先级、增量模式、传输方向、中断允许、 使能等都是通过该寄存器来设置的。所**以 DMA\_CCRx 是 DMA 传输的核心控制寄存器**
 
 ### DMA通道x传输数量寄存器(DMA\_CNDTRx)(x = 1…7)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZs6T6Rju6Jg48byjGBPVcM4iaOrwgabQcRewAqANWsDJju0LrJO3IiatQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)这个寄存器控制 DMA 通道 x 的每次 传输所要传输的数据量。其设置范围为 0~65535。并且该寄存器的值会随着传输的进行而减少， 当该寄存器的值为 0 的时候就代表此次数据传输已经全部发送完成了。所以可以通过这个寄存 器的值来知道当前 DMA 传输的进度
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_017_b9dbf8024a56.png)这个寄存器控制 DMA 通道 x 的每次 传输所要传输的数据量。其设置范围为 0~65535。并且该寄存器的值会随着传输的进行而减少， 当该寄存器的值为 0 的时候就代表此次数据传输已经全部发送完成了。所以可以通过这个寄存 器的值来知道当前 DMA 传输的进度
 
 ### DMA通道x外设地址寄存器(DMA\_CPARx)(x = 1…7)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZibPBCkOiaDL6LTVMaSSbIW2a43BHsTypMbIxe7612v6iaO5F2ETMVxL7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)该寄存器用来存储 STM32 外设的地 址，比如我们使用串口 1，那么该寄存器必须写入 0x40013804（其实就是&USART1\_DR）。如果使 用其他外设，就修改成相应外设的地址就行了。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_018_70ee7a4296a0.png)该寄存器用来存储 STM32 外设的地 址，比如我们使用串口 1，那么该寄存器必须写入 0x40013804（其实就是&USART1\_DR）。如果使 用其他外设，就修改成相应外设的地址就行了。
 
 ### DMA通道x配置寄存器（DMA\_CMARx）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZicotxuodsMwfq1y3mDw0VwgDcjpe89Iug4UUTgv0Riby9zbP1nriaHfkQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)，该寄存器和 DMA\_CPARx 差不多， 但是是用来放存储器的地址的。比如我们使用 SendBuf\[5200\]数组来做存储器，那么我们在 DMA\_CMARx 中写入&SendBuff 就可以了。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\搞嵌入式_不懂DMA_笑死人_images\img_019_bb2c0fb6c5c0.png)，该寄存器和 DMA\_CPARx 差不多， 但是是用来放存储器的地址的。比如我们使用 SendBuf\[5200\]数组来做存储器，那么我们在 DMA\_CMARx 中写入&SendBuff 就可以了。
 
 ### DMA寄存器配置流程
 

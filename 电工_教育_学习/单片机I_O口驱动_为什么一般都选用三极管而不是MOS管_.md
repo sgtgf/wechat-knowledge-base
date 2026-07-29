@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoia3Vj5CEbzjsHKco5ICLIlzxKcx8TBWh9WicwooeCX8yW03dPbyjaxC2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_002_fa6cf8c7a5c3.png)
 
 图1
 
@@ -50,7 +50,7 @@
 
 3.3V电压肯定是大于Ube的，所以直接在基极串联一个合适的电阻，让三极管工作在饱和区就可以了。Ib=（VO-0.7V）/R2。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaftE3cegFe4mUaVabLI7GhsYiczxmNyJcj4LdPk35atJUakquR7dkb2g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_003_c70b9c16dd63.png)
 
 图2  驱动三极管示意图
 
@@ -70,7 +70,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaEt9asXvuMibCdBnickg6ZwjzKWiaI9BzO9F3Sbj8WxrF6f8gLn0L6KJeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_004_dae9eae81839.png)
 
 图3  I/O口驱动三极管后再驱动MOS管
 
@@ -98,7 +98,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoia9qVv4oia7p1u1QQb3A1bVGJqibiaZ6qAqBuWicQicDGe74IYyLticeLy2mmg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_005_d1f3ab3c0466.png)
 
 图4  DMN6140L-13阈值电压
 
@@ -106,7 +106,7 @@
 
 这个管子的阈值电压是1V，3.3V的时候可以完全导通，导通时的最大电流大约2.3A的样子。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiamjXruO5Mr2hjibHfFTH0lN482sBpGvKBTW0fs5UQAVS2iab2FukDI2kw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_006_99272cb3dceb.png)
 
 图5  DMN6140L-13导通电流
 
@@ -114,7 +114,7 @@
 
 我们再来看看，常用的NPN三极管LMBT2222ALT1G的带载能力，最大电流IC=600mA。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiaUsU7wXdjZ8AMsa4q01AlBibHiar9qvdQI8GofA3EDUHibhujhrzk89ZpQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_007_08348e22f452.png)
 
 图6  LMBT2222ALT1G导通电流
 
@@ -130,7 +130,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoiamUHn5NGHf0ibvIhNfTXw3TlKWdZduxU1Rlu5BdewnUvzOsklgn1OHmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_008_c00b081a42bc.png)
 
 图7  DMN6140L-13价格
 
@@ -138,7 +138,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiadbsicObFyMeHG31ZMibWEoia3pbf21uPDbD6pDO9oIrYuvZII6ibmvia0KGuUZeooGneaoiaicNFDiamFHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_009_20027e8a068e.png)
 
 图8  LMBT2222ALT1G价格
 
@@ -183,4 +183,4 @@
 
   
 
-****觉得内容不错的话，欢迎分享，点赞，在看******![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FN0h1dvAiaKt7ITP9EYBbIyOGvA1H5PkiaL9NQSoDNoq7Y5kBH8qNziaIYhBZyFibBqNXRHh3ZukzICvg/640?wx_fmt=gif)**
+****觉得内容不错的话，欢迎分享，点赞，在看******![](D:\电脑文件\公众号知识库\电工_教育_学习\单片机I_O口驱动_为什么一般都选用三极管而不是MOS管__images\img_010_642a876b39bd.gif)**

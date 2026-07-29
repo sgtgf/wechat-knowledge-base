@@ -8,57 +8,57 @@
 
 作者：F. Krismer and J. W. Kolar
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPg1gGaurDCIDaib1DMHQDLYibQhwTr69Lab4LW7W1ZTJgw5DA4gltMddlo3wRVlajf8RZOLZ5YnOPQxL70B34e1w2uIcjJBqQfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_000_344cc35482bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPNib3fwIwqbzz1yptQqzm6vkJYUtjiafCuMME3yOtkicMrxXeZxHcickxHWszUbvuOlFz7ibrXuRiaaWnM52lhL1vRtGNcFV4tavIUs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_001_dc95e660239a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOV9UC7qL5ZsOTrkhAsXcn2X3ua2FQoaWbghQ6BZBFWEn7TtECyYe22gvHhDs4emB0Ibv1NXyRUtD8yfHMDFxVcNv7zJcoqdgs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_002_05160e33bcc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOWC4lsPC0AH8X10ZZslGpmZ1CLDicF59r9m9SeUQJ2cNKMoDBFd2Io6prYughK9qG51vww8hsTDT3rI4wEwgjw8gyDLvACSDl4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_003_ce1e0c2746f6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMKMbiaoqXrssakdpaxTWRkNrVgohO6TXkeQTGnzib8ZO36GIUHbKbofGhJAfKrSRDzDk99N5MnibnYyqJrZbm5BBZDZXbiaeiajKYY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_004_a0d00b5a0d65.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOnia3BZMlXQ2bVviaJQObY85srGwib4wibQRYq8yntV9e7pPe9iaEpbibMPaSAfG57KL7x4wSbUX7MNrZichgZaowyEAuGHL9sa009g8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_005_aea8e1c43329.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMOg73nib0ZQ162vmFKtty8NnYpuz8PpqZziaicHFZTRjIO07DBRVcLgicQwpdEZqmfMmSQM9mFVrOUYjpUKEH1T3qmpyycEV78HwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_006_61bd4ff37f88.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRQ5aWA7GOlhEiavSibPSBxsTD78LP9ZmKl1lppskiaOibLoOgib3HjwSnKbshic1VaO3csUh02GEZcT6eEsq5ibMtnXssPItHpVUrzg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_007_ad18167da050.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMz7flYIqhmFBNZjUgReGPpVpUNPcah0WM6iam5zAbOHkadDM6HekkOCia0miciaiaI2gjzYJFzKlP8pxzzarVTt0m02efzBt04FTdY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_008_ee752dc2ddf2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPj4v7ibwadvexml3CA5b43WloTGOYxZCONnxSeycqTLyjTO2VHI3nulHB1V0jPsnnrM1778qbBHJvibyibgeyELYx4zsYaGvxibMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_009_1b93fd5656f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN8K8hduvGR7WVL4QibjOZMfqUZkNpzWazV3vnI247yQ4bibfVtVqYic1LvrQr0yicE4hrjV6Dp3HTwHibFNIXaNT7Xuo2fhJPnqsE8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_010_164d5131e767.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPxLhbHQ5UQLeT4I8W4ztuk3ga0Af7NxWBCyQ6eGosuZHsPpY3ZBiaDcODu288nxDu2NicayeHvvoq9libLOqOVxeDTBicC20BicHXs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_011_c72874b7f092.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMtgIBcGqSicQ1Z7d1V6IH7CTo142vU7ry8MPsAJBbRTnibaOgZ0qkMH1UstIk0adJOUqsCACjtdiaUZGInAbBwod6MyGwStdupvo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_012_2f7f476c78a1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPdSmBMdqLUlHDPUCo34hRWCib1DO8jk3riblObicaTLFxZoCByQkib52bS3W5Tmb78h2OoUHlAntLtdtT2EtiaDUVT3kSf3Hn7QNQM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_013_e48de68ffdcf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPjk9RBEjNiaicVEY2t9JBH1WCJgrmdx5WqXuwNrBrpxicb42w07la2icoKuwfZkyibah6ZuQ3SBTD2u3dgouAeJA45rxleJ0ztulQ8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_014_de6a00374d82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO8aSs1gdCsrSD71AepKiav6BcyNEbeRoK1gT1saTdat2TkWl7SqOb2j66AksdcSXWex52YAK3zrqRJxwDJ1WF0OJnJ9l9o45A0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_015_1d22414ed84b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNE5549vh1LuyasEEII7K2Q9L5RaOgUicLibcb3orzg9D9DJWCcKVE0f7batibdokw7B79lAibfxibsWD63ACib0QOCQ7yboiamXfuOKM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_016_279614603f51.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8oZxzictvBkHwyrHcoTcVUZOTTs5dibhFGtwPwhicmQN4TGKiah7tsRfxXTFQqS1qHX0yvVwybKHJzxDWJ2nq8EJAT9SlUXdbROI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_017_2253c613a56b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMWFPhfl3iaSzVZY1W5ezAx1vqxXicHaplTSGbDPnia9WCMZS3wskj3hkjmE4BfLo8eHKibGIZr05gENs5npHdJV2ItUA2mBDJyVnI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_018_7ff69e58ac2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM5fQ3dgAz0Ig0l2o1Y9Ng2tHGU1icZmObkDibkubefgDOrQ3XDbiah3eia1dO7OPyhAicqv4TYTx9dTUs0YQic2t0DZETS6KgQpC8TM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_019_5afbaeddf7ef.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNjMFWYQCiat9UblB69xb7npNLlZ3XHibiaiaic3n4sdXjOP68AuIReRjJRfgr4PpFGlxwBzskAsoDaRAfFLlBS01wkFicjrciay2LibPo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_020_97a84a09d232.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPfibkYuw8nhUOPvlLPGu0gX4X3bvpSaB2McdTqtP7qQdGvmbusoDIPibsBlOZLbluYd0TmFOJna4qbZ3iaAz1eu51xh1vXiaZrMics/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_021_a6fbd7517b28.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMzEicPCn4jEWQicVRPE8Dy76PKdJibliayv1ygK6QHYBn4FyVZ8hDUXt3x99IV9vBkSBOaps7tZAED2iay2ejuG89DyIibKqQLmgcf8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_022_0aff4078c941.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNn8CO4SicMvJQfOjz8a5TEkUmiaJS8GGQLHfLAXkIIYVQDQwGLjibR3scOoNA8RA3Qic2cIsND3HTjvDfbWvcveicicictAuP1eF093A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_023_10cd9bb55b92.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPAhR1ZUlvgziao3R4RPU95Q2ybHXy05gS6Cpr7S5NHaAJpaibMQlE4mg5yZRrSdeKEPMSk19RO50LLcCsee738pr7KXgSAMoaiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_024_eb452b3197bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPqHxQM8Eb7uPicEAggXu0aicOEGID5pnpUHSbbFiaaRfjbvY4hUrobLMHLNKZqjLxKupH3EKQhfRAvhNkpInPned3O8iaUP4HmQjU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_025_91764abe9482.png)
 
 注：文字与图片报告无关
 
@@ -252,14 +252,14 @@ SiC器件在中压高频DC-DC变换器中的价值不仅在于“替代Si”，�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPvr8ZqR5US9ViaVWlWX78Of3DNjBMXTsLjzOYQLqj8Ee6iaRtxaDdhjsuGs4LafYJich22TPYbnK7WCeZJcvmkaPHkg53fiaLEek8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_026_e212572a8e4b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMb6q4H7J29q8EEovx1ibOtU1vvLTFYqxlqP6vQjRSxnhP4VFdice16LRjOiadkMgRjrumu2ERiaqVYDOibdDAyHsSTp10icz3OFv84E/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_027_298d72e914c7.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM7a1E47HWDsNpbW1NHxWlvHTbMgSAYjicL4BnNJmyO82GjOeJhjK1cUDuSZCNuZwcPjcVGPglkkLiaY07oicibG9ckBLwCkIbMpCQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_028_c2efe71bc01a.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOu6GBtA1iaq0SVlfe00undwLYn0GFID0TYasHVt4TXPe6qvg03m5DCUqbNwVqEYb5DWERNtqribE13weV1ZrpBHUydyVqTHuMSU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中压高频DC_DC转换器_images\img_029_c06735221757.jpg)

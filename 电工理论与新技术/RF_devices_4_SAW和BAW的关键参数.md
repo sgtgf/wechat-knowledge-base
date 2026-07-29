@@ -3,17 +3,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/sHzMUN6B5Ild9H6zB8DcXA](https://mp.weixin.qq.com/s/sHzMUN6B5Ild9H6zB8DcXA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRvCGtpAHL6cicWQCllqUJD8rlcqPmFwZFnyf7v1Orj2IbVIVnPdjovUYZGLRQnvkoRgtK4WN5rLZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_4_SAW和BAW的关键参数_images\img_000_b258b38b0c93.png)
 
 ____**★★★**______FILTER-4---BAW______**★★★**____
 
 引言：作为最常用的两种无源滤波器，SAW和BAW可以用同一套关键参数来评估性能，本节将简述SAW和BAW的关键电参数（超长文字预警）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlRenPTTygOgy23cJ7hsjtL5FMLYZyRktnlicQicFlm0twnaoUdzgEDWbYEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_4_SAW和BAW的关键参数_images\img_001_90c748cb1d7e.png)
 
 **_图4-1：SAW滤波器参数_**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlReBLLhK0KWthgkN0DsUwEXj9QozXY9MKCgZQVX8c1g5jNuuRmibFZtiaeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_4_SAW和BAW的关键参数_images\img_002_4ae9e3c72219.png)
 
 **_图4-2：BAW滤波器参数_**
 
@@ -21,11 +21,11 @@ ______€1.___使用频段（滤波频段）___
 
 如**图4-3**所示，滤波器都会明显标注适用频段，作为一个带通滤波器，通频带以中心频率为基准向两侧延展。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlRe0sxia3gNia8SO7JP9tlLKwgX7jxThyMvUneGK56yiaju9NL3jdlnZTLEA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_4_SAW和BAW的关键参数_images\img_003_00fe28361597.png)
 
 **_图4-3：滤波器的工作频段图_**
 
-**_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSF7HZghbMNRCHH8DicYAdYibkTZLicC1fEXHJGWt71rOqFeCoJIY6Nt1AT9mK0OnRHicDDeZG6hcwOJg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)_**
+**_![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_4_SAW和BAW的关键参数_images\img_004_4a26ada03294.png)_**
 
 **_**_图4-4：典型的RF滤波器响应_**_**
 
@@ -45,7 +45,7 @@ _____€2._________输入功率，直流电压____
 
 在系统设计中，需要根据信号源和传输线路输入功率要求来选择合适的滤波器，以确保滤波器的稳定和可靠。同时还需要考虑滤波器的功率容量和性能特点，以满足系统的整体性能要求。在无线通信基站中，需要根据滤波器的输入功率要求来选择合适的功率放大器和天线，以确保信号的传输质量和覆盖范围。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlReMcD0NQCZjrhuvtfhN54DYe8313laaiag4tqcbwJFApgCVjd1ia6DdI9w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\RF_devices_4_SAW和BAW的关键参数_images\img_005_9de87175a9b3.png)
 
 **_图4-5：滤波器参数_**
 

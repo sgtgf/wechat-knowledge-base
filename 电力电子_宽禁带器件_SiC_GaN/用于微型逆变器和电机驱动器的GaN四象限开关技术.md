@@ -12,45 +12,45 @@ Huang, Bill Cruse,Peter Smith, Rakesh Lal, Umesh Mishra
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicBoictRCCOTkVKPibBfHwG4WhTUppS5Ec5NPE2kMTOHc9Uf0Wu4DFmSGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_000_86ee529b4551.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicBakbn6888xpJXOQpsXw2TcdicJzPMcBNVWgpgzqial5d3xSpfuF1VU6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_001_efddb1743d38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicleqCeoM7IEib9h5Ju7DEAncRy4O6u0Zn7fKNGniazpwZ9Fx5PrZO637w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_002_dacdeda94832.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicQgwUXY0T9IOmkwwy3TgFQicE5DY1CNhOEPYCJXFYOlhnOwkvVkq7A8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_003_febd3f1d56c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic4ycz7qsicnjf4lV3ZzWbDMX6sWhStAiclna1ibVFUqdgq6A7fAM2ibjLYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_004_f6ea3c79f748.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicOPRXg7fkE6DZl1JzU2Yc4PvP3GR1ze0ydoxyLNKV5yt6Jf44Zp2RsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_005_1febd8df96af.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicduUp92sFKCQgZCgvRbQ5KE9Ps9Wn6N4EGgY5W3asicMWdl32mmj81sQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_006_79421a8bba0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicJfyHdvsiaUUkdTv6eVcD3iaGofxsoa7WeB0nvX1jx5P4lFYD9uIMuRfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_007_a2553ce6257b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicWUN6zzMkicNibR8fQl813QJoUVeVDOSlCzVdPX2QaTAdYuIqibHasB1nw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_008_217a205feeba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicBx4DOlhIC7D8gw8K18BMOjPPgn3s1DcjTPvwVlWibBabdAjNW5ujVvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_009_9410977bcd9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopictgm8icIxpTOibFu6n3gZibW9ksdRy8HswMOibB4iaRiarZzOkMvwgoBIKP1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_010_57c98c2d8b43.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicSSP9VS3vkFsiakc9xnDtkbqiaXreMkgZrgK7tzuvxYbwLGSVJ2NGvEbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_011_0f8539c5e7ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicWf2EbNkUQqGDxa0HFszpYgU389Jvk7ZNSuXZ7WnnFbXBFyjQFO02Cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_012_65a43b5a58de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicib2qCqZEu1h8IuHjHDj0YRKCQiaIcEbqnjUMKOL45BVkguWaicicicGaz8Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_013_59a27f175d9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic23q5HZZHtuXAoEJKyQibib6SyZ24qF2aTDSxibN4I7bqESnXsia8JM906g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_014_7afacf5085bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicPRY7OP6DRGIOL5kMQg5sxzd7XWoQyDMVx5dLO2m2H0NBQkFqNwf2dQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_015_67fd6ded27a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicmj5Q8EPbPI2TBVcZUPC3fpXzYicBCZUfMkXfzZaQpxPHqeRVibxNJmAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_016_0a249c3a1fa2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicMibj2QqiaaZVGEe1IkT7D8zTJib05FlUtOJEx4Mpx2gZjVf1jgVnCvABw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_017_0226347ff63b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicSEgjWR873NzRia0TfnPkgsibTQbXdyEvCWdb2I3ibHBJH9y67Vl2IPMDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_018_63333f556871.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicqzeyNVTDzE1FFgjfhsl7Qpbl10ARbBdr0aJxeuLKbSdWjRAFLI71Yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_019_f17306292a30.png)
 
 注：图片报告与文字无关
 
@@ -210,13 +210,13 @@ GaN器件的栅极阈值电压低，耐压裕量小，需要**精确、稳定、
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aJ1MUTicI0GuiauhfoebWumUgU1Qu9ic5Xniaicbkyl3gyFlO0cbmDfmBLiaQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_020_fe069fcfb36e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a8crJ2L7M4OX17Szb34FK5JlibMciajPSibAJ2KVAIic8moa4vRiacc5rbCw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_021_bc2989d2aff2.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a48flZW0nqjIpO5FVkvY9NUDp0sHzB0BgvVskic0uVzn30TaNKvXUsVw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\用于微型逆变器和电机驱动器的GaN四象限开关技术_images\img_022_3fde635b287d.png)

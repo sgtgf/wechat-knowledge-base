@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/4rUvPByN3Eap\_NvdKC9K3g](https://mp.weixin.qq.com/s/4rUvPByN3Eap_NvdKC9K3g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSrfKib8AibPT9IcfgAInIag1r03BVVGNnsz93npt47Qhlic2C5eU3pDxFZ4lvHXmIV7ZI2r3ofdtK1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_000_78a23ddfb5d6.png)
 
 _★★★__SMC-3---Series____**★★★**___
 
@@ -13,27 +13,27 @@ ___€1.串联电感___
 
 电感的归一化阻抗由下式给出：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZrZEcCxeEhpII0VGU1bGLl5E3N167L4XJpOwzAjrmiaCeTxJlSgaWH4ng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_001_7c00544dd1a6.png)
 
 其中f是频率，L是电感值，如图3-1所示，讨论串联电感对负载阻抗ZL的作用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfgpnjAn8YW8DNqlXUnFloCem86G9cwbuyzhFZDuKyybCDKdSnzRB1Wg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_002_f4d7d36bb74a.png)
 
 图3-1：串联电感器和负载阻抗ZL
 
 在数学上，级连阻抗将相加：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZr0ZDialTkLic2ggtbBUh0TOZhwxULuuEMt0AYtP89AMFuKqEzrBwbzJCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_003_ee9a574de3cf.png)
 
 可以看到串联电感将沿着史密斯圆图的恒定电阻圈移动阻抗ZL，因此如果负载阻抗ZL的电抗（X）为负，那么我们可以使用串联电感来抵消该电抗，使输入阻抗纯为实数。
 
 例如当f=1GHz时，设ZL=1-i2，然后可以用串联电感抵消电抗，如下计算式所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZr8bZ7cqoLLRbiapOPacJ0t8438tuwM2LrP1JJTZq3DIqgh2IezDe1ia3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_004_f23efc4908b6.png)
 
 表明我们可以用15.9nH串联电感抵消负载的电抗，图3-2中的史密斯圆图展示了这一过程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKf1RMpTiaVllCSachG1jcTpX8kEqswicuhHF33DMV9Huiagwn8Q0TCNO5rA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_005_384a8d695007.png)
 
 图3-2：串联电感器匹配负载阻抗ZL
 
@@ -43,27 +43,27 @@ ___€2.串联电容___
 
 电容的归一化阻抗由下式给出：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZreB4GUaWmuzFNrkJDU8hlXFz1YyicvNzOrn3wsvcfvCbLcxaicBzx9x5g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_006_4bb5cc5305f1.png)
 
 其中f是频率，C是以F为单位的电容值，需要注意的是，电容会产生负电抗，讨论串联电容对负载阻抗ZL的作用如图3-3所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKf0F1VedbH7MnpFLdzzQWCfAkFQkvFmamF5uyoRYexspmH3rCSpSYrbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_007_50f231a1c666.png)
 
 图3-3：串联电容和负载阻抗ZL
 
 在数学上，级数阻抗将相加：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRLH62pJueiaZibawbbZ71g2PUF4OeialVic7gpgELR6wEVicjXQBVicISIosBBaX3285Loy34iaic1u22kaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_008_cbe6357e12d9.png)
 
 可以看到串联电容将沿着史密斯圆图的恒定电阻圆移动阻抗ZL，但方向与电感移动的方向相反。如果负载阻抗ZL的电抗（X）为正，那么我们可以使用串联电容来抵消该电抗，使输入阻抗纯为实数。
 
 例如当f=500MHz时，设ZL=0.3+i，然后我们可以用串联电容抵消电抗，由以下公式确定：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQCOnLyPY3eWD0GicWTDmaZrFp2bRCB0PXQM7RzXdJKianI5OK1RhksaiatyHdsPib0walAtef44ia5vRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_009_4d7bec991b51.png)
 
 表明我们可以用6.4pF串联电容抵消负载的电抗，图3-4中的史密斯圆图展示了这一过程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ9tFNfQ2CBc8xzD962MKfyqib868wxQmicQY7XjUJRcBBYibeHF1pBh9an3uhZTo2xrchLWI59laMQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Smith_Chart_史密斯图圆和阻抗匹配_3_images\img_010_af2e1fe83294.png)
 
 图3-4：串联电容器消除负载阻抗ZL的电抗
 

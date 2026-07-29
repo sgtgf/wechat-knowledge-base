@@ -20,7 +20,7 @@
 
 先讲个真实案例：去年有个朋友做USB3.0设备，信号老是断断续续的，折腾了两周才发现是差分线阻抗没控制好。然后重新打板子就好了，耽误了项目进度，老板脸都绿了...
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnlUc0ZLjHy32m27DVicxAxLC4JmmEaVGluxMNQURC4NSqibhVYvOz1buA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_002_c1ef72929270.png)
 
 你看，**差分阻抗控制不好，钱包和心情都会很糟糕**。对于USB3.0这种高速接口（理论上是5Gbps，相当于625MB/s），差分线的阻抗匹配简直就是生命线。它直接影响着：
 
@@ -38,7 +38,7 @@
 
 这里以表层走USB线的差分微带线阻抗模型的参数进行描述
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhncDlQIhM1DKG7Cua5wXnQR2CtL4AFTJAlfFBd5W6JzPdIkGONnrOeNw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_003_f0423d62d32c.png)
 
 看中间PCB示意图，对着右边需要填写的数据，咱们挨着来解释一下：
 
@@ -78,7 +78,7 @@ CEr:阻抗的介电常数（是固定参数，由板厂提供);
 
 假设我们使用常见的4层板结构：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnarEciaFM0d645WnkXVYYnoiaVt2IM9VKt8kNplMr4h4ozUe9TVfT2MbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_004_cf87e3f9301e.png)
 
 -   顶层：信号层
     
@@ -95,7 +95,7 @@ CEr:阻抗的介电常数（是固定参数，由板厂提供);
 
 1、选择模型：**"Edge-Coupled Microstrip 1B"**（表层差分微带线模型）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnfjVjbWDV2DVcMVaRBAK1icBicicTjPUqnxyORFvPIbL3rkITEEE8wl3pA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_005_dfb99154154c.png)
 
 2、填写参数：
 
@@ -122,7 +122,7 @@ CEr:阻抗的介电常数（是固定参数，由板厂提供);
 
 ### 第三步：调整参数达到目标阻抗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8Ykhn5DIqpquGVqF2Welpibm4NbKuQFsiazULfH2fVx1PBrgolicxYjNNgrmSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_006_ec22812876ad.png)
 
 第一次计算可能不准确，需要微调：
 
@@ -164,7 +164,7 @@ CEr:阻抗的介电常数（是固定参数，由板厂提供);
 
 **4、****过孔处理**：尽量减少过孔，必须用时旁边加接地过孔。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnwDfSLx8alRVJkc73Bvmic85uEBoaKJQb16NsL4iaybcicPf0XQloQhqSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_007_8310131d717d.png)
 
 ## ②常见问题解答
 
@@ -202,13 +202,13 @@ A：可以，但需注意：每个过孔都会引入阻抗不连续，要尽量�
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_008_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_009_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_010_8f8c22b4fa63.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\最近在做一个USB3_0的板子_我是这样做阻抗匹配设计的_images\img_011_d5dcc7ecfdf3.jpg)
 
 ## 
 

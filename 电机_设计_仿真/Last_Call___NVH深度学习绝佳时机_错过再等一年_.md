@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/tbWPOKppDM7ubjITELxG3g](https://mp.weixin.qq.com/s/tbWPOKppDM7ubjITELxG3g)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVZ7SZ8nWvYw7AsnVx9clp5P9cp4TmR4p8fzTzliciaa8qtXyB6ztejZ80ia5eUwticuznGRdY6EF1DpA/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643509&idx=1&sn=b9398bf2ffa2681e6194979eea468645&chksm=88bc373abfcbbe2cf3624ab757cd5ec1d257d61902fb62b97618db9db195c43fa50000070d92&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_001_abe6bd5f1dfb.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643509&idx=1&sn=b9398bf2ffa2681e6194979eea468645&chksm=88bc373abfcbbe2cf3624ab757cd5ec1d257d61902fb62b97618db9db195c43fa50000070d92&scene=21#wechat_redirect)
 
-由西莫主办的“电机NVH问题的机理和测试仿真”研修班将在本周末的无锡如期举办，会员优惠付款活动也进入了倒计时阶段，新老学员的优惠付款活动将在周五前截止，想要参加的朋友记得抓紧时间扫码报名哦！![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXVXGa2KKRffefuVBlGPMYwdajEl6Piax3TARflRj5e6pK79uqHgSiawbHpMwCEH55RSibtxMFbCnFZw/640?wx_fmt=jpeg)
+由西莫主办的“电机NVH问题的机理和测试仿真”研修班将在本周末的无锡如期举办，会员优惠付款活动也进入了倒计时阶段，新老学员的优惠付款活动将在周五前截止，想要参加的朋友记得抓紧时间扫码报名哦！![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_002_82ad6b97cbb7.jpg)
 
 电机NVH问题的机理和测试仿真研修加强班在培训导师阵容上除了保留西莫首席技术专家与西莫技术团队队长的强强联合之外，更有Ansys电机、结构以及声学领域的多位高级应用专家倾力加盟，全新打造线下精品研修班与线上长期答疑相结合，辅以专业培训教材作为课后复习巩固的得力工具，免除您担心学习无法达到效果的顾虑。培训主要由两大部分组成，第一部分基础理论篇，从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等；第二部分仿真设计篇，详细介绍了基于Ansys软件平台的电机电磁振动噪声分析流程及其详细的实现过程，系统讲解电机动力总成NVH仿真流程以及复杂电机系统中NVH分析与声音设计应用。汇聚了众多专业文献书籍相关精华部分的融合与提炼，以及包含详尽的关键仿真操作步骤指导介绍，培训材料从内容组织上当属业内首创，相信会帮助更多想深入学习电机NVH的朋友在不知不觉中跨过入门壁垒，进入NVH的殿堂！随着新教材培训内容的最终确定和交付印刷，《电机NVH问题的机理和测试仿真》第二版即将上线：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIW6PpWW42kTYxP0GIodibpChLnPLFA9ibiap6TTqEwibJ3wQonLr6PeCjvsayrlibkcPeZiarHVbicnKZorA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_003_e1977aa29f9b.png)
 
 最新的培训大纲完整版也正式更新发布如下：
 
@@ -419,7 +419,7 @@
 
 从以上最终确定的培训提纲可以看出，本次研修班的教学内容几乎已经涵盖了电机NVH领域的各个方面，并升级至电机动力总成及复杂电机系统的NVH仿真分析与设计应用，是一次不可多得的学习入门和能力提升的宝贵机会以及与更多业内知名公司的技术人员结识交流的绝佳平台。每一位参加研修班的学员将继续拿到两本教材作为培训学习复习的有力补充，欢迎各位在电机NVH相关领域有迫切学习和提高需求的朋友扫码报名：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW6PpWW42kTYxP0GIodibpChvzIIM62JnlzPGmDowzC7GqBjWSea43FVMBUeXLHbeCrBMe3FkDqMEQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_004_152c5b64056f.jpg)
 
 关于本次培训的更多详细介绍，请看下文：
 
@@ -481,7 +481,7 @@
 
 　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW6PpWW42kTYxP0GIodibpChHeg7BD1nVGATCDxLAbb9DEWB7U8GnQZvv1zqXHyTib1U1ED6BfibN9ibQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_005_dc3f4ba7e55a.jpg)
 
   
 
@@ -517,16 +517,16 @@
 
 　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVZ7SZ8nWvYw7AsnVx9clp5gbnqyLTYVuvkDxgeqeA81T0YXoc5SnnDXAenWicrrxZwqzGhheVoNxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_006_1d3f7624a43a.png)
 
 　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIU9juhwts62UsqmFbpLickVowW6Qx381PB7aMIPAFBEhSMOyMpfbkhCEF7PIDUbACJ6TVsfhiaXf31Q/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_007_5979b8ecf8e4.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_008_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIW6PpWW42kTYxP0GIodibpChEFKVZwV9YeXoxyNH9MsAlAJ7p3EDlIic0NOTuuHf4fOkcibWBhuqkiaTw/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643712&idx=1&sn=0f78e1203d695df4c3ffbb84192053d6&chksm=88bc360fbfcbbf1929c11d9f5c1e2627972fbd8237b9559bccdbb47b547f90d9934b183bb1b5&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIV6ibW51GibK1aoeFhH3rXLjsMD3gibInqh2K9zUdy7bj1O4sibUfNURDPWbelLtDqwnAhgcEz6h3A2Hg/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643781&idx=1&sn=97c79e86b0e63ea63f722e9b2ef0d80b&chksm=88bc364abfcbbf5c1167182907957c55ab5b249f2dec4d5f1f3cd7d0bac316cde3ace1a4ea9e&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWPSJOGWYjv6m5iaWgJcweFNpBYYfSz38F8yIhF0icIkvsNr6MXYT50zusjz3K4uic8ItMkicUs5d9OoQ/640?wx_fmt=png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643801&idx=1&sn=1c7ef90035b06226539ea7507594cf75&chksm=88bc3656bfcbbf4074b995aaaaf30172317603f5c3090e3f5a01eaf404513d4f690044fbac2b&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_009_06f61a196fa5.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643712&idx=1&sn=0f78e1203d695df4c3ffbb84192053d6&chksm=88bc360fbfcbbf1929c11d9f5c1e2627972fbd8237b9559bccdbb47b547f90d9934b183bb1b5&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_010_222d9df3a85d.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643781&idx=1&sn=97c79e86b0e63ea63f722e9b2ef0d80b&chksm=88bc364abfcbbf5c1167182907957c55ab5b249f2dec4d5f1f3cd7d0bac316cde3ace1a4ea9e&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_011_e8013146f821.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650643801&idx=1&sn=1c7ef90035b06226539ea7507594cf75&chksm=88bc3656bfcbbf4074b995aaaaf30172317603f5c3090e3f5a01eaf404513d4f690044fbac2b&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_012_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_013_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_014_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIWzrwibt9YtDZV2Y73obneic60M6GdyiboicEEkjYv0KPvSNhJiceZeKc60DqX7ov6QZgnIDBxKC8tKI5g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Last_Call___NVH深度学习绝佳时机_错过再等一年__images\img_015_d960d0948cf9.gif)

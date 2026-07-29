@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/v3E7nIBTc2JGjSTjrorpTA](https://mp.weixin.qq.com/s/v3E7nIBTc2JGjSTjrorpTA)
 
-____________![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBHoa8icDUXn7aYTjia4spTucBRSHoLrgibqz71J9Hn7vFkPIxb5uPh0geQ/640?wx_fmt=png)____________
+____________![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_8_晶振的输出测量方法_images\img_000_844e20ab4a60.png)____________
 
 _______**_______**★★★**_______**_____OSC-8---晶振问题分析_____**_______**★★★**_______**_______
 
@@ -49,7 +49,7 @@ ________________€4.测量注意________________
 
 3#：调节示波器的垂直档位和时基，使波形至少一个周期完整显示于屏幕中，如**_图8-1_**所示此晶振频率为23.995MHZ，占空比为53.11%（标准在45%-55%）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRzyB1lkOXpDWDzhOibFribPic1jjJwxF2McSYonhibaWlImUwOsjqicdWg7aicVVZHAfaxQyibzKUBsWY5Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Analog_series_OSC_8_晶振的输出测量方法_images\img_001_26075cb8beb0.png)
 
 **_图8-1：无源晶振输出非标正弦波形_**
 

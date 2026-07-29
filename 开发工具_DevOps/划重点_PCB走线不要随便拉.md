@@ -50,7 +50,7 @@ a) 3W原则释义
 
 线与线之间的距离保持3倍线宽。是为了减少线间串扰，应保证线间距足够大，如果线中心距不少于3倍线宽时，则可保持70%的线间电场不互相干扰，称为3W规则。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU164W9vC5zOwRUwelOEWawrD2Q0iaCRoGSDzVIticJ0U6L48eu3VxWUPRw/640?wx_fmt=png)
+![](划重点_PCB走线不要随便拉_images/img_002_4cb04c113684.png)
 
 b) 窜扰控制：串扰（CrossTalk)是指PCB上不同网络之间因较长的平行布线引起的相互干扰，主要是由于平行线间的分布电容和分布电感的作用。克服串扰的主要措施是：  
 
@@ -72,31 +72,31 @@ iii. 减小布线层与地平面的距离。
 
 a) 相邻平面走线方向成正交结构。避免将不同的信号线在相邻层走成同一方向，以减少不必要的层间窜扰；当由于板结构限制（如某些背板）难以避免出现该情况，特别是信号速率较高时，应考虑用地平面隔离各布线层，用地信号线隔离各信号线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1wcRxzffmFLaw5yWxLkiaSz0JaiaibcVkQflAUlmGcibqjia67bOPAhdmCBg/640?wx_fmt=jpeg)
+![](划重点_PCB走线不要随便拉_images/img_003_41f066682d28.jpg)
 
 b) 小的分立器件走线须对称，间距比较密的SMT焊盘引线应从焊盘外部连接，不允许在焊盘中间直接连接。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1ibq7aczOvXJMnKs0wXbxaNiaUoVfZyxZ1WCSVpB8JWxYPWW5ib3XUU6LQ/640?wx_fmt=png)
+![](划重点_PCB走线不要随便拉_images/img_004_600aa49fe98e.png)
 
 c) 环路最小规则，即信号线与其回路构成的环面积要尽可能小，环面积越小，对外的辐射越少，接收外界的干扰也越小。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1Q3Llbu25CdkzZKejaQUuqMIxsL9e4nuJSXibyNeTmKzz36Xibe5Ya8fQ/640?wx_fmt=png)
+![](划重点_PCB走线不要随便拉_images/img_005_506fb9c1ac22.png)
 
 d) 走线不允许出现STUB。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1TLrscgCfQ6a43wXUpJHT8ta7YemNhoveUxFyl3TpibvGqc4toH8ibtjQ/640?wx_fmt=png)
+![](划重点_PCB走线不要随便拉_images/img_006_40bb1a87bce1.png)
 
 e) 同一网络的布线宽度应保持一致，线宽的变化会造成线路特性阻抗的不均匀，当传输的速度较高时会产生反射。在某些条件下，如接插件引出线，BGA封装的引出线类似的结构时，因间距过小可能无法避免线宽的变化，应该尽量减少中间不一致部分的有效长度。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU19LHayrRjgQcAvGB7GfVYY1EBp1AVgmeopWugOcAthhKaIvBYgG17Ww/640?wx_fmt=png)
+![](划重点_PCB走线不要随便拉_images/img_007_0d07a9e083b0.png)
 
 f) 防止信号线在不同层间形成自环。在多层板设计中容易发生此类问题，自环将引起辐射干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1SWhhLcNnY3CojqibEGFH5cmP2NoF2YUpoFcxRyhsdhnAKZnahky0YmA/640?wx_fmt=png)
+![](划重点_PCB走线不要随便拉_images/img_008_baa462a246a1.png)
 
 g) PCB设计中应避免产生锐角和直角，产生不必要的辐射，同时PCB生产工艺性能也不好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1rs8MSu4UZtbcIzXNtpw7dAD7QjM0NTwJttmVA4kj8pRQnTTiaiafKwicg/640?wx_fmt=png)
+![](划重点_PCB走线不要随便拉_images/img_009_2754d9ec92c8.png)
 
 文章转自网络，侵删！
 

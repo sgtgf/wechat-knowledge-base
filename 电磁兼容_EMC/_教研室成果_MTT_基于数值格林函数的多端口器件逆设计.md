@@ -25,7 +25,7 @@ Jin-Pin Liu, Junjie Shao, Jinsong Fan, Chuan-Sheng Chen, Ren Wang, and Bing-Zhon
 
 出版信息：IEEE Transactions on Microwave Theory and Techniques, 73(4): 2272 - 2281, 2025; DOI: 10.1109/TMTT.2024.3470220 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU302qCyF5bFYY8xAwAc8qv7v5cIibsFIUeeOz0pMJBjyuwPRXORCZvUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于数值格林函数的多端口器件逆设计_images\img_000_3f4e1e7ef19d.png)
 
 论文摘要
 
@@ -53,27 +53,27 @@ Jin-Pin Liu, Junjie Shao, Jinsong Fan, Chuan-Sheng Chen, Ren Wang, and Bing-Zhon
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUicsOfqKP6smOdqke86zeibgFj2f5zXkHiaib1ibzpgPsUME9cBaib6cV0TXw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于数值格林函数的多端口器件逆设计_images\img_001_37df1f63b545.png)
 
 逆向设计的背景模型示意图：N端口波导器件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUyTH4cACzFPutZbWgv2n3FVbSZVfvYaupfJs1b52QEwZ226S8mlaqFg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于数值格林函数的多端口器件逆设计_images\img_002_8e2dd426b3ed.png)
 
 用于提取数值格林函数的金属圆柱表面电流源设置。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUhWz0kCia3wB6DEdK7iaI6Vc8N6CXvaAVrXpBqHdw6KVKzbpkrl3fmeicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于数值格林函数的多端口器件逆设计_images\img_003_6a4c06ba0016.png)
 
 逆向设计的1分3移相功分器示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUujOFdcKnM4WFUhia06WNdzFDdOnQjeWfFmCzzJ9w7FiaEPiaePDL9CDeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于数值格林函数的多端口器件逆设计_images\img_004_7d1d0b365eb6.png)
 
 逆向设计的1分3移相功分器的S参数计算结果（NGF-IDM与CST对比）。(a) 幅度和 (b) 相位。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUhsX3eJCrFVw4EhdicV3G2u6fagl9WYA01WnqNExK1VoJtSLI6LPRbkw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于数值格林函数的多端口器件逆设计_images\img_005_23e5108b59b0.png)
 
 逆向设计的1分3分频器示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUt4wFg541oxFebSZ3vibSfyqQGWNJYfiaKE1EAicgq0KC6q6rw8SOIiccqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_教研室成果_MTT_基于数值格林函数的多端口器件逆设计_images\img_006_96775c330da3.png)
 
 逆向设计的1分3分频器的S参数幅度计算结果（NGF-IDM与CST对比）。
 

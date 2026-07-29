@@ -59,13 +59,13 @@ Gmsh 需要 OpenCASCADE 和 FLTK 两个依赖库，最开始我想尝试使用Op
 
 在编译安装好的`bin`文件夹下找到了gmsh，但不是可执行程序，而是共享库：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DRuibIzHfEoUAspSS7Oooun6WD1MUgVNPnx86fAreyvwkibesib3ZdbJnWqxantlD0brT4xZpyErI71Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Gmsh源码编译_images\img_000_afcc1d1ee5d5.png)
 
 但是没有关系，在终端中执行`./gmsh`后，可以打开界面，但是打开的界面是一片空白。刚刚惊喜后又重新陷入了emo，这是为啥！
 
 在外网中多方查找，发现可能的原因是依赖库`fltk`安装不完整导致，这个库是我自己编译安装的，可能存在一些问题，因此，选择卸载，通过命令：`libfltk1.3-dev`直接安装`fltk`库。
 
-再次编译，终于终于终于！运行出了完整的gmsh图形化界面！![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DRuibIzHfEoUAspSS7Oooun6CNHib3184nlVD35pdzeBXnc80xpxvHCwVJgPDtlKgZPGqibcKia9go8Aw/640?wx_fmt=png)
+再次编译，终于终于终于！运行出了完整的gmsh图形化界面！![](D:\电脑文件\公众号知识库\电机_设计_仿真\Gmsh源码编译_images\img_001_67fc764a6180.png)
 
 ## 5编译出可执行程序
 

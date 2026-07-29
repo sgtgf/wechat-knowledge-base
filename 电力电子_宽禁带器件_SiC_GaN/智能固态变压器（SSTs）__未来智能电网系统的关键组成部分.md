@@ -8,131 +8,131 @@
 
 作者：Johann W. Kolar & Gabriel Ortiz
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO24NEkpuhdictFsCWI2pD77pQCvNSZNIGibczmREmicM1obLmBW5d2eNHtjXVS0FVNl6Dhfq85dUmOs21haCZRicOTY5zBSnpQL8M/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_000_1625ecbb5510.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMCSHqkicyUmicn9qkgsnpxLHzxYxibpPt984VYUm7Uj4MlmUzKQXVZBH3DLyWj8XWC8icvJWZYLej2gNELvsopgUFicib9Aaf3xngPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_001_124f8f035da3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPC7prmFAl5j6afOdY6f5p5jDPiaRhNSuib8IiawRG9pKyic26I9XZUtM6LkDqicaKQRTDEWpRNLcL2kT5iaxjSznE58slD8kQoEUZ4o/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_002_0fc9cdade48b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpORPgyiaoM9AwGKJW9HonEhic0KticBRhVichf4BYIPskb65x7LRkpfzvOQcyQTQm0CGWCMuE65UFxlIermFlffXTPQsfQxrh0WJag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_003_75bf8ee75cfb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP2y7ebXicUcrwDAibTc53bcZWwDJgzhma4ah7icZZ90YQCp67wt753HcO3HswyHIvHibfZM6r4WEWIIAmxNegN532Pzjno3EjPv30/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_004_5ee66db0b294.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOdud9nJKAxBRd8LBe4zoF9CQIaU1TxQsDmG1VU7ibne9iaMu6l8ic1TB4Cz6vMoEzfV4sIRqAB7jABlGuZu03aVLUuW2hqsKXuAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_005_b5638cc89762.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMR3ZibqKzl3veRDdVN2s7rbyR0mlou32hKLIjYWs9dZHQNNHFus7Gtl3yMNyqbniacdNRXGAsPNOBibokBqD0uHibmQ2yOuxIks4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_006_dbacc57669bf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNRgianbA2UiaNqE7ZLD4JzYzZ3PSzyibwbduiaGNYYT8jvkXV87CG8kp6tuAHEJTaHg0YFfo3Mic1tdXcB5q9OJQniaxQtcm4Kd4ibUo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_007_f327fd2ceef0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPrDS7jo68FzWtHXRhOoFRQlKByBzAsFeVjibUUia8mJWUlJicELUGNzWric0q53YqevWVqtwS0XfO8USL06QBr7QxcKT0eLibj0icho/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_008_1ca68da100f6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNPibFK082oBg0H0gRVO8OMCBMkz1SusEboicjRU364mM6rOCDj3hHaCIreHCBGnpVL8ibUt7cojUian1ZVzZ6A6sYhh5d1tE3icvxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_009_b95db3d63bf5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOq0Dsbx1Yb5N7fE3vwbLZuE5DAFHSiakdxEypjAtx9XTb8RXkibGNZxpweeUEJib6UL6Z6q8HNWl7LZnnSLhQQKHOV2jO2FZ4iaTc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_010_5f0759c617b1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP33QbSrG0C55nd1EJK2QHjqDgBDjJh0zOSRX2f5icO4pcVmbACxeqLfQh1ShgpePh4gEx9oa8BCNnxDIc2ia0grSEE4gjHD0kYI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_011_ac83b5565faf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNj9iagvWoonZt7mhSNm6tKaiaswEbHkQ5RxYHOK3HqbbibfO2CqRfz0OtPNU26x4QY94BbbyicBVYbcvBmbD71DcwicBp1F137cjqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_012_9d5017d5b30e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOZnxwy7LJHiaiciaD5v9GibPLBp4pa0Jy8GgvszU7ghUCdJwjUm9XKgnW8xcYibFFDxn8er2Wze18qHQICAoV43XwDsZFMNMvTbbcY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_013_1267a56b7009.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicdHRhiakbDKm0hRht2gVVMUHrsuezJm8socdDu5LaVNp6SykiaOSVX51kWuPelS4emFSAow1yfQW87qAibmG0gvOhSc3bVU1dDc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_014_e8fb7c288e64.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNnswzsLUoUhx1aqmZ5HSIQU2LzsGzIJb0gRbFibPibiae0NcP3Gw16o4ibnS3SEtrA1I0KVQZwILTiaX6BD5lDQ3YrHTyEMHZMVLVY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_015_3747dfb3220d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPM57nE1PicmfGOS3EWAV7IFHK8pzicicFmB4dspepwdYAOBdhrwRiccosgiaUNnHPRPhrdnicjFmeEcicrphFUetibfAYicicT8ZhH6siaJc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_016_d0b7b775c4f6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOBufYgPSibjticzs1Q3sK8zJEib7Uef0nPtdO1RjWllvHaFmWGzzAe6vyUTRuJSibV6jEkUgOXMspMmdnbbID51BNEe1x8Y7ZicGHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_017_97f9bf755df0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMgqs2OvbfUx0R3PkreMtxT3Qq2ibHFiaP9e02RlFScyyyYmy3M72Wiaiaaz10tATiaRRZKXZLqbsGriaNTdhqzNGia1WYsp0FHgNIogc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_018_626a5ef7f7c3.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO916pTxJibg7O3A2MgDcdYGOIs5yd0vTYnSOxp606woVjXlYOGx3D6KX3EBUziaRuk1z04Tmezs831sOD7Bia2UlcIYemea0RQCE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_019_db93a8a4c1a9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOJYKH0svCRcSvvr8OibPTvfKBshia65n7QYZmaLsgynicyfQnRltRZicL95iazyT4JEic8N0QjxoqI57PyJNnWzHKer1sZhapiaDiclKs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_020_6ae781fb3853.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOGXwp3Ru7DxuKA7ttzCm4nmJibIK56Fo0zwAr96kUjoI35mSBgFrKQRneVA0icZj2ndQP4MmGOCauFqEuSicSJkP8YVL1oziab1MU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_021_f644b7ae0129.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPvH0Pks54fo8q3lxHssSQZuib3BmTLamDIw0DP0IYaN4mUBBH1e1mA1DpQ6lVNpPpgBY3fwd5ibjtEKlFic9bzq51CRwgnytDkNs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_022_9949efdffa32.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMky8ibib1hm2B7cdVbv0xwM5XpK2EdOSYzrgmGibslbSufkwDMX1DAt7CZVGBTZAvagibgjI5mGQqAficBwgAfPf8yic9NS3FFfQApk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_023_cc766007af29.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM1e3r8PIjJ5Qr85J6rUzL7nCaiaXh8XFRGSUB813jbAe3SwED6O466jpqFsggrhzDYeF1n42agItr0ACCuxCiaJY4KpmKL0n4as/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_024_804a7a9bcda9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNiacoVS0a2jK2G8NbeLebIEEIpost9XvPNiczreMMW9QaPFx1Lb6esrHv3pzkia1qlnNEwCQmxqG4JKZEVsyp2ia9owF9FnPXMVp8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_025_4932ced19a4d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN9rCBkycjdbmMtYyzdj491eLOqLgCzZKtXuEy4LU6jdCumMJvL5p7Tr5ONwpG8sgybKoBiaJqxPwQpPFqNVVZcyHLmCayhg4ck/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_026_4eae3e211b98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOdicfKlY55Rq5hibWvtY4E8HDcAlAIAIwLP7EsGRnCM3aLOHjVfjEHmBmHFYmIOencEBYqicwyibN0RV0r9AUCMbVykoh562m0hgg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_027_44adc135eb3e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOoT4upc9c9oCKicxSOqTTibd1OE3rGKEA4V4sZIKoOibrrngCNO3MPz60VslzLHBtM6HFqEHkBVyTdhcUrybow4xSzK6EPyIRjPA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_028_0c8082ec8018.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPT6NoGhW1eaUAjWgpS1NDX6tCUVuzKE1hTEF6dU9icdAicY7b8HHvoUdqC04cMVicg6zby8bVjvOEt5fQrBhCeIntwSADwgOpjL8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_029_d216f5bb0c64.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNZETYwznbco1icSFuIoJvYcv7A3bZPVZ7ibQoLP2wDEAI0GeJdNqnuXmxDiaM7sicsvyZFt4UUpSDBaZsWmJ6qicTNoR1mibS6vKS5A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_030_88e125168386.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpONicPmhIiciaRfSr6vvEEGTBEpzo5ib37XC7FG9boIB3ic2tLlqWPKjkq8KaWjZ3LDibu7P3Ha6outDnZJiaKxdtkTxsDqMVG4zbmGmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_031_81d340faf6ba.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPspAOCxUiamwicV7HEAtQfZaUnNu2IqwwjibJFf3vOUuLrxib2qXg9SX1Q00uoyrdAEkZobjwyFkV53ibkianfgG8mnStwRl3uz8AVU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_032_13088d0cde62.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMTFPxPUZz8Hgn8nkMIbp0ibtYU802PW0Ot0dVib7EK5fJ0qs8lstkK4wo2cwc3Ov5oZDNfHUuopJcpy7BicByrLmria15KsdLq7BU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_033_579e5f3944b2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMYemX7HCTaCfHy5P3LcBQIiaDiayf2sFRXMNjVMq8t51IHZqvbSt1wV8qgUMZKwbzQnrJ5xh7GIgxlTTLCe78xIKT2t0XL5lWuo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_034_0719b78192fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOpZs1GxkH8A87FB0De9z89Y2esHFl2BaEks6pexMtxicNosg2KPfbz88bCFcsQnaLs9DqySFINTnHiatGIibtTCMeYLyaJnoQL50/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_035_c8f48325f6a7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFTgmNHcgiafp7nm5BOFKIzmcuZFDbTFPUL2WvdgoWFFzgKmPEvsf8BibfRm8kibL0mjpm89iaX3v0q9UTey8NTwIxFnWHfxyLUME/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_036_be35b7716425.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNrT2E9CBmFkcnT5oHetqCIicarhWpgs1og5NYL77xtZsnSCwq3HviasjsYazFia1Z4PBASebUmC68bWGRsRll8kia309Rib5sRd9FQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_037_197d6c2b1caf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM3ZhticENutFaeIpyNDXR4GcrcNsm1icQvJic8mRLpFItEp52POpzKmnKGialu1ZWUibkARrA8ic9WDPTtnZichYrqZCvtfLRoLgtUyE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_038_704e655f8585.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRH8TLRabCx57FmaMvxsAkGW9d3rx6qHQPQVt7cwLIicOXg4HEPyOC3VtgLiazkhXpUUS4sJohtkmtKLUiaKA76mo89GmUJUfypw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_039_aef57ceb83ee.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOrgClIIkCTpp4ibHS4ibExbLnnTOuDvPPZDCZRtmvAgNYXvMqynomopMQYad8BECO4PUUd8CPyALQIx6ICQiaTYnSC1UtdZXSicEI/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_040_fbf4cf4a03e6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMkg3McoBEVicjftAPsBDWJkYrfrIQrh2vBMXapyElr0KHZepU6wpJAUmmYYU4TkqESyEZIicq8gkNUg9NJk0sX0V2ZG9jfCbYzM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_041_1cd6d55a0f2f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN8ns7JdAKpqF0XWuyw5EiaD8HiaDUFpNZmKVLThjibP8dGvZUaIWQhmjwXeE2xWtBC81cibXLjIvWWunRib3tO8mTCibgxmTK980xa4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_042_28b400656205.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO9eLa7ZfklMIXz3JF2Q3MKpMaoZ1CBRDl2I7E9WSl8lWTMHtCHEZIvoH3wlapP2E5pxIquEl5JictwQzRDwOzF3I82c4YoCOicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_043_3221b90282e5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNQo3SWoib3tRYOO4bQVicRWHd2ic43b3ZQ7KjRVembrbBTY9MunibNWN6Y5lwkVYfbV04KMywH3eGbbXbFLOe7LgJkT0FSDsuY45Y/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_044_a7b0af317014.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjudvPrWPZCFH39cIw2kicpw0Cv3qpsL1VUVickd1HlibLia99nlTzpIkVVtaWr5hvVjmlDGRe263TKK98gHnbHSmR8CWBiaiaacsTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_045_77c47ae7d325.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO9o9iajZaRVxYblnib4dpwYvDq6PIphosLmcTJdl6ghfHqI2I7M8hica3qSibh9rjfV8N9fprmiakGjDPSoZLmwbsluXRCweqKm1kU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_046_2dfc4df2dea6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOD07l3Vt5GmjdAvlRR2bhGTZHYNKrJl1ozECoIbBM5EzVn6dZdT01mE47AviciaVUcfy99swAkdDDMvo88eA3HR1sjx8II09iaZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_047_f6eca029a589.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPicUicPKkEOHBsjgSVDBk2DZpmPXUKOWReegBfdK818JiaymGmMkKq4IOic5qdaHtsKFAMtmBLKmXzYmQO5aMeqv0ntI2diaaIbYoc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_048_1d19cff26574.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPBLKSSgzsTBNsxwpH46icZhP3ledguRNxsmN9EVx4Cea9yTUcicsFYwCdDfQD3OwmpvZ31NnuHyk9Y6jfGCgaoeLhRo6brwcJYs/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_049_5ce4e2dd9cb9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOsrj93yrdibILNBbI3VUJgmJfo1GicECj9h2QF25qCEzbQpWaeiaOrBH4pj2pTHcO2kxIHA0AeD1CiaEm6pGFOS50IUwrGNW3dcYY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_050_5943f1036fff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOTR5vIwpUDHsH7IaLYKmSicIasIKJNqFo5VZIpQ00s3MGxd6d9mGJlIzwHJd7FZdQnLRApXibia09UgIvnumiahlbHTgtOhiaHicFu4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_051_807ff0fe7110.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN1c8YSUicoBoQjVMTccpxBucVicajbNLMcvQL9qu2gib0XjfPNd440KcQLmH5CJCWLzfTiaAHmaYkcMob5VoOrn8QZ2ic6Im8UtKP8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_052_6e6e97fd007e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNr5HCB25nSbQWftybgkqkXQhzZrGIQf0tH5go1LUYsRox0IZtYnJQhNegsJAJOiaWRmVicDlzeTuqMkP5iaWyrPnf7ksAyjt6r7U/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_053_02a6dfb6fa23.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPKWeqtQYYgWicBShLOa8GpSBw2yAqBKicvRRKZUWbdYCJnlicMobajxV1a4IZRkhKxhsicEXHDOKaiaH2ITTViao3zHGMnHCoXN1nia0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_054_3da73a1da444.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlXm6LsibaTbKXqtd01aXmqgYOtUP3hOen28ibSemDQ1u5uhbGEic2eGlzEYibY47qgk6pibXH0y36AZp201MJw6T9ovyskbWlBKdY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_055_3f3d679e8892.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOF6WdEmIUn3zeU7XfMemicsC0tEibR0DyJXqxS3odl5eznvicaibuiat0lufq2FslkEun8ibjJfSWHK3ibK9quEm2ust9cdWaYlqCVoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_056_94f863be864f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNwwAm5OPgafiaJJH0SzdKZiayZvKD1JoMtlpoyH9u3WLqCswhKPMGUwAZsRibKbTCncgjgMdBgjEnDoGt7bbh6DLtrk8wrR2LZIE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_057_48ec479334ce.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNN7lun3wdh17eibpNiburDEy1BPL3A5pZwxu6ugWf4wJRSMIyN7S5A8KRCltcTJWPjDzWsm3EaVKhOjlZVQrgmrSEkPbicGiazHHU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_058_9979debb15e7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPEhg39c1pMTWUOOjQmPGxYAP11picV4s4zia1IibXKsYtOMA3z9O99FUntJ0TUghoibBbsSGrvqrEYUr6l029skRrIN9A2MT02ibQU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_059_ee1b549c8e1d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPjElhmQK8TDibuFAq8Mh0VDjzLmc5KR3FDBS1xFaj1HTPzTLL9Fubt25RMEyzcPv0NN4x9aQtHwnZclYcDia7f0NMKp22uEt0E0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_060_bcfcf30f5f1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOOk8vTpylpowL1rxnvUiaEcZluUOQYaANqNEKzCj5gnYNqFc3LqgX6DjdegNnL3uYlIX1ZZgBuZwPm6HqMoibELBiapQG5JDNbVM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_061_7a04dc1802d0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNqydbngntqKib057FLGHj73nXianM1zykoiagRFLFOu8BaBpib83oWibeAykRjgJ8EhMhyDTOicslXPWLxt0lWElAB8zd3DeNJ4hZ1I/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_062_76a4302c1b2c.png)
 
 注：文字与图片报告无关
 
@@ -331,14 +331,14 @@ SST 作为第三代半导体与电力电子技术深度融合的产物，已从 
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMhaeiaZctAYl6HhRp0vRZjzHjMkKiaibV54C8WFicDia6kMY7aBjheQfxaXIk8bId2aKHxINYbOC0BKDW40uHrv5YibY2v3wfSibj2K4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_063_c2f6f7ffca48.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMMmlmtKSfxG46rOCZJQwhSESBHWCcY1nulAqfgr8UQJRog4RnbDheRzz5gnyJE0pjrdOsrrJkibFibA9w49DIB2zQ0qs23Crq3g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_064_c996820ccd6c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOibbSOVbZkK3DCH35UBQftibrTXnLHNcGo1MoOpg6iay77kibhxPnm79Wm6XbScyTWbPoG6nSWDUPQHJVeRN6CDlVFiakDFWFuvq9s/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_065_7800818398da.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMZHCqLhpblAlEBhUOwFLnm7ba9J8KdDyVicBrY4Vg7ADVsSgOLOLSHI5bQlZVC8TcCfIRbRbM25iahlaK6N3h4JlK9czbrlyIK4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\智能固态变压器（SSTs）__未来智能电网系统的关键组成部分_images\img_066_4768779b391c.jpg)

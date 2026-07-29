@@ -5,7 +5,7 @@
 
 **前言**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02cFoUWUqbemtpNZa8NuHQ3Gl7b0ibwwTIwYurH5CXOMMHvNRXjialsbpg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_000_7113db6f8928.jpg)
 
   
 
@@ -13,7 +13,7 @@ SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02ic5CMZkq0ThAcWczMLzKPGeydfibEDICZhgziay1gVHm5w03DMNtGACwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_001_e9d2ccbf43a9.png)
 
   
 
@@ -21,7 +21,7 @@ SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件�
 
 碳化硅MOSFET具有高频高效，高耐压，高可靠性。可以实现节能降耗，小体积，低重量，高功率密度等特性，在新能源汽车、轨道交通、智能电网、充电桩电源模块、光伏逆变器、光储一体机、工业电源及军工电源、电机驱动、白色家电等领域具有明显优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW021qGS5e40XoTe1dOjpFib1bRhXx7HD33dzFcXtouLOU1N4ViajMTrN5WA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_002_f73ad148f545.png)
 
   
 
@@ -39,7 +39,7 @@ SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件�
 
   
 
-插件碳化硅MOSFET产品是市场通用器件，可用于各种PFC和桥式整流电路，应用市场主要包括：汽车OBC、DC-DC、充电桩、空调变频器、光伏逆变器、UPS、大功率LED电源、通信电源、各种工业设备电源等，功率从几百瓦到几百千瓦不等。![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslNPWibrfFQcSGP4EJwicOe3vJVIO9ib4ibULDibLZv5u49O0Mia6h69bLzzSic6ciaTdeHiac8DauUYiattiaWg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+插件碳化硅MOSFET产品是市场通用器件，可用于各种PFC和桥式整流电路，应用市场主要包括：汽车OBC、DC-DC、充电桩、空调变频器、光伏逆变器、UPS、大功率LED电源、通信电源、各种工业设备电源等，功率从几百瓦到几百千瓦不等。![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_003_34e2fb0e14ea.png)
 
   
 
@@ -53,11 +53,11 @@ SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件�
 
 贴片封装碳化硅MOSFET产品，主要用于各种小功率电源PFC电流或其他整流电路，功率范围主要在0~3000W，电视电源、家电电源、手机适配器、电脑适配器、新能源汽车DC-DC转换器、小功率OBC、微型逆变器等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02kBBicXyVUl5MXau6gCCmBvOhKib2CIJTIYbxtBKmlFhzYHzYakYAZHFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_004_7dc446b886d6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02sSjYwSbdibDGDTg6XRAYVB4MBC8q0bFJfkWYfPbDYTamXGANTTyhnTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_005_877a43cd74b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02A3Descrb4sKUB1ktibtMk2lA5L0cnXGDqKMmA72VTDlZZPwicsaXS8rQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_006_1079b505bd04.png)
 
  常用TO247-3和TO247-4封装图  
 
@@ -91,7 +91,7 @@ SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERj2zbA57Wxc2AYJ3DqMDicLBnrQZNjJ9C60ozVJOxaAqXFTqXsicpdKGQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERt1vGu3kcibBrFwgHA47IFziblKQJZZR0fRalal4zhWFicCcLAbDxO6l5A/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_007_9606ac8af012.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_008_87992ed3ec8b.jpg)
 
 ‌两种结构的优势如下‌：
 
@@ -105,7 +105,7 @@ SiC作为第三代半导体产业发展的重要基础材料，SiC MOSFET器件�
 
 **三.相对应于硅基MOSFET以及IGBT，碳化硅MOSFTE有以下优点：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02jkUha2BBvHWRYYZR0m8ibO7l9vRAzvRHYFUc6icFAaYKZCh9RwsYMniaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_009_223e5c47fc05.png)
 
   
 
@@ -227,39 +227,39 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
 **五.碳化硅MOSFET应用领域与案例**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02DrngnzTEM417pu67t0bSmj5e5c6e4iaoqVLCoTRGiaBzmMfFDIA71oaw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_010_26856c158fd0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERut0EsdRupLibCzcUqRXu9Ylv7wXrlMNBV6NuE57Trb2icrbpnaefcibdg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_011_4c58682616ff.jpg)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERuW9VtTpd77rIk4H9Hy0kRtFq379mydj5iaogZTg6DO6pHJBhTgEdW3w/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_012_4fef028e05ff.jpg)
 
 **OBC和DC/DC中应用**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERkryAq3ibrXspe0UI63zjBFsJ2Uhh25uwzCg6wmsEUxACmzpdHxZPymw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_013_8715ae49a48f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERIudGDG6ylMckQ92Uu2Yrx1GR8MKy4cb02NC15u4SOYsXDW2RXEibpNw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_014_661f82146aa6.jpg)
 
 **光伏/储能模块电源中的应用**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERzxT7OkyNWy77ASbgsOVg9oFDnmgxjDfiaqOo779ol5GHicMW6tvKL6tw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_015_698a7c59482f.jpg)
 
   
 
 **燃料电池系统中应用**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3w4uzfgv5Cz5o5mnJJBERXNqxc7CyHM9MkwytqlazQYu2IF3Lhlj6takia0RcNEePl7bd79W7zog/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_016_b05d00b6fd09.jpg)
 
   
 
                                             **白色家电中应用**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02rEoVQcN7dHibibLOTLralvZeibAztoDAEzBRIj1INNLsSfP8143NOQYkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_017_fdda5d2dd929.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02QjNQu2kRXgNIqGrcoErbTnaJjFLjxjHa9XCZEC61C32pZBUhtXQKBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_018_4e312d1ada54.png)
 
 **六****.碳化硅MOSFET产品选型**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW024bGX8iczLjKmd35glXAcDMn3729w8jfwickzaz3AIiaxo2KdV4hYMeUqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_019_dd02c9209875.png)
 
   
 
@@ -277,11 +277,11 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
 **七.碳化硅MOSFET新产品/新技术**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02uDh06LFicLzosU9mHUOIj9SSTZTYMTryZgL5iaesBZy9qPpTBByxNWAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_020_04041325aba5.png)
 
 **销售产品线：碳化硅MOSFET晶圆片--碳化硅MOSFET单管--全碳化硅功率模块**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02REf7MGxaNU51cLKeyuPl22jN75NcsmxgFf26ZD5u2vWFlWp5hnGf8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_021_0db482dd1ea6.png)
 
 **八.SiC MOSFET的驱动设计要求**
 
@@ -315,19 +315,19 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
 平台的持续时间，提高开关速度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02JJPTu0qvGSjgvkaHf75zsDUEzG6KXCSjILicKehfwSMvQxVvZs0N2Yg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_022_bdbe26dc7654.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02IVrWwDATAQ1GcjjLkrCwnVjAAW46XWz2pZMy5iciaqX4SSEjsXGOtloQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_023_e2a943ea0d45.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02FMouCnub3gL5OlB1PibeA1a5TLHor9Ab7iaJLhSStY2kqxkEZxq1xpfg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_024_1f9ad3ed0a1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02Qv59DUoiaYOpJr7IZaMvGLpTyLI8Nm9q36CudZGujrsANbmeY5YeI0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_025_270c77bff77f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW0258sjtZZVibVfzbKJ5tJNsf8ywdychY89wNibnib6d7RFOzdvMlicLiaH4Rg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_026_60f1ff19150f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW020R5RUzzjKEKm8sZqzccjtk08xib84icosJ12I4hXrCQMMcoU4Vqj8uSg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_027_9c7310fa7044.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02KmlMLicqhuchqic68BKQgADRmo5cmichIYOyicyN7hNBou8GjliaASIPy9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_028_018da2faf515.png)
 
   
 
@@ -343,14 +343,14 @@ SiC MOSFET的体二极管虽然是PN 二极管，但是少数载流子寿命较�
 
 总之，第三代半导体功率器件以其高能效、高频率、高温度等优异性能，在汽车行业中的应用越来越广泛。从电动汽车驱动系统到智能驾驶系统，从汽车电子系统到新能源汽车充电基础设施，第三代半导体功率器件正助力汽车行业迈向更高的技术水平。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnXVfDQYyfyvKC0jT4xXW02KywnKbVAHxC7PvvAhVibeNrPE8XUTlVSFLtAqaFlfuib3JnmLCRHudqA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_029_a4b3f01d03e7.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_030_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_031_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\一文了解碳化硅（SiC)MOSFET的性能优势及应用_images\img_032_84aa944feb13.jpg)

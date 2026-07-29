@@ -32,7 +32,7 @@ X电容是跨接在电力线两线之间，即“L-N”之间，X电容器能够
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiajxtNRgxwNglRdKnzpSgRWrsFiczA5sK07UXxNic9Omm0dfzGMFa0FvOcPLPJWz09KWwdhXZ75nGDQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_002_4fff311091ef.jpg)
 
   
 
@@ -46,7 +46,7 @@ Y电容通常都是陶瓷类电容器，一般成队出现，多数是扁圆形�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiajxtNRgxwNglRdKnzpSgRWOuY4n8yic4Rpic98u3sOyTvQke5ZuccmJM4erSSjVkzibkWtJFnTTwyYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_003_3c3150842dcc.jpg)
 
   
 
@@ -64,7 +64,7 @@ X型安规电容根据耐压分为 X1、X2、X3三种，安规电容安全等级
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiajxtNRgxwNglRdKnzpSgRWErZVziaibibxL9XibhfdxXZmLZ6EoDb6JjZOmWh6zK4yGeK4kunX0EHFLA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_004_b87fe389613f.jpg)
 
   
 
@@ -74,7 +74,7 @@ Y型安规电容安全等级：Y1≥250V，允许峰值脉冲电压＞8KV；150V
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiajxtNRgxwNglRdKnzpSgRWn7ScgD3cSvuiakoXXR11gW9H6NkM2I3tW839iarGr5dO0XiayIZBrPdGA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_005_02d08ab28320.png)
 
 不同电路选择不同的耐压值的安规电容，不能过大也不能过小，对于X电容来说，很多时候都选用X2电容。
 
@@ -106,7 +106,7 @@ Y型安规电容安全等级：Y1≥250V，允许峰值脉冲电压＞8KV；150V
 
 抗电磁干扰是X电容最常见的作用，一般两根引脚跨接在零线和火线之间，适用于高频、直流、交流、耦合，跨接脉冲电路中，能够能承受过压冲击，一般与电阻并联使用，目的是起到泄放电荷作用；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiajxtNRgxwNglRdKnzpSgRW1ibBibdiauSSBaefwFCG27l3aNDSHR5mk6tDErrTwbcZlNiaLO3TONrlQg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_006_dfe55541b9a4.jpg)
 
   
 
@@ -116,7 +116,7 @@ Y型安规电容安全等级：Y1≥250V，允许峰值脉冲电压＞8KV；150V
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiajxtNRgxwNglRdKnzpSgRWApiaSfUXBvdPN2JlEZjFRTLd4kVgX8IJ3mlELstsRVfc9AHsAwE8BTQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_007_f084a9b2230b.jpg)
 
 **滤波**
 
@@ -132,7 +132,7 @@ X2安规电容器可以用作直流滤波使用，可以并联使用。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiajxtNRgxwNglRdKnzpSgRWvZC0LZ8bbU4GLnJBxQFfqnPHiccBO7KJs8Om0icWOn2LibVJub0AUVhOw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_008_a63b2e657c20.jpg)
 
 Y电容串接在高压地和低压地之间，有时会采用两个Y电容串联是为了提高高压地和低压地之间之间的耐压，有时候会出现耐压不足的情况，导致安规电容打耐压过不了，可以选用高压陶瓷电容作为Y电容，Y电容通常接法有四种情况：
 
@@ -147,9 +147,9 @@ Y电容串接在高压地和低压地之间，有时会采用两个Y电容串联
 
 硬件工程师都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_009_2e84b7ba26c6.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_010_51d069a6484e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_011_5fb296583be4.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_012_1f30148044c0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_013_c5bc86d0867d.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_014_b38438d4de46.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_015_1d54e9fe0aef.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_016_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_017_de88c48250d0.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_018_3b83df2d253b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_019_db521919e8d9.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_020_aea384ea417e.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_021_f4924e7a240a.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_022_a58db91dbb3b.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_023_f0edc68b0c53.gif) ![](D:\电脑文件\公众号知识库\电磁兼容_EMC\EMC整改之X电容和Y电容_images\img_024_3c93e54afedf.gif)
 
 ## 
 

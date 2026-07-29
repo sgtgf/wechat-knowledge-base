@@ -106,7 +106,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsxS2iaBSHAjgyupXsJaW0N8CsFujibvedGDmQUZqLeXnny8s2NHXicnLM5Uc6fx4XqvhYefB1j5chchT2DicJiczuXMrZUibJ16Gep4/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_000_98be8c6bb757.png)
 
 这张海报讲的是常微分方程中最重要的基础定理之一：
 
@@ -183,7 +183,7 @@ Picard–Lindelöf 定理告诉我们：
 
 海报顶部用道路分叉来表示这种现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuXcqvzPiaJicnJoRRbLqCHiaicIEkDK2HhwUXdFMOfWhEc7MraRQHbPw9jleLue9HlVcicsWvewNGD8N2Txtia1ibzpEkvicnSXweDqs0/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_001_18793308270d.png)
 
 -   没有唯一性：道路分叉；
     
@@ -196,7 +196,7 @@ Picard–Lindelöf 定理告诉我们：
 
 # 三、初值问题的几何意义
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsaZrF26oE5BuhxAgVibsDtt9IT3y7wL4hNtHeoTvRjUbg6KVdsKsibw0nfNZgFrvwNic6wnHvSjdSVIJxYlbEwIpCzZWrGySNV2I/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_002_7786f3a4d768.png)
 
 方程
 
@@ -228,7 +228,7 @@ Picard–Lindelöf 定理告诉我们：
 
 # 四、为什么要把微分方程变成积分方程？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvrS4yVqObydhhQnCnGmkMuJtBdQiaZY2NfsajXMowXT8G9FCGlvh39dDV4zobss22iaQ9FR6kavNOgZW0cG2Zus69QWlZaKmzTw/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_003_fd55798d96bf.png)
 
 海报的第二部分进行了关键转换：
 
@@ -339,7 +339,7 @@ Picard–Lindelöf 定理首先是一个局部定理，所以我们先把观察�
 
 # 八、怎样衡量两条函数曲线有多远？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuYichB15Aiab7CMOxF5ghGicGlzHepTWCqGHN6zR6IPLeYK98vADvFvPKz0QfqLmMzN893gjWGFibPCiagRAicGZgkTlqHT0Bic2u7jk/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_004_7c2f21aa61d4.png)
 
 海报使用一致范数，也叫上确界范数：
 
@@ -377,7 +377,7 @@ Picard–Lindelöf 定理首先是一个局部定理，所以我们先把观察�
 
 # 十、Lipschitz 条件究竟是什么意思？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuUTNic2ZgM5s6u85hSerAsn96eE6O8LEp15y2a4NrxHaLibRaRfEZFkFeficYNmzbcRuFXmkzudSYBV2AZicv46ic0kXcPsZMwGX80/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_005_6e1d5b5c4671.png)
 
 海报中的关键条件是：
 
@@ -451,7 +451,7 @@ Lipschitz 连续则进一步给出明确的线性控制：
 
 # 十二、什么叫压缩映射？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuBGe6LU0PDopZUTAZjKKeRjZHmic6Z0xicOJyCCicFuYtgGB4LbT4MkwXCpCLfHzK4547GqXCviaQzRO7Q4Niasd1aia7reGiav40u5o/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_006_79d5957ca4d7.png)
 
 如果选择区间足够短，使得
 
@@ -578,7 +578,7 @@ Lipschitz 连续则进一步给出明确的线性控制：
 
 # 十六、海报底部的失败案例为什么会出现多解？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRooctVYXamvdBcOnN0E8bepbvwmSEGR0w45zhUSgv7siadEERhwzDtuTaTGGVp4SH5ZtxUCHwibtKWeI0vLxutNtjQSN9AvadpZk90E/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理的证明是如何应用巴拿赫不动点定理的__images/img_007_a5d36ea23651.png)
 
 海报给出的方程是
 

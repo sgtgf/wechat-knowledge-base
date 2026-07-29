@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/K5x3JdLUjWuhu4uNN2LLgg](https://mp.weixin.qq.com/s/K5x3JdLUjWuhu4uNN2LLgg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26FnUiaBzmPbLHxKtj59JvLoUAVWwsNiakbJHIzlukQYDUuxFibRuia3iazTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_1_三极管的三区含义_images\img_000_5134a3bf5f4d.png)
 
 _**_★★★_**_Triode-1---三极管的三个区_**_★★★_**_
 
@@ -11,15 +11,15 @@ _**_★★★_**_Triode-1---三极管的三个区_**_★★★_**_
 
 ___€1.__三极管的模型等效理解_
 
-_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRWIBialarrQIWWnTrXfVsR6HLgsODNl3o5ZBw4dY1Z1zdjGfwhB2h3geuicAvsUcicYNJ6FX7d7Vj7A/640?wx_fmt=png)_
+_![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_1_三极管的三区含义_images\img_001_da5f78cdd442.png)_
 
 **_图1-1：二极管的物理结构_**
 
-**_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRWIBialarrQIWWnTrXfVsR6PCCtPfiaibmDeVKv8X4KofiaBGuiaz2qNSPRJgxRJiaBpjkWbWfWNMzdekA/640?wx_fmt=png)_**
+**_![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_1_三极管的三区含义_images\img_002_86dc9dbb890a.png)_**
 
 **_**_图1-2：双二极管等效三极管_**_**
 
-**_**_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TR0qWkWQkTaj9YCnfyqAz26DGSmsGgia2ibyic6a6LxUIUNV1wLgiaXaH5ObbBALQaLAfTC3vFuQRNukA/640?wx_fmt=png)_**_**
+**_**_![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_1_三极管的三区含义_images\img_003_805709149173.png)_**_**
 
 **_**_**_图1-3：双二极管等效三极管_**_**_**
 
@@ -29,7 +29,7 @@ ___€2.__放大区_
 
 BJT是电流型元件，放大区的电流放大作用本质是内部载流子由发射极向集电极的定向运动。为了确保内部载流子能做这样的定向运动，实现电流放大，要求NPN或者PNP的发射结加正向偏置电压（正偏电压大于开启电压），集电结加反向偏置电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRWIBialarrQIWWnTrXfVsR6pHtDbdv2RBKWDJEEu2e07fguhN9YUKNREdQ1T1oYgfYmvD9a8x5zdA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BJT_1_三极管的三区含义_images\img_004_b76d689efedb.png)
 
 **_图1-4：三极管导通时电流流向_**  
 

@@ -22,7 +22,7 @@
 
 **01**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZPtdzESiawhdMHyNfDvj0a36SiaN499NjK0BKean9ibV1T8rYe2gLG8OTSjeCB1NesY09JLKujB7DqpO8DGu4HFxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\双非_嵌入式拿到4个offer_该怎么选__images\img_006_cc53a7f4e45b.gif)
 
 **长城电源（央企）**
 
@@ -48,7 +48,7 @@
 
 **02**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZPtdzESiawhdMHyNfDvj0a36SiaN499NjK0BKean9ibV1T8rYe2gLG8OTSjeCB1NesY09JLKujB7DqpO8DGu4HFxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\双非_嵌入式拿到4个offer_该怎么选__images\img_004_cc53a7f4e45b.gif)
 
 **华勤技术**
 
@@ -82,7 +82,7 @@
 
 **03**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZPtdzESiawhdMHyNfDvj0a36SiaN499NjK0BKean9ibV1T8rYe2gLG8OTSjeCB1NesY09JLKujB7DqpO8DGu4HFxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\双非_嵌入式拿到4个offer_该怎么选__images\img_003_cc53a7f4e45b.gif)
 
 **格伏恩新能源**
 
@@ -106,7 +106,7 @@
 
 **04**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZPtdzESiawhdMHyNfDvj0a36SiaN499NjK0BKean9ibV1T8rYe2gLG8OTSjeCB1NesY09JLKujB7DqpO8DGu4HFxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\双非_嵌入式拿到4个offer_该怎么选__images\img_002_cc53a7f4e45b.gif)
 
 **巨龙创视**
 
@@ -126,7 +126,7 @@
 
 **05**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZPtdzESiawhdMHyNfDvj0a36SiaN499NjK0BKean9ibV1T8rYe2gLG8OTSjeCB1NesY09JLKujB7DqpO8DGu4HFxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\双非_嵌入式拿到4个offer_该怎么选__images\img_005_cc53a7f4e45b.gif)
 
 **我个人想法**
 
@@ -136,7 +136,7 @@
 
 **以上是我目前感兴趣的四个offer，希望有所了解的各位，能够针对性的给我提一点意见，大恩不言谢！**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\双非_嵌入式拿到4个offer_该怎么选__images\img_007_854de1eb795d.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\双非_嵌入式拿到4个offer_该怎么选__images\img_008_17c99fedbed1.jpg)
 
 ## 
 

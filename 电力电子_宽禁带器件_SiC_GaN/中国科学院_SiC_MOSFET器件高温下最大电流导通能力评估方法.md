@@ -21,7 +21,7 @@ SiC功率器件已经在电动汽车、电动飞机和太空探索等电力电�
 
 在实际应用中，由于难以对器件结温做准确的测量或估计，系统设计时往往会设置过大的冗余，从而导致SiC器件性能的浪费。否则，过分追求功率密度而不考虑结温很容易导致器件失效。因此为了充分利用SiC器件在高温方面的优势，实现电力电子系统在各种工控下的稳定可靠运行，必须对热管理机制进行深入研究\[ 11-12\] 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8lTOtAaicVibEcS1bkWD9IUuJn8xwsqYbpekSKlaf1xjLPQDvWCs1q9ug/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_000_0246895a75a6.png)
 
 如图1所示，功率芯片必须以分立器件或功率模块的形式进行封装。功率封装是半导体芯片和其他封装结构的组合，可以提供辅助电气、热和机械的功能\[ 13– 15\] 。由于功率芯片会散发大量热量，封装及散热系统对芯片结温的影响较大。为分析安全边界，主需要研究三个问题：
 
@@ -43,17 +43,17 @@ SiC功率器件已经在电动汽车、电动飞机和太空探索等电力电�
 
 决定SiC器件温度依赖性的关键参数是体电子迁移率µn,bulk，它与温度的关系可以由等式(1)给出\[ 25\] 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8GJoKibWcQvjibr97gG4dbFc6zslmAiag0v8d1pRtOFH1OdO8cYHiam9Asg/640?wx_fmt=png)其中Tj是结温。然而，由于 SiO2/SiC 界面处的界面陷阱密度大，沟道的电子效应迁移率要比体电子迁移率小得多。 因此它也依赖于Vgs的大小，同时呈现出正温度系数\[ 26\] 。沟道电子的场效应迁移率与温度之间的近似关系为：
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_001_bcb5be69c1e8.png)其中Tj是结温。然而，由于 SiO2/SiC 界面处的界面陷阱密度大，沟道的电子效应迁移率要比体电子迁移率小得多。 因此它也依赖于Vgs的大小，同时呈现出正温度系数\[ 26\] 。沟道电子的场效应迁移率与温度之间的近似关系为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8ibZ8gv6q1kDfmfEDHpdYREOajjRgWITiaJXyw31IJTzmlXsr6xR2K8Vw/640?wx_fmt=png)其中β是正值。这个方程是一个简化方程，主要说明界面陷阱处的库仑散射在影响沟道迁移率的因素中起主导作用\[ 27\] 。另一个受温度影响的参数是带隙Eg，它与温度的关系可以用等式(3)表示\[ 28\]：
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_002_bee753a531f6.png)其中β是正值。这个方程是一个简化方程，主要说明界面陷阱处的库仑散射在影响沟道迁移率的因素中起主导作用\[ 27\] 。另一个受温度影响的参数是带隙Eg，它与温度的关系可以用等式(3)表示\[ 28\]：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8c5MP4lltibCRy9xu0xdGY306icoHsFFALrvUgAADfZSwIq9x99RRXniaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_003_2123337e1665.png)
 
 **1.2 阈值电压** 
 
 阈值电压是 MOSFET 器件的一个关键热敏感参数。通常它可以通过方程（5）给出的线性拟合方程来建模。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu89mSvoibfdMPVicFkria40LQpdPBVsZWRcDy26jI7biacNrNictKTSIxnZxg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_004_196730fa0767.png)
 
 其中Vth300是常温300K时的阈值电压，kvth是阈值电压的温度系数。对于所研究的芯片，实验提取的Vth300为2.78V， kvth为6.31mV。  
 
@@ -63,15 +63,15 @@ SiC功率器件已经在电动汽车、电动飞机和太空探索等电力电�
 
 图 2.5中d和s之间的部分由以下两个方程建模：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8Ntl9knN5CMqmZIcNpc3ob83wdRvIC1bF57Xn3icrw7ia6bad1yxUGO8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_005_44aa19b28c28.png)
 
 其中Ids是流过节点d和s的电流，Vds是两个节点之间的电压，Vgs是栅极偏置电压，Vth是阈值电压，λ是沟道长度调制。此外，kmos = µnch−fe Cox W/L是与制造相关的参数，其中W为沟道宽度，L为沟道长度，Cox为栅氧化层电容。k和Vth都与温度相关。当器件完全导通时，Vds非常小，因此Rch可以写为： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8ej843DoiaWiaj9Ok1rhXoQzodUyViaezqsfUkstFKy2A3ckTGicyYd2OWQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_006_9e9d4c36feb9.png)
 
 其中krs是一个常数系数，α应该接近公式（1）中的2.7。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu85aZL1Wlez1gvjSib1xYTjNrGOFF9WKyjc05OB8yrBsszoTiaj3X16qmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_007_6f45e92da374.png)
 
 **1.4 实验与参数提取** 
 
@@ -79,13 +79,13 @@ SiC功率器件已经在电动汽车、电动飞机和太空探索等电力电�
 
 因为总的导通电阻Ron可以写为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu87oNHjfkLFt7qYUECHREQBI2IwBJfX1UrRxV6DGDStc6IfuqKPkAbdw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_008_f1a6f8bf50e9.png)
 
 公式的第一部分是沟道电阻Rch，Rs为残余电阻。当(Vg–Vth)-1 接近0时，Ron约等于Rs，图4为将特性曲线转化之后的结果，其横轴变量是(Vg–Vth)- 1 ，纵轴变量为Ron。
 
  从总通态电阻Ron中提取Rs，Rs和Rch，它们随温度变化的趋势如图5所示。可以看出，当温度升高时，Rs将越来越占主导地位。与等式(9)预测的趋势一致，Rs随温度呈指数增长，提取的α为3.24，krs为15.6 mΩ。与公式(1)中的 系数值2.7略有不同，可以解释为Rs计算误差以及其他部分电阻如JFET电阻、衬底电阻等的影响。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8AvWN0evjaowiak9lOdPz8D12zMwFU9sWwz4icAWsLSfgoEKgFYETW0OA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_009_4025ba7b9460.png)
 
 与Rs不同，沟道电阻Rch与温度呈负相关性，提取的krch为0.281 Ω·V，β为 2.4。沟道电阻会稍微减缓功率损 耗的增加速度，但当温度升高时它的减缓效果降低。也就是说，在高温下，温度与发热功率的正反馈会越来越严重， 使得芯片更容易损坏。 
 
@@ -95,39 +95,39 @@ SiC功率器件已经在电动汽车、电动飞机和太空探索等电力电�
 
  **2.1 与温度无关的非线性参数** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8Ta8Am14ico2p6qUfyxgiauib9B3k6G6bCdp93chRLx18KnCGiaUDor69Ig/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_010_10ddd3661d8e.png)
 
 非线性主要可以由三个部分引入：热扩散过程、热对流过程和材料特性的温度依赖性\[29\]。热扩散效应的含义是 在芯片发热功率越大时，功率芯片与冷却液之间的温差也越大，因此散热面积也越大，从而使得热对流更加有效，即 热扩散效应带来的非线性。对于热对流过程，非线性由冷却液流动条件引入。但在电动汽车等一些应用中，依然可以 认为是线性的，因为它总是处于层流状态或层流和湍流之间过渡的早期阶段。然而，在一些功率非常大的应用中，需要采用相变散热等高效散热方式，非线性会较为明显。在这些情况下，可以使用变化的热阻或热网络模型。 
 
 为了研究这个问题，本文建立了如图6所示的仿真模型，仿真在COMSOL软件中进行。选择流体作为传热介质以反 映热对流过程，而通过改变热源功率值来体现热扩散效应。在没有对材料施加温度依赖性的情况下，结果如图 7 所示。计算得到的稳态结-冷却液热阻如表1。随着热功率从60 W增加到240 W，可以看出由于热扩散导致热阻下降非常小， 可以忽略不计。因此，在不考虑温度依赖性的情况下，可以认为传热系数与发热功率值无关。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8gbvgwg9VUoun4Pibv1FiaibFajKA8mLMibjOSGgB7hiaBgxEQk0Riac3RqRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_011_2a1c9095fcad.png)
 
 **2.2 温度对热阻的影响** 
 
 与上面讨论的其他两个因素相比，材料的温度依赖性对热阻的影响更大。热传导遵循傅立叶定律，热流密度q等于热导率λ和负温度梯度的乘积，即： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8ggiaQ9Zea8cBWlcldW0vESdpYyrpA4QKhia0ZJWZ4DVt0VzJCRY7mn7A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_012_4d917dd026f7.png)
 
 其中关键参数是λ，它是温度的函数，会引入非线性。模块中常用的材料热导率随温度的变化如图8所示\[ 29–31\] 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8OUkatMOpTuzpqKg6g4Dfa0Cz8FUSjONenMNc7ekicr22Gwan8zj3G8w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_013_1d3d69a2da06.png)
 
 热对流的过程比热传导更复杂，因为它与液体流动密切相关。除了偏微分热方程外，由努塞尔数描述的经验公式通常被用于计算传热系数\[ 32\] 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8uRDlL9wdpfPWQkAMC3Os8IoegEnibSiaSu2r3ZTQVo1Y2ibFibeVKSQVQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_014_d201de1a39cb.png)
 
   其中h是对流传热系数，λ是流体的热导率，L是特征长度，Nu是努塞尔数。λ、Nu 都是温度的函数。  
 
 表2为不同液体温度下的结-冷却液热阻的计算结果，图9为仿真的温度分布图。可以发现，当液体温度从300K 增加到375K时，结与液体之间的热阻变化约为0.01 K/W。在1kW 的功率损耗下，结温误差可以估计为10K。当 液体温度变化很大时，温度依赖性不能忽略，例如电动汽车冷却液。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu84FXAC8X3EOwj8wzDNGO3DKyAtsTm8YzKiajHlFMkDxez2E4TBLvs0zQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_015_66ff2dfa456b.png)
 
 **2.3 温度相关的热阻模型** 
 
 如上所述，热阻几乎与功率损耗无关，但对温度比较敏感。虽然散热功率的大小不会明显改变热阻，但它会影响 功率模块和散热系统内部的温度分布，然后使总热阻发生变化。由于温度分布计算需要较长的时间，而模块中间层的 温度并不需要特别关注，因此可以将结到参考点的热阻Rth,jr用二次函数拟合。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8anNagSfMqdibZKmb7iaaDDf91DllCk2FfJricOks8TOBWorL1FLAjWttQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_016_2c362a7d62c1.png)
 
 其中P是从器件的发热功率，Tr是参考点的温度，P和Tr可以被认为是相互独立的。 
 
@@ -139,13 +139,13 @@ SiC功率器件已经在电动汽车、电动飞机和太空探索等电力电�
 
 SiC MOSFET自发热产生的热量可以用等式(14)表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu86PdGgKUp1icGfw9eoyjdL9ZKZiaYjZhJoRIw68JHd6H7bNwFDa0XvudA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_017_a0cc50ab3ee0.png)
 
 另外，热阻也可以简单地表示为散热功率与温度差的关系，即 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8sazTxUflNKvd1VHeYXukDpWoN3ibKKK88c0673x93FFXYRHXjgOmlSw/640?wx_fmt=png)其中Pdiss是发热功率，Ta是环境温度，Rthja是结和环境之间的热阻。在这种情况下，Rthja是一个独立于Tj 和Id的常数值。
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_018_6bddd727e2e6.png)其中Pdiss是发热功率，Ta是环境温度，Rthja是结和环境之间的热阻。在这种情况下，Rthja是一个独立于Tj 和Id的常数值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8mJ4hjLCxMiadApvvJt1Zd76xBpqEdgnx73J30Mdoh0nogMBCqI45S3A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_019_86dfe2feac7a.png)
 
 图10为热失控的原理。当Pcond > Pdiss时，发热功率大于散热功率，结温将升高到新的平衡点或发生热失控。当Pcond < Pdiss 时，散热功率大于发热功率，结温将降到较低的热平衡点。当处于稳定点时, Pcond = Pdiss, 系统达到热平衡，负反馈可以拉回 小的偏移量。但是如果在不稳定点实现热平衡，一个小的扰动就可以使系统很快达到热失控。 
 
@@ -153,15 +153,15 @@ SiC MOSFET自发热产生的热量可以用等式(14)表示：
 
 很明显，实线（散热功率）和虚线（发热功率）之间会有两个交点，只有在第一个交叉点处才能达到热平衡。通过标记所 有第一个交点，可以获得在不同导通电流下的稳态工作点。同时当线性散热功率曲线与指数发热功率线相切时，可以算出最大工作条件为导通电流为48.5A，结温为514K（241 ℃）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8ibIoXU9zTIQ5ub2WO0ibD3SeuqoGOhKkeX88o0N6jlXy9frto0cP7ekg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_020_7c944afb8c0c.png)
 
 用以下两个方程可以解析地求出模块地最大工作点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8e8ZQMnGnJ3Lm1Itutib654qOVDJ6JUpYbiaMibolEh8l2UrmhLtcLtufw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_021_06512765afec.png)
 
 其中第一个方程表示热平衡，第二个方程表示最大工作点。将式（14）和（17）代入式（18），可以推导出该仿真情况下的 热失控条件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu84CQHaicpxH5b8q8snmA12vMyuAywtWZAM850tCtd13gOac75PBTKtww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_022_58bf29b51699.png)
 
 图12描绘了不同环境温度和热阻下的热失控过程。随着电流的增加，结温以加速的方式增加。可以发现，接近最大值的工作点是极其“不稳定”的，此时0.5 A的电流差可以在300 K的环境温度和1K/W的热阻下引起50°C的结 温差。因此，在实际应用中必须留下较大的安全裕度。热阻和环境温度对模块能导通的最大电流影响较大，为了充分利用SiC器件的优秀性能，应仔细设计散热系统以避免热失控。 
 
@@ -169,7 +169,7 @@ SiC MOSFET自发热产生的热量可以用等式(14)表示：
 
 本文搭建了一个测试平台来验证所提出的模型并评估高温稳定性。如图 13 所示，功率模块封装被打开，SiC裸片表面经过喷漆处理，可通过红外热成像仪获取准确温度。测试装置的参数列于表3，其中直流电流源用于加热功率模块，红外热像仪测量稳态结温，恒温冷却循环器用于散热。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8M1siaoDWA1XXBrC60JWiaLGO5pAwU1iaW6NSPwT0ibslVpflcP1RZh8DaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_023_609526db88c3.png)
 
 实验过程如下：1）施加恒定电流对Si C器件进行加热，2）等待达到稳定状态，用红外热像仪测量结温，3）记录 漏源电压和电流用于热阻计算。
 
@@ -177,7 +177,7 @@ SiC MOSFET自发热产生的热量可以用等式(14)表示：
 
 应用前两节的模型，进行电热联合仿真，图14为仿真结果与实验结果的对比。功率模块实测最大导通电流能力为 180A，仿真结果为188 A，结果吻合得比较好，误差约4%。但是，在接近极限运行条件时，在相对较高的电流和温度 下，实测的温度比仿真结果的上升速度要快得多。这是一个突出的现象，它意味着更多的因素可能会影响功率模块在 高温下的热稳定性。本小节将讨论在仿真中没有考虑到的一些因素。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8klqkFh43HKRzGt2ak6K85DbqT8Zp1BQ0HGRficwWyfbiawlQ20ZlurnA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_024_427ee3d303e5.png)
 
 **3.3. 1V****th** **漂移** 
 
@@ -199,10 +199,10 @@ SiC MOSFET自发热产生的热量可以用等式(14)表示：
 
 接下来本文阐述了热失控过程的机理，分别讨论了保持热稳定状态和达到热失控状态的条件。最后，结合SiC热电耦合模型和外部散热系统的热模型进行联合仿真，获取了功率模块的最大导通电流的能力。同时设计了实验测试来验证所提出的模型，实验结果与仿真估计误差在4%左右。最后讨论了Vth漂移和多芯片电阻和温度分布不平衡两个非理想因素的影响，估计误差可以进一步降低。 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWXDmowXFAg3JN6w4Rlmu8a7wuJxic2yjgTXEzjBYibkKZOjHbo2LickXuR2SgAZ0AF0y0ERicG9cf0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_025_41ac30d91cb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_026_ea0192bed0ec.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_027_a7ecee98ead9.png)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\中国科学院_SiC_MOSFET器件高温下最大电流导通能力评估方法_images\img_028_9bbc7b9b15a2.png)

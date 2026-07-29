@@ -5,13 +5,13 @@
 
  1. 制氢电源的定义与技术特征
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvw0JibMK49duIcPP1cAdQicyprsyVricde81EPjFIjxoH45CjAFYoOyficEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_000_321837f438ff.png)
 
 制氢电源是电解水制氢系统的核心电能转换设备，承担着将输入电能转化为适合电解过程的高品质直流电的关键任务。作为连接电网(或可再生能源系统)与电解槽之间的“桥梁”，制氢电源通过精密电能调控为电解槽提供稳定、高效的直流电能，驱动水分子分解为氢气和氧气。其性能直接影响制氢效率、系统安全性和经济性。
 
 技术原理与构成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwZgSzRBRibSuasbWTjHvI19fPZCkJHIu4QWLK8sHftFmwmrWS6icH9U4w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_001_9cbaefcee9a1.png)
 
 制氢电源的核心工作原理基于电力电子转换技术。它将来自电网或可再生能源(如风电、光伏)的交流电(AC)或波动直流电，通过整流、滤波和稳压等环节，转换为与电解槽匹配的直流电(DC)。现代制氢电源系统由功率模块(实现电能转换)、控制单元(实时监测和调节电压电流)、冷却系统(保障设备温度稳定)以及保护电路(防止过压、过流等异常工况)等组成。
 
@@ -29,7 +29,7 @@
 
 技术路线对比：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwKIXmTWfcVPQxRpxdlIwKtlQR9lbIVmfFxYSZzyx9pznbvrb5VfOWzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_002_533d6eb1d85e.png)
 
 当前主流制氢电源根据核心功率器件不同可分为两类：晶闸管(SCR)电源和绝缘栅双极晶体管(IGBT)电源。
 
@@ -37,7 +37,7 @@ SCR电源采用半控型器件，成本较低(5MW系统约20-30万元)，但动�
 
 表：主流制氢电源技术路线比较
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwbl7Qf8C3VStW36eByxtInibxYNaTB4Fiazic2iapudMWoHb3ZlAMfr2BHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_003_ecb701ee8cec.png)
 
 2 .制氢电源应用市场分析
 
@@ -47,17 +47,17 @@ SCR电源采用半控型器件，成本较低(5MW系统约20-30万元)，但动�
 
 风光制氢基地：在新疆、内蒙古等风光资源富集地区，制氢电源将波动性风电、光伏发电转换为稳定直流电，驱动大规模电解水制氢。例如新疆某风光氢储一体化项目采用28MW可控硅制氢电源，实现绿氢规模化生产。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwKhiawBTeXQw5Z6HdXVfwXgNG1uK25OqqRp75icjrJ2KUM7O9fAtLiaE2w/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_004_affd8d93bb66.jpg)
 
 工业副产氢利用：在钢铁、化工等高耗能行业，制氢电源将工业副产电力高效转化为氢能，实现能源循环利用。宝武集团氢冶铁项目中采用IGBT制氢电源，将焦炉煤气中的氢气高效分离提纯。
 
 加氢站供氢系统：为氢燃料汽车加注站提供现场制氢解决方案，英杰电气开发的IGBT+DCDC集成电源已应用于多座加氢站，实现“电-氢”直供。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwZViaa2rYBliac30OHtyoLRqt0PE6FfVx8z5Cq4tN026dibL01AjE0GCHA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_005_bd12ccc2df8d.jpg)
 
 电网储能调峰：利用谷电时段低成本电力制氢，在电力高峰时段通过燃料电池发电回馈电网，提升电力系统灵活性。江苏如东项目采用制氢电源参与电网调峰，有效缓解了新能源消纳压力。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwS9rkvASRqXEUzhcYdLFvLUEwxvmGRdMr7fxwoBQ85M6XXWrxPMoXicA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_006_9e74d88e8f55.jpg)
 
 2.2 市场前景与发展趋势
 
@@ -81,7 +81,7 @@ SCR电源采用半控型器件，成本较低(5MW系统约20-30万元)，但动�
 
 3 .SiC器件在制氢电源中的应用优势
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwKWLN3LSB5Efoslmc1m4p2JcWKg1080C5pxgjkSUibmc2dsnvwt9pQxA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_007_69759bc180a0.jpg)
 
 碳化硅(SiC)作为第三代半导体材料，凭借其宽禁带特性(3.2eV，硅为1.1eV）在高温、高压、高频应用场景展现革命性优势，正成为新一代制氢电源的“核心引擎”。
 
@@ -131,13 +131,13 @@ SiC模块的高功率密度特性实现系统小型化：
 
 表：SiC与IGBT在制氢电源中的性能对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwljt2EWqO9Vfnt03GrTicwLw5L3RQXFjwqicfDa8JWF2qbmjCnXmR0oAQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_008_411b2d3e3e4b.png)
 
 4\. SiC器件在制氢电源中的典型案例
 
 4.1 中车电动SiC基DC/DC变换器（燃料电池应用延伸）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwJyPg2WVYNmWicJwkvp31oNpMCrEVCFKvmLZ94GqLDiaPHibVPW5996FhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_009_8101cacf62ec.png)
 
 中车时代电气开发的基于SiC的大功率DC/DC变换器虽直接面向燃料电池应用，但其技术路线为制氢电源提供了重要借鉴。该产品采用全SiC功率模块，实现多项突破：
 
@@ -151,7 +151,7 @@ SiC模块的高功率密度特性实现系统小型化：
 
 4.2 国产SiC模块在高压制氢系统中的应用
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvw0SxcEiciaIhsvfAAt2kuBnesdlOXdUZMLPkD9KdvheyuQ86jS3cjULkw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_010_d6c4129104f5.jpg)
 
 国内半导体企业推动SiC模块在高压制氢领域实现产业化突破：
 
@@ -163,7 +163,7 @@ SiC模块的高功率密度特性实现系统小型化：
 
 4.3 离网制氢场景的SiC解决方案
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvw4fOpWKmxCMsuVvL690OtCqdLbl3yxTopQribEVcfJXvw4vHusyXvJpw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_011_29ced6c38a80.jpg)
 
 在风光离网制氢场景，SiC器件展现出独特优势：
 
@@ -177,11 +177,11 @@ SiC模块的高功率密度特性实现系统小型化：
 
 禾望电气围绕电能变换及控制的核心技术，为全球客户提供绿色低碳的能源解决方案。开发了一系列IGBT和SiC制氢电源产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvweTN3nmUC6zZicIoictql86k2DmOuQoevjTtDlr2PCDfibGOd6M0qf9hhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_012_72d4706dd502.png)
 
 禾望SiC制氢电源
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslSEx3TRHtibDjBibqJzmAQvwF0AIeAL4JyIOSwlQPOmF59N79xu7GfHopCqTVZgmM39sftqGmMD5yA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_013_5401574b2787.png)
 
 禾望IGBT制氢电源与SiC制氢电源对比
 
@@ -219,16 +219,16 @@ SiC功率器件凭借其材料特性带来的革命性突破，正引领制氢�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQDP2OptlJyY47cUaXeAxoBKpPBtvvoJjPb2XwEzL5LWoSG5Z8J0y9ew/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_014_67b1ad8b4c18.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQkLGW9e0UBgRv064Dr2I3hyquK0IblUMAVmVmrmaxKcCkx8RLbx2DFw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_015_6f0ca7723de5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQBXorfbHySbakwj6LpWL6dkl97zFHP1BzLcFh7QMPn2nmh25Pvx4HWQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\制氢电源与SiC器件应用分析_技术革新驱动绿氢产业发展_images\img_016_ac25d092a2ab.png)
 
 ###   
 

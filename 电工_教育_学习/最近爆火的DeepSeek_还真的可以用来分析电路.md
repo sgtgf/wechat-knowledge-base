@@ -18,7 +18,7 @@ AI工具现在好像也挺多的，像什么豆包，文小言，KIMI之类的�
 
 **一、它是开源的。**意味着全球的开发者都可以免费使用和测试它，促进了行业的进步。开源的好处有以下几点：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhpYph1xo7IyGIjRnpPds11hTF8mT6qrkGbUoA3hzlmDjuwl1FQCazEB7AUVF42atnAZJTVGrvDAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_002_c93a44d72b71.png)
 
 **二、它是咱们国****产的。**在AI大模型领域，比较火的好像就是ChatGPT之类的，DeepSeek据说能与之抗衡，在逻辑推理等各个方面都碾压同行。
 
@@ -28,7 +28,7 @@ AI工具现在好像也挺多的，像什么豆包，文小言，KIMI之类的�
 
 再来说一下这家公司，公司位于浙江省杭州市，于2023年7月17日成立，到现在才一年多，可见其创业团队有多强大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhpYph1xo7IyGIjRnpPds11NO7bMKdz1WVjNiaFf95EDZoaudYjqvbVPsRCrlmiaCWpeuibDaa2LH8Dg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_003_c9e8a90262c7.png)
 
 DeepSeek的创业团队主要由年轻且充满活力的应届生和在读生组成，特别是来自清华大学和北京大学的应届生。团队的核心成员包括梁文锋、高华佐、曾旺丁等，他们在模型架构和算法创新方面做出了重要贡献。
 
@@ -36,7 +36,7 @@ DeepSeek的创业团队主要由年轻且充满活力的应届生和在读生组
 
 以下是我上传了一张电路图，让DeepSeek帮忙分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhpYph1xo7IyGIjRnpPds11aQRDeLMse0L2X2bqMib6j4UIYEFXuyqcM08qEibqxpkkYGDKmJia69zpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_004_08fe4e72420d.png)
 
   
 
@@ -162,7 +162,7 @@ DeepSeek的创业团队主要由年轻且充满活力的应届生和在读生组
 
 登录官网 chat.deepseek.com 即可与最新版 V3 模型对话，在右下角直接上传电路图，然后输入请帮忙分析之类的话，就可以了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhpYph1xo7IyGIjRnpPds11o36t7w854gniaJdJwsI7UeibZr5iaAaupNdgDymiaLiblzFKJ3nLaZbb4JA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_005_a18cea079569.png)
 
 文章参考来源：  
 
@@ -176,19 +176,19 @@ https://baijiahao.baidu.com/s?id=1820416672677804227&wfr=spider&for=pc
 
 **推荐阅读**（点击图片直接进入）
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_006_b0d1466d16df.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_007_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjp9yy0z2QDvC7iaeHMB8Plb72fjzFv31icQfEKicFLricceMych76njNhNG0hjLDic7xB2vBr1mf0hTBA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=MzkwMzI4MTA4NA==&mid=2247498828&idx=1&sn=e91fc5514f5fb14ed26a6ba65a0dd795&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_008_b55be6bc4312.jpg)](https://mp.weixin.qq.com/s?__biz=MzkwMzI4MTA4NA==&mid=2247498828&idx=1&sn=e91fc5514f5fb14ed26a6ba65a0dd795&scene=21#wechat_redirect)
 
   
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_009_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\最近爆火的DeepSeek_还真的可以用来分析电路_images\img_010_d5dcc7ecfdf3.jpg)
 
 ## 
 

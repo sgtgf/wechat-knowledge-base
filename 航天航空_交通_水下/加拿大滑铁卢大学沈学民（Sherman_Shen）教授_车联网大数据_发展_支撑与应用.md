@@ -16,7 +16,7 @@
 
        车联网与大数据的关系为（图1）：首先，车联网需要支持大数据的获取、传输、存储与计算；同时，通过对大数据内在价值的有效利用，车联网的架构与设计可以进一步得到优化。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHcJtkbuBjC8RTNbKDFicz8ic81axOrIoYHdeGK0ofiafWO62HtVPicTWWMA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_000_2b298a4df624.jpg)
 
 图1 车联网与大数据
 
@@ -28,7 +28,7 @@
 
       大数据传输部分介绍了应用感知的传输策略、媒体访问控制协议、路由协议以及空中扩展信息平台。大数据存储部分介绍了存储类型（车载存储、路边存储、网络存储）、相关存储机制等。大数据计算部分介绍了基于车车通信的在线计算以及车载云计算等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHv5wyN86xO2Jb4g9RIsRicjt6ibp9gKXuWfjmP2YEkN5icwEklvibGoe2cA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_001_6886446dff65.jpg)
 
 图2 综述内容
 
@@ -48,7 +48,7 @@
 
        作者对两类MAC协议设计的研究现状都进行了综述。此外，支持大数据存储介绍了存储类型（车载存储、路边存储、网络存储）、存储机制等。最后，支持大数据计算介绍了基于车车通信的在线计算以及车载云计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHkYTHthDdL6WTYWm1Nl0NSCYYBFWHrLHjMTf0WQZMYQSiankhrJ67PXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_002_c29bace75309.jpg)
 
 图3 车联网支持大数据传输框架
 
@@ -70,7 +70,7 @@
 
        无人驾驶场景下数据来源包括车传感器、GPS、摄像头、激光雷达、用户体验数据（游戏数据）、边缘数据、众包数据等，结合网络传输共享、本地及云平台的计算能力提供基于高精地图的安全应用、导航、无人驾驶、车载社交网络、娱乐休闲等应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHraB0YvwfJ8ib8p6aCQaloRY9M94dzqsyB68Ob94Q2CNrTnaX1Iibefsg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_003_d8e63bcffab5.jpg)
 
 图4 大数据支撑的无人驾驶
 
@@ -80,13 +80,13 @@
 
 W. C. Xu, H. B. Zhou, N. Cheng, F. Lyu, W. S. Shi, J. Y. Chen, X. M. Shen, “Internet of vehicles in big data era,” IEEE/CAA Journal of Automatica Sinica, vol. 5, no. 1, pp. 19-35, Jan. 2018.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHcdjXDVj1nmcnUqeFmLzNrC85icsg4JOX3R4hFLquYkUDiaqTSNmz5FcQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_004_9109e9035d27.png)
 
 长按识别以上二维码，或点击文末“原文链接”，可阅读全文
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHojcGmyQR8ENAI6TAjia1oXM6j9Xky6G9vxHkq24ZL3sGHmWibceIgVQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_005_e644bab3b41a.png)
 
 **沈学民 (Sherman Shen)**, 加拿大滑铁卢大学首席讲座教授，加拿大皇家科学院（RSC）院士，加拿大工程院（CAE）院士、加拿大工程院（EIC）院士以及IEEE院士。沈教授长期致力于无线通信网络中的无线资源与移动性管理、媒体介入控制以及网络安全与隐私保护等理论与技术研究，特别在车载通信网络与无线体域网络等研究领域做出了原创性与系统性的工作，令其本人及其研究团队在国际上享誉盛名。
 
@@ -94,35 +94,35 @@ W. C. Xu, H. B. Zhou, N. Cheng, F. Lyu, W. S. Shi, J. Y. Chen, X. M. Shen, “In
 
        鉴于其杰出的学术成就，沈教授被授予滑铁卢大学电子与计算机工程系杰出表现奖（2002年）、加拿大安大略省“杰出科研贡献总理奖”（2003年）、IEEE通信协会杰出讲师奖（2009年-2010年）、IEEE车载技术协会杰出讲师奖（2011年-至今）。沈教授于2013年荣获IEEE通信协会自组织与传感网技术委员会所颁发的技术成就认可奖，该奖项代表该研究领域同行的最高认可，沈教授是第一位在美国之外荣获此殊荣的人。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHCBoFUjDpRsicgb8GIhqTgTAmJzepVQ8sPk4uQl2Hzo2JUaxNCZu8twQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_006_5d5d543a6406.png)
 
 **徐文超**，加拿大滑铁卢大学电子与计算机工程学院博士研究生，主要研究方向为无线通信包括资源分配、网络建模、无线数据分流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHDLQlrh8LxT7S6089jp7o9r4k7H9Zf95C6vYrtezlhCUNO1QOkohJjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_007_9a9271da9dce.png)
 
 **周海波**，南京大学电子科学与工程学院副教授，主要研究方向为认知无线网和车载网中的资源分配和协议设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHGCGChG5w4RtUwRIU9frTFn6P3BrXc6kGTwia4ZP9Lokfzp2979ehDBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_008_f50e4fc2327c.png)
 
 **承楠**，加拿大多伦多大学-滑铁卢大学联合博士后，目前研究车联网大数据以及无人驾系统，主要研究方向为车载网络中性能分析、MAC设计、机会通信协议，以及数据卸载。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHicjuuUia62qDH7C5GnhPgSdqoCZmjDgvOZsbc5uT7ga0495qSjB1DjaQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_009_2f5b4d6a9edd.png)
 
 **吕丰，**上海交通大学计算机科学与技术学院博士研究生，主要研究方向为车载网络和云计算。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHWib9cWgicia6CichGBA0RfMkOyOILQ9wmI6lict0QibWceZv0jwO4mNGcv2g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_010_9cba06bb84f6.png)
 
 **时伟森**，加拿大滑铁卢大学电子与计算机工程学院博士研究生， 主要研究方向为无人机通信、SDN 和车载网络。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHEvNpO4TeUUddmGiaEqUY40N50CB6v6hcDNJFsVEYc5XkNyRibQEnp8gw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_011_56fade1465a4.png)
 
 **陈佳音**，加拿大滑铁卢大学电子与计算机工程学院博士研究生，主要研究方向为车载网与机器学习，目前研究智能交通与大数据。
 
 欢迎扫描二维码、长按图片识别关注自动化学报英文版微信公众号！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHQe1VQ43v7sXtyNDPlBU0foHqShKzibofdOkNIRkq9yWA8zCm2dIaUrw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_012_48c3d2b8e02d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHV1LaQXdnGC2jXiaMibeM6m7WEEKepYGXlrn03csA98aXyldGwckicePeA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_013_e32021caedda.png)
 
 **网站**：
 
@@ -144,4 +144,4 @@ www.ieee-jas.org
 
 **Tel:** 010-82544459, 010-82544746  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHbGGC7UpiaLRzylnePm2zm5I9kZIRnqamZEY1l6KQGHfflGBjTTGOGKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\加拿大滑铁卢大学沈学民（Sherman_Shen）教授_车联网大数据_发展_支撑与应用_images\img_014_2f6bc84dcae7.png)

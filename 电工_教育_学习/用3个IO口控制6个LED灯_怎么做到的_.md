@@ -8,7 +8,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NgCWm0AJqf72jrSfEf9parjfOfcyVjkkVJfdlicYHdW5aP0L5ficxXKLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_007_7f6ae159c17e.png)
 
 ▲ 本文要分析的电路  
 
@@ -18,31 +18,31 @@
 
 买了个电动牙刷，几十块钱那种：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GBEGe3qt09fBEd9YMicWK87NJrmVeJNUJ4lucIUawic6TOkJIGYqSMpWMM17AI4UkibhzUMRhxMwguzw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_001_94e1591e6840.jpg)
 
   
 
 收到的实物长这样：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GBEGe3qt09fBEd9YMicWK87NlXdqia9doGMUIZ7pmpqFUhfT4iaWO2frOBafcCIWvwQ5uJTpNZoYQbTw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_002_9a1eedcbf65b.jpg)
 
   
 
 牙刷手柄上有1个按键和6个LED灯：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GBEGe3qt09fBEd9YMicWK87Nm4MOETn5icyMtVYPPdEW9kpIjwkqxHqQ5uMLXSSY5UtbI23ib6vQIThg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_003_896bf3b64da4.jpg)
 
   
 
 拆开看看电路板：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GBEGe3qt09fBEd9YMicWK87NxwdRDXxCdNEjPZ18H7Zu2zqoX5O0yR9cp6Vb4lMBOU4YQL0U32uurg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_004_609f6a3845b4.jpg)
 
   
 
 可以看出，电路板上用的单片机，只有8个脚，却要控制1个按键、6个LED灯、1个震动的马达电机：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GBEGe3qt09fBEd9YMicWK87NYJicLPwuu5KIygKKWCNk8WyXicuXvalsxbVTVtdeYk8zdcOkL49gpVTQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_005_8a4db6345c37.jpg)
 
   
 
@@ -54,13 +54,13 @@
 
 原来，经过巧妙的电路设计，这款电动牙刷实现了用3个GPIO控制6个LED灯，节省了GPIO。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GBEGe3qt09fBEd9YMicWK87NJrGHO82icbZfpxoaia5TsRxlPthWqO42pWfRouT7ibDzsab6GGnm3B94Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_006_a41ad4fe19c0.jpg)
 
   
 
 这个巧妙的电路如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NgCWm0AJqf72jrSfEf9parjfOfcyVjkkVJfdlicYHdW5aP0L5ficxXKLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_000_7f6ae159c17e.png)
 
 6个LED灯为相同的型号，为方便查看，用红绿两种颜色区分两种不同的方向。
 
@@ -83,31 +83,31 @@
 
 1、当只有LED1亮起时，单片机各GPIO的状态如下：（带箭头的红线为电流回路）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NyyIbnL1UOGSca2zA2ZGdSveNDHPlkrEgcN2icibWyr7XO1nXSRmzyUKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_008_322c15a64f3c.png)
 
 2、当只有LED2亮起时，单片机各GPIO的状态如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NBErdU56iaJHRc2fV7niauj80JMUAXlBunbSaS0BsD7zwx5pbd1iaUSJMw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_009_f8a49c1def3f.png)
 
 3、当只有LED3亮起时，单片机各GPIO的状态如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NaVnjaLiaLX19EhDomcbUNib27e8ESzoeGibxEjGh8icftLZIbOVeazmalg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_010_28a984b93e5c.png)
 
 4、当只有LED4亮起时，单片机各GPIO的状态如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NO3KU1JUyibdAjXdRNeNWD7xlwDIfx0161OTTNibFfrXGCc8QqPyQ7OZg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_011_4ea32f494c74.png)
 
 5、当只有LED5亮起时，单片机各GPIO的状态如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NybUMAlghton34oZe03Ok7n869KANWAdvAdSaWLJy73zw4I44hfNWmg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_012_982f19471ff8.png)
 
 6、当只有LED6亮起时，单片机各GPIO的状态如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NYPJKZeB0Fd7q4UcZ9FFNicGrybUsXZDU34Mn8wGbwUBSYu6egSbfn8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_013_4e5d5ec81351.png)
 
 整理如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87N8icgPTclyWlc0ZsaCGTfLGWkZpdeF8UETkXgSTGFuwSO3MtAke9WVzw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_014_2cdc4d8e9de5.png)
 
 就是这么简单！
 
@@ -119,11 +119,11 @@
 
 为什么叫查理复用？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/cGtViclN98GBEGe3qt09fBEd9YMicWK87NwjWDA7kvic0EwfIztYsoLZxxCSBs2IwDuRQ5KYcW6S9lItOLTr1Zr4w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_015_8b4af9b82301.jpg)
 
 很简单，因为这个方法来源于美信半导体公司的工程师Charlie Allen。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/cGtViclN98GBEGe3qt09fBEd9YMicWK87NJaYibVyeticHkCSEkDloicY8Jqj5zWZqXUdoWvTlsGrIticAjy8rN4O4pw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_016_913111d3df1d.gif)
 
 查理复用是一种能够在驱动LED，特别是驱动大量LED时有效地节约GPIO的方法。
 
@@ -158,35 +158,35 @@
 
 1、使用2个GPIO时最简单：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87Nq7ALKzAvZMex3icC9nQrCSYUdGdD57uG0ibhpHKkoMTulsArYI8w1Tng/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_017_1b8bc2d2c3b1.png)
 
 LED1亮起时：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NEGObpfSdTq6VLHNRVyOgHCXfgF3QCoByPicGm6LxyUhibDBNnwd5jicsQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_018_6de5e63a4a19.png)
 
 LED2亮起时：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NtM8Lz1P9bHlRLIZmfxe5ELJVbRbzLr3BSs3WBWetIIWqhiczfxpQiaGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_019_e7fa3a11d61f.png)
 
 这里只用到高电平、低电平的状态，不需要用高阻态的状态。
 
 2、使用3个GPIO时，前面已经分析过：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NgCWm0AJqf72jrSfEf9parjfOfcyVjkkVJfdlicYHdW5aP0L5ficxXKLw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_020_7f6ae159c17e.png)
 
 可以等效为下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87Nibzz4wmnNPJmNu57LkpQn8ceeoo7Etqq23HcqSo77UYW5iczJeVibHggQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_021_a7bedce092d4.png)
 
 可以看出，确实是任意两个GPIO之间均串入了两个并联的LED，且LED方向相反。
 
 3、同样的原理，使用4个GPIO时：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NATicN4mib3ALdeCDTAr1cqIN2XFbdZj6kdUde5JHRDZpGCBL3HAus6rg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_022_5df512f703e5.png)
 
 点亮LED1时：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NEcc5UpWariadkv6gO9juN37bKhELgtKDnvsknC9BwMOczo31aQwABicw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_023_823cc81fa4f3.png)
 
 其他LED亮起的情况不再列举。
 
@@ -194,11 +194,11 @@ LED2亮起时：
 
 首先，LED亮起时完全由单片机的GPIO输出电流，所以对于GPIO的电流驱动能力有一定的要求。设计电路时要注意查询自己使用的MCU的电流驱动能力，下图是STM32单片机中对GPIO电流驱动能力的说明：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NuId1HPdmtApLR0dn7JKc54vbZAibJMTjYY44RdDz7Vnw0UFcwaS2ZQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_024_77114d499efc.png)
 
 其次，如果出现了某个LED开路或短路的情况，电流的流向会被打乱，LED亮起来的逻辑会变得错乱。最坏的情况下，电路会对GPIO索取大电流，导致单片机损坏。下图是假设LED1短路，那么在点亮LED5时，LED3也会亮起：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cGtViclN98GBEGe3qt09fBEd9YMicWK87NSjGUVoqQHP8AFwYeQuVSkOw4AbVTCMdIBtBu3JLvKkKWOBPaI1sC4w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\用3个IO口控制6个LED灯_怎么做到的__images\img_025_6944c8146065.png)
 
   
 

@@ -63,15 +63,15 @@
 
 传统的两电平逆变器现在的应用水平已经十分的成熟，虽然其有着结构简单控制简便的优点，但是目前的电力电子变换器多数往高电压等级和高功率方向发展，桥臂上功率开关管的耐压要求也在提高，这无疑会给开关管器件的成本造成很大的压力。另外，由于两电平的输出，波形正弦化较低，波形质量较低，使得滤波器设计中电感的设计将会很大，造成体积和成本的增加，降低了系统的功率密度。三电平逆变器不仅提高了系统的高电压等级，又使得开关管的耐压等级选择不那么苛刻，而且由于逆变输出侧电压是三电平的，波形正弦化较好，波形质量较高，在逆变滤波器的设计中电感值相对于两电平较小，体积和成本大大降低，提高了系统的功率密度。目前，较为热门和应用比较成熟的三电平逆变器拓扑结构有以下三种：二极管钳位型三电平逆变器、飞跨电容型三电平逆变器、T 型三电平逆变器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP6jhfO9sFy8iagiaeV7UEgE9tErxMC64M8ch2pU6Qdc8CfeTPpCNTqocw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_000_b36fa31001a3.png)
 
 如图 1-1 所示为二极管钳位型三电平逆变器拓扑结构。该拓扑于 1980 年由日本学者 A Kira Nabae 提出，该拓扑结构是在直流母线电压两端串联四个功率开关管，通过两个高耐压二极管将中点电位钳位在 0 处。正常工作时，每个功率二极管只承受直流侧母线电压的 1/2，提高了变换器的电压等级和功率等级。但是，二极管钳位型逆变器容易产生中点电压不平衡的问题，而且高耐压二极管也会增加系统成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPy8gLibC3ErGYMzK4djibV5TvsFeUmaqlpuWxaq13EwzKoiaNc4bEmEBLA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_001_b80e03a7d106.png)
 
 如图 1-2 所示为飞跨电容型三电平逆变器拓扑结构。该拓扑于 1992 年由T.A.Meynard 和 H.Foch 两位学者提出，该拓扑同样是在直流母线电压两端串联四个功率开关管，由两个相同的大钳位电容将中点电压进行钳位。正常工作时，每个功率二极管只承受直流侧母线电压的 1/2，电容的引入可以改善电压合成的灵活度，但是电平数的增多会使得控制变得复杂，而且在高功率应用场合下，大容量的钳位电容成本和体积都会增加，系统的功率密度降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPdge4KAUl0vtNIEOcdnO1ZjgT0sYSloyzQwVWMbTzDM2I35qMXgVZ7w/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_002_82f7b2feb284.png)
 
 如图 1-3 所示为 T 型三电平逆变器拓扑结构。该拓扑于 2007 年由 Conergy 公司的 knaup.P 工程师提出，该拓扑是在传统两电平逆变器的基础上添加两个等容值的电容和横向的两个功率开关器件组成双向开关，实现对桥臂上下两个开关管钳位的功能。正常工作时，桥臂上的开关管承受直流侧电压，中点钳位处的两个功率开关管由于分压电容的原因仅承受一半的电压。而且换流过程中也不用考虑电流方向，也无开关时序问题，给控制带来了便捷。
 
@@ -129,23 +129,23 @@
 
 T 型三电平三相逆变器主电路如图 2-1 所示。其中，Udc 是系统拓扑的直流侧母线电压，由光伏阵列电池板经过 Boost 升压电路的输出电压得到。为了使该拓扑能够实现三电平输出，两个相同规格的分压大电容 C1 和 C2 串联后并联接在储能电池正负电压两侧，大电容 C1 和 C2 的连接点处就是中点电位零电位 O 点，相对于 O 点 C1 和 C2 的分压分别为 1/2 的 Udc，这也正是三电平逆变器所需的功率器件电压等级较低的原因。拓扑中每一相有四个功率开关器件构成，其中包括两个连接在中性点的 IGBT 和两个半桥的碳化硅（SiC）MOSFET 开关器件。逆变侧是LCL 滤波器与电网电压相连。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPE41egPBadCJt39reSMO7bDpjk2U65umfe67PmtW9zrZvGmQG0eibhew/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_003_11656ed99b3f.png)
 
 T 型三电平三相逆变器中，横向串联的两个功率开关管可以采取共射极的连接方式，也可以采用共集电极的连接方式，当 IGBT 采用图 2-2 左图所示的共射极连接时，需要有 7 路独立供电电源为驱动电路供电，当 IGBT 采用图 2-2 右图所示的共集电极连接时，仅需要 5 路独立供电电源为驱动电路供电，比共射极连接方式下减少了 2 路独立供电电源的设计。因此，串联的两个功率开关器件采用共集电极连接方式可以减少独立电源的使用数量，降低了系统成本。但是，当串联的两个功率开关器件采用共射极连接方式时，驱动电路所需要的阻断电压较低，相对于共集电极来说，开关损耗和传导损耗也较低。为了满足当前新型变换器的低损耗高效率的要求，本文决定横向串联的两个功率开关管采用共射极的连接方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPlh6Mhna2QjIskBUkJUhNEagf82ZtTafKalu7ZyPnRaZnEVEwaoeCxg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_004_e03889de9a80.png)
 
 由于 ABC 三相的桥臂工作状态完全相似，本文以 A 相桥臂为例来对 T 型三电平三相逆变器的换流过程的工作模态进行分析。如下图 2-3 为 T 型三电平三相逆变器的开关时序图，调制波设置为 50Hz 并网电压频率，载波设置为 50kHz 的开关频率，通过载波与调制波的比值就可以得到四个功率开关器件 Sa1~Sa4 的开关时序。如图 2-1 所示，闭合开关管 Sa1 可以得到正电平，闭合开关管 Sa4 可以得到负电平，通过同时闭合开关管 Sa2 和 Sa3 可以获得中点电平，这种控制策略下电流是双向流动的，需要一种基于电流的方向而定的换流控制策略。目前用的更加简单和高效的换流控制策略是可以不依赖于电流的方向而正常工作的。该控制策略是在闭合开关管 Sa1 的同时闭合 Sa2 来获得正电平，使开关管 Sa2 和 Sa3 同时闭合来获得中点电平，闭合开关管 Sa3 的同时闭合 Sa4 来获得负电平，这样可以达到电流的自然换向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPsmxgD38xYQC5UkLzvsxpLL5Tw5kEkcV4JfZuDFGQQ9s8lA6ZerGZZQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_005_c8b341817f95.png)
 
 表 2-1 所示为相应的所需求的输出电压对应的开关器件开关组合，所有的功率开关器件仅仅通过短暂的开通延迟时间的设定，就可以完全避免直流母线短路的风险，使得系统安全稳定运行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPOBYHFSlMa2iceeSzUNpV8dt4kB5H6x6PAt4jZaKJMOlMC5YKMhLxIzg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_006_cc53c06092bd.png)
 
 具体的 T 型三电平三相逆变器中 A 相半桥电路的换流过程如图 2-4 和 2-5 所示。假定该模式下电流的方向是正向流动，当输出的 A 相电压连接在正母线电压（P）处时，功率开关管 Sa1 和 Sa2 导通。当输出的 A 相电压需要切换到中点电平（O）处时，功率开关管 Sa1 断开，功率开关管 Sa3 经过短暂的死区延迟时间后导通，这样可以实现在功率开关管 Sa1 关断时，电流通过功率开关管 Sa2 和功率开关管 Sa3 的续流二极管自然地换流至中点电平（O）处。假定该模式下电流的方向是负向流动，由于此时功率器件 Sa1 开通，Sa3 关断，输出的 A 相电压可以通过 Sa1的续流二极管续流，使得输出相电压连接到正母线（P）电压，若要实现输出的 A相电压切换到中点电平（O）处时，功率开关管 Sa1 断开，功率开关管 Sa3 经过短暂的死区延迟时间后导通，这样可以实现在功率开关管 Sa1 关断时，电流通过 Sa2和 Sa3 自然地换流至中点电平（O）处。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPWEbJB4VSelm1UC3qJcMx7uH0dVSHofk5rrkvQMDnVft79LZTCAoQHw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_007_bd41708a4baf.png)
 
 当系统采用空间矢量调制（SVPWM）策略切换点发生在扇区交界处时，为了避免电流从正电压（P）跳变到负电压（N）或者从负电压（N）跳变到正电压（P）的情况发生，因此要求在同一调制周期内 Sa1 和 Sa2 不会同时导通。对于 T 型三电平三相逆变器进行电流切换过程时，功率开关管 Sa2 和 Sa3 的续流二极管 D3 的阻断电压会从-Udc/2 跳变到 Udc/2，此时，800V 的直流母线电压会直接加在 AO 两端。
 
@@ -165,33 +165,33 @@ T 型三电平三相逆变器电路共由 12 个功率开关器件构成，为�
 
 2.2.1 SiC MOSFET 功率器件串扰问题原理分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPNedMsib1S1YLsQSahEM4IWwd6DyqU9iajDwkicwNbhmWQLibpT1G27vjXw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_008_c11838f36349.png)
 
 为了简便和直观地分析串扰问题，以最简单的桥式电路同步 Buck 变换器为例详细分析串扰过程，如图 2-6 所示。图中 V1H、V1L 分别为上、下功率开关管 Q1和 Q2 的+20V 正向导通电压，关断电压为 0V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPNQHJ9EcBiblyHJQZ9SPxDPAwrMQnytuJwbibjV2yGxZpwc54xB8saXibg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_009_774270bf39f5.png)
 
 如图 2-7 所示，此时驱动 Q1 导通，Q1 电压迅速降低，相对的 Q2 的电压迅速上升，如图 2-7 中的箭头所示方向，电流给开关管 Q2 的密勒电容充电。此时密勒电流流经栅极电阻 Rin\_L 形成一个左低右高的电压差值，在 Q2 栅源极间产生一个正向的电压尖峰。由于碳化硅（SiC）MOSFET 的阈值电压 Vth 相对于硅基 MOSFET 较低，一般在 2.5V 左右，该正向电压尖峰很容易就超过阈值电压 Vth 使下开关管 Q2 发生误导通的情况，使直流电压直接短路产生较大电流，造成危害。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPNX8DSn7ic3eFZy0CEia7eBgOdJibN4McLJLhDYWaKeAru15zLQ6al73gA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_010_9442b9e8bdcf.png)
 
 同理如图 2-8 所示，当 Q1 关断瞬间，Q1沟道内的电流逐渐减小，Q1 电压迅速上升，相对的 Q2 的电压迅速下降，如图 2-8中的箭头表示的是 Q2 的密勒电容放电的方向。米勒电容放电过程中产生的密勒电流流经栅极电阻 Rin\_L 形成左高右低的电压差值，在 Q2 栅源极间产生负向串扰电压，可能会超过开关管最大耐负压值，造成损坏。由于碳化硅（SiC）MOSFET相比于硅基 MOSFET 器件耐负压能力较差，一般为-2V~-6V 之间，因此该负向电压尖峰可能会超过器件的最大负压承受能力，损坏功率器件，造成不必要的经济损失。
 
 2.2.2 提出的新型串扰抑制驱动电路设计原理分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPBOVHun1EGf88BRCBqYR8pSgGreSrHLc1fuNYucdRxluKtaJ24gibZCw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_011_81f621bcce40.png)
 
 综合第一章碳化硅（SiC）MOSFET 串扰抑制方法国内外研究现状所述，目前现有的 SiC MOSFET 串扰抑制方法有很多种变式，但是大多数方法都有其缺陷，比如降低开关频率从而增大了开关损耗，使高效性不能充分发挥，或者是增加了有源器件使电路控制复杂程度提高，增加了系统整体的成本，降低了可靠性。因此，在传统典型抑制方法的基础上，提出一种改进型有源密勒钳位驱动电路的设计方法，如图 2-9 所示。电路以 PNP 型三极管和 RCD 网络相结合的方式设计该驱动电路，由于辅助支路是用 PNP 三极管的开通关断来使电容并联在栅源极间，所以只需要提供使发射结正偏的 0.7V 电压即可，既不需要额外增加驱动信号和电路复杂度，又能达到抑制串扰的目的。电路主要由以下元件组成：SiC MOSFET，PNP 三极管，驱动电阻，PNP 三极管限流电阻，串扰抑制并联电容和二极管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPRNENjHvoYYMxu6tewl89UPeGKfbTVrCibEYSrdNbalzXHZoZSCocxAQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_012_b4edb478e693.png)
 
 改进型有源密勒钳位驱动电路上下开关管的驱动波形和下开关管的漏源极电压及栅源极电压波形如图 2-10 所示。  
 
 详细的工作原理分析过程如图 2-11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPK1ANomu8nTfx6LjX2C7r3fNSgB7Aj81bHH11AjChS5fKrZkZDDxJaA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_013_6240fa4a239c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPKPIe0JJdhIAPvTiaa0fIGaNstZ3ITLNiaHor77jBfibhcpLWrxY1YoX8g/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_014_1e89fc80b2b4.png)
 
 开关模态 1\[t0,t1\]:此时上开关管 Q1 处于完全导通状态，下开关管 Q2 处于完全关断状态，电感电流经过上开关管 Q1 沟道，驱动回路中无电流经过，因此驱动电路中 R1H、R2H、R1L、R2L 上的电压都为零，抑制串扰驱动电路的辅助支路不工作。
 
@@ -221,13 +221,13 @@ T 型三电平三相逆变器电路共由 12 个功率开关器件构成，为�
 
 本章主要分析了 T 型三电平三相逆变器主电路设计方法，包括功率开关器件的选型，母线电容的计算设计和 LCL 滤波器参数计算，桥臂碳化硅（SiC）MOSFET和中点电位 IGBT 开关管的隔离驱动电路设计，电压电流采样电路及供电电路的设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPV4Ej8iax7hiaaGtacKcibCP2bq5XU48v2bLZ7CLTBQl6SuvTsgr0Fl1Yg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_015_10c63e3fb63f.png)
 
 本文搭建了一台 T 型三电平三相逆变器实验平台，整体设计框图如图 3-1 所示，主要由主电路和控制两部分组成。逆变侧输出 3 电平的交流电压经过 LCL 滤波器滤波最后并入电网中。控制电路包括 DSP 控制器，逆变侧电压和电流的采样电路，并网侧交流电压和电流的采样电路，驱动保护电路和为主系统以及各芯片供电的供电电路等。  
 
 T 型三电平三相逆变器样机电路的各项参数如表 3-1 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPsO21vGcicEibZn9TaFOGhAfnCIYF3VYd32V8uCC9KNBfibJcQ9ictlLFKw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_016_52347aad943d.png)
 
 3.2 主电路参数设计与选型
 
@@ -239,15 +239,15 @@ T 型三电平三相逆变器的主电路硬件参数的设计主要包括对功
 
 开关管 Sa1、Sa4 的耐压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPl8s3CfxicE7XhX6Idtr4OUNvtwKd0orb6mlOElxujK99eP1GsOhIB9w/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_017_9a56ab64401b.png)
 
 开关管 Sa2、Sa3 的耐压为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPiaITnXXw5sB5ZsSG4F6FDzZMbzw9IMDJPJ8QRyaHZAfV7a4uvqGPf6Q/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_018_a77824ee9efa.png)
 
 系统的过载系数λ=2 ，流过功率开关管 Sa1、Sa4 与 Sa2、Sa3 的电流最大值 IQ为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP8pib32loypJiaib88zofnWgAB6nrnk1RRibuEfE4UZDdlDjl95Xfqnsiacg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_019_3a2fcb8fd75b.png)
 
 最终，考虑一定的裕量，并考虑器件的开关损耗和系统整体的效率，功率开关管 Sa1、Sa4 选用力特（littelfuse）公司的型号为 LSIC1MO120E0080 的碳化硅（SiC）MOSFET 器件，耐压等级为 1200V，能够承受的最大电流为 80A；功率开关管 Sa2、Sa3 选用型号为 HGTG40N60A4 的 IGBT 器件，耐压等级为 600V，能够承受的最大电流为 63A。两种功率开关管皆满足上述计算结果。
 
@@ -255,7 +255,7 @@ T 型三电平三相逆变器的主电路硬件参数的设计主要包括对功
 
 T 型三电平三相逆变器的直流侧母线电压的两个电容具有平分直流侧母线电压Udc、储存能量、控制中点电位平衡和抑制直流侧产生的电压谐波等功能，相比较于传统两电平逆变器，多了一个中点电压平衡的问题。当电容容量不足时，可能会造成桥臂上的碳化硅（SiC）MOSFET 器件过压损坏，造成不必要的成本损失，同时还会使输出的电压和电流质量下降。当变换器处于正常有源逆变工作状态时，上开关管或者下开关管处于导通状态，储能电池和分压直流电容 C1 或 C2 放电为交流侧提供功率，直流侧母线电容电压降低；当变换器处于逆变续流工作状态时，中间串联的两个功率开关管 Sa2 和 Sa3 其中一个导通，另一个经过续流二极管续流，储能电池通过该中点电压桥臂给直流侧分压大电容 C1 或 C2 充电。在一个开关周期内，储能电池最大能量输出值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPMdYme3oXtRYng1KcITzdkbOWkO408H0X4oF1H1wwkBiaqxxy0Xiavjdg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_020_764e8755e62c.png)
 
 式中：
 
@@ -265,7 +265,7 @@ Pomax ——T 型三电平三相逆变器最大输出功率；
 
 推导出直流母线分压电容 C1 或 C2 经过一个开关周期内所消耗的能量 Qc 的计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPVGvafBlUwzoBY68FLrPoqbF3CgVBbAmdy4YFicv9O0FbM5sKZ3kl8mw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_021_185307927e27.png)
 
 式中：
 
@@ -275,11 +275,11 @@ Pomax ——T 型三电平三相逆变器最大输出功率；
 
 T 型三电平三相逆变器中，从能量转换角度看，两个等值分压大电容在一个周期内分别提供一半的能量，因此可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPoDj37vIrwsWpyvorvEyialiatSwianRqnOgRSVAXJ4YMicjMFFh4uM1WxQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_022_bc0353f67f42.png)
 
 继而推导出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPdIMufmhELJbyXxxdvqAEZiarib29GZGCvCbR97sWbT2sZ9iaabEo2LHBg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_023_42afaef1aa61.png)
 
 由于直流侧母线电压最大值为 800V，结合计算结果并考虑到结构的空间排布等因素，最终选取 8 支耐压为 600V，容值为 120μF 的电容，采用 4 支并联成一组后再串联的方式并联在储能电池正负极两侧。
 
@@ -287,7 +287,7 @@ T 型三电平三相逆变器中，从能量转换角度看，两个等值分压
 
 在现代光伏并网逆变器等系统中，高阶的 LCL 滤波器通常能够提供足够的高次谐波电流衰减，与较简单的 L 型、LC 型滤波器设计相比，LCL 滤波器具有设计尺寸较小，成本较低，滤波效果较好等优点，能够较为轻松的满足输送到电网的低谐波含量要求，大范围适合于中大功率并网逆变器的应用。滤波参数的计算需要考虑到开关频率、无功功率的损耗、滤波器的损耗、滤波元器件的体积和系统的成本等因素综合考虑。LCL 滤波器的等效电路如图 3-2 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPIkDoTicqdI5dY3uMjODD4hqaibiae7zKq2ySIPQjmNygH91iaRsy82SvEg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_024_47a180550f1f.png)
 
 式中：
 
@@ -307,7 +307,7 @@ g——电网电压。
 
 滤波电容需要满足如下条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP1udxGImYodLQbRvWzk5TcpDrAr1yg1dD5exUEkWAmC92eCM1WrpHPQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_025_cf28f3c02750.png)
 
 式中：
 
@@ -321,11 +321,11 @@ fgrid——电网频率；
 
 逆变侧滤波电感的计算公式如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPJqBm4jg2dHTmoQ62nCGzBnbiacSSsiceicQ3kqibE6dM8pSj5rru4EZxcg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_026_1eaea8e4c3df.png)
 
 LCL 滤波器需要滤除功率开关器件所造成的高频谐波，由 LCL 滤波器的高频特性可知，谐振频率应尽可能接近于开关频率，这样滤波器可以在开关频率处有较大的衰减。同时，考虑到逆变器在工作频率和开关频率处会造成谐振，为了远离它们，一般要求谐振频率的设计应在 10 倍的工作频率和 0.5 倍的开关频率之间，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPmjSlUPmHGU0Z7TWQjCM6brZ8zaAuzydk7XxLHLAwiaOkLz12IlpusaA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_027_3134ea43aa17.png)
 
 式中：
 
@@ -333,15 +333,15 @@ fSW ——逆变器的开关频率。
 
 谐振频率的范围可以更进一步缩小为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP0v1qmrgEEUdm8yWYwce5MKfm0p4bhBReG67ibjcADwENRlR9hWvbtpw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_028_64c013aeb2a9.png)
 
 基于设计经验，选择 16kHz 作为谐振频率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPrWO8G9Hm9jl2pwU8OrjDQtuJNzWscciaDVaHHsQsvSHC9z22m8luERg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_029_864160b97945.png)
 
 最后，需要确定必须增加阻尼电阻来避免振荡的产生。一般来说，阻尼电阻和谐振时 Cf 阻抗具有相同的相对数量级才是合适的，用这种方法可以推导出阻尼电阻Rd 如下式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPGtcOibHhLef0xufMnOG0FODarF6l0yIzozIOtqJJhaubI5H0ql1X9tg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_030_41dbb2eb68fc.png)
 
 3.3 隔离-驱动电路设计
 
@@ -363,7 +363,7 @@ fSW ——逆变器的开关频率。
 
 使用 TI 公司的 ISO5852S 驱动芯片设计的碳化硅（SiC）MOSFET 驱动保护电路如图 3-3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPNdlt8icEwAvNN26iclLk1lqufA64YmI7QOGCOtyz1PfQYA71icfE89Xgw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_031_884c904dd43b.png)
 
 ISO5852S 驱动芯片是一款用于碳化硅（SiC）MOSFET 和 IGBT 的 5.7kVRMS增强型隔离栅极驱动器，具有分离输出（OUTH 和 OUTL）结构。输入端是采用 2.25V至 5.5V 的单电源供电，输出侧可接受 15V 至 30V 的电源电压供电。输入端采用两路互补的 CMOS 输入来控制栅极的输出，传播延时仅有 76ns，使控制更加精准。
 
@@ -373,35 +373,35 @@ ISO5852S 驱动芯片是一款用于碳化硅（SiC）MOSFET 和 IGBT 的 5.7kVR
 
 本文提出的改进型抑制碳化硅（SiC）MOSFET 桥臂串扰的门极驱动电路设计采用分立器件，即用 RCD 网络和 PNP 三极管相结合的方式，器件均为无源器件，在满足抑制串扰的同时，能保证在正常开通和关断过程不会产生额外的损耗，同时，所设计的驱动电路也能保证功率器件的正常开通和关断速度。其中，R1H、R2H、R1L与 R2L 为驱动电阻，用来控制 PNP 晶体管的导通和关断，R1、R2、R3 和 R4 为 PNP三极管的基极限流电阻，PNP 三极管选用的型号为 2N2907，其发射极-集电极耐压VCEO 为 40V，基极-集电极耐压 VCBO 为 60V，集电极电流 IC=600mA，符合设计要求。改进型抑制 SiC MOSFET 桥臂串扰的门极驱动设计如图 3-4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPichaP0NvowKEWybetlUSWlZrt8log2VgVgjoXNNWgvlDgLibKxrxqOZg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_032_989c50c5ef8e.png)
 
 如图 3-5 所示为上开关管关断瞬间，下开关管的等效电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPAWvW4n8lyQRtMkHteWAS4eoswrTeCwMdZl7Kuw02ibqg1vQLfBfPPjQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_033_03ec9bd90088.png)
 
 由电路的基尔霍夫定律可得，G 点的节点电压方程为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPa4Nk6CZvFTf2TL5k03aic7pPxhQBQcmnlFhUV9y6lzP2lgRF4C7oCXQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_034_535000281072.png)
 
 将式 3-14 化简为二阶微分方程标准形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP6I7gLUamE3icyyvH2Gqib8oTtk5qoFKvquF27qwWuXH5s4Agpstamh6Q/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_035_6567aa41bccb.png)
 
 通过求解式 3-15 的电路微分方程，可得到下开关管栅极串扰电压 Vgs\_L 的表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPydTVtsbHTHZGXuRV5r7rzGjKQxHIDs15wTsJVcViaM563h7V5gfjHqQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_036_8bc35326f7c9.png)
 
 式中：A——辅助电容 C2 和输入电容 Ciss 的和。
 
 如下图 3-6 所示，上开关管关断时下开关管的串扰负向电压尖峰与辅助电容 C2的关系曲线，要求串扰负向电压尖峰应小于开关管所能承受的负向电压。从图 3-6中分析可知，为满足串扰负向电压尖峰小于负向安全电压，电容取值应大于 0.1nF，当辅助电容大于 10nF 的条件下串扰电压幅值会趋于不变，考虑到一定的裕量，辅助电容容值选择 0.1μF。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPWia3zq4KsWWJ7stEicNh39kVgdrTKmEvworvwxPEdRA7A3G2UArT2FSA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_037_2f14b90c7d55.png)
 
 3.3.3 IGBT 驱动电路设计
 
 下图 3-7 给出了隔离 IGBT 门极驱动电路的原理图设计。UCC5320 芯片是一款单通道隔离式栅极驱动器，用于驱动硅（Si）MOSFET、IGBT、碳化硅（SiC）MOSFET和氮化镓（GaN）MOSFET 等开关器件。目前被广泛应用到电机驱动器、高压直流到直流转换器、不间断电源 UPS、混合动力汽车(HEV)和电动车(EV)电源模块以及光伏逆变器中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPvpoeliclrNbrkd0NNfibicSK98A7YicFDJbUz7YCn4u6f5RdKoLxJjnia9A/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_038_e1d179662ced.png)
 
 UCC5320 芯片提供分离输出（OUTH 和 OUTL），可分别控制上升和下降时间。UCC5320 芯片将晶体管的栅极连接到内部进行钳位，以防止密勒电流的影响从而造成误导通的情况发生。UCC5320S 主侧由 3.3v 电压供电，在 VCC1 引脚上的 0.1µF的陶瓷电容器的功能是对噪声信号进行解耦。栅极驱动器的 PWM 信号是单端输入，在连接到栅极驱动器输入之前，由 R35 和 C46 组成的 RC 低通滤波器进行滤波，该滤波器可以滤除 DSP 控制器到栅极驱动侧的高频噪声信号，防止 PWM 输入上的超调和欠调现象的发生。反向的 PWM 输入 IN 由于在设计中不使用，因此连接到一次侧地。UCC5310MC 还具有有源米勒箝位功能，可用于防止米勒电流引起的功率开关管误导通。10kΩ的电阻通过 IGBT 连接到靠近主电源板上 IGBT 的发射极引脚。这种连接可以确保 IGBT 在栅极驱动器由于故障断开 IGBT 的情况下保持关闭状态。
 
@@ -417,43 +417,43 @@ UCC5320 芯片提供分离输出（OUTH 和 OUTL），可分别控制上升和�
 
 （1）直流侧母线电压采样设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPNf1P8R3lk5eFYFDv2InUFAGktVNwsj5U9bTfKfhHZNaY27eIpRM3Kw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_039_c973e263901d.png)
 
 直流侧母线电压的采样电路如图 3-8 所示。采样电路采用型号为 AMC1311 的隔离式精密放大器，放大器的输出与输入电路用隔离栅隔离起来，抗电磁干扰能力强。AMC1311 的高阻抗输入针对连接高压电阻分压器或具有高输出电阻的其他电压信号源的情况进行了优化。该器件性能出色，支持在闭环系统中进行精确的低温漂电压或温度检测和控制。AMC1311 拥有放大倍数位为 1 倍的良好特性，并且具有高阻抗性的宽输入和输出电压范围，十分适合于较高的直流侧母线电压的采样监测。在采样电路正常工作时，直流侧母线电压利用串联式分压电阻的方式将电压信号同比例缩小，通过 AMC1311 隔离式运算放大器，而后经过运算放大器 PTLV9061IDCKR 进行调理，将信号送入微处理器中进行信号的处理和分析。本次设计的 T 型三电平三相逆变器中直流母线电压为 800V，可以计算经过电压采样后的信号所对应的电压值为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPicsBMdnrP3hXDdv8YH1k6robMtNM5OX6nZwolPW68WMMDIbeEwyAkCw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_040_d73d63804243.png)
 
 2）并网侧电压采样设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPCZGHWwxuqufRfhOn5YZBOJrt5UX5OFLxRUVNgIZhFmTgWFDz6jicZSw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_041_a4cf0da8d781.png)
 
 逆变系统的控制和整个系统的功率调控主要依赖于电网侧电压采样和三相电流的采样。DSP 通过对电网侧电压的采样信号进行实时监控和追踪可以更好的控制功率开关器件的 PWM 发波状况，使系统安全稳定运行。并网侧电压采样电路如图 3-9所示，在本次的并网侧电压检测电路设计中，选择 OPA4350UA 运算放大器，根据运算放大器的虚短虚断原理，可知并网侧电压采样系数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPUoN480UVicxA1KCRd5tzx1S95Xo0lvlO1wErwKlQuHzRiasSUluIXuQQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_042_1266808a6a2b.png)
 
 查用户手册可知其最大输出电压为 3V，则电压最大采样范围为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPLFynTOuDibyGaUKOfiaPyagy0k3Y7ibMtCIyiaHwcJqM0IicneXQISrNeGA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_043_95840ce4335f.png)
 
 3.4.2 系统电流采样电路及调理电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPSurGfhFLOj2WCEvnXgtcCpRpOAMXKJy1MrjEOs3m0DFWpFLFoCYcDg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_044_af6d808385b2.png)
 
 在整个系统控制过程中，若想实现闭环系统的精确稳定控制，需要精确的电流采样值。在本次电流采样电路设计过程中，采用了两种不同的传感手段分别测量逆变侧电流和并网电流。逆变侧电流采样电路如图 3-10 所示。由于逆变侧电流采样测量中输出电压较高，控制器需要保持隔离的特性，因此采用 AMC1306M05 芯片。而且 AMC1306M05 具有 50mv 的输入范围，与其他典型输入范围为 250mV 的器件相比，总功率损耗显著降低，系统效率提高。并网侧电流采样电路采用的是霍尔效应传感器，用于检测流过电网侧电感的电流。该采样电路采用了 CASR15-NP 芯片，通过单输入方式对输入电流进行采样，以芯片的输出端电压作为基准电压，利用OPA4340UA 运算放大器、电阻和电容构成输出滤波电路组成信号调理电路将采样信号进行放大，最终输送至 DSP 处理芯片中。并网侧电流采样电路如图 3-11 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPgkjBZ2BVXPhRkiaibf8TuIg5sRXZNvwSAeTApicTaU6TQs75B9TChkY3A/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_045_a8bae5c2fc50.png)
 
 3.5 供电电路设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPqdTIbyNWZP7iaiaotqibIKzaWAehJv1NTB2lWGibkwIxMXWBx8qRy0H1Sg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_046_d5ab67773448.png)
 
 如图 3-12 所示为 T 型三电平三相逆变器的供电电路设计的系统框图。其中包括系统主电路板电源设计、驱动保护电路供电设计、控制板供电设计和电流检测电路供电设计。本次供电电路设计主要介绍主路电源设计和控制板供电电路设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPVOmharRx9PwVL4J1ic1pS9icehuSxDjVw82lEKctT0JbjxfYcUur7AAw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_047_9485cd38d828.png)
 
 如图 3-13 所示为主电路板的供电电路设计。主电路板的供电电路采用一款易于使用的同步降压 DC/DC 转换器 LM76003 稳压芯片，较小的尺寸和优异的输出精度和效率可以驱动高达 3.5A 的负载电流，一次侧 15V-60V 较宽的输入电压额定值范围可以在工业供电电压源中十分方便的取电等优点。LM76003 同步降压转换器可以通过改变 R54 和 R57 反馈电阻的分压输出 12V 的电压，12V 输出电压可以为 T 型三电平三相逆变器主电路的继电器、散热风扇和隔离栅极驱动偏置电源等供电。同时该器件需要的外部组件较少，为了更好地解决的 MEI 和散热问题，进行了简化 PCB 布局的引脚设计。同时具有欠压锁定，过热断开和限电流与短路保护等功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPNvdcl4sHN7BLCNkN1cJQqoP7kI9A8fOrjfUj5ecGibbhzW12XlB5xlA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_048_e200853ebb57.png)
 
 如图 3-14 所示为控制板供电电路设计。控制板供电电路采用 PTH08080W 这一款高集成度、低成本的开关稳压芯片，它具有体积较小和稳压高效的优点，输入电压为 4.5V-18V 范围之间，具有欠压锁定和过流保护功能使其广泛应用在电信和测试与测量等领域。
 
@@ -477,23 +477,23 @@ UCC5320 芯片提供分离输出（OUTH 和 OUTL），可分别控制上升和�
 
 （2）所有的功率开关器件都为理想器件，既无导通损耗，又没有反向恢复时间，死区时间也为零。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPiaWflOJWPJGpK4ysz8BiavvzS8bmsFcAuaWmcibbgQRHibIVzDe5rDfs8g/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_049_be2bc7a75051.png)
 
 如图 4-1 所示为 T 型三电平三相逆变器的并网数学简化模型\[57\]。其中，Udc 为储能电池，C1 和 C2 为容值参数相等的分压直流电容，ia、ib 和 ic 是逆变侧输出的三相电流，Ua、Ub 和 Uc 为电网侧电压。为了计算方便，简化逆变器的开关状态为 0、1、2三种开关状态，各单相桥臂的功率开关器件开关状态和简化的开关状态如下表 4-1和公式 4-1 所示。基于三相静止 abc 坐标轴下的基尔霍夫电压定律可列写电路的动态方程为 4-2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPR8aQd4xwTCibMqyiatt6UqyuYfa5eEicmC84sEX4ibQdWy1sa6XUG8X1tQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_050_7df29ee52e5f.png)
 
 根据表 4-1，开关状态函数定义如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPZ4oEmbWfR8HThttUZZiaciaIRPXK4icSwWoA8CaHibaUmDEofhUEvkw3icQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_051_50d5da16f65f.png)
 
 根据式 4-2 可以求出逆变输出的电流和电压之间的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP92QUH8wXIOqzXhNzCnPZYgG1prswpJO8Jxh9vDGNpz7ZLNuJ1AFXSg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_052_1fc4ee4d3654.png)
 
 将上式转化为对应的频域方程，可以得到逆变器的输出电流频域表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPswOqAf6aXnnwSf7x7yMGqmcyMv59hvosFYX2ETNcIxNG2OICHP37Mw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_053_70bbfa655271.png)
 
 上式 4-4 为三相静止坐标系下的三相电流频域方程。由于在逆变过程中，逆变侧电压 UAN、UBN 和 UCN 与逆变并网侧电压 Ua、Ub 和 Uc 都是不能直接计算和控制的交流变量，进而无法进一步完成对于系统电流的控制过程，因此，需要对上述的方程进行解耦计算。工程上一般采用通过进行坐标变换的方法来将电网中的交流分量转化为直流分量，从而消去方程中的耦合分量，对方程进行简化分析和计算。
 
@@ -503,36 +503,36 @@ UCC5320 芯片提供分离输出（OUTH 和 OUTL），可分别控制上升和�
 
 如图 4-2 所示为 abc 三相到αβ的坐标变换再到 dq 坐标变换的关系图。其中，三相交流电压在静止坐标系下角度互差120度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP93TT6ToSN7eZaic5LqxUfEiaV4jZIMZ2vFPN3pBDd3F9Rnnu1Idib3GuQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_054_d29b79b64afc.png)
 
 根据上图中 abc- αβ -dq 的坐标变换图可知，XA、XB 和 XC 分别对应为参考电压矢量在三相静止坐标系下的电压分量， Xα和 Xβ是参考电压在两相静止坐标系下的电压分量，Xd 和 Xq 是参考电压矢量在两相旋转坐标系下的电压分量。
 
 第一步先求解三相静止坐标 abc 到两相静止坐标αβ的坐标变换。由本文采用的等量变换的坐标变换方式可知，可知 XA= Xα 。根据图中所示将 abc 三相电压投影至αβ坐标系下，可以得到三相电压 XA、XB、XC 在αβ两相静止坐标系下的电压分量公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPu7dxB1iaib6FNn5ZOKoTHW3pFibeQ9eB7iawHGxvMrSyUB87V02iaoPpNLQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_055_3fd212f20696.png)
 
 通过对上式进行化简来转写成矩阵方程的形式，可以得到两相静止坐标系 αβ下向三相静止 abc 坐标系下的转换矩阵。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPxVdE9z9QuMCfsdvXkhvqiawRSPxvEN4BLaicRUrrlRnKfzMnG1jqCib0w/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_056_d6269c3ea343.png)
 
   
 对公式 4-6 求逆矩阵可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP68yAHs1xficRqYqyicXH7yNK7SONsS3lWJQarMR7oSybTYHibHfuY6bfA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_057_f6d954100183.png)
 
 上式 4-7 是三相静止 abc 坐标系下向两相静止坐标系αβ下的转换矩阵，这种矩阵变换的方式也就是我们数学上常说的 Clarke 变换方式。
 
 第二步是两相静止坐标系αβ到两相旋转坐标系 dq 的坐标变换过程。已知 d 轴相对于α轴旋转了θ角度。根据两相静止坐标系αβ到两相旋转坐标系 dq 的坐标投影可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPhArkNwDa7GpbQk2erSFBibibiauwSx2TNsc4CY24nsBRvLvPzotKjhSKA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_058_780722721ce0.png)
 
 通过对上式进行化简来转写成矩阵方程的形式，可以得到两相静止坐标系αβ下向两相旋转坐标系 dq 下的转换矩阵。这种矩阵变换的方式也就是我们数学上常说的Park 变换方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPmSv9NkIAXwzg6AiaUXs4aYjwlLllwSA947CvxLl6hcF9mUQ8hosKAHg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_059_d576d1077b07.png)
 
 对公式 4-9 求逆矩阵可得两相旋转坐标系 dq 下向两相静止坐标系αβ下的转换矩阵。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPtMZiaXx0zkwfleCy2M9EroVwGmPIHO32dtuAG7J3IrKhbjhh5zHE4SA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\10kW_储能逆变器(PCS)的研究与设计_images\img_000_b5a835ed7fac.png)
 
 （3）dq 坐标系下的数学模型
 
@@ -540,15 +540,15 @@ UCC5320 芯片提供分离输出（OUTH 和 OUTL），可分别控制上升和�
 
 如下公式 4-11 所示为逆变器输出侧的三相电压 UAN、UBN 和 UCN 在三相静止坐标系下的表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP8ibUdbtM0m5twiazpXhTWmm0PoibSdUBd1TiaicYUDxBZKrR484kDNvBLwA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_061_d2a7b1d0ec70.png)
 
 由上述的 Clarke 变换公式可得到在两相静止αβ坐标系下的两相电压Uα和Uβ 的表达式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPEALggxKqbWE83wR6MORhhWrOEuvd7auVp1wAnzxfWojrkicvTkPNHhA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_062_df15c1ec4663.png)
 
 再根据上述的 Park 变换得到在同步旋转的 dq 坐标轴下的三相逆变器电流方程的矩阵表达形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP2eZiaydqbdCibNXRcJFLWmkVKrdwMGGZqql5jJrXzpVue5F0qyj1xArg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_063_f3b0a7bc6862.png)
 
 最终可以得到三相电流在两相旋转 dq 坐标系下的电流状态方程式。由此状态方程可以看出旋转坐标系下的含有耦合量，对于电流的直接控制造成了很大的麻烦，因此要对 dq 坐标系下的动态模型进行解耦以消除耦合分量。
 
@@ -556,17 +556,17 @@ UCC5320 芯片提供分离输出（OUTH 和 OUTL），可分别控制上升和�
 
 由公式 4-13 可以看出，经过 Clarke 变换和 Park 变换后逆变器的输出侧电流方程已经将具有的交流量转换为仅含有线性的直流量方程，这为我们后续的采用 PID 控制器来控制电流提供了很大的便利。根据公式 4-13 可画出电流 id 和 iq 的控制结构框图如图 4-3 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPfkZ3jn3kuO3xhV8icr4ibV2JlYowTtWxLTvm19FSftGy6nMrHko4RaIA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_064_aaf18a2c9ffb.png)
 
 通过图 4-3 可以看出，电流 id 和 iq 的反馈量中分别有 iq 和 id 的分量。分析可知，虽然 abc 三相交流电流在 dq 两坐标旋转坐标系下消除了其三相交流分量，但是电流id 和 iq 仍然含有彼此的耦合分量。针对这个问题，工程上一般采用前馈解耦的方式使电流 id 和 iq 完全解耦。如图 4-4 所示，通过在逆变器的输出交流电压处分别引入前馈分量 Lωid 和 -Lωiq 与对应的耦合项 -Lωid 和 Lωiq 相互抵消，从而可以实现三相交流电流在旋转 dq 坐标系下的解耦过程，使得逆变系统可以简化为不含有耦合分量的线性系统，便于对三相电流进行 PI 控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPicTbW0g7ibgOs8TFyBtCtEPQkBDjL14ZXS9XlrLbvXJIf6lqXP4v2q9g/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_065_d2853db6fcbb.png)
 
 4.1.2 基于 PI 控制的双闭环控制设计
 
 PI 控制是目前三相逆变器在工业使用中用的最多而且最为成熟的一种有效控制方法。通过上一小节对于逆变器的动态数学模型进行分析，进行坐标变换和利用前馈解耦的方式可以实现线性控制逆变器的输出电流功能\[61\]。虽然单一采用电流闭环的单环控制方式可以控制电流和逆变器的输出功率，但是在实际的应用中，由于直流侧储能电池的电压易受到诸如光照或风能等外部条件所造成的电压不稳定的影响，所以还需要引入电压外环的反馈控制环节稳定直流侧电压。如图 4-5 所示为电流内环和电压反馈环节作为外环的双闭环控制结构图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPic2bUgh0qg7ZaTdObbpicO67OzaibQprJ6iaB6tcNib2A2eJgiaYF81XfsYg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_066_361f35ea9b91.png)
 
 图 4-5 中所示电压外环输入量由 u\* dc 和 udc 组成。其中，u\* dc 表示光伏发电系统中的前端输出电压， udc 表示 T 型三电平逆变器直流侧的电压值。电流内环的输入量 i\* d 是由 u\* dc 和 udc 做差后通过 PI 控制变换所得，然后在电流内环部分通过对电网侧采集的电流直轴分量 id 与电流内环的输入量 i\* d 比较，然后经过 PI 控制来对逆变器的有功功率输出进行控制。
 
@@ -574,50 +574,50 @@ PI 控制是目前三相逆变器在工业使用中用的最多而且最为成�
 
 在双闭环的控制系统中，内环与变量的直接控制是分不开的，因此内环的特点是响应速度很快，动态性能较好。在并网逆变器的应用中，当系统发生扰动时，将电流环作为内环可以达到快速调节逆变器的输出相电流，提高系统动态响应的作用。通过采集电路采集的电流由于有器件开关延迟和采样时间的延时原因，导致采集的电流与该时刻的瞬时电流存在误差，因此需要着重考虑采样延时所带来的采样电流存在误差的情况。设电流的采样时间为 Tic ，开关周期为 T。一般来说，电流的采样时间是开关周期的十分之一，即 Tic = 0.1T 。 Kpi 表示电流内环的比例参数， Kii 表示电流内环的积分参数， Tds 为 PWM 信号的延时时间，通常为一般的开关周期，即Tds =T / 2 。逆变器的开关增益系数为 KPWM ， Tif 为电流内环的滤波时间常数，等于八倍的开关周期，即 Tif = 8T 。如图 4-6 所示为直轴电流 id 的闭环控制框图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPyHxEdG74R8GkFcVdHI9K1u0pjxI8YfIuQ37aiaeludYAIURkLjWGZkQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_067_6a9c9dd7f3ed.png)
 
 在不考虑反馈的情况下电流内环的开环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPoEOM5oiavnydGQPgQbxtHRVXtktHuTSCkZ3XoXDN7SdFsicmub7CABZg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_068_3a5bf88e3bb8.png)
 
 由于公式 4-14 中的 Tic 、Td 和 Tif 相对于 Ts 时间参数较小，所以可以利用一个设定的惯性环节将式中的小惯性环节先合并后代替的方法得到一个总的惯性系数Tsf 。然后利用总的惯性系数对公式 4-14 进行简化计算得到系统的开环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPX0KT3vcQLh8tgZ1VobXw8fj8icsQGvJ0KVt7uqJzqAiaLBosrQ0RRU0A/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_069_4c0d685ac640.png)
 
   
 得到了开环传递函数后进而求解系统的闭环传递函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP9Tk6jhXmicFy4P3gLdtR5YTB5kRwdLfj1IeAoZQmYSyaprG50bT9a3Q/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_070_3b672be041a3.png)
 
 从公式 4-16 中可以看出电流内环的闭环传递函数是一个二阶系统。二阶系统虽然有着对于扰动具有较快的响应速度的优点，但是其调节扰动时间较长和产生超调问题在工程中也是不容忽视的。根据工程经验可知，当阻尼比取ζ=0.07 时，闭环系统可以处于超调量和扰动调节时长都满足工程的要求。此时电流内环的 PI 调节器参数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPeL9bcpxo0Qw1Mlg1njgRpPMfpdeRUV8PiaaG8a90Hsc8wNxyGU8MahQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_071_c86be20fb365.png)
 
 （2）电压外环 PI 调节器的设计
 
 由于光伏并网逆变器中储能电池的电压会随着负载的增加或减小从而造成电流的增加或减少发生剧烈变化，因此针对这问题必须在电流内环控制下增加一个电压外环的电压控制，使储能电池的电压不会因负载的变化产生剧烈波动，始终保持在一个合理的水平，这样也不会对储能电池的寿命造成损害。由于电网电压始终保持不变，当直流侧储能电池电压增大时，逆变系统对电网输出功率增大，从而使得输出电网电流增大。在工程应用中，将内部的电流环等效为外部电压环的一个惯性积分环节，取电流内环的输入值为电压外环 PI 的输出值。如图 4-7 所示为电压外环的控制原理框图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPvvDQVGb54Q4iaNEXzkbkPsKkG6eHhETRQDfYrCuaMfnXXhJbnibR9yYA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_072_982c7abbfe1b.png)
 
 和电流内环一样，同样要考虑到采样时间的延时和采样电路中器件的开关延迟，令采样时间 Tuc 等于开关周期 T 的 1/10，即 Tuc =0.1T 。原理框图中的 Kpu 和 Kiu 分别为电压外环的比例和积分参数值。电压外环的反馈时间常数 Tuf=8T 。电压外环的开环传递函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPh6aYwJw0mVHDJ7vTMibAZEcH5hFMFRDrSMEhfibxiakCOibaJGLJfPm9DQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_073_08721557b637.png)
 
 和电流内环计算方法一样，将小惯性环节合并在总惯性系数中，取调制比 m =1，则公式 4-18 可以化简为:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPlptObzNy73ib4eicmewibicsm2j31HNbpWMRxK5CL4h0xsFbibgNHxYLIiag/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_074_25adcba56de6.png)
 
 上式 4-19 为一个二阶系统的函数。设系统期望的电压外环开环传递函数如式4-20 所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPhgAfyHPD4zpUQ56icwGW7CAEJhAH2qtCvpk2EIFh1fnhL0Nv7qfAvbg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_075_8b4e40d6eebe.png)
 
 联立式 4-19 和式 4-20 可得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP0eWlgJIdha1MUIhGX1uia3HbnOkQLN2GQGaUNsaVGX0fxLPlDWgBhMQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_076_efe247dd32a1.png)
 
 根据工程一般经验可得中频区的宽度 H=4 ，代入公式 4-21 可得电压外环 PI 调节器的参数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPhOMrLlNCMqP16uL9jLjpveI9ODOZUvrR8zsEmDicxDLQCtic52S8GhvQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_077_f1b7fee55ccc.png)
 
 4.2 软件设计
 
@@ -625,25 +625,25 @@ PI 控制是目前三相逆变器在工业使用中用的最多而且最为成�
 
 4.2.1 DSP 控制器工作过程介绍
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPU9smHibnN1YrAfQFtHXm8Ioj6KMy4rb5QGOyndW4YiaWr24wficpCNjuw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_078_8854f4b741fc.png)
 
 如下图 4-8 所示，为 DSP 信号处理的主要过程。DSP 在经过传感器或者电压电流采样调理电路采集到信号后，首先经过限幅、滤波、放大或衰减等功能对接收到的模拟信号进行预处理，然后经过 A/D 转换模块将交流模拟信号转变为数字信号输送至 DSP 数字信号处理器中，经过相应的信号处理和运算，最后通过 D/A 模块或滤波通信接口将信号输出。
 
 4.2.2 T 型三电平 SVPWM 主程序设计
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPHMvdZaq0nnPRZqVdqB9vOQ0XKmVNcl1lhiaBPhV4Sic853ycBwUHuSQA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_079_310471c0b368.png)
 
 控制系统进行初始化设置是程序运行的必要前提，按照对象的划分可将 DSP 控制系统的初始化分为模块初始化和变量初始化。如图 4-9 所示为系统的初始化流程图，系统在初始化后按照 SVPWM 的算法会进行对 CPU 的配置进行初始化、PIE 矢量表初始化和输出 IO口初始化以及调用 ADC 模块与事件管理器等别的模块的初始化子程序进行初始化过程，并使相应的中断进行使能，将储存的终端服务子程序的地址写入到 PIE 中，最后利用循环调用主程序完成初始化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPgbJaFnHrkDkB02Sfj8SsogibsBKA4xJaB6Huk3mUUHMzgIfqGqm3xIw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_080_ba96bb15908e.png)
 
 图 4-10 所示为开环 SVPWM 程序的实现流程图。逆变器的参考三相电压可以由DSP 控制器提供标准的三相正弦波信号得到，根据上小节中的空间矢量 SVPWM 调制策略，首先对三相交流信号进行 Clarke 变换，然后再根据扇区的划分规则进行所在扇区的判断，根据空间矢量的选取规则选择合适的合成空间矢量并计算和设计矢量作用时间和顺序，最后完成对逆变器中 12 个功率开关管的 PWM 信号发波顺序，从而实现对于 T 型三电平三相逆变器的 SVPWM 调制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPfyDjSdsfTCpWu2fl1LNlJnWZ5GZiaCJ2EIibOwIpG11WZwKtagicD7jZQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_081_a7acdb083006.png)
 
 对于闭环 PI 控制的空间矢量 SVPWM 载波调制策略而言，由于需要解决 T 型三电平三相逆变器中的中点电位不平衡的问题，因此，关键的环节是要对 AD 采样部分重点关注，在满足 AD 采样模块正常快速的采样到电压或电流的同时，在软件方面要注意把握和设置 ADC 的上电顺序、时钟的配置和采样周期的取值分配，以及采样方式和采样的通道配置等问题。通过这样才能够保证准确及时地采样到逆变输出侧的电感电流，然后通过控制算法改变正负小矢量的作用时间来达到平衡中点电位的目的。具体的实现过程如图 4-11 和图 4-12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP8oALAn5oPRa1zPyMEx1L5cB21DAWknwNibEibBcxTFHjeZ4MzqWZ3QZQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_082_9c0b1653dbc5.png)
 
 4.3 本章小结
 
@@ -659,43 +659,43 @@ PI 控制是目前三相逆变器在工业使用中用的最多而且最为成�
 
 在 MATLAB/Simulink 中搭建的 T 型三电平三相逆变器仿真模型如图 5-1 所示。其中直流侧电压为 800V，直流侧的两个分压电容值为：C1 =C2 = 480μF ，LCL 滤波器的参数选择为 C=9.947μF ， Linv =347.9μH ， Lg = 9.34μH ， Rd = 0.316Ω 。主电路系统为了满足对逆变器高效率和高功率密度的要求，在上下桥臂上采用了碳化硅（SiC）MOSFET 功率开关器件，因此将开关频率设置为 50kHz。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPndtOAjxL7OeWSiaaqPPh05rdHiaxTfkRfwicCTNjbvD8rZKDHSA6iadjiaA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_083_3fc08f3c1398.png)
 
 T 型三电平三相逆变器中 A 相桥臂上的驱动信号仿真波形如图 5-2 所示。从仿真波形中可以看出功率开关管 Sa1 和 Sa3 的驱动波形、Sa2 和 Sa4 的驱动波形、Sa1 和 Sa4的驱动波形两两互补，满足 T 型三电平拓扑的工作原理分析和换流过程原理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP7aUxaAA10Wbooia7QDDEmxXTSNOkRwibb4fZDTYibudBg9qtzNjXwoROQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_084_6001e9545bc8.png)
 
 如图 5-3 和 5-4 所示，分别为逆变侧输出的相电压和线电压仿真波形。由 T 型三电平三相逆变器逆变侧的相电压仿真波形可以看出逆变侧可以输出一个正负电压为400V 的 +/-Udc / 2 的三电平电压波形。由 T 型三电平三相逆变器逆变侧的线电压仿真波形可以看出逆变侧可以输出一个 5 电平电压波形。由仿真得到的相电压和线电压比较平滑没有剧烈跳变的波形可知，本文采用的空间矢量调制 SVPWM 策略和引入分配因子 k 的中点电位平衡策略实现了预期的目标。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPkawfDz1hKxb9O4pI00yy1R4TnMXgqf7tA4BRNNic2FQRzJpKDruN0xg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_085_b2b730dcb873.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPL5qhWS3exAcVDOibazblwsgg7UgrgWmTmyIKr05J864JDvuCs5ObpjA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_086_6125e6bdc356.png)
 
 如图 5-5 和 5-6 所示，分别为 T 型三电平三相逆变器输出的三相电压和三相电流仿真波形。在仿真 0.04 秒时刻，对并网系统施加一个满载到半载的突变，以此来验证本文所设计的电压外环电流内环的双闭环 PI 控制策略的合理性，经过仿真结果的分析，在系统发生负载扰动时，T 型三电平双闭环 PI 控制策略能够很好的保证逆变器并网的电压稳定。同时也验证了本文对于 PI 控制器的 Kp 和 Ki 参数计算结果的合理性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPFpSAicy6qXW4IDa4CvoYWFrHWknKXcHIYYGUdgibod4a9QywIbvWJ76g/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_087_35bf7bc68511.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPo0pZnnNnKMKtSCkaiaEWPUsN96UfmIpwXliaoDicN7Kjibt2usYrY05cWg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_088_c7e306d1e233.png)
 
 如图 5-7 所示为 T 型三电平三相逆变器并网电流的谐波分析（THD）指数图。可以看出本次设计的 T 型三电平三相逆变器系统对电网的电压和电流能够做出快速响应和较好的实时跟踪，并网电流的总谐波失真（THD）指数仅为 0.68%，输出的电流正弦性完全符合并网要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPiczX22DVEqmXwD5XNJEc4gAq7fTMIff11abYL8LvdiaLb7JdEZUpibVtQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_089_7218288c847d.png)
 
 5.1.2 T 型三电平三相逆变器实验分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPGicumpRAX4erllpncIX0ql14mBicYpVbVwrtvHricv9qyzpzpjU0vClzw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_090_598bcdd94c88.png)
 
 根据第三章的硬件电路设计和第四章的控制策略分析和软件的设计，搭建了一台 10kW 的 T 型三电平三相逆变器，逆变器实验平台如图 5-8 所示。实验平台主体由电脑、DSP 处理器、T 型三电平三相逆变器功率板和驱动板、LCL 滤波器、负载阻抗组成。所需要的实验仪器仪表有：大功率直流电源和中小功率直流电源、示波器和高精度万用表等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP9RWZlavYpWSGO30icJScB0iapn9XxmzumgJI05XFmoKjRUBhLJYgXAug/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_091_9db0ab276506.png)
 
 如图 5-9 所示，由图中实验波形可以看出碳化硅（SiC）MOSFET 驱动电路输出的+18V 正向驱动电压和-5V 的负向关断电压、功率开关管在驱动导通后，漏源极电压 UDS 从 400V 降低到 0V。验证了本文设计的驱动电路硬件的合理性和准确性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPzmSVIRRG9MVTjblASXS4Kiass3NnvXuSxVgiakx9QDSM9HY4EDTtRX9w/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_092_bd602b5283b9.png)
 
 如图 5-10 所示，T 型三电平三相逆变器中 A 相的逆变输出侧相电压波形和并网电流波形。由实验波形图可以看出 A 相上下桥臂上碳化硅（SiC）MOSFET 开关管即 Sa1 和 Sa4 互补导通的特性，还有逆变器经过 LCL 滤波器滤波后的并网电流波形的正弦性效果，从而实验验证了本文所设计的空间矢量（SVPWM）调制策略的正确性与合理性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPoz1pnkNbTNKBewAWVO4mZRicoCXKrBhACKmxZoqh1mwUNic5f9xxEgaA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_093_11ddb13afae4.png)
 
 如图 5-11 所示，T 型三电平三相逆变器中 A 相的逆变输出侧线电压实验波形图。通过实验波形图可以看出，逆变输出侧的线电压波形呈现一种 5 电平电压波形结构，和仿真结果完全一致。同时，并网电压和并网电流正弦性良好，满足并网要求。
 
@@ -707,37 +707,37 @@ T 型三电平三相逆变器中 A 相桥臂上的驱动信号仿真波形如图
 
 如第二章所述，本仿真模型的搭建是采用同步 Buck 电路这一最基本的桥式电路结构为拓扑，采用力特（littelfuse）公司的型号为 LSIC1MO120E0080 的 SiC MOSFET器件的 LTSpice 模型，驱动电路采用正向驱动开通电压为+20V，关断电压为 0V 的驱动设计，直流母线电压 Udc=800V，如图 5-12 所示为基于同步 Buck 电路的双脉冲测试仿真模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPvSXfick8Whhx9zn69S3T6tv7er94Tlusj22m3ZxSbjWeNDZZOmcVJNg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_094_09c53c387638.png)
 
 下图所示为传统串扰抑制电路、典型串扰抑制电路和改进型串扰抑制电路的仿真结果波形图。如图 5-13 所示为三种串扰抑制电路的驱动波形图，通过图示可以得到本文所提出的改进型抑制碳化硅（SiC）MOSFE 桥臂串扰驱动电路在满足抑制串扰效果的同时，还能保证开关管的开通速度不受影响。如图 5-14 所示，当正向串扰发生时，改进型抑制串扰驱动电路的正向串扰电压尖峰最大值为 1.8V，未达到碳化硅（SiC）MOSFE 功率开关器件的阈值开启电压，防止了器件的误导通情况。如图5-15 所示为负向串扰发生时，三种抑制电路中下开关管的负向电压尖峰波形，由图中可以看到，改进型抑制串扰驱动电路在发生负向串扰时，负向电压尖峰最大值为-2V，小于碳化硅（SiC）MOSFE 功率开关管所能承受的-6V 的最大反向电压值，保证了功率开关器件的安全稳定运行，提高了系统的可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPIn1DibUdxwPwanSHPANcliamDnJT74LsbRBPD44ibPbzuJqZfaTrCK3Ww/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_095_12fe4a1b9dd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPd6oek2ibpb2cokKjiaJuMYHDhq4GMdGcUADOdxtpMuhRIukqPPmtk9kg/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_096_e03cad903b2c.png)
 
 5.2.2 改进型抑制 SiC MOSFET 桥臂串扰的门极驱动实验分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPG1IzeRvqIpibm658FC8LuDBcHLCVlZjj4sDHLkTwwjUuet2j8EhfEHQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_097_1164bc1011d0.png)
 
 本次实验选用力特（littelfuse）公司的型号为 LSIC1MO120E0080 的 SiC MOSFET器件，具体参数如下表 5-1 所示。搭建的双脉冲测试实验原理框图如下图 5-16 所示，由控制系统 DSP、抑制串扰栅极驱动电路和同步 Buck 变换电路组成。通过双脉冲测试实验平台，对传统串扰抑制电路，典型串扰抑制电路和本文提出的改进型有源密勒钳位串扰抑制驱动进行试验效果对比。本文所提出的抑制串扰的栅极驱动电路的主要元器件参数为：V1H=18V,V1L=18V,C1=0.1μF，RH、RL、R1、R2、R3、R4=10Ω。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPzsvcdIZz4DIpuia9XYQcfkDngnArFnrborE1M9iasr81iapMba8Z5N3Qw/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_098_1e452ed0e1dd.png)
 
 如下图 5-17、5-18 和 5-19 分别给出了传统串扰抑制驱动电路，典型串扰抑制驱动电路和本文提出的改进型有源密勒钳位串扰抑制驱动的实验结果波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPvBvhH2c6ZE7HjbT6lxOmoXawghDqAIfZwxpKvZdfISTSck62LoKbtQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_099_da2466615c95.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP8m3pJmJRQL3znViaTibCLKt0cVptWyDS5Ft6ZdjbSdRAor2bdPPOA8CQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_100_bc814ea69638.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPy4ZG90t3a5ExHGOjuJYWMkIyZRlpxkrKGj3Bt6mQAPDLoKPA64zRTQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_101_197bfa4c9a16.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPdicP9ca9GKSc2bjqPkMicDzNzMs6ibcpn8YcsBTDHepaWZEVklPgqnnxA/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_102_ea2051c074ba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFP5BQpAmIJOEBTNXlPKExL3KhLXic79jdNVWp8utKps7173X0ic6yn6E2w/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_103_fc72573c2853.png)
 
 通过对图 5-17、5-18 和 5-19 的分析和总结可以得到三种串扰抑制驱动电路的实验结果，对比结果如表 5-2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxF4COI4ENiaaozzdEmpJFPbMCSOqPmWQ4kI8yfY22A7XThgmEAdDEltIcglldiadY3qiakf5mK3CWQ/640?wx_fmt=png&from=appmsg)
+![](10kW_储能逆变器(PCS)的研究与设计_images/img_104_b3aa183bebc0.png)
 
 根据实验结果可知，传统串扰抑制驱动电路发生串扰时产生的正负向串扰电压分别为 4.6V 和-7V，是本设计采用的 SiC 的阈值电压为 2.8V 的两倍，因此很容易造成误导通情况的发生，而负向串扰电压也超过了开关管-6V 的最大耐负压能力。典型串扰抑制驱动电路发生串扰时产生的正负向串扰电压分别为 1.6V 和-1.36V，对比着传统驱动电路虽然其正向电压尖峰没有超过阈值电压，但还是比较接近 Vth，因此依然存在桥臂误导通的隐患，而负向电压尖峰在开关管的安全负压范围内，因此较为有效的解决了开关器件损坏的问题。所提出的改进型有源密勒钳位串扰抑制驱动电路在发生串扰时的正负串扰电压为 0.96V 和-1.40V，分别比传统驱动电路降低了79.1%和 80%，正向电压尖峰比典型驱动电路降低了 40%，负向电压尖峰基本一致，其 SiC MOSFET 开关器件开通和关断延时也有一定的降低。不仅解决了开关器件误导通的问题，其负压尖峰也在开关管的安全负压范围内，因此使得 SiC MOSFET 的安全稳定运行得到保障。
 
@@ -777,12 +777,12 @@ T 型三电平三相逆变器中 A 相桥臂上的驱动信号仿真波形如图
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](10kW_储能逆变器(PCS)的研究与设计_images/img_105_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](10kW_储能逆变器(PCS)的研究与设计_images/img_106_433ba14f0454.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](10kW_储能逆变器(PCS)的研究与设计_images/img_107_7038903c64cb.png)

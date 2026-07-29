@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/mNS7tM6VqH9IlSzFwxMZxw](https://mp.weixin.qq.com/s/mNS7tM6VqH9IlSzFwxMZxw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ8yYUsbES302NNOVdVFLftCicGDPUiaWSjbGo2xpGXTwCVcZUYicWwibruPOfbhvPoAYPLZUbFLQdDoQ/640?wx_fmt=png)
+![](DC_DC_6_同步整流和异步整流_images/img_000_29a0168d52d9.png)
 
 __**_★★★_**____**_DC-DC-6---同步整流和异步整流_**____**_★★★_**__
 
@@ -13,7 +13,7 @@ _€1.同步和异步整流_
 
 异步：只有一个MOS管（或者说开关管）续流元件是二极管这种类型就属于异步整流。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQFvRpJnQUYmo6JbKgDGOWYJJmDUXc3ShzGj82RMasZicFPNmHls3t91JVDC7W1WbEcwpCzqWe8yibg/640?wx_fmt=png)
+![](DC_DC_6_同步整流和异步整流_images/img_001_723392b4435c.png)
 
 **_图6-1：异步降压和同步降压_**
 
@@ -21,7 +21,7 @@ _€1.同步和异步整流_
 
 _€2.同异步整流的区别_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQFvRpJnQUYmo6JbKgDGOWYiaRWtwJ1dsGOQHNpMmcroTkbKpnSdFtFqrVWRtjq0Hv0l1sLjO5rgPw/640?wx_fmt=png)
+![](DC_DC_6_同步整流和异步整流_images/img_002_773a9c609926.png)
 
 **_图5-2：同步和异步整流电流路径_**
 
@@ -29,13 +29,13 @@ _€2.同异步整流的区别_
 
 如下_**图5-3**_是异步降压型，当输入电压为5V，输出电压为1V，振荡频率为1MHZ，不连续工作时的波形图：电流通过二极管只朝一个方向流动，成为不连续工作产生振铃。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ44Y1K3xia1r8JZhsd2oBpGkwLZzdV04QQ0nGdRnyY81PIXKQ5EE2uDEYBFnficfZXbmicDKy28sHVw/640?wx_fmt=png)
+![](DC_DC_6_同步整流和异步整流_images/img_003_8c1e3f80b76e.png)
 
 **_图5-3：异步产生的振铃现象_**  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQFvRpJnQUYmo6JbKgDGOWYabAx8sV1vz8MVSprwxnY43EibcP2PmVLnYpm5FhkQCnylohTT4zic8ww/640?wx_fmt=png)
+![](DC_DC_6_同步整流和异步整流_images/img_004_fb31f73a512d.png)
 
 **_图5-4：同异步电流Id_**  
 
@@ -49,13 +49,13 @@ _€3.同异整流的死区_
 
 为避免同步整流时上管和下管同时打开，二者中间需要一段死区时间（安全区），死区时间越长，电源工作更加安全可靠，但会带来Vout和Iout的波动及降低输出效率，_**图5-5**_简单示意了一下死区的含义，集成DC-DC死区参数已经设计好，这里不仔细展开。真正的死区时间受到PWM的上升下降快慢，上下管的寄生电容、开启关闭时间等等的影响，这一点在栅极驱动系列里面会详细讲到。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ44Y1K3xia1r8JZhsd2oBpGYtg1DrWJ4EPo6bVjQhLVuz2wgqEjZmNhS4ojic9Xm2MbIgrHt1Khw0Q/640?wx_fmt=png)
+![](DC_DC_6_同步整流和异步整流_images/img_005_dd3382d06f05.png)
 
 **_图5-5：死区时间_**  
 
 MOS中有寄生体二极管，因此当MOS为OFF时，电流仍可通过体二极管流动，如果没有死区时间，上下MOS将同时导通产生贯通电流（_**图5-6**_），贯通电流超过MOS的Ismax，或者没有超过Ismax，但持续时间过长也会热损伤烧坏MOS。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ44Y1K3xia1r8JZhsd2oBpGNHKzoCmcyFQtqRn6ib1FR174hHrDUhgiaGIawEIsL1YWuzlrCj5vwopQ/640?wx_fmt=png)
+![](DC_DC_6_同步整流和异步整流_images/img_006_2ecd9133867e.png)
 
 **_图5-6：贯穿电流_**  
 

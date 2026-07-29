@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/PZBhHHF5yWC-XQfRC-Z7ow](https://mp.weixin.qq.com/s/PZBhHHF5yWC-XQfRC-Z7ow)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScRicFDBt1vuxbMzrk0MsuoRuKW4jCjCcoYusxCHsV2annum882yq8Ca30VAaufX3FJJtVJegiaibiaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_3_电池控制单元____BCU_images\img_000_be2be8817383.png)
 
 ____**____**____★★★____**____**__________BMS-3---BCU__________**____**____★★★____**____**____
 
@@ -15,19 +15,19 @@ ____________€1.什么是BCU____________
 
 如**_图3-1_**所示，在低压系统中并没有BCU，低压系统一般将CSU，BCU，BDU合并在一起，在48V往上才有BCU的概念。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQIP6kEmZ1moRluK2L1EO5UqQkiaYIs68icAKwibJy5AR609kNiaFJjJV3JA87pQqIAA4k8ibp4lhiaRziaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_3_电池控制单元____BCU_images\img_001_7e5fa21b98e1.png)
 
 **_图3-1：低压BMS_**
 
 **_图3-2_**显示了高压系统中典型的BCU方框图，BCU由通信芯片和MCU构成，MCU为主控，通信芯片是连接MCU与CSU和BJB的桥梁，可将来自CSU和BJB菊花链的信号转换为解码比特流发送到MCU，MCU芯片可以处理BMS AFE芯片采集的信息并计算荷电状态（SOC），同时MCU轮询CSU和BJB测量的所有信息，计算电池状态并对来自CSU和BJB的故障或诊断做出响应，BMS MCU芯片需要对SOC进行精确计算，而这需要积累大量的技术与经验。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TR9QguNLib0GjbqyoOfuw0hSPLyH1CicDR7NfID5NgOnicMdjtGnU7M6uYo1Gs7b4OJ0alaad7h3IKibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_3_电池控制单元____BCU_images\img_002_304842141d7a.png)
 
 **_图3-2：典型BCU（BMU）方框图_**
 
 在传统BJB中的BCU，不只是承担SOC/SOH的监测，还负责电流检测、绝缘检测、链路诊断、充放电继电器驱动控制等功能。而在智能BJB出现以后，如**_图3-3_**所示，之前BCU的诊断和控制相关的任务就转移到智能BJB的核心UIR芯片来进行处理，BCU开始较为纯粹地完成SOC和SOH工作。
 
-**_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiajAY1LBl5OE7AKkGJp5clZPqvd0gWfA7k7rOLLA59ibhwSgZWA2emwRA/640?wx_fmt=png&from=appmsg)_**
+**_![](D:\电脑文件\公众号知识库\电工理论与新技术\BMS_3_电池控制单元____BCU_images\img_003_a59f29a54141.png)_**
 
 **_图3-3：带UIR的BCU简图_**
 

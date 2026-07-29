@@ -15,7 +15,7 @@
 
 图1是辅助电源所用的普通电路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwfUOf4C0jJ74T28nI3nE3LXAWOukulbSYJSbbtI7iaZQ2tMK6mM2WT0w/640?wx_fmt=png&from=appmsg)图1. 普通反激式转换器方式的辅助电源拓扑
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_000_d016395e22ae.png)图1. 普通反激式转换器方式的辅助电源拓扑
 
 在某些输入电压条件下，MOSFET的最高耐压需要达到1300V。为了确保安全，需要一定的电压余量，因此一般来讲至少需要使用额定电压1500V的产品。当然也可以使用具有同样绝缘击穿电压的Si MOSFET，但损耗将变大，故而需要昂贵且厚重的散热器。
 
@@ -25,7 +25,7 @@
 
 ROHM拥有完全塑封的TO-3PFM封装以及表面贴装型封装（TO-268-2L）技术，并提供适用于此类应用的高耐压SiC-MOSFET。这些产品的特点是分别可确保5mm和5.45m的爬电距离。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rw12stHSFTg9S6VuKRCntgFQB9gfCkkHibBfC33Xboe5aXYj0yKr4dNJA/640?wx_fmt=png&from=appmsg)图2. 特定导通电阻条件下的Si和SiC MOSFET性能比较
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_001_9df9e02281a5.png)图2. 特定导通电阻条件下的Si和SiC MOSFET性能比较
 
 **极具性价比且实现SiC单端反激式拓扑结构的控制IC**  
 
@@ -37,25 +37,25 @@ BD768xFJ这款控制IC，采用小型SOP8-J8封装，具备电流检测用的外
 
 下图中是采用了BD768xFJ控制IC和ROHM生产的1700V耐压SiC-MOSFET的辅助电源的主要电路，简单而又高性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwjz445HXyHvLicGKh5X7NQib26k5mJO8XibibpLYmkPcDicSicKhyicpRpiar6g/640?wx_fmt=png&from=appmsg)图3. 使用了BD768xFJ控制IC和1700V耐压SiC-MOSFET的辅助电源电路
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_002_ad16f8dedc06.png)图3. 使用了BD768xFJ控制IC和1700V耐压SiC-MOSFET的辅助电源电路
 
 **使用了SiC-MOSFET的辅助电源的性能**  
 
 ROHM为了便于对使用了SiC-MOSFET的简单辅助电源的性能进行评估而专门开发了评估板（参见图4）。这款评估板为了在准谐振开关AC/DC转换器中驱动1700V耐压SiC-MOSFET“SCT2H12NZ”而使用了BD768xFJ-LB。准谐振工作有助于将开关损耗控制在最低并抑制EMI。电流检测通过外置的电阻器进行。另外，通过使用轻负载时的突发模式工作和降频功能，还可实现节能化与高效化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwJUuuNRBia2ZylNTuVAXFiaYRy81Z2YnaCpFHT2LCcLFWG6ElSS29c5lg/640?wx_fmt=png&from=appmsg)图4. 使用了SiC-MOSFET的辅助电源单元用评估板
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_003_d7fec6646e16.png)图4. 使用了SiC-MOSFET的辅助电源单元用评估板
 
 SiC-MOSFET的开关波形如图5所示。通过不同输出负载的波形可以看出在接通SiC-MOSFET时谐振漏源电压如何变化。采用准谐振工作，可最大限度地降低开关损耗和EMI。轻负载时（Pout = 5W时，左图）的突发工作模式结束后，转为准谐振工作模式。通过跳过很多波谷来控制频率。当输出负载増加（Pout = 20W时，中图）时，波谷数量减少，频率上升。当接近规定的最大输出负载（在这种情况下Pout = 40W，右图）时，将只有一个波谷。此时，开关频率达到最大值120kHz。  
 
 另外，为了延长一次侧的开关导通时间，可以稍微降低开关频率并提高输出功率的要求。这样，一次侧电流峰值增加，传输的能量也增加（Pout = 40W时）。当超过最大输出功率时，过电流保护功能工作并阻止开关动作，以防止系统过热。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwuxicg0Gu8EEmxIwJfeDD2mq7mZ0judb18mKxskXBjRyT5NJNdNY0Jog/640?wx_fmt=png&from=appmsg)图5. 准谐振工作时的SiC-MOSFET开关波形
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_004_a8250727c8c2.png)图5. 准谐振工作时的SiC-MOSFET开关波形
 
 首先，评估板因有两个工作点而以电流不连续模式（DCM）工作。然后，在最后一个工作点（40W）时正好达到电流临界模式（BCM）。根据不同的输入电压，DCM和BCM在不同的输出功率进行切换。  
 
 图6左侧是对于不同的输入电压，在最大40W的负载范围输出12V电压时的效率。如图6右侧所示，通过测量可知SiC-MOSFET的外壳温度保持在90℃以下。SiC-MOSFET的最大容许结温为175℃。芯片-外壳间的热阻远远低于外壳-环境间的热阻，因此只要是结温低于上限值的外壳即可以说是安全的。这表明该评估板即使在高达40W的输出功率条件下，无需散热器也可工作。另外，如果对SiC-MOSFET增加散热器来冷却输出整流二极管，则可以实现更高的输出功率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwYq5brLSSaOJNWSQegWv7k0u4wlaMGn75jiazRFhekMDCKopMtuZVzdA/640?wx_fmt=png&from=appmsg)图6. 使用了SiC-MOSFET的辅助电源单元评估
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_005_109e7a475cb1.png)图6. 使用了SiC-MOSFET的辅助电源单元评估
 
 这里给出的是各DC输入电压的测量值，利用400 / 480V的三相AC电源也可运行评估板。PCB上安装了整流所需的二极管电桥。  
 
@@ -67,10 +67,10 @@ SiC-MOSFET的开关波形如图5所示。通过不同输出负载的波形可以
 
 **明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_006_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_007_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\工业设备辅助电源驱动用的1700V_SiC_MOSFET电源解决方案_images\img_008_84aa944feb13.jpg)

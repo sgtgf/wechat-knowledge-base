@@ -14,7 +14,7 @@
 
   我们常说的晶振，是石英晶体振荡器和石英晶体谐振器两种，他们都是利用石英晶体的压电效应制作而成。在石英晶体的两个电极上施加电场会使晶体产生机械变形，反之，如果在晶体两侧施加机械压力就会在晶体上产生电场。并且，这两种现象是可逆的。利用这种特性，在晶体的两侧施加交变电压，晶片就会产生机械振动，同时产生交变电场。这种震动和电场一般都很小，但是在某个特定频率下，振幅会明显加大，这就是压电谐振，类似于我们常见到的LC回路谐振。             
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGtXUy6tkicG5cMAwXYibhhf9lOsXVe6PX04ia4NicjOiac2Sjt3GJHPpVEnENIxvDjskApG3OvkE8HGw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\清晰明了的晶振电路PCB设计_images\img_002_9c48f95e116e.png)
 
   
 
@@ -34,13 +34,13 @@
 
 7\. 进行包地处理
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGtXUy6tkicG5cMAwXYibhhf6XUicCr00CibcTS6libRGD9hMQ6PV2ujiauAQVOvCc59p0y0KacEqqKoHg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\清晰明了的晶振电路PCB设计_images\img_003_d397e82821f5.png)
 
 （圆柱形晶振）在外壳接地时加一个和晶振外形差不多的矩形焊盘,让晶振"平躺"在这一焊盘上,在焊盘的两条长边附近各开一个孔(孔要落在焊盘内,若能用一个多层焊盘代替孔则更佳,这两个多层焊盘要与矩形焊盘相连),然后用一根铜丝或其他裸导线将晶振"箍"住,铜丝的两端则焊接在你所开的两个孔或焊盘里里.这样可以避免高温焊接对晶振的破坏,又能保证接地良好。
 
 当然，也有人在晶振上加焊点，进行接地处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGtXUy6tkicG5cMAwXYibhhfEuj9umDC6mS9vV2aCU3QHxqticUC5uMicav74bt4r4ib1fmU2icWcp7jUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\清晰明了的晶振电路PCB设计_images\img_004_5c476992b052.png)
 
 通过堆砌锡膏或焊接导线接入接地电路的方式（存在损坏晶振性能风险），作为样机测试尚可。批量生产不建议这么做，而且外观不太好看。
 

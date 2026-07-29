@@ -26,13 +26,13 @@ ANPC三电平拓扑比二极管中点箝位型（NPC）三电平拓扑多两个�
 
 2.1 换流分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx6gQz1B4SsSPUO8icpneYZGkppBPPpxhiaKKVlT5ia5TsB1e1aqTGC6dBg/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_000_3bcce38131dc.png)
 
 图 1a 为混合 SiC 三电平 ANPC 拓扑图，外管V1 和箝位管 V5 采用 SiC MOSFET，内管 V2 采用 Si IGBT。其中上半桥臂中 V1 和 V5 为 3300 V/750A的 SiC MOSFET 半桥模块，V2 为 3300 V/1000A的 IGBT 模块，下半桥臂与之类似。图 1b 为 PWM1策略下 ANPC 拓扑的基本工作原理。当调制波 um>0 时，V2 常开，V3，V4，V6 关断，V1 和 V5 互补开关，当 um<0 时，与之相反。 当采用这种调制策略时，箝位管不能实现主动箝位的作用，仍然需要均压电阻 Rs 实现内外管均压。
 
 考虑到箝位管的时序逻辑对换流路径的影响，其开关逻辑为：①不进行主动箝位，即当 um>0时，V6 始终关断；②当 um>0 时，V6 常开；③当 um>0时，V6 与 V1 同时开通、关断；④当 um>0 时，V6 晚于V1 开通，提前于 V1 关断。图 2 为箝位管脉冲时序。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxWiaKKSDHtP5Wgo6S0dQ29mwkqUpshYIibKiaT09snrvWN2gSxXvKBfZXQ/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_001_3f1cdfd2cfed.png)
 
 输出电流大于零且 um>0 时， 4种方案的分析结果如下。 图 3 为方案 2 的换流过程。
 
@@ -48,19 +48,19 @@ ANPC三电平拓扑比二极管中点箝位型（NPC）三电平拓扑多两个�
 
 假设输出电流和调制波为 ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxMbbucRuftjibJLD2vsGhqMf2lJy174q7dp62Pec1XhZtZ5wgia1ghC2g/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_002_e76c1fb31e4a.png)
 
 式中：Um 和 Im 分别为交流输出的调制波峰值和电流峰值。
 
 V1 和 VD1 的损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxVgUvjHKW8AhJdMcZiaUj5cpq6oJRr0DqwDliaBL36nOmN4RKERibjeuEg/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_003_0ba66fe5f5ca.png)
 
 式中：Eon，Eoff，uce 为与 V1 电流和结温相关的多元函数；Erec和 uf 为与 VD1 电流和结温相关的多元函数；iV1 和 iVD1 为与ua 和 ia 相关的多元函数。
 
 V2 和 VD2 的损耗为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxTLyicoiaeBdD03W7hicbOicSOEvA93rm6lfficrhStqdHZ5MUpgT8aeoYzA/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_004_a44eda2d3dca.png)
 
 V2 和 VD2 的损耗主要由导通损耗组成。V5 和VD5 的损耗计算与 V1 和 VD1 类似。结合式（2），（3）可知，不同方案对损耗的影响主要集中 在 V1的导通损耗 Eon 和 V2，V5 的导通损耗，且受到输出电流和调制波等因素的影响。
 
@@ -70,23 +70,23 @@ V2 和 VD2 的损耗主要由导通损耗组成。V5 和VD5 的损耗计算与 V
 
 图 4 为方案 2 的双脉冲测试波形。可见，当 V4关断后，V5 和 V6 处于并联状态。当 V4 再次开通时，VD6 和 VD2 同时发生反向恢复（图中虚线圈所示）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxM625vB4PHzAseN7rArSsicPXlJDOEG1byINczQAatsTQfGsjZEPQJ1g/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_005_87ae5c5137b8.png)
 
 图 5 为方案 4 的 V4 关断过程波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxwibGPrvicmLc7yxhYEolPytFIQ2wASPY8K7lEr9gCEAyDCWgyCtFaTwA/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_006_7be51ae06183.png)
 
 当 V4 关断后，V4 的漏源极电压上升至直流电容电压时其电压产生振荡现象。
 
 图 6 和图 7 分别为不同方案的过电压和损耗特性，方案 4 关断过电压最大，方案 1 和方案 3 接近。方案 2 由于 O+状态处于并联，等效换流的电流仅有其他方案的一半，关断过电压最小。方案 1，3，4 的开通损耗基本接近，方案 2 的开通损耗是其他方案的 2 倍左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxQ0JPychFJ87mpJUTa0z3J5ibU8OibeBXuHBOtU0AEC9riaMiaHVRiaYFufg/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_007_e669f9829b14.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxGR0NSxSmwkOsRjGSFC0exyJBaVvqAicI5Vx0rPbW3cKPMictNqVszvOQ/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_008_2a2ca7fe5ab8.png)
 
 由于方案 2 在 O+ 状态时存在两条路径，其O+状态的通态损耗小于其他几种方案，还需要对不同方案的变流器损耗进行量化分析。 图 8 为开关频率 2 kHz， 输出电流有效值 500A， 直流电压3600V 条件下不同方案的损耗分布图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxiclicPAUIdN1tJiaXicUequAL1svRMeJlEeJ6LZvlibRxxDqBEUX6oFED0w/640?wx_fmt=png&from=appmsg)
+![](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_009_a5343ef1d728.png)
 
 4\. 结 论
 
@@ -94,13 +94,13 @@ V2 和 VD2 的损耗主要由导通损耗组成。V5 和VD5 的损耗计算与 V
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_010_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_011_3a454be1818c.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](3_3_kV_SiC_Si_混合型三电平拓扑应用研究_images/img_012_7038903c64cb.png)

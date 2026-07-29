@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HOd0CyicIq1C1RLd1sz0TSqaVPO3qWh8DDHm2dG34NmAxC5PL9SBNYibXbR3H4Lv0yoDgc9Fj3SdmuNWwhAZc0dw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\通信Modbus是如何工作的__images\img_002_47106686277e.jpg)
 
 今天针对初学描述关于一些Modbus常见的问题。
 
@@ -26,7 +26,7 @@ Modbus 是由 Modicon 公司（现施耐德），于1979年针对 PLC 开发的�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HOd0CyicIq1D2NNvBKleXSnsCI01FwayemZibFYxIsWlMhLSt2GyeYfCFKLxJS7mxDWicIMfd8TkrlYxVH3Grpzvg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\通信Modbus是如何工作的__images\img_003_b2ba362402df.jpg)
 
   
 
@@ -58,7 +58,7 @@ Modbus 是一种广泛使用的标准通信协议，你和其他厂家的设备�
 
 Modbus 通常底层基于 UART 串口485进行通信，最简单的一个主设备和一个从设备通信，就是通过串口Tx和Rx进行收发数据。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/HOd0CyicIq1D2NNvBKleXSnsCI01FwayebQDJVkd2WPAx8gDno5NnXMcuE2BF5atbWzcjxR47iaI7NnLRxZ6OUibg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\通信Modbus是如何工作的__images\img_004_09094c869e9b.jpg)
 
   
 
@@ -79,13 +79,13 @@ Modbus RTU传输方式。
 
 施耐德电气（Schneider Electric）收购了Modicon公司之后，有推出了Modbus TCP协议。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/HOd0CyicIq1D2NNvBKleXSnsCI01FwayeldQrscrAy1cbJCia0G8mappBpLzhuia6hlbnQ8INEPencDxiaiagaNJ5OA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\通信Modbus是如何工作的__images\img_005_4a233f890cfd.png)
 
   
 
 协议格式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/HOd0CyicIq1D2NNvBKleXSnsCI01FwayerSct5sDCQwbGWhaOHFIErZTdbknXCWhpwP7LFNflg2omWaMy36BsRQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\通信Modbus是如何工作的__images\img_006_ad5e1aada889.png)
 
   
 
@@ -103,7 +103,7 @@ Modbus RTU传输方式。
 
 下面贴几个常见功能码：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/HOd0CyicIq1D2NNvBKleXSnsCI01FwayeFkKVCmmZjgj7xDiaicM6Gyp6UyOUs7jTum2RVVibLsjicUjP6esLz87oiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\通信Modbus是如何工作的__images\img_007_cea53c58dda4.png)
 
   
 

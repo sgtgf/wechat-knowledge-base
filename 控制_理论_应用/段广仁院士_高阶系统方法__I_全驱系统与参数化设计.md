@@ -18,7 +18,7 @@ _**本文通过一些基础物理定律、串联系统、严反馈系统和可�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1OuAerJ0atvRicXQly3FQtgleMS339GhTPA59FZq9eldCgsS5WXib5rqjQ/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_000_69b261ba7867.jpg)
 
   
 
@@ -66,7 +66,7 @@ _**本文通过一些基础物理定律、串联系统、严反馈系统和可�
 
 **_作者简介_**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1OC8HoUXpToobpcsTGYKEiayKicRDl41JSf2lymbia5s46GXxskuwfAd8Sw/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_001_d8df5acc1036.jpg)
 
 **段广仁**
 
@@ -162,21 +162,21 @@ _CJCR影响因子 2.793_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1OJLADe1WepxiadNNrLCs1DgibicBH3jtrTiaaTCvLvrNOHf15ic3vme331NA/640?wx_fmt=png)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_002_018f8728bf10.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1OKpYV4ZbhwgvuUic8cPU2pLbwMkA9esxNGaFvrY2gvZAichVc8IXO34BQ/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_003_42c793603a3b.jpg)
 
 **JAS《自动化学报》（英文版**）   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1OJLADe1WepxiadNNrLCs1DgibicBH3jtrTiaaTCvLvrNOHf15ic3vme331NA/640?wx_fmt=png)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_004_018f8728bf10.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1OSOc0Xvk6QHz8QIlicKt7DlDBg0YXkl7PdS5FMAoXUsmwtvSBib7R3h5Q/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_005_4a7661cc81bc.jpg)
 
 **《自动化学报》服务号** 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1OJLADe1WepxiadNNrLCs1DgibicBH3jtrTiaaTCvLvrNOHf15ic3vme331NA/640?wx_fmt=png)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_006_018f8728bf10.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0Wb8yl31mpVvhM1cvBrN1ONT9Apj5ibVkGrfmtia1xTtDibcEZpwXjUTN46UwC8Fwz9yd7C2UpVx4Sw/640?wx_fmt=jpeg)
+![](段广仁院士_高阶系统方法__I_全驱系统与参数化设计_images/img_007_bed056ac019b.jpg)
 
 **《自动化学报》订阅号** 
 

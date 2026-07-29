@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wBxPUPf1-BNJCke8hv5e3A](https://mp.weixin.qq.com/s/wBxPUPf1-BNJCke8hv5e3A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G82XNUOiaHrcg9e2EduVR8cycYDmuzUH0P6DU110eXgm2gtgCpSMibwibQupxn5eib4D0F6iasCaGk0IMmmfhicEDibwg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_000_1dae68c7b8ec.gif)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcg9e2EduVR8cycYDmuzUH0sa3uWdzOKJU8j1C6W1PnQ2LI2grRfGIyTiabCe0gIBT6Iz5SCHJkvtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_001_e734aea8f866.png)
 
 “
 
@@ -15,11 +15,11 @@
 
 近日，Cissoid首席执行官Dave Hutton携高级工程师Rupert Burbidge、中国区总经理罗宁胜、中国区总工程师曹建武等一行到访爱仕特。爱仕特董事长杨良、总经理陈宇带领团队进行接待及技术交流，并邀请Cissoid一行参观爱仕特车规级模块工厂和试验中心，一同见证了双方合作的**新一批碳化硅功率模块的现场制作及交付**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcg9e2EduVR8cycYDmuzUH0GLYTcKsKzOZkLWCFWylbHtuibvDZQKTDyYyMbptBHVzwiayUiaLUj0Vyw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_002_4e611a6cd055.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcg9e2EduVR8cycYDmuzUH07yYkeje8iaVD0pyMRhhYeNLvC9WF8GsmvpMJhR8kiaiceCKQVshRSv0XA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_003_e172558c57ef.png)
 
 ▲Cissoid CEO一行与爱仕特高管合影
 
@@ -33,7 +33,7 @@ Cissoid公司是高温半导体解决方案的领导者，其产品用于关键�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcg9e2EduVR8cycYDmuzUH0nAkxsibCBN6NTicUJrKtLqOkJJCWbkfjvR8ZCGSKMnuqgzwyK504QA4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_004_d4f0a106570a.png)
 
 ▲此次交付于Cissoid的碳化硅功率模块
 
@@ -43,12 +43,12 @@ Cissoid公司是高温半导体解决方案的领导者，其产品用于关键�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrcg9e2EduVR8cycYDmuzUH03QooQZfrUZE3urcsc3qm9PuJdbjkWBWVjuPXp3BdBicdYAyaxEViambA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_005_8b0b9a9606c0.png)
 
 ▲爱仕特车规级碳化硅模块生产基地
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_006_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_007_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特加速海外市场布局_与Cissoid再达战略合作_images\img_008_84aa944feb13.jpg)

@@ -7,11 +7,11 @@
 
 随着科技的飞速发展，电力电子领域不断涌现出创新技术和新型器件。SiC MOSFET作为第三代半导体器件的代表，凭借其卓越的性能优势，在众多领域得到了广泛关注和应用。特别是在高压大电流应用场景下，SiC MOSFET功率模块展现出了传统硅基器件无法比拟的优势，成为推动电力电子系统高效化、小型化和智能化发展的关键力量。本文将深入探讨高压大电流SiC MOSFET功率模块的应用细分领域、方案应用及选型要求，并对其未来发展趋势进行展望。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJSLcLffrxhZJnBpNrn0HM0WiaWZ4Fg8qibmbe0a0IEHbDiase1yqXIZutg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_000_1f19f3a3f607.png)
 
 二、SiC MOSFET器件的优势
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJrNR7AlZcSFoeb0IUicib10IY8ev9qOLzLIhD6A7dJ5ClnQIEsIWxVHrw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_001_70dbdfc25cf5.jpg)
 
 SiC MOSFET与传统的硅基MOSFET相比，具有以下显著优势：
 
@@ -27,15 +27,15 @@ SiC MOSFET与传统的硅基MOSFET相比，具有以下显著优势：
 
 三、SiC MOSFET功率器件的应用细分领域
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJ68zeNY9JuXhIiahibOAxqveXC7SYSARTAagmmayB1ickfSgNGrHGd5Otw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_002_15b4a0cddecb.png)
 
 （一）新能源汽车
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJ5DN4yL9WDLc21tDnqpDLQ7RZv4ltW1CJFsJvfXsUpXvX4bLdKPylSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_003_6a9c004f32c0.png)
 
 1\. 主驱逆变器：是新能源汽车动力系统的核心部件，负责将电池的直流电转换为交流电，驱动电机运转。采用SiC MOSFET功率模块可将逆变器的尺寸减小80%以上 ，提高能源转换效率5% - 8%，从而有效延长车辆续航里程。例如，特斯拉Model 3率先采用SiC MOSFET模块作为主驱逆变器，提升了整车性能。随着新能源汽车向800V高压平台发展，SiC MOSFET在主驱逆变器中的应用将更加广泛。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJwfJTmzBKdTFNA72qzjNMk6ib8SGtSuOOgB7fSoHzEE5OWO5V9SAkzFg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_004_9ae0ab72e236.png)
 
 2\. 车载充电器（OBC）：负责将外部交流电转换为直流电，为车辆电池充电。SiC MOSFET的低导通电阻和开关损耗特性，能够降低OBC的能量损耗，提高充电效率（>95%），同时实现高功率密度（>3kW/L），减小OBC的体积和重量，方便车内布局。
 
@@ -43,31 +43,31 @@ SiC MOSFET与传统的硅基MOSFET相比，具有以下显著优势：
 
 （二）电动垂直起降飞行器（eVTOL）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJykxMwPEOXO7foLicpjHOS0PYrZ66tQfGBRiaDv6sUFMKOAox5KZPLciag/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_005_d062f38d7741.jpg)
 
 1\. 动力系统：eVTOL需要高效、高功率密度的动力系统来实现垂直起降和水平飞行。SiC MOSFET功率模块能够满足eVTOL对高压大电流的需求，其高频特性可以减小电机控制器的体积和重量，提高系统的功率密度，从而提升eVTOL的飞行性能和续航能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJgB1SzdKUiaZ6xSQEZNw1aDUsXO7BETVmcgQXuGAiatELMp5dPdrfSMAQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_006_6ce49f9d9062.jpg)
 
 2\. 充电系统：与新能源汽车类似，eVTOL的快速充电需求也对充电系统的效率和功率密度提出了很高要求。SiC MOSFET功率模块可应用于eVTOL的地面充电设备和机载充电系统，实现快速、高效的充电过程，缩短充电时间，提高eVTOL的运营效率。
 
 （三）光伏新能源
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJVia1ktYdiah2OtLSIbibk12VYoGTQkMU4cljJooviaLaP6xqic0tyn6KX0g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_007_2cc90afa6a06.jpg)
 
 1\. 光伏逆变器：是光伏发电系统的关键设备，用于将太阳能电池产生的直流电转换为交流电并入电网。SiC MOSFET功率模块能够提高光伏逆变器的转换效率（>99%），适应复杂的最大功率点跟踪（MPPT）控制策略，降低系统损耗。同时，其高频特性可以减小滤波器的体积和重量，提高光伏逆变器的功率密度，降低成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJYmgMkJjbibrcqicnTKPZR46m9ds2qEBNC3fQLZWdX5MXz82Qcy75ZShw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_008_045189802312.jpg)
 
 2\. 储能系统：随着可再生能源的大规模应用，储能系统的重要性日益凸显。SiC MOSFET功率模块可应用于储能变流器（PCS），实现高频双向能量流动，减少散热压力。采用SiC模块搭配T型三电平拓扑，能够支持50 - 100kHz的高频运行，提高储能系统的响应速度和效率。
 
 （四）工业领域
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJ2NwibEUQuKz9IX0deUeYbCMWBfgZwsM3rbVFwARXKQ6FrXaomsciaC0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_009_717b287419f3.png)
 
 1\. 电机驱动：在工业电机驱动系统中，SiC MOSFET功率模块能够提高电机的控制精度和效率，实现电机的高效运行。特别是对于一些高压大功率电机，SiC MOSFET的优势更加明显，可以减小电机驱动器的体积和重量，降低系统成本，同时提高系统的可靠性和稳定性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJCLjDYicxvM12GGTXmHe2qwK0p9g9OiawcWiaNUQcvpicciauvOnpaldtUsg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_010_fbdc9de92a51.png)
 
 2\. 不间断电源（UPS）：UPS用于在市电中断时为关键负载提供持续的电力供应。SiC MOSFET功率模块能够提高UPS的转换效率，减小UPS的体积和重量，延长电池寿命，提高UPS的性能和可靠性，满足工业和数据中心等对UPS高可靠性和高效率的要求。
 
@@ -75,7 +75,7 @@ SiC MOSFET与传统的硅基MOSFET相比，具有以下显著优势：
 
 1\. 牵引系统：轨道交通的牵引系统需要处理高压大电流，对功率器件的性能要求极高。SiC MOSFET功率模块的高耐压、低损耗和高频特性，使其成为轨道交通牵引系统的理想选择。采用SiC MOSFET功率模块可以提高牵引系统的效率，减小设备体积和重量，降低能耗，同时提升列车的加速性能和运行稳定性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJicwiaHgicaT2a1ySPIozKjVDibCibkgU0Nuz7UuuYjibXmHnjYBdWJpyo6Mw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_011_d8650da901d7.png)
 
 2\. 辅助电源系统：轨道交通的辅助电源系统负责为列车上的各种辅助设备提供电力。SiC MOSFET功率模块能够提高辅助电源系统的效率和功率密度，减小设备体积，降低成本，满足轨道交通对辅助电源系统可靠性和小型化的要求。
 
@@ -105,7 +105,7 @@ SiC MOSFET与传统的硅基MOSFET相比，具有以下显著优势：
 
 7\. 可靠性：考虑器件的可靠性，如产品良率、生产缺陷率等。对于一些对可靠性要求极高的应用场景，如航空航天、轨道交通等，应选择经过严格可靠性测试和认证的SiC MOSFET功率模块。此外，还可以关注模块的质保期限和供应商的技术支持能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJkm4jCDSSDjCLF3flXod5EHkVoKembHia7ibibM3Sbxicflm3QgHUjhBqmg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_012_f370d3e4894c.jpg)
 
 五、发展趋势
 
@@ -133,13 +133,13 @@ SiC MOSFET与传统的硅基MOSFET相比，具有以下显著优势：
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_013_6f3582a6655d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxLJibdNhEkcTib8ujAib29RJKr2OLCnqFVzPJibLQWuhCMLCPF4SXpLDMKXwbKRn2UJh14Giah8Kfy4g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_014_8de6ac8f4607.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\高压大电流SiC_MOSFET功率器件的应用分析报告_images\img_015_7038903c64cb.png)

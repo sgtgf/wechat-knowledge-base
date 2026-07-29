@@ -7,7 +7,7 @@
 
 工商业储能作为用户侧储能的核心组成部分，在能源转型背景下迎来爆发式增长，其核心驱动力来自企业用电成本优化和电网稳定性需求。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicfz8UnibuJQaumFqZ2AR5YvRERVr6MnIdwt7fh91pja2WHSZbOtoPHWQ/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_000_6954aa65baa7.jpg)
 
 光储充产业
 
@@ -37,13 +37,13 @@
 
 工商业储能应用场景多元，不同场景对储能系统的需求呈现差异化特点：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicV2LRRsHQhQyB1bC1VfGSQzhaIdtgTLqQoLqkQGUqJQEpMCHcP6vOxw/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_001_68395ad7ec18.jpg)
 
 工商业储能应用场景
 
 下表总结了工商业储能的主要应用场景及技术需求：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicaAahrgXxGKXDiat9rNrVfSBe6tagooIrb2mHPH5NoEu3c2bsVG23R0Q/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_002_885c4bf65b78.png)
 
 1\. 工业生产场景
 
@@ -69,7 +69,7 @@
 
 农业灌溉：结合智能灌溉系统，在谷电时段储电供高峰使用，实现节能节水。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicicfOOQmycl2lJkrb4aYytXiaYYFWmcBgOaWfbSic3ZelpsDib57zAdRubg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_003_055d2b378ce2.png)
 
 储能系统工作模式
 
@@ -77,13 +77,13 @@
 
 传统IGBT因开关损耗高、高温性能差，难以满足储能高频化需求。SiC器件凭借宽禁带特性实现全面突破：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicvghmNb1TiahfyibtcpO687nse4klgquZnHmwUKaso9CvIcPJNdxo6TYw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_004_9f2b7b861cc2.png)
 
 SiC的物理优势
 
 下表对比了SiC器件与传统IGBT的关键性能指标：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGiczZjGicfXicqnfThpcFbNcVhRIrLNJ2NibUlqHnQJfQpfT4UUfDmpibZeFw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_005_1ec7739e9603.png)
 
 1\. 效率与性能突破  
 
@@ -109,7 +109,7 @@ SiC的物理优势
 
 全生命周期优势：效率提升+维护减少，使回本周期缩短2-4个月。以海外钢厂项目为例，年节电1200万度，减排CO₂ 8000吨，叠加欧美碳关税豁免政策，IRR提升20%。
 
- ![图片](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_78@2x.png?tp=webp&wxfrom=5&wx_lazy=1)四、工商业储能PCS主流拓扑及爱仕特的SiC方案
+ ![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_006_6fd7ee7be201.png)四、工商业储能PCS主流拓扑及爱仕特的SiC方案
 
 SiC材料的突破性特性（超低损耗、高频能力、高温稳定性）赋能PCS革命性升级。SiC MOSFET和SiC功率模块在工商业储能PCS中已批量应用。
 
@@ -137,17 +137,17 @@ SiC器件的优势如下：
 
 替代趋势明确： SiC方案将主导未来PCS市场，IGBT退守低端。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrdBhkNHcobtH6qxH5nRAl69QRdCu0fdibUuIuS6a3JwgFLq1yoNZiazyDF5t2aKpDicgMHX3NKBrbvQQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_007_804b49ba9d8e.png)
 
 1\. T型三电平拓扑
 
 适用场景：中高功率工商业储能（100KW-1MW),需兼顾效率与电能质量的项目。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicj8bToChk5mMETZwBqYD5fB36a1vw6ibnEyV6icG7LU0yQGdUtNaW14iaQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_008_dd153ea3629a.png)
 
 **T型三电平拓扑结构**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGictR8YK0bW2LPplZVsU7Tib2t32dOiaA3WmleZqxFbCiaibe9Fe403ZFcNkA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_009_8291fa553e90.png)
 
 T型三电平SiC功率模块产品
 
@@ -155,11 +155,11 @@ T型三电平SiC功率模块产品
 
 **适用场景：大功率场景（如125KW工商业储能）**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGiciaCIFbIdTfwekK75NgLpVk3PFYPrFeW9OkqibIvbZHe2jRoA7Hwv6VKg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_010_d80f7d7356e8.png)
 
 I型三电平拓扑结构
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicF7ry7PUmOrjEanQGIicdOwtmxeIRldTHiaAx7BMib8Fdib4dnElc5ZYPCw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_011_7172ff74855a.png)
 
 I型三电平SiC功率模块产品
 
@@ -167,15 +167,15 @@ I型三电平SiC功率模块产品
 
 适用场景：中低压领域具有较高的转换效率和可靠性。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicINtUJN52cUpCI1tguI8Rbdo77PGyTFteuzS1Mmza31VmibYImQGghOQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_012_8b2effd26361.png)
 
 两电平拓扑结构
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicCExDfUcfCjCwbIPR9J28LmXVy3uwOmlZemuaMvyejibbmZ3hOvqv2pw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_013_62ef13f38a24.png)
 
 半桥两电平SiC模块产品
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicibA6ibXv0Tk7yPI7ia6dPWicyLlnKDDp2UIEPMxcgvcu2jwZJiaokU0GHSA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_014_1803648c5607.png)
 
 全桥两电平SiC模块产品
 
@@ -241,13 +241,13 @@ I型三电平SiC功率模块产品
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicyicxicuM4qxG124K0ltlHRriaObjvIwuCp9iayLs5kFibYtLxjHcSEsp19w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_015_39e28a1eed17.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicJ5nElg8SWWJyFvLwLPUUAnfDSN5icYu30QXGz5piadEuqEZpMiaiaw8Ficg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_016_b0aa0806ac05.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliagkjr75VDyhibFeYFiacQGicfibibCs4iaKqxxnOxtE3pVibxwH5SOIzKRVesLFs49xuOFPAvicv5jceEcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+![图片](SiC三电平模块方案助力工商储能PCS高效化_images/img_017_4d93f2e02880.png)

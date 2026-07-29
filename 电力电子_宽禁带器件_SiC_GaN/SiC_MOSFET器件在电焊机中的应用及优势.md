@@ -5,7 +5,7 @@
 
 电焊机是利用正负两极在瞬间短路时产生的高温电弧来熔化电焊条上的焊料和被焊材料，使被接触物相结合的目的。其结构十分简单，就是一个大功率的变压器。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6ofBVy6nDvpAjFqsIQrGOHiblAInUu293ib9WLPPoyubQq9WAfpDz4X2Flw/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_000_deaa37f7286b.jpg)
 
 电焊机一般按输出电源种类可分为两种，一种是交流电源、一种是直流电。他们利用电感的原理，电感量在接通和断开时会产生巨大的电压变化，利用正负两极在瞬间短路时产生的高压电弧来熔化电焊条上的焊料，来使它们达到原子结合的目的。
 
@@ -81,21 +81,21 @@
 
 **应用拓扑图**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/U4oePgxEv4Bw0Xljk6vXIUgHV3tOlVkQovjV5QNX7nkR0d9VYYnEERgL3EaiaAUMWhK3eDka2TDzVySnpGqwtYw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)拓扑1 双管正激
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_001_5259a7a14415.jpg)拓扑1 双管正激
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/U4oePgxEv4Bw0Xljk6vXIUgHV3tOlVkQONWFehFDmBxPjW5JkrgAYlLBN75fjia4oD4Kw9SBJRv9mZhC9ITibMUw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)拓扑2 全桥
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_002_4a421f5ffc6d.jpg)拓扑2 全桥
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/U4oePgxEv4Bw0Xljk6vXIUgHV3tOlVkQPa153pR3kUN6M1519d9icXLQHKOKqJXXVvQhqVtdKc4nct2FQwIvzVw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)拓扑3 半桥
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_003_5ae00119051c.jpg)拓扑3 半桥
 
 **应用电路图**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mFPgVw5IaI9SBhcEpup09Armd7vaKJQnAicjxt4o7C2kZaaVg1W3zIAL0s3icFLPUB45lRpN4VqALcuz4fAAGlmw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**单相逆变线电路**
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_004_b1c3ff0f3bb6.png)**单相逆变线电路**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mFPgVw5IaI9SBhcEpup09Armd7vaKJQncrTzG3z1C4ST3DWNZB055eS6JzCG83g0yRKIxj7bDo2ImMbcWyP1Jg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)**三相逆变线电路**
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_005_6d920ac714ed.png)**三相逆变线电路**
 
 **SiC MOSFET器件在电焊机中的应用及优势**
 
@@ -131,21 +131,21 @@ SiC MOSFET的设计允许更精细的热管理，例如，通过使用未与散�
 
 **SiC  MOSFET器件焊机实物图及器件**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6ofwPicLWqV4uOjOfTxGMAvLdJmb6HrVrTJd71qF9fw2y5oY3sEw8Do1mg/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_006_cf88f3f19ffa.jpg)
 
          SiC MOSFET(1200V60A,8颗）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVcIGmNG4PZ7ibBAfczdcyaFZDcpfgzHeHDDvqDGl00jhfOmQFaSJ6whvQ/640?wx_fmt=png)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_007_c31106d60486.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6of24iaYN5FshneE4iaWJAjLOicTicOsxlPNSiaMRc1T4gUvZ7t0EttUib2NzIA/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_008_cabc0120441b.jpg)
 
 SiC MOSFET模块（34mm模块，2块）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6ofqD939ic2t9JnxTtfW1dESibuM8czOcgCrLnkDEEialORYmt4iaJLyJc8Lg/640?wx_fmt=jpeg&from=appmsg)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_009_26151dc65cb3.jpg)
 
 34mm和62mm模块
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVcfjd21rpGI1zia55xj7Dw9wRox5ib7yBl3xPdDeXHmJLs0HYotWbj0w5Q/640?wx_fmt=jpeg)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_010_e4d0804ae39f.jpg)
 
 现代工业智能制造，需要高端高性能焊机和机器人组成自动焊接生产系统，对焊接工艺过程进行精细控制，传统基于IGBT设计的工业三相逆变焊机，开关频率停留在10-30kHz，已经不能满足设计需要，SiC MOS因其在高效能、高频率和高温性能方面的独特优势，可提高开关频率到100kHz以上，SiC MOS器件是目前最优的选择。
 
@@ -153,10 +153,10 @@ SiC MOSFET模块（34mm模块，2块）
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_011_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_012_3ade3c3d8599.jpg)![](SiC_MOSFET器件在电焊机中的应用及优势_images/img_013_84aa944feb13.jpg)

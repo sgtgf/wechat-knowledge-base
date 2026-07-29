@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8P63o2v1KoLe5C4A4URugjPk9sRfEkBADK4O8qkmnQgZFFpMuSic5wJRg/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_000_119a07bee297.png)
 
   
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8P8QNUrBBxXWHVUsT3yNM5dNwPvvv04fOCdMpbcriccdCFXMu76xXbRsw/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_000_8246e1c5d299.png)
 
   
 
@@ -48,15 +48,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8PtRAzfUvJwxQhRoYAbqVzpjaXA3vSnwhOVCl6Ar3j38UOBZAe2Jrghg/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_002_78acf10c033d.png)
 
   
 
 多航行器控制
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8PiaVY7uF36cW5TiboXOicX5nIxKmaVjJibmiabzyKZFuJXFHQP4ZfpfYtGBg/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_003_c4e76713b3bb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8P2ak4B6fhuXZSQs404KY7UYHtLD8PBabI5WrKKqn9OUs3ITHpJ2WibZw/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_004_3afdabdec2c9.png)
 
   
 
@@ -78,7 +78,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8PJOgtvHaHEf95BZDrHGNMmib7LhCs7icLicItQicRO7NicM3VxPrEMhdx0Hg/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_005_ef12e7a74d9b.png)
 
 控制示意图
 
@@ -86,13 +86,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8P1ksKlY889le206piaWcj9zzp7PSRCE7Kzl2k8ox64uOkbziaU8VJDmFw/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_006_64095c37079e.png)
 
 高振宇，大连海事大学博士研究生. 2013年于山东理工大学大学获学士学位. 主要研究方向为自主水下航行器的编队控制. 
 
 E-mail: 18840839109@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8P3gCMnGSnldXccLyWoFCGticy7gM6r7SwAQuf7FxniaklzPP6Iy4yq8Sw/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_007_2838b5d37c34.png)
 
 郭戈，东北大学特聘教授，大连海事大学博导. 主要研究方向为智能交通系统，共享出行系统，信息物理融合系统.本文通信作者.
 
@@ -190,21 +190,21 @@ E-mail: geguo@yeah.net
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8PocLqMm250sUibYicKIbiawJctMUGVbwFCPLsKOTWflAAgGwdFyIaYDAZQ/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_008_9d4aa2b7df4c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8P55PS223sBo75HibeXODBribcAUeexFVHOEPNM4foUmmibCefy6u75dlog/640?wx_fmt=jpeg)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_009_6234fd34af81.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8PocLqMm250sUibYicKIbiawJctMUGVbwFCPLsKOTWflAAgGwdFyIaYDAZQ/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_010_9d4aa2b7df4c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8Punxzwd4hjZ7ZVibeSIkcg93iakSXZlIHYpQuggckLJZVR7Nia4s6CEnxQ/640?wx_fmt=jpeg)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_011_6c94a7eb510a.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8PocLqMm250sUibYicKIbiawJctMUGVbwFCPLsKOTWflAAgGwdFyIaYDAZQ/640?wx_fmt=png)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_012_9d4aa2b7df4c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46ibschgsSNyQfKPx0M6Oc8PzXdPxqgUAuYvZuL7V22uvr1TZ9oK32Q963FKJTAoJVfeEic9YqPicjXg/640?wx_fmt=jpeg)
+![](东北大学郭戈教授等_基于扰动观测器的AUVs固定时间编队控制_images/img_013_79a42489d826.jpg)
 
 自动化学报订阅号
 

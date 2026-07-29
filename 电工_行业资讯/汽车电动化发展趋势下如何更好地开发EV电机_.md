@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ckaKKs9zSALoVlBtqTSXcg](https://mp.weixin.qq.com/s/ckaKKs9zSALoVlBtqTSXcg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUCA5ia0r1Uia8fOFGG6iarSopJbult9Yib4ZWlpfasEd33QqlJ5SlnAbXfVFo8ojj6145tclkwVEvcBw/640?wx_fmt=jpeg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650630818&idx=1&sn=aff0b65e486553731bf044b2ab1e5617&chksm=88bcc1adbfcb48bbea67d84700cfecc46ff2e52144280a674fbdf339e477f99c0caaf49f4588&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_001_89fc93437291.jpg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650630818&idx=1&sn=aff0b65e486553731bf044b2ab1e5617&chksm=88bcc1adbfcb48bbea67d84700cfecc46ff2e52144280a674fbdf339e477f99c0caaf49f4588&scene=21#wechat_redirect)
 
 黄苏融教授在之前的一次电动汽车驱动与控制技术论坛上谈到EV永磁驱动电机新技术发展趋势时提出三合一动力总成，IPM永磁电机转子结构，Hairpin发卡式扁线绕组，新结构新材料电机已经是大势所趋，提升NEV电机体积和重量密度、可靠性和NVH舒适性，降低能耗和成本将是未来开发新能源汽车电机的主要目标，具体体现在以下方面：
 
@@ -67,7 +67,7 @@ EVT 双机械端口能量变换器
 
 那么在汽车电动化发展趋势下如何更好地开发EV电机呢？
 
-为了满足各位从事新能源汽车电机设计工作人员的学习的需要，西莫特邀行业专家黄苏融教授于下月中旬在上海举办现代EV电机设计及其关键技术研修班，相信在经过本次培训后，您更加深入的理解EV电机设计的难点和要点，在该专业领域的电机设计水平又将提升到一个新的高度！![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUzIM5LvqUEGLiaibRCERQByAPhJXvAT2t5e9KolEAOYLKibVp1FQmjqhawxYHm86MWx4XicFHLMY4IJw/640?wx_fmt=jpeg)
+为了满足各位从事新能源汽车电机设计工作人员的学习的需要，西莫特邀行业专家黄苏融教授于下月中旬在上海举办现代EV电机设计及其关键技术研修班，相信在经过本次培训后，您更加深入的理解EV电机设计的难点和要点，在该专业领域的电机设计水平又将提升到一个新的高度！![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_002_237e9ae387b7.jpg)
 
 欢迎对新能源汽车电机设计有迫切学习需求的朋友扫码报名，关于本次培训的详细情况介绍如下：
 
@@ -104,7 +104,7 @@ EVT 双机械端口能量变换器
   
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWlibIBKLYuKROraQAvoTAonTxuyOwHvCiacsJMc5DMKsRASxlMxaI9IJhiaOZZb4CDGOkwyT5WvDBjA/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_003_d9eccd5e7d37.png)  
 黄苏融教授
 
 **黄苏融**，电机设计专家，上海大学教授/博导，国务院特殊津贴专家，中达学者，美国威斯康星大学访问教授，上海市高校机电驱动与功能部件创新团队带头人。曾任IEEE工业应用学会北京分会主席、上海分会主席。现任上海电机系统节能工程研究技术中心技委会主任，上海汽车电驱动工程技术研究中心副主任，中国电工技术学会中小型电机专委会副主任，全国专业标委会委员(旋转电机标委会和电工合金标委会)，SAE讲师，多家著名企业技术顾问等。
@@ -175,7 +175,7 @@ EVT 双机械端口能量变换器
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWlibIBKLYuKROraQAvoTAonibQc8KoDFu3QvATtZ4qpmy1Rqle30vgjxYESGCFRjHmTXxxiaDL8XzqQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_004_f4a76bbcfc72.jpg)
 
 现代EV电机设计及其关键技术培训课程过程中可能出现针对学员提出的普遍问题进行深入讨论或者作为重点进行延伸。每次课程讲述教授部分之后都会有互动环节，进行现场答疑以及交流。
 
@@ -227,13 +227,13 @@ EVT 双机械端口能量变换器
 
 **报名方式：**扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWlibIBKLYuKROraQAvoTAonHJepkErb9hNVWR4L6CCwjGjzvDib3HOX3H1SIDs0TZoiawXibA280bVwA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_005_bb780103906e.png)
 
 其他事宜咨询，请联系会务组负责人张老师，电话：**_18516258619_**欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_006_0cfebd1d514d.gif)
 
-[**![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUZfZ5uT2ibRZcByL2xLy5BlhOt5RDB1bx8XFXbuWveJMu1A2cV46RqXkYORGpsGpajqmHIVoKp9NQ/640?wx_fmt=jpeg)**](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650629802&idx=1&sn=8e440083dec3d2f945497d278dd04057&chksm=88bccda5bfcb44b3a585f12a682d9c13a9c00ec3a6f2de0183b4cbccbff9b1d06066a9727044&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[**![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_007_f7ef7569621d.jpg)**](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650629802&idx=1&sn=8e440083dec3d2f945497d278dd04057&chksm=88bccda5bfcb44b3a585f12a682d9c13a9c00ec3a6f2de0183b4cbccbff9b1d06066a9727044&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_008_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_009_3f5511eb92d0.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\汽车电动化发展趋势下如何更好地开发EV电机__images\img_010_96b548e7fe70.png)
 
 点击**阅读原文**，直接报名参加本次培训
 

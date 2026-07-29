@@ -22,11 +22,11 @@ ESD 事件通常通过用户接口（如电缆连接）或人工输入设备（
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2Zd0y2acEyS8CuoAAodthZYTqrhrxiaSymShaaSia0ibuTtZAPov1ZJGicw/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_002_5b799f26b3a4.png)
 
 TVS 是一个二极管阵列（参阅图 1-2 查看典型示例），其排列对电路中正常存在的电压有极高的阻抗，但如果电压超过设计范围，在 IESD 损坏受保护的系统之前，TVS 二极管将击穿并将 IESD 分流到地。因此，系统设计人员需要降低针对 IESD 从 ESD 源经 TVS 至地的阻抗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2agKiamOTpxicVIAdRqmrCtczMClutnsZaL8YcnDsOZVKArzHwK0tNESw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_003_5816b4bc79a7.jpg)
 
   
 
@@ -62,7 +62,7 @@ TVS 是一个二极管阵列（参阅图 1-2 查看典型示例），其排�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2JMiadZV7cDt5nWGicuUPiarksicw4EOeIvnOOWj4Wc1YwibIu87scqdmSnA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_004_aa33bf7af846.jpg)
 
 图 2-1 中显示了**四个寄生电感器**：L1 和 L2 是 ESD 源（通常是一个连接器）和 TVS 之间电路中的电感，L3 是TVS 和接地端之间的电感，L4 是 TVS 和受保护 IC 之间的电感。
 
@@ -94,15 +94,15 @@ TVS 是一个二极管阵列（参阅图 1-2 查看典型示例），其排�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2VYicE0f0FCee5e4u4szRFctzjBf0mUbia1oMkMMFn7k6k71jW3E3CjpQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_005_acd32245b16e.jpg)
 
 PCB 布局的另一方面是考虑 ESD 源与 TVS 之间拐角的样式。拐角往往会在 IESD 期间辐射 EMI。从 ESD 源到TVS 的最佳布线方法是使用尽可能短的直线路径。除了降低 IESD 接地路径中的阻抗，缩短此路径的长度也能减少在系统内部辐射的 EMI。如果需要拐角，则**应以最大半径弯曲走线**，如果 PCB 技术不允许弯曲布线，则 45° 拐角是最大角度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2txzcyaEDibus1lxqUDlmTTyia8pjFo7mmtic8ib1ITVOfa3BWxc5icL3z2g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_006_1e16ff4ce3cf.jpg)
 
 在图 2-3 中，注意对于 90° 拐角，该拐角是一个重大的 EMI 来源。**该拐角处的电场至少有 7kV。这会使任何小于2.6mm 的半径（在空气中）产生电弧（离子化）**。45° 曲线的 EMI 则不那么明显。为进一步显示拐角样式的影响，图 2-4 绘制了采用这三种拐角类型的平行布线间产生的串扰。90° 拐角的耦合高于其他拐角，尤其是在 ESD频率成分区域。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2zTns4V8TSVaIYUZDYfsG5SwFGLJNI5WuMFklWa3YXf4rAxstAdhsvQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_007_f4b6969f649e.jpg)
 
 **小结**
 
@@ -120,11 +120,11 @@ PCB 布局的另一方面是考虑 ESD 源与 TVS 之间拐角的样式。�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2z5TbnFdOabe4wPwDnpLg0kY1Z1l0Bl5BkSE7OgtzicIV7Es7nZ24edg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_008_c8489dc27980.jpg)
 
 在有些情况下，设计人员别无选择，只能将 TVS 放在与 ESD 源不同的层上。图 2-6 展示了第 3 种情况，这是第2 种情况的一种变体。在第 3 种情况中，在 IESD 与受保护 IC 建立路径之前，IESD 会被迫进入 TVS 的保护引脚。**这对第 2 种情况来说是可以接受的折中方案**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD27F5M10RclAJ1s6eCewoibgqZDDIxv1eF97HsheTwXVYefxOtXFCyrOA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_009_1a26ac3e88cd.jpg)
 
 这三种情况代表了在 ESD 源与受保护 IC 之间使用过孔的示例。最好避免采用这种做法，但如有必要，则**第 1 种情况是优选方法，应避免第 2 种情况，如果没有替代方法时，则可接受第 3 种情况。**
 
@@ -140,17 +140,17 @@ PCB 布局的另一方面是考虑 ESD 源与 TVS 之间拐角的样式。�
 
 图 2-7 显示了单通道 TVS 周围的 PCB 电感（如前文图 2-1 中所示）。本节仅考虑 L3 处的电感。请注意，在消除L2 的情况下，在 ESD 事件期间提供给受保护 IC 的电压将为 VESD = Vbr\_TVS + IESD RDYN(TVS) + L3(dIESD/dt)，而在 8kV 下，dIESD/dt = 4 × 10^10。显然，L3 必须尽可能地降低。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2Vv2IpyeBN7bBsia3xwkPC1RmLNk5U1K802icmib4yM8nX6AHCgQLdWc2g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_010_18e804aa54dd.jpg)
 
 为了降低 L3，**TVS 接地引脚最好直接连接到耦合的接地平面**。图 2-8 展示了连接到顶层接地平面的 TVS 的接地焊盘。这里有四个拼接过孔，将顶层接地平面与内部接地平面连接。根据层数和电路板设计，这些过孔可能连接到多个接地平面层。接地机箱螺栓位置也非常接近 TVS 接地焊盘。类似这种的接地方案会为 L3 带来极低的接地阻抗。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2Vu4XSxUiacZOoQwOCZgAVgPDwWma7Hia8ibic70VIUeJ7VfXxPibW0ad4tg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_011_e78b33ffc948.jpg)
 
 因为封装类型，图 2-8 与某些类型的 TVS 无关。采用 BGA 封装且接地引脚被其他引脚围绕的 TVS 需要通过过孔连接一个内部接地平面，最好是多个耦合的接地平面。图 2-9 展示了一个具有这种接地引脚的 TVS。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkAiafc89cTtvG6lQqBdeQpD2wt73YiclQB5sZ9ibHvpJmwAo93ibZXPulwhkjCSGmUZI8ldF4JQBtMRVQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_012_d2b339290e10.jpg)
 
 需要构建过孔以提供尽可能小的阻抗。由于趋肤效应，最大化 GND 过孔的表面区域可以将接地路径的阻抗最小化。因此，**使过孔焊盘直径和过孔钻取直径尽可能大**，从而使过孔表面外部和内部的表面积最大化。接地平面在GND 过孔的临近区域内不应断开。如果可能，将 GND 过孔与多个层上的接地平面连接，以尽可能减少阻抗。GND 过孔应使用非导电填充物（如树脂）而不是导电填充物填充，目的是保留由钻孔产生的过孔内部的表面积。GND 过孔应当电镀在 SMD 焊盘上。GND 过孔和非接地平面（例如电源平面）之间的间隙应保持最小。这会增加电容，而电容可以降低阻抗。
 
@@ -204,7 +204,7 @@ PCB 布局的另一方面是考虑 ESD 源与 TVS 之间拐角的样式。�
 
 https://www.ti.com.cn/cn/lit/an/zhcabl9a/zhcabl9a.pdf?ts=1717317799440&ref\_url=https%253A%252F%252Fwww.ti.com.cn%252Fsitesearch%252Fzh-cn%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Dzh-CN
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\ESD保护Layout指南_images\img_013_d5dcc7ecfdf3.jpg)
 
 ## 
 

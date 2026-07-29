@@ -46,7 +46,7 @@ Picard–Lindelöf 定理是**局部**定理：它保证的是起点附近一小
 
 好，来把  这个经典反例彻底拆开讲——它为什么能破坏"唯一性"，以及它和 Lipschitz 条件的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocspVjIOcAzIaJ1ib5KrChJpdtkjxBYkw2IuO9WHRsKBG4hjfqa3RvjialIuvpFQwUB8GPqzyZOfEq5LTiarrqQw268FialCG2PKNicE/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理中的_唯一__images/img_000_3a637dba8afb.png)
 
 ## 1\. 先看方程本身
 
@@ -54,7 +54,7 @@ Picard–Lindelöf 定理是**局部**定理：它保证的是起点附近一小
 
 ## 2\. 为什么  不满足 Lipschitz 条件
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocufMmf4GjKDG2wlEMRSBZPKSliaqlaBCQibEKMOXbmzGHYrXlCMMbbJFibJbzqFtpI5O9aibGhaiacvzVwyyZH9qruNqaScw9QtacLU/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理中的_唯一__images/img_001_b7033f22f6f2.png)
 
 Lipschitz 条件要求在  附近存在常数 ，使得
 
@@ -307,7 +307,7 @@ Lipschitz 条件要求在  附近存在常数 ，使得
 
 这个问题问得太好了——这就是很多教材和讲解里最容易把人绕晕的点：**同一个东西，换了三套“马甲”**。我给你把这三者的关系一次理清楚，以后看到就不会混了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocviaXWHCbkrACapSD6IV2Z73uQ7ZD2dYMBubu5DzYZZibhaHx6VaE3YIdcHlAOhA7uWuJlMtFJjibAz3Mc4qwUKTibUcCnDsO0VnKQ/640?wx_fmt=png&from=appmsg)
+![](Picard_Lindel_f_定理中的_唯一__images/img_002_f6774e87a89e.png)
 
 * * *
 

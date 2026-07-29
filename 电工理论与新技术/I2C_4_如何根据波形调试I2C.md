@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_GXC2MWJLp1AiVjQNA1hsg](https://mp.weixin.qq.com/s/_GXC2MWJLp1AiVjQNA1hsg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQMLYr4YCbmYPx97EibRqicXdicbhWg2cAkibnZXtxR9iawicyyrp7fBwtibniaictGibzOaU4UMQ2PlWx2fNicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_000_a846a01d6af6.png)
 
 ____**★★★**______I2C-4---波形调试I2C______**★★★**____
 
@@ -29,7 +29,7 @@ ___€2.上升时间过长___
 
 当上升时间太长时，可能导致信号在时间上从未达到高电平输入电压（VIH）的阈值。由于总线电容和上拉电阻直接影响上升时间，上升时间问题通常可以使用更强的上拉电阻（即电阻值较低的电阻器，有更大的上拉电流）来解决。I2C协议规定了基于所使用的最大时钟频率的最大允许上升时间，在I2C规范的2.6版本中，标准模式和快速模式的最大上升时间分别为1000ns和300ns。（传送门：[I2C-2：基本协议](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485586&idx=1&sn=194afa016012d56904a501b6e2a259be&chksm=c335420df442cb1b06d55f756d7b82affd79e40ea0cf3f57a12a4124717dd893adf9e3d5bf5d&scene=21#wechat_redirect)）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibO0Gzicd2mS3qhonh3tdYOyy4tAicUewJso3avtnicErWibGL2IHIibZMISU2AGBVqpcbZlVLZTE7oYw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_001_2c6a34e1cf3a.png)
 
 **_图4-1：具有弱上拉电阻的重Cload总线波形_**
 
@@ -41,7 +41,7 @@ ___€3.串扰___
 
 串扰通常在SDA数据线上可见（尽管也可能发生在SCL线上），来源通常是SCL或SDA线上的快速上升/下降产生的高频信号耦合到SDA走线和SCL走线之间的对位电容上，耦合电容带来的耦合电压叠加到自身，拔高电平造成小尖峰毛刺。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibO0Gzicd2mS3qhonh3tdYOj6YzTfp3HGA8r9bvQxcWl6BwVntt1lypbjib7AUsUygRRqNpweYPRFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_002_1ec80706be20.png)
 
 **_图4-2：仅轻微影响I2C信号完整性的轻微串扰示例_**
 
@@ -53,11 +53,11 @@ ___€4.VOL电平过高___
 
 较高的VOL会产生从/主设备将信号预处理为逻辑低的问题，一些I2C从设备（特别是传统器件）具有弱下拉FET，容易产生高VOL，这可能不符合VIL标准（尤其是在低VCC下，例如1.8V或1.0V逻辑）。其他时候，选择太强的上拉电阻（即值太小）可能导致VOL电平高于VIL，使线路处于未知状态。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQliaZoplvVnRnk1UPHgFZRrLWKJ2KmMcUSjyT4jHB77XiadwDHJmRt4EA52yhL4avmryuC97WJmglg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_003_1c84461881b5.png)
 
 **_图4-3：正确的VOL信号_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQliaZoplvVnRnk1UPHgFZRrV5bPfia27GqjgpznL585OXkODYMW0awsS9XINPvt152iaFR2Taj0w2Zg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_004_849d312f487b.png)
 
 **_图4-4：不正确的VOL信号_**
 
@@ -65,7 +65,7 @@ ___€5.意外争用___
 
 对于推挽结构的端口，当P-FET和N-FET同时导通时，会发生意外争用，一个将线路拉高，另一个拉低，这会导致非常高的VOL，其值通常落在数字逻辑的灰色区域之间（VIL和VIH之间）。在大多数系统中，不会发生意外争，因为主设备是开漏结构，因此无法生成这种争用状态。但是一些设计人员没有将I2C总线设计为开漏结构，而是使用推挽输出级，由于P-FET的强上拉，示波器上的SDA和SCL线将显示为方波，因此很容易发生意外争用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibO0Gzicd2mS3qhonh3tdYOqGkETZG1kQUB1Qyxk77YmmICFE6quDdoiajibYNwtBkhyljCV3cSGJCg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_005_24325db971cc.png)
 
 **_图4-5：推挽式设计中出现的争用_**
 
@@ -73,7 +73,7 @@ ___€5.意外争用___
 
 在**_图_****_4-_****_6_**中，上升时间加速器被接合，这意味着P-FET正在主动地将线路驱动到高电平，而从设备确认（N-FET驱动到低电平），这会导致上升时间加速器的P-FET和从设备的N-FET之间的意外争用，当加速器断开时，争用结束。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibO0Gzicd2mS3qhonh3tdYOa9HXjiaPhicAPro8icwkoKtzotlSbdl5yiaXDzDIuMCU4TARQAl9K3dxmw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_006_3562634fec77.png)
 
 **_图4-6：具有上升时间加速器的缓冲区导致I2C总线上的争用_**
 
@@ -81,7 +81,7 @@ ___€6.下冲___
 
 除了快速下降时间外，当线路上存在大量寄生电感时，可能会出现较大的下冲（下冲来自寄生电感的反射）。这在电缆传输中更为常见，但偶尔也会在PCB走线中看到。下冲带来的问题是：如果下冲足够大，它可能会违反引脚上允许的绝对最大电压值（如设备数据表中的规定值），并导致设备故障，在许多情况下，该设备不会立即失效，即使在数千次下冲后仍能继续工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibO0Gzicd2mS3qhonh3tdYOIaJfPWvjictEESsbFxjgl33wvLia10fl0a7rKb9o5EgmQcqiaKKKvCOlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\I2C_4_如何根据波形调试I2C_images\img_007_01a0ebc5ebef.png)
 
 **_图4-7：SCL线上发生下冲_**
 

@@ -22,17 +22,17 @@ EMC有时候真的很让人头大，凡是解不了的问题，都成了大家�
 
 2\. 《EMC设计开发内参Ⅱ——案例字典》
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjHLEOOyKQamkUKzribpltIicncP8nXgefBH8wZuEdviafVbvfSOlZS5nGQqPQNxnp7Qd6ic9muIQDPjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485雷击浪涌不过_这次轮到layout工程师挨板子_images\img_002_e5cd88826191.png)
 
 **这两本新书由我向岛主提出了申请，凡是公众号硬件笔记本粉丝，均可享受内部优惠价，感兴趣的同学加微信私聊。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485雷击浪涌不过_这次轮到layout工程师挨板子_images\img_003_8f8c22b4fa63.jpg)
 
 **作者简介**  
 
 岛主老师，毕业于西安电子科技大学，国家重点EMC教研室硕士，16年电磁兼容设计与整改实践。陕西省电源学会电磁兼容与防护分会秘书长，长期在一线大型企业从事产品EMC设计开发、故障诊断与整改工作，具有扎实的理论和丰富的实战经验，迄今设计和整改的产品有通信、医疗、军工、风电、无人机、高铁、电梯、汽车电子、汽车整车等几十家企业上百个产品，且多次在现场和远程诊断后一把搞定产品EMC问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjHLEOOyKQamkUKzribpltIicibTVAqwsDvZPjXtibnRibowmd1p4r3uq0UfoeObPE6kDVuQTnlbn38zuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\RS485雷击浪涌不过_这次轮到layout工程师挨板子_images\img_004_43fad112d486.png)
 
 其根据实践和积累所著的《EMC设计开发内参资料Ⅰ》，不到两年销量2800册，好评率超高；
 

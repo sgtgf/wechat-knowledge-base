@@ -8,59 +8,59 @@
 
 作者：Kasra Khazraei, Isabel Alvarez
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQEsyk5N29mBia3dUco3be66Cp5ibbOdHX9iajUR3Fj38x7NDQJPBLNlTMg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_000_fcc1fdc4035c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQibQPkH5BJLnCK8sNTckzT1e6Ap4no7qaP5dIZQFz3lRFF4URRo1BZMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_001_4be1f8fbf217.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQfM9Fr1dCOTvgCgNqIlElZJcCKNkzO0ubR10qCR86yttvdibfoq7TxzA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_002_841412c68aff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQm0qzNaLroEDAcrfKhkkmsVjr7X8bqdHTEqhu4Gr75mUxIBicFdTl3LQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_003_69e5ca04ab84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQibY7kcSa8LOtrkfcx2YMQcBcq5C4rARwbJSTmHcIxT5jO2UC2QAj5QA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_004_bfb2a7d2e7bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQiczpgpMG9IaXgfhUue10Se43vmTmorVKhb73JWejtnibibSovT0LUgXDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_005_849a7fc57725.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQEHd2BZZQ78OzKwf40xXruxb5uyDW3HI87Ev1Vm7yA2ibSZnGFib9LUuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_006_fd8b13937d7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQaTEjyJ7lOfZt2nAjWZF4uJambxuc5icAN1Ru5KwIUPWnTIy5sIkrOSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_007_2b906c8a5cc8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQ56wuJ9D5EBbQhGGuYtD8g3rmGT3fCfD9Ju6iaoGKFUMEl1Iib1jGvWGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_008_d48f01c002bf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQVdw0ibwoRibia0uv6yfcJVDpFEU6ctu5DgPRGpt2Hf4EAyKMM9Z4Hnnqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_009_4db51b638aec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQCKA7LAdONVIa3WhueyOSvePvRibmq7AvxtrtvDhZ4ibibsKY3PRkrbxEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_010_228d4753cc74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQdHtlUYN5eTaMgCLZSCiaF1vXyMsdiaHzJqLd2VBicQ4ErBXnMaUryyPYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_011_fd4a7fd17ee1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQMY4VRZ9lz3Bl8PKhCQdk76oOkMXicV69bxtWA7VDkzgGp9QIzeGDEcg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_012_f940c5af78ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQeB7KIWPJunwyMXCWzUMlFqcZ5PrUGeabMiaUtKYMOLIduO8HLu0lxFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_013_324223ad1ffe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQWMx3lv93ZMklvHTjqepBR0t4nBFfDO2BPcFYibOWQXA6gp7KEO4pMcw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_014_55f930875b40.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQUkibApJrr8ibXvP3GZkE4benqhg3lgmaT1ialWkHSQPew9x3h0UNeseRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_015_219fc0361f4b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQhdEM3qibjbTdemWsXUnnuTEC4DLIcwyEprNRqX1ho0YLla98P7vte8A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_016_9e834b966210.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQ9DELyhWq1RgxWEaYD5gicvbrpehVVnXILeD9UsGfJAAEhAxYHtiauwtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_017_1c64facd0b58.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQ0cfTtAic2XmAD6OiaViaEdhomDTOFd9l98YyM11E9mOZ3L2AfTMKbAuSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_018_222304c5a0f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQMWzehlBia6mO62OWvficW4Tyv6TnFUOgYVDZYmkibA9vyMk3hem1GmqHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_019_413df0c35e9c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQpKPZR36UjOtBfnW4xicTquc0nhbyoERibadXh7CndIxoJvhqFh9Fyr8g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_020_f3513aca6a26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQq07eg8K4GYFKDb3Kk7I5RsntZQjicnOM1ZkO5vhum2PscGrsxqdjgtw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_021_5fa11805888c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQl215cS1WOBCMz6HbOW9GGj3Tib8XRf2mOfTsVvGjRBA3vDGYOm0IFWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_022_95ae6e0b7277.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQ88X3uop9DlQDZ6fWYwsqNMLr4rNXy4EJ6CSGD229BicJ4xtaMVib51qA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_023_caba9718995d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQ1UNj1Hw2JSEaoek7ic2vibM2sIsD9tD1vm20h6KRwTgQZIwqOaxJV9Sw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_024_4ca0a6ab7737.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQoGnw4zm7W42J6RBXibBbEg4bKp4TGicSkYjQ5xL0hKiafj9SuGyGYzdwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_025_f72f576eb1c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQianH5rcjfKDKy2sUfORibnVo3UJXsSLbFjBm9Q3eSd7LjY6LzxRGyHrQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_026_fb58055e172f.png)
 
 注：文字与报告无关
 
@@ -84,13 +84,13 @@
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBnPw2HIxma0IfFibVUkxN6icyKvAwYyYJ19zlgAlrKQjE7OxtyuUSdXY7KkpnU5xIHeX0ziaNpFzlA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_027_c59bddf37570.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBnPw2HIxma0IfFibVUkxN6q3PIJ2Kkx7IOZFiatamsLyXyAgicDibibD5tcVVQ2XRhAnwpWiblSMjJicEw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_028_fc75e97d2c54.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskBnPw2HIxma0IfFibVUkxN63Aia0AzTL0HLoJUq6AHRCQ7pelRZdowqEFCpdr4dgU2LKm7zySgibXWw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\采用SiC_MOSFETs的单相HERIC逆变器_images\img_029_4b1d1e2a066b.png)

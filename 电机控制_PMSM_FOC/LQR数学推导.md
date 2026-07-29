@@ -7,17 +7,17 @@
 
 假设离散形式的状态转移方程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1TTUWlOX7s5kHGHyKicANW6JG7bib1eRhCaA7JcL6erRXjKrL3SgUf8hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_000_8453bb0cc225.png)
 
 需要基于LQR的代价函数最小原则，以及全状态反馈，自动配置闭环极点，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1cZic1WhibnEMdOAvz7eoaBMewB18T9bXhqJCMflHyXf7ljMKhXgT7Gxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_001_623042408c99.png)
 
 下面着重讨论怎样基于指定的输入权重与状态权重，得到反馈矩阵K(下面的推导用F表示，feedback的简写)。
 
 基于状态转移方程可知：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz10DCSSyv697ibEKEoLQMaINYsKgW5RslticC5HCckx1j4qiacMXCib2TpeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_002_c16a8779845b.png)
 
 要保证第0步→第N步的代价最优，可采用逆向分级的思路：
 
@@ -36,7 +36,7 @@
 
 假设第j步→第N步的代价函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1SIBjHaibUicNthckEOBHKn8tkzl3S637jutC1Jwb1Lb8gZA20Jk4UYhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_003_577bbc161fe1.png)
 
 S为末态权重矩阵，Q为暂态权重矩阵，R为输入权重矩阵。
 
@@ -44,25 +44,25 @@ S为末态权重矩阵，Q为暂态权重矩阵，R为输入权重矩阵。
 
 当j = N时，即最后时刻，此时木已成舟，改变不了什么，现有的就是最好的，即 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1JoyMrW2bMdGHS4Y6rnpyqmcF8ow1O6xTiaHobjIlNfTKCq9tfhlwV9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_004_6d277e603b16.png)
 
   
 
 当j = N-1时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1fEzOsickZicqmsfgoN0DOVpp1ftHss19u0gYwBicRIMVV9n51YQKHzXBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_005_43d0fcb6a3a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz12N27c74Qbiaw8baBkcVArEptrmTG4Ax4E6L265mAWmVtDaeTYZGeK1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_006_65e36fe34ade.png)
 
   
 
 当j = N-2时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1CO4rlJ4ONb6FO8Zian5RAKm8k8p3IzVJ0zrO200TB9Cv1gQ8CqxlIUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_007_01b6c056436a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1eJicMpBLZ3vBnX0nITqmzFKvWx2X40IE6zEibHDJzFk0ibnuE1puIwpYQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_008_40a8c551813b.png)
 
   
 
@@ -72,8 +72,8 @@ S为末态权重矩阵，Q为暂态权重矩阵，R为输入权重矩阵。
 
 流程如下，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz1ydxxNNRoRWqzsyRGndqA4lQLj8lv8gL5PicS8NucsbZ2vniaEKFTV6Xw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_009_aa3be92510f5.png)
 
 其中，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41bicJdNPmCgYGiaFdNOkkBz10T5OfGYibjJx2BOosIiaZ68iblV5KGSj4eic4537qT0b9Y3IruoDJSukicg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR数学推导_images\img_010_6b09446a3b0f.png)

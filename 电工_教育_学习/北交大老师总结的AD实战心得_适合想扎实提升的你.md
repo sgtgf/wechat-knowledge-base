@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/H6CeGg\_bV-qtS1EKLShnMQ](https://mp.weixin.qq.com/s/H6CeGg_bV-qtS1EKLShnMQ)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_000_c4a7d7533a07.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_001_cfc30a4da041.gif)
 
   
 
@@ -12,7 +12,7 @@
 
 今天给大家介绍的是这本叫《Altium Designer 25 电路设计精进实践》的新书，赠送5本给大家，送书方式见文末。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjicRD3Jpd57tKjybugsk1ZmgQoYGDJPswiaVlcebOfKkn5kMRuzWstUichS1TM5FtOaAt1sKeBINkzQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_002_d8bcfd9c3f93.jpg)
 
 01
 
@@ -20,11 +20,11 @@
 
 全书193页，拿在手里不厚，内容都是彩印，图文并茂，看起来挺舒服。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgOfxicABZXrdpd5B7vuTicTNI7CXc1E3ev7jIGufA9LhK1cDInECwKP9oeIUGabIXrX9LXgQ9Jkmkw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_003_0d1d2ef1dfab.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgOfxicABZXrdpd5B7vuTicTNYib7Q7q1xXxibXfV3ibBxfgITTeshAVSrGkEA9VTgyg8Ms9WEqOVpswBA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_004_45e5139bda99.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgOfxicABZXrdpd5B7vuTicTNVWxAxQmHIFRPjlxAOyWwsICYGcq6oJXSchzyODyXOeItLBChgOFOhQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_005_0a837e2f899b.jpg)
 
 书的核心很明确，就三块：**PCB版图、多板系统设计，还有线束规划**。这三样，恰恰是咱们从画单板走向做完整产品时，必须打通的关卡。
 
@@ -87,7 +87,7 @@
 
 1、关注公众号：硬件笔记本【设为星标】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjicRD3Jpd57tKjybugsk1Zmy3MLxPPiaTT5szfrEp3njXkmsqYmkJeqiabPSGWgxib0U4lDRiaCiav8CiaA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_006_57b37a98c83a.jpg)
 
 2、在本文评论区留言，分享你对AD软件的看法。
 
@@ -101,7 +101,7 @@
 
 直接复制粘贴，不容易出错哦！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgOfxicABZXrdpd5B7vuTicTNaAADkDBoxV9icroOv9FCCC18OjNUajTVTRqaIpOMibTKxWdjU3UKuHyg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_007_bcc47e7224a6.jpg)
 
 输入关键字后，系统后台会自动弹出抽奖链接
 
@@ -114,7 +114,7 @@
 
 也欢迎关注我的视频号。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjicRD3Jpd57tKjybugsk1Zm8Apb9fEq044cjNNI0juQkNAp9HF031w8CNIbYDP85PTibXDmPXyoCQA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\北交大老师总结的AD实战心得_适合想扎实提升的你_images\img_008_d2aa341c85e6.jpg)
 
   
 

@@ -12,7 +12,7 @@
 
 **关键词：**车载电源；3 kW 逆变电源；单相逆变器；电路设计；单管驱动；反激式开关电源；性能测试
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRzgdvibHfPfrxoJlLlnkib1mAZpYIV0RnYfkTaiaeRhPz7YZLKuBxHc4JQ/640?wx_fmt=jpeg&from=appmsg)图片与文章无关
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_000_ffd2a5da794d.jpg)图片与文章无关
 
 **0.引 言**
 
@@ -24,7 +24,7 @@
 
 车载逆变电源的硬件设计如图1所示。军用3 kW柴油机组输出为5线制，单相工频为220 V交流电和36 V直流电，220 V 工频交流输出送给逆变装置主电路进行二次电能变换，36 V 直流送给辅助电源，为整个系统所用IC 提供电源。主电路采用全桥拓扑，经后级 LC 滤波和EMC电感输出，辅助电源采用反激电路拓扑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRAErkNabcgibHsf8xBom1sZ74VupeQ7HXdwDj0Jg3zvZ9OHGBPQgPbEw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_001_b129c4363235.png)
 
 **2. 模块供电电路**
 
@@ -34,19 +34,19 @@
 
 反 激 式 辅 助 电 源 电 路 如 图 2 所 示 。采 用UCC28C42P、TL431 和 PS2701 构成反激式 DC⁃DC 电源，UCC28C42P 的最大占空比为 100%，RT/CT 引脚接电阻电容且工作频率可调，本文设置为 120 kHz，24 V 和 8 V两路次级隔离输出，使用一路辅助绕组对 UCC28C42P进行供电。将 UCC28C42P 内部电压反馈同相端和反相端短接，24 V 隔离输出电压作为反馈电压，经电阻分压后送给 TL431 内部运放反相输入端，比较结果通过光耦送给 UCC28C42P 的 COMP 引脚，提高电压反馈精度。电流反馈通过电流采样电阻送给 UCC28C42P 的 Isence引脚。采样电阻一般取 1 Ω 以下功率电阻。当 Isence引脚电压大于阈值 1 V 时，UCC28C42P 关闭输出。反激24 V 输出给驱动模块供电同时经 DPA423⁃242XX 后隔离输出±5 V 给控制器和运放供电，8 V 输出经 7805输出另一路隔离 5 V 为通信模块供电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRibzsdMRbGsLeqibeib2opaFibqkiauxRqxnjaOhu6TeHI5q4pGLibSbEeNibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_002_505300d43817.png)
 
 **2.2 核心控制器供电电路**
 
 核心控制器选用 TI 公司的 TMS320F28335 芯片。该芯片主频为 150 MHz，内部集成硬件乘法器，可大大提高运算速度，其采用哈佛总线架构，具有 265 K×64 bit的 FLASH 空间，支持浮点运算，是嵌入式行业的理想控制芯片，其供电电路如图 3 所示。TMS320F28335 的 I/O口供电电压为 3.3 V，内核为 1.9 V 供电。设计使用 TI公司的 TPS767D301 芯片，输入电压为 5 V，通过选择输出引脚分压电阻可以输出 3.3 V 和 1.9 V 电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRWLQpAZsibKswqtyYtMPf0bxs5BqGiau2MMsUTrx0LlyygwNkx5yMw7zw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_003_915abe98b5b8.png)
 
 **2.3 SiC MOSFET驱动电路**
 
 大功率 SiC MOSFET 的禁带宽度约为 Si 材料开关器件的 3 倍，故其具有更高的耐压水平且寄生电容相当小，可支持更高的工作频率，使得产品具有更高效率和较小体积，其结构如图 4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRK0ibmPf9HoHu4OWXCRVoI3cc0LX8tqossJ9aSNVX9ibWQ8I2KBfnLzKg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_004_2a0a5c728e2b.png)
 
 如图 4所示，定义其输入电容：
 
@@ -62,11 +62,11 @@ Crss = CGD                                       （3）
 
 其 中 ，转 移 电 容 又 称 为 米 勒 电 容（Miller Capacitance），在 MOSFET 开通的过程中，由于米勒电容的存在，UGS会存在一小段电压平台（米勒平台），在米勒平台时期，MOS 管类似处于三极管的放大区，这段时间其消耗功率最大，功率管损坏概率最大，故在设计时要尽可能缩短其开通和关断时间。一般集成的单管MOSFET 还会加有体二极管，导通后等效为一个电阻，称为导通电阻 Ron。驱动电路设计中采用 BM6104FV⁃C芯片，该芯片内部集成了输入欠压保护和功率管过流保护模块，且在关断期间触发米勒钳位功能（Miller Clamp Function），OUT2 引脚输出高电平，导通外部开关管，将MOSFET 栅极电压 UGS 强制拉至源极电位，实现软关断，其电路设计如图 5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRe0TeqiaibggPVbSnNv6IaBY1rpMWF206eglO1VE4tHBOur4UIhmw05Mg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_005_8717cccad637.png)
 
 设计采用反激输出的 24 V 经 QA2401C⁃20 模块输出+20 V 和\-4 V 电压供 BM6104FV ⁃C 组成的驱动电路使用，负压是保证 MOSFET 能够可靠关闭。在关断期间，芯片默认禁止过流保护；开通期间，当 SCPIN 引脚电压大于阈值时，FLT 引脚会输出低电平故障信号。其计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBR9SshmJa5dm5N6VShafAWXOkibuMxP1M0OpfPmia3liboDkopwzxfOflRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_006_4e361640a704.png)
 
 式中 VSCDET 为芯片 SPCIN 引脚内部运放反相电压基准，典型值为 0.7 V。
 
@@ -76,29 +76,29 @@ Crss = CGD                                       （3）
 
 由于开关频率高，故电流采样需要高频，因此，采用ALLEGRO 公司的 ACS733KLATR⁃40AB 芯片，其采样带宽高至 1 MHz，专用于高频电流采样，并且提供阈值电流保护故障输出功能，其原理图如图 6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRSLB45jcvD1O9ae5D3OohtZpRubbrZy45NQvibsyDibJnibAU4KWxSeJUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_007_71c222ab54f3.png)
 
 通过分压电阻改变 VOC 引脚电压，可以配制其故障输出的阈值电流，公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBR0SjluzxV0y3HfFelr4dkE1ibw6856FibK2gbic509MJTmAN0aHibuyCF5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_008_a85cc6e37d79.png)
 
 **3.2 电压采样电路**
 
 控制器需要采集的电压信号既有交流电压又有直流电压，由于控制器 A/D 口输入电压不能高于 3.3 V，故交流电压经过比例运放和滤波后电压需要抬高 1.65 V之后送入 DSP 的 A/D 口，直流输入电压经过比例运放和滤波后直接送入 A/D 口检测，电路如图 7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRvVPegsr6A0pK29GrJvoibY9kkoryT9JA8SicDpY4Ufvh905gFDjaL39Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_009_2083c0173794.png)
 
 **4 .实验验证**
 
 为了验证该硬件设计的合理性和性能的优良性，搭建一台 3 kW 逆变电源，逆变电源实物如图 8 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRUbot3BZbIpgoSbZzNkcI7KJlVN0CYSpibeGyeYdicUS9JSeR3fAQ9icbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_010_74ca11409efa.png)
 
 图 8中 L，N 和 E 为图 1 中 3 kW 柴油发电机的工频 220 V 交流输出 L，N 和 EARTH；DC 对应图 1中 3 kW 柴油发电机的直流 36 V 输出。
 
 采用军用电气性能检测负载柜对其进行检测，得到测试结果如表 1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskzvamlCpzaYQP4ZtDAdlBRRhlDFwGO5DxI1ibvrPIvRnibUeiaicEOPg1NhdwCrzJBNKibVlqAruwBiaQQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_011_57ab46e88692.png)
 
 **5. 结语**
 
@@ -106,10 +106,10 @@ Crss = CGD                                       （3）
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_012_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_013_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\军用车载单相_3_kW_逆变电源硬件设计_images\img_014_84aa944feb13.jpg)

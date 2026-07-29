@@ -24,9 +24,9 @@
 
 图 1 给出了桥臂串扰产生原理及其典型抑制方法，其中 QH、QL 为上、下桥臂的 SiC MOSFET开关管。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofiauib0GrFOkicSdRP3vWNATOf5I27libegg7JM22toYVlVYLcrKCDA75OQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_000_30ffd18cea1a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aof5Ap0nUaFHQHLlEictkDRRWiayCsLJOgOSOVMibWbHPO7ch9H0xtZa7YBg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_001_4e4717e466a7.png)
 
 在 QH 开通之前如图 1a 所示，QL 体二极管 VDL续流。QH 开通瞬间，QH 沟道与 VDL 换流，QH 漏源极电压 vdsH 迅速下降，QL 漏源极电压 vdsL 迅速上升，QL 米勒电容 CgdL 开始充电，充电电流方向如图中实线箭头所示，此电流在栅极阻抗产生负压降，抬升了 QL 栅源极电压 vgsL，可能导致 vgsL 超过阈值电压Vth，引起 QL 误导通。
 
@@ -42,7 +42,7 @@
 
 本文基于负压关断法，提出一种带有辅助支路的改进抑制串扰驱动电路，如图 2 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofja4SkC6UcOeWLKGURhFaAwQoHvTbjJZh9IkibSWMJpT01iciclSpxVoYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_002_9e08ebd6e262.png)
 
 其基本思想是在串扰产生过程中，通过控制三极管开断，使三极管串联电容的辅助支路为米勒电流提供旁路通道，降低栅极驱动回路阻抗，抑制串扰，同时减小辅助支路电容对 SiC MOSFET 开关特性的影响。由于辅助支路三极管只需提供 0.7V 的正向偏置电压即可导通，因此无需外加控制信号，降低了控制复杂度。此外，当上、下开关管的辅助电容 CaH、CaL 足够大时，共源寄生电感 LsH、LsL 上的电压对 CaH、CaL 电压影响较小，使 CaH、CaL 电压基本稳定在 V2H、V2L，实现 LsH、LsL 与驱动回路解耦，减小共源寄生电感对开关特性的影响。
 
@@ -50,21 +50,21 @@
 
 改进抑制串扰驱动电路在开关过程中的相关波形如图 3 所示，其中 SH、SL 为上、下桥臂开关管QH、QL 的驱动信号；vdsL、vgsL 分别为下桥臂开关管QL 的漏源极电压与栅源极电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofg23Co7xolicpaNfBhRXuNp69oqFqs9XicdyP9MFyicHrqoPpicq4WzAlsw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_003_c20e02deab91.png)
 
 为了进一步深入分析改进驱动电路的开关过程，并考虑死区等因素，本节在单个开关周期内，对改进抑制串扰驱动电路的工作原理进行分析。图4 给出了共源寄生电感 LsH、LsL 被 CaH、CaL 解耦后，改进驱动电路工作原理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofRl6ribQwLCvBxQRicfUbD9cg32icpXJKKbVwWj0wKChupWw4F8jZgxticw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_004_9a6396214b03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofjOIDF8liabBeiapNm7icXf2oZhUF7XfVbzibq3BZNamzjcmic7f7AJ8nKkQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_005_5610fb2f2a38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofU3vOWV7VCelf7mCz2U7DDHbpJ6EAmqmrZZP4ic6ohHs4EIdpCSYUDdA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_006_0c3405802e23.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofjzic66gPf2wiatYAtH7pWn9SAGhK2lgo7ZQ3uGkpZ592DqYFUvqhfCuQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_007_ca746859770c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofeJl8AWUUCPS9fV1Lf1uBZozWlxgibnH79H3mLvJcnxEKC7d6FA4Ndxg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_008_12c37d266a17.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofA5gibV3pklfFPDpHPONbXT7W8OswRzuqP6DRiba3xwUx0RhLkRHe7arA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_009_c06727412c64.png)
 
 开关模态 1\[t0, t1\]：QH 处于完全导通状态，QL处于完全关断状态，负载电流流过 QH 沟道，驱动回路无电流，辅助支路不工作。
 
@@ -88,65 +88,65 @@
 
 本文以 CREE 公司第 2 代 1.2kV SiC MOSFET半导体器件 C2M0080120D 为例，对改进驱动电路参数设计原则进行研究，其基本参数见表 1。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aof3SibKTbL5gXR7EbWEKpvWeDK3Zevtw0KvzJyx9hLlOAGTCl0YmE0ictQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_010_4c093bdd0690.png)
 
 为简化分析，忽略栅极寄生电感影响，在 QH开关瞬间，当辅助支路不工作且共源寄生电感 LsH、LsL 被 CaH、CaL 解耦时，QL 驱动回路的等效简化电路如图 5 所示。图中电压源 vin 等效上桥臂 QH 开关瞬间对下桥臂 QL 的影响，vin=at，a 为 QH 开关速度，假设 a 的绝对值恒定，V2L 为关断负压电源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofkRMZhibwylicRzDWjXltW30Sl7WgOE2K7I1ECyahaWt3QXVw7jPCnnkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_011_890dca618762.png)
 
 由基尔霍夫定律可得节点 G 的节点电压方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aof9EvPOwkNZ010RjkS1RI9ibH8cOlpY9ibDgI7fRvBuoicemyiacBo4yyroQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_012_3544b54ac94a.png)
 
 要使辅助支路转换到工作状态，则 QH 开关瞬间，充放电的米勒电流在 QL 栅极驱动电阻 RgL 上产生的电压降ΔV1 应使三极管发射结正偏，且肖特基二极管正向导通，因此 RgL 的取值应满足
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofPsdfXp9a5Y3Nxkrm65wAdABMdZXpeaaQJYZltiacghjyMu8rVkv7oQw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_013_e01ebe439de6.png)
 
 式中，0.7V 为三极管发射结正向偏置电压；0.4V 为肖特基二极管正向导通电压。当 V2L=5V 时，可得驱动电阻 RgL 的取值范围如图 6 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofFDk4FibmoEiaQfXwXlf88LmXUqoJt91WuKicMr2xf51Ff8gUsGRkCm5ibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_014_64eab89cbca0.png)
 
 由图 6 可知，不考虑栅极寄生电感时，RgL 取值应大于 3.9Ω；当考虑其影响时，米勒电流将在寄生电感上产生压降，导致 RgL 取值小于 3.9Ω便可使栅极阻抗压降满足辅助支路的开通要求，使辅助支路工作。因此，本文中驱动电阻 RgL 取值大于等于 5Ω。
 
 当辅助支路处于工作状态时，由于辅助支路三极管与二极管的饱和导通电阻只有几十mΩ，可忽略其影响，则 QH 开关瞬间 QL驱动回路的等效简化电路如图 7 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aoft8PotMibwjhrgPfqRI4gP8yeVfroh35bhAw6j3s2y9j8Rdoic2hwJHqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_015_9bc231b8e074.png)
 
 由基尔霍夫定律可得节点 G 的节点电压方程为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofYcxv9BZqtg1RZbUYNMic00se0w4BskhsGThE80JhapJJoRrRWsMKG0g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_016_cf2014908d50.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofd5KFyj3XH5o9r4CFO7YcRvAjhcAheIwBCRV1WPUpc8ibgAK2qmTum7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_017_f889a8dd367f.png)
 
 从图 8 可以看出，当辅助电容 CL 取值大于 10nF时，ΔV2 变化平缓且裕度较宽，因此，本文辅助支路电容取值 100nF。此外，在辅助支路三极管基极串一个 0Ω电阻，来抑制高频噪声干扰。
 
 **4.改进抑制串扰驱动电路实验验证**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofibZgSm9tpjeUq5VEIsBg2EoT4DibicdrnMA9awbT8n9xfibdqMxgKWicXZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_018_cb22e3aa91b0.png)
 
 为了验证改进抑制串扰驱动电路的有效性，本文基于 SiC MOSFET 器件 C2M0080120D，搭建了如图 9 所示的双脉冲测试实验平台，并对传统驱动电路、典型抑制串扰驱动电路、改进抑制串扰驱动电路进行了实验对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofCqh6y98pnUYSMmNdqQVlq0Df07dlneqlK9LU7ugFogbLVs8nrXqTmg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_019_3827d1956061.png)
 
 图 10 给出了改进抑制串扰驱动电路原理。其具体参数设置如下：辅助支路中的NPN 和 PNP 三极管分别选择低饱和压降、高阻断压降且能承受较大集电极电流的中等功率三极管ZXTN25100BFHTA 和 ZXTP25100BFHTA，辅助支路中的肖特基二极管选择低导通压降、快反向恢复特性的 1N5819HW−7−F，光耦隔离芯片选择具有快转换速率的 ACPL−4800，驱动芯片选择具有较强驱动能力的 IXDN609，负载电感为 400μH，电路中其他无源器件的基本参数见表 2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofky3ickmD891OMzRwdRcB0n6vHI0Ip3WZ7XzsXxWnDUXGaqvleocZYOw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_020_57c2896b7f58.png)
 
 图 11～图 13 分别给出了驱动电阻为 10Ω，输入电压为 400V，负载电流为 5A 时，传统驱动电路、典型驱动电路与改进驱动电路的实验波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofUr6UWYNNRqD3ZM4oG9rN5RvoKiatpyv4RdEkra0icusRicgxzO2OI7R7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_021_19188512ee11.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aof5mkWHfRU5zC5WGL13J1bXO8jnOwePWbbhrxCkbLntnQmSxLPqeFFIg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_022_337a420bd405.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofMDXm1abFGoJkiaDQYwL5da4N2yHAU6icr5zia5n9xicyBl4O8ovOdgW2oA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_023_0402f69af880.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofLyn777ApQsA0n0FYQnnDHVkCWVtWKIyDeJ6x3P1fXcadCVNMrJYGww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_024_3e679f39a1e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofLyn777ApQsA0n0FYQnnDHVkCWVtWKIyDeJ6x3P1fXcadCVNMrJYGww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_025_3e679f39a1e4.png)
 
 通过图 11～图 13 可得不同驱动电路实验对比结果见表 3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofbPBkWicicq4Y8894yf5QU8UY5jkaLGHAS9hDoh2lgEEicRcBzcAkhC0Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_026_8c75b0868f98.png)
 
 由实验结果分析可知，传统驱动电路正向电压尖峰为 3.8V，大于 QL 阈值电压，负向电压尖峰为−15.6V，超过了 QL 负向安全电压，串扰现象明显。
 
@@ -154,15 +154,15 @@
 
 为了进一步比较分析典型抑制串扰驱动电路与改进抑制串扰驱动电路的驱动特性，本节分别在不同驱动电阻、不同输入电压、不同负载电流条件下，对两者在开关延时、开关损耗、正负向电压尖峰方面进行实验对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofgTvkZfglgOSibpX8Yq0icszWMbAQmiaNY6rGNibrib7PgjpxT3gvfH2hiaWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_027_383c5ee00c55.png)
 
 图 14 与附表 1 给出了当输入电压为 400V，负载电流为 5A，驱动电阻分别为 5Ω、10Ω、20Ω时的实验对比结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aofG5wXd0yHUdyKWFF2VyhAo8WicibztMYia0x0BibGjZwc8VaXMXVQkuSPeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_028_cdbe14607ae4.png)
 
 图15 与附表 2 给出了当驱动电阻为 10Ω，负载电流为 5A，输入电压分别为 300V、400V、500V、600V 时的实验对比结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aof8iaKhOUBCwQA01aarY3g92jkgVAwy8EOicHhJjnibvje2icevtsmP1xbTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_029_3987176db6f5.png)
 
 图 16 与附表 3 给出了当驱动电阻为 10Ω，输入电压为 400V，负载电流分别为 3A、5A、7A、10A时的实验对比结果。
 
@@ -180,21 +180,21 @@
 
 3）相比典型抑制串扰驱动电路，本文提出的改进驱动电路有效降低了开关延时与损耗，且随着驱动电阻、输入电压、负载电流的增大，降低 SiC MOSFET 开关损耗的效果更明显，进一步说明本文方法在抑制串扰和提高开关特性方面更具有优势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7BYJe8ibxUfzWNTxxZ0aof8bpOg0oJhRK4KNeydwbvfLpT28Oal6M85bqqug96NHHgLCI2RiaI3aQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_030_bc16778a92ef.png)
 
 团队介绍  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl1MfoADL2RBcZyqQqyHT4GpuObQHgDDT8RDrRrINoeSNibuI62rqJw93NHYicfgv78Wp0YBuAMYhxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_031_d875ff758e61.png)
 
 重庆大学李辉教授研究团队主要围绕可再生能源电力装备安全可靠运行开展研究，拥有完备的材料-封装-器件-装备仿真及实验平台。近五年，团队在大功率电力电子器件可靠性研究方向承担了国家自然科学基金智能电网联合基金重点项目1项“压接型IGBT器件封装老化失效演化机理及测评方法”，参与国家重点研发计划项目3项“电力系统用国产高压大功率IGBT芯片及模块的应用研发”、“碳化硅大功率电力电子器件及应用基础理论研究”、“大容量电力电子装备多物理场综合分析及可靠性评估方法研究”；承担国家自然基金面上项目2项，参与工信部高新技术科研项目1项，国际合作项目2项以及省部级科技项目10余项；获重庆市科技进步二等奖、三等奖各1项。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75TPY8CQpiaLdn4vEneWSblNe0wibOiaL7l7GibCRviatOyiacBJvVWY5teXBUyU7ASk48vEzIt3GoHQiaByQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_032_93ca73b00b93.jpg)
 
  李辉
 
 1973出生，教授，博士生导师，教育部新世纪优秀人才支持计划入选者，爱思唯尔“中国高被引学者”，输配电装备及系统安全国家重点实验室副主任，中国电机工程学会电力电子器件专业委员会委员，中国工业节能与清洁生产协会绿色电机系统专业委员会专家，IET Renewable Power Generation副编辑。主持国家自然科学基金重点项目1项、面上项目2项，参与国家重点研发计划项目2项和国际合作项目2项，获重庆市科技进步二等奖1项（第一完成人），发表高质量学术论文72篇，出版专著1部，授权国家发明专利16件，申请发明专利11件。主要研究方向为电力电子器件封装与可靠性、风力发电技术、特种电机系统设计与控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75TPY8CQpiaLdn4vEneWSblNeYnOwIKtBHLyTYrrAO3kLv4jmoLglK4Ht7RwKPBZ2IwKKdbBickGJYSg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_033_8f7e4c2ef0c4.png)
 
  黄樟坚
 
@@ -202,10 +202,10 @@
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_034_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_035_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_抑制SiC_MOSFET桥臂串扰的改进门极驱动设计_images\img_036_84aa944feb13.jpg)

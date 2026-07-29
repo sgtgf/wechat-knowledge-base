@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/nrbhxvZpAdUgToKwysqDcw](https://mp.weixin.qq.com/s/nrbhxvZpAdUgToKwysqDcw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPiavn2jldxicGaJkQLkEmt21UG3Mic4HYBOHHJQvDtB1jgHdlI0BcHcJqRO5U4z2hxtwGhVibThO8QQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247485317&idx=1&sn=cce0258bac10052139029b768bdf44b7&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_001_675de3a7a890.jpg)](https://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247485317&idx=1&sn=cce0258bac10052139029b768bdf44b7&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_002_e532dba355d8.gif)
 
   
 
@@ -17,31 +17,31 @@
 
 为了更好地理解施加外部电压时BLDC电机的行为，假设转子由单极对组成，而定子由夹角为120度的三个线圈组成。让电流通过线圈，给线圈（此处称为A相、B相和C相）通电。转子的N极用红色表示，S极用蓝色表示。一开始，线圈没有通电，转子处于静止状态。在 A相与C相之间施加电压，即会沿虚线产生复合磁场。这使转子开始旋转，从而与定子磁场对齐。 线圈对共有六种通电方法，如下所示。每次换相后，定子磁场相应旋转，从而带动转子，使之旋转至图示位置。转子角度是相对于水平轴而言的，转子共有六种对齐方式，两两相差60度。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVMCYGBXxx3MCCusvSmu7ZKIQ92RibV2hicwYIY06bNY7G8GGfxh7xdv72g3jicFvh9tOPlDn4RK2CCg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_003_248087b9658f.jpg)
 
 也就是说，如果每60度以正确的相位执行一次换相，电机将连续旋转，此类控制被称为六步换相或梯形控制。此类电机可以包含更多极对，但这就要求更为频繁地换相。为了在合适的时机以正确的相位执行电机换相，控制器需要时刻掌握转子的确切位置，对此通常使用霍尔传感器进行测量。通过Simulink可以实现永磁无刷直流电机控制算法的开发，建立的整体模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVMCYGBXxx3MCCusvSmu7ZKKEic1s7joJcTS3uYZo7b2hRupUCHoqZUP9VNyWmh5sPALgpjGMUaTdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_004_ba3691232d9a.png)
 
 电流滞环控制的实现：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVMCYGBXxx3MCCusvSmu7ZKM00bQsoM8NpIyqsgEOdluZtGmGqnN5D920YClxV7ZcVxXDibz18lyqg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_005_4b3c253f346f.jpg)
 
 电流信号的处理方式（三相电流采样）：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVMCYGBXxx3MCCusvSmu7ZKQvTh08Xo3b322FYZm6k9RiaJTCNvVllrhBcwpKeQXQdic6F6Zs0T95Ug/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_006_41317ab0d894.jpg)
 
 电流调节器的设计：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVMCYGBXxx3MCCusvSmu7ZKeHPMHxTzwmXUWzJdaibjD3JQ7Stm13CEbR0DJaJtz4Jkl2tJaLTZdNg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_007_aa1c977d03de.jpg)
 
 此外，还可以搭建永磁无刷直流电机的闭环控制系统研究控制参数对性能的影响
 
-![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVMCYGBXxx3MCCusvSmu7ZKFwiciaCdjG8YhxdVgtYzCjOWsIaoMA6wekw5ZuSxSlnETSjCOZO1TyAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_008_407e35f67846.png)
 
 为了帮助大家深入理解永磁无刷直流电机的数学建模的原理和掌握其实现方法并完成相应的控制算法开发以及闭环系统仿真，西莫特邀上海熠速信息技术有限公司高级工程师许为老师全新打造了永磁电机数学建模及控制算法开发研修班课程，培训共分12部分，力求完整覆盖到永磁同步电机及永磁无刷直流电机控制系统相关建模仿真及算法开发等方方面面内容，为学员在实际工作中电控领域的学习和提高需求以及各种相关应用问题的解决提供更好的帮助。相对于西莫之前的电机控制研修班课程，本次培训更加聚焦于以电机控制系统建模仿真为依托深入解读和实现电机控制算法开发的过程，从基本电机控制的基本原理入手，进一步详细全面系统地帮助大家深入理解和完成永磁电机控制系统数学模型的建立，并结合典型的控制算法实例讲授来提高大家对永磁电机控制的认知，了解更多关于永磁电机控制的应用和未来发展趋势：
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEohg4Ucqg7pFaKlK082RvuibjTJSpNbJh6a0Dn6QTdK0fFFSD36icFR8mw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_009_456d15dab7d3.jpg)
 
 欢迎对永磁电机控制仿真及算法开发有迫切学习需求的朋友扫码报名，关于本次培训的详细情况介绍如下：
 
@@ -112,7 +112,7 @@
 
 可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
 
-![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEo5ZDficM7twjeYFZwTgnvLCaplfz9QsTTNOWNdHyjbwINftDWxmk3OPA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_010_42c0a76bd665.jpg)
 
 **增值服务**
 
@@ -147,28 +147,28 @@
     
 -   报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVAgHHz8bTt6xsRmjb3cyQZbUIdK7iaBvZllT5DsmVKjpQlibVASfRmoBEnSAxmicWxap2SXFtt69icXQ/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_011_f9ce906c696c.png)
     
 
 其他事宜咨询，请联系会务组负责人张老师，电话：18516258619欢迎大家踊跃报名！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_012_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPiavn2jldxicGaJkQLkEmt2c6SS5x4GfkBwcpgMPdT1ibUTayHmgD3rHCVMCzrCN6ZM7kCtefDaFoQ/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658240&idx=1&sn=5b12beea71cf046c0e28591fe96050a4&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_013_e46638dfa479.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658240&idx=1&sn=5b12beea71cf046c0e28591fe96050a4&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPiavn2jldxicGaJkQLkEmt2pft0CDpNaicyL81bHPmtyYKJf05TuFvpOpnNEwQrQDulae4kllK7B0g/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658235&idx=1&sn=ea513ab4961c967a53418e97fe47b9ed&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_014_10742f558635.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658235&idx=1&sn=ea513ab4961c967a53418e97fe47b9ed&scene=21#wechat_redirect)
 
-[![](https://mmecoa.qpic.cn/mmecoa_jpg/9RCbW5V9GKtuIdpS8l66iazOEAHFZuZEooIf5iajRx6goMHfaWKSOuiaNia4aEicvPz6iaXsFH5G3QeLPsPkjibLX0t9A/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658261&idx=1&sn=e410f6a49effa47805b213b08832491e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_015_93653304c9b3.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658261&idx=1&sn=e410f6a49effa47805b213b08832491e&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIWhDHXwtf5FeC5z7xKdWcvPR1J9ygJx7qjiciaMYnvY2Ksia0S7n2wx0fdpBVB8hsGqoV1kS5yZh5T7g/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658229&idx=1&sn=0bf1dfb4ffbc8bc866863076f49af9a8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_016_1da2799ecb17.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658229&idx=1&sn=0bf1dfb4ffbc8bc866863076f49af9a8&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPiavn2jldxicGaJkQLkEmt2WAOyhvT07Uf5lrAZha8l3NFCme7RC4tJCcS90NfhOyb9Liaok96VSCA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658121&idx=1&sn=7cf6e4b756408d14b94b862588414780&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_017_a2b5083970ac.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658121&idx=1&sn=7cf6e4b756408d14b94b862588414780&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXPiavn2jldxicGaJkQLkEmt2lCiaIwemsrGV4VC7offfTMRpIUiaIFF12hSvL9Pq2FuOzicHVIBKRsbFg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658238&idx=1&sn=70d956a76cb3e1755d2ca816746e82a8&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_018_9ccb02639737.jpg)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658238&idx=1&sn=70d956a76cb3e1755d2ca816746e82a8&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_019_96b548e7fe70.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658238&idx=2&sn=78be8d396995d1e284388faf14335382&scene=21#wechat_redirect)  
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_020_3f5511eb92d0.png)](https://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650658238&idx=2&sn=78be8d396995d1e284388faf14335382&scene=21#wechat_redirect)  
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWZmc8zsicsTcbCIbVFv7SoOodJAqUibPBTD0s7skbpFRlvg05pUo90abibFXBk5dljD4LMBxk8x0vqw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_021_cb8185f2cf41.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650653764&idx=1&sn=eb5317bf3d00f3cbee6d4528d63d4976&chksm=88bc6f4bbfcbe65d53c1e02169550dbdc8d8829eeea7518fee5bd7dc595c04c9a5b75d14f9a0&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电机控制_建模_仿真\永磁无刷直流电机控制算法开发及Simulink模型实现_images\img_022_64bd90de404b.png)
 
 点击**阅读原文**，直接报名参加本次培训！
 

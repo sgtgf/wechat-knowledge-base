@@ -134,7 +134,7 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOwCicolCpOpAZWiaRvpoXEE301r8qWag8OQFPLUZCicucxb2ibYPm1VfXFQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_000_f3b593999419.jpg)
 
 _图 1：计算机视觉任务，来源 cs231n 课程资料。_
 
@@ -144,7 +144,7 @@ _图 1：计算机视觉任务，来源 cs231n 课程资料。_
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOqnfjV6UVrHblia6sJBvhMrL8l1CbqLTZzDRZCfabEVhDGrbWhcpE6Fg/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_001_52ba23e73e30.png)
 
 _图 2：ILSVRC 竞赛中，分类/定位的逐年错误率，来源 Jia Deng (2016)，ILSVRC2016。_
 
@@ -171,7 +171,7 @@ ImageNet LSVRC（2016）亮点：
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47qey3jX59CuRXN4wJSSnfObiay8KF0EumGSpJM06kg6CmAYANRZ5VGRMWFEj4khY6icSrefNspovMA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_002_f77a54097056.jpg)
 
 _图 3：仅有人脸一个类别的目标检测。图为人脸检测的一个示例，作者表示目标识别的一个问题是小物体检测，检测图中较小的人脸有助于挖掘模型的尺度不变性、图像分辨率和情景推理的能力，来源 Hu and Ramanan (2016, p. 1)\[21\]。_
 
@@ -203,7 +203,7 @@ YOLO9000 实现了检测和分类的联合训练，并将其预测泛化能力�
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47qey3jX59CuRXN4wJSSnfO8arTCL3ibCSeMvY1T8wMvqkzzTyn705cF64ia2KjeqRLW9YKDq2BN6Uw/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_003_13d86684cad7.jpg)
 
 _图 4：目标检测中的准确率权衡，来源 Huang et al. (2016, p. 9)\[31\]。_
 
@@ -244,7 +244,7 @@ COCO\[36\] 是另一个常用的图像数据集。然而，它相对于 ImageNet
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47qey3jX59CuRXN4wJSSnfO3liarIuYM8TKPbRIK47VpUSYfV3pTQEVA6gbrQfeCAZIr0jPw0jXzJQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_004_b593b82ec4d1.jpg)
 
 _图 5.ILSVRC 的图像目标检测结果（2013-2016），来源 ImageNet. 2016. \[Online\] Workshop_
 
@@ -390,21 +390,21 @@ _原报告地址：http://www.themtank.org/a-year-in-computer-vision_
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOVIPms1k6Nw2c0DgHblI0TaL9grfV5IAQa9cnzFOyzn0dTdOlZuSYfw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_006_1fb4b90d183c.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOj7HGRnOKia43cSwNibf21FISaHkSyJXBepTQ4QSUZebj6JhEMKAcicDpA/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_007_a85bcff28fb1.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOVIPms1k6Nw2c0DgHblI0TaL9grfV5IAQa9cnzFOyzn0dTdOlZuSYfw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_008_1fb4b90d183c.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOjiaPWXXSzZM4MsFsqYjSuvX0wkjiaSM827odxjzdeSPooekXKXULKCwQ/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_009_2a366ed4cd20.jpg)
 
 自动化学报服务号
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOVIPms1k6Nw2c0DgHblI0TaL9grfV5IAQa9cnzFOyzn0dTdOlZuSYfw/0?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_010_1fb4b90d183c.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47qey3jX59CuRXN4wJSSnfOZRk706jqWrqibJVClIBk3eg3LibBnd0nmKffm7E91dnSFPA9Fuk4ybNg/0?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\计算机视觉这一年_这是最全的一份CV技术报告_images\img_011_d9c1f37a28c0.jpg)
 
 自动化学报订阅号
 

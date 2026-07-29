@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/6dd54gYHL\_9W\_xkBOmzmqw](https://mp.weixin.qq.com/s/6dd54gYHL_9W_xkBOmzmqw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_000_4fecbf19a39d.gif)
 
   
 
@@ -38,7 +38,7 @@ K. N. Romaric, D. Liu and B. Du, "Impact of the Foucault Current and its Vibrati
 
 This manuscript explores the influences of the Foucault current on bracket vibration. Noise measurements are obtained in conditions that the coils are enclosed by the bracket, and exposed to the air for confirming the impact of Foucault current on bracket vibration. The outcomes illustrate that the bracket increases the primary noise to 21 dB. Throughout investigational modal computation, ordinary frequencies of the coils stay afar from the exciting frequency of 100 Hz but the ordinary frequency 72.924 Hz of the bracket stands near to 100 Hz, which similarly explicates the upsurge of the noise level. To do the computations on bracket vibrations instigated by the Foucault current, a finite-element method (FEM) has been utilized for evaluating the eddy current density, electromagnetic forces (EMF), coupled with bracket response in frequency domain. The calculations displayed a proper approval by mean of theoretic investigations, and the simulations analyzed effectively the bracket vibration produced by Eddy current, and the electromagnetic force (EMF). Referring to the simulation, the primary vibration characteristics, and noise level, the method by applying weights (stress) on the top bracket of transformer is proposed to lessen the vibration amplitude, and noise level. To indorse the utility, and application of the suggested technique, the experiment results are obtained, analyzed, and compared with those of simulations, primary vibration characteristics, and noise level.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17863mtjN8djjqYEP29U9tSqG6eLor2ooiaOT2IUcN8q0RR2iapUNknUoIdAgicpDAatN837CHwCG0a0Q/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_001_b4f0333bb3f9.gif)
 
   
 
@@ -48,15 +48,15 @@ This manuscript explores the influences of the Foucault current on bracket vibra
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17863mtjN8djjqYEP29U9tSqGLBOCN59agAb304icMdyevR9V2GrA4Rm4v4oOMcXlF7o4NzC7oxt8iag/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_002_81bfbd15618d.gif)
 
 **Kammeugue Noubissi Romaric** received his B.S and M.S degrees in electrical engineering respectively from Ngaoundere University, Cameroon, and Jiangxi University of Science and Technology (JXUST), China. He is currently working towards his Ph.D. at JXUST. His current research interests include investigation characteristics and reduction of transformers noise vibration also study on transformers design and Electromagnetism.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17863mtjN8djjqYEP29U9tSq2HJxicw6UhKjgzqSwEkPzFePADYOjkXTlUqAIc4iaXqV6RIKbicf0Vvgw/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_003_da0c04717fc2.gif)
 
 **Daosheng Liu** (M 2015) was born in Jiangxi Province, China in 1976. He received Phd. degree from Tianjin University, Tianjin, China. During the the period of 2016 to 2018, he joined the Zhejing University as a Post-doctoral. During the period of 1999–2010, he joined the Changzhou transformer factory, Zhixin Electric and Schneider electric of China, respectively, where he was engaged in the high voltage transformers, AMDT and substation research and development. During the period of 2010–2012 he joined TBEA, where he was vice chief engineer. Now, he is an associate professor at the Department of Electrical Engineering, School of Electrical Engineering and Automation, Jiangxi University of Science and Technology, China. His main research interests are transformer insulation and electromagnetic field analysis. He is currently engaged in research on dielectric insulation and experiment method of transformer insulation materials.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17863mtjN8djjqYEP29U9tSqLeaklo4bOSdzG66IyswiadwkY9nlxs2GdUccUbKfXv93n6JOlwHfM7A/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_004_4e3f9e5d772b.gif)
 
 **Boxue Du** (M'00-SM'04) received the M.E. degree in electrical engineering from Ibaraki University, Hitachi, the Ph.D. degree from Tokyo University of Agriculture and Technology, Tokyo. He was with Niigata College of Technology, Japan and was an Associated Professor. Now, he is a Professor at the Department of Electrical Engineering, School of Electrical Engineering and Automation, Tianjin University, China. His main research interests are dielectric failure mechanisms of polymer insulating materials, electrical insulation technology and partial discharge measurements. He is a senior member of IEEE and senior member of CSEE.
 
@@ -64,7 +64,7 @@ This manuscript explores the influences of the Foucault current on bracket vibra
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_005_654c2fde68d8.jpg)
 
   
 
@@ -78,15 +78,15 @@ This manuscript explores the influences of the Foucault current on bracket vibra
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_006_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_007_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_008_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -94,15 +94,15 @@ This manuscript explores the influences of the Foucault current on bracket vibra
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_009_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_010_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_011_644d85f1cc17.png)
 
 学会官方B站
 
@@ -110,15 +110,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_012_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_013_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\文章精选_I_傅科电流及减振处理对AMDT支架振动特性的影响_images\img_014_c28b250481e7.jpg)
 
 学会科普微信
 

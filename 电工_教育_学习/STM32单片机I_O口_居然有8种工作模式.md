@@ -15,7 +15,7 @@
 说到这8种工作模式之前，先通俗的解释下GPIO的概念—通用输入输出 General Purpose Input Output 简称GPIO，就是芯片引脚可以通过它们输出高、低电平，也可以通过他们输入、读取引脚的电压、电平状态。  
 接下来讲解的8种工作模式，我们以下图为例进行分析介绍，读懂这张图，大家基本就可以完全理解STM32的GPIO了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficg70RZld3u1T0r0h31YsN9K9vOfq5UBYpBvHBhzJaK1YfYs8kt0htVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机I_O口_居然有8种工作模式_images\img_002_1e9ddad2fcee.png)
 
 # 四种不同的输出模式
 
@@ -23,13 +23,13 @@
 
 此模式的引脚可输出高低电平，用于连接和驱动数字设备。关于推挽，部分读者可能有些疑惑，其实是将两个参数相同的NPN、PNP三极管或NMOS、PMOS管以推挽形式布局于电路中，分别担当正负半周波形的放大任务。两对称管仅有一个导通，损耗低且效率高，既能提升电路的带载能力，亦可提高开关速度。电路如图所示，读者可在IO内部图中进行对照查找。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZfic1qhcE8dySBKuzbKjzs6BIEdPCCR3v8cT7voEiccLEfQnDofaT6XnA9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机I_O口_居然有8种工作模式_images\img_003_ac635af5d27a.png)
 
 开漏输出：
 
 此模式下，引脚模拟 NMOS 的漏极，关闭 PMOS以消除其影响。此时该引脚仅能输出低电平，需加接上拉电阻以获得高电平。有人可能质疑，这种方式不如推挽输出实用。然而，开漏输出具备独特优势，例如：1、适用于连接主控电平不匹配的器件，只需将上拉电阻的上拉端连接至对方电平；2、以小博大，借助外部电路驱动能力，降低内部电流需求，内部仅需较小栅极驱动电流。但需注意，由于上拉电阻的存在，可能导致上升沿延迟，详情请参阅我之前关于电平匹配的文章。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZficgrS4JWxzLSXHHPqGOD74ArRKibN8EHOp2NJejPNkDL3Ua4ZOmEh3FCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机I_O口_居然有8种工作模式_images\img_004_adfc682dabab.png)
 
 复用推挽输出、复用开漏输出：顾名思义该模式下就是将引脚复用为其他功能，不再是简单的GPIO。像我们常用的UART、SPI等的输出引脚就是复用的推挽输出，而我们常用的I2C就是复用的开漏输出，这时大家就应该知道为什么我们在用I2C的时候需要上拉电阻了吧。**这里给大家埋个伏笔——用I2C时为什么要开漏呢？**
 
@@ -37,7 +37,7 @@
 
 在这里我们来探讨一种常见的输入模式——“浮空输入”，该模式主要用于检测外部设备（如按键）所处的高/低电平状态。具体解释如下，当处在“浮空输入”模式时，上拉电阻和下拉电阻均未与输入端相连，使得引脚的电平状态变得未知。若在此情况下读取数据便会发现其毫无意义。为了避免此类问题，建议在实际应用中务必确保引脚处于正确的连接状态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgduP0MjEcEtUnWUmrVZfic9OxARsx5pCibpIvsw0835fuVrhbib20wiaQiaB4y50oy4FMCuBIV7V0b4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机I_O口_居然有8种工作模式_images\img_005_c60821b60bab.png)
 
 上拉、下拉输入：基本看名字大家就已经知道这种模式是怎么回事了，上图中如果上面红圈电阻接入就是上拉输入，下面红圈电阻接入就是下拉输入。上一段我说过按键输入检测用浮空输入模式，如果用上拉、下拉模式就更简单了，就可以省掉外部的上下拉电阻节约项目成本。
 
@@ -53,7 +53,7 @@
 
 到这里大家会发现今天所讲的全都是硬件层面的，大家从硬件层面搞懂这几种模式，软件上就简单了，按照datasheet上面的说明进行配置就可以了。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机I_O口_居然有8种工作模式_images\img_006_8f8c22b4fa63.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\STM32单片机I_O口_居然有8种工作模式_images\img_007_d5dcc7ecfdf3.jpg)
 
 ## 
 

@@ -26,27 +26,27 @@
 
 为得出1.2kV SiC MOSFET器件的一系列特性曲线，本文首先搭建了双脉冲实验平台，其电路如图1所示。关键部分主要包括负载电感L，保持关断的SiC MOSFET开关管Q1（作为续流二极管工作）、正常工作状态的SiC MOSFET开关管Q2和直流电压源Vdc。通过实验获取了SiC MOSFET的输出特性曲线、转移特性曲线以及SiC MOSFET各非线性电容与漏源极电压之间的关系曲线（CV特性曲线）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaFb4198WNPvvThF09YoCaIOSO0QsL7euEu3MqLEnXznAapfLtHthAicA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_000_b60c69232028.png)
 
 图2为SiC MOSFET在常温下的输出特性曲线，其对应的栅源极电压选取了厂家推荐的5～20V之间的数值。通过观察这些实验波形，可知所选用的SiC MOSFET的阈值电压约在4～6V之间。此外，图2中曲线还体现出MOSFET的体二极管对于输出特性的影响，曲线的线性部分出现压降，而SiC MOSFET作为单极型器件，输出特性曲线的线性区域应延伸至原点。为消除压降的问题，SiC MOSFET制造厂商需要更加完善的MOSFET体二极管制造技术。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia9vNZ4LABDhClwNXM9rVoTLVyR8Giaj84KRpNOr2yoD59QqTB7AS9Kgg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_001_8ce3d015df57.png)
 
 为得出MOSFET导通电阻与漏极电流的关系，首先在栅源电压Vgs\=20V时的输出特性曲线上选取各电流值对应的点，然后通过计算曲线各点斜率的倒数，得出导通电阻Rds(on)在MOSFET完全导通状态下与Id之间的关系曲线如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaOJCvptu51EiaGxbtzXSm1Le2nZUO0vWzVoj0doRMazbC5IRwsFicvnrA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_002_c5f62c9b8512.png)
 
 漏源极电压Vds\=20V时的SiC MOSFET的转移特性曲线如图4所示。由图4可知，SiC MOSFET的阈值电压在4～6V之间，进一步证实前述由输出特性曲线所得出的结论。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia9ibvVHxgfnTu6QWo42nsvoGQyBwbEAEiaQicQrvLsOXgNibTPkVjWrvnqw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_003_240eec7a6195.png)
 
 在SiC MOSFET器件内部存在着非线性的寄生电容，其对器件特性的影响不容忽视。在这些寄生电容中，栅漏电容Cgd对于MOSFET的开关过程特性影响相对突出。但由于Cgd的电容值极小而其周围存在其他的大电容，常用的LCR测试仪在获取Cgd的值时，很难将其与周围的其他电容区分开。因此，为获取准确的Cgd值，需要在米勒效应期间测量栅极电流。在这期间，栅源电压Vgs保持不变，栅漏电压Vgd和漏源电压Vds迅速减小，此时的栅极电流流入Cgd，通过Cgd两端的充电电荷与栅漏电压Vgd之间的曲线，即可得出Cgd在米勒效应期间的电容值。此外，栅源电容Cgs和漏源电容Cds的电容值可由LCR测试仪测得。SiC MOSFET的CV特性通常由输入电容Ciss、输出电容Coss和转移电容Crss随漏源电压Vds变化的曲线来表征，这三个电容与非线性结电容的关系式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaPwyibReO6p5KjYX4QLSetGjWwO2iakkU7mNtmMIhn46ibXxzhnelRxM9A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_004_9f58c5f70a4f.png)
 
 通过式（1）可得SiC MOSFET的CV特性曲线如图5所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiajibZyY7Su7Crabo54icEcBEZxwKoickz8zmqfFJxia5D6fSeEWs2wia7pdg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_005_1131d2cc35b9.png)
 
 2\. SiC MOSFET建模
 
@@ -56,29 +56,29 @@ SiC MOSFET的寄生器件对其开关特性的影响较大，可引起共振，�
 
 为搭建准确的SiC MOSFET器件等效电路模型，本文运用到了SaberRD（Synopsys）中的功率半导体建模工具。功率半导体模型在MAST语言环境下搭建等效电路，可使其各项参数与器件的实际数据相匹配。图6为SiC MOSFET等效电路模型。MOSFET的寄生元件包括：栅漏极电容Cgd，栅源极电容Cgs，漏源极电容Cds，栅极电感Lg，漏极电感Ld，源极电感Ls，MOSFET本身的栅极电阻Rg，漏极电阻Rd和源极电阻Rg。后文将对SiC MOSFET建模进行详细介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaRviaRHJHtb1uYPGV4mksb1OI0jbmEQKftf0IIs5YJV4HPzG8icDtEAuA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_006_c5653350b110.png)
 
 2.1 静态特性建模
 
 静态特性建模需要描述器件的输出特性、转移特性及导通电阻特性。在工作过程中，当Vgs＜Vth时，MOSFET关断，此时漏极电流Id恒为0；当Vgs＞Vth时，MOSFET正常工作在开通状态，此时需将MOSFET的工作区域分为两种情况考虑。当栅源电压Vds＞(Vgs−Vth)时，MOSFET工作在饱和区；反之，则工作在线性区域。在不同区域内Id的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaHtjPia7g9H3v8N1VZj26QQLibiblzz5M3WRWTZo5ia8u1ibKaHHPVEGYSYw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_007_3b00cb1597d6.png)
 
 式（2）表示饱和区域漏极电流；式（3）表示线性区域漏极电流。式中，Vth为MOSFET的阈值电压；Kp为跨导参数；λ为沟道长度的相对变化量。其中λ通过计算可得出其值为0.022V−1。此时选取图2所示的实测Id\-Vds曲线中饱和工作区域上的任意两点，同时将λ值代入式（2），即可提取出Vth、Kp的值。结合式（2）和式（3）可得出器件完整的输出特性曲线和转移特性曲线。
 
 MOSFET的通态电阻Rds(on)的阻值可通过器件的Id\-Vds曲线上各点斜率的倒数来表征。为了得出Rds(on)的数学模型，采用文献\[10\]提出的方案，假定在栅源极两端加上1V的电压，通过推导可得Id\=1/Rds(on)，Vds\=1−(Rd+Rs)/Rds(on)，将其代入式（2）和式（3），得出Rds(on)的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaVbLlozA2OWcia52CwGqyXgbavialEEbzbreibRriakQqKJ9sjuBVTa0m9g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_008_716c4cbbfdaf.png)
 
 结合实验测得的输出特性曲线与式（4），可以计算出Rd和Rs的值。MOSFET内部的栅极电阻Rg可以通过LCR测试仪测量得出。
 
 在SiC MOSFET建模过程中，需要准确获取SiC MOSFET的线性工作区域和饱和工作区域的特性。线性区体现出器件在稳态时的工作状态，饱和区体现出器件开关暂态过程中的工作状态。由于本文更侧重考虑器件暂态过程的行为特征，因此建模过程中在描述器件输出特性的线型区域时，忽略了由于MOSEFT反并联二极管引起的电压降问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaxIo2sZoRbziavROSI4SQSobhPU5T9K30ydgM9gIU4c5UpuoXGcSuCtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images\img_000_e9baf5a72344.png)
 
 将测量得到的各个数据导入模型后，仿真系统即可调整参数，使其与器件特性相匹配。图7～图9分别为分析模型得出的SiC MOSFET的输出特性曲线、转移特性曲线以及通态电阻Rds(on)与漏极电流Id之间关系曲线。图中实线表示Saber模型模拟出的器件特性，虚线表示实验测试所得的器件特性。由图可见，模型的仿真结果与实验实测特性曲线之间有良好的一致性，证明了上述建模方式可准确地描述SiC MOSFET的静态特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiay7aTsQicLwZKwcd1GvpQmsQPLH01M7CBuM0PNXUNGITCfFANqWuJicSw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_010_744e01d12e2b.png)
 
 2.2 非线性电容建模
 
@@ -90,11 +90,11 @@ SiC MOSFET在关断时的栅极驱动电压一般会选取在(−5～−3)V之�
 
 对于Cgs的建模，其表达式要求可自主地选择电容的最大值和最小值：当Vgs达到开通的阈值电压时，Cgs为最小值；当Vgs为关断电压时，Cgs为最大值。此外，当Vgs处于关断电压与阈值电压之间时，要求表达式可体现出Cgs随之逐渐减小的非线性过程，关断电压一般选取在(−5～−3)V之间，本文选用的MOSFET的阈值电压在4～6V之间。因此，Cgs可描述为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaEnOl2YoEd9cIgmu2BMdgNqtXeW1a7nib3hYlOLMDBIJYpTHVtxaADgA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_011_79df9a959a43.png)
 
 式中，Cgsmin为Cgs的最小值；Cgsmax为Cgs的最大值，两者皆可通过实验数据调整至适当的值；tanh(x)为双曲正切函数，图10所示为该函数的图像。由图10可知，当x＜−4时y\=−1；当x＞4时，y\=1。则通过计算可得，当Vgs为关断电压时，式（5）中Cgs\=Cgsmax；当Vgs为阈值电压时，Cgs\=Cgsmin，可满足自主选择电容的最大值和最小值的要求。此外，当双曲正切函数中x在−4～4之间时，y值随之非线性增加。因此，当Vgs处于关断电压与阈值电压之间时，式（5）也可体现出Cgs随栅极驱动电压增大而逐渐减小这一非线性过程。此建模方式相较于普通建模方式，可更为准确地表述Cgs的变化特性，进而在仿真中体现出非线性电容对开关暂态过程的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaC5BtJadgJY1Fyvr6M0wZlVXW0G3EQ6vg5icSiaryRkTQ6SJ9DeKofSYQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_012_bc8e046b8bcc.png)
 
 2.2.2 Cgd建模
 
@@ -102,33 +102,33 @@ SiC MOSFET在关断时的栅极驱动电压一般会选取在(−5～−3)V之�
 
 本文在建立Cgd的模型时，利用了Cgd在米勒效应期间电容的充电电荷与栅极电流的相关性，据此得出了Cgd在不同Vgd情况下的关系式，从而更为确切地描述Cgd的变化趋势。图11为SiC MOSFET在开通过程中Vds、Vgs、Ig的波形，图12为栅源极充电特性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiawfiaXBwGl1C6j3csB3MSRYtwPpfOicOmGRlhZ4icYE8LH9D5OiccewmxYA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_013_918a066cb226.png)
 
 图11中，在t0～t1时刻，由Vds为等效输入电容Ciss充电，t0～t1期间Vds\=Vdd，Vgs上升至Vgsm，Vgsm为米勒效应期间Vgs的值，Vdsm\=Vgsm。t1～t3时刻即为米勒效应时间，此时Vgs保持在Vgsm不变，Vds减小至Vdsl。在米勒效应期间内的t1～t2时刻Vds＞Vgs，t2～t3时刻Vds＜Vgs。由于Vgs值不变，因此ΔVgd/dt=−ΔVds/dt。此时的栅极电流Ig流入Cgd，且Ig≈Igm。从而得出Crss1与Crss2的表达式分别为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiavcGCGznNTiaATIHxXpkjOUiaibBNNSslZluhpd1TibdbZZEsAaDbnvHYBA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_014_4bf4a6e4cf77.png)
 
 当Vgd值为负时，Cgd与氧化层电容Cox串联，此时Cgd在变化区间内随Vgd的增大而增大；当Vgd值为正时，Cgd为最大值，其值保持不变。在建模过程中非线性电容Cgd描述为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaMRyFSB29wQk6Ez4O2x45qmw0XVWlYs9Sy8ZB0oCUIFiaLOC1ERqZgUA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_015_cf5ba66111e9.png)
 
 2.2.3Cds建模
 
 非线性电容Cds是由SiC MOSFET栅源极两端的电容与并联的二极管的寄生电容组成的，也称为耗尽层电容。建模过程中电容Cds可描述为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaPq0tpbmOB3ourdicaA3woT1tOqSMHGtzROjVC4y5w7gPKePPWEL1hgA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_016_34d909f5ea28.png)
 
 式中，C0为Vds\=0V时Cds的值，在第1节中已经通过实验获取了转移电容Crss和输出电容Coss的CV特性曲线如图5所示。由图5可知，Coss和Crss在Vds\=0V时的电容值Cossmax和Crssmax，则由Cossmax−Crssmax即可得出C0的值。Vj为二极管内置电压，可视作一个未确定的拟合系数；m为电容梯度因子。然而，Cds在不同的Vds范围内的变化趋势有所不同，其总体虽然随Vds的增大而减小，但当Vds的电压值处于一个较低的范围内时，Cds的容值在此区间内随电压增大而迅速减小。当Vds达到一个临界值后，Cds的变化将逐渐趋于平缓。但根据式（9）所建立的模型不能准确地体现出这一特点，在仿真模拟的CV曲线中的拐点处不够准确，不能完全反映出非线性电容的特性。因此，根据文献\[13\]，可采用分段拟合的方法来对Cds进行数学建模。通过分别设定在Vds达到拐点处前后的拟合系数的方式，使得模型更加准确。拟合公式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaw6uv3e5kGkF9RCDZS7f5YsjVgjfNIjPWKzKz2GGm7uXEhCnRkY1Q1Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_017_c77170baf8a0.png)
 
 各结电容的模型建立后，通过式（1）可得出SiC MOSFET实验中测得的CV特性曲线中各寄生电容Ciss、Crss和Coss的数学模型。将模型仿真得出的CV特性曲线与实验所得曲线作对比，如图13所示。由图13可知，仿真结果与实验结果匹配度较高。为进一步分析和验证本文建模方式的准确性，图14给出了采用线性处理的普通建模方式所得出的CV特性曲线，与实验数据进行对比。从图14中可以明显观察到普通模型的曲线与实验曲线的差距相对较大，匹配度低。图14中，Ciss和Crss的值受Cgd的影响较大，而普通的Cgd建模方式很难准确地获取相应的参数，这也增大了模型曲线与实验曲线之间的误差。Coss则与Cds相关，由于普通模型对于Cds在拐点处的描述不够准确，因而导致了图14中Coss变化曲线在拐点处的误差较大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia4iboSmgKwV7sYaXOQ1FkvTsrul2mHa99n0jNTjoB63WVph3VEd7Gm1g/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_018_1ca7a2370ca8.png)
 
 建模过程中所需设定的各个参数值见表1，SiC MOSFET的各个寄生电感值可由器件数据手册获取。采用上述方式对SiC MOSFET进行建模后，即可将其运用于各种复杂拓扑的变换器设计或研究中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiavCiadqdeSjC3Fd9ywzvsjudPqGyBNIRnuKM1t9q7mhgciaYavfyiblaicg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_019_9633fa76f013.png)
 
 3 .并网逆变器的等效建模
 
@@ -136,63 +136,63 @@ SiC MOSFET在关断时的栅极驱动电压一般会选取在(−5～−3)V之�
 
 本文以单相并网逆变器为例，建立了相应的电路模型，系统直流侧接到光伏阵列的输出端，额定电压为500V，逆变桥输出经过LCL滤波器连接到电网上，假设电网为理想电网，LCL滤波电感为线性电感。图15即为单相LCL型滤波器并网逆变器的拓扑结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaESCZ9YbWgW4kQRSg5MZtfzaiaRwbr50R0IRicgy4xKGlX2JsGEzu6IaQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_020_0cd3a75bca2e.png)
 
 3.2 LCL滤波器参数设计
 
 在设计LCL滤波器的参数时，其电感的取值需要考虑到开关频率的因素，而后面的仿真与实验将会对不同开关频率下的并网逆变器的性能进行研究和分析，因此有必要对LCL滤波器参数进行准确的设计。根据文献\[16\]的设计方案，计算不同开关频率所对应的滤波器的参数见表2。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaFibdn7ng3VCrgWtbia1cCIg1niaBiahgkYa8tclp5Q2s9D5UdvzAiak8ycQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_021_4d65b33e2552.png)
 
 3.3系统控制策略及控制器参数
 
 对于并网逆变器而言，其控制对象为并网电流，目前常见的电流控制方式主要包括PI控制、准PR控制和滞环控制等。综合各控制方式的优劣，本文采用文献\[18\]提出的准PR控制策略，可实现在基波频率的增益无穷大，且电网频率的偏移对逆变器输出电流的影响很小。准PR控制器的传递函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaViav0ic1MqBenhkfcnLyPJibiahsLqMaThricYqicSLYRs1vBHGMBNeu9v7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_022_f49f29042507.png)
 
 式中，kr决定控制器的增益；kp影响系统的稳态性能和抗扰性能；ωc决定控制器的带宽。考虑各因素，确定准PR控制器的参数：kp\=0.5，kr\=50，ωc\=3.14。
 
 此外，LCL型滤波器可能导致系统出现谐振问题，这是由于在其谐振频率处的频率响应会出现谐振尖峰。为解决这一问题，本文采用电容电流反馈有源阻尼的方式，其阻尼效果良好且不存在损耗。该阻尼方式需要设计有源阻尼因子kd的值，根据文献\[19\]中的计算方式，则可计算出不同开关频率时的有源阻尼因子kd的值见表3。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaW2tRIaIHIyfMlSCMKAoKU9R3ANJ6k3qrszd0W8vgKUcBOdPvoo8OiaA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_023_d4e7e28870c6.png)
 
 4. 仿真与实验验证
 
 为了证明第2节建立的SiC MOSFET模型的准确性，需要通过仿真和实验进行验证。本文选用Cree公司生产的CCS050M12SM2型号的SiC MOSFET开关管搭建的单相并网逆变器实验平台如图16所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia8MTjvxibrugYCD8Fjx6AMffj4EtdlYkBCMpzGpHsJ9LbCy8qaX6SrGg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_024_014d7944a179.png)
 
 实验电路主要参数：直流输入电压udc\=500V，给定参考电流峰值4A，电网电压有效值220V，频率50Hz。本文将对不同开关频率下的开关管特性及并网电流波形进行研究，选定的开关频率fs分别为20kHz、40kHz、100kHz。采样频率10kHz。逆变器通过电压比为1∶1的隔离变压器接入电网，变压器漏感为1.28mH。LCL滤波器参数随fs而改变，参数见表2，其中L2的实验参数需减去变压器的漏感。控制器参数：kp\=0.5，kr\=50，ωc\=3.14，阻尼因子kd见表3。
 
 在Saber环境下搭建SiC单相并网逆变器的仿真模型如图17所示。在建模过程中，由于单相并网逆变电路是数字、模拟信号混合电路，而在Saber仿真环境中通常只有相同类型的端点才能直接连接，因此Sa和Sb输出的逻辑信号必须通过数模转换元件。设置转换规则为：当逻辑信号为“0”时，输出点的对地电压为−3V；当逻辑信号为“1”时，输出点对地电压为20V，而后才能有效地实现控制MOSFET的导通和关断。完成搭建后，在与前述实验相同的条件参数下进行仿真。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaNV50h8DbI1HCYf9xJmIpQ1Ldf06SLUUbeXM78616HWy9m8vfBy0LbQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_025_5c469dffc182.png)
 
 18给出了SiC MOSFET在不同开关频率下整个开关过程中漏源电压的实验波形和Saber仿真波形的对比。由图18可知，通过本文所提出的SiC MOSFET的模型模拟出的开关电压振荡与实验结果有较高的一致性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaukgpJMlRdKRiapAia2icEUbbKIxexCFBGicAwmS8bzoxBkE2wibaoWd3vew/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_026_7a0f4a40b295.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiajxicN2ZQRt4938epXWEwHeOu9mzmFIfUxdummicRicBpfNmX7Y8cf9dgA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_027_9224be103abe.png)
 
 以开关频率为20kHz时的漏源电压为例，分别放大MOSFET关断和开通过程中的仿真与实验波形的对比如图19所示。观察关断过程中Vds的振荡情况，仿真与实验结果的振荡频率相匹配，同时两者电压尖峰的初始值非常接近。电压振荡频率约为10.8MHz，电压振荡波形的峰值最大约为600V，最低波谷约为400V。可见，此时SiC MOSFET漏源极两端的du/dt较大，当逆变器直流侧电压值选取得更大时，电压振荡的幅值随之增大，此时电压波峰和波谷的差值增大，同时由于电压振荡的频率极高，振荡过程中将出现更高的du/dt，可能引起串扰问题，导致逆变器桥臂直通，影响逆变器正常工作。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiad1oNic8NNDWt7xt880R4khwKJKT71xrhQOkxyeqFQiaX58R0wHoxbPjA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_028_e893177e97ff.png)
 
 仿真结果中电压振荡的阻尼比相比于实验要小，其振荡幅值与实验结果匹配度较低。此问题出现的原因可能是由于在建模过程中没有考虑功率回路中的寄生元件的影响。此外，从图19可以明显观察到在关断和开通过程中，实验波形相对于Saber仿真波形都存在一个约为0.1μs的延时，其原因可能是由于在仿真建模中采用了相对简化的栅极驱动电路。
 
 为了研究以SiC MOSFET作为开关管的并网逆变系统在各开关频率下的性能，图20给出了不同开关频率下并网电流的仿真波形。从仿真结果可以看出稳态时，开关频率为20kHz和40kHz时的并网电流波形呈现的正弦性良好。对各个电流波形进行局部放大后观察电流纹波的情况，可看出在开关频率提升后纹波明显减小，波形质量提高，体现出了SiC MOSFET高频化的优势。然而，在开关频率提升至100kHz时，并网电流波形出现了明显的畸变。计算仿真结果中各频率下的并网电流总谐波畸变率（Total Harmonics Distortion, THD），可知THD分别为0.912%（fs\=20kHz）、0.651%（fs\=40kHz）和3.82%（fs\=100kHz）。结果表明在100kHz的开关频率下的并网电流谐波畸变率反而比低频时更大，波形质量变差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiakEpIg8xiaRHZ7ZfGw0CJ9hNnPPD27Acibic4LUvfKSe17mPqCGdpJo8mg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_029_90d34377f287.png)
 
 为更深入地分析这一现象以及更进一步地验证本文建立的SiC并网逆变器模型的准确性，测得了单相并网逆变器并网电流的实验波形如图21所示。计算各频率下的THD分别为1.954%（fs\=20kHz）、0.968%（fs\=40kHz）和5.73%（fs\=100kHz）。可见实验中同样出现了开关频率提高，波形质量反而变差的现象，结果与仿真结果相符（在其他仿真环境下的建模方式要实现对这一现象的模拟难度较大），进一步验证了本文提出的建模方式的正确性与适用性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiasBtlObvx8dhEtpEvBnkeljkXDWE7QHYthTicZRWTHsScXqLHSj4lgxg/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_030_15d9a3a949c0.png)
 
 出现开关频率提高，波形质量反而下降这一现象的主要原因可能是受到开关振荡的影响。为分析开关频率提高前后开关振荡的变化情况，分别获取开关频率为20kHz和100kHz时逆变器其中一相上下桥臂开关管两端电压的仿真和实验波形如图22和图23所示。由仿真和实验结果可知，在开关频率为20kHz的桥臂电压波形中，可观察到完整的电压振荡过程，电压振荡会在每次开始振荡后约为6μs的时间内逐渐衰减，电压趋于稳定。此时的开关周期为50μs，在一个周期内，上下桥臂开关管两端电压处于振荡的时间占比约为20%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia4F5e39gcBvOicASa9ylhE8omfPdBoWNMmA0vIZ9etuoRMHcJicl50YGQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_031_9be27f5a3f7f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaQkSHJoMxeq9GnmFBQmPWLNsH1ibfGu1CE0QxOo1JhwGOahyxhfzL8nA/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_032_fcd1e436929b.png)
 
 而当开关频率提升至100kHz时，开关周期缩短为10μs，观察仿真和实验波形，此时上下桥臂开关管两端电压在整个周期内均处于振荡的状态。可见随着开关频率的提升，SiC MOSFET的开关振荡问题对并网逆变器的影响也随之增大，导致在高频下的波形质量下降。
 
@@ -202,13 +202,13 @@ SiC MOSFET在关断时的栅极驱动电压一般会选取在(−5～−3)V之�
 
 本文采用文献\[25\]提出的方式，设计出适用于本文所使用的SiC MOSFET的RC缓冲电路，其中缓冲电阻为7.5Ω，缓冲电容为1.6nF，并通过仿真证明设计电路的阻尼效果。图24所示为加入缓冲电路前后，开关频率为100kHz时MOSFET开关过程中漏源电压波形的对比。从图24中可以明显看出在加入缓冲电路后，电压振荡的幅值以及振荡的频率和次数都明显下降。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaorp3AsnmyCAhfnXhLmM4Jn5DBlibiaQVMCCB0NkqKBryHYciaTqDI9X7A/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_033_17ef41714950.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia8kIVCMdFQ07hwFgRv3qx89w22Ndepsfdx7icTlY7HLBglTGwicfCVwdw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_034_221d1557e2ea.png)
 
 图25给出了加入缓冲电路后，在100kHz的开关频率下的逆变器并网电流的仿真波形。由图25可见，电流波形呈良好的正弦性，通过计算得出其总谐波畸变率为0.865%，波形质量明显改善。值得一提的是，加入RC缓冲电路并非唯一的阻尼振荡方式，其缺点在于使得功率损耗增大。因此，阻尼振荡电路的设计还有待后续研究进行改善，而本文所提出的模型即可用以验证阻尼效果的好坏，为电路的设计提供帮助和指导。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiancjQnmpZVIFfhHfewABFpSIBX7lzhsveC8VUDnZ9BM7CbwTSkOEKzw/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_035_69582fe19c2b.png)
 
 5\. 结论
 
@@ -220,10 +220,10 @@ SiC MOSFET在关断时的栅极驱动电压一般会选取在(−5～−3)V之�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_036_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_037_3ade3c3d8599.jpg)![](SiC_MOSFET的Saber建模及其在光伏并网逆变器中的应用和分析_images/img_038_84aa944feb13.jpg)

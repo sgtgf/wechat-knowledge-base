@@ -20,7 +20,7 @@
 
 LDO 的核心思想就是“**牺牲电压换稳定**”。比如你有一个12V输入，想要3.3V输出，LDO 会通过内部的晶体管（相当于可变电阻）把多余的8.7V“吃掉”，变成热量散发掉。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0xXrohMM8lxT2c1g4rubic7f7AREj8AlMibJDW8ADtmAosG7BBrvpK3tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\不长篇大论_用最少的字_让你搞懂LDO和开关电源_images\img_000_d9c3c55d21a1.png)
 
   
 
@@ -37,7 +37,7 @@ LDO 的核心思想就是“**牺牲电压换稳定**”。比如你有一个12V
 ❌ **发热大**：电流大了必须加散热片，否则直接过热保护或烧毁。  
 ❌ **只能降压**：没法升压或反相（比如+12V转-5V）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx074rT4D7gdbARCAVtmNVe4O7Vgic38jZrxZibophZhMxVOX8N5VyjOiaqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\不长篇大论_用最少的字_让你搞懂LDO和开关电源_images\img_001_7fc24c601e10.png)
 
 **适用场景：**
 
@@ -60,7 +60,7 @@ LDO 的核心思想就是“**牺牲电压换稳定**”。比如你有一个12V
 
 开关电源的核心是“**高频开关+电感储能**”，通过快速开关MOS管，配合电感和电容滤波，把输入电压“切碎”再重组，得到想要的输出电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0CzMLyMj5dhlUFNIKW9BDiaGs6QleiccZ6ovoOKJMgQzPG74SgWOViacfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\不长篇大论_用最少的字_让你搞懂LDO和开关电源_images\img_002_665b2350cb62.png)
 
   
 
@@ -93,7 +93,7 @@ LDO 的核心思想就是“**牺牲电压换稳定**”。比如你有一个12V
 
 1、参数对比
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjetdbuuNsFhaqLVUsObIx0QLOz2zn8JIIXoKShfLbMnun4ibGDVZksa3wUWHBTMJKEGUlhKvwUTGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\不长篇大论_用最少的字_让你搞懂LDO和开关电源_images\img_003_99fe4561fdc9.png)
 
   
 
@@ -133,7 +133,7 @@ LDO 的核心思想就是“**牺牲电压换稳定**”。比如你有一个12V
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjAibVIhHVt3yXrTqSa9wZm2o7mRIXS1x2kJxib2Bo4pdzrliaNsgV2FIFkaLGt3czYuPRUGePz9AqTQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjAibVIhHVt3yXrTqSa9wZm23QZw7KqPdZ2z45x3C67iaphsb4aicwtqxubaHth4KtQXuS1DZgtUibRVg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\不长篇大论_用最少的字_让你搞懂LDO和开关电源_images\img_004_dc74fdedef56.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\不长篇大论_用最少的字_让你搞懂LDO和开关电源_images\img_005_071d2a9c610a.jpg)
 
 ## 
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/C0auRNF-db0WnrZje3Pc3w](https://mp.weixin.qq.com/s/C0auRNF-db0WnrZje3Pc3w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_000_4fecbf19a39d.gif)
 
 ****Analysis on Electromagnetic Vibration of Synchronous Reluctance Motors under Different Drive Methods****
 
@@ -42,13 +42,13 @@ Sine-wave drive and square-wave drive are two common motor control strategies. T
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179xrVFv69obDbIWXQOic2f3wXsv16icyKgRJv59kNmIZoiaG00rGKDIRY6PWdkicXB5jaSGNRHia2aicjBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_001_3feba44b47da.png)
 
 图1 驱动系统结构
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179xrVFv69obDbIWXQOic2f3wQo7dMJSJpzwfApsxX0kRqick2Re1rVM9HemkrIdJf0eELLXlcuGsiaEw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_002_3d73f5f7af75.jpg)
 
 图2 电机振动位移谱（a）满载工况 （b）半载工况
 
@@ -60,27 +60,27 @@ Sine-wave drive and square-wave drive are two common motor control strategies. T
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179xrVFv69obDbIWXQOic2f3wnZkfwe1WicIzQFCaj7pxNDuBwUqrib4JsR7Aq2iaIW6XysMe0rOPoLnHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_003_766d4d007b01.png)
 
 **陈天洒**，2019 毕业于苏州大学电气工程专业，获工学学士学位。目前，她正在山东大学电气工程学院攻读工学硕士学位，研究方向为同步磁阻电机的分析与控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179xrVFv69obDbIWXQOic2f3weheib1MZSccrB9kHKnszIhybibJIPibao1UGgaHxNMRX27MfMysee6icog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_004_672786ddeb04.png)
 
 **王秀和**，分别于1989 年和 1993 年获得山东大学电气工程专业工学学士和工学硕士学位；1996 年毕业于沈阳工业大学电气工程专业，获工学博士学位。2001 年至 2002 年，他在韩国首尔国立大学从事博士后研究工作。自 2000 年起，他担任山东大学电气工程学院教授。研究方向包括永磁电机、电磁装置的理论分析与计算、人工智能及其在电机中的应用，已在相关领域发表学术论文 100 余篇（含合著）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179xrVFv69obDbIWXQOic2f3wMqsyeZhaeOVCrDgSZzBfiaj6hrZSO0o6f2EfbDicice58uQQhqNNS1CxQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_005_16bb82f18778.png)
 
 **孙玲玲**，分别于1990 年、1993 年及 2004 年获得山东大学机械工程专业获工学学士、工学硕士及工学博士学位。自 2007 年起，她担任山东大学机械工程学院教授。研究方向包括振动理论及其应用、机械设备振动与噪声控制、车辆系统动力学及控制。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179xrVFv69obDbIWXQOic2f3w5eDg4zv8V2LhLozEy4g3TPyGXs7G7FFBTJzYuQcXLWiaK6Qz2icsupyQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_006_f45ab1713d2d.png)
 
 **许金阳**，分别于 2019 年和 2022 年获得山东大学电气工程专业工学学士学位和工学硕士学位。目前，他任职于中国济南国网山东省电力科学研究院，研究方向为永磁电机磁场解析计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179xrVFv69obDbIWXQOic2f3w3losFicS7KPh4znK27PiaxOHKfqjynGZvllM85iaUqBDEOBcX7mgMSXqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_007_e449695305ba.png)
 
 **王继豪**，于 2015 年毕业于哈尔滨工程大学电气工程专业，获工学学士学位；2017 年毕业于清华大学电气工程专业，获工学硕士学位。目前，他任职于中国济南国网山东省电力科学研究院，现任国网调相机运维技术中心核心负责人。研究方向为新型调相机综合分析与管理。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179xrVFv69obDbIWXQOic2f3wgCjngibVDpKMH7ngzskqMa2icZ95icQPGYJiat6wms4d05yb9xMf695KKQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_008_1da2a5831ffa.png)
 
 **黄金军**，分别于 2011 年、2018 年先后毕业于东南大学电气工程专业并获工学硕士学位与工学学士学位。目前，他任职于国家电网有限公司直流技术中心，研究方向包括新型调相机技术、特高压输电。已在上述领域发表学术论文 24 余篇（含合著）。
 
@@ -88,7 +88,7 @@ Sine-wave drive and square-wave drive are two common motor control strategies. T
 
 《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_009_654c2fde68d8.jpg)
 
   
 
@@ -102,15 +102,15 @@ Sine-wave drive and square-wave drive are two common motor control strategies. T
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_010_b8e655dc1030.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_011_7aacd76fe2de.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_012_b52600b73ce4.jpg)
 
 学会官方微信
 
@@ -118,15 +118,15 @@ Sine-wave drive and square-wave drive are two common motor control strategies. T
 
 CES电气
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_013_1b04838d13f1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_014_b170ae512517.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_015_644d85f1cc17.png)
 
 学会官方B站
 
@@ -134,15 +134,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_016_0209dc0f6451.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_017_1b8cfb18233b.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\文章精选_I_山东大学王秀和等_不同驱动方式下同步磁阻电机电磁振动分析_images\img_018_c28b250481e7.jpg)
 
 学会科普微信
 

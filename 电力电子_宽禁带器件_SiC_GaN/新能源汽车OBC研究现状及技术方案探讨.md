@@ -7,49 +7,49 @@
 
 作者：朱易、文辉清
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce05N4EhpwicfabyEzXloHjniaLsb1MUs5JMbVmVyHGl2XMoSdlKVDicIDKDRg6mmD3wh10bsLwM9mxicG316iaGd9w4ibH7S3CdGHndew/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_000_9d3dc79a3bbb.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce05Q4FRCCiajQJyAibP2icEuS7XfKsdDaiczLcpXHWEBLicG9ymFqYQkUmzS4zoeRjw7JiaAIEBYIVFRN3QbFFmMeoicRy69t1QZWu142Y/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_001_0147e398e95f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce06KWcbc01Ng3e1OntQ9yc0xDVuNaHOwcKVgy0EGlw5QHchG2Mq0GTuRbiboYfT8CuSths2tGUvfnyAz6icBjvVwXTnSlHV0icZ41s/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_002_eba39be42978.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce04KGruD3QcLEJcCZHnEw8let2ib6K6xIrBasM8sgS7u0Q8uhm7xTfYXjJibRSaUnW5J5cLTq6Rq17luJ1znCuuF2NykRiaPWePdKY/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_003_dfbc52c5f6a5.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce051gtC3foOuped3B4buYuq5kW2Xmwu0ibxpKcj4AG0YBCRicCriclZpz215wyoHyz4cr0XfVsfYCINiaMqqvSGF6bbDE0CcepglA4I/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_004_b9c760f06198.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce05Dn5Ems5H7UH9WToQkGwbKzPZSlM6D1DyAvEfVYyZpzbW3PqiaAic5GpibBMeMib7sryBPHWFgFCPia4TggVK2e42w6lFDzZudUiaug/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_005_b387b8d3977b.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce07bG8HiaflC78JJAGjG7Ldicels4DVYWkGmNbHvtPNq8AVhkOcUmzSVPs9kCyybibYT7TJQfDibtOzf57hFLsE0trn7icbXArfm1lJw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_006_078bcadf5c21.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce04Wl1c5zTX8cc8vySePPKeNRQvbgibTTOE7ibos4LDHicQwGBXFNL4mNQ2ibE61poJdDgY4XkD0gkpIJbBlQTGwpA7cCAOYrp5Oqibw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_007_70efc4e09468.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce06hyrc7V7gb84ib9tvh6IeCQpsbCF8I4uKjLuR71gFAzZVVibmjRSFU3vcarBCzeZEJwibX6S1FxLGhC5qeibTKlbgsOslGrq3G3aQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_008_49309914c112.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce04jmV5qWmCh6KSShfInoHPwVKWic2mhN0v0qPlAUKSA9y86wibJOz9aCNibuuTYkgZ8WXjELsPzlDic9Pq7X4icE32Kfrry1WicianyaA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_009_1cceefb56f1b.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce04cHhDJSrArWZdkbjNj1ClgVscUOcicfqIAZWxrlAmN2Ml01NWGINmh6S9YM8YYHibbOoTfTasq9Te4A0o4ROpcMy4enG3B920B8/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_010_4870cda5f033.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce04r81wPuZGjbHuCZyeKhvdLQ6CscdtWz3a9bJwAZmCEVpEMGVa9JbJ6mh1t1wSksxdoV6W02oa0fDw538BnlDNLpgjoOqOmk1Y/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_011_259e1ff785d7.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce074ooPfKhHC5ic0ibVruhCcrYEYaMxu9lcctGwPHvRcdicfIxLCibtT8wkmRPvQKPcG1WRvuoOsiacc11ZTF7ic646YLwjAvE7XnF0ag/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_012_bdf297471e19.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce06SpGOYxIm2UpXUlTibJ1Y1eibJ6SjBxlPmNgpKOoxpXzjIUBia2n6b4nLiaA721WAZNeXxq1l7ehJykYzCO0bDibqgtqvgwqibzCEUU/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_013_96369471d4b4.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce04S3rjkINzqzyIG2n7xPKQYSmrxWFO20kXVfFqElhnMweuYVTXbsug8iaicezibdCTmw9gicw88VwiaDxHVTQPibOyfbyonMVwUcdQqQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=17)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_014_5034e664ed74.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce07ngIITaHXfKYZ0Cazy1Y2gtehOzUQNgJMf7G8BDBXbgPyRibeBVB9Mgibltq3hoA48hT5ye8IILXArQdO5QUric3Eqf25SiaX3pGo/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_015_19740cfc98fb.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce06IxV0BXAEZWicZyGjfOJr4eCmiavVYmjFe8Oz1NdS5F5Q6qbDMUWlhpkmdQ0hkSBq5XGdwqxJnoALkoheia3Oof6E5D97M3QhD48/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_016_ff985d561cf8.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce042z1WuQqibHicSs55RE5uiazH2iaDEjusvVy6QLqUbrPRiaibfhWe0JiaFfhQOObkqAPRkU6ibv4LIzxwKcMA40J9b9kQhDrwsFzTzMV4/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=20)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_017_06885f3d4586.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/9sUz3UDce043FlLCR1oDFTrXnLoZokPpNbHfkb2icdqqDLBfHiaFH2YaPrUDibrEsIxbDlQYkKPgVgicl74cQH5wqicr3yXaWibRcK7yaPfk4JogI/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_018_630ddaa9253f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9sUz3UDce05hEj1NbHAQKRHxAEJ0QRibzRoc8EoClmQA42ZO6KqjmOe6b6EoIIJQuS2zOonf8E7zNRKSRDzibamib6oiabuNHJGvY0Lw8SFME5g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=22)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_019_5ee5bd1ce274.png)
 
 专家介绍
 
-******![图片](https://mmbiz.qpic.cn/mmbiz_jpg/9sUz3UDce05L1gdNPz5m9icRsN3cCMia1Vm2xQhEwImJcZckl1BX57lIHrwW1uXiatHrCmcFH2ZkNETyQBCtxIgvgWCNPED8zx0VSGQR9WDVKY/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=24)******
+******![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_020_1a92facf3cd6.jpg)******
 
 ******文辉清  教授******
 
@@ -153,14 +153,14 @@ OBC正从一项基础充电功能，进化为决定电动汽车体验和能源�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpO6LL2ibRcmyDTxkibHKWRwuZeRJ6cSwia1SZ1KTmKwLunNNyFeDbaNw17TibyagtM0wSAAaYQA7M5RUUVa5m0iaVXtbz3duV2jVDM8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_021_f15eff55a79d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPDdPqex8ra8VbYQOzhJ8us9s1r71fu0gnCgPqib3EOyAAysmG9LbEbcELSHCuwK62p0OiaR73balwDnwOSATnnheBtxogUYJxJo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_022_5a48c3b007fa.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPKDXRYyGgatyIFrEia17SZH3YSelp67OJUuwW9S34tibs8DqRmiam0hFVNib0CKSedqZ7rZdpxNGLf5njfSWy5ia7xaN73RhdZpWQ4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_023_bc0b667a2a58.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZsfHPKxeDRar9kW20EBic0ulRBiaqF0PMUbISRrgibGG4TV6Obe0f0VdmOoMxJ0M1vVHuK2zGXd5TJK2YiaVWmfFFqRKeO0HicgNA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\新能源汽车OBC研究现状及技术方案探讨_images\img_024_29a8c84fb9fb.jpg)

@@ -5,13 +5,13 @@
 
 在新能源汽车中，碳化硅（SiC）功率器件凭借其**高频率、高效率和耐高温**的优异特性，正逐步成为提升车辆续航里程和降低系统体积的关键。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rmU5G5XqQyfiauXStvCZap3UicY7udJ1q8lFrNQ9CTgBgIFbtYSK2u0YQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_000_8a57009f7ce6.png)
 
 要想在新能源汽车上可靠地使用，这些器件必须通过严苛的车规级认证。为你详细解析 **AEC-Q101** 和 **AQG324** 这两项核心的车规认证。
 
 首先，通过一个表格来快速了解这两项认证的核心信息：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r14oXjrO2HV0tUwCaH7GSqKKMoibCiadib9CjPLdIlKcyevR8I79qh6tZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_001_0a54b981392b.png)
 
 ### 🔋 AEC-Q101：分立器件的入门凭证
 
@@ -59,11 +59,11 @@ AQG324则专门针对**用于电机驱动等关键系统的功率模块**。它�
 
 爱仕特科技，是一家专注于第三代半导体碳化硅（SiC）MOSFET芯片研发及功率模块生产的国家高新技术企业、专精特新小巨人企业。爱仕特掌握国内领先的碳化硅（SiC）核心技术，累计申请自主知识产权超100项，覆盖芯片设计、封装测试、驱动应用等关键环节。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rV9FzujueLQuayJSm3zEeS2ib7oI9xEZqwS5zCFlzwibRG6tJL74aic1iaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_002_dfc919c0a7c1.png)
 
 ### 在深圳坪山建成占地2000㎡的车规级碳化硅（SiC）功率模块生产基地，先后通过了IATF16949汽车行业质量管理体系、ISO9001/45001/14001三体系和AEC-Q101+AQG324产品可靠性认证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r6ljlWalOykIqGTIicVVzSrEkRDUqibjx3bGleFc2couKb54QG2sNWvAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_003_f5ee5e22be20.png)
 
 AEC-Q101认证系列
 
@@ -71,15 +71,15 @@ AEC-Q101认证系列
 
 这是一款1200V32A,内阻80毫欧，TO247-4封装的单管。采用爱仕特自主研发的第三代碳化硅MOSFET芯片，主要应用车载充电机（OBC）等领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r0ajkNQeicROorSVKANvaa23myvWTRgV5bJw2iaIicqHWW6bgt1ibIWVRFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_004_1a88684f32ea.png)
 
   广州广电计量检测报告：ASC30N1200MT4 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rrNDg4DHRBEwQVfZXPEwwiaicImZqmKAjl63QNJBaiaicia3BTfmFicPNDFvw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_005_a28c0ff39ece.png)
 
 ASC30N1200MT4产品封装图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rPVY6VelIJc4GjH9HwtDeEr2NWUgLnll2IkJIB29ENxqrNRia321icNmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_006_7b069244c288.png)
 
 ASC30N1200MT4产品参数表
 
@@ -89,15 +89,15 @@ ASC30N1200MT4产品参数表
 
 这是一款1200V60A,内阻45毫欧，TO247-4封装的单管。采用爱仕特自主研发的第三代碳化硅MOSFET芯片，主要应用直流变换器（DC-DC）和快速充电桩等领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1ribnkAo7Furr1U6CRZNUrdoXiamqdxBicEnuuXDezwtzIyQicuGiauY3a0QQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_007_df8a196e8555.png)
 
 广州广电计量检测报告：ASC60N1200MT4 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rwRVOcaaF1oicjaTicniak10MPYHNtZnVtDVQ8zicpvkic86oThdSM2KGN9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_008_1246b0cc9bd6.png)
 
 ASC60N1200MT4产品封装图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1ribRXd2ADSKfu5KOBhib6ibqqYAiaITHMl7AQBZ8Nicw5UxFj0dHyyDrDMGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_009_892f38d42968.png)
 
 ASC60N1200MT4产品参数表
 
@@ -107,15 +107,15 @@ ASC60N1200MT4产品参数表
 
 这是一款1500V36A,内阻60毫欧，TO247-4封装的单管。采用爱仕特自主研发的第三代碳化硅MOSFET芯片，满足800V以上平台，主要应用车载充电机（OBC）、可再生能源等领域。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rRiatJvJeOOEUfmVfdpy2Is1YWuoia85RB04E21dGYUUqofs3Ux4G5XIg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_010_da431cfd4c41.jpg)
 
 西安众力为半导体检测报告：ASC30N1500MT4
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1ricPnXkoRRyI3cpKQ6H1It9IZvuicykLGJgHnH96fHJJbGTKy9XBYZm9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_011_30be143db0ad.png)
 
 ASC30N1500MT4产品封装图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rvp4fibP0NpMxr0XvCYftbj08BFVx54g85aLhAPThTavBBhxO5SNFCZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_012_3f6d21fd41ad.png)
 
 ASC30N1500MT4产品参数表
 
@@ -125,15 +125,15 @@ ASC800N1200HPD模块
 
 这是一款1200V800A，内阻2毫欧的三相全桥碳化硅模块。该模块采用爱仕特自主研发的第三代碳化硅MOSFET芯片，1200V/800A的规格完美适配800V主驱平台对大功率的需求，实现了从芯片设计到模块封装的全程自主可控。这种深度整合带来显著技术优势：芯片与模块团队的协同设计，能够从底层针对车载应用的严苛要求，对产品特性进行精准优化。
 
-### ![图片](https://mmecoa.qpic.cn/sz_mmecoa_jpg/gofYQbF8T7lcWyYEvK9ic53U9Kr3rbZWGLcdZWosu4UH0muZWb6Q8wibd7dFibJH6lFq1GT9492QdzkNNS3oauQ2Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=1)
+### ![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_013_b2eb8a7cbea0.jpg)
 
 西安众力为半导体检测报告：ASC800N1200HPD
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r0eRcpxcZYyWH7eRHCxNHxN4pnMtotNkorbTtVyNrBRZhhP42QAfXUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_014_c6187c8ad1c0.png)
 
 ASC800N1200HPD模块封装及拓扑图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rT3VKsibPlQDGQPTDwLEoJBqqhuKWJt9HwmS6ICOjxJnKAo9NG8hLLOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_015_f46f30fb206e.png)
 
 ASC800N1200HPD模块参数表
 
@@ -143,7 +143,7 @@ ASC800N1200HPD模块参数表
 
 ### 广电计量在SiC第三代半导体器件的AEC-Q认证上具有丰富的实战经验，为您提供专业可靠的AEC-Q101认证服务，同时，我们也开展了间歇工作寿命（IOL）、HAST、H3TRB、HTRB、HTGB、高压蒸煮（Autoclave）试验服务，设备能力完全覆盖以SiC为第三代半导体器件的可靠性试验能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rF2EYwC5bqcNG2luqibRxiaRokSDDlqoxTLBsKLS2mUZhRfZfbyJetwfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_016_95f6abee85ab.png)
 
 ### 广电计量出具具有权威性和公信力的AEC-Q检测验证报告，是国内唯一一家已完成AEC-Q100、AEC-Q101、AEC-Q102、AEC-Q104、AECQ200完整验证报告的第三方检测机构。
 
@@ -161,7 +161,7 @@ ASC800N1200HPD模块参数表
 
 总的来说，AEC-Q101和AQG324共同构成了保障汽车功率电子系统可靠运行的基石。这标志着爱仕特SiC MOSFET功率器件具备优异的品质和较高的可靠性将应用于新能源汽车主驱逆变器、车载充电机（OBC）、直流转换器（DC/DC）、快速充电桩等汽车电子领域。也代表着国产SiC MOSFET功率器件在汽车电子领域的产品可靠性已与国际同轨。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rmiaxtcSEtR4Wyd2HxcZeROyk7fBdIVFia5NibDnic7olhpfHuQzsibibpyRA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_017_64126de5c5f8.jpg)
 
 爱仕特凭借在碳化硅功率器件领域的技术积累，已建立起覆盖芯片设计、模块制造、测试验证的完整技术体系。公司拥有车规级功率模块生产基地和完善的质量管理体系，为产品的批量生产和一致性质控提供有力保障。
 
@@ -169,24 +169,24 @@ ASC800N1200HPD模块参数表
 
 SiC MOSFET的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMdxKZ5vn0LBF0EVX0icERU2d3oeP2yshic4sYt1wicHM8GZqiazID5qzg4Q/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_018_ae27c4273089.jpg)
 
 SiC功率模块的封装大全
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMbXr4YhKzgXazH2sFJkib6xEbtp0HSiav8icmN0ibyOXzDQ9gaTudCKmSpQ/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_019_f4db654bd28c.jpg)
 
 SiC器件的应用领域
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMM6kakf48trBrQIXE9G4vR2wWw9zwibXqMqZEdXk1znXu4iblU9UicBhuw/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_020_e7088656ad99.jpg)
 
   
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMfPbC1qfpCMabhb2yZgVEIjIx89OBMnARibvvSOJgtibCy0MJd3OecKQA/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_021_d7d95913364a.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMl5StKODT3RUsgnw3k4gRHru3iarhJOEdlkN7D7L706hcLEPicuSFGicVg/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMicETJPsia0RItVSSxKkJxGVM9uNll2MMJTficE01RlF6cKHywic2J5DTVw/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_022_c1c6f3a1381c.jpg)![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\爱仕特SiC_MOSFET功率器件_AEC_Q101_AQG324车规级产品介绍_images\img_023_7895435faef1.jpg)

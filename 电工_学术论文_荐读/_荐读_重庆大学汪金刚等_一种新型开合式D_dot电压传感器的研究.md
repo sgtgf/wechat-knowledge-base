@@ -5,27 +5,27 @@
 
 点击蓝字关注我们～
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/VuxMfqMdWKNRbCqxDsOHfdA7IMsTyho9C7NgCTErLrZicGqCMWiaiauekNYgzlEngL0V6uqug5OAeiangED4b8Ghxw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_000_a8e9cb174bcc.gif)
 
 **本文刊登于《电机与控制学报》2018年第4期，页码：1~7。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHK0ZdbicMZ5hcjpWZLgqSRo9vbHMFIosl8ibXMwbMls0gsquC0xoLhz4sXLGibiaOSBHqibd9icSYibXicETg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_001_f2f4b2b2c66f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHK0ZdbicMZ5hcjpWZLgqSRo9jslZQDB4qhw6hj9gytYex9vlHVMWwXWj1t8UrcWjEZwMUBaFGq8GvQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_002_eea890ec3ceb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHK0ZdbicMZ5hcjpWZLgqSRo9ibSKfX9TRmC63gaodjib7OWNqIDnQmbyIoEhBvE3GXfZF1icEhpZmjtww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_003_516f927d6cb8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHK0ZdbicMZ5hcjpWZLgqSRo9RXawHM5gSR0VHdMwam3c94fOeh4WQiat7EhjghSRjf1S5J21gHsHrdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_004_eab09549a327.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHK0ZdbicMZ5hcjpWZLgqSRo9A4a3Y3MiaRLNicWTHYPLn98fqg4Ou0oHKPhwHso06aczibRTv7SqUvzUA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_005_851beeb88552.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHK0ZdbicMZ5hcjpWZLgqSRo9mNIia5SLxL8U0R0KEQZNeTmbk2ckYXvDVTeoxia5gmRQnDo3VslzWLNQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_006_5a3ced1b6ca3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHK0ZdbicMZ5hcjpWZLgqSRo90BfS4LrPsUgfciaVQeB3u9z1PmJOcJNKyzpfl8tSib5Ngxg9wJkiaQKZw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_007_c66c96bf9d5b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/1RrgAW3xKz2fO3mEEfHrru4wZzKKZsBBDjxq0QIyD8V8DUP7lG9p13yWiaJdpbZGaKa15ECBd7MPJLMUHzr46YQ/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_008_805db6392c01.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHJNDQ1MgVgPfuA11Jy5Gl3PWYIEibiaz6B6xyPiaRZE0aJO9dVcSm8PGI1HicLnSlz14dW3ibHrBDbwDSg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_荐读_重庆大学汪金刚等_一种新型开合式D_dot电压传感器的研究_images\img_009_7907f047c9e5.jpg)
 
 电机与控制学报
 

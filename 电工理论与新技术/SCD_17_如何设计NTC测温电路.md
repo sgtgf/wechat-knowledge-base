@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/faoH1PnMgW9Eh2RKjUNq9g](https://mp.weixin.qq.com/s/faoH1PnMgW9Eh2RKjUNq9g)
 
-![](http://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjoRKCEakWucsHr3J1YibF7ClyHFYyBmB9qUndnw2eZAeAGVcamDIEFdHDYh59V3wHFEghRTKYn4g/640?wx_fmt=png)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_000_4c085620dddf.png)  
 
 ____**★★★**______SCD-18---NTC测温电路______**★★★**____
 
@@ -17,7 +17,7 @@ ____**★★★**______SCD-18---NTC测温电路______**★★★**____
 
 ## ____€1.电流源输入____
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987aFueOognn86hqdHhaR7NqI8VX4COOpmIn6FOPwbiavF7SmpqwKv6a72A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_001_257d4ccb2c08.png)
 
 **_图18-1：电流源输入NTC配置_**  
 
@@ -27,7 +27,7 @@ ____**★★★**______SCD-18---NTC测温电路______**★★★**____
 
 ## ____€2.电压源输入____
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987aJibFpMzTOicHPHs4SLRVD6UclzEpDzx5WUtdkgUaDbj6wVNOGEbwYuaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_002_c589f95b97ee.png)
 
 **_图18-2：电压源输入配置_**
 
@@ -47,25 +47,25 @@ ____**★★★**______SCD-18---NTC测温电路______**★★★**____
 
 一般来说，NTC的阻值常用有以下几种：10KΩ、47KΩ、100KΩ、150KΩ、220KΩ、470KΩ，并以10KΩ和100KΩ居多，下面的式子我们均以100KΩ代入演示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987a7Iial4Npqwl8TFxrkg1gyLUXAJTiaHNwfYiacGzDUicHsqasAftaMZ3f2Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_003_e32dd56349c7.png)
 
 **_图18-3：常规配置_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNXf1a0sg4YIweEuhVxXmJh4AuBib9ew22BtjL9TEr872gydFwcQWTAyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_004_bda49689286f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0QvaOL637iarZsZXXc5snNEYG0ApZkTqSZCWZGH14OX1xznRIib3J4bMFRQlPPbXiaicIl5AlItcOIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_005_49a563743e4d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987aMgHbQYv0eict9bQzGtNNQBiaXqFG5DA8ghuKlabpUs7ibkP7YBCicBEyhg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_006_6c37ec04d244.png)
 
 **_图18-4：拓展配置_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987aMudSIMPfcCts5fYOweJ0qYq2wSxmjAwCZbhRwmhhwic3e0q3v18jrHA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_007_6ccc66afe4de.png)
 
 ## ____€4.两种计算方式____
 
 第一种就是器件读取到某一温度下的RTH值之后，MCU的ADC采集到电压换算到当前温度电阻值RT后，使用如下公式计算出T1：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987ajRDq7vtsUKDJBwhyhpIBpYY7Qu54qj195oGBPd2QZRtzM6MGjIgiaAw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\SCD_17_如何设计NTC测温电路_images\img_008_f8e024b5d7ee.png)
 
 T1：环境温度  
 

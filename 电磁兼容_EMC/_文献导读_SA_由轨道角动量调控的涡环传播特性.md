@@ -33,7 +33,7 @@ Xin Liu, Nianjia Zhang, Qian Cao, Jinsong Liu, Chunhao Liang, Qiwen Zhan, Yangji
 
 Science Advances, 11, eadz0843 (2025), DOI: 10.1126/sciadv.adz0843 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98NlqnObLUHGibj0abOCYLpLQz6QfWAcBaria6XccHQK1AeQicva7ml6KrQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SA_由轨道角动量调控的涡环传播特性_images\img_000_bd00d7dc8cf1.png)
 
 论文摘要
 
@@ -57,19 +57,19 @@ Science Advances, 11, eadz0843 (2025), DOI: 10.1126/sciadv.adz0843 
 
 (3) 是否可以实现结构稳定、长距离传播的光子涡环。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98dXjia4d4NQkwH0Ky0CqM1bWhq307sw3BMHRXHppeFhJx86gWsHB2ATA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SA_由轨道角动量调控的涡环传播特性_images\img_001_69da1105cc31.png)
 
 图1. 光子涡环的三维分布与相位图。(A) 拓扑荷­l1 = 1、l­2 = 0的涡环在不同视角下的等强度分布与相位图。(B) 拓扑荷l­1 = 1、l­2 = 1的光子涡环等强度分布与相位图。(C) 和 (D) 不同l­2取值下霍普夫子波包的等相位面分布，色彩表示相位值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98RmfM1j6aCCEsZQTeJ6nnA13OtIs1WFv9VOb16D7pGIGZ5iaJIAcUGfg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SA_由轨道角动量调控的涡环传播特性_images\img_002_3a11502a9cec.png)
 
 图2. 拓扑荷­l1 = 1的涡环波包在正常色散介质（β­2 = k⁻¹₀）中传播的等强度面分布（峰值强度的10%）。(A) ­l2 = 0 时的传播形态；(B) 和 (C) l­2 = 10 时的传播形态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98YoMjkphpSAcb4K5QO3z1HSeLDJ01zy96T851rKe89K4X8scZrmqia7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SA_由轨道角动量调控的涡环传播特性_images\img_003_c06b195e6517.png)
 
 图3. 拓扑荷l­1 = 1的涡环波包在反常色散介质（β­2 = -k⁻¹₀）中传播的等强度面分布（峰值强度的10%）。(A) ­l2 = 0时的波包结构；(B) 和 (C) l­2 = 10时的演化形态。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaX9IibMpFnTI77h50HV52J98bV7QS4lmzyDZDO6zAU4Es9vTrwpL86NPZ4LsjFDd4icI4iatBBdV127Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_SA_由轨道角动量调控的涡环传播特性_images\img_004_9c3420f32816.png)
 
 图4. 拓扑荷l­1 = 1的涡环波包在真空环境中（β­2 = 0）传播的等强度面分布（峰值强度的10%）。(A) l­2 = 0时的波包形态；(B) 和 (C) ­l2 = 10时的动态演化。
 

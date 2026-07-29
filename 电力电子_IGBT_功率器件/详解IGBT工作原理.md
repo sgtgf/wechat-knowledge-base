@@ -12,7 +12,7 @@
 
 在实际应用中最流行和最常见的电子元器件是双极结型晶体管 BJT 和 MOS管。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmPULG2Sq8akyvdsDPCI0SF37PuR1ia7djq00VScDnn3FwcNWTd43ibfaA/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1)
+![](详解IGBT工作原理_images/img_002_17935c28f550.png)
 
 IGBT实物图+电路符号图
 
@@ -42,7 +42,7 @@ _你可以**把 IGBT 看作 BJT 和 MOS 管的融合体，IGBT具有 BJT 的输
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmyr2In5BwYc2juWFwJzYhjTbYIA572HVt0IY9D2Ra1I3oSyjyr5kuEQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的电路符号与等效电路图
+![](详解IGBT工作原理_images/img_003_842a435742de.png)IGBT的电路符号与等效电路图
 
   
 
@@ -58,7 +58,7 @@ _你可以**把 IGBT 看作 BJT 和 MOS 管的融合体，IGBT具有 BJT 的输
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmxSOXy5riaHicZ2laGR4aCVslOeRakJtapfF6YxBLeMicNSibyxiascRQjOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的内部结构图
+![](详解IGBT工作原理_images/img_004_4f3628630637.png)IGBT的内部结构图
 
   
 
@@ -92,7 +92,7 @@ _由于 **IGBT 既可用作 BJT 又可用作 MOS管**，因此它实现的放�
 
 另一方面，对于 MOS管，没有输入电流，因为栅极端子是主通道承载电流的隔离。我们**通过将输出电流变化除以输入电压变化来确定 IGBT 的增益。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmaRPuw2O2dMsjFIkAvxbBaMrhictCwSSHDMs77ibX2AmV3rhQRsTicBKhg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 结构图
+![](详解IGBT工作原理_images/img_005_9918ce7176f3.png)IGBT 结构图
 
   
 
@@ -106,13 +106,13 @@ IGBT 中的集电极电流 **Ic** 由两个分量 **Ie**和 **Ih** 组成�
 
 现在要关断 IGBT，我们需要典型的换流电路，例如晶闸管强制换流的情况。如果不尽快关闭设备，可能会损坏设备。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kC0s2vHwSXz4ARV6BWTv73ZnPkFmGHr3kQ68dApVCNF79T5lMYFtNgcibKRmlBKEib7e13klCx8lPdw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)集电极电流公式
+![](详解IGBT工作原理_images/img_006_2e87d6a137ad.png)集电极电流公式
 
   
 
 下图很好地解释**IGBT的工作原理，描述了 IGBT 的整个器件工作范围。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmFVmgWgqvy41nmuUxM5F5iaDLXRWokJEZSobZT9J6mOVW69SwR6Fm1qw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的工作原理图
+![](详解IGBT工作原理_images/img_007_72104ea8f224.png)IGBT的工作原理图
 
   
 
@@ -134,13 +134,13 @@ IGBT 使用续流二极管传导反向电流，续流二极管放置在 IGBT 的
 
 # **IGBT的近似等效电路**由 **MOS 管**和 **PNP 晶体管**(Q1 )组成,考虑到 n- 漂移区提供的电阻，电阻 Rd已包含在电路中，如下图所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zm0T8qymZLRzpG1zYU7SMWTJkxrJmUXicibyDuAhjnlS9oZdI8TcKaxGxQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 的近似等效电路
+![](详解IGBT工作原理_images/img_008_ca6158ec25c7.png)IGBT 的近似等效电路
 
   
 
 仔细检查 IGBT 的基本结构，可以得出这个等效电路，基本结构如下图所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmhr1p9ia30jsFrBnKMvdBHsPMCmfQPMcV1bLMYE3lIaibRwcfEXmFsiaiag/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)等效电路图的基本结构
+![](详解IGBT工作原理_images/img_009_df0382c9df15.png)等效电路图的基本结构
 
 穿通 IGBT、PT-IGBT：穿通 IGBT、PT-IGBT 在发射极接触处具有 N+ 区。
 
@@ -150,7 +150,7 @@ _因此，在 IGBT 结构中存在另一个晶体管 Q2作为 n – pn+，因此
 
 **IGBT 的精确等效电路**如下所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmT7BiapPIdYNYCkJ5P2oKp2icb0153TCrAXSc9ibEKC9YuJWxaT8sm6qZA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的精确等效电路图
+![](详解IGBT工作原理_images/img_010_fea7fd0e3bfe.png)IGBT的精确等效电路图
 
 该电路中的 **Rby** 是 p 区对空穴电流的流动提供的电阻。
 
@@ -164,7 +164,7 @@ _众所周知，IGBT是 MOS 管的输入和 BJT 的输出的组合，它具有�
 
 # 下图显示了 **n 沟道 IGBT 的静态 VI 特性以及标有参数的电路图**，该图与 BJT 的图相似，只是图中保持恒定的参数是 VGE，因为 IGBT 是电压控制器件，而 BJT 是电流控制器件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmsODt8KEZSyvgxFrfshN1iarG2GtTAgoLfAuGbPqNLGEFYKOz0uEunRQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的静态特性图
+![](详解IGBT工作原理_images/img_011_36458ba36fd9.png)IGBT的静态特性图
 
 **当 IGBT 处于关闭模式时（VCE为正且 VGE < VGET），反向电压被 J 2 阻断，当它被反向偏置时，即 VCE为负，J 1 阻断电压。**
 
@@ -180,13 +180,13 @@ _众所周知，IGBT是 MOS 管的输入和 BJT 的输出的组合，它具有�
 
 # 由于是单向器件， **IGBT 只能在从集电极到发射极的正向切换电流。**IGBT的典型开关电路如下所示，**栅极电压 VG施加到栅极引脚以从电源电压 V+ 切换电机 (M)。电阻 Rs 大致用于限制通过电机的电流。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmyNUl9sJL8R02IocTDPadGUbVQ7Imeyhh7vLnbN9abHrvKJWcQSbWkg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的典型开关电路图
+![](详解IGBT工作原理_images/img_012_54f8e8e28b51.png)IGBT的典型开关电路图
 
   
 
 下图显示了**IGBT 的典型开关特性**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmr5oJYCgVN3vh9TU2Uds34rS9xtGQeb5ZILse7r12Aicol3wwjLlYMuw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 的典型开关特性
+![](详解IGBT工作原理_images/img_013_10436070bc41.png)IGBT 的典型开关特性
 
 **导通时间（ t on）**：通常由延迟时间 (t dn ) 和上升时间 (t r ) 两部分组成。
 
@@ -202,11 +202,11 @@ _众所周知，IGBT是 MOS 管的输入和 BJT 的输出的组合，它具有�
 
 **最终下降时间 （t f2 )**：定义为集电极电流从 0.2 I C下降到 0.1 I C并且 0.1V CE上升到最终值 V CE的时间。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmianyMBOUUWKBxjY787FBlC8HAWMoSqiaTdruBl7YicHxPJXKhABteoWyw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](详解IGBT工作原理_images/img_014_dd9db81710cf.png)
 
 关断时间公式
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmw9CMvhWLIicOc3FhpjeQ5gBUaXhbZod33yUK1SrkumnwqGJyic23I1OQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](详解IGBT工作原理_images/img_015_2155ae5c25a8.png)
 
 导通时间公式
 
@@ -222,7 +222,7 @@ _众所周知，IGBT是 MOS 管的输入和 BJT 的输出的组合，它具有�
 
 当施加到栅极引脚的电压超过阈值电压时，IGBT 开始导通，集电极电流 I G开始在集电极和发射极端子之间流动。集电极电流相对于栅极电压增加，如下图所示。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmCBPcZZmo8OBrC5GqtdxGZSCdRtAUqYic8ic4wkKdeYRPoAmXpZVUBZMA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的输入特性图
+![](详解IGBT工作原理_images/img_016_5737f1bd47c3.png)IGBT的输入特性图
 
 # **八、IGBT 的特性--输出特性**
 
@@ -246,7 +246,7 @@ _众所周知，IGBT是 MOS 管的输入和 BJT 的输出的组合，它具有�
 
 # _此外，当栅极-发射极电压低于阈值电压时，会有少量漏电流流过 IGBT ，此时，集电极-发射极电压几乎等于电源电压，因此，四层器件 IGBT 工作在截止区。_
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmamwlGsOSt9jyXCgmPaYl93NFVNVBKaSNelVICaWvDdrHS1fBU2d0ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 的输出特性图
+![](详解IGBT工作原理_images/img_017_7150f64ffbd7.png)IGBT 的输出特性图
 
 IGBT 的输出特性分为三个阶段：
 
@@ -322,9 +322,9 @@ IGBT 的输出特性分为三个阶段：
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+![](详解IGBT工作原理_images/img_018_2e84b7ba26c6.gif) ![](详解IGBT工作原理_images/img_019_51d069a6484e.gif) ![](详解IGBT工作原理_images/img_020_5fb296583be4.gif) ![](详解IGBT工作原理_images/img_021_1f30148044c0.gif) ![](详解IGBT工作原理_images/img_022_c5bc86d0867d.gif) ![](详解IGBT工作原理_images/img_023_b38438d4de46.gif) ![](详解IGBT工作原理_images/img_024_1d54e9fe0aef.gif) ![](详解IGBT工作原理_images/img_025_9bb0105b1e46.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+![](详解IGBT工作原理_images/img_026_de88c48250d0.gif) ![](详解IGBT工作原理_images/img_027_3b83df2d253b.gif) ![](详解IGBT工作原理_images/img_028_db521919e8d9.gif) ![](详解IGBT工作原理_images/img_029_aea384ea417e.gif) ![](详解IGBT工作原理_images/img_030_f4924e7a240a.gif) ![](详解IGBT工作原理_images/img_031_a58db91dbb3b.gif) ![](详解IGBT工作原理_images/img_032_f0edc68b0c53.gif) ![](详解IGBT工作原理_images/img_033_3c93e54afedf.gif)
 
 ## 
 

@@ -8,425 +8,425 @@
 
 摘要：电源转换器所使用的功率开关组件一直以来都采用硅(Silicon: Si)半导体材料为主，但是随着越来越多苛刻的应用与需求，硅半导体材料发展也趋近于材料本身的极限，使得硅功率开关组件已经无法完全符合需求，为了符合电源转换器设计的需求，近年来宽带隙材料诸如碳化硅(Silicon Carbide: SiC)和氮化镓(Gallium Nitride: GaN)应运而生并且已被成功地商品化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXC8DMIU4CZYyTM1An7LEzRXpCX7Me8pLpFpC4ZSNfz87ujmNKXic3Dw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_000_d5b1d28cdb0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXykUMuOmlQKPUicCPDD0Ij6DVRXA3NdBvWAyonkvEu9GFoQRfddiccBg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_001_24c48c64f962.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAeRgCL0mCqSxicWY82ViaY8h4iad7jfqLmuntMJW8icYl6vicmvuB8EUlvkg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_002_8ae31e00029e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0VEwiakqeKS6oe25SqvhI1xeTnZGlbRhVolKsZGUGBgWCd3HllXdCbw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_003_28f83d4d4e7f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtf7sVBNHKdQPyBnUF6fAQgyiaGlvVicxO1ELwdUtN6X1L5nIsMj3Uicsw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_004_764974500285.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9S5YlHY0HTmKufNibyHibicmeqyMMURPYR8m7MVeuQD2cLKzfW7A8aBgQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_005_9b59a5fe4ee3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9ODw0XcnNtCylyDuy9Sic1AjGpANyKh8k27qBiacqNC9PxafeY138knQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_006_4893861b7c35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA4ZRiaPXAicJXAMCMticHAR3fRBiapLuvnHgxic9vjtP9a0CqXbpz3iaRlW4g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_007_1ce0e29a974a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9SqeFQzqbfoOuzhnQnoOS1jJOzOfokensIrEibhIRV6p4DDgIez6ib1Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_008_67acde698e30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXWBaLRDsVB8T18NbibibgA5QqWv8ibBwumrIIryeLY8aDNYDg0zUicdpbA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_009_7bc91dd4bd01.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdaSHpXTFPjNmpibHrk2OTDhBV3LLEpdwkg0KCz1XQ1qMpGZ7Zmn6BHQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_010_31f87f31c94c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA3I3njn67nHMOAGDJb8iadeJ5L8CN2pqqS3fickicZ2yLI36IblrQIYhow/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_011_7b030bb5f106.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASKlou4PfqFB0QOGhNDTqwFt5QDKEzSGKCeibokVJG1pFh95gr28K1xQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_012_cd4eeee87189.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAha3ftAehDwNE7sGAW0P6yDa4tCX4fj0ZyLV3KibhYu0HYLUh3TCVELw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_013_80b4c2b80fd7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtvDyD6CEFIh3wzag2USCs1M2EvwYwBjptzQg8BOWAuibDjMicVibniaQ1w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_014_53e901d238ef.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAPsFVKmefUa3cLLaQclKPRvicX7reb71GkJtVeaBcGpoFsZZkwfb13iaw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_015_333966485938.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAFpQGdm61iaGTOQbTPnUbOoJd1ecw5aOFWW14NOdCJn1RfduW3Vww7vQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_016_7f118af82ba0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9GXhzIYM5RL5l4HFzbJb9QZpGDCjKnRNIww7hVLz8qqJYdHHjCH0iaQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_017_1a69f140f232.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAsblPwL5UCEicH5ZYl1o9C6Ux8p8nBmWlIVs9Qazn0p1Q2l6fpHfNrHg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_018_f8dcf63e83fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicApB3850xfZCRmAYhBI0SWg1rXAYsEZXX2gLEticfCnk74ZC0QTmODqfA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_019_27871371931a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWHsokibIUia2QdCobFnTt05Qk4XvJIQ91hKme5Uq3qu9Zo2iaNxdz15TQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_020_5f20cfa074d7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9YFGQloSMwbjU90MwxiaWtoENA21NfC1RzIaOdELNKUPay9dqia8E3Ig/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_021_703d24c2c4d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQk3KQWOlySpLwqTy9JQj2WGFgUlDA7CCbBUB9IhugskFMicuSChSVwA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_022_86303262ee69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAHFaFZxgK2y8QcaPaF4kfSmtLDnHJop9SFaVOcxVZwq3mgbzZ7kFQew/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_023_45a751c52402.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAE36mSUibgjPEYBWUlTWicvVZhonoT9S1yRfjpibGJibiaKSPYfx0s4yjmow/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_024_bd9017362208.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicADp7ggaRg3YCEkIhnTYQU0OMNBxUGn3209eqlic6MvLMcD6QYibOg5mqA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_025_f04142c136f8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA3CXQpJtS7lbJmYicSH5eOI7wmvtnQ1u4jfN58ziclJcXrVt20kSSnJ3w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_026_90e7786c18a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWSf5ajrUf3nUxAicnlRNpqpNZUlTmPERvmcxb3oXYsfzFDICF9dnichQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_027_0ee2ef5b6aba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgoFllzb8gSN5UIaXTHDpicYZeknROrSZqbXxvkvSW3WLWxNZYYCsJjg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_028_19b446fb2b73.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAibdk4THbxiaBgycyl5mM0gWia4wko6EoVVXE9s242OMt0NGwZHlibvIvpA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images\img_000_9279daf60fab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgmxrO2XWyBqq7a0wibhkcB7VbMwLVEwcJuxcd8hQRscFzfkmibWlSlwA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_030_59a1c7eaf482.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwtRSkl3enk71furV2iaa2yYOSltmicSgyXb3e28BsW0fJ1WibfwC2ibiaUg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_031_457af4ac9f06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKTo6S7Qcel2WWIlhHNtvOrDekHIsLecPicSaoHmbZROkaoIvUxDLiaSQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_032_ed6dbfa80325.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAAL04yTY6GDdbsA1fmcwGc2MXkqYiaiaZQYTjemBExcVw5vk1MgpJNJdA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_033_cb072cb06112.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVf45XaicqhZRtgjhfJiarjrmtxK6lEcqwKlID82L2r6RppbX259wibIicg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_034_1615e267dce0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKrr2SsMYWG1qh1eK3ia0tu3hDP1gJ2chQ2K5rLOYRxMe79mUYMBeG2g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_035_7142abfd223e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA6rhWN4rswcIysUax7WzjSqtXO7PibbYPjoweveFjibzRvJztUqHDTZsA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_036_2e7e53434160.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAZ4h8fVOCV71ORqtPftYgSJYotreUh3L3OGhXguYySpwhwyXvm6ZJXA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_037_a44bfa198910.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAMvJ08w6GbcLGibXwicUvmcnTvDiajSN2qVoLVM9YLmYyxuueico7TtTuzw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_038_b26de00993a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAknR54k2icECFYZ686TKZTYvHGd0gknjd162Lib5EbSIIRZOic3pzG02Dg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_039_bc8d32c52229.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAhNP6UovU1JVES8aWCiaaZDaycwWGPMAeicLMsbAk6HYbhQgctJwQtj5Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_040_0b8960f23437.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwEI9gvRbUpWpbKPPmsRzhZhNa7xKzO3pZRX1ZQRqnicEiajuicrm7FygQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_041_973a7935e089.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaribHUym8D8C5ibfcDDrib8chcia6yypw8muf2OFfk2cQacbhFL6L4c2yw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_042_c082116fdd8a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicARCIByqL3qcic6RgY1VXogReq3dLcVyjHG3KQZ5D00m327Sw8AE63zVg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_043_6f6fb547b64c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAbASOQEtzgUqhMtxhOibAQ8p9p6o9UDHO7KKITZGR8S4t4mD5s7ZcuHQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_044_5c58910879bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAcV0XAibsRfqnD9sIA3YpIicStMy0mY4aXW8FiacxicU6XaOota0yG5WZzw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_045_26eff0171508.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAc3Dp88u3b7ic7S1TTcvYmT2jwAr0Cg5gbgw9cVwvm5OBibI478RHS9PA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_046_259e17baa0b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAEtUxMh4rboZbI5J7d9VJXGd5Cv2wMImGiaC9WrShXbicQAQfGWtHNsJw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_047_8e5a0b6e634b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaSVry28BHdy46bZ2xpsoqIvr2DGyQj8y3R00fI1fdNcBn1YSn0X38w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_048_4811c4785200.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAib1MsicUxw4awC567PWAkp3L2UjzlualibdgGZK9ia4bAibIiasm5HLF270w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_049_e8cb2a6270f9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAGJN8nSkaibV4abbLunHsRkkZpOR9CphgzLyb2evuBkwWGrJ2ZXBVc4Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_050_05fe6b2d7225.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgB97vKxIT6YzV28rqgQiagsRYIAmvQa4TwM2T9eQ0WWcc1Oy4cbGbug/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_051_378d3083f593.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArQXkhtSbbaz38tiarznNN8WEdFvSdh8vSVZg3yiapF81C42OO9fM8A4g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_052_f873e2feb47f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAB0Picdtg8RW52miajXgGsbk6OoHA6ia3At69nJRK0yX33avAZSuvHZlQQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_053_d854d16f5204.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAr7zs02GNhZjNDdt2URSqd3WdBSJFtC1iawc7FSrnSYM3poqxqsTicB2Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_054_65c4b577f113.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAP3XLxyoicy2RZPWKDTMBLHRQDBEnqsT24QJ3xibLQibH6ekqrOY3NfJzA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_055_5cc7c44d806e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvOVYsRRkic87NgB0HZQicsEAEy3pfIzplKUwRRBv0nvbC8rlKHvvOdLw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_056_10cfc6828df6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAP0ng9tq7XrsOPPf99MUPhGVXvPUl1bWkiamxk5VFOzeBKtoo2IKvhwA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_057_86a7a3409de4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtFGReH9ic8QZhhvTAqRjqtWKicN0VpCJto9Eo9ovgDPhguIiaGoTicVLCg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_058_7ad19b064e74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0SMcUyocAUC8ZibwwIRUwiciacnRPtILfFCrwBDFibEIhhkRuXiaynpFicuw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_059_e64f79f782ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicATltr2I6nb6plO957qBEczXTicnibGMMHWo6p8akiaicd0xlm56l3O1RFPA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_060_815eb620b741.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQLQSFb7Ic57smmzOPPbDq5nQj63apKgPtvemfpxhRN8cXF5hVP7jFQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_061_ae9bd0af85ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAewL7fTgicuEF6QRia8ib8ic1POSOlSsxss7VxMwmUgzJqlj5jjhpib4dujQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_062_0d00f6c4d3ec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQ2fApTIuMypll51VWExiaapFw4OnHxhmicBia1oXiblrwdnAfVLcYWlXKA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_063_d065fc3cc38b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA19YSLMFC9eryExjGiadMvexpFsFpbbOaaGXXwGGBGWGZHcmTQVWYdaw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_064_bf58ade8a090.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAt9ibdrQnKWhupNtGOGsJKTgRJsH7YzzHOenjxSBBicc9YVtlo2fFWGBQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_065_fbb474bf7842.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7YgwQrCFIgs1CLyjf2T8iciabZDn3uvnlvm1jhBVl7IHtGnfnqHxX6Ag/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_066_aa70647153a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAYyeYNg4ceKf6k2OabXZfB7SxXKr9ZM6M4RAe8EfPOGfjJoJA0qy7ew/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_067_2f2be012019a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjiaT0b83hC0I9RFBTtA5kiaUkJZmiaD1aPPLA6IN4GpCs0Dkuhb3PuUNw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_068_5f51ee9dfcbe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA08a4enOVDsWlB6Ee6a2XNp0sMfTo8tia0twbricqqPmdTNP8OQiadBMPw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_069_1e3b8a7d0d24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAmibVrtsYKhrfuSPKFCFnJdgeWT7by2r5Cu6D3QZ1QGicicM8fGhURuib3A/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_070_008bebd452fa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2ne9xy7gylB0z9Nhvt4ZmthNWmm9RcXqKNnfHSoCrBnFmWKK38CWjw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_071_7513cccb41a9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgatgHZS3ng1CA1U3lPmOBOeU1mvsXfdKUdDmlmCibtcPtN3WGnhCa3g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_072_9b43d0d5b1de.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdFNm2AEVdV7PppqNvia9kFSJzSfLHzxv2OIvezbtqwm3am3A8kMZDfw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_073_4c1cb1aa651d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAUS75OS9XfLruBGS7NMcONQpXS8luicICeOgBBO74ByI5XtIl4qwQLvQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_074_4f08e6ad83fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAR1JEf59E5tVqOk7Gvm8NpKrFHVticFmtXiakePK7RP7jAkWsoKNlD0cQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_075_2f294337a68b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAkAwoswHIygqtgLXkJcZJbTaFfYInpnNwmniaI7DbaMR35X7uv3hsyWQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_076_e7ec3d3a5557.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicACpmm0Gl5P2zZDRrzB6GS4wnVEHr7rwVQxkGEC66tdjgOswuSHNzGNg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_077_bab010630028.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArKL7BvHcmsBfx9QpbWCAAqFOw7z3KMMxjxDKibibuZQ4VI0ziab6Dqk6Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_078_6d395eb1f0b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAJibbOribQlANYdZJR2CdW9CxWNJ1b1POt9WTmdHBoaW8urib18uw10zJA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_079_5956a56c16ba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicANhOmGMMODvyWkTBRVSmF4aTemCO12kbxcrUbk5XRWASqFiaCA9IbXIg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_080_8bb9ceb66cb9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAx6licXz8HJgLOdx9xEOyy7jn3Pt0NmvEgSibH6ZRomt623nVsSKcPMXQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_081_24abd3b5b5cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAibzibzlN4rdWMOOwUX9DdoH39dXt9y2eE3roXYjLre48XicUVgCtUkibYQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_082_3ffad4bf608d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAlzBlne6wobst433PYOrLd6Fs7bgm0bgaDDVh6o8rfdbgp1XY0icEJOA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_083_0331aaf5b303.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAn8KGibyWD3Z5kuQJUtrb1CJodlnMw76kA3Grxy135QUn5k80XDRGEdQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_084_6f14419fa308.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXYohuqbZJQpIiaqShotbcp6yNvbNttG6235JujkG5f7CBIpcvKhAPoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images\img_001_8966ee54e3d1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAH8tFHqCuM3mqeictgyVmNEv8YYjltyJRiaPhP5uZHRXpL1QPmfaur7cA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_086_0f09c57bcc35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAH3b5Zn9etK5ZmsZDblpa0vjIoG2Yysxzt1wcoIxyb6ibJN6afK4vnvQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_087_86213716a3a9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAkoSIODfRkLIcZqG0ic220NbVbuWyib1obWAic7VlUWR6hemsDzTPnvWow/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_088_0115922033cf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgt0AeSaBHaaqFGHkCPblVu3V0U7wqzHYuUnGEmQ99d8ZWcaSia75ricQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_089_1a1e35abb5a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAzBKLoV6fWtboEw8hNb5USTLVZxMAeq7HnB2dPWjyVC3hg9CQiaYVNLw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_090_53c2023a0730.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7W49ibXCsuJa2CP2qibrmMNGZicAJp7RHE6hWpDWibfUFDuond8XQzpYJA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_091_701a13516209.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAibcFXuc11joUOI3Iq7dpLPDm5twlOMBaDDjJFQnMBBJgBgSHaIdL2Bg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_092_87e6f26b95cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicANuquWe6xiayKSLYG0rH1QQAb8qOlhiaNNd5vGp9WJNicE0u7WialXibOZUA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_093_7067ae53411c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2yBGgJll2JX63lFAgy5iaK0FzlicubWVcoJh8cfwP9mpXZjiajb2hA8pw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_094_02a5ef90d38c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAqPzGegxpJMs2YMlVT10ica91RViciblMVw4dCJBrs6j64BicxPibSUojcGA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_095_598e9d32a592.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAy12gm0Ar6qibjXNJHq5GXeKa89M4G1ntVYBJxOwzQJyeQOD6NRIjRoQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_096_2e9971e25981.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAOgWJ85UuzsUY5B9qKG08G7uwibmbseqGBcrWmDdjVNlv2zSUlXE7TTw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_097_fc9744784cc1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAnz2giaVlajd0gNFVRib1icsgwdHIaWXM9vyadU8RuvFFLFhB66Owu0MWA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_098_87c1a1252c8a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAicY32kA7NicvhfLbpxZNCYH994VzTgvNtEibH7caMxP8QvK6SNaGBsSAA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_099_83c23ff535d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAIagalxWtUBeL8jh0OtOkicNMlJKkdReTpQHoL0KGhuI6L8QbMpicgxCQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_100_5d09ce44dd18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAxiclNzRCaUzWFyXo35Uv2hsEAzC7YQJC0UNhrPxicMpwDcx8PyzAFyww/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_101_07d3ba46f28f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicATodVibS1U0dHNjJNEKZpBCTVqGYv0nU08icJ4YIViaAicxbHzgVcIIC4oA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_102_9d6eb06f134d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0mCxyibyfufHQZ7ApdH2DakabqbwBbQoBzicsrpFmFVzwJtB711EnmrA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_103_8a677f846d09.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAK8XGN8wmfQl87jqHmdXsOIA1krUAOnGBxaicwS4O9u1DPp641ibp2YnA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_104_bc4f7cce3f2d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAcXODUugHujN6S7GTXhEAauNf3GfA3YxuJ41CoyPSLhfRIsNBZywFGA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_105_bc61e7704b91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAstBmyJjNVXia7ibia24htXe9AtCpqjaLYVYtUibNIXVE7kIM8q815icgeUQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_106_b5794a03bd4f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAAyH21QCmm3mia6Wtg4SREuYfbfjJaJt5vYDf2qhrqWVW1AfnOwVcTKA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_107_4dba971ee454.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvKR81w5u3ZpCXBu5MrnHMcNtOdf3PY9fneWj8asapCI0s7Fia15AXzg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_108_9093f425992b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAT6FYkv2Wl2vibHLeft7gMxYnBqicibJucqFe5zMf14qNYlPkSPudB0Eaw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_109_35e874a41022.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVroQfBqgGo4AMBR0Wo1HAXpJnUfoickEYn3MdrHqs53Xjdk8VG1A4RQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_110_b1b881e054cc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXvbFP6ngNKZCawxawNic8DPaibhbmt2j0tqnZ9eapjibfqyJEPYT5Ukfg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_111_9085189162df.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaUeibBGrA1iaDFRibYJl5bJ80q4ianfWW8ocEiacNVyokVdkqJNx9DBtscQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_112_7feff4676973.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAHbBOSVwTnibG2YRrJCOIBpXkWHgBibJnHu6aasskk8EvveB8Ovf9pV7A/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_113_ec88391967e1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjjzwEj76KqibtfWgzoWhkXFmibreNGdy07DB65UpKaTs2puTDfrxTdcQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_114_c9dbd940ceca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAdwS2aXAEOrynVXLPErVczdVenefJkutZ2OhFHzld8XmLDficg1IP6jg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_115_77112ad1e8c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAXFtOF0QbbFEDic7fIAnQRiaTyqTmAPIia4aiaibkFPTt4unXNbdKadUqEKA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_116_eb08f946bf44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA71oKzvqXiaVQzGHziaTZc7x4M3bTo7iaUcCIHibAwF6kPRxkRUVCibYaYbw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_117_3c6d5ce43489.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAM4HXP3UF55e2nC9QoiaAV2fpjeM9S8pK091GX0plYicrULCPJaiczo2rw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_118_da8f449b1862.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA57rRYssyH3pIXZM2VibINneRibGSUhBzD2Fvxr3pBYSI5gbb2ofz0VOg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_119_7e5ebd847c42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKZgSMyuz3Pv3EEjzERXtNZbW6icQ1wgL6zwAibNuBhm8DG7xzicy2zgCg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_120_b62f90436574.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAuOGGa59ygHciaiagiaonqAnbcaA8mTBf7gyr73mPhmWzdzDOkXxtJKHUw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_121_3963de0f0f29.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWAhJfFPGkRV7l9MF5EdT6X43bibIXvRszFlAMoqVrc2U8v9nAY26ZTA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_122_94ab8988cb76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAic6dHOBqsjgHibVRcVzdOm27MA5I0WfEcaOee7VdvjLjjsxBd0jY3FGA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_123_492ae25c8cec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAGlTqMQNgR1CibXWIutGOicNP2aJHpgAPzV0lEQJibFqut0dicHLgAnTiaHg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_124_1f3318bb3725.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvq3w4fn4ickxwDZPZ6g0ichrH7dl9oXEfN907k6XGiajl9NbibhVhEC7AA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_125_0f99f5ba07c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAq8USicfKD1OeaibN7w5xF7LGAIwqyoRLwPwo8egA0CYrV6JyKtILOhlA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_126_6497bc80d517.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAA9KwGbzYKLQiau6qtx6dVvmIEianib0Yp4FohUlHbBpJqoRByG7fv1M5A/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_127_27f05a2747a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwgcU8owibEAawbjs1HokFp8sLPqnFkIOv5maHbjWSLw4HtqtFll1tkw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_128_3e74eecdbc63.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicARhEPSPciawnrk6FZuZfEzYOoHwDBg4T1VDzEe39cBHqLgaqKb6YFCKg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_129_7e42e609c458.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAghdglUOIUu2h3N5abwrTg2HicnQZDCdGVAJTrkVyQwceIFItdoDKfjg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_130_5cf0f52f2644.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAvpufkIHSn7bH9tKE4lJQPlO4ocS6tyRb2YohBh7yLYibhdDuoDnGkFw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_131_c69ac38dfa4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA5ApqkNAoibuTmo5bImDVuV4DVOHJCD77DDpWOqD7RFADkQLaEqIRlcw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_132_727e6db15e86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAszyeQusU5FibqsnrZnzHmcUFMEBGNn5QClZhB2zTQU46eUJh1LCx60Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_133_ae70ec69f838.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9SU313PQsJlbXeJlw76nq3bLLOicVLRhxhtSDamlxOcGywhFibyia11qw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_134_9144dc0f207c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWd9AleNc3CictkCjHyPd0d9gWUHj4hmaQibJfvXia6q5wib5NickJpNqicRA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_135_cca754829ac4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAGmZL6v4HGUxbMxFlxk2CVj2G35tlE3wGJDqkH5dxm5f2ZJtMWnP2PQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_136_f1f27728f24b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAhDPmiaA8N1BZoiaMgaNKjd0SdFIHT8LdcID3wc4ccA7uup2oe7RW1c1g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_137_ece61dfcfa28.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwUyAxrpJfJtpeicOLqQy7bjRn2UawUvOnccPxgl0PR9nUR1qlnZPsZw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_138_00d3306976b0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAmic9sg5UDicmsAWmKiaN92C5tdBcYU0yT9L76KP4m7FkT3VagEXNRDZ7w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_139_c0fe42936974.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAku8OnIfmRaMUmxXbKbS0UyibcSI5ibYoxIZeGa9icZto7q4w6LzF97kmA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_140_a13e3c7f55d9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7jAZB9laK8FGLUq3NyG4nwYTX8ibMymXFIpkO3g4bkhBHoIibxpCjQwg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_141_19515acf4666.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAr8jvm0HCKLxxEOhQZ6MFHwVXwJhdIIyj3OREIVoKWOSgH1H95SR3tg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_142_62876ff22cc1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA2gQ5CRs3E79K758eECrPJAo9icX9JaBibY6pzdFWuntVHibPVoIlRaRrg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_143_683c06203cfa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAlfyrWFnaob496bPpoDibtxXupg0qnRFITiaiamhKuM0dBXvrEO7dYj5lw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_144_fbc560b6077f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAfOFQ0kNfFy3ibOLEq99aul6J1BuRfiaj8QqibByjoxia35wer0sibMJfcJg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_145_816540262d1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAsDyBlQ6hsuyawmvbnbiao3ibfUE422fglvRJhWf0LAAic6u8MDk5avmlw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images\img_002_408b2016fcfc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA5dZsRiav9wIwB1nZKrzrk4L5O8X5CRowaoia0FaOOX7dp6ichjnr4Kx7g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_147_6b65ce2539c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA0zTDEIAesS4hWhURPiaIg1VtgLdWtfsyO0DNrgeZkGbF53qQhX3NDag/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_148_cbf3a4096c41.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVkKiaRGOhVKiawxME7bSTy1gnjgcOrwcV78OYibESEPEtichNWJE7q0XUQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_149_df7c20eff969.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicALVwWT1xerNjZ4TrudTNWCx4c8kRXe3WK6YibQN89zTDJt12nZcE3ogg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_150_9eee756d66ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAtpuuCm2hmib1uicjSic4YTh2EMzkTClMOQib3LV9qIv4icibIIsbguu0iaXiaA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_151_b0a68a92b696.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicALkvpc61iaAwQqmUicuUSJxCgsZ09sEcGUnqhiaVMvU6CNhGhOsLyRohbg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_152_c5c54d8907e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA48RVG8n2hfXVeCPyATWooJOZELWPXMJMhXhHXoqOgPH3BxobR7OWSw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_153_0fe584da8498.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASpQ9mH7uibq1j0DGboeNJWPCw9cBbMCGgqhs86XJMKbkfXKRDSyNouA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_154_076a13b64a7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAyDunBT2yicNEicfqwoePzQSbQvUuq9FLVRGzosxsWAX9jIhsZunyeJGw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_155_fb81bf26aa15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAaichfiacIQudSmBHucqIkgSy7norYJHmEb6ic3ZuR6gUm4IUoLUnGqb3Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_156_d38b179776a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVX66r3ibgeiaXqiaiaPgUUzpAmnHbSDlVtib1ptsTFnNoBxRRHbibfDvLgDA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_157_455d81191fe4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA1y0L776DOKgH1QJqoOwuwlJziaZC7ktCQicghVlp4Fh5LwHwbYmmNIhw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_158_3b1a8ee0c628.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicARnXia8OBpoFBymHXRjeUXgNGeObw5CibvYdFMJB58PlpINv0MLdU0yDA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_159_ee0b677c3d4b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAS7qRbU7GsNl3dbPxjZKAhC1k8YqriavsyVXtWumwUA8KIVwNfxgiaZXQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_160_3c5f5fb972b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAJXaFuzodSD1rlk4ib7K8X1osKwGG0a7Rl1pNx1S3iaH7miaWyicnWwul0g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_161_e8c43b586be9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjJjJxxqABPXnU2ToGZ7Hscd3nH84iaRjX85BGHtLQAD3Z1ohI5L9icbA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_162_e1f355acccaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASOK5Mq8FtR5p0ZRjDahc72vOU5M9LsR7kO7qCtbKYhA31ia7EVyPVJA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_163_b76c68caa05f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAfibgor5XuvmBk7NhuA0tOVXic3PclJxfYgcnamekice5LR0C32WL0C1Rw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_164_864623348a0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAia6DgnPqTsdpIicIC1NFASTQm0EfmDooiag4pxTvibnFybcMia3hUOiccF4g/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_165_1060361d2335.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicABrF3LUXtbve33INJRR6JuJa7Twt3RuictxyymibcDrH0GIBoM1wjBQNQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_166_a53cfe452b03.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAh81WpzXBbcic0ISAtMEer4YY8eNp1D9eWibbt1hUa8AffE3b6gUE4uOQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_167_32e7fafddefe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAgKzicGyvnj7m30nABz4TyFibNkVpNUd4BWtsewXBswXOdoh19N3je65A/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_168_3959b2171801.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA1yp0U7l6NAVYST2RhjweK6A83OfWl9bryqcAAILaTxbVU6hq75ayNw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_169_e8ce22835b0d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAsHrZnHsLXLKQuXXUwZpgicUv5K9yYichnC0qcUU6suD6OpIbHbfofr3Q/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_170_b429f6aa66ea.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA9MqianrD9Yc6VVCr1DJhJWCz3gQ45PO88tFTON4lsm4F9jpuSwbV7Pw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_171_2976f8745aa2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicApxXcY2icTIgHahkBIgzWAU3h18oE5iaj4Acq2RT4mvibpAfMPr6V9BnJw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_172_9977c1c065c4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjbIAyEdOce4TKtcHZ1XibYJA2zh1tS5CSibI0cWmmnQrMkeQDIyyW1Rw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_173_de3c1991a69b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAUEVghwfYMnOuv4pJAsHmCibPia1V3dx1KicOnga4fHmjLoebV1Hd5h51w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_174_d2068f289704.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAwPaiacg5Oh8ccfQrbj2uqIvBkiaIZRY0Zs6POGXiaCnyVfQpU4HC60nBQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_175_7645f9749d5e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA8Xsge24q9kUImWqTwLg2SBsdMa1UEibaZhMXjdCMfE5oorLK00th8AA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_176_1cb1a39a15cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAWkP47D5Sc7YK6Ew1TIomnJzXqM3f3JoaVT8P9bDP6seEHeibuibrsOIw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_177_041acc29dee2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAnRqH1ficTF3zprXW30f0wibqRdiaTxJSYxQbUib7diae0cbqpFTAdxiaWE9w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_178_00409c82cf6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAjicnUhetTU0J5icYPmzC3TuzSbybNUxLlXrZPyFAMMv2IkrugaOicKeRA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_179_a84be7f6d1cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAV3YmiavRVRWDDibNwEDJbqlk68cvyrx4yaG1I5RC6yGNkepDFV5S8TZw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_180_de187aaf44b1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAqQ3N5kqhOibzCR1Quibnh09ZMqOPDAnztXh3SibxjBpHmkPVJvPoPbpQg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_181_1d4c6f17fabe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAiaFAFzxic6Cd2dNdPAbwtcBSBkECOCDauVOWiaIBqohGQmdbIDCXQdBrA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_182_6664b05a70ab.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAoEuCGR1TtzAJPpxeC8M5PIxfIIO2kVHElO4aCdaeX5icq0iaBfdqTdFA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_183_522aa77b6003.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAFf9cVmd3zR1CSboWDicgINHXhpxX3r1XwhvNbYf0xy4rgmAMwNmtlpw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_184_084a620213a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAxw1F7S6ibgAbc4tK9lE5aicxcKTe2bz3l3JWFYMpbfZGIpmhxh9ibfWeA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_185_e0f58d2ea453.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAicxY6SB1l2YI89VS16bnF0oicUUs7yekw9Tiapgj0KBVqZKttZteINMow/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_186_19ca1b5a2723.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAHBhoj4M5k9phbzvpoXzwHWakbibBPhia1W8pGIQh9lsXKcE1yhV31efg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_187_29b26fb6008d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicADiauBow1lfxHs47cUXlZKMyvVgHl543Uib86T5UVIPocUhicJAwfP9PWQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_188_8ace4a5b2963.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicADx92c307o2HBCd5CSlWCZZgEER6JKEY29e9RVCBrDkE1O6fDSkLNVQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_189_1335acd6adbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAQeaOvOfOiapcgNEarFvOiaa1hsoAdxREys5jL4nSF0U5LfR45w2uAyNw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_190_26c626b990f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVZcg63BSgAgzmqgFSrpurH8L5Libd4N4xnySDy5rSlEByTceTgZGvwg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_191_f60e61b39d2c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArLiapwHwZ2kCpqyniaoZGlbn7gE3qBxOQUdH9BQJq5D2Gfpjlrfyuhbw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_192_dd9fd7b46c35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAJ2cm22XOOPrmTrVDQHKXmZXWTyKZxX3GlPiaph6SffPay7wV5xH3emw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_193_ed73d244b3ca.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAYlDoR2kHzf66YXbp8NeGPZYDQQD4XsLnKMn6MErfkmLqD4IETY4jrw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_194_737d1cc45bec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAVgibXgjIfdDA8uudMGywIyoxiaFwokAHAqAaSdxa9LaOz7PpceISfakQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_195_d4324640ed8f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7jxjAcdqDT81aMtPCIia5tshU2C5ZvnCsiaHzcwNiczGib8xtNOice3F26A/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_196_4dc23c46fa4a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAS2yMJsCVvqNqOOnJEThU4nOF3qwmXbxIfNzuGLVadtv5a9Zgez7t5w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_197_fa934544b1d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA7AKicGEdDrWhB1rkicaUFbpXGFm4RNcQdtpBoC46g26HKYxUGdicqvgXw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_198_b0123b2424f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAAlrRBY3X9Tgwg7Hzpg2UsiboYBGErfW3ficicHRIHp63eiaKfdnpT1GwCA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_199_9f169e4793c6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAbXKaKYFgXCnuhAKGzC31HPIN2xN8UV7ibWPhmMVth1enwYMbL7CKyqA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_200_eb2d55507b82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicANDQBTskDm3PEfQLaZ625rPUGcamnw39WRfQYMvBp7PpBdej0yJLGDA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_201_6111024ee2f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicArtLwjSpRWOUG1zRe9h0oTibHV6WxWyrY6Q9xGlwXX5zVmVf5dQQ8l9w/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_202_300e0b67522b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAh6kTSdb3C0ImciceO2ZU3OV50Da59GNxWIic9KgDpkia8N4SLiamXE4oyw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_203_c9dfecb43639.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA1pcK2taszUvdkaaicTic2FwPgmNxIlyt9dY8XUMCDvkMWfWIMq0vultw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_204_ca3a95f17f34.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicASZWDPpJxFzKZqE84eFIwI4iam6riaKs6hwVN2ufg0s288qriaupjoAibFg/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_205_66d06248aeec.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAKcRHb7EEEiaficWAaLdyXBustPkXicGZCjCW9fUMSKQSknaibiaJ9rETSWA/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_206_ec7ed645ceb3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicAyic1ucmClY3o1vt3BzTWGQsibjA40GSpX5iaCCicfzlsUvLib0W0iaTTQ7UQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_207_8786c7f680b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicABQPT69jVoXx3YHoAIsia2T1Jpibrh0lU0oGXvUDLHicBtWiaToG5C3iaBfQ/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_208_4609c10581c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmuSBZnkeYP8ODQF67NSwicA4tACGsEBZMsfddybJmeFaLtkLZupeezS9C0sc3iaeNnodlSJkeWKiccw/640?wx_fmt=png&from=appmsg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_209_6c1371435d1b.png)
 
 SiC和GaN器件在三相PFC整流器和PWM逆变器系统中的应用优势：
 
@@ -480,10 +480,10 @@ SiC和GaN器件在三相PFC整流器和PWM逆变器系统中具有显著的应�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_210_24def2a8f5ae.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images\img_003_a7ecee98ead9.png)![](SiC和GaN器件在三相PFC整流器及PWM逆变器系统中的应用_images/img_212_9bbc7b9b15a2.png)

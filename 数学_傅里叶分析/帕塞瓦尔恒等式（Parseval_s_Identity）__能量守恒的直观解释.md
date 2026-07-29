@@ -58,15 +58,15 @@
 
 为了让你更直观地感受这种“能量守恒”，你可以通过下面两张图片看到不同频率波的振幅，时域波形面积（能量）与频域柱状图面积（能量）是如何始终保持完全一致的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocsxLxm5qACmGZyeQsEfbCmickNJpHJiaKibO4angemasdzq5CHHMJEEbYEmwRTuGLSvCKO6uzPoc2HPm4CLvUPngOKfmEsSJzibAPk/640?wx_fmt=png&from=appmsg)
+![](帕塞瓦尔恒等式（Parseval_s_Identity）__能量守恒的直观解释_images/img_000_71cde59da7e0.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocuoQaV3lXyOSicu3P9tUMf0UQRg3fkEMFXFqgAm9NaqjADoZ5cxD27e36W4NChNLd6DQuSCp5UraMWCdstAqvZlMrh0ib9vQiatoM/640?wx_fmt=png&from=appmsg)
+![](帕塞瓦尔恒等式（Parseval_s_Identity）__能量守恒的直观解释_images/img_001_7117f22d78d3.png)
 
 * * *
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocv7AoRjBmgtibbPKH5XjAj5onJvCMrq2IibKibNzphvicozFhbibfgvTgNm6BibDEtyvspnIYOaasLQK2kvr2QjJO3lsvkwXmSiablQ7Q/640?wx_fmt=png&from=appmsg)
+![](帕塞瓦尔恒等式（Parseval_s_Identity）__能量守恒的直观解释_images/img_002_9dcc65edb056.png)
 
 这张图在讲一个很重要、也很美的结论：
 
@@ -128,7 +128,7 @@
 
 # 二、第 1 部分：Time Domain vs Frequency Domain 到底是什么意思
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocuzPDVClsJ7q6sNnubUqhXGl5QiaUp4NgMicoJnFyf0xWYLeziblw0DUh8qpBvVWbQEWMvjaibbqU67LzHRVNYD2x2Xtoxs34hy7vA/640?wx_fmt=png&from=appmsg)
+![](帕塞瓦尔恒等式（Parseval_s_Identity）__能量守恒的直观解释_images/img_003_a7f838b1596e.png)
 
 图的第 1 部分画了两样东西：
 
@@ -198,7 +198,7 @@
 
 # 三、第 2 部分：为什么说它像“无限维勾股定理”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvZtHEyrapsy5NicTibmfHnyUsK5IVFricaWXmDkKuVszJZia8w6U759edgrx3rB8Zlm5zLrckVjQ7FMkNiapyrCZ7trugTuWoEUuEo/640?wx_fmt=png&from=appmsg)
+![](帕塞瓦尔恒等式（Parseval_s_Identity）__能量守恒的直观解释_images/img_004_1ee43fc25387.png)
 
 这是整张图最关键的地方。
 
@@ -288,7 +288,7 @@
 
 # 四、第 3 部分：物理意义——能量守恒
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocs0kRVhYyLmFNnwzicxr0YZAQYxc6whU54n0jaICEBhFJUNcp4CacabiakoPZL2iaUG8f976CoiaF9PmgP1s0cuvgubuma9DjB4kP0/640?wx_fmt=png&from=appmsg)
+![](帕塞瓦尔恒等式（Parseval_s_Identity）__能量守恒的直观解释_images/img_005_97eade2351df.png)
 
 这一部分最直观。
 
@@ -398,7 +398,7 @@
 
 # 五、第 4 部分：图里的公式到底在说什么
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsqt8JJiacTeE1SZOwDQicwNEaFOrBibVCgjNWiaCUTUDshK5ebDeE4U17LyB4ic0lfUYjuOGyjKGAVQgM13zXjyDbmdt3m26Yxkicvo/640?wx_fmt=png&from=appmsg)
+![](帕塞瓦尔恒等式（Parseval_s_Identity）__能量守恒的直观解释_images/img_006_26e2b9ffb089.png)
 
 这一部分给了两个公式。
 

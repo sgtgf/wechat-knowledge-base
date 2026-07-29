@@ -1,0 +1,65 @@
+# PWM控制电压利用率
+
+原创 电机新视界 2024-05-20 17:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/CSzJ77QTS2Z1uMb\_ZhBY2g](https://mp.weixin.qq.com/s/CSzJ77QTS2Z1uMb_ZhBY2g)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vnX1lWHoFibqUI1eNcg9vflNcVlSB8kBgOtVA8Ygm35kunaly4sHD18CNj06oiabQHJB1eodW2qulg/640?wx_fmt=jpeg&from=appmsg)
+
+
+来源：无界有方
+
+  
+
+逆变器将直流转化为交流，其中涉及到多少的直流电压可以被利用来输出有效的交流电压的问题，称为电压利用率（输出的基波交流电压的最大幅值/有效值与直流电压之间的比率）。不同的控制方法具有不同的电压利用率。
+
+最高效的利用直流电压的方法是六步法（方波调制），三相桥臂分别输出180度的方波电压，三相之间移相120度，三相桥输出线电压成120度方波，幅值为直流母线电压。这种控制方法输出的交流基波电压幅值是最高的，但包含大量低次谐波，当然也无法进行压频比控制。以基波相电压幅值为比较基准，其基波相电压幅值为：**2Vdc/pi**。具体推导过程可以参考对方波进行傅里叶分解，非常典型。
+
+实践中，普遍采用SPWM（正弦波PWM控制）和SVPWM（空间矢量PWM），PWM的出发点是基波电压幅值可调，同时将谐波推到高频段（载波频率附近）。
+
+**SPWM**对输出相电压进行调制（同三相正弦参考波与三角载波的比较形成PWM信号），其中涉及所谓的调制系数（modulation index，简称m）。调制系数指正弦载波的幅值与三角载波幅值的比，如果m小于1为线性调制区，指输出基波幅值可以线性调制，m大于1为过调制区，可以想象，如果M足够大，则SPWM变为方波调制。其线性可调范围内的输出相电压的基波幅值为：**m\*V****dc/2**。最大线性可调值为**V****dc/2**。
+
+**SVPWM**利用单周期内电压矢量合成（电压时间乘积等效，幅值对时间面积等效原则）来形成任意幅值的电压矢量。即利用固定长度的基本电压矢量，通过作用时间的长短控制来形成需要得到的任意长度和角度的矢量。固定矢量的长度体现为线电压为Vdc，可以简单理解对线电压进行调制，其线电压基波幅值为m\*Vdc（借用m的概念，当然通过SPWM的方法可以实现SVPWM的效果已经被证明，在参考波中叠加零序分量，以三次谐波为主），因此以相电压幅值为比较基准，其相电压基波幅值**m\*Vdc/**sqrt（3）。最大线性可调值为**Vdc/sqrt（3）**。
+
+所以，如果以方波调制作为可能得到的最大电压利用为基准，SPWM的电压相对利用率为（Vdc/2）/（2Vdc/pi）**\=****78.5%**。SVPWM的电压相对利用率（Vdc/sqrt（3））/（2Vdc/pi）**\=** **90.6%****。注意，这里说的利用率是基于逆变器理论最大相对利用率，而非对比直流电压本身的绝对利用率。**
+
+记住这三个值的方法：PWM控制方法，基波幅值在线性区内最大等于PWM电压幅值，但SPWM为相调制，而相电压PWM电压幅值为Vdc/2（相电压输出等于直流正和直流负，中间点在1/2直流电压）。SVPWM的为线电压调制，线电压PWM输出波形的幅值为Vdc（线电压输出为正直流电压，和负的直流电压），所以相电压需要除以根号3。至于方波调制，其输出线电压波形为规整方波，同时方波在半周期内启停于30度和150度（将波形看成正弦波），傅里叶分解的正弦一次基波分量系数为2\*根号3（30度和150度的余弦为+/-sqrt（3）/2，相减为根号三，同时在2pi区间有两次，所以为2\*sqrt（3）），线电压为相电压根号3倍，所以相电压基波幅值为，2\*Vdc/pi。方波控制不太会采用，之所以提这个，是想表达逆变器结构本身也是有一个小于1的最大利用率的，在现有已知的方法中无论如何控制。
+
+引申一个话题，在汽车主逆变器涉及选型时，客户经常提到功率和电流，在已知直流母线电压、功率因数的条件下，如果联系功率和电流，缺的就是交流输出电压，通过以上的电压利用率可以将直流电压与输出电流电压联系起来，从而联系功率与交流电流。
+
+  
+
+**知识回顾**
+
+**电机政策：**
+
+[电机市场的IE5时代，真的要来了吗？  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247550130&idx=1&sn=42a14a5382b68a0bbd4ba48093155097&chksm=cede4576f9a9cc600786ab2908e4c3ef2cf3dbbfdb71a9265508f92e2dbda25384b66424bfde&scene=21#wechat_redirect)
+
+  
+
+[强制执行电机能效！2023年工信部发布最新工业节能通知！  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247552223&idx=1&sn=9a79a63e6376dc92a45d3945ccfccbc4&chksm=cede4d1bf9a9c40d9fa969d4856721610e61d357988dde293f59cbc0994f971b7dc168c64b0c&scene=21#wechat_redirect)  
+
+[又一“千亿级”来了！高效电机再上央视！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247549961&idx=1&sn=3138aaff5c66723c28a9499b551d3399&chksm=cede45cdf9a9ccdbd20ddd6eb429e4a1cf67bb758cb509a84cf1b292a9887047cfa38edcc451&scene=21#wechat_redirect)  
+
+  
+
+**精选文章：**
+
+[清华大学的电机系毕业生都去哪儿了？](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247548328&idx=1&sn=8bbb58f38491f58600b87c85f9a2a864&chksm=cede7c6cf9a9f57ac80d409cbc6b9ced57c5d4df799227673198488eb6ac427f40098e09d145&scene=21#wechat_redirect)
+
+  
+
+[一路走来，风雨兼程，江西这家企业有太多故事！  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247552832&idx=1&sn=0691f10025dc8233e2c704ede28ff691&chksm=cede4e84f9a9c79222cf4bb485f1f3e0eb9f33f37ceff89c3ef6bf2136aa0cc5176d46b97555&scene=21#wechat_redirect)
+
+  
+
+[三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)

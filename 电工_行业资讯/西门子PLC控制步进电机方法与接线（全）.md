@@ -1,0 +1,262 @@
+# 西门子PLC控制步进电机方法与接线（全）
+
+原创 电机新视界 2024-05-10 17:00 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/w5unEWBFec22g\_CKpCBJCA](https://mp.weixin.qq.com/s/w5unEWBFec22g_CKpCBJCA)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+
+
+来源：电子开发网
+
+  
+
+  
+
+# 一、步进驱动系统
+
+> 步进驱动系统包含**步进电动机和步进驱动器，**前端由PLC发脉冲。
+
+步进电机是将**电脉冲信号**转变为**角位移或线位移**以控制转子转动的**开环控制**电机（可以通过安装编码器形成闭环系统）。
+
+它旋转是以固定的角度（步距角）一步一步运行的，故称步进电机。在非超载的情况下，电机的转速、停止的位置只取决于脉冲信号的频率和脉冲数，而不受负载变化的影响，因此具有**较高的定位精度。**  
+步进驱动器（步进驱动电源）向电动机绕组提供脉冲电流，步进电动机的运行性能决定于电动机与步进驱动器的良好配合。
+
+> 电机的响应仅由数字输入脉冲确定，因而可以采用开环控制，这使得电机的结构可以比较简单而且控制成本。
+
+# 二、 步进电机基本原理
+
+步进电机是一种用**电脉冲**进行控制，将电脉冲(数字信号)转化为角位移的执行机构。
+
+通常步进电机的转子为永磁体，当电流流过定子绕组时，定子绕组产生一矢量磁场。
+
+该磁场会带动转子旋转一角度，使得转子的一对磁场方向与定子的磁场方向一致。当定子的矢量磁场旋转一个角度，转子也随着该磁场转一个角度。
+
+当步进驱动器接收到一个脉冲信号，它就驱动步进电机按设定的方向转动一个固定的角度 (称为"步距角")，它的旋转是以固定的角度一步一步运行的。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCRwX2ECZ6AOcdhXD2N3Qgf8FmbicolaRhIRlP3KA8V8grhqBJSFesJNA/640?wx_fmt=gif&from=appmsg&wxfrom=13) 
+
+步进电机输出的角位移与输入的脉冲数成正比，转速与脉冲频率成正比，改变绕组通电的顺序，电机就会反转。因此：
+
+> 可以通过控制脉冲个数来控制角位移量，从而达到准确定位的目的；  
+> 可以通过控制脉冲频率来控制电机转动的速度和加速度，从而达到调速的目的；  
+> 可以通过控制绕组通电顺序，达到控制电机正反转的目的。
+
+# 三、步进电机的主要参数与技术指标
+
+步进电机主要参数包括：额定电压、额定电流、相数、步距角、步距角误差、最大静转矩、空载起动频率、最高运行频率等。
+
+#### 3.1 相数
+
+是指电机内部的线圈组数，目前常用的有两相、三相、五相步进电机。
+
+#### 3.2 拍数
+
+完成一个磁场周期性变化缩需脉冲数或导电状态，用m表示，或指电机转过一个齿距角所需脉冲数。
+
+#### 3.3 保持转矩
+
+是指步进电机通电但没有转动时，定子锁住转子的力矩。
+
+(注：通常步进电机在低速时的力矩接近保持转矩。人们常说的2N·M的步进电机，在没有特殊说明的情况下是指保持转矩为2N·M的步进电机)
+
+#### 3.4 定位转矩
+
+电机在不通电状态下，电机转子自身的锁定力矩。
+
+#### 3.5 步距角
+
+对应一个脉冲信号，电机转子转过的角位移。
+
+#### 3.6 失步
+
+电机运转时运转的步数，不等与理论上的步数。
+
+#### 3.7 失调角
+
+转子齿轴线偏移定子齿轴线的角度，电机运转必存在失调角，由失调角产生的误差，采用细分驱动是不能解决的。
+
+#### 3.8 运行矩频特性
+
+电机在某种测试条件下测得运行中输出力矩与频率关系的曲线。
+
+# 四、步进驱动器原理
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCZctxD44SO8Hlq2WYtIo0NgujzSCV5fGq6wNxJTXFDHibibBUR5XBJg7A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+#### 3.1 控制信号接口
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCUbJJoJoqdZeQcJy9ht7ULs9Ht0JMouszibSWW0YPdBgMBoMlHaUl7FQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+#### 3.2 功率接口
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSC6DDicqqyD5lW4wCJncPoyzFZICQv9OccHZ6YyDiagzSVj0fcicaUZERiaA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+
+#### 3.3 拨码含义
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCufTiajqf96Fsic6CWF43fQd2Tw55nOXz1g30gglYgKficdpfCG7cqTQpw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+#### 3.4 状态指示
+
+绿色 LED 为电源指示灯，当驱动器接通电源时，该 LED 常亮；
+
+当驱动器切断电源时，该LED 熄灭。红色 LED 为故障指示灯，当出现故障时，该指示灯根据故障类型，以0.2秒循环闪烁设定的次数，然后以1秒间隔继续重复以0.2秒循环闪烁设定的次数。
+
+直到故障被用户清除，红色 LED常灭。故障类型对应的闪烁次数如下表：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCmuuSrlu5ViaCvraiagmzF2ibrlx6nCphkSb2qDAiboq26rPzJzjYSeI9HQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+
+#### 3.5 两相步进电机区分相序的方法
+
+**方法一**
+
+两相四线都没有短接时，旋转步进电机的轴，此时转轴应该比较容易转动。
+
+将任意两根线短接，然后旋转步进电机的轴，此时若比较困难转动，则说明该两根线为同相序。否则为不同相序。
+
+**方法二**
+
+将万用表打到电阻档，任意两根线接到万用表红黑两端，若此时电阻较小时，则说明该两线为同相；若电阻无穷大时，则说明该两线为非同相。
+
+#### 3.6 控制信号与步进驱动器接线方法
+
+日系PLC（欧姆龙、倍福等）输出Q点是低电平，因此接步进驱动器的PUL-/DIR-，步进驱动器的PUL+/DIR+共阳极，接24V。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCG4YDtX0T9NtUUngwfIPnLrhrG3e4ywiashK3CpLYgiaT2Won8cTyrZRg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+
+欧系PLC（西门子等）输出Q点是高电平，因此接步进驱动器的PUL+/DIR+，步进驱动器的PUL-/DIR-共阴极，接0V。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCrd9AUZZ3IhkAC1GJFaQJSNsOjmWsLfMS4RiabnA5clEgS5Xt3icnds5g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+
+Ena+/Ena-为脱机信号
+
+打开脱机功能后，电机转子处于自由不锁定状态，可以轻松转动，此时输入脉冲信号不响应，
+
+关闭此信号后电机接受脉冲信号正常运转。
+
+**注：一般在实际应用中可不接。**
+
+# **五、关于**步进电机相数、细分、步距角
+
+混合式步进电机结合了永磁式步进电机和反应式步进电机的优点。
+
+目前常用的有二相步进电机、三相步进电机、五相步进电机：两相步进电机步进角一般为1.8度和0.9度，三相步进电机步距角为1.2度，五相步进电机步进角一般为 0.72度。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCMkBDWqnjjOsXDZhVAJOA3aE5gNuOV6RoMA0s0amia644ibcq0jmZ7daA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+
+#### 5.1 步进电机固有步距角
+
+它表示控制系统每发一个步进脉冲信号，步进电机所转动的角度。
+
+步进电机出厂时给出了一个步距角的值，如上图电机给出的值为步距角是1.8°（表示半步工作时为0.9°、整步工作时为1.8°），这个步距角可以称之为“步进电机固有步距角”，它不一定是电机实际工作时的真正“步距角“，真正的“步距角“和步进电机驱动器细分有关。
+
+#### 5.2 步进电机的相数
+
+是指步进电机内部的线圈组数，目前常用的有二相、三相、五相步进电机。
+
+相数不同，其步距角也不同，一般二相步进电机的步距角为0.9°/1.8°、三相步进电机的为1.2°、五相步进电机的为0.72° 。
+
+在没有细分驱动器时，用户主要靠选择不同相数的步进电机来满足自己对步距角的要求。
+
+如果使用步进电机细分驱动器，则“相数“将变得没有意义，用户只需在步进电机驱动器上改变细分数，就可以改变脉冲当量。即指的是一个脉冲电机转动的角度。
+
+#### 5.3 步进电机细分数
+
+细分是驱动器将上位机发出的每个脉冲按驱动器设定的细分倍数后对电机进行控制。
+
+简单的说，就是在电机的步距角按照细分倍率进行缩小。
+
+比如1.8°步距角的步进电机，驱动器细分设置为32，则脉冲当量1.8°/32=0.05625°。
+
+或者也可以理解为每转一圈为200个脉冲，细分为32倍，那么步进电机驱动器需要输出200\*32=6400个脉冲步进电机才转一圈。
+
+通常细分有2、4、8、16、32、64、128、256、普通场景应用下建议细设置在10000左右即可，细分主要是改善电机的运行性能，使步进电机运行更平稳，噪音更小。
+
+**举例说明：**
+
+两相步进电机的基本步距角是1.8°，即一个脉冲走1.8°，如果没有细分，则是200个脉冲走一圈360°。
+
+细分是通过驱动器靠精确控制电机的相电流所产生的，与电机无关。如果是10细分，则发一个脉冲电机走0.18°，即2000个脉冲走一圈360°，电机的精度能否达到或接近0.18°，还取决于细分驱动器的细分电流控制精度等其它因素。
+
+不同厂家的细分驱动器精度可能差别很大；细分数越大精度越难控制。以次类推。
+
+三相步进电机的基本步距角是1.2°，即一个脉冲走1.2°，如果没有细分，则是300个脉冲走一圈360°，如果是10细分，则发一个脉冲，电机走0.12°，即3000个脉冲走一圈360°，以次类推。
+
+#### 5.4 保持转矩
+
+是指步进电机通电但没有转动时，定子锁住转子的力矩。它是步进电机最重要的参数之一，通常步进电机在低速时的力矩接近保持转矩。
+
+由于步进电机的输出力矩随速度的增大而不断衰减，输出功率也随速度的增大而变化，所以保持转矩就成为了衡量步进电机最重要的参数之一。
+
+比如，当人们说1N.m的步进电机，在没有特殊说明的情况下是指保持转矩为1N.m的步进电机。
+
+1010
+
+# 六、 常见问题及解答
+
+**1、问：初次使用该步进驱动器，如何能尽快上手？**
+
+答：正确接好电源和电机后，只接脉冲信号PUL(先将频率设置为1K以内)，细分设置为16，方向和脱机悬空，此时加电后电机默认正转。运行无误后再依次测试加速(提高频率)、方向、细分和脱机等功能。
+
+**2、问：控制信号高于5V，一定要加串联电阻吗？**
+
+答：是的，否则有可能烧毁驱动器控制接口的电路。
+
+**3、问：接线后电源指示灯亮，但电机不转，是什么原因？**
+
+答：如果接线正确，但仍然不转，说明控制部分驱动能力不够，这种情况多出现在用单片机的io口直接控制方式。请确保控制接口有5mA的驱动能力。
+
+**4、问：如何判断步进电机四条线的定义？**  
+答：将电机的任意两条线接在一起，此时用手拧电机转子有阻力，则这两条线是同一相，可接在驱动器A+、A-；另外两条线短接仍然有阻力，则将这两条线接在B+和B-。
+
+**5、问：电机的正反转情况与应实际达到的相反？**  
+答：只需要把电机其中一相的两根线互换接入即可。
+
+**1.电机旋转电流吱吱声音过大 PWM频率过低 改变方法提高频率或者减少细分数  
+2.驱动器自动断电时 设置电流过大,应该降低设置电流  
+3.电流设置会影响转速  
+4.电机过烫，设置的电流过大,应该降低设置电流  
+5.ENA-和ENA+不接，这是脱机信号控制  
+6.PWM输出都采用开漏输出，需要外接上拉5V，不然没有PWM输出  
+7.当选择电机转速较慢时,应该选择更多的细分数**
+
+  
+
+  
+
+**知识回顾**
+
+**电机政策：**
+
+[电机市场的IE5时代，真的要来了吗？  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247550130&idx=1&sn=42a14a5382b68a0bbd4ba48093155097&chksm=cede4576f9a9cc600786ab2908e4c3ef2cf3dbbfdb71a9265508f92e2dbda25384b66424bfde&scene=21#wechat_redirect)
+
+  
+
+[强制执行电机能效！2023年工信部发布最新工业节能通知！  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247552223&idx=1&sn=9a79a63e6376dc92a45d3945ccfccbc4&chksm=cede4d1bf9a9c40d9fa969d4856721610e61d357988dde293f59cbc0994f971b7dc168c64b0c&scene=21#wechat_redirect)  
+
+[又一“千亿级”来了！高效电机再上央视！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247549961&idx=1&sn=3138aaff5c66723c28a9499b551d3399&chksm=cede45cdf9a9ccdbd20ddd6eb429e4a1cf67bb758cb509a84cf1b292a9887047cfa38edcc451&scene=21#wechat_redirect)  
+
+  
+
+**精选文章：**
+
+[清华大学的电机系毕业生都去哪儿了？](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247548328&idx=1&sn=8bbb58f38491f58600b87c85f9a2a864&chksm=cede7c6cf9a9f57ac80d409cbc6b9ced57c5d4df799227673198488eb6ac427f40098e09d145&scene=21#wechat_redirect)
+
+  
+
+[一路走来，风雨兼程，江西这家企业有太多故事！  
+](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247552832&idx=1&sn=0691f10025dc8233e2c704ede28ff691&chksm=cede4e84f9a9c79222cf4bb485f1f3e0eb9f33f37ceff89c3ef6bf2136aa0cc5176d46b97555&scene=21#wechat_redirect)
+
+  
+
+[三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)

@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMLWXYfORhJTgvh6WtTgOibtIWj3zMSydUkKOlF3yWQma5lcENtbWMHwQ/640?wx_fmt=png)
+![](PCB布线设计参考_images/img_002_5df3544bf5bb.png)
 
 （5）合理分配电源和地。
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMyaKTXLHlF8Mm5MYOyhPxUwhDnicHejeJhE0BhibyAY6rhXjXT9DYN7Tw/640?wx_fmt=png)
+![](PCB布线设计参考_images/img_003_cc0c0ff41b6f.png)
 
   
 
@@ -54,7 +54,7 @@
 
 （13）PCB设计中应避免产生锐角和直角，产生不必要的辐射，同时PCB生产工艺性能也不好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArM73rSwicAsqLSVOKicD6I3VKCZOLpMx3MJucDTia0GpicnL1UicBhd55CKJw/640?wx_fmt=png)
+![](PCB布线设计参考_images/img_004_08c59c5d0bb0.png)
 
   
 
@@ -68,7 +68,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMSSWM6lGxd5V2XghItRWgmj5w73rJfMiaWGNecCJegksPdPic3cLBMsxQ/640?wx_fmt=png)
+![](PCB布线设计参考_images/img_005_eea117775471.png)
 
   
 
@@ -76,7 +76,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMb3kicIDZiaHmFK919BSan6wvTjsFj2Uj1NmIVzxZ8amxateNm8odVASw/640?wx_fmt=png)
+![](PCB布线设计参考_images/img_006_5cccb97100e8.png)
 
   
 
@@ -84,7 +84,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgLNZRqURGVclReMcIjKArMSv1vo1Gtj8bHMFxovZL6W7IU3BEFTYwsUatW6z5YzuPVewLlqiaNsEA/640?wx_fmt=png)
+![](PCB布线设计参考_images/img_007_eb5e38e3541b.png)
 
   
 
@@ -92,7 +92,7 @@
 
 （4）包地：**对重要的信号进行包地处理**，可以显著提高该信号的抗干扰能力，也可以多干扰信号进行包地，使其不能干扰其他信号。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IF5wVJ4eUo0ialCcnVfOMKMWUDKUcgGkecZH6Uibn429TYeiaPcYX29FiaEJkpd3ibuVUtkl3mczMNPd1PGkCSo5QOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB布线设计参考_images/img_008_57c101404cbe.png)
 
   
 
@@ -100,7 +100,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IF5wVJ4eUo0ialCcnVfOMKMWUDKUcgGkewssJhxicpiaVgk9Pcc8Q8L14groibbibOrxDSutEe5cS3wNZOH3kMhOIYg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB布线设计参考_images/img_009_b9eb107e7d1e.jpg)
 
   
 
@@ -108,7 +108,7 @@
 
 **（6）高频扼流**：当有数字地和模拟地等公共接地时，要在它们之间加**高频扼流器件**，一般可以用中心孔穿有导线的高频铁氧体磁珠。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IF5wVJ4eUo0ialCcnVfOMKMWUDKUcgGkerDOoomDs2NS6eicXof6DBUu78gyVb4yPhiaMQfNp0mAQdibmiaM4dtIbJg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB布线设计参考_images/img_010_528b0bf211d0.png)
 
   
 
@@ -118,7 +118,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IF5wVJ4eUo0ialCcnVfOMKMWUDKUcgGkeyRs5q9eJnYolsvy01M38icY3UodBzFMXExIplGxDoTQtEwjlgJFicIkA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB布线设计参考_images/img_011_b72471c6d942.png)
 
   
 
@@ -134,7 +134,7 @@
 
 （1）高频元件：**高频元件之间的连线越短越好**，设法减小连线的分布参数和相互之间的电干扰，容易干扰的元器件不能距离太近。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IF5wVJ4eUo0ialCcnVfOMKMWUDKUcgGkehR8yUvoGaSWGkRsCEpzcBk2VHxcyjOzCjvXsVdvGTSQ4v8YoQNN7Vg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB布线设计参考_images/img_012_1b9c80b052c1.png)
 
 （2）具有高电位差的元件：应加大具有高电位差元器件和连线之间的距离，以免出现意外短路损坏元器件。为避免爬电现象的发生，一般要求2000V电位差之间的铜箔线距离应大于2mm。
 
@@ -166,7 +166,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IF5wVJ4eUo0ialCcnVfOMKMWUDKUcgGkeDkLvMcjPTfJdic3zZG70YuZtrZjHToaT2ol5AHcicibsRYSwibYOAcKICw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](PCB布线设计参考_images/img_013_cc51972135eb.jpg)
 
   
 

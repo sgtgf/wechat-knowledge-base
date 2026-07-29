@@ -12,9 +12,9 @@ SiC 功率电子器件的主要优点是开关频率高、导通损耗低、效�
 
 例如，在开关瞬变过程中，在并联中增加一个器件会使 di/dt 倍增，从而可能导致更大的电压过冲。此外，任何寄生电感都可能产生与反馈机制耦合的谐振，从而只会使电流不平衡的情况变得更糟。在这种情况下，PCB 设计人员必须特别注意要降低寄生电感。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuztxT4om0oYcWKW3bCClkkduq36adSiaBia6NvCicykvQ2iaCh6XLCaVVIQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET电路大功率多管并联实例及设计要点_images/img_000_fc5c7bad5173.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu0UE5eMrWeoibzsGzgcV7Wr1wwzhtxiaicWUPKu5PCzDG1I3iaibay1c8z7Q/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET电路大功率多管并联实例及设计要点_images/img_001_3bd9582d5017.png)
 
 SiC MOSFET第三代半导体材料，是一种宽禁带半导体（禁带宽度＞2eV，而SI禁带宽度仅为1.12eV），因其具有宽带隙、高临界击穿电场、高热导率、高载流子饱和漂移速度等特点，适用于高温、高频、大功率等应用场合。
 
@@ -36,10 +36,10 @@ SiC MOSFET第三代半导体材料，是一种宽禁带半导体（禁带宽度�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET电路大功率多管并联实例及设计要点_images/img_002_714c10cc392e.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](SiC_MOSFET电路大功率多管并联实例及设计要点_images/img_003_a7724504a523.jpg)![](SiC_MOSFET电路大功率多管并联实例及设计要点_images/img_004_1ddabca751f3.jpg)

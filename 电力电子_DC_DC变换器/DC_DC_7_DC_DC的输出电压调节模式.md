@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/0QMeGoYW0NwCOLTzzIdegw](https://mp.weixin.qq.com/s/0QMeGoYW0NwCOLTzzIdegw)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSODaWmCrFrkLqnWd0v37cpKuI4NROwvLKHKjgHa2XSkRNe0CeSJgw3K31Ncn5XuyyTXicLkRDS9sw/640?wx_fmt=png)
+![](DC_DC_7_DC_DC的输出电压调节模式_images/img_000_23ff52995d9b.png)
 
 __**_★★★_**____**_DC-DC-7---输出电压调节模式_**____**_★★★_**__
 
@@ -13,13 +13,13 @@ _€1.PWM_
 
 PWM（Pulse Width Modulation）：脉冲宽度调制，即驱动信号为恒定频率，但是改变一个周期内的高低电平比例（占空比），如_**图7-2**_（此图是将几种负载情况下波形放到一起，实际一种负载场景时只有一个PWM ON/OFF比）所示，PWM 由于频率恒定，因此无论负载如何都会恒定切换，固定一个周期T内有总一个FET打开，开关次数也会相同。所以存在Rdson损耗，在负载较轻时效率会显著降低。而PFM则能够在轻负载时减少开关次数（理解为频率变慢），从而可以保持效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicibM5Bf9cuFxULVmYbn4u1nEFH6ibmw289k021icMxhTpdOsRfl9TGGZpQ/640?wx_fmt=png)
+![](DC_DC_7_DC_DC的输出电压调节模式_images/img_001_2558c744d03c.png)
 
 **_图7-1：PWM产生原理_**
 
 _**图7-1**_简单表示了PWM信号的产生过程：输出的两个分压电阻出来做采样信号，然后通过一个补偿器和精准源的比较，再把输出的误差信号和一个固定频率Ramp(三角波比较)，得到固定周期的脉冲，开关频率由PWM斜坡信号（三角波）频率设定（实际决定开关频率的是输出Iout大小，Vout的值并不会显著影响开关频率的选择，这一点需要分清）。脉冲信号经由DRV驱动器驱动上下MOS开关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicUO1RxwUF3X3LkdIG4ovGmmBhXDsRJ63CR0jNVOaglk21E4ak2kApeQ/640?wx_fmt=png)
+![](DC_DC_7_DC_DC的输出电压调节模式_images/img_002_d8b081a790f8.png)
 
 **_图7-2：PWM模拟波形_**
 
@@ -29,7 +29,7 @@ _€2.PFM_
 
 PFM（Pulse Frequency Modulation）：脉冲频率调制，即驱动信号为变频，ON的时间恒定，来调整OFF时间，或者OFF的时间恒定来调整ON的时间，等效周期T变动（_**图7-3，此图是将几种负载情况下波形放到一起，实际一种负载情况只对应一个PFM周期**_）。本质上是一个间歇式接通和关断的固定频率 (PWM) 的转换器。在效率方面，PFM更具优势，所以也叫低功耗模式，可以在较长时间段内只保持一个FET打开，但由于PFM的开关频率会随负载的变化而变化，因此开关噪声的频率不确定，从而难以滤除噪声。另外，如果频率发生变化并进入可听频段，有可能会产生振铃问题。PWM由于频率恒定，可推测产生噪声的频点频率和倍频频率，易于滤除噪声。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSic490GN2frpzbQBZNwlqRgqbb5ZZUhswKp0ZAxTMbDH8U8D7micLAbicOQ/640?wx_fmt=png)
+![](DC_DC_7_DC_DC的输出电压调节模式_images/img_003_726537ce3e84.png)
 
 **_图7-3：PFM模拟波形_**  
 
@@ -39,15 +39,15 @@ _€3.PWM到PFM的切换_
 
 PFM模式通过减少振荡，降低开关损耗来提升效率，当增加负载时，振荡慢慢减少，最后变为PWM模式，**_图7-4_**到_**图7-6**_逐渐演示了这一过程。脉冲跳跃间隔（PFM）取决于负载，随着负载的增加，开关脉冲出现的频度增高（例如在40mA时每6.5us出现一次，而在1mA时则是每100us出现一次），如果负载继续增加到一定程度，则转换器将进入恒定频率（PWM）模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicGiaJibdOBrWJ2WibZtWkvmpcnoglXwj3ELYbn51NHZPmlN0Qo96BzkelQ/640?wx_fmt=png)
+![](DC_DC_7_DC_DC的输出电压调节模式_images/img_004_be1fa372010e.png)
 
 **_图7-4：PFM模式，Iout=0A_**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSic4vGrtAUul65KqhuHKicGMfJdaKNM4iakIpqZv2zd7UqrLq5b03jx01LA/640?wx_fmt=png)
+![](DC_DC_7_DC_DC的输出电压调节模式_images/img_005_370b66087158.png)
 
 **_图7-5：PFM模式，Iout=0.2A（轻载）_**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQB6U5VvDk6M1CGqB0YlQSicyXdPe93N4LCTt8hZwQ7ZicMXUAfRIU7qzd1PviaZpbsJAtPooS2tRfFw/640?wx_fmt=png)
+![](DC_DC_7_DC_DC的输出电压调节模式_images/img_006_bc698c74089c.png)
 
 **_图7-6：PWM模式，Iout=0.6A_**
 

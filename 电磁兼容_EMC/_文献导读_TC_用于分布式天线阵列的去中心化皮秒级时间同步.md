@@ -23,7 +23,7 @@ Department of Electrical and Computer Engineering, Michigan State University, Ea
 
 出版信息：IEEE Transactions on Communications, 73(6): 4425-4438, 2025; DOI: 10.1109/TCOMM.2024.3480993 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qU7k4ChbKHicrMRgJuFEkmPzBibcymwy3P90SpaQjibibpJJMI1WKPDBDqyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_TC_用于分布式天线阵列的去中心化皮秒级时间同步_images\img_000_164c86807427.png)
 
 论文摘要
 
@@ -53,23 +53,23 @@ Department of Electrical and Computer Engineering, Michigan State University, Ea
 
 该论文的重要图片如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUtevVxMxfeMkvH2oIn7yjm88fy6LLkiaoC3Ln3tuBviaPQl0pibMo0JZgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_TC_用于分布式天线阵列的去中心化皮秒级时间同步_images\img_001_016d614c5c01.png)
 
 相干分布式天线阵列系统中波束成形的示例，显示了开环拓扑下的n节点分布式天线阵列。系统中的节点执行无线协调以同步其时间、频率和相位，使得信号在目的地相干叠加，从而实现高增益波束成形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUyzQkMukVnAhh8tj2pKdklbDJVmBhEjh1vvE1JBE083cZe4NYxN8ZMQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_TC_用于分布式天线阵列的去中心化皮秒级时间同步_images\img_002_e83221ffa06b.png)
 
 带有外部验证的四节点分布式天线阵列无线时间传输实验系统。验证波形被发送到一个接收器（采样率为20 GSa/s的Keysight DSOS8404A示波器），该接收器通过电缆连接到每个SDR发射/接收端口处的功率分配器的一端。节点0、1和2连接到通道1，节点3连接到通道3。对验证信号应用零填充，使其在示波器窗口内对齐并单独保存，用于后续处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUTvgonN0kkNrxZtialjbaTicSN1Rtec7srOzUKL8x7K5rUSOQ2z4Uic2dQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_TC_用于分布式天线阵列的去中心化皮秒级时间同步_images\img_003_a74ec53b5ae0.png)
 
 四节点分布式天线阵列无线时间传输实验的示意图（带外部验证）。四个模拟的SDR连接到偶极天线，用于在1.9 GHz载波频率下进行无线时间传输。系统具有有线频率参考和有线PPS用于初始粗时间对齐。使用示波器外部验证时钟时间同步。所有节点发出的验证脉冲通过电缆（并进行了零填充）发送到示波器的通道1和3，使其在60 µs的示波器窗口内到达。验证脉冲被保存并进行后续处理，以估计阵列中节点间的时钟偏移。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUfnTz7kOiauxXKniczicVfyo1PBLEXyHic1x93YvuVhWwwlxvpLgLbm2Zbg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_TC_用于分布式天线阵列的去中心化皮秒级时间同步_images\img_004_0c420163647f.png)
 
 在36 dB SNR和40 MHz双音间隔下，无线时间传输的四节点分布式天线阵列连接节点间的时间偏移Δⱼᵢ在60次迭代中的变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUvaZc9A6H4M8TePiaLPSIKr1VsricAqMLNR1INXaQicgQWlN0ZrLEPsCjQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\_文献导读_TC_用于分布式天线阵列的去中心化皮秒级时间同步_images\img_005_030bf91e0121.png)
 
 四节点分布式天线阵列节点间四种可能连接的标准差。该图显示了在100次迭代中，从十次无线时间传输配置测量中得到的时间偏移的平均标准差。
 

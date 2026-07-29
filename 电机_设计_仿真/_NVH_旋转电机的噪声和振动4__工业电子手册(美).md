@@ -9,11 +9,11 @@
 原文摘自美国《工业电子手册 功率电子和电机驱动___》第二版__，第9章。_《The Industrial Electronics Handbook  POWER ELECTRONICS AND MOTOR DRIVES 》  
 __
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chzAdLoMJRATMq0NIu7ldiavyjnicUyYV1ZSGqbLvWgNLM6qUXxCEgRgbpWg4M8kffX9xy7feltQoGjA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_000_d8318d1494d7.png)
 
 本篇为原书9.5-6节的翻译，主要内容是磁动势谐波、磁导谐波、磁密谐波。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRiaBH0XkcdLtBvTwiaXrQZPe7k8n1dKgXUGCicjOT1ewhI4LbblQ1eebDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_001_18843dc6a813.png)
 
   
 
@@ -21,7 +21,7 @@ __
 
 如前所述，磁噪声由磁密谐波的组合产生。确定这些谐波的方法包括有限元软件和解析法。本节重点介绍交流电机的解析方法。气隙中径向磁密b由作用于气隙的磁动势 ε与单位面积磁导 Λ的乘积得到：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRRnUxuu2IB97ThjDzYIgX5xlOSTiaeF1KHwdz7E197Ja4CmAo80qKGZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_002_07e245a60e6a.png)
 
 当假设铁芯磁导率为无限大且忽略偏心时，ε的确定并不困难，难点在于 Λ的解析。文献中存在多种近似表达式：Timar \[2\] 的公式忽略定转子槽的相互作用；Alger \[13\] 通过单一基波项近似考虑槽影响；而更高阶的谐波（如定转子槽相互作用）对磁噪声起主要作用，需采用更精确的表达式 \[10, 19\]。
 
@@ -29,27 +29,27 @@ __
 
 ### 以图9.14所示的三相单层绕组为例（极对数 p=1，每极每相1个线圈）。绕组通入三相电流时，各线圈产生的磁动势（m.m.f.）叠加形成旋转磁场。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRCnACHdibibeb845E1xUe7YkAnsNRA4v05iavPA6TD4Sl554DZSibL6HgWg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_003_4d2594394810.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRibD7pUN0aYAby30uxrHMuZCfImZnZLRmx4icx42hcZRGBeqJjsxXYFJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_004_ea96acf73bc1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRadeqj6ENib56WAgOUcibJN9C1RFfU7hVKxXgFW6qeOo2fulKyzlM7wIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_005_15de3347e5a2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRtKd3qbDsMzB1qEoAyIJJPP9JKOCj96oibH4DPw1cD0sUoeLLtiauJHsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_006_2c8e6cda4e38.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRPuYtiahe0UDXolmsc0S5PVbmO7oA6vsibf30202b6ntqae3G0FrzEnRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_007_76a523eaea0d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRpeGDd4m4y9OllcvZicE6RQcmcibMuBfuEXQQRLlwZ2Xtou5FWKTBxLhQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_008_10dcbd48dd11.png)
 
 ### **5.2 气隙磁导谐波**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFR1bycWN7Kx9LWKTCQzibH2SAxicxWEWpas8wrVCW4tZ7ibk9GJOle28yMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_009_6ce3f3f6ccc4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRVKarF3baA1svs73Ij8DuS342kP6WyuuGPB1uDPzIz22eJf89IGIlVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_010_2f3692b704ac.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRFB7HsBJibStkR1v6In8GLKJEw13ZvPf5ywkhMwjic8iaQsOvNLxIVzh4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_011_615a961c2d4c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFRU8ePYrlmhTybrccCEicR1tXYR15UarFBv4ibK9WcyVkIcpPO73KMbVWA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_012_8bd99994a3fb.png)
 
 磁导表达式包含四类项：
 
@@ -79,7 +79,7 @@ _磁导表达式（式9.37）适用于所有交流电机（感应电机、同步
 
 ### **5.3 磁通密度谐波**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Zlibib2pr1chwng4ya0NOKUnydy5vxFbFReJYUmL6mtzbicrmYw0581cyvX0FqDlXJ7vuLVaN5OEdic43yDwyuSGEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_013_71f22c5b3cfa.png)
 
 ### **6结论：**
 
@@ -115,4 +115,4 @@ _
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwnM0Q7kianI9ClktRZuNyJs53Q2Irp5aup8son3fVl5riaoG8hUfkTasQTtiblqczsqHpDOibG7Qx6Qg/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_NVH_旋转电机的噪声和振动4__工业电子手册(美)_images\img_014_ff45e776e079.jpg)

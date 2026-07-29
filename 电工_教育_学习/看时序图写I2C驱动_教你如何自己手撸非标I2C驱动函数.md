@@ -10,7 +10,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XZMicpgcYibXF0viaOzfQcFZzrxmR8mhXpbrNQ8g3Qiaz90We68FCqDRibpd6G1FrNGAtOg0OO1LGjet3v8IC8tQ8eg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_000_282b690a2ba3.png)
 
   
 
@@ -244,7 +244,7 @@ void setup()
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/XZMicpgcYibXF0viaOzfQcFZzrxmR8mhXpbHXe396eDxEICnkiaZ4guos1JlxCqkiaE54OgqVsKicpYU1EePVOQbQcyQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_001_612b31597f68.jpg)
 
   
 
@@ -266,9 +266,9 @@ void setup()
 
 硬件工程师及从业者都在关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_002_c286768e131c.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_003_b1a5e506c9fe.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_004_889e693a32e9.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_005_fa5f1dcf41d1.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_006_090125d5d257.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_007_ae297ffec4fe.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_008_9487b8d119c5.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_009_dbf86c9870d2.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_010_79d7ec05f18b.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_011_1e17d6fcea8d.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_012_2b90db65564e.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_013_91a98f157fc1.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_014_26dc9bcc3fa1.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_015_37d2f893aa78.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_016_e735eead8f38.gif) ![](D:\电脑文件\公众号知识库\电工_教育_学习\看时序图写I2C驱动_教你如何自己手撸非标I2C驱动函数_images\img_017_01aae1a28832.gif)
 
 ## 
 

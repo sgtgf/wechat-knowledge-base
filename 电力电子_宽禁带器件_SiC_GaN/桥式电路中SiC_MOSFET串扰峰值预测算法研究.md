@@ -26,7 +26,7 @@
 
 3）使用两条电阻路径分别控制开通和关断或增加额外元件以改变关断态驱动回路阻抗，该类方法可减小器件栅源电容的串扰尖峰，且不影响开关速度。然而，当前串扰抑制设计往往忽略共源电感与栅漏电容的耦合效应，多采用降低关断态驱动阻抗的抑制思路，如图1所示。文献\[18\]指出，盲目降低驱动回路阻抗可能带来相反的串扰抑制效果，关断态驱动阻抗的设计需要定量计算指导。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiajYpYcNexVIcWBc4XVwYzKtglqmWZoy9krceM9SDtzhhG7QMXfQdVtg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_000_0fe5da9a1e8b.png)
 
 目前，针对SiC MOSFET串扰建模的研究认为，串扰电压涉及桥臂中功率回路与驱动回路的众多寄生参数，并在开关过程中受到不同变量的影响。文献\[19-20\]在等效电路中引入共源电感感应电压对串扰的影响，但其为简化计算忽略了驱动回路寄生电感与器件内阻；文献\[21\]建立包含驱动回路与功率回路所有寄生电感的等效电路，得到串扰电压的四阶差分方程时域表达式，但其简单地认为极间电容值为常数；文献\[22-23\]指出极间电容非线性对串扰峰值计算有显著影响，并建立极间电容分段拟合模型。随着模型考虑因素的增多，串扰电压方程难以直接求解，对开关过程分段拟合并迭代计算的串扰建模方法可实现更高建模精度。
 
@@ -38,13 +38,13 @@
 
 双脉冲测试电路为桥臂式逆变器的基本结构，是测量SiC功率器件开关行为的常用电路，本节借助该电路分段分析关断管栅源极串扰电压的形成机理。共源电感为同时存在于驱动回路与功率回路的源极寄生电感，其主要来源为器件封装与PCB布线。目前市场上常见的SiC MOSFET封装主要有两种类型，即非开尔文封装(如TO-247-3)与开尔文封装(如TO-247-4)。对于非开尔文封装，其源极电感同时存在于驱动回路与功率回路，这使驱动回路容易受到功率回路电流的耦合影响。开尔文封装在设计时将驱动回路与功率回路分离，但其内部依然存在部分共源电感。为准确分析串扰产生机理、提高建模精度，本文以非开尔文封装的SiC MOSFET为研究对象，考虑电路主要寄生参数的双脉冲测试电路如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia7QNibR3PzDCyKMYOShrg7DVTrYMXH3RpUUTVU1oISlRlm3tibvUyQdGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_001_16deec398bd1.png)
 
 图中：Lg\_in、Ls\_in、Ld\_in分别为SiC MOSFET封装引入的内部栅极、源极、漏极寄生电感；Cgs、Cgd、Cds分别为SiC MOSFET的栅源电容、栅漏电容与漏源电容，其容值与漏源电压为非线性关系；DBL为SiC MOSFET内部等效反并联体二极管；Rg\_in为SiC MOSFET栅极内阻；Rg\_ex为外部驱动电阻；Lg\_ex、Ls\_ex、Ld\_ex分别为PCB布线引入的外部栅极、源极、漏极寄生电感。为便于分析，定义栅极电阻RgRg\_inRg\_ex；栅极电感LgLg\_inLg\_ex；共源电感LsLs\_inLs\_ex；漏极电感LdLd\_inLd\_ex；后缀“1”和“2”分别表示上管与下管。其中，下管Q2为主动管；上管Q1为被动管，即串扰管。
 
 依据串扰管源极电流与漏源电压的变化特点，可将SiC MOSFET开关过程划分为若干串扰阶段，忽略串扰振荡过程，源极电流以流出源极为参考方向，如图3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaflUrX5Ek7icFicic56MtRXUEUDhtg72dNRYdxmhofEnaGg7RNxebUAPTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_002_afba18d150f9.png)
 
 1）电流下降阶段s1\[t1—t2\]：t1时刻，下管栅源电压vgs2上升至开通阈值Vth，Q2导电沟道开始导通，负载电流由Q1体二极管向Q2沟道转移，Ls1靠近源极侧电压极性为正。因桥臂尚未发生电压交换，栅漏电容无充放电电流，上管栅源电压vgs1在感应电压作用下减小。
 
@@ -54,17 +54,17 @@
 
 4）电流上升阶段s4\[t7—t8\]：t7时刻，vds1已降至体二极管导通电压且维持不变，栅漏电容无位移电流。负载电流由下管MOSFET向上管体二极管转移，is1以更大斜率负向增大，Ls1远离源极侧电压极性为正，vgs1在感应电压作用下增大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia5tN0WEgk9KuXHEngrbgXQ1rrX117AAh0XOj5GtiauMTLOgLyESF8eAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_003_c446544a1d79.png)
 
 进一步分析驱动阻抗对串扰电压的影响，图4为常见驱动回路简化电路，表1汇总了各串扰阶段内串扰源对栅源电压的影响。针对栅漏电容的位移电流，驱动阻抗与栅源电容并联，减小驱动阻抗可削弱其对栅源电容的影响。针对共源电感的感应电压，驱动阻抗与栅源电容串联，增大驱动阻抗可削弱其对栅源电容的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiafWB822KYBDO7Kf2ePiafK2sGYrib7q28vfAIdiaFmI7q5iaRTtmLsF5MLw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_004_567297e1ebf1.png)
 
 表2汇总了各串扰阶段内驱动回路阻抗对串扰电压的影响。当邻管关断时，传统减小驱动回路阻抗的串扰抑制方法可减小串扰管栅源电容在s3阶段的负向串扰尖峰，但会导致s4阶段的正向串扰尖峰增大。当邻管开通时，该方法将使串扰管栅源电容在s1阶段出现更大的负向串扰尖峰。但因栅漏电容与共源电感在s2阶段均对vgs1有正向增大的作用，定性分析难以确定该方法对正向串扰尖峰的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia22A4zdibE7p0doqnNjzersRu6kZnwwC4Ekd6hLIWRGmeyljvMRwQYmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_005_d6e08978ffd4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia1U5V39QGjUxLlgqvk6aHF7PvRlD8aJZZjGQlQg1HlAd3RvgyC8k4AQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_006_e4fcb69a35d6.png)
 
 为验证串扰分析的正确性，图5为共源电感分别为0与5nH时下管开关过程中，上管串扰电压随驱动回路阻抗变化的PSPICE仿真波形，其结果与理论分析一致。不存在共源电感时，减小驱动回路阻抗可以抑制邻管开通时的正向串扰尖峰与邻管关断时的负向串扰尖峰。存在共源电感时，单一方向的增大或减小驱动回路阻抗均无法有效抑制串扰尖峰。因此，串扰问题分析必须考虑栅漏电容与共源电感的耦合影响，盲目地改变驱动回路阻抗极可能导致串扰问题恶化，需要设计串扰电压预测算法，为驱动回路阻抗设计提供定量计算指导。
 
@@ -74,29 +74,29 @@
 
 由上文分析可知，串扰问题的本质为处于关断态SiC MOSFET的漏源电压与源极电流快速变化，使位移电流与感应电压分别通过栅漏电容与共源电感引入驱动回路，对关断管栅源电压造成干扰。因此，串扰建模的关键在于准确描述串扰源对关断管栅源电压的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaTHxAnUcUIPEhHFWsdILtbeRSxg80fv7Dq8YtX1PRjEOiappR8DngRaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_007_db9a3ff80b6d.png)
 
 依据图6所示等效电路，考虑共源电感感应电压的影响，建立驱动回路电压方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaLZ5eDPAangJopRIVrC22QpmzIRPVVr8EDvWYzqLZzKJPgkhqhx15Tg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_008_15a44201fc2c.png)
 
 针对栅极节点列写电流方程，引入栅漏电容位移电流的影响：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaP0ruGxm0NZ4Q0uh1LQUh1g05eAq548LxdFaMWn8UcskXhHAJzD72Ww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_009_e928ee6ea66f.png)
 
 在邻管开通过程，当上管源极电流为0时，因体二极管反向恢复特性，is1将继续增大至反向恢复电流峰值。源极电流建模应同时考虑体二极管反向恢复电流与结电容充放电电流的影响：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaFZ1qU8AHD7qOxibqjjhtENS0VeKMFpGrk71K9r0pibLfBUFiaM6NjWficA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_010_e3f5dc078ad7.png)
 
 式中if1为SiC MOSFET体二极管反向恢复电流。
 
 SiC MOSFET结电容电压间具备如下关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia60HkEEzXqJWaAs14Gx4BQY4W0RHhkItV1zkIrdSshMF94z9eDTSKuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_011_06c05dd76159.png)
 
 结合式(3)—(5)，式(1)、(2)可转化为如下形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia6dsicKyrxbWsxegrcSgEe0rAtprxRiaelibRAeRoBdKpOL9AnqTDBNc0w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_012_eb39cefe7e33.png)
 
 式中，Ciss1Cgs1Cgd1为SiC MOSFET的输入电容。
 
@@ -106,19 +106,19 @@ SiC MOSFET结电容电压间具备如下关系：
 
 注意到，探头测量的漏源电压包含寄生电感的压降，测量漏源电压vDS1与器件内部漏源电压vds1关系为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaqdHWcanevQzApib46RZiaMe4BRPTGlNsmgdfW4X4DM8XYevuok5SOLTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_013_d6d2412e147f.png)
 
 通过上述方法，式(6)—(8)的状态变量可减少至3个，即vgs1、ig1、vds1。即便如此，串扰响应依然为高阶差分方程，在没有简化条件的情况下很难求其时域解。为避免损失计算精度，将式(8)转化为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiao59QBqNTfs9amQ9ibiaomW9DF9aHlib8QJxwRXNImF0aJ4XnoicBQl429A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_014_ef51d0cba650.png)
 
 式中变量矩阵X\[ig1vgs1vds1\]T，系数矩阵A与B为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia7xpAB9gTkF929F8zVd1tkW9VpRdEproujcrOtia9eynTrexn4aRQTHA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_015_c1ca4badca80.png)
 
 式(9)可离散化为如下形式，并迭代求解串扰电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaJ7ibVJaosg1ShjtX5XZ5vQAIVlEYqRokOOm1w41gC1XLRMWvjTqRpbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_016_aa3084740283.png)
 
 式中：k为迭代次数；t为迭代步长，该值应远小于开关时间，通常可设置为0.1ns。
 
@@ -126,63 +126,63 @@ SiC MOSFET结电容电压间具备如下关系：
 
 当功率器件的工作条件确定时，需预先获取串扰预测所需的初始数据vDS1与id1。串扰模型的输入量，即dvDS1/dt，did1/dt，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia6jjZMAXSPNCUt7ELBFtj6KB2sicE8VTkxHmSEcDic27OaqxxWpkG2kqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_017_af18d3ce37e9.png)
 
 可对测量数据采用具有二阶精度的中心差分计算得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiarR9PBbkHEItb5riaySuZEQxmJibQID5x5JN2n0cP9YmqNvHkMv0ErpDQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_018_dae7264f1f26.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaCn4wIB7fYtJnP8TlRG1hQHzPibxTEGAEC23fdVOjBWrJx6y0OrQywog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_019_ffd0ca878ec1.png)
 
 式中：y(kt)为第k个采样点的值；o(t2)为t2的高阶无穷小。
 
 值得一提的是，受限于散热片安装、系统结构等设计难点，电压探头通常只能连接至PCB焊接部分，如图6所示。引脚测量串扰电压vGS1不仅包含器件内部串扰电压vgs1，还引入Rg1\_in、Lg1\_in和Ls1\_in的压降：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaiaMiaO9ibiag3BpeeYFtHybHo91ZWqwEG9UE7VhoUyZEiaV9haK9L98vrSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_020_fe996e572df1.png)
 
 由于栅极电流不便测量，工程中直接将vGS1作为判断SiC器件是否运行在安全范围的依据。因此，若无特殊说明，后续研究均针对考虑内阻与寄生电感压降的串扰电压。
 
 SiC MOSFET极间电容与漏源电压为非线性关系，本文从器件数据手册中提取极间电容值，并对离散数据点进行线性插值拟合。由于选取的插值将通过数据点，该方法的拟合残差始终为零。以CREEC2M0025120D为例，拟合曲线与数据手册实际曲线的对比如图7所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaj0MyTbQiagcOYrHowvxoicAoHicz1IkaF7qJ1UWkCOf40QA51B7icibVfSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_021_0e19fd6d25a4.png)
 
 图8(a)汇总了串扰电压预测所需的各类参数，其中固定参数可通过有限元仿真提取或阻抗分析仪测量整定；可变参数采用上文所提线性插值方法拟合；计算参数由待测工况下实测电压、电流值利用式(12)与(13)离线计算获取。完成驱动参数初始化后，串扰预测算法的迭代流程如图8(b)所示。首先计算第k个漏源电压测量值vDS(k)对应的SiC MOSFET极间电容值；然后将相关参数代入式(10)计算系数矩阵A(k)与B(k)；再依据式(11)获取器件内部串扰电压计算值vgs\_cal及栅极电流计算值ig\_cal。为使预测波形拟合实测波形，还需将迭代求解得到的vgs\_cal与ig\_cal代入式(14)计算引脚测量串扰电压vGS\_cal。按照上述流程迭代，直至完成最后一个测量点的数值计算时，迭代过程自动结束。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia24QJD02AT6JeqGpWKDsDM6PRrSzaH4DbXiau3tPMNGEmU5akn0icANag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_022_9cbfa2845b16.png)
 
 预测同一工况下不同关断器件驱动回路阻抗的串扰峰值时，首先在任意值外部驱动电阻Rg\_ex下测量并计算一组串扰管的漏源电压与漏极电流变化率，并将其作为模型输入数据，随后只需人为改变Rg\_ex，并重复迭代流程即可。与传统方法相比，所提算法省去动作管驱动回路与功率回路的分段建模，迭代过程无需额外跳转条件，具有结构简单便于实现的优点。
 
 3. 实验验证与分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiarSByTFnENo2dFlG89eEoQpw8iaSK5ADq9xAwNOyKfufrHWiaL0N1UxyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_023_d6e90d0b3f76.png)
 
 为验证本文所提算法的准确性，本节搭建图9所示实验平台进行一系列对比验证。为突出串扰问题、使实验更具说服力，测试电路为全桥拓扑，选取其中一个桥臂进行双脉冲测试，其中下管为动作管，上管并联145H空心电感并保持常闭状态。SiC MOSFET型号为CREE C2M0025120D，封装为TO-247-3。PCB布线引入的寄生参数可通过有限元仿真获取，器件内部寄生电感取值范围可根据文献\[31\]确定，驱动电路的主要参数如表3所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaIDA3Gia83nFJTzQFHrhjUt3P3TCEa4Rf8geLO2gVWR1tU4srORxefHg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_024_1daba92fa729.png)
 
 3.1算法精度验证
 
 由于实验中无串扰抑制手段，为避免串扰尖峰过大损坏器件，设置下管外部驱动电阻Rg2\_ex25。测试条件为200V/20A，器件结温为25℃。调整上管外部驱动电阻Rg1\_ex5，在该条件下进行一次双脉冲测试并记录上管漏源电压vDS1与漏极电流id1作为串扰预测的初始数据。依据所提串扰电压分析模型对该阻抗条件下的串扰电压进行拟合，实验测量与模型计算的串扰波形如图10所示。模型计算串扰电压vGS\_cal与实验测量串扰电压vGS\_meas在波形上高度吻合，串扰峰值、尖峰位置和串扰震荡的幅值与频率均良好匹配。实验结果表明，所提算法利用实测数据引入串扰管漏源电压与源极电流的时变性，既省去了功率回路建模的复杂过程，又可提高串扰预测精度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiazjia7vLoFlCTymJwHqfz0ftIibxy6rRxBR75xwaSIVbsNEhicRTxEtYRA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_025_7c370c1bc591.png)
 
 依据式(14)，因器件封装寄生电感上流过功率回路电流并产生较大感应电压，模型计算的器件内部串扰电压vgs\_cal与引脚串扰电压vGS\_cal间存在显著差异，如图11所示。相比内部串扰电压，测量串扰电压在邻管开通过程中先上升后下降，在邻管关断过程中观测到比真实值更大的负向串扰尖峰。感应电压的叠加使测量串扰电压变化更为复杂，定性分析难以总结其串扰规律，某些极限应用场合也需要提取器件内部串扰电压作为优化目标。本文所提算法不仅在引脚测量串扰电压上与实验高度吻合，也可用于提取器件内部串扰电压，指导串扰抑制设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiarIIiayic5wPbV2hedzjjzEsnfb5hxFXyeiaricict56mJicIrKvkRF1HNsrg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_026_fc65226d5c64.png)
 
 改变串扰计算时Rg1\_ex的输入值，仍利用Rg1\_ex5时漏源电压与漏极电流测量数据，重新迭代计算串扰电压，预测Rg1\_ex从1变化至25时的串扰峰值。不同驱动回路阻抗下实验提取与模型预测的串扰电压对比如图12所示。在不同驱动回路阻抗下，模型预测与实验测量的串扰波形基本一致。进一步地，实验结果表明传统单一方向增大或减小驱动回路阻抗的串扰抑制方法已不再适用。在邻管开通过程中，串扰电压正向峰值在Rg1\_ex5时达到最大值；但在邻管关断过程中，相同驱动回路阻抗下，串扰电压正向峰值减小至最小值。由于共源电感与栅漏电容的耦合作用，串扰电压峰值与驱动回路阻抗间不存在单调相关性，盲目改变驱动回路阻抗极可能使串扰恶化，驱动回路阻抗设计需要定量计算指导。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaF1hLEvYG7ibiasthT9xia3gjzNoHLcUmMR11T1C9sx0xQTo6YfVVA3Erg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_027_b746798436ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiauYcbNpACSZApE2H813bHsbWIWqn8Qv4E1lYkCNshFeBz1ibu6jZKibibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_028_5070debfed62.png)
 
 为进一步验证算法精度，采用式(15)的相对误差(relative error，RE)评估串扰峰值预测误差：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaA6e9lVELlWVibUgYxia6Nl2Giaw8Ir7RYHSlbjuPfljQZnibic7sLLPqOJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_029_228744ea3e20.png)
 
 式中：VGS\_cal为模型预测串扰峰值；VGS\_meas为实验提取串扰峰值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiawDnFojf7PNq6tMoxGX0MTNMibL3wHIKDoiaWxpKeUwIpUatTrQCibP7Vw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_030_17cb9eef141d.png)
 
 误差数据如表4所示，该算法对开关过程中正向串扰尖峰的最大预测误差为6.4%，平均误差仅为3.2%。所提算法可准确预测串扰电压正向峰值与驱动回路阻抗间的非线性关系。当Rg1\_ex1时，负向串扰尖峰的拟合误差最大为13.55%，但Rg1\_ex从5变化至25时负向串扰尖峰平均预测误差仅为3.8%。本文所提串扰模型考虑诸多寄生参数，并针对驱动回路电路特性精确建模，理论上可用于任意Rg1\_ex时的串扰峰值预测。但在实际使用时，因模型所需Rg1\_in的提取不可避免引入偏差。当Rg1\_ex与Rg1\_in相近时，Rg1\_in在Rg1中的权重增加，式(6)中Rg1\_in的取值误差对串扰计算的影响更大；另一方面，因Rg1\_ex较小时栅极电流增大，式(14)中Rg1\_in的压降使vgs1与vGS1的差异更加显著，进一步增大了串扰拟合难度。此外，当Rg1\_ex1时，驱动回路处于欠阻尼状态，关断管驱动回路出现串扰电压的同时还伴随明显的栅极电压震荡。开关过程的负向串扰尖峰滞后于正向串扰尖峰、出现在感应电压与位移电流耦合更为复杂的电压电流震荡阶段，迭代过程中模型误差的积累导致该阻值下负向峰值预测误差远大于正向峰值预测误差。预测误差不可避免，但所提算法仍可准确预测驱动阻抗与串扰峰值的非线性关系。
 
@@ -190,27 +190,27 @@ SiC MOSFET极间电容与漏源电压为非线性关系，本文从器件数据�
 
 3.2 算法适用性验证
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAia5nymfLWwJanWgLwAW45GJtibfvhibQRYXEMibZ86mzjzZpE7RODk6ootA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_031_242f48d5eb5a.png)
 
 功率变换器通常由多桥臂结构组成，为验证算法的实用性，选取全桥逆变器后级接电感负载进行串扰预测验证。与双脉冲测试不同，全桥逆变器工作状态下，功率器件长期高速动作。由于所用驱动电路无串扰抑制及过流保护功能，为避免器件误开通，对SiC MOSFET降额使用，测试工况为100V/10A。当器件工作电压电流较小时，关断态驱动阻抗对串扰电压的影响并不明显，这对串扰模型精度提出更高要求。采用移相调制控制功率器件动作，根据上文分析，在该调制方式及负载条件下，串扰现象仅在邻管关断时出现，如图13所示。图14与表5说明，当功率回路拓扑为全桥时，模型预测串扰电压与实验测量串扰电压仍保持较高一致性。串扰预测算法只针对驱动回路建模，并利用利用实测数据引入串扰管漏源电压与源极电流的时变性。所提算法不受功率回路拓扑的影响，可直接用于多桥臂逆变器中驱动阻抗设计指导。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaaOZPDTiavERJGPHuAst4JpnXS2bSJJMhsAnv8Bmh91h27zAHXn68h2w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_032_6ee2af29022c.png)
 
 为验证所提算法对不同厂商SiC MOSFET的预测效果，将待测SiC器件改为ROHMSCT3030AL并重新提取寄生参数。测试条件为200V20A，Rg2\_ex25。串扰电压的实验测量与模型预测峰值对比如图15所示，所提预测算法可准确预测串扰电压与驱动回路阻抗的非线性关系，对不同厂商SiC器件均可适用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaEDFCReLicOSl8053WkEsnSt2NlxtQAbBPy0GokTdWEEk7JLHbDVdeTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_033_6163750d709a.png)
 
 为验证串扰器件结温对模型拟合精度的影响，保持下管开关速度不变，使用加热台改变上管结温，并记录其串扰波形，如图16所示。实验表明，当开关速率不变时，串扰器件结温不影响串扰电压变化，即串扰器件寄生参数没有温度依赖性。所提预测模型仅针对串扰回路建模并利用实测值引入电压电流时变性，因此在不同器件结温下仍可准确预测驱动回路阻抗与串扰峰值的关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaqAYmoC3MEBsJAOLC5tExfrr4fno58sGD6r6a3ibtYgDadSQ8JRMXAicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_034_698bab14a821.png)
 
 为避免所提算法在单一工况下拟合的偶然性，在不同开关速度、工作电压、工作电流下验证所提模型及算法的串扰电压拟合效果，实验参数设置如附表A1所示。实验提取与模型计算的串扰电压峰值对比分别如图17—19所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiaskibRFOsxqz7PkjjTFI8ribQHSvsaXyX6M6CrDJgDMGVwwFiaqFqo5SEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_035_649e06553289.png)
 
 实验表明，所提模型在不同器件工作条件下均能保持较高拟合精度。此外还应注意到，当动作管驱动电阻较大时，继续增大Rg2\_ex对串扰峰值的抑制效果并不明显。由于栅漏电容与共源电感的耦合影响，当器件的工作电压或电流增大时，串扰峰值也未必会增大。当所选SiC MOSFET有多工作点长期运行需求时，应在串扰问题最严重的工况下进行驱动优化设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmOx8cRldPY8gkNSsdcGUAiadx0sWjoK6JicTwGSPJHRmDOhC2HyPDQJialibpq3X0hL2XEMeFgAmIB3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_036_b83f45986c69.png)
 
 4. 结论
 
@@ -226,10 +226,10 @@ SiC MOSFET极间电容与漏源电压为非线性关系，本文从器件数据�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_037_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_038_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\桥式电路中SiC_MOSFET串扰峰值预测算法研究_images\img_039_84aa944feb13.jpg)

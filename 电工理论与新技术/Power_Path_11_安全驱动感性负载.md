@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/0tn9vG49JDj0a4zIozXu3A](https://mp.weixin.qq.com/s/0tn9vG49JDj0a4zIozXu3A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhChLzjIPEb9Tb0gQpk78h0BibyAmU4o6QTLK7Tg8n59NicoRvFKvo6ibkMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_000_ef0d103f6cfe.png)
 
 ____**____**____**____**★★★**____**____**____**______________PPS-11---驱动感性负载__________**____**____**____**★★★**____**____**____**
 
@@ -29,7 +29,7 @@ _____________€2._______感性荷载的机理______
 
 感性负载两端的电压与时间有关，等式1计算选择可靠驱动电路所需的电感负载参数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WicWTTXBy97RSQAqlZKBiaWZbwOAWmu32OAHQK9yhYMGaiccWb2bpHKKHQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_001_1857d7111027.png)
 
 方程1表明，当由于电流的突然变化（dI（t）/dt分量）而断开电感负载时，可能会出现过电压尖峰，该过电压尖峰的大小是可能导致器件损坏的因素。
 
@@ -37,21 +37,21 @@ _驱动感性负载_
 
 感性负载在连接到电压源时通电，电流以指数方式上升到稳态值，磁能存储在线圈中，**_图11-1_**描述了这个过程，使用高侧开关来驱动负载。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCeGxQpm8UsyMgljAibZaQoEF9OjJR6GPZHjhxr0lM5oUNhfyRXtdzodPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_002_4784bd30c3de.png)
 
 **_图11-1：驱动感性负载波形_**
 
 当对电阻-电感（RL）电路中的电感负载通电时，电压回路为一阶微分方程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WCgmy0JRRdwJTu3FrekV7mBCoRnLgXfL8SSWFuM3Azib8T5iawhUTlquw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_003_b9c2381b1b7c.png)
 
 求解方程2可以得到瞬时感应负载电流，可以使用公式3计算重要的电路参数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0Wa9OcovOGgsicxIeZLaCff9Pt3daLalSpk48vzkzZgkDRxEc7ib0kNrMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_004_a1837e5d5716.png)
 
 这一阶段的关键是选择一种能够承载稳态负载电流并将结温保持在热关断温度以下的开关。最好的开关选项包括低压差，就像低导通电阻开关一样。**_表11-1_**显示了方程1引入的参数及其对系统的影响。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia1FyoQga3m5oicib2cvR30OhQVIvgFWPbKb2mA1kc66l10ZFKo6Rmu6DA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_005_d1a376a15240.png)
 
 **_表11-1：驱动感性负荷的计算参数_**
 
@@ -59,17 +59,17 @@ _从电压源上断开感应负载_
 
 感性负载两端的电压由等式4表示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WFc1BR0UdT3lK8OpYaJUPSmoPCRWSVE9ESOrWaZNGPQ9O8giaphib07sQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_006_416868a9db68.png)
 
 当电流从VBAT/R变为零时，电流的突然变化（dI（t）/dt）引起非常高的电压。将感性负载与电压源断开会在电感器上产生巨大的负电压尖峰，如**_图11-2_**所示。电压尖峰将出现在开关两端，并且远高于开关的额定击穿电压，添加适当的电压钳位可以避免电压尖峰造成严重损坏。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCehQC7XHoO4sJboj17WH3XPMvQMjm6DgK6ItMoCmV9hFfRx3WWPytTlQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_007_56113a096564.png)
 
 **_图11-2：电感负载与电压源断开的波形，带箝位（青色）和不带箝位（红色）_**
 
 **_图11-2_**显示了在通过高压侧开关断开通电感性负载的情况下的预期波形，无论系统中是否存在钳位。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia8rpZuM9sUYGMRjur2FtPJh2cyMqgTqicUhstgdjXGfOwtsULiaRW0Grw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_008_408923bc7365.png)
 
 **_表11-2：带和不带箝位开关感应负载引起的电压电平_**
 
@@ -87,7 +87,7 @@ _________________________€3._________________安全断开感性负载________
 
 在所有三种方法中，主要目标是将开关两端的电压保持在击穿水平以下，并安全地耗散电感负载中存储的能量。对于箝位电路，方程5基于一阶微分方程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0W4DtkH70uicOb9gwrej7l4UP0B8KpCkLtq0u5SFkj3MuGWCu5iblg3nkw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_009_74092d02b21b.png)
 
 其中K是取决于每个电路中的箝位方法的常数，下面介绍这三种方法。
 
@@ -95,103 +95,103 @@ _在开关上使用箝位_
 
 在开关上使用箝位是最有效的方法，可以覆盖大多数感性负载，该箝位功能集成在汽车和工业系统中使用的大多数智能高侧开关IC中。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCe2pJa6YpQV3UYr3jcjgianYSqrjHRpOnFGibQqNb59RfC475OZeTjuhkA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_010_79b92be361d6.png)
 
 **_图11-3：使用开关两端的瞬态电压抑制（TVS）箝位使电感负载断电_**
 
 **_图11-3_**显示了在开关两端使用箝位时感性负载的断电情况，求解方程5，其中K表示**_图11-3_**所示电路的箝位方法，得到方程6：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WIBSF3u2kxPuEd4GwnbfgXx11XqSF5ZSJHyuqve5VZ21CSibG1KwT3aA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_011_6847131cb3e0.png)
 
 下面列出了公式6中的计算参数，同时也是选择开关和跨开关箝位所需的参数。
 
 初始电流：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaZFPeicVR23jq5aSRiaPWtibdn3zscFozQpms7yAKpANROqGLory69gyxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_012_96fa9790e97b.png)
 
 存储的磁能：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaIicFV4Cic1Ybs1T0mtrPIo291VLkxFiaLuj75aljFZh0OLukLrPngbxrQ/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_020_ee67e736645d.png)  
 
 退磁时间：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiavyiagCGygLf5HT0N2fxbRDOL4neFUj0ZoiarTyrswY5COnQSNqzFa8sQ/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_014_c7ebe566e653.png)  
 
-TVS耗散的能量：![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaIViblzcHe01ZxFM36hoiaHqdopjpiboiaUdtfh8ZoiaNPN0myupssATKafg/640?wx_fmt=png&from=appmsg)
+TVS耗散的能量：![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_015_02535f21eea9.png)
 
 当VCLAMP > 3×VBAT时，简化公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaTGr6ibeOVpe7xUzIYNErYACH5vpX1kwFY9tBoeOYcs5Kw121V5rsnog/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_016_154d774a2b4e.png)
 
 _在负载上使用箝位和阻断二极管_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCetPqNnIOq5M3eIIre8J4kRThbXRvlZcnpA4RichFlf7oQZrV3BJrmufw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_017_6717331d503b.png)
 
 **_图11-4：使用跨负载的TVS箝位使感应负载断电_**
 
 **_图11-4_**显示了在负载上放置箝位和阻断二极管的配置，再次将阻断二极管的箝位电压和正向电压代入等式5，生成等式7：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0W2X8LvOxZDhcV794uCRmZkr1VrxZpUHkUt8jibhe0odbwSURlYzmBUMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_018_cdd24fd7428d.png)
 
 下面列出了公式7中的计算参数，同时也是选择跨负载箝位和阻断二极管所需的参数，串联二极管是在导通状态下防止电流在外部TVS中流动。
 
 初始电流：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaZFPeicVR23jq5aSRiaPWtibdn3zscFozQpms7yAKpANROqGLory69gyxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_019_96fa9790e97b.png)
 
 存储的磁能：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaIicFV4Cic1Ybs1T0mtrPIo291VLkxFiaLuj75aljFZh0OLukLrPngbxrQ/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_013_ee67e736645d.png)  
 
 退磁时间：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia19rvUiakzjdvyzD8y0icMibSichibtxmkBpo1c2WcsVByZShWN2sdrUEJicA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_021_d35445e80bae.png)
 
 TVS耗散的能量：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia5d8oFhQucwcAyRSfcF59cEIZxDRLomSOXIVBFCC7TU97HXoFo8OMoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_022_b154f0d66cb0.png)
 
 当VCLAMP > 2×VBAT时，简化公式为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia8iaNlb4iahFEh1naIX7ibQt7QIKA62QQyhpib0w7uj6sYfTGmtzBp9scow/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_023_ff46b87b2842.png)  
 
 _在负载上使用续流二极管_
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCeRKKiazJ5Jo3ITFIPGH94VcZFNvYklaNwIqgwq7PqAggIGeEXic18KZvw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_024_8bd378d549da.png)
 
 **_图11-5：使用负载两端的续流二极管使电感负载断电_**
 
 **_图11-5_**显示了在负载两端使用续流二极管的配置，使用等式5并替换K，等式8生成该去激励方法的表达式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WHEUSN4tfpkX85kwoUGOuMCia7CP4ntVKXnicQxOAQHBz80azqzTicurlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_025_98df205c354b.png)
 
 下面列出了公式8中的计算参数，同时也是选择开关和续流二极管所需的参数。  
 
 退磁时间：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaCSN8lPzr2Vb6TpiaZWHicb3Op7FYP8ibY23n0Nia1f7f5RT6qKNfbmsR1A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_026_b7df7275f26a.png)
 
 二极管耗散的能量：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaf6k62nv6icQ9Zibtplr3pfz0SWYiaA33Qbs7zGm4Nzx3IdribvnEsy3licQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_027_301228380979.png)
 
 简化公式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQiaqmiblmfMcjFLDXxic6Byf3t9fwbaFSNJsDriczpavtPvHWqK3iaBRtOeiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_028_477d58f934c4.png)
 
 ________________________€4.________________方法的利与弊________  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQhcQcQzmvTsASicTH62libVZRY9w1dhyVLk5BZR58kAuqBFVibuvJB4gEHUDq454ZN5sUg45JRAZnjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_029_3b8b2cdd042e.png)
 
 **_表11-3：三种夹紧方法的优缺点_**
 
 **_表11-3_**总结了安全断开感性负载电源的所有三种方法。如前所述，开关两端的箝位功能集成在智能高端开关中，在大多数情况下，智能高侧开关具有耗散磁能的能力。但是在一些应用中，集成箝位器不能耗散磁能，因此需要诸如TVS二极管的外部箝位器。当使用外部TVS二极管时，其箝位电压应低于集成箝位的下限减去电池电压，如方程9所示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WYUtp8sZqQolmVibh43CAbUX6RiaibOVk5N1CQYQQ9MhCQKbr6lqjADuMg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_030_7088685fcf0c.png)
 
 **_表11-4_**总结了智能高侧和低侧开关的重要参数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQNchy8wFepmt2ry7FA0PQia6mEPlRQaILI0ZRWBjorcSicGh7OsQplqLy7PjKkY18bKQCFJLHXfLNA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_11_安全驱动感性负载_images\img_031_f8955b802bbd.png)
 
 **_表11-4：驱动感应负载的重要参数_**
 

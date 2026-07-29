@@ -32,34 +32,34 @@ SW节点面积不要太大；
   
 来源:Ian的硬件调试笔记
 
-![图1](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6Luyw804qBfic2prFuhf17yw7VdvewKokLpjoLzovKRTnpv9uDFzicbrnLrf78KtPKc9KBfKWdWIp7KkmLnestqnb0rMTpgMLGvyHzc/0?wx_fmt=jpeg)
+![图1](Boost升压电路图解看得明白不复杂_images/img_000_7c537cf5ef89.jpg)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyyrdVprKWP9THGhef7hZ2JwH2Daia8Xo3YMVQP8XT1XiaeAzKTkjcwRlKibPQLoI5yuCdfBpPzR9KrT6uKafAuq0rtAcWsUGOrhnQ/0?wx_fmt=jpeg)
+![图2](Boost升压电路图解看得明白不复杂_images/img_001_d3603480cb6d.jpg)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuyzT9yKD1HpQaBiaf3cW4DeQY3PaHwwXcuSP7MKwL4f3pSZaLJxXBY0rUiaDT0HrSkTKcjPiapYh8D5nRApslAosLXmtX3vzApnosI/0?wx_fmt=jpeg)
+![图3](Boost升压电路图解看得明白不复杂_images/img_002_6bf4e650c343.jpg)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyxO3ickycxEanWIKvMdvtIOfYXyzb0IFyT2S637CbryJibHWaFPmTocJ1B6lbsHWcqjPD8ye1rpW7LC3Bx8dmjIN9rh1ybIhT2rA/0?wx_fmt=jpeg)
+![图4](Boost升压电路图解看得明白不复杂_images/img_003_f78c7349f76d.jpg)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuywAJatUGdBC0EiaWQNomfKibDBiaEYGLPIezA40ia7ISPUafU3BkGxxicpSiaFSKLoThCGd15lTlx6MVCGRv7mId7HkVjoujDCQ3I6WE/0?wx_fmt=jpeg)
+![图5](Boost升压电路图解看得明白不复杂_images/img_004_43c927d2d112.jpg)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6Luyznepml2JTLiaWtf5wr7wXFXByyU1XUzUROhVZkuHibjVgod02gjV5p5UV1PiciaaX0HQBnAL06lFicRkxatK8Ys1wTTIwqrjWubz4Q/0?wx_fmt=jpeg)
+![图6](Boost升压电路图解看得明白不复杂_images/img_005_1fe7ca1bd54b.jpg)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuywQ8S9mU7xUdF5ibnRB42ianqJVwqXaYGmPY6mr2zcqtc93qTfN94qqIQQeAdeSiakloYDyQ9ULRsmxiaZawca5rVtVY86YicNThCQI/0?wx_fmt=jpeg)
+![图7](Boost升压电路图解看得明白不复杂_images/img_006_543c8cf894a5.jpg)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuywhtX7nMHZg9spbyoKhpHyTic86Qhpcrs7gNHTWD3BbW33R4WJu5g91qZbdL2df58hXh7zFwFm2eXN2vR7xdu7zl47Sl20stkvQ/0?wx_fmt=jpeg)
+![图8](Boost升压电路图解看得明白不复杂_images/img_007_fe21b9f441b8.jpg)
 
 图8

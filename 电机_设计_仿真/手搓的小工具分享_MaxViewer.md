@@ -5,7 +5,7 @@
 
 ## 1告别模糊截图——MaxViewer 0.0.1 发布
 
-我们如果想要导出 Aysys Maxwell 的云图，要么截图、要么使用软件的 copy image 方法，或者导出云图数据，自己去渲染，当然最后一种方法稍微有点门槛。因此，我自己手搓了一款软件——MaxViewer，专门用来对 Maxwell 导出的云图数据进行渲染，不需要自己去编写程序读取数据以及渲染，并支持导出各种格式以及分辨率的云图，实现了傻瓜式操作。最近我把它打包了一下，分享给有需要的朋友使用。![](https://mmbiz.qpic.cn/mmbiz_jpg/WH5LbrDn8DQdQGAdOXRQYopmukOu8NuaADJTmReXtZRXmEEXBLXnwYFcaZo5bLmxPs64r5ibMRvbfce6YPr70bw/640?wx_fmt=jpeg&from=appmsg)
+我们如果想要导出 Aysys Maxwell 的云图，要么截图、要么使用软件的 copy image 方法，或者导出云图数据，自己去渲染，当然最后一种方法稍微有点门槛。因此，我自己手搓了一款软件——MaxViewer，专门用来对 Maxwell 导出的云图数据进行渲染，不需要自己去编写程序读取数据以及渲染，并支持导出各种格式以及分辨率的云图，实现了傻瓜式操作。最近我把它打包了一下，分享给有需要的朋友使用。![](D:\电脑文件\公众号知识库\电机_设计_仿真\手搓的小工具分享_MaxViewer_images\img_000_7832dacce564.jpg)
 
 当前这个小工具最新版本是 MaxViewer 0.0.1，目前主要的功能包含：
 
@@ -24,7 +24,7 @@
 
 目前版本还暂时不支持矢量云图以及三维云图，但有一句话说得好：先完成再完美。先做这么一个东西出来，再去慢慢迭代完善吧。
 
-这个小工具的安装使用，可以参考我的bilibili视频：![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQdQGAdOXRQYopmukOu8NuaicJvk0al9tInuTryicMibYLuMGYsgBPJ92zypcHZkt4DZrby2QQiaUaMGA/640?wx_fmt=png&from=appmsg)
+这个小工具的安装使用，可以参考我的bilibili视频：![](D:\电脑文件\公众号知识库\电机_设计_仿真\手搓的小工具分享_MaxViewer_images\img_001_8fad28a33369.png)
 
 ## 2想法由来
 
@@ -32,7 +32,7 @@
 
 ## 3开发体会
 
-下面分享最近一段时间开发的体会，正如前面所说的，最初的方案是基于 Matlab 的 App designer，开发起来很快，但涉及到三维，基本的视图操作都会很卡，后面就切换到 Qt+OCC 的方案，本来接口以及渲染等核心功能已经做完，但最后导出云图效果不尽人意，于是最终切换到 Qt+OCC+VTK 方案。在 OCC 通过管线将数据给到 VTK 过程中，我发现 release 模式下，程序可以正常编译运行，但 debug 模式下，程序却总是崩溃。这个问题折磨了我好多天，在我反反复复确认库的编译上没有问题时，我到 OCC 论坛上进行了提问，OCC 开发者也给出了答复，说这可能是一个 bug，让我在 github 上提交 issue，在我提交 issue 后，很快这个问题就被开发者归档，预计在 release 8.0 修复这个 bug。第一次在 github 上提交有效的 issue，内心还是比较激动。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQdQGAdOXRQYopmukOu8Nua86tOfvzCBeYxXqpqAFgKbJK9qs4kia70bax3ghalfAdRia8F58HEhmBg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DQdQGAdOXRQYopmukOu8Nua3gNtib8QN7RFicldDicOXWh5nbnzs0h9Zj4hPnPcRK8hLcvicfWZpWAg2w/640?wx_fmt=png&from=appmsg)
+下面分享最近一段时间开发的体会，正如前面所说的，最初的方案是基于 Matlab 的 App designer，开发起来很快，但涉及到三维，基本的视图操作都会很卡，后面就切换到 Qt+OCC 的方案，本来接口以及渲染等核心功能已经做完，但最后导出云图效果不尽人意，于是最终切换到 Qt+OCC+VTK 方案。在 OCC 通过管线将数据给到 VTK 过程中，我发现 release 模式下，程序可以正常编译运行，但 debug 模式下，程序却总是崩溃。这个问题折磨了我好多天，在我反反复复确认库的编译上没有问题时，我到 OCC 论坛上进行了提问，OCC 开发者也给出了答复，说这可能是一个 bug，让我在 github 上提交 issue，在我提交 issue 后，很快这个问题就被开发者归档，预计在 release 8.0 修复这个 bug。第一次在 github 上提交有效的 issue，内心还是比较激动。![](D:\电脑文件\公众号知识库\电机_设计_仿真\手搓的小工具分享_MaxViewer_images\img_002_316b6c0594d5.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\手搓的小工具分享_MaxViewer_images\img_003_1211cf533c3e.png)
 
 开发过程中，最初用 gcc 编译器，本来想着这样做可能后续兼容到 linux 系统容易点，但很多库，例如 OCC 和 VTK，对 MSVC 编译器的支持还是比较全面，并且还有 VS 这样一个好用的 IDE，为了避免不必要的麻烦，索性全面切换到了 MSVC，后面有兼容需求再说吧。
 

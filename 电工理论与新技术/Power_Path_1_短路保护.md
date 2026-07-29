@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Uyimpm5vTcgl0cyaFfYabg](https://mp.weixin.qq.com/s/Uyimpm5vTcgl0cyaFfYabg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRP3T5ID74WErctret16ibZnUg8an4b8CIutqOB94PUr1n6oibVZWZmMO5ktU6dvGGY0oklsBDqcUBQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_000_443af5c3596d.png)
 
 ____**★★★**______Power Path-1---短路保护______**★★★**____
 
@@ -31,7 +31,7 @@ _________________________€2._________________短路保护________
 
 在短路事件中的主要危害是由低输出阻抗引起的持续的大电流流动，因此为了防止短路，系统必须有输出电源保护，能够识别短路事件，然后快速和安全地关闭系统。实现这种保护的最佳方法是在输出上使用限流开关。该开关将提供防止持续不受控制的短路电流和关闭，保护输出电路。由于输出阻抗是未知的，而且通常有感性寄生，开关必须能够安全地退磁电感，因此需要一个回弹机制，**_图1-1_**显示了有可能出现短路的典型保护设置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYNy9U0l7nLGmfAh3J0taKaer5SOg6lpzYeuibExicYckWtbRXSicBQ1pVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_001_7632bd02dc37.png)
 
 **_图1-1：可能发生短路的典型保护设置_**
 
@@ -43,11 +43,11 @@ _端子短路_
 
 因为端子短路这是一个终端短路，有最小的串联阻抗，并且限流输出能够很容易地保护系统免受短路损害，短路电流的升降时间非常快，整个事件会在50us以内结束。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYW82uy4RBBVmrpzQZuMWoPe0ZwUxlcibxElheL0TUzDOaUAOib26vqPUw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_002_61ab917289f3.png)
 
 **_图1-2：输出端口短路_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYqX4BVbOumC5T3Hj2rvBqBYeMibsfVZNh5aZm1ibY5tKa9Z3vcng115Vg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_003_6bc5cc4bc252.png)
 
 **_图1-3：图1-2的输出端口短路保护动作波形_**  
 
@@ -63,11 +63,11 @@ _电缆短路_
 
 在通过电缆之后发生短路时，考虑电缆串联阻抗会增加保护的难度，**_图1-4_**中的波形显示高侧开关短路，短路发生在具有5uH寄生电感电缆的负载侧（5m电缆的标准值）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYXGzEA9Mz99jD05IMGKUNqgWKRaAN6lB7elpaa8u4LNkbQiatzYdl4icg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_004_0ea751ba44b7.png)
 
 **_图1-4：电缆短路_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYmgeCJnlGnUsIIVQUkBWMHXzdDot1fAdobysqLjadCEzpBt0gsXrHKQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_005_311416e65140.png)
 
 **_图1-5：图1-4的电缆短路保护动作波形_**
 
@@ -75,13 +75,13 @@ _电缆短路_
 
 由于大电流故障中耗散的能量可能非常大，因此VCLAMP必须额定值足够高才能耗散该能量，公式计算通过串联夹具放电感应元件时耗散的能量：  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0Wam0cXEV99X1hjlS4WtKpich1JWQc3XAQe6rniaTTiafyGeSdyrdquJtzg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_006_a304e153f41d.png)
 
 高侧开关的VCLAMP参数通常是40V到60V，因此即使是一个小的5uH电缆电感，极限高电流也会产生一个大的退磁能量，输出保护级必须吸收。在退磁过程中，输入电压也会由于输入电感而增加，从而增加了必须耗散的总故障能量。
 
 如**_图1-6_**所示，大多数高侧开关列出了感应负载能量峰值，因此要确保从最大电缆长度和最大电流计算出的能量低于额定能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSGyq6UYBOQibLib6ynS8u0nc4lSrZgxBBrGMR912UzyTV4gWSpV1qdNC0SPhA4mMYwcZUfPNaMfvUw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_007_c1d2057ef858.png)
 
 **_图1-6：高侧开关的感应耗能_**
 
@@ -91,11 +91,11 @@ _电阻短路_
 
 **_图1-7_**显示了串联电阻将短路电流限制在输出保护电流限制器设定值以下，因此装置不会无限地关闭输出和电流流动。在此期间会有一个高的、不受控制的电流流动，直到系统达到热关闭，或有一个二次的电流监测方法关闭系统。为了提高电阻短路保护的可靠性，必须设计整个系统来管理瞬态电流脉冲或通过最小化输出保护电流限制来关闭。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYRVTDaDu9ic2FsWSJAAoDXNKHDn0okEWRMZicHuBEAXejUkAjVVSdhF8g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_008_3b3da74c27e0.png)
 
 **_图1-7：电阻性短路_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRenq6opk5ZIUKx1bssUIyYW5bBmhP3aHpXEUa6FWbfTYOBnian8G7cOYlsCZYrfuEASamcrCnqPdQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_1_短路保护_images\img_009_2803e94741f4.png)
 
 **_图1-8：没有受到保护的电阻性短路波形_**
 

@@ -20,21 +20,21 @@
 
 2. 系统模型与控制
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIjjlfymbLLKjUeqzUAJ3D6kLJc6NnoLwhlEHfoXW9I1cJKJkLFibfu0A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_000_56d60ead2ca8.png)
 
 图 1 为双向 PCS 主电路拓扑，通过交流侧为LCL滤波器与电网相连接，直流侧通过电容 C 与直流源相连。
 
 根据基尔霍夫电压定律可得式( 1) 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIThDsM8hURqXYic8pgqYKqkBLq6HpicIgvYdQAq5f0DjO241iaRHp4CiabA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_001_c704d18631ab.png)
 
 其中，p 为微分算子，L 为 LCL 滤波电感，Ｒ 为电路中电感与开关管的等效电阻，Uk ( k \= a，b，c) 为储能 PCS 输出端电压，ek为电网电压，ik为逆变器侧电感电流，通过坐标变换可得 dq 轴下的数学模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIXGZ2FicR6icaHaTmHPic5eRAW4QThFGuJ2Yia4hlX0ZTmVS8btfE7wicibibQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_002_c7df5c265ce8.png)
 
 dq 轴下的电流相互耦合同时还受到电网电压分量的影响，为了独立控制 dq 轴电流，采用图 2 所示的框图进行解耦。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI9IyvgVz4p8CPIibvspefpHYgOLwTUc5asZabXyUhR5w1TfOLzVufM9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_003_24cc97a96e79.png)
 
 3. 损耗计算
 
@@ -48,115 +48,115 @@ IGBT 的通态损耗是指 IGBT 在开通期间，由于其集电极与发射
 
 为了更准确的计算 IGBT 的通态损耗，需要建立 IGBT 饱和导通压降与集电极电流的函数关系。以下根据 PM75CL1A120 数据手册中的典型测试数据，利用 Mathcad 软件的线性拟合函数 linterp( ) 拟合饱和导通压降随通态电流的曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIrjkK4JTdjyiaFc1JEUAXGJbnZBuS2AM8P22gC1dcTjRVtXj4lzU1olA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_004_93214bc44b68.png)
 
 IGBT 通态损耗为每个开关点处的通态电流与饱和导通压降的积在一个工频周期的积分，如式 ( 3) 所示，其中 D( t) 为一个工频周期内占空比的函数，Ts 为开关周期，Vce\_Tx是饱和导通压降在 x℃ 关于集电极电流 Ic 的拟合函数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI65zJRKlP67aK15udbXv56VI3QEkysRtX6llHzaQgH641bhmq7Q8oqQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_005_251fc4c3d72e.png)
 
 IGBT 之所以存在开关损耗，是因为 IGBT 在开通和关断的过程中，其电压电流波形并非理想方波， 电压、电流有上升和下降的过程，因此电压与电流有 重叠，产生了损耗。IGBT 的开通损耗同样通过线性拟合数据手册中给出的开通能量损失 Eon ( J) 与集电极电流 Ic 的关系如图 4 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDImg9cIKbiaMwGvvjVSLYqonYnjU2XTI2gmdSvy8zia8uFjjgN59oXbHnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_006_3b53815433e2.png)
 
 如式( 4) 在一个工频周期内对损耗能量进行累加，从而得到 IGBT 开通损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIpEvLgpPKEP9EiaicYRUACh1QsA3VFibiaCRgn5qlaN8gqx86CPEbrdHWVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_007_813a552bb2ec.png)
 
 图 5 为 IGBT 关断能量损失与集电极电流关系曲线，随着集电极电流的增加，IGBT 关断能量损越大，且呈非线性增长。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIzzPibU6J4gsdibHeSthvbYfEez1iaicyqR2SmpQlxyqV2qvGphWAgADaJw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_008_e1d7af910354.png)
 
 在一个周期内对损耗能量进行积分，从而得到IGBT 关断损耗，考虑 20% 电感电流纹波，相应调整开通与关断时的电流如式( 5) 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI9GY5pUTWOFv8ERrHtcbiaMfpt5U3M3Kiawez1HL3libIiaBjpU6nl36waw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_009_46c20793276b.png)
 
 反并联二极管的通态损耗与二极管正向导通电 压 VF、流过的电流 IDiode有关，而二极管电流也会影响二极管的正向导通电压。图 6 为 Mathcad 的线性拟合所建立正向导通电压 Vf与二极管电流 IDiode的函数关系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIzibhOjU7ZRyibKtWibY26YJHBHVQaMCzodrEJnpclAicgmSPibC0otCjuAg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_010_1114e6869db2.png)
 
 由二极管通态损耗与二极管电流的关系，对该函数关系进行的积分，得到反并联二极管的通态损耗在 x℃如式( 6) 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIlLnzhTIRNSY8jHZLicFOToPbzZiclgr8jjd4qaydpUQlcjRFrzObygXQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_011_c2647f50407d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDImy8Spl4iao9Cf4VzN4EMEXK4uAOj06N3uOIvR3OajpzWvURqAY9MnHQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_012_376bbe104e09.png)
 
 反并联二极管的反向恢复损耗通过线性拟合数据手册中给出的反向恢复能量损失 Err( J) 与二极管电流 IDiode的关系如图 7 所示，可看出温度对其影响较大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIOnVSgzlbVyxDqhll7AqKd9YvWmOOR8CKFvgtIbBVZbo3e6TZp6sVVw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_013_9778782652f8.png)
 
 对损耗能量进行累加如式( 7) 所示，得反并联 二极管的反向恢复损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDILaibrecPSx6RbKL2EfqhVRhEDSeKPFCJ9M9IiataibcHdNBotwInLJrpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_014_093368fe6c6f.png)
 
 当储能 PCS 工作于逆变状态，调制方式为 SVPWM时，易得 D( t) 如图 8 所示。
 
 其输出电流 Ic 如式( 8) 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIB3VhIea6dchCJvrzJ6JYpgyTgic3Licc1l38BBRLRUB2LIeOdLa138cA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_015_0d5cc67bcab2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIibfpOjHdRlJB3HeHHWHlVQ4K5f7VDBT3meTETl7GfAGA9UAibK0bGMmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_016_69964f373232.png)
 
 综合上述分析依次计算在 0\. 25 载、0\. 5 载，0. 75 载，满载时 IPM 的总损耗。如图 9 所示 25℃与125℃的损耗随着负载加重而上升。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIicTaiaw97A0ftHahNjKncFPj4f8qnhChicEt5jsECuWQ407Fa8CNqqfOQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_017_342b542ead4d.png)
 
 3\. 2 电感损耗计算
 
 电感的损耗主要由线圈铜损、磁芯铁损组成，其中线圈铜损是电感电流流经电感线圈发热造成的损耗，主要与流经电感线圈的电流、电感线圈等效电阻有关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIjGo9NlNTmC6E9bY0nGBMSydthDice5GNQibQCV6swA8Wy5bOvffic8lGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_018_23c5ccf33271.png)
 
 采用 EE 型磁芯，可按式( 9) 计算线圈长度，其中 Np为线圈匝数，如图 10 所示 F 为磁芯中柱长度，C为磁芯中柱宽度，K 为绕线系数，取 1\. 5。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIPZ1GA1uYPiciaCpibcnRJxAv0vZtibpNQuCgz2LFBfmsz3jiaTyiambBrDqg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_019_a6706486bb7a.png)
 
 根据铜材料电阻率，可得电感直流电阻如式 ( 10) 所示，其中 ρ 为铜线电阻率，S 为导线截面积。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIOg1lwA83yXUKrmct8bjdY9GS8jpVCVGiccQ1gcPF7p4b0DubeHa4LyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_020_b9469829783d.png)
 
 根据式( 11) 可算得各个负载下的损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIIfUGLClLCbvI7hM75SGkNcdrauX9z6JNwN9K67aBj8BLWrFOia8YoGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_021_2719f5173b53.png)
 
 电感的铁耗则主要由磁滞损耗与涡流损耗组成，由于 PCS 中采用的多为材料间绝缘阻抗较大的材料，如磁粉芯等，因此涡流损耗占比较小。电感铁耗是通过将电感电流分为高频电感电流 I10k与基波电流 Iac，计算其交流磁通纹波，根据交流磁通密度对应的损耗密度计算损耗。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIfialyrnOnwspTUuZoqO00D0cJlqJ5aCuydicbrSYk7F1Jic4jcSDwFQSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_022_9a6fa64fba8e.png)
 
 将式( 12) 与( 13) 计算结果根据数据手册查询材料在指定频率、电流纹波下的损耗密度如图 11所示。磁芯损耗密度与磁芯体积相乘得到单个磁芯的磁芯损耗如式( 14) 、( 15) ，其中 PFe\_10kLoss为10kHz 交流磁通损耗，PFe\_50hzLoss为 50 Hz 基波交流磁通损耗，C10k与C50hz为该磁芯在 10kHz、50Hz 交流磁通下的损耗密度，Ve为磁芯体积。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIX7xeYRbzpwbnQOEzYEdZziaHwdibpvsibyjh87lVibN3DaFPiaxZnAPOJwA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_023_8e3f110fdbdc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDInAmQl4JONWDwqBNqBzjmm95ibKLhQTB3lVqdgvAoHA37oe7kuzM4j7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_024_0ae417f21247.png)
 
 易得在 0\. 25 载、0\. 5 载，0\. 75 载，满载时电感总损耗如图 12 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIibBzHWx2bHghyVs2YPUWwPicEDwH1vIeF9kKoic1jas0ZY8MBibxjlHz5Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_025_efd50ec98d5c.png)
 
 综合上述分析，可计算 25℃ 与 125℃ 时储能PCS 总损耗以评估其效率。
 
 图 13 可以看出当变流器工作温度为 25℃ 时的效率变化趋势与温度为 125℃ 时效率趋势一致，储能 PCS 效率在 0\. 75 载时达到效率最高点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIcSqCfricpJvmTahSBGkmKicvAv6Jj9P1icZtTGW0EiaLlkJLd5hTjnY8gw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_026_47aee4eb8365.png)
 
 4. 实验
 
 为了验证本文所提损耗计算方案的有效性，基于 DSP 控制芯片 TMS320F28335 与前文损耗计算所用的 PM75CL1A120 智能功率模块搭建了一台双向PCS 样机，测试储能 PCS 在各个功率点的效率，下表 1 为 PCS 样机的参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIxKPuStc5icWhtcJvHicUuBiaznCicxD5fQAtmxmD7fcVdBlahBZuDicbgibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_027_ed92aa831732.png)
 
 PCS 工作于离网运行状态，为了测试在逆变中的各个功率点效率，需要对直流侧电压与电流，交流侧输出三相电压与三相电流进行测量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIFEl8A4SzzZG0eDg0SpCUxdtugjYT24ULSnyXKD1EMU2C84Cic7MQy7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_028_ad7da0773184.png)
 
 图 14为储能 PCS 工作于逆变状态 1 /4 － 满载12kW 时所测得电压电流波形。
 
 测得上述各个负载点的输入输出功率如图 15所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIgoDuiafwzlib3YBKP2PvTBFoLCwn73l7Vx0bNsia2UwJAZpVQv1lUBVGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_029_760fa201a35c.png)
 
 图 16 为各个负载点效率曲线可看出 PCS 在整个工作范围效率由先上升后下降，在 0\. 75 载达到峰值效96. 25% ，与前文所得效率曲线趋势一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIvJnicK1srZibKxOmydCY6uMtIlZ96H3rQY3e8aoJLw5eWmViaq3DSALpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_030_6e89971d554b.png)
 
 5\. 结论  
 
@@ -164,14 +164,14 @@ PCS 工作于离网运行状态，为了测试在逆变中的各个功率点效
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ILnqiaiabsaGgdiaUxSazXzMI3qcrW6Wy7U4cZ7ibKDkiccZ1fvUicDz2N9RQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_031_8c7e1ce5a1b0.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIvDuHqMqw4NzkBLww55AokZ79ddHOF2VV3K8L19g4mVAcYVyBqNrYJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_032_b5a7d087f54a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIeJibUoHo0j34QnibONuR7PBvtN4bQKpbxC3Qz8GwYpdtMF3AU6zibghcA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_033_3c83fb393d7a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIPb5XNpOqLdKiaHtibOic2VBC3WV34acRiaVe8Je0EnHroDlNh0cEC9EM7g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\三相储能_PCS_损耗计算分析_images\img_034_6fd1b38e24d0.png)

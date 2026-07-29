@@ -8,199 +8,199 @@
 
 作者：Johann W. Kolar, et al.
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPjEeT0ZOS3KH0Q5fTN0INdwnBPmaPdcicWYDszK4n3BNiaDNCxgT5FYCZGJicGhWnjSTKpUcjqzpOibNYhlm0fddA9iaqWyPuJ4dqo/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_000_b8af73612a42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMFLTrquiafLLicic5dUPibZ5YlvgJ1ZffnsrljUpGSiaWPNia0UiceQFC6zibr7VpWQzD02W6ibjZSgD5ApycBQLrffU97nfQNJ1EUmSTQ/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_001_b20099adc510.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPIpBh7CibqicXQdYXziby2am0PszxLBqcRHXXf51mbIYg0Qa2y2icX7NzptHpRD4rHicTwIEZ6G0EFdP3gbyRO6DRRmOEG4Y6uib62g/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_002_d2660938c855.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPmJ8zYkjJHicj1cm9wBG3c9xBT8jI0AvLibZ22tVBJngAa54g7B4wkdIFNa0tfuFhyvnq7pia4Wiby9RYsMbXXdpSUmNa93XEuQiaE/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_003_a3b5133756c3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOXWkib5CaibulHIx5ZsiclqpB4WPYkxKl3KTnS0w8939nvwPXrKWiabBR0YdXA6dQeiaibOXVtqehMOw7eibnAX5Fx4xHWPtQvpym5pY/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_004_2b3902c27b86.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNic2icNnBibsl41uIVRicBFRicBOZwrXOCUcj7kGibsmSU7TDJYa8w61CVM5UO1DBSctObm32yHJclyWKdkzKMIcrQ31vRdRVvuPTibs/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_005_f6da12b12b5d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOibZOG6yoZsy9KUAYIlACCwBgiaAQliaEoeAqa7SweIy8u8StoHFsfjcn1C3ygsqAvAVvqF7iczNv6JhyNiaWuAPvC82lmTibzGV1Po/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_006_afd619a7ef24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOw0zwRF9GMG2zlEnwp2ObtvwZTYibMkRZtQcgMbUQTeo43K2TqJib21NfzyyCDfCyw4qorYy0icsTzWcvuBwUK2a0dqbYNiaic7mV8/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_007_db76593a177c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPwiaFD5SeRDGUb9pmcOxgmJ49Zcp4zZA09782BaqrV1ZY7RiaUrKuPmQEwqeTSLjClzdCUhILiaWr8KmjyoN76pQT0mh6mbMNl7A/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_008_72ad014e1365.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMMsZuxCdXOFOaEhyXv0whf54FgICgiaxxR232NBXDLyDPkafw5niaU6yhUPvuYAFSzldjpGXRmqZWEfaH9ECQasCZUJoLtC8fno/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_009_4a8f30cb1b7b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN0TLXdBKLcSKQG7PlHCRmynh4TibiaWuM3ia7W2ic3myOnrg3iaVOjQnPfoGGZ70Sx1uJyPsmicUkvrSQ1rVcicu1tPtpabYjkibr0Jdc/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_010_fcf56ee145d6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkZpaBicIk7bUgAKiaxJDG7yTz8zdkicsj8HicyxpsYib9bC0N86nCr32pZ5GWabEGSZEibkSK8UoqbtR0BdlSayVDqVrXulRvf8WRg/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_011_cdc50486c85d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNibuoOuAoXm08XFbEsyCrdezIE3AkY7677BoPG5cXpFD25YfV8ktcUAhPdvWxYXOcwd6vmibMFjMtnGSo76AkjBhyiao2APPic7v8/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_012_cbecd5930505.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtZNcS67DxAWK1gqoW0LdZOuLe06jP83ghzgVoTCKMOCQHFOLP4h5SE2K63n84UYY3R6M2ibnPtARicNgvOFhPjI37qaWSgJico4/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_013_8a2916f861e1.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPNTFl8SEcPIIykDtS6Bh1RoMDE6Pa7HHbibwlfqykj7QtaGJYew9KJCwjTaPv2yHHWEGVF21opT1LfvRdM3AwqlRGyZoGEq2aE/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_014_c1beb6aef936.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO8AaneTA5TaiaopHlrZpBpVOfxWZngTibWEsibgDTicqcot7Nic3Is737wQ1GwgYOczYAnyYgyQENQA8xicfBBFIEbMmN31icZAjf73M/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_015_45184f5eb7fd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMOTqibVqwYjk7964jibmtpjPVHhfYPncJUGe0UQUj8fAkSYg3er7hKXyuNiaETLnpwjgz19HdYpG7wElS0e6qxkGsah1LHamNxpQ/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_016_66cbf21021a2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP4NeWZv7UwSaycqic8vkSjaMN7wG5TYx7snkFia3295QhhiczcMN7icKqlcxkwibSibVkN2Sia8GBsK2v5iaPRuW4AvBh6JXIBUhdBnUU/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_017_afef0598a435.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNX0HF20ibvrwSibT6WYT5MYvAGcybia0OB4XyK32qPmMDBROkHzue1gQ2C1D6pvt3n6d670aVwU5lGK3Xc4fkD45dBhSPFlBeNibQ/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_018_eadde674c6db.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPmYuqNo7kxlYv3RcXgjZP9icRbk2XBRHM9tm7M28Ifxh495SETVMiaST5voyGt1KSr2x50F8NZpyDqGdEwmdHQdM1LUu5Zzic55A/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_019_ff49e106ebee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMyDibRTiclV2REOXcZSJI5xLyLySKWVjHLJcacJAGtIBichUmNxpiaUzZnlBCNe2nP0jtB2bj0CnlRqUb5vch25DKs7WB203uQQiaA/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_020_8168cdbe6744.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOSVtSO3SwSIWhqUjR5rPrDI8xOaTppwDEwicYcpuTMIicEJG1nR53U3QD8bQcaWdEzqrvth1NiaWeOTmbRPVNfVhGXkiajq3tMqpQ/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_021_d2c03bb527ec.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNSZREZicULibeL7fxgBJqcnnQVWukb1WjsRQ6Bo1XK07f9TSJM6kRLjdBEIDfh2zyO9OeekjicFqvJfTBXr2WYWXAO6ydJo70QKg/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_022_ff8ce7f00d35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNSFxrAYd5PzOItNJMmOnc0XXUsKwv0961uSXErPkLstTY2Jj6oxRoO0B7VOzjBiavaUF9WNjvkBEa57CiadfkzyG4z38QTj1LZs/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_023_4f77e57d9f2b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP2Ejd2wk5mq9NZtUcTP7tfefiaYYzbjzG6gL96Av6ibs4zcy8x76mCibGicPDY4JqVlzibKmXibxuhG9xd60vy7yhqs70KtpRtInHBU/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_024_e0c30b8c26c1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMicBnjML3UUHpMUNMcnicxhsST1toVX3ibXPC9UBcrfQqpuPZ1WDn9rnyfGMpolFhenpoZdvVI9NyuxoiakRX8wrte56jUk9SfBBo/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_025_5b5f061f4aa3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOMGj3Xt7QGBur5FxSl7FAPNnic1fkO1ww0LEmp7S1fYw1V93Via6bxeD0uep6oeQsZuFHyaIiburqvET8aXeKQ3hHwHRl0aLsibr4/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_026_a3cab5be9747.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOob8ibhUz1eNPpF7WmSOtQRtfwCWIwRkHK6gSAQxSXAunGcOelCeVJjROuQFNhv3RJXoTme6dibHrZ0ibicx7YbibTfzObnqxQ8VU8/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_027_a02e7a35ba33.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN60Budot18zibcB9Nq5L3PV7RWXXZU9pCkSLib9NfZTRibf3cNFEHegibGtV7eibs79lCHdCaPD7iaSxJRSTJqFgal76mMTYv99dz4M/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_028_431b4a2d20fa.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN3icr6cHib7jQ0d4GRWUCzoO5muuPWUF0wfl0mcicNicR2tvBibxicWicccVXgXPLvaPeGnTjXWABBrIxCSiaagZ7wh3BlJEMQ1XXy1iaA/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_029_427fb8aad406.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNaibAVWpkGUibdMJAokauGo137ChjFdoX8mpriafffibf4INOXSMGibLickVNpmW4QlFGbjibcD9arMlHQ1Uhz4NTR0jSsLF9aEIZPPs/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_030_806cd9870e04.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNjooMkVstNvUfvibRKrpS0ayFy4OicL9PTkHPa92aicfbMEflIEB3JPjicuFiaHE26dtnfNTLxgWYFMTr16943ghMImVBCIubQZyH0/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_031_8d00f5d6c6fc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMMXVwCIGPCrzVZpAb6vKF4G7iaPqqkpooyLtxJsTC4MibFhSKWNk7ksTtYeKp59zm1GqcdVyLgWuPXt4qCWjCaBzsdWelUE6Sib8/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_032_e563a4557021.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNNVerHg545lZptMV0S8D0C06n4FDqPyphjfnicpPx6DIwiahzgE8nGOjIIc9qxIMg0x02duoBXZEXxn6cKd7AmJu3esXwEqYjuU/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_033_3e36daf4a9c4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPLT4KlXMuWIWLklIl4kibicaOcAuwiaz8mQwqCoONnQa6ojibbMeNW1zygjSCscvNYzhMwT6VTbU3udY16UH5bnibGQSqzuaK7QyFM/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_034_c002d48094b2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8ogia6IYQ37ibqvtAwn6LOK93LqRzuIVSXcVl2ZPYQic9jYDm04G6AwfOzOricj5oo7zrCuYsIOynXR6S23ETuMFLZWVeN85m8j4/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_035_a27ef5a0837a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOYaWv7ib9mribUicB0vLkXwj4PEdwSBbVOWzOakib6huqX4owbn7EkuGqic65IInJFxpsicJbxRywdZ02jXtHKOOc8Z2aiatbvV8kSpI/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_036_3f532b1b5967.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMQtJic2vI6FCblvCaSQYlHfy8gibCBkAGuv4n4sb6ibf4NG0upSczr4lbELxpr4JZMtcxgb8WbzbwFrCPJIy7t85zV72EU6dnH4w/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_037_bc455ea839c8.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjQCjjJiaSTl1Esw2ELeVCicl5gmUn4QbfVbqgRtic3pmvbzQscZjTJXMGv0pJCkRsibQOVWktbl9IbJkRfxMwhUWq1wDcyNFE95M/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_038_ceb60b1839c9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMaCI2PHiaGz6bCHiazegA4jiaNsMCKBSuiczTiauRrNGaLWI1F9RQ5EJcXIboMVNriaXvPIRasxU3btbymCDeR448GvQD5NIVKE0ZN0/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_039_fa2c781a0b40.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpODlM82hhzzyyZcIO3naahptq1HI5F1MZULfkzC45cd7xniajKvpLmBib21mTv37oYK2obnMga05dlBPRzbhJnfZAoc3VNKO5nlg/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_040_1f7b23ad38ee.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMQHicxKAhJlJG3TC5Kbs28uY8ul5KYE8axvXgy5WmLiaZygO2sqHiaK0rzSmYuAFfckkNicCU1Sy2rwqnCSowthr5Yv4hb6G95bIM/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_041_8944d31586ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPRLhm6BSe8fvjajDOVpsljCRkIEPlUicqaA3Cicu0vFaicHdcOCLqOHKHEpAAt78VhCGRcQmAufqDwc6ybl38BhqqwbsJd9RiafLI/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_042_37cba4e966e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMeMuhRRITlU82ic8kVYiajTtakKxL9wY29MsTiblibLfnalLqx2T2bScKfFV6m2SRibEfn7sYktQhwtj2MlBdRAeSYk9MuGcOQsPDI/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_043_f63b3610535a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOnK0FOm3vS1YOwtabploOS16Hib52FyORRpOkGiaEe0AA6ibCrnhqzmYpTUU428yloRwS13VBEJUQicOs5BAEhbh2jZGNGESRYJoI/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_044_9345d7be5fbf.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNWcvlPaAwibz7B8yHKsrHQOs2shFUUB0B6MJC0w4liaC9mALBWrQeKWxQU9l6lHtkkibHZIs39lxDGURsu04dj7RTmGVXssz4RaY/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_045_e9ca44b1b465.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMBmk8iaic0f9licBRWxhmnUPKdH44EW4JJQ3NZ3czrFRCqlDZuFpzOqxcrvgEPibteH7e8ibutoH7LibzE6R5fyr2cqFbicxxcqhVdvY/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_046_85613e96942f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOO1qBCl9IlB5IoP006z786Se2Ef8PdFnuOpSAL9VxeqxVXNbUyycfqpg2SdadiapF7FpW1VB5k4pYTwhrzwqdVR93BYhVajkek/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_047_afb15df3756b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOxvfWHax3FNvtSkN521UGXB5ZcREhofCMrPd8XqaxEAV6SJP55lMlGxtevBIH0xbwbngrgD1Kx1xyyxj58eYmiabcmI5Um2qOM/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_048_cb8441a962c4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKGbszm8dxqFHMG2Eib0U07WL6wXDMo6wia70B3Qiba3uiacRKKjH2GoyCHFShFNzXlILPjlr2hmWwV8TSmAUnlzzDjeqpEiajIoYU/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_049_875edf2012a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicmLLcHqDGW5K3ZsCwF3gUzcTZETeb7J7EYa6fmVBaIquSnVb65wpSWNHaoA0j4kviclcqCia8jagkVy4pVJJ2gx3KHUQvaZJjE/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_050_c2d161893131.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNnsLvSDVHqp2ibyicrYXdiac3ADjaxmiaQ8wBIyZf0ACsq4AickeVZv72k630620ebX0zibHL3tNlUgHQaxsnhw7usIJgZvGomIbpW8/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_051_c3111f674234.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOwhRxEaTVMtic3ACia7QaJPtZcugQBXLFaooOr92Ol5YAicibU5ZI6ECxwqzOeFgK4hpna8ibkGdOG7EMVUJOnhicwHoopiaD1iav6zOc/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_052_51cd24318adc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNj8aHEGicF4wIGWPDTn2CNozgfG6OIsMIxrJf7LUeMGM7iaQNgjiaM91kROibQw1H88jOu6bmAXuguXcr2PqyQNSgBo1sSCCGXCfs/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_053_d0b9f52a2eb4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOvicmGs074XVkAwXwt7yxBuPchM4QCIJ6LvaRwk811E8qF9YXib2BicsM5aN1bicEfGyQsIgd4gVJQDRmMScw8ejYoVNOKdmj2kJ4/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_054_49fb972dcdb4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPt0rjwwuiaeZicwleRXGOicvoPN4u9vBSSZHqM8g2llEQ2icupMw7EuSHEGx9pRAquIOicwQXicfjTJXK4DJg41Wmm7GvXqYCMHljm0/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_055_0f5d1524d17f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNU8k5icH5EYdbuRNcCmNM5icvtLyjBMu6ovKpPfMLuoBwbpt1s66Zibvvkx5k6jS0aYSG8vJnNKHYZCibExUPfZNfFticic9kXicVqGE/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_056_d330ea2da141.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMdg8aborhAuhNHjr1LEqcU8xyXBOXstsrDOyPyEoeSvyJibPZ3ibmmXibwjdrbV8ZK7PWFyYUxSDMwCl4sVRpy4sUE82ib5UYfPo8/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_057_4e8972c89f57.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP0umBZ1vhh0YKjeOjkAku8V5cAFIiamohmBkqfjzg6rFgEW0NV1RUbygguMyTplpsgWBdDF9TwayVrYqT347jich4SHnQsToBwc/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_058_696556020146.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNewxLc8YYhALoIrM2MWlofym1K1YA8hAeZjPmXWyH5JSHFEH6R4fNIuy3WLasvwfAPZMqbiahdGuMmoEdKFriaoMFMlaxYkaouo/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_059_0f1857c175f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNEh2SKoyMWLN5VeT5U0h4DXHSdSQ3Zibxn0uMoa9jLRzqPQXV1O4LDAbx7G2nSPllxKhhpONnsbfKdatiatjPJMALcqSWFMHcYk/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_060_14276877d0a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNpMIF8B2ypNax3ZMdFSFgUAibDsd7SqkjR3J9zMh2In5ybKCw5n2SO8f3ftuKDrAnM8c2ymaecKIuAm1OelpkHkibNsygakfUBw/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_061_eafe3a0c36ad.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMUJtmcQuEVb6sqTIZlSpoEsLGdaDKmHU9gk7nyibglTWFia5v1E3BCh5EqJPk7TcB6I8H8ia1icjC1Jbm94avBUeofqv78DHyicMnE/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_062_8386e8944944.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMoSDjGYfVFGJjsyu9852z0ePdRozSBY6L6graB6Nj9LLu7icSTontibeBwYLsS3OvrmqS08fV9riaibicIv8W2TiczeSibkpCH74HmTo/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_063_092e2f047aa6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOgtOcfhOL5FZz2tp517HAibiaTxCx4TKjFAqsluIID6YaC3z9qxFEFQKq8lx0BkUPBxZkPiaMzjdTKFdu8ZibjvnlhNyD74fhWza0/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_064_4492c919ac86.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOKGZP3W0AQneyT0KLibbEfNnWeHhpadibC3sfLoR9jp2VUXmYHkEHXa9x2rDbhW8LratK0DgVSNfqTQoLYo0Na3hZB77ElcDGco/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_065_0db57c4c6ef4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPQiaHsibC8MryhkVSEvTicEpDy4dmuVebWLg1HRWd1MyDH03bvicRNUaaBcJl6Zty4pJrHYzKYpViauv0WOYqO75x60d8lV4JwsWLs/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_066_303531e04076.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO8DhGLlLrEbB6PnJP0Vw4G7dgD19F05gJGcT9TXPpKlSLBwSyu9KfERHFrKekvAs1QhdAIMgC2S4D7TDOTnoXgLAibdKfDrZ3s/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_067_419fd2d1134f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP0E0JN95WRKOicYgOK54tgZ050GiaVRsTpIygEaJPvD6dm79uibrc8f6XySgoLmRU0XgerXdFQdeyTwJOIsdwTvzWCte0bPP8oZk/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_068_c26b9213fb12.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPibdotbjAHjzgK4ofDg0oWvGAfoPGwlOsJSPffCkQLBuWvIYHbD9KulQDicS6YoACrDciartAqjTXyetHJFcSERz0qHGYQia7WLlM/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_069_9186ddb0a8a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOY1CIB4aE7OLK1ttVBym8xl0iakzklUkpvfdjFCTlMThALuTWpeBJ4FBQpWz0J0EVsibicY7uvNWic5Ric0CzT2aib35tfNh52WSYHc/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_070_db15d45c7ac5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPcGLJ6nxQZ79NyibUjpxWzBug1YvERl88reQITgqibFmKUt1syEerB6YnCGiafbguGfhdPtKibrowpkv3GbeU4ia0RWibhS2FZqt5ibY/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_071_a35158ec3f56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOeWw4D0iaPwsRPa3vvVWKVhAfwriakTIFqtl5cOTiccxuglicW7yNIsFGrOegau8IdtF6o95eKo3icFpFMUxTC6ZyIGv5HTx9RtYgk/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_072_70590a93dc4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOiaicIoYtv64k2HfibX6G4mtic91HwiawFMjuGLqyTFfhZIYg7scCq8WIsJIwHlibkRvqPtQWPB4SkhNEOBtKPzuIQhlo7UMbS9tgIA/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_073_31ce154ee790.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNL6LK3WyUp2xJVe1aCMibLLEgdp3A9xHvwc719n4gBJsDCzyox4FavfBljUibSFiaKZBNSzSoZPoYOWBqamyuUoLurYTDuMe3ziaM/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_074_25fb4861901c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM7fTDpxvya8TdoxrTaDibhk5XVQibo5GuiblE0Kj2xC9zTeupiasSdXGCDcic36LnWSYblT4P7Hh7hLicvZHujw6rKc0725QP0euy5U/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_075_33f10c4b60f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMd7VRGh1YPc9zUtzcuTVLPFGWgibOBpto7UcxBBNazZNL3Eia39KtheJemlrbXKibKWhj7iaBNEoNK1ExnEmov5IuY0SVfNEBIkzg/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_076_c3781090880e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOFYOe6jAqiadRSHq10YmsibTPQUWfs9BB3YeTBTTic1pWxvxOiae7xpabYPJuFXL3o3yp4GibOicPNg4cwHGuGpgiaBJLdL2SHqwgztQ/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_077_cf60eeaf0504.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMxtiahgA2arLNM8kVcaCtGj1auh6TCkr8pMYERCYBKArmhXf9NaJomOgR19ZQFKhym2B9MYfkB1oSm7C5DZZ8ZbwdFIY7hVhJ4/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_078_86a36c0e8011.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOEDXUKEXX0qS5NtNuMialm3KUhcMNVTttngAzoRS84fKh0o7MPld1xroia39dkBlUZrbQ5E9b7LIdZyAGyMibaHicFRItZU1lia6NM/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_079_1d611a980490.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPZ8IeNvZy595jPuA4o65vByx9PvVBnMS0Qiaztl24WniaIKmzqibxTgicuMW5U16zSDbmK22tibgSYAamO6kCLQMic7yBV2VcUDFexA/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_080_7297d6dc464b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP5GJ768HM7MQl27icn8q3qgkb7mdU0q1hqtb6KUsyde6TqFa5yG8blKHb55iaCl8Qzsh9uegy16icx9t6fH7fKev5NX8sq0p1h4s/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_081_9b38bdb47378.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMYD1eQjSTIqQbJyKpYoRlXqNibia8JoIppvymBpboU5e4vPIh22wuVLWmSVCosmricPic0Tkgqm3ycvGicyrYCSlYCibicqVVNINBTsQ/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_082_cd77aab929a1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtyZic6LVMibdIuzLnyibBONBDqo9n77s5PPicYicLlwMXAIJe9Lia1DzW4yCrfoHEXr9lvkAlNcibFyPrRstFiac9Heoyjy0kVImr970/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_083_ae912f1d4c07.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPiag12qFfd3uAx72gwT9Vmwpys7ZIXaDCbToUno3ACQicDXnkib4YKzPwpcCZUpbbLG9s0dMiamhglfw6klbzriam1wjjaYQDBUcyA/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_084_f8af86ebcfeb.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMPMvdib2sCHW6Aenc0RpzgKWRVnRVUdiaKVp1Hbhnlj1th7ctnDJk8E0XTnrAaMAuz7Piav2ftFhRE6IKichsXLkeZg7SOMzzMibuQ/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_085_1eedd3ba1c0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPwOrj0icHgqZkKzF2eNL5YLiaC3vn9sYwXLmibFzdKpWjUebdnGxoiceyHME6ySibCZ73nuOblLPjV9M7zhA27cbic5hvCPSg5owuR0/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_086_9d197ac082f4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNAQRpR5bojQj0Py3HYGPAOqFtAkNqTF4yAIRKj164pgicTzo0nop6qZn3It6lo61OHYaFK2MkJiaGtjFRcjqWSveDiczLugth0M0/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_087_fe003352f042.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP0icxa3x2BN9ZiaQvJsVOq72KvP62VkROPia8Mcvo6libmGeCFQtBj7sS2atTkJgUzsmEygGqNx4TXMIKUBGukm1icLmoFvAtFNIEw/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_088_3822d6de849a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNfLF2icI0zWibsA60DicuApHETjjricVc28n7z89y8NuZFnBg1tEqTqWMKkSq53bQEpeE3KPB96nIqY8RclrE7zrHoRHuGUa4ntrk/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_089_2e2e93d2f94b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP26fqFEd8cCyUBFo3vsOrVamTG8uAoTZxwtbH7Q9h1yDTFw8wnzz1BnEZPcBtajmmJLUibp95qnyoaVBsOZpssZJUecBJ3kjRE/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_090_d400d35b6e4e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOkiaiaia0Wclj1zLiavDrzDKUsO2ztmS1yP1a1dqtp1x4ZM2ic5pOhFEXRhLNm8lYhPPRNnHNMlVtCJfKKeBV1LjVeOg38RxmwAliag/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_091_128f57d768f6.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOEPQoKzq3Ck0F468oibPTVD9S1hxa25iaehyOGO1K5wUCjVpj1qbhvA2icVcPZsMs2YhickbLeThiaFP7xY0JUV28ibRpjXAyqHEpes/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_092_d7f587ac600a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP6Lw1cOIsO46pe2l9LwRtxqbQ9GU6OR95tlps3ScZ0LBsDUjGVSRGpaIlGkIvGGpng2yZlLmJN529AbaPic3s1uBuXpppRQFjg/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_093_fa0071290a18.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP7E5Qdehv1wQ1ibfzaLH2kF1OOuIyd13JFIdtoWtDXqR6T0nj07d2V31onRNCZTWCqFf1ibw7tHjB8qGTNcvkWzsRwKDD7CPc9Y/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_094_0981aa3cbd79.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNL8RI4hRT1d8Y0lIoC85yiaicHIBTP7jkiavrfpibBRicTkE4ooMNz77ruzuyA2TW6HtsiagricLMrPwDvNQ0JOZA7Zv3f3cPMiaJJotk/640?wx_fmt=png&from=appmsg)
+![](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_095_68fe1828dcbc.png)
 
 注：文字与图片报告无关
 
@@ -352,14 +352,14 @@ GaN和SiC将继续推动开关频率、功率密度和效率的极限。
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPeMSn3gXlDt08RSl53sia42KL2vc1VwD2fialnhibFQmxgLJqAFib4PniaIkicyJ49j365MYEnbYicQ0kSgkO01z55uAChMFLIdoiaj2g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_096_bd3b1297416b.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM4ZawxmntsGGILYSTosxrj3WMQYHvJypYUuiaWwAEYBXOVaNbNstJ1RZVb3nZn0hTlNnXicGib9MibVhK9qEkYzP92L81nBGiaMQhM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_097_3e41e45dd451.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtgCibSEiaB0WEAHuBm2MCKCBibK5fT4ZsCEegyzTxpcDpk0ic2mbH4z3yVdEdES64VvkWWlNZoib8H4wibECHd2IKbl8IVskpa0eG0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_098_6039b7ee1c95.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOlVIsHHkHFicBicQeWEgLurD2ECwrzN2RILWbibqE0UzlNl5hYBUEfgqJYU1wrJZAODeyib0Gdkm1Efz8gqda4tHDIG1jRicExEtVo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](_X技术_X概念_电力电子进一步性能提升的关键推动因素_images/img_099_45caf66c91b0.jpg)

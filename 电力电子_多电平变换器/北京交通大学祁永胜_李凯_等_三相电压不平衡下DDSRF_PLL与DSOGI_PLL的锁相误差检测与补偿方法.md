@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RzpnoOgEeezbfT3EpfekUQBNPIMhQ7NWzK1sPBEXujp4icHvFiaMVI7DHVUmbSv6E7WicsKLf448Ifg/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QcgRMqgxDJ4LsHHM4ulFQp6FSzyYUD6ibnLP5hmU8WJicXZK76zQ2Hc6FSNxxbMPQhC6jvsxRsBfibQ/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
+[![](北京交通大学祁永胜_李凯_等_三相电压不平衡下DDSRF_PLL与DSOGI_PLL的锁相误差检测与补偿方法_images/img_000_1a701b02933f.png)](https://www.fafee.org.cn/)
+[![](北京交通大学祁永胜_李凯_等_三相电压不平衡下DDSRF_PLL与DSOGI_PLL的锁相误差检测与补偿方法_images/img_001_159c1ef65249.png)](https://www.acces.org.cn/)
 阅读提示：本文约 1600 字
 > 由于高渗透的分布式电源、多样化的负荷类型以及电网故障等因素，并网点三相电压不仅存在幅值不平衡，而且会出现相位不平衡现象。这种情况下，广泛应用的解耦双同步坐标系锁相环（DDSRF-PLL）和双二阶广义积分器锁相环（DSOGI-PLL）无法获得精确的同步信息。本文基于三相电压不平衡与锁相误差的内在关系提出一种锁相误差补偿方法，可实现幅值和相位不平衡下的准确锁相。所提方法仅需对电压采样值进行简单计算即可获得不平衡相位和锁相误差，实现开环相位补偿，无需修改原有锁相结构，具有良好的拓展性。
 **研究背景**

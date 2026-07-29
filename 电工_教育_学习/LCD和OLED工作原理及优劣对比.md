@@ -12,13 +12,13 @@
 
 了解屏幕的工作原理，首先要了解什么是像素点。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4L8n6sxXacZxqSAK2xwA7cDLPKVASobib9G9TOiaQbv8RibmOTdErcENdA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_002_e4eb7edbf279.jpg)
 
   
 
 你看到一整块的画面实际上是由无数小点拼凑出来的，这些小点就是我们说的像素点。
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4AoMKNNU63VSgdLliaumNSics7JKHCLqbyshHuwTTQqsvkc3IdaicCCWDQ/640?wx_fmt=png)
+ ![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_003_f6ec984a596a.png)
 
   
 
@@ -37,7 +37,7 @@ LCD的剖面图如下，主要有7层，从下到上依次是背光层、垂直�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4575jRA1ic2s5gib4xzjdsoABQFdk3rgicroejBEtaSKicR6drJl7hIzA0w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_004_f74d0136b01b.png)
 
 最底下背光层的作用是发射白光，白光穿透具有颜色的彩色滤光片后就可以变成对应颜色的光线。注意，背光层并不是像素点下面一个独立的LED灯珠，而是整个屏幕所有像素点共享一整块大的背光层。  
 
@@ -51,7 +51,7 @@ OLED全称是有机发光二极管（organic Light-Emitting Diode），它和LED
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4MbMsvdKBgLVR4C2zg9BeIAkzjDD5dcPoL7EBOWRhqJorGnKQblTdxw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_005_abba4ec4a1c2.png)
 
 OLED没有背光层，每个像素点都可以独立控制开关，所以不需要向LCD屏那样一打开后，整个背光层都需要点亮。OLED屏幕每个像素点都可以理解为一颗独立控制的灯珠，可以做息屏提醒，在手机锁屏的时候可以单独点亮部分像素点，以低亮度和低刷新率来显示时间和通知等一些重要信息。
 
@@ -74,7 +74,7 @@ LCD屏只要一打开，整个屏全亮，就会一直耗电。OLED屏只有在�
 
 LCD如果要显示纯黑色的话，理想状态是液晶分子完全闭合，完全遮挡住发射出来的背光，但液晶分子的偏转不能做到完全闭合。因此在显示黑色的时候，会有少量的白光照射出去，所以在屏幕上看到的并不是纯黑色，而是亮度大幅度递减的灰色，这个特性决定了LCD不能显示真正意义上纯黑的黑色。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4PhhMGlmesoZDTPkWecGYaCvqSWXERLJtQNFmvOIALbzhgp3qMQCSDQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_006_3c1ff91c7ba5.png)
 
   
 
@@ -96,7 +96,7 @@ OLED本身并没有背光的存在，且每个像素点都独立控制，所以�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4UXGPQ0rbn4OdYCjeZibS4ApLyKCzehbsOFXEnPLb69EE0PiaVrKHgBgw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_007_7f4094525dbd.png)
 
   
 
@@ -134,7 +134,7 @@ OLED屏电压是直接施加在自发光二极管上，导致电子频繁的在O
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY45QcHicNG4bmZrlYvrXnPW3W0JEWUeDna3FeeKyfH4ictGFKaU47cibTYA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_008_bd56994a74c9.png)
 
   
 
@@ -142,7 +142,7 @@ OLED屏电压是直接施加在自发光二极管上，导致电子频繁的在O
 
 LCD屏背光是一整块 全体像素点会一起老化。OLED屏每个像素点都是独立发光，意味着屏幕不同区域根据使用程度不同，老化速度不一样。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4djibRvT2Uxr13tcJdibdjic6vLlzxEicgCAvPBIIM69hsfaqNrYSpzvauA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_009_d66064f36bfa.png)
 
   
 
@@ -160,7 +160,7 @@ OLED屏幕由于本身的特性，如果使用DC调光，在亮度过低的时�
 
 OLED由于有机材料又容易老化，所以OLED不能使用高频PWM调光，只能采用低频PWM调光。一般频率为最高为250Hz左右，一些视觉敏感的人就会察觉出来，就更容易产生视觉疲劳。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaib5jG35FJ8bS7ia22N9JgY4ZgGVia790LZNscTR0cV6xNOxXKpOtrXDSgwf283USjIvj5ricY0arGGQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\LCD和OLED工作原理及优劣对比_images\img_010_79ae6183a17e.png)
 
   
 

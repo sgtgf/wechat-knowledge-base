@@ -12,7 +12,7 @@
 
 # 文末附仿真软件的下载方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1s3Q89PCzZyWSGvTxutJeD6X32m17afPGiaJdAypTEqaQibzqtkN3Pvtrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_002_407bfd7ab26c.png)
 
 # 下面对该软件做一些简单的介绍：
 
@@ -24,7 +24,7 @@ Multisim 是什么？
 
 Multisim 是由 **美国国家仪器（NI）** 开发的一款专业电路仿真软件，基于 **SPICE（Simulation Program with Integrated Circuit Emphasis）**引擎，广泛应用于模拟电路、数字电路和电力电子的设计与分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1sgaajXhg0PWNj832NnYcEIU2G9dxLicQTicXFSta20OjZPB0f42DjuIFw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_003_2cb9262d40cd.jpg)
 
   
 
@@ -43,7 +43,7 @@ Multisim 是由 **美国国家仪器（NI）** 开发的一款专业电路仿�
 
 目前最新版本是 **Multisim 14.3**，我用的是 **14.1** 版本，已经足够稳定，能满足大多数需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1sd9BWicsIAjSWojhSQIL3lMdlhAhBMM96AuNuup2yibaibgbeneydFw1Aw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_004_8d5164b5913d.png)
 
   
 
@@ -79,7 +79,7 @@ Multisim 适合哪些人用？
 -   **仪器栏**：虚拟仪器，如示波器、万用表等。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1sN6LqURZAcWr0Y4GBzxGIR64yeDthgvPeI4ftScicg05TCr7cFxzWByQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_005_7b6959dba623.png)
 
 ### 
 
@@ -119,7 +119,7 @@ Multisim 最大的亮点之一就是内置多种 **虚拟仪器**，相当于�
 
 最右边是工具，包含万用表、示波器、逻辑分析仪......  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1s3riaqKC7ZiaG83g6qqALjbebib8ia8vicsicWWeU48Sp7MjOicqzPVDicqP97A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_006_bd68fdaf4590.png)
 
 这些仪器测试的仿真结果可以直接用于简要分析，非常方便。
 
@@ -141,7 +141,7 @@ Multisim 最大的亮点之一就是内置多种 **虚拟仪器**，相当于�
 
 4、调整偏置电阻，优化工作点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1sF7QfA2zTBzF4HOojNSqgOW2Kt2klF4LibyXCGibBMIfQgWFZFpgzHMfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_007_b0a73a4d1ccb.png)
 
   
 
@@ -155,7 +155,7 @@ Multisim 最大的亮点之一就是内置多种 **虚拟仪器**，相当于�
 
 3、用逻辑分析仪记录时序。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1stVRdecwH3uzW3TSKn9QibNGXlxVEPStBrEzxLQcSpzg8FrbfUqoQcuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_008_e17ad39424c6.png)
 
   
 
@@ -169,7 +169,7 @@ Multisim 最大的亮点之一就是内置多种 **虚拟仪器**，相当于�
 
 3、用示波器测量输出电压纹波，调整参数优化效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1s3DSkrWjGgY57j899HcuC3mlWDdzzorJdicWNGJaiaLnibqVUP4fX7iaPSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_009_65379682cbfe.png)
 
 ## 
 
@@ -179,7 +179,7 @@ Multisim 最大的亮点之一就是内置多种 **虚拟仪器**，相当于�
 
 Multisim 的优势在于 **易用性**，特别适合 **快速验证电路**，而 **LTspice** 更适合高频和电源仿真。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1shu06Vq8SHSHiaeUAsIwBr7zGNBCSyu3P517qOOxFcO4yibkvb8ypfYsQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_010_dc3d464ef34c.png)
 
   
 
@@ -216,11 +216,11 @@ https://www.ni.com/zh-cn/support/downloads/software-products/download.multisim.h
 
 ## 建议复制粘贴过去，就不容易码错字哟！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgtDqt3vrbjHXS3bCG9PpNjsUogR4gsRJ32DN6WRva53zAHuEF2fAria9fH9aa4PJFFoC9KRC31m0g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_011_d15bf3460c36.jpg)
 
 加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjmwtF6nMUAQqAa1cyEdlvL3NYQBBqsVhlXicpGsSN3s8GxXDtribFvaq668JcbrraxY8tAmCibN0iaJA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=xfjdw7c5&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjmwtF6nMUAQqAa1cyEdlvLOiasB7xzWboEIvUYzElWJprquOpg9xDHKiaZ0G8LeW13BDyGR3oUGP1Q/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=ym6f90oc&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_012_c59271e619f2.jpg)![图片](D:\电脑文件\公众号知识库\电工_教育_学习\Multisim_硬件工程师必备的电路仿真利器_images\img_013_75c9f60d498f.jpg)
 
 ## 
 

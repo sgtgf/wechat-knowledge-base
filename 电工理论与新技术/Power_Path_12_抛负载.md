@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/e85gPPgNeDPA3Q-Xtpio5A](https://mp.weixin.qq.com/s/e85gPPgNeDPA3Q-Xtpio5A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWNzka3vNokbgNcbkemFhCYRKENYWlMIfDwicUVBm8P8dURQFhKyhpleq70DHDzRRDib5eEJPQ08WA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_000_d386976b779c.png)
 
 ____**____**____**____**★★★**____**____**____**______________PPS-12---负载偏移__________**____**____**____**★★★**____**____**____**
 
@@ -15,13 +15,13 @@ _____________€1._______抛负载的原因______
 
 在汽车中，交流发电机为电池充电，并在发动机运转时为车辆的电子设备供电。交流发电机反映了电感器的基本特性，当电感器被皮带旋转时，会产生磁场，转换为电流，**_图12-1_**显示了蓄电池与交流发电机和车辆其他负载的并联连接。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiaCyCoQZ3ZawTQrNibEibukxCO2Jib2lgASOepoLIsjjJQwCszCK0TtzOsToZE75N9qNwC096M4KukA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_001_a2a6595f450e.png)
 
 **_图12-1：与蓄电池和负载相连的交流发电机_**
 
 在**_图12-1_**中，电池充当一个大电容器，将电压保持在稳定的13.5V。但是如果汽车电池与线路断开，那么交流发电机的电感特性会在车辆的电源线上产生非常大的电压尖峰，可能需要半秒的时间才能消散，见**_图12-2_**，ISO-16750将该瞬态脉冲定义为抛负载脉冲。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiaCyCoQZ3ZawTQrNibEibukxNge6tEytKKkZoQX4po3JzGZia0mvUtmQez5AOPHxzv6dmdahS9RC4Vw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_002_aa47a8cccd3d.png)
 
 **_图12-2：蓄电池与汽车系统断开连接_**
 
@@ -35,19 +35,19 @@ _脉冲A（未抑制）_
 
 **_图12-3_**显示了抛负载脉冲的波形，同时定义了交流发电机可以达到的电压水平以及电压消散所需的时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCe9k0ZClqPVMPp3SADxAlqf7MOGF0VGlCwiawTaticBbR0VaibmrCeSALicA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_003_c0f7174d63c0.png)
 
 **_图12-3：抛负载测试未抑制的电压波形_**
 
 **_表12-1_**列出了**_图12-3_**的值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiaCyCoQZ3ZawTQrNibEibukxiagFicuticHX4NuNJ4E53G16EzfbCG0kvPpoqShN02eCIRFvO1HrFzZTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_004_c6f9130b67b0.png)
 
 **_表12-1：抛负载测试A未抑制的参数_**
 
 12-V和24-V汽车系统之间的要求存在很大差异，抛负载脉冲对工程师来说是一个严峻的问题，因为大多数器件的内部结构将在电压达到ISO-16750-2规定的最大水平之前发生故障，下式计算了IC能够承受交流发电机的最大电流：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTbWFstceaLHnrD7VyWLs0WbmvCg5SDB2uYN8Z4QLB60gsib2XMdx1lFJ5S6HZQ5ZjPtDibkFXUMiaOw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_005_062ab5157c2a.png)
 
 IC内通常有一个小的箝位或静电放电（ESD）结构，但无法承受400ms的这种电流水平，由于脉冲能量如此之高，车辆制造商通常会设计一个集中电路，将脉冲箝位到更加安全的电压。
 
@@ -55,17 +55,17 @@ _脉冲B（抑制）_
 
 由于A脉冲测试能量极高且难以消散，因此大多数车辆都有一个与交流发电机和蓄电池并联的抑制电路，可将电压箝位在压力较小的水平，这意味着内部电路从**_图12-2_**变为**_图12-4_**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiaCyCoQZ3ZawTQrNibEibukxner557ich88k39Rz9q2tmZHUwsoichtW9gZaM7I5HibIOlEBIHiaA14P5w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_006_6ffe7f472a9d.png)
 
 **_图12-4：连接到电池、负载和中央夹具的交流发电机_**
 
 该箝位电路将消耗交流发电机的多余能量，并将电压保持在**_图12-5_**中脉冲中定义的水平，**_表12-2_**显示了后续值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRIchBSgrN5OjUBGatxVHCe8ITBeuaIuUKr3IF5Iw0YXj0fYGEGxoZ8yySnBGE2C9licsABuKgdsgQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_007_cb631d5fbb21.png)
 
 **_图12-5：抛负载测试B抑制的电压波形_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiaCyCoQZ3ZawTQrNibEibukxY01vgrYwMG2hnRnEJe0OibYAnt9FMsIibX6TWPEAicibWOf1qib710KaibvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Power_Path_12_抛负载_images\img_008_e2c2b6109ae2.png)
 
 **_表12-2：抛负载测试B抑制的参数_**
 

@@ -23,13 +23,13 @@
 
 1. 蓄电池化成系统结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xuQ3Cgv7ywtBtHmTjP6wd3vHO8QUYWQKGLm2rich0OWptfEE9ZfJ77fw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_000_4bcbf3dbf239.png)
 
 蓄电池化成系统结构如图1所示。系统由监控、AC /DC双向变流器和双向DC /DC变换器组成。
 
 1.1 双向 H 桥DC /DC变换器的结构
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xw2vJ9pmKssmuLJDRpJw3o3fXVVT8LBt5icqu8eiaQuVQwjHdWTenqwYg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_001_562ea0377735.png)
 
 双向全桥 DC /DC 变换器原理如图 2 所示。
 
@@ -37,37 +37,37 @@
 
 设 VTi导通占空比为 Di，VT1、VT4同时导通，VT2、VT3 同时导通，两对桥臂驱动波形彼此互补且带一定死区，则输出电压表示为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xCJ53frAwI6UAic15As5bZY67wNescib3z2bORCtVkSGjG6lFhdeiaEjcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_002_1a846548dbf2.png)
 
 对于 D3、D4又有关系:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xL9qJhwOU2KI5ZX76WgtRt64ZjZ7ffDFNs1aZzXsuYvKqUg85LOXoeg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_003_8ca8ff4dec93.png)
 
 得输出电压与输入电压之间的关系式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xgeVUicNPtr4vmibV6kCIWj8PjbX5G2KyW8cJXmebhD84ogTKS575WZwQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_004_88249eee66e7.png)
 
 由式( 6) 可见，改变D1、D3 ( 即两对桥臂的占空比之差) ，可实现宽范围电压输出。当对蓄电池充电时，可实现48V电压输入，3.8 ～ 4.7 V电压的输出; 当蓄电池放电时，控制 D1、D3导通 占空比之差，使蓄电池向直流侧放电。至少要进行 3 次充电和 2次放电过程，即可完成电池的化成。
 
 设控制电路 PWM 周期为 Ts，VD1、VD4 的导通占空比为 D，输入电压 Ui，输出电压 Uo，根据伏秒平衡原则可知:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xSRnzDkoBnIsusunC6p7SOnnQ3yVMCwndptTiaKiak5pk0o3ErW8mbF4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_005_23852dc68291.png)
 
 经简化得到:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xQ3UriagqClvbtku2w2sGCfKoyBibjmCV3btvtHicJ0cVic72NzTFtmvTYA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_006_62598036f578.png)
 
 由式( 8) 可知，DC /DC 输入、输出电压变比取决于同一桥臂互补导通的功率管PWM占空比的差值，可以满足变换器两端电压变比的要求。
 
 1.2 双向 DC /DC 变换器的控制策略
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xIRwrXnZVsv5ohoqNnkHHMDwvVicmYjzfmDgyhcN3eQ6ibCqcg9y3brGQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_007_80e01944a585.png)
 
 设计的双向DC /DC变换器的控制系统，将模拟电路和数字电路控制相结合，控制系统结构如图 3 所示。控制系统主要包含采样处理、实时监控、功率驱动和保护控制等部分电路，控制器的设计采用经典的 PI 控制器。
 
 1.3 PWM 整流器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xqt0GnhXHfNNQvXtT1yBSmop5jxYSNQhY0ugKicpLSLjriaqLcPfoZ9FQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_008_3521a8ded3a4.png)
 
 PWM 整流器采用电压、电流双闭环控制结构，控制框图如图 4 所示。电压外环控制直流侧电压稳定，而电流内环按电压外环输出的电流指令进行电流控制，实现能量双向流动。直流母线给定电压值 U\* dc 设定为 48 V，与控制器采样得到的直流母线实际电压值Udc 进行比较，差值经过PI 调节器输出得到电流内环的给定值，其物理意义是相电流峰值，并与网侧各相电压相位的正弦值相乘得到三相电流给定值 i\* a 、i\* b 、i\* c ，然后再与 每相对应时刻的电流采样值 ia、ib、ic比较进行 PI调节，加上电网的前馈并与直流侧电压Udc相除后得到调制信号，与载波比较后生成 6 路 PWM波。该部分的作用为实现电池充放电过程中直流 母线和交流电网间的能量双向传递，并实现网侧单位功率因数。
 
@@ -77,7 +77,7 @@ PWM 整流器采用电压、电流双闭环控制结构，控制框图如图 4
 
 通过 MATLAB 仿真软件的图形仿真环境Simulink，搭建了双向DC /DC变换器对蓄电池充/放电的仿真模型。蓄电池充/放电仿真模型如图5 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xcXEXg5RF5nbKlFnp6yQOEscZ53MLXHXNR9SwAMKsMMicevfsxy2bm8w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_009_4937701af389.png)
 
 仿真模型直流侧电压值为 48V，低压侧蓄电池参数为4.0V/100Ah，开关频率100 kHz，全桥主电路采用4只N沟道型带寄生二极管的MOSFET 搭建而成，其寄生参数选择默认值，LC滤波器参数分别为 0.225mH、220μF。系统采用PI 控制算法，蓄电池充电时检测输出电感电流值或蓄电池两端电压值，放电时则检测电感电流值， 对采样值处理得到比较差值经 PI 控制器算出反馈值，调节 PWM 驱动波形占空比，实现系统的闭环控制。
 
@@ -85,13 +85,13 @@ PWM 整流器采用电压、电流双闭环控制结构，控制框图如图 4
 
 2.2.1 充电仿真
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xt8aRibquZ1MWf2h9DfTqOsfLnyHibFJ9z8kxw9MYVKOed8glyzPm1j3A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_010_09777c2356bd.png)
 
 放电时驱动、输出电流、输出电压仿真波形如图 6 所示，从上到下依次为驱动、输出电流、输出电压波形，设置PI控制器的参数P\=20、I\=5，恒流充电电流设定值为10A，根据仿真图得出输出电流纹波为±5%，输出电压稳定在 4.335V。
 
 2.2.2 放电仿真
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xyXPKv5RIW56QjZUxuMw6m6QtzA9l4KGLuDv6H0UgKzrVJRjpwBic84A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_011_e920baf37139.png)
 
 放电时驱动、输出电流、输出电压仿真波形如图 7 所示，从上到下依次为驱动、输出电流、输出电压波形，设置 PI 控制器的参数 P\= 30、I\= 10，恒流放电电流设定值为－10 A，根据仿真图得出输出电流纹波为 ± 4.9% ，电池电压稳定在4.314V， 直流侧电压值为 48V。
 
@@ -99,7 +99,7 @@ PWM 整流器采用电压、电流双闭环控制结构，控制框图如图 4
 
 3. 试验波形分析
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xC5OtyeaNYs5leuZalaPILagibibOnhkiafSRf1BXQh7e4aTqXIbpw2zPQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_012_f94aa60db2c5.png)
 
 制作双向 DC /DC 变换器的试验样机，并将样机与前级AC /DC双向变流器结合进行测试。
 
@@ -107,23 +107,23 @@ PWM 整流器采用电压、电流双闭环控制结构，控制框图如图 4
 
 VT1、VT3 驱动波形如图 9 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xPOCPz39hOxdt3aMGKMSwc7Exye94ibGaQF7sJ3qzn9zrpIsibo7mgjlA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_013_da380a579f41.png)
 
 功率管 VT1、VT3 驱动波形死区时间放大图如图 10 所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xaxW4bCPYKaJ3PeN4v5Nvea42JNVJiaibriadJTEFBjZdFrT8SsmrRKPqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_014_0c1f3edff63c.png)
 
 从图 9、图 10 可看出，两路PWM互补带一定死区时间，示波器横轴上为 1μs·div-¹，故死区 时间约为 800ns。根据功率管的参数知，MOSFET功率管可靠关断和导通，不会出现上、下桥臂直通 的现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xiaXXef0QLicqK01LUPicCm5zHIC8CuF9yfEQ78BEsH4AxwsFYWVbwD5Hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_015_3f66ae51f400.png)
 
 驱动和功率 MOS 管电压波形如图 11 所示， 示波器通道 1 为 VT1 管驱动波形，通道 2 为 VT1管DS两端的电压波形。电路在功率管 DS 两端加了ＲC缓冲电路，对关断和开通过程产生的电压尖峰得到有效抑制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9x93icwYYjC1k1syenZLKEqJGI7lIxkpFZ7NNaujmqwDNvFFllqAVr6Ug/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_016_5f9cb4471c03.png)
 
 AC/DC 双向变流器双向变流器工作在整流状态时的试验波形如图 12 所示，其中通道1为相电压波形，通道2为相电流波形。此时为电池的充电状态，从图 12可知网侧电流与电压波形相位重合。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xhVckctW3l2lvfqLH2RCkunwkGqoM3bPDzZFDwAdXnUmjmcGpNB1gXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_017_5aab8888c27e.png)
 
 AC /DC 工作在逆变状态时的试验波形如图 13所示，其中通道1为相电压波形，通道2为相电流波形。此时为电池的放电状态，由图13可知网侧电流与电压波形相位相差近 180°。
 
@@ -137,14 +137,14 @@ AC /DC 工作在逆变状态时的试验波形如图 13所示，其中通道1�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_018_365055d613b2.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_019_c4e5e00016ec.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_020_dfa6175ee311.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\应用于电池化成的双向_DC__DC变换器的设计_images\img_021_2ff68eaf3d63.jpg)

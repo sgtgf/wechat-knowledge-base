@@ -16,7 +16,7 @@
 
 请看下图，问大家一个问题，大家觉得图中的MOS管能打开吗？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjNVdebR5yx3daP7wzAXwibOcKkicq4cDJ4fxgcxSQ38X5sZGfRZW8CmuVjjSLruH4jgL83FbJ7msog/640?wx_fmt=png&from=appmsg)
+![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_002_b2ad1056da63.png)
 
 我相信很多人都会回答，这管子肯定无法打开，因为二极管具有单向导电性，可实际上MOS管是打开的了，那它是怎么开的呢？  
 
@@ -24,7 +24,7 @@
 
 我们先来看MOS管的规格书，可知MOS管的Vgs（th）=0.5V（min），也就是栅极提供0.5V的电压时，MOS管就会导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjNVdebR5yx3daP7wzAXwibOJr0ZB499iaQA8ATGTcEWjicicAlxoEQXsialr96L3xfLBJUkCsJjYXUSVQ/640?wx_fmt=png&from=appmsg)
+![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_003_4892072843c0.png)
 
   
 
@@ -34,7 +34,7 @@
 
 那么MOS管是怎么开启的呢？电流只能通过A点进去，也就是电流通过二极管反向漏过去了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjNVdebR5yx3daP7wzAXwibONCicFQtF7SBMYdDTjfiaOib9kZ4cxfIictzqqPKkfqy3k1psdxkC96L8hg/640?wx_fmt=png&from=appmsg)
+![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_004_b928ed7c1fbe.png)
 
 再看二极管漏电流参数，A点我们提供的是12V电压，图中VR=10V时，漏电流范围为20~80uA。二极管的漏电流在电阻R2上产生了0.7V左右的电压。
 
@@ -66,17 +66,17 @@
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_005_c270758cd48d.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpQvHwjHHqyVg59KzponKUXpOg5ynXzOHs40lCXUaWtovFsNlZm4MgicA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
+[![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_006_a43ff79f2147.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
 
 \-END-
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWnSKI4kn4UmCxsTKOu0z4z3urajxpwe0tUDqkpLrz1mPVkMVL3OpCU4nfwdbeQ5T9SbS4QT5cJA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_007_90f449572daa.jpg)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_008_854de1eb795d.jpg)![](电路调试供电异常_发现有一颗不该被打开的MOS管打开了_images/img_009_17c99fedbed1.jpg)
 
 ## 
 

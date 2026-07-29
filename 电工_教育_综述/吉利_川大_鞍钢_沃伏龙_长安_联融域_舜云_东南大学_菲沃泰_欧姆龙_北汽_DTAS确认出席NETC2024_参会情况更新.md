@@ -3,59 +3,59 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/005-4G3uRCCtNrEmn833tQ](https://mp.weixin.qq.com/s/005-4G3uRCCtNrEmn833tQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_000_7aee9f5e0b9f.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/9RCbW5V9GKsL8C7hLtqvE7SWicOnN60wbdvmTxGN1QEpM4HSVFL5rqM0LB1icibK0drVo0I6wT2SFEwHSCwH64ImQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484861&idx=1&sn=65d55a98b5fadb839635fd7579c84686&chksm=e873bd32df0434245106e2e68104841cc5a6a5ff4cf18b9ec7417ed903309ee19f2c86eea3f3&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_001_a1e3eaaa0be9.png)](http://mp.weixin.qq.com/s?__biz=MzIyNjI3NTgwOA==&mid=2247484861&idx=1&sn=65d55a98b5fadb839635fd7579c84686&chksm=e873bd32df0434245106e2e68104841cc5a6a5ff4cf18b9ec7417ed903309ee19f2c86eea3f3&scene=21#wechat_redirect)
 
 热烈欢迎吉利汽车研究院电驱系统部部长孔庆波先生出席2024（第二届）中国新能源电驱动系统技术发展大会并成为演讲嘉宾！他将为大家带来多合一电驱发展趋势及关键技术的主题演讲，欢迎大家扫码报名参加本次大会聆听孔部长的报告：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXJYDztxa8PnJ6zX1DVltxXh3qZziaxibe2UHqoSjbyDKnqqfteKDrnR1iapCibP0qvXsftNIc1roxgOw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_002_a110e04da76f.jpg)
 
 出席本次大会的演讲嘉宾还有四川大学博士生导师王鹏副教授，他的报告主题是：新能源汽车电机定子绕组绝缘测试技术研究，欢迎大家扫码报名聆听王教授的主题演讲：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXJYDztxa8PnJ6zX1DVltxXo3dFIzKxV0YsQsXiaEG7JzI5CVzlmN99obuYdsWHibiawkRobMM8iakGTg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_003_f53ab0c7fb04.jpg)
 
 另外，鞍钢集团钢铁研究院冷轧硅钢产品研究所研究员孙超博士也将出席本次大会并做主题演讲，他的报告题目是：高速电机用高强度电工钢产品及应用技术，欢迎大家扫码报名参加本次大会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXJYDztxa8PnJ6zX1DVltxXyZLkliaUdFyKe89x6vVqvTeuy9vKLRg3rg6PzTWicRKcyrjD9NQDCD0g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_004_61b887fb66bd.jpg)
 
-宁波沃伏龙机电有限公司技术总监张幽彤教授也将出席本次大会并做主题演讲，他的报告题目是：新能源汽车电机冷却技术，欢迎大家扫码报名参加本次大会现场学习交流：![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIXJYDztxa8PnJ6zX1DVltxX5b0wmRicfNoRK6cMpNSdTJbsVoiadINPCKlscdXXK7U9umiczOiaprb24g/640?wx_fmt=jpeg&from=appmsg)
+宁波沃伏龙机电有限公司技术总监张幽彤教授也将出席本次大会并做主题演讲，他的报告题目是：新能源汽车电机冷却技术，欢迎大家扫码报名参加本次大会现场学习交流：![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_005_278139e7103a.jpg)
 
 热烈欢迎中国长安汽车集团有限公司创新研究总院副总工程师王双全博士出席2024（第二届）中国新能源电驱动系统技术发展大会并成为演讲嘉宾！他将为大家带来电驱及电控产品形态发展趋势的思考的主题演讲，欢迎大家扫码报名参加本次大会聆听王总的报告：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIU3W2wLLYBTb4mzK0M42JT5tUn6S43Ec5OqQ5IGyaIjYCibR1X0lG3bCzHB3bB2rgjVAnAnNuWWz0g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_006_0327379dea17.jpg)
 
 出席本次大会的演讲嘉宾还有上海联融域智能科技有限公司业务发展总监崔刚然先生，他的报告主题是：新能源汽车电机控制器发展趋势分析，欢迎大家扫码报名聆听崔总的主题演讲：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIU3W2wLLYBTb4mzK0M42JT5gbqGMicpjkf9H1NSSaIcYYDugFXWRU29JMwyInrI1YoYkpD8tVtzsEg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_007_4ce40c3617b3.jpg)
 
 另外，苏州舜云工程软件有限公司总经理王溪博士也将出席本次大会并做主题演讲，他的报告题目是：油冷电驱先进流体热管理仿真，欢迎大家扫码报名参加本次大会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIU3W2wLLYBTb4mzK0M42JT5Ghr7c8ULFOs7P4DKwJBRbu50EWhrj18vtG6D6F6A7aKYBDuyJdjmZg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_008_1fd51fa45243.jpg)
 
 热烈欢迎东南大学电气工程学院副院长、博士生导师黄允凯教授出席2024（第二届）中国新能源电驱动系统技术发展大会并成为演讲嘉宾！他将为大家带来面向高功率密度电驱动系统的分数槽高速永磁电机关键技术与探索的主题演讲，欢迎大家扫码报名参加本次大会聆听黄教授的报告：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUSUmUHpdWibxOPuFOy6GWqX8VWX5DpNiaQnnBgWDpYW03GIXCCO2be2hnXtMVXYM2XHs13ibUCGNSTQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_009_5c5def96efde.jpg)
 
 出席本次大会的演讲嘉宾还有江苏菲沃泰纳米科技股份有限公司产品研发中心总监隋爱国先生，他的报告主题是：纳米真空镀膜技术在新能源电驱系统上的解决方案和应用，欢迎大家扫码报名聆听隋总的主题演讲：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUSUmUHpdWibxOPuFOy6GWqXAibCn4w5nZxnuNpnLBiasKWe2Gtm46oSicyNaThj4XtIAwGut0D43hwbQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_010_08f84350095d.jpg)
 
 另外，欧姆龙自动化（中国）有限公司电机行业经理乐丛威先生也将出席本次大会并做主题演讲，他的报告题目是：扁线电机定子组装线上的PLC及伺服应用，欢迎大家扫码报名参加本次大会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUSUmUHpdWibxOPuFOy6GWqXUShKibKEdNn3C5niaK5eywYGBWOicjXwSDMVzo88twYvejojGicRkEEl1g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_011_d23ffbe8831c.jpg)
 
 热烈欢迎北京新能源汽车股份有限公司电驱系统总师梁亚非先生出席2024（第二届）中国新能源电驱动系统技术发展大会并成为演讲嘉宾！他将为大家带来电驱动系统竞争力分析及高压关键技术的主题演讲，欢迎大家扫码报名参加本次大会聆听梁总的报告：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVk6FDkQcia56DoFupuictYyPrQvcqoC4whqCvKpajKRdmAFwPqT6S8M5HUDoe5pYkiaskkyCVeBAwsw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_012_d07e98e443fc.jpg)
 
 出席本次大会的演讲嘉宾还有来自西莫电机圈享誉业内的“电机轴承问题终结者”王勇老师，他的报告主题是：高速电机中的轴承电蚀问题，欢迎大家扫码报名聆听王老师的主题演讲：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVk6FDkQcia56DoFupuictYyPiadecXh1e58FH8oiamtFcxOQHeyfgwGRJQFXpvuNsnKWlglJK4bkb7rw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_013_ef6cfd84f994.jpg)
 
 另外，棣拓（上海）科技发展有限公司技术部尺寸经理张旭先生也将出席本次大会并做主题演讲，他的报告题目是：科技赋能-DTAS引领电驱系统公差仿真，欢迎大家扫码报名参加本次大会：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVk6FDkQcia56DoFupuictYyPlTn4Nou87TicoZNqnzxEgmqBU5yEcIBzMlNP9scjktRWGubK2Wgww6g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_014_48b1ea412f02.jpg)
 
 **关于本次大会的内容详细介绍如下：**  
 
@@ -65,7 +65,7 @@
 
  本次大会预计吸引来自**200+**整车厂、零部件生产厂家的设计研发、工艺制造、生产试验等领域的工程技术人员，**60+**一二级原始设备供应商，**600+**核心决策人注册参会。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9RCbW5V9GKsF00yGTsDpItuCljoUS1jjB7qvUWqFD0TUPphS2MGg4oAssVt6RzERlQPSlyFia7FN0ZC95z7JzbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_015_c29a995fbf6c.png)
 
 **会议全部演讲话题介绍：**
 
@@ -149,7 +149,7 @@
 
 ·[NETC 2024 精彩演讲预告：新能源汽车电机冷却技术](http://mp.weixin.qq.com/s?__biz=Mzg4MzkxMjc4Mw==&mid=2247487607&idx=4&sn=b5bcd791693f928e2350b3bae475f26b&chksm=cf416957f836e0418c3465b67cd57d7d4ed7c21680528340ee516bb63ce70622f66740cb8424&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9RCbW5V9GKsF00yGTsDpItuCljoUS1jjPZ2pNDnzDkiajf9tNanIz3wnzbG0k1k8rYfSYxxQPbpiarddQt5SrEZQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_016_74b6534785f9.png)
 
 ……更多参会嘉宾持续更新中，敬请期待！
 
@@ -157,11 +157,11 @@
 
 **参展|参会火热招募中**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn7iaL14TDnYjFwuEj5VrfHy0ISB2E4YtNYeu3icTS7DbbYlz8SK4d84QQxrQ7PxB7lqiaZQ4ufliaZiclA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_017_0d369c02704f.gif)
 
 往届大会受到行业界企业的广泛关注和热情参与！Interplex、Ansys、赛川电子、懿朵科技、JMAG、金岷江、江苏华利、卓宇信息、先登高科、舜云科技、常州隆耐、斯美科、宏远股份、OMRON、凯森环保、弘能精密、高拓精密、特思迪等近40家企业，通过演讲、展台展示新能源电驱动产业相关的核心产品及最新技术。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIUdveibNJuUCticRShlm1MWH0zhlAbZ6ntosKvU2hicic1iatH7mWmbYlRpsDgNtsAkxmSOLibATibLWPdEA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_018_6984c8ed3cf8.jpg)
 
 最后100张免费门票限时赠送！
 
@@ -175,13 +175,13 @@
 
 赶快扫描下方二维码进行报名后联系确认哦
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVLHJlZA8eJ5VJTvGTXQtbfT2cxNvKoEL9s7Qtg90z1f7lwnhxtYVNSQNXhER0cVfxNV9ADU0KTaA/640?wx_fmt=png&from=appmsg)**
+**![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_019_be1e6b8c53ba.png)**
 
 会议将在本月举办，有想参加本次大会的朋友请抓紧时间扫描上方二维码进行参会报名并根据提示填加微信联系确认，需VIP参会嘉宾申请和一对一商务配对服务以及参展等赞助合作方式同样要在扫码提交公司信息预报名后联系会务组负责人**张老师**详细咨询，联系电话：**18516258619**，欢迎大家踊跃报名参加本次大会！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_020_0cfebd1d514d.gif)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/9RCbW5V9GKv9wDJfZ9juSoiamhnZ2tHB2ALsphNQO0C04t3X1e9xBiaxeydzWWeS7Mfibs8SvwIOHIv0uRsMkqB4A/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650250&idx=1&sn=479794acb1f045cbde65ef16551613fc&chksm=88bc1d85bfcb949322f3bad04e35787d600ae4c43eec03c31d0257fdf88c46d1338bc9a55b30&scene=21#wechat_redirect)[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVgiaN1pqRWKWeqPN6hcBQhr4cic3WRJQbiboOnhlkkLF6NLliaDlvib6mNZxlicePWHYiac0F9un3I4DlMA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650128&idx=3&sn=a206d8af6683fd4ba2300a71e2fa16c1&chksm=88bc1d1fbfcb9409f6ec4e31db566f17b0814f11d96d417c7575af5ab9287c6862ebaf2a6a32&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)
+[![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_021_51a624cc7429.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650250&idx=1&sn=479794acb1f045cbde65ef16551613fc&chksm=88bc1d85bfcb949322f3bad04e35787d600ae4c43eec03c31d0257fdf88c46d1338bc9a55b30&scene=21#wechat_redirect)[![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_022_9d615f864b21.png)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650128&idx=3&sn=a206d8af6683fd4ba2300a71e2fa16c1&chksm=88bc1d1fbfcb9409f6ec4e31db566f17b0814f11d96d417c7575af5ab9287c6862ebaf2a6a32&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_023_64bd90de404b.png)![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_024_96b548e7fe70.png)![](D:\电脑文件\公众号知识库\电工_教育_综述\吉利_川大_鞍钢_沃伏龙_长安_联融域_舜云_东南大学_菲沃泰_欧姆龙_北汽_DTAS确认出席NETC2024_参会情况更新_images\img_025_3f5511eb92d0.png)
 
 点击**阅读原文**，直接报名参加本次大会！
 

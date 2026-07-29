@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/nUNSVeVkpNrC3W8DoOd\_9w](https://mp.weixin.qq.com/s/nUNSVeVkpNrC3W8DoOd_9w)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwk5b6HGceJPNkibd8cjDOvGP2tq1Ms0qmkjvicqWoOFu6yNNvmhewARTvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_000_70ac88077611.png)
 
 论文提出了改进的YOLO特征提取算法(FYOLO)，并将其应用到服务机器人隐私情境检测中，所提出的算法隐私情境检测准确率均值为94.48%，单张图片的识别时间分布在\[1.62ms~3.32ms\]，本文的研究成果将提高YOLO对小目标的识别能力，减小在特征提取过程信息丢失的问题；同时，将为人类研究服务机器人隐私保护提供理论借鉴和应用参考。
 
@@ -40,15 +40,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwk5J6vuCWgVNvnXIJnV17yC3R0PadNNe9iaVYSyZQaQpqyUdibLiauggjeA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_001_eca1c7c9abde.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkVSkyiaibCSAfe4Ific2Cj1adewbzsDSUKT64icFbwTd1WxJwsGrgtJ7qng/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_002_34743bd766cd.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkQTp3qP7DxbYpic8nZt2ur9EBcq87aXYnYYwCFWFSjfyaWTGJL6oD9wQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_003_416b33b0cdb6.jpg)
 
   
 
@@ -56,43 +56,43 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkrOn4EbOcIbicL6zib2xpolNalMI76h4lZbmWu6sH4rv1Cu5jy2KmHpEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_004_274abc330932.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkrOjxBoAKicwaiaB6icAbc3PoCPHYk4KzatSmuiaYGibyaMqHESozo28KE2Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_005_8a9b74f096f5.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkA45njkcp1Aj1MHicAZuBRFuLwNaXxectIEW30hHibROdFMKYGkP3qxFA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_006_4ffec2f3a4f0.jpg)
 
 图1  预测概率估计值统计盒图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkFJXHMhWVAd72tcSHY7LfVa4CI7X6Hac61xsTRgfAM8o64AQCKv92QQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_007_cbdfacbf11cb.png)
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkD4y2tPT45axHRrialETD8c2qNVKuIqibHIHkh2Fp5ngc3Vdibdve6A1sA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_008_83a245090c54.jpg)
 
 杨观赐, 贵州大学现代制造技术教育部重点实验室教授.主要研究方向为智能与自主机器人，计算智能与智能系统。
 
 E-mail: guanci\_yang@163.com.
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkia5KVd9TYYN1s2DlLC56XInkHD9LCxB6X5Tv8KkibDZFNdbawpn097yw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_009_14101e434a11.jpg)
 
 杨静,贵州大学机现代制造技术教育部重点实验室硕士研究生.主要研究方向为智能视觉计算,智能与自主服务机器人.本文通讯作者.
 
 E-mail: yang\_jing0903@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwk7Mo4v5y6ib02fUnCagX0rZK553gWZNFiaS3J6KuExH4wkn8g4PJiaGSRg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_010_d2f3fd9cbfb2.jpg)
 
 苏志东，贵州大学现代制造技术教育部重点实验室硕士研究生.主要研究方向为自然语言处理,智能与自主服务机器人.
 
 E-mail: suzhidong2016@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwk8IpPBNMzN5t7DVSnPsUFgTEWkJJawFdRkvWOXqhtq61UFkpiactyJAQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_011_4a7d4bf86172.jpg)
 
 陈占杰，贵州大学现代制造技术教育部重点实验室硕士研究生.主要研究方向为机器人自动建图与导航技术,智能与自主服务机器人。
 
@@ -156,21 +156,21 @@ E-mail: chenzhanjie0320@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkk2D90A7Cd7hyUhZIr3fiasohWlmO6xevqeV654kxqicPc6DicwLv3nWNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_012_95628a614967.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkFZHNrDy8S6aAOEeDPvg6QWt71n9IMHgy53ePS1Lmu3MicvqzAgg02Gg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_013_b4029494c79f.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkk2D90A7Cd7hyUhZIr3fiasohWlmO6xevqeV654kxqicPc6DicwLv3nWNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_014_95628a614967.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkiaxygMYTUp2518Euko1jiaaqKiaDWQAib2Chhib3xwqT2weEiaXyeaXeibibnQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_015_d846b72b04fd.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkk2D90A7Cd7hyUhZIr3fiasohWlmO6xevqeV654kxqicPc6DicwLv3nWNg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_016_95628a614967.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44t7RFibcbicgtBXUwCLtOdwkBvv7IJy3GsgBiazgvH1ws5XMmwEqiaOeRg90FOhLghaicMPS0avCnMvWA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\改进的YOLO特征提取算法及其在服务机器人隐私情境检测中的应用_images\img_017_cb3ee2e00f41.jpg)
 
 自动化学报订阅号
 

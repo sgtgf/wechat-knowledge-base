@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/p1ENN-xhhjUert7dpBCFBQ](https://mp.weixin.qq.com/s/p1ENN-xhhjUert7dpBCFBQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sVzeakRoocvUyh4xQpho1fcCYg688VmlA5RxmXCTAKQrcJ7abLtTRVSuzhqUs4YdvE2epIrzGnhmz8niaZ1LsVHwGnKs8pkhJNZDZM0nNtWE/640?wx_fmt=jpeg&from=appmsg)
+![](什么是块对角矩阵（block_diagonal_matrix）_images/img_000_dbb0a13c653d.jpg)
 
 图1
 
@@ -999,4 +999,4 @@ Jordan 标准形本质上仍然是块对角矩阵。
 
 把以上内容整理为教学海报。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocsicTFvibibt1BFW1xzKp20UAXebAia34Cvgby79lbl9cSeICM88lbqAwTEwzesQFxQXu6mlXgSibx0UfRKnXxJ5viaWp6xCzqeFejYI/640?wx_fmt=png&from=appmsg)
+![](什么是块对角矩阵（block_diagonal_matrix）_images/img_001_28ee71626b73.png)

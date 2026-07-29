@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/E\_GACo3nGBd5O\_i8C3zeOQ](https://mp.weixin.qq.com/s/E_GACo3nGBd5O_i8C3zeOQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSdWnrnnEHyFjk39wFYehiauhZsRibDfHbZHIibx2zs9RHreBRmTGj9icL96kQfkC8ARhVyV0UHcONibaA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_000_a31cfe764da4.png)
 
 _**_★★★_**_Resistor-7---热敏电阻的线性化_**_★★★_**_
 
@@ -13,7 +13,7 @@ ___€1.__电压模式线性化_
 
 电压模式适用于已知输入电压Vin不变的情况下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHiccEIT3EW8ElIAiaLQjgqM2snHS5cSBlYFY5uzOyO89gdCia1paiadtaxmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_001_c78464c47df6.png)
 
 **_图7-1：电压模式线性化连接图_**
 
@@ -21,7 +21,7 @@ ____€2.__电流模式线性化__
 
 电流模式适用于输入电压Vin未确定，但输入电流Iin不变的情况：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicQW2GSBfgOhLPVAibziaXYwd2l3uzddc9LgzlMjYhNJ70Hhyx1bFXMlvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_002_6e471f578726.png)
 
 **_图7-2：电流模式线性化连接图_**  
 
@@ -37,7 +37,7 @@ R1的计算方法是通过电压模式或电流模式的使用温度下的输出
 
 输出电压Vout可以根据以下公式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHiczvZuUBLdNteesQbnpePYXbRibkqm8MWY8yAPbCwpm1URHWxMPricHwLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_003_ffc6ee57c1c4.png)
 
 ___€4.__找到适合使用温度范围的R1_
 
@@ -51,15 +51,15 @@ ___€4.__找到适合使用温度范围的R1_
 
 计算每个温度下的输出电压：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicHIoibKaGa3g9Ad7icMQBN2EIxZW7eAibKSr5OGEkG2OSk9Sut20PWCSpg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_004_5566673a3fed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicYUib3vC1XqsBTJGJ6Me21icvyckt0pibATKwCyibOSlqvoCDW7YaLL75MA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_005_7e9ef2cd1585.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHicBicbZeK85ck3I3rMwRqmZcnZEj5tWDbyKT2algkTlibLxnly7kPzriaQg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_006_e3cd2860a625.png)
 
 适于线性化（两段斜率保持一致）VoutM - VoutL = VoutH - VoutM ，整理得到2×VoutM  = VoutH - VoutL 。将各个温度下的输出电压式2，式3，式4代入2×VoutM  = VoutH - VoutL并获得R1，可得出以下方程式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSuYpbwodqIKX5n6lTIxKHic2EbYTUCF6bSSckfuHh9JiaJvv6waVH9HtvWNG48bD9DgqWJMJTVHicLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_007_9900b3f6d1b1.png)
 
 _______€5._____NTC热敏电阻线性化示例：__  
 
@@ -83,7 +83,7 @@ RT100\=1.698kΩ
 
 从这些值中，求出R1为6.52kΩ。用此R1值绘制Vout图表，如**_图7-3_**所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQUeuic4I0mictzETeBkhnoPkWG9pLiaicps7gRhmictq9FzIULS0KFrXOvr6zKsx7nDeB4VEQkI6sSiaUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工理论与新技术\Resistor_7_NTC的线性化_images\img_008_7f3051be0418.png)
 
 **_图7-3：热敏电阻的线性化前后曲线_**
 

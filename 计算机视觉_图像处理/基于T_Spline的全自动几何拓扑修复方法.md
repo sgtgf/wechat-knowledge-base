@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmibYBFwagHibqPO7MCkWzd0Yqdg1V61iaCGADnhXkicse3WTwl6moSIMibmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_000_b729bc7e198b.png)
 
 CAD 模型几何拓扑修复是指：在保证原有CAD模型不失真的前提下, 对CAD 模型中存在的几何瑕疵 (如短边、窄面、退化边、退化面、非连续光滑边界及尖锐特征等) 进行处理, 将存在的“错误”的“脏”几何转换为可满足 CAE 分析的“干净”几何。
 
@@ -20,7 +20,7 @@ CAD 模型几何拓扑修复是指：在保证原有CAD模型不失真的前提�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmeecWWmWicaHNGlbhWaWo5XLyA5w0FBGCNgzGpjXfo7gAe6IpaickXS0A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_001_775837b3b613.png)
 
 美国 Sandia 国家实验室数值模拟过程用时数据统计
 
@@ -36,19 +36,19 @@ CAD 模型的几何“噪声”种类难以尽数, 且其来源及其产生原�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmS2CCQiczYqxe3ZfRbGiche3zjAEcFxHKHEHLx1oL6ghpCXsudqyTfxTg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_002_29f16ac491c3.png)
 
 钢架焊缝模型中常见的几何噪声
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlm1ib0JrpkD4dZhzXDpE8Xz4H8PBqZ5SZw6jM3TlNjPibXjYoTmWflt6OQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_003_b05fa2f49d66.png)
 
 汽车桥壳模型中常见的几何噪声
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmevgbxZRqyiabTnZJH2OyFiaKd3bvIzGtcFEL6W6fBUOYLoydbHEq9B1g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_004_1a8471ca6c40.png)
 
 CAD 模型中常见的非理想几何特征
 
@@ -62,27 +62,27 @@ CAD 模型中常见的非理想几何特征
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlm5ViadurudkfuEzADJic5OVmtyeE54OyfCY7RlQj7wv39TTETY78G4Jyw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_005_b848e154b87f.png)
 
 完整实体 CAE 分析软件界面
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmxKZ8hn4TFYicP0s9vodJcJXnHHAxkWjOSQJ6UrovJuOyPabbHYubibIA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_006_99579eef1972.png)
 
 钢架焊缝模型全自动几何拓扑修复
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmfBib95xOws5ic66I0bmHcd3E7tUouNO3wAMiak9vnZmjsIZibokUKr0j7Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_007_acbd893db258.png)
 
 汽车桥壳模型全自动几何拓扑修复
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmibYBFwagHibqPO7MCkWzd0Yqdg1V61iaCGADnhXkicse3WTwl6moSIMibmQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_008_b729bc7e198b.png)
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmG9Y0Pq4H8BFRWn2Aqp1xOfu1maJMk0Gs10wiarjPco6d4UbMI3kf41A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_009_3d4875536594.png)
 
 池宝涛, 湖南大学机械与运载工程学院汽车车身先进设计制造国家重点实验室博士研究生。主要研究方向为计算机图形学, CAD/CAE 一体化, 全自动几何拓扑修复, 网格自动化生成。
 
@@ -90,13 +90,13 @@ E-mail: BaotaoChi@ hnu.edu.cn 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmAQrvuPQibjdiczUaSe84bibU41eCyArOwa4uibtPYTUgjWQtQtR4IgeicIQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_010_7e0ad2cbb053.png)
 
 张见明, 湖南大学机械与运载工程学院汽车车身先进设计制造国家重点实验室教授。主要研究方向为汽车 CAE 技术, 完整实体 CAE 分析, 计算机图形算法与三维可视化, CAE 软件开发及其在车身设计中的应用, 数值计算方法 (有限元, 边界元, 无网格法, 快速算法, 多尺度分析)。
 
 E-mail: zhangjm@hnu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlm2Wib5g87nHzQyEe5U41LxibwbzYoqwJfib9ibdibgCHadblTyCtsFvbquQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_011_928f8ce28c1d.png)
 
 鞠传明, 湖南大学机械与运载工程学院汽车车身先进设计制造国家重点实验室博士研究生。主要研究方向为 CAD/CAE 一体化, 网格自动化生成。
 
@@ -194,21 +194,21 @@ E-mail: cmju@ hnu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmPyhe0m6LVrohXaCVUHpLYlg23s33ye956BUY312TVO5VTOZ5pGtesA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_014_92a230d316bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlm1H5iacdfGEVQjnwkg1KnFk9EUicy00flcjg5Q84QHMslxzoQicn9qwyEA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_013_b15ff5c959e9.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmPyhe0m6LVrohXaCVUHpLYlg23s33ye956BUY312TVO5VTOZ5pGtesA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_016_92a230d316bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmhcO8KGBCtRyQDKLy0hELsMl7gy8n83fyQT3ZBP5h96iak5zHCbcQwfw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_015_3135970dc11a.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlmPyhe0m6LVrohXaCVUHpLYlg23s33ye956BUY312TVO5VTOZ5pGtesA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_012_92a230d316bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47OYfrdzTdLby9NuJbcLRlm3mibicibfADaTdN6EFicQ79A5WRic0oU2kGM4zTVrhtTfuXUchUQGXMcdkg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\计算机视觉_图像处理\基于T_Spline的全自动几何拓扑修复方法_images\img_017_786de9abe880.jpg)
 
 自动化学报订阅号
 

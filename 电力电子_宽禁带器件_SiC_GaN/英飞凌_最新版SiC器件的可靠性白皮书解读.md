@@ -5,7 +5,7 @@
 
   
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_jpg/JJfgHuNvJb7Asqlo3Ticga5cm9EtYicHbiaYXKGrfj5BClBpcibWEXcjUlCO5KtibJO8e7Rufjs0gZhSUAU5v3ApLBQhrpLGuoBHIAia1RAI558G8/640?wx_fmt=jpeg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_000_a8995921275c.jpg)
 
   
 
@@ -34,15 +34,15 @@
 
 **精彩内容摘要**
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/JJfgHuNvJb4bHSQuIOyrMkQsl09rHtJd95zyKZKSGJOZJ9XvYWh9XAYDJibG27A87TiaWU7YDpicQricm13aPbkEpEkKOicmAAvB5iaUibGgDOJrxU/640?wx_fmt=png&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_001_a65b1e0b9013.png)
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/JJfgHuNvJb6BWfZkEPAnibq0TMpf7gm4UWGdCbuLTEEBjAm2W5KoYMbe92Abn7kGFvjSoaMrURWQEok5Qry1hcxE9BauI9ia0ZftYL9tDlsG0/640?wx_fmt=png&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_002_740187eee305.png)
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/JJfgHuNvJb4xP4m3jaEpYGTcUavuVQXwwxvQ5ibZuSsy5m3yTnpCy2m2CE82FpZmCLibttTB5lxQKiczeDoqicDiaFAfxy06WPRHhMJb6bwJxQog/640?wx_fmt=png&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_003_066bdc1471cc.png)
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/JJfgHuNvJb4HHASd7D7X8N3yZhbwQjouJmJJbdFFofFNWFeO6ElcNyKrB2Ikfxa6Kgr9uO1zw9GFM8DgeXJib2D4XdrudrYo9osvUt5kwhpo/640?wx_fmt=png&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_004_7bf8b29674dd.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/JJfgHuNvJb5hydjuIzX0AgPNgl8QLD4Hn1ZAoGkibXiaO03LeMsWfIhRLw5dWtPm3rssSuepRMON6UcqiaUxm94fNvOpq8NHDFhrdiahmFKuqpM/640?wx_fmt=png&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_005_53a6e1f584d0.png)
 
   
 
@@ -54,7 +54,7 @@
 
 👇**扫描下方二维码，下载完整白皮书**👇
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/JJfgHuNvJb4fL1ANrurJgzWKCv5WEUxCbFFWessickKtGOUJuX4Gxicwtc0xuweovicfInib9eRBuzzrACMm91iaiazCoEP5k6ORibEXSVTMk7sSS4/640?wx_fmt=png&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_006_3e2643ab3816.png)
 
   
 
@@ -64,7 +64,7 @@
 
   
 
-![图片](https://mmecoa.qpic.cn/mmecoa_jpg/JJfgHuNvJb7zXKVLZFgAtPDgRcFD3Xel5ucjbQCb3JNJHfCUyoUIT032LlVQMiaZf81kjj8KuwoyhPiaJKQM3ibMpGjsmrylB2CC4EbLODXSIc/640?wx_fmt=jpeg&from=appmsg)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\英飞凌_最新版SiC器件的可靠性白皮书解读_images\img_007_fa801a7da9db.jpg)
 
   
 

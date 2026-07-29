@@ -7,7 +7,7 @@
 
 超宽带 360° 方位连续扫描共享辐射体相控阵研究获 IEEE Transactions on Antennas and Propagation 官网重点推荐
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAJ5xibLvGgYXibKwEBicBKK465kZymGTfOFknxGRKOQLb5dJJOicLh25V2tI0f0eCAakibNDObdDkwnasEmz4jzEZ1L28pWFicnP3KY/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\教研室论文入选_IEEE_TAP_Featured_Article_images\img_000_5557ed53605b.png)
 
 图1  论文信息：发表于 IEEE Transactions on Antennas and Propagation, Vol. 74, No. 2, February 2026
 
@@ -29,7 +29,7 @@ IEEE TAP 是天线与传播领域国际权威期刊之一。论文入选 Feature
 
 与传统由多个相对独立辐射单元组成的阵列不同，该设计让多个馈电端口共同作用于同一主辐射体，并利用相邻端口之间的耦合关系改善宽带阻抗匹配。这一思路有效缓解了“超宽带”与“小型化、低剖面”之间的矛盾。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAg5ribqHN3HWxvPyHhFA1sk8jicQYAYrHGtAibibXcusqNgD86hQbecnFFUvxOMiaUqthUUlbG2occXJwDVKOwyS9x7ncTDnPMLlib4/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\教研室论文入选_IEEE_TAP_Featured_Article_images\img_001_2d902620b185.png)
 
 图2  共享辐射体相控阵结构示意：锥形共享辐射体、环形多端口馈电与紧凑低剖面结构相结合（图片来源：论文原图）
 
@@ -39,11 +39,11 @@ IEEE TAP 是天线与传播领域国际权威期刊之一。论文入选 Feature
 
 更重要的是，在方位面扫描过程中，该阵列的增益波动小于 0.35 dB，体现出良好的扫描不变性；交叉极化鉴别水平优于 21.5 dB，旁瓣电平优于 −5 dB。对于需要宽频段、广覆盖和稳定波束性能的系统，该设计具有重要应用潜力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAh3icLy7VksSFnKGpjlv04biaTwb3TAftoqmhoNqXQbpjea7wzbvFhAfeYAKkAabNBXe296qV5ibMlLnczhUKqVyHrOLcyxic83lo/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\教研室论文入选_IEEE_TAP_Featured_Article_images\img_002_bffc48c6f385.png)
 
 图3  有源 VSWR 结果显示阵列在宽频段内保持良好匹配（图片来源：论文原图）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCl2icBecEPOYT68hQtN7LBicic3Jcr0SQEO05CBQbuwYXuTN5xLria3r6eGqpT3nA9LVndLpwOlTYfsjb1zK3pKJCPCnj02fKotyk/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\教研室论文入选_IEEE_TAP_Featured_Article_images\img_003_e03ced0eed74.png)
 
 图4  效率/增益相关测试结果体现出较好的频带稳定性（图片来源：论文原图）
 
@@ -51,17 +51,17 @@ IEEE TAP 是天线与传播领域国际权威期刊之一。论文入选 Feature
 
 研究团队加工了六端口原型阵列，并在微波暗室中开展了系统测试。测试结果与仿真结果吻合较好，验证了共享辐射体与紧耦合协同设计的有效性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBG7P5x6bicBPziarMyCcrVDeic5d2tOytal3PVWv3Da7eMP4SUhoB7yy4lAzSkaD3I0AWmzTUvHtJic8XwhjXlHss6wcWJDWDAUZg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\教研室论文入选_IEEE_TAP_Featured_Article_images\img_004_3b4a1561be1f.png)
 
 图5  六端口原型阵列近场测试场景（图片来源：论文原图）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCdqeA591zXqG3yF1WLohw5aqOjddvHzsWViayaKVGxCreiaxA9vxsEDoCH1LBKKSqrtEC9yWt2OicpH3omAuaYx8Xpyj24M14Nfo/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\教研室论文入选_IEEE_TAP_Featured_Article_images\img_005_aea4d6fbf29c.png)
 
 图6  微波暗室测试环境（图片来源：论文原图）
 
 方位面方向图测试表明，阵列能够在 360° 范围内连续改变波束指向，并在不同频点保持较稳定的辐射特性。这为小型化、宽带化、多功能化射频前端提供了新的设计路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCibKFQcVrnicnnRdMM04P0APTGBeZ0rxYFWporshZJYugJ67bf9eibXX2YPW9yfDtkWo07TPlZxD51Wkgo6JR42Abu5RdFZ906bo/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电磁兼容_EMC\教研室论文入选_IEEE_TAP_Featured_Article_images\img_006_d7b7f4e83682.png)
 
 图7  方位扫描三维方向图示意：阵列可在方位面实现连续波束覆盖（图片来源：论文原图）
 

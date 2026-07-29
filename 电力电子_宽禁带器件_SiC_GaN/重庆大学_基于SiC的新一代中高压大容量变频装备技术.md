@@ -5,73 +5,73 @@
 
 **摘要:**中高压变频调速装备是通过功率半导体器件对大功率电机进行精准高效控制的系统，广泛应用于新能源并网、石油天然气生产、交通电气化等领域。然而，现在的Si基器件和传统拓扑的中高压变频调速装备存在体积大、效率低和性能提升困难的问题，难以应对新型高效高功率密度场景的需求。本报告探讨现有高压大容量变频器的技术需求，高压SiC器件和新型多电平拓扑应用的机遇和挑战，以及最新的高压兆瓦级SiC型变频器装备研制介绍，促进高压SiC器件在电机变频调速系统的应用和发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAE1bXfA1vskvbKicjVPctjN1dzeJKianbU9JbmFc9HWibsqzjRiayaibRJJg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_000_8801a9f8ceaa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRkKj8vmssYhF24Xq2Pqz2XIOORDUiapuF1bAiclQTeLLoicNI8Mcuib4Ilw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_001_3e4ea8fb04e7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRF66eNWn7abXhSEQXhgia130206qBbcKdE8MF40Sg7CX2X43H9czBohw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_002_aeefd457450c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRXDX5rTQCaCT1gaeY5JX9lT6kh8mZxOnldVYaibDcvGjJP9kMI1KPryg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_003_f0b486759198.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRjuiar2vkx1IIiaxgTlEyFHlSoTNsrrw1cfMBSAMAggjdGuhgqdc7Y2icg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_004_b85824a4257d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRVhnAFdrcvj7dYAb2zwXZ4LTFz5XszZcrHZ2B7OdT2LFx0goHpVwLmg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_005_12dabdc1dc13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaR8gcusS73icCfFB1AiafAyVOVqHMYKyFFnYrJvliaBAR4UQ8fuUTnRZaUA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_006_a98a857f2764.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRQ93d68uvJXA2Ug3GOhib1t0HX4lMzG6lkGXhar4tSuTzWdqRyYj5vRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_007_a2d02c03ad6d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRg53h7ENDjgHDsgGE9ugkWOEA8l8SNicqiaexcpGC0SvoYRho3rqb780A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_008_8b4adb2280f0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRWcXYbS7A7hKqOK6GUt1yOlDia6oru5A3gkGnKQXrS6dGe6qTpFDWCuw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_009_feead8b57dae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRatcN7zCYiaiaEuicoXVLewdlLzicyTUhEuyIf6rrOovia6M8Au4RkiaiaTM7Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_010_3111e440f9fe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRkNY8lZ6eia0KX4uzvQianEAUnbciave9jC1gy6KBic33rq2asyibb62LDyg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_011_3b4976dc0b44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaR3icpXvox0yW8SjcvNb23rYYvo9YQPKTU9yjToyib3a7NqpFiahNs95MuA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_012_15bc9e4f6073.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRiaF79pR1Zb5KPicNml3wqOkia13PAB3z41yqOEWaibgaHVx85rLpKtlNhw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_013_021e3eea7a5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRqYUlqdoLhF8RpxUljkAcBrLDYzdSIGgYQ45MXoA3AcdfGb8R1GwSqw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_014_7a23c15db272.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRI5hop73fKgqwVrRLEGG4ky432KicPk7nxPjg3aicEfibJmiaLuMArSA8EA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_015_e5db6bf17b91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRKNP9agL0eNg2G7bpbo9nJvwxEYT1AtibCnphpxITzjmv00o7Xvic5cvg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_016_e064e9d95fcc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRLV2U2L51nNQyY4HWnTicxMYkNA3ceH1MRV3lNibcxXgMwPtWgU01v56w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_017_9773d2a6f30c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRhY3LErMSegW9YgmKRwyNTuC2WeabqyluBgIzAnsQnQmFDY1owoc3EA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_018_99a07ae63605.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRPPiciaurxwfiaTU7dIP5XwRYpmt9dUib0w0FrvINCfXqQa35LqLHWH79Ug/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_019_4f4db0c66a9b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRT0aaosEWQmfRuxbu4D8xt3L8P1n9zo0Nm2fp9pcVeAN1z1ibTzbiaHSg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_020_65657d470ebe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRZfB0uxFcGbWIsTUNpKMBiazq2R92VWAMI8TR7Yyv3MyiaFQljPKgFDew/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_021_f9dc3b7c8b82.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRpAcMNtwPzs5Wye6aJbDjqibj77MWQ8NibQvQfusw76nlFajuNz31qMibg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_022_d994f4ec1f3e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRSHLuNMuR7NIIeQDjjXS9Tnkf1LibLQibFo75ACOlzNugP8OPAMulMB2A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_023_761c89a59184.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRK78NJBSibPFsT87qNPgcTvvb20ibibURQGOAw7bHPEibTbMibbWu1eUicR9w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_024_2555150bf965.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaR43g08hNTGlxru9ToDMuqvfrCHyD1Ria2IJ6iaqlQbib1Dt0ibqIiauw7xEw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_025_b97dc21dea5f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRrRMWy1ia7zfiaAFeVEnI6rlTTarKBQJBCy16WXWr0GJcvE6icr2jtuWsA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_026_fd5cf2a7c9d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaR3w1MeSguABqJcxicYmrwxia1FLTHOlP9GLrAdibHibAktGaYlLTkLLWf3w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_027_21d16e6b3abf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRClZiaHA9hTrpc8ph6lboqLVtmprvTInMv8lgLKFDVJbbC18O5xDiaqRQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_028_09f64ff6e7a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaR178Ee5TLoWAwHqCxSj1Jrq83OHdfickU3txz1BBH7Uqj4hMVSJARqOg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_029_b7cf2597d1fd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRMCFWiaib0BDvgx9axqkpLxwibRTF5dUStVKmFto9ictmoUNDjdRczVgibUA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_030_32839f5798f6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaREvjv7Z0IGPu5LkDNaLPXrGoWicdlm92Oc65hJCBA3ndc1dM3bEuOyPA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_031_d9c30e833353.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRqC0OR98UjpBuTSEn3TeVcSZWxg0PiazRUHY36MoVjreiccJxf6SReAEA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_032_a139b9d39712.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75Qh6GLpvdYoUal5Ewx2IRaRW75PLp5KkK8sFLlgUKlXZrRMzAicHoNibZicibaz8GFiaPOgkvuR7veeZlg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_033_95c861b72f53.png)
 
   
 
@@ -93,10 +93,10 @@ SiC（‌碳化硅）‌器件以其独特的物理特性，‌如高临界电�
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_034_27a3862f5b4d.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+项目需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_035_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\重庆大学_基于SiC的新一代中高压大容量变频装备技术_images\img_036_84aa944feb13.jpg)

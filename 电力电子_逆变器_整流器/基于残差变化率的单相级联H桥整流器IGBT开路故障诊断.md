@@ -54,13 +54,13 @@
 > 
 > 
 > 
-> ![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QaMYNVaMXicm1QE9yibxPvwE8nPA0XM3lLyY9F1s5qVoDsZ7OgTd26Tmiaa9mjqicgmY40024tkdcxPQ/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\基于残差变化率的单相级联H桥整流器IGBT开路故障诊断_images\img_000_c0182b4aee96.jpg)
 > 
 > 图1  单相级联H桥整流器示意图
 > 
 > 
 > 
-> ![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QaMYNVaMXicm1QE9yibxPvwEicLicEX7Nhy9pXFsFeBGbG9NUQUqZuQiatJWuCKD3THMu9cjlLJ3aIG8Q/640?wx_fmt=jpeg)
+> ![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\基于残差变化率的单相级联H桥整流器IGBT开路故障诊断_images\img_001_12e0388c8619.jpg)
 > 
 > 图10  硬件在环测试平台
 **结论**

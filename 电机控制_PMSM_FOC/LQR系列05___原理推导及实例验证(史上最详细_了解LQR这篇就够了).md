@@ -5,33 +5,33 @@
 
 有了前面几节知识的铺垫，终于到了揭开LQR神秘面纱的激动时刻了，就是求下图中所示的反馈矩阵K. 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaQd0IRNLQD6sdteiavef7SmyCibRMYKFibyFGou1jdR8QHUsGghTSBFibLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_000_f744453e0ace.png)
 
 ****一、概述****
 
 LQR的全名是Linear Quadratic Regulator, 线性二次型调节器。线性好理解，状态空间方程中，我们已经线性化了，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaTnPFvYIyjj9azpibSgEHCcibOPjj8c3Zia1chWOpJrI8iaPHxEbMKL6Xag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_001_2d1adc08bdbd.png)
 
 **二次型**是指，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAma4kVwCyicFDBfnMBbn3eofje7fFBtVlzemGWp6QbibNwm8GN3jgSRBZeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_002_da05d58ec60b.png)
 
-这里，初学的读者，可能对![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAma4icyIMIsSsGmb8F15aKTa9pibZjpVUeHenW8X1358h5efumdibFE8ydfQ/640?wx_fmt=png&from=appmsg)这种表达不理解，假如x为二维向量，则
+这里，初学的读者，可能对![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_003_4f6e0ff16f25.png)这种表达不理解，假如x为二维向量，则
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaichpgrMp2jkxNicxP8jeJCSaN4TkJp4NVluXqyQqj1qmWrAxOaywEYJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_004_386be08ff20c.png)
 
-由此上知，**![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAma4icyIMIsSsGmb8F15aKTa9pibZjpVUeHenW8X1358h5efumdibFE8ydfQ/640?wx_fmt=png&from=appmsg)是对1维中的![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmappNNXvjo54EU2ADNPtDqjjUMFrL1JhSwhprPtNiaWXsyVRPfFkbSgCA/640?wx_fmt=png&from=appmsg)****形式在****多维中的扩展，顺便说下，线性代数中很多概念都类似**，有兴趣的读者可以仔细体会下。
+由此上知，**![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_005_4f6e0ff16f25.png)是对1维中的![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_006_946f3342d79d.png)****形式在****多维中的扩展，顺便说下，线性代数中很多概念都类似**，有兴趣的读者可以仔细体会下。
 
 其中S、Q、R一般都是对角矩阵，分别被称为终端权重矩阵、运行权重矩阵与输入权重矩阵，S、Q为半正定(**此处通俗理解就是元素都>=0**)，R为正定(**元素都>0**)；
 
-当![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaicbCj8rfaH9Vf5ykym3S32krRbsMoxlRRjpfWCIt6UI53FDq6wOPZsA/640?wx_fmt=png&from=appmsg)为0向量时，就被称为**调节器**，代价函数变为  
+当![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_007_44b44ea3ae44.png)为0向量时，就被称为**调节器**，代价函数变为  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41f7fPiaTqUKUuR3ho3QrB6F8sK4x0YTh8aNm3KzgUb53ySaEWdBMfNmz21kbL6b1mvwUNlTib3IYXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_008_2adf53d5c2e0.png)
 
 将状态转移方程展开，得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmamlMkcBD6iazqUntQXy0JLV3EKKNGFRRIZXfeDQYm5HWFqjVp2gOu6CQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_009_d0de0f35764f.png)
 
 由引可知，在初始状态已知的情况下，
 
@@ -43,27 +43,27 @@ LQR的全名是Linear Quadratic Regulator, 线性二次型调节器。线性好�
 
 第k个状态由第0个状态，以及第0、1.....k-1个输入决定;
 
-问题就是，基于初始状态，求最优的控制序列![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmayiatM7XegjjCr4urNHOiaU6yXM8jTtTiayNGjwrHw3BN6daegGA6RswuA/640?wx_fmt=png&from=appmsg)
+问题就是，基于初始状态，求最优的控制序列![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_010_392ac2d9ecd0.png)
 
 ****二、推导****
 
 与上节中的1维类似，也采用逆向分级的方式， 第k步的代价函数为  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75g8njc51tEORic8RGaDJRHDd354YmNIT6oNiakaqgj34I4Dm3ycWViaxuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_011_ec322872fd43.png)
 
 当n **= N** 时，最后一步，木已成舟了，只有终端代价，如
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAma4eoC1s9icSbNlxo4LlOSxcMe3CJLmRoup34xQoWBpiahZkT9BwWsxDCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_012_12efecd51f12.png)
 
 当 **n = N - 1, k = 1**时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmar0VqJ8LY4TCiatoxr1ES37NWZ91CS2D01PcCbZJ4bwdXmg6jlUtlzicQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_013_c9010a177130.png)
 
 **根据贝尔曼最优理论，如果第N-1 步 → 第N步是最优的，则第N步 → 第N步也是最优的.**
 
 当 **n = N - 2, k = 2**时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAma0Mnj9G5fb5uHWQhTIFicbEaWiaRybhRh8jDMd7UHyAkSWxuk5g3Yb8Yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_014_2253a1bb0ba4.png)
 
 **根据贝尔曼最优理论，如果第N-2 步 → 第N步是最优的，则第N-1步 → 第N步也是最优的**。
 
@@ -73,79 +73,79 @@ LQR的全名是Linear Quadratic Regulator, 线性二次型调节器。线性好�
 
 **当 n = N -1, k = 1时**，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaxn8OLeqbZUdxbrHbxL7CA6mZbcqUsIbgLOcOjSzzDF3TsibUJzEzIAw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_015_e03cf9530ce6.png)
 
-为了进一步认证所求的![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaYjjKqIicqthYkOKantZ0GlWFD7QAiaFgpG54dTdwQURA3qx6KmMLSEOw/640?wx_fmt=png&from=appmsg)对应的J为最小值，可求J的二阶导，
+为了进一步认证所求的![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_016_26e241ab040c.png)对应的J为最小值，可求J的二阶导，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmas6IRbcdBJZMMFlKWF4uK5DtRwlNdq7Mgg1icCwGL7LPsdpl4mRGD2SA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_017_6d3c48d17851.png)
 
 此时的最小代价为，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmahnXGibFhFcOpycdwUzcEPRxO8ibfp6eicvgOhRicb9BbnYsicpT2EomZ5ibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_018_ad1f13aa86c8.png)
 
 **当 n = N -2, k = 2时**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmahKJUIudTGGaJtdX1bbYj9khYb16BtxbqGOrQMcASWhSRNq8NialfICA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_019_c1e64ee000a4.png)
 
-为了进一步认证所求的![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmanfg25CnUO4cNMjyHzvjPGvfYfSlG7x911xLPH53MSy8lUg9TXfLf4A/640?wx_fmt=png&from=appmsg)对应的J为最小值，可求J的二阶导，
+为了进一步认证所求的![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_020_3811fdb0b900.png)对应的J为最小值，可求J的二阶导，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaomXCvEWoSLrt4icPSdvFhPzJkbqSnDF0e3j6e5ZuAeibtIjO0zOXJb3w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_021_a9d86f46e867.png)
 
 此时的最小代价为，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaY0I52P96U4extgRxRic0rL80AbjUTGgdx8LjwIdtZCJDianzPq9P1PaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_022_948063878a87.png)
 
 ...  
 
 流程如下，  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75FMXku3P97Woz3F61ptlgftjmwD9gJEYOWhpdb2Lqh1G3PicJQcyiafrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_023_c3dcf637284c.png)
 
 其中，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaO7j5mxaNrvV9u5LBQkUZmQQZDibZ4PO3zT7nAFfefhEGWckqib2JfhEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_024_2272d4650cb4.png)
 
 ****三、案例（****弹簧-质量-阻尼系统****）建模****
 
 典型的弹簧-质量-阻尼系统。其中，初始位置为1，初始速度为0，控制目标是通过调节u= f, 让位置与速度都为0.
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaqgkMddLEV88v0zwEFqT1ia4xgAIa9Qu84Eiaib7KXoMhFdgM2TjE6B45Q/640?wx_fmt=png&from=appmsg)****
+****![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_025_55ddf9300180.png)****
 
 建模分析如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75QGBCrseNzHGdNFEyNcH4GNNJibDT8LCNVdJOH1l3w6eN0TGszlskUVQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_026_db0f811157ff.png)
 
 **四、LQR求解**
 
 编程实践如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75N0LnsMrkWqyLnJONS5x33NnUDu7uiaXicjriaV57qevibYTqmvawhMBPdg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_027_fcdb43c60b67.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75u9qqrTImibOOlpwTkxulRDTP9IKgLRkzwRGISC4U8wg0iaBmqmFLOCmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_028_29c98f37a743.png)
 
 **注解：**
 
 上述如果按照前向欧拉法离散化，得到离散化结果为  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75PoQr3tNhmQFg2PIgK0cumeqwSEI8xqeFnMnuMcjSUJicbm1QE4ESnZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_029_7f7378061e10.png)
 
 而matlab中c2d()的函数输出为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b753MKheWFxT7FPYVH1uCqINxlgic5Hcd85s25gVyHacXD27kPYdG7Uvaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_030_3f2bba389b2f.png)
 
-对比可以看出，差距不大。![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75iaGibdhXuRx74upKLP7yIib0nWLkjpnIG3kPiaW5NicX0cDJbhUu5cicgQkg/640?wx_fmt=png&from=appmsg)
+对比可以看出，差距不大。![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_031_934dcf182a55.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75HqnfYvmqnRZStL6WnMWRpfErp8d0k5Rib8PRAYvsVm8Tv60JYFRk3ew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_032_1dab6da9dbc5.png)
 
 **注解：**
 
 此处关键是要理解LQR的下述执行流程，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75FMXku3P97Woz3F61ptlgftjmwD9gJEYOWhpdb2Lqh1G3PicJQcyiafrw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_033_c3dcf637284c.png)
 
 需要注意的是F\_N矩阵，它最终存储的是所有的F矩阵。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75aib6Z5dNRhDx3nEJxCdPibnMUxTZUqzXhJ6DfDfyux6WtHczxeicHq3dA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_034_c3a9215cdfcc.png)
 
 **五、LQR求解结果分析**
 
@@ -153,7 +153,7 @@ LQR的全名是Linear Quadratic Regulator, 线性二次型调节器。线性好�
 
 状态与输入的情况如下图：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75frZibrhqTckB6CclYdb2jF42JAtusUYBpfN3iaCibkR8gz8xicUkrn8jibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_035_53800312f23d.png)
 
 可以看出，不施加力，在初始速度为0，初始位置为1的情形下，弹簧-质量-阻尼系统中，其质量块的位置与速度都震荡收敛至0，这与事实是相符的。
 
@@ -161,11 +161,11 @@ LQR的全名是Linear Quadratic Regulator, 线性二次型调节器。线性好�
 
 设置R = 0.1时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75VgsXDZnHYReT31WKuGIzoRbSwVHCxSNbPac9nEH1FKm3GZhu0w2E5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_036_5129483e478f.png)
 
 设置R = 0.01时，  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t31TtYCJA6PWFlMlF1b75iaEtViaHrjeRicrAI7CMyH4eeMlmoSVIujC1A6s8EwWYEOFPU7EcA8MIA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_037_84bcf771b724.png)
 
 **可以看出，R = 0.01比 R = 0.1时要求的输入明显大，R = 0.1更看重输入 , 某权重越大，表明越看重某项。**
 
@@ -577,32 +577,32 @@ LQR的全名是Linear Quadratic Regulator, 线性二次型调节器。线性好�
 
 \[F\] = F1\_LQR\_Gain(A,B,Q,R,S) 函数所示，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41f7fPiaTqUKUuR3ho3QrB6FhOMcvLRE0FxhyuoGMCAcDtjhHichYAyIJYzzunEByC9fNxSNFt9wIMw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_038_dcf73615fbc4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41f7fPiaTqUKUuR3ho3QrB6FK1ykxNcUu6K0uYIHtaTvcliaKgo089PnKSCSAEzL4kMupV8UVuWksTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_039_46e9f9b0707c.png)
 
 主代码计算F增益，就可直接调用该函数，如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41f7fPiaTqUKUuR3ho3QrB6FtPJyNicQffhX6uOgwqlia2FiboVJRb0lNb4k7icl3o1MNYydDgaX929EOg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_040_cc63c8bebb5c.png)
 
 得出的结果与之前相同，  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41f7fPiaTqUKUuR3ho3QrB6Fc4gWz4FRbk9eYhjW9gcic7ZE5EicKia6HsXGtbVujNib2gcT2qYOvPj0VQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_041_8e8495dff53f.png)
 
 实际使用中，可构建1个类，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG41f7fPiaTqUKUuR3ho3QrB6F6O62g7PQHXIj1uHMX9yu5e6ZoyN2gGyxicszyF8cFfLHNY5ia0tlOiaCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_042_9e0de4df2205.png)
 
 ****附录 矩阵求导结论****
 
 **结论1：**
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaQsVCvAtUgZ2yhYqyibh5FicY6Pv9fuzGibtlcv6TRtZCdrA8GHVtk4dRQ/640?wx_fmt=png&from=appmsg)****
+****![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_043_7076af2ea670.png)****
 
 ******结论2：******
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAma5BfRtTsFod3eIEJricoEwmL0T9QJXJR2IjmSFdBS3xMeQfrUZXgqL5w/640?wx_fmt=png&from=appmsg)****
+****![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_044_9f219ba77554.png)****
 
 ******结论3：******
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40Dyqqn5KaTPh5InZsVcAmaic1bKyVt6aMicRwFb2XaUeL3mc53jtayJeOSsWC7INs5bTVND4MMDoMQ/640?wx_fmt=png&from=appmsg)****
+****![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\LQR系列05___原理推导及实例验证(史上最详细_了解LQR这篇就够了)_images\img_045_24c29637487f.png)****

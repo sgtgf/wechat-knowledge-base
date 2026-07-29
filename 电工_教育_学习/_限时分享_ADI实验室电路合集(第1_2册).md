@@ -3,37 +3,37 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/sS0GqQvx\_EazZOcOTW9tPQ](https://mp.weixin.qq.com/s/sS0GqQvx_EazZOcOTW9tPQ)
 
-![](https://mmbiz.qpic.cn/mmbiz/Hk0NAXoSxTQYx6mhrVWzibSjwibCOiczNLEPWQPzttxic4H1Y8zL85VaCwgvDpiagvszYjSXvY31AlHaIAgnzYhTxxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_000_fcb7641c9f49.png)
 
  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_001_5ad9d8b8d7fb.png)
 
 **资料内容**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_002_62a6275dae10.png)
 
 主要介绍由ADI工程师亲自参与设计、调试并验证的实验室电路。通过这些实验室电路，可以将这些产品迅速和放心地组合起来。这些电路为许多通用应用提供解决方案。每款电路包含详细的设计文档、常见电路变化以及更多信息。电路功能和性能已经过硬件验证。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_003_5ad9d8b8d7fb.png)
 
 **截图展示**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_004_62a6275dae10.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz72VFiaHEVyeRI84mnxiblEb8Raib7sAV8qTXxkMXJVAKbRonQdF9kB5yIQ4uUsfiaMicDJibnOkuHgZVMicQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_005_aa20e728d2d6.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5STZjgc3skibyfqudQ9vRUSHxSia5RZf2k3YfFIvT5WDLNDibNXDxujiagQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_006_5ad9d8b8d7fb.png)
 
 **如何获取资料**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhSW8nHOrHT58WsR2eLOJB5KqmaSde7pJql9mjz97qrRdEyV7RVD6HCC2DxGIiaIx7LLa8iajNdsA7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_007_62a6275dae10.png)
 
 链接：https://pan.baidu.com/s/1OsU1GO6GmQsqLL-nlGl3Ow
 
@@ -87,4 +87,4 @@
 
 ****加入电子研发工程师群，领取海量技术资源，********请加小编微信（eeworm）****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GywXmfiawz71VMAs2xib1mQicpt1KicR6ddgLHJibRmDXqB2NGPYic2HKs8D2t2zkzBeMeBUWMPxdvCPnJUdpl5vP13g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\_限时分享_ADI实验室电路合集(第1_2册)_images\img_008_312c864488df.png)

@@ -12,7 +12,7 @@
 
 今日为大家推荐一本被国内硬件领域的网友称为神作的书籍，这本书的豆瓣评论也颇高，高达9.6和9.4——《晶体管电路设计》，作者铃木雅臣。本书一共上下两册。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj4w2IhRswQ1GCq7fShITewqP0eVxChvibRZibwM6iaYR0Wog6jntXaVicM8ucJ6vTngyAAk9aqnKBCLQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬件好书_晶体管电路设计_PDF免费分享_images\img_002_eb9444ee8d96.png)
 
   
 
@@ -48,7 +48,7 @@
 
 PDF文档。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh6PsiaU2SkLic5a2E6icVYBWmWibhj0xlIjLAKOLsPfRclpgSN4r15Wj2mNRuFo6rmHP5sIFic0ffxvSg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\硬件好书_晶体管电路设计_PDF免费分享_images\img_003_c88454e14515.png)
 
   
 

@@ -15,17 +15,17 @@
 
 近年来，高压DC/DC变换器广泛应用于机载供电系统，供电系统对DC/DC变换器的转换效率和功率密度的要求越来越高，为了进一步提高开关电源的转换效率和功率密度，软开关技术得到了迅速发展。移相全桥软开关拓扑可以实现功率管零电压开关，大大减小MOS管开关损耗，且电路控制相对简单，初级MOS管电压应力低，在中高压、中大功率场合得到了广泛的应用。而SiC器件作为第三代半导体器件，相对Si基器件具有更低的导通和开关损耗、更高的温度和电压耐受力，更适于高压高效高功率密度DC/DC变换器的研制。
 
-本文基于SiC器件和移相全桥+同步整流软开关拓扑，研发出了一款全砖尺寸2kW输出的高压DC/DC变换器。针对移相全桥变换器中整流管电压震荡尖峰问题,该变换器采用原边钳位二极管的方式来抑制次级输出整流管的电压尖峰，取得了良好效果，变换器最高转换效率高达97%，功率密度高达343![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhjXe6ibmJibCZ31xgAgKxs6IAUnTf1ZXreHqXszCmNpXtQVTCGG0Zyn3A/640?wx_fmt=png&from=appmsg)，效率和功率密度优于国外同类高压DC/DC变换器，可广泛用于高压输入的供电系统。
+本文基于SiC器件和移相全桥+同步整流软开关拓扑，研发出了一款全砖尺寸2kW输出的高压DC/DC变换器。针对移相全桥变换器中整流管电压震荡尖峰问题,该变换器采用原边钳位二极管的方式来抑制次级输出整流管的电压尖峰，取得了良好效果，变换器最高转换效率高达97%，功率密度高达343![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_000_75e5d56315fe.png)，效率和功率密度优于国外同类高压DC/DC变换器，可广泛用于高压输入的供电系统。
 
 **1.  移相全桥软开关拓扑工作原理**
 
 移相全桥软开关拓扑不仅具有电路结构简洁、控制方式简单、输出功率大等优点，而且功率开关管工作在零压开关状态下，大大减小了功率管的开关损耗，因此移相全桥软开关拓扑在高压大功率场合被广泛应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhVshz1YxyIOgZ7WOjhNJTtSibcyekCmxfOo5sZ9uIbPuCqTnc3Newhzw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_001_81787c0ed680.png)
 
 图1为移相全桥主拓扑电路，图中Q1～Q4为四个SiC功率管,C1～C4和D1～D4分别为四个SiC功率管的寄生电容和寄生二极管，Lr和Lf分别为谐振电感和输出电感,Q5、Q6为同步整流管，Tr和Cf分别为功率变压器和输出电容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhgjicU5C4ZZI09nV74ZRLDoF1MicEQMBRcPUlBlYtQsPrv4seFUQOibzSQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_002_64fed6712101.png)
 
 移相全桥软开关拓扑采用移相控制方式，电路的主要工作波形如图2所示，图中Q1和Q3为超前臂MOS管驱动波形，Q2和Q4为滞后臂MOS管驱动波形，同一桥臂的两个MOS驱动成180°互补导通，并设置死区时间以防止桥臂直通。斜对角的两个MOS管开通时间存在一定的移相角，通过控制移相角来调节变换器的输出电压。ip为变压器原边电流，Vrect为次级整流管之后的电压。为了简化分析，除初级MOS管的寄生参数，其他器件均视为理想器件，且超前臂的谐振电容Clead=C1=C3,滞后臂的谐振电容Clag=C2=C4。
 
@@ -33,11 +33,11 @@
 
 2 )\[to--ti\],to时刻超前臂上管Q1关断，由于寄生电容CI、C3的存在,Q1实现零电压关断。由于变压器初级电感和谐振电感的存在，初级电流ip不能突变，Q1零电压关断后ip从Q1转移到C1和C3支路中，此后to时刻的初级电流I1对C1进行充电，同时C3进行放电。t1时刻C1两端电压充至Vin，C3放电至零，开关管寄生二极管D3自然导通。此过程的时间to1为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhGr70GjKCvb9pKTZ3V3xn6yJyzLoktPIkqWC4NNTc7747EESnuRictbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_003_a0cfad7a7370.png)
 
 3 )\[t1\--t2\]，t1时刻Q3寄生二极管D3自然导通为初级电流续流，此后功率管Q3开通，由于Q3两端电压已经降为零，所以Q3实现了零电压开通。为了保证Q3能实现零压开关，Q1和Q3驱动波形之间的死区时间td(lead)必须大于to1，如公式（2）所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhhIAdXf6L7KMCQavL2XmcnEyhibAGY8mENSy71xeXOAVM95V5Vkg28WQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_004_26042fd7b6f2.png)
 
 4）\[t--t3\]，t2时刻关断开关管Q4，初级电流ip从开关管Q4转移到C2和C4提供的支路进行续流，对C4进行充电，对C2进行放电。由于C2、C4电压不能突变，开关管Q4实现了零压关断。t2时刻后B点电压逐渐升高并高于A点，变压器次级绕组极性发生变化，同步整流管Q5寄生二极管开通，开始流过电流，但电流还不足以提供输出电流。此时Q5和Q6均有电流流过,变压器次级绕组被短路。此后，只有谐振电感和C2、C4组成的支路进行谐振，直至t3时刻滞后臂谐振结束。
 
@@ -51,7 +51,7 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 **2.  整流管电压震荡及解决措施**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh6upnePeQTicw1VLQmO3GLrvZvYCV5rtmddllpNB5YBS7Jg5KfVRVolA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_005_e0d9a0f9f4e6.png)
 
 在前面的移相全桥软开关拓扑工作原理分析中，将整流管Q5和Q6视为理想元器件，而实际中整流管存在寄生电容，工作过程中该寄生电容和谐振电感发生谐振，导致输出整流管两端出现电压震荡，加大了整流管的电压应力。通常抑制输出整流管两端电压震荡的电路主要有RC/RCD缓冲电路、有源钳位电路、原边钳位二极管电路等。RC/RCD缓冲电路虽然简单，但该电路是将电压震荡的谐振能量消耗在RC/RCD缓冲电路上，缓冲电路发热严重，影响变换器的转换效率；有源钳位电路在抑制整流管电压震荡的同时又不存在损耗，不影响变换器的转换效率，但需要增加一只开关管和相应的驱动电路，造成控制电路复杂度增加；原边钳位二极管电路不仅可以无损耗地抑制整流管电压震荡，还能优化转换效率，减小次级占空比丢失。本文采用原边钳位二极管电路抑制整流管电压震荡，电路拓扑如图3所示，其工作原理与前述工作原理类似，只是原边钳位二极管会钳位整流管寄生电容的谐振电压幅值。
 
@@ -61,29 +61,29 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 本文设计目标是设计一款高压输入高效率全砖2kW移相全桥DC/DC变换器，具体指标如表1所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh95qHpJlRacwaI4tq2tu46icjX90R6Vn7O4hl2P8mqR1lgqKO9ChFuQg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_006_ce7fdcdcdf66.png)
 
 **3.2变压器设计**
 
 为提高产品转换效率，采用PCB板级变压器，将变压器初、次级绕组直接绕在产品PCB板中，选用铁氧体材料的磁芯，通过计算磁芯的面积乘积(AP)来确定本设计所需要的磁芯规格，计算公式如下所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh0K6RDmWJmb1tOdE81aUlhqj1yBJy1v3YkFDDEud6jcaOD6xdqibrsRw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_007_34acd5c87210.png)
 
-式中：PT为变压器输出功率；KO为窗口有效使用系数，本设计中取0.4;fS为开关频率，本设计中取100kHz；Bm为磁芯工作磁感应强度，本设计中取0.18T；J为绕组电流密度，本设计中取12A/![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhCfuVSpblVDMgNyhPEvLiblFl9Z7rn7HgwRXG7Ewazjj9z1icpAaAqghg/640?wx_fmt=png&from=appmsg)。
+式中：PT为变压器输出功率；KO为窗口有效使用系数，本设计中取0.4;fS为开关频率，本设计中取100kHz；Bm为磁芯工作磁感应强度，本设计中取0.18T；J为绕组电流密度，本设计中取12A/![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_008_f02e58a9af2f.png)。
 
-经计算AP=0.881![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhQgEfgsu02IAicBrtJa4pG9Tcq7vSs41b56rtdF2BcZicmWC6YcYCKo9w/640?wx_fmt=png&from=appmsg),考虑电路的开关频率、产品尺寸和绕制问题，选用TPW33材质的ER40磁芯。
+经计算AP=0.881![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_009_e48e9088f38f.png),考虑电路的开关频率、产品尺寸和绕制问题，选用TPW33材质的ER40磁芯。
 
 本设计中，变换器工作频率100kHz，输入电压最小值Vinmin=200V，输出电压Vo=28V，考虑占空比丢失和防止桥臂共通全桥次级单边最大占空比Dmax设计在43%。
 
 半桥变压器原边匝数Np可用下式求出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh3oLZIwDhOPQibtPVREdBBp0dL6wrI5odj1U5DpVacNicMM1FkDFPUbUA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_010_fa99feed6073.png)
 
-式中：Ae为磁芯有效面积，由磁芯资料可知Ae\=2.03![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhqeWAMy1QDVnpdlicLdkhiceaqya3ugvC9r4SaeXNa79SM7Eq6LIlU3ow/640?wx_fmt=png&from=appmsg)。
+式中：Ae为磁芯有效面积，由磁芯资料可知Ae\=2.03![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_011_fa28f227aecd.png)。
 
 次级匝数比可用下式求出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhOZMYQ3jghJTWDJYOXOdmKiakfhic4AXdqib8XjztlldLDZsIchXicPowGg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_012_891a18f40e3c.png)
 
 经计算，实际中取Np=12,Ns=2。
 
@@ -93,13 +93,13 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 该拓扑中滞后臂比超前臂更难实现软开关工作，为实现滞后臂软开关工作，谐振电感必须满足下式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhXtCSObQeWkeicvRAia1HYPZicLFCVsdicNMcDjHJoJEIAhj3PCDV8O5Dvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_013_22330322cde4.png)
 
 式中：Lr为谐振电感值；Clag为滞后臂谐振电容CTR为变压器寄生电容；本设计要求半载以上均能实现滞后臂的零压开关，I取原边最大电流的1/2。
 
 为满足所选匝比下输出电压满足设计要求和避免桥臂共通，本设计中最大占空比丢失Dloss不能超过7%，为此谐振电感必须满足下式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhWTh7ibCUdm25nGDjF6h8L7wk0V9qKYak7UgamicoXcoTqIibe6v9nrGGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_014_4fd7bb48446b.png)
 
 式中：K为变压器初级侧与次级侧的匝比；本设计中Dloss取7%。
 
@@ -111,13 +111,13 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 输出滤波电感值可用下式求出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhUhHHaJzRMEdsp2f5zE9oDfLIR8xZLr2abDCTVHsaUzDOGh15ystctA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_015_03b5f9ed880e.png)
 
 式中：VLf为输出滤波电感上的支路压降；Vf为整流管导通压降；△If为输出电感纹波电流，本设计中AIf为最大输出电流的40%。
 
 经计算，输出滤波电感值Lf取1.8μH。考虑过流输出等情况，输出电感磁芯最大磁感应强度设计在Bmax=0.3T,输出电感匝数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh5YFg1xMIeWAQYzxlsx8g3M6EhT4jB0rwC2CGKJhVPpJ1wicyblbiau6g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_016_fc49d27e4156.png)
 
 式中：Imax为流过输出电感的电流峰值;Ael为输出电感磁芯有效面积。
 
@@ -133,11 +133,11 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 次级同步整流管的选择需要考虑最大反向电压、最大工作电流和器件内阻等，同步整流管的最大反向电压可以通过下式求出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhQTyp7cUTINRemCDibibLv5CzlkzhTk38e7IFgeFicqhXR32qzgmISJdjg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_017_aebd142f78ca.png)
 
 次级同步整流管最大工作电流可用下式求出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhc7icNoc4c3dlbkZbekiadsD8JDdp03j1Zl1mwbVA3Mvjj7PK9qhb2BJA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_018_00e5892039fc.png)
 
 式中：lo(max)为变换器的最大输出电流,本设计中为71.43A。
 
@@ -147,7 +147,7 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 本设计最大输出负载电流Io=71.43A，采用全波整流，输出电容的大小主要取决于电路所允许的最大输出纹波电压，本设计要求输出电压纹波不超过输出电压的1%，本设计输出电压28V，输出电压纹波不超过280mV。所需输出电容值大小可用下式求出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhPZ6T8ROm5r1oMwQOw2Z1JicxKJZ673fgHZ9ojAP95llJiaewl7r6eoZg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_019_5de8ea6da6fe.png)
 
 式中：△Vopp为输出电压纹波电压，考虑到尖峰电压，△Vopp取100mV。
 
@@ -157,33 +157,33 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 根据以上计算和设计，研制出了一款200～375V输入、28V输出的全砖尺寸2kW高压DC/DC变换器，产品具有原边使能控制、输出电压微调、输出过压、输入欠压等功能，产品如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhWLcbqdpC178gsm06qeRh03X7dWICP84skoTLRem2k7uQbWtRYChbEg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_020_a0f2da7ac745.png)
 
 图5和图6分别给出了在电路中不加原边钳位二极管和加原边钳位二极管时的次级同步整流管的电压波形，可以看出在加入原边钳位二极管后，次级同步整流管的电压尖峰震荡得到了明显改善，加入原边钳位二极管后次级同步整流管的电压尖峰可以控制在5V左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhFwurqoo5Fxs1utglefMUIzA74c5YAVJHsEvgH71ApCrrm7wFbZ5sCw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_021_3475557f6f75.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhykWacPZZAT2ia0o4JVeI5PvBbIj0DRTsJuO4lSgHnC3PqC4lqmK5urw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_022_21373c146d41.png)
 
 表2给出了变换器的测试数据，可以看出该变换器主要指标均满足设计要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhrUeCECKxaHOGicp6ibHxUJpkW0QXRxQKTaibiah8u2h3YIpcV0cibRxCsVA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_023_f0c9c7801114.png)
 
 图7分别给出了Vin=200、270、375V时变换器转换效率曲线，可以看出效率曲线较为平坦，负载在20A以上时，随着负载增加产品效率变化不大，变换器低端输入时最大效率可达97%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhhwTNhHibtA8xkzUPHBNfgribllqLhpWXFTEc1MMB2Bj4hhkGHribMrgWQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_024_6e8b5a5ae458.png)
 
 从图8、图9可以看出，初级开关管和次级同步整流管在漏源极电压为零时开通和关断，初级开关管和次级同步整流管均实现了零压开关，减小了开关损耗。从图10可以看出输出，电压稳定，输出纹波在180 mV左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhyYq9j4ylkdDYfPVpWIdqYb044NlN7CQmz4GxN8hWBic09iaOdy6WLDuA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_025_ffe06e0d63b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhtjPHicrcWKDLe1vqMWf6CGSuEbgOD56l59tmeLV3K72o3Fq8eTgkDZw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_026_2de64f64ef8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhQbahCgDuryPscibbFhibcdHIRorz3icTBMw6xj9VVXb7IDtx3LXfTG0Dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_027_30385d9fe037.png)
 
 从图11可以看出，本产品有着较为平滑的启动波形，单调上升、无过冲，产品启动时间在200ms左右。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhsEUwkAaCTKBic6UfYV7hibR1Zhely42Vt3kHXU60VXsqjBWsEGhBg50Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_028_c77c033e5323.png)
 
 **5.  结论**
 
@@ -191,10 +191,10 @@ t6.时刻起，变换器开始后半个周期的工作，工作过程与之前�
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_029_318ead5d55de.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_030_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的全砖2kW移相全桥高压DC_DC变换器设计_images\img_031_84aa944feb13.jpg)

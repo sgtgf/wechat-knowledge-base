@@ -39,46 +39,46 @@ ps.内附SiC分立器件最新选型表
   
 随着技术的成熟和成本的降低，SiC MOSFET器件正在逐步替代传统的硅基IGBT和MOSFET，成为高效、高功率密度系统的首选。
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtIrtC1O3Aru92e4SU7Lic2s9H6YgL3eQLGXaqf6GJgql2hZcBEWw6AKA/0?wx_fmt=png&from=appmsg)
+![图1](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_000_31a4ac1ffcdd.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibAyc08sPRAR3WxDng4URt47Lt0QCALWRVLjYyxuuUGaS5bPickEFgUvzIEOOicKJMOiac9noLV9Obg/0?wx_fmt=jpeg&from=appmsg)
+![图2](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_001_984efe04f63f.jpg)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URttia9gUWCVy9kn29rYpDrHo3EuzErHQe73wcjGoBqzC3YuCZN9sWsUSQ/0?wx_fmt=png&from=appmsg)
+![图3](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_002_28a2833fa9b1.png)
 
 图3
 
-![图4](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtg5YsaIIDr4XeK6yhiaemWViaKFe67KczDibNCTjhQS556NwgWicc4VZaLw/0?wx_fmt=png&from=appmsg)
+![图4](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_003_11cfbd3bf1da.png)
 
 图4
 
-![图5](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtaUZOEHBb1nhWwPn71CRId352xSEVAEyLvTibluZPpP4kaic6aEam3S7A/0?wx_fmt=png&from=appmsg)
+![图5](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_004_cf9d44b013f1.png)
 
 图5
 
-![图6](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtzAHPviabCsfWugEVucGU6WnFibaiahT9p3evsTg00h66F4fxTUMTA6hlA/0?wx_fmt=png&from=appmsg)
+![图6](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_005_405281278b71.png)
 
 图6
 
-![图7](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtMGmyZwRoGGTCDEyzdjlKgEZPRXNibE1JKmgV5Nh2zdm8hIBjlAtpccg/0?wx_fmt=png&from=appmsg)
+![图7](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_006_81acdc550893.png)
 
 图7
 
-![图8](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtUTjibJDTQMicXV4q3BfEErQK1cPeUUCranAk3M9NL5Ccgw6gVRic6BxtQ/0?wx_fmt=png&from=appmsg)
+![图8](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_007_2dc3d5a0f7de.png)
 
 图8
 
-![图9](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtHme5msicthjGrM9DDlfiaDqQqGCNic8qtkzdx9omBkTrhj4Zx9OmqtukA/0?wx_fmt=png&from=appmsg)
+![图9](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_008_fe694e71be2d.png)
 
 图9
 
-![图10](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtwPu22jn7pqtlnADsl2iaHkcur95ibmdUecTcd3jt49upOT9kbEKTSGHg/0?wx_fmt=png&from=appmsg)
+![图10](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_009_5ace9e350fae.png)
 
 图10
 
-![图11](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibAyc08sPRAR3WxDng4URtRVFKib3CRia9RCSPWDzQKq51KmBczcs9XC0ibdqd0jXchlZ9e3aIOB5zw/0?wx_fmt=jpeg&from=appmsg)
+![图11](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\上海PCIM_Asia展会_不散见不散_images\img_010_f36a6e2d2bb5.jpg)
 
 图11

@@ -7,114 +7,114 @@
 
 **摘要：**分享一篇来自福州大学-陈庆彬（副教授）有关“电动汽车LLC电路磁元件分析与设计”技术报告。****
 
-****![](https://mmbiz.qpic.cn/mmbiz_jpg/9bwhXZWoFDgRrrWBvaRuibft3ZKIk3uCQy1Kq4rVfpugZh7FIiaiaKhrHV6bW0EcdIrRQoM7g7DxN4vvh5zs8YFhQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)专家介绍****
+****![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_000_5a711ec54e68.jpg)专家介绍****
 
 陈庆彬，男，博士，现为福州大学电气工程与自动化学院副教授、硕士生导师，中国电源学会磁技术专委会副主任委员兼副秘书长。研究方向：电力电子功率变换技术，高频磁元件技术，电磁兼容分析与诊断等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn3KedZjdz0ibqwQ8th3c4r7yTc7YKN49GAMxwRYg7GZk8z0MAJJ6JpMfdP9R2ujNXPmSM4bm402Rw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_001_d5feb97f0e8e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyITrJFiaev4RIkFEDziaYtQhbiaXdm9NBoqZEPwhEbEkqQGptK9z8iavhxA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_002_f40080ee6f58.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTySdXFM5wVMKg5w1wYoM5M5ymQRH1myra2sFCfzDiaHXYCPjgmhsZQibBw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_003_7e9cf6433cb9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy9mibKDXghY1mgN5B31ER4vGDADrenHcrO9gaFCZ6cWkNibsS4QRZ09OA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_004_ef214ccc433c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyGjNdk7FgvspFY4nloGHvvOD5w16GZNJWukKzKlLwMyNR9alB3WTzow/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_005_e561d0e402b0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyibGOC5rZFOoGMOicJP7s2HfhDeV1N2GXpzN9BOhR2BGIAYetFSkN28gQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_006_396ec2928049.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy5bVYQRnibLwfsfIj73vGiaJYazUPjbJ6V7esXhf6oPGdcia1ic3iccnoPhA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_007_6c4307557716.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyT994mzSMQ5klUnNUW1cXQfQqycZiaqmPvswrlXPlUviaTGzcoaGDX2icg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_008_0c0bc0f98899.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTylcQPTicrWaVXog9s2WrVicWeJ5CtPxpBKp5xdllFGdicETwQJARO3KVOw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_009_11e0374ef647.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTycWiaiagSCnuoRoMPKmicvviajGBsYS81lDvrNh9wFlyjQ9Lp8RD7R9XxYA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_010_e4120b1e3945.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy9kRfm62xH941Coxf1XBmkW8TZp4iabCcPslEL7LZK1CDwJ4kxJLjeAQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_011_9c943a775909.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyE8SAOOEwO1wpgfoZcibXReDpPaSicX3g91k7prZhM97ibCL5mrbyTGqWA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_012_3bca1ab6abea.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTySqaTntPiaNrC2udb0MyUFrAbJzVyeHQ5zEibX8vrueHUlJgTXC6gRbRQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_013_a3f23880e71a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy2l1j0g7X7R2fhiaPIrfu8dEEJLtMfjhf5wc4udTIZ2cnOmnCCQdp4cg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_014_336b2cbf5306.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTygvTjkykwCswibtGA7ibX6bWHuiboamMky6eMnmicMLNuy31jd0IiaJicOzibA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_015_576eadca9c2b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTydgWu5hQ2jhoTGqGBU2HMQqRrcEyKhZunUmyWejB6w78Sia2PTpOZL4w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_016_8f393969f69e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyAJoKb7E1Nicn9qW7VhoJZtfcfWSacgnjicnlLfrs4bNXRyUbu0OQN29w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_017_f450c3acb69f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyzbhvfibmDYibPSdA5meVb69rP31VPQFogTYViccHy7s4b7waRzrn1tib0A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_018_e628414cfd18.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyKt3F9vkMSialoNGja4WnFqRcmk07gg8ZO633PYVflwOfLuVpYeSl2rQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_019_f73261adbcc9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTynIWfAhSCicZCdGBPjIEdIBxaMgVjWcg1G7giaU2At3hkUb2P1AfXCz9g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_020_2e3636b5f0e9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy7ia885DT3NxYeXWAR5gmsXKxrps5q9BlydtQ7Y9ZLiaBlpxW2AOibOGbA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_021_0d4a4e8ecbe6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyURyqLpkrfmtd5Je9iaDlYnTWMg7QCzicpNBtiabo0ksINfPej5xnXic8xw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_022_fbc727140675.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyWIqx1Rl4NmGssq1GONdicn5BuItyXZzrYcmRtVxiauKolMf1XOibmKuhg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_023_f5b5224072af.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyNmPkjgiawEMViaLFHsL3fa8hLXcq0librUVaicBVibf26bLvpYvAsj35btQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_024_b6a4cd6a19c5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyeL9PMUjala431rYPvdbJzKaabtx6V2vn4meh4w21YerGIDkyAktouQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_025_82e14078dd64.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyfhFM1fZ92YETVSt186yh4q7Cv08iagKia9MicxYbicqG0OtSl3cKYrCUIw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_026_19182331476a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyCu6t8nKicYiaRtmicYFsa0m6d20ofhSvw6kxF2XICkL4ZKibtw3G8d7rGA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_027_895b40ed6b23.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy0T8pnCKlf27N90pxnMd6SfwqwSa7sxVxm2lia65OUIbVbElcmn53CqA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_028_8bc6c632db25.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyuN3U5BDB9RXdYNQLyjicv7WibAP3ibWwcbyyxcjFLmLW6GyTFOQoZRzYw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_029_991dd2c25c6b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyp1uc7Tu3MO5GKtC7FsvzQibdSKEKn2JfWe0JB3cZicNrqm4cHdyD8LVg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_030_2184f711faf8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy97aLn4GdQRasKhPsloQnJculM2yaNDykQn4UOtC6ibSrLTdIm0VzzVg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_031_251f084abf97.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTypU3ZyfpEsVciabXKlrRoFONCl7oDQGqGdfIdwlcAHg3w2DATEN47ILw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_032_060238b90d4d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyVQQH02RQM6I48kEZbIBkJO32eoJfw1KmfXaibpT6qibjxc2fTe9zggsA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_033_ac389b01950f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyFCDt0crbIzibq6vy5xgSlQo9mLKyZQkDFRBiaLVsrLGtwGfpWMXESbEw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_034_a0d7554a1e7e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyYbXfRYnnPYwNCoOaallkfzLapicXJ2HBxK2iaykFqicGRdteBxHfVdYIA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_035_e3c7255608da.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTySFicVXw9tzqw5icXNXxHOZNjzdfkI1boAleGTKlrlwKEpdaicibvc0d1Wg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_036_33665d5d8f82.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy9QddfquuoIfeECcb49ch1u06iaMdiaHNFaXxZ4j4sPB9qpEOX73csadg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_037_d8a2b9482a3e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy1fkOwpEWLam1hykXhkUUHicetFaUvLRdLDnLoOp7x9LcdL1pEJFdsUw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_038_19bd7b806098.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyTkd7q7Fb0lgxlo6EicjrSuMPkBOS0fAsPGdgvOxiaXuBJZGwp0ILA1QA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_039_78c10030a0ce.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTylUxqOJvuSicM2fchGcPVTyYicrmNwP22OdBLVicSibwbZYDyEonTB0fVTQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_040_73aa0fd30bd2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyPGfbf8vBfU5136cNG2l4cI7YDthlENI9Oq1Unxib5PQDON45CSgblPg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_041_a54127e95941.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTynYBS2RGjetobxtxqpIUq9yxXWxxnly0mDYtvfHC0fNTrQ0dicClVgmg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_042_47dd6d6fb471.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyf1k9icnyUDBM3BLtEcKzh4thDqLGqbhN8Bwbqo0I4lYZQmia5uh6ZvPA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_043_c6bffa8a5842.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTypc1tSZSnZnWPxMsiaMQIoyWohEuic2Ij0W0MUuwfF6bU0qblI6fXOqow/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_044_b9e24e0c1419.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyEURibCQK2zKTcRfo4BUiakupaPuR0WibANnFe0TJwNrnMaQNsZicj6TO1Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_045_433d94bde4b6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTypVibkQfFekFCmugbkh5c2Tmlp6RqnUwytYwX74A7Dy8oGbD8iayAKrxg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_046_19c3b1e0f01d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyomptibctXT7KNqzNdUOBmbXh1nnlvJWJffrRib4RnDgCaE9MMjdPOwRw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_047_ff0393bb4383.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyqV1oSXApRN4FOnsZXiamDaOvLpDzqv4iaqj6F3h8UYzwGiadthzBuW6EQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_048_176199bf3aac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTylI1UYKyTT3l4m9F50VicxEWJ2k16iaZzhzr4wDhoVmcPaot4SpTypCnw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_049_a20bcf205281.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTy8qI2icTrbJkvAd5aVufS8ueCVsVeG9ExM1icUyicoBwtk5m9eJlFHYB3g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_050_06338456425d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Y9iaHJeibDMfwiaRSgT7ObYicyFAMe2hvDTyNqQwbcOiaZc3MaqsGjP0xVQH92EB3Pj42N5NCjaA9VPUic0dCG59wc0g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_051_63f175cacab5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_052_ecce5de33065.jpg)
 
 **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_053_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\福州大学_电动汽车LLC电路磁元件分析与设计_images\img_054_84aa944feb13.jpg)

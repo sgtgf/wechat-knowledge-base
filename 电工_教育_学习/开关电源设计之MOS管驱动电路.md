@@ -10,7 +10,7 @@ MOS管因为其导通内阻低，开关速度快，因此被广泛应用在开�
 
 一、电源IC直接驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLTvPFaVIUrVHfWTOia4zIeO8H6V18LoWZUcSWeZoSWproYicmva64MZBlEY54KtH5hPPTeFmkoZ1ZQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源设计之MOS管驱动电路_images\img_000_328318e4d83c.jpg)
 
   
 
@@ -30,7 +30,7 @@ MOS管因为其导通内阻低，开关速度快，因此被广泛应用在开�
 
 二、推挽驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLTvPFaVIUrVHfWTOia4zIeOzmLpluLhRVmbjswXuMoWiayOGA8t0dE1zmjCQw2qIuicY0Mz4O4nOD3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源设计之MOS管驱动电路_images\img_001_cd6bd93a20f7.jpg)
 
 当电源IC驱动能力不足时，可用推挽驱动。
 
@@ -44,7 +44,7 @@ MOS管因为其导通内阻低，开关速度快，因此被广泛应用在开�
 
 三、加速关断驱动
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLTvPFaVIUrVHfWTOia4zIeOTreunCkcSW4WfhtCFZiaHXzPRTtV4v4N2Ze50YMxuZa8XncGmgv3CKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源设计之MOS管驱动电路_images\img_002_fc4c65454f5d.jpg)
 
   
 
@@ -56,7 +56,7 @@ MOS管一般都是慢开快关。在关断瞬间驱动电路能提供一个尽�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tLTvPFaVIUrVHfWTOia4zIeOIVqF8JCSH5aSspElC5gbqpwhudhzV6zNFdbV3dXibeCokV75DCFDdsw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源设计之MOS管驱动电路_images\img_003_fa49e4ed14da.jpg)
 
   
 
@@ -78,7 +78,7 @@ MOS管一般都是慢开快关。在关断瞬间驱动电路能提供一个尽�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLTvPFaVIUrVHfWTOia4zIeOHia3iaDWcJiaferTyhhQfmWU1sJY3I2JMScqANThB4ZjicMJTcGAQDCldA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\开关电源设计之MOS管驱动电路_images\img_004_8b7d1f3c8a3a.png)
 
   
 

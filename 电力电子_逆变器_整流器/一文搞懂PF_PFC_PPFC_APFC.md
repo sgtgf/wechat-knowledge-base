@@ -20,17 +20,17 @@
 
 ●用电设备有电阻性的，也有电容和电感性的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDHDPib4sjdGrInMmqX66jHeKqHNXg5bDiclhxs04zica4GicSH65QXLjoQw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_000_1f0b3ba1fc73.jpg)
 
 **各种负载类型的设备的等效电路**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YD1w2viadRbMQJic33HnBO4Azb1pMN8SudsA6dbicxkxW0CtHwJpKdq7g4g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_001_eadd2c29536e.png)
 
 **各种负载的情况**
 
 ●下图示出了4种类型负载的消耗能量的情况
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDUcStJQAfniahtwlcCboxa794GHnfFibEHFibvlfhibjSCibvE6eR9vub6hw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_002_d0de198aac9e.jpg)
 
 **详细分析各种负载的情况（电阻V.S. 感容）**
 
@@ -40,7 +40,7 @@
 
 ●在这个储能放能的过程中，能量都被消耗在了供电线上了，用电设备由于没有消耗能量，供电厂不能收取电费，但供电厂依然需要架设对应的供电设备，并且不停的提供能量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8HEyDicxYDka6pzJFguF55xpvorMIBMk9ibS2DkfKxDjySP0wib2muuL7w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_003_1964042be1e8.png)
 
   
 
@@ -52,7 +52,7 @@
 
 ★由于供电厂只能产生正弦形式的功率输出，为了达到这个目的，供电厂必须建设远超出正常消耗的供电设备，以维持用电设备的用电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8NO9wTibnfhaEo4uJQljU9HwOsWx1icow55liba2zVHZtJEFULW6y5KvcQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_004_3e2fc5578829.jpg)
 
   
 
@@ -64,7 +64,7 @@
 
 ★PF大还是小比较好？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8MdxgjQXqJ8XlzKPRaJ2WQa2eV9cIVicrL8jhpuMdSGkX35ZMg5kicnrQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_005_10a5e23ea94b.png)
 
   
 
@@ -80,7 +80,7 @@
 
 ★THD大还是小比较好。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8oREfj5eu4sxHTQSoQMzqT6kUxnCa4sV9PSceIjPcQUPNmqGthtTqNA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_006_d90084b4754d.png)  
 
   
 
@@ -104,13 +104,13 @@
 
 ★第三步，开方。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8knIHJLwmc6XOBu7mVQv02EjIGLjecsFHoyrFXTApC1cOmzLssFhtUQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_007_b2bf3d10d4d5.png)  
 
 **谐波失真的图形表示**
 
 ●总谐波失真代表了供电能力的浪费，而高次谐波的幅度则代表了电磁干扰的强度，因此通常还会使用图标来表示谐波失真，这样可以比较形象的看出谐波失真的电磁干扰危害程度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8Add8DkRSDNuujrIWExS1BzHpTKyT8l6DQX0GtegNyNDU9ib0gAyELLw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_008_a018f044bcec.png)
 
 **偶次谐波和奇次谐波**
 
@@ -122,7 +122,7 @@
 
 ●偶次谐波分量为0的原因在于电流波形总是呈现正负对称的形式，这种对称波形称为奇谐波形，其偶次分量为0，其分析如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDiaFVUGCHo9bDrUQ96HGeSX3icXdBLocKrzeauB77gT1F75ibywDcdwicDw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_009_43483889e72e.jpg)
 
   
 
@@ -130,7 +130,7 @@
 
 ●真实应用中，设备往往同时包含电容/电感和有源器件，因此电流波形既表现出和电压正弦的相位差，又表现出非正弦特性，如下图，此时，功率因素的定义为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8f7ibf8icC2HpNzu7t6iaZh6Vwvyf02wia7qVr1IjxID4t5YdibKV32QXWog/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_010_da7e7a3b4010.png)
 
 **小结**
 
@@ -166,7 +166,7 @@
 
 ★两个电容完全相同，因此电容的电压总是会自动保持相等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDwUohFroWFCRzBgJKMnuPtHN8U5KbltmvlvSafSbgL6SyBJricm6YByg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_011_c68ef68df923.png)
 
   
 
@@ -176,7 +176,7 @@
 
 ★假设VAC为220V，VDC稳定在200V，那么无逐流电路时，只有VAC>200V，二极管才导通，有逐流电路时，VAC>100V，二极管就导通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDokuOvhkoUQBBr7pArelU0gjDPpmibiaer9XDBAJyqh31DpaMIvlIgdRw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_012_a6380a240a15.png)
 
   
 
@@ -188,7 +188,7 @@
 
 ●如果希望提高逐流电路的PFC效果，可以将电压落差加大，增加到3，甚至4。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDNngWoNrDFShaWm276R6U34UZTgc7RYHVrUYv1BPuRCkxEAvHLcwS1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_013_fe996ace4b0f.png)
 
   
 
@@ -206,11 +206,11 @@
 
 ★因为开关电源在整流桥后面是一个电感负载，电感的电流电压关系为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8Q6c0cicib9OSdw0hfricuAhyI2Lca4jjCPwZ28MIBfpBic4EIde85L3lug/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_014_317cb8586e69.png)  
 
 ★所以开关电源需要控制t，来使得ʃvdt和V成正比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC894VEFRrrJfMgKjpmMQxqVGyq0QsoDnKlyXN9lHYDXRBmco4KpZXOVQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_015_9ad792460632.png)
 
 **APFC的形式**
 
@@ -218,7 +218,7 @@
 
 ★一共有3种形式的电流波形，对应3种模式CCM，BCM(CRM)，DCM。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC81cgg9QlUFncofBiaQ4iaOr8AZ4CFNDEmeIpBlZCa5V1LEKCmPVTbAtYw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_016_02f7dac997fc.jpg)
 
 **电流平滑**
 
@@ -226,7 +226,7 @@
 
 ★电流滤波使用电感和电容，电感对电流进行平滑，而电容储存能量，应付PFC过程中的电流突变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YD2QSR6mqib4d3d88wwx9SJS9RTTicBiahfaZuvdqdJe38BFYCDPb687k1Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_017_03701365655a.png)
 
 **3种模式的对比**
 
@@ -244,7 +244,7 @@
 
 ★理论上来说，高功率的也可以用于低功率，但CCM的控制环路存在巨大缺陷，无法做到高切换频率，因此在小功率段通常是不使用CCM的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8QVcJ6oBojNb1QYyicBgNPfZVD7AHSlLsGL681byXZspIhVJzibg7z67A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_018_4efeab5a394d.png)  
 
 **BCM的实现方法**
 
@@ -262,7 +262,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDALCy7VicL075AfMMAP2lTUXayFuNXhM1Vb9MicgXhoS6ngfq4ficpP2lg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_019_50dbb3cd5c35.jpg)
 
   
 
@@ -272,7 +272,7 @@
 
 ★当前周期的TON结束由电流峰值比较器来检测，而TOFF的结束由过零比较器来检测。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh5fuoZlegXxUjo9cryw5YDWUyTicWbFJx51h4garMTQPd4Hicw3IwlcQwqpGxE1glhPd16UyeiayiavQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_020_babcef7c7ce8.jpg)
 
   
 
@@ -282,11 +282,11 @@
 
 ●电感上的电流可以用如下公式来表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8vJMicGPmvD8vNzAv5LAyXBNS0UoQFnbFxF4l3icnCUdCcpR1TdPYXLFQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_021_0b96ef01b719.png)
 
 ●这个公式可以看到，电感上的电流直线上升，上升斜率取决于输入电压，而上升的终点同样取决于输入电压，这样就导致导通时间最终和输入电压无关了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8WnHMSlYndRoOuzEjupHAKnws0Qcias0qTibPwDcZOo7v55SW9Zo0DrsA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_022_583917d29dd6.png)
 
 **PFC方法的改进-固定导通时间**
 
@@ -298,7 +298,7 @@
 
 ★固定导通时间是目前非常主流的PFC技术，适合用数字控制，计数器产生固定宽度的正脉冲，每次过零比较器检测到退磁点，便产生一个正脉冲。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8ibzzyoXuKQNAbSfpmKVckGzibWlp7bVsnPWHSscvEMeYbFzGzZrwicsuQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_023_45c7f370ed98.png)  
 
   
 
@@ -308,7 +308,7 @@
 
 ★因为输入电压为AC，总是不变的，因此电感上电流斜率是不变的，缩放包络线后，相当于改变了峰值电流比较器的阈值，电感上的电流三角波会变化，包络线越矮，平均电流越小，输出功率越低，TON时间越短，开关的切换频率越高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8stpjhQKFlOUO74bLFiaqGYVVHU54xxg9HjxFAO4ZticbiaWXQxRyhHJibA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_024_f0ff004b0589.png)
 
   
 
@@ -316,7 +316,7 @@
 
 ●由前面的分析可知，要调整输出电压，只需要调整TON即可，因此将输出电压反馈回来，调整TON即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8uZK9uj90jTUKG6SZYR30YM14g68yuWxE9YWVGj4A043pbIenFVJU4A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_025_d3686b77f288.png)
 
 **BCM的问题和解决**
 
@@ -336,7 +336,7 @@
 
 \--数字控制的方式，TON的最小调整粒度为1个TCLK ，而引入死区等待（补偿）后，最下调整粒度可以高于一个TCLK。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8v1wL9FbAqK5ssFObGcJXSrQqHdyxiabMV2oibp5LSV3Y9ZL9QARJMRgw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_026_2b2816f11825.png)
 
 **结合死区等待后的稳压算法**
 
@@ -348,7 +348,7 @@
 
 \--先调TON ， TON调不动了后再调TDEAD ，或者先调TDEAD，再调TON；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8uYvMDbcfs8FneRdgQcxfPESezWMRA1XFI9YqY3H3z8xfKdQj6P0I2Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_027_ec1f2e8e0bee.png)
 
 **对比几种算法**
 
@@ -356,7 +356,7 @@
 
 ★注意到两个参数的曲线总是不同趋势的， TON增加，切换频率降低，而TDEAD 减少，切换频率升高，因此理论上可以做到切换频率不变。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8Ny1RqyvGqmiaeIC9Nd2V59CSG3ILnOqq66BHvsEGPmmFSCSTWRChykQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_028_935a496a3a5b.png)
 
 **死区时间的多周期均衡关系**
 
@@ -366,7 +366,7 @@
 
 ●均衡算法的开发思路如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8oEwLUh28m9xoWje75vvEXKSnSehtoaDqdqJAaE0Y8kCDcntXFQAAeg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_029_5d64db13968b.png)
 
 **扩展到其他拓扑**
 
@@ -374,7 +374,7 @@
 
 ●假设依然使用固定导通时间，其他拓扑的TDEAD均衡算法开发思路如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8xAMUEM2YmhkibIfezj0W5VjE2fzL8FRGZaEzWEhzucQIESPiak9f8icgg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_030_12d9ec1a706c.png)
 
 **PFC和恒流的冲突**
 
@@ -400,7 +400,7 @@
 
 ●对于大功率，成本不敏感的场合来说，使用2级方案是很合适的，但对于成本敏感的场合，就需要下很大的功夫来进行优化了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3nJjpKuusmfhSYRyRL9xXCHW1eibSNPC8WDPfUibfHPaqFpAEADmU98dm4KEzicStpU2HvI6voZfjibBjhYQzswiaMA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电力电子_逆变器_整流器\一文搞懂PF_PFC_PPFC_APFC_images\img_031_b21b240f5771.png)
 
 > **推荐阅读▼**
 > 

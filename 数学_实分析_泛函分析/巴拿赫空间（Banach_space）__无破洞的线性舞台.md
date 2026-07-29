@@ -107,7 +107,7 @@
 
 # II 图解
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRoocvdTic2qB03XQgtlADHVmcN3oxbicF9roDm9agQxJYy841Y6UDKmbH3BrroHEWj0fIu0ajibGbVibH140Wu7mSibDfrRa5ccyiaZsE7Q/640?wx_fmt=png&from=appmsg)
+![](巴拿赫空间（Banach_space）__无破洞的线性舞台_images/img_000_bc50d7a0367a.png)
 
 这张图想说明一个核心概念：
 
@@ -337,7 +337,7 @@
 
 # 七、巴拿赫空间的正式定义
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocvHiaglhiczHLWKEIiaSR0KrJCIdH6uia9aIsCxzXmz5Vkj2f0bN7mM73AUvO6fcP6KhFdic1eoPvHEkUjosiap2ticvLVKaF5m6N72wM/640?wx_fmt=png&from=appmsg)
+![](巴拿赫空间（Banach_space）__无破洞的线性舞台_images/img_001_fd8d4cbc853b.png)
 
 现在把三块积木合起来：
 
@@ -399,7 +399,7 @@
 
 ## 2\. 图片中的巴拿赫不动点定理
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sVzeakRooct9MTfcicydxDReWWjaTia0cV9zqWhXFCMCtiaiaMRMrgtgaIN79sxGYjbC2yDb5TibG2Xugzw6Ez3tUuO1icggf3iaCJPT09royDL4sc/640?wx_fmt=png&from=appmsg)
+![](巴拿赫空间（Banach_space）__无破洞的线性舞台_images/img_002_6a50350de8de.png)
 
 图片提到 Banach Fixed Point Theorem，即巴拿赫不动点定理。
 
@@ -501,7 +501,7 @@
 
 # 十一、图片底部的“空间层级”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sVzeakRoocspXRZxxex6hvGRd5S3KTibXOAU9XWeRKfCYibmWKqyovPtyS3wZW3lmg7FpztnKn909eibrFtpsLiaN4xye4SvJlwia7mk6ece8Psc/640?wx_fmt=png&from=appmsg)
+![](巴拿赫空间（Banach_space）__无破洞的线性舞台_images/img_003_be51da19d1b5.png)
 
 图片画成了：
 

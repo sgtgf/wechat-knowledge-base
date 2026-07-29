@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9Ghzr2ibAB6ydVkggH8YylBMXhkydFTyibv5fGZmTPnnJWWDXGtkhiatRXEbg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_000_950705827801.jpg)
 
 **CES TEMS **入驻“科创中国”科学数据仓储及应用服务平台！****
 
@@ -54,15 +54,15 @@ CES TEMS已基于科学数据银行Science Data Bank（ScienceDB）数据存储�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9GhznkrK5f8ohQEwibvXPGJ8MROKFswKdyWOWZa3tQq6Er70j2z1oeeMHsA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_001_846100165109.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9Ghzia1xLvsicL9IWQV0wNW536U9mq2weOJ58Wjgkx0Ijp8nibMqTL7WdsExA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_002_1b1921a7ee99.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9Ghz46X34lRODxzujc2Wg9DZZic90Atf9a4CFDWuFbYC8Fvag1zWPicMouOQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_003_183c12f59901.jpg)
 
 学会官方微信
 
@@ -70,15 +70,15 @@ CES TEMS已基于科学数据银行Science Data Bank（ScienceDB）数据存储�
 
 CES电气
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9Ghz0JToFJSx4Q5kmoicYvEMWC4uTaArS4Oia03MF2XibsWvOvOJzJCgy86VA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_004_c0262f6ffd49.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9GhzBTcChl4RT0ic0ic2kicVxQLrdwVFLKPUKzVCCC5XOvj9D3mabMZESrkTw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_005_3b97e2d69fc9.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9Ghz2g2YhE2uzM8DbRnjMmPVHpI33kbz0pqgjXWyu9L5MLqgave11SicNvA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_006_af2b41503d3d.png)
 
 学会官方B站
 
@@ -86,15 +86,15 @@ CES TEMS
 
 今日头条号
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9GhzO7tUVaR28t7wuPhuOrgR9brxmsTF3Ja5OHZUTmBqSl1bSUDWXB9FLA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_007_75457ce2414a.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9GhztpaFVqSCHfwdheAk786AyIGkn8GqKFvxMYQLN5dicg7ibcUEgE5dJFQw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_008_433e513aa40a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jFLbUGmZ178GuqZqvYw9Y3Dw6tDU9GhzmcO9qhDEgMB1AoZ1ddibyk92a9JZAPkvoODteiaRUh0HgkBTJ4fcsI4g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_学术论文_荐读\_CES_TEMS_入驻_科创中国_科学数据仓储及应用服务平台__images\img_009_fc2d8159bfe1.jpg)
 
 学会科普微信
 

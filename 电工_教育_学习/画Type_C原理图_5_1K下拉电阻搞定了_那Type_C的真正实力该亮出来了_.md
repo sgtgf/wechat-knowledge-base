@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/IvuznlV-gwZqcCXAeNGbjw](https://mp.weixin.qq.com/s/IvuznlV-gwZqcCXAeNGbjw)
 
-![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_000_428573fe1284.gif)点击上方名片关注了解更多![图片](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_001_9011be9decf6.gif)
 
 前段时间我写了两篇关于Type-C的文章，发现这类基础的科普，看的人还挺多。（点击如下标题可进行查看）
 
@@ -16,7 +16,7 @@
 
 你可能会想：PD我懂，快充嘛。USB我也懂，传数据嘛。PDUSB？把俩加一块儿了？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacAMujoe494v5a9GnO3mtGvJ35zphg9JyYOzoE5JTNicor1BvXia35tibunVYNicjHvBIIBibwe0QsSBb6OHuysz33BSkdia221RfRp8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_002_6f550a7e468e.png)
 
 **没错，**PDUSB = USB通信 + PD功率传输，两者二合一。但这个结合不是简单的边充电边传数据，而是******用同一根线、同一个接口，动态协商：现在谁供电、供多少、数据怎么跑**。
 
@@ -30,7 +30,7 @@ PDUSB并不是一种新的接口形状。它就是在Type-C接口上，同时实
 
 再后来PD来了：5V、9V、15V、20V、28V、36V、48V……电流能到5A，功率最高240W。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niafs0xgiajVa2aFOWEQH4NibD3zccql0AheiajB1LZkvgYiaNnPvuMQnN04m9VXTiaN564ic578BrpIQgjyEvRicqWLl5B8OFBib45W05BM/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_003_bd08b6c2e482.png)
 
 而PDUSB，就是结合了PD功能的USB接口。
 
@@ -50,7 +50,7 @@ USB数据传输，这个一直有，Type-C本来就能传数据。PD功率传输
 
 以前一个设备要两个口，一个充电，一个传数据。现在一个Type-C就能全搞定，确实方便了很多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadCic4zvPO04KvFLKLDMBC0q8Wic5IMxn6Vcq9vWYgTb6UvWNdM8AiabzQdh52mibQyxlWzEufbAvujEPTYRbW1yjzhPoKcMFkshFE/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_004_d7d8800bdb26.png)
 
 第二个：PD协议本身成熟了。
 
@@ -68,7 +68,7 @@ PDUSB的工作，按时间顺序分为以下几个阶段。下面咱们逐一拆
 
 当两个USB-C设备物理插接时，CC线首先承担连接检测功能。**这正好承接了我之前两篇文章讲的内容。**
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niaef5Wfibm0xsykom3QSI63MKeaCKWPxHq6vSZxicC0dpCGics3lOrarV4F6WmOeSt71qIZJKeXDMMwnFyickciaa1EmqcJZztic4zX1U/640?wx_fmt=jpeg&from=appmsg)  
+**![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_005_770631716573.jpg)  
 **
 
 具体是这样的：
@@ -79,7 +79,7 @@ Source端（供电方，如充电器）在CC引脚上连接上拉电阻Rp。Sink
 
 连接检测完成后，Source知道自己要供电了。它会通过CC线发送第一条数据消息——**Source Capabilities，用于声明其供电能力**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niadhicMc5bXNPbw7xDJWmc3yb1vibrhkFSLWBmlXpME5S80FrSgiapUbibwJ0DhoH3IPskd9zhgP2iahibHm3UFLWLiaPZHzjStuGicVtJ0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_006_63e1e3e28183.png)
 
 **具体是这样的：**
 
@@ -89,7 +89,7 @@ Source端（供电方，如充电器）在CC引脚上连接上拉电阻Rp。Sink
 
 Sink收到Source Capabilities后，会从里面挑选一个自己需要的档位，并发送**Request**消息回去。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaf1dbiciaFTd3d0K2vyvc9HZs1eaqb4BszZIibLLZ5VvyHFLI7Cpia89GgSjXmicV2PhW5UGyANYlomzbq7KibY6NcMDLmxVGoMfibQeA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_007_03253775e9ba.png)
 
 **具体是这样的：**
 
@@ -101,7 +101,7 @@ Sink根据自身需求（如电池电量）选择一个PDO。它可以请求该P
 
 Source的输出电压稳定后，会发**PS\_RDY（Power Supply Ready）**消息通知Sink。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaehRfyBHDMjFddQ3zB3lj2cjwDHAibPaicibictvEOBfpNevBbrfAcYXWzFy9ceWZJB3XO8sGuHwVfI7ls1Rdic6Ns0IE3BmVNvJMus/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_008_2fe7d01dddf6.png)
 
 **具体是这样的：**
 
@@ -113,7 +113,7 @@ Source内部DC-DC或电源管理单元完成电压调整，稳定在请求值。
 
 在Type-C接口中，PD协商和USB数据传输走的是两套完全独立的通道。CC线专门跑PD协议，负责电压电流协商和角色识别；而D+/D-或TX/RX差分对专门跑USB数据，负责文件传输、音视频等。这两套通道物理隔离，互不干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niaf1FogZnMc0iaOSvBNX8BiazmAfRkfyZJQJvBVBJMcO7ejCm7Tk3ERZS4HRbIPGOh3ggBQG2o0nnhl4kE0VXF244TtulkictpbnOo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_009_df113e8d97c4.png)
 
 所以即使在PD协商过程中，比如从5V切换到20V的时候，USB数据通信依然可以正常进行，不会中断。连接初期VBUS默认5V供电，USB数据按线缆能力正常传输；PD协商进行中，CC线上在跑PD报文，同时TX/RX线上可能正在传文件或输出视频，两边各忙各的；协商完成后VBUS切换到更高功率，数据通道仍走原来的高速信号线，没有任何干扰。
 
@@ -121,7 +121,7 @@ Source内部DC-DC或电源管理单元完成电压调整，稳定在请求值。
 
 #### 以上四个阶段，PDUSB握手基本完成了，其实还有一个阶段，也就是在供电过程中，Sink可以随时发起重新协商，比如从快充切换到普通充电以降低功耗。更高级的应用还可以交换供电角色。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacZgHsQn54ib6rR2XDxeeA8EjUG2N4Fm9JovYULIKxye3kjNvLDqlDBa0KxHhfe0sJ0oEaAsfS7icaVayWZ8CxR28AtxHF5Nbsg4/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_010_f8aef51869d8.png)
 
 角色互换的转换图
 
@@ -131,7 +131,7 @@ Source内部DC-DC或电源管理单元完成电压调整，稳定在请求值。
 
 下面是成功握手过程的一个示意图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafy1hIYFWkuINvI9HH92k2YsczCibRehuObl1NQ1YK3tCZY5zicVOalYj2Zebqba9nk42ff3qMFwRR9d8JcLvMicoVY33PTsftrkc/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_011_47665b8cd2d2.png)
 
 04
 
@@ -145,7 +145,7 @@ PDUSB的硬件方案
 
 **比如大家都比较熟悉的一家专业做USB芯片的公司**——南京沁恒**。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadyYqGkq0oSd42CoibtTgfhn0x8cWr0bLo9kNerTFAPdLvtxAiaNM8msOqicYCgrydvfGceaWGIoHMY57b0YGicSKIBlqSkqxM0eg0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_012_97f72f4d2315.png)
 
 他们在USB上积累很久了。早在2021年，就在通用MCU里集成了480Mbps高速USB 2.0 PHY。PD这边呢？他们从2018年就开始做PD产品线，PHY也是自研的。把这两块放到一颗MCU里，就是顺理成章的事。
 
@@ -153,7 +153,7 @@ PDUSB的硬件方案
 
 打开他们公司官网，就可以找到一些带了PDUSB接口芯片，仔细一数有10多款，下面截取了部分截图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacs3dgDicG8qjic3T60CXgSg2sPaU6jGAJ4l1E0EKU4iaIcnSXYsonn0MnlUkImX0uWd4rBRGtlc3GUkDWw7DWicW0WicH77DmDXNn0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\画Type_C原理图_5_1K下拉电阻搞定了_那Type_C的真正实力该亮出来了__images\img_013_7e98dbce8e19.png)
 
 咱们随意挑几个看看：
 

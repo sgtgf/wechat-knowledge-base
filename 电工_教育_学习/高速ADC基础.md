@@ -17,13 +17,13 @@
 1\. 引言  
 基本的ADC框图和术语如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSpvxIBibMMEQovTtS6BWEYkHXoS8RwzLyXhEoAAuxic3LdF5NkCcanspg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_002_4406d78efb98.png)
 
 随着数字信号处理技术和数字电路工作速度的提高，以及对于系统灵敏度等要求的不断提高，对于高速、高精度的 ADC（Analog to Digital Converter）、DAC（Digital to Analog Converter）的指标都提出了很高的要求。比如在雷达和卫星通信中，所需要的信号带宽已经达到了 2 GHz 以上，而下一代的 5G 移动通信技术在使用毫米波频段时也可能会用到 2 GHz 以上的信号带宽。虽然有些场合（比如线性调频雷达）可能采用频段拼接的方式去实现高的带宽，但是毕竟拼接的方式比较复杂，而且对于通信或其它复杂调制信号的传输也有很多限制。
 
 根据 Nyquist 采样定律，采样率至少要是信号带宽的 2 倍以上。同时为了支持灵活的制式、相控阵或大规模 MIMO 的波束赋形，现代的收发机模块越来越普遍采用数字中频直接采样，这其实进一步提高了对于高速 ADC/DAC 芯片的性能要求。下图是一个典型的全数字雷达收发信机模块的结构。高速数字化仪和多通道数据采集解决方案 | Keysight根据 Nyquist 采样定律，采样率至少要是信号带宽的 2 倍以上。同时为了支持灵活的制式、相控阵或大规模 MIMO 的波束赋形，现代的收发机模块越来越普遍采用数字中频直接采样，这其实进一步提高了对于高速 ADC/DAC 芯片的性能要求。下图是一个典型的全数字雷达收发信机模块的结构。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSOPlibSMWGdQibicFHVATa9c0N7b9TwlJnjnfbcmsGvU0qsvLYiaJE2bk2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_003_e15675069480.jpg)
 
   
 
@@ -37,7 +37,7 @@
 
 在商用领域，很多 ADC/DAC 芯片的采样率也都已经达到了 GHz 以上，比如 TI 公司的 ADC 12J4000 是 4 GHz 采样率、12bit 分辨率的高速 ADC 芯片；而 ADI 公司的 AD9129 是 5.6 GHz 采样率、14 bit 分辨率的高速 DAC 芯片。这一方面要求 ADC 有比较高的采样率以采集高带宽的输入信号，另一方面又要有比较高的位数以分辨细微的变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSwiat6t8QW0C1HAlhic7QWvrcVlZAKyYWszuy5HvGKsNSwl2sRTv5M5qQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_004_f3e8244f9272.jpg)
 
 随着 ADC/DAC 的采样率的提高，高速 ADC/DAC 的数字侧的接口技术也在发生着比较大的变化。
 
@@ -74,7 +74,7 @@ ADC 的主要性能指标分为静态和动态两部分：
 
 要进行 ADC 这些众多指标的验证，可用的方法很多。最常用的方法是给 ADC 的输入端提供一个理想的正弦波信号，然后对 ADC 对这个信号采样后的数据进行采集和分析。因此，ADC 的性能测试需要多台仪器的配合并用软件对测试结果进行分析。下图是最常用的进行ADC 性能测试的方法。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSNiaXJpjkib5SgBj2icyjCWia3OXvzP4PO8JHYwYranXDNVW3b3LMcR9uFg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_005_e166067dfd02.jpg)
 
 在测试过程中，第 1 个信号发生器用于产生正弦波被测信号，第 2 个信号发生器用于产生采样时钟，采样后的数字信号经 FFT 处理进行频谱分析和计算得到动态指标，经过直方图统计得到静态指标。
 
@@ -82,17 +82,17 @@ ADC 的主要性能指标分为静态和动态两部分：
 
 以下是 DNL 和 INL 的计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSxdImdic1Y2FPhiavXkhrpic1sNib4jjMazDSmk1o6IwIFgicMZDjjibiaYYjA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_006_c36c2a1284e7.png)
 
 动态指标是对正弦波的采样数据进行 FFT 频谱分析，然后计算频域的失真间接得到。一个理想的正弦波经 A/D 采样，再做后频谱分析可能会变成如下图的形状。除了主信号以外，由于ADC 芯片的噪声和失真，在频谱上还额外产生了很多噪声、谐波和杂散，通过对这些分量的运算，可以得到ADC 的动态参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSAPO42toRqNjCuibSazSTLMfNeG226IYTAlALHFZAd7NnV8NfmicOgpicQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_007_5c4e9c30cc23.png)
 
 通过 FFT 频谱分析测试动态参数
 
 下面是动态参数的计算公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSt6iciaXOCj84jxEicoC6eS5hQ0mvHZVYTIILFZMzGpLlEcBDbBKQHEXyQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_008_e4d4c86633e0.jpg)
 
 对于产生被测信号和采样时钟的信号发生器来说，为了得到比较理想的测试效果， 要求其时间抖动（或者相位噪声）性能要足够小，因为采样时钟的抖动会造成采样 位置的偏差，而采样位置的偏差会带来采样幅度的偏差，从而带来额外的噪声，从 而制约信噪比的测量结果。下图是时钟或者信号抖动引起信噪比恶化的示意图，以 及根据信噪比要求及输入信号频率计算信号抖动要求的公式。
 
@@ -104,7 +104,7 @@ THD：总谐波失真。THD是基频功率与前5次谐波功率之比。THD在�
 SINAD：信号噪声与失真。SINAD的单位可能是dBc或者dBFS。  
 ENOB：有效位数。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS8cdZ8QLyUx7YKN1mynBO2fKrobGbXbXm5CS4wAghwDChnuqHBntzUA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_009_af643433e50e.png)
 
 理想SNR=6.02\*n+1.76，当n=ENOB时，理想SNR=SNR。对于理想ADC而言，由于没有谐波，其SINAD=SNR。  
 例如，设计师需要一个SINAD为75dB的ADC，则ENOB=(75-1.76)/6.02=12.2bits，那么至少要选14位甚至16位的ADC才能满足要求。
@@ -116,7 +116,7 @@ ENOB：有效位数。
 欠采样：信号频率大于奈奎斯特频率。此时，会导致混叠。  
 混叠并非一无是处，它可以将高频信号混频到低频信号，可以省去额外的混频器，以减少系统功耗和成本，但前提是必须慎重考虑频率规划和ADC选型。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSmfuNbZAO3Xib8rN5NpWB1wk5DWJia7wzx0YDicjt13rjibkJNCKJJysQ3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_010_7235b31c0925.png)
 
 从上图可知，在ADC选型时，需要考虑如下两点：  
 A：ADC满足期望的频率规划  
@@ -144,23 +144,23 @@ B：输入模拟信号的带宽小于ADC的奈奎斯特频率
     高速ADC通常采用差分输入，输入信号是180度反相的，使得信号是叠加的。与单端输入相比，由于消除了共模噪声，差分信号改善了ADC的噪声特性。此外，差分信号还降低了偶次谐波，这是由于信号被偏移了180度，对于偶次谐波，导致2x180,4X180,6X180度的相移，如下图所示
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS3I8frplM4mXOdxkb7lqDTdWKvZUrlvZPTlicYxL22VZgcU1UMBr79gQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_011_5c8edf619c2d.png)
 
   
 与单端信号相比，差分信号的幅度仅于等效单端信号的一半，从而差分信号具有更优的谐波性能。小信号使得ADC具有更宽的裕量。一般而言，更多的裕量可以使ADC工作在线性区域，减少产生谐波的非线性影响。如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSDdj4zaGGnkMg7TfJZXlM70rFrHXuibLKkBZmlEoGia9b7mTkCF2gHXgg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_012_e8436859c079.png)
 
 下图所示为双变压器ADC输入接口，变压器用于将单端信号转换成差分信号。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqStSEce3Trj1vymSZVuo9ibkC01pQzO6sDhVXTMZ5kpxKWfvt6wzYibs8Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_013_e3f21cf07c9f.png)
 
 单变压器会有少量的不匹配，会产生偶次谐波。第二级变压器用于校正这种不匹配，以降低偶次谐波。在高频信号时，采用变压器可以获得较高的性能。但是，对于基带信号或者低频信号，通常采用运放驱动ADC输入。  
 4.2参考/共模模式  
 参考电压和共模电压在ADC中具有不同功能。在许多ADC中，参考电压和共模电压具有相同的电平，或者有时ADC管脚会复用参考电压和共模电压功能。因此，这些信号术语有时会导致误解。  
 参考电压决定的ADC的动态范围。数据手册通常会提供参考电压和动态范围的关系。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS5I4yGLg4iaBHCXcNNiccF0sojsGH4Hvya4nm9G6bVpic8Vp7FkSP7xtcA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_014_b103ff677007.png)
 
 参考电压可以由ADC内部生成，或者外部提供。为了获得数据手册标注的性能，需要提供正确的参考电压。对于外部参考，应尽量降低外部参考电压的直流噪声。参考电压上的噪声会直接影响ADC的SNR。  
 图11中，共模电压VCM是指输入到差分模拟输入信号的直流电平。VCM用于将将差分输入信号偏置在电源和GND的中间。  
@@ -176,18 +176,18 @@ VCM有以下几种应用方式：
 对于外部产生的VCM，必须保证其电平与数据手册要求一致，错误的VCM电平会降低ADC的SNR。  
 4.3时钟输入/抖动  
 高速ADC通常采用差分时钟输入。时钟抖动及斜率是影响ADC的SNR的重要因素。时钟抖动对SNR的影响如下所示：  
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHNYlRRfx2u0BHsQ12yoBwjIO2ficzgsvMzqymaphlJicJLryWhBRunD1T5YSWMO7qPexLAYQDDS7u1Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_015_b44287c38102.png)  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSfjT7bSqtGVh4OyfIOOE2RYicNOrwPZkWTibcTDXSt91hjgPgTYibNvQTw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_016_aa0838468e93.png)
 
 由上可知，对于理想ADC，时钟频率并不会影响SNR。若不考虑时钟抖动，时钟频率达到ADC设计极限（诸如建立、保持或模拟建立时间），从而最终导致SNR下降。  
 抖动不变时，SNR随输入信号频率增加而降低。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSjQpMyXFfuKsjJxvfBkiaZDg75EUtWtpfOTlG2tkMU3Bq7DnYKVMKddQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_017_6043c0acbb84.png)
 
 由上图所示，指定时钟抖动时，SNR随信号频率增加而降低。高频模拟输入信号对于时钟抖动有较大的误差。如果时钟信号上有随机噪声，会表现在频谱图上。如果时钟信号上有确定的误差信号，这个信号会与ADC的输入信号混合在一起，在频谱图上表现为杂散。  
 设计师必须考虑时钟抖动的两个重要因素。其一是ADC的孔径延迟，其二是外部输入时钟的抖动。这两个因素共同产生的抖动影响ADC的采样误差。  
-![](https://mmbiz.qpic.cn/mmbiz_png/ewiaKibzhXCHNYlRRfx2u0BHsQ12yoBwjIYkUWJgWhjwQoBJYeZxW72gBTPib08hpfOXiaWzlk7XgThq9HyD8tibdPg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_018_8032e1530450.png)  
 设计实例：  
 设计需求如下：  
 SNR=75dB  
@@ -196,20 +196,20 @@ FIN=75MHz
 为了满足客户的SNR需求，客户应用所能容忍的最大抖动是多少？  
 A：用公式3求解抖动  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSnG3pQjjsPYkWea59uue17voTlmwIeaDevPrywLcicGOicicukYxibaeENA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_019_0ad5f0f509d8.png)
 
 B：用公式4求解外部时钟抖动  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS2fDShabjdAZ8Y5NA7RwE2Z4RRuIAWXNeK7ia8yW8m51cO9cETgFBWibw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_020_6fa916c239d0.png)
 
 因此，外部输入时钟抖动必须小于397fs。  
 下图展示了慢时钟沿导致较大的孔径抖动的情形。对于正弦时钟，增大时钟幅度可以改善孔径抖动进而提高ADC的SNR。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSOAx8EG8lp6Yb1Yssl8gLFHg7ibn1T91bWMgZicj8BKPwIn1YQbiaDEUHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_021_6a5c130ea6d2.png)
 
 正弦波幅度与SNR的关系如下图所示：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSpntickicjacI1UoQv8vkShWP85OTDcibs4KFlNkVkMQ2iaurLhPTgoDZsw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_022_e45a120da1f9.png)
 
 那么问题来了，如果关注时钟上升斜坡，那为什么不直接给ADC提供方波时钟信号？答案是：方波时钟确实是一个可行的ADC时钟选择。但是，设计者必须在正弦和方波之间做出一系列的折衷。  
 其一是低抖动方波时钟与时钟频率范围间的折衷。对于大多数应用，通过窄带SAW或晶体滤波器以改进ADC时钟的close-in相位噪声（抖动）。滤波后，时钟变成低抖动正弦时钟，可以直接提供给ADC。这种方法的局限在于时钟频率范围受限于滤波器带宽。一些公司有时钟抖动清除及时钟分配芯片，这些芯片具有较好的相噪性能、方波输出和较宽的频率范围，其相噪特性足以满足系统需求，而不需要额外滤波器。  
@@ -221,19 +221,19 @@ ADC实验评估的软件手段主要是FFT。由于其高速及准确性，FFT�
 要实现FFT，必须理解一致性、加窗和频谱泄漏等概念。  
 下图显示了加窗和频谱泄漏。窗口选择不当会导致频谱泄漏。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSD8NNAfXJTfkicFes1uZfLxD4hqV8w3ibPpINzZs7RxXNeL2IJictlib6Aw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_023_a9355bb4b433.png)
 
 某些设计者需要非整数个周期。在这些特殊情况下，由于频谱泄漏，不能使用FFT，可以使用布莱克曼窗或者傅利叶分析。这种方法允许采集非整数个周期信号，但是需要更多计算时间并且会对噪底计算和频率响应引入少量误差。  
 FFT一致性定义如下：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSDofl8V7HicKTApx20GpUtjbuMNEz6I00TqiaiaoOxHiaEZITduudngQ4Kg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_024_9c484abc3c1c.png)
 
 上式中的参数需遵循以下规则：  
 规则1：M是奇整数。M为整数是为了避免频谱泄漏，奇数的要求是由于规则3。  
 规则2：N是2的幂。FFT的点数必须是2的幂，通常是4096,8192，16384,32768或65536。选择N时，需要在计算时间、测量重复性等因素之间做权衡。  
 规则3：M和N是互质数。M和N互质是为了保证采集到非重复数的样本。由于FFT的特性，重复样本除了带来额外的计算量外，并不能提供更多的有用信息。由于N是2的幂，若限定M是奇整数，则可保证M和N互质。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSpLEe99WAulqBBHJjokd8NZMshDicuLDgpan4ZIkictY4r5Ee4yvwjzEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_025_943ea24b764f.png)
 
 规则4：FIN与FS的分辨率须大于输入源的最小分辨率要求。例如，模拟输入和时钟源的最小分辨率为10Hz，则它们不能被设置为小于10Hz的分辨率。在做FFT时，如果频率分辨率小于输入源的分辨率，会采集到非整数个周期，进而引起频谱泄漏。  
 设计实例：  
@@ -255,7 +255,7 @@ ADC实验评估的硬件包括：
 （3）数据采集仪：保证采集仪具有足够的速度和存储容量用于FFT处理  
 典型的ADC实验设置如下图所示：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSvGU9FdHHCwKuOuAkMYMZgHufic4FNwVopgoJIDtVwsqBLibqLKcwI3dQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_026_7adfaad0bfde.png)
 
   
 
@@ -263,24 +263,24 @@ ADC实验评估的硬件包括：
 高端用户通常推动ADC SNR和采样速度的极限。如果当前最高端的ADC的SNR或者采样速度仍不能满足用户要求，那么交织采样是一个可行的解决方案。  
 下图所示为ADC交织采样：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSXU9NOQHU12YnxtbU9MDTXYtXJyMAgYOHMF66MnWnpeicUseCMKPbazA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_027_a832f5863491.png)
 
 两个ADC的模拟输入并联连接，采样时钟相差180度，从而实现采样速度翻倍。采样速度翻倍有两个好处，其一是提高的采样信号带宽，其二是交织采样将噪底在更宽的带宽上进行扩展，可将噪底降低3dB，如下图所示：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSfjBGlCoiaypOmGJsW1gF3epRADibtOHfiatreibUq00ne0LwBeInB1laWw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_028_dd669dd18313.png)
 
 单片ADC噪底计算公式如下：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSwHl1mQJeRwpWrrkCSolbK4mvSAnYVGH9kyHLC3KxgHmbl1XKQN9CHw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_029_605c299cd451.png)
 
 当多片ADC交织时，噪底计算公式如下：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSFQQfhRyu9EibnZjantsIS18An1kOrPE7t98icmI7Xy6L0ibaiaHicFMB1oA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_030_527bc2b868fa.png)
 
 两片或多片ADC交织也带来了另外的设计挑战。ADC之间的DC偏移的差异会在特定位置产生频谱分量。ADC之间的增益差异、INL差异和时钟相位误差会在时钟和模拟输入混频的位置产生频谱分量。  
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSqV3iarjjrphc2a1icQDp5kDMibtzO137qqbOoSm1CCFpz0nXgIUpTqDYQ/640?wx_fmt=png)幸运的是，这些频谱分量的位置是已知的。但是，但是这些误差及误差幅度随温度漂移，导致频率规划非常困难。  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_031_24bd57e89beb.png)幸运的是，这些频谱分量的位置是已知的。但是，但是这些误差及误差幅度随温度漂移，导致频率规划非常困难。  
 下图所示为2片、3片、4片和5片ADC交织的频谱图，假定选用的ADC为理想14bit ADC，且偏移误差<15LSB，增益误差<0.3%。  
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqScCMsSrnGf4WGkw276RwUVLb9BETOLMCsSkv1bic6aPQJzuIFsagHiapg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_032_970e871784db.png)
 
 由上图可知，尽管ADC的误差较小，但仍会造成较大的杂散响应。  
 设计者需要设计相应的经温度补偿校正的模拟或数字滤波器，滤除这些杂散。  
@@ -288,18 +288,18 @@ ADC实验评估的硬件包括：
 
 6.ADC取平均  
 提高单片ADC SNR性能的另一方法是对两片或多片ADC取平均。对两片ADC取平均，可以将SNR提高3dB。  
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSHTUqoNVGMM6uxJuL7FKfibNzt8XMVlq8OdBTjh36tdib6ZIrJgEt0WJw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqS6LwzThRuUvLX9sqYiah8mHXT3ficjUicUuMNvVNSaMXUjg1TUDB0P0oSw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_033_1d39069361f3.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_034_0c30d9e300e8.png)
 
 这种取平均技术降低了ADC之间的非相关噪声，包括热噪声、内部ADC参考噪声或非确定孔径时钟抖动。相反地，取平均技术并不会降低了ADC之间的相关噪声，包括ADC设计固有的失真、ADC外部时钟和模拟输入的通用误差（common error）。  
 假定各片ADC的SNR相同，则4片取平均可将系统SNR提高6dB，而提高20dB需要100片ADC取平均，计算公式如下：  
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSnKRAEicdwbQXTvicqPsRJWRibJ1YiaTf3GevmKov4ax1ooBZNZuoKRcfcA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSNyOaAOqVSo1RBXMiakX8iaA1YCYnGT2SrmM7wz93sohqWk3bo9NBzD9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_035_23a1fa00afa4.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_036_4fb224496b1f.png)
 
 如前所述，孔径时钟抖动是非相关噪声源。假定所有ADC具有相同且随机的孔径时钟抖动，下式可用于计算系统所能容忍的最大外部时钟抖动：  
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSsI9OoySFwCd5nfOlPXO1iczJ8iaaVHtjpd4eer0MQj6P0hW6CIEFJiaVA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_037_ac270b5286a6.png)
 
 7.抖动（Dithering）  
 ADC具有确定性和系统性的错误，且具有重复性。理论上， 可以通过添加一个低量级的随机噪声来最大限度地减少这些错误。添加低量级随机噪声，以改善 ADC 失真的过程称为抖动（Dithering）。  
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSYjia3NFrHeZpLgWoSXvWpjNrRib9iaQf56r3iaznnSuAjl79U5SuWRga6g/640?wx_fmt=png)Dithering的要点如下：
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_038_ca93f019a2c1.png)Dithering的要点如下：
 
 -   Dithering可以降低谐波的水平，但是可能会有增加噪底的负面影响
     
@@ -311,7 +311,7 @@ ADC具有确定性和系统性的错误，且具有重复性。理论上， 可�
 -   某些情况下，真实世界中已经包括了足够的表现为抖动的噪声
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjGlvw3hfp4AI6OUPG9PcqSuqL14rXaiaohHYTmxgoXIl7AlxibUSdcTDWzwcxbKSYYibeXv8tdFtf3A/640?wx_fmt=png)设计师要决定是否有必要采用Dithering。Dithering是一项复杂的技术，在决定采用前必须深刻理解其内涵。
+![](D:\电脑文件\公众号知识库\电工_教育_学习\高速ADC基础_images\img_039_76b0961a1157.png)设计师要决定是否有必要采用Dithering。Dithering是一项复杂的技术，在决定采用前必须深刻理解其内涵。
 
 本文转载自
 

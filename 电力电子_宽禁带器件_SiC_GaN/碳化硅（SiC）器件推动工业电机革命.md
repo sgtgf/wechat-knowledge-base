@@ -8,61 +8,61 @@
 
 作者：Anuj S Narain
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqQxUoaFfBI4iafVItrDCH2OBrV0qIMc4oengYaOYvuVHkWbIzQP9L4XQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_000_ed98cb91bf7c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqYVGQibJvEqhJ0RfuTfFlpu3Qicvq3x19N4SacOVKAIo5neduicibmMwmfA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_001_2c95a6f0fa60.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq6j8BoYNWbsaSiaHWSt2ziaUK3OenC1jhFF6hA1BxrOfNmEJNXey7ia0bw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_002_ec8398a4d3e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqDDIkU7gZIjSPp9JyjzP40bReeXzEgQIMtFrYUaZ18UXsSZdXnG4W5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_003_a2717ad9563c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq8dFRiaDb1hIibwUQW1yRmyum3kK5oUvGu7qaCO5X0VpjyMqicR8WB2Qwg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_004_14885e997156.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqSibXn2ynVfaIJicdrqMkVqlCjFNtIhicaqkhnKsQuqFv8ic3iaj5oibO104g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_005_9540fb2990a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqSjwVRR7GiaUTjwnVcAGMXDLPXOMibibgQM5m72qLQsFYUJOkGdctOVkDg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_006_de759b2d8fbe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqf3YAukF6HuMWREP1o04o89PqIzJLPwvuErgm8W3mr2DFkBiaB0MJxeQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_007_d7971ac0b3c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqm965Bu8CbFrbztibnwhbTJWj0sfib8QHw5zK62al9QRE1W00ZqMUlYUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_008_bcba4d2bff92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqmBz4jDdhRKOJLWmiat5HzeloQOsC0EzibHia67qJX5dI0xXqvM2bQpJ4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_009_8614fcd3763a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqoXaXBZluJuLEnKv0sD7r7NMeZXicZwiacFiaJbqdmjuw4Xq2NgjJzKcTg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_010_481bf47836f7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqN5BJwM25sy6qv8ibbyomT8Yzt1rnFMUwAQmJAokPpVZo32bVITjiaaxg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_011_2ee504724e84.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqudQY3kW8nWJbYGenicqmBaBA5XjgGtHHOKsTZvKZcZJ5NaUgbmLFUnA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_012_89b622604640.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq6xWDpgIuqnFp5E8HibOibkocp9QGJbQnLsBeT9npkYh4UWVVYotvylpw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_013_6b66c0629526.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqKzk1l6G8hmKrSwjIHOYzPr6kcBQSTRVbnFtzfPvKAoqI5jyB4Ppm2Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_014_f8c790089817.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqbPyWM8WzCID8Ha9UxbTJJYTw4QT0w8Liauib8SiagxRiczE7RMWFs0YI5w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_015_748c05b04d5c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqpvyN796eyiaRQss4lIeNyVicQkiaPtkhUU4ib2TnrvUazD61Zmh0KCibicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_016_e940a171c00e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqeomUXFpRZXa0G2my6otgBdscMvL8zJnsbm13d4XjIdUNHbOHbYzS6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_017_1a0a6ee04329.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqiaWpcEGhtUFRq9gtSEUicFNGLhe9iarFFYYRJbibO12vW5HEPfF5zIhJSA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_018_2b37df5f01f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqJNr7WHNBZD0XsC8hoo4D1bmr3g9kIa32qWPUopadia4cs7p9lQSbuKw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_019_09b5f5adea0c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq5Ej6OHv1ApM41K9uV3wHMPJnWmOhskIQP02ovS8oUwZbzmtI3ibw46A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_020_92ac14c83a68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqMiaGib3XZVc1TeHV7MMV6Xb0hQxnpOib9ZWPFst3zoOickPBTNedXU6LBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_021_3c0d91ca646b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqmuNOEdICicQskcAQuwt6fxJs06EGWPMD1ePQSrlSrhL1P7W1o8wUvuw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_022_79c178261aeb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqD5YibNCUjMxTEgsDIuYzE9hgnqCVhoOerxO7pgQibTcdkHZT1xe7mauQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_023_b447a0313654.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqU6juR9kqYLDSUGa1YjTQG1bBZqEPUO2LvBXG5rxdoaaUbde5qfljGA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_024_0a490f06a641.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqARgE2zwVrJtPvmZYYoQs0CvzSR1Og8I5ETMqhqGsEoGBpXCnxH7BMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_025_89a853e63a91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCqmMNItLISQTI26XWrTdpG2ZKLo7eLlmhdBGoqeIAmn9C5qGxmKwa5jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_026_197f3511ab20.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslCC4QEw99ibibegrAEWEiclCq9slb1YxHyzqkl3dmFnyMxMFSruFEIqIjFX5xXWxXCyxYDd4cG2kcLg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_027_716c3385f12e.png)
 
 注：文字与报告无关
 
@@ -168,13 +168,13 @@ SiC 器件正引领工业电机从 “低效耗能” 向 “高效智能” 的
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_028_a44cadd0339f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_029_541472f5e867.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\碳化硅（SiC）器件推动工业电机革命_images\img_030_a35cb357d184.png)

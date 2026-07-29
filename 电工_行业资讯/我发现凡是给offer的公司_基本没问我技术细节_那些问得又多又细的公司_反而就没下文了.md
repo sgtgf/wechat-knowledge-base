@@ -12,7 +12,7 @@
 
 一次面试硬件工程师岗位的经历，我记得当时是在环球中心，他们家主要做炒菜机器人之类的产品，当时是面试了几个小时，时间挺长的。
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjpxJJkl2Uj6a1m5embNGwgic0VCvntjGNs3aLdeaQbZXkOIIWsx8GSD82xHEQUqQRjM4JXjhevmFA/640?wx_fmt=jpeg&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\我发现凡是给offer的公司_基本没问我技术细节_那些问得又多又细的公司_反而就没下文了_images\img_002_61ec9b6d571f.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
   
 
@@ -22,13 +22,13 @@
 
 然后有朋友也遇到这种，面试官直接把工作中遇到的难题给抛出来，让他给解决方案。后来才知道有很多公司问细了其实是面试官想着套路一些方案，打着面试的幌子来白嫖，而不是真正在招人。
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjpxJJkl2Uj6a1m5embNGwgWZ0Hak01X7geDHicc0FnHekUNoeTWc8V38y1paicDDhuO6JRFicuZ91Vw/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\我发现凡是给offer的公司_基本没问我技术细节_那些问得又多又细的公司_反而就没下文了_images\img_003_ff2c8df40d45.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&chksm=c30ace33f47d4725c81bd6a92019324e94e2d7b66d4f20d2dfb425fd49332f3652ac4e17b1c8&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjpxJJkl2Uj6a1m5embNGwgGCgEJAjKKYhRQT9YBsge4Cnt7Uqm9z3UHNu6xubOktMBeW8DDr1Ljw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\我发现凡是给offer的公司_基本没问我技术细节_那些问得又多又细的公司_反而就没下文了_images\img_004_3b3d140c687f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjpxJJkl2Uj6a1m5embNGwgz6X4VnxwPXLx0xjU29h3JqQUlbWXc57t7D9yxTtqQQsUaEkrmcpK4A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\我发现凡是给offer的公司_基本没问我技术细节_那些问得又多又细的公司_反而就没下文了_images\img_005_af32d5fef048.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjpxJJkl2Uj6a1m5embNGwg9XuIacibfjFgMmSs2fV4M4ZTN4Wt8NbOLecOyge5b3NJY6qZ1xNS77Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\我发现凡是给offer的公司_基本没问我技术细节_那些问得又多又细的公司_反而就没下文了_images\img_006_5d6a33f0bd5f.png)
 
 真正需要人的公司，可能会问你一些项目经验、个人经历和知识框架，然后就是个别的技术细节，其实几句话就能判断你是不是真有两把刷子。所以更容易给offer。
 
@@ -51,7 +51,7 @@
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\我发现凡是给offer的公司_基本没问我技术细节_那些问得又多又细的公司_反而就没下文了_images\img_007_854de1eb795d.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\我发现凡是给offer的公司_基本没问我技术细节_那些问得又多又细的公司_反而就没下文了_images\img_008_17c99fedbed1.jpg)
 
 ## 
 

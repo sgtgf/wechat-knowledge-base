@@ -15,7 +15,7 @@
 
 新能源光伏发电系统因其清洁无污染的特性得到广泛应用，而光伏电站的降本增效可使其得到更广泛的推广。在光伏发电系统中，提高电压等级可以降低线路损耗，减少汇流箱等设备，利于光伏平价上网，符合高压并网发展趋势。光伏系统电压等级正在由1000V向1500V过渡，从图1中可以看出，1500V光伏系统的应用占比逐年增加，其成本与性能对该系统的进一步推广至关重要，这对于光伏系统中的电力变换装置提出了更高的要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI45Iclay3bHfgAlqcfZ1licAckzhvibeSJ9DK2IdTZf7icOiauq5HjYykNZA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_000_d8e8d976894b.png)
 
 图1三相光伏逆变器出货量电压等级占比
 
@@ -39,11 +39,11 @@ Fig.1 Percentage of voltage classes shipped in threephase PV inverters
 
 为了解决高压场景下开关管的电压应力问题，同时避免多驱动芯片带来驱动信号不同步以及成本问题，本文采用单驱动芯片级联反激变换器拓扑，如图2所示。其中R1~Rn为限流电阻；Zc1~Zc(n\-1)为瞬态电压抑制二极管(Transient Voltage Suppressor,TVS)，Z1~Zn\-1为稳压二极管，Cc1~Cc(n\-1)为Zc1~Zc(n\-1)的寄生电容（TVS管为提高瞬时功率，增加了结面积，其寄生电容也变大，在高频工作时必须给予考虑），C1~Cn\-1为Z1~Zn\-1并联的电容。Lm为变压器T的励磁电感，Lk为变压器一次侧漏感。RCD(resistorcapacitor diode)缓冲电路用于降低开关管电压尖峰。S1~Sn为MOSFET开关管。从图2可以看出，仅用一个驱动芯片就可驱动多个开关管。针对电压应力问题，采用Zc钳位分压处理。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4waGmHQZrtib1wrjKmZBsfUM7vtopLquAqspf5yOOd58sNekAvrCbUHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_001_8925fe2ac3eb.png)
 
 在本方案中，采用如图3所示的二阶级联反激拓扑。在图3中，Cc、Rg、R1和Z1构成了S2的驱动电路，当S1开通时，Z1钳位，由电容Cc和输入电压提供驱动电流实现S2快速跟随开通，可减缓驱动不同步导致的局部过压问题，同时节省了S2的驱动电路有利于节省空间同时降低成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4Q9jrPe09uexTJnTibLwTDAGClG5UVibzRJLiazKArY2C9XHQgPq7cKNibA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_002_cbe71176a7d9.png)
 
 该级联型反激变换器工作在断续模式。下面将对工作模态进行分析，本方案采用RCD缓冲电路吸收电压尖峰，其工作原理在模态分析中不再赘述。该变换器工作模式根据Zc是否钳位分为钳位工作模式与非钳位工作模式。
 
@@ -51,15 +51,15 @@ Fig.1 Percentage of voltage classes shipped in threephase PV inverters
 
 非钳位工作模式关键波形如图4所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4gTIF84lpqianCslOM5Wep7ib3BkUxWqbWwcHKgF6M7RhhEIysp5RVMew/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_003_ea789ed86266.png)
 
 图4中Vds1、Vds2分别为开关管S1和S2的漏源极电压，Vgs1、Vgs2为对应的栅源极电压，Id1、Id2分别为S1和S2的漏极电流。
 
 t0~t1：开关管S1准谐振开通，Vds1迅速下降为0，开关管S1的Coss1迅速放电，沟道电流上升，两端电压下降，C1两端电压上升（此时S2的栅极充电电流为iR1+iCc\-iC1），Z1此时本应处于钳位状态，但当C1两端电压超过Vz时，开关管S2的电容Cgd2充电，从栅极抽取电流，且此时R1电流较小，Cgd2将会从C1抽取电流（此时S2的栅极充电电流为iR1+iC1），使得C1两端电压下降，故此时Z1不工作在钳位状态，其电压也会小于Vz，故S2的Vgs两端电压在上升过程中会突然减小。可以看出，电容C1在开通过程的不同时刻作用不同，在iCc≠0时，C1旁路一部分栅极充电电流，减缓开通过程；在iCc降为0之后，由于R1提供的电流有限，C1此时作为源提供栅极充电电流，加快开关管开通。Cc给开关管S2提供驱动电流，加快S2的开通，模态如图5a所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4Tnibt3aJzicmtcluM1yibWQDUmGyp5Hia9mMsLxUskMlXicUqxBttHAUCtA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_004_0b95003e7bda.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4GiacicGiaLibDB0mJXMiaaO0BQMMRjOWd5usia5FKPlmjEfsD8JW6WRGQnpQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_005_c64f11ec1c6b.png)
 
 t1~t2：S1完全开启后，电容Cc两端电压不再变化，此时S2的驱动电流由输入电压和电阻R1决定，该驱动电流较小，Vgs2继续增大。此外，输入电压Vin给Lm充电，一次电流线性增加。如图5b所示。
 
@@ -79,49 +79,49 @@ t5~t6：t5时刻，二次电流变为0，变压器两端电压不再被输出钳
 
 为方便分析，对电路做出简化，模态可见图5d中的t3~t4状态，在开关管漏源电压上升的过程中，变压器一次电流恒定，等效为恒流源ip。Z1、Zc均工作在截止状态，仅考虑其寄生电容的影响。在暂态分析中，R1电阻上的电流较小可忽略，等效电路如图6所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4WKGD6qsAf4PI1CEhZw613nAr8Iibpp9icEjwGNaBW7hiaH7FrzgAYOOsA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_006_59a25cfe52b0.png)
 
 t0~t1：驱动电压由VG变为0，Vgs1下降，Vds和id基本保持不变。在该时间段内，MOSFET工作在可变电阻区，在图7中为A到B的过程，开关管沟道可等效为导通电阻Rds(on)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4TIra3VhriaicbmEcibNcIatflItdmSOMd7uN1HqK30JlrmXAscSfECic9A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_007_e119e77cd9fb.png)
 
 式中，Δt10为t0至t1的过渡时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI41UKDaTecf6RFibiaU1gAbMblRugEs5lGBib9YVV0b3ZvKibubsgFC50ibEQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_008_42228faa9f3c.png)
 
 t1~t2：S1的驱动电压下降到米勒平台电压Vmill，Coss1开始充电，Vds1电压增大，在图7中为B至C的过程，S1沟道等效为受控电流源，S2沟道等效为导通电阻Rds(on)。其等效电路如图9所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4DH5X94LSnBdBCKBv9Bj08ibVoB70jI0rSEeojojZeVMcZfib0f4s5x9g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_009_0b9e06e9f831.png)
 
 在该时间段内，存在如下关系
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI46nZgIvvWKzKcGn8uiaNKCOUlnEIB9L8VvslrOHA0zgkFSksTrfTUJzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_010_852626216707.png)
 
 式中，ich1为S1沟道电流；gm为MOSFET的跨导。
 
 可得出
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI43rQpewuicC6fDGibVjO29pS3RgStIvr52iaQl0qpLmtVaz921BHOXVy3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_011_d9a2e8a0c639.png)
 
 对于开关管S2
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4KvqrtrbnPiaz5MhMWYYlRrJ7EkmY03v50L2Xicm0bUiaucAaQ2RxbRLTQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_012_9cf9378f820f.png)
 
 t2~t3：在t2时刻，开关管S2驱动电压下降到米勒平台，Cgd2、Cds2开始充电，Vds2电压开始上升，等效电路如图10所示，S2沟道等效为受控电流源，S1等效为线性电压源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4eobic4SQbPS2M6vKslRqkVv3E5pKAkkYw7kZW8ibriaOmWtGJSwFGchOA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_013_100dafc19f7c.png)
 
 存在如下关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4IrlnfyU0NXRsJ1yjKoibfYUCQ2VTC7zkpkA048aTsOf7LfE9aPQaa6w/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_014_e3b4236c3518.png)
 
 其中R1电流相比于其他元件较小，可忽略不计。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4OP9bfkVCs7x4uB8ibj5HQX3kFoEkHnYhlo6XRpHYmom82rjQbGUg15g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_015_6958f05516b7.png)
 
 可得出
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4FiaibGCHWwseVVTztDNWTqwmLAhzrIOLY8vUFWK8EnPSw2Nlh30hBBPw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_016_c94e92ccc102.png)
 
 t3~t4：t3时刻二者电压之和等于Vin+VR，关断过程结束，在图7中为C至D的过程。从式（9）可以看出，上管的电压上升速率要大于下管。
 
@@ -135,11 +135,11 @@ t3~t4：t3时刻二者电压之和等于Vin+VR，关断过程结束，在图7中
 
 等效电路如图11所示，Z1是导通状态，可等效为导线，Zc处于截止状态，可看做断路。变压器一次绕组被输出电压钳位，等效为恒定电压源。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4xAqaxjgv2uI2ksw21roc6dRR0e2JzZ7QsbXhFwAMhJk27zhfJVpEicw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_017_6419513b2f3f.png)
 
 设定Vc10为Coss1的初始电压，可得出
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4g9e56rpYco9NM7n0kuiabWsNEGBU7dw4ecib5j4l7ibg9wSKpP1zbEGUQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_018_6676f2fb911d.png)
 
 式中，Ceq1\=Coss1+Cc。
 
@@ -151,35 +151,35 @@ t3~t4：t3时刻二者电压之和等于Vin+VR，关断过程结束，在图7中
 
 根据准谐振工作模式的工作原理，变压器二次电流变为0之后，励磁电感Lm会与开关管等器件的寄生电容谐振，控制器此时会通过辅助绕组检测电压，该电压小于阈值时开通一次侧开关管。Lm与一次侧电容谐振的等效电路如图12所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4sEgrCyI3NlpSDXcm47iamxJJibpibITBPR7GicuFDQaSrpeHVOuIT37toA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_019_e77f5b3116b4.png)
 
 存在如下关系式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI42zWIeUH7zibF3rO4QHbjiaCEibC0v9ibHxNibU9LkLvfUfoIsgYgLliaYmkw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_020_e56e33c2cbba.png)
 
 可以得出
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4SB3ouINvSZ5BShKscKmAX4zVPNmuqicearcTWCVEEcVe8PHWyHSAasg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_021_c96dabfff81f.png)
 
 式中，ω1 2\=N/(LmCoss2Ceq2)，N\=Ceq2+Coss2。
 
 根据准谐振的工作原理，得出S1开通电压为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4ibcbnGtTSTkGdZM7nIxoyXqKSvpjRwrYt9C4wLZeZt8y6rVZgpn9b6A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_022_28c2ed882b41.png)
 
 可以看出开通电压与Coss、C1和Cc有关，两个开关管的振荡周期相同，振荡幅值按照电容容值分配，容值越大振荡幅值会越小。另外，输出电容容值与开关管电压有关，且随着电压增大，容值会减小，可以得出开关管S1的振荡幅值将会随着输入电压的升高逐渐减小，准谐振开通对于降低S1开通损耗的作用将会越来越小。从式（16）、式（17）可以看出开关管开通电压与关断电压有关，而关断电压分配与TVS管的钳位电压有关，因此在选择TVS管钳位电压时需要考虑其对开通损耗的影响。
 
 同时还可以得出谐振过程结束后uC1两端电压UC1-QR(on)为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4ib2XxHzia1odnz7UqmxvHxqCUrIsYGrxNfkzszkQvc0zqkNYust0Z1nQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_023_221a1b7884d9.png)
 
 式中，Δu1QR、Δu2QR分别为谐振过程中开关管S1、S2漏源电压的变化量，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4DUDI1Psm4g1zE7KsI02EVZughsZjERic51LjH0D7tIMib9Bkucss6ynA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_024_cb446bf050a1.png)
 
 从而得出
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI40JlJM3OdIh6pwyI4RZoa9pQk2kSUgZibdHhHbUsuVzHFo0StatCRdUg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_025_93f5af015072.png)
 
 准谐振过程不仅会影响两个开关管的开通电压而且会影响S2开通之前的电压，需要对C1电容进行合理设计避免在准谐振过程中开通S2。
 
@@ -197,15 +197,15 @@ t3~t4：t3时刻二者电压之和等于Vin+VR，关断过程结束，在图7中
 
 在静态分压过程中，电容充放电的时间常数τ应远大于最大关断时间toffmax，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4IIM7PzUVqIAAcu4PEV8icgO6wx93Uzm3Gcos59GA20j4pyETjZHmslw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_026_00fc747fba79.png)
 
 另外，根据第1节分析可知，上管S2的开通主要由电容Cc决定，但在变换器开始启动过程中，电容Cc无初始电荷，此时上管的开通需要通过R1从输入电源取电以建立栅源电压。在控制器启动后第一个开关周期到S2正常开通这段时间，输入电压通过R1给C1充电，C1两端电压uC1-start为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI41yUoS0Hkeqcm2HZK2KrZfALM2SpptVtEecuBAVnic8Zl6Gu40VVeJbA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_027_c438541244a5.png)
 
 当uC1-start大于上管S2的阈值时，S2开通，从而使得TVS管在关断过程中其电压可正常建立，变换器进入正常工作。设定变换器在控制器启动后Tstart时间内正常工作，则
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4fPMicjzFtqnQo5H1XIBMv2pcsIEcPktuBrbtX6Wicb5UbicC4njuMXMTA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_028_f12f1cde4644.png)
 
 综上所述，结合式（24）、式（26），R1阻值位于该范围内时可保证变换器正常工作。在本变换器设计中，为提高效率，R1取其上限值。
 
@@ -219,23 +219,23 @@ C1的设定需考虑其对开关过程的影响。根据式（6）可以看出�
 
 在此阶段，为使开关管S1、S2在电压最低点开通，C1两端电压uC1-QR(on)不能超过S2的阈值电压VS2-th
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4Gljuz3JNCep2iclYOYOlIhpKic1cQW7MkbHPOzA44VuJUMDqhxibEHOibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_029_be5acb84e7af.png)
 
 2）准谐振过程之后，S1开启，电容Cc中的电荷释放至电容C1和S2的输入电容中，设Δuc1on为电容C1两端电压的变化值，依据电荷守恒，有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4osgf7aQhw9fgQW027jia3DDvYicDXkxibTu0fVoWl9jOyqbg0ibZuDdFfQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_030_c70e2987af85.png)
 
 式中，Δucon为S1开启之后Cc两端电压变化量，可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4LPYxFpJibm8YTnWhicXjhX2ibNXfOd9OITjtPy1on5ZOojLQccJH1Rjag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_031_d9f20d48f273.png)
 
 结合式（16）、式（28）、式（29）可以求出电容C1两端电压的变化值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI413sx7iaCvbg29hbaibnicGvMzOBzR39ibrosKyG1MvBZYUTcsVVNkCldjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_032_4e7a97406c26.png)
 
 综上所述，从谐振过程开始到S2开通，电容C1两端电压变化值为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4yFxFK6pArhZibDrT4PPaS2jMeh7doDZ82D74NrRxGR4lWsPraj1L5LQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_033_e975fcc6b5ee.png)
 
 开关管S2开通电压即为Δuc1，S2开通电压的选择首先需要结合器件Datasheet中的转移特性曲线，保证MOSFET通流能力的前提下选择合适的驱动电压。另外根据式（31）可以看出，驱动电容C1的电压与输入电压有关，输入电压越大，C1上的电压越高，为保证变换器在低压输入时也能正常运行，驱动电压还需要在输入电压最低时进行确定。
 
@@ -247,15 +247,15 @@ C1的设定需考虑其对开关过程的影响。根据式（6）可以看出�
 
 S1、S2开关管开通损耗之和为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4OghvNpWic9yHY36PhVpwukTtlxXe6rktD0D4KuIGlbZlDTiaupr0UVyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_034_eaade7b77cd4.png)
 
 式中，fs为开关频率。将式（12）、式（16）和式（17）代入式（32）中并对Vds1求导可得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4apXnDSL1OnfTIwRiaBq5nuu6sibRwkBrzkfvib1gJtQOFYuQ1jaiaBNNag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_035_2a34639fe1ab.png)
 
 令式（33）等于0，可求得
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4h7BiayKh4QEK3JNT1apuZIozt6BCqqkThrv9Ob8qB6yhLI8un9MGftA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_036_945c0f2d5fb7.png)
 
 时可使开通损耗Pon最小。
 
@@ -263,7 +263,7 @@ S1、S2开关管开通损耗之和为
 
 该变换器的参数设计框图如图13所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4QYRuFiaZibJGMicjRAoYtiajwqGgianu2qibCvHGGfTpmzW03fl1fiaUfVjmA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_037_7cf4dd50dfb7.png)
 
 图13参数设计框图
 
@@ -275,39 +275,39 @@ Fig.13 Parameter design block diagram
 
 环路设计首先需要对变换器进行建模，在开关元件平均建模中，用平均变量为参数的受控源替代原来的开关器件，忽略其中的时变元素。因此可将变换器中的开关管S1和S2当做一个整体，变换器的小信号等效电路如图14所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4GPwicWaV0ia1K5Pe1StH6Z1akUWoKnk1X13mB4iaTSyE3Esv2LFQND80Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_038_ca9758ca5e9f.png)
 
 Req1,J1,Req2,J2变量如下所示，Rcs为采样电阻，Rc为Cout的等效串联电阻，D1为一次侧管的占空比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4nHGlrBibl2UDD16SlficafUGC0oTEX2HA0v9Fk4kkvpa1LOB6uV35fqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_039_93572c6910fd.png)
 
 可得控制量到输出的传递函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4OV8zMJFiayzVdG6vZxY6qjqHHOCJ8RIeFfOhKj110oOKswibCe9b88SQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_040_02cc2abd2ac7.png)
 
 不同输入电压下的Bode图如图15所示。电解电容的寄生电阻影响了极点和零点，高频零点使得相位提升，利于提升相位裕量。但较大的寄生电阻会导致大纹波和高损耗。同时，该变换器即使不使用反馈补偿，输出也不会自激振荡，但其低频增益不高，高频衰减不足，会使高频噪声较大，仍需补偿网络进行校正。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4pV4FyQ0FJ5pDoWJRdttr0KIX2cm6ibAMaEmRJibibC9Ny89skGwHDC0hw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_041_688dfc44ac4d.png)
 
 II型补偿反馈电路如图16所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4d4eFbhTL297GGZBqF00IicX4eyRXia4OTkH3ab5Fh1PvvZQfSGhmMASw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_042_88bc720b8b8d.png)
 
 传递函数（设定C2s\>>C1p，KCTR光耦传输比）为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4efyTEeP6WfNWhibV3k7j3sicFfaayibW4dibMfsGaF14JX7eBfJrmaqOoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_043_94b50bd36c63.png)
 
 反馈回路Bode图如图17所示。从该图可以看出，II型补偿网络会带来两个左半平面极点与一个左半平面零点，可以在提高稳态精度，调节动态响应速度的同时进一步调节高频衰减能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI46KK4ia8KQlMDZKZwiclfkTXFicUSL604SbyPYaS5Y0H4lkTiaUXsicCln3Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_044_780d13d61dd9.png)
 
 补偿后系统的开环传递函数为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4ojjj5Mx4xVEicyzh5Gs5RAqXctbHSnQl6Mic5JPuTniaicIPG77dgXVfgw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_045_c6481f564ae9.png)
 
 II型补偿系统Bode图如图18所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4R1s4N6k0ia2Xjl3P1HtAbWGia2LlGiaS7WiaIDYnTOhQIqHgp5slzxJTlg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_046_9f2449a489af.png)
 
 通过II型补偿方法，补偿后变换器系统的截止频率3.6 kHz，满足动态调整率需求，相位裕度55.3°，系统稳定，高频衰减较好，符合需求。
 
@@ -319,45 +319,45 @@ II型补偿系统Bode图如图18所示。
 
 杂散损耗主要包括熔断器损耗、输出滤波器损耗、控制器的外围电路损耗以及反馈回路的损耗，其中控制器外围电路损耗中启动电阻的损耗与电压正相关，会随着输入电压的升高而明显增加。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4LnI3PAvM4gfjDVXVMtWyLnNNst2LroycMOXQibZrB8mt7vzfqkILtiaw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_047_5305746b14a0.png)
 
 6\. 实验与验证
 
 为了验证方案的合理性，搭建了一台100W级联型反激变换器样机，在低成本前提下，尽量保证性能，一次侧采用SiC MOSFET，二次侧采用Si整流管，基于应用需求，变换器参数见表1。TVS管按照额定输入电压900 V进行选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4Ono3qMhLftQYUgibfIrsAvORy2YydwoGu7CKAf0j27iaS7h2KcGAJOQA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_048_916e9ffc2e92.png)
 
 基于上述参数和型号（成本小于200元），搭建实验样机如图20所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4TP7DOEPykfEma1b60cbtrHib8JtrpcEbod15OztqhkUm5lLbAZFnpLA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_049_bad5fea6e5e4.png)
 
 满载功率100 W，输入电压为300、900、1500V的典型工况下进行验证，波形如图21~图23所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4ExHOtNmOD4QJSHJaPnAtMQIe1tFFWG1OibfJUcX8cCfmhExbcTo5eHw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_050_79008c800ca2.png)
 
 图21为变换器工作在300 V输入电压工况，此时工作在非钳位模式，变换器的占空比为39.3%，工作频率为60.47 kHz，输出电压23.82V，纹波190mV，开关管S1为530 V，在第一个波谷处开通，开关管S2电压为0。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI47qyhIazT33wWrVAtQia0LkyBZvQ2H2ib3f5TV6DfuuUMoSfyAKiaKNyDw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_051_8e1113eade07.png)
 
 图22为变换器工作在900 V输入电压工况，此时工作在钳位模式，变换器的占空比为14.5%，工作频率为110.8 kHz。输出电压23.84 V,纹波130 mV。开关管S1钳位至600 V，Vds2此时为550 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4GLrqV9EFW6Aic16RA2rEO5g9C0NcichxHxiaiaKhVpqeGsxkicP8C6sic3bQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_052_eaff5f0890e9.png)
 
 图23为变换器工作在1500 V输入电压工况，此时工作在钳位模式，变换器的占空比为10.9%，工作频率为129.1 kHz。输出电压24.10 V。开关管S1钳位至650 V，Vds2此时为1100 V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4uhcFFAHSqiaxQ71P9jIHkibHw1aj2FYRjSYJ9zxLVBN9z92uwltWuzaA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_053_dbd807b52725.png)
 
 动态负载切换如图24所示。从图24可以看出，负载变化时(90%负载切换到10%负载)，输出电压变化峰峰值为1.2 V，为输出电压的5%，满足动态调整率需求。
 
 分别在满载（100 W）、半载（50 W）和轻载（10W）工况下，对变换器进行了效率测试，并与开关管数量和变压器数量相同的双管反激辅助电源进行了比较，效率对比如图25所示。可以看出本变换器在满载与半载时相比于双管反激平均效率更高。但在轻载高压工况下，仍然有所不足，一是控制芯片的启动部分在高压输入时损耗较高，二是TVS的电流在高压工况下会变大，损耗升高，是级联型反激拓扑的不足之处。在未来将深入研究该损耗并加以改善。幸运的是，从图25中可以看出，基于所提出的参数设计方法所研发的级联反激变换器可以满足宽增益的应用需求，同时具有很好的应用前景。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4Gibv9QWtbBlcObA8aWaVf7hmxIwyStPXOEQqBba7TNH5Z8kJoBPVnbQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_054_47e9b644cbd2.png)
 
 低成本是级联型反激拓扑相比于双管反激拓扑、输入端串联型反激拓扑和多电平反激拓扑的一大优势。以下是具体的成本对比（以1500 V输入为例）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4KBiamm9MyjQh112jtR2zWTzSObaIdoUriarVGAfReS6dm8g4j63vxNibg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_055_cf988b8698a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncDHdjYqYM2k4xb6vibiaxI4JKibKnnYSXiamrlSknUHhXmnNSk7MrCo3CWLcgGHAzpRlqVqdFFZZWBw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_056_6aade4f0c930.png)
 
 可以看出，通过TVS管钳位可将电压进行合理分配，减小开关管电压应力，同时还能降低变换器成本，实现低成本宽输入范围高应力的高效电能转换。
 
@@ -369,10 +369,10 @@ II型补偿系统Bode图如图18所示。
 
 **注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_057_318ead5d55de.jpg)
 
   专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_058_3ade3c3d8599.jpg)![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\基于SiC器件的高压宽范围直流辅助电源研究与设计_images\img_059_84aa944feb13.jpg)

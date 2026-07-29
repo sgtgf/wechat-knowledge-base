@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8V0ZtbE39NPB5PaePnTUxOZUPiagWIHZEWJjJYWYCK3HiaDjwXBVVZ95SQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_002_c26ff1341d86.png)
 
   
 
@@ -38,7 +38,7 @@ TVS管的主要参数有：反向击穿电压、最大钳位电压、瞬间功�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8VDrElicKSgLpmHwQWzmALNTfyXynSb91WIpYujsicINoWQdS0AZvicQbXA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_003_ddd39b1af44c.png)
 
   
 
@@ -62,7 +62,7 @@ TVS管的通流容量在限压型浪涌保护器中是最小的，一般用于�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8VIyWVKZnQAMzj8wy6ZXMDpQCHIwsXo7iaFM9DIXPnptLQ5T294UYZtFA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_004_2ccc94d90b68.png)
 
   
 
@@ -83,7 +83,7 @@ TVS管的失效模式主要是短路。但当通过的过电流太大时，也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8VciaSJTr0micYcokBfQpCH7VUDYSAlsP1zowO2fdTO9oHbdFnXom2SSjw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_005_382ef5fb545a.png)
 
   
 
@@ -97,7 +97,7 @@ TVS管的失效模式主要是短路。但当通过的过电流太大时，也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8VibEpAE4BuzhuIgia7rRsORhJe90cQP8TgIstgMgVDs4OyE46Zxfm1iacA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_006_83208ee12053.png)
 
   
 
@@ -144,7 +144,7 @@ TVS管的失效模式主要是短路。但当通过的过电流太大时，也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8VDsfNYsrMXk5uKniaIqEIGhpuicPR6LLIMibDDErNcXh4LAJkaJ81Rd4GA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_007_bed94aa1ba4c.png)
 
   
 
@@ -154,13 +154,13 @@ TVS管的失效模式主要是短路。但当通过的过电流太大时，也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8V7l1yn8XXAIRjMCxl8zYgYbHvdwksy6Iksu8qfIiaoNJvLvQ64bFib7EA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_008_2f6a57dbcdfa.png)
 
 **室外网口防护电路**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8VTDqpRZFHl228IkkLpnOiazllTvP5SCwIGqia0UjhPGxWWYQESbuyFcNQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_009_7880127cc28c.png)
 
   
 
@@ -172,13 +172,13 @@ TVS管的失效模式主要是短路。但当通过的过电流太大时，也�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8V3EXqicCRGlwTQuCLUTDibykprhuRBh3gz1hnPdwRqY37AXlQRDBP1DyQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_010_df49270a0ae0.png)
 
 **485防护电路设计**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjj05XMibGcPkx9oMr6BcX8VNibXnxCPmy94KpdAwdqXCvZMicILd3M4TicqoYwia0m4Gg3uS590VzKIRQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\TVS防护电路的典型应用_images\img_011_74bcaabb5615.png)
 
 ## 
 

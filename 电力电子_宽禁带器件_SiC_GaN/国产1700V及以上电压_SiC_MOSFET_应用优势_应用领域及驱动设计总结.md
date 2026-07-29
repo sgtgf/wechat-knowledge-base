@@ -5,7 +5,7 @@
 
 随着第三代半导体产业的发展，国产 1700V 及以上电压 SiC MOSFET 已从小批量验证逐步走向工业级规模化应用，其核心价值在于突破传统硅基器件的高压高频性能瓶颈，同时为电力电子系统提供国产化供应链保障。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjm6KFKcJrmFTqnmN2Kv8x20ibjRr4No5R4UT0H37aVvaNbERflwu6wjIDy2ibpUmtk6rfyl7scvkLAC5l4crjzx1nPKvt7LLoA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_000_1f948d0358a2.png)
 
 以下结合器件特性与栅氧可靠性现状，从应用优势、典型场景、驱动设计三个维度展开说明。
 
@@ -57,21 +57,21 @@
 
 搭载自研SiC MOSFET芯片的分立器件，电压1700V,电流1A~200A。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMbkpkr9YAXz16AxkJTFKXhrTS52RRbibe28HQ1wPmUAnazpCBtt8FDl4GVv1rwju6xHAwCM0pYPJlWoC0GuHkf8cwfNUbua1DU/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_001_cc7a3956281f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOt0LzVichwm6Y5cAxE5OBkwcvfvia5YYbeDCZ4dF9fPicc5BMqwT0TtkkPLibuVDQ3zgUtLGE43RPECyqRAkAg02gW2432WWsQ5wo/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_002_27605e793cea.png)
 
 TO247-3封装1700V100A产品基本参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOxVsHbDB7MctS8aEpo8CuREvnHxGTA5xFJhyYdQstCY226zjHSQyp3QriajUXDppFjiabkWJQ8d9TbeoxLiaA4p0pK1G2icuicELMY/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_003_24aa013a6f8f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP34Wmq1icbVcvyjIZJ1hSOvQo0Psh8B2s0yvREAHSCJxTmoiciaDmukJibxDpsxGwnNeXcDwjYWibHc4ic5S5OvAR7tXiaNBdmcuRZS8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_004_49cd4f49996e.png)
 
 TO247-4封装1700V120A产品基本参数表
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO5UyQaYmLKeVym8qTY6yWp5oFykFFUtxo4XyWRtUIpzqicgBztCfiaeXu5ibXJveLicc4VoHctzdW6d6nI7aez3Mq94mLU1M8Qmz0/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_005_063f05cc858a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMODcbYycbpjtUm5IyBqTtpwMABbLRuIpdYe8qWiaUauibXiacn9XWL1tO6loqlj5qPPRA6YGibPIIOOicglgz3icnUWcpNOicB590a8s/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_006_31d1cb864bf5.png)
 
 SOT227封装1700V200A产品基本参数表
 
@@ -81,9 +81,9 @@ SOT227封装1700V200A产品基本参数表
 
 搭载自研SiC MOSFET芯片的分立器件，电压3300V,电流20A~80A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPAARRcK1AISa8QwF8IVicBADC8mia2zHbibzjEqZHTLMmNDkctzLq5dw9uooXaIqz5Bh5WOCKKeGumvibPmcJcExsOJmhG6Cw5Lms/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_007_97f836a7cd57.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPhhvH4cA7UQEicg8LFuu0cTicAeLQTpNdibHACBNKQjmj85pPxZ2K5vfsu1icq9vBVeTWMSqK5yZBMHzXvcibDAzuRM4Cgr2DdwJz8/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_008_e1dcc58a1649.png)
 
 TO247-4L封装3300V80A产品基本参数表
 
@@ -111,7 +111,7 @@ SiC MOSFT产品总结
 
 这是当前国产 1700V SiC MOSFET 需求增速最快的赛道，适配新能源系统高压化、高频化的升级趋势。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPdOSIRhwcE1wRtA3LVwwFrpNfGzBLK6T0PdfSby7afKbvWCPZ0icPbXnvg1Olibc3iaeJOJ2TkJibVA6jo5pBb0WbBibDkkUHghdEk/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_009_875f78442eba.png)
 
 图片来源：网络
 
@@ -129,7 +129,7 @@ SiC MOSFT产品总结
 
 国产价值：1700V 耐压预留充足的浪涌与过压裕量，单管方案简化电路设计、降低系统故障率；头部国产厂商器件已通过光伏行业可靠性认证，批量应用于户用、工商业组串式逆变器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPAOw4ic9np0ax8Avelp8junlJxLsPVVGZSgr3hZp2lH1gsOzqfDQpfgIoEUb07HdhKQyY0FkdicXOCIJsO467rrO7RhPicK5icBFQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_010_98774e85c364.jpg)
 
 图片来源：网络
 
@@ -145,7 +145,7 @@ SiC MOSFT产品总结
 
 依托国内新能源汽车与充电桩产业的全球领先优势，1700V SiC MOSFET 已实现规模化验证与批量落地。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNnbxicdRNuTVEhEJ2dlGtHk2hAia6hF4lX1ibUnm4yl1mbibentWd1zGOd5ovKNHYcK9yBWhC86oRbjshRicibWJg7hsBX2cGNQAiafA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_011_2a94ed9c38a4.jpg)  
 
 图片来源：网络
 
@@ -157,7 +157,7 @@ SiC MOSFT产品总结
 
 国产价值：相比 1200V 器件，1700V 提供近一倍的电压裕量，应对车载浪涌、过压故障的能力更强；SiC 本征耐高温特性适配机舱高温环境；部分头部国产器件已通过 AEC-Q101 车规认证，进入车企供应链验证阶段。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPSCzWOWic71AKdNB18nWGrlB6DSaYWCHt9KWOeE3ZCetSV6QBpGUMK8aneniaibvqZrDiajuqMJ8AfyFt2GQ1rcpXc0FSiaa6f6ruw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_012_cece832cc62d.jpg)
 
 图片来源：网络
 
@@ -189,7 +189,7 @@ SiC MOSFT产品总结
 
 贴合国内新型电力系统建设需求，是 1700V 以上高压 SiC MOSFET 的长期核心增量赛道，目前已进入示范项目验证阶段。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMq6eAVBCZ79bJUKvhLWRSFfUeM4XcM0hxfMlIp0XhphouK7c3VuicFksNUyEPr84hxibwtJRl2cQAoTiblTR8Azyettx3AMIc0u0/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_013_65e20e9ef432.jpg)
 
 图片来源：网络
 
@@ -395,7 +395,7 @@ SiC 器件短路耐受时间远短于 IGBT（1700V 等级典型仅2~3μs），�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOd4ZYepG38axcj7qnsicic76kvC28P0Odviaj3ibHVh4dP18DAib2u18TWDJVpicI5ygzC9R1FPbibjnkAYGicLiaepWlhibViaRj8vuiaphs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_014_b6deec031bf0.jpg)
 
 [1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
 
@@ -405,7 +405,7 @@ SiC 器件短路耐受时间远短于 IGBT（1700V 等级典型仅2~3μs），�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMATdZkMbZM5E4ErGZHooa7Uibtb5sW7uIgPbblhmOmCG3qycPaW6vE0E1A75Vtq4Dbo94vCph1iasjibtbdSFzLDooQTtOqhA5Bk/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_015_90e79fb431f3.jpg)
 
 [8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
 
@@ -431,7 +431,7 @@ SiC 器件短路耐受时间远短于 IGBT（1700V 等级典型仅2~3μs），�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlDTy1Zib8iamO0iaI9mmMupkwMXB4QtjNnMhTMPSvhBIHh8Hz3xiajdrcdB6XHm2vJSIUFBOKwgicketMS4TmSuicZgXENiaI1RU0wE/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_016_c180844893ec.jpg)
 
 [10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
 
@@ -479,12 +479,12 @@ SiC 器件短路耐受时间远短于 IGBT（1700V 等级典型仅2~3μs），�
 
 【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMibIUG8AMZ11zNkcwlGqQytiaD1yuic5iaOXx93zibQpogC8PKjI5DU8K3w6OPMnuxKRHiaSEnUzXFbZAiaqQT82caibib7rKxgDatjicu4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_017_8ef7064e4c6f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPSN85aqM9RXppWvHCibX9txQvvxUsMsU4t3fHTgshrl3bfGs2pWEbWdjWL5D375nz42ibtd9w9VP99iaYj2Bib99z6yFOibt7LbbW8/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_018_333baee47865.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPnibe5L4TemUsquibEM7gVMDNmrAsCjpRyB95zLL2L2WAMicQaREeoWqUibkxFySyI4LE2QGsrjPEJHj4fmzmusfFNMXTo7F2BPicg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)
+![图片](D:\电脑文件\公众号知识库\电力电子_宽禁带器件_SiC_GaN\国产1700V及以上电压_SiC_MOSFET_应用优势_应用领域及驱动设计总结_images\img_019_fee6670ffc25.jpg)

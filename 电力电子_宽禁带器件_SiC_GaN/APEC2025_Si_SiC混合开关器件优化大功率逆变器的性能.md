@@ -8,45 +8,45 @@
 
 作者：Gianni Vitale, Rosario Attanasio, Harsha Ademane
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhfzJTYUOjSaZicEWDNiah9A7jz1aKYicqCfUkj7qsekJhMKJCl2uibZfejg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_000_b24986f814b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhPnj2wt78IY2ScH9fr7xE1XRibKamOh6ibhiaHian1S9t1hOo9k1vjyvkPg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_001_40d9e022360d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhzzRb6M96LWlcQ6K6icdCWQNPFv7xIVniatqNLoEic5hXe8H3YJEBOFRnQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_002_b94e052f8777.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhdsJtDMWYvCQ4fsHkfWicUWGktbFBgjDZXTZoID9C0icnBO3hL3YHpIAg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_003_b9ab52a926a3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhKbL5WqwX6bLF1Q1kMLhhzxa9neun6uh7RrR35rgY0RAmNZXAgTnrkg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_004_7e2812b0bbe1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhPWn0rnxeMbn1wd7sA096zkhk3QJcr2R10dicwWqUIJheCjVmZ0TZ1Fg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_005_3c13afac4a30.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhcYnG3Cps6ITDickvbhwK6hosvicRmsIr0rf0zPTn4dorsB6LDGURgXmw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_006_95265deadd94.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhL0CQRhKYdomAAn8djojCicOKPZianqfMMuEiafnuk8s6hRIG7iaBoQV5hQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_007_77fe31289e76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhwbF8324yghvpe4QwkiaT4nSaAiaCrZKtWlentCbkWicv9aTSyIJMiasrkg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_008_c761728b5e2c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhpoHDVOfed4uB8gdvUbOShN915JO9oK8jjEZz0wKe1QpUkQttCPj3mg/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_009_75e7b8371b92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh9FQ3bMNJpnaHhQ4BYFu5ZApjozo1spFlc3XegpOaA0DyjlxoWXlfeQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_010_80f500d0a1a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhKEBxoJryGmeO8Locb8aN6FKJYUhjmnJgkqSVYWKoBqUCtH1ocnSMicw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_011_bc8fd71165b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxh4UickQbr9gIgs6ehAWnzYxQBkKJiabTGYoic6mnichzUExfl2Vhicib7CQcQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_012_03b0271365a6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhGWSnv0RheQicfmet6Kbiaa1Q4ju6QzWyRhEe37qMiaQqqg0ZmgB9MCN4w/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_013_14f587e39ea1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhzUYIIz4RSvX4nn6HwXhhw0W5RvzQeL8jFVNeGbkPITgtqKhx8zWFag/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_014_99e4e306079a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhGybCU3Ur9v1Jmd3p6Yw0xoOmic4uchvU5OTeQlszK8hZ69aoV0L7gWQ/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_015_a3656a324253.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhTuYOByk75EQIrgIOFZiaKnQiaJWxMynJqNQzTZlkQqe8XBW9Y77X7AVA/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_016_acc3a24ddcf7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhQF9PD2Y4CoGPmCt7D8icrCYgnSKBqrWBcSj0mufqF8MTXHOK7zoL80g/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_017_0cc2673eb0bd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhyv5VX3XvJvLBSXzogZyAoakvtouUcf1lLsWibo1mrtoE4745xNzjNIw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_018_6974be01e0d2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsma3gYlkvJAg9AoHvOCJZxhlG6c6dVOB7F9WkT8oYs9dGJUXxknp7bvibic91EiclGibRAhcErlibyiaMuw/640?wx_fmt=png&from=appmsg)
+![](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_019_379f230ceb56.png)
 
   
 
@@ -142,13 +142,13 @@ Si/SiC 混合开关器件通过 “Si 的低成本与大电流优势 + SiC 的�
 
 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_020_389a32ed7e2f.jpg)
 
     专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
 
   
 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_021_5c5a8d468409.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+![图片](APEC2025_Si_SiC混合开关器件优化大功率逆变器的性能_images/img_022_573ddf34e793.png)

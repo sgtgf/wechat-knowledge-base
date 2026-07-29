@@ -20,7 +20,7 @@
 
 CPU无时不刻的在处理着大量的事务，但有些事情却没有那么重要，比方说数据的复制和存储数据，如果我们把这部分的CPU资源拿出来，让CPU去处理其他的复杂计算事务，是不是能够更好的利用CPU的资源呢？
 
-因此：转移数据（尤其是转移大量数据）是可以不需要CPU参与。比如希望外设A的数据拷贝到外设B，**只要给两种外设提供一条数据通路，直接让数据由A拷贝到B，不经过CPU的处理**。![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZjFVyVFZ5zibazcSTIpqdnOSvHOhab7ibic1e0zn7cUGxtJwsutmvPfVuQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+因此：转移数据（尤其是转移大量数据）是可以不需要CPU参与。比如希望外设A的数据拷贝到外设B，**只要给两种外设提供一条数据通路，直接让数据由A拷贝到B，不经过CPU的处理**。![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_002_59ee6f2096ab.png)
 
 DMA就是基于以上设想设计的，它的作用就是解决大量数据转移过度消耗CPU资源的问题。有了DMA使CPU更专注于更加实用的操作–计算、控制等。
 
@@ -47,7 +47,7 @@ DMA就是基于以上设想设计的，它的作用就是解决大量数据转�
 
 我们知道，数据传输，**首先需要的是：1 数据的源地址，2 数据传输位置的目标地址，3 传递数据多少的数据传输量，4 进行多少次传输的传输模式**。DMA所需要的核心参数，便是这四个。
 
-当用户将参数设置好，主要涉及**源地址、目标地址、传输数据量**这三个，DMA控制器就会启动数据传输，当剩余传输数据量为0时，达到传输终点，结束DMA传输。当然，**DMA 还有循环传输模式**。当到达传输终点时，会重新启动DMA传输。也就是说，只要剩余传输数据量不是0，而且DMA是启动状态，那么就会发生数据传输。![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZ2lIicHqD7In285w5JGuAPYWXwDyv1p4qN1iauuLKIwYia8f6AejSkx6eA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+当用户将参数设置好，主要涉及**源地址、目标地址、传输数据量**这三个，DMA控制器就会启动数据传输，当剩余传输数据量为0时，达到传输终点，结束DMA传输。当然，**DMA 还有循环传输模式**。当到达传输终点时，会重新启动DMA传输。也就是说，只要剩余传输数据量不是0，而且DMA是启动状态，那么就会发生数据传输。![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_003_0de4f0d975da.png)
 
 ### DMA的主要特征
 
@@ -74,17 +74,17 @@ DMA就是基于以上设想设计的，它的作用就是解决大量数据转�
 
 **①DMA1 controller**
 
-从外设（TIMx\[x=1、2、3、4\]、ADC1、SPI1、SPI/I2S2、I2Cx\[x=1、2\]和USARTx\[x=1、2、3\]）产生的7个DMA请求，通过逻辑或输入到DMA1控制器，其中每个通道都对应着具体的外设：![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZoJ97Tmz5aRJnvz4Beiax2OC1VKGvibGfuMg4GXqWuHiaeU6II1vXsueZg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZErkhmoo2Lj8a9HSkNxibfKZZg3EhRKdERqyZ8vl2FVAmPbjluvKum8Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+从外设（TIMx\[x=1、2、3、4\]、ADC1、SPI1、SPI/I2S2、I2Cx\[x=1、2\]和USARTx\[x=1、2、3\]）产生的7个DMA请求，通过逻辑或输入到DMA1控制器，其中每个通道都对应着具体的外设：![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_004_c67ccbad49f6.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_005_d615677a696f.png)
 
 **② DMA2 controller**
 
-从外设（TIMx\[5、6、7、8\]、ADC3、SPI/I2S3、UART4、DAC通道1、2和SDIO）产生的5个请求，经逻辑或输入到DMA2控制器，其中每个通道都对应着具体的外设：![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZdIM8qPtN9fZpytvrjHuKEuAqPt1eIPedDXZH8icrjVZmvA7UcOYGOJw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZlSf7rMYUo1Ky1w3ZK4yAtOrBGibjLuG2U36G6Ksjibic0ZB1M5QibXicVicg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+从外设（TIMx\[5、6、7、8\]、ADC3、SPI/I2S3、UART4、DAC通道1、2和SDIO）产生的5个请求，经逻辑或输入到DMA2控制器，其中每个通道都对应着具体的外设：![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_006_40c7f5fb0baa.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_007_c8543b287600.png)
 
 这些在下方系统框图中，也可以清晰地看到。
 
 ### DMA工作系统框图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZibPZvic7icgG7Wuciaz0fdgC7c9YcJIWC3g7HSElRibQw1mgk175oV2Kteg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_008_b926b4e531bc.png)
 
 上方的框图，我们可以看到STM32内核，存储器，外设及DMA的连接，这些硬件最终通过各种各样的线连接到总线矩阵中，硬件结构之间的数据转移都经过总线矩阵的协调，使各个外设和谐的使用总线来传输数据。我们对他来进行一点一点的分析：
 
@@ -100,7 +100,7 @@ DMA就是基于以上设想设计的，它的作用就是解决大量数据转�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZoQI2Wale1ERNHYDpbZwiaS6hhFiaRjp5jMaV1OsPhm6Xia8byNcymL8mA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_009_86f6ab4103c0.png)
 
 在这里插入图片描述
 
@@ -121,7 +121,7 @@ DMA就是基于以上设想设计的，它的作用就是解决大量数据转�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZTef8WO4nkjXooGMUiaJHZvvwV7bY9MqtFkSfV1DtIfSExoaPunYSENA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_010_e11df7326d2f.png)
 
 在这里插入图片描述
 
@@ -152,7 +152,7 @@ DMA就是基于以上设想设计的，它的作用就是解决大量数据转�
 
 ### 仲裁器
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZROiccIeoY1Tg0s9SxmWLpZSbc2ibBLm1wFJ3zxbcP5XTfia13201zA2Iw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_011_1c44a8a0fe53.png)
 
 **仲裁器的作用是确定各个DMA传输的优先级。**
 
@@ -186,7 +186,7 @@ DMA就是基于以上设想设计的，它的作用就是解决大量数据转�
 -   双缓冲区类型事务：使用存储器的两个存储器指针的双缓冲区传输（当 DMA 正在进行自/至缓冲区的读/写操作时，应用程序可以进行至/自其它缓冲区的写/读操作）。要传输的数据量（多达 65535）可以编程，并与连接到外设 AHB 端口的外设（请求 DMA 传输）的源宽度相关。每个事务完成后，包含要传输的数据项总量的寄存器都会递减。
     
 
-DMA\_SxCR 寄存器控制数据流到底使用哪一个通道，每个数据流有 8 个通道可供选择，每次只能选择其中一个通道进行 DMA 传输。接下来，我们看看 DMA2 的各数据流通道映射表，如表 28.1.1 所示：![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZdTib6H9BlCMQDYXfaX1qmW1TwMaMAl5nm3aDoMPVicxMziajkKqoyZPHg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+DMA\_SxCR 寄存器控制数据流到底使用哪一个通道，每个数据流有 8 个通道可供选择，每次只能选择其中一个通道进行 DMA 传输。接下来，我们看看 DMA2 的各数据流通道映射表，如表 28.1.1 所示：![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_012_07cc86942d65.png)
 
 ### DMA传输通道
 
@@ -216,7 +216,7 @@ DMA\_SxCR 寄存器控制数据流到底使用哪一个通道，每个数据流�
 
 **每个DMA通道都可以在DMA传输过半、传输完成和传输错误时产生中断**。为应用的灵活性考虑，通过设置寄存器的不同位来打开这些中断。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZmG2M1VbPJMXaBUky5ic62eV9PRlibaxUZEttoehYOJHpvbiaG4MrkgsCg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_013_c68895421a94.png)
 
 使没开启，我们也可以通过查询这些位来获得当前 DMA 传输的状态。这里我们常用的是 TCIFx位，即数据流 x 的 DMA 传输完成与否标志。
 
@@ -240,7 +240,7 @@ DMA配置参数包括：**通道地址、优先级、数据传输方向、存储
 
 ### DMA中断状态寄存器(DMA\_ISR)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZS0iaXAOP9xuPGaBhdzCKyLRlsGB3ccRd4s3qYK1NiaMyE2O5IywVVphw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_014_9dc7f4b4efa9.png)
 
 我们如果开启了 DMA\_ISR 中这些中断，在达到条件后就会跳到中断服务函数里面去，即使没开启，我们也可以通过查询这些位来获得当前 DMA 传输的状态。这里我们常用的是 TCIFx，即通道 DMA 传输完成与否的标志。
 
@@ -248,31 +248,31 @@ DMA配置参数包括：**通道地址、优先级、数据传输方向、存储
 
 ### DMA中断标志清除寄存器(DMA\_IFCR)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZ1icTBh5HomNgBade8XMWIPxLzCUbcZNwyafNhVl3FKXjr4cHfgF8sibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_015_f5d3ed8a5849.png)
 
 DMA\_IFCR 的各位就是用来清除 DMA\_ISR 的对应位的，通过写 0 清除。在 DMA\_ISR 被置位后，我们必须通过向该位寄存器对应的位写入 0 来清除。
 
 ### DMA通道x配置寄存器(DMA\_CCRx)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZzGKumHn0iapgsGg53iafj8fjzc6Qlgay0UoicicSmzoTpfYaV1pIHCib96w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_016_3cd22824fdcb.png)
 
 该寄存器控制着 DMA 的很多相关信息，包括数据宽度、外设及存储器的宽度、通道优先级、增量模式、传输方向、中断允许、使能等都是通过该寄存器来设置的。所以，**DMA\_CCRx 是 DMA 传输的核心控制寄存器。**
 
 ### DMA通道x传输数量寄存器(DMA\_CNDTRx)(x = 1…7)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZs6T6Rju6Jg48byjGBPVcM4iaOrwgabQcRewAqANWsDJju0LrJO3IiatQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_017_c24bf9276009.png)
 
 这个寄存器控制 DMA 通道 x 的每次传输所要传输的数据量。其设置范围为 0~65535。并且该寄存器的值会随着传输的进行而减少，当该寄存器的值为 0 时，就代表此次数据传输已经全部发送完成了。所以，可以通过这个寄存器的值来知道当前 DMA 传输的进度。
 
 ### DMA通道x外设地址寄存器(DMA\_CPARx)(x = 1…7)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZibPBCkOiaDL6LTVMaSSbIW2a43BHsTypMbIxe7612v6iaO5F2ETMVxL7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_018_0b41b695b948.png)
 
 该寄存器用来存储 STM32 外设的地址，比如我们使用串口 1，那么该寄存器必须写入 0x40013804（其实就是&USART1\_DR）。如果使用其他外设，就修改成相应外设的地址就行了。
 
 ### DMA通道x配置寄存器（DMA\_CMARx）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wqfIPAmgib2VbKx0ekFs4MxMa7598LqsZicotxuodsMwfq1y3mDw0VwgDcjpe89Iug4UUTgv0Riby9zbP1nriaHfkQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_019_41ff504fc466.png)  
 
 该寄存器和 DMA\_CPARx 差不多，不过是用来放存储器的地址的。比如我们使用 SendBuf\[5200\]数组来做存储器，那么我们在 DMA\_CMARx 中写入&SendBuff 就可以了。
 
@@ -380,7 +380,7 @@ DMA就是一个搬运工，可以将数据从一个位置搬运到另一个位�
 
 `#define SEND_BUF_SIZE 500 //发送数据长度,最好等于sizeof(TEXT_TO_SEND)+2的整数倍.       u8 SendBuff[SEND_BUF_SIZE]; //发送数据缓冲区   const u8 TEXT_TO_SEND[]={"STM32F1 DMA 串口实验"};    uint16_t i;   int main(void)   {        uart_init(115200);   //串口初始化为115200         for(i=0;i<500;i++)    {    SendBuff[i] =0xaf;    }     USART_DMACmd(USART1,USART_DMAReq_Tx,ENABLE);  //使能串口dma传输         while(1);   }`
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWia8uHcP8IJiacPyCbngNpHlaxWZNEIIoDp4lb3Q1N2Gb8mHODhGqOqrt0jpYtGyjh8eEeQcMYGBDNg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\DMA基础介绍_images\img_020_1d6f8dadf84c.png)
 
 **END**
 

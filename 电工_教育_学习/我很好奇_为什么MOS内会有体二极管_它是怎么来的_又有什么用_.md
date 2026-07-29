@@ -20,9 +20,9 @@
 
 日常工作中用的最多的有三种封装SOT-23，SOP-8，TO-220(TO-247)，但他们的内部毫无疑问都会有体二极管的存在。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjWstw1lCDPHPzNbyBnicdlOTribgn6qjcWg81z7AaA8ctRQgeBbVHlk9eg/640?wx_fmt=png&from=appmsg)  ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjWEgbt7ILiayjoA8kMicDxbqRMJVo6UMVrSC8s0DibwHI3Xygh2Y5Bib67Iw/640?wx_fmt=png&from=appmsg) ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjW6pbTENFPibqxLVzk1xSnkdKRicJjm6r1dOWOs43h6RWibEZYiaCkTpB13g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_002_6c4d936a076f.png)  ![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_003_753f519b2ac8.png) ![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_004_30be20771b35.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjW69WML0adw3Boaickw1p97YabPxAibMjOvoMETjSV0D1qF5IKP9weLibWw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_005_0d212dc8fc16.png)
 
   
 
@@ -34,13 +34,13 @@
 
 假设有一个P型衬底，P型衬底上面参杂了两个N型半导体，一个引出来作为源极s，一个作为漏极d，其中栅极到源极和栅极到漏极是对称的。然后通过一个sio2绝缘层与P型衬底之间隔离，在上面引出一个栅极G。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjWjujMeNugiciarvxYtyLx8wXPibb69lBhItkgoeOzP82EQBhicgUky5iaIjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_006_4e5189002980.png)
 
   
 
 如果我们在栅极G上施加一个正向电压VCC，这时候就会让衬底的空穴往下移，如下图的+++，那么sd之间会形成一条沟道---，这条沟道主要是为N型半导体两边的电子提供一条可移动通道，也即我们说的N沟道。当这条通道打开以后，里面相当于一条导线，电流可以从左往右，也可以从右往左随意流动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjW5r4NgLJwxddG8ibGFicrxzCUKbFJblBnQnWjwUuKTXWDozCan8CU6H9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_007_7dd9824b4b3c.png)
 
 ## 问题1、体二极管是怎么形成的呢？
 
@@ -50,7 +50,7 @@
 
 如图有两个PN结，体二极管就是其中一个PN结。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjWypZjjLvpiaxtxgsMgsub63bTRO443dv7XS6vxNUXJNMbbM1FoiaqfnyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_008_0af3d3ddaeac.png)
 
   
 
@@ -58,13 +58,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiauxHypiaqjmjkRHWsEMOJjWY1yNWocc3P9I0gNpK3dBm87rgBdFQSePO96NS0Dr99wzfmOOAhjvzQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_009_e8a6ab9b1f53.png)
 
   
 
 其实，对比MOS管的符号来看，就知道了，箭头中间也就是衬底，它跟源极s是短接在一起的，不管N沟道还是P沟道MOS管都是这样的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhqpIuJpq4LeBQlj8nWjX0GwLR7kXtzFNwicUicZibtwWh6pgSSXQY1BicfUHXjnhKq6LyMiaUJnTmq09w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_010_70e14d5611d9.jpg)
 
   
 
@@ -87,21 +87,21 @@
 
 既然体二极管是工艺决定，无法避免，那就可以好好拿来利用一下。巧妙利用体二极管有以下电路，都是王工之前总结出来的。（大家点击图片可以直接查看）
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bfaVzFMFolpfpLlo6XwibKfujrmcEa14jqcJOfpKuWUg0jOhKEyqUiaL1w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&chksm=c30a1d5bf47d944d60fa72d37ad4203463320ea94df8b9a95d78ad40692ae1a8a450defa4da4&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_011_a980877e2ad6.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&chksm=c30a1d5bf47d944d60fa72d37ad4203463320ea94df8b9a95d78ad40692ae1a8a450defa4da4&scene=21#wechat_redirect)
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj4kgJ4OicKXugRpfN6kcCmm9uTc64GWe8QKUiaqBvrGSGNBamOZiatZiaDxVQgokbyssH5ubUhRTRmZw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554606&idx=1&sn=d0fbfd8d1263e43a13bf2e92b6b9a3c9&chksm=c30ac8fcf47d41ea134398b37fda8201f34c191893d18410f902458c3833f529d997f25d4475&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_012_3c30695137d0.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554606&idx=1&sn=d0fbfd8d1263e43a13bf2e92b6b9a3c9&chksm=c30ac8fcf47d41ea134398b37fda8201f34c191893d18410f902458c3833f529d997f25d4475&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgW0ykm7ibps8Esu8nEYIQ4nv5l4zWQWcaTCpedQRv9O0IibeTOhxkhib7HLuP8HhPXPUvsFQiaLGbWkw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247512088&idx=2&sn=bd79be35963e5d9830053c1540ff1ba2&chksm=c30a6ecaf47de7dc25183b54de9f4c4027070b8dd4419e4979a7d94990f4cccb62e4e3e1e8b6&scene=21#wechat_redirect)  
-
-  
-
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiab6dMcJIVgGmibsP7V1ttYOa6xZ1Pcrzt5qZ9Eju4njhddxt9LXMKLQcLa7vfaXrjFhzSRHAX91xw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247548044&idx=1&sn=02ff815fd21a11a2792015389b7dba49&chksm=c30ae25ef47d6b487b18cf9e0b085c4fd772d0b5420fc2dd742194de8380d1f10911847ea868&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_013_e7fb16eb879a.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247512088&idx=2&sn=bd79be35963e5d9830053c1540ff1ba2&chksm=c30a6ecaf47de7dc25183b54de9f4c4027070b8dd4419e4979a7d94990f4cccb62e4e3e1e8b6&scene=21#wechat_redirect)  
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaiact5ia6wIAJZ5QTha3ayTmbgpE3qkiaXjsp431skfKhkiaSiaeNw8QBeMdlJEUdxaEXgztQWib7N6Bsw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247552261&idx=1&sn=fb5b1239b8da16af84c9c7ef7f6b3433&chksm=c30ad3d7f47d5ac15c7dac279a3154af0bcdf681d5da827bae1c4a21940625c547eb1d077f23&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_014_6304f68dc64d.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247548044&idx=1&sn=02ff815fd21a11a2792015389b7dba49&chksm=c30ae25ef47d6b487b18cf9e0b085c4fd772d0b5420fc2dd742194de8380d1f10911847ea868&scene=21#wechat_redirect)
+
+  
+
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_015_e75eda11391e.png)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247552261&idx=1&sn=fb5b1239b8da16af84c9c7ef7f6b3433&chksm=c30ad3d7f47d5ac15c7dac279a3154af0bcdf681d5da827bae1c4a21940625c547eb1d077f23&scene=21#wechat_redirect)
 
 **写在最后**
 
@@ -121,17 +121,17 @@
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_016_c270758cd48d.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpQvHwjHHqyVg59KzponKUXpOg5ynXzOHs40lCXUaWtovFsNlZm4MgicA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_017_a43ff79f2147.jpg)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247487790&idx=1&sn=d4c4d72acf77e594d9bea313f957e27c&chksm=c309cffcf47e46eace62a9f21dcb5f58515686ff7adacb9ee9008bc0851809c6df6507734bed&scene=21#wechat_redirect)
 
 \-END-
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaWnSKI4kn4UmCxsTKOu0z4z3urajxpwe0tUDqkpLrz1mPVkMVL3OpCU4nfwdbeQ5T9SbS4QT5cJA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_018_d96f0d185796.jpg)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_019_854de1eb795d.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\我很好奇_为什么MOS内会有体二极管_它是怎么来的_又有什么用__images\img_020_17c99fedbed1.jpg)
 
 ## 
 

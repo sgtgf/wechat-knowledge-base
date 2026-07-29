@@ -30,7 +30,7 @@
 
 首先，我们需要明确USB3.0和USB2.0的关键区别。USB3.0在USB2.0的D+和D-两根数据线基础上，新增了两组差分线：SSRX-、SSRX+和SSTX-、SSTX+。正是这两组额外的"高速通道"，使得USB3.0的理论传输速率可以达到5Gbps，远超USB2.0的30Mb/s。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mmf48A6s7U0ALQDOicGluqluq9aLMjroMWftTf6uIFXZrahHWZJXeQ2Jg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_002_b8d5021292b7.png)
 
   
 
@@ -38,7 +38,7 @@
 
 存储器（一般是U盘）→ USB数据线 → 主机（也可以是笔记本电脑），然后可以通过测试软件读取USB数据传输过程中的读写速率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mmLEPM0tiaDlKNIA4RGBvCCrP1cdkicKLeibrFjX6ibWVehgDbalu4lTdGFQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_003_ba93e71a2404.png)
 
 在开始测试前，我已确认：
 
@@ -54,7 +54,7 @@
 
 首先怀疑的是USB3.0控制芯片，这个芯片是QFN封装，可能存在虚焊的情况（这种现象比较常见），如果部分引脚未连接或者短路，就会引起电源工作异常，或者只能走"老路"（USB2.0模式），甚至数据不通。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaw0pRiagcPkJhG6QvrUtkvy2vxX0f5gW7gS81iaavPEyicQtccWmib2r2Fib6EibRUok5ZLn9n4nMwgUmw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_004_120c3678eda1.png)
 
 我按照以下步骤进行了详细检查：
 
@@ -88,12 +88,12 @@ USB3.0对电源噪声非常敏感，任何微小的干扰都会影响其表现�
     
 -   USB3.0：除了保留D+/D-外，新增SSRX和SSTX两对差分线
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaw0pRiagcPkJhG6QvrUtkvyMelb3qSUFL9AialJVkibTOGplKm01W24afPARlnHpy12KPRxiaLfkgMtA/640?wx_fmt=png&from=appmsg)
+    ![](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_005_5a2b9765a4e2.png)
     
 
 我随手拿起一根看起来很粗壮的USB线进行测试，结果... ...中招了！其实也可以直接从接口看到引脚的差距。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaw0pRiagcPkJhG6QvrUtkvyjYDEuzYpo8efShoefSDVdXlNWCoMSGpP9mAmqrDlfKRyibGUEtJibIoQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_006_0e6643b18e14.png)
 
 解剖后发现，这根线也确实是USB2.0的四根线芯，缺少USB3.0必需的高速差分对。这就好比给跑车加92号汽油，怎么可能跑出应有的性能？
 
@@ -117,7 +117,7 @@ USB3.0对电源噪声非常敏感，任何微小的干扰都会影响其表现�
 -   参考平面要完整，避免跨分割
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mmW41lMnpbNGWIS78dquKtu4hPiby8RNyus5WUwUZbxUib0b5iaZZlicPUYw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_007_7249c957655e.png)
 
   
 
@@ -129,7 +129,7 @@ USB3.0对电源噪声非常敏感，任何微小的干扰都会影响其表现�
 -   观察信号质量，确保"眼睛"睁开度足够
     
 
-### ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mm48f40NHWMLlx6uJwltYibYYuQpN8xWOkyfHOmrlwCI4fP7OwCZWdBGw/640?wx_fmt=png&from=appmsg)
+### ![](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_008_cef3bba1a0ad.png)
 
 ###   
 
@@ -151,9 +151,9 @@ USB3.0对电源噪声非常敏感，任何微小的干扰都会影响其表现�
 
 推荐阅读（点击图片直接进入）
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_009_8f872b8ba8ee.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
 
-[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+[![图片](D:\电脑文件\公众号知识库\电工_教育_学习\USB3_0板子跑出USB2_0的速度_我是这样一步一步排查的_images\img_010_ae4afad92afd.png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
 
 投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
 
